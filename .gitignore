@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Build and Temporary Files
+temp_*/
+temp_maqueta_*.html
+.temp/
+
+# Large Rendered Media (Keep code, manifests, and reference PDFs)
+classes/dist/videos/*.mp4
+classes/dist/audio/**/*.mp3
+classes/temp_render_*/
+
+# IDE
+.vscode/
+.idea/

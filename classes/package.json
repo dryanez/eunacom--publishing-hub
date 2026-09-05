@@ -1,0 +1,27 @@
+{
+  "name": "eunacom-classes-engine",
+  "version": "1.0.0",
+  "description": "EUNACOM 2026 Perfil V3 Masterclass Studio (14-Slide React Decks, ElevenLabs Audio & 1080p Video Exporter)",
+  "main": "scripts/render_class_video.cjs",
+  "scripts": {
+    "audio:cardio-01": "node scripts/generate_class_audio.cjs --class=cardio-01",
+    "audio:gastro-01": "node scripts/generate_class_audio.cjs --class=gastro-01",
+    "video:export": "node scripts/render_class_video.cjs",
+    "inject:cardio": "node scripts/inject_cardio01_script.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.359.0",
+    "puppeteer": "^22.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "keywords": [
+    "eunacom",
+    "medical-education",
+    "react-decks",
+    "elevenlabs",
+    "puppeteer-video"
+  ],
+  "author": "EUNACOM Prep Team",
+  "license": "MIT"
+}

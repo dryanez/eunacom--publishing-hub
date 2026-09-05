@@ -1,0 +1,19 @@
+{
+  "name": "eunacom-publishing-hub",
+  "version": "1.0.0",
+  "description": "EUNACOM 2026 Publishing & Masterclass Studio Hub",
+  "private": true,
+  "workspaces": [
+    "books",
+    "classes"
+  ],
+  "scripts": {
+    "build:books": "npm run build --prefix books",
+    "build:infecto": "npm run build:infectologia --prefix books",
+    "build:gastro": "npm run build:gastro --prefix books",
+    "build:cardio": "npm run build:cardio --prefix books",
+    "audio:cardio": "npm run audio:cardio-01 --prefix classes"
+  },
+  "author": "EUNACOM Prep Team",
+  "license": "MIT"
+}

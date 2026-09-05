@@ -1,0 +1,24 @@
+{
+  "name": "eunacom-books-engine",
+  "version": "1.0.0",
+  "description": "EUNACOM 2026 High-Density Editorial Manual Publishing Engine",
+  "main": "scripts/build_book.cjs",
+  "scripts": {
+    "build": "node scripts/build_book.cjs",
+    "build:infectologia": "node scripts/build_book.cjs infectologia",
+    "build:gastro": "node scripts/build_book.cjs gastroenterologia",
+    "build:cardio": "node scripts/build_book.cjs cardiologia"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  },
+  "keywords": [
+    "eunacom",
+    "medical-education",
+    "editorial-design",
+    "puppeteer",
+    "pdf"
+  ],
+  "author": "EUNACOM Prep Team",
+  "license": "MIT"
+}

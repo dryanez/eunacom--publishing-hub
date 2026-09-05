@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 42 743 320" width="100%" height="240px" style="max-width:743px;height:240px;font-family:'Inter',system-ui,sans-serif;">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- 1. CONTACTOS DE TUBERCULOSIS -->
+  <g filter="url(#cardShadow)">
+    <rect x="20" y="55" width="215" height="102" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+    <rect x="20" y="55" width="215" height="22" rx="6" fill="url(#redGrad)"/>
+    <text x="127" y="70" fill="#ffffff" font-size="9.5" font-weight="700" text-anchor="middle">1. CONTACTO DE TBC BACILÍFERA</text>
+    <text x="30" y="93" fill="#991b1b" font-size="8" font-weight="700">• Estudio: Clínica + Rx Tórax + BK</text>
+    <text x="30" y="106" fill="#334155" font-size="8">• PPD solo en &lt; 15 años y pacientes VIH</text>
+    <text x="30" y="119" fill="#1e3a8a" font-size="8" font-weight="700">• &lt; 15 años: Isoniazida SIEMPRE de entrada</text>
+    <text x="30" y="132" fill="#334155" font-size="7.8">  (3m si PPD- y repetir; 6m si vira a PPD+)</text>
+    <text x="30" y="146" fill="#dc2626" font-size="7.8" font-weight="700">• Adulto PPD &gt; 10 mm: Isoniazida 6 meses</text>
+  </g>
+
+  <path d="M 235 106 L 265 106" stroke="#64748b" stroke-width="2"/>
+
+  <!-- 2. COQUELUCHE Y MENINGO -->
+  <g filter="url(#cardShadow)">
+    <rect x="270" y="55" width="210" height="102" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+    <rect x="270" y="55" width="210" height="22" rx="6" fill="url(#amberGrad)"/>
+    <text x="375" y="70" fill="#ffffff" font-size="9.5" font-weight="700" text-anchor="middle">2. COQUELUCHE Y MENINGO</text>
+    <text x="280" y="93" fill="#92400e" font-size="8.5" font-weight="700">• Coqueluche (Bordetella):</text>
+    <text x="280" y="106" fill="#334155" font-size="8">  Azitromicina x 5 días a sintomáticos</text>
+    <text x="280" y="119" fill="#334155" font-size="8">  y grupos de riesgo (&lt; 1 año, emb. 3er T)</text>
+    <text x="280" y="133" fill="#1e3a8a" font-size="8.5" font-weight="700">• Meningococo: Rifampicina x 2 días</text>
+    <text x="280" y="146" fill="#047857" font-size="7.8">• H. influenzae b: Rifampicina x 4 días</text>
+  </g>
+
+  <path d="M 480 106 L 510 106" stroke="#64748b" stroke-width="2"/>
+
+  <!-- 3. ACCIDENTE CORTOPUNZANTE -->
+  <g filter="url(#cardShadow)">
+    <rect x="515" y="55" width="205" height="102" rx="6" fill="#f8fafc" stroke="#1e3a8a" stroke-width="1.5"/>
+    <rect x="515" y="55" width="205" height="22" rx="6" fill="url(#blueGrad)"/>
+    <text x="617" y="70" fill="#ffffff" font-size="9.5" font-weight="700" text-anchor="middle">3. ACCIDENTE CORTOPUNZANTE</text>
+    <text x="525" y="93" fill="#1e3a8a" font-size="8" font-weight="700">• Lavado inmediato agua + jabón</text>
+    <text x="525" y="106" fill="#dc2626" font-size="8" font-weight="700">• Fuente VIH (+) o desconocida:</text>
+    <text x="525" y="119" fill="#334155" font-size="8">  Ofrecer Triterapia (PEP) x 28 días</text>
+    <text x="525" y="132" fill="#047857" font-size="8">  Iniciar &lt; 2-4 horas (máx. 72 horas)</text>
+    <text x="525" y="146" fill="#334155" font-size="7.8">  Control ELISA: día 0, 6 semanas, 3 meses</text>
+  </g>
+
+  <!-- Bottom Box: REGLAS DE ORO DE PROFILAXIS -->
+  <g filter="url(#cardShadow)">
+    <rect x="20" y="172" width="700" height="135" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="20" y="172" width="700" height="22" rx="6" fill="url(#greenGrad)"/>
+    <text x="370" y="187" fill="#ffffff" font-size="9.5" font-weight="700" text-anchor="middle">REGLAS CLÍNICAS DE ORO EN PROFILAXIS Y CONTACTOS (EUNACOM)</text>
+    
+    <text x="35" y="210" fill="#065f46" font-size="8.5" font-weight="700">Recién Nacido de Madre Bacilífera (TBC):</text>
+    <text x="35" y="224" fill="#334155" font-size="8">• Madre usa mascarilla quirúrgica en todo momento</text>
+    <text x="35" y="238" fill="#1e3a8a" font-size="8" font-weight="700">• Recién nacido recibe Isoniazida por 6 meses</text>
+    <text x="35" y="252" fill="#dc2626" font-size="8">• Vacuna BCG se suspende y difiere hasta terminar la profilaxis</text>
+    <text x="35" y="266" fill="#047857" font-size="8" font-weight="700">• Lactancia materna SÍ ESTÁ PERMITIDA (no se transmite por leche)</text>
+
+    <text x="380" y="210" fill="#1e3a8a" font-size="8.5" font-weight="700">Recién Nacido de Madre HBsAg (+) (Hepatitis B):</text>
+    <text x="380" y="224" fill="#334155" font-size="8">• Administrar en las primeras 12 horas de vida:</text>
+    <text x="380" y="238" fill="#1e3a8a" font-size="8" font-weight="700">  1) Vacuna anti-VHB monovalente IM (sitio 1)</text>
+    <text x="380" y="252" fill="#1e3a8a" font-size="8" font-weight="700">  2) Inmunoglobulina específica anti-HBs (IGHB) IM (sitio 2)</text>
+    <text x="380" y="266" fill="#047857" font-size="8">• Lactancia materna permitida tras la inmunoprofilaxis</text>
+  </g>
+</svg>
