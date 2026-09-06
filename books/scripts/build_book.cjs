@@ -32,6 +32,7 @@ try {
     throw new Error("Cannot find module 'puppeteer'. Please run 'npm install' first.");
   }
 }
+const matcher = require('./reconstruction_matcher.cjs');
 
 const ROOT = path.join(__dirname, '..');
 const SVG_DIR = path.join(ROOT, 'svg_diagrams');
@@ -154,11 +155,17 @@ function parseReconstrucciones(str, title) {
   if (!str) return [];
   const out = [];
   stripTags(str).split('·').forEach(chunk => {
-    const m = chunk.match(/(\d{4})\s*\(([^)]+)\)/);
+    const trimmed = chunk.trim();
+    if (!trimmed || trimmed.toLowerCase().startsWith('sin preguntas')) return;
+    const m = trimmed.match(/EUNACOM\s+([A-Za-záéíóúÁÉÍÓÚ]+)?\s*(\d{4})\s*\(([^)]+)\)/i)
+      || trimmed.match(/(\d{4})\s*\(([^)]+)\)/);
     if (!m) return;
-    m[2].split(',').forEach(q => {
+    const mes = m[1] && isNaN(m[1]) ? m[1].trim() + ' ' : '';
+    const ano = m[2] && !isNaN(m[2]) ? m[2] : m[1];
+    const rawQ = m[3] || m[2];
+    rawQ.split(',').forEach(q => {
       const qn = q.replace(/[^\d#]/g, '');
-      if (qn) out.push({ tag: `EUNACOM ${m[1]} · ${qn.startsWith('#') ? qn : 'Q' + qn}`, text: title });
+      if (qn) out.push({ tag: `EUNACOM ${mes}${ano} · ${qn.startsWith('#') ? qn : 'Q' + qn}`.replace(/\s+/g, ' '), text: title });
     });
   });
   return out;
@@ -195,6 +202,13 @@ const CN = n => String(n).padStart(2, '0');
 /* ───────────────────────────── prepare ───────────────────────────── */
 
 function prepare(data, figSpec) {
+  // Sincronizar automáticamente cada clase con el banco oficial de reconstrucciones reales
+  data.forEach(c => {
+    if (c.perfilCode) {
+      c.reconstrucciones = matcher.getReconstruccionesString(c.perfilCode);
+    }
+  });
+
   const bns = [...new Set(data.map(c => c.blockNum))].sort((a, b) => a - b);
   const blocks = bns.map(bn => {
     const classes = data.filter(c => c.blockNum === bn);

@@ -98,7 +98,7 @@ const bloque1 = [
     perfilCode: '1.04.2.007',
     dx: 'Específico', tx: 'Inicial', seg: 'Derivar',
     ges: 'Garantía Explícita en Salud (GES): Manejo Integral del Paciente Crítico en Cuidados Intensivos',
-    reconstrucciones: 'EUNACOM 2024 (Q#12) · EUNACOM 2022 (Q#88) · EUNACOM 2020 (Q#45) · EUNACOM 2018 (Q#102)',
+    reconstrucciones: 'Sin preguntas en exámenes 2013-2025 · Foco prioritario Perfil V3 2026',
     frecuencia: 'Máxima rentabilidad · aparece en el 100% de las versiones del EUNACOM',
     svg: null, algoTitle: 'Algoritmo de Resucitación Hemodinámica y Manejo de Shock Séptico',
     diagram: flow('Resucitación Hemodinámica y Escalamiento Vasoactivo en Shock Séptico', [
@@ -203,7 +203,7 @@ const bloque1 = [
     perfilCode: '1.04.2.006',
     dx: 'Específico', tx: 'Inicial', seg: 'Derivar',
     ges: 'Garantía Explícita en Salud (GES): Infecciones del Sistema Nervioso Central en Adultos y Pediatría',
-    reconstrucciones: 'EUNACOM 2024 (Q#33) · EUNACOM 2023 (Q#77) · EUNACOM Diciembre 2019 (Q#12) · EUNACOM 2017 (Q#68)',
+    reconstrucciones: 'EUNACOM Julio 2017 (Q#81) · EUNACOM Diciembre 2017 (Q#61) · EUNACOM Julio 2015 (Q#130) · EUNACOM Julio 2013 (Q#37)',
     frecuencia: 'Máxima rentabilidad · diagnóstico diferencial de LCR y banderas rojas de TAC',
     svg: null, algoTitle: 'Algoritmo de Decisión Inmediata: TAC Previo a Punción Lumbar',
     diagram: flow('Enfrentamiento de Meningitis Aguda y Decisión de TAC Cerebral', [
@@ -309,7 +309,7 @@ const bloque1 = [
     perfilCode: '1.04.2.001, 1.04.2.002',
     dx: 'Específico', tx: 'Inicial', seg: 'Derivar',
     ges: 'Garantía Explícita en Salud (GES): Infecciones del Sistema Nervioso Central',
-    reconstrucciones: 'EUNACOM 2023 (Q#14) · EUNACOM 2021 (Q#92) · EUNACOM 2018 (Q#31)',
+    reconstrucciones: 'EUNACOM Julio 2019 (Q#100)',
     frecuencia: 'Alta rentabilidad · preguntas clásicas sobre conducta empírica con Aciclovir y foco de absceso',
     svg: null, algoTitle: null,
     diagram: null,
@@ -401,7 +401,7 @@ const bloque1 = [
     perfilCode: '1.04.2.004, 1.04.2.005',
     dx: 'Específico', tx: 'Inicial', seg: 'Derivar',
     ges: 'Garantía Explícita en Salud (GES): Infecciones Graves de Cabeza, Cuello y Partes Blandas',
-    reconstrucciones: 'EUNACOM 2024 (Q#89) · EUNACOM 2022 (Q#51) · EUNACOM 2019 (Q#72)',
+    reconstrucciones: 'EUNACOM Agosto 2021 (Q#172) · EUNACOM Diciembre 2019 (Q#135)',
     frecuencia: 'Alta rentabilidad · identificación de signos de fascitis necrotizante y manejo de vía aérea',
     svg: null, algoTitle: 'Algoritmo de Manejo Quirúrgico y Reanimación en Infecciones Necrotizantes',
     diagram: flow('Enfrentamiento de Infección Necrotizante y Angina de Ludwig', [

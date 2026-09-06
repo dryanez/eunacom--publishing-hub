@@ -98,3 +98,14 @@ node scripts/build_book.cjs infectologia
 ```
 
 Compila en **12 a 18 segundos** gracias a la optimización de fuentes Puppeteer (`domcontentloaded` + `document.fonts.ready`).
+
+---
+
+## 🔍 6. Lógica de Matching de Reconstrucciones Reales (`reconstruction_matcher.cjs`)
+
+- **Cero citas simuladas o inventadas**: Queda estrictamente prohibido redactar años o números de pregunta ficticios (como `EUNACOM 2024 (Q#12)`).
+- **Fuente de la Verdad Única**: Todo tema clínico se vincula obligatoriamente mediante `reconstruction_matcher.cjs` con la base consolidada `real_questions_by_code.json` (2.708 preguntas clasificadas de los 16 exámenes históricos oficiales 2013–2025).
+- **Citas Verificables y Honestidad Médica**:
+  - **Temas con preguntas históricas**: La cabecera del tema y la portadilla del bloque listan los exámenes y preguntas reales (ej. `EUNACOM Julio 2024 (Q#62) · EUNACOM Diciembre 2024 (Q#99)`), de modo que el lector pueda localizar la pregunta exacta en la plataforma.
+  - **Temas sin preguntas históricas** (como Sepsis o Ántrax): Se rotulan con rigor académico como `Sin preguntas en exámenes 2013-2025 · Foco prioritario Perfil V3 2026`.
+- **Sincronización Automática**: El compilador `build_book.cjs` ejecuta la vinculación de `matcher.getReconstruccionesString(c.perfilCode)` durante la fase de preparación (`prepare()`), asegurando que todos los tomos mantengan coherencia absoluta con el banco de datos.

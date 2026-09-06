@@ -141,3 +141,15 @@ books/
    ```
 3. Registrar la especialidad en el array `SPECIALTIES` en `scripts/build_book.cjs` con su clave y color de acento.
 4. Ejecutar `node scripts/build_book.cjs <especialidad>`.
+
+---
+
+## 🔍 Vinculación Oficial de Reconstrucciones (`reconstruction_matcher.cjs`)
+
+Para asegurar rigor académico absoluto y cero alucinaciones en los manuales:
+- **Base de Datos Real:** Todas las referencias provienen de `books/data/real_questions_by_code.json` (2.708 preguntas clasificadas de los 16 exámenes históricos EUNACOM 2013–2025).
+- **Motor de Matching:** `books/scripts/reconstruction_matcher.cjs` resuelve automáticamente las citas históricas a partir del código Perfil V3 (`perfilCode`).
+- **Comportamiento Editorial:**
+  - Si el tema tiene preguntas reales históricas: Cita exámenes y números reales (ej: `EUNACOM Julio 2024 (Q#62) · EUNACOM Diciembre 2024 (Q#99)`).
+  - Si el tema no tiene antecedentes directos en 2013-2025: Declara con honestidad médica `Sin preguntas en exámenes 2013-2025 · Foco prioritario Perfil V3 2026`.
+  - El compilador `build_book.cjs` sincroniza automáticamente este campo para todas las fichas y la portadilla en tiempo de compilación.
