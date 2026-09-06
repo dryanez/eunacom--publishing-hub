@@ -27,6 +27,7 @@ classes/dist/videos/*.mp4
 classes/dist/audio/**/*.mp3
 classes/temp_render_*/
 books/dist/*_pages/
+*_pages/
 
 # IDE
 .vscode/

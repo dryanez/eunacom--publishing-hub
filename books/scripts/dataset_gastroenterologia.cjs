@@ -377,7 +377,7 @@ module.exports = { gastroenterologiaClasses: [
 
   /* ───────────────────────── 🟢 FOCUSED ───────────────────────── */
   {
-    id: 'gastro-06', classId: 'gastro-06', tier: 1,
+    id: 'gastro-07', classId: 'gastro-07', tier: 1,
     blockNum: 2, blockName: 'Intestino y Colon',
     topicLabel: '2.1', title: 'Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable',
     perfilCode: '1.06.1.008', dx: 'Específico', tx: 'Completo', seg: 'Completo',
@@ -467,9 +467,9 @@ module.exports = { gastroenterologiaClasses: [
 
   /* ───────────────────────── 🔴 DENSE-EMERGENCY ───────────────────────── */
   {
-    id: 'gastro-29', classId: 'gastro-29', tier: 3,
-    blockNum: 3, blockName: 'Vía biliar y Páncreas',
-    topicLabel: '3.1', title: 'Pancreatitis Aguda',
+    id: 'gastro-18', classId: 'gastro-18', tier: 3,
+    blockNum: 4, blockName: 'Vía Biliar y Páncreas',
+    topicLabel: '4.2', title: 'Pancreatitis Aguda',
     perfilCode: '1.06.2.010', dx: 'Específico', tx: 'Inicial', seg: 'Derivar',
     ges: 'Sin garantía GES específica · manejo hospitalario según Norma MINSAL de urgencia abdominal',
     reconstrucciones: 'EUNACOM 2013 (Q#66) · EUNACOM 2013 (Q#121) · EUNACOM Julio 2016 (Q#54) · EUNACOM Diciembre 2019 (Q#101)',

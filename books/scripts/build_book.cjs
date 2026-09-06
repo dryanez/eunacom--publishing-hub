@@ -144,10 +144,12 @@ const SPECIALTIES = [
     out: 'Manual_EUNACOM_Diabetes_Completo_2026.pdf',
   },
   {
-    key: 'endocrinologia', ch: '07', title: 'Endocrinología',
+    key: 'endocrinologia', ch: '07', title: 'Endocrinología & Metabolismo',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
-    subtitle: 'Patología tiroidea (hipo/hipertiroidismo, nódulo y cáncer), patología suprarrenal, trastornos del calcio e hipófisis.',
-    dataset: null,
+    subtitle: 'Patología tiroidea (hipo/hipertiroidismo, nódulo y cáncer), patología suprarrenal (Cushing, Addison, Conn, feocromocitoma), calcio e hipófisis.',
+    dataset: () => require('./dataset_endocrinologia.cjs').endocrinologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Endocrinologia_Completo_2026.pdf',
   },
   {
     key: 'hematologia', ch: '08', title: 'Hematología',
