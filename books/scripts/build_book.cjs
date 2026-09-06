@@ -123,7 +123,9 @@ const SPECIALTIES = [
     key: 'neumologia', ch: '04', title: 'Respiratorio',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
     subtitle: 'Crisis asmática, EPOC, neumonía adquirida en la comunidad, tuberculosis pulmonar, tromboembolismo pulmonar, derrame pleural y neumotórax.',
-    dataset: null,
+    dataset: () => require('./dataset_neumologia.cjs').neumologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Respiratorio_Completo_2026.pdf',
   },
   {
     key: 'nefrologia', ch: '05', title: 'Nefrología',

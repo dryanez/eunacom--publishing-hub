@@ -56,6 +56,7 @@ npm install
 npm run build:infectologia   # Compila el manual completo de Infectología (71 páginas)
 npm run build:gastro         # Compila el manual de Gastroenterología
 npm run build:cardio         # Compila el manual completo de Cardiología
+npm run build:neumo          # Compila el manual completo de Respiratorio (71 páginas)
 ```
 
 *Detalles completos en [`books/README.md`](./books/README.md) y [`books/docs/GASTRO_2PAGE_EDITORIAL_STANDARD.md`](./books/docs/GASTRO_2PAGE_EDITORIAL_STANDARD.md).*
