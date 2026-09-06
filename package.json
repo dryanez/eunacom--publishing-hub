@@ -8,6 +8,7 @@
     "classes"
   ],
   "scripts": {
+    "start": "node run_local.cjs",
     "build:books": "npm run build --prefix books",
     "build:infecto": "npm run build:infectologia --prefix books",
     "build:gastro": "npm run build:gastro --prefix books",
