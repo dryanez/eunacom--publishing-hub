@@ -272,7 +272,7 @@ function coverPage(x) {
         </div>
       </div>
     </div>
-  </div>`, { flush: true });
+  </div>`, { flush: true, dark: true });
 }
 
 function indexPage(x) {
@@ -571,7 +571,7 @@ function buildHtml(x) {
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&display=swap');
 :root{--acc:${t.acc};--acc-d:${t.accD};--acc-dp:${t.accDp};--acc-t:${t.accT};--acc-p:${t.accP};--acc-l:${t.accL};--acc-ink:${t.accInk}}
 *{box-sizing:border-box;margin:0;padding:0}
-@page{size:A4;margin:0 0 22px}
+@page{size:A4;margin:0}
 html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10.2px;line-height:1.5;background:#fff}
 
@@ -596,7 +596,7 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .pg-lead-p{font:400 10.2px/1.5 'IBM Plex Sans',sans-serif;color:#475569;max-width:640px;margin-top:6px}
 
 /* COVER */
-.cover{position:relative;background:#0f172a;color:#fff;height:1079px;overflow:hidden}
+.cover{position:relative;background:#0f172a;color:#fff;height:1101px;min-height:calc(297mm - 22px);overflow:hidden}
 .cover-spine{position:absolute;left:0;top:0;bottom:0;width:38px;background:var(--acc);display:flex;align-items:center;justify-content:center}
 .cover-spine span{font:700 10px/1 'IBM Plex Sans',sans-serif;letter-spacing:.32em;text-transform:uppercase;color:var(--acc-t);writing-mode:vertical-rl;transform:rotate(180deg)}
 .cover-inner{position:absolute;inset:0 0 0 38px;padding:54px 58px 46px;display:flex;flex-direction:column}
@@ -664,7 +664,7 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .dtbl td.err{color:#991b1b}
 
 /* PORTADA DE BLOQUE — misma familia visual que la portada del tomo, con los paneles de datos encima */
-.bcov{position:relative;background:#0f172a;-webkit-print-color-adjust:exact;print-color-adjust:exact;color:#fff;height:1079px;overflow:hidden}
+.bcov{position:relative;background:#0f172a;-webkit-print-color-adjust:exact;print-color-adjust:exact;color:#fff;height:1101px;min-height:calc(297mm - 22px);overflow:hidden}
 .bcov-spine{position:absolute;left:0;top:0;bottom:0;width:38px;background:var(--acc);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .bcov-spine span{font:700 8.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--acc-t);writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
 .bcov-inner{position:relative;margin-left:38px;padding:44px 48px 40px;display:flex;flex-direction:column;gap:18px}
@@ -908,7 +908,7 @@ async function buildBook(spec, browser) {
     format: 'A4', printBackground: true, displayHeaderFooter: true,
     headerTemplate: '<div></div>',
     footerTemplate: `<div style="width:100%;font:600 7px 'Helvetica',Arial,sans-serif;color:#9aa3af;text-align:center;"><span class="pageNumber"></span></div>`,
-    margin: { top: '0', bottom: '18px', left: '0', right: '0' },
+    margin: { top: '0', bottom: '0', left: '0', right: '0' },
   });
   await page.close();
 

@@ -79,3 +79,17 @@ Los bloques clínicos organizan la especialidad. Cada bloque cuenta con:
 - Las preguntas en la Página 2 de cada tema muestran **únicamente el enunciado y las 5 alternativas (A–E)**.
 - **No se imprime la respuesta correcta ni la explicación en el cuerpo del tema** para permitir la autoevaluación activa del médico.
 - Al final de todo el libro se compila la sección **Solucionario y Respuestas Razonadas**, donde se listan todas las preguntas con su clave correcta, justificación clínica detallada y tag de reconstrucción histórica.
+
+---
+
+## 6. Sangrado Completo en Portadas y Bloques Oscuros (Full-Bleed Zero Margin)
+
+Para asegurar un acabado profesional sin franjas ni bordes blancos en el borde inferior de las portadas principales y separadores oscuros de bloque (`#0f172a`):
+1. **Configuración de Puppeteer**:
+   - `page.pdf` debe usar obligatoriamente `margin: { top: '0', bottom: '0', left: '0', right: '0' }`.
+   - Si se define cualquier `margin.bottom > 0`, el motor Chromium inserta un margen físico blanco que corta el fondo oscuro.
+2. **Estilos CSS de Portada y Bloque (`.cover` y `.bcov`)**:
+   - `@page { size: A4; margin: 0; }`.
+   - Altura exacta de `.cover` y `.bcov`: `height: 1101px; min-height: calc(297mm - 22px); overflow: hidden;`. Al sumar la barra superior `.gbar` de 22px, llena exactamente los 1.123px (297mm) de la hoja A4 sin dejar 1 solo píxel vacío.
+   - El contenedor `sec()` para la portada debe recibir `{ flush: true, dark: true }` para que el `<td>` padre tenga `background: #0f172a; padding: 0;`.
+   - Resultado: **0 píxeles de borde blanco** en todas las portadas oficiales y portadillas de bloque.
