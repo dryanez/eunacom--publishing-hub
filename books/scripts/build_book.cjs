@@ -354,7 +354,7 @@ function prepare(data, figSpec) {
    se repite automáticamente en la parte superior de CADA página impresa. */
 function sec(x, label, body, opt = {}) {
   const txt = `Manual EUNACOM de ${x.spec.title}${label ? `&nbsp;&nbsp;·&nbsp;&nbsp;${label}` : ''}`;
-  return `<table class="secwrap"><thead><tr><td><div class="gbar${opt.green ? ' green' : ''}"><span>${txt}</span></div></td></tr></thead>`
+  return `<table class="secwrap"><thead><tr><td><div class="gbar"><span>${txt}</span></div></td></tr></thead>`
     + `<tbody><tr><td class="secbody${opt.flush ? ' flush' : ''}${opt.dark ? ' dark' : ''}">${body}</td></tr></tbody></table>`;
 }
 
@@ -784,10 +784,10 @@ function solucionarioPages(x) {
     <div class="pg-lead">
       <h2>Solucionario &amp; Justificaciones Razonadas EUNACOM</h2>
       <p class="pg-lead-p">Clave oficial y justificación clínica de cada reconstrucción. Las preguntas se presentan sin clave en la página del tema; aquí se resuelven con la perla de examen correspondiente.</p>
-      <div class="rule green"></div>
+      <div class="rule"></div>
     </div>
     <div class="sol-grid">${cards}</div>
-  `, { green: true });
+  `);
 }
 
 /* ───────────────────────────── document ───────────────────────────── */
@@ -819,7 +819,6 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .secwrap>thead>tr>td{padding:0}
 .gbar{height:22px;background:var(--acc);-webkit-print-color-adjust:exact;display:flex;align-items:center;justify-content:center;
   font:700 8.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#fff7ed}
-.gbar.green{background:#166534}
 .secbody{padding:18px 42px 14px;vertical-align:top}
 .secbody.flush{padding:0}
 .secbody.dark{background:#0f172a}
@@ -828,7 +827,6 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .eyebrow{display:block;font:600 9px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--acc-d)}
 .mono{font-family:'JetBrains Mono',monospace}
 .rule{height:3px;background:var(--acc);margin-top:8px}
-.rule.green{background:#166534}
 .pg-lead h2{font:700 25px/1.15 'Spectral',serif;letter-spacing:-.01em;margin-top:3px}
 .pg-lead-p{font:400 10.2px/1.5 'IBM Plex Sans',sans-serif;color:#475569;max-width:640px;margin-top:6px}
 
