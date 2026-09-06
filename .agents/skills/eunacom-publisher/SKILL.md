@@ -17,18 +17,35 @@ When invoked (e.g. user says *"let's make a book"*, *"create a manual"*, *"new c
 1. **📘 Manual Editorial EUNACOM (Libro PDF en Maqueta 1b)**
 2. **🎬 Masterclass Perfil V3 (14-Slide React Deck + Audio ElevenLabs + Video 1080p)**
 
-### If Manual Editorial is selected, ask which specialty:
-- **Infectología** (Tomo 04 · Oliva `#4d7c0f`) — 5 bloques, 24 clases
-- **Gastroenterología** (Tomo 08 · Verde `#15803d`) — 4 bloques
-- **Cardiología** (Tomo 01 · Naranja `#ea580c`) — 5 bloques, 23 clases
-- **Neurología y Geriatría** (Tomo 12 · Púrpura `#6d28d9`)
-- **Respiratorio / Neumología** (Tomo 13 · Teal `#0f766e`)
-- **Nefrología** (Tomo 11 · Ámbar `#a16207`)
-- **Hematología** (Tomo 09 · Carmesí `#be123c`)
-- **Diabetes y Dislipidemias** (Tomo 06 · Cian `#0891b2`)
-- **Endocrinología** (Tomo 07 · Violeta `#7c3aed`)
-- **Reumatología** (Tomo 14 · Granate `#9f1239`)
-- **Cirugía / Pediatría / Gineco-Obstetricia**
+### If Manual Editorial is selected, choose the canonical tomo:
+#### 🫀 Módulo 1: Medicina Interna (Tomos 01 al 10)
+- **Tomo 01: Cardiología & Sistema Cardiovascular** (`cardiologia` · Naranja `#ea580c`) — 5 bloques, 23 clases (71 págs) · *Completado*
+- **Tomo 02: Enfermedades Infecciosas & Microbiología** (`infectologia` · Oliva `#4d7c0f`) — 5 bloques, 24 clases (71 págs) · *Completado*
+- **Tomo 03: Gastroenterología & Hepatología** (`gastroenterologia` · Verde Bosque `#15803d`) — 4 bloques, 26 clases (27 págs) · *Muestra canónica*
+- **Tomo 04: Enfermedades Respiratorias & Neumología** (`neumologia` · Teal `#0f766e`) — Asma, EPOC, NAC, Derrame, TBC, TEP
+- **Tomo 05: Nefrología & Medio Interno** (`nefrologia` · Ámbar `#a16207`) — AKI KDIGO, ERC, Trastornos Hidroelectrolíticos
+- **Tomo 06: Diabetes Mellitus & Dislipidemias** (`diabetes` · Cian `#0891b2`) — DM2 GES, Insulinas, Cetoacidosis, EHH
+- **Tomo 07: Endocrinología & Metabolismo** (`endocrinologia` · Violeta `#7c3aed`) — Tiroides, Suprarrenal, Calcio, Hipófisis
+- **Tomo 08: Hematología & Oncología Médica** (`hematologia` · Carmesí `#be123c`) — Anemias, Leucemias, Linfomas, Coagulación
+- **Tomo 09: Reumatología & Inmunología Clínica** (`reumatologia` · Granate `#9f1239`) — AR, LES, Espondiloartritis, Vasculitis
+- **Tomo 10: Neurología & Geriatría** (`neurologia` · Púrpura `#6d28d9`) — ACV Isquémico/Hemorrágico GES, Cefaleas, Epilepsia
+
+#### 🔪 Módulo 2: Cirugía y Especialidades Quirúrgicas (Tomos 11 al 17)
+- **Tomo 11: Cirugía General, Abdomen Agudo & Anestesia** (`cirugia` · Pizarra `#334155`)
+- **Tomo 12: Traumatología & Ortopedia** (`traumatologia` · Ámbar Cálido `#b45309`)
+- **Tomo 13: Urología** (`urologia` · Azul Zafiro `#0369a1`)
+- **Tomo 14: Otorrinolaringología (ORL)** (`otorrino` · Índigo `#4338ca`)
+- **Tomo 15: Oftalmología** (`oftalmologia` · Cian Petróleo `#0e7490`)
+- **Tomo 16: Dermatología** (`dermatologia` · Magenta `#a21caf`)
+- **Tomo 17: Psiquiatría General & Salud Mental** (`psiquiatria` · Púrpura Real `#7e22ce`)
+
+#### 👶 Módulo 3: Materno - Infantil (Tomos 18 al 20)
+- **Tomo 18: Pediatría General & Neonatología** (`pediatria` · Bermellón `#c2410c`)
+- **Tomo 19: Obstetricia & Medicina Materno-Fetal** (`obstetricia` · Borgoña `#9d174d`)
+- **Tomo 20: Ginecología & Oncología Ginecológica** (`ginecologia` · Frambuesa `#be185d`)
+
+#### ⚖️ Módulo 4: Salud Pública & Gestión (Tomo 21)
+- **Tomo 21: Salud Pública, Epidemiología & Bioética** (`saludpublica` · Verde Esmeralda `#166534`)
 
 ---
 

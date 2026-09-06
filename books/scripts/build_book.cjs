@@ -93,6 +93,7 @@ function themeVars(acc) {
 
 /* ══════════════════════════ REGISTRO DE ESPECIALIDADES ══════════════════════ */
 const SPECIALTIES = [
+  // ── MÓDULO 1: MEDICINA INTERNA (Tomos 01 al 10) ──
   {
     key: 'cardiologia', ch: '01', title: 'Cardiología',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
@@ -102,29 +103,136 @@ const SPECIALTIES = [
     figSpec: require('./figspec_cardiologia.cjs'),
     out: 'Manual_EUNACOM_Cardiologia_Completo_2026.pdf',
   },
-  { key: 'diabetes',        ch: '06', title: 'Diabetes y Dislipidemias',           module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
-  { key: 'endocrinologia',  ch: '07', title: 'Endocrinología',                      module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
   {
-    key: 'gastroenterologia', ch: '08', title: 'Gastroenterología',
-    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
-    subtitle: 'Esófago y estómago, intestino y colon, hígado e hipertensión portal, vía biliar y páncreas.',
-    dataset: () => require('./dataset_gastroenterologia.cjs').gastroenterologiaClasses,
-    figSpec: {},
-    out: 'Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf',
-  },
-  { key: 'hematologia',     ch: '09', title: 'Hematología',                          module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
-  {
-    key: 'infectologia', ch: '04', title: 'Infectología',
+    key: 'infectologia', ch: '02', title: 'Infectología',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
     subtitle: 'Sepsis y shock séptico, infecciones del sistema nervioso central, profilaxis y manejo de contactos, VIH, tuberculosis, zoonosis y micosis.',
     dataset: () => require('./dataset_infectologia.cjs').infectologiaClasses,
     figSpec: {},
     out: 'Manual_EUNACOM_Infectologia_Completo_2026.pdf',
   },
-  { key: 'nefrologia',      ch: '11', title: 'Nefrología',                           module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
-  { key: 'neurologia',      ch: '12', title: 'Neurología y Geriatría',              module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
-  { key: 'neumologia',      ch: '13', title: 'Respiratorio',                         module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
-  { key: 'reumatologia',    ch: '14', title: 'Reumatología',                         module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna', dataset: null },
+  {
+    key: 'gastroenterologia', ch: '03', title: 'Gastroenterología',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Esófago y estómago, intestino y colon, hígado e hipertensión portal, vía biliar y páncreas.',
+    dataset: () => require('./dataset_gastroenterologia.cjs').gastroenterologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf',
+  },
+  {
+    key: 'neumologia', ch: '04', title: 'Respiratorio',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Crisis asmática, EPOC, neumonía adquirida en la comunidad, tuberculosis pulmonar, tromboembolismo pulmonar, derrame pleural y neumotórax.',
+    dataset: null,
+  },
+  {
+    key: 'nefrologia', ch: '05', title: 'Nefrología',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Injuria renal aguda KDIGO, enfermedad renal crónica, trastornos de sodio y potasio, equilibrio ácido-base y glomerulopatías.',
+    dataset: null,
+  },
+  {
+    key: 'diabetes', ch: '06', title: 'Diabetes y Dislipidemias',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Diabetes mellitus tipo 2 GES, insulinoterapia ambulatoria y hospitalaria, cetoacidosis diabética, estado hiperosmolar y dislipidemias.',
+    dataset: null,
+  },
+  {
+    key: 'endocrinologia', ch: '07', title: 'Endocrinología',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Patología tiroidea (hipo/hipertiroidismo, nódulo y cáncer), patología suprarrenal, trastornos del calcio e hipófisis.',
+    dataset: null,
+  },
+  {
+    key: 'hematologia', ch: '08', title: 'Hematología',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Síndromes anémicos, leucemias agudas y crónicas, linfomas, mieloma múltiple, trastornos de coagulación y trombocitopenias.',
+    dataset: null,
+  },
+  {
+    key: 'reumatologia', ch: '09', title: 'Reumatología',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Artritis reumatoide, lupus eritematoso sistémico, espondiloartritis, vasculitis, artropatías por cristales y fibromialgia.',
+    dataset: null,
+  },
+  {
+    key: 'neurologia', ch: '10', title: 'Neurología y Geriatría',
+    module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
+    subtitle: 'Accidente cerebrovascular isquémico y hemorrágico GES, cefaleas primarias, epilepsia, enfermedad de Parkinson, demencias y delirium.',
+    dataset: null,
+  },
+
+  // ── MÓDULO 2: CIRUGÍA Y ESPECIALIDADES QUIRÚRGICAS (Tomos 11 al 17) ──
+  {
+    key: 'cirugia', ch: '11', title: 'Cirugía General y Anestesia',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Abdomen agudo quirúrgico, patología herniaria, trauma y ATLS, quemaduras, shock hemorrágico y evaluación preoperatoria.',
+    dataset: null,
+  },
+  {
+    key: 'traumatologia', ch: '12', title: 'Traumatología y Ortopedia',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Fracturas de cadera, fracturas expuestas, luxaciones, lesiones ligamentosas y patología de columna vertebral.',
+    dataset: null,
+  },
+  {
+    key: 'urologia', ch: '13', title: 'Urología',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Urolitiasis, hiperplasia prostática benigna, cáncer urológico (próstata, riñón, testículo), escroto agudo y trauma urinario.',
+    dataset: null,
+  },
+  {
+    key: 'otorrino', ch: '14', title: 'Otorrinolaringología',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Otitis media aguda y crónica, hipoacusias, síndrome vertiginoso, rinosinusitis, epistaxis y patología faringoamigdalina.',
+    dataset: null,
+  },
+  {
+    key: 'oftalmologia', ch: '15', title: 'Oftalmología',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Ojo rojo grave vs benigno, glaucoma agudo y crónico, desprendimiento de retina, trauma ocular y vicios de refracción.',
+    dataset: null,
+  },
+  {
+    key: 'dermatologia', ch: '16', title: 'Dermatología',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Cáncer de piel (melanoma, basocelular, espinocelular), farmacodermias graves, psoriasis, eccemas, acné y micosis cutáneas.',
+    dataset: null,
+  },
+  {
+    key: 'psiquiatria', ch: '17', title: 'Psiquiatría y Salud Mental',
+    module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
+    subtitle: 'Trastornos depresivos GES, trastorno bipolar, esquizofrenia, trastornos de ansiedad y pánico, adicciones y urgencias psiquiátricas.',
+    dataset: null,
+  },
+
+  // ── MÓDULO 3: MATERNO - INFANTIL (Tomos 18 al 20) ──
+  {
+    key: 'pediatria', ch: '18', title: 'Pediatría y Neonatología',
+    module: 'Módulo 3 · Materno - Infantil', moduleDir: 'Modulo_3_Materno_Infantil',
+    subtitle: 'Crecimiento y desarrollo, PNI, infecciones respiratorias agudas bajas, exantemas infantiles, diarrea y deshidratación, y reanimación neonatal.',
+    dataset: null,
+  },
+  {
+    key: 'obstetricia', ch: '19', title: 'Obstetricia y Medicina Materno-Fetal',
+    module: 'Módulo 3 · Materno - Infantil', moduleDir: 'Modulo_3_Materno_Infantil',
+    subtitle: 'Control prenatal, estados hipertensivos del embarazo GES, metrorragias, trabajo de parto, monitorización y patología puerperal.',
+    dataset: null,
+  },
+  {
+    key: 'ginecologia', ch: '20', title: 'Ginecología y Oncología',
+    module: 'Módulo 3 · Materno - Infantil', moduleDir: 'Modulo_3_Materno_Infantil',
+    subtitle: 'Cáncer cervicouterino y de mama GES, hemorragia uterina anormal, síndrome de ovario poliquístico, anticoncepción y climaterio.',
+    dataset: null,
+  },
+
+  // ── MÓDULO 4: SALUD PÚBLICA & GESTIÓN (Tomo 21) ──
+  {
+    key: 'saludpublica', ch: '21', title: 'Salud Pública y Bioética',
+    module: 'Módulo 4 · Salud Pública y Gestión', moduleDir: 'Modulo_4_Salud_Publica',
+    subtitle: 'Garantías Explícitas en Salud (GES), modelo de atención integral en salud (MAIS), epidemiología clínica, bioética y medicina legal.',
+    dataset: null,
+  },
 ];
 
 /* ───────────────────────────── helpers ───────────────────────────── */
