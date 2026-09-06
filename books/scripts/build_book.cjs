@@ -152,10 +152,12 @@ const SPECIALTIES = [
     out: 'Manual_EUNACOM_Endocrinologia_Completo_2026.pdf',
   },
   {
-    key: 'hematologia', ch: '08', title: 'Hematología',
+    key: 'hematologia', ch: '08', title: 'Hematología & Hemostasia',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
-    subtitle: 'Síndromes anémicos, leucemias agudas y crónicas, linfomas, mieloma múltiple, trastornos de coagulación y trombocitopenias.',
-    dataset: null,
+    subtitle: 'Síndromes anémicos hipo y regenerativos, hemostasia y trombocitopenias, leucemias agudas y crónicas, linfomas, gammapatías monoclonales y medicina transfusional.',
+    dataset: () => require('./dataset_hematologia.cjs').hematologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Hematologia_Completo_2026.pdf',
   },
   {
     key: 'reumatologia', ch: '09', title: 'Reumatología',
@@ -872,10 +874,9 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .idx-topics{display:flex;flex-direction:column;gap:3px;padding-left:46px;margin-top:5px}
 .idx-t{display:flex;align-items:baseline;gap:8px;font:400 11px/1.5 'IBM Plex Sans',sans-serif}
 .idx-dots{flex:1;border-bottom:1px dotted #cbd5e1;position:relative;top:-3px}
-.idx-tp{font:400 10px/1 'JetBrains Mono',monospace;color:#475569}
-.idx-sol{margin-top:20px;display:flex;align-items:baseline;gap:12px;background:#f1f5f9;padding:9px 12px;border-left:3px solid #16a34a}
+.idx-sol{margin-top:20px;display:flex;align-items:baseline;gap:12px;background:#f1f5f9;padding:9px 12px;border-left:3px solid var(--acc)}
 .idx-sol-t{flex:1;font:700 12px/1.3 'IBM Plex Sans',sans-serif}
-.idx-sol-p{font:700 12px/1 'JetBrains Mono',monospace;color:#166534}
+.idx-sol-p{font:700 12px/1 'JetBrains Mono',monospace;color:var(--acc-dp)}
 
 /* CARDS */
 .card{border:1px solid #cbd5e1;margin-top:12px;break-inside:avoid}
@@ -1048,7 +1049,7 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .ges-grid{display:flex;flex-direction:column;background:#fff}
 .ges-item{background:#fff;padding:8px 12px;display:flex;flex-direction:column;gap:2px;border-bottom:1px solid #e2e8f0}
 .ges-item:last-child{border-bottom:none}
-.ges-t{font:700 9.2px/1.25 'IBM Plex Sans',sans-serif;color:#166534}
+.ges-t{font:700 9.2px/1.25 'IBM Plex Sans',sans-serif;color:var(--acc-dp)}
 .ges-d{font:400 8.6px/1.3 'IBM Plex Sans',sans-serif;color:#475569}
 .chk-list{display:flex;flex-direction:column;background:#fff}
 .chk-item{padding:9px 12px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;gap:12px}
@@ -1064,7 +1065,7 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .sol-card-body{padding:8px 10px;display:flex;flex-direction:column;gap:6px}
 .sol-recap{font:400 9.4px/1.4 'IBM Plex Sans',sans-serif;color:#475569}
 .sol-clave{display:flex;align-items:center;gap:8px}
-.sol-pill{font:700 9px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;background:#dcfce7;color:#166534;border:1px solid #86efac;padding:4px 8px;border-radius:999px;white-space:nowrap}
+.sol-pill{font:700 9px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;background:var(--acc-t);color:var(--acc-dp);border:1px solid var(--acc-p);padding:4px 8px;border-radius:999px;white-space:nowrap}
 .sol-opt{font:600 9.4px/1.3 'IBM Plex Sans',sans-serif}
 .sol-just{font:400 9.6px/1.45 'IBM Plex Sans',sans-serif}
 .sol-perla{background:var(--acc-t);border-left:3px solid var(--acc);padding:5px 8px;font:400 9.2px/1.4 'IBM Plex Sans',sans-serif;color:var(--acc-ink)}
