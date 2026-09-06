@@ -606,15 +606,15 @@ function synthesisPage(b, x) {
   }).join('');
   const cifraGrid = extractCifras(b.classes.flatMap(c => c.keyPoints)).map(v => `<div class="cifra"><span class="cifra-n">${v.val}</span><span class="cifra-t">${v.label}</span></div>`).join('');
   const mnemoList = extractMnemos(b.classes.flatMap(c => c.keyPoints)).map(m => `<div>${m.name ? `<strong>${m.name} — </strong>` : ''}${m.expl}</div>`).join('');
-  const ges = b.classes.filter(c => /ges|urgencia|garant/i.test(c.ges)).slice(0, 3).map(c => `<div class="ges-item"><span class="ges-t">${truncate(c.ges, 46)}</span><span class="ges-d">Tema ${c.topicLabel} · ${c.title} · código ${c.perfilCode}</span></div>`).join('');
-  const chk = b.classes.map(c => `<div class="chk-item">${truncate(c.keyPoints[0], 96)} <span class="chk-ref">→ ${c.topicLabel}</span></div>`).join('');
-
-  const recon = b.classes.flatMap(c => parseReconstrucciones(c.reconstrucciones, c.title)).slice(0, 8);
-  const reconGrid = recon.map(r => `<div class="hist-item"><span class="hist-tag">${r.tag}</span><span class="hist-txt">${truncate(r.text, 68)}</span></div>`).join('');
-  const conceptRows = b.classes.flatMap(c => c.keyPoints).slice(0, 6).map(k => {
-    const trap = TRAP_RE.test(stripTags(k));
-    return `<p class="concept${trap ? ' trap' : ''}">${trap ? '<strong>! Trampa · </strong>' : ''}${k}</p>`;
-  }).join('');
+  
+  const realGesClasses = b.classes.filter(c => {
+    if (!c.ges) return false;
+    const s = stripTags(c.ges).toLowerCase();
+    if (s.startsWith('no ges') || s.startsWith('sin garant') || s.startsWith('sin ges') || s.includes('no contemplada') || s.includes('no tiene') || s.includes('sin cobertura')) return false;
+    return /ges\s*#?\d+|garant[ií]a\s+expl[ií]cita|ges\b/i.test(s);
+  });
+  const ges = realGesClasses.slice(0, 3).map(c => `<div class="ges-item"><span class="ges-t">${truncate(c.ges, 60)}</span><span class="ges-d">Tema ${c.topicLabel} · ${c.title} · código ${c.perfilCode}</span></div>`).join('');
+  const chk = b.classes.map(c => `<div class="chk-item"><span class="chk-txt">${truncate(c.keyPoints[0], 115)}</span><span class="chk-pill">Tema ${c.topicLabel} &rarr;</span></div>`).join('');
 
   return sec(x, `Síntesis · Bloque ${CN(b.bn)}`, `
     <div class="synth-title">
@@ -626,11 +626,29 @@ function synthesisPage(b, x) {
       <div class="card-head navy"><span>Tabla ${b.bn}.S · Conducta obligatoria por escenario clínico</span><span class="pill light mono">temas ${b.classes[0].topicLabel} a ${b.classes[b.classes.length - 1].topicLabel}</span></div>
       <table class="dtbl"><thead><tr><th>Escenario</th><th>Hallazgo decisivo</th><th>Conducta de 1.ª línea</th><th>Error que anula la respuesta</th></tr></thead><tbody>${synthRows}</tbody></table>
     </div>
-    <div class="synth-two">
-      <div class="card"><div class="card-head grey"><span>Cifras que se preguntan literalmente</span></div><div class="cifra-grid">${cifraGrid || '<div class="cifra"><span class="cifra-t">Sin cifras numéricas destacadas.</span></div>'}</div></div>
-      <div class="card card-accent"><div class="card-head"><span>Reglas y mnemotecnias del bloque</span></div><div class="mnemo">${mnemoList}</div></div>
-    ${ges ? `<div class="card"><div class="card-head grey"><span>Cobertura GES del bloque</span><span class="pill plain">Garantías explícitas aplicables</span></div><div class="ges-grid">${ges}</div></div>` : ''}
-    <div class="card"><div class="card-head dark"><span>Autochequeo final · si no puedes responder esto, vuelve al tema indicado</span></div><div class="chk-grid">${chk}</div></div>
+    <div class="synth-grid">
+      <div class="synth-col">
+        <div class="card card-accent">
+          <div class="card-head"><span>Reglas y mnemotecnias del bloque</span></div>
+          <div class="mnemo">${mnemoList}</div>
+        </div>
+        <div class="card">
+          <div class="card-head grey"><span>Cifras que se preguntan literalmente en el EUNACOM</span></div>
+          <div class="cifra-grid">${cifraGrid || '<div class="cifra"><span class="cifra-t">Sin cifras numéricas destacadas en este bloque.</span></div>'}</div>
+        </div>
+        ${ges ? `
+        <div class="card">
+          <div class="card-head green"><span>Cobertura GES del bloque · Garantías Explícitas</span></div>
+          <div class="ges-grid">${ges}</div>
+        </div>` : ''}
+      </div>
+      <div class="synth-col">
+        <div class="card card-dark">
+          <div class="card-head dark"><span>Autochequeo final · Si dudas en esto, repasa el tema indicado</span></div>
+          <div class="chk-list">${chk}</div>
+        </div>
+      </div>
+    </div>
   `);
 }
 
@@ -911,20 +929,23 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 /* SÍNTESIS */
 .synth-title{display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
 .synth-title h2{font:700 20px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:-.02em;margin-top:3px}
-.synth-two{display:flex;gap:12px;align-items:flex-start}
-.synth-two .card{flex:1;margin-top:12px}
-.cifra-grid{padding:8px 10px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.cifra{display:flex;flex-direction:column}
-.cifra-n{font:700 16px/1.1 'Barlow Condensed',sans-serif;color:#1e3a8a}
-.cifra-t{font:400 8.8px/1.3 'IBM Plex Sans',sans-serif;color:#475569}
-.mnemo{padding:8px 10px;display:flex;flex-direction:column;gap:6px;font:400 9.6px/1.4 'IBM Plex Sans',sans-serif;color:var(--acc-ink)}
-.ges-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#e2e8f0}
-.ges-item{background:#fff;padding:7px 10px;display:flex;flex-direction:column;gap:2px}
-.ges-t{font:700 9px/1.2 'IBM Plex Sans',sans-serif;color:#1e3a8a}
+.synth-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:14px;margin-top:12px;align-items:start}
+.synth-col{display:flex;flex-direction:column;gap:11px}
+.cifra-grid{padding:10px 12px;display:grid;grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));gap:10px 14px}
+.cifra{display:flex;flex-direction:column;gap:2px}
+.cifra-n{font:700 18px/1.1 'Barlow Condensed',sans-serif;color:#1e3a8a}
+.cifra-t{font:400 8.8px/1.35 'IBM Plex Sans',sans-serif;color:#475569}
+.mnemo{padding:9px 12px;display:flex;flex-direction:column;gap:7px;font:400 9.3px/1.45 'IBM Plex Sans',sans-serif;color:var(--acc-ink)}
+.ges-grid{display:flex;flex-direction:column;background:#fff}
+.ges-item{background:#fff;padding:8px 12px;display:flex;flex-direction:column;gap:2px;border-bottom:1px solid #e2e8f0}
+.ges-item:last-child{border-bottom:none}
+.ges-t{font:700 9.2px/1.25 'IBM Plex Sans',sans-serif;color:#166534}
 .ges-d{font:400 8.6px/1.3 'IBM Plex Sans',sans-serif;color:#475569}
-.chk-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#e2e8f0}
-.chk-item{background:#fff;padding:6px 10px;font:400 9.4px/1.4 'IBM Plex Sans',sans-serif}
-.chk-ref{font:400 8px/1 'JetBrains Mono',monospace;color:var(--acc)}
+.chk-list{display:flex;flex-direction:column;background:#fff}
+.chk-item{padding:9px 12px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.chk-item:last-child{border-bottom:none}
+.chk-txt{font:400 9.4px/1.45 'IBM Plex Sans',sans-serif;color:#1e293b;flex:1}
+.chk-pill{font:700 8.5px/1 'JetBrains Mono',monospace;color:var(--acc);background:var(--acc-t);border:1px solid var(--acc-p);padding:3px 7px;border-radius:3px;white-space:nowrap}
 
 /* SOLUCIONARIO */
 .sol-grid{margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px;align-content:start}
