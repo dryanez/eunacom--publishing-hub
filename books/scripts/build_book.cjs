@@ -131,7 +131,9 @@ const SPECIALTIES = [
     key: 'nefrologia', ch: '05', title: 'Nefrología',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
     subtitle: 'Injuria renal aguda KDIGO, enfermedad renal crónica, trastornos de sodio y potasio, equilibrio ácido-base y glomerulopatías.',
-    dataset: null,
+    dataset: () => require('./dataset_nefrologia.cjs').nefrologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Nefrologia_Completo_2026.pdf',
   },
   {
     key: 'diabetes', ch: '06', title: 'Diabetes y Dislipidemias',
@@ -327,7 +329,13 @@ function prepare(data, figSpec) {
   let cursor = 3;
   blocks.forEach(b => {
     b.startPage = cursor; cursor += 2; // 2 páginas para la portada oscura de bloque
-    b.classes.forEach(c => { c.startPage = cursor; cursor += (figSpec[c.topicLabel] ? 3 : 2); });
+    b.classes.forEach(c => {
+      c.startPage = cursor;
+      const isT3 = c.tier === 3 && ((c.questions && c.questions.length >= 4) || c.treatmentTable || c.table2);
+      const pCount = isT3 ? 4 : (figSpec[c.topicLabel] ? 3 : 2);
+      c.pageCount = pCount;
+      cursor += pCount;
+    });
     cursor += 1;
   });
   return {
@@ -546,7 +554,7 @@ function figureBlock(c, x) {
   return `<div class="figblock ${spec.mode || 'wide'}"><div class="figrow">${imgs}</div><p class="figcap"><b>Figura ${c.topicLabel}.</b> ${spec.desc}</p></div>`;
 }
 
-function topicPage(c, b, x) {
+function topicPageStandard(c, b, x) {
   const prose = c.contentSections.map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
   const diagramObj = c.diagram || (c.svg ? { title: c.algoTitle, svg: getSvg(c.svg) } : null);
   const algoCard = diagramObj && diagramObj.svg ? `<div class="algo-card"><div class="algo-head">Figura ${c.topicLabel} · ${diagramObj.title}</div><div class="algo-body">${diagramObj.svg}</div></div>` : '';
@@ -593,6 +601,105 @@ function topicPage(c, b, x) {
     </div>
     ${qbank}
   `);
+}
+
+function topicPageTier3(c, b, x) {
+  const watch = c.classId ? `<a class="lnk" href="${SITE.clase(c.classId)}">▶&nbsp;Ver masterclass de este tema</a>` : '';
+  const moreQ = c.classId ? `<a class="lnk ghost" href="${SITE.preguntas(c.classId)}">Más preguntas online de ${c.title.split(':')[0].split('(')[0].trim()} →</a>` : '';
+  const contexto = c.contexto ? `<div class="contexto"><span class="contexto-tag">¿Por qué?</span><p>${c.contexto}</p></div>` : '';
+  
+  // Page 1: Fundamentos y Presentación Clínica (1/4)
+  const secPart1 = c.contentSections.slice(0, 2).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const tbl1 = c.table ? `
+    <div class="card tbl-card">
+      <div class="card-head navy"><span>Tabla ${c.topicLabel}.A · ${c.table.title}</span><span class="pill light mono">${c.perfilCode}</span></div>
+      <table class="dtbl"><thead><tr>${c.table.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+      <tbody>${c.table.rows.map((r, i) => `<tr${i % 2 ? ' class="alt"' : ''}>${r.map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>
+    </div>` : '';
+
+  const page1 = `
+    <div class="topic-title">
+      <h2>${c.topicLabel}. ${c.title}</h2><div class="rule"></div>
+    </div>
+    ${watch ? `<div class="watch-row">${watch}</div>` : ''}
+    ${contexto}
+    <div class="prose">${secPart1}</div>
+    ${tbl1}
+  `;
+
+  // Page 2: Criterios Diagnósticos, Algoritmo Vectorial y Scores (2/4)
+  const secPart2 = c.contentSections.slice(2, 3).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const diagramObj = c.diagram || (c.svg ? { title: c.algoTitle, svg: getSvg(c.svg) } : null);
+  const algoCard = diagramObj && diagramObj.svg ? `<div class="algo-card"><div class="algo-head">Figura ${c.topicLabel} · ${diagramObj.title}</div><div class="algo-body">${diagramObj.svg}</div></div>` : '';
+  const tbl2Obj = c.severityTable || c.table2;
+  const tbl2 = tbl2Obj ? `
+    <div class="card tbl-card">
+      <div class="card-head navy"><span>Tabla ${c.topicLabel}.B · ${tbl2Obj.title}</span><span class="pill light mono">Criterios de Gravedad</span></div>
+      <table class="dtbl"><thead><tr>${tbl2Obj.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+      <tbody>${tbl2Obj.rows.map((r, i) => `<tr${i % 2 ? ' class="alt"' : ''}>${r.map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>
+    </div>` : '';
+
+  const page2 = `
+    <div class="topic-title">
+      <h2>${c.topicLabel}. ${c.title} — Enfrentamiento Diagnóstico</h2><div class="rule"></div>
+    </div>
+    ${secPart2 ? `<div class="prose" style="column-count:1;margin-bottom:10px">${secPart2}</div>` : ''}
+    ${algoCard}
+    ${tbl2}
+  `;
+
+  // Page 3: Manejo Farmacológico Escalonado y Reglas de Oro (3/4)
+  const secPart3 = c.contentSections.slice(3).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const tblTx = c.treatmentTable ? `
+    <div class="card tbl-card">
+      <div class="card-head navy"><span>Tabla ${c.topicLabel}.C · ${c.treatmentTable.title}</span><span class="pill light mono">Protocolo Terapéutico</span></div>
+      <table class="dtbl"><thead><tr>${c.treatmentTable.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+      <tbody>${c.treatmentTable.rows.map((r, i) => `<tr${i % 2 ? ' class="alt"' : ''}>${r.map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</tbody></table>
+    </div>` : '';
+  const rules = c.keyPoints.map(k => `<span>▸ ${k}</span>`).join('');
+
+  const page3 = `
+    <div class="topic-title">
+      <h2>${c.topicLabel}. ${c.title} — Manejo Terapéutico y Urgencias</h2><div class="rule"></div>
+    </div>
+    <div class="prose">${secPart3}</div>
+    ${tblTx}
+    <div class="rules" style="margin-top:14px"><div class="rules-head">Reglas de oro y trampas del examen (${c.title.split(':')[0].trim()})</div><div class="rules-body">${rules}</div></div>
+  `;
+
+  // Page 4: Caso Clínico Razonado y Banco de Autoevaluación Ampliado (4/4)
+  const qbank4 = `
+    <div class="qbank" style="margin-top:14px">
+      <div class="qbank-head"><span>Banco de autoevaluación EUNACOM · Tema ${c.topicLabel} (Evaluación Avanzada)</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
+      <div class="qbank-body" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || 'Reconstrucción oficial EUNACOM')}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
+      </div>
+      ${moreQ ? `<div class="qbank-foot">${moreQ}</div>` : ''}
+    </div>`;
+
+  const page4 = `
+    <div class="topic-title">
+      <h2>${c.topicLabel}. ${c.title} — Caso Clínico y Autoevaluación</h2><div class="rule"></div>
+    </div>
+    <div class="case" style="margin-top:12px">
+      <div class="case-head"><span>Caso clínico tipo EUNACOM · Discusión de Alta Complejidad</span><span class="mono">${c.topicLabel}</span></div>
+      <div class="case-body"><p>${c.vignette}</p><p class="conducta"><strong>Conducta oficial razonada. </strong>${c.explicacion}</p></div>
+    </div>
+    ${qbank4}
+  `;
+
+  return sec(x, `Bloque ${CN(b.bn)} · Tema ${c.topicLabel} (1/4)`, page1)
+    + sec(x, `Bloque ${CN(b.bn)} · Tema ${c.topicLabel} (2/4)`, page2)
+    + sec(x, `Bloque ${CN(b.bn)} · Tema ${c.topicLabel} (3/4)`, page3)
+    + sec(x, `Bloque ${CN(b.bn)} · Tema ${c.topicLabel} (4/4)`, page4);
+}
+
+function topicPage(c, b, x) {
+  const isT3 = c.tier === 3 && ((c.questions && c.questions.length >= 4) || c.treatmentTable || c.table2);
+  if (isT3) {
+    return topicPageTier3(c, b, x);
+  }
+  return topicPageStandard(c, b, x);
 }
 
 function synthesisPage(b, x) {

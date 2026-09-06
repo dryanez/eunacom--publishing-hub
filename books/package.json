@@ -9,7 +9,9 @@
     "build:gastro": "node scripts/build_book.cjs gastroenterologia",
     "build:cardio": "node scripts/build_book.cjs cardiologia",
     "build:neumo": "node scripts/build_book.cjs neumologia",
-    "build:respiratorio": "node scripts/build_book.cjs neumologia"
+    "build:respiratorio": "node scripts/build_book.cjs neumologia",
+    "build:nefro": "node scripts/build_book.cjs nefrologia",
+    "build:nefrologia": "node scripts/build_book.cjs nefrologia"
   },
   "dependencies": {
     "puppeteer": "^22.0.0"

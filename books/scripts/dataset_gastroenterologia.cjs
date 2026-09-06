@@ -1,14 +1,18 @@
 /**
- * DATASET · Gastroenterología — MUESTRA DE AUDITORÍA (3 clases, una por tier).
- * Estructura definitiva para el pipeline de Módulo 1. Fuentes:
+ * DATASET · Gastroenterología — 26 clases · 6 Bloques (recuperado 2026-09-06 desde el PDF
+ * compilado Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf tras pérdida del .cjs fuente;
+ * el .cjs nunca se llegó a comittear). Estructura definitiva para el pipeline de Módulo 1.
+ * Fuentes:
  *   · códigos + Dx/Tx/Seg  → eunacom-master-curriculum/perfil_v3_full.json (Perfil v3 2026)
- *   · prosa / tablas / pearls → src/data/classesCatalog.json  (verificado vs ACTUALIZACION_2026_CHECKLIST.md)
- *   · preguntas → public/data/reconstrucciones/topic_index.json (banco real EUNACOM)
+ *   · prosa / tablas / pearls / preguntas → transcrito fielmente del manual compilado (79 pp)
+ *   · claves + justificación de preguntas → Solucionario Razonado del mismo manual
  * Campos nuevos vs cardiología:  contexto ("¿Por qué?")  ·  classId (enlaces libro↔web)
+ * NOTA: los diagramas (`svg`/`algoTitle`) del manual original no se pudieron recuperar (el
+ * generador `flow()` tampoco se comitteó) — quedan en null pendientes de rehacer.
  */
 module.exports = { gastroenterologiaClasses: [
 
-  /* ───────────────────────── 🟡 STANDARD ───────────────────────── */
+  /* ═══════════════════════ BLOQUE 01 · ESÓFAGO Y ESTÓMAGO ═══════════════════════ */
   {
     id: 'gastro-01', classId: 'gastro-01', tier: 2,
     blockNum: 1, blockName: 'Esófago y Estómago',
@@ -97,6 +101,276 @@ module.exports = { gastroenterologiaClasses: [
         correcta: 'C',
         explicacion: 'Falla de la erradicación de primera línea confirmada por test de control positivo: se indica un esquema de segunda línea que evite la claritromicina (terapia cuádruple con bismuto, o levofloxacino + amoxicilina + IBP). Repetir el mismo esquema (A) mantiene la resistencia a claritromicina. La endoscopía (B) sería obligatoria para el control de la úlcera gástrica en sí, pero la pregunta apunta a la conducta frente a la falla de erradicación. D y E no corrigen la infección persistente.',
         recTag: 'Reconstrucción EUNACOM Julio 2015 · Pregunta #124',
+      },
+    ],
+  },
+
+  {
+    id: 'gastro-02', classId: 'gastro-02', tier: 2,
+    blockNum: 1, blockName: 'Esófago y Estómago',
+    topicLabel: '1.2', title: 'Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori',
+    perfilCode: '1.06.1.030', dx: 'Específico', tx: 'Completo', seg: 'Completo',
+    ges: 'Sin garantía GES específica · Norma MINSAL de dispepsia y erradicación de H. pylori',
+    reconstrucciones: null,
+    frecuencia: 'Alta rentabilidad · tema de erradicación y decisión de biopsia/control post-tratamiento',
+    svg: null, algoTitle: 'Epigastralgia crónica: endoscopía y erradicación',
+    contexto: 'La clave de todo el tema es una sola distinción: el omeprazol trata el reflujo, pero la úlcera péptica se trata erradicando el H. pylori. Si solo se suprime ácido, la úlcera cicatriza y recidiva en el 90 % de los casos porque la causa sigue ahí. Y como la epigastralgia de la úlcera, del cáncer gástrico y de la dispepsia funcional es idéntica, la endoscopía es obligatoria en todo paciente con dispepsia y algún signo de alarma o ≥ 40 años.',
+    contentSections: [
+      {
+        subhead: '1. Síndrome ulceroso y causas',
+        paragraphs: [
+          'La úlcera gastroduodenal se presenta como epigastralgia urente que aumenta con el ayuno y alivia con la ingesta de alimentos o antiácidos. La misma clínica la produce el cáncer gástrico y la dispepsia funcional.',
+          'Las dos causas son <strong>Helicobacter pylori</strong> (90 % de las úlceras duodenales, 70 % de las gástricas) y los <strong>AINE</strong>. El tabaco y los corticoides son cofactores. La prevalencia de H. pylori en Chile alcanza el 75 % de la población.',
+        ],
+      },
+      {
+        subhead: '2. Diagnóstico',
+        paragraphs: [
+          'La endoscopía digestiva alta se solicita siempre en el paciente con dispepsia y signos de alarma o edad ≥ 40 años, con dos objetivos: confirmar la úlcera y <strong>tomar biopsias para descartar cáncer gástrico</strong> (obligatorio en toda úlcera gástrica).',
+          'El H. pylori se detecta por test de ureasa en la biopsia, test del aliento con ¹³C-urea o antígeno en deposiciones. La dispepsia funcional es un diagnóstico <strong>de exclusión</strong>: requiere una endoscopía normal.',
+        ],
+      },
+      {
+        subhead: '3. Erradicación de H. pylori',
+        paragraphs: [
+          '<strong>Primera línea:</strong> IBP + amoxicilina 1 g + claritromicina 500 mg, todos cada 12 horas por 14 días. <strong>Segunda línea</strong> (si falla): terapia cuádruple con bismuto (IBP + bismuto + tetraciclina + metronidazol) por 14 días, evitando la claritromicina.',
+          'Se erradica siempre en la <strong>úlcera gastroduodenal</strong> y en el <strong>linfoma MALT gástrico</strong> (que regresa solo con antibióticos, sin quimioterapia). No se erradica en la ERGE (no hay asociación). Indicación relativa: dispepsia funcional, usuarios crónicos de AINE, antecedente familiar de cáncer gástrico, metaplasia o gastritis atrófica.',
+        ],
+      },
+      {
+        subhead: '4. Control de la erradicación y complicaciones',
+        paragraphs: [
+          'El control se hace 4 semanas después de terminar los antibióticos: úlcera gástrica → endoscopía (además, para verificar cicatrización y descartar cáncer); úlcera duodenal → antígeno fecal o test del aliento. Los tests deben hacerse con el IBP suspendido 2 semanas antes.',
+          'Complicaciones: <strong>hemorragia digestiva alta</strong> (la más frecuente) → IBP endovenoso + endoscopía de urgencia con terapia hemostática; y <strong>perforación</strong> → dolor "en puñalada", abdomen en tabla, radiografía de tórax de pie con neumoperitoneo y cirugía de urgencia (la endoscopía está contraindicada).',
+        ],
+      },
+    ],
+    table: {
+      title: 'Úlcera péptica — a quién se erradica y cómo se controla',
+      headers: ['Situación', '¿Erradicar H. pylori?', 'Control post-tratamiento'],
+      rows: [
+        ['Úlcera duodenal (cualquiera)', 'Siempre, aunque el test sea negativo', 'Antígeno fecal / test del aliento a las 4 sem'],
+        ['Úlcera gástrica con H. pylori (+)', 'Sí', 'Endoscopía (cicatrización + biopsias)'],
+        ['Úlcera gástrica con H. pylori (−)', 'No', 'Endoscopía de control'],
+        ['ERGE con H. pylori (+)', 'No — no hay asociación', 'No aplica'],
+        ['Linfoma MALT gástrico', 'Sí — es el tratamiento (no quimioterapia)', 'Endoscopía seriada'],
+      ],
+    },
+    vignette: 'Hombre de 52 años consulta por epigastralgia urente de 6 semanas que aumenta con el ayuno y mejora al comer. No baja de peso ni presenta anemia. Por la edad se solicita endoscopía digestiva alta, que muestra una úlcera gástrica de 8 mm en curvatura menor; se toman biopsias del borde y el test de ureasa es positivo.',
+    explicacion: 'Úlcera gástrica con H. pylori positivo: el tratamiento es la terapia erradicadora de primera línea (IBP + amoxicilina + claritromicina 14 días) seguida de IBP hasta completar 6–8 semanas para asegurar la cicatrización. Toda úlcera gástrica obliga a biopsiar el borde para descartar cáncer y a repetir la endoscopía de control, tanto para verificar la cicatrización como para confirmar la erradicación. Dar solo IBP dejaría la causa sin tratar y la recidiva sería del 90 %.',
+    keyPoints: [
+      'El omeprazol trata el reflujo; la úlcera péptica se trata erradicando H. pylori. Sin erradicación, la úlcera recidiva en el 90 %.',
+      'Toda úlcera duodenal se erradica aunque el test de H. pylori sea negativo (falso negativo frecuente con IBP o sangrado reciente).',
+      'Toda úlcera gástrica exige biopsia del borde para descartar cáncer y endoscopía de control tras el tratamiento.',
+      'Primera línea: IBP + amoxicilina + claritromicina por 14 días. Segunda línea: cuádruple con bismuto, sin claritromicina.',
+      'Linfoma MALT gástrico: se trata con erradicación de H. pylori, no con quimioterapia. En la ERGE no se erradica.',
+      'Úlcera perforada: radiografía de tórax de pie (neumoperitoneo) y cirugía urgente; la endoscopía está contraindicada.',
+    ],
+    questions: [
+      {
+        stem: 'Hombre de 40 años con úlcera duodenal en la endoscopía. El test de ureasa para H. pylori resulta negativo. No usa AINE. ¿Cuál es la conducta respecto de la erradicación?',
+        options: [
+          { id: 'A', text: 'No erradicar, porque el test de H. pylori es negativo' },
+          { id: 'B', text: 'Erradicar igualmente con esquema de primera línea' },
+          { id: 'C', text: 'Indicar solo omeprazol por 6 semanas' },
+          { id: 'D', text: 'Repetir la endoscopía en 4 semanas antes de decidir' },
+          { id: 'E', text: 'Solicitar antígeno fecal y erradicar solo si es positivo' },
+        ],
+        correcta: 'B',
+        explicacion: 'Toda úlcera duodenal se erradica aunque el test resulte negativo, porque el 90 % son por H. pylori y el test de ureasa tiene falsos negativos frecuentes (uso previo de IBP o antibióticos, sangrado reciente). Dar solo omeprazol (C) cicatriza pero no previene la recidiva. Repetir exámenes (D, E) retrasa el tratamiento sin cambiar la conducta.',
+        recTag: 'Caso representativo · banco EUNACOM',
+      },
+      {
+        stem: 'Mujer de 35 años con epigastralgia urente de 2 meses, sin baja de peso, anemia ni disfagia. La endoscopía digestiva alta es completamente normal y el test de H. pylori es negativo. ¿Cuál es el diagnóstico y la conducta inicial?',
+        options: [
+          { id: 'A', text: 'Úlcera péptica; iniciar terapia de erradicación' },
+          { id: 'B', text: 'Cáncer gástrico incipiente; repetir endoscopía con cromoendoscopia' },
+          { id: 'C', text: 'Dispepsia funcional; educación, manejo del estrés y prueba con IBP' },
+          { id: 'D', text: 'Gastroparesia; solicitar cintigrafía de vaciamiento gástrico' },
+          { id: 'E', text: 'ERGE; iniciar IBP a permanencia y cirugía antirreflujo' },
+        ],
+        correcta: 'C',
+        explicacion: 'Epigastralgia con endoscopía normal y sin signos de alarma es, por definición, dispepsia funcional (diagnóstico de exclusión que requiere endoscopía normal). El manejo es educación, manejo del estrés, moduladores del dolor y una prueba con IBP; se puede ofrecer erradicación de H. pylori si el test fuera positivo, lo que aquí no aplica. No corresponde tratar como úlcera (A) ni repetir estudios invasivos sin nuevas banderas rojas.',
+        recTag: 'Caso representativo · banco EUNACOM',
+      },
+    ],
+  },
+
+  {
+    id: 'gastro-03', classId: 'gastro-03', tier: 2,
+    blockNum: 1, blockName: 'Esófago y Estómago',
+    topicLabel: '1.3', title: 'Disfagia y Trastornos Motores del Esófago',
+    perfilCode: '1.06.1.013', dx: 'Sospecha', tx: 'Inicial', seg: 'Derivar',
+    ges: 'Sin garantía GES específica',
+    reconstrucciones: null,
+    frecuencia: 'Rentabilidad media-alta · pregunta clásica de patrón clínico → examen de elección',
+    svg: null, algoTitle: 'Disfagia: el patrón elige el examen',
+    contexto: 'La sola descripción de cómo traga el paciente ya orienta la causa. Si la comida "se atasca" primero con los sólidos y luego progresa a los líquidos, hay una obstrucción que crece (disfagia lógica → cáncer). Si el problema es errático y afecta a los líquidos desde el inicio, el músculo no coordina (disfagia ilógica → acalasia, esclerodermia). El examen correcto se deduce del patrón, no al revés.',
+    contentSections: [
+      {
+        subhead: '1. Disfagia lógica vs ilógica',
+        paragraphs: [
+          '<strong>Disfagia lógica:</strong> progresiva, comienza con los sólidos y luego afecta a los líquidos. Traduce una obstrucción mecánica que crece; la causa a descartar es el cáncer de esófago, sobre todo si hay baja de peso.',
+          '<strong>Disfagia ilógica:</strong> fluctuante o errática, afecta a los líquidos desde el inicio. Traduce un trastorno motor: acalasia o esclerodermia. Regla de oro: si afecta a los líquidos desde el principio, piensa en el músculo, no en un tumor.',
+        ],
+      },
+      {
+        subhead: '2. Cáncer de esófago (disfagia lógica)',
+        paragraphs: [
+          'Disfagia lógica progresiva + baja de peso, en un fumador (carcinoma escamoso) o con ERGE/Barrett de larga data (adenocarcinoma). El cáncer de cardias se comporta igual.',
+          'El diagnóstico es <strong>endoscopía digestiva alta con biopsia</strong>. La etapificación usa TAC de tórax-abdomen y endosonografía transesofágica (evalúa invasión transmural, el principal factor pronóstico). El único tratamiento curativo es la cirugía; la radioterapia tiene un rol relevante en el esófago.',
+        ],
+      },
+      {
+        subhead: '3. Acalasia (disfagia ilógica baja)',
+        paragraphs: [
+          'Disfagia ilógica y baja (a nivel del esfínter esofágico inferior), fluctuante, con neumonías aspirativas a repetición y regurgitación de alimentos no ácidos (nunca llegaron al estómago).',
+          'El diagnóstico de elección es la <strong>manometría esofágica</strong>: peristalsis disminuida + tono del esfínter esofágico inferior aumentado que no relaja. El esofagograma muestra dilatación del cuerpo con imagen "en pico de pájaro". Tratamiento: <strong>esfinterotomía (miotomía) del EEI</strong> de elección; toxina botulínica endoscópica en etapas iniciales o en pacientes no operables; los bloqueadores de calcio relajan el EEI pero producen reflujo.',
+        ],
+      },
+      {
+        subhead: '4. Esclerodermia y divertículo de Zenker',
+        paragraphs: [
+          'Esclerodermia / CREST: disfagia ilógica + pirosis intensa, en el contexto de fenómeno de Raynaud, calcinosis, telangiectasias. Es un trastorno motor esofágico con reflujo ácido grave (a diferencia de la acalasia).',
+          '<strong>Divertículo de Zenker:</strong> disfagia alta (esfínter esofágico superior) + halitosis marcada (alimento retenido que fermenta) + regurgitación de comida no digerida. Diagnóstico con <strong>esofagograma con bario</strong> (no endoscopía, no manometría). Tratamiento quirúrgico: diverticulectomía + miotomía cricofaríngea.',
+        ],
+      },
+    ],
+    table: {
+      title: 'Disfagia — patrón clínico y examen de elección',
+      headers: ['Cuadro', 'Clave clínica', 'Examen de elección'],
+      rows: [
+        ['Cáncer de esófago', 'Disfagia lógica progresiva + baja de peso', 'Endoscopía digestiva alta + biopsia'],
+        ['Acalasia', 'Disfagia ilógica baja + neumonías aspirativas', 'Manometría esofágica'],
+        ['Esclerodermia (CREST)', 'Disfagia ilógica + pirosis + Raynaud/calcinosis', 'Manometría + anticuerpos (anti-Scl-70, anticentrómero)'],
+        ['Divertículo de Zenker', 'Disfagia alta + halitosis + regurgitación', 'Esofagograma con bario'],
+        ['Anillo de Schatzki / estenosis péptica', 'Disfagia lógica intermitente a sólidos, sin baja de peso', 'Endoscopía (permite dilatar)'],
+      ],
+    },
+    vignette: 'Mujer de 46 años consulta por 8 meses de dificultad para tragar, más marcada con los líquidos que con los sólidos, de carácter fluctuante. Ha tenido dos neumonías basales derechas en el último año y regurgita alimentos sin sabor ácido durante la noche. No ha bajado de peso.',
+    explicacion: 'Disfagia ilógica (afecta a los líquidos desde el inicio, fluctuante) con neumonías aspirativas y regurgitación de contenido no ácido: el cuadro es acalasia. El examen de elección es la manometría esofágica, que mostrará aperistalsis del cuerpo y un esfínter esofágico inferior hipertónico que no relaja. La endoscopía se hace igualmente para descartar una pseudoacalasia por cáncer del cardias, pero no es el examen que confirma el trastorno motor.',
+    keyPoints: [
+      'Disfagia lógica (sólidos → líquidos, progresiva) = obstrucción = cáncer de esófago → endoscopía con biopsia.',
+      'Disfagia ilógica (líquidos desde el inicio, fluctuante) = trastorno motor = acalasia o esclerodermia → manometría.',
+      'Acalasia: regurgitación no ácida y neumonías aspirativas; tratamiento de elección = miotomía del EEI.',
+      'Disfagia alta + halitosis = divertículo de Zenker → esofagograma con bario, tratamiento quirúrgico.',
+      'Los bloqueadores de calcio relajan el EEI (útiles en acalasia inicial) pero producen reflujo; no se usan para tratar la ERGE.',
+    ],
+    questions: [
+      {
+        stem: 'Hombre de 62 años, fumador de 40 paquetes-año, consulta por 3 meses de disfagia que comenzó con la carne y el pan y ahora también le cuesta tragar líquidos, con baja de 7 kg de peso. ¿Cuál es la conducta inicial?',
+        options: [
+          { id: 'A', text: 'Manometría esofágica' },
+          { id: 'B', text: 'Esofagograma con bario' },
+          { id: 'C', text: 'Endoscopía digestiva alta con biopsia' },
+          { id: 'D', text: 'TAC de tórax con contraste' },
+          { id: 'E', text: 'Prueba terapéutica con inhibidor de la bomba de protones' },
+        ],
+        correcta: 'C',
+        explicacion: 'Disfagia lógica (progresiva, de sólidos a líquidos) con baja de peso en un fumador es cáncer de esófago mientras no se demuestre lo contrario. El diagnóstico se hace con endoscopía digestiva alta y biopsia; el TAC y la endosonografía vienen después, para etapificar. La manometría y el esofagograma se reservan para la disfagia ilógica (sospecha de trastorno motor).',
+        recTag: 'Caso representativo · banco EUNACOM',
+      },
+      {
+        stem: 'Mujer de 71 años consulta por sensación de que la comida "se le queda en la garganta" desde hace un año, regurgitación de alimentos no digeridos y halitosis intensa que le notan sus familiares. ¿Cuál es el diagnóstico más probable?',
+        options: [
+          { id: 'A', text: 'Cáncer de esófago' },
+          { id: 'B', text: 'Acalasia' },
+          { id: 'C', text: 'Divertículo de Zenker' },
+          { id: 'D', text: 'Esclerodermia esofágica' },
+          { id: 'E', text: 'Estenosis péptica por reflujo' },
+        ],
+        correcta: 'C',
+        explicacion: 'Disfagia alta (la comida se queda "en la garganta", a nivel del esfínter esofágico superior) con halitosis marcada y regurgitación de alimento no digerido es el cuadro típico del divertículo de Zenker: el alimento se acumula en el saco diverticular y fermenta. El diagnóstico se confirma con esofagograma con bario. La halitosis es la clave que lo separa de la acalasia.',
+        recTag: 'Caso representativo · banco EUNACOM',
+      },
+    ],
+  },
+
+  {
+    id: 'gastro-04', classId: 'gastro-04', tier: 3,
+    blockNum: 1, blockName: 'Esófago y Estómago',
+    topicLabel: '1.4', title: 'Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico',
+    perfilCode: '1.06.2.002', dx: 'Específico', tx: 'Inicial', seg: 'Derivar',
+    ges: 'Sin garantía GES específica · urgencia quirúrgica según Norma MINSAL',
+    reconstrucciones: null,
+    frecuencia: 'Rentabilidad media · 3 urgencias con la misma regla: cuándo la endoscopía se prohíbe y cuándo se indica',
+    svg: null, algoTitle: 'Tres urgencias del tubo digestivo alto',
+    contexto: 'Las tres emergencias de esta clase comparten una regla contraintuitiva: la endoscopía, que parece el examen natural, está contraindicada en la úlcera perforada y en la perforación esofágica (el aire insuflado agranda la fuga), pero es la primera medida en la ingesta de cáustico (define el daño y la conducta). Y en la ingesta de cáustico, el carbón activado y el lavado gástrico están prohibidos: el daño ya ocurrió y ambos lo empeoran.',
+    contentSections: [
+      {
+        subhead: '1. Úlcera gastroduodenal perforada',
+        paragraphs: [
+          'Antecedente de síndrome ulceroso + dolor epigástrico brusco "en puñalada" que se generaliza a todo el abdomen. Al examen: abdomen en tabla, Blumberg positivo, ruidos hidroaéreos abolidos. Lo que se vierte al peritoneo es contenido ácido, muy irritante.',
+          '<strong>Examen inicial:</strong> radiografía de tórax de pie buscando neumoperitoneo (aire subdiafragmático, sobre todo bajo el hemidiafragma derecho). Si no está disponible, radiografía de abdomen de pie. <strong>Tratamiento:</strong> cirugía de urgencia (sutura + parche de epiplón de Graham); suero, IBP endovenoso y antibióticos de amplio espectro son complementos. La endoscopía está contraindicada.',
+        ],
+      },
+      {
+        subhead: '2. Perforación esofágica (síndrome de Boerhaave)',
+        paragraphs: [
+          'Causa más frecuente: iatrogénica por endoscopía. El síndrome de Boerhaave es la perforación espontánea tras vómitos intensos. Tríada: dolor torácico (o cervical) + vómitos + enfisema subcutáneo crepitante.',
+          'No confundir: vómitos → hematemesis = Mallory-Weiss (desgarro mucoso, se maneja distinto); vómitos → dolor torácico + enfisema + sepsis = Boerhaave (perforación transmural). Examen inicial: radiografía de tórax (neumomediastino, enfisema); TAC de tórax si la radiografía es negativa y la sospecha alta. La endoscopía está contraindicada. La complicación temida es la mediastinitis aguda. Tratamiento: cirugía de urgencia; manejo conservador (régimen cero + antibióticos) solo en perforaciones pequeñas, contenidas y con buena evolución.',
+        ],
+      },
+      {
+        subhead: '3. Ingesta de cáustico (soda cáustica)',
+        paragraphs: [
+          'Dolor y edema desde los labios hasta el epigastrio, sialorrea, disfagia. Puede haber hemorragia digestiva o perforación con peritonitis/mediastinitis.',
+          '<strong>Primera medida:</strong> endoscopía digestiva alta precoz (idealmente en las primeras 12–24 h) para graduar el daño y decidir la conducta. Están <strong>contraindicados el carbón activado y el lavado gástrico</strong> (el daño es inmediato e irreversible, y ambos lo agravan); tampoco se administran neutralizantes ni se provoca el vómito.',
+        ],
+      },
+      {
+        subhead: '4. Conducta según la endoscopía en la ingesta de cáustico',
+        paragraphs: [
+          'Mucosa normal o eritema leve: observación y realimentación oral progresiva. Úlceras / inflamación significativa: régimen cero, nutrición parenteral y endoscopía de control.',
+          'Necrosis extensa o perforación: régimen cero, nutrición parenteral y cirugía de urgencia. Secuela tardía: estenosis esofágica cicatricial (dilataciones o reconstrucción con estómago o colon) y riesgo aumentado de carcinoma escamoso a largo plazo.',
+        ],
+      },
+    ],
+    table: {
+      title: 'Tres urgencias del tubo digestivo alto — examen y contraindicación',
+      headers: ['Cuadro', 'Examen inicial', 'Tratamiento', 'Contraindicado'],
+      rows: [
+        ['Úlcera perforada', 'Rx tórax de pie (neumoperitoneo)', 'Cirugía de urgencia', 'Endoscopía'],
+        ['Perforación esofágica (Boerhaave)', 'Rx tórax → TAC tórax (neumomediastino)', 'Cirugía de urgencia', 'Endoscopía'],
+        ['Ingesta de cáustico', 'Endoscopía precoz (grada el daño)', 'Según hallazgo endoscópico', 'Carbón activado · lavado gástrico · vómito'],
+        ['Mallory-Weiss', 'Endoscopía digestiva alta', 'Suele ceder solo; hemostasia endoscópica si sangra', '—'],
+      ],
+    },
+    vignette: 'Hombre de 58 años con antecedente de epigastralgia de meses consulta por dolor epigástrico de inicio súbito, "como una puñalada", que en una hora se extendió a todo el abdomen. Está pálido, taquicárdico, con el abdomen rígido y doloroso de forma difusa, sin ruidos hidroaéreos.',
+    explicacion: 'El cuadro es una úlcera péptica perforada: síndrome ulceroso previo + dolor epigástrico brusco que se generaliza + abdomen en tabla con peritonitis difusa. El examen inicial es la radiografía de tórax de pie para buscar neumoperitoneo, y el tratamiento es la cirugía de urgencia (sutura con parche de epiplón). Suero, IBP endovenoso y antibióticos de amplio espectro acompañan, pero no reemplazan la cirugía. La endoscopía está contraindicada porque el aire insuflado aumenta la filtración peritoneal.',
+    keyPoints: [
+      'Úlcera perforada: dolor en puñalada + abdomen en tabla → Rx tórax de pie (neumoperitoneo) → cirugía urgente. Endoscopía contraindicada.',
+      'Perforación esofágica: dolor torácico + vómitos + enfisema subcutáneo → Rx/TAC tórax (neumomediastino). Causa más frecuente: iatrogénica.',
+      'Boerhaave (vómitos → perforación) ≠ Mallory-Weiss (vómitos → hematemesis).',
+      'Ingesta de cáustico: endoscopía precoz define la conducta. Carbón activado y lavado gástrico están contraindicados.',
+      'Si el enunciado ofrece suero + antibióticos + IBP + cirugía en una perforación, la respuesta es siempre la cirugía.',
+    ],
+    questions: [
+      {
+        stem: 'Niño de 3 años que hace 2 horas bebió un sorbo de soda cáustica del envase mal rotulado. Presenta sialorrea y llanto al tragar, sin dificultad respiratoria. ¿Cuál es la conducta inicial más adecuada?',
+        options: [
+          { id: 'A', text: 'Lavado gástrico con sonda nasogástrica' },
+          { id: 'B', text: 'Carbón activado por vía oral' },
+          { id: 'C', text: 'Endoscopía digestiva alta en las primeras horas' },
+          { id: 'D', text: 'Administrar leche o vinagre diluido para neutralizar' },
+          { id: 'E', text: 'Provocar el vómito y observar' },
+        ],
+        correcta: 'C',
+        explicacion: 'En la ingesta de cáusticos la primera medida es la endoscopía digestiva alta precoz para graduar el daño de la mucosa y decidir si se observa, se deja en régimen cero con nutrición parenteral o se opera. El lavado gástrico, el carbón activado, los neutralizantes y provocar el vómito están contraindicados porque el daño es inmediato y todas esas maniobras lo agravan (reexposición del esófago al cáustico, perforación).',
+        recTag: 'Caso representativo · banco EUNACOM',
+      },
+      {
+        stem: 'Hombre de 45 años, tras una cena copiosa con alcohol y varios episodios de vómitos, presenta dolor torácico intenso y, al examen, crepitación a la palpación del cuello. Está febril y taquicárdico. ¿Cuál es el diagnóstico más probable?',
+        options: [
+          { id: 'A', text: 'Síndrome de Mallory-Weiss' },
+          { id: 'B', text: 'Perforación esofágica (síndrome de Boerhaave)' },
+          { id: 'C', text: 'Infarto agudo de miocardio' },
+          { id: 'D', text: 'Neumotórax espontáneo' },
+          { id: 'E', text: 'Disección aórtica' },
+        ],
+        correcta: 'B',
+        explicacion: 'Vómitos intensos seguidos de dolor torácico y enfisema subcutáneo (crepitación cervical), con fiebre y taquicardia, configuran la tríada del síndrome de Boerhaave (perforación esofágica espontánea). El Mallory-Weiss también sigue a los vómitos, pero se manifiesta con hematemesis y no produce enfisema ni sepsis. El examen inicial es la radiografía de tórax buscando neumomediastino; la endoscopía está contraindicada.',
+        recTag: 'Caso representativo · banco EUNACOM',
       },
     ],
   },

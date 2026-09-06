@@ -118,13 +118,17 @@ if (arg) {
     buildManual('gastroenterologia');
   } else if (arg === 'cardio' || arg === 'cardiologia') {
     buildManual('cardiologia');
+  } else if (arg === 'neumo' || arg === 'respiratorio' || arg === 'neumologia') {
+    buildManual('neumologia');
+  } else if (arg === 'nefro' || arg === 'nefrologia') {
+    buildManual('nefrologia');
   } else if (arg === 'all') {
     buildAll();
   } else if (arg === 'audio') {
     generateAudio(subArg || 'cardio-01');
   } else {
     console.log(`Comando no reconocido: ${arg}`);
-    console.log('Opciones: infectologia | gastro | cardio | all | audio <class-id>');
+    console.log('Opciones: infectologia | gastro | cardio | neumo | nefro | all | audio <class-id>');
   }
 } else {
   showMenu();

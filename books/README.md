@@ -14,7 +14,8 @@ El motor toma datasets clínicos modulares en JavaScript, resuelve de manera pro
 | **02** | `infectologia` | Enfermedades Infecciosas & Microbiología | 24 temas (5 bloques) | 48 preguntas | **71 páginas** | **100% Calibrado** |
 | **03** | `gastroenterologia` | Gastroenterología & Hepatología | 26 clases (8 temas canónicos) | 16 preguntas | **27 páginas** | **Muestra Canónica** |
 | **04** | `neumologia` | Enfermedades Respiratorias & Neumología | 24 temas (5 bloques) | 48 preguntas | **71 páginas** | **100% Calibrado** |
-| **05 al 21** | — | Resto de especialidades (Nefro, DM, Endo, Cirugía...) | 547 clases Perfil V3 | — | — | *Estructura registrada* |
+| **05** | `nefrologia` | Nefrología & Medio Interno | 22 temas (5 bloques) | 58 preguntas | **84 páginas** | **100% Calibrado (Tiers Dinámicos)** |
+| **06 al 21** | — | Resto de especialidades (DM, Endo, Hemato, Cirugía...) | 547 clases Perfil V3 | — | — | *Estructura registrada* |
 
 Los PDFs compilados de referencia se encuentran listos para lectura en `books/dist/`.
 
@@ -42,6 +43,9 @@ npm run build:gastro
 
 # Compilar Cardiología (23 temas con figuras clínicas)
 npm run build:cardio
+
+# Compilar Nefrología (84 páginas con Tiers Dinámicos)
+npm run build:nefro
 
 # O ejecutar directamente el script CLI:
 node scripts/build_book.cjs infectologia
