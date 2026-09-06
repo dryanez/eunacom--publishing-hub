@@ -347,8 +347,6 @@ function chapterOpener(b, x) {
       <span class="bcov-toc-p">${c.startPage}</span>
     </div>`).join('');
 
-  const blockSummaryText = b.classes.map(c => c.title.split(':')[0].split('(')[0].trim()).join(' · ') + '.';
-
   // ── Página 1 del cover: héroe + contenido del bloque (con nº de página) + matriz V3 ──
   const page1 = `
   <div class="bcov">
@@ -369,7 +367,6 @@ function chapterOpener(b, x) {
         </div>
         <h1>${b.name}</h1>
         <div class="bcov-rule"></div>
-        <p class="bcov-desc">${blockSummaryText}</p>
       </div>
 
       <div class="bcov-stats bcov-stats-3">
@@ -567,6 +564,9 @@ function buildHtml(x) {
   ].join('\n');
 
   return `<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&display=swap');
 :root{--acc:${t.acc};--acc-d:${t.accD};--acc-dp:${t.accDp};--acc-t:${t.accT};--acc-p:${t.accP};--acc-l:${t.accL};--acc-ink:${t.accInk}}
@@ -902,7 +902,7 @@ async function buildBook(spec, browser) {
   fs.writeFileSync(path.join(__dirname, `temp_maqueta_${spec.key}.html`), html);
 
   const page = await browser.newPage();
-  await page.setContent(html, { waitUntil: 'domcontentloaded' });
+  await page.setContent(html, { waitUntil: 'networkidle0', timeout: 90000 });
   await page.evaluateHandle('document.fonts.ready');
   const pdf = await page.pdf({
     format: 'A4', printBackground: true, displayHeaderFooter: true,
