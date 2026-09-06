@@ -4,6 +4,13 @@ Ecosistema unificado y autónomo para la autoría, maquetación editorial y prod
 
 Este repositorio es completamente **autocontenido**: cualquier desarrollador o docente médico puede clonarlo, instalar dependencias y compilar tanto los manuales de alta densidad en PDF como ejecutar o renderizar las clases interactivas sin depender de aplicaciones externas.
 
+> [!TIP]
+> **Acceso Rápido al Hub Editorial**:
+> * **Ruta Local en Disco:** `D:\Anti\eunacom-publishing-hub`
+> * **Repositorio GitHub:** [`https://github.com/dryanez/eunacom--publishing-hub`](https://github.com/dryanez/eunacom--publishing-hub)
+> * **Manuales Compilados (PDFs):** [`D:\Anti\eunacom-publishing-hub\books\dist`](file:///d:/Anti/eunacom-publishing-hub/books/dist)
+> * **Abrir en VS Code / Terminal:** `code D:\Anti\eunacom-publishing-hub` o `cd D:\Anti\eunacom-publishing-hub`
+
 ---
 
 ## 🏛️ Arquitectura del Repositorio

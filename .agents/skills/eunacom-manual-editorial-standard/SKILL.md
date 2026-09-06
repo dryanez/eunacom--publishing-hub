@@ -53,6 +53,22 @@ Use this skill whenever generating, editing, or automating manual chapters and m
      - Si el tema no tiene preguntas directas en los 16 exámenes históricos (2013-2025), debe indicar textualmente con rigor: `Sin preguntas en exámenes 2013-2025 · Foco prioritario Perfil V3 2026`.
    - **Portadilla de Bloque**: El "Historial de Preguntas Reales EUNACOM" de la portadilla solo debe poblarse con preguntas verificadas del clasificador oficial, indicando al lector exactamente dónde encontrar la pregunta en la plataforma.
 
+11. **Garantía Tipográfica y Renderizado Web (`Barlow Condensed`, `IBM Plex Sans`, `Spectral`)**:
+    - **Portadas Oficiales y Títulos de Bloque (`.cover h1`, `.bcov-inner h1`, `.bignum`)**: Usan estrictamente **`Barlow Condensed Bold`** (700, mayúsculas, condensed), idéntica a los números gigantes de bloque (`01`, `02`).
+    - **Lectura Clínica y Temas Interiores (`.prose`, `.topic-title h2`, `.card`, `.dtbl`)**: Usan estrictamente **`IBM Plex Sans`** (400 regular, 600 semibold, 700 bold) para garantizar máxima legibilidad técnica.
+    - **Códigos Perfil V3, Dosis y Badges (`.mono`, `.q-tag`, `.dtbl td.mono`)**: Usan estrictamente **`JetBrains Mono`**.
+    - **Descarga Obligatoria en Puppeteer**: Todo template HTML debe incluir los tags `<link rel="preconnect">` y `<link rel="stylesheet">` para Google Fonts. El compilador debe esperar con `waitUntil: 'networkidle0', timeout: 90000` y `await page.evaluateHandle('document.fonts.ready')` para evitar caídas a fuentes de sistema (Arial o Times New Roman).
+
+12. **Cero Duplicación de Contenidos en Portadillas de Bloque (`.bcov`)**:
+    - Debajo del título de bloque (`<h1>${b.name}</h1>`) y su línea divisoria `.bcov-rule`, **jamás escribir la lista de temas en texto corrido** (`.bcov-desc`).
+    - El título fluye directamente hacia las cajas estadísticas (`.bcov-stats`) y de allí a la sección estructurada **"El contenido de este bloque"** (`.bcov-toc`), donde cada tema ya cuenta con su código, nombre completo y número de página.
+
+13. **Sangrado Completo al 100% (Full-Bleed Zero Margin)**:
+    - `page.pdf` en Puppeteer con `margin: { top: 0, bottom: 0, left: 0, right: 0 }`.
+    - `.cover` y `.bcov` con `height: 1101px; min-height: calc(297mm - 22px); overflow: hidden;`.
+    - Contenedor de portada `sec()` con `{ flush: true, dark: true }`.
+    - Resultado: **0 píxeles de borde blanco** en fondos oscuros.
+
 ## Dataset Structure (`dataset_[specialty].cjs`)
 Each block dataset exports topic objects with:
 - `topicLabel`: e.g. "3.1"

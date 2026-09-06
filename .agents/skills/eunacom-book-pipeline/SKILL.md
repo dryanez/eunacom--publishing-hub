@@ -97,7 +97,7 @@ cd books
 node scripts/build_book.cjs infectologia
 ```
 
-Compila en **12 a 18 segundos** gracias a la optimización de fuentes Puppeteer (`domcontentloaded` + `document.fonts.ready`).
+Compila en **9 a 14 segundos** con carga garantizada de tipografías web (`<link rel="stylesheet">` + `networkidle0` + `document.fonts.ready`).
 
 ---
 
@@ -109,3 +109,15 @@ Compila en **12 a 18 segundos** gracias a la optimización de fuentes Puppeteer 
   - **Temas con preguntas históricas**: La cabecera del tema y la portadilla del bloque listan los exámenes y preguntas reales (ej. `EUNACOM Julio 2024 (Q#62) · EUNACOM Diciembre 2024 (Q#99)`), de modo que el lector pueda localizar la pregunta exacta en la plataforma.
   - **Temas sin preguntas históricas** (como Sepsis o Ántrax): Se rotulan con rigor académico como `Sin preguntas en exámenes 2013-2025 · Foco prioritario Perfil V3 2026`.
 - **Sincronización Automática**: El compilador `build_book.cjs` ejecuta la vinculación de `matcher.getReconstruccionesString(c.perfilCode)` durante la fase de preparación (`prepare()`), asegurando que todos los tomos mantengan coherencia absoluta con el banco de datos.
+
+---
+
+## 🎨 7. Reglas de Portadillas de Bloque y Tipografía Editorial
+
+- **Cero Duplicación de Contenidos**: Bajo el título de bloque `<h1>${b.name}</h1>`, jamás incluir una enumeración en texto plano de las clases (`.bcov-desc`). El título enlaza directamente con las tarjetas de estadísticas (`.bcov-stats`) y la tabla estructurada con paginación *"El contenido de este bloque"* (`.bcov-toc`).
+- **Garantía Tipográfica**:
+  - **Display / Portadas / Títulos de Bloque**: `Barlow Condensed Bold` (700, mayúsculas).
+  - **Lectura Clínica y Tablas**: `IBM Plex Sans` (400, 600, 700).
+  - **Índices**: `Spectral` (serif).
+  - **Códigos V3 y Badges**: `JetBrains Mono`.
+- **Sangrado Completo (Full-Bleed Zero Margin)**: `margin: 0` absoluto en Puppeteer y CSS, con `.cover` y `.bcov` en `height: 1101px; min-height: calc(297mm - 22px)` para garantizar 0px de borde blanco.

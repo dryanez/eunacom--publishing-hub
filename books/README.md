@@ -153,3 +153,24 @@ Para asegurar rigor académico absoluto y cero alucinaciones en los manuales:
   - Si el tema tiene preguntas reales históricas: Cita exámenes y números reales (ej: `EUNACOM Julio 2024 (Q#62) · EUNACOM Diciembre 2024 (Q#99)`).
   - Si el tema no tiene antecedentes directos en 2013-2025: Declara con honestidad médica `Sin preguntas en exámenes 2013-2025 · Foco prioritario Perfil V3 2026`.
   - El compilador `build_book.cjs` sincroniza automáticamente este campo para todas las fichas y la portadilla en tiempo de compilación.
+
+---
+
+## 🎨 Estándar Visual y Tipográfico de Compilación
+
+Todos los manuales del hub editorial aplican estrictamente las siguientes reglas visuales:
+1. **Garantía de Fuentes Web**:
+   - Inyección en el HTML de `<link rel="preconnect">` y `<link rel="stylesheet">` para Google Fonts.
+   - Puppeteer compila con `waitUntil: 'networkidle0', timeout: 90000` y `document.fonts.ready`.
+   - **Portadas y Bloques**: `Barlow Condensed Bold` (700, mayúsculas).
+   - **Lectura Médica y Tablas**: `IBM Plex Sans` (400, 600, 700).
+   - **Índices**: `Spectral` (serif).
+   - **Códigos V3 y Badges**: `JetBrains Mono`.
+2. **Cero Duplicación en Portadillas de Bloque**:
+   - Jamás escribir la lista de temas en texto corrido debajo del título `<h1>`.
+   - El título fluye directamente hacia las cajas estadísticas y luego a la sección estructurada *"El contenido de este bloque"* con paginación limpia.
+3. **Sangrado Completo (Full-Bleed Zero Margin)**:
+   - Margen cero absoluto en Puppeteer (`margin: 0`) y CSS (`@page { margin: 0 }`).
+   - Altura de carátulas `.cover` y `.bcov`: `height: 1101px; min-height: calc(297mm - 22px); overflow: hidden;`.
+   - 0 píxeles de borde blanco en todas las hojas oscuras.
+

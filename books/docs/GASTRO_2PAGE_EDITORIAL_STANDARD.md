@@ -65,8 +65,9 @@ El generador procedural `flow(title, rows)` construye diagramas vectoriales SVG 
 
 Los bloques clínicos organizan la especialidad. Cada bloque cuenta con:
 1. **Portada de Bloque (Página Doble Inicial)**:
-   - Página Izquierda: Carátula de impacto con título, descripción y número de bloque.
-   - Página Derecha: Matriz de Códigos Oficiales V3 del bloque + Matriz de Reconstrucciones Históricas.
+   - **Página Izquierda (Carátula de impacto)**: Número de bloque en gran formato, título oficial (`.bcov-inner h1`), cajas estadísticas consolidadas (`.bcov-stats`), sección estructurada *"El contenido de este bloque"* (`.bcov-toc`) con código, nombre y página de inicio, y tabla de competencias legales Perfil V3.
+   - **Regla de Cero Duplicación de Contenidos**: Jamás escribir una lista de temas en texto corrido debajo del título `<h1>`. El título fluye directamente hacia las cajas estadísticas sin enumerar las clases dos veces, ya que la sección estructurada ya las detalla con paginación.
+   - **Página Derecha (Continuación de Bloque)**: Conceptos clave y trampas de examen (`.bcov-concept-list`) + Matriz de Reconstrucciones Históricas reales mapeadas.
 2. **Síntesis de Cierre de Bloque**:
    - **Estrictamente 1 sola página**.
    - No repetir tablas de reconstrucción que ya aparecieron en la portada.
@@ -93,3 +94,23 @@ Para asegurar un acabado profesional sin franjas ni bordes blancos en el borde i
    - Altura exacta de `.cover` y `.bcov`: `height: 1101px; min-height: calc(297mm - 22px); overflow: hidden;`. Al sumar la barra superior `.gbar` de 22px, llena exactamente los 1.123px (297mm) de la hoja A4 sin dejar 1 solo píxel vacío.
    - El contenedor `sec()` para la portada debe recibir `{ flush: true, dark: true }` para que el `<td>` padre tenga `background: #0f172a; padding: 0;`.
    - Resultado: **0 píxeles de borde blanco** en todas las portadas oficiales y portadillas de bloque.
+
+---
+
+## 7. Garantía Tipográfica y Renderizado Web (Barlow Condensed, IBM Plex Sans, Spectral)
+
+Para asegurar que los manuales mantengan una identidad visual homogénea y no degraden a fuentes genéricas de sistema (Arial o Times New Roman):
+1. **Inyección de Fuentes en el `<head>`**:
+   - Todo HTML generado debe incluir etiquetas explícitas `<link rel="preconnect">` y `<link rel="stylesheet">` apuntando a las familias tipográficas oficiales:
+     - `Barlow Condensed:wght@500;600;700`
+     - `IBM Plex Sans:ital,wght@0,400;0,500;0,600;0,700;1,400`
+     - `JetBrains Mono:wght@400;500;700`
+     - `Spectral:wght@400;600;700`
+2. **Sincronización de Puppeteer con Fuentes Web**:
+   - `page.setContent(html, { waitUntil: 'networkidle0', timeout: 90000 })`.
+   - `await page.evaluateHandle('document.fonts.ready')` antes de invocar `page.pdf()`.
+3. **Jerarquía Visual de Fuentes**:
+   - **Portadas y Títulos de Bloque (`.cover h1`, `.bcov-inner h1`, `.bignum`)**: **`Barlow Condensed Bold`** (700, mayúsculas). Tipografía condensada de display de alto impacto.
+   - **Texto Clínico y Temas (`.prose`, `.topic-title h2`, `.card`, `.dtbl`)**: **`IBM Plex Sans`** (400 regular, 600 semibold, 700 bold). Tipografía humanista de máxima legibilidad técnica.
+   - **Encabezados Editoriales e Índices (`.pg-lead h2`)**: **`Spectral`** (serif elegante).
+   - **Códigos Perfil V3, Dosis y Cifras (`.mono`, `.q-tag`, `.dtbl td.mono`)**: **`JetBrains Mono`**.
