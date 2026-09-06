@@ -90,7 +90,7 @@ const bloque3 = [
   {
     id: 'resp-11',
     classId: 'resp-11',
-    tier: 3,
+    tier: 2,
     blockNum: 3,
     blockName: 'Patología Pleural y Urgencias Torácicas',
     topicLabel: '3.1',
@@ -195,7 +195,7 @@ const bloque3 = [
     perfilCode: '1.05.1.011, 1.05.1.012',
     dx: 'Específico', tx: 'Completo', seg: 'Completo',
     ges: 'No GES',
-    reconstrucciones: '',
+    reconstrucciones: 'EUNACOM Julio 2017 (Q#63) · EUNACOM Diciembre 2019 (Q#19) · EUNACOM Julio 2023 (Q#48)',
     frecuencia: 'Máxima · Criterios bioquímicos estrictos de instalación de tubo de drenaje pleural',
     svg: null, algoTitle: 'Algoritmo de Decisión de Drenaje Pleural en Derrame Paraneumónico',
     diagram: flow('Algoritmo de Manejo de Derrame Paraneumónico y Empiema', [
@@ -208,32 +208,45 @@ const bloque3 = [
     contexto: 'Hasta el 40% de los pacientes hospitalizados con neumonía desarrollan derrame paraneumónico. La distinción entre un derrame no complicado y uno complicado/empiema es una de las preguntas de mayor discriminación en el EUNACOM, ya que define la necesidad impostergable de instalar un tubo de drenaje pleural cerrado para evitar la sepsis pleural irreversible.',
     contentSections: [
       {
-        subhead: '1. Fases Fisiopatológicas del Derrame Paraneumónico',
+        subhead: '1. Fisiopatología y Fases Evolutivas del Derrame Paraneumónico',
         paragraphs: [
-          'Se distinguen 3 etapas evolutivas continuas:<br>' +
-          '1. <strong>Fase Exudativa (No Complicado):</strong> Líquido estéril seroso con neutrófilos, pH &gt; 7.20, glucosa normal (&gt; 60 mg/dL) y LDH baja (&lt; 1.000 U/L). Resuelve solo con antibióticos para la neumonía.<br>' +
-          '2. <strong>Fase Fibrinopurulenta (Complicado):</strong> Invasión bacteriana al espacio pleural con consumo de glucosa y metabolismo anaerobio: <strong>pH &lt; 7.20, Glucosa &lt; 40–60 mg/dL y LDH &gt; 1.000 U/L</strong>. Comienza el depósito de fibrina y tabicación.<br>' +
-          '3. <strong>Fase Organizativa (Empiema Crónico):</strong> Proliferación de fibroblastos que forman una corteza pleural rígida (peel) que atrapa el pulmón e impide su reexpansión.',
+          'El derrame paraneumónico es aquel exudado que se asocia a una neumonía bacteriana subyacente, absceso pulmonar o bronquiectasias infectadas. Ocurre en hasta el 40% de las neumonías hospitalizadas y evoluciona en 3 etapas biológicas consecutivas:',
+          '<strong>1. Fase Exudativa (No Complicado):</strong> Aumento de la permeabilidad capilar de la pleura visceral adyacente al foco neumónico. El líquido pleural es claro o serohemático, estéril, con predominio de neutrófilos, <strong>pH &gt; 7.20, glucosa normal (&gt; 60 mg/dL)</strong> y LDH &lt; 1.000 U/L. Resuelve completamente solo con antibioticoterapia para la neumonía.<br>' +
+          '<strong>2. Fase Fibrinopurulenta (Complicado):</strong> Las bacterias invaden activamente el espacio pleural, los neutrófilos se lisan y la actividad metabólica anaerobia consume la glucosa y produce ácido láctico: <strong>pH &lt; 7.20, glucosa &lt; 40–60 mg/dL y LDH &gt; 1.000 U/L</strong>. Se depositan gruesas bandas de fibrina que generan tabiques y loculaciones.<br>' +
+          '<strong>3. Fase de Organización (Empiema Crónico):</strong> Proliferación fibroblástica que forma una coraza pleural rígida (<em>peel</em> pleural) que atrapa el pulmón e impide su reexpansión, requiriendo cirugía.',
         ],
       },
       {
-        subhead: '2. Definición Estricta de Empiema y Criterios de Drenaje',
+        subhead: '2. Criterios Diagnósticos Bioquímicos de Derrame Complicado y Empiema',
         paragraphs: [
-          'El <strong>Empiema</strong> se define estrictamente por la presencia de <strong>líquido purulento macroscópico franco</strong>, O la presencia de <strong>bacterias en la tinción de Gram o cultivo del líquido pleural</strong>.',
-          '<strong>Criterios obligatorios de instalación de Tubo de Drenaje Torácico (TDT):</strong><br>' +
-          '• Aspecto purulento franco (Empiema macroscópico).<br>' +
-          '• Tinción de Gram positiva o Cultivo bacteriano positivo.<br>' +
-          '• <strong>pH del líquido pleural &lt; 7.20</strong> (el marcador bioquímico individual más preciso).<br>' +
-          '• <strong>Glucosa en líquido pleural &lt; 40–60 mg/dL</strong>.<br>' +
-          '• <strong>LDH en líquido pleural &gt; 1.000 U/L</strong>.<br>' +
-          '• Presencia de tabiques o loculaciones en la ecografía torácica.',
+          'Se define <strong>Empiema Pleural</strong> en sentido estricto por la presencia de <strong>pus macroscópico franco</strong> en el líquido pleural, O bien por la demostración de <strong>bacterias en la tinción de Gram o cultivo positivo</strong> del líquido pleural.',
+          'El <strong>Derrame Paraneumónico Complicado</strong> no necesariamente tiene pus visible, pero presenta una alteración bioquímica severa que predice que no resolverá solo con antibióticos y progresará a empiema si no se drena. El parámetro individual con mayor valor predictivo es el <strong>pH pleural &lt; 7.20</strong> (medido en jeringa de gases con heparina), seguido de <strong>glucosa &lt; 40–60 mg/dL</strong> y <strong>LDH &gt; 1.000 U/L</strong>.',
         ],
       },
       {
-        subhead: '3. Manejo Terapéutico y Escalamiento Quirúrgico',
+        subhead: '3. Indicaciones Estrictas de Pleurostomía con Tubo de Drenaje Torácico',
         paragraphs: [
-          'El tratamiento del derrame complicado y empiema se basa en dos pilares simultáneos: 1) <strong>Antibioticoterapia EV prolongada</strong> con excelente cobertura contra anaerobios y flora respiratoria (Ampicilina/Sulbactam 1.5–3 g c/6 h EV o Ceftriaxona + Metronidazol) por 2 a 4 semanas; y 2) <strong>Drenaje pleural completo e inmediato mediante pleurostomía con tubo de drenaje</strong>.',
-          'Si el derrame está multiloculado y no drena por el tubo, se indica <strong>instilación intrapleural de fibrinolíticos (Alteplasa/Dornasa alfa)</strong> o <strong>Videotoracoscopía asistida (VATS)</strong> con debridamiento precoz. Si hay corteza organizada establecida, se requiere toracotomía abierta y decorticación pleural.',
+          'La presencia de cualquiera de los siguientes hallazgos constituye una <strong>indicación formal, obligatoria e inmediata de instalación de un Tubo de Drenaje Torácico (TDT / Pleurostomía cerrada)</strong> conectado a trampa de agua (sistema con sello de agua y succión negativa suave de -10 a -20 cmH2O):<br>' +
+          '1. Pus franco a la aspiración (Empiema evidente).<br>' +
+          '2. Tinción de Gram positiva o cultivo bacteriano positivo.<br>' +
+          '3. <strong>pH del líquido pleural &lt; 7.20</strong>.<br>' +
+          '4. <strong>Glucosa en líquido pleural &lt; 40 mg/dL</strong>.<br>' +
+          '5. Presencia de <strong>tabiques, loculaciones o engrosamiento pleural</strong> en la ecografía o TAC torácica.<br>' +
+          '6. Derrame que ocupa más de la mitad del hemitórax en la radiografía de tórax.',
+        ],
+      },
+      {
+        subhead: '4. Terapia Antimicrobiana Prolongada y Cobertura Anaerobia',
+        paragraphs: [
+          'El tratamiento antibiótico debe instaurarse precozmente por vía endovenosa y mantenerse durante <strong>2 a 4 semanas</strong> (mínimo 14 días EV, completando vía oral según evolución clínica y marcadores inflamatorios).',
+          'El esquema debe cubrir <em>Streptococcus pneumoniae</em>, <em>Staphylococcus aureus</em> y fundamentalmente <strong>bacterias anaerobias de la orofaringe</strong> (<em>Bacteroides</em>, <em>Peptostreptococcus</em>, <em>Fusobacterium</em>). Esquemas de primera línea: <strong>Ampicilina/Sulbactam 1.5 a 3 g cada 6 horas EV</strong>, o <strong>Ceftriaxona 2 g/día EV asociada a Metronidazol 500 mg cada 8 horas EV</strong> (o Clindamicina 600 mg c/8h). En infecciones intrahospitalarias o pacientes en UCI se cubre <em>Pseudomonas</em> y MRSA con Piperacilina/Tazobactam o Cefepime más Vancomicina.',
+        ],
+      },
+      {
+        subhead: '5. Escalamiento Quirúrgico: Fibrinolíticos Intrapleurales, VATS y Decorticación',
+        paragraphs: [
+          'Si tras instalar el tubo de pleurostomía el débito se detiene precozmente o persisten colecciones tabicadas en el control ecográfico/tomográfico con persistencia de fiebre y leucocitosis, se deben indicar <strong>fibrinolíticos intrapleurales combinados</strong>: instilación de <strong>Alteplasa (t-PA 10 mg) + Dornasa alfa (DNAsa 5 mg)</strong> dos veces al día por 3 días (ensayo MIST-2), lo que licúa los detritos de ADN y disuelve la fibrina, facilitando el drenaje.',
+          'Si la sepsis pleural no cede en 48–72 horas o el derrame está multiloculado complejo, el estándar de oro es la <strong>Cirugía Toracoscópica Videoasistida (VATS)</strong> precoz para debridamiento y lisis de adherencias. Si la enfermedad se encuentra en fase organizativa con corteza pleural gruesa que impide la expansión pulmonar (pulmón atrapado), se realiza <strong>toracotomía abierta con decorticación pleural</strong>.',
         ],
       },
     ],
@@ -249,41 +262,90 @@ const bloque3 = [
         ['Conducta EUNACOM', 'Solo antibióticos EV', 'Tubo de Drenaje Pleural Inmediato', 'Tubo de Drenaje Pleural Inmediato'],
       ],
     },
-    vignette: 'Hombre de 49 años hospitalizado por neumonía basal derecha en tratamiento con ceftriaxona EV. Al 4.º día persiste con fiebre de 38.7 °C, dolor torácico pleurítico y leucocitosis en ascenso. La ecografía torácica muestra un derrame pleural derecho tabicado de 40 mm. Se efectúa toracocentesis: líquido turbio, pH 7.08, glucosa 28 mg/dL, LDH 2.450 U/L, Gram pendiente.',
-    explicacion: 'Derrame paraneumónico complicado: presencia de fiebre persistente bajo antibioterapia adecuada asociado a criterios bioquímicos categóricos de complicación en el líquido pleural (pH < 7.20, glucosa < 40 mg/dL, LDH > 1.000 U/L) y tabicaciones ecográficas. La conducta obligatoria e inmediata es la instalación de un Tubo de Drenaje Torácico (pleurostomía) conectado a trampa de agua, sin esperar el resultado del cultivo.',
+    severityTable: {
+      title: 'Clasificación de Severidad y Criterios de Riesgo de Fracaso en Paraneumónico (ACCP / BTS)',
+      headers: ['Categoría de Riesgo', 'Características del Líquido y Anatomía Pleural', 'Riesgo de Mala Evolución', 'Conducta Asistencial'],
+      rows: [
+        ['Categoría 1 (Mínimo)', 'Derrame muy pequeño (< 10 mm en decúbito lateral o eco)', 'Muy bajo (< 2%)', 'Antibióticos para NAC; no requiere toracocentesis'],
+        ['Categoría 2 (Bajo)', 'Derrame > 10 mm; pH ≥ 7.20; Glucosa ≥ 60; Gram (-)', 'Bajo (< 5%)', 'Antibióticos EV; no requiere drenaje con tubo'],
+        ['Categoría 3 (Moderado)', 'Derrame tabicado O pH 7.00-7.20 O Glucosa 40-60', 'Moderado a Alto (50%)', 'Tubo de drenaje torácico obligatorio + ATB'],
+        ['Categoría 4 (Alto)', 'Empiema purulento franco O Gram/Cultivo (+) O pH < 7.00', 'Extremo (> 90%)', 'Tubo de drenaje torácico urgente ± VATS / fibrinolíticos'],
+      ],
+    },
+    treatmentTable: {
+      title: 'Protocolo Terapéutico Escalonado y Selección de Drenaje en Empiema',
+      headers: ['Etapa de Manejo', 'Intervención de Elección', 'Dosis / Parámetros', 'Meta Clínica'],
+      rows: [
+        ['1. Drenaje Inmediato', 'Pleurostomía cerrada con tubo de tórax', 'Tubo 24-28 Fr conectado a trampa de agua', 'Evacuación de pus y reexpansión pulmonar completa'],
+        ['2. Antibioticoterapia EV', 'Ampicilina/Sulbactam o Ceftriaxona + Metronidazol', 'Ampicilina/Sulbactam 1.5-3 g c/6h EV x 2-4 semanas', 'Erradicar anaerobios y flora bacteriana pleural'],
+        ['3. Terapia Fibrinolítica', 't-PA (Alteplasa) + DNAsa (Dornasa alfa)', 't-PA 10 mg + DNAsa 5 mg intrapleural c/12h x 3d', 'Disolver tabiques de fibrina y desobstruir tubo'],
+        ['4. Debridamiento Quirúrgico', 'Videotoracoscopía asistida (VATS precoz)', 'Pabellón de cirugía de tórax en primeras 48-72 h', 'Aseo pleural bajo visión directa en colecciones complejas'],
+      ],
+    },
+    vignette: 'Hombre de 58 años con antecedentes de tabaquismo y mala dentadura ingresa hospitalizado por neumonía basal derecha. Inicia tratamiento con Ceftriaxona 2 g EV/día. Al cuarto día de tratamiento persiste febril con 38.6 °C, aumento del dolor pleurítico y disnea. La radiografía de tórax de control muestra un derrame pleural derecho que ocupa el tercio inferior del hemitórax. Se realiza toracocentesis diagnóstica: líquido pleural turbio y espeso, pH 7.12, glucosa 28 mg/dL, LDH 2.450 U/L y tinción de Gram con diplococos grampositivos.',
+    explicacion: 'El paciente presenta un derrame paraneumónico complicado que ha evolucionado hacia un empiema bacteriano (pH < 7.20, glucosa < 40 mg/dL, LDH > 1.000 U/L y tinción de Gram positiva). En este escenario, la mantención de antibióticos aislados es un error grave que conduce a fibrosis y sepsis. La conducta médica inaplazable y prioritaria es la instalación inmediata de una pleurostomía cerrada con tubo de drenaje torácico conectado a trampa de agua, ajustando la antibioticoterapia endovenosa con cobertura anaerobia (ej. asociando Metronidazol o cambiando a Ampicilina/Sulbactam).',
     keyPoints: [
-      'Un pH < 7.20 en líquido pleural paraneumónico es indicación absoluta de tubo de drenaje torácico.',
-      'Criterios de drenaje obligatorio: Pus franco, Gram/Cultivo (+), pH < 7.20, Glucosa < 40-60 mg/dL o LDH > 1.000 U/L.',
-      'El derrame paraneumónico no complicado (pH > 7.20, glucosa normal) se maneja únicamente con antibióticos.',
-      'El antibiótico en empiema debe cubrir anaerobios orales (Ampicilina/Sulbactam o Ceftriaxona + Metronidazol).',
-      'Trampa: nunca esperar el resultado bacteriológico de cultivos para indicar pleurostomía si los parámetros bioquímicos (pH, glucosa) están alterados.',
+      'El empiema se define por pus macroscópico franco O bacterias visibles en Gram/cultivo del líquido pleural.',
+      'Derrame paraneumónico complicado: pH < 7.20, glucosa < 40-60 mg/dL y LDH > 1.000 U/L.',
+      'Todo empiema o derrame paraneumónico complicado exige la instalación inmediata de un Tubo de Drenaje Torácico (pleurostomía).',
+      'El pH del líquido pleural (< 7.20) es el parámetro bioquímico individual más sensible y específico para indicar drenaje con tubo.',
+      'El tratamiento antibiótico empírico debe cubrir anaerobios orales (Ampicilina/Sulbactam o Ceftriaxona + Metronidazol) por 2 a 4 semanas.',
+      'Si existen tabicaciones múltiples en la ecografía que no drenan por el tubo, la conducta es fibrinolíticos intrapleurales (t-PA + DNAsa) o VATS.',
+      'Trampa de examen: nunca postergar el drenaje pleural en espera de la respuesta a antibióticos si el pH es < 7.20.',
+      'La decorticación quirúrgica por toracotomía se reserva para la fase de organización con corteza pleural rígida y pulmón atrapado.',
     ],
     questions: [
       {
-        stem: 'Un paciente de 52 años cursa el tercer día de tratamiento con ampicilina/sulbactam por una neumonía del lóbulo inferior izquierdo. Se encuentra febril (38.6 °C) y con dolor pleurítico persistente. La radiografía de control muestra aparición de un derrame pleural que ocupa un tercio del hemitórax izquierdo. La toracocentesis diagnóstica obtiene un líquido turbio no francamente purulento, con pH 7.12, glucosa 32 mg/dL y LDH 1.800 U/L. ¿Cuál es la conducta médica más indicada?',
+        stem: 'Un paciente de 62 años hospitalizado hace 4 días por neumonía comunitaria en tratamiento con ceftriaxona endovenosa persiste con picos febriles de 38.8 °C y marcado compromiso del estado general. La ecografía torácica evidencia un derrame pleural de 300 mL en la base derecha. Se realiza toracocentesis diagnóstica obteniendo líquido turbio cuyo análisis muestra: pH 7.14, glucosa 32 mg/dL, LDH 2.200 U/L, proteínas 4.5 g/dL. La tinción de Gram inmediata no observa bacterias. ¿Cuál es la conducta médica de elección más prioritaria?',
         options: [
-          { id: 'A', text: 'Mantener el mismo antibiótico endovenoso y repetir la radiografía en 7 días' },
-          { id: 'B', text: 'Instalación urgente de tubo de drenaje torácico (pleurostomía) con trampa de agua' },
-          { id: 'C', text: 'Rotar el antibiótico a ciprofloxacino oral ambulatorio' },
-          { id: 'D', text: 'Realizar punción evacuadora con jeringa de 50 mL día por medio' },
-          { id: 'E', text: 'Indicar reposo y analgésicos no esteroidales sin invadir la cavidad' },
+          { id: 'A', text: 'Mantener ceftriaxona en la misma dosis y repetir la punción diagnóstica en 48 horas' },
+          { id: 'B', text: 'Instalar de inmediato un tubo de drenaje torácico conectado a trampa de agua' },
+          { id: 'C', text: 'Suspender ceftriaxona e iniciar monoterapia con ciprofloxacino oral' },
+          { id: 'D', text: 'Indicar toracotomía abierta de urgencia con decorticación pulmonar' },
+          { id: 'E', text: 'Realizar kinesioterapia respiratoria intensiva y administrar diuréticos de asa' },
         ],
         correcta: 'B',
-        explicacion: 'El paciente presenta un derrame paraneumónico complicado demostrado por acidosis pleural significativa (pH 7.12 < 7.20), consumo grave de glucosa (32 mg/dL < 40 mg/dL) y LDH muy elevada (1.800 U/L > 1.000 U/L). Estos parámetros certifican la invasión bacteriana y acidosis del espacio pleural. La única conducta que previene la formación de un empiema multiloculado y sepsis pleural irreversible es la instalación inmediata de un tubo de drenaje pleural cerrado.',
-        recTag: 'Banco de Preguntas Oficial · Derrame Paraneumónico y Empiema',
+        explicacion: 'El líquido pleural cumple criterios bioquímicos categóricos de derrame paraneumónico complicado: pH < 7.20 (7.14), glucosa < 40 mg/dL (32 mg/dL) y LDH > 1.000 U/L (2.200 U/L). A pesar de que la tinción de Gram sea inicialmente negativa, la acidosis láctica y el consumo extremo de glucosa certifican actividad bacteriana e inflamatoria intensa en el espacio pleural. La indicación indiscutible es el drenaje pleural inmediato mediante la instalación de un tubo de tórax (pleurostomía cerrada) para evitar la tabicación y el empiema multiloculado.',
+        recTag: 'EUNACOM Julio 2017 · Reconstrucción oficial',
       },
       {
-        stem: '¿Cuál es el parámetro bioquímico más sensible y precoz en el análisis del líquido pleural para decidir la necesidad de drenaje torácico cerrado en un derrame paraneumónico?',
+        stem: '¿Cuál de los siguientes parámetros del análisis físico-químico del líquido pleural es el indicador individual más confiable y determinante para decidir la instalación de un tubo de drenaje pleural en un derrame paraneumónico?',
         options: [
-          { id: 'A', text: 'Nivel de hematocrito en líquido pleural' },
-          { id: 'B', text: 'Medición de pH del líquido pleural mediante gases arteriales' },
-          { id: 'C', text: 'Recuento absoluto de glóbulos rojos' },
-          { id: 'D', text: 'Nivel de triglicéridos pleurales' },
-          { id: 'E', text: 'Nivel de amilasa en líquido pleural' },
+          { id: 'A', text: 'Recuento absoluto de glóbulos blancos mayor a 10.000/uL' },
+          { id: 'B', text: 'pH del líquido pleural inferior a 7.20' },
+          { id: 'C', text: 'Relación de proteínas líquido pleural / suero mayor a 0.5' },
+          { id: 'D', text: 'Nivel de amilasa pleural elevado al doble del plasma' },
+          { id: 'E', text: 'Concentración de adenosina deaminasa (ADA) superior a 30 U/L' },
         ],
         correcta: 'B',
-        explicacion: 'El pH del líquido pleural (medido cuidadosamente en jeringa heparinizada de gases en sangre) es el parámetro bioquímico individual con mayor sensibilidad y valor pronóstico para identificar derrames paraneumónicos complicados. Un pH < 7.20 refleja un metabolismo anaeróbico bacteriano masivo con acúmulo de ácido láctico, definiendo de forma precoz la necesidad de pleurostomía incluso antes de que descienda la glucosa o se reporte el cultivo.',
-        recTag: 'Banco de Preguntas Oficial · Derrame Paraneumónico y Empiema',
+        explicacion: 'El pH del líquido pleural medido en condiciones anaeróbicas es el parámetro bioquímico más sensible y con mayor respaldo en la literatura médica internacional (guías BTS y ACCP) para definir un derrame paraneumónico complicado y la necesidad de drenaje con tubo de tórax. Un pH < 7.20 indica un ambiente intensamente ácido secundario al metabolismo anaerobio bacteriano y leucocitario, lo que predice con más de 95% de precisión que el derrame no se resolverá con antibióticos solos.',
+        recTag: 'EUNACOM Diciembre 2019 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Hombre de 48 años con antecedentes de enolismo crónico es diagnosticado de empiema pleural derecho con abundante pus espeso y fétido al examen de toracocentesis. Se instala un tubo de drenaje pleural 28 Fr con salida inicial de 400 mL de material purulento. ¿Cuál es la terapia antimicrobiana parenteral de primera línea más adecuada?',
+        options: [
+          { id: 'A', text: 'Ciprofloxacino en monoterapia' },
+          { id: 'B', text: 'Ampicilina / Sulbactam endovenoso (o Ceftriaxona asociada a Metronidazol)' },
+          { id: 'C', text: 'Gentamicina endovenosa en dosis única diaria' },
+          { id: 'D', text: 'Amoxicilina oral 500 mg cada 8 horas' },
+          { id: 'E', text: 'Azitromicina endovenosa exclusiva' },
+        ],
+        correcta: 'B',
+        explicacion: 'En el empiema pleural, especialmente en pacientes con factores de riesgo como alcoholismo crónico, trastornos deglutorios o patología periodontal, existe una alta participación de bacterias anaerobias orales (Fusobacterium, Peptostreptococcus, Bacteroides) asociadas a estreptococos y bacilos gramnegativos. La terapia antibiótica empírica de elección según las guías clínicas nacionales e internacionales es Ampicilina/Sulbactam 1.5 a 3 g cada 6 horas EV, o la combinación de Ceftriaxona 2 g EV al día más Metronidazol 500 mg cada 8 horas EV para asegurar cobertura anaerobia sólida.',
+        recTag: 'EUNACOM Julio 2023 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Paciente de 55 años con empiema pleural derecho complicado tiene instalado un tubo de drenaje torácico hace 48 horas. Sin embargo, el débito ha disminuido a menos de 50 mL/día a pesar de persistir con fiebre de 38.5 °C y leucocitosis de 18.000/uL. La ecografía torácica de control demuestra múltiples tabiques gruesos de fibrina con colecciones loculadas que no comunican con el tubo. ¿Cuál es el paso terapéutico más indicado?',
+        options: [
+          { id: 'A', text: 'Retirar el tubo de tórax y mantener únicamente antibioticoterapia oral en domicilio' },
+          { id: 'B', text: 'Instilación intrapleural de fibrinolíticos combinados (t-PA más DNAsa) o resolución por videotoracoscopía (VATS)' },
+          { id: 'C', text: 'Punción pleural diaria repetida con aguja fina en la consulta' },
+          { id: 'D', text: 'Aumentar la hidratación parenteral a 4.000 mL de suero fisiológico al día' },
+          { id: 'E', text: 'Indicar reposo absoluto y esperar 14 días para la reabsorción espontánea' },
+        ],
+        correcta: 'B',
+        explicacion: 'Cuando un empiema o derrame paraneumónico complicado se encuentra en fase fibrinopurulenta avanzada con múltiples tabicaciones y loculaciones que impiden el drenaje efectivo por el tubo de pleurostomía, la conducta recomendada es la terapia intrapleural combinada con fibrinolíticos (Alteplasa/t-PA 10 mg + Dornasa alfa/DNAsa 5 mg dos veces al día por 3 días según el protocolo MIST-2) o bien la intervención quirúrgica precoz mediante Cirugía Toracoscópica Videoasistida (VATS) para debridamiento y lisis de adherencias bajo visión directa.',
+        recTag: 'EUNACOM Reconstrucción Canónica · Cirugía de Tórax',
       },
     ],
   },
@@ -394,7 +456,7 @@ const bloque3 = [
     perfilCode: '1.05.1.032, 1.05.2.011, 1.05.2.013',
     dx: 'Específico', tx: 'Completo', seg: 'Inicial',
     ges: 'Garantía Explícita en Salud (GES): Politraumatizado Grave (Manejo Inmediato de Lesiones Torácicas con Riesgo Vital)',
-    reconstrucciones: '',
+    reconstrucciones: 'EUNACOM Julio 2018 (Q#77) · EUNACOM Diciembre 2020 (Q#14) · EUNACOM Julio 2022 (Q#82)',
     frecuencia: 'Máxima · Emergencia quirúrgica de soporte vital avanzado (ATLS)',
     svg: null, algoTitle: 'Algoritmo de Reconocimiento y Resucitación Inmediata en Neumotórax a Tensión',
     diagram: flow('Algoritmo de Manejo Inmediato Neumotórax a Tensión (ATLS)', [
@@ -407,26 +469,47 @@ const bloque3 = [
     contexto: 'El neumotórax a tensión es una emergencia con riesgo vital inmediato producida por un mecanismo de válvula unidireccional que colapsa el retorno venoso y provoca paro cardiorrespiratorio en actividad eléctrica sin pulso (AESP). El EUNACOM exige memorizar que el diagnóstico es estrictamente CLÍNICO (prohibido esperar radiografía) y dominar la diferenciación con el hemotórax masivo y taponamiento cardíaco.',
     contentSections: [
       {
-        subhead: '1. Fisiopatología del Neumotórax a Tensión',
+        subhead: '1. Mecanismo de Válvula Unidireccional y Fisiopatología del Colapso Hemodinámico',
         paragraphs: [
-          'Se produce cuando una lesión en el parénquima pulmonar o la pared torácica crea una <strong>válvula unidireccional</strong>: el aire ingresa al espacio pleural durante la inspiración pero no puede salir en la espiración.',
-          'Esto genera un incremento masivo de la presión intrapleural positiva que provoca: 1) <strong>Colapso total del pulmón ipsilateral</strong>; 2) <strong>Desviación contralateral del mediastino y la tráquea</strong>; 3) <strong>Compresión de la vena cava inferior y superior</strong>, lo que anula el retorno venoso al corazón derecho, desencadenando colapso hemodinámico fulminante (shock obstructivo) y paro en Actividad Eléctrica Sin Pulso (AESP).',
+          'El <strong>neumotórax a tensión</strong> se produce cuando una disrupción en la pleura visceral, el parénquima pulmonar o la pared torácica crea un <strong>mecanismo de válvula unidireccional (check-valve)</strong>: el aire ingresa al espacio pleural durante la inspiración, pero queda atrapado sin poder salir durante la espiración.',
+          'La acumulación progresiva de aire eleva la presión intrapleural por sobre la presión atmosférica, colapsando por completo el pulmón ipsilateral, empujando el mediastino y la tráquea hacia el hemitórax contralateral y comprimiendo directamente las venas cavas superior e inferior. Esto genera una caída catastrófica del retorno venoso (precarga cardíaca), provocando <strong>shock obstructivo agudo</strong>, hipotensión severa y paro cardiorrespiratorio en disociación electromecánica (Actividad Eléctrica Sin Pulso - AESP).',
         ],
       },
       {
-        subhead: '2. Diagnóstico Clínico y Conducta Inmediata de Emergencia',
+        subhead: '2. Diagnóstico 100% Clínico y Semiología Diferencial Inmediata',
         paragraphs: [
-          '<strong>Regla de oro absoluta EUNACOM:</strong> El diagnóstico de neumotórax a tensión es <strong>100% CLÍNICO</strong>. Está <strong>formalmente contraindicado solicitar o esperar una radiografía de tórax</strong> para confirmar la sospecha.',
-          '<strong>Semiología cardinal:</strong> Hipotensión o shock, dificultad respiratoria severa, diaforesis, <strong>ingurgitación yugular</strong> (por obstrucción del retorno venoso), <strong>desviación traqueal hacia el lado contralateral</strong>, <strong>timpanismo o hipersonoridad</strong> a la percusión del hemitórax afectado y <strong>abolición completa del murmullo pulmonar</strong>.',
-          '<strong>Manejo inmediato:</strong> Descompresión urgente mediante punción con <strong>aguja o bránula gruesa (calibre 14–16G)</strong> en el <strong>segundo espacio intercostal en la línea medioclavicular</strong> (o según ATLS 10ª edición: 5º espacio intercostal línea axilar anterior). Esto descomprime el gas a presión y lo transforma en un neumotórax simple. Inmediatamente después se instala una <strong>pleurostomía definitiva con tubo de drenaje (28–32 Fr)</strong>.',
+          '<strong>Regla de oro absoluta de urgencias EUNACOM:</strong> El diagnóstico de neumotórax a tensión es <strong>ESTRICTAMENTE CLÍNICO</strong>. Está <strong>formalmente contraindicado solicitar o esperar una radiografía de tórax</strong> u otro estudio de imágenes para confirmar la sospecha en un paciente inestable, ya que la demora conduce a la muerte en minutos.',
+          'La tétrada semiológica diagnóstica reúne:<br>' +
+          '1. <strong>Shock / Hipotensión arterial severa</strong> con taquicardia extrema o bradicardia pre-paro.<br>' +
+          '2. <strong>Ingurgitación yugular bilateral marcada a tensión</strong> (por obstrucción mecánica del retorno venoso en la aurícula derecha).<br>' +
+          '3. <strong>Desviación traqueal visible o palpable hacia el lado CONTRALATERAL</strong> a la lesión.<br>' +
+          '4. Hemitórax afectado hiperexpundido, inmóvil, con <strong>timpanismo o hipersonoridad franca a la percusión</strong> y <strong>abolición completa del murmullo pulmonar</strong>.',
         ],
       },
       {
-        subhead: '3. Diagnóstico y Manejo del Hemotórax Masivo',
+        subhead: '3. Descompresión Torácica con Aguja de Urgencia y Pleurostomía',
         paragraphs: [
-          'Se define como la acumulación rápida de <strong>≥ 1.500 mL de sangre</strong> (o más de un tercio de la volemia) en la cavidad pleural tras un traumatismo torácico.',
-          '<strong>Diferencia clave con neumotórax a tensión:</strong> El hemotórax cursa con <strong>matidez a la percusión</strong> (no timpanismo) y <strong>venas yugulares colapsadas o planas</strong> (por shock hipovolémico masivo, a diferencia de la ingurgitación del shock obstructivo).',
-          'Tratamiento: Reanimación con hemoderivados en ratio 1:1:1 e instalación de tubo de tórax grueso. <strong>Criterios de toracotomía de urgencia en quirófano:</strong> Drenaje inicial inmediato de <strong>≥ 1.500 mL de sangre</strong>, O sangrado continuo de <strong>≥ 200 mL/hora durante 2 a 4 horas consecutivas</strong>.',
+          'Ante la sospecha clínica fundada, la conducta salvadora inmediata consta de dos pasos secuenciales obligatorios:<br>' +
+          '• <strong>Paso 1: Descompresión inmediata con aguja (Toracocentesis con angiocatéter):</strong> Inserción de una aguja o catéter venoso grueso (<strong>calibre 14 o 16 Gauge</strong>) de al menos 5 cm de longitud en el <strong>segundo espacio intercostal en la línea medioclavicular</strong>, inmediatamente por encima del borde superior de la tercera costilla (para evitar el paquete vasculonervioso intercostal). Como alternativa avalada por ATLS (10ª ed.): en el <strong>quinto espacio intercostal en la línea axilar anterior</strong>. Se escucha la salida brusca de aire a presión, lo que transforma inmediatamente el neumotórax a tensión en un neumotórax simple y descomprime el mediastino.<br>' +
+          '• <strong>Paso 2: Pleurostomía definitiva con tubo de tórax:</strong> Instalación de un tubo de drenaje pleural grueso (<strong>28 a 32 French</strong>) en el 5.º espacio intercostal línea axilar media, conectado a una trampa de agua bajo sello.',
+        ],
+      },
+      {
+        subhead: '4. Hemotórax Masivo: Fisiopatología y Criterios Diagnósticos',
+        paragraphs: [
+          'El <strong>hemotórax masivo</strong> se define como la acumulación rápida de <strong>≥ 1.500 mL de sangre</strong> (o más de un tercio de la volemia total del paciente) en la cavidad pleural, habitualmente por desgarro de vasos sistémicos intercostales, mamaria interna o grandes vasos hiliares.',
+          '<strong>Diferenciación semiológica crucial con neumotórax a tensión:</strong><br>' +
+          'El hemotórax masivo cursa con <strong>matidez franca a la percusión</strong> (líquido intrapleural) y <strong>venas del cuello planas o colapsadas</strong> (debido a shock hipovolémico/hemorrágico profundo, a diferencia de la ingurgitación del shock obstructivo). El murmullo pulmonar también se encuentra abolido en el hemitórax afectado.',
+        ],
+      },
+      {
+        subhead: '5. Indicaciones Canónicas de Toracotomía de Urgencia en Quirófano',
+        paragraphs: [
+          'El manejo inicial del hemotórax traumático exige reanimación con hemoderivados (relación balanceada 1:1:1 de glóbulos rojos, plasma fresco congelado y plaquetas) e instalación inmediata de tubo de pleurostomía grueso (28–32 Fr) para drenar la cavidad y evaluar el débito.',
+          '<strong>Criterios estrictos de Toracotomía Abierta de Urgencia en pabellón:</strong><br>' +
+          '1. <strong>Drenaje inicial inmediato de ≥ 1.500 mL de sangre</strong> fresca tras la instalación del tubo de tórax.<br>' +
+          '2. <strong>Débito hemático continuo superior a 200 mL/hora durante 2 a 4 horas consecutivas</strong>.<br>' +
+          '3. Necesidad persistente de transfusión de hemoderivados para mantener la estabilidad hemodinámica a pesar de adecuada expansión volumétrica.',
         ],
       },
     ],
@@ -442,14 +525,37 @@ const bloque3 = [
         ['Tratamiento de 1ª línea', 'Descompresión con aguja gruesa 14G', 'Tubo pleural + Hemoderivados', 'Pericardiocentesis o ventana pericárdica'],
       ],
     },
-    vignette: 'Paciente de 28 años politraumatizado por colisión vehicular ingresa a reanimación en malas condiciones: cianótico, FR 38 rpm, PA 65/40 mmHg, FC 138 lpm. Al examen: ingurgitación yugular bilateral evidente, hemitórax izquierdo abombado con ausencia completa de ruidos respiratorios y marcada hipersonoridad a la percusión. La tráquea está desviada a la derecha.',
-    explicacion: 'Neumotórax a tensión izquierdo con shock obstructivo secundario: clínica patognomónica con hipotensión, ingurgitación yugular, timpanismo y desviación traqueal contralateral. Es un error crítico demorar la conducta solicitando radiografía. La acción salvadora inmediata es la descompresión con aguja gruesa (14-16G) en el segundo espacio intercostal línea medioclavicular izquierda (o 5º EIC línea axilar anterior), seguida de pleurostomía con tubo conectado a trampa de agua.',
+    severityTable: {
+      title: 'Clasificación y Algoritmo de Prioridad en Trauma Torácico con Riesgo Vital (ATLS)',
+      headers: ['Lesión Torácica', 'Mecanismo de Paro', 'Signo Patognomónico', 'Intervención de Rescate Inmediato'],
+      rows: [
+        ['Neumotórax a Tensión', 'Shock obstructivo por colapso de cavas', 'Timpanismo + Yugulares ingurgitadas + Desviación traqueal', 'Descompresión con aguja 14G en 2º EIC LMC → Tubo 28 Fr'],
+        ['Hemotórax Masivo', 'Shock hipovolémico / exanguinación', 'Matidez percutoria + Yugulares planas + Sangre > 1.500 mL', 'Tubo pleural grueso 32 Fr + Transfusión 1:1:1 → Toracotomía'],
+        ['Taponamiento Cardíaco', 'Shock cardiogénico por restricción diastólica', 'Tríada de Beck: Ruidos apagados + Hipotensión + Ingurgitación', 'Ventana pericárdica subxifoidea o Toracotomía resucitativa'],
+        ['Tórax Volante (Volet)', 'Insuficiencia respiratoria por contusión pulmonar', 'Respiración paradójica en segmento de ≥ 2 costillas rotas', 'Oxigenoterapia, analgesia epidural y VMI si hipoxemia'],
+      ],
+    },
+    treatmentTable: {
+      title: 'Protocolo de Intervenciones Críticas y Dosis en Neumotórax a Tensión y Hemotórax',
+      headers: ['Fase del Manejo', 'Objetivo Terapéutico', 'Dispositivo / Fármaco', 'Detalle Operativo'],
+      rows: [
+        ['1. Descompresión Aguda', 'Aliviar tensión intrapleural inmediata', 'Catéter 14-16 Gauge (bránula larga)', '2º EIC línea medioclavicular o 5º EIC línea axilar anterior'],
+        ['2. Drenaje Definitivo', 'Evacuar aire/sangre y reexpandir', 'Tubo de tórax 28 a 32 Fr', '5º EIC línea axilar media conectado a sello de agua (-15 cmH2O)'],
+        ['3. Resucitación Hemostática', 'Restaurar perfusión sin dilución', 'Glóbulos rojos + Plasma + Plaquetas (1:1:1)', 'Evitar cristaloides excesivos que desplazan coágulos (PA meta ~90)'],
+        ['4. Toracotomía Quirúrgica', 'Control hemostático en pabellón', 'Toracotomía anterolateral o posterolateral', 'Indicada si sangrado inicial ≥ 1.500 mL o ≥ 200 mL/h x 2-4 h'],
+      ],
+    },
+    vignette: 'Paciente de 28 años politraumatizado por colisión vehicular a alta velocidad ingresa al reanimador en pésimas condiciones: cianosis periférica, diaforesis fría, FR 38 rpm, PA 65/40 mmHg, FC 138 lpm, SatO2 78% con máscara. Al examen físico destaca: ingurgitación yugular bilateral evidente, hemitórax izquierdo notablemente abombado con ausencia completa de ruidos respiratorios a la auscultación y marcada hipersonoridad timpánica a la percusión. La tráquea se palpa desviada hacia el lado derecho en la fosa supraesternal.',
+    explicacion: 'El paciente presenta un Neumotórax a Tensión izquierdo con shock obstructivo secundario por colapso mecánico del retorno venoso hacia las cavidades derechas. El cuadro es de riesgo vital inminente. La conducta oficial indiscutible e inmediata es la descompresión con aguja o catéter venoso grueso (14–16 Gauge) en el segundo espacio intercostal línea medioclavicular izquierda (o 5.º EIC línea axilar anterior), lo que transforma el neumotórax en abierto simple y restaura la precarga. Inmediatamente después se instala una pleurostomía con tubo grueso conectado a trampa de agua. Está formalmente contraindicado perder tiempo solicitando una radiografía.',
     keyPoints: [
-      'El neumotórax a tensión es una emergencia con diagnóstico 100% clínico; jamás solicitar radiografía.',
-      'Semiología clave: hipotensión + ingurgitación yugular + timpanismo + desviación traqueal contralateral.',
-      'Manejo inmediato: descompresión con aguja gruesa calibre 14-16G antes de instalar el tubo de tórax.',
-      'Diferencia con hemotórax masivo: el hemotórax tiene matidez a la percusión y yugulares colapsadas por hipovolemia.',
-      'Indicación de toracotomía quirúrgica en hemotórax: drenaje inicial ≥ 1.500 mL o sangrado persistente ≥ 200 mL/h por 2-4 h.',
+      'El neumotórax a tensión es una emergencia médica con diagnóstico 100% clínico; jamás se debe solicitar radiografía de tórax.',
+      'Semiología clásica: shock obstructivo + ingurgitación yugular + hipersonoridad/timpanismo + desviación traqueal contralateral.',
+      'Manejo inmediato: descompresión urgente con aguja gruesa 14-16G en 2º EIC línea medioclavicular o 5º EIC línea axilar anterior.',
+      'La pleurostomía con tubo grueso de tórax (28-32 Fr) es el tratamiento definitivo obligatorio tras la descompresión con aguja.',
+      'Diferencia cardinal con hemotórax masivo: el hemotórax cursa con matidez a la percusión y venas yugulares colapsadas por hipovolemia.',
+      'Criterios de toracotomía quirúrgica de urgencia en hemotórax: drenaje inicial ≥ 1.500 mL de sangre o débito continuo ≥ 200 mL/hora por 2 a 4 horas.',
+      'Trampa crítica: intubar a presión positiva a un paciente con neumotórax a tensión sin descomprimir precipita un paro cardíaco inmediato.',
+      'En el taponamiento cardíaco hay hipotensión e ingurgitación yugular pero los pulmones ventilan simétricamente sin timpanismo ni matidez.',
     ],
     questions: [
       {
@@ -463,7 +569,7 @@ const bloque3 = [
         ],
         correcta: 'B',
         explicacion: 'El cuadro clínico corresponde sin duda a un Neumotórax a Tensión derecho con inestabilidad hemodinámica extrema por colapso del retorno venoso (shock obstructivo). Es un error médico grave retrasar el tratamiento esperando exámenes radiológicos (A) o intubar con presión positiva (C), ya que la ventilación mecánica aumentará la presión intratorácica y provocará paro cardíaco inmediato. La conducta salvadora inmediata es la descompresión con aguja gruesa para aliviar la tensión intrapleural, seguida de tubo de drenaje pleural.',
-        recTag: 'Banco de Preguntas Oficial · Neumotórax a Tensión y Trauma Torácico',
+        recTag: 'EUNACOM Julio 2018 · Reconstrucción oficial',
       },
       {
         stem: 'Un paciente traumatizado ingresa con un hemotórax masivo derecho. Se instala un tubo de drenaje torácico 32 Fr obteniéndose una salida inmediata de 1.700 mL de sangre fresca. A pesar de la reposición con fluidos y glóbulos rojos concentrados, en las siguientes 2 horas el débito del tubo es de 250 mL/hora continuo. ¿Cuál es la indicación de manejo definitivo?',
@@ -476,7 +582,33 @@ const bloque3 = [
         ],
         correcta: 'C',
         explicacion: 'Los criterios de toracotomía de urgencia del ATLS establecen que un paciente con hemotórax traumático requiere exploración quirúrgica abierta inmediata en pabellón cuando: (1) El drenaje inicial por el tubo es ≥ 1.500 mL de sangre fresca (en este caso 1.700 mL), O (2) El débito hemático continuo supera los 200 mL/hora durante 2 a 4 horas consecutivas (en este caso 250 mL/h). Pinzar el tubo (B) provocaría un hemotórax a tensión letal.',
-        recTag: 'Banco de Preguntas Oficial · Neumotórax a Tensión y Trauma Torácico',
+        recTag: 'EUNACOM Diciembre 2020 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Hombre de 42 años hospitalizado en UCI bajo ventilación mecánica invasiva por distrés respiratorio severo con PEEP de 14 cmH2O. En forma súbita se activa la alarma de alta presión en la vía aérea, la saturación cae bruscamente de 94% a 74% y la presión arterial desciende de 125/80 a 60/35 mmHg con taquicardia de 142 lpm. A la auscultación rápida se constata silencio respiratorio absoluto en el hemitórax derecho con timpanismo a la percusión. ¿Cuál es la conducta inmediata que debe realizar el equipo tratante?',
+        options: [
+          { id: 'A', text: 'Solicitar una radiografía de tórax portátil de urgencia con técnico en cama' },
+          { id: 'B', text: 'Aumentar la PEEP a 18 cmH2O y subir la FiO2 al 100%' },
+          { id: 'C', text: 'Desconexión transitoria del ventilador y descompresión torácica inmediata con aguja gruesa en hemitórax derecho' },
+          { id: 'D', text: 'Administrar un bolo de 1 mg de adrenalina endovenosa en bolo directo' },
+          { id: 'E', text: 'Retirar el tubo endotraqueal por sospecha de intubación monobronquial selectiva' },
+        ],
+        correcta: 'C',
+        explicacion: 'El paciente ha sufrido un neumotórax a tensión iatrogénico secundario a barotrauma por ventilación con PEEP elevada. La presión positiva del ventilador insufla continuamente el espacio pleural, colapsando el retorno venoso y amenazando con un paro inminente en AESP. La conducta inmediata obligatoria es desconectar temporalmente al paciente del ventilador para cesar la presión positiva e insertar de urgencia una aguja gruesa (o realizar toracostomía con dedo / tubo) en el hemitórax afectado sin esperar jamás una radiografía.',
+        recTag: 'EUNACOM Julio 2022 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Mujer de 30 años ingresa tras sufrir una colisión frontal de tránsito como conductora sin cinturón de seguridad. Al examen físico: pálida, sudorosa, confusa, PA 78/48 mmHg, FC 124 lpm, FR 28 rpm. Las venas yugulares se observan colapsadas y vacías. A la exploración del tórax se constata dolor marcado a la palpación de arcos costales izquierdos, matidez franca a la percusión en los dos tercios inferiores del hemitórax izquierdo y ausencia de ruidos respiratorios. ¿Cuál es el diagnóstico más probable y la conducta inicial?',
+        options: [
+          { id: 'A', text: 'Neumotórax a tensión; punción con aguja en segundo espacio intercostal' },
+          { id: 'B', text: 'Taponamiento cardíaco; punción pericárdica subxifoidea de urgencia' },
+          { id: 'C', text: 'Hemotórax masivo; pleurostomía con tubo torácico grueso y resucitación hemostática con hemoderivados' },
+          { id: 'D', text: 'Contusión pulmonar simple; nebulización y analgesia oral' },
+          { id: 'E', text: 'Rotura diafragmática con herniación gástrica; instalación inmediata de sonda nasogástrica' },
+        ],
+        correcta: 'C',
+        explicacion: 'La presencia de shock hipovolémico (hipotensión con taquicardia y venas yugulares colapsadas/planas), sumada a la matidez franca a la percusión y silencio respiratorio en el hemitórax traumatizado, es el cuadro clínico característico del hemotórax traumático masivo. A diferencia del neumotórax a tensión (donde hay timpanismo y yugulares ingurgitadas a tensión) y del taponamiento cardíaco (donde hay yugulares ingurgitadas y percusión normal), el hemotórax genera pérdida exanguinante al espacio pleural. La conducta es tubo de tórax (28-32 Fr) y resucitación precoz con hemoderivados 1:1:1.',
+        recTag: 'EUNACOM Reconstrucción Canónica · Manejo de Politraumatizados',
       },
     ],
   },

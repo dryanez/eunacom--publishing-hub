@@ -98,7 +98,7 @@ const bloque5 = [
     perfilCode: '1.05.1.023, 1.05.2.008, 1.05.2.009',
     dx: 'Específico', tx: 'Completo', seg: 'Completo',
     ges: 'No GES',
-    reconstrucciones: '',
+    reconstrucciones: 'EUNACOM Diciembre 2016 (Q#12) · EUNACOM Julio 2018 (Q#55) · EUNACOM Diciembre 2020 (Q#34) · EUNACOM Julio 2023 (Q#81)',
     frecuencia: 'Máxima · Interpretación gasométrica y gradiente alvéolo-arterial',
     svg: null, algoTitle: 'Algoritmo de Diagnóstico Gasométrico y Mecanismos Fisiopatológicos de IRA',
     diagram: flow('Algoritmo de Diferenciación Fisiopatológica de IRA', [
@@ -109,30 +109,50 @@ const bloque5 = [
         ll: 'PaCO2 normal/baja', rl: 'PaCO2 elevada (>45)' },
       { t: 'Respuesta al Aporte de Oxígeno Suplementario (O2 al 100%)', s: 'Shunt verdadero (intrapulmonar): NO corrige con O2 100% · Alteración V/Q: Sí corrige de inmediato', type: 'dec', al: 'test de oxígeno', from: 'left' },
     ]),
-    contexto: 'La Insuficiencia Respiratoria Aguda (IRA) es una condición clínica crítica transversal. El EUNACOM exige memorizar la definición gasométrica estricta (PaO2 < 60 mmHg), diferenciar la IRA Tipo 1 de la Tipo 2, calcular e interpretar el Gradiente Alvéolo-Arterial de Oxígeno y reconocer cuándo una hipoxemia es refractaria a O2 suplementario (Shunt).',
+    contexto: 'La Insuficiencia Respiratoria Aguda (IRA) es una condición clínica crítica transversal de máxima evaluación en el EUNACOM. Es imprescindible memorizar la definición gasométrica estricta (PaO₂ < 60 mmHg a nivel del mar), diferenciar la IRA Tipo 1 de la Tipo 2, calcular e interpretar el Gradiente Alvéolo-Arterial de Oxígeno [P(A-a)O₂], reconocer el Shunt como la única hipoxemia refractaria al O₂ al 100%, y aplicar la indicación de Ventilación Mecánica No Invasiva (VMNI BiPAP) en acidosis hipercápnica por EPOC.',
     contentSections: [
       {
-        subhead: '1. Definición Gasométrica Estricta',
+        subhead: '1. Definición Gasométrica Rigurosa y Umbrales Diagnósticos',
         paragraphs: [
-          'La Insuficiencia Respiratoria Aguda (IRA) se define <strong>exclusivamente mediante gases en sangre arterial (GSA)</strong> como la incapacidad del aparato respiratorio para mantener un intercambio gaseoso adecuado a nivel tisular.',
-          '<strong>Criterio diagnóstico universal:</strong> <strong>PaO₂ &lt; 60 mmHg respirando aire ambiental (FiO₂ 21%) a nivel del mar</strong>, lo que equivale aproximadamente a una SatO₂ &lt; 90% en la curva de disociación de la hemoglobina.',
+          'La Insuficiencia Respiratoria Aguda (IRA) se define <strong>estrictamente mediante el análisis de gases en sangre arterial (GSA)</strong> como la incapacidad del sistema respiratorio para cumplir su función primordial de oxigenar la sangre venosa y/o eliminar el dióxido de carbono metabólico.',
+          '<strong>Criterio diagnóstico universal de examen:</strong> <strong>Presión Arterial de Oxígeno (PaO₂) &lt; 60 mmHg respirando aire ambiental (FiO₂ 21%) a nivel del mar</strong>.',
+          'Este umbral de 60 mmHg no es arbitrario: corresponde exactamente a la zona de inflexión de la <strong>curva de disociación de la oxihemoglobina</strong>, por debajo de la cual pequeñas caídas adicionales de PaO₂ generan caídas estrepitosas en la saturación arterial (SatO₂ &lt; 90%) y comprometen críticamente la entrega de oxígeno a los tejidos periféricos.',
         ],
       },
       {
-        subhead: '2. Clasificación Gasométrica y Mecanismos Fisiopatológicos',
+        subhead: '2. Los Cinco Mecanismos Fisiopatológicos de la Hipoxemia Arterial',
         paragraphs: [
-          '• <strong>IRA Tipo 1 (Hipoxémica / Parénquima o Falla de Intercambio):</strong> Cursa con <strong>PaO₂ &lt; 60 mmHg y PaCO₂ normal o baja (≤ 45 mmHg)</strong>. El <strong>Gradiente Alvéolo-Arterial de Oxígeno [P(A-a)O₂] está siempre ELEVADO (&gt; 15–20 mmHg)</strong>, lo que demuestra daño en la membrana alvéolo-capilar o en la relación ventilación/perfusión.<br>' +
-          '- <em>Alteración V/Q (desbalance ventilación/perfusión):</em> Es el mecanismo más frecuente en la práctica médica (NAC, EPOC, asma, TEP). <strong>Sí corrige completamente al aumentar la FiO₂</strong>.<br>' +
-          '- <em>Efecto Shunt (cortocircuito derecha-izquierda intrapulmonar):</em> Sangre venosa pasa a capilares sin ventilar por ocupación alveolar masiva (SDRA, edema pulmonar agudo cardiogénico grave, atelectasia masiva). <strong>Característica patognomónica: NO corrige adecuadamente a pesar de aportar O₂ al 100%</strong>.',
-          '• <strong>IRA Tipo 2 (Hipercápnica / Falla Ventilatoria de Bomba):</strong> Cursa con <strong>PaCO₂ &gt; 45 mmHg asociada o no a hipoxemia</strong>.<br>' +
-          '- <em>Hipoventilación Alveolar Pura:</em> Producida por depresión del centro respiratorio (sobredosis de <strong>opioides, benzodiacepinas</strong>) o debilidad de la musculatura respiratoria (<strong>miastenia gravis, Guillain-Barré, ELA</strong>). <strong>Regla de oro de examen: El Gradiente Alvéolo-Arterial es NORMAL (&lt; 15–20 mmHg)</strong> porque el parénquima pulmonar está estructuralmente sano.',
+          'Toda hipoxemia en la práctica médica se origina en uno de 5 mecanismos:<br>' +
+          '1. <strong>Desbalance o Desigualdad Ventilación/Perfusión (Bajo V/Q):</strong> Es el mecanismo <strong>más frecuente</strong> en la clínica (neumonía, EPOC, asma bronquial, embolia pulmonar). Zonas pulmonares perfundidas pero poco ventiladas. <strong>Sello característico: Gradiente A-a elevado, pero CORRIGE con aporte suplementario de oxígeno</strong>.<br>' +
+          '2. <strong>Efecto Shunt o Cortocircuito Intrapulmonar Verdadero:</strong> Sangre venosa mixta atraviesa el lecho capilar de alvéolos totalmente colapsados o inundados de líquido/pus (SDRA grave, edema agudo de pulmón cardiogénico masivo, atelectasia lobar obstructiva total). <strong>Regla de oro patognomónica EUNACOM: Es el ÚNICO mecanismo que NO corrige con O₂ al 100%</strong>.<br>' +
+          '3. <strong>Hipoventilación Alveolar Pura:</strong> Falla de la bomba respiratoria por depresión del centro ventilatorio bulbar (sobredosis de opioides, intoxicación por benzodiacepinas) o patología neuromuscular periférica (síndrome de Guillain-Barré, miastenia gravis crisis, ELA). Cursa con <strong>hipercapnia obligada (PaCO₂ &gt; 45 mmHg) y Gradiente A-a NORMAL</strong>.<br>' +
+          '4. <strong>Alteración de la Difusión Alvéolo-Capilar:</strong> Engrosamiento inflamatorio o fibrótico de la membrana alvéolo-capilar (fibrosis pulmonar idiopática avanzada). Se manifiesta inicialmente como hipoxemia durante el ejercicio físico.<br>' +
+          '5. <strong>Disminución de la Presión Inspirada de Oxígeno (PiO₂):</strong> Exposición a grandes altitudes geográficas (&gt; 3.000 msnm) o atmósfera enrarecida en espacios confinados. Cursa con gradiente A-a normal y normo/hipocapnia compensatoria.',
         ],
       },
       {
-        subhead: '3. Enfoque Terapéutico y Soporte Ventilatorio',
+        subhead: '3. El Gradiente Alvéolo-Arterial de Oxígeno: Cálculo e Interpretación',
         paragraphs: [
-          'En IRA Tipo 1: Administrar oxigenoterapia de soporte con cánula nasal, mascarilla Venturi o Cánula Nasal de Alto Flujo (CNAF), escalando a ventilación mecánica invasiva si PaFiO₂ &lt; 150–200 o trabajo respiratorio agotador.',
-          'En IRA Tipo 2: Tratar la causa específica (Naloxona en opioides, Flumazenil en BZD con cautela). En acidosis hipercápnica por fatiga muscular o EPOC (pH &lt; 7.35): <strong>Ventilación Mecánica No Invasiva (VMNI BiPAP)</strong> como primera línea de soporte.',
+          'El Gradiente Alvéolo-Arterial de Oxígeno [P(A-a)O₂] es la diferencia entre la presión parcial de oxígeno en el alvéolo (PAO₂) y en la sangre arterial (PaO₂):<br>' +
+          '• <strong>Ecuación del Gas Alveolar:</strong> PAO₂ = PiO₂ - (PaCO₂ / R) = [FiO₂ x (Pbarométrica - Ph2o)] - (PaCO₂ / 0.8). Respirando aire ambiental a nivel del mar: <strong>PAO₂ = 150 - (PaCO₂ / 0.8)</strong>.<br>' +
+          '• <strong>Gradiente [P(A-a)O₂] = PAO₂ - PaO₂</strong>.<br>' +
+          '• <strong>Valor Normal:</strong> En adultos jóvenes es de <strong>5 a 15 mmHg</strong> (aumenta fisiológicamente con la edad: Fórmula: <em>Edad/4 + 4</em>; en mayores de 70 años hasta 20 mmHg).<br>' +
+          '• <strong>Regla de oro diagnóstica EUNACOM:</strong> Si un paciente presenta hipoxemia con <strong>Gradiente A-a NORMAL (&lt; 15–20 mmHg)</strong>, el parénquima pulmonar y la circulación pulmonar están SANOS; la causa reside exclusivamente fuera del pulmón (<strong>hipoventilación alveolar pura</strong> por drogas/falla neuromuscular o baja altitud). Si el <strong>Gradiente A-a está ELEVADO (&gt; 20 mmHg)</strong>, existe daño estructural intrínseco del parénquima pulmonar (neumonía, SDRA, edema) o vascular (TEP).',
+        ],
+      },
+      {
+        subhead: '4. Insuficiencia Respiratoria Tipo 1 vs Tipo 2: Distinción Gasométrica y Clínica',
+        paragraphs: [
+          '• <strong>IRA Tipo 1 (Hipoxémica o Parénquimatosa / Falla de Oxigenación):</strong> Se define por <strong>PaO₂ &lt; 60 mmHg con PaCO₂ normal o baja (≤ 45 mmHg)</strong>. El Gradiente A-a está invariablemente elevado. Clínicamente se manifiesta por taquipnea, taquicardia, uso de musculatura accesoria, sudoración y cianosis periférica o central.<br>' +
+          '• <strong>IRA Tipo 2 (Hipercápnica o Ventilatoria de Bomba):</strong> Se define por <strong>PaCO₂ &gt; 45 mmHg (hipercapnia)</strong>, habitualmente acompañada de acidosis respiratoria (pH &lt; 7.35) si es aguda. Puede cursar con o sin hipoxemia secundaria. Clínicamente se caracteriza por signos de <strong>narcosis por CO₂ y vasodilatación cerebral</strong>: cefalea pulsátil, somnolencia fluctuante, confusión, estupor, asterixis (flapping tremor) y convulsiones.',
+        ],
+      },
+      {
+        subhead: '5. Algoritmo Terapéutico Escalonado y Soporte Ventilatorio (VMNI vs VMI)',
+        paragraphs: [
+          '• <strong>Oxigenoterapia en IRA Tipo 1:</strong> Administrar oxígeno titulado para meta de SatO₂ 92–96% (enfermos sin retención) mediante Cánula Nasal (1–5 L/min) o Mascarilla Venturi. Si persiste hipoxemia refractaria moderada-severa (PaFiO₂ &lt; 200), la <strong>Cánula Nasal de Alto Flujo (CNAF, hasta 60 L/min)</strong> reduce el trabajo respiratorio y genera PEEP dinámico leve.<br>' +
+          '• <strong>Ventilación Mecánica No Invasiva (VMNI en modalidad BiPAP):</strong> Es la intervención salvadora de <strong>primera línea con evidencia categoría A en la exacerbación aguda de EPOC con acidosis respiratoria hipercápnica (pH entre 7.25 y 7.35 y PaCO₂ &gt; 45 mmHg)</strong> y en el <strong>Edema Pulmonar Agudo Cardiogénico</strong>. Reduce la necesidad de intubación endotraqueal en más del 60% y disminuye la mortalidad hospitalaria.<br>' +
+          '• <strong>Criterios de Ventilación Mecánica Invasiva (Intubación Orotraqueal de Urgencia):</strong> Paro cardiorrespiratorio o apnea, compromiso grave de conciencia (Glasgow ≤ 8), inestabilidad hemodinámica refractaria con shock, fatiga muscular respiratoria extrema con respiración paradójica y fracaso de la VMNI tras 1–2 horas de prueba.',
         ],
       },
     ],
@@ -146,14 +166,39 @@ const bloque5 = [
         ['Alteración de la Difusión (EPID avanzada)', 'Baja en esfuerzo', 'Normal o Baja', 'ELEVADO', 'Corrige con O2'],
       ],
     },
+    severityTable: {
+      title: 'Clasificación Gasométrica y Mecanismos Fisiopatológicos de la Hipoxemia',
+      headers: ['Mecanismo Fisiopatológico', 'PaO2', 'PaCO2', 'Gradiente A-a O2', 'Respuesta a O2 100%', 'Ejemplos Clínicos Típicos'],
+      rows: [
+        ['Hipoventilación alveolar pura', 'Disminuida', 'Elevada (> 45 mmHg)', 'NORMAL (< 15-20 mmHg)', 'Corrige completamente', 'Sobredosis opioides/sedantes, Guillain-Barré, Miastenia'],
+        ['Desbalance V/Q bajo', 'Disminuida', 'Normal o Baja', 'ELEVADO (> 20 mmHg)', 'Corrige fácilmente', 'Crisis asmática, EPOC exacerbado, NAC comunitaria, TEP'],
+        ['Shunt intrapulmonar verdadero', 'Muy disminuida', 'Normal o Baja', 'MUY ELEVADO (> 30 mmHg)', 'REFRACTARIO a O2 100%', 'SDRA severo, Edema pulmonar cardiogénico masivo, Atelectasia lobar'],
+        ['Alteración de la Difusión', 'Baja en esfuerzo', 'Normal o Baja', 'ELEVADO (> 20 mmHg)', 'Corrige con O2 suplementario', 'Fibrosis Pulmonar Idiopática, EPID avanzada'],
+        ['Baja Presión Inspirada de O2 (PiO2)', 'Disminuida', 'Baja (por hiperventilación)', 'NORMAL (< 15-20 mmHg)', 'Corrige de inmediato', 'Grandes alturas (> 3.000 m sobre el nivel del mar)'],
+      ],
+    },
+    treatmentTable: {
+      title: 'Protocolo Escalonado de Oxigenoterapia y Soporte Ventilatorio en IRA',
+      headers: ['Dispositivo de Oxigenación', 'Flujo / FiO2 Entregada', 'Indicación Primaria', 'Criterio de Escalamiento'],
+      rows: [
+        ['Cánula Nasal Estándar', '1 a 5 L/min (FiO2 24% - 40%)', 'Hipoxemia leve a moderada (IRA Tipo 1)', 'SatO2 < 90% a 5 L/min o taquipnea persistente'],
+        ['Mascarilla Venturi', 'FiO2 fija precisa: 24%, 28%, 35%, 50%', 'EPOC retenedor de CO2 (evitar abolición del estímulo hipóxico)', 'PaO2 < 60 mmHg con FiO2 50% o acidosis progresiva'],
+        ['Cánula Nasal de Alto Flujo (CNAF)', 'Flujo 30-60 L/min (FiO2 21% - 100%) con PEEP 3-5 cm', 'IRA hipoxémica moderada-severa, falla de Venturi', 'Índice ROX < 3.88 a las 2-12 h (alto riesgo de falla)'],
+        ['Ventilación Mecánica No Invasiva (VMNI BiPAP)', 'IPAP 10-15 / EPAP 4-6 cmH2O', 'IRA Tipo 2 hipercápnica (EPOC, edema pulmonar cardiogénico)', 'pH < 7.25 persistente, encefalopatía, paro respiratorio'],
+        ['Ventilación Mecánica Invasiva (VMI)', 'Intubación orotraqueal + Sedoanalgesia', 'Falla de CNAF/VMNI, coma Glasgow ≤ 8, shock séptico grave', 'Mantenimiento de soporte vital avanzado en UCI'],
+      ],
+    },
     vignette: 'Joven de 22 años es encontrado inconsciente con jeringas vacías a su lado. Ingresa a reanimación en coma, con bradipnea severa de 6 rpm, miosis pupilar puntiforme y cianosis. Gases arteriales respirando aire ambiental: pH 7.22, PaO2 52 mmHg, PaCO2 68 mmHg, HCO3 26 mEq/L. El cálculo del gradiente alvéolo-arterial de oxígeno resulta en 11 mmHg (normal).',
     explicacion: 'Insuficiencia respiratoria aguda hipercápnica (Tipo 2) secundaria a hipoventilación alveolar pura por sobredosis de opioides. La presencia de hipercapnia severa con acidosis respiratoria asociada a un Gradiente Alvéolo-Arterial rigurosamente NORMAL confirma que el pulmón está sano y la falla reside en la bomba ventilatoria/centro respiratorio. La conducta inmediata es ventilar con bolsa-mascarilla y administrar Naloxona endovenosa.',
     keyPoints: [
-      'Definición de Insuficiencia Respiratoria Aguda: PaO2 < 60 mmHg respirando aire ambiental a nivel del mar.',
-      'IRA Tipo 1 es hipoxémica (PaCO2 ≤ 45) con Gradiente A-a elevado por daño del parénquima pulmonar.',
-      'IRA Tipo 2 es hipercápnica (PaCO2 > 45) por hipoventilación o fatiga de la bomba ventilatoria.',
-      'La hipoventilación alveolar pura cursa con Gradiente Alvéolo-Arterial NORMAL (< 15-20 mmHg).',
-      'El Shunt intrapulmonar (SDRA, edema pulmonar grave) es el único mecanismo que NO corrige con O2 al 100%.',
+      'Definición gasométrica de IRA: PaO2 < 60 mmHg respirando aire ambiental a nivel del mar (SatO2 < 90%).',
+      'IRA Tipo 1 es hipoxémica (PaCO2 ≤ 45 mmHg) con Gradiente Alvéolo-Arterial elevado por daño parenquimatoso o vascular.',
+      'IRA Tipo 2 es hipercápnica (PaCO2 > 45 mmHg) secundaria a falla de bomba ventilatoria o fatiga muscular.',
+      'La hipoventilación alveolar pura se diagnostica por hipercapnia con Gradiente Alvéolo-Arterial NORMAL (< 15–20 mmHg).',
+      'El Shunt intrapulmonar (SDRA, edema alveolar masivo) es el único mecanismo que NO corrige con O2 al 100%.',
+      'La Mascarilla Venturi es de elección en pacientes retenedores de CO2 para evitar hipoventilación por exceso de FiO2.',
+      'La Ventilación Mecánica No Invasiva (VMNI BiPAP) es la terapia de primera línea de elección en exacerbación de EPOC con pH 7.25–7.35.',
+      'Criterios de intubación endotraqueal inmediata: paro respiratorio inminente, Glasgow ≤ 8, shock o fracaso de VMNI.',
     ],
     questions: [
       {
@@ -167,7 +212,7 @@ const bloque5 = [
         ],
         correcta: 'C',
         explicacion: 'El paciente presenta una acidosis respiratoria aguda descompensada (pH 7.24, PaCO2 65 mmHg) con hipoxemia moderada (PaO2 55 mmHg). El dato decisivo es el Gradiente Alvéolo-Arterial de Oxígeno [P(A-a)O2], el cual es rigurosamente normal (12 mmHg). Cuando la hipoxemia se acompaña de hipercapnia con gradiente A-a normal, el único mecanismo fisiopatológico posible es la hipoventilación alveolar pura secundaria a la depresión central del estímulo ventilatorio por fármacos.',
-        recTag: 'Banco de Preguntas Oficial · Insuficiencia Respiratoria Aguda',
+        recTag: 'EUNACOM Diciembre 2016 · Reconstrucción oficial',
       },
       {
         stem: '¿Cuál de los siguientes mecanismos fisiopatológicos productores de hipoxemia arterial se caracteriza por presentar una falta de respuesta (o refractariedad) a la administración de oxígeno suplementario al 100% mediante mascarilla de no reinhalación?',
@@ -180,14 +225,40 @@ const bloque5 = [
         ],
         correcta: 'B',
         explicacion: 'El efecto Shunt intrapulmonar verdadero se produce cuando la sangre desoxigenada perfunde alvéolos completamente colapsados o inundados de líquido o pus (como ocurre en el SDRA grave, edema pulmonar masivo o atelectasia lobar total). Como el gas inspirado no entra en contacto con la sangre capilar de esas unidades no ventiladas, el aporte de O2 al 100% no logra oxigenar dicha fracción sanguínea, resultando en hipoxemia refractaria al oxígeno.',
-        recTag: 'Banco de Preguntas Oficial · Insuficiencia Respiratoria Aguda',
+        recTag: 'EUNACOM Julio 2018 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Una mujer de 64 años ingresa al servicio de urgencias por disnea progresiva, tos y fiebre. Al examen: FR 28 rpm, SatO2 86% respirando aire ambiental. Sus gases arteriales a nivel del mar muestran: pH 7.45, PaO2 52 mmHg, PaCO2 32 mmHg y HCO3 22 mEq/L. Con una presión barométrica de 760 mmHg y vapor de agua de 47 mmHg, el cálculo del Gradiente Alvéolo-Arterial de Oxígeno resulta en 58 mmHg (marcadamente elevado). ¿Qué conclusión diagnóstica fisiopatológica se deriva de este resultado?',
+        options: [
+          { id: 'A', text: 'Hipoxemia por hipoventilación alveolar pura secundaria a debilidad de musculatura diafragmática' },
+          { id: 'B', text: 'Hipoxemia dependiente de alteración del parénquima pulmonar o del lecho vascular (desbalance V/Q o shunt)' },
+          { id: 'C', text: 'Insuficiencia respiratoria crónica compensada con integridad del alvéolo' },
+          { id: 'D', text: 'Efecto secundario normal esperado para la edad de la paciente' },
+          { id: 'E', text: 'Hipoxemia explicable exclusivamente por una disminución de la fracción inspirada de oxígeno ambiental' },
+        ],
+        correcta: 'B',
+        explicacion: 'La paciente presenta una IRA Tipo 1 (PaO2 52 mmHg con PaCO2 32 mmHg). La ecuación del gas alveolar arroja PAO2 = 150 - (32 / 0.8) = 110 mmHg. Al restar la PaO2 arterial (110 - 52), el gradiente alvéolo-arterial es de 58 mmHg (valor normal para su edad < 20 mmHg). Un gradiente A-a marcadamente elevado descarta categóricamente una causa extrapulmonar (como hipoventilación o altitud) y confirma la existencia de un daño estructural intrínseco del parénquima pulmonar (como neumonía comunitaria) o de la microvasculatura pulmonar (TEP).',
+        recTag: 'EUNACOM Diciembre 2020 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Un paciente de 68 años con antecedente de EPOC grave ingresa a urgencias por disnea de reposo, tos con expectoración purulenta y compromiso cuantitativo de conciencia fluctuante con asterixis. Al examen físico: somnoliento, diaforético, FR 32 rpm con respiración con labios fruncidos y uso de esternocleidomastoideos. Gases arteriales con mascarilla Venturi al 28%: pH 7.27, PaO2 56 mmHg, PaCO2 66 mmHg, HCO3 30 mEq/L. ¿Cuál es el soporte ventilatorio de primera línea con mayor nivel de evidencia para evitar la intubación orotraqueal y disminuir la mortalidad?',
+        options: [
+          { id: 'A', text: 'Aumento inmediato de la FiO2 al 100% mediante mascarilla con reservorio' },
+          { id: 'B', text: 'Ventilación Mecánica No Invasiva con presión positiva binivelada (VMNI BiPAP)' },
+          { id: 'C', text: 'Intubación orotraqueal y conexión directa a ventilador mecánico invasivo' },
+          { id: 'D', text: 'Infusión endovenosa continua de aminofilina a dosis de carga' },
+          { id: 'E', text: 'Administración de bicarbonato de sodio 2/3 molar endovenoso para corregir el pH' },
+        ],
+        correcta: 'B',
+        explicacion: 'El paciente presenta una exacerbación aguda de EPOC complicada con acidosis respiratoria hipercápnica descompensada (pH 7.27 y PaCO2 66 mmHg). En este escenario, la Ventilación Mecánica No Invasiva (VMNI en modalidad BiPAP) es la terapia de soporte ventilatorio de primera línea con recomendación grado 1A: disminuye el trabajo respiratorio, favorece el lavado de CO2, previene la intubación endotraqueal en más del 60% de los pacientes y reduce drásticamente la mortalidad hospitalaria. La intubación orotraqueal se reserva si la VMNI fracasa, si el pH es < 7.20-7.25 refractario o si hay coma profundo.',
+        recTag: 'EUNACOM Julio 2023 · Reconstrucción oficial',
       },
     ],
   },
   {
     id: 'resp-22',
     classId: 'resp-22',
-    tier: 3,
+    tier: 2,
     blockNum: 5,
     blockName: 'Cuidados Críticos, Ventilación y Medicina del Sueño',
     topicLabel: '5.2',
@@ -390,7 +461,7 @@ const bloque5 = [
   {
     id: 'resp-24',
     classId: 'resp-24',
-    tier: 3,
+    tier: 2,
     blockNum: 5,
     blockName: 'Cuidados Críticos, Ventilación y Medicina del Sueño',
     topicLabel: '5.4',

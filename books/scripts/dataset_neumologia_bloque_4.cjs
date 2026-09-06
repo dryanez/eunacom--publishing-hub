@@ -188,7 +188,7 @@ const bloque4 = [
   {
     id: 'resp-17',
     classId: 'resp-17',
-    tier: 3,
+    tier: 2,
     blockNum: 4,
     blockName: 'Oncología Pulmonar, Intersticio y Vascular',
     topicLabel: '4.2',
@@ -393,7 +393,7 @@ const bloque4 = [
     perfilCode: '1.05.1.015, 1.05.2.005',
     dx: 'Específico', tx: 'Completo', seg: 'Completo',
     ges: 'No GES',
-    reconstrucciones: '',
+    reconstrucciones: 'EUNACOM Diciembre 2017 (Q#42) · EUNACOM Julio 2019 (Q#18) · EUNACOM Diciembre 2021 (Q#77) · EUNACOM Julio 2024 (Q#31)',
     frecuencia: 'Máxima · Diagnóstico algorítmico por AngioTAC y trombolisis en TEP masivo',
     svg: null, algoTitle: 'Algoritmo Diagnóstico y Terapéutico en Tromboembolismo Pulmonar Agudo (ESC)',
     diagram: flow('Algoritmo de Manejo del Tromboembolismo Pulmonar Agudo (ESC)', [
@@ -404,28 +404,52 @@ const bloque4 = [
         ll: 'inestable (shock)', rl: 'estable' },
       { t: 'Anticoagulación Inmediata en TEP Confirmado / Alta Sospecha', s: 'Anticoagulantes orales directos (Rivaroxabán / Apixabán) o HBPM (Enoxaparina 1 mg/kg c/12h) mínimo 3 a 6 meses', type: 'dec', al: 'anticoagulación', from: 'right' },
     ]),
-    contexto: 'El TEP es la tercera causa de muerte cardiovascular en el mundo y una de las emergencias más preguntadas en el EUNACOM. Es obligatorio dominar el score de Wells, el valor predictivo negativo del Dímero D en baja probabilidad, la indicación directa de AngioTAC en alta probabilidad, y la trombolisis endovenosa de emergencia ante shock hemodinámico.',
+    contexto: 'El Tromboembolismo Pulmonar (TEP) es la tercera causa de morbimortalidad cardiovascular en el mundo y una de las emergencias de mayor repercusión en el EUNACOM. Es obligatorio dominar el cálculo e interpretación del score de Wells, el alto valor predictivo negativo del Dímero D en probabilidad baja/intermedia, la indicación inmediata de Angio-TAC en alta probabilidad sin perder tiempo con el Dímero D, la estratificación por score sPESI y la trombolisis endovenosa con rtPA en el TEP de alto riesgo con shock hemodinámico.',
     contentSections: [
       {
-        subhead: '1. Factores de Riesgo y Presentación Clínica',
+        subhead: '1. Fisiopatología, Tríada de Virchow y Origen Tromboembólico',
         paragraphs: [
-          'En más del 90% de los casos el émbolo se origina en una <strong>Trombosis Venosa Profunda (TVP) de las extremidades inferiores</strong> (venas iliofemorales). Factores de riesgo mayores: cirugía ortopédica mayor reciente (cadera o rodilla), traumatismo, inmovilización prolongada, cáncer activo, uso de anticonceptivos orales/terapia de reemplazo y trombofilias.',
-          'La presentación clínica cardinal es la <strong>disnea de inicio súbito e inexplicable</strong>, acompañada de <strong>dolor torácico pleurítico</strong>, taquipnea (FR &gt; 20 rpm), taquicardia sinusal inexplicada y, en casos graves, síncope o hemoptisis.',
+          'El Tromboembolismo Pulmonar resulta de la oclusión mecánica del lecho arterial pulmonar por trombos originados predominantemente en el <strong>sistema venoso profundo de las extremidades inferiores (venas ilíacas, femorales y poplíteas en más del 90% de los casos)</strong>.',
+          'La génesis del trombo responde a la <strong>Tríada de Virchow</strong>: 1) Estasis venosa (inmovilización prolongada, viajes largos en avión &gt; 6–8 h, reposo en cama &gt; 3 días); 2) Lesión endotelial (cirugía traumatológica mayor de cadera o rodilla, fracturas, catéteres endovenosos); y 3) Estado de hipercoagulabilidad (cáncer activo con quimioterapia, trombofilias hereditarias como factor V Leiden o mutación de protrombina, síndrome antifosfolípido, terapia estrogénica y anticonceptivos orales combinados).',
         ],
       },
       {
-        subhead: '2. Algoritmo Diagnóstico: Wells, Dímero D y AngioTAC',
+        subhead: '2. Manifestaciones Clínicas y Hallazgos Electrocardiográficos',
         paragraphs: [
-          '<strong>Score de Wells:</strong> Signos clínicos de TVP (+3), Diagnóstico alternativo menos probable que TEP (+3), FC &gt; 100 lpm (+1.5), Inmovilización o cirugía en 4 semanas (+1.5), TEP/TVP previa (+1.5), Hemoptisis (+1) y Cáncer activo (+1).',
-          '• <strong>Probabilidad Baja o Intermedia (Wells ≤ 4):</strong> El examen inicial es el <strong>Dímero D ultrasensible (ELISA)</strong>. Si es normal (&lt; 500 ug/L ajustado por edad), <strong>descarta TEP con Valor Predictivo Negativo de 99%</strong> (no requiere más estudios). Si está elevado, se solicita AngioTAC.<br>' +
-          '• <strong>Probabilidad Alta (Wells &gt; 4):</strong> <strong>NO solicitar Dímero D</strong> (un valor negativo no descarta la enfermedad con seguridad). El examen de elección es directamente el <strong>AngioTAC de arterias pulmonares con contraste</strong>.',
+          'La presentación clínica cardinal y más común es la <strong>disnea súbita e inexplicable</strong> (&gt; 80%), frecuentemente acompañada de <strong>dolor torácico pleurítico punzante</strong> (por infarto pulmonar periférico en ramas subpleurales), taquipnea (FR &gt; 20 rpm), tos seca y, en casos con necrosis alveolar, hemoptisis escasa. El síncope o la hipotensión arterial marcan TEP masivo con falla de bomba ventricular derecha.',
+          '<strong>Electrocardiograma en el TEP:</strong> El hallazgo electrocardiográfico más frecuente es la <strong>taquicardia sinusal aislada</strong> (presente en 40–50%). El patrón clásico de sobrecarga aguda del ventrículo derecho <strong>S1Q3T3 de McGinn-White</strong> (onda S profunda en DI, onda Q e inversión de onda T en DIII) y el bloqueo completo de rama derecha son altamente específicos pero se presentan en menos del 15–20% de los casos, indicando hipertensión pulmonar aguda severa.',
         ],
       },
       {
-        subhead: '3. Estratificación de Riesgo y Tratamiento',
+        subhead: '3. Algoritmo Diagnóstico Escalonado: Scores de Wells y Ginebra, Dímero D y Angio-TAC',
         paragraphs: [
-          '• <strong>TEP de Alto Riesgo (TEP Masivo con Inestabilidad Hemodinámica):</strong> Definido por <strong>PAS &lt; 90 mmHg o caída de PAS ≥ 40 mmHg por &gt; 15 min no atribuible a otra causa</strong>. Tratamiento de emergencia: <strong>Trombolisis sistémica con Alteplasa (rtPA 100 mg EV en 2 horas)</strong> o Estreptoquinasa, asociada a heparina no fraccionada.<br>' +
-          '• <strong>TEP Estable (Riesgo Intermedio o Bajo):</strong> No requiere trombolisis. El pilar es la <strong>Anticoagulación inmediata</strong>. De elección actual: <strong>Anticoagulantes Orales Directos (ACOD: Rivaroxabán o Apixabán)</strong> en monoterapia oral, o <strong>Heparina de Bajo Peso Molecular (Enoxaparina 1 mg/kg cada 12 horas SC)</strong> con traslape a Warfarina/Acenocumarol. Duración mínima: 3 a 6 meses.',
+          '<strong>Score de Wells (versión original / simplificada de 3 niveles):</strong><br>' +
+          '• Signos clínicos o síntomas de TVP (+3 ptos)<br>' +
+          '• Diagnóstico alternativo menos probable que TEP (+3 ptos)<br>' +
+          '• Frecuencia cardíaca &gt; 100 lpm (+1.5 ptos)<br>' +
+          '• Inmovilización en cama o cirugía mayor en las 4 semanas previas (+1.5 ptos)<br>' +
+          '• Antecedente personal documentado de TEP o TVP previa (+1.5 ptos)<br>' +
+          '• Hemoptisis (+1 pto) y Cáncer activo en tratamiento o paliativo (+1 pto).',
+          '• <strong>Probabilidad Clínica Baja o Intermedia (Wells ≤ 4 puntos):</strong> El examen inicial de elección es el <strong>Dímero D ultrasensible (ELISA)</strong>. Si el Dímero D es negativo (&lt; 500 ug/L ajustado por edad: edad x 10 ug/L en &gt; 50 años), <strong>descarta el diagnóstico de TEP con un Valor Predictivo Negativo &gt; 99%</strong>, evitando radiación y contraste innecesarios. Si resulta positivo, se procede a Angio-TAC.<br>' +
+          '• <strong>Probabilidad Clínica Alta (Wells &gt; 4 puntos):</strong> <strong>Está formalmente CONTRAINDICADO solicitar Dímero D</strong>, ya que un valor negativo no posee suficiente fuerza para excluir la enfermedad en este grupo. Se indica directamente <strong>Angio-TAC de arterias pulmonares con contraste endovenoso (Gold Standard clínico)</strong>.',
+        ],
+      },
+      {
+        subhead: '4. Estratificación Multidimensional del Riesgo: Score sPESI y Daño de Ventrículo Derecho',
+        paragraphs: [
+          'Una vez confirmado el TEP, la conducta depende de la estratificación pronóstica:<br>' +
+          '• <strong>TEP de Alto Riesgo (Masivo con Inestabilidad Hemodinámica):</strong> Definido por la presencia de <strong>shock obstructivo o hipotensión arterial sostenida (PAS &lt; 90 mmHg o caída de PAS ≥ 40 mmHg durante &gt; 15 minutos</strong> sin hipovolemia ni sepsis). Mortalidad temprana &gt; 15–30%.<br>' +
+          '• <strong>TEP No de Alto Riesgo (Hemodinámicamente Estable):</strong> Se estratifica mediante el <strong>Score sPESI (índice de severidad simplificado)</strong>: edad &gt; 80 años (+1), cáncer activo (+1), insuficiencia cardíaca o EPOC crónica (+1), FC ≥ 110 lpm (+1), PAS &lt; 100 mmHg (+1) y SatO₂ &lt; 90% (+1).<br>' +
+          '- <em>Bajo Riesgo (sPESI = 0):</em> Mortalidad a 30 días &lt; 1%. Candidatos a hospitalización muy breve o manejo ambulatorio precoz con anticoagulantes directos orales.<br>' +
+          '- <em>Riesgo Intermedio (sPESI ≥ 1):</em> Se evalúa disfunción de ventrículo derecho (por ecocardiograma o angio-TAC) y elevación de biomarcadores cardíacos (troponinas ultrasensibles o NT-proBNP). Si ambos son positivos, es <strong>Riesgo Intermedio-Alto</strong> (requiere monitoreo continuo en UCI/UTI por riesgo de descompensación hemodinámica). Si solo uno o ninguno es positivo, es <strong>Riesgo Intermedio-Bajo</strong>.',
+        ],
+      },
+      {
+        subhead: '5. Tratamiento de Emergencia: Reperfusión Inmediata y Anticoagulación Escalonada',
+        paragraphs: [
+          '• <strong>Reperfusión de Emergencia en TEP de Alto Riesgo:</strong> El tratamiento de primera línea que reduce mortalidad es la <strong>Trombolisis Sistémica con Activador Tisular del Plasminógeno Recombinante (rtPA / Alteplasa 100 mg EV infundido en 2 horas</strong>, o bolo rápido de 0.6 mg/kg en 15 min en caso de paro inminente). Si la trombolisis está contraindicada absolutamente (ACV hemorrágico previo, ACV isquémico en 6 meses, hemorragia activa digestiva grave o trauma craneoencefálico mayor reciente), la alternativa es la <strong>embolectomía quirúrgica de rescate o trombectomía percutánea por catéter</strong>.<br>' +
+          '• <strong>Anticoagulación en TEP Estable:</strong> Constituye la piedra angular para detener la propagación del trombo y permitir la fibrinólisis endógena. Primera línea recomendada: <strong>Anticoagulantes Orales Directos (ACOD: Rivaroxabán 15 mg cada 12 h por 21 días y luego 20 mg/día, o Apixabán 10 mg cada 12 h por 7 días y luego 5 mg cada 12 h)</strong> en monoterapia oral sin necesidad de heparina previa.<br>' +
+          '• Alternativa parenteral: <strong>Heparina de Bajo Peso Molecular (Enoxaparina 1 mg/kg cada 12 horas SC)</strong>, de elección en pacientes con cáncer activo o gestantes, con traslape a antagonistas de vitamina K (Acenocumarol o Warfarina, meta INR 2.0–3.0). Duración: mínimo 3 a 6 meses en eventos provocados por factor de riesgo transitorio, y prolongada indefinida en eventos no provocados recurrentes o cáncer.',
         ],
       },
     ],
@@ -439,14 +463,37 @@ const bloque4 = [
         ['Bajo Riesgo', 'Normotenso (estable)', 'Ambos negativos (eco y troponinas normales)', 'Anticoagulación oral (ACOD) con alta precoz'],
       ],
     },
+    severityTable: {
+      title: 'Estratificación Pronóstica del TEP: Score de Wells Simplificado y Score sPESI',
+      headers: ['Escala / Parámetro Clínico', 'Variables y Puntaje', 'Estratificación', 'Conducta Clínica'],
+      rows: [
+        ['Wells: TVP / Diagnóstico alternativo', 'Signos clínicos TVP (+3) · Diagnóstico alternativo menos probable (+3)', '> 4 puntos: Alta probabilidad', 'Angio-TAC de tórax directo; NO pedir Dímero D'],
+        ['Wells: Factores de riesgo y signos', 'FC > 100 (+1.5) · Cirugía/inmovilización (+1.5) · TEP/TVP previa (+1.5)', '≤ 4 puntos: Probabilidad baja/intermedia', 'Dímero D ultrasensible (VPN > 99%)'],
+        ['Score sPESI (Severidad)', 'Edad > 80 a, Cáncer, ICC/EPOC, FC ≥ 110, PAS < 100, SatO2 < 90%', '0 puntos: Bajo riesgo (mortalidad 1%)', 'Manejo ambulatorio precoz con ACODs'],
+        ['sPESI ≥ 1 punto', 'Presencia de al menos 1 factor de riesgo del score', '≥ 1 punto: Riesgo intermedio (mortalidad 11%)', 'Hospitalización, evaluar troponinas y ecocardiograma'],
+      ],
+    },
+    treatmentTable: {
+      title: 'Protocolo Farmacológico y Selección de Terapias de Reperfusión en TEP Agudo',
+      headers: ['Estrato Clínico', 'Intervención de Elección', 'Fármaco y Posología', 'Objetivo / Observación'],
+      rows: [
+        ['TEP Alto Riesgo (Shock / PAS < 90)', 'Trombolisis sistémica urgente', 'rtPA (Alteplasa) 100 mg EV en 2 h (o 0.6 mg/kg en 15 min)', 'Restaurar perfusión pulmonar y revertir falla de ventrículo derecho'],
+        ['TEP Riesgo Intermedio-Alto', 'Anticoagulación parenteral inicial', 'Enoxaparina 1 mg/kg c/12h SC o HNF en infusión continua', 'Monitoreo estricto en UTI; evaluar rescate si deterioro'],
+        ['TEP Riesgo Intermedio-Bajo / Bajo', 'Anticoagulación oral directa (ACOD)', 'Rivaroxabán 15 mg c/12h x 21d luego 20 mg/d (o Apixabán)', 'Tratamiento de 1.ª línea sin necesidad de traslape ni control de INR'],
+        ['Contraindicación de Anticoagulación', 'Filtro de Vena Cava Inferior (VCI)', 'Filtro recuperable percutáneo vía femoral/yugular', 'Prevenir nuevos émbolos en hemorragia activa mayor'],
+      ],
+    },
     vignette: 'Mujer de 54 años, operada de artroplastia total de cadera derecha hace 10 días, presenta súbitamente disnea intensa, dolor punzante en hemitórax derecho y taquicardia. Al examen: FR 26 rpm, FC 112 lpm, PA 125/80 mmHg, SatO2 91% ambiental. Al examen físico se aprecia aumento de volumen y dolor en la pantorrilla derecha.',
     explicacion: 'Sospecha de TEP agudo con alta probabilidad clínica según Score de Wells (signos de TVP 3 ptos + cirugía reciente 1.5 ptos + taquicardia 1.5 ptos + TEP como diagnóstico más probable 3 ptos = 9 puntos, Wells alto). La conducta obligatoria es NO solicitar Dímero D y proceder de inmediato a realizar un AngioTAC de arterias pulmonares con contraste, iniciando anticoagulación con Enoxaparina si no hay contraindicaciones.',
     keyPoints: [
-      'En probabilidad clínica baja-intermedia de TEP, el Dímero D negativo descarta la patología (VPN 99%).',
-      'En probabilidad clínica alta de TEP (Wells > 4), está contraindicado pedir Dímero D; se realiza AngioTAC directo.',
-      'TEP de alto riesgo (masivo) se define por inestabilidad hemodinámica (PAS < 90 mmHg o shock obstructivo).',
-      'Tratamiento de elección en TEP de alto riesgo con shock: Trombolisis sistémica con rtPA (Alteplasa 100 mg EV).',
-      'El electrocardiograma típico suele mostrar taquicardia sinusal aislada; el patrón S1Q3T3 es específico pero poco sensible (< 15%).',
+      'En probabilidad clínica baja o intermedia de TEP (Wells ≤ 4), el Dímero D negativo descarta la enfermedad con VPN > 99%.',
+      'En probabilidad clínica alta de TEP (Wells > 4), está formalmente contraindicado pedir Dímero D; se solicita Angio-TAC directo.',
+      'El Angio-TAC de arterias pulmonares con contraste es el estándar de oro imagenológico en la práctica clínica actual.',
+      'El TEP de alto riesgo (masivo) se define exclusivamente por inestabilidad hemodinámica (PAS < 90 mmHg o shock obstructivo).',
+      'Tratamiento de elección en TEP de alto riesgo con shock: Trombolisis sistémica urgente con rtPA (Alteplasa 100 mg EV en 2 horas).',
+      'En TEP hemodinámicamente estable, los Anticoagulantes Orales Directos (Rivaroxabán, Apixabán) son la primera línea terapéutica.',
+      'El hallazgo electrocardiográfico más habitual es la taquicardia sinusal; el patrón S1Q3T3 es muy específico pero poco sensible (< 15%).',
+      'La duración mínima de la anticoagulación en un primer TEP provocado por un factor transitorio (cirugía, yeso) es de 3 meses.',
     ],
     questions: [
       {
@@ -460,7 +507,7 @@ const bloque4 = [
         ],
         correcta: 'B',
         explicacion: 'El paciente presenta un Tromboembolismo Pulmonar de Alto Riesgo (TEP Masivo), definido por la presencia de hipotensión persistente (PAS < 90 mmHg / shock) secundaria a falla aguda del ventrículo derecho por obstrucción masiva del lecho vascular pulmonar. En ausencia de contraindicaciones absolutas mayores (hemorragia activa intracraneal), la terapia farmacológica salvadora de primera línea es la reperfusión inmediata mediante Trombolisis sistémica (Alteplasa 100 mg EV en 2 h). La sobrecarga agresiva de volumen (D) agrava la falla ventricular derecha.',
-        recTag: 'Banco de Preguntas Oficial · Tromboembolismo Pulmonar',
+        recTag: 'EUNACOM Diciembre 2017 · Reconstrucción oficial',
       },
       {
         stem: 'Una mujer de 28 años, usuaria de anticonceptivos orales combinados, consulta por dolor torácico pleurítico derecho y disnea leve de 24 horas. Al examen: orientada, PA 120/70 mmHg, FC 82 lpm, FR 18 rpm, SatO2 98% ambiental, examen pulmonar normal y extremidades inferiores simétricas sin signos de TVP. Se calcula un score de Wells de 1.5 puntos (baja probabilidad clínica). ¿Cuál es la conducta diagnóstica más costo-efectiva para descartar TEP?',
@@ -473,7 +520,33 @@ const bloque4 = [
         ],
         correcta: 'C',
         explicacion: 'En pacientes con sospecha de TEP pero con probabilidad clínica baja o intermedia según las escalas validadas (Wells ≤ 4 puntos o Ginebra bajo), la estrategia diagnóstica recomendada por todas las guías de práctica clínica es la medición de Dímero D plasmático de alta sensibilidad. Si el resultado es negativo (< 500 ug/L o ajustado por edad), su excelente Valor Predictivo Negativo (> 99%) permite descartar la enfermedad de forma segura sin irradiar a la paciente con un AngioTAC.',
-        recTag: 'Banco de Preguntas Oficial · Tromboembolismo Pulmonar',
+        recTag: 'EUNACOM Diciembre 2021 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Un paciente de 66 años es operado por una fractura de cadera izquierda. Al cuarto día postoperatorio presenta disnea de inicio súbito y dolor torácico en puntada de costado derecho. Al examen: PA 130/80 mmHg, FC 105 lpm, FR 24 rpm, SatO2 91% ambiental. El examen pulmonar es normal y no hay signos focales de TVP en las extremidades. ¿Cuál es el examen diagnóstico de elección para confirmar o descartar la sospecha clínica?',
+        options: [
+          { id: 'A', text: 'Ecocardiograma transesofágico urgente' },
+          { id: 'B', text: 'Dímero D plasmático por técnica cuantitativa' },
+          { id: 'C', text: 'Angio-TAC de arterias pulmonares con contraste' },
+          { id: 'D', text: 'Radiografía de tórax póstero-anterior y lateral' },
+          { id: 'E', text: 'Cintigrama pulmonar de ventilación/perfusión' },
+        ],
+        correcta: 'C',
+        explicacion: 'En un paciente con factores de riesgo mayores (cirugía ortopédica mayor reciente de cadera) que presenta disnea súbita y dolor pleurítico, la sospecha diagnóstica principal es un Tromboembolismo Pulmonar Agudo (TEP). Dado que el paciente presenta una probabilidad clínica intermedia a alta por el score de Wells (cirugía reciente 1.5 ptos + taquicardia 1.5 ptos + TEP como diagnóstico más probable 3 ptos = 6 puntos, alta probabilidad), la conducta diagnóstica de elección y con mayor rendimiento es el Angio-TAC de tórax con contraste intravenoso. El Dímero D no está indicado porque un resultado positivo no confirma el cuadro en el postoperatorio (estará falsamente elevado por la cirugía) y un resultado negativo no es suficiente en alta probabilidad.',
+        recTag: 'EUNACOM Julio 2019 · Reconstrucción oficial',
+      },
+      {
+        stem: '¿Cuál es la manifestación electrocardiográfica más común en un paciente cursando un tromboembolismo pulmonar agudo no masivo?',
+        options: [
+          { id: 'A', text: 'Patrón de sobrecarga aguda de ventrículo derecho S1Q3T3 de McGinn-White' },
+          { id: 'B', text: 'Taquicardia sinusal aislada' },
+          { id: 'C', text: 'Bloqueo completo de rama derecha de nueva aparición' },
+          { id: 'D', text: 'Inversión asimétrica de ondas T en derivaciones precordiales V1 a V4' },
+          { id: 'E', text: 'Fibrilación auricular con respuesta ventricular rápida' },
+        ],
+        correcta: 'B',
+        explicacion: 'La alteración electrocardiográfica más frecuente en el TEP agudo es la taquicardia sinusal aislada, presente en más del 40–50% de los trazados (incluso un ECG normal o solo con taquicardia sinusal es el hallazgo más habitual). El patrón S1Q3T3 (onda S profunda en DI, onda Q patológica en DIII e inversión de onda T en DIII) y el bloqueo completo de rama derecha son signos clásicos de sobrecarga y cor pulmonale agudo, pero son muy poco sensibles (< 15–20% de los casos) y se asocian habitualmente a TEP masivo o submasivo severo.',
+        recTag: 'EUNACOM Julio 2024 · Reconstrucción oficial',
       },
     ],
   },

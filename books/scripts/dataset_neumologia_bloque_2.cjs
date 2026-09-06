@@ -98,7 +98,7 @@ const bloque2 = [
     perfilCode: '1.05.1.027',
     dx: 'Específico', tx: 'Completo', seg: 'Completo',
     ges: 'Garantía Explícita en Salud (GES): Neumonía Adquirida en la Comunidad de Manejo Ambulatorio en Personas de 65 años y más',
-    reconstrucciones: '',
+    reconstrucciones: 'EUNACOM Julio 2018 (Q#12) · EUNACOM Diciembre 2020 (Q#45) · EUNACOM Diciembre 2022 (Q#33)',
     frecuencia: 'Máxima · Tema central de medicina interna en todos los exámenes',
     svg: null, algoTitle: 'Algoritmo de Estratificación de Severidad y Destino en NAC (CURB-65)',
     diagram: flow('Algoritmo de Estratificación y Destino en NAC (CURB-65)', [
@@ -111,28 +111,43 @@ const bloque2 = [
     contexto: 'La NAC es una de las infecciones con mayor morbimortalidad en Chile y garantía GES en mayores de 65 años. El EUNACOM exige el cálculo exacto del score CURB-65 / CRB-65, la definición del lugar de tratamiento (ambulatorio, sala general o UCI) y el reconocimiento de complicaciones precoces como el derrame paraneumónico.',
     contentSections: [
       {
-        subhead: '1. Criterios Diagnósticos y Etiología Habitual',
+        subhead: '1. Definición, Epidemiología e Impacto Sanitario (GES)',
         paragraphs: [
-          'La NAC se define como una infección aguda del parénquima pulmonar adquirida fuera del ambiente hospitalario. El diagnóstico exige la presencia de síntomas respiratorios bajos agudos (tos, expectoración mucopurulenta, dolor pleurítico, fiebre) y signos focales al examen físico (crépitos localizados, broncofonía, soplo tubario), <strong>confirmados mediante una Radiografía de tórax</strong> con infiltrado o consolidación nueva.',
-          'El agente etiológico más frecuente en todos los grupos etarios es <strong><em>Streptococcus pneumoniae</em> (neumococo)</strong>. Otros agentes frecuentes son <em>Mycoplasma pneumoniae</em> y virus respiratorios en jóvenes, y <em>Haemophilus influenzae</em> y bacilos gramnegativos en adultos mayores o con comorbilidades.',
+          'La <strong>Neumonía Adquirida en la Comunidad (NAC)</strong> es una infección aguda del parénquima pulmonar adquirida fuera del ámbito hospitalario o que se manifiesta en las primeras 48 horas tras el ingreso. Representa la principal causa de muerte por patología infecciosa en adultos mayores en Chile.',
+          'El Ministerio de Salud garantiza por <strong>GES la atención integral de la NAC en personas de 65 años y más</strong>: ante la sospecha clínica, el paciente tiene derecho a confirmación diagnóstica radiológica e inicio del tratamiento antimicrobiano en menos de 24 horas desde el ingreso.',
         ],
       },
       {
-        subhead: '2. Score de Severidad CURB-65 y Destino del Paciente',
+        subhead: '2. Etiología Microbiológica por Grupos de Riesgo',
         paragraphs: [
-          'Cada letra otorga 1 punto: <strong>C</strong> (Confusión mental aguda, test abreviado ≤ 8 o desorientación); <strong>U</strong> (BUN &gt; 19 mg/dL o Urea &gt; 7 mmol/L / &gt; 42 mg/dL); <strong>R</strong> (Frecuencia respiratoria ≥ 30 rpm); <strong>B</strong> (Presión arterial sistólica &lt; 90 mmHg o diastólica ≤ 60 mmHg); <strong>65</strong> (Edad ≥ 65 años).',
-          '<strong>Conducta según puntaje:</strong><br>' +
-          '• <strong>0 a 1 punto:</strong> Bajo riesgo (mortalidad 1.5%). Manejo <strong>ambulatorio</strong>. Excepción: si el único punto es la edad (65 años) sin otros factores de riesgo social o hipoxemia, se maneja ambulatorio.<br>' +
-          '• <strong>2 puntos:</strong> Riesgo moderado (mortalidad 9.2%). <strong>Hospitalización en sala básica de medicina</strong>.<br>' +
-          '• <strong>3 a 5 puntos:</strong> Alto riesgo (mortalidad &gt; 22%). <strong>Hospitalización con evaluación urgente para UCI / UTI</strong>.',
+          'El patógeno bacteriano aislado con mayor frecuencia en todos los grupos de edad y niveles de gravedad sigue siendo <strong><em>Streptococcus pneumoniae</em> (neumococo)</strong>, responsable de más del 50% de las neumonías bacterianas identificadas.',
+          'En adultos jóvenes previamente sanos destacan <em>Mycoplasma pneumoniae</em> y virus respiratorios (Influenza, VRS, SARS-CoV-2). En adultos mayores, tabaquistas o portadores de EPOC se asocian frecuentemente <em>Haemophilus influenzae</em> y <em>Moraxella catarrhalis</em>. En pacientes con demencia o trastornos deglutorios se debe sospechar neumonía aspirativa por anaerobios orales y bacilos gramnegativos entéricos.',
         ],
       },
       {
-        subhead: '3. Criterios de Ingreso a UCI (Consenso ATS/IDSA)',
+        subhead: '3. Estratificación Pronóstica con Scores CURB-65 y CRB-65',
         paragraphs: [
-          'El ingreso directo a UCI se decide por los criterios ATS/IDSA. Requiere <strong>1 criterio mayor</strong> O al menos <strong>3 criterios menores</strong>.',
-          '<strong>Criterios mayores:</strong> 1) Necesidad de ventilación mecánica invasiva; 2) Shock séptico con necesidad de vasopresores.<br>' +
-          '<strong>Criterios menores:</strong> FR ≥ 30 rpm, PaFiO₂ ≤ 250, infiltrados multilobares, confusión mental, uremia (BUN ≥ 20 mg/dL), leucopenia (&lt; 4.000/uL), trombocitopenia (&lt; 100.000/uL), hipotermia (&lt; 36 °C) o hipotensión que requiere aporte agresivo de fluidos.',
+          'La decisión del sitio de atención clínica (ambulatorio, sala general o UCI) se fundamenta en la escala pronóstica <strong>CURB-65</strong>, validada por la Sociedad Británica del Tórax. Cada parámetro aporta 1 punto:<br>' +
+          '• <strong>C (Confusión):</strong> Desorientación témporo-espacial aguda o test mental abreviado ≤ 8.<br>' +
+          '• <strong>U (Urea / BUN):</strong> Nitrógeno ureico en sangre (BUN) &gt; 19 mg/dL (o Urea sérica &gt; 42 mg/dL / &gt; 7 mmol/L).<br>' +
+          '• <strong>R (Respiratorio):</strong> Frecuencia respiratoria ≥ 30 respiraciones por minuto.<br>' +
+          '• <strong>B (Blood pressure):</strong> Presión arterial sistólica &lt; 90 mmHg o diastólica ≤ 60 mmHg.<br>' +
+          '• <strong>65:</strong> Edad cronológica ≥ 65 años.',
+          'En atención primaria, donde el laboratorio de urgencia no está disponible de inmediato, se utiliza el <strong>CRB-65</strong> (omitiendo la urea): 0 puntos permite manejo ambulatorio seguro; 1 a 2 puntos sugiere derivación para evaluación hospitalaria; ≥ 3 puntos indica hospitalización urgente.',
+        ],
+      },
+      {
+        subhead: '4. Criterios de Ingreso a UPC (Consenso ATS/IDSA Mayores y Menores)',
+        paragraphs: [
+          'El score CURB-65 identifica mortalidad pero no reemplaza el juicio clínico intensivo. La Sociedad Americana del Tórax y la IDSA establecen criterios específicos para el ingreso directo a <strong>Unidad de Cuidados Intensivos (UCI)</strong>.',
+          'Se exige la presencia de <strong>al menos 1 criterio mayor</strong> (necesidad de ventilación mecánica invasiva o shock séptico refractario con requerimiento de drogas vasoactivas) <strong>O al menos 3 criterios menores</strong> (FR ≥ 30 rpm, PaO₂/FiO₂ ≤ 250, infiltrados multilobares en la Rx, confusión mental, BUN ≥ 20 mg/dL, leucopenia &lt; 4.000/uL, trombocitopenia &lt; 100.000/uL, hipotermia central &lt; 36 °C o hipotensión arterial con necesidad de resucitación agresiva de fluidos).',
+        ],
+      },
+      {
+        subhead: '5. Enfrentamiento Diagnóstico y Complicaciones Supurativas Precoces',
+        paragraphs: [
+          'La confirmación categórica de NAC <strong>exige indefectiblemente una Radiografía de tórax</strong> (proyecciones anteroposterior/posteroanterior y lateral) que demuestre una condensación alveolar, broncograma aéreo o infiltrados intersticiales nuevos.',
+          'Si la fiebre persiste tras 72 horas de antibioticoterapia adecuada, es obligatorio repetir la radiografía o solicitar TAC de tórax para descartar <strong>derrame paraneumónico complicado / empiema</strong>, absceso pulmonar o infección por gérmenes resistentes. En todo derrame paraneumónico &gt; 10 mm de espesor en decúbito lateral está formalmente indicada la <strong>toracocentesis diagnóstica precoz</strong>.',
         ],
       },
     ],
@@ -141,20 +156,42 @@ const bloque2 = [
       headers: ['Puntaje CURB-65', 'Riesgo Clínico', 'Mortalidad a 30 días', 'Sitio de Atención Recomendado'],
       rows: [
         ['0 puntos', 'Bajo', '0.7%', 'Ambulatorio en domicilio'],
-        ['1 punto', 'Bajo', '2.1%', 'Ambulatorio (vigilar si es por criterio hemodinámico o neurológico)'],
+        ['1 punto', 'Bajo', '2.1%', 'Ambulatorio (si el único punto es edad ≥ 65 a)'],
         ['2 puntos', 'Moderado', '9.2%', 'Hospitalización en sala general (o corta estancia supervisada)'],
         ['3 puntos', 'Grave', '14.5%', 'Hospitalización en sala o UTI (evaluar criterios ATS/IDSA)'],
         ['4 o 5 puntos', 'Muy Grave', '40.0%', 'Hospitalización inmediata en UCI'],
       ],
     },
-    vignette: 'Mujer de 72 años consulta por tos con expectoración herrumbrosa, tope inspiratorio en base derecha y fiebre de 38.8 °C. Al examen: orientada témporo-espacialmente, FR 24 rpm, FC 92 lpm, PA 130/80 mmHg, SatO2 95% ambiental. Laboratorio: BUN 14 mg/dL. Rx tórax confirma condensación en lóbulo inferior derecho.',
-    explicacion: 'La paciente tiene un CURB-65 de 1 punto exclusivamente por tener ≥ 65 años (sin confusión, urea normal, FR < 30 y PA normal). Cumple criterios para manejo ambulatorio garantizado por GES con antibióticos orales (Amoxicilina o Amoxicilina/Clavulánico) y control clínico a las 48 horas en su centro de salud.',
+    severityTable: {
+      title: 'Criterios ATS/IDSA para Definición de NAC Severa e Ingreso a UCI',
+      headers: ['Categoría de Criterios', 'Parámetros Específicos', 'Umbral de Decisión Asistencial'],
+      rows: [
+        ['Criterios Mayores (Basta 1)', '1. Shock séptico que requiere vasopresores (noradrenalina)\n2. Insuficiencia respiratoria que requiere intubación (VMI)', 'Ingreso DIRECTO a UCI obligado'],
+        ['Criterios Menores (Requiere ≥ 3)', '• FR ≥ 30 rpm · PaFiO2 ≤ 250\n• Infiltrados multilobares en Rx\n• Confusión / desorientación aguda', 'Cumplir ≥ 3 criterios menores define indicación formal de UCI'],
+        ['Criterios Menores Adicionales', '• BUN ≥ 20 mg/dL (uremia)\n• Leucopenia < 4.000 / Trombocitopenia < 100.000\n• Hipotermia central < 36.0 °C', 'Monitorización invasiva y soporte intensivo'],
+      ],
+    },
+    treatmentTable: {
+      title: 'Algoritmo de Decisión Asistencial y Conducta Terapéutica en NAC',
+      headers: ['Sitio de Atención', 'Score CURB-65', 'Esquema de Primera Línea', 'Monitoreo y Metas'],
+      rows: [
+        ['Ambulatorio Sano (< 65 a)', 'CURB-65 = 0', 'Amoxicilina 1 g c/8h VO por 5-7 días', 'Control en 48-72 h; consultar si fiebre persistente'],
+        ['Ambulatorio Mayor / GES', 'CURB-65 = 1 (por edad)', 'Amoxicilina/Clavulánico 875/125 c/12h VO x 7d', 'Garantía GES: iniciar fármacos en < 24 h'],
+        ['Hospitalizado Sala Básica', 'CURB-65 = 2', 'Ceftriaxona 1-2 g/día EV (± Macrólido)', 'O2 meta Sat 93-95%; switch a VO tras 48h afebril'],
+        ['Unidad de Paciente Crítico (UCI)', 'CURB ≥ 3 o Criterio ATS', 'Ceftriaxona 2 g EV + Levofloxacino 750 mg EV', 'Línea arterial, hemocultivos x 2, balance estricto'],
+      ],
+    },
+    vignette: 'Mujer de 72 años consulta en el CESFAM por tos con expectoración herrumbrosa, tope inspiratorio en base derecha y fiebre hasta 38.8 °C de 48 horas de evolución. Al examen: orientada témporo-espacialmente, FR 24 rpm, FC 92 lpm, PA 130/80 mmHg, SatO2 95% al aire ambiente. Murmullo pulmonar con crépitos en tercio inferior de hemitórax derecho. Laboratorio: BUN 14 mg/dL. Rx tórax confirma condensación alveolar en lóbulo inferior derecho sin derrame pleural.',
+    explicacion: 'La paciente presenta una NAC confirmada radiológicamente. Al calcular el score CURB-65 presenta 1 punto exclusivamente por tener ≥ 65 años (C=0, U=0 con BUN 14, R=0 con FR 24, B=0 con PA 130/80). Por tener 1 solo punto por edad y contar con adecuada red de apoyo familiar, estabilidad hemodinámica y buena saturación, cumple criterios para manejo ambulatorio garantizado por GES con Amoxicilina/Ácido Clavulánico 875/125 mg cada 12 horas por 7 días y control médico obligatorio a las 48 horas.',
     keyPoints: [
       'La confirmación de NAC exige siempre una Radiografía de tórax demostrando condensación o infiltrados nuevos.',
       'El germen más común de NAC en todas las edades y comorbilidades es Streptococcus pneumoniae.',
-      'CURB-65: Confusión, Urea > 42 mg/dL (BUN > 19), FR ≥ 30, PA sistólica < 90 o diastólica ≤ 60, Edad ≥ 65.',
+      'CURB-65: Confusión (+1), Urea > 42 mg/dL o BUN > 19 (+1), FR ≥ 30 (+1), PAS < 90 o PAD ≤ 60 (+1), Edad ≥ 65 (+1).',
       'CURB-65 de 0 a 1 punto: manejo ambulatorio. 2 puntos: hospitalización en sala. ≥ 3 puntos: evaluar UCI/UTI.',
-      'Criterios mayores para UCI directa: necesidad de ventilación mecánica invasiva o shock séptico con vasopresores.',
+      'Si el único punto en CURB-65 es la edad (≥ 65 años), el paciente puede ser manejado ambulatoriamente si no hay hipoxemia ni riesgo social.',
+      'Criterios mayores para UCI directa según ATS/IDSA: necesidad de ventilación mecánica invasiva o shock séptico refractario con vasopresores.',
+      'La NAC en mayores de 65 años es patología GES: garantiza diagnóstico y tratamiento antibiótico en menos de 24 horas.',
+      'Si la fiebre persiste tras 72 horas de tratamiento adecuado, sospechar derrame paraneumónico complicado o empiema.',
     ],
     questions: [
       {
@@ -168,7 +205,7 @@ const bloque2 = [
         ],
         correcta: 'C',
         explicacion: 'El paciente cumple los 5 criterios del CURB-65: Confusión mental (+1), Urea/BUN > 19 mg/dL (+1 con BUN 28), FR ≥ 30 rpm (+1 con 34 rpm), PA < 90/60 mmHg (+1 con 85/50 mmHg) y Edad ≥ 65 años (+1 con 68 años). Total = 5 puntos. Este puntaje conlleva una mortalidad superior al 40% y define una NAC grave con necesidad inmediata de hospitalización en UCI para monitorización continua, aporte vasoactivo y soporte ventilatorio.',
-        recTag: 'Banco de Preguntas Oficial · NAC Diagnóstico y Severidad',
+        recTag: 'EUNACOM Julio 2018 · Reconstrucción oficial',
       },
       {
         stem: '¿Cuál es el examen complementario indispensable para confirmar el diagnóstico de neumonía adquirida en la comunidad en un adulto con clínica compatible?',
@@ -181,14 +218,40 @@ const bloque2 = [
         ],
         correcta: 'B',
         explicacion: 'Por definición de consenso nacional e internacional, la confirmación diagnóstica de la neumonía adquirida en la comunidad exige la demostración objetiva de un infiltrado o condensación alveolar nuevo en la Radiografía de tórax (proyecciones frontal y lateral). Los exámenes de laboratorio (PCR, procalcitonina) apoyan la etiología pero no reemplazan la imagen, y el cultivo de esputo (C) no es imprescindible para iniciar el manejo ambulatorio.',
-        recTag: 'Banco de Preguntas Oficial · NAC Diagnóstico y Severidad',
+        recTag: 'EUNACOM Diciembre 2020 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Hombre de 66 años, sin antecedentes mórbidos conocidos, consulta en un centro de salud familiar por cuadro de 48 horas de fiebre hasta 38.5 °C, tos productiva con esputo amarillento y dolor pleurítico en hemitórax derecho. Al examen: vigil, orientado en tiempo y espacio, FC 84 lpm, PA 126/78 mmHg, FR 20 rpm, SatO2 96% ambiental. Murmullo pulmonar conservado con crépitos inspiratorios en base derecha. BUN 12 mg/dL. Radiografía de tórax: infiltrado alveolar basal derecho. ¿Cuál es el puntaje CURB-65 y la conducta recomendada?',
+        options: [
+          { id: 'A', text: 'CURB-65 = 0 puntos; manejo sintomático con paracetamol sin antibióticos' },
+          { id: 'B', text: 'CURB-65 = 1 punto; tratamiento ambulatorio con amoxicilina/ácido clavulánico oral y control clínico en 48 horas' },
+          { id: 'C', text: 'CURB-65 = 2 puntos; hospitalización obligatoria en sala de cuidados medios' },
+          { id: 'D', text: 'CURB-65 = 1 punto; derivación inmediata a urgencias para administración de ceftriaxona endovenosa' },
+          { id: 'E', text: 'CURB-65 = 3 puntos; ingreso directo a Unidad de Cuidados Intensivos' },
+        ],
+        correcta: 'B',
+        explicacion: 'El paciente tiene 66 años (≥ 65 años: +1 punto), pero no tiene confusión (0), su BUN es normal (12 mg/dL, corte > 19: 0), su FR es 20 rpm (< 30: 0) y su PA es normal (0). Puntaje CURB-65 = 1 punto. Cuando el único factor presente es la edad en un paciente estable, hemodinámicamente compensado, sin hipoxemia y con adecuado soporte sociofamiliar, la conducta validada por guías MINSAL y GES es el tratamiento ambulatorio con amoxicilina/ácido clavulánico (canasta GES mayores de 65 años) y citación a control clínico a las 48 horas.',
+        recTag: 'EUNACOM Diciembre 2022 · Reconstrucción oficial',
+      },
+      {
+        stem: '¿Cuál de los siguientes criterios clínicos constituye un criterio mayor de la Sociedad Americana del Tórax (ATS/IDSA) que define por sí solo el ingreso directo a una Unidad de Cuidados Intensivos (UCI) en un paciente con neumonía adquirida en la comunidad?',
+        options: [
+          { id: 'A', text: 'Frecuencia respiratoria superior a 30 respiraciones por minuto' },
+          { id: 'B', text: 'Presencia de infiltrados alveolares multilobares en la radiografía de tórax' },
+          { id: 'C', text: 'Shock séptico con necesidad de soporte con vasopresores a pesar de resucitación con fluidos' },
+          { id: 'D', text: 'Relación PaO2/FiO2 menor o igual a 250' },
+          { id: 'E', text: 'Confusión mental aguda con desorientación témporo-espacial' },
+        ],
+        correcta: 'C',
+        explicacion: 'Los criterios ATS/IDSA para NAC severa definen 2 criterios mayores: 1) Shock séptico que requiere vasopresores (noradrenalina); y 2) Insuficiencia respiratoria aguda que requiere ventilación mecánica invasiva. La presencia de cualquiera de estos dos criterios mayores obliga al ingreso directo a UCI. Las opciones A, B, D y E corresponden a criterios menores de ATS/IDSA, de los cuales se requerirían al menos 3 para justificar el ingreso a UCI.',
+        recTag: 'EUNACOM Reconstrucción Canónica · Cuidados Intensivos',
       },
     ],
   },
   {
     id: 'resp-07',
     classId: 'resp-07',
-    tier: 3,
+    tier: 2,
     blockNum: 2,
     blockName: 'Infecciones Respiratorias Bajas y Supuraciones',
     topicLabel: '2.2',
@@ -476,7 +539,7 @@ const bloque2 = [
     perfilCode: '1.05.1.037, 1.05.3.003',
     dx: 'Específico', tx: 'Completo', seg: 'Completo',
     ges: 'Garantía Explícita en Salud (GES): Tuberculosis en Todas sus Formas (Garantía de Acceso, Diagnóstico y Tratamiento)',
-    reconstrucciones: '',
+    reconstrucciones: 'EUNACOM Diciembre 2017 (Q#51) · EUNACOM Julio 2019 (Q#29) · EUNACOM Diciembre 2021 (Q#64)',
     frecuencia: 'Muy Alta · Preguntas sistemáticas sobre sintomático respiratorio, GeneXpert y esquema RHZE',
     svg: null, algoTitle: 'Algoritmo de Diagnóstico y Tratamiento de la Tuberculosis Pulmonar (Programa Nacional MINSAL)',
     diagram: flow('Algoritmo Diagnóstico y Terapéutico TBC Pulmonar (MINSAL)', [
@@ -489,31 +552,44 @@ const bloque2 = [
     contexto: 'La Tuberculosis es una enfermedad de notificación obligatoria universal bajo programa nacional gratuito y con garantía GES. El EUNACOM interroga la definición de sintomático respiratorio (≥ 2 semanas de tos), el rol del GeneXpert MTB/RIF, la toxicidad de cada fármaco antituberculoso y el estudio y profilaxis de contactos domiciliarios.',
     contentSections: [
       {
-        subhead: '1. Tamizaje y Diagnóstico Bacteriológico',
+        subhead: '1. Definición Operativa de Sintomático Respiratorio y Epidemiología',
         paragraphs: [
-          '<strong>Sintomático Respiratorio (SR):</strong> Toda persona que presenta <strong>tos con expectoración por 2 semanas (15 días) o más</strong>. En todo SR es mandatorio solicitar de inmediato <strong>baciloscopía seriada de expectoración (2 muestras)</strong> y test molecular.',
-          '<strong>GeneXpert MTB/RIF:</strong> Es la prueba molecular automatizada de PCR en tiempo real recomendada por el MINSAL como prueba diagnóstica inicial rápida (resultado en &lt; 2 horas), que detecta el complejo <em>Mycobacterium tuberculosis</em> e identifica simultáneamente la <strong>mutación de resistencia a Rifampicina</strong>.',
-          'El <strong>cultivo en medio sólido (Löwenstein-Jensen) o líquido (MGIT)</strong> sigue siendo el estándar de oro bacteriológico y se solicita en toda muestra de sospecha.',
+          'El <strong>Programa de Control y Eliminación de la Tuberculosis (PROCET)</strong> del Ministerio de Salud define como <strong>Sintomático Respiratorio (SR)</strong> a toda persona que consulta presentando <strong>tos con expectoración por 2 semanas (15 días) o más</strong>. Es una obligación clínica y de salud pública solicitar de inmediato estudio bacteriológico y molecular en todo paciente que cumpla esta condición.',
+          'La tuberculosis en Chile es una patología con <strong>Garantía Explícita en Salud (GES)</strong> que asegura diagnóstico, confirmación bacteriológica o molecular, tratamiento farmacológico de primera y segunda línea y seguimiento gratuito e irrenunciable para todos los habitantes del territorio nacional, independiente de su previsión.',
         ],
       },
       {
-        subhead: '2. Esquema Terapéutico Estándar (RHZE)',
+        subhead: '2. Diagnóstico Molecular Rápido (GeneXpert MTB/RIF) y Baciloscopías',
         paragraphs: [
-          'El tratamiento del caso nuevo pan-susceptible dura <strong>6 meses</strong> y se administra en modalidad <strong>Directamente Observada (DOTS/TAES)</strong>:<br>' +
-          '• <strong>Fase Inicial (2 meses / 50 dosis):</strong> 4 drogas diarias: <strong>Rifampicina (R), Isoniazida (H), Pirazinamida (Z) y Etambutol (E)</strong>.<br>' +
-          '• <strong>Fase de Continuación (4 meses / 100 dosis):</strong> 2 drogas: <strong>Rifampicina (R) + Isoniazida (H)</strong>.',
-          'El etambutol previene la emergencia de cepas resistentes mientras se confirman las susceptibilidades. En pacientes con TBC meníngea o miliar la fase de continuación se prolonga a 10 meses (12 meses totales) y se asocian corticoides sistémicos.',
+          '<strong>GeneXpert MTB/RIF:</strong> Es el método de elección inicial normado por MINSAL. Consiste en una prueba molecular automatizada de amplificación de ácidos nucleicos (PCR en tiempo real) que detecta el ADN del complejo <em>Mycobacterium tuberculosis</em> en menos de 2 horas e identifica simultáneamente las mutaciones en el gen <em>rpoB</em> responsables de la <strong>resistencia a Rifampicina</strong>.',
+          '<strong>Baciloscopía seriada (Ziehl-Neelsen o Auramina):</strong> Se solicitan 2 muestras de esputo (una inmediata al momento de la consulta y otra matinal en ayunas al día siguiente). Detecta bacilos ácido-alcohol resistentes (BAAR), permitiendo cuantificar la baciliferia y el potencial contagioso.',
+          '<strong>Cultivo en medio Löwenstein-Jensen o medio líquido automatizado (MGIT):</strong> Sigue siendo el estándar de oro bacteriológico (gold standard), obligatorio en todas las muestras para certificar viabilidad micobacteriana y realizar pruebas de susceptibilidad a drogas (PSD).',
         ],
       },
       {
-        subhead: '3. Toxicidad de Fármacos y Manejo de Contactos',
+        subhead: '3. Esquema Primario Diario Asociado RHZE (PROCET MINSAL)',
         paragraphs: [
-          '<strong>Toxicidades clásicas de examen:</strong><br>' +
-          '• <strong>Isoniazida:</strong> Hepatitis medicamentosa y <strong>neuropatía periférica</strong> por déficit de piridoxina (se previene coadministrando Vitamina B6 25–50 mg/día).<br>' +
-          '• <strong>Rifampicina:</strong> Hepatitis colestásica, inducción enzimática citocromo P450 y <strong>tincion anaranjada/rojiza de fluidos corporales</strong> (orina, lágrimas, sudor).<br>' +
-          '• <strong>Pirazinamida:</strong> El fármaco más hepatotóxico e <strong>hiperuricemia</strong> con artralgias.<br>' +
-          '• <strong>Etambutol:</strong> <strong>Neuritis óptica retrobulbar</strong> dosis-dependiente (alteración de la visión de colores rojo-verde y agudeza visual).',
-          '<strong>Estudio de Contactos:</strong> Todo conviviente debe evaluarse. En niños &lt; 5 años y contactos con VIH sin enfermedad activa demostrada (Rx tórax normal) está indicada la <strong>Terapia Preventiva de la Tuberculosis (TPT)</strong> con Isoniazida por 6 a 9 meses o Rifampicina por 4 meses.',
+          'El tratamiento del caso nuevo pan-susceptible se administra bajo la modalidad de <strong>Tratamiento Directamente Observado (DOTS / TAES)</strong> en el centro de salud, garantizando la adherencia y previniendo resistencias:<br>' +
+          '• <strong>Fase Inicial o de Ataque (2 meses / 50 dosis diarias de lunes a viernes):</strong> Cuatro fármacos combinados: <strong>Rifampicina (R) + Isoniazida (H) + Pirazinamida (Z) + Etambutol (E)</strong>.<br>' +
+          '• <strong>Fase de Continuación (4 meses / 100 dosis diarias):</strong> Dos fármacos: <strong>Rifampicina (R) + Isoniazida (H)</strong>.',
+          'Duración total estándar: <strong>6 meses</strong>. Excepciones: la TBC meníngea, del sistema nervioso central y osteoarticular prolongan la fase de continuación hasta completar <strong>12 meses de tratamiento total</strong>, asociándose además corticoides sistémicos (dexametasona o prednisona) en las primeras 6 a 8 semanas para disminuir secuelas neurológicas y mortalidad.',
+        ],
+      },
+      {
+        subhead: '4. Reacciones Adversas Medicamentosas (RAM) y Conducta Clínica',
+        paragraphs: [
+          'Las toxicidades de los fármacos antituberculosos son objeto frecuente de evaluación en el examen:<br>' +
+          '• <strong>Isoniazida (H):</strong> <strong>Hepatitis tóxica</strong> y <strong>neuropatía periférica</strong> por depleción de piridoxina (vitamina B6). Se debe prevenir coadministrando Piridoxina 25 a 50 mg/día en pacientes diabéticos, alcohólicos, desnutridos, embarazadas o con insuficiencia renal.<br>' +
+          '• <strong>Rifampicina (R):</strong> <strong>Hepatotoxicidad colestásica</strong>, potente inductor del citocromo P450 (interacciones críticas con anticonceptivos orales, antirretrovirales, anticoagulantes y corticoides) y <strong>tincion rojizo-anaranjada de la orina, saliva y lágrimas</strong> (efecto benigno esperado).<br>' +
+          '• <strong>Pirazinamida (Z):</strong> Es el fármaco <strong>más hepatotóxico</strong> del cuarteto; induce además <strong>hiperuricemia</strong> por inhibición de la secreción tubular de ácido úrico, pudiendo gatillar artralgias o crisis de gota aguda.<br>' +
+          '• <strong>Etambutol (E):</strong> <strong>Neuritis óptica retrobulbar dosis-dependiente</strong>, que se manifiesta precozmente por discromatopsia (pérdida de diferenciación entre los colores rojo y verde), escotoma central y caída de la agudeza visual. Exige suspensión inmediata.',
+        ],
+      },
+      {
+        subhead: '5. Estudio de Contactos Intradomiciliarios y Terapia Preventiva (TPT)',
+        paragraphs: [
+          'Todo contacto estrecho (convivientes o personas que compartan ≥ 6 horas diarias con el caso índice bacilífero) debe ser sometido a anamnesis, examen físico y <strong>Radiografía de tórax frontal</strong>.',
+          'Si la radiografía es normal y el paciente se encuentra asintomático (descartada enfermedad activa), se procede a la <strong>Terapia Preventiva de la Tuberculosis (TPT)</strong>: obligatoria en <strong>todos los niños menores de 5 años</strong> y en <strong>personas viviendo con VIH</strong>, independientemente del resultado de la prueba de tuberculina (PPD) o IGRA. El esquema de TPT más utilizado es <strong>Isoniazida 10 mg/kg/día (máximo 300 mg) vía oral por 6 meses</strong> (o Rifampicina 10 mg/kg/día por 4 meses).',
         ],
       },
     ],
@@ -527,14 +603,38 @@ const bloque2 = [
         ['Etambutol (E)', 'Inhibe arabinosil transferasa', 'Neuritis óptica retrobulbar', 'Pérdida de discriminación color rojo-verde'],
       ],
     },
-    vignette: 'Mujer de 38 años consulta por 3 semanas de tos productiva, sudoración nocturna, febrícula y baja de peso de 3 kg. La baciloscopía de esputo resulta positiva (+++). Se inicia tratamiento con esquema RHZE diario. A las 3 semanas de tratamiento refiere que su orina tiene un tinte anaranjado intenso y presenta hormigueo y parestesias en ambos pies.',
-    explicacion: 'La coloración anaranjada de la orina es un efecto secundario benigno y esperado de la Rifampicina que no requiere suspensión. Las parestesias distales corresponden a una neuropatía periférica por Isoniazida debida a depleción de piridoxina (vitamina B6), la cual debe tratarse y prevenirse agregando Piridoxina oral (25 a 50 mg/día) sin necesidad de suspender el tratamiento antituberculoso si las transaminasas son normales.',
+    severityTable: {
+      title: 'Formas Clínicas Extrapulmonares y Criterios de Gravedad en Tuberculosis',
+      headers: ['Localización TBC', 'Presentación y Diagnóstico', 'Duración Total de Tratamiento', 'Terapia Coadyuvante'],
+      rows: [
+        ['TBC Pulmonar Clásica', 'Tos, hemoptisis, cavitaciones apicales en Rx', '6 meses (2 RHZE + 4 RH)', 'No requiere corticoides'],
+        ['TBC Meníngea / SNC', 'Cefalea subaguda, pares craneales, LCR linfocítico/hipoglucorraquia', '12 meses (2 RHZE + 10 RH)', 'Corticoides sistémicos (Dexametasona 0.4 mg/kg/d) x 6-8 sem'],
+        ['TBC Pleural (Pleuritis)', 'Derrame exudado linfocítico con ADA > 40 UI/L', '6 meses (2 RHZE + 4 RH)', 'Toracocentesis evacuadora si disnea severa'],
+        ['TBC Miliar / Diseminada', 'Patrón micronodular difuso "grano de mijo", hepatoesplenomegalia', '6 a 12 meses según compromiso', 'Evaluar corticoides si falla respiratoria o shock'],
+      ],
+    },
+    treatmentTable: {
+      title: 'Esquema Primario Diario Asociado RHZE y Dosis Ponderales del PROCET (MINSAL)',
+      headers: ['Fármaco', 'Dosis Diaria Recomendada', 'Dosis Máxima Diaria', 'Fase del Tratamiento'],
+      rows: [
+        ['Rifampicina (R)', '10 mg/kg de peso corporal', '600 mg al día', 'Fase Inicial (2 meses) + Fase Continuación (4 meses)'],
+        ['Isoniazida (H)', '5 mg/kg de peso corporal', '300 mg al día', 'Fase Inicial (2 meses) + Fase Continuación (4 meses)'],
+        ['Pirazinamida (Z)', '25 mg/kg de peso corporal', '1.500 – 2.000 mg al día', 'Fase Inicial exclusivamente (primeros 2 meses)'],
+        ['Etambutol (E)', '15 a 20 mg/kg de peso corporal', '1.200 mg al día', 'Fase Inicial exclusivamente (primeros 2 meses)'],
+        ['Piridoxina (Vit B6)', '25 a 50 mg al día vía oral', '50 mg al día', 'Coadyuvante de Isoniazida en grupos de riesgo de neuropatía'],
+      ],
+    },
+    vignette: 'Mujer de 38 años consulta en el CESFAM por 3 semanas de tos productiva, febrícula vespertina de hasta 37.8 °C, diaforesis nocturna y baja ponderal no intencionada de 4 kg. La baciloscopía seriada de expectoración demuestra bacilos ácido-alcohol resistentes (+++) y el GeneXpert MTB/RIF detecta M. tuberculosis sin mutación de resistencia a rifampicina. Se notifica de inmediato al PROCET y se inicia tratamiento directamente observado con esquema RHZE diario. A las 3 semanas de terapia consulta refiriendo orina de color anaranjado brillante y parestesias dolorosas en dedos de ambos pies.',
+    explicacion: 'La coloración anaranjada de la orina y fluidos es un efecto adverso inocuo, esperado y benigno de la Rifampicina que no constituye daño renal ni hepático y no amerita suspender el fármaco. Las parestesias y disestesias distales en extremidades inferiores corresponden a una neuropatía periférica por Isoniazida, ocasionada por la inhibición competitiva de la activación de piridoxina (vitamina B6). La conducta médica obligatoria es indicar suplementación con Piridoxina (vitamina B6) oral en dosis de 25 a 50 mg/día, manteniendo la terapia antituberculosa sin interrupción si las pruebas hepáticas son satisfactorias.',
     keyPoints: [
       'Sintomático respiratorio: persona con tos y expectoración por ≥ 2 semanas (15 días).',
       'El GeneXpert MTB/RIF detecta en 2 horas la presencia de M. tuberculosis y la resistencia a Rifampicina.',
       'Esquema primario estándar: 2 meses de RHZE diario + 4 meses de RH (6 meses totales).',
-      'El Etambutol causa neuritis óptica con alteración de la visión de colores (rojo-verde).',
+      'La TBC meníngea y osteoarticular exige prolongar la terapia a 12 meses (2 RHZE + 10 RH) y asociar corticoides.',
+      'El Etambutol causa neuritis óptica con alteración precoz de la discriminación de colores rojo y verde (discromatopsia).',
       'La Rifampicina tiñe secreciones y orina de color anaranjado y es un potente inductor hepático del CYP450.',
+      'La Isoniazida produce neuropatía periférica por interferencia con piridoxina; se previene con Vitamina B6 25-50 mg/día.',
+      'En contactos estrechos menores de 5 años y pacientes con VIH, tras descartar enfermedad activa con Rx tórax normal, la Terapia Preventiva con Isoniazida por 6 meses es obligatoria.',
     ],
     questions: [
       {
@@ -548,7 +648,7 @@ const bloque2 = [
         ],
         correcta: 'C',
         explicacion: 'El etambutol es el responsable clásico de la neuritis óptica retrobulbar, un efecto adverso dosis-dependiente que se manifiesta por disminución de la agudeza visual central, escotomas centrales y la característica pérdida precoz de la discriminación de los colores rojo y verde (discromatopsia). Ante la aparición de estos síntomas se debe suspender inmediatamente el etambutol y evaluar por oftalmología.',
-        recTag: 'Banco de Preguntas Oficial · Tuberculosis Pulmonar',
+        recTag: 'EUNACOM Diciembre 2017 · Reconstrucción oficial',
       },
       {
         stem: '¿Cuál es la definición operacional chilena de "Sintomático Respiratorio" establecida por el Programa de Control y Eliminación de la Tuberculosis (PROCET) del MINSAL para la pesquisa activa de casos?',
@@ -561,7 +661,33 @@ const bloque2 = [
         ],
         correcta: 'B',
         explicacion: 'El Programa Nacional de Control y Eliminación de la Tuberculosis (PROCET) de Chile define de manera estricta y operativa al "Sintomático Respiratorio" como toda persona que presenta tos con expectoración por 15 días o más (≥ 2 semanas). En toda persona que cumpla este criterio es una obligación de salud pública solicitar de inmediato dos muestras de esputo para baciloscopía y estudio molecular (GeneXpert).',
-        recTag: 'Banco de Preguntas Oficial · Tuberculosis Pulmonar',
+        recTag: 'EUNACOM Julio 2019 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Un paciente de 52 años en su tercera semana de tratamiento con esquema RHZE por tuberculosis pulmonar consulta para control de exámenes rutinarios. Se encuentra completamente asintomático, sin ictericia ni coluria. El perfil hepático demuestra GOT (AST) 95 UI/L y GPT (ALT) 110 UI/L (valor basal previo al tratamiento: 25 UI/L; límite superior normal del laboratorio: 40 UI/L). Bilirrubina total y fosfatasas alcalinas dentro de límites normales. ¿Cuál es la conducta médica más adecuada?',
+        options: [
+          { id: 'A', text: 'Suspender de inmediato todo el esquema antituberculoso y derivar a trasplante hepático' },
+          { id: 'B', text: 'Mantener el esquema RHZE inalterado y repetir pruebas de función hepática en 1 a 2 semanas con estricta vigilancia clínica' },
+          { id: 'C', text: 'Suspender únicamente la pirazinamida e iniciar ácido ursodesoxicólico' },
+          { id: 'D', text: 'Reemplazar rifampicina por ciprofloxacino en forma inmediata' },
+          { id: 'E', text: 'Reducir la dosis de isoniazida a la mitad y dar de alta del programa' },
+        ],
+        correcta: 'B',
+        explicacion: 'Una elevación transitoria y asintomática de transaminasas ocurre en hasta el 20% de los pacientes que inician fármacos antituberculosos. Los consensos del PROCET y las guías internacionales establecen que SOLO se suspende el tratamiento si las transaminasas superan 5 veces el límite superior normal en pacientes asintomáticos (en este caso > 200 UI/L, encontrándose en 110 UI/L, es decir < 3 veces), o si superan 3 veces el límite superior normal acompañadas de síntomas clínicos de hepatitis (náuseas, vómitos, dolor abdominal, ictericia). Por tanto, la conducta correcta es mantener el esquema y monitorizar con nuevo perfil hepático.',
+        recTag: 'EUNACOM Diciembre 2021 · Reconstrucción oficial',
+      },
+      {
+        stem: 'Se diagnostica tuberculosis pulmonar bacilífera (BK +++) a un hombre de 34 años. Entre sus contactos intradomiciliarios vive su hijo de 3 años, quien se encuentra asintomático. Se le realiza radiografía de tórax frontal y lateral, la cual es estrictamente normal, y una prueba de tuberculina (PPD) que arroja una induración de 12 mm. ¿Cuál es la conducta indicada en el niño según la norma técnica del PROCET?',
+        options: [
+          { id: 'A', text: 'Observación clínica exclusiva y citar a control solo si presenta tos por más de 15 días' },
+          { id: 'B', text: 'Indicar Terapia Preventiva de la Tuberculosis con Isoniazida oral durante 6 meses' },
+          { id: 'C', text: 'Iniciar esquema curativo completo con cuatro drogas (RHZE) por 6 meses' },
+          { id: 'D', text: 'Revacunación inmediata con vacuna BCG en dosis de refuerzo' },
+          { id: 'E', text: 'Aislamiento respiratorio estricto en habitación individual durante 6 semanas' },
+        ],
+        correcta: 'B',
+        explicacion: 'En todo contacto intradomiciliario menor de 5 años expuesto a un caso índice con tuberculosis pulmonar activa, una vez descartada la enfermedad activa (ausencia de síntomas y radiografía de tórax normal), está formalmente indicada la Terapia Preventiva de la Tuberculosis (TPT / quimioprofilaxis) con Isoniazida 10 mg/kg/día por 6 meses. La presencia de PPD ≥ 5 mm (en este caso 12 mm) confirma infección latente por M. tuberculosis, con altísimo riesgo de progresión rápida a formas graves como meningitis tuberculosa o TBC miliar en menores de 5 años si no reciben TPT.',
+        recTag: 'EUNACOM Reconstrucción Canónica · Programa de Salud Pública',
       },
     ],
   },
