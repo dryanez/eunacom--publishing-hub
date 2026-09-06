@@ -136,10 +136,12 @@ const SPECIALTIES = [
     out: 'Manual_EUNACOM_Nefrologia_Completo_2026.pdf',
   },
   {
-    key: 'diabetes', ch: '06', title: 'Diabetes y Dislipidemias',
+    key: 'diabetes', ch: '06', title: 'Diabetes Mellitus & Dislipidemias',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
-    subtitle: 'Diabetes mellitus tipo 2 GES, insulinoterapia ambulatoria y hospitalaria, cetoacidosis diabética, estado hiperosmolar y dislipidemias.',
-    dataset: null,
+    subtitle: 'Criterios diagnósticos, tratamiento escalonado DM2 GES, esquemas de insulinoterapia, cetoacidosis diabética, pie diabético y manejo de dislipidemias.',
+    dataset: () => require('./dataset_diabetes.cjs').diabetesClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Diabetes_Completo_2026.pdf',
   },
   {
     key: 'endocrinologia', ch: '07', title: 'Endocrinología',

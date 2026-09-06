@@ -13,9 +13,10 @@ El motor toma datasets clínicos modulares en JavaScript, resuelve de manera pro
 | **01** | `cardiologia` | Cardiología & Sistema Cardiovascular | 23 temas (5 bloques) | 46 preguntas | **71 páginas** | **100% Calibrado** |
 | **02** | `infectologia` | Enfermedades Infecciosas & Microbiología | 24 temas (5 bloques) | 48 preguntas | **71 páginas** | **100% Calibrado** |
 | **03** | `gastroenterologia` | Gastroenterología & Hepatología | 26 clases (8 temas canónicos) | 16 preguntas | **27 páginas** | **Muestra Canónica** |
-| **04** | `neumologia` | Enfermedades Respiratorias & Neumología | 24 temas (5 bloques) | 48 preguntas | **71 páginas** | **100% Calibrado** |
-| **05** | `nefrologia` | Nefrología & Medio Interno | 22 temas (5 bloques) | 58 preguntas | **84 páginas** | **100% Calibrado (Tiers Dinámicos)** |
-| **06 al 21** | — | Resto de especialidades (DM, Endo, Hemato, Cirugía...) | 547 clases Perfil V3 | — | — | *Estructura registrada* |
+| **04** | `neumologia` | Enfermedades Respiratorias & Neumología | 24 temas (5 bloques) | 64 preguntas | **90 páginas** | **100% Calibrado (8 Tier 3)** |
+| **05** | `nefrologia` | Nefrología & Medio Interno | 22 temas (5 bloques) | 58 preguntas | **84 páginas** | **100% Calibrado (8 Tier 3)** |
+| **06** | `diabetes` | Diabetes Mellitus & Dislipidemias | 24 temas (5 bloques) | 64 preguntas | **95 páginas** | **100% Calibrado (8 Tier 3)** |
+| **07 al 21** | — | Resto de especialidades (Endo, Hemato, Reuma, Cirugía...) | 547 clases Perfil V3 | — | — | *Estructura registrada* |
 
 Los PDFs compilados de referencia se encuentran listos para lectura en `books/dist/`.
 
