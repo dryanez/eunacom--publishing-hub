@@ -16,9 +16,9 @@ Every Masterclass MUST adhere strictly to the 14-slide pedagogy:
 
 | Slide | Component | Clinical Purpose |
 |---|---|---|
-| **1** | `<Cover>` | Official title, Perfil V3 codes, and legal competence level badges |
-| **2** | `<Table>` | Official Perfil V3 audit matrix (Diagnosis, Treatment, APS/Referral) |
-| **3** | `<Steps>` | Cardinal pathophysiology and structured etiological diagnosis |
+| **1** | `<Cover>` | Official title, historical frequency (2013-2025), and high-yield badges |
+| **2** | `<Bento>` / `<Steps>` | Definition, cardinal pathophysiology, and core clinical presentation (Audit matrices are strictly excluded) |
+| **3** | `<Steps>` | Diagnostic criteria, differential diagnosis, and staging |
 | **4** | `<Steps>` / `<Bento>` | Resuscitation & Emergency Algorithm (ABCDE, access, fluid therapy, targets) |
 | **5** | `<Table>` / `<Bento>` | Detailed Pharmacotherapy with exact dosing, routes, and duration |
 | **6** | `<Table>` | Prognostic classification / Gold Standard score (Forrest, Killip, TIMI, etc.) |
@@ -52,3 +52,11 @@ Every Masterclass MUST adhere strictly to the 14-slide pedagogy:
 ### Step 5: Render 1080p Full HD MP4 Video
 - Run `node scripts/render_class_video.cjs --class=<classId>`.
 - Generates final video in `public/videos/<classId>.mp4` and `dist/videos/<classId>.mp4`.
+
+---
+
+## 3. Guevara Flow & Concise Anchors Standard
+
+1. **Puntos Ancla vs. Bloques de Texto**: Prohibido el uso de párrafos apiñados en tarjetas. Cada tarjeta se estructura en viñetas concisas con palabras clave en negrita y cajas clínicas destacadas (tipografía 16.5–18px) llenando verticalmente el lienzo sin dejar espacios muertos.
+2. **Correlación Estricta Audio-Visual**: Todo fármaco, dosis o concepto mencionado en el audio debe estar estrictamente anclado en la diapositiva en pantalla. Prohibido hablar de fármacos o conductas que no pertenezcan al slide activo.
+3. **Diagramas de Flujo SVG Integradores ("Guevara Flow")**: Toda clase médica debe consolidar la toma de decisiones con un árbol de decisión clínico interactivo en SVG con bifurcaciones claras ("Si es esto → se va a esto") antes de abordar los casos clínicos oficiales.

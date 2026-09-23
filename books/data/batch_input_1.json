@@ -1,0 +1,1392 @@
+[
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-01",
+    "title": "Lectura Sistemática del ECG en Urgencias y APS",
+    "perfilCode": "1.01.4.001",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Herramienta Diagnóstica Universal (Protocolo GES Urgencias)",
+    "tier": 2,
+    "keyPoints": [
+      "Lectura sistemática obligatoria en 5 pasos: Frecuencia → Ritmo → Eje → Intervalos (PR/QRS/QT) → Isquemia (ST/T).",
+      "Índice de Sokolow-Lyon ≥ 35 mm (S en V1 + R en V5/V6) es el criterio de HVI más evaluado en el EUNACOM.",
+      "QTc > 500 ms es el límite de alarma para arritmias ventriculares por fármacos (ej. macrólidos, antiarrítmicos, psicofármacos).",
+      "La presencia de onda delta con PR corto define preexcitación ventricular (patrón de Wolff-Parkinson-White)."
+    ],
+    "vignette": "Hombre de 48 años con antecedente de hipertensión arterial esencial de 8 años de evolución en tratamiento irregular consulta en CESFAM para control. Al examen físico: PA 155/95 mmHg, FC 74 lpm regular, sin soplos cardíacos ni rales pulmonares. El ECG de control en reposo muestra ritmo sinusal, onda S en V1 de 19 mm y onda R en V5 de 23 mm, con QRS de 90 ms y segmento ST isoeléctrico.",
+    "explicacion": "El análisis metódico del ECG muestra un ritmo sinusal normal pero con criterios de voltaje aumentados para el ventrículo izquierdo. Al calcular el índice de Sokolow-Lyon (S en V1 de 19 mm + R en V5 de 23 mm = 42 mm), este supera ampliamente el umbral diagnóstico de 35 mm. Esto confirma Hipertrofia Ventricular Izquierda (HVI) como daño de órgano blanco secundario a HTA no controlada, lo que sitúa al paciente en riesgo cardiovascular alto e impone la intensificación inmediata del tratamiento antihipertensivo con terapia combinada en dosis fija (ej. IECA/ARA2 + Amlodipino).",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 52 años en tratamiento con claritromicina por neumonía presenta palpitaciones y mareos. El ECG revela ritmo sinusal a 75 lpm, intervalo QT medido de 520 ms y RR de 800 ms (QTc calculado de 581 ms mediante fórmula de Bazett). ¿Cuál es la conducta médica inmediata más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suspender de inmediato la claritromicina, monitorizar al paciente y corregir eventuales trastornos hidroelectrolíticos"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar Amiodarona endovenosa para prevenir taquiarritmias"
+          },
+          {
+            "id": "C",
+            "text": "Indicar cardioversión eléctrica sincronizada"
+          },
+          {
+            "id": "D",
+            "text": "Administrar sulfato de atropina 1 mg endovenoso"
+          },
+          {
+            "id": "E",
+            "text": "Tranquilizar al paciente e indicar control ambulatorio en 1 semana"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Un QTc > 500 ms representa un riesgo crítico de inducir Torsades de Pointes y fibrilación ventricular. La medida mandatoria es suspender inmediatamente el fármaco causante (los macrólidos como la claritromicina prolongan el QT), monitorizar el ritmo cardíaco y asegurar niveles plasmáticos normales de potasio y magnesio. La amiodarona prolongaría aún más el QT y está contraindicada."
+      },
+      {
+        "stem": "¿Cuál de los siguientes hallazgos electrocardiográficos descarta la presencia de un ritmo sinusal normal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Onda P negativa en la derivación DII y positiva en la derivación aVR"
+          },
+          {
+            "id": "B",
+            "text": "Frecuencia cardíaca de 65 latidos por minuto"
+          },
+          {
+            "id": "C",
+            "text": "Intervalo PR constante de 160 milisegundos"
+          },
+          {
+            "id": "D",
+            "text": "Onda P positiva en DI y aVF"
+          },
+          {
+            "id": "E",
+            "text": "Complejo QRS precedido por una onda P con intervalo R-R regular"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En el ritmo sinusal normal, la despolarización auricular se origina en el nodo sinusal (ubicado en la parte alta de la aurícula derecha) y se dirige hacia abajo y a la izquierda. Por ende, la onda P DEBE ser positiva en DII, DIII y aVF, y negativa en aVR. Una onda P negativa en DII indica un ritmo auricular bajo o ectópico."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-06",
+    "title": "Angina Crónica Estable & Estratificación de Riesgo Funcional",
+    "perfilCode": "1.01.1.001",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Patología GES #24 (Cardiopatía Coronaria y Angina Crónica)",
+    "tier": 2,
+    "keyPoints": [
+      "Tríada de Diamond-Forrester para Angina Típica: Dolor opresivo retroesternal + Gatillado por esfuerzo/estrés + Alivia con reposo o nitroglicerina SL.",
+      "Aspirina 100 mg/día y Estatinas de alta potencia (Atorvastatina 80 mg/día) son mandatorias en todos los pacientes porque reducen mortalidad e infarto.",
+      "Betabloqueadores cardioselectivos (Bisoprolol/Atenolol) son la primera línea antianginosa (meta FC en reposo 55-60 lpm).",
+      "Criterios de muy alto riesgo en ergometría: Infradesnivel del ST ≥ 2 mm, en estadio 1 de Bruce o CAÍDA de la presión arterial sistólica durante el esfuerzo.",
+      "Cirugía de By-pass coronario (CABG) es de elección en enfermedad de Tronco Común Izquierdo (≥ 50%) o multivaso en diabéticos con FEVI deprimida."
+    ],
+    "vignette": "Hombre de 61 años, hipertenso, diabético y con antecedentes de tabaquismo (30 paquetes-año), consulta en su CESFAM por presentar desde hace 2 meses dolor retroesternal opresivo, con sensación de pesadez que se irradia a la mandíbula y cara interna del brazo izquierdo. El cuadro se desencadena al caminar tres cuadras a paso rápido o subir una cuesta, y desaparece en forma espontánea a los 4 minutos tras sentarse a descansar. Al examen físico: PA 138/84 mmHg, FC 74 lpm, examen cardíaco y pulmonar normales. ECG de reposo en ritmo sinusal con trazado normal.",
+    "explicacion": "El paciente presenta una Angina de Pecho Típica (cumple la tríada de Diamond-Forrester: dolor opresivo retroesternal con irradiación típica, desencadenado por esfuerzo y aliviado en reposo en < 5 minutos). En el nivel primario de atención (APS) bajo cobertura GES, la conducta médica integral consiste en: 1) Iniciar de inmediato Terapia Médica Óptima modificadora del pronóstico (Aspirina 100 mg/día + Atorvastatina 80 mg/día con meta LDL < 55 mg/dL) y antianginosa sintomática (Bisoprolol 5 mg/día con meta FC 55-60 lpm + Nitroglicerina SL SOS); 2) Solicitar un Test de Esfuerzo convencional (Ergometría) para estratificación funcional del riesgo isquémico y capacidad física; 3) Control de factores de riesgo con cesación tabáquica estricta y optimización del control glucémico y tensional.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 63 años con hipertensión y diabetes tipo 2 consulta por dolor torácico opresivo de 1 mes de evolución que aparece al subir dos pisos por escalera y desaparece a los 3 minutos de reposo. El ECG basal es normal. ¿Cuál es la prueba diagnóstica no invasiva de primera línea más adecuada para confirmar isquemia miocárdica y evaluar pronóstico en APS?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Test de esfuerzo convencional en cinta rodante (Ergometría)"
+          },
+          {
+            "id": "B",
+            "text": "Coronariografía invasiva inmediata sin pruebas previas"
+          },
+          {
+            "id": "C",
+            "text": "Radiografía de tórax póstero-anterior y lateral"
+          },
+          {
+            "id": "D",
+            "text": "Determinación seriada de troponinas en reposo"
+          },
+          {
+            "id": "E",
+            "text": "Holter de ritmo cardíaco de 24 horas"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En un paciente con sospecha de angina crónica estable, capaz de realizar ejercicio físico y con un ECG basal normal e interpretable, la prueba no invasiva de primera elección recomendada por el MINSAL y consensos internacionales es el Test de Esfuerzo Convencional (Ergometría). Permite confirmar la presencia de isquemia miocárdica inducible, cuantificar el umbral isquémico en METs y estratificar el riesgo cardiovascular global."
+      },
+      {
+        "stem": "¿Cuál de los siguientes fármacos ha demostrado reducir de forma categórica la mortalidad a largo plazo y la tasa de infarto agudo al miocardio en pacientes portadores de angina crónica estable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Atorvastatina en dosis de alta potencia (80 mg al día)"
+          },
+          {
+            "id": "B",
+            "text": "Nitroglicerina sublingual en esquema fijo tres veces al día"
+          },
+          {
+            "id": "C",
+            "text": "Diltiazem oral en monoterapia"
+          },
+          {
+            "id": "D",
+            "text": "Mononitrato de Isosorbida 20 mg cada 12 horas"
+          },
+          {
+            "id": "E",
+            "text": "Trimetazidina 35 mg cada 12 horas"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Las estatinas de alta potencia (Atorvastatina 40-80 mg/día o Rosuvastatina 20-40 mg/día) y la Aspirina son los dos pilares farmacológicos que han demostrado modificar la historia natural de la cardiopatía coronaria, estabilizando las placas de ateroma y reduciendo significativamente la mortalidad cardiovascular. Los nitratos, calcioantagonistas y trimetazidina son fármacos antianginosos sintomáticos que mejoran la tolerancia al esfuerzo pero no modifican la sobrevida."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-10",
+    "title": "Insuficiencia Cardíaca Crónica: Fenotipos, Diagnóstico & Criterios Framingham",
+    "perfilCode": "1.01.1.006, 1.01.1.007",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Patología GES #24 (Insuficiencia Cardíaca)",
+    "tier": 2,
+    "keyPoints": [
+      "Diagnóstico de IC por Framingham = 2 Criterios Mayores O 1 Mayor + 2 Menores.",
+      "IC-FEr = FEVI ≤ 40%; IC-FEmr = FEVI 41-49%; IC-FEp = FEVI ≥ 50%.",
+      "Péptidos natriuréticos (BNP < 100 o NT-proBNP < 300) tienen altísimo valor predictivo negativo para descartar IC en urgencias.",
+      "Ecocardiograma transtorácico es el examen confirmatorio estándar de oro obligatorio para clasificar fenotipo y FEVI."
+    ],
+    "vignette": "Mujer de 72 años, hipertensa de larga data y diabética, consulta por disnea progresiva de 3 meses de evolución que ahora aparece al caminar dentro de su casa (clase funcional III) y que le impide dormir acostada plana, requiriendo 3 almohadas (ortopnea). Al examen físico: PA 145/88 mmHg, FC 88 lpm, se auscultan crépitos húmedos en el tercio inferior de ambos campos pulmonares, ingurgitación yugular a 45° con reflujo hepatoyugular positivo y edema simétrico con fóvea (+++/++++) hasta la mitad de las piernas.",
+    "explicacion": "La paciente cumple con creces los criterios de Framingham para Insuficiencia Cardíaca Congestiva (4 mayores: ortopnea, ingurgitación yugular, crépitos pulmonares y reflujo hepatoyugular; más 1 menor: edema de EEII). La conducta en APS bajo garantía GES consiste en: 1) Iniciar Furosemida 40 mg/día para descongestión; 2) Solicitar ECG, Radiografía de tórax y Ecocardiograma Doppler transtorácico de urgencia para clasificar el fenotipo según FEVI; 3) Solicitar exámenes de laboratorio basales (Creatinina, Electrolitos plasmáticos, Orina completa y NT-proBNP).",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 68 años con hipertensión arterial de 20 años de evolución consulta por disnea de esfuerzos progresiva y ortopnea de 2 semanas. Al examen físico destaca ingurgitación yugular, ritmo de galope con tercer ruido auscultable en el ápex y crépitos basales bilaterales. ¿Cuál es el diagnóstico clínico más probable según los criterios de Framingham?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Insuficiencia cardíaca congestiva descompensada"
+          },
+          {
+            "id": "B",
+            "text": "Crisis de asma bronquial del adulto"
+          },
+          {
+            "id": "C",
+            "text": "Tromboembolismo pulmonar crónico"
+          },
+          {
+            "id": "D",
+            "text": "Neumonía bacteriana multilobar"
+          },
+          {
+            "id": "E",
+            "text": "Estenosis traqueal extrínseca"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El paciente presenta 4 criterios mayores de Framingham (ortopnea, ingurgitación yugular, galope por R3 y crépitos pulmonares bilaterales), lo que confirma con certeza absoluta el diagnóstico clínico de Insuficiencia Cardíaca Congestiva."
+      },
+      {
+        "stem": "En un paciente de 75 años que consulta en el servicio de urgencia por disnea súbita, ¿cuál de los siguientes exámenes de laboratorio posee el mayor valor predictivo negativo para descartar origen cardiogénico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Péptido natriurético tipo B (BNP o NT-proBNP)"
+          },
+          {
+            "id": "B",
+            "text": "Troponina ultrasensible en muestra única"
+          },
+          {
+            "id": "C",
+            "text": "Dímero D plasmático"
+          },
+          {
+            "id": "D",
+            "text": "Gases arteriales basales"
+          },
+          {
+            "id": "E",
+            "text": "Proteína C Reactiva ultrasensible"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Los péptidos natriuréticos (BNP < 100 pg/mL o NT-proBNP < 300 pg/mL) poseen un valor predictivo negativo superior al 98%: un valor normal descarta la insuficiencia cardíaca descompensada como causa de la disnea en el servicio de urgencia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-15",
+    "title": "Estenosis Aórtica: Semiología, Severidad & TAVI vs SAVR (Guía GES)",
+    "perfilCode": "1.01.1.002",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Derivar",
+    "ges": "Patología GES #24 (Tratamiento Quirúrgico y Percutáneo de Valvulopatías)",
+    "tier": 2,
+    "keyPoints": [
+      "Tríada de Estenosis Aórtica: Angina (5 años), Síncope (3 años) y Disnea (2 años de sobrevida).",
+      "Semiología cardinal: Pulso parvus et tardus + Soplo mesosistólico eyectivo irradiado a carótidas + A2 apagado.",
+      "Criterios de EAo Severa: AVA < 1.0 cm², Gradiente medio ≥ 40 mmHg y Velocidad pico ≥ 4.0 m/s.",
+      "La aparición de cualquier síntoma en EAo severa es indicación inmediata de Reemplazo Valvular (TAVI o SAVR)."
+    ],
+    "vignette": "Hombre de 78 años consulta por dos episodios de síncope ocurridos al apurar el paso para cruzar la calle. Al examen físico: PA 105/75 mmHg, pulsos carotídeos de ascenso lento y débil amplitud (parvus et tardus). A la auscultación destaca un soplo sistólico rudo eyectivo grado IV/VI en el 2° espacio intercostal derecho que se irradia a ambos vasos del cuello, con segundo ruido cardíaco único y apagado. El ecocardiograma Doppler demuestra un Área Valvular Aórtica de 0.7 cm² y un gradiente medio de 48 mmHg.",
+    "explicacion": "El paciente presenta una Estenosis Aórtica Severa Sintomática (síncope de esfuerzo + pulso parvus et tardus + soplo sistólico irradiado a carótidas + AVA < 1.0 cm² y gradiente medio > 40 mmHg). En este grupo etario (78 años), la indicación definitiva y cubierta por el régimen GES es la intervención de reemplazo valvular mediante Implante Percutáneo de Válvula Aórtica Transcatéter (TAVI).",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 76 años consulta por disnea de esfuerzos progresiva y mareos. Al examen físico destaca un pulso carotídeo de baja amplitud y ascenso lento (parvus et tardus) y un soplo mesosistólico en foco aórtico irradiado a carótidas. Ecocardiograma: área valvular aórtica de 0.8 cm² y gradiente medio de 45 mmHg con FEVI de 55%. ¿Cuál es la conducta médica definitiva más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reemplazo valvular aórtico percutáneo (TAVI) o quirúrgico"
+          },
+          {
+            "id": "B",
+            "text": "Tratamiento médico exclusivo con Betabloqueadores y control anual"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar Enalapril y Nitratos en dosis crecientes"
+          },
+          {
+            "id": "D",
+            "text": "Valvuloplastía aórtica con balón como tratamiento curativo definitivo"
+          },
+          {
+            "id": "E",
+            "text": "Test de esfuerzo convencional para medir capacidad funcional"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El paciente tiene una Estenosis Aórtica Severa Sintomática (AVA < 1.0 cm² y gradiente > 40 mmHg). La aparición de síntomas es una indicación formal de reemplazo valvular (TAVI en ancianos o cirugía en jóvenes) para evitar la muerte súbita y mejorar el pronóstico."
+      },
+      {
+        "stem": "¿Cuál es la causa más frecuente de estenosis aórtica en un paciente de 45 años sin antecedentes de fiebre reumática?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Válvula aórtica bicúspide congénita"
+          },
+          {
+            "id": "B",
+            "text": "Degeneración fibrocalcárea senil"
+          },
+          {
+            "id": "C",
+            "text": "Endocarditis infecciosa por enterococo"
+          },
+          {
+            "id": "D",
+            "text": "Aterosclerosis de la raíz aórtica"
+          },
+          {
+            "id": "E",
+            "text": "Lupus eritematoso sistémico (Libman-Sacks)"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En pacientes menores de 65 años, la causa más frecuente de estenosis aórtica aislada es la calcificación acelerada sobre una válvula aórtica bicúspide congénita. En mayores de 70 años predomina la calcificación senil degenerativa."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-19",
+    "title": "Hipertensión Arterial Esencial & Secundaria: Diagnóstico, Metas GES & Terapia Dual",
+    "perfilCode": "1.01.1.014, 1.01.1.015",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Patología GES #21 (Hipertensión Arterial Primaria o Esencial en personas de 15 años y más)",
+    "tier": 2,
+    "keyPoints": [
+      "Diagnóstico de HTA en APS = Perfil de PA (≥ 2 consultas con PA ≥ 140/90 mmHg).",
+      "Tratamiento de 1ª línea = Terapia combinada dual (IECA/ARA2 + Calcioantagonista o Tiazida en dosis fija).",
+      "Meta tensional general en APS = PA < 130/80 mmHg.",
+      "Sospecha HTA Secundaria: Hipopotasemia espontánea → Hiperaldosteronismo (Relación Aldosterona/Renina); Deterioro renal post-IECA → Estenosis Arteria Renal; Cefalea + Sudor + Palpitaciones → Feocromocitoma (Metanefrinas)."
+    ],
+    "vignette": "Hombre de 44 años con diagnóstico reciente de HTA severa resistente a Enalapril 20 mg c/12h y Amlodipino 10 mg/día (PA en control 165/102 mmHg). En sus exámenes de laboratorio de rutina destaca: Creatinina 0.9 mg/dL, Sodio 142 mEq/L, Potasio 2.8 mEq/L (marcadamente bajo sin estar usando diuréticos) y bicarbonato en 30 mEq/L. No presenta edemas.",
+    "explicacion": "El hallazgo de hipertensión arterial resistente asociada a hipopotasemia espontánea y alcalosis metabólica en un paciente de mediana edad es la presentación clásica del Hiperaldosteronismo Primario (Síndrome de Conn). La conducta médica obligatoria en APS consiste en solicitar la determinación plasmática de la Relación Aldosterona / Actividad de Renina Plasmática (ARR). Si la relación está marcadamente elevada (> 30), se deriva a endocrinología/urología para TAC de suprarrenales y resolución quirúrgica o tratamiento con Espironolactona.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 52 años hipertenso inicia tratamiento con Enalapril 20 mg al día. En el control a las 2 semanas se pesquisa elevación de la Creatinina plasmática desde 1.0 mg/dL basal hasta 2.4 mg/dL. A la auscultación abdominal se pesquisa un soplo sistólico en el flanco izquierdo. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Estenosis de la arteria renal aterosclerótica"
+          },
+          {
+            "id": "B",
+            "text": "Hiperaldosteronismo primario (Conn)"
+          },
+          {
+            "id": "C",
+            "text": "Nefropatía diabética incipiente"
+          },
+          {
+            "id": "D",
+            "text": "Glomerulonefritis membranosa"
+          },
+          {
+            "id": "E",
+            "text": "Necrosis tubular aguda tóxica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El deterioro brusco de la función renal (alza de creatinina > 30-50%) tras la introducción de un IECA o ARA2, sumado a la auscultación de un soplo abdominal en el flanco, es patognomónico de la Estenosis Bilateral de la Arteria Renal o unilateral en riñón único, al eliminarse la vasoconstricción de la arteriola eferente mediada por angiotensina II."
+      },
+      {
+        "stem": "Mujer de 38 años consulta por crisis paroxísticas de cefalea pulsátil intensa, palpitaciones rápidas y sudoración profusa generalizada. Durante la consulta se registra PA de 210/120 mmHg y FC de 115 lpm. ¿Cuál es el examen de primera elección para el diagnóstico de esta condición?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Determinación de metanefrinas libres en plasma o fraccionadas en orina de 24 horas"
+          },
+          {
+            "id": "B",
+            "text": "Cortisol libre urinario en 24 horas"
+          },
+          {
+            "id": "C",
+            "text": "Relación aldosterona / renina plasmática"
+          },
+          {
+            "id": "D",
+            "text": "Ecocardiograma transesofágico"
+          },
+          {
+            "id": "E",
+            "text": "Resonancia magnética de cerebro y fosa posterior"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La tríada clásica de cefalea + sudoración + palpitaciones con crisis hipertensivas paroxísticas es altamente específica de Feocromocitoma. El método de tamizaje de primera elección con mayor sensibilidad (> 97%) es la cuantificación de metanefrinas plasmáticas u urinarias."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-02",
+    "title": "Paro Cardiorrespiratorio & Algoritmos ACLS / MINSAL",
+    "perfilCode": "1.01.2.006, 1.01.3.002, 1.01.3.004",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (Atención de Urgencia Vital Inmediata)",
+    "tier": 2,
+    "keyPoints": [
+      "Ritmos desfibrilables = FV y TV sin pulso. Tratamiento clave = Desfibrilación 200 J precoz.",
+      "Inmediatamente después de descargar, reanudar RCP por 2 minutos sin detenerse a chequear pulso.",
+      "Adrenalina 1 mg EV se da tras la 2ª descarga en FV/TVsp, pero es de primera línea inmediata en Asistolia/AESP.",
+      "Amiodarona 300 mg EV se administra tras la 3ª descarga en ritmos desfibrilables refractarios."
+    ],
+    "vignette": "Hombre de 63 años con antecedente de insuficiencia renal crónica terminal en hemodiálisis sufre colapso brusco en el centro de diálisis. A la llegada del equipo de reanimación no responde, no respira y no tiene pulso carotídeo. El monitor electrocardiográfico muestra complejos QRS extremadamente anchos a 40 lpm con ondas T picudas gigantes, sin pulso palpable.",
+    "explicacion": "El paciente se encuentra en Paro Cardiorrespiratorio en ritmo de Actividad Eléctrica Sin Pulso (AESP). No es un ritmo desfibrilable. La prioridad es la RCP continua y la administración inmediata de Adrenalina 1 mg EV. Dado el antecedente de ERC en diálisis y la morfología del ECG con QRS ancho y T picudas, la causa subyacente más probable es una Hiperkalemia severa (una de las 5H). El tratamiento específico y salvador que debe administrarse de inmediato durante la reanimación es Gluconato de Calcio al 10% endovenoso para estabilizar la membrana miocárdica, seguido de medidas de desplazamiento de potasio (Insulina con Glucosa y Bicarbonato de Sodio).",
+    "baseQuestions": [
+      {
+        "stem": "Durante la reanimación cardiopulmonar avanzada de una mujer de 50 años en fibrilación ventricular, se realiza la primera descarga de 200 J bifásicos. ¿Cuál es la acción inmediata que debe realizar el equipo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Reanudar inmediatamente las compresiones torácicas durante 2 minutos antes de cualquier otra evaluación"
+          },
+          {
+            "id": "B",
+            "text": "Palpar el pulso carotídeo para verificar si recuperó circulación espontánea"
+          },
+          {
+            "id": "C",
+            "text": "Mirar el monitor para comprobar si el ritmo cambió a sinusal"
+          },
+          {
+            "id": "D",
+            "text": "Administrar inmediatamente 1 mg de adrenalina endovenosa"
+          },
+          {
+            "id": "E",
+            "text": "Administrar 300 mg de amiodarona en bolo rápido"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La regla de oro del ACLS establece que inmediatamente después de administrar una descarga eléctrica, se deben reanudar las compresiones torácicas durante 2 minutos completos sin interrumpir para verificar el ritmo o el pulso. Chequear el pulso inmediatamente después del choque genera pausas innecesarias y el corazón recién desfibrilado requiere soporte hemodinámico mediante compresiones para recuperar el gasto cardíaco."
+      },
+      {
+        "stem": "Hombre de 70 años hospitalizado entra en paro cardiorrespiratorio. El monitor muestra una línea isoeléctrica plana en dos derivaciones con electrodos bien posicionados. ¿Cuál de las siguientes intervenciones está CONTRAINDICADA?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aplicar una descarga eléctrica de 200 J"
+          },
+          {
+            "id": "B",
+            "text": "Administrar Adrenalina 1 mg endovenosa"
+          },
+          {
+            "id": "C",
+            "text": "Realizar compresiones torácicas continuas a 100-120 por minuto"
+          },
+          {
+            "id": "D",
+            "text": "Ventilar con bolsa-mascarilla conectada a oxígeno"
+          },
+          {
+            "id": "E",
+            "text": "Buscar causas reversibles de asistolia"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La asistolia es un ritmo no desfibrilable. La aplicación de descargas eléctricas en asistolia no tiene utilidad fisiológica, produce daño térmico miocárdico adicional y retrasa las compresiones torácicas efectivas, por lo que está formalmente contraindicada."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-07",
+    "title": "SCASEST: Angina Inestable e IAM sin Supradesnivel del ST",
+    "perfilCode": "1.01.1.020, 1.01.2.001",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Patología GES #24 (Síndrome Coronario Agudo)",
+    "tier": 2,
+    "keyPoints": [
+      "Angina inestable no eleva troponinas; IAMSEST confirma necrosis miocárdica con troponinas elevadas.",
+      "DAPT con Aspirina + Ticagrelor (180 mg carga) es de primera línea sobre Clopidogrel en SCASEST.",
+      "Enoxaparina 1 mg/kg c/12h SC es el anticoagulante parenteral de elección.",
+      "SCASEST de alto riesgo (TIMI ≥ 3 o GRACE > 140) requiere coronariografía precoz en < 24 horas.",
+      "La trombólisis farmacológica está FORMALMENTE CONTRAINDICADA en SCASEST."
+    ],
+    "vignette": "Mujer de 68 años con antecedentes de hipertensión arterial y dislipidemia consulta en el servicio de urgencia por tres episodios de dolor retroesternal opresivo de 25 minutos de duración en reposo ocurridos en las últimas 12 horas. El ECG muestra infradesnivel del segmento ST de 1.5 mm en derivaciones V4 a V6. La primera troponina ultrasensible resulta en 48 pg/mL (valor de referencia < 14 pg/mL).",
+    "explicacion": "La paciente presenta un Síndrome Coronario Agudo sin Supradesnivel del ST (IAMSEST confirmado por troponina sobre el percentil 99 e infradesnivel del ST). Al calcular su Score TIMI: Edad ≥ 65 (1), ≥ 3 FRCV (1), Infradesnivel ST (1), Troponina positiva (1), Angina ≥ 2 episodios (1) = 5 puntos (Alto Riesgo). La conducta inmediata consiste en hospitalizar en Unidad Coronaria, iniciar DAPT (Aspirina 250 mg + Ticagrelor 180 mg), Enoxaparina 1 mg/kg c/12h SC, Atorvastatina 80 mg y programar Coronariografía invasiva en las primeras 24 horas.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 64 años con dolor torácico opresivo de reposo prolongado ingresa a urgencias. El ECG muestra infradesnivel del ST de 2 mm en derivaciones DII, DIII y aVF. Troponinas ultrasensibles positivas. ¿Cuál es el esquema antitrombótico inicial más adecuado mientras se programa la coronariografía?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aspirina 250 mg + Ticagrelor 180 mg + Enoxaparina 1 mg/kg subcutánea"
+          },
+          {
+            "id": "B",
+            "text": "Aspirina 100 mg en monoterapia oral"
+          },
+          {
+            "id": "C",
+            "text": "Trombólisis con Tenecteplase endovenoso inmediato"
+          },
+          {
+            "id": "D",
+            "text": "Heparina no fraccionada en infusión sin antiagregantes plaquetarios"
+          },
+          {
+            "id": "E",
+            "text": "Acenocumarol oral para alcanzar INR de 2.5"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El pilar farmacológico del SCASEST confirmado es la triple terapia antitrombótica inicial: doble antiagregación plaquetaria (Aspirina + Ticagrelor) asociada a anticoagulación parenteral (Enoxaparina). La trombólisis farmacológica está formalmente CONTRAINDICADA en el SCASEST (solo se usa en SCACEST con supradesnivel del ST)."
+      },
+      {
+        "stem": "¿Cuál de los siguientes pacientes con SCASEST tiene indicación de coronariografía invasiva urgente en MENOS de 2 horas?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Paciente con dolor torácico persistente refractario al tratamiento médico e inestabilidad hemodinámica"
+          },
+          {
+            "id": "B",
+            "text": "Paciente de 60 años asintomático tras recibir nitroglicerina con TIMI de 2 puntos"
+          },
+          {
+            "id": "C",
+            "text": "Paciente con dolor torácico autolimitado y troponinas negativas"
+          },
+          {
+            "id": "D",
+            "text": "Paciente hipertenso con ECG normal y dolor atípico"
+          },
+          {
+            "id": "E",
+            "text": "Paciente con Score GRACE de 110 puntos sin nuevos episodios de dolor"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La coronariografía inmediata (< 2 horas) se reserva para pacientes con criterios de muy alto riesgo isquémico o inestabilidad: shock cardiogénico, inestabilidad hemodinámica, dolor torácico refractario a nitratos/analgesia, arritmias ventriculares malignas o insuficiencia cardíaca aguda secundaria a isquemia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-11",
+    "title": "Cuádruple Terapia GDMT en IC-FEr (Guía GES 2026)",
+    "perfilCode": "1.01.1.006, 1.01.1.007",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Patología GES #24 (Insuficiencia Cardíaca - Garantía de Fármacos GDMT)",
+    "tier": 2,
+    "keyPoints": [
+      "Cuádruple terapia GDMT obligatoria en IC-FEr: ARNI + Betabloqueador + Espironolactona + iSGLT2.",
+      "Suspender IECA 36 horas antes de iniciar Sacubitrilo/Valsartán para evitar angioedema.",
+      "Los betabloqueadores solo se inician cuando el paciente está compensado y euvolémico.",
+      "Dapagliflozina y Empagliflozina reducen mortalidad en IC independientemente de si hay diabetes."
+    ],
+    "vignette": "Hombre de 59 años con miocardiopatía dilatada post-infarto y FEVI del 28% se encuentra en clase funcional II de la NYHA recibiendo únicamente Enalapril 10 mg c/12h y Furosemida 40 mg/día. Al examen: vigil, PA 118/75 mmHg, FC 74 lpm, sin signos de congestión periférica ni pulmonar. El médico decide optimizar el tratamiento a cuádruple terapia GDMT.",
+    "explicacion": "El paciente se encuentra euvolémico pero subtratado para su IC-FEr severa. El paso correcto es: 1) Suspender el Enalapril y esperar 36 horas de lavado para iniciar Sacubitrilo/Valsartán (ARNI); 2) Iniciar un Betabloqueador con evidencia (Bisoprolol 1.25 mg/día); 3) Iniciar Espironolactona 25 mg/día (verificando K < 5.0 y VFG > 30); 4) Iniciar Dapagliflozina 10 mg/día. Esta cuádruple terapia es la que confiere la máxima sobrevida en IC-FEr.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 62 años con IC-FEr (FEVI 32%) en tratamiento con Enalapril 20 mg/día y Carvedilol 25 mg c/12h. El médico decide cambiar el IECA por Sacubitrilo/Valsartán. ¿Cuál es la indicación farmacológica crítica que debe darse al paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suspender el Enalapril y esperar al menos 36 horas antes de tomar la primera dosis de Sacubitrilo/Valsartán"
+          },
+          {
+            "id": "B",
+            "text": "Tomar ambos fármacos simultáneamente durante la primera semana"
+          },
+          {
+            "id": "C",
+            "text": "Suspender el Carvedilol de forma permanente"
+          },
+          {
+            "id": "D",
+            "text": "Asociar Espironolactona en dosis de 100 mg antes de hacer el cambio"
+          },
+          {
+            "id": "E",
+            "text": "Realizar el cambio directo sin ningún período de espera"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La inhibición simultánea de la ECA y de la neprilisina produce una acumulación masiva de bradicinina que puede desencadenar un angioedema orofaríngeo fatal. Por ende, se exige un período de lavado de al menos 36 horas tras la última dosis de IECA antes de iniciar Sacubitrilo/Valsartán."
+      },
+      {
+        "stem": "¿Cuál de los siguientes fármacos para la insuficiencia cardíaca alivia rápidamente los síntomas congestivos pero NO ha demostrado reducir la mortalidad a largo plazo en pacientes con IC-FEr?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Furosemida"
+          },
+          {
+            "id": "B",
+            "text": "Empagliflozina"
+          },
+          {
+            "id": "C",
+            "text": "Carvedilol"
+          },
+          {
+            "id": "D",
+            "text": "Espironolactona"
+          },
+          {
+            "id": "E",
+            "text": "Sacubitrilo / Valsartán"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La Furosemida es un diurético de asa sintomático esencial para aliviar la sobrecarga de volumen y edemas, pero no modifica la historia natural ni disminuye la mortalidad. Los 4 fármacos que sí reducen mortalidad son: ARNI, Betabloqueadores, ARM e iSGLT2."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-16",
+    "title": "Insuficiencia Aórtica & Estenosis Mitral Reumática",
+    "perfilCode": "1.01.1.003, 1.01.1.004",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Derivar",
+    "ges": "Patología GES #24",
+    "tier": 2,
+    "keyPoints": [
+      "Insuficiencia Aórtica = Presión diferencial amplia + Pulso Céler (Corrigan) + Soplo diastólico aspirativo.",
+      "Estenosis Mitral Reumática = Ritmo de Duroziez (R1 brillante + Chasquido de apertura + Retumbo diastólico).",
+      "En Estenosis Mitral con Fibrilación Auricular la anticoagulación oral con antagonistas de Vitamina K es mandatoria.",
+      "Valvuloplastía Percutánea con Balón de Inoue es el tratamiento de elección en Estenosis Mitral con Score de Wilkins ≤ 8."
+    ],
+    "vignette": "Mujer de 42 años con antecedente de amigdalitis a repetición en la infancia consulta por disnea progresiva y palpitaciones irregulares. Al examen físico: pulso irregular y deficitario de 110 lpm. A la auscultación cardíaca se ausculta un primer ruido muy acentuado (brillante), ausencia de soplos en sístole, y tras el segundo ruido se escucha un chasquido seco seguido de un retumbo diastólico de tono grave con epicentro en el ápex en decúbito lateral izquierdo (posición de Pachón).",
+    "explicacion": "El cuadro clínico corresponde al clásico 'Ritmo de Duroziez' de la Estenosis Mitral de origen Reumático complicada con Fibrilación Auricular (desaparición del refuerzo presistólico por pérdida de la sístole auricular). La conducta médica integral consiste en: 1) Control de frecuencia con Betabloqueadores o Digoxina; 2) Anticoagulación oral formal con Antagonistas de Vitamina K (Acenocumarol / Warfarina con meta INR 2.0-3.0); 3) Ecocardiograma transtorácico para calcular el área valvular mitral y el Score de Wilkins para planificar Valvuloplastía Percutánea con Balón.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 48 años hipertenso con soplo cardíaco presenta al examen PA 170/45 mmHg, pulso de ascenso rápido y colapso súbito (pulso céler) y oscilación de la cabeza rítmica con el pulso (signo de Musset). ¿Cuál es la valvulopatía causante?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Insuficiencia aórtica severa"
+          },
+          {
+            "id": "B",
+            "text": "Estenosis aórtica severa"
+          },
+          {
+            "id": "C",
+            "text": "Insuficiencia mitral severa"
+          },
+          {
+            "id": "D",
+            "text": "Estenosis pulmonar"
+          },
+          {
+            "id": "E",
+            "text": "Coartación aórtica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La presión diferencial sumamente amplia (170/45 mmHg) asociada al pulso saltón o de Corrigan y a signos periféricos hiperdinámicos (Musset, Quincke) es patognomónica de la Insuficiencia Aórtica Crónica Severa."
+      },
+      {
+        "stem": "¿Cuál es el tratamiento de elección para una paciente joven sintomática con estenosis mitral reumática severa (área 1.1 cm²), valvas móviles sin calcificación y Score de Wilkins de 6 puntos?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Valvuloplastía mitral percutánea con balón"
+          },
+          {
+            "id": "B",
+            "text": "Reemplazo valvular mitral con prótesis mecánica"
+          },
+          {
+            "id": "C",
+            "text": "Comisurotomía quirúrgica a cielo abierto"
+          },
+          {
+            "id": "D",
+            "text": "Tratamiento exclusivo con Furosemida oral"
+          },
+          {
+            "id": "E",
+            "text": "Cierre percutáneo de la orejuela izquierda"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En la estenosis mitral severa con anatomía valvular favorable definida por un Score de Wilkins ≤ 8 puntos (valvas móviles, poco engrosadas y sin calcificación comisural severa ni insuficiencia mitral significativa), la Valvuloplastía Mitral Percutánea con Balón es el tratamiento de primera elección por su alta eficacia y mínima invasividad."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-01",
+    "title": "Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+    "perfilCode": "1.04.2.007",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES): Manejo Integral del Paciente Crítico en Cuidados Intensivos",
+    "tier": 3,
+    "keyPoints": [
+      "El concepto de SIRS fue eliminado: Sepsis = sospecha de infección + disfunción orgánica aguda (SOFA ≥ 2).",
+      "qSOFA (≥ 2 de 3): FR ≥ 22 rpm, Glasgow < 15, Presión Sistólica ≤ 100 mmHg. Herramienta de alarma rápida.",
+      "Shock Séptico = necesidad de vasopresores para PAM ≥ 65 mmHg a pesar de 30 mL/kg de fluidos Y Lactato > 2 mmol/L.",
+      "Vasopresor de 1ª línea indiscutido: Noradrenalina EV. La dopamina está en desuso por arritmias y mayor mortalidad.",
+      "Paquete 1ª hora: Lactato + Hemocultivos x 2 + ATB amplio espectro EV + Cristaloides 30 mL/kg + Noradrenalina precoz."
+    ],
+    "vignette": "Hombre de 68 años con ITU complicada febril (39 °C), soporoso, PA 82/48 (PAM 59 mmHg), FC 122 lpm, FR 26 rpm. Se administran 2.500 mL de Ringer lactato (30 mL/kg) en 2 horas. Tras la carga, la PA es de 84/50 mmHg (PAM 61 mmHg) y lactato 4.2 mmol/L.",
+    "explicacion": "Shock séptico urinario refractario a fluidos: cumple criterios Sepsis-3 con persistencia de PAM < 65 mmHg y lactato > 2 mmol/L tras 30 mL/kg de cristaloides. La conducta inmediata es el inicio impostergable de Noradrenalina EV (meta PAM ≥ 65 mmHg), toma de hemocultivos y antibióticos EV de amplio espectro.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 62 años con neumonía adquirida en la comunidad grave evoluciona con taquipnea (FR 28 rpm), compromiso de conciencia y PA 80/50 mmHg. A pesar de la administración de 2.000 mL de solución salina al 0.9% en 90 minutos, la PAM persiste en 58 mmHg y el lactato sérico se reporta en 3.6 mmol/L. ¿Cuál es la conducta farmacológica inmediata más indicada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar infusión continua de dopamina a dosis beta"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar infusión de noradrenalina con meta de PAM ≥ 65 mmHg"
+          },
+          {
+            "id": "C",
+            "text": "Administrar un bolo de 100 mg de hidrocortisona EV antes de vasopresores"
+          },
+          {
+            "id": "D",
+            "text": "Continuar la carga de cristaloides con 2.000 mL adicionales en 1 hora"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar infusión de bicarbonato de sodio 2/3 molar"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente se encuentra en shock séptico refractario a fluidos (PAM < 65 mmHg y lactato > 2 mmol/L post-volumen). La recomendación Surviving Sepsis Campaign establece la Noradrenalina como el vasopresor de primera línea para restaurar la presión de perfusión tisular (PAM ≥ 65 mmHg). La dopamina (A) aumenta el riesgo de arritmias ventriculares y mortalidad. Los corticoides (C) se indican solo en shock refractario a dosis altas de noradrenalina. Continuar aportando volumen a ciegas (D) provoca edema pulmonar y mayor falla ventricular."
+      },
+      {
+        "stem": "¿Cuál de los siguientes hallazgos clínicos forma parte del score qSOFA (quick SOFA) para la identificación rápida de sepsis en el servicio de urgencia?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Temperatura axilar > 38.3 °C o < 36.0 °C"
+          },
+          {
+            "id": "B",
+            "text": "Leucocitosis > 12.000/mm³ o baciliformes > 10%"
+          },
+          {
+            "id": "C",
+            "text": "Frecuencia respiratoria ≥ 22 respiraciones por minuto"
+          },
+          {
+            "id": "D",
+            "text": "Frecuencia cardíaca > 90 latidos por minuto"
+          },
+          {
+            "id": "E",
+            "text": "Diuresis horaria < 0.5 mL/kg/h"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El qSOFA consta exclusivamente de tres parámetros clínicos de fácil evaluación sin requerir exámenes de laboratorio: (1) Frecuencia respiratoria ≥ 22 rpm, (2) Alteración del estado mental (Glasgow < 15), y (3) Presión arterial sistólica ≤ 100 mmHg. La temperatura, taquicardia y leucocitosis (A, B, D) pertenecían a los antiguos criterios de SIRS, los cuales fueron abandonados por su baja especificidad."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-05",
+    "title": "Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+    "perfilCode": "1.04.3.001, 1.04.3.009, 1.04.3.010",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Prevención de la Transmisión Vertical de VIH y Sífilis · Programa Nacional TBC MINSAL",
+    "tier": 1,
+    "keyPoints": [
+      "Todo menor de 15 años contacto de TBC bacilífera recibe isoniazida de entrada, sin importar el PPD inicial.",
+      "El PPD solo se indica de rutina en menores de 15 años y pacientes VIH; en adultos sanos no se pide de rutina.",
+      "Duración de profilaxis TBC: adultos PPD > 10 mm = 6 meses; VIH PPD > 5 mm = 9 meses; menor de 15 años = 6 meses si vira o 3 meses si persiste PPD (-).",
+      "RN de madre con TBC: isoniazida 6 meses, diferir BCG, mantener lactancia materna con mascarilla.",
+      "Profilaxis de contactos de meningitis: SOLO se realiza para Meningococo (Rifampicina 2 días o Cipro/Ceftriaxona dosis única) y Haemophilus influenzae b (Rifampicina 4 días).",
+      "En embarazada contacto de meningococo, el antibiótico de elección es Ceftriaxona 250 mg IM dosis única.",
+      "Coqueluche: profilaxis con Azitromicina por 5 días a contactos sintomáticos y a grupos de alto riesgo (< 1 año, embarazadas 3er trimestre).",
+      "Accidente cortopunzante con fuente VIH (+) o desconocida: ofrecer triterapia antirretroviral (PEP) en las primeras horas durante 28 días, con controles serológicos al día 0, 6 semanas y 3 meses."
+    ],
+    "vignette": "Interno de medicina de 24 años sufre punción profunda en dedo índice con aguja hueca calibre 21G tras tomar gases arteriales a un paciente hospitalizado en medicina interna cuyo estatus serológico es desconocido. El interno lava la herida inmediatamente con abundante agua y jabón. Al consultar al paciente fuente, este se niega inicialmente a realizarse exámenes de sangre.",
+    "explicacion": "En un accidente cortopunzante ocupacional de alto riesgo (aguja hueca con sangre arterial) proveniente de una fuente con estatus serológico desconocido, la normativa nacional de salud laboral indica ofrecer de inmediato la Profilaxis Post-Exposición (PEP) con triterapia antirretroviral oral al trabajador dentro de las primeras 2 a 4 horas (ventana máxima útil de 72 horas) por un total de 28 días, mientras se define la situación serológica. Paralelamente, se debe solicitar ELISA de VIH basal al trabajador accidentado (para documentar la ausencia de infección previa al accidente). Por ley, la toma de serología al paciente fuente requiere siempre consentimiento informado; no se puede obligar al paciente fuente ni esperar su autorización para proteger farmacológicamente al trabajador.",
+    "baseQuestions": [
+      {
+        "stem": "Médica de 30 años sufre accidente cortopunzante con aguja de paciente cuya serología VIH es desconocida. Tras el lavado profuso de la herida, ¿cuál es la conducta más adecuada a seguir?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Esperar resultado del ELISA del paciente fuente antes de decidir"
+          },
+          {
+            "id": "B",
+            "text": "Ofrecer de inmediato triterapia antirretroviral profiláctica (PEP) por 28 días a 6 semanas"
+          },
+          {
+            "id": "C",
+            "text": "Simplemente observar ya que la fuente probablemente es VIH negativa"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar PCR para VIH al trabajador de salud de inmediato y esperar resultado"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar monoterapia con zidovudina por 4 semanas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Ante un accidente laboral de riesgo biológico con fuente desconocida o seropositiva, la profilaxis post-exposición (PEP) con triterapia debe ofrecerse e iniciarse de forma inmediata (idealmente < 2-4 horas, máximo 72 horas) por 28 días. No se debe postergar el inicio esperando el resultado serológico de la fuente (A), ya que la eficacia decae drásticamente tras las primeras horas."
+      },
+      {
+        "stem": "Niño de 8 años, contacto intradomiciliario de padre con tuberculosis bacilífera. Baciloscopía negativa, radiografía normal, PPD 6 mm. ¿Cuál es la conducta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar tratamiento antituberculoso completo con 4 fármacos"
+          },
+          {
+            "id": "B",
+            "text": "No requiere profilaxis ya que el PPD es negativo (< 10 mm)"
+          },
+          {
+            "id": "C",
+            "text": "Isoniazida por 3 meses y controlar con nuevo PPD al término"
+          },
+          {
+            "id": "D",
+            "text": "Isoniazida por 6 meses sin necesidad de control posterior"
+          },
+          {
+            "id": "E",
+            "text": "Vacunar con BCG y observar evolución"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En menores de 15 años expuestos a un contacto bacilífero con PPD inicial negativo (< 10 mm en no infectados), la norma chilena indica quimioprofilaxis con Isoniazida de entrada durante 3 meses (\"período de ventana inmunológica\") y repetir el PPD: si al tercer mes continúa negativo se suspende; si positiviza (viraje), se completan 6 meses de tratamiento."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-09",
+    "title": "Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+    "perfilCode": "1.04.1.014",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 18): Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA)",
+    "tier": 2,
+    "keyPoints": [
+      "Ley del SIDA: test de VIH es voluntario, confidencial y requiere consentimiento informado firmado.",
+      "El diagnóstico definitivo en Chile lo realiza EXCLUSIVAMENTE el Instituto de Salud Pública (ISP); nunca rotular con un test rápido local.",
+      "Estrategia actual: TARV universal e inmediata a todo paciente confirmado, sin importar el nivel de CD4.",
+      "Esquema preferente de primera línea en Chile: Tenofovir + Lamivudina + Dolutegravir (TDF/3TC/DTG) en dosis única diaria.",
+      "Dolutegravir es un inhibidor de integrasa con alta barrera genética y rápida supresión viral.",
+      "Indetectable = Intransmisible (I=I): si la carga viral es < 50 copias/mL por 6 meses continuos, el riesgo de transmisión sexual es cero."
+    ],
+    "vignette": "Hombre de 29 años consulta en APS por astenia y candidiasis orofaríngea (muguet) recurrente. Se realiza test rápido visual para VIH en el CESFAM que resulta reactivo. El paciente se angustia severamente y pregunta si ya tiene SIDA y si debe informar a su familia.",
+    "explicacion": "Un test rápido o ELISA reactivo en APS es solo un resultado preliminar. Por la Ley del SIDA chilena, el paciente NO tiene confirmación diagnóstica aún. La conducta médica inmediata consiste en contener al paciente, explicar que el test es presuntivo, tomar una segunda muestra de sangre venosa y remitirla al Instituto de Salud Pública (ISP) para confirmación oficial. Una vez confirmado por el ISP, se activa la Garantía GES N° 18, se solicitan CD4 y Carga Viral basales y se inicia de inmediato el tratamiento antirretroviral triconjugado con Tenofovir + Lamivudina + Dolutegravir.",
+    "baseQuestions": [
+      {
+        "stem": "Un joven de 24 años se realiza un test rápido visual para VIH en una campaña universitaria, el cual resulta reactivo. ¿Cuál es la conducta médica normativa que se debe seguir en el sistema de salud chileno?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Informar al paciente que tiene infección por VIH confirmada e iniciar de inmediato el tratamiento con antirretrovirales"
+          },
+          {
+            "id": "B",
+            "text": "Tomar una segunda muestra de sangre venosa y derivarla al Instituto de Salud Pública (ISP) para confirmación"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar carga viral para VIH y dar por confirmado el diagnóstico si esta supera las 1.000 copias/mL"
+          },
+          {
+            "id": "D",
+            "text": "Repetir el test rápido visual en 3 meses para descartar el período de ventana"
+          },
+          {
+            "id": "E",
+            "text": "Derivar a infectología con diagnóstico de SIDA etapa C3"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En Chile, según la Ley 19.779 (Ley del SIDA), ningún examen de tamizaje local (sea test rápido o ELISA de 4ª generación) confiere diagnóstico definitivo. Ante cualquier resultado reactivo, se debe tomar una segunda muestra de sangre y enviarla al ISP para su confirmación oficial mediante Western Blot / Inmunocromatografía. Solo con el informe confirmatorio del ISP se entrega el diagnóstico al paciente y se activa la canasta GES."
+      },
+      {
+        "stem": "¿Cuál es el esquema antirretroviral de primera línea preferente para el inicio de tratamiento en pacientes adultos con diagnóstico confirmado de infección por VIH en Chile según la guía ministerial vigente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Zidovudina + Lamivudina + Nevirapina"
+          },
+          {
+            "id": "B",
+            "text": "Tenofovir disoproxilo + Lamivudina + Dolutegravir"
+          },
+          {
+            "id": "C",
+            "text": "Abacavir + Emtricitabina + Lopinavir/Ritonavir"
+          },
+          {
+            "id": "D",
+            "text": "Efavirenz + Zidovudina + Atazanavir"
+          },
+          {
+            "id": "E",
+            "text": "Tenofovir alafenamida en monoterapia"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El esquema preferente de primera línea en las guías clínicas GES del MINSAL es la combinación en tableta única diaria de dos inhibidores de transcriptasa reversa nucleósidos (Tenofovir disoproxil fumarato + Lamivudina) asociados a un inhibidor de integrasa de segunda generación (Dolutegravir: TDF/3TC/DTG). Este esquema reemplazó a los regímenes antiguos basados en Efavirenz (asociados a efectos neuropsiquiátricos) y Zidovudina (asociada a mielotoxicidad y anemia severa)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-14",
+    "title": "Síndrome Pulmonar por Hantavirus (SCPH)",
+    "perfilCode": "1.04.2.008",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Enfermedad de Notificación Obligatoria Inmediata (ENO) · Guía Clínica MINSAL Manejo Hantavirus",
+    "tier": 3,
+    "keyPoints": [
+      "Reservorio de Hantavirus en Chile: Oligoryzomys longicaudatus (ratón de cola larga); contagio por inhalación de orina/heces secas.",
+      "Tríada de sospecha en hemograma: Trombocitopenia + Hemoconcentración (Hto alto) + Inmunoblastos > 10%.",
+      "Mialgias muy intensas con predilección por muslos y región lumbar.",
+      "Regla terapéutica de oro: MANEJO RESTRICTIVO DE FLUIDOS para evitar inundación alveolar por fuga capilar.",
+      "Soporte avanzado de rescate: ECMO (Oxigenación por Membrana Extracorpórea) veno-arterial.",
+      "Es una Enfermedad de Notificación Obligatoria (ENO) de carácter INMEDIATO."
+    ],
+    "vignette": "Hombre de 38 años, trabajador agrícola de la Región del Maule, consulta en el servicio de urgencia por 4 días de fiebre de 39 °C, cefalea holocraneana y mialgias intensas en la espalda y muslos. En las últimas 6 horas agrega tos seca y disnea de esfuerzo progresiva. Refiere haber limpiado una bodega de herramientas deshabitada hace 2 semanas. Al examen: T° 38.3 °C, PA 90/60 mmHg, FC 115 lpm, FR 28 rpm, saturación 89% con aire ambiental. Radiografía de tórax muestra infiltrados alveolares bilaterales perihiliares difusos sin cardiomegalia. Hemograma: Hematocrito 54%, Leucocitos 18.500/mm³ con 14% de linfocitos atípicos (inmunoblastos) y Plaquetas 42.000/mm³.",
+    "explicacion": "El antecedente ocupacional rural de exposición a bodegas cerradas sumado a la tríada de laboratorio patognomónica (trombocitopenia severa < 50.000, hemoconcentración con Hto > 50% y presencia de inmunoblastos > 10%) en un paciente con síndrome febril y disnea progresiva es diagnóstico de Síndrome Cardiopulmonar por Hantavirus (SCPH). La conducta inmediata consiste en notificar de urgencia a la autoridad sanitaria (ENO), evitar la sobrecarga con cristaloides (aporte hídrico restrictivo), instalar oxígeno suplementario y coordinar el traslado inmediato en ambulancia medicalizada hacia un centro de alta complejidad que cuente con disponibilidad de soporte con ECMO.",
+    "baseQuestions": [
+      {
+        "stem": "Un trabajador forestal de 32 años consulta en un hospital de baja complejidad por cuadro de 3 días de fiebre alta, dolor muscular severo en muslos y sensación de falta de aire. El hemograma muestra Hematocrito de 52%, leucocitos de 16.000/mm³ con 12% de inmunoblastos y recuento de plaquetas de 48.000/mm³. ¿Cuál de las siguientes medidas terapéuticas está formalmente contraindicada o debe evitarse?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Carga masiva de cristaloides con 30 mL/kg en bolo"
+          },
+          {
+            "id": "B",
+            "text": "Oxigenoterapia con mascarilla de no reinhalación"
+          },
+          {
+            "id": "C",
+            "text": "Monitoreo estricto de diuresis horaria"
+          },
+          {
+            "id": "D",
+            "text": "Traslado en ambulancia avanzada con médico"
+          },
+          {
+            "id": "E",
+            "text": "Toma de serología para IgM específica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El cuadro corresponde a un Síndrome Cardiopulmonar por Hantavirus. En esta patología, la permeabilidad capilar alveolar está severamente aumentada por fuga endotelial; la administración de bolos masivos de volumen (como los 30 mL/kg típicos de la sepsis bacteriana) precipita un edema pulmonar masivo irreversible y asfixia al paciente. La guía clínica del MINSAL contraindica la resucitación agresiva con fluidos y exige manejo hemodinámico restrictivo."
+      },
+      {
+        "stem": "¿Cuál es el mecanismo de transmisión más frecuente del virus Hanta en Chile según la epidemiología nacional?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Picadura del mosquito Aedes aegypti"
+          },
+          {
+            "id": "B",
+            "text": "Inhalación de aerosoles contaminados con excretas de ratón colilargo"
+          },
+          {
+            "id": "C",
+            "text": "Consumo de carne cruda de cerdo"
+          },
+          {
+            "id": "D",
+            "text": "Mordedura directa de murciélago silvestre"
+          },
+          {
+            "id": "E",
+            "text": "Contacto sexual con personas asintomáticas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El virus Andes se transmite casi exclusivamente por vía aérea mediante la inhalación de polvo y aerosoles suspendidos en el aire provenientes de la saliva, orina o heces desecadas del roedor silvestre Oligoryzomys longicaudatus (ratón de cola larga), frecuentemente al realizar limpieza de cabañas, galpones o bodegas que han permanecido cerradas durante largo tiempo."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-20",
+    "title": "Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
+    "perfilCode": "1.04.1.006",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantías Explícitas en Salud: Manejo Ambulatorio de Infecciones de Piel en APS",
+    "tier": 1,
+    "keyPoints": [
+      "Erisipela: dermis superficial; Streptococcus pyogenes; placa rojo vivo con BORDES NETOS SOBREELEVADOS.",
+      "Celulitis: tejido celular subcutáneo profundo; S. aureus y S. pyogenes; eritema con BORDES DIFUSOS Y MAL DELIMITADOS.",
+      "Siempre buscar la puerta de entrada: tinea pedis interdigital (intertrigo micótico) es la causa más común de celulitis de extremidades.",
+      "Conducta obligatoria: marcar con lápiz los bordes de la lesión para evaluar progresión o regresión objetiva.",
+      "Tratamiento oral de elección en Chile: Cefadroxilo (o Cefalexina o Flucloxacilina) por 7 a 10 días.",
+      "Si se sospecha SAMR comunitario (abscesos, forúnculos recurrentes, fracaso de betalactámicos): usar Cotrimoxazol o Clindamicina."
+    ],
+    "vignette": "Mujer de 58 años, portadora de linfedema crónico en extremidad inferior derecha secundario a safenectomía, consulta por cuadro de inicio súbito hace 12 horas de calofríos intensos, fiebre de 39 °C y dolor ardiente en la pierna afectada. Al examen físico se aprecia en la cara anterior de la pierna derecha una placa eritematosa extensa de color rojo brillante, indurada y dolorosa, con bordes perfectamente nítidos y sobreelevados que la diferencian con claridad de la piel sana adyacente. No se palpan colecciones ni fluctuación.",
+    "explicacion": "El cuadro clínico de placa eritematosa de color rojo fuego, indurada y con bordes netos, claramente delimitados y sobreelevados, de inicio brusco con fiebre alta y calofríos en una paciente con factor predisponente clásico (linfedema), es patognomónico de Erisipela por Streptococcus pyogenes. La conducta médica inmediata es delimitar el borde con marcador, iniciar reposo con extremidad elevada y administrar tratamiento antimicrobiano antiestreptocócico: en pacientes ambulatorios Cefadroxilo oral (o Penicilina V o Flucloxacilina); si presenta mala tolerancia oral o compromiso del estado general, se indica hospitalización para Cefazolina o Penicilina G sódica EV.",
+    "baseQuestions": [
+      {
+        "stem": "Una mujer de 64 años consulta por fiebre de 38.6 °C y dolor en la pierna izquierda. Al examen se observa una placa eritematosa caliente en la cara anteromedial de la pierna, con bordes sobreelevados, nítidos y bien delimitados respecto a la piel sana circundante. ¿Cuál es el microorganismo causal más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pseudomonas aeruginosa"
+          },
+          {
+            "id": "B",
+            "text": "Streptococcus pyogenes"
+          },
+          {
+            "id": "C",
+            "text": "Staphylococcus epidermidis"
+          },
+          {
+            "id": "D",
+            "text": "Clostridium perfringens"
+          },
+          {
+            "id": "E",
+            "text": "Escherichia coli"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La presencia de una placa eritematosa con bordes nítidos, claramente delimitados y sobreelevados es la descripción clásica de la erisipela, la cual es producida en más del 90% de los casos por Streptococcus pyogenes (estreptococo betahemolítico del grupo A). La celulitis por S. aureus o Gram negativos produce bordes planos y difusos."
+      },
+      {
+        "stem": "¿Cuál de los siguientes esquemas antimicrobianos por vía oral es el de primera línea para el tratamiento ambulatorio de una celulitis no complicada de extremidad inferior en un paciente adulto sin alergias?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ciprofloxacino 500 mg cada 12 horas"
+          },
+          {
+            "id": "B",
+            "text": "Cefadroxilo 500 mg cada 12 horas"
+          },
+          {
+            "id": "C",
+            "text": "Metronidazol 500 mg cada 8 horas"
+          },
+          {
+            "id": "D",
+            "text": "Gentamicina oral 80 mg cada 8 horas"
+          },
+          {
+            "id": "E",
+            "text": "Doxiciclina 100 mg cada 24 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En la celulitis comunitaria no complicada, los microorganismos más frecuentes son Staphylococcus aureus meticilino-sensible y Streptococcus pyogenes. El tratamiento oral de primera línea de elección en Chile son las cefalosporinas de primera generación (Cefadroxilo 500 mg c/12h o Cefalexina 500 mg c/6h) o las penicilinas isoxazólicas (Flucloxacilina 500 mg c/8h), por su excelente perfil de eficacia y tolerancia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-02",
+    "title": "Meningitis Aguda Bacteriana y Viral",
+    "perfilCode": "1.04.2.006",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES): Infecciones del Sistema Nervioso Central en Adultos y Pediatría",
+    "tier": 3,
+    "keyPoints": [
+      "Tríada meníngea: fiebre + rigidez de nuca + alteración mental. La ausencia de los 3 descarta prácticamente el cuadro.",
+      "Citoquímico bacteriano: PMN > 80 %, proteínas > 100 mg/dL y consumo severo de glucosa (ratio LCR/suero < 0.4).",
+      "Citoquímico viral: predominio mononuclear/linfocítico con GLUCOSA NORMAL y proteínas levemente aumentadas.",
+      "Banderas rojas para TAC previo a PL: focalidad neurológica, convulsión nueva, Glasgow < 10, papiledema e inmunodepresión.",
+      "Si requiere TAC: administrar Dexametasona + ATB EV de inmediato antes del traslado, NUNCA demorarlos.",
+      "En > 50 años, alcohólicos y embarazadas: agregar siempre AMPICILINA para cubrir Listeria monocytogenes."
+    ],
+    "vignette": "Mujer de 54 años consulta por 24 horas de cefalea holocraneana, fiebre de 39.2 °C, fotofobia y vómitos. Al examen: orientada parcialmente (Glasgow 14), sin focalidad neurológica, fondo de ojo normal, rigidez de nuca y Brudzinski positivos. PL inmediata: LCR turbio, presión 32 cm H2O, 4.200 leucocitos/mm³ con 92% PMN, glucosa LCR 18 mg/dL (glicemia sérica 110 mg/dL), proteínas 280 mg/dL.",
+    "explicacion": "Meningitis bacteriana aguda típica por citoquímico (pleocitosis PMN > 80%, consumo severo de glucosa ratio < 0.4 e hiperproteinorraquia). Al ser mayor de 50 años, la cobertura empírica obligatoria debe incluir Ceftriaxona + Vancomicina + AMPICILINA EV (para cubrir Listeria monocytogenes) junto con Dexametasona EV precoz.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 58 años es traído a urgencias con fiebre de 39 °C, rigidez de nuca y sopor. Al examen se constata hemiparesia braquiocrural derecha leve y signo de Babinski ipsilateral. ¿Cuál es la conducta médica más adecuada a seguir?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Realizar punción lumbar de urgencia de inmediato y esperar el Gram para iniciar fármacos"
+          },
+          {
+            "id": "B",
+            "text": "Tomar hemocultivos, administrar dexametasona y antibióticos EV de inmediato, y luego solicitar TAC cerebral"
+          },
+          {
+            "id": "C",
+            "text": "Trasladar a TAC cerebral de inmediato sin administrar fármacos para no interferir con los cultivos"
+          },
+          {
+            "id": "D",
+            "text": "Iniciar infusión de manitol al 15% y diferir todo estudio invasivo por 24 horas"
+          },
+          {
+            "id": "E",
+            "text": "Administrar ceftriaxona en dosis única intramuscular y enviar a domicilio con control en 12 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La presencia de focalidad neurológica (hemiparesia y Babinski) es una contraindicación formal para la punción lumbar inmediata por riesgo inminente de herniación cerebral fatal. Sin embargo, la regla médica absoluta es que NUNCA se debe postergar el inicio de los antibióticos por la realización de neuroimágenes. La conducta exacta es tomar hemocultivos inmediatos, administrar la Dexametasona EV + Ceftriaxona + Vancomicina + Ampicilina (por ser > 50 años), y proceder de inmediato a la realización del TAC."
+      },
+      {
+        "stem": "Se recibe el informe del citoquímico de LCR de un joven de 21 años previamente sano con fiebre y rigidez de nuca: aspecto transparente, leucocitos 180/mm³ con 88% de mononucleares, glucosa en LCR 62 mg/dL (glicemia sérica simultánea 98 mg/dL) y proteínas 68 mg/dL. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Meningitis bacteriana por Streptococcus pneumoniae"
+          },
+          {
+            "id": "B",
+            "text": "Meningitis bacteriana por Listeria monocytogenes"
+          },
+          {
+            "id": "C",
+            "text": "Meningitis viral (aséptica)"
+          },
+          {
+            "id": "D",
+            "text": "Meningitis tuberculosa en fase avanzada"
+          },
+          {
+            "id": "E",
+            "text": "Meningitis fúngica por Cryptococcus neoformans"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El perfil de LCR muestra pleocitosis moderada a expensas de mononucleares/linfocitos, con proteínas levemente aumentadas y GLUCOSA NORMAL (ratio LCR/suero > 0.6). Este patrón es característico de meningitis viral (etiología enterovirus la más frecuente en adultos jóvenes). La bacteriana (A, B) y la tuberculosa/fúngica (D, E) cursan con hipoglucorraquia marcada (consumo patológico de glucosa)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-06",
+    "title": "Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico",
+    "perfilCode": "1.04.2.009, 1.04.3.002, 1.04.3.008, 1.04.3.012",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES): Prevención y Profilaxis Post-Exposición Rabia y Tétanos",
+    "tier": 2,
+    "keyPoints": [
+      "Rabia por perro/gato ubicable: observación por 10 días. Si el animal está sano al día 10, NO se vacuna al paciente.",
+      "Rabia por murciélago: contacto = exposición grave = VACUNA INMEDIATA + INMUNOGLOBULINA ANTIRRÁBICA en el 100% de los casos.",
+      "Tétanos: toxina bloquea la liberación de GABA y glicina en las interneuronas medulares inhibitorias.",
+      "Herida limpia: refuerzo de toxoide si pasaron > 10 años. Herida sucia: refuerzo si pasaron > 5 años.",
+      "Inmunoglobulina antitetánica (IGH-T): SOLO se administra si la herida es sucia/tetanígena Y el esquema es desconocido o < 3 dosis.",
+      "Manejo de tétanos establecido: Ingreso a UCI en box oscuro y silencioso, Metronidazol EV (o Penicilina), IGH-T 3.000-6.000 UI, sedación y relajantes musculares."
+    ],
+    "vignette": "Hombre de 32 años, campesino, sufre herida punzante profunda en la planta del pie derecho con un clavo oxidado en un establo. Refiere haber recibido vacunas en su infancia pero no recuerda ningún refuerzo en los últimos 15 años. Al examen: herida puntiforme de 1 cm con márgenes desvitalizados, dolor moderado y restos de barro en su interior.",
+    "explicacion": "Se trata de una herida claramente tetanígena (punzante profunda, contaminada con tierra y materia fecal animal). Dado que el paciente tiene antecedentes de vacunación infantil (≥ 3 dosis en el PNI) pero su último refuerzo fue hace más de 10 años, la conducta según la norma técnica es administrar de inmediato un refuerzo de toxoide tetánico (dT). NO requiere inmunoglobulina antitetánica pasiva (IGH-T), ya que esta última se reserva estrictamente para pacientes con esquema incompleto (< 3 dosis) o antecedente vacunal desconocido ante heridas sucias.",
+    "baseQuestions": [
+      {
+        "stem": "Un hombre de 28 años despierta en una cabaña de veraneo y encuentra un murciélago vivo volando en su habitación. No presenta heridas evidentes ni recuerda haber sido mordido. ¿Cuál es la conducta inmediata recomendada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Observar al paciente de forma ambulatoria y consultar solo si presenta fiebre o cefalea"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar vacunación antirrábica completa e inmunoglobulina antirrábica de inmediato"
+          },
+          {
+            "id": "C",
+            "text": "Capturar al murciélago para observarlo vivo durante 10 días"
+          },
+          {
+            "id": "D",
+            "text": "Administrar profilaxis con amoxicilina y citar a curaciones diarias"
+          },
+          {
+            "id": "E",
+            "text": "Descartar el riesgo de rabia dado que no existen lesiones cortantes visibles"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En Chile, el murciélago es el principal reservorio de rabia. Las mordeduras de murciélago pueden ser indoloras e imperceptibles. Según la norma MINSAL, el hallazgo de un murciélago en la misma habitación donde dormía una persona se considera una exposición de alto riesgo (\"contacto no apercibido\"). La indicación obligatoria es iniciar de inmediato la vacunación antirrábica completa (esquema de 5 dosis) junto con la administración de Inmunoglobulina antirrábica."
+      },
+      {
+        "stem": "Una mujer de 45 años consulta tras cortarse la mano con una lata oxidada en su patio. Su esquema de vacunación contra el tétanos está al día, habiendo recibido su última dosis de refuerzo hace 3 años. ¿Cuál es la indicación correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aseo quirúrgico local de la herida sin necesidad de vacuna ni inmunoglobulina"
+          },
+          {
+            "id": "B",
+            "text": "Administrar refuerzo con toxoide tetánico (dT)"
+          },
+          {
+            "id": "C",
+            "text": "Administrar inmunoglobulina antitetánica (IGH-T) en dosis de 250 UI"
+          },
+          {
+            "id": "D",
+            "text": "Administrar vacuna dT + inmunoglobulina antitetánica"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar profilaxis antibiótica con ciprofloxacino por 10 días"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En un paciente con antecedente fidedigno de vacunación completa cuya última dosis fue administrada hace menos de 5 años, los títulos séricos de anticuerpos antitoxina son óptimos y protectores, incluso ante heridas sucias o tetanígenas. Por ende, solo se requiere aseo prolijo de la herida, sin indicación de toxoide ni de inmunoglobulina."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-10",
+    "title": "Infecciones Oportunistas Mayores en VIH/SIDA",
+    "perfilCode": "1.04.1.019, 1.04.3.006",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES N° 18): Tratamiento de Infecciones Oportunistas en VIH",
+    "tier": 3,
+    "keyPoints": [
+      "Pneumocystis jirovecii: tos seca, disnea subaguda, infiltrado intersticial bilateral en alas de mariposa y LDH elevada.",
+      "Tratamiento de Pneumocystis: Cotrimoxazol a dosis altas por 21 días.",
+      "CORTICOIDES en Pneumocystis: obligatorios si PaO2 < 70 mmHg o Gradiente A-a ≥ 35 mmHg.",
+      "Masa cerebral con realce en anillo en paciente VIH: Toxoplasmosis cerebral (ganglios basales); iniciar prueba terapéutica con Sulfadiazina + Pirimetamina.",
+      "Meningitis por Cryptococcus neoformans: Tinta China (+) en LCR; tratamiento con Anfotericina B + Flucitosina.",
+      "Profilaxis con Cotrimoxazol 1 comp/día: obligatoria en todo paciente con CD4 < 200/mm³ (protege contra Pneumocystis y Toxoplasma)."
+    ],
+    "vignette": "Hombre de 34 años con infección por VIH diagnosticada hace 4 años con abandono de TARV ingresa por tos seca de 3 semanas, disnea progresiva que actualmente se presenta a mínimos esfuerzos y fiebre vespertina. Al examen: T° 38.2 °C, FC 110 lpm, FR 28 rpm, saturación de oxígeno 86% al aire ambiente. Radiografía de tórax muestra infiltrados intersticiales bilaterales de predominio perihiliar y basal en vidrio esmerilado. Gases arteriales con FiO2 21%: pH 7.46, PaO2 54 mmHg, PaCO2 31 mmHg, gradiente alvéolo-arterial 52 mmHg. Recuento de CD4: 68 células/mm³.",
+    "explicacion": "El cuadro corresponde a una Neumonía por Pneumocystis jirovecii (PCP) grave en paciente con SIDA (CD4 < 200). La presencia de insuficiencia respiratoria severa con PaO2 < 70 mmHg (54 mmHg) y gradiente alvéolo-arterial ≥ 35 mmHg (52 mmHg) constituye una indicación formal e inmediata de asociar CORTICOIDES SISTÉMICOS (Prednisona oral 40 mg cada 12 h o Metilprednisolona EV) iniciando 15-30 minutos antes o junto con el Cotrimoxazol EV a dosis plenas (TMP 15-20 mg/kg/día). Omitir los corticoides aumenta drásticamente la mortalidad por el deterioro ventilatorio agudo secundario a la lisis masiva del microorganismo.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 38 años con VIH y recuento de CD4 de 85 células/mm³ es diagnosticado de neumonía por Pneumocystis jirovecii. Los gases arteriales respirando aire ambiental muestran una PaO2 de 58 mmHg. Además del tratamiento antimicrobiano con Cotrimoxazol a dosis altas, ¿cuál de las siguientes medidas farmacológicas reduce la mortalidad?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar infusión de N-acetilcisteína como antioxidante alveolar"
+          },
+          {
+            "id": "B",
+            "text": "Administrar corticoides sistémicos (Prednisona) antes o junto con el antibiótico"
+          },
+          {
+            "id": "C",
+            "text": "Indicar tratamiento concomitante con Azitromicina para cobertura de bacterias atípicas"
+          },
+          {
+            "id": "D",
+            "text": "Asociar Ganciclovir por probable coinfección con Citomegalovirus"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar diuréticos de asa para reducir el edema alveolar"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En la neumonía por Pneumocystis jirovecii, la presencia de una PaO2 < 70 mmHg o un gradiente alvéolo-arterial ≥ 35 mmHg define una forma moderada-severa con alto riesgo de falla ventilatoria. El uso de corticoides sistémicos (Prednisona 40 mg c/12h con pauta descendente por 21 días) reduce a la mitad la necesidad de intubación y la mortalidad intrahospitalaria, al mitigar la respuesta inflamatoria paradójica gatillada por la muerte del hongo."
+      },
+      {
+        "stem": "Hombre de 31 años con VIH y abandono de terapia presenta cefalea holocraneana y hemiparesia faciobraquial derecha de 5 días de evolución. Su recuento de CD4 es de 45 células/mm³. La RMN cerebral con contraste muestra tres lesiones nodulares con captación en anillo y edema circundante localizadas en el tálamo y ganglios basales izquierdos. ¿Cuál es la conducta médica inicial más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Indicar biopsia estereotáxica urgente de la lesión talámica"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar radioterapia holocraneana por sospecha de linfoma primario del SNC"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar tratamiento empírico para Toxoplasmosis con Sulfadiazina + Pirimetamina y evaluar respuesta en 10-14 días"
+          },
+          {
+            "id": "D",
+            "text": "Administrar anfotericina B liposomal en monoterapia EV"
+          },
+          {
+            "id": "E",
+            "text": "Indicar tratamiento antituberculoso con 4 fármacos por 12 meses"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En un paciente con SIDA avanzado (CD4 < 100) que se presenta con múltiples lesiones cerebrales con realce en anillo y predilección por los núcleos de la base, la etiología más frecuente con gran diferencia es la Toxoplasmosis cerebral. La conducta recomendada internacionalmente es iniciar tratamiento empírico antitoxoplasma y repetir la neuroimagen en 10 a 14 días. La biopsia cerebral (A) solo se plantea si el paciente empeora clínicamente o no muestra mejoría radiológica tras 2 semanas (sospecha de Linfoma Primario del SNC)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "infectologia",
+    "specialtyName": "Infectología",
+    "classId": "inf-15",
+    "title": "Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
+    "perfilCode": "1.04.4.016",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Norma Técnica N° 162 MINSAL: Diagnóstico y Tratamiento de la Enfermedad de Chagas",
+    "tier": 2,
+    "keyPoints": [
+      "Vía de transmisión más frecuente actual en Chile: vertical / congénita transplacentaria.",
+      "Tamizaje prenatal con serología IgG: universal y obligatorio en zonas endémicas (desde O’Higgins al norte).",
+      "Diagnóstico en recién nacido / fase aguda: método PARASITOLÓGICO DIRECTO (microhematocrito) o PCR.",
+      "Diagnóstico en fase crónica: SEROLOGÍA (dos técnicas IgG positivas: ELISA + IFI).",
+      "Cardiopatía chagásica: Bloqueo Completo de Rama Derecha (BCRD) + Hemibloqueo Anterior Izquierdo (HBAI).",
+      "Megacolon y megaesófago: por destrucción parasitaria de los plexos nerviosos de Meissner y Auerbach.",
+      "Tratamiento de elección: Nifurtimox o Benznidazol por 60 días (contraindicados en el embarazo)."
+    ],
+    "vignette": "Recién nacido de término, adecuado para la edad gestacional, hijo de madre de 28 años con Chagas crónico asintomático confirmado durante el control prenatal. El lactante nace vigoroso, afebril, sin visceromegalias ni alteraciones al examen físico.",
+    "explicacion": "En un recién nacido hijo de madre con Enfermedad de Chagas, la conducta protocolizada por el MINSAL consiste en realizar de inmediato al nacer un estudio parasitológico directo en sangre de cordón o punción venosa periférica mediante Microhematocrito (o PCR). La serología IgG está formalmente contraindicada para confirmar el diagnóstico al nacer porque refleja el paso transplacentario de anticuerpos maternos (falsos positivos). Si el microhematocrito inicial es positivo, se inicia tratamiento inmediato con Nifurtimox o Benznidazol (con tasas de curación > 95% en el lactante). Si resulta negativo, se repite a los 3 meses o se solicita serología IgG después de los 9-12 meses (cuando los anticuerpos maternos ya han desaparecido).",
+    "baseQuestions": [
+      {
+        "stem": "¿Cuál es el método diagnóstico de elección para confirmar o descartar la transmisión congénita de la Enfermedad de Chagas en un recién nacido hijo de madre seropositiva durante sus primeros días de vida?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Serología ELISA IgG en sangre del recién nacido"
+          },
+          {
+            "id": "B",
+            "text": "Examen parasitológico directo mediante microhematocrito en sangre fresca"
+          },
+          {
+            "id": "C",
+            "text": "Western Blot específico para anticuerpos IgM anti-Trypanosoma cruzi"
+          },
+          {
+            "id": "D",
+            "text": "Radiografía de tórax y ecocardiograma neonatal"
+          },
+          {
+            "id": "E",
+            "text": "Esperar a los 15 años de vida para realizar tamizaje serológico"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En el recién nacido, los anticuerpos IgG atraviesan la placenta libremente, por lo que una serología IgG positiva solo refleja la infección materna y no confirma enfermedad en el niño. Por este motivo, la norma ministerial indica que el diagnóstico neonatal se realiza mediante métodos parasitológicos directos que buscan visualizar el parásito vivo en sangre (microhematocrito de sangre de cordón o capilar) o mediante PCR en centros de referencia."
+      },
+      {
+        "stem": "Un hombre de 60 años originario de la Región de Coquimbo consulta por constipación crónica pertinaz de años de evolución que se ha agravado en los últimos meses, requiriendo enemas evacuantes periódicos. El enema baritado muestra marcada dilatación del colon sigmoides y recto. El electrocardiograma revela bloqueo completo de rama derecha. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cáncer de colon izquierdo estenosante"
+          },
+          {
+            "id": "B",
+            "text": "Enfermedad de Chagas en fase crónica determinada"
+          },
+          {
+            "id": "C",
+            "text": "Enfermedad de Hirschsprung del adulto"
+          },
+          {
+            "id": "D",
+            "text": "Colitis ulcerosa de larga data"
+          },
+          {
+            "id": "E",
+            "text": "Síndrome de colon irritable variante constipación"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La coexistencia de megacolon (fase digestiva) y alteraciones de conducción cardíaca típicas como el bloqueo completo de rama derecha (fase cardíaca) en un paciente procedente de una zona endémica histórica de Chile (IV Región) es la presentación característica de la Enfermedad de Chagas en fase crónica determinada. Se debe confirmar con serología IgG (ELISA e IFI)."
+      }
+    ]
+  }
+]

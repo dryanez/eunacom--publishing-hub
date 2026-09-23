@@ -20,9 +20,12 @@ const rawClasses = [
   ...b5.bloque5
 ];
 
-// Normalize question options format across all blocks
+const aeeQuestions = require('./aee_formatted_hematologia.json');
+
+// Normalize question options format across all blocks and wire Banco Oficial AEE
 const hematologiaClasses = rawClasses.map(c => {
-  const normQuestions = (c.questions || []).map(q => {
+  const aeeQs = aeeQuestions[c.topicLabel];
+  const finalQuestions = (aeeQs && aeeQs.length > 0) ? aeeQs : (c.questions || []).map(q => {
     let options = q.options;
     if (!options && q.opciones) {
       options = q.opciones.map(opt => {
@@ -36,13 +39,22 @@ const hematologiaClasses = rawClasses.map(c => {
       options,
       correcta: q.correcta,
       explicacion: q.explicacion,
-      recTag: q.recTag || 'Reconstrucción oficial EUNACOM'
+      recTag: `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`
     };
   });
 
+  const vignetteText = typeof c.vignette === 'object' && c.vignette !== null 
+    ? (c.vignette.text || '') 
+    : (c.vignette || '');
+    
+  const explicacionText = c.explicacion 
+    || (typeof c.vignette === 'object' && c.vignette !== null ? (c.vignette.conducta || '') : '');
+
   return {
     ...c,
-    questions: normQuestions
+    vignette: vignetteText,
+    explicacion: explicacionText,
+    questions: finalQuestions
   };
 });
 

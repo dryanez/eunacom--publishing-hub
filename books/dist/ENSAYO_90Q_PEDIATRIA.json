@@ -1,0 +1,3771 @@
+[
+  {
+    "number": 1,
+    "id": "Q-PEDIATRIA-01",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "Leucemias",
+    "perfilCode": "2.01.1.032",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una niña de 9 meses de edad, estuvo alimentada con lactancia materna exclusiva hasta los 6 meses, momento en que inició la alimentación sólida. Sin embargo, la madre, vegana estricta, consideró que la niña no toleraba bien los alimentos, por lo que la mantuvo con leche materna exclusiva hasta ahora. Evoluciona con detención del crecimiento, dificultades para sentarse y hablar, además de estar más hipoactiva de lo normal. Al examen físico, se aprecia pálida y letárgica, con signos vitales normales y sin alteraciones en el examen cardiopulmonar ni abdominal. Se solicitan exámenes, que muestran hemoglobina: 7,9 g/dl, hematocrito: 24%, blancos: 3.700 por mm3, plaquetas: 45.000 por mm3, VHS: 12 mm/h, TSH: 1,2 UI/L, creatininemia: 0,5 mg/dl. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Déficit de vitamina B12"
+      },
+      {
+        "id": "B",
+        "text": "Anemia hemolítica"
+      },
+      {
+        "id": "C",
+        "text": "Enfermedad celíaca"
+      },
+      {
+        "id": "D",
+        "text": "Leucemia aguda"
+      },
+      {
+        "id": "E",
+        "text": "Fibrosis quística"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Diciembre 2022 · Pregunta 85). Evalúa el manejo clínico de Leucemias según directrices MINSAL vigentes."
+  },
+  {
+    "number": 2,
+    "id": "Q-PEDIATRIA-02",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "Tumores sólidos",
+    "perfilCode": "2.01.1.037",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 7 años presenta orinas oscuras, desde hace 5 días, sin otros síntomas. Al examen físico se palpa una masa abdominal en el flanco derecho de 10 cm de diámetro. Se solicitan exámenes entre los que destacan bilirrubina: 1,0 mg/dl, creatinina: 1,1 mg/dl, sedimento de orina con 30-40 glóbulos rojos por campo. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Riñón poliquístico"
+      },
+      {
+        "id": "B",
+        "text": "Neuroblastoma"
+      },
+      {
+        "id": "C",
+        "text": "Hapatoblastoma"
+      },
+      {
+        "id": "D",
+        "text": "Tumor de Wilms"
+      },
+      {
+        "id": "E",
+        "text": "Linfoma"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La asociación de hematuria y masa obliga a descartar un tumor de Wilms o nefroblastoma, el cáncer renal más frecuente en niños (en adultos lo más frecuente es el cáncer de células renales)."
+  },
+  {
+    "number": 3,
+    "id": "Q-PEDIATRIA-03",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "Cardiopatías congénitas frecuentes",
+    "perfilCode": "2.01.1.050",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un recién nacido de término, presenta cianosis desde su nacimiento, con saturación arterial de 65% con aporte de oxígeno al 100%. Al examen físico destaca murmullo pulmonar disminuido en ambos campos pulmonares, soplo sistólico y pulsos presentes. Como parte de su estudio se solicita radiografía de tórax que muestra cargiomegalia y mediastino delgado. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trasposición de grandes vasos"
+      },
+      {
+        "id": "B",
+        "text": "Comunicación interauricular"
+      },
+      {
+        "id": "C",
+        "text": "Coartación aórtica"
+      },
+      {
+        "id": "D",
+        "text": "Canal auriculoventricular"
+      },
+      {
+        "id": "E",
+        "text": "Comunicación interventricular"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Si bien suele no tener soplos, la TGV es la única opción que muestra una cardiopatía cianótica. Además sí tiene el mediastino delgado."
+  },
+  {
+    "number": 4,
+    "id": "Q-PEDIATRIA-04",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "Hemorragia digestiva",
+    "perfilCode": "2.01.2.010",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un lactante de 8 meses, presenta un cuadro de malestar general y vómitos alimenta- rios en varias oportunidades, durante las últimas horas. En el último episodio de vómi- tos, se agregó escasa hematemesis, por lo que acude al servicio de urgencias. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esofagitis péptica"
+      },
+      {
+        "id": "B",
+        "text": "Esofagitis erosiva"
+      },
+      {
+        "id": "C",
+        "text": "Síndrome de Mallory Weiss"
+      },
+      {
+        "id": "D",
+        "text": "Gastritis erosiva"
+      },
+      {
+        "id": "E",
+        "text": "Gastritis por Helicobacter pylori"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Es un Sd. De Mallory Weiss clásico"
+  },
+  {
+    "number": 5,
+    "id": "Q-PEDIATRIA-05",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "Meningococcemia",
+    "perfilCode": "2.01.2.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Meningococcemia · 2.01.2.016] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Meningococcemia. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Meningococcemia\" como urgencia clínica (2.01.2.016), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 6,
+    "id": "Q-PEDIATRIA-06",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "Shock",
+    "perfilCode": "2.01.2.023",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una lactante de 2 meses de edad presenta un cuadro de fiebre hasta 39°C, de 24 horas de evolución. Es llevada al servicio de urgencias debido a que ha evolucionado con deterioro del estado general y tendencia a la letargia. Al examen físico se observa soporosa, con un llenado capilar de 5 segundos, deshidratada y taquicárdica a 158 latidos por minuto. La temperatura es de 39,3°C. Además de administrar oxígeno, ¿cuál es la primera medida a tomar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar solución fisiológica por vía endovenosa"
+      },
+      {
+        "id": "B",
+        "text": "Administrar bicarbonato por vía endovenosa"
+      },
+      {
+        "id": "C",
+        "text": "Administrar adrenalina por vía endovenosa"
+      },
+      {
+        "id": "D",
+        "text": "Administrar hidrocortisona por vía endovenosa"
+      },
+      {
+        "id": "E",
+        "text": "Administrar glucosa por vía endovenosa"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Manejo de Sepsis en Lactantes: En casos de sepsis en lactantes, la prioridad es la reanimación y la administración de antibióticos. Si el lactante presenta shock o signos de deshidratación, la primera medida es la hidratación intravenosa con solución salina."
+  },
+  {
+    "number": 7,
+    "id": "Q-PEDIATRIA-07",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "",
+    "topicTitle": "SARS Cov 2 COVID 19",
+    "perfilCode": "2.01.2.144",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un adolescente de 14 años presenta un cuadro de fiebre de 39ºC, desde hace 3 días, asociado a malestar general, dolor abdominal, vómitos y diarrea, seguido de marcado compromiso, por lo que acude al servicio de urgencia. Al examen físico está con compromiso hemodinámico, con frecuencia cardíaca de 120x’ y PA: 90/50 mmHg, por lo que que es manejado con suero fisiológico endovenoso, con respuesta parcial. Tiene antecedente de PCR positiva para Covid-19 hace 30 días y se solicitan nuevos exámenes, que muestran hematocrito: 33%, blancos: 14.000 por mm3, plaquetas: 80.000 por mm3, VHS: 76 mmHg, PCR: 15,5 mg/L, dímero D: 670 ng/ml y troponinas elevadas. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sepsis bacteriana"
+      },
+      {
+        "id": "B",
+        "text": "Síndrome inflamatorio multisistémico"
+      },
+      {
+        "id": "C",
+        "text": "Insuficiencia suprarrenal aguda"
+      },
+      {
+        "id": "D",
+        "text": "Reinfección por Covid-19"
+      },
+      {
+        "id": "E",
+        "text": "Enfermedad de Kawasaki"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Agosto 2021 · Pregunta 36). Evalúa el manejo clínico de SARS Cov 2 COVID 19 según directrices MINSAL vigentes."
+  },
+  {
+    "number": 8,
+    "id": "Q-PEDIATRIA-08",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.1",
+    "topicTitle": "Evaluación del Crecimiento & Estado Nutricional en Pediatría: Curvas OMS (P/E, T/E, P/T)",
+    "perfilCode": "2.01.1.072",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "No GES. Patología cubierta en control de salud infantil del Programa Nacional de Salud de la Infancia (MINSAL)."
+    },
+    "stem": "Un niño de 8 años, es traído por presentar mal olor axilar desde hace semanas, no asociado a otros síntomas. Al examen físico se aprecia vello púbico escaso y testículos con volumen de 4cc. Su índice de masa corporal está en percentil 50 para su edad y sexo. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pubertad precoz central"
+      },
+      {
+        "id": "B",
+        "text": "Pubertad precoz periférica"
+      },
+      {
+        "id": "C",
+        "text": "Pubertad temprana"
+      },
+      {
+        "id": "D",
+        "text": "Hiperplasia suprarrenal"
+      },
+      {
+        "id": "E",
+        "text": "Adrenarquia temprana"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Tiene una pubertad precoz (menos de 9 años en varones), con testículos de 4 cc, por lo que están estimulados por las gonadotropinas. Como hay elevación de gonadotropinas, es porque está activado el eje hipotálamo hipóﬁsis, es decir, es central."
+  },
+  {
+    "number": 9,
+    "id": "Q-PEDIATRIA-09",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.1",
+    "topicTitle": "Evaluación del Crecimiento & Estado Nutricional en Pediatría: Curvas OMS (P/E, T/E, P/T)",
+    "perfilCode": "2.01.1.141",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Patología cubierta en control de salud infantil del Programa Nacional de Salud de la Infancia (MINSAL)."
+    },
+    "stem": "Un niño de 5 años, al que le molestan los ruidos fuertes, presenta vocabulario muy escaso. Caminó a los 24 meses y dijo su primera palabra a los 36 meses. No pareciera tener interés en relacionarse con los demás niños de su edad. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trastorno por déficit atencional"
+      },
+      {
+        "id": "B",
+        "text": "Trastorno generalizado del desarrollo"
+      },
+      {
+        "id": "C",
+        "text": "Parálisis cerebral"
+      },
+      {
+        "id": "D",
+        "text": "Distrofia muscular"
+      },
+      {
+        "id": "E",
+        "text": "Trastorno del lenguaje"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene un trastorno del espectro autista clásico, de la variante autista (Asperger, en cambio, tiene lenguaje normal). Además, afecta otras áreas del desarrollo, por lo que antes se les llamaba trastornos generalizados del desarrollo."
+  },
+  {
+    "number": 10,
+    "id": "Q-PEDIATRIA-10",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.2",
+    "topicTitle": "Desarrollo Psicomotor: Hitos Madurativos & Baterías de Tamizaje (EEDP y TEPSI)",
+    "perfilCode": "2.01.1.083",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Cubierto por Programa Chile Crece Contigo y salas de estimulación en APS."
+    },
+    "stem": "Un niño de 18 meses de edad, con antecedente de haber nacido prematuro, a las 32 semanas de edad gestacional, camina en punta de pies. Logró la marcha independiente hace un mes. Al examen físico, tiene aumento del tono muscular de las extremidades inferiores, con hiperreflexia y presencia de signo de Babinski. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Estereotipia de la marcha"
+      },
+      {
+        "id": "B",
+        "text": "Retraso del desarrollo psicomotor"
+      },
+      {
+        "id": "C",
+        "text": "Diplejia espástica"
+      },
+      {
+        "id": "D",
+        "text": "Polineuropatía"
+      },
+      {
+        "id": "E",
+        "text": "Distrofia muscular"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La caminata en punta de pies puede tener múltiples causas, siendo normal en menores de 3 años, pero también asociándose a trastornos del espectro autista (se `pensaría si tuviese otras estereotipias, alteraciones del lenguaje o de la interacción social) y se asocia asimismo a parálisis cerebral con espasticidad. La diplejía espástica es una variante de ello, en que se afectan las extremidades inferiores. Tiene buen pronóstico con un adecuado tratamiento multidisciplinario. La distrofia muscular suele tener un desarrollo normal, pero luego va perdiendo fuerza, especialmente en los grupos musculares grandes, que, por ejemplo, le dificulta ponerse de pie, por lo que suele hacerlo con el apoyo de las manos."
+  },
+  {
+    "number": 11,
+    "id": "Q-PEDIATRIA-11",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.3",
+    "topicTitle": "Programa Nacional de Inmunizaciones (PNI Chile): Calendario de Vacunación Obligatorio 2026",
+    "perfilCode": "2.01.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES. Garantía de acceso universal, obligatoria y gratuita por Decreto Ley Supremo del Ministerio de Salud (MINSAL)."
+    },
+    "stem": "Un lactante de 12 meses acude al vacunatorio del CESFAM con su calendario al día hasta los 6 meses. ¿Cuáles son las vacunas que le corresponde recibir según el Programa Nacional de Inmunizaciones (PNI) de Chile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hexavalente, Hepatitis A y Varicela"
+      },
+      {
+        "id": "B",
+        "text": "Tresvírica, Meningocócica ACWY y Neumocócica conjugada"
+      },
+      {
+        "id": "C",
+        "text": "Tresvírica, Varicela y Hexavalente"
+      },
+      {
+        "id": "D",
+        "text": "Neumocócica conjugada, Hepatitis A y Polio oral"
+      },
+      {
+        "id": "E",
+        "text": "Meningocócica ACWY, Varicela y Hepatitis B monovalente"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "A) Incorrecta. Hexavalente, Hepatitis A y Varicela corresponden al hito de los 18 meses.\nB) Correcta. En Chile, a los 12 meses de vida se administran: 1) Tresvírica (SRP: sarampión, rubéola, parotiditis), 2) Meningocócica conjugada contra serogrupos A, C, W-135 e Y, y 3) Refuerzo de Neumocócica conjugada.\nC) Incorrecta. La varicela y el refuerzo de hexavalente se indican a los 18 meses.\nD) Incorrecta. La polio oral (bOPV) ya no forma parte del calendario chileno (se usa VIP en la hexavalente).\nE) Incorrecta. La varicela corresponde a los 18 meses."
+  },
+  {
+    "number": 12,
+    "id": "Q-PEDIATRIA-12",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.1.020",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un lactante de 5 meses presenta un cuadro de tos y coriza, asociada a fiebre hasta 38,5°C. Al día siguiente evoluciona con dificultad respiratoria, taquipnea, retracción subcostal y subcostal. Al examen físico tiene FR: 70x’, uso de musculatura accesoria, sibilancias inspiratorias y espiratorias difusas e intensas, más cianosis perioral. ¿Cuál es el agente etiológico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virus respiratorio sincicial"
+      },
+      {
+        "id": "B",
+        "text": "Bordetella pertusis"
+      },
+      {
+        "id": "C",
+        "text": "Virus influenza"
+      },
+      {
+        "id": "D",
+        "text": "Virus parainfluenza"
+      },
+      {
+        "id": "E",
+        "text": "Neumococo"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es una bronquiolitis clásica, por VRS."
+  },
+  {
+    "number": 13,
+    "id": "Q-PEDIATRIA-13",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.1.035",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un niño de 8 años acude al servicio de urgencia por un cuadro de epistaxis, que respondió al tratamiento con taponamiento nasal anterior. Al examen físico tiene petequias generalizas y equimosis, principalmente en las extremidades inferiores. Su hemograma muestra hemoglobina 12 g/dl, hematocrito: 36%, plaquetas: 10.000 por mm3 y glóbulos blancos: 5.600 por mm3. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Leucemia aguda"
+      },
+      {
+        "id": "B",
+        "text": "Púrpura trombocitopénico inmune"
+      },
+      {
+        "id": "C",
+        "text": "Púrpura trombocitpénico trombótico"
+      },
+      {
+        "id": "D",
+        "text": "Hemofilia"
+      },
+      {
+        "id": "E",
+        "text": "Enfermedad de Von Willebrand"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene un PTI clásico: alteración de hemostasia primaria, con trombocitopenia aislada."
+  },
+  {
+    "number": 14,
+    "id": "Q-PEDIATRIA-14",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.1.048",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Una niña de 13 meses de edad, desde hace 4 meses ha detenido su crecimiento. Además, presenta deposiciones frecuentes y disgregadas, con tendencia al meteorismo. En sus exámenes destaca anemia ferropénica. ¿Cuál es el examen de elección para iniciar el estudio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anticuerpos IgA antiendomisio"
+      },
+      {
+        "id": "B",
+        "text": "Cuantificación de inmunoglobulinas"
+      },
+      {
+        "id": "C",
+        "text": "Test del sudor"
+      },
+      {
+        "id": "D",
+        "text": "Colonoscopía"
+      },
+      {
+        "id": "E",
+        "text": "17 – OH – progesterona"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Se sospecha una enfermedad celíaca, que se estudia con anticuerpos antitransglutaminasa o antiendomisio, más una endoscopía digestiva alta, con biopsia duodenal."
+  },
+  {
+    "number": 15,
+    "id": "Q-PEDIATRIA-15",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.1.095",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un recién nacido de 20 días de vida, cuyo embarazo no fue controlado y que tiene antecedente de haber nacido por parto vaginal en su casa, es traído por presentar secreción ocular bilateral, desde hace 5 días. Al examen físico se aprecia eritema conjuntival y escasa secreción bilateral. ¿Cuál es el agente etiológico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neisseria meningitidis"
+      },
+      {
+        "id": "B",
+        "text": "Neisseria gonorrhoeae"
+      },
+      {
+        "id": "C",
+        "text": "Streptococcus pneumoniae"
+      },
+      {
+        "id": "D",
+        "text": "Streptococcus agalactiae"
+      },
+      {
+        "id": "E",
+        "text": "Chlamydia trachomatis"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Tanto gonococo como clamidia producen conjuntivitis neonatal, pero la gonorrea suele ser muy purulenta y aparecer en la primera semana de vida. La clamidia, en cambio, puede demorar más (algunas semanas), ser menos purulenta y asociarse a neumonía, similar a las neumonías atípicas."
+  },
+  {
+    "number": 16,
+    "id": "Q-PEDIATRIA-16",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.2.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Niño de 7 años con asma en crisis, frecuencia respiratoria 40/min, SatO₂ 91%, sibilancias bilaterales, sin uso de musculatura accesoria. ¿Cuál es el manejo inicial más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Salbutamol inhalado + ipratropio + corticoides sistémicos + oxígeno"
+      },
+      {
+        "id": "B",
+        "text": "Adrenalina subcutánea"
+      },
+      {
+        "id": "C",
+        "text": "Intubación orotraqueal inmediata"
+      },
+      {
+        "id": "D",
+        "text": "Antibióticos EV"
+      },
+      {
+        "id": "E",
+        "text": "Solo oxígeno y observar"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Crisis asmática moderada: broncodilatadores β2 (salbutamol) + anticolinérgico (ipratropio) + corticoides sistémicos (prednisona oral o hidrocortisona EV) + oxígeno para SatO₂ >94%."
+  },
+  {
+    "number": 17,
+    "id": "Q-PEDIATRIA-17",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.2.013",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Niño de 3 años hospitalizado por neumonía. SatO₂ 88% con oxígeno por naricera a 3 L/min. FR 50/min, uso de musculatura accesoria. ¿Cuál es el siguiente paso en el manejo ventilatorio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ventilación no invasiva (VNI/CPAP) o cambio a mascarilla de alto flujo"
+      },
+      {
+        "id": "B",
+        "text": "Intubación orotraqueal inmediata"
+      },
+      {
+        "id": "C",
+        "text": "Aumentar flujo de oxígeno por naricera a 6 L/min"
+      },
+      {
+        "id": "D",
+        "text": "Adrenalina nebulizada"
+      },
+      {
+        "id": "E",
+        "text": "Alta con oxígeno domiciliario"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Niño con neumonía grave que no responde a oxigenoterapia convencional + signos de trabajo respiratorio aumentado: siguiente escalón = VNI (CPAP o BPAP) antes de intubación, según protocolo actual."
+  },
+  {
+    "number": 18,
+    "id": "Q-PEDIATRIA-18",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 1,
+    "blockName": "Crecimiento, Desarrollo & Vacunas PNI",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.2.024",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un lactante de 15 meses de edad presenta una convulsión tónico-clónica de 1 mi- nuto de duración, autolimitada, mientras cursaba con fiebre de 39 grados Celsius. Al examen está bien perfundido, algo pálido, consciente, con pulso y presión arterial nor- males, sin signos focales, ni signos meníngeos. El resto de su exploración, no presenta hallazgos de importancia. Además de bajar la temperatura del niño ¿cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar punción lumbar"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar diazepam"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar resonancia magnética nuclear de cerebro"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar ácido valproico"
+      },
+      {
+        "id": "E",
+        "text": "Mantener en observación por 4 horas"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Parece una comvulsión febril benigna. No tiene signos que hagan sospechar me- ningitis y por ser la primera convulsión, tampoco es necesario iniciar naticonvulsivantes."
+  },
+  {
+    "number": 19,
+    "id": "Q-PEDIATRIA-19",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Constipación",
+    "perfilCode": "2.01.1.038",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 4 años presenta incontinencia fecal, en algunas ocasiones, desde hace dos meses. Sin embargo, en otras ocasiones, pasan muchos días sin defecar y cuando lo hace, sus deposiciones son duras y caprinas. Su examen físico no aporta mayor información. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Niño sano"
+      },
+      {
+        "id": "B",
+        "text": "Atresia duodenal"
+      },
+      {
+        "id": "C",
+        "text": "Constipación funcional"
+      },
+      {
+        "id": "D",
+        "text": "Megacolon aganglionótico"
+      },
+      {
+        "id": "E",
+        "text": "Malrotación intestinal"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tiene una constipación funcional clásica, probablemente complicada con un fecaloma (por la incontinencia fecal). Es la causa más frecuente de constipación en niños y se mejora con laxantes y formación de hábitos de defecación."
+  },
+  {
+    "number": 20,
+    "id": "Q-PEDIATRIA-20",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Talla baja",
+    "perfilCode": "2.01.1.076",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 11 años, es traído por sus padres por ser el más bajo de su curso. Ha estado creciendo en el percentil 2 para su edad desde hace años según su curva de crecimiento y al examen físico se aprecia desarrollo puberal Tanner 1, con testículos de 2cc. Sus padres tienen estatura promedio para la población. Se solicita radiografía de carpo que muestra edad ósea de 8 años y 6 meses. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Talla baja familiar"
+      },
+      {
+        "id": "B",
+        "text": "Hipogonadismo"
+      },
+      {
+        "id": "C",
+        "text": "Acondroplasia"
+      },
+      {
+        "id": "D",
+        "text": "Enanismo"
+      },
+      {
+        "id": "E",
+        "text": "Retardo constitucional del crecimiento"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es un retraso constitucional del crecimiento. Edad ósea 2 años menor a la cronológica. Llama la atención los testículos pequeños (aún no inicia la pubertad, pero eso es acorde a su edad biológica = ósea), sin embargo el Klinefelter, no tiene talla baja. El Turner, de las niñas, sí tiene talla baja."
+  },
+  {
+    "number": 21,
+    "id": "Q-PEDIATRIA-21",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Malformaciones vasculares cutáneas",
+    "perfilCode": "2.01.1.111",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un recién nacido de 10 días presenta un hemangioma en el párpado derecho, de 3 cm de diámetro, que cubre parcialmente la visión. ¿Cuál es la conducta más adecuada en este momento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar propanolol"
+      },
+      {
+        "id": "B",
+        "text": "Administrar betametasona"
+      },
+      {
+        "id": "C",
+        "text": "Realizar embolización"
+      },
+      {
+        "id": "D",
+        "text": "Derivar a cirujano plástico"
+      },
+      {
+        "id": "E",
+        "text": "Observar evolución"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "El propanolol es el tratamiento de primera línea de los hemangiomas infantiles. La cirugía solo se hace en casos que no responden y sabiendo que dejará cicatriz con certeza."
+  },
+  {
+    "number": 22,
+    "id": "Q-PEDIATRIA-22",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Compromiso de conciencia",
+    "perfilCode": "2.01.2.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Compromiso de conciencia · 2.01.2.004] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Compromiso de conciencia. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Compromiso de conciencia\" como urgencia clínica (2.01.2.004), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 23,
+    "id": "Q-PEDIATRIA-23",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Hipertensión endocraneana",
+    "perfilCode": "2.01.2.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 4 años presenta cefalea de 1 mes de evolución, que es mayor en las mañanas y se asocia a diplopía. Además, ha presentado náuseas y vómitos alimentarios en el último tiempo, que han aumentado su frecuencia. ¿Cuál es la causa más probable de su cefalea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Migraña de presentación atípica"
+      },
+      {
+        "id": "B",
+        "text": "Cefalea tensional"
+      },
+      {
+        "id": "C",
+        "text": "Jaqueca clásica"
+      },
+      {
+        "id": "D",
+        "text": "Vicio de refracción"
+      },
+      {
+        "id": "E",
+        "text": "Hipertensión endocraneana"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "No queda claro la causa precisa de sus síntomas (tumor cerebral, meningitis tuberculosa, pseudotumor cerebral), pero sí tiene un síndrome de HTEC clásico, con 1. la cefalea de predominio matinal, 2. las náuseas y vómitos y 3. solo le falta el edema de papila. La migraña y la cefalea tensional suelen aumentar en las tardes y no en las mañanas."
+  },
+  {
+    "number": 24,
+    "id": "Q-PEDIATRIA-24",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Muerte súbita-ALTE, BRUE",
+    "perfilCode": "2.01.2.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 24 meses es traído por episodios repetidos de llanto, apnea, seguidos de hipotonía y compromiso de conciencia, que luego se recuperan espontáneamente. En algunos de estos episodios, además, presentó movimientos clónicos, de corta duración. Los episodios se han presentado en relación a situaciones en las que ha llorado o se ha enojado mucho. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solicitar TAC de cerebro y electroencefalograma"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar ácido valproico"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar electroencefalograma"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar carbamazepina"
+      },
+      {
+        "id": "E",
+        "text": "Indicar manejo conductual"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Tiene apneas emotivas, que son ALTE de bajo riesgo. Orienta a eso la edad y la clara correlación con las emociones. Se observan y se educa. Los ALTE de alto riesgo, en cambio, son los que tienen menos de 6 meses, antecedentes de muerte súbita en la familia, alteraciones en el examen neurológico o cardiaco o la necesidad de reanimación."
+  },
+  {
+    "number": 25,
+    "id": "Q-PEDIATRIA-25",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "",
+    "topicTitle": "Traumatismo encéfalo- craneano",
+    "perfilCode": "2.01.2.026",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Traumatismo encéfalo- craneano · 2.01.2.026] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Traumatismo encéfalo- craneano. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Traumatismo encéfalo- craneano\" como urgencia clínica (2.01.2.026), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 26,
+    "id": "Q-PEDIATRIA-26",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.6",
+    "topicTitle": "Laringitis Aguda Obstructiva / Croup: Score de Taussig, Adrenalina Racémica y Dexametasona",
+    "perfilCode": "2.01.2.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja y alta de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un niño de 18 meses consulta en el Servicio de Urgencia por disfonía, tos perruna y estridor inspiratorio en reposo de 4 horas de evolución. Se cataloga como laringitis aguda grado II. Se administra dexametasona oral y una nebulización con adrenalina racémica, logrando una rápida mejoría sintomática con desaparición del estridor a los 20 minutos. ¿Cuál es la conducta médica correcta respecto al destino del paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alta inmediata a domicilio con amoxicilina oral"
+      },
+      {
+        "id": "B",
+        "text": "Mantener en observación en el Servicio de Urgencia por un mínimo de 2 horas para descartar efecto rebote"
+      },
+      {
+        "id": "C",
+        "text": "Hospitalización inmediata en UCI pediátrica"
+      },
+      {
+        "id": "D",
+        "text": "Indicar nueva nebulización con adrenalina cada 30 minutos de forma reglada"
+      },
+      {
+        "id": "E",
+        "text": "Alta con indicación de frío ambiental e inhalador de salbutamol"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "A) Incorrecta. El alta inmediata tras adrenalina es peligrosa por el riesgo de reaparición del edema al cesar la vasoconstricción alfa-1.\nB) Correcta. La adrenalina nebulizada produce vasoconstricción mucosa rápida pero transitoria (duración de 90 a 120 minutos). Existe el riesgo demostrado de 'efecto rebote', en el cual el estridor y la disnea reaparecen con igual o mayor intensidad. Por norma de seguridad pediátrica, todo niño que recibe adrenalina nebulizada debe permanecer en observación en Urgencia por un mínimo de 2 horas antes de definir el alta ambulatoria.\nC) Incorrecta. Si responde favorablemente y no tiene otros factores de riesgo, no requiere UCI.\nD) Incorrecta. La adrenalina se usa según necesidad clínica, no de forma profiláctica reglada cada 30 minutos.\nE) Incorrecta. El salbutamol no actúa en la vía aérea superior subglótica."
+  },
+  {
+    "number": 27,
+    "id": "Q-PEDIATRIA-27",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.7",
+    "topicTitle": "Neumonía Adquirida en la Comunidad (NAC) Pediátrica: Diagnóstico, Amoxicilina vs Ampicilina y Criterios de Hospitalización",
+    "perfilCode": "2.01.1.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un niño de 8 años presenta un cuadro de cefalea y fiebre de 2 días de evolución, a lo que se agrega una conducta agresiva y luego desorientación. Convulsiona en varias oportunidades. Su TAC descarta hipertensión endocraneana, por lo que se realiza punción lumbar que da salida a líquido cefalorraquídeo con 100 glóbulos rojos por mm3, 20 glóbulos blancos por mm3, con 90% de mononucleares, proteínas: 80 mg/dl y glucosa: 60 mg/dl. ¿Cuál es el tratamiento inicial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oseltamivir"
+      },
+      {
+        "id": "B",
+        "text": "Vancomicina"
+      },
+      {
+        "id": "C",
+        "text": "Ceftriaxona"
+      },
+      {
+        "id": "D",
+        "text": "Aciclovir"
+      },
+      {
+        "id": "E",
+        "text": "Ampicilina"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Tiene una meningitis herpética, que se trata con aciclovir EV. Tanto la clínica, como el LCR viral (predominio MN y glucosa normal) hemorrágico la sugieren."
+  },
+  {
+    "number": 28,
+    "id": "Q-PEDIATRIA-28",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.7",
+    "topicTitle": "Neumonía Adquirida en la Comunidad (NAC) Pediátrica: Diagnóstico, Amoxicilina vs Ampicilina y Criterios de Hospitalización",
+    "perfilCode": "2.01.1.027",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un niño de 3 años presenta un cuadro de congestión nasal, con rinorrea serosa, asociada a tos y ligera odinofagia. Al examen físico tiene temperatura 37,3 grados celsius, faringe congestiva, rosada y nariz con rinorrea abundante. ¿Cuál es el tratamiento más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solución salina intranasal"
+      },
+      {
+        "id": "B",
+        "text": "Amoxicilina oral"
+      },
+      {
+        "id": "C",
+        "text": "Corticoides nasales"
+      },
+      {
+        "id": "D",
+        "text": "Diclofenaco oral"
+      },
+      {
+        "id": "E",
+        "text": "Azitromicina oral"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es un resfrío común. No aparecía paracetamol SOS, así que la respuesta más adecuada es el SF intranasal."
+  },
+  {
+    "number": 29,
+    "id": "Q-PEDIATRIA-29",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.8",
+    "topicTitle": "Cuerpo Extraño en Vía Aérea: Maniobras de Desobstrucción según Edad & Broncoscopía",
+    "perfilCode": "2.01.2.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Urgencia médica vital con riesgo inminente de asfixia y paro cardiorrespiratorio."
+    },
+    "stem": "Una niña de dos años presenta un episodio brusco de tos intensa, asociado a cianosis y disnea, que remite luego de pocos minutos. Persiste luego con tos en salvas y expectoración. Al examen pulmonar se auscultan roncus y sibilancias, mayores en el lado derecho. La conducta más adecuada es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solicitar PCR para Bordetella pertusis"
+      },
+      {
+        "id": "B",
+        "text": "Solicitar TAC de tórax"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar broncoscopía"
+      },
+      {
+        "id": "D",
+        "text": "Realizar laringoscopía rígida"
+      },
+      {
+        "id": "E",
+        "text": "Iniciar antibióticos"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tiene un cuerpo extraño bronquial clásico, probablemente en el bronquio derecho. Si bien el primer examen suele ser la radiografía, el manejo y extracción se realiza con broncoscopía flexible o rígida, según disponibilidad. La TAC no suele aportar mucho más que la radiografía y, sea como sea, la clínica tan categórica obliga a la broncoscopía."
+  },
+  {
+    "number": 30,
+    "id": "Q-PEDIATRIA-30",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.8",
+    "topicTitle": "Cuerpo Extraño en Vía Aérea: Maniobras de Desobstrucción según Edad & Broncoscopía",
+    "perfilCode": "2.01.2.018",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Obstrucción de vía aérea superior · 2.01.2.018] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Obstrucción de vía aérea superior. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Obstrucción de vía aérea superior\" como urgencia clínica (2.01.2.018), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Completo y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 31,
+    "id": "Q-PEDIATRIA-31",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.8",
+    "topicTitle": "Cuerpo Extraño en Vía Aérea: Maniobras de Desobstrucción según Edad & Broncoscopía",
+    "perfilCode": "2.01.2.019",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Urgencia médica vital con riesgo inminente de asfixia y paro cardiorrespiratorio."
+    },
+    "stem": "Usted evalúa a un recién nacido de término, con antecedente de síndrome de Down, quien, desde el segundo día de vida, presenta vómitos abundantes y explosivos, que impiden su adecuada alimentación. Al examen físico se observa irritable, con distensión abdominal, por lo que se solicita radiografía abdominal que muestra imagen de doble burbuja, siendo de mayor tamaño la burbuja del lado izquierdo. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atresia yeyunal"
+      },
+      {
+        "id": "B",
+        "text": "Atresia duodenal"
+      },
+      {
+        "id": "C",
+        "text": "Enterocolitis necrotizante"
+      },
+      {
+        "id": "D",
+        "text": "Estenosis hipertrófica del píloro"
+      },
+      {
+        "id": "E",
+        "text": "Malrotación intestinal"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Atresia Duodenal: La imagen de \"doble burbuja\" y el cuadro clínico apuntan a una atresia duodenal. La enterocolitis necrotizante sí puede tener vómitos, pero se manifestaría con antecedentes de prematurez o asfixia, heces con sangre y neumatosis intestinal en la radiografía. La estenosis hipertrófica del píloro, aunque presenta síntomas similares, suele aparecer más tarde, entre las 2 y 6 semanas de vida."
+  },
+  {
+    "number": 32,
+    "id": "Q-PEDIATRIA-32",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "No GES. Urgencia pediátrica con riesgo de Infección Bacteriana Grave (IBG: bacteriemia oculta, meningitis, ITU, neumonía)."
+    },
+    "stem": "Un niño de 18 meses lleva 3 días con fiebre, cuantificada de 38,8°. Se inicia amoxicilina, desapareciendo la fiebre y apareciendo un exantema eritematoso generalizado, que se muestra en la siguiente imagen: Foto 6 (http://www.childnurture.com/article/XXXXXXX) ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eritema infeccioso"
+      },
+      {
+        "id": "B",
+        "text": "Exantema súbito"
+      },
+      {
+        "id": "C",
+        "text": "Reacción alérgica a medicamentos"
+      },
+      {
+        "id": "D",
+        "text": "Enfermedad de Kawasaki"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de piel escaldada"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Es un exantema súbito clásico, por virus herpes 6."
+  },
+  {
+    "number": 33,
+    "id": "Q-PEDIATRIA-33",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.1.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES. Urgencia pediátrica con riesgo de Infección Bacteriana Grave (IBG: bacteriemia oculta, meningitis, ITU, neumonía)."
+    },
+    "stem": "Un lactante de 3 meses presenta aparición de lesiones en el abdomen y muslo, que se muestran a continuación: Foto 16 (https://accesspediatrics.mhmedical.com/content.aspx?bookid=447&sectionid=40442582). ¿Cuál es el agente etiológico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virus herpes simplex"
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pyogenes"
+      },
+      {
+        "id": "C",
+        "text": "Virus varicela zóster"
+      },
+      {
+        "id": "D",
+        "text": "Virus pox"
+      },
+      {
+        "id": "E",
+        "text": "Staphilococcus aureus"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es un impétigo buloso, causado por S. aureus."
+  },
+  {
+    "number": 34,
+    "id": "Q-PEDIATRIA-34",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.1.024",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES. Urgencia pediátrica con riesgo de Infección Bacteriana Grave (IBG: bacteriemia oculta, meningitis, ITU, neumonía)."
+    },
+    "stem": "Un niño de 4 años presenta un cuadro de fiebre hasta 39,5 grados, asociada a tos con expectoración mucupurulenta, de 2 días de evolución. Además refiere cefalea y marcado malestar general. Al examen físico está decaído, febril, con FC:100x’, RR2T, sin soplos, examen pulmonar con presencia crepitaciones localizadas en la zona superior",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mycoplasma pneumoniae"
+      },
+      {
+        "id": "B",
+        "text": "Chlamydia pneumoniae"
+      },
+      {
+        "id": "C",
+        "text": "Streptococcus pneumoniae"
+      },
+      {
+        "id": "D",
+        "text": "Haemophilus influenzae"
+      },
+      {
+        "id": "E",
+        "text": "Staphilococcus aureus"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Es una NAC neumocócica clásica."
+  },
+  {
+    "number": 35,
+    "id": "Q-PEDIATRIA-35",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.1.062",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Urgencia pediátrica con riesgo de Infección Bacteriana Grave (IBG: bacteriemia oculta, meningitis, ITU, neumonía)."
+    },
+    "stem": "Un niño de 18 meses presenta un cuadro de fiebre hasta 39 grados, asociado a decaimiento e irritabilidad. La madre refiere orinas de mal olor, por lo que se realiza un examen de orina por sondeo, que da salida a un líquido con abundante bacterias, 50 piocitos por campo y escasa hematuria. ¿Cuál es el tratamiento de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ciprofloxacino"
+      },
+      {
+        "id": "B",
+        "text": "Cefadroxilo"
+      },
+      {
+        "id": "C",
+        "text": "Nitrofurantoína"
+      },
+      {
+        "id": "D",
+        "text": "Gentamicina"
+      },
+      {
+        "id": "E",
+        "text": "Cefoperazona"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La ITU baja en pediatría se trata con cefalosporinas de primera o segunda generación. Tampoco se usan las quinolonas, por lo mismo."
+  },
+  {
+    "number": 36,
+    "id": "Q-PEDIATRIA-36",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.2.025",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Testículo agudo · 2.01.2.025] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Testículo agudo. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Testículo agudo\" como urgencia clínica (2.01.2.025), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 37,
+    "id": "Q-PEDIATRIA-37",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Enteroparasitosis",
+    "perfilCode": "2.01.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 4 años presenta intenso prurito anal, desde hace varios días, lo que se ha asociado a dificultades para dormir y bruxismo. ¿Cuál es el examen más adecuado para proseguir el estudio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parasitológico de deposiciones"
+      },
+      {
+        "id": "B",
+        "text": "Test de Graham"
+      },
+      {
+        "id": "C",
+        "text": "Hemograma"
+      },
+      {
+        "id": "D",
+        "text": "Prueba de reacción cutánea a la escoriación (Prick test)"
+      },
+      {
+        "id": "E",
+        "text": "Recuento de inmunoglobulina E específica"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Parece una oxiuriasis, que se diagnostica con el test de Graham."
+  },
+  {
+    "number": 38,
+    "id": "Q-PEDIATRIA-38",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Faringoamigdalitis",
+    "perfilCode": "2.01.1.023",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 18 meses presenta dolor de garganta y fiebre de 2 días de evolución de hasta 39,0°C, asociado a irritabilidad, malestar general y secreción conjuntival bilateral. Al examen físico, además, se observa faringe eritematosa exudado amigdalino bilateral y se palpan adenopatías cervicales anteriores. El agente etiológico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Staphilococcus aureus"
+      },
+      {
+        "id": "B",
+        "text": "Streptococcus pyogenes"
+      },
+      {
+        "id": "C",
+        "text": "Metaneumovirus"
+      },
+      {
+        "id": "D",
+        "text": "Adenovirus"
+      },
+      {
+        "id": "E",
+        "text": "Virus de Ebstein Baar"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La clásica amigdalitis exudativa en el menor de 3 años es por ADV. Suele tener fiebre alta y, en este caso, además, viene con la clásica fiebre faringoconjuntival por ADV. Si no hubiese tenido afectación ocular igual sería por ADV, así que a aprender este caso clínico."
+  },
+  {
+    "number": 39,
+    "id": "Q-PEDIATRIA-39",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Sinusitis",
+    "perfilCode": "2.01.1.029",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 6 años, con antecedente de obstrucción nasal y rinorreas frecuentes, mayor en primavera, presenta un cuadro de 10 días de evolución caracterizado por rinorrea mucosa abundante, tos y picos subfebriles hasta 37,8 °C. Inicialmente tendió a mejorar, sin embargo, desde hace 4 días se produjo un aumento en la secreción nasal, la que en ocasiones tenía mal olor, y se agregó cefalea frontal. Al examen Fsico está en buenas condiciones, con temperatura: 36,5 °C, FC: 90x’ y FR: 15x’, se observa faringe eritematosa con descarga posterior y se constata dolor a la percusión de la zona frontal. El examen pulmonar muestra murmullo pulmonar presente y escasos roncus bilaterales. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solicitar radiogra:a de senos paranasales"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar amoxicilina vía oral"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar TAC de cavidades paranasales"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar prednisona oral"
+      },
+      {
+        "id": "E",
+        "text": "Solicitar nasoﬁbroscopía"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene una sinusiGs aguda, con alta sospecha de infección bacteriana (por empeoramiento y Gempo de evolución). El diagnóstico es clínico y se trata con amoxicilina oral, como antibiótico de primera línea."
+  },
+  {
+    "number": 40,
+    "id": "Q-PEDIATRIA-40",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Soplos",
+    "perfilCode": "2.01.1.054",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 13 años acude a control médico, por una infección respiratoria alta. En su examen físico se ausculta un soplo paraesternal izquierdo, sistólico, de intensidad II/VI, sin otras alteraciones. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soplo inocente"
+      },
+      {
+        "id": "B",
+        "text": "Ductus arterioso persistente"
+      },
+      {
+        "id": "C",
+        "text": "Miocardiopatía hipertrófica obstructiva"
+      },
+      {
+        "id": "D",
+        "text": "Estenosis aórtica"
+      },
+      {
+        "id": "E",
+        "text": "Coartación aórtica"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Cuadro clásico"
+  },
+  {
+    "number": 41,
+    "id": "Q-PEDIATRIA-41",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Diabetes",
+    "perfilCode": "2.01.1.073",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 12 años consulta por un cuadro de malestar general, asociado a bajo de peso, que en las últimas horas se le agrega poliuria importante. Consulta porque en las últimas horas se agrega gran compromiso del estado general, seguido de compromiso de conciencia. Al examen físico está taquicárdico, soporoso, con polipnea y signos de deshidratación. En sus exámenes presenta glicemia de 470 mg/dl, sodio de 143 mEq/L, potasio de 4,8 mEq/L, cloro de 97 mEq/L, bicarbonato de 12 mEq/L y pH de 7,05. ¿Qué fluido debe administrarse a este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suero glucosado"
+      },
+      {
+        "id": "B",
+        "text": "Suerlo glucosalino"
+      },
+      {
+        "id": "C",
+        "text": "Solución salina al 0,45%"
+      },
+      {
+        "id": "D",
+        "text": "Solución salina al 0,9%"
+      },
+      {
+        "id": "E",
+        "text": "Suloción ringer lactato"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La cetoacidosis se hidrata con suero fisiológico. Sin embargo la opción del Ringer Lactato es una respuesta totalmente correcta. Pero suero NaCl al 0,9% será la respuesta correcta."
+  },
+  {
+    "number": 42,
+    "id": "Q-PEDIATRIA-42",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Hiperplasia suprarrenal congénita",
+    "perfilCode": "2.01.1.074",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una lactante de 2 meses con cuadro de dolor abdominal y vómitos desde hace semanas que en las últimas horas ha empeorado asociándose fiebre, taquipnea y compromiso de conciencia. Al su ingreso destaca PA: 40/20, FC 130x’, examen pulmonar con crépitos difusos. Se solicitan exámenes de laboratorio donde destaca creatinina 0.9, glicemia 40, Na+ 132, K+ 5.7, hemograma con leucocitosis. Se inicia Ceftriaxona y aporte de suero fisiológico en bolo sin respuesta luego de una hora. El fármaco de elección para el manejo de esta paciente es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vancomicina"
+      },
+      {
+        "id": "B",
+        "text": "Noradrenalina"
+      },
+      {
+        "id": "C",
+        "text": "Hidrocortisona"
+      },
+      {
+        "id": "D",
+        "text": "Vasopresina"
+      },
+      {
+        "id": "E",
+        "text": "Dopamina"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Es una hiperplasia suprarrenal congénita, con una crisis adrenal (se ve por la hiponatremia, hiperkalemia y shock que no responde). Además está descompensado, probablemente por una infección."
+  },
+  {
+    "number": 43,
+    "id": "Q-PEDIATRIA-43",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Dermatitis del pañal y de contacto",
+    "perfilCode": "2.01.1.108",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Lactante con eritema del pañal que no responde a óxido de zinc y muestra lesiones satélite. ¿Cuál es el tratamiento más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clotrimazol tópico"
+      },
+      {
+        "id": "B",
+        "text": "Mupirocina tópica"
+      },
+      {
+        "id": "C",
+        "text": "Hidrocortisona tópica 1%"
+      },
+      {
+        "id": "D",
+        "text": "Óxido de zinc en mayor concentración"
+      },
+      {
+        "id": "E",
+        "text": "Fluconazol oral"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Clotrimazol tópico"
+  },
+  {
+    "number": 44,
+    "id": "Q-PEDIATRIA-44",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Emergencia hipertensiva",
+    "perfilCode": "2.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Emergencia hipertensiva · 2.01.2.007] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Emergencia hipertensiva. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Emergencia hipertensiva\" como urgencia clínica (2.01.2.007), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Completo y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 45,
+    "id": "Q-PEDIATRIA-45",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Insuficiencia cardíaca. Edema pulmonar",
+    "perfilCode": "2.01.2.012",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Insuficiencia cardíaca. Edema pulmonar · 2.01.2.012] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Insuficiencia cardíaca. Edema pulmonar. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Insuficiencia cardíaca. Edema pulmonar\" como urgencia clínica (2.01.2.012), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Completo y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 46,
+    "id": "Q-PEDIATRIA-46",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "",
+    "topicTitle": "Paro cardiorrespiratorio",
+    "perfilCode": "2.01.2.020",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Paro cardiorrespiratorio · 2.01.2.020] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Paro cardiorrespiratorio. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Paro cardiorrespiratorio\" como urgencia clínica (2.01.2.020), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Completo y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 47,
+    "id": "Q-PEDIATRIA-47",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.10",
+    "topicTitle": "Exantemas Infantiles: Diagnóstico Diferencial (Eritema Infeccioso, Exantema Súbito, Escarlatina, Varicela y Kawasaki)",
+    "perfilCode": "2.01.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "No GES. La Enfermedad de Kawasaki requiere sospecha precoz para prevenir aneurismas coronarios."
+    },
+    "stem": "Pregunta 96 Sin contestar Puntúa como 1,00 Marcar pregunta Un niño de 6 años, presenta odinofagia intensa, con fiebre y decaimiento. Además, aparece luego un exantema eritematoso, generalizado, que es más marcado en los pliegues inguinales y axilares. Al examen físico, está febril, con temperatura de 38.7°C, faringe eritematosa. Tiene adenopatías cervicales bilaterales, sensibles y la piel se palpa áspera al tacto. ¿Qué tipo de complicación puede desarrollar este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aneurismas coronarios"
+      },
+      {
+        "id": "B",
+        "text": "Meningitis"
+      },
+      {
+        "id": "C",
+        "text": "Fasceítis necrotizante"
+      },
+      {
+        "id": "D",
+        "text": "Glomerulonefritis"
+      },
+      {
+        "id": "E",
+        "text": "Miocarditis"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La escarlatina se complica con GNAPE."
+  },
+  {
+    "number": 48,
+    "id": "Q-PEDIATRIA-48",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.10",
+    "topicTitle": "Exantemas Infantiles: Diagnóstico Diferencial (Eritema Infeccioso, Exantema Súbito, Escarlatina, Varicela y Kawasaki)",
+    "perfilCode": "2.01.1.058",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. La Enfermedad de Kawasaki requiere sospecha precoz para prevenir aneurismas coronarios."
+    },
+    "stem": "Niño de 8 años con fiebre de 39°C por 7 días de evolución, exantema polimorfo, adenopatías cervicales, conjuntivitis bilateral no exudativa y lengua en fresa. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enfermedad de Kawasaki"
+      },
+      {
+        "id": "B",
+        "text": "Mononucleosis infecciosa"
+      },
+      {
+        "id": "C",
+        "text": "Escarlatina"
+      },
+      {
+        "id": "D",
+        "text": "Artritis idiopática juvenil"
+      },
+      {
+        "id": "E",
+        "text": "Sarampión"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Kawasaki: fiebre ≥5 días + ≥4 criterios (exantema polimorfo, adenopatía cervical, conjuntivitis no exudativa, labios/lengua enrojecidos, edema palmoplantar). Requiere ecocardio y tratamiento con IGIV + aspirina para prevenir aneurismas coronarios."
+  },
+  {
+    "number": 49,
+    "id": "Q-PEDIATRIA-49",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.11",
+    "topicTitle": "Diarrea Aguda Infantil y Planes de Rehidratación Oral OMS (Plan A, B, C) y Síndrome Hemolítico Urémico",
+    "perfilCode": "2.01.1.039",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "No GES. Cubierto por guías clínicas MINSAL de deshidratación y enfermedades diarreicas agudas."
+    },
+    "stem": "Un niño de 18 meses, desde hace 24 horas, presenta fiebre hasta 38,7°C, asociado a episodios de vómitos alimentarios y seguido de diarrea acuosa abundante, con múltiples deposiciones. Al examen físico, se ve de buen aspecto, hidratado, tiene T°:37,2°C y frecuencia cardíaca normal. Su examen abdominal muestra abdomen blando, depresible e indoloro, con aumento de los ruidos hidroaéreos. Se realiza examen de deposiciones con tiras reactivas, que resultan positivos para rotavirus y Clostridium difficile (Clostridioides difficile). ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Probar tolerancia y rehidratación por vía oral"
+      },
+      {
+        "id": "B",
+        "text": "Administrar suero fisiológico por vía endovenosa"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar metronidazol oral"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar ceftriaxona endovenosa"
+      },
+      {
+        "id": "E",
+        "text": "Iniciar vancomicina endovenosa"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Manejo de Diarrea Aguda con Portación Asintomática de Clostridium difficile: Un niño con diarrea aguda por rotavirus y portación asintomática de Clostridium difficile no requiere tratamiento para C. difficile. La portación asintomática en niños es frecuente y no suele complicarse. El metronidazol no ha demostrado mayor utilidad en estos casos. El manejo de este caso se centra en la diarrea por rotavirus con tolerancia oral y rehidratación oral.."
+  },
+  {
+    "number": 50,
+    "id": "Q-PEDIATRIA-50",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.11",
+    "topicTitle": "Diarrea Aguda Infantil y Planes de Rehidratación Oral OMS (Plan A, B, C) y Síndrome Hemolítico Urémico",
+    "perfilCode": "2.01.1.067",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Cubierto por guías clínicas MINSAL de deshidratación y enfermedades diarreicas agudas."
+    },
+    "stem": "Un lactante de 3 años presenta, desde hace 2 días, edema de extremidades inferiores, de la cara y de la zona escrotal, asociado a malestar general. Hace 4 días está con diarrea. Al examen físico se aprecia pálido, se constata el edema blando y se observan múltiples equimosis en las extremidades inferiores. Se solicitan exámenes que muestran creatinina: 3,0 mg/dl, BUN: 35 mg/dl, hemograma con hematocrito: 28%, plaquetas: 120.000, blancos: 11.000 por mm3, frotis con esquistocitos. ¿Cuál es el diagnóstico más probable? El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síndrome nefrótico"
+      },
+      {
+        "id": "B",
+        "text": "Púrpura de Schönlein Henoch"
+      },
+      {
+        "id": "C",
+        "text": "Insuficiencia renal prerrenal"
+      },
+      {
+        "id": "D",
+        "text": "Glomerulonefritis aguda posestreptocócica"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome hemolítico urémico"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es un SHU clásico: falla renal, anemia hemolítica y plaquetopenia. Suele estar precedido por diarrea en el 70% de los casos. La IRA prerrenal no tiene edema."
+  },
+  {
+    "number": 51,
+    "id": "Q-PEDIATRIA-51",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.12",
+    "topicTitle": "Vómitos en el Lactante: RGE Fisiológico vs Estenosis Hipertrófica del Píloro (EHP) vs Invaginación Intestinal",
+    "perfilCode": "2.01.1.046",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES. Urgencias quirúrgicas pediátricas de resolución oportuna."
+    },
+    "stem": "Un niño de 28 días presenta vómitos después de comer, que iniciaron hace una semana y que han aumentado en frecuencia e intensidad. La madre refiere que llora después de comer y vomitar y se objetiva que no ha incrementado bien de peso en el último tiempo, observándose algo enflaquecido. ¿Cuál es el examen de elección para iniciar el estudio en este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Radiografía baritada de esófago-estómago-duodeno"
+      },
+      {
+        "id": "B",
+        "text": "Ecografía abdominal"
+      },
+      {
+        "id": "C",
+        "text": "Endoscopía digestiva alta con biopsia duodenal"
+      },
+      {
+        "id": "D",
+        "text": "Colonoscopía con biopsia de la pared intestinal"
+      },
+      {
+        "id": "E",
+        "text": "Radiografía simple toracoabdominal"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene una estenosis hipertróﬁca del píloro, que se estudia con ecografía abdominal."
+  },
+  {
+    "number": 52,
+    "id": "Q-PEDIATRIA-52",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.14",
+    "topicTitle": "Convulsiones Febriles: Crisis Simple vs Compleja, Punción Lumbar & Pronóstico",
+    "perfilCode": "2.01.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES. Cubierto por guía clínica de Urgencias Neurológicas Pediátricas."
+    },
+    "stem": "Un niño de 6 años, es traído por presentar cuadro de dos días de evolución de diarrea acuosa frecuente, asociado a vómitos, rechazo alimentario y decaimiento. Al examen físico se encuentra somnoliento, frecuencia cardiaca de 110 por minuto, presión arterial de 80/50 mmHg y ojos hundidos. La conducta más adecuada en este caso es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indicar suero glucosalino endovenoso en infusión continua"
+      },
+      {
+        "id": "B",
+        "text": "Indicar sales de rehidratación oral 200ml luego de cada deposición"
+      },
+      {
+        "id": "C",
+        "text": "Indicar sales de rehidratación oral 100 ml por kilogramo a beber en 4 horas y luego reevaluar"
+      },
+      {
+        "id": "D",
+        "text": "Indicar suero fisiológico 20ml por kilogramo a pasar en bolo"
+      },
+      {
+        "id": "E",
+        "text": "Indicar alimentación normal, con abundantes líquidos y control en 48 horas"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Tiene estado hemodinámico límite, pero el sopor obliga a hidratar por vía endovenosa, con plan C"
+  },
+  {
+    "number": 53,
+    "id": "Q-PEDIATRIA-53",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.1.081",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un niño de 7 años presenta episodios en los que se queda quieto, mirando fijo, los que luego no recuerda. Han aumentado en frecuencia, hasta suceder 5 veces al día. El resto de su examen físico es normal. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síncompes vasovagales"
+      },
+      {
+        "id": "B",
+        "text": "Epilepsia mioclónico"
+      },
+      {
+        "id": "C",
+        "text": "Crisis de ausencia"
+      },
+      {
+        "id": "D",
+        "text": "Epilepsia focal"
+      },
+      {
+        "id": "E",
+        "text": "Déficit atencional"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Cuadro clásico"
+  },
+  {
+    "number": 54,
+    "id": "Q-PEDIATRIA-54",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.6",
+    "topicTitle": "Laringitis Aguda Obstructiva / Croup: Score de Taussig, Adrenalina Racémica y Dexametasona",
+    "perfilCode": "2.01.1.025",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja y alta de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un lactante de 12 meses presenta un cuadro de tos, rinorrea y fiebre hasta 38,8°C de 24 horas de evolución, a lo que hoy se agregó dificultad respiratoria. Al examen físico presenta estridor inspiratorio, que aumenta con el llanto, asociado a retracción intercostal moderada. Su saturación de oxígeno es 94% y, al examen pulmonar se ausculta murmullo pulmonar conservado bilateral con transmisión de ruidos desde la vía aérea superior. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Laringitis aguda obstructiva"
+      },
+      {
+        "id": "B",
+        "text": "Neumonía atípica"
+      },
+      {
+        "id": "C",
+        "text": "Neumonía bilateral"
+      },
+      {
+        "id": "D",
+        "text": "Asma del lactante"
+      },
+      {
+        "id": "E",
+        "text": "Neumonitis viral"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Laringitis Aguda Obstructiva: El caso describe una laringitis aguda obstructiva clásica, con un cuadro gripal seguido de síntomas obstructivos, incluyendo estridor laringeo."
+  },
+  {
+    "number": 55,
+    "id": "Q-PEDIATRIA-55",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Hepatitis viral",
+    "perfilCode": "2.01.1.010",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Una niña de 8 años presenta un cuadro de malestar general, fiebre y aparición de ictericia asociado a orinas oscuras que se identifica como coluria. Se solicitan exámenes de laboratorio que muestran GOT 1.525UI/L, GPT 1.216 UI/L, bilirrubina total 11,3mg/dL de predominio directo e IgM para VHA (+). Se indica reposo por 10 días evolucionando favorablemente, sin embargo, 10 días después reaparece la ictericia, agregándose pruri- to y astenia. Se controlan pruebas hepáticas que muestran protrombinemia: 90%, GOT: 1.025 UI/L y GPT: 968 UI/L. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hepatitis crónica"
+      },
+      {
+        "id": "B",
+        "text": "Remisión completa"
+      },
+      {
+        "id": "C",
+        "text": "Portación asintomática del virus"
+      },
+      {
+        "id": "D",
+        "text": "Remisión parcial con recurrencias"
+      },
+      {
+        "id": "E",
+        "text": "Falla hepática"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Es una hepatitis A recurrente (una de las forma de presentación de la hepatitis A)."
+  },
+  {
+    "number": 56,
+    "id": "Q-PEDIATRIA-56",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Adenopatías",
+    "perfilCode": "2.01.1.030",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Niño con adenopatías cervicales y granulomas hepatoesplénicos en la ecografía abdominal. ¿Cuál es el agente etiológico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bartonella henselae"
+      },
+      {
+        "id": "B",
+        "text": "Toxoplasma gondii"
+      },
+      {
+        "id": "C",
+        "text": "Epstein-Barr virus"
+      },
+      {
+        "id": "D",
+        "text": "Mycobacterium tuberculosis"
+      },
+      {
+        "id": "E",
+        "text": "Leishmania sp."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Bartonella henselae"
+  },
+  {
+    "number": 57,
+    "id": "Q-PEDIATRIA-57",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Hemorragia digestiva",
+    "perfilCode": "2.01.1.043",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un lactante de 9 meses de edad presenta cuadro de irritabilidad y llanto, asociado a un episodio de deposiciones con sangre roja abundante hace 3 horas. Al examen Fsico, está irritable y llora desconsoladamente a la palpación abdominal. ¿Qué examen es más adecuado para conﬁrmar la sospecha diagnós8ca?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TAC de abdomen y pelvis"
+      },
+      {
+        "id": "B",
+        "text": "Colonoscopía"
+      },
+      {
+        "id": "C",
+        "text": "Endoscopía diges2va alta"
+      },
+      {
+        "id": "D",
+        "text": "Cin2gra:a con tecnecio 99m"
+      },
+      {
+        "id": "E",
+        "text": "Radiogra:a de abdomen simple"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "El cuadro clínico sugiere una intususcepción intestinal, cuyo examen de elección es la ecografía abdominal. Sin embargo, no está entre las opciones, por lo que lo más probable es que quien redactó la pregunta quería preguntar un diverVculo de Meckel complicado. El diverVculo de Meckel se estudia con cintigrafía con tecnecio 99m, también llamada “cintigrafía de Meckel”."
+  },
+  {
+    "number": 58,
+    "id": "Q-PEDIATRIA-58",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Alergias",
+    "perfilCode": "2.01.1.055",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Lactante de 2 meses con diarrea, vómitos y dermatitis perioral y perianal tras introducción de fórmula láctea. Test de parche positivo para proteína de leche de vaca. ¿Cuál es el manejo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cambiar a fórmula extensamente hidrolizada o elemental"
+      },
+      {
+        "id": "B",
+        "text": "Continuar fórmula habitual y agregar antihistamínico"
+      },
+      {
+        "id": "C",
+        "text": "Hospitalizar para estudio endoscópico"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar corticoides orales"
+      },
+      {
+        "id": "E",
+        "text": "Cambiar a leche de soja"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Alergia a proteína de leche de vaca (APLV): tratamiento = fórmula extensamente hidrolizada (FEH). Si se usa leche materna, la madre elimina lácteos. Soja no recomendada bajo 6 meses (cross-reactividad)."
+  },
+  {
+    "number": 59,
+    "id": "Q-PEDIATRIA-59",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Inmunodeficiencias",
+    "perfilCode": "2.01.1.056",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Niño que después de los 6 meses presenta candidiasis bucal, otitis media recurrente y 2 neumonías hospitalizadas. ¿Cuál es la inmunodeficiencia más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inmunodeficiencia celular (DiGeorge)"
+      },
+      {
+        "id": "B",
+        "text": "Déficit de complemento"
+      },
+      {
+        "id": "C",
+        "text": "Inmunodeficiencia humoral (agammaglobulinemia)"
+      },
+      {
+        "id": "D",
+        "text": "Inmunodeficiencia combinada severa (SCID)"
+      },
+      {
+        "id": "E",
+        "text": "Enfermedad granulomatosa crónica"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Inmunodeficiencia humoral (agammaglobulinemia)"
+  },
+  {
+    "number": 60,
+    "id": "Q-PEDIATRIA-60",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Mesenquimopatías",
+    "perfilCode": "2.01.1.057",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 12 años consulta por cansancio, artralgias, dolores musculares generalizados y fiebre. Refiere que las mialgias son intensas, al punto que limitan su actividad física. Al examen físico presenta dolor a la palpación de las masas musculares, en especial en la espalda alta y los hombros. Además, tiene eritema violáceo en los párpados superiores. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Artritis reumatoide juvenil"
+      },
+      {
+        "id": "B",
+        "text": "Distrofia muscular"
+      },
+      {
+        "id": "C",
+        "text": "Dermatomiositis"
+      },
+      {
+        "id": "D",
+        "text": "Triquinosis"
+      },
+      {
+        "id": "E",
+        "text": "Lupus infantil"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Es una dermatomiositis infantil clásica, con el rash heliotropo y el rash en manto. Se debe descartar un cáncer (suele ser paraneoplásica)."
+  },
+  {
+    "number": 61,
+    "id": "Q-PEDIATRIA-61",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Enterocolitis necrotizante (ECN)",
+    "perfilCode": "2.01.1.116",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un recién nacido de 10 días de vida, con antecedente de haber nacido prematuro a las 27 semanas, siendo alimentado con fórmula láctea para prematuros por sonda nasogástrica, presenta un cuadro de dos días de evolución de distensión abdominal y aumento de la retención láctea obje8vada por la sonda. Se solicita radiograFa simple de abdomen, que muestra dilatación de asas intes8nales, con zonas de engrosamiento de la pared intes8nal y visualización de burbujas en algunos segmentos. Además de suspender la fórmula láctea y asegurar una adecuada hidratación por vía endovenosa, ¿cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar resolución quirúrgica inmediata"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar alimentación con fórmula hidrolizada de proteínas por sonda nasoenteral"
+      },
+      {
+        "id": "C",
+        "text": "Administrar an2bió2cos de amplio espectro por vía endovenosa"
+      },
+      {
+        "id": "D",
+        "text": "Realizar endoscopía diges2va alta"
+      },
+      {
+        "id": "E",
+        "text": "Alimentar con suero glucosado por vía oral"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tiene una enterocoliGs necroGzante, conﬁrmada por la radiografía, que muestra neumatosis intestinal. Su tratamiento consiste en régimen cero, descompresión gástrica mediante sonda, hidratación y alimentación parenteral, antibióticos de amplio espectro y analgesia, más manejo de las complicaciones. La cirugía se reserva a los casos complicados (perforación, estenosis) y a los muy graves que no responden al tratamiento médico. El suero oral y la alimentación por sonda enteral están contraindicados."
+  },
+  {
+    "number": 62,
+    "id": "Q-PEDIATRIA-62",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "TORCH",
+    "perfilCode": "2.01.1.127",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "RN con microcefalia, calcificaciones periventriculares y coriorretinitis. Madre con serología IgG positiva para CMV y IgM positiva. ¿Cuál es el agente causante de la infección congénita?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citomegalovirus (CMV)"
+      },
+      {
+        "id": "B",
+        "text": "Toxoplasma gondii"
+      },
+      {
+        "id": "C",
+        "text": "Virus herpes simplex tipo 2"
+      },
+      {
+        "id": "D",
+        "text": "Treponema pallidum"
+      },
+      {
+        "id": "E",
+        "text": "Virus de rubéola"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "CMV congénito es la infección congénita viral más frecuente. Calcificaciones periventriculares (vs parenquimatosas en toxoplasma) + microcefalia + coriorretinitis = TORCH por CMV."
+  },
+  {
+    "number": 63,
+    "id": "Q-PEDIATRIA-63",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Malformaciones congénitas más frecuentes",
+    "perfilCode": "2.01.1.133",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un recién nacido de 40 semanas de edad gestacional, presenta disnea importante al nacer, con taquipnea marcada, cianosis y desaturación arterial. Presenta ruidos cardiacos desplazados al lado izquierdo, con ruidos intestinales en el lado derecho. Se solicita una radiografía de tórax, que muestra asas intestinales en el hemitórax derecho. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar cirugía de urgencia"
+      },
+      {
+        "id": "B",
+        "text": "Solicitar endoscopía digestiva alta"
+      },
+      {
+        "id": "C",
+        "text": "Administrar oxígeno en alta concentración, por mascarilla"
+      },
+      {
+        "id": "D",
+        "text": "Administrar prostaglandina"
+      },
+      {
+        "id": "E",
+        "text": "Realizar intubación orotraqueal y conectar a ventilador mecánico"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es una hernia diafragmática. Produce hipoplasia pulmonar. Se debe intubar, conectar al ventilador de alta frecuencia y probablemente a la membrana de oxigenación extracorpórea y la cirugía se postpone, para cuando esté estable, con los pulmones más desarrollados. Eso es pregunta para especialistas, no para médico general."
+  },
+  {
+    "number": 64,
+    "id": "Q-PEDIATRIA-64",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Epistaxis",
+    "perfilCode": "2.01.2.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Epistaxis · 2.01.2.008] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Epistaxis. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Epistaxis\" como urgencia clínica (2.01.2.008), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Completo y Seguimiento Completo. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 65,
+    "id": "Q-PEDIATRIA-65",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Intoxicaciones",
+    "perfilCode": "2.01.2.014",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una niña de 2 años ingirió muchas pastillas, que había en la casa. Al examen físico, está inconsciente, pálida e hipotónica, con pulso a 117 por minutos, frecuencia respiratoria de 38 por minuto y pupilas arreactivas a la iluminación. ¿Qué fármacos son los más probablemente ingeridos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AINES"
+      },
+      {
+        "id": "B",
+        "text": "Benzodiacepinas"
+      },
+      {
+        "id": "C",
+        "text": "Salicilatos"
+      },
+      {
+        "id": "D",
+        "text": "Opiáceos"
+      },
+      {
+        "id": "E",
+        "text": "Antidepresivos tricíclicos"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es una intoxicación por tricíclicos por el compromiso de conciencia, taquicardia y pupilas arreactivas (en midriasis). No puede ser benzodiacepinas ni opiáceos, porque no tenía disminución de la frecuencia respiratoria. AINEs y salicilatos no afectan las pupilas."
+  },
+  {
+    "number": 66,
+    "id": "Q-PEDIATRIA-66",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Politraumatismos",
+    "perfilCode": "2.01.2.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Politraumatismos · 2.01.2.021] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Politraumatismos. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Politraumatismos\" como urgencia clínica (2.01.2.021), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 67,
+    "id": "Q-PEDIATRIA-67",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.10",
+    "topicTitle": "Exantemas Infantiles: Diagnóstico Diferencial (Eritema Infeccioso, Exantema Súbito, Escarlatina, Varicela y Kawasaki)",
+    "perfilCode": "2.01.1.018",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. La Enfermedad de Kawasaki requiere sospecha precoz para prevenir aneurismas coronarios."
+    },
+    "stem": "Un niño de 5 años presenta ﬁebre desde hace 7 días, que ha respondido parcialmente al uso de an8piré8cos. Al examen Fsico se palpa una adenopa`a cervical de 1,5 cm y en el examen abdominal se palpa esplenomegalia. Se solicita ecograFa abdominal que muestra múl8ples lesiones hipoecogénicas de pequeño tamaño en hígado y bazo, compa8bles con microabscesos, sin pared visible. ¿Cuál es el agente e8ológico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citomegalovirus"
+      },
+      {
+        "id": "B",
+        "text": "Virus de Epstein-Barr"
+      },
+      {
+        "id": "C",
+        "text": "Bartonella henselae"
+      },
+      {
+        "id": "D",
+        "text": "Echinococcus granulosus"
+      },
+      {
+        "id": "E",
+        "text": "Mycobacterium tuberculosis"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tiene una enfermedad por arañazo de gato clásica, con la ﬁebre, adenopaVa y compromiso hepatoesplénico. Eso sí, la presentación más frecuente es con ﬁebre más una o más adenopaVas en relación a una lesión cutánea. La igM anti-Bartonella puede ser úGl para conﬁrmar el diagnóstico. El tratamiento de elección son los macrólidos (azitromicina)."
+  },
+  {
+    "number": 68,
+    "id": "Q-PEDIATRIA-68",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.15",
+    "topicTitle": "Atención Inmediata del Recién Nacido & Reanimación Neonatal: Algoritmo AAP/AHA, Minuto de Oro y Test de APGAR",
+    "perfilCode": "2.01.1.026",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "No GES. Garantía de atención integral del parto y del recién nacido en maternidades públicas y privadas."
+    },
+    "stem": "Un paciente de 3 años, sin antecedentes, con cuadro de rinofaringitis viral de dos días de evolución en tratamiento sintomático, es traído por presentar desde hace unas horas mayor compromiso del estado general, asociado a otalgia intensa izquierda y sensación febril. Al examen físico destaca examen cardiopulmonar normal y a la otoscopía se aprecia tímpano izquierdo eritematoso y abombado con escasa secreción purulenta. El fármaco de elección en este caso es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ibuprofeno oral"
+      },
+      {
+        "id": "B",
+        "text": "Amoxicilina oral"
+      },
+      {
+        "id": "C",
+        "text": "Amoxicilina con ácido clavulánico oral"
+      },
+      {
+        "id": "D",
+        "text": "Gentamicina tópica"
+      },
+      {
+        "id": "E",
+        "text": "Claritromicina oral"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene una OMA: amoxi sola. En la OMAR también es amoxi sola. Solo si no responde en 72 horas, se agrega ácido clavulánico."
+  },
+  {
+    "number": 69,
+    "id": "Q-PEDIATRIA-69",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.16",
+    "topicTitle": "Evaluación de la Edad Gestacional (Capurro/Ballard) & Clasificación Ponderal Neonatal",
+    "perfilCode": "2.01.1.128",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 1): Retinopatía del prematuro · (GES N° 2): Displasia broncopulmonar del prematuro."
+    },
+    "stem": "Recién nacido pequeño para la edad gestacional (2.500 g). ¿Qué conducta tomar en relación a la alimentación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iniciar fórmula láctea hipercalórica"
+      },
+      {
+        "id": "B",
+        "text": "Instalar sonda nasogástrica para alimentación"
+      },
+      {
+        "id": "C",
+        "text": "Ayuno 6 horas y luego fórmula de prematuro"
+      },
+      {
+        "id": "D",
+        "text": "Pecho materno precoz y control de glicemia a las 2 horas"
+      },
+      {
+        "id": "E",
+        "text": "Suero glucosado al 10% endovenoso"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Pecho materno precoz y control de glicemia a las 2 horas"
+  },
+  {
+    "number": 70,
+    "id": "Q-PEDIATRIA-70",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.17",
+    "topicTitle": "Ictericia Neonatal: Fisiológica vs Patológica (< 24 h), Incompatibilidad ABO/Rh, Curvas Bhutani y Fototerapia",
+    "perfilCode": "2.01.1.121",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Cubierto por guía clínica MINSAL de Ictericia e Hiperbilirrubinemia Neonatal."
+    },
+    "stem": "Un recién nacido de 18 horas de vida, desarrolla ictericia hasta los muslos. Se solicitan niveles plasmáticos de bilirrubina que resulta 15,3 mg/dl, con fracción indirecta de 15 mg/dl. La madre era O-IV Rh positiva y el niño es B-I Rh negativo. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ictericia hemolítica por incompatibilidad de grupo clásico"
+      },
+      {
+        "id": "B",
+        "text": "Ictericia hemolítica por incompatibilidad Rh"
+      },
+      {
+        "id": "C",
+        "text": "Ictericia fisiológica"
+      },
+      {
+        "id": "D",
+        "text": "Hepatitis neonatal"
+      },
+      {
+        "id": "E",
+        "text": "Ictericia por lactancia materna"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es una ictericia precoz (menor a 24 horas), indirecta, por lo que lo más probable es que sea hemolítica. Además, por los grupos sanguíneos, solo puede ser por incompatibilidad de grupo clásico (madre O e hijo A o B)."
+  },
+  {
+    "number": 71,
+    "id": "Q-PEDIATRIA-71",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.1.013",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES. Urgencia pediátrica con riesgo de Infección Bacteriana Grave (IBG: bacteriemia oculta, meningitis, ITU, neumonía)."
+    },
+    "stem": "Niño con fiebre de 10 días, cefalea, mialgias, diarrea y luego heces duras, hígado y bazo palpables. ¿Cuál es el examen más adecuado para iniciar estudio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coproparasitológico seriado"
+      },
+      {
+        "id": "B",
+        "text": "Coprocultivo"
+      },
+      {
+        "id": "C",
+        "text": "Serología para Epstein-Barr"
+      },
+      {
+        "id": "D",
+        "text": "Hemocultivo"
+      },
+      {
+        "id": "E",
+        "text": "Prueba de Widal"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Hemocultivo"
+  },
+  {
+    "number": 72,
+    "id": "Q-PEDIATRIA-72",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 4,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.9",
+    "topicTitle": "Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
+    "perfilCode": "2.01.1.093",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Urgencia pediátrica con riesgo de Infección Bacteriana Grave (IBG: bacteriemia oculta, meningitis, ITU, neumonía)."
+    },
+    "stem": "Un niño de 6 años consulta por dolor en el codo derecho, de dos días de evolución, asociado a impotencia funcional y fiebre de hasta 39ºC. Al examen físico, se observa codo eritematoso y aumentado de volumen, con dolor intenso a la movilización activa y pasiva. ¿Cuál es el agente etiológico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Staphilococcus aureus"
+      },
+      {
+        "id": "B",
+        "text": "Haemophilus influenzae"
+      },
+      {
+        "id": "C",
+        "text": "Streptococcus agalactiae"
+      },
+      {
+        "id": "D",
+        "text": "Neisseria meningitidis"
+      },
+      {
+        "id": "E",
+        "text": "Streptococcus pyogenes"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Tiene una artritis séptica de codo (monoartritis aguda en niño). La etiología más frecuente es el estafilococo áureo en todas las edades, ya que el gonococo ha disminuido mucho (eso sí, aún debe tenerse como opción en pacientes con conductas sexuales de riesgo o con clínica de gonorrea)."
+  },
+  {
+    "number": 73,
+    "id": "Q-PEDIATRIA-73",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Desnutrición",
+    "perfilCode": "2.01.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 5 años presenta bajo incremento ponderal, con talla y peso menores a -1 desviación estándar para su edad. Se observa una radiografía de mano, que se muestra a continuación. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Raquitismo"
+      },
+      {
+        "id": "B",
+        "text": "Displasia ósea"
+      },
+      {
+        "id": "C",
+        "text": "Osteogénesis imperfecta"
+      },
+      {
+        "id": "D",
+        "text": "Osteomalacia"
+      },
+      {
+        "id": "E",
+        "text": "Osteoporosis"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Raquitismo: La radiografía muestra un retraso severo en la calcificación de los huesos del carpo y otros huesos de la mano, lo que es compatible con raquitismo causado por deficiencia de vitamina D."
+  },
+  {
+    "number": 74,
+    "id": "Q-PEDIATRIA-74",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Coqueluche",
+    "perfilCode": "2.01.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un recién nacido de 2 semanas es hospitalizado por presentar apneas. La madre re- fiere tos de 3 semanas de evolución, en crisis, que en ocasiones la hacen vomitar. ¿Cuál es el tratamiento farmacológico más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amoxicicilina"
+      },
+      {
+        "id": "B",
+        "text": "Azitromicina"
+      },
+      {
+        "id": "C",
+        "text": "Ceftriaxona"
+      },
+      {
+        "id": "D",
+        "text": "Oseltamivir"
+      },
+      {
+        "id": "E",
+        "text": "Aciclovir"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La sospecha es un coqueluche, que se trata con macrólidos."
+  },
+  {
+    "number": 75,
+    "id": "Q-PEDIATRIA-75",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Mononucleosis infecciosa",
+    "perfilCode": "2.01.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 3 años, con un cuadro de fiebre alta, asociada a malestar general y odinofagia intensa. Se inició tratamiento con amoxicilina, pero a las 48 horas presenta un exantema, que se muestra más abajo. Al examen físico, se aprecia decaído, con adenopatías cervicales anteriores dolorosas y amígdalas edematosas y eritematosas, con exudado blanco en su superficie. El exantema se muestra a continuación: El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escarlatina"
+      },
+      {
+        "id": "B",
+        "text": "Mononucleosis infecciosa"
+      },
+      {
+        "id": "C",
+        "text": "Alergia a la penicilina"
+      },
+      {
+        "id": "D",
+        "text": "Enfermedad de Kawasaki"
+      },
+      {
+        "id": "E",
+        "text": "Sarampión"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Es una mononucleosis clásica, dado que tiene el síndrome mononucleósico (odinofagia, fiebre y adenopatías), más el clásico rash morbiliforme (similar al sarampión), que aparece luego de iniciar aminopenicilinas (ampicilina o amoxicilina). También es clásico el exudado amigdalino blanco y adherente sobre la superficie amigdalina. La escarlatina tendría clínica de amigdalitis bacteriana (ya explicada en otra pregunta) y un exantema en piel de gallina, con especial afectación de pliegues cubitales y que respeta el triángulo de Filatov. La enfermedad de Kawasaki no suele tener odinofagia ni exudado amigdalino, sino fiebre, adenopatías, ojo rojo, boca roja, rash de cualquier tipo (salvo vesicular o pustular) y compromiso de pies y manos."
+  },
+  {
+    "number": 76,
+    "id": "Q-PEDIATRIA-76",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Anemia ferropriva",
+    "perfilCode": "2.01.1.031",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un niño de 9 meses tiene palidez de piel y mucosas, por lo que se solicita un hemograma, que muestra hemoglobina: 9 g/dl, hematocrito: 36%, VCM: 68 fl, glóbulos blancos: 6.500 por mm3, plaquetas: 450.000 por mm3. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anemia ferropriva"
+      },
+      {
+        "id": "B",
+        "text": "Anemia por enfermedades crónicos"
+      },
+      {
+        "id": "C",
+        "text": "Trombocitosis esencial"
+      },
+      {
+        "id": "D",
+        "text": "Hemoglobinopatía"
+      },
+      {
+        "id": "E",
+        "text": "Microesferocitosis familiar"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es una anemia ferropénica clásica, tanto por la edad, como por la microcitosis."
+  },
+  {
+    "number": 77,
+    "id": "Q-PEDIATRIA-77",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Fibrosis quística",
+    "perfilCode": "2.01.1.042",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Niño de 8 meses que sufre desde hace 6 meses diarrea pastosa, abundante. Tiene también antecedente de episodios bronquiales obstructivos y 4 cuadros de infecciones respiratorias, que han requerido de hospitalización. Cuál es el diagnóstico de sospecha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enfermedad celiaca"
+      },
+      {
+        "id": "B",
+        "text": "Enteropatía perdedora de proteínas"
+      },
+      {
+        "id": "C",
+        "text": "Enfermedad de cilio inmóvil"
+      },
+      {
+        "id": "D",
+        "text": "Fibrosis quística"
+      },
+      {
+        "id": "E",
+        "text": "Alergia a la proteína de la leche de vaca"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Tanto por las infecciones respiratorias, como por la malabsorción es una fibrosis quística. Las demás opciones producen solo síntomas digestivos (A, B y E) o solo neumonías (C)."
+  },
+  {
+    "number": 78,
+    "id": "Q-PEDIATRIA-78",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Criptorquidia",
+    "perfilCode": "2.01.1.088",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Recién nacido de término sin testículos palpables, pene de 2 cm. Además de solicitar ecografía, ¿cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Derivar a urología de inmediato"
+      },
+      {
+        "id": "B",
+        "text": "Control en un mes"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar testosterona tópica"
+      },
+      {
+        "id": "D",
+        "text": "Derivar a genética para cariotipo urgente"
+      },
+      {
+        "id": "E",
+        "text": "Cirugía correctiva a los 3 meses"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Control en un mes"
+  },
+  {
+    "number": 79,
+    "id": "Q-PEDIATRIA-79",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Estrabismo",
+    "perfilCode": "2.01.1.096",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un lactante de 1 mes de vida, acude a control. Al examen físico, presenta estrabismo intermitente y asimétrico de ambos ojos. El resto de la inspección ocular es normal. Su crecimiento pondoestatural es normal, al igual que su desarrollo psicomotor y el resto de su examen físico. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Derivar a oftalmólogo"
+      },
+      {
+        "id": "B",
+        "text": "Mantener los controles habituales del lactante"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar RMN de cerebro"
+      },
+      {
+        "id": "D",
+        "text": "Realizar fondo de ojo"
+      },
+      {
+        "id": "E",
+        "text": "Indicar parche ocular alternante"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Diciembre 2022 · Pregunta 115). Evalúa el manejo clínico de Estrabismo según directrices MINSAL vigentes."
+  },
+  {
+    "number": 80,
+    "id": "Q-PEDIATRIA-80",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Alteraciones pigmentarias",
+    "perfilCode": "2.01.1.105",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un lactante de 12 meses de edad es traído por su madre, ya que presenta coloración amarillenta-anaranjada en las palmas de las manos, las plantas y en las mejillas. No tie- ne otros antecedentes, pesa 9,5 Kg y mide 73,5 cm y su examen físico no muestra otras alteraciones. ¿Cuál es la causa de esta alteración?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hipercolesterolemia"
+      },
+      {
+        "id": "B",
+        "text": "Hipertrigliceridemia"
+      },
+      {
+        "id": "C",
+        "text": "Hiperbilirrubinemia de predominio directo"
+      },
+      {
+        "id": "D",
+        "text": "Hiperbilirrubinemia de predominio indirecto"
+      },
+      {
+        "id": "E",
+        "text": "Un componente de la dieta"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Por ingesta de betacaroteno"
+  },
+  {
+    "number": 81,
+    "id": "Q-PEDIATRIA-81",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Dermatitis atópica",
+    "perfilCode": "2.01.1.107",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Una niña de 4 años presenta lesiones cutáneas recurrentes de 2 años de evolución, caracterizadas por pápulas pruriginosas que aparecen en los antebrazos y fosas cubitales, así como en las piernas, fosas poplíteas, cara y cuello. Su madre comenta que pasa por periodos de exacerbación de las lesiones y otros en que son mucho menos intensas. ¿Cuál es el diagnós8co más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Derma22s alérgica"
+      },
+      {
+        "id": "B",
+        "text": "Ur2caria"
+      },
+      {
+        "id": "C",
+        "text": "Derma22s atópica"
+      },
+      {
+        "id": "D",
+        "text": "Escabiosis"
+      },
+      {
+        "id": "E",
+        "text": "Derma22s seborreica"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Es una dermaGGs atópica clásica: lesiones crónico recidivantes, en zonas ﬂexoras, más mejillas."
+  },
+  {
+    "number": 82,
+    "id": "Q-PEDIATRIA-82",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Ectoparasitosis",
+    "perfilCode": "2.01.1.109",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Una prescolar de 4 años presenta prurito en la cabeza. Al examen físico se ven abundantes liendres, a menos de 3 cm del cuero cabelludo, sin visualizar piojos. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ivermectina oral"
+      },
+      {
+        "id": "B",
+        "text": "Permetrina tópica al 1%"
+      },
+      {
+        "id": "C",
+        "text": "Permetrina tópica al 5%"
+      },
+      {
+        "id": "D",
+        "text": "Lindano tópico"
+      },
+      {
+        "id": "E",
+        "text": "No tratar, mientras no se visualicen piojos"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tanto los piojos, como las liendres, son diagnósticas de pediulosis (a menos que las liendres estén muy alejadas del cuero cabelludo, ya que serían antiguas). La pediculosis se trata con permetrina al 1%."
+  },
+  {
+    "number": 83,
+    "id": "Q-PEDIATRIA-83",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Sinequias vulvares",
+    "perfilCode": "2.01.1.131",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Una niña de 4 años presenta sinequia vulvar parcial, de los labios menores. No tie- ne desarrollo puberal, ni antecedentes de infecciones urinarias, ni genitales. El resto de su examen físico es normal. La conducta más adecuada es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar lavados con ácido acéticos"
+      },
+      {
+        "id": "B",
+        "text": "Aplicar corticoides tópicos"
+      },
+      {
+        "id": "C",
+        "text": "Remover las sinequias de manera quirúrgica"
+      },
+      {
+        "id": "D",
+        "text": "Indicar antibióticos"
+      },
+      {
+        "id": "E",
+        "text": "Realizar aseo y masajes en la zona"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es una pregunta difícil, ya que en distintas partes se manejan de manera diferen- te. Sin embargo, la mayor evidencia dice que el aseo es lo más importante para que se resuleva. Los masajes pueden ayudar a que se desprenda antes."
+  },
+  {
+    "number": 84,
+    "id": "Q-PEDIATRIA-84",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Meningitis bacteriana",
+    "perfilCode": "2.01.2.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Lactante de 3 meses con fiebre 39°C, rigidez de nuca, fontanela abombada y letargia. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hospitalizar, punción lumbar y ATB empírico EV inmediato (ampicilina + cefotaxima)"
+      },
+      {
+        "id": "B",
+        "text": "ATB oral y control en 24h"
+      },
+      {
+        "id": "C",
+        "text": "Solo antipiréticos y observar"
+      },
+      {
+        "id": "D",
+        "text": "Solicitar TAC antes de la punción lumbar"
+      },
+      {
+        "id": "E",
+        "text": "Alta con instrucciones"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Meningitis bacteriana en lactante <3 meses: hospitalización urgente + punción lumbar + ATB empírico inmediato (ampicilina para cubrir Listeria + cefotaxima para S. agalactiae, E. coli, S. pneumoniae)."
+  },
+  {
+    "number": 85,
+    "id": "Q-PEDIATRIA-85",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Quemaduras",
+    "perfilCode": "2.01.2.022",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Usted atiende a un niño de 3 años en el servicio de urgencia, que es traído por su madre, por haber sufrido quemaduras en los dedos y en la espalda, después de haberse apoyado accidentalmente en una estufa. Al examen físico, está agitado y llorando y se observa eritema y flictenas en las zonas afectadas. ¿Cuál es la conducta inicial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curaciones"
+      },
+      {
+        "id": "B",
+        "text": "Paracetamol vía oral"
+      },
+      {
+        "id": "C",
+        "text": "Ungüento antibiótico tópico"
+      },
+      {
+        "id": "D",
+        "text": "Analgesia endovenosa"
+      },
+      {
+        "id": "E",
+        "text": "Antibióticos endovenosos"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Diciembre 2022 · Pregunta 21). Evalúa el manejo clínico de Quemaduras según directrices MINSAL vigentes."
+  },
+  {
+    "number": 86,
+    "id": "Q-PEDIATRIA-86",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "",
+    "topicTitle": "Estatus convulsivo en el niño",
+    "perfilCode": "2.01.2.027",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Estatus convulsivo en el niño · 2.01.2.027] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Estatus convulsivo en el niño. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Estatus convulsivo en el niño\" como urgencia clínica (2.01.2.027), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 87,
+    "id": "Q-PEDIATRIA-87",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.20",
+    "topicTitle": "Hipoglicemia Neonatal, Hipocalcemia & Trastornos Metabólicos del Neonato",
+    "perfilCode": "2.01.1.036",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "No GES. Cubierto por guías clínicas de Cuidados Intensivos Neonatales."
+    },
+    "stem": "Un niño de 2 años presenta tendencia a las hemorragias, ya que sangra con facilidad y presenta múltiples equimosis. En el examen físico, se observan extremidades inferiores con equimosis en distinto grado de resolución, algunas de gran tamaño. Se solicitan exámenes, entre los que destacan hemograma con recuento de plaquetas normal, TP normal y TTPA alargado. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Púrpura trombocitopénica inmune"
+      },
+      {
+        "id": "B",
+        "text": "Hemofilia"
+      },
+      {
+        "id": "C",
+        "text": "Enfermedad de von Willebrand"
+      },
+      {
+        "id": "D",
+        "text": "Enfermedad de Glanzmann"
+      },
+      {
+        "id": "E",
+        "text": "Púrpura trombocitopénica trombótica"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El alargamiento del TTPA sugiere fuertemente hemofilia. Que tenga una clínica tan florida, en un niño (sexo masculino) pequeño, la sugiere también. Suele evolucionar a hemartrosis y hematomas musculares y de otras partes del cuerpo. PTI y PTT tienen plaquetopenia. EvW y Glanzmann tienen alteración de la hemostasia primaria, con petequias y clínicas generalmente más leves que la hemofilia, aunque sí pueden tener una clínica similar, en las formas más graves. Eso sí, el TTPA suele estar normal, salvo en algunas variantes de la EvW en que sí se puede alargar."
+  },
+  {
+    "number": 88,
+    "id": "Q-PEDIATRIA-88",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.20",
+    "topicTitle": "Hipoglicemia Neonatal, Hipocalcemia & Trastornos Metabólicos del Neonato",
+    "perfilCode": "2.01.2.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES. Cubierto por guías clínicas de Cuidados Intensivos Neonatales."
+    },
+    "stem": "Un recién nacido de 38 semanas, con peso de 4.250 g, hijo de madre con diabetes gestacional, presenta temblores finos en extremidades superiores y succión débil a las 2 horas de vida. Se realiza control de glicemia venosa que informa 32 mg/dL. ¿Cuál es la conducta médica inmediata más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ofrecer mamadera de 20 mL de agua con azúcar por vía oral y reevaluar en 2 horas"
+      },
+      {
+        "id": "B",
+        "text": "Administrar un bolo endovenoso de Suero Glucosado al 10% a 2 mL/kg en 5 minutos, seguido de infusión continua de glucosa a 6-8 mg/kg/min"
+      },
+      {
+        "id": "C",
+        "text": "Administrar un bolo endovenoso rápido de Suero Glucosado al 50% a 5 mL/kg"
+      },
+      {
+        "id": "D",
+        "text": "Administrar Hidrocortisona endovenosa a 10 mg/kg como primera línea"
+      },
+      {
+        "id": "E",
+        "text": "Mantener en observación sin tratamiento, dado que a las 2 horas la glicemia de 32 mg/dL es normal"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "A) Incorrecta. En un paciente sintomático, la vía oral no asegura corrección rápida ni previene el daño cerebral.\nB) Correcta. La hipoglicemia neonatal sintomática (temblores, glicemia < 45 mg/dL) es una urgencia neurológica. El tratamiento protocolizado consiste en administrar un bolo endovenoso de Suero Glucosado al 10% (SG10%) a dosis de 2 mL/kg (200 mg/kg de glucosa) infundido lentamente en 5 minutos, seguido inmediatamente de una infusión continua de glucosa para mantener una carga (VIG) de 6 a 8 mg/kg/minuto, reevaluando la glicemia plasmática en 30 minutos.\nC) Incorrecta. El SG al 50% o al 20% en bolo está formalmente contraindicado por riesgo de lesión endotelial, hiperosmolaridad cerebral y secreción masiva de insulina que produce hipoglicemia de rebote grave.\nD) Incorrecta. Los corticoides se reservan para hiperinsulinismo refractario extremo.\nE) Incorrecta. 32 mg/dL con temblores es francamente patológico."
+  },
+  {
+    "number": 89,
+    "id": "Q-PEDIATRIA-89",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.21",
+    "topicTitle": "Tamizaje Neonatal Universal en Chile: Fenilcetonuria (PKU), Hipotiroidismo Congénito (HC) y Tamizaje Auditivo",
+    "perfilCode": "2.01.1.075",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 34): Hipotiroidismo congénito · (GES N° 45): Fenilcetonuria (PKU)."
+    },
+    "stem": "Un lactante de 3 meses, diagnosticado de hipotiroidismo congénito, en tratamiento con levotiroxina 25 mg/día. Se solicita TSH que resulta 0,09 UI/L (VN: 0,7 a 5,7) y T4 libre: 2,18 ng/dl (VN: 0,9 a 2,1). La conducta más adecuada es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender la levotiroxina"
+      },
+      {
+        "id": "B",
+        "text": "Subir la dosis de levotiroxina"
+      },
+      {
+        "id": "C",
+        "text": "Repetir la TSH en 6 semanas"
+      },
+      {
+        "id": "D",
+        "text": "Disminuir la dosis de levotiroxina"
+      },
+      {
+        "id": "E",
+        "text": "Solicitar cintigrafía tiroidea"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Tiene la TSH menor a lo normal, por lo que está “sobretratado” y se debe disminuir la dosis de levoT4. La habitual es 1,6 ug/Kg, así que probablemente estaba muy alta la dosis de 25 mg para un lactante de 3 meses (6 Kg aprox)."
+  },
+  {
+    "number": 90,
+    "id": "Q-PEDIATRIA-90",
+    "specialtyKey": "pediatria",
+    "specialtyName": "Pediatría y Neonatología",
+    "blockNum": 5,
+    "blockName": "Neonatología & Sala de Partos",
+    "topicLabel": "18.5",
+    "topicTitle": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
+    "perfilCode": "2.01.1.069",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 19): Infección Respiratoria Aguda (IRA) baja de manejo ambulatorio en menores de 5 años."
+    },
+    "stem": "Un niño de 4 años, presenta un cuadro de 10 días de evolución de edema bipalpebral, a lo que se ha agregado, en los últimos dos días, oliguria y orinas espumosas. Al examen físico presenta presión arterial 102/62 mmHg, FC: 80x', edema facial y de extremidades inferiores. En sus exámenes destaca examen de orina con proteínas ++, creatininemia 0,9 mg/dl y BUN: 20 mg/dl. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síndrome nefrótico"
+      },
+      {
+        "id": "B",
+        "text": "Glomerulonefritis aguda"
+      },
+      {
+        "id": "C",
+        "text": "Insuficiencia renal crónica"
+      },
+      {
+        "id": "D",
+        "text": "Síndrome hemolítico urémico"
+      },
+      {
+        "id": "E",
+        "text": "Nefritis intersticial"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es un síndrome nefrótico clásico (orina espumosa, edema y proteinuria), aunque le faltan los exámenes confirmatorios (proteinuria cuantitativa o índice proteinuria / creatininuria, albumnemia y perfil lipídico). No hay hematuria dismórfica, así que no puede ser una glomerulonefritis. No tiene insuficiencia renal, así que no puede ser ninguna de las otras opciones."
+  }
+]

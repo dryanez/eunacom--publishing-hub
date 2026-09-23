@@ -1,0 +1,3780 @@
+[
+  {
+    "number": 1,
+    "id": "Q-TRAUMATOLOGIA-01",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "",
+    "topicTitle": "Escoliosis y deformidades vertebrales",
+    "perfilCode": "4.02.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una paciente de 63 años presenta dolor dorsal intenso, que inició hace 5 días, en relación a un esfuerzo en flexión y que ha aumentado, limitando significativamente sus actividades de la vida diaria. Tiene antecedente de una fractura de muñeca hace un año, que requirió tratamiento quirúrgico. Al examen físico se aprecia adolorida, con signos vitales normales, dolor a la movilización activa y pasiva de su columna dorsal, que limita los movimientos de flexo-extensión. A la inspección la curvatura dorsal se observa redonda, sin cifosis. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hernia del núcleo pulposo"
+      },
+      {
+        "id": "B",
+        "text": "Tuberculosis vertebral"
+      },
+      {
+        "id": "C",
+        "text": "Espondilolistesis dorsal"
+      },
+      {
+        "id": "D",
+        "text": "Espondilosis dorsal"
+      },
+      {
+        "id": "E",
+        "text": "Fractura vertebral"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Tiene una clásica fractura vertebral por aplastamiento del cuerpo vertebral, causada por osteoporosis, que también fue la causa de su fractura de muñeca."
+  },
+  {
+    "number": 2,
+    "id": "Q-TRAUMATOLOGIA-02",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "",
+    "topicTitle": "Heridas de la mano no complicadas",
+    "perfilCode": "4.02.2.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Heridas de la mano no complicadas · 4.02.2.009] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Heridas de la mano no complicadas. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Heridas de la mano no complicadas\" como urgencia clínica (4.02.2.009), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Completo. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 3,
+    "id": "Q-TRAUMATOLOGIA-03",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.01.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial y Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas."
+    },
+    "stem": "Un hombre de treinta años llega a urgencias tras un accidente de tránsito con dolor e impotencia funcional en el antebrazo derecho, con deformidad visible y crepitación al examen. ¿Cuál es el diagnóstico y el estudio inicial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contusión de antebrazo; ecografía de partes blandas"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de antebrazo; radiografías anteroposterior y lateral"
+      },
+      {
+        "id": "C",
+        "text": "Luxación de codo; TAC de antebrazo"
+      },
+      {
+        "id": "D",
+        "text": "Fractura de antebrazo; solo radiografía anteroposterior"
+      },
+      {
+        "id": "E",
+        "text": "Contusión grave; solo analgesia y observación"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La crepitación ósea con deformidad y desviacón de ejes orienta claramente a fractura, no a una contusión. El estudio inicial es radiografía en dos proyecciones. Opción B: Dolor, deformidad, impotencia funcional y crepitación son la clínica clásica de fractura. El diagnóstico se confirma con radiografías en más de una proyección: anteroposterior más lateral. Opción C: La crepitación ósea es característica de fractura. El TAC no es el examen inicial; la radiografía en dos proyecciones es el estudio de primera línea. Opción D: Las fracturas de huesos largos requieren siempre más de una proyección. No es suficiente solo la anteroposterior; se necesita también la proyección lateral. Opción E: La crepitación y la deformidad indican fractura, no solo contusión. Toda sospecha de fractura requiere radiografías para confirmar el diagnóstico."
+  },
+  {
+    "number": 4,
+    "id": "Q-TRAUMATOLOGIA-04",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.01.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial y Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas."
+    },
+    "stem": "Un paciente tiene una fractura de pierna con el hueso muy desplazado, irreductible por maniobra ortopédica, y con múltiples fragmentos conminutos. ¿Cuál es la conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inmovilización con yeso e indicar control en dos semanas"
+      },
+      {
+        "id": "B",
+        "text": "Cirugía con reducción y osteosíntesis"
+      },
+      {
+        "id": "C",
+        "text": "Tracción continua por cuatro semanas y luego yeso"
+      },
+      {
+        "id": "D",
+        "text": "Observación porque las fracturas de pierna siempre consolidan solas"
+      },
+      {
+        "id": "E",
+        "text": "Inmovilización con órtesis funcional por seis semanas"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: Una fractura conminuta e irreductible no puede manejarse con yeso solamente. Tiene indicación quirúrgica por el riesgo de no-unión y mala unión. Opción B: Una fractura muy desplazada e irreductible más conminución son indicaciones claras de cirugía. El tratamiento es reducción más osteosíntesis con placa, tornillos o agujas de Kirschner. Opción C: La fractura conminuta irreductible tiene indicación de cirugía. La tracción prolongada no es el manejo adecuado cuando hay indicación quirúrgica clara. Opción D: Las fracturas conminutas no consolidan solas. Tienen alto riesgo de pseudoartrosis y consolidación viciosa, por lo que requieren cirugía. Opción E: Una fractura conminuta irreductible no puede manejarse solo con órtesis funcional. La indicación quirúrgica es clara en este caso."
+  },
+  {
+    "number": 5,
+    "id": "Q-TRAUMATOLOGIA-05",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.02.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas."
+    },
+    "stem": "Un paciente de 27 años sufre una fractura cerrada de antebrazo, que es manejada con un valva de yeso braquiopalmar. A las 5 horas presenta aumento del dolor y edema de la extremidad. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trombosis venosa profunda"
+      },
+      {
+        "id": "B",
+        "text": "Síndrome compartimental"
+      },
+      {
+        "id": "C",
+        "text": "Distrofia simpático refleja"
+      },
+      {
+        "id": "D",
+        "text": "Alergia al yeso"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de túne carpiano agudo"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Por el corto tiempo de evolución y el dolor es síndrome compartimental. Además es clásico de las Fx de antebrazo. Falta información"
+  },
+  {
+    "number": 6,
+    "id": "Q-TRAUMATOLOGIA-06",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.02.2.002",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas."
+    },
+    "stem": "Niño de 12 años, obeso, refiere dolor de 3 meses en cadera izquierda y claudicación progresiva, que actualmente impide la marcha. Al examen físico presenta dolor a la rotación interna y externa de la cadera izquierda. Se realiza radiografía AP pelvis y caderas, que se muestra a continuación: El diagnóstico es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Displasia del desarrollo de la cadera"
+      },
+      {
+        "id": "B",
+        "text": "Epifisiolisis"
+      },
+      {
+        "id": "C",
+        "text": "Fractura del cuello del fémur"
+      },
+      {
+        "id": "D",
+        "text": "Luxacion de la Cadera izquierda"
+      },
+      {
+        "id": "E",
+        "text": "Necrosis avascular de la cabeza del fémur"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Es una clásica epifisiolisis de la cabeza femoral (adolescente con claudicación de la marcha y dolor en la cadera. Se asocia a sobrepeso y obesidad). Además, se ve el signo del “helado caído”."
+  },
+  {
+    "number": 7,
+    "id": "Q-TRAUMATOLOGIA-07",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.02.2.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas."
+    },
+    "stem": "Un paciente de 70 años, sufre una caída a nivel, con apoyo de la extremidad superior en extensión, contra el suelo. Evoluciona con dolor en la muñeca, que le impide realizar movimientos. Consulta al día siguiente, con la muñeca deformada en “dorso de tenedor” y presencia de equimosis en la zona palmar y en la zona dorsal. Presenta dolor a la compresión de la zona distal del radio. EL diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esguince de muñeca"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de la epífisis distal del radio"
+      },
+      {
+        "id": "C",
+        "text": "Disyunción del extremo distal del radio"
+      },
+      {
+        "id": "D",
+        "text": "Luxofractura de Monteggia"
+      },
+      {
+        "id": "E",
+        "text": "Fractura de escafoides carpiano"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Es una fractura de muñeca clásica."
+  },
+  {
+    "number": 8,
+    "id": "Q-TRAUMATOLOGIA-08",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.02.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas."
+    },
+    "stem": "Un paciente sufre una caída a nivel, con golpe en el hombro derecho, evolucionando con dolor e impotencia funcional. Se realizan radiografías de hombro, una de las que se muestra a continuación: FOTO (Radiografía AP de hombro, con fractura del tercio medio de la clavícula derecha, con ligero desplazamiento, sin conminución) ¿Qué tipo de inmovilización es la más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vendaje axial de hombro"
+      },
+      {
+        "id": "B",
+        "text": "Vendaje en ocho"
+      },
+      {
+        "id": "C",
+        "text": "Yeso Velpeau"
+      },
+      {
+        "id": "D",
+        "text": "Yeso toracobraquial"
+      },
+      {
+        "id": "E",
+        "text": "Cabestrillo"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": ", ¿B?. El cabestrillo y el vendaje en 8 son los más usados en las fracturas del tercio medio de clavícula. Sin embargo, también se pueden usar otros tipos de inmovilización, según la valoración por el especialista. El vendaje en 8 se asocia a mayores molestias, por compresión cutánea y del complejo neurovascular axilar, así que el cabestrillo suele ser lo más recomendado. De todos, modos, es una pregunta de especialista."
+  },
+  {
+    "number": 9,
+    "id": "Q-TRAUMATOLOGIA-09",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.1",
+    "topicTitle": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+    "perfilCode": "4.02.2.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Fracturas expuestas · 4.02.2.008] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Fracturas expuestas. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Fracturas expuestas\" como urgencia clínica (4.02.2.008), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 10,
+    "id": "Q-TRAUMATOLOGIA-10",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.2",
+    "topicTitle": "Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+    "perfilCode": "1.12.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado / Urgencia Traumatológica de Alta Complejidad."
+    },
+    "stem": "Un paciente tiene fractura de pierna expuesta grado 1 de Gustilo: herida menor de un centímetro, baja energía, contaminación mínima. ¿Cuál es el antibiótico endovenoso inicial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cefazolina"
+      },
+      {
+        "id": "B",
+        "text": "Amikacina más cefazolina"
+      },
+      {
+        "id": "C",
+        "text": "Cefazolina más amikacina más clindamicina"
+      },
+      {
+        "id": "D",
+        "text": "Metronidazol intravenoso"
+      },
+      {
+        "id": "E",
+        "text": "Amoxicilina clavulánico oral"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. Opción A: La fractura expuesta grado 1 requiere cobertura para gram positivos especialmente estafilococo aureus. La cefazolina es la cefalosporina de primera línea para esto. Opción B: La combinación con amikacina es para el grado 2 cuando se necesita agregar cobertura para gram negativos. El grado 1 solo requiere cefazolina. Opción C: Esta triple combinación es para el grado 3. El grado 1 solo requiere cefazolina para gram positivos. Opción D: El metronidazol cubre anaerobios y se usa en grado 3. El grado 1 requiere cefazolina para gram positivos. Opción E: El tratamiento endovenoso es el indicado en la fractura expuesta. La vía oral no es adecuada en este contexto."
+  },
+  {
+    "number": 11,
+    "id": "Q-TRAUMATOLOGIA-11",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.2",
+    "topicTitle": "Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+    "perfilCode": "1.12.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado / Urgencia Traumatológica de Alta Complejidad."
+    },
+    "stem": "Un paciente tiene fractura de pierna expuesta con herida de quince centímetros muy contaminada con restos vegetales. ¿Cuál es la clasificación de Gustilo y el esquema antibiótico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grado 2; cefazolina más amikacina"
+      },
+      {
+        "id": "B",
+        "text": "Grado 3; cefazolina más amikacina más clindamicina"
+      },
+      {
+        "id": "C",
+        "text": "Grado 1; solo cefazolina"
+      },
+      {
+        "id": "D",
+        "text": "Grado 3; solo metronidazol"
+      },
+      {
+        "id": "E",
+        "text": "Grado 2; solo cefazolina"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El grado 2 es herida entre uno y diez centímetros. Una herida de quince centímetros muy contaminada corresponde al grado 3. Opción B: Herida mayor de diez centímetros muy contaminada es grado 3. Requiere triple cobertura: cefazolina gram positivos, amikacina gram negativos y clindamicina anaerobios. Opción C: El grado 1 es herida menor de un centímetro con mínima contaminación. Esta fractura es claramente grado 3. Opción D: El metronidazol solo no es suficiente. El grado 3 requiere triple cobertura para gram positivos, gram negativos y anaerobios. Opción E: El grado 2 requiere cefazolina más amikacina. Además esta fractura corresponde al grado 3 por la herida grande y muy contaminada."
+  },
+  {
+    "number": 12,
+    "id": "Q-TRAUMATOLOGIA-12",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.2",
+    "topicTitle": "Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+    "perfilCode": "1.12.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado / Urgencia Traumatológica de Alta Complejidad."
+    },
+    "stem": "Un médico general maneja una fractura expuesta y va a trasladar al paciente al centro de referencia. ¿Cuál es la forma correcta de inmovilizar y preparar el traslado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suturar la herida completamente y colocar yeso circular"
+      },
+      {
+        "id": "B",
+        "text": "Cubrir con apósitos estériles e inmovilizar con valva de yeso larga y abierta"
+      },
+      {
+        "id": "C",
+        "text": "Dejar la herida al aire sin cubrir y trasladar sin inmovilización"
+      },
+      {
+        "id": "D",
+        "text": "Suturar la herida y colocar valva corta de yeso"
+      },
+      {
+        "id": "E",
+        "text": "Yeso circular inmediato para asegurar la fractura durante el traslado"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: No se debe suturar la herida porque necesita aseo quirúrgico en pabellón. El yeso circular puede generar síndrome compartimental. Opción B: La herida se cubre con apósitos estériles sin suturar. La valva de yeso debe ser larga para mejor inmovilización y abierta para prevenir síndrome compartimental. Opción C: La herida debe cubrirse con apósitos estériles para evitar mayor contaminación. La inmovilización es obligatoria para el traslado. Opción D: No se debe suturar la herida. La valva debe ser larga para mejor inmovilización, no corta. Opción E: El yeso circular puede causar síndrome compartimental. Se debe usar valva de yeso larga y abierta."
+  },
+  {
+    "number": 13,
+    "id": "Q-TRAUMATOLOGIA-13",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.2",
+    "topicTitle": "Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
+    "perfilCode": "1.12.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado / Urgencia Traumatológica de Alta Complejidad."
+    },
+    "stem": "En el contexto del manejo de Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente, la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 14,
+    "id": "Q-TRAUMATOLOGIA-14",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.3",
+    "topicTitle": "Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+    "perfilCode": "1.01.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Urgencia Traumatológica Vital · Indicación de Cirugía Descompresiva Inmediata."
+    },
+    "stem": "Un paciente con fractura de fémur tratada hace tres días presenta en forma súbita disnea intensa y desaturación. ¿Cuál es el diagnóstico más probable y el examen de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embolia grasa; dímero D"
+      },
+      {
+        "id": "B",
+        "text": "Tromboembolismo pulmonar; angiotac de tórax"
+      },
+      {
+        "id": "C",
+        "text": "Tromboembolismo pulmonar; dímero D"
+      },
+      {
+        "id": "D",
+        "text": "Síndrome compartimental; fasciotomía inmediata"
+      },
+      {
+        "id": "E",
+        "text": "Neumonía aspirativa; radiografía de tórax"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La embolia grasa aparece en las primeras horas con tríada de distrés, compromiso de conciencia y petequias, no días después con disnea súbita. El dímero D no es el examen de elección. Opción B: El TEP aparece días después de una fractura con disnea o dolor torácico súbito. El angiotac de tórax es el examen de elección. El dímero D no es útil porque la fractura ya lo eleva. Opción C: Aunque el diagnóstico de TEP es correcto, el dímero D no es útil en este contexto porque la fractura misma lo eleva, generando un falso positivo que no aporta al diagnóstico. Opción D: El síndrome compartimental aparece en horas con dolor intenso en la extremidad que aumenta con movilidad distal, no con disnea súbita días después. Opción E: Una neumonía no se presenta súbitamente días después de una fractura. El cuadro súbito de disnea post fractura orienta a TEP."
+  },
+  {
+    "number": 15,
+    "id": "Q-TRAUMATOLOGIA-15",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.3",
+    "topicTitle": "Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+    "perfilCode": "1.01.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Urgencia Traumatológica Vital · Indicación de Cirugía Descompresiva Inmediata."
+    },
+    "stem": "Un paciente operado de fractura de pierna en yeso circular presenta a las cuatro horas un dolor muy intenso en la extremidad que aumenta al mover los ortejos. ¿Cuál es el diagnóstico y la conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distrofia simpático refleja; pregabalina"
+      },
+      {
+        "id": "B",
+        "text": "TVP; anticoagulación y ecodoppler"
+      },
+      {
+        "id": "C",
+        "text": "Síndrome compartimental; fasciotomía amplia urgente"
+      },
+      {
+        "id": "D",
+        "text": "Síndrome compartimental; retirar yeso y observar"
+      },
+      {
+        "id": "E",
+        "text": "Dolor postoperatorio normal; analgesia oral"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: La distrofia simpático refleja aparece semanas a meses después, no en horas. El dolor es neuropático urente, no somático inmediato. La conducta también es diferente. Opción B: La TVP aparece días después y se presenta con dolor muscular al palpar, edema y signo de Homans, no con dolor que aumente al mover los dedos en horas post cirugía. Opción C: El síndrome compartimental aparece en horas con dolor somático intenso que aumenta con la movilidad distal. La fasciotomía amplia es el tratamiento de urgencia para evitar necrosis de la extremidad. Opción D: Retirar el yeso y elevar la extremidad solo está indicado al inicio con dolor leve sin signos de isquemia. Con dolor muy intenso a las cuatro horas se requiere fasciotomía urgente. Opción E: El dolor que aumenta con la movilidad distal en horas post fractura no es dolor postoperatorio normal, orienta a síndrome compartimental que requiere manejo urgente."
+  },
+  {
+    "number": 16,
+    "id": "Q-TRAUMATOLOGIA-16",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.3",
+    "topicTitle": "Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+    "perfilCode": "1.01.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Urgencia Traumatológica Vital · Indicación de Cirugía Descompresiva Inmediata."
+    },
+    "stem": "Un paciente con fractura de fémur presenta a las seis horas distrés respiratorio, compromiso de conciencia y se observan petequias en el tronco. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TEP masivo; trombolisis"
+      },
+      {
+        "id": "B",
+        "text": "Embolia grasa; soporte"
+      },
+      {
+        "id": "C",
+        "text": "Embolia grasa; anticoagulación con heparina"
+      },
+      {
+        "id": "D",
+        "text": "Síndrome compartimental; fasciotomía urgente"
+      },
+      {
+        "id": "E",
+        "text": "Distrofia simpático refleja; pregabalina"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El TEP aparece días después con disnea súbita, no en horas con la tríada de distrés, compromiso de conciencia y petequias. La tríada petequial es característica de embolia grasa. Opción B: La embolia grasa aparece en horas con tríada de distrés respiratorio, compromiso de conciencia y rash petequial. Se asocia a fracturas de huesos largos como el fémur. El tratamiento es solo soporte, no hay fármacos con eficacia demostrada. Opción C: El diagnóstico de embolia grasa es correcto, pero el tratamiento no es la anticoagulación. El único tratamiento disponible es el soporte, no hay fármacos con eficacia demostrada. Opción D: El síndrome compartimental se presenta con dolor intenso en la extremidad que aumenta con la movilidad distal, no con distrés respiratorio, compromiso de conciencia y petequias. Opción E: La distrofia simpático refleja aparece semanas a meses después con dolor neuropático y cambios tróficos, no en horas con distrés respiratorio y petequias."
+  },
+  {
+    "number": 17,
+    "id": "Q-TRAUMATOLOGIA-17",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.3",
+    "topicTitle": "Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+    "perfilCode": "1.01.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Urgencia Traumatológica Vital · Indicación de Cirugía Descompresiva Inmediata."
+    },
+    "stem": "En el contexto del manejo de Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente, la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 18,
+    "id": "Q-TRAUMATOLOGIA-18",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 1,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.3",
+    "topicTitle": "Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
+    "perfilCode": "4.02.1.008",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Urgencia Traumatológica Vital · Indicación de Cirugía Descompresiva Inmediata."
+    },
+    "stem": "Un hombre de 42 años presenta dolor en el hombro derecho, de dos semanas de evolución, que inició en relación a un partido de tenis y que limita sus actividades, en especial, los movimientos de abducción y elevación. Al examen físico tiene dolor a la palpación subacromial, con dolor a la abducción y elevación del hombro, que dificulta estos movimientos, por sobre 80°. Se solicitan radiografías de hombro, que muestran esclerosis del acromion y leve ascenso de la cabeza humeral. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tendinitis cálcica"
+      },
+      {
+        "id": "B",
+        "text": "Pinzamiento subacromial"
+      },
+      {
+        "id": "C",
+        "text": "Rotura completa del tendón del supraespinoso"
+      },
+      {
+        "id": "D",
+        "text": "Capsulitis adhesiva"
+      },
+      {
+        "id": "E",
+        "text": "Tendinitis bicipital"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Pregunta muy rara, ya que parece un síndrome de manguito rotador. Sin embargo, el ascenso de la cabeza humeral orienta a la rotura del tendón supraespinoso. La tendinitis cálcica tendría calcificación del tendón del bíceps, lo que se vería. La capsulitis adhesiva limitaría totalmente los movimientos."
+  },
+  {
+    "number": 19,
+    "id": "Q-TRAUMATOLOGIA-19",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "",
+    "topicTitle": "Infecciones osteoarticulares",
+    "perfilCode": "4.02.1.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Paciente de 67 años, con antecedente de pielonefritis tratada hace dos meses, presenta dolor lumbar desde hace un mes que se ha ido intensificando, asociándose a sensación febril durante los últimos días. Al examen físico presenta temperatura de 38ºC y dolor a la palpación de zona lumbar media. Se solicita radiografía lumbar que muestra aplastamiento de L2 y L3, asociados a imagen radiolúcida alrededor del disco intervertebral. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osteosarcoma"
+      },
+      {
+        "id": "B",
+        "text": "Pielonefritis aguda"
+      },
+      {
+        "id": "C",
+        "text": "Osteoma osteoide"
+      },
+      {
+        "id": "D",
+        "text": "Espondilodiscitis"
+      },
+      {
+        "id": "E",
+        "text": "Espondilolistesis"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Por la PNA se hizo un absceso perirrenal, que se extendio al disco IV e hizo una espondilodiscitis. Es pregunta del MIR. La ﬁebre más lumbago mecánico es espondilodiscitis. La ﬁebre más lumbago inﬂamatorio, en cambio, es espondilitis anquilosante."
+  },
+  {
+    "number": 20,
+    "id": "Q-TRAUMATOLOGIA-20",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "",
+    "topicTitle": "Politraumatizado",
+    "perfilCode": "4.02.2.014",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 8 años sufre un atropello mientras cruzaba la calle, resultando con golpe en la espalda y las extremidades. Ingresa con marcada disnea, saturando 85% a aire ambiental. Sus signos vitales muestran taquicardia a 150 la8dos por minuto y presión arterial 70/40 mmHg. Además, se observan múl8ples equimosis y, en el examen pulmonar se ausculta asimetría del murmullo pulmonar, con abolición del murmullo pulmonar izquierdo. ¿Cuál de las siguientes es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar intubación orotraqueal"
+      },
+      {
+        "id": "B",
+        "text": "Administrar oxígeno por mascarilla de recirculación"
+      },
+      {
+        "id": "C",
+        "text": "Puncionar el espacio pleural izquierdo"
+      },
+      {
+        "id": "D",
+        "text": "Solicitar radiogra:a de tórax"
+      },
+      {
+        "id": "E",
+        "text": "Solicitar TAC de tórax"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La sospecha clínica es un neumotórax a tensión, cuyo manejo es prioritario en el ABC. Se debe descomprimir de inmediato, mediante punción o toracostomía de urgencia. Si se punciona, se suele hacer en la línea medio clavicular en el segundo espacio intercostal, o en la línea axilar media en el quinto espacio intercostal."
+  },
+  {
+    "number": 21,
+    "id": "Q-TRAUMATOLOGIA-21",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.4",
+    "topicTitle": "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
+    "perfilCode": "1.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Detección oportuna de hipoxemia post-fractura diafisiaria."
+    },
+    "stem": "Un paciente sufre fractura de diáfisis humeral en un accidente de tránsito. Al examen físico no puede extender la muñeca ni los dedos. ¿Qué nervio está lesionado y cuál es el déficit sensitivo esperado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nervio mediano; hipoestesia de los primeros tres dedos"
+      },
+      {
+        "id": "B",
+        "text": "Nervio radial; hipoestesia de la cara posterior de la extremidad superior"
+      },
+      {
+        "id": "C",
+        "text": "Nervio cubital; hipoestesia del quinto dedo"
+      },
+      {
+        "id": "D",
+        "text": "Nervio axilar; hipoestesia sobre el hombro"
+      },
+      {
+        "id": "E",
+        "text": "Nervio ciático; hipoestesia de la pierna"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El nervio mediano se lesiona en la fractura supracondílea de húmero, no en la diáfisis. Produce déficit de flexión de los primeros tres dedos, no de extensión. Opción B: El nervio radial está adherido a la diáfisis humeral. Su lesión produce imposibilidad de extender dedos y muñeca más hipoestesia de la cara posterior de la extremidad superior. Opción C: El nervio cubital se lesiona en fracturas de codo y produce déficit de flexión del cuarto y quinto dedo, no de extensión. Se asocia a fractura de codo, no de diáfisis humeral. Opción D: El nervio axilar se lesiona en luxación de hombro y produce incapacidad para abducir el brazo, no para extender la muñeca. Opción E: El nervio ciático está en la extremidad inferior y se lesiona en luxación posterior de cadera. No tiene relación con la fractura de húmero."
+  },
+  {
+    "number": 22,
+    "id": "Q-TRAUMATOLOGIA-22",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.4",
+    "topicTitle": "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
+    "perfilCode": "1.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Detección oportuna de hipoxemia post-fractura diafisiaria."
+    },
+    "stem": "Un paciente sufre luxación anterior de hombro derecho. Al reducirlo presenta imposibilidad de abducir el brazo y disminución de la sensibilidad en la zona deltoidea. ¿Qué nervio está comprometido?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nervio radial"
+      },
+      {
+        "id": "B",
+        "text": "Nervio mediano"
+      },
+      {
+        "id": "C",
+        "text": "Nervio axilar o circunflejo"
+      },
+      {
+        "id": "D",
+        "text": "Nervio cubital"
+      },
+      {
+        "id": "E",
+        "text": "Nervio ciático"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: El nervio radial se lesiona en la fractura de diáfisis humeral y produce déficit de extensión de dedos y muñeca, no de abducción del hombro. Opción B: El nervio mediano se lesiona en la fractura supracondílea de húmero y produce déficit de flexión de los primeros tres dedos, no de abducción del hombro. Opción C: El nervio axilar inerva el deltoides y la piel sobre él. Se lesiona clásicamente en la luxación anterior de hombro, produciendo incapacidad de abducción y hipoestesia sobre el deltoides. Opción D: El nervio cubital se lesiona en fracturas de codo y produce déficit de flexión del cuarto y quinto dedo más hipoestesia del quinto dedo. Opción E: El nervio ciático está en la extremidad inferior y se lesiona en luxación posterior de cadera, no tiene relación con la luxación de hombro."
+  },
+  {
+    "number": 23,
+    "id": "Q-TRAUMATOLOGIA-23",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.4",
+    "topicTitle": "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
+    "perfilCode": "4.02.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Detección oportuna de hipoxemia post-fractura diafisiaria."
+    },
+    "stem": "Un paciente de 63 años consulta por dolor progresivo, de una semana de evolución, en la cara lateral de la cadera, que aumenta con la caminata y limita sus movimientos. Además, en el último tiempo, le impide dormir para ese lado. Al examen físico tiene dolor a la palpación de la cara externa de la cadera y a la rotación externa forzada. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coxartrosis"
+      },
+      {
+        "id": "B",
+        "text": "Fractura incompleta de cadera por estrés"
+      },
+      {
+        "id": "C",
+        "text": "Hernia del núcleo pulposo, con radiculopatía L2"
+      },
+      {
+        "id": "D",
+        "text": "Bursitis trocantérica"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de la fascia lata rígida"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Parece una bursitis trocantérica clásica."
+  },
+  {
+    "number": 24,
+    "id": "Q-TRAUMATOLOGIA-24",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.4",
+    "topicTitle": "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
+    "perfilCode": "4.02.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 77 años presenta dolor inguinal derecho de 2 años de evolución, que aumenta con la marcha, limitándola. Al examen físico se aprecia pérdida de la rotación interna y la flexión de la cadera derecha. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Necrosis avascular de la cabeza femoral"
+      },
+      {
+        "id": "B",
+        "text": "Coxartrosis"
+      },
+      {
+        "id": "C",
+        "text": "Hernia foraminal S1"
+      },
+      {
+        "id": "D",
+        "text": "Pinzamiento femoroacetabular"
+      },
+      {
+        "id": "E",
+        "text": "Estenosis raquimedular"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "por llevar dos años orienta a artrosis (coxartrosis = artrosis de cadera). Alguien anotó 2 semanas en FB: sería la necrosis avascular."
+  },
+  {
+    "number": 25,
+    "id": "Q-TRAUMATOLOGIA-25",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.4",
+    "topicTitle": "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
+    "perfilCode": "4.02.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Pregunta 14 Sin contestar Puntúa como 1,00 Marcar pregunta Un paciente de 78 años consulta por dolor en ambas ingles, irradiado a los muslos, que inició hace 5 años y que es más intenso al caminar, lo que ha limitado su movilidad en el último tiempo. Se solicita una radiografía AP de pelvis, que se muestra a continuación: ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Displasia de caderas"
+      },
+      {
+        "id": "B",
+        "text": "Mestástasis óseas"
+      },
+      {
+        "id": "C",
+        "text": "Necrosis avascular de la cabeza femoral bilateral"
+      },
+      {
+        "id": "D",
+        "text": "Sacroileítis"
+      },
+      {
+        "id": "E",
+        "text": "Coxoartrosis bilateral"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es una artrosis de cadera, tanto por la clínica, como por la radiografía."
+  },
+  {
+    "number": 26,
+    "id": "Q-TRAUMATOLOGIA-26",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.4",
+    "topicTitle": "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
+    "perfilCode": "4.02.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Una paciente de 30 años, con antecedente de displasia de cadera derecha, tratada con cirugía abierta en su infancia, consulta por dolor muy intenso en la cadera izquier- da, que la hace cojear permanentemente. Al examen físico presenta acortamiento de 25",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tratamiento sintomático de la artrosis"
+      },
+      {
+        "id": "B",
+        "text": "Indicar tratamiento kenesioterapéutico"
+      },
+      {
+        "id": "C",
+        "text": "Realizar osteotomía acetabular"
+      },
+      {
+        "id": "D",
+        "text": "Instalar prótesis total de cadera"
+      },
+      {
+        "id": "E",
+        "text": "Compensar el acortamiento con calzado con realce"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "En mi opinión tiene indicación de reemplazo articular. Pero la decisión exacta co- rresponde al especialista, según cada caso."
+  },
+  {
+    "number": 27,
+    "id": "Q-TRAUMATOLOGIA-27",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.5",
+    "topicTitle": "Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+    "perfilCode": "1.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado Grave con Riesgo Vital."
+    },
+    "stem": "Un paciente politraumatizado llega a urgencias tras un accidente de tránsito. ¿Cuáles son las tres radiografías mínimas que se deben solicitar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anteroposterior de tórax, anteroposterior de abdomen y lateral de rodilla"
+      },
+      {
+        "id": "B",
+        "text": "Lateral de cuello, anteroposterior de tórax y anteroposterior de pelvis"
+      },
+      {
+        "id": "C",
+        "text": "Anteroposterior de tórax, TAC de cerebro y anteroposterior de pelvis"
+      },
+      {
+        "id": "D",
+        "text": "Solo anteroposterior de tórax si el paciente está estable"
+      },
+      {
+        "id": "E",
+        "text": "Radiografías de todos los huesos largos más AP de tórax"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: Las radiografías mínimas en un politraumatizado son lateral de cuello, AP de tórax y AP de pelvis. La radiografía de abdomen no es parte del estudio mínimo inicial. Opción B: Estas tres proyecciones son el estudio mínimo en un politraumatizado: lateral de cuello para descartar fractura cervical, AP de tórax para neumotórax o hemotórax, y AP de pelvis para fractura de pelvis. Opción C: El TAC de cerebro no es parte de las tres radiografías mínimas iniciales. Las mínimas son lateral de cuello, AP de tórax y AP de pelvis. Opción D: Un politraumatizado requiere siempre las tres proyecciones mínimas independientemente de su estabilidad: lateral de cuello, AP de tórax y AP de pelvis. Opción E: No se piden radiografías de todos los huesos largos inicialmente. El estudio mínimo son solo tres proyecciones específicas: lateral de cuello, AP de tórax y AP de pelvis."
+  },
+  {
+    "number": 28,
+    "id": "Q-TRAUMATOLOGIA-28",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.5",
+    "topicTitle": "Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+    "perfilCode": "1.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado Grave con Riesgo Vital."
+    },
+    "stem": "Un paciente con fractura de pelvis en libro abierto tras un accidente de tránsito está en shock hipovolémico. ¿Cuál es la conducta más urgente para controlar la hemorragia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Transfusión de glóbulos rojos y esperar que se estabilice solo"
+      },
+      {
+        "id": "B",
+        "text": "Cirugía de pelvis de urgencia para clipar las venas pélvicas"
+      },
+      {
+        "id": "C",
+        "text": "ABC más estabilización externa de la pelvis con sábana, amaca o tutores externos"
+      },
+      {
+        "id": "D",
+        "text": "Instalar sonda Foley para medir diuresis y controlar hidratación"
+      },
+      {
+        "id": "E",
+        "text": "Angiografía pélvica para embolizar las arterias sangrantes"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: La transfusión puede ser parte del manejo pero no controla la fuente de sangrado. Lo urgente es estabilizar la pelvis para reducir la capacitancia y frenar la hemorragia venosa pélvica. Opción B: La cirugía no es lo más urgente ni lo inicial. La estabilización externa de la pelvis es la primera medida para controlar la hemorragia venosa pélvica. Opción C: La pelvis abierta tiene mayor capacitancia para acumular sangre. Estabilizarla y comprimirla reduce ese espacio y frena la hemorragia venosa. Se puede usar sábana enrollada, amaca pélvica o tutores externos. Opción D: La sonda Foley está contraindicada en fractura de pelvis sin descartar sección uretral. La conducta urgente es estabilizar la pelvis para controlar la hemorragia. Opción E: La hemorragia en fractura de pelvis es principalmente venosa, no arterial. La medida urgente es la estabilización externa de la pelvis, no la embolización arterial."
+  },
+  {
+    "number": 29,
+    "id": "Q-TRAUMATOLOGIA-29",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.5",
+    "topicTitle": "Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+    "perfilCode": "1.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado Grave con Riesgo Vital."
+    },
+    "stem": "Un paciente con fractura de pelvis no puede orinar y presenta dolor suprapúbico. Usted sospecha sección uretral. ¿Cuál es la conducta correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instalar sonda Foley con cuidado para drenar la vejiga"
+      },
+      {
+        "id": "B",
+        "text": "Cistostomía suprapúbica, uretrocistografía y reparación quirúrgica de la uretra"
+      },
+      {
+        "id": "C",
+        "text": "Uretrocistografía primero y luego sonda Foley si la uretra está íntegra"
+      },
+      {
+        "id": "D",
+        "text": "Observar y esperar que orine espontáneamente"
+      },
+      {
+        "id": "E",
+        "text": "TAC de pelvis para ver la extensión de la fractura"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La sonda Foley está absolutamente contraindicada si se sospecha sección uretral porque puede crear una falsa vía y generar más daño. Se debe instalar cistostomía. Opción B: La sonda Foley está contraindicada en sección uretral. El manejo correcto es cistostomía para drenar la vejiga, uretrocistografía para el diagnóstico y cirugía para reparar la uretra. Opción C: Si se sospecha sección uretral con globo vesical, primero se instala la cistostomía para drenar la vejiga y luego se hace la uretrocistografía diagnóstica. No se instala sonda Foley. Opción D: La retención urinaria con globo vesical en un politraumatizado no puede quedar sin manejo. Hay que drenar la vejiga con cistostomía y estudiar la uretra con uretrocistografía. Opción E: Aunque el TAC puede ayudar a ver la fractura, la urgencia en este momento es drenar la vejiga. La sonda Foley está contraindicada y la cistostomía es la conducta inmediata."
+  },
+  {
+    "number": 30,
+    "id": "Q-TRAUMATOLOGIA-30",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.5",
+    "topicTitle": "Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+    "perfilCode": "1.01.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado Grave con Riesgo Vital."
+    },
+    "stem": "En el contexto del manejo de Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz, la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 31,
+    "id": "Q-TRAUMATOLOGIA-31",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.5",
+    "topicTitle": "Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+    "perfilCode": "4.02.2.006",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Politraumatizado Grave con Riesgo Vital."
+    },
+    "stem": "Un paciente de 28 años sufre un accidente de tránsito de alta intensidad, por lo que es trasladado al servicio de urgencia. En la evaluación inicial tiene presión arterial de 90/50 mmHg, frecuencia cardíaca 115x’ y se aprecia adolorido. Al examen, además, tiene dolor intenso al comprimir la zona iliaca y púbica y al realizar movimientos de rotación de la pelvis. ¿Cuál es la conducta inicial más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instalar sonda Foley"
+      },
+      {
+        "id": "B",
+        "text": "Realizar laparotomía exploradora"
+      },
+      {
+        "id": "C",
+        "text": "Realizar radiografía AP de pelvis"
+      },
+      {
+        "id": "D",
+        "text": "Instalar sábana pélvica"
+      },
+      {
+        "id": "E",
+        "text": "Solicitar TAC de pelvis"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Tiene una probable fractura de pelvis, pero por tener compromiso hemodinámico, lo más urgente es poner una vía venosa, administrar ﬂuidos y estabilizar la pelvis (por ejemplo con una sábana pélvica)."
+  },
+  {
+    "number": 32,
+    "id": "Q-TRAUMATOLOGIA-32",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.6",
+    "topicTitle": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "perfilCode": "4.01.2.020",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Traumatismo Raquimedular."
+    },
+    "stem": "Un paciente con fractura de tibia en yeso desde hace cuatro meses sigue con dolor leve en el foco de fractura. La radiografía muestra callo óseo en formación pero sin terminar de consolidar. ¿Cuál es el diagnóstico y la conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pseudoartrosis; cirugía para remover partes blandas"
+      },
+      {
+        "id": "B",
+        "text": "Retraso de consolidación; mejorar la inmovilización"
+      },
+      {
+        "id": "C",
+        "text": "Consolidación viciosa; cirugía de refractura"
+      },
+      {
+        "id": "D",
+        "text": "Pseudoartrosis atrófica; tratamiento de la mala irrigación"
+      },
+      {
+        "id": "E",
+        "text": "Osteomielitis; antibióticos endovenosos"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La pseudoartrosis tiene movilidad anormal y sin dolor, con partes blandas interpuestas en la radiografía. Este paciente tiene dolor leve y callo en formación, que corresponde a retraso de consolidación. Opción B: El retraso de consolidación se presenta con dolor persistente más allá del tiempo normal y radiografía con callo óseo en maduración. El tratamiento es mejorar la inmovilización, que era la causa. Opción C: La consolidación viciosa tiene consolidación ya completada pero desviada. Este paciente aún no ha consolidado, lo que corresponde a retraso de consolidación. Opción D: La pseudoartrosis tiene movilidad anormal en el foco y la radiografía muestra partes blandas interpuestas, no callo en formación. Este caso tiene callo en maduración que es retraso de consolidación. Opción E: La osteomielitis tiene fiebre, eritema y secreción. El callo óseo en formación con dolor leve después de una fractura en yeso corresponde a retraso de consolidación."
+  },
+  {
+    "number": 33,
+    "id": "Q-TRAUMATOLOGIA-33",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.6",
+    "topicTitle": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "perfilCode": "4.01.2.020",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Traumatismo Raquimedular."
+    },
+    "stem": "Un paciente con fractura de fémur tratada hace seis meses presenta movilidad anormal en el muslo y ausencia de dolor. La radiografía muestra los extremos óseos hipertróficos como pata de elefante con partes blandas interpuestas. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retraso de consolidación; mejorar la inmovilización"
+      },
+      {
+        "id": "B",
+        "text": "Pseudoartrosis hipertrófica; cirugía para remover partes blandas"
+      },
+      {
+        "id": "C",
+        "text": "Consolidación viciosa; refractura quirúrgica"
+      },
+      {
+        "id": "D",
+        "text": "Pseudoartrosis atrófica; tratamiento de la irrigación"
+      },
+      {
+        "id": "E",
+        "text": "Fractura patológica; descartar tumor óseo"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El retraso de consolidación tiene dolor persistente y callo en maduración. Este paciente tiene movilidad anormal y sin dolor con la imagen radiográfica de partes blandas interpuestas. Opción B: La pseudoartrosis hipertrófica tiene movilidad anormal sin dolor, extremos óseos en pata de elefante y partes blandas interpuestas, causada por mala inmovilización. El tratamiento es siempre quirúrgico. Opción C: La consolidación viciosa tiene el hueso ya consolidado pero desviado, sin movilidad anormal en el foco. Este caso tiene movilidad anormal que indica que no consolidó. Opción D: La pseudoartrosis atrófica tiene extremos óseos atróficos por mala irrigación. Este caso tiene extremos hipertróficos en pata de elefante que corresponde a la variante hipertrófica por mala inmovilización. Opción E: Una fractura patológica tiene causa subyacente como tumor u osteoporosis. La imagen de pseudoartrosis hipertrófica con extremos en pata de elefante es característica de mala inmovilización previa."
+  },
+  {
+    "number": 34,
+    "id": "Q-TRAUMATOLOGIA-34",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.6",
+    "topicTitle": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "perfilCode": "4.01.2.020",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Traumatismo Raquimedular."
+    },
+    "stem": "Un paciente con fractura de antebrazo tratada hace tres meses consulta por deformidad del antebrazo sin dolor. La radiografía muestra consolidación completa pero con desviación de los ejes. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retraso de consolidación; mejorar inmovilización"
+      },
+      {
+        "id": "B",
+        "text": "Pseudoartrosis; cirugía para remover partes blandas"
+      },
+      {
+        "id": "C",
+        "text": "Consolidación viciosa; cirugía de refractura con nueva reducción"
+      },
+      {
+        "id": "D",
+        "text": "Fractura patológica; estudio de causa subyacente"
+      },
+      {
+        "id": "E",
+        "text": "Consolidación normal; alta sin tratamiento"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: El retraso de consolidación tiene dolor persistente y callo en maduración, no consolidación completa con desviación. El hueso ya consolidó en este caso. Opción B: La pseudoartrosis tiene movilidad anormal sin dolor y partes blandas interpuestas. Este caso tiene consolidación completa, aunque desviada, que corresponde a consolidación viciosa. Opción C: La consolidación viciosa tiene el hueso consolidado de manera desviada sin dolor, por mala reducción o mala inmovilización. El tratamiento es refractura quirúrgica con nueva reducción e inmovilización adecuada. Opción D: Una fractura patológica se da en contexto de tumor u osteoporosis. Una fractura que consolidó desviada en un adulto joven corresponde a consolidación viciosa por mala reducción o inmovilización. Opción E: Una consolidación con desviación de los ejes no es normal. La mala unión o consolidación viciosa produce problemas funcionales y requiere tratamiento quirúrgico."
+  },
+  {
+    "number": 35,
+    "id": "Q-TRAUMATOLOGIA-35",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.6",
+    "topicTitle": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "perfilCode": "4.01.2.020",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Traumatismo Raquimedular."
+    },
+    "stem": "En el contexto del manejo de Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular, la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 36,
+    "id": "Q-TRAUMATOLOGIA-36",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 2,
+    "blockName": "Generalidades de Fracturas, Fracturas Expuestas & Complicaciones",
+    "topicLabel": "12.6",
+    "topicTitle": "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
+    "perfilCode": "4.02.2.015",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Traumatismo Raquimedular."
+    },
+    "stem": "Una paciente de 67 años consulta por dolor de espalda, que inició de manera súbita, en relación a actividades en las que levantaba peso en flexión. El dolor es intenso, por lo que limita sus actividades de la vida diaria. Al examen físico, se observa dolor a los movimientos de flexoextensión de la columna y se observa tórax encorvado, pero sin cifosis. Su examen neurológico es normal y presenta dolor a la palpación vertebral. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lumbago mecánico"
+      },
+      {
+        "id": "B",
+        "text": "Lumbociática mecánica"
+      },
+      {
+        "id": "C",
+        "text": "Fractura de cuerpo vertebral"
+      },
+      {
+        "id": "D",
+        "text": "Espondiloartrosis lumbar"
+      },
+      {
+        "id": "E",
+        "text": "Espondilitis anquilosante"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Fractura Vertebral: Aunque inicialmente parece un lumbago mecánico, la edad, la curvatura torácica y el dolor a la palpación vertebral sugieren una fractura vertebral como diagnóstico más probable."
+  },
+  {
+    "number": 37,
+    "id": "Q-TRAUMATOLOGIA-37",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "",
+    "topicTitle": "Lumbociática radicular",
+    "perfilCode": "4.02.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 60 años consulta por lumbago intenso de 2 semanas de evolución, asociado a disfunción eréc8l, que no ha respondido al tratamiento con analgésicos orales. Al examen Fsico, presenta limitación a los movimientos de ﬂexoextensión y ﬂexión lateral de la columna lumbar, debido al dolor. Además, se obje8va anestesia de la zona perineal. El diagnós8co más probable corresponde a un síndrome:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lumbociá2ca"
+      },
+      {
+        "id": "B",
+        "text": "Facetario lumbar"
+      },
+      {
+        "id": "C",
+        "text": "Compresión medular"
+      },
+      {
+        "id": "D",
+        "text": "Sacroilíaco"
+      },
+      {
+        "id": "E",
+        "text": "De cauda equina"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Tanto la compresión del cono medular como de la cauda equina se presentan con anestesia en silla de montar y disfunción sexual. De las opciones, la más razonable es el síndrome de cauda equina, ya que el síndrome de compresión medular clásico Gene compromiso motor y sensitivo, sin tanta afectación pudenda, con excepción del cono medular, que ya se explicó."
+  },
+  {
+    "number": 38,
+    "id": "Q-TRAUMATOLOGIA-38",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "",
+    "topicTitle": "Lumbociática radicular",
+    "perfilCode": "4.02.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Paciente con antecedente de dolor en espalda, irradiado a glúteos, contractura paravertebral. dolor a la palpación de la columna lumbar y claudicación de la marcha y al estar mucho tiempo de pie, Lasegue negativo, rx de columna lumbar con pinzamiento discal y artrosis lumbar de L3-L4-L5 cuál era:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Claudicación neural intermitente"
+      },
+      {
+        "id": "B",
+        "text": "Fractura por compresión"
+      },
+      {
+        "id": "C",
+        "text": "Pelviespondilopatía"
+      },
+      {
+        "id": "D",
+        "text": "Hernia lumbar"
+      },
+      {
+        "id": "E",
+        "text": "Sacroileítis"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Caso clínico oficial EUNACOM para Lumbociática radicular."
+  },
+  {
+    "number": 39,
+    "id": "Q-TRAUMATOLOGIA-39",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.7",
+    "topicTitle": "Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides",
+    "perfilCode": "1.14.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Maniobras de reducción cerrada y evaluación del nervio axilar/radial."
+    },
+    "stem": "Un hombre de veintidós años sufre una caída y presenta dolor en la tabaquera anatómica de la mano derecha. La radiografía es normal. ¿Cuál es la conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alta con analgésicos porque la radiografía es normal y no hay fractura"
+      },
+      {
+        "id": "B",
+        "text": "Solicitar TAC de la mano para confirmar o descartar fractura de escafoides"
+      },
+      {
+        "id": "C",
+        "text": "Ecografía de partes blandas para evaluar tendones"
+      },
+      {
+        "id": "D",
+        "text": "RMN de muñeca como primer examen"
+      },
+      {
+        "id": "E",
+        "text": "Inmovilización y control en dos semanas sin más estudios"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La radiografía normal no descarta la fractura de escafoides. El dolor en la tabaquera anatómica es fractura de escafoides hasta descartarse con TAC. Opción B: El TAC es el examen de elección para la fractura de escafoides porque la radiografía puede ser normal incluso con fractura. Si el TAC está normal, ahí sí se descarta. Opción C: La ecografía no es el examen de elección para fractura de escafoides. El TAC es el examen de elección ante dolor en la tabaquera anatómica con radiografía normal. Opción D: Aunque la RMN puede detectar fracturas de escafoides, el TAC es el examen de elección según la clase. Si no hay TAC disponible, se inmoviliza la mano. Opción E: La inmovilización es correcta si no hay TAC disponible, pero siempre se debe solicitar TAC para confirmar o descartar la fractura. No se puede quedar sin diagnóstico definitivo."
+  },
+  {
+    "number": 40,
+    "id": "Q-TRAUMATOLOGIA-40",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.7",
+    "topicTitle": "Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides",
+    "perfilCode": "1.14.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Maniobras de reducción cerrada y evaluación del nervio axilar/radial."
+    },
+    "stem": "Un paciente presenta fractura de la diáfisis cubital más luxación de la cúpula radial en la radiografía. ¿Cuál es el nombre de esta lesión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fractura de Galeazzi"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de Colles"
+      },
+      {
+        "id": "C",
+        "text": "Fractura de Monteggia"
+      },
+      {
+        "id": "D",
+        "text": "Fractura supracondílea de húmero"
+      },
+      {
+        "id": "E",
+        "text": "Fractura subcapital de húmero"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: La fractura de Galeazzi es fractura de diáfisis del radio más luxación del cúbito distal. La fractura de la diáfisis cubital más luxación de cúpula radial es de Monteggia. Opción B: La fractura de Colles es una fractura de muñeca con deformidad en dorso de tenedor. No involucra la diáfisis cubital ni la cúpula radial. Opción C: La fractura de Monteggia es la fractura de la diáfisis cubital más la luxación de la cúpula radial. La de Galeazzi es al revés: fractura de radio más luxación del cúbito distal. Opción D: La fractura supracondílea de húmero afecta el extremo distal del húmero con riesgo de lesión de arteria braqueal y nervio mediano, no involucra el antebrazo. Opción E: La fractura subcapital de húmero afecta el extremo proximal del húmero y es característica del adulto mayor con osteoporosis, no es una lesión del antebrazo."
+  },
+  {
+    "number": 41,
+    "id": "Q-TRAUMATOLOGIA-41",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.7",
+    "topicTitle": "Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides",
+    "perfilCode": "4.02.2.010",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Maniobras de reducción cerrada y evaluación del nervio axilar/radial."
+    },
+    "stem": "Paciente de 35 años sufre traumatismo en la región posterior del húmero. Al examen: no puede extender la muñeca ni los dedos (caída de muñeca). ¿Qué nervio fue lesionado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nervio radial (en canal de torsión)"
+      },
+      {
+        "id": "B",
+        "text": "Nervio cubital"
+      },
+      {
+        "id": "C",
+        "text": "Nervio mediano"
+      },
+      {
+        "id": "D",
+        "text": "Nervio musculocutáneo"
+      },
+      {
+        "id": "E",
+        "text": "Nervio axilar"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Fractura de húmero + caída de muñeca (wrist drop) = lesión del nervio radial en el canal de torsión (surco espiral). Inerva extensores de muñeca y dedos (ECC, ECD, ELP)."
+  },
+  {
+    "number": 42,
+    "id": "Q-TRAUMATOLOGIA-42",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.7",
+    "topicTitle": "Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides",
+    "perfilCode": "4.02.2.012",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Maniobras de reducción cerrada y evaluación del nervio axilar/radial."
+    },
+    "stem": "Un paciente de 27 años sufre una caída a nivel, con golpe del hombro, contra el piso. Evoluciona con intenso dolor e impotencia funcional, por lo que se solicitan radiografías de hombro, que. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reducción cruenta en una semana"
+      },
+      {
+        "id": "B",
+        "text": "Inmovilización por 10 días con yeso"
+      },
+      {
+        "id": "C",
+        "text": "Artroscopía para reparación del labrum"
+      },
+      {
+        "id": "D",
+        "text": "Inmovilización por 7 días con cabestrillo bloqueado"
+      },
+      {
+        "id": "E",
+        "text": "Reducción ortopédica de inmediato"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "La luxación anterior de hombro se reduce ortopédicamente, de inmediato. Si recurre, se trata con cirugía."
+  },
+  {
+    "number": 43,
+    "id": "Q-TRAUMATOLOGIA-43",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.8",
+    "topicTitle": "Lesiones de Tobillo y Pie: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles",
+    "perfilCode": "1.01.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Criterios radiológicos de Ottawa y Signo de Thompson."
+    },
+    "stem": "Un paciente se tuerce el tobillo y llega a urgencias con dolor, equimosis y dificultad para apoyar el pie. ¿Cuál es la conducta inicial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inmovilizar con yeso y dar de alta sin radiografía porque es clínica de esguince"
+      },
+      {
+        "id": "B",
+        "text": "Solicitar radiografía de tobillo para descartar fractura"
+      },
+      {
+        "id": "C",
+        "text": "Diagnóstico de esguince; RICE más bota removible sin radiografía"
+      },
+      {
+        "id": "D",
+        "text": "TAC de tobillo como primera imagen para ver los ligamentos"
+      },
+      {
+        "id": "E",
+        "text": "RMN de tobillo para evaluar los ligamentos laterales"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: Toda lesión de tobillo requiere radiografía para descartar fractura antes del alta. La dificultad para apoyar además orienta a fractura. Opción B: Ante toda lesión de tobillo se pide radiografía siempre para descartar fractura. La imposibilidad de apoyar es un signo que orienta a fractura. El diagnóstico de esguince se hace solo cuando la radiografía es normal. Opción C: El diagnóstico de esguince requiere que la radiografía sea normal. No se puede diagnosticar esguince sin descartar primero una fractura con radiografía. Opción D: El TAC no es el examen inicial en lesiones de tobillo. La radiografía simple es suficiente para descartar fractura. Opción E: La RMN puede evaluar los ligamentos pero no es el examen inicial. Primero se descarta fractura con radiografía simple."
+  },
+  {
+    "number": 44,
+    "id": "Q-TRAUMATOLOGIA-44",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.8",
+    "topicTitle": "Lesiones de Tobillo y Pie: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles",
+    "perfilCode": "1.01.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Criterios radiológicos de Ottawa y Signo de Thompson."
+    },
+    "stem": "Un paciente con fractura de tobillo confirmada en la radiografía. ¿Cuál es el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RICE más bota removible por cuatro semanas"
+      },
+      {
+        "id": "B",
+        "text": "Yeso de pierna por seis semanas"
+      },
+      {
+        "id": "C",
+        "text": "Cirugía con reducción y osteosíntesis"
+      },
+      {
+        "id": "D",
+        "text": "Observación ambulatoria y control en una semana"
+      },
+      {
+        "id": "E",
+        "text": "Inmovilización con bota de yeso y evaluar en dos semanas"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: El RICE con bota es el tratamiento del esguince de tobillo, no de la fractura de tobillo. Las fracturas de tobillo se tratan quirúrgicamente. Opción B: El yeso es tratamiento ortopédico pero por regla general las fracturas de tobillo requieren tratamiento quirúrgico. Opción C: Las fracturas de fémur, pierna y tobillo se tratan quirúrgicamente por regla general. La cirugía permite la reducción y fijación adecuada y permite al paciente apoyar antes. Opción D: Una fractura de tobillo confirmada no se puede observar sin tratamiento. El tratamiento es quirúrgico por regla general. Opción E: La fractura de tobillo requiere cirugía. La inmovilización solo puede ser parte del manejo perioperatorio, no el tratamiento definitivo."
+  },
+  {
+    "number": 45,
+    "id": "Q-TRAUMATOLOGIA-45",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.8",
+    "topicTitle": "Lesiones de Tobillo y Pie: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles",
+    "perfilCode": "4.02.2.013",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · Criterios radiológicos de Ottawa y Signo de Thompson."
+    },
+    "stem": "Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiograFa de tobillo que se muestra a con8nuación: ¿Cuál es la conducta inicial más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reposo con extremidad en elevación"
+      },
+      {
+        "id": "B",
+        "text": "Reducción cerrada e inmovilización con valva de yeso"
+      },
+      {
+        "id": "C",
+        "text": "Analgésicos y apoyo progresivo con mínima carga"
+      },
+      {
+        "id": "D",
+        "text": "Vendaje compresivo"
+      },
+      {
+        "id": "E",
+        "text": "Tracción e inmovilización con yeso de la extremidad"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene una luxofractura de tobillo, cuyo manejo es quirúrgico. Sin embargo, el manejo inicial consiste en analgesia, reducción cerrada (bajo anestesia o sedación) e inmovilización transitoria, con valva de yeso abierta, para evitar un síndrome compartimental. Este mismo manejo aplica a otras fracturas desplazadas, mientras se espera la cirugía. Fuente imagen: Radiopaedia."
+  },
+  {
+    "number": 46,
+    "id": "Q-TRAUMATOLOGIA-46",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Quirúrgico de la Fractura de Cadera en mayores de 65 años."
+    },
+    "stem": "Un paciente de 26 años, sufre un accidente automovilístico de alta energía, como conductor. Llega a la urgencia entablillado y con hemodinamia estable. Destaca la extremidad inferior derecha en flexión y aducción, dolorosa, con imposibilidad de caminar. Se realiza radiografía anteroposterior de pelvis, que se muestra a continuación (fuente: radiopaedia): ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fractura de la cabeza femoral derecha"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de zona posterior del cotilo derecho"
+      },
+      {
+        "id": "C",
+        "text": "Luxofractura posterior de cadera derecha"
+      },
+      {
+        "id": "D",
+        "text": "Fractura de pelvis inestable"
+      },
+      {
+        "id": "E",
+        "text": "Fractura extracapsular de cadera derecha"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Está en posición púdica, clásica de la luxación posterior de cadera; y la radiografía muestra la luxación posterior derecha. No queda claro el rasgo de fractura."
+  },
+  {
+    "number": 47,
+    "id": "Q-TRAUMATOLOGIA-47",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Quirúrgico de la Fractura de Cadera en mayores de 65 años."
+    },
+    "stem": "Un adulto mayor de setenta años con osteoporosis sufre una caída y no puede caminar. Al examen presenta abducción, rotación externa y acortamiento de la extremidad derecha. ¿Cuál es el diagnóstico y el estudio inicial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Luxación posterior de cadera; TAC de cadera"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de cadera; radiografía anteroposterior de cadera y pelvis"
+      },
+      {
+        "id": "C",
+        "text": "Fractura de cadera; resonancia magnética de cadera"
+      },
+      {
+        "id": "D",
+        "text": "Fractura de fémur; radiografía de fémur en dos proyecciones"
+      },
+      {
+        "id": "E",
+        "text": "Coxartrosis aguda; radiografía de pelvis"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La luxación posterior produce posición púdica con aducción y rotación interna, no la posición impúdica con abducción y rotación externa. El estudio inicial es radiografía, no TAC. Opción B: La posición impúdica con abducción, rotación externa y acortamiento es el signo clásico de fractura de cadera. El diagnóstico se hace con radiografía AP y axial de cadera más AP de pelvis. Opción C: La fractura de cadera se diagnostica con radiografía, no con resonancia magnética. La resonancia es para lesiones de partes blandas como meniscos y ligamentos. Opción D: La posición impúdica con abducción y rotación externa localiza la lesión en la cadera, no en la diáfisis femoral. La radiografía de cadera es el estudio inicial. Opción E: La coxartrosis no produce la posición impúdica ni la incapacidad súbita de caminar tras una caída. El antecedente de caída más la posición impúdica orienta claramente a fractura de cadera."
+  },
+  {
+    "number": 48,
+    "id": "Q-TRAUMATOLOGIA-48",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Quirúrgico de la Fractura de Cadera en mayores de 65 años."
+    },
+    "stem": "Un paciente de setenta y dos años tiene una fractura de cuello femoral desplazada. ¿Cuál es el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DHS o tornillo dinámico de cadera"
+      },
+      {
+        "id": "B",
+        "text": "Prótesis de cadera"
+      },
+      {
+        "id": "C",
+        "text": "Tornillo canulado y observar si hace necrosis"
+      },
+      {
+        "id": "D",
+        "text": "Cirugía de Girdlestone"
+      },
+      {
+        "id": "E",
+        "text": "Inmovilización y manejo conservador por la edad"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El DHS se usa en las fracturas intertrocantéricas. En la fractura de cuello femoral desplazada en mayor de sesenta y cinco años, la indicación es prótesis de cadera. Opción B: Fractura de cuello femoral más desplazada más mayor de sesenta y cinco años son las tres condiciones para indicar prótesis. El riesgo de necrosis avascular es muy alto y se prefiere prótesis desde el inicio. Opción C: El tornillo canulado se usa en fractura de cuello en menores de sesenta y cinco años o no desplazada. En mayor de sesenta y cinco años con fractura desplazada, el riesgo de necrosis es tan alto que se prefiere prótesis de entrada. Opción D: La cirugía de Girdlestone retira la cabeza femoral y se indica en pacientes postrados, no en pacientes que caminan. Un paciente de setenta y dos años que camina merece prótesis. Opción E: La fractura de cadera siempre requiere tratamiento quirúrgico independientemente de la edad. El manejo conservador en una fractura de cadera tiene mortalidad muy alta por complicaciones del reposo."
+  },
+  {
+    "number": 49,
+    "id": "Q-TRAUMATOLOGIA-49",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Quirúrgico de la Fractura de Cadera en mayores de 65 años."
+    },
+    "stem": "Un copiloto tiene un accidente de tránsito frontal con golpe del tablero en la rodilla. Presenta imposibilidad de caminar con aducción y rotación interna de la cadera derecha. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fractura de cadera; osteosíntesis quirúrgica"
+      },
+      {
+        "id": "B",
+        "text": "Luxación posterior de cadera; reducción cerrada bajo anestesia"
+      },
+      {
+        "id": "C",
+        "text": "Fractura de fémur; radiografía y cirugía"
+      },
+      {
+        "id": "D",
+        "text": "Luxación posterior de cadera; cirugía abierta de urgencia"
+      },
+      {
+        "id": "E",
+        "text": "Luxación anterior de cadera; reducción cerrada"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La fractura de cadera tiene posición impúdica con abducción y rotación externa. Este paciente tiene aducción y rotación interna que corresponde a la posición púdica de la luxación posterior. Opción B: El mecanismo de golpe del tablero en la rodilla del copiloto empuja la cadera hacia atrás produciendo luxación posterior. La posición púdica con aducción y rotación interna lo confirma. El tratamiento es reducción cerrada bajo anestesia. Opción C: La fractura de fémur produce dolor en el muslo con crepitación. El mecanismo de tablero en rodilla con la posición púdica es característico de luxación posterior de cadera. Opción D: El diagnóstico de luxación posterior de cadera es correcto, pero el tratamiento es reducción cerrada bajo anestesia, no cirugía abierta. Opción E: La luxación anterior produce posición impúdica con abducción y rotación externa. El mecanismo de tablero en rodilla del copiloto produce luxación posterior con posición púdica."
+  },
+  {
+    "number": 50,
+    "id": "Q-TRAUMATOLOGIA-50",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Quirúrgico de la Fractura de Cadera en mayores de 65 años."
+    },
+    "stem": "En el contexto del manejo de Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h, la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 51,
+    "id": "Q-TRAUMATOLOGIA-51",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una paciente de 80 años sufrió una caída a nivel, luego de la cual no pudo levantarse, presentando mucho dolor. Al examen físico presenta acortamiento de la extremidad inferior derecha, con ligera abducción y rotación externa, sin equimosis. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esguince de cadera"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de cadera"
+      },
+      {
+        "id": "C",
+        "text": "Luxación posterior de cadera"
+      },
+      {
+        "id": "D",
+        "text": "Fractura de pelvis"
+      },
+      {
+        "id": "E",
+        "text": "Fractura vertebral con lesión del plexo lumbar"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Es una fractura de cadera clásica, con la posición impúdica."
+  },
+  {
+    "number": 52,
+    "id": "Q-TRAUMATOLOGIA-52",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Niño de 12 años, obeso, refiere dolor de 3 meses en cadera izquierda y claudicación progresiva, que actualmente impide la marcha. Al examen físico presenta dolor a la rotación interna y externa de la cadera izquierda. Se realiza radiografía AP pelvis y caderas, que se muestra a continuación: Fuente: www.radiopaedia.org El diagnóstico es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Displasia del desarrollo de la cadera"
+      },
+      {
+        "id": "B",
+        "text": "Epifisiolisis"
+      },
+      {
+        "id": "C",
+        "text": "Fractura del cuello femoral"
+      },
+      {
+        "id": "D",
+        "text": "Osteomielitis del extremo proximal del fémur"
+      },
+      {
+        "id": "E",
+        "text": "Necrosis avascular de la cabeza femoral"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Por clínica y por radiografía, tiene una epifisiolisis de la cabeza femoral izquierda."
+  },
+  {
+    "number": 53,
+    "id": "Q-TRAUMATOLOGIA-53",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un hombre protagoniza un accidente de tránsito, chocando de manera frontal, contra otro automóvil. Presenta intenso dolor en la cadera derecha, que le impide caminar. En su examen tiene una rotación fija hacia interno, con aducción del muslo. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fractura de cuello femoral"
+      },
+      {
+        "id": "B",
+        "text": "Fractura de cotilo"
+      },
+      {
+        "id": "C",
+        "text": "Esguince grado 3 de cadera"
+      },
+      {
+        "id": "D",
+        "text": "Luxación anterior de cadera"
+      },
+      {
+        "id": "E",
+        "text": "Luxación posterior de cadera"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es una luxación posterior clásica, con la posición impúdica."
+  },
+  {
+    "number": 54,
+    "id": "Q-TRAUMATOLOGIA-54",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 3,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.9",
+    "topicTitle": "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
+    "perfilCode": "4.02.2.004",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una paciente de 26 años, sin antecedentes, mientras iba como copiloto sufre accidente de tránsito, resultando con dolor en extremidad inferior derecha. Al ingreso con vía aérea permeable, respiración espontánea, sin sangramientos evidentes, presión arterial de 150/90, Glasgow 15, extremidad inferior derecha en posición púdica. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Luxación anterior de cadera"
+      },
+      {
+        "id": "B",
+        "text": "Fractura intertrocantérica"
+      },
+      {
+        "id": "C",
+        "text": "Fractura de cuello femoral"
+      },
+      {
+        "id": "D",
+        "text": "Luxación posterior de cadera"
+      },
+      {
+        "id": "E",
+        "text": "Fractura de pelvis"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La posición púdica es característica de la luxación posterior. La fractura, en cambio tiene posición impúdica (abducción, rotación externa y acortamiento)."
+  },
+  {
+    "number": 55,
+    "id": "Q-TRAUMATOLOGIA-55",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "",
+    "topicTitle": "Pie plano",
+    "perfilCode": "4.02.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Niño de 8 años con pie plano flexible asintomático. Arco plantar presente al pararse en puntillas. Sin dolor, sin limitación funcional. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tranquilizar a los padres: pie plano flexible fisiológico, no requiere plantillas ni tratamiento"
+      },
+      {
+        "id": "B",
+        "text": "Plantillas correctoras"
+      },
+      {
+        "id": "C",
+        "text": "Derivar a ortopedia"
+      },
+      {
+        "id": "D",
+        "text": "Fisioterapia intensiva"
+      },
+      {
+        "id": "E",
+        "text": "Cirugía correctora"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Pie plano flexible en niño (<10 años) con arco que reaparece al puntillas = fisiológico. No hay evidencia de que las plantillas modifiquen el desarrollo del arco. Solo se trata si es doloroso o rígido."
+  },
+  {
+    "number": 56,
+    "id": "Q-TRAUMATOLOGIA-56",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "",
+    "topicTitle": "Pie plano",
+    "perfilCode": "4.02.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Paciente que comenzó a trotar, presenta dolor en el pie y callosidades; arco plantar pronunciado e hiperqueratosis anterior. ¿A qué corresponde esta alteración?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pie plano"
+      },
+      {
+        "id": "B",
+        "text": "Pie cavo"
+      },
+      {
+        "id": "C",
+        "text": "Pie equino"
+      },
+      {
+        "id": "D",
+        "text": "Pie varo"
+      },
+      {
+        "id": "E",
+        "text": "Hallux valgus"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Pie cavo"
+  },
+  {
+    "number": 57,
+    "id": "Q-TRAUMATOLOGIA-57",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "",
+    "topicTitle": "Pie plano",
+    "perfilCode": "4.02.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 30 años empieza a trotar hace 2 semanas, sin embargo, refiere que deforma las zapatillas y que presenta dolor en la planta del pie y el antepié. Al examen físico se aprecia arco plantar muy marcado y callosidades en la zona anterior del pie, a nivel de la cabeza de los huesos metatarsianos. ¿Cómo se conoce esta formación del pie?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pie plano"
+      },
+      {
+        "id": "B",
+        "text": "Pie varo"
+      },
+      {
+        "id": "C",
+        "text": "Pie bot"
+      },
+      {
+        "id": "D",
+        "text": "Pie equino"
+      },
+      {
+        "id": "E",
+        "text": "Pie cavo"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Caso clínico oficial EUNACOM para Pie plano."
+  },
+  {
+    "number": 58,
+    "id": "Q-TRAUMATOLOGIA-58",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "",
+    "topicTitle": "Pie plano",
+    "perfilCode": "4.02.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Recién nacido con pie equino varo bilateral (CTEV) detectado al nacimiento. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Control en el próximo control de salud infantil"
+      },
+      {
+        "id": "B",
+        "text": "Derivar a ortopedia infantil para inicio de método Ponseti"
+      },
+      {
+        "id": "C",
+        "text": "Hospitalizar para cirugía inmediata"
+      },
+      {
+        "id": "D",
+        "text": "Observación domiciliaria: se corrige solo"
+      },
+      {
+        "id": "E",
+        "text": "Kinesiología ambulatoria y férulas"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Pie equino varo congénito: derivación URGENTE a ortopedia pediátrica para inicio del método de Ponseti (yesos seriados + tenotomía percutánea del Aquiles si necesario). Debe comenzarse en las primeras semanas de vida para mejores resultados. Es corregible con tratamiento precoz."
+  },
+  {
+    "number": 59,
+    "id": "Q-TRAUMATOLOGIA-59",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.10",
+    "topicTitle": "Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda",
+    "perfilCode": "8.01.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial y Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Semiología de estabilidad de rodilla en el servicio de urgencia."
+    },
+    "stem": "Un paciente relata que al caminar siente que su rodilla se queda atascada y le duele. Al examen con la maniobra de Apley, le duele al rotar en rotación externa. ¿Cuál es el diagnóstico y el examen de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lesión del menisco externo; radiografía de rodilla"
+      },
+      {
+        "id": "B",
+        "text": "Lesión del menisco interno; resonancia magnética nuclear"
+      },
+      {
+        "id": "C",
+        "text": "Rotura del ligamento cruzado anterior; resonancia magnética"
+      },
+      {
+        "id": "D",
+        "text": "Lesión del menisco interno; radiografía de rodilla en dos proyecciones"
+      },
+      {
+        "id": "E",
+        "text": "Disfunción patelofemoral; solo reposo y AINEs"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: Si duele a la rotación externa es el menisco interno el afectado. Además la radiografía no diagnostica lesiones meniscales porque son tejido blando. Opción B: Con la maniobra de Apley el talón apunta al menisco afectado: si duele a la rotación externa está lesionado el menisco interno. El diagnóstico se confirma con resonancia magnética nuclear. Opción C: La rotura del ligamento cruzado anterior produce inestabilidad y cajón anterior, no bloqueo articular. El bloqueo articular es característico de lesión meniscal. Opción D: El diagnóstico de menisco interno es correcto según la maniobra de Apley, pero la radiografía no ve los meniscos. El examen de elección es la resonancia magnética. Opción E: La disfunción patelofemoral produce dolor anterior de rodilla con actividad sin bloqueo articular. El bloqueo articular orienta a lesión meniscal."
+  },
+  {
+    "number": 60,
+    "id": "Q-TRAUMATOLOGIA-60",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.10",
+    "topicTitle": "Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda",
+    "perfilCode": "8.01.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial y Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Semiología de estabilidad de rodilla en el servicio de urgencia."
+    },
+    "stem": "Un futbolista sufre un mecanismo de hiperextensión de rodilla y presenta inestabilidad y cajón anterior positivo. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rotura del ligamento cruzado posterior; tratamiento conservador"
+      },
+      {
+        "id": "B",
+        "text": "Rotura del ligamento cruzado anterior; cirugía artroscópica"
+      },
+      {
+        "id": "C",
+        "text": "Rotura del ligamento cruzado anterior; tratamiento conservador con reposo y AINEs"
+      },
+      {
+        "id": "D",
+        "text": "Lesión de menisco interno; maniobra de Apley para confirmar"
+      },
+      {
+        "id": "E",
+        "text": "Esguince de ligamento colateral lateral; inmovilizador de rodilla"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El cajón anterior es signo de rotura del ligamento cruzado anterior, no del posterior. El cajón posterior indica lesión del cruzado posterior. Opción B: El cajón anterior es el signo de rotura del ligamento cruzado anterior. La rotura del cruzado anterior siempre se opera artroscópicamente porque de lo contrario queda con inestabilidad permanente. Opción C: La rotura del ligamento cruzado anterior no se trata conservadoramente porque queda con demasiada inestabilidad. Siempre se opera artroscópicamente. Opción D: La lesión de menisco produce bloqueo articular, no inestabilidad con cajón anterior. El cajón anterior es específico de rotura del ligamento cruzado anterior. Opción E: El esguince colateral lateral produce signo de bostezo hacia lateral por varo forzado, no cajón anterior. El cajón anterior es específico del cruzado anterior."
+  },
+  {
+    "number": 61,
+    "id": "Q-TRAUMATOLOGIA-61",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.10",
+    "topicTitle": "Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda",
+    "perfilCode": "8.01.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial y Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Semiología de estabilidad de rodilla en el servicio de urgencia."
+    },
+    "stem": "En el enfrentamiento clínico sistemático de Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda (Variante de Práctica 1) en APS o Servicio de Urgencia según la norma técnica MINSAL, ¿cuál es la conducta diagnóstica o terapéutica de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En Lesiones Ligamentosas y Meniscales de Rodilla, la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo y analgesia condicional sin estudio diagnóstico confirmatorio ni seguimiento."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar estudio terciario de alta complejidad antes de estabilizar y aplicar medidas básicas."
+      },
+      {
+        "id": "D",
+        "text": "Indicar tratamiento empírico con antibióticos o corticoides en dosis plenas sin indicación precisa."
+      },
+      {
+        "id": "E",
+        "text": "Derivar en forma electiva a especialista sin iniciar estudio básico ni soporte inicial."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Según el Perfil de Conocimientos V3 ASOFAMECh y las guías de práctica clínica para Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda, la conducta médica prioritaria es: En Lesiones Ligamentosas y Meniscales de Rodilla, la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar.. Las demás opciones representan conductas diferidas o inapropiadas en el nivel primario."
+  },
+  {
+    "number": 62,
+    "id": "Q-TRAUMATOLOGIA-62",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.10",
+    "topicTitle": "Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda",
+    "perfilCode": "8.01.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial y Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Semiología de estabilidad de rodilla en el servicio de urgencia."
+    },
+    "stem": "En el enfrentamiento clínico sistemático de Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda (Variante de Práctica 2) en APS o Servicio de Urgencia según la norma técnica MINSAL, ¿cuál es la conducta diagnóstica o terapéutica de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En Lesiones Ligamentosas y Meniscales de Rodilla, la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo y analgesia condicional sin estudio diagnóstico confirmatorio ni seguimiento."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar estudio terciario de alta complejidad antes de estabilizar y aplicar medidas básicas."
+      },
+      {
+        "id": "D",
+        "text": "Indicar tratamiento empírico con antibióticos o corticoides en dosis plenas sin indicación precisa."
+      },
+      {
+        "id": "E",
+        "text": "Derivar en forma electiva a especialista sin iniciar estudio básico ni soporte inicial."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Según el Perfil de Conocimientos V3 ASOFAMECh y las guías de práctica clínica para Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda, la conducta médica prioritaria es: En Lesiones Ligamentosas y Meniscales de Rodilla, la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar.. Las demás opciones representan conductas diferidas o inapropiadas en el nivel primario."
+  },
+  {
+    "number": 63,
+    "id": "Q-TRAUMATOLOGIA-63",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "1.01.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Médico en personas de 55 años y más con Artrosis de Cadera o Rodilla."
+    },
+    "stem": "Hombre de sesenta y cinco años consulta por dolor en la rodilla derecha de seis meses de evolución que empeora al caminar y mejora con el reposo. La radiografía de rodilla muestra disminución del espacio articular, osteofitos marginales y esclerosis subcondral. Hasta ahora no ha recibido tratamiento. ¿Cuál es el primer escalón terapéutico indicado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Corticoides intrarticulares de rodilla derecha"
+      },
+      {
+        "id": "B",
+        "text": "Reemplazo articular de rodilla derecha"
+      },
+      {
+        "id": "C",
+        "text": "Paracetamol un gramo cada ocho horas más ejercicios de fortalecimiento de cuádriceps"
+      },
+      {
+        "id": "D",
+        "text": "Ibuprofeno más omeprazol como tratamiento de inicio"
+      },
+      {
+        "id": "E",
+        "text": "Tramadol oral por su mayor eficacia analgésica"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: Los corticoides intrarticulares corresponden a una etapa avanzada del tratamiento escalonado de la artrosis, cuando han fallado el paracetamol, los AINE y los opiáceos. No son el primer escalón. Opción B: La cirugía con prótesis articular es la última línea de tratamiento en la artrosis, reservada para cuando todos los tratamientos médicos han fracasado. No es el manejo inicial. Opción C: El primer escalón del tratamiento de la artrosis es el paracetamol en dosis altas, habitualmente un gramo cada ocho horas, combinado con ejercicio de fortalecimiento muscular, especialmente del cuádriceps para la artrosis de rodilla. Está demostrado que disminuye el dolor. Opción D: Los AINE como el ibuprofeno corresponden al segundo escalón terapéutico, cuando el paracetamol más el ejercicio no han logrado controlar el dolor. No son el tratamiento inicial. Opción E: El tramadol, un opioide débil, es el tercer escalón en el tratamiento de la artrosis, indicado solo cuando el paracetamol y los AINE han fallado. Comenzar con opioides sería saltarse dos escalones del tratamiento."
+  },
+  {
+    "number": 64,
+    "id": "Q-TRAUMATOLOGIA-64",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "1.01.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Médico en personas de 55 años y más con Artrosis de Cadera o Rodilla."
+    },
+    "stem": "Mujer de cincuenta y ocho años con insuficiencia renal crónica estadio tres y úlcera duodenal activa consulta por artrosis de cadera con dolor que no cede con paracetamol. ¿Cuál es el siguiente paso correcto en el manejo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agregar ibuprofeno más omeprazol como protección gástrica"
+      },
+      {
+        "id": "B",
+        "text": "Agregar celecoxib, ya que los COX-2 no producen úlcera"
+      },
+      {
+        "id": "C",
+        "text": "Tramadol oral, saltando el escalón de los AINE por contraindicación"
+      },
+      {
+        "id": "D",
+        "text": "Corticoides orales en dosis bajas como antiinflamatorio alternativo"
+      },
+      {
+        "id": "E",
+        "text": "Derivar directamente a cirugía por la complejidad del caso"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: Los AINE están contraindicados en esta paciente por la úlcera duodenal activa y la insuficiencia renal crónica. Aunque se agregue omeprazol, el riesgo renal persiste y es una contraindicación formal. Opción B: Si bien los inhibidores COX-2 tienen menor riesgo gastrointestinal, siguen estando contraindicados en insuficiencia renal crónica porque pueden deteriorar la función renal. En esta paciente se deben evitar todos los AINE. Opción C: Cuando los AINE están contraindicados, ya sea por úlcera péptica activa o insuficiencia renal crónica, el protocolo indica saltar ese escalón y pasar directamente del paracetamol al tramadol. Esta es una pregunta clásica del EUNACOM sobre el tratamiento escalonado de la artrosis. Opción D: Los corticoides orales no forman parte del tratamiento escalonado de la artrosis. Los corticoides que pueden indicarse son los intrarticulares, y solo cuando han fallado el paracetamol, AINE y opiáceos. Opción E: La cirugía es la última línea del tratamiento de la artrosis. Aún no se han agotado las opciones médicas disponibles para esta paciente, como los opiáceos y los corticoides intrarticulares."
+  },
+  {
+    "number": 65,
+    "id": "Q-TRAUMATOLOGIA-65",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "1.01.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Médico en personas de 55 años y más con Artrosis de Cadera o Rodilla."
+    },
+    "stem": "En el enfrentamiento clínico sistemático de Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES) (Variante de Práctica 1) en APS o Servicio de Urgencia según la norma técnica MINSAL, ¿cuál es la conducta diagnóstica o terapéutica de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES), la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo y analgesia condicional sin estudio diagnóstico confirmatorio ni seguimiento."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar estudio terciario de alta complejidad antes de estabilizar y aplicar medidas básicas."
+      },
+      {
+        "id": "D",
+        "text": "Indicar tratamiento empírico con antibióticos o corticoides en dosis plenas sin indicación precisa."
+      },
+      {
+        "id": "E",
+        "text": "Derivar en forma electiva a especialista sin iniciar estudio básico ni soporte inicial."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Según el Perfil de Conocimientos V3 ASOFAMECh y las guías de práctica clínica para Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES), la conducta médica prioritaria es: En Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES), la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar.. Las demás opciones representan conductas diferidas o inapropiadas en el nivel primario."
+  },
+  {
+    "number": 66,
+    "id": "Q-TRAUMATOLOGIA-66",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "4.02.2.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Tratamiento Médico en personas de 55 años y más con Artrosis de Cadera o Rodilla."
+    },
+    "stem": "Paciente obeso con dolor en la cara externa de la cadera, claudicación y dolor a la palpación lateral con limitación a la rotación interna. ¿Diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coxartrosis (artrosis de cadera)"
+      },
+      {
+        "id": "B",
+        "text": "Síndrome de la banda iliotibial"
+      },
+      {
+        "id": "C",
+        "text": "Tendinopatía del glúteo medio"
+      },
+      {
+        "id": "D",
+        "text": "Bursitis trocantérica"
+      },
+      {
+        "id": "E",
+        "text": "Fractura de estrés del cuello femoral"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Bursitis trocantérica"
+  },
+  {
+    "number": 67,
+    "id": "Q-TRAUMATOLOGIA-67",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "4.02.2.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una paciente de 65 años, con IMC: 34, consulta por dolor progresivo, de una semana de evolución, en la cara lateral de la cadera, que aumenta con la caminata y limita sus movimientos. Además, en el último tiempo, el dolor le impide dormir para ese lado. Al examen físico tiene dolor a la palpación de la cara externa de la cadera y a la rotación externa forzada. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coxartrosis"
+      },
+      {
+        "id": "B",
+        "text": "Fractura incompleta de cadera por estrés"
+      },
+      {
+        "id": "C",
+        "text": "Hernia del núcleo pulposo, con radiculopatía L2"
+      },
+      {
+        "id": "D",
+        "text": "Bursitis trocantérica"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de la fascia lata rígida"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Caso clínico oficial EUNACOM para Lesiones de partes blandas (contusiones,."
+  },
+  {
+    "number": 68,
+    "id": "Q-TRAUMATOLOGIA-68",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "4.02.2.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Futbolista de 22 años que sufre giro brusco con la rodilla semiflexionada. Presenta edema articular rápido (hemartros), signo del cajón anterior positivo y prueba de Lachman positiva. ¿Qué estructura se lesionó?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ligamento cruzado anterior (LCA)"
+      },
+      {
+        "id": "B",
+        "text": "Ligamento cruzado posterior (LCP)"
+      },
+      {
+        "id": "C",
+        "text": "Ligamento colateral medial (LCM)"
+      },
+      {
+        "id": "D",
+        "text": "Menisco medial"
+      },
+      {
+        "id": "E",
+        "text": "Ligamento patelofemoral"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Cajón anterior (+) + Lachman (+) + hemartros post trauma en valgus/rotación = ruptura del ligamento cruzado anterior (LCA). Es la lesión ligamentaria más frecuente en deportistas jóvenes."
+  },
+  {
+    "number": 69,
+    "id": "Q-TRAUMATOLOGIA-69",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.11",
+    "topicTitle": "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
+    "perfilCode": "4.02.2.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 65 años sufre una caída a nivel, con golpe en la rodilla derecha. Evoluciona con dolor e impotencia funcional. Se observa depresión suprarrotuliana en dicha rodilla y se solicita una radiografía de rodilla derecha, que no evidencia rasgos de fractura. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Luxación de rótula"
+      },
+      {
+        "id": "B",
+        "text": "Disfunción patelo-femoral"
+      },
+      {
+        "id": "C",
+        "text": "Rotura del ligamento cruzado anterior"
+      },
+      {
+        "id": "D",
+        "text": "Rotura del ligamento rotuliano"
+      },
+      {
+        "id": "E",
+        "text": "Rotura del ligamento del cuádriceps"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Solo por la anatomía es posible adivinar la respuesta. El ligamento del cuádriceps está sobre la rótula. El tendón rotuliano está debajo de la rótula y se inserta en la tuberosidad tibial."
+  },
+  {
+    "number": 70,
+    "id": "Q-TRAUMATOLOGIA-70",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.12",
+    "topicTitle": "Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa)",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Maniobra de reducción de pronación dolorosa (supinación-flexión)."
+    },
+    "stem": "Recién nacida de dos días de vida, sexo femenino, parto en presentación podálica. En el examen físico se detecta que al flexionar y abducir la cadera se escucha un clic y la cadera luxada logra reposicionarse en el acetábulo. ¿Cuál de los siguientes describe correctamente este hallazgo?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Signo de Barlow positivo: la cadera encajada se luxa al aplicar presión"
+      },
+      {
+        "id": "B",
+        "text": "Signo de Ortolani positivo: la cadera luxada se reduce al abducir"
+      },
+      {
+        "id": "C",
+        "text": "Arco de Shenton discontinuo visible en la radiografía AP de pelvis"
+      },
+      {
+        "id": "D",
+        "text": "Pie bot o pie zambo bilateral por artrogriposis neonatal"
+      },
+      {
+        "id": "E",
+        "text": "Epifisiólisis de la cabeza femoral por obesidad en el adolescente"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El signo de Barlow es el opuesto: la cadera está encajada y se puede luxar con la maniobra. En este caso la cadera estaba luxada y se logró reducir, lo que corresponde al signo de Ortolani. Opción B: El signo de Ortolani indica que la cadera viene basalmente luxada y al realizar la maniobra de abducción y flexión, el examinador logra reposicionarla o reducirla al acetábulo. Es el hallazgo clásico de displasia del desarrollo de cadera en el recién nacido. Opción C: El arco de Shenton es un hallazgo radiográfico, no un signo clínico de exploración física. El enunciado describe una maniobra clínica en el recién nacido, no un hallazgo imagenológico. Opción D: El pie zambo es una deformidad del pie, no de la cadera. El hallazgo descrito en el enunciado es específico de la displasia del desarrollo de cadera, con reducción de la articulación luxada. Opción E: La epifisiólisis ocurre en adolescentes de doce a quince años, frecuentemente obesos, no en recién nacidos. El enunciado describe claramente una patología neonatal."
+  },
+  {
+    "number": 71,
+    "id": "Q-TRAUMATOLOGIA-71",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.12",
+    "topicTitle": "Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa)",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Maniobra de reducción de pronación dolorosa (supinación-flexión)."
+    },
+    "stem": "Niño de siete años, previamente sano, de talla baja para su edad y que practica fútbol cuatro veces por semana. Consulta por dolor en la ingle derecha y cojera de dos semanas de evolución. La radiografía AP de pelvis muestra aplanamiento y aumento de densidad de la cabeza femoral derecha en comparación con la izquierda. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sinovitis transitoria de cadera"
+      },
+      {
+        "id": "B",
+        "text": "Artritis séptica de cadera derecha"
+      },
+      {
+        "id": "C",
+        "text": "Epifisiólisis de la cabeza femoral derecha"
+      },
+      {
+        "id": "D",
+        "text": "Enfermedad de Perthes de cadera derecha"
+      },
+      {
+        "id": "E",
+        "text": "Displasia del desarrollo de cadera con luxación tardía"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La opción correcta es la D. Opción A: La sinovitis transitoria afecta a niños de dos a cuatro años, presenta radiografía normal y suele asociarse a infección respiratoria viral previa. La radiografía alterada y la edad descartan este diagnóstico. Opción B: La artritis séptica cursa con fiebre, compromiso sistémico y líquido articular inflamatorio con bacterias. El enunciado no describe estos hallazgos sistémicos, y la radiografía sugiere otra entidad. Opción C: La epifisiólisis ocurre en adolescentes de doce a quince años, frecuentemente obesos. La radiografía muestra separación de la epifisis, no aplanamiento ni aumento de densidad. Este paciente tiene siete años y talla baja. Opción D: La enfermedad de Perthes es una necrosis avascular de la cabeza femoral en niños de cinco a diez años. Se asocia a talla baja y actividad física intensa. La radiografía muestra aplanamiento y aumento de densidad de la cabeza femoral, hallazgos clásicos de esta entidad. Opción E: La displasia del desarrollo de cadera se diagnostica en recién nacidos y lactantes. A los siete años con radiografía que muestra aplanamiento y esclerosis de la cabeza femoral, el diagnóstico es la enfermedad de Perthes."
+  },
+  {
+    "number": 72,
+    "id": "Q-TRAUMATOLOGIA-72",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 4,
+    "blockName": "Extremidad Superior, Inferior & Cadera",
+    "topicLabel": "12.12",
+    "topicTitle": "Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa)",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Maniobra de reducción de pronación dolorosa (supinación-flexión)."
+    },
+    "stem": "En el enfrentamiento clínico sistemático de Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa) (Variante de Práctica 2) en APS o Servicio de Urgencia según la norma técnica MINSAL, ¿cuál es la conducta diagnóstica o terapéutica de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "En Traumatología Infantil, la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo y analgesia condicional sin estudio diagnóstico confirmatorio ni seguimiento."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar estudio terciario de alta complejidad antes de estabilizar y aplicar medidas básicas."
+      },
+      {
+        "id": "D",
+        "text": "Indicar tratamiento empírico con antibióticos o corticoides en dosis plenas sin indicación precisa."
+      },
+      {
+        "id": "E",
+        "text": "Derivar en forma electiva a especialista sin iniciar estudio básico ni soporte inicial."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Según el Perfil de Conocimientos V3 ASOFAMECh y las guías de práctica clínica para Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa), la conducta médica prioritaria es: En Traumatología Infantil, la evaluación neurovascular distal (pulsos, llenado capilar, sensibilidad motora) es obligatoria antes y después de inmovilizar.. Las demás opciones representan conductas diferidas o inapropiadas en el nivel primario."
+  },
+  {
+    "number": 73,
+    "id": "Q-TRAUMATOLOGIA-73",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "",
+    "topicTitle": "Esguince grado1",
+    "perfilCode": "4.02.2.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Dolor de rodilla jugando fútbol por movimiento de torsión, al examen físico con dolor al valgo, sin bostezo:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rotura ligamento cruzado posterior"
+      },
+      {
+        "id": "B",
+        "text": "Ligamento cruzado anterior"
+      },
+      {
+        "id": "C",
+        "text": "Esguince colateral medial (pero no tenía bostezo)"
+      },
+      {
+        "id": "D",
+        "text": "Rotura menisco medial (tenía sentido con el mecanismo de lesión en torsión)"
+      },
+      {
+        "id": "E",
+        "text": "Hemograma y VHS"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Diciembre 2024 · Pregunta 57). Evalúa el manejo clínico de Esguince grado1 según directrices MINSAL vigentes."
+  },
+  {
+    "number": 74,
+    "id": "Q-TRAUMATOLOGIA-74",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Displasia del Desarrollo de la Cadera · Radiografía de pelvis a los 3 meses."
+    },
+    "stem": "Un deportista de cuarenta años va corriendo y siente súbitamente como una pedrada intensa en el talón. No puede caminar. La maniobra de Thompson está alterada. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Esguince de tobillo grado tres; inmovilización con bota removible"
+      },
+      {
+        "id": "B",
+        "text": "Rotura del tendón de Aquiles; cirugía urgente"
+      },
+      {
+        "id": "C",
+        "text": "Rotura del tendón de Aquiles; inmovilización con yeso"
+      },
+      {
+        "id": "D",
+        "text": "Fractura de calcáneo; radiografía de pie"
+      },
+      {
+        "id": "E",
+        "text": "Desgarro muscular de gemelos; RICE y AINEs"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El esguince de tobillo se produce por inversión o eversión y afecta los ligamentos laterales, no produce el síntoma del piedrazo ni altera la maniobra de Thompson. Opción B: El síntoma del piedrazo con dolor súbito muy intenso en el talón al correr más la maniobra de Thompson alterada son el cuadro clásico de rotura del tendón de Aquiles. Requiere cirugía urgente antes de que los gastrocnemios se retraigan. Opción C: La rotura del tendón de Aquiles requiere cirugía urgente, no solo inmovilización. Si se demora en operar los gastrocnemios se retraen y es difícil unir los extremos. Opción D: La fractura de calcáneo tiene mecanismo de caída de altura aterrizando en el pie, no el síntoma del piedrazo al correr. La maniobra de Thompson alterada orienta a rotura del tendón de Aquiles. Opción E: El desgarro muscular de gemelos no produce la maniobra de Thompson alterada ni el síntoma del piedrazo en el talón. La maniobra de Thompson alterada es específica de rotura del tendón de Aquiles."
+  },
+  {
+    "number": 75,
+    "id": "Q-TRAUMATOLOGIA-75",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Displasia del Desarrollo de la Cadera · Radiografía de pelvis a los 3 meses."
+    },
+    "stem": "Un paciente tiene dolor y edema en la pantorrilla izquierda. Refiere que desde hace varios meses tenía un bulto indoloro en la zona posterior de la rodilla que ahora desapareció. ¿Cuál es el diagnóstico y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TVP; ecodoppler y anticoagulación urgente"
+      },
+      {
+        "id": "B",
+        "text": "Quiste de Baker roto; analgesia con AINEs"
+      },
+      {
+        "id": "C",
+        "text": "Quiste de Baker roto; cirugía de extirpación urgente"
+      },
+      {
+        "id": "D",
+        "text": "Hematoma de pantorrilla; frío local y AINEs"
+      },
+      {
+        "id": "E",
+        "text": "Esguince de rodilla; inmovilizador y AINEs"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La TVP tiene antecedente de trombofilia, inmovilidad o fractura. El antecedente de bulto previo en la fosa poplítea que desapareció orienta a quiste de Baker roto, no TVP. Opción B: El antecedente del bulto en la fosa poplítea que desapareció más el dolor y edema en la pantorrilla corresponde a quiste de Baker roto. El tratamiento es analgesia con AINEs ya que es un cuadro transitorio. Opción C: El quiste de Baker roto no requiere cirugía urgente. El tratamiento es analgesia porque el cuadro es doloroso pero transitorio. La cirugía es excepcional. Opción D: Un hematoma requiere antecedente de trauma o desgarro muscular. El antecedente del bulto previo en la fosa poplítea que desapareció es diagnóstico de quiste de Baker roto. Opción E: El esguince de rodilla requiere traumatismo de la rodilla. El bulto previo en la fosa poplítea y el dolor en la pantorrilla post desaparición del bulto es el cuadro clásico de quiste de Baker roto."
+  },
+  {
+    "number": 76,
+    "id": "Q-TRAUMATOLOGIA-76",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Displasia del Desarrollo de la Cadera · Radiografía de pelvis a los 3 meses."
+    },
+    "stem": "Un paciente sufre un esguince de tobillo por inversión y presenta equimosis lateral más inestabilidad articular al examen. ¿Cuál es el grado y el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grado uno; solo analgesia sin inmovilización"
+      },
+      {
+        "id": "B",
+        "text": "Grado dos; RICE más inmovilización con órtesis removible"
+      },
+      {
+        "id": "C",
+        "text": "Grado tres; RICE más inmovilización con órtesis removible"
+      },
+      {
+        "id": "D",
+        "text": "Grado tres; cirugía de reparación ligamentaria urgente"
+      },
+      {
+        "id": "E",
+        "text": "Grado uno; RICE sin necesidad de radiografía"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: El grado uno tiene solo dolor sin equimosis ni inestabilidad. La presencia de equimosis e inestabilidad corresponde al grado tres. Opción B: El grado dos tiene rotura parcial con equimosis pero sin inestabilidad articular. La inestabilidad indica rotura total que es grado tres. Opción C: El grado tres tiene rotura total del ligamento con inestabilidad articular más equimosis. El tratamiento es RICE más AINEs más inmovilización con órtesis removible. La cirugía es excepcional. Opción D: El grado tres con inestabilidad es correcto, pero la cirugía no es el tratamiento inicial. El tratamiento es RICE e inmovilización con órtesis. La cirugía se considera solo si hay inestabilidad persistente en el tiempo. Opción E: La equimosis e inestabilidad corresponden a grado tres, no grado uno. Además, siempre se pide radiografía de tobillo para descartar fractura antes de diagnosticar esguince."
+  },
+  {
+    "number": 77,
+    "id": "Q-TRAUMATOLOGIA-77",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "1.08.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Displasia del Desarrollo de la Cadera · Radiografía de pelvis a los 3 meses."
+    },
+    "stem": "En el contexto del manejo de Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES, ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES, la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 78,
+    "id": "Q-TRAUMATOLOGIA-78",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "4.02.1.002",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Displasia del Desarrollo de la Cadera · Radiografía de pelvis a los 3 meses."
+    },
+    "stem": "Un niño es diagnosticado de displasia de cadera a los 6 meses de vida, mediante una radiografía, que muestra la displasia, con luxación del extremo proximal del fémur izquierdo. ¿Cuál es el tratamiento de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Doble pañal"
+      },
+      {
+        "id": "B",
+        "text": "Correas de Pavlik"
+      },
+      {
+        "id": "C",
+        "text": "Yeso con fijador"
+      },
+      {
+        "id": "D",
+        "text": "Osteotomía periacetabular tipo Ganz"
+      },
+      {
+        "id": "E",
+        "text": "Reducción abierta y fijación con osteosíntesis"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene una displasia de cadera menor a 9 meses, que se trata con arnés de Pavlik."
+  },
+  {
+    "number": 79,
+    "id": "Q-TRAUMATOLOGIA-79",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "4.02.1.002",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un niño de 3 meses de edad se realiza una radiografía de pelvis, que muestra displasia de cadera izquierda, con índice acetabular de 36 grados. La indicación más adecuada es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ejercicios de rotación y compresión"
+      },
+      {
+        "id": "B",
+        "text": "Bota larga bilateral de yeso, con yugo"
+      },
+      {
+        "id": "C",
+        "text": "Yeso pelvipedio"
+      },
+      {
+        "id": "D",
+        "text": "Uso de doble pañal"
+      },
+      {
+        "id": "E",
+        "text": "Arnés de Pavlik"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Menores de 10 meses (según Minsal) o menores de 6 meses (universalmente aceptado) se manejan con correas de Pavlik"
+  },
+  {
+    "number": 80,
+    "id": "Q-TRAUMATOLOGIA-80",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.13",
+    "topicTitle": "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
+    "perfilCode": "4.02.1.002",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Niño de 9 años con cojera indolora progresiva de 3 semanas. Rx de cadera: aplanamiento y fragmentación de la cabeza femoral derecha. ¿Cuál es el diagnóstico y conducta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enfermedad de Legg-Calvé-Perthes: derivar a ortopedia infantil"
+      },
+      {
+        "id": "B",
+        "text": "Sinovitis transitoria: reposo y AINEs"
+      },
+      {
+        "id": "C",
+        "text": "Artritis séptica: hospitalizar y cirugía"
+      },
+      {
+        "id": "D",
+        "text": "Displasia del desarrollo de cadera: arnés de Pavlik"
+      },
+      {
+        "id": "E",
+        "text": "Osteosarcoma: biopsia urgente"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Necrosis avascular de la cabeza femoral en niño 4-10 años + Rx con fragmentación y aplanamiento = enfermedad de Perthes. Derivar a ortopedia para decidir tratamiento conservador vs quirúrgico según clasificación."
+  },
+  {
+    "number": 81,
+    "id": "Q-TRAUMATOLOGIA-81",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.14",
+    "topicTitle": "Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis",
+    "perfilCode": "4.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Cáncer en menores de 15 años · Alivio del dolor por cáncer avanzado."
+    },
+    "stem": "Un adolescente de 16 años presenta dolor en la rodilla derecha, luego de haberse golpeado. Al examen físico se palpa aumento de volumen de consistencia ósea, por lo que se solicita una radiografía, que muestra una lesión ósea herterogénea, ubicada en el extremo distal del fémur, con disrupción de la cortical y zonas líticas, con otras de aumento de la densidad. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osteocondroma"
+      },
+      {
+        "id": "B",
+        "text": "Tumor de células gigantes"
+      },
+      {
+        "id": "C",
+        "text": "Osteosarcoma"
+      },
+      {
+        "id": "D",
+        "text": "Displasia ósea fibrosa"
+      },
+      {
+        "id": "E",
+        "text": "Quiste óseo"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tumor óseo de aspecto maligno. Por ubicación y edad es osteosarcoma (adolescentes y adultos mayores). Recordar que Sarcoma de Ewing es diaisiario."
+  },
+  {
+    "number": 82,
+    "id": "Q-TRAUMATOLOGIA-82",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.14",
+    "topicTitle": "Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis",
+    "perfilCode": "4.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Cáncer en menores de 15 años · Alivio del dolor por cáncer avanzado."
+    },
+    "stem": "Un adolescente de quince años presenta dolor en el muslo derecho. La radiografía muestra una lesión en la metáfisis del fémur con disrupción de la cortical, invasión de partes blandas y reacción perióstica en sol naciente. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osteocondroma"
+      },
+      {
+        "id": "B",
+        "text": "Osteosarcoma"
+      },
+      {
+        "id": "C",
+        "text": "Sarcoma de Ewing"
+      },
+      {
+        "id": "D",
+        "text": "Tumor de células gigantes"
+      },
+      {
+        "id": "E",
+        "text": "Osteoma osteoide"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El osteocondroma es benigno con aspecto polipoidea y sin disrupción de la cortical. No tiene invasión de partes blandas ni reacción perióstica compleja. Opción B: El osteosarcoma ocurre en adolescentes y adultos jóvenes con localización metafisiaria. La disrupción de la cortical, invasión de partes blandas y reacción perióstica en sol naciente son signos de malignidad típicos del osteosarcoma. Opción C: El sarcoma de Ewing también ocurre en adolescentes pero su localización más característica es diafisiaria, no metafisiaria. La localización metafisiaria en un adolescente orienta más a osteosarcoma. Opción D: El tumor de células gigantes ocurre en adultos de cuarenta a cincuenta años, no en adolescentes de quince años. La edad y la localización metafisiaria en adolescente apuntan a osteosarcoma. Opción E: El osteoma osteoide es benigno con imagen radiolúcida con halo radiopaco en la cortical, sin disrupción ni invasión de partes blandas. El aspecto maligno de la lesión excluye esta opción."
+  },
+  {
+    "number": 83,
+    "id": "Q-TRAUMATOLOGIA-83",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.14",
+    "topicTitle": "Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis",
+    "perfilCode": "4.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Cáncer en menores de 15 años · Alivio del dolor por cáncer avanzado."
+    },
+    "stem": "Un niño de diez años presenta dolor en la diáfisis del húmero. La radiografía muestra una lesión diafisiaria con aspecto heterogéneo, disrupción de la cortical y extensión a partes blandas. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osteosarcoma"
+      },
+      {
+        "id": "B",
+        "text": "Sarcoma de Ewing"
+      },
+      {
+        "id": "C",
+        "text": "Tumor de células gigantes"
+      },
+      {
+        "id": "D",
+        "text": "Osteocondroma"
+      },
+      {
+        "id": "E",
+        "text": "Enfermedad de Paget"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: El osteosarcoma en adolescentes tiene localización metafisiaria preferentemente, no diafisiaria. La localización diafisiaria en un niño orienta a sarcoma de Ewing. Opción B: El sarcoma de Ewing afecta a niños y adolescentes con localización diafisiaria característica. La lesión maligna en diáfisis de un niño es sarcoma de Ewing hasta que se demuestre lo contrario. Opción C: El tumor de células gigantes afecta a adultos de cuarenta a cincuenta años y se localiza alrededor de la rodilla. No corresponde a un niño de diez años con lesión diafisiaria. Opción D: El osteocondroma es benigno con aspecto polipoidea sin disrupción de la cortical. El aspecto maligno con disrupción y extensión a partes blandas excluye esta opción. Opción E: La enfermedad de Paget es una lesión pseudotumoral de adultos mayores con lesiones en sal y pimienta y fosfatasa alcalina elevada. No corresponde a un niño con lesión diafisiaria maligna."
+  },
+  {
+    "number": 84,
+    "id": "Q-TRAUMATOLOGIA-84",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.14",
+    "topicTitle": "Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis",
+    "perfilCode": "4.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una mujer de 18 años presenta traumatismo en la rodilla derecha, siendo diagnosticada de esguince de rodilla, el que se maneja con reposo y antiinflamatorios. Evoluciona con dolor persistente, por lo que consulta nuevamente. Se solicita una radiografía de rodilla que muestra reacción perióstica y compromiso de partes blandas. El diagnóstico más probable es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osteomielitis del fémur distal"
+      },
+      {
+        "id": "B",
+        "text": "Osteosarcoma osteogénico"
+      },
+      {
+        "id": "C",
+        "text": "Fractura del fémur distal, con callo óseo"
+      },
+      {
+        "id": "D",
+        "text": "Osteocondroma"
+      },
+      {
+        "id": "E",
+        "text": "Hematoma calcificado"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Pregunta rara, ya que ni siquiera dicen que hay un tumor, pero reacción perióstica y el compromiso de partes blandas son clásicas de un tumor maligno. Por la edad, lo más probable es un osteosarcoma. Es frecuente en el Eunacom que se dé el antecedente de trauma (aunque no tenga relación) en distintos tipos de tumores, ya que ahí es que se lo palpan."
+  },
+  {
+    "number": 85,
+    "id": "Q-TRAUMATOLOGIA-85",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.15",
+    "topicTitle": "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
+    "perfilCode": "1.10.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Banderas rojas en dolor lumbar y criterios de cirugía descompresiva inmediata."
+    },
+    "stem": "Hombre de cuarenta y dos años consulta por lumbago de tres semanas de evolución. Refiere que el dolor aumenta al moverse y mejora significativamente cuando está acostado en reposo. No tiene fiebre, ni baja de peso, ni irradiación a extremidades, ni debilidad muscular. ¿Cuál es el manejo inicial más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solicitar resonancia magnética lumbar para estudio etiológico"
+      },
+      {
+        "id": "B",
+        "text": "Reposo absoluto en cama por dos semanas hasta la remisión del dolor"
+      },
+      {
+        "id": "C",
+        "text": "Reposo relativo, AINE y derivación a quinesioterapia una vez aliviado el dolor"
+      },
+      {
+        "id": "D",
+        "text": "Corticoides orales por el componente inflamatorio del cuadro"
+      },
+      {
+        "id": "E",
+        "text": "Derivación urgente a neurocirugía por riesgo de compresión medular"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción correcta es la C. Opción A: La resonancia magnética se reserva para lumbagos con signos de alarma: fractura, sospecha de cáncer, infección, espondilitis anquilosante o compromiso neurológico. Este paciente no presenta ninguno de esos signos, por lo que no corresponde solicitarla. Opción B: El reposo en el lumbago mecánico es relativo, no absoluto. El reposo absoluto prolongado tiene un efecto negativo y retrasa la recuperación. El paciente debe mantenerse activo dentro de sus tolerancias. Opción C: El lumbago mecánico sin signos de alarma se maneja con reposo relativo, antiinflamatorios no esteroidales y quinesioterapia. La quinesioterapia se inicia cuando el dolor ha mejorado y va dirigida a fortalecer la musculatura lumbar y abdominal para prevenir recurrencias. Opción D: Los corticoides orales no están indicados en el lumbago mecánico. El tratamiento antiinflamatorio de elección son los AINE. Los corticoides se reservan para algunas situaciones específicas como la capsulitis adhesiva de hombro. Opción E: No hay signos de alarma neurológica en este caso, como debilidad, parestesias o arreflexia. Sin estos hallazgos, no existe indicación de derivación urgente a neurocirugía."
+  },
+  {
+    "number": 86,
+    "id": "Q-TRAUMATOLOGIA-86",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.15",
+    "topicTitle": "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
+    "perfilCode": "1.10.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Banderas rojas en dolor lumbar y criterios de cirugía descompresiva inmediata."
+    },
+    "stem": "Mujer de treinta y cinco años deportista, tenista amateur, consulta por dolor en la cara lateral del codo derecho que lleva dos meses de evolución y que aumenta al extender la muñeca contra resistencia. No hay eritema ni aumento de volumen articular. ¿Cuál es el diagnóstico y el manejo inicial correcto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bursitis del olécranon: AINE más calor local"
+      },
+      {
+        "id": "B",
+        "text": "Epitrocleitis o codo del golfista: reposo, AINE y epicondilera"
+      },
+      {
+        "id": "C",
+        "text": "Artritis séptica de codo: punción articular urgente y antibióticos"
+      },
+      {
+        "id": "D",
+        "text": "Epicondilitis lateral o codo del tenista: reposo, AINE, epicondilera y quinesioterapia"
+      },
+      {
+        "id": "E",
+        "text": "Tendinitis del manguito rotador: ecografía de hombro y corticoides"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La opción correcta es la D. Opción A: La bursitis del olécranon produce inflamación visible en la punta del codo, con eritema y aumento de volumen de la bursa. El dolor a la extensión de la muñeca contra resistencia en la cara lateral del codo es característico de epicondilitis, no de bursitis. Opción B: La epitrocleitis afecta la cara medial del codo y se relaciona con los flexores del antebrazo. El enunciado describe dolor en la cara lateral con movimientos de extensión, lo que corresponde a epicondilitis lateral o codo del tenista. Opción C: La artritis séptica presenta eritema, aumento de volumen articular, fiebre y compromiso sistémico. El enunciado describe dolor crónico sin signos inflamatorios ni sistémicos, lo que descarta esta entidad. Opción D: La epicondilitis lateral afecta la zona de inserción de los extensores del antebrazo en el epicóndilo, produce dolor en la cara lateral del codo que aumenta con la extensión de muñeca contra resistencia y es frecuente en tenistas. El tratamiento es reposo relativo, AINE, quinesioterapia y el uso de la epicondilera para descomprimir la entesis. Opción E: El síndrome del manguito rotador afecta el hombro, no el codo. La clínica descrita con dolor lateral del codo que aumenta con extensión de muñeca es específica de epicondilitis lateral."
+  },
+  {
+    "number": 87,
+    "id": "Q-TRAUMATOLOGIA-87",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.15",
+    "topicTitle": "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
+    "perfilCode": "1.10.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Banderas rojas en dolor lumbar y criterios de cirugía descompresiva inmediata."
+    },
+    "stem": "Mujer de cuarenta y ocho años consulta por dolor generalizado en múltiples grupos musculares, fatiga crónica y trastornos del sueño de ocho meses de evolución. Al examen tiene dolor a la compresión en puntos cervicales, trapecios, epicóndilos y cara medial de las rodillas. La VHS y la PCR están dentro de rangos normales. ¿Cuál es el diagnóstico y el tratamiento de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polimialgia reumática: corticoides orales en dosis bajas"
+      },
+      {
+        "id": "B",
+        "text": "Fibromialgia: ejercicio físico más moduladores del dolor como pregabalina"
+      },
+      {
+        "id": "C",
+        "text": "Artritis reumatoide: metotrexato como fármaco modificador de la enfermedad"
+      },
+      {
+        "id": "D",
+        "text": "Polimiositis: biopsia muscular y corticoides sistémicos"
+      },
+      {
+        "id": "E",
+        "text": "Lumbago crónico con irradiación generalizada: resonancia magnética lumbar"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción correcta es la B. Opción A: La polimialgia reumática cursa con elevación de la VHS y tiene una distribución proximal de los síntomas. En este caso la VHS es normal y hay dolor en puntos gatillo específicos, lo que orienta a fibromialgia. Opción B: La fibromialgia es un diagnóstico clínico basado en dolor a la compresión de los puntos gatillos musculares, astenia y trastornos del sueño, con marcadores inflamatorios normales. El tratamiento de primera línea son los ejercicios de elongación y fortalecimiento, más moduladores del dolor como la pregabalina o los antidepresivos tricíclicos. Opción C: La artritis reumatoide produce artritis simétrica de pequeñas articulaciones, rigidez matutina y marcadores inflamatorios elevados. El enunciado describe dolor muscular en puntos gatillos con marcadores normales, lo que corresponde a fibromialgia. Opción D: La polimiositis cursa con elevación marcada de la creatinkinasa y compromiso muscular proximal con debilidad objetiva, no solo dolor. Los marcadores inflamatorios están alterados. En este caso son normales. Opción E: El lumbago es un dolor lumbar localizado. El enunciado describe dolor en múltiples grupos musculares con puntos gatillos específicos, lo cual es incompatible con lumbago y corresponde al cuadro clínico de fibromialgia."
+  },
+  {
+    "number": 88,
+    "id": "Q-TRAUMATOLOGIA-88",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.15",
+    "topicTitle": "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
+    "perfilCode": "1.10.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Banderas rojas en dolor lumbar y criterios de cirugía descompresiva inmediata."
+    },
+    "stem": "En el contexto del manejo de Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica), ¿cuál de las siguientes afirmaciones respecto al diagnóstico y tratamiento representa la conducta correcta de acuerdo a las guías de práctica clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Se debe realizar inmovilización adecuada, evaluación neurovascular distal y derivación prioritaria."
+      },
+      {
+        "id": "B",
+        "text": "Está indicada la movilización precoz forzada sin inmovilización previa."
+      },
+      {
+        "id": "C",
+        "text": "Se debe diferir el estudio radiológico hasta que ceda completamente el edema de partes blandas."
+      },
+      {
+        "id": "D",
+        "text": "El tratamiento farmacológico exclusivo con reposo absoluto sustituye a la reducción en fracturas desplazadas."
+      },
+      {
+        "id": "E",
+        "text": "La infiltración intraarticular con corticoides es la primera línea terapéutica en casos agudos traumáticos."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción correcta es la A. En Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica), la evaluación neurovascular distal previa y posterior a cualquier inmovilización o reducción es una regla de oro obligatoria."
+  },
+  {
+    "number": 89,
+    "id": "Q-TRAUMATOLOGIA-89",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.15",
+    "topicTitle": "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
+    "perfilCode": "4.02.1.005",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Banderas rojas en dolor lumbar y criterios de cirugía descompresiva inmediata."
+    },
+    "stem": "Hombre de 45 años con lumbalgia mecánica de 5 días de evolución, sin irradiación, sin signos de alarma. EF: dolor a la palpación paravertebral lumbar, sin déficit neurológico. ¿Cuál es el manejo más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Analgesia (AINEs o paracetamol) + kinesioterapia activa; no reposo en cama"
+      },
+      {
+        "id": "B",
+        "text": "Reposo absoluto por 7 días"
+      },
+      {
+        "id": "C",
+        "text": "Cirugía de columna"
+      },
+      {
+        "id": "D",
+        "text": "Infiltración epidural de corticoides"
+      },
+      {
+        "id": "E",
+        "text": "Resonancia magnética urgente"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Lumbalgia mecánica aguda sin alarma: AINEs por corto plazo + actividad física progresiva + kinesioterapia. El reposo en cama prolonga la incapacidad. Sin indicación de imagen en fase aguda."
+  },
+  {
+    "number": 90,
+    "id": "Q-TRAUMATOLOGIA-90",
+    "specialtyKey": "traumatologia",
+    "specialtyName": "Traumatología y Ortopedia",
+    "blockNum": 5,
+    "blockName": "Ortopedia Infantil, Tumores & Columna",
+    "topicLabel": "12.15",
+    "topicTitle": "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
+    "perfilCode": "4.02.1.005",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 40 años, oficinista, estuvo moviendo muebles durante 2 días, evolucionando luego con intenso dolor lumbar, que le impide realizar sus actividades. Al examen físico se aprecia muy adolorido, con dificultades para subirse a la camilla y para caminar, tiene IMC de 28 y se observa una contractura muscular a nivel lumbar, con dolor ante todos los movimientos de la columna lumbar, sin signos de irritación nerviosa. Además de administrar analgésicos, la indicación más adecuada es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resonancia magnética nuclear"
+      },
+      {
+        "id": "B",
+        "text": "Radiografía de columna lumbosacra"
+      },
+      {
+        "id": "C",
+        "text": "Kinesioterapia motora por 10 días"
+      },
+      {
+        "id": "D",
+        "text": "Reposo en cama por 5 días"
+      },
+      {
+        "id": "E",
+        "text": "Reposo laboral por 3 días"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Es un lumbago mecánico común y corriente (suelen ser muy intensos). Es fundamental la analgesia, el reposo relativo (no en cama) y, una vez que el dolor ha cedido, indicar KNT por largo tiempo, de modo de fortalecer los músculos del core (abdominales, lumbares, multífidos y glúteos), para disminuir las recurrencias."
+  }
+]

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 415" width="100%" height="100%" style="max-width:100%;max-height:100%;width:auto;height:100%;font-family:'Inter',system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="darkGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="redGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="blueGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <marker id="arGray2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 6,3.5 0,7" fill="#475569"/>
+    </marker>
+    <marker id="arRed2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 6,3.5 0,7" fill="#dc2626"/>
+    </marker>
+    <marker id="arBlue2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 6,3.5 0,7" fill="#2563eb"/>
+    </marker>
+    <filter id="cardShadow2" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- 1. NODO SUPERIOR DE ENTRADA -->
+  <g filter="url(#cardShadow2)">
+    <rect x="250" y="8" width="460" height="34" rx="5" fill="url(#darkGrad2)" stroke="#334155" stroke-width="1"/>
+    <text x="480" y="23" fill="#ffffff" font-size="10" font-weight="700" letter-spacing="0.05em" text-anchor="middle">ENFRENTAMIENTO DE LA DISPEPSIA (PERFIL V3 ASOFAMECh)</text>
+    <text x="480" y="35" fill="#94a3b8" font-size="8" text-anchor="middle">Epigastralgia urente, saciedad precoz o plenitud posprandial molesta</text>
+  </g>
+
+  <!-- FLECHA HACIA DECISIÓN INICIAL -->
+  <line x1="480" y1="42" x2="480" y2="52" stroke="#475569" stroke-width="1.8" marker-end="url(#arGray2)"/>
+
+  <!-- 2. NODO DE DECISIÓN: BANDERAS ROJAS / EDAD -->
+  <g filter="url(#cardShadow2)">
+    <rect x="230" y="52" width="500" height="38" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.3"/>
+    <text x="480" y="67" fill="#92400e" font-size="9.5" font-weight="700" text-anchor="middle">¿Banderas Rojas o Edad ≥ 50 años? (Alerta Cáncer Gástrico GES)</text>
+    <text x="480" y="80" fill="#78350f" font-size="8" text-anchor="middle">Disfagia, baja de peso involuntaria, anemia, vómitos a repetición o hematemesis</text>
+  </g>
+
+  <!-- FLECHAS DE BIFURCACIÓN -->
+  <!-- Rama Izquierda (SÍ -> EDA Inmediata) -->
+  <path d="M 330 90 L 330 102 L 245 102 L 245 116" stroke="#dc2626" stroke-width="1.8" fill="none" marker-end="url(#arRed2)"/>
+  <rect x="180" y="94" width="130" height="15" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="245" y="105" fill="#991b1b" font-size="8" font-weight="700" text-anchor="middle">SÍ: Alarma o Edad ≥ 50 años</text>
+
+  <!-- Rama Derecha (NO -> Test & Treat en APS) -->
+  <path d="M 630 90 L 630 102 L 715 102 L 715 116" stroke="#2563eb" stroke-width="1.8" fill="none" marker-end="url(#arBlue2)"/>
+  <rect x="650" y="94" width="130" height="15" rx="3" fill="#f0f9ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="715" y="105" fill="#1e3a8a" font-size="8" font-weight="700" text-anchor="middle">NO: &lt; 50 años sin signos de alarma</text>
+
+  <!-- 3. RAMA IZQUIERDA: EDA INMEDIATA CON BIOPSIAS -->
+  <g filter="url(#cardShadow2)">
+    <rect x="25" y="118" width="440" height="172" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+    <rect x="25" y="118" width="440" height="22" rx="6" fill="url(#redGrad2)"/>
+    <text x="245" y="133" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.04em" text-anchor="middle">1. ENDOSCOPÍA DIGESTIVA ALTA (EDA) CON TOMA DE BIOPSIAS</text>
+
+    <!-- Sub-bloque A: Úlcera Gástrica -->
+    <rect x="35" y="146" width="420" height="38" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="45" y="159" fill="#991b1b" font-size="8.5" font-weight="700">• Úlcera Gástrica (Riesgo de Cáncer): Tomar 6 a 8 biopsias</text>
+    <text x="55" y="172" fill="#1e293b" font-size="8">➜ Erradicar H. pylori + SIEMPRE realizar EDA control a las 6-8 semanas</text>
+
+    <!-- Sub-bloque B: Úlcera Duodenal -->
+    <rect x="35" y="188" width="420" height="38" rx="4" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <text x="45" y="201" fill="#065f46" font-size="8.5" font-weight="700">• Úlcera Duodenal (Benigna): Erradicar siempre H. pylori x 14 días</text>
+    <text x="55" y="214" fill="#1e293b" font-size="8">Ureasa (-) suele ser falso negativo; NO requiere EDA de control post-cura</text>
+
+    <!-- Sub-bloque C: EDA Normal -->
+    <rect x="35" y="230" width="420" height="38" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="45" y="243" fill="#334155" font-size="8.5" font-weight="700">• Endoscopía Normal: Dispepsia Funcional (Criterios Roma IV ≥ 3m)</text>
+    <text x="55" y="256" fill="#334155" font-size="8">Manejo: Explicación de benignidad + prueba con proquinéticos o IBP</text>
+
+    <text x="45" y="282" fill="#b91c1c" font-size="8" font-weight="700">✖ Trampa EUNACOM: Prohibido asumir benignidad de úlcera gástrica sin biopsia</text>
+  </g>
+
+  <!-- 4. RAMA DERECHA: TEST AND TREAT EN APS -->
+  <g filter="url(#cardShadow2)">
+    <rect x="495" y="118" width="440" height="172" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="495" y="118" width="440" height="22" rx="6" fill="url(#blueGrad2)"/>
+    <text x="715" y="133" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.04em" text-anchor="middle">2. ESTRATEGIA "TEST AND TREAT" PARA H. PYLORI</text>
+
+    <!-- Sub-bloque A: Test no invasivo -->
+    <rect x="505" y="146" width="420" height="52" rx="4" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="515" y="159" fill="#1e3a8a" font-size="8.5" font-weight="700">• Diagnóstico No Invasivo en Atención Primaria:</text>
+    <text x="525" y="172" fill="#334155" font-size="8">Test de elección: Test de aire espirado 13C o antígeno en deposiciones</text>
+    <text x="525" y="185" fill="#047857" font-size="8" font-weight="700">Alternativa en APS si test no disponible: Prueba empírica con IBP por 4 semanas</text>
+
+    <!-- Sub-bloque B: Tratamiento erradicador -->
+    <rect x="505" y="202" width="420" height="52" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="515" y="215" fill="#1e3a8a" font-size="8.5" font-weight="700">• Tratamiento de Primera Línea y Duración:</text>
+    <text x="525" y="228" fill="#047857" font-size="8" font-weight="700">✔ Terapia Erradicadora de 14 días: IBP + Amoxicilina + Claritromicina cada 12h</text>
+    <text x="525" y="241" fill="#334155" font-size="8">Esquemas de 7 o 10 días están obsoletos; segunda línea: cuádruple con bismuto</text>
+
+    <text x="515" y="270" fill="#b91c1c" font-size="8" font-weight="700">✖ Trampa EUNACOM: PROHIBIDO pedir serología IgG para evaluar erradicación</text>
+    <text x="515" y="282" fill="#64748b" font-size="7.5">Los anticuerpos IgG persisten positivos por años; el control es con test de aire post-4 sem</text>
+  </g>
+
+  <!-- 5. NODO INFERIOR: REGLAS DE ORO DEL EXAMEN -->
+  <g filter="url(#cardShadow2)">
+    <rect x="25" y="298" width="910" height="106" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+    <rect x="25" y="298" width="910" height="22" rx="6" fill="url(#darkGrad2)"/>
+    <text x="480" y="313" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.05em" text-anchor="middle">CONDUCTAS CRÍTICAS Y EMERGENCIAS PÉPTICAS (PERFIL V3 ASOFAMECh)</text>
+
+    <!-- Columna Izquierda -->
+    <text x="40" y="333" fill="#047857" font-size="8.5" font-weight="700">Reglas en Enfermedad Ulcerosa:</text>
+    <text x="40" y="347" fill="#1e293b" font-size="8">• Úlcera Duodenal con ureasa (-): Erradicar siempre si no usa AINEs</text>
+    <text x="50" y="359" fill="#047857" font-size="7.5">  Ureasa (-) suele ser falso negativo por sangrado o IBP; NO requiere EDA control</text>
+    <text x="40" y="373" fill="#1e293b" font-size="8">• Úlcera Gástrica: Tomar 6 a 8 biopsias y SIEMPRE EDA de control a las 6-8 sem</text>
+    <text x="50" y="385" fill="#991b1b" font-size="7.5">  Obligatorio descartar adenocarcinoma ulcerado antes de asumir cicatrización</text>
+    <text x="40" y="399" fill="#1e293b" font-size="8">• Linfoma MALT Gástrico: Se trata erradicando H. pylori (no con quimioterapia)</text>
+
+    <!-- Columna Derecha -->
+    <text x="500" y="333" fill="#dc2626" font-size="8.5" font-weight="700">Urgencias y Control de Erradicación:</text>
+    <text x="500" y="347" fill="#1e293b" font-size="8">• Perforación Péptica (Dolor en puñalada, abdomen en tabla, neumoperitoneo):</text>
+    <text x="510" y="359" fill="#991b1b" font-size="7.5">  Rx tórax de pie + cirugía urgente; ENDOSCOPÍA ESTRICTAMENTE CONTRAINDICADA</text>
+    <text x="500" y="373" fill="#1e293b" font-size="8">• Control de Curación H. pylori: Test de aire o antígeno fecal a las 4 sem post-ATB</text>
+    <text x="510" y="385" fill="#047857" font-size="7.5">  Requisito previo: Suspender IBP 2 semanas y antibióticos 4 semanas antes del test</text>
+    <text x="500" y="399" fill="#b91c1c" font-size="7.5">• Rescate de 2ª Línea: PROHIBIDO repetir claritromicina por alta tasa de resistencia</text>
+  </g>
+</svg>

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "W-EXTRA-01",
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "topicTitle": "Fibrilación Auricular & Flutter Auricular (Guía GES MINSAL)",
+    "perfilCode": "1.01.1.012, 1.01.1.013, 1.01.1.014, 1.01.3.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Patología GES (Fibrilación Auricular y Prevención Secundaria de ACV)"
+    },
+    "stem": "Mujer de 69 años, con antecedentes de hipertensión arterial y diabetes mellitus tipo 2 en tratamiento con enalapril y metformina, consulta en un Servicio de Alta Resolutividad (SAR) por palpitaciones rápidas, sensación de fatiga y disnea de esfuerzo progresiva que iniciaron hace 4 días (aproximadamente 96 horas). Al examen físico: vigil, orientada, PA 135/85 mmHg, FC 138 lpm irregular, FR 18 rpm, SatO2 96% ambiental, afebril (36.6 °C). Auscultación cardíaca: ruidos arrítmicos sin soplos. Auscultación pulmonar: murmullo pulmonar conservado, sin crépitos. Extremidades: sin edema, pulsos periféricos irregulares. El electrocardiograma muestra ausencia de ondas P, línea de base con oscilaciones finas y caóticas (ondas f), intervalos RR totalmente irregulares, complejos QRS estrechos (84 ms) y respuesta ventricular media de 140 lpm, sin alteraciones isquémicas agudas del segmento ST.\n¿Cuál es la conducta médica inicial más adecuada para esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar cardioversión eléctrica sincronizada inmediata con 150 J bajo sedación y analgesia"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar control de frecuencia cardíaca con betabloqueadores, comenzar anticoagulación oral con un DOAC y planificar cardioversión electiva tras 3 semanas de anticoagulación efectiva"
+      },
+      {
+        "id": "C",
+        "text": "Administrar Flecainida 100 mg por vía oral en dosis única para lograr reversión farmacológica rápida en el box de reanimación"
+      },
+      {
+        "id": "D",
+        "text": "Indicar terapia antiplaquetaria con Aspirina 100 mg más Clopidogrel 75 mg al día y citar a control ambulatorio en 3 meses"
+      },
+      {
+        "id": "E",
+        "text": "Administrar bolo de Atropina 1 mg endovenoso para regularizar la conducción auriculoventricular y otorgar el alta"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. La paciente presenta una Fibrilación Auricular (FA) de más de 48 horas de evolución (inició hace 4 días) encontrándose hemodinámicamente estable (PA 135/85 mmHg, sin shock, sin edema pulmonar ni dolor torácico isquémico). De acuerdo con las guías clínicas de la Sociedad Chilena de Cardiología, la Guía GES MINSAL y consensos internacionales (ESC/AHA), en toda FA con duración > 48 horas o desconocida está estrictamente contraindicada la cardioversión inmediata (eléctrica o farmacológica) sin antes descartar un trombo intracavitario, debido al alto riesgo de embolia cerebral (tasa de ACV embólico > 5-7% por desprendimiento de trombos formados en la orejuela izquierda). La conducta médica normativa consiste en: 1) Controlar la frecuencia cardíaca con betabloqueadores (ej. Metoprolol o Bisoprolol) o antagonistas del calcio no dihidropiridínicos para aliviar los síntomas y mejorar el llenado ventricular (meta FC < 110 lpm); 2) Iniciar anticoagulación oral con un anticoagulante oral directo (DOAC: Apixabán, Rivaroxabán o Dabigatrán), justificada ampliamente por su puntaje CHA₂DS₂-VASc de 4 puntos (Mujer = 1, Edad 69 = 1, HTA = 1, DM = 1; umbral de indicación obligatoria ≥ 3 en mujeres); y 3) Si se opta por una estrategia de control de ritmo, diferir la cardioversión hasta haber completado al menos 3 semanas consecutivas de anticoagulación terapéutica comprobada (o realizar ecocardiograma transesofágico previo), manteniendo la anticoagulación por al menos 4 semanas posteriores.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La cardioversión eléctrica sincronizada inmediata es la conducta de elección únicamente en pacientes con inestabilidad hemodinámica (shock cardiogénico, hipotensión sintomática severa, edema pulmonar agudo o angina refractaria). Realizarla de entrada en una paciente estable con 4 días de arritmia sin anticoagulación previa expone a la paciente a un accidente cerebrovascular cardioembólico masivo.\n- Opción C es incorrecta: La cardioversión farmacológica con antiarrítmicos Clase Ic como la Flecainida o Propafenona tiene el mismo riesgo tromboembólico que la eléctrica si han transcurrido > 48 horas de arritmia; además, antes de usar antiarrítmicos Ic se debe descartar cardiopatía estructural o isquémica mediante ecocardiograma.\n- Opción D es incorrecta: La antiagregación plaquetaria (sea con aspirina sola o doble antiagregación con clopidogrel) ha demostrado ser ineficaz para la prevención de embolias en fibrilación auricular y confiere un riesgo de sangrado mayor similar al de los anticoagulantes orales; está formalmente desaconsejada en todas las guías vigentes.\n- Opción E es incorrecta: La Atropina es un fármaco parasimpaticolítico indicado en bradiarritmias sintomáticas (bloqueos AV, bradicardia sinusal severa); su administración en una fibrilación auricular con respuesta ventricular rápida aumentaría peligrosamente la conducción por el nodo AV, empeorando la taquicardia y precipitando insuficiencia cardíaca aguda."
+  },
+  {
+    "id": "W-EXTRA-02",
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "topicTitle": "TPSV & Síndrome de Wolff-Parkinson-White",
+    "perfilCode": "1.01.1.024, 1.01.2.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "No GES"
+    },
+    "stem": "Mujer de 28 años ingresa al Servicio de Urgencias de un hospital por palpitaciones taquicárdicas de inicio brusco de 45 minutos de duración, acompañadas de mareos intensos y sensación de opresión torácica. Al examen físico: vigil pero marcadamente diaforética, fría y pálida. Signos vitales: PA 78/48 mmHg, FC 210 lpm, FR 28 rpm, SatO2 90% a aire ambiental. A la auscultación pulmonar destacan crépitos húmedos bibasales bilaterales hasta tercio medio y a nivel cardíaco taquicardia regular a 210 lpm sin soplos audibles. El electrocardiograma de 12 derivaciones evidencia una taquicardia regular con complejos QRS estrechos (duración 82 ms) a una frecuencia de 210 lpm, sin ondas P claramente distinguibles.\n¿Cuál es la conducta médica inmediata más adecuada para el manejo de esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar maniobras vagales vigorosas con masaje del seno carotídeo bilateral simultáneo"
+      },
+      {
+        "id": "B",
+        "text": "Administrar bolo endovenoso rápido de Adenosina 6 mg seguido de suero fisiológico"
+      },
+      {
+        "id": "C",
+        "text": "Proceder de inmediato a Cardioversión Eléctrica Sincronizada con 50-100 J bajo sedoanalgesia breve"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar infusión continua de Amiodarona 300 mg endovenosa para pasar en 30 minutos"
+      },
+      {
+        "id": "E",
+        "text": "Administrar Verapamilo 5 mg endovenoso lento en 3 minutos"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción C es la CORRECTA. La paciente presenta una Taquicardia Paroxística Supraventricular (TPSV) con criterios mayores de inestabilidad hemodinámica y falla de bomba aguda: hipotensión arterial severa (PA 78/48 mmHg, PAM < 60 mmHg), signos de hipoperfusión tisular periférica (palidez, diaforesis, frialdad) y congestión pulmonar aguda (crépitos bibasales y desaturación al 90%). Según los algoritmos internacionales de soporte vital cardiovascular avanzado (ACLS) y las normas de urgencia chilenas, la presencia de CUALQUIER signo de inestabilidad hemodinámica (shock, hipotensión, alteración de conciencia, dolor torácico isquémico o edema pulmonar agudo) convierte la situación en una emergencia médica donde la conducta obligatoria de primera línea es la Cardioversión Eléctrica Sincronizada inmediata (iniciando con 50 a 100 Joules, preferentemente bifásica) bajo sedación y analgesia de acción ultracorta si el nivel de conciencia lo permite. No debe retrasarse la cardioversión eléctrica intentando tratamientos farmacológicos en un paciente hemodinámicamente descompensado.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Las maniobras vagales solo están indicadas en pacientes estables; además, el masaje del seno carotídeo bilateral simultáneo está formalmente proscrito en la práctica médica por el riesgo inminente de provocar síncope por paro sinusal y accidente cerebrovascular por oclusión o embolización carotídea.\n- Opción B es incorrecta: La Adenosina es el fármaco de elección para la TPSV en pacientes hemodinámicamente estables, pero retrasar la cardioversión eléctrica para administrar fármacos en presencia de shock y edema pulmonar es una negligencia que puede inducir colapso cardiovascular irreversible o asistolia.\n- Opción D es incorrecta: La Amiodarona tiene un inicio de acción lento y no es la terapia primaria para cardiovertir una TPSV inestable; además, la infusión en bolo puede provocar hipotensión adicional por vasodilatación mediada por su solvente.\n- Opción E es incorrecta: El Verapamilo es un bloqueador de los canales de calcio con un potente efecto inótropo negativo y vasodilatador sistémico; administrarlo a una paciente hipotensa con insuficiencia cardíaca aguda desencadenaría un colapso hemodinámico fulminante y paro cardíaco en disociación electromecánica."
+  },
+  {
+    "id": "W-EXTRA-03",
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "topicTitle": "Bradicardias Sintomáticas & Bloqueos AV (GES Marcapasos)",
+    "perfilCode": "1.01.1.002, 1.01.2.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Patología GES #24 (Tratamiento Quirúrgico de Lesiones Valvulares y Marcapasos en Bloqueos AV)"
+    },
+    "stem": "Hombre de 82 años, sin antecedentes de cardiopatía ni consumo de fármacos cronótropos negativos, es traído al Servicio de Urgencias tras presentar tres episodios de síncope brusco sin pródromos ni periodo postictal en los últimos dos días. Al examen físico: vigil, orientado, PA 110/60 mmHg, FC 34 lpm regular, FR 16 rpm, SatO2 96% ambiental. A la inspección del cuello destacan pulsaciones venosas yugulares gigantes e intermitentes (ondas \"a\" en cañón) y a la auscultación cardíaca se advierte una marcada variabilidad en la intensidad del primer ruido cardíaco (R1), sin soplos patológicos. El electrocardiograma muestra ondas P sinusales regulares a una frecuencia constante de 80 lpm y complejos QRS anchos regulares a una frecuencia independiente de 34 lpm, sin relación temporal constante ni matemática entre las ondas P y los complejos QRS (intervalos PR continuamente variables).\n¿Cuál es el diagnóstico clínico-electrocardiográfico y la conducta médica prioritaria según las garantías GES?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bloqueo auriculoventricular de primer grado avanzado; prescribir Teofilina oral ambulatoria para estimular la conducción nodal"
+      },
+      {
+        "id": "B",
+        "text": "Bloqueo auriculoventricular de segundo grado Mobitz I (Wenckebach); indicar reposo relativo y citar a Holter ambulatorio de 24 horas en APS"
+      },
+      {
+        "id": "C",
+        "text": "Bloqueo auriculoventricular completo (tercer grado); hospitalizar con monitorización continua, instalar marcapaso transitorio si hay deterioro hemodinámico y activar GES para implante de Marcapaso Definitivo"
+      },
+      {
+        "id": "D",
+        "text": "Bradicardia sinusal refleja vagal; tranquilizar al paciente, indicar hidratación oral abundante y dar de alta"
+      },
+      {
+        "id": "E",
+        "text": "Fibrilación auricular con respuesta ventricular lenta; iniciar anticoagulación oral con Dabigatrán y citar a policlínico"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción C es la CORRECTA. El cuadro clínico y electrocardiográfico es patognomónico de un Bloqueo Auriculoventricular Completo (BAV de 3er grado): existe una disociación auriculoventricular total, donde las aurículas se despolarizan a su propio ritmo sinusal (ondas P a 80 lpm) y los ventrículos son comandados por un marcapaso de escape infranodal subsidiario (ritmo idioventricular con QRS ancho a 34 lpm). Clínicamente, la disociación AV se traduce en el examen físico por dos signos semiológicos clásicos: 1) Ondas \"a\" en cañón en el pulso venoso yugular (generadas cuando la aurícula derecha se contrae contra una válvula tricúspide cerrada durante la sístole ventricular simultánea); y 2) Variabilidad en la intensidad del primer ruido cardíaco (R1), que depende de la posición aleatoria en que se encuentran los velos de la válvula mitral al momento de la contracción ventricular. Los síncopes cardiogénicos por bajo gasto cerebral corresponden a crisis de Stokes-Adams, con altísimo riesgo de asistolia y muerte súbita. La conducta médica inmediata consiste en monitorización cardíaca continua en unidad de paciente crítico/intermedio, disponibilidad inmediata de marcapaso transcutáneo/transitorio y derivación preferente activando la garantía GES #24 (Tratamiento Quirúrgico de Lesiones Valvulares y Marcapasos), la cual garantiza el implante de un Marcapaso Definitivo bicameral como terapia curativa obligatoria.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El BAV de primer grado se define por una prolongación fija del intervalo PR (> 200 ms) donde TODAS las ondas P conducen a un complejo QRS (conducción 1:1), sin síncopes ni disociación AV; la teofilina no tiene ninguna indicación en el manejo del bloqueo AV.\n- Opción B es incorrecta: El BAV de 2° grado Mobitz I se caracteriza por el fenómeno de Wenckebach (alargamiento progresivo del intervalo PR hasta que una onda P no conduce), no por disociación AV completa con escape independiente; además, un paciente con síncopes a repetición y FC de 34 lpm jamás debe ser enviado a su casa para un estudio diferido.\n- Opción D es incorrecta: La bradicardia sinusal presenta ondas P sinusales que conducen normalmente a complejos QRS estrechos con relación fija 1:1; la disociación AV observada en el ECG descarta categóricamente una simple bradicardia refleja.\n- Opción E es incorrecta: En la fibrilación auricular no existen ondas P sinusales regulares y el ritmo ventricular suele ser irregular; en este paciente se observan ondas P regulares a 80 lpm y un ritmo de escape ventricular estrictamente regular a 34 lpm."
+  },
+  {
+    "id": "W-EXTRA-04",
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "topicTitle": "SCACEST: IAM con Supradesnivel del ST & Protocolo Reperfusión GES",
+    "perfilCode": "1.01.2.002, 1.01.3.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud #24 (Infarto Agudo del Miocardio con Supradesnivel del ST)"
+    },
+    "stem": "Hombre de 54 años, fumador y dislipidémico, consulta en el Servicio de Urgencias de un hospital provincial sin laboratorio de hemodinamia por dolor retroesternal opresivo de 50 minutos de evolución. El ECG de ingreso revela supradesnivel del ST de 5 mm de V1 a V4 (SCACEST anterior extenso). Dado que el centro de referencia terciario con capacidad para angioplastía coronaria se ubica a 160 minutos de traslado, el médico tratante administra de inmediato dosis plena de Tenecteplase (TNK-tPA) endovenoso en bolo ajustado por peso, junto con ácido acetilsalicílico 250 mg masticados, clopidogrel 300 mg y enoxaparina endovenosa.\nA los 90 minutos de finalizada la administración del fibrinolítico, el paciente persiste con dolor torácico de intensidad 8/10 y el ECG de control muestra persistencia del supradesnivel del ST de 4.5 mm en las derivaciones V1 a V4 (reducción de tan solo un 10% respecto al trazado basal), sin aparición de arritmias de reperfusión.\n¿Cuál es la conducta médica inmediata indicada según el protocolo GES de Reperfusión del Infarto Agudo al Miocardio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar un segundo bolo completo de Tenecteplase para asegurar la lisis del trombo"
+      },
+      {
+        "id": "B",
+        "text": "Coordinar el traslado urgente e inmediato en ambulancia medicalizada para Angioplastía de Rescate en el centro terciario"
+      },
+      {
+        "id": "C",
+        "text": "Mantener al paciente en observación en sala de medicina interna y repetir el electrocardiograma a las 12 horas"
+      },
+      {
+        "id": "D",
+        "text": "Suspender los antiplaquetarios e iniciar infusión continua de Heparina no fraccionada en monoterapia"
+      },
+      {
+        "id": "E",
+        "text": "Indicar analgesia con morfina endovenosa continua y considerar la reperfusión como exitosa por haberse cumplido el tiempo puerta-aguja"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. El protocolo clínico de la Guía GES MINSAL y las normativas internacionales establecen que la eficacia de la terapia de reperfusión farmacológica con fibrinolíticos (Tenecteplase o Alteplase) DEBE evaluarse de forma estricta a los 60-90 minutos post-administración. Los criterios de reperfusión exitosa son: 1) Descenso del supradesnivel del ST mayor al 50% en la derivación con mayor elevación al ingreso; 2) Alivio o desaparición sustancial del dolor torácico isquémico; y 3) Aparición de arritmias de reperfusión (como el ritmo idioventricular acelerado - RIVA). En este paciente, el dolor torácico persiste intenso (8/10) y el ST sólo descendió un 10% (de 5 mm a 4.5 mm), lo que configura formalmente un Fracaso de la Fibrinólisis (trombólisis fallida). La conducta mandataria, perentoria y protocolizada por el GES es la derivación inmediata y expedita para Angioplastía Coronaria de Rescate (Rescue PCI) en el centro terciario más cercano, para restablecer el flujo mecánico en la arteria descendente anterior y limitar la necrosis miocárdica transmural.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La administración de una segunda dosis de fibrinolítico está formalmente contraindicada por no haber demostrado eficacia en reabrir el vaso y asociarse a un incremento inaceptable del riesgo de hemorragia intracraneana fatal y sangrado sistémico mayor.\n- Opción C es incorrecta: Dejar al paciente en observación y esperar 12 horas con una arteria coronaria epicárdica completamente ocluida condenará al paciente a un infarto anterior transmural masivo, insuficiencia cardíaca terminal por disfunción ventricular severa, arritmias ventriculares letales o rotura de pared libre.\n- Opción D es incorrecta: Los antiagregantes plaquetarios (aspirina y clopidogrel) deben mantenerse; suspenderlos y cambiar a monoterapia con heparina incrementa la trombosis coronaria y no resuelve la oclusión mecánica del vaso.\n- Opción E es incorrecta: El cumplimiento del tiempo de administración no garantiza el éxito terapéutico; considerar falsamente la reperfusión como exitosa solo por haber administrado el fármaco mientras el paciente sigue con dolor y ST elevado constituye un grave error clínico."
+  },
+  {
+    "id": "W-EXTRA-05",
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "topicTitle": "Crisis Hipertensivas: Urgencia vs Emergencia Hipertensiva",
+    "perfilCode": "1.01.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Atención de Urgencia Vital Inmediata"
+    },
+    "stem": "Mujer de 64 años, con antecedente de hipertensión arterial crónica en tratamiento irregular, es traída al Servicio de Urgencias por disnea súbita de reposo que inició hace 2 horas, tos con expectoración asalmonada, ortopnea severa y sudoración profusa. Al examen físico: vigil, marcadamente angustiada, sentada en posición de ortopnea, sudorosa, pálida y con cianosis distal. Signos vitales: PA 225/125 mmHg, FC 116 lpm, FR 34 rpm, SatO2 83% a aire ambiental. Auscultación pulmonar: murmullo vesicular rudo con presencia de estertores húmedos (crépitos) difusos bilaterales desde las bases hasta los ápices pulmonares. Auscultación cardíaca: taquicardia regular, presencia de tercer ruido (R3) y reflujo hepatoyugular presente. El ECG muestra taquicardia sinusal e hipertrofia ventricular izquierda con sobrecarga sistólica, sin supradesnivel del segmento ST.\n¿Cuál es la conducta médica inmediata más adecuada para el manejo de esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar una cápsula de Nifedipino 10 mg sublingual perforada para lograr una rápida caída de la presión arterial"
+      },
+      {
+        "id": "B",
+        "text": "Instalar ventilación con presión positiva no invasiva (VNI/CPAP), iniciar infusión de Nitroglicerina endovenosa y administrar Furosemida endovenosa"
+      },
+      {
+        "id": "C",
+        "text": "Administrar Labetalol 20 mg endovenoso en bolo lento cada 10 minutos para frenar la taquicardia y la vasoconstricción"
+      },
+      {
+        "id": "D",
+        "text": "Indicar Captopril 25 mg por vía oral, mantener en reposo en sala de espera y solicitar ecocardiograma ambulatorio"
+      },
+      {
+        "id": "E",
+        "text": "Realizar sangría terapéutica de 500 mL por vía periférica e infundir suero fisiológico a 100 mL/hora"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. La paciente presenta una Emergencia Hipertensiva mayor caracterizada por un alza tensional extrema asociada a daño agudo de órgano blanco: Edema Pulmonar Agudo Cardiogénico Hipertensivo e insuficiencia respiratoria hipoxémica severa (SatO2 83%, crépitos en marea ascendente, expectoración asalmonada, R3). El manejo en la unidad de reanimación/cuidados críticos exige una estrategia combinada e inmediata: 1) Soporte ventilatorio precoz con Ventilación con Presión Positiva No Invasiva (VNI en modalidad CPAP o BiPAP), que reduce la precarga y postcarga, disminuye el trabajo respiratorio y recluta alvéolos inundados; 2) Vasodilatadores endovenosos continuos titulables: la Nitroglicerina endovenosa es el fármaco de primera elección en el edema pulmonar cardiogénico hipertensivo porque disminuye predominantemente la precarga (venodilatación) y en dosis crecientes la postcarga arteriolar, aliviando la congestión pulmonar; y 3) Furosemida endovenosa en bolo (40 a 80 mg EV), que genera venodilatación precoz en los primeros minutos y posterior efecto diurético, facilitando la descongestión. La meta inicial es reducir la Presión Arterial Media (PAM) entre un 20% y 25% en la primera hora de forma controlada.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El Nifedipino sublingual está terminantemente proscrito y contraindicado por la Sociedad Chilena de Cardiología y guías internacionales en cualquier crisis hipertensiva; produce descensos tensionales bruscos, incontrolables y precipitados, provocando hipoperfusión coronaria y cerebral, infarto agudo al miocardio, accidente cerebrovascular y muerte.\n- Opción C es incorrecta: Aunque el Labetalol es útil en otras emergencias hipertensivas (como disección aórtica o eclampsia), está formalmente contraindicado como monoterapia en el edema pulmonar agudo descompensado, ya que su efecto betabloqueador inótropo negativo deprime la contractilidad miocárdica y puede causar shock cardiogénico fulminante.\n- Opción D es incorrecta: El uso de antihipertensivos orales como el Captopril corresponde al manejo de una Urgencia Hipertensiva (sin daño de órgano blanco). Tratar una emergencia vital con insuficiencia respiratoria mediante pastillas orales y enviarla a sala de espera es un acto de mala praxis médica.\n- Opción E es incorrecta: La sangría terapéutica es una práctica médica obsoleta del siglo XIX, carente de sustento científico y potencialmente dañina en la medicina moderna."
+  },
+  {
+    "id": "W-EXTRA-06",
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "topicTitle": "Patología de la Aorta: Disección Aórtica Aguda & Aneurisma de Aorta Abdominal",
+    "perfilCode": "1.01.1.023, 1.01.1.024",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "No GES"
+    },
+    "stem": "Hombre de 61 años, con antecedentes de tabaquismo activo e hipertensión arterial mal controlada, consulta en el Servicio de Urgencias por dolor dorsal e interescapular de inicio súbito, lancinante y desgarrante, iniciado hace 90 minutos, que se irradia hacia la región lumbar. Al examen físico: vigil, sudoroso, quejumbroso de dolor. Signos vitales: PA en brazo derecho 190/105 mmHg, PA en brazo izquierdo 188/102 mmHg (sin asimetría en extremidades superiores), FC 98 lpm, SatO2 97%. Auscultación cardíaca: ruidos rítmicos sin soplos diastólicos ni frote pericárdico. Pulsos femorales simétricos y presentes bilatralmente. El AngioTAC de tórax y abdomen de urgencia revela una Disección Aórtica que se origina distal al orificio de la arteria subclavia izquierda y se extiende por toda la aorta descendente hasta el origen de las arterias renales (Stanford Tipo B / DeBakey III), con permeabilidad de ambos lúmenes, sin signos de rotura aórtica, hematoma mediastínico ni isquemia visceral (sin signos de mala perfusión mesentérica o renal).\n¿Cuál es la conducta médica inicial de elección para este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Traslado inmediato a pabellón de cirugía cardíaca para reemplazo aórtico abierto de urgencia mediante esternotomía"
+      },
+      {
+        "id": "B",
+        "text": "Ingreso a Unidad de Cuidados Intensivos e inicio inmediato de Betabloqueadores endovenosos (Labetalol) con meta de FC < 60 lpm y PAS entre 100 y 120 mmHg"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar anticoagulación plena inmediata con bolo e infusión continua de Heparina no fraccionada"
+      },
+      {
+        "id": "D",
+        "text": "Administración inmediata de Fibrinolíticos (Tenecteplase endovenoso) para disolver el trombo del falso lumen"
+      },
+      {
+        "id": "E",
+        "text": "Manejo sintomático con analgésicos no esteroidales (AINEs) orales y control ambulatorio por cirugía vascular en 1 mes"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. El paciente presenta una Disección Aórtica Aguda Stanford Tipo B (afecta exclusivamente la aorta torácica descendente, distal al origen de la arteria subclavia izquierda) no complicada (sin signos de rotura, hematoma periaórtico en expansión ni síndrome de mala perfusión visceral o isquemia de extremidades). A diferencia de la Stanford A (que compromete la aorta ascendente y requiere cirugía cardíaca de emergencia inmediata), el estándar de oro en la Stanford B NO complicada es el MANEJO MÉDICO ESTRICTO en la Unidad de Paciente Crítico (UCI/UTI). El pilar del tratamiento farmacológico agudo es reducir de inmediato el estrés de cizallamiento parietal (dP/dt) mediante Betabloqueadores endovenosos (Labetalol EV como primera línea, o Esmolol), buscando alcanzar en menos de 20 minutos una FC < 60 lpm y una PAS entre 100 y 120 mmHg (o la PAM más baja compatible con perfusión cerebral y renal adecuadas). Si la presión persiste elevada tras lograr la bradicardia, se asocian vasodilatadores como Nitroprusiato de sodio o Nicardipino (nunca vasodilatadores solos sin betabloqueo previo, pues provocarían taquicardia refleja que empeoraría la disección). La intervención endovascular (TEVAR) se reserva para casos complicados (isquemia visceral, rotura inminente, dolor refractario o dilatación aneurismática progresiva).\n\nAnálisis de distractores:\n- Opción A es incorrecta: La cirugía cardíaca abierta de urgencia mediante esternotomía es el tratamiento de elección para la Disección Aórtica Stanford Tipo A (aorta ascendente); en la Stanford B no complicada la cirugía abierta precoz presenta mayor mortalidad que el tratamiento médico óptimo.\n- Opción C es incorrecta: La anticoagulación con heparina está formalmente contraindicada en la disección aórtica aguda, ya que previene la trombosis del falso lumen, acelera la progresión de la disección, propicia la extravasación hemorrágica y aumenta drásticamente el riesgo de rotura aórtica fatal.\n- Opción D es incorrecta: La trombólisis/fibrinólisis con Tenecteplase es un error garrafal y mortal que causaría exanguinación fulminante por rotura aórtica intratorácica inmediata.\n- Opción E es incorrecta: La disección aórtica es una condición con altísima mortalidad hospitalaria que jamás puede manejarse en forma ambulatoria con analgésicos comunes."
+  },
+  {
+    "id": "W-EXTRA-07",
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "topicTitle": "Disfagia y Trastornos Motores del Esófago",
+    "perfilCode": "1.06.1.013",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica"
+    },
+    "stem": "Hombre de 39 años consulta en policlínico por dificultad progresiva para deglutir tanto alimentos sólidos como líquidos desde hace 10 meses (disfagia ilógica). Refiere además sensación de detención retroesternal baja de la comida, episodios frecuentes de regurgitación nocturna de alimentos no digeridos sin sabor ácido, tos durante el sueño y una baja de peso no intencionada de 5 kg en este período. Se realizó una Endoscopía Digestiva Alta (EDA) que descartó lesiones tumorales, estenosis orgánica o úlceras, informando esófago dilatado con restos alimentarios retenidos y mucosa normal, logrando franquear la unión esofagogástrica hacia el estómago con un leve resalte o resistencia táctil al paso del endoscopio.\n¿Cuál es el examen diagnóstico de elección (estándar de oro) para confirmar el diagnóstico definitivo en este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manometría esofágica de alta resolución"
+      },
+      {
+        "id": "B",
+        "text": "pH-metría esofágica de 24 horas con impedanciometría"
+      },
+      {
+        "id": "C",
+        "text": "Tomografía computarizada (TAC) de tórax y abdomen con contraste endovenoso"
+      },
+      {
+        "id": "D",
+        "text": "Test de vaciamiento gástrico con radioisótopos (escintigrafía)"
+      },
+      {
+        "id": "E",
+        "text": "Esofagograma baritado como examen único y definitivo"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la CORRECTA. El cuadro clínico de disfagia para sólidos y líquidos desde el inicio (disfagia ilógica o motora), regurgitación de alimentos no digeridos y no ácidos, tos nocturna/broncoaspiración y baja de peso, tras haber descartado una obstrucción mecánica o neoplásica mediante endoscopía digestiva alta (la cual excluye cáncer de esófago y pseudoacalasia), orienta con máxima sospecha a una Acalasia esofágica. El examen confirmatorio estándar de oro (gold standard) para establecer el diagnóstico definitivo y la subtipificación de la acalasia (Clasificación de Chicago) es la Manometría Esofágica de Alta Resolución. Este estudio evalúa directamente la función neuromuscular del esófago, demostrando de forma objetiva la ausencia de peristalsis en el cuerpo esofágico (aperistalsis) y una relajación incompleta o fallida del esfínter esofágico inferior (EEI) en respuesta a las degluciones (medida por una presión de relajación integrada [IRP] patológicamente elevada).\n\nAnálisis de distractores:\n- Opción B es incorrecta: La pH-impedanciometría de 24 horas es el estándar de oro para diagnosticar la Enfermedad por Reflujo Gastroesofágico (ERGE) patológica y caracterizar el reflujo no ácido; no mide la motilidad ni las presiones de contracción del cuerpo esofágico ni la relajación del EEI.\n- Opción C es incorrecta: El TAC de tórax con contraste es útil para etapificar neoplasias o evaluar patologías mediastínicas extrínsecas, pero no tiene resolución temporal ni fisiológica para diagnosticar trastornos motores esofágicos primarios.\n- Opción D es incorrecta: La escintigrafía de vaciamiento gástrico evalúa el retraso en el vaciamiento del estómago para el diagnóstico de gastroparesia, condición que no explica la disfagia ni el trastorno motor esofágico.\n- Opción E es incorrecta: El esofagograma baritado es un examen complementario de gran valor inicial (que puede mostrar el clásico signo en \"pico de pájaro\" o \"cola de ratón\" y dilatación esofágica), pero no reemplaza a la manometría de alta resolución como prueba confirmatoria definitiva obligatoria previa a la indicación quirúrgica (miotomía de Heller) o endoscópica (POEM o dilatación neumática)."
+  },
+  {
+    "id": "W-EXTRA-08",
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "topicTitle": "Cáncer de Esófago y Cáncer Gástrico",
+    "perfilCode": "1.06.1.004",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "GES: endoscopía digestiva alta en ≥ 40 años con dispepsia/signos de alarma"
+    },
+    "stem": "Hombre de 49 años, sin antecedentes mórbidos conocidos, consulta en un Centro de Salud Familiar (CESFAM) por un cuadro de 6 semanas de evolución de dolor y ardor epigástrico sordo que empeora tras las comidas, acompañado de saciedad precoz, sensación de plenitud posprandial, náuseas ocasionales y una baja de peso no intencionada de 4 kg en los últimos dos meses. Refiere además que su padre falleció a los 53 años a causa de un cáncer de estómago. Al examen físico: vigil, hidratado, pálido; signos vitales: PA 120/75 mmHg, FC 74 lpm, afebril; examen cardiopulmonar normal; abdomen blando, depresible, con leve dolor a la palpación profunda en epigastrio, sin masas palpables ni visceromegalias, sin signos peritoneales y sin adenopatías supraclaviculares palpables. El hemograma revela Hb 11.0 g/dL, VCM 77 fL (anemia microcítica leve).\n¿Cuál es la conducta médica más adecuada a seguir según las normativas del Ministerio de Salud (MINSAL) y las Garantías Explícitas en Salud (GES)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indicar tratamiento empírico con Omeprazol 20 mg al día por vía oral durante 8 semanas y evaluar respuesta clínica"
+      },
+      {
+        "id": "B",
+        "text": "Solicitar de inmediato Endoscopía Digestiva Alta (EDA) con toma de biopsias ingresando al paciente a la garantía GES de Cáncer Gástrico"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar antígeno de Helicobacter pylori en deposiciones e iniciar terapia de erradicación solo si resulta positivo"
+      },
+      {
+        "id": "D",
+        "text": "Solicitar Ecografía Abdominal para descartar litiasis vesicular y citar a control en 3 meses"
+      },
+      {
+        "id": "E",
+        "text": "Solicitar Tránsito Esofagogastroduodenal con bario y diferir cualquier procedimiento invasivo"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. En Chile, el Cáncer Gástrico es la primera causa de muerte por tumores malignos en hombres y una de las principales en mujeres, con una alta prevalencia poblacional. El protocolo ministerial y la Guía Clínica AUGE/GES de Cáncer Gástrico establecen una regla de oro de salud pública: TODO paciente de 40 años o más que presente síntomas de dispepsia nueva o persistente por más de 30 días, o cualquier paciente que presente signos de alarma (baja de peso inexplicada, anemia microcítica ferropénica, disfagia, vómitos recurrentes o antecedentes familiares de primer grado de cáncer gástrico, presentes en este paciente), tiene indicación mandataria de Endoscopía Digestiva Alta (EDA) con toma de biopsias como primer examen diagnóstico, debiendo ser garantizada su realización en un plazo máximo de 30 días bajo la sospecha GES #17 (Cáncer Gástrico). La EDA es el único examen que permite detectar lesiones neoplásicas incipientes o avanzadas, tomar muestras histológicas diagnósticas e investigar la presencia de Helicobacter pylori.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El ensayo terapéutico empírico con IBP (Omeprazol) está formalmente contraindicado en mayores de 40 años o con signos de alarma; el omeprazol alivia temporalmente los síntomas e incluso cicatriza parcialmente lesiones ulceradas neoplásicas, retrasando el diagnóstico certero y transformando un cáncer gástrico potencialmente curable en una enfermedad avanzada e incurable.\n- Opción C es incorrecta: El testeo no invasivo de H. pylori en deposiciones es insuficiente; un resultado positivo no descarta la presencia de una neoplasia ya establecida y un resultado negativo no excluye el cáncer gástrico.\n- Opción D es incorrecta: La ecografía abdominal es el examen de elección para colelitiasis, pero no visualiza adecuadamente la mucosa gástrica ni pesquisa tumores tempranos de la pared gástrica.\n- Opción E es incorrecta: El estudio baritado radiológico tiene muy baja sensibilidad para lesiones tempranas, no permite tomar biopsias y es un método obsoleto que no cumple los estándares GES chilenos."
+  },
+  {
+    "id": "W-EXTRA-09",
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "topicTitle": "Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+    "perfilCode": "1.06.1.018",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · derivar a especialista para inducción y mantención"
+    },
+    "stem": "Hombre de 24 años consulta en el servicio de medicina por un cuadro de 4 meses de diarrea crónica intermitente (3 a 5 deposiciones pastosas al día, ocasionalmente con estrías de sangre y mucus), dolor cólico recurrente localizado en la fosa ilíaca derecha, astenia, febrícula vespertina intermitente de hasta 37.8 °C y baja de peso no deseada de 6 kg. En el último mes nota secreción purulenta y dolor a nivel perianal. Al examen físico: pálido, enflaquecido; en la mucosa bucal se aprecian dos úlceras aftosas dolorosas en el fondo de saco vestibular; abdomen sensible en fosa ilíaca derecha donde se palpa una masa dolorosa de bordes mal definidos (plastrón inflamatorio). El examen anorrectal confirma un orificio fistuloso perianal activo a las 7 horas en posición de litotomía, con salida de material mucopurulento. La colonoscopía con ileoscopía retrógrada revela una mucosa rectal completamente sana y normal, pero a nivel del colon ascendente y del íleon terminal se observan úlceras longitudinales profundas serpiginosas alternadas con zonas de mucosa completamente respetada e indemne (distribución en parches o lesiones saltonas) y aspecto empedrado de la mucosa.\n¿Cuál es el diagnóstico más probable en este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colitis Ulcerosa"
+      },
+      {
+        "id": "B",
+        "text": "Enfermedad de Crohn"
+      },
+      {
+        "id": "C",
+        "text": "Colitis Isquémica"
+      },
+      {
+        "id": "D",
+        "text": "Síndrome de Intestino Irritable con predominio diarrea"
+      },
+      {
+        "id": "E",
+        "text": "Colitis pseudomembranosa por Clostridioides difficile"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. El caso clínico describe de forma paradigmática una Enfermedad de Crohn activa. Existen múltiples hallazgos clínicos, endoscópicos y anatómicos que definen el diagnóstico categórico y que son exclusivos de la Enfermedad de Crohn: 1) Compromiso del íleon terminal y presencia de una masa/plastrón palpable en la fosa ilíaca derecha; 2) Patrón endoscópico de afección discontinua o en parches (\"skip lesions\") con mucosa sana intercalada y aspecto en \"empedrado\"; 3) Respeto del recto (el recto está completamente sano, a diferencia de la colitis ulcerosa que SIEMPRE afecta al recto de forma continua); 4) Enfermedad perianal compleja y fístulas perianales (consecuencia directa del carácter inflamatorio transmural propio de Crohn); y 5) Manifestaciones extraintestinales asociadas como úlceras aftosas en la mucosa oral. La conducta médica inicial en APS consiste en la sospecha diagnóstica precoz, hidratación y corrección hidroelectrolítica, y derivación preferente a nivel secundario (gastroenterología) para inducción y mantención con fármacos biológicos o inmunomoduladores.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La Colitis Ulcerosa afecta EXCLUSIVAMENTE al colon, siempre comienza en el recto (rectitis continua) y asciende de manera uniforme y simétrica sin parches de mucosa sana; la inflamación se limita a la mucosa y submucosa (nunca es transmural) y por lo tanto NO produce fístulas perianales, no afecta el íleon terminal ni produce plastrones o masas abdominales.\n- Opción C es incorrecta: La colitis isquémica es un cuadro agudo propio de adultos mayores con factores de riesgo cardiovascular o estados de bajo flujo, que afecta característicamente zonas limítrofes vasculares (ángulo esplénico o unión rectosigmoidea) con dolor súbito y rectorragia autolimitada, no un cuadro crónico en un joven con fístulas perianales y aftas orales.\n- Opción D es incorrecta: El síndrome de intestino irritable es un trastorno funcional digestivo que por definición cursa con exámenes de laboratorio y colonoscopía estrictamente normales; nunca presenta fiebre, baja de peso, fístulas perianales, aftas bucales ni lesiones endoscópicas.\n- Opción E es incorrecta: La colitis por C. difficile cursa con diarrea acuosa aguda tras el uso reciente de antibióticos y muestra placas pseudomembranosas amarillentas adheridas a la mucosa colónica, sin fístulas perianales crónicas ni afección ileal aislada."
+  },
+  {
+    "id": "W-EXTRA-10",
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "topicTitle": "Pólipos y Cáncer Colorrectal · Tamizaje",
+    "perfilCode": "1.06.1.029",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "GES: tamizaje de cáncer de colon (sangre oculta inmunoquímico) desde los 50 años"
+    },
+    "stem": "Hombre de 68 años, sin antecedentes médicos conocidos ni controles de salud recientes, consulta en atención primaria por astenia progresiva, adinamia y disnea al subir escaleras de 3 meses de evolución. Niega dolor abdominal, no ha presentado rectorragia visible ni melena, y su hábito intestinal se ha mantenido sin alteraciones (deposiciones normales una vez al día). Al examen físico: vigil, lúcido, palidez mucocutánea intensa; signos vitales: PA 118/70 mmHg, FC 88 lpm regular, afebril; examen cardiopulmonar sin alteraciones; abdomen blando, depresible, indoloro, sin masas palpables; tacto rectal sin lesiones y sin deposiciones con sangre visible en el guante. Los exámenes de laboratorio revelan: Hematocrito 24%, Hemoglobina 7.6 g/dL, VCM 68 fL, HCM 22 pg (anemia microcítica e hipocrómica severa), Ferritina sérica 8 ng/mL (marcadamente disminuida, confirmando ferropenia). La endoscopía digestiva alta es rigurosamente normal, sin lesiones mucosas sangrantes.\n¿Cuál es la sospecha diagnóstica más probable y el examen de elección para su confirmación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cáncer de colon derecho (ciego / colon ascendente); Colonoscopía total con toma de biopsias"
+      },
+      {
+        "id": "B",
+        "text": "Cáncer de recto inferior; Rectosigmoidoscopía rígida de 15 cm"
+      },
+      {
+        "id": "C",
+        "text": "Hemorroides internas sangrantes; Anoscopía ambulatoria y tratamiento tópico"
+      },
+      {
+        "id": "D",
+        "text": "Angiodisplasia de intestino delgado; Cápsula endoscópica como examen de primera línea"
+      },
+      {
+        "id": "E",
+        "text": "Diverticulosis colónica izquierda simple; Enema baritado con doble contraste"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la CORRECTA. En un hombre adulto o en una mujer posmenopáusica, la presencia de una anemia ferropénica inexplicada (microcítica, hipocrómica, con ferritina marcadamente baja) es un Cáncer Colorrectal mientras no se demuestre lo contrario. El Cáncer de Colon Derecho (ciego y colon ascendente) presenta una anatomía luminal amplia y contiene deposiciones líquidas; por ello, las neoplasias derechas crecen predominantemente de forma polipoidea, exofítica o ulcerada, sangrando de manera insidiosa y microscópica durante meses sin provocar obstrucción intestinal ni cambios evidentes en el hábito evacuatorio. El paciente típicamente debuta por el síndrome anémico (fatiga, disnea de esfuerzo, palidez) sin sangre visible. Por el contrario, los cánceres de colon izquierdo crecen infiltrando la pared en \"servilletero\", produciendo alteración del tránsito (constipación progresiva, deposiciones acintadas) y rectorragia fresca visible. El examen de elección mandatorio y de primera línea es la Colonoscopía Total hasta el ciego con exploración del íleon terminal y toma de biopsias, la cual permite la visualización directa, localización y confirmación histológica de la lesión tumoral.\n\nAnálisis de distractores:\n- Opción B es incorrecta: El cáncer de recto debuta con rectorragia roja rutilante, tenesmo rectal, pujo y sensación de evacuación incompleta; además, una rectosigmoidoscopía rígida solo alcanza los primeros 15-20 cm y deja sin evaluar todo el colon proximal y el ciego, pasando por alto la totalidad de las lesiones derechas.\n- Opción C es incorrecta: Las hemorroides son una causa muy común de sangrado anal, pero NUNCA se debe atribuir una anemia ferropénica severa en un adulto mayor a hemorroides sin haber realizado previamente un estudio endoscópico completo del tracto digestivo.\n- Opción D es incorrecta: La cápsula endoscópica para evaluar el intestino delgado solo se indica en casos de hemorragia de origen oscuro una vez que la endoscopía alta y la colonoscopía total resultaron estrictamente negativas.\n- Opción E es incorrecta: La diverticulosis produce hemorragia digestiva baja masiva indolora o diverticulitis aguda (dolor en fosa ilíaca izquierda y fiebre), no anemia ferropénica larvada; además, el enema baritado es incapaz de tomar biopsias y tiene menor sensibilidad diagnóstica que la colonoscopía."
+  },
+  {
+    "id": "W-EXTRA-11",
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "topicTitle": "Daño Hepático Crónico e Hipertensión Portal",
+    "perfilCode": "1.06.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES universal · trasplante hepático según norma de patologías GES cuando corresponda"
+    },
+    "stem": "Hombre de 56 años, con diagnóstico de daño hepático crónico (cirrosis hepática) de etiología por consumo de alcohol y ascitis en tratamiento con espironolactona y furosemida, consulta en el Servicio de Urgencias por aumento del volumen abdominal, dolor difuso y desgano de 48 horas de evolución. Al examen físico: vigil, desorientado témporo-espacialmente de forma leve, sin asterixis franca; signos vitales: PA 100/60 mmHg, FC 94 lpm, FR 18 rpm, temperatura axilar 38.1 °C. Abdomen globuloso, distendido por ascitis moderada, con matidez desplazable y dolor leve a la palpación difusa, sin signos de peritonitis franca. Se realiza una paracentesis diagnóstica precoz en fosa ilíaca izquierda, obteniéndose líquido ascítico cetrino cuyo análisis citoquímico urgente informa: recuento total de leucocitos de 680 células/mm³, con 78% de polimorfonucleares (530 PMN/mm³), proteínas totales de 1.1 g/dL y gradiente de albúmina suero-ascitis (GASA) de 1.7 g/dL. El médico de turno inicia Ceftriaxona 2 g/día endovenosa.\n¿Cuál de las siguientes intervenciones terapéuticas adicionales es indispensable asociar de inmediato para reducir significativamente la incidencia de síndrome hepatorrenal y la mortalidad hospitalaria en este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administración de Albúmina Humana endovenosa en dosis de 1.5 g/kg en las primeras 6 horas del diagnóstico, seguida de 1.0 g/kg al tercer día"
+      },
+      {
+        "id": "B",
+        "text": "Realización inmediata de una paracentesis evacuadora total de 6 litros para eliminar el foco bacteriano infeccioso"
+      },
+      {
+        "id": "C",
+        "text": "Aumento agresivo de la dosis de Furosemida a 80 mg endovenosos cada 8 horas para acelerar la resorción del líquido"
+      },
+      {
+        "id": "D",
+        "text": "Instalación de sonda nasogástrica con lavado gástrico con suero helado y carbón activado"
+      },
+      {
+        "id": "E",
+        "text": "Asociación empírica de Metronidazol endovenoso para cobertura de bacterias anaerobias intestinales"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la CORRECTA. El paciente presenta una Peritonitis Bacteriana Espontánea (PBE), confirmada por el recuento de neutrófilos polimorfonucleares (PMN) ≥ 250/mm³ en el líquido ascítico (530 PMN/mm³ en este caso). El tratamiento de elección de la PBE incluye cefalosporinas de tercera generación endovenosas (Ceftriaxona o Cefotaxima) y, de forma CRÍTICA, la infusión concomitante de Albúmina Humana endovenosa (1.5 g/kg de peso dentro de las primeras 6 horas del diagnóstico, seguido de 1.0 g/kg al tercer día de tratamiento). La evidencia científica de referencia (ensayo de Sort et al. y guías de la EASL y Sociedad Chilena de Gastroenterología) demostró de forma concluyente que la infusión de albúmina previene el colapso circulatorio inducido por la infección, reduce drásticamente la incidencia de falla renal aguda / Síndrome Hepatorrenal del 33% al 10%, y disminuye la mortalidad intrahospitalaria de un 29% a un 10%. Es una de las conductas farmacológicas más evaluadas en el EUNACOM.\n\nAnálisis de distractores:\n- Opción B es incorrecta: La paracentesis evacuadora de gran volumen se realiza para aliviar la ascitis a tensión sintomática en pacientes estables; realizar una evacuación masiva durante un episodio agudo de infección peritoneal grave puede desestabilizar la hemodinámica sistémica y empeorar la vasodilatación esplácnica, no estando indicada como tratamiento de la PBE.\n- Opción C es incorrecta: Los diuréticos de asa (Furosemida) y antialdosterónicos deben SUSPENDERSE transitoriamente durante el tratamiento agudo de la PBE, ya que la diuresis forzada agota el volumen intravascular efectivo, reduce la tasa de filtración glomerular y precipita una insuficiencia renal aguda prerrenal o síndrome hepatorrenal.\n- Opción D es incorrecta: La sonda nasogástrica y el lavado con suero helado son procedimientos obsoletos que no tienen ninguna indicación en PBE y aumentan el riesgo de traumatismo de várices esofágicas y broncoaspiración.\n- Opción E es incorrecta: La flora bacteriana causante de la PBE proviene de la traslocación bacteriana de bacilos aerobios Gram negativos (Escherichia coli, Klebsiella pneumoniae) o cocos Gram positivos (Streptococcus pneumoniae); las bacterias anaerobias prácticamente nunca causan PBE (su presencia sugiere una peritonitis bacteriana secundaria por perforación visceral). Por tanto, no se indica metronidazol."
+  },
+  {
+    "id": "W-EXTRA-12",
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "topicTitle": "Pancreatitis Aguda",
+    "perfilCode": "1.06.2.010",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES específica · manejo hospitalario según Norma MINSAL de urgencia abdominal"
+    },
+    "stem": "Hombre de 44 años, sin antecedentes crónicos conocidos, consulta en el Servicio de Urgencias de un hospital por dolor epigástrico de inicio rápido, intenso (10/10), continuo, de carácter transfixiante e irradiado en faja hacia el dorso, que comenzó hace 14 horas tras una comida copiosa, asociado a vómitos biliosos reiterados. Al examen físico: vigil, quejumbroso de dolor; signos vitales: PA 130/85 mmHg, FC 92 lpm, FR 18 rpm, afebril (36.8 °C), SatO2 98% ambiental. Abdomen doloroso a la palpación profunda en epigastrio y mesogastrio, blando, sin defensa involuntaria ni signos de peritonitis. Los exámenes de laboratorio revelan: Lipasa sérica 1.380 U/L (VN < 60 U/L, más de 20 veces el valor normal), Amilasa 720 U/L (VN < 100 U/L), Leucocitos 12.800/mm³, Bilirrubina total 1.3 mg/dL, Calcemia y función renal normales. La ecografía abdominal demuestra colelitiasis con microlitiasis vesicular, colédoco de 5 mm de diámetro y páncreas parcialmente visualizado con aumento difuso de volumen. El médico interno propone solicitar de inmediato una Tomografía Computarizada (TAC) de abdomen y pelvis con contraste endovenoso.\n¿Cuál es la indicación médica correcta respecto al uso del TAC con contraste en este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realizar el TAC con contraste de inmediato en las primeras 24 horas para cuantificar con precisión el porcentaje de necrosis pancreática y definir el pronóstico"
+      },
+      {
+        "id": "B",
+        "text": "No realizar TAC en este momento; el diagnóstico ya está confirmado y el TAC con contraste debe reservarse para las 72 a 96 horas solo si el paciente presenta evolución desfavorable, deterioro clínico o sospecha de complicaciones locales"
+      },
+      {
+        "id": "C",
+        "text": "El TAC con contraste está formalmente contraindicado en todo paciente con pancreatitis aguda debido al riesgo de nefrotoxicidad"
+      },
+      {
+        "id": "D",
+        "text": "Suspender el estudio y solicitar una Colangiopancreatografía Retrógrada Endoscópica (CPRE) urgente en las próximas 6 horas"
+      },
+      {
+        "id": "E",
+        "text": "Reemplazar el TAC por una Resonancia Magnética de abdomen urgente como único método validado en la fase hiperaguda"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la CORRECTA. El diagnóstico de Pancreatitis Aguda se establece con al menos 2 de los 3 criterios de la Clasificación de Atlanta: 1) Dolor abdominal sugerente (epigástrico típico transfixiante hacia el dorso); 2) Elevación de amilasa o lipasa sérica > 3 veces el límite superior normal; y 3) Hallazgos imagenológicos característicos. En este paciente el diagnóstico es indudable (cumple dolor típico y lipasa > 20 veces el valor normal), por lo que la tomografía NO es necesaria para el diagnóstico. De acuerdo con las guías clínicas internacionales (IAP/APA, AGA) y las normativas chilenas del MINSAL, la realización de un TAC de abdomen con contraste endovenoso en las primeras 24 a 48 horas NO está indicada de rutina porque en esta fase hiperaguda el tejido pancreático aún se encuentra en proceso de hipoperfusión dinámica; un TAC precoz subestima significativamente la presencia y extensión de la necrosis pancreática, no cambia la conducta médica inicial y expone innecesariamente a radiación y nefrotoxicidad. El momento idóneo para realizar el TAC contrastado son las 72 a 96 horas (3 a 4 días) desde el inicio de los síntomas, momento en el cual la necrosis tisular se delimita claramente y se pesquisan complicaciones morfológicas en pacientes que no mejoran o presentan deterioro clínico.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Como se detalló, realizar un TAC en las primeras 24 horas conduce a falsos negativos respecto a necrosis y no aporta información terapéutica que modifique el manejo inicial (el cual se basa en hidratación precoz guiada por metas con Ringer Lactato y analgesia).\n- Opción C es incorrecta: El TAC con contraste endovenoso NO está contraindicado; al contrario, es el estándar de oro para evaluar necrosis y colecciones peripancreáticas, pero debe indicarse en la ventana temporal fisiológicamente adecuada (a partir de las 72 horas).\n- Opción D es incorrecta: La CPRE de urgencia (< 24 horas) está indicada EXCLUSIVAMENTE cuando la pancreatitis aguda litiásica se complica con Colangitis Aguda concomitante o colestasia/obstrucción biliar persistente severa con sepsis; en este paciente no hay fiebre, la bilirrubina es normal (1.3 mg/dL) y el colédoco no está dilatado (5 mm).\n- Opción E es incorrecta: La resonancia magnética no es obligatoria de urgencia ni reemplaza la indicación racional del TAC en el seguimiento de complicaciones pancreáticas."
+  },
+  {
+    "id": "W-EXTRA-13",
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "topicTitle": "Asma Bronquial Crónica y Manejo GINA/GES",
+    "perfilCode": "1.05.1.002, 1.05.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Asma Bronquial en Personas de 15 años y más"
+    },
+    "stem": "Hombre de 22 años, con antecedente de asma bronquial desde la infancia con mala adherencia a controles, es llevado por familiares a un Servicio de Atención Primaria de Urgencia (SAPU) por un cuadro de disnea de rápida progresión de 4 horas de evolución, gatillado por una infección respiratoria alta. Al examen físico: vigil pero marcadamente ansioso, sentado inclinado hacia adelante apoyándose en sus rodillas, con sudoración profusa y dificultad para emitir oraciones completas (habla entrecortada en palabras sueltas). Signos vitales: PA 138/88 mmHg, FC 122 lpm, FR 32 rpm con uso evidente de musculatura accesoria (tiraje intercostal y supraclavicular), SatO2 88% a aire ambiental. A la auscultación pulmonar se constata una marcada disminución bilateral del murmullo vesicular, con sibilancias espiratorias tenues y apagadas (tórax con silencio auscultatorio inminente). La medición con flujómetro revela un Flujo Espiratorio Máximo (PEF) del 35% respecto a su valor teórico.\n¿Cuál es la conducta médica inmediata más adecuada para el manejo de esta crisis asmática severa en el servicio de urgencias?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar oxígeno para saturar 93-95%, indicar Salbutamol mediante inhalador de dosis medida con aerocámara (4 a 8 puff cada 20 minutos durante la primera hora) asociado a Bromuro de Ipratropio y administrar Corticoides sistémicos de forma precoz"
+      },
+      {
+        "id": "B",
+        "text": "Administrar Salbutamol 2 puff en monoterapia cada 4 horas y dar de alta con indicación de consultar en su CESFAM si persisten los síntomas"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar infusión de Aminofilina endovenosa continua y prescribir antibióticos orales de amplio espectro"
+      },
+      {
+        "id": "D",
+        "text": "Proceder a intubación orotraqueal y conexión a ventilación mecánica invasiva inmediata sin intentar tratamiento broncodilatador"
+      },
+      {
+        "id": "E",
+        "text": "Administrar Sulfato de Magnesio nebulizado en monoterapia como único tratamiento farmacológico indicado"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la CORRECTA. El paciente se presenta con una Crisis Asmática Severa (grave con riesgo vital inminente), caracterizada por: incapacidad para pronunciar frases completas, ortopnea, taquicardia (> 120 lpm), taquipnea severa (> 30 rpm), tiraje con uso de músculos accesorios, hipoxemia (SatO2 88%), tórax casi silente (flujo aéreo críticamente reducido) y PEF < 50% del valor predictivo. Según las directrices de la Guía GES MINSAL y la Iniciativa Global para el Asma (GINA), el manejo médico inmediato y estandarizado en la urgencia se basa en tres pilares sinérgicos: 1) Oxigenoterapia controlada mediante cánula nasal o mascarilla para lograr y mantener una saturación de O2 entre 93% y 95% (evitando la hiperoxia descontrolada); 2) Broncodilatadores de acción rápida intensivos: beta-2 agonistas de corta acción (Salbutamol 4 a 8 puff con aerocámara cada 20 minutos durante la primera hora, o nebulizado continuo), asociado en crisis severas al anticolinérgico de corta acción Bromuro de Ipratropio (4 puff cada 20 minutos), combinación que reduce significativamente la tasa de hospitalizaciones; y 3) Corticoides sistémicos precoces (Prednisona oral 40-50 mg o Hidrocortisona endovenosa 100-200 mg), que deben administrarse durante la primera hora para reducir la inflamación epitelial, prevenir las recaídas y acelerar la recuperación funcional pulmonar.\n\nAnálisis de distractores:\n- Opción B es incorrecta: Prescribir dosis bajas convencionales de salbutamol (2 puff) cada 4 horas y dar el alta a un paciente con insuficiencia respiratoria aguda y PEF del 35% constituye una negligencia médica con riesgo inminente de paro respiratorio y muerte por asma.\n- Opción C es incorrecta: La aminofilina/teofilina endovenosa no está recomendada de rutina en las crisis de asma por su estrecho margen terapéutico, baja eficacia broncodilatadora y alto riesgo de arritmias cardíacas y convulsiones; además, las crisis de asma habitualmente son desencadenadas por virus o alérgenos, por lo que los antibióticos no están indicados en ausencia de neumonía bacteriana evidente.\n- Opción D es incorrecta: La intubación orotraqueal en el asmático severo es una medida de último recurso, reservada exclusivamente para el agotamiento respiratorio, coma, paro cardiorrespiratorio o acidosis respiratoria severa refractaria a la terapia médica máxima enérgica; intubar prematuramente a un paciente asmático sin intentar broncodilatación intensiva expone a barotrauma masivo (neumotórax), hiperinsuflación dinámica y colapso circulatorio.\n- Opción E es incorrecta: El sulfato de magnesio se utiliza por vía endovenosa (2 g EV en 20 minutos) como terapia de segunda línea adyuvante en crisis severas que no responden a la primera hora de tratamiento broncodilatador habitual; nunca se utiliza nebulizado en monoterapia."
+  },
+  {
+    "id": "W-EXTRA-14",
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "topicTitle": "Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+    "perfilCode": "1.05.1.037, 1.05.3.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Tuberculosis en Todas sus Formas (Garantía de Acceso, Diagnóstico y Tratamiento)"
+    },
+    "stem": "Hombre de 48 años con diagnóstico reciente de tuberculosis pulmonar bacilífera (confirmada por baciloscopía +++ y GeneXpert sensible a rifampicina) se encuentra cumpliendo la tercera semana de tratamiento directamente observado con el esquema primario diario de cuatro drogas (Rifampicina, Isoniazida, Pirazinamida y Etambutol - RHZE). Acude al CESFAM refiriendo que desde hace 48 horas presenta náuseas intensas, múltiples episodios de vómitos, anorexia profunda, dolor opresivo continuo en el hipocondrio derecho y tinte amarillento en las escleras y la piel (ictericia franca). Al examen físico: vigil pero decaído, escleras y mucosas marcadamente ictéricas, abdomen sensible en hipocondrio derecho con hepatomegalia palpable a 2 cm bajo el reborde costal. Los exámenes de laboratorio urgentes evidencian: GOT (AST) 480 UI/L (VN < 40 UI/L, más de 12 veces el valor normal), GPT (ALT) 560 UI/L (VN < 40 UI/L, 14 veces el valor normal), Bilirrubina Total 4.8 mg/dL a predominio directo (VN < 1.0 mg/dL), Fosfatasas Alcalinas 165 UI/L y Tiempo de Protrombina con INR 1.15.\n¿Cuál es la conducta médica inmediata más adecuada según la Norma Técnica del Programa de Control y Eliminación de la Tuberculosis (PROCET) del Ministerio de Salud (MINSAL)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender de inmediato todos los fármacos antituberculosos (esquema RHZE completo), hospitalizar al paciente para monitorización clínica de la función hepática y esperar la normalización de las transaminasas antes de la reintroducción secuencial"
+      },
+      {
+        "id": "B",
+        "text": "Mantener el esquema RHZE sin modificaciones y prescribir Metoclopramida oral y Ácido Ursodesoxicólico para aliviar la sintomatología digestiva"
+      },
+      {
+        "id": "C",
+        "text": "Suspender exclusivamente el Etambutol y continuar con Rifampicina, Isoniazida y Pirazinamida a mitad de dosis"
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar de inmediato la Isoniazida por Estreptomicina intramuscular y dar de alta al paciente para continuar tratamiento ambulatorio"
+      },
+      {
+        "id": "E",
+        "text": "Derivar de urgencia a una unidad de trasplante hepático para realizar un trasplante ortotópico inmediato sin suspender el tratamiento farmacológico"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la CORRECTA. El paciente presenta un cuadro grave de Daño Hepático Inducido por Fármacos (DILI / Hepatotoxicidad grave por fármacos antituberculosos). La Norma Técnica del Programa de Control y Eliminación de la Tuberculosis (PROCET) del MINSAL y las guías internacionales establecen de forma estricta los criterios de suspensión obligatoria del tratamiento antituberculoso: 1) Elevación de transaminasas (AST o ALT) mayor a 3 veces el límite superior normal ACOMPAÑADA de síntomas clínicos de hepatitis (náuseas, vómitos, dolor en hipocondrio derecho, anorexia o ictericia clínica); 2) Elevación de transaminasas mayor a 5 veces el límite superior normal aun en ausencia de síntomas; o 3) Elevación de la bilirrubina total por sobre 2.0-2.5 mg/dL. En este caso, el paciente tiene transaminasas elevadas más de 12 a 14 veces el valor normal (> 500 UI/L), ictericia franca y marcada sintomatología digestiva. La conducta médica MANDATORIA es la suspensión inmediata de TODOS los fármacos antituberculosos hepatotóxicos (Rifampicina, Isoniazida y Pirazinamida; siendo la pirazinamida la más hepatotóxica) y la hospitalización del paciente para monitorizar las pruebas hepáticas, la bilirrubina y el tiempo de protrombina (INR). Una vez que las enzimas hepáticas descienden por debajo de 2 veces el valor normal y la ictericia cede, se planifica la reintroducción escalonada y secuencial de las drogas (generalmente iniciando con Etambutol y Rifampicina, luego Isoniazida, evitando habitualmente la Pirazinamida).\n\nAnálisis de distractores:\n- Opción B es incorrecta: Mantener los fármacos frente a una hepatitis tóxica con transaminasas > 10 veces el valor normal e ictericia es un error médico gravísimo que conduce rápidamente a necrosis hepática masiva, falla hepática fulminante con coagulopatía y muerte del paciente.\n- Opción C es incorrecta: El Etambutol es el ÚNICO fármaco del cuarteto primario que NO es hepatotóxico (su toxicidad característica es la neuritis óptica retrobulbar y se depura por vía renal); suspender el etambutol mientras se mantienen la rifampicina, isoniazida y pirazinamida mantendría el ataque hepatotóxico letal.\n- Opción D es incorrecta: No se debe cambiar una droga a ciegas mientras el hígado se encuentra en necrosis aguda; además, la Pirazinamida y la Rifampicina también son fuertemente hepatotóxicas y continuar con ellas mantendría la lesión hepática.\n- Opción E es incorrecta: El trasplante hepático se reserva exclusivamente para la falla hepática fulminante con encefalopatía hepática y coagulopatía severa (INR > 2.0); la inmensa mayoría de los pacientes con DILI por fármacos antituberculosos recuperan completamente la función hepática tras la suspensión oportuna de los medicamentos agresores."
+  }
+]

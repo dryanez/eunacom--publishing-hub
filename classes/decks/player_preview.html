@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EUNACOM 2026 · Masterclass Player (Perfil V3 Adaptativo)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            dark: {
+              bg: '#090D16',
+              surface: '#0F172A',
+              card: '#131D33',
+              border: 'rgba(255, 255, 255, 0.08)',
+              hover: 'rgba(255, 255, 255, 0.05)',
+            },
+            eunacom: {
+              red: '#E11D48',
+              emerald: '#10B981',
+              blue: '#0284C7',
+              amber: '#F59E0B',
+              purple: '#8B5CF6',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #090D16; color: #F1F5F9; font-family: 'Plus Jakarta Sans', sans-serif; }
+    .glass-panel { background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
+    .bento-card { background: linear-gradient(135deg, rgba(19, 29, 51, 0.9) 0%, rgba(15, 23, 42, 0.9) 100%); border: 1px solid rgba(255, 255, 255, 0.08); }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 9999px; }
+  </style>
+</head>
+<body class="h-screen w-screen overflow-hidden flex flex-col select-none">
+
+  <!-- TOP BAR / HEADER -->
+  <header class="h-16 px-6 glass-panel flex items-center justify-between border-b border-dark-border z-30 shrink-0">
+    <div class="flex items-center gap-4">
+      <div class="flex items-center gap-2 bg-eunacom-red/10 border border-eunacom-red/30 px-2.5 py-1 rounded-full">
+        <span class="w-2 h-2 rounded-full bg-eunacom-red animate-pulse"></span>
+        <span class="text-xs font-bold text-eunacom-red tracking-wider uppercase">EUNACOM 2026</span>
+      </div>
+      <div>
+        <h1 id="class-title" class="text-sm font-bold text-slate-100 flex items-center gap-2">
+          Cargando clase...
+        </h1>
+        <div class="flex items-center gap-2 text-xs text-slate-400">
+          <span id="v3-code-badge" class="font-mono text-cyan-400 bg-cyan-950/60 px-1.5 py-0.5 rounded border border-cyan-800/50">CÓD V3</span>
+          <span id="topic-real-q" class="text-amber-400 font-medium">·</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Class Selector Dropdown -->
+    <div class="flex items-center gap-3">
+      <select id="class-select" class="bg-dark-card border border-dark-border text-xs text-slate-200 rounded-lg px-3 py-1.5 font-medium outline-none cursor-pointer hover:border-slate-600 transition">
+        <optgroup label="Gastroenterología">
+          <option value="gastro-01">Gastro 1.1 · ERGE y Esófago de Barrett (12 slides · 8 Qs reales)</option>
+          <option value="gastro-02">Gastro 1.2 · Úlcera Péptica y H. pylori (12 slides · 8 Qs reales)</option>
+          <option value="gastro-10">Gastro 2.4 · EII: Colitis Ulcerosa y Crohn (13 slides · 21 Qs reales)</option>
+          <option value="gastro-17">Gastro 4.1 · Colelitiasis y Coledocolitiasis (12 slides · 9 Qs reales)</option>
+        </optgroup>
+        <optgroup label="Nefrología">
+          <option value="nefro-01">Nefro 1.1 · Injuria Renal Aguda (KDIGO) [17 slides · 4 Qs reales]</option>
+          <option value="nefro-05">Nefro 2.1 · Hiponatremia Hipotónica [17 slides · 4 Qs reales]</option>
+          <option value="nefro-09">Nefro 3.1 · Hiperkalemia Grave [17 slides · 4 Qs reales]</option>
+          <option value="nefro-18">Nefro 5.1 · Enfermedad Renal Crónica GES [16 slides · 8 Qs reales]</option>
+        </optgroup>
+      </select>
+
+      <button id="notes-toggle-btn" class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 border border-dark-border transition">
+        <svg class="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        <span>Notas del Docente</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- DYNAMIC SEGMENTED PROGRESS TIMELINE -->
+  <div class="px-6 py-2 bg-dark-bg/90 border-b border-dark-border flex items-center gap-1.5 shrink-0" id="segmented-timeline">
+    <!-- Se llena dinámicamente según la cantidad de diapositivas -->
+  </div>
+
+  <!-- MAIN CANVAS / SLIDE CONTAINER -->
+  <main class="flex-1 overflow-hidden relative flex">
+    <!-- Slide viewport -->
+    <div id="slide-viewport" class="flex-1 h-full overflow-y-auto custom-scrollbar p-6 lg:p-10 flex flex-col justify-center max-w-5xl mx-auto w-full transition-all duration-300">
+      <!-- Contenido renderizado por JS -->
+    </div>
+
+    <!-- Collapsible Teleprompter Drawer -->
+    <aside id="notes-drawer" class="w-80 h-full glass-panel border-l border-dark-border p-6 flex flex-col justify-between hidden transition-all duration-300">
+      <div>
+        <div class="flex items-center justify-between pb-3 border-b border-dark-border mb-4">
+          <span class="text-xs uppercase font-bold tracking-wider text-cyan-400">Guion de Audio / Teleprompter</span>
+          <span id="drawer-slide-num" class="text-xs font-mono text-slate-400">Slide 1</span>
+        </div>
+        <p id="drawer-notes-text" class="text-sm text-slate-300 leading-relaxed font-normal">
+          Selecciona una diapositiva para ver las notas clínicas.
+        </p>
+      </div>
+      <div class="pt-4 border-t border-dark-border text-xs text-slate-400 flex items-center justify-between">
+        <span>Síntesis ElevenLabs</span>
+        <span class="text-emerald-400 font-semibold">Perfil V3</span>
+      </div>
+    </aside>
+  </main>
+
+  <!-- BOTTOM ACTION DOCK -->
+  <footer class="h-16 px-6 glass-panel border-t border-dark-border flex items-center justify-between shrink-0 z-30">
+    <div class="flex items-center gap-3 text-xs text-slate-400">
+      <span class="font-mono" id="slide-indicator">Slide 1</span>
+      <span>·</span>
+      <span id="slide-nav-label" class="text-slate-200 font-medium">Portada</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <button id="prev-btn" class="px-4 py-2 text-xs font-bold rounded-lg bg-dark-card border border-dark-border hover:bg-slate-800 text-slate-200 transition disabled:opacity-30 disabled:cursor-not-allowed">
+        ← Anterior
+      </button>
+      <button id="next-btn" class="px-5 py-2 text-xs font-bold rounded-lg bg-eunacom-red hover:bg-rose-600 text-white transition shadow-lg shadow-rose-950/40">
+        Siguiente →
+      </button>
+    </div>
+  </footer>
+
+  <script>
+    // Demo embebida con datos reales de Gastro 1.1 y Nefro 1.1
+    const DEMO_DECKS = {
+      "gastro-01": {
+        id: "gastro-01",
+        title: "Gastroenterología 1.1: ERGE y Esófago de Barrett",
+        perfilCodes: ["1.06.1.027"],
+        tier: 2,
+        realQuestionCount: 8,
+        slides: [
+          {
+            type: "cover",
+            nav: "Portada & Códigos",
+            kicker: "CÓDIGO PERFIL V3: 1.06.1.027",
+            badges: [
+              { label: "EUNACOM 2026", bg: "#ffe4e6", color: "#e11d48", border: "#f43f5e" },
+              { label: "Gastroenterología", bg: "#dcfce7", color: "#16a34a", border: "#86efac" },
+              { label: "8 Preguntas Reales (2013-2025)", bg: "#fef3c7", color: "#b45309", border: "#f59e0b" }
+            ],
+            title: "Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+            subtitle: "Diagnóstico Clínico · Prueba Terapéutica con IBP · Criterios de EDA · Metaplasia y Displasia de Barrett",
+            notes: "Bienvenidos a la clase de ERGE y Esófago de Barrett. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM."
+          },
+          {
+            type: "table",
+            nav: "Matriz Perfil V3",
+            title: "Matriz de Auditoría Legal ASOFAMECh",
+            subtitle: "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+            headers: ["Código", "Situación Clínica", "Diagnóstico", "Tratamiento", "Seguimiento"],
+            rows: [{ highlight: true, cells: ["1.06.1.027", "Enfermedad por reflujo gastroesofágico", "Específico", "Completo", "Completo"] }],
+            pearl: "✅ MANEJO AUTÓNOMO APS: Esta condición debe ser diagnosticada, tratada y seguida íntegramente por el médico general en CESFAM.",
+            notes: "Exigencia legal: Diagnóstico específico, tratamiento completo y seguimiento completo en APS."
+          },
+          {
+            type: "bento",
+            nav: "Fisiopatología & Clínica",
+            title: "1. Definición, Mecanismo y Clínica Cardinal",
+            subtitle: "El reflujo del contenido gástrico hacia el esófago que produce síntomas molestos o complicaciones.",
+            tiles: [
+              {
+                title: "Síntomas Típicos vs Atípicos",
+                bullets: [
+                  "Síntomas cardinales típicos: Pirosis (sensación urente retroesternal) y regurgitación ácida.",
+                  "Síntomas atípicos / extraesofágicos: Tos crónica, laringitis matinal, asma del adulto, erosiones dentales y carraspera.",
+                  "En el EUNACOM, la presencia de pirosis típica en menor de 50 años sin alarma hace el diagnóstico clínico directo sin necesidad de exámenes."
+                ]
+              }
+            ],
+            notes: "La pirosis y la regurgitación son los síntomas cardinales. No olvides las manifestaciones extraesofágicas como disfonía matinal y tos."
+          },
+          {
+            type: "table",
+            nav: "Tabla Clave EUNACOM",
+            title: "ERGE — Decisiones Clave que se Preguntan en el Examen",
+            subtitle: "Situaciones clínicas clásicas y la conducta esperada según Guías MINSAL.",
+            headers: ["Escenario Clínico", "Conducta Correcta", "Error Frecuente en Examen"],
+            rows: [
+              { cells: ["Pirosis típica, < 50 años, sin alarma", "Prueba con IBP 4–8 semanas", "Pedir endoscopía de entrada"] },
+              { cells: ["Pirosis + disfagia o baja de peso", "Endoscopía digestiva alta inmediata", "Subir la dosis de IBP sin estudiar"] },
+              { cells: ["Duda diagnóstica / clínica atípica", "pH-metría de 24 horas", "Tratar empíricamente a ciegas"] },
+              { cells: ["Barrett con metaplasia sin displasia", "IBP + vigilancia endoscópica", "Indicar cirugía antirreflujo por la metaplasia"] },
+              { cells: ["Barrett con displasia de alto grado", "Resección endoscópica / cirugía", "Solo mantener IBP y esperar"] }
+            ],
+            notes: "Memoriza esta tabla: es la fuente directa de las preguntas del EUNACOM."
+          },
+          {
+            type: "question",
+            nav: "Pregunta Real 2023",
+            badge: "EUNACOM Enero 2023 · Q#65",
+            number: 1,
+            caseText: "Paciente de 42 años con pirosis y regurgitación de 6 meses. La EDA muestra línea Z a 20 cm de la arcada dentaria e impresión diafragmática a 30 cm. ¿Cuál es el diagnóstico más probable?",
+            question: "¿Cuál es el diagnóstico más probable?",
+            options: [
+              { id: "A", text: "Esófago de Barrett", isCorrect: false },
+              { id: "B", text: "Hernia hiatal por deslizamiento (tipo I)", isCorrect: true },
+              { id: "C", text: "Hernia hiatal paraesofágica (tipo II)", isCorrect: false },
+              { id: "D", text: "Acalasia esofágica", isCorrect: false },
+              { id: "E", text: "Esofagitis erosiva grado B", isCorrect: false }
+            ],
+            explanation: "Cuando la distancia entre la unión esofagogástrica (línea Z) y la impronta diafragmática supera los 2 cm, se diagnostica hernia hiatal por deslizamiento tipo I (aquí la diferencia es de 10 cm). Es la causa anatómica más común de ERGE refractario.",
+            notes: "Esta pregunta de enero 2023 evaluó la capacidad de interpretar los centímetros informados en una endoscopía digestiva alta."
+          },
+          {
+            type: "question",
+            nav: "Pregunta Real 2019",
+            badge: "EUNACOM Diciembre 2019 · Q#145",
+            number: 2,
+            caseText: "Una paciente de 34 años consulta por disfonía intermitente, principalmente en la mañana, asociada a carraspera frecuente. Su examen físico no aporta mayores elementos. La laringoscopía muestra eritema interaritenoideo. ¿Cuál es la conducta más adecuada?",
+            question: "¿Cuál es la conducta más adecuada?",
+            options: [
+              { id: "A", text: "Indicar fonoterapia y reposo de la voz", isCorrect: false },
+              { id: "B", text: "Iniciar prueba terapéutica con inhibidor de bomba de protones a doble dosis", isCorrect: true },
+              { id: "C", text: "Solicitar TAC de cuello y tórax", isCorrect: false },
+              { id: "D", text: "Indicar corticoides inhalados y antihistamínicos", isCorrect: false },
+              { id: "E", text: "Derivar a cirugía para funduplicatura", isCorrect: false }
+            ],
+            explanation: "Reflujo laringofaríngeo (manifestación extraesofágica de ERGE). El eritema interaritenoideo es el signo laríngeo clásico del ácido. La conducta es iniciar IBP a doble dosis en ayunas por 2 a 3 meses.",
+            notes: "Manifestación extraesofágica clásica: disfonía matinal + eritema interaritenoideo = prueba con IBP."
+          },
+          {
+            type: "bento",
+            nav: "Reglas de Oro",
+            title: "Reglas de Oro del Examen EUNACOM",
+            subtitle: "Los 5 puntos intransables para asegurar el puntaje máximo en este tema.",
+            tiles: [
+              {
+                title: "Checklist de Alta Retención",
+                bullets: [
+                  "1. Pirosis típica en < 50 años sin alarma = diagnóstico clínico directo; no pedir EDA de entrada.",
+                  "2. El IBP se toma estrictamente en ayunas, 30-60 min antes del desayuno. Nunca combinar con anti-H2.",
+                  "3. Signos de alarma (disfagia, baja de peso, anemia, hematemesis, > 50 años) obligan a EDA inmediata.",
+                  "4. Esófago de Barrett = metaplasia intestinal en biopsia. Lo que indica resección o cirugía es la displasia, no la simple metaplasia.",
+                  "5. No se erradica H. pylori por ERGE; pero sí es obligatorio erradicarlo en úlcera péptica."
+                ]
+              }
+            ],
+            notes: "Repasa este checklist antes del examen. Con estos 5 puntos resuelves el 100% de las preguntas de ERGE."
+          }
+        ]
+      },
+      "nefro-01": {
+        id: "nefro-01",
+        title: "Nefrología 1.1: Injuria Renal Aguda (KDIGO)",
+        perfilCodes: ["1.08.1.001"],
+        tier: 3,
+        realQuestionCount: 4,
+        slides: [
+          {
+            type: "cover",
+            nav: "Portada & Códigos",
+            kicker: "CÓDIGO PERFIL V3: 1.08.1.001 · TIER 3 (ALTA DENSIDAD)",
+            badges: [
+              { label: "EUNACOM 2026", bg: "#ffe4e6", color: "#e11d48", border: "#f43f5e" },
+              { label: "Nefrología", bg: "#ede9fe", color: "#7c3aed", border: "#c4b5fd" },
+              { label: "17 Slides Adaptativos", bg: "#e0f2fe", color: "#0284c7", border: "#38bdf8" },
+              { label: "4 Preguntas Reales", bg: "#fef3c7", color: "#b45309", border: "#f59e0b" }
+            ],
+            title: "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+            subtitle: "Criterios KDIGO · Índices Urinarios (FeNa y FeUrea) · Criterios AEIOU de Diálisis de Urgencia",
+            notes: "Bienvenidos a la clase de Injuria Renal Aguda KDIGO, una de las urgencias médicas con mayor tasa de preguntas en el EUNACOM."
+          },
+          {
+            type: "table",
+            nav: "Matriz Perfil V3",
+            title: "Matriz de Auditoría Legal ASOFAMECh: IRA",
+            subtitle: "Nivel de competencia médica exigible por ley en Chile.",
+            headers: ["Código", "Situación Clínica", "Diagnóstico", "Tratamiento", "Seguimiento"],
+            rows: [{ highlight: true, cells: ["1.08.1.001", "Injuria Renal Aguda", "Específico", "Inicial y Urgencia", "Derivar"] }],
+            pearl: "⚠️ ALERTA APS: El médico general diagnostica e inicia la reposición hídrica de urgencia, pero debe derivar oportunamente a nefrología.",
+            notes: "Diagnóstico específico, tratamiento inicial y de urgencia en APS, derivación obligatoria."
+          },
+          {
+            type: "table",
+            nav: "Diferenciación Prerrenal vs NTA",
+            title: "Índices Urinarios Clave para el Examen",
+            subtitle: "Parámetros analíticos que definen si la falla es prerrenal (reversible con volumen) o intrínseca (NTA).",
+            headers: ["Parámetro", "IRA Prerrenal (Hemodinámica)", "IRA Intrínseca (NTA)"],
+            rows: [
+              { cells: ["FeNa (Fracción excreción Na)", "< 1 % (el túbulo ahorra Na)", "> 2 % (el túbulo dañado pierde Na)"] },
+              { cells: ["FeUrea (si usa diuréticos)", "< 35 %", "> 50 %"] },
+              { cells: ["Sodio urinario (NaU)", "< 20 mEq/L", "> 40 mEq/L"] },
+              { cells: ["Osmolaridad urinaria", "> 500 mOsm/kg (orina concentrada)", "< 350 mOsm/kg (orina isostenúrica)"] },
+              { cells: ["Sedimento urinario", "Cilindros hialinos limpios", "Cilindros granulosos pardos (\"barro\")"] }
+            ],
+            notes: "El FeNa menor a 1% es la clave de la falla prerrenal. Si el paciente toma furosemida, debes pedir FeUrea."
+          },
+          {
+            type: "table",
+            nav: "Criterios Diálisis AEIOU",
+            title: "Criterios de Hemodiálisis de Urgencia (AEIOU)",
+            subtitle: "Indicaciones absolutas que no admiten demora en el servicio de urgencia.",
+            headers: ["Letra", "Criterio Clínico", "Umbral EUNACOM"],
+            rows: [
+              { cells: ["A", "Acidosis metabólica grave", "pH < 7.1 refractario a bicarbonato"] },
+              { cells: ["E", "Electrolitos (Hiperkalemia grave)", "K+ > 6.5 mEq/L con alteraciones en ECG"] },
+              { cells: ["I", "Intoxicaciones dializables", "Metanol, etilenglicol, litio, salicilatos"] },
+              { cells: ["O", "Sobrecarga de volumen (Overload)", "Edema pulmonar agudo refractario a diuréticos"] },
+              { cells: ["U", "Uremia sintomática", "Encefalopatía urémica, pericarditis o sangrado"] }
+            ],
+            notes: "La mnemotecnia AEIOU resuelve prácticamente todas las preguntas de indicación de diálisis en el EUNACOM."
+          },
+          {
+            type: "question",
+            nav: "Caso Clínico EUNACOM",
+            badge: "Pregunta Oficial EUNACOM",
+            number: 1,
+            caseText: "Hombre de 68 años hospitalizado por neumonía grave recibe ceftriaxona y furosemida. Al 3er día la creatinina sube de 0.9 a 2.6 mg/dL. Se encuentra oligúrico (diuresis 200 ml/día). Na urinario es 48 mEq/L y el sedimento muestra cilindros granulosos pigmentados. ¿Cuál es el diagnóstico más probable?",
+            question: "¿Cuál es el diagnóstico más probable?",
+            options: [
+              { id: "A", text: "Injuria renal aguda prerrenal por deshidratación", isCorrect: false },
+              { id: "B", text: "Necrosis tubular aguda tóxica/isquémica", isCorrect: true },
+              { id: "C", text: "Nefritis intersticial aguda alérgica por ceftriaxona", isCorrect: false },
+              { id: "D", text: "Glomerulonefritis rápidamente progresiva", isCorrect: false },
+              { id: "E", text: "Uropatía obstructiva baja", isCorrect: false }
+            ],
+            explanation: "Sodio urinario > 40 mEq/L y cilindros granulosos pigmentados (cilindros de 'barro') son patognomónicos de Necrosis Tubular Aguda (NTA). En la prerrenal el Na urinario sería < 20 y los cilindros hialinos. La NIA cursaría con eosinofiluria, rash y fiebre.",
+            notes: "Cilindros granulosos pigmentados más Na urinario alto = Necrosis Tubular Aguda."
+          },
+          {
+            type: "bento",
+            nav: "Reglas de Oro",
+            title: "Reglas de Oro de Injuria Renal Aguda",
+            subtitle: "Checklist de supervivencia para el examen.",
+            tiles: [
+              {
+                title: "Perlas Fundamentales",
+                bullets: [
+                  "1. La causa más frecuente de IRA en la comunidad es prerrenal (hipovolemia, deshidratación, AINEs, IECA).",
+                  "2. La causa más frecuente en pacientes hospitalizados o en UCI es la Necrosis Tubular Aguda (sepsis, nefrotóxicos).",
+                  "3. Ante todo paciente anúrico (< 50 ml/día), la primera sospecha es obstructiva (pedir ecografía renal o instalar sonda Foley).",
+                  "4. En paciente que usa diuréticos, el FeNa se invalida; se debe calcular la fracción de excreción de urea (FeUrea < 35% = prerrenal).",
+                  "5. Pericarditis urémica o encefalopatía urémica = diálisis de urgencia inmediata sin dudar."
+                ]
+              }
+            ],
+            notes: "Checklist de oro: siempre descarta obstrucción en anuria y recuerda usar FeUrea si el paciente toma diuréticos."
+          }
+        ]
+      }
+    };
+
+    let currentDeck = null;
+    let currentSlideIdx = 0;
+
+    function setDeck(classId) {
+      currentDeck = DEMO_DECKS[classId] || DEMO_DECKS["gastro-01"];
+      currentSlideIdx = 0;
+
+      document.getElementById('class-title').innerText = currentDeck.title;
+      document.getElementById('v3-code-badge').innerText = currentDeck.perfilCodes[0] || 'ASOFAMECh';
+      document.getElementById('topic-real-q').innerText = `${currentDeck.realQuestionCount || 0} preguntas en banco EUNACOM`;
+
+      buildTimeline();
+      renderSlide();
+    }
+
+    function buildTimeline() {
+      const timeline = document.getElementById('segmented-timeline');
+      timeline.innerHTML = '';
+      currentDeck.slides.forEach((s, idx) => {
+        const bar = document.createElement('div');
+        bar.className = `h-1.5 flex-1 rounded-full cursor-pointer transition-all duration-200 ${
+          idx === currentSlideIdx ? 'bg-eunacom-red shadow-sm shadow-rose-500/50 scale-y-125' : idx < currentSlideIdx ? 'bg-slate-600' : 'bg-slate-800'
+        }`;
+        bar.title = `${idx + 1}. ${s.nav || s.title || ''}`;
+        bar.onclick = () => { currentSlideIdx = idx; renderSlide(); buildTimeline(); };
+        timeline.appendChild(bar);
+      });
+    }
+
+    function renderSlide() {
+      const slide = currentDeck.slides[currentSlideIdx];
+      const viewport = document.getElementById('slide-viewport');
+      const total = currentDeck.slides.length;
+
+      document.getElementById('slide-indicator').innerText = `Slide ${currentSlideIdx + 1} de ${total}`;
+      document.getElementById('slide-nav-label').innerText = slide.nav || slide.title || '';
+      document.getElementById('prev-btn').disabled = currentSlideIdx === 0;
+      document.getElementById('next-btn').disabled = currentSlideIdx === total - 1;
+
+      document.getElementById('drawer-slide-num').innerText = `Slide ${currentSlideIdx + 1} / ${total}`;
+      document.getElementById('drawer-notes-text').innerText = slide.notes || 'Sin notas de teleprompter para esta diapositiva.';
+
+      buildTimeline();
+
+      if (slide.type === 'cover') {
+        viewport.innerHTML = `
+          <div class="flex flex-col items-start gap-6 py-6 animate-fade-in">
+            <div class="flex flex-wrap gap-2">
+              ${(slide.badges || []).map(b => `
+                <span class="text-xs font-bold px-3 py-1 rounded-full border" style="background:${b.bg}; color:${b.color}; border-color:${b.border};">
+                  ${b.label}
+                </span>
+              `).join('')}
+            </div>
+            <span class="text-xs font-mono tracking-widest text-cyan-400 uppercase font-bold">${slide.kicker || ''}</span>
+            <h2 class="text-3xl lg:text-4xl font-extrabold text-slate-100 tracking-tight leading-tight">
+              ${slide.title}
+            </h2>
+            <p class="text-base text-slate-400 font-medium max-w-3xl">
+              ${slide.subtitle || ''}
+            </p>
+            <div class="p-4 rounded-xl bento-card w-full mt-4 flex items-center justify-between">
+              <span class="text-xs text-slate-300">Duración estimada: <b>${total * 1.5} minutos</b></span>
+              <span class="text-xs text-emerald-400 font-semibold flex items-center gap-1">
+                ✓ Exigencia legal Perfil V3 ASOFAMECh calibrada
+              </span>
+            </div>
+          </div>
+        `;
+      } else if (slide.type === 'table') {
+        viewport.innerHTML = `
+          <div class="flex flex-col gap-5 py-4">
+            <div>
+              <span class="text-xs font-mono text-cyan-400 uppercase font-bold">${slide.nav || 'Matriz Legal'}</span>
+              <h2 class="text-2xl font-bold text-slate-100">${slide.title}</h2>
+              <p class="text-sm text-slate-400">${slide.subtitle || ''}</p>
+            </div>
+            ${slide.pearl ? `
+              <div class="p-3.5 rounded-xl bg-amber-950/40 border border-amber-500/40 text-xs font-medium text-amber-300">
+                ${slide.pearl}
+              </div>
+            ` : ''}
+            <div class="overflow-x-auto rounded-xl border border-dark-border bento-card">
+              <table class="w-full text-left text-xs lg:text-sm">
+                <thead class="bg-slate-900/90 text-slate-400 border-b border-dark-border text-xs uppercase font-semibold">
+                  <tr>
+                    ${(slide.headers || []).map(h => `<th class="p-3.5">${h}</th>`).join('')}
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-dark-border">
+                  ${(slide.rows || []).map(r => `
+                    <tr class="${r.highlight ? 'bg-cyan-950/30 font-medium text-cyan-200' : 'hover:bg-dark-hover text-slate-300'}">
+                      ${(r.cells || []).map(c => `<td class="p-3.5">${c}</td>`).join('')}
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        `;
+      } else if (slide.type === 'bento') {
+        viewport.innerHTML = `
+          <div class="flex flex-col gap-5 py-4">
+            <div>
+              <span class="text-xs font-mono text-purple-400 uppercase font-bold">${slide.nav || 'Concepto'}</span>
+              <h2 class="text-2xl font-bold text-slate-100">${slide.title}</h2>
+              <p class="text-sm text-slate-400">${slide.subtitle || ''}</p>
+            </div>
+            <div class="grid grid-cols-1 gap-4">
+              ${(slide.tiles || []).map(t => `
+                <div class="p-5 rounded-xl bento-card flex flex-col justify-between">
+                  ${t.title ? `<h3 class="text-base font-bold text-slate-200 mb-3">${t.title}</h3>` : ''}
+                  <ul class="space-y-2.5 text-sm text-slate-300">
+                    ${(t.bullets || []).map(b => `
+                      <li class="flex items-start gap-2.5">
+                        <span class="text-cyan-400 font-bold mt-0.5">•</span>
+                        <span class="leading-relaxed">${b}</span>
+                      </li>
+                    `).join('')}
+                  </ul>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      } else if (slide.type === 'question') {
+        viewport.innerHTML = `
+          <div class="flex flex-col gap-5 py-4">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold px-2.5 py-1 rounded-md bg-amber-500/20 text-amber-400 border border-amber-500/30">
+                  ${slide.badge || 'Pregunta EUNACOM'}
+                </span>
+                <span class="text-xs text-slate-400 font-mono">Pregunta #${slide.number}</span>
+              </div>
+            </div>
+
+            <div class="p-5 rounded-xl bento-card border-l-4 border-l-amber-500">
+              <p class="text-sm lg:text-base text-slate-200 leading-relaxed font-medium">
+                ${slide.caseText}
+              </p>
+            </div>
+
+            <p class="text-sm font-bold text-slate-300">${slide.question}</p>
+
+            <div class="space-y-2.5" id="options-list">
+              ${(slide.options || []).map((o, idx) => `
+                <button onclick="checkAnswer(${idx}, ${o.isCorrect})" class="w-full text-left p-3.5 rounded-xl bg-dark-card border border-dark-border hover:border-slate-500 hover:bg-slate-800/80 transition flex items-center justify-between group opt-btn" data-idx="${idx}">
+                  <span class="text-sm text-slate-300 font-medium group-hover:text-white flex items-center gap-3">
+                    <span class="w-6 h-6 rounded-full bg-slate-800 text-xs font-bold flex items-center justify-center text-slate-400 group-hover:text-cyan-400">${o.id || String.fromCharCode(65 + idx)}</span>
+                    ${o.text}
+                  </span>
+                  <span class="feedback-icon hidden text-sm font-bold"></span>
+                </button>
+              `).join('')}
+            </div>
+
+            <div id="explanation-box" class="hidden p-4 rounded-xl bg-emerald-950/40 border border-emerald-500/40 text-xs text-emerald-200 leading-relaxed">
+              <span class="font-bold block mb-1 text-emerald-300">Justificación Oficial:</span>
+              ${slide.explanation}
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    window.checkAnswer = function(selectedIdx, isCorrect) {
+      const buttons = document.querySelectorAll('.opt-btn');
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        const icon = btn.querySelector('.feedback-icon');
+        icon.classList.remove('hidden');
+        if (idx === selectedIdx) {
+          if (isCorrect) {
+            btn.classList.add('bg-emerald-950/60', 'border-emerald-500', 'text-emerald-200');
+            icon.innerText = '✓ Correcta';
+            icon.classList.add('text-emerald-400');
+          } else {
+            btn.classList.add('bg-rose-950/60', 'border-rose-500', 'text-rose-200');
+            icon.innerText = '✗ Incorrecta';
+            icon.classList.add('text-rose-400');
+          }
+        }
+      });
+      document.getElementById('explanation-box').classList.remove('hidden');
+    };
+
+    document.getElementById('prev-btn').onclick = () => {
+      if (currentSlideIdx > 0) { currentSlideIdx--; renderSlide(); }
+    };
+    document.getElementById('next-btn').onclick = () => {
+      if (currentSlideIdx < currentDeck.slides.length - 1) { currentSlideIdx++; renderSlide(); }
+    };
+
+    window.onkeydown = (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        if (currentSlideIdx < currentDeck.slides.length - 1) { currentSlideIdx++; renderSlide(); }
+      } else if (e.key === 'ArrowLeft') {
+        if (currentSlideIdx > 0) { currentSlideIdx--; renderSlide(); }
+      }
+    };
+
+    document.getElementById('class-select').onchange = (e) => {
+      setDeck(e.target.value);
+    };
+
+    document.getElementById('notes-toggle-btn').onclick = () => {
+      document.getElementById('notes-drawer').classList.toggle('hidden');
+    };
+
+    setDeck("gastro-01");
+  </script>
+</body>
+</html>

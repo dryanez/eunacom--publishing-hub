@@ -163,57 +163,76 @@ const SPECIALTIES = [
     key: 'reumatologia', ch: '09', title: 'Reumatología',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
     subtitle: 'Artritis reumatoide, lupus eritematoso sistémico, espondiloartritis, vasculitis, artropatías por cristales y fibromialgia.',
-    dataset: null,
+    dataset: () => require('./dataset_reumatologia.cjs').reumatologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Reumatologia_Completo_2026.pdf',
   },
   {
     key: 'neurologia', ch: '10', title: 'Neurología y Geriatría',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
-    subtitle: 'Accidente cerebrovascular isquémico y hemorrágico GES, cefaleas primarias, epilepsia, enfermedad de Parkinson, demencias y delirium.',
-    dataset: null,
+    subtitle: 'Enfermedad cerebrovascular GES, cefaleas y neuralgia del trigémino, epilepsia y status convulsivo, Parkinson y demencias, patología neuromuscular y grandes síndromes geriátricos.',
+    dataset: () => require('./dataset_neurologia.cjs').neurologiaClasses,
+    figSpec: {},
+    out: 'Manual_EUNACOM_Neurologia_Completo_2026.pdf',
   },
 
+  // ── MÓDULO 2: CIRUGÍA Y ESPECIALIDADES QUIRÚRGICAS (Tomos 11 al 17) ──
   // ── MÓDULO 2: CIRUGÍA Y ESPECIALIDADES QUIRÚRGICAS (Tomos 11 al 17) ──
   {
     key: 'cirugia', ch: '11', title: 'Cirugía General y Anestesia',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Abdomen agudo quirúrgico, patología herniaria, trauma y ATLS, quemaduras, shock hemorrágico y evaluación preoperatoria.',
-    dataset: null,
+    dataset: () => require('./dataset_cirugia.cjs').cirugiaClasses,
+    figSpec: {},
+    out: 'Tomo_11_Cirugia_General_Completo_2026.pdf',
   },
   {
     key: 'traumatologia', ch: '12', title: 'Traumatología y Ortopedia',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Fracturas de cadera, fracturas expuestas, luxaciones, lesiones ligamentosas y patología de columna vertebral.',
-    dataset: null,
+    dataset: () => require('./dataset_traumatologia.cjs').traumatologiaClasses,
+    figSpec: {},
+    out: 'Tomo_12_Traumatologia_Completo_2026.pdf',
   },
   {
     key: 'urologia', ch: '13', title: 'Urología',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Urolitiasis, hiperplasia prostática benigna, cáncer urológico (próstata, riñón, testículo), escroto agudo y trauma urinario.',
-    dataset: null,
+    dataset: () => require('./dataset_urologia.cjs').urologiaClasses,
+    figSpec: {},
+    out: 'Tomo_13_Urologia_Completo_2026.pdf',
   },
   {
     key: 'otorrino', ch: '14', title: 'Otorrinolaringología',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Otitis media aguda y crónica, hipoacusias, síndrome vertiginoso, rinosinusitis, epistaxis y patología faringoamigdalina.',
-    dataset: null,
+    dataset: () => require('./dataset_otorrino.cjs').otorrinoClasses,
+    figSpec: {},
+    out: 'Tomo_14_Otorrinolaringologia_Completo_2026.pdf',
   },
   {
     key: 'oftalmologia', ch: '15', title: 'Oftalmología',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Ojo rojo grave vs benigno, glaucoma agudo y crónico, desprendimiento de retina, trauma ocular y vicios de refracción.',
-    dataset: null,
+    dataset: () => require('./dataset_oftalmologia.cjs').oftalmologiaClasses,
+    figSpec: {},
+    out: 'Tomo_15_Oftalmologia_Completo_2026.pdf',
   },
   {
     key: 'dermatologia', ch: '16', title: 'Dermatología',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Cáncer de piel (melanoma, basocelular, espinocelular), farmacodermias graves, psoriasis, eccemas, acné y micosis cutáneas.',
-    dataset: null,
+    dataset: () => require('./dataset_dermatologia.cjs').dermatologiaClasses,
+    figSpec: {},
+    out: 'Tomo_16_Dermatologia_Completo_2026.pdf',
   },
   {
     key: 'psiquiatria', ch: '17', title: 'Psiquiatría y Salud Mental',
     module: 'Módulo 2 · Cirugía y Especialidades', moduleDir: 'Modulo_2_Cirugia',
     subtitle: 'Trastornos depresivos GES, trastorno bipolar, esquizofrenia, trastornos de ansiedad y pánico, adicciones y urgencias psiquiátricas.',
-    dataset: null,
+    dataset: () => require('./dataset_psiquiatria.cjs').psiquiatriaClasses,
+    figSpec: {},
+    out: 'Tomo_17_Psiquiatria_Completo_2026.pdf',
   },
 
   // ── MÓDULO 3: MATERNO - INFANTIL (Tomos 18 al 20) ──
@@ -221,19 +240,25 @@ const SPECIALTIES = [
     key: 'pediatria', ch: '18', title: 'Pediatría y Neonatología',
     module: 'Módulo 3 · Materno - Infantil', moduleDir: 'Modulo_3_Materno_Infantil',
     subtitle: 'Crecimiento y desarrollo, PNI, infecciones respiratorias agudas bajas, exantemas infantiles, diarrea y deshidratación, y reanimación neonatal.',
-    dataset: null,
+    dataset: () => require('./dataset_pediatria.cjs').pediatriaClasses,
+    figSpec: {},
+    out: 'Tomo_18_Pediatria_Completo_2026.pdf',
   },
   {
     key: 'obstetricia', ch: '19', title: 'Obstetricia y Medicina Materno-Fetal',
     module: 'Módulo 3 · Materno - Infantil', moduleDir: 'Modulo_3_Materno_Infantil',
     subtitle: 'Control prenatal, estados hipertensivos del embarazo GES, metrorragias, trabajo de parto, monitorización y patología puerperal.',
-    dataset: null,
+    dataset: () => require('./dataset_obstetricia.cjs').obstetriciaClasses,
+    figSpec: {},
+    out: 'Tomo_19_Obstetricia_Completo_2026.pdf',
   },
   {
     key: 'ginecologia', ch: '20', title: 'Ginecología y Oncología',
     module: 'Módulo 3 · Materno - Infantil', moduleDir: 'Modulo_3_Materno_Infantil',
     subtitle: 'Cáncer cervicouterino y de mama GES, hemorragia uterina anormal, síndrome de ovario poliquístico, anticoncepción y climaterio.',
-    dataset: null,
+    dataset: () => require('./dataset_ginecologia.cjs').ginecologiaClasses,
+    figSpec: {},
+    out: 'Tomo_20_Ginecologia_Completo_2026.pdf',
   },
 
   // ── MÓDULO 4: SALUD PÚBLICA & GESTIÓN (Tomo 21) ──
@@ -241,7 +266,9 @@ const SPECIALTIES = [
     key: 'saludpublica', ch: '21', title: 'Salud Pública y Bioética',
     module: 'Módulo 4 · Salud Pública y Gestión', moduleDir: 'Modulo_4_Salud_Publica',
     subtitle: 'Garantías Explícitas en Salud (GES), modelo de atención integral en salud (MAIS), epidemiología clínica, bioética y medicina legal.',
-    dataset: null,
+    dataset: () => require('./dataset_saludpublica.cjs').saludpublicaClasses,
+    figSpec: {},
+    out: 'Tomo_21_Salud_Publica_Completo_2026.pdf',
   },
 ];
 
@@ -300,8 +327,13 @@ function extractCifras(kps) {
     const key = val.replace(/[^\d a-z%]/gi, '').toLowerCase();
     if (seen.has(key) || val.length < 3) return;
     seen.add(key);
-    let label = plain.slice(0, plain.indexOf(m[0])).replace(/[\s(,:;–—-]+$/, '').trim();
-    if (label.length < 4 || label.length > 52) label = truncate(plain, 46);
+    let label = '';
+    const colonIdx = plain.indexOf(':');
+    if (colonIdx > 4 && colonIdx < 45) {
+      label = plain.slice(0, colonIdx).trim();
+    } else {
+      label = truncate(plain, 48);
+    }
     out.push({ val, label });
   });
   return out.slice(0, 6);
@@ -362,41 +394,92 @@ function sec(x, label, body, opt = {}) {
     + `<tbody><tr><td class="secbody${opt.flush ? ' flush' : ''}${opt.dark ? ' dark' : ''}">${body}</td></tr></tbody></table>`;
 }
 
+const COVER_METADATA = {
+  '01': { code: 'CD', title: 'Cardiología', sub: '& Sistema Cardiovascular', color: '#ea580c', chip: '#b8410a', photo: '01_cardiologia.jpg' },
+  '02': { code: 'IF', title: 'Enfermedades Infecciosas', sub: '& Microbiología', color: '#4d7c0f', chip: '#3d6209', photo: '02_infectologia.jpg' },
+  '03': { code: 'GH', title: 'Gastroenterología', sub: '& Hepatología', color: '#15803d', chip: '#10602e', photo: '03_gastroenterologia.jpg' },
+  '04': { code: 'RP', title: 'Enfermedades Respiratorias', sub: '& Neumología', color: '#0f766e', chip: '#0b5a54', photo: '04_respiratorio.jpg' },
+  '05': { code: 'NF', title: 'Nefrología', sub: '& Medio Interno', color: '#a16207', chip: '#7d4c05', photo: '05_nefrologia.jpg' },
+  '06': { code: 'DM', title: 'Diabetes Mellitus', sub: '& Dislipidemias', color: '#0891b2', chip: '#06697f', photo: '06_diabetes.jpg', dense: true, filter: 'grayscale(0.55) brightness(0.5) contrast(1.05)' },
+  '07': { code: 'EM', title: 'Endocrinología', sub: '& Metabolismo', color: '#7c3aed', chip: '#5b21b6', photo: '07_endocrinologia.jpg', dense: true, filter: 'brightness(0.62) contrast(1.05)' },
+  '08': { code: 'HO', title: 'Hematología', sub: '& Oncología Médica', color: '#be123c', chip: '#91092d', photo: '08_hematologia.jpg' },
+  '09': { code: 'RI', title: 'Reumatología', sub: '& Inmunología Clínica', color: '#9f1239', chip: '#7c0e2d', photo: '09_reumatologia.jpg' },
+  '10': { code: 'NR', title: 'Neurología', sub: '& Geriatría', color: '#6d28d9', chip: '#4c1d95', photo: '10_neurologia.jpg' },
+  '11': { code: 'CG', title: 'Cirugía General', sub: 'Abdomen Agudo & Anestesia', color: '#334155', chip: '#1f2937', photo: '11_cirugia.jpg' },
+  '12': { code: 'TO', title: 'Traumatología', sub: '& Ortopedia', color: '#b45309', chip: '#8a3f06', photo: '12_traumatologia.jpg' },
+  '13': { code: 'UR', title: 'Urología', sub: 'Urolitiasis, HPB & Cáncer', color: '#0369a1', chip: '#024e79', photo: '13_urologia.jpg' },
+  '14': { code: 'OR', title: 'Otorrinolaringología', sub: 'ORL', color: '#4338ca', chip: '#312a99', photo: '14_otorrino.jpg', dense: true },
+  '15': { code: 'OF', title: 'Oftalmología', sub: 'Ojo rojo, Glaucoma & Retina', color: '#0e7490', chip: '#0a5566', photo: '15_oftalmologia.jpg' },
+  '16': { code: 'DE', title: 'Dermatología', sub: 'Psoriasis, Cáncer de piel & NET', color: '#a21caf', chip: '#79148a', photo: '16_dermatologia.jpg' },
+  '17': { code: 'PS', title: 'Psiquiatría General', sub: '& Salud Mental', color: '#7e22ce', chip: '#5d189c', photo: '17_psiquiatria.jpg', dense: true, filter: 'brightness(0.62) contrast(1.05)' },
+  '18': { code: 'PE', title: 'Pediatría General', sub: '& Neonatología', color: '#c2410c', chip: '#93300a', photo: '18_pediatria.jpg', dense: true, filter: 'brightness(0.7) contrast(1.05)' },
+  '19': { code: 'OB', title: 'Obstetricia', sub: '& Medicina Materno-Fetal', color: '#9d174d', chip: '#76103a', photo: '19_obstetricia.jpg', dense: true },
+  '20': { code: 'GO', title: 'Ginecología', sub: '& Oncología Ginecológica', color: '#be185d', chip: '#8f1246', photo: '20_ginecologia.jpg', dense: true, filter: 'brightness(0.62) contrast(1.05)' },
+  '21': { code: 'SP', title: 'Salud Pública', sub: 'Epidemiología & Bioética', color: '#166534', chip: '#0f4a26', photo: '21_saludpublica.jpg' },
+};
+
 function coverPage(x) {
-  const { spec, blocks, uniqueCodes, totalRecon, data } = x;
-  return sec(x, '', `
-  <div class="cover">
-    <div class="cover-spine"><span>${spec.module}</span></div>
-    <div class="cover-inner">
-      <div class="cover-top">
-        <div class="cover-eyebrow">
-          <span class="l1">Manual EUNACOM de Medicina</span>
-          <span class="l2">Edición Chile 2026 · 1.ª edición</span>
+  const { spec, data } = x;
+  const meta = COVER_METADATA[spec.ch] || {
+    code: spec.ch,
+    title: spec.title,
+    sub: spec.subtitle,
+    color: spec.accent,
+    chip: spec.accent,
+    photo: null
+  };
+
+  const photoPath = meta.photo ? path.join(__dirname, '..', 'assets', 'covers', meta.photo) : null;
+  let photoDataUri = '';
+  if (photoPath && fs.existsSync(photoPath)) {
+    photoDataUri = `data:image/jpeg;base64,${fs.readFileSync(photoPath).toString('base64')}`;
+  }
+
+  const logoPath = path.join(__dirname, '..', 'assets', 'aee-logo-smooth.svg');
+  let logoSvg = '';
+  if (fs.existsSync(logoPath)) {
+    logoSvg = fs.readFileSync(logoPath, 'utf8')
+      .replace(/<\?xml[^>]*\?>/i, '')
+      .replace(/<metadata>[\s\S]*?<\/metadata>/i, '')
+      .replace(/width="188px"/i, 'width="120px"')
+      .replace(/height="142px"/i, 'height="90px" style="height:48px;width:auto;display:block"');
+  }
+
+  const veil = meta.dense
+    ? 'linear-gradient(180deg, rgba(11,20,32,0.86) 0%, rgba(11,20,32,0.62) 40%, rgba(11,20,32,0.92) 74%, rgba(11,20,32,0.98) 100%)'
+    : 'linear-gradient(180deg, rgba(11,20,32,0.74) 0%, rgba(11,20,32,0.22) 34%, rgba(11,20,32,0.88) 72%, rgba(11,20,32,0.97) 100%)';
+  const filter = meta.filter || 'none';
+
+  return `
+  <div class="cover-aee">
+    ${photoDataUri ? `<div class="cover-bg" style="background-image: url('${photoDataUri}'); filter: ${filter};"></div>` : ''}
+    <div class="cover-veil" style="background: ${veil};"></div>
+    <div class="cover-stripe" style="background: ${meta.color};"></div>
+    <div class="cover-content">
+      <div class="cover-top-row">
+        ${logoSvg ? `<div class="cover-logo">${logoSvg}</div>` : `<span style="font-family:'IBM Plex Mono',monospace;font-size:16px;color:#fff;font-weight:700">AEE</span>`}
+        <div class="cover-badge">
+          <span class="ed">1ª EDICIÓN · 2026</span>
+          <span class="subed">ASOFAMECh PERFIL V3</span>
         </div>
-        <div class="cover-codebox"><span class="k">perfil v3 asofamech</span><span class="v">${uniqueCodes} códigos oficiales</span></div>
       </div>
-      <div class="cover-hero">
-        <div class="cover-numrow">
-          <span class="bignum">${spec.ch}</span>
-          <div class="cover-numlabel"><span class="k">Bloques temáticos</span><span class="v">${CN(blocks.length)}</span></div>
+      <div class="cover-bottom-box">
+        <div class="cover-chip" style="background: ${meta.chip};">
+          <span>TOMO ${spec.ch} · ${meta.code}</span>
         </div>
-        <h1>${spec.title}</h1>
-        <div class="cover-rule"></div>
-        <p class="cover-desc">${spec.subtitle} Texto oficial de estudio, 100&nbsp;% adaptado al Perfil de Conocimientos V3 de ASOFAMECh y a las Garantías Explícitas en Salud (GES).</p>
-      </div>
-      <div class="cover-foot">
-        <div class="cover-stats">
-          <div><span class="n">${data.length}</span><span class="t">clases granulares de alta densidad</span></div>
-          <div><span class="n">${totalRecon}</span><span class="t">reconstrucciones oficiales fechadas</span></div>
-          <div><span class="n">GES</span><span class="t">normas técnicas MINSAL vigentes</span></div>
+        <div class="cover-title-group">
+          <span class="manual-de">Manual de</span>
+          <h1 class="main-title">${meta.title}</h1>
+          <span class="sub-title">${meta.sub}</span>
         </div>
-        <div class="cover-foot-row">
-          <span>Banco de preguntas oficiales con solucionario razonado al final del manual · Formato editorial de alta densidad</span>
-          <span class="brand">Academia EUNACOM<br><em>Masterclass</em></span>
+        <div class="cover-divider"></div>
+        <div class="cover-footer-row">
+          <span class="foot-left">Academia Examen EUNACOM · ${spec.module || 'Módulo 2 · Cirugía y Especialidades'} · ${data.length} clases</span>
+          <span class="foot-right">Edición Oficial 2026</span>
         </div>
       </div>
     </div>
-  </div>`, { flush: true, dark: true });
+  </div>`;
 }
 
 function indexPage(x) {
@@ -579,11 +662,14 @@ function topicPageStandard(c, b, x) {
   const moreQ = c.classId
     ? `<a class="lnk ghost" href="${SITE.preguntas(c.classId)}">Más preguntas online de ${c.title.split(':')[0].split('(')[0].trim()} →</a>` : '';
 
+  const vignetteText = typeof c.vignette === 'object' && c.vignette !== null ? (c.vignette.text || '') : (c.vignette || '');
+  const explicacionText = c.explicacion || (typeof c.vignette === 'object' && c.vignette !== null ? (c.vignette.conducta || '') : '');
+
   const qbank = `
     <div class="qbank">
-      <div class="qbank-head"><span>Banco de autoevaluación EUNACOM · Tema ${c.topicLabel}</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
+      <div class="qbank-head"><span>Banco Oficial Academia Examen EUNACOM (AEE) · Tema ${c.topicLabel}</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
       <div class="qbank-body">
-        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || 'Reconstrucción oficial EUNACOM')}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
+        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`)}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
       </div>
       ${moreQ ? `<div class="qbank-foot">${moreQ}</div>` : ''}
     </div>`;
@@ -601,7 +687,7 @@ function topicPageStandard(c, b, x) {
     <div class="case-row">
       <div class="case">
         <div class="case-head"><span>Caso clínico tipo EUNACOM</span><span class="mono">${c.topicLabel}</span></div>
-        <div class="case-body"><p>${c.vignette}</p><p class="conducta"><strong>Conducta oficial. </strong>${c.explicacion}</p></div>
+        <div class="case-body"><p>${vignetteText}</p><p class="conducta"><strong>Conducta oficial. </strong>${explicacionText}</p></div>
       </div>
       <div class="rules"><div class="rules-head">Reglas de oro del examen</div><div class="rules-body">${rules}</div></div>
     </div>
@@ -654,7 +740,7 @@ function topicPageTier3(c, b, x) {
     ${tbl2}
   `;
 
-  // Page 3: Manejo Farmacológico Escalonado y Reglas de Oro (3/4)
+  // Page 3: Manejo Farmacológico Escalonado y Urgencias (3/4)
   const secPart3 = c.contentSections.slice(3).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
   const tblTx = c.treatmentTable ? `
     <div class="card tbl-card">
@@ -670,26 +756,29 @@ function topicPageTier3(c, b, x) {
     </div>
     <div class="prose">${secPart3}</div>
     ${tblTx}
-    <div class="rules" style="margin-top:14px"><div class="rules-head">Reglas de oro y trampas del examen (${c.title.split(':')[0].trim()})</div><div class="rules-body">${rules}</div></div>
   `;
 
-  // Page 4: Caso Clínico Razonado y Banco de Autoevaluación Ampliado (4/4)
+  // Page 4: Reglas de Oro, Caso Clínico Razonado y Banco de Autoevaluación Ampliado (4/4)
   const qbank4 = `
-    <div class="qbank" style="margin-top:14px">
-      <div class="qbank-head"><span>Banco de autoevaluación EUNACOM · Tema ${c.topicLabel} (Evaluación Avanzada)</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
+    <div class="qbank" style="margin-top:10px">
+      <div class="qbank-head"><span>Banco Oficial Academia Examen EUNACOM (AEE) · Tema ${c.topicLabel} (Evaluación Avanzada)</span><span class="qbank-note">Solucionario razonado al final del libro</span></div>
       <div class="qbank-body" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
-        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || 'Reconstrucción oficial EUNACOM')}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
+        ${c.questions.map((q, i) => `<div class="q"><span class="q-tag">${stripTags(q.recTag || `Banco Oficial AEE · Perfil V3 ${c.perfilCode || ''}`)}</span><p class="q-stem"><strong>${i + 1}.</strong> ${q.stem}</p><div class="q-opts">${q.options.map(o => `${o.id}) ${o.text}`).join('<br>')}</div></div>`).join('')}
       </div>
       ${moreQ ? `<div class="qbank-foot">${moreQ}</div>` : ''}
     </div>`;
+
+  const vignetteText4 = typeof c.vignette === 'object' && c.vignette !== null ? (c.vignette.text || '') : (c.vignette || '');
+  const explicacionText4 = c.explicacion || (typeof c.vignette === 'object' && c.vignette !== null ? (c.vignette.conducta || '') : '');
 
   const page4 = `
     <div class="topic-title">
       <h2>${c.topicLabel}. ${c.title} — Caso Clínico y Autoevaluación</h2><div class="rule"></div>
     </div>
-    <div class="case" style="margin-top:12px">
+    <div class="rules" style="margin-top:10px"><div class="rules-head">Reglas de oro y trampas del examen (${c.title.split(':')[0].trim()})</div><div class="rules-body" style="display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;">${rules}</div></div>
+    <div class="case" style="margin-top:10px">
       <div class="case-head"><span>Caso clínico tipo EUNACOM · Discusión de Alta Complejidad</span><span class="mono">${c.topicLabel}</span></div>
-      <div class="case-body"><p>${c.vignette}</p><p class="conducta"><strong>Conducta oficial razonada. </strong>${c.explicacion}</p></div>
+      <div class="case-body"><p>${vignetteText4}</p><p class="conducta"><strong>Conducta oficial razonada. </strong>${explicacionText4}</p></div>
     </div>
     ${qbank4}
   `;
@@ -729,6 +818,8 @@ function synthesisPage(b, x) {
   const ges = realGesClasses.slice(0, 3).map(c => `<div class="ges-item"><span class="ges-t">${truncate(c.ges, 60)}</span><span class="ges-d">Tema ${c.topicLabel} · ${c.title} · código ${c.perfilCode}</span></div>`).join('');
   const chk = b.classes.map(c => `<div class="chk-item"><span class="chk-txt">${truncate(c.keyPoints[0], 115)}</span><span class="chk-pill">Tema ${c.topicLabel} &rarr;</span></div>`).join('');
 
+  const decisionRules = b.classes.flatMap(c => c.keyPoints.slice(1, 3)).slice(0, 4).map(k => `<div class="concept">▸ ${k}</div>`).join('');
+
   return sec(x, `Síntesis · Bloque ${CN(b.bn)}`, `
     <div class="synth-title">
       <h2>Síntesis operativa: qué responder en el examen</h2>
@@ -746,14 +837,9 @@ function synthesisPage(b, x) {
           <div class="mnemo">${mnemoList}</div>
         </div>
         <div class="card">
-          <div class="card-head grey"><span>Cifras que se preguntan literalmente en el EUNACOM</span></div>
-          <div class="cifra-grid">${cifraGrid || '<div class="cifra"><span class="cifra-t">Sin cifras numéricas destacadas en este bloque.</span></div>'}</div>
+          <div class="card-head grey"><span>Puntos críticos de decisión clínica</span></div>
+          <div class="concept-list">${decisionRules}</div>
         </div>
-        ${ges ? `
-        <div class="card">
-          <div class="card-head green"><span>Cobertura GES del bloque · Garantías Explícitas</span></div>
-          <div class="ges-grid">${ges}</div>
-        </div>` : ''}
       </div>
       <div class="synth-col">
         <div class="card card-dark">
@@ -834,36 +920,28 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .pg-lead h2{font:700 25px/1.15 'Spectral',serif;letter-spacing:-.01em;margin-top:3px}
 .pg-lead-p{font:400 10.2px/1.5 'IBM Plex Sans',sans-serif;color:#475569;max-width:640px;margin-top:6px}
 
-/* COVER */
-.cover{position:relative;background:#0f172a;color:#fff;height:1101px;min-height:calc(297mm - 22px);overflow:hidden}
-.cover-spine{position:absolute;left:0;top:0;bottom:0;width:38px;background:var(--acc);display:flex;align-items:center;justify-content:center}
-.cover-spine span{font:700 10px/1 'IBM Plex Sans',sans-serif;letter-spacing:.32em;text-transform:uppercase;color:var(--acc-t);writing-mode:vertical-rl;transform:rotate(180deg)}
-.cover-inner{position:absolute;inset:0 0 0 38px;padding:54px 58px 46px;display:flex;flex-direction:column}
-.cover-top{display:flex;justify-content:space-between;align-items:flex-start}
-.cover-eyebrow{display:flex;flex-direction:column;gap:6px}
-.cover-eyebrow .l1{font:700 12px/1 'IBM Plex Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--acc-l)}
-.cover-eyebrow .l2{font:400 10px/1 'IBM Plex Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#94a3b8}
-.cover-codebox{border:1px solid #334155;padding:8px 12px;display:flex;flex-direction:column;gap:3px;align-items:flex-end}
-.cover-codebox .k{font:400 8px/1 'JetBrains Mono',monospace;letter-spacing:.1em;color:#94a3b8}
-.cover-codebox .v{font:700 9.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase}
-.cover-hero{margin-top:104px;display:flex;flex-direction:column;gap:16px}
-.cover-numrow{display:flex;align-items:flex-end;gap:22px}
-.bignum{font:700 144px/.8 'Barlow Condensed',sans-serif;color:var(--acc);letter-spacing:-.02em}
-.cover-numlabel{display:flex;flex-direction:column;gap:4px;padding-bottom:14px}
-.cover-numlabel .k{font:600 10px/1 'IBM Plex Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#94a3b8}
-.cover-numlabel .v{font:700 42px/.9 'Barlow Condensed',sans-serif;color:#475569}
-.cover h1{font:700 72px/.95 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:-.01em}
-.cover-rule{height:4px;width:300px;background:var(--acc)}
-.cover-desc{max-width:540px;font:400 13px/1.55 'IBM Plex Sans',sans-serif;color:#cbd5e1}
-.cover-foot{margin-top:auto;display:flex;flex-direction:column;gap:16px}
-.cover-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#1e293b;border:1px solid #1e293b}
-.cover-stats>div{background:#0f172a;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
-.cover-stats .n{font:700 26px/1 'Barlow Condensed',sans-serif;color:var(--acc-l)}
-.cover-stats .t{font:400 9px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#94a3b8}
-.cover-foot-row{display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
-.cover-foot-row span{font:400 9px/1.5 'IBM Plex Sans',sans-serif;color:#64748b;max-width:430px}
-.cover-foot-row .brand{font:700 10px/1.4 'IBM Plex Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#fff;text-align:right}
-.cover-foot-row .brand em{font-weight:400;font-style:normal;color:#64748b}
+/* COVER CANÓNICA AEE */
+.cover-aee{position:relative;width:794px;height:1123px;overflow:hidden;background:#0b1420;page-break-after:always;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.cover-bg{position:absolute;inset:0;background-size:cover;background-position:center}
+.cover-veil{position:absolute;inset:0}
+.cover-stripe{position:absolute;left:0;top:0;width:14px;height:100%}
+.cover-content{position:absolute;inset:0;padding:64px 68px 64px 76px;display:flex;flex-direction:column;justify-content:space-between}
+.cover-top-row{display:flex;justify-content:space-between;align-items:flex-start}
+.cover-logo svg{height:46px;width:auto;display:block}
+.cover-badge{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.cover-badge .ed{font:700 13px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;color:#0bd9e7}
+.cover-badge .subed{font:500 9.5px/1 'IBM Plex Mono',monospace;letter-spacing:.1em;color:#94a3b8}
+.cover-bottom-box{display:flex;flex-direction:column;gap:18px}
+.cover-chip{display:inline-flex;align-self:flex-start;padding:6px 14px;border-radius:2px}
+.cover-chip span{font:700 12.5px/1 'IBM Plex Mono',monospace;letter-spacing:.16em;color:#ffffff}
+.cover-title-group{display:flex;flex-direction:column;gap:2px}
+.cover-title-group .manual-de{font:500 18px/1.2 'IBM Plex Sans',sans-serif;color:#c6d0dd}
+.cover-title-group .main-title{font:900 58px/.95 'Barlow Condensed',sans-serif;text-transform:uppercase;color:#ffffff;letter-spacing:-.02em;margin:4px 0}
+.cover-title-group .sub-title{font:600 22px/1.2 'IBM Plex Sans',sans-serif;color:#ffffff}
+.cover-divider{height:1.5px;background:rgba(255,255,255,0.38);width:100%}
+.cover-footer-row{display:flex;justify-content:space-between;align-items:center}
+.cover-footer-row .foot-left{font:500 11.5px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;color:#b6c1d0}
+.cover-footer-row .foot-right{font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;color:#94a3b8}
 
 /* ÍNDICE */
 .idx-chap{margin-top:18px}
@@ -1017,14 +1095,14 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .algo-body svg{width:100%!important;max-width:100%!important;height:auto!important;display:block}
 .tbl-card{break-inside:avoid;margin-top:12px}
 .case-row{display:flex;gap:14px;margin-top:12px;break-inside:avoid;page-break-before:always;break-before:page}
-.case{flex:1.35;border:1px solid #cbd5e1;border-left:4px solid #1e3a8a;display:flex;flex-direction:column}
+.case{flex:1.35;border:1px solid #cbd5e1;border-left:4px solid #1e3a8a;display:flex;flex-direction:column;break-inside:avoid;page-break-inside:avoid}
 .case-head{display:flex;justify-content:space-between;padding:5px 10px;background:#f8fafc;border-bottom:1px solid #e2e8f0;font:700 9px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#1e3a8a}
 .case-head .mono{color:#64748b}
 .case-body{padding:8px 10px;display:flex;flex-direction:column;gap:5px}
 .case-body p{font:400 9.6px/1.45 'IBM Plex Sans',sans-serif;text-align:justify}
 .case-body .conducta{color:#334155}
 .case-body .conducta strong{color:var(--acc-d)}
-.rules{flex:1;border:1px solid var(--acc-p);background:var(--acc-t);display:flex;flex-direction:column}
+.rules{flex:1;border:1px solid var(--acc-p);background:var(--acc-t);display:flex;flex-direction:column;break-inside:avoid;page-break-inside:avoid}
 .rules-head{padding:5px 10px;border-bottom:1px solid var(--acc-p);font:700 9px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--acc-dp)}
 .rules-body{padding:8px 10px;display:flex;flex-direction:column;gap:4px;font:400 9.4px/1.4 'IBM Plex Sans',sans-serif;color:var(--acc-ink)}
 .qbank{margin-top:12px;break-inside:avoid}
@@ -1153,15 +1231,28 @@ async function buildBook(spec, browser) {
   });
   await page.close();
 
-  const outMain = path.join(DIST_DIR, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`);
+  const outMain = spec.moduleDir
+    ? path.join(DIST_DIR, spec.moduleDir, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`)
+    : path.join(DIST_DIR, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`);
   fs.mkdirSync(path.dirname(outMain), { recursive: true });
-  try {
-    fs.writeFileSync(outMain, pdf);
-    console.log('     ✓', outMain);
-  } catch (e) {
-    const fallback = outMain.replace(/\.pdf$/, '_NEW.pdf');
-    fs.writeFileSync(fallback, pdf);
-    console.log('     ✓ (bloqueado → )', fallback);
+  let savedPath = null;
+  const candidates = [
+    outMain,
+    outMain.replace(/\.pdf$/, '_NEW.pdf'),
+    outMain.replace(/\.pdf$/, '_v2.pdf'),
+    outMain.replace(/\.pdf$/, `_${Date.now()}.pdf`),
+  ];
+  for (const cand of candidates) {
+    try {
+      fs.writeFileSync(cand, pdf);
+      savedPath = cand;
+      break;
+    } catch (err) {}
+  }
+  if (savedPath) {
+    console.log('     ✓', savedPath);
+  } else {
+    throw new Error('No se pudo escribir el PDF, todos los nombres posibles están bloqueados por el lector.');
   }
   console.log(`     ${data.length} clases · ${meta.totalQuestions} preguntas · ${(pdf.length / 1e6).toFixed(1)} MB · color ${spec.accent}`);
 }
@@ -1173,7 +1264,10 @@ async function main() {
     .filter(s => !arg || s.key === arg);
 
   console.log('▶ MANUAL EUNACOM · compilador multi-especialidad (Maqueta 1b)\n');
-  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const chromePath = ['C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'].find(p => fs.existsSync(p));
+  const launchOpts = { headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] };
+  if (chromePath) launchOpts.executablePath = chromePath;
+  const browser = await puppeteer.launch(launchOpts);
 
   for (const spec of targets) {
     if (!spec.dataset) {

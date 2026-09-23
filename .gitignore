@@ -20,11 +20,16 @@ yarn-debug.log*
 # Build and Temporary Files
 temp_*/
 temp_maqueta_*.html
+temp_*.txt
 .temp/
+
+# External Repositories
+voicebox_repo/
 
 # Large Rendered Media (Keep code, manifests, and reference PDFs)
 classes/dist/videos/*.mp4
 classes/dist/audio/**/*.mp3
+/dist/
 classes/temp_render_*/
 books/dist/*_pages/
 *_pages/

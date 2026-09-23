@@ -1,0 +1,686 @@
+[
+  {
+    "id": "B3-Q01",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+    "perfilCode": "1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica para IRA · Garantía de Urgencia Vital (Ley de Urgencias) en falla multiorgánica"
+    },
+    "stem": "Hombre de 71 años, hipertenso y con gonartrosis severa, en tratamiento habitual con Enalapril 20 mg/día, Espironolactona 25 mg/día y Celecoxib 200 mg/día (que aumentó por cuenta propia a 400 mg/día hace 5 días por dolor articular). Es traído al Servicio de Urgencias por su familia tras un cuadro de 3 días de diarrea acuosa profusa (8 a 10 deposiciones al día) e intolerancia a la vía oral. Al examen físico: en sopor superficial, responde con lentitud al interrogatorio, mucosas marcadamente secas, signo del pliegue cutáneo positivo y turgencia muy disminuida. Signos vitales: PA 82/48 mmHg, FC 118 lpm regular, FR 20 rpm, SatO2 96% ambiental, afebril (36.4 °C). Exámenes de urgencia: Creatinina sérica 4.2 mg/dL (basal de hace 2 meses: 0.9 mg/dL), BUN 88 mg/dL, Sodio plasmático 134 mEq/L, Potasio 5.8 mEq/L, Cloro 98 mEq/L. Examen de orina: Osmolaridad urinaria 620 mOsm/kg, Sodio urinario 11 mEq/L, Fracción excretada de sodio (FeNa) 0.38%, Fracción excretada de urea (FeUrea) 24%. Sedimento urinario: escasos cilindros hialinos, sin proteinuria ni cilindros celulares patológicos. Tras instalación de sonda Foley, se constata un débito de 15 mL en los primeros 60 minutos. ¿Cuál es la conducta terapéutica inicial prioritaria para el manejo de este paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar 40 mg de furosemida intravenosa en bolo para forzar la diuresis tubular y prevenir la sobrecarga"
+      },
+      {
+        "id": "B",
+        "text": "Suspender de inmediato los fármacos nefrotóxicos e iniciar reposición rápida de volumen con Suero Fisiológico al 0.9% intravenoso"
+      },
+      {
+        "id": "C",
+        "text": "Indicar hemodiálisis de urgencia inmediata por elevación de creatinina sobre 4 mg/dL y oliguria marcada"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar infusión de bicarbonato de sodio isotónico al 1.4% a 500 mL/hora manteniendo el enalapril para proteger la hemodinamia glomerular"
+      },
+      {
+        "id": "E",
+        "text": "Iniciar infusión continua de dopamina a dosis renal (2 a 3 mcg/kg/min) por vía venosa periférica"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y la conducta clínica prioritaria indiscutible según las guías KDIGO y la práctica médica estándar en Chile. El paciente presenta una Injuria Renal Aguda (IRA) grave estadio 3 de KDIGO (creatinina sérica 4.2 mg/dL con elevación > 3 veces su valor basal) de origen prerrenal puro, desencadenada por una profunda hipovolemia por pérdidas gastrointestinales no compensadas, en el contexto de una \"triple interacción nefrotóxica hemodinámica\" (AINE que bloquea la síntesis de prostaglandinas vasodilatadoras en la arteriola aferente + IECA que impide la vasoconstricción mediada por angiotensina II en la arteriola eferente + antagonista de aldosterona que promueve natriuresis). La integridad tubular se demuestra inequívocamente por la capacidad del riñón de concentrar la orina (Osmolaridad urinaria 620 mOsm/kg > 500), retener sodio ávidamente (Sodio urinario 11 mEq/L < 20, FeNa 0.38% < 1%) y retener urea (FeUrea 24% < 35%), junto a un sedimento limpio con apenas cilindros hialinos normales. La medida obligada es suspender de inmediato el Enalapril, la Espironolactona y el Celecoxib, e iniciar una agresiva reposición de volumen intravascular con cristaloides isotónicos (Suero Fisiológico 0.9%, ej. 1.000 a 1.500 mL en las primeras 1 a 2 horas) evaluando la respuesta hemodinámica y el débito urinario.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta y sumamente peligrosa: Administrar diuréticos de asa (como furosemida) a un paciente con hipovolemia severa y shock deshidratativo agota aún más el volumen intravascular circulante eficaz, precipitando hipotensión refractaria e isquemia tubular que transforma rápidamente una falla prerrenal reversible en una Necrosis Tubular Aguda (NTA) estructural.\n- Opción C es incorrecta: La elevación de la creatinina aislada no constituye una indicación per se de diálisis de urgencia. La kalemia en 5.8 mEq/L no presenta repercusión electrocardiográfica letal y responderá a la rehidratación y suspensión de la espironolactona. La hemodiálisis se reserva para acidosis refractaria, hiperkalemia refractaria con riesgo vital, edema pulmonar resistente a diuréticos o síntomas urémicos manifiestos (pericarditis o encefalopatía urémica).\n- Opción D es incorrecta: El paciente no presenta acidosis metabólica severa con criterio de bicarbonato parenteral (pH < 7.15); además, mantener el IECA perpetúa la vasodilatación de la arteriola eferente, impidiendo que el glomérulo genere presión de ultrafiltración y perpetuando la anuria.\n- Opción E es incorrecta: La dopamina a \"dosis renales\" o \"dopaminérgicas\" (2-3 mcg/kg/min) ha sido exhaustivamente investigada y está formalmente desaconsejada y proscrita por las guías internacionales KDIGO; no mejora la sobrevida ni la tasa de filtración glomerular y predispone a arritmias cardíacas graves e isquemia miocárdica."
+  },
+  {
+    "id": "B3-Q02",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+    "perfilCode": "1.09.2.007, 1.09.2.008, 1.09.4.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica · Cobertura AUGE de Urgencia en Encefalopatía Hiponatrémica Aguda Grave"
+    },
+    "stem": "Mujer de 78 años con antecedentes de hipertensión arterial en tratamiento con Clortalidona 25 mg/día y depresión mayor en tratamiento con Escitalopram 10 mg/día. Es traída al Servicio de Urgencias tras presentar un cuadro de 48 horas de náuseas, vómitos aislados, marcha inestable y deterioro progresivo de la vigilia, culminando hace 20 minutos con una convulsión tónico-clónica generalizada presenciada de 2 minutos de duración. Al examen físico: en sopor profundo (Glasgow 9), responde con quejidos al dolor, pupilas isocóricas y reactivas, sin rigidez de nuca ni focalidad motora. Mucosas húmedas, llene capilar < 2 segundos, PA 138/82 mmHg, FC 74 lpm regular, FR 16 rpm, SatO2 97% ambiental, T° 36.6 °C. Exámenes de laboratorio de urgencia: Glicemia 104 mg/dL, Sodio plasmático 114 mEq/L, Potasio 3.5 mEq/L, Cloro 80 mEq/L, Creatinina 0.7 mg/dL, BUN 12 mg/dL, Osmolaridad plasmática calculada 240 mOsm/kg. Examen de orina: Sodio urinario 58 mEq/L, Osmolaridad urinaria 460 mOsm/kg. ¿Cuál es la meta terapéutica y la conducta farmacológica inmediata más adecuada para esta paciente en las primeras 2 a 4 horas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infusión continua de Suero Fisiológico al 0.9% a 150 mL/hora con meta de normalizar el sodio a > 135 mEq/L en las primeras 12 horas"
+      },
+      {
+        "id": "B",
+        "text": "Bolo intravenoso de 100 a 150 mL de Solución Salina Hipertónica al 3% en 20 minutos con meta de elevar la natremia entre 4 y 6 mEq/L"
+      },
+      {
+        "id": "C",
+        "text": "Restricción hídrica estricta a 500 mL/día y suspensión de clortalidona sin administración de fluidos endovenosos activos"
+      },
+      {
+        "id": "D",
+        "text": "Administración de 40 mg de furosemida intravenosa asociada a Suero Glucosado al 5% para inducir acuaresis forzada"
+      },
+      {
+        "id": "E",
+        "text": "Bolo intravenoso de Manitol al 20% (1 g/kg) para reducir de inmediato la presión endocraneana antes de corregir electrolitos"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. La paciente presenta una Encefalopatía Hiponatrémica Grave Sintomática con convulsión reciente y compromiso severo de conciencia (Glasgow 9, sodio sérico 114 mEq/L). Esta condición representa una emergencia neurológica con riesgo inminente de edema cerebral masivo, hipertensión endocraneana y enclavamiento amigdalino letal. Las guías internacionales de hiponatremia (Consenso Europeo y Americano) y los protocolos chilenos de medicina de urgencia establecen que la medida de rescate mandatoria de primera línea es la administración de un bolo intravenoso de 100 a 150 mL de Suero Salino Hipertónico al 3% (NaCl 3%) infundido en 20 minutos, el cual puede repetirse una o dos veces si persisten los síntomas neurológicos graves. La meta terapéutica inmediata es elevar el sodio plasmático entre 4 y 6 mEq/L en las primeras 2 a 4 horas, lo cual es fisiológicamente suficiente para reducir el volumen cerebral entre un 5 y 10% y abortar el riesgo de herniación. Para prevenir el Síndrome de Desmielinización Osmótica (Mielinolisis Pontina Central), la velocidad total de corrección NO debe superar los 8 a 10 mEq/L en 24 horas ni los 18 mEq/L en 48 horas (y un máximo de 6 a 8 mEq/L/día en pacientes ancianas o desnutridas).\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: El suero fisiológico al 0.9% es ineficaz o incluso perjudicial cuando coexiste secreción inadecuada de ADH inducida por ISRS (el riñón retiene el agua libre y excreta la sal concentrada, empeorando la natremia). Además, fijar como objetivo normalizar el sodio (> 135 mEq/L) en apenas 12 horas violaría gravemente los límites de seguridad osmótica, provocando desmielinización osmótica irreversible.\n- Opción C es incorrecta: La restricción hídrica aislada es una medida apropiada para hiponatremias crónicas leves o asintomáticas euvolémicas, pero es inaceptablemente lenta (tarda 48-72 h en surtir efecto) y mortalmente insuficiente ante una paciente con convulsiones activas y encefalopatía hiponatrémica aguda.\n- Opción D es incorrecta: La administración de furosemida asociada a suero glucosado al 5% aporta agua libre y depleta sodio y potasio, profundizando la hipotonía plasmática y el edema cerebral.\n- Opción E es incorrecta: El manitol induce deshidratación celular inespecífica y diuresis osmótica que arrastra electrolitos, careciendo de la capacidad de aportar sodio hipertónico intravascular; además desciende transitoriamente la natremia plasmática por desplazamiento osmótico, agravando la hiponatremia."
+  },
+  {
+    "id": "B3-Q03",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+    "perfilCode": "1.09.2.005, 1.09.4.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud de Urgencia Vital (Ley de Urgencias)"
+    },
+    "stem": "Hombre de 61 años con antecedentes de nefropatía diabética en etapa prediálisis (TFGe basal 18 mL/min/1.73m²) e hipertensión arterial tratada con Losartán 50 mg/día. Consulta en urgencias por debilidad muscular severa, parestesias y pesadez en extremidades tras haber consumido abundantes frutos secos y sustitutos de sal ricos en cloruro de potasio durante el fin de semana. Al ingreso: PA 100/60 mmHg, FC 38 lpm rítmica, FR 18 rpm, afebril. El monitor cardíaco muestra bradicardia nodal extrema sin ondas P visibles, complejos QRS ensanchados a 170 ms y ondas T picudas y simétricas de gran voltaje. El laboratorio de urgencia confirma Potasio plasmático en 8.2 mEq/L, Sodio 136 mEq/L, Calcio iónico 1.18 mmol/L y Creatinina 4.1 mg/dL. El médico de turno administra de inmediato 1 ampolla de Gluconato de Calcio al 10% (10 mL) intravenoso en 3 minutos. Al evaluar el trazado electrocardiográfico a los 5 minutos de finalizada la infusión, se constata que la frecuencia cardíaca persiste en 38 lpm y los complejos QRS continúan ensanchados a 170 ms sin estrechamiento. ¿Cuál es la conducta médica inmediata más adecuada a seguir en este momento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repetir una segunda ampolla de 10 mL de gluconato de calcio al 10% intravenoso en 3 a 5 minutos"
+      },
+      {
+        "id": "B",
+        "text": "Administrar sulfonato de poliestireno sódico (resina de intercambio catiónico) 30 g por vía oral"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar infusión de bicarbonato de sodio 2/3 molar a pasar en 2 horas"
+      },
+      {
+        "id": "D",
+        "text": "Instalar inmediatamente un marcapasos transitorio transvenoso sin administrar más fármacos intravenosos"
+      },
+      {
+        "id": "E",
+        "text": "Administrar 1 mg de glucagón intramuscular para revertir la bradicardia nodal"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta y la directriz estricta en el algoritmo de reanimación de la hiperkalemia grave con toxicidad cardíaca. El Gluconato de Calcio al 10% actúa estabilizando la membrana de los cardiomiocitos al restaurar el gradiente entre el potencial de reposo celular y el potencial umbral eléctrico. Su efecto se inicia en 1 a 3 minutos y se prolonga por 30 a 60 minutos. Sin embargo, la regla de oro internacional de la AHA, ERC y guías de medicina de urgencias dictamina que SI A LOS 5 A 10 MINUTOS persisten las alteraciones electrocardiográficas críticas (como el ensanchamiento del QRS o la ausencia de ondas P) o reaparecen, se DEBE REPETIR DE INMEDIATO UNA SEGUNDA DOSIS de 10 mL de gluconato de calcio al 10% IV. De forma paralela y sin demora, se deben activar las medidas de redistribución celular (\"shifting\") mediante Insulina Rápida 10 UI + Solución Glucosada al 30% (50–100 mL) y Salbutamol nebulizado (10–20 mg), y coordinar la Hemodiálisis de Urgencia bajo amparo de la Ley de Urgencias chilena.\n\nAnálisis de las opciones incorrectas:\n- Opción B es incorrecta: Las resinas de intercambio catiónico (sulfonato de poliestireno sódico) tienen un inicio de acción de 2 a 6 horas y eliminan cantidades mínimas de potasio; además están asociadas a necrosis colónica e isquemia intestinal. Están totalmente desaconsejadas en la fase de estabilización aguda de urgencia vital.\n- Opción C es incorrecta: El bicarbonato de sodio tiene una eficacia muy baja y errática para reducir la kalemia en ausencia de acidosis metabólica severa con acidemia franca (pH < 7.15); su infusión lenta en 2 horas no previene la muerte arrítmica en los próximos minutos.\n- Opción D es incorrecta: El intento de colocar un marcapasos transvenoso en un miocardio severamente intoxicado por potasio suele fracasar por falla de captura ventricular (el miocardio despolarizado tiene umbral inalcanzable), y el roce del catéter contra el endocardio puede desencadenar fibrilación ventricular intratable. Primero se debe estabilizar electroquímicamente la membrana con calcio.\n- Opción E es incorrecta: El glucagón carece de indicación en la bradiarritmia por hiperkalemia; su uso se restringe a la intoxicación por betabloqueadores."
+  },
+  {
+    "id": "B3-Q04",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Síndrome Nefrótico y Complicaciones Trombóticas",
+    "perfilCode": "1.09.1.022, 1.09.4.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía GES en ERC etapa 4–5 si evoluciona a daño renal crónico"
+    },
+    "stem": "Hombre de 42 años en estudio por síndrome nefrótico primario confirmado (proteinuria de 9.2 g/24h, albúmina sérica de 1.8 g/dL y colesterol total de 410 mg/dL). Consulta en el Servicio de Urgencias por un cuadro de 24 horas de evolución caracterizado por dolor sordo e intenso en el flanco izquierdo, orinas rojizas y aumento súbito de volumen en el hemiescroto izquierdo. Al examen físico: PA 132/84 mmHg, FC 82 lpm, afebril. Abdomen sensible a la palpación profunda en flanco y fosa lumbar izquierda. Examen genital: varicocele izquierdo marcado (grado 3), turgente, de aparición reciente, que no disminuye ni se reduce con el decúbito supino. Laboratorio de urgencia: Creatinina sérica 1.6 mg/dL (basal de hace una semana: 0.9 mg/dL), sedimento urinario con 40 a 50 eritrocitos por campo con presencia de acantocitos y cilindros hialino-granulosos. ¿Cuál es la complicación aguda más probable y el examen de elección para confirmarla?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trombosis de la vena renal izquierda; solicitar ecografía Doppler renal y testicular de urgencia"
+      },
+      {
+        "id": "B",
+        "text": "Progresión aguda a glomeruloesclerosis focal y segmentaria colapsante; indicar biopsia renal percutánea urgente"
+      },
+      {
+        "id": "C",
+        "text": "Litiasis ureteral izquierda obstructiva complicada; solicitar pielografía de eliminación intravenosa con contraste"
+      },
+      {
+        "id": "D",
+        "text": "Carcinoma urotelial invasor de pelvis renal; solicitar urotomografía computarizada con contraste trifásico"
+      },
+      {
+        "id": "E",
+        "text": "Torsión del cordón espermático izquierdo; programar exploración quirúrgica escrotal de urgencia"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Los pacientes con síndrome nefrótico severo con hipoalbuminemia profunda (< 2.0 a 2.5 g/dL), y en particular aquellos portadores de Nefropatía Membranosa, sufren un estado de hipercoagulabilidad adquirido grave provocado por la pérdida masiva por la orina de factores anticoagulantes endógenos de bajo peso molecular (principalmente la Antitrombina III, Proteína S y Proteína C) sumado al aumento de la síntesis hepática reactiva de fibrinógeno y procoagulantes. La Trombosis de la Vena Renal es una de sus complicaciones tromboembólicas más clásicas. Anatómicamente, la vena gonadal (espermática) izquierda drena directamente en la vena renal izquierda en ángulo de 90°. La oclusión trombótica de la luz de la vena renal izquierda interrumpe de golpe el drenaje venoso del testículo izquierdo, produciendo un varicocele izquierdo agudo patognomónico que se caracteriza por no reducirse ni colapsar con el decúbito supino. Se acompaña de dolor lumbar o en flanco, hematuria macroscópica y caída del filtrado glomerular por aumento de la presión hidrostática retrograda capilar. El método diagnóstico de confirmación no invasivo de primera línea es la Ecografía Doppler vascular renal y testicular (o angioTAC/angioRM), requiriendo inicio inmediato de anticoagulación terapéutica con heparina.\n\nAnálisis de las opciones incorrectas:\n- Opción B es incorrecta: La glomeruloesclerosis focal y segmentaria colapsante puede producir rápido deterioro renal y proteinuria masiva, pero no explica anatómicamente la aparición aguda de un varicocele izquierdo no reductible ni el dolor agudo en flanco con trombosis venosa.\n- Opción C es incorrecta: La litiasis ureteral produce un dolor tipo cólico agudo paroxístico con irradiación genital, pero no genera varicocele secundario; además, la pielografía intravenosa contrastada está en desuso y formalmente contraindicada por riesgo de nefropatía por contraste en un paciente nefrótico con falla renal incipiente.\n- Opción D es incorrecta: El carcinoma urotelial se presenta típicamente en pacientes añosos fumadores con hematuria indolora monosintomática, y no guarda correlación sindromática con hipoalbuminemia nefrótica grave de 1.8 g/dL ni varicocele súbito.\n- Opción E es incorrecta: La torsión testicular es un cuadro de escroto agudo que cursa con dolor testicular insoportable, reflejo cremastérico ausente y testículo elevado y horizontalizado, no con varicocele por ectasia venosa ni falla renal concomitante."
+  },
+  {
+    "id": "B3-Q05",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+    "perfilCode": "1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Problema de Salud GES N° 1: Enfermedad Renal Crónica Etapa 4 y 5 (Acceso garantizado a Nefrólogo, Fístula AV, Diálisis y Trasplante)"
+    },
+    "stem": "Mujer de 59 años, con diabetes mellitus tipo 2 e hipertensión arterial desde hace 12 años, en tratamiento con Metformina 850 mg cada 12 horas y Losartán 50 mg cada 12 horas. Acude a control cardiovascular en su CESFAM asintomática. PA 134/82 mmHg, FC 72 lpm, IMC 29.2 kg/m², sin edemas periféricos. Exámenes de control recientes (confirmados con resultados idénticos de hace 4 meses): Creatinina plasmática 1.8 mg/dL, TFGe por CKD-EPI de 32 mL/min/1.73m² (estadio G3b), Potasio plasmático 4.6 mEq/L, Glicemia de ayuno 138 mg/dL, HbA1c 7.6%. Razón Albúmina/Creatinina en orina (RAC): 450 mg/g (categoría A3, macroalbuminuria persistente). De acuerdo con las guías clínicas KDIGO y la normativa de Garantías Explícitas en Salud (GES) vigente en Chile, ¿cuál es la conducta terapéutica y de derivación más adecuada para esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender el losartán por riesgo de deterioro renal acelerado y gestionar ingreso inmediato a diálisis peritoneal"
+      },
+      {
+        "id": "B",
+        "text": "Mantener losartán, reducir la metformina a un máximo de 1.000 mg/día, asociar un inhibidor de SGLT2 (Dapagliflozina) y continuar control en APS sin notificar GES N° 1"
+      },
+      {
+        "id": "C",
+        "text": "Notificar caso al Problema de Salud GES N° 1 por Enfermedad Renal Crónica etapa 3b para consulta con nefrólogo en menos de 30 días"
+      },
+      {
+        "id": "D",
+        "text": "Asociar Enalapril al Losartán para lograr bloqueo dual del sistema renina-angiotensina y suspender metformina"
+      },
+      {
+        "id": "E",
+        "text": "Indicar confección urgente de fístula arteriovenosa autóloga en el brazo no dominante antes de 30 días"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y refleja la práctica clínica rigurosa exigida por el Perfil de Conocimientos V3 y la legislación sanitaria chilena. La paciente presenta una Enfermedad Renal Crónica confirmada en estadio G3b A3 (TFGe 32 mL/min/1.73m² y RAC 450 mg/g). Los principios del manejo nefroprotector integral establecen:\n1. Seguridad con Metformina: Cuando la TFGe se sitúa entre 30 y 44 mL/min/1.73m², la metformina NO está contraindicada, pero su dosis máxima diaria debe reducirse a 1.000 mg/día (ej. 500 mg cada 12 horas) para mitigar el riesgo de acumulación y acidosis láctica (solo se suspende si TFGe < 30 mL/min).\n2. Continuar ARA-II: El Losartán es la base de la nefroprotección en pacientes con macroalbuminuria (A3), ya que dilata la arteriola eferente y frena la glomeruloesclerosis; con normokalemia (K 4.6 mEq/L) debe mantenerse firmemente.\n3. iSGLT2: Los ensayos clínicos contemporáneos (DAPA-CKD, EMPA-KIDNEY) y guías KDIGO han demostrado unánimemente que los inhibidores de SGLT2 (como Dapagliflozina 10 mg/día) frenan la progresión del daño renal y reducen la mortalidad cardiovascular en pacientes con TFGe ≥ 20 mL/min y albuminuria elevada.\n4. Normativa GES N° 1: En Chile, el Problema de Salud GES N° 1 cubre EXCLUSIVAMENTE a pacientes en Etapa 4 (TFGe 15 a 29 mL/min) y Etapa 5 (TFGe < 15 mL/min o diálisis). El estadio 3b (TFGe 30 a 59 mL/min) se maneja en el Programa de Salud Cardiovascular de Atención Primaria en red con medicina interna, por lo que NO procede la notificación GES N° 1.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: Suspender el losartán desprotege al glomérulo de la hiperfiltración capilar; además no existe criterio alguno para ingresar a diálisis peritoneal en estadio 3b con TFGe de 32 mL/min y sin uremia.\n- Opción C es incorrecta: Es un error de conocimiento de la legislación chilena; el GES N° 1 garantiza consulta por especialista en ≤ 30 días únicamente para ERC en etapas 4 y 5.\n- Opción D es incorrecta: La combinación de un IECA con un ARA-II (bloqueo dual) demostró en los ensayos ONTARGET y VA NEPHRON-D un incremento significativo de episodios de falla renal aguda e hiperkalemia severa sin beneficio clínico; está terminantemente proscrita.\n- Opción E es incorrecta: La fístula arteriovenosa autóloga se planifica y confecciona en el estadio 4 (prediálisis con TFGe < 20-25 mL/min), no en etapa 3b."
+  },
+  {
+    "id": "B3-Q06",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+    "perfilCode": "1.09.2.004, 1.09.1.013",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Sin garantía GES · Cobertura hospitalaria de urgencias"
+    },
+    "stem": "Mujer de 67 años con antecedente de reflujo gastroesofágico y gonartrosis, hospitalizada hace 8 días para recibir tratamiento parenteral con Ampicilina/Sulbactam por una celulitis extensa en pierna derecha. Concomitantemente recibe Omeprazol 40 mg/día por vía oral. Al séptimo día de tratamiento presenta febrícula de 37.9 °C y un exantema maculopapular eritematoso pruriginoso en tronco. Los exámenes de laboratorio revelan un ascenso de la creatinina sérica desde 0.8 mg/dL al ingreso hasta 2.9 mg/dL hoy. Hemograma: leucocitos 9.100/uL con 11% de eosinófilos (1.001 eosinófilos absolutos/uL). Examen de orina: proteinuria +, leucocituria de 30 a 40 por campo, presencia de cilindros leucocitarios y eosinofiluria confirmada con tinción de Hansel. Urocultivo: negativo a las 48 horas. Ecografía renal: riñones aumentados de tamaño con hiperecogenicidad cortical difusa y sin dilatación de la vía excretora. ¿Cuál es el diagnóstico más probable y la conducta terapéutica inicial de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Necrosis tubular aguda tóxica; administrar solución salina al 3% y furosemida intravenosa"
+      },
+      {
+        "id": "B",
+        "text": "Pielonefritis aguda bacteriana nosocomial; escalar antibioticoterapia a vancomicina más meropenem"
+      },
+      {
+        "id": "C",
+        "text": "Nefritis túbulo-intersticial aguda inmunoalérgica; suspender de inmediato los fármacos desencadenantes (antibiótico e IBP)"
+      },
+      {
+        "id": "D",
+        "text": "Glomerulonefritis membranoproliferativa secundaria; iniciar pulsos de ciclofosfamida intravenosa"
+      },
+      {
+        "id": "E",
+        "text": "Microangiopatía trombótica por fármacos; solicitar frotis sanguíneo periférico e iniciar plasmaféresis de urgencia"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción C es la respuesta correcta. El cuadro clínico expone la presentación canónica de la Nefritis Túbulo-Intersticial Aguda (NTIA) inmunoalérgica inducida por fármacos. Los dos grupos farmacológicos más frecuentemente implicados en la actualidad son los antibióticos betalactámicos (como aminopenicilinas y cefalosporinas) y los inhibidores de la bomba de protones (Omeprazol). Aunque la tríada hipersensible clásica (fiebre, exantema cutáneo y eosinofilia) solo se presenta completa en el 10 al 30% de los casos, su presencia junto a un deterioro rápido de la función renal es altamente orientadora. El sedimento urinario patognomónico exhibe piuria estéril (leucocituria sin bacteriuria y con urocultivo negativo), cilindros leucocitarios (que demuestran que la inflamación leucocitaria proviene del parénquima renal y no de la vejiga) y eosinofiluria demostrada por tinción de Hansel o Wright. En la ecografía renal los riñones suelen estar normales o discretamente aumentados de tamaño por el edema intersticial inflamatorio. La primera y más determinante conducta terapéutica es la suspensión inmediata de todos los agentes potencialmente inductores (ampicilina/sulbactam y omeprazol). La mayoría de los pacientes normaliza la creatinina con esta sola medida; si tras 5 a 7 días no hay descenso de la creatinina, se inicia prednisona oral a 1 mg/kg/día durante 2 a 4 semanas.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: La NTA tóxica no cursa con exantema, eosinofilia periférica ni cilindros leucocitarios; su sedimento característico muestra cilindros granulosos oscuros (\"muddy brown\") y células epiteliales tubulares libres. Además, el salino hipertónico y la furosemida empeorarían el cuadro.\n- Opción B es incorrecta: La presencia de urocultivo negativo descarta pielonefritis bacteriana; escalar a antibióticos de amplio espectro sometería a la paciente a mayor toxicidad e incluso perpetuaría la reacción alérgica si se administra otro betalactámico (como meropenem).\n- Opción D es incorrecta: La glomerulonefritis membranoproliferativa cursa con síndrome nefrítico florido (hematuria dismórfica, cilindros hemáticos, hipertensión y proteinuria en rango nefrótico con hipocomplementemia C3/C4), ausentes en este caso.\n- Opción E es incorrecta: La microangiopatía trombótica se caracteriza por anemia hemolítica microangiopática no inmune con esquistocitos abundantes en frotis y trombocitopenia de consumo severa, parámetros que están normales en esta paciente."
+  },
+  {
+    "id": "B3-Q07",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+    "perfilCode": "1.09.1.010, 1.09.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica"
+    },
+    "stem": "Mujer de 55 años, hospitalizada en la Unidad de Cuidados Intermedios cursando su sexto día postoperatorio de evacuación neuroquirúrgica de un hematoma subdural traumático. En las últimas 24 horas presenta un débito urinario de 5.100 mL y un balance hídrico acumulado de -3.000 mL. La paciente refiere debilidad marcada y mareos ortostáticos al intentar incorporarse. Al examen físico: en decúbito PA 116/70 mmHg con FC 78 lpm; al sentarse la PA cae a 86/52 mmHg con FC de 114 lpm (ortostatismo positivo severo). Mucosas secas, pliegue cutáneo disminuido, venas yugulares colapsadas a 30°, sin edemas. Laboratorio: Sodio plasmático 124 mEq/L (hace 48 h era 138 mEq/L), Potasio 4.1 mEq/L, Cloro 88 mEq/L, BUN 32 mg/dL, Creatinina 1.1 mg/dL, Osmolaridad plasmática 260 mOsm/kg. Exámenes en orina: Sodio urinario 92 mEq/L, Osmolaridad urinaria 490 mOsm/kg. ¿Cuál es el diagnóstico clínico más probable y la conducta médica indicada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Síndrome de Secreción Inadecuada de Hormona Antidiurética (SIADH); indicar restricción hídrica estricta a 800 mL/día"
+      },
+      {
+        "id": "B",
+        "text": "Síndrome Pierde Sal Cerebral; indicar reposición volumétrica vigorosa con Suero Fisiológico al 0.9% intravenoso"
+      },
+      {
+        "id": "C",
+        "text": "Polidipsia primaria psicógena; restringir el consumo voluntario de agua y administrar desmopresina oral"
+      },
+      {
+        "id": "D",
+        "text": "Diabetes insípida central neurogénica; administrar desmopresina intranasal inmediata y restringir sal"
+      },
+      {
+        "id": "E",
+        "text": "Insuficiencia cardíaca congestiva descompensada; iniciar infusión continua de furosemida a altas dosis"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. Este caso clínico aborda una de las distinciones más críticas de la medicina intensiva y neuroquirúrgica: SIADH versus Síndrome Pierde Sal Cerebral (Cerebral Salt Wasting, CSW). Ambas entidades cursan con hiponatremia hipotónica, orina inapropiadamente concentrada (Osmolaridad urinaria > 100 mOsm/kg) y natriuresis elevada (Sodio urinario > 40 mEq/L) en contexto de una lesión cerebral aguda. La CLAVE FISIOPATOLÓGICA ABSOLUTA radica en el estado del volumen extracelular:\n- En el SIADH el paciente se encuentra estrictamente EUVOLÉMICO (sin edemas pero sin ortostatismo ni deshidratación, con balance hídrico neutro o discretamente positivo).\n- En el Pierde Sal Cerebral, mediado por liberación masiva de péptidos natriuréticos centrales (BNP) y disautonomía simpática renal, el riñón pierde sal de forma primaria, arrastrando agua y produciendo poliuria masiva, balance marcadamente negativo (-3.000 mL) e HIPOVOLEMIA HEMODINÁMICA SEVERA (hipotensión ortostática, taquicardia refleja, mucosas secas, colapso yugular y aumento de BUN).\nLa importancia del diagnóstico diferencial es vital: mientras que en el SIADH el pilar terapéutico es la restricción hídrica, en el Pierde Sal Cerebral la restricción de agua es mortal, pues profundiza la hipovolemia, colapsa el flujo sanguíneo cerebral y precipita isquemia o vasoespasmo. El tratamiento correcto del CSW es la reposición hidrosalina agresiva con Suero Fisiológico al 0.9% intravenoso (y comprimidos de NaCl o fludrocortisona en casos refractarios) hasta restaurar la normovolemia.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: Tratar a esta paciente como un SIADH indicando restricción de líquidos provocaría shock hipovolémico e infarto cerebral secundario por hipoperfusión tisular.\n- Opción C es incorrecta: La polidipsia primaria se caracteriza por ingesta compulsiva de agua en pacientes psiquiátricos, cursando con orina máximamente diluida (Osmolaridad urinaria < 100 mOsm/kg y densidad < 1.005), lo opuesto a este caso donde la orina está concentrada a 490 mOsm/kg.\n- Opción D es incorrecta: La diabetes insípida central se caracteriza por falta de ADH, produciendo poliuria de agua libre con orina diluida (Osmolaridad urinaria < 200 mOsm/kg) e hipernatremia progresiva (> 145 mEq/L), no hiponatremia con orina concentrada.\n- Opción E es incorrecta: La insuficiencia cardíaca descompensada cursa con sobrecarga de volumen (edemas periféricos, ingurgitación yugular y crepitaciones) y sodio urinario muy bajo (< 20 mEq/L) por avidez de reabsorción renal."
+  },
+  {
+    "id": "B3-Q08",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Hipokalemia y Reposición Segura de Potasio",
+    "perfilCode": "1.09.2.006, 1.09.3.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica"
+    },
+    "stem": "Mujer de 52 años, hipertensa tratada con Hidroclorotiazida 25 mg/día y con antecedente de consumo problemático de alcohol, consulta por astenia marcada, debilidad muscular en las cuatro extremidades, calambres y palpitaciones irregulares. Signos vitales: PA 115/70 mmHg, FC 88 lpm arrítmica, FR 18 rpm, afebril. El electrocardiograma revela ritmo sinusal con extrasístoles ventriculares frecuentes, aplanamiento difuso de ondas T, infradesnivel del segmento ST de 1 mm y ondas U prominentes en derivaciones precordiales V2 a V4. Exámenes de laboratorio: Potasio sérico 2.6 mEq/L, Sodio 137 mEq/L, Cloro 94 mEq/L, Magnesio sérico 1.2 mg/dL (valor de referencia: 1.8 a 2.4 mg/dL), Calcio sérico 9.1 mg/dL, Creatinina 0.8 mg/dL. Se suspende la hidroclorotiazida. ¿Cuáles son las dos medidas farmacológicas indispensables para una reposición segura y efectiva de potasio por vía venosa periférica en esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diluir el cloruro de potasio exclusivamente en Suero Glucosado al 10% y prescribir espironolactona oral"
+      },
+      {
+        "id": "B",
+        "text": "Administrar Sulfato de Magnesio intravenoso concomitante y preparar la solución periférica con un máximo de 40 mEq/L de KCl a no más de 10 a 20 mEq/hora"
+      },
+      {
+        "id": "C",
+        "text": "Administrar un bolo directo de 40 mEq de KCl en 10 minutos para revertir la arritmia y agregar bicarbonato"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar infusión de insulina rápida con glucosa para acelerar el ingreso de electrolitos y administrar calcio"
+      },
+      {
+        "id": "E",
+        "text": "Indicar reposición oral exclusiva postergando cualquier aporte endovenoso durante las primeras 48 horas"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y reúne los dos pilares de seguridad y efectividad farmacológica en hipokalemia:\n1. Corrección concomitante de Magnesio: La hipokalemia moderada a severa refractaria al tratamiento se asocia frecuentemente a hipomagnesemia (en este caso 1.2 mg/dL secundario a tiazidas y alcoholismo). El magnesio intracelular ejerce una inhibición fisiológica sobre los canales secretores de potasio ROMK en el túbulo colector cortical. Cuando el magnesio desciende, el canal ROMK pierde su freno inhibitorio y permanece permanentemente abierto, provocando una fuga urinaria masiva de potasio. Si no se repone sulfato de magnesio intravenoso (ej. 1 a 2 g de Sulfato de Magnesio al 20% en 30 minutos), todo el potasio administrado se perderá por la orina y la hipokalemia no corregirá.\n2. Normas de infusión venosa periférica de KCl: Para evitar la flebitis química severa, esclerosis venosa y el riesgo letal de paro cardíaco en asistolia, las guías internacionales establecen que por vía periférica la concentración no debe superar los 40 mEq de KCl por litro de solución fisiológica (o glucosalina), y la velocidad de reposición no debe sobrepasar los 10 a 20 mEq/hora, siempre bajo monitorización electrocardiográfica.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta y constituye una contraindicación formal clásica: NUNCA se debe utilizar suero glucosado puro como vehículo para infusión inicial de potasio; la carga de glucosa estimula la secreción de insulina endógena por las células beta pancreáticas, lo que transloca el potasio plasmático hacia el intracelular, provocando una caída paradójica más profunda y peligrosa de la kalemia en las primeras horas.\n- Opción C es incorrecta: La administración de cloruro de potasio en bolo intravenoso directo es mortal; precipita asistolia cardíaca inmediata y fibrilación ventricular (es el método utilizado para la eutanasia y paro asistido).\n- Opción D es incorrecta: La insulina con glucosa se utiliza para tratar la hiperkalemia, pues mete potasio a la célula; administrarla en una paciente con kalemia de 2.6 mEq/L provocaría una hipokalemia catastrófica con paro cardiorrespiratorio.\n- Opción E es incorrecta: Con potasio < 3.0 mEq/L, compromiso neuromuscular y alteraciones electrocardiográficas notorias (ondas U y ectopias ventriculares), el paciente tiene indicación perentoria de infusión intravenosa hospitalizada; postergar el tratamiento por 48 horas expone a muerte súbita arritmogénica."
+  },
+  {
+    "id": "B3-Q09",
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "topicTitle": "Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa",
+    "perfilCode": "1.09.1.022",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Sin garantía GES específica"
+    },
+    "stem": "Mujer de 32 años, sin antecedentes mórbidos previos, consulta por la aparición súbita en el transcurso de una semana de edema periorbitario matinal bilateral que progresó rápidamente a anasarca con edema bimaleolar blando +++ y aumento de 7 kg de peso. Refiere orinas espumosas sin hematuria visible. Al examen físico: PA 115/75 mmHg, FC 76 lpm, afebril, examen pulmonar con murmullo pulmonar conservado y abdomen con matidez desplazable compatible con ascitis leve. Exámenes de laboratorio: Creatinina 0.8 mg/dL, BUN 14 mg/dL, Albúmina sérica 1.9 g/dL, Colesterol total 460 mg/dL, Triglicéridos 380 mg/dL. Sedimento urinario: sin hematíes ni cilindros celulares, abundantes gotas lipídicas. Proteinuria cuantificada en orina de 24 horas: 11.5 gramos. Estudio inmunológico: ANA negativo, ANCA negativo, complemento C3 y C4 normales, serologías virales (VIH, VHB, VHC) negativas. Se realiza Biopsia Renal Percutánea que revela en la microscopía óptica glomérulos de estructura rigurosamente normal sin proliferación celular ni engrosamiento de membrana basal, con inmunofluorescencia totalmente negativa. ¿Cuál es el diagnóstico histológico y el tratamiento médico de primera línea indicado para esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nefropatía membranosa; indicar rituximab asociado a ciclofosfamida"
+      },
+      {
+        "id": "B",
+        "text": "Enfermedad por cambios mínimos; iniciar Prednisona oral a dosis plenas de 1 mg/kg/día"
+      },
+      {
+        "id": "C",
+        "text": "Glomeruloesclerosis focal y segmentaria colapsante; indicar micofenolato mofetil y hemodiálisis urgente"
+      },
+      {
+        "id": "D",
+        "text": "Nefropatía por depósitos de IgA; prescribir Losartán en monoterapia sin inmunosupresión"
+      },
+      {
+        "id": "E",
+        "text": "Amiloidosis renal primaria de cadenas ligeras; iniciar quimioterapia con bortezomib y dexametasona"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. La paciente debuta con un Síndrome Nefrótico Masivo y Puro de instalación explosiva (proteinuria masiva de 11.5 g/24h, hipoalbuminemia severa de 1.9 g/dL, hipercolesterolemia y anasarca sin hematuria glomerular). El hallazgo de glomérulos ópticamente normales en la microscopía de luz asociado a una inmunofluorescencia totalmente negativa (sin depósitos de inmunoglobulinas ni complemento) es la definición diagnóstica patognomónica de la Enfermedad por Cambios Mínimos (o Nefrosis Lipoídea). La microscopía electrónica (de estar disponible) evidenciaría el borramiento y fusión difusa de los pedicelos podocitarios. Aunque es la causa del 90% de los síndromes nefróticos en niños, en adultos representa del 10 al 15% de los casos. A diferencia del paciente pediátrico (en quien se trata empíricamente sin biopsiar), en el adulto la biopsia renal percutánea es obligatoria para certificarla y descartar glomeruloesclerosis focal segmentaria o nefropatía membranosa. El tratamiento de primera línea de elección absoluta es la corticoterapia sistémica con Prednisona oral a dosis de 1 mg/kg/día (o 60 mg/día) durante 8 a 16 semanas. Los adultos responden favorablemente alcanzando remisión completa en más del 80% de los casos, aunque la respuesta suele demorar más que en los niños.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: La nefropatía membranosa muestra en la microscopía óptica engrosamiento difuso homogéneo de la membrana basal glomerular con imágenes de \"espículas\" (spikes) en la tinción de plata e inmunofluorescencia intensamente positiva granular para IgG y C3, hallazgos totalmente ausentes aquí.\n- Opción C es incorrecta: La glomeruloesclerosis focal y segmentaria (GEFS) se caracteriza microscópicamente por esclerosis, colapso capilar y sinequias hialinas en algunos glomérulos y en porciones segmentarias del ovillo, no por glomérulos ópticamente normales.\n- Opción D es incorrecta: La nefropatía por IgA cursa con hematuria glomerular macro o microscópica dismórfica y en la biopsia muestra expansión mesangial con depósitos mesangiales prominentes de IgA en la inmunofluorescencia.\n- Opción E es incorrecta: La amiloidosis renal muestra en la microscopía óptica depósitos amorfos eosinófilos extracelulares que tiñen con Rojo Congo y muestran birrefringencia verde manzana bajo luz polarizada."
+  },
+  {
+    "id": "B3-Q10",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.04.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Mujer de 24 años, estudiante universitaria, sin antecedentes médicos conocidos, con IMC de 21.0 kg/m² (peso 52 kg, talla 1.57 m), completamente asintomática. En un chequeo médico preventivo de salud laboral se pesquisan dos glicemias venosas de ayuno en días distintos de 116 mg/dL y 118 mg/dL. Se solicita una Prueba de Tolerancia a la Glucosa Oral (PTGO) con 75 g, que demuestra: glicemia basal de 115 mg/dL y a las 2 horas de 136 mg/dL (excursión postprandial mínima de 21 mg/dL). Su hemoglobina glicosilada (HbA1c) es de 6.1%. En la anamnesis dirigida relata que su madre de 48 años y su abuelo materno de 73 años han tenido glicemias de ayuno estables entre 110 y 130 mg/dL durante toda la vida, ninguno tiene sobrepeso ni ha requerido fármacos, y ninguno ha desarrollado retinopatía ni nefropatía diabética. Los anticuerpos anti-GAD65 y anti-IA2 resultan negativos. ¿Cuál es el diagnóstico más probable y la conducta médica indicada para esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diabetes autoinmune latente del adulto (LADA); iniciar insulinoterapia basal nocturna inmediata"
+      },
+      {
+        "id": "B",
+        "text": "Diabetes monogénica tipo MODY 2 (mutación en gen de glucoquinasa, GCK); no requiere tratamiento farmacológico y debe tranquilizarse a la paciente"
+      },
+      {
+        "id": "C",
+        "text": "Diabetes mellitus tipo 2 del adulto joven; iniciar metformina 850 mg cada 12 horas y cambios de estilo de vida"
+      },
+      {
+        "id": "D",
+        "text": "Diabetes monogénica tipo MODY 3 (mutación en gen HNF1A); iniciar dosis plenas de sulfonilureas orales"
+      },
+      {
+        "id": "E",
+        "text": "Intolerancia a la glucosa oral clásica; iniciar pioglitazona oral para sensibilizar el receptor periférico"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. La paciente presenta una Diabetes Monogénica del Joven tipo MODY 2 (Maturity-Onset Diabetes of the Young tipo 2), causada por una mutación heterocigota con pérdida de función en el gen de la Glucoquinasa (GCK). La glucoquinasa actúa fisiológicamente como el \"sensor de glucosa\" de las células beta del páncreas. La mutación desplaza el punto de ajuste (\"set-point\") de la secreción de insulina hacia cifras más altas de glicemia, de modo que el páncreas regula la homeostasis en un umbral de ayuno ligeramente más elevado (glicemias de ayuno casi invariablemente entre 100 y 145 mg/dL presentes desde el nacimiento y de por vida, con HbA1c entre 5.8% y 6.8%). Las claves clínicas diagnósticas distintivas son:\n1. Patrón autosómico dominante estricto en delgados (madre y abuelo materno con la misma hiperglicemia leve).\n2. Excursión postprandial mínima en la PTGO: a las 2 horas la glicemia se eleva muy poco (< 30-50 mg/dL respecto a la basal, habitualmente resultando < 140 mg/dL, como los 136 mg/dL de esta paciente).\n3. Ausencia absoluta de complicaciones microvasculares o macrovasculares a lo largo de la vida.\n4. Falta de respuesta e inutilidad de los fármacos hipoglucemiantes orales y de la insulina.\nLa conducta médica oficial es evitar el sobrediagnóstico, NO prescribir fármacos hipoglucemiantes orales ni insulina (salvo vigilancia obstétrica si el feto no hereda la mutación) y asegurar a la paciente que no progresará a falla beta ni sufrirá daño orgánico.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: La diabetes LADA es autoinmune (anti-GAD65 positivos), debuta típicamente con pérdida de peso rápida e hiperglicemia franca descompensada progresiva (> 200 mg/dL) que culmina en déficit absoluto de insulina; la paciente es asintomática con anti-GAD negativos.\n- Opción C es incorrecta: La DM2 cursa con resistencia a la insulina, sobrepeso/obesidad, acantosis nigricans y descompensación postprandial franca en la PTGO; etiquetar a esta paciente como DM2 e iniciar metformina no modifica su set-point de glucoquinasa y es un error terapéutico.\n- Opción D es incorrecta: El MODY 3 (por mutación en el factor nuclear HNF-1alfa) debuta en adolescentes o adultos jóvenes con glucosuria desproporcionada a glicemias normales/bajas (bajo umbral renal) e hiperglicemia postprandial progresiva que sí causa complicaciones microvasculares y responde de manera exquisita a dosis bajas de sulfonilureas; no cursa con la hiperglicemia de ayuno leve y estable característica de MODY 2.\n- Opción E es incorrecta: La glicemia a las 2 horas de la PTGO fue 136 mg/dL, lo cual es normal (< 140 mg/dL); no tiene intolerancia a la glucosa y la pioglitazona no tiene ningún rol."
+  },
+  {
+    "id": "B3-Q11",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Hombre de 63 años con antecedente de DM2 de 6 años de evolución e infarto agudo de miocardio con elevación del segmento ST hace 3 años (revascularizado con angioplastía y stent en arteria descendente anterior). Actualmente recibe Metformina 850 mg cada 8 horas (2.550 mg/día), Atorvastatina 40 mg/día, Aspirina 100 mg/día y Carvedilol 12.5 mg cada 12 horas. Acude a control del Programa de Salud Cardiovascular asintomático. Al examen físico: PA 126/78 mmHg, FC 64 lpm, IMC 31.4 kg/m², sin edemas ni signos de congestión. Exámenes recientes: HbA1c 8.2% (meta < 7.0%), Creatinina 0.9 mg/dL (TFGe 88 mL/min/1.73m²), RAC urinaria 18 mg/g (normal). Según las guías clínicas ministeriales e internacionales (ADA / KDIGO), ¿cuál es el segundo fármaco hipoglucemiante de elección prioritaria que ha demostrado reducir eventos cardiovasculares mayores (MACE) y muerte en este perfil clínico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sulfonilurea de segunda generación (Glibenclamida 5 mg/día)"
+      },
+      {
+        "id": "B",
+        "text": "Tiazolidinediona (Pioglitazona 30 mg/día)"
+      },
+      {
+        "id": "C",
+        "text": "Agonista del receptor de GLP-1 con beneficio cardiovascular demostrado (ej. Semaglutida o Dulaglutida)"
+      },
+      {
+        "id": "D",
+        "text": "Inhibidor de la alfa-glucosidasa intestinal (Acarbosa 50 mg con las comidas)"
+      },
+      {
+        "id": "E",
+        "text": "Meglitinida secretagoga de acción ultracorta (Repaglinida 1 mg antes de almorzar)"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La opción C es la respuesta correcta. En el algoritmo contemporáneo de tratamiento escalonado de la Diabetes Mellitus Tipo 2 (guías ADA 2026, consensos de la Sociedad Europea de Cardiología y recomendaciones técnicas del MINSAL), la presencia de comorbilidad cardiovascular de origen aterosclerótico establecida (infarto agudo de miocardio previo, angina inestable, ACV/AIT o enfermedad arterial periférica) dicta de manera imperativa la selección del segundo fármaco que debe añadirse a la metformina. En pacientes con enfermedad aterosclerótica coronaria comprobada, los Agonistas del Receptor de GLP-1 (GLP-1 RA) con beneficio cardiovascular demostrado (como Semaglutida subcutánea, Dulaglutida o Liraglutida) y los inhibidores de SGLT2 son los agentes de primera línea recomendados independientemente del nivel basal de HbA1c. Los ensayos clínicos LEADER, SUSTAIN-6 y REWIND han demostrado que los análogos de GLP-1 reducen significativamente los Eventos Cardiovasculares Mayores Adversos (MACE de 3 componentes: muerte cardiovascular, infarto no fatal y accidente cerebrovascular no fatal), además de enlentecer la nefropatía y favorecer una pérdida de peso sustancial (lo cual beneficia directamente a este paciente con obesidad clase I e IMC de 31.4 kg/m²).\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: La glibenclamida es una alternativa de bajo costo disponible en la canasta básica de APS cuando no existen comorbilidades vasculares, pero no ha demostrado ninguna reducción de eventos coronarios ni mortalidad; por el contrario, induce ganancia de peso y confiere un riesgo inaceptablemente alto de hipoglicemias que pueden desencadenar isquemia miocárdica en un coronario.\n- Opción B es incorrecta: La pioglitazona promueve la retención hidrosalina y aumenta significativamente el riesgo de hospitalización por insuficiencia cardíaca descompensada en pacientes con cardiopatía isquémica previa.\n- Opción D es incorrecta: La acarbosa es un fármaco débil con intolerancia digestiva frecuente (meteorismo, diarrea) que no tiene ningún impacto protector sobre eventos coronarios o mortalidad cardiovascular.\n- Opción E es incorrecta: La repaglinida es un secretagogo que estimula la secreción de insulina por un mecanismo similar a las sulfonilureas; no reduce eventos MACE ni mortalidad en prevención secundaria."
+  },
+  {
+    "id": "B3-Q12",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+    "perfilCode": "1.04.1.004, 1.04.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Hombre de 58 años con diabetes mellitus tipo 2 de 12 años de evolución, en tratamiento con esquema intensificado de insulina desde hace 3 años consistente en Insulina NPH 28 UI al acostarse (22:30 hrs) e Insulina Cristalina 8 UI antes del desayuno, almuerzo y cena, asociada a Metformina 850 mg cada 12 horas. Consulta en el CESFAM por presentar en los últimos dos meses una marcada inestabilidad glucémica, con días en que las glicemias preprandiales superan los 300 mg/dL sin causa evidente, alternando con episodios de hipoglicemias sintomáticas severas (< 45 mg/dL con sudoración profusa y desorientación). Su HbA1c actual es de 9.6%. El paciente asegura cumplir rigurosamente con sus dosis y dieta. Al examen físico abdominal se constata piel íntegra pero con nódulos subcutáneos fibroelásticos indurados e indoloros de 4 a 5 cm de diámetro a ambos lados del ombligo; el paciente relata que siempre se inyecta la insulina en esa misma zona periumbilical porque 'allí no le duele nada el pinchazo'. ¿Cuál es la causa de la labilidad glucémica y la conducta médica indicada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efecto Somogyi generalizado; reducir de inmediato todas las dosis de insulina a la mitad"
+      },
+      {
+        "id": "B",
+        "text": "Lipohipertrofia local por falta de rotación sistemática de sitios de inyección; suspender las inyecciones en la zona afectada y educar en rotación estricta de sitios"
+      },
+      {
+        "id": "C",
+        "text": "Lipodistrofia atrófica autoinmune; cambiar la insulina cristalina por formulaciones ultralentas y aplicar corticoides tópicos"
+      },
+      {
+        "id": "D",
+        "text": "Resistencia insulínica severa tipo B por autoanticuerpos; duplicar la dosis prandial de insulina cristalina"
+      },
+      {
+        "id": "E",
+        "text": "Gastroparesia diabética autonómica; solicitar estudio de vaciamiento gástrico con radioisótopos e iniciar procinéticos"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. La lipohipertrofia por insulina es la complicación dermatológica y farmacocinética local más común en usuarios crónicos de insulina (afecta a más del 50% de los pacientes que no rotan adecuadamente). Se debe al efecto lipogénico y anabólico local directo de la insulina concentrada sobre los adipocitos subcutáneos, favorecido por la reutilización de agujas y la inyección repetida en la misma zona anatómica. Los pacientes seleccionan estas áreas porque están hipoestésicas (\"no duele el pinchazo\"). Sin embargo, el tejido fibrograso hipertrofiado altera y enlentece drásticamente la absorción de la insulina: unas veces la insulina queda secuestrada en el tejido cicatrizal produciendo hiperglicemias inexplicables muy elevadas (> 300 mg/dL), y otras veces se libera en oleadas masivas e imprevistas horas después, gatillando hipoglicemias severas. La conducta obligada e inmediata es:\n1. Suspender de inmediato y de forma absoluta las inyecciones de insulina en las placas lipohipertróficas para permitir su lenta involución (que puede demorar meses).\n2. Educar en la rotación sistemática de sitios de inyección (cuadrantes abdominales no lesionados, cara anterolateral de muslos, brazos y glúteos).\n3. Advertir al paciente que al comenzar a inyectarse en tejido subcutáneo sano la absorción de insulina mejorará bruscamente, por lo que a menudo se requiere reducir preventivamente las dosis totales un 10 a 20% para evitar hipoglicemias.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: El efecto Somogyi se limita a hipoglicemia nocturna con hiperglicemia reactiva matinal al despertar; no explica la fluctuación en todas las comidas del día ni la presencia de masas nodulares subcutáneas en la pared abdominal.\n- Opción C es incorrecta: La lipodistrofia atrófica o lipoatrofia se caracteriza por hendiduras, excavaciones o pérdida de grasa (fosas en sacabocado) mediada por complejos inmunes contra insulinas bovinas o porcinas antiguas; es prácticamente inexistente con las insulinas recombinantes humanas actuales.\n- Opción D es incorrecta: No es un fenómeno de anticuerpos contra el receptor; duplicar la insulina en un paciente con lipohipertrofia es una práctica extremadamente peligrosa que provocará comas hipoglicémicos letales cuando la masa de insulina se libere a la circulación.\n- Opción E es incorrecta: La gastroparesia diabética causa desincronización entre la digestión de alimentos y la acción de la insulina prandial (saciedad precoz, náuseas, vómitos de alimentos no digeridos), pero no genera lesiones anatómicas palpables en la grasa subcutánea."
+  },
+  {
+    "id": "B3-Q13",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.04.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Mujer de 71 años, diabética tipo 2 e hipertensa, es traída al Servicio de Urgencias en ambulancia tras ser hallada por familiares en el suelo de su domicilio en estado de sopor profundo y con incontinencia urinaria. Su hija refiere que durante la última semana la paciente presentó disuria, polaquiuria, fiebre intermitente y decaimiento progresivo. Al examen físico: en sopor profundo, responde solo a estímulos dolorosos con quejidos (Glasgow 10). Mucosas secas, signo del pliegue positivo, globos oculares hipotónicos. Signos vitales: PA 84/50 mmHg, FC 118 lpm regular, FR 18 rpm (sin respiración de Kussmaul), SatO2 96% ambiental, T° 38.2 °C axilar. Laboratorio de urgencia: Glicemia venosa 920 mg/dL, Gases venosos con pH 7.34, pCO2 38 mmHg, Bicarbonato 21 mEq/L. Electrolitos: Sodio plasmático 148 mEq/L, Potasio 4.9 mEq/L, Cloro 110 mEq/L. BUN 64 mg/dL, Creatinina 2.3 mg/dL. Orina completa: Glucosuria masiva (> 1.000 mg/dL), cetonuria negativa, leucocitos 50 por campo, nitritos positivos. ¿Cuál es el diagnóstico metabólico fundamental y cuál es el valor exacto de la osmolaridad plasmática efectiva en esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cetoacidosis diabética severa precipitada por shock séptico; osmolaridad plasmática efectiva de 320 mOsm/kg"
+      },
+      {
+        "id": "B",
+        "text": "Estado Hiperglicémico Hiperosmolar; osmolaridad plasmática efectiva de 347 mOsm/kg"
+      },
+      {
+        "id": "C",
+        "text": "Síndrome urémico terminal con acidosis mixta; osmolaridad plasmática efectiva de 295 mOsm/kg"
+      },
+      {
+        "id": "D",
+        "text": "Cetoacidosis diabética euglicémica por urosepsis; osmolaridad plasmática efectiva de 370 mOsm/kg"
+      },
+      {
+        "id": "E",
+        "text": "Accidente cerebrovascular isquémico agudo con hiperglicemia reactiva; osmolaridad efectiva de 310 mOsm/kg"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. El cuadro cumple rigurosamente con todos los criterios diagnósticos del Estado Hiperglicémico Hiperosmolar (EHH):\n1. Hiperglicemia masiva (> 600 mg/dL): en este caso 920 mg/dL.\n2. Ausencia de cetoacidosis significativa: pH venoso > 7.30 (7.34), bicarbonato > 18 mEq/L (21 mEq/L), cetonuria negativa y Anion Gap normal (148 - [110 + 21] = 17 mEq/L, leve aumento proporcional a la falla renal prerrenal).\n3. Ausencia de patrón respiratorio acidótico de Kussmaul.\n4. Compromiso neurológico severo (sopor profundo) directamente atribuible a la hiperosmolaridad extrema y deshidratación severa (déficit de 8 a 12 litros de agua) secundaria a una infección del tracto urinario baja/alta no tratada.\nLa Osmolaridad Plasmática Efectiva (o tonicidad efectiva) mide los solutos que no atraviesan libremente las membranas y que extraen agua de las neuronas, calculándose mediante la fórmula estandarizada:\nOsmolaridad efectiva = 2 * [Sodio+] + ([Glicemia en mg/dL] / 18)\nOsmolaridad efectiva = 2 * 148 + (920 / 18) = 296 + 51.11 = 347.1 mOsm/kg (redondeado a 347 mOsm/kg).\nUn valor superior a 320 mOsm/kg es el criterio diagnóstico definitorio de EHH.\n(Nota: La urea o BUN no se suma en la osmolaridad efectiva porque es un osmol inefectivo que difunde libremente por los tejidos).\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: La paciente no tiene cetoacidosis; su pH es 7.34 (CAD requiere pH < 7.30) y las cetonas urinarias son negativas; además el cálculo de 320 mOsm/kg es numéricamente erróneo.\n- Opción C es incorrecta: La paciente tiene una falla renal prerrenal aguda por deshidratación masiva (BUN 64 con Cr 2.3), no un síndrome urémico crónico terminal (que cursa con acidosis severa y anemia normocítica).\n- Opción D es incorrecta: La CAD euglicémica requiere acidosis metabólica severa, cetonemia/cetonuria fuertemente positiva y niveles de glucosa engañosamente bajos (< 200-250 mg/dL), lo contrario a los 920 mg/dL sin cetonas de esta paciente.\n- Opción E es incorrecta: El deterioro neurológico se correlaciona con la hipertonicidad extrema (> 340 mOsm/kg produce estupor y coma metabólico); no hay signos de focalización motora que justifiquen un ACV primario."
+  },
+  {
+    "id": "B3-Q14",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.04.1.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y GES Enfermedad Renal Crónica"
+    },
+    "stem": "Hombre de 51 años con diagnóstico reciente de diabetes mellitus tipo 2 hace 3 meses en tratamiento con metformina 850 mg cada 12 horas. Al control en CESFAM se constata asintomático y normotenso (PA 122/76 mmHg). Como parte de su tamizaje inicial de complicaciones microvasculares se realiza una Razón Albúmina/Creatinina (RAC) en la primera orina de la mañana, arrojando un resultado de 160 mg/g. El paciente no presenta disuria ni fiebre, pero menciona que el día anterior al examen corrió una carrera de 15 kilómetros y tuvo relaciones sexuales. La orina completa no muestra leucocitos ni hematíes, y la creatinina plasmática es de 0.8 mg/dL (TFGe 98 mL/min/1.73m²). Según las directrices técnicas del MINSAL y consensos internacionales (ADA/KDIGO), ¿cuál es la conducta diagnóstica correcta que debe seguir el médico tratante antes de confirmar nefropatía diabética e iniciar fármacos nefroprotectores?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iniciar de inmediato Enalapril 20 mg cada 12 horas asumiendo que un valor único sobre 30 mg/g confirma el diagnóstico de certeza"
+      },
+      {
+        "id": "B",
+        "text": "Repetir la medición de RAC en 1 a 2 muestras adicionales durante los próximos 3 a 6 meses, asegurando reposo físico previo para descartar falsos positivos transitorios"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar una ecografía renal urgente con biopsia percutánea para documentar glomeruloesclerosis nodular de Kimmelstiel-Wilson"
+      },
+      {
+        "id": "D",
+        "text": "Indicar recolección de orina de 24 horas para medir proteinuria total con clearence de inulina"
+      },
+      {
+        "id": "E",
+        "text": "Descartar daño renal diabético asumiendo que el resultado fue exclusivamente un artefacto muscular sin valor patológico"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y refleja la regla de oro del tamizaje de nefropatía diabética. La Razón Albúmina/Creatinina (RAC) en una muestra aislada de la primera orina de la mañana es la prueba de elección para el tamizaje anual de daño renal en pacientes con diabetes (se inicia al diagnóstico en DM2 y a los 5 años en DM1). Un valor entre 30 y 299 mg/g se clasifica como albuminuria moderadamente aumentada (antiguamente denominada microalbuminuria, categoría A2 de KDIGO). Sin embargo, la excreción urinaria de albúmina presenta una alta variabilidad biológica intraindividual y se eleva transitoriamente ante múltiples factores de confusión: ejercicio físico intenso o vigoroso en las últimas 24 a 48 horas, infecciones febriles, infección urinaria, actividad sexual reciente, descompensación hiperglicémica aguda, insuficiencia cardíaca descompensada o crisis hipertensiva. Por esta razón, las guías ministeriales (MINSAL) y las guías internacionales (ADA y KDIGO) establecen formalmente que el diagnóstico de albuminuria persistente EXIGE CONFIRMARSE CON AL MENOS 2 DE 3 MUESTRAS POSITIVAS (RAC ≥ 30 mg/g) obtenidas en un periodo de 3 a 6 meses, habiendo descartado los factores de confusión transitorios (como el ejercicio extenuante de 15 km de este paciente). Solo una vez confirmada la persistencia de la albuminuria se instaura la terapia nefroprotectora con IECA o ARA-II (incluso en normotensos) y un iSGLT2.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: Iniciar tratamiento farmacológico crónico con dosis altas de IECA basado en una única determinación con un factor de confusión evidente (carrera de 15 km previa) es una mala práctica clínica por riesgo de sobrediagnóstico y efectos adversos innecesarios.\n- Opción C es incorrecta: La biopsia renal está totalmente fuera de lugar; la nefropatía diabética es un diagnóstico clínico-biológico y solo se biopsia ante datos atípicos de glomerulopatía primaria (sedimento urinario activo con cilindros hemáticos, caída brusca del filtrado sin albuminuria previa o proteinuria de rango nefrótico sin retinopatía en DM1).\n- Opción D es incorrecta: La recolección de orina de 24 horas es engorrosa, sufre frecuentes errores de volumen y ha sido reemplazada universalmente por la RAC en orina matinal; el clearence de inulina es una prueba experimental en desuso clínico.\n- Opción E es incorrecta: Descartar el daño renal y no volver a controlar es imprudente, ya que un porcentaje no despreciable de pacientes diabéticos tiene albuminuria real de fondo exacerbada por el ejercicio; la conducta es repetir el examen en condiciones basales estandarizadas."
+  },
+  {
+    "id": "B3-Q15",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+    "perfilCode": "1.04.1.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más"
+    },
+    "stem": "Mujer de 44 años, con antecedentes familiares directos de diabetes tipo 2 (madre y hermana), sedentaria y con sobrepeso (IMC 28.5 kg/m²), asintomática. En su control de medicina preventiva (EMPA) presenta una glicemia venosa de ayuno de 112 mg/dL. Siguiendo el algoritmo de APS, el médico solicita una Prueba de Tolerancia a la Glucosa Oral (PTGO con 75 g de glucosa), la cual informa: glicemia de ayuno basal de 108 mg/dL y glicemia a las 2 horas post-sobrecarga de 168 mg/dL. El examen físico es normal, sin acantosis nigricans, y la presión arterial es de 124/76 mmHg. De acuerdo con los criterios diagnósticos vigentes en Chile (MINSAL / ADA), ¿cuál es el diagnóstico y la conducta médica de primera línea indicada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diabetes Mellitus Tipo 2; notificar al sistema GES N° 2 e iniciar tratamiento farmacológico con metformina dentro de 24 horas"
+      },
+      {
+        "id": "B",
+        "text": "Intolerancia a la Glucosa Oral (Prediabetes); indicar cambios terapéuticos en el estilo de vida (dieta saludable y 150 min/semana de ejercicio aeróbico) y reevaluar en 1 año"
+      },
+      {
+        "id": "C",
+        "text": "Glicemia de ayuno normal con tolerancia normal; dar el alta médica definitiva del programa de salud cardiovascular"
+      },
+      {
+        "id": "D",
+        "text": "Resistencia a la insulina pura; solicitar curva de insulinemia y cálculo obligatorio del índice HOMA-IR antes de intervenir"
+      },
+      {
+        "id": "E",
+        "text": "Diabetes gestacional oculta; derivar de urgencia a gineco-obstetricia para inicio de insulinoterapia"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y refleja la aplicación exacta de los criterios de laboratorio del MINSAL y ADA:\n1. Glicemia de ayuno: 100 a 125 mg/dL define Glicemia de Ayuno Alterada (GAA, una forma de prediabetes). El valor de 108 mg/dL en ayunas confirma GAA.\n2. PTGO a las 2 horas (sobrecarga con 75 g de glucosa anhidra):\n   - < 140 mg/dL: Normal\n   - 140 a 199 mg/dL: Intolerancia a la Glucosa Oral (IGO, prediabetes)\n   - ≥ 200 mg/dL: Diabetes Mellitus\nEl valor post-sobrecarga de 168 mg/dL ubica a la paciente indiscutiblemente en el rango de Intolerancia a la Glucosa Oral (IGO). Por lo tanto, la paciente es portadora de Prediabetes (GAA + IGO). Las guías ministeriales chilenas y los ensayos clínicos mundiales (Diabetes Prevention Program, DPP) establecen que la medida terapéutica inicial de elección y con mayor nivel de evidencia costo-efectiva para revertir este estado y prevenir el desarrollo de DM2 es la modificación intensiva del estilo de vida: plan de alimentación saludable bajo en azúcares refinados y grasas saturadas, reducción del 5 al 7% del peso corporal y al menos 150 minutos semanales de actividad física aeróbica moderada repartida en al menos 3 días, con reevaluación diagnóstica con nueva PTGO o glicemia en 1 año.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: Para el diagnóstico de Diabetes Mellitus se requiere glicemia a las 2 horas de la PTGO ≥ 200 mg/dL, dos glicemias de ayuno ≥ 126 mg/dL, HbA1c ≥ 6.5% o síntomas cardinales con glicemia al azar ≥ 200 mg/dL; la paciente no cumple ninguno de estos criterios y no califica para ingreso a GES N° 2.\n- Opción C es incorrecta: Ambos valores de laboratorio (108 y 168 mg/dL) están francamente elevados por sobre los rangos normales de ayuno (< 100) y postprandial (< 140); otorgar el alta médica es una omisión culpable de prevención cardiovascular.\n- Opción D es incorrecta: Las guías del MINSAL desaconsejan de forma explícita solicitar curva de insulinemia o cálculo de HOMA-IR en la práctica clínica diaria de APS, ya que son pruebas de investigación que carecen de estandarización diagnóstica y no modifican la conducta clínica.\n- Opción E es incorrecta: La paciente no está embarazada; no existe el diagnóstico de diabetes gestacional en una paciente no gestante."
+  },
+  {
+    "id": "B3-Q16",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+    "perfilCode": "1.04.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Mujer de 66 años con diagnóstico de diabetes mellitus tipo 2 desde hace 9 años, con excelente adherencia a Metformina 850 mg cada 8 horas (2.550 mg/día) y Enalapril 10 mg/día. Consulta en su CESFAM por un cuadro de 6 meses de evolución de parestesias distales en ambos pies con sensación de adormecimiento, asociado a astenia progresiva y quejas de fallas de memoria reciente. Al examen físico: palidez mucocutánea leve a moderada. Examen neurológico: disminución marcada de la sensibilidad vibratoria (palestesia) y posicional en ambos tobillos y dedos de los pies, reflejos aquilianos abolidos de forma simétrica y marcha levemente atáxica. Laboratorio: HbA1c 6.7% (excelente control glicémico), Creatinina 0.8 mg/dL (TFGe 86 mL/min/1.73m²). Hemograma: Hemoglobina 10.2 g/dL, Hematocrito 31%, Volumen Corpuscular Medio (VCM) 106 fL (macrocitosis franca), plaquetas y leucocitos normales. ¿Cuál es el mecanismo fisiopatológico adverso más probable que explica tanto la anemia macrocítica como el cuadro neurológico de esta paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polineuropatía diabética simétrica distal por microangiopatía crónica no dependiente de fármacos"
+      },
+      {
+        "id": "B",
+        "text": "Déficit de Vitamina B12 (cobalamina) por alteración de su absorción ileal dependiente de calcio inducida por metformina crónica"
+      },
+      {
+        "id": "C",
+        "text": "Toxicidad medular directa de la metformina con supresión de precursores normoblásticos"
+      },
+      {
+        "id": "D",
+        "text": "Déficit de ácido fólico secundario a interacción farmacológica competitiva con el enalapril a nivel duodenal"
+      },
+      {
+        "id": "E",
+        "text": "Mielinolisis pontina central subclínica inducida por fluctuaciones glucémicas crónicas"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y destaca una de las reacciones adversas farmacológicas más importantes y subdiagnosticadas en diabetes. La metformina es el fármaco de primera línea universal en DM2, pero su uso prolongado (> 3 a 5 años) y a dosis plenas (≥ 2.000 mg/día) se asocia a una disminución progresiva de los niveles séricos de Vitamina B12 (cobalamina) en hasta un 10 a 30% de los pacientes. El mecanismo fisiopatológico consiste en que la metformina altera la membrana celular del íleon terminal bloqueando el proceso de endocitosis dependiente de calcio del complejo factor intrínseco-vitamina B12. La deficiencia de cobalamina afecta la síntesis de ADN y mielina, manifestándose clínicamente por:\n1. Anemia megaloblástica macrocítica (anemia con VCM > 100 fL, en este caso 106 fL).\n2. Degeneración combinada subaguda / neuropatía periférica por desmielinización de los cordones posteriores de la médula espinal (pérdida de la sensibilidad vibratoria o palestesia, abolición de reflejos osteotendinosos y ataxia sensitiva) y síntomas neuropsiquiátricos (olvidos, bradipsiquia).\nFrecuentemente se confunde este cuadro con una neuropatía diabética primaria; sin embargo, el excelente control glicémico sostenido (HbA1c 6.7%) sumado a la anemia macrocítica orientan directamente a la hipovitaminosis B12 inducida por metformina. La conducta médica es solicitar niveles de vitamina B12 sérica e iniciar suplementación intramuscular u oral de cobalamina.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: La polineuropatía diabética distal es una complicación microvascular metabólica que se asocia a mal control glucémico de larga data (HbA1c elevada) y afecta típicamente fibras finas termoalgésicas; crucialmente, NUNCA produce anemia macrocítica ni hipersegmentación de neutrófilos.\n- Opción C es incorrecta: La metformina no ejerce toxicidad medular directa ni aplasia eritroide; la anemia es secundaria al déficit carencial del cofactor vitamínico.\n- Opción D es incorrecta: El enalapril no interfiere con la absorción ni el metabolismo del ácido fólico a nivel duodenal.\n- Opción E es incorrecta: La mielinolisis pontina central es una complicación secundaria a la corrección excesivamente rápida de hiponatremia, no del uso de metformina ni de la diabetes controlada."
+  },
+  {
+    "id": "B3-Q17",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+    "perfilCode": "1.04.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Hombre de 22 años con diabetes mellitus tipo 1 desde hace 5 años, en tratamiento con esquema intensificado: Insulina NPH 16 UI antes del desayuno y 18 UI a las 22:30 hrs (bedtime), más Insulina Lispro prandial antes de las comidas principales. Consulta a control médico porque en las últimas dos semanas se despierta reiteradamente con cefalea matinal, cansancio, sensación de pesadez y sudoración profusa nocturna que humedece la ropa de cama. Sus controles de glicemia capilar en ayunas al despertar (07:30 AM) han fluctuado constantemente entre 240 y 290 mg/dL. El resto del día sus glicemias pre y postprandiales se encuentran en rango óptimo (90 a 140 mg/dL). Siguiendo las instrucciones del médico, el paciente se midió la glicemia capilar a las 03:00 de la madrugada durante dos noches consecutivas, registrando 48 mg/dL y 52 mg/dL. ¿Cuál es el diagnóstico de este patrón glicémico y cuál es la modificación terapéutica precisa que debe indicarse?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fenómeno del Alba; aumentar la dosis de insulina NPH nocturna a 22 UI al acostarse"
+      },
+      {
+        "id": "B",
+        "text": "Efecto Somogyi; disminuir la dosis de insulina NPH nocturna en 2 a 4 UI al acostarse"
+      },
+      {
+        "id": "C",
+        "text": "Resistencia insulínica nocturna al Lispro; agregar una dosis de corrección de insulina rápida a las 03:00 AM"
+      },
+      {
+        "id": "D",
+        "text": "Insuficiencia de la dosis matinal de NPH; suspender la NPH nocturna y administrar 34 UI matinales en dosis única"
+      },
+      {
+        "id": "E",
+        "text": "Transgresión alimentaria nocturna oculta; mantener la misma dosis de insulina e indicar colación hiperproteica nocturna"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta. El paciente presenta un Efecto Somogyi clásico (hiperglicemia de rebote post-hipoglicemia). La fisiopatología se explica porque la dosis de insulina NPH nocturna (18 UI a las 22:30 hrs) es excesiva y alcanza su pico de acción máximo entre las 03:00 y las 05:00 de la madrugada, coincidiendo con el nadir circadiano y provocando una hipoglicemia nocturna sintomática o inadvertida (documentada en 48 y 52 mg/dL a las 03:00 AM, acompañada de cefalea matinal y sudoración nocturna). Esta hipoglicemia desencadena una potente respuesta contrarreguladora fisiológica mediada por la secreción masiva de catecolaminas, glucagón, cortisol y hormona de crecimiento, lo que estimula una intensa gluconeogénesis y glucogenólisis hepática que rebota en una hiperglicemia matinal severa (240 a 290 mg/dL al despertar). La única forma clínica de diferenciar el Efecto Somogyi del Fenómeno del Alba (hiperglicemia matinal por aumento fisiológico de GH y cortisol pero con glicemia de las 03:00 AM normal o alta > 100 mg/dL) es la medición de la glicemia capilar nocturna a las 03:00 AM. Al constatarse hipoglicemia (< 70 mg/dL), la conducta médica obligatoria y salvadora es REDUCIR la dosis de insulina basal nocturna en 2 a 4 UI (o un 10 a 20%, bajando a 14-16 UI) y/o ajustar una pequeña colación antes de dormir. Si el médico aumentara la insulina creyendo que se trata de falta de dosis, profundizará la hipoglicemia nocturna con riesgo de coma, daño neurológico anóxico o muerte súbita nocturna.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: El Fenómeno del Alba cursa con glicemias a las 03:00 AM normales o elevadas (> 100 mg/dL); indicar un aumento de la insulina nocturna a un paciente con glicemia de 48 mg/dL a las 03:00 AM es una negligencia médica con riesgo de muerte en la cama.\n- Opción C es incorrecta: Administrar un bolo de insulina ultrarrápida (Lispro) a las 03:00 AM en un paciente que ya se encuentra en hipoglicemia severa (48 mg/dL) desencadenaría un coma hipoglicémico irreversible.\n- Opción D es incorrecta: Concentrar toda la dosis de insulina NPH en la mañana (34 UI) deja al paciente con DM1 completamente desprovisto de insulina basal durante la noche, provocando cetosis nocturna e hiperglicemia sostenida.\n- Opción E es incorrecta: No se trata de un exceso de comida, pues el paciente presenta hipoglicemia real documentada en la madrugada que demuestra sobredosis relativa de insulina basal."
+  },
+  {
+    "id": "B3-Q18",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "topicTitle": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria"
+    },
+    "stem": "Hombre de 23 años con diabetes mellitus tipo 1 conocida ingresa a la Unidad de Paciente Crítico cursando una cetoacidosis diabética severa precipitada por la omisión involuntaria de insulina tras el extravío de su dispositivo de administración. Al ingreso se encuentra deshidratado, taquipneico con respiración profunda (FR 28 rpm), PA 92/58 mmHg y FC 116 lpm. Se inicia de inmediato expansión de volumen con Suero Fisiológico al 0.9% (1.500 mL en la primera hora). Los exámenes de laboratorio iniciales muestran: Glicemia venosa 460 mg/dL, Gases venosos con pH 7.14, Bicarbonato 9 mEq/L, pCO2 24 mmHg, Sodio plasmático 132 mEq/L, Potasio plasmático 3.1 mEq/L, Cloro 96 mEq/L y Cetonemia 5.4 mmol/L. El médico residente se dispone a indicar un bolo de Insulina Cristalina a 0.1 UI/kg seguido de infusión continua. De acuerdo con las guías de práctica clínica internacionales y normativas ministeriales de urgencia hospitalaria, ¿cuál es la conducta correcta respecto a la administración de insulina y electrolitos en este momento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar de inmediato el bolo de insulina para frenar la cetogénesis hepática y postergar el aporte de potasio hasta que orine"
+      },
+      {
+        "id": "B",
+        "text": "Suspender temporalmente el inicio de la insulina y administrar reposición intravenosa de Cloruro de Potasio (20 a 30 mEq/hora) hasta constatar una kalemia > 3.3 mEq/L"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar la infusión de insulina al doble de la dosis habitual (0.2 UI/kg/h) asociada a bicarbonato de sodio isotónico en bolo"
+      },
+      {
+        "id": "D",
+        "text": "Mantener la insulina suspendida e indicar hemodiálisis de urgencia inmediata para remover los cetoácidos"
+      },
+      {
+        "id": "E",
+        "text": "Administrar una ampolla de gluconato de calcio al 10% endovenoso para estabilizar la membrana miocárdica antes de iniciar la insulina"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La opción B es la respuesta correcta y representa una de las reglas de seguridad más inviolables de la medicina de urgencia y cuidados críticos en diabetes. En el protocolo de manejo de la Cetoacidosis Diabética (CAD) y del Estado Hiperglicémico Hiperosmolar (EHH), la regla perentoria respecto al potasio establece:\n- Si la kalemia inicial es < 3.3 mEq/L, ESTÁ ESTRICTAMENTE CONTRAINDICADO INICIAR INSULINOTERAPIA.\nLa insulina promueve la entrada masiva de potasio al compartimento intracelular a través de la bomba Na+/K+-ATPasa; al mismo tiempo, la reanimación con fluidos diluye el potasio plasmático y restablece la perfusión renal, aumentando la excreción tubular de potasio. Si se administra insulina en un paciente con potasio basal de 3.1 mEq/L, la kalemia colapsará velozmente a niveles inferiores a 2.0–2.5 mEq/L, desencadenando arritmias ventriculares letales (fibrilación ventricular, taquicardia ventricular polimórfica en Torsades de Pointes) y parálisis de los músculos respiratorios con muerte inmediata. La conducta obligada es suspender y posponer el inicio de la insulina, continuar la fluidoterapia isotónica y administrar cloruro de potasio intravenoso a dosis de 20 a 30 mEq por hora (añadido a los fluidos de hidratación) hasta constatar documentalmente que el potasio sérico ha superado los 3.3 mEq/L. Una vez que la kalemia se encuentra en rango seguro (≥ 3.3 mEq/L), se procede a iniciar la infusión continua de insulina cristalina manteniendo aportes de potasio de mantención (20-30 mEq/L de fluido) para sostener niveles entre 4.0 y 5.0 mEq/L.\n\nAnálisis de las opciones incorrectas:\n- Opción A es incorrecta: Administrar insulina sin antes corregir la hipokalemia < 3.3 mEq/L es una causa directa de muerte yatrogénica por paro cardíaco hipokalémico en reanimación.\n- Opción C es incorrecta: Duplicar la dosis de insulina agrava exponencialmente la translocación intracelular de potasio hacia el miocardio; además, el bicarbonato de sodio está contraindicado con pH > 6.9-7.0 y su administración alcaliniza el plasma, desplazando aún más potasio hacia el intracelular.\n- Opción D es incorrecta: La hemodiálisis no es el tratamiento de la cetoacidosis diabética no complicada; la CAD se resuelve con expansión volumétrica, potasio e insulina.\n- Opción E es incorrecta: El gluconato de calcio se utiliza para tratar la toxicidad por hiperkalemia (potasio alto), no para la hipokalemia; carece de utilidad terapéutica en este contexto."
+  }
+]

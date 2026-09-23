@@ -1,0 +1,24 @@
+{
+  "_comment": "Patrones de examen minados a mano del banco real por tema. NO vive en books/ — el libro no se toca. perfilCodeReal es el código V3 oficial correcto (el perfilCode embebido en el dataset del libro está mal-etiquetado para varios temas de este tomo; ver books/scripts/dataset_endocrinologia_bloque_*.cjs vs eunacom-master-curriculum/perfil_v3_full.json specKey 1.03).",
+
+  "1.1": {
+    "perfilCodeReal": "1.03.4.003",
+    "summary": "TSH primero, siempre. La combinación TSH+T4L (no la T4L sola) es la que define el patrón — y en el paciente crítico de UCI, T3 baja con TSH/T4L normales NUNCA se trata con levotiroxina.",
+    "occurrences": [
+      "Paciente grave en UCI (sepsis, shock, pancreatitis grave) + T3 muy baja + TSH y T4L normales o levemente bajas → Síndrome del Eutiroideo Enfermo. La trampa repetida: ofrecer 'iniciar levotiroxina' como opción — siempre es la incorrecta.",
+      "TSH elevada + T4L NORMAL (no baja) → hipotiroidismo subclínico, no primario. La pregunta suele ofrecer 'hipotiroidismo primario' como distractor más frecuente.",
+      "Confirmado en 3 citas reales del libro: EUNACOM Diciembre 2017 (Q#18), Julio 2021 (Q#42), Julio 2023 (Q#15) — todas presentan el mismo par de valores (TSH, T4L) y piden clasificar el patrón, no calcular nada."
+    ]
+  },
+
+  "7.9": {
+    "perfilCodeReal": "1.03.1.021",
+    "summary": "TSH decide el camino ANTES de mirar la ecografía: TSH suprimida → cintigrama (nódulo caliente = no se puncional); TSH normal/alta → ecografía TI-RADS → PAAF solo si el tamaño supera el umbral de ESA categoría — nunca se punciona bajo 1 cm sin factores de riesgo, sin importar cuán sospechosa se vea la imagen.",
+    "occurrences": [
+      "15 preguntas reales clasificadas bajo este código (2013-2025) — la cobertura más alta de todo el tomo de Endocrinología.",
+      "Patrón A (la mitad de las preguntas): TSH suprimida + nódulo → la respuesta correcta es siempre 'cintigrama tiroideo', nunca PAAF directa (EUNACOM Julio 2022 Q#16 y varias del banco clasificador coinciden en este mismo giro).",
+      "Patrón B: nódulo TI-RADS 4-5 pero bajo el umbral de tamaño de su categoría (ej. TR5 de 0.7 cm) → la respuesta correcta es 'seguimiento ecográfico', NO puncionar — es la trampa más repetida del tema (EUNACOM Diciembre 2019 Q#08).",
+      "Patrón C: Bethesda IV en la citología → la respuesta es 'hemitiroidectomía diagnóstica', nunca tiroidectomía total de entrada ni observación (EUNACOM Diciembre 2021 Q#44)."
+    ]
+  }
+}

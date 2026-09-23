@@ -1,0 +1,72 @@
+{
+  "id": "gastro-01-pathway",
+  "title": "Algoritmo de Decisión: ERGE y Esófago de Barrett",
+  "steps": [
+    {
+      "type": "entry",
+      "label": "PACIENTE CON SOSPECHA DE ERGE O SÍNTOMAS TÍPICOS",
+      "duration": 30
+    },
+    {
+      "type": "decision",
+      "label": "¿Presenta banderas rojas o edad ≥ 50 años?",
+      "duration": 60,
+      "details": [
+        "Banderas rojas: Disfagia, baja de peso, anemia, hematemesis, melena",
+        "Edad: ≥ 50 años aumenta riesgo de Barrett y adenocarcinoma"
+      ]
+    },
+    {
+      "type": "branch",
+      "duration": 90,
+      "yes": [
+        "EDA inmediata con biopsias",
+        "Determinar presencia de Barrett o erosiones",
+        "Obtener estadio de displasia si aplica"
+      ],
+      "no": [
+        "Síntomas típicos + <50 años = Diagnóstico CLÍNICO",
+        "Prueba empírica con IBP 4-8 semanas",
+        "Evaluar respuesta (mejoría >75%)"
+      ]
+    },
+    {
+      "type": "decision",
+      "label": "Resultado de endoscopía",
+      "duration": 60,
+      "details": [
+        "Barrett: Metaplasia intestinal del esófago distal",
+        "Erosiones grado LA",
+        "Esófago normal"
+      ]
+    },
+    {
+      "type": "branch",
+      "duration": 90,
+      "yes": [
+        "Barrett CON DISPLASIA:",
+        "→ Referencia urgente a GI especialista",
+        "→ Terapia endoscópica o cirugía según grado"
+      ],
+      "no": [
+        "Barrett SIN DISPLASIA:",
+        "→ IBP continuo + vigilancia cada 2-3 años",
+        "→ Cirugía CONTRAINDICADA"
+      ]
+    },
+    {
+      "type": "conduct",
+      "label": "CONDUCTA FINAL: Manejo y Seguimiento",
+      "duration": 60,
+      "warning": false
+    }
+  ],
+  "talkingPoints": [
+    "La incompetencia de la barrera antirreflujo es el defecto primario en ERGE",
+    "Las relajaciones transitorias del esfínter explican >90% de los episodios",
+    "La hernia hiatal agrava el cuadro al desalinear el esfínter con el diafragma crural",
+    "En pacientes <50 sin banderas rojas, el diagnóstico es clínico: no necesitan EDA inicial",
+    "El Barrett sin displasia requiere IBP continuo + vigilancia, NUNCA cirugía",
+    "La disfagia (independiente del tipo de síntoma) obliga a EDA para descartar cáncer"
+  ]
+}

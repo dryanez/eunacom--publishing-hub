@@ -1,0 +1,347 @@
+{
+  "id": "intro-01",
+  "topicLabel": "0.0",
+  "title": "EUNACOM 101: Inducción Oficial, Perfil V3 y Estrategia 2026",
+  "perfilCodes": [
+    "Marco Normativo General EUNACOM"
+  ],
+  "tier": 3,
+  "realQuestionCount": 180,
+  "slideCount": 14,
+  "slides": [
+    {
+      "type": "cover",
+      "nav": "Inducción & Portada",
+      "kicker": "INDUCCIÓN OFICIAL · EUNACOM 2026",
+      "title": "EUNACOM 101: Inducción Oficial, Perfil V3 y Estrategia 2026",
+      "subtitle": "Estructura de las 180 preguntas, distribución por especialidad, taxonomía de códigos ASOFAMECh y método de estudio de alto rendimiento.",
+      "notes": "Bienvenidos a la inducción oficial del EUNACOM 2026. En esta sesión abordaremos todo lo que necesitas saber para enfrentar el examen: la estructura de las 180 preguntas, cómo se dividen por especialidad, cómo auditar el Perfil V3 de ASOFAMECh y las estrategias de alto rendimiento para asegurar tu aprobación. Comencemos."
+    },
+    {
+      "type": "bento",
+      "nav": "Marco Legal",
+      "title": "¿Qué es el EUNACOM y Cuál es su Marco Legal?",
+      "tiles": [
+        {
+          "title": "Marco Normativo en Chile",
+          "bullets": [
+            "[MARCO LEGAL CHILENO] Ley 20.261: Es el Examen Único Nacional de Conocimientos de Medicina, obligatorio por ley para ejercer en el sistema público de salud (SNSS), consultorios municipales (CESFAM/SAPU) y emitir licencias médicas.",
+            "[CONVENIOS FONASA] Requisito de contratación: Los médicos que deseen atender por Fonasa en el sistema privado o postular a cargos públicos deben tener el EUNACOM aprobado y revalidado ante el Ministerio de Salud.",
+            "[BECAS Y CONISS] Factor determinante de puntaje: Para postular al concurso nacional de especialidades médicas (CONISS) o cupos en etapa de destinación y formación (EDF), el puntaje ponderado del EUNACOM define la posición de selección."
+          ]
+        }
+      ],
+      "notes": "Comencemos entendiendo la dimensión legal e institucional del EUNACOM. Regulado por la Ley 20.261, no es solo una prueba académica; es el estándar legal obligatorio para ser contratado en cualquier hospital o consultorio del sistema público chileno, así como para atender pacientes por Fonasa y emitir licencias médicas. Asimismo, el puntaje obtenido es el factor más competitivo para acceder a una beca de especialidad médica en el concurso nacional CONISS o en el programa de Médicos Generales de Zona."
+    },
+    {
+      "type": "bento",
+      "nav": "Estructura Operativa",
+      "title": "Estructura Operativa y Reglas del Examen",
+      "tiles": [
+        {
+          "title": "Reglas de Rendición",
+          "bullets": [
+            "[FORMATO DE 180 PREGUNTAS] Selección múltiple: Cada ítem consta de una viñeta clínica y 5 alternativas de respuesta (A, B, C, D, E) con solo una opción correcta respaldada por guías oficiales.",
+            "[DOS BLOQUES DE 105 MINUTOS] Ritmo de respuesta: La prueba se divide en dos secciones de 90 preguntas cada una, con receso intermedio. Dispones de exactamente 70 segundos en promedio por cada pregunta.",
+            "[UMBRAL DE APROBACIÓN] 51% mínimo legal: El porcentaje de aprobación fijado por ASOFAMECh es de 51 puntos, pero para postular con éxito a becas de especialidad se recomienda superar el 75% ponderado."
+          ]
+        }
+      ],
+      "notes": "La prueba consta de 180 preguntas de opción múltiple distribuidas en dos bloques de 90 preguntas, con una duración de 105 minutos por bloque. Esto significa que dispones de exactamente 70 segundos por pregunta. La gestión del tiempo es crítica: las preguntas están redactadas como casos clínicos reales con antecedentes, signos vitales y datos de laboratorio. El umbral legal para aprobar es del 51%, pero quienes aspiran a una beca de especialidad deben apuntar a rendir sobre el 75%."
+    },
+    {
+      "type": "table",
+      "nav": "Distribución Oficial",
+      "title": "Distribución Oficial de Preguntas por Especialidad",
+      "subtitle": "Distribución ministerial de las 180 preguntas del banco oficial ASOFAMECh.",
+      "headers": [
+        "Área Temática",
+        "Preguntas Oficiales",
+        "Porcentaje del Total",
+        "Impacto en el Puntaje"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Medicina Interna",
+            "54 preguntas",
+            "30.0%",
+            "Bloque nuclear del examen"
+          ],
+          "highlight": true
+        },
+        {
+          "cells": [
+            "Pediatría",
+            "36 preguntas",
+            "20.0%",
+            "Alta predictibilidad y guías claras"
+          ],
+          "highlight": true
+        },
+        {
+          "cells": [
+            "Cirugía General",
+            "27 preguntas",
+            "15.0%",
+            "Abdomen agudo, trauma y heridas"
+          ],
+          "highlight": false
+        },
+        {
+          "cells": [
+            "Ginecología y Obstetricia",
+            "27 preguntas",
+            "15.0%",
+            "Patología obstétrica y cribado GES"
+          ],
+          "highlight": false
+        },
+        {
+          "cells": [
+            "Salud Pública y Epidemiología",
+            "18 preguntas",
+            "10.0%",
+            "Máxima rentabilidad por página leída"
+          ],
+          "highlight": true
+        },
+        {
+          "cells": [
+            "Psiquiatría",
+            "18 preguntas",
+            "10.0%",
+            "Psicofármacos y urgencias de salud mental"
+          ],
+          "highlight": false
+        }
+      ],
+      "notes": "Esta matriz resume la distribución oficial de las 180 preguntas del examen. Medicina Interna concentra 54 preguntas, lo que representa el 30% del total. Le sigue Pediatría con 36 preguntas, Cirugía con 27, Obstetricia y Ginecología con 27, y finalmente Salud Pública y Psiquiatría con 18 preguntas cada una. Observen que Medicina Interna y Pediatría representan juntas la mitad exacta de todo el examen. Por su parte, Salud Pública es el área de mayor rentabilidad por página de estudio, con temas muy acotados y preguntas directas."
+    },
+    {
+      "type": "bento",
+      "nav": "Novedades 2026",
+      "title": "Novedades y Enfoque Clínico del Ciclo 2026",
+      "tiles": [
+        {
+          "title": "Cambios Clave",
+          "bullets": [
+            "[ACTUALIZACIÓN GES 2026] Protocolos MINSAL vigentes: Nuevas guías clínicas para patologías de alta prevalencia en Chile (Cáncer gástrico, ERGE, Cetoacidosis, ACV, HTA, Diabetes y Depresión).",
+            "[FOCO EN RESOLUTIVIDAD APS] Énfasis en Atención Primaria: ASOFAMECh penaliza fuertemente derivar pacientes que la norma exige manejar en CESFAM o indicar exámenes que no existen en el nivel primario.",
+            "[ERRADICACIÓN DE MEMORIZACIÓN PURA] Viñetas de toma de decisiones: Se eliminan preguntas de datos aislados o anatomía básica; el 95% de los ítems son viñetas clínicas de conducta médica directa."
+          ]
+        }
+      ],
+      "notes": "Para el ciclo 2026, el EUNACOM ha consolidado una transformación pedagógica orientada a la práctica médica real en Chile. Primero, se incorporan las nuevas guías clínicas GES vigentes del Ministerio de Salud. Segundo, el foco principal está en la resolutividad del médico general en la APS: la comisión busca verificar si el médico sabe qué hacer en un consultorio o en un SAPU. Y tercero, desaparecen las preguntas de memoria enciclopédica; cada pregunta evalúa qué conducta tomar ante un paciente real."
+    },
+    {
+      "type": "bento",
+      "nav": "Taxonomía Códigos",
+      "title": "Cómo Interpretar los Códigos del Perfil V3 de ASOFAMECh",
+      "tiles": [
+        {
+          "title": "Estructura de Códigos",
+          "bullets": [
+            "[TAXONOMÍA ASOFAMECh] Código de cuatro niveles: Estructura jerárquica (ej: 1.06.1.027). El 1 indica Medicina Interna, el 06 Gastroenterología, el 1 Patología específica y el 027 la patología individual.",
+            "[AUDITORÍA DE PREGUNTAS] Asociación formal obligatoria: La comisión evaluadora debe justificar cada pregunta del examen asociándola formalmente a un código del Perfil V3.",
+            "[OBJETIVOS MINISTERIALES] Ficha técnica oficial: Cada código define explícitamente el alcance que debe dominar el médico general en epidemiología, sospecha, confirmación y tratamiento."
+          ]
+        }
+      ],
+      "notes": "El Perfil V3 de Conocimientos de ASOFAMECh es el documento oficial que rige el examen. Sus códigos estructurados, como el 1.06.1.027 para ERGE, no son números al azar: el primer dígito corresponde a la especialidad madre, el segundo a la subespecialidad y los siguientes a la entidad nosológica. Ninguna pregunta del examen puede formularse si no está amparada por un código del perfil. En nuestro Hub, cada clase está indexada con su código oficial para que audites exactamente lo que ASOFAMECh puede preguntarte."
+    },
+    {
+      "type": "table",
+      "nav": "Niveles de Competencia",
+      "title": "Niveles de Exigencia y Competencia Legal en Chile",
+      "subtitle": "Matriz de competencias legales de ASOFAMECh para médicos generales en Chile.",
+      "headers": [
+        "Nivel de Competencia",
+        "Definición Legal en Chile",
+        "Conducta Exigida en el Examen",
+        "Error Frecuente"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "Diagnóstico Específico",
+            "Sospecha y confirmación con certeza clínica o paraclínica",
+            "Indicar el examen de elección o regla patognomónica",
+            "Confundir examen inicial con estándar de oro"
+          ],
+          "highlight": false
+        },
+        {
+          "cells": [
+            "Tratamiento Inicial",
+            "Manejo de urgencias y estabilización previa a traslado",
+            "Reanimación ABC, fluidos y fármacos de primera línea EV",
+            "Derivar al paciente inestable sin estabilizar primero"
+          ],
+          "highlight": true
+        },
+        {
+          "cells": [
+            "Manejo Completo en APS",
+            "Diagnóstico, tratamiento ambulatorio y seguimiento en CESFAM",
+            "Prescribir esquema terapéutico completo y educar al paciente",
+            "Interconsultar innecesariamente al especialista"
+          ],
+          "highlight": true
+        },
+        {
+          "cells": [
+            "Derivación Oportuna",
+            "Reconocimiento de banderas rojas y criterios de traslado",
+            "Identificar el criterio de urgencia y gestionar el traslado protocolizado",
+            "Retener al paciente crítico en el primer nivel"
+          ],
+          "highlight": false
+        }
+      ],
+      "notes": "Esta tabla es la piedra angular para no caer en las trampas del examen. ASOFAMECh clasifica cada enfermedad en cuatro niveles de competencia. El nivel de Tratamiento Inicial exige estabilizar al paciente en urgencias antes de cualquier traslado. El nivel de Manejo Completo en APS significa que el médico general debe tratar y seguir la patología en el consultorio; aquí la trampa típica es marcar derivación al especialista, lo cual se califica como incorrecto. Y en el nivel de Derivación Oportuna, la clave es reconocer la bandera roja que obliga al traslado inmediato."
+    },
+    {
+      "type": "figure",
+      "nav": "Algoritmo de Examen",
+      "title": "Algoritmo de Resolución de Preguntas en 60 Segundos",
+      "label": "FIG. 01 · TÉCNICA OFICIAL DE EXAMEN",
+      "caption": "Algoritmo sistemático de lectura y descarte rápido de alternativas EUNACOM.",
+      "svg": "",
+      "steps": [
+        "1. Leer la última frase primero (identificar si preguntan diagnóstico, examen inicial o fármaco)",
+        "2. Escanear la viñeta buscando los datos pivote (edad, antecedentes mórbidos y signos vitales)",
+        "3. Descartar las 2 alternativas extremas y elegir la opción protocolizada en guías GES de Chile"
+      ],
+      "notes": "Frente a una viñeta clínica del EUNACOM, aplicar este algoritmo de 3 pasos ahorra hasta 30 segundos por pregunta. Primero: lee siempre la última frase de la viñeta antes de leer el caso, para saber de antemano si te preguntan el examen de elección, el tratamiento inicial o la conducta de derivación. Segundo: escanea el caso buscando únicamente los datos pivotes, como la edad, factores de riesgo cardiovascular y signos vitales. Tercero: descarta de inmediato las alternativas extremas o no disponibles en Chile y elige la conducta respaldada por las guías ministeriales."
+    },
+    {
+      "type": "bento",
+      "nav": "Rentabilidad de Estudio",
+      "title": "Estrategia de Rentabilidad: ¿Dónde se Ganan los Puntos?",
+      "tiles": [
+        {
+          "title": "Estrategia de Rendimiento",
+          "bullets": [
+            "[ÁREAS DE MÁXIMA RENTABILIDAD] Salud Pública y Pediatría: Tienen temarios breves y altamente predecibles. Estudiar bien PNI, GES, cribado neonatal y diarreas asegura 54 puntos con poco esfuerzo.",
+            "[MEDICINA INTERNA: EL NÚCLEO] Foco en patologías de alta frecuencia: No estudies enfermedades raras de subespecialidad. Domina a la perfección Shock, IRA, ERGE, HDA, Neumonía, Diabetes e Insuficiencia Cardíaca.",
+            "[OBSTETRICIA Y CIRUGÍA] Temas cardinales repetidos: Preeclampsia, metrorragias del tercer trimestre, apendicitis, colecistitis y patología biliar concentran más del 70% de las preguntas de estas áreas."
+          ]
+        }
+      ],
+      "notes": "El error más común de los postulantes es estudiar Medicina Interna como si fuera una subespecialidad, memorizando tratamientos experimentales y descuidando áreas de altísima rentabilidad como Salud Pública y Pediatría. En Salud Pública, con menos de 40 páginas de estudio puedes asegurar 18 preguntas prácticamente idénticas año a año. En Medicina Interna, concéntrate en las 15 patologías que concentran el 80% de las preguntas del banco histórico, que son exactamente las que cubrimos en nuestras Masterclasses."
+    },
+    {
+      "type": "question",
+      "badge": "Pregunta Oficial EUNACOM · Metodología",
+      "nav": "Caso Aplicado 01",
+      "number": 1,
+      "caseText": "Hombre de 58 años, hipertenso en tratamiento con enalapril 20 mg al día. Consulta en CESFAM por dolor epigástrico urente de 2 meses de evolución, que empeora tras las comidas y en decúbito. No presenta disfagia, baja de peso ni vómitos. Examen físico y signos vitales normales.",
+      "question": "¿Cuál es la conducta médica más adecuada para un médico general en APS?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derivar de inmediato a Gastroenterología para evaluación de endoscopía digestiva alta."
+        },
+        {
+          "id": "B",
+          "text": "Indicar prueba terapéutica con omeprazol 20 mg al día por 4 a 8 semanas y medidas antirreflujo."
+        },
+        {
+          "id": "C",
+          "text": "Solicitar pH-metría con impedanciometría de 24 horas ambulatoria."
+        },
+        {
+          "id": "D",
+          "text": "Indicar tratamiento de erradicación de Helicobacter pylori con terapia cuádruple."
+        },
+        {
+          "id": "E",
+          "text": "Solicitar radiografía de esófago, estómago y duodeno con bario."
+        }
+      ],
+      "explanation": "En un paciente con clínica típica de reflujo gastroesofágico sin signos de alarma (menor de 50 años o sin disfagia, baja de peso o sangrado), el nivel de exigencia ministerial para APS es Manejo Completo: inicio de prueba terapéutica con IBP oral y cambios en el estilo de vida. La derivación al especialista sin prueba previa o la solicitud de exámenes complejos en APS es el distractor más castigado por ASOFAMECh.",
+      "ref": "Guía Clínica GES / ASOFAMECh Perfil V3 Código 1.06.1.027"
+    },
+    {
+      "type": "question",
+      "badge": "Pregunta Oficial EUNACOM · Metodología",
+      "nav": "Caso Aplicado 02",
+      "number": 2,
+      "caseText": "Mujer de 72 años, diabética e hipertensa. Es traída al servicio de urgencias por compromiso de conciencia cuantitativo y oliguria de 24 horas de evolución. Al ingreso: PA 78/45 mmHg, FC 122 lpm, afebril, llene capilar 4 segundos. Creatinina 3.8 mg/dL (basal 0.9 mg/dL), potasio 6.8 mEq/L con ondas T picudas en el ECG.",
+      "question": "¿Cuál es la primera intervención terapéutica impostergable que debe realizar el médico en urgencias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solicitar interconsulta urgente a nefrología para coordinar hemodiálisis de urgencia."
+        },
+        {
+          "id": "B",
+          "text": "Administrar gluconato de calcio al 10% endovenoso para estabilización de membrana miocárdica."
+        },
+        {
+          "id": "C",
+          "text": "Iniciar infusión de bicarbonato de sodio al dos tercio molar."
+        },
+        {
+          "id": "D",
+          "text": "Administrar sulfonato de poliestireno oral con sorbitol."
+        },
+        {
+          "id": "E",
+          "text": "Instalar catéter de hemodiálisis en vena yugular interna."
+        }
+      ],
+      "explanation": "Frente a una hiperkalemia severa con alteraciones electrocardiográficas (ondas T picudas), la conducta médica prioritaria e inmediata de Tratamiento Inicial en Urgencias es estabilizar la membrana miocárdica con gluconato de calcio EV para prevenir arritmias ventriculares letales. Solicitar la interconsulta o el catéter sin haber administrado el cardioprotector representa una omisión crítica de reanimación.",
+      "ref": "Protocolo de Urgencias Médicas MINSAL / ASOFAMECh Perfil V3"
+    },
+    {
+      "type": "bento",
+      "nav": "Errores Fatales",
+      "title": "Los 3 Errores Fatales que Hacen Reprobar el EUNACOM",
+      "tiles": [
+        {
+          "title": "Trampas a Evitar",
+          "bullets": [
+            "[ERROR 1: DESCUIDAR EL ABC] Saltarse la reanimación inicial: En pacientes inestables, pedir imágenes complejas o interconsultas antes de asegurar la vía aérea, oxígeno, accesos venosos y volumen es la falla más común.",
+            "[ERROR 2: DERIVACIÓN PREMATURA] Derivar sin manejar en APS: Confundir una patología de manejo autónomo en CESFAM con una de resorte de subespecialista es el distractor intencional predilecto de la comisión.",
+            "[ERROR 3: PARÁLISIS POR ANÁLISIS] Demorar más de 80 segundos por pregunta: Quedarse atascado en una pregunta difícil consume el tiempo para responder preguntas fáciles del final de la prueba."
+          ]
+        }
+      ],
+      "notes": "Para asegurar el éxito en el examen, memoricen estos tres errores fatales. El primero es olvidar la estabilización básica: si el paciente está hipotenso o descompensado, la respuesta correcta siempre será reanimación inicial ABC, no pedir una resonancia ni esperar al especialista. El segundo error es derivar sin criterio en APS. Y el tercer error es el mal manejo del tiempo: si dudas en una pregunta, marca tu mejor opción y sigue adelante; no permitas que un caso complejo te quite los minutos para responder los casos fáciles del final."
+    },
+    {
+      "type": "bento",
+      "nav": "Método de Estudio",
+      "title": "Metodología de Alto Rendimiento con Nuestro Hub",
+      "tiles": [
+        {
+          "title": "Ruta de Aprendizaje",
+          "bullets": [
+            "[PASO 1: MASTERCLASSES AUDIOVISUALES] Clases modulares de 14 diapositivas: Diseñadas con el estándar Suizo de alta densidad, trazos animados y locución médica en español chileno nativo.",
+            "[PASO 2: PIZARRA PASO A PASO] Razonamiento clínico progresivo: Activa el Modo Paso a Paso para entrenar el descarte estructurado y las conexiones fisiopatológicas con la pluma destacador.",
+            "[PASO 3: ENTRENAMIENTO DE CASOS] Resolución de preguntas oficiales: Resuelve los casos reales comentados en cada clase para fijar el patrón ministerial y las trampas de los distractores."
+          ]
+        }
+      ],
+      "notes": "Nuestro Hub de Publicación y Aprendizaje EUNACOM 2026 está estructurado con una metodología de tres pasos. Primero, las Masterclasses modulares te entregan en 20 minutos el contenido esencial de cada patología sin paja enciclopédica. Segundo, la pizarra adaptativa con trazos interactivos te permite razonar secuencialmente paso a paso. Y tercero, cada clase incluye preguntas reales del banco de ASOFAMECh explicadas para que internalices los criterios de descarte."
+    },
+    {
+      "type": "bento",
+      "nav": "Regla de Oro",
+      "title": "Regla de Oro: La Mentalidad de Médico General en Chile",
+      "tiles": [
+        {
+          "title": "Mentalidad de Aprobación",
+          "bullets": [
+            "[EL ROL MINISTERIAL] Eres un médico general en el sistema chileno: El EUNACOM no evalúa si eres gastroenterólogo o nefrólogo; evalúa si eres un médico general seguro, resolutivo y ético.",
+            "[CRITERIO PRÁCTICO] Seguridad del paciente y uso eficiente de recursos: Frente a cualquier duda, la respuesta correcta siempre será la que proteja la vida del paciente, respete las guías GES y aplique el sentido común clínico.",
+            "[PLAN DE ACCIÓN] Comienza tu preparación hoy: Selecciona la primera clase de Gastroenterología o Nefrología en el menú superior y comienza a dominar el Perfil V3."
+          ]
+        }
+      ],
+      "notes": "Finalizamos esta inducción con la regla de oro definitiva: para aprobar el EUNACOM debes pensar como un médico general trabajando en un hospital público o en un consultorio en Chile. No busques respuestas esotéricas ni tratamientos experimentales. La respuesta correcta siempre será la más segura, la más protocolizada y la que resuelva con criterio el problema del paciente. Con esta mentalidad clara, estás listo para comenzar. Selecciona tu próxima clase en el catálogo y comencemos a estudiar."
+    }
+  ]
+}

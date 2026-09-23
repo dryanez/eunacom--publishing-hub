@@ -1,0 +1,1647 @@
+[
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-01",
+    "title": "Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+    "perfilCode": "1.05.1.005",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 35): Hipotiroidismo en Personas de 15 años y más",
+    "tier": 2,
+    "keyPoints": [
+      "La TSH es la prueba inicial más sensible y costo-efectiva para evaluar la función tiroidea en cualquier nivel de atención.",
+      "En hipotiroidismo primario la TSH está alta y la T4 libre baja; en hipotiroidismo subclínico la TSH está alta pero la T4 libre es NORMAL.",
+      "El hipotiroidismo central se caracteriza por T4 libre baja con TSH baja o paradójicamente \"normal\" (inapropiada para el nivel de T4).",
+      "¡Alerta!: Nunca iniciar levotiroxina en un hipotiroidismo central sin haber descartado y tratado previamente una insuficiencia suprarrenal.",
+      "El Síndrome del Eutiroideo Enfermo cursa con T3 marcadamente baja y T3 reversa elevada en pacientes críticos de UCI.",
+      "Está contraindicado administrar levotiroxina o T3 en el síndrome del eutiroideo enfermo; la alteración se resuelve al sanar la enfermedad de base."
+    ],
+    "vignette": "Un hombre de 66 años ingresa a la Unidad de Cuidados Intensivos cursando un shock séptico de foco pulmonar secundario a neumonía multilobar por Pseudomonas, requiriendo intubación orotraqueal, soporte con noradrenalina y antibióticos de amplio espectro. Dentro de los exámenes generales de ingreso se solicita un perfil tiroideo que informa: TSH 0.6 mIU/L (rango normal 0.4 a 4.0), T4 Libre 0.82 ng/dL (rango 0.8 a 1.8), T3 total de 35 ng/dL (marcadamente baja, normal 80 a 200 ng/dL) y T3 reversa muy elevada. El paciente no tiene antecedentes de bocio ni patología tiroidea previa.",
+    "explicacion": "El paciente presenta el patrón clásico del Síndrome del Eutiroideo Enfermo (o síndrome de T3 baja) inducido por el estrés metabólico severo del shock séptico. La inhibición de la 5'-desyodasa periférica por citoquinas proinflamatorias desvía la T4 hacia T3 reversa inactiva. La conducta médica correcta es la observación de la función tiroidea y el tratamiento intensivo exclusivo de la sepsis de base, estando contraindicada la administración de hormonas tiroideas exógenas.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 68 años se encuentra hospitalizado en la Unidad de Paciente Crítico recibiendo soporte hemodinámico y ventilatorio por una pancreatitis aguda necrohemorrágica grave con falla multiorgánica. En sus exámenes de laboratorio se documenta: TSH 0.8 mIU/L (normal 0.4–4.0), T4 libre 0.85 ng/dL (normal 0.8–1.9), T3 total 32 ng/dL (normal 80–200) y T3 reversa marcadamente elevada. ¿Cuál es la conducta terapéutica indicada respecto a este perfil hormonal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar levotiroxina endovenosa en dosis sustitutiva completa"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar triyodotironina (T3) oral por sonda nasoyeyunal"
+          },
+          {
+            "id": "C",
+            "text": "Mantener conducta expectante respecto al eje tiroideo y continuar el tratamiento intensivo de la pancreatitis"
+          },
+          {
+            "id": "D",
+            "text": "Iniciar hidrocortisona endovenosa en altas dosis para reactivar la secreción tiroidea"
+          },
+          {
+            "id": "E",
+            "text": "Solicitar tiroidectomía de urgencia para evitar tormenta tiroidea larvada"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El cuadro corresponde al Síndrome del Eutiroideo Enfermo (o síndrome de T3 baja), una alteración funcional fisiológica frecuente en pacientes críticos debida al bloqueo de la 5'-desyodasa tisular inducido por citoquinas inflamatorias y cortisol. La administración de levotiroxina o T3 no solo no ha demostrado beneficio en la sobrevida sino que puede incrementar el catabolismo y la mortalidad. La conducta estándar es mantener una actitud expectante y reevaluar las pruebas tiroideas una vez superada la patología crítica de base."
+      },
+      {
+        "stem": "Una mujer de 54 años consulta por astenia leve y sequedad de piel. Sus exámenes de laboratorio revelan: TSH de 7.4 mIU/L (valor de referencia 0.4 a 4.0 mIU/L) y T4 Libre de 1.2 ng/dL (valor de referencia 0.8 a 1.8 ng/dL). ¿Cuál es la interpretación diagnóstica de este examen?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hipotiroidismo primario clínico establecido"
+          },
+          {
+            "id": "B",
+            "text": "Hipotiroidismo subclínico"
+          },
+          {
+            "id": "C",
+            "text": "Hipotiroidismo central secundario"
+          },
+          {
+            "id": "D",
+            "text": "Resistencia a las hormonas tiroideas"
+          },
+          {
+            "id": "E",
+            "text": "Síndrome del eutiroideo enfermo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La definición diagnóstica bioquímica de Hipotiroidismo Subclínico exige la concurrencia de una concentración plasmática de TSH por encima del límite superior normal (típicamente > 4.5 mIU/L, en este caso 7.4 mIU/L) con una concentración sérica de Tiroxina Libre (T4L) que se mantiene estrictamente dentro de los rangos de referencia normales (1.2 ng/dL)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-06",
+    "title": "Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+    "perfilCode": "1.04.1.002",
+    "dx": "TSH suprimida (< 0.01 mIU/L), T4L/T3 elevadas, TRAb positivos (> 1.75 UI/L) y ecografía doppler con infierno tiroideo",
+    "tx": "Tiamazol 10-30 mg/día (o PTU en 1er trimestre), betabloqueo sintomático (propranolol/atenolol), radioyodo I-131 o tiroidectomía",
+    "seg": "Control T4L/T3 a las 4-6 semanas (la TSH puede permanecer suprimida meses). Monitoreo estricto de neutrófilos si fiebre o dolor faríngeo",
+    "ges": "No GES directa para hipertiroidismo primario. GES 33 para Gran Quemado/politraumatizado, derivación prioritaria a endocrinología",
+    "tier": 3,
+    "keyPoints": [
+      "La Enfermedad de Graves-Basedow es la causa más común de hipertiroidismo en menores de 50 años; es mediada por anticuerpos estimulantes del receptor de TSH (TRAb/TSI).",
+      "El bocio difuso con soplo/frémito, la orbitopatía distiroidea y el mixedema pretibial son signos clínicos PATOGNOMÓNICOS de Graves.",
+      "El cintigrama tiroideo discierne entre tirotoxicosis con captación alta (Graves, adenoma tóxico, BMNT) y captación baja o nula (tiroiditis subaguda, tiroiditis facticia).",
+      "El fármaco de elección general es el Tiamazol (10-30 mg/día). El PTU se reserva exclusivamente para el 1er trimestre del embarazo y la tormenta tiroidea.",
+      "La complicación más temida de las tionamidas es la Agranulocitosis (RAN < 500/uL). Regla de oro: si presenta fiebre o faringitis, suspender el fármaco de inmediato y pedir hemograma urgente.",
+      "El radioyodo I-131 está absolutamente contraindicado en el embarazo y lactancia, y contraindicado relativamente en orbitopatía distiroidea moderada-severa activa.",
+      "Si se indica I-131 en un paciente con Graves y orbitopatía activa leve a moderada, es obligatorio administrar profilaxis con prednisona oral (0.4-0.5 mg/kg/día) por 6 semanas.",
+      "En adultos mayores, sospechar Hipertiroidismo Apático ante fibrilación auricular de novo, baja de peso inexplicada o insuficiencia cardíaca refractaria sin los síntomas hiperadrenérgicos floridos clásicos."
+    ],
+    "vignette": "Una mujer de 29 años, fumadora activa de 10 cigarrillos diarios, consulta por baja de peso de 6 kg en 2 meses pese a buen apetito, intolerancia marcada al calor, palpitaciones persistentes e insomnio. Al examen físico se observa sudorosa, ansiosa, con PA 145/65 mmHg, FC 114 lpm regular. En el cuello se palpa tiroides aumentado de tamaño 2 veces, difuso, elástico, indoloro y con frémito en polo superior. Presenta retracción palpebral bilateral con proptosis evidente y eritema conjuntival. En extremidades se constata temblor distal fino postural y reflejos osteotendinosos exaltados con hiperreflexia rotuliana. Los exámenes confirman TSH < 0.005 mIU/L y T4 libre 3.8 ng/dL (VN: 0.8-1.8). Los anticuerpos anti-receptor de TSH (TRAb) resultan en 8.4 UI/L (positivo > 1.75).",
+    "explicacion": "El cuadro corresponde inequívocamente a una Enfermedad de Graves-Basedow florida. La tríada clásica de bocio difuso con frémito, tirotoxicosis franca con TSH suprimida y orbitopatía infiltrativa distiroidea (proptosis) es diagnóstica, siendo innecesario el cintigrama confirmatorio en presencia de TRAb marcadamente positivos. El tratamiento de inicio consiste en tiamazol oral (20-30 mg/día) asociado a betabloqueadores (propranolol 40 mg cada 8 horas) para control de síntomas adrenérgicos. Debe enfatizarse firmemente el cese del tabaquismo (principal factor de progresión de la orbitopatía) e instruir que ante fiebre o dolor faríngeo suspenda el fármaco de inmediato por riesgo de agranulocitosis. Si en el futuro se planea terapia ablativa con radioyodo I-131, requerirá cobertura profiláctica con corticoides orales para no reactivar la inflamación retroocular.",
+    "baseQuestions": [
+      {
+        "stem": "Una mujer de 32 años con diagnóstico de Enfermedad de Graves-Basedow inicia tratamiento con tiamazol 20 mg al día y propranolol 40 mg cada 8 horas. A las 3 semanas de haber iniciado el tratamiento, consulta en el servicio de urgencias por un cuadro de 24 horas de fiebre de 38.9°C, calofríos intensos y dolor faríngeo severo. Al examen físico se aprecia faringe congestiva con exudado amigdalino blanquecino y FC de 102 lpm. ¿Cuál es la conducta médica inmediata e inaplazable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar amoxicilina con ácido clavulánico oral y citar a control en 48 horas"
+          },
+          {
+            "id": "B",
+            "text": "Suspender de inmediato el tiamazol, solicitar un hemograma urgente con recuento diferencial absoluto y hospitalizar en aislamiento"
+          },
+          {
+            "id": "C",
+            "text": "Duplicar la dosis de tiamazol a 40 mg/día por sospecha de reactivación tiroidea"
+          },
+          {
+            "id": "D",
+            "text": "Cambiar el tiamazol por propiltiouracilo a dosis equivalentes"
+          },
+          {
+            "id": "E",
+            "text": "Indicar paracetamol 1 g cada 8 horas y continuar el tiamazol sin modificaciones"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La presencia de fiebre y odinofagia en un paciente bajo tratamiento con tionamidas (tiamazol o propiltiouracilo) constituye una sospecha ineludible de agranulocitosis medicamentosa (neutrófilos absolutos < 500/uL), complicación inmunológica potencialmente letal. La regla diagnóstica y terapéutica estricta es suspender inmediatamente el fármaco antitiroideo, solicitar un hemograma de urgencia con recuento absoluto de neutrófilos e iniciar aislamiento protector y estudio infeccioso. Si se confirma neutropenia severa, se hospitaliza, se administran antibióticos endovenosos de amplio espectro y factor estimulante de colonias de granulocitos (G-CSF). Nunca debe sustituirse por PTU debido a reactividad cruzada de hasta un 50%."
+      },
+      {
+        "stem": "Una paciente de 26 años con antecedente de Enfermedad de Graves-Basedow bien controlada con tiamazol 10 mg/día acude a control preconcepcional. Al examen se constata un bocio difuso indoloro sin signos inflamatorios. Su prueba de embarazo en orina resulta positiva, estimándose una gestación de 5 semanas. Su perfil hormonal muestra TSH 0.8 mIU/L y T4 libre 1.3 ng/dL. ¿Cuál es la conducta más adecuada respecto a su terapia antitiroidea durante este período?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mantener el tiamazol a la misma dosis durante todo el embarazo por encontrarse eutiroidea"
+          },
+          {
+            "id": "B",
+            "text": "Suspender el tiamazol y cambiar inmediatamente a propiltiouracilo (PTU) a dosis equivalentes durante el primer trimestre"
+          },
+          {
+            "id": "C",
+            "text": "Suspender todos los antitiroideos y administrar de inmediato una dosis terapéutica de radioyodo I-131"
+          },
+          {
+            "id": "D",
+            "text": "Indicar tiroidectomía total de urgencia durante la semana 6 de gestación"
+          },
+          {
+            "id": "E",
+            "text": "Suspender todo tratamiento farmacológico y mantener únicamente observación sin controles hormonales"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El tiamazol está formalmente contraindicado durante el primer trimestre de la gestación (semanas 1 a 12) debido a su potencial teratogénico, asociándose a la embriopatía por tiamazol (aplasia cutis congénita, atresia de coanas y atresia esofágica). Por esta razón, en toda mujer con hipertiroidismo por Graves que inicia un embarazo, el fármaco de elección obligatorio durante el primer trimestre es el Propiltiouracilo (PTU). Posteriormente, a partir de la semana 13-16 (segundo y tercer trimestre), suele rotarse nuevamente a tiamazol para minimizar el riesgo materno de hepatitis tóxica fulminante inducida por PTU."
+      },
+      {
+        "stem": "Un hombre de 68 años con antecedente de insuficiencia cardíaca consulta por palpitaciones de reposo, baja de 4 kg de peso en un mes y astenia. El electrocardiograma revela una fibrilación auricular de novo con respuesta ventricular de 135 lpm. La ecografía cervical no muestra nódulos ni bocio evidente y el examen oftalmológico es rigurosamente normal. Los exámenes revelan TSH < 0.01 mIU/L con T4 libre de 2.6 ng/dL. Los anticuerpos TRAb son negativos. El cintigrama tiroideo muestra captación focalizada e intensa en el polo inferior derecho con supresión funcional completa del resto del parénquima tiroideo. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tiroiditis subaguda de De Quervain"
+          },
+          {
+            "id": "B",
+            "text": "Enfermedad de Graves-Basedow con variante atípica"
+          },
+          {
+            "id": "C",
+            "text": "Adenoma tóxico autónomo (enfermedad de Plummer unilocular)"
+          },
+          {
+            "id": "D",
+            "text": "Cáncer folicular de tiroides hiperfuncionante"
+          },
+          {
+            "id": "E",
+            "text": "Tirotoxicosis facticia por ingesta oculta de hormona tiroidea"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El cuadro clínico y cintigráfico es clásico de un Adenoma Tóxico Autónomo (enfermedad de Plummer unilocular). Se caracteriza por la presencia de un nódulo hipercaptante ('caliente') que produce hormonas tiroideas de manera autónoma e independiente de la regulación por TSH. La hiperproducción hormonal suprime la secreción hipofisaria de TSH, lo que conduce a la inactivación y abolición funcional de la captación en el resto de la glándula tiroidea normal. Es más prevalente en adultos mayores, no se acompaña de oftalmopatía ni mixedema, los TRAb son negativos y con frecuencia debuta con fibrilación auricular o insuficiencia cardíaca descompensada."
+      },
+      {
+        "stem": "Una mujer de 35 años con Enfermedad de Graves-Basedow presenta recaída clínica y bioquímica tras haber completado 18 meses de terapia con tiamazol. Al examen físico destaca proptosis ocular moderada bilateral, quemosis conjuntival y diplopía al mirar hacia arriba, con test de actividad clínica orbitaria (CAS) de 4 puntos (enfermedad activa). Se plantea ablación tiroidea definitiva. ¿Cuál es la conducta terapéutica más apropiada para el manejo definitivo de su hipertiroidismo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar dosis ablativa de radioyodo I-131 en monoterapia ambulatoria sin medicación previa"
+          },
+          {
+            "id": "B",
+            "text": "Tiroidectomía total previa preparación con tiamazol y yoduro inorgánico (Lugol), o en su defecto I-131 bajo estricta corticoterapia profiláctica sistémica"
+          },
+          {
+            "id": "C",
+            "text": "Suspender todo antitiroideo y manejar exclusivamente con propranolol oral"
+          },
+          {
+            "id": "D",
+            "text": "Indicar radioterapia orbitaria externa inmediata sin tocar la glándula tiroidea"
+          },
+          {
+            "id": "E",
+            "text": "Mantener tiamazol a dosis de 60 mg/día de por vida sin plantear terapia ablativa"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En pacientes con Enfermedad de Graves y orbitopatía distiroidea moderada a severa activa, el radioyodo I-131 como monoterapia está desaconsejado o formalmente contraindicado relativo, ya que la liberación masiva de antígenos tiroideos provocada por la radiación exacerba marcadamente la inflamación autoinmune retroocular y puede amenazar la visión. En este contexto, la cirugía ablativa (tiroidectomía total) realizada por un equipo experto tras alcanzar eutiroidismo con tionamidas y Lugol es la opción de elección. Si por algún motivo se optara por I-131, es imperativo asociar profilaxis sistémica con glucocorticoides orales (prednisona 0.4-0.5 mg/kg/día iniciada el mismo día del I-131 y mantenida durante 6 semanas con desescalamiento paulatino)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-11",
+    "title": "Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+    "perfilCode": "1.04.1.005",
+    "dx": "Demostrar hipercortisolismo con 2 pruebas de 1ra línea alteradas (CLU 24h, Nugent 1 mg, Cortisol salival nocturno) + ACTH plasmática",
+    "tx": "Según etiología: Resección transesfenoidal (Enfermedad de Cushing), Suprarrenalectomía laparoscópica (Adenoma), ketoconazol/metirapona",
+    "seg": "Monitoreo de cortisol post-quirúrgico y reemplazo temporal con hidrocortisona por insuficiencia suprarrenal secundaria a atrofia del eje",
+    "ges": "No GES directo. Derivación de alta prioridad a Endocrinología y Neurocirugía / Cirugía Oncológica",
+    "tier": 3,
+    "keyPoints": [
+      "La causa más común de Síndrome de Cushing en la práctica clínica general es la IATROGÉNICA (exógena por uso de corticoides).",
+      "Entre las causas endógenas, la Enfermedad de Cushing (microadenoma hipofisario productor de ACTH) representa el 70-80% de los casos.",
+      "Los signos clínicos más específicos de hipercortisolismo son la miopatía proximal, las estrías violáceas anchas (> 1 cm) y la fragilidad capilar con hematomas fáciles.",
+      "El diagnóstico requiere dos fases estrictas: 1° Demostrar hipercortisolismo con al menos 2 pruebas de 1ra línea; 2° Localizar midiendo ACTH.",
+      "Pruebas de primera línea: Test de Nugent (1 mg dexametasona nocturna, suprime a < 1.8 mcg/dL si sano), Cortisol Libre Urinario 24h y Cortisol Salival Nocturno.",
+      "Si la ACTH está suprimida (< 5 pg/mL), el origen es suprarrenal (pedir TC de suprarrenales). Si la ACTH está normal-alta o elevada, el origen es ACTH-dependiente (pedir RM de silla turca).",
+      "El Cushing ectópico (cáncer pulmonar de células pequeñas) cursa con hipercortisolismo muy severo, alcalosis metabólica con hipokalemia marcada e hiperpigmentación cutánea.",
+      "Tras resecar un adenoma suprarrenal unilateral, el paciente requerirá sustitución transitoria con Hidrocortisona debido a que la glándula contralateral se encuentra atrófica."
+    ],
+    "vignette": "Una mujer de 38 años consulta por aumento de peso progresivo de 12 kg en los últimos 8 meses predominantemente en tronco y cara, asociado a debilidad muscular severa en extremidades inferiores que le impide ponerse de pie sin ayuda de los brazos. Al examen físico destaca PA 165/100 mmHg, cara redondeada eritematosa ('luna llena'), acumulación grasa dorsocervical y en fosas supraclaviculares, múltiples hematomas espontáneos en brazos y piernas, y estrías de color violáceo oscuro de 1.5 cm de ancho en hemiabdomen inferior y flancos. No consume corticoides orales ni inyectables. Sus exámenes preliminares revelan glicemia de ayuno 158 mg/dL y kalemia 3.1 mEq/L. Se realiza test de Nugent (1 mg de dexametasona a las 23 h) con cortisol plasmático resultante a las 08 h de 14.2 mcg/dL (no suprime, VN < 1.8), y cortisol libre urinario en 24 horas de 420 mcg/24h (VN < 50).",
+    "explicacion": "La paciente presenta un Síndrome de Cushing endógeno florido. El diagnóstico de hipercortisolismo autónomo quedó formalmente establecido con 2 pruebas de primera línea francamente alteradas (Nugent positivo con cortisol de 14.2 mcg/dL y CLU 24h > 8 veces el valor normal). Con el hipercortisolismo confirmado, el siguiente paso ineludible en el algoritmo diagnóstico NO es solicitar imágenes al azar, sino medir la ACTH plasmática matinal para clasificar el cuadro en ACTH-dependiente (si está normal o elevada) versus ACTH-independiente (si está suprimida). Esta distinción orientará de forma inequívoca el estudio de imágenes hacia la silla turca o hacia las glándulas suprarrenales.",
+    "baseQuestions": [
+      {
+        "stem": "Una mujer de 35 años consulta por obesidad central, debilidad muscular proximal, amenorrea de 6 meses y aparición de estrías violáceas anchas en abdomen. No refiere uso de fármacos. Se solicita un test de Nugent (1 mg dexametasona a las 23 h) que muestra cortisol matinal de 9.8 mcg/dL (no suprime) y un cortisol libre urinario en 24 horas elevado a 350 mcg (normal < 50 mcg/24h). ¿Cuál es el examen de elección que se debe solicitar a continuación para proseguir con el estudio etiológico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tomografía computarizada de abdomen y pelvis con protocolo suprarrenal"
+          },
+          {
+            "id": "B",
+            "text": "Determinación de niveles plasmáticos de hormona adrenocorticotropa (ACTH)"
+          },
+          {
+            "id": "C",
+            "text": "Resonancia magnética de silla turca con contraste"
+          },
+          {
+            "id": "D",
+            "text": "Cateterismo de senos petrosos inferiores"
+          },
+          {
+            "id": "E",
+            "text": "Cintigrama con octreótido marcado"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En el algoritmo diagnóstico del Síndrome de Cushing, una vez confirmado el hipercortisolismo bioquímico mediante dos pruebas de primera línea positivas concordantes (en este caso Nugent y CLU de 24 horas), el paso siguiente e inexcusable consiste en determinar si el cuadro es ACTH-dependiente o ACTH-independiente mediante la medición de ACTH plasmática en sangre. Si la ACTH resulta suprimida (< 5-10 pg/mL), el estudio de imágenes se dirigirá a las glándulas suprarrenales (TC abdominal); si resulta normal-alta o francamente elevada (> 15-20 pg/mL), el estudio se dirigirá a la hipófisis (RM de silla turca) o a la búsqueda de foco ectópico."
+      },
+      {
+        "stem": "Un hombre de 62 años, fumador pesado de 40 paquetes/año, consulta en urgencias por astenia severa, debilidad muscular profunda que le impide la bipedestación, edema de extremidades inferiores y pérdida de 8 kg de peso en el último mes. Al examen físico destaca hiperpigmentación cutánea difusa en zonas fotoexpuestas y pliegues, PA 175/105 mmHg, sin obesidad evidente. Los exámenes de laboratorio revelan glicemia de 260 mg/dL, sodio 144 mEq/L, potasio 2.1 mEq/L y bicarbonato de 36 mEq/L (alcalosis metabólica hipokalémica). Se confirma hipercortisolismo con ACTH plasmática marcadamente elevada en 280 pg/mL. El test de supresión con dosis alta de dexametasona (8 mg) no muestra supresión del cortisol. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Enfermedad de Cushing por adenoma hipofisario"
+          },
+          {
+            "id": "B",
+            "text": "Carcinoma de la corteza suprarrenal productor de cortisol"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome de Cushing ectópico secundario a carcinoma pulmonar de células pequeñas (oat cell)"
+          },
+          {
+            "id": "D",
+            "text": "Hiperaldosteronismo primario (Síndrome de Conn)"
+          },
+          {
+            "id": "E",
+            "text": "Insuficiencia suprarrenal primaria por metástasis"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El cuadro clínico corresponde al Síndrome de Cushing Ectópico, clásicamente asociado a Carcinoma Pulmonar Microcítico o tumores neuroendocrinos/carcinoides. A diferencia de la Enfermedad de Cushing hipofisaria habitual, los tumores neuroendocrinos malignos producen concentraciones masivas de ACTH y precursores (POMC) de instauración rápida, lo que impide el desarrollo del fenotipo cushingoide típico (obesidad centrípeta) pero desencadena una severa hipokalemia con alcalosis metabólica (por activación cruzada masiva del receptor mineralocorticoide por el cortisol libre) e hiperpigmentación cutánea (por estimulación de receptores de melanocortina 1). La ausencia de supresión con 8 mg de dexametasona confirma la completa autonomía de la producción tumoral ectópica."
+      },
+      {
+        "stem": "Una paciente de 41 años con Síndrome de Cushing confirmado presenta una ACTH plasmática indetectable (< 2 pg/mL). La TC de abdomen revela un tumor suprarrenal derecho de 3.2 cm homogéneo con baja atenuación (< 10 Unidades Hounsfield) compatible con adenoma benigno; la glándula suprarrenal izquierda luce de aspecto atrófico y delgada. La paciente es sometida exitosamente a una suprarrenalectomía laparoscópica derecha. En el postoperatorio inmediato, ¿cuál es la medida farmacológica mandatoria que debe iniciarse para prevenir una complicación potencialmente mortal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar ketoconazol oral para bloquear residuos tumorales"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar terapia de reemplazo hormonal con Hidrocortisona por riesgo inminente de crisis suprarrenal secundaria a la atrofia del eje hipotálamo-hipófisis-adrenal contralateral"
+          },
+          {
+            "id": "C",
+            "text": "Indicar espironolactona a dosis altas para prevenir hiperkalemia"
+          },
+          {
+            "id": "D",
+            "text": "Indicar radioyodo I-131 para destruir remanentes glandulares"
+          },
+          {
+            "id": "E",
+            "text": "Mantener en observación sin medicamentos puesto que la glándula contralateral asumirá de inmediato la función fisiológica"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En el Síndrome de Cushing por adenoma suprarrenal unilateral autónomo, los niveles suprafisiológicos crónicos de cortisol suprimen de forma prolongada la síntesis y secreción de CRH hipotalámica y ACTH hipofisaria, lo que induce una atrofia estructural y funcional severa de la corteza suprarrenal contralateral. Al extirpar quirúrgicamente el adenoma hipersecretor, el paciente pasa bruscamente de un estado de hipercortisolismo a una insuficiencia suprarrenal secundaria aguda potencialmente mortal (colapso circulatorio hemodinámico). Por ello, es mandatorio iniciar terapia sustitutiva con Hidrocortisona inmediatamente en el postoperatorio y mantenerla durante varios meses (generalmente 6 a 12 meses) hasta que el eje recupere su reactividad normal."
+      },
+      {
+        "stem": "¿Cuál de las siguientes combinaciones de pruebas de laboratorio es la más apropiada y aceptada por el consenso internacional como PRIMERA LÍNEA para pesquisar y confirmar la presencia de hipercortisolismo endógeno en un paciente con sospecha clínica de Síndrome de Cushing?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cortisol plasmático basal a las 08:00 h y ACTH plasmática basal"
+          },
+          {
+            "id": "B",
+            "text": "Test de supresión rápida con dexametasona 1 mg nocturno (Nugent), Cortisol Libre Urinario en 24 horas y Cortisol salival nocturno"
+          },
+          {
+            "id": "C",
+            "text": "Test de dexametasona 8 mg y Tomografía computarizada de glándulas suprarrenales"
+          },
+          {
+            "id": "D",
+            "text": "Medición de metabolitos urinarios 17-hidroxicorticosteroides y 17-cetosteroides"
+          },
+          {
+            "id": "E",
+            "text": "Test de estimulación con ACTH sintética (Synacthen) 250 mcg"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Las tres pruebas de primera línea validadas internacionalmente y con mayor sensibilidad y especificidad diagnóstica para demostrar hipercortisolismo patológico son: 1) Test de supresión con dexametasona 1 mg a las 23 h (Test de Nugent), considerando normal un cortisol plasmático < 1.8 mcg/dL a las 08 h; 2) Cortisol Libre Urinario (CLU) en orina de 24 horas; y 3) Cortisol salival nocturno (a las 23:00 h). El cortisol plasmático matinal aislado de las 08:00 h no tiene utilidad diagnóstica alguna debido a que se encuentra dentro del rango normal en la mayoría de los pacientes con Cushing, fallando en evaluar la pérdida del ritmo circadiano y la falta de autorregulación."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-16",
+    "title": "Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+    "perfilCode": "1.04.1.009",
+    "dx": "Calcio total corregido por albúmina o Calcio Iónico + PTH intacta (PTHi). PTH elevada/inapropiada = HPT 1°; PTH suprimida = Neoplasia / Vit D",
+    "tx": "Crisis aguda: Suero fisiológico 0.9% enérgico + Ácido Zoledrónico EV +/- Calcitonina. HPT 1°: Paratiroidectomía si cumple criterios",
+    "seg": "Calcio sérico, fósforo y función renal post-resección. Monitoreo de hipocalcemia severa por 'Síndrome del Hueso Hambriento'",
+    "ges": "No GES directo. Garantías por patología oncológica o nefrológica si concurre",
+    "tier": 3,
+    "keyPoints": [
+      "El Hiperparatiroidismo Primario es la causa más común de hipercalcemia en el paciente ambulatorio; la Hipercalcemia Maligna lo es en el paciente hospitalizado.",
+      "REGLA OBLIGATORIA: Siempre corregir el calcio por albúmina: Calcio Corregido = Calcio Medido + 0.8 × (4.0 - Albúmina).",
+      "La PTH Intacta (PTHi) divide el algoritmo: PTH alta o normal-inapropiada = HPT 1°; PTH suprimida = Neoplasia (PTHrP o metástasis).",
+      "El HPT 1° se debe en un 85% a un Adenoma Paratiroideo único benigno.",
+      "La tríada bioquímica del HPT 1° es: HIPERCALCEMIA + HIPOFOSFATEMIA + PTHi ELEVADA.",
+      "La medida inicial de máxima urgencia ante una crisis hipercalcémica (> 14 mg/dL) es la hidratación enérgica con Suero Fisiológico al 0.9% (2 a 4 litros en 24h).",
+      "El Ácido Zoledrónico EV (bifosfonato) es el fármaco de elección para el control sostenido de la resorción ósea hipercalcémica.",
+      "Criterios quirúrgicos de paratiroidectomía en HPT asintomático: edad < 50 años, Ca > 1 mg/dL sobre el límite, T-score < -2.5, o VFG < 60 mL/min.",
+      "En la Hipercalcemia Hipocalciúrica Familiar (mutación CaSR), la excreción fraccionada de calcio es < 1% y NO debe operarse."
+    ],
+    "vignette": "Una mujer de 56 años consulta por astenia progresiva, estreñimiento de difícil manejo de 3 meses de evolución, dolores óseos difusos en extremidades y dos episodios previos de cólico renal expulsivo en los últimos 2 años. Al examen físico se aprecia lúcida, orientada, hidratada, con PA 135/85 mmHg y examen segmentario sin hallazgos patológicos. En los exámenes de laboratorio destaca: Calcio total 11.6 mg/dL con Albúmina de 4.0 g/dL (calcio corregido 11.6 mg/dL, VN 8.5-10.5), Fósforo sérico de 2.1 mg/dL (VN 2.5-4.5), Creatinina 0.9 mg/dL y una concentración de Hormona Paratiroidea Intacta (PTHi) de 145 pg/mL (VN 15-65). La ecografía renal demuestra microlitiasis bilateral.",
+    "explicacion": "El cuadro clínico y de laboratorio es diagnóstico de Hiperparatiroidismo Primario. La presencia simultánea de hipercalcemia franca con hipofosfatemia y niveles elevados de PTH intacta confirma la producción autónoma paratiroidea inapropiada (eje calcio-PTH dependiente). La paciente es plenamente sintomática debido al antecedente de nefrolitiasis cálcica recurrente sintomática. Cumple con indicación formal indiscutida de tratamiento quirúrgico curativo definitivo (Paratiroidectomía). El estudio preoperatorio de localización debe incluir ecografía cervical de alta resolución y cintigrama paratiroideo con Tecnecio-99m Sestamibi para planificar una cirugía mínimamente invasiva focalizada.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 64 años con antecedente de cáncer epidermoide de pulmón en etapa avanzada ingresa al servicio de urgencias estuporoso, con sequedad extrema de mucosas, deshidratación severa y signos clínicos de shock hipovolémico. El laboratorio de urgencia revela: Calcio plasmático de 15.2 mg/dL con albúmina de 3.0 g/dL (calcio corregido de 16.0 mg/dL), creatinina de 2.8 mg/dL y una PTH intacta suprimida en 4 pg/mL. El electrocardiograma muestra un intervalo QT marcadamente acortado. ¿Cuál es la primera medida terapéutica de máxima prioridad que debe iniciarse de inmediato?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infusión endovenosa rápida de furosemida a dosis de 80 mg en bolo"
+          },
+          {
+            "id": "B",
+            "text": "Hidratación agresiva con Suero Fisiológico al 0.9% en infusión endovenosa continua de 200 a 300 mL/hora"
+          },
+          {
+            "id": "C",
+            "text": "Calcitonina de salmón subcutánea en monoterapia"
+          },
+          {
+            "id": "D",
+            "text": "Ácido zoledrónico 4 mg EV en bolo rápido sin hidratación previa"
+          },
+          {
+            "id": "E",
+            "text": "Fosfato de potasio endovenoso"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente se encuentra cursando una Crisis Hipercalcémica Severa (calcio corregido ≥ 14 mg/dL) de origen neoplásico (PTH suprimida, secundario a secreción tumoral de PTHrP). Los pacientes con hipercalcemia severa presentan invariablemente una depleción masiva de volumen intravascular (déficit de 3 a 5 litros de agua y electrolitos) debido a la diuresis osmótica nefrogénica inducida por calcio y los vómitos. La medida inicial de máxima prioridad e indiscutible antes de cualquier otra intervención es la restitución enérgica de volumen con Suero Fisiológico al 0.9% (2 a 4 litros en las primeras 24 horas). Esto restaura la perfusión renal e induce calciuresis salina. La furosemida está contraindicada en deshidratación, y el zoledronato requiere expansión de volumen previa."
+      },
+      {
+        "stem": "Una paciente de 46 años asintomática acude a control de salud. En un perfil bioquímico preventivo se detecta calcio sérico de 11.2 mg/dL con albúmina de 4.0 g/dL. El médico sospecha hiperparatiroidismo primario. ¿Cuál es el examen de laboratorio indispensable que confirmará esta sospecha diagnóstica al demostrar su valor elevado o inapropiadamente normal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hormona Paratiroidea Intacta (PTHi)"
+          },
+          {
+            "id": "B",
+            "text": "Péptido relacionado con la PTH (PTHrP)"
+          },
+          {
+            "id": "C",
+            "text": "Calcitriol sérico (1,25-dihidroxivitamina D)"
+          },
+          {
+            "id": "D",
+            "text": "Calcitonina plasmática"
+          },
+          {
+            "id": "E",
+            "text": "Fosfatasas alcalinas óseas"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Ante el hallazgo confirmado de hipercalcemia, la prueba diagnóstica cardinal para categorizar el mecanismo fisiopatológico es la medición de Hormona Paratiroidea Intacta (PTHi). En condiciones fisiológicas normales, una concentración sérica elevada de calcio suprime por completo la liberación de PTH por las glándulas paratiroides mediante la estimulación del receptor sensor de calcio (CaSR). Si la PTH intacta se encuentra elevada o 'inapropiadamente normal' (no suprimida) en coexistencia con hipercalcemia, se establece formalmente el diagnóstico de Hiperparatiroidismo Primario (o raramente hipercalcemia hipocalciúrica familiar)."
+      },
+      {
+        "stem": "Una mujer de 44 años asintomática presenta hiperparatiroidismo primario confirmado con calcio corregido de 11.8 mg/dL y PTHi de 110 pg/mL. La densitometría ósea muestra un T-score de -2.7 en columna lumbar y la ecografía renal pesquisó microlitiasis renal asintomática. La paciente consulta si debe intervenirse quirúrgicamente. ¿Cuál es la indicación médica correcta respecto a la cirugía paratiroidea?",
+        "options": [
+          {
+            "id": "A",
+            "text": "No cumple criterios quirúrgicos por encontrarse asintomática; mantener control anual exclusivo con densitometría"
+          },
+          {
+            "id": "B",
+            "text": "Cumple criterios formales de Paratiroidectomía debido a su edad menor de 50 años, nivel de calcio > 1 mg/dL sobre el límite normal, presencia de osteoporosis (T-score < -2.5) y litiasis renal"
+          },
+          {
+            "id": "C",
+            "text": "Debe recibir radioterapia cervical externa en lugar de cirugía"
+          },
+          {
+            "id": "D",
+            "text": "Debe indicarse tratamiento de por vida con cinacalcet y suspender todo lácteo"
+          },
+          {
+            "id": "E",
+            "text": "La cirugía está contraindicada porque los adenomas paratiroideos regresionan espontáneamente"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "De acuerdo con el consenso de las Guías Internacionales sobre el Manejo del Hiperparatiroidismo Primario Asintomático, la paciente cumple múltiples criterios formales de indicación quirúrgica de Paratiroidectomía: 1) Edad menor de 50 años (tiene 44 años); 2) Calcio sérico > 1.0 mg/dL por encima del límite superior normal (11.8 mg/dL vs límite 10.5); 3) Osteoporosis demostrada por densitometría ósea con T-score < -2.5 (presenta -2.7 en columna lumbar); y 4) Presencia de nefrolitiasis asintomática demostrada por imagen. La paratiroidectomía es el único tratamiento curativo definitivo, el cual normaliza la calcemia y revierte la pérdida de masa ósea."
+      },
+      {
+        "stem": "Un paciente de 52 años sometido a una paratiroidectomía subtotal exitosa por hiperparatiroidismo primario severo con compromiso óseo extenso presenta al tercer día postoperatorio parestesias periorales intensas, signo de Chvostek positivo, espasmo carpopedal (signo de Trousseau) y calcio plasmático de 6.4 mg/dL con fósforo sérico de 1.8 mg/dL. ¿Cuál es el diagnóstico de esta complicación postquirúrgica clásica?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Síndrome del Hueso Hambriento (Hungry Bone Syndrome)"
+          },
+          {
+            "id": "B",
+            "text": "Hipotiroidismo iatrogénico agudo"
+          },
+          {
+            "id": "C",
+            "text": "Falla renal aguda por nefropatía de contraste"
+          },
+          {
+            "id": "D",
+            "text": "Pseudohipoparatiroidismo tipo 1A"
+          },
+          {
+            "id": "E",
+            "text": "Crisis tirotóxica por manipulación cervical"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El cuadro corresponde al Síndrome del Hueso Hambriento (Hungry Bone Syndrome), una complicación postoperatoria típica tras la paratiroidectomía en pacientes que presentaban hiperparatiroidismo primario de larga data o con compromiso óseo severo previo. Al extirpar bruscamente el adenoma hipersecretor de PTH, cesa de forma súbita la resorción osteoclástica masiva inducida por la PTH, mientras que los osteoblastos previamente estimulados captan con extrema avidez cantidades masivas de calcio y fósforo desde la sangre para remineralizar la matriz ósea desmineralizada. Esto provoca una caída abrupta y profunda tanto del calcio sérico (hipocalcemia sintomática severa) como del fósforo (hipofosfatemia concomitante). Requiere aporte masivo de calcio endovenoso y calcitriol oral a dosis altas."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-20",
+    "title": "Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
+    "perfilCode": "1.04.1.013",
+    "dx": "RM de Silla Turca con gadolinio + Campo visual computarizado + Evaluación hormonal completa de todos los ejes hipofisarios",
+    "tx": "Compresión quiasmática o tumores no funcionantes grandes: Cirugía transesfenoidal. Apoplejía: Hidrocortisona EV inmediata +/- descompresión urgente",
+    "seg": "RM de control anual, campimetría periódica y seguimiento hormonal para pesquisar hipopituitarismo diferido postquirúrgico",
+    "ges": "No GES directo. Garantías por patología neurológica o neuroquirúrgica prioritaria",
+    "tier": 2,
+    "keyPoints": [
+      "El defecto campimétrico clásico de la compresión quiasmática por macroadenomas hipofisarios es la HEMIANOPSIA BITEMPORAL.",
+      "Toda masa selar exige tres estudios mandatorios: RM de Silla Turca + Campimetría Computarizada + Perfil Hormonal Hipofisario completo.",
+      "La Apoplejía Hipofisaria es una emergencia médica que debuta con cefalea en trueno, pérdida visual súbita, oftalmoplejía y colapso hemodinámico.",
+      "La primera medida salvadora de vidas en la apoplejía hipofisaria es la administración inmediata de HIDROCORTISONA 100 mg EV.",
+      "La descompresión quirúrgica urgente en apoplejía está indicada si hay pérdida progresiva de agudeza visual o compromiso sensorial.",
+      "El Prolactinoma es la ÚNICA masa selar cuyo tratamiento de primera línea es MÉDICO con Cabergolina (incluso si produce hemianopsia bitemporal).",
+      "Los Craneofaringiomas son lesiones supraselares quísticas con calcificaciones típicas en TC, frecuentes en población pediátrica.",
+      "Los microadenomas (< 10 mm) no funcionantes asintomáticos no requieren cirugía; se controlan con RM periódica anual."
+    ],
+    "vignette": "Un hombre de 49 años consulta a su oftalmólogo debido a que en el último año ha sufrido dos accidentes de tránsito menores por 'no ver los autos que se aproximaban por los lados en los cruces de calles'. Niega cefalea intensa ni alteraciones de la visión central. Al examen oftalmológico la agudeza visual central es de 20/20 en ambos ojos, pero el campo visual por confrontación y la campimetría computarizada demuestran una hemianopsia bitemporal simétrica respetando la visión macular. El fondo de ojo revela palidez papilar bilateral incipiente. Se solicita una Resonancia Magnética de silla turca que describe una masa selar sólida de 22 × 18 × 16 mm con franca extensión supraselar que desplaza y comprime el quiasma óptico hacia arriba.",
+    "explicacion": "El cuadro clínico y neuro-oftalmológico es paradigmático de un Macroadenoma Hipofisario con efecto de masa supraselar. La hemianopsia bitemporal es el signo campimétrico clásico provocado por la compresión mecánica de las fibras del quiasma óptico decusadas en la línea media (que provienen de las hemirretinas nasales y transmiten la visión del hemicampo temporal externo). Ante una masa selar con compromiso de la vía visual, el abordaje terapéutico de primera línea para los adenomas no funcionantes o secretores de GH/ACTH es la resección quirúrgica por vía transesfenoidal para descomprimir el quiasma y salvar la visión, previa evaluación de la función corticotropa y tirotropa.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 52 años consulta por cefalea progresiva. La campimetría visual computarizada demuestra una hemianopsia bitemporal. La RM de cerebro revela una masa intraselar con extensión supraselar de 24 mm que comprime el quiasma óptico. El perfil hormonal descarta hiperprolactinemia (prolactina normal) y no hay hipersecreción de GH ni ACTH. ¿Cuál es el tratamiento de elección indicado para descomprimir la vía óptica y evitar la ceguera permanente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar cabergolina oral a dosis altas"
+          },
+          {
+            "id": "B",
+            "text": "Cirugía de resección transesfenoidal del macroadenoma"
+          },
+          {
+            "id": "C",
+            "text": "Radioterapia holocraneana convencional"
+          },
+          {
+            "id": "D",
+            "text": "Tratamiento con temozolomida"
+          },
+          {
+            "id": "E",
+            "text": "Observación con control campimétrico en 6 meses"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En presencia de un Macroadenoma Hipofisario no funcionante (o clínicamente silente) que genera compromiso estructural de la vía visual evidenciado por hemianopsia bitemporal y compresión quiasmática evidente en la RM, la indicación de tratamiento de elección indiscutida es la Cirugía de Resección por vía Transesfenoidal (endoscópica o microquirúrgica). El objetivo primordial de la intervención es la descompresión mecánica urgente del quiasma óptico para permitir la recuperación funcional de los axones visuales y prevenir la atrofia óptica irreversible. Los agonistas dopaminérgicos como la cabergolina son ineficaces para reducir significativamente los adenomas no prolactinomas."
+      },
+      {
+        "stem": "Un hombre de 45 años con antecedente de cefaleas esporádicas consulta en el servicio de urgencias por inicio súbito hace 3 horas de cefalea holocraneana de intensidad 10/10 en 'estallido', acompañada de vómitos, caída del párpado superior derecho (ptosis palpebral), diplopía y marcada somnolencia. Al examen físico destaca PA 85/50 mmHg, FC 62 lpm, parálisis completa del tercer par craneal derecho con midriasis y defecto campimétrico bitemporal severo. La TC de cerebro muestra una masa selar heterogénea con focos hiperdensos compatibles con hemorragia aguda intraselar. ¿Cuál es la medida médica farmacológica inicial de máxima prioridad que debe administrarse de inmediato?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Manitol al 20% en infusión rápida"
+          },
+          {
+            "id": "B",
+            "text": "Hidrocortisona 100 mg endovenosa directa en bolo"
+          },
+          {
+            "id": "C",
+            "text": "Cabergolina por sonda nasogástrica"
+          },
+          {
+            "id": "D",
+            "text": "Heparina de bajo peso molecular subcutánea"
+          },
+          {
+            "id": "E",
+            "text": "Somatostatina endovenosa continua"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente se encuentra cursando una Apoplejía Hipofisaria aguda hemorrágica con compresión de estructuras quiasmáticas y del seno cavernoso derecho (parálisis del III par). En esta catástrofe neuroendocrina, la necrosis hemorrágica masiva destruye bruscamente el tejido hipofisario remanente, provocando un hipopituitarismo agudo fulminante con colapso de la secreción de ACTH. La consiguiente crisis suprarrenal aguda secundaria es la causa primordial de mortalidad perioperatoria rápida por shock circulatorio refractario (como refleja su hipotensión PA 85/50). Por lo tanto, la medida inicial más urgente y prioritaria antes del traslado a pabellón neuroquirúrgico descompresivo es la administración inmediata de Hidrocortisona 100 mg EV en bolo directo."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-02",
+    "title": "Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina",
+    "perfilCode": "1.05.1.005",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 35): Hipotiroidismo en Personas de 15 años y más",
+    "tier": 3,
+    "keyPoints": [
+      "La Tiroiditis Crónica Autoinmune de Hashimoto (Anti-TPO positivo) es la causa número uno de hipotiroidismo primario en el adulto.",
+      "La lentitud en la fase de relajación del reflejo aquiliano es el signo clínico físico más específico del hipotiroidismo.",
+      "El hipotiroidismo produce dislipidemia secundaria con elevación marcada de Colesterol Total y LDL; se normaliza al compensar la TSH sin estatinas.",
+      "El hipotiroidismo subclínico con TSH ≥ 10.0 mIU/L se trata SIEMPRE con levotiroxina, independientemente de la presencia de síntomas.",
+      "En hipotiroidismo subclínico con TSH entre 4.5 y 9.9 mIU/L, se trata si hay: embarazo, Anti-TPO positivo, bocio, síntomas o dislipidemia en jóvenes.",
+      "En ancianos (> 70-80 años) con TSH < 10 mIU/L asintomáticos, la conducta es observación, evitando el sobretratamiento y la fibrilación auricular.",
+      "La dosis de levotiroxina es 1.6 mcg/kg/d en jóvenes; en ancianos o cardiópatas se inicia a 25-50 mcg/d para prevenir eventos isquémicos.",
+      "La levotiroxina debe tomarse en ayunas estricta con agua pura, 30 a 60 minutos antes del desayuno, separada por 4 horas de hierro, calcio y omeprazol."
+    ],
+    "vignette": "Una mujer de 62 años con antecedentes de hipertensión arterial controlada consulta por astenia progresiva de 6 meses, constipación pertinaz y una ganancia de 4 kg de peso a pesar de haber reducido su ingesta. Al examen físico se observa piel pálida, seca y fría, frecuencia cardíaca de 54 lpm, PA 138/86 mmHg, reflejos osteotendinosos con relajación aquiliana prolongada y tiroides aumentado de tamaño en forma difusa, indoloro y de consistencia firme. Sus exámenes revelan: TSH de 42.5 mIU/L, T4 Libre de 0.41 ng/dL, Colesterol total 268 mg/dL y anticuerpos Anti-TPO fuertemente positivos a 650 UI/mL.",
+    "explicacion": "La paciente presenta un hipotiroidismo primario clínico establecido (TSH > 10 con T4L francamente disminuida) de etiología autoinmune (Tiroiditis de Hashimoto confirmada por bocio firme y títulos elevados de Anti-TPO). La hipercolesterolemia es secundaria al hipotiroidismo. La conducta correcta y garantizada por el GES N° 35 es iniciar tratamiento con levotiroxina sódica oral en ayunas estricta (iniciando con 50 mcg/día por su edad y titulando a las 6-8 semanas según TSH), sin necesidad de iniciar estatinas en este momento.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 60 años es diagnosticado de hipotiroidismo primario por tiroiditis de Hashimoto, con TSH de 38 mIU/L y T4 libre de 0.4 ng/dL. Como antecedentes refiere hipertensión arterial e infarto agudo de miocardio hace 3 años, actualmente asintomático. ¿Cuál es la dosis inicial de levotiroxina más recomendada para este paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "150 mcg al día"
+          },
+          {
+            "id": "B",
+            "text": "100 mcg al día"
+          },
+          {
+            "id": "C",
+            "text": "1.6 mcg/kg de peso al día de inmediato"
+          },
+          {
+            "id": "D",
+            "text": "25 a 50 mcg al día con titulación gradual según TSH"
+          },
+          {
+            "id": "E",
+            "text": "12.5 mcg una vez a la semana en días alternos"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "En pacientes adultos mayores (> 60 años) o con antecedentes de cardiopatía coronaria (infarto agudo de miocardio previo), el inicio de la terapia sustitutiva con levotiroxina debe ser cauteloso (\"start low, go slow\"). Iniciar la dosis completa sustitutiva (1.6 mcg/kg/d) puede desencadenar un aumento brusco del consumo miocárdico de oxígeno, precipitando crisis de angina, infarto agudo o arritmias ventriculares graves. La conducta recomendada es iniciar con 25 a 50 mcg/día (o incluso 12.5-25 mcg en coronarios inestables) e incrementar progresivamente en 12.5-25 mcg cada 6 a 8 semanas según el nivel de TSH."
+      },
+      {
+        "stem": "Una mujer de 32 años, asintomática, que desea embarazarse en los próximos meses, se realiza exámenes de control de salud que muestran: TSH de 6.8 mIU/L y T4 libre de 1.1 ng/dL (rango normal 0.8 a 1.8 ng/dL). Sus anticuerpos anti-TPO resultan positivos en títulos elevados (480 UI/mL). ¿Cuál es la conducta más adecuada a seguir?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tranquilizar a la paciente y citar a nuevo control de TSH en 1 año sin tratamiento"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar tratamiento con levotiroxina a dosis bajas (25 a 50 mcg/día) con meta de TSH menor a 2.5 mIU/L"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar tratamiento con propiltiouracilo para bloquear la autoinmunidad"
+          },
+          {
+            "id": "D",
+            "text": "Indicar dieta rica en yodo y suplementos de selenio sin fármacos"
+          },
+          {
+            "id": "E",
+            "text": "Solicitar una punción aspirativa con aguja fina de la glándula tiroides"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La paciente presenta un hipotiroidismo subclínico (TSH entre 4.5 y 9.9 con T4L normal) con dos factores de indicación formal indiscutida para iniciar levotiroxina: 1) Deseo inminente de embarazo (donde la meta preconcepcional y del primer trimestre es TSH < 2.5 mIU/L para optimizar la fertilidad y prevenir pérdidas reproductivas y daño en el neurodesarrollo fetal); y 2) Presencia de anticuerpos Anti-TPO positivos a títulos altos, lo que confiere un alto riesgo de progresión rápida a falla clínica durante la gestación. La indicación es iniciar levotiroxina 25 a 50 mcg/día."
+      },
+      {
+        "stem": "¿A las cuántas semanas de iniciado el tratamiento con levotiroxina o de un ajuste de dosis se debe solicitar el control de TSH plasmática para evaluar la eficacia y adecuar la dosificación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A las 24 a 48 horas"
+          },
+          {
+            "id": "B",
+            "text": "A las 2 semanas"
+          },
+          {
+            "id": "C",
+            "text": "A las 6 a 8 semanas"
+          },
+          {
+            "id": "D",
+            "text": "A los 6 meses"
+          },
+          {
+            "id": "E",
+            "text": "Al año calendario"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La tiroxina (T4) tiene una vida media plasmática prolongada de aproximadamente 7 días. Por consiguiente, se requieren al menos 5 a 6 vidas medias (unas 4 a 6 semanas) para alcanzar un nuevo estado de equilibrio plasmático estacionario y un tiempo adicional para que el eje hipofisario reajuste plenamente la secreción de TSH. Las guías clínicas universales establecen que el control de TSH debe solicitarse a las 6 a 8 semanas tras el inicio o cambio de dosis de levotiroxina."
+      },
+      {
+        "stem": "Un paciente de 52 años en tratamiento con levotiroxina 100 mcg al día por hipotiroidismo primario acude a control con TSH de 12.8 mIU/L. Refiere que toma rigurosamente su tableta todas las mañanas junto con el desayuno, acompañada de una taza de café con leche y una pastilla de carbonato de calcio con vitamina D y sulfato ferroso que le prescribieron para osteoporosis y anemia. ¿Cuál es la causa más probable de la falta de control bioquímico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Desarrollo de anticuerpos bloqueadores del receptor de TSH"
+          },
+          {
+            "id": "B",
+            "text": "Interferencia y quelación en la absorción intestinal de levotiroxina por los alimentos, el café, el calcio y el hierro"
+          },
+          {
+            "id": "C",
+            "text": "Resistencia periférica severa a hormonas tiroideas de origen genético"
+          },
+          {
+            "id": "D",
+            "text": "Depuración renal acelerada de la hormona tiroidea por el calcio"
+          },
+          {
+            "id": "E",
+            "text": "Conversión periférica masiva de T4 a T3 tóxica"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La levotiroxina requiere un pH gástrico ácido y un medio libre de alimentos para su adecuada absorción en el intestino delgado. El consumo concomitante con alimentos, café con leche, suplementos de calcio y sales de hierro quelan el fármaco en el lumen intestinal y disminuyen su biodisponibilidad hasta en un 50–70%, provocando una aparente resistencia al tratamiento. La indicación correcta es instruir la ingesta de levotiroxina en ayuno estricto con agua pura al menos 30 a 60 minutos antes del desayuno, y distanciar el calcio y el hierro por al menos 4 horas."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-07",
+    "title": "Manejo Terapéutico Comparado: Fármacos, Radioyodo y Cirugía",
+    "perfilCode": "1.04.1.002",
+    "dx": "Evaluación de etiología tiroidea, severidad clínica, comorbilidades cardiovasculares, deseo gestacional y orbitopatía activa",
+    "tx": "Tiamazol (1ra línea médica), Radioyodo I-131 (elección en recidivas/BMNT), Tiroidectomía total (bocios gigantes, compresión o sospecha CA)",
+    "seg": "Perfil tiroideo a las 4-6 semanas de inicio médico; seguimiento anual con TSH tras I-131 o cirugía por desarrollo inexorable de hipotiroidismo",
+    "ges": "Patología no GES directa. Garantías GES si concurre en cardiopatía o estudio quirúrgico sospechoso de cáncer papilar",
+    "tier": 2,
+    "keyPoints": [
+      "El tiamazol es el fármaco de elección inicial para la Enfermedad de Graves en adultos no embarazadas debido a su potencia y dosificación en 1 toma diaria.",
+      "El PTU se reserva de forma estricta para el 1er trimestre del embarazo y la tormenta tiroidea por su mayor riesgo de necrosis hepática fulminante.",
+      "El I-131 está absolutamente contraindicado durante el embarazo y la lactancia; en mujeres fértiles exige posponer la concepción al menos 6 meses post-dosis.",
+      "El hipotiroidismo permanente es el resultado natural y buscado tras la terapia con I-131 o tiroidectomía total, requiriendo sustitución con levotiroxina de por vida.",
+      "La preparación prequirúrgica de la tiroidectomía exige eutiroidismo previo con tiamazol y administración de solución de Lugol durante los 7-10 días previos para colapsar la vascularización.",
+      "Las principales complicaciones de la tiroidectomía total son el hipoparatiroidismo transitorio o definitivo (hipocalcemia) y la lesión del nervio laríngeo recurrente (disfonía)."
+    ],
+    "vignette": "Una mujer de 34 años con Enfermedad de Graves-Basedow presentó recidiva de tirotoxicosis 6 meses después de suspender un esquema de 18 meses de tiamazol. No fuma, no presenta proptosis ni signos clínicos de orbitopatía. Su ecografía tiroidea muestra una glándula de 35 gramos sin nódulos dominantes. Desea resolver su enfermedad de forma definitiva porque planea buscar su primer embarazo el próximo año. Se decide administrar terapia ablativa con radioyodo I-131.",
+    "explicacion": "El radioyodo I-131 es una excelente alternativa de tratamiento definitivo en recidivas de Graves en pacientes sin orbitopatía activa y sin bocio gigante compresivo. Sin embargo, dado el deseo de embarazo futuro de la paciente, la indicación médica fundamental consiste en asegurar que no exista embarazo en curso mediante test de hCG negativo y prescribir un método anticonceptivo eficaz durante al menos 6 meses tras la dosis ablativa. Este período de seguridad garantiza la eliminación completa del isótopo radiactivo, la resolución de la inflamación post-radiación y la titulación adecuada de la levotiroxina una vez instaurado el hipotiroidismo permanente esperado.",
+    "baseQuestions": [
+      {
+        "stem": "Una paciente de 42 años con antecedente de bocio multinodular tóxico de 45 g, sin síntomas compresivos, consulta para definir tratamiento curativo. La paciente tiene paridad completa y no tiene deseos de futuros embarazos. Se le propone tratamiento ablativo con radioyodo I-131. ¿Cuál de las siguientes afirmaciones respecto a esta terapia es correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "La probabilidad de remisión completa sin requerir levotiroxina es superior al 95%"
+          },
+          {
+            "id": "B",
+            "text": "El resultado esperado más frecuente a largo plazo es el hipotiroidismo permanente, el cual requiere suplementación de por vida"
+          },
+          {
+            "id": "C",
+            "text": "La paciente puede amamantar sin restricciones a su hijo lactante de 8 meses el día posterior al radioyodo"
+          },
+          {
+            "id": "D",
+            "text": "El I-131 está contraindicado porque los bocios multinodulares responden exclusivamente a tiamazol de por vida"
+          },
+          {
+            "id": "E",
+            "text": "El fármaco debe asociarse a dosis altas de aspirina para potenciar la fijación del isótopo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El radioyodo I-131 destruye el tejido tiroideo hiperfuncionante mediante radiación beta local. En el seguimiento a mediano y largo plazo, la gran mayoría de los pacientes tratados (> 80%) desarrollan hipotiroidismo definitivo, lo cual no se considera un fracaso del tratamiento sino la consecuencia biológica esperada del proceso ablativo curativo. Por esta razón, se les debe advertir formalmente que requerirán controles periódicos de TSH y suplementación diaria indefinida con levotiroxina oral. La lactancia es una contraindicación absoluta para el radioyodo."
+      },
+      {
+        "stem": "Un paciente de 38 años con Enfermedad de Graves y un bocio difuso masivo de 120 gramos con compresión traqueal sintomática será sometido a una tiroidectomía total programada. Se encuentra actualmente eutiroideo bajo tratamiento con tiamazol 20 mg/día. Para minimizar el sangrado operatorio y reducir la vascularización de la glándula durante el acto quirúrgico, ¿cuál es la medida farmacológica preoperatoria recomendada en los 7 a 10 días previos a la cirugía?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Indicar solución de Lugol (yoduro inorgánico) oral 3 a 5 gotas cada 8 horas"
+          },
+          {
+            "id": "B",
+            "text": "Suspender el tiamazol e iniciar propiltiouracilo a dosis altas"
+          },
+          {
+            "id": "C",
+            "text": "Administrar una dosis baja de radioyodo I-131 48 horas antes de la incisión"
+          },
+          {
+            "id": "D",
+            "text": "Indicar anticoagulación plena con heparina de bajo peso molecular"
+          },
+          {
+            "id": "E",
+            "text": "Administrar carbonato de litio para aumentar la captación de hormonas"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La administración de solución de Lugol (o SSKI, solución saturada de yoduro de potasio) durante 7 a 10 días inmediatamente previos a la cirugía es la práctica estándar en la preparación preoperatoria de la tiroidectomía en pacientes con hipertiroidismo. Las altas concentraciones de yoduro inorgánico desencadenan el efecto Wolff-Chaikoff transitorio (inhibiendo la proteólisis del coloide y la liberación hormonal) y producen una marcada vasoconstricción y disminución del flujo sanguíneo glandular, lo que reduce ostensiblemente el tamaño de los vasos tiroideos, la fragilidad tisular y el riesgo de hemorragia intraoperatoria masiva."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-12",
+    "title": "Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria",
+    "perfilCode": "1.04.1.006",
+    "dx": "Cortisol plasmático matinal (< 3 mcg/dL confirma; 3-15 requiere test de ACTH/Synacthen). ACTH elevada confirma primaria (Addison); ACTH baja orienta a secundaria",
+    "tx": "Reemplazo con Hidrocortisona (15-25 mg/día en 2-3 tomas) + Fludrocortisona (0.05-0.1 mg/día SOLO en primaria/Addison). Educar ajuste por estrés",
+    "seg": "Monitoreo clínico (peso, PA de pie/sentado, energía), electrolitos plasmáticos y renina plasmática. NUNCA guiar dosis con cortisol plasmático",
+    "ges": "No GES directo. Garantía en Ley Ricarte Soto para bombas o fármacos especializados si aplica, derivación prioritaria",
+    "tier": 2,
+    "keyPoints": [
+      "La causa más frecuente de Enfermedad de Addison en adultos es la Adrenalitis Autoinmune (aislada o asociada a otros trastornos autoinmunes).",
+      "La HIPERPIGMENTACIÓN de piel y mucosas es patognomónica de la insuficiencia suprarrenal primaria debido al incremento masivo de ACTH.",
+      "La presencia de HIPERKALEMIA orienta con fuerza a insuficiencia primaria (Addison) por pérdida de aldosterona; en la secundaria el potasio es normal.",
+      "Un cortisol matinal (08:00 h) < 3 mcg/dL es diagnóstico de insuficiencia; si está entre 3 y 15 mcg/dL se confirma con el Test de ACTH (Synacthen 250 mcg).",
+      "La respuesta normal al Synacthen es un ascenso del cortisol plasmático a un valor pico ≥ 18 mcg/dL a los 30 o 60 minutos.",
+      "El tratamiento de la Enfermedad de Addison requiere OBLIGATORIAMENTE dos fármacos: Hidrocortisona (glucocorticoide) + Fludrocortisona (mineralocorticoide).",
+      "En la insuficiencia secundaria NUNCA se administra fludrocortisona porque la secreción de aldosterona está conservada.",
+      "Los pacientes deben ser educados para duplicar o triplicar la dosis de hidrocortisona ante estrés agudo (fiebre, infecciones o cirugías menores)."
+    ],
+    "vignette": "Una mujer de 33 años consulta por astenia progresiva de 6 meses de evolución, mareos al ponerse de pie, anorexia, pérdida de 7 kg de peso y preferencia marcada por ingerir alimentos muy salados. Al examen físico se aprecia adelgazada, con PA 90/60 mmHg que desciende a 75/50 mmHg al ponerse de pie (ortostatismo positivo), FC 88 lpm. Llama la atención una coloración bronceada oscura y homogénea en zonas no expuestas al sol, destacando hiperpigmentación marcada en pliegues palmares, cicatriz de cesárea antigua y máculas negruzcas en la mucosa oral interna. Sus exámenes de laboratorio revelan: Sodio 128 mEq/L, Potasio 5.6 mEq/L, Glicemia 68 mg/dL y Cortisol matinal de 1.8 mcg/dL.",
+    "explicacion": "El cuadro clínico y electrolítico es patognomónico de una Insuficiencia Suprarrenal Primaria (Enfermedad de Addison). La presencia conjunta de astenia crónica, hipotensión ortostática, avidez por la sal, hiperpigmentación cutáneo-mucosa característica (estimulación del receptor MC1R por el exceso de ACTH) y la combinación clásica de hiponatremia con hiperkalemia (por déficit de aldosterona) orientan con certeza a una destrucción primaria de la corteza adrenal. El cortisol < 3 mcg/dL confirma la insuficiencia. El manejo crónico definitivo requiere suplementación combinada obligatoria de glucocorticoides (hidrocortisona) y mineralocorticoides (fludrocortisona).",
+    "baseQuestions": [
+      {
+        "stem": "Un hombre de 42 años acude a la consulta médica por debilidad marcada, náuseas recurrentes, baja de 6 kg de peso e hipotensión arterial. Al examen físico destaca hiperpigmentación marcada en surcos de las manos, codos y encías. Sus exámenes demuestran Na+ 129 mEq/L, K+ 5.8 mEq/L y glicemia de 70 mg/dL. El cortisol basal a las 08:00 h resulta en 2.0 mcg/dL con ACTH plasmática de 180 pg/mL (VN < 50). ¿Cuál es el tratamiento sustitutivo crónico de elección que debe prescribirse?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hidrocortisona oral en monoterapia"
+          },
+          {
+            "id": "B",
+            "text": "Prednisona oral asociada a espironolactona"
+          },
+          {
+            "id": "C",
+            "text": "Hidrocortisona oral asociada obligatoriamente a Fludrocortisona oral"
+          },
+          {
+            "id": "D",
+            "text": "Dexametasona oral en dosis nocturna única"
+          },
+          {
+            "id": "E",
+            "text": "Fludrocortisona oral en monoterapia sin glucocorticoides"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente presenta una Insuficiencia Suprarrenal Primaria (Enfermedad de Addison), confirmada por el cortisol < 3 mcg/dL, ACTH marcadamente elevada, hiperpigmentación cutáneo-mucosa y el trastorno hidroelectrolítico con hiponatremia e hiperkalemia severa secundario a déficit concomitante de mineralocorticoides. Al estar destruida la totalidad de la corteza suprarrenal, el paciente carece tanto de cortisol como de aldosterona. Por lo tanto, el esquema terapéutico sustitutivo crónico indispensable de por vida exige la combinación de un glucocorticoide (Hidrocortisona 15-25 mg/día repartidos) y un mineralocorticoide (Fludrocortisona 0.05-0.1 mg/día en toma matinal única)."
+      },
+      {
+        "stem": "Una mujer de 58 años con antecedente de artritis reumatoide en tratamiento crónico con prednisona 15 mg diarios durante 2 años decide suspender bruscamente el fármaco por cuenta propia. A los 5 días consulta en el policlínico por debilidad extrema, náuseas, astenia e hipotensión postural (PA 95/60 mmHg). Se constata piel pálida sin hiperpigmentación. El laboratorio muestra Na+ 131 mEq/L, K+ 4.2 mEq/L, ACTH de 4 pg/mL y cortisol de 2.1 mcg/dL. ¿Cuál es el mecanismo fisiopatológico principal que explica este cuadro?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Destrucción autoinmune aguda de la glándula suprarrenal"
+          },
+          {
+            "id": "B",
+            "text": "Supresión exógena prolongada del eje hipotálamo-hipófisis con atrofia corticosuprarrenal secundaria y déficit exclusivo de glucocorticoides con aldosterona preservada"
+          },
+          {
+            "id": "C",
+            "text": "Falla mineralocorticoide primaria con pérdida renal masiva de potasio"
+          },
+          {
+            "id": "D",
+            "text": "Secreción ectópica de péptidos suresores adrenales"
+          },
+          {
+            "id": "E",
+            "text": "Síndrome de lisis corticosuprarrenal por nefropatía intersticial"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La suspensión brusca de una corticoterapia sistémica administrada a dosis suprafisiológicas por más de 3 a 4 semanas es la causa más común de Insuficiencia Suprarrenal Secundaria/Terciaria. El glucocorticoide exógeno inhibe de forma persistente la síntesis de CRH hipotalámica y ACTH hipofisaria (demostrada por la ACTH suprimida de 4 pg/mL), conduciendo a la atrofia por desuso de la zona fascicular y reticular de la corteza suprarrenal. Dado que la zona glomerulosa productora de aldosterona no depende de ACTH sino del sistema renina-angiotensina, la aldosterona se encuentra conservada, razón por la cual los niveles de potasio son rigurosamente normales (K+ 4.2 mEq/L) y no se produce hiperpigmentación."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "endocrinologia",
+    "specialtyName": "Endocrinología",
+    "classId": "endo-17",
+    "title": "Hipocalcemia Aguda y Crónica: Diagnóstico y Manejo de Emergencia",
+    "perfilCode": "1.04.1.010",
+    "dx": "Calcio total corregido por albúmina < 8.5 mg/dL o Calcio Iónico < 4.0 mg/dL (1.0 mmol/L) + Signos de irritabilidad neuromuscular (Trousseau / Chvostek)",
+    "tx": "Aguda sintomática: Gluconato de Calcio al 10% 1-2 ampollas EV en 10-20 min + infusión continua. Corregir magnesio si hipomagnesemia",
+    "seg": "Monitoreo cardíaco continuo (riesgo QT largo y arritmias). Monitoreo de calcemia, magnesemia y producto calcio-fósforo en tratamiento crónico",
+    "ges": "No GES directo. Garantías por patología tiroidea/oncológica previa si aplica",
+    "tier": 2,
+    "keyPoints": [
+      "La causa más frecuente de hipocalcemia aguda en el paciente hospitalizado es el Hipoparatiroidismo Postquirúrgico post-tiroidectomía total.",
+      "El Signo de Trousseau (espasmo carpopedal al inflar el manguito de PA durante 3 minutos) es más sensible y específico que el signo de Chvostek.",
+      "La manifestación electrocardiográfica característica de la hipocalcemia es la PROLONGACIÓN DEL INTERVALO QT a expensas del segmento ST.",
+      "Tratamiento de rescate inmediato en hipocalcemia sintomática: GLUCONATO DE CALCIO AL 10% (1-2 ampollas EV lento en 10-20 minutos).",
+      "Se prefiere gluconato de calcio sobre cloruro de calcio porque este último produce necrosis tisular grave en caso de extravasación.",
+      "REGLA DE ORO: En toda hipocalcemia refractaria, SIEMPRE sospechar y medir MAGNESIO; la hipomagnesemia bloquea la secreción y acción de la PTH.",
+      "El tratamiento crónico del hipoparatiroidismo permanente requiere Calcio oral asociado a CALCITRIOL (vitamina D activa), ya que sin PTH no hay 1-alfa-hidroxilasa.",
+      "En el tratamiento crónico se busca mantener el calcio en el límite bajo-normal (8.0 a 8.5 mg/dL) para evitar hipercalciuria y nefrocalcinosis."
+    ],
+    "vignette": "Una mujer de 38 años fue sometida a una tiroidectomía total electiva hace 36 horas por un bocio multinodular compresivo. Durante el postoperatorio inmediato en sala de cirugía refiere hormigueos intensos y sensación de adormecimiento peribucal bilateral, que progresa rápidamente a parestesias dolorosas en ambas manos y pies. Al examen físico se aprecia angustiada, taquipneica, con signos vitales estables. Al medir la presión arterial e inflar el manguito a 160 mmHg por 2 minutos, la paciente presenta una flexión involuntaria dolorosa de la muñeca y dedos de la mano derecha en forma de garra (signo de Trousseau positivo). El ionograma urgente informa: Calcio corregido de 6.7 mg/dL y Magnesio sérico de 2.0 mg/dL. El ECG revela un intervalo QTc prolongado de 510 ms.",
+    "explicacion": "La paciente presenta una Hipocalcemia Aguda Sintomática Severa por hipoparatiroidismo post-tiroidectomía total (complicación postoperatoria frecuente por lesión transitoria o definitiva de las glándulas paratiroides). La presencia de tetania latente manifiesta por el Signo de Trousseau positivo y prolongación peligrosa del intervalo QT en el electrocardiograma representa una urgencia vital con riesgo de laringoespasmo y arritmias ventriculares. El tratamiento de rescate inmediato de elección indiscutido es la administración de Gluconato de Calcio al 10% (1 a 2 ampollas EV lento en 10-20 minutos bajo monitorización cardíaca continua), seguido de infusión de mantenimiento y transición precoz a carbonato de calcio oral más calcitriol.",
+    "baseQuestions": [
+      {
+        "stem": "Una paciente de 42 años intervenida de tiroidectomía total hace 48 horas presenta parestesias periorales, contractura muscular dolorosa en ambas manos al inflar el manguito de presión arterial (signo de Trousseau positivo) y sensación de falta de aire con estridor inspiratorio leve. El laboratorio urgente confirma un calcio plasmático de 6.1 mg/dL. ¿Cuál es la conducta terapéutica inmediata más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar carbonato de calcio 1 g por vía oral y citar a control en 24 horas"
+          },
+          {
+            "id": "B",
+            "text": "Administrar una ampolla de Gluconato de Calcio al 10% por vía endovenosa lenta en 10 a 20 minutos bajo monitorización cardíaca"
+          },
+          {
+            "id": "C",
+            "text": "Administrar vitamina D3 (colecalciferol) 100.000 UI en dosis oral única"
+          },
+          {
+            "id": "D",
+            "text": "Indicar rebreathing con bolsa de papel para aumentar la pCO2"
+          },
+          {
+            "id": "E",
+            "text": "Administrar cloruro de potasio en bolo endovenoso rápido"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La paciente presenta una hipocalcemia aguda sintomática severa con signos de tetania e inicio de laringoespasmo (estridor inspiratorio) secundario a hipoparatiroidismo post-tiroidectomía. Esta situación constituye una emergencia médica con riesgo inminente de asfixia por laringoespasmo o arritmias ventriculares letales por QT largo. El tratamiento de rescate inmediato de elección es la administración endovenosa lenta de Gluconato de Calcio al 10% (1 a 2 ampollas diluidas administradas en 10 a 20 minutos bajo monitor continuo de ECG). El calcio oral y la vitamina D son insuficientes y demasiado lentos para controlar una emergencia aguda de estas características."
+      },
+      {
+        "stem": "Un paciente alcohólico crónico de 54 años ingresa desnutrido con tetania muscular y parestesias. El calcio sérico es de 6.8 mg/dL. Pese a recibir dos bolos endovenosos consecutivos de gluconato de calcio, el paciente persiste tetánico con calcio sérico en 6.9 mg/dL. ¿Cuál es el examen de laboratorio que debe solicitarse de inmediato para identificar la causa de la refractariedad terapéutica?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Magnesemia plasmática"
+          },
+          {
+            "id": "B",
+            "text": "Calcitonina sérica"
+          },
+          {
+            "id": "C",
+            "text": "TSH sérica"
+          },
+          {
+            "id": "D",
+            "text": "Ácido fólico plasmático"
+          },
+          {
+            "id": "E",
+            "text": "Plomo en sangre"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La hipomagnesemia severa (< 1.0 mg/dL) es una causa clásica de hipocalcemia clínicamente indistinguible de la tetania por hipoparatiroidismo y profundamente refractaria a la administración aislada de calcio endovenoso. El magnesio es un cofactor indispensable tanto para la secreción fisiológica de PTH por las paratiroides como para la respuesta de los órganos diana (hueso y riñón) a la propia PTH. En pacientes con pérdidas gastrointestinales, uso crónico de diuréticos o alcoholismo desnutrido, la coexistencia de hipomagnesemia bloquea el eje del calcio. La administración de Sulfato de Magnesio EV es obligatoria para poder corregir la calcemia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-01",
+    "title": "Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
+    "perfilCode": "1.08.1.001",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "No GES directo · Programa de Salud del Adulto Mayor y APS",
+    "tier": 2,
+    "keyPoints": [
+      "Puntos de corte OMS: Hb < 13 g/dL en varones y < 12 g/dL en mujeres adultas no embarazadas.",
+      "El hematocrito aproximado equivale al triple de la hemoglobina (Hto ≈ 3 × Hb); en deshidratación el Hto se sobrestima.",
+      "IRC > 2.0% clasifica la anemia como regenerativa: las causas son hemólisis o hemorragia aguda reciente.",
+      "IRC < 2.0% clasifica la anemia como arregenerativa: abarca anemias carenciales, aplasias y enfermedades crónicas.",
+      "Las pérdidas hemáticas digestivas crónicas son arregenerativas debido a la pérdida concomitante de reservas de hierro.",
+      "Trombocitosis reactiva en el hemograma acompaña frecuentemente a la microcitosis en la anemia ferropénica."
+    ],
+    "vignette": "Hombre de 72 años, autovalente, consulta en CESFAM por astenia y palidez cutaneomucosa progresiva de 3 meses. Niega melena evidente ni hematuria. Hemograma: Hb 8.8 g/dL, Hto 27%, VCM 74 fL, HCM 24 pg, Leucocitos 6.100/uL, Plaquetas 420.000/uL, Reticulocitos 0.6%. En el examen segmentario se ausculta soplo sistólico eyectivo grado II/VI en foco aórtico, sin taquicardia ni signos de insuficiencia cardíaca.",
+    "explicacion": "Anemia microcítica hipocrómica con trombocitosis reactiva y respuesta arregenerativa (IRC < 2%). La sospecha rectora es anemia ferropénica secundaria a sangrado digestivo oculto. Se debe solicitar perfil de hierro inmediato y programar endoscopía digestiva alta y colonoscopía de urgencia.",
+    "baseQuestions": [
+      {
+        "stem": "900 x mm3, VCM: 106 ft, HCM: 32 pg, VHS: 32 mm/h. Al frotis sólo destacan\nplaquetas disminuidas y macrocitosis leve. Al examen físico no se detectan\notras alteraciones. La conducta más adecuada es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solicitar biopsia de médula ósea"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar vitamina 12 y folatos"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar sulfato ferroso"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar niveles plasmáticos de homocisteína"
+          },
+          {
+            "id": "E",
+            "text": "Solicitarde Coombs directo y haptoglobinay­oncologia/ 4/6"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La respuesta correcta es solicitar una biopsia de médula ósea. El paciente presenta trombocitopenia (plaquetas disminuidas) y macrocitosis leve (VCM elevado), con un recuento de glóbulos rojos que no se especifica pero implícitamente se asume dentro de la normalidad dado que no se menciona anemia. La elevación aislada del VCM sin anemia clara, junto con la trombocitopenia, puede ser indicativa de una patología medular subyacente que afecta la producción de todas las líneas celulares. La VHS elevada (32 mm/h) es un marcador inespecífico de inflamación, pero en el contexto de las alteraciones hematológicas, podría ser un signo de alarma. Ante la sospecha de una disfunción medular que no puede ser explicada por deficiencias nutricionales comunes o por hemólisis, la biopsia de médula ósea es el estudio de elección para evaluar la celularidad, la morfología de las células hematopoyéticas y descartar condiciones como síndromes mielodisplásicos, aplasia medular o infiltración neoplásica.\n\nAnálisis de distractores:\nb) Iniciar vitamina B12 y folatos: Si bien la deficiencia de vitamina B12 o folatos causa macrocitosis, generalmente se asocia con anemia megaloblástica y otras citopenias. Sin embargo, la ausencia de anemia o de otras manifestaciones clínicas que sugieran estas deficiencias, sumado a la trombocitopenia, hace que iniciar este tratamiento empíricamente sin un diagnóstico sea precipitado. La biopsia de médula ósea permitirá confirmar o descartar estas deficiencias si se observan megaloblastos u otras alteraciones características.\n\nc) Iniciar sulfato ferroso: El sulfato ferroso se utiliza para tratar la anemia por deficiencia de hierro. La macrocitosis (VCM elevado) es opuesta a lo que se observa en la deficiencia de hierro, donde el VCM suele estar disminuido. Por lo tanto, esta opción es incorrecta.\n\nd) Solicitar niveles plasmáticos de homocisteína: Los niveles elevados de homocisteína pueden estar asociados a deficiencia de vitamina B12 o folatos, pero solicitar este examen sin una sospecha clínica fuerte o como primera medida ante una trombocitopenia y macrocitosis no explicada, es menos preciso que evaluar directamente la médula ósea.\n\ne) Solicitar prueba de Coombs directo y haptoglobina: La prueba de Coombs directo se utiliza para detectar anemia hemolítica autoinmune, y la haptoglobina ayuda a evaluar la hemólisis. Dado que no hay evidencia de hemólisis en la descripción del caso (no se menciona anemia, ictericia, o hallazgos de laboratorio que sugieran hemólisis), estas pruebas no serían la prioridad ni la conducta más adecuada inicialmente."
+      },
+      {
+        "stem": "Un paciente con anemia normocítica normocrómica, se realiza exámenes\nque demuestran índice reticulocitario bajo, ferritina baja, ferremia baja y\ntransferrina muy elevada. El diagnóstico más probable es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mielodisplasia"
+          },
+          {
+            "id": "B",
+            "text": "Anemia de enfermedades crónicas"
+          },
+          {
+            "id": "C",
+            "text": "Anemia ferropénica"
+          },
+          {
+            "id": "D",
+            "text": "Hemocromatosis"
+          },
+          {
+            "id": "E",
+            "text": "Anemia hemolítica"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La anemia normocítica normocrómica indica que los glóbulos rojos tienen un tamaño y contenido de hemoglobina normales, lo que limita las opciones iniciales. El índice reticulocitario bajo sugiere que la médula ósea no está respondiendo adecuadamente a la anemia, es decir, no está produciendo suficientes glóbulos rojos. La ferritina baja (depósitos de hierro disminuidos), la ferremia baja (hierro en sangre bajo) y la transferrina elevada (proteína transportadora de hierro aumentada) son hallazgos clásicos de anemia ferropénica. El cuerpo intenta compensar la falta de hierro aumentando la producción de transferrina para capturar la mayor cantidad de hierro posible.\n\nEn resumen, la combinación de una anemia normocítica normocrómica con bajo índice reticulocitario y un perfil de hierro compatible con deficiencia (ferritina baja, ferremia baja y transferrina alta) apunta fuertemente a una anemia ferropénica en una fase inicial donde aún no se ha desarrollado la microcitosis e hipocromía típicas de la anemia ferropénica crónica. La anemia ferropénica es la causa más común de anemia en la práctica clínica.\n\nAnálisis de distractores:\n*   **a) Mielodisplasia:** La mielodisplasia es un síndrome donde la médula ósea no produce células sanguíneas normales. Aunque puede causar anemia, típicamente se asocia con citopenias en otras líneas celulares (leucopenia, trombocitopenia) y con reticulocitos normales o altos, además de frotis con displasia. El perfil de hierro no suele ser el de una ferropenia establecida.\n\n*   **b) Anemia de enfermedades crónicas:** Esta anemia también suele ser normocítica normocrómica (aunque a veces puede ser microcítica), pero el perfil de hierro es distinto. La ferritina suele estar normal o alta (porque el hierro está atrapado en los macrófagos), la ferremia es baja y la transferrina es normal o baja. El índice reticulocitario suele ser bajo.\n\n*   **d) Hemocromatosis:** Es una condición de sobrecarga de hierro. La ferritina y la ferremia estarían elevadas, y la transferrina estaría baja o normal.\n\n*   **e) Anemia hemolítica:** Generalmente cursa con un aumento de reticulocitos (respuesta compensatoria de la médula ósea) y otros signos de hemólisis, como aumento de LDH y bilirrubina indirecta. El perfil de hierro no se ajusta a una ferropenia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-06",
+    "title": "Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato",
+    "perfilCode": "1.08.1.004",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "No GES directo · Suplementación en Adulto Mayor y Cirugía Bariátrica",
+    "tier": 3,
+    "keyPoints": [
+      "El déficit de vitamina B12 produce afectación neurológica (degeneración combinada subaguda); el déficit de folatos NO.",
+      "La degeneración combinada subaguda afecta cordones posteriores (propiocepción/vibración) y laterales (Babinski/espasticidad).",
+      "El ácido metilmalónico sérico está elevado en el déficit de B12 y es rigurosamente normal en el déficit de ácido fólico.",
+      "Peligro de examen: administrar ácido fólico aislado en déficit de B12 empeora irreversiblemente el daño neurológico.",
+      "La anemia perniciosa se debe a gastritis atrófica autoinmune con anticuerpos anti-factor intrínseco y riesgo de cáncer gástrico.",
+      "La absorción de B12 ocurre en el íleon terminal acoplada al factor intrínseco; el folato se absorbe en el yeyuno proximal.",
+      "Al iniciar B12 parenteral debe vigilarse la hipopotasemia aguda por consumo intracelular de potasio en la eritropoyesis.",
+      "En pacientes gastrectomizados o con bypass gástrico la suplementación de B12 debe ser profiláctica e indefinida."
+    ],
+    "vignette": "Mujer de 74 años con antecedentes de hipotiroidismo y vitíligo, consulta por astenia severa, parestesias progresivas en ambos pies y dificultad para caminar en la oscuridad de 5 meses de evolución. En el examen físico destaca palidez con tinte ictérico flavínico leve, lengua lisa depapilada y brillante, marcha atáxica con signo de Romberg positivo y reflejos rotulianos exaltados con reflejo cutáneo plantar extensor (Babinski) bilateral. Hemograma: Hb 7.1 g/dL, VCM 118 fL, Plaquetas 110.000/uL, Leucocitos 3.200/uL, Reticulocitos 0.4%, LDH 1.200 UI/L, Bilirrubina indirecta 2.3 mg/dL.",
+    "explicacion": "Pancitopenia megaloblástica con eritropoyesis ineficaz y degeneración combinada subaguda de la médula espinal secundaria a anemia perniciosa (asociada a autoinmunidad tiroidea y vitíligo). Se debe dosificar vitamina B12 y ácido fólico de inmediato, solicitar anticuerpos anti-factor intrínseco y anti-células parietales, e iniciar tratamiento urgente con hidroxocobalamina 1.000 ug IM diarios con monitoreo estricto de kaliemia, contraindicando formalmente el ácido fólico en monoterapia.",
+    "baseQuestions": [
+      {
+        "stem": "Una de estas causas produce anemia megaloblástica. Señálela:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Pancreatectomía total."
+          },
+          {
+            "id": "B",
+            "text": "Anemia perniciosa."
+          },
+          {
+            "id": "C",
+            "text": "Gastrinoma."
+          },
+          {
+            "id": "D",
+            "text": "Enfermedad de Cröhn."
+          },
+          {
+            "id": "E",
+            "text": "Déficit de vitamina B1."
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La anemia megaloblástica es un tipo de anemia caracterizada por la presencia de eritrocitos (glóbulos rojos) anormalmente grandes (macrocitos) y precursores en la médula ósea también de gran tamaño (megaloblastos). Esto se debe fundamentalmente a una alteración en la síntesis de ADN durante la eritropoyesis, causada con mayor frecuencia por deficiencia de vitamina B12 (cobalamina) o folato. La anemia perniciosa es una causa específica de deficiencia de vitamina B12, donde el sistema inmunitario ataca las células parietales del estómago. Estas células son responsables de producir el factor intrínseco, una proteína esencial para la absorción de la vitamina B12 en el íleon terminal. Sin factor intrínseco, la vitamina B12 no se absorbe adecuadamente, lo que lleva a la anemia megaloblástica.\n\nPor lo tanto, la anemia perniciosa directamente causa la deficiencia de vitamina B12 necesaria para la síntesis normal de ADN en las células precursoras de la sangre, resultando en la anemia megaloblástica. Esta relación causa-efecto directa convierte a la anemia perniciosa en la respuesta correcta a la pregunta. Otras condiciones pueden contribuir a la deficiencia de B12 o folato, pero la anemia perniciosa es una causa clásica e intrínseca de deficiencia de B12 debido a la autoinmunidad contra las células parietales.\n\nAnálisis de distractores:\na) **Pancreatectomía total:** Si bien la pancreatectomía total puede afectar la absorción de nutrientes en general debido a la pérdida de enzimas pancreáticas, no es una causa directa ni común de anemia megaloblástica. La mala absorción de nutrientes, incluyendo folato, podría ocurrir, pero no es el mecanismo primario.\n\nc) **Gastrinoma:** Un gastrinoma es un tumor que secreta gastrina, lo que lleva a una hipersecreción de ácido gástrico. Esto puede causar úlceras pépticas severas, pero no afecta directamente la absorción de vitamina B12 ni folato.\n\nd) **Enfermedad de Crohn:** La enfermedad de Crohn puede causar anemia megaloblástica si afecta el íleon terminal, que es el sitio de absorción de la vitamina B12 en presencia del factor intrínseco. Sin embargo, no *produce* directamente la anemia megaloblástica; sino que la mala absorción secundaria a la enfermedad es la causa. Por lo tanto, si bien puede ser una causa indirecta, no es la respuesta más precisa.\n\ne) **Déficit de vitamina B1:** El déficit de vitamina B1 (tiamina) causa beriberi o síndrome de Wernicke-Korsakoff, que son trastornos neurológicos. No causa anemia megaloblástica."
+      },
+      {
+        "stem": "Una de estas causas produce anemia megaloblástica. Señálela:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Déficit de folatos."
+          },
+          {
+            "id": "B",
+            "text": "Anemia por enfermedades crónicas."
+          },
+          {
+            "id": "C",
+            "text": "Obesidad."
+          },
+          {
+            "id": "D",
+            "text": "Insuficiencia renal crónica."
+          },
+          {
+            "id": "E",
+            "text": "Déficit de vitamina C."
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La anemia megaloblástica es un tipo de anemia caracterizada por la presencia de glóbulos rojos anormalmente grandes (macrocitos) y, a menudo, un número reducido de ellos. Este tipo de anemia se produce debido a una síntesis defectuosa de ADN, lo que interfiere con la maduración de las células precursoras en la médula ósea, incluidas las de la línea eritroide. Los déficits de vitamina B12 (cobalamina) y de folato (ácido fólico) son las causas más comunes de este defecto en la síntesis de ADN. Cuando hay una deficiencia de folatos, la célula no puede producir las purinas y pirimidinas necesarias para la replicación del ADN, lo que resulta en células que crecen pero no se dividen adecuadamente, llevando a la formación de megaloblastos en la médula ósea y a la producción de macrocitos circulantes.\n\nEl folato es esencial para la transferencia de unidades de un carbono durante la síntesis de timidilato, un componente crucial del ADN. La deficiencia de folato puede ser causada por una ingesta dietética inadecuada (común en alcoholismo, dietas restrictivas), mala absorción (enfermedad celíaca, resecciones intestinales), o un aumento de la demanda (embarazo, lactancia, hemólisis crónica). La corrección de la deficiencia de folatos mediante suplementación dietética o farmacológica suele revertir la anemia megaloblástica.\n\nAnálisis de distractores:\nb) Anemia por enfermedades crónicas (AEC): La AEC es un tipo de anemia que ocurre en el contexto de enfermedades inflamatorias crónicas, infecciones o malignidad. Su patogenia implica mecanismos como la alteración del metabolismo del hierro, la supresión de la médula ósea y la reducción de la respuesta a la eritropoyetina. No produce megaloblastos ni macrocitos característicos de la anemia megaloblástica.\n\nc) Obesidad: La obesidad en sí misma no es una causa directa de anemia megaloblástica. Sin embargo, puede estar asociada con deficiencias nutricionales (incluyendo folato) debido a patrones dietéticos pobres o malabsorción secundaria a cirugías bariátricas, pero la obesidad per se no genera la anemia megaloblástica.\n\nd) Insuficiencia renal crónica: La insuficiencia renal crónica puede causar anemia, pero típicamente es una anemia normocítica y normocrómica, principalmente debido a la deficiencia de eritropoyetina y a la acumulación de toxinas urémicas que interfieren con la eritropoyesis. No se asocia con los hallazgos característicos de la anemia megaloblástica.\n\ne) Déficit de vitamina C: Un déficit severo de vitamina C puede causar escorbuto, que se manifiesta con hemorragias y debilidad general. Si bien puede haber anemia asociada, no es de tipo megaloblástica. La vitamina C es importante para la absorción de hierro y la síntesis de colágeno, pero no está directamente implicada en la síntesis de ADN de la manera que lo están el folato y la vitamina B12."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-11",
+    "title": "Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
+    "perfilCode": "1.08.1.005",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "No GES directo · Pruebas Básicas de Laboratorio (1.08.4.005)",
+    "tier": 2,
+    "keyPoints": [
+      "Hemostasia primaria (plaquetas/vWF): sangrado mucocutáneo inmediato (petequias, epistaxis, gingivorragia).",
+      "Hemostasia secundaria (factores): sangrado profundo tardío (hematomas musculares y hemartrosis articulares).",
+      "El TP/INR evalúa la vía extrínseca y común; la prolongación aislada del TP se debe a déficit del Factor VII.",
+      "El Factor VII tiene la vida media plasmática más corta (4-6 h), por lo que el TP es el primero en alterarse en daño hepático y acenocumarol.",
+      "El TTPK evalúa la vía intrínseca y común; se altera en Hemofilia A (FVIII), Hemofilia B (FIX) y heparina.",
+      "La Prueba de Mezcla 1:1 con plasma normal diferencia déficit de factores (corrige TTPK) de inhibidores circulantes (no corrige)."
+    ],
+    "vignette": "Hombre de 22 años, sin antecedentes de sangrados espontáneos ni cirugías previas, es programado para una apendicectomía electiva diferida. En los exámenes preoperatorios se constata: Hemograma con Hb 14.2 g/dL y Plaquetas 245.000/uL; Tiempo de Protrombina 12.2 segundos (INR 1.05, normal); Tiempo de Tromboplastina Parcial Activada (TTPK) 58 segundos (control normal 30 segundos). La prueba de mezcla 1:1 con plasma normal corrige completamente el TTPK a 31 segundos.",
+    "explicacion": "TTPK prolongado aislado con corrección completa en la prueba de mezcla 1:1. Esto confirma un déficit de factor de la vía intrínseca (no un inhibidor). La conducta médica obligada antes de cualquier intervención quirúrgica es diferir el procedimiento no urgente y solicitar dosificación plasmática específica de los factores VIII, IX y XI para diagnosticar una hemofilia A o B leve asintomática hasta el momento.",
+    "baseQuestions": [
+      {
+        "stem": "Un niño de 4 años ha presentado 2 hemartrosis de rodilla y varios episodios\nde hematomas profundos. Con alta probabilidad presentará:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Alteración del recuento de plaquetas"
+          },
+          {
+            "id": "B",
+            "text": "Alteración de lass de agregación plaquetaria"
+          },
+          {
+            "id": "C",
+            "text": "Alteración de los niveles plamáticos de fibrinógeno"
+          },
+          {
+            "id": "D",
+            "text": "Alteración del TTPA"
+          },
+          {
+            "id": "E",
+            "text": "Alteración del TP"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La presentación de hemartrosis recurrentes (sangrado en las articulaciones) y hematomas profundos en un niño de 4 años es altamente sugestiva de un trastorno de la coagulación, específicamente un defecto en la vía intrínseca de la cascada de coagulación. El tiempo de protrombina activado (TTPA) es una prueba de laboratorio que evalúa precisamente la vía intrínseca y la vía común de la coagulación. Un TTPA prolongado indica una deficiencia o disfunción de uno o más factores de coagulación involucrados en estas vías. Las hemartrosis son una manifestación clásica de trastornos severos de la coagulación, como la hemofilia A (deficiencia del factor VIII) o la hemofilia B (deficiencia del factor IX), ambos de herencia ligada al cromosoma X y que cursan con un TTPA prolongado y un TP normal.\n\nPor lo tanto, con alta probabilidad, este niño presentará una alteración del TTPA debido a una deficiencia en la vía intrínseca de la coagulación, lo que conduce a su tendencia a sangrar excesivamente en articulaciones y tejidos profundos. Es importante destacar que aunque el tiempo de protrombina (TP) evalúa la vía extrínseca y la vía común, en las hemofilias típicas el TP suele ser normal. Las plaquetas y su función, así como el fibrinógeno, son evaluados por otras pruebas y, aunque pueden verse afectados secundariamente en algunas coagulopatías severas, la alteración primaria que explica estas manifestaciones clínicas se encuentra en los factores de coagulación medidos por el TTPA.\n\nAnálisis de distractores:\na) Alteración del recuento de plaquetas: Un recuento plaquetario anormal, como la trombocitopenia (bajo número de plaquetas) o la trombocitosis (alto número de plaquetas), causa principalmente sangrado a nivel cutáneo y de mucosas (petequias, púrpura), o trombosis en el caso de la trombocitosis. No son la causa principal de hemartrosis recurrente y hematomas profundos sin otras alteraciones plaquetarias evidentes.\n\nb) Alteración de las pruebas de agregación plaquetaria: Problemas en la agregación plaquetaria se manifiestan con sangrados de tipo petequial o equimótico superficial, sangrado de mucosas y prolongación del tiempo de sangría. Si bien pueden contribuir a un sangrado generalizado, no son la causa primaria de las hemartrosis severas que sugieren un defecto en la cascada de coagulación.\n\nc) Alteración de los niveles plasmáticos de fibrinógeno: El fibrinógeno (factor I) es fundamental en la vía común de la coagulación para formar el coágulo de fibrina. Niveles muy bajos de fibrinógeno (afibrinogenemia o hipofibrinogenemia) causan sangrado severo generalizado, incluyendo hemartrosis, pero se clasificarían dentro de las coagulopatías, y la prueba más sensible para detectar déficits en la vía intrínseca y común es el TTPA. Además, otras coagulopatías con TTPA prolongado son mucho más comunes.\n\ne) Alteración del TP: El tiempo de protrombina (TP) evalúa la vía extrínseca (factores VII) y la vía común (factores X, V, II, I). Un TP alterado sugiere deficiencias en estos factores, como se ve en la deficiencia de vitamina K, anticoagulación con warfarina, o coagulopatías como la deficiencia de factor VII. Las hemartrosis severas y la historia del niño son más características de déficits en la vía intrínseca, lo que lleva a un TTPA prolongado y un TP normal (en la mayoría de los casos de hemofilia)."
+      },
+      {
+        "stem": "Un niño de 6 años ha presentado varios hematomas musculares espontáneos\ny algunas hemartrosis a lo largo de su vida. La madre refiere que con\nfrecuencia presenta equimosis ante traumas menores. Usted esperaría\nencontrar:y­oncologia/ 2/6",
+        "options": [
+          {
+            "id": "A",
+            "text": "Disminución del recuento de plaquetas"
+          },
+          {
+            "id": "B",
+            "text": "Alargamiento del tiempo de sangría"
+          },
+          {
+            "id": "C",
+            "text": "Alargamiento del TTPA"
+          },
+          {
+            "id": "D",
+            "text": "Disminución del fibrinógeno"
+          },
+          {
+            "id": "E",
+            "text": "Alargamiento del tiempo de protrombina"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La presentación de hematomas musculares espontáneos y hemartrosis recurrentes en un niño de 6 años, junto con equimosis ante traumas menores, sugiere una diátesis hemorrágica hereditaria. La respuesta correcta, el alargamiento del TTPA (tiempo de tromboplastina parcial activada), apunta hacia un defecto en la vía intrínseca o común de la cascada de coagulación. Las hemofilias (A y B) son las causas más comunes de hemorragias significativas en niños y se caracterizan por deficiencias en los factores VIII y IX, respectivamente. Ambos factores participan en la vía intrínseca de la coagulación, y su deficiencia resulta en un TTPA prolongado mientras que el tiempo de protrombina (TP), que evalúa la vía extrínseca, y el tiempo de sangría suelen ser normales.\n\nEl TTPA evalúa la función de los factores de coagulación de la vía intrínseca (factores XII, XI, IX, VIII) y de la vía común (factores X, V, II, I). Un TTPA prolongado indica una anomalía en uno o más de estos factores. Dada la clínica de hemorragias profundas (hematomas, hemartrosis), la principal sospecha recae en las hemofilias. En estas patologías, la vía extrínseca (evaluada por el TP) y la hemostasia primaria (evaluada por el tiempo de sangría y el recuento plaquetario) son generalmente normales, lo que descarta otras causas de sangrado. Por lo tanto, el alargamiento del TTPA es el hallazgo más probable en este escenario clínico.\n\nAnálisis de distractores:\na) Disminución del recuento de plaquetas: Un recuento bajo de plaquetas (trombocitopenia) o una disfunción plaquetaria se manifestarían típicamente con sangrado de mucosas, petequias y equimosis en piel, que son más superficiales. Los hematomas musculares y las hemartrosis son menos comunes en trombocitopenias puras y más sugestivos de defectos en la coagulación.\n\nb) Alargamiento del tiempo de sangría: El tiempo de sangría es una medida de la hemostasia primaria, que depende de la función plaquetaria y la integridad de los vasos sanguíneos. Un tiempo de sangría prolongado se observa en trastornos plaquetarios o enfermedad de von Willebrand, pero no es la alteración principal en las hemofilias, que afectan la coagulación.\n\nd) Disminución del fibrinógeno: El fibrinógeno (factor I) es crucial para la formación del coágulo final. Una disminución severa del fibrinógeno (afibrinogenemia o hipofibrinogenemia) causaría un sangrado generalizado y prolongado. Sin embargo, las hemofilias no afectan directamente los niveles de fibrinógeno, sino los factores que activan la trombina, que a su vez convierte el fibrinógeno en fibrina.\n\ne) Alargamiento del tiempo de protrombina: El tiempo de protrombina (TP) evalúa la vía extrínseca de la coagulación (factores VII, X, V, II, I). Un TP prolongado sugiere un defecto en estos factores, como en la deficiencia de vitamina K, enfermedad hepática o deficiencia del factor VII. Las hemofilias afectan principalmente la vía intrínseca, dejando el TP generalmente normal."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-16",
+    "title": "Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
+    "perfilCode": "1.08.1.009",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES N° 37 y N° 8): Leucemias en personas de 15 años y más / Menores de 15 años",
+    "tier": 3,
+    "keyPoints": [
+      "Criterio rector de leucemia aguda según la OMS: presencia de ≥ 20% de blastos en médula ósea o sangre.",
+      "Los Bastones de Auer son patognomónicos de Leucemia Mieloide Aguda (LMA) y jamás se observan en LLA.",
+      "La LMA es la leucemia aguda del adulto; la LLA es la neoplasia maligna más común en pediatría (>85% curación).",
+      "La Leucemia Promielocítica Aguda (LMA-M3) cursa con t(15;17) y CID catastrófica que requiere ATRA urgente.",
+      "La LLA invade precozmente santuarios anatómicos (meninges y testículos), requiriendo quimioterapia intratecal profiláctica.",
+      "La presencia de blastos en sangre periférica exige mielograma y biopsia osteomedular urgente en centro terciario.",
+      "El tratamiento definitivo curativo en LMA de riesgo intermedio o adverso es el Trasplante Alogénico de Médula Ósea.",
+      "En Chile las leucemias agudas en todas las edades están cubiertas integralmente por las garantías GES N° 8 y N° 37."
+    ],
+    "vignette": "Mujer de 24 años, sin antecedentes mórbidos, es derivada de urgencia por astenia severa de 2 semanas, fiebre de 38.3 °C y sangrado gingival espontáneo profuso asociado a equimosis en extremidades. Al examen: palidez cérea, petequias en paladar y extremidades, sin adenopatías ni visceromegalias. Laboratorio: Hb 6.9 g/dL, Leucocitos 32.000/uL con 65% de blastos grandes con gránulos citoplasmáticos y múltiples Bastones de Auer visibles, Plaquetas 16.000/uL. Pruebas de coagulación: TP 18 seg (INR 1.8), TTPK 45 seg, Fibrinógeno 85 mg/dL, Dímero D > 15.000 ng/mL.",
+    "explicacion": "Leucemia Promielocítica Aguda (LMA-M3) complicada con Coagulación Intravascular Diseminada (CID) grave por consumo. La presencia de múltiples bastones de Auer (células de Faggot) y CID es una emergencia hematológica vital. Se debe iniciar INMEDIATAMENTE tratamiento con Ácido Todo-Trans-Retinoico (ATRA) por vía oral sin esperar citogenética ni biología molecular, asociar soporte de fibrinógeno con crioprecipitado para mantener > 150 mg/dL y transfundir plaquetas para situar > 50.000/uL, hospitalizando en UCI hemato-oncológica.",
+    "baseQuestions": [
+      {
+        "stem": "Paciente de 50 años, consulta por astenia y fiebre ocasional, de 3 semanas de\nevolución. Al examen destaca esplenomegalia y palidez. El hemograma muestra\nHcto: 29%, Hb: 9,2 g/dl blancos: 43.000, con 5% de linfocitos y 95% de neutrófilos,\ncon 10% segmentados, 0% baciliformes, 0% mielocitos, 74% promielocitos con\naumento de cantidad de citoplasma, núcleo bilobulados, plegado, con\nabundantes gránulos y 6% de blastos. El diagnóstico más probable es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Leucemia mieloide crónica"
+          },
+          {
+            "id": "B",
+            "text": "Leucemia mieloide aguda"
+          },
+          {
+            "id": "C",
+            "text": "Mononucleosis infecciosa"
+          },
+          {
+            "id": "D",
+            "text": "Fiebre tifoídea"
+          },
+          {
+            "id": "E",
+            "text": "Mielodiplasia"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La respuesta correcta es Leucemia Mieloide Aguda (LMA). La presentación clínica del paciente con astenia, fiebre ocasional, esplenomegalia y palidez es sugerente de una patología hematológica maligna. El hemograma revela una anemia moderada (Hcto: 29%, Hb: 9,2 g/dl) y una leucocitosis marcada (blancos: 43.000). El diferencial de leucocitos es crucial para el diagnóstico: un 95% de neutrófilos con una presencia significativa de promielocitos (74%) es altamente anormal. Los promielocitos son células inmaduras de la línea mieloide, y su gran cantidad, junto con la presencia de blastos (6%), indica una proliferación descontrolada de células mieloides inmaduras. Los promielocitos descritos con citoplasma abundante, núcleos bilobulados/plegados y gránulos gruesos, son características morfológicas típicas de promielocitos patológicos en el contexto de una LMA, especialmente en subtipos como la LMA M3 (Leucemia Promielocítica Aguda), aunque la descripción es generalizable a otros tipos de LMA. La presencia de blastos, células embrionarias anómalas, es un criterio diagnóstico definitorio para la LMA.\n\nAnálisis de distractores:\na) Leucemia mieloide crónica (LMC): La LMC se caracteriza típicamente por una leucocitosis marcada con una diferenciación mieloide madura, incluyendo presencia de todas las etapas de maduración (basales, mielocitos, metacitos, formas maduras), y usualmente no presenta un alto porcentaje de blastos. La LMC clásica tampoco muestra la predominancia de promielocitos patológicos observada en este caso.\nc) Mononucleosis infecciosa: La mononucleosis infecciosa es una infección viral (generalmente por el virus de Epstein-Barr) que causa linfocitosis, a menudo con linfocitos atípicos, y típicamente no cursa con esplenomegalia significativa ni con la presencia de promielocitos o blastos.\nd) Fiebre tifoídea: La fiebre tifoídea es una infección bacteriana que típicamente causa fiebre alta, malestar general y puede cursar con leucopenia o leucocitosis leve, pero no se asocia con la presencia de promielocitos o blastos en sangre periférica.\ne) Mielodisplasia: Los síndromes mielodisplásicos (SMD) son un grupo de neoplasias mieloides caracterizadas por hematopoyesis ineficaz y citopenias, con un riesgo de transformación a LMA. Si bien pueden haber displasias en las células mieloides y un aumento de blastos, el cuadro descrito con un 74% de promielocitos patológicos y 6% de blastos es mucho más compatible con una LMA establecida que con un SMD típico."
+      },
+      {
+        "stem": "Un enfermo de 30 años, que consulta por cansancio, presenta un\nhemograma con una cifra de leucocitos de 4.800/microL y un porcentaje de\nblastos del 75%. Su diagnóstico es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Anemia refractaria con exceso de blastos."
+          },
+          {
+            "id": "B",
+            "text": "Leucemia linfática crónica."
+          },
+          {
+            "id": "C",
+            "text": "Leucemia mieloide aguda."
+          },
+          {
+            "id": "D",
+            "text": "Leucemia mieloide crónica en fase crónica."
+          },
+          {
+            "id": "E",
+            "text": "Leucemia mielomonocítica crónica."
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La alternativa correcta es la **C (Leucemia mieloide aguda.)**. La clave aquí es la presencia de un alto porcentaje de blastos (75%) en el hemograma.  En general, se considera que un porcentaje de blastos ≥20% en sangre periférica o médula ósea es suficiente para el diagnóstico de leucemia aguda, según los criterios de la OMS. La leucemia mieloide aguda (LMA) se caracteriza por la proliferación clonal descontrolada de precursores mieloides (blastos) en la médula ósea, lo que interfiere con la hematopoyesis normal y conduce a citopenias. El paciente de 30 años presenta cansancio (sintomático de anemia) y el hemograma reporta leucocitos en rango normal (4.800/microL) pero con el porcentaje de blastos muy elevado. Esto sugiere fuertemente la presencia de una LMA. Si bien el recuento de leucocitos puede estar elevado, normal o disminuido en la LMA, el hallazgo de >20% de blastos es diagnóstico.\n\n**Referencia:** Si bien no existe una guía clínica MINSAL específica para leucemia mieloide aguda, las guías internacionales y textos de hematología son consistentes con este criterio diagnóstico. La OMS es la principal autoridad en la clasificación de neoplasias hematológicas.\n\nAnálisis de distractores:\n*   **A: Anemia refractaria con exceso de blastos:** Esta es una forma de síndrome mielodisplásico (SMD). Los SMD suelen presentarse con citopenias (anemia, trombocitopenia, leucopenia) y un porcentaje de blastos elevado, pero generalmente menor al 20% en sangre periférica y hasta 30% en médula ósea. Aunque un SMD puede transformarse en LMA, el porcentaje de blastos en este caso es mucho más alto que lo esperado para un SMD.\n*   **B: Leucemia linfática crónica:** Esta es una leucemia crónica que afecta a linfocitos maduros. En la LLC, el recuento de linfocitos está elevado y los blastos no son la característica principal. Además, es mucho más común en personas mayores.\n*   **D: Leucemia mieloide crónica en fase crónica:** La LMC se caracteriza por la presencia del cromosoma Filadelfia (t(9;22)) y la proteína de fusión BCR-ABL. En la fase crónica, el recuento de leucocitos está elevado, pero el porcentaje de blastos es bajo (<5%).\n*   **E: Leucemia mielomonocítica crónica:** Esta es una neoplasia mieloproliferativa/mielodisplásica crónica caracterizada por un aumento de monocitos en sangre periférica y displasia en una o más líneas celulares mieloides. Si bien puede haber blastos elevados, no suelen ser tan altos como en este caso (>20%)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-21",
+    "title": "Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
+    "perfilCode": "1.08.2.006",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud: Urgencia Vital en Paciente Oncológico GES",
+    "tier": 3,
+    "keyPoints": [
+      "Neutropenia: RAN < 500/uL (o < 1.000 con caída prevista); Fiebre: T° ≥ 38.3 °C única o ≥ 38.0 °C x 1 hora.",
+      "La \"Hora de Oro\" exige administrar el antibiótico endovenoso en menos de 60 minutos desde la llegada al hospital.",
+      "El tacto rectal y los termómetros rectales están ESTRICTAMENTE CONTRAINDICADOS en el paciente neutropénico.",
+      "El tratamiento de elección en neutropenia febril de alto riesgo (MASCC < 21) es monoterapia con Cefepime o Pip/Tazo EV.",
+      "La vancomicina NO se indica de rutina; se reserva para shock séptico, sospecha de infección de CVC o mucositis grave.",
+      "El paciente con score MASCC ≥ 21 (bajo riesgo) puede tratarse ambulatoriamente con ciprofloxacino + amoxicilina/clavulánico.",
+      "Si persiste febril al 4°-7° día a pesar de antibióticos plenos, se debe buscar infección fúngica (TC tórax) e iniciar antifúngico."
+    ],
+    "vignette": "Mujer de 53 años con cáncer de mama en tratamiento quimioterápico con esquema adriamicina y ciclofosfamida (último ciclo hace 10 días), consulta en urgencias por sensación febril cuantificada en 38.6 °C y calofríos intensos de 3 horas. Niega tos, disuria ni dolor abdominal. Al examen físico: PA 115/70 mmHg, FC 102 lpm, afebril al control (37.8 °C). Se observa catéter venoso central implantable sin signos de inflamación y cavidad oral con eritema leve sin úlceras. El examen perianal no muestra fisuras (el interno de turno intentó realizar tacto rectal, el cual fue suspendido). Laboratorio: Hb 9.4 g/dL, Leucocitos 800/uL con 10% de segmentados y 2% de baciliformes (RAN = 800 × 0.12 = 96 células/uL), Plaquetas 85.000/uL.",
+    "explicacion": "Neutropenia Febril grave de alto riesgo (temperatura > 38.3 °C con RAN 96/uL en fase de nadir posquimioterapia). Se prohíbe terminantemente realizar tacto rectal. La conducta médica inmediata inapelable es tomar dos sets de hemocultivos periféricos y por catéter e iniciar la primera dosis de monoterapia antipseudomónica endovenosa con Cefepime 2 g EV (o Piperacilina/Tazobactam 4.5 g EV) en MENOS DE 60 MINUTOS (\"Hora de Oro\"), hospitalizando en aislamiento protector.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 5 años, sin antecedentes de importancia presenta cuadro de 3\ndías de evolución de exantema petequial, asociado a sangramiento gingival al\ncepillarse los dientes. La madre refiere que cursó con una infección\nrespiratoria alta, autolimitada, hace 10 días. Al examen físico se aprecia\npaciente en buenas condiciones, afebril, con un exantema petequial\ngeneralizado. El examen más importante para confirmar la sospecha\ndiagnóstica es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hemograma con recuento de plaquetas"
+          },
+          {
+            "id": "B",
+            "text": "Hemocultivos"
+          },
+          {
+            "id": "C",
+            "text": "Pruebas de agregación plaquetaria"
+          },
+          {
+            "id": "D",
+            "text": "Tiempo de sangría"
+          },
+          {
+            "id": "E",
+            "text": "Tiempos de protrombina y de tromboplastina parcial activada"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La presentación clínica del paciente, un niño de 5 años con exantema petequial y sangrado gingival después de una infección respiratoria reciente, sugiere fuertemente una trombocitopenia inmune (PTI) aguda. La PTI es una causa común de trombocitopenia en niños, a menudo precedida por una infección viral. Las petequias, el sangrado gingival y la ausencia de otros síntomas sistémicos apuntan a un problema primario con las plaquetas. El examen inicial y más importante es determinar si el paciente tiene trombocitopenia, lo que se logra mediante un hemograma con recuento de plaquetas.\n\nUn hemograma con recuento de plaquetas confirmará la presencia de trombocitopenia (recuento de plaquetas bajo). Una vez confirmada la trombocitopenia, se pueden considerar otras pruebas para descartar otras causas o evaluar la gravedad de la condición, pero el hemograma es el primer paso esencial para confirmar la sospecha diagnóstica. El contexto clínico apunta claramente a una etiología inmune post-infecciosa, por lo que la evaluación inicial debe enfocarse en confirmar la trombocitopenia.\n\nAnálisis de distractores:\nb) Hemocultivos: Los hemocultivos se utilizan para detectar bacterias en la sangre, lo cual es relevante en casos de sepsis o infecciones sistémicas graves. En este caso, el paciente se encuentra afebril y en buenas condiciones generales, sin signos de infección activa grave que justifiquen la realización de hemocultivos. Si bien una infección pasada podría ser un factor desencadenante, la prueba directa no está indicada en este momento.\n\nc) Pruebas de agregación plaquetaria: Las pruebas de agregación plaquetaria evalúan la función de las plaquetas, pero son más útiles para investigar trastornos plaquetarios hereditarios o adquiridos que afectan la función plaquetaria, como la enfermedad de von Willebrand o el uso de antiagregantes plaquetarios. En este caso, la sospecha es de PTI, donde el problema principal es la disminución del número de plaquetas, no su función.\n\nd) Tiempo de sangría: El tiempo de sangría evalúa la función plaquetaria y la capacidad de formar un coágulo inicial. Aunque puede estar prolongado en la trombocitopenia, no es el examen inicial de elección para confirmar la sospecha diagnóstica, ya que es menos preciso y más invasivo que un simple recuento de plaquetas. Además, un tiempo de sangría prolongado podría deberse a otras causas aparte de la trombocitopenia.\n\ne) Tiempos de protrombina y de tromboplastina parcial activada (TP/TTPa): TP y TTPa evalúan las vías de coagulación intrínseca y extrínseca, respectivamente. Están indicados en la evaluación de trastornos de la coagulación, como deficiencias de factores de coagulación o anticoagulantes. En este caso, la presentación clínica sugiere un problema plaquetario (PTI) y no un trastorno de la coagulación. Los tiempos de coagulación suelen ser normales en la PTI."
+      },
+      {
+        "stem": "Un paciente con leucemia se realiza quimioterapia, evolucionando con una\nmarcada neutropenia. Al 5 día post-quimioterapia presenta fiebre hasta 39°C.\nUsted sabe que la mayoría de las infecciones bacterianas en los pacientes\nneutropénicos febriles es causada por Pseudomona aureginosa y que de\nmanera empírica debe ser tratado con doble cobertura para esta bacteria. ¿Qué\ncombinación de antibióticos es más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ceftriaxona + gentamicina"
+          },
+          {
+            "id": "B",
+            "text": "Piperacilina + vancomicina"
+          },
+          {
+            "id": "C",
+            "text": "Ciprofloxacino + metronidazol"
+          },
+          {
+            "id": "D",
+            "text": "Levofloxacino + clindamicina"
+          },
+          {
+            "id": "E",
+            "text": "Ceftazidina + amicacina"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "La pregunta describe un escenario clínico común en pacientes con cáncer que reciben quimioterapia: neutropenia febril. La neutropenia, una disminución significativa de neutrófilos en la sangre, compromete gravemente la capacidad del sistema inmunológico para combatir infecciones bacterianas. La fiebre en este contexto es una señal de alarma que requiere intervención inmediata y empírica. *Pseudomonas aeruginosa* es un patógeno oportunista de alta virulencia y frecuentemente implicado en infecciones graves en pacientes neutropénicos, incluso en ausencia de un foco infeccioso aparente. Por lo tanto, el tratamiento empírico debe asegurar una cobertura antibiótica potente y de amplio espectro contra este bacilo gramnegativo.\n\nLa combinación de Ceftazidina (una cefalosporina de tercera generación con excelente actividad contra *Pseudomonas aeruginosa*) y Amikacina (un aminoglucósido que también tiene una buena cobertura contra *Pseudomonas* y sinergia potencial con las cefalosporinas) proporciona una doble cobertura adecuada para abordar las infecciones bacterianas más probables y graves en este tipo de pacientes. Esta combinación ha sido históricamente recomendada y sigue siendo una opción sólida para el manejo empírico de la neutropenia febril, especialmente cuando se sospecha o se desea cubrir patógenos como *Pseudomonas*.\n\nAnálisis de distractores:\na) Ceftriaxona + gentamicina: Si bien la ceftriaxona es un antibiótico eficaz, su cobertura contra *Pseudomonas aeruginosa* no es tan robusta como la de la ceftazidima. La gentamicina es un aminoglucósido, pero la combinación de ceftriaxona con gentamicina puede ser insuficiente para garantizar una cobertura óptima contra *Pseudomonas* resistente o en situaciones de alta carga bacteriana.\n\nb) Piperacilina + vancomicina: La piperacilina es una penicilina antipseudomónica, lo cual es positivo. Sin embargo, la vancomicina está indicada principalmente para cubrir patógenos grampositivos, especialmente *Staphylococcus aureus* resistente a la meticilina (SARM) y *Enterococcus* resistentes a la vancomicina (ERV). Si bien puede ser necesaria en casos seleccionados de neutropenia febril (por ejemplo, si hay sospecha de catéter infectado o colonización por SARM), no aborda de manera directa la alta probabilidad de infecciones por bacilos gramnegativos como *Pseudomonas*.\n\nc) Ciprofloxacino + metronidazol: El ciprofloxacino es una fluoroquinolona con buena actividad contra *Pseudomonas*. Sin embargo, el metronidazol está diseñado para cubrir anaerobios y algunas bacterias atípicas. En el manejo empírico inicial de la neutropenia febril, no es el agente más adecuado para complementar la cobertura contra *Pseudomonas* y otros bacilos gramnegativos de importancia clínica.\n\nd) Levofloxacino + clindamicina: El levofloxacino es una fluoroquinolona con buena actividad antipseudomónica. Sin embargo, la clindamicina es un antibiótico que cubre grampositivos y anaerobios, pero su espectro no incluye a *Pseudomonas aeruginosa*. Esta combinación, aunque cubre algunos patógenos relevantes, no ofrece la doble cobertura específica y potente contra *Pseudomonas* requerida en este escenario."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-02",
+    "title": "Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina",
+    "perfilCode": "1.08.1.002",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "No GES directo · Examen de Laboratorio Perfil V3 (1.08.4.008)",
+    "tier": 2,
+    "keyPoints": [
+      "La ferritina sérica < 30 ng/mL es el indicador más confiable de déficit de hierro en ausencia de inflamación.",
+      "La ferritina es un reactante de fase aguda positivo: en presencia de PCR elevada, valores < 100 ng/mL aún sugieren ferropenia.",
+      "La transferrina plasmática es un reactante de fase aguda negativo: desciende en sepsis, artritis, cáncer y uremia.",
+      "En la anemia ferropénica pura la transferrina y la TIBC se encuentran elevadas.",
+      "La ferremia aislada carece de valor diagnóstico diferencial debido a sus fluctuaciones y caída tanto en ferropenia como en infección.",
+      "Ferritina > 3.000-5.000 ng/mL en contexto de fiebre y artritis orienta específicamente a Enfermedad de Still del adulto."
+    ],
+    "vignette": "Mujer de 54 años con artritis reumatoide en tratamiento con metotrexato, consulta por astenia. Hemograma: Hb 9.4 g/dL, VCM 83 fL, Leucocitos 7.800/uL, Plaquetas 390.000/uL. Perfil de hierro: Ferremia 32 ug/dL (VN 50-150), Transferrina 180 mg/dL (VN 200-360), TIBC 225 ug/dL (VN 250-420), Ferritina 380 ng/mL (VN 30-200), Saturación de transferrina 14%. Proteína C reactiva: 24 mg/L.",
+    "explicacion": "Anemia normocítica secundaria a inflamación crónica (anemia de las enfermedades crónicas), caracterizada por ferritina elevada como reactante de fase aguda y transferrina baja. El tratamiento consiste en optimizar el control de la artritis reumatoide de base; no está indicado suplementar hierro oral.",
+    "baseQuestions": [
+      {
+        "stem": "La ferropénica se caracteriza por presentar:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ferritina disminuida y transferrina elevada"
+          },
+          {
+            "id": "B",
+            "text": "Ferritina aumentada y transferrina disminuida"
+          },
+          {
+            "id": "C",
+            "text": "Ferritina y transferrina aumentadas"
+          },
+          {
+            "id": "D",
+            "text": "Ferritina y transferrina disminuidas"
+          },
+          {
+            "id": "E",
+            "text": "Ferritina y transferrina dentro de rangos normales"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La deficiencia de hierro (ferropénica) es la causa más común de anemia a nivel mundial. Se caracteriza por una disminución en las reservas de hierro del organismo. La ferritina es la principal proteína de almacenamiento de hierro en el cuerpo; por lo tanto, en un estado de deficiencia de hierro, los niveles de ferritina sérica se encuentran bajos, reflejando la escasez de hierro almacenado. Por otro lado, la transferrina es la principal proteína transportadora de hierro en la sangre. Ante una disminución del hierro disponible, el cuerpo intenta compensar aumentando la producción de transferrina. Esto se debe a que la hepcidina, la hormona reguladora del hierro, disminuye en la ferropénica, lo que a su vez promueve la síntesis de transferrina en el hígado. Un aumento en la transferrina circulante permite captar de manera más eficiente el escaso hierro disponible en la dieta y transportarlo a la médula ósea para la producción de glóbulos rojos.\n\nLa combinación de ferritina disminuida y transferrina elevada (o su índice, la capacidad total de fijación de hierro o TIBC, que estará aumentada) es el marcador bioquímico clásico de la ferropénica. Esta alteración refleja simultáneamente la depletedz de las reservas de hierro (baja ferritina) y el intento del organismo por movilizar y captar el hierro circulante (alta transferrina). Estos hallazgos son fundamentales para el diagnóstico diferencial de la anemia, distinguiéndola de otras causas como la anemia de enfermedad crónica o las anemias megaloblásticas.\n\nAnálisis de distractores:\nb) Ferritina aumentada y transferrina disminuida: Esto sería característico de una sobrecarga de hierro o de un estado inflamatorio donde la transferrina se comporta como reactante de fase aguda negativo.\nc) Ferritina y transferrina aumentadas: La ferritina elevada suele indicar un aumento de las reservas de hierro o un estado inflamatorio/infeccioso. Si bien la transferrina podría estar aumentada en ciertos contextos, la combinación no es típica de ferropénica.\nd) Ferritina y transferrina disminuidas: La ferritina disminuida es típica de ferropénica, pero una transferrina disminuida no lo es; de hecho, el cuerpo intenta aumentarla. Podría verse una disminución conjunta en estados de malnutrición severa o enfermedad hepática crónica.\ne) Ferritina y transferrina dentro de rangos normales: Si bien es posible que en etapas muy tempranas de deficiencia de hierro estos valores estén normales, en la ferropénica establecida, estos parámetros están alterados."
+      },
+      {
+        "stem": "La anemia ferropénica se caracteriza por presentar",
+        "options": [
+          {
+            "id": "A",
+            "text": "Elevación de la ferritina y de la transferrina"
+          },
+          {
+            "id": "B",
+            "text": "Elevación de la transferrina y disminución de la ferritina"
+          },
+          {
+            "id": "C",
+            "text": "Elevación de la ferritina y disminución de la transferrina"
+          },
+          {
+            "id": "D",
+            "text": "Disminución de la ferritina y de la transaferrina"
+          },
+          {
+            "id": "E",
+            "text": "Disminución de la ferritina, aumento de la ferremia y disminución de la saturación de la tranferrina"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La anemia ferropénica se caracteriza por una deficiencia de hierro en el organismo.  La ferritina es la principal proteína de almacenamiento de hierro, por lo tanto, en un estado de deficiencia de hierro, sus niveles disminuyen. La transferrina, por otro lado, es la proteína encargada de transportar el hierro en el plasma. Cuando hay deficiencia de hierro, el cuerpo intenta compensar aumentando la producción de transferrina para maximizar la captación de cualquier hierro disponible, resultando en una elevación de los niveles de transferrina.\n\nLa saturación de transferrina (porcentaje de transferrina unida a hierro) también disminuye en la anemia ferropénica, aunque la pregunta se centra en los niveles absolutos de ferritina y transferrina. El aumento de la transferrina es una respuesta compensatoria para captar todo el hierro disponible, mientras que la ferritina refleja directamente el estado de los depósitos de hierro en el cuerpo.\n\nAnálisis de distractores:\na) **Elevación de la ferritina y de la transferrina:** La ferritina se eleva en estados de inflamación o sobrecarga de hierro, no en deficiencia.\nc) **Elevación de la ferritina y disminución de la transferrina:** Incorrecta por la misma razón que la opción a; la ferritina baja y la transferrina sube en anemia ferropénica.\nd) **Disminución de la ferritina y de la transaferrina:** La ferritina disminuye correctamente, pero la transferrina aumenta como respuesta compensatoria.\ne) **Disminución de la ferritina, aumento de la ferremia y disminución de la saturación de la tranferrina:** La ferremia (hierro sérico) puede estar normal o baja en la anemia ferropénica, pero no necesariamente aumentada. Si bien la saturación de transferrina disminuye, lo clave es la relación entre ferritina y transferrina, que esta opción confunde."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-07",
+    "title": "Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+    "perfilCode": "1.08.1.003",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "No GES directo · Urgencia Hematológica de Nivel Terciario",
+    "tier": 3,
+    "keyPoints": [
+      "Tríada cardinal de hemólisis: anemia regenerativa (reticulocitos >2%), ictericia flavínica indirecta y LDH elevada.",
+      "La haptoglobina colapsada (< 10 mg/dL) es el marcador más sensible de hemólisis intravascular y extravascular masiva.",
+      "La Prueba de Coombs Directa positiva para IgG confirma AHAI por anticuerpos calientes (extravascular en bazo).",
+      "El tratamiento de primera línea para AHAI por anticuerpos calientes es la corticoterapia sistémica (prednisona 1-1.5 mg/kg/día).",
+      "En AHAI caliente todas las unidades de banco de sangre resultan \"incompatibles\"; solo transfundir ante compromiso vital inminente.",
+      "La AHAI por crioaglutininas (IgM / C3d) no responde a corticoides ni esplenectomía; se maneja evitando el frío y con rituximab.",
+      "Enfermedad por crioaglutininas se asocia a neumonía por Mycoplasma pneumoniae, virus de Epstein-Barr y linfomas.",
+      "El Síndrome de Evans combina anemia hemolítica autoinmune (AHAI) con trombocitopenia inmune primaria (PTI)."
+    ],
+    "vignette": "Mujer de 31 años con diagnóstico reciente de lupus eritematoso sistémico, consulta en urgencias por disnea de reposo, astenia intensa, orinas oscuras tipo coñac e ictericia escleral de 48 horas. Al examen físico: PA 100/60 mmHg, FC 115 lpm, temperatura 37.4 °C, palidez intensa con ictericia conjuntival franca y polo de bazo palpable a 2 cm bajo el reborde costal izquierdo. Hemograma: Hb 5.8 g/dL, Hto 17%, VCM 104 fL, Reticulocitos 9.2%, Leucocitos 11.200/uL, Plaquetas 240.000/uL. Perfil bioquímico: Bilirrubina total 4.8 mg/dL, Bilirrubina indirecta 4.1 mg/dL, LDH 1.340 UI/L, Haptoglobina < 5 mg/dL. El frotis revela abundantes microesferocitos.",
+    "explicacion": "Anemia hemolítica autoinmune (AHAI) grave por anticuerpos calientes secundaria a LES. Se debe solicitar de inmediato Prueba de Coombs Directa para confirmar IgG/C3d, hospitalizar en unidad de cuidados intermedios, iniciar metilprednisolona endovenosa 1 g/día en pulsos, administrar ácido fólico 5 mg/día y evitar la transfusión sanguínea a menos que se presente shock cardiocirculatorio refractario.",
+    "baseQuestions": [
+      {
+        "stem": "El tratamiento de la anemia hemolítica autoinmune suele ser:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Eritropoyetina subcutánea"
+          },
+          {
+            "id": "B",
+            "text": "Transfusiones periódicas"
+          },
+          {
+            "id": "C",
+            "text": "Hierro y Folatos por vía oral"
+          },
+          {
+            "id": "D",
+            "text": "Corticoides"
+          },
+          {
+            "id": "E",
+            "text": "Trasplante de médula ósea"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La respuesta correcta es la D) Corticoides. La anemia hemolítica autoinmune (AHAI) es una condición donde el sistema inmunitario del individuo ataca y destruye sus propios glóbulos rojos. El tratamiento de primera línea para la AHAI, particularmente la variedad cálida (anticuerpos IgG), consiste en inmunosupresión. Los corticoides, como la prednisona, actúan suprimiendo la respuesta inmune y disminuyendo la producción de autoanticuerpos que causan la hemólisis. La dosis inicial suele ser alta y luego se reduce gradualmente según la respuesta del paciente.\n\nLa base del tratamiento con corticoides reside en su capacidad de reducir la actividad del sistema reticuloendotelial, disminuyendo la captura y destrucción de los glóbulos rojos sensibilizados por autoanticuerpos en el bazo. Otros tratamientos, como la esplenectomía o el uso de inmunosupresores más potentes (rituximab, azatioprina, etc.), se reservan para casos refractarios a los corticoides.\n\nAnálisis de distractores:\nA) Eritropoyetina subcutánea: La eritropoyetina estimula la producción de glóbulos rojos en la médula ósea. Si bien podría ayudar a compensar la anemia, no aborda la causa subyacente de la hemólisis (el ataque autoinmune) y sería ineficaz en presencia de una destrucción acelerada de glóbulos rojos.\n\nB) Transfusiones periódicas: Las transfusiones pueden ser necesarias para estabilizar al paciente en casos graves de anemia, pero son solo una medida de soporte y no tratan la causa de la hemólisis. Además, las transfusiones repetidas conllevan riesgos como la aloinmunización y la sobrecarga de hierro.\n\nC) Hierro y Folatos por vía oral: El hierro y los folatos son importantes para la producción de glóbulos rojos, pero no son el tratamiento principal para la AHAI. Aunque la hemólisis crónica puede llevar a la deficiencia de folato, la administración de hierro no es apropiada a menos que exista una deficiencia documentada, ya que en la AHAI la médula ósea está intentando producir glóbulos rojos a una velocidad acelerada y frecuentemente no hay carencia de hierro.\n\nE) Trasplante de médula ósea: El trasplante de médula ósea es un tratamiento agresivo que se reserva para casos muy raros y refractarios de AHAI, generalmente aquellos asociados a trastornos inmunitarios graves o cuando otras terapias han fallado. No es el tratamiento de primera línea."
+      },
+      {
+        "stem": "¿Cuál de las siguientes alteraciones es MENOS compatible con una anemia\nhemolítica autoinmune?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Prueba de coombs directa positiva"
+          },
+          {
+            "id": "B",
+            "text": "Haptoglobina bajay­oncologia/ 1/6"
+          },
+          {
+            "id": "C",
+            "text": "Hiperbilirrubinemia de predominio indirecto"
+          },
+          {
+            "id": "D",
+            "text": "Reticulocitos bajos"
+          },
+          {
+            "id": "E",
+            "text": "Macrocitosis"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La respuesta correcta es (D) Reticulocitos bajos. En una anemia hemolítica autoinmune (AHAI), el cuerpo está destruyendo glóbulos rojos de forma acelerada. Como respuesta a esta destrucción, la médula ósea intenta compensar produciendo más glóbulos rojos. Por lo tanto, se espera encontrar un aumento en el número de reticulocitos, que son glóbulos rojos inmaduros, en la sangre periférica. Un recuento bajo de reticulocitos en el contexto de una anemia hemolítica sugiere que la médula ósea no está respondiendo adecuadamente a la demanda, lo cual es incompatible con la patogénesis de la AHAI.\n\nAnálisis de distractores:\na) Prueba de Coombs directa positiva: La prueba de Coombs directa es fundamental para el diagnóstico de AHAI. Detecta anticuerpos o complemento unidos a la superficie de los glóbulos rojos, lo que indica que están siendo atacados por el sistema inmunológico. Por lo tanto, un Coombs directo positivo es altamente compatible con AHAI.\nb) Haptoglobina baja: La haptoglobina es una proteína que se une a la hemoglobina libre liberada durante la hemólisis. En la AHAI, la hemólisis intravascular y extravascular consume haptoglobina, lo que resulta en niveles bajos en sangre. Por lo tanto, la haptoglobina baja es compatible con AHAI.\nc) Hiperbilirrubinemia de predominio indirecto: La hemólisis produce un aumento en la degradación de la hemoglobina, generando bilirrubina. La mayor parte de esta bilirrubina es no conjugada (indirecta) antes de ser procesada en el hígado. Por lo tanto, la hiperbilirrubinemia de predominio indirecto es una característica esperada en la AHAI.\ne) Macrocitosis: En muchas anemias hemolíticas, especialmente aquellas con una respuesta medular activa, los reticulocitos, que son más grandes que los glóbulos rojos maduros, pueden contribuir a un aumento del volumen corpuscular medio (VCM), resultando en macrocitosis. Si bien no es universal en todas las AHAI, es una alteración compatible."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-12",
+    "title": "Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
+    "perfilCode": "1.08.1.012",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "No GES directo · Programa de Inmunosupresión y Urgencia Hematológica",
+    "tier": 3,
+    "keyPoints": [
+      "La PTI primaria es un diagnóstico de exclusión: trombocitopenia aislada sin esplenomegalia ni adenopatías.",
+      "Frotis obligatorio siempre para descartar Pseudotrombocitopenia por agregados plaquetarios inducidos por EDTA.",
+      "En niños es aguda, autolimitada tras virosis y remite espontáneamente en > 80%; en adultos es crónica y progresiva.",
+      "Pacientes asintomáticos con plaquetas > 30.000/uL NO requieren corticoides ni hospitalización; solo observación.",
+      "Indicación de tratamiento: plaquetas < 20.000-30.000/uL o presencia de hemorragias mucocutáneas activas.",
+      "Primera línea: Dexametasona 40 mg/día x 4 días o Prednisona 1 mg/kg/día x 2-4 semanas.",
+      "La Inmunoglobulina EV (IgEV 1 g/kg) es la terapia de rescate urgente por su ascenso plaquetario rápido en 24-48 horas.",
+      "Segunda línea: Agonistas del receptor de trombopoyetina (eltrombopag/romiplostim), rituximab o esplenectomía diferida."
+    ],
+    "vignette": "Mujer de 26 años, sin antecedentes mórbidos, consulta en policlínico por aparición espontánea de hematomas en extremidades, petequias en extremidades inferiores y metrorragia abundante en su ciclo menstrual actual. En el examen físico se observan múltiples petequias en piernas y pequeñas ampollas hemorrágicas en la mucosa yugal bucal. No se palpan linfoadenopatías ni visceromegalias (bazo no palpable). Hemograma: Hb 11.2 g/dL, Leucocitos 7.400/uL con fórmula normal, Plaquetas 9.000/uL. Pruebas de coagulación: TP 12.5 seg (INR 1.0), TTPK 29 seg, Fibrinógeno 310 mg/dL. El frotis periférico confirma trombocitopenia severa con plaquetas gigantes aisladas y sin esquistocitos.",
+    "explicacion": "Púrpura Trombocitopénica Inmune (PTI) del adulto con trombocitopenia grave (< 10.000/uL) y sangrado mucoso activo (\"ampollas hemorrágicas orales\" indican alto riesgo de sangrado mayor). Se debe hospitalizar de inmediato, descartar infección por VIH y VHC, e iniciar tratamiento de primera línea con corticoides sistémicos (Dexametasona 40 mg/día por 4 días o Prednisona 1 mg/kg/día). Se reserva IgEV si la metrorragia no cede o si aparecen signos de focalidad neurológica.",
+    "baseQuestions": [
+      {
+        "stem": "¿Cuál de los siguientes hallazgos es más orientador a una alteración de la\nhemostasia primaria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Alargamiento del TTPA"
+          },
+          {
+            "id": "B",
+            "text": "Equímosis"
+          },
+          {
+            "id": "C",
+            "text": "Antecedentes familiares de hemorragias"
+          },
+          {
+            "id": "D",
+            "text": "Petequias"
+          },
+          {
+            "id": "E",
+            "text": "Hemartrosis"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "Las petequias son pequeñas hemorragias puntiformes, menores a 3 mm, que se producen por la extravasación de sangre desde los capilares. Su presencia es altamente sugestiva de una alteración en la hemostasia primaria, que es el proceso inicial de formación del tapón plaquetario. Las causas de petequias incluyen trombocitopenia (disminución del número de plaquetas), disfunción plaquetaria, vasculitis o fragilidad capilar. La guía GES Púrpura Trombocitopénica Inmune (PTI) del MINSAL, por ejemplo, destaca las petequias como un hallazgo común en pacientes con trombocitopenia.\n\nAnálisis de distractores:\n*   **A: Alargamiento del TTPA:** El Tiempo de Tromboplastina Parcial Activado (TTPA) evalúa la vía intrínseca y común de la coagulación. Su alargamiento sugiere deficiencias en factores de coagulación como el VIII, IX, XI o XII, o la presencia de anticoagulantes lúpicos, apuntando a un problema en la hemostasia secundaria (coagulación), no primaria.\n\n*   **B: Equímosis:** Las equímosis son hematomas más grandes, mayores a 1 cm, que también implican extravasación de sangre. Si bien pueden estar presentes en alteraciones de la hemostasia primaria (especialmente si son de aparición fácil y espontánea), también son comunes en alteraciones de la hemostasia secundaria y traumatismos. No son tan específicas para hemostasia primaria como las petequias.\n\n*   **C: Antecedentes familiares de hemorragias:** Si bien los antecedentes familiares pueden sugerir un trastorno hemorrágico hereditario, no orientan específicamente a una alteración de la hemostasia primaria. Podrían indicar hemofilias (alteración de la hemostasia secundaria), enfermedad de von Willebrand (que afecta la función plaquetaria y al factor VIII), u otros trastornos.\n\n*   **E: Hemartrosis:** La hemartrosis (sangrado intraarticular) es muy característica de las hemofilias, un trastorno de la hemostasia secundaria debido a la deficiencia de factores de coagulación (VIII o IX). No es un hallazgo típico de la alteración de la hemostasia primaria."
+      },
+      {
+        "stem": "¿Cuál es la segunda línea de tratamiento en un paciente de 55 años, sin\nantecedentes de interés, diagnosticado de púrpura trombocitopénica idiopática\ncrónica, que no responde a esteroides tras 3 meses de terapia?:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Azatioprina."
+          },
+          {
+            "id": "B",
+            "text": "Danazol."
+          },
+          {
+            "id": "C",
+            "text": "Inmunoglobulinas i.v. a altas dosis."
+          },
+          {
+            "id": "D",
+            "text": "Vincristina."
+          },
+          {
+            "id": "E",
+            "text": "Esplenectomía."
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "En un paciente con Púrpura Trombocitopénica Idiopática (PTI) crónica, de 55 años, que no responde a un tratamiento de 3 meses con esteroides, se considera la esplenectomía como la segunda línea de tratamiento de elección. La PTI crónica se caracteriza por la destrucción periférica de plaquetas mediada por anticuerpos. Los esteroides son la terapia de primera línea, pero en caso de refractariedad o dependencia, se deben considerar otras opciones. La esplenectomía, al extirpar el principal sitio de destrucción de plaquetas y el lugar de producción de anticuerpos, puede lograr una remisión sostenida en un alto porcentaje de pacientes.\n\nLa decisión de la esplenectomía como segunda línea se basa en su eficacia y en la posibilidad de evitar tratamientos inmunosupresores crónicos que pueden tener efectos adversos significativos a largo plazo. Si bien existen otras opciones farmacológicas, la remisión obtenida con la esplenectomía suele ser más duradera y a menudo permite suspender la medicación. Es importante destacar que la esplenectomía debe ir acompañada de profilaxis contra infecciones encapsuladas debido al riesgo incrementado de sepsis post-esplenectomía.\n\nAnálisis de distractores:\na) Azatioprina: La azatioprina es un inmunosupresor que se utiliza como terapia de segunda o tercera línea en la PTI, pero generalmente después de considerar la esplenectomía o en pacientes en quienes la esplenectomía no es una opción viable. Su eficacia puede ser menor que la de la esplenectomía y requiere un seguimiento cuidadoso por sus efectos secundarios.\n\nb) Danazol: El danazol es un andrógeno sintético que puede ser útil en la PTI, particularmente en mujeres, pero no es la primera opción de segunda línea en un paciente refractario a esteroides. Su mecanismo de acción es complejo e incluye la supresión de la médula ósea y la reducción de la sensibilidad de los macrófagos a los anticuerpos.\n\nc) Inmunoglobulinas i.v. a altas dosis: Las inmunoglobulinas intravenosas (IVIg) se utilizan principalmente para aumentar rápidamente el recuento de plaquetas en situaciones agudas de sangrado o para preparaciones pre-esplenectomía. No son una terapia de segunda línea para la PTI crónica refractaria a esteroides, ya que su efecto es transitorio y su uso crónico es costoso y menos eficaz que otras opciones.\n\nd) Vincristina: La vincristina es un agente quimioterapéutico que puede utilizarse en la PTI, a menudo en combinación con otros fármacos o en casos dePTI severa o refractaria. Sin embargo, su uso como segunda línea de tratamiento aislado en la PTI crónica refractaria a esteroides no es la opción estándar, y su toxicidad puede ser una preocupación."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "hematologia",
+    "specialtyName": "Hematología",
+    "classId": "hem-17",
+    "title": "Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)",
+    "perfilCode": "1.08.1.010",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES N° 37): Leucemia en personas de 15 años y más (LMC)",
+    "tier": 2,
+    "keyPoints": [
+      "La LMC se asocia en el 95% al Cromosoma Filadelfia t(9;22), que genera el oncogén de fusión BCR-ABL1.",
+      "Frotis de LMC: toda la serie granulocítica (mielocitos, metamielocitos) con basofilia y eosinofilia característica.",
+      "El tratamiento de elección en LMC son los Inhibidores de Tirosina Quinasa orales (Imatinib), garantizados en GES N° 37.",
+      "La LLC es la leucemia más común del adulto mayor; se caracteriza por linfocitosis B madura clonal (CD19+/CD5+).",
+      "Las Sombras de Gümprecht (manchas de lisis nuclear por fragilidad en frotis) son patognomónicas de la LLC.",
+      "En LLC estadio A de Binet (asintomática sin anemia ni plaquetopenia), la conducta es estrictamente la observación (\"Watch and Wait\").",
+      "El tratamiento en LLC se reserva para estadios avanzados con insuficiencia medular (anemia <10 g/dL o plaquetas <100.000/uL)."
+    ],
+    "vignette": "Hombre de 76 años, autovalente, consulta para control de su hipertensión arterial. Se encuentra asintomático, sin astenia, fiebre ni baja de peso. En el examen físico se palpan pequeños ganglios cervicales e inguinales bilaterales de 1 cm, móviles, elásticos e indoloros; no se palpa esplenomegalia. Hemograma de rutina: Hb 13.8 g/dL, Plaquetas 195.000/uL, Leucocitos 42.000/uL con 88% de linfocitos maduros (recuento absoluto de linfocitos 36.960/uL). El frotis revela abundantes manchas nucleares de rotura celular (sombras de Gümprecht). La citometría de flujo confirma población B clonal CD19+, CD5+ y CD23+.",
+    "explicacion": "Leucemia Linfática Crónica (LLC) en estadio temprano (Rai estadio I / Binet estadio A: linfocitosis con adenopatías sin anemia ni trombocitopenia). Dado que el paciente está completamente asintomático y con hemoglobina y plaquetas normales, la conducta médica correcta avalada por guías clínicas es la observación clínica periódica ambulatoria cada 3 a 6 meses sin indicar quimioterapia ni fármacos citostáticos (\"Watch and Wait\").",
+    "baseQuestions": [
+      {
+        "stem": "¿Cuál de las siguientes patologías es un síndrome mielorpoliferativo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Linfoma"
+          },
+          {
+            "id": "B",
+            "text": "Leucemia de células peludas"
+          },
+          {
+            "id": "C",
+            "text": "Leucemia mieloide crónica"
+          },
+          {
+            "id": "D",
+            "text": "Mielodisplasia"
+          },
+          {
+            "id": "E",
+            "text": "Mieloptisis"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La Leucemia Mieloide Crónica (LMC) es un trastorno clonal de la célula madre hematopoyética que se caracteriza por una proliferación excesiva de granulocitos y sus precursores inmaduros en la médula ósea y la sangre periférica. Se considera un síndrome mieloproliferativo clásico debido a su origen en las células mieloides y la tendencia a la proliferación descontrolada de estas líneas celulares. La LMC está fuertemente asociada con la presencia del cromosoma Filadelfia (Ph), resultado de una translocación recíproca entre los cromosomas 9 y 22 (t(9;22)(q34;q11)), que genera el gen de fusión BCR-ABL. Este gen codifica una proteína tirosina quinasa constitutivamente activa que impulsa la proliferación celular y la resistencia a la apoptosis.\n\nLa LMC es un ejemplo prototípico de síndrome mieloproliferativo porque la alteración primaria reside en la médula ósea, afectando la producción de células mieloides. La proliferación desmedida de estas células conduce a un aumento significativo en el recuento de glóbulos blancos (leucocitosis), a menudo con un aumento de células inmaduras, así como a un aumento de plaquetas y, en ocasiones, de glóbulos rojos. A diferencia de otras neoplasias hematológicas, la LMC se caracteriza por una evolución generalmente indolente en su fase crónica, con progresión a fases acelerada y blástica si no se trata, lo que subraya su naturaleza mieloproliferativa.\n\nAnálisis de distractores:\na) Linfoma: El linfoma es un cáncer del sistema linfático, originado en los linfocitos, que son células del linaje linfoide. Los síndromes mieloproliferativos, por definición, afectan las células del linaje mieloide.\nb) Leucemia de células peludas: La leucemia de células peludas es una neoplasia linfoide rara, específicamente un tipo de leucemia de células B crónicas, y no un síndrome mieloproliferativo.\nd) Mielodisplasia: La mielodisplasia, o síndrome mielodisplásico, es un grupo de neoplasias mieloides en las que la médula ósea produce células sanguíneas anormales o inmaduras. A diferencia de los síndromes mieloproliferativos que se caracterizan por una proliferación descontrolada, en la mielodisplasia hay una ineficacia hematopoyética con citopenias y displasia (desarrollo anormal) de las células.\ne) Mieloptisis: La mieloptisis se refiere al reemplazo de la médula ósea normal por tejido fibroso, tumoral o granulomatoso, lo que lleva a una hematopoyesis ineficaz y a citopenias. Si bien puede ser secundaria a varias enfermedades, no es un síndrome mieloproliferativo primario."
+      },
+      {
+        "stem": "La asociación de leucocitosis elevada de predominio neutrofílico,\ndesviación izquierda marcada y trombocitosis es característica de:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sepsis por bacterias Gram negativas"
+          },
+          {
+            "id": "B",
+            "text": "Reacción leucemoide"
+          },
+          {
+            "id": "C",
+            "text": "Leucemia aguda promielocítica"
+          },
+          {
+            "id": "D",
+            "text": "Leucemia aguda mielocítica"
+          },
+          {
+            "id": "E",
+            "text": "Leucemia crónica mieloide"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "La leucemia mieloide crónica (LMC) se caracteriza clásicamente por la presencia del cromosoma Filadelfia (translocación t(9;22) que crea el gen de fusión BCR-ABL1), lo cual conduce a una tirosina quinasa constitutivamente activa. Este gen impulsa la proliferación descontrolada de células mieloides en la médula ósea, resultando en una leucocitosis (con predominio neutrofílico y desviación izquierda, indicando la presencia de precursores inmaduros), trombocitosis (aumento de plaquetas) y, en algunos casos, esplenomegalia. La presencia simultánea de estas tres alteraciones hematológicas apunta fuertemente a LMC, especialmente en ausencia de otras causas evidentes como infección severa. Si bien la médula ósea es la que otorga el diagnóstico definitivo, estos hallazgos periféricos son altamente sugestivos. Las guías clínicas del MINSAL para el manejo de leucemias resaltan la importancia de la sospecha diagnóstica temprana basada en hallazgos de laboratorio como estos para iniciar la evaluación y tratamiento oportuno.\n\nAnálisis de distractores:\n*   **A: Sepsis por bacterias Gram negativas:** La sepsis cursa con leucocitosis (o leucopenia en casos severos) y desviación izquierda, pero usualmente NO con trombocitosis. La trombocitopenia es más común en sepsis, especialmente si hay coagulación intravascular diseminada (CID). La etiología Gram negativa podría sugerirse con un shock séptico refractario a fluidos y vasopresores, sin embargo no es un hallazgo laboratorial directo.\n*   **B: Reacción leucemoide:** Una reacción leucemoide es una elevación marcada de los leucocitos (generalmente >50.000/uL) con desviación izquierda, que puede simular una leucemia. Sin embargo, generalmente es causada por una infección severa, inflamación o estrés agudo. Si bien puede presentar trombocitosis, no es un hallazgo tan constante como en la LMC. Adicionalmente, una reacción leucemoide cesa una vez resuelta la causa subyacente, mientras que la LMC persiste y progresa sin tratamiento.\n*   **C: Leucemia aguda promielocítica (LAP):** La LAP es un subtipo de leucemia mieloide aguda (LMA) caracterizada por la acumulación de promielocitos en la médula ósea. Se asocia frecuentemente con CID y trombocitopenia, no trombocitosis. La leucocitosis puede estar presente, pero no es un rasgo definitorio y puede incluso haber leucopenia.\n*   **D: Leucemia aguda mielocítica (LMA):** La LMA, en general, también se caracteriza por la presencia de blastos en sangre periférica y médula ósea. Si bien puede haber leucocitosis, es más común encontrar citopenias (anemia, trombocitopenia). La trombocitosis no es una característica típica de la LMA, exceptuando algunos subtipos raros."
+      }
+    ]
+  }
+]

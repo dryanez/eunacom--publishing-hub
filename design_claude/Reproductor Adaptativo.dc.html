@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Space+Grotesk:wght@400;500;600;700&family=Archivo:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Courier+Prime:wght@400;700&family=Caveat:wght@500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#07090E; color:#E6EAF2; font-family:'IBM Plex Sans',system-ui,sans-serif; }
+  a { color:#5EC2B7; text-decoration:none; }
+  a:hover { color:#8FDAD2; }
+  ::-webkit-scrollbar { width:8px; height:8px; }
+  ::-webkit-scrollbar-thumb { background:#1E2636; border-radius:8px; }
+</style>
+</helmet>
+
+<section style="padding:56px 56px 20px;display:flex;flex-direction:column;gap:36px;border-bottom:1px solid #161D2B">
+  <div style="display:flex;flex-direction:column;gap:10px;max-width:900px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#6E7A90">Turno 4 · Prensa suiza en profundidad</div>
+    <div style="font-size:32px;font-weight:600;letter-spacing:-0.02em">La estética 3c aplicada al resto del reproductor</div>
+    <div style="font-size:15px;line-height:1.6;color:#8A94A8;text-wrap:pretty">Los otros tipos de diapositiva y estados con el mismo sistema: hueso y tinta, Helvetica, grilla de 12 columnas, rojo sólo para lo que exige atención. <a href="#4a">4a</a> tabla, <a href="#4b">4b</a> quiz, <a href="#4c">4c</a> algoritmo, <a href="#4d">4d</a> índice de capítulos.</div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start">
+
+    <!-- 4A TABLA CLÍNICA -->
+    <div id="4a" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#F5F3EE;background:#111111;padding:3px 8px;border-radius:5px">4a</span>
+        <span style="font-size:16px;font-weight:600">Tabla clínica</span>
+        <span style="font-size:13px;color:#6E7A90">dosis · filas destacadas · scroll sutil</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#F5F3EE;border:1px solid #111111;overflow:hidden;display:flex;flex-direction:column;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#111111">
+        <div style="display:flex;align-items:flex-start;padding:20px 24px 14px;border-bottom:1px solid #111111">
+          <div style="width:90px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Clase</div>
+          <div style="flex:1;font-size:15px;font-weight:700;letter-spacing:-0.02em">Insuficiencia Cardíaca Aguda</div>
+          <div style="width:150px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">ASOFAMECh CV-114 V3</div>
+          <div style="width:130px;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A">Estándar 15 min</div>
+          <div style="width:52px;text-align:right;font-size:11px;font-weight:700">09/14</div>
+        </div>
+        <div style="display:flex;gap:2px;padding:0 24px;margin-top:10px">
+          <sc-for list="{{ s4a }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:5px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:20px 24px 0;display:flex;flex-direction:column;gap:14px;min-height:0">
+          <div style="display:grid;grid-template-columns:repeat(12,1fr);gap:0 16px;align-items:end">
+            <div style="grid-column:span 2;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">04 — Farmaco<br>terapia</div>
+            <div style="grid-column:span 7;font-size:36px;font-weight:700;line-height:1;letter-spacing:-0.035em">Diuréticos de asa<br>en descompensación</div>
+            <div style="grid-column:span 3;font-size:13px;line-height:1.45;color:#3D3A36">Dosis endovenosa de carga según exposición previa al fármaco.</div>
+          </div>
+          <div style="flex:1;overflow:auto;min-height:0;border-top:2px solid #111111">
+            <div style="display:grid;grid-template-columns:1.4fr 1fr 0.9fr 1.7fr;border-bottom:1px solid #111111;position:sticky;top:0;background:#F5F3EE">
+              <div style="padding:9px 10px 9px 0;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">Fármaco</div>
+              <div style="padding:9px 10px;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">Dosis inicial</div>
+              <div style="padding:9px 10px;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">Máx. 24 h</div>
+              <div style="padding:9px 0 9px 10px;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">Observación</div>
+            </div>
+            <sc-for list="{{ swissRows }}" as="r" hint-placeholder-count="8">
+              <div style="display:grid;grid-template-columns:1.4fr 1fr 0.9fr 1.7fr;border-bottom:1px solid #DCD8CE;background:{{ r.bg }}">
+                <div style="padding:12px 10px 12px 0;font-size:14px;font-weight:700;letter-spacing:-0.01em;color:{{ r.fg }}">{{ r.drug }}</div>
+                <div style="padding:12px 10px;font-size:14px;color:#3D3A36">{{ r.dose }}</div>
+                <div style="padding:12px 10px;font-size:14px;color:#3D3A36">{{ r.max }}</div>
+                <div style="padding:12px 0 12px 10px;font-size:13px;line-height:1.4;color:{{ r.noteFg }}">{{ r.note }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;padding:0 24px;border-top:1px solid #111111">
+          <div style="padding:14px 0;width:90px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase">← Atrás</div>
+          <div style="padding:14px 0;width:110px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Adelante →</div>
+          <div style="flex:1"></div>
+          <div style="padding:14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Anotar</div>
+          <div style="padding:14px 0 14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Notas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4B QUIZ -->
+    <div id="4b" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#F5F3EE;background:#111111;padding:3px 8px;border-radius:5px">4b</span>
+        <span style="font-size:16px;font-weight:600">Quiz clínico</span>
+        <span style="font-size:13px;color:#6E7A90">interactivo · prueba las alternativas</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#F5F3EE;border:1px solid #111111;overflow:hidden;display:flex;flex-direction:column;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#111111">
+        <div style="display:flex;align-items:flex-start;padding:20px 24px 14px;border-bottom:1px solid #111111">
+          <div style="width:90px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Caso 04</div>
+          <div style="flex:1;font-size:15px;font-weight:700;letter-spacing:-0.02em">Insuficiencia Cardíaca Aguda</div>
+          <div style="width:150px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">ASOFAMECh CV-114 V3</div>
+          <div style="width:150px;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A">Mega-masterclass 25 min</div>
+          <div style="width:52px;text-align:right;font-size:11px;font-weight:700">16/18</div>
+        </div>
+        <div style="display:flex;gap:2px;padding:0 24px;margin-top:10px">
+          <sc-for list="{{ s4b }}" as="s" hint-placeholder-count="18">
+            <div style="flex:1;height:5px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;display:grid;grid-template-columns:1.55fr 1fr;min-height:0">
+          <div style="padding:20px 24px;display:flex;flex-direction:column;gap:14px;min-height:0;overflow:auto">
+            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#B4322A;font-weight:700">Viñeta clínica · dificultad alta</div>
+            <div style="font-size:15px;line-height:1.6;color:#3D3A36;border-left:3px solid #111111;padding-left:14px;text-wrap:pretty">Hombre de 68 años, hipertenso y diabético, consulta por disnea progresiva de 3 días y ortopnea. PA 168/95, FC 112, SatO₂ 88% ambiental. Crepitaciones bibasales, yugulares ingurgitadas, extremidades tibias y bien perfundidas.</div>
+            <div style="font-size:19px;font-weight:700;letter-spacing:-0.02em">¿Cuál es la conducta inicial más apropiada?</div>
+            <div style="display:flex;flex-direction:column">
+              <sc-for list="{{ swissOptions }}" as="o" hint-placeholder-count="4">
+                <div onClick="{{ o.onPick }}" style="display:flex;align-items:flex-start;gap:14px;padding:13px 10px 13px 0;border-top:1px solid #DCD8CE;cursor:pointer;background:{{ o.bg }}">
+                  <div style="width:24px;font-size:14px;font-weight:700;color:{{ o.letterFg }}">{{ o.letter }}</div>
+                  <div style="flex:1;font-size:14px;line-height:1.45;color:{{ o.fg }}">{{ o.text }}</div>
+                  <div style="font-size:10px;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;color:{{ o.markFg }}">{{ o.mark }}</div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          <div style="border-left:1px solid #111111;background:#EDEAE2;padding:20px;display:flex;flex-direction:column;gap:12px;overflow:auto">
+            <sc-if value="{{ answered }}" hint-placeholder-val="{{ false }}">
+              <div style="display:flex;flex-direction:column;gap:12px">
+                <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Explicación oficial</div>
+                <div style="font-size:22px;font-weight:700;letter-spacing:-0.025em;color:{{ swissVerdictFg }}">{{ verdict }}</div>
+                <div style="font-size:14px;line-height:1.6;color:#3D3A36;text-wrap:pretty">Perfil B de Stevenson: congestión con perfusión conservada. La conducta inicial combina vasodilatador endovenoso y diurético de asa, junto con ventilación no invasiva por la hipoxemia. Los inótropos quedan para hipoperfusión y en perfil B aumentan mortalidad.</div>
+                <div style="border-top:1px solid #CFC8B6;padding-top:12px;font-size:13px;line-height:1.5;color:#777069">GES Insuficiencia Cardíaca, MINSAL 2021 · ESC Acute HF 2021</div>
+                <div style="border-top:1px solid #CFC8B6;padding-top:12px;display:flex;flex-direction:column;gap:7px">
+                  <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Volver a</div>
+                  <div style="font-size:13.5px;font-weight:700;color:#B4322A;cursor:pointer">→ 06 Perfiles de Stevenson</div>
+                  <div style="font-size:13.5px;font-weight:700;color:#B4322A;cursor:pointer">→ 09 Dosis de diuréticos</div>
+                </div>
+              </div>
+            </sc-if>
+            <sc-if value="{{ unanswered }}" hint-placeholder-val="{{ true }}">
+              <div style="height:100%;display:flex;flex-direction:column;justify-content:flex-end;gap:10px">
+                <div style="font-size:60px;font-weight:700;letter-spacing:-0.05em;line-height:0.85;color:#D9D6CE">A B<br>C D</div>
+                <div style="font-size:13px;line-height:1.5;color:#777069;border-top:1px solid #CFC8B6;padding-top:12px">Selecciona una alternativa para ver la explicación oficial y las referencias.</div>
+              </div>
+            </sc-if>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;padding:0 24px;border-top:1px solid #111111">
+          <div style="padding:14px 0;width:90px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase">← Atrás</div>
+          <div style="padding:14px 0;width:150px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Siguiente caso →</div>
+          <div style="flex:1"></div>
+          <div style="padding:14px 0;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">4 de 5 casos · 3 correctas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4C ALGORITMO -->
+    <div id="4c" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#F5F3EE;background:#111111;padding:3px 8px;border-radius:5px">4c</span>
+        <span style="font-size:16px;font-weight:600">Algoritmo / imagen</span>
+        <span style="font-size:13px;color:#6E7A90">visor con zoom · micro-clase de 7</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#F5F3EE;border:1px solid #111111;overflow:hidden;display:flex;flex-direction:column;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#111111">
+        <div style="display:flex;align-items:flex-start;padding:20px 24px 14px;border-bottom:1px solid #111111">
+          <div style="width:90px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Clase</div>
+          <div style="flex:1;font-size:15px;font-weight:700;letter-spacing:-0.02em">Insuficiencia Cardíaca Aguda</div>
+          <div style="width:150px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">ASOFAMECh CV-114 V3</div>
+          <div style="width:120px;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A">Micro-clase 8 min</div>
+          <div style="width:52px;text-align:right;font-size:11px;font-weight:700">04/07</div>
+        </div>
+        <div style="display:flex;gap:2px;padding:0 24px;margin-top:10px">
+          <sc-for list="{{ s4c }}" as="s" hint-placeholder-count="7">
+            <div style="flex:1;height:5px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:20px 24px;display:flex;gap:20px;min-height:0">
+          <div style="width:210px;display:flex;flex-direction:column;gap:14px">
+            <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">03 — Algoritmos</div>
+            <div style="font-size:28px;font-weight:700;line-height:1.02;letter-spacing:-0.035em">Disnea aguda en reanimación</div>
+            <div style="border-top:2px solid #111111;padding-top:12px;display:flex;flex-direction:column;gap:9px">
+              <div style="font-size:13.5px;line-height:1.35;font-weight:700">1 Saturación y trabajo respiratorio</div>
+              <div style="font-size:13.5px;line-height:1.35;color:#777069">2 POCUS pulmonar</div>
+              <div style="font-size:13.5px;line-height:1.35;color:#777069">3 Perfil hemodinámico</div>
+              <div style="font-size:13.5px;line-height:1.35;color:#777069">4 Conducta inicial</div>
+            </div>
+            <div style="flex:1"></div>
+            <div style="display:flex;gap:6px">
+              <div style="width:34px;height:34px;border:1px solid #111111;display:flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer">＋</div>
+              <div style="width:34px;height:34px;border:1px solid #111111;display:flex;align-items:center;justify-content:center;font-size:15px;cursor:pointer">－</div>
+              <div style="width:34px;height:34px;border:1px solid #111111;display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer">⛶</div>
+            </div>
+          </div>
+          <div style="flex:1;border:1px solid #111111;background:repeating-linear-gradient(135deg,#EDEAE2 0 9px,#F5F3EE 9px 18px);display:flex;align-items:center;justify-content:center;position:relative">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#777069;background:#F5F3EE;border:1px solid #111111;padding:10px 16px">diagrama de flujo — algoritmo disnea aguda (SVG)</div>
+            <div style="position:absolute;top:10px;left:12px;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">Fig. 04</div>
+            <div style="position:absolute;bottom:10px;right:12px;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">Zoom 100%</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;padding:0 24px;border-top:1px solid #111111">
+          <div style="padding:14px 0;width:90px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase">← Atrás</div>
+          <div style="padding:14px 0;width:110px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Adelante →</div>
+          <div style="flex:1"></div>
+          <div style="padding:14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Anotar</div>
+          <div style="padding:14px 0 14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Notas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4D ÍNDICE -->
+    <div id="4d" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#F5F3EE;background:#111111;padding:3px 8px;border-radius:5px">4d</span>
+        <span style="font-size:16px;font-weight:600">Índice de capítulos</span>
+        <span style="font-size:13px;color:#6E7A90">drawer de salto · mega-masterclass de 21</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#F5F3EE;border:1px solid #111111;overflow:hidden;display:flex;flex-direction:column;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#111111">
+        <div style="display:flex;align-items:flex-start;padding:20px 24px 14px;border-bottom:1px solid #111111">
+          <div style="width:90px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Índice</div>
+          <div style="flex:1;font-size:15px;font-weight:700;letter-spacing:-0.02em">Insuficiencia Cardíaca Aguda</div>
+          <div style="width:150px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">ASOFAMECh CV-114 V3</div>
+          <div style="width:150px;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A">Mega-masterclass 25 min</div>
+          <div style="width:52px;text-align:right;font-size:11px;font-weight:700">21 sl.</div>
+        </div>
+        <div style="flex:1;padding:22px 24px;display:flex;flex-direction:column;min-height:0;overflow:auto">
+          <div style="font-size:42px;font-weight:700;letter-spacing:-0.04em;line-height:1;margin-bottom:18px">Contenido</div>
+          <sc-for list="{{ swissIndex }}" as="c" hint-placeholder-count="6">
+            <div style="display:flex;align-items:baseline;gap:16px;padding:13px 0;border-top:1px solid {{ c.rule }};cursor:pointer">
+              <div style="width:46px;font-size:12px;font-weight:700;color:{{ c.numFg }}">{{ c.num }}</div>
+              <div style="flex:1;font-size:21px;font-weight:700;letter-spacing:-0.025em;color:{{ c.fg }}">{{ c.name }}</div>
+              <div style="font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">{{ c.meta }}</div>
+              <div style="width:70px;text-align:right;font-size:12px;font-weight:700;color:{{ c.numFg }}">{{ c.range }}</div>
+            </div>
+          </sc-for>
+        </div>
+        <div style="display:flex;align-items:center;padding:0 24px;border-top:1px solid #111111">
+          <div style="padding:14px 0;width:150px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Retomar en 07 →</div>
+          <div style="flex:1"></div>
+          <div style="padding:14px 0;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Cerrar índice</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="padding:56px 56px 20px;display:flex;flex-direction:column;gap:36px;border-bottom:1px solid #161D2B">
+  <div style="display:flex;flex-direction:column;gap:10px;max-width:900px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#6E7A90">Turno 3 · 5 estéticas con carácter</div>
+    <div style="font-size:32px;font-weight:600;letter-spacing:-0.02em">Direcciones que no parecen un dashboard</div>
+    <div style="font-size:15px;line-height:1.6;color:#8A94A8;text-wrap:pretty">Cada una parte de un objeto real del mundo médico o docente en vez de una UI genérica: <a href="#3a">3a</a>, <a href="#3b">3b</a>, <a href="#3c">3c</a>, <a href="#3d">3d</a>, <a href="#3e">3e</a>.</div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start">
+
+    <!-- 3A FICHA CLÍNICA DE PAPEL -->
+    <div id="3a" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#F2EEE3;background:#B4322A;padding:3px 8px;border-radius:5px">3a</span>
+        <span style="font-size:16px;font-weight:600">Ficha clínica de papel</span>
+        <span style="font-size:13px;color:#6E7A90">Modo claro · formulario copiativo · sellos</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#F4F1E8;border:1px solid #CFC8B6;overflow:hidden;display:flex;flex-direction:column;font-family:'IBM Plex Sans',sans-serif;color:#2B2A26">
+        <div style="display:flex;align-items:stretch;border-bottom:2px solid #2B2A26">
+          <div style="flex:1;padding:14px 20px;display:flex;flex-direction:column;gap:3px">
+            <div style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:0.16em;color:#7A7465">FICHA DOCENTE · HOSPITAL CLÍNICO · EUNACOM</div>
+            <div style="font-size:19px;font-weight:600;letter-spacing:-0.01em">Insuficiencia Cardíaca Aguda</div>
+          </div>
+          <div style="width:200px;border-left:1px dashed #B9B1A0;padding:12px 16px;display:flex;flex-direction:column;justify-content:center;gap:3px">
+            <div style="font-family:'Courier Prime',monospace;font-size:10px;color:#7A7465">CÓDIGO</div>
+            <div style="font-family:'Courier Prime',monospace;font-size:14px;font-weight:700">CV-114 / V3</div>
+          </div>
+          <div style="width:170px;border-left:1px dashed #B9B1A0;display:flex;align-items:center;justify-content:center">
+            <div style="border:2px solid #B4322A;color:#B4322A;font-family:'Courier Prime',monospace;font-size:12px;font-weight:700;letter-spacing:0.1em;padding:6px 10px;transform:rotate(-4deg)">ESTÁNDAR 15 MIN</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:14px;padding:10px 20px;border-bottom:1px solid #CFC8B6;background:#EDE8DA">
+          <div style="font-family:'Courier Prime',monospace;font-size:11px;color:#7A7465">AVANCE</div>
+          <div style="flex:1;display:flex;gap:3px">
+            <sc-for list="{{ s3a }}" as="s" hint-placeholder-count="14">
+              <div style="flex:1;height:9px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+            </sc-for>
+          </div>
+          <div style="font-family:'Courier Prime',monospace;font-size:12px;font-weight:700">06 / 14</div>
+        </div>
+        <div style="flex:1;display:flex;min-height:0">
+          <div style="width:62px;border-right:1px solid #CFC8B6;background:#EDE8DA;display:flex;flex-direction:column;align-items:center;padding-top:14px;gap:6px">
+            <div style="font-family:'Courier Prime',monospace;font-size:9px;color:#9A9384;writing-mode:vertical-rl;letter-spacing:0.2em">CAPÍTULOS</div>
+            <div style="width:26px;height:26px;border:1px solid #B4322A;background:#B4322A;color:#F4F1E8;font-family:'Courier Prime',monospace;font-size:11px;display:flex;align-items:center;justify-content:center">II</div>
+            <div style="width:26px;height:26px;border:1px solid #B9B1A0;font-family:'Courier Prime',monospace;font-size:11px;display:flex;align-items:center;justify-content:center;color:#7A7465">III</div>
+            <div style="width:26px;height:26px;border:1px solid #B9B1A0;font-family:'Courier Prime',monospace;font-size:11px;display:flex;align-items:center;justify-content:center;color:#7A7465">IV</div>
+          </div>
+          <div style="flex:1;padding:22px 26px;display:flex;flex-direction:column;gap:16px;background-image:repeating-linear-gradient(#F4F1E8 0 27px,#E3DDCD 27px 28px)">
+            <div style="display:flex;align-items:flex-end;gap:12px">
+              <div style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:0.14em;color:#B4322A">II. FISIOPATOLOGÍA — HOJA 06</div>
+              <div style="flex:1;border-bottom:1px solid #CFC8B6;margin-bottom:4px"></div>
+            </div>
+            <div style="font-size:27px;font-weight:600;letter-spacing:-0.015em;line-height:1.15">Perfiles hemodinámicos de Stevenson</div>
+            <div style="flex:1;display:grid;grid-template-columns:1.5fr 1fr;gap:20px">
+              <div style="display:flex;flex-direction:column;gap:10px;border-left:3px solid #B4322A;padding-left:14px">
+                <div style="font-family:'Courier Prime',monospace;font-size:10px;font-weight:700;letter-spacing:0.1em;color:#B4322A">CLAVE DE EXAMEN</div>
+                <div style="font-size:17px;font-weight:600">Perfil B — húmedo y caliente</div>
+                <div style="font-size:14.5px;line-height:1.75;color:#494640;text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en el servicio de urgencias: la conducta inicial combina vasodilatador y diurético de asa, no inótropo.</div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:14px">
+                <div style="border:1px solid #CFC8B6;background:#FBF9F2;padding:14px;display:flex;flex-direction:column;gap:6px">
+                  <div style="font-family:'Courier Prime',monospace;font-size:10px;font-weight:700;letter-spacing:0.1em;color:#8A6A1E">⚑ ALERTA MINSAL</div>
+                  <div style="font-size:15px;font-weight:600">Perfil C</div>
+                  <div style="font-size:13px;line-height:1.6;color:#5C584F">Hipoperfusión y congestión: traslado a unidad de paciente crítico.</div>
+                </div>
+                <div style="display:flex;align-items:baseline;gap:10px">
+                  <div style="font-family:'Courier Prime',monospace;font-size:30px;font-weight:700;color:#B4322A">50%</div>
+                  <div style="font-size:12.5px;line-height:1.5;color:#5C584F">caída del BNP en obesidad</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:11px 20px;border-top:2px solid #2B2A26;background:#EDE8DA">
+          <div style="font-family:'Courier Prime',monospace;font-size:12px;font-weight:700;border:1px solid #2B2A26;padding:6px 12px">◀ ANTERIOR</div>
+          <div style="font-family:'Courier Prime',monospace;font-size:12px;font-weight:700;border:1px solid #2B2A26;background:#2B2A26;color:#F4F1E8;padding:6px 12px">SIGUIENTE ▶</div>
+          <div style="flex:1"></div>
+          <div style="font-family:'Courier Prime',monospace;font-size:12px;color:#7A7465;border-bottom:1px solid #B9B1A0">anotar</div>
+          <div style="font-family:'Courier Prime',monospace;font-size:12px;color:#7A7465;border-bottom:1px solid #B9B1A0">notas del docente</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3B PIZARRA DE DOCENTE -->
+    <div id="3b" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#1B2420;background:#EDE7D9;padding:3px 8px;border-radius:5px">3b</span>
+        <span style="font-size:16px;font-weight:600">Pizarra de docente</span>
+        <span style="font-size:13px;color:#6E7A90">Verde pizarra · trazo de tiza · anotaciones a mano</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#1B2420;border:10px solid #4A3B28;border-radius:3px;overflow:hidden;display:flex;flex-direction:column;font-family:'IBM Plex Sans',sans-serif;color:#EDE7D9">
+        <div style="display:flex;align-items:center;gap:14px;padding:14px 22px;border-bottom:1px solid rgba(237,231,217,0.18)">
+          <div style="font-family:'Caveat',cursive;font-size:24px;color:#EDE7D9">Insuficiencia Cardíaca Aguda</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(237,231,217,0.5);letter-spacing:0.1em">ASOFAMECh · CV-114 · V3</div>
+          <div style="flex:1"></div>
+          <div style="font-family:'Caveat',cursive;font-size:20px;color:#F2C94C;border:2px solid rgba(242,201,76,0.7);border-radius:20px 18px 22px 16px;padding:2px 14px">clase estándar · 15 min</div>
+          <div style="font-family:'Caveat',cursive;font-size:22px;color:rgba(237,231,217,0.8)">06 de 14</div>
+        </div>
+        <div style="display:flex;gap:5px;padding:12px 22px">
+          <sc-for list="{{ s3b }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:3px;background:{{ s.bg }};opacity:0.9;margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:8px 22px 22px;display:flex;flex-direction:column;gap:18px">
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.18em;color:rgba(237,231,217,0.45)">FISIOPATOLOGÍA · SLIDE 06</div>
+            <div style="font-family:'Caveat',cursive;font-size:44px;line-height:1.05;color:#FFFFFF">Perfiles hemodinámicos de Stevenson</div>
+            <div style="height:2px;width:420px;background:rgba(237,231,217,0.35);border-radius:2px"></div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:1.4fr 1fr;gap:26px">
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="display:flex;align-items:center;gap:8px">
+                <div style="width:10px;height:10px;border-radius:50%;background:#F2C94C"></div>
+                <div style="font-size:17px;font-weight:600;color:#FFFFFF">Perfil B — húmedo y caliente</div>
+              </div>
+              <div style="font-size:15px;line-height:1.8;color:rgba(237,231,217,0.85);text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en urgencias y el que más se pregunta: vasodilatador más diurético de asa, no inótropo.</div>
+              <div style="font-family:'Caveat',cursive;font-size:22px;color:#7FD4A8;transform:rotate(-1.2deg);padding-left:10px">↑ ojo: acá cae la mitad de las preguntas</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:16px;border-left:1px dashed rgba(237,231,217,0.25);padding-left:22px">
+              <div style="display:flex;flex-direction:column;gap:6px">
+                <div style="font-family:'Caveat',cursive;font-size:22px;color:#F2994A">⚠ alerta MINSAL</div>
+                <div style="font-size:16px;font-weight:600;color:#FFFFFF">Perfil C</div>
+                <div style="font-size:14px;line-height:1.7;color:rgba(237,231,217,0.8)">Hipoperfusión con congestión: unidad de paciente crítico.</div>
+              </div>
+              <div style="display:flex;align-items:baseline;gap:10px">
+                <div style="font-family:'Caveat',cursive;font-size:46px;color:#F2C94C">50%</div>
+                <div style="font-size:13.5px;line-height:1.5;color:rgba(237,231,217,0.75)">baja el BNP en obesos</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:16px;padding:12px 22px;border-top:1px solid rgba(237,231,217,0.18)">
+          <div style="font-family:'Caveat',cursive;font-size:22px;color:rgba(237,231,217,0.85)">← atrás</div>
+          <div style="font-family:'Caveat',cursive;font-size:22px;color:#F2C94C">seguir →</div>
+          <div style="flex:1"></div>
+          <div style="display:flex;align-items:center;gap:8px"><div style="width:22px;height:8px;border-radius:2px;background:#EDE7D9"></div><span style="font-family:'Caveat',cursive;font-size:20px;color:rgba(237,231,217,0.8)">tiza</span></div>
+          <div style="display:flex;align-items:center;gap:8px"><div style="width:22px;height:8px;border-radius:2px;background:#F2C94C"></div><span style="font-family:'Caveat',cursive;font-size:20px;color:rgba(237,231,217,0.8)">destacar</span></div>
+          <div style="font-family:'Caveat',cursive;font-size:20px;color:rgba(237,231,217,0.8)">notas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3C PRENSA SUIZA -->
+    <div id="3c" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#F5F3EE;background:#111111;padding:3px 8px;border-radius:5px">3c</span>
+        <span style="font-size:16px;font-weight:600">Prensa suiza</span>
+        <span style="font-size:13px;color:#6E7A90">Hueso y tinta · Helvetica · grilla visible</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#F5F3EE;border:1px solid #111111;overflow:hidden;display:flex;flex-direction:column;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;color:#111111">
+        <div style="display:flex;align-items:flex-start;gap:0;padding:20px 24px 14px;border-bottom:1px solid #111111">
+          <div style="width:90px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Clase</div>
+          <div style="flex:1;font-size:15px;font-weight:700;letter-spacing:-0.02em">Insuficiencia Cardíaca Aguda</div>
+          <div style="width:150px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">ASOFAMECh CV-114 V3</div>
+          <div style="width:130px;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A">Estándar 15 min</div>
+          <div style="width:52px;text-align:right;font-size:11px;font-weight:700">06/14</div>
+        </div>
+        <div style="display:flex;gap:2px;padding:0 24px;margin-top:10px">
+          <sc-for list="{{ s3c }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:5px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:22px 24px;display:grid;grid-template-columns:repeat(12,1fr);gap:0 16px;align-content:space-between">
+          <div style="grid-column:span 2;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069;padding-top:6px">02 — Fisio<br>patología</div>
+          <div style="grid-column:span 10;font-size:46px;font-weight:700;line-height:0.98;letter-spacing:-0.035em;margin-bottom:22px">Perfiles hemodinámicos<br>de Stevenson</div>
+          <div style="grid-column:2 / span 5;border-top:2px solid #111111;padding-top:12px;display:flex;flex-direction:column;gap:8px">
+            <div style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#B4322A">Clave de examen</div>
+            <div style="font-size:20px;font-weight:700;letter-spacing:-0.02em">Perfil B — húmedo y caliente</div>
+            <div style="font-size:14px;line-height:1.55;color:#3D3A36;text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en el servicio de urgencias: vasodilatador y diurético de asa como conducta inicial, nunca inótropo.</div>
+          </div>
+          <div style="grid-column:7 / span 3;border-top:2px solid #111111;padding-top:12px;display:flex;flex-direction:column;gap:8px">
+            <div style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Alerta MINSAL</div>
+            <div style="font-size:20px;font-weight:700;letter-spacing:-0.02em">Perfil C</div>
+            <div style="font-size:14px;line-height:1.55;color:#3D3A36">Hipoperfusión con congestión: unidad de paciente crítico.</div>
+          </div>
+          <div style="grid-column:10 / span 3;border-top:2px solid #111111;padding-top:12px;display:flex;flex-direction:column;gap:2px">
+            <div style="font-size:62px;font-weight:700;letter-spacing:-0.05em;line-height:0.9">50%</div>
+            <div style="font-size:13px;line-height:1.4;color:#3D3A36">caída del BNP en obesidad; un valor normal no descarta</div>
+          </div>
+          <div style="grid-column:2 / span 11;border-top:1px solid #111111;margin-top:24px;padding-top:14px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+            <div style="display:flex;flex-direction:column;gap:4px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Tercer ruido</div>
+              <div style="font-size:30px;font-weight:700;letter-spacing:-0.04em">LR+ 11,0</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:4px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Ingurgitación yugular</div>
+              <div style="font-size:30px;font-weight:700;letter-spacing:-0.04em">LR+ 5,1</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:4px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Edema de extremidades</div>
+              <div style="font-size:30px;font-weight:700;letter-spacing:-0.04em;color:#777069">LR+ 2,3</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:4px;border-left:1px solid #CFC8B6;padding-left:16px">
+              <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Fuente</div>
+              <div style="font-size:13px;line-height:1.45;color:#3D3A36">GES Insuficiencia Cardíaca, MINSAL 2021</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;padding:0 24px;border-top:1px solid #111111">
+          <div style="padding:14px 0;width:90px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase">← Atrás</div>
+          <div style="padding:14px 0;width:110px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Adelante →</div>
+          <div style="flex:1"></div>
+          <div style="padding:14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Anotar</div>
+          <div style="padding:14px 0 14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Notas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3D TERMINAL ÁMBAR -->
+    <div id="3d" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#14100A;background:#FFB000;padding:3px 8px;border-radius:5px">3d</span>
+        <span style="font-size:16px;font-weight:600">Terminal ámbar</span>
+        <span style="font-size:13px;color:#6E7A90">Fósforo ámbar · marcos de caracteres · scanlines</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#14100A;border:1px solid #3A2C10;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;font-family:'Space Mono',monospace;color:#FFB000;background-image:repeating-linear-gradient(#14100A 0 3px,#17120B 3px 4px)">
+        <div style="display:flex;align-items:center;gap:12px;padding:12px 20px;border-bottom:1px dashed #5A4418">
+          <div style="font-size:12px;font-weight:700">EUNACOM://cv-114.v3</div>
+          <div style="font-size:11px;color:#8A6B25">— insuficiencia cardiaca aguda</div>
+          <div style="flex:1"></div>
+          <div style="font-size:11px;font-weight:700;color:#14100A;background:#FFB000;padding:3px 9px">CLASE_ESTANDAR 15M</div>
+          <div style="font-size:12px;color:#C98F1E">[06/14]</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:10px 20px">
+          <div style="font-size:11px;color:#8A6B25">LOAD</div>
+          <div style="flex:1;display:flex;gap:2px">
+            <sc-for list="{{ s3d }}" as="s" hint-placeholder-count="14">
+              <div style="flex:1;height:12px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+            </sc-for>
+          </div>
+          <div style="font-size:11px;color:#8A6B25">43%</div>
+        </div>
+        <div style="flex:1;padding:6px 20px 20px;display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="font-size:11px;color:#8A6B25">┌─ CAP_02 FISIOPATOLOGIA ─────────── SLIDE 06 ─┐</div>
+            <div style="font-size:26px;font-weight:700;letter-spacing:-0.01em;color:#FFD478;text-shadow:0 0 18px rgba(255,176,0,0.35)">PERFILES HEMODINÁMICOS DE STEVENSON</div>
+          </div>
+          <div style="flex:1;display:flex;gap:18px">
+            <div style="flex:1.5;border:1px solid #5A4418;padding:18px;display:flex;flex-direction:column;gap:10px;position:relative">
+              <div style="position:absolute;top:-9px;left:14px;background:#14100A;padding:0 8px;font-size:10px;font-weight:700;color:#FFB000">[ CLAVE_EXAMEN ]</div>
+              <div style="font-size:17px;font-weight:700;color:#FFD478">&gt; PERFIL B — HÚMEDO Y CALIENTE</div>
+              <div style="font-size:13px;line-height:1.75;color:#C98F1E">Congestión con perfusión conservada. Perfil más frecuente en urgencias: vasodilatador + diurético de asa. Inótropo NO de entrada.</div>
+              <div style="height:1px;background:#3A2C10"></div>
+              <div style="display:flex;flex-direction:column;gap:7px">
+                <div style="font-size:12px;color:#C98F1E">&gt; 01 · ORTOPNEA ........... S 89% congestión izquierda</div>
+                <div style="font-size:12px;color:#C98F1E">&gt; 02 · TERCER RUIDO ...... LR+ 11.0 disfunción sistólica</div>
+                <div style="font-size:12px;color:#C98F1E">&gt; 03 · YUGULARES ......... LR+ 5.1 presión AD elevada</div>
+                <div style="font-size:12px;color:#8A6B25">&gt; 04 · EDEMA EEII ........ LR+ 2.3 poco específico</div>
+              </div>
+              <div style="font-size:13px;color:#FFB000">_</div>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column;gap:14px">
+              <div style="border:1px solid #5A4418;padding:16px;display:flex;flex-direction:column;gap:8px;position:relative">
+                <div style="position:absolute;top:-9px;left:14px;background:#14100A;padding:0 8px;font-size:10px;font-weight:700;color:#FF7A45">[ ALERTA_MINSAL ]</div>
+                <div style="font-size:15px;font-weight:700;color:#FFD478">PERFIL C</div>
+                <div style="font-size:12.5px;line-height:1.65;color:#C98F1E">Hipoperfusión + congestión → UPC.</div>
+              </div>
+              <div style="display:flex;align-items:baseline;gap:10px;padding-left:2px">
+                <div style="font-size:34px;font-weight:700;color:#FFD478">50%</div>
+                <div style="font-size:12px;line-height:1.4;color:#8A6B25">BNP en obesidad;<br>normal no descarta</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:18px;padding:11px 20px;border-top:1px dashed #5A4418">
+          <div style="font-size:12px;color:#C98F1E">[←] PREV</div>
+          <div style="font-size:12px;font-weight:700;color:#14100A;background:#FFB000;padding:3px 10px">[→] NEXT</div>
+          <div style="flex:1"></div>
+          <div style="font-size:12px;color:#8A6B25">[P] PIZARRA</div>
+          <div style="font-size:12px;color:#8A6B25">[N] NOTAS_DOCENTE</div>
+          <div style="font-size:12px;color:#8A6B25">[C] CAPITULOS</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3E NEGATOSCOPIO -->
+    <div id="3e" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#061018;background:#7FD4FF;padding:3px 8px;border-radius:5px">3e</span>
+        <span style="font-size:16px;font-weight:600">Negatoscopio</span>
+        <span style="font-size:13px;color:#6E7A90">Azul radiografía · líneas finas · placas rotuladas</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#061018;border:1px solid #123449;overflow:hidden;display:flex;flex-direction:column;font-family:'IBM Plex Sans',sans-serif;color:#CFE9F7">
+        <div style="display:flex;align-items:center;gap:14px;padding:13px 20px;border-bottom:1px solid #123449;background:linear-gradient(180deg,#0A1B26,#061018)">
+          <div style="font-family:'Space Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#4E88A8">PLACA 06/14</div>
+          <div style="width:1px;height:18px;background:#123449"></div>
+          <div style="font-size:14px;font-weight:600;color:#EAF6FD">Insuficiencia Cardíaca Aguda</div>
+          <div style="font-family:'Space Mono',monospace;font-size:10px;color:#4E88A8">ASOFAMECH·CV-114·V3</div>
+          <div style="flex:1"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.1em;color:#7FD4FF;border:1px solid #1E5B78;padding:5px 10px">EXPOSICIÓN ESTÁNDAR · 15:00</div>
+        </div>
+        <div style="display:flex;gap:2px;padding:10px 20px;border-bottom:1px solid #0E2635">
+          <sc-for list="{{ s3e }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:2px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:24px 20px;display:flex;gap:16px;min-height:0">
+          <div style="flex:1.5;border:1px solid #123449;background:radial-gradient(120% 90% at 50% 40%,#0E2634 0%,#071520 70%);padding:22px;display:flex;flex-direction:column;gap:12px;position:relative">
+            <div style="position:absolute;top:10px;right:12px;font-family:'Space Mono',monospace;font-size:10px;color:#3C6B85">R</div>
+            <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.16em;color:#7FD4FF">FISIOPATOLOGÍA · CORTE 06</div>
+            <div style="font-size:28px;font-weight:600;line-height:1.1;letter-spacing:-0.02em;color:#EAF6FD">Perfiles hemodinámicos de Stevenson</div>
+            <div style="height:1px;background:#123449"></div>
+            <div style="font-size:14.5px;line-height:1.7;color:#9EC3D8;text-wrap:pretty">Congestión con perfusión conservada define el <span style="color:#7FD4FF">perfil B</span>, el más frecuente en urgencias. Conducta inicial: vasodilatador más diurético de asa; el inótropo queda reservado para hipoperfusión.</div>
+            <div style="flex:1"></div>
+            <div style="display:flex;gap:8px">
+              <div style="font-family:'Space Mono',monospace;font-size:10px;color:#061018;background:#7FD4FF;padding:4px 9px;letter-spacing:0.06em">CLAVE DE EXAMEN</div>
+              <div style="font-family:'Space Mono',monospace;font-size:10px;color:#FFC98A;border:1px solid #6B4A22;padding:4px 9px;letter-spacing:0.06em">ALERTA MINSAL</div>
+            </div>
+          </div>
+          <div style="width:300px;display:flex;flex-direction:column;gap:12px">
+            <div style="flex:1;border:1px solid #123449;padding:16px;display:flex;flex-direction:column;gap:8px">
+              <div style="font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.14em;color:#4E88A8">HALLAZGO SECUNDARIO</div>
+              <div style="font-size:16px;font-weight:600;color:#EAF6FD">Perfil C</div>
+              <div style="font-size:13.5px;line-height:1.65;color:#9EC3D8">Hipoperfusión con congestión: activar traslado a unidad de paciente crítico.</div>
+            </div>
+            <div style="border:1px solid #123449;padding:16px;display:flex;align-items:baseline;gap:12px">
+              <div style="font-family:'Space Mono',monospace;font-size:30px;color:#7FD4FF">50%</div>
+              <div style="font-size:12.5px;line-height:1.45;color:#9EC3D8">caída del BNP en obesidad</div>
+            </div>
+            <div style="border:1px solid #123449;padding:12px 16px;display:flex;justify-content:space-between;font-family:'Space Mono',monospace;font-size:11px;color:#4E88A8">
+              <span>LR+ R3</span><span style="color:#CFE9F7">11.0</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:11px 20px;border-top:1px solid #123449;background:#081A24">
+          <div style="font-family:'Space Mono',monospace;font-size:11px;color:#9EC3D8;border:1px solid #1E4A61;padding:6px 12px">◀ PLACA ANTERIOR</div>
+          <div style="font-family:'Space Mono',monospace;font-size:11px;color:#061018;background:#7FD4FF;padding:6px 12px">PLACA SIGUIENTE ▶</div>
+          <div style="flex:1"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:11px;color:#4E88A8">TRAZAR</div>
+          <div style="font-family:'Space Mono',monospace;font-size:11px;color:#4E88A8">NOTAS</div>
+          <div style="font-family:'Space Mono',monospace;font-size:11px;color:#4E88A8">ZOOM</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="padding:56px 56px 20px;display:flex;flex-direction:column;gap:36px;border-bottom:1px solid #161D2B">
+  <div style="display:flex;flex-direction:column;gap:10px;max-width:900px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#6E7A90">Turno 2 · 5 estéticas</div>
+    <div style="font-size:32px;font-weight:600;letter-spacing:-0.02em">Cinco looks para el mismo reproductor</div>
+    <div style="font-size:15px;line-height:1.6;color:#8A94A8;text-wrap:pretty">Misma estructura y mismo contenido en las cinco: cambia sólo el lenguaje visual (tipografía, color, densidad, bordes y radios). Elige una y la desarrollo completa: <a href="#2a">2a</a>, <a href="#2b">2b</a>, <a href="#2c">2c</a>, <a href="#2d">2d</a>, <a href="#2e">2e</a>.</div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start">
+
+    <!-- 2A GRAFITO QUIRÚRGICO -->
+    <div id="2a" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0B0F17;background:#5EC2B7;padding:3px 8px;border-radius:5px">2a</span>
+        <span style="font-size:16px;font-weight:600">Grafito quirúrgico</span>
+        <span style="font-size:13px;color:#6E7A90">IBM Plex · hairlines · verde azulado</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#0B0F17;border:1px solid #1E2636;border-radius:12px;overflow:hidden;display:flex;flex-direction:column;font-family:'IBM Plex Sans',sans-serif">
+        <div style="display:flex;align-items:center;gap:14px;padding:14px 20px;border-bottom:1px solid #161D2B">
+          <div style="width:24px;height:24px;border-radius:6px;background:#5EC2B7"></div>
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <div style="font-size:14px;font-weight:600">Insuficiencia Cardíaca Aguda</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5A6478;letter-spacing:0.08em">ASOFAMECh · CV-114 · V3</div>
+          </div>
+          <div style="flex:1"></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:#8FDAD2;border:1px solid #2C4A46;padding:5px 10px;border-radius:999px">CLASE ESTÁNDAR · 15m</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A94A8">06 / 14</div>
+        </div>
+        <div style="display:flex;gap:3px;padding:10px 20px;border-bottom:1px solid #161D2B">
+          <sc-for list="{{ s2a }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:4px;border-radius:2px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:28px 30px;display:flex;flex-direction:column;gap:18px">
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;color:#5EC2B7">FISIOPATOLOGÍA · SLIDE 06</div>
+            <div style="font-size:26px;font-weight:600;letter-spacing:-0.01em">Perfiles hemodinámicos de Stevenson</div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:1.5fr 1fr;grid-template-rows:1fr 1fr;gap:12px">
+            <div style="grid-row:span 2;background:#101724;border:1px solid #1E2636;border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:10px">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#07090E;background:#5EC2B7;padding:3px 7px;border-radius:4px;align-self:flex-start">CLAVE DE EXAMEN</span>
+              <div style="font-size:18px;font-weight:600">Perfil B — húmedo y caliente</div>
+              <div style="font-size:14px;line-height:1.6;color:#9AA4B8;text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en urgencias: vasodilatador más diurético de asa, nunca inótropo de entrada.</div>
+            </div>
+            <div style="background:#101724;border:1px solid #1E2636;border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:8px">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#D9A441;border:1px solid #4A3A1A;padding:3px 7px;border-radius:4px;align-self:flex-start">ALERTA MINSAL</span>
+              <div style="font-size:15px;font-weight:600">Perfil C</div>
+              <div style="font-size:13px;line-height:1.5;color:#9AA4B8">Hipoperfusión y congestión: unidad de paciente crítico.</div>
+            </div>
+            <div style="background:#101724;border:1px solid #1E2636;border-radius:10px;padding:18px;display:flex;align-items:center;gap:16px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:26px;font-weight:600;color:#5EC2B7">50%</div>
+              <div style="font-size:12.5px;line-height:1.5;color:#9AA4B8">Caída del BNP en obesos: un valor normal no descarta.</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:12px 20px;border-top:1px solid #161D2B;background:#0D121C">
+          <div style="padding:8px 14px;border:1px solid #232C3D;border-radius:8px;font-size:13px;color:#C3CBDA">◀ Anterior</div>
+          <div style="padding:8px 14px;border:1px solid #2C4A46;background:#132320;border-radius:8px;font-size:13px;color:#8FDAD2">Siguiente ▶</div>
+          <div style="flex:1"></div>
+          <div style="display:flex;gap:6px">
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8">✎</div>
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8">▤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2B EDITORIAL NOCTURNO -->
+    <div id="2b" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#14120E;background:#C9A227;padding:3px 8px;border-radius:5px">2b</span>
+        <span style="font-size:16px;font-weight:600">Editorial nocturno</span>
+        <span style="font-size:13px;color:#6E7A90">Serif Newsreader · cálido · oro</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#14120E;border:1px solid #2A251B;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;font-family:'IBM Plex Sans',sans-serif">
+        <div style="display:flex;align-items:center;gap:14px;padding:16px 24px;border-bottom:1px solid #2A251B">
+          <div style="display:flex;flex-direction:column;gap:2px">
+            <div style="font-family:'Newsreader',serif;font-size:17px;font-weight:500;color:#F0E9DC">Insuficiencia Cardíaca Aguda</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#7E7360;letter-spacing:0.1em">ASOFAMECH · CV-114 · PERFIL V3</div>
+          </div>
+          <div style="flex:1"></div>
+          <div style="font-family:'Newsreader',serif;font-style:italic;font-size:14px;color:#C9A227;border-bottom:1px solid #4A3F20;padding-bottom:2px">Clase estándar, 15 min</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#9A8F7B">06 / 14</div>
+        </div>
+        <div style="display:flex;gap:4px;padding:12px 24px">
+          <sc-for list="{{ s2b }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:2px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:18px 24px 26px;display:flex;flex-direction:column;gap:20px">
+          <div style="display:flex;flex-direction:column;gap:8px;border-bottom:1px solid #2A251B;padding-bottom:16px">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.18em;color:#9A8F7B">CAPÍTULO II · FISIOPATOLOGÍA</div>
+            <div style="font-family:'Newsreader',serif;font-size:34px;font-weight:400;color:#F5F0E6;letter-spacing:-0.01em">Perfiles hemodinámicos de Stevenson</div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:1.5fr 1fr;gap:28px">
+            <div style="display:flex;flex-direction:column;gap:12px;border-right:1px solid #2A251B;padding-right:28px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:0.12em;color:#C9A227">CLAVE DE EXAMEN</div>
+              <div style="font-family:'Newsreader',serif;font-size:22px;color:#F0E9DC">Perfil B — húmedo y caliente</div>
+              <div style="font-size:15px;line-height:1.7;color:#B5AB98;text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en el servicio de urgencias y el que más se pregunta: la conducta inicial combina vasodilatador y diurético de asa, no inótropo.</div>
+              <div style="font-size:15px;line-height:1.7;color:#7E7360;font-style:italic;font-family:'Newsreader',serif">La trampa clásica: un BNP normal en paciente obeso no descarta el diagnóstico.</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:18px">
+              <div style="display:flex;flex-direction:column;gap:6px">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#B0762C">ALERTA MINSAL</div>
+                <div style="font-family:'Newsreader',serif;font-size:19px;color:#F0E9DC">Perfil C</div>
+                <div style="font-size:14px;line-height:1.6;color:#B5AB98">Hipoperfusión con congestión. Traslado inmediato a unidad de paciente crítico.</div>
+              </div>
+              <div style="border-top:1px solid #2A251B;padding-top:16px;display:flex;flex-direction:column;gap:4px">
+                <div style="font-family:'Newsreader',serif;font-size:36px;color:#C9A227">50%</div>
+                <div style="font-size:13px;color:#7E7360">reducción del BNP en obesidad</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:20px;padding:14px 24px;border-top:1px solid #2A251B">
+          <div style="font-family:'Newsreader',serif;font-size:15px;color:#B5AB98">← Anterior</div>
+          <div style="font-family:'Newsreader',serif;font-size:15px;color:#C9A227">Siguiente →</div>
+          <div style="flex:1"></div>
+          <div style="font-size:13px;color:#7E7360">Pizarra</div>
+          <div style="font-size:13px;color:#7E7360">Notas del docente</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2C MONITOR DE SIGNOS VITALES -->
+    <div id="2c" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#000;background:#3DF08B;padding:3px 8px;border-radius:5px">2c</span>
+        <span style="font-size:16px;font-weight:600">Monitor de signos vitales</span>
+        <span style="font-size:13px;color:#6E7A90">Mono total · negro puro · verde señal</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#000000;border:1px solid #1A1F1C;border-radius:0;overflow:hidden;display:flex;flex-direction:column;font-family:'JetBrains Mono',monospace">
+        <div style="display:flex;align-items:center;gap:14px;padding:12px 18px;border-bottom:1px solid #1A1F1C;background:#050705">
+          <div style="font-size:12px;font-weight:700;color:#3DF08B;letter-spacing:0.04em">IC_AGUDA</div>
+          <div style="font-size:11px;color:#3A4440">/ ASOFAMECH.CV-114 / V3</div>
+          <div style="flex:1"></div>
+          <div style="font-size:11px;font-weight:700;color:#000;background:#3DF08B;padding:4px 9px">STD_15M</div>
+          <div style="font-size:12px;color:#6D7A74">[06/14]</div>
+        </div>
+        <div style="display:flex;gap:2px;padding:8px 18px;border-bottom:1px solid #1A1F1C">
+          <sc-for list="{{ s2c }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:8px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:22px 18px;display:flex;flex-direction:column;gap:16px;background-image:linear-gradient(#0A0D0B 1px,transparent 1px),linear-gradient(90deg,#0A0D0B 1px,transparent 1px);background-size:28px 28px">
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="font-size:11px;letter-spacing:0.18em;color:#3DF08B">&gt; CAP_02.FISIOPATOLOGIA / SLIDE_06</div>
+            <div style="font-size:25px;font-weight:700;color:#E8F5EE;letter-spacing:-0.02em">PERFILES HEMODINÁMICOS DE STEVENSON</div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:#1A1F1C;border:1px solid #1A1F1C">
+            <div style="grid-column:span 2;background:#050705;padding:18px;display:flex;flex-direction:column;gap:10px">
+              <div style="font-size:10px;font-weight:700;color:#000;background:#3DF08B;padding:3px 7px;align-self:flex-start">! CLAVE_EXAMEN</div>
+              <div style="font-size:16px;font-weight:700;color:#E8F5EE">PERFIL B — HÚMEDO Y CALIENTE</div>
+              <div style="font-size:12.5px;line-height:1.65;color:#8FA399">Congestión con perfusión conservada. El perfil más frecuente en urgencias: vasodilatador + diurético de asa. Inótropo contraindicado de entrada.</div>
+            </div>
+            <div style="background:#050705;padding:18px;display:flex;flex-direction:column;gap:10px">
+              <div style="font-size:10px;font-weight:700;color:#FFB020;border:1px solid #4A3A10;padding:3px 7px;align-self:flex-start">! MINSAL</div>
+              <div style="font-size:15px;font-weight:700;color:#E8F5EE">PERFIL C</div>
+              <div style="font-size:12.5px;line-height:1.6;color:#8FA399">Hipoperfusión + congestión → UPC inmediata.</div>
+            </div>
+            <div style="grid-column:span 3;background:#050705;padding:16px 18px;display:flex;align-items:center;gap:20px">
+              <div style="font-size:30px;font-weight:700;color:#3DF08B">50%</div>
+              <div style="font-size:12.5px;color:#8FA399">BNP_OBESIDAD // valor normal NO descarta insuficiencia cardíaca</div>
+              <div style="flex:1"></div>
+              <div style="font-size:11px;color:#3A4440">LR+ R3 = 11.0 // IY = 5.1 // EDEMA = 2.3</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:6px;padding:10px 18px;border-top:1px solid #1A1F1C;background:#050705">
+          <div style="padding:7px 12px;border:1px solid #23302A;font-size:11px;color:#8FA399">[←] PREV</div>
+          <div style="padding:7px 12px;border:1px solid #2A5C42;background:#08180F;font-size:11px;color:#3DF08B">[→] NEXT</div>
+          <div style="flex:1"></div>
+          <div style="padding:7px 12px;border:1px solid #23302A;font-size:11px;color:#8FA399">[P] PIZARRA</div>
+          <div style="padding:7px 12px;border:1px solid #23302A;font-size:11px;color:#8FA399">[N] NOTAS</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2D CLÍNICA SUAVE -->
+    <div id="2d" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0E121C;background:#8B7BFF;padding:3px 8px;border-radius:5px">2d</span>
+        <span style="font-size:16px;font-weight:600">Clínica suave</span>
+        <span style="font-size:13px;color:#6E7A90">Space Grotesk · radios amplios · violeta</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#0E121C;border:1px solid #1C2233;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;font-family:'Space Grotesk',sans-serif">
+        <div style="display:flex;align-items:center;gap:14px;padding:16px 22px">
+          <div style="width:30px;height:30px;border-radius:10px;background:#8B7BFF;display:flex;align-items:center;justify-content:center;color:#0E121C;font-weight:700;font-size:14px">E</div>
+          <div style="display:flex;flex-direction:column;gap:1px">
+            <div style="font-size:15px;font-weight:600;color:#EDF0F7">Insuficiencia Cardíaca Aguda</div>
+            <div style="font-size:11px;color:#6C7691">ASOFAMECh · CV-114 · Perfil V3</div>
+          </div>
+          <div style="flex:1"></div>
+          <div style="font-size:12px;font-weight:600;color:#C4BBFF;background:#1A1740;padding:7px 13px;border-radius:999px">Clase estándar · 15 min</div>
+          <div style="font-size:12px;color:#8A93AC">06 / 14</div>
+        </div>
+        <div style="display:flex;gap:4px;padding:0 22px 14px">
+          <sc-for list="{{ s2d }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:6px;border-radius:999px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:6px 22px 22px;display:flex;flex-direction:column;gap:18px">
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="font-size:12px;font-weight:600;letter-spacing:0.1em;color:#8B7BFF">FISIOPATOLOGÍA · SLIDE 06</div>
+            <div style="font-size:28px;font-weight:600;color:#F2F4FA;letter-spacing:-0.02em">Perfiles hemodinámicos de Stevenson</div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:1.5fr 1fr;grid-template-rows:1fr 1fr;gap:14px">
+            <div style="grid-row:span 2;background:#151C2C;border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:12px;box-shadow:0 1px 0 rgba(255,255,255,0.04) inset">
+              <span style="font-size:11px;font-weight:600;color:#0E121C;background:#8B7BFF;padding:5px 10px;border-radius:999px;align-self:flex-start">Clave de examen</span>
+              <div style="font-size:19px;font-weight:600;color:#F2F4FA">Perfil B — húmedo y caliente</div>
+              <div style="font-size:14.5px;line-height:1.65;color:#A3ACC2;text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en urgencias: vasodilatador más diurético de asa, nunca inótropo de entrada.</div>
+            </div>
+            <div style="background:#151C2C;border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:9px">
+              <span style="font-size:11px;font-weight:600;color:#F0B85A;background:#2A2013;padding:5px 10px;border-radius:999px;align-self:flex-start">Alerta MINSAL</span>
+              <div style="font-size:16px;font-weight:600;color:#F2F4FA">Perfil C</div>
+              <div style="font-size:13.5px;line-height:1.55;color:#A3ACC2">Hipoperfusión y congestión: unidad de paciente crítico.</div>
+            </div>
+            <div style="background:#151C2C;border-radius:18px;padding:20px;display:flex;align-items:center;gap:16px">
+              <div style="font-size:30px;font-weight:700;color:#8B7BFF">50%</div>
+              <div style="font-size:13px;line-height:1.5;color:#A3ACC2">Caída del BNP en obesos: un valor normal no descarta.</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:14px 22px;background:#121827">
+          <div style="padding:10px 16px;border-radius:12px;background:#1B2133;font-size:13px;color:#C7CEE0">Anterior</div>
+          <div style="padding:10px 16px;border-radius:12px;background:#8B7BFF;font-size:13px;font-weight:600;color:#0E121C">Siguiente</div>
+          <div style="flex:1"></div>
+          <div style="width:38px;height:38px;border-radius:12px;background:#1B2133;display:flex;align-items:center;justify-content:center;color:#8A93AC">✎</div>
+          <div style="width:38px;height:38px;border-radius:12px;background:#1B2133;display:flex;align-items:center;justify-content:center;color:#8A93AC">▤</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2E BRUTALISTA DE DATOS -->
+    <div id="2e" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0D0D0D;background:#FF5A36;padding:3px 8px;border-radius:5px">2e</span>
+        <span style="font-size:16px;font-weight:600">Brutalista de datos</span>
+        <span style="font-size:13px;color:#6E7A90">Archivo en caja alta · sin radios · naranja</span>
+      </div>
+      <div style="width:1000px;height:620px;background:#0D0D0D;border:2px solid #2A2A2A;border-radius:0;overflow:hidden;display:flex;flex-direction:column;font-family:'Archivo',sans-serif">
+        <div style="display:flex;align-items:stretch;border-bottom:2px solid #2A2A2A">
+          <div style="padding:14px 18px;border-right:2px solid #2A2A2A;background:#FF5A36;display:flex;align-items:center">
+            <div style="font-size:13px;font-weight:800;letter-spacing:0.08em;color:#0D0D0D">EUNACOM</div>
+          </div>
+          <div style="flex:1;padding:12px 18px;display:flex;align-items:center;gap:14px">
+            <div style="display:flex;flex-direction:column;gap:1px">
+              <div style="font-size:15px;font-weight:700;letter-spacing:-0.01em;color:#F2F2F2;text-transform:uppercase">Insuficiencia Cardíaca Aguda</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#787878;letter-spacing:0.1em">ASOFAMECH / CV-114 / V3</div>
+            </div>
+            <div style="flex:1"></div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;color:#FF5A36;border:2px solid #FF5A36;padding:4px 9px;text-transform:uppercase">Clase estándar · 15m</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:700;color:#F2F2F2">06/14</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:3px;padding:10px 18px;border-bottom:2px solid #2A2A2A">
+          <sc-for list="{{ s2e }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:10px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:22px 18px;display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;align-items:flex-end;gap:14px;border-bottom:2px solid #2A2A2A;padding-bottom:14px">
+            <div style="font-size:30px;font-weight:800;line-height:1.05;text-transform:uppercase;letter-spacing:-0.02em;color:#F2F2F2;max-width:620px">Perfiles hemodinámicos de Stevenson</div>
+            <div style="flex:1"></div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#787878;letter-spacing:0.12em">CAP 02 · FISIOPATOLOGÍA</div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:1.4fr 1fr;grid-template-rows:1fr auto;gap:0;border:2px solid #2A2A2A">
+            <div style="border-right:2px solid #2A2A2A;border-bottom:2px solid #2A2A2A;padding:20px;display:flex;flex-direction:column;gap:10px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;color:#0D0D0D;background:#FF5A36;padding:4px 8px;align-self:flex-start;letter-spacing:0.08em">CLAVE DE EXAMEN</div>
+              <div style="font-size:19px;font-weight:700;text-transform:uppercase;color:#F2F2F2">Perfil B · húmedo y caliente</div>
+              <div style="font-family:'IBM Plex Sans',sans-serif;font-size:14px;line-height:1.6;color:#A8A8A8;text-wrap:pretty">Congestión con perfusión conservada. El perfil más frecuente en urgencias: vasodilatador más diurético de asa, nunca inótropo de entrada.</div>
+            </div>
+            <div style="border-bottom:2px solid #2A2A2A;padding:20px;display:flex;flex-direction:column;gap:10px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:700;color:#FFC24A;border:2px solid #4A3A10;padding:3px 7px;align-self:flex-start;letter-spacing:0.08em">ALERTA MINSAL</div>
+              <div style="font-size:17px;font-weight:700;text-transform:uppercase;color:#F2F2F2">Perfil C</div>
+              <div style="font-family:'IBM Plex Sans',sans-serif;font-size:13.5px;line-height:1.55;color:#A8A8A8">Hipoperfusión con congestión: unidad de paciente crítico.</div>
+            </div>
+            <div style="grid-column:span 2;padding:16px 20px;display:flex;align-items:center;gap:18px">
+              <div style="font-size:32px;font-weight:800;color:#FF5A36">50%</div>
+              <div style="font-family:'IBM Plex Sans',sans-serif;font-size:13.5px;color:#A8A8A8">Caída del BNP en obesidad — un valor normal no descarta el diagnóstico.</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:stretch;border-top:2px solid #2A2A2A">
+          <div style="padding:12px 18px;border-right:2px solid #2A2A2A;font-size:13px;font-weight:700;text-transform:uppercase;color:#A8A8A8">◀ Anterior</div>
+          <div style="padding:12px 18px;border-right:2px solid #2A2A2A;background:#FF5A36;font-size:13px;font-weight:700;text-transform:uppercase;color:#0D0D0D">Siguiente ▶</div>
+          <div style="flex:1"></div>
+          <div style="padding:12px 18px;border-left:2px solid #2A2A2A;font-size:13px;font-weight:700;text-transform:uppercase;color:#A8A8A8">Pizarra</div>
+          <div style="padding:12px 18px;border-left:2px solid #2A2A2A;font-size:13px;font-weight:700;text-transform:uppercase;color:#A8A8A8">Notas</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="padding:56px 56px 96px;display:flex;flex-direction:column;gap:36px">
+  <div style="display:flex;flex-direction:column;gap:10px;max-width:900px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#6E7A90">Turno 1 · 5 direcciones</div>
+    <div style="font-size:32px;font-weight:600;letter-spacing:-0.02em">Reproductor adaptativo de masterclasses médicas</div>
+    <div style="font-size:15px;line-height:1.6;color:#8A94A8;text-wrap:pretty">Cada dirección muestra el mismo contenido clínico con un largo de clase distinto, para probar que el shell resiste de 7 a 21 slides. Referencia los ids en el chat: <a href="#1a">1a</a>, <a href="#1b">1b</a>, <a href="#1c">1c</a>, <a href="#1d">1d</a>, <a href="#1e">1e</a>.</div>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start">
+
+    <!-- ============ 1A · RAIL DE CAPÍTULOS ============ -->
+    <div id="1a" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0B0F17;background:#5EC2B7;padding:3px 8px;border-radius:5px">1a</span>
+        <span style="font-size:16px;font-weight:600">Rail de capítulos</span>
+        <span style="font-size:13px;color:#6E7A90">Mega-Masterclass · 21 slides · layout Bento</span>
+      </div>
+      <div style="width:1180px;height:720px;background:#0B0F17;border:1px solid #1E2636;border-radius:14px;overflow:hidden;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid #161D2B">
+          <div style="width:26px;height:26px;border-radius:7px;background:#5EC2B7;display:flex;align-items:center;justify-content:center;color:#07090E;font-weight:700;font-size:13px">E</div>
+          <div style="display:flex;flex-direction:column;gap:2px;min-width:0">
+            <div style="font-size:14px;font-weight:600;white-space:nowrap">Insuficiencia Cardíaca Aguda — Manejo inicial en urgencias</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#6E7A90;letter-spacing:0.06em">ASOFAMECh · CV-114 · Perfil V3</div>
+          </div>
+          <div style="flex:1"></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:#D9A441;border:1px solid #4A3A1A;background:#1C1608;padding:5px 10px;border-radius:999px">MEGA-MASTERCLASS · 25m</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A94A8">{{ aPos }}</div>
+        </div>
+        <div style="display:flex;gap:3px;padding:10px 20px;border-bottom:1px solid #161D2B">
+          <sc-for list="{{ aSegs }}" as="s" hint-placeholder-count="21">
+            <div style="flex:1;height:4px;border-radius:2px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;display:flex;min-height:0">
+          <div style="width:228px;border-right:1px solid #161D2B;padding:16px 12px;display:flex;flex-direction:column;gap:4px;overflow:auto">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.16em;color:#5A6478;padding:0 8px 8px">CAPÍTULOS</div>
+            <sc-for list="{{ aChapters }}" as="c" hint-placeholder-count="6">
+              <div style="display:flex;align-items:center;gap:10px;padding:9px 8px;border-radius:8px;background:{{ c.bg }}">
+                <div style="width:2px;height:16px;border-radius:2px;background:{{ c.bar }}"></div>
+                <div style="flex:1;font-size:13px;color:{{ c.fg }}">{{ c.name }}</div>
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5A6478">{{ c.range }}</div>
+              </div>
+            </sc-for>
+          </div>
+          <div style="flex:1;padding:26px 30px;display:flex;flex-direction:column;gap:18px;min-width:0">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;color:#5EC2B7">FISIOPATOLOGÍA · SLIDE 07</div>
+              <div style="font-size:26px;font-weight:600;letter-spacing:-0.01em">Perfiles hemodinámicos de Stevenson</div>
+            </div>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:12px">
+              <div style="grid-column:span 2;background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:10px">
+                <div style="display:flex;gap:6px"><span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#07090E;background:#5EC2B7;padding:3px 7px;border-radius:4px">CLAVE DE EXAMEN</span></div>
+                <div style="font-size:17px;font-weight:600">Perfil B (húmedo y caliente)</div>
+                <div style="font-size:14px;line-height:1.55;color:#9AA4B8;text-wrap:pretty">Congestión con perfusión conservada. Es el perfil más frecuente en el servicio de urgencias y el que más se pregunta: la conducta inicial es vasodilatador + diurético de asa, no inótropo.</div>
+              </div>
+              <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#D9A441;border:1px solid #4A3A1A;padding:3px 7px;border-radius:4px;align-self:flex-start">ALERTA MINSAL</span>
+                <div style="font-size:15px;font-weight:600">Perfil C</div>
+                <div style="font-size:13px;line-height:1.5;color:#9AA4B8">Hipoperfusión + congestión. Derivación inmediata a unidad de paciente crítico.</div>
+              </div>
+              <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#5A6478">SIGNO CLAVE</div>
+                <div style="font-size:15px;font-weight:600">Ortopnea</div>
+                <div style="font-size:13px;line-height:1.5;color:#9AA4B8">S 89% para congestión izquierda.</div>
+              </div>
+              <div style="grid-column:span 2;background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;align-items:center;gap:20px">
+                <div style="flex:1;display:flex;flex-direction:column;gap:6px">
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#5A6478">TRAMPA FRECUENTE</div>
+                  <div style="font-size:14px;line-height:1.5;color:#C3CBDA;text-wrap:pretty">BNP normal no descarta IC en obesos: el valor se reduce hasta un 50%.</div>
+                </div>
+                <div style="width:1px;align-self:stretch;background:#1E2636"></div>
+                <div style="display:flex;flex-direction:column;gap:3px;align-items:flex-end">
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:28px;font-weight:600;color:#5EC2B7">50%</div>
+                  <div style="font-size:11px;color:#6E7A90">reducción de BNP</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:12px 20px;border-top:1px solid #161D2B;background:#0D121C">
+          <div onClick="{{ prevA }}" style="display:flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid #232C3D;border-radius:8px;font-size:13px;cursor:pointer;color:#C3CBDA" style-hover="border-color:#39465C;background:#141B28">◀ Anterior</div>
+          <div onClick="{{ nextA }}" style="display:flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid #2C4A46;background:#132320;border-radius:8px;font-size:13px;cursor:pointer;color:#8FDAD2" style-hover="background:#18302C">Siguiente ▶</div>
+          <div style="flex:1"></div>
+          <div style="display:flex;gap:6px">
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer;font-size:14px" style-hover="border-color:#39465C">✎</div>
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer;font-size:14px" style-hover="border-color:#39465C">▤</div>
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer;font-size:14px" style-hover="border-color:#39465C">⛶</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 1B · CONSOLA CLÍNICA ============ -->
+    <div id="1b" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0B0F17;background:#4C8DFF;padding:3px 8px;border-radius:5px">1b</span>
+        <span style="font-size:16px;font-weight:600">Consola clínica densa</span>
+        <span style="font-size:13px;color:#6E7A90">Clase estándar · 14 slides · tabla de dosis</span>
+      </div>
+      <div style="width:1180px;height:720px;background:#0B0F17;border:1px solid #1E2636;border-radius:14px;overflow:hidden;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:stretch;border-bottom:1px solid #161D2B">
+          <div style="padding:12px 18px;border-right:1px solid #161D2B;display:flex;flex-direction:column;gap:2px;width:300px">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;color:#5A6478">ASOFAMECh · CV-114 · V3</div>
+            <div style="font-size:14px;font-weight:600">Insuficiencia Cardíaca Aguda</div>
+          </div>
+          <div onClick="{{ toggleChap }}" style="flex:1;padding:12px 18px;display:flex;align-items:center;gap:12px;cursor:pointer" style-hover="background:#0F1522">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#5A6478">CAP. 03</div>
+            <div style="font-size:13px;font-weight:500;color:#C3CBDA">Farmacoterapia</div>
+            <div style="font-size:11px;color:#5A6478">▾</div>
+            <div style="flex:1"></div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:#9EC2FF;border:1px solid #23375C;background:#101A2B;padding:5px 10px;border-radius:5px">CLASE ESTÁNDAR · 15m</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A94A8">{{ bPos }}</div>
+          </div>
+        </div>
+        <sc-if value="{{ chapOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;background:#161D2B;border-bottom:1px solid #161D2B">
+            <sc-for list="{{ bChapters }}" as="c" hint-placeholder-count="5">
+              <div style="background:{{ c.bg }};padding:12px 14px;display:flex;flex-direction:column;gap:4px;cursor:pointer">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5A6478">{{ c.range }}</div>
+                <div style="font-size:12px;color:{{ c.fg }}">{{ c.name }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+        <div style="display:flex;gap:2px;padding:0 18px;height:3px;background:#0B0F17">
+          <sc-for list="{{ bSegs }}" as="s" hint-placeholder-count="14">
+            <div style="flex:1;height:3px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+          </sc-for>
+        </div>
+        <div style="flex:1;padding:24px 28px;display:flex;flex-direction:column;gap:14px;min-height:0">
+          <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px">
+            <div style="display:flex;flex-direction:column;gap:4px">
+              <div style="font-size:24px;font-weight:600;letter-spacing:-0.01em">Diuréticos de asa en descompensación</div>
+              <div style="font-size:13px;color:#8A94A8">Dosis de carga según exposición previa · vía endovenosa</div>
+            </div>
+            <div style="display:flex;gap:6px">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#9EC2FF;border:1px solid #23375C;padding:4px 8px;border-radius:4px">CLAVE DE EXAMEN</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#D9A441;border:1px solid #4A3A1A;padding:4px 8px;border-radius:4px">ALERTA MINSAL</span>
+            </div>
+          </div>
+          <div style="flex:1;border:1px solid #1E2636;border-radius:10px;overflow:auto;min-height:0">
+            <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1.6fr;background:#0F1522;position:sticky;top:0;border-bottom:1px solid #1E2636">
+              <div style="padding:11px 16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#7C879B">FÁRMACO</div>
+              <div style="padding:11px 16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#7C879B">DOSIS INICIAL</div>
+              <div style="padding:11px 16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#7C879B">MÁXIMO 24H</div>
+              <div style="padding:11px 16px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#7C879B">OBSERVACIÓN</div>
+            </div>
+            <sc-for list="{{ bRows }}" as="r" hint-placeholder-count="8">
+              <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1.6fr;border-bottom:1px solid #151C29;background:{{ r.bg }}">
+                <div style="padding:13px 16px;font-size:13px;font-weight:500;color:{{ r.fg }};display:flex;align-items:center;gap:8px"><span style="width:2px;height:14px;background:{{ r.bar }};border-radius:2px"></span>{{ r.drug }}</div>
+                <div style="padding:13px 16px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#C3CBDA">{{ r.dose }}</div>
+                <div style="padding:13px 16px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#C3CBDA">{{ r.max }}</div>
+                <div style="padding:13px 16px;font-size:12px;line-height:1.45;color:#8A94A8">{{ r.note }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;padding:11px 18px;border-top:1px solid #161D2B;background:#0D121C">
+          <div style="display:flex;border:1px solid #232C3D;border-radius:8px;overflow:hidden">
+            <div onClick="{{ prevB }}" style="padding:7px 13px;font-size:13px;color:#C3CBDA;cursor:pointer;border-right:1px solid #232C3D" style-hover="background:#141B28">◀</div>
+            <div onClick="{{ nextB }}" style="padding:7px 13px;font-size:13px;color:#C3CBDA;cursor:pointer" style-hover="background:#141B28">▶</div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#5A6478">← → para navegar</div>
+          <div style="flex:1"></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #232C3D;border-radius:8px;font-size:12px;color:#C3CBDA;cursor:pointer" style-hover="border-color:#39465C">✎ Pizarra</div>
+          <div style="display:flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #232C3D;border-radius:8px;font-size:12px;color:#C3CBDA;cursor:pointer" style-hover="border-color:#39465C">▤ Notas docente</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 1C · FOCO FLOTANTE ============ -->
+    <div id="1c" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0B0F17;background:#8FDAD2;padding:3px 8px;border-radius:5px">1c</span>
+        <span style="font-size:16px;font-weight:600">Foco flotante</span>
+        <span style="font-size:13px;color:#6E7A90">Micro-clase · 7 slides · visor de algoritmo</span>
+      </div>
+      <div style="width:1180px;height:720px;background:#090D14;border:1px solid #1E2636;border-radius:14px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center">
+        <div style="position:absolute;top:16px;left:16px;right:16px;display:flex;align-items:center;gap:14px;padding:10px 16px;background:#0F1522;border:1px solid #1C2434;border-radius:10px">
+          <div style="font-size:13px;font-weight:600">Insuficiencia Cardíaca Aguda</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5A6478">CV-114 · V3</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#8FDAD2;border:1px solid #2C4A46;padding:4px 9px;border-radius:999px">MICRO-CLASE · 8m</div>
+          <div style="flex:1"></div>
+          <div style="display:flex;gap:5px;align-items:center">
+            <sc-for list="{{ cSegs }}" as="s" hint-placeholder-count="7">
+              <div style="width:{{ s.w }};height:6px;border-radius:3px;background:{{ s.bg }}"></div>
+            </sc-for>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#8A94A8">{{ cPos }}</div>
+          <div style="font-size:12px;color:#8A94A8;cursor:pointer;padding-left:6px">Capítulos ▾</div>
+        </div>
+
+        <div style="width:880px;display:flex;flex-direction:column;gap:18px">
+          <div style="display:flex;flex-direction:column;gap:6px;align-items:center;text-align:center">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.16em;color:#8FDAD2">ALGORITMO · SLIDE 03</div>
+            <div style="font-size:28px;font-weight:600;letter-spacing:-0.015em">Enfrentamiento de la disnea aguda en box de reanimación</div>
+          </div>
+          <div style="height:380px;border:1px solid #1E2636;border-radius:12px;background:repeating-linear-gradient(135deg,#0E141F 0 10px,#111827 10px 20px);position:relative;display:flex;align-items:center;justify-content:center">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6E7A90;background:#0B0F17;border:1px solid #1E2636;padding:10px 16px;border-radius:8px">diagrama de flujo — algoritmo disnea aguda (SVG)</div>
+            <div style="position:absolute;bottom:14px;right:14px;display:flex;gap:6px">
+              <div style="width:32px;height:32px;border-radius:8px;background:#0B0F17;border:1px solid #232C3D;display:flex;align-items:center;justify-content:center;color:#C3CBDA;cursor:pointer;font-size:14px">＋</div>
+              <div style="width:32px;height:32px;border-radius:8px;background:#0B0F17;border:1px solid #232C3D;display:flex;align-items:center;justify-content:center;color:#C3CBDA;cursor:pointer;font-size:14px">－</div>
+              <div style="width:32px;height:32px;border-radius:8px;background:#0B0F17;border:1px solid #232C3D;display:flex;align-items:center;justify-content:center;color:#C3CBDA;cursor:pointer;font-size:13px">⛶</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;justify-content:center">
+            <div style="font-size:13px;color:#8A94A8;border:1px solid #1E2636;border-radius:999px;padding:6px 14px">1. Saturación y trabajo respiratorio</div>
+            <div style="font-size:13px;color:#8A94A8;border:1px solid #1E2636;border-radius:999px;padding:6px 14px">2. POCUS pulmonar</div>
+            <div style="font-size:13px;color:#8FDAD2;border:1px solid #2C4A46;background:#0F1C1A;border-radius:999px;padding:6px 14px">3. Perfil hemodinámico</div>
+          </div>
+        </div>
+
+        <div style="position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:6px;padding:8px;background:#0F1522;border:1px solid #1C2434;border-radius:12px">
+          <div onClick="{{ prevC }}" style="width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#C3CBDA;cursor:pointer;font-size:14px" style-hover="background:#18202E">◀</div>
+          <div onClick="{{ nextC }}" style="width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#C3CBDA;cursor:pointer;font-size:14px" style-hover="background:#18202E">▶</div>
+          <div style="width:1px;height:22px;background:#232C3D;margin:0 4px"></div>
+          <div style="width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#8FDAD2;background:#132320;cursor:pointer;font-size:15px">✎</div>
+          <div style="width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer;font-size:15px" style-hover="background:#18202E">▤</div>
+          <div style="width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer;font-size:15px" style-hover="background:#18202E">☰</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 1D · MODO EXAMEN ============ -->
+    <div id="1d" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0B0F17;background:#8B7BFF;padding:3px 8px;border-radius:5px">1d</span>
+        <span style="font-size:16px;font-weight:600">Modo examen</span>
+        <span style="font-size:13px;color:#6E7A90">Mega-Masterclass · 18 slides · quiz interactivo</span>
+      </div>
+      <div style="width:1180px;height:720px;background:#0B0F17;border:1px solid #1E2636;border-radius:14px;overflow:hidden;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:center;gap:14px;padding:13px 22px;border-bottom:1px solid #161D2B">
+          <div style="font-size:14px;font-weight:600">Insuficiencia Cardíaca Aguda</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5A6478">ASOFAMECh · CV-114 · V3</div>
+          <div style="flex:1"></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:#B6ACFF;border:1px solid #332C5C;background:#151230;padding:5px 10px;border-radius:5px">MEGA-MASTERCLASS · 25m</div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A94A8">{{ dPos }}</div>
+        </div>
+        <div style="display:flex;gap:14px;padding:12px 22px;border-bottom:1px solid #161D2B">
+          <sc-for list="{{ dChapters }}" as="c" hint-placeholder-count="5">
+            <div style="flex:{{ c.flex }};display:flex;flex-direction:column;gap:6px;cursor:pointer">
+              <div style="display:flex;gap:3px">
+                <sc-for list="{{ c.segs }}" as="s" hint-placeholder-count="4">
+                  <div style="flex:1;height:5px;border-radius:3px;background:{{ s.bg }}"></div>
+                </sc-for>
+              </div>
+              <div style="font-size:11px;color:{{ c.fg }}">{{ c.name }}</div>
+            </div>
+          </sc-for>
+        </div>
+        <div style="flex:1;display:flex;min-height:0">
+          <div style="flex:1;padding:26px 28px;display:flex;flex-direction:column;gap:16px;min-width:0">
+            <div style="display:flex;align-items:center;gap:10px">
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#07090E;background:#8B7BFF;padding:4px 8px;border-radius:4px">CASO EUNACOM 04</span>
+              <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#5A6478">dificultad alta · 2019 rendición</span>
+            </div>
+            <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;font-size:14px;line-height:1.65;color:#C3CBDA;text-wrap:pretty">Hombre de 68 años, hipertenso y diabético, consulta por disnea progresiva de 3 días y ortopnea. PA 168/95, FC 112, SatO₂ 88% ambiental. Al examen, crepitaciones bibasales, yugulares ingurgitadas, extremidades tibias y bien perfundidas. Radiografía con redistribución de flujo.</div>
+            <div style="font-size:15px;font-weight:600">¿Cuál es la conducta inicial más apropiada?</div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <sc-for list="{{ dOptions }}" as="o" hint-placeholder-count="4">
+                <div onClick="{{ o.onPick }}" style="display:flex;align-items:flex-start;gap:12px;padding:13px 15px;border:1px solid {{ o.border }};background:{{ o.bg }};border-radius:10px;cursor:pointer">
+                  <div style="width:22px;height:22px;border-radius:6px;border:1px solid {{ o.border }};display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:{{ o.letterFg }};flex-shrink:0">{{ o.letter }}</div>
+                  <div style="flex:1;font-size:13.5px;line-height:1.5;color:{{ o.fg }}">{{ o.text }}</div>
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:{{ o.markFg }}">{{ o.mark }}</div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          <div style="width:360px;border-left:1px solid #161D2B;background:#0D121C;padding:24px 22px;display:flex;flex-direction:column;gap:14px;overflow:auto">
+            <sc-if value="{{ answered }}" hint-placeholder-val="{{ false }}">
+              <div style="display:flex;flex-direction:column;gap:14px">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;color:#5A6478">EXPLICACIÓN OFICIAL</div>
+                <div style="font-size:16px;font-weight:600;color:{{ verdictFg }}">{{ verdict }}</div>
+                <div style="font-size:13.5px;line-height:1.6;color:#9AA4B8;text-wrap:pretty">Perfil B de Stevenson: congestión con perfusión conservada. La conducta inicial combina vasodilatador endovenoso y diurético de asa, junto con ventilación no invasiva por la hipoxemia. Los inótropos están reservados para hipoperfusión (perfil C), y su uso en perfil B aumenta mortalidad.</div>
+                <div style="border-top:1px solid #1A2130;padding-top:14px;display:flex;flex-direction:column;gap:8px">
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;color:#5A6478">REFERENCIA</div>
+                  <div style="font-size:12.5px;line-height:1.55;color:#8A94A8">GES Insuficiencia Cardíaca, MINSAL 2021 · ESC Acute HF Guidelines 2021.</div>
+                </div>
+                <div style="border-top:1px solid #1A2130;padding-top:14px;display:flex;flex-direction:column;gap:9px">
+                  <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;color:#5A6478">VOLVER A</div>
+                  <div style="font-size:12.5px;color:#B6ACFF;cursor:pointer">→ Slide 07 · Perfiles de Stevenson</div>
+                  <div style="font-size:12.5px;color:#B6ACFF;cursor:pointer">→ Slide 11 · Dosis de diuréticos</div>
+                </div>
+              </div>
+            </sc-if>
+            <sc-if value="{{ unanswered }}" hint-placeholder-val="{{ true }}">
+              <div style="display:flex;flex-direction:column;gap:10px;height:100%;justify-content:center;align-items:center;text-align:center">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.12em;color:#3E4759">PANEL DE EXPLICACIÓN</div>
+                <div style="font-size:13px;line-height:1.55;color:#5A6478;max-width:220px">Selecciona una alternativa para desbloquear la explicación oficial y las referencias.</div>
+              </div>
+            </sc-if>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;padding:12px 22px;border-top:1px solid #161D2B;background:#0D121C">
+          <div onClick="{{ prevD }}" style="padding:8px 14px;border:1px solid #232C3D;border-radius:8px;font-size:13px;cursor:pointer;color:#C3CBDA" style-hover="border-color:#39465C">◀ Anterior</div>
+          <div onClick="{{ nextD }}" style="padding:8px 14px;border:1px solid #3B3470;background:#181436;border-radius:8px;font-size:13px;cursor:pointer;color:#B6ACFF" style-hover="background:#1F1946">Siguiente caso ▶</div>
+          <div style="flex:1"></div>
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#5A6478">4 de 5 casos · 3 correctas</div>
+          <div style="display:flex;gap:6px;margin-left:12px">
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer">✎</div>
+            <div style="width:34px;height:34px;border:1px solid #232C3D;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#8A94A8;cursor:pointer">▤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 1E · ESTUDIO CON TELEPROMPTER ============ -->
+    <div id="1e" style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#0B0F17;background:#D9A441;padding:3px 8px;border-radius:5px">1e</span>
+        <span style="font-size:16px;font-weight:600">Estudio con teleprompter</span>
+        <span style="font-size:13px;color:#6E7A90">Clase estándar · 11 slides · filmstrip + notas</span>
+      </div>
+      <div style="width:1180px;height:720px;background:#0B0F17;border:1px solid #1E2636;border-radius:14px;overflow:hidden;display:flex">
+        <div style="width:104px;border-right:1px solid #161D2B;background:#090D14;display:flex;flex-direction:column;align-items:center;padding:14px 0;gap:8px;overflow:auto">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:0.14em;color:#4A5468">SLIDES</div>
+          <sc-for list="{{ eThumbs }}" as="t" hint-placeholder-count="11">
+            <div style="width:72px;height:44px;border-radius:6px;border:1px solid {{ t.border }};background:{{ t.bg }};display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:10px;color:{{ t.fg }};cursor:pointer;flex-shrink:0">{{ t.n }}</div>
+          </sc-for>
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;min-width:0">
+          <div style="display:flex;align-items:center;gap:14px;padding:13px 22px;border-bottom:1px solid #161D2B">
+            <div style="display:flex;flex-direction:column;gap:2px">
+              <div style="font-size:14px;font-weight:600">Insuficiencia Cardíaca Aguda</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:#5A6478">ASOFAMECh · CV-114 · Perfil V3</div>
+            </div>
+            <div style="flex:1;display:flex;gap:3px;padding:0 10px">
+              <sc-for list="{{ eSegs }}" as="s" hint-placeholder-count="11">
+                <div style="flex:1;height:4px;border-radius:2px;background:{{ s.bg }};margin-right:{{ s.mr }}"></div>
+              </sc-for>
+            </div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:600;color:#E8C377;border:1px solid #4A3A1A;background:#1C1608;padding:5px 10px;border-radius:5px">CLASE ESTÁNDAR · 15m</div>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A94A8">{{ ePos }}</div>
+          </div>
+          <div style="flex:1;padding:26px 28px;display:flex;flex-direction:column;gap:16px;min-height:0">
+            <div style="display:flex;flex-direction:column;gap:5px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.14em;color:#E8C377">CLÍNICA · SLIDE 06</div>
+              <div style="font-size:26px;font-weight:600;letter-spacing:-0.01em">Signos con mayor rendimiento diagnóstico</div>
+            </div>
+            <div style="flex:1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px">
+              <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:9px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#E8C377;border:1px solid #4A3A1A;padding:3px 7px;border-radius:4px;align-self:flex-start">CLAVE DE EXAMEN</span>
+                <div style="font-size:16px;font-weight:600">Tercer ruido (R3)</div>
+                <div style="font-size:13.5px;line-height:1.55;color:#9AA4B8">LR+ 11. El hallazgo aislado más potente para confirmar disfunción sistólica en urgencias.</div>
+              </div>
+              <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:9px">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#5A6478">CONGESTIÓN</div>
+                <div style="font-size:16px;font-weight:600">Ingurgitación yugular</div>
+                <div style="font-size:13.5px;line-height:1.55;color:#9AA4B8">LR+ 5,1. Se mide a 45° y se correlaciona con presión de aurícula derecha.</div>
+              </div>
+              <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:9px">
+                <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.12em;color:#5A6478">BAJO RENDIMIENTO</div>
+                <div style="font-size:16px;font-weight:600">Edema de extremidades</div>
+                <div style="font-size:13.5px;line-height:1.55;color:#9AA4B8">LR+ 2,3. Poco específico: considerar insuficiencia venosa y fármacos.</div>
+              </div>
+              <div style="background:#101724;border:1px solid #1E2636;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:9px">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;color:#D9A441;border:1px solid #4A3A1A;padding:3px 7px;border-radius:4px;align-self:flex-start">ALERTA MINSAL</span>
+                <div style="font-size:16px;font-weight:600">Hipotensión sostenida</div>
+                <div style="font-size:13.5px;line-height:1.55;color:#9AA4B8">PAS &lt; 90 mmHg obliga a activar protocolo de shock cardiogénico.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="width:300px;border-left:1px solid #161D2B;background:#0D121C;display:flex;flex-direction:column">
+          <div style="display:flex;align-items:center;gap:8px;padding:14px 18px;border-bottom:1px solid #161D2B">
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.14em;color:#7C879B">TELEPROMPTER</div>
+            <div style="flex:1"></div>
+            <div style="font-size:11px;color:#5A6478;cursor:pointer">ocultar</div>
+          </div>
+          <div style="flex:1;padding:18px;overflow:auto;display:flex;flex-direction:column;gap:14px">
+            <div style="font-size:14px;line-height:1.7;color:#E6EAF2">Parte por el R3: recalca que es el signo con mejor razón de verosimilitud y que en el examen suele aparecer escondido dentro de una viñeta larga.</div>
+            <div style="font-size:14px;line-height:1.7;color:#5F6979">Contrasta con el edema: alto en frecuencia, bajo en especificidad. Menciona las tres causas alternativas antes de avanzar.</div>
+            <div style="font-size:14px;line-height:1.7;color:#5F6979">Cierra conectando con el algoritmo del slide 08.</div>
+          </div>
+          <div style="padding:14px 18px;border-top:1px solid #161D2B;display:flex;flex-direction:column;gap:10px">
+            <div style="display:flex;gap:6px">
+              <div style="flex:1;padding:8px;border:1px solid #232C3D;border-radius:8px;text-align:center;font-size:12px;color:#C3CBDA;cursor:pointer" style-hover="border-color:#39465C">✎ Lápiz</div>
+              <div style="flex:1;padding:8px;border:1px solid #4A3A1A;background:#1C1608;border-radius:8px;text-align:center;font-size:12px;color:#E8C377;cursor:pointer">▬ Marcador</div>
+              <div style="flex:1;padding:8px;border:1px solid #232C3D;border-radius:8px;text-align:center;font-size:12px;color:#C3CBDA;cursor:pointer" style-hover="border-color:#39465C">⌫</div>
+            </div>
+            <div style="display:flex;gap:6px">
+              <div onClick="{{ prevE }}" style="flex:1;padding:9px;border:1px solid #232C3D;border-radius:8px;text-align:center;font-size:13px;color:#C3CBDA;cursor:pointer" style-hover="border-color:#39465C">◀</div>
+              <div onClick="{{ nextE }}" style="flex:1;padding:9px;border:1px solid #232C3D;border-radius:8px;text-align:center;font-size:13px;color:#C3CBDA;cursor:pointer" style-hover="border-color:#39465C">▶</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { a: 7, b: 6, c: 3, d: 12, e: 6, pick: null, chapOpen: false };
+
+  segs(cur, total, accent, breaks) {
+    const out = [];
+    for (let i = 1; i <= total; i++) {
+      out.push({
+        bg: i < cur ? accent : (i === cur ? "#FFFFFF" : "#1E2636"),
+        mr: breaks && breaks.indexOf(i) >= 0 ? "10px" : "0px"
+      });
+    }
+    return out;
+  }
+  segsL(cur, total, accent, empty, now, breaks) {
+    const out = [];
+    for (let i = 1; i <= total; i++) {
+      out.push({
+        bg: i < cur ? accent : (i === cur ? now : empty),
+        mr: breaks && breaks.indexOf(i) >= 0 ? "10px" : "0px"
+      });
+    }
+    return out;
+  }
+  pad(n) { return String(n).padStart(2, "0"); }
+  step(k, d, total) {
+    this.setState(s => {
+      const v = Math.min(total, Math.max(1, s[k] + d));
+      return { [k]: v };
+    });
+  }
+
+  renderVals() {
+    const A = "#5EC2B7", B = "#4C8DFF", C = "#8FDAD2", D = "#8B7BFF", E = "#D9A441";
+    const cur = this.state;
+
+    const aChaptersRaw = [
+      { name: "Definiciones", range: "01–03" },
+      { name: "Fisiopatología", range: "04–08" },
+      { name: "Clínica y examen", range: "09–12" },
+      { name: "Farmacoterapia", range: "13–16" },
+      { name: "Algoritmos", range: "17–18" },
+      { name: "Casos clínicos", range: "19–21" }
+    ];
+    const aChapters = aChaptersRaw.map((c, i) => {
+      const active = i === 1;
+      return { ...c, bg: active ? "#132320" : "transparent", bar: active ? A : "#232C3D", fg: active ? "#E6EAF2" : "#8A94A8" };
+    });
+
+    const bChaptersRaw = [
+      { name: "Enfrentamiento", range: "01–03" },
+      { name: "Diagnóstico", range: "04–05" },
+      { name: "Farmacoterapia", range: "06–09" },
+      { name: "Complicaciones", range: "10–11" },
+      { name: "Casos clínicos", range: "12–14" }
+    ];
+    const bChapters = bChaptersRaw.map((c, i) => ({ ...c, bg: i === 2 ? "#101A2B" : "#0B0F17", fg: i === 2 ? "#9EC2FF" : "#8A94A8" }));
+
+    const bRowsRaw = [
+      { drug: "Furosemida", dose: "20–40 mg EV bolo", max: "400 mg", note: "Naïve a diuréticos. Doblar dosis oral previa si ya usaba.", hi: true },
+      { drug: "Furosemida BIC", dose: "5–10 mg/h", max: "400 mg", note: "Considerar si respuesta pobre a bolos repetidos." },
+      { drug: "Torasemida", dose: "10–20 mg EV", max: "200 mg", note: "Mayor biodisponibilidad; útil en congestión intestinal." },
+      { drug: "Hidroclorotiazida", dose: "25–50 mg VO", max: "100 mg", note: "Bloqueo secuencial de nefrona. Vigilar natremia." },
+      { drug: "Nitroglicerina", dose: "10–20 µg/min EV", max: "200 µg/min", note: "PAS > 110 mmHg. Titular cada 5 min.", hi: true },
+      { drug: "Espironolactona", dose: "25 mg VO", max: "50 mg", note: "Contraindicada si K⁺ > 5,0 o VFG < 30." },
+      { drug: "Dobutamina", dose: "2–5 µg/kg/min", max: "20 µg/kg/min", note: "Solo perfil C. Aumenta mortalidad en perfil B.", alert: true },
+      { drug: "Morfina", dose: "2–4 mg EV", max: "10 mg", note: "Uso desaconsejado de rutina: mayor necesidad de VMI.", alert: true }
+    ];
+    const bRows = bRowsRaw.map(r => ({
+      drug: r.drug, dose: r.dose, max: r.max, note: r.note,
+      bg: r.hi ? "#0F1726" : (r.alert ? "#15110A" : "transparent"),
+      fg: r.alert ? "#E8C377" : "#E6EAF2",
+      bar: r.hi ? B : (r.alert ? E : "transparent")
+    }));
+
+    const dChapRaw = [
+      { name: "Bases", n: 3 }, { name: "Diagnóstico", n: 4 }, { name: "Manejo", n: 4 }, { name: "Algoritmos", n: 2 }, { name: "Casos EUNACOM", n: 5 }
+    ];
+    let acc = 0;
+    const dChapters = dChapRaw.map(ch => {
+      const segs = [];
+      for (let i = 0; i < ch.n; i++) {
+        acc++;
+        segs.push({ bg: acc < cur.d ? D : (acc === cur.d ? "#FFFFFF" : "#1E2636") });
+      }
+      const active = cur.d > acc - ch.n && cur.d <= acc;
+      return { name: ch.name, flex: ch.n, segs, fg: active ? "#E6EAF2" : "#5A6478" };
+    });
+
+    const optsRaw = [
+      { letter: "A", text: "Dobutamina en infusión continua más volumen para optimizar precarga." },
+      { letter: "B", text: "Ventilación no invasiva, nitroglicerina endovenosa y furosemida en bolo." },
+      { letter: "C", text: "Betabloqueo endovenoso para control de frecuencia y diurético oral." },
+      { letter: "D", text: "Trombolisis sistémica precoz por sospecha de síndrome coronario." }
+    ];
+    const pick = this.state.pick;
+    const correct = "B";
+    const dOptions = optsRaw.map(o => {
+      const chosen = pick === o.letter;
+      const isCorrect = o.letter === correct;
+      let border = "#232C3D", bg = "#0F1522", fg = "#C3CBDA", markFg = "#5A6478", mark = "", letterFg = "#8A94A8";
+      if (pick) {
+        if (isCorrect) { border = "#2C5A44"; bg = "#0E1F18"; fg = "#CFEADD"; markFg = "#6FD3A4"; mark = "correcta"; letterFg = "#6FD3A4"; }
+        else if (chosen) { border = "#5A2C33"; bg = "#1F0E12"; fg = "#EAD0D4"; markFg = "#D97382"; mark = "tu respuesta"; letterFg = "#D97382"; }
+        else { fg = "#6E7A90"; letterFg = "#5A6478"; }
+      }
+      return { letter: o.letter, text: o.text, border, bg, fg, markFg, mark, letterFg, onPick: () => this.setState({ pick: o.letter }) };
+    });
+
+    const eThumbs = [];
+    for (let i = 1; i <= 11; i++) {
+      const on = i === cur.e;
+      eThumbs.push({ n: this.pad(i), border: on ? "#4A3A1A" : "#1A2130", bg: on ? "#1C1608" : "#0E141F", fg: on ? "#E8C377" : "#4A5468" });
+    }
+
+    const swissRows = bRowsRaw.map(r => ({
+      drug: r.drug, dose: r.dose, max: r.max, note: r.note,
+      bg: r.hi ? "#EDEAE2" : "transparent",
+      fg: r.alert ? "#B4322A" : "#111111",
+      noteFg: r.alert ? "#B4322A" : "#3D3A36"
+    }));
+    const swissOptions = optsRaw.map(o => {
+      const chosen = pick === o.letter;
+      const isCorrect = o.letter === correct;
+      let bg = "transparent", fg = "#3D3A36", markFg = "#777069", mark = "", letterFg = "#111111";
+      if (pick) {
+        if (isCorrect) { bg = "#E7EDE6"; fg = "#111111"; markFg = "#2F6B3F"; mark = "correcta"; letterFg = "#2F6B3F"; }
+        else if (chosen) { bg = "#F2E4E2"; fg = "#111111"; markFg = "#B4322A"; mark = "tu respuesta"; letterFg = "#B4322A"; }
+        else { fg = "#8A847B"; letterFg = "#8A847B"; }
+      }
+      return { letter: o.letter, text: o.text, bg, fg, markFg, mark, letterFg, onPick: () => this.setState({ pick: o.letter }) };
+    });
+    const swissIndexRaw = [
+      { num: "01", name: "Definiciones y epidemiología", meta: "3 slides", range: "01–03" },
+      { num: "02", name: "Fisiopatología", meta: "5 slides · 1 tabla", range: "04–08", active: true },
+      { num: "03", name: "Clínica y examen físico", meta: "4 slides", range: "09–12" },
+      { num: "04", name: "Farmacoterapia", meta: "4 slides · 2 tablas", range: "13–16" },
+      { num: "05", name: "Algoritmos", meta: "2 slides", range: "17–18" },
+      { num: "06", name: "Casos clínicos EUNACOM", meta: "3 casos", range: "19–21" }
+    ];
+    const swissIndex = swissIndexRaw.map(c => ({
+      num: c.num, name: c.name, meta: c.meta, range: c.range,
+      fg: c.active ? "#B4322A" : "#111111",
+      numFg: c.active ? "#B4322A" : "#777069",
+      rule: c.active ? "#B4322A" : "#111111"
+    }));
+
+    return {
+      swissRows, swissOptions, swissIndex,
+      swissVerdictFg: pick === correct ? "#2F6B3F" : "#B4322A",
+      s4a: this.segsL(9, 14, "#111111", "#D9D6CE", "#B4322A", [3, 7, 11]),
+      s4b: this.segsL(16, 18, "#111111", "#D9D6CE", "#B4322A", [3, 7, 11, 13]),
+      s4c: this.segsL(4, 7, "#111111", "#D9D6CE", "#B4322A", [2, 5]),
+      s3a: this.segsL(6, 14, "#B4322A", "#D6CFBE", "#2B2A26", [3, 7, 11]),
+      s3b: this.segs(6, 14, "#EDE7D9", [3, 7, 11]),
+      s3c: this.segsL(6, 14, "#111111", "#D9D6CE", "#B4322A", [3, 7, 11]),
+      s3d: this.segs(6, 14, "#FFB000", [3, 7, 11]),
+      s3e: this.segs(6, 14, "#7FD4FF", [3, 7, 11]),
+      s2a: this.segs(6, 14, "#5EC2B7", [3, 7, 11]),
+      s2b: this.segs(6, 14, "#C9A227", [3, 7, 11]),
+      s2c: this.segs(6, 14, "#3DF08B", [3, 7, 11]),
+      s2d: this.segs(6, 14, "#8B7BFF", [3, 7, 11]),
+      s2e: this.segs(6, 14, "#FF5A36", [3, 7, 11]),
+      aSegs: this.segs(cur.a, 21, A, [3, 8, 12, 16, 18]),
+      bSegs: this.segs(cur.b, 14, B, [3, 5, 9, 11]),
+      cSegs: this.segs(cur.c, 7, C, []).map((s, i) => ({ ...s, w: i + 1 === cur.c ? "26px" : "14px" })),
+      eSegs: this.segs(cur.e, 11, E, [3, 7]),
+      aPos: this.pad(cur.a) + " / 21",
+      bPos: this.pad(cur.b) + " / 14",
+      cPos: this.pad(cur.c) + " / 07",
+      dPos: this.pad(cur.d) + " / 18",
+      ePos: this.pad(cur.e) + " / 11",
+      aChapters, bChapters, bRows, dChapters, dOptions, eThumbs,
+      chapOpen: this.state.chapOpen,
+      toggleChap: () => this.setState(s => ({ chapOpen: !s.chapOpen })),
+      answered: !!pick,
+      unanswered: !pick,
+      verdict: pick === correct ? "Correcta — alternativa B" : "Incorrecta — la correcta es B",
+      verdictFg: pick === correct ? "#6FD3A4" : "#D97382",
+      prevA: () => this.step("a", -1, 21), nextA: () => this.step("a", 1, 21),
+      prevB: () => this.step("b", -1, 14), nextB: () => this.step("b", 1, 14),
+      prevC: () => this.step("c", -1, 7), nextC: () => this.step("c", 1, 7),
+      prevD: () => this.step("d", -1, 18), nextD: () => this.step("d", 1, 18),
+      prevE: () => this.step("e", -1, 11), nextE: () => this.step("e", 1, 11)
+    };
+  }
+}
+</script>
+</body>
+</html>

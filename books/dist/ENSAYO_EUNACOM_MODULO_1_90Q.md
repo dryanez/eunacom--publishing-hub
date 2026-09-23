@@ -1,0 +1,2923 @@
+# 📝 ENSAYO OFICIAL EUNACOM 2026 · MÓDULO 1: MEDICINA INTERNA
+### 90 Preguntas de Alta Calibración Clínica · Perfil de Conocimientos V3 ASOFAMECh
+
+> **INSTRUCCIONES GENERALES**:
+> * **Duración estándar**: 150 minutos (2 horas y 30 minutos · promedio 1.6 minutos por pregunta).
+> * **Estructura**: 90 preguntas de opción múltiple con 5 alternativas (A, B, C, D, E) y una sola respuesta correcta.
+> * **Distribución**: 10 especialidades de Medicina Interna (9 preguntas cada una, orden aleatorio idéntico al examen real).
+> * **Modalidad de Autoevaluación**: Responda la **SECCIÓN I** completa en su hoja de respuestas sin mirar la solución. Al finalizar, contraste con la **SECCIÓN II (Solucionario Razonado & Matriz Legal Perfil V3)**.
+
+---
+
+\pagebreak
+
+# SECCIÓN I · CUADERNILLO DE PREGUNTAS (1 A 90)
+
+### Pregunta 1
+
+Mujer de 30 años, cursando embarazo de 7 semanas confirmado por ecografía obstétrica transvaginal con embrión viable y latidos cardiofetales presentes. Como antecedentes ginecoobstétricos destacan 3 abortos espontáneos consecutivos y no explicados a las 8, 9 y 8 semanas de gestación en los últimos cuatro años, sin antecedentes de trombosis venosa profunda ni arterial. Un estudio inmunológico realizado 5 meses antes y confirmado a las 14 semanas de intervalo demostró la presencia persistente de anticoagulante lúpico positivo y anticuerpos anticardiolipina IgG en títulos altos (68 GPL). La paciente no tiene otros antecedentes mórbidos. ¿Cuál es el tratamiento farmacológico de elección indicado para prevenir nuevas pérdidas reproductivas durante el embarazo actual?
+
+* **A)** Ácido acetilsalicílico en dosis bajas (100 mg/día) asociado a heparina de bajo peso molecular en dosis profiláctica (enoxaparina 40 mg/día sc) durante toda la gestación.
+* **B)** Acenocumarol oral ajustado para mantener un INR entre 2,0 y 3,0 hasta la semana 36 de gestación.
+* **C)** Prednisona oral 20 mg/día en monoterapia hasta el término del primer trimestre.
+* **D)** Rivaroxabán 20 mg/día por vía oral asociado a ácido fólico 5 mg/día.
+* **E)** Ácido acetilsalicílico 100 mg/día en monoterapia exclusiva desde el segundo trimestre.
+
+---
+
+### Pregunta 2
+
+Hombre de 63 años, hipertenso y diabético tipo 2, con diagnóstico reciente de angina de pecho estable en APS. Se encuentra en tratamiento con Aspirina 100 mg/día, Atorvastatina 80 mg/día y Bisoprolol 5 mg/día (con FC de reposo de 60 lpm). Como parte de su estratificación funcional GES, se somete a un test de esfuerzo convencional en cinta rodante bajo protocolo de Bruce. Durante la etapa 1 (a los 2 minutos y medio de ejercicio a baja carga), el paciente refiere opresión retroesternal progresiva y el trazado electrocardiográfico muestra un infradesnivel horizontal del segmento ST de 2.5 mm en derivaciones V4 a V6 y DII-DIII-aVF, acompañado de una caída de la presión arterial sistólica de 140 mmHg a 115 mmHg.
+¿Cuál es la conducta médica inmediata más adecuada a seguir según las guías clínicas GES vigentes?
+
+* **A)** Suspender la prueba de esfuerzo y derivar de urgencia a coronariografía invasiva por criterios de alto riesgo isquémico y disfunción ventricular
+* **B)** Suspender la prueba, aumentar la dosis de Bisoprolol a 10 mg al día y programar una nueva ergometría en 3 meses
+* **C)** Continuar la prueba de esfuerzo hasta alcanzar al menos el 85% de la frecuencia cardíaca máxima teórica calculada para su edad
+* **D)** Indicar reposo en sala de observación, administrar nitroglicerina sublingual y solicitar un Holter de arritmias de 24 horas
+* **E)** Indicar alta a domicilio con adición de Mononitrato de Isosorbida oral 20 mg cada 12 horas y control en 6 meses
+
+---
+
+### Pregunta 3
+
+Una mujer de 41 años consulta por aumento de peso progresivo de 10 kg en los últimos 7 meses con redistribución central, debilidad muscular proximal en extremidades inferiores que le impide levantarse de una silla sin apoyarse, hipertensión arterial de reciente diagnóstico y hematomas fáciles ante traumatismos mínimos. No refiere consumo de corticoides. Al examen físico destaca fascies redondeada pletórica ('cara de luna llena'), giba dorsocervical y estrías violáceas de 1.5 cm de ancho en hemiabdomen inferior y flancos. El estudio de pesquisa confirma hipercortisolismo con dos pruebas positivas: Test de Nugent (cortisol matinal post 1 mg de dexametasona) en 11.2 mcg/dL (positivo > 1.8) y Cortisol Libre Urinario en 24 horas en 380 mcg/24h (VN < 50). Para continuar el estudio etiológico, se mide ACTH plasmática matinal, la cual resulta en 72 pg/mL (VN 10 a 60 pg/mL). La Resonancia Magnética de silla turca demuestra una lesión hipointensa de 5 mm en la adenohipófisis. ¿Cuál es el tratamiento curativo definitivo de primera línea indicado para esta paciente?
+
+* **A)** Cirugía de resección selectiva transesfenoidal del microadenoma hipofisario (adenomectomía transesfenoidal)
+* **B)** Suprarrenalectomía bilateral laparoscópica definitiva con radioterapia hipofisaria complementaria
+* **C)** Tratamiento médico prolongado con ketoconazol en monoterapia oral para inhibir la esteroidogénesis
+* **D)** Radiocirugía estereotáctica hipofisaria (Gamma Knife) como procedimiento inicial exclusivo
+* **E)** Terapia con cabergolina a dosis altas para reducir la masa selar y normalizar el cortisol
+
+---
+
+### Pregunta 4
+
+Hombre de 51 años con diagnóstico reciente de diabetes mellitus tipo 2 hace 3 meses en tratamiento con metformina 850 mg cada 12 horas. Al control en CESFAM se constata asintomático y normotenso (PA 122/76 mmHg). Como parte de su tamizaje inicial de complicaciones microvasculares se realiza una Razón Albúmina/Creatinina (RAC) en la primera orina de la mañana, arrojando un resultado de 160 mg/g. El paciente no presenta disuria ni fiebre, pero menciona que el día anterior al examen corrió una carrera de 15 kilómetros y tuvo relaciones sexuales. La orina completa no muestra leucocitos ni hematíes, y la creatinina plasmática es de 0.8 mg/dL (TFGe 98 mL/min/1.73m²). Según las directrices técnicas del MINSAL y consensos internacionales (ADA/KDIGO), ¿cuál es la conducta diagnóstica correcta que debe seguir el médico tratante antes de confirmar nefropatía diabética e iniciar fármacos nefroprotectores?
+
+* **A)** Iniciar de inmediato Enalapril 20 mg cada 12 horas asumiendo que un valor único sobre 30 mg/g confirma el diagnóstico de certeza
+* **B)** Repetir la medición de RAC en 1 a 2 muestras adicionales durante los próximos 3 a 6 meses, asegurando reposo físico previo para descartar falsos positivos transitorios
+* **C)** Solicitar una ecografía renal urgente con biopsia percutánea para documentar glomeruloesclerosis nodular de Kimmelstiel-Wilson
+* **D)** Indicar recolección de orina de 24 horas para medir proteinuria total con clearence de inulina
+* **E)** Descartar daño renal diabético asumiendo que el resultado fue exclusivamente un artefacto muscular sin valor patológico
+
+---
+
+### Pregunta 5
+
+Mujer de 67 años con antecedentes de diabetes mellitus tipo 2 e infección urinaria a repetición, es traída al Servicio de Urgencia por su familia tras 24 horas de fiebre alta con calofríos, desorientación y postración.
+Al ingreso: vigil pero confusa y soporosa (Escala de Coma de Glasgow 13), piel sudorosa, pálida y con llene capilar prolongado de 4 segundos. Signos vitales: PA 78/44 mmHg (Presión Arterial Media [PAM] 55 mmHg), FC 128 lpm, FR 28 rpm, SatO2 93% ambiental, Temperatura axilar 39.1 °C. El sedimento de orina revela leucocituria masiva, bacterias abundantes y piocitos agrupados.
+El equipo médico aplica de inmediato el 'Paquete de la Primera Hora': se toman 2 pares de hemocultivos más urocultivo, se inicia Ceftriaxona 2 g EV y se administran 2.100 mL de cristaloides isotónicos balanceados (30 mL/kg de peso estimado) en infusión rápida durante los primeros 60 minutos. Al término de la carga de volumen, la paciente persiste con PA 82/46 mmHg (PAM 58 mmHg) y el informe de lactato sérico arroja 3.8 mmol/L.
+Según los criterios del Consenso Internacional Sepsis-3 y la campaña 'Sobreviviendo a la Sepsis', ¿cuál es la condición hemodinámica confirmada de la paciente y el fármaco vasoactivo de primera línea que debe iniciarse de inmediato?
+
+* **A)** Shock hipovolémico no respondedor; transfundir de inmediato 2 unidades de glóbulos rojos concentrados
+* **B)** Sepsis sin shock; continuar la reanimación hídrica con 2.000 mL adicionales de suero fisiológico antes de usar fármacos
+* **C)** Shock séptico; iniciar infusión continua de Dopamina a 15 µg/kg/min por vía venosa periférica
+* **D)** Shock séptico refractario a volumen; iniciar infusión continua de Noradrenalina titulada para lograr meta de PAM ≥ 65 mmHg
+* **E)** Falla de bomba cardiogénica primaria; suspender líquidos e iniciar infusión de Furosemida 40 mg EV
+
+---
+
+### Pregunta 6
+
+Hombre de 64 años, con antecedentes de hipertensión arterial y tabaquismo activo, es traído al servicio de urgencia por su familia tras presentar de forma brusca pérdida de fuerza en el hemicuerpo izquierdo y dificultad para hablar. El inicio exacto de los síntomas fue presenciado por su esposa hace 2 horas. Al ingreso: PA 165/92 mmHg, FC 84 lpm regular, SatO2 98% ambiental, hemoglucotest 118 mg/dL. Al examen neurológico se constata hemiparesia faciobraquiocrural izquierda severa (fuerza 1/5 en extremidad superior, 2/5 en inferior), hemianopsia homónima izquierda, disartria moderada y negligencia visuoespacial izquierda, totalizando un puntaje en la escala NIHSS de 15 puntos. La tomografía computarizada (TAC) de cerebro sin contraste de urgencia descarta hemorragia intracraneana y muestra un puntaje ASPECTS de 9 (borramiento incipiente de la cinta insular derecha). La angio-TAC cerebral urgente revela una oclusión completa del segmento M1 de la arteria cerebral media derecha. No hay antecedentes quirúrgicos recientes, coagulopatías ni uso de anticoagulantes. ¿Cuál es la estrategia de reperfusión de elección recomendada por las guías clínicas GES N° 37 del MINSAL?
+
+* **A)** Administrar ácido acetilsalicílico 250 mg vía oral de inmediato y diferir la trombolisis para evitar el riesgo de transformación hemorrágica masiva.
+* **B)** Iniciar inmediatamente trombolisis endovenosa con alteplase (o tenecteplase) y activar de forma paralela el traslado expedito a pabellón de hemodinamia para trombectomía mecánica endovascular ('terapia puente').
+* **C)** Proceder directamente a trombectomía mecánica endovascular exclusiva, omitiendo la trombolisis endovenosa para evitar toxicidad sistémica.
+* **D)** Iniciar infusión continua de heparina no fraccionada endovenosa con bolo previo para lisar el trombo de la arteria cerebral media.
+* **E)** Esperar 6 horas para repetir el TAC de cerebro y evaluar la extensión definitiva del tejido infartado antes de tomar una decisión terapéutica.
+
+---
+
+### Pregunta 7
+
+Un hombre de 56 años con linfoma difuso de células B grandes en tratamiento con quimioterapia esquema R-CHOP (tercer ciclo recibido hace 9 días) consulta en el Servicio de Urgencias por calofríos intensos y registro febril axilar de 38.8 °C en su domicilio hace 2 horas. Al examen físico: PA 102/65 mmHg, FC 106 lpm, FR 20 rpm, SatO2 96% ambiental, Temp axilar 38.5 °C. El paciente se encuentra decaído, lúcido, con mucosas secas pero sin úlceras ni mucositis visible. El catéter venoso central tunelizado no presenta eritema ni secreción en su trayecto o punto de inserción. El abdomen es blando e indoloro. El hemograma urgente informa: Leucocitos 550/uL con 8% de neutrófilos segmentados y 2% de baciliformes (Recuento Absoluto de Neutrófilos, RAN = 55 células/uL), Hb 9.8 g/dL, Plaquetas 72.000/uL y Creatinina 0.9 mg/dL. El score de MASCC calculado es de 18 puntos (< 21, alto riesgo). ¿Cuál es la conducta médica inmediata que debe ejecutarse dentro de los primeros 60 minutos de ingreso ('Hora de Oro') de acuerdo con los protocolos oncológicos y garantías GES?
+
+* **A)** Realizar un examen proctológico digital minucioso (tacto rectal) para descartar celulitis o flemón perianal oculto antes de administrar antibióticos orales ambulatorios
+* **B)** Iniciar esquema triple de amplio espectro con vancomicina, meropenem y anfotericina B de forma rutinaria e indiscriminada en el servicio de urgencias
+* **C)** Indicar paracetamol oral y citar a control en 24 horas al policlínico oncológico a la espera del crecimiento de los hemocultivos
+* **D)** Administrar Factor Estimulante de Colonias de Granulocitos (G-CSF) subcutáneo en monoterapia para revertir la neutropenia, postergando los antibióticos hasta tener un foco infeccioso confirmado
+* **E)** Tomar hemocultivos periféricos y a través de cada lumen del catéter venoso central, iniciar de inmediato monoterapia endovenosa con Cefepima o Piperacilina/Tazobactam y hospitalizar, contraindicando estrictamente el tacto rectal o medición rectal de temperatura
+
+---
+
+### Pregunta 8
+
+Hombre de 71 años, jubilado, consulta en el servicio de urgencias por ictericia mucocutánea progresiva de 5 semanas de evolución, asociada a coluria intensa, acolia fecal y prurito generalizado insidioso. Refiere una baja involuntaria de 8 kg de peso en los últimos 2 meses y astenia. No ha presentado fiebre, calofríos ni dolor abdominal cólico. Refiere como antecedente médico la detección de diabetes mellitus tipo 2 hace 2 meses en su centro de salud. Al examen físico: adelgazado, vigil, orientado, PA 124/76 mmHg, FC 74 lpm, T° 36.7 °C. Marcada ictericia esclero-tegumentaria verdínica. Al examen abdominal: abdomen blando, indoloro, palpándose en el hipocondrio derecho una masa redondeada, lisa, renitente, móvil e indolora por debajo del reborde costal (signo de Courvoisier-Terrier). Laboratorio: Bilirrubina total 16.2 mg/dL (Bilirrubina directa 13.8 mg/dL), Fosfatasa alcalina 620 U/L, GGT 480 U/L, GOT 62 U/L, GPT 70 U/L, INR 1.1. ¿Cuál es el estudio por imágenes de elección para confirmar la etiología, evaluar resecabilidad vascular y etapificar la lesión responsable?
+
+* **A)** Biopsia hepática percutánea con aguja gruesa bajo visión ecográfica
+* **B)** Colangiopancreatografía retrógrada endoscópica (CPRE) diagnóstica inmediata con toma de cepillado biliar
+* **C)** Tomografía computarizada de abdomen y pelvis con contraste intravenoso en fase trifásica y protocolo pancreático
+* **D)** Ecografía doppler color de venas suprahepáticas y sistema porta
+* **E)** Radiografía simple de abdomen de pie y decúbito
+
+---
+
+### Pregunta 9
+
+Hombre de 42 años en estudio por síndrome nefrótico primario confirmado (proteinuria de 9.2 g/24h, albúmina sérica de 1.8 g/dL y colesterol total de 410 mg/dL). Consulta en el Servicio de Urgencias por un cuadro de 24 horas de evolución caracterizado por dolor sordo e intenso en el flanco izquierdo, orinas rojizas y aumento súbito de volumen en el hemiescroto izquierdo. Al examen físico: PA 132/84 mmHg, FC 82 lpm, afebril. Abdomen sensible a la palpación profunda en flanco y fosa lumbar izquierda. Examen genital: varicocele izquierdo marcado (grado 3), turgente, de aparición reciente, que no disminuye ni se reduce con el decúbito supino. Laboratorio de urgencia: Creatinina sérica 1.6 mg/dL (basal de hace una semana: 0.9 mg/dL), sedimento urinario con 40 a 50 eritrocitos por campo con presencia de acantocitos y cilindros hialino-granulosos. ¿Cuál es la complicación aguda más probable y el examen de elección para confirmarla?
+
+* **A)** Trombosis de la vena renal izquierda; solicitar ecografía Doppler renal y testicular de urgencia
+* **B)** Progresión aguda a glomeruloesclerosis focal y segmentaria colapsante; indicar biopsia renal percutánea urgente
+* **C)** Litiasis ureteral izquierda obstructiva complicada; solicitar pielografía de eliminación intravenosa con contraste
+* **D)** Carcinoma urotelial invasor de pelvis renal; solicitar urotomografía computarizada con contraste trifásico
+* **E)** Torsión del cordón espermático izquierdo; programar exploración quirúrgica escrotal de urgencia
+
+---
+
+### Pregunta 10
+
+Mujer de 62 años, exfumadora de 32 paquetes-año que suspendió el tabaco hace 3 años, asintomática respiratoria, se realiza una tomografía computarizada (TAC) de tórax como parte del estudio de una fractura costal traumática reciente. El informe tomográfico describe en el segmento apical del lóbulo superior derecho un nódulo pulmonar sólido de 15 mm de diámetro mayor, de contornos espiculados y con retracción de la pleura visceral adyacente, sin calcificaciones ni densidad grasa en su interior. No existen adenopatías hiliares ni mediastínicas. La paciente no cuenta con radiografías ni tomografías de tórax previas para comparar. ¿Cuál es la conducta médica más adecuada a seguir de acuerdo con las guías de la Sociedad Fleischner y los protocolos oncológicos vigentes?
+
+* **A)** Tranquilizar a la paciente y programar una radiografía de tórax simple de control en 12 meses
+* **B)** Indicar tratamiento antibiótico empírico con levofloxacino oral por 14 días y repetir la TAC de tórax al término
+* **C)** Solicitar espirometría basal con prueba broncodilatadora como único procedimiento confirmatorio
+* **D)** Derivar a equipo de cirugía de tórax / comité oncológico para etapificación con Tomografía por Emisión de Positrones combinada con TC (PET-CT con 18-FDG) y biopsia diagnóstica
+* **E)** Indicar broncoscopía rígida con lavado broncoalveolar para cultivo de bacterias comunes y micobacterias
+
+---
+
+### Pregunta 11
+
+Mujer de 48 años con diagnóstico confirmado de artritis reumatoide seropositiva y erosiva de 2 años de evolución, en control en policlínico de reumatología. A pesar de haber recibido dosis plenas y optimizadas de metotrexato (25 mg semanales por vía subcutánea asociado a ácido fólico) en combinación con leflunomida (20 mg/día por vía oral) durante 8 meses consecutivos con buena adherencia, la paciente mantiene alta actividad inflamatoria objetivada por un índice DAS28 de 5,6, con 9 articulaciones dolorosas, 6 tumefactas y PCR de 34 mg/L. Su médico reumatólogo tratante decide escalar la terapia farmacológica e indicar un fármaco biológico anti-TNF alfa (adalimumab). De acuerdo con las guías clínicas del MINSAL y normativas internacionales de seguridad, ¿cuál de los siguientes estudios es OBLIGATORIO realizar antes de administrar la primera dosis del agente biológico?
+
+* **A)** Biopsia de médula ósea para descartar síndrome mielodisplásico subclínico inducido por metotrexato.
+* **B)** Ecocardiograma transtorácico bidimensional para descartar pericarditis constrictiva subclínica.
+* **C)** Tamizaje de infección tuberculosa latente mediante prueba de tuberculina (PPD) o ensayo de liberación de interferón gamma (IGRA) y radiografía de tórax.
+* **D)** Punción lumbar diagnóstica con análisis citoquímico y microbiológico para descartar leucoencefalopatía multifocal progresiva.
+* **E)** Anticuerpos antitiroideos y niveles plasmáticos de tirotropina (TSH) para descartar tiroiditis autoinmune secundaria.
+
+---
+
+### Pregunta 12
+
+Hombre de 61 años con antecedentes de infarto agudo al miocardio hace 2 años y miocardiopatía dilatada con fracción de eyección reducida severa (FEVI 28%), consulta a control ambulatorio en el programa GES de Insuficiencia Cardíaca. Se encuentra en clase funcional II de la NYHA, estable, realizando sus actividades cotidianas sin disnea de reposo ni ortopnea.
+Su terapia farmacológica actual consiste en: Enalapril 10 mg cada 12 horas, Carvedilol 25 mg cada 12 horas, Espironolactona 25 mg al día y Furosemida 20 mg al día.
+Al examen físico: PA 116/74 mmHg, FC 66 lpm, afebril, examen pulmonar con murmullo pulmonar limpio bilateral sin crépitos, yugulares no ingurgitadas, sin edemas periféricos (completamente euvolémico).
+Laboratorio: Creatinina 1.0 mg/dL (VFG 78 mL/min/1.73m²), Potasio 4.5 mEq/L, Sodio 139 mEq/L.
+El médico del policlínico decide optimizar su esquema a la cuádruple terapia guiada por guías (GDMT), sustituyendo el IECA por un inhibidor del receptor de angiotensina-neprilisina (ARNI: Sacubitrilo/Valsartán) e incorporando un iSGLT2 (Dapagliflozina).
+Respecto a la sustitución de Enalapril por Sacubitrilo/Valsartán, ¿cuál es la indicación farmacológica crítica y de seguridad obligatoria que debe impartirse al paciente para prevenir una complicación potencialmente fatal?
+
+* **A)** Iniciar Sacubitrilo/Valsartán de manera simultánea con Enalapril durante los primeros 3 días para garantizar un bloqueo neurohormonal ininterrumpido
+* **B)** Suspender el Enalapril y esperar un período de lavado de al menos 36 horas antes de tomar la primera dosis de Sacubitrilo/Valsartán, para evitar el riesgo de angioedema severo
+* **C)** Suspender el Carvedilol y la Espironolactona de forma definitiva antes de realizar el cambio de IECA a ARNI
+* **D)** Cuadruplicar la dosis de Furosemida a 80 mg al día durante la primera semana para contrarrestar la sobrecarga hídrica de rebote
+* **E)** Indicar la toma de Sacubitrilo/Valsartán exclusivamente por infusión endovenosa durante una hospitalización en cuidados intermedios
+
+---
+
+### Pregunta 13
+
+Mujer de 31 años, profesora de enseñanza básica, consulta en el CESFAM por un cuadro de cefaleas recurrentes desde hace 10 meses. Refiere presentar entre 5 y 6 episodios mensuales de dolor hemicráneo derecho, pulsátil, de intensidad severa (8/10 en EVA), que se agrava con subir escalas o caminar, obligándola a recostarse en una habitación a oscuras y en silencio. Cada crisis se acompaña de náuseas intensas, fotofobia y fonofobia, durando entre 18 y 24 horas si no se médica eficazmente. La paciente ha incrementado el uso de ketoprofeno e ibuprofeno a más de 16 días al mes, notando que el dolor se ha hecho más frecuente e incapacitante. No tiene antecedentes de asma, depresión ni patología cardiovascular. Su examen físico y neurológico es rigurosamente normal (PA 116/74 mmHg, FC 70 lpm). Además de educar a la paciente sobre la deshabituación de los AINEs para evitar la cefalea por sobreuso de medicamentos, ¿cuál es el tratamiento profiláctico farmacológico de primera línea más adecuado para esta paciente?
+
+* **A)** Propranolol oral en dosis progresivas de 40 a 120 mg/día.
+* **B)** Tartrato de ergotamina 1 mg administrado todas las noches al acostarse.
+* **C)** Paracetamol 1 g cada 8 horas de forma reglada e indefinida.
+* **D)** Pregabalina 150 mg cada 12 horas por vía oral.
+* **E)** Prednisona oral 20 mg/día en pauta continua como terapia de mantención.
+
+---
+
+### Pregunta 14
+
+Hombre de 58 años con diabetes mellitus tipo 2 de 12 años de evolución, en tratamiento con esquema intensificado de insulina desde hace 3 años consistente en Insulina NPH 28 UI al acostarse (22:30 hrs) e Insulina Cristalina 8 UI antes del desayuno, almuerzo y cena, asociada a Metformina 850 mg cada 12 horas. Consulta en el CESFAM por presentar en los últimos dos meses una marcada inestabilidad glucémica, con días en que las glicemias preprandiales superan los 300 mg/dL sin causa evidente, alternando con episodios de hipoglicemias sintomáticas severas (< 45 mg/dL con sudoración profusa y desorientación). Su HbA1c actual es de 9.6%. El paciente asegura cumplir rigurosamente con sus dosis y dieta. Al examen físico abdominal se constata piel íntegra pero con nódulos subcutáneos fibroelásticos indurados e indoloros de 4 a 5 cm de diámetro a ambos lados del ombligo; el paciente relata que siempre se inyecta la insulina en esa misma zona periumbilical porque 'allí no le duele nada el pinchazo'. ¿Cuál es la causa de la labilidad glucémica y la conducta médica indicada?
+
+* **A)** Efecto Somogyi generalizado; reducir de inmediato todas las dosis de insulina a la mitad
+* **B)** Lipohipertrofia local por falta de rotación sistemática de sitios de inyección; suspender las inyecciones en la zona afectada y educar en rotación estricta de sitios
+* **C)** Lipodistrofia atrófica autoinmune; cambiar la insulina cristalina por formulaciones ultralentas y aplicar corticoides tópicos
+* **D)** Resistencia insulínica severa tipo B por autoanticuerpos; duplicar la dosis prandial de insulina cristalina
+* **E)** Gastroparesia diabética autonómica; solicitar estudio de vaciamiento gástrico con radioisótopos e iniciar procinéticos
+
+---
+
+### Pregunta 15
+
+Hombre de 54 años, con antecedentes de diabetes mellitus tipo 2 y obesidad grado II, consulta en el box de urgencias de su CESFAM por dolor, enrojecimiento y aumento de volumen progresivo en la pierna izquierda de 3 días de evolución.
+Al examen físico: afebril (37.2 °C), PA 130/80 mmHg, FC 78 lpm. En la cara posterior y lateral de la pierna izquierda se observa un área eritematosa extensa, mal delimitada, con bordes difusos y planos que se mezclan gradualmente con la piel sana vecina, de consistencia empastada, caliente al tacto y moderadamente dolorosa a la compresión superficial. No se aprecian colecciones purulentas fluctuantes ni crepitación cutánea.
+Al examinar detenidamente la extremidad en busca de la puerta de entrada, el médico constata en el cuarto espacio interdigital del pie izquierdo marcada maceración blanquecina, descamación y una fisura húmeda muy pruriginosa correspondiente a tiña pedis interdigital (pie de atleta).
+¿Cuál es el diagnóstico clínico más preciso, el microorganismo causal más frecuente y la conducta médica integral ambulatoria más adecuada?
+
+* **A)** Erisipela clásica por Streptococcus pyogenes; hospitalizar de urgencia para infusión de Vancomicina endovenosa y debridamiento quirúrgico
+* **B)** Fascitis necrotizante tipo I; solicitar resonancia magnética urgente y exploración quirúrgica inmediata de la fascia profunda
+* **C)** Tromboflebitis superficial no infecciosa; indicar reposo absoluto, Heparina subcutánea y vendaje compresivo elástico
+* **D)** Dermatitis de contacto alérgica; suspender el uso de calzado sintético e indicar Clobetasol en crema tópica al 0.05%
+* **E)** Celulitis bacteriana comunitaria secundaria a puerta de entrada por tinea pedis; delimitar con lápiz los bordes, indicar Cefadroxilo oral 500 mg cada 12 horas por 7 a 10 días y tratar la micosis interdigital con antimicótico tópico
+
+---
+
+### Pregunta 16
+
+Mujer de 29 años, cajera de supermercado, consulta en el CESFAM por dolor abdominal cólico recurrente en hemiabdomen inferior de 8 meses de evolución, que se presenta de 2 a 3 días por semana, aliviándose de manera ostensible tras defecar. Relata que en los días con dolor presenta deposiciones líquidas a semilíquidas (Bristol 6) entre 3 y 5 veces al día, con sensación de evacuación incompleta, sin sangre visible ni fiebre. No presenta baja de peso, dolor nocturno que interrumpa el sueño ni antecedentes familiares de cáncer digestivo. Al examen físico: PA 115/70 mmHg, FC 68 lpm, afebril, abdomen blando, depresible, levemente sensible en fosa ilíaca izquierda sobre marco cólico, sin visceromegalias ni signos peritoneales. Exámenes de laboratorio en APS: hemograma, velocidad de sedimentación globular (VSG), PCR, función tiroidea y anticuerpos anti-transglutaminasa IgA son rigurosamente normales. La paciente ha mantenido una dieta baja en carbohidratos fermentables (FODMAP) y medidas de estilo de vida durante 6 semanas con alivio insatisfactorio del dolor. ¿Cuál es el tratamiento farmacológico de primera línea más adecuado para optimizar el control de sus síntomas?
+
+* **A)** Polietilenglicol 17 g al día disuelto en agua por la mañana
+* **B)** Ciprofloxacino 500 mg cada 12 horas por vía oral por 14 días
+* **C)** Loperamida 4 mg cada 8 horas por vía oral en forma fija e indefinida
+* **D)** Amitriptilina 10 a 25 mg por vía oral por las noches al acostarse
+* **E)** Prednisona 40 mg al día por vía oral en pauta descendente por 4 semanas
+
+---
+
+### Pregunta 17
+
+Un hombre de 64 años, previamente sano, consulta en el CESFAM por un cuadro de 3 meses de astenia progresiva, mareos ocasionales y disnea de moderados esfuerzos. No relata antecedentes de hematemesis, melena ni proctorragia visible. Al examen físico destaca palidez cutaneomucosa evidente, sin ictericia, adenopatías ni visceromegalias. El hemograma muestra: Hb 8.1 g/dL, Hto 25%, VCM 70 fL (VN 80 a 100 fL), HCM 22 pg (VN 27 a 32 pg), Leucocitos 7.100/uL con fórmula normal, Plaquetas 495.000/uL (trombocitosis reactiva). El recuento de reticulocitos es de 0.9% (Índice Reticulocitario Corregido, IRC = 0.3%). ¿Cuál es la clasificación fisiopatológica de esta anemia y la conducta diagnóstica inicial prioritaria en este paciente?
+
+* **A)** Anemia microcítica hipocrómica arregenerativa; sospechar ferropenia secundaria a pérdidas digestivas crónicas y solicitar perfil de hierro junto a estudio endoscópico digestivo completo (colonoscopía y endoscopía digestiva alta)
+* **B)** Anemia normocítica normocrómica regenerativa; sospechar hemólisis autoinmune y solicitar prueba de Coombs directa con haptoglobina sérica
+* **C)** Anemia macrocítica arregenerativa; solicitar niveles de vitamina B12 y ácido fólico junto a mielograma
+* **D)** Anemia microcítica regenerativa por hiperesplenismo; solicitar ecografía abdominal y derivar a hematología para esplenectomía
+* **E)** Anemia hemolítica microangiopática; derivar de urgencia para recambio plasmático por sospecha de púrpura trombocitopénico trombótico
+
+---
+
+### Pregunta 18
+
+Mujer de 59 años, con diabetes mellitus tipo 2 e hipertensión arterial desde hace 12 años, en tratamiento con Metformina 850 mg cada 12 horas y Losartán 50 mg cada 12 horas. Acude a control cardiovascular en su CESFAM asintomática. PA 134/82 mmHg, FC 72 lpm, IMC 29.2 kg/m², sin edemas periféricos. Exámenes de control recientes (confirmados con resultados idénticos de hace 4 meses): Creatinina plasmática 1.8 mg/dL, TFGe por CKD-EPI de 32 mL/min/1.73m² (estadio G3b), Potasio plasmático 4.6 mEq/L, Glicemia de ayuno 138 mg/dL, HbA1c 7.6%. Razón Albúmina/Creatinina en orina (RAC): 450 mg/g (categoría A3, macroalbuminuria persistente). De acuerdo con las guías clínicas KDIGO y la normativa de Garantías Explícitas en Salud (GES) vigente en Chile, ¿cuál es la conducta terapéutica y de derivación más adecuada para esta paciente?
+
+* **A)** Suspender el losartán por riesgo de deterioro renal acelerado y gestionar ingreso inmediato a diálisis peritoneal
+* **B)** Mantener losartán, reducir la metformina a un máximo de 1.000 mg/día, asociar un inhibidor de SGLT2 (Dapagliflozina) y continuar control en APS sin notificar GES N° 1
+* **C)** Notificar caso al Problema de Salud GES N° 1 por Enfermedad Renal Crónica etapa 3b para consulta con nefrólogo en menos de 30 días
+* **D)** Asociar Enalapril al Losartán para lograr bloqueo dual del sistema renina-angiotensina y suspender metformina
+* **E)** Indicar confección urgente de fístula arteriovenosa autóloga en el brazo no dominante antes de 30 días
+
+---
+
+### Pregunta 19
+
+Una mujer de 34 años consulta en el CESFAM por un cuadro de 10 días de evolución caracterizado por dolor intenso en la cara anterior del cuello que se irradia hacia la mandíbula y ambos oídos, acompañado de palpitaciones, nerviosismo, temblor distal y sudoración profusa. Refiere haber cursado un cuadro respiratorio alto febril hace dos semanas. Al examen físico: Temp 37.9 °C, PA 138/72 mmHg, FC 108 lpm. La palpación cervical revela una glándula tiroides aumentada de tamaño de forma moderada, difusa, extremadamente sensible y dolorosa a la palpación, sin bocio nodular ni soplos audibles. No presenta exoftalmos ni retracción palpebral. Los exámenes de laboratorio revelan: TSH < 0.01 mIU/L, T4 Libre 3.2 ng/dL (VN 0.8 a 1.8), VHS 88 mm/h (VN < 20) y PCR 52 mg/L. Un cintigrama tiroideo de urgencia muestra una captación tiroidea de I-131 prácticamente abolida (< 1%). ¿Cuál es el diagnóstico más probable y el tratamiento inicial de elección?
+
+* **A)** Enfermedad de Graves-Basedow; iniciar de inmediato tiamazol 20 mg/día asociado a propranolol
+* **B)** Adenoma tóxico autónomo; indicar ablación con radioyodo I-131 ambulatorio de urgencia
+* **C)** Tiroiditis subaguda de De Quervain (granulomatosa); indicar antiinflamatorios no esteroidales (o corticoides si es severo) y betabloqueadores para el control sintomático
+* **D)** Tiroiditis bacteriana supurada aguda; programar punción diagnóstica y cefazolina endovenosa
+* **E)** Tirotoxicosis facticia; retirar el consumo exógeno de levotiroxina y mantener reposo
+
+---
+
+### Pregunta 20
+
+Mujer de 24 años, con antecedentes de asma bronquial desde la infancia en tratamiento irregular con salbutamol inhalado, consulta en el SAPU por disnea de inicio rápido de 4 horas de evolución tras una infección respiratoria viral. Al ingresar al box de reanimación: la paciente está sentada inclinada hacia adelante, agitada, solo logra responder con palabras entrecortadas. Signos vitales: FC 124 lpm, FR 34 rpm, PA 132/84 mmHg, SatO2 89% al aire ambiente. Se observa tiraje supraclavicular e intercostal intenso. A la auscultación pulmonar se aprecian sibilancias inspiratorias y espiratorias bilaterales difusas audibles a distancia. Se mide el Flujo Espiratorio Máximo (PEF), obteniéndose 170 L/min (38% del predicho). ¿Cuál es la conducta médica inmediata más adecuada de acuerdo con las Guías Clínicas GES para el manejo de la crisis asmática severa?
+
+* **A)** Oxigenoterapia para saturar 93-95%, salbutamol 4 a 8 puff más bromuro de ipratropio 4 puff con aerocámara cada 20 minutos durante la primera hora, y corticoide sistémico oral o endovenoso precoz
+* **B)** Nebulización con salbutamol más infusión endovenosa continua de aminofilina, postergando los corticoides hasta tener radiografía de tórax
+* **C)** Administrar lorazepam sublingual para mitigar la ansiedad y nebulizar exclusivamente con solución salina fisiológica al 0.9%
+* **D)** Administrar sulfato de magnesio 2 g endovenoso de entrada como monoterapia y mantener en reposo sin inhaladores
+* **E)** Realizar intubación orotraqueal de urgencia inmediata sin administrar broncodilatadores inhalados
+
+---
+
+### Pregunta 21
+
+Hombre de 61 años con antecedentes de nefropatía diabética en etapa prediálisis (TFGe basal 18 mL/min/1.73m²) e hipertensión arterial tratada con Losartán 50 mg/día. Consulta en urgencias por debilidad muscular severa, parestesias y pesadez en extremidades tras haber consumido abundantes frutos secos y sustitutos de sal ricos en cloruro de potasio durante el fin de semana. Al ingreso: PA 100/60 mmHg, FC 38 lpm rítmica, FR 18 rpm, afebril. El monitor cardíaco muestra bradicardia nodal extrema sin ondas P visibles, complejos QRS ensanchados a 170 ms y ondas T picudas y simétricas de gran voltaje. El laboratorio de urgencia confirma Potasio plasmático en 8.2 mEq/L, Sodio 136 mEq/L, Calcio iónico 1.18 mmol/L y Creatinina 4.1 mg/dL. El médico de turno administra de inmediato 1 ampolla de Gluconato de Calcio al 10% (10 mL) intravenoso en 3 minutos. Al evaluar el trazado electrocardiográfico a los 5 minutos de finalizada la infusión, se constata que la frecuencia cardíaca persiste en 38 lpm y los complejos QRS continúan ensanchados a 170 ms sin estrechamiento. ¿Cuál es la conducta médica inmediata más adecuada a seguir en este momento?
+
+* **A)** Repetir una segunda ampolla de 10 mL de gluconato de calcio al 10% intravenoso en 3 a 5 minutos
+* **B)** Administrar sulfonato de poliestireno sódico (resina de intercambio catiónico) 30 g por vía oral
+* **C)** Iniciar infusión de bicarbonato de sodio 2/3 molar a pasar en 2 horas
+* **D)** Instalar inmediatamente un marcapasos transitorio transvenoso sin administrar más fármacos intravenosos
+* **E)** Administrar 1 mg de glucagón intramuscular para revertir la bradicardia nodal
+
+---
+
+### Pregunta 22
+
+Un hombre de 68 años con antecedente de una gastrectomía total por cáncer gástrico hace 4 años (sin recidiva tumoral aparente) consulta en la sala de medicina por un cuadro de 6 meses de debilidad extrema, parestesias dolorosas en extremidades inferiores con sensación de caminar sobre algodones, inestabilidad de la marcha en la oscuridad y caídas recurrentes. Al examen físico destaca palidez cérea con discreto tinte ictérico escleral, glositis atrófica (lengua lisa, roja y depapilada) y un examen neurológico con abolición de la sensibilidad vibratoria (palestesia) y posicional (batiestesia) en ambos pies, signo de Romberg positivo y reflejos osteotendinosos rotulianos exaltados con reflejo cutáneo plantar extensor (Babinski) bilateral. El hemograma muestra: Hb 7.0 g/dL, VCM 118 fL, Leucocitos 3.200/uL con neutrófilos hipersegmentados (> 5 lóbulos), Plaquetas 105.000/uL y reticulocitos 0.3%. ¿Cuál es el diagnóstico etiológico del compromiso neurológico y cuál es el esquema terapéutico mandatorio?
+
+* **A)** Mielopatía nutricional por déficit aislado de folatos; iniciar ácido fólico 5 mg oral al día en monoterapia
+* **B)** Degeneración combinada subaguda de la médula espinal por déficit de vitamina B12 (cobalamina); iniciar cianocobalamina o hidroxocobalamina intramuscular de por vida, evitando prescribir ácido fólico en monoterapia
+* **C)** Mielopatía compresiva metastásica; iniciar dexametasona en bolo y programar radioterapia holomedular urgente
+* **D)** Polineuropatía periférica por déficit de piridoxina (vitamina B6); administrar complejo vitamínico B oral durante 1 mes
+* **E)** Síndrome de Guillain-Barré atípico post-neoplásico; iniciar infusión de inmunoglobulina endovenosa (IgEV)
+
+---
+
+### Pregunta 23
+
+Mujer de 28 años, con embarazo de 24 semanas de gestación por ecografía del primer trimestre, sin patologías crónicas conocidas, consulta en el servicio de urgencia muy angustiada. Refiere que su hijo de 4 años fue hospitalizado de urgencia hace 8 horas en el hospital base con confirmación microbiológica por tinción de Gram y cultivo de LCR de Meningitis Aguda por Neisseria meningitidis (meningococo serogrupo W). La paciente comparte el mismo dormitorio y ha tenido contacto estrecho y continuo con el menor en los últimos 5 días.
+Al examen físico materno: vigil, afebril (36.6 °C), PA 115/72 mmHg, FC 78 lpm, examen neurológico estrictamente normal sin signos meníngeos. Latidos cardiofetales presentes y normales.
+De acuerdo con la Norma Técnica Nacional de Quimioprofilaxis y Control de Contactos del Ministerio de Salud (MINSAL), ¿cuál es la conducta preventiva y el esquema farmacológico de elección para esta paciente gestante?
+
+* **A)** Administrar Ceftriaxona 250 mg por vía intramuscular en dosis única
+* **B)** Indicar Rifampicina oral 600 mg cada 12 horas durante 2 días seguidos
+* **C)** Administrar Ciprofloxacino oral 500 mg en dosis única
+* **D)** No indicar profilaxis antibiótica y mantener observación clínica ambulatoria para no afectar al feto
+* **E)** Indicar hospitalización inmediata para infusión de Penicilina G sódica endovenosa por 7 días
+
+---
+
+### Pregunta 24
+
+Mujer de 44 años, con antecedente remoto de fiebre reumática en la adolescencia, consulta en CESFAM por disnea de esfuerzos progresiva y palpitaciones irregulares rápidas de 2 semanas de evolución.
+Al examen físico: PA 115/70 mmHg, pulso completamente irregular y deficitario con frecuencia cardíaca de 114 lpm. A la auscultación cardíaca en el ápex (foco mitral) en decúbito lateral izquierdo (posición de Pachón), se percibe un primer ruido marcadamente brillante e intenso (R1 aumentado), seguido de un silencio sistólico sin soplos, un chasquido de apertura mitral precoz tras el segundo ruido y un retumbo diastólico de tono grave y áspero con componente presistólico ausente.
+El electrocardiograma confirma Fibrilación Auricular con respuesta ventricular rápida. El ecocardiograma Doppler revela: estenosis mitral de etiología reumática de grado moderado a severo con Área Valvular Mitral de 1.2 cm², gradiente transmitral medio de 10 mmHg y dilatación severa de la aurícula izquierda (volumen indexado 58 mL/m²), sin trombos intracavitarios visibles.
+¿Cuál es el tratamiento antitrombótico oral de primera línea mandatorio para la prevención del accidente cerebrovascular embólico en esta paciente según las guías clínicas ministeriales e internacionales?
+
+* **A)** Anticoagulantes orales directos inhibidores del factor Xa (Rivaroxabán 20 mg al día o Apixabán 5 mg cada 12 horas)
+* **B)** Doble terapia antiplaquetaria con Aspirina 100 mg más Clopidogrel 75 mg al día
+* **C)** Monoterapia con Ácido Acetilsalicílico 100 mg al día
+* **D)** Heparina de bajo peso molecular por vía subcutánea de por vida sin necesidad de terapia oral
+* **E)** Antagonistas de la vitamina K (Acenocumarol o Warfarina) con meta de INR entre 2.0 y 3.0
+
+---
+
+### Pregunta 25
+
+Una mujer de 46 años con antecedente de tiroidectomía total electiva por cáncer papilar de tiroides hace 3 meses evolucionó con un hipoparatiroidismo definitivo posquirúrgico (PTH intacta indetectable y calcio corregido basal de 6.8 mg/dL). Su médico le indicó carbonato de calcio oral a dosis de 2.500 mg al día; sin embargo, en su control ambulatorio al mes, la paciente persiste con parestesias peribucales frecuentes y calambres dolorosos en extremidades. Sus exámenes de laboratorio revelan: Calcio sérico corregido 7.3 mg/dL (VN 8.5 a 10.5), Fósforo sérico 5.2 mg/dL (VN 2.5 a 4.5) y Calciuria de 24 horas baja. ¿Cuál es el mecanismo fisiopatológico por el cual el calcio oral en monoterapia no logra corregir la hipocalcemia en esta paciente y qué modificación terapéutica obligatoria se debe implementar?
+
+* **A)** El carbonato de calcio es quelado por el fósforo sérico; se debe suspender el calcio oral e indicar gluconato de calcio en inyecciones intramusculares bisemanales
+* **B)** La absorción intestinal de calcio está disminuida por falta de hormonas tiroideas; se debe duplicar la dosis de levotiroxina
+* **C)** La paciente presenta una resistencia periférica tisular al calcio; se debe agregar cinacalcet oral para activar los receptores de calcio
+* **D)** La hipocalcemia se debe a una pérdida masiva tubular de calcio por déficit de aldosterona; se debe iniciar fludrocortisona oral
+* **E)** La ausencia de PTH impide la activación renal de la 1-alfa-hidroxilasa, bloqueando la síntesis de 1,25-dihidroxivitamina D (calcitriol); se debe asociar calcitriol oral al suplemento de calcio
+
+---
+
+### Pregunta 26
+
+Hombre de 72 años, profesor jubilado, es llevado al consultorio de APS por su hija debido a cambios motores progresivos de 10 meses de evolución. La hija refiere que camina 'arrastrando los pies', con menor balanceo del brazo derecho, y le cuesta abotonarse la camisa o cortar los alimentos. En reposo, mientras ve televisión, presenta un temblor oscilatorio en su mano derecha que semeja 'contar monedas', el cual desaparece transitoriamente cuando extiende la mano para tomar una taza de té. Su esposa menciona que desde hace unos 4 años presenta constipación crónica pertinaz, pérdida del olfato y frecuentes pesadillas nocturnas en las que grita y lanza patadas dormido (trastorno conductual del sueño REM). Al examen físico: facies inexpresiva (hipomimia), voz de tono bajo (hipofonía), marcha con pasos cortos sin braceo derecho, tono muscular con rigidez en rueda dentada asimétrica de predominio en muñeca y codo derechos, y en la maniobra de golpeteo de dedos (finger tapping) se observa lentitud progresiva con fatiga y disminución evidente de la amplitud en mano derecha. Reflejo de enderezamiento conservado y motilidad ocular vertical conservada. Mini-Mental de 28/30. ¿Cuál es el diagnóstico clínico y el tratamiento farmacológico de inicio de elección bajo el marco GES N° 59?
+
+* **A)** Temblor esencial senil; iniciar tratamiento con Propranolol oral 40 mg cada 12 horas.
+* **B)** Parkinsonismo farmacológico secundario; indicar Biperideno 2 mg cada 8 horas por vía oral.
+* **C)** Enfermedad de Parkinson idiopática; iniciar Levodopa asociada a un inhibidor de la dopa-decarboxilasa (Levodopa/Carbidopa) por vía oral.
+* **D)** Parálisis Supranuclear Progresiva; indicar Haloperidol 1 mg oral para estabilizar los movimientos involuntarios.
+* **E)** Demencia por cuerpos de Lewy; iniciar Memantina 20 mg/día asociada a Risperidona oral.
+
+---
+
+### Pregunta 27
+
+Hombre de 58 años consulta en el CESFAM para control médico tras haber sido diagnosticado hace 8 semanas de una úlcera gástrica de 18 mm en la incisura angularis mediante endoscopía digestiva alta (EDA). En dicho procedimiento, el test rápido de ureasa resultó positivo y las biopsias de los bordes informaron gastritis crónica con actividad inflamatoria, sin atipias ni células neoplásicas. El paciente completó satisfactoriamente la terapia erradicadora de primera línea con omeprazol 20 mg cada 12 h, amoxicilina 1 g cada 12 h y claritromicina 500 mg cada 12 h durante 14 días, y continuó posteriormente con omeprazol 20 mg al día hasta hoy. Actualmente se encuentra totalmente asintomático, sin dolor epigástrico ni baja de peso. ¿Cuál es la conducta médica obligatoria que debe indicarse a continuación?
+
+* **A)** Dar el alta médica definitiva al paciente al encontrarse completamente asintomático y suspender el inhibidor de la bomba de protones
+* **B)** Solicitar serología IgG en sangre para Helicobacter pylori para confirmar la curación bacteriana
+* **C)** Indicar omeprazol 20 mg al día de forma continua e indefinida sin necesidad de reevaluación endoscópica
+* **D)** Solicitar una endoscopía digestiva alta de control con toma de biopsias para certificar la cicatrización y descartar adenocarcinoma gástrico
+* **E)** Iniciar inmediatamente un esquema erradicador de segunda línea con bismuto, metronidazol y tetraciclina
+
+---
+
+### Pregunta 28
+
+Mujer de 24 años, estudiante universitaria, sin antecedentes médicos conocidos, con IMC de 21.0 kg/m² (peso 52 kg, talla 1.57 m), completamente asintomática. En un chequeo médico preventivo de salud laboral se pesquisan dos glicemias venosas de ayuno en días distintos de 116 mg/dL y 118 mg/dL. Se solicita una Prueba de Tolerancia a la Glucosa Oral (PTGO) con 75 g, que demuestra: glicemia basal de 115 mg/dL y a las 2 horas de 136 mg/dL (excursión postprandial mínima de 21 mg/dL). Su hemoglobina glicosilada (HbA1c) es de 6.1%. En la anamnesis dirigida relata que su madre de 48 años y su abuelo materno de 73 años han tenido glicemias de ayuno estables entre 110 y 130 mg/dL durante toda la vida, ninguno tiene sobrepeso ni ha requerido fármacos, y ninguno ha desarrollado retinopatía ni nefropatía diabética. Los anticuerpos anti-GAD65 y anti-IA2 resultan negativos. ¿Cuál es el diagnóstico más probable y la conducta médica indicada para esta paciente?
+
+* **A)** Diabetes autoinmune latente del adulto (LADA); iniciar insulinoterapia basal nocturna inmediata
+* **B)** Diabetes monogénica tipo MODY 2 (mutación en gen de glucoquinasa, GCK); no requiere tratamiento farmacológico y debe tranquilizarse a la paciente
+* **C)** Diabetes mellitus tipo 2 del adulto joven; iniciar metformina 850 mg cada 12 horas y cambios de estilo de vida
+* **D)** Diabetes monogénica tipo MODY 3 (mutación en gen HNF1A); iniciar dosis plenas de sulfonilureas orales
+* **E)** Intolerancia a la glucosa oral clásica; iniciar pioglitazona oral para sensibilizar el receptor periférico
+
+---
+
+### Pregunta 29
+
+Hombre de 64 años, fumador activo de 45 paquetes-año, consulta en el servicio de urgencias por disnea progresiva de 2 semanas de evolución, sensación de pesadez craneal y aumento de volumen en el rostro y cuello que empeora ostensiblemente al inclinarse hacia adelante. Al examen físico: PA 132/84 mmHg, FC 94 lpm, SatO2 93% ambiental. Destaca edema facial, periorbitario y del tercio superior del tórax en esclavina, cianosis y plétora facial, marcada ingurgitación de venas yugulares que no colapsan durante la inspiración profunda y desarrollo de una red venosa colateral tortuosa dilatada en la pared torácica anterior superior. La tomografía computarizada (TAC) de tórax con contraste endovenoso revela una masa perihiliar y mediastínica anterosuperior derecha de 6.5 cm que comprime e infiltra la vena cava superior en más del 80% de su luz, con adenopatías paratraqueales bilaterales prominentes. ¿Cuál es el diagnóstico clínico sindromático y la etiología tumoral primaria más frecuente responsable de este cuadro?
+
+* **A)** Insuficiencia cardíaca derecha descompensada; cardiopatía hipertensiva
+* **B)** Síndrome nefrótico grave con anasarca; nefropatía membranosa
+* **C)** Bocio endotorácico gigante hiperfuncionante; enfermedad de Graves
+* **D)** Síndrome de Vena Cava Superior; Carcinoma pulmonar broncogénico (especialmente carcinoma microcítico o epidermoide)
+* **E)** Trombosis venosa profunda iliofemoral con embolismo paradójico
+
+---
+
+### Pregunta 30
+
+Mujer de 73 años, previamente autovalente, consulta en el servicio de urgencia por un cuadro de 4 semanas de cefalea holocránea de predominio frontotemporal derecho, de intensidad progresiva y carácter terebrante, refractaria a paracetamol y tramadol. La paciente refiere marcado dolor en el cuero cabelludo al cepillarse el pelo (hiperestesia epicraneal) y dificultad para alimentarse debido a que, tras masticar pan o carne durante dos minutos, experimenta intenso dolor y fatiga en los músculos mandibulares que la obliga a descansar. En las últimas 18 horas ha presentado dos episodios de oscurecimiento visual monocular transitorio completo en el ojo derecho (amaurosis fugaz), de 3 minutos de duración cada uno, con recuperación posterior. Al examen físico: PA 142/84 mmHg, FC 80 lpm regular, T° 37,3 °C. La arteria temporal derecha se palpa engrosada, tortuosa, nodular, exquisitamente dolorosa y con disminución marcada de su pulso. El fondo de ojo actual es normal. Laboratorio urgente: leucocitos 9.200/mm³, hemoglobina 11,1 g/dL, VHS 92 mm/h, PCR 76 mg/L. ¿Cuál es la conducta médica inmediata más adecuada para esta paciente?
+
+* **A)** Programar biopsia de arteria temporal derecha de forma ambulatoria y diferir los corticoides para no alterar la anatomía patológica.
+* **B)** Iniciar tratamiento con ácido acetilsalicílico 100 mg/día y solicitar ecografía Doppler de carótidas urgente por sospecha de accidente isquémico transitorio carotídeo aterotrombótico.
+* **C)** Hospitalizar de inmediato e iniciar bolos de metilprednisolona endovenosa (500 a 1.000 mg/día por 3 días) para prevenir la pérdida visual permanente e irreversible.
+* **D)** Iniciar prednisona oral a dosis de 10 mg/día y derivar a policlínico de reumatología para control en dos semanas.
+* **E)** Administrar carbamazepina oral 200 mg cada 12 horas por sospecha de neuralgia del trigémino con irradiación temporal.
+
+---
+
+### Pregunta 31
+
+Hombre de 22 años con diabetes mellitus tipo 1 desde hace 5 años, en tratamiento con esquema intensificado: Insulina NPH 16 UI antes del desayuno y 18 UI a las 22:30 hrs (bedtime), más Insulina Lispro prandial antes de las comidas principales. Consulta a control médico porque en las últimas dos semanas se despierta reiteradamente con cefalea matinal, cansancio, sensación de pesadez y sudoración profusa nocturna que humedece la ropa de cama. Sus controles de glicemia capilar en ayunas al despertar (07:30 AM) han fluctuado constantemente entre 240 y 290 mg/dL. El resto del día sus glicemias pre y postprandiales se encuentran en rango óptimo (90 a 140 mg/dL). Siguiendo las instrucciones del médico, el paciente se midió la glicemia capilar a las 03:00 de la madrugada durante dos noches consecutivas, registrando 48 mg/dL y 52 mg/dL. ¿Cuál es el diagnóstico de este patrón glicémico y cuál es la modificación terapéutica precisa que debe indicarse?
+
+* **A)** Fenómeno del Alba; aumentar la dosis de insulina NPH nocturna a 22 UI al acostarse
+* **B)** Efecto Somogyi; disminuir la dosis de insulina NPH nocturna en 2 a 4 UI al acostarse
+* **C)** Resistencia insulínica nocturna al Lispro; agregar una dosis de corrección de insulina rápida a las 03:00 AM
+* **D)** Insuficiencia de la dosis matinal de NPH; suspender la NPH nocturna y administrar 34 UI matinales en dosis única
+* **E)** Transgresión alimentaria nocturna oculta; mantener la misma dosis de insulina e indicar colación hiperproteica nocturna
+
+---
+
+### Pregunta 32
+
+Hombre de 56 años con antecedentes de cardiopatía coronaria sufre colapso súbito en la sala de espera del servicio de urgencia. El equipo médico constata ausencia de respuesta y ausencia de pulso carotídeo, iniciando RCP inmediata de alta calidad con compresiones torácicas y ventilaciones con bolsa-mascarilla conectada a O2. El monitor-desfibrilador bifásico revela Fibrilación Ventricular (FV).
+Se administra una primera descarga de 200 J y se reanuda de inmediato la RCP por 2 minutos. Al verificar el ritmo persiste la FV, por lo que se administra una segunda descarga de 200 J, se reanuda la RCP y se administra 1 mg de Adrenalina endovenosa. Tras completar el segundo ciclo de 2 minutos de compresiones y ventilaciones, el ritmo en el monitor continúa mostrando Fibrilación Ventricular gruesa sin pulso. El operador administra la tercera descarga de 200 J e inmediatamente el equipo retoma las compresiones torácicas.
+Mientras se ejecuta este tercer ciclo de RCP de 2 minutos, ¿cuál es la intervención farmacológica prioritaria de primera línea que debe prepararse y administrarse de inmediato según el algoritmo universal ACLS / MINSAL?
+
+* **A)** Amiodarona 300 mg en bolo endovenoso rápido (o Lidocaína 1 a 1.5 mg/kg EV)
+* **B)** Bicarbonato de sodio 1 mEq/kg en infusión endovenosa rápida
+* **C)** Segunda dosis de Adrenalina 1 mg en bolo endovenoso
+* **D)** Sulfato de magnesio 2 gramos en bolo endovenoso lento
+* **E)** Gluconato de calcio al 10% 10 mL en bolo endovenoso directo
+
+---
+
+### Pregunta 33
+
+Hombre de 27 años, sin antecedentes mórbidos conocidos, consulta a control médico en el Policlínico de Infectología derivado desde su CESFAM. Hace 3 semanas se realizó un test de tamizaje serológico para VIH en el contexto del Examen de Medicina Preventiva del Adulto (EMPA), el cual resultó reactivo, habiéndose enviado la muestra de confirmación al Instituto de Salud Pública (ISP).
+El paciente acude hoy a retirar su resultado oficial, el cual confirma formalmente: 'Infección por Virus de la Inmunodeficiencia Humana tipo 1 (VIH-1) demostrada mediante ensayo confirmatorio ISP'.
+Al examen físico se encuentra totalmente asintomático, peso 72 kg, examen cardiopulmonar, ganglionar y cutáneo rigurosamente normales.
+Los exámenes basales de ingreso registran: Recuento de Linfocitos CD4 de 580 células/mm³, Carga Viral de VIH-1 de 42.000 copias/mL, función renal y pruebas hepáticas normales, antígeno HBsAg negativo y serología para Sífilis (VDRL) no reactiva.
+De acuerdo con la Guía Clínica Ministerial de la Garantía Explícita en Salud (GES N° 18) y la normativa sanitaria chilena vigente, ¿cuál es la conducta terapéutica y el esquema farmacológico de primera línea que debe indicarse de inmediato?
+
+* **A)** Diferir el inicio de fármacos antirretrovirales y citar a nuevo control de CD4 en 6 meses, dado que su recuento es mayor a 500 células/mm³
+* **B)** Iniciar de inmediato profilaxis primaria con Cotrimoxazol oral diario y diferir la triterapia hasta que la carga viral supere las 100.000 copias/mL
+* **C)** Iniciar Terapia Antirretroviral (TARV) de inmediato con la combinación en dosis fija diaria de Tenofovir disoproxilo + Lamivudina + Dolutegravir (TDF/3TC/DTG)
+* **D)** Iniciar monoterapia oral con Zidovudina 300 mg cada 12 horas para evitar fenómenos de resistencia viral precoz
+* **E)** Indicar esquema basado en Efavirenz + Emtricitabina + Lopinavir potenciado con Ritonavir
+
+---
+
+### Pregunta 34
+
+Hombre de 36 años, sin antecedentes mórbidos relevantes, consulta en el servicio de urgencia por un cuadro de 4 días de evolución caracterizado inicialmente por parestesias y sensación de adormecimiento en los dedos de ambos pies, que ha progresado en las últimas 48 horas a debilidad muscular simétrica ascendente que le dificulta ponerse de pie y subir escalas. En las últimas 12 horas nota dificultad para elevar ambos brazos y para tragar líquidos. Como antecedente refiere un cuadro de diarrea acuosa autolimitada hace 12 días. Al examen físico: PA 152/94 mmHg, FC 102 lpm, FR 24 rpm, T° 36,8 °C, SatO2 96% ambiental. Al examen neurológico: paresia facial periférica bilateral (diplejía facial), tetraparesia flácida simétrica con fuerza muscular 2/5 en extremidades inferiores y 3/5 en superiores, hipoestesia distal en 'bota y guante' y abolición universal completa de los reflejos osteotendinosos (arreflexia rotuliana, aquiliana, bicipital y tricipital: 0/4+). La prueba de conteo espiratorio simple en una sola inspiración es de 12 (valor normal > 25) y la capacidad vital forzada es de 17 mL/kg. ¿Cuál es la conducta terapéutica de elección y qué fármaco se encuentra formalmente CONTRAINDICADO en este cuadro?
+
+* **A)** Hospitalizar de inmediato en Unidad de Paciente Crítico (UCI) para monitorización ventilatoria e inicio de Inmunoglobulina Humana endovenosa (o plasmaféresis); los corticoides sistémicos están formalmente contraindicados.
+* **B)** Hospitalizar en sala básica de medicina interna para iniciar bolos de Metilprednisolona endovenosa; la plasmaféresis está formalmente contraindicada.
+* **C)** Manejo ambulatorio en domicilio con Piridostigmina oral y reposo absoluto; los relajantes musculares no despolarizantes están contraindicados.
+* **D)** Hospitalización en intermedio quirúrgico e inicio de antibioticoterapia con Ceftriaxona endovenosa; el uso de inmunoglobulina humana está contraindicado en la fase aguda.
+* **E)** Indicar alta con kinesiterapia motora ambulatoria y Prednisona oral 60 mg/día; la intubación orotraqueal está proscrita.
+
+---
+
+### Pregunta 35
+
+Lactante de 9 meses es traído al Servicio de Urgencias de Atención Primaria (SAPU) por su madre debido a un cuadro de 40 horas de diarrea acuosa profusa (más de 12 deposiciones líquidas abundantes) y vómitos incoercibles que le impiden retener líquidos. Peso actual registrado en el box: 7.8 kg (peso controlado hace 5 días en control de niño sano: 8.9 kg, lo que representa una pérdida ponderal del 12.3%). Al examen físico: lactante somnoliento, hipoactivo, con respuesta torpe a estímulos, llanto sin lágrimas, ojos profundamente hundidos, mucosa oral seca sin saliva, signo del pliegue cutáneo que regresa muy lentamente (más de 2 segundos), extremidades distales frías, llenado capilar de 4 segundos, FC 178 lpm, pulsos periféricos filiformes y PA 66/38 mmHg. ¿Cuál es la conducta médica prioritaria e inmediata de acuerdo con la norma de manejo ministerial?
+
+* **A)** Administrar sales de rehidratación oral a 100 mL/kg por sonda nasogástrica fraccionada en 4 horas
+* **B)** Iniciar de inmediato solución salina fisiológica al 0.9% a 20 mL/kg en bolo endovenoso rápido (o intraóseo)
+* **C)** Indicar loperamida en gotas orales asociada a metoclopramida endovenosa para detener los vómitos
+* **D)** Iniciar infusión de suero glucosado al 5% con electrolitos a requerimiento basal de mantención por bomba de infusión
+* **E)** Indicar ciprofloxacino oral y solicitar coprocultivo con leucocitos fecales en sala de observación
+
+---
+
+### Pregunta 36
+
+Mujer de 78 años con antecedentes de hipertensión arterial en tratamiento con Clortalidona 25 mg/día y depresión mayor en tratamiento con Escitalopram 10 mg/día. Es traída al Servicio de Urgencias tras presentar un cuadro de 48 horas de náuseas, vómitos aislados, marcha inestable y deterioro progresivo de la vigilia, culminando hace 20 minutos con una convulsión tónico-clónica generalizada presenciada de 2 minutos de duración. Al examen físico: en sopor profundo (Glasgow 9), responde con quejidos al dolor, pupilas isocóricas y reactivas, sin rigidez de nuca ni focalidad motora. Mucosas húmedas, llene capilar < 2 segundos, PA 138/82 mmHg, FC 74 lpm regular, FR 16 rpm, SatO2 97% ambiental, T° 36.6 °C. Exámenes de laboratorio de urgencia: Glicemia 104 mg/dL, Sodio plasmático 114 mEq/L, Potasio 3.5 mEq/L, Cloro 80 mEq/L, Creatinina 0.7 mg/dL, BUN 12 mg/dL, Osmolaridad plasmática calculada 240 mOsm/kg. Examen de orina: Sodio urinario 58 mEq/L, Osmolaridad urinaria 460 mOsm/kg. ¿Cuál es la meta terapéutica y la conducta farmacológica inmediata más adecuada para esta paciente en las primeras 2 a 4 horas?
+
+* **A)** Infusión continua de Suero Fisiológico al 0.9% a 150 mL/hora con meta de normalizar el sodio a > 135 mEq/L en las primeras 12 horas
+* **B)** Bolo intravenoso de 100 a 150 mL de Solución Salina Hipertónica al 3% en 20 minutos con meta de elevar la natremia entre 4 y 6 mEq/L
+* **C)** Restricción hídrica estricta a 500 mL/día y suspensión de clortalidona sin administración de fluidos endovenosos activos
+* **D)** Administración de 40 mg de furosemida intravenosa asociada a Suero Glucosado al 5% para inducir acuaresis forzada
+* **E)** Bolo intravenoso de Manitol al 20% (1 g/kg) para reducir de inmediato la presión endocraneana antes de corregir electrolitos
+
+---
+
+### Pregunta 37
+
+Mujer de 54 años con diagnóstico de artritis reumatoide seropositiva (anti-CCP y factor reumatoide positivos a títulos altos) de 8 años de evolución, con deformidades en cuello de cisne y nódulos subcutáneos en codos, en tratamiento irregular con metotrexato. Consulta por cuadro de 3 semanas de disnea progresiva de esfuerzo y dolor torácico en hemitórax derecho de características pleuríticas, sin fiebre ni expectoración. Al examen físico destaca abolición del murmullo pulmonar y matidez en la base pulmonar derecha. La radiografía de tórax confirma un derrame pleural derecho moderado sin condensaciones parenquimatosas. Se realiza una toracocentesis diagnóstica que extrae líquido citrino ligeramente turbio con las siguientes características: proteínas 4,9 g/dL (relación pleura/suero > 0,5), LDH 1.250 U/L (relación pleura/suero > 0,6), pH 7,12, recuento leucocitario de 3.200 células/mm³ con 75% de mononucleares, adenosina deaminasa (ADA) 18 U/L (valor de referencia < 40 U/L), tinción de Gram y cultivos negativos, y glucosa en líquido pleural de 14 mg/dL (glicemia plasmática simultánea 96 mg/dL). ¿Cuál es el diagnóstico más probable del derrame pleural?
+
+* **A)** Tuberculosis pleural activa.
+* **B)** Pleuritis reumatoide (derrame pleural reumatoide).
+* **C)** Empiema bacteriano complicado por Streptococcus pneumoniae.
+* **D)** Derrame pleural neoplásico secundario a adenocarcinoma pulmonar.
+* **E)** Derrame pleural trasudativo por insuficiencia cardíaca descompensada.
+
+---
+
+### Pregunta 38
+
+Hombre de 31 años, sin antecedentes mórbidos, consulta por cuadro de 3 semanas de astenia, sudoración nocturna, febrícula vespertina intermitente (37.8 °C) y dolor torácico sordo en puntada de costado izquierdo. Al examen físico: vigil, enflaquecido, FC 84 lpm, PA 120/75 mmHg, FR 18 rpm, SatO2 96% al aire ambiente. El examen pulmonar revela matidez franca a la percusión con abolición de las vibraciones vocales y del murmullo pulmonar en la mitad inferior del hemitórax izquierdo. La radiografía de tórax confirma un derrame pleural izquierdo moderado que ocupa el tercio inferior. Se realiza toracocentesis diagnóstica ecoguiada, extrayéndose líquido amarillo cetrino límpido. Los resultados del análisis citoquímico y sérico simultáneo muestran:
+- Proteínas en líquido pleural: 5.2 g/dL (Proteínas séricas: 6.8 g/dL)
+- LDH en líquido pleural: 440 U/L (LDH sérica: 210 U/L; límite superior normal sérico: 200 U/L)
+- Glucosa en líquido pleural: 76 mg/dL
+- Recuento celular: 2.400 leucocitos/mm³, con 86% de linfocitos y 14% de polimorfonucleares
+- Adenosina deaminasa (ADA) en líquido pleural: 62 U/L (valor de referencia normal < 35 U/L)
+- Baciloscopía directa de líquido pleural (tinción de Ziehl-Neelsen): negativa
+¿Cuál es la clasificación del líquido pleural según los criterios de Light y la etiología más probable?
+
+* **A)** Trasudado; insuficiencia cardíaca congestiva descompensada
+* **B)** Exudado linfocítico; pleuresía tuberculosa
+* **C)** Exudado neutrofílico; empiema paraneumónico agudo
+* **D)** Trasudado; síndrome nefrótico con hipoalbuminemia
+* **E)** Exudado hemático; mesotelioma pleural asociado a asbestosis
+
+---
+
+### Pregunta 39
+
+Una mujer de 26 años, previamente sana, consulta de urgencia por un cuadro de 5 días de astenia profunda, fiebre de 38.6 °C, epistaxis bilateral que no cede al taponamiento anterior, sangrado gingival espontáneo abundante y hematomas con petequias diseminadas en tronco y extremidades. Al examen físico se aprecia palidez intensa, múltiples equimosis y abundantes petequias, sin visceromegalias ni adenopatías. Los exámenes de urgencia revelan: Hb 6.8 g/dL, Leucocitos 4.100/uL con 52% de blastos y promielocitos anómalos de gran tamaño con gránulos azurófilos y múltiples Bastones de Auer agrupados en manojos (células de Faggot), y Plaquetas 14.000/uL. El estudio de hemostasia demuestra una coagulopatía de consumo severa: TP 23 segundos (INR 2.2), TTPK 54 segundos, Fibrinógeno colapsado en 68 mg/dL (VN 200 a 400 mg/dL) y Dímero D > 20.000 ng/mL. Ante la sospecha diagnóstica de Leucemia Promielocítica Aguda (LMA-M3) asociada a Coagulación Intravascular Diseminada (CID), ¿cuál es la medida farmacológica inmediata e inaplazable que debe iniciarse de urgencia mientras se tramita la derivación por GES N° 37?
+
+* **A)** Administrar ácido tranexámico endovenoso en altas dosis en monoterapia para detener la hiperfibrinolisis
+* **B)** Iniciar infusión continua de heparina no fraccionada para inhibir la cascada de coagulación
+* **C)** Administrar quimioterapia citotóxica con dosis altas de citarabina en la unidad de emergencias sin soporte transfusional
+* **D)** Iniciar de inmediato Ácido Todo-Trans-Retinoico (ATRA / tretinoína oral) para inducir la diferenciación celular de los blastos y frenar la coagulopatía de consumo
+* **E)** Prescribir prednisona oral 1 mg/kg/día y posponer cualquier otra terapia hasta obtener el resultado citogenético molecular del gen PML-RARA
+
+---
+
+### Pregunta 40
+
+Una mujer de 35 años con diagnóstico de Enfermedad de Addison (insuficiencia suprarrenal primaria autoinmune) desde hace 3 años acude al CESFAM por un cuadro de 24 horas de fiebre de 38.9 °C, calofríos, dolor faríngeo intenso y disfagia. Se encuentra bajo tratamiento de sustitución crónico con hidrocortisona 20 mg/día (15 mg a las 08:00 h y 5 mg a las 15:00 h) y fludrocortisona 0.1 mg al día. Al examen físico: PA 105/65 mmHg, FC 94 lpm, Temp 38.8 °C. En la orofaringe se observa eritema amigdalino con exudado pultáceo compatible con amigdalitis bacteriana aguda. La paciente se encuentra lúcida, bien hidratada y hemodinámicamente compensada. Además de prescribir el antibiótico pertinente para su foco infeccioso, ¿cuál es la indicación médica fundamental respecto a su terapia de sustitución suprarrenal?
+
+* **A)** Suspender la hidrocortisona durante la infección para no comprometer la respuesta inmunológica celular
+* **B)** Duplicar exclusivamente la dosis de fludrocortisona a 0.2 mg/día manteniendo la hidrocortisona en sus dosis basales
+* **C)** Mantener la dosis habitual de hidrocortisona y solicitar un control de cortisol plasmático a las 48 horas para evaluar modificaciones
+* **D)** Duplicar o triplicar transitoriamente la dosis oral de hidrocortisona (a 40-60 mg/día) durante los días con fiebre e instruir acudir a urgencias para recibir hidrocortisona parenteral si presenta vómitos
+* **E)** Cambiar de inmediato la hidrocortisona oral por dexametasona 8 mg cada 8 horas endovenosa de forma permanente
+
+---
+
+### Pregunta 41
+
+Hombre de 32 años consulta en el servicio de urgencias por dolor abdominal en la fosa ilíaca derecha de 5 días de evolución. Refiere que el cuadro comenzó insidiosamente con malestar periumbilical y náuseas, para luego focalizarse en la fosa ilíaca derecha, asociándose a sensación febril y anorexia. Por cuenta propia tomó ibuprofeno y paracetamol cada 8 horas, logrando alivio transitorio. Al examen físico: vigil, PA 124/78 mmHg, FC 86 lpm, T° 38.0 °C. El abdomen es blando y depresible en hemiabdomen superior e izquierdo; a la palpación profunda de la fosa ilíaca derecha se constata una masa empastada, firme, dolorosa, de bordes mal delimitados de aproximadamente 6 cm de diámetro, con resistencia muscular localizada pero sin rebote ni signos de peritonitis generalizada. Laboratorio: Leucocitos 13.800/mm³ (78% neutrófilos), PCR 82 mg/L. La tomografía computarizada (TAC) de abdomen y pelvis con contraste revela apéndice cecal engrosado de 11 mm bloqueado y rodeado por conglomerado inflamatorio de asas ileales y epiplón mayor, compatible con plastrón apendicular, sin colecciones líquidas loculadas mayores de 2 cm ni aire libre peritoneal. ¿Cuál es la conducta médica inicial de elección?
+
+* **A)** Hospitalización, reposo digestivo, analgesia y tratamiento antibiótico endovenoso de amplio espectro, con apendicectomía diferida a las 8 a 12 semanas
+* **B)** Laparotomía exploradora de urgencia para apendicectomía abierta inmediata y lavado peritoneal
+* **C)** Apendicectomía laparoscópica de urgencia en el primer turno quirúrgico disponible
+* **D)** Drenaje percutáneo guiado por tomografía de la masa inflamatoria antes de administrar antibióticos
+* **E)** Alta inmediata con analgesia oral y citación a colonoscopía ambulatoria en 48 horas
+
+---
+
+### Pregunta 42
+
+Un hombre de 74 años, autovalente y asintomático, acude a su control cardiovascular en el CESFAM para renovación de recetas de antihipertensivos. No refiere astenia, fiebre, sudoración nocturna ni baja de peso. Al examen físico: PA 128/78 mmHg, FC 70 lpm, buen estado general. A la palpación cervical se detectan dos ganglios linfáticos de 1.2 cm, rodaderos, elásticos, móviles e indoloros, y un ganglio axilar izquierdo de 1.0 cm de iguales características. No se palpa hepatomegalia ni esplenomegalia. En el hemograma de control destaca: Hb 14.0 g/dL, Hto 42%, Plaquetas 225.000/uL, Leucocitos 39.000/uL con 86% de linfocitos maduros pequeños (recuento absoluto de linfocitos 33.540/uL). El frotis sanguíneo informa linfocitosis monomorfa madura con abundantes manchas de lisis nuclear o sombras celulares (Sombras de Gümprecht). La citometría de flujo en sangre periférica confirma una población clonal de linfocitos B maduros que coexpresan CD19, CD23 y CD5 (aberrante). ¿Cuál es el diagnóstico y la conducta terapéutica indicada de acuerdo con las guías clínicas internacionales y los protocolos hematológicos chilenos?
+
+* **A)** Leucemia Linfática Crónica en estadio temprano asintomático (estadio A de Binet / estadio 0-I de Rai); mantener conducta expectante y seguimiento clínico periódico ('Watch and Wait') sin quimioterapia
+* **B)** Leucemia Linfática Crónica en etapa avanzada; iniciar de inmediato inmuno-quimioterapia con esquema FCR (fludarabina, ciclofosfamida y rituximab)
+* **C)** Leucemia Mieloide Crónica; iniciar inmediatamente terapia dirigida con imatinib oral 400 mg/día bajo garantía GES N° 37
+* **D)** Linfoma de Hodgkin de predominio linfocítico; derivar de urgencia para quimioterapia esquema ABVD y radioterapia
+* **E)** Leucemia Linfoblástica Aguda de precursores B; hospitalizar de urgencia en aislamiento para quimioterapia de inducción y profilaxis intratecal
+
+---
+
+### Pregunta 43
+
+Hombre de 63 años, con antecedentes de hipertensión arterial y enfermedad renal crónica etapa 3a, consulta en el servicio de urgencia por un cuadro de 12 horas de evolución de dolor de inicio súbito, aumento de volumen y calor local intenso en la rodilla derecha, que le impide completamente la bipedestación y el apoyo. Al examen físico: PA 148/86 mmHg, FC 92 lpm, FR 18 rpm, T° 38,1 °C axilar. La rodilla derecha presenta eritema cutáneo, aumento de volumen a tensión con signo del choque rotuliano francamente positivo, marcado aumento de temperatura local y dolor exquisito a la palpación y a la movilización activa y pasiva mínima. La piel suprayacente está íntegra, sin celulitis ni soluciones de continuidad. ¿Cuál es la conducta médica inmediata más adecuada para este paciente?
+
+* **A)** Iniciar de inmediato analgesia endovenosa con ketorolaco y solicitar niveles plasmáticos de ácido úrico para confirmar gota antes de punzar.
+* **B)** Iniciar tratamiento empírico con ceftriaxona 2 g endovenosa y coordinar evaluación ambulatoria por reumatología en 72 horas.
+* **C)** Infiltrar la articulación con acetónido de triamcinolona y lidocaína al 2% para lograr alivio sintomático y desinflamación rápida.
+* **D)** Realizar artrocentesis diagnóstica para análisis citoquímico, tinción de Gram, cultivo y microscopía óptica con luz polarizada antes de administrar antimicrobianos.
+* **E)** Solicitar una resonancia magnética de rodilla de urgencia para descartar osteomielitis y absceso perióstico antes de invadir la articulación.
+
+---
+
+### Pregunta 44
+
+Hombre de 56 años, chofer de camión, con antecedente de hipertensión arterial bien controlada, consulta en el servicio de urgencias por un cuadro de 3 días de fiebre alta hasta 39.2 °C con calofríos intensos, tos con expectoración mucopurulenta y dolor punzante en hemitórax derecho al toser y respirar hondo. Al examen físico: vigil, orientado en tiempo, espacio y persona (Glasgow 15), FR 32 rpm, FC 106 lpm, PA 118/72 mmHg, T° 38.7 °C, SatO2 93% al aire ambiente. A la auscultación se pesquisan estertores crepitantes inspiratorios y soplo tubario en el tercio inferior del hemitórax derecho. La radiografía de tórax confirma una condensación alveolar homogénea con broncograma aéreo en el lóbulo inferior derecho, sin derrame pleural. Exámenes de laboratorio: Leucocitos 15.600/mm³ (10% baciliformes), PCR 135 mg/L, Creatinina 1.3 mg/dL, Nitrógeno ureico en sangre (BUN) 24 mg/dL. ¿Cuál es el puntaje CURB-65 del paciente y la conducta clínica más adecuada según las guías de manejo?
+
+* **A)** CURB-65 de 1 punto; tratamiento ambulatorio con amoxicilina oral y citación a control clínico a las 48 horas
+* **B)** CURB-65 de 4 puntos; traslado inmediato a la Unidad de Cuidados Intensivos (UCI) para intubación orotraqueal de urgencia
+* **C)** CURB-65 de 2 puntos; hospitalización en sala de medicina general para tratamiento antibiótico parenteral y monitorización clínica
+* **D)** CURB-65 de 0 puntos; manejo sintomático con antipiréticos en domicilio y reposo laboral
+* **E)** CURB-65 de 3 puntos; indicación de hospitalización domiciliaria con visitas de enfermería cada 48 horas
+
+---
+
+### Pregunta 45
+
+Una mujer de 29 años consulta por amenorrea secundaria de 9 meses de evolución, galactorrea espontánea bilateral y disminución progresiva de los campos visuales periféricos que le dificulta conducir de noche. La evaluación oftalmológica y campimétrica confirma una hemianopsia bitemporal con agudeza visual central conservada. La Resonancia Magnética de silla turca revela una masa hipofisaria sólida de 24 × 18 mm con expansión supraselar que desplaza y comprime el quiasma óptico. La prolactina sérica matinal resulta marcadamente elevada en 780 ng/mL (VN < 25 ng/mL). La prueba de embarazo es negativa, y el resto del perfil hipofisario (TSH, T4L, cortisol y FSH/LH) se encuentra dentro de límites normales. ¿Cuál es el tratamiento de primera línea de elección para reducir la masa tumoral y descomprimir la vía visual?
+
+* **A)** Descompresión quirúrgica urgente por vía transesfenoidal
+* **B)** Radiocirugía estereotáctica fraccionada externa (Gamma Knife)
+* **C)** Terapia médica con análogos de la somatostatina (octreótido subcutáneo)
+* **D)** Anticonceptivos orales combinados para restituir la menstruación y observación de la masa con RM seriada
+* **E)** Iniciar tratamiento médico con un agonista dopaminérgico oral (cabergolina)
+
+---
+
+### Pregunta 46
+
+Mujer de 46 años, con diagnóstico de hipertensión arterial hace 1 año, consulta a control en CESFAM. Se encuentra en tratamiento regular con Enalapril 20 mg cada 12 horas, Amlodipino 10 mg al día e Hidroclorotiazida 25 mg al día (esquema triple a dosis plenas, con adherencia confirmada por conteo de comprimidos). En los últimos controles persiste con cifras tensionales elevadas, registrándose hoy PA 166/102 mmHg (promedio de 3 tomas estandarizadas) y FC 74 lpm. No tiene diabetes, no consume AINEs ni corticoides, y su IMC es 26 kg/m².
+Laboratorio de control: Creatinina 0.85 mg/dL, Nitrógeno ureico 14 mg/dL, Sodio 143 mEq/L, Potasio 2.9 mEq/L (confirmado en segunda muestra sin hemólisis), Bicarbonato venoso 31 mEq/L, Orina completa sin proteinuria.
+Ante la confirmación de hipertensión arterial resistente asociada a hipopotasemia persistente y alcalosis metabólica, ¿cuál es la sospecha etiológica más probable y el examen de tamizaje inicial de elección?
+
+* **A)** Feocromocitoma retroperitoneal; solicitar determinación de metanefrinas libres en plasma u orina de 24 horas
+* **B)** Estenosis bilateral de arterias renales; solicitar angiografía por tomografía computarizada (AngioTAC) de arterias renales
+* **C)** Síndrome de Cushing endógeno; solicitar prueba de supresión nocturna con 1 mg de dexametasona
+* **D)** Hipertensión arterial esencial no controlada; añadir Atenolol 50 mg al día sin realizar estudios complementarios
+* **E)** Hiperaldosteronismo primario; solicitar relación entre concentración de aldosterona plasmática y actividad de renina plasmática (ARR)
+
+---
+
+### Pregunta 47
+
+Hombre de 81 años, con antecedentes de deterioro cognitivo leve y hiperplasia prostática benigna, en su segundo día postoperatorio de una artroplastia total de cadera derecha electiva. Durante la entrega de turno matinal, la enfermera informa que el paciente pasó una noche muy agitada, intentando retirarse la vía venosa periférica, desorientado, con inversión del ciclo sueño-vigilia y alucinaciones visuales ('veía sombras en el techo'). Al evaluar al paciente en la mañana, se encuentra hipoactivo, somnoliento, bradipsíquico, sin lograr mantener la atención (falla en deletrear la palabra 'MUNDO' al revés) y con pensamiento desorganizado al responder con incoherencias. Al examen físico: PA 148/88 mmHg, FC 86 lpm, FR 18 rpm, T° 36,9 °C, SatO2 96% ambiental. A la palpación abdominal destaca dolor en hipogastrio con matidez suprapúbica a la percusión compatible con globo vesical. El residente de cirugía propone de inmediato indicar sujeción física de 4 extremidades y administrar lorazepam 2 mg endovenoso en bolo. ¿Cuál es la conducta médica inicial más adecuada para este paciente?
+
+* **A)** Aceptar la indicación del residente: instalar sujeción física rígida y administrar lorazepam endovenoso en bolo para controlar la agitación y asegurar el reposo.
+* **B)** Administrar haloperidol 5 mg endovenoso en infusión rápida y solicitar resonancia magnética cerebral de urgencia por sospecha de infarto talámico.
+* **C)** Iniciar de inmediato antibióticos de amplio espectro por vía endovenosa y solicitar punción lumbar para descartar meningitis nosocomial.
+* **D)** Instalar una sonda Foley para aliviar el globo vesical, suspender fármacos con potencial anticolinérgico o sedante, e implementar medidas ambientales de reorientación no farmacológicas (acompañamiento familiar, luz natural, audífonos/lentes), evitando benzodiacepinas y sujeción física.
+* **E)** Indicar traslado inmediato a la Unidad de Cuidados Intensivos e iniciar sedación profunda continua con propofol.
+
+---
+
+### Pregunta 48
+
+Hombre de 34 años, operario forestal y desbrozador en una zona rural precordillera de la Región del Biobío, consulta en el servicio de urgencia de un hospital de baja complejidad por cuadro de 4 días de fiebre alta hasta 39.5 °C, cefalea holocraneana y mialgias intensas y discapacitantes que comprometen de forma predominante la región lumbar y ambos muslos. En las últimas 12 horas se agrega tos seca pertinaz, opresión torácica y disnea de moderados esfuerzos. Refiere haber limpiado hace 18 días un cobertizo de faenas madereras deshabitado y cerrado durante todo el invierno.
+Al examen físico: T° 38.6 °C, PA 92/58 mmHg, FC 118 lpm, FR 26 rpm, SatO2 88% respirando aire ambiental. A la auscultación pulmonar se pesquisan crépitos húmedos bilaterales difusos de predominio en bases.
+Radiografía de tórax portátil: Infiltrados intersticiales y alveolares bilaterales perihiliares difusos, con borramiento de senos costofrénicos y silueta cardíaca de tamaño rigurosamente normal.
+Hemograma urgente: Hematocrito 53% (marcada hemoconcentración), Leucocitosis de 19.800/mm³ con 16% de linfocitos atípicos de gran tamaño con citoplasma basófilo (inmunoblastos), y recuento de Plaquetas de 38.000/mm³.
+Ante la alta sospecha clínica, epidemiológica y de laboratorio de Síndrome Cardiopulmonar por Hantavirus (SCPH), ¿cuál de las siguientes medidas representa la conducta médica inmediata más adecuada y un principio terapéutico CRÍTICO normado por el MINSAL?
+
+* **A)** Administrar de inmediato un bolo rápido de cristaloides a 30 mL/kg (2.500 mL en 1 hora) para corregir la hipotensión arterial y la hemoconcentración
+* **B)** Realizar notificación epidemiológica inmediata (ENO), iniciar oxigenoterapia estricta con manejo hidroelectrolítico restrictivo (evitando la sobrecarga hídrica) y coordinar traslado urgente en ambulancia medicalizada a un centro terciario con capacidad de soporte con ECMO
+* **C)** Iniciar tratamiento empírico con Ceftriaxona 2 g EV más Claritromicina 500 mg EV e ingresar a sala de medicina general básica para control de diuresis
+* **D)** Indicar infusión endovenosa de Ribavirina a dosis altas durante 10 días como terapia antiviral curativa de primera línea
+* **E)** Tomar muestra de serología para IgM de Hantavirus y esperar el informe oficial del ISP antes de autorizar la derivación del paciente
+
+---
+
+### Pregunta 49
+
+Mujer de 66 años con diagnóstico de diabetes mellitus tipo 2 desde hace 9 años, con excelente adherencia a Metformina 850 mg cada 8 horas (2.550 mg/día) y Enalapril 10 mg/día. Consulta en su CESFAM por un cuadro de 6 meses de evolución de parestesias distales en ambos pies con sensación de adormecimiento, asociado a astenia progresiva y quejas de fallas de memoria reciente. Al examen físico: palidez mucocutánea leve a moderada. Examen neurológico: disminución marcada de la sensibilidad vibratoria (palestesia) y posicional en ambos tobillos y dedos de los pies, reflejos aquilianos abolidos de forma simétrica y marcha levemente atáxica. Laboratorio: HbA1c 6.7% (excelente control glicémico), Creatinina 0.8 mg/dL (TFGe 86 mL/min/1.73m²). Hemograma: Hemoglobina 10.2 g/dL, Hematocrito 31%, Volumen Corpuscular Medio (VCM) 106 fL (macrocitosis franca), plaquetas y leucocitos normales. ¿Cuál es el mecanismo fisiopatológico adverso más probable que explica tanto la anemia macrocítica como el cuadro neurológico de esta paciente?
+
+* **A)** Polineuropatía diabética simétrica distal por microangiopatía crónica no dependiente de fármacos
+* **B)** Déficit de Vitamina B12 (cobalamina) por alteración de su absorción ileal dependiente de calcio inducida por metformina crónica
+* **C)** Toxicidad medular directa de la metformina con supresión de precursores normoblásticos
+* **D)** Déficit de ácido fólico secundario a interacción farmacológica competitiva con el enalapril a nivel duodenal
+* **E)** Mielinolisis pontina central subclínica inducida por fluctuaciones glucémicas crónicas
+
+---
+
+### Pregunta 50
+
+Mujer de 52 años, hipertensa tratada con Hidroclorotiazida 25 mg/día y con antecedente de consumo problemático de alcohol, consulta por astenia marcada, debilidad muscular en las cuatro extremidades, calambres y palpitaciones irregulares. Signos vitales: PA 115/70 mmHg, FC 88 lpm arrítmica, FR 18 rpm, afebril. El electrocardiograma revela ritmo sinusal con extrasístoles ventriculares frecuentes, aplanamiento difuso de ondas T, infradesnivel del segmento ST de 1 mm y ondas U prominentes en derivaciones precordiales V2 a V4. Exámenes de laboratorio: Potasio sérico 2.6 mEq/L, Sodio 137 mEq/L, Cloro 94 mEq/L, Magnesio sérico 1.2 mg/dL (valor de referencia: 1.8 a 2.4 mg/dL), Calcio sérico 9.1 mg/dL, Creatinina 0.8 mg/dL. Se suspende la hidroclorotiazida. ¿Cuáles son las dos medidas farmacológicas indispensables para una reposición segura y efectiva de potasio por vía venosa periférica en esta paciente?
+
+* **A)** Diluir el cloruro de potasio exclusivamente en Suero Glucosado al 10% y prescribir espironolactona oral
+* **B)** Administrar Sulfato de Magnesio intravenoso concomitante y preparar la solución periférica con un máximo de 40 mEq/L de KCl a no más de 10 a 20 mEq/hora
+* **C)** Administrar un bolo directo de 40 mEq de KCl en 10 minutos para revertir la arritmia y agregar bicarbonato
+* **D)** Iniciar infusión de insulina rápida con glucosa para acelerar el ingreso de electrolitos y administrar calcio
+* **E)** Indicar reposición oral exclusiva postergando cualquier aporte endovenoso durante las primeras 48 horas
+
+---
+
+### Pregunta 51
+
+Una mujer de 39 años con antecedente de una hemorragia postparto masiva con shock hipovolémico hace 3 años (que requirió histerectomía de urgencia y soporte en UCI, tras lo cual no logró amamantar y desarrolló amenorrea secundaria persistente) consulta en el CESFAM por astenia progresiva, intolerancia al frío, constipación y piel fría y áspera. Al examen físico destaca PA 92/58 mmHg, FC 54 lpm, piel pálida, seca y con descamación fina, y reflejos osteotendinosos con relajación aquiliana prolongada. El tiroides no es palpable. Los exámenes de laboratorio informan: TSH 1.2 mIU/L (rango de referencia 0.4 a 4.0 mIU/L) y T4 Libre 0.42 ng/dL (rango de referencia 0.8 a 1.8 ng/dL). ¿Cuál es la conducta médica inicial prioritaria que debe realizarse antes de prescribir levotiroxina en esta paciente?
+
+* **A)** Iniciar levotiroxina a dosis sustitutiva completa de 1.6 mcg/kg/día para normalizar de inmediato la T4 libre
+* **B)** Evaluar la función suprarrenal mediante cortisol matinal y asegurar reemplazo con glucocorticoides previo al inicio de levotiroxina si existe déficit
+* **C)** Iniciar triyodotironina (T3) oral en dosis crecientes para no depender de la conversión periférica
+* **D)** Solicitar anticuerpos anti-tiroperoxidasa (anti-TPO) y ecografía tiroidea para clasificar la variante de tiroiditis de Hashimoto
+* **E)** Diagnosticar síndrome del eutiroideo enfermo y mantener conducta expectante sin realizar exámenes adicionales
+
+---
+
+### Pregunta 52
+
+Mujer de 67 años, con antecedentes de diabetes mellitus tipo 2 e hipertensión arterial en tratamiento con enalapril y metformina, consulta en el servicio de urgencia 3 horas después de haber presentado de forma súbita pérdida de fuerza en el brazo y la pierna derechos asociada a dificultad para pronunciar las palabras (disartria). El cuadro duró exactamente 45 minutos y se recuperó íntegramente de manera espontánea antes de llegar al hospital. Al ingreso a la urgencia, la paciente se encuentra completamente asintomática, con examen neurológico rigurosamente normal (NIHSS 0). Al examen físico: PA 156/92 mmHg, FC 78 lpm regular, SatO2 97% ambiental, HGT 148 mg/dL. El electrocardiograma muestra ritmo sinusal normal sin arritmias y la tomografía computarizada (TAC) de cerebro sin contraste descarta hemorragia intracraneana y no evidencia lesiones isquémicas agudas. Considerando la estratificación de riesgo mediante el score ABCD² y las garantías AUGE/GES N° 37 del MINSAL, ¿cuál es el puntaje obtenido, la conducta de derivación hospitalaria y el esquema de prevención secundaria inmediata que corresponde indicar?
+
+* **A)** Score ABCD² de 2 puntos (bajo riesgo); alta inmediata a domicilio con aspirina 100 mg/día y control ambulatorio en APS en 30 días.
+* **B)** Score ABCD² de 3 puntos (bajo riesgo); derivación a hospital de día para iniciar anticoagulación oral con warfarina sin necesidad de estudio vascular.
+* **C)** Score ABCD² de 4 puntos (riesgo moderado); hospitalización en sala básica para iniciar trombolisis endovenosa con alteplase.
+* **D)** Score ABCD² de 5 puntos (alto riesgo); dar de alta con reposo en domicilio y solicitar resonancia magnética cerebral ambulatoria prioritaria.
+* **E)** Score ABCD² de 6 puntos (alto riesgo); hospitalización inmediata bajo garantía GES para estudio vascular carotídeo urgente e inicio de doble antiagregación plaquetaria con Ácido Acetilsalicílico más Clopidogrel durante 21 días.
+
+---
+
+### Pregunta 53
+
+Mujer de 64 años, sin antecedentes mórbidos relevantes, consulta en el CESFAM por un cambio persistente del hábito intestinal de 3 meses de evolución, manifestado por constipación progresiva (evacuación cada 4 a 5 días con heces acintadas y tenesmo) alternada con episodios intermitentes de deposiciones líquidas con mucosidad. Refiere además astenia progresiva y una baja involuntaria de 5 kg de peso en el mismo período. Al examen físico: vigil, enflaquecida, palidez mucocutánea moderada, PA 118/74 mmHg, FC 76 lpm. Abdomen blando, depresible, sin masas palpables ni dolor a la palpación. El tacto rectal demuestra ampolla rectal vacía sin lesiones palpables en los primeros 7 cm, observándose dedil con trazas de sangre microscópica. Exámenes de laboratorio en APS: Hemoglobina 9.4 g/dL, VCM 71 fL, HCM 23 pg (anemia microcítica e hipocrómica), Ferritina sérica 8 ng/mL (ferropenia severa). ¿Cuál es la conducta diagnóstica de primera línea que se debe indicar de inmediato?
+
+* **A)** Indicar suplementación con fibra soluble y polietilenglicol con control clínico en 6 meses
+* **B)** Solicitar coprocultivo corriente, parasitológico seriado y calprotectina fecal
+* **C)** Solicitar una colonoscopía total con sedación y toma de biopsias
+* **D)** Solicitar test inmunológico de sangre oculta en heces (TSOH) y repetir en 1 año si es positivo
+* **E)** Prescribir enemas evacuantes de fosfato y recomendar dieta rica en salvado de trigo
+
+---
+
+### Pregunta 54
+
+Hombre de 69 años, con antecedentes de diabetes mellitus tipo 2 mal controlada y consumo crónico de alcohol, es traído al servicio de urgencia por su esposa tras 24 horas de fiebre alta, vómitos explosivos, cefalea intensa y desorientación progresiva.
+Al examen físico: somnoliento, desorientado en tiempo y espacio (Escala de Coma de Glasgow 13), sin déficit motor focal ni compromiso de pares craneales, fondo de ojo sin edema de papila. Temperatura axilar 39.2 °C, PA 138/85 mmHg, FC 106 lpm, FR 22 rpm. Presenta rigidez de nuca marcada y signos de Brudzinski y Kernig francamente positivos.
+Se realiza de inmediato una punción lumbar que obtiene líquido cefalorraquídeo (LCR) de aspecto francamente turbio y purulento a una presión de apertura de 32 cm H2O. El informe urgente del citoquímico revela: 3.800 leucocitos/mm³ con 91% de polimorfonucleares neutrófilos, Glucosa en LCR de 14 mg/dL (con glicemia sérica concomitante de 135 mg/dL; ratio LCR/suero de 0.10) y Proteínas totales en LCR de 290 mg/dL.
+Ante la confirmación de una Meningitis Bacteriana Aguda adquirida en la comunidad en un adulto mayor con factores de riesgo, ¿cuál es el esquema antimicrobiano empírico endovenoso y la terapia adyuvante obligatoria que debe iniciarse de inmediato según las guías clínicas ministeriales?
+
+* **A)** Ceftriaxona 2 g cada 24 h en monoterapia endovenosa sin adición de otros fármacos
+* **B)** Ciprofloxacino 400 mg cada 12 h + Metronidazol 500 mg cada 8 h endovenoso
+* **C)** Aciclovir 10 mg/kg cada 8 h endovenoso en monoterapia
+* **D)** Ceftriaxona 2 g cada 12 h + Vancomicina 15-20 mg/kg cada 12 h + Ampicilina 2 g cada 4 h endovenosa, asociada a Dexametasona 10 mg endovenosa administrada antes o junto con la primera dosis de antibiótico
+* **E)** Penicilina G sódica 4 millones de unidades cada 4 horas en monoterapia sin corticoides
+
+---
+
+### Pregunta 55
+
+Una mujer de 31 años sin antecedentes de diátesis hemorrágica ni sangrados anormales en procedimientos dentales previos, pero con historia obstétrica de dos pérdidas reproductivas espontáneas en el primer trimestre, es evaluada en el policlínico de preanestesia para una colecistectomía laparoscópica electiva. Los exámenes preoperatorios de hemostasia revelan: Recuento plaquetario 230.000/uL, Tiempo de Protrombina (TP) 12.1 segundos (INR 1.02, normal) y Tiempo de Tromboplastina Parcial Activada (TTPK) marcadamente prolongado en 64 segundos (control normal 30 segundos). Se realiza una prueba de mezclas 1:1 con plasma normal, observándose que el TTPK persiste prolongado en 60 segundos (no corrige). ¿Cuál es la interpretación diagnóstica más adecuada y qué riesgo clínico presenta prioritariamente la paciente?
+
+* **A)** Déficit congénito de Factor VIII (Hemofilia A); presenta alto riesgo de hemorragia intraoperatoria severa no controlable
+* **B)** Déficit severo de Factor VII de la vía extrínseca; presenta riesgo inminente de hemartrosis y hematomas musculares profundos
+* **C)** Presencia de un inhibidor circulante tipo anticoagulante lúpico (asociado a síndrome antifosfolípido); presenta riesgo paradójico de trombosis arterial o venosa y pérdidas fetales, sin mayor riesgo hemorrágico per se
+* **D)** Enfermedad de Von Willebrand tipo 1 clásica; presenta alteración de la hemostasia primaria con riesgo de sangrado mucoso inmediato
+* **E)** Hepatopatía crónica incipiente; presenta déficit de factores vitamina K-dependientes con indicación de plasma fresco congelado preoperatorio
+
+---
+
+### Pregunta 56
+
+Hombre de 38 años, obrero de la construcción, sin antecedentes mórbidos, no fumador y sin alergias a medicamentos, consulta en el CESFAM por cuadro de 48 horas de fiebre hasta 38.8 °C con calofríos, tos con expectoración herrumbrosa y dolor en puntada de costado derecho al inspirar. Al examen físico: vigil, orientado, PA 120/76 mmHg, FC 82 lpm, FR 18 rpm, SatO2 97% al aire ambiente. A la auscultación se constatan crépitos inspiratorios localizados y aumento de las vibraciones vocales en la base pulmonar derecha. La radiografía de tórax confirma una condensación alveolar homogénea con broncograma aéreo en el lóbulo inferior derecho, sin derrame. Creatinina y nitrógeno ureico son normales (CURB-65 = 0 puntos). ¿Cuál es la terapia antimicrobiana ambulatoria de primera elección recomendada por las guías clínicas ministeriales y de la Sociedad Chilena de Enfermedades Respiratorias?
+
+* **A)** Amoxicilina con ácido clavulánico 875/125 mg cada 12 horas por vía oral durante 14 días
+* **B)** Amoxicilina 1 g cada 8 horas por vía oral durante 5 a 7 días
+* **C)** Ciprofloxacino 500 mg cada 12 horas por vía oral durante 10 días
+* **D)** Ceftriaxona 1 g intramuscular al día durante 10 días
+* **E)** Levofloxacino 750 mg cada 24 horas por vía oral durante 14 días
+
+---
+
+### Pregunta 57
+
+Hombre de 27 años, con diagnóstico de espondilitis anquilosante confirmado hace un año por la presencia de dolor lumbar inflamatorio crónico, antígeno HLA-B27 positivo y radiografía de pelvis que demuestra sacroilitis bilateral Grado 3 con esclerosis y erosiones subcondrales. Ha mantenido un estricto programa de kinesiterapia motora y ha recibido sucesivamente tratamiento continuo a dosis máximas de dos AINEs diferentes durante periodos de 6 semanas cada uno (naproxeno 500 mg cada 12 horas e indometacina 50 mg cada 8 horas). A pesar de esto, el paciente persiste con dolor lumbar y dorsal severo, dolor nocturno que interrumpe el sueño a las 04:00 AM y rigidez matinal mayor a 90 minutos, con un índice de actividad BASDAI de 6,8 puntos (alta actividad refractaria, corte ≥ 4) y PCR elevada en 28 mg/L. No presenta artritis periférica ni uveítis activa. ¿Cuál es el paso farmacológico más adecuado a seguir según las guías internacionales ASAS/EULAR y la práctica reumatológica en Chile?
+
+* **A)** Iniciar metotrexato oral 15 mg semanales asociado a ácido fólico.
+* **B)** Iniciar prednisona oral a dosis de 40 mg/día en pauta descendente durante 6 meses.
+* **C)** Suspender todo fármaco antiinflamatorio y mantener únicamente paracetamol 1 g cada 8 horas.
+* **D)** Derivar para artrodesis quirúrgica lumbar multisegmentaria precoz para prevenir la deformidad cifótica.
+* **E)** Iniciar terapia biológica con un fármaco anti-TNF alfa (como adalimumab o infliximab) previo descarte de tuberculosis latente e infecciones activas.
+
+---
+
+### Pregunta 58
+
+Mujer de 67 años con antecedente de reflujo gastroesofágico y gonartrosis, hospitalizada hace 8 días para recibir tratamiento parenteral con Ampicilina/Sulbactam por una celulitis extensa en pierna derecha. Concomitantemente recibe Omeprazol 40 mg/día por vía oral. Al séptimo día de tratamiento presenta febrícula de 37.9 °C y un exantema maculopapular eritematoso pruriginoso en tronco. Los exámenes de laboratorio revelan un ascenso de la creatinina sérica desde 0.8 mg/dL al ingreso hasta 2.9 mg/dL hoy. Hemograma: leucocitos 9.100/uL con 11% de eosinófilos (1.001 eosinófilos absolutos/uL). Examen de orina: proteinuria +, leucocituria de 30 a 40 por campo, presencia de cilindros leucocitarios y eosinofiluria confirmada con tinción de Hansel. Urocultivo: negativo a las 48 horas. Ecografía renal: riñones aumentados de tamaño con hiperecogenicidad cortical difusa y sin dilatación de la vía excretora. ¿Cuál es el diagnóstico más probable y la conducta terapéutica inicial de elección?
+
+* **A)** Necrosis tubular aguda tóxica; administrar solución salina al 3% y furosemida intravenosa
+* **B)** Pielonefritis aguda bacteriana nosocomial; escalar antibioticoterapia a vancomicina más meropenem
+* **C)** Nefritis túbulo-intersticial aguda inmunoalérgica; suspender de inmediato los fármacos desencadenantes (antibiótico e IBP)
+* **D)** Glomerulonefritis membranoproliferativa secundaria; iniciar pulsos de ciclofosfamida intravenosa
+* **E)** Microangiopatía trombótica por fármacos; solicitar frotis sanguíneo periférico e iniciar plasmaféresis de urgencia
+
+---
+
+### Pregunta 59
+
+Hombre de 24 años, deportista aficionado, acude a control de salud en su CESFAM para evaluación precompetitiva. Refiere que en los últimos seis meses ha presentado en tres ocasiones episodios autolimitados de palpitaciones de inicio y término brusco durante el ejercicio intenso, sin síncope ni disnea. Al examen físico: PA 118/72 mmHg, FC 68 lpm regular, afebril, examen cardíaco y pulmonar normales.
+Se realiza un electrocardiograma de reposo de 12 derivaciones que revela: ritmo regular a 68 lpm, presencia de ondas P sinusales visibles precediendo a cada complejo, intervalo PR acortado de 102 ms, complejos QRS de 126 ms de duración con un empastamiento ascendente en la rama inicial de la onda R (onda delta) evidente en DI, aVL, V5 y V6, con alteraciones secundarias de la repolarización ventricular.
+¿Cuál es el diagnóstico electrocardiográfico más probable y la conducta médica inicial más adecuada?
+
+* **A)** Bloqueo completo de rama izquierda; indicar ecocardiograma urgente y suspender de por vida todo tipo de actividad física
+* **B)** Bloqueo auriculoventricular de primer grado; tranquilizar al paciente y autorizar la práctica deportiva sin restricciones
+* **C)** Patrón de Wolff-Parkinson-White (preexcitación ventricular); derivar a cardiología/electrofisiología para estratificación de riesgo y eventual ablación por radiofrecuencia
+* **D)** Hipertrofia ventricular izquierda concéntrica con sobrecarga sistólica; iniciar de inmediato Enalapril 10 mg al día
+* **E)** Ritmo de la unión auriculoventricular acelerado; indicar Holter de arritmias ambulatorio de 24 horas y dar de alta
+
+---
+
+### Pregunta 60
+
+Mujer de 71 años, diabética tipo 2 e hipertensa, es traída al Servicio de Urgencias en ambulancia tras ser hallada por familiares en el suelo de su domicilio en estado de sopor profundo y con incontinencia urinaria. Su hija refiere que durante la última semana la paciente presentó disuria, polaquiuria, fiebre intermitente y decaimiento progresivo. Al examen físico: en sopor profundo, responde solo a estímulos dolorosos con quejidos (Glasgow 10). Mucosas secas, signo del pliegue positivo, globos oculares hipotónicos. Signos vitales: PA 84/50 mmHg, FC 118 lpm regular, FR 18 rpm (sin respiración de Kussmaul), SatO2 96% ambiental, T° 38.2 °C axilar. Laboratorio de urgencia: Glicemia venosa 920 mg/dL, Gases venosos con pH 7.34, pCO2 38 mmHg, Bicarbonato 21 mEq/L. Electrolitos: Sodio plasmático 148 mEq/L, Potasio 4.9 mEq/L, Cloro 110 mEq/L. BUN 64 mg/dL, Creatinina 2.3 mg/dL. Orina completa: Glucosuria masiva (> 1.000 mg/dL), cetonuria negativa, leucocitos 50 por campo, nitritos positivos. ¿Cuál es el diagnóstico metabólico fundamental y cuál es el valor exacto de la osmolaridad plasmática efectiva en esta paciente?
+
+* **A)** Cetoacidosis diabética severa precipitada por shock séptico; osmolaridad plasmática efectiva de 320 mOsm/kg
+* **B)** Estado Hiperglicémico Hiperosmolar; osmolaridad plasmática efectiva de 347 mOsm/kg
+* **C)** Síndrome urémico terminal con acidosis mixta; osmolaridad plasmática efectiva de 295 mOsm/kg
+* **D)** Cetoacidosis diabética euglicémica por urosepsis; osmolaridad plasmática efectiva de 370 mOsm/kg
+* **E)** Accidente cerebrovascular isquémico agudo con hiperglicemia reactiva; osmolaridad efectiva de 310 mOsm/kg
+
+---
+
+### Pregunta 61
+
+Hombre de 66 años, hipertenso, con antecedentes de tabaquismo activo y revascularización coronaria con stent hace 3 años, consulta en el servicio de urgencia por cuadro de 4 horas de evolución caracterizado por tres episodios de dolor opresivo retroesternal de reposo, de 20 minutos de duración cada uno, que no ceden completamente.
+Al examen físico: PA 135/85 mmHg, FC 82 lpm, FR 18 rpm, SatO2 96% ambiental, examen cardiopulmonar sin soplos ni signos de congestión pulmonar.
+El electrocardiograma de 12 derivaciones en reposo muestra ritmo sinusal y un infradesnivel horizontal del segmento ST de 1.8 mm en las derivaciones V3, V4, V5 y V6, sin supradesnivel del ST en ninguna derivación. El primer set de laboratorio arroja Troponina I ultrasensible en 120 ng/L (límite superior normal < 14 ng/L) y Creatinina 1.1 mg/dL.
+Ante la confirmación diagnóstica de un Síndrome Coronario Agudo sin Supradesnivel del ST (IAMSEST), ¿cuál de las siguientes terapias o conductas se encuentra FORMALMENTE CONTRAINDICADA en este paciente?
+
+* **A)** Doble antiagregación plaquetaria con Aspirina oral 250 mg más Ticagrelor 180 mg en dosis de carga
+* **B)** Anticoagulación parenteral con Enoxaparina 1 mg/kg cada 12 horas por vía subcutánea
+* **C)** Administración inmediata de trombolisis farmacológica con Tenecteplase o Alteplase endovenoso
+* **D)** Administración de Atorvastatina en dosis de alta potencia (80 mg por vía oral)
+* **E)** Programación de coronariografía invasiva con eventual angioplastía dentro de las primeras 24 horas de ingreso
+
+---
+
+### Pregunta 62
+
+Hombre de 71 años, hipertenso y con gonartrosis severa, en tratamiento habitual con Enalapril 20 mg/día, Espironolactona 25 mg/día y Celecoxib 200 mg/día (que aumentó por cuenta propia a 400 mg/día hace 5 días por dolor articular). Es traído al Servicio de Urgencias por su familia tras un cuadro de 3 días de diarrea acuosa profusa (8 a 10 deposiciones al día) e intolerancia a la vía oral. Al examen físico: en sopor superficial, responde con lentitud al interrogatorio, mucosas marcadamente secas, signo del pliegue cutáneo positivo y turgencia muy disminuida. Signos vitales: PA 82/48 mmHg, FC 118 lpm regular, FR 20 rpm, SatO2 96% ambiental, afebril (36.4 °C). Exámenes de urgencia: Creatinina sérica 4.2 mg/dL (basal de hace 2 meses: 0.9 mg/dL), BUN 88 mg/dL, Sodio plasmático 134 mEq/L, Potasio 5.8 mEq/L, Cloro 98 mEq/L. Examen de orina: Osmolaridad urinaria 620 mOsm/kg, Sodio urinario 11 mEq/L, Fracción excretada de sodio (FeNa) 0.38%, Fracción excretada de urea (FeUrea) 24%. Sedimento urinario: escasos cilindros hialinos, sin proteinuria ni cilindros celulares patológicos. Tras instalación de sonda Foley, se constata un débito de 15 mL en los primeros 60 minutos. ¿Cuál es la conducta terapéutica inicial prioritaria para el manejo de este paciente?
+
+* **A)** Administrar 40 mg de furosemida intravenosa en bolo para forzar la diuresis tubular y prevenir la sobrecarga
+* **B)** Suspender de inmediato los fármacos nefrotóxicos e iniciar reposición rápida de volumen con Suero Fisiológico al 0.9% intravenoso
+* **C)** Indicar hemodiálisis de urgencia inmediata por elevación de creatinina sobre 4 mg/dL y oliguria marcada
+* **D)** Iniciar infusión de bicarbonato de sodio isotónico al 1.4% a 500 mL/hora manteniendo el enalapril para proteger la hemodinamia glomerular
+* **E)** Iniciar infusión continua de dopamina a dosis renal (2 a 3 mcg/kg/min) por vía venosa periférica
+
+---
+
+### Pregunta 63
+
+Una mujer de 52 años con antecedente de artritis reumatoide de 8 años de evolución, en tratamiento con metotrexato y leflunomida, consulta por astenia y fatigabilidad progresiva. Al examen físico presenta palidez moderada y sinovitis activa con aumento de volumen y dolor en articulaciones interfalángicas proximales y muñecas. El hemograma revela: Hb 9.3 g/dL, Hto 28%, VCM 79 fL (microcitosis límite), HCM 26 pg, Leucocitos 8.200/uL y Plaquetas 410.000/uL. Los exámenes de cinética de hierro y marcadores inflamatorios muestran:
+- Ferremia: 25 mcg/dL (disminuida, VN 50 a 150)
+- Capacidad Total de Fijación de Hierro (TIBC): 215 mcg/dL (disminuida, VN 250 a 420)
+- Transferrina plasmática: 170 mg/dL (disminuida, VN 200 a 360)
+- Saturación de transferrina: 12% (disminuida, VN 20 a 50%)
+- Ferritina sérica: 480 ng/mL (marcadamente elevada, VN 15 a 150)
+- Proteína C Reactiva (PCR): 38 mg/L (elevada, VN < 5)
+¿Cuál es el diagnóstico más probable de esta anemia y el mecanismo fisiopatológico cardinal responsable de este perfil de hierro?
+
+* **A)** Anemia de enfermedad crónica (inflamación); caracterizada por bloqueo del hierro macrofágico mediado por aumento de hepcidina y síntesis hepática disminuida de transferrina
+* **B)** Anemia ferropénica pura; el aumento de ferritina corresponde a un error de laboratorio por hemólisis in vitro de la muestra
+* **C)** Hemocromatosis hereditaria secundaria; acumulación de hierro en depósitos reticuloendoteliales con descenso paradójico de la saturación
+* **D)** Beta-talasemia menor heterocigota; defecto genético en la síntesis de cadenas de globina sin alteración del metabolismo del hierro
+* **E)** Anemia sideroblástica congénita; falla enzimática en la síntesis del grupo hemo mitocondrial
+
+---
+
+### Pregunta 64
+
+Hombre de 26 años, empleado bancario, consulta en el CESFAM por un cuadro de 6 meses de dolor lumbar bajo y en región glútea profunda. Refiere que las molestias se iniciaron de forma lenta e insidiosa. El dolor lo despierta habitualmente alrededor de las 04:30 AM, obligándolo a levantarse de la cama y caminar para poder aliviarlo. Al levantarse presenta una intensa rigidez de columna que dura cerca de 90 minutos y le dificulta vestirse. Conforme inicia su actividad laboral y camina, el dolor y la rigidez disminuyen notablemente; en cambio, los fines de semana, tras periodos prolongados de descanso o siesta en cama, el dolor empeora. En las últimas semanas nota dolorimiento en ambos talones al dar los primeros pasos en la mañana. No refiere traumatismos ni fiebre. Al examen físico: dolor a la palpación de ambas articulaciones sacroilíacas y a la compresión lateral de la pelvis, test de Schöber de 12 cm (basal 10 cm, normal > 15 cm) y dolor a la palpación en la inserción del tendón calcáneo bilateral. Examen neurológico de extremidades inferiores rigurosamente normal. ¿Cuál de las siguientes características clínicas descritas en este paciente es el marcador semiológico cardinal que distingue al lumbago inflamatorio de una afección mecánica?
+
+* **A)** Aparición de parestesias distales y alivio del dolor al flexionar el tronco hacia adelante.
+* **B)** Dolor nocturno en la segunda mitad de la noche que mejora con la actividad física y empeora con el reposo.
+* **C)** Inicio súbito tras esfuerzo físico y alivio completo e inmediato al acostarse en reposo horizontal en cama.
+* **D)** Irradiación radicular unilateral bajo la rodilla con exacerbación ante maniobras de Valsalva.
+* **E)** Rigidez matinal autolimitada a menos de 15 minutos que se agrava progresivamente con la marcha prolongada.
+
+---
+
+### Pregunta 65
+
+Hombre de 23 años con diabetes mellitus tipo 1 conocida ingresa a la Unidad de Paciente Crítico cursando una cetoacidosis diabética severa precipitada por la omisión involuntaria de insulina tras el extravío de su dispositivo de administración. Al ingreso se encuentra deshidratado, taquipneico con respiración profunda (FR 28 rpm), PA 92/58 mmHg y FC 116 lpm. Se inicia de inmediato expansión de volumen con Suero Fisiológico al 0.9% (1.500 mL en la primera hora). Los exámenes de laboratorio iniciales muestran: Glicemia venosa 460 mg/dL, Gases venosos con pH 7.14, Bicarbonato 9 mEq/L, pCO2 24 mmHg, Sodio plasmático 132 mEq/L, Potasio plasmático 3.1 mEq/L, Cloro 96 mEq/L y Cetonemia 5.4 mmol/L. El médico residente se dispone a indicar un bolo de Insulina Cristalina a 0.1 UI/kg seguido de infusión continua. De acuerdo con las guías de práctica clínica internacionales y normativas ministeriales de urgencia hospitalaria, ¿cuál es la conducta correcta respecto a la administración de insulina y electrolitos en este momento?
+
+* **A)** Administrar de inmediato el bolo de insulina para frenar la cetogénesis hepática y postergar el aporte de potasio hasta que orine
+* **B)** Suspender temporalmente el inicio de la insulina y administrar reposición intravenosa de Cloruro de Potasio (20 a 30 mEq/hora) hasta constatar una kalemia > 3.3 mEq/L
+* **C)** Iniciar la infusión de insulina al doble de la dosis habitual (0.2 UI/kg/h) asociada a bicarbonato de sodio isotónico en bolo
+* **D)** Mantener la insulina suspendida e indicar hemodiálisis de urgencia inmediata para remover los cetoácidos
+* **E)** Administrar una ampolla de gluconato de calcio al 10% endovenoso para estabilizar la membrana miocárdica antes de iniciar la insulina
+
+---
+
+### Pregunta 66
+
+Hombre de 52 años, chofer de locomoción colectiva, con antecedente de tabaquismo suspendido hace 5 años y pirosis retroesternal con regurgitación ácida de más de 6 años de evolución en tratamiento discontinuo con antiácidos. Consulta en el CESFAM refiriendo que en el último mes ha presentado sensación de detención retroesternal de alimentos sólidos de carácter intermitente y una baja de peso no buscada de 3 kg. No refiere hematemesis ni melena. Al examen físico: PA 128/82 mmHg, FC 74 lpm, afebril, IMC 28.5 kg/m². El examen cardiopulmonar y abdominal no revelan alteraciones. Laboratorio en APS: Hemoglobina 11.8 g/dL, VCM 76 fL (anemia microcítica incipiente). ¿Cuál es la conducta médica inicial más adecuada?
+
+* **A)** Indicar prueba terapéutica con esomeprazol 40 mg al día en ayunas por 8 semanas y reevaluar
+* **B)** Solicitar una endoscopía digestiva alta (EDA) con toma de biopsias para estudio histológico
+* **C)** Solicitar una manometría esofágica de alta resolución para evaluar la motilidad del esófago
+* **D)** Iniciar tratamiento empírico con sucralfato oral y derivar a nutricionista para dieta antirreflujo
+* **E)** Solicitar una pH-metría esofágica ambulatoria de 24 horas con impedanciometría
+
+---
+
+### Pregunta 67
+
+Una mujer de 33 años con diagnóstico de Enfermedad de Graves-Basedow severa presenta recaída sintomática tras un segundo intento de tratamiento médico con tiamazol, presentando intolerancia gastrointestinal y prurito refractario. No tiene orbitopatía activa ni planes de embarazo a corto plazo. Presenta un bocio difuso moderado de 45 gramos. Tras discusión multidisciplinaria, se programa para una tiroidectomía total electiva en 10 días. Actualmente la paciente se encuentra clínicamente eutiroidea gracias a tiamazol en dosis ajustada y propranolol. ¿Cuál es la medida farmacológica preoperatoria estándar que debe administrarse durante los 7 a 10 días previos a la intervención para reducir la vascularización de la glándula y el sangrado intraoperatorio?
+
+* **A)** Duplicar la dosis diaria de tiamazol hasta el momento de ingresar a pabellón
+* **B)** Administrar una dosis terapéutica ablativa de radioyodo I-131 7 días antes de la cirugía
+* **C)** Administrar solución oral saturada de yoduro de potasio (solución de Lugol)
+* **D)** Iniciar heparina de bajo peso molecular en dosis de anticoagulación plena
+* **E)** Suspender todos los fármacos antitiroideos 10 días antes para restablecer la fisiología tiroidea basal
+
+---
+
+### Pregunta 68
+
+Mujer de 26 años, primigesta con embarazo de 12 semanas de gestación bien tolerado, reside en una localidad rural de la Región de Coquimbo. Como parte del tamizaje prenatal obligatorio normado por el MINSAL en zonas endémicas, se le toma serología para Enfermedad de Chagas.
+El Instituto de Salud Pública (ISP) emite informe confirmatorio: 'Serología positiva para infección por Trypanosoma cruzi mediante dos técnicas inmunoenzimáticas concordantes (ELISA IgG positivo e Inmunofluorescencia Indirecta IFI reactiva 1:80)'.
+La paciente se encuentra totalmente asintomática, no presenta palpitaciones, disfagia ni constipación. Su electrocardiograma de 12 derivaciones es normal y la ecografía obstétrica confirma feto único acorde a edad gestacional con latidos cardíacos normales.
+De acuerdo con la Norma Técnica N° 162 del Ministerio de Salud para el Diagnóstico y Tratamiento de la Enfermedad de Chagas en Chile, ¿cuál es la conducta médica normativa más adecuada respecto al tratamiento antiparasitario de la madre y al seguimiento del recién nacido?
+
+* **A)** Diferir el tratamiento antiparasitario materno con Benznidazol o Nifurtimox hasta finalizar el parto y el período de lactancia materna, y realizar de inmediato al nacer un examen parasitológico directo (microhematocrito o PCR) en sangre del recién nacido
+* **B)** Iniciar tratamiento inmediato con Benznidazol oral durante el segundo trimestre para evitar la transmisión vertical transplacentaria del parásito
+* **C)** Indicar cesárea electiva obligatoria a las 38 semanas para prevenir el contagio durante el paso por el canal del parto
+* **D)** Contraindicar de forma absoluta la lactancia materna exclusiva y alimentar al neonato únicamente con fórmula de inicio
+* **E)** Solicitar serología IgG para Chagas en sangre de cordón al nacer y catalogar al recién nacido como infectado si el resultado es positivo
+
+---
+
+### Pregunta 69
+
+Hombre de 63 años, con antecedentes de tabaquismo activo con un índice de 38 paquetes-año, consulta en el CESFAM por disnea de esfuerzo progresiva que actualmente le impide caminar al mismo paso que personas de su misma edad en plano (mMRC 2), acompañada de tos crónica matinal y expectoración mucosa habitual de 2 años de evolución. Al examen físico: SatO2 93% al aire ambiente, tórax con leve aumento del diámetro anteroposterior, murmullo pulmonar disminuido bilateralmente con espiración prolongada, sin sibilancias ni crépitos. Se realiza espirometría basal y con prueba broncodilatadora (400 mcg de salbutamol inhalado), arrojando los siguientes resultados:
+- Basal: CVF 3.10 L (76% del valor predicho), VEF1 1.58 L (51% del valor predicho), relación VEF1/CVF 0.51.
+- Post-broncodilatador: CVF 3.22 L (79% del valor predicho), VEF1 1.68 L (54% del valor predicho; aumento de 100 mL y 6.3%), relación VEF1/CVF 0.52.
+¿Cuál es la interpretación funcional y el diagnóstico clínico correcto según las guías clínicas GOLD y GES?
+
+* **A)** Patrón obstructivo con limitación crónica al flujo aéreo no completamente reversible compatible con Enfermedad Pulmonar Obstructiva Crónica (EPOC), con severidad funcional moderada (GOLD 2)
+* **B)** Patrón obstructivo con respuesta broncodilatadora positiva diagnóstica de Asma Bronquial del adulto
+* **C)** Patrón restrictivo pulmonar puro con atrapamiento aéreo que exige suspender el estudio
+* **D)** Espirometría normal con respuesta fisiológica esperada para la edad
+* **E)** Patrón obstructivo muy severo (GOLD 4) con indicación inmediata de oxigenoterapia domiciliaria continua
+
+---
+
+### Pregunta 70
+
+Mujer de 28 años, previamente sana, consulta en policlínico de neurología por un cuadro de 7 semanas de evolución de caída del párpado superior izquierdo y visión doble (diplopía binocular horizontal) de carácter fluctuante. La paciente describe que al levantarse en la mañana se encuentra prácticamente asintomática, pero conforme avanza el día y realiza actividades visuales como leer o trabajar frente a la pantalla, los síntomas empeoran notablemente. En las últimas dos semanas ha notado cansancio para masticar carnes hacia el final de las comidas y debilidad leve en extremidades superiores al secarse el pelo. Al examen físico: ptosis palpebral bilateral asimétrica que empeora ostensiblemente tras mantener la mirada hacia arriba sostenida durante 60 segundos (prueba de Simpson positiva). La aplicación de una compresa fría con hielo sobre los párpados durante 2 minutos logra elevar la hendidura palpebral en 3 mm (prueba del hielo positiva). Los reflejos pupilares fotomotor directo y consensual son normales y simétricos bilateralmente. Los reflejos osteotendinosos están conservados (2/4+) y no hay alteraciones sensitivas. ¿Cuál es la combinación de estudios diagnósticos confirmatorios y de extensión anatómica más adecuada para esta paciente?
+
+* **A)** Punción lumbar con análisis de bandas oligoclonales en líquido cefalorraquídeo y resonancia magnética cerebral con gadolinio.
+* **B)** Niveles plasmáticos de creatina quinasa (CK total), anticuerpos anti-Jo-1 y biopsia muscular de cuádriceps femoral.
+* **C)** Anticuerpos anti-receptor de acetilcolina (anti-AChR), electroneumiografía con prueba de estimulación nerviosa repetitiva y tomografía computarizada (TAC) de tórax con contraste.
+* **D)** Prueba de Schirmer, anticuerpos anti-Ro/SSA y anti-La/SSB, y biopsia de glándula salival menor labial.
+* **E)** Determinación de anticuerpos antineuronales anti-Hu, anti-Yo y tomografía por emisión de positrones (PET-CT) corporal total.
+
+---
+
+### Pregunta 71
+
+Un hombre de 74 años con antecedentes de cardiopatía coronaria (infarto agudo de miocardio tratado con angioplastía y stent hace 2 años) e hipertensión arterial acude a control al CESFAM refiriendo astenia, lentitud psicomotora, piel seca y dificultad para concentrarse desde hace 4 meses. Su tratamiento habitual incluye atenolol, enalapril, ácido acetilsalicílico y atorvastatina. Al examen físico: PA 132/80 mmHg, FC 58 lpm, afebril, con leve edema blando pretibial y piel fría. Los exámenes de laboratorio revelan: TSH de 19.4 mIU/L (VN 0.4 a 4.0 mIU/L), T4 Libre de 0.52 ng/dL (VN 0.8 a 1.8 ng/dL) y anticuerpos anti-TPO fuertemente positivos. El electrocardiograma muestra ritmo sinusal, FC 58 lpm, sin signos de isquemia aguda. Su peso es de 72 kg. De acuerdo con las guías clínicas del GES N° 35 y los consensos internacionales, ¿cuál es la conducta terapéutica inicial más adecuada respecto a la administración de levotiroxina?
+
+* **A)** Iniciar levotiroxina a dosis sustitutiva completa de 1.6 mcg/kg/día (112 mcg/día) para normalizar velozmente el perfil hormonal
+* **B)** Iniciar levotiroxina a dosis baja de 25 mcg/día e ir titulando gradualmente cada 6 a 8 semanas según controles de TSH
+* **C)** Iniciar triyodotironina (T3) 20 mcg/día por tener menor vida media y permitir un control más seguro en cardiopatías
+* **D)** Contraindicar la levotiroxina por el alto riesgo de desencadenar una crisis isquémica miocárdica o fibrilación auricular
+* **E)** Iniciar levotiroxina a dosis de 75 mcg/día asociada a un incremento en la dosis de betabloqueador para prevenir taquiarritmias
+
+---
+
+### Pregunta 72
+
+Hombre de 34 años, fumador activo de 15 cigarrillos al día, consulta en el servicio de urgencia a las 03:30 AM en un estado de evidente angustia y agitación psicomotora, deambulando por el pasillo y presionándose con el puño la órbita izquierda. Refiere que desde hace dos semanas presenta episodios diarios de dolor atroz, terebrante, estrictamente unilateral en la región periorbitaria y temporal izquierda, de 45 a 60 minutos de duración, que lo despiertan habitualmente en la madrugada. Al examen físico durante el ataque se constata dolor exquisito a la palpación ocular izquierda, acompañada de inyección conjuntival marcada, lagrimeo profuso ipsilateral, congestión nasal con rinorrea acuosa izquierda, y ptosis palpebral con miosis ipsilateral leve (síndrome de Horner parcial transitorio). El ojo derecho y el resto del examen neurológico son normales. ¿Cuál es el diagnóstico más probable y el tratamiento abortivo de rescate inmediato de primera línea?
+
+* **A)** Migraña común sin aura; administrar paracetamol 1 g endovenoso asociado a metoclopramida 10 mg endovenosa.
+* **B)** Cefalea en racimos (Cluster headache o cefalea de Horton); administrar oxígeno al 100% mediante mascarilla con reservorio a 12-15 L/min durante 15 minutos asociado a Sumatriptán 6 mg por vía subcutánea.
+* **C)** Neuralgia del trigémino (rama V1); iniciar carbamazepina oral 200 mg cada 12 horas e infiltrar el nervio supraorbitario con bupivacaína.
+* **D)** Glaucoma agudo de ángulo cerrado; administrar manitol al 20% endovenoso en bolo e instilar colirio de pilocarpina al 2%.
+* **E)** Cefalea tensional episódica; indicar ketorolaco 30 mg endovenoso asociado a diazepam 5 mg por vía intramuscular.
+
+---
+
+### Pregunta 73
+
+Mujer de 74 años, con antecedentes de hipertensión arterial de larga data, diabetes mellitus tipo 2 y obesidad grado I (IMC 32 kg/m²), consulta en su CESFAM por disnea de 4 meses de evolución que ha progresado hasta presentarse al vestirse o caminar una cuadra (clase funcional III de la NYHA), asociada a necesidad de dormir con tres almohadas para no ahogarse (ortopnea) y edema vespertino de extremidades inferiores.
+Al examen físico: PA 142/86 mmHg, FC 76 lpm regular, FR 20 rpm, SatO2 94% ambiental. Destaca ingurgitación yugular visible a 45°, auscultación pulmonar con crépitos húmedos inspiratorios en ambas bases pulmonares, choque de la punta no desplazado, cuarto ruido cardíaco audible (R4) y edema maleolar bilateral simétrico con fóvea (++).
+Laboratorio: Creatinina 1.0 mg/dL, Potasio 4.4 mEq/L, NT-proBNP plasmático 1.350 pg/mL. El ecocardiograma Doppler transtorácico informa: ventrículo izquierdo con hipertrofia concéntrica moderada, fracción de eyección del ventrículo izquierdo (FEVI) estimada en 56%, aurícula izquierda dilatada (volumen indexado 42 mL/m²) y relación E/e' de 14.
+¿Cuál es el diagnóstico fenotípico más preciso y la estrategia farmacológica de primera línea recomendada para reducir hospitalizaciones y mortalidad cardiovascular según la evidencia actual?
+
+* **A)** Insuficiencia cardíaca con fracción de eyección reducida (IC-FEr); indicar cuádruple terapia con Sacubitrilo/Valsartán, Carvedilol, Espironolactona y Dapagliflozina
+* **B)** Cor pulmonale crónico aislado; indicar oxigenoterapia domiciliaria continua y teofilina oral
+* **C)** Síndrome nefrótico incipiente; solicitar proteinuria de 24 horas e iniciar prednisona oral
+* **D)** Insuficiencia cardíaca con fracción de eyección preservada (IC-FEp); indicar inhibidor de SGLT2 (Empagliflozina o Dapagliflozina) y diurético de asa para descongestión
+* **E)** Disfunción diastólica asintomática Grado I; suspender fármacos y citar a control anual
+
+---
+
+### Pregunta 74
+
+Hombre de 42 años, trabajador de la construcción, acude a la urgencia de un SAR tras sufrir un accidente laboral hace 3 horas. Mientras removía escombros y tierra húmeda mezclada con desechos orgánicos en un terreno baldío, se clavó profundamente en la palma de la mano derecha una varilla de fierro oxidada y deshilachada.
+Al examen físico: presenta una herida lacerada y punzante de 2.5 cm de profundidad en eminencia tenar derecha, con bordes desvitalizados, restos visibles de tierra negra incrustada y exudado serohemático. No tiene déficit neurológico motor distal.
+Al consultar exhaustivamente por su historial de inmunizaciones, el paciente refiere no tener controles médicos desde su infancia, no contar con carné de vacunas y tener la certeza de no haber recibido ninguna dosis de vacuna ni refuerzos contra el tétanos en su vida adulta.
+De acuerdo con la Guía Técnica Ministerial de Manejo y Profilaxis del Tétanos del Ministerio de Salud de Chile, ¿cuál es la conducta preventiva farmacológica que debe indicarse de forma perentoria tras el aseo quirúrgico y desinfección de la herida?
+
+* **A)** Administrar exclusivamente un refuerzo de Vacuna dT, omitiendo la inmunoglobulina para no interferir con la respuesta de anticuerpos activos
+* **B)** Administrar de inmediato la primera dosis de Vacuna con toxoide diftérico-tetánico (dT) MÁS Inmunoglobulina Humana Antitetánica (IGH-T 250 UI) por vía intramuscular en sitios anatómicos separados con jeringas distintas
+* **C)** Administrar exclusivamente Inmunoglobulina Humana Antitetánica (IGH-T 250 UI) sin indicar vacuna, ya que el paciente es adulto
+* **D)** Indicar únicamente profilaxis antibiótica oral con Ciprofloxacino por 10 días, sin requerir inmunobiológicos
+* **E)** Tranquilizar al paciente e indicar que la herida solo requiere curaciones locales diarias con solución salina
+
+---
+
+### Pregunta 75
+
+Hombre de 63 años con antecedente de DM2 de 6 años de evolución e infarto agudo de miocardio con elevación del segmento ST hace 3 años (revascularizado con angioplastía y stent en arteria descendente anterior). Actualmente recibe Metformina 850 mg cada 8 horas (2.550 mg/día), Atorvastatina 40 mg/día, Aspirina 100 mg/día y Carvedilol 12.5 mg cada 12 horas. Acude a control del Programa de Salud Cardiovascular asintomático. Al examen físico: PA 126/78 mmHg, FC 64 lpm, IMC 31.4 kg/m², sin edemas ni signos de congestión. Exámenes recientes: HbA1c 8.2% (meta < 7.0%), Creatinina 0.9 mg/dL (TFGe 88 mL/min/1.73m²), RAC urinaria 18 mg/g (normal). Según las guías clínicas ministeriales e internacionales (ADA / KDIGO), ¿cuál es el segundo fármaco hipoglucemiante de elección prioritaria que ha demostrado reducir eventos cardiovasculares mayores (MACE) y muerte en este perfil clínico?
+
+* **A)** Sulfonilurea de segunda generación (Glibenclamida 5 mg/día)
+* **B)** Tiazolidinediona (Pioglitazona 30 mg/día)
+* **C)** Agonista del receptor de GLP-1 con beneficio cardiovascular demostrado (ej. Semaglutida o Dulaglutida)
+* **D)** Inhibidor de la alfa-glucosidasa intestinal (Acarbosa 50 mg con las comidas)
+* **E)** Meglitinida secretagoga de acción ultracorta (Repaglinida 1 mg antes de almorzar)
+
+---
+
+### Pregunta 76
+
+Un hombre de 24 años consulta por astenia severa, ictericia conjuntival y orinas de color té oscuro (coluria/hemoglobinuria). Como antecedente relevante, hace 10 días presentó un cuadro respiratorio con tos seca, cefalea y fiebre tratado como neumonía atípica por Mycoplasma pneumoniae. En las últimas 48 horas nota que al exponerse al frío matinal presenta dolor y coloración azulada-violácea en los lóbulos de las orejas, punta nasal y pulpejos de los dedos de las manos (acrocianosis), la cual remite al calentarse. Al examen físico: PA 115/70 mmHg, FC 98 lpm, afebril, con palidez cutánea evidente, tinte ictérico escleral y leve esplenomegalia palpable a 1 cm bajo el reborde costal. Exámenes de laboratorio: Hb 7.6 g/dL, Hto 23%, VCM 102 fL, Reticulocitos 8.4% (anemia regenerativa), Leucocitos 9.800/uL, Plaquetas 220.000/uL, Bilirrubina total 4.2 mg/dL con predominio indirecto (3.5 mg/dL), LDH 1.250 UI/L y Haptoglobina sérica colapsada en < 5 mg/dL. Se solicita Test de Coombs Directo (prueba de antiglobulina directa) que resulta POSITIVO fuertemente para complemento (C3d) y NEGATIVO para IgG. ¿Cuál es el diagnóstico más probable y la conducta terapéutica inicial más adecuada?
+
+* **A)** Anemia hemolítica autoinmune por anticuerpos calientes (IgG); hospitalizar e iniciar prednisona oral a dosis de 1 a 1.5 mg/kg/día de inmediato
+* **B)** Anemia hemolítica autoinmune por crioaglutininas (anticuerpos fríos IgM); indicar protección estricta contra el frío y medidas de soporte, reconociendo que los corticoides sistémicos son ineficaces en esta entidad
+* **C)** Púrpura Trombocitopénico Trombótico; programar recambio plasmático urgente con plasma fresco congelado en UPC
+* **D)** Hemoglobinuria Paroxística Nocturna; solicitar citometría de flujo para CD55/CD59 y programar trasplante alogénico de médula ósea
+* **E)** Síndrome Urémico Hemolítico asociado a toxina Shiga; indicar diálisis peritoneal urgente y antibioterapia con ciprofloxacino
+
+---
+
+### Pregunta 77
+
+Mujer de 47 años consulta en el Servicio de Urgencias por dolor continuo y de intensidad creciente en el hipocondrio derecho de 16 horas de evolución, irradiado al dorso y región escapular derecha, acompañado de náuseas y dos episodios de vómitos biliosos. Refiere sensación febril en el domicilio. Al examen físico: PA 132/80 mmHg, FC 96 lpm, FR 20 rpm, T° 38.3 °C axilar. Escleras anictéricas. Abdomen: ruidos hidroaéreos disminuidos; palpación marcadamente dolorosa en hipocondrio derecho con interrupción brusca de la inspiración profunda a la palpación del punto cístico (signo de Murphy positivo); no se palpan masas ni hay signos de peritonitis generalizada. Laboratorio: Leucocitosis de 14.200/mm³ con 80% de baciliformes y neutrófilos, PCR 68 mg/L, Bilirrubina total 0.9 mg/dL, Amilasemia 45 U/L. Ecografía abdominal urgente: vesícula biliar distendida de 10 cm con litiasis única enclavada en el bacinete de 16 mm, engrosamiento parietal difuso de 6 mm con signo del doble contorno y líquido perivesicular laminar; colédoco de 4 mm sin imágenes litiásicas en su interior. ¿Cuál es la conducta médica y terapéutica más adecuada?
+
+* **A)** Manejo ambulatorio con ciprofloxacino oral por 7 días y derivar a interconsulta para colecistectomía electiva por GES
+* **B)** Indicación urgente de colangiopancreatografía retrógrada endoscópica (CPRE) para esfinterotomía biliar
+* **C)** Hospitalización para tratamiento antibiótico médico exclusivo y programar colecistectomía electiva diferida a las 8 semanas para enfriar el proceso inflamatorio
+* **D)** Instalación percutánea de colecistostomía transhepática urgente como procedimiento de elección de primera línea
+* **E)** Hospitalización, reposo digestivo, hidratación parenteral, analgesia, antibióticos endovenosos y colecistectomía laparoscópica precoz dentro de las primeras 72 horas
+
+---
+
+### Pregunta 78
+
+Mujer de 36 años, con antecedente de miastenia gravis diagnosticada hace un año en tratamiento irregular con piridostigmina, es traída al Servicio de Urgencias por disnea de rápida progresión en las últimas 24 horas, disfagia a líquidos y debilidad muscular generalizada. Al examen físico: vigil pero intensamente angustiada, diaforética, con voz apagada e inaudible, respiración superficial con FR 32 rpm, FC 114 lpm, PA 138/86 mmHg, SatO2 87% al aire ambiente. A la inspección dinámica se evidencia tiraje supraclavicular y disociación toracoabdominal marcada (movimiento paradójico del abdomen hacia adentro durante la inspiración). Los campos pulmonares se auscultan limpios, sin ruidos agregados. La radiografía de tórax portátil es estrictamente normal, sin condensaciones ni atelectasias. Los gases en sangre arterial respirando aire ambiental a nivel del mar muestran: pH 7.24, PaO2 53 mmHg, PaCO2 66 mmHg, HCO3 27 mEq/L. El cálculo del gradiente alvéolo-arterial de oxígeno P(A-a)O2 resulta en 12 mmHg (rango normal para su edad < 15 mmHg). ¿Cuál es la interpretación fisiopatológica del cuadro y la conducta terapéutica prioritaria?
+
+* **A)** Insuficiencia respiratoria aguda hipoxémica (Tipo 1) por efecto shunt intrapulmonar; aporte de oxígeno al 100% mediante mascarilla con reservorio
+* **B)** Crisis de angustia con hiperventilación psicógena; administración de lorazepam intramuscular y observación ambulatoria
+* **C)** Tromboembolismo pulmonar masivo con falla del ventrículo derecho; administración inmediata de trombolíticos endovenosos
+* **D)** Neumonía aspirativa incipiente; inicio de antibióticos endovenosos y oxigenoterapia por cánula nasal a 2 L/min
+* **E)** Insuficiencia respiratoria aguda hipercápnica (Tipo 2) por hipoventilación alveolar y fatiga de la bomba ventilatoria; intubación orotraqueal y conexión a ventilación mecánica invasiva inmediata
+
+---
+
+### Pregunta 79
+
+Mujer de 55 años, hospitalizada en la Unidad de Cuidados Intermedios cursando su sexto día postoperatorio de evacuación neuroquirúrgica de un hematoma subdural traumático. En las últimas 24 horas presenta un débito urinario de 5.100 mL y un balance hídrico acumulado de -3.000 mL. La paciente refiere debilidad marcada y mareos ortostáticos al intentar incorporarse. Al examen físico: en decúbito PA 116/70 mmHg con FC 78 lpm; al sentarse la PA cae a 86/52 mmHg con FC de 114 lpm (ortostatismo positivo severo). Mucosas secas, pliegue cutáneo disminuido, venas yugulares colapsadas a 30°, sin edemas. Laboratorio: Sodio plasmático 124 mEq/L (hace 48 h era 138 mEq/L), Potasio 4.1 mEq/L, Cloro 88 mEq/L, BUN 32 mg/dL, Creatinina 1.1 mg/dL, Osmolaridad plasmática 260 mOsm/kg. Exámenes en orina: Sodio urinario 92 mEq/L, Osmolaridad urinaria 490 mOsm/kg. ¿Cuál es el diagnóstico clínico más probable y la conducta médica indicada?
+
+* **A)** Síndrome de Secreción Inadecuada de Hormona Antidiurética (SIADH); indicar restricción hídrica estricta a 800 mL/día
+* **B)** Síndrome Pierde Sal Cerebral; indicar reposición volumétrica vigorosa con Suero Fisiológico al 0.9% intravenoso
+* **C)** Polidipsia primaria psicógena; restringir el consumo voluntario de agua y administrar desmopresina oral
+* **D)** Diabetes insípida central neurogénica; administrar desmopresina intranasal inmediata y restringir sal
+* **E)** Insuficiencia cardíaca congestiva descompensada; iniciar infusión continua de furosemida a altas dosis
+
+---
+
+### Pregunta 80
+
+Mujer de 24 años, sexualmente activa, sin antecedentes mórbidos, consulta en el servicio de urgencia por un cuadro de 4 días de evolución de compromiso del estado general, calofríos y fiebre de hasta 38,6 °C, acompañado de poliartralgias migratorias que afectaron inicialmente rodillas y codos. En las últimas 24 horas el dolor se concentró intensamente en la muñeca izquierda y el tobillo derecho, con aumento de volumen e imposibilidad para caminar. Al examen físico: PA 118/72 mmHg, FC 96 lpm, T° 38,4 °C. En dorso de manos, dedos y antebrazos se observan 5 lesiones cutáneas consistentes en pápulas y pústulas eritemato-hemorrágicas no dolorosas de 3 a 5 mm sobre una base necrótica violácea. En la muñeca izquierda destaca marcada tumefacción, dolor y crepitación al palpar los tendones extensores de los dedos (tenosinovitis). El tobillo derecho presenta derrame articular con calor local y dolor extremo al apoyo. Se realiza artrocentesis de tobillo derecho que da salida a líquido turbio con 44.000 leucocitos/mm³ (87% PMN), con tinción de Gram sin bacterias visibles. ¿Cuál es el diagnóstico más probable y el tratamiento antimicrobiano empírico de elección?
+
+* **A)** Infección gonocócica diseminada (artritis gonocócica); hospitalizar para Ceftriaxona 1 a 2 g/día endovenosa más Azitromicina 1 g oral en dosis única.
+* **B)** Artritis reactiva post-entérica; dar de alta con reposo y Naproxeno 500 mg cada 12 horas por vía oral.
+* **C)** Endocarditis infecciosa por Streptococcus viridans; iniciar Vancomicina 1 g cada 12 horas endovenosa en monoterapia.
+* **D)** Artritis meningocócica primaria; hospitalizar para tratamiento con Penicilina G sódica a dosis meníngeas por vía endovenosa.
+* **E)** Artritis gotosa tofácea aguda; iniciar Colchicina 1 mg oral de ataque y Alopurinol 300 mg/día.
+
+---
+
+### Pregunta 81
+
+Un hombre de 34 años, asintomático, acude a una evaluación médica ocupacional rutinaria. En su perfil bioquímico preventivo se detecta un calcio sérico de 10.9 mg/dL con albúmina de 4.0 g/dL (calcio corregido 10.9 mg/dL, VN 8.5 a 10.5) y fósforo sérico de 3.2 mg/dL. Se solicita una medición de Hormona Paratiroidea Intacta (PTHi) que resulta en 55 pg/mL (rango de referencia 15 a 65 pg/mL, valor normal pero inadecuadamente no suprimido para el nivel de calcio). Al indagar antecedentes familiares, el paciente refiere que su padre y una hermana menor presentan 'calcio levemente alto' en controles médicos desde hace años, encontrándose ambos totalmente sanos. La ecografía cervical no visualiza lesiones paratiroideas y la densitometría ósea es normal. Para precisar el diagnóstico diferencial, se solicita una orina de 24 horas que documenta una excreción fraccionada de calcio (FeCa) de 0.4% (< 0.01 o < 1%). ¿Cuál es el diagnóstico más probable y la conducta médica más adecuada?
+
+* **A)** Hiperparatiroidismo primario normohormonal por adenoma paratiroideo; programar exploración cervical quirúrgica de cuatro glándulas
+* **B)** Neoplasia Endocrina Múltiple tipo 1 (MEN-1); solicitar resonancia magnética selar y gastrinemia urgente
+* **C)** Hipercalcemia secundaria a intoxicación insidiosa por vitamina D; indicar corticoides sistémicos y dieta estricta sin calcio
+* **D)** Hipercalcemia hipocalciúrica familiar (mutación del CaSR); mantener conducta expectante y contraindicar la paratiroidectomía quirúrgica
+* **E)** Hiperparatiroidismo terciario incipiente; prescribir cinacalcet oral para normalizar la calcemia
+
+---
+
+### Pregunta 82
+
+Hombre de 79 años, hipertenso en tratamiento con Enalapril 10 mg al día, consulta en APS por disnea de esfuerzos progresiva en los últimos meses hasta clase funcional II-III y dos episodios de presíncope y mareos intensos al apurar el paso en la calle.
+Al examen físico: PA 110/80 mmHg, pulso carotídeo de baja amplitud y ascenso retardado (parvus et tardus), choque de la punta sostenido. A la auscultación destaca un soplo mesosistólico eyectivo, rudo, grado IV/VI en el segundo espacio intercostal derecho con irradiación a ambos vasos carotídeos, acompañado de un segundo ruido cardíaco único y marcadamente disminuido de intensidad (componente aórtico inaudible).
+El ecocardiograma Doppler transtorácico revela: válvula aórtica trivalva con calcificación masiva y movilidad severamente reducida, Área Valvular Aórtica (AVA) de 0.72 cm² (AVA indexada de 0.40 cm²/m²), Gradiente medio transaórtico de 49 mmHg, Velocidad pico aórtica de 4.3 m/s, y FEVI del 55%.
+¿Cuál es el diagnóstico clínico-ecocardiográfico y la conducta definitiva de elección garantizada por el régimen GES?
+
+* **A)** Estenosis aórtica moderada asintomática; titular Enalapril a dosis máximas de 40 mg al día y controlar con ecocardiograma en 1 año
+* **B)** Estenosis aórtica severa sintomática; derivar a centro cardiovascular terciario para evaluación de reemplazo valvular aórtico percutáneo (TAVI) o quirúrgico
+* **C)** Esclerosis aórtica senil benigna; mantener tratamiento habitual y tranquilizar al paciente
+* **D)** Estenosis aórtica severa; solicitar de inmediato un test de esfuerzo convencional en cinta rodante para estratificar el pronóstico funcional
+* **E)** Insuficiencia aórtica severa sintomática; programar plastía de válvula aórtica de urgencia
+
+---
+
+### Pregunta 83
+
+Mujer de 47 años con diagnóstico de esclerosis sistémica variedad cutánea difusa de 2 años de evolución, con anticuerpos anti-topoisomerasa I (anti-Scl-70) positivos en títulos altos, engrosamiento cutáneo que compromete cara, tronco y brazos proximales. Hace 3 semanas inició prednisona oral 30 mg/día prescrita en un centro de urgencias por artralgias difusas y dolor miofascial. Consulta hoy en la urgencia por cefalea occipital pulsátil intensa, náuseas, visión borrosa y disminución marcada del volumen urinario en las últimas 24 horas. Al examen físico: PA 215/120 mmHg (su presión arterial habitual era 110/70 mmHg), FC 96 lpm, afebril. Fondo de ojo con edema de papila bilateral y hemorragias en llama. Exámenes de laboratorio: creatinina plasmática 4,1 mg/dL (basal de 0,8 mg/dL hace un mes), nitrógeno ureico 68 mg/dL, frotis de sangre periférica con abundantes esquistocitos (2,8%), plaquetas 72.000/mm³, LDH 890 U/L y examen de orina con proteinuria ++ y microhematuria con cilindros granulosos. ¿Cuál es el diagnóstico más probable y el fármaco de elección para su manejo inmediato?
+
+* **A)** Glomerulonefritis lúpica proliferativa difusa; iniciar bolos de metilprednisolona 1.000 mg/día por vía endovenosa.
+* **B)** Púrpura trombocitopénica trombótica primaria; iniciar plasmaféresis de urgencia con reposición de plasma fresco congelado.
+* **C)** Síndrome urémico hemolítico atípico; indicar infusión endovenosa de eculizumab y diálisis inmediata.
+* **D)** Crisis renal esclerodérmica; iniciar de inmediato inhibidores de la enzima convertidora de angiotensina (captopril oral en dosis tituladas).
+* **E)** Hipertensión renovascular por displasia fibromuscular; programar angioplastia con stent de arteria renal y suspender todo fármaco antihipertensivo.
+
+---
+
+### Pregunta 84
+
+Una mujer de 26 años, sin antecedentes mórbidos ni uso previo de medicamentos, es traída al Servicio de Urgencias por un cuadro de 24 horas de evolución caracterizado por la aparición súbita de hematomas espontáneos en tronco y extremidades, epistaxis activa abundante que mancha la ropa y sangrado gingival espontáneo con presencia de ampollas hemorrágicas violáceas en la mucosa yugal bucal y bordes linguales ('púrpura húmedo'). Al examen físico: PA 118/74 mmHg, FC 88 lpm, lúcida, afebril. Se observan petequias confluentes en extremidades inferiores y equimosis múltiples. No se palpan adenopatías y el bazo no es palpable. Los exámenes de urgencia informan: Hb 11.8 g/dL, Leucocitos 6.900/uL con fórmula leucocitaria rigurosamente normal, Plaquetas 7.000/uL. Pruebas de coagulación: TP 12.2 segundos (INR 1.0) y TTPK 29 segundos (ambos normales). El frotis sanguíneo descarta agregados plaquetarios y esquistocitos, confirmando una trombocitopenia aislada severa con plaquetas grandes aisladas de regeneración. ¿Cuál es la conducta médica inmediata más adecuada para esta paciente?
+
+* **A)** Indicar reposo relativo en domicilio, evitar traumatismos y citar a control ambulatorio con nuevo hemograma en 7 días sin iniciar fármacos
+* **B)** Indicar transfusión de 10 unidades de concentrados de plaquetas como monoterapia exclusiva en urgencias sin administrar corticoides
+* **C)** Hospitalizar de urgencia e iniciar pulsos de corticoterapia (Dexametasona 40 mg/día por 4 días) asociados a Inmunoglobulina Endovenosa (IgEV 1 g/kg) por el alto riesgo de hemorragia grave del sistema nervioso central
+* **D)** Programar esplenectomía laparoscópica de urgencia en las primeras 24 horas de ingreso hospitalario
+* **E)** Iniciar aspirina en dosis antiagregantes bajas para mejorar la hemostasia plaquetaria residual
+
+---
+
+### Pregunta 85
+
+Hombre de 32 años, con diagnóstico de infección por VIH realizado hace 3 años con abandono voluntario de la terapia antirretroviral desde hace 18 meses, consulta en el servicio de urgencia por cefalea holocraneana progresiva, sorda y persistente de 2 semanas de evolución, que se ha intensificado notablemente en los últimos días, acompañada de náuseas, vómitos matinales recurrentes y febrícula vespertina.
+Al examen físico: paciente en enflaquecimiento evidente, somnoliento pero cooperador (Glasgow 14), afebril (37.4 °C), PA 120/75 mmHg, FC 68 lpm. No presenta rigidez de nuca marcada ni déficit neurológico motor focal. El examen de fondo de ojo demuestra borramiento nasal de bordes papilares compatible con edema de papila incipiente bilateral.
+La RMN de cerebro con gadolinio no muestra lesiones focales con efecto de masa ni abscesos, evidenciando solo discreto ensanchamiento ventricular.
+Se realiza punción lumbar con manometría: Presión de apertura marcadamente elevada en 36 cm H2O. El citoquímico del LCR revela: aspecto límpido y transparente, 140 leucocitos/mm³ con 92% de predominio mononuclear/linfocitario, Glucosa de 22 mg/dL (con glicemia simultánea de 95 mg/dL; ratio < 0.3) y Proteínas totales de 145 mg/dL. La tinción con Tinta China (examen directo) demuestra la presencia de abundantes levaduras esféricas encapsuladas con halo transparente característico.
+Recuento de CD4 solicitado de urgencia: 38 células/mm³.
+¿Cuál es el diagnóstico más probable y el tratamiento farmacológico de fase de inducción de primera línea normado por la guía GES N° 18?
+
+* **A)** Meningitis bacteriana aguda por Neumococo; indicar Ceftriaxona más Vancomicina por 14 días
+* **B)** Toxoplasmosis meníngea aguda; iniciar tratamiento con Sulfadiazina más Pirimetamina y ácido folínico por 6 semanas
+* **C)** Meningitis por Cryptococcus neoformans; iniciar fase de inducción con Anfotericina B deoxicolato (o liposomal) asociada a Flucitosina (o Fluconazol a altas dosis) por al menos 2 semanas, junto con punciones lumbares evacuadoras para control de la hipertensión endocraneana
+* **D)** Leucoencefalopatía multifocal progresiva por virus JC; iniciar de inmediato corticoterapia en bolos de Metilprednisolona
+* **E)** Neurocisticercosis quística en fase coloidal; iniciar Albendazol oral más Praziquantel por 21 días
+
+---
+
+### Pregunta 86
+
+Mujer de 54 años, con antecedente de una colecistectomía abierta y cesárea en 1990 con antecedente de transfusión sanguínea perioperatoria, consulta en el CESFAM tras realizarse un examen médico preventivo del adulto (EMPA) que detectó alteración asintomática de pruebas hepáticas: GOT 68 U/L, GPT 84 U/L (ambas levemente elevadas, VN < 35), con fosfatasas alcalinas, bilirrubina y protrombina normales. El médico del centro de salud solicitó anticuerpos contra el virus de la hepatitis C (anti-VHC), los cuales resultaron reactivos (positivos). La paciente se encuentra totalmente asintomática y el examen físico no demuestra estigmas de daño hepático crónico. ¿Cuál es la conducta médica confirmatoria y el paso a seguir de acuerdo con las Garantías Explícitas en Salud (GES) de Chile?
+
+* **A)** Iniciar tratamiento empírico inmediato con interferón alfa pegilado más ribavirina durante 48 semanas
+* **B)** Solicitar una biopsia hepática percutánea para confirmar la presencia del virus antes de solicitar pruebas moleculares
+* **C)** Tranquilizar a la paciente e informarle que el resultado solo demuestra inmunidad protectora duradera por infección resuelta
+* **D)** Indicar reposo relativo, dieta hepatoprotectora y repetir la serología anti-VHC en 6 meses
+* **E)** Solicitar la cuantificación de ARN del virus de la hepatitis C (VHC-ARN) por técnica de PCR para confirmar infección activa
+
+---
+
+### Pregunta 87
+
+Mujer de 32 años, sin antecedentes mórbidos previos, consulta por la aparición súbita en el transcurso de una semana de edema periorbitario matinal bilateral que progresó rápidamente a anasarca con edema bimaleolar blando +++ y aumento de 7 kg de peso. Refiere orinas espumosas sin hematuria visible. Al examen físico: PA 115/75 mmHg, FC 76 lpm, afebril, examen pulmonar con murmullo pulmonar conservado y abdomen con matidez desplazable compatible con ascitis leve. Exámenes de laboratorio: Creatinina 0.8 mg/dL, BUN 14 mg/dL, Albúmina sérica 1.9 g/dL, Colesterol total 460 mg/dL, Triglicéridos 380 mg/dL. Sedimento urinario: sin hematíes ni cilindros celulares, abundantes gotas lipídicas. Proteinuria cuantificada en orina de 24 horas: 11.5 gramos. Estudio inmunológico: ANA negativo, ANCA negativo, complemento C3 y C4 normales, serologías virales (VIH, VHB, VHC) negativas. Se realiza Biopsia Renal Percutánea que revela en la microscopía óptica glomérulos de estructura rigurosamente normal sin proliferación celular ni engrosamiento de membrana basal, con inmunofluorescencia totalmente negativa. ¿Cuál es el diagnóstico histológico y el tratamiento médico de primera línea indicado para esta paciente?
+
+* **A)** Nefropatía membranosa; indicar rituximab asociado a ciclofosfamida
+* **B)** Enfermedad por cambios mínimos; iniciar Prednisona oral a dosis plenas de 1 mg/kg/día
+* **C)** Glomeruloesclerosis focal y segmentaria colapsante; indicar micofenolato mofetil y hemodiálisis urgente
+* **D)** Nefropatía por depósitos de IgA; prescribir Losartán en monoterapia sin inmunosupresión
+* **E)** Amiloidosis renal primaria de cadenas ligeras; iniciar quimioterapia con bortezomib y dexametasona
+
+---
+
+### Pregunta 88
+
+Mujer de 74 años, con antecedentes de hipertensión arterial tratada con enalapril y dispepsia funcional recurrente. Es traída a la consulta médica por sus hijos debido a un cuadro de 7 semanas de evolución caracterizado por lentitud generalizada para caminar, inestabilidad de la marcha y temblor fino de ambas manos. Al revisar la historia farmacológica, se constata que hace dos meses consultó en un servicio de urgencias por náuseas y distensión gástrica, donde le indicaron metoclopramida 10 mg oral antes de las comidas, fármaco que ha seguido tomando rigurosamente 3 veces al día de forma ininterrumpida. Al examen físico: facie inexpresiva con parpadeo disminuido, marcha a pasos cortos pero sin congelamiento, temblor postural y de reposo simétrico y bilateral en extremidades superiores, y marcada rigidez muscular con signo de la rueda dentada simétrica y bilateral en ambos codos y muñecas. No presenta caídas previas, la mirada vertical está conservada y no hay signos cerebelosos ni piramidales. Mini-Mental de 29/30. ¿Cuál es el diagnóstico clínico más probable y la conducta terapéutica inicial más adecuada?
+
+* **A)** Enfermedad de Parkinson idiopática; iniciar Levodopa/Carbidopa oral manteniendo la metoclopramida para prevenir las náuseas inducidas por dopamina.
+* **B)** Parálisis Supranuclear Progresiva; indicar hospitalización urgente e iniciar bolos de corticoides endovenosos.
+* **C)** Atrofia Multisistémica; solicitar resonancia magnética cerebral e iniciar de inmediato agonistas dopaminérgicos como pramipexol a dosis plenas.
+* **D)** Temblor parkinsoniano psicógeno; derivar a psiquiatría e iniciar sertralina asociada a psicoterapia.
+* **E)** Parkinsonismo farmacológico secundario inducido por metoclopramida; suspender de inmediato la metoclopramida y reevaluar la evolución clínica en las semanas posteriores.
+
+---
+
+### Pregunta 89
+
+Hombre de 52 años, previamente sano, ingresa hospitalizado en la sala de medicina interna con diagnóstico de neumonía adquirida en la comunidad en el lóbulo inferior derecho, iniciando tratamiento con ceftriaxona 2 g EV al día. Al segundo día de hospitalización, el paciente refiere leve dolor pleurítico persistente pero la fiebre ha disminuido a 37.4 °C. La radiografía de tórax de control muestra un derrame pleural derecho laminar que ocupa el fondo de saco costofrénico posterior. Se realiza una ecografía torácica que confirma una colección líquida anecoica libre, no loculada, de 250 mL. Se realiza una toracocentesis diagnóstica obteniendo líquido pleural amarillo cetrino transparente cuyo análisis arroja:
+- pH: 7.36
+- Glucosa en líquido pleural: 84 mg/dL (Glicemia plasmática simultánea: 110 mg/dL)
+- LDH en líquido pleural: 460 U/L (LDH sérica: 230 U/L)
+- Tinción de Gram directa del líquido pleural: no se observan bacterias
+- Recuento celular: 3.200 leucocitos/mm³ con 68% de neutrófilos
+¿Cuál es la conducta médica más adecuada respecto al manejo del espacio pleural?
+
+* **A)** Instalar de inmediato una pleurostomía cerrada con tubo de drenaje torácico conectado a trampa de agua
+* **B)** Indicar instilación intrapleural de fibrinolíticos combinados (t-PA más DNAsa) a través de un catéter fino
+* **C)** Continuar el tratamiento antibiótico sistémico endovenoso y vigilar la evolución clínica y radiológica, sin necesidad de instalar tubo de drenaje pleural
+* **D)** Derivar a cirugía de tórax para videotoracoscopía (VATS) precoz con debridamiento pleural
+* **E)** Realizar toracocentesis evacuadoras repetidas diarias hasta secar completamente el espacio pleural
+
+---
+
+### Pregunta 90
+
+Mujer de 44 años, con antecedentes familiares directos de diabetes tipo 2 (madre y hermana), sedentaria y con sobrepeso (IMC 28.5 kg/m²), asintomática. En su control de medicina preventiva (EMPA) presenta una glicemia venosa de ayuno de 112 mg/dL. Siguiendo el algoritmo de APS, el médico solicita una Prueba de Tolerancia a la Glucosa Oral (PTGO con 75 g de glucosa), la cual informa: glicemia de ayuno basal de 108 mg/dL y glicemia a las 2 horas post-sobrecarga de 168 mg/dL. El examen físico es normal, sin acantosis nigricans, y la presión arterial es de 124/76 mmHg. De acuerdo con los criterios diagnósticos vigentes en Chile (MINSAL / ADA), ¿cuál es el diagnóstico y la conducta médica de primera línea indicada?
+
+* **A)** Diabetes Mellitus Tipo 2; notificar al sistema GES N° 2 e iniciar tratamiento farmacológico con metformina dentro de 24 horas
+* **B)** Intolerancia a la Glucosa Oral (Prediabetes); indicar cambios terapéuticos en el estilo de vida (dieta saludable y 150 min/semana de ejercicio aeróbico) y reevaluar en 1 año
+* **C)** Glicemia de ayuno normal con tolerancia normal; dar el alta médica definitiva del programa de salud cardiovascular
+* **D)** Resistencia a la insulina pura; solicitar curva de insulinemia y cálculo obligatorio del índice HOMA-IR antes de intervenir
+* **E)** Diabetes gestacional oculta; derivar de urgencia a gineco-obstetricia para inicio de insulinoterapia
+
+---
+
+\pagebreak
+
+# SECCIÓN II · SOLUCIONARIO OFICIAL RAZONADO & MATRIZ PERFIL V3
+
+> Cada justificación detalla la fundamentación médica de la clave correcta según guías clínicas MINSAL/GES vigentes en Chile y el análisis de descarte de cada uno de los distractores.
+
+---
+
+### Pregunta 1 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Síndrome Antifosfolípido (SAF): Criterios de Sydney, Trombosis Vascular y Manejo Obstétrico
+* **Código Perfil V3:** `1.01.1.006` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Garantía GES en Anticoagulación y Patología Reumatológica Asociada · Manejo integral especialista)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la A.
+
+Fisiopatología y Guías Clínicas: La paciente cumple estrictamente los criterios diagnósticos de Sydney para Síndrome Antifosfolípido Obstétrico: criterio clínico (≥ 3 abortos espontáneos consecutivos no explicados antes de la 10ª semana de gestación) sumado al criterio de laboratorio (anticoagulante lúpico y anticuerpos anticardiolipina IgG en títulos moderados/altos confirmados en dos determinaciones separadas por al menos 12 semanas). El estándar de tratamiento validado internacionalmente y por el Ministerio de Salud de Chile para mujeres con SAF obstétrico puro (sin eventos trombóticos previos) es la combinación de Ácido Acetilsalicílico (AAS) a dosis bajas (81-100 mg/día) iniciado previo a la concepción o apenas se confirma el embarazo, asociado a Heparina de Bajo Peso Molecular (HBPM) en dosis profiláctica (enoxaparina 40 mg/día subcutánea o dalteparina 5.000 UI/día sc). Esta combinación previene la trombosis de la microvasculatura placentaria, modula la invasión trofoblástica y ha demostrado reducir las pérdidas fetales y la preeclampsia, manteniéndose hasta el parto y prolongándose la HBPM por 6 semanas en el puerperio por alto riesgo protrombótico materno.
+
+Análisis de distractores:
+- Opción B es incorrecta: Los antagonistas de la vitamina K (acenocumarol, warfarina) atraviesan la barrera placentaria y son teratogénicos, causando la embriopatía por warfarina (hipoplasia nasal, condrodisplasia punteada, anomalías del SNC) entre las semanas 6 y 12 de gestación, además de hemorragia fetal masiva; están terminantemente contraindicados en el embarazo.
+- Opción C es incorrecta: Los corticoides sistémicos no previenen el aborto en el SAF obstétrico y aumentan el riesgo materno de diabetes gestacional, hipertensión arterial, preeclampsia e infección, y rotura prematura de membranas.
+- Opción D es incorrecta: Los anticoagulantes orales directos (DOACs como rivaroxabán o apixabán) están contraindicados durante el embarazo por toxicidad fetal y porque el ensayo clínico TRAPS demostró una tasa inaceptable de eventos trombóticos arteriales en pacientes con SAF de alto riesgo inmunológico tratados con rivaroxabán.
+- Opción E es incorrecta: El AAS en monoterapia es insuficiente en pacientes con SAF obstétrico definido con ≥ 3 abortos recurrentes, logrando tasas de éxito marcadamente inferiores que la terapia combinada con HBPM profiláctica.
+
+---
+
+### Pregunta 2 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Angina Crónica Estable & Estratificación de Riesgo Funcional
+* **Código Perfil V3:** `1.01.1.001` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Patología GES #24 (Cardiopatía Coronaria y Angina Crónica))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción A es la CORRECTA. El paciente presenta múltiples criterios de muy alto riesgo isquémico en la prueba de esfuerzo: 1) Aparición precoz de isquemia severa en la etapa 1 de Bruce (< 5 METs de carga); 2) Infradesnivel horizontal del segmento ST ≥ 2 mm en derivaciones múltiples; y 3) Respuesta tensional patológica con caída de la presión arterial sistólica durante el esfuerzo (marcador inequívoco de disfunción ventricular izquierda aguda inducida por isquemia masiva o enfermedad severa de tronco coronario izquierdo o trivascular). Estos hallazgos obligan a suspender de inmediato el test y constituyen una indicación formal de coronariografía invasiva precoz para eventual revascularización miocárdica (percutánea o quirúrgica) bajo la garantía GES de Cardiopatía Coronaria.
+
+Análisis de distractores:
+- Opción B es incorrecta: Titular el betabloqueador y esperar 3 meses es negligente ante un paciente con criterios de alto riesgo anatómico de tronco común o tres vasos, en quien el riesgo de infarto extenso o muerte súbita a corto plazo es crítico.
+- Opción C es incorrecta: Forzar la continuación de la prueba ante dolor anginoso, caída de la presión arterial y ST descendido > 2 mm viola las normas elementales de seguridad ergométrica y expone al paciente a paro cardíaco o fibrilación ventricular en la cinta.
+- Opción D es incorrecta: El Holter de ritmo evalúa arritmias ambulatorias, pero no cuantifica la anatomía coronaria ni reemplaza la coronariografía ante una prueba de esfuerzo marcadamente positiva de alto riesgo.
+- Opción E es incorrecta: Los nitratos orales son fármacos antianginosos sintomáticos que no modifican la sobrevida ni previenen el infarto de miocardio en pacientes con enfermedad coronaria de alto riesgo.
+
+---
+
+### Pregunta 3 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico
+* **Código Perfil V3:** `1.04.1.005` (Dx: **Demostrar hipercortisolismo con 2 pruebas de 1ra línea alteradas (CLU 24h, Nugent 1 mg, Cortisol salival nocturno) + ACTH plasmática** · Tx: **Según etiología: Resección transesfenoidal (Enfermedad de Cushing), Suprarrenalectomía laparoscópica (Adenoma), ketoconazol/metirapona** · Seg: **Monitoreo de cortisol post-quirúrgico y reemplazo temporal con hidrocortisona por insuficiencia suprarrenal secundaria a atrofia del eje** · GES: No GES directo. Derivación de alta prioridad a Endocrinología y Neurocirugía / Cirugía Oncológica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La paciente presenta una Enfermedad de Cushing (microadenoma hipofisario productor de ACTH), que representa el 70-80% de los casos de síndrome de Cushing endógeno. El algoritmo diagnóstico se completó rigurosamente: 1° Confirmación de hipercortisolismo autónomo con dos pruebas de primera línea concordantes (Nugent no suprime y CLU 24h marcadamente elevado); 2° Clasificación etiológica mediante ACTH plasmática que resultó detectable/elevada (ACTH-dependiente); 3° Visualización de microadenoma hipofisario en la RM de silla turca. El tratamiento de primera línea curativo, seguro y de elección indiscutida es la resección microquirúrgica transesfenoidal selectiva del adenoma hipofisario (adenomectomía transesfenoidal), la cual logra tasas de curación o remisión de 70 a 90% en manos expertas.
+
+Análisis de distractores:
+- Opción B: La suprarrenalectomía bilateral se reserva exclusivamente para casos refractarios a múltiples cirugías y terapias médicas; induce insuficiencia suprarrenal primaria definitiva y conlleva un riesgo de hasta un 25% de desarrollar el Síndrome de Nelson (crecimiento invasivo del tumor hipofisario con hiperpigmentación extrema).
+- Opción C: El ketoconazol o la metirapona son fármacos que bloquean la esteroidogénesis suprarrenal y se usan de forma puente antes de la cirugía o en enfermedad residual, pero no ofrecen curación definitiva del adenoma.
+- Opción D: La radiocirugía no es primera línea; su acción terapéutica tarda meses a años en manifestarse y tiene alto riesgo de generar panhipopituitarismo diferido.
+- Opción E: La cabergolina tiene baja efectividad en adenomas corticotropos (< 30%) y se reserva para casos seleccionados no operables o rescates compasivos.
+
+---
+
+### Pregunta 4 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector
+* **Código Perfil V3:** `1.04.1.011` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y GES Enfermedad Renal Crónica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y refleja la regla de oro del tamizaje de nefropatía diabética. La Razón Albúmina/Creatinina (RAC) en una muestra aislada de la primera orina de la mañana es la prueba de elección para el tamizaje anual de daño renal en pacientes con diabetes (se inicia al diagnóstico en DM2 y a los 5 años en DM1). Un valor entre 30 y 299 mg/g se clasifica como albuminuria moderadamente aumentada (antiguamente denominada microalbuminuria, categoría A2 de KDIGO). Sin embargo, la excreción urinaria de albúmina presenta una alta variabilidad biológica intraindividual y se eleva transitoriamente ante múltiples factores de confusión: ejercicio físico intenso o vigoroso en las últimas 24 a 48 horas, infecciones febriles, infección urinaria, actividad sexual reciente, descompensación hiperglicémica aguda, insuficiencia cardíaca descompensada o crisis hipertensiva. Por esta razón, las guías ministeriales (MINSAL) y las guías internacionales (ADA y KDIGO) establecen formalmente que el diagnóstico de albuminuria persistente EXIGE CONFIRMARSE CON AL MENOS 2 DE 3 MUESTRAS POSITIVAS (RAC ≥ 30 mg/g) obtenidas en un periodo de 3 a 6 meses, habiendo descartado los factores de confusión transitorios (como el ejercicio extenuante de 15 km de este paciente). Solo una vez confirmada la persistencia de la albuminuria se instaura la terapia nefroprotectora con IECA o ARA-II (incluso en normotensos) y un iSGLT2.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: Iniciar tratamiento farmacológico crónico con dosis altas de IECA basado en una única determinación con un factor de confusión evidente (carrera de 15 km previa) es una mala práctica clínica por riesgo de sobrediagnóstico y efectos adversos innecesarios.
+- Opción C es incorrecta: La biopsia renal está totalmente fuera de lugar; la nefropatía diabética es un diagnóstico clínico-biológico y solo se biopsia ante datos atípicos de glomerulopatía primaria (sedimento urinario activo con cilindros hemáticos, caída brusca del filtrado sin albuminuria previa o proteinuria de rango nefrótico sin retinopatía en DM1).
+- Opción D es incorrecta: La recolección de orina de 24 horas es engorrosa, sufre frecuentes errores de volumen y ha sido reemplazada universalmente por la RAC en orina matinal; el clearence de inulina es una prueba experimental en desuso clínico.
+- Opción E es incorrecta: Descartar el daño renal y no volver a controlar es imprudente, ya que un porcentaje no despreciable de pacientes diabéticos tiene albuminuria real de fondo exacerbada por el ejercicio; la conducta es repetir el examen en condiciones basales estandarizadas.
+
+---
+
+### Pregunta 5 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)
+* **Código Perfil V3:** `1.04.2.007` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES): Manejo Integral del Paciente Crítico en Cuidados Intensivos)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción D es la CORRECTA. La paciente cumple con exactitud los criterios del Consenso Sepsis-3 para definir Shock Séptico: presencia de infección documentada con disfunción orgánica aguda que cursa con hipotensión arterial refractaria a la reposición adecuada de fluidos (30 mL/kg de cristaloides) que requiere soporte con fármacos vasopresores para mantener una Presión Arterial Media (PAM) ≥ 65 mmHg Y una concentración plasmática de lactato sérico > 2.0 mmol/L (en este caso 3.8 mmol/L). En shock séptico, el fármaco vasoactivo de primera línea absoluto es la Noradrenalina en infusión continua (con titulación orientada a mantener PAM ≥ 65 mmHg). La Noradrenalina posee un potente efecto agonista alfa-1 adrenérgico que revierte la vasoplejía periférica y un efecto inotrópico beta-1 moderado, garantizando la restauración rápida de la presión de perfusión de órganos nobles.
+
+Análisis de distractores:
+- Opción A es incorrecta: No hay anemia severa ni pérdida hemática aguda; el umbral transfusional normado en sepsis es hemoglobina < 7.0 g/dL en ausencia de cardiopatía isquémica aguda.
+- Opción B es incorrecta: El aporte ciego de volumen por encima de los 30 mL/kg normados cuando el paciente ya no es respondedor retrasa el inicio del vasopresor y precipita edema pulmonar agudo, falla de ventrículo derecho y empeoramiento de la mortalidad por balance hídrico acumulado positivo.
+- Opción C es incorrecta: La Dopamina ya no es de primera línea en shock séptico; múltiples metaanálisis y ensayos clínicos demostraron que la dopamina se asocia a un riesgo significativamente más alto de arritmias cardíacas letales y a mayor mortalidad intrahospitalaria comparada con noradrenalina.
+- Opción E es incorrecta: La paciente sufre un shock vasodilatado de origen séptico urinario; administrar diuréticos de asa reduciría aún más el volumen circulante efectivo provocando colapso hemodinámico total y paro en asistolia.
+
+---
+
+### Pregunta 6 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES
+* **Código Perfil V3:** `1.10.2.001, 1.10.2.007` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES N° 37): Ataque Cerebrovascular Isquémico en personas de 15 años y más · Trombolisis IV en ventana ≤ 4.5 horas y Trombectomía Mecánica en centros de referencia)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la B.
+
+Fisiopatología y Estándar GES de Reperfusión Cerebral: El tiempo es cerebro (Time is Brain): cada minuto de oclusión arterial cerebral mueren cerca de 1,9 millones de neuronas. El paciente cursa con un infarto cerebral isquémico agudo de circulación anterior con oclusión de gran vaso (segmento proximal M1 de la ACM derecha), dentro de las primeras 4,5 horas de ventana terapéutica (2 horas de evolución), con TAC sin hemorragia, ASPECTS favorable (> 6) y sin contraindicaciones para trombolisis. El estándar de oro internacional y garantizado por el GES N° 37 en Chile para la oclusión de gran vaso en ventana < 4,5 horas es la denominada 'terapia puente' (bridging therapy): se debe iniciar de inmediato la infusión de trombolisis sistémica endovenosa (Alteplase 0,9 mg/kg o Tenecteplase 0,25 mg/kg en bolo) SIN demorar el procedimiento, y simultáneamente coordinar y trasladar al paciente a la sala de hemodinamia / angiografía para realizar trombectomía mecánica con stent retriever o aspiración directa (la cual tiene ventana hasta las 6 horas en forma estándar y hasta las 24 horas seleccionada por neuroimagen avanzada). No se debe esperar a ver si la trombolisis IV funciona para recién activar la trombectomía, ni tampoco omitir la trombolisis si no existen contraindicaciones.
+
+Análisis de distractores:
+- Opción A es incorrecta: La aspirina está terminantemente prohibida antes de la trombolisis y debe postergarse estrictamente por 24 horas tras la administración de alteplase/tenecteplase (previa confirmación con TAC de control de la ausencia de hemorragia). Dar aspirina de entrada impide la trombolisis y no recanaliza una arteria de gran calibre.
+- Opción C es incorrecta: Los ensayos clínicos aleatorizados (como DIRECT-MT, DEVT, MR CLEAN-NO IV) y las guías MINSAL/AHA confirman que los pacientes elegibles para trombolisis IV deben recibirla antes o durante la preparación de la trombectomía mecánica; omitir la trombolisis IV no demostró superioridad y puede retrasar la recanalización si hay demora en el acceso endovascular.
+- Opción D es incorrecta: La heparina no fraccionada endovenosa en fase aguda del ACV isquémico no ha demostrado mejorar el pronóstico funcional y aumenta significativamente el riesgo de hemorragia intracraneana fatal; no es un tratamiento de reperfusión.
+- Opción E es incorrecta: Esperar horas para ver la evolución del infarto es una negligencia inadmisible; la ventana de salvamento del tejido en penumbra isquémica es hiperaguda y diferir la conducta condena al paciente a hemiplejía definitiva o muerte por edema cerebral masivo.
+
+---
+
+### Pregunta 7 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica
+* **Código Perfil V3:** `1.08.2.006` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud: Urgencia Vital en Paciente Oncológico GES)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El paciente cursa una Neutropenia Febril de Alto Riesgo (RAN 55/uL < 500/uL y Temp ≥ 38.3 °C, con índice de MASCC 18 puntos < 21). Representa una emergencia médica oncológica máxima cubierta por garantías GES. La regla de la 'Hora de Oro' exige tomar 2 frascos de hemocultivos periféricos más hemocultivos de cada lumen del catéter venoso central y administrar la primera dosis de antibiótico endovenoso bactericida antipseudomónico en MENOS de 60 minutos desde el ingreso hospitalario. La monoterapia empírica con Cefepima (2 g EV cada 8 h) o Piperacilina/Tazobactam (4.5 g EV cada 6 h) es el estándar internacional. Asimismo, en todo paciente neutropénico está ESTRICTAMENTE CONTRAINDICADO realizar tacto rectal, administrar supositorios o usar termómetros rectales, debido a que el más mínimo microtrauma de la mucosa anorrectal desprovista de neutrófilos permite la translocación masiva de bacterias entéricas a la circulación, desencadenando un shock séptico fatal.
+
+Análisis de distractores:
+- Opción A: El tacto rectal está prohibido en pacientes neutropénicos por riesgo letal de bacteriemia por translocación; además, un paciente de alto riesgo (MASCC < 21) jamás puede manejarse ambulatoriamente con antibióticos orales.
+- Opción B: La vancomicina empírica solo se indica si hay shock séptico hemodinámico, flebitis/infección evidente del CVC o mucositis severa, y los antifúngicos se reservan ante fiebre persistente al 4°-7° día.
+- Opción C: Diferir los antibióticos 24 horas en neutropenia febril se asocia a una mortalidad mayor al 50% por shock séptico por bacilos gramnegativos.
+- Opción D: El G-CSF acelera la recuperación mieloide futura pero carece de efecto antimicrobiano agudo; su uso nunca reemplaza la terapia antibiótica urgente.
+
+---
+
+### Pregunta 8 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Ictericia y Colestasia: Enfrentamiento Diagnóstico
+* **Código Perfil V3:** `1.06.1.007` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES específica · la ictericia obstructiva del adulto mayor se estudia y deriva según hallazgo)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (C): El cuadro clínico de ictericia obstructiva indolora y progresiva en un adulto mayor, asociada a baja de peso, colestasia marcada, diabetes mellitus de reciente comienzo ('las 3 D') y vesícula palpable indolora en hipocondrio derecho (signo de Courvoisier-Terrier), es patognomónico de una neoplasia periampular, principalmente adenocarcinoma de cabeza de páncreas. El examen de elección ('gold standard') para el diagnóstico, la etapificación locorregional, el compromiso vascular (invasión de la arteria mesentérica superior, tronco celíaco y vena porta) y la resecabilidad quirúrgica es la Tomografía Computarizada de abdomen y pelvis con contraste y protocolo de páncreas (cortes finos en fases arterial, venosa pancreática y portal).
+
+Análisis de distractores:
+- A es incorrecta: La biopsia hepática percutánea está contraindicada en tumores periampulares potencialmente resecables por el riesgo de diseminación tumoral a lo largo del trayecto de punción, hemorragia y peritonitis biliar, además de que no entrega información de resecabilidad anatómica vascular.
+- B es incorrecta: La CPRE es un procedimiento invasivo con riesgo de pancreatitis post-CPRE (5-10%), perforación y colangitis; su rol actual es eminentemente terapéutico (instalación de endoprótesis para drenaje biliar o paliación), no de diagnóstico o etapificación inicial.
+- D es incorrecta: La ecografía doppler evalúa hipertensión portal o síndrome de Budd-Chiari, pero no tiene resolución espacial para caracterizar la masa pancreática ni definir resecabilidad oncológica.
+- E es incorrecta: La radiografía simple de abdomen carece de utilidad para el diagnóstico de tumores de la vía biliar o páncreas y solo irradia innecesariamente al paciente.
+
+---
+
+### Pregunta 9 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Síndrome Nefrótico y Complicaciones Trombóticas
+* **Código Perfil V3:** `1.09.1.022, 1.09.4.016` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Garantía GES en ERC etapa 4–5 si evoluciona a daño renal crónico)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción A es la respuesta correcta. Los pacientes con síndrome nefrótico severo con hipoalbuminemia profunda (< 2.0 a 2.5 g/dL), y en particular aquellos portadores de Nefropatía Membranosa, sufren un estado de hipercoagulabilidad adquirido grave provocado por la pérdida masiva por la orina de factores anticoagulantes endógenos de bajo peso molecular (principalmente la Antitrombina III, Proteína S y Proteína C) sumado al aumento de la síntesis hepática reactiva de fibrinógeno y procoagulantes. La Trombosis de la Vena Renal es una de sus complicaciones tromboembólicas más clásicas. Anatómicamente, la vena gonadal (espermática) izquierda drena directamente en la vena renal izquierda en ángulo de 90°. La oclusión trombótica de la luz de la vena renal izquierda interrumpe de golpe el drenaje venoso del testículo izquierdo, produciendo un varicocele izquierdo agudo patognomónico que se caracteriza por no reducirse ni colapsar con el decúbito supino. Se acompaña de dolor lumbar o en flanco, hematuria macroscópica y caída del filtrado glomerular por aumento de la presión hidrostática retrograda capilar. El método diagnóstico de confirmación no invasivo de primera línea es la Ecografía Doppler vascular renal y testicular (o angioTAC/angioRM), requiriendo inicio inmediato de anticoagulación terapéutica con heparina.
+
+Análisis de las opciones incorrectas:
+- Opción B es incorrecta: La glomeruloesclerosis focal y segmentaria colapsante puede producir rápido deterioro renal y proteinuria masiva, pero no explica anatómicamente la aparición aguda de un varicocele izquierdo no reductible ni el dolor agudo en flanco con trombosis venosa.
+- Opción C es incorrecta: La litiasis ureteral produce un dolor tipo cólico agudo paroxístico con irradiación genital, pero no genera varicocele secundario; además, la pielografía intravenosa contrastada está en desuso y formalmente contraindicada por riesgo de nefropatía por contraste en un paciente nefrótico con falla renal incipiente.
+- Opción D es incorrecta: El carcinoma urotelial se presenta típicamente en pacientes añosos fumadores con hematuria indolora monosintomática, y no guarda correlación sindromática con hipoalbuminemia nefrótica grave de 1.8 g/dL ni varicocele súbito.
+- Opción E es incorrecta: La torsión testicular es un cuadro de escroto agudo que cursa con dolor testicular insoportable, reflejo cremastérico ausente y testículo elevado y horizontalizado, no con varicocele por ectasia venosa ni falla renal concomitante.
+
+---
+
+### Pregunta 10 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner
+* **Código Perfil V3:** `1.05.1.008, 1.05.5.005` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES): Sospecha de Cáncer Pulmonar)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (D): La paciente presenta un Nódulo Pulmonar Solitario (NPS) sólido de 15 mm (> 8 mm) con múltiples factores de muy alto riesgo de malignidad: edad > 60 años, tabaquismo pesado (32 paquetes-año), localización en el lóbulo superior y características morfológicas sospechosas (bordes espiculados y retracción pleural), sin estudios previos que demuestren estabilidad. Según las directrices de la Sociedad Fleischner y las normas oncológicas chilenas (GES Sospecha Cáncer de Pulmón), los nódulos sólidos > 8 mm con riesgo intermedio a alto de malignidad deben ser derivados a especialista para estudio de actividad metabólica con PET-CT con 18-FDG (que evalúa el valor de captación estandarizada o SUV y etapifica el mediastino) seguido de biopsia guiada o resección quirúrgica diagnóstica por videotoracoscopía (VATS).
+
+Análisis de distractores:
+- A es incorrecta: Una radiografía simple en 12 meses para una lesión espiculada de 15 mm en una fumadora es una conducta peligrosa que retrasaría el diagnóstico de un cáncer pulmonar en estadio temprano resecable.
+- B es incorrecta: Los ciclos de antibióticos empíricos se reservan para nódulos subsólidos o en vidrio esmerilado con sospecha infecciosa en no fumadores; en un nódulo sólido y espiculado no tienen justificación y exponen a toxicidad.
+- C es incorrecta: La espirometría evalúa la reserva pulmonar si se planifica una resección quirúrgica (lobectomía), pero no tiene capacidad diagnóstica sobre la naturaleza benigna o maligna de un nódulo.
+- E es incorrecta: La broncoscopía rígida con lavado para cultivo tiene un rendimiento prácticamente nulo en un nódulo periférico apical de 15 mm sin clínica infecciosa ni expectoración.
+
+---
+
+### Pregunta 11 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Artritis Reumatoide: Farmacoterapia, FARME Convencionales, Biológicos y GES
+* **Código Perfil V3:** `1.10.1.001` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Artritis Reumatoide en personas de 15 años y más · Confirmación y tratamiento completo)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la C.
+
+Fisiopatología y Seguridad Biológica en Guías GES/MINSAL: El factor de necrosis tumoral alfa (TNF-α) es una citoquina clave en la formación y mantención de los granulomas que contienen a Mycobacterium tuberculosis en el organismo humano. El bloqueo farmacológico del TNF-α (con anticuerpos monoclonales como adalimumab, infliximab o receptores solubles como etanercept) induce la lisis del granuloma y aumenta dramáticamente (entre 5 y 25 veces) el riesgo de reactivación de tuberculosis latente, progresando a formas graves, extrapulmonares y diseminadas (miliar o meníngea) potencialmente mortales. Por ello, es una exigencia médico-legal y clínica obligatoria en Chile tamizar a todo paciente previo al inicio de terapias biológicas con: 1) antecedentes epidemiológicos de exposición; 2) radiografía de tórax frontal para descartar secuelas o enfermedad activa; y 3) prueba de tuberculina (PPD, considerándose positivo ≥ 5 mm en este grupo) o ensayo IGRA (QuantiFERON-TB). Si se diagnostica tuberculosis latente, se debe iniciar quimioprofilaxis con Isoniazida (300 mg/día por 9 meses o esquemas asociados) y postergar el inicio del biológico al menos un mes.
+
+Análisis de distractores:
+- Opción A es incorrecta: La biopsia de médula ósea es un procedimiento invasivo no justificado de rutina; el metotrexato requiere monitorización hematológica con hemograma seriado, no biopsia de médula.
+- Opción B es incorrecta: El ecocardiograma solo se indica si el paciente presenta insuficiencia cardíaca congestiva sintomática (donde los anti-TNF están contraindicados en clases NYHA III-IV), pero no se exige como tamizaje de rutina para pericarditis subclínica en asintomáticos cardiovasculares.
+- Opción D es incorrecta: La punción lumbar es invasiva y absurda como tamizaje en un paciente sin signos meníngeos ni focalidad neurológica; la leucoencefalopatía multifocal progresiva (LMP) es una complicación infecciosa cerebral oportunista muy rara asociada a natalizumab o rituximab, no un cuadro basal a descartar con LCR en asintomáticos.
+- Opción E es incorrecta: La disfunción tiroidea puede coexistir en pacientes con enfermedades autoinmunes, pero su búsqueda no constituye un prerrequisito obligatorio ni condiciona un riesgo vital inmediato al iniciar adalimumab.
+
+---
+
+### Pregunta 12 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Cuádruple Terapia GDMT en IC-FEr (Guía GES 2026)
+* **Código Perfil V3:** `1.01.1.006, 1.01.1.007` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Patología GES #24 (Insuficiencia Cardíaca - Garantía de Fármacos GDMT))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la CORRECTA. La transición desde un inhibidor de la enzima convertidora de angiotensina (IECA, como Enalapril) hacia un inhibidor del receptor de angiotensina-neprilisina (ARNI: Sacubitrilo/Valsartán) exige de forma mandatoria e ineludible un período de lavado libre de fármaco de al menos 36 horas tras la última toma de Enalapril. Tanto la ECA como la neprilisina participan activamente en la degradación fisiológica de la bradicinina. La inhibición simultánea o superpuesta de ambas enzimas conduce a una acumulación sinérgica masiva de bradicinina tisular, lo que precipita un cuadro de angioedema laríngeo u orofaríngeo grave, con riesgo inminente de obstrucción de la vía aérea superior y asfixia fatal. Esta es una advertencia de seguridad farmacológica fundamental evaluada sistemáticamente en el EUNACOM. Cabe destacar que esta regla de las 36 horas NO aplica cuando se cambia desde un ARA2 (como Losartán) a Sacubitrilo/Valsartán, debido a que los ARA2 no inhiben la degradación de bradicinina.
+
+Análisis de distractores:
+- Opción A es incorrecta: La administración concomitante o superpuesta de IECA y ARNI maximiza el riesgo de angioedema de la vía aérea potencialmente mortal; está formal y categóricamente contraindicada.
+- Opción C es incorrecta: Carvedilol (betabloqueador) y Espironolactona (ARM) son dos de los cuatro pilares fundamentales de la terapia médica óptima con impacto comprobado en sobrevida; suspenderlos privaría al paciente de beneficios pronósticos mayores.
+- Opción D es incorrecta: El paciente se encuentra euvolémico y compensado; cuadruplicar la dosis de diurético de asa provocaría hipovolemia, deterioro prerrenal de la función renal e hipotensión que impediría la titulación de la cuádruple terapia.
+- Opción E es incorrecta: Sacubitrilo/Valsartán se comercializa y administra exclusivamente por vía oral en dosis fija combinada (24/26 mg, 49/51 mg, 97/103 mg) en el contexto ambulatorio programado; no existe presentación parenteral endovenosa.
+
+---
+
+### Pregunta 13 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional
+* **Código Perfil V3:** `1.10.1.012` (Dx: **Específico** · Tx: **Completo** · Seg: **Realizar** · GES: Sin garantía GES directa · Diagnóstico y manejo integral ambulatorio en Atención Primaria de Salud (APS))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la A.
+
+Fisiopatología y Profilaxis de la Migraña en APS: La paciente cumple los criterios de la International Headache Society (IHS) para Migraña episódica sin aura (dolor unilateral pulsátil moderado a severo, empeoramiento con actividad física rutinaria, náuseas, fotofobia y fonofobia, crisis > 4 horas). La profilaxis farmacológica está indicada cuando los pacientes presentan ≥ 3 a 4 crisis al mes, dolor altamente discapacitante o riesgo inminente de cefalea por sobreuso de analgésicos (consumo de AINEs ≥ 15 días/mes o triptanes/ergotamínicos ≥ 10 días/mes). El betabloqueador Propranolol (en dosis inicial de 40 mg/día y titulación progresiva hasta 80-160 mg/día) es un fármaco de primera línea con grado de recomendación A en pacientes jóvenes sin contraindicaciones (como asma bronquial, bloqueo AV, bradicardia o depresión severa). Otros profilácticos validados de primera línea son el topiramato (especialmente si hay sobrepeso), amitriptilina (ideal si coexiste insomnio o cefalea tensional) o flunarizina.
+
+Análisis de distractores:
+- Opción B es incorrecta: La ergotamina es un fármaco abortivo para crisis agudas y NUNCA debe emplearse como tratamiento preventivo ni administrado diariamente; su uso diario regular provoca cefalea por sobreuso de ergotamínicos, vasoespasmo coronario e isquemia digital severa (ergotismo).
+- Opción C es incorrecta: Indicar paracetamol diario reglado agrava la cefalea por sobreuso de analgésicos y acarrea riesgo de hepatotoxicidad acumulativa, sin tener ninguna propiedad moduladora sobre la sensibilización central del sistema trigeminovascular.
+- Opción D es incorrecta: La pregabalina no es un fármaco de primera línea para profilaxis de migraña (se utiliza en dolor neuropático y fibromialgia); presenta escasa evidencia en jaqueca y asocia somnolencia, aumento de peso y mareos.
+- Opción E es incorrecta: Los corticoides orales continuos están contraindicados en el manejo crónico de la migraña debido a sus graves efectos adversos metabólicos, óseos e inmunológicos; solo se emplean pulsos ultra-breves (3 a 5 días) en el estatus migrañoso refractario de urgencias.
+
+---
+
+### Pregunta 14 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Tipos de Insulina, Farmacocinética e Indicaciones de Inicio
+* **Código Perfil V3:** `1.04.1.004, 1.04.1.009` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. La lipohipertrofia por insulina es la complicación dermatológica y farmacocinética local más común en usuarios crónicos de insulina (afecta a más del 50% de los pacientes que no rotan adecuadamente). Se debe al efecto lipogénico y anabólico local directo de la insulina concentrada sobre los adipocitos subcutáneos, favorecido por la reutilización de agujas y la inyección repetida en la misma zona anatómica. Los pacientes seleccionan estas áreas porque están hipoestésicas ("no duele el pinchazo"). Sin embargo, el tejido fibrograso hipertrofiado altera y enlentece drásticamente la absorción de la insulina: unas veces la insulina queda secuestrada en el tejido cicatrizal produciendo hiperglicemias inexplicables muy elevadas (> 300 mg/dL), y otras veces se libera en oleadas masivas e imprevistas horas después, gatillando hipoglicemias severas. La conducta obligada e inmediata es:
+1. Suspender de inmediato y de forma absoluta las inyecciones de insulina en las placas lipohipertróficas para permitir su lenta involución (que puede demorar meses).
+2. Educar en la rotación sistemática de sitios de inyección (cuadrantes abdominales no lesionados, cara anterolateral de muslos, brazos y glúteos).
+3. Advertir al paciente que al comenzar a inyectarse en tejido subcutáneo sano la absorción de insulina mejorará bruscamente, por lo que a menudo se requiere reducir preventivamente las dosis totales un 10 a 20% para evitar hipoglicemias.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: El efecto Somogyi se limita a hipoglicemia nocturna con hiperglicemia reactiva matinal al despertar; no explica la fluctuación en todas las comidas del día ni la presencia de masas nodulares subcutáneas en la pared abdominal.
+- Opción C es incorrecta: La lipodistrofia atrófica o lipoatrofia se caracteriza por hendiduras, excavaciones o pérdida de grasa (fosas en sacabocado) mediada por complejos inmunes contra insulinas bovinas o porcinas antiguas; es prácticamente inexistente con las insulinas recombinantes humanas actuales.
+- Opción D es incorrecta: No es un fenómeno de anticuerpos contra el receptor; duplicar la insulina en un paciente con lipohipertrofia es una práctica extremadamente peligrosa que provocará comas hipoglicémicos letales cuando la masa de insulina se libere a la circulación.
+- Opción E es incorrecta: La gastroparesia diabética causa desincronización entre la digestión de alimentos y la acción de la insulina prandial (saciedad precoz, náuseas, vómitos de alimentos no digeridos), pero no genera lesiones anatómicas palpables en la grasa subcutánea.
+
+---
+
+### Pregunta 15 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis
+* **Código Perfil V3:** `1.04.1.006` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantías Explícitas en Salud: Manejo Ambulatorio de Infecciones de Piel en APS)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción E es la CORRECTA. El compromiso del tejido celular subcutáneo profundo caracterizado por eritema, calor local, edema y bordes MAL DELIMITADOS Y PLANOS (a diferencia de la erisipela, que compromete la dermis superficial y presenta bordes nítidos y sobreelevados) define una Celulitis bacteriana no complicada. Los agentes causales principales son Streptococcus pyogenes y Staphylococcus aureus meticilino-sensible (SAMS). En más del 70% de las celulitis de extremidades inferiores existe una puerta de entrada micótica (tinea pedis o intertrigo interdigital) que permite la inoculación de la flora bacteriana cutánea.
+La conducta integral en APS incluye:
+1) Delimitar los márgenes del eritema con lápiz dermográfico indeleble para monitorizar objetivamente la progresión o resolución;
+2) Tratamiento antibiótico oral de primera línea con Cefadroxilo 500 mg cada 12 horas (o Cefalexina o Flucloxacilina) durante 7 a 10 días;
+3) Tratamiento simultáneo de la puerta de entrada con antimicótico tópico (Terbinafina al 1% o Clotrimazol) para evitar la recurrencia;
+4) Reposo con elevación de la extremidad.
+
+Análisis de distractores:
+- Opción A es incorrecta: La erisipela presenta bordes nítidos, elevados y bien demarcados, suele iniciar con fiebre alta y calofríos súbitos, y no requiere hospitalización ni vancomicina salvo compromiso sistémico severo o mala respuesta.
+- Opción B es incorrecta: La fascitis necrotizante es una infección rápidamente progresiva con dolor desproporcionado, signos de toxicidad sistémica grave, bulas hemorrágicas, anestesia y crepitación tisular por gas, hallazgos ausentes en el paciente.
+- Opción C es incorrecta: La tromboflebitis superficial se palpa como un cordón venoso indurado y doloroso siguiendo el trayecto anatómico de una vena superficial, no como un eritema cutáneo difuso de pierna.
+- Opción D es incorrecta: Aplicar corticoides tópicos potentes (Clobetasol) sobre una celulitis bacteriana suprime la respuesta inmune local, favoreciendo la diseminación tisular bacteriana, bacteriemia y sepsis.
+
+---
+
+### Pregunta 16 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable
+* **Código Perfil V3:** `1.06.1.008` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES · manejo completo en Atención Primaria)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (D): La paciente cumple estrictamente los Criterios de Roma IV para Síndrome de Intestino Irritable con predominio de diarrea (SII-D): dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, relacionado con la defecación y asociado a cambios en la frecuencia y consistencia de las heces, sin signos de alarma y con despistaje de enfermedad celíaca y orgánica negativo. Cuando las medidas higiénico-dietéticas (dieta baja en FODMAP) no logran controlar el dolor, los antidepresivos tricíclicos en dosis bajas (Amitriptilina 10 a 25 mg al acostarse) son los neuromoduladores centrales y periféricos de primera línea recomendados en Atención Primaria. Actúan modulando la hipersensibilidad visceral y, gracias a sus propiedades anticolinérgicas leves, enlentecen el tránsito colónico, disminuyendo la diarrea.
+
+Análisis de distractores:
+- A es incorrecta: El polietilenglicol (PEG) es un laxante osmótico de primera línea en el SII con constipación predominante (SII-C); en esta paciente con diarrea, su uso exacerbaría catastróficamente los síntomas.
+- B es incorrecta: El uso de antibióticos sistémicos como ciprofloxacino no tiene ninguna indicación en SII; altera la microbiota autóctona, predispone a colitis por C. difficile y empeora la disfunción intestinal.
+- C es incorrecta: La loperamida puede usarse como rescate situacional episódico ante eventos sociales, pero su administración fija y continua en dosis altas no alivia el dolor visceral ni el meteorismo y puede inducir constipación de rebote severa e íleo.
+- E es incorrecta: La prednisona está indicada en la Enfermedad Inflamatoria Intestinal (colitis ulcerosa o enfermedad de Crohn), no en trastornos funcionales donde no existe inflamación transmural ni de mucosa; someter a la paciente a corticoides produce efectos adversos metabólicos e inmunes graves sin beneficio clínico.
+
+---
+
+### Pregunta 17 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario
+* **Código Perfil V3:** `1.08.1.001` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: No GES directo · Programa de Salud del Adulto Mayor y APS)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El análisis de los índices eritrocitarios y reticulocitarios revela: 1) Microcitosis franca (VCM 70 fL < 80 fL) e hipocromía (HCM 22 pg < 27 pg); 2) Un Índice Reticulocitario Corregido (IRC) de 0.3% (< 2.0%), lo que clasifica la anemia como hipoproliferativa o ARREGENERATIVA (falla central o carencial en la médula ósea); 3) Trombocitosis reactiva (plaquetas 495.000/uL), hallazgo clásico acompañante del déficit crónico de hierro debido a estimulación cruzada de megacariocitos por eritropoyetina elevada. En todo varón adulto o mujer postmenopáusica con anemia ferropénica microcítica arregenerativa, la causa es una hemorragia digestiva crónica oculta (cáncer colorrectal o gástrico) hasta que se demuestre lo contrario. La conducta prioritaria es confirmar el perfil de hierro y solicitar estudio endoscópico digestivo alto y bajo completo.
+
+Análisis de distractores:
+- Opción B: Los índices son marcadamente microcíticos (VCM 70 fL) y el IRC < 2% descarta una anemia regenerativa o hemolítica periférica.
+- Opción C: El VCM bajo (70 fL) descarta de plano una macrocitosis (VCM > 100 fL) y las causas megaloblásticas.
+- Opción D: El hiperesplenismo cursa con pancytopenia (leucopenia y trombocitopenia), no con trombocitosis reactiva ni microcitosis pura con IRC bajo.
+- Opción E: La microangiopatía trombótica (PTT) cursa con trombocitopenia severa consumptiva, esquistocitos y signos de hemólisis intravascular regenerativa.
+
+---
+
+### Pregunta 18 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)
+* **Código Perfil V3:** `1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Problema de Salud GES N° 1: Enfermedad Renal Crónica Etapa 4 y 5 (Acceso garantizado a Nefrólogo, Fístula AV, Diálisis y Trasplante))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y refleja la práctica clínica rigurosa exigida por el Perfil de Conocimientos V3 y la legislación sanitaria chilena. La paciente presenta una Enfermedad Renal Crónica confirmada en estadio G3b A3 (TFGe 32 mL/min/1.73m² y RAC 450 mg/g). Los principios del manejo nefroprotector integral establecen:
+1. Seguridad con Metformina: Cuando la TFGe se sitúa entre 30 y 44 mL/min/1.73m², la metformina NO está contraindicada, pero su dosis máxima diaria debe reducirse a 1.000 mg/día (ej. 500 mg cada 12 horas) para mitigar el riesgo de acumulación y acidosis láctica (solo se suspende si TFGe < 30 mL/min).
+2. Continuar ARA-II: El Losartán es la base de la nefroprotección en pacientes con macroalbuminuria (A3), ya que dilata la arteriola eferente y frena la glomeruloesclerosis; con normokalemia (K 4.6 mEq/L) debe mantenerse firmemente.
+3. iSGLT2: Los ensayos clínicos contemporáneos (DAPA-CKD, EMPA-KIDNEY) y guías KDIGO han demostrado unánimemente que los inhibidores de SGLT2 (como Dapagliflozina 10 mg/día) frenan la progresión del daño renal y reducen la mortalidad cardiovascular en pacientes con TFGe ≥ 20 mL/min y albuminuria elevada.
+4. Normativa GES N° 1: En Chile, el Problema de Salud GES N° 1 cubre EXCLUSIVAMENTE a pacientes en Etapa 4 (TFGe 15 a 29 mL/min) y Etapa 5 (TFGe < 15 mL/min o diálisis). El estadio 3b (TFGe 30 a 59 mL/min) se maneja en el Programa de Salud Cardiovascular de Atención Primaria en red con medicina interna, por lo que NO procede la notificación GES N° 1.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: Suspender el losartán desprotege al glomérulo de la hiperfiltración capilar; además no existe criterio alguno para ingresar a diálisis peritoneal en estadio 3b con TFGe de 32 mL/min y sin uremia.
+- Opción C es incorrecta: Es un error de conocimiento de la legislación chilena; el GES N° 1 garantiza consulta por especialista en ≤ 30 días únicamente para ERC en etapas 4 y 5.
+- Opción D es incorrecta: La combinación de un IECA con un ARA-II (bloqueo dual) demostró en los ensayos ONTARGET y VA NEPHRON-D un incremento significativo de episodios de falla renal aguda e hiperkalemia severa sin beneficio clínico; está terminantemente proscrita.
+- Opción E es incorrecta: La fístula arteriovenosa autóloga se planifica y confecciona en el estadio 4 (prediálisis con TFGe < 20-25 mL/min), no en etapa 3b.
+
+---
+
+### Pregunta 19 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Enfermedad de Graves-Basedow y Síndromes Tirotóxicos
+* **Código Perfil V3:** `1.04.1.002` (Dx: **TSH suprimida (< 0.01 mIU/L), T4L/T3 elevadas, TRAb positivos (> 1.75 UI/L) y ecografía doppler con infierno tiroideo** · Tx: **Tiamazol 10-30 mg/día (o PTU en 1er trimestre), betabloqueo sintomático (propranolol/atenolol), radioyodo I-131 o tiroidectomía** · Seg: **Control T4L/T3 a las 4-6 semanas (la TSH puede permanecer suprimida meses). Monitoreo estricto de neutrófilos si fiebre o dolor faríngeo** · GES: No GES directa para hipertiroidismo primario. GES 33 para Gran Quemado/politraumatizado, derivación prioritaria a endocrinología)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El cuadro clínico corresponde a una Tiroiditis Subaguda Granulomatosa de De Quervain. Se caracteriza por antecedente de infección viral respiratoria previa, dolor cervical anterior exquisito e inflamación tiroidea dolorosa irradiada a oídos/mandíbula, elevación masiva de reactantes de fase aguda (VHS > 50-80 mm/h) y tirotoxicosis con captación de radioyodo colapsada (< 1%) en el cintigrama. La tirotoxicosis se debe a la liberación descontrolada de hormona tiroidea preformada por lisis de los folículos inflamados, y NO a una hiperfunción glandular. Por ello, los fármacos antitiroideos (tiamazol/PTU) están CONTRAINDICADOS o son completamente ineficaces puesto que la síntesis de novo ya se encuentra fisiológicamente suprimida. El tratamiento de elección son los AINEs (o prednisona 30-40 mg/día si el dolor es severo) asociados a betabloqueadores (propranolol) para controlar las manifestaciones adrenérgicas.
+
+Análisis de distractores:
+- Opción A: En la Enfermedad de Graves la glándula es indolora, puede haber soplo o frémito, orbitopatía distiroidea, y el cintigrama muestra captación alta y difusa (> 30-50%), no abolida. Tiamazol es inútil en tiroiditis destructiva.
+- Opción B: El adenoma tóxico cursa con un nódulo único hipercaptante caliente con el resto del parénquima suprimido, no con bocio doloroso difuso ni VHS muy elevada.
+- Opción D: La tiroiditis supurada bacteriana es un flemón localizado con fluctuación, fiebre alta séptica y leucocitosis marcada con desviación izquierda, extremadamente rara en adultos sin fístula del seno piriforme.
+- Opción E: La tirotoxicosis facticia presenta glándula tiroides no palpable o atrófica, tiroglobulina suprimida y ausencia de dolor o inflamación cervical.
+
+---
+
+### Pregunta 20 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Crisis Asmática en el Adulto
+* **Código Perfil V3:** `1.05.2.004` (Dx: **Específico** · Tx: **Completo** · Seg: **Inicial** · GES: Garantía Explícita en Salud (GES): Manejo de Urgencia del Asma Bronquial Moderada o Grave)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (A): La paciente cumple criterios objetivos inequívocos de Crisis Asmática Severa (grave): incapacidad de completar frases (habla entrecortada), taquicardia > 120 lpm (124 lpm), taquipnea > 30 rpm (34 rpm), uso activo de musculatura accesoria, hipoxemia (SatO2 89%) y PEF < 50% del valor teórico (38%). Según la Guía Clínica GES de Asma del Adulto y las recomendaciones GINA, el esquema de tratamiento de primera línea durante la primera hora de atención en urgencias consiste en la tríada simultánea:
+1. Oxigenoterapia por cánula nasal o mascarilla para alcanzar una meta de SatO2 entre 93% y 95%.
+2. Broncodilatadores de acción corta en dosis plenas combinados: Salbutamol (SABA) 4 a 8 puff más Bromuro de Ipratropio (SAMA) 4 puff administrados con inhalador presurizado de dosis medida (MDI) y aerocámara con válvula espaciadora cada 20 minutos durante la primera hora (3 ciclos).
+3. Corticoides sistémicos administrados dentro de la primera hora (Prednisona 40 a 50 mg vía oral o Hidrocortisona 100 a 200 mg EV si no tolera vía oral) para revertir la inflamación y restablecer la respuesta de los receptores beta-2 adrenérgicos.
+
+Análisis de distractores:
+- B es incorrecta: La aminofilina carece de beneficio adicional comprobado sobre los beta-2 agonistas, posee un estrecho margen terapéutico y alta toxicidad arrítmica y neurológica; además, la radiografía de tórax no es de rutina y no debe retrasar la administración de corticoides.
+- C es incorrecta: Los sedantes y ansiolíticos están formalmente contraindicados en las exacerbaciones asmáticas porque suprimen el centro respiratorio y precipitan falla respiratoria hipercápnica fatal.
+- D es incorrecta: El sulfato de magnesio endovenoso (2 g en infusión de 20 min) es una terapia de rescate de segunda línea para pacientes que permanecen graves o con PEF < 50% tras la primera hora de tratamiento broncodilatador pleno, nunca como monoterapia inicial.
+- E es incorrecta: La intubación orotraqueal de urgencia se reserva para pacientes con signos de paro inminente (tórax silente, coma, respiración agónica o PaCO2 normal o elevada con acidosis refractaria); en ausencia de estos criterios, se inicia el manejo médico de primera línea.
+
+---
+
+### Pregunta 21 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Hiperkalemia Grave y Algoritmo de Estabilización de Membrana
+* **Código Perfil V3:** `1.09.2.005, 1.09.4.016` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud de Urgencia Vital (Ley de Urgencias))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción A es la respuesta correcta y la directriz estricta en el algoritmo de reanimación de la hiperkalemia grave con toxicidad cardíaca. El Gluconato de Calcio al 10% actúa estabilizando la membrana de los cardiomiocitos al restaurar el gradiente entre el potencial de reposo celular y el potencial umbral eléctrico. Su efecto se inicia en 1 a 3 minutos y se prolonga por 30 a 60 minutos. Sin embargo, la regla de oro internacional de la AHA, ERC y guías de medicina de urgencias dictamina que SI A LOS 5 A 10 MINUTOS persisten las alteraciones electrocardiográficas críticas (como el ensanchamiento del QRS o la ausencia de ondas P) o reaparecen, se DEBE REPETIR DE INMEDIATO UNA SEGUNDA DOSIS de 10 mL de gluconato de calcio al 10% IV. De forma paralela y sin demora, se deben activar las medidas de redistribución celular ("shifting") mediante Insulina Rápida 10 UI + Solución Glucosada al 30% (50–100 mL) y Salbutamol nebulizado (10–20 mg), y coordinar la Hemodiálisis de Urgencia bajo amparo de la Ley de Urgencias chilena.
+
+Análisis de las opciones incorrectas:
+- Opción B es incorrecta: Las resinas de intercambio catiónico (sulfonato de poliestireno sódico) tienen un inicio de acción de 2 a 6 horas y eliminan cantidades mínimas de potasio; además están asociadas a necrosis colónica e isquemia intestinal. Están totalmente desaconsejadas en la fase de estabilización aguda de urgencia vital.
+- Opción C es incorrecta: El bicarbonato de sodio tiene una eficacia muy baja y errática para reducir la kalemia en ausencia de acidosis metabólica severa con acidemia franca (pH < 7.15); su infusión lenta en 2 horas no previene la muerte arrítmica en los próximos minutos.
+- Opción D es incorrecta: El intento de colocar un marcapasos transvenoso en un miocardio severamente intoxicado por potasio suele fracasar por falla de captura ventricular (el miocardio despolarizado tiene umbral inalcanzable), y el roce del catéter contra el endocardio puede desencadenar fibrilación ventricular intratable. Primero se debe estabilizar electroquímicamente la membrana con calcio.
+- Opción E es incorrecta: El glucagón carece de indicación en la bradiarritmia por hiperkalemia; su uso se restringe a la intoxicación por betabloqueadores.
+
+---
+
+### Pregunta 22 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Anemias Macrocíticas y Megaloblásticas: Déficit de B12 (Anemia Perniciosa/Neuropatía) vs Déficit de Folato
+* **Código Perfil V3:** `1.08.1.004` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Completo** · GES: No GES directo · Suplementación en Adulto Mayor y Cirugía Bariátrica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El cuadro clínico y neurológico es la clásica Degeneración Combinada Subaguda de la médula espinal por déficit severo de Vitamina B12 (cobalamina). La gastrectomía total suprime por completo las células parietales gástricas productoras de factor intrínseco, anulando la absorción ileal de B12; dado que los depósitos hepáticos de cobalamina duran 3 a 5 años, el cuadro debuta típicamente en este período si no hubo profilaxis. La falta de B12 altera la metilmalonil-CoA mutasa y produce acumulación de ácido metilmalónico tóxico para la mielina, causando desmielinización de los cordones posteriores (pérdida de propiocepción, vibración y ataxia sensitiva con Romberg positivo) y de las vías piramidales/corticoespinales laterales (hiperreflexia y Babinski). El hemograma confirma pancytopenia megaloblástica con pleocariocitos (neutrófilos con > 5 lóbulos). El tratamiento MANDATORIO es B12 parenteral (intramuscular) de por vida. Es una REGLA DE ORO no administrar ácido fólico solo, ya que este corrige la hematopoyesis pero precipita o agrava el daño neurológico irreversible.
+
+Análisis de distractores:
+- Opción A: El déficit de ácido fólico produce anemia megaloblástica idéntica pero NUNCA genera degeneración combinada subaguda ni daño neurológico; tratar con folato enmascara el déficit de B12 y perpetúa el daño axonal permanente.
+- Opción C: La compresión metastásica causaría un nivel sensitivo medular nítido con dolor radicular localizado y no se acompaña de macrocitosis extrema ni glositis ni neutrófilos hipersegmentados.
+- Opción D: El déficit de B6 no causa degeneración de cordones medulares ni pancytopenia macrocítica; produce anemia microcítica sideroblástica.
+- Opción E: El síndrome de Guillain-Barré cursa con parálisis flácida arrefléxica ascendente aguda (no Babinski ni hiperreflexia).
+
+---
+
+### Pregunta 23 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes
+* **Código Perfil V3:** `1.04.3.001, 1.04.3.009, 1.04.3.010` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Prevención de la Transmisión Vertical de VIH y Sífilis · Programa Nacional TBC MINSAL)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción A es la CORRECTA. Los contactos estrechos de un caso confirmado de enfermedad meningocócica invasora tienen un riesgo cientos de veces superior al basal de desarrollar la infección en los días subsiguientes debido a la colonización nasofaríngea. La quimioprofilaxis tiene como objetivo erradicar la portación del meningococo en la nasofaringe y debe administrarse lo más precozmente posible (idealmente en las primeras 24 horas tras el diagnóstico del caso índice).
+En adultos no embarazados, las opciones estándar son Rifampicina (600 mg c/12h por 2 días) o Ciprofloxacino (500 mg dosis única oral). No obstante, en la MUJER EMBARAZADA tanto la Rifampicina como las Fluoroquinolonas (Ciprofloxacino) están FORMALMENTE CONTRAINDICADAS por sus efectos teratogénicos y toxicidad en el cartílago articular fetal, respectivamente. Por consiguiente, la norma ministerial chilena y las directrices internacionales establecen que el antibiótico de primera elección indiscutido en la gestante es la Ceftriaxona en dosis única de 250 mg intramuscular, la cual logra una tasa de erradicación nasofaríngea del 97 al 100% con un perfil de seguridad materno-fetal intachable.
+
+Análisis de distractores:
+- Opción B es incorrecta: La Rifampicina atraviesa la placenta libremente y está asociada a malformaciones fetales y riesgo de hemorragia neonatal por déficit de factores de coagulación dependientes de vitamina K; está contraindicada en la gestación.
+- Opción C es incorrecta: El Ciprofloxacino (y todas las quinolonas) se encuentra contraindicado en el embarazo debido a la artropatía por daño cartilaginoso observada en animales de experimentación.
+- Opción D es incorrecta: Omitir la profilaxis en un contacto domiciliario íntimo expone a la madre y al feto a una infección meningocócica invasora con una letalidad del 15 al 30% y secuelas neurológicas o pérdida gestacional severa.
+- Opción E es incorrecta: La Penicilina G sódica cura la meningitis meningocócica pero NO erradica de forma eficaz la portación nasofaríngea de Neisseria meningitidis, por lo que no sirve como quimioprofilaxis de contactos.
+
+---
+
+### Pregunta 24 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Insuficiencia Aórtica & Estenosis Mitral Reumática
+* **Código Perfil V3:** `1.01.1.003, 1.01.1.004` (Dx: **Específico** · Tx: **Completo** · Seg: **Derivar** · GES: Patología GES #24)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción E es la CORRECTA. La paciente presenta una Fibrilación Auricular (FA) en el contexto de una valvulopatía cardíaca mayor: Estenosis Mitral Reumática moderada a severa (definición canónica de 'Fibrilación Auricular Valvular'). En esta condición, el riesgo de estasis sanguíneo auricular izquierdo, formación de trombos en la orejuela y accidente cerebrovascular cardioembólico masivo es extraordinariamente alto (hasta 17 veces superior al de la población sin valvulopatía). El tratamiento de elección indiscutido y el estándar normado de por vida son los Antagonistas de la Vitamina K (AVK: Acenocumarol o Warfarina), monitorizados periódicamente para mantener un INR terapéutico objetivo entre 2.0 y 3.0. Crucialmente, los Anticoagulantes Orales Directos (DOACs como rivaroxabán, apixabán o dabigatrán) están FORMALMENTE CONTRAINDICADOS en la estenosis mitral reumática moderada-severa. En el estudio clínico aleatorizado INVICTUS, el uso de rivaroxabán en pacientes con estenosis mitral reumática y FA se asoció a una tasa significativamente mayor de eventos cardioembólicos y a una mayor mortalidad en comparación con los antagonistas de la vitamina K.
+
+Análisis de distractores:
+- Opción A es incorrecta: Los DOACs demostraron ser inferiores a la warfarina en el ensayo clínico INVICTUS en estenosis mitral reumática, con un incremento neto de eventos trombóticos y letalidad, por lo que su indicación está formalmente contraindicada.
+- Opción B es incorrecta: La doble antiagregación con aspirina y clopidogrel es ineficaz para prevenir la formación de trombos endocavitarios por estasis en la aurícula izquierda y somete a la paciente a un riesgo hemorrágico sin beneficio tromboembólico real.
+- Opción C es incorrecta: La aspirina en monoterapia no reduce de forma significativa el riesgo de ACV en FA valvular; su indicación en lugar de la anticoagulación oral formal constituye mala praxis médica.
+- Opción D es incorrecta: Las heparinas parenterales se usan solo transitoriamente durante el inicio o puente terapéutico del acenocumarol; no son un esquema ambulatorio factible de por vida.
+
+---
+
+### Pregunta 25 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Hipocalcemia Aguda y Crónica: Diagnóstico y Manejo de Emergencia
+* **Código Perfil V3:** `1.04.1.010` (Dx: **Calcio total corregido por albúmina < 8.5 mg/dL o Calcio Iónico < 4.0 mg/dL (1.0 mmol/L) + Signos de irritabilidad neuromuscular (Trousseau / Chvostek)** · Tx: **Aguda sintomática: Gluconato de Calcio al 10% 1-2 ampollas EV en 10-20 min + infusión continua. Corregir magnesio si hipomagnesemia** · Seg: **Monitoreo cardíaco continuo (riesgo QT largo y arritmias). Monitoreo de calcemia, magnesemia y producto calcio-fósforo en tratamiento crónico** · GES: No GES directo. Garantías por patología tiroidea/oncológica previa si aplica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+En el hipoparatiroidismo definitivo posquirúrgico, la ausencia completa de PTH genera un doble defecto metabólico: 1) Cesa la estimulación paratiroidea de la enzima 1-alfa-hidroxilasa en los túbulos renales proximales, impidiendo la conversión de la 25-hidroxivitamina D en su metabolito activo, el Calcitriol (1,25-dihidroxivitamina D); y 2) Se pierde la reabsorción tubular distal de calcio. Dado que la absorción intestinal de calcio depende de la presencia de calcitriol activo en los enterocitos, la administración de calcio oral en monoterapia o de colecalciferol nativo no se absorbe eficientemente. Por lo tanto, el pilar farmacológico obligatorio del manejo crónico del hipoparatiroidismo es asociar Carbonato de Calcio con Calcitriol oral (0.25 a 1.0 mcg/día). El objetivo es mantener la calcemia en el límite bajo-normal (8.0 a 8.5 mg/dL) para evitar síntomas de hipocalcemia y prevenir la hipercalciuria con nefrocalcinosis.
+
+Análisis de distractores:
+- Opción A: El calcio intramuscular está formalmente contraindicado por el riesgo de necrosis tisular grave y formación de abscesos estériles.
+- Opción B: La absorción de calcio no depende de la levotiroxina sino de la vitamina D activa (calcitriol) en el enterocito duodenal.
+- Opción C: El cinacalcet es un calcimimético que suprime la secreción de PTH en hiperparatiroidismo primario o secundario a falla renal; en hipoparatiroidismo empeoraría drásticamente la hipocalcemia.
+- Opción D: La aldosterona regula el sodio y potasio, no la homeostasis fosfocálcica.
+
+---
+
+### Pregunta 26 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras
+* **Código Perfil V3:** `1.10.1.006` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES N° 59): Enfermedad de Parkinson · Diagnóstico, canasta farmacológica (Levodopa/Carbidopa, Pramipexol) y seguimiento)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la C.
+
+Fisiopatología y Diagnóstico según Criterios MDS / GES: El paciente presenta el cuadro cardinal completo de la Enfermedad de Parkinson (EP) idiopática: presencia obligatoria de bradicinesia (disminución progresiva de la velocidad y amplitud del movimiento voluntario repetitivo, objetivado en el finger tapping), asociada a temblor de reposo asimétrico de baja frecuencia (4-6 Hz, en 'cuenta monedas', que atenúa con la acción) y rigidez en 'rueda dentada' asimétrica. Además, asocia los clásicos síntomas premotores no dopaminérgicos que preceden al debut motor por años (hiposmia, constipación grave y trastorno conductual del sueño REM por degeneración temprana de los núcleos del tronco encefálico según la estadificación de Braak). En pacientes mayores de 65 a 70 años, el tratamiento de inicio indiscutido y de mayor potencia para restaurar la función motora es la Levodopa combinada con un inhibidor periférico de la dopa-decarboxilasa (Carbidopa o Benserazida), la cual está plenamente garantizada en la canasta GES N° 59 en Chile.
+
+Análisis de distractores:
+- Opción A es incorrecta: El temblor esencial es un temblor de acción postural o cinético, típicamente bilateral y simétrico desde el inicio, que no se acompaña de bradicinesia, hipomimia ni rigidez en rueda dentada, y suele mejorar con alcohol y empeorar con la intención.
+- Opción B es incorrecta: El paciente no consume bloqueadores dopaminérgicos. El biperideno es un anticolinérgico que está terminantemente contraindicado en adultos mayores de 65-70 años por el altísimo riesgo de desencadenar deterioro cognitivo grave, delirium, retención aguda de orina y glaucoma de ángulo estrecho.
+- Opción D es incorrecta: La Parálisis Supranuclear Progresiva (PSP) cursa con parálisis de la mirada vertical hacia abajo y caídas precoces tempranas hacia atrás en el primer año, hallazgos ausentes en este paciente; además, el haloperidol bloquea receptores D2 y causaría un empeoramiento extrapyramidal catastrófico.
+- Opción E es incorrecta: La Demencia por Cuerpos de Lewy exige un deterioro cognitivo precoz y fluctuante que antecede o coincide con el parkinsonismo dentro del primer año, con alucinaciones visuales vívidas recurrentes. La risperidona está contraindicada por causar una sensibilidad extrema a neurolépticos con riesgo vital.
+
+---
+
+### Pregunta 27 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori
+* **Código Perfil V3:** `1.06.1.030` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica · Norma MINSAL de dispepsia y erradicación de H. pylori)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (D): En Chile, dada la elevada incidencia y mortalidad por cáncer gástrico, toda Úlcera Gástrica exige la realización obligatoria de una Endoscopía Digestiva Alta de control con toma de biopsias de los bordes y del lecho a las 6 a 8 semanas tras finalizar el tratamiento médico. Hasta un 5% de las lesiones ulceradas gástricas catalogadas inicialmente como benignas corresponden a carcinomas gástricos incipientes o avanzados ulcerados, los cuales pueden cicatrizar de manera parcial o transitoria y quedar asintomáticos con el uso de IBP. Por el contrario, la úlcera duodenal no presenta riesgo de malignización y no requiere endoscopía de control si el paciente se encuentra asintomático.
+
+Análisis de distractores:
+- A es incorrecta: Dar de alta al paciente solo por estar asintomático sin control endoscópico de una úlcera gástrica es una falta grave que puede retrasar el diagnóstico oportuno de un cáncer gástrico curable.
+- B es incorrecta: La serología IgG para H. pylori permanece positiva durante meses o años después de una erradicación exitosa ('cicatriz serológica'); no distingue entre infección activa y curada, por lo que carece de utilidad para certificar erradicación.
+- C es incorrecta: Mantener IBP a permanencia sin control endoscópico enmascara los síntomas de una eventual neoplasia gástrica subyacente y genera falsos diagnósticos de benignidad.
+- E es incorrecta: La segunda línea de erradicación se reserva para fallas documentadas mediante test de aliento o antígeno en deposiciones (al menos 4 semanas después de suspender antibióticos y 2 semanas sin IBP); no tiene indicación empírica en un paciente asintomático.
+
+---
+
+### Pregunta 28 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY
+* **Código Perfil V3:** `1.04.1.001` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. La paciente presenta una Diabetes Monogénica del Joven tipo MODY 2 (Maturity-Onset Diabetes of the Young tipo 2), causada por una mutación heterocigota con pérdida de función en el gen de la Glucoquinasa (GCK). La glucoquinasa actúa fisiológicamente como el "sensor de glucosa" de las células beta del páncreas. La mutación desplaza el punto de ajuste ("set-point") de la secreción de insulina hacia cifras más altas de glicemia, de modo que el páncreas regula la homeostasis en un umbral de ayuno ligeramente más elevado (glicemias de ayuno casi invariablemente entre 100 y 145 mg/dL presentes desde el nacimiento y de por vida, con HbA1c entre 5.8% y 6.8%). Las claves clínicas diagnósticas distintivas son:
+1. Patrón autosómico dominante estricto en delgados (madre y abuelo materno con la misma hiperglicemia leve).
+2. Excursión postprandial mínima en la PTGO: a las 2 horas la glicemia se eleva muy poco (< 30-50 mg/dL respecto a la basal, habitualmente resultando < 140 mg/dL, como los 136 mg/dL de esta paciente).
+3. Ausencia absoluta de complicaciones microvasculares o macrovasculares a lo largo de la vida.
+4. Falta de respuesta e inutilidad de los fármacos hipoglucemiantes orales y de la insulina.
+La conducta médica oficial es evitar el sobrediagnóstico, NO prescribir fármacos hipoglucemiantes orales ni insulina (salvo vigilancia obstétrica si el feto no hereda la mutación) y asegurar a la paciente que no progresará a falla beta ni sufrirá daño orgánico.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: La diabetes LADA es autoinmune (anti-GAD65 positivos), debuta típicamente con pérdida de peso rápida e hiperglicemia franca descompensada progresiva (> 200 mg/dL) que culmina en déficit absoluto de insulina; la paciente es asintomática con anti-GAD negativos.
+- Opción C es incorrecta: La DM2 cursa con resistencia a la insulina, sobrepeso/obesidad, acantosis nigricans y descompensación postprandial franca en la PTGO; etiquetar a esta paciente como DM2 e iniciar metformina no modifica su set-point de glucoquinasa y es un error terapéutico.
+- Opción D es incorrecta: El MODY 3 (por mutación en el factor nuclear HNF-1alfa) debuta en adolescentes o adultos jóvenes con glucosuria desproporcionada a glicemias normales/bajas (bajo umbral renal) e hiperglicemia postprandial progresiva que sí causa complicaciones microvasculares y responde de manera exquisita a dosis bajas de sulfonilureas; no cursa con la hiperglicemia de ayuno leve y estable característica de MODY 2.
+- Opción E es incorrecta: La glicemia a las 2 horas de la PTGO fue 136 mg/dL, lo cual es normal (< 140 mg/dL); no tiene intolerancia a la glucosa y la pioglitazona no tiene ningún rol.
+
+---
+
+### Pregunta 29 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial
+* **Código Perfil V3:** `1.05.1.007, 1.05.1.025, 1.05.1.038` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES): Cáncer de Pulmón en Personas de 15 años y más)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (D): La tétrada semiológica clásica compuesta por: 1) Edema en esclavina (edema facial, cervical y supraclavicular bilateral), 2) Plétora y cianosis facial que empeoran al inclinarse hacia adelante, 3) Ingurgitación yugular bilateral fija no pulsátil sin colapso inspiratorio, y 4) Circulación venosa colateral visible en la pared torácica anterior superior, configura de manera patognomónica un Síndrome de Vena Cava Superior (SVCS). En el 70 a 80 % de los casos en adultos, el SVCS es originado por una neoplasia maligna intratorácica, siendo el Cáncer Pulmonar Broncogénico (especialmente el carcinoma de células pequeñas o microcítico y el carcinoma epidermoide por su localización perihiliar central y compromiso ganglionar mediastínico) la causa más común por amplio margen. Constituye una urgencia oncológica (garantizada por GES Cáncer de Pulmón) que requiere confirmación histológica rápida, elevación de cabecera, corticoides endovenosos en altas dosis (dexametasona) y quimioterapia, radioterapia urgente o instalación de stent endovascular según el tipo histológico.
+
+Análisis de distractores:
+- A es incorrecta: La insuficiencia cardíaca derecha cursa con edema gravitacional en extremidades inferiores, hepatomegalia congestiva, reflujo hepatoyugular e ingurgitación yugular pulsátil; no genera edema en esclavina ni circulación colateral torácica fija.
+- B es incorrecta: El síndrome nefrótico produce anasarca difusa con proteinuria masiva e hipoalbuminemia, afectando predominantemente tobillos y zonas dependientes, no una obstrucción venosa localizada en el territorio de la vena cava superior.
+- C es incorrecta: El bocio endotorácico puede provocar compresión mecánica mediastínica (signo de Pemberton), pero es una etiología mucho menos frecuente y benigna; la masa de 6.5 cm con infiltración vascular en un gran fumador es francamente tumoral.
+- E es incorrecta: La trombosis venosa profunda iliofemoral compromete el retorno venoso de los miembros inferiores y la vena cava inferior; no tiene relación anatómica con la circulación de la vena cava superior.
+
+---
+
+### Pregunta 30 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu
+* **Código Perfil V3:** `1.09.1.008` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES directa · Urgencia médica oftalmológica y reumatológica de derivación terciaria inmediata)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la C.
+
+Fisiopatología y Urgencia Médica: La paciente presenta un cuadro clínico paradigmático de Arteritis de Células Gigantes (Arteritis de la Temporal), evidenciado por: edad > 50 años, cefalea temporal nueva y refractaria, engrosamiento con dolor del trayecto de la arteria temporal, claudicación mandibular (el síntoma más específico de esta vasculitis, > 90% de especificidad) y reactantes de fase aguda marcadamente elevados (VHS > 50-90 mm/h). Los episodios de amaurosis fugaz son un signo de alarma roja inminente de Neuropatía Óptica Isquémica Anterior Arterítica (NOIAA) por oclusión trombótica inflamatoria de las arterias ciliares posteriores cortas. La NOIAA provoca ceguera irreversible en horas y en un alto porcentaje compromete el ojo contralateral si no se trata de forma urgente. Ante cualquier síntoma visual en sospecha de arteritis temporal, el tratamiento obligatorio de rescate son los bolos de Metilprednisolona endovenosa a dosis altas (500 a 1.000 mg/día durante 3 días), continuados por prednisona oral 1 mg/kg/día. Jamás debe posponerse la corticoterapia a la espera de la biopsia o ecografía Doppler, ya que el infiltrado histológico transmural persiste analizable hasta por 2 a 4 semanas tras el inicio de los esteroides.
+
+Análisis de distractores:
+- Opción A es incorrecta: Es el error fatal clásico en EUNACOM. Suspender o retrasar los corticoides a la espera de la biopsia condena al paciente a una pérdida visual permanente e irreversible que no se recupera una vez instalada.
+- Opción B es incorrecta: Si bien la amaurosis fugaz ocurre en patología carotídea aterosclerótica, la presencia de cefalea temporal, engrosamiento arterial local, claudicación mandibular y VHS > 90 mm/h confirman una arteritis temporal; dar solo aspirina sin corticoides conducirá a ceguera.
+- Opción D es incorrecta: La dosis de 10 mg/día de prednisona es una dosis baja utilizada en polimialgia reumática pura sin arteritis temporal. Ante compromiso de arteritis craneal y más aún con amenaza visual, se requieren dosis plenas endovenosas (bolos de 500-1.000 mg/día) o al menos 1 mg/kg/día oral de prednisona si no hay síntomas visuales.
+- Opción E es incorrecta: La neuralgia del trigémino se caracteriza por descargas paroxísticas lancinantes de segundos de duración desencadenadas por estímulos sensitivos cutáneos superficiales en ramas V2-V3, sin engrosamiento arterial, sin claudicación mandibular por isquemia maseterina y con reactantes de fase aguda normales.
+
+---
+
+### Pregunta 31 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis
+* **Código Perfil V3:** `1.04.1.005` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. El paciente presenta un Efecto Somogyi clásico (hiperglicemia de rebote post-hipoglicemia). La fisiopatología se explica porque la dosis de insulina NPH nocturna (18 UI a las 22:30 hrs) es excesiva y alcanza su pico de acción máximo entre las 03:00 y las 05:00 de la madrugada, coincidiendo con el nadir circadiano y provocando una hipoglicemia nocturna sintomática o inadvertida (documentada en 48 y 52 mg/dL a las 03:00 AM, acompañada de cefalea matinal y sudoración nocturna). Esta hipoglicemia desencadena una potente respuesta contrarreguladora fisiológica mediada por la secreción masiva de catecolaminas, glucagón, cortisol y hormona de crecimiento, lo que estimula una intensa gluconeogénesis y glucogenólisis hepática que rebota en una hiperglicemia matinal severa (240 a 290 mg/dL al despertar). La única forma clínica de diferenciar el Efecto Somogyi del Fenómeno del Alba (hiperglicemia matinal por aumento fisiológico de GH y cortisol pero con glicemia de las 03:00 AM normal o alta > 100 mg/dL) es la medición de la glicemia capilar nocturna a las 03:00 AM. Al constatarse hipoglicemia (< 70 mg/dL), la conducta médica obligatoria y salvadora es REDUCIR la dosis de insulina basal nocturna en 2 a 4 UI (o un 10 a 20%, bajando a 14-16 UI) y/o ajustar una pequeña colación antes de dormir. Si el médico aumentara la insulina creyendo que se trata de falta de dosis, profundizará la hipoglicemia nocturna con riesgo de coma, daño neurológico anóxico o muerte súbita nocturna.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: El Fenómeno del Alba cursa con glicemias a las 03:00 AM normales o elevadas (> 100 mg/dL); indicar un aumento de la insulina nocturna a un paciente con glicemia de 48 mg/dL a las 03:00 AM es una negligencia médica con riesgo de muerte en la cama.
+- Opción C es incorrecta: Administrar un bolo de insulina ultrarrápida (Lispro) a las 03:00 AM en un paciente que ya se encuentra en hipoglicemia severa (48 mg/dL) desencadenaría un coma hipoglicémico irreversible.
+- Opción D es incorrecta: Concentrar toda la dosis de insulina NPH en la mañana (34 UI) deja al paciente con DM1 completamente desprovisto de insulina basal durante la noche, provocando cetosis nocturna e hiperglicemia sostenida.
+- Opción E es incorrecta: No se trata de un exceso de comida, pues el paciente presenta hipoglicemia real documentada en la madrugada que demuestra sobredosis relativa de insulina basal.
+
+---
+
+### Pregunta 32 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Paro Cardiorrespiratorio & Algoritmos ACLS / MINSAL
+* **Código Perfil V3:** `1.01.2.006, 1.01.3.002, 1.01.3.004` (Dx: **Específico** · Tx: **Completo** · Seg: **Derivar** · GES: Garantía Explícita en Salud (Atención de Urgencia Vital Inmediata))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción A es la CORRECTA. En el algoritmo universal de Soporte Vital Cardiovascular Avanzado (ACLS) adoptado por el MINSAL para Paro Cardiorrespiratorio en ritmos desfibrilables (Fibrilación Ventricular / Taquicardia Ventricular sin pulso):
+1) Tras la 1ª descarga: RCP continua de 2 minutos;
+2) Tras la 2ª descarga: se administra el primer vasopresor (Adrenalina 1 mg EV, la cual se repite cada 3 a 5 minutos);
+3) Tras la 3ª descarga (ritmo desfibrilable refractario): está formalmente indicada la administración del fármaco antiarrítmico de primera elección. El antiarrítmico de referencia es la Amiodarona en bolo endovenoso rápido de 300 mg (diluida en 20-30 mL de suero fisiológico o glucosado al 5%), con una segunda dosis de 150 mg si la FV/TVsp persiste tras la siguiente descarga. La alternativa terapéutica equivalente normada por guías actuales es la Lidocaína (dosis inicial de 1.0 a 1.5 mg/kg EV).
+
+Análisis de distractores:
+- Opción B es incorrecta: El uso rutinario de bicarbonato de sodio en la reanimación cardiopulmonar no ha demostrado beneficio y está desaconsejado; puede generar acidosis intracelular paradójica, hipernatremia e hipocalcemia. Solo se indica ante paro por hiperkalemia severa previa o sobredosis de antidepresivos tricíclicos.
+- Opción C es incorrecta: La adrenalina se administra cada 3 a 5 minutos (es decir, habitualmente ciclo de por medio). Habiéndose administrado tras la segunda descarga hace apenas dos minutos, adelantar una nueva dosis en este ciclo no corresponde y aumenta la vasoconstricción y el consumo miocárdico de oxígeno innecesariamente.
+- Opción D es incorrecta: El sulfato de magnesio está indicado exclusivamente cuando el ritmo de paro corresponde a Torsades de Pointes (taquicardia ventricular polimórfica en entorchamiento asociada a intervalo QT prolongado) o hipomagnesemia documentada; carece de utilidad en la FV idiopática o coronaria común.
+- Opción E es incorrecta: El gluconato de calcio no es un antiarrítmico de rutina para la fibrilación ventricular; se restringe a situaciones de hiperpotasemia extrema, hipocalcemia severa o sobredosis de bloqueadores del canal de calcio.
+
+---
+
+### Pregunta 33 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)
+* **Código Perfil V3:** `1.04.1.014` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 18): Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción C es la CORRECTA. En Chile, según la Guía Clínica GES N° 18 del MINSAL, la política pública y el consenso científico internacional consagran el "Tratamiento Antirretroviral Universal Inmediato": TODO paciente con diagnóstico de infección por VIH confirmado por el Instituto de Salud Pública (ISP) debe iniciar Terapia Antirretroviral (TARV) a la brevedad posible, con independencia estricta de su recuento de linfocitos CD4 o de su nivel de carga viral plasmática. Los ensayos clínicos START y TEMPRANO demostraron de forma incontrovertible que el inicio precoz reduce la mortalidad global, previene el desarrollo de enfermedades oportunistas definitorias de SIDA, frena el daño inflamatorio crónico sistémico endotelial y detiene por completo la transmisión sexual ("Indetectable = Intransmisible").
+El esquema ministerial preferente de primera línea en Chile para adultos no embarazados es la coformulación en comprimido único al día de dos inhibidores de la transcriptasa reversa nucleósidos asociados a un inhibidor de la transferencia de hebras de la integrasa (INSTI): Tenofovir disoproxil fumarato + Lamivudina + Dolutegravir (TDF/3TC/DTG). Este esquema destaca por su altísima tasa de supresión virológica rápida, excelente tolerancia y muy alta barrera genética a la resistencia.
+
+Análisis de distractores:
+- Opción A es incorrecta: La antigua práctica de retrasar el tratamiento hasta que los CD4 bajaran de 500 o 350 células/mm³ es completamente obsoleta; esperar perpetúa el deterioro inmune y aumenta la letalidad a largo plazo.
+- Opción B es incorrecta: La profilaxis primaria con Cotrimoxazol solo se prescribe cuando los CD4 son inferiores a 200 células/mm³ (o en estadio clínico B/C con muguet oral); con 580 CD4/mm³ no tiene ninguna indicación.
+- Opción D es incorrecta: La monoterapia en VIH está formalmente proscrita por generar resistencia viral masiva en pocas semanas; además, la Zidovudina induce toxicidad hematológica severa (anemia macrocítica y neutropenia).
+- Opción E es incorrecta: El Efavirenz fue retirado de la primera línea debido a su alta tasa de eventos neuropsiquiátricos (insomnio, depresión, ideación suicida) y menor barrera genética que Dolutegravir; además, asociar Efavirenz con Lopinavir/r genera interacciones metabólicas complejas e innecesarias.
+
+---
+
+### Pregunta 34 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Síndrome de Guillain-Barré: Polirradiculoneuropatía Aguda, Albúmino-citológico y Manejo Intensivo
+* **Código Perfil V3:** `1.10.2.013` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES directa · Emergencia neurológica con riesgo de falla ventilatoria aguda; hospitalización inmediata en UCI bajo Ley de Urgencia)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la A.
+
+Fisiopatología y Manejo Intensivo de Urgencia: El paciente presenta un Síndrome de Guillain-Barré (polirradiculoneuropatía desmielinizante inflamatoria aguda - AIDP), gatillado clásicamente por mimetismo molecular post-infeccioso tras una gastroenteritis por Campylobacter jejuni. El sello semiológico obligatorio en el examen físico es la debilidad motora simétrica rápidamente ascendente con arreflexia osteotendinosa universal (0/4+). El compromiso bulbar (diplejía facial, disfagia) y el deterioro de la mecánica ventilatoria (capacidad vital forzada < 20 mL/kg o conteo espiratorio simple < 15-20) indican riesgo inminente de falla respiratoria neuromuscular y parada cardiorrespiratoria por disautonomía (taquicardia, labilidad tensional). La conducta inmediata obligatoria es la hospitalización en Unidad de Cuidados Intensivos (UCI) para monitorización estricta de parámetros ventilatorios (regla 20/30/40) e inicio de terapia inmunomoduladora: Inmunoglobulina Humana Endovenosa (IGEV, 0,4 g/kg/día por 5 días) o Plasmaféresis (4 a 5 recambios), ambas con idéntica eficacia. Regla de Oro EUNACOM: Los corticoides sistémicos (orales o endovenosos) NO tienen ninguna eficacia demostrada en el SGB, no aceleran la recuperación e incluso pueden retrasar la regeneración axonal, por lo que están formalmente desaconsejados/contraindicados. Asimismo, en caso de intubación, la Succinilcolina está contraindicada por riesgo de hiperkalemia masiva letal secundaria a denervación aguda.
+
+Análisis de distractores:
+- Opción B es incorrecta: La metilprednisolona o corticoides sistémicos no son útiles en el SGB y hospitalizar a un paciente con FVC < 20 mL/kg en sala básica pone en riesgo su vida ante la inminencia de paro respiratorio no monitorizado.
+- Opción C es incorrecta: La piridostigmina es el tratamiento sintomático de la miastenia gravis (defecto postsináptico de la placa motora), no tiene efecto en neuropatías desmielinizantes inflamatorias periféricas, y el manejo ambulatorio es letal.
+- Opción D es incorrecta: El SGB es una enfermedad autoinmune post-infecciosa; el antibiótico no trata la neuropatía activa, y la IGEV es el tratamiento de elección, no una contraindicación.
+- Opción E es incorrecta: Dar de alta al paciente y proscribir la intubación cuando presenta insuficiencia ventilatoria neuromuscular inminente constituye una mala praxis médica grave.
+
+---
+
+### Pregunta 35 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Diarrea Aguda y Crónica en el Niño
+* **Código Perfil V3:** `1.06.2.005` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica · Norma MINSAL de manejo de la diarrea aguda del lactante)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (B): El paciente presenta una diarrea aguda severamente deshidratada con Signos Clínicos de Shock Hipovolémico: pérdida de peso > 10% (12.3%), compromiso cuantitativo de conciencia (somnoliento, hipoactivo), ojos profundamente hundidos, signo del pliegue > 2 segundos, pulsos débiles, llenado capilar prolongado (4 segundos), taquicardia severa e hipotensión arterial franca. Esto define la indicación ineludible del Plan C de Rehidratación de la OMS y MINSAL: acceso vascular de urgencia (endovenoso o intraóseo si no se canaliza en 90 segundos) e infusión rápida de cristaloides isotónicos (Suero Fisiológico 0.9% o Ringer Lactato) a 20 mL/kg en bolo en 15 a 30 minutos, reevaluando de inmediato signos vitales y perfusión.
+
+Análisis de distractores:
+- A es incorrecta: El Plan B (sales de rehidratación oral por boca o sonda nasogástrica) está estrictamente contraindicado en presencia de shock hipovolémico, somnolencia, íleo paralítico o vómitos incoercibles por el riesgo de broncoaspiración y la incapacidad de expandir rápidamente el lecho vascular.
+- C es incorrecta: La loperamida y los antieméticos (como metoclopramida) están formalmente contraindicados en pediatría por riesgo de íleo paralítico, depresión del sistema nervioso central y reacciones extrapiramidales.
+- D es incorrecta: El suero glucosado al 5% es una solución hipotónica que no expande el espacio intravascular; administrarlo en bolo para reanimar un shock hipovolémico provoca hiponatremia dilucional aguda y edema cerebral.
+- E es incorrecta: La diarrea aguda acuosa del lactante es mayoritariamente viral (rotavirus, norovirus) y no requiere antibióticos. Además, priorizar cultivos o antibióticos en un paciente en shock antes de la expansión de volumen intravascular es un error fatal.
+
+---
+
+### Pregunta 36 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica
+* **Código Perfil V3:** `1.09.2.007, 1.09.2.008, 1.09.4.016` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica · Cobertura AUGE de Urgencia en Encefalopatía Hiponatrémica Aguda Grave)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. La paciente presenta una Encefalopatía Hiponatrémica Grave Sintomática con convulsión reciente y compromiso severo de conciencia (Glasgow 9, sodio sérico 114 mEq/L). Esta condición representa una emergencia neurológica con riesgo inminente de edema cerebral masivo, hipertensión endocraneana y enclavamiento amigdalino letal. Las guías internacionales de hiponatremia (Consenso Europeo y Americano) y los protocolos chilenos de medicina de urgencia establecen que la medida de rescate mandatoria de primera línea es la administración de un bolo intravenoso de 100 a 150 mL de Suero Salino Hipertónico al 3% (NaCl 3%) infundido en 20 minutos, el cual puede repetirse una o dos veces si persisten los síntomas neurológicos graves. La meta terapéutica inmediata es elevar el sodio plasmático entre 4 y 6 mEq/L en las primeras 2 a 4 horas, lo cual es fisiológicamente suficiente para reducir el volumen cerebral entre un 5 y 10% y abortar el riesgo de herniación. Para prevenir el Síndrome de Desmielinización Osmótica (Mielinolisis Pontina Central), la velocidad total de corrección NO debe superar los 8 a 10 mEq/L en 24 horas ni los 18 mEq/L en 48 horas (y un máximo de 6 a 8 mEq/L/día en pacientes ancianas o desnutridas).
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: El suero fisiológico al 0.9% es ineficaz o incluso perjudicial cuando coexiste secreción inadecuada de ADH inducida por ISRS (el riñón retiene el agua libre y excreta la sal concentrada, empeorando la natremia). Además, fijar como objetivo normalizar el sodio (> 135 mEq/L) en apenas 12 horas violaría gravemente los límites de seguridad osmótica, provocando desmielinización osmótica irreversible.
+- Opción C es incorrecta: La restricción hídrica aislada es una medida apropiada para hiponatremias crónicas leves o asintomáticas euvolémicas, pero es inaceptablemente lenta (tarda 48-72 h en surtir efecto) y mortalmente insuficiente ante una paciente con convulsiones activas y encefalopatía hiponatrémica aguda.
+- Opción D es incorrecta: La administración de furosemida asociada a suero glucosado al 5% aporta agua libre y depleta sodio y potasio, profundizando la hipotonía plasmática y el edema cerebral.
+- Opción E es incorrecta: El manitol induce deshidratación celular inespecífica y diuresis osmótica que arrastra electrolitos, careciendo de la capacidad de aportar sodio hipertónico intravascular; además desciende transitoriamente la natremia plasmática por desplazamiento osmótico, agravando la hiponatremia.
+
+---
+
+### Pregunta 37 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Artritis Reumatoide: Fisiopatología, Criterios ACR/EULAR 2010 y Manifestaciones Extraarticulares
+* **Código Perfil V3:** `1.05.1.002` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Artritis Reumatoide en personas de 15 años y más · Confirmación y tratamiento completo)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la B.
+
+Fisiopatología y Criterios Diagnósticos: La afección pleural es la manifestación extraarticular pulmonar más frecuente de la artritis reumatoide (AR), presentándose predominantemente en pacientes con enfermedad seropositiva de larga data, títulos elevados de factor reumatoide/anti-CCP y presencia de nódulos reumatoides subcutáneos. El líquido pleural reumatoide presenta una tríada patognomónica muy característica: 1) es un exudado con LDH marcadamente elevada (a menudo > 1.000 U/L); 2) pH ácido (< 7,20); y 3) niveles de glucosa extremadamente bajos, frecuentemente inferiores a 30 mg/dL o incluso indetectables (< 15-20 mg/dL), secundario a un bloqueo selectivo en el transporte activo de glucosa a través de la membrana pleural intensamente engrosada e inflamada por tejido sinovial semejante al pannus, sumado al consumo celular aumentado.
+
+Análisis de distractores:
+- Opción A es incorrecta: La tuberculosis pleural cursa típicamente con niveles de ADA marcadamente elevados (> 40 U/L) y predominio linfocítico, pero la glucosa pleural rara vez desciende por debajo de 30 mg/dL (suele estar entre 60 y 90 mg/dL). El ADA de 18 U/L descarta con alto valor predictivo negativo la etiología tuberculosa.
+- Opción C es incorrecta: Aunque el empiema cursa con pH bajo y glucosa consumida por bacterias, se caracteriza por un líquido purulento franco, con leucocitosis masiva (> 50.000 células/mm³) a predominio marcadamente polimorfonuclear (> 90%), y suele presentar tinción de Gram positiva o cuadro séptico evidente con fiebre alta y condensación lobar previa.
+- Opción D es incorrecta: El derrame neoplásico típicamente no consume la glucosa a niveles tan extremos (salvo en estadios agónicos con carga tumoral masiva) y la citología exfoliativa demostraría células malignas atípicas.
+- Opción E es incorrecta: La insuficiencia cardíaca produce un trasudato (criterios de Light negativos: proteínas < 3 g/dL, relación pleura/suero < 0,5, LDH < 200 U/L) con pH y glucosa estrictamente normales e idénticos a los niveles plasmáticos.
+
+---
+
+### Pregunta 38 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Derrame Pleural: Diagnóstico Diferencial y Criterios de Light
+* **Código Perfil V3:** `1.05.1.010` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: No GES)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (B): Aplicando rigurosamente los Criterios de Light:
+1. Relación Proteínas LP / Suero: 5.2 / 6.8 = 0.76 (es > 0.5) -> Criterio cumplido.
+2. Relación LDH LP / Suero: 440 / 210 = 2.10 (es > 0.6) -> Criterio cumplido.
+3. LDH en LP (440 U/L) es superior a 2/3 del límite superior normal del suero (2/3 de 200 = 133 U/L) -> Criterio cumplido.
+Basta un solo criterio para definir un EXUDADO (aquí se cumplen los tres). Al analizar las características celulares y bioquímicas secundarias, se aprecia un exudado con marcada linfocitosis relativa (86 % de linfocitos) y una elevación notable de Adenosina Deaminasa (ADA = 62 U/L, corte diagnóstico > 35–40 U/L). En un paciente joven con clínica subaguda de baja de peso, sudoración nocturna y febrícula, este perfil tiene una sensibilidad y especificidad superiores al 90 % para Pleuresía Tuberculosa. Un punto clave de examen es que la baciloscopía directa del líquido pleural tiene una sensibilidad inferior al 10–20 %, por lo que su resultado negativo jamás descarta tuberculosis pleural.
+
+Análisis de distractores:
+- A y D son incorrectas: Los trasudados presentan relación de proteínas ≤ 0.5 y LDH ≤ 0.6; la insuficiencia cardíaca y el síndrome nefrótico generan trasudados con baja celularidad y ADA normal.
+- C es incorrecta: El empiema agudo es turbio o purulento, con predominio masivo de polimorfonucleares (> 80–90 %), pH ácido (< 7.20), glucosa muy disminuida (< 40 mg/dL) y LDH > 1.000 U/L.
+- E es incorrecta: El mesotelioma es típico de adultos mayores con antecedente laboral de exposición a asbesto, el líquido suele ser serohemático y no se asocia a ADA elevado ni a presentación subaguda en un joven de 31 años.
+
+---
+
+### Pregunta 39 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante
+* **Código Perfil V3:** `1.08.1.009` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES N° 37 y N° 8): Leucemias en personas de 15 años y más / Menores de 15 años)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El cuadro corresponde a una Leucemia Promielocítica Aguda (LPA o subtipo M3 de la FAB), caracterizada por la translocación t(15;17)(q22;q21) que genera el gen quimérico PML-RARA. La presencia de blastos promielocíticos con múltiples Bastones de Auer en manojo ('células de Faggot') es morfológicamente patognomónica. La LPA es la mayor urgencia médica en hematología debido a que los promielocitos neoplásicos liberan factores tisulares y anexina II, desencadenando una Coagulación Intravascular Diseminada (CID) fulminante con hiperfibrinolisis y colapso de fibrinógeno, con alta mortalidad precoz (10-20%) por hemorragia del sistema nervioso central o pulmonar. El tratamiento debe iniciarse de forma INMEDIATA ante la sospecha morfológica sin esperar la confirmación molecular, administrando Ácido Todo-Trans-Retinoico (ATRA o tretinoína oral, 45 mg/m2/día) asociado a soporte agresivo con plaquetas y crioprecipitados (para mantener fibrinógeno > 150 mg/dL). El ATRA induce la diferenciación de los promielocitos a granulocitos maduros, deteniendo la liberación procoagulante y revirtiendo la coagulopatía en 48-72 horas, alcanzando tasas de curación superiores al 90% en la era actual (garantizada en Chile por GES N° 37).
+
+Análisis de distractores:
+- Opción A: El ácido tranexámico en monoterapia está contraindicado en la fase activa de la CID por riesgo de trombosis microvascular masiva fatal.
+- Opción B: La heparina está proscrita en LPA con trombocitopenia profunda (< 20.000/uL) por riesgo inminente de exanguinación o sangrado intracraneano.
+- Opción C: La quimioterapia citotóxica aislada provoca lisis masiva de blastos con liberación abrupta de gránulos procoagulantes, empeorando la CID y provocando la muerte por hemorragia.
+- Opción E: Demorar el inicio de ATRA a la espera de la citogenética o dar corticoides aislados constituye una negligencia grave, ya que el riesgo de muerte hemorrágica es máximo en las primeras 48 horas.
+
+---
+
+### Pregunta 40 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria
+* **Código Perfil V3:** `1.04.1.006` (Dx: **Cortisol plasmático matinal (< 3 mcg/dL confirma; 3-15 requiere test de ACTH/Synacthen). ACTH elevada confirma primaria (Addison); ACTH baja orienta a secundaria** · Tx: **Reemplazo con Hidrocortisona (15-25 mg/día en 2-3 tomas) + Fludrocortisona (0.05-0.1 mg/día SOLO en primaria/Addison). Educar ajuste por estrés** · Seg: **Monitoreo clínico (peso, PA de pie/sentado, energía), electrolitos plasmáticos y renina plasmática. NUNCA guiar dosis con cortisol plasmático** · GES: No GES directo. Garantía en Ley Ricarte Soto para bombas o fármacos especializados si aplica, derivación prioritaria)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+En los pacientes con Enfermedad de Addison (insuficiencia suprarrenal primaria), la glándula suprarrenal es incapaz de responder al estrés fisiológico aumentando la secreción de cortisol. Ante cualquier evento de estrés agudo intercurrente como fiebre (> 38 °C), infecciones bacterianas, traumatismos o procedimientos médicos, es mandatorio aplicar las 'reglas de días de enfermedad' ('sick-day rules'): duplicar o triplicar la dosis oral diaria de hidrocortisona (ej. 40 a 60 mg/día divididos en 3 tomas) hasta que la fiebre y el cuadro agudo hayan remitido por completo (generalmente 48 a 72 horas). Si la paciente no tolera la vía oral por vómitos o diarrea, debe acudir inmediatamente a un servicio de urgencias para recibir hidrocortisona parenteral (100 mg EV o IM) con suero salino al 0.9% para prevenir una crisis addisoniana con shock hemodinámico letal.
+
+Análisis de distractores:
+- Opción A: Suspender la hidrocortisona es un error catastrófico y potencialmente mortal; la paciente caería en colapso cardiovascular y shock addisoniano refractario en cuestión de horas.
+- Opción B: En situaciones de estrés no se ajusta la fludrocortisona; las dosis elevadas de hidrocortisona ya aportan una actividad mineralocorticoide cruzada suficiente para mantener la volemia.
+- Opción C: Mantener la dosis basal durante una infección febril desencadena una crisis suprarrenal aguda; además, el cortisol plasmático carece de utilidad para monitorizar el tratamiento sustitutivo.
+- Opción E: La dexametasona en megadosis carece de actividad mineralocorticoide y es un tratamiento transitorio en emergencias extremas, nunca un reemplazo ambulatorio permanente.
+
+---
+
+### Pregunta 41 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Abdomen Agudo: Apendicitis y Diverticulitis
+* **Código Perfil V3:** `1.06.2.001` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES específica · urgencia quirúrgica según Norma MINSAL)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (A): El paciente presenta una evolución subaguda (5 días) con una masa inflamatoria palpable en fosa ilíaca derecha sin peritonitis generalizada, confirmándose en la TAC un Plastrón Apendicular (o flemón apendicular). En el plastrón apendicular, el intento de apendicectomía quirúrgica de urgencia (abierta o laparoscópica) se asocia a una morbimortalidad extremadamente alta: los tejidos inflamados están friables y fusionados, provocando desgarros ileales, fístulas cecales y la necesidad de una hemicolectomía derecha de urgencia no planificada. El estándar de manejo internacional y de la Sociedad de Cirujanos de Chile es el tratamiento médico conservador: hospitalización, reposo intestinal, hidratación y antibioticoterapia parenteral de amplio espectro (ej. Ceftriaxona + Metronidazol). Tras enfriarse el cuadro con éxito, se programa una apendicectomía diferida de intervalo (a las 8–12 semanas) o estudio de colon en adultos mayores.
+
+Análisis de distractores:
+- B y C son incorrectas: La cirugía inmediata (abierta o laparoscópica) en presencia de un plastrón establecido sin peritonitis difusa es un error técnico que expone al paciente a resecciones intestinales extensas y fístulas estercoráceas.
+- D es incorrecta: El drenaje percutáneo guiado por imágenes está indicado en los abscesos apendiculares coleccionados y licuados (generalmente > 3 a 4 cm de diámetro), pero es inútil y peligroso en un flemón inflamatorio sólido sin líquido drenable.
+- E es incorrecta: El alta domiciliaria en un cuadro infeccioso intraabdominal activo es inaceptable, y la colonoscopía está absolutamente contraindicada por riesgo inminente de perforación cecal iatrogénica.
+
+---
+
+### Pregunta 42 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Leucemias Crónicas: Leucemia Mieloide Crónica (LMC, BCR-ABL) vs Leucemia Linfática Crónica (LLC)
+* **Código Perfil V3:** `1.08.1.010` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES N° 37): Leucemia en personas de 15 años y más (LMC))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El paciente presenta una Leucemia Linfática Crónica (LLC), la leucemia más frecuente en adultos mayores en el mundo occidental. El diagnóstico se establece formalmente por la concurrencia de: 1) Linfocitosis clonal persistente ≥ 5.000/uL de células maduras; 2) Sombras de Gümprecht (células en cesta o restos nucleares de linfocitos frágiles rotos durante la extensión del frotis); 3) Citometría de flujo característica que coexpresa marcadores de línea B (CD19, CD20 débil, CD23) junto al antígeno T aberrante CD5. Según la clasificación pronóstica de Binet, el paciente se encuentra en Estadio A (< 3 áreas ganglionares comprometidas, sin anemia [Hb ≥ 10 g/dL] ni trombocitopenia [plaquetas ≥ 100.000/uL]). Múltiples ensayos clínicos aleatorizados han demostrado categóricamente que en el estadio Binet A asintomático, iniciar tratamiento con quimioterapia o agentes dirigidos NO prolonga la sobrevida global y solo añade toxicidad e infecciones oportunistas. La conducta estándar obligatoria es la observación clínica y hematológica periódica ('Watch and Wait'), reservando el tratamiento activo solo ante progresión a estadios B/C o aparición de síntomas B constitucionales o tiempo de duplicación linfocitaria acelerado (< 6 meses).
+
+Análisis de distractores:
+- Opción B: El esquema FCR o inhibidores de BTK/Bcl-2 se reservan exclusivamente para estadios avanzados sintomáticos con falla medular (Binet C) o gran masa tumoral compresiva (Binet B sintomático).
+- Opción C: La Leucemia Mieloide Crónica cursa con leucocitosis de la serie granulocítica (mielocitos, metamielocitos, neutrófilos, basofilia) y presencia de la translocación BCR-ABL1 t(9;22), no con proliferación clonal de linfocitos B maduros.
+- Opción D: El linfoma de Hodgkin presenta adenopatías mediastínicas/cervicales progresivas con células gigantes de Reed-Sternberg en biopsia histológica ganglionar, no linfocitosis periférica monoclonal aislada.
+- Opción E: La LLA es una enfermedad aguda de blastos inmaduros (> 20%), que cursa con pancitopenia grave, sangrados y rápido deterioro general en cuestión de días o semanas.
+
+---
+
+### Pregunta 43 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Monoartritis Aguda: Enfrentamiento Clínico y Estudio de Líquido Sinovial
+* **Código Perfil V3:** `1.04.2.007` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sospecha y confirmación de urgencia · Derivación prioritaria si sospecha séptica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la D.
+
+Fisiopatología y Estándar de Oro Clínico: Toda monoartritis aguda con signos inflamatorios y fiebre debe considerarse una artritis séptica hasta demostrar lo contrario. La artritis séptica es una verdadera urgencia médica y traumatológica, ya que las enzimas proteolíticas bacterianas y leucocitarias pueden destruir de forma irreversible el cartílago articular en menos de 24 a 48 horas. La regla de oro inaplazable es realizar una artrocentesis diagnóstica urgente previa al inicio de cualquier antibiótico o antiinflamatorio, con el fin de obtener líquido sinovial para: 1) recuento celular y citoquímico (líquido séptico: > 50.000 leucocitos/mm³ con > 90% PMN y glucosa < 50% de la plasmática); 2) tinción de Gram y cultivos bacterianos (estándar para guiar terapia antimicrobiana dirigida); y 3) microscopía óptica con luz polarizada para pesquisar microcristales (urato monosódico o pirofosfato cálcico). La administración previa de antibióticos esteriliza el cultivo en un alto porcentaje y dificulta el diagnóstico definitivo.
+
+Análisis de distractores:
+- Opción A es incorrecta: El ácido úrico plasmático durante una crisis gotosa aguda puede encontrarse normal o incluso bajo en hasta un 30-40% de los pacientes por excreción urinaria facilitada por el estrés inflamatorio; además, diferir la punción en un paciente febril con derrame articular a tensión arriesga destrucción articular irreversible si se trata de un cuadro séptico. Asimismo, los AINEs potentes como ketorolaco están contraindicados de entrada en enfermedad renal crónica.
+- Opción B es incorrecta: Indicar antibióticos antes de la artrocentesis disminuye drásticamente el rendimiento diagnóstico del Gram y cultivo de líquido sinovial. Además, la artritis séptica requiere hospitalización inmediata para eventual drenaje articular quirúrgico (artrotomía o artroscopía) y nunca manejo ambulatorio.
+- Opción C es incorrecta: La infiltración intraarticular con corticoides está terminantemente contraindicada ante la sospecha de artritis séptica, dado que la inmunosupresión local masiva aceleraría la replicación bacteriana, sepsis y destrucción articular catastrófica.
+- Opción E es incorrecta: La resonancia magnética no es el examen de primera línea en la urgencia para monoartritis aguda y solo retrasaría la artrocentesis diagnóstica y el drenaje articular urgente.
+
+---
+
+### Pregunta 44 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65
+* **Código Perfil V3:** `1.05.1.027` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Neumonía Adquirida en la Comunidad de Manejo Ambulatorio en Personas de 65 años y más)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (C): Calculemos minuciosamente el puntaje de gravedad CURB-65:
+- C (Confusión mental): No (vigil, orientado, Glasgow 15) = 0 puntos.
+- U (Urea/BUN): BUN 24 mg/dL (> 19 mg/dL o Urea > 42 mg/dL) = +1 punto.
+- R (Frecuencia respiratoria): FR 32 rpm (≥ 30 rpm) = +1 punto.
+- B (Presión arterial): PA 118/72 mmHg (PAS ≥ 90 y PAD > 60) = 0 puntos.
+- 65 (Edad ≥ 65 años): 56 años (< 65) = 0 puntos.
+Total CURB-65 = 2 puntos.
+Según las directrices de la Sociedad Británica del Tórax (BTS) y la Sociedad Chilena de Enfermedades Respiratorias (SER), un CURB-65 de 2 puntos representa una gravedad moderada con una mortalidad cercana al 9 %, lo que define la necesidad indiscutible de hospitalización en sala de cuidados básicos/medicina interna para monitorización de parámetros vitales e inicio de antibioticoterapia parenteral (ej. Ceftriaxona 1 a 2 g EV al día).
+
+Análisis de distractores:
+- A es incorrecta: El paciente tiene 2 puntos, no 1; manejarlo de forma ambulatoria aumenta significativamente el riesgo de falla ventilatoria y muerte.
+- B es incorrecta: El paciente no tiene 4 puntos ni cumple criterios de UCI (los criterios mayores de ATS/IDSA para UCI directa son ventilación mecánica invasiva o shock séptico refractario con vasopresores; este paciente no está en shock ni en falla respiratoria extrema).
+- D es incorrecta: El puntaje de 0 es matemáticamente erróneo; omitir antibióticos en una condensación alveolar bacteriana confirmada es una negligencia grave.
+- E es incorrecta: El puntaje no es 3, y la hospitalización domiciliaria sin monitorización médica directa no es segura para un paciente con taquipnea marcada y elevación de azoados.
+
+---
+
+### Pregunta 45 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria
+* **Código Perfil V3:** `1.04.1.013` (Dx: **RM de Silla Turca con gadolinio + Campo visual computarizado + Evaluación hormonal completa de todos los ejes hipofisarios** · Tx: **Compresión quiasmática o tumores no funcionantes grandes: Cirugía transesfenoidal. Apoplejía: Hidrocortisona EV inmediata +/- descompresión urgente** · Seg: **RM de control anual, campimetría periódica y seguimiento hormonal para pesquisar hipopituitarismo diferido postquirúrgico** · GES: No GES directo. Garantías por patología neurológica o neuroquirúrgica prioritaria)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El diagnóstico es un Macroprolactinoma con compromiso visual por compresión quiasmática (prolactina > 200-500 ng/mL y masa selar > 10 mm). El Macroprolactinoma es la ÚNICA masa selar con compresión quiasmática cuyo tratamiento de primera línea es MÉDICO y no quirúrgico. Los agonistas dopaminérgicos de los receptores D2 (siendo la Cabergolina el fármaco de elección por su alta eficacia y excelente tolerancia) logran una rápida reducción del volumen tumoral (generalmente en días a semanas), lo que descomprime eficazmente el quiasma óptico y restablece la agudeza y el campo visual en más del 85-90% de los pacientes, normalizando a su vez los niveles de prolactina y restaurando el eje gonadal.
+
+Análisis de distractores:
+- Opción A: La cirugía transesfenoidal es de primera línea para los macroadenomas no funcionantes o secretores de ACTH/GH con compresión quiasmática, pero en prolactinomas se reserva estrictamente como rescate ante resistencia documentada o intolerancia severa a los agonistas dopaminérgicos.
+- Opción B: La radiocirugía es una terapia adyuvante de tercera línea; tiene acción lenta (tarda meses en actuar) y alto riesgo de panhipopituitarismo, siendo inadecuada para la descompresión urgente de la vía visual.
+- Opción C: Los análogos de somatostatina son la terapia médica de elección para la acromegalia (adenomas secretores de hormona del crecimiento), siendo ineficaces en macroprolactinomas.
+- Opción D: Administrar estrógenos/anticonceptivos sin tratar el prolactinoma está contraindicado, ya que los estrógenos pueden estimular la proliferación de las células lactotropas y acelerar el crecimiento tumoral.
+
+---
+
+### Pregunta 46 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Hipertensión Arterial Esencial & Secundaria: Diagnóstico, Metas GES & Terapia Dual
+* **Código Perfil V3:** `1.01.1.014, 1.01.1.015` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Patología GES #21 (Hipertensión Arterial Primaria o Esencial en personas de 15 años y más))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción E es la CORRECTA. La paciente presenta una Hipertensión Arterial Resistente (PA no controlada a pesar del uso simultáneo de 3 fármacos antihipertensivos de familias distintas a dosis máximas recomendadas, uno de los cuales es un diurético). En este escenario clínico, la coexistencia de hipopotasemia espontánea o desproporcionada (< 3.0 mEq/L) y alcalosis metabólica (bicarbonato elevado) en una paciente joven o de mediana edad orienta de forma cardinal hacia el Hiperaldosteronismo Primario (Síndrome de Conn o hiperplasia suprarrenal bilateral), la causa más prevalente de hipertensión arterial secundaria endocrina (representando hasta un 10-20% de las HTA resistentes). El método de tamizaje de primera elección con mayor sensibilidad y especificidad es la Relación Aldosterona Plasmática / Actividad de Renina Plasmática (ARR). Un valor marcadamente elevado (típicamente ARR > 20-30 ng/dL por ng/mL/h con aldosterona > 15 ng/dL) confirma el cribado positivo y exige derivación para pruebas de confirmación diagnóstica (sobrecarga salina) y estudio de imágenes (TAC de glándulas suprarrenales).
+
+Análisis de distractores:
+- Opción A es incorrecta: El feocromocitoma se presenta típicamente con crisis paroxísticas de la tríada sintomática clásica: cefalea pulsátil, sudoración profusa y palpitaciones taquicárdicas con gran labilidad hemodinámica, pero no cursa con hipopotasemia primaria ni alcalosis metabólica.
+- Opción B es incorrecta: La estenosis renovascular se sospecha ante deterioro brusco de la función renal (> 30-50% de incremento de creatinina) tras iniciar IECA/ARA2 o ante soplo abdominal; la paciente tolera dosis plenas de Enalapril manteniendo una creatinina estrictamente normal (0.85 mg/dL).
+- Opción C es incorrecta: El hipercortisolismo cursa con fenotipo característico (obesidad centrípeta, cara de luna llena, giba de búfalo, estrías purpúreas, miopatía proximal), signos ausentes en la paciente.
+- Opción D es incorrecta: Asumir una HTA primaria y prescribir un cuarto fármaco a ciegas posterga el diagnóstico de una causa secundaria potencialmente curable o con tratamiento específico (antagonistas de aldosterona como Espironolactona o cirugía) y perpetúa la hipopotasemia con riesgo de arritmias ventriculares letales.
+
+---
+
+### Pregunta 47 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Síndrome Confusional Agudo (Delirium): Criterios CAM, Factores Precipitantes y Abordaje Multicomponente
+* **Código Perfil V3:** `1.07.2.005` (Dx: **Específico** · Tx: **Inicial** · Seg: **Hospitalario / Ambulatorio** · GES: Sin garantía GES directa · Emergencia neuropsiquiátrica transversal de máxima prevalencia en servicios médico-quirúrgicos, UPC y urgencias. Marcador independiente de morbimortalidad, institucionalización y declive cognitivo acelerado.)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la D.
+
+Fisiopatología y Abordaje Geriátrico Multicomponente: El paciente cumple todos los criterios CAM (Confusion Assessment Method) para Síndrome Confusional Agudo (Delirium): 1) inicio agudo y curso fluctuante; 2) inatención cardinal; sumado a 3) pensamiento desorganizado y 4) alteración del nivel de conciencia (con fluctuación entre subtipo hiperactivo nocturno e hipoactivo diurno). El delirium en el adulto mayor es una urgencia médica y un marcador independiente de mortalidad intrahospitalaria. La regla cardinal en su abordaje es identificar y resolver de inmediato los factores gatillantes reversibles. Dos causas mecánicas clásicas y altamente prevalentes que siempre deben descartarse antes de indicar cualquier psicofármaco son la retención urinaria aguda (globo vesical, facilitado por la cirugía y analgesia opioide) y el fecaloma. La conducta prioritaria consiste en descomprimir la vejiga con cateterismo vesical evacuador, suspender fármacos predisponentes (anticolinérgicos, opioides, sedantes) y aplicar medidas no farmacológicas del protocolo HELP (reorientación ambiental permanente, presencia familiar de soporte, adecuada hidratación, restitución de lentes y audífonos, y conservación del ciclo circadiano luz-oscuridad). Reglas de Oro EUNACOM: Las benzodiacepinas están CONTRAINDICADAS en el delirium (salvo en abstinencia alcohólica/delirium tremens) porque empeoran la desorganización cerebral, provocan sedación excesiva o agitación paradójica y aumentan el riesgo de caídas y broncoaspiración. Asimismo, la sujeción física está proscrita como primera línea porque intensifica el terror del paciente, precipita asfixia, lesiones cutáneas y aumenta la mortalidad.
+
+Análisis de distractores:
+- Opción A es incorrecta: Usar sujeción física y lorazepam es una pésima práctica médica: el lorazepam perpetúa y agrava el delirium y la sujeción física genera mayor agitación y complicaciones graves.
+- Opción B es incorrecta: La dosis de haloperidol de 5 mg EV es excesiva y peligrosa en un anciano (arriesga prolongación del intervalo QTc, torsades de pointes y parkinsonismo agudo grave); si se requiere haloperidol de rescate por agitación incontrolable con riesgo vital, se usan microdosis de 0,5 a 1 mg oral/sc, nunca de entrada si hay una causa mecánica evidente como el globo vesical.
+- Opción C es incorrecta: Iniciar antibióticos empíricos y punción lumbar sin fiebre, sin rigidez de nuca ni leucocitosis no se justifica en un delirium postoperatorio donde ya se identificó retención urinaria clara.
+- Opción E es incorrecta: La sedación profunda en UCI con propofol es una medida extrema desproporcionada que añadiría iatrogenia (intubación, neumonía asociada a ventilador) para un cuadro que se resuelve al instalar una sonda urinaria.
+
+---
+
+### Pregunta 48 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Síndrome Pulmonar por Hantavirus (SCPH)
+* **Código Perfil V3:** `1.04.2.008` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Derivar** · GES: Enfermedad de Notificación Obligatoria Inmediata (ENO) · Guía Clínica MINSAL Manejo Hantavirus)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la CORRECTA. El paciente presenta la presentación prototípica del Síndrome Cardiopulmonar por Hantavirus (SCPH) causado por el virus Andes en Chile: nexo epidemiológico rural (inhalación de bioaerosoles desecados con excretas de Oligoryzomys longicaudatus en espacios cerrados), pródromo febril con mialgias axiales intensas en muslos y dorso, y la 'tríada de sospecha en el hemograma': 1) Trombocitopenia marcada (< 50.000-100.000/mm³); 2) Hemoconcentración (Hematocrito > 45-50%); y 3) Presencia de inmunoblastos o linfocitos atípicos circulantes (> 10%).
+La Guía Clínica del MINSAL define tres principios de manejo inaplazables:
+1) Notificación inmediata como Enfermedad de Notificación Obligatoria (ENO);
+2) MANEJO RESTRICTIVO DE FLUIDOS: la fisiopatología es un edema pulmonar agudo no cardiogénico por fuga endotelial masiva mediada por citoquinas. La sobrecarga con cristaloides precipita la asfixia pulmonar irreversible; si hay hipotensión arterial se debe recurrir de forma precoz a vasopresores (Noradrenalina);
+3) Traslado crítico precoz: coordinar el transporte asistido con médico reanimador hacia un centro de alta complejidad que cuente con disponibilidad de Oxigenación por Membrana Extracorpórea (ECMO), terapia de soporte cardiopulmonar que disminuye drásticamente la letalidad de la enfermedad.
+
+Análisis de distractores:
+- Opción A es incorrecta: La administración agresiva de volumen (como los 30 mL/kg típicos de sepsis bacteriana) está FORMALMENTE PROSCRITA en Hantavirus por las guías del MINSAL, dado que inunda los alvéolos y causa muerte por asfixia masiva.
+- Opción C es incorrecta: Catalogarlo como neumonía bacteriana común y hospitalizarlo en sala básica sin monitorización intensiva conlleva una muerte inminente por falla cardiopulmonar catastrófica en las horas subsiguientes.
+- Opción D es incorrecta: La Ribavirina fue evaluada en múltiples ensayos clínicos y demostró no tener eficacia clínica en la fase cardiopulmonar del SCPH; no está aprobada ni indicada.
+- Opción E es incorrecta: El SCPH es una emergencia médica fulminante. El ISP demora días en confirmar la serología. La conducta clínica y el traslado hacia ECMO se basan en la sospecha clínico-epidemiológica y los parámetros del hemograma, sin esperar nunca la serología confirmatoria.
+
+---
+
+### Pregunta 49 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas
+* **Código Perfil V3:** `1.04.1.007` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y destaca una de las reacciones adversas farmacológicas más importantes y subdiagnosticadas en diabetes. La metformina es el fármaco de primera línea universal en DM2, pero su uso prolongado (> 3 a 5 años) y a dosis plenas (≥ 2.000 mg/día) se asocia a una disminución progresiva de los niveles séricos de Vitamina B12 (cobalamina) en hasta un 10 a 30% de los pacientes. El mecanismo fisiopatológico consiste en que la metformina altera la membrana celular del íleon terminal bloqueando el proceso de endocitosis dependiente de calcio del complejo factor intrínseco-vitamina B12. La deficiencia de cobalamina afecta la síntesis de ADN y mielina, manifestándose clínicamente por:
+1. Anemia megaloblástica macrocítica (anemia con VCM > 100 fL, en este caso 106 fL).
+2. Degeneración combinada subaguda / neuropatía periférica por desmielinización de los cordones posteriores de la médula espinal (pérdida de la sensibilidad vibratoria o palestesia, abolición de reflejos osteotendinosos y ataxia sensitiva) y síntomas neuropsiquiátricos (olvidos, bradipsiquia).
+Frecuentemente se confunde este cuadro con una neuropatía diabética primaria; sin embargo, el excelente control glicémico sostenido (HbA1c 6.7%) sumado a la anemia macrocítica orientan directamente a la hipovitaminosis B12 inducida por metformina. La conducta médica es solicitar niveles de vitamina B12 sérica e iniciar suplementación intramuscular u oral de cobalamina.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: La polineuropatía diabética distal es una complicación microvascular metabólica que se asocia a mal control glucémico de larga data (HbA1c elevada) y afecta típicamente fibras finas termoalgésicas; crucialmente, NUNCA produce anemia macrocítica ni hipersegmentación de neutrófilos.
+- Opción C es incorrecta: La metformina no ejerce toxicidad medular directa ni aplasia eritroide; la anemia es secundaria al déficit carencial del cofactor vitamínico.
+- Opción D es incorrecta: El enalapril no interfiere con la absorción ni el metabolismo del ácido fólico a nivel duodenal.
+- Opción E es incorrecta: La mielinolisis pontina central es una complicación secundaria a la corrección excesivamente rápida de hiponatremia, no del uso de metformina ni de la diabetes controlada.
+
+---
+
+### Pregunta 50 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Hipokalemia y Reposición Segura de Potasio
+* **Código Perfil V3:** `1.09.2.006, 1.09.3.009` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y reúne los dos pilares de seguridad y efectividad farmacológica en hipokalemia:
+1. Corrección concomitante de Magnesio: La hipokalemia moderada a severa refractaria al tratamiento se asocia frecuentemente a hipomagnesemia (en este caso 1.2 mg/dL secundario a tiazidas y alcoholismo). El magnesio intracelular ejerce una inhibición fisiológica sobre los canales secretores de potasio ROMK en el túbulo colector cortical. Cuando el magnesio desciende, el canal ROMK pierde su freno inhibitorio y permanece permanentemente abierto, provocando una fuga urinaria masiva de potasio. Si no se repone sulfato de magnesio intravenoso (ej. 1 a 2 g de Sulfato de Magnesio al 20% en 30 minutos), todo el potasio administrado se perderá por la orina y la hipokalemia no corregirá.
+2. Normas de infusión venosa periférica de KCl: Para evitar la flebitis química severa, esclerosis venosa y el riesgo letal de paro cardíaco en asistolia, las guías internacionales establecen que por vía periférica la concentración no debe superar los 40 mEq de KCl por litro de solución fisiológica (o glucosalina), y la velocidad de reposición no debe sobrepasar los 10 a 20 mEq/hora, siempre bajo monitorización electrocardiográfica.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta y constituye una contraindicación formal clásica: NUNCA se debe utilizar suero glucosado puro como vehículo para infusión inicial de potasio; la carga de glucosa estimula la secreción de insulina endógena por las células beta pancreáticas, lo que transloca el potasio plasmático hacia el intracelular, provocando una caída paradójica más profunda y peligrosa de la kalemia en las primeras horas.
+- Opción C es incorrecta: La administración de cloruro de potasio en bolo intravenoso directo es mortal; precipita asistolia cardíaca inmediata y fibrilación ventricular (es el método utilizado para la eutanasia y paro asistido).
+- Opción D es incorrecta: La insulina con glucosa se utiliza para tratar la hiperkalemia, pues mete potasio a la célula; administrarla en una paciente con kalemia de 2.6 mEq/L provocaría una hipokalemia catastrófica con paro cardiorrespiratorio.
+- Opción E es incorrecta: Con potasio < 3.0 mEq/L, compromiso neuromuscular y alteraciones electrocardiográficas notorias (ondas U y ectopias ventriculares), el paciente tiene indicación perentoria de infusión intravenosa hospitalizada; postergar el tratamiento por 48 horas expone a muerte súbita arritmogénica.
+
+---
+
+### Pregunta 51 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo
+* **Código Perfil V3:** `1.05.1.005` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 35): Hipotiroidismo en Personas de 15 años y más)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La paciente presenta un Hipotiroidismo Central (secundario) en el contexto de un Síndrome de Sheehan (necrosis hipofisaria isquémica postparto evidenciada por fracaso de lactancia, amenorrea persistente e hipotensión). El hallazgo bioquímico de T4 libre marcadamente disminuida con una TSH inapropiadamente normal o baja es patognomónico de hipotiroidismo secundario/central. En todo paciente con sospecha o confirmación de hipotiroidismo central es una REGLA MÉDICA OBLIGATORIA evaluar el eje corticotropo y descartar o tratar una insuficiencia suprarrenal concomitante antes de iniciar levotiroxina. Administrar hormona tiroidea sola acelera el aclaramiento hepático de cortisol y eleva el consumo metabólico periférico, lo que puede precipitar una crisis suprarrenal aguda potencialmente mortal (shock circulatorio refractario).
+
+Análisis de distractores:
+- Opción A: Es peligrosa y contraindicada como paso inicial; iniciar levotiroxina en un hipotiroidismo central sin verificar ni cubrir el eje adrenal puede desencadenar una crisis suprarrenal fatal.
+- Opción C: La triyodotironina exógena no está indicada en el reemplazo tiroideo crónico y comparte el mismo riesgo letal de precipitar colapso suprarrenal agudo.
+- Opción D: Los anticuerpos anti-TPO evalúan tiroiditis de Hashimoto (hipotiroidismo primario con TSH marcadamente elevada), no hipotiroidismo central de origen selar.
+- Opción E: El síndrome del eutiroideo enfermo se observa en pacientes con patología médica crítica aguda hospitalaria y cursa con T3 baja y rT3 alta, no con un cuadro insidioso de hipopituitarismo crónico sintomático.
+
+---
+
+### Pregunta 52 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Ataque Isquémico Transitorio (AIT): Score ABCD2, Estratificación de Riesgo Precoz y Prevención Secundaria
+* **Código Perfil V3:** `1.10.2.002` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES N° 37): Accidente Isquémico Transitorio · Hospitalización inmediata de pacientes con riesgo moderado a alto (ABCD² ≥ 4) para neuroimagen urgente, ecocardiograma, dúplex carotídeo y prevención secundaria precoz.)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la E.
+
+Fisiopatología y Estratificación mediante Score ABCD²: El Ataque Isquémico Transitorio (AIT) es una urgencia médica extrema: hasta un 10-15% de los pacientes presentará un infarto cerebral definitivo en los primeros 90 días, ocurriendo la mitad de estos eventos en las primeras 48 horas tras el AIT. Para predecir este riesgo se utiliza el Score ABCD²:
+1) A (Age / Edad ≥ 60 años): 67 años = 1 punto.
+2) B (Blood Pressure / PA ≥ 140/90 mmHg): 156/92 mmHg = 1 punto.
+3) C (Clinical features / Síntomas clínicos): Paresia unilateral = 2 puntos (si fuera solo habla sin paresia sería 1 punto).
+4) D (Duration / Duración de los síntomas): 45 minutos (rango 10 a 59 minutos) = 1 punto (si fuera ≥ 60 minutos serían 2 puntos).
+5) D (Diabetes mellitus): Presente = 1 punto.
+Puntaje total = 1 + 1 + 2 + 1 + 1 = 6 puntos.
+
+Conducta GES y Tratamiento: Un puntaje ABCD² ≥ 4 clasifica al paciente en riesgo moderado-alto (6 puntos confiere un riesgo de ACV a los 2 días superior al 8-10%). La Guía GES N° 37 del MINSAL establece que todo AIT con score ABCD² ≥ 4 requiere HOSPITALIZACIÓN INMEDIATA (en unidad de observación, UTAC o sala de agudos) para neuroimagen, ecocardiograma transtorácico y estudio de vasos de cuello (Dúplex carotídeo o angio-TAC) dentro de las primeras 24-48 horas para detectar estenosis carotídea tributaria de endarterectomía urgente. Asimismo, en AIT no cardioembólico de alto riesgo, los ensayos clínicos CHANCE y POINT demostraron que la Doble Antiagregación Plaquetaria (DAPT) con Ácido Acetilsalicílico (AAS 100 mg/día con carga de 250 mg) más Clopidogrel (75 mg/día con carga de 300 mg) iniciada precozmente y mantenida por exactamente 21 DÍAS, reduce significativamente el riesgo de infarto recurrente comparado con monoterapia, desescalando posteriormente a monoterapia para minimizar riesgo de sangrado.
+
+Análisis de distractores:
+- Opción A es incorrecta: El cálculo de 2 puntos es erróneo y enviar a domicilio a un AIT de 6 puntos es un error médico de alto riesgo legal; el paciente corre grave riesgo de sufrir un ACV incapacitante en las siguientes 48 horas.
+- Opción B es incorrecta: El puntaje no es 3 y no hay indicación de anticoagulación sin demostrar fibrilación auricular u otra fuente cardioembólica; el AIT aterotrombótico o lacunar se maneja con antiagregantes.
+- Opción C es incorrecta: El cálculo es incorrecto y la trombolisis con alteplase está contraindicada porque los síntomas neurológicos ya se resolvieron por completo (NIHSS 0; no hay déficit persistente que justifique el riesgo hemorrágico de un fibrinolítico).
+- Opción D es incorrecta: El cálculo es de 6 puntos, no de 5, y el manejo ambulatorio con RM diferida está formalmente contraindicado ante un score de alto riesgo.
+
+---
+
+### Pregunta 53 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Diarrea Aguda, Diarrea Crónica y Constipación
+* **Código Perfil V3:** `1.06.2.005` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica · Norma MINSAL de manejo de la diarrea aguda (Planes A/B/C))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (C): Toda alteración del hábito intestinal de reciente comienzo en un paciente mayor de 50 años (especialmente si es mayor de 60 años) que se acompañe de signos de alarma (baja de peso involuntaria, heces acintadas, anemia ferropénica documentada por ferritina muy baja) constituye una indicación urgente e indiscutible de Colonoscopía Total con biopsias. El objetivo fundamental es descartar un Cáncer Colorrectal (especialmente estenosante de colon izquierdo o sigmoides). En Chile y a nivel mundial, la anemia ferropénica en el adulto mayor sin sangrado evidente es cáncer gastrointestinal hasta que se demuestre lo contrario.
+
+Análisis de distractores:
+- A y E son incorrectas: Indicar laxantes, enemas o fibra dietética e indicar control tardío ante un cuadro con múltiples banderas rojas constituye una negligencia diagnóstica inexcusable que permite la progresión del cáncer a etapas metastásicas o a una obstrucción intestinal completa.
+- B es incorrecta: El estudio microbiológico y la calprotectina se utilizan en diarrea aguda infecciosa o sospecha de EII en personas jóvenes; no descartan organicidad tumoral en un paciente de 64 años con anemia.
+- D es incorrecta: El test de sangre oculta en heces (TSOH) es un método de tamizaje en población asintomática. En una paciente sintomática con signos de alarma y anemia confirmada, realizar un test de screening en lugar de la colonoscopía directa es un grave error procedimental.
+
+---
+
+### Pregunta 54 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Meningitis Aguda Bacteriana y Viral
+* **Código Perfil V3:** `1.04.2.006` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES): Infecciones del Sistema Nervioso Central en Adultos y Pediatría)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción D es la CORRECTA. El citoquímico del LCR es diagnóstico definitivo de Meningitis Bacteriana Aguda: pleocitosis marcada con franco predominio polimorfonuclear (> 80%), consumo masivo de glucosa (ratio LCR/suero < 0.40) e hiperproteinorraquia notable (> 100-200 mg/dL).
+El régimen antimicrobiano empírico de elección debe cubrir los patógenos más prevalentes:
+1) Ceftriaxona 2 g cada 12 h EV + Vancomicina 15-20 mg/kg cada 12 h EV (para cubrir Streptococcus pneumoniae resistente a penicilina y Neisseria meningitidis);
+2) AMPICILINA 2 g cada 4 h EV: adición OBLIGATORIA en todo paciente mayor de 50 años, alcohólico, inmunodeprimido o embarazadas, para cubrir Listeria monocytogenes. Este bacilo Gram positivo intracelular posee una resistencia natural intrínseca absoluta a todas las cefalosporinas; omitir la ampicilina se asocia a una letalidad superior al 30%;
+3) DEXAMETASONA 10 mg EV cada 6 h: debe administrarse antes o inmediatamente junto con la primera dosis de antibióticos para atenuar la liberación masiva de citoquinas inflamatorias por lisis bacteriana, reduciendo la mortalidad global, el edema cerebral y la pérdida auditiva (hipoacusia neurosensorial).
+
+Análisis de distractores:
+- Opción A es incorrecta: La monoterapia con ceftriaxona deja desprotegido al paciente frente a Listeria monocytogenes y no asegura cobertura adecuada frente a cepas de neumococo con susceptibilidad intermedia/resistente a cefalosporinas; además omite el corticoide.
+- Opción B es incorrecta: Quinolonas y metronidazol no son el esquema de elección para meningitis bacteriana comunitaria típica; el metronidazol cubre anaerobios en abscesos cerebrales, no meningitis purulenta.
+- Opción C es incorrecta: El aciclovir se utiliza en encefalitis por herpes simple (VHS), la cual cursa con citoquímico linfocítico mononuclear y glucosa normal en LCR, perfil incompatible con los hallazgos purulentos del caso.
+- Opción E es incorrecta: La penicilina en monoterapia no cubre neumococos resistentes ni Listeria de manera óptima y carece del beneficio neuroprotector comprobado de la dexametasona.
+
+---
+
+### Pregunta 55 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno
+* **Código Perfil V3:** `1.08.1.005` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Completo** · GES: No GES directo · Pruebas Básicas de Laboratorio (1.08.4.005))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La Prueba de Mezcla 1:1 con plasma normal es el examen rector para estudiar la prolongación aislada del TTPK: si la mezcla normaliza el tiempo de coagulación, existe un déficit de factores de la vía intrínseca (FVIII, FIX, FXI); si NO corrige (el TTPK permanece prolongado), demuestra la presencia de un inhibidor circulante que interfiere activamente con la coagulación in vitro. El inhibidor más frecuente en personas asintomáticas o con antecedentes obstétricos adversos es el Anticoagulante Lúpico (anticuerpos antifosfolípidos). Aunque in vitro prolonga el TTPK al interferir con los reactivos fosfolipídicos de la prueba de laboratorio, in vivo produce un estado protrombótico severo con riesgo de trombosis venosa profunda, tromboembolismo pulmonar, accidente cerebrovascular isquémico y pérdidas fetales recurrentes (Síndrome Antifosfolípido), sin conferir riesgo de hemorragia quirúrgica espontánea.
+
+Análisis de distractores:
+- Opción A: En la hemofilia A el plasma normal al 50% aporta factor VIII suficiente (> 50%) para normalizar completamente el TTPK (la prueba de mezclas corrige de inmediato).
+- Opción B: El factor VII pertenece exclusivamente a la vía extrínseca; su déficit altera el TP/INR y mantiene un TTPK estrictamente normal.
+- Opción D: En la enfermedad de Von Willebrand el defecto es de la hemostasia primaria con sangrado mucocutáneo y la prueba de mezclas sí corrige.
+- Opción E: El daño hepatocelular compromete primero el factor VII (por su vida media corta de 4-6 h), prolongando el TP de forma precoz antes de afectar el TTPK.
+
+---
+
+### Pregunta 56 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Tratamiento Antimicrobiano de la NAC y Criterios GES
+* **Código Perfil V3:** `1.05.1.028` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Neumonía en el Adulto de 65 años y más (Tratamiento en menos de 24 horas))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (B): En un paciente adulto joven (< 65 años) previamente sano, sin comorbilidades crónicas (diabetes, EPOC, cirrosis, insuficiencia renal), sin uso previo de antibióticos y con un puntaje de bajo riesgo (CURB-65 = 0 puntos), el agente etiológico predominante es Streptococcus pneumoniae (neumococo). En Chile, el neumococo mantiene una excelente sensibilidad a dosis altas de aminopenicilinas orales. Por ello, la norma técnica nacional (MINSAL y Sociedad Chilena de Enfermedades Respiratorias) establece como terapia antimicrobiana de primera elección la Amoxicilina en dosis de 1 g cada 8 horas por vía oral durante 5 a 7 días.
+
+Análisis de distractores:
+- A es incorrecta: La asociación amoxicilina/ácido clavulánico es el esquema ambulatorio de elección en pacientes de 65 años y más (garantía GES) o en personas con comorbilidades crónicas donde aumenta la incidencia de bacilos gramnegativos o H. influenzae productor de betalactamasa. En un joven sano sin comorbilidades, el ácido clavulánico no agrega cobertura al neumococo y solo aumenta los costos y la tasa de diarrea.
+- C es incorrecta: El ciprofloxacino no posee actividad confiable contra Streptococcus pneumoniae y su uso en neumonía comunitaria es un grave error conceptual que conduce al fracaso terapéutico.
+- D es incorrecta: La ceftriaxona parenteral es innecesaria y constituye un sobretratamiento en un paciente joven de bajo riesgo con excelente tolerancia de la vía oral.
+- E es incorrecta: Las fluoroquinolonas respiratorias (levofloxacino, moxifloxacino) deben reservarse para casos de alergia anafiláctica severa a penicilinas o fallas de primera línea, para evitar la selección de cepas multirresistentes, infecciones por C. difficile y toxicidad tendínea o aórtica.
+
+---
+
+### Pregunta 57 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF
+* **Código Perfil V3:** `1.08.1.002` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Derivación a nivel secundario / terciario para confirmación radiológica y terapia biológica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la E.
+
+Fisiopatología y Recomendaciones Guías ASAS/EULAR: Los AINEs a dosis plenas son la primera línea de tratamiento farmacológico para el compromiso axial de la espondilitis anquilosante. Sin embargo, cuando un paciente presenta enfermedad axial persistentemente activa (definida por BASDAI ≥ 4 puntos o ASDAS ≥ 2,1 y elevación de reactantes de fase aguda) a pesar del uso secuencial de al menos dos AINEs a dosis óptimas durante un mínimo de 4 a 6 semanas cada uno, se considera falla terapéutica o enfermedad axial refractaria. En este escenario, la indicación indiscutida de segunda línea es el inicio de Terapia Biológica con Inhibidores del Factor de Necrosis Tumoral alfa (Anti-TNF, como adalimumab, infliximab, etanercept, golimumab o certolizumab) o inhibidores de la IL-17 (secukinumab), siempre habiendo descartado previamente tuberculosis latente e infecciones crónicas.
+
+Análisis de distractores:
+- Opción A es incorrecta: Es una de las trampas más frecuentes en el EUNACOM. Los fármacos modificadores de la enfermedad (FARME) convencionales sintéticos, como el metotrexato y la leflunomida, NO han demostrado ninguna eficacia en el compromiso axial de las espondiloartritis (solo tienen algún rol en la artritis periférica asociada); prescribir metotrexato para la columna inflamatoria es inútil y retrasa la terapia biológica efectiva.
+- Opción B es incorrecta: Los corticoides sistémicos orales no tienen indicación en el compromiso axial de la espondilitis anquilosante; su eficacia en la columna es nula o marginal y asocian alta toxicidad a largo plazo (osteopenia severa, riesgo de fracturas vertebrales por aplastamiento).
+- Opción C es incorrecta: El paracetamol es un analgésico puro sin efecto antiinflamatorio que resulta totalmente insuficiente para controlar la inflamación inmunológica mediada por TNF e IL-17 en la entesis y sacroilíacas.
+- Opción D es incorrecta: La cirugía de columna (osteotomía correctora o artrodesis) solo se reserva para complicaciones tardías extremas con grave deformidad en flexión (cifosis fija grave) o fracturas inestables de la columna anquilosada, nunca como manejo de actividad inflamatoria aguda.
+
+---
+
+### Pregunta 58 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)
+* **Código Perfil V3:** `1.09.2.004, 1.09.1.013` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES · Cobertura hospitalaria de urgencias)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción C es la respuesta correcta. El cuadro clínico expone la presentación canónica de la Nefritis Túbulo-Intersticial Aguda (NTIA) inmunoalérgica inducida por fármacos. Los dos grupos farmacológicos más frecuentemente implicados en la actualidad son los antibióticos betalactámicos (como aminopenicilinas y cefalosporinas) y los inhibidores de la bomba de protones (Omeprazol). Aunque la tríada hipersensible clásica (fiebre, exantema cutáneo y eosinofilia) solo se presenta completa en el 10 al 30% de los casos, su presencia junto a un deterioro rápido de la función renal es altamente orientadora. El sedimento urinario patognomónico exhibe piuria estéril (leucocituria sin bacteriuria y con urocultivo negativo), cilindros leucocitarios (que demuestran que la inflamación leucocitaria proviene del parénquima renal y no de la vejiga) y eosinofiluria demostrada por tinción de Hansel o Wright. En la ecografía renal los riñones suelen estar normales o discretamente aumentados de tamaño por el edema intersticial inflamatorio. La primera y más determinante conducta terapéutica es la suspensión inmediata de todos los agentes potencialmente inductores (ampicilina/sulbactam y omeprazol). La mayoría de los pacientes normaliza la creatinina con esta sola medida; si tras 5 a 7 días no hay descenso de la creatinina, se inicia prednisona oral a 1 mg/kg/día durante 2 a 4 semanas.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: La NTA tóxica no cursa con exantema, eosinofilia periférica ni cilindros leucocitarios; su sedimento característico muestra cilindros granulosos oscuros ("muddy brown") y células epiteliales tubulares libres. Además, el salino hipertónico y la furosemida empeorarían el cuadro.
+- Opción B es incorrecta: La presencia de urocultivo negativo descarta pielonefritis bacteriana; escalar a antibióticos de amplio espectro sometería a la paciente a mayor toxicidad e incluso perpetuaría la reacción alérgica si se administra otro betalactámico (como meropenem).
+- Opción D es incorrecta: La glomerulonefritis membranoproliferativa cursa con síndrome nefrítico florido (hematuria dismórfica, cilindros hemáticos, hipertensión y proteinuria en rango nefrótico con hipocomplementemia C3/C4), ausentes en este caso.
+- Opción E es incorrecta: La microangiopatía trombótica se caracteriza por anemia hemolítica microangiopática no inmune con esquistocitos abundantes en frotis y trombocitopenia de consumo severa, parámetros que están normales en esta paciente.
+
+---
+
+### Pregunta 59 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Lectura Sistemática del ECG en Urgencias y APS
+* **Código Perfil V3:** `1.01.4.001` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Herramienta Diagnóstica Universal (Protocolo GES Urgencias))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción C es la CORRECTA. El electrocardiograma muestra la tríada diagnóstica patognomónica del patrón de preexcitación ventricular o de Wolff-Parkinson-White (WPW): 1) Intervalo PR corto (< 120 ms), 2) Ensanchamiento del complejo QRS (> 120 ms a expensas de la fase inicial), y 3) Presencia de onda delta (empastamiento inicial de la onda R producido por la despolarización ventricular prematura a través de una vía accesoria anómala o haz de Kent que elude el retardo fisiológico del nodo auriculoventricular). Dado que el paciente presenta antecedentes clínicos de palpitaciones paroxísticas, se configura formalmente un Síndrome de Wolff-Parkinson-White. La conducta normativa en la atención primaria es derivar a cardiología y electrofisiología para estratificación del período refractario anterógrado de la vía accesoria (riesgo de fibrilación auricular preexcitada con respuesta ventricular rápida y degeneración en fibrilación ventricular) y eventual ablación curativa por catéter con radiofrecuencia (éxito > 95%).
+
+Análisis de distractores:
+- Opción A es incorrecta: En el bloqueo de rama izquierda (BCRI) el intervalo PR es normal (> 120 ms) y no existe onda delta; el ensanchamiento del QRS se debe a retardo en la conducción intraventricular izquierda tardía (ondas R anchas y melladas en V5-V6), no a una vía accesoria.
+- Opción B es incorrecta: El bloqueo AV de primer grado se define exactamente por lo contrario: una prolongación patológica del intervalo PR (> 200 ms con conducción 1:1), mientras que en este paciente el PR está marcadamente acortado (102 ms).
+- Opción D es incorrecta: La hipertrofia ventricular izquierda se diagnostica por criterios de voltaje aumentado (como Sokolow-Lyon ≥ 35 mm o Cornell) y sobrecarga del ST-T, pero no cursa con intervalo PR corto ni onda delta; el paciente es un joven normotenso sin indicación de IECA.
+- Opción E es incorrecta: En el ritmo nodal o de la unión, las ondas P sinusales normales están ausentes (o son retrógradas negativas en derivaciones inferiores) y el QRS habitualmente es estrecho (< 100 ms).
+
+---
+
+### Pregunta 60 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)
+* **Código Perfil V3:** `1.04.1.016` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. El cuadro cumple rigurosamente con todos los criterios diagnósticos del Estado Hiperglicémico Hiperosmolar (EHH):
+1. Hiperglicemia masiva (> 600 mg/dL): en este caso 920 mg/dL.
+2. Ausencia de cetoacidosis significativa: pH venoso > 7.30 (7.34), bicarbonato > 18 mEq/L (21 mEq/L), cetonuria negativa y Anion Gap normal (148 - [110 + 21] = 17 mEq/L, leve aumento proporcional a la falla renal prerrenal).
+3. Ausencia de patrón respiratorio acidótico de Kussmaul.
+4. Compromiso neurológico severo (sopor profundo) directamente atribuible a la hiperosmolaridad extrema y deshidratación severa (déficit de 8 a 12 litros de agua) secundaria a una infección del tracto urinario baja/alta no tratada.
+La Osmolaridad Plasmática Efectiva (o tonicidad efectiva) mide los solutos que no atraviesan libremente las membranas y que extraen agua de las neuronas, calculándose mediante la fórmula estandarizada:
+Osmolaridad efectiva = 2 * [Sodio+] + ([Glicemia en mg/dL] / 18)
+Osmolaridad efectiva = 2 * 148 + (920 / 18) = 296 + 51.11 = 347.1 mOsm/kg (redondeado a 347 mOsm/kg).
+Un valor superior a 320 mOsm/kg es el criterio diagnóstico definitorio de EHH.
+(Nota: La urea o BUN no se suma en la osmolaridad efectiva porque es un osmol inefectivo que difunde libremente por los tejidos).
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: La paciente no tiene cetoacidosis; su pH es 7.34 (CAD requiere pH < 7.30) y las cetonas urinarias son negativas; además el cálculo de 320 mOsm/kg es numéricamente erróneo.
+- Opción C es incorrecta: La paciente tiene una falla renal prerrenal aguda por deshidratación masiva (BUN 64 con Cr 2.3), no un síndrome urémico crónico terminal (que cursa con acidosis severa y anemia normocítica).
+- Opción D es incorrecta: La CAD euglicémica requiere acidosis metabólica severa, cetonemia/cetonuria fuertemente positiva y niveles de glucosa engañosamente bajos (< 200-250 mg/dL), lo contrario a los 920 mg/dL sin cetonas de esta paciente.
+- Opción E es incorrecta: El deterioro neurológico se correlaciona con la hipertonicidad extrema (> 340 mOsm/kg produce estupor y coma metabólico); no hay signos de focalización motora que justifiquen un ACV primario.
+
+---
+
+### Pregunta 61 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** SCASEST: Angina Inestable e IAM sin Supradesnivel del ST
+* **Código Perfil V3:** `1.01.1.020, 1.01.2.001` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Patología GES #24 (Síndrome Coronario Agudo))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción C es la CORRECTA (es la conducta FORMALMENTE CONTRAINDICADA). En el Síndrome Coronario Agudo sin Supradesnivel del Segmento ST (SCASEST, que engloba a la angina inestable y al infarto agudo al miocardio sin supradesnivel del ST), la fibrinólisis farmacológica está FORMALMENTE CONTRAINDICADA. Fisiopatológicamente, el SCASEST se origina por una obstrucción coronaria subtotal debida a un trombo blanco rico en plaquetas; los ensayos clínicos demostraron de forma categórica que el uso de trombolíticos en SCASEST no sólo no confiere beneficio en la apertura vascular, sino que incrementa significativamente la mortalidad global, el riesgo de infarto transmural secundario por activación trombogénica paradójica de la superficie plaquetaria y la incidencia de hemorragias mayores intracraneanas. La terapia fibrinolítica se reserva de manera exclusiva para el infarto con supradesnivel del ST (SCACEST) cuando el tiempo estimado para angioplastía primaria excede los 120 minutos.
+
+Análisis de distractores (conductas indicadas y recomendadas):
+- Opción A es una conducta correcta y recomendada: La doble antiagregación plaquetaria (Aspirina 250-500 mg carga oral + Ticagrelor 180 mg carga, o Prasugrel/Clopidogrel) es mandatoria para reducir la reactivación isquémica coronaria.
+- Opción B es una conducta correcta y recomendada: La anticoagulación parenteral sistemática con HBPM (Enoxaparina 1 mg/kg cada 12h SC) o Fondaparinux disminuye la progresión a oclusión trombótica completa mientras se planifica el cateterismo.
+- Opción D es una conducta correcta y recomendada: La terapia con estatinas de alta potencia (Atorvastatina 80 mg/día) debe iniciarse precozmente por sus efectos pleiotrópicos de estabilización endotelial de la placa ateromatosa.
+- Opción E es una conducta correcta y recomendada: El paciente presenta un score TIMI de 4 puntos y elevación de biomarcadores con cambios dinámicos del ST, lo que clasifica el cuadro como de alto riesgo y define la indicación de una estrategia invasiva precoz mediante coronariografía antes de 24 horas.
+
+---
+
+### Pregunta 62 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca
+* **Código Perfil V3:** `1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Sin garantía GES específica para IRA · Garantía de Urgencia Vital (Ley de Urgencias) en falla multiorgánica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y la conducta clínica prioritaria indiscutible según las guías KDIGO y la práctica médica estándar en Chile. El paciente presenta una Injuria Renal Aguda (IRA) grave estadio 3 de KDIGO (creatinina sérica 4.2 mg/dL con elevación > 3 veces su valor basal) de origen prerrenal puro, desencadenada por una profunda hipovolemia por pérdidas gastrointestinales no compensadas, en el contexto de una "triple interacción nefrotóxica hemodinámica" (AINE que bloquea la síntesis de prostaglandinas vasodilatadoras en la arteriola aferente + IECA que impide la vasoconstricción mediada por angiotensina II en la arteriola eferente + antagonista de aldosterona que promueve natriuresis). La integridad tubular se demuestra inequívocamente por la capacidad del riñón de concentrar la orina (Osmolaridad urinaria 620 mOsm/kg > 500), retener sodio ávidamente (Sodio urinario 11 mEq/L < 20, FeNa 0.38% < 1%) y retener urea (FeUrea 24% < 35%), junto a un sedimento limpio con apenas cilindros hialinos normales. La medida obligada es suspender de inmediato el Enalapril, la Espironolactona y el Celecoxib, e iniciar una agresiva reposición de volumen intravascular con cristaloides isotónicos (Suero Fisiológico 0.9%, ej. 1.000 a 1.500 mL en las primeras 1 a 2 horas) evaluando la respuesta hemodinámica y el débito urinario.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta y sumamente peligrosa: Administrar diuréticos de asa (como furosemida) a un paciente con hipovolemia severa y shock deshidratativo agota aún más el volumen intravascular circulante eficaz, precipitando hipotensión refractaria e isquemia tubular que transforma rápidamente una falla prerrenal reversible en una Necrosis Tubular Aguda (NTA) estructural.
+- Opción C es incorrecta: La elevación de la creatinina aislada no constituye una indicación per se de diálisis de urgencia. La kalemia en 5.8 mEq/L no presenta repercusión electrocardiográfica letal y responderá a la rehidratación y suspensión de la espironolactona. La hemodiálisis se reserva para acidosis refractaria, hiperkalemia refractaria con riesgo vital, edema pulmonar resistente a diuréticos o síntomas urémicos manifiestos (pericarditis o encefalopatía urémica).
+- Opción D es incorrecta: El paciente no presenta acidosis metabólica severa con criterio de bicarbonato parenteral (pH < 7.15); además, mantener el IECA perpetúa la vasodilatación de la arteriola eferente, impidiendo que el glomérulo genere presión de ultrafiltración y perpetuando la anuria.
+- Opción E es incorrecta: La dopamina a "dosis renales" o "dopaminérgicas" (2-3 mcg/kg/min) ha sido exhaustivamente investigada y está formalmente desaconsejada y proscrita por las guías internacionales KDIGO; no mejora la sobrevida ni la tasa de filtración glomerular y predispone a arritmias cardíacas graves e isquemia miocárdica.
+
+---
+
+### Pregunta 63 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina
+* **Código Perfil V3:** `1.08.1.002` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: No GES directo · Examen de Laboratorio Perfil V3 (1.08.4.008))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El cuadro y el perfil de cinética de hierro corresponden al patrón clásico de Anemia de Enfermedad Crónica (o anemia por inflamación). Su mecanismo fisiopatológico cardinal está mediado por la sobreproducción de citoquinas proinflamatorias (principalmente Interleukina-6 y TNF-alfa) inducida por la artritis reumatoide activa. La IL-6 estimula al hígado a sintetizar y secretar masivamente hepcidina (el regulador hormonal negativo del hierro). La hepcidina se une a la ferroportina en los macrófagos del sistema reticuloendotelial y en los enterocitos duodenales, provocando su internalización y degradación; esto bloquea por completo la liberación del hierro desde los depósitos celulares hacia la circulación plasmática. En consecuencia, el hierro queda atrapado en los depósitos tisulares (ferritina muy elevada como reactante de fase aguda positivo, 480 ng/mL), mientras que el hierro disponible para la eritropoyesis disminuye (ferremia baja y saturación baja). Además, la transferrina es un reactante de fase aguda negativo, por lo que su síntesis hepática disminuye, resultando en una TIBC baja (< 250 mcg/dL), lo que diferencia inequívocamente este cuadro de la ferropenia pura.
+
+Análisis de distractores:
+- Opción B: En la anemia ferropénica clásica la ferritina está disminuida (< 30 ng/mL) y la TIBC/transferrina se encuentra marcadamente aumentada (> 400 mcg/dL) como mecanismo compensatorio.
+- Opción C: La hemocromatosis hereditaria cursa con ferremia elevada y saturación de transferrina marcadamente alta (> 50-60%), no disminuida.
+- Opción D: En la beta-talasemia menor la microcitosis es desproporcionada para el grado de anemia (VCM < 65-70 fL con Hb > 10 g/dL) y el perfil de hierro es estrictamente normal.
+- Opción E: La anemia sideroblástica se acompaña de saturación de transferrina elevada y ferritina muy alta con presencia de sideroblastos en anillo en el mielograma.
+
+---
+
+### Pregunta 64 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Espondiloartritis: Concepto Unificador, HLA-B27 y Lumbago Inflamatorio vs Mecánico
+* **Código Perfil V3:** `1.05.1.001` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES específica en generalidad · Manejo en APS y derivación a reumatología)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la B.
+
+Fisiopatología y Semiología Reumatológica: La distinción entre lumbago mecánico y lumbago inflamatorio es un pilar formativo prioritario en el Perfil de Conocimientos EUNACOM 2026. Según los criterios ASAS (Assessment of SpondyloArthritis international Society), el dolor lumbar inflamatorio se define por la presencia de al menos 4 de los siguientes 5 parámetros: 1) edad de inicio menor a 40-45 años; 2) inicio insidioso; 3) mejoría con el ejercicio físico; 4) ausencia de mejoría (o empeoramiento) con el reposo en cama; y 5) dolor nocturno que despierta al paciente en la segunda mitad de la noche obligándolo a deambular. A esto se suma la rigidez matinal prolongada (> 30-60 minutos), el dolor glúteo alternante (que traduce sacroilitis) y la entesitis (talalgia por inserción aquiliana o fascia plantar). Por ende, el dolor nocturno en la segunda mitad de la noche que mejora con el movimiento y empeora con el reposo prolongado es el sello distintivo del dolor inflamatorio por espondiloartritis axial.
+
+Análisis de distractores:
+- Opción A es incorrecta: El alivio al flectar el tronco ('signo del carrito de supermercado') con parestesias distales es típico del canal lumbar estrecho (claudicación neurogénica), cuadro mecánico degenerativo de pacientes mayores.
+- Opción C es incorrecta: El inicio súbito tras sobrecarga física y el alivio inmediato al adoptar el decúbito en reposo absoluto definen clásicamente al lumbago mecánico muscular o facetario.
+- Opción D es incorrecta: La irradiación radicular dermatómica bajo la rodilla con exacerbación ante Valsalva (tos, estornudo) traduce una lumbociática compresiva radicular por hernia discal (afección mecánica), no una espondiloartritis.
+- Opción E es incorrecta: La rigidez matinal breve (< 15-30 minutos) que empeora a lo largo del día con el uso articular acumulado es característica de la artrosis o discopatía degenerativa mecánica.
+
+---
+
+### Pregunta 65 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH
+* **Código Perfil V3:** `1.04.1.017` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y representa una de las reglas de seguridad más inviolables de la medicina de urgencia y cuidados críticos en diabetes. En el protocolo de manejo de la Cetoacidosis Diabética (CAD) y del Estado Hiperglicémico Hiperosmolar (EHH), la regla perentoria respecto al potasio establece:
+- Si la kalemia inicial es < 3.3 mEq/L, ESTÁ ESTRICTAMENTE CONTRAINDICADO INICIAR INSULINOTERAPIA.
+La insulina promueve la entrada masiva de potasio al compartimento intracelular a través de la bomba Na+/K+-ATPasa; al mismo tiempo, la reanimación con fluidos diluye el potasio plasmático y restablece la perfusión renal, aumentando la excreción tubular de potasio. Si se administra insulina en un paciente con potasio basal de 3.1 mEq/L, la kalemia colapsará velozmente a niveles inferiores a 2.0–2.5 mEq/L, desencadenando arritmias ventriculares letales (fibrilación ventricular, taquicardia ventricular polimórfica en Torsades de Pointes) y parálisis de los músculos respiratorios con muerte inmediata. La conducta obligada es suspender y posponer el inicio de la insulina, continuar la fluidoterapia isotónica y administrar cloruro de potasio intravenoso a dosis de 20 a 30 mEq por hora (añadido a los fluidos de hidratación) hasta constatar documentalmente que el potasio sérico ha superado los 3.3 mEq/L. Una vez que la kalemia se encuentra en rango seguro (≥ 3.3 mEq/L), se procede a iniciar la infusión continua de insulina cristalina manteniendo aportes de potasio de mantención (20-30 mEq/L de fluido) para sostener niveles entre 4.0 y 5.0 mEq/L.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: Administrar insulina sin antes corregir la hipokalemia < 3.3 mEq/L es una causa directa de muerte yatrogénica por paro cardíaco hipokalémico en reanimación.
+- Opción C es incorrecta: Duplicar la dosis de insulina agrava exponencialmente la translocación intracelular de potasio hacia el miocardio; además, el bicarbonato de sodio está contraindicado con pH > 6.9-7.0 y su administración alcaliniza el plasma, desplazando aún más potasio hacia el intracelular.
+- Opción D es incorrecta: La hemodiálisis no es el tratamiento de la cetoacidosis diabética no complicada; la CAD se resuelve con expansión volumétrica, potasio e insulina.
+- Opción E es incorrecta: El gluconato de calcio se utiliza para tratar la toxicidad por hiperkalemia (potasio alto), no para la hipokalemia; carece de utilidad terapéutica en este contexto.
+
+---
+
+### Pregunta 66 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett
+* **Código Perfil V3:** `1.06.1.027` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica · Norma MINSAL de dispepsia y uso racional de IBP)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (B): En pacientes con síntomas de reflujo gastroesofágico, la presencia de cualquier 'signo o síntoma de alarma' (edad > 50 años, disfagia de reciente comienzo, baja de peso involuntaria, anemia ferropénica, hemorragia digestiva, vómitos recurrentes o síntomas nocturnos rebeldes) contraindica formalmente el manejo empírico con IBP y obliga a realizar una Endoscopía Digestiva Alta (EDA) precoz con toma de biopsias. Su objetivo primordial es descartar un adenocarcinoma esofágico, estenosis péptica o esófago de Barrett con displasia antes de iniciar cualquier tratamiento médico.
+
+Análisis de distractores:
+- A es incorrecta: La prueba terapéutica empírica con IBP se reserva exclusivamente para pacientes jóvenes (< 50 años) con pirosis y regurgitación típicas sin ninguna bandera roja. En un paciente de 52 años con disfagia progresiva, baja de peso y anemia, dar IBP sin endoscopia es una negligencia que retrasa el diagnóstico de neoplasia esofágica curable.
+- C es incorrecta: La manometría esofágica es el estándar de oro para evaluar trastornos motores (como acalasia o espasmo esofágico difuso), pero no visualiza la mucosa y nunca es el examen inicial ante síntomas de alarma; primero debe descartarse organicidad mediante endoscopía.
+- D es incorrecta: El sucralfato es un protector de mucosa obsoleto con eficacia mínima en ERGE y no sustituye la obligación médica y legal de investigar signos de alarma endoscópicamente.
+- E es incorrecta: La pH-metría de 24 horas con impedancia es el examen de elección para certificar reflujo ácido o no ácido cuando la endoscopía es normal y persisten dudas diagnósticas, o como evaluación prequirúrgica de funduplicatura; no tiene indicación inicial en presencia de disfagia y baja de peso.
+
+---
+
+### Pregunta 67 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Manejo Terapéutico Comparado: Fármacos, Radioyodo y Cirugía
+* **Código Perfil V3:** `1.04.1.002` (Dx: **Evaluación de etiología tiroidea, severidad clínica, comorbilidades cardiovasculares, deseo gestacional y orbitopatía activa** · Tx: **Tiamazol (1ra línea médica), Radioyodo I-131 (elección en recidivas/BMNT), Tiroidectomía total (bocios gigantes, compresión o sospecha CA)** · Seg: **Perfil tiroideo a las 4-6 semanas de inicio médico; seguimiento anual con TSH tras I-131 o cirugía por desarrollo inexorable de hipotiroidismo** · GES: Patología no GES directa. Garantías GES si concurre en cardiopatía o estudio quirúrgico sospechoso de cáncer papilar)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La preparación preoperatoria clásica y mandatoria para la tiroidectomía total en pacientes con Enfermedad de Graves-Basedow incluye, una vez alcanzado el eutiroidismo con tionamidas, la administración de yoduro inorgánico oral (solución de Lugol o solución saturada de yoduro de potasio, SSKI) durante los 7 a 10 días previos a la cirugía. El yodo inorgánico en altas concentraciones induce el efecto Wolff-Chaikoff transitorio, frenando la liberación de hormonas tiroideas y provocando una marcada reducción en el flujo sanguíneo y la hipervascularización de la glándula tiroidea (colapsa los vasos intratiroideos). Esto reduce significativamente la friabilidad del tejido y la pérdida sanguínea intraoperatoria, facilitando la disección quirúrgica y protegiendo los nervios laríngeos recurrentes y las glándulas paratiroides.
+
+Análisis de distractores:
+- Opción A: El tiamazol bloquea la síntesis de nuevas hormonas por la peroxidasa tiroidea, pero no reduce de forma aguda la vascularización tiroidea como lo hace el yoduro inorgánico (Lugol).
+- Opción B: Administrar radioyodo I-131 días antes de la cirugía produce una tiroiditis rádica aguda con inflamación intensa, necrosis tisular y fibrosis peritiroidea que haría la tiroidectomía extremadamente riesgosa y con alto índice de complicaciones.
+- Opción D: La anticoagulación plena está contraindicada antes de cirugía mayor cervical por el gravísimo riesgo de hematoma sofocante del cuello con asfixia mecánica.
+- Opción E: Suspender la medicación antitiroidea dejaría a la paciente expuesta a una crisis tirotóxica o tormenta tiroidea intraoperatoria por manipulación de la glándula.
+
+---
+
+### Pregunta 68 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Enfermedad de Chagas: Aguda, Indeterminada y Crónica
+* **Código Perfil V3:** `1.04.4.016` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Norma Técnica N° 162 MINSAL: Diagnóstico y Tratamiento de la Enfermedad de Chagas)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción A es la CORRECTA. La Norma Técnica N° 162 del MINSAL establece regulaciones estrictas y obligatorias respecto a la Enfermedad de Chagas en la mujer embarazada:
+1) Los fármacos tripanocidas disponibles (Benznidazol y Nifurtimox) están FORMALMENTE CONTRAINDICADOS durante el embarazo debido a su demostrado potencial teratogénico y mutagenicidad en estudios preclínicos. Por lo tanto, el tratamiento etiológico de la madre DEBE postergarse hasta el puerperio y la finalización completa de la lactancia materna;
+2) Diagnóstico en el recién nacido: en el período neonatal precoz, el diagnóstico de transmisión vertical congénita se efectúa EXCLUSIVAMENTE mediante métodos parasitológicos directos (microhematocrito de sangre de cordón o punción capilar) o PCR antes del primer mes de vida. Si el examen es positivo, se trata de inmediato al lactante con Benznidazol o Nifurtimox, logrando tasas de curación parasitológica superiores al 95-100%; si es negativo, se controla a los 3 meses y se confirma la seronegatividad con serología IgG a partir de los 9 a 12 meses de edad.
+
+Análisis de distractores:
+- Opción B es incorrecta: El Benznidazol está estrictamente contraindicado durante toda la gestación por toxicidad fetal; su administración en una embarazada viola la normativa sanitaria nacional y la seguridad clínica.
+- Opción C es incorrecta: La transmisión vertical de Trypanosoma cruzi es por vía hematógena transplacentaria, no intraparto vaginal; la infección materna por Chagas por sí sola no constituye indicación médica de cesárea.
+- Opción D es incorrecta: T. cruzi no se transmite por la leche materna (salvo que existan grietas sangrantes del pezón en fase aguda materna). La lactancia materna está recomendada y garantizada.
+- Opción E es incorrecta: La IgG materna atraviesa la barrera placentaria a partir del segundo trimestre; todos los recién nacidos de madres seropositivas presentarán IgG positiva al nacer sin que ello signifique infección propia. La serología IgG no es diagnóstica en el neonato y solo tiene validez confirmatoria después de los 9 a 12 meses, cuando los anticuerpos transplacentarios maternos se han depurado.
+
+---
+
+### Pregunta 69 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Espirometría y Pruebas de Función Pulmonar
+* **Código Perfil V3:** `1.05.4.001` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Diagnóstico y Confirmación de Asma y EPOC en APS)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (A): El paciente presenta una limitación crónica y persistente al flujo aéreo definida estrictamente por una relación VEF1/CVF post-broncodilatador menor a 0.70 (en este caso 0.52). En un paciente mayor de 40 años con tabaquismo pesado y síntomas respiratorios crónicos, este hallazgo es confirmatorio de Enfermedad Pulmonar Obstructiva Crónica (EPOC) de acuerdo con las directrices internacionales GOLD y la guía clínica GES chilena. La respuesta broncodilatadora es negativa (aumento de 100 mL y 6.3%, inferior al umbral de 200 mL y 12%). La gravedad de la obstrucción se clasifica según el VEF1 post-BD: VEF1 ≥ 80% (GOLD 1 leve), 50% ≤ VEF1 < 80% (GOLD 2 moderada), 30% ≤ VEF1 < 50% (GOLD 3 grave) y VEF1 < 30% (GOLD 4 muy grave). Con un VEF1 post-BD de 54%, el paciente tiene limitación moderada al flujo aéreo (GOLD 2).
+
+Análisis de distractores:
+- B es incorrecta: El test de broncodilatación es formalmente negativo (no alcanza el criterio de aumento ≥ 12% Y ≥ 200 mL respecto al basal); en el asma suele haber reversibilidad significativa y normalización del VEF1/CVF.
+- C es incorrecta: La restricción se caracteriza por VEF1/CVF normal (≥ 0.70) y CVF < 80%, y su confirmación definitiva requiere pletismografía demostrando Capacidad Pulmonar Total (CPT) < 80%; una relación de 0.52 define sin ambigüedades obstrucción.
+- D es incorrecta: Una relación VEF1/CVF de 0.52 jamás es fisiológica ni normal; traduce atrapamiento y resistencia bronquial patológica.
+- E es incorrecta: La categoría GOLD 4 (muy grave) exige un VEF1 post-BD < 30%. La oxigenoterapia domiciliaria continua se reserva para pacientes con hipoxemia severa en reposo (PaO2 ≤ 55 mmHg o SatO2 ≤ 88%), lo que no ocurre en este paciente (SatO2 93%).
+
+---
+
+### Pregunta 70 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma
+* **Código Perfil V3:** `1.10.1.020` (Dx: **Específico** · Tx: **Completo** · Seg: **Realizar** · GES: Evaluación y seguimiento multidisciplinario por Neurología y Cirugía de Tórax · Cobertura hospitalaria de urgencia para Crisis Miasténica en Unidad de Paciente Crítico (UPC) bajo Ley de Urgencia.)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la C.
+
+Fisiopatología y Confirmación Diagnóstica: La paciente presenta una clínica clásica e indiscutible de Miastenia Gravis (MG), un trastorno autoinmune postsináptico de la unión neuromuscular caracterizado por debilidad muscular fluctuante y fatigabilidad (empeoramiento con el uso muscular repetitivo o hacia el atardecer y mejoría con el reposo). El compromiso ocular inicial (ptosis asimétrica y diplopía binocular) ocurre en más del 85% de los pacientes. Signo semiológico de oro EUNACOM: Las pupilas son SIEMPRE normales y reactivas a la luz, dado que el músculo constrictor pupilar intrínseco liso no posee receptores nicotínicos de acetilcolina; cualquier ptosis con alteración pupilar (midriasis o miosis) apunta a lesión del III par o síndrome de Horner, no a miastenia. La prueba del hielo (ice pack test) a pie de cama tiene alta sensibilidad y especificidad: el frío inhibe a la acetilcolinesterasa aumentando la concentración de acetilcolina en la hendidura sináptica, mejorando la ptosis en ≥ 2 mm tras 2 minutos.
+
+El estudio diagnóstico confirmatorio protocolizado exige: 1) Determinación serológica de Anticuerpos Anti-Receptor de Acetilcolina (anti-AChR), positivos en el 85-90% de las formas generalizadas y 50% de las oculares puras (si son negativos, se solicitan anti-MuSK); 2) Electroneumiografía con estimulación nerviosa repetitiva a baja frecuencia (3 Hz), que demuestra un patrón decremental patológico mayor al 10% en la amplitud del potencial de acción muscular compuesto; y 3) Tomografía Computarizada (TAC) de tórax con contraste endovenoso, de carácter obligatorio para pesquisar hiperplasia tímica (presente en 65% de los casos) o Timoma (presente en 10-15% de los casos), cuya resección quirúrgica (timectomía) es mandatoria y curativa/terapéutica.
+
+Análisis de distractores:
+- Opción A es incorrecta: Las bandas oligoclonales en LCR y la RM cerebral son el estudio de elección para Esclerosis Múltiple (enfermedad desmielinizante del SNC), la cual no produce debilidad fluctuante que mejore con hielo ni conserva arreflexia pupilar con prueba de Simpson positiva.
+- Opción B es incorrecta: La CK plasmática y la biopsia muscular evalúan miopatías inflamatorias primarias (polimiositis o dermatomiositis), las cuales causan debilidad proximal constante fija (sin fatigabilidad diurna ni compromiso de musculatura extraocular intrínseca/extrínseca típica de placa motora).
+- Opción D es incorrecta: La prueba de Schirmer y los anticuerpos anti-Ro/La corresponden al estudio del Síndrome de Sjögren primario (ojo y boca secos), que no explica la ptosis, diplopía ni la fatigabilidad muscular de la unión neuromuscular.
+- Opción E es incorrecta: Los anticuerpos anti-Hu/Yo y el PET-CT se utilizan para síndromes neurológicos paraneoplásicos atípicos (encefalitis límbica, degeneración cerebelosa paraneoplásica), lo cual está fuera de lugar ante una miastenia gravis típica de una mujer joven.
+
+---
+
+### Pregunta 71 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Hipotiroidismo Primario y Subclínico: Diagnóstico y Titulación de Levotiroxina
+* **Código Perfil V3:** `1.05.1.005` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 35): Hipotiroidismo en Personas de 15 años y más)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El paciente presenta un hipotiroidismo primario clínico establecido (TSH marcadamente elevada con T4 libre baja y anti-TPO positivos por tiroiditis autoinmune de Hashimoto). En adultos mayores (> 65-70 años) o en pacientes con antecedentes conocidos de cardiopatía coronaria o vascular establecida, la regla de oro clínica estipulada tanto en la guía GES N° 35 como en consensos internacionales es 'empezar bajo e ir lento' ('start low, go slow'). Se debe iniciar levotiroxina en dosis bajas de 12.5 a 25 mcg al día (máximo 50 mcg/día) con incrementos paulatinos de 12.5 a 25 mcg cada 6 a 8 semanas guiados por TSH. Iniciar dosis sustitutivas plenas incrementaría bruscamente el consumo de oxígeno miocárdico, pudiendo desencadenar angina refractaria, infarto agudo de miocardio, insuficiencia cardíaca aguda o arritmias ventriculares letales.
+
+Análisis de distractores:
+- Opción A: La dosis de 1.6 mcg/kg/día es la dosis de inicio exclusiva para adultos jóvenes y sanos sin comorbilidad cardiovascular; en este anciano cardiópata es extremadamente peligrosa.
+- Opción C: La triyodotironina (T3) induce picos plasmáticos rápidos y oscilaciones catecolaminérgicas intensas que sobrecargan el aparato cardiovascular, estando formalmente desaconsejada.
+- Opción D: El hipotiroidismo empeora el perfil lipídico, incrementa las resistencias vasculares periféricas y atenúa la función sistólica; no debe dejarse sin tratamiento, sino tratarse con titulación lenta y cuidadosa.
+- Opción E: Iniciar con 75 mcg/día supera con creces la dosis segura de inicio en cardiopatía isquémica establecida.
+
+---
+
+### Pregunta 72 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Cefalea en Racimos (Cluster) y Neuralgia del Trigémino: Diagnóstico Diferencial, Manejo Agudo y Preventivo
+* **Código Perfil V3:** `1.10.1.013` (Dx: **Específico** · Tx: **Completo** · Seg: **Realizar** · GES: Derivación Oportuna a Especialidad · Identificación precoz de síndromes de dolor neuropático craneofacial paroxístico y derivación a neurología/neurocirugía en refractariedad.)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la B.
+
+Fisiopatología y Diagnóstico Diferencial: El cuadro clínico es patognomónico de una Cefalea en Racimos (Cluster headache, también llamada cefalea en cúmulos o de Horton), arquetipo de las cefaleas trigémino-autonómicas. Afecta con mayor frecuencia a varones jóvenes fumadores y se caracteriza por: 1) dolor estrictamente unilateral periorbitario/temporal de intensidad atroz e insoportable ('dolor del suicidio'); 2) duración de 15 a 180 minutos; 3) periodicidad circadiana nocturna fija (despierta al paciente durante la fase de sueño REM en la madrugada); 4) síntomas autonómicos parasimpáticos craneofaciales ipsilaterales obligatorios (inyección conjuntival, epífora/lagrimeo, congestión nasal, rinorrea, edema palpebral y síndrome de Horner transitorio con ptosis y miosis por paresia simpática carotídea); y 5) agitación psicomotora distintiva (el paciente deambula, se golpea o balancea, en contraste con el paciente con migraña que prefiere permanecer inmóvil a oscuras).
+
+Tratamiento Abortivo Agudo: El tratamiento de rescate de elección para el ataque agudo es la inhalación de Oxígeno normobárico al 100% a alto flujo (12 a 15 L/minutos) a través de una mascarilla facial con bolsa de no reinhalación (reservorio) durante 15 minutos (logra vasoconstricción cerebral mediada por hiperoxia y supresión del reflejo trigeminovascular en > 75% de los pacientes), asociado a Sumatriptán 6 mg por vía subcutánea (los triptanes orales no sirven por inicio de acción tardío). Para la prevención de mantenimiento, el fármaco de elección es el Verapamilo a dosis altas.
+
+Análisis de distractores:
+- Opción A es incorrecta: La migraña dura 4 a 72 horas, cursa con náuseas y fotofobia, mejora con el reposo en cama a oscuras (no con deambulación agitada) y no asocia el marcado cortejo autonómico unilateral parasimpático del racimo.
+- Opción C es incorrecta: La neuralgia del trigémino se manifiesta por paroxismos lancinantes ultra-breves de segundos de duración que afectan predominantemente las ramas V2 y V3 desencadenados por el roce cutáneo, no cursa con inyección conjuntival, lagrimeo ni síndrome de Horner, y no dura 60 minutos continuos.
+- Opción D es incorrecta: El glaucoma agudo cursa con midriasis media arrefléctica (no miosis), ojo rojo profundo ciliar y córnea opaca edematosa con presión intraocular marcadamente elevada (> 40-50 mmHg), sin congestión nasal ni rinorrea.
+- Opción E es incorrecta: La cefalea tensional es bilateral, de intensidad leve a moderada, opresiva ('en casco'), sin cortejo vegetativo autonómico y jamás genera dolor atroz con agitación nocturna.
+
+---
+
+### Pregunta 73 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Insuficiencia Cardíaca Crónica: Fenotipos, Diagnóstico & Criterios Framingham
+* **Código Perfil V3:** `1.01.1.006, 1.01.1.007` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Patología GES #24 (Insuficiencia Cardíaca))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción D es la CORRECTA. La paciente cumple criterios clínicos de Framingham para insuficiencia cardíaca congestiva (tres criterios mayores: ortopnea, ingurgitación yugular, crépitos pulmonares; y un criterio menor: edema de extremidades inferiores), presenta péptidos natriuréticos marcadamente elevados (NT-proBNP > 125 pg/mL en paciente no descompensado agudo) y el ecocardiograma demuestra una FEVI preservada (≥ 50%) con evidencia estructural y hemodinámica de disfunción diastólica y presiones de llenado elevadas (hipertrofia concéntrica del VI, dilatación de aurícula izquierda y relación E/e' > 13). Esto configura de manera concluyente el diagnóstico de Insuficiencia Cardíaca con Fracción de Eyección Preservada (IC-FEp). Según la evidencia de los ensayos clínicos EMPEROR-Preserved y DELIVER y las guías de práctica clínica ministeriales e internacionales vigentes, los inhibidores de SGLT2 (Empagliflozina 10 mg/día o Dapagliflozina 10 mg/día) son los únicos fármacos modificadores de la enfermedad que han demostrado reducir significativamente el desenlace combinado de hospitalizaciones por insuficiencia cardíaca y muerte cardiovascular en IC-FEp, asociados a diuréticos de asa (Furosemida) titulados según necesidad para el alivio de la sobrecarga de volumen.
+
+Análisis de distractores:
+- Opción A es incorrecta: La IC-FEr se define formalmente por una FEVI ≤ 40%. En esta paciente la FEVI es del 56% (FE preservada). La cuádruple terapia completa (ARNI, betabloqueadores y ARM a dosis plenas) tiene indicación formal con reducción de mortalidad demostrada en IC-FEr, no en IC-FEp.
+- Opción B es incorrecta: El cor pulmonale es una falla ventricular derecha secundaria a hipertensión pulmonar por neumopatía crónica parenquimatosa o vascular (como EPOC grave); en esta paciente la patología primaria es del ventrículo izquierdo (hipertrofia y presiones de llenado aumentadas).
+- Opción C es incorrecta: El cuadro clínico corresponde a congestión cardíaca retrógrada con NT-proBNP elevado; no existen elementos clínicos ni de laboratorio de hipoalbuminemia ni síndrome nefrótico.
+- Opción E es incorrecta: La paciente no es asintomática; se encuentra en clase funcional III con ortopnea y signos congestivos evidentes que demandan tratamiento médico activo.
+
+---
+
+### Pregunta 74 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico
+* **Código Perfil V3:** `1.04.2.009, 1.04.3.002, 1.04.3.008, 1.04.3.012` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES): Prevención y Profilaxis Post-Exposición Rabia y Tétanos)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la CORRECTA. El paciente presenta una "herida sucia o de alto riesgo tetanígeno" (punzante profunda > 1 cm, con tejido desvitalizado y contaminada con tierra y materia orgánica, condiciones anaeróbicas ideales para la proliferación de esporas de Clostridium tetani).
+En pacientes con antecedente de vacunación incompleta, desconocida o con menos de 3 dosis en su vida, la norma técnica ministerial del MINSAL exige la combinación simultánea de:
+1) Inmunización pasiva con Inmunoglobulina Humana Antitetánica (IGH-T, 250 UI IM): provee anticuerpos neutralizantes circulantes de forma inmediata para inactivar la tetanospasmina antes de su fijación irreversible a las interneuronas de la médula espinal;
+2) Inmunización activa con Vacuna dT (toxoide tetánico-diftérico del adulto, 0.5 mL IM): inicia la producción endógena de anticuerpos (debiendo completarse el esquema con dosis a los 30 días y a los 6 meses).
+Regla técnica de aplicación: Ambos preparados deben administrarse en sitios anatómicos distintos (ej. deltoides derecho e izquierdo) y con jeringas diferentes para evitar que la inmunoglobulina neutralice el toxoide vacunal in situ.
+
+Análisis de distractores:
+- Opción A es incorrecta: La vacuna tarda entre 10 y 14 días en inducir anticuerpos protectores; el período de incubación del tétanos en heridas sucias puede ser de 3 a 7 días, por lo que prescindir de la inmunoglobulina expone al paciente a tétanos fulminante.
+- Opción C es incorrecta: La inmunoglobulina sólo confiere protección transitoria (vida media de 3-4 semanas); sin iniciar la vacuna con toxoide dT, el paciente no adquiere inmunidad activa prolongada.
+- Opción D es incorrecta: La profilaxis antibiótica no previene el tétanos, el cual está mediado por una potente exotoxina bacteriana; no sustituye bajo ninguna circunstancia a los inmunobiológicos.
+- Opción E es incorrecta: Limitarse a curaciones locales en una herida tetanígena de alto riesgo sin vacunar ni administrar antitoxina constituye negligencia médica inexcusable.
+
+---
+
+### Pregunta 75 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Tratamiento Escalonado de la DM2 y Canasta GES MINSAL
+* **Código Perfil V3:** `1.04.1.008` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción C es la respuesta correcta. En el algoritmo contemporáneo de tratamiento escalonado de la Diabetes Mellitus Tipo 2 (guías ADA 2026, consensos de la Sociedad Europea de Cardiología y recomendaciones técnicas del MINSAL), la presencia de comorbilidad cardiovascular de origen aterosclerótico establecida (infarto agudo de miocardio previo, angina inestable, ACV/AIT o enfermedad arterial periférica) dicta de manera imperativa la selección del segundo fármaco que debe añadirse a la metformina. En pacientes con enfermedad aterosclerótica coronaria comprobada, los Agonistas del Receptor de GLP-1 (GLP-1 RA) con beneficio cardiovascular demostrado (como Semaglutida subcutánea, Dulaglutida o Liraglutida) y los inhibidores de SGLT2 son los agentes de primera línea recomendados independientemente del nivel basal de HbA1c. Los ensayos clínicos LEADER, SUSTAIN-6 y REWIND han demostrado que los análogos de GLP-1 reducen significativamente los Eventos Cardiovasculares Mayores Adversos (MACE de 3 componentes: muerte cardiovascular, infarto no fatal y accidente cerebrovascular no fatal), además de enlentecer la nefropatía y favorecer una pérdida de peso sustancial (lo cual beneficia directamente a este paciente con obesidad clase I e IMC de 31.4 kg/m²).
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: La glibenclamida es una alternativa de bajo costo disponible en la canasta básica de APS cuando no existen comorbilidades vasculares, pero no ha demostrado ninguna reducción de eventos coronarios ni mortalidad; por el contrario, induce ganancia de peso y confiere un riesgo inaceptablemente alto de hipoglicemias que pueden desencadenar isquemia miocárdica en un coronario.
+- Opción B es incorrecta: La pioglitazona promueve la retención hidrosalina y aumenta significativamente el riesgo de hospitalización por insuficiencia cardíaca descompensada en pacientes con cardiopatía isquémica previa.
+- Opción D es incorrecta: La acarbosa es un fármaco débil con intolerancia digestiva frecuente (meteorismo, diarrea) que no tiene ningún impacto protector sobre eventos coronarios o mortalidad cardiovascular.
+- Opción E es incorrecta: La repaglinida es un secretagogo que estimula la secreción de insulina por un mecanismo similar a las sulfonilureas; no reduce eventos MACE ni mortalidad en prevención secundaria.
+
+---
+
+### Pregunta 76 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo
+* **Código Perfil V3:** `1.08.1.003` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Derivar** · GES: No GES directo · Urgencia Hematológica de Nivel Terciario)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El cuadro corresponde a una Anemia Hemolítica Autoinmune (AHAI) por Crioaglutininas (o anticuerpos fríos). Típicamente está mediada por anticuerpos de isotipo IgM dirigidos contra el antígeno eritrocitario I/i, los cuales se unen al eritrocito a bajas temperaturas (< 37 °C) en las regiones acrales del cuerpo (orejas, nariz, dedos), desencadenando aglutinación vascular reversible (acrocianosis dolorosa) y fijando el complemento. Al regresar los hematíes a la circulación central a 37 °C, la IgM se disocia pero el complemento permanece fijado a la membrana celular, promoviendo hemólisis intravascular y extravascular hepática. La infección reciente por Mycoplasma pneumoniae (o virus de Epstein-Barr) es el gatillante postinfeccioso clásico. En el Test de Coombs Directo, el hallazgo característico es positividad exclusiva para C3d y negatividad para IgG. Es una REGLA TERAPÉUTICA CARDINAL recordar que la enfermedad por crioaglutininas NO responde a los glucocorticoides ni a la esplenectomía (a diferencia de la AHAI por anticuerpos calientes IgG). El pilar del manejo es evitar el frío y calentar al paciente; si el cuadro es grave o crónico, el tratamiento farmacológico de elección es Rituximab (anti-CD20).
+
+Análisis de distractores:
+- Opción A: La AHAI por anticuerpos calientes está mediada por IgG (Coombs positivo para IgG), ocurre a 37 °C sin fenómeno de acrocianosis acral, se destruye predominantemente en el bazo y SÍ responde excelentemente a prednisona.
+- Opción C: El PTT cursa con Coombs negativo, trombocitopenia severa consumptiva y esquistocitos abundantes en frotis.
+- Opción D: La HPN es un defecto clonal adquirido del gen PIGA sin autoinmunidad (Coombs negativo).
+- Opción E: El SUH típico cursa tras diarrea disentérica con falla renal aguda oligoanúrica y trombocitopenia con Coombs negativo.
+
+---
+
+### Pregunta 77 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis
+* **Código Perfil V3:** `1.06.1.006` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: GES: colecistectomía preventiva en colelitiasis, 35 a 49 años)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (E): La tríada de dolor en hipocondrio derecho prolongado (> 6 horas), fiebre con respuesta inflamatoria sistémica (leucocitosis con desviación a la izquierda y elevación de PCR), signo de Murphy positivo y hallazgos ecográficos categóricos (lito enclavado en bacinete, pared vesicular > 4 mm, doble contorno y líquido perivesicular) configuran el diagnóstico indiscutible de Colecistitis Aguda Litiásica. Según las Guías de Tokio 2018 y los consensos quirúrgicos chilenos, la colecistitis aguda es la patología biliar que requiere resolución quirúrgica de urgencia: la conducta estándar de elección es la hospitalización con antibióticos endovenosos (ceftriaxona + metronidazol o ampicilina/sulbactam) y colecistectomía laparoscópica precoz dentro de las primeras 72 horas desde el inicio de los síntomas, lo que reduce la estadía hospitalaria, complicaciones y costos en comparación con el tratamiento diferido.
+
+Análisis de distractores:
+- A es incorrecta: La colecistitis aguda no puede manejarse de forma ambulatoria; el riesgo de gangrena vesicular, perforación libre y sepsis biliar es elevado. El GES garantiza la colecistectomía electiva preventiva en colelitiasis asintomática o sintomática no complicada en personas de 35 a 49 años, no para resolver urgencias sépticas.
+- B es incorrecta: La paciente no tiene ictericia, su bilirrubina es normal y el colédoco mide 4 mm sin litiasis; la CPRE es un procedimiento con alta morbimortalidad y no tiene indicación.
+- C es incorrecta: 'Enfriar el cuadro' con antibióticos para operar a las 6-8 semanas es un paradigma quirúrgico obsoleto; se asocia a tasas elevadas de falla terapéutica, recurrencias precoces graves y una cirugía diferida técnicamente más difícil por fibrosis cicatrizal densa.
+- D es incorrecta: La colecistostomía percutánea es una técnica de rescate reservada para pacientes críticos o con riesgo quirúrgico y anestésico prohibitivo (shock séptico en UCI) que no pueden tolerar una anestesia general, lo que no aplica a esta paciente hemodinámicamente estable.
+
+---
+
+### Pregunta 78 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)
+* **Código Perfil V3:** `1.05.1.023, 1.05.2.008, 1.05.2.009` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: No GES)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (E): La paciente presenta una Crisis Miasténica: falla neuromuscular de los músculos respiratorios e intercostales que genera una Insuficiencia Respiratoria Aguda Hipercápnica (Tipo 2) con acidosis respiratoria aguda (pH 7.24 y PaCO2 66 mmHg). El cálculo del Gradiente Alvéolo-Arterial de Oxígeno [PAO2 - PaO2 = 150 - (66 / 0.8) - 53 = 14.5 mmHg, rigurosamente normal para su edad] es el dato clave que confirma que el parénquima pulmonar y la microvasculatura están intactos; la hipoxemia es secundaria exclusivamente a la hipoventilación alveolar pura. El hallazgo al examen físico de respiración paradójica abdominal (el abdomen se hunde durante la inspiración) es el signo semiológico cardinal de fatiga y claudicación diafragmática bilateral inminente. En una crisis miasténica con disociación toracoabdominal, la ventilación no invasiva fracasa y la intubación endotraqueal precoz bajo secuencia rápida e ingreso a UCI es la medida prioritaria y salvadora antes de que ocurra paro respiratorio.
+
+Análisis de distractores:
+- A es incorrecta: La IRA Tipo 1 se define por PaCO2 normal o baja y gradiente alvéolo-arterial marcadamente elevado (> 20–30 mmHg) por alteración V/Q o shunt; en este caso la PaCO2 está muy elevada y el gradiente es normal.
+- B es incorrecta: La hiperventilación psicógena produce alcalosis respiratoria aguda (pH > 7.45 y PaCO2 < 35 mmHg); administrar benzodiacepinas a una paciente con acidosis respiratoria e hipoventilación produce paro cardiorrespiratorio inmediato.
+- C es incorrecta: El TEP masivo cursa con hipocapnia por taquipnea refleja, acidosis metabólica por shock y gradiente alvéolo-arterial marcadamente ensanchado, incompatible con este caso.
+- D es incorrecta: La neumonía aspirativa compromete el espacio alveolar, cursa con infiltrados en la radiografía y eleva drásticamente el gradiente A-a; además, la cánula nasal a 2 L/min no resuelve la hipoventilación hipercápnica.
+
+---
+
+### Pregunta 79 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria
+* **Código Perfil V3:** `1.09.1.010, 1.09.2.007` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: Sin garantía GES específica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. Este caso clínico aborda una de las distinciones más críticas de la medicina intensiva y neuroquirúrgica: SIADH versus Síndrome Pierde Sal Cerebral (Cerebral Salt Wasting, CSW). Ambas entidades cursan con hiponatremia hipotónica, orina inapropiadamente concentrada (Osmolaridad urinaria > 100 mOsm/kg) y natriuresis elevada (Sodio urinario > 40 mEq/L) en contexto de una lesión cerebral aguda. La CLAVE FISIOPATOLÓGICA ABSOLUTA radica en el estado del volumen extracelular:
+- En el SIADH el paciente se encuentra estrictamente EUVOLÉMICO (sin edemas pero sin ortostatismo ni deshidratación, con balance hídrico neutro o discretamente positivo).
+- En el Pierde Sal Cerebral, mediado por liberación masiva de péptidos natriuréticos centrales (BNP) y disautonomía simpática renal, el riñón pierde sal de forma primaria, arrastrando agua y produciendo poliuria masiva, balance marcadamente negativo (-3.000 mL) e HIPOVOLEMIA HEMODINÁMICA SEVERA (hipotensión ortostática, taquicardia refleja, mucosas secas, colapso yugular y aumento de BUN).
+La importancia del diagnóstico diferencial es vital: mientras que en el SIADH el pilar terapéutico es la restricción hídrica, en el Pierde Sal Cerebral la restricción de agua es mortal, pues profundiza la hipovolemia, colapsa el flujo sanguíneo cerebral y precipita isquemia o vasoespasmo. El tratamiento correcto del CSW es la reposición hidrosalina agresiva con Suero Fisiológico al 0.9% intravenoso (y comprimidos de NaCl o fludrocortisona en casos refractarios) hasta restaurar la normovolemia.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: Tratar a esta paciente como un SIADH indicando restricción de líquidos provocaría shock hipovolémico e infarto cerebral secundario por hipoperfusión tisular.
+- Opción C es incorrecta: La polidipsia primaria se caracteriza por ingesta compulsiva de agua en pacientes psiquiátricos, cursando con orina máximamente diluida (Osmolaridad urinaria < 100 mOsm/kg y densidad < 1.005), lo opuesto a este caso donde la orina está concentrada a 490 mOsm/kg.
+- Opción D es incorrecta: La diabetes insípida central se caracteriza por falta de ADH, produciendo poliuria de agua libre con orina diluida (Osmolaridad urinaria < 200 mOsm/kg) e hipernatremia progresiva (> 145 mEq/L), no hiponatremia con orina concentrada.
+- Opción E es incorrecta: La insuficiencia cardíaca descompensada cursa con sobrecarga de volumen (edemas periféricos, ingurgitación yugular y crepitaciones) y sodio urinario muy bajo (< 20 mEq/L) por avidez de reabsorción renal.
+
+---
+
+### Pregunta 80 · Clave Oficial: **[ A ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Artritis Séptica del Adulto y Protésica: Etiología, Drenaje Urgente y Antimicrobianos
+* **Código Perfil V3:** `1.04.2.007` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sospecha y confirmación de urgencia · Derivación prioritaria si sospecha séptica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la A.
+
+Fisiopatología y Manejo Clínico: La paciente presenta la clásica presentación clínica del síndrome artritis-dermatitis por Infección Gonocócica Diseminada (IGD), provocada por cepas hematógenas de Neisseria gonorrhoeae. Es la causa más frecuente de artritis séptica en adultos jóvenes y adolescentes sexualmente activos. La tríada clínica distintiva comprende: 1) tenosinovitis migratoria o aditiva que compromete muñecas, dedos y tobillos; 2) lesiones cutáneas periféricas escasas (pápulas, pústulas o vesículas de base eritematosa con centro hemorrágico/necrótico); y 3) poliartralgias o mono/oligoartritis asimétrica con fiebre. La tinción de Gram del líquido sinovial suele ser negativa en más del 70% de los casos de IGD y los cultivos articulares resultan positivos en menos del 50%, debido a que la fase bacterémica produce daño mediado por complejos inmunes o rápida lisis bacteriana; por ende, un Gram negativo jamás descarta la infección gonocócica. El tratamiento de elección de acuerdo con las guías del MINSAL y de los CDC es Ceftriaxona 1-2 g/día por vía endovenosa (hasta 24-48 horas tras la mejoría clínica, completando 7 días de terapia), asociada a Azitromicina 1 g oral en dosis única para cubrir empíricamente la frecuente coinfección por Chlamydia trachomatis.
+
+Análisis de distractores:
+- Opción B es incorrecta: La artritis reactiva es una espondiloartritis asimétrica que típicamente ocurre 1 a 4 semanas tras una infección gastrointestinal o genitourinaria, pero la presencia de pústulas hemorrágicas dérmicas acrales, tenosinovitis aguda de muñecas y fiebre alta con líquido articular purulento en una mujer joven es la firma clínica de bacteriemia gonocócica activa que requiere antibióticos parenterales urgentes.
+- Opción C es incorrecta: Aunque la endocarditis puede provocar lesiones cutáneas embólicas (lesiones de Janeway) y artralgias, la tenosinovitis purulenta aguda articular en una mujer joven sexualmente activa es típica de N. gonorrhoeae, no de viridans, y el esquema de primera línea no es vancomicina monoterapia.
+- Opción D es incorrecta: Neisseria meningitidis puede causar artritis y púrpura fulminante, pero el síndrome tenosinovitis-dermatitis pustular en paciente sexualmente activa corresponde a gonococo, frente al cual ceftriaxona es el antibiótico de referencia debido a la resistencia de gonococo a penicilinas.
+- Opción E es incorrecta: La gota es excepcionalmente rara en mujeres premenopáusicas con función renal normal, no produce pústulas cutáneas ni tenosinovitis migratoria de muñecas, y el alopurinol está absolutamente contraindicado durante una crisis aguda.
+
+---
+
+### Pregunta 81 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Endocrinología
+* **Tema:** Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico
+* **Código Perfil V3:** `1.04.1.009` (Dx: **Calcio total corregido por albúmina o Calcio Iónico + PTH intacta (PTHi). PTH elevada/inapropiada = HPT 1°; PTH suprimida = Neoplasia / Vit D** · Tx: **Crisis aguda: Suero fisiológico 0.9% enérgico + Ácido Zoledrónico EV +/- Calcitonina. HPT 1°: Paratiroidectomía si cumple criterios** · Seg: **Calcio sérico, fósforo y función renal post-resección. Monitoreo de hipocalcemia severa por 'Síndrome del Hueso Hambriento'** · GES: No GES directo. Garantías por patología oncológica o nefrológica si concurre)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+El cuadro corresponde a una Hipercalcemia Hipocalciúrica Familiar (HHF), un trastorno genético autosómico dominante infrecuente pero cardinal en el diagnóstico diferencial del hiperparatiroidismo primario. Se debe a mutaciones inactivadoras heterocigotas en el gen del receptor sensor de calcio (CaSR), lo que desplaza hacia la derecha el umbral de sensado de calcio tanto en las glándulas paratiroides (liberan PTH con calcemias más altas de lo normal) como en los túbulos renales (aumenta la reabsorción tubular de calcio). Clásicamente cursa con hipercalcemia leve asintomática, PTH normal o discretamente elevada, antecedentes familiares de hipercalcemia benigna y, como dato confirmatorio patognomónico, una excreción fraccionada de calcio en orina (FeCa) menor al 1% (FeCa < 0.01, a diferencia del hiperparatiroidismo primario donde la FeCa suele ser > 1-2%). En la HHF el curso es enteramente benigno sin afectación ósea ni litiásica, y la paratiroidectomía está FORMALMENTE CONTRAINDICADA puesto que no normaliza la calcemia y solo expone al paciente a riesgos quirúrgicos e hipoparatiroidismo definitivo.
+
+Análisis de distractores:
+- Opción A: En el hiperparatiroidismo primario la excreción fraccionada de calcio es típicamente > 1-2% debido a la filtración aumentada de calcio; someter a cirugía a un paciente con HHF es un error médico grave ya que no resuelve el defecto receptor.
+- Opción B: El MEN-1 produce hiperparatiroidismo primario clásico con hipercalciuria (> 2%) e hiperplasia multiglandular con litiasis renal frecuente y adenomas hipofisarios o tumores neuroendocrinos.
+- Opción C: La intoxicación por vitamina D cursa con PTH suprimida a niveles indetectables e hipercalciuria muy elevada (> 300-400 mg/24h).
+- Opción E: El hiperparatiroidismo terciario se observa en pacientes con insuficiencia renal crónica avanzada de larga data o postrasplante renal con hiperfosfatemia y daño óseo severo previo.
+
+---
+
+### Pregunta 82 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Cardiología
+* **Tema:** Estenosis Aórtica: Semiología, Severidad & TAVI vs SAVR (Guía GES)
+* **Código Perfil V3:** `1.01.1.002` (Dx: **Específico** · Tx: **Completo** · Seg: **Derivar** · GES: Patología GES #24 (Tratamiento Quirúrgico y Percutáneo de Valvulopatías))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la CORRECTA. El paciente cumple criterios ecocardiográficos inequívocos de Estenosis Aórtica Severa: 1) Área Valvular Aórtica < 1.0 cm² (0.72 cm²); 2) Gradiente medio transvalvular ≥ 40 mmHg (49 mmHg); y 3) Velocidad pico aórtica ≥ 4.0 m/s (4.3 m/s). La semiología confirma la severidad hemodinámica (pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y R2 con componente aórtico apagado o inaudible). La aparición de síntomas cardinales (disnea y presíncope de esfuerzo) marca un punto de inflexión pronóstico dramático: sin resolución de la obstrucción mecánica, la sobrevida media cae a menos de 2 a 3 años con un riesgo inminente de muerte súbita. La guía clínica GES y las normativas internacionales establecen como indicación formal el reemplazo valvular aórtico; en pacientes de 75 años o más, o con comorbilidades y fragilidad, el implante percutáneo de válvula aórtica transcatéter (TAVI) es el procedimiento de elección preferente frente a la cirugía abierta tradicional (SAVR).
+
+Análisis de distractores:
+- Opción A es incorrecta: El área valvular < 1.0 cm² y el gradiente > 40 mmHg definen estenosis severa, no moderada. Además, los vasodilatadores potentes (como IECA en dosis altas) en presencia de una estenosis aórtica severa fija pueden inducir hipotensión ortostática catastrófica y colapso cardiovascular.
+- Opción C es incorrecta: La esclerosis aórtica senil cursa con engrosamiento o calcificación valvular pero con velocidad pico < 2.5 m/s, gradiente normal y sin repercusión hemodinámica ni clínica.
+- Opción D es incorrecta: En un paciente con estenosis aórtica severa SINTOMÁTICA, la prueba de esfuerzo (ergometría) está FORMALMENTE CONTRAINDICADA por el elevado riesgo de desencadenar hipotensión refractaria, síncope, taquiarritmias ventriculares y muerte súbita durante la prueba.
+- Opción E es incorrecta: El paciente presenta una estenosis aórtica con soplo sistólico eyectivo, no una insuficiencia aórtica (la cual se manifiesta por soplo diastólico aspirativo y pulsos saltones tipo Corrigan).
+
+---
+
+### Pregunta 83 · Clave Oficial: **[ D ]**
+
+* **Especialidad:** Reumatología
+* **Tema:** Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal
+* **Código Perfil V3:** `1.05.1.004` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Sin garantía GES específica · Derivación a reumatología y manejo multidisciplinario)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la D.
+
+Fisiopatología y Manejo Clínico de Urgencia: La paciente presenta una Crisis Renal Esclerodérmica (CRE), una emergencia reumatológica y nefrológica potencialmente mortal que ocurre característicamente en pacientes con Esclerosis Sistémica variedad Cutánea Difusa de inicio reciente (< 3-4 años) y anti-Scl-70 positivo. Se desencadena o precipita con alta frecuencia por el uso de corticoides a dosis moderadas o altas (prednisona > 15 mg/día), los cuales están terminantemente desaconsejados en esta patología. La fisiopatología central es una vasculopatía obliterativa de las arterias interlobulillares renales que genera isquemia cortical severa, hiperreninemia masiva mediada por el aparato yuxtaglomerular e hipertensión arterial maligna acelerada, acompañada de insuficiencia renal oligúrica aguda y microangiopatía trombótica (anemia hemolítica microangiopática con esquistocitos y trombocitopenia de consumo). El tratamiento de elección que cambió radicalmente la sobrevida (de una mortalidad histórica > 85% a una recuperación superior al 70%) es el bloqueo inmediato y potente del eje renina-angiotensina con Inhibidores de la ECA (IECA), específicamente Captopril por vía oral (por su rápido inicio de acción y vida media corta que permite titulación horaria), con metas de normalización gradual de la PA.
+
+Análisis de distractores:
+- Opción A es incorrecta: Confundir la CRE con una glomerulonefritis lúpica y administrar bolos de corticoides es un error gravísimo y letal, ya que los corticoides a dosis altas perpetúan y empeoran catastróficamente la crisis renal esclerodérmica.
+- Opción B es incorrecta: Aunque cursa con microangiopatía trombótica (esquistocitos y trombocitopenia), se trata de un fenómeno secundario al cizallamiento eritrocitario en arteriolas renales estenosadas por hiperreninemia maligna; la plasmaféresis no tiene utilidad primaria y retrasar los IECA conduce a pérdida irreversible de la función renal y muerte.
+- Opción C es incorrecta: La causa desencadenante en una esclerodermia difusa expuesta a corticoides con crisis hipertensiva es la CRE dependiente de angiotensina II, donde el eculizumab no es la primera línea y su costo/disponibilidad no reemplaza al captopril.
+- Opción E es incorrecta: La displasia fibromuscular es típica de mujeres jóvenes sin esclerodermia ni microangiopatía; no explica la esclerodermia ni la microangiopatía sistémica.
+
+---
+
+### Pregunta 84 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Hematología
+* **Tema:** Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES
+* **Código Perfil V3:** `1.08.1.012` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Completo** · GES: No GES directo · Programa de Inmunosupresión y Urgencia Hematológica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La paciente presenta una Púrpura Trombocitopénica Inmune (PTI) primaria del adulto con trombocitopenia severa (< 20.000/uL, en este caso 7.000/uL) y signos de hemorragia mucosa activa ('púrpura húmedo' evidenciado por ampollas hemorrágicas orales y epistaxis). La presencia de púrpura húmedo en una trombocitopenia profunda es un signo de alarma clínica crítica que anticipa un riesgo elevado de hemorragia intracraneal letal o digestiva masiva. La conducta médica inmediata e inaplazable es la hospitalización urgente y el tratamiento combinado de rescate con Corticoides a dosis altas (Dexametasona 40 mg al día por 4 días o Metilprednisolona) más Inmunoglobulina Endovenosa (IgEV a dosis de 1 g/kg/día por 1-2 días). La IgEV satura competitivamente los receptores Fc de los macrófagos esplénicos, frenando la destrucción plaquetaria y logrando un ascenso rápido y seguro del recuento plaquetario en 24 a 48 horas (mucho más veloz que los corticoides orales solos).
+
+Análisis de distractores:
+- Opción A: Es una negligencia médica inaceptable; enviar al domicilio a una paciente con 7.000 plaquetas y sangrado mucocutáneo activo conlleva un riesgo inminente de muerte hemorrágica.
+- Opción B: Las plaquetas transfundidas solas en PTI son rápidamente destruidas en minutos a pocas horas por los autoanticuerpos circulantes; la transfusión plaquetaria se reserva estrictamente para hemorragias que amenazan la vida inmediata y siempre administrada en conjunto con IgEV y corticoides.
+- Opción D: La esplenectomía es una terapia de segunda línea para casos refractarios crónicos tras al menos 12 meses de evolución, jamás un tratamiento inicial en agudo.
+- Opción E: La aspirina inhibe la ciclooxigenasa plaquetaria y precipitaría un sangrado catastrófico fatal.
+
+---
+
+### Pregunta 85 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Infectología
+* **Tema:** Infecciones Oportunistas Mayores en VIH/SIDA
+* **Código Perfil V3:** `1.04.1.019, 1.04.3.006` (Dx: **Específico** · Tx: **Inicial** · Seg: **Derivar** · GES: Garantía Explícita en Salud (GES N° 18): Tratamiento de Infecciones Oportunistas en VIH)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción C es la CORRECTA. El cuadro de cefalea subaguda progresiva con síndrome de hipertensión endocraneana (vómitos, papiledema, presión de apertura > 20-25 cm H2O) en un paciente con inmunodeficiencia avanzada por VIH (SIDA con CD4 < 100 células/mm³), con LCR claro, pleocitosis linfocitaria, hipoglucorraquia y visualización directa de levaduras gemantes encapsuladas con halo mucilaginoso en la tinción con Tinta China es patognomónico de Meningitis Criptocócica (Cryptococcus neoformans).
+El tratamiento normado por la Guía Clínica GES N° 18 consta de dos pilares esenciales:
+1) Tratamiento antifúngico fungicida de fase de inducción: Anfotericina B deoxicolato (0.7-1.0 mg/kg/día EV) o liposomal (3-4 mg/kg/día EV) asociada a Flucitosina oral (100 mg/kg/día) o Fluconazol a dosis altas (800-1200 mg/día) durante un mínimo de 2 semanas, seguida de fase de consolidación y mantención con Fluconazol oral;
+2) Control activo de la hipertensión endocraneana: la elevada presión intracraneana es la principal causa de letalidad y pérdida visual irreversible; su manejo exige punciones lumbares terapéuticas evacuadoras repetidas diarias (extrayendo volumen hasta reducir la presión de apertura a < 20 cm H2O o reducirla en un 50%).
+
+Análisis de distractores:
+- Opción A es incorrecta: La meningitis neumocócica se presenta con inicio hiperagudo (< 48 horas), rigidez meníngea extrema, LCR turbio purulento y predominio neutrofílico (> 80% PMN), no con levaduras encapsuladas ni curso subagudo.
+- Opción B es incorrecta: La toxoplasmosis cerebral se manifiesta con convulsiones, signos de focalidad neurológica y múltiples lesiones nodulares con realce anular y edema vasogénico en núcleos basales en la RMN; la neuroimagen de este paciente no mostró lesiones focales.
+- Opción D es incorrecta: La LMP produce alteraciones cognitivas y motoras asimétricas con desmielinización en la sustancia blanca sin realce en la RMN y no consume glucosa en LCR ni responde a corticoides.
+- Opción E es incorrecta: La neurocisticercosis no cursa con levaduras en la tinción de Tinta China en LCR.
+
+---
+
+### Pregunta 86 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Gastroenterología
+* **Tema:** Hepatitis Aguda y Crónica
+* **Código Perfil V3:** `1.06.1.019` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: GES: Hepatitis crónica por virus B y C (estudio y antivirales garantizados))
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (E): La positividad de los anticuerpos anti-VHC demuestra exposición previa al virus de la hepatitis C en algún momento de la vida, pero cerca de un 15 a 25 % de las personas aclaran la infección espontáneamente sin desarrollar enfermedad crónica. Por lo tanto, bajo las guías clínicas ministeriales y la Garantía GES N° 75 ('Hepatitis Crónica por Virus C'), el examen confirmatorio indispensable para demostrar replicación viral activa e infección crónica es la Carga Viral de ARN-VHC por PCR. Si el ARN resulta detectable, la paciente tiene acceso garantizado por ley a la etapificación no invasiva (elastografía) y al tratamiento con Antivirales de Acción Directa (AAD pangenómicos como Sofosbuvir/Velpatasvir o Glecaprevir/Pibrentasvir), los cuales logran tasas de curación virológica superiores al 95 % con un excelente perfil de seguridad.
+
+Análisis de distractores:
+- A es incorrecta: El interferón alfa pegilado y la ribavirina son terapias obsoletas y tóxicas (provocan anemia hemolítica, depresión severa, citopenias) que han sido reemplazadas por completo por los AAD orales libres de interferón. Además, jamás se inicia tratamiento antiviral sin certificar la replicación del virus por PCR.
+- B es incorrecta: La biopsia hepática ya no es un requisito para diagnosticar ni iniciar tratamiento en la hepatitis C; la evaluación de la fibrosis se realiza mediante métodos no invasivos (elastografía hepática o índices serológicos FIB-4/APRI).
+- C es incorrecta: Los anticuerpos anti-VHC no son neutralizantes ni confieren inmunidad protectora; el 75-85 % de los pacientes expuestos cronifica la infección con riesgo de cirrosis y hepatocarcinoma si no se tratan.
+- D es incorrecta: Repetir los anticuerpos en 6 meses es inútil porque permanecerán positivos de por vida independientemente de la presencia del virus; la dieta o el reposo no modifican la historia natural de la hepatitis C.
+
+---
+
+### Pregunta 87 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Nefrología
+* **Tema:** Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa
+* **Código Perfil V3:** `1.09.1.022` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Sin garantía GES específica)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta. La paciente debuta con un Síndrome Nefrótico Masivo y Puro de instalación explosiva (proteinuria masiva de 11.5 g/24h, hipoalbuminemia severa de 1.9 g/dL, hipercolesterolemia y anasarca sin hematuria glomerular). El hallazgo de glomérulos ópticamente normales en la microscopía de luz asociado a una inmunofluorescencia totalmente negativa (sin depósitos de inmunoglobulinas ni complemento) es la definición diagnóstica patognomónica de la Enfermedad por Cambios Mínimos (o Nefrosis Lipoídea). La microscopía electrónica (de estar disponible) evidenciaría el borramiento y fusión difusa de los pedicelos podocitarios. Aunque es la causa del 90% de los síndromes nefróticos en niños, en adultos representa del 10 al 15% de los casos. A diferencia del paciente pediátrico (en quien se trata empíricamente sin biopsiar), en el adulto la biopsia renal percutánea es obligatoria para certificarla y descartar glomeruloesclerosis focal segmentaria o nefropatía membranosa. El tratamiento de primera línea de elección absoluta es la corticoterapia sistémica con Prednisona oral a dosis de 1 mg/kg/día (o 60 mg/día) durante 8 a 16 semanas. Los adultos responden favorablemente alcanzando remisión completa en más del 80% de los casos, aunque la respuesta suele demorar más que en los niños.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: La nefropatía membranosa muestra en la microscopía óptica engrosamiento difuso homogéneo de la membrana basal glomerular con imágenes de "espículas" (spikes) en la tinción de plata e inmunofluorescencia intensamente positiva granular para IgG y C3, hallazgos totalmente ausentes aquí.
+- Opción C es incorrecta: La glomeruloesclerosis focal y segmentaria (GEFS) se caracteriza microscópicamente por esclerosis, colapso capilar y sinequias hialinas en algunos glomérulos y en porciones segmentarias del ovillo, no por glomérulos ópticamente normales.
+- Opción D es incorrecta: La nefropatía por IgA cursa con hematuria glomerular macro o microscópica dismórfica y en la biopsia muestra expansión mesangial con depósitos mesangiales prominentes de IgA en la inmunofluorescencia.
+- Opción E es incorrecta: La amiloidosis renal muestra en la microscopía óptica depósitos amorfos eosinófilos extracelulares que tiñen con Rojo Congo y muestran birrefringencia verde manzana bajo luz polarizada.
+
+---
+
+### Pregunta 88 · Clave Oficial: **[ E ]**
+
+* **Especialidad:** Neurología y Geriatría
+* **Tema:** Parkinsonismos Secundarios, Farmacológicos y Síndromes Parkinson-Plus
+* **Código Perfil V3:** `1.10.1.006` (Dx: **Sospecha** · Tx: **Inicial** · Seg: **Derivar** · GES: Derivación preferente a nivel secundario ante banderas rojas de parkinsonismo atípico (parálisis de la mirada vertical, caídas precoces, disautonomía severa precoz o nula respuesta a Levodopa).)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción correcta es la E.
+
+Fisiopatología y Sospecha de Parkinsonismo Secundario: El parkinsonismo inducido por fármacos es la causa más frecuente de parkinsonismo secundario y el segundo síndrome parkinsoniano más prevalente en la práctica médica después de la Enfermedad de Parkinson idiopática. Los fármacos bloqueadores de los receptores dopaminérgicos D2 atraviesan la barrera hematoencefálica y antagonizan la vía nigroestriatal. En la práctica clínica chilena, los fármacos más frecuentemente culpables en adultos mayores son los antieméticos proquinéticos (Metoclopramida, Sulpirida), los neurolépticos/antipsicóticos (Haloperidol, Risperidona, Olanzapina) y los bloqueadores de canales de calcio con acción anti-dopaminérgica como Flunarizina y Cinarizina (usados erróneamente para el 'vértigo' crónico). A diferencia de la Enfermedad de Parkinson idiopática (que debuta de manera insidiosa y estrictamente asimétrica y unilateral), el parkinsonismo farmacológico se caracteriza por un debut subagudo (semanas o meses tras el inicio del fármaco) con manifestaciones típicamente bilaterales y simétricas (rigidez y bradicinesia simétrica) y temblor que suele ser postural y cinético más que de reposo puro. La conducta mandatoria, resolutiva y de primera línea es la SUSPENSIÓN INMEDIATA del fármaco causal. En la gran mayoría de los pacientes, los síntomas remiten gradualmente en un lapso de semanas a meses (habitualmente en 1 a 4 meses).
+
+Análisis de distractores:
+- Opción A es incorrecta: Confundir este cuadro con Enfermedad de Parkinson e iniciar Levodopa mientras se mantiene la metoclopramida es un grave error; la metoclopramida bloquea los receptores dopaminérgicos y anulará el efecto de la levodopa, además de mantener la causa subyacente del cuadro.
+- Opción B es incorrecta: La Parálisis Supranuclear Progresiva no se relaciona con metoclopramida, cursa con parálisis supranuclear de la mirada vertical inferior y caídas hacia atrás precoces, y no responde a corticoides.
+- Opción C es incorrecta: La Atrofia Multisistémica es una sinucleinopatía neurodegenerativa que cursa con disautonomía severa precoz (hipotensión ortostática grave, vejiga neurogénica), estridor laríngeo o ataxia cerebelosa; no guarda relación causal con la metoclopramida y el pramipexol no es curativo.
+- Opción D es incorrecta: El paciente tiene signos motores extrapiramidales objetivos (rigidez en rueda dentada real, bradicinesia demostrable) atribuibles directamente a un fármaco proquinético antidopaminérgico probado; no es un trastorno conversivo ni psicógeno.
+
+---
+
+### Pregunta 89 · Clave Oficial: **[ C ]**
+
+* **Especialidad:** Respiratorio
+* **Tema:** Derrame Paraneumónico y Empiema Pleural
+* **Código Perfil V3:** `1.05.1.011, 1.05.1.012` (Dx: **Específico** · Tx: **Completo** · Seg: **Completo** · GES: No GES)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+Justificación de la alternativa correcta (C): El paciente presenta un Derrame Paraneumónico No Complicado (o simple). Los criterios bioquímicos y microbiológicos son categóricos: pH > 7.30 (7.36), glucosa > 60 mg/dL (84 mg/dL), LDH < 1.000 U/L (460 U/L), ausencia de bacterias en la tinción de Gram y aspecto macroscópico límpido no purulento. Esto indica una respuesta inflamatoria estéril en la pleura sin invasión bacteriana activa que genere acidosis local. Según las guías internacionales (BTS/ACCP) y nacionales, el derrame paraneumónico no complicado se resuelve favorablemente con la terapia antibiótica sistémica indicada para la neumonía y NO requiere la instalación de tubo de tórax (pleurostomía). Instalar un tubo de pleurostomía en un derrame no complicado no aporta beneficio y expone al paciente a dolor, infección bacteriana secundaria del espacio pleural e invasividad innecesaria.
+
+Análisis de distractores:
+- A es incorrecta: La pleurostomía cerrada con tubo está indicada en el derrame paraneumónico complicado (pH < 7.20, glucosa < 40–60 mg/dL, LDH > 1.000 U/L) o ante un empiema franco (pus o bacterias visibles en Gram/cultivo), situaciones que no se cumplen en este paciente.
+- B es incorrecta: Los fibrinolíticos intrapleurales (t-PA + DNAsa) se reservan para empiemas tabicados multiloculados en fase fibrinopurulenta que no drenan tras la instalación de un tubo; en un derrame libre de 250 mL están totalmente fuera de indicación.
+- D es incorrecta: La videotoracoscopía (VATS) es un procedimiento quirúrgico indicado ante fracaso del drenaje y fibrinolíticos o colecciones organizadas tabicadas, no para un derrame seroso simple.
+- E es incorrecta: Las punciones evacuadoras repetidas diarias aumentan drásticamente el riesgo de neumotórax y de sobreinfección iatrogénica del espacio pleural, y son innecesarias porque el líquido se reabsorbe con los antibióticos.
+
+---
+
+### Pregunta 90 · Clave Oficial: **[ B ]**
+
+* **Especialidad:** Diabetes y Nutrición
+* **Tema:** Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS
+* **Código Perfil V3:** `1.04.1.002` (Dx: **Específico** · Tx: **Inicial** · Seg: **Completo** · GES: Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más)
+
+**Justificación Clínica y Análisis de Distractores:**
+
+La opción B es la respuesta correcta y refleja la aplicación exacta de los criterios de laboratorio del MINSAL y ADA:
+1. Glicemia de ayuno: 100 a 125 mg/dL define Glicemia de Ayuno Alterada (GAA, una forma de prediabetes). El valor de 108 mg/dL en ayunas confirma GAA.
+2. PTGO a las 2 horas (sobrecarga con 75 g de glucosa anhidra):
+   - < 140 mg/dL: Normal
+   - 140 a 199 mg/dL: Intolerancia a la Glucosa Oral (IGO, prediabetes)
+   - ≥ 200 mg/dL: Diabetes Mellitus
+El valor post-sobrecarga de 168 mg/dL ubica a la paciente indiscutiblemente en el rango de Intolerancia a la Glucosa Oral (IGO). Por lo tanto, la paciente es portadora de Prediabetes (GAA + IGO). Las guías ministeriales chilenas y los ensayos clínicos mundiales (Diabetes Prevention Program, DPP) establecen que la medida terapéutica inicial de elección y con mayor nivel de evidencia costo-efectiva para revertir este estado y prevenir el desarrollo de DM2 es la modificación intensiva del estilo de vida: plan de alimentación saludable bajo en azúcares refinados y grasas saturadas, reducción del 5 al 7% del peso corporal y al menos 150 minutos semanales de actividad física aeróbica moderada repartida en al menos 3 días, con reevaluación diagnóstica con nueva PTGO o glicemia en 1 año.
+
+Análisis de las opciones incorrectas:
+- Opción A es incorrecta: Para el diagnóstico de Diabetes Mellitus se requiere glicemia a las 2 horas de la PTGO ≥ 200 mg/dL, dos glicemias de ayuno ≥ 126 mg/dL, HbA1c ≥ 6.5% o síntomas cardinales con glicemia al azar ≥ 200 mg/dL; la paciente no cumple ninguno de estos criterios y no califica para ingreso a GES N° 2.
+- Opción C es incorrecta: Ambos valores de laboratorio (108 y 168 mg/dL) están francamente elevados por sobre los rangos normales de ayuno (< 100) y postprandial (< 140); otorgar el alta médica es una omisión culpable de prevención cardiovascular.
+- Opción D es incorrecta: Las guías del MINSAL desaconsejan de forma explícita solicitar curva de insulinemia o cálculo de HOMA-IR en la práctica clínica diaria de APS, ya que son pruebas de investigación que carecen de estandarización diagnóstica y no modifican la conducta clínica.
+- Opción E es incorrecta: La paciente no está embarazada; no existe el diagnóstico de diabetes gestacional en una paciente no gestante.
+
+---
+

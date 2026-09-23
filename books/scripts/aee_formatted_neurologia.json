@@ -1,0 +1,2066 @@
+{
+  "10.1": [
+    {
+      "stem": "Un paciente de 55 años sufre un AVE isquémico de arteria cerebral media, el\nque es manejado oportunamente con trombolisis endovenosa, permaneciendo\nsólo con una leve hemiparesia izquierda. Se realiza ECG que resulta normal,\necocardiografía sin alteraciones y ecografía-doppler carotídea con estenosis\ncarotídea derecha de 60% y estenosis carotídea izquierda de 40%. La conducta\nmás adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Iniciar anticoagulación oral y controlar los factores de riesgo cardiovascular"
+        },
+        {
+          "id": "B",
+          "text": "Iniciar aspirina y controlar los factores de riesgo cardiovascular"
+        },
+        {
+          "id": "C",
+          "text": "Realizar endarterectomía derecha"
+        },
+        {
+          "id": "D",
+          "text": "Realizar endarterectomía bilateral"
+        },
+        {
+          "id": "E",
+          "text": "Solicitar angiografía carotídea"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La alternativa correcta es la C (Realizar endarterectomía derecha). La razón principal radica en la presencia de una estenosis carotídea significativa (60%) en el lado derecho, en un paciente que ha sufrido un AVE isquémico reciente.\n\n*   **Estenosis Carotídea Sintomática:** La estenosis carotídea se considera sintomática porque el paciente ya tuvo un evento isquémico (AVE). Las guías internacionales y la evidencia disponible indican que la endarterectomía carotídea (o en algunos casos, la angioplastia con stent) es beneficiosa en pacientes sintomáticos con estenosis entre 50-99% (según algunas guías, el umbral puede ser 70% en otras). El objetivo es reducir el riesgo de un nuevo evento isquémico.\n*   **Oportunidad:** El paciente fue manejado oportunamente con trombólisis, lo cual sugiere que se encuentra en una ventana de tiempo en la que la intervención quirúrgica carotídea puede ser realizada de forma segura y efectiva para prevenir futuros eventos.\n*   **Lado Afectado:** La estenosis del 60% en el lado derecho es la más significativa y, por lo tanto, la que requiere intervención. Aunque existe una estenosis del 40% en el lado izquierdo, esta no alcanza el umbral para la intervención quirúrgica en un paciente sintomático, al menos no de forma inmediata.\n\n**Importante:** Si bien no contamos con una guía clínica MINSAL específica para el manejo de la estenosis carotídea sintomática post-AVE, la evidencia internacional (como las guías de la American Heart Association/American Stroke Association) son consistentes en recomendar la intervención en estenosis significativas en pacientes sintomáticos. El juicio clínico y la discusión del caso con un equipo multidisciplinario (neurólogo, cirujano vascular) son fundamentales.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Un paciente de 67 años, hipertenso y diabético presenta de forma súbita una\nhemiparesia derecha, asociada a afasia, de 30 minutos de duración. Se solicita\nTAC de cerebro que descarta hemorragias. Es manejado adecuadamente, con\nmedidas de neuroprotección y afortunadamente, los síntomas inician una\nrecuperación espontánea antes de comenzar el protocolo de trombolisis. Al\nsegundo día está en excelentes condiciones, sin déficit neurológico ni otras\nalteraciones del examen físico. La conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solicitar TAC de cerebro control"
+        },
+        {
+          "id": "B",
+          "text": "Solicitar electroencefalograma"
+        },
+        {
+          "id": "C",
+          "text": "Solicitar Holter de arritmias, ecocardiograma y eco-doppler carotideo"
+        },
+        {
+          "id": "D",
+          "text": "Iniciar aspirina"
+        },
+        {
+          "id": "E",
+          "text": "Iniciar anticoagulación oral a permanencia"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El paciente presenta un cuadro compatible con un accidente isquémico transitorio (AIT) o un infarto cerebral menor con recuperación espontánea temprana. La aparición súbita de déficit neurológico focal (hemiparesia derecha y afasia), la duración breve (30 minutos) y la recuperación completa antes de las 48 horas (en este caso, al segundo día), sin evidencia de hemorragia en la TAC inicial, son características clave. Un AIT es un evento isquémico cerebral que causa síntomas neurológicos transitorios sin evidencia de infarto agudo en las pruebas de imagen. Sin embargo, clínicamente, el abordaje diagnóstico y la urgencia son idénticos a los de un ACV isquémico, ya que un AIT es un fuerte predictor de un ACV inminente.\n\nLa conducta más adecuada es buscar la etiología subyacente de este evento isquémico para implementar medidas de prevención secundaria específicas y efectivas. Las causas más comunes de AIT/ACV isquémico incluyen: enfermedad aterosclerótica de grandes vasos (especialmente carotídea), fuentes cardioembólicas (como fibrilación auricular, enfermedad valvular, foramen oval permeable, trombos intracavitarios) y enfermedad de pequeños vasos. La solicitud de un Holter de arritmias busca detectar fibrilación auricular paroxística; el ecocardiograma evalúa el corazón como posible fuente de émbolos (válvulas, función ventricular, trombos, foramen oval); y el eco-doppler carotídeo evalúa la presencia de estenosis carotídea significativa, una causa tratable de ACV. Identificar la causa permitirá instaurar el tratamiento más adecuado (por ejemplo, anticoagulación para fibrilación auricular, endarterectomía o stenting para estenosis carotídea severa).",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Un paciente de 60 años, portador de una ACxFA tratada con atenolol y\nanticoagulación oral, consulta por hemiparesia izquierda, de inicio súbito hace\n1 hora, asociada a hemihipoestesia ipsilateral. La conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solicitar TAC de cerebro sin contraste"
+        },
+        {
+          "id": "B",
+          "text": "Solicitar electroencefalograma"
+        },
+        {
+          "id": "C",
+          "text": "Iniciar anticoagulación con heparina"
+        },
+        {
+          "id": "D",
+          "text": "Realizar trombolisis endovenosa"
+        },
+        {
+          "id": "E",
+          "text": "Solicitar angiografía carotidea"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La alternativa correcta es solicitar un TAC de cerebro sin contraste debido a la sospecha clínica de un accidente cerebrovascular (ACV) agudo. El paciente presenta una hemiparesia izquierda de inicio súbito, acompañada de hemihipoestesia ipsilateral, lo cual sugiere fuertemente un evento isquémico o hemorrágico en el hemisferio derecho. El TAC de cerebro sin contraste es el estudio de neuroimagen de primera línea para diferenciar entre un ACV isquémico y uno hemorrágico. Esta diferenciación es crucial porque el tratamiento para cada uno es completamente distinto. En el ACV isquémico, se considera la trombolisis o trombectomía mecánica, mientras que en el ACV hemorrágico, estos tratamientos están contraindicados. La rapidez en la obtención del TAC es fundamental para determinar la elegibilidad del paciente para terapias de reperfusión en caso de ACV isquémico. Las Guías Clínicas MINSAL para el manejo del ACV isquémico establecen que la neuroimagen debe obtenerse idealmente dentro de los primeros 25 minutos desde el arribo del paciente al servicio de urgencias.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Ingresa a SU hombre de 72 años, HTA, DM2, dislipidemia, con 1 hora de\nevolución de afasia asociada a hemiparesia derecha. Se solicita TAC de cerebro\nque no muestra alteraciones. Su conducta siguiente sería:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inicio de AAS asociado a Acenocumarol (Neosintrom) e ingreso a intermedio."
+        },
+        {
+          "id": "B",
+          "text": "Inicio de AAS 250 mg al día, heparina estandar por BIC e ingreso a UCI."
+        },
+        {
+          "id": "C",
+          "text": "Inicio de trombolisis por SK asociado a heparina no fraccionada."
+        },
+        {
+          "id": "D",
+          "text": "Dejar en evolución espontánea, se encuentra fuera de alcance terapéutico."
+        },
+        {
+          "id": "E",
+          "text": "Inicio de trombolisis con tPA."
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "Estamos ante un paciente con un accidente cerebrovascular isquémico (ACV isquémico) agudo. Los síntomas (afasia y hemiparesia) comenzaron hace solo 1 hora, y la TAC inicial no muestra hemorragia. Esto es crucial, ya que la ausencia de hemorragia en la TAC es un criterio de inclusión para la trombolisis con activador tisular del plasminógeno (tPA). El tiempo es cerebro, y cada minuto cuenta en estos casos. La trombolisis es el tratamiento de elección en la fase aguda del ACV isquémico, dentro de las primeras 4.5 horas desde el inicio de los síntomas (y hasta 3 horas en algunos centros, aunque la ventana se está expandiendo). El objetivo es restaurar el flujo sanguíneo al área cerebral afectada y minimizar el daño. La guía clínica del MINSAL para el manejo del ACV isquémico enfatiza la importancia del reconocimiento temprano de los síntomas y la rápida administración de tPA en pacientes elegibles. El paciente cumple con los criterios de inclusión para la trombolisis: déficit neurológico agudo, inicio de los síntomas dentro de la ventana terapéutica y ausencia de hemorragia en la TAC.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    }
+  ],
+  "10.2": [
+    {
+      "stem": "Una mujer de 68 años con antecedentes de AC-VA isquémico derecho,\ncardiopatía isquémica (angina crónica estable), hipertensión arterial bien\ncontrolada y diabetes mellitus tipo 2, consulta por un episodio de AIT (ataque\nisquémico transitorio). En la tomografía axial computarizada no se observan\ncambios en la imagen cerebral previa y en el electrocardiograma se confirma la\nexistencia de una fibrilación auricular, con respuesta ventricular normal, cuya\nreversión a ritmo sinusal, tanto eléctrica como farmacológica, había fracasado\npreviamente. En la ecografía se observa la existencia de una aurícula izquierda\naumentada de tamaño. Los días antes del último episodio seguía tratamiento\ncon aspirina (150 mg diarios). ¿Cuál sería su consejo terapéutico?:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Iniciaría tratamiento con acenocumarol como terapia inicial o tras el empleo de heparina de bajo peso molecular."
+        },
+        {
+          "id": "B",
+          "text": "Sustituiría la aspirina por clopidogrel."
+        },
+        {
+          "id": "C",
+          "text": "Añadiría clopidogrel a la aspirina"
+        },
+        {
+          "id": "D",
+          "text": "Duplicaría la dosis de aspirina."
+        },
+        {
+          "id": "E",
+          "text": "Antes de retirar la aspirina intentaría una nueva reversión farmacológica"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La paciente presenta una fibrilación auricular (FA) con múltiples factores de riesgo tromboembólico, evidenciados por su antecedente de ACV isquémico, diabetes mellitus tipo 2, hipertensión arterial, cardiopatía isquémica, edad (68 años) y sexo femenino. Esto le confiere un puntaje CHA2DS2-VASc muy elevado (7 puntos: 1 por HTA, 1 por DM2, 2 por ACV previo, 1 por enfermedad vascular, 1 por edad 65-74, 1 por sexo femenino), lo que indica un riesgo muy alto de eventos cerebrovasculares isquémicos. El hecho de haber sufrido un ataque isquémico transitorio (AIT) mientras recibía aspirina, sumado a la FA crónica y una aurícula izquierda aumentada de tamaño, refuerza la insuficiencia de la terapia antiplaquetaria para la prevención de tromboembolismos de origen cardioembólico.\n\nLa guía actual para pacientes con FA de alto riesgo como esta, recomienda encarecidamente la anticoagulación oral para la prevención de eventos tromboembólicos. Los antagonistas de la vitamina K, como el acenocumarol, o los anticoagulantes orales directos (DOACs), son significativamente más efectivos que la aspirina o la terapia antiplaquetaria dual en la prevención de eventos cardioembólicos. La opción A propone iniciar acenocumarol, un anticoagulante oral, lo cual es la estrategia más apropiada y basada en la evidencia para esta paciente. La mención de \"terapia inicial o tras el empleo de heparina de bajo peso molecular\" es consistente con la práctica clínica, donde a menudo se utiliza heparina como puente para lograr una anticoagulación rápida mientras el acenocumarol alcanza su nivel terapéutico, especialmente en un contexto de un evento agudo como un AIT.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Un paciente de 46 años, portador de una ACxFA crónica, en tratamiento con\naspirina, presenta bruscamente imposibilidad para hablar y entender el\nlenguaje, asociado a hemiparesia derecha, de 30 minutos de duración, que\nceden espontáneamente. Al examen físico está completamente normal, excepto\npor el pulso irregular a 80x’. La conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enviar a domicilio, indicando anticoagulación con cumarínicos"
+        },
+        {
+          "id": "B",
+          "text": "Administrar heparina de bajo peso molecular y enviar a domicilio, con nuevas dosis subcutáneas, cada 12 horas"
+        },
+        {
+          "id": "C",
+          "text": "Solicitar TAC de cerebro y mantener aspirina"
+        },
+        {
+          "id": "D",
+          "text": "Enviar a domicilio, indicando control ambulatorio con el neurólogo"
+        },
+        {
+          "id": "E",
+          "text": "Hospitalizar, iniciar anticoagulación con heparina, solicitar resonancia magnética nuclear de cerebro e iniciar medidas de neuroprotección"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La respuesta correcta es (e) debido a que el paciente presenta un Ataque Isquémico Transitorio (AIT) de alto riesgo. Un AIT se define como un episodio transitorio de disfunción neurológica causado por isquemia focal cerebral, medular o retiniana, sin infarto agudo. En este caso, la sintomatología (afasia y hemiparesia derecha) es altamente sugestiva de isquemia cerebral en el territorio de la arteria cerebral media izquierda, y la resolución espontánea en 30 minutos cumple con la definición de AIT. El factor de riesgo crucial es la Fibrilación Auricular Crónica (ACxFA), la causa más frecuente de accidente cerebrovascular cardioembólico. A pesar de estar en tratamiento con aspirina, la aparición de un AIT con ACxFA indica un fracaso de la profilaxis antiplaquetaria y una necesidad urgente de cambiar a anticoagulación.\n\nLa hospitalización es imperativa en pacientes con AIT de alto riesgo, como aquellos con fibrilación auricular, para una evaluación rápida y exhaustiva y para iniciar la prevención secundaria de forma inmediata. El riesgo de un accidente cerebrovascular (ACV) después de un AIT es máximo en las primeras horas a días. La resonancia magnética nuclear (RMN) de cerebro con secuencia de difusión (DWI) es el estudio de imagen más sensible para detectar isquemia aguda, incluso en casos donde la TAC cerebral puede ser normal. Iniciar anticoagulación con heparina (ya sea no fraccionada o de bajo peso molecular) es la medida más adecuada para prevenir un evento isquémico recurrente en un paciente con AIT de origen cardioembólico por ACxFA, proporcionando un efecto anticoagulante rápido mientras se espera la estratificación y el inicio de la anticoagulación oral a largo plazo. Las \"medidas de neuroprotección\" en este contexto se refieren a un manejo integral para optimizar el pronóstico, incluyendo el control estricto de factores de riesgo como la presión arterial, la glucemia y el manejo de lípidos, además de la anticoagulación efectiva para prevenir un ACV establecido.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    }
+  ],
+  "10.3": [
+    {
+      "stem": "Un niño de 4 años presenta un cuadro de cefalea y fiebre, asociado a rigidez\nde nuca en el examen físico. Se decide realizar punción lumbar, luego de\ndescartar la presencia de hipertensión endocraneana con un TAC de cerebro, y\nse obtiene un líquido cefalorraquídeo claro, con 60 células por mm3, con 99%\nde mononucleares (linfocitos), proteínas: 50 mg/dl y glucosa: 60 mg/dl. El\ndiagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Meningitis tuberculosa"
+        },
+        {
+          "id": "B",
+          "text": "Meningitis bacteriana"
+        },
+        {
+          "id": "C",
+          "text": "Meningitis herpética"
+        },
+        {
+          "id": "D",
+          "text": "Meningitis viral"
+        },
+        {
+          "id": "E",
+          "text": "Sano"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "El caso clínico describe un paciente pediátrico con un síndrome meníngeo clásico (cefalea, fiebre, rigidez de nuca). La clave para el diagnóstico diferencial se encuentra en el análisis del líquido cefalorraquídeo (LCR).\n\nLas características del LCR del paciente son:\n1.  **Aspecto**: Claro, lo que sugiere una meningitis no purulenta.\n2.  **Celularidad**: 60 células/mm³, lo que indica una pleocitosis leve a moderada (lo normal es < 5 células).\n3.  **Predominio celular**: 99% de mononucleares (linfocitos). Este es el dato más importante, ya que una **pleocitosis a predominio linfocitario** es característica de meningitis virales, tuberculosas o fúngicas, y descarta una meningitis bacteriana típica.\n4.  **Proteínas**: 50 mg/dl. Ligeramente elevadas o en el límite alto de la normalidad (normal < 45 mg/dl), lo cual es compatible con una inflamación meníngea leve.\n5.  **Glucosa**: 60 mg/dl. Este valor se considera normal (**normoglucorraquia**), especialmente si se asume una glicemia sérica normal (aprox. 80-100 mg/dl), manteniendo una relación LCR/plasma > 0.6.\n\nLa combinación de pleocitosis leve a predominio linfocitario, con proteínas levemente elevadas y glucosa normal, es el patrón clásico y más frecuente de una **meningitis viral** (también llamada meningitis aséptica). Los enterovirus son la causa más común en este grupo de edad.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Paciente de 45 años, diabético mal controlado, consulta por fiebre, tos\nproductiva, disnea de reposo y finalmente compromiso de conciencia. Al\nexamen se aprecia paciente en malas condiciones generales, con pulso: 140 lpm,\nregular, presión arterial: 80/40 mmHg, frecuencia respiratoria: 38 rpm,\nGlasgow: 10. En el examen segmentario destacan crépitos en base derecha y\ncampo pulmonar izquierdo. Se inicia resucitación con suro fisiológico y\noxígenos, logrando saturación arterial de 88% a FiO2: 50% y presión arterial:\n100/58 mmHg. El tratamiento antibiótico para este paciente debe ser:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ceftriaxona + Amicacina"
+        },
+        {
+          "id": "B",
+          "text": "Ceftriaxona + Vancomicina"
+        },
+        {
+          "id": "C",
+          "text": "Cefotaximo + Ampicilina"
+        },
+        {
+          "id": "D",
+          "text": "Ceftriaxona + Claritromicina"
+        },
+        {
+          "id": "E",
+          "text": "Cefotaximo + Metronidazol"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "Este caso presenta a un paciente diabético mal controlado con un cuadro de neumonía grave que evoluciona a shock séptico (hipotensión, taquicardia, taquipnea, compromiso de conciencia).  La probabilidad de una neumonía adquirida en la comunidad (NAC) complicada, con factores de riesgo para patógenos resistentes, es alta. El paciente cumple criterios de gravedad que obligan a hospitalización en UCI. El tratamiento empírico debe cubrir los patógenos más frecuentes, incluyendo *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Staphylococcus aureus* (incluyendo considerar SARM en paciente con factores de riesgo), y *Legionella pneumophila*. Además, el paciente tiene diabetes, lo que lo hace más susceptible a infecciones por organismos atípicos.\n\nLa guía GES Neumonía Adquirida en la Comunidad del MINSAL (2013, aunque está pendiente una actualización) recomienda para pacientes hospitalizados con neumonía grave,  una combinación de un betalactámico de amplio espectro (como ceftriaxona o cefotaxima) más un macrólido (como claritromicina o azitromicina) o una fluoroquinolona respiratoria (levofloxacino o moxifloxacino).  El macrólido cubre *Legionella* y otros atípicos.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Mujer de 64 años, ingresa por un accidente de tránsito. Inicialmente presenta\nhipotensión y oliguria. En sus exámenes destaca Crea:3,9 y BUN:80. Se\nadministra volumen con suero fisiológico y se realiza tratamiento endoscópico\nde la úlcera, con buen resultado. Se mantiene con presión arterial cercana a\n110/70. Al 3er día reinicia diuresis, cercanas a 1.000cc/día, sin embargo persiste\ncon crea: 3,5. El sodio urinario es de 5mEq/l, el sodio plasmático es de 140mEq/l\ny la creatinina urinaria es de 25 mg/dl. La causa más probable de su alteración\nde la función renal es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hipovolemia con compromiso prerrenal"
+        },
+        {
+          "id": "B",
+          "text": "Necrosis tubular aguda"
+        },
+        {
+          "id": "C",
+          "text": "Nefropatía diabética"
+        },
+        {
+          "id": "D",
+          "text": "Nefritis intersticial"
+        },
+        {
+          "id": "E",
+          "text": "Rabdomiolisis"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La respuesta correcta es **Hipovolemia con compromiso prerrenal**. El cuadro clínico se presenta en el contexto de un trauma con hipotensión, una causa clásica de hipoperfusión renal que lleva a una Insuficiencia Renal Aguda (IRA) de tipo prerrenal. En este estado, los riñones están estructuralmente sanos, pero el flujo sanguíneo que reciben es insuficiente para mantener una tasa de filtración glomerular (TFG) normal. La clave para confirmar el diagnóstico y diferenciarlo de un daño intrínseco (como la necrosis tubular aguda) son los índices urinarios.\n\nEn este caso, el riñón, al detectar la hipovolemia, activa intensamente el sistema renina-angiotensina-aldosterona para retener sodio y agua, en un intento por restaurar el volumen circulante. Esto se traduce en una orina muy concentrada con una excreción de sodio extremadamente baja. Los valores del paciente son categóricos: un sodio urinario de 5mEq/l (típicamente <20 en prerrenal) y una Fracción Excretada de Sodio (FeNa) calculada de 0.5% ([(UNa x PCrea) / (PNa x UCrea)] x 100 = [(5 x 3.5) / (140 x 25)] x 100 = 0.5%). Un FeNa <1% es el sello distintivo de una causa prerrenal, ya que indica que la función tubular de reabsorción de sodio está intacta y ávida. Aunque la paciente ha comenzado a orinar y su presión ha mejorado, la creatinina sigue elevada porque la recuperación de la TFG puede ser más lenta que la restauración de la volemia y la diuresis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "Un hombre de 75 años consulta por fiebre, cefalea y compromiso del estado\ngeneral de 1 días de evolución, a lo que se le agregó una convulsión tónico-\nclónica. Se solicita un TAC de cerebro que no muestra lesiones focales ni signos\nde hipertensión endocraneana y se realiza una punción lumbar que da salida a\nun líquido turbio, con 2.500 células por mm3, con 87% de polimorfonucleares y\nglucosa baja. La tinción de Gram no visualiza bacterias y el cultivo está\npendiente. La conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indicar tratamiento sintomático"
+        },
+        {
+          "id": "B",
+          "text": "Iniciar aciclovir endovenoso"
+        },
+        {
+          "id": "C",
+          "text": "Iniciar tratamiento antituberculoso, asociado a corticoides endovenosos"
+        },
+        {
+          "id": "D",
+          "text": "Iniciar ceftriaxona + vancomicina + corticoides endovenosos"
+        },
+        {
+          "id": "E",
+          "text": "Iniciar ceftriaxona + ampicilina + corticoides endovenosos"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La pregunta describe un cuadro de instalación aguda (1 día) en un paciente de 75 años, caracterizado por fiebre, cefalea, compromiso del estado general y una convulsión tónico-clónica. Estos síntomas son altamente sugestivos de una infección del sistema nervioso central (SNC). El TAC cerebral es normal, lo que permite realizar una punción lumbar sin riesgo inmediato de herniación cerebral.\n\nLos hallazgos de la punción lumbar son clave:\n1.  **Líquido turbio**: Indica una alta concentración celular.\n2.  **2.500 células/mm3**: Es un recuento extremadamente elevado, muy sugestivo de infección bacteriana.\n3.  **87% polimorfonucleares (PMN)**: La predominancia de neutrófilos es un signo clásico de meningitis bacteriana aguda.\n4.  **Glucosa baja**: La hipoglucorraquia es un marcador bioquímico fuerte de consumo de glucosa por bacterias, también indicativo de meningitis bacteriana.\n5.  **Tinción de Gram negativa y cultivo pendiente**: Aunque la tinción de Gram sea negativa, los demás parámetros del LCR son tan contundentes que se debe iniciar tratamiento empírico para meningitis bacteriana de inmediato, sin esperar el cultivo.\n\nDada la edad del paciente (75 años), los patógenos más comunes de meningitis bacteriana a considerar incluyen *Streptococcus pneumoniae*, *Neisseria meningitidis* y, crucialmente en pacientes mayores de 50-60 años, *Listeria monocytogenes*. Los esquemas de tratamiento empírico deben cubrir estos patógenos. La opción (e) \"Iniciar ceftriaxona + ampicilina + corticoides endovenosos\" es la más adecuada:\n*   **Ceftriaxona**: Es una cefalosporina de tercera generación que cubre eficazmente *S. pneumoniae* y *N. meningitidis*.\n*   **Ampicilina**: Es fundamental añadirla para cubrir *Listeria monocytogenes*, un patógeno importante en el paciente de edad avanzada.\n*   **Corticoides endovenosos (Dexametasona)**: Están recomendados como adyuvantes en la meningitis bacteriana, especialmente antes o junto con la primera dosis de antibióticos, para reducir la inflamación y mejorar los resultados neurológicos, particularmente en la meningitis por *S. pneumoniae*.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    }
+  ],
+  "10.4": [
+    {
+      "stem": "¿Cuál de los siguientes cuadros clínicos es más sugerente de una\nhemorragia subaracnoídea por rotura de un aneurisma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cefalea opresiva occipital, con dolor a la palpación de los músculos cervicales posteriores"
+        },
+        {
+          "id": "B",
+          "text": "Cefalea de inicio súbito, con intensidad 10/10, asociada a vómitos"
+        },
+        {
+          "id": "C",
+          "text": "Cefalea intensa, pulsátil, frontal, asociada a fotopsias"
+        },
+        {
+          "id": "D",
+          "text": "Cefalea de rápida instalación, asociada a hemiparesia derecha y abolición de los reflejos osteotendíneos derechos"
+        },
+        {
+          "id": "E",
+          "text": "Cefalea progresiva, mayor con el decúbito, asociado a vómitos y edema de papila"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La opción (b), \"Cefalea de inicio súbito, con intensidad 10/10, asociada a vómitos\", es la descripción más clásica y sugerente de una hemorragia subaracnoídea (HSA) por rotura de un aneurisma. La característica cardinal de la HSA es el \"inicio súbito\" de la cefalea, a menudo descrita como un \"thunderclap headache\" (cefalea en trueno), que alcanza su máxima intensidad en segundos o minutos. Esta aparición abrupta se debe a la extravasación repentina de sangre en el espacio subaracnoídeo, lo que provoca una irritación meníngea masiva y un rápido aumento de la presión intracraneal.\n\nLa intensidad \"10/10\" o \"la peor cefalea de mi vida\" es prácticamente patognomónica de una HSA, reflejando el dolor extremo causado por la irritación de las meninges y el aumento agudo de la presión. Los vómitos son un síntoma acompañante muy común, resultado de la estimulación de los centros eméticos en el tronco encefálico debido al incremento de la presión intracraneal. Esta combinación de inicio explosivo, dolor insoportable y síntomas vegetativos como los vómitos, convierte a la opción (b) en la presentación clínica que con mayor precisión apunta a una emergencia neuroquirúrgica como la HSA por aneurisma roto.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.008"
+    },
+    {
+      "stem": "Ante la sospecha de una hemorragia subaracnoidea se debe solicitar como\nprimer examen:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un TAC de cerebro"
+        },
+        {
+          "id": "B",
+          "text": "Una RMN de cerebro"
+        },
+        {
+          "id": "C",
+          "text": "Una punción lumbar"
+        },
+        {
+          "id": "D",
+          "text": "Un fondo de ojo"
+        },
+        {
+          "id": "E",
+          "text": "Una angiografía carotídea"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La Tomografía Axial Computarizada (TAC) de cerebro sin contraste es el examen de elección y el primer paso en el algoritmo diagnóstico ante la sospecha de una hemorragia subaracnoidea (HSA).\n\nLas razones para esta elección son:\n1.  **Alta Sensibilidad y Especificidad:** En las primeras 6-12 horas tras el inicio de los síntomas, la TAC sin contraste tiene una sensibilidad superior al 95% para detectar sangre en el espacio subaracnoideo. La sangre aguda se visualiza como una imagen hiperdensa (blanca) en las cisternas basales, surcos corticales o fisuras.\n2.  **Rapidez y Disponibilidad:** La TAC es un examen rápido (dura pocos minutos) y está ampliamente disponible en la mayoría de los servicios de urgencia. Esto es crucial en una patología tiempo-dependiente como la HSA, donde un diagnóstico y tratamiento precoz son vitales para prevenir el resangrado y otras complicaciones.\n3.  **Seguridad:** Permite descartar otras causas de cefalea súbita y, fundamentalmente, identifica la presencia de hidrocefalia o efecto de masa, lo cual es una contraindicación para realizar una punción lumbar de forma inmediata por el riesgo de herniación cerebral.\n\nEl algoritmo diagnóstico estándar para la HSA es:\n1.  **Sospecha clínica alta** (cefalea en trueno, signos meníngeos, etc.).\n2.  **TAC de cerebro sin contraste**.\n3.  Si la TAC es positiva, se confirma el diagnóstico y se procede a buscar la etiología (generalmente con una AngioTAC o Angiografía).\n4.  Si la TAC es negativa pero la sospecha clínica persiste, se debe realizar una **punción lumbar** (pasadas al menos 6-12 horas del inicio del cuadro) para buscar xantocromía (coloración amarillenta del LCR por la degradación de la hemoglobina), lo que confirmaría una HSA.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.008"
+    },
+    {
+      "stem": "La hemorragia subaracnoidea suele producirse en primer lugar por\ntraumatismos craneoencefálicos y en segundo lugar por rotura de aneurismas.\nEstas últimas suelen presentarse como cefalea de inicio súbito, muy intensa,\nque habitualmente se describe como “la más intensa de la vida”. ¿Qué examen\ndebe solicitarse en primer lugar ante un paciente en el que se sospecha una\nhemorragia subaracnoidea por rotura de un aneurisma cerebral?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ecodoppler carotídeo"
+        },
+        {
+          "id": "B",
+          "text": "Punción lumbar"
+        },
+        {
+          "id": "C",
+          "text": "TAC de cerebro sin contraste"
+        },
+        {
+          "id": "D",
+          "text": "Angiografía carotídea"
+        },
+        {
+          "id": "E",
+          "text": "Resonancia magnética nuclear con medio de contraste"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La alternativa correcta es la C (TAC de cerebro sin contraste). Ante la sospecha de hemorragia subaracnoidea (HSA) por rotura de aneurisma, el primer examen a solicitar es un TAC de cerebro sin contraste. El TAC es rápido, ampliamente disponible y tiene una alta sensibilidad para detectar sangre en el espacio subaracnoideo en las primeras 6-12 horas después del inicio de la cefalea. La Guía Clínica MINSAL de Accidente Cerebrovascular Isquémico (si bien no es específicamente de HSA, aplica los principios de neuroimagen inicial en sospecha de evento vascular agudo) destaca la importancia de la neuroimagen precoz para el diagnóstico.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.008"
+    },
+    {
+      "stem": "Un paciente de 34 años presenta cefalea holocránea muy intensa, de inicio\nsúbito, hace 60 minutos. Refiere que es muy raro que presente cefalea y su\nexamen físico, incluyendo un adecuado examen neurológico, es normal. La\nconducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Administrar AINEs y corticoides endovenosos"
+        },
+        {
+          "id": "B",
+          "text": "Administrar sumatriptán subcutáneo"
+        },
+        {
+          "id": "C",
+          "text": "Enviar a domicilio con analgésicos orales, indicando control en caso de aparición de signos de alarma"
+        },
+        {
+          "id": "D",
+          "text": "Solicitar resonancia magnética nuclear de cerebro"
+        },
+        {
+          "id": "E",
+          "text": "Solicitar TAC de cerebro, sin contraste"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La alternativa correcta es solicitar una TAC de cerebro sin contraste (E). La presentación clínica del paciente, con cefalea holocránea de inicio súbito e intensa (cefalea \"en trueno\"), es altamente sospechosa de hemorragia subaracnoidea (HSA). La cefalea \"en trueno\" se define como una cefalea severa que alcanza su máxima intensidad en menos de un minuto. La principal causa de HSA es la ruptura de un aneurisma. Aunque el examen neurológico sea normal, la posibilidad de HSA debe ser descartada de manera urgente. La TAC de cerebro sin contraste es el estudio de elección inicial debido a su rapidez y alta sensibilidad para detectar sangre en el espacio subaracnoideo dentro de las primeras 6-12 horas del inicio de los síntomas. Una TAC negativa no descarta por completo la HSA, y en esos casos se debe realizar una punción lumbar para buscar xantocromía. El manejo inicial de la cefalea en trueno está bien descrito en la guía GES ACV isquémico. Aunque se refiere específicamente a ACV isquémico, la sospecha y el descarte de hemorragia es un paso fundamental.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.008"
+    }
+  ],
+  "10.5": [
+    {
+      "stem": "Un paciente con antecedente de un factor V de Leyden presenta\nsúbitamente disnea y dolor torácico, con tope inspiratorio a derecha. No\npresenta compromisos hemdinámico ni desaturación importante. Se solicita un\nangioTAC que es compatible con un tromboembolismo pulmonar derecho. Se\ndecide iniciar anticoagulación con heparina no fraccionada (heparina de alto\npeso molecular) por vía endovenosa. ¿Qué examen debe realizar para controlar\nun adecuado nivel de anticoagulación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiempo de protrombina (TP) e INR"
+        },
+        {
+          "id": "B",
+          "text": "Tiempo de trombina (TT)"
+        },
+        {
+          "id": "C",
+          "text": "Tiempo de tromboplastina parcial activada (TTPA)"
+        },
+        {
+          "id": "D",
+          "text": "Tiempo de sangría"
+        },
+        {
+          "id": "E",
+          "text": "No requiere control con exámenes"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La respuesta correcta es la c) Tiempo de tromboplastina parcial activada (TTPA). La heparina no fraccionada (HNF) ejerce su efecto anticoagulante potenciando la acción de la antitrombina III, que inhibe principalmente la trombina y el factor Xa. El TTPA es el examen de laboratorio que evalúa la vía intrínseca y común de la coagulación, las cuales se ven afectadas por la acción de la HNF. El objetivo del control del TTPA es mantenerlo en un rango terapéutico, generalmente entre 1.5 y 2.5 veces el valor control, para asegurar una anticoagulación adecuada y minimizar el riesgo de complicaciones hemorrágicas.\n\nEl TTPA permite monitorizar la respuesta individual del paciente a la HNF, ya que esta respuesta puede variar debido a factores como la edad, la función renal, el peso corporal y la presencia de otras enfermedades. La titulación de la dosis de HNF se realiza en base a los resultados del TTPA, buscando alcanzar el rango terapéutico definido.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    },
+    {
+      "stem": "La anticoagulación con heparina no fraccionada y con heparina fraccionada\nse controla respectivamente con:",
+      "options": [
+        {
+          "id": "A",
+          "text": "TTPA y TP"
+        },
+        {
+          "id": "B",
+          "text": "TP y TTPA"
+        },
+        {
+          "id": "C",
+          "text": "TTPA y tiempo de sangría"
+        },
+        {
+          "id": "D",
+          "text": "Tiempo de sangría y TTPA"
+        },
+        {
+          "id": "E",
+          "text": "TTPA y no necesita control"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La respuesta correcta es la E: TTPA y no necesita control.\n\n*   **Heparina no fraccionada (HNF):** Su efecto anticoagulante se monitoriza mediante el Tiempo de Tromboplastina Parcial Activado (TTPA). El objetivo es mantener el TTPA en un rango terapéutico que generalmente se establece entre 1.5 y 2.5 veces el valor control del laboratorio. El TTPA refleja la actividad de los factores de coagulación en la vía intrínseca y común, que son los afectados por la HNF.\n\n*   **Heparina de bajo peso molecular (HBPM):** A diferencia de la HNF, la HBPM tiene una farmacocinética más predecible y una respuesta anticoagulante más consistente. Esto hace que la monitorización rutinaria con TTPA no sea necesaria en la mayoría de los pacientes. Sin embargo, en ciertas situaciones específicas (insuficiencia renal grave, obesidad mórbida, embarazo, neonatos o en situaciones de riesgo de sangrado o tromboembolismo), se puede considerar la monitorización de la actividad anti-Xa (una medida más directa de la actividad de la HBPM), pero esto no es el control habitual. Por lo tanto, para fines del EUNACOM y en la práctica clínica general, se considera que *no necesita control*.\n\nEn la práctica clínica chilena, el protocolo de anticoagulación con HNF debe seguir las indicaciones de la guía clínica institucional y, a nivel general, las recomendaciones internacionales, que enfatizan la necesidad de monitorizar el TTPA para ajustar la dosis y evitar tanto la subanticoagulación (riesgo de trombosis) como la sobreanticoagulación (riesgo de sangrado). Respecto a la HBPM, la *Guía Clínica GES Enfermedad Tromboembólica Venosa* del MINSAL no indica la necesidad de control en la mayoría de los casos.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.007"
+    }
+  ],
+  "10.6": [
+    {
+      "stem": "Existen tratamientos profilácticos para la migraña, que disminuyen la\nfrecuencia y la intensidad de los episodios de jaqueca. Todos los medicamentos\nenumerados a continuación pueden ser usados como tratamiento profiláctico,\nEXCEPTO:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sumatriptán"
+        },
+        {
+          "id": "B",
+          "text": "Propanolol"
+        },
+        {
+          "id": "C",
+          "text": "Ácido valproico6"
+        },
+        {
+          "id": "D",
+          "text": "Flunarizina"
+        },
+        {
+          "id": "E",
+          "text": "Amitriptilina"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La pregunta aborda el tratamiento profiláctico de la migraña, es decir, medicamentos que se usan de forma regular para disminuir la frecuencia, intensidad y duración de los episodios de jaqueca. La respuesta correcta, Sumatriptán, es la excepción porque no se utiliza para este propósito.\n\nEl Sumatriptán pertenece a la clase de los triptanos, que son agonistas selectivos de los receptores 5-HT1B/1D de serotonina. Su mecanismo de acción implica la vasoconstricción de los vasos sanguíneos craneales dilatados y la inhibición de la liberación de neuropéptidos proinflamatorios, lo que resulta en un alivio rápido del dolor y los síntomas asociados a un ataque agudo de migraña. Por lo tanto, el Sumatriptán es un tratamiento abortivo o agudo, diseñado para ser tomado al inicio de una crisis de migraña para detenerla, no para prevenir futuras crisis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.012"
+    },
+    {
+      "stem": "Existen numerosos medicamentos que sirven para prevenir la ocurrencia de\nataques de migraña. Uno de estos medicamentos es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indometacina"
+        },
+        {
+          "id": "B",
+          "text": "Propanolol"
+        },
+        {
+          "id": "C",
+          "text": "Ergotamina"
+        },
+        {
+          "id": "D",
+          "text": "Verapamilo"
+        },
+        {
+          "id": "E",
+          "text": "Tramadol"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La respuesta correcta es Propranolol (b) porque es un betabloqueante no selectivo, ampliamente reconocido como uno de los medicamentos de primera línea para la profilaxis de la migraña. Su mecanismo de acción exacto en la prevención de la migraña no se comprende completamente, pero se cree que involucra la modulación de la actividad adrenérgica central, la reducción de la excitabilidad neuronal y la estabilización del tono vascular. Al reducir la frecuencia y la intensidad de los ataques, mejora significativamente la calidad de vida de los pacientes.\n\nEl Propranolol se administra de forma regular, no durante un ataque agudo, para disminuir la probabilidad de que ocurran los episodios migrañosos. Es una opción terapéutica efectiva y bien establecida, junto con otros betabloqueantes como el metoprolol y el timolol, ciertos anticonvulsivantes (ej. topiramato, divalproato) y antidepresivos tricíclicos (ej. amitriptilina). Sin embargo, debe usarse con precaución en pacientes con asma o enfermedad pulmonar obstructiva crónica (EPOC) debido a su potencial para causar broncoespasmo, y en aquellos con bradicardia o hipotensión.\n\nSu inclusión en la pregunta de EUNACOM resalta la importancia de conocer los tratamientos preventivos de la migraña, una condición neurológica prevalente que afecta significativamente la vida de los individuos. El manejo adecuado de la migraña abarca tanto el tratamiento agudo de los ataques como la profilaxis para reducir su incidencia.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.012"
+    },
+    {
+      "stem": "¿Cuál de los siguientes fármacos es útil como tratamiento profiláctico de la\nmigraña?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flunarizina"
+        },
+        {
+          "id": "B",
+          "text": "Ergotamina"
+        },
+        {
+          "id": "C",
+          "text": "Sumatriptán"
+        },
+        {
+          "id": "D",
+          "text": "Clozapina"
+        },
+        {
+          "id": "E",
+          "text": "Fluoxetina"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La Flunarizina es un bloqueador de los canales de calcio de tipo L, y es el fármaco correcto en este contexto debido a su consolidado uso como tratamiento profiláctico de la migraña. Su mecanismo de acción exacto en la profilaxis migrañosa no está completamente dilucidado, pero se cree que actúa estabilizando las membranas neuronales, reduciendo la excitabilidad cerebral y previniendo la isquemia o hipoxia celular al mejorar el flujo sanguíneo cerebral y prevenir el vasoespasmo. Esto lo hace efectivo para disminuir la frecuencia, intensidad y duración de los ataques de migraña.\n\nLa Flunarizina se administra diariamente para prevenir los episodios, no para tratar un ataque agudo ya iniciado. Es considerada una opción de primera línea en la profilaxis de la migraña en varias guías clínicas, especialmente en pacientes con migraña de alta frecuencia o con contraindicaciones a otros tratamientos. Sus efectos secundarios incluyen somnolencia, aumento de peso y, en raras ocasiones, síntomas extrapiramidales o depresión, lo que requiere un seguimiento adecuado.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.012"
+    },
+    {
+      "stem": "Un paciente de 34 años consulta por cefaleas recurrentes, de varios años de\nevolución de carácter pulsátil, de localización frontoparietal y que suele ser\nmuy intensa, agravándose con los ruidos y con la luz. Las crisis se presentan 3 a\n4 veces al mes. El examen físico es normal. La conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indicar AINES durante las crisis y ergotamina entre ellas, como tratamiento profiláctico"
+        },
+        {
+          "id": "B",
+          "text": "Indicar flunarizina durante las crisis y amitriptilina entre ellas, como tratamiento profiláctico"
+        },
+        {
+          "id": "C",
+          "text": "Indicar AINES durante las crisis y ácido valproico entre ellas, como tratamiento profiláctico"
+        },
+        {
+          "id": "D",
+          "text": "Indicar ergotamínicos durante las crisis y ácido propanolol entre ellas, como tratamiento profiláctico"
+        },
+        {
+          "id": "E",
+          "text": "Solicitar TAC de cerebro"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El caso clínico describe a un paciente de 34 años con cefaleas recurrentes de larga evolución, de carácter pulsátil, localización frontoparietal, muy intensas, que se agravan con ruidos (fonofobia) y luz (fotofobia). La frecuencia es de 3 a 4 crisis al mes y el examen físico es normal. Esta constelación de síntomas es altamente sugestiva de Migraña sin aura, un tipo de cefalea primaria. La frecuencia de las crisis (3-4 veces al mes) es una indicación clara para iniciar tanto un tratamiento abortivo (para las crisis agudas) como un tratamiento profiláctico (para reducir la frecuencia e intensidad de las crisis).\n\nLa opción C propone indicar AINES (Antiinflamatorios No Esteroideos) durante las crisis. Los AINES son una opción de tratamiento abortivo de primera línea para las crisis de migraña, especialmente para las de intensidad leve a moderada, o como primera elección antes de triptanes si los síntomas son menos severos. Además, sugiere el uso de ácido valproico como tratamiento profiláctico. El ácido valproico es un anticonvulsivante que ha demostrado ser efectivo y es considerado una opción de primera línea en la profilaxis de la migraña, junto con los betabloqueadores (como propanolol) y los antidepresivos tricíclicos (como amitriptilina). Esta combinación ofrece un abordaje completo y basado en la evidencia para el manejo de la migraña.\n\nDado que la cefalea es una migraña típica sin signos de alarma (como inicio súbito, cambios en el patrón de la cefalea, signos neurológicos focales, etc.) y con un examen físico normal, la conducta más adecuada es iniciar el tratamiento farmacológico específico. La combinación de AINES para las crisis agudas y ácido valproico para la profilaxis es una estrategia terapéutica sólida y respaldada por las guías clínicas para pacientes con migraña de frecuencia moderada a alta.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.012"
+    }
+  ],
+  "10.7": [
+    {
+      "stem": "Un paciente de 33 años presenta dolor tipo neurálgico, recurrente e intenso,\nen la zona cervical alta, posterior izquierda. Suele desencadenarse al tocar la\nzona. Usted sospecha una neuralgia de Arnold. El tratamiento más adecuado es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tramadol"
+        },
+        {
+          "id": "B",
+          "text": "Ketoprofeno"
+        },
+        {
+          "id": "C",
+          "text": "Carbamazepina"
+        },
+        {
+          "id": "D",
+          "text": "Diazepam"
+        },
+        {
+          "id": "E",
+          "text": "Clorpromazina"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El paciente presenta un cuadro clínico altamente sugerente de una neuralgia de Arnold (o neuralgia occipital), caracterizado por dolor tipo neurálgico, recurrente e intenso en la zona cervical alta, posterior izquierda, que se desencadena al tocar la zona. Este tipo de dolor, descrito como agudo, punzante o eléctrico, y la presencia de alodinia (dolor al tacto) son manifestaciones típicas del dolor neuropático, resultado de la disfunción o lesión de las vías nerviosas. La neuralgia de Arnold implica la irritación o compresión de los nervios occipitales (mayor, menor o tercero), que son nervios sensitivos.\n\nCarbamazepina es un medicamento antiepiléptico que se utiliza como tratamiento de primera línea para diversas condiciones de dolor neuropático, siendo el ejemplo más clásico la neuralgia del trigémino, pero también eficaz en otras neuralgias como la occipital. Su mecanismo de acción principal consiste en el bloqueo de los canales de sodio voltaje-dependientes en las membranas neuronales. Al estabilizar estas membranas, reduce la hiperexcitabilidad de las neuronas y la descarga anormal de impulsos nerviosos que son responsables de la sensación de dolor neuropático.\n\nPor lo tanto, la elección de Carbamazepina es la más adecuada para abordar la fisiopatología subyacente de la neuralgia de Arnold. Su capacidad para modular la actividad neuronal hiperexcitable lo convierte en un fármaco específico y eficaz para el alivio del dolor neurálgico, ofreciendo un control sintomático superior en comparación con otras opciones terapéuticas para este tipo particular de dolor.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.013"
+    },
+    {
+      "stem": "¿Cuál de las siguientes asociaciones entre cuadro clínico y patología es\nINCORRECTA?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cefalea temporoccipital, recurrente, opresiva – Cefalea tensional"
+        },
+        {
+          "id": "B",
+          "text": "Cefalea himicránea, pulsátil, recurrente – Jaqueca"
+        },
+        {
+          "id": "C",
+          "text": "Cefalea progresiva, matinal, con signos focales – Tumor cerebral"
+        },
+        {
+          "id": "D",
+          "text": "Dolor neurálgico en la mejilla, muy intenso, de segundos de duración – Cluster"
+        },
+        {
+          "id": "E",
+          "text": "Cefalea muy intensa, de inicio súbito – hemorragia subaracnoídea"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "La alternativa correcta es la D porque describe incorrectamente el cuadro clínico de la cefalea en racimos (Cluster). La cefalea en racimos se caracteriza por un dolor unilateral muy intenso, usualmente alrededor del ojo o en la sien, que dura entre 15 minutos y 3 horas, y se acompaña de síntomas autonómicos ipsilaterales (lagrimeo, congestión nasal, rinorrea, ptosis, miosis). En cambio, la descripción de \"dolor neurálgico en la mejilla, muy intenso, de segundos de duración\" es más característica de la neuralgia del trigémino, una condición donde el dolor se localiza en la distribución de una o más ramas del nervio trigémino y es de tipo lancinante, breve e intenso.\n\nSi bien la Guía Clínica del MINSAL para el manejo de la cefalea (disponible en su sitio web) no aborda específicamente la neuralgia del trigémino, sí describe con detalle la cefalea en racimos, enfatizando la duración y los síntomas autonómicos.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.013"
+    }
+  ],
+  "10.8": [
+    {
+      "stem": "Un niño de 3 años presenta una crisis convulsiva tónico clónica, en relación a\nun alza térmica hasta 39,6°C. Al examen físico está en buenas condiciones, con\npresión y pulso normal, faringe eritematosa, sin signos neurológicos focales. La\nconducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indicar antipiréticos en relación a las alzas térmica, sin necesidad de anticonvulsivantes ni de estudio adicional"
+        },
+        {
+          "id": "B",
+          "text": "Indicar paracetamol y diazepam durante las alzas térmicas"
+        },
+        {
+          "id": "C",
+          "text": "Solicitar electroencefalograma"
+        },
+        {
+          "id": "D",
+          "text": "Solicitar hemograma, hemocultivo, exámenes de orina y estudio de líquido cefalorraquídeo"
+        },
+        {
+          "id": "E",
+          "text": "Solicitar resonancia magnética nuclear e iniciar carbamazepina"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La pregunta describe un caso clásico de una crisis convulsiva febril simple en un niño de 3 años. Las características clave son: edad entre 6 meses y 5 años, crisis convulsiva generalizada (tónico-clónica) asociada a un alza térmica (sin evidencia de infección del sistema nervioso central), corta duración (implícito al estar \"en buenas condiciones\" y ser un caso típico), y ausencia de signos neurológicos focales o antecedente de problemas neurológicos previos. El examen físico general, con una faringe eritematosa, sugiere una infección viral común como causa de la fiebre.\n\nEn este escenario, la conducta más adecuada es indicar antipiréticos para el manejo sintomático de la fiebre (mejorar el confort del niño, no para prevenir futuras convulsiones febriles, ya que la evidencia no respalda esta idea) y ofrecer tranquilidad a los padres. No se necesitan anticonvulsivantes de forma profiláctica o crónica para las crisis febriles simples, ya que los riesgos de los fármacos superan los beneficios en la prevención de la recurrencia o el desarrollo de epilepsia. Tampoco se requiere un estudio adicional exhaustivo como EEG, RMN o punciones lumbares en el contexto de una crisis febril simple, salvo que existan características atípicas (crisis prolongada, focal, recurrencia en menos de 24h, edad fuera del rango, signos neurológicos focales, sospecha de infección del SNC).\n\nPor lo tanto, la opción A se alinea con las guías de manejo de la crisis febril simple, que enfatizan la identificación y tratamiento de la causa de la fiebre, el uso de antipiréticos para el confort, y la abstención de estudios diagnósticos invasivos o medicación antiepiléptica a largo plazo en ausencia de banderas rojas.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.007"
+    },
+    {
+      "stem": "Un hombre de 35 años, sin patología previa, presenta cuadro caracterizado\npor movimientos repetitivos involuntarios de la mano derecha, seguidos de\ndesviación de la mirada a derecha y convulsión tónico clónica de 3 minutos de\nduración. Niega uso de fármacos y drogas. Al examen físico se aprecia un\npaciente en buenas condiciones, sin alteraciones en el examen neurológico. La\nconducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Iniciar carbamazepina y solicitar RMN de cerebro"
+        },
+        {
+          "id": "B",
+          "text": "Iniciar fenitoína, sin necesidad de realizar exámenes"
+        },
+        {
+          "id": "C",
+          "text": "Solicitar electroencefalograma y decidir manejo según el resultado"
+        },
+        {
+          "id": "D",
+          "text": "Solicitar TAC de cerebro, sin contraste"
+        },
+        {
+          "id": "E",
+          "text": "Enviar a domicilio, sin necesidad de mayor estudio y reconsultar sólo en caso de repetirse el cuadro"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La respuesta correcta es la a) Iniciar carbamazepina y solicitar RMN de cerebro. El paciente presenta una crisis convulsiva con características focales claras (movimientos repetitivos de la mano derecha, desviación de la mirada a derecha) que luego se generaliza a una crisis tónico-clónica. Este cuadro clínico se define como una \"crisis de inicio focal con generalización secundaria\" y es altamente sugestivo de epilepsia focal, aunque sea la primera vez que ocurre (primera crisis no provocada).\n\nLa conducta más adecuada frente a una primera crisis convulsiva con características focales es iniciar el estudio etiológico de manera exhaustiva y considerar el inicio de tratamiento antiepiléptico (MAE) si el riesgo de recurrencia es alto o si la crisis es de alto impacto. En este caso, la carbamazepina es un fármaco antiepiléptico de primera línea para crisis focales. La Resonancia Magnética Nuclear (RMN) de cerebro es el estudio de imagen de elección para investigar la etiología de las crisis focales, ya que permite detectar lesiones estructurales sutiles (tumores, malformaciones corticales, esclerosis mesial temporal, cavernomas, etc.) que no serían visibles en una tomografía computarizada (TAC) o que requieren un contraste específico. Es fundamental identificar la causa subyacente para un manejo adecuado y pronóstico.\n\nLa combinación de iniciar un fármaco efectivo para crisis focales y solicitar el estudio de imagen más sensible para su etiología convierte a esta opción en la más completa y apropiada para el manejo inicial de este paciente. Dada la juventud del paciente y la ausencia de patología previa, la búsqueda de una causa estructural es prioritaria.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.007"
+    },
+    {
+      "stem": "Un paciente VIH positivo, sin tratamiento antirretroviral, consulta al\nservicio de urgencias por compromiso de conciencia. La familia refiere que en\nlas últimas semanas presento de forma progresiva dificultad para caminar,\nrefiriendo “falta de fuerzas” en extremidad inferior derecha. Además, presentó\nuna crisis convulsiva en una ocasión. Se solicita un TAC de cerebro para el\nestudio de la etiología. ¿Cuál es el hallazgo más probable de encontrar en este\nexamen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Signos de hipertensión endocraneana ­­13­infectologia/ 4/9"
+        },
+        {
+          "id": "B",
+          "text": "TAC normal"
+        },
+        {
+          "id": "C",
+          "text": "Lesiones focales captantes de contraste en anillo"
+        },
+        {
+          "id": "D",
+          "text": "Multiples lesiones focales hipodensas de sustancia blanca"
+        },
+        {
+          "id": "E",
+          "text": "Hidrocefalia con aumento de los tamaños de los ventrículos"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El paciente presenta un cuadro neurológico progresivo y agudo (compromiso de conciencia, dificultad para caminar, crisis convulsiva) en el contexto de una infección por VIH sin tratamiento antirretroviral. Esta situación de inmunosupresión severa lo hace vulnerable a infecciones oportunistas del sistema nervioso central (SNC). La encefalitis por *Toxoplasma gondii* es la causa más común de lesiones intracraneales focales en pacientes con VIH avanzado que no reciben tratamiento o profilaxis adecuada.\n\nLa presentación clínica de la toxoplasmosis cerebral concuerda perfectamente con el caso descrito: déficit neurológico focal (paresia en extremidad inferior derecha), crisis convulsivas y alteración del estado de conciencia. Estos síntomas apuntan a una lesión ocupante de espacio en el cerebro. En el estudio con tomografía computarizada (TAC) de cerebro, las lesiones por toxoplasmosis se caracterizan típicamente por ser lesiones focales múltiples (aunque pueden ser solitarias en un 30% de los casos), localizadas frecuentemente en los ganglios basales, el tálamo, la unión córtico-medular y la corteza cerebral.\n\nEl hallazgo radiológico más característico de la toxoplasmosis cerebral, especialmente después de la administración de contraste, son las \"lesiones focales captantes de contraste en anillo\". Este patrón de realce indica la presencia de inflamación y disrupción de la barrera hematoencefálica en la periferia de la lesión, rodeando un centro necrótico. Por lo tanto, dado el cuadro clínico y el estado inmunológico del paciente, la opción \"c) Lesiones focales captantes de contraste en anillo\" representa el hallazgo más probable en el TAC de cerebro.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.007"
+    },
+    {
+      "stem": "Un niño de 7 años, sin antecedentes de importancia, presenta una\nconvulsión tónico clónica de 5 minutos de duración, autolimitada. Se recupera\nbien y al momento de la consulta se encuentra asintomático. El examen físico,\nincluyendo un adecuado examen neurológico es normal. El diagnóstico más\nprobable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Convulsión febril benigna"
+        },
+        {
+          "id": "B",
+          "text": "Encefalitis herpética"
+        },
+        {
+          "id": "C",
+          "text": "Epilepsia"
+        },
+        {
+          "id": "D",
+          "text": "Tumor cerebral"
+        },
+        {
+          "id": "E",
+          "text": "Meningitis"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El caso clínico describe un niño de 7 años que presenta un primer episodio de convulsión tónico-clónica generalizada, sin un desencadenante aparente (como fiebre, traumatismo o infección). La convulsión fue autolimitada y el paciente tuvo una recuperación completa, encontrándose asintomático y con un examen neurológico normal al momento de la evaluación.\n\nLa definición de **epilepsia** de la Liga Internacional contra la Epilepsia (ILAE) incluye la ocurrencia de al menos una crisis convulsiva no provocada. Aunque para un diagnóstico definitivo se suele requerir una segunda crisis o hallazgos en el electroencefalograma (EEG) que indiquen un alto riesgo de recurrencia, un primer evento de este tipo en un niño sano, sin fiebre y con examen normal, es la forma de presentación más común de la epilepsia. Por lo tanto, es el diagnóstico más probable a considerar y estudiar. La ausencia de fiebre y la edad del paciente (7 años) hacen muy poco probable una convulsión febril. La recuperación completa y la normalidad del examen neurológico descartan razonablemente procesos agudos y graves como meningitis o encefalitis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.007"
+    }
+  ],
+  "10.9": [
+    {
+      "stem": "Usted evalúa a un recién nacido, diagnosticado de asfixia, con una\nencefalopatía hipóxica, cae en estatus epiléptico. ¿Qué fármaco debe\nadministrar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lidocaína"
+        },
+        {
+          "id": "B",
+          "text": "Barbitúricos"
+        },
+        {
+          "id": "C",
+          "text": "Sulfato de magnesio"
+        },
+        {
+          "id": "D",
+          "text": "Fenitoína"
+        },
+        {
+          "id": "E",
+          "text": "Lamotrigina"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "El estatus epiléptico en un recién nacido, especialmente en el contexto de una encefalopatía hipóxico-isquémica (EHI) secundaria a asfixia, es una emergencia neurológica que requiere tratamiento inmediato para prevenir un mayor daño cerebral.\n\nEl manejo de las convulsiones neonatales sigue un algoritmo escalonado. El fármaco de primera línea o, en su defecto, el segundo tras el fracaso de las benzodiacepinas (que no están en las opciones), es el **fenobarbital**, un tipo de **barbitúrico**. El fenobarbital es el anticonvulsivo más estudiado y utilizado en el período neonatal. Actúa potenciando la acción del neurotransmisor inhibidor GABA, lo que ayuda a suprimir la actividad eléctrica cerebral anómala y detener las convulsiones. Dada la gravedad del cuadro (estatus epiléptico) y las opciones disponibles, los barbitúricos son la elección correcta y estándar en la práctica clínica neonatal.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.018"
+    },
+    {
+      "stem": "Un paciente presenta un estatus convulsivo de cerca de 50 minutos de\nduración, que fue controlado con lorazepam + fenitoína. Evoluciona en las\nhoras siguientes con oliguria y elevación de la creatinina plasmática. ¿Cuál es\nla causa más probable de la insuficiencia renal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prerrenal"
+        },
+        {
+          "id": "B",
+          "text": "Necrosis tubular aguda"
+        },
+        {
+          "id": "C",
+          "text": "Rabdomiolisis"
+        },
+        {
+          "id": "D",
+          "text": "Toxicidad renal por lorazepam"
+        },
+        {
+          "id": "E",
+          "text": "Toxicidad renal por fenitoína"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La alternativa correcta es **C (Rabdomiolisis)**. La rabdomiolisis es una causa importante de insuficiencia renal aguda, especialmente en pacientes que han sufrido convulsiones prolongadas. La actividad muscular intensa y sostenida durante un estatus convulsivo lleva a la liberación masiva de contenido intracelular muscular, incluyendo mioglobina, creatina quinasa (CK), y electrolitos al torrente sanguíneo. La mioglobina, al ser filtrada por los riñones, puede obstruir los túbulos renales y generar daño directo, conduciendo a la insuficiencia renal aguda. La oliguria y la elevación de la creatinina en las horas siguientes al estatus convulsivo, junto con la historia de convulsión prolongada, son altamente sugestivas de rabdomiolisis. En Chile, el MINSAL cuenta con guías clínicas para el manejo de la Insuficiencia Renal Aguda (IRA) donde se menciona la rabdomiolisis como una etiología importante, requiriendo manejo agresivo con hidratación y control de electrolitos.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.018"
+    },
+    {
+      "stem": "Lactante de 1 año, con fiebre de 40 C y convulsión tónico-clónica\ngeneralizada. ¿Cuál es la conducta más apropiada durante la crisis, después de\nestabilizar al paciente (ABC)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Colocar enema frío"
+        },
+        {
+          "id": "B",
+          "text": "Administrar antipiréticos"
+        },
+        {
+          "id": "C",
+          "text": "Administrar anticonvulsivante"
+        },
+        {
+          "id": "D",
+          "text": "Realizar punción lumbar"
+        },
+        {
+          "id": "E",
+          "text": "Instalar vía venosa central"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El escenario clínico describe a un lactante de 1 año con una convulsión tónico-clónica generalizada en el contexto de fiebre alta (40°C), lo que configura una **crisis convulsiva febril**. La pregunta clave es la conducta *durante la crisis* una vez asegurado el ABC (vía aérea, ventilación y circulación).\n\nLa prioridad absoluta frente a una convulsión activa, especialmente si se prolonga por más de 5 minutos (lo que define el estatus epiléptico), es **yugular la crisis convulsiva** para prevenir el daño neuronal secundario a la hipoxia y a la propia neurotoxicidad de la actividad eléctrica descontrolada. El tratamiento farmacológico de primera línea para detener una convulsión aguda son los **anticonvulsivantes**, específicamente las benzodiazepinas (como lorazepam intravenoso, diazepam intravenoso o rectal, o midazolam intramuscular/intranasal).\n\nPor lo tanto, la administración de un anticonvulsivante es la medida terapéutica inmediata y más importante después de estabilizar las funciones vitales básicas del paciente.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.018"
+    },
+    {
+      "stem": "El primer fármaco que debe administrarse a un paciente es estatus\nepiléptico es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fenitoína"
+        },
+        {
+          "id": "B",
+          "text": "Ácido valproico"
+        },
+        {
+          "id": "C",
+          "text": "Lorazepam"
+        },
+        {
+          "id": "D",
+          "text": "Carbamazepina"
+        },
+        {
+          "id": "E",
+          "text": "Lamotrigina"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La alternativa correcta es Lorazepam porque, en el manejo inicial del status epilepticus, las benzodiacepinas (como el lorazepam o el diazepam) son los fármacos de primera línea. Su rápido inicio de acción (especialmente por vía intravenosa) permite detener rápidamente la actividad convulsiva, previniendo el daño neuronal asociado al estatus epiléptico prolongado. Las guías clínicas chilenas del MINSAL para el manejo de urgencias así lo indican. El objetivo principal en los primeros minutos es detener la crisis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.018"
+    }
+  ],
+  "10.10": [
+    {
+      "stem": "La convulsión febril benigna:",
+      "options": [
+        {
+          "id": "A",
+          "text": "generalmente no muestra alteraciones al EEG"
+        },
+        {
+          "id": "B",
+          "text": "es más frecuente en el sexo femenino"
+        },
+        {
+          "id": "C",
+          "text": "tiene antecedente familiar de epilepsia"
+        },
+        {
+          "id": "D",
+          "text": "se presenta con mayor frecuencia entre los seis y doce meses"
+        },
+        {
+          "id": "E",
+          "text": "responde bien al tratamiento con fenitoína"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La convulsión febril benigna (o simple) es un evento neurológico transitorio en un niño neurológicamente sano, asociado a fiebre, en ausencia de una infección del sistema nervioso central o de un desequilibrio metabólico agudo. Por definición, al ser \"benigna\" y no estar asociada a una patología cerebral subyacente, el electroencefalograma (EEG) realizado en el período interictal (es decir, cuando el niño está sin fiebre y sin crisis) es característicamente normal. Un EEG alterado sugeriría una posible condición subyacente, como una epilepsia, lo que alejaría el diagnóstico de una convulsión febril benigna simple.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.015"
+    },
+    {
+      "stem": "Un niño de 13 meses de edad presenta fiebre hasta 39,2°C y una convulsión\ntónico-clónica de un minuto de duración. Al examen se aprecia un lactante en\nbuenas condiciones, sin signos neurológicos focales. En el examen segmentario\nsólo destaca faringe eritematosa y congestiva. La conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solicitar electroencefalograma y decidir si se iniciará tratamiento anticonvulsivante según hallazgos"
+        },
+        {
+          "id": "B",
+          "text": "Iniciar terapia anticonvulsivante inmediatamente"
+        },
+        {
+          "id": "C",
+          "text": "Hospitalizar, realizar exámenes de sangre y punción lumbar y decidir conducta, según resultados"
+        },
+        {
+          "id": "D",
+          "text": "Explicar a la madre el carácter benigno de este acontecimiento y no realizar exámenes"
+        },
+        {
+          "id": "E",
+          "text": "Solicitar resonancia magnética de cerebro"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "El caso clínico describe a un niño de 13 meses con fiebre de 39,2°C y una convulsión tónico-clónica de un minuto de duración, sin signos neurológicos focales y en buenas condiciones generales, con una faringe eritematosa y congestiva. Esta presentación es clásica y cumple con los criterios de una **convulsión febril simple**. Las convulsiones febriles simples se caracterizan por ocurrir entre los 6 meses y los 5 años de edad, estar asociadas a fiebre (generalmente >38°C) sin signos de infección intracraneal, ser de tipo generalizada (como la tónico-clónica), durar menos de 15 minutos, y presentarse como un episodio único en 24 horas, con una recuperación completa del estado neurológico basal del niño. La faringitis eritematosa sugiere una causa viral común de la fiebre.\n\nDada la naturaleza benigna y autolimitada de las convulsiones febriles simples, el manejo principal se centra en la educación y tranquilidad de los padres. No se requiere una investigación diagnóstica extensiva (como EEG, resonancia magnética, punción lumbar o exámenes de sangre rutinarios) en un niño que cumple con estos criterios y que se encuentra en buenas condiciones post-ictal, sin signos de alerta o focalidad neurológica. Es fundamental explicar a la madre que este tipo de eventos no causan daño cerebral, no tienen un impacto negativo en el desarrollo futuro del niño y el riesgo de desarrollar epilepsia es mínimo, aunque existe una posibilidad de recurrencia de convulsiones febriles con futuros episodios febriles.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.015"
+    }
+  ],
+  "10.11": [
+    {
+      "stem": "El temblor de la enfermedad de Parkinson se caracteriza por:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ser postural"
+        },
+        {
+          "id": "B",
+          "text": "Asociarse a aumento del pestañeo"
+        },
+        {
+          "id": "C",
+          "text": "Ser de intención"
+        },
+        {
+          "id": "D",
+          "text": "Presentarse en reposo y ceder con realizar movimientos"
+        },
+        {
+          "id": "E",
+          "text": "Asociarse a una marcha con aumento de la base de sustentación y pasos largos"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "La respuesta correcta, D) \"Presentarse en reposo y ceder con realizar movimientos\", describe de manera precisa el temblor característico de la enfermedad de Parkinson. Este es el síntoma motor cardinal más distintivo y a menudo el primero en manifestarse. Se conoce como temblor de reposo porque aparece cuando la extremidad (brazo, pierna o mano) está completamente relajada y apoyada, es decir, sin ninguna actividad muscular voluntaria ni sosteniéndose contra la gravedad. Típicamente, tiene una frecuencia de 4 a 6 Hz y se describe comúnmente como un \"signo de contar monedas\" o \"pill-rolling\" por el movimiento repetitivo del pulgar y el índice.\n\nUna característica fundamental de este temblor es que disminuye o incluso desaparece por completo durante el movimiento voluntario o intencional de la extremidad afectada, y reaparece cuando la extremidad vuelve al reposo. También suele desaparecer durante el sueño. Aunque algunos pacientes pueden desarrollar un componente postural o cinético leve con el avance de la enfermedad, el temblor de reposo es el rasgo distintivo y el principal criterio semiológico para su diagnóstico diferencial con otros trastornos del movimiento. Su intensidad puede variar, exacerbándose con el estrés emocional o la fatiga.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.006"
+    },
+    {
+      "stem": "¿Cuál de los siguientes hallazgos es muy frecuente en la enfermedada de\nParkinson idiopática?:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Demencia al inicio"
+        },
+        {
+          "id": "B",
+          "text": "Mioclonías."
+        },
+        {
+          "id": "C",
+          "text": "Blefaroespasmo."
+        },
+        {
+          "id": "D",
+          "text": "Retrocollis."
+        },
+        {
+          "id": "E",
+          "text": "Pérdida de movimientos asociados en la marcha."
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La pérdida de movimientos asociados en la marcha, como la reducción o ausencia del braceo de los brazos, es uno de los signos motores cardinales y tempranos de la Enfermedad de Parkinson idiopática. Este fenómeno es una manifestación de la bradicinesia/acinesia, que es la lentitud o dificultad para iniciar y ejecutar el movimiento, y la pérdida de movimientos automáticos. En la marcha parkinsoniana típica, además de la postura encorvada y el arrastre de pies, es característico observar cómo los brazos no se balancean de forma rítmica y simétrica como lo harían en una persona sana, o incluso permanecen rígidamente pegados al cuerpo.\n\nEste hallazgo es muy frecuente porque se relaciona directamente con el déficit dopaminérgico en los ganglios basales que subyace a la patogenia de la enfermedad. La alteración en el circuito motor provoca una dificultad para la ejecución fluida y coordinada de movimientos automáticos y semi-automáticos, de los cuales el braceo es un excelente ejemplo. La asimetría en el braceo es, de hecho, uno de los signos tempranos que a menudo son notados por familiares o el propio paciente, incluso antes de que se establezca un diagnóstico formal.\n\nPor lo tanto, la pérdida de movimientos asociados en la marcha, especialmente el braceo, es un criterio diagnóstico clave y un hallazgo motor muy prevalente y característico en la Enfermedad de Parkinson idiopática, presente desde las etapas iniciales de la enfermedad en la mayoría de los pacientes.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.006"
+    },
+    {
+      "stem": "¿Cuál de los siguientes medicamentos produce parkinsonismo por drogas\ncon más frecuencia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Clozapina"
+        },
+        {
+          "id": "B",
+          "text": "Risperidona"
+        },
+        {
+          "id": "C",
+          "text": "Carbamacepina"
+        },
+        {
+          "id": "D",
+          "text": "Ergotamina"
+        },
+        {
+          "id": "E",
+          "text": "Amitriptilina"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La respuesta correcta es la Risperidona. La Risperidona es un antipsicótico atípico que ejerce su efecto bloqueando los receptores de dopamina D2 en el sistema nervioso central, particularmente en los ganglios basales. Este bloqueo dopaminérgico, similar al que ocurre en la enfermedad de Parkinson idiopática, puede manifestarse clínicamente como parkinsonismo inducido por fármacos. Los síntomas suelen incluir bradicinesia (lentitud de movimiento), rigidez muscular, temblor en reposo y, en algunos casos, inestabilidad postural. La incidencia de parkinsonismo con la Risperidona es relativamente alta en comparación con otros antipsicóticos atípicos, aunque generalmente menor que con los antipsicóticos típicos de alta potencia.\n\nEl riesgo de desarrollar parkinsonismo inducido por fármacos con Risperidona está relacionado con la dosis y la duración del tratamiento, así como con factores individuales del paciente como la edad y la presencia de otros trastornos neurológicos. Es importante destacar que, si bien la Clozapina (opción a) también es un antipsicótico atípico, tiene un riesgo significativamente menor de parkinsonismo, e incluso puede ser beneficiosa en algunos pacientes con Parkinson.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.006"
+    },
+    {
+      "stem": "Una paciente de 22 años consulta por presentar desde una semana antes\nptosis palpebral izquierda, sin dolor, con diplopía en al mirada lateral\nizquierda. En la exploración física se comla existencia de una ptosis\nizquierda, una paresia de la abducción del ojo izquierdo, con unas pupilas\nisocóricas y normorreactivas de la luz. ¿Qué enfermedad es más probable que\npadezca la paciente?:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una neuritis óptica izquierda en relación con Esclerosis Múltiple."
+        },
+        {
+          "id": "B",
+          "text": "Un síndrome de Horner."
+        },
+        {
+          "id": "C",
+          "text": "Una Miastenia gravis."
+        },
+        {
+          "id": "D",
+          "text": "Una parálisis del III par izquierdo."
+        },
+        {
+          "id": "E",
+          "text": "Una miopatía hipertiroidea con afectación de la musculatura extraocular."
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La presentación clínica de la paciente es altamente sugestiva de Miastenia gravis (MG), específicamente de la forma ocular. La Miastenia gravis es una enfermedad autoinmune que afecta la unión neuromuscular, resultando en debilidad muscular fluctuante. Los síntomas oculares son la manifestación inicial en la mayoría de los casos y se caracterizan por ptosis (caída del párpado) y diplopía (visión doble), que empeoran con la fatiga y mejoran con el reposo. En este caso, la paciente presenta ptosis palpebral izquierda y diplopía en la mirada lateral izquierda debido a paresia de la abducción del ojo izquierdo, lo que indica debilidad del músculo recto lateral izquierdo (inervado por el VI par craneal).\n\nUn hallazgo crucial que orienta fuertemente hacia la Miastenia gravis y permite descartar otras causas de oftalmoplejía es la normalidad de las pupilas (isocóricas y normorreactivas a la luz). La Miastenia gravis afecta únicamente la musculatura estriada voluntaria y nunca las fibras autonómicas que controlan la pupila, ya que estas últimas poseen receptores muscarínicos de acetilcolina que no son el blanco de los autoanticuerpos miasténicos. La edad joven de la paciente (22 años) y el curso subagudo de los síntomas (\"desde una semana antes\") también son consistentes con el perfil de la Miastenia gravis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.006"
+    }
+  ],
+  "10.12": [
+    {
+      "stem": "Está usted evaluando unadiagnóstica y finalmente se encuentra en\nla siguiente tabla:\nEnfermedad SÏ NO\nPrueba Positiva 80 100\nPrueba Negativa 20 800\nA partir de ella y redondeando decimales, señale cuál de las siguientes\nafirmaciones es verdadera:",
+      "options": [
+        {
+          "id": "A",
+          "text": "El valor predictivo positivo es del 56% y el valor predictivo negativo del 13%."
+        },
+        {
+          "id": "B",
+          "text": "El valor predictivo positivo es del 44% y el valor predictivo negativo del 98%."
+        },
+        {
+          "id": "C",
+          "text": "El valor predictivo positivo es del 80% y el valor predictivo negativo del 90%."
+        },
+        {
+          "id": "D",
+          "text": "El valor predictivo positivo es del 80% y el valor predictivo negativo del 11%."
+        },
+        {
+          "id": "E",
+          "text": "El valor predictivo positivo es del 10% y el valor predictivo negativo del 20%."
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "Para resolver esta pregunta, es fundamental comprender las definiciones y fórmulas del Valor Predictivo Positivo (VPP) y el Valor Predictivo Negativo (VPN), que son medidas de la utilidad de una prueba diagnóstica en la práctica clínica. Estas medidas dependen de la prevalencia de la enfermedad y se calculan a partir de los resultados de la prueba en individuos con y sin la enfermedad, como se presenta en la tabla de contingencia.\n\nLa tabla proporcionada se interpreta de la siguiente manera:\n- Verdaderos Positivos (VP): Individuos con la enfermedad que dan positivo en la prueba. En este caso: 80.\n- Falsos Positivos (FP): Individuos sin la enfermedad que dan positivo en la prueba. En este caso: 100.\n- Falsos Negativos (FN): Individuos con la enfermedad que dan negativo en la prueba. En este caso: 20.\n- Verdaderos Negativos (VN): Individuos sin la enfermedad que dan negativo en la prueba. En este caso: 800.\n\nEl Valor Predictivo Positivo (VPP) es la probabilidad de que un paciente que ha obtenido un resultado positivo en la prueba realmente tenga la enfermedad. Su fórmula es: VPP = VP / (VP + FP).\nCalculando el VPP:\nVPP = 80 / (80 + 100) = 80 / 180 = 0.4444...\nRedondeado a porcentaje: 44%.\n\nEl Valor Predictivo Negativo (VPN) es la probabilidad de que un paciente que ha obtenido un resultado negativo en la prueba realmente no tenga la enfermedad. Su fórmula es: VPN = VN / (FN + VN).\nCalculando el VPN:\nVPN = 800 / (20 + 800) = 800 / 820 = 0.9756...\nRedondeado a porcentaje: 98%.\nPor lo tanto, la afirmación verdadera es que el valor predictivo positivo es del 44% y el valor predictivo negativo del 98%, lo que corresponde a la opción B.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.006"
+    },
+    {
+      "stem": "Para determinar la relevancia de una enfermedad infecciosa grave\nconviene ocupar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mortalidad general"
+        },
+        {
+          "id": "B",
+          "text": "Mortalidad específica"
+        },
+        {
+          "id": "C",
+          "text": "Incidencia"
+        },
+        {
+          "id": "D",
+          "text": "Prevalencia"
+        },
+        {
+          "id": "E",
+          "text": "Tasa de ataque"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La incidencia es la medida epidemiológica más adecuada para determinar la \"relevancia\" de una enfermedad infecciosa grave. Se define como la tasa de aparición de nuevos casos de una enfermedad en una población específica durante un período determinado. Para una enfermedad infecciosa, la incidencia nos informa directamente sobre la velocidad a la que se está propagando y el número de personas que están contrayendo la infección recientemente.\n\nConocer la incidencia de una enfermedad infecciosa grave es crucial para la salud pública y la toma de decisiones clínicas. Una alta incidencia indica que la enfermedad está activamente presente en la comunidad, que la transmisión es significativa y que existe un riesgo considerable de que un mayor número de personas enfermen. Esto permite a las autoridades sanitarias y a los profesionales médicos evaluar la magnitud del problema actual, predecir futuras cargas de enfermedad, implementar medidas de control y prevención (como campañas de vacunación, aislamiento o tratamiento temprano) y asignar recursos de manera efectiva.\n\nEn resumen, la incidencia capta la dinámica de la enfermedad en tiempo real, reflejando su impacto y la urgencia de su abordaje en términos de nuevos contagios. Para una enfermedad infecciosa, especialmente una grave, su \"relevancia\" se asocia primariamente con su capacidad de infectar a nuevas personas y expandirse en la población, siendo la incidencia la métrica que mejor describe este fenómeno.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.006"
+    }
+  ],
+  "10.13": [
+    {
+      "stem": "Un paciente de 72 años presenta temblor de las extremidades superiores,\nmayor a la izquierda. El temblor aumenta al adoptar una postura. Además se\nobserva temblor del mentón y de la cabeza y el resto del examen neurológico es\nnormal. El tratamiento de la patología descrita es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antagonistas dopaminérgicos"
+        },
+        {
+          "id": "B",
+          "text": "Agonistas dopaminérgicos"
+        },
+        {
+          "id": "C",
+          "text": "Betabloqueoy­geriatria/ 1/9"
+        },
+        {
+          "id": "D",
+          "text": "Antipsicóticos"
+        },
+        {
+          "id": "E",
+          "text": "Anticonvulsivantes"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El cuadro clínico presentado por el paciente de 72 años es altamente sugestivo de un **Temblor Esencial (TE)**. Las características clave son: la edad del paciente (generalmente inicia en la adultez, pero es más notorio en personas mayores), el temblor que aumenta \"al adoptar una postura\" (lo que define un temblor postural, principal característica del TE), la afectación de las extremidades superiores (con predominio izquierdo, lo cual puede ocurrir en el TE, aunque a menudo es bilateral), y la presencia de temblor en el mentón y la cabeza (manifestaciones clásicas del TE). La ausencia de otros hallazgos neurológicos anormales descarta otras causas de temblor, como la enfermedad de Parkinson (que presentaría bradicinesia, rigidez y temblor de reposo) o temblor cerebeloso (que se asociaría a ataxia y temblor de intención).\n\nEl tratamiento de primera línea para el Temblor Esencial son los **betabloqueantes**, siendo el Propranolol el fármaco más utilizado y estudiado. Actúa reduciendo la amplitud del temblor en aproximadamente el 50-70% de los pacientes, aunque el mecanismo exacto no se comprende completamente. Se cree que su efecto está relacionado con el bloqueo de los receptores beta-adrenérgicos periféricos, aunque también puede tener un efecto central. La opción \"Betabloqueo\" se refiere directamente a esta clase de fármacos.\n\nPor lo tanto, ante un diagnóstico claro de Temblor Esencial basado en las características del temblor y la normalidad del resto del examen neurológico, el tratamiento más apropiado y de primera elección es el betabloqueo.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.026"
+    },
+    {
+      "stem": "Un paciente de 67 años consulta por temblor de las extremidades\nsuperiores, que aumenta al adoptar alguna postura. Refiere que su madre\npresentó un cuadro similar. La marcha y la coordinación motora son normales\ny no presenta focalidad en el examen neurológico. El tratamiento de la\npatología descrita es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Antidepresivos tricíclicos"
+        },
+        {
+          "id": "B",
+          "text": "Agonistas dopaminérgicos"
+        },
+        {
+          "id": "C",
+          "text": "Betabloqueo"
+        },
+        {
+          "id": "D",
+          "text": "Antipsicóticos"
+        },
+        {
+          "id": "E",
+          "text": "Anticonvulsivantes"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El cuadro clínico presentado por el paciente de 67 años es altamente sugestivo de **Temblor Esencial (TE)**. Las características clave que apoyan este diagnóstico son: el **temblor de las extremidades superiores que aumenta al adoptar alguna postura** (lo que describe un temblor postural, principal manifestación del TE), el antecedente de que **su madre presentó un cuadro similar** (destacando el fuerte componente genético y herencia autosómica dominante en muchos casos de TE), y la **normalidad de la marcha, coordinación motora y ausencia de focalidad en el examen neurológico**. Esta ausencia de otros signos neurológicos es crucial para diferenciarlo de otras patologías como la enfermedad de Parkinson (donde se esperaría temblor de reposo, bradicinesia y rigidez) o patologías cerebelosas (con ataxia y dismetría).\n\nEl **betabloqueo**, específicamente con fármacos como el propranolol (un betabloqueante no selectivo), es el tratamiento farmacológico de primera línea más ampliamente recomendado y eficaz para el Temblor Esencial sintomático. El propranolol actúa reduciendo la amplitud del temblor, mejorando significativamente la calidad de vida de los pacientes. Su mecanismo exacto no está completamente dilucidado, pero se cree que ejerce sus efectos tanto a nivel periférico (bloqueo de receptores beta-2) como a nivel central. La dosis se ajusta de forma individualizada para lograr el máximo beneficio con mínimos efectos adversos.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.026"
+    }
+  ],
+  "10.14": [
+    {
+      "stem": "¿Qué medicamento se utiliza para el manejo inicial del paciente con\nenfermedad de Alzheimer leve a moderada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Benzodiacepinas."
+        },
+        {
+          "id": "B",
+          "text": "Neurolépticos atípicos."
+        },
+        {
+          "id": "C",
+          "text": "Inhibidores de la monoaminooxidasa."
+        },
+        {
+          "id": "D",
+          "text": "Antidepresivos tipo ISRS."
+        },
+        {
+          "id": "E",
+          "text": "Inhibidores de la acetilcolinesterasa."
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La alternativa correcta es la E (Inhibidores de la acetilcolinesterasa). En el manejo inicial del paciente con enfermedad de Alzheimer leve a moderada, los inhibidores de la acetilcolinesterasa (IAChE) como donepezilo, rivastigmina y galantamina son los fármacos de primera línea. Estos medicamentos actúan inhibiendo la enzima acetilcolinesterasa, que degrada la acetilcolina en la sinapsis neuronal. Al aumentar la disponibilidad de acetilcolina, mejoran la neurotransmisión colinérgica, lo que puede resultar en una leve mejoría en la función cognitiva, el comportamiento y las actividades de la vida diaria en algunos pacientes. Las guías clínicas del MINSAL (Programa Nacional de Salud Mental) recomiendan el uso de IAChE en las etapas iniciales de la enfermedad de Alzheimer, considerando la relación riesgo-beneficio y la respuesta individual de cada paciente. Es fundamental el monitoreo regular y la evaluación de la eficacia y los efectos secundarios del tratamiento.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.005"
+    },
+    {
+      "stem": "Un paciente de 78 años, con antecedente de hipertensión, diabetes y\ndemencia inicial por enfermedad de Alzheimer, sufre una caída a nivel,\nresultando con imposibilidad para caminar e intenso dolor. Al examen se\naprecia extremidad inferior derecha en posición impúdica, con imposibilidad\nde flectar la cadera. Se solicitan radiografías de caderas que demuestra una\nfractura de la región intertrocantérica, con importante desplazamiento\n(Tronzo IV). Una vez estabilizado el paciente, la conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inmovilizar con yeso pelvipedio"
+        },
+        {
+          "id": "B",
+          "text": "Realizar osteosíntesis con placa y tornillos"
+        },
+        {
+          "id": "C",
+          "text": "Realizar osteosíntesis con DHS (dinamic hip screw)"
+        },
+        {
+          "id": "D",
+          "text": "Instalar prótesis parcial de cadera"
+        },
+        {
+          "id": "E",
+          "text": "Instalar prótesis total de cadera"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El paciente presenta una fractura intertrocantérica desplazada (Tronzo IV) de cadera. Las fracturas intertrocantéricas son fracturas extracapsulares del fémur proximal, comunes en pacientes ancianos, a menudo asociadas a osteoporosis y caídas. El objetivo principal del tratamiento en estos pacientes, especialmente aquellos con comorbilidades como diabetes, hipertensión y demencia, es lograr una fijación estable que permita la movilización temprana. Esto es crucial para prevenir las graves complicaciones asociadas al reposo prolongado en cama, como la trombosis venosa profunda, embolia pulmonar, neumonía, úlceras por presión, atrofia muscular y el empeoramiento del deterioro cognitivo o el desarrollo de delirium.\n\nLa osteosíntesis con DHS (Dynamic Hip Screw o Tornillo Deslizante de Cadera) es considerada el estándar de oro para el tratamiento de la mayoría de las fracturas intertrocantéricas estables y muchas inestables. Este sistema consiste en un tornillo de gran diámetro que se inserta en el cuello y la cabeza femoral, y que se desliza dentro de un barril fijado a una placa atornillada a la diáfisis femoral. Este diseño permite una compresión controlada y un impacto progresivo en el sitio de la fractura durante la carga, lo que promueve la consolidación y proporciona una excelente estabilidad. La ventaja clave del DHS es que preserva la articulación nativa de la cadera, lo que es preferible en este tipo de fracturas donde la irrigación de la cabeza femoral no suele estar comprometida. La estabilidad que ofrece el DHS permite una movilización precoz y el inicio de la rehabilitación, lo cual es fundamental para el pronóstico funcional y la reducción de la morbimortalidad en pacientes ancianos frágiles como el descrito.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.005"
+    },
+    {
+      "stem": "¿Qué alternativa es MÁS compatible con una demencia por enfermedad de\nAlzheimer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Test del reloj alterado"
+        },
+        {
+          "id": "B",
+          "text": "Alucinaciones visuales"
+        },
+        {
+          "id": "C",
+          "text": "Minimental de 24/25 puntos"
+        },
+        {
+          "id": "D",
+          "text": "Sopor y desorientación"
+        },
+        {
+          "id": "E",
+          "text": "Síntomas extrapiramidales"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La enfermedad de Alzheimer se caracteriza por un deterioro cognitivo progresivo. El Test del Reloj es una herramienta sencilla pero sensible para evaluar la función visuoespacial, la planificación y la memoria operativa, todas afectadas en la enfermedad de Alzheimer. Los pacientes con EA suelen mostrar dificultades significativas para dibujar el reloj correctamente, como colocar los números en el lugar incorrecto, omitir números, dibujar las manecillas incorrectamente o no entender la consigna. Este test es útil para detectar disfunción cognitiva temprana. La guía clínica de MINSAL \"Enfermedad de Alzheimer y otras Demencias\" (2018) recomienda el uso de tests neuropsicológicos breves, como el Test del Reloj, en la evaluación inicial de pacientes con sospecha de demencia.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.005"
+    },
+    {
+      "stem": "Un paciente de 65 años presenta olvidos frecuentes y repetición de algunas\nideas, asociados a dificultad para realizar sus tareas habituales. En el examen\nmental invierte series con normalidad, y mantiene la memoria a largo plazo,\nsin embargo presenta varias fallas en lass de memoria reciente. El\nexamen neurológico no presenta signos focales y sólo destaca cierta torpeza\nmotora, sin signos cerebelosos. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Envejecimiento normal"
+        },
+        {
+          "id": "B",
+          "text": "Depresión"
+        },
+        {
+          "id": "C",
+          "text": "Enfermedad de Alzheimer"
+        },
+        {
+          "id": "D",
+          "text": "Delirium"
+        },
+        {
+          "id": "E",
+          "text": "Demencia por cuerpos de Lewy"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El cuadro clínico descrito es altamente sugerente de una **Enfermedad de Alzheimer (EA)** en su etapa inicial. La EA es la causa más común de demencia y se caracteriza por un inicio insidioso y una progresión gradual del deterioro cognitivo.\n\nLos elementos clave en el caso que apoyan este diagnóstico son:\n1.  **Perfil del paciente:** 65 años, una edad típica para el inicio de la EA de inicio tardío.\n2.  **Déficit cognitivo principal:** El síntoma cardinal es la **pérdida de memoria reciente** (amnesia anterógrada), manifestada como \"olvidos frecuentes\", \"repetición de ideas\" y \"fallas en las pruebas de memoria reciente\". Es característico que la memoria a largo plazo (\"mantiene la memoria a largo plazo\") y la atención (\"invierte series con normalidad\") estén relativamente preservadas en las fases iniciales.\n3.  **Impacto funcional:** El paciente presenta \"dificultad para realizar sus tareas habituales\". Este es un criterio fundamental para el diagnóstico de demencia (Trastorno Neurocognitivo Mayor), ya que distingue el deterioro patológico del envejecimiento normal.\n4.  **Examen neurológico:** La ausencia de \"signos focales\" (como hemiparesia, afasia motora marcada o defectos campimétricos) y de \"signos cerebelosos\" va en contra de otras etiologías como la demencia vascular o ataxias espinocerebelosas. La \"cierta torpeza motora\" es un hallazgo inespecífico que puede observarse en la EA.\n\nEn conjunto, un deterioro de predominio amnésico, con impacto funcional y un examen neurológico no focal, es el patrón clásico de la Enfermedad de Alzheimer.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.005"
+    }
+  ],
+  "10.15": [
+    {
+      "stem": "Un hombre de 67 años presenta un cuadro de varios meses de evolución de\nfallas de la memoria, asociado a ideas paranoides, caídas frecuentes y\nmovimientos involuntarios de las extremidades superiores. Los familiares\nrefieren que en ocasiones es agresivo y presenta alucinaciones visuales. El\ndiagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hidrocefalia normotensiva"
+        },
+        {
+          "id": "B",
+          "text": "Enfermedad de Alzheimer"
+        },
+        {
+          "id": "C",
+          "text": "Glioblastoma multiforme"
+        },
+        {
+          "id": "D",
+          "text": "Demencia por cuerpos de Lewy"
+        },
+        {
+          "id": "E",
+          "text": "Delirium"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "La alternativa correcta es la Demencia por cuerpos de Lewy (DCL) porque el paciente presenta un cuadro clínico compatible con esta patología. Los elementos clave son:\n*   **Deterioro cognitivo fluctuante:** La memoria falla, pero no de forma constante, sino con fluctuaciones en el tiempo.\n*   **Alucinaciones visuales recurrentes y bien formadas:** Son un criterio diagnóstico central en la DCL.\n*   **Parkinsonismo:** Se manifiesta en este caso como movimientos involuntarios de extremidades superiores y caídas frecuentes. La rigidez y bradicinesia también podrían estar presentes, pero no se mencionan explícitamente.\n*   **Trastornos del sueño REM:** (No explicitamente mencionado) Frecuentemente presentes, pero no evaluables con la información dada.\n*   **Ideas paranoides:** Pueden ocurrir en DCL, pero no son tan específicas como los otros criterios.\n\nLa guía clínica del MINSAL para el manejo de demencias (si bien no se centra exclusivamente en DCL) destaca la importancia de identificar los síntomas nucleares para un diagnóstico diferencial preciso. Además, subraya la necesidad de descartar otras causas de demencia y evaluar la presencia de comorbilidades. El diagnóstico clínico se apoya en criterios estandarizados, como los del Consorcio Internacional para la Demencia con Cuerpos de Lewy.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.005"
+    },
+    {
+      "stem": "Una mujer de 68 años presenta un cuadro de 12 meses de evolución de\nproblemas de memoria, ideas paranoides y alucinaciones visuales. Presenta\nademás caídas frecuentes y temblor de la mano izquierda. Los síntomas son\nfluctuantes, pero muestran una tendencia a empeorar. El diagnóstico más\nprobable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Demencia por cuerpos de Lewy"
+        },
+        {
+          "id": "B",
+          "text": "Enfermedad de Alzheimer"
+        },
+        {
+          "id": "C",
+          "text": "Delirium"
+        },
+        {
+          "id": "D",
+          "text": "Demencia frontotemporal"
+        },
+        {
+          "id": "E",
+          "text": "Hidrocefalia normotensiva"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La respuesta correcta es a) Demencia por cuerpos de Lewy (DCL). El caso clínico presenta una combinación de características cardinales que son altamente sugestivas de este diagnóstico. En primer lugar, la paciente experimenta problemas de memoria, ideas paranoides y, crucialmente, alucinaciones visuales. Las alucinaciones visuales recurrentes, típicamente bien formadas y detalladas, son uno de los criterios diagnósticos fundamentales para la DCL. La presencia de ideas paranoides también es común en esta demencia.\n\nEn segundo lugar, el cuadro incluye síntomas motores como caídas frecuentes y temblor de la mano izquierda, que sugieren parkinsonismo. El parkinsonismo es el segundo criterio diagnóstico central de la DCL, presentándose a menudo con rigidez, bradicinesia, inestabilidad postural (lo que lleva a caídas) y/o temblor de reposo. En la DCL, los síntomas cognitivos suelen aparecer antes o concomitantemente con los síntomas motores, o dentro de un año de su inicio, a diferencia de la enfermedad de Parkinson con demencia, donde la demencia aparece significativamente después del inicio del parkinsonismo.\n\nFinalmente, y quizás el rasgo más distintivo que ayuda a diferenciarla de otras demencias, es el curso fluctuante de los síntomas, aunque con una tendencia general a empeorar. Estas fluctuaciones en la cognición y el nivel de alerta son una característica clave de la DCL, lo que significa que la claridad mental de la persona puede variar significativamente de un día para otro o incluso dentro del mismo día, con periodos de lucidez alternando con confusión y somnolencia. La combinación de alucinaciones visuales, parkinsonismo y fluctuaciones cognitivas, en el contexto de una demencia progresiva, apunta directamente a la Demencia por cuerpos de Lewy.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.005"
+    }
+  ],
+  "10.16": [
+    {
+      "stem": "¿Qué es lo más constante en el examen físico de un paciente con una\nsíndrome de Guillain-Barré?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arreflexia"
+        },
+        {
+          "id": "B",
+          "text": "Hipoventilación"
+        },
+        {
+          "id": "C",
+          "text": "Compromiso de conciencia"
+        },
+        {
+          "id": "D",
+          "text": "Hipoestesia"
+        },
+        {
+          "id": "E",
+          "text": "Oftalmoplejia"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "El Síndrome de Guillain-Barré (SGB) es una polirradiculoneuropatía aguda, de origen autoinmune, que afecta principalmente a los nervios periféricos. Su característica patológica principal es la desmielinización de las raíces nerviosas y nervios periféricos.\n\nClínicamente, esto se manifiesta como un síndrome de **neurona motora inferior**, cuyos hallazgos cardinales son:\n1.  **Debilidad muscular:** Típicamente simétrica y de progresión ascendente (comienza en las extremidades inferiores y avanza hacia el tronco, extremidades superiores y músculos bulbares/respiratorios).\n2.  **Arreflexia o hiporreflexia osteotendinosa:** La interrupción de la vaina de mielina en el nervio periférico bloquea la conducción del impulso nervioso a lo largo del arco reflejo. Esto causa la abolición o disminución severa de los reflejos. La arreflexia es un hallazgo casi universal y es un criterio diagnóstico fundamental (por ejemplo, en los criterios de Brighton para el diagnóstico de SGB). Es, por lo tanto, el signo clínico **más constante y fiable** en el examen físico.\n\nLa debilidad progresa durante días o hasta 4 semanas. Aunque existen otros signos y síntomas, la arreflexia generalizada en el contexto de una debilidad progresiva es el pilar del diagnóstico clínico.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.013"
+    },
+    {
+      "stem": "Un paciente de 34 años presenta un cuadro diarreico autolimitado. Diez días\ndespués inicia debilidad progresiva para caminar y para mover las manos. Al\nexamen físico se aprecia además parálisis fácil y arreflexia generalizada. El\ndiagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Síndrome de Guillain Barré"
+        },
+        {
+          "id": "B",
+          "text": "Miastenia gravis"
+        },
+        {
+          "id": "C",
+          "text": "Polineuropatía"
+        },
+        {
+          "id": "D",
+          "text": "Botulismo"
+        },
+        {
+          "id": "E",
+          "text": "Intoxicación por marea roja"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "El Síndrome de Guillain-Barré (SGB) es la principal sospecha diagnóstica en este caso. La secuencia clásica es un evento infeccioso (en este caso, diarrea autolimitada) seguido por debilidad muscular ascendente y arreflexia. La parálisis facial refuerza aún más la sospecha, ya que es una manifestación común del SGB. La debilidad es progresiva y de tipo flácido, lo cual es consistente con el SGB. Según la Guía Clínica AUGE para el Síndrome de Guillain-Barré del MINSAL (aunque no se especifica un código en la lista proporcionada), el diagnóstico se basa en la clínica y se confirma con estudios como la electromiografía y el análisis del líquido cefalorraquídeo.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.013"
+    },
+    {
+      "stem": "Un adolescente de 16 años inicia un cuadro relativamente rápido de\ndebilidad de las extremidades inferiores, que luego se extiende a las\nsuperiores, en cosa de 5 horas, agravándose a medida que pasa el tiempo. Al\nexamen físico además se constata arreflexia generalizada. El diagnóstico más\nprobable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polineuropatía"
+        },
+        {
+          "id": "B",
+          "text": "Síndrome de Guillain- Barre"
+        },
+        {
+          "id": "C",
+          "text": "Síndrome de compresión medular"
+        },
+        {
+          "id": "D",
+          "text": "Esclerosis múltiple"
+        },
+        {
+          "id": "E",
+          "text": "Miastenia gravis"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La alternativa correcta es el **Síndrome de Guillain-Barré (SGB)** porque el cuadro clínico del paciente, un adolescente de 16 años, se ajusta perfectamente a la presentación clásica de esta enfermedad. Los elementos clave son:\n\n*   **Debilidad rápidamente progresiva:** La debilidad que asciende desde las extremidades inferiores a las superiores en cuestión de horas es muy sugerente de SGB. La rapidez de la progresión es fundamental.\n*   **Arreflexia generalizada:** La ausencia de reflejos osteotendinosos (arreflexia) es un hallazgo cardinal en el SGB. Esto indica compromiso de las raíces nerviosas.\n*   **Historia compatible:** Si bien la pregunta no lo explicita, es importante recordar que en muchos casos el SGB se presenta tras una infección respiratoria o gastrointestinal, lo que activaría una respuesta autoinmune.\n\nSi bien no se menciona en la pregunta, otros hallazgos que podrían apoyar el diagnóstico de SGB incluyen:\n*   **Disociación albumino-citológica en el líquido cefalorraquídeo (LCR):** Aumento de la proteína en el LCR con recuento celular normal o ligeramente elevado.\n*   **Estudios de conducción nerviosa:** Demuestran desmielinización y/o axonal en los nervios periféricos.\n\n**Guías MINSAL:** Aunque no existe una guía clínica específica del MINSAL para el manejo del SGB en adolescentes, el manejo se basa en guías internacionales y la experiencia clínica. El diagnóstico oportuno y el tratamiento adecuado son cruciales para minimizar la morbilidad y mortalidad. En Chile, el manejo suele realizarse en unidades de cuidados intensivos debido al riesgo de insuficiencia respiratoria.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.013"
+    },
+    {
+      "stem": "Un paciente de 36 años presenta disestesias en las piernas, asociadas a\ndebilidad progresiva, que a las 48 horas de su inicio le impide la marcha. Al\nexamen se aprecia arreflexia generalizada. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polirradiculoneuritis desmielinizante"
+        },
+        {
+          "id": "B",
+          "text": "Síndrome de arteria espinal posterior"
+        },
+        {
+          "id": "C",
+          "text": "Mononeuritis múltiple"
+        },
+        {
+          "id": "D",
+          "text": "Polineuropatía"
+        },
+        {
+          "id": "E",
+          "text": "Esclerosis múltiple"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La respuesta correcta es la a) Polirradiculoneuritis desmielinizante, que es el término técnico para el Síndrome de Guillain-Barré (SGB). Este diagnóstico encaja perfectamente con el cuadro clínico presentado. El paciente experimenta disestesias (alteraciones de la sensibilidad, como hormigueo o adormecimiento) en las piernas, asociadas a debilidad muscular progresiva que avanza rápidamente, impidiendo la marcha en tan solo 48 horas. Esta progresión aguda o subaguda de debilidad y síntomas sensitivos es una característica cardinal del SGB.\n\nEl hallazgo más distintivo y confirmatorio en el examen físico es la arreflexia generalizada. La pérdida de los reflejos osteotendinosos profundos, especialmente de forma simétrica y generalizada, es un signo patognomónico del Síndrome de Guillain-Barré, que es una polineuropatía desmielinizante inflamatoria aguda que afecta las raíces nerviosas y los nervios periféricos. La edad del paciente (36 años) es también compatible, ya que el SGB puede afectar a cualquier edad.\n\nLa polirradiculoneuritis desmielinizante aguda se caracteriza por una respuesta autoinmune dirigida contra la mielina de los nervios periféricos y/o las raíces nerviosas. Esto interrumpe la conducción nerviosa, llevando a la debilidad motora progresiva y la afectación sensitiva. La progresión rápida y la arreflexia son los pilares diagnósticos, haciendo de esta opción la más probable y precisa para la presentación clínica del paciente.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.2.013"
+    }
+  ],
+  "10.17": [
+    {
+      "stem": "Lo más característico de la miastenia gravis es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Debilidad de instalación súbita de un hemicuerpo"
+        },
+        {
+          "id": "B",
+          "text": "Debilidad proximal, asociada a elevación de la creatinfosfoquinasa (CK)"
+        },
+        {
+          "id": "C",
+          "text": "Debilidad distal asimétrica que mejora con el ejercicio"
+        },
+        {
+          "id": "D",
+          "text": "Debilidad proximal y distal simétricas, sin compromiso ocular"
+        },
+        {
+          "id": "E",
+          "text": "Astenia y debilidad muscular de curso fluctuante"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La respuesta correcta es la e) Astenia y debilidad muscular de curso fluctuante. La miastenia gravis se caracteriza por debilidad muscular que empeora con la actividad y mejora con el reposo. Esta fluctuación es un sello distintivo de la enfermedad. La astenia, o sensación de fatiga, es un síntoma común. La debilidad afecta a menudo los músculos que controlan los ojos (ptosis, diplopía), la masticación, la deglución y las extremidades, pero la presentación varía considerablemente entre los pacientes. La fluctuación en la gravedad de los síntomas es clave para el diagnóstico y el manejo.\n\nLa miastenia gravis es una enfermedad autoinmune que afecta la unión neuromuscular. Los anticuerpos atacan a los receptores de acetilcolina en la placa motora, interfiriendo con la transmisión de impulsos nerviosos a los músculos. Esto causa debilidad muscular que varía a lo largo del día y con la actividad. El diagnóstico se basa en la historia clínica, el examen físico, pruebas farmacológicas (como el test del edrofonio) y pruebas de laboratorio que detectan anticuerpos específicos. El tratamiento incluye medicamentos que mejoran la transmisión neuromuscular, inmunosupresores y, en algunos casos, timectomía.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.020"
+    },
+    {
+      "stem": "Mujer de 33 años, consulta por astenia y diplopía, de 2 semanas de\nevolución, fluctuantes. Al examen se observa ptosis izquierda y ligero\nestrabismo divergente, que ella refiere no haber tenido previamente. El\ndiagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Síndrome de Guillan Barré7"
+        },
+        {
+          "id": "B",
+          "text": "Miastenia gravis"
+        },
+        {
+          "id": "C",
+          "text": "Tumor hipofisiario"
+        },
+        {
+          "id": "D",
+          "text": "Encefalopatía de Wernicke"
+        },
+        {
+          "id": "E",
+          "text": "Síndrome de Claude Bernard Horner"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La respuesta correcta es **b) Miastenia gravis**. Este diagnóstico se ajusta perfectamente a la presentación clínica de la paciente. La Miastenia Gravis (MG) es una enfermedad autoinmune crónica que se caracteriza por debilidad muscular fluctuante y fatigabilidad. Afecta predominantemente a mujeres jóvenes, lo que coincide con la edad de la paciente (33 años).\n\nLos síntomas clave en este caso son la astenia (debilidad generalizada o fatiga), la diplopía (visión doble) y la ptosis (caída del párpado), junto con un ligero estrabismo divergente. Todos estos son hallazgos clásicos de la MG, especialmente cuando afectan los músculos oculares (Miastenia Ocular), que es la forma de presentación inicial en aproximadamente el 50-60% de los casos. La característica más distintiva y crucial para el diagnóstico es la **fluctuación** de los síntomas: empeoran con la actividad o al final del día y mejoran con el reposo, lo que la paciente refiere como \"fluctuantes\". La evolución subaguda de 2 semanas es también consistente con el inicio de la enfermedad.\n\nLa patogenia de la Miastenia Gravis implica la formación de autoanticuerpos contra los receptores de acetilcolina en la unión neuromuscular, lo que impide la transmisión eficaz del impulso nervioso a los músculos y provoca la debilidad observada. El compromiso de los músculos extraoculares y de los párpados es muy común, llevando a ptosis y diplopía. La ausencia de antecedentes previos y la aparición de estos síntomas de forma subaguda y fluctuante refuerzan aún más el diagnóstico de Miastenia Gravis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.020"
+    },
+    {
+      "stem": "Una mujer de 33 años consulta por astenia y debilidad fluctuantes,\nasociadas a diplopía, que se agrava al realizar deporte. El diagnóstico de\nsospecha es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Botulismo"
+        },
+        {
+          "id": "B",
+          "text": "Polineuropatía"
+        },
+        {
+          "id": "C",
+          "text": "Síndrome de Guillain Barré"
+        },
+        {
+          "id": "D",
+          "text": "Miastenia gravis"
+        },
+        {
+          "id": "E",
+          "text": "Esclerosis múltiple"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "La miastenia gravis es una enfermedad neuromuscular autoinmune caracterizada por debilidad muscular fluctuante que empeora con la actividad y mejora con el reposo. Los síntomas clásicos incluyen ptosis palpebral (caída del párpado), diplopía (visión doble), dificultad para hablar (disartria), dificultad para tragar (disfagia) y debilidad en las extremidades. El ejercicio exacerba la debilidad debido al agotamiento de los receptores de acetilcolina en la unión neuromuscular. En Chile, el manejo de la miastenia gravis está considerado en las Guías Clínicas del MINSAL, enfocándose en el diagnóstico precoz y tratamiento sintomático e inmunomodulador. La presentación fluctuante de los síntomas, su exacerbación con la actividad física y la presencia de diplopía son altamente sugestivas de miastenia gravis.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.020"
+    },
+    {
+      "stem": "Un hombre de 30 años acude a su consulta por presentar debilidad muscular\ny diplopia fluctuantes, de un mes de evolución, que usted objetiva con la\nexploración física. ¿Cuál de las siguientess NO le parecería oportuno\nsolicitar?:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electromiografía de fibra muscular aislada."
+        },
+        {
+          "id": "B",
+          "text": "Electromiografía con estimulación repetitiva."
+        },
+        {
+          "id": "C",
+          "text": "Estudio de función autonómica."
+        },
+        {
+          "id": "D",
+          "text": "Determinación de anticuerpos anti-receptor de aceticolina."
+        },
+        {
+          "id": "E",
+          "text": "TAC torácico."
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La presentación clínica de un hombre de 30 años con debilidad muscular y diplopia fluctuantes, de un mes de evolución y objetivada en la exploración física, es altamente sugestiva de Miastenia Gravis (MG). La Miastenia Gravis es una enfermedad autoinmune que afecta la unión neuromuscular, causando una alteración en la transmisión de impulsos nerviosos a los músculos esqueléticos. La naturaleza \"fluctuante\" de los síntomas, que implica fatigabilidad, es un rasgo distintivo y cardinal de esta condición, haciendo que la sospecha clínica sea muy alta para MG.\n\nEl diagnóstico de Miastenia Gravis se basa en la clínica y se confirma mediante la detección de anticuerpos específicos (principalmente anti-receptor de acetilcolina), estudios electrofisiológicos que demuestren un defecto en la transmisión neuromuscular (como la electromiografía de fibra muscular aislada o la estimulación nerviosa repetitiva) y la búsqueda de patología tímica (mediante TAC torácico). Todas estas pruebas son fundamentales para establecer el diagnóstico, clasificar la enfermedad y guiar el tratamiento adecuado.\n\nPor el contrario, un \"Estudio de función autonómica\" evalúa la función del sistema nervioso autónomo (simpático y parasimpático), que controla funciones corporales involuntarias como la frecuencia cardíaca, la presión arterial, la digestión y la sudoración. La Miastenia Gravis afecta primariamente la musculatura esquelética voluntaria a través del sistema nervioso somático. Si bien en casos muy raros o atípicos, o en presencia de comorbilidades, podría haber alguna disfunción autonómica leve, esta no es una característica principal, esperada ni un componente diagnóstico rutinario o temprano de la Miastenia Gravis típica. Por lo tanto, solicitar un estudio de función autonómica no sería una prueba oportuna en la evaluación inicial de un paciente con esta presentación clínica.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.020"
+    }
+  ],
+  "10.18": [
+    {
+      "stem": "La esclerosis múltiple puede presentar todos los síntomas siguientes,\nEXCEPTO:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hemiparesia"
+        },
+        {
+          "id": "B",
+          "text": "Ataxia"
+        },
+        {
+          "id": "C",
+          "text": "Hemihipoestesia"
+        },
+        {
+          "id": "D",
+          "text": "Incontinencia urinaria"
+        },
+        {
+          "id": "E",
+          "text": "Afasia de comprensión"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La esclerosis múltiple (EM) es una enfermedad crónica inflamatoria y desmielinizante del sistema nervioso central (SNC), caracterizada por la aparición de lesiones (placas) en el cerebro, la médula espinal y los nervios ópticos, diseminadas en el tiempo y en el espacio. La naturaleza y localización de estas lesiones determinan la amplia variedad de síntomas neurológicos que pueden presentarse. Entre los síntomas más comunes se encuentran las alteraciones motoras (paresias, espasticidad), sensitivas (parestesias, hipoestesia), visuales (neuritis óptica, diplopía), cerebelosas (ataxia, disartria), disfunción vesical e intestinal, fatiga y alteraciones cognitivas.\n\nSin embargo, la afasia de comprensión, un trastorno del lenguaje caracterizado por la incapacidad de entender el lenguaje hablado o escrito (como la afasia de Wernicke), es un síntoma extremadamente raro como manifestación inicial o principal de la esclerosis múltiple. Si bien la EM puede causar disfunción cognitiva, que incluye dificultades en la velocidad de procesamiento, memoria y funciones ejecutivas, estas generalmente no se manifiestan como una afasia clásica y severa. Los síndromes afásicos suelen ser el resultado de lesiones focales extensas en áreas corticales específicas del hemisferio dominante (como el lóbulo temporal o frontal perisilviano), las cuales no son los sitios de predilección más comunes para las lesiones desmielinizantes iniciales de la EM.\n\nAunque teóricamente una lesión tumefactiva o una placa extensa en una región elocuente del lenguaje podría causar afasia, esto es atípico en el espectro de la EM y se consideraría una presentación inusual. Por lo tanto, mientras que la EM puede afectar casi cualquier función neurológica, las afasias corticales severas, especialmente de comprensión, son las menos esperadas entre las opciones presentadas.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.008"
+    },
+    {
+      "stem": "Paciente de 65 años sin antecedentes mórbidos. Hace 4 meses con conducta\nmás apática y fallas reiteradas en la memoria. Los familiares se muestran muy\npreocupados y refieren que además ha presentado caídas en múltiples\nocasiones y también incontinencia urinaria. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enfermedad de Alzheimer inicial"
+        },
+        {
+          "id": "B",
+          "text": "AVE a repetición"
+        },
+        {
+          "id": "C",
+          "text": "Demencia por cuerpos de Lewy"
+        },
+        {
+          "id": "D",
+          "text": "Demencia frontotemporal"
+        },
+        {
+          "id": "E",
+          "text": "Hidrocefalia normotensiva"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La alternativa correcta es la **E (Hidrocefalia normotensiva)**. Este diagnóstico se basa en la tríada clásica de Hakim-Adams:\n\n*   **Deterioro cognitivo:** El paciente presenta \"conducta más apática y fallas reiteradas en la memoria\".\n*   **Alteración de la marcha:** Se manifiesta como \"caídas en múltiples ocasiones\".\n*   **Incontinencia urinaria:** Tal como se describe en el caso.\n\nSi bien cada uno de estos síntomas puede ser causado por otras condiciones, la presencia de los tres juntos en un paciente de edad avanzada debe levantar la sospecha de hidrocefalia normotensiva. Es importante destacar que la presión del LCR puede estar dentro de rangos normales en la medición lumbar, de ahí el término \"normotensiva\". La fisiopatología no está completamente elucidada, pero se cree que hay una alteración en la absorción del LCR a nivel de las vellosidades aracnoideas.\n\nNo existe una guía clínica MINSAL específica para Hidrocefalia Normotensiva, pero el manejo de la incontinencia urinaria (síntoma asociado) se puede encontrar en las guías de atención primaria.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.008"
+    },
+    {
+      "stem": "Enfermo de 76 años que acude a la consulta por pérdida de fuerza,\nfundamentalmente proximal, en miembros superiores. La exploración\nneurológica evidencia pérdida de fuerza, atrofia y fasciculaciones en varios\ngrupos musculares de miembros superiores, así como discreta pérdida de\nfuerza en los músculos tibiales anteriores. Los reflejos osteotendinosos son\nvivos y simétricos y la sensibilidad es normal. El estudio electrofisiológico\ndemuestra signos de denervación en múltiples músculos con conducción\nnerviosa sensitiva normal. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Esclerosis lateral amiotrófica.salud­publica/ 1/7"
+        },
+        {
+          "id": "B",
+          "text": "Síndrome miasténico tipo Eaton-Lambert."
+        },
+        {
+          "id": "C",
+          "text": "Miopatía tirotóxica con fasciculaciones."
+        },
+        {
+          "id": "D",
+          "text": "Espondilosis cervical."
+        },
+        {
+          "id": "E",
+          "text": "Atrofia muscular espinal de comienzo tardío."
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La respuesta correcta es la Esclerosis Lateral Amiotrófica (ELA). Este diagnóstico se fundamenta en la combinación de hallazgos clínicos y electrofisiológicos que son altamente característicos de la enfermedad. El paciente presenta debilidad progresiva, atrofia y fasciculaciones en múltiples grupos musculares (miembros superiores y tibiales anteriores), lo que son signos claros de afectación de la segunda motoneurona (neurona motora inferior). La electrofisiología confirma esta denervación, con conducción nerviosa sensitiva normal, lo que excluye una neuropatía sensitiva o mixta y mantiene el foco en el sistema motor.\n\nEl hallazgo más crucial que direcciona hacia ELA es la presencia de reflejos osteotendinosos \"vivos y simétricos\" a pesar de la debilidad, atrofia y fasciculaciones. La hiperreflexia (reflejos vivos) en el contexto de signos de segunda motoneurona (debilidad, atrofia, fasciculaciones) es la manifestación clásica de la coexistencia de afectación de primera motoneurona (neurona motora superior) y segunda motoneurona. La ELA es la enfermedad neurodegenerativa que se caracteriza precisamente por la degeneración progresiva de ambas motoneuronas, tanto las de la corteza cerebral como las del tronco encefálico y la médula espinal, mientras respeta la sensibilidad.\n\nLa edad del paciente (76 años) también es compatible con la edad de inicio más común de la ELA. La distribución de la debilidad (proximal en miembros superiores, con afectación discreta en tibiales anteriores) es consistente con una enfermedad sistémica de la motoneurona. Todos estos elementos en conjunto forman un cuadro clínico patognomónico de la Esclerosis Lateral Amiotrófica.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.008"
+    },
+    {
+      "stem": "¿Cuál de las siguientes alteraciones es MENOS probable de encontrar en un\npaciente con esclerosis lateral amiotrófica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fasciculaciones"
+        },
+        {
+          "id": "B",
+          "text": "Atrofia muscular"
+        },
+        {
+          "id": "C",
+          "text": "Hiperreflexia"
+        },
+        {
+          "id": "D",
+          "text": "Hipoestesia"
+        },
+        {
+          "id": "E",
+          "text": "Disfagia"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "La esclerosis lateral amiotrófica (ELA) es una enfermedad neurodegenerativa progresiva que afecta selectivamente a las motoneuronas superiores (UMN) en la corteza cerebral y a las motoneuronas inferiores (LMN) en el tronco encefálico y la médula espinal. Esta degeneración conduce a una debilidad muscular progresiva, atrofia y parálisis. Es fundamental comprender que la ELA es primariamente una enfermedad *motora*, lo que significa que su patología principal se centra en las vías motoras.\n\nEn contraste, las vías sensoriales (responsables de la percepción del tacto, dolor, temperatura, vibración y propiocepción) se encuentran generalmente preservadas en la ELA. Aunque algunos pacientes pueden referir parestesias o calambres, la presencia de déficits sensoriales objetivos y significativos, como la hipoestesia (disminución de la sensibilidad), no es una característica típica de la enfermedad y, de hecho, su presencia prominente puede sugerir un diagnóstico alternativo o una enfermedad coexistente. Por lo tanto, la hipoestesia es la alteración *menos probable* de encontrar de manera significativa en un paciente con ELA.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.008"
+    }
+  ],
+  "10.19": [
+    {
+      "stem": "¿Cuál de los siguientes hallazgos en el examen físico orientan más a una\nparálisis facial periférica derecha?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mantener la capacidad de arrugar la frente y cerrar el ojo derecho"
+        },
+        {
+          "id": "B",
+          "text": "Compromiso de músculos masticatorios derechos"
+        },
+        {
+          "id": "C",
+          "text": "Presencia de hemiparesia braquiocrural derecha"
+        },
+        {
+          "id": "D",
+          "text": "Presencia de hemihipoestesia facial derecha"
+        },
+        {
+          "id": "E",
+          "text": "Parálisis facial derecha con compromiso armónico de frente, ojo, boca y mentón"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La respuesta correcta es la **e) Parálisis facial derecha con compromiso armónico de frente, ojo, boca y mentón**. Este hallazgo es el más orientador de una parálisis facial periférica (o infranuclear) porque indica una afectación completa y homogénea de todos los músculos inervados por el nervio facial (VII par craneal) en el lado derecho. En una parálisis facial periférica, la lesión se localiza en el propio nervio facial, desde su núcleo en el tronco encefálico hasta su salida y ramificaciones, afectando por igual tanto las fibras que inervan la parte superior de la cara (músculo frontal para arrugar la frente, orbicular de los párpados para cerrar el ojo) como las que inervan la parte inferior (músculos de la boca, mejillas y mentón).\n\nEl término \"compromiso armónico\" resalta esta afectación global: el paciente no podrá arrugar la frente del lado afectado, cerrar completamente el ojo (produciendo el signo de Bell), ni mover la boca o mejilla de manera simétrica (dificultad para sonreír, silbar, mostrar los dientes, y desviación de la comisura bucal hacia el lado sano). Esta distribución es clave para diferenciarla de una parálisis facial central.\n\nEn contraste, una parálisis facial central (o supranuclear) se debe a una lesión en el cerebro (corteza o vías descendentes) y generalmente afecta solo la parte inferior contralateral de la cara, con preservación de la función de la frente y el ojo, debido a la inervación bilateral de los músculos de la parte superior de la cara. Por lo tanto, el compromiso armónico de todas las regiones faciales en un lado es el sello distintivo de una parálisis facial periférica.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.016"
+    },
+    {
+      "stem": "Un paciente de 19 años consulta por imposibilidad de mover la mitad de la\ncara izquierda, que inició hace 3 horas. Presenta sensibilidad normal y\nconserva los movimientos masticatorios y oculomotores, sin embargo no es\ncapaz de realizar movimientos con los músculos de expresión facial del lado\nizquierdo como sonreír, fruncir el ceño, arrugar la frente y tampoco puede\ncerrar completamente el ojo. El resto del examen neurológico es normal.\nAdemás de la protección ocular la conducta más adecuada es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Iniciar carbamazepina"
+        },
+        {
+          "id": "B",
+          "text": "Iniciar clorpromazina"
+        },
+        {
+          "id": "C",
+          "text": "Iniciar amitriptilina"
+        },
+        {
+          "id": "D",
+          "text": "Iniciar aciclovir"
+        },
+        {
+          "id": "E",
+          "text": "Iniciar prednisona"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "El paciente presenta una parálisis facial periférica aguda. La presentación clásica es la imposibilidad de mover la mitad de la cara ipsilateral, afectando tanto la frente como la parte inferior de la cara, tal como se describe en el caso. La causa más común de parálisis facial periférica es la parálisis de Bell, que se considera idiopática. El tratamiento de elección para la parálisis de Bell, según las guías clínicas internacionales y la práctica clínica habitual en Chile, es la administración temprana de corticoides (prednisona) para reducir la inflamación del nervio facial y mejorar el pronóstico de recuperación. La protección ocular (lubricación y oclusión nocturna) es crucial para prevenir complicaciones como la queratitis por exposición, pero no es el tratamiento principal. El beneficio de aciclovir en conjunto con corticoides es controversial y se considera en casos específicos. La intervención dentro de las primeras 72 horas es crucial para maximizar el beneficio del tratamiento con corticoides.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.016"
+    }
+  ],
+  "10.20": [
+    {
+      "stem": "Un paciente consulta porque hoy al despertar presentó vértigo muy intenso,\nque inició en el momento en que se levantó de la cama. El vértigo dura algunos\nsegundos y se desencadena con los movimientos de la cabeza. No ha presentado\nsíntomas auditivos. Al examen destaca nistagmo horizontal, con fase rápida a\nderecha. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enfermedad de Meniere"
+        },
+        {
+          "id": "B",
+          "text": "Vértigo postural paroxístico benigno"
+        },
+        {
+          "id": "C",
+          "text": "Neuronitis vestibular"
+        },
+        {
+          "id": "D",
+          "text": "Laberintitis aguda"
+        },
+        {
+          "id": "E",
+          "text": "Infarto de cerebelo"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "El diagnóstico más probable es **Vértigo Postural Paroxístico Benigno (VPPB)**. El cuadro clínico descrito es la presentación clásica de esta patología. Analicemos las claves del caso:\n\n1.  **Desencadenante postural:** El vértigo \"inició en el momento en que se levantó de la cama\" y \"se desencadena con los movimientos de la cabeza\". Esta es la característica principal del VPPB, donde el vértigo es provocado por cambios específicos en la posición de la cabeza con respecto a la gravedad.\n2.  **Duración paroxística y breve:** Los episodios duran \"algunos segundos\". Esto es patognomónico del VPPB, cuyos episodios de vértigo rotatorio intenso suelen durar menos de un minuto.\n3.  **Ausencia de síntomas auditivos:** El paciente \"no ha presentado síntomas auditivos\" (como hipoacusia o tinnitus). El VPPB es una alteración puramente vestibular, causada por el desplazamiento de otoconias (cristales de carbonato de calcio) hacia los canales semicirculares, sin afectar la porción coclear (auditiva) del oído interno.\n4.  **Examen físico:** El \"nistagmo horizontal\" (que en el VPPB es más precisamente horizonto-rotatorio) es el signo objetivo que confirma la disfunción vestibular. Este nistagmo, al ser provocado por maniobras como la de Dix-Hallpike, típicamente tiene latencia, es de corta duración y se fatiga con la repetición de la maniobra, coincidiendo con el vértigo referido por el paciente.\n\nLa combinación de vértigo rotatorio intenso, de corta duración, desencadenado por cambios posturales y sin síntomas auditivos asociados es el sello distintivo del Vértigo Postural Paroxístico Benigno.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.025"
+    },
+    {
+      "stem": "Un paciente de 65 años, consulta por vértigo, asociado a vómitos y\ndificultades para caminar, ya que se cae hacia la derecha. No presenta síntomas\nauditivos. Al examen físico se aprecia nistagmo horizontal hacia izquierda y\nlateropulsiones a derecha. No presenta adiadococinesia ni dismetría. Los\nsíntomas se instalaron relativamente rápida y perduraron cerca de 3 semanas,\ndisminuyendo progresivamente hasta desaparecer. Respondían parcialmente\nal tratamiento con conarizina oral. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "AVE cerebeloso"
+        },
+        {
+          "id": "B",
+          "text": "Vértigo postural paroxístico benigno"
+        },
+        {
+          "id": "C",
+          "text": "Neurinoma del acústico"
+        },
+        {
+          "id": "D",
+          "text": "Parálisis vestibular"
+        },
+        {
+          "id": "E",
+          "text": "Enfermedad de Meniere"
+        }
+      ],
+      "correcta": "D",
+      "explicacion": "La alternativa correcta es **D (Parálisis vestibular)** porque la presentación clínica es altamente sugestiva de una neuronitis vestibular, una forma de parálisis vestibular.  La característica principal es un inicio agudo de vértigo severo, acompañado de náuseas y vómitos, y desequilibrio (lateropulsión), pero sin síntomas auditivos (hipoacusia, tinnitus, plenitud aural).  El nistagmo horizontal, en este caso hacia la izquierda, indica una disfunción del sistema vestibular derecho. La mejoría gradual en el tiempo (3 semanas) es también característica de una neuronitis vestibular, ya que el sistema nervioso central compensa la pérdida de función vestibular unilateral. La conarizina (antihistamínico con propiedades antivertiginosas) suele tener un efecto parcial en la fase aguda, lo cual es consistente con la descripción del caso. La ausencia de signos cerebelosos (adiadococinesia, dismetría) ayuda a descartar patología cerebelosa. No hay una guía clínica específica del MINSAL para neuronitis vestibular, pero el manejo general del vértigo agudo sí está contemplado en la atención primaria.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.10.1.025"
+    }
+  ],
+  "10.21": [
+    {
+      "stem": "El síndrome confusional agudo se manifiesta clínicamente como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compromiso de conciencia cualitativo, asociado a signos focales, de inicio agudo yy­geriatria/ 5/10 curso fluctuante"
+        },
+        {
+          "id": "B",
+          "text": "Pérdida de la memoria de corto y largo plazo, asociado a compromiso de consciencia de inicio agudo"
+        },
+        {
+          "id": "C",
+          "text": "Desorientación, imposibilidad de mantener la atención, compromiso de conciencia y alucinaciones, de inicio agudo"
+        },
+        {
+          "id": "D",
+          "text": "Agitación psicomotora y alucinaciones visuales, sin compromiso de consciencia, de inicio agudo"
+        },
+        {
+          "id": "E",
+          "text": "Ideas paranoides, fallas en la memoria de largo plazo y compromiso de consciencia de inicio agudo"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "La opción C describe de manera precisa y completa las características clínicas cardinales del síndrome confusional agudo, también conocido como delirium. Este trastorno neurocognitivo agudo se define por una alteración en la atención y la conciencia que se desarrolla en un período corto (horas a días), representa un cambio con respecto a la atención y conciencia basales del individuo, y tiende a fluctuar en severidad a lo largo del día.\n\nLos elementos clave que lo caracterizan son la desorientación (temporal, espacial, e incluso personal), la imposibilidad de mantener o dirigir la atención (siendo este el rasgo distintivo), y un compromiso de la conciencia o del nivel de alerta. Además, las alucinaciones (frecuentemente visuales), los delirios y la agitación psicomotora son manifestaciones comunes de las alteraciones perceptivas y cognitivas asociadas. El inicio agudo es fundamental para diferenciarlo de trastornos crónicos como las demencias.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.2.005"
+    },
+    {
+      "stem": "El síndrome delirium se manifiesta clínicamente como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inatención y compromiso de conciencia cualitativo o cuantitativo de inicio agudo"
+        },
+        {
+          "id": "B",
+          "text": "Pérdida de la memoria de corto plazo y alucinaciones auditivas de inicio agudo"
+        },
+        {
+          "id": "C",
+          "text": "Desorientación y asterixis de instalación progresiva"
+        },
+        {
+          "id": "D",
+          "text": "Agitación psicomotora y convulsiones de inicio agudo"
+        },
+        {
+          "id": "E",
+          "text": "Ideas paranoides y fallas en la memoria de instalación progresiva"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La opción a) describe con precisión las características cardinales del síndrome delirium, también conocido como síndrome confusional agudo. El delirium es un trastorno neurocognitivo agudo caracterizado por una alteración de la atención y la conciencia que se desarrolla en un corto período de tiempo (horas a días), representa un cambio agudo respecto al nivel basal de atención y conciencia del paciente, y tiende a fluctuar en severidad a lo largo del día.\n\nLa \"inatención\" es la característica más distintiva, manifestándose como una dificultad para dirigir, enfocar, mantener o desviar la atención. El \"compromiso de conciencia cualitativo o cuantitativo\" se refiere a una alteración en el nivel de alerta (desde somnolencia o estupor hasta hipervigilancia o agitación) y en la claridad del pensamiento y la percepción del entorno. El \"inicio agudo\" es fundamental para diferenciarlo de trastornos crónicos como las demencias. Estas características son los criterios diagnósticos centrales para el delirium según el DSM-5.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.2.005"
+    },
+    {
+      "stem": "El tratamiento de elección del delirium tremens es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Haldol"
+        },
+        {
+          "id": "B",
+          "text": "Diazepam"
+        },
+        {
+          "id": "C",
+          "text": "Etanol"
+        },
+        {
+          "id": "D",
+          "text": "Risperidona"
+        },
+        {
+          "id": "E",
+          "text": "Clorpromazina"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La alternativa correcta es **B (Diazepam)**.\n\nEl *delirium tremens* es una emergencia médica causada por la abstinencia alcohólica, caracterizada por hiperactividad autonómica (taquicardia, hipertensión, sudoración), temblor, alucinaciones (típicamente visuales), y riesgo de convulsiones. El tratamiento de elección se basa en **benzodiazepinas** (Diazepam, Lorazepam, Clordiazepóxido) debido a su efecto GABAérgico que contrarresta la hiperexcitabilidad neuronal resultante de la abstinencia. Diazepam es una opción comúnmente utilizada, especialmente si se busca una benzodiazepina de acción prolongada, aunque la elección específica depende de la disponibilidad y las características del paciente (función hepática, edad, etc.). El objetivo es la sedación suave y control de los síntomas de abstinencia, titular la dosis de manera cuidadosa.\n\nSi bien no existe una guía clínica del MINSAL específicamente sobre *delirium tremens*, el manejo de la abstinencia alcohólica severa se basa en las recomendaciones internacionales respaldadas por la evidencia y adaptadas a la realidad local.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.2.005"
+    },
+    {
+      "stem": "Paciente hombre de 75 años, autovalente, con antecedentes de hipertensión\narterial, diabetes tipo 2 y pérdida leve de memoria desde hace 3 a 4 años. Hace\nuna semana lo notan apático y con comportamiento extraño. Hace tres días,\nsalió de compras y un vecino debió traerlo a casa pues no recordaba el camino.\nDesde hace dos días habla incoherencias, se agita y presenta insomnio. El\ndiagnóstico más probable es::",
+      "options": [
+        {
+          "id": "A",
+          "text": "Enfermedad de Alzheimer"
+        },
+        {
+          "id": "B",
+          "text": "Demencia por cuerpos de Lewy"
+        },
+        {
+          "id": "C",
+          "text": "Trastorno psicótico"
+        },
+        {
+          "id": "D",
+          "text": "Demencia frontotemporal"
+        },
+        {
+          "id": "E",
+          "text": "Delirium"
+        }
+      ],
+      "correcta": "E",
+      "explicacion": "La alternativa correcta es **E: Delirium**. El cuadro clínico describe una alteración aguda y fluctuante de la cognición, con inicio reciente (días), alteración del nivel de conciencia (apatía, agitación, insomnio) y alteraciones del pensamiento (incoherencias, desorientación). Estos son los criterios cardinales para el diagnóstico de Delirium. El antecedente de hipertensión arterial y diabetes mellitus tipo 2, aunque no causan directamente el delirium, pueden aumentar el riesgo de desarrollarlo, especialmente en un contexto de estrés fisiológico o metabólico. La pérdida leve de memoria previa podría ser un factor predisponente, pero la rapidez de la instalación del cuadro actual apunta fuertemente al delirium.\n\nSegún la Guía Clínica del MINSAL para el manejo del Delirium, este se define como un síndrome neuropsiquiátrico agudo caracterizado por alteración de la atención, conciencia y cognición, que se desarrolla en un corto período de tiempo (horas a días) y tiende a fluctuar a lo largo del día. En este caso, la evolución en días, la fluctuación del estado mental (apatía seguida de agitación) y la alteración de la cognición (incoherencias, desorientación) son consistentes con Delirium.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.2.005"
+    }
+  ],
+  "10.22": [
+    {
+      "stem": "Una mujer de 55 años se realiza una densitometría ósea que muestra un T-\nscore de -2,3 DS y un Z-score de -1 DS. El diagnóstico más probable es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sano"
+        },
+        {
+          "id": "B",
+          "text": "Osteopenia"
+        },
+        {
+          "id": "C",
+          "text": "Osteoporosis primaria"
+        },
+        {
+          "id": "D",
+          "text": "Osteoporosis secundaria"
+        },
+        {
+          "id": "E",
+          "text": "Osteopetrosis"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La pregunta se refiere a la interpretación de los resultados de una densitometría ósea en una mujer postmenopáusica, que es una situación clínica común evaluada en endocrinología. Para clasificar la densidad mineral ósea (DMO), se utilizan principalmente el T-score y, en menor medida, el Z-score. Según los criterios de la Organización Mundial de la Salud (OMS), el T-score es el parámetro clave para diagnosticar osteopenia u osteoporosis en mujeres postmenopáusicas (como la paciente de 55 años) y hombres mayores de 50 años.\n\nLos criterios de la OMS son los siguientes:\n*   **DMO normal**: T-score igual o superior a -1.0 desviación estándar (DS).\n*   **Osteopenia (baja masa ósea)**: T-score entre -1.0 y -2.5 DS.\n*   **Osteoporosis**: T-score igual o inferior a -2.5 DS.\n*   **Osteoporosis grave establecida**: T-score igual o inferior a -2.5 DS y la presencia de una o más fracturas por fragilidad.\n\nEn el caso presentado, la paciente de 55 años tiene un T-score de -2.3 DS. Este valor se encuentra claramente entre -1.0 y -2.5 DS, lo que corresponde al diagnóstico de osteopenia. El Z-score de -1 DS compara la densidad ósea del paciente con la de personas de su misma edad y sexo. Aunque se menciona, el Z-score es más relevante para evaluar la DMO en niños, mujeres premenopáusicas y hombres menores de 50 años, donde un T-score negativo podría ser normal para la edad. Sin embargo, en una mujer postmenopáusica de 55 años, el T-score es el criterio diagnóstico definitivo.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.1.008"
+    },
+    {
+      "stem": "¿Por qué mecanismo se produce la mayor parte de las fracturas de cadera?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Caídas a nivel"
+        },
+        {
+          "id": "B",
+          "text": "Caídas de altura"
+        },
+        {
+          "id": "C",
+          "text": "Rotación forzada"
+        },
+        {
+          "id": "D",
+          "text": "Fractura espontánea durante la marcha normal"
+        },
+        {
+          "id": "E",
+          "text": "Accidentes de tránsito"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "La alternativa correcta es **A (Caídas a nivel)** porque la mayoría de las fracturas de cadera, especialmente en adultos mayores, se producen como resultado de caídas desde la propia altura. La fragilidad ósea asociada a la osteoporosis, común en este grupo etario, disminuye la resistencia del hueso, haciéndolo más susceptible a fracturas incluso con traumatismos de baja energía como una caída a nivel. La prevalencia de caídas a nivel es significativamente mayor que otras causas en la población de riesgo, según datos epidemiológicos y guías clínicas nacionales e internacionales. Aunque no hay una guía clínica MINSAL específica para fracturas de cadera, las guías sobre osteoporosis enfatizan la prevención de caídas como una medida clave.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.1.008"
+    }
+  ],
+  "10.23": [
+    {
+      "stem": "¿Cuál es la presentación clínica más habitual de las fracturas de cadera?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acortamiento, rotación interna y aducción del muslo, con imposibilidad de caminar"
+        },
+        {
+          "id": "B",
+          "text": "Acortamiento, rotación externa y abducción del muslo, con imposibilidad de caminar"
+        },
+        {
+          "id": "C",
+          "text": "Acortamiento, rotación interna y abducción del muslo, con imposibilidad de caminar"
+        },
+        {
+          "id": "D",
+          "text": "Posición púdica, equimosis, crujido articular y dolor intenso durante la marcha"
+        },
+        {
+          "id": "E",
+          "text": "Posición impúdica, aumento de volumen y dolor intenso durante la marcha"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La alternativa correcta es la B porque la presentación clínica clásica de una fractura de cadera en el adulto mayor (grupo etario donde son más frecuentes) se caracteriza por:\n\n*   **Acortamiento del miembro afectado:** Esto se debe a la tracción de los músculos de la cadera y el muslo sobre el fragmento distal de la fractura.\n*   **Rotación externa del muslo:** La rotación externa es causada por la pérdida de la integridad ósea y la influencia de la gravedad y la tensión muscular, especialmente los rotadores externos de la cadera.\n*   **Abducción del muslo:** Puede presentarse levemente debido a la posición antiálgica que adopta el paciente.\n*   **Imposibilidad de caminar:** La fractura impide la carga de peso y el movimiento normal de la articulación de la cadera, generando dolor intenso e incapacidad funcional.\n\nEn las guías clínicas chilenas del MINSAL no hay una específica sobre fractura de cadera, pero sí se enfatiza la importancia de la evaluación geriátrica integral en pacientes adultos mayores, donde la detección y manejo de fracturas de cadera es fundamental para disminuir la morbimortalidad.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.1.001"
+    },
+    {
+      "stem": "¿Cuál de los siguientes fármacos se asocian a un mayor riesgo de caídas en el paciente anciano?:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atenolol"
+        },
+        {
+          "id": "B",
+          "text": "Aspirina"
+        },
+        {
+          "id": "C",
+          "text": "Atorvastatina"
+        },
+        {
+          "id": "D",
+          "text": "Amoxicilina"
+        },
+        {
+          "id": "E",
+          "text": "Metformina"
+        }
+      ],
+      "correcta": "A",
+      "explicacion": "El Atenolol, al ser un betabloqueante selectivo beta-1, es un fármaco que se asocia con un mayor riesgo de caídas en el paciente anciano debido a sus efectos cardiovasculares y, en menor medida, potenciales efectos en el sistema nervioso central. En la población geriátrica, la fisiología cardiovascular está alterada, con una respuesta barorrefleja más lenta y una menor reserva funcional. Los betabloqueantes reducen la frecuencia cardíaca y la contractilidad miocárdica, lo que puede precipitar o exacerbar la hipotensión ortostática (una caída significativa de la presión arterial al ponerse de pie), causando mareos, aturdimiento y síncope.\n\nEstos síntomas de hipotensión ortostática o bradicardia son directamente predisponentes a la pérdida de equilibrio y, consecuentemente, a las caídas. Además, aunque el Atenolol es hidrofílico y tiene una menor penetración en el sistema nervioso central en comparación con otros betabloqueantes más lipofílicos, aún puede causar efectos como fatiga, debilidad o ligera sedación en algunos individuos, lo que también contribuye a una marcha inestable y un mayor riesgo de caídas. La polifarmacia, común en el adulto mayor, incrementa este riesgo al interactuar con otros fármacos que también pueden afectar el equilibrio o la presión arterial.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.1.001"
+    }
+  ],
+  "10.24": [
+    {
+      "stem": "¿Cuál de las siguientes lesiones oculares no requieren manejo estricto por\nespecialista?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trauma ocular con discoria"
+        },
+        {
+          "id": "B",
+          "text": "Trauma ocular con hemorragia subconjuntival"
+        },
+        {
+          "id": "C",
+          "text": "Trauma ocular con herida palpebral, que compromete el borde libre"
+        },
+        {
+          "id": "D",
+          "text": "Trauma ocular con herida palpebral transfixiante"
+        },
+        {
+          "id": "E",
+          "text": "Trauma ocular con amaurosis"
+        }
+      ],
+      "correcta": "B",
+      "explicacion": "La hemorragia subconjuntival post-traumática, en ausencia de otros signos de alarma, generalmente es autolimitada y no requiere intervención urgente por un especialista. Se produce por la rotura de pequeños vasos sanguíneos bajo la conjuntiva, generalmente por un traumatismo leve, un esfuerzo (tos, vómito) o, a veces, sin causa aparente. El manejo suele ser expectante, con lubricación ocular si hay molestias. Si es recurrente o asociada a alteraciones de la coagulación o uso de anticoagulantes, se debe investigar la causa.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.3.007"
+    },
+    {
+      "stem": "Una paciente de 40 años, consulta por incontinencia urinaria, caracterizada\npor deseos incontrolables de orinar, que no le permiten llegar al baño,\norinándose completamente. Se solicita urocultivo y sedimento de orina que\nresultan normales y se indican ejercicios y medidas conductuales, las que no\nmuestran mayores beneficios. El tratamiento más adecuado es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quirúrgico"
+        },
+        {
+          "id": "B",
+          "text": "Iniciar bloqueadores alfa-adrenérgicos"
+        },
+        {
+          "id": "C",
+          "text": "Iniciar anticolinérgicos"
+        },
+        {
+          "id": "D",
+          "text": "Iniciar betabloqueo"
+        },
+        {
+          "id": "E",
+          "text": "Iniciar agonistas dopaminérgicos"
+        }
+      ],
+      "correcta": "C",
+      "explicacion": "El caso clínico describe a una paciente con **Incontinencia Urinaria de Urgencia (IUU)**, también conocida como síndrome de vejiga hiperactiva \"húmeda\". El diagnóstico se basa en la sintomatología clave: \"deseos incontrolables de orinar\" (urgencia miccional) que provocan una pérdida involuntaria de orina antes de llegar al baño.\n\nEl manejo de la IUU sigue un enfoque escalonado:\n1.  **Descartar causas reversibles:** Se realizó un urocultivo y sedimento de orina para descartar una infección del tracto urinario (ITU), que puede causar síntomas similares. Los resultados normales confirman que no hay una ITU.\n2.  **Tratamiento de primera línea:** Consiste en terapia conductual (ajuste de ingesta de líquidos, micciones programadas) y entrenamiento de los músculos del piso pélvico (ejercicios de Kegel). En el caso, estas medidas ya se indicaron y resultaron ineficaces.\n3.  **Tratamiento de segunda línea:** Cuando la primera línea falla, se inicia el tratamiento farmacológico. La fisiopatología de la IUU implica contracciones involuntarias del músculo detrusor de la vejiga, que está mediado principalmente por la estimulación colinérgica a través de receptores muscarínicos. Por lo tanto, los fármacos **anticolinérgicos (o antimuscarínicos)** son el tratamiento de elección. Estos medicamentos (como la oxibutinina, tolterodina o solifenacina) bloquean dichos receptores, relajando el músculo detrusor, aumentando la capacidad de la vejiga y disminuyendo la sensación de urgencia.\n\nDado que la paciente ya falló al tratamiento de primera línea, el siguiente paso correcto y más adecuado es iniciar la farmacoterapia con anticolinérgicos.",
+      "recTag": "Banco Oficial AEE · Perfil V3 1.07.3.007"
+    }
+  ]
+}

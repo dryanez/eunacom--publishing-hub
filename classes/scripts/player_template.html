@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EUNACOM 2026 · Reproductor Adaptativo Suizo (Swiss Editorial Style)</title>
+<script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:#F5F3EE; color:#111111; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; overflow:hidden; }
+  a { color:#B4322A; text-decoration:none; }
+  a:hover { color:#8C231D; }
+  ::-webkit-scrollbar { width:8px; height:8px; }
+  ::-webkit-scrollbar-track { background:#EDEAE2; }
+  ::-webkit-scrollbar-thumb { background:#CFC8B6; border-radius:4px; }
+  ::-webkit-scrollbar-thumb:hover { background:#A9A190; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  .swiss-header { display:flex; align-items:stretch; border-bottom:1px solid #111111; height:58px; flex-shrink:0; }
+  .swiss-seg-bar { display:flex; align-items:center; gap:14px; padding:8px 18px; border-bottom:1px solid #DCD8CE; height:38px; flex-shrink:0; background:#F5F3EE; }
+  .swiss-dock { display:flex; align-items:center; height:54px; padding:0 24px; border-top:1px solid #111111; flex-shrink:0; background:#F5F3EE; z-index:30; }
+  .btn-hover:hover { background:#EDEAE2; cursor:pointer; }
+  .drawer-panel { position:absolute; top:58px; bottom:54px; right:0; width:360px; background:#F5F3EE; border-left:1px solid #111111; z-index:40; display:flex; flex-direction:column; box-shadow:-8px 0 24px rgba(0,0,0,0.06); }
+  .modal-overlay { position:fixed; inset:0; background:rgba(17,17,17,0.7); z-index:50; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(3px); }
+  .modal-card { width:780px; max-height:85vh; background:#F5F3EE; border:2px solid #111111; display:flex; flex-direction:column; overflow:hidden; }
+
+  :root {
+    --acc: #16a34a;
+    --acc-t: #f8fafc;
+    --acc-p: #0284c7;
+    --spring-curve: cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  /* High-Resolution SVG Decision Trees */
+  #svg-stage svg, #modal-diag-stage svg {
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+    display: block;
+    margin: 0 auto;
+    background: transparent !important;
+  }
+  #svg-stage svg .b, #modal-diag-stage svg .b { fill:#ffffff !important; stroke:#cbd5e1 !important; stroke-width:1.5px !important; }
+  #svg-stage svg .t, #modal-diag-stage svg .t { font-size:11px !important; fill:#0f172a !important; font-weight:700 !important; }
+  #svg-stage svg .sub, #modal-diag-stage svg .sub { font-size:8.8px !important; fill:#334155 !important; font-weight:500 !important; }
+  #svg-stage svg .lbl, #modal-diag-stage svg .lbl { font-size:9.5px !important; fill:#0284c7 !important; font-weight:700 !important; }
+  #svg-stage svg .acc, #modal-diag-stage svg .acc { fill:#f0fdf4 !important; stroke:#16a34a !important; stroke-width:2px !important; }
+  #svg-stage svg .accT, #modal-diag-stage svg .accT { font-size:11.5px !important; fill:#14532d !important; font-weight:800 !important; }
+  #svg-stage svg .accS, #modal-diag-stage svg .accS { font-size:8.8px !important; fill:#15803d !important; font-weight:600 !important; }
+  #svg-stage svg .dec, #modal-diag-stage svg .dec { fill:#f8fafc !important; stroke:#0284c7 !important; stroke-width:2px !important; }
+  #svg-stage svg .warn, #modal-diag-stage svg .warn { fill:#fef2f2 !important; stroke:#dc2626 !important; stroke-width:2px !important; }
+  #svg-stage svg .warnT, #modal-diag-stage svg .warnT { font-size:11.5px !important; fill:#991b1b !important; font-weight:800 !important; }
+  #svg-stage svg .crit, #modal-diag-stage svg .crit { fill:#fff1f2 !important; stroke:#e11d48 !important; stroke-width:2px !important; }
+  #svg-stage svg .ln, #modal-diag-stage svg .ln { stroke:#0f172a !important; stroke-width:2px !important; fill:none !important; }
+  #svg-stage svg marker path, #modal-diag-stage svg marker path { fill:#0f172a !important; }
+
+  /* Estilos de Revelación Progresiva y Pizarra Adaptativa (Zero-Emoji Swiss Standard) */
+  .step-card {
+    transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease, max-height 0.5s var(--spring-curve), scale 0.4s var(--spring-curve);
+  }
+  .step-card:hover {
+    transform: translateY(-2px) scale(1.01) !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+    border-color: var(--acc-p) !important;
+  }
+  .step-card.expanded {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+    border-color: var(--acc-p) !important;
+    max-height: 2000px !important;
+    scale: 1.02;
+  }
+  .step-pending {
+    opacity: 0.18 !important;
+    filter: grayscale(1) blur(0.25px) !important;
+    border-style: dashed !important;
+    border-color: #CFC8B6 !important;
+    background: rgba(237, 234, 226, 0.35) !important;
+    transform: translateY(6px) !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+  }
+  .step-pending:hover {
+    opacity: 0.45 !important;
+    transform: translateY(2px) !important;
+  }
+  .step-active {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.08) !important;
+  }
+  .step-revealed {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+
+  /* Etiquetas de Resaltado Clínico Humano */
+  .clinical-mark {
+    background: transparent;
+    color: inherit;
+    font-weight: 700;
+    position: relative;
+    display: inline;
+    padding: 0 2px;
+  }
+  .clinical-keyword {
+    color: #111111;
+    font-weight: 800;
+  }
+
+  /* Full-Width Q&A Layout */
+  .q-opt {
+    width: 100% !important;
+    padding: 16px 18px !important;
+    margin: 10px 0 !important;
+    border: 2px solid #ddd !important;
+    border-radius: 6px !important;
+    background: #fff !important;
+    transition: all 0.3s ease !important;
+    cursor: pointer !important;
+  }
+  .q-opt:hover {
+    border-color: var(--acc-p) !important;
+    background: #f0f9ff !important;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.15) !important;
+    transform: translateX(4px) !important;
+  }
+  .q-opt.selected, .q-opt.correct {
+    border-color: var(--acc) !important;
+    background: #f0fdf4 !important;
+    color: #14532d !important;
+  }
+
+  /* Trazos SVG de Pluma Humana y Destacador */
+  .handdrawn-arrow-path {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    transition: stroke-dashoffset 0.52s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .handdrawn-highlighter-path {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    mix-blend-mode: multiply;
+    transition: stroke-dashoffset 0.40s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+</style>
+</head>
+<body class="h-screen w-screen flex flex-col relative select-none">
+
+  <!-- CAPA DE ANOTACIONES AUTOMÁTICAS VECTORIALES (MANO HUMANA / DESTACADOR / FLECHAS DINÁMICAS) -->
+  <svg id="handdrawn-svg-layer" style="position:absolute; inset:58px 0 54px 0; width:100%; height:calc(100% - 112px); z-index:18; pointer-events:none; overflow:visible;">
+    <defs>
+      <!-- Filtro de papel y temblor orgánico de pluma humana -->
+      <filter id="handdrawn-jitter" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2" xChannelSelector="R" yChannelSelector="G" />
+      </filter>
+    </defs>
+    <g id="handdrawn-arrows-group"></g>
+    <g id="handdrawn-highlighter-group"></g>
+  </svg>
+
+  <!-- CANVAS FLOTANTE DE DIBUJO MANUAL LIBRE (PLUMA Y DESTACADOR DEL DOCENTE) -->
+  <canvas id="annotator-canvas" style="position:absolute; inset:58px 0 54px 0; width:100%; height:calc(100% - 112px); z-index:20; pointer-events:none;"></canvas>
+
+  <!-- TOP BRAND & CONTROLS HEADER -->
+  <header class="swiss-header">
+    <div style="display:flex;align-items:center;padding:0 18px;border-right:1px solid #111111;background:#111111;color:#F5F3EE">
+      <div style="font-size:12px;font-weight:700;letter-spacing:0.14em">EUNACOM</div>
+    </div>
+    
+    <div id="btn-toggle-index" class="btn-hover" style="display:flex;align-items:center;gap:10px;padding:0 16px;border-right:1px solid #111111">
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Índice</div>
+      <div style="font-size:10px;color:#777069">▾</div>
+    </div>
+
+    <div style="flex:1;min-width:0;padding:8px 18px;display:flex;flex-direction:column;justify-content:center;gap:2px">
+      <div id="ui-class-title" style="font-size:15px;font-weight:700;letter-spacing:-0.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Cargando clase...</div>
+      <div id="ui-class-code" class="mono" style="font-size:10px;letter-spacing:0.1em;color:#777069">ASOFAMECh · Perfil V3</div>
+    </div>
+
+    <div style="display:flex;align-items:center;padding:0 16px;border-left:1px solid #DCD8CE">
+      <div id="ui-class-badge" style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A;padding-bottom:3px">ESTÁNDAR · 15 MIN</div>
+    </div>
+
+    <div style="display:flex;align-items:center;padding:0 18px;border-left:1px solid #DCD8CE;min-width:96px;justify-content:flex-end">
+      <div id="ui-slide-counter" class="mono" style="font-size:13px;font-weight:600">01 / 12</div>
+    </div>
+
+    <div id="btn-open-switcher" class="btn-hover" style="display:flex;align-items:center;padding:0 16px;border-left:1px solid #111111;background:#EDEAE2">
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#777069">Cambiar clase ⇄</div>
+    </div>
+  </header>
+
+  <!-- DYNAMIC SEGMENTED CHAPTER TIMELINE -->
+  <div class="swiss-seg-bar">
+    <div id="ui-chapter-label" class="mono" style="font-size:10px;letter-spacing:0.12em;color:#777069;white-space:nowrap;text-transform:uppercase">01 FUNDAMENTOS</div>
+    <div id="ui-segments-track" style="flex:1;display:flex;gap:2px;min-width:0">
+      <!-- Se generan dinámicamente -->
+    </div>
+    <div id="ui-remaining-label" class="mono" style="font-size:10px;letter-spacing:0.12em;color:#777069;white-space:nowrap">11 RESTANTE</div>
+  </div>
+
+  <!-- MAIN EDITORIAL CONTENT VIEWPORT (LOCKED 16:9 MASTERCLASS STAGE) -->
+  <main id="slide-viewport" style="flex:1;min-height:0;overflow:hidden;display:flex;flex-direction:column;position:relative;background:#F5F3EE;padding:22px 36px 16px;">
+    <!-- Renderizado reactivo -->
+  </main>
+
+  <!-- TEACHER NOTES DRAWER -->
+  <aside id="notes-drawer" class="drawer-panel" style="display:none">
+    <div style="padding:16px 20px;border-bottom:1px solid #111111;display:flex;align-items:center;justify-content:space-between">
+      <span class="mono" style="font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#777069">NOTAS DEL DOCENTE</span>
+      <span id="drawer-counter" class="mono" style="font-size:11px;color:#B4322A">Slide 01/12</span>
+    </div>
+    <div style="flex:1;overflow:auto;padding:20px;display:flex;flex-direction:column;gap:14px">
+      <p id="drawer-notes-content" style="font-size:14px;line-height:1.6;color:#3D3A36;margin:0">
+        Notas clínicas para el presentador.
+      </p>
+    </div>
+    <div style="padding:14px 20px;border-top:1px solid #DCD8CE;display:flex;justify-content:space-between;font-size:11px;color:#777069">
+      <span>Locución ElevenLabs</span>
+      <span class="mono" style="font-weight:600;color:#111111">Sincronizado</span>
+    </div>
+  </aside>
+
+  <!-- INDEX DRAWER -->
+  <aside id="index-drawer" style="position:absolute;top:58px;left:0;right:0;max-height:60vh;background:#F5F3EE;border-bottom:2px solid #111111;z-index:45;display:none;overflow:auto;box-shadow:0 12px 32px rgba(0,0,0,0.15)">
+    <div style="padding:20px 24px;display:flex;flex-direction:column;gap:16px" id="index-list">
+      <!-- Llenado dinámicamente -->
+    </div>
+  </aside>
+
+  <!-- MODAL: SELECTOR DE CLASES -->
+  <div id="class-switcher-modal" class="modal-overlay" style="display:none">
+    <div class="modal-card">
+      <div style="padding:18px 24px;border-bottom:2px solid #111111;display:flex;align-items:center;justify-content:space-between;background:#111111;color:#F5F3EE">
+        <div style="font-size:14px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase" id="modal-catalog-count-label">Catálogo Oficial de Clases EUNACOM</div>
+        <button id="btn-close-modal" style="background:transparent;border:none;color:#F5F3EE;font-size:18px;cursor:pointer;font-weight:700">✕</button>
+      </div>
+      <div style="padding:12px 24px;border-bottom:1px solid #DCD8CE;background:#EDEAE2;display:flex;gap:12px">
+        <input id="search-class-input" type="text" placeholder="Buscar por tema o código ASOFAMECh..." style="flex:1;padding:8px 12px;font-size:13px;border:1px solid #111111;background:#F5F3EE;outline:none;font-family:inherit">
+      </div>
+      <div style="flex:1;overflow:auto;padding:12px 24px;display:flex;flex-direction:column;gap:6px" id="modal-class-list">
+        <!-- Lista generada dinámicamente -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: DIAGRAMA PANTALLA COMPLETA -->
+  <div id="diagram-modal" class="modal-overlay" style="display:none;" onclick="if(event.target===this)closeDiagramModal()">
+    <div style="width:94vw; height:92vh; background:#FFFFFF; border:3px solid #111111; display:flex; flex-direction:column; overflow:hidden; border-radius:6px; box-shadow:0 24px 64px rgba(0,0,0,0.3);">
+      <div style="padding:14px 20px; background:#111111; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between;">
+        <div style="font-size:13px; font-weight:800; letter-spacing:0.08em; text-transform:uppercase;" id="modal-diag-title">ALGORITMO CLÍNICO VECTORIAL (ALTA RESOLUCIÓN)</div>
+        <button onclick="closeDiagramModal()" style="background:transparent; border:none; color:#FFFFFF; font-size:20px; font-weight:800; cursor:pointer;">✕</button>
+      </div>
+      <div style="flex:1; overflow:auto; display:flex; align-items:center; justify-content:center; padding:24px; background:#F8FAFC;" id="modal-diag-stage">
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM ACTION DOCK -->
+  <footer class="swiss-dock">
+    <div id="btn-prev" class="btn-hover" style="padding:14px 16px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border-right:1px solid #DCD8CE">← Atrás</div>
+    <div id="btn-next" class="btn-hover" style="padding:14px 20px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Adelante →</div>
+    
+    <!-- ELEVENLABS MASTERCLASS VOICEOVER CONTROLLER -->
+    <div style="display:flex;align-items:center;gap:14px;padding:0 20px;border-left:1px solid #DCD8CE;border-right:1px solid #DCD8CE;">
+      <button id="btn-audio-play" style="display:flex;align-items:center;gap:8px;padding:6px 14px;background:#111111;color:#FFFFFF;border:none;border-radius:3px;font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;">
+        <span id="audio-play-icon">▶</span>
+        <span id="audio-play-text">Voz ElevenLabs</span>
+      </button>
+
+      <div style="display:flex;flex-direction:column;gap:3px;width:190px;">
+        <div style="display:flex;justify-content:space-between;font-size:9.5px;font-family:ui-monospace,monospace;color:#777069;">
+          <span id="audio-time-current">00:00</span>
+          <span id="audio-status-label" style="font-weight:700;color:#16A34A;letter-spacing:0.04em;">● AUDIO SINCRONIZADO</span>
+          <span id="audio-time-total">00:30</span>
+        </div>
+        <div style="width:100%;height:5px;background:#DCD8CE;border-radius:3px;overflow:hidden;cursor:pointer;" id="audio-progress-container">
+          <div id="audio-progress-bar" style="width:0%;height:100%;background:#B4322A;transition:width 0.15s linear;"></div>
+        </div>
+      </div>
+
+      <button id="btn-audio-autoadvance" style="padding:4px 8px;font-size:10px;font-weight:700;letter-spacing:0.04em;border:1px solid #DCD8CE;background:#F5F3EE;color:#777069;border-radius:2px;cursor:pointer;" title="Avanzar automáticamente de slide al terminar la explicación de audio">
+        Auto: OFF
+      </button>
+
+      <button id="btn-audio-speed" style="padding:4px 8px;font-size:10px;font-family:ui-monospace,monospace;font-weight:700;border:1px solid #DCD8CE;background:#F5F3EE;border-radius:2px;cursor:pointer;">
+        1.0x
+      </button>
+    </div>
+
+    <!-- CONTROLES DE REVELACIÓN PROGRESIVA & PASO A PASO (WHITEBOARD DOCK) -->
+    <div style="display:flex;align-items:center;gap:8px;padding:0 16px;border-right:1px solid #DCD8CE;">
+      <button id="btn-reveal-mode" style="padding:5px 10px;font-size:10px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border:1px solid #111111;background:#EDEAE2;border-radius:2px;cursor:pointer;" title="Alternar entre revelación progresiva paso a paso y visualización completa">
+        Modo: Paso a Paso
+      </button>
+
+      <div id="dock-step-controller" style="display:flex;align-items:center;gap:3px;">
+        <button id="btn-step-prev" style="width:24px;height:24px;border:1px solid #DCD8CE;background:#F5F3EE;font-size:11px;font-weight:700;cursor:pointer;" title="Paso anterior">‹</button>
+        <span id="ui-step-indicator" class="mono" style="font-size:10px;font-weight:700;letter-spacing:0.06em;color:#111111;padding:0 4px;min-width:72px;text-align:center;">PASO 01/03</span>
+        <button id="btn-step-next" style="width:24px;height:24px;border:1px solid #DCD8CE;background:#F5F3EE;font-size:11px;font-weight:700;cursor:pointer;" title="Siguiente paso">›</button>
+      </div>
+
+      <button id="btn-auto-annotate" style="padding:5px 8px;font-size:10px;font-family:ui-monospace,monospace;font-weight:700;border:1px solid #111111;background:#EDEAE2;border-radius:2px;cursor:pointer;" title="Anotaciones automáticas de pluma destacador y flechas">
+        Trazos: Auto
+      </button>
+    </div>
+
+    <div style="flex:1"></div>
+
+    <!-- Herramientas de Dibujo -->
+    <div style="display:flex;align-items:center;gap:6px;padding:0 16px;border-right:1px solid #DCD8CE">
+      <button id="tool-pen" style="padding:6px 12px;font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border:1px solid #111111;background:#F5F3EE;cursor:pointer">Pluma</button>
+      <button id="tool-marker" style="padding:6px 12px;font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border:1px solid #111111;background:#F5F3EE;cursor:pointer">Destacador</button>
+      <button id="tool-clear" style="padding:6px 10px;font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border:1px solid #DCD8CE;background:transparent;color:#777069;cursor:pointer">Limpiar</button>
+    </div>
+
+    <div id="btn-toggle-notes" class="btn-hover" style="padding:14px 16px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#777069">Notas</div>
+  </footer>
+
+  <script>
+    /*__CLASSES_DATA_PLACEHOLDER__*/
+    let activeClassIdx = 0;
+    let activeSlideIdx = 0;
+    let quizPicks = {};
+    let activeTool = null;
+    let zoomLevel = 1;
+
+    // Inicializar Canvas de Anotación
+    const canvas = document.getElementById('annotator-canvas');
+    const ctx = canvas.getContext('2d');
+    let isDrawing = false;
+
+    function resizeCanvas() {
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    canvas.addEventListener('pointerdown', (e) => {
+      if (!activeTool) return;
+      isDrawing = true;
+      canvas.setPointerCapture(e.pointerId);
+      ctx.beginPath();
+      const r = canvas.getBoundingClientRect();
+      ctx.moveTo(e.clientX - r.left, e.clientY - r.top);
+    });
+
+    canvas.addEventListener('pointermove', (e) => {
+      if (!isDrawing || !activeTool) return;
+      const r = canvas.getBoundingClientRect();
+      if (activeTool === 'marker') {
+        ctx.strokeStyle = 'rgba(180,50,42,0.28)';
+        ctx.lineWidth = 18;
+      } else {
+        ctx.strokeStyle = '#111111';
+        ctx.lineWidth = 2.5;
+      }
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+      ctx.lineTo(e.clientX - r.left, e.clientY - r.top);
+      ctx.stroke();
+    });
+
+    canvas.addEventListener('pointerup', () => { isDrawing = false; });
+    canvas.addEventListener('pointerleave', () => { isDrawing = false; });
+
+    function clearCanvas() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      clearAutomatedAnnotations();
+    }
+
+    function setTool(toolName) {
+      activeTool = activeTool === toolName ? null : toolName;
+      canvas.style.pointerEvents = activeTool ? 'auto' : 'none';
+      document.getElementById('tool-pen').style.background = activeTool === 'pen' ? '#111111' : '#F5F3EE';
+      document.getElementById('tool-pen').style.color = activeTool === 'pen' ? '#F5F3EE' : '#111111';
+      document.getElementById('tool-marker').style.background = activeTool === 'marker' ? '#B4322A' : '#F5F3EE';
+      document.getElementById('tool-marker').style.color = activeTool === 'marker' ? '#F5F3EE' : '#111111';
+    }
+
+    document.getElementById('tool-pen').onclick = () => setTool('pen');
+    document.getElementById('tool-marker').onclick = () => setTool('marker');
+    document.getElementById('tool-clear').onclick = clearCanvas;
+
+    // =========================================================================
+    // MOTOR DE PIZARRA ADAPTATIVA, TRAZOS HUMANOS & REVELACIÓN PROGRESIVA
+    // (ZERO-EMOJI SWISS EDITORIAL STANDARD)
+    // =========================================================================
+    let revealMode = 'progressive'; // 'progressive' | 'all'
+    let autoAnnotate = true;
+    let currentStepIdx = 0;
+    let totalStepsInSlide = 1;
+    let drawnArrows = new Set();
+
+    function getCurrentSlide() {
+      if (typeof CLASSES === 'undefined' || !CLASSES[activeClassIdx]) return null;
+      return CLASSES[activeClassIdx].slides[activeSlideIdx] || null;
+    }
+
+    function getSlideStepCount(sl) {
+      if (!sl) return 1;
+      if (sl.type === 'cover') return 1;
+      if (sl.type === 'bento') return Math.max(1, (sl.cards || []).length);
+      if (sl.type === 'figure') return Math.max(1, (sl.steps || []).length);
+      if (sl.type === 'table') return Math.max(1, Math.min(4, (sl.rows || []).length));
+      if (sl.type === 'quiz') return 3;
+      return 1;
+    }
+
+    function clearAutomatedAnnotations() {
+      const arrowsGroup = document.getElementById('handdrawn-arrows-group');
+      if (arrowsGroup) arrowsGroup.innerHTML = '';
+      const hlGroup = document.getElementById('handdrawn-highlighter-group');
+      if (hlGroup) hlGroup.innerHTML = '';
+      drawnArrows.clear();
+    }
+
+    function updateStepUI() {
+      const indicator = document.getElementById('ui-step-indicator');
+      const stepCtrl = document.getElementById('dock-step-controller');
+      const sl = getCurrentSlide();
+      if (sl && sl.type === 'cover') {
+        if (indicator) indicator.innerText = 'PORTADA';
+        if (stepCtrl) stepCtrl.style.opacity = '0.5';
+        return;
+      }
+      if (stepCtrl) stepCtrl.style.opacity = '1';
+      if (indicator) {
+        indicator.innerText = `PASO 0${Math.min(totalStepsInSlide, currentStepIdx + 1)}/0${totalStepsInSlide}`;
+      }
+    }
+
+    // Dibujar flecha orgánica entre dos elementos DOM (trazada en vivo con pluma humana)
+    function drawHandDrawnArrow(fromEl, toEl, color = '#B4322A') {
+      const svg = document.getElementById('handdrawn-svg-layer');
+      const arrowsGroup = document.getElementById('handdrawn-arrows-group');
+      if (!svg || !arrowsGroup || !fromEl || !toEl) return null;
+
+      const svgR = svg.getBoundingClientRect();
+      const rA = fromEl.getBoundingClientRect();
+      const rB = toEl.getBoundingClientRect();
+
+      const isSideBySide = rB.left >= (rA.right - 40);
+      let d = '';
+
+      if (isSideBySide) {
+        // Empieza claramente anclada dentro del borde derecho de Card A
+        const x1 = Math.round(rA.right - svgR.left - 24);
+        const y1 = Math.round(rA.top + 70 - svgR.top);
+        // Termina en el borde izquierdo de Card B
+        const x2 = Math.round(rB.left - svgR.left + 16);
+        const y2 = Math.round(rB.top + 70 - svgR.top);
+
+        const dx = x2 - x1;
+        // Arco superior elegante trazado a mano alzada
+        const cx1 = Math.round(x1 + dx * 0.35);
+        const cy1 = Math.round(y1 - 36);
+        const cx2 = Math.round(x1 + dx * 0.70);
+        const cy2 = Math.round(y2 - 32);
+
+        // Curva cúbica + punta de flecha con dos trazos orgánicos
+        d = `M ${x1} ${y1} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${x2} ${y2} M ${x2 - 14} ${y2 - 8} L ${x2} ${y2} L ${x2 - 14} ${y2 + 8}`;
+      } else {
+        const x1 = Math.round(rA.left + rA.width * 0.5 - svgR.left);
+        const y1 = Math.round(rA.bottom - svgR.top - 14);
+        const x2 = Math.round(rB.left + rB.width * 0.5 - svgR.left);
+        const y2 = Math.round(rB.top - svgR.top + 18);
+
+        const dy = y2 - y1;
+        const cx1 = Math.round(x1 + 32);
+        const cy1 = Math.round(y1 + dy * 0.35);
+        const cx2 = Math.round(x2 + 28);
+        const cy2 = Math.round(y1 + dy * 0.70);
+
+        d = `M ${x1} ${y1} C ${cx1} ${cy1}, ${cx2} ${cy2}, ${x2} ${y2} M ${x2 - 8} ${y2 - 14} L ${x2} ${y2} L ${x2 + 8} ${y2 - 14}`;
+      }
+
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', d);
+      path.setAttribute('stroke', color);
+      path.setAttribute('stroke-width', '3.2');
+      path.setAttribute('class', 'handdrawn-arrow-path');
+      path.setAttribute('filter', 'url(#handdrawn-jitter)');
+      path.style.filter = 'drop-shadow(0 2px 4px rgba(180,50,42,0.18)) url(#handdrawn-jitter)';
+
+      arrowsGroup.appendChild(path);
+
+      try {
+        const len = path.getTotalLength();
+        path.style.strokeDasharray = len;
+        path.style.strokeDashoffset = len;
+        path.getBoundingClientRect();
+        setTimeout(() => {
+          path.style.strokeDashoffset = '0';
+        }, 40);
+      } catch (e) {}
+
+      return path;
+    }
+
+    // Dibujar trazo orgánico de pluma destacador sobre texto clave
+    function drawHighlighterStroke(targetEl, kind = 'normal') {
+      const svg = document.getElementById('handdrawn-svg-layer');
+      const hlGroup = document.getElementById('handdrawn-highlighter-group');
+      if (!svg || !hlGroup || !targetEl) return;
+
+      const svgR = svg.getBoundingClientRect();
+      const rects = targetEl.getClientRects();
+
+      let strokeColor = 'rgba(245, 158, 11, 0.38)'; // Amarillo cálido clínico
+      if (kind === 'alert') strokeColor = 'rgba(180, 50, 42, 0.26)'; // Rojo carmesí
+      else if (kind === 'pharma') strokeColor = 'rgba(30, 58, 138, 0.24)';
+      else if (kind === 'key') strokeColor = 'rgba(47, 107, 63, 0.26)';
+      else if (kind === 'number') strokeColor = 'rgba(217, 119, 6, 0.32)';
+
+      for (let i = 0; i < rects.length; i++) {
+        const r = rects[i];
+        if (r.width < 4 || r.height < 4) continue;
+
+        const x1 = Math.round(r.left - svgR.left - 2);
+        const x2 = Math.round(r.right - svgR.left + 2);
+        const yMid = Math.round(r.top + r.height * 0.58 - svgR.top);
+        const jitter = (Math.random() - 0.5) * 2.5;
+
+        const d = `M ${x1} ${yMid} Q ${Math.round((x1 + x2) / 2)} ${Math.round(yMid + jitter)} ${x2} ${Math.round(yMid + (Math.random() - 0.5) * 1.5)}`;
+        const thickness = Math.max(15, Math.min(22, Math.round(r.height * 0.88)));
+
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', d);
+        path.setAttribute('stroke', strokeColor);
+        path.setAttribute('stroke-width', thickness);
+        path.setAttribute('class', 'handdrawn-highlighter-path');
+        path.setAttribute('filter', 'url(#handdrawn-jitter)');
+
+        hlGroup.appendChild(path);
+
+        try {
+          const len = path.getTotalLength();
+          path.style.strokeDasharray = len;
+          path.style.strokeDashoffset = len;
+          path.getBoundingClientRect();
+          setTimeout(() => {
+            path.style.strokeDashoffset = '0';
+          }, 60 * i);
+        } catch (e) {}
+      }
+    }
+
+    // Revelar y activar un paso clínico en la pizarra adaptativa
+    function revealStep(targetStep, animate = true) {
+      const sl = currentSlide();
+      totalStepsInSlide = getSlideStepCount(sl);
+      currentStepIdx = Math.max(0, Math.min(totalStepsInSlide - 1, targetStep));
+      updateStepUI();
+
+      if (sl.type === 'bento') {
+        const cards = document.querySelectorAll('.step-card');
+        cards.forEach((card, ci) => {
+          if (ci < currentStepIdx) {
+            card.classList.remove('step-pending', 'step-active');
+            card.classList.add('step-revealed');
+          } else if (ci === currentStepIdx) {
+            card.classList.remove('step-pending', 'step-revealed');
+            card.classList.add('step-active');
+          } else {
+            if (revealMode === 'progressive') {
+              card.classList.remove('step-active', 'step-revealed');
+              card.classList.add('step-pending');
+            } else {
+              card.classList.remove('step-pending');
+              card.classList.add('step-revealed');
+            }
+          }
+        });
+
+        // Dibujar flechas orgánicas consecutivas si no se han trazado
+        if (autoAnnotate && animate) {
+          if (currentStepIdx > 0 && !drawnArrows.has(currentStepIdx)) {
+            drawnArrows.add(currentStepIdx);
+            const prevCard = document.getElementById('card-step-' + (currentStepIdx - 1));
+            const curCard = document.getElementById('card-step-' + currentStepIdx);
+            if (prevCard && curCard) {
+              drawHandDrawnArrow(prevCard, curCard, '#B4322A');
+            }
+          }
+
+          // Destacar términos clínicos del paso activo
+          const curCard = document.getElementById('card-step-' + currentStepIdx);
+          if (curCard) {
+            const marks = curCard.querySelectorAll('.clinical-mark');
+            marks.forEach((m, mi) => {
+              setTimeout(() => {
+                const kind = m.classList.contains('mark-alert') ? 'alert' :
+                             m.classList.contains('mark-number') ? 'number' :
+                             m.classList.contains('mark-pharma') ? 'pharma' :
+                             m.classList.contains('mark-key') ? 'key' : 'normal';
+                drawHighlighterStroke(m, kind);
+              }, 160 + mi * 130);
+            });
+          }
+        }
+      } else if (sl.type === 'figure') {
+        const stepBars = document.querySelectorAll('.fig-step-item');
+        stepBars.forEach((bar, si) => {
+          if (si === currentStepIdx) {
+            bar.style.opacity = '1';
+            bar.style.transform = 'scale(1.02)';
+            bar.style.background = '#FFFFFF';
+            bar.style.borderColor = '#111111';
+          } else if (si < currentStepIdx) {
+            bar.style.opacity = '1';
+            bar.style.transform = 'scale(1)';
+            bar.style.background = '#EDEAE2';
+          } else {
+            bar.style.opacity = revealMode === 'progressive' ? '0.35' : '1';
+            bar.style.transform = 'scale(1)';
+          }
+        });
+
+        if (autoAnnotate && animate && currentStepIdx > 0 && !drawnArrows.has(currentStepIdx)) {
+          drawnArrows.add(currentStepIdx);
+          const prevBar = document.getElementById('fig-step-' + (currentStepIdx - 1));
+          const curBar = document.getElementById('fig-step-' + currentStepIdx);
+          if (prevBar && curBar) {
+            drawHandDrawnArrow(prevBar, curBar, '#0284C7');
+          }
+        }
+      } else if (sl.type === 'quiz') {
+        const qStem = document.getElementById('quiz-stem');
+        const qQuestion = document.getElementById('quiz-question');
+        const qOptions = document.getElementById('quiz-options');
+
+        if (currentStepIdx >= 0 && qStem) {
+          qStem.classList.add('step-active');
+          if (autoAnnotate && animate && currentStepIdx === 0) {
+            const marks = qStem.querySelectorAll('.clinical-mark');
+            marks.forEach((m, mi) => {
+              setTimeout(() => { drawHighlighterStroke(m, 'alert'); }, 120 + mi * 140);
+            });
+          }
+        }
+        if (qQuestion) {
+          if (currentStepIdx >= 1 || revealMode === 'all') {
+            qQuestion.classList.remove('step-pending');
+            qQuestion.classList.add('step-active');
+          } else {
+            qQuestion.classList.add('step-pending');
+          }
+        }
+        if (qOptions) {
+          if (currentStepIdx >= 2 || revealMode === 'all') {
+            qOptions.classList.remove('step-pending');
+            qOptions.classList.add('step-active');
+          } else {
+            qOptions.classList.add('step-pending');
+          }
+        }
+      } else if (sl.type === 'table') {
+        const rows = document.querySelectorAll('.table-step-row');
+        rows.forEach((row, ri) => {
+          if (ri <= currentStepIdx || revealMode === 'all') {
+            row.classList.remove('step-pending');
+            row.classList.add('step-active');
+          } else {
+            row.classList.add('step-pending');
+          }
+        });
+      }
+    }
+
+    // Sincronizar pasos con audio en tiempo real
+    function syncProgressiveSteps(currentTime, duration) {
+      if (!duration || duration <= 0) return;
+      const progress = Math.max(0, Math.min(1, currentTime / duration));
+      const targetStep = Math.min(totalStepsInSlide - 1, Math.floor(progress * totalStepsInSlide));
+      if (targetStep > currentStepIdx) {
+        revealStep(targetStep, true);
+      }
+    }
+
+    function nextStep() {
+      if (currentStepIdx < totalStepsInSlide - 1) {
+        const next = currentStepIdx + 1;
+        revealStep(next, true);
+        seekAudioToStep(next);
+      } else {
+        goTo(1);
+      }
+    }
+
+    function prevStep() {
+      if (currentStepIdx > 0) {
+        const prev = currentStepIdx - 1;
+        clearAutomatedAnnotations();
+        for (let s = 0; s <= prev; s++) {
+          revealStep(s, s > 0);
+        }
+        seekAudioToStep(prev);
+      } else {
+        goTo(-1);
+      }
+    }
+
+    function seekAudioToStep(step) {
+      const totalTime = isUsingTTS ? ttsDuration : (audioEl.duration || 30);
+      const targetTime = (step / totalStepsInSlide) * totalTime;
+      if (isUsingTTS) {
+        ttsElapsed = targetTime;
+        updateAudioUI(ttsElapsed, ttsDuration, isPlayingAudio);
+      } else if (audioEl && audioEl.duration) {
+        audioEl.currentTime = targetTime;
+        updateAudioUI(audioEl.currentTime, audioEl.duration, isPlayingAudio);
+      }
+    }
+
+    function onCardClick(stepIdx) {
+      const cardEl = document.getElementById(`card-step-${stepIdx}`);
+      if (cardEl) {
+        cardEl.classList.toggle('expanded');
+      }
+      if (stepIdx !== currentStepIdx) {
+        revealStep(stepIdx, true);
+        seekAudioToStep(stepIdx);
+      }
+    }
+
+    function toggleRevealMode() {
+      revealMode = revealMode === 'progressive' ? 'all' : 'progressive';
+      const btn = document.getElementById('btn-reveal-mode');
+      if (btn) {
+        btn.innerText = revealMode === 'progressive' ? 'Modo: Paso a Paso' : 'Modo: Ver Todo';
+        btn.style.background = revealMode === 'progressive' ? '#EDEAE2' : '#111111';
+        btn.style.color = revealMode === 'progressive' ? '#111111' : '#FFFFFF';
+      }
+      if (revealMode === 'all') {
+        for (let s = 0; s < totalStepsInSlide; s++) {
+          revealStep(s, autoAnnotate);
+        }
+      } else {
+        clearAutomatedAnnotations();
+        revealStep(0, false);
+      }
+    }
+
+    function toggleAutoAnnotate() {
+      autoAnnotate = !autoAnnotate;
+      const btn = document.getElementById('btn-auto-annotate');
+      if (btn) {
+        btn.innerText = autoAnnotate ? 'Trazos: Auto' : 'Trazos: Off';
+        btn.style.background = autoAnnotate ? '#EDEAE2' : '#F5F3EE';
+        btn.style.borderColor = autoAnnotate ? '#111111' : '#DCD8CE';
+        btn.style.color = autoAnnotate ? '#111111' : '#777069';
+      }
+      if (!autoAnnotate) {
+        clearAutomatedAnnotations();
+      } else {
+        revealStep(currentStepIdx, true);
+      }
+    }
+
+    // Lógica del Reproductor & Sincronización de Audio ElevenLabs
+    function currentClass() { return CLASSES[activeClassIdx]; }
+    function currentSlide() { return currentClass().slides[activeSlideIdx]; }
+
+    // ELEVENLABS AUDIO & NARRATION CONTROLLER
+    let isPlayingAudio = false;
+    let autoAdvance = false;
+    let audioSpeed = 1.0;
+    const SPEEDS = [1.0, 1.25, 1.5, 2.0];
+    let speedIdx = 0;
+
+    const audioEl = new Audio();
+    let isUsingTTS = false;
+    let ttsUtterance = null;
+    let ttsTimer = null;
+    let ttsElapsed = 0;
+    let ttsDuration = 10;
+    let autoAdvanceTimeout = null;
+    let activeAudioGen = 0;
+
+    function formatTime(seconds) {
+      if (isNaN(seconds) || seconds < 0) seconds = 0;
+      const m = Math.floor(seconds / 60);
+      const s = Math.floor(seconds % 60);
+      return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+    }
+
+    function updateAudioUI(currentTime, totalTime, isPlaying) {
+      document.getElementById('audio-time-current').innerText = formatTime(currentTime);
+      document.getElementById('audio-time-total').innerText = formatTime(totalTime);
+      const pct = totalTime > 0 ? Math.min(100, (currentTime / totalTime) * 100) : 0;
+      document.getElementById('audio-progress-bar').style.width = pct + '%';
+
+      const playIcon = document.getElementById('audio-play-icon');
+      const playText = document.getElementById('audio-play-text');
+      if (isPlaying) {
+        playIcon.innerText = '⏸';
+        playText.innerText = 'Pausar';
+      } else {
+        playIcon.innerText = '▶';
+        playText.innerText = 'Voz ElevenLabs';
+      }
+    }
+
+    function stopAllAudio() {
+      activeAudioGen++;
+      if (autoAdvanceTimeout) {
+        clearTimeout(autoAdvanceTimeout);
+        autoAdvanceTimeout = null;
+      }
+      if (audioEl) {
+        audioEl.onloadedmetadata = null;
+        audioEl.onerror = null;
+        audioEl.onended = null;
+        audioEl.ontimeupdate = null;
+        audioEl.pause();
+        audioEl.removeAttribute('src');
+      }
+      if (ttsUtterance) {
+        ttsUtterance.onend = null;
+        ttsUtterance.onerror = null;
+        ttsUtterance = null;
+      }
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      if (ttsTimer) {
+        clearInterval(ttsTimer);
+        ttsTimer = null;
+      }
+      if (window.__ttsKeepAlive) {
+        clearInterval(window.__ttsKeepAlive);
+        window.__ttsKeepAlive = null;
+      }
+      isUsingTTS = false;
+      isPlayingAudio = false;
+    }
+
+    function getSlideNarrationText(cls, sl) {
+      if (sl.notes && sl.notes[0] && sl.notes[0].trim().length > 10) {
+        return sl.notes[0].trim();
+      }
+      if (sl.stem) {
+        return (sl.stem + '. Pregunta: ' + (sl.question || '¿Cuál es la conducta más adecuada?') + '. ' + (sl.explanation || '')).trim();
+      }
+      if (sl.cards && sl.cards.length > 0) {
+        return sl.title + '. ' + sl.cards.map(c => c.title + ': ' + c.body).join('. ');
+      }
+      return sl.title + '. Concepto clave de alta frecuencia para el examen EUNACOM 2026.';
+    }
+
+    function setupAudioForSlide(autoStart) {
+      stopAllAudio();
+      const myGen = activeAudioGen;
+      const cls = currentClass();
+      const sl = currentSlide();
+      const classId = cls.id || (cls.code ? cls.code.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'gastro-01');
+      const audioUrl = '../dist/audio/' + classId + '/slide_' + (activeSlideIdx + 1) + '.mp3';
+
+      const statusLbl = document.getElementById('audio-status-label');
+      statusLbl.innerText = '● SINCRONIZANDO...';
+      statusLbl.style.color = '#777069';
+
+      const text = getSlideNarrationText(cls, sl);
+      const wordCount = text.split(/\s+/).length;
+      ttsDuration = Math.max(8, Math.round(wordCount / (2.6 * audioSpeed)));
+      ttsElapsed = 0;
+      updateAudioUI(0, ttsDuration, false);
+
+      let loaded = false;
+      audioEl.src = audioUrl;
+      audioEl.playbackRate = audioSpeed;
+
+      audioEl.onloadedmetadata = () => {
+        if (myGen !== activeAudioGen) return;
+        loaded = true;
+        isUsingTTS = false;
+        statusLbl.innerText = '● ELEVENLABS HD';
+        statusLbl.style.color = '#16A34A';
+        updateAudioUI(0, audioEl.duration || ttsDuration, false);
+        if (autoStart || isPlayingAudio) {
+          audioEl.play().then(() => {
+            if (myGen !== activeAudioGen) return;
+            isPlayingAudio = true;
+            updateAudioUI(0, audioEl.duration, true);
+          }).catch(() => {
+            if (myGen !== activeAudioGen) return;
+            fallbackToSpeech(autoStart, myGen);
+          });
+        }
+      };
+
+      audioEl.onerror = () => {
+        if (myGen !== activeAudioGen) return;
+        if (!loaded) {
+          fallbackToSpeech(autoStart, myGen);
+        }
+      };
+
+      audioEl.ontimeupdate = () => {
+        if (myGen !== activeAudioGen) return;
+        if (!isUsingTTS && audioEl.duration) {
+          updateAudioUI(audioEl.currentTime, audioEl.duration, !audioEl.paused);
+          syncProgressiveSteps(audioEl.currentTime, audioEl.duration);
+        }
+      };
+
+      audioEl.onended = () => {
+        if (myGen !== activeAudioGen) return;
+        onSlideAudioEnded(true, myGen);
+      };
+    }
+
+    function fallbackToSpeech(autoStart, callerGen) {
+      if (callerGen && callerGen !== activeAudioGen) return;
+      isUsingTTS = true;
+      const statusLbl = document.getElementById('audio-status-label');
+      statusLbl.innerText = '● VOZ CLÍNICA (SINTETIZADA)';
+      statusLbl.style.color = '#0284C7';
+
+      const cls = currentClass();
+      const sl = currentSlide();
+      const text = getSlideNarrationText(cls, sl);
+      const wordCount = text.split(/\s+/).length;
+      ttsDuration = Math.max(8, Math.round(wordCount / (2.6 * audioSpeed)));
+      ttsElapsed = 0;
+      updateAudioUI(0, ttsDuration, false);
+
+      if (autoStart || isPlayingAudio) {
+        startSpeechSynthesis(text, callerGen);
+      }
+    }
+
+    function startSpeechSynthesis(text, callerGen) {
+      if (!window.speechSynthesis) return;
+      const myGen = callerGen || activeAudioGen;
+
+      if (ttsUtterance) {
+        ttsUtterance.onend = null;
+        ttsUtterance.onerror = null;
+        ttsUtterance = null;
+      }
+      window.speechSynthesis.cancel();
+      if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
+      if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
+
+      // Pausa técnica de 60ms para reiniciar el subsistema de audio de Chrome
+      setTimeout(() => {
+        if (myGen !== activeAudioGen) return;
+
+        ttsUtterance = new SpeechSynthesisUtterance(text);
+        window.__currentUtterance = ttsUtterance;
+        ttsUtterance.rate = audioSpeed;
+        ttsUtterance.lang = 'es-CL';
+
+        const voices = window.speechSynthesis.getVoices();
+        const esVoice = voices.find(v => v.lang.startsWith('es-CL')) ||
+                        voices.find(v => v.lang.startsWith('es-ES')) ||
+                        voices.find(v => v.lang.startsWith('es-MX')) ||
+                        voices.find(v => v.lang.startsWith('es')) ||
+                        voices.find(v => /spanish|español|sabina|helena|laura|pablo|raul/i.test(v.name));
+        
+        if (esVoice) {
+          ttsUtterance.voice = esVoice;
+          ttsUtterance.lang = esVoice.lang;
+        } else {
+          // No permitir que una voz en inglés lea español con acento roto
+          console.warn('No hay voz en español instalada en el navegador/sistema.');
+          const statusLbl = document.getElementById('audio-status-label');
+          statusLbl.innerText = '● VOZ EN ESPAÑOL REQUERIDA (O AUDIO HD)';
+          statusLbl.style.color = '#B4322A';
+          isPlayingAudio = false;
+          updateAudioUI(0, ttsDuration, false);
+          return;
+        }
+
+        ttsElapsed = 0;
+        isPlayingAudio = true;
+        updateAudioUI(0, ttsDuration, true);
+
+        if (ttsTimer) clearInterval(ttsTimer);
+        ttsTimer = setInterval(() => {
+          if (myGen !== activeAudioGen || !isPlayingAudio) {
+            clearInterval(ttsTimer);
+            ttsTimer = null;
+            return;
+          }
+          ttsElapsed += 0.25;
+          if (ttsElapsed >= ttsDuration) {
+            clearInterval(ttsTimer);
+            ttsTimer = null;
+          }
+          updateAudioUI(Math.min(ttsElapsed, ttsDuration), ttsDuration, true);
+          syncProgressiveSteps(ttsElapsed, ttsDuration);
+        }, 250);
+
+        // Keepalive para evitar la desconexión a los 15 segundos en Chromium
+        window.__ttsKeepAlive = setInterval(() => {
+          if (!window.speechSynthesis || myGen !== activeAudioGen || !isPlayingAudio) {
+            clearInterval(window.__ttsKeepAlive);
+            window.__ttsKeepAlive = null;
+            return;
+          }
+          if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+            window.speechSynthesis.pause();
+            window.speechSynthesis.resume();
+          }
+        }, 8000);
+
+        ttsUtterance.onend = () => {
+          if (myGen !== activeAudioGen) return;
+          if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
+          if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
+          onSlideAudioEnded(true, myGen);
+        };
+
+        ttsUtterance.onerror = (e) => {
+          if (myGen !== activeAudioGen) return;
+          if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
+          if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
+          if (e && (e.error === 'canceled' || e.error === 'interrupted')) {
+            return; // Cancelación deliberada por navegación del usuario
+          }
+          console.warn('TTS aviso:', e && e.error);
+          isPlayingAudio = false;
+          updateAudioUI(ttsElapsed, ttsDuration, false);
+        };
+
+        window.speechSynthesis.speak(ttsUtterance);
+      }, 60);
+    }
+
+    function playAudio() {
+      if (isUsingTTS) {
+        const cls = currentClass();
+        const sl = currentSlide();
+        startSpeechSynthesis(getSlideNarrationText(cls, sl), activeAudioGen);
+      } else if (audioEl && audioEl.src && audioEl.duration) {
+        audioEl.play().then(() => {
+          isPlayingAudio = true;
+          updateAudioUI(audioEl.currentTime, audioEl.duration, true);
+        }).catch(() => {
+          fallbackToSpeech(true, activeAudioGen);
+        });
+      } else {
+        fallbackToSpeech(true, activeAudioGen);
+      }
+    }
+
+    function pauseAudio() {
+      isPlayingAudio = false;
+      if (isUsingTTS) {
+        if (ttsUtterance) {
+          ttsUtterance.onend = null;
+          ttsUtterance.onerror = null;
+        }
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+        if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
+        if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
+        updateAudioUI(ttsElapsed, ttsDuration, false);
+      } else if (audioEl) {
+        audioEl.pause();
+        updateAudioUI(audioEl.currentTime, audioEl.duration || 30, false);
+      }
+    }
+
+    function toggleAudio() {
+      if (isPlayingAudio) {
+        pauseAudio();
+      } else {
+        playAudio();
+      }
+    }
+
+    function onSlideAudioEnded(isNaturalEnd, genId) {
+      if (!isNaturalEnd || (genId && genId !== activeAudioGen)) return;
+      isPlayingAudio = false;
+      const totalTime = isUsingTTS ? ttsDuration : (audioEl.duration || 30);
+      updateAudioUI(totalTime, totalTime, false);
+
+      if (autoAdvance) {
+        const statusLbl = document.getElementById('audio-status-label');
+        statusLbl.innerText = 'SIGUIENTE EN 1.5s...';
+        statusLbl.style.color = '#B4322A';
+
+        const scheduledGen = activeAudioGen;
+        autoAdvanceTimeout = setTimeout(() => {
+          if (scheduledGen !== activeAudioGen) return;
+          const total = currentClass().slides.length;
+          if (activeSlideIdx < total - 1) {
+            goTo(1);
+            isPlayingAudio = true;
+            setupAudioForSlide(true);
+          } else {
+            statusLbl.innerText = 'CLASE FINALIZADA';
+            statusLbl.style.color = '#16A34A';
+          }
+        }, 1500);
+      }
+    }
+
+    function toggleAutoAdvance() {
+      autoAdvance = !autoAdvance;
+      const btn = document.getElementById('btn-audio-autoadvance');
+      if (autoAdvance) {
+        btn.innerText = 'Auto: ON';
+        btn.style.background = '#EDEAE2';
+        btn.style.borderColor = '#111111';
+        btn.style.color = '#111111';
+      } else {
+        btn.innerText = 'Auto: OFF';
+        btn.style.background = '#F5F3EE';
+        btn.style.borderColor = '#DCD8CE';
+        btn.style.color = '#777069';
+        if (autoAdvanceTimeout) {
+          clearTimeout(autoAdvanceTimeout);
+          autoAdvanceTimeout = null;
+        }
+      }
+    }
+
+    function cycleAudioSpeed() {
+      speedIdx = (speedIdx + 1) % SPEEDS.length;
+      audioSpeed = SPEEDS[speedIdx];
+      document.getElementById('btn-audio-speed').innerText = audioSpeed.toFixed(1) + 'x';
+      if (audioEl) audioEl.playbackRate = audioSpeed;
+      if (isPlayingAudio && isUsingTTS) {
+        pauseAudio();
+        playAudio();
+      }
+    }
+
+    function setClass(idx) {
+      activeClassIdx = idx;
+      activeSlideIdx = 0;
+      quizPicks = {};
+      clearCanvas();
+      closeModal();
+      closeIndex();
+      renderAll();
+      setupAudioForSlide(false);
+    }
+
+    function goTo(step) {
+      if (autoAdvanceTimeout) {
+        clearTimeout(autoAdvanceTimeout);
+        autoAdvanceTimeout = null;
+      }
+      activeAudioGen++;
+      const wasPlaying = isPlayingAudio;
+      const total = currentClass().slides.length;
+      activeSlideIdx = Math.min(total - 1, Math.max(0, activeSlideIdx + step));
+      clearCanvas();
+      zoomLevel = 1;
+      renderAll();
+      setupAudioForSlide(wasPlaying);
+    }
+
+    function jumpTo(idx) {
+      if (autoAdvanceTimeout) {
+        clearTimeout(autoAdvanceTimeout);
+        autoAdvanceTimeout = null;
+      }
+      activeAudioGen++;
+      const wasPlaying = isPlayingAudio;
+      activeSlideIdx = idx;
+      clearCanvas();
+      closeIndex();
+      zoomLevel = 1;
+      renderAll();
+      setupAudioForSlide(wasPlaying);
+    }
+
+    function renderAll() {
+      const cls = currentClass();
+      const sl = currentSlide();
+      const total = cls.slides.length;
+
+      // Header UI
+      document.getElementById('ui-class-title').innerText = cls.title;
+      document.getElementById('ui-class-code').innerText = cls.code;
+      document.getElementById('ui-class-badge').innerText = cls.badge;
+      document.getElementById('ui-slide-counter').innerText = String(activeSlideIdx + 1).padStart(2, '0') + ' / ' + String(total).padStart(2, '0');
+
+      // Timeline UI
+      const chName = (cls.chapters[sl.ch] && cls.chapters[sl.ch].name) || 'CLÍNICA';
+      document.getElementById('ui-chapter-label').innerText = String(sl.ch + 1).padStart(2, '0') + ' ' + chName;
+      document.getElementById('ui-remaining-label').innerText = (total - activeSlideIdx - 1) + ' RESTANTE';
+
+      // Segments
+      const track = document.getElementById('ui-segments-track');
+      track.innerHTML = '';
+      cls.slides.forEach((s, i) => {
+        const seg = document.createElement('div');
+        seg.style.flex = '1';
+        seg.style.height = '8px';
+        seg.style.cursor = 'pointer';
+        seg.style.marginRight = (i < total - 1 && cls.slides[i+1].ch !== s.ch) ? '8px' : '2px';
+        if (i < activeSlideIdx) {
+          seg.style.background = '#111111';
+        } else if (i === activeSlideIdx) {
+          seg.style.background = '#B4322A';
+        } else {
+          seg.style.background = '#DCD8CE';
+        }
+        seg.onclick = () => jumpTo(i);
+        seg.title = 'Slide ' + (i + 1) + ': ' + (s.title || '');
+        track.appendChild(seg);
+      });
+
+      // Notes Drawer
+      document.getElementById('drawer-counter').innerText = 'Slide ' + (activeSlideIdx + 1) + '/' + total;
+      document.getElementById('drawer-notes-content').innerText = (sl.notes && sl.notes[0]) || 'Sin notas específicas para esta diapositiva.';
+
+      // Render Main Slide
+      renderSlideBody(sl);
+
+      // Inicializar estado de pizarra adaptativa
+      totalStepsInSlide = getSlideStepCount(sl);
+      currentStepIdx = 0;
+      updateStepUI();
+      clearAutomatedAnnotations();
+      setTimeout(() => {
+        revealStep(0, autoAnnotate);
+      }, 40);
+    }
+
+    function renderSlideBody(sl) {
+      const vp = document.getElementById('slide-viewport');
+
+      // 0. PORTADA OFICIAL DE MASTERCLASS (DEEP SLATE #0F172A, CENTRADA, ZERO-EMOJI)
+      if (sl.type === 'cover') {
+        vp.style.background = '#0F172A';
+        vp.style.padding = '0';
+        vp.innerHTML = `
+          <div style="flex:1; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:36px 56px; text-align:center; position:relative; box-sizing:border-box;">
+            <!-- Glow sutil de fondo -->
+            <div style="position:absolute; width:520px; height:520px; background:radial-gradient(circle, rgba(180,50,42,0.16) 0%, rgba(15,23,42,0) 70%); top:50%; left:50%; transform:translate(-50%, -50%); pointer-events:none;"></div>
+
+            <!-- Kicker / Especialidad -->
+            <div style="margin-bottom:18px; z-index:1;">
+              <span class="mono" style="font-size:11px; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:#38BDF8; background:rgba(56,189,248,0.1); border:1px solid rgba(56,189,248,0.3); padding:5px 16px; border-radius:9999px;">
+                ${sl.kicker || 'EUNACOM MASTERCLASS'}
+              </span>
+            </div>
+
+            <!-- Título Principal Centrado en Gran Tamaño -->
+            <h1 style="font-size:40px; font-weight:800; line-height:1.15; letter-spacing:-0.035em; color:#F8FAFC; margin:0 0 16px 0; max-width:880px; z-index:1;">
+              ${sl.title}
+            </h1>
+
+            <!-- Bajada / Ámbito Clínico -->
+            <p style="font-size:15px; line-height:1.55; color:#94A3B8; max-width:720px; margin:0 0 26px 0; z-index:1;">
+              ${sl.subtitle || 'Perfil de Conocimientos ASOFAMECh, algoritmos de urgencia y preguntas oficiales.'}
+            </p>
+
+            <!-- Barra Unificada de Badges y Metadatos -->
+            <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; z-index:1; margin-bottom:28px;">
+              <span class="mono" style="font-size:11px; font-weight:700; color:#E2E8F0; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.16); padding:6px 14px; border-radius:4px;">
+                ${sl.code || 'ASOFAMECh'}
+              </span>
+              <span class="mono" style="font-size:11px; font-weight:800; color:#FFFFFF; background:${sl.rentColor || '#B4322A'}; padding:6px 14px; border-radius:4px; letter-spacing:0.04em;">
+                ${sl.realQuestionCount ? (sl.realQuestionCount + ' PREGUNTAS REALES (2013-2025) · ' + (sl.rentabilidad || 'ALTA RENTABILIDAD')) : (sl.rentabilidad || 'INDUCCIÓN GENERAL OFICIAL')}
+              </span>
+              <span class="mono" style="font-size:11px; font-weight:700; color:#CBD5E1; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); padding:6px 14px; border-radius:4px;">
+                ${sl.deckBadge || 'ESTÁNDAR · 15 MIN'}
+              </span>
+            </div>
+
+            <!-- Cue de Inicio Interactivo -->
+            <div style="display:flex; align-items:center; gap:10px; font-size:12px; color:#64748B; font-weight:600; letter-spacing:0.03em; z-index:1;">
+              <span style="display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; background:rgba(255,255,255,0.1); color:#F8FAFC; font-size:10px;">▶</span>
+              <span>Presiona reproducir audio o usa las flechas para comenzar</span>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      // Restablecer estilos estándar de pizarra para diapositivas clínicas
+      vp.style.background = '#F5F3EE';
+      vp.style.padding = '22px 36px 16px';
+      const kicker = sl.kicker || 'CONCEPTO CLÍNICO';
+      const headerHtml = `
+        <div style="display:flex;align-items:flex-end;gap:20px;margin-bottom:16px;flex-shrink:0;height:44px;">
+          <div style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#777069;width:130px;flex-shrink:0;line-height:1.35">${kicker}</div>
+          <div style="flex:1;min-width:0;font-size:32px;font-weight:700;line-height:1.1;letter-spacing:-0.03em;color:#111111;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${sl.title}</div>
+          ${sl.note ? `<div style="max-width:340px;font-size:12.5px;line-height:1.35;color:#777069;text-align:right;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${sl.note}</div>` : ''}
+        </div>
+      `;
+
+      let contentHtml = '';
+
+      if (sl.type === 'bento') {
+        const numCards = (sl.cards || []).length;
+        let gridCols = 'repeat(2, 1fr)';
+        if (numCards === 1) gridCols = '1fr';
+        else if (numCards === 3) gridCols = 'repeat(3, 1fr)';
+        else if (numCards >= 4) gridCols = 'repeat(2, 1fr)';
+
+        let cardsHtml = '';
+        (sl.cards || []).forEach((c, ci) => {
+          const accentColor = c.kind === 'alert' ? '#B4322A' : c.kind === 'key' ? '#2F6B3F' : c.kind === 'pharma' ? '#1E3A8A' : c.kind === 'criteria' ? '#854D0E' : '#777069';
+
+          let raw = (c.body || '').trim();
+          let items = [];
+          if (raw.includes('•')) {
+            items = raw.split(/•\s*/).map(s => s.trim()).filter(Boolean);
+          } else if (raw.includes('\n')) {
+            items = raw.split(/\n+/).map(s => s.trim()).filter(Boolean);
+          } else {
+            const sents = raw.split(/(?<=[.!?])\s+/).filter(Boolean);
+            items = sents.length > 1 ? sents : [raw];
+          }
+
+          let formattedItemsHtml = items.map(item => {
+            const colonMatch = item.match(/^([^:]{3,35}):\s*(.*)$/);
+            if (colonMatch) {
+              const tagText = colonMatch[1].trim();
+              const bodyText = colonMatch[2].trim();
+              const highlightedBody = bodyText
+                .replace(/\b(Estadio\s+[123]|Grado\s+[123]|Clase\s+[I|II|III|IV]+|Forrest\s+[I|II|III][a-c]?)\b/gi, `<mark class="clinical-mark mark-alert" data-step="${ci}">$1</mark>`)
+                .replace(/\b(EDA|IBP|KDIGO|GES|MINSAL|CESFAM|ECG|TAC|POCUS|FeNa|FeUrea|PCR|VHS|VNI|UPC|UCI|NTA|BUN|Creatinina|Sonda Foley|Omeprazol|Esomeprazol|Lansoprazol|Terlipresina|Octreótido|Ceftriaxona|Ciprofloxacino|Amoxicilina|Sertralina|Escitalopram|Haloperidol|Lorazepam|Diazepam|Litio|Valproato|Olanzapina|Quetiapina|Tiamina|Naloxona|Flumazenil)\b/g, `<strong class="clinical-keyword" data-step="${ci}">$1</strong>`)
+                .replace(/(?:[≥≤><]?\s*\d+[\d.,]*\s*(?:mg[/]dL|mg[/]kg|mL[/]kg[/]hora|mL[/]kg[/]h|mEq[/]L|pg[/]mL|mmHg|g[/]dL|mg|g|ml|UI|veces|x\s+basal|x|horas?|días?|semanas?|meses?|años?|%))/gi, `<mark class="clinical-mark mark-number" data-step="${ci}">$&</mark>`);
+
+              return `
+                <div style="background:rgba(255,255,255,0.78); border:1px solid #DCD8CE; border-left:3px solid ${accentColor}; border-radius:4px; padding:10px 14px; display:flex; flex-direction:column; gap:3px; box-shadow:0 1px 4px rgba(0,0,0,0.02);">
+                  <div style="font-size:12px; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; color:${accentColor};">${tagText}</div>
+                  <div style="font-size:15.5px; line-height:1.5; color:#1E293B;">${highlightedBody}</div>
+                </div>
+              `;
+            }
+
+            let highlighted = item
+              .replace(/\b(Estadio\s+[123]|Grado\s+[123]|Clase\s+[I|II|III|IV]+|Forrest\s+[I|II|III][a-c]?)\b/gi, `<mark class="clinical-mark mark-alert" data-step="${ci}">$1</mark>`)
+              .replace(/\b(EDA|IBP|KDIGO|GES|MINSAL|CESFAM|ECG|TAC|POCUS|FeNa|FeUrea|PCR|VHS|VNI|UPC|UCI|NTA|BUN|Creatinina|Sonda Foley|Omeprazol|Esomeprazol|Lansoprazol|Terlipresina|Octreótido|Ceftriaxona|Ciprofloxacino|Amoxicilina|Sertralina|Escitalopram|Haloperidol|Lorazepam|Diazepam|Litio|Valproato|Olanzapina|Quetiapina|Tiamina|Naloxona|Flumazenil)\b/g, `<strong class="clinical-keyword" data-step="${ci}">$1</strong>`)
+              .replace(/(?:[≥≤><]?\s*\d+[\d.,]*\s*(?:mg[/]dL|mg[/]kg|mL[/]kg[/]hora|mL[/]kg[/]h|mEq[/]L|pg[/]mL|mmHg|g[/]dL|mg|g|ml|UI|veces|x\s+basal|x|horas?|días?|semanas?|meses?|años?|%))/gi, `<mark class="clinical-mark mark-number" data-step="${ci}">$&</mark>`);
+
+            return `
+              <div style="display:flex; align-items:flex-start; gap:12px; font-size:15.5px; line-height:1.5; color:#1E293B;">
+                <span style="color:${accentColor}; font-size:20px; line-height:1.1; font-weight:900; flex-shrink:0;">•</span>
+                <div style="flex:1;">${highlighted}</div>
+              </div>
+            `;
+          }).join('');
+
+          const initialClass = ci === 0 ? 'step-active' : (revealMode === 'progressive' ? 'step-pending' : 'step-revealed');
+
+          cardsHtml += `
+            <div id="card-step-${ci}" data-step="${ci}" onclick="onCardClick(${ci})" class="step-card ${initialClass}" style="background:#EDEAE2; border:1px solid #DCD8CE; border-left:6px solid ${accentColor}; padding:22px 26px; border-radius:6px; display:flex; flex-direction:column; gap:12px; height:100%; box-shadow:0 2px 10px rgba(0,0,0,0.05); position:relative; box-sizing:border-box;">
+              <div style="font-size:21px; font-weight:800; letter-spacing:-0.03em; line-height:1.2; color:#111111; border-bottom:1px solid rgba(0,0,0,0.08); padding-bottom:10px;">
+                ${c.title}
+              </div>
+              <div style="display:flex; flex-direction:column; justify-content:center; gap:12px; flex:1; min-height:0;">
+                ${formattedItemsHtml}
+              </div>
+            </div>
+          `;
+        });
+
+        contentHtml = `
+          <div style="flex:1;min-height:0;display:grid;grid-template-columns:${gridCols};gap:20px;align-items:stretch;">
+            ${cardsHtml}
+          </div>
+        `;
+      } else if (sl.type === 'table') {
+        const colsCss = sl.cols ? sl.cols.join(' ') : '1.4fr 1fr 1fr';
+        let rowsHtml = '';
+        (sl.rows || []).forEach((r, ri) => {
+          const bg = r.hi ? '#EDEAE2' : 'transparent';
+          let cellsHtml = '';
+          (r.cells || []).forEach((c, ci) => {
+            const weight = ci === 0 ? '700' : '400';
+            const fg = r.alert ? '#B4322A' : ci === 0 ? '#111111' : '#3D3A36';
+            cellsHtml += `<div style="padding:12px 12px 12px 0;font-size:14px;font-weight:${weight};color:${fg}">${c}</div>`;
+          });
+          const initialClass = ri === 0 ? 'step-active' : (revealMode === 'progressive' ? 'step-pending' : 'step-revealed');
+          rowsHtml += `<div id="table-row-${ri}" data-step="${ri}" class="step-card table-step-row ${initialClass}" style="display:grid;grid-template-columns:${colsCss};border-bottom:1px solid #DCD8CE;background:${bg};transition:all 0.3s ease;">${cellsHtml}</div>`;
+        });
+
+        let headsHtml = '';
+        (sl.head || []).forEach(h => {
+          headsHtml += `<div style="padding:9px 12px 9px 0;font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#777069">${h}</div>`;
+        });
+
+        contentHtml = `
+          <div style="flex:1;min-height:0;overflow:auto;border-top:2px solid #111111;">
+            <div style="display:grid;grid-template-columns:${colsCss};border-bottom:1px solid #111111;position:sticky;top:0;background:#F5F3EE;z-index:2;">
+              ${headsHtml}
+            </div>
+            ${rowsHtml}
+          </div>
+        `;
+      } else if (sl.type === 'quiz') {
+        const qKey = activeClassIdx + ':' + activeSlideIdx;
+        const pickedLetter = quizPicks[qKey] || null;
+
+        let optionsHtml = '';
+        (sl.options || []).forEach(o => {
+          const isChosen = pickedLetter === o.letter;
+          const isCorrect = o.letter === sl.correct;
+          let bg = '#FAF8F5';
+          let fg = '#3D3A36';
+          let mark = '';
+          let markFg = '#777069';
+
+          if (pickedLetter) {
+            if (isCorrect) {
+              bg = '#E7EDE6'; fg = '#111111'; mark = '[CORRECTA]'; markFg = '#2F6B3F';
+            } else if (isChosen) {
+              bg = '#F2E4E2'; fg = '#111111'; mark = '[TU RESPUESTA]'; markFg = '#B4322A';
+            } else {
+              fg = '#8A847B';
+            }
+          }
+
+          optionsHtml += `
+            <div onclick="selectQuizOption('${o.letter}')" style="display:flex;align-items:center;padding:10px 14px;border:1px solid ${isChosen ? '#111111' : '#DCD8CE'};background:${bg};border-radius:3px;cursor:${pickedLetter ? 'default' : 'pointer'}" class="${pickedLetter ? '' : 'btn-hover'}">
+              <span class="mono" style="width:28px;font-size:12px;font-weight:700;color:${isCorrect && pickedLetter ? '#2F6B3F' : '#111111'}">${o.letter}</span>
+              <span style="flex:1;font-size:13.5px;color:${fg}">${o.text}</span>
+              ${mark ? `<span class="mono" style="font-size:11px;font-weight:700;color:${markFg}">${mark}</span>` : ''}
+            </div>
+          `;
+        });
+
+        const feedbackHtml = pickedLetter ? `
+          <div style="margin-top:10px;padding:12px 16px;border:1px solid #111111;border-radius:3px;background:${pickedLetter === sl.correct ? '#E7EDE6' : '#F2E4E2'}">
+            <div style="font-size:11.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:${pickedLetter === sl.correct ? '#2F6B3F' : '#B4322A'};margin-bottom:4px">
+              ${pickedLetter === sl.correct ? 'RESPUESTA CORRECTA' : 'RESPUESTA INCORRECTA — LA OPCIÓN CORRECTA ES ' + sl.correct}
+            </div>
+            <div style="font-size:13px;line-height:1.45;color:#111111">${sl.explanation}</div>
+            <div class="mono" style="font-size:10.5px;color:#777069;margin-top:4px">Fuente: ${sl.ref}</div>
+          </div>
+        ` : '';
+
+        // Resaltar términos cardinales del caso clínico en el paso 0
+        const stemHighlighted = (sl.stem || '')
+          .replace(/(varón|mujer|\d+\s+años|shock|dolor|vómitos|ictericia|fiebre|hematemesis|melena|anuria|oliguria|creatinina|fena)/gi, '<mark class="clinical-mark mark-alert" data-step="0">$&</mark>');
+
+        contentHtml = `
+          <div style="flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;overflow:auto;">
+            <div id="quiz-stem" class="step-card step-active" style="background:#EDEAE2;border-left:4px solid #B4322A;padding:12px 18px;font-size:14px;line-height:1.5;color:#111111;border-radius:3px;">
+              ${stemHighlighted}
+            </div>
+            <div id="quiz-question" class="step-card ${revealMode === 'progressive' ? 'step-pending' : 'step-active'}" style="font-size:14px;font-weight:700;color:#111111;">${sl.question}</div>
+            <div id="quiz-options" class="step-card ${revealMode === 'progressive' ? 'step-pending' : 'step-active'}" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(360px, 1fr));gap:8px;">
+              ${optionsHtml}
+            </div>
+            ${feedbackHtml}
+          </div>
+        `;
+      } else if (sl.type === 'figure') {
+        // Pasos de decisión en barra horizontal superior con soporte paso a paso
+        const stepsHtml = (sl.steps || []).map((st, si) => `
+          <div id="fig-step-${si}" data-step="${si}" onclick="onCardClick(${si})" class="step-card fig-step-item ${si === 0 ? 'step-active' : (revealMode === 'progressive' ? 'step-pending' : 'step-revealed')}" style="flex:1;display:flex;align-items:center;gap:10px;padding:8px 14px;background:#EDEAE2;border:1px solid #DCD8CE;border-left:4px solid ${si === 0 ? '#111111' : si === 1 ? '#0284C7' : '#B4322A'};border-radius:3px;cursor:pointer;transition:all 0.3s ease;">
+            <span class="mono" style="font-size:11px; font-weight:800; color:${si === 0 ? '#111111' : si === 1 ? '#0284C7' : '#B4322A'};">0${si+1}</span>
+            <span style="font-size:12px; line-height:1.3; color:#111111; font-weight:${si === 0 ? '700' : '500'}; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${st.replace(/^[\d.]+\s*/, '')}</span>
+          </div>
+        `).join('');
+
+        contentHtml = `
+          <div style="flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;">
+            <!-- Barra horizontal de pasos de decisión clínica -->
+            <div style="display:flex;gap:12px;flex-shrink:0;">
+              ${stepsHtml}
+            </div>
+
+            <!-- Escenario Vectorial Centrado en Ancho Completo -->
+            <div style="flex:1;min-height:0;border:2px solid #111111;background:#FFFFFF;border-radius:4px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.06);">
+              <div id="svg-stage" style="transform:scale(${zoomLevel});transform-origin:center center;transition:transform 0.15s ease;width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:10px 16px 32px 16px;box-sizing:border-box;">
+                ${sl.svg || '<p style="color:#777069">Diagrama clínico vectorial</p>'}
+              </div>
+              <div style="position:absolute;top:10px;left:12px;font-size:10px;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;background:#111111;color:#fff;padding:2px 8px;border-radius:2px;">
+                ${sl.label || 'ALGORITMO OFICIAL HD'}
+              </div>
+              <div style="position:absolute;bottom:10px;right:12px;display:flex;align-items:center;gap:6px;background:rgba(245,243,238,0.95);padding:4px 8px;border:1px solid #DCD8CE;border-radius:4px;">
+                <span class="mono" style="font-size:10px;font-weight:700;color:#777069;margin-right:4px;">ZOOM: <span id="fig-zoom-label">${Math.round(zoomLevel * 100)}%</span></span>
+                <button onclick="changeZoom(0.25)" style="width:24px;height:24px;border:1px solid #111111;background:#F5F3EE;font-size:13px;font-weight:700;cursor:pointer;" class="btn-hover">＋</button>
+                <button onclick="changeZoom(-0.25)" style="width:24px;height:24px;border:1px solid #111111;background:#F5F3EE;font-size:13px;font-weight:700;cursor:pointer;" class="btn-hover">－</button>
+                <button onclick="resetZoom()" style="height:24px;padding:0 6px;border:1px solid #111111;background:#F5F3EE;font-size:9.5px;font-weight:700;text-transform:uppercase;cursor:pointer;" class="btn-hover">Reset</button>
+                <button onclick="openDiagramModal()" style="height:24px;padding:0 8px;background:#111111;color:#fff;border:none;font-size:9.5px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border-radius:2px;cursor:pointer;">EXPANDIR [＋]</button>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      vp.innerHTML = headerHtml + contentHtml;
+    }
+
+    window.changeZoom = function(delta) {
+      zoomLevel = Math.min(3, Math.max(0.6, Math.round((zoomLevel + delta) * 100) / 100));
+      const stage = document.getElementById('svg-stage');
+      if (stage) stage.style.transform = 'scale(' + zoomLevel + ')';
+      const label = document.getElementById('fig-zoom-label');
+      if (label) label.innerText = Math.round(zoomLevel * 100) + '%';
+    };
+
+    window.resetZoom = function() {
+      zoomLevel = 1;
+      const stage = document.getElementById('svg-stage');
+      if (stage) stage.style.transform = 'scale(1)';
+      const label = document.getElementById('fig-zoom-label');
+      if (label) label.innerText = '100%';
+    };
+
+    window.openDiagramModal = function() {
+      const sl = currentSlide();
+      if (!sl || !sl.svg) return;
+      document.getElementById('modal-diag-title').innerText = sl.title || 'ALGORITMO CLÍNICO';
+      document.getElementById('modal-diag-stage').innerHTML = '<div style="width:95%; height:95%; display:flex; align-items:center; justify-content:center;">' + sl.svg + '</div>';
+      document.getElementById('diagram-modal').style.display = 'flex';
+    };
+
+    window.closeDiagramModal = function() {
+      document.getElementById('diagram-modal').style.display = 'none';
+    };
+
+    window.selectQuizOption = function(letter) {
+      const qKey = activeClassIdx + ':' + activeSlideIdx;
+      if (quizPicks[qKey]) return;
+      quizPicks[qKey] = letter;
+      renderAll();
+    };
+
+    // Modales y Drawers
+    function openIndex() {
+      const drawer = document.getElementById('index-drawer');
+      const list = document.getElementById('index-list');
+      const cls = currentClass();
+      list.innerHTML = '';
+
+      cls.slides.forEach((s, i) => {
+        const item = document.createElement('div');
+        item.style.display = 'flex';
+        item.style.alignItems = 'center';
+        item.style.padding = '10px 14px';
+        item.style.borderBottom = '1px solid #DCD8CE';
+        item.style.cursor = 'pointer';
+        item.className = 'btn-hover';
+        item.innerHTML = `
+          <span class="mono" style="width:36px;font-size:12px;font-weight:700;color:${i === activeSlideIdx ? '#B4322A' : '#777069'}">${String(i+1).padStart(2,'0')}</span>
+          <span style="flex:1;font-size:14px;font-weight:${i === activeSlideIdx ? '700' : '400'}">${s.title}</span>
+          <span class="mono" style="font-size:11px;text-transform:uppercase;color:#777069">${s.type}</span>
+        `;
+        item.onclick = () => jumpTo(i);
+        list.appendChild(item);
+      });
+      drawer.style.display = 'block';
+    }
+
+    function closeIndex() {
+      document.getElementById('index-drawer').style.display = 'none';
+    }
+
+    document.getElementById('btn-toggle-index').onclick = () => {
+      const d = document.getElementById('index-drawer');
+      if (d.style.display === 'block') closeIndex(); else openIndex();
+    };
+
+    document.getElementById('btn-toggle-notes').onclick = () => {
+      const d = document.getElementById('notes-drawer');
+      d.style.display = d.style.display === 'none' ? 'flex' : 'none';
+    };
+
+    // Modal de Clases
+    function openModal() {
+      const modal = document.getElementById('class-switcher-modal');
+      const list = document.getElementById('modal-class-list');
+      renderModalList('');
+      modal.style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('class-switcher-modal').style.display = 'none';
+    }
+
+    function renderModalList(filter) {
+      const list = document.getElementById('modal-class-list');
+      list.innerHTML = '';
+      CLASSES.forEach((c, idx) => {
+        if (filter && !c.title.toLowerCase().includes(filter.toLowerCase()) && !c.code.toLowerCase().includes(filter.toLowerCase())) {
+          return;
+        }
+        const item = document.createElement('div');
+        item.style.display = 'flex';
+        item.style.alignItems = 'center';
+        item.style.justifyContent = 'space-between';
+        item.style.padding = '12px 16px';
+        item.style.border = idx === activeClassIdx ? '2px solid #B4322A' : '1px solid #DCD8CE';
+        item.style.background = idx === activeClassIdx ? '#EDEAE2' : '#F5F3EE';
+        item.style.cursor = 'pointer';
+        item.className = 'btn-hover';
+        item.innerHTML = `
+          <div>
+            <div style="font-size:14px;font-weight:700">${c.title}</div>
+            <div class="mono" style="font-size:11px;color:#777069">${c.code} · ${c.slides.length} slides</div>
+          </div>
+          <span style="font-size:11px;font-weight:700;border:1px solid #111111;padding:3px 8px;text-transform:uppercase">${c.specialty}</span>
+        `;
+        item.onclick = () => setClass(idx);
+        list.appendChild(item);
+      });
+    }
+
+    document.getElementById('search-class-input').oninput = (e) => {
+      renderModalList(e.target.value);
+    };
+
+    document.getElementById('btn-open-switcher').onclick = openModal;
+    document.getElementById('btn-close-modal').onclick = closeModal;
+
+    // Controles de Audio y Locución ElevenLabs
+    document.getElementById('btn-audio-play').onclick = toggleAudio;
+    document.getElementById('btn-audio-autoadvance').onclick = toggleAutoAdvance;
+    document.getElementById('btn-audio-speed').onclick = cycleAudioSpeed;
+    document.getElementById('audio-progress-container').onclick = (e) => {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const pos = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      const totalTime = isUsingTTS ? ttsDuration : (audioEl.duration || 30);
+      const targetTime = pos * totalTime;
+      if (isUsingTTS) {
+        ttsElapsed = targetTime;
+        updateAudioUI(ttsElapsed, ttsDuration, isPlayingAudio);
+        syncProgressiveSteps(ttsElapsed, ttsDuration);
+      } else if (audioEl && audioEl.duration) {
+        audioEl.currentTime = targetTime;
+        updateAudioUI(audioEl.currentTime, audioEl.duration, isPlayingAudio);
+        syncProgressiveSteps(audioEl.currentTime, audioEl.duration);
+      }
+    };
+
+    // Controles de Pizarra Adaptativa y Revelación
+    document.getElementById('btn-reveal-mode').onclick = toggleRevealMode;
+    document.getElementById('btn-step-prev').onclick = prevStep;
+    document.getElementById('btn-step-next').onclick = nextStep;
+    document.getElementById('btn-auto-annotate').onclick = toggleAutoAnnotate;
+
+    // Navegación
+    document.getElementById('btn-prev').onclick = () => goTo(-1);
+    document.getElementById('btn-next').onclick = () => goTo(1);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        if (revealMode === 'progressive' && currentStepIdx < totalStepsInSlide - 1) {
+          nextStep();
+        } else {
+          goTo(1);
+        }
+      }
+      else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        if (revealMode === 'progressive' && currentStepIdx > 0) {
+          prevStep();
+        } else {
+          goTo(-1);
+        }
+      }
+      else if (e.key === 'Escape') { closeModal(); closeIndex(); closeDiagramModal(); }
+      else if (e.key.toLowerCase() === 'p') { toggleAudio(); }
+      else if (e.key.toLowerCase() === 'a') { toggleAutoAdvance(); }
+      else if (e.key.toLowerCase() === 'm') { toggleRevealMode(); }
+      else if (e.key.toLowerCase() === 't') { toggleAutoAnnotate(); }
+      else if (e.key.toLowerCase() === 'n') {
+        const d = document.getElementById('notes-drawer');
+        d.style.display = d.style.display === 'none' ? 'flex' : 'none';
+      }
+    });
+
+    // Iniciar
+    renderAll();
+    setupAudioForSlide(false);
+  </script>
+</body>
+</html>

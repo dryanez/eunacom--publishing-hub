@@ -1,0 +1,1147 @@
+[
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-03",
+    "title": "Fibrilación Auricular & Flutter Auricular (Guía GES MINSAL)",
+    "perfilCode": "1.01.1.012, 1.01.1.013, 1.01.1.014, 1.01.3.001",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Patología GES (Fibrilación Auricular y Prevención Secundaria de ACV)",
+    "keyPoints": [
+      "CHA₂DS₂-VASc ≥ 2 en hombres o ≥ 3 en mujeres = Anticoagulación Oral obligatoria con DOACs.",
+      "Aspirina está contraindicada para profilaxis de ACV en FA.",
+      "En cardiopatía estructural o infarto previo, la Flecainida está contraindicada; se debe usar Amiodarona.",
+      "Si la FA tiene > 48 horas de duración, se debe anticoagular 3 semanas antes de cardiovertir para evitar embolia cerebral."
+    ],
+    "vignette": "Hombre de 71 años hipertenso y con antecedente de infarto agudo al miocardio hace 2 años (FEVI 35%) consulta por palpitaciones de 4 horas de evolución. ECG: Fibrilación auricular con respuesta ventricular rápida a 140 lpm. PA 130/80 mmHg, sin dolor torácico ni signos de shock. El médico de turno decide realizar cardioversión farmacológica.",
+    "explicacion": "El paciente presenta una FA de < 48 horas de evolución, pero tiene como antecedente una cardiopatía estructural severa (infarto previo y FEVI reducida al 35%). En este escenario, los antiarrítmicos Clase Ic como la Flecainida y la Propafenona están formalmente contraindicados por inducir taquicardia ventricular y muerte. El único fármaco antiarrítmico seguro y de elección para cardioversión química en cardiopatía isquémica o disfunción ventricular es la Amiodarona endovenosa. Además, por su score CHA₂DS₂-VASc de 4 (Edad 71: 1, HTA: 1, IAM: 1, IC-FEr: 1), debe quedar con anticoagulación oral permanente con DOACs.",
+    "baseQuestions": [
+      {
+        "stem": "Mujer de 76 años con antecedentes de hipertensión arterial y diabetes mellitus tipo 2 acude a control en APS. Se encuentra asintomática. Al examen: pulso irregular a 84 lpm. ECG confirma fibrilación auricular crónica no valvular. ¿Cuál es la conducta terapéutica más adecuada respecto a la prevención de eventos tromboembólicos?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar anticoagulación oral permanente con un anticoagulante oral directo (DOAC)"
+          },
+          {
+            "id": "B",
+            "text": "Indicar Aspirina 100 mg al día en monoterapia"
+          },
+          {
+            "id": "C",
+            "text": "Indicar terapia combinada de Aspirina más Clopidogrel"
+          },
+          {
+            "id": "D",
+            "text": "No indicar anticoagulación por encontrarse en frecuencia cardíaca controlada"
+          },
+          {
+            "id": "E",
+            "text": "Realizar cardioversión eléctrica ambulatoria inmediata"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La paciente presenta un puntaje CHA₂DS₂-VASc de 5 (Edad ≥ 75: 2 pts, HTA: 1 pt, DM: 1 pt, Sexo femenino: 1 pt), lo que confiere un riesgo tromboembólico anual > 6-8%. La indicación obligatoria según guías MINSAL y protocolos GES es la Anticoagulación Oral continua con DOACs (Apixabán, Rivaroxabán o Dabigatrán). La aspirina no previene el ACV embólico y no debe utilizarse."
+      },
+      {
+        "stem": "Hombre de 60 años portador de una prótesis valvular mecánica mitral consulta por fibrilación auricular. ¿Cuál es el tratamiento anticoagulante de elección?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Acenocumarol o Warfarina con meta de INR entre 2.5 y 3.5"
+          },
+          {
+            "id": "B",
+            "text": "Apixabán 5 mg cada 12 horas"
+          },
+          {
+            "id": "C",
+            "text": "Rivaroxabán 20 mg al día"
+          },
+          {
+            "id": "D",
+            "text": "Dabigatrán 150 mg cada 12 horas"
+          },
+          {
+            "id": "E",
+            "text": "Heparina de bajo peso molecular por vía subcutánea indefinida"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Las prótesis valvulares cardíacas mecánicas constituyen una contraindicación absoluta para el uso de DOACs (ensayos clínicos demostraron mayor tasa de trombosis protésica y sangrado con dabigatrán/rivaroxabán). El único tratamiento anticoagulante validado y seguro son los antagonistas de vitamina K (Acenocumarol/Warfarina) con meta de INR estricta de 2.5 a 3.5 para válvulas mecánicas mitrales."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-04",
+    "title": "TPSV & Síndrome de Wolff-Parkinson-White",
+    "perfilCode": "1.01.1.024, 1.01.2.008",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "No GES",
+    "keyPoints": [
+      "TPSV estable = Maniobras vagales (Valsalva modificada) → Adenosina 6 mg EV en bolo rápido.",
+      "Tríada de WPW en ritmo sinusal: PR corto (< 120 ms) + Onda Delta + QRS ancho.",
+      "En FA preexcitada (WPW) están PROHIBIDOS: Verapamilo, Digoxina, Adenosina y Betabloqueadores.",
+      "El tratamiento definitivo curativo del WPW y de la TPSV recidivante es la Ablación por Radiofrecuencia."
+    ],
+    "vignette": "Mujer de 24 años con antecedente de palpitaciones ocasionales consulta en urgencias por palpitaciones intensas, mareos y disnea. ECG muestra taquicardia con complejos QRS anchos de 150 ms, con morfología variable y ritmo totalmente irregular a 220 lpm. PA 105/65 mmHg. El interno de medicina propone administrar Verapamilo 5 mg EV.",
+    "explicacion": "La presencia de una taquicardia de complejo QRS ancho, ritmo totalmente irregular y frecuencia superior a 200 lpm en una mujer joven es diagnóstica de Fibrilación Auricular preexcitada a través de una vía accesoria (Síndrome de Wolff-Parkinson-White). La propuesta de administrar Verapamilo (o adenosina, digoxina o betabloqueadores) es un error médico gravísimo y potencialmente mortal: los bloqueadores del nodo AV conducen preferencialmente todos los impulsos por el haz de Kent, provocando degeneración a Fibrilación Ventricular y muerte súbita. La conducta médica correcta es la Cardioversión Eléctrica Sincronizada o administración de Procainamida.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 26 años con palpitaciones paroxísticas regulares de inicio súbito a 180 lpm y QRS estrecho. Se realizaron maniobras vagales sin éxito. ¿Cuál es el fármaco de primera línea y la técnica correcta de administración?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Adenosina 6 mg en bolo endovenoso ultrarrápido seguido de bolo de 20 mL de suero fisiológico"
+          },
+          {
+            "id": "B",
+            "text": "Amiodarona 300 mg en infusión continua para 1 hora"
+          },
+          {
+            "id": "C",
+            "text": "Verapamilo 10 mg por vía intramuscular profunda"
+          },
+          {
+            "id": "D",
+            "text": "Digoxina 0.5 mg en infusión lenta"
+          },
+          {
+            "id": "E",
+            "text": "Lidocaína 100 mg endovenosa"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La Adenosina tiene una vida media ultracorta (< 10 segundos). Para que alcance concentraciones terapéuticas en el nodo AV, debe inyectarse en bolo ultrarrápido (1-2 segundos) en una vena periférica proximal, seguido de un bolo de lavado de 20 mL de solución fisiológica y elevación del brazo. La dosis inicial es de 6 mg."
+      },
+      {
+        "stem": "¿Cuál de los siguientes fármacos antiarrítmicos puede desencadenar fibrilación ventricular y paro cardíaco si se administra a un paciente con fibrilación auricular preexcitada (Wolff-Parkinson-White)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Verapamilo"
+          },
+          {
+            "id": "B",
+            "text": "Procainamida"
+          },
+          {
+            "id": "C",
+            "text": "Ibutilide"
+          },
+          {
+            "id": "D",
+            "text": "Sulfato de Magnesio"
+          },
+          {
+            "id": "E",
+            "text": "Quinidina"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El Verapamilo es un bloqueador de los canales de calcio no dihidropiridínico que bloquea la conducción en el nodo auriculoventricular sin afectar la vía accesoria. Al suprimir el freno nodal, los impulsos auriculares caóticos pasan sin resistencia por la vía accesoria rápida hacia los ventrículos, gatillando Fibrilación Ventricular."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-05",
+    "title": "Bradicardias Sintomáticas & Bloqueos AV (GES Marcapasos)",
+    "perfilCode": "1.01.1.002, 1.01.2.009",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Patología GES #24 (Tratamiento Quirúrgico de Lesiones Valvulares y Marcapasos en Bloqueos AV)",
+    "keyPoints": [
+      "BAV 2° Mobitz II y BAV 3er Grado son indicación obligatoria de Marcapaso Definitivo GES.",
+      "La disociación AV (ondas P y complejos QRS independientes) es el sello patognomónico del BAV completo.",
+      "La Atropina (1 mg EV) es útil en bloqueos suprahisianos/nodales, pero inefectiva en bloqueos infranodales.",
+      "Síncope brusco en paciente con bradicardia severa define el Síndrome de Stokes-Adams."
+    ],
+    "vignette": "Hombre de 81 años es traído a urgencias tras sufrir dos caídas con pérdida de conciencia breve mientras caminaba en su casa. Al examen físico: vigil, pálido, PA 85/45 mmHg, FC 32 lpm. El ECG muestra ondas P regulares a 78 cpm y complejos QRS anchos regulares a 32 cpm, sin ninguna correlación matemática ni fija entre el intervalo PR y los complejos QRS.",
+    "explicacion": "El cuadro corresponde a un Bloqueo Auriculoventricular Completo de 3er Grado que genera síncopes cardiogénicos por bajo gasto (crisis de Stokes-Adams). La conducta en urgencias es: 1) Monitorización continua y aporte de oxígeno; 2) Administrar Atropina 1 mg EV como medida puente y preparar parches de marcapaso transcutáneo; 3) Hospitalizar en Unidad de Cuidados Intermedios/Coronaria para instalación de Marcapaso Transitorio; 4) Activar garantía GES para implante de Marcapaso Definitivo bicameral.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 76 años consulta por astenia y mareos de 3 días. El ECG revela ondas P a 70 lpm e intervalos PR de 160 ms constantes, pero cada tres ondas P, una no es seguida de complejo QRS sin que haya existido alargamiento previo del PR. El complejo QRS mide 130 ms. ¿Cuál es el diagnóstico y la conducta definitiva?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bloqueo AV de 2° grado Mobitz II; requiere implante de marcapaso definitivo"
+          },
+          {
+            "id": "B",
+            "text": "Bloqueo AV de 2° grado Mobitz I; requiere observación ambulatoria"
+          },
+          {
+            "id": "C",
+            "text": "Bloqueo AV de 1er grado; requiere suspender fármacos cronótropos"
+          },
+          {
+            "id": "D",
+            "text": "Disociación auriculoventricular por intoxicación digitálica"
+          },
+          {
+            "id": "E",
+            "text": "Paro sinusal con ritmo de escape de la unión"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El bloqueo intermitente de ondas P sin prolongación previa del intervalo PR define un Bloqueo AV de 2° Grado Mobitz II. Debido a que la lesión se encuentra en el sistema His-Purkinje infranodal, existe un alto riesgo de progresión a bloqueo completo y muerte súbita, por lo que tiene indicación formal de Marcapaso Definitivo."
+      },
+      {
+        "stem": "Paciente de 85 años ingresa a SAPU en shock cardiogénico con FC de 28 lpm por BAV de tercer grado. Se administra Atropina 1 mg EV sin respuesta de la frecuencia cardíaca ni de la presión arterial. ¿Cuál es el paso inmediato que debe realizar el médico tratante?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Instalar marcapaso externo transcutáneo e iniciar infusión de Adrenalina"
+          },
+          {
+            "id": "B",
+            "text": "Repetir Atropina hasta completar 6 mg"
+          },
+          {
+            "id": "C",
+            "text": "Administrar Amiodarona 300 mg endovenosa"
+          },
+          {
+            "id": "D",
+            "text": "Realizar cardioversión eléctrica sincronizada a 100 J"
+          },
+          {
+            "id": "E",
+            "text": "Derivar en ambulancia básica sin monitor"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En una bradiarritmia con inestabilidad hemodinámica que no responde a la dosis inicial de atropina, la conducta de emergencia perentoria es la estimulación eléctrica mediante marcapaso transcutáneo externo asociada al inicio de drogas vasoactivas (Adrenalina o Dopamina) mientras se prepara el marcapaso transvenoso."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-08",
+    "title": "SCACEST: IAM con Supradesnivel del ST & Protocolo Reperfusión GES",
+    "perfilCode": "1.01.2.002, 1.01.3.003",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud #24 (Infarto Agudo del Miocardio con Supradesnivel del ST)",
+    "keyPoints": [
+      "ECG en los primeros 10 minutos es ley GES ante dolor torácico.",
+      "Si tiempo de traslado a Angioplastía > 120 min → Fibrinólisis con Tenecteplase < 30 min.",
+      "Criterio de reperfusión exitosa = Descenso del supradesnivel del ST > 50% a los 60-90 min.",
+      "En IAM de Ventrículo Derecho (V4R+) están PROHIBIDOS: Nitratos, Diuréticos y Morfina; se trata con volumen EV."
+    ],
+    "vignette": "Hombre de 56 años consulta en un Servicio de Atención Primaria de Urgencia (SAPU) rural con dolor torácico opresivo de 1 hora de evolución. El ECG tomado a los 5 minutos muestra supradesnivel del ST de 3 mm en DII, DIII y aVF. El hospital con laboratorio de hemodinamia más cercano se encuentra a 3 horas de distancia. PA 130/80 mmHg, FC 68 lpm, peso 74 kg.",
+    "explicacion": "El paciente presenta un SCACEST de pared inferior. Dado que el tiempo estimado para llegar a la angioplastía primaria supera con creces los 120 minutos (está a 3 horas de viaje), la indicación mandataria y protocolizada por el GES es la Fibrinólisis Farmacológica Inmediata en el SAPU con Tenecteplase (TNK-tPA) 40 mg en bolo endovenoso (para sus 74 kg) dentro de los primeros 30 minutos (tiempo puerta-aguja < 30 min), asociada a Aspirina 250 mg masticada, Clopidogrel 300 mg y Enoxaparina, coordinando el traslado posterior en ambulancia medicalizada.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 60 años consulta en hospital comunal sin hemodinamia por dolor precordial típico de 40 minutos de evolución. ECG revela supradesnivel del ST de 4 mm de V1 a V4. El centro terciario con capacidad de angioplastía está a 150 minutos de traslado. ¿Cuál es la conducta médica de elección?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar Tenecteplase endovenoso en bolo inmediatamente en el hospital comunal"
+          },
+          {
+            "id": "B",
+            "text": "Derivar en ambulancia básica a angioplastía primaria sin trombolisis previa"
+          },
+          {
+            "id": "C",
+            "text": "Administrar heparina en infusión y esperar resultado de troponinas"
+          },
+          {
+            "id": "D",
+            "text": "Realizar test de esfuerzo para confirmar extensión del infarto"
+          },
+          {
+            "id": "E",
+            "text": "Indicar nitroglicerina sublingual y reposo absoluto sin fármacos trombolíticos"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Cuando el tiempo para realizar una angioplastía primaria supera los 120 minutos, la guía GES y las normas internacionales obligan a realizar fibrinólisis farmacológica inmediata con Tenecteplase en menos de 30 minutos desde el ingreso para salvar miocardio y reducir la mortalidad."
+      },
+      {
+        "stem": "Paciente con infarto agudo al miocardio de pared inferior evoluciona con PA 80/40 mmHg, ingurgitación yugular y examen pulmonar sin ruidos agregados. El ECG muestra supradesnivel del ST de 2 mm en V4R. ¿Cuál es el tratamiento inicial más apropiado para su hipotensión?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administración rápida de carga de suero fisiológico endovenoso"
+          },
+          {
+            "id": "B",
+            "text": "Infusión continua de nitroglicerina"
+          },
+          {
+            "id": "C",
+            "text": "Administración de Furosemida 40 mg endovenosa"
+          },
+          {
+            "id": "D",
+            "text": "Administración de Morfina 5 mg endovenosa"
+          },
+          {
+            "id": "E",
+            "text": "Inicio inmediato de Propanolol oral"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El paciente presenta un infarto del ventrículo derecho confirmado por V4R positivo. El ventrículo derecho infartado se vuelve rígido y depende críticamente de una presión de llenado elevada (precarga) para mantener el gasto cardíaco. El tratamiento de elección de la hipotensión es la expansión volumétrica agresiva con suero fisiológico. Los nitratos y diuréticos reducen la precarga y causan colapso circulatorio irreversible."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-20",
+    "title": "Crisis Hipertensivas: Urgencia vs Emergencia Hipertensiva",
+    "perfilCode": "1.01.2.006",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Atención de Urgencia Vital Inmediata",
+    "keyPoints": [
+      "La presencia o ausencia de daño agudo de órgano blanco define si es Urgencia o Emergencia.",
+      "Urgencia = Vía Oral + Descenso gradual en 24-48h + Control ambulatorio en APS.",
+      "Emergencia = UCI + Vía Endovenosa + Reducción PAM 20-25% en la primera hora.",
+      "Nifedipino sublingual está TERMINANTEMENTE PROHIBIDO en todas las crisis hipertensivas."
+    ],
+    "vignette": "Hombre de 58 años sin antecedentes médicos conocidos consulta en urgencias por cefalea global de 6 horas de evolución. Al examen físico: vigil, orientado en tiempo y espacio, sin déficit neurológico focal, fondo de ojo sin edema de papila ni hemorragias, examen cardíaco y pulmonar normales. PA: 205/115 mmHg en ambos brazos, FC: 78 lpm, Creatinina y ECG normales.",
+    "explicacion": "El paciente presenta una cifra tensional severa (> 180/120 mmHg) pero sin ninguna evidencia clínica ni de laboratorio de daño agudo de órgano blanco, lo que define una Urgencia Hipertensiva. La conducta médica correcta consiste en mantener al paciente en reposo en un ambiente tranquilo por 30-60 minutos, administrar un antihipertensivo por vía oral (ej: Captopril 25 mg VO o Amlodipino 5-10 mg VO), confirmar el descenso moderado de la PA y dar el alta con indicación de control ambulatorio en APS en 24-48 horas para inicio de terapia definitiva.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 62 años consulta por cefalea leve sin otros síntomas. PA 210/115 mmHg. Examen físico neurológico, cardíaco y fondo de ojo completamente normales. ¿Cuál es la conducta médica más apropiada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Indicar reposo y administrar antihipertensivo oral con control en 24-48 horas"
+          },
+          {
+            "id": "B",
+            "text": "Hospitalizar de inmediato en UCI e iniciar Nitroprusiato de sodio endovenoso"
+          },
+          {
+            "id": "C",
+            "text": "Administrar una cápsula de Nifedipino sublingual perforada"
+          },
+          {
+            "id": "D",
+            "text": "Realizar punción lumbar de urgencia para descartar hemorragia"
+          },
+          {
+            "id": "E",
+            "text": "Administrar Furosemida 80 mg endovenosa en bolo cada 4 horas"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Se trata de una Urgencia Hipertensiva (alza tensional severa sin daño de órgano blanco). El manejo correcto es el reposo inicial seguido de antihipertensivos orales y control ambulatorio en 24-48 horas. No requiere hospitalización en UCI ni nitroprusiato EV. El nifedipino sublingual está contraindicado."
+      },
+      {
+        "stem": "Paciente con Disección Aórtica aguda tipo A se presenta con PA 220/120 mmHg y FC 110 lpm. ¿Cuál es el objetivo hemodinámico y el tratamiento inicial de elección antes de ingresar a pabellón?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Labetalol endovenoso para alcanzar PAS < 120 mmHg y FC < 60 lpm en menos de 20 minutos"
+          },
+          {
+            "id": "B",
+            "text": "Nitroprusiato de sodio en monoterapia para bajar la PAM un 10% en 24 horas"
+          },
+          {
+            "id": "C",
+            "text": "Hidralazina endovenosa para mantener PAS alrededor de 160 mmHg"
+          },
+          {
+            "id": "D",
+            "text": "Furosemida endovenosa en bolo y reposo absoluto"
+          },
+          {
+            "id": "E",
+            "text": "Enalapril oral cada 8 horas hasta normalizar la presión"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "En la Disección Aórtica Aguda (emergencia hipertensiva hiperaguda), el objetivo vital es reducir drásticamente el estrés de cizallamiento sobre la pared aórtica (dP/dt). Se debe reducir de inmediato la PAS a < 120 mmHg y la FC a < 60 lpm en < 20 minutos usando Betabloqueadores endovenosos (Labetalol) como primera línea, asociando vasodilatadores si es necesario."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "cardiologia",
+    "specialtyName": "Cardiología",
+    "classId": "cardio-22",
+    "title": "Patología de la Aorta: Disección Aórtica Aguda & Aneurisma de Aorta Abdominal",
+    "perfilCode": "1.01.1.023, 1.01.1.024",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "No GES",
+    "keyPoints": [
+      "Disección Stanford A (Aorta Ascendente) = CIRUGÍA CARDÍACA DE EMERGENCIA.",
+      "Disección Stanford B (Aorta Descendente) = Manejo médico en UCI con Labetalol EV (meta FC < 60 y PAS < 120).",
+      "AngioTAC con contraste es el examen confirmatorio estándar de oro en disección aórtica.",
+      "Aneurisma de Aorta Abdominal se opera si mide ≥ 5.5 cm, crece > 0.5 cm en 6 meses o si presenta dolor."
+    ],
+    "vignette": "Hombre de 64 años hipertenso mal controlado ingresa a urgencias con dolor torácico anterior intenso y desgarrante de inicio brusco hace 45 minutos que se irradia a la espalda entre las escápulas. Al examen físico: sudoroso, pálido, PA en brazo derecho 195/105 mmHg y en brazo izquierdo 140/80 mmHg (diferencia de 55 mmHg). Se ausculta un soplo diastólico aspirativo nuevo en el borde esternal izquierdo.",
+    "explicacion": "El cuadro clínico de dolor torácico desgarrante súbito con asimetría marcada de pulsos/PA entre ambos brazos y la aparición de un soplo de insuficiencia aórtica nuevo es diagnóstico de Disección Aórtica Aguda Stanford Tipo A (compromiso de aorta ascendente y anillo aórtico). La conducta médica de emergencia consiste en: 1) Iniciar Labetalol endovenoso de inmediato para bajar la FC < 60 lpm y la PAS a 100-120 mmHg; 2) Confirmar con AngioTAC de tórax y aorta de urgencia; 3) Contactar al cirujano cardiovascular de turno para traslado inmediato a pabellón de cirugía cardíaca.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 59 años hipertenso ingresa con dolor torácico retroesternal transfixiante hacia la espalda. AngioTAC confirma Disección Aórtica que compromete la aorta ascendente extendiéndose hasta el arco aórtico (Stanford A). ¿Cuál es el tratamiento definitivo de elección?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cirugía cardíaca de reemplazo aórtico de urgencia inmediata"
+          },
+          {
+            "id": "B",
+            "text": "Manejo médico conservador exclusivo en UCI con Betabloqueadores"
+          },
+          {
+            "id": "C",
+            "text": "Fibrinólisis endovenosa con Tenecteplase"
+          },
+          {
+            "id": "D",
+            "text": "Implante de Stent aórtico percutáneo electivo en 1 mes"
+          },
+          {
+            "id": "E",
+            "text": "Anticoagulación con Heparina no fraccionada en infusión"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Toda Disección Aórtica Stanford A (que compromete la aorta ascendente) es una emergencia quirúrgica absoluta que exige resolución quirúrgica inmediata a tórax abierto para reemplazar el segmento disecado y evitar la muerte por rotura intrapericárdica, taponamiento o infarto masivo."
+      },
+      {
+        "stem": "Hombre de 68 años fumador asintomático es derivado por hallazgo ecográfico de un Aneurisma de Aorta Abdominal infrarrenal de 5.8 cm de diámetro transversal máximo. ¿Cuál es la conducta médica indicada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Derivación a cirugía vascular para resolución quirúrgica o endovascular (EVAR)"
+          },
+          {
+            "id": "B",
+            "text": "Control ecográfico anual para vigilar crecimiento"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar anticoagulación oral con Warfarina"
+          },
+          {
+            "id": "D",
+            "text": "Indicar reposo en cama permanente"
+          },
+          {
+            "id": "E",
+            "text": "Tratamiento con dosis altas de estatinas sin intervención"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El umbral de diámetro para indicar la reparación quirúrgica profiláctica o endovascular (EVAR) de un aneurisma de aorta abdominal en hombres es de ≥ 5.5 cm (o ≥ 5.0 cm en mujeres), dado que sobre este tamaño el riesgo anual de rotura fatal supera los riesgos inherentes al procedimiento quirúrgico."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-03",
+    "title": "Disfagia y Trastornos Motores del Esófago",
+    "perfilCode": "1.06.1.013",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica",
+    "keyPoints": [
+      "Disfagia lógica (sólidos → líquidos, progresiva) = obstrucción = cáncer de esófago → endoscopía con biopsia.",
+      "Disfagia ilógica (líquidos desde el inicio, fluctuante) = trastorno motor = acalasia o esclerodermia → manometría.",
+      "Acalasia: regurgitación no ácida y neumonías aspirativas; tratamiento de elección = miotomía del EEI.",
+      "Disfagia alta + halitosis = divertículo de Zenker → esofagograma con bario, tratamiento quirúrgico.",
+      "Los bloqueadores de calcio relajan el EEI (útiles en acalasia inicial) pero producen reflujo; no se usan para tratar la ERGE."
+    ],
+    "vignette": "Mujer de 46 años consulta por 8 meses de dificultad para tragar, más marcada con los líquidos que con los sólidos, de carácter fluctuante. Ha tenido dos neumonías basales derechas en el último año y regurgita alimentos sin sabor ácido durante la noche. No ha bajado de peso.",
+    "explicacion": "Disfagia ilógica (afecta a los líquidos desde el inicio, fluctuante) con neumonías aspirativas y regurgitación de contenido no ácido: el cuadro es acalasia. El examen de elección es la manometría esofágica, que mostrará aperistalsis del cuerpo y un esfínter esofágico inferior hipertónico que no relaja. La endoscopía se hace igualmente para descartar una pseudoacalasia por cáncer del cardias, pero no es el examen que confirma el trastorno motor.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 62 años, fumador de 40 paquetes-año, consulta por 3 meses de disfagia que comenzó con la carne y el pan y ahora también le cuesta tragar líquidos, con baja de 7 kg de peso. ¿Cuál es la conducta inicial?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Manometría esofágica"
+          },
+          {
+            "id": "B",
+            "text": "Esofagograma con bario"
+          },
+          {
+            "id": "C",
+            "text": "Endoscopía digestiva alta con biopsia"
+          },
+          {
+            "id": "D",
+            "text": "TAC de tórax con contraste"
+          },
+          {
+            "id": "E",
+            "text": "Prueba terapéutica con inhibidor de la bomba de protones"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Disfagia lógica (progresiva, de sólidos a líquidos) con baja de peso en un fumador es cáncer de esófago mientras no se demuestre lo contrario. El diagnóstico se hace con endoscopía digestiva alta y biopsia; el TAC y la endosonografía vienen después, para etapificar. La manometría y el esofagograma se reservan para la disfagia ilógica (sospecha de trastorno motor)."
+      },
+      {
+        "stem": "Mujer de 71 años consulta por sensación de que la comida \"se le queda en la garganta\" desde hace un año, regurgitación de alimentos no digeridos y halitosis intensa que le notan sus familiares. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cáncer de esófago"
+          },
+          {
+            "id": "B",
+            "text": "Acalasia"
+          },
+          {
+            "id": "C",
+            "text": "Divertículo de Zenker"
+          },
+          {
+            "id": "D",
+            "text": "Esclerodermia esofágica"
+          },
+          {
+            "id": "E",
+            "text": "Estenosis péptica por reflujo"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Disfagia alta (la comida se queda \"en la garganta\", a nivel del esfínter esofágico superior) con halitosis marcada y regurgitación de alimento no digerido es el cuadro típico del divertículo de Zenker: el alimento se acumula en el saco diverticular y fermenta. El diagnóstico se confirma con esofagograma con bario. La halitosis es la clave que lo separa de la acalasia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-05",
+    "title": "Cáncer de Esófago y Cáncer Gástrico",
+    "perfilCode": "1.06.1.004",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "GES: endoscopía digestiva alta en ≥ 40 años con dispepsia/signos de alarma",
+    "keyPoints": [
+      "Cáncer gástrico: primera causa de muerte por cáncer en hombres en Chile; causa principal H. pylori.",
+      "Toda epigastralgia ≥ 40 años o con signo de alarma exige endoscopía digestiva alta con biopsias (GES).",
+      "Síndrome pilórico (vómitos de retención en aumento) en adulto = cáncer gástrico hasta demostrar lo contrario.",
+      "El factor pronóstico principal de los cánceres digestivos es la invasión transmural, no las adenopatías.",
+      "Cáncer de esófago: escamoso (tabaco/alcohol) vs adenocarcinoma (ERGE/Barrett); radioterapia con rol importante.",
+      "Baja de peso + epigastralgia + ictericia cambia la sospecha a cáncer de páncreas → pedir TAC, no endoscopía."
+    ],
+    "vignette": "Hombre de 68 años consulta por 3 meses de plenitud posprandial y vómitos de alimentos ingeridos horas antes, cada vez más frecuentes, con baja de 9 kg de peso. Al examen destaca un chapoteo gástrico de ayuno y una adenopatía supraclavicular izquierda pequeña.",
+    "explicacion": "Síndrome pilórico (vómitos posprandiales de retención en aumento) con baja de peso y ganglio de Virchow: es un cáncer gástrico avanzado con obstrucción de la salida gástrica hasta que se demuestre lo contrario. El examen es la endoscopía digestiva alta con biopsias; luego se etapifica con TAC. La adenopatía supraclavicular izquierda indica enfermedad metastásica y contraindica la cirugía con intención curativa.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 60 años consulta por baja de 8 kg de peso en 3 meses, epigastralgia sorda e hiporexia. No tiene ictericia. ¿Cuál es el examen inicial más adecuado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "TAC de abdomen y pelvis con contraste"
+          },
+          {
+            "id": "B",
+            "text": "Endoscopía digestiva alta con biopsias"
+          },
+          {
+            "id": "C",
+            "text": "Ecografía abdominal"
+          },
+          {
+            "id": "D",
+            "text": "Marcadores tumorales (CEA, CA 19-9)"
+          },
+          {
+            "id": "E",
+            "text": "Tránsito esofagogastroduodenal con bario"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Baja de peso con epigastralgia en un mayor de 40 años obliga a descartar cáncer gástrico, y el examen que confirma es la endoscopía digestiva alta con biopsias (además detecta la úlcera y permite tomar muestras para H. pylori). El TAC se usa después, para etapificar. Si el paciente además tuviera ictericia, la sospecha cambiaría a cáncer de páncreas y ahí sí el examen inicial sería el TAC."
+      },
+      {
+        "stem": "Mujer de 55 años con endoscopía por dispepsia que informa un adenocarcinoma gástrico limitado a la mucosa, sin invasión de la submucosa, en una lesión de 15 mm bien diferenciada y sin úlcera. El TAC no muestra adenopatías ni metástasis. ¿Qué define el pronóstico y cuál es la conducta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "El tamaño de la lesión; observación con endoscopías seriadas"
+          },
+          {
+            "id": "B",
+            "text": "La profundidad de invasión de la pared; resección (endoscópica o quirúrgica) con intención curativa"
+          },
+          {
+            "id": "C",
+            "text": "La presencia de H. pylori; solo terapia de erradicación"
+          },
+          {
+            "id": "D",
+            "text": "El grado de diferenciación; quimioterapia paliativa"
+          },
+          {
+            "id": "E",
+            "text": "El nivel de CEA; radioterapia externa"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El factor pronóstico principal del cáncer gástrico es la profundidad de invasión de la pared. Este es un cáncer incipiente (limitado a la mucosa), el de mejor pronóstico, y con esos criterios (lesión pequeña, bien diferenciada, sin úlcera, sin invasión submucosa) puede tratarse con resección endoscópica de la mucosa; en otros casos, gastrectomía. Observar (A) o solo erradicar H. pylori (C) deja el tumor sin tratar."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-10",
+    "title": "Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
+    "perfilCode": "1.06.1.018",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · derivar a especialista para inducción y mantención",
+    "keyPoints": [
+      "Joven con diarrea disentérica crónica + fiebre + baja de peso → colonoscopía con biopsias.",
+      "Colitis ulcerosa: solo colon, desde el recto, continua, mucosa, p-ANCA. Crohn: boca-ano, en parches, transmural, ASCA.",
+      "Basta UNA característica de Crohn (íleon, fístula, parches, masa, perianal) para diagnosticarlo.",
+      "Colitis ulcerosa: riesgo de megacolon tóxico y de cáncer colorrectal tras 8–10 años (vigilancia colonoscópica).",
+      "Cirugía: colectomía cura la colitis ulcerosa; en Crohn solo se reseca el segmento complicado y nunca cura."
+    ],
+    "vignette": "Hombre de 25 años consulta por 3 meses de diarrea con sangre y mucosidad, dolor abdominal, fiebre vespertina y baja de 5 kg de peso. Al examen se palpa una masa dolorosa mal definida en la fosa ilíaca derecha. Tiene además una úlcera aftosa en la mucosa oral.",
+    "explicacion": "Joven con diarrea disentérica crónica, síntomas sistémicos y, sobre todo, una masa en la fosa ilíaca derecha (plastrón inflamatorio del íleon) más úlceras orales: son características propias de la enfermedad de Crohn. Basta una de ellas para hacer el diagnóstico; la masa abdominal y el compromiso ileal no ocurren en la colitis ulcerosa, que es continua, solo colónica y limitada a la mucosa. La conducta es colonoscopía (con ileoscopía) y biopsias.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 25 años con 1 mes de diarrea, dolor abdominal y malestar general; ha tenido disentería en algunas ocasiones y bajó 4 kg. La colonoscopía muestra signos de inflamación en el colon, con zonas de mucosa indemne y sin afectación del recto. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Colitis ulcerosa"
+          },
+          {
+            "id": "B",
+            "text": "Enfermedad de Crohn"
+          },
+          {
+            "id": "C",
+            "text": "Colitis isquémica"
+          },
+          {
+            "id": "D",
+            "text": "Parasitosis intestinal"
+          },
+          {
+            "id": "E",
+            "text": "Colitis por Clostridioides difficile"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La colonoscopía define el caso: inflamación en parches (zonas de mucosa indemne) y respeto del recto. Cualquiera de esas dos características, por sí sola, descarta la colitis ulcerosa —que es continua y siempre rectal— y establece el diagnóstico de enfermedad de Crohn."
+      },
+      {
+        "stem": "Paciente de 45 años con antecedente de colitis ulcerosa diagnosticada a los 20 años, inactiva hace 10 años. Desde hace una semana presenta deposiciones blandas con escasa sangre. El examen físico no aporta información. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solicitar rectosigmoidoscopía"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar TAC de abdomen y pelvis"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar parasitológico de deposiciones"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar colonoscopía"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar corticoides orales"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La colitis ulcerosa de larga data multiplica el riesgo de cáncer colorrectal, sobre todo rectal, y todo sangrado digestivo bajo nuevo en un adulto exige colonoscopía completa: la rectosigmoidoscopía no explora el colon proximal y dejaría lesiones sin ver. No se asume un brote ni se inician corticoides antes de descartar neoplasia."
+      },
+      {
+        "stem": "Mujer de 35 años con diarrea crónica mucosanguinolenta de 6 meses, urgencia defecatoria, pujo y tenesmo. Colonoscopía: mucosa eritematosa, granular, con pseudopólipos, desde el recto en forma continua hasta el ángulo esplénico, sin mucosa sana intercalada. ¿Cuál es el diagnóstico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Colitis isquémica"
+          },
+          {
+            "id": "B",
+            "text": "Colitis ulcerosa"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome de intestino irritable"
+          },
+          {
+            "id": "D",
+            "text": "Colitis infecciosa"
+          },
+          {
+            "id": "E",
+            "text": "Enfermedad de Crohn"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Compromiso mucoso continuo desde el recto hacia proximal, sin mucosa sana intercalada, con pseudopólipos y clínica de pujo y tenesmo: es una colitis ulcerosa. La ausencia de parches, de compromiso ileal y de lesiones perianales descarta el Crohn. Tratamiento según extensión: 5-ASA tópico y oral."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-11",
+    "title": "Pólipos y Cáncer Colorrectal · Tamizaje",
+    "perfilCode": "1.06.1.029",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "GES: tamizaje de cáncer de colon (sangre oculta inmunoquímico) desde los 50 años",
+    "keyPoints": [
+      "La mayoría de los cánceres de colon nacen de un adenoma; resecar adenomas en la colonoscopía previene el cáncer.",
+      "Constipación reciente + anemia ferropénica en el adulto mayor = cáncer de colon → colonoscopía.",
+      "Innumerables pólipos = poliposis adenomatosa familiar → colectomía total profiláctica (100 % maligniza).",
+      "El CEA solo sirve para el seguimiento posoperatorio, no para el diagnóstico ni el pronóstico.",
+      "El test de sangre oculta es tamizaje de asintomáticos; al paciente con signos de alarma se le hace colonoscopía."
+    ],
+    "vignette": "Mujer de 74 años consulta por 4 meses de constipación progresiva que antes no tenía, con deposiciones más delgadas y episodios de rectorragia escasa. El hemograma muestra una anemia microcítica hipocroma con ferritina baja.",
+    "explicacion": "Cambio reciente del hábito intestinal hacia la constipación en una adulta mayor, con deposiciones acintadas, rectorragia y anemia ferropénica: es un cáncer colorrectal (probablemente izquierdo) hasta que se demuestre lo contrario. La conducta es la colonoscopía total con biopsia, no el test de sangre oculta (que es una herramienta de tamizaje en asintomáticos). Luego se etapifica con TAC de tórax-abdomen-pelvis.",
+    "baseQuestions": [
+      {
+        "stem": "En una colonoscopía realizada a un hombre de 28 años con antecedentes familiares de cáncer de colon se describen más de 150 pólipos distribuidos por todo el colon y el recto. Varias biopsias muestran adenomas tubulares con displasia de bajo grado. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Polipectomía endoscópica de los pólipos mayores y control anual"
+          },
+          {
+            "id": "B",
+            "text": "Colectomía total (proctocolectomía) profiláctica"
+          },
+          {
+            "id": "C",
+            "text": "Quimioprevención con AINE y seguimiento"
+          },
+          {
+            "id": "D",
+            "text": "Control con CEA seriado cada 6 meses"
+          },
+          {
+            "id": "E",
+            "text": "Colonoscopía de control en 3 años"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Cientos de pólipos adenomatosos en un paciente joven con historia familiar corresponden a una poliposis adenomatosa familiar, que evoluciona a cáncer colorrectal en prácticamente el 100 % de los casos si no se interviene. La conducta es la colectomía total (proctocolectomía) profiláctica. La polipectomía endoscópica es inviable por el número de lesiones y no elimina el riesgo."
+      },
+      {
+        "stem": "Hombre de 55 años, asintomático, sin antecedentes familiares, consulta para \"chequeo\". ¿Cuál es la estrategia de tamizaje de cáncer colorrectal más apropiada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "No corresponde tamizaje por ser asintomático"
+          },
+          {
+            "id": "B",
+            "text": "Test de sangre oculta inmunoquímico y, si es positivo, colonoscopía; o colonoscopía cada 10 años"
+          },
+          {
+            "id": "C",
+            "text": "CEA anual"
+          },
+          {
+            "id": "D",
+            "text": "TAC de abdomen y pelvis cada 5 años"
+          },
+          {
+            "id": "E",
+            "text": "Colonoscopía solo si aparecen síntomas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En personas de riesgo promedio se recomienda tamizaje desde los 50 años con test de sangre oculta inmunoquímico (anual o bienal), derivando a colonoscopía a los positivos, o bien colonoscopía cada 10 años. El CEA y el TAC no son herramientas de tamizaje. Esperar a que aparezcan síntomas anula el objetivo del cribado, que es detectar adenomas y cánceres tempranos."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-15",
+    "title": "Daño Hepático Crónico e Hipertensión Portal",
+    "perfilCode": "1.06.1.005",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES universal · trasplante hepático según norma de patologías GES cuando corresponda",
+    "keyPoints": [
+      "Todo cirrótico con ascitis que consulta: paracentesis diagnóstica antes que nada (descartar PBE).",
+      "PBE: ≥ 250 PMN/mm³ → cefotaxima/ceftriaxona endovenosa + albúmina (días 1 y 3).",
+      "Várices: profilaxis primaria = propranolol; secundaria = propranolol + ligadura; sangrado activo = terlipresina + antibióticos + ligadura.",
+      "Ascitis a tensión: paracentesis evacuadora + albúmina (~8 g/L). El gradiente albúmina suero-ascitis ≥ 1,1 confirma hipertensión portal.",
+      "Encefalopatía: tratar el precipitante (casi siempre infección) + lactulosa a 2–3 deposiciones/día. El TIPS está contraindicado.",
+      "Síndrome hepatorrenal: terlipresina + albúmina y trasplante; pronóstico muy malo."
+    ],
+    "vignette": "Hombre de 58 años con cirrosis por alcohol, en control ambulatorio, consulta por aumento del perímetro abdominal en la última semana y febrículas. Al examen: ascitis moderada, sin dolor peritoneal, sin encefalopatía. Está hemodinámicamente estable.",
+    "explicacion": "Cirrótico con ascitis y fiebre: la primera conducta, antes de ajustar diuréticos o cualquier otra medida, es la paracentesis diagnóstica para descartar una peritonitis bacteriana espontánea. Si el recuento de polimorfonucleares en el líquido ascítico es ≥ 250/mm³, se inicia cefotaxima endovenosa y albúmina. La fiebre, aunque sea baja, en un cirrótico con ascitis obliga a puncionar.",
+    "baseQuestions": [
+      {
+        "stem": "Paciente con cirrosis y várices esofágicas medianas encontradas en una endoscopía de tamizaje. Nunca ha presentado hemorragia digestiva. ¿Cuál es la profilaxis indicada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ligadura endoscópica de várices + propranolol"
+          },
+          {
+            "id": "B",
+            "text": "Propranolol (o carvedilol) por vía oral, titulado por frecuencia cardíaca"
+          },
+          {
+            "id": "C",
+            "text": "Instalación electiva de TIPS"
+          },
+          {
+            "id": "D",
+            "text": "Terlipresina endovenosa mensual"
+          },
+          {
+            "id": "E",
+            "text": "Ácido tranexámico oral permanente"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La profilaxis primaria de la hemorragia variceal (paciente que nunca ha sangrado) es el betabloqueo no selectivo, titulado para reducir la frecuencia cardíaca. La ligadura endoscópica se añade en la profilaxis secundaria (tras un primer sangrado) o se usa sola cuando el betabloqueo está contraindicado (asma, EPOC grave, intolerancia)."
+      },
+      {
+        "stem": "Cirrótico con ascitis refractaria a diuréticos que además ha tenido dos episodios de encefalopatía hepática en el último mes. El equipo tratante propone instalar un TIPS para controlar la ascitis. ¿Cuál es la conducta correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Instalar el TIPS: resuelve simultáneamente la ascitis y reduce el riesgo de várices"
+          },
+          {
+            "id": "B",
+            "text": "No instalar el TIPS: la encefalopatía es una contraindicación"
+          },
+          {
+            "id": "C",
+            "text": "Instalar el TIPS solo si se agrega lactulosa profiláctica"
+          },
+          {
+            "id": "D",
+            "text": "Instalar el TIPS y suspender los betabloqueadores"
+          },
+          {
+            "id": "E",
+            "text": "Instalar el TIPS con anestesia general para evitar la descompensación"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El TIPS crea una derivación portosistémica que hace que la sangre intestinal \"salte\" el hígado; eso alivia la hipertensión portal pero aumenta la carga de amonio y otras toxinas que llegan al cerebro, por lo que la encefalopatía hepática (aun leve o recurrente) es una contraindicación. En este paciente se mantienen las paracentesis seriadas con albúmina y se prioriza la evaluación para trasplante."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-18",
+    "title": "Pancreatitis Aguda",
+    "perfilCode": "1.06.2.010",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · manejo hospitalario según Norma MINSAL de urgencia abdominal",
+    "keyPoints": [
+      "Diagnóstico = 2 de 3: dolor típico + lipasa/amilasa > 3× el límite superior + imagen compatible. Con los dos primeros no se necesita TAC.",
+      "La magnitud de la elevación enzimática NO se correlaciona con la gravedad; el hematocrito y el BUN en ascenso a las 24 h sí predicen necrosis.",
+      "Pilar del tratamiento: reposición de volumen precoz y agresiva con Ringer lactato, ajustada a diuresis. Es lo que más reduce la mortalidad.",
+      "Realimentación oral precoz (24–72 h) apenas cede el dolor, incluso en pancreatitis grave. Se evita la nutrición parenteral.",
+      "NO antibióticos profilácticos en pancreatitis no infectada. CPRE urgente (< 24 h) solo si hay colangitis asociada.",
+      "Pancreatitis biliar leve: colecistectomía en el mismo ingreso para prevenir la recurrencia."
+    ],
+    "vignette": "Hombre de 45 años, sin antecedentes, consulta por dolor epigástrico intenso de 12 horas irradiado al dorso, con vómitos biliosos. Al examen: FC 90/min, PA 140/90, escleras levemente ictéricas, abdomen blando y doloroso a la palpación epigástrica sin signos peritoneales. Laboratorio: leucocitos 13.000/mm³, PCR 55 mg/L, lipasa 640 U/L (VN < 60), bilirrubina total 2,8 mg/dL de predominio directo, ecografía con colelitiasis y colédoco de 6 mm.",
+    "explicacion": "Cumple 2 de 3 criterios de Atlanta (dolor típico + lipasa > 3 veces el límite superior), por lo que el diagnóstico es pancreatitis aguda, de etiología biliar (colelitiasis, patrón colestásico leve). Aunque coexista una probable coledocolitiasis, \"manda\" la pancreatitis por ser la condición más grave. El manejo inicial es hospitalización, reposición agresiva con Ringer lactato ajustada a diuresis, analgesia, régimen cero con realimentación precoz y ecografía ya realizada; NO se inician antibióticos profilácticos. La CPRE urgente solo se justificaría si apareciera colangitis (fiebre alta, mayor ictericia, compromiso hemodinámico).",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 45 años consulta por dolor epigástrico intenso y vómitos biliosos. Al examen: FC 90/min, PA 140/90, escleras levemente ictéricas, abdomen blando y doloroso a la palpación epigástrica. Exámenes: escleras ictéricas leves, lipasa 190 U/L (VN < 60), bilirrubina total 3,1 mg/dL directa, ecografía con colédoco de 9 mm y microlitiasis. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Colangitis aguda"
+          },
+          {
+            "id": "B",
+            "text": "Pancreatitis aguda"
+          },
+          {
+            "id": "C",
+            "text": "Coledocolitiasis"
+          },
+          {
+            "id": "D",
+            "text": "Colecistitis aguda"
+          },
+          {
+            "id": "E",
+            "text": "Cólico biliar simple"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La lipasa está sobre 3 veces el límite superior (> 180 U/L) junto con dolor típico: cumple criterios de pancreatitis aguda, y aunque coexista una coledocolitiasis (colédoco dilatado, patrón colestásico), \"manda\" la pancreatitis por ser la condición más grave y la que define la conducta. No hay fiebre ni compromiso hemodinámico que hagan pensar en colangitis (A). El colédoco dilatado y la ictericia descartan un cólico biliar simple (E) y la colecistitis (D) cursaría con Murphy y sin esta magnitud de ictericia."
+      },
+      {
+        "stem": "Paciente de 55 años con pancreatitis aguda biliar de 36 horas de evolución. Está hemodinámicamente estable, afebril, con dolor en disminución y tolera líquidos. Ecografía: colelitiasis, vía biliar de calibre normal, sin cálculos en el colédoco. ¿Cuál es la conducta más adecuada respecto de la vía biliar?",
+        "options": [
+          {
+            "id": "A",
+            "text": "CPRE de urgencia en las próximas 24 horas"
+          },
+          {
+            "id": "B",
+            "text": "Colecistectomía laparoscópica durante el mismo ingreso, una vez resuelto el episodio"
+          },
+          {
+            "id": "C",
+            "text": "Alta con colecistectomía programada en 6 a 8 semanas"
+          },
+          {
+            "id": "D",
+            "text": "Colangiorresonancia y luego CPRE si es positiva"
+          },
+          {
+            "id": "E",
+            "text": "Manejo médico indefinido, sin cirugía, por el riesgo quirúrgico"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En la pancreatitis biliar leve que ya resolvió, la colecistectomía laparoscópica debe realizarse en el mismo ingreso, porque diferirla se asocia a alta tasa de recurrencia de pancreatitis, colecistitis o colangitis en las semanas siguientes. La CPRE urgente (A) solo se indica si hay colangitis u obstrucción biliar persistente, lo que aquí no ocurre (afebril, vía biliar normal). La colangiorresonancia (D) no aporta porque la probabilidad de coledocolitiasis es baja. Diferir la cirugía (C) o no operar (E) deja al paciente expuesto a un nuevo evento."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-03",
+    "title": "Asma Bronquial Crónica y Manejo GINA/GES",
+    "perfilCode": "1.05.1.002, 1.05.1.003",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Asma Bronquial en Personas de 15 años y más",
+    "keyPoints": [
+      "El uso de Salbutamol (SABA) como monoterapia está contraindicado por aumentar el riesgo de crisis mortales.",
+      "El corticoide inhalado (CI) es la piedra angular del tratamiento del asma crónica.",
+      "En cada control se evalúan 4 criterios en el último mes: síntomas diurnos, nocturnos, uso de rescate y limitación funcional.",
+      "Antes de subir un escalón terapéutico (Step-up), siempre revisar la técnica inhalatoria y la adherencia al fármaco.",
+      "El tratamiento con Budesonida/Formoterol como rescate y mantenimiento (MART) reduce significativamente las exacerbaciones."
+    ],
+    "vignette": "Mujer de 32 años con asma en tratamiento solo con Salbutamol en aerosol a demanda. Refiere que en el último mes ha tenido síntomas diurnos 4 días a la semana, despertó en 2 ocasiones por tos y usa salbutamol casi todos los días. La espirometría muestra VEF1 72% con respuesta broncodilatadora positiva.",
+    "explicacion": "Asma no controlada (presenta 3 criterios GINA: síntomas diurnos frecuentes, despertares nocturnos y uso elevado de rescate) en monoterapia con SABA (conducta contraindicada). La indicación médica correcta es suspender el SABA exclusivo e iniciar terapia antiinflamatoria de mantención con Corticoide Inhalado a dosis baja asociado a LABA (o Budesonida/Formoterol según GINA vía 1).",
+    "baseQuestions": [
+      {
+        "stem": "Una paciente de 24 años con asma bronquial consulta a control en su CESFAM. Utiliza actualmente fluticasona 125 mcg cada 12 horas más salbutamol SOS. En las últimas 4 semanas refiere haber presentado tos y sibilancias 3 veces por semana, un despertar nocturno por disnea y necesidad de salbutamol 3 veces por semana. No ha tenido limitaciones en su trabajo. ¿Cómo clasifica su nivel de control y cuál es la conducta clínica inicial?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Asma bien controlada; reducir la fluticasona a la mitad"
+          },
+          {
+            "id": "B",
+            "text": "Asma parcialmente controlada; revisar técnica inhalatoria y adherencia antes de escalar a CI + LABA"
+          },
+          {
+            "id": "C",
+            "text": "Asma no controlada; iniciar de inmediato prednisona oral 40 mg al día por 1 mes"
+          },
+          {
+            "id": "D",
+            "text": "Asma refractaria grave; derivar a nivel secundario para estudio con anticuerpos monoclonales"
+          },
+          {
+            "id": "E",
+            "text": "Crisis asmática subaguda; hospitalizar en sala de medicina interna"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La paciente cumple 2 criterios positivos en las últimas 4 semanas (síntomas diurnos > 2/sem y rescate > 2/sem, además de un despertar nocturno), lo que clasifica su condición como \"Asma parcialmente controlada\" según GINA. La conducta protocolar obligatoria antes de cualquier cambio de receta es verificar la técnica del uso del inhalador (con aerocámara si es MDI) y comprobar la adherencia terapéutica. Si son correctas, se escala a Escalón 3 agregando un LABA (Salmeterol o Formoterol)."
+      },
+      {
+        "stem": "¿Cuál es la razón fundamental por la cual las guías internacionales GINA eliminaron la recomendación del uso exclusivo de beta-2 agonistas de corta acción (SABA, ej. salbutamol) como monoterapia en el escalón 1 del asma?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Porque el salbutamol induce hipertensión pulmonar irreversible a corto plazo"
+          },
+          {
+            "id": "B",
+            "text": "Porque el uso regular de SABA sin corticoides causa regulación a la baja de receptores beta, mayor inflamación de la vía aérea y aumenta el riesgo de exacerbaciones graves y muerte"
+          },
+          {
+            "id": "C",
+            "text": "Porque genera resistencia bacteriana cruzada en el epitelio bronquial"
+          },
+          {
+            "id": "D",
+            "text": "Porque el salbutamol inhalado ha demostrado ser totalmente inefectivo para revertir el broncoespasmo"
+          },
+          {
+            "id": "E",
+            "text": "Porque induce fibrosis pulmonar idiopática en personas jóvenes"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La evidencia científica demostró que el uso de SABA en monoterapia sin corticoide inhalado desensibiliza los receptores beta-2 adrenérgicos, incrementa la respuesta hiperreactiva ante alérgenos, aumenta los eosinófilos en la vía aérea y duplica el riesgo de exacerbaciones graves y mortalidad por asma. Por ello, GINA exige que cada vez que se administre un broncodilatador se acompañe de corticoide inhalado."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-10",
+    "title": "Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
+    "perfilCode": "1.05.1.037, 1.05.3.003",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Tuberculosis en Todas sus Formas (Garantía de Acceso, Diagnóstico y Tratamiento)",
+    "keyPoints": [
+      "Sintomático respiratorio: persona con tos y expectoración por ≥ 2 semanas (15 días).",
+      "El GeneXpert MTB/RIF detecta en 2 horas la presencia de M. tuberculosis y la resistencia a Rifampicina.",
+      "Esquema primario estándar: 2 meses de RHZE diario + 4 meses de RH (6 meses totales).",
+      "La TBC meníngea y osteoarticular exige prolongar la terapia a 12 meses (2 RHZE + 10 RH) y asociar corticoides.",
+      "El Etambutol causa neuritis óptica con alteración precoz de la discriminación de colores rojo y verde (discromatopsia).",
+      "La Rifampicina tiñe secreciones y orina de color anaranjado y es un potente inductor hepático del CYP450.",
+      "La Isoniazida produce neuropatía periférica por interferencia con piridoxina; se previene con Vitamina B6 25-50 mg/día.",
+      "En contactos estrechos menores de 5 años y pacientes con VIH, tras descartar enfermedad activa con Rx tórax normal, la Terapia Preventiva con Isoniazida por 6 meses es obligatoria."
+    ],
+    "vignette": "Mujer de 38 años consulta en el CESFAM por 3 semanas de tos productiva, febrícula vespertina de hasta 37.8 °C, diaforesis nocturna y baja ponderal no intencionada de 4 kg. La baciloscopía seriada de expectoración demuestra bacilos ácido-alcohol resistentes (+++) y el GeneXpert MTB/RIF detecta M. tuberculosis sin mutación de resistencia a rifampicina. Se notifica de inmediato al PROCET y se inicia tratamiento directamente observado con esquema RHZE diario. A las 3 semanas de terapia consulta refiriendo orina de color anaranjado brillante y parestesias dolorosas en dedos de ambos pies.",
+    "explicacion": "La coloración anaranjada de la orina y fluidos es un efecto adverso inocuo, esperado y benigno de la Rifampicina que no constituye daño renal ni hepático y no amerita suspender el fármaco. Las parestesias y disestesias distales en extremidades inferiores corresponden a una neuropatía periférica por Isoniazida, ocasionada por la inhibición competitiva de la activación de piridoxina (vitamina B6). La conducta médica obligatoria es indicar suplementación con Piridoxina (vitamina B6) oral en dosis de 25 a 50 mg/día, manteniendo la terapia antituberculosa sin interrupción si las pruebas hepáticas son satisfactorias.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 45 años diagnosticado de tuberculosis pulmonar bacilífera inicia tratamiento con el esquema estándar RHZE bajo supervisión directa. A las 4 semanas de tratamiento consulta refiriendo disminución progresiva de la agudeza visual y dificultad para distinguir las luces del semáforo, refiriendo ver los colores deslavados. ¿Cuál de los fármacos del esquema es el responsable más probable de este cuadro?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Isoniazida"
+          },
+          {
+            "id": "B",
+            "text": "Rifampicina"
+          },
+          {
+            "id": "C",
+            "text": "Etambutol"
+          },
+          {
+            "id": "D",
+            "text": "Pirazinamida"
+          },
+          {
+            "id": "E",
+            "text": "Estreptomicina"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El etambutol es el responsable clásico de la neuritis óptica retrobulbar, un efecto adverso dosis-dependiente que se manifiesta por disminución de la agudeza visual central, escotomas centrales y la característica pérdida precoz de la discriminación de los colores rojo y verde (discromatopsia). Ante la aparición de estos síntomas se debe suspender inmediatamente el etambutol y evaluar por oftalmología."
+      },
+      {
+        "stem": "¿Cuál es la definición operacional chilena de \"Sintomático Respiratorio\" establecida por el Programa de Control y Eliminación de la Tuberculosis (PROCET) del MINSAL para la pesquisa activa de casos?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Todo paciente con fiebre de origen desconocido por más de 7 días"
+          },
+          {
+            "id": "B",
+            "text": "Toda persona que presenta tos con expectoración durante 2 semanas (15 días) o más"
+          },
+          {
+            "id": "C",
+            "text": "Cualquier persona con disnea de esfuerzo progresiva independiente del tiempo"
+          },
+          {
+            "id": "D",
+            "text": "Todo paciente con hemoptisis franca independiente de la duración"
+          },
+          {
+            "id": "E",
+            "text": "Cualquier contacto intradomiciliario con tos de más de 48 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El Programa Nacional de Control y Eliminación de la Tuberculosis (PROCET) de Chile define de manera estricta y operativa al \"Sintomático Respiratorio\" como toda persona que presenta tos con expectoración por 15 días o más (≥ 2 semanas). En toda persona que cumpla este criterio es una obligación de salud pública solicitar de inmediato dos muestras de esputo para baciloscopía y estudio molecular (GeneXpert)."
+      },
+      {
+        "stem": "Un paciente de 52 años en su tercera semana de tratamiento con esquema RHZE por tuberculosis pulmonar consulta para control de exámenes rutinarios. Se encuentra completamente asintomático, sin ictericia ni coluria. El perfil hepático demuestra GOT (AST) 95 UI/L y GPT (ALT) 110 UI/L (valor basal previo al tratamiento: 25 UI/L; límite superior normal del laboratorio: 40 UI/L). Bilirrubina total y fosfatasas alcalinas dentro de límites normales. ¿Cuál es la conducta médica más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suspender de inmediato todo el esquema antituberculoso y derivar a trasplante hepático"
+          },
+          {
+            "id": "B",
+            "text": "Mantener el esquema RHZE inalterado y repetir pruebas de función hepática en 1 a 2 semanas con estricta vigilancia clínica"
+          },
+          {
+            "id": "C",
+            "text": "Suspender únicamente la pirazinamida e iniciar ácido ursodesoxicólico"
+          },
+          {
+            "id": "D",
+            "text": "Reemplazar rifampicina por ciprofloxacino en forma inmediata"
+          },
+          {
+            "id": "E",
+            "text": "Reducir la dosis de isoniazida a la mitad y dar de alta del programa"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Una elevación transitoria y asintomática de transaminasas ocurre en hasta el 20% de los pacientes que inician fármacos antituberculosos. Los consensos del PROCET y las guías internacionales establecen que SOLO se suspende el tratamiento si las transaminasas superan 5 veces el límite superior normal en pacientes asintomáticos (en este caso > 200 UI/L, encontrándose en 110 UI/L, es decir < 3 veces), o si superan 3 veces el límite superior normal acompañadas de síntomas clínicos de hepatitis (náuseas, vómitos, dolor abdominal, ictericia). Por tanto, la conducta correcta es mantener el esquema y monitorizar con nuevo perfil hepático."
+      },
+      {
+        "stem": "Se diagnostica tuberculosis pulmonar bacilífera (BK +++) a un hombre de 34 años. Entre sus contactos intradomiciliarios vive su hijo de 3 años, quien se encuentra asintomático. Se le realiza radiografía de tórax frontal y lateral, la cual es estrictamente normal, y una prueba de tuberculina (PPD) que arroja una induración de 12 mm. ¿Cuál es la conducta indicada en el niño según la norma técnica del PROCET?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Observación clínica exclusiva y citar a control solo si presenta tos por más de 15 días"
+          },
+          {
+            "id": "B",
+            "text": "Indicar Terapia Preventiva de la Tuberculosis con Isoniazida oral durante 6 meses"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar esquema curativo completo con cuatro drogas (RHZE) por 6 meses"
+          },
+          {
+            "id": "D",
+            "text": "Revacunación inmediata con vacuna BCG en dosis de refuerzo"
+          },
+          {
+            "id": "E",
+            "text": "Aislamiento respiratorio estricto en habitación individual durante 6 semanas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En todo contacto intradomiciliario menor de 5 años expuesto a un caso índice con tuberculosis pulmonar activa, una vez descartada la enfermedad activa (ausencia de síntomas y radiografía de tórax normal), está formalmente indicada la Terapia Preventiva de la Tuberculosis (TPT / quimioprofilaxis) con Isoniazida 10 mg/kg/día por 6 meses. La presencia de PPD ≥ 5 mm (en este caso 12 mm) confirma infección latente por M. tuberculosis, con altísimo riesgo de progresión rápida a formas graves como meningitis tuberculosa o TBC miliar en menores de 5 años si no reciben TPT."
+      }
+    ]
+  }
+]

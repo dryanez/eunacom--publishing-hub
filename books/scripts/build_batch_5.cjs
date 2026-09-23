@@ -1,0 +1,693 @@
+const fs = require('fs');
+const path = require('path');
+
+const batch5Questions = [
+  {
+    id: "B5-Q01",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Monoartritis Aguda: Enfrentamiento Clínico y Estudio de Líquido Sinovial",
+    perfilCode: "1.04.2.007",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Sospecha y confirmación de urgencia · Derivación prioritaria si sospecha séptica"
+    },
+    stem: "Hombre de 63 años, con antecedentes de hipertensión arterial y enfermedad renal crónica etapa 3a, consulta en el servicio de urgencia por un cuadro de 12 horas de evolución de dolor de inicio súbito, aumento de volumen y calor local intenso en la rodilla derecha, que le impide completamente la bipedestación y el apoyo. Al examen físico: PA 148/86 mmHg, FC 92 lpm, FR 18 rpm, T° 38,1 °C axilar. La rodilla derecha presenta eritema cutáneo, aumento de volumen a tensión con signo del choque rotuliano francamente positivo, marcado aumento de temperatura local y dolor exquisito a la palpación y a la movilización activa y pasiva mínima. La piel suprayacente está íntegra, sin celulitis ni soluciones de continuidad. ¿Cuál es la conducta médica inmediata más adecuada para este paciente?",
+    options: [
+      {
+        id: "A",
+        text: "Iniciar de inmediato analgesia endovenosa con ketorolaco y solicitar niveles plasmáticos de ácido úrico para confirmar gota antes de punzar."
+      },
+      {
+        id: "B",
+        text: "Iniciar tratamiento empírico con ceftriaxona 2 g endovenosa y coordinar evaluación ambulatoria por reumatología en 72 horas."
+      },
+      {
+        id: "C",
+        text: "Infiltrar la articulación con acetónido de triamcinolona y lidocaína al 2% para lograr alivio sintomático y desinflamación rápida."
+      },
+      {
+        id: "D",
+        text: "Realizar artrocentesis diagnóstica para análisis citoquímico, tinción de Gram, cultivo y microscopía óptica con luz polarizada antes de administrar antimicrobianos."
+      },
+      {
+        id: "E",
+        text: "Solicitar una resonancia magnética de rodilla de urgencia para descartar osteomielitis y absceso perióstico antes de invadir la articulación."
+      }
+    ],
+    correcta: "D",
+    explicacion: "La opción correcta es la D.\n\nFisiopatología y Estándar de Oro Clínico: Toda monoartritis aguda con signos inflamatorios y fiebre debe considerarse una artritis séptica hasta demostrar lo contrario. La artritis séptica es una verdadera urgencia médica y traumatológica, ya que las enzimas proteolíticas bacterianas y leucocitarias pueden destruir de forma irreversible el cartílago articular en menos de 24 a 48 horas. La regla de oro inaplazable es realizar una artrocentesis diagnóstica urgente previa al inicio de cualquier antibiótico o antiinflamatorio, con el fin de obtener líquido sinovial para: 1) recuento celular y citoquímico (líquido séptico: > 50.000 leucocitos/mm³ con > 90% PMN y glucosa < 50% de la plasmática); 2) tinción de Gram y cultivos bacterianos (estándar para guiar terapia antimicrobiana dirigida); y 3) microscopía óptica con luz polarizada para pesquisar microcristales (urato monosódico o pirofosfato cálcico). La administración previa de antibióticos esteriliza el cultivo en un alto porcentaje y dificulta el diagnóstico definitivo.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El ácido úrico plasmático durante una crisis gotosa aguda puede encontrarse normal o incluso bajo en hasta un 30-40% de los pacientes por excreción urinaria facilitada por el estrés inflamatorio; además, diferir la punción en un paciente febril con derrame articular a tensión arriesga destrucción articular irreversible si se trata de un cuadro séptico. Asimismo, los AINEs potentes como ketorolaco están contraindicados de entrada en enfermedad renal crónica.\n- Opción B es incorrecta: Indicar antibióticos antes de la artrocentesis disminuye drásticamente el rendimiento diagnóstico del Gram y cultivo de líquido sinovial. Además, la artritis séptica requiere hospitalización inmediata para eventual drenaje articular quirúrgico (artrotomía o artroscopía) y nunca manejo ambulatorio.\n- Opción C es incorrecta: La infiltración intraarticular con corticoides está terminantemente contraindicada ante la sospecha de artritis séptica, dado que la inmunosupresión local masiva aceleraría la replicación bacteriana, sepsis y destrucción articular catastrófica.\n- Opción E es incorrecta: La resonancia magnética no es el examen de primera línea en la urgencia para monoartritis aguda y solo retrasaría la artrocentesis diagnóstica y el drenaje articular urgente."
+  },
+  {
+    id: "B5-Q02",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Artritis Reumatoide: Fisiopatología, Criterios ACR/EULAR 2010 y Manifestaciones Extraarticulares",
+    perfilCode: "1.05.1.002",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Completo",
+      ges: "Garantía Explícita en Salud (GES): Artritis Reumatoide en personas de 15 años y más · Confirmación y tratamiento completo"
+    },
+    stem: "Mujer de 54 años con diagnóstico de artritis reumatoide seropositiva (anti-CCP y factor reumatoide positivos a títulos altos) de 8 años de evolución, con deformidades en cuello de cisne y nódulos subcutáneos en codos, en tratamiento irregular con metotrexato. Consulta por cuadro de 3 semanas de disnea progresiva de esfuerzo y dolor torácico en hemitórax derecho de características pleuríticas, sin fiebre ni expectoración. Al examen físico destaca abolición del murmullo pulmonar y matidez en la base pulmonar derecha. La radiografía de tórax confirma un derrame pleural derecho moderado sin condensaciones parenquimatosas. Se realiza una toracocentesis diagnóstica que extrae líquido citrino ligeramente turbio con las siguientes características: proteínas 4,9 g/dL (relación pleura/suero > 0,5), LDH 1.250 U/L (relación pleura/suero > 0,6), pH 7,12, recuento leucocitario de 3.200 células/mm³ con 75% de mononucleares, adenosina deaminasa (ADA) 18 U/L (valor de referencia < 40 U/L), tinción de Gram y cultivos negativos, y glucosa en líquido pleural de 14 mg/dL (glicemia plasmática simultánea 96 mg/dL). ¿Cuál es el diagnóstico más probable del derrame pleural?",
+    options: [
+      {
+        id: "A",
+        text: "Tuberculosis pleural activa."
+      },
+      {
+        id: "B",
+        text: "Pleuritis reumatoide (derrame pleural reumatoide)."
+      },
+      {
+        id: "C",
+        text: "Empiema bacteriano complicado por Streptococcus pneumoniae."
+      },
+      {
+        id: "D",
+        text: "Derrame pleural neoplásico secundario a adenocarcinoma pulmonar."
+      },
+      {
+        id: "E",
+        text: "Derrame pleural trasudativo por insuficiencia cardíaca descompensada."
+      }
+    ],
+    correcta: "B",
+    explicacion: "La opción correcta es la B.\n\nFisiopatología y Criterios Diagnósticos: La afección pleural es la manifestación extraarticular pulmonar más frecuente de la artritis reumatoide (AR), presentándose predominantemente en pacientes con enfermedad seropositiva de larga data, títulos elevados de factor reumatoide/anti-CCP y presencia de nódulos reumatoides subcutáneos. El líquido pleural reumatoide presenta una tríada patognomónica muy característica: 1) es un exudado con LDH marcadamente elevada (a menudo > 1.000 U/L); 2) pH ácido (< 7,20); y 3) niveles de glucosa extremadamente bajos, frecuentemente inferiores a 30 mg/dL o incluso indetectables (< 15-20 mg/dL), secundario a un bloqueo selectivo en el transporte activo de glucosa a través de la membrana pleural intensamente engrosada e inflamada por tejido sinovial semejante al pannus, sumado al consumo celular aumentado.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La tuberculosis pleural cursa típicamente con niveles de ADA marcadamente elevados (> 40 U/L) y predominio linfocítico, pero la glucosa pleural rara vez desciende por debajo de 30 mg/dL (suele estar entre 60 y 90 mg/dL). El ADA de 18 U/L descarta con alto valor predictivo negativo la etiología tuberculosa.\n- Opción C es incorrecta: Aunque el empiema cursa con pH bajo y glucosa consumida por bacterias, se caracteriza por un líquido purulento franco, con leucocitosis masiva (> 50.000 células/mm³) a predominio marcadamente polimorfonuclear (> 90%), y suele presentar tinción de Gram positiva o cuadro séptico evidente con fiebre alta y condensación lobar previa.\n- Opción D es incorrecta: El derrame neoplásico típicamente no consume la glucosa a niveles tan extremos (salvo en estadios agónicos con carga tumoral masiva) y la citología exfoliativa demostraría células malignas atípicas.\n- Opción E es incorrecta: La insuficiencia cardíaca produce un trasudato (criterios de Light negativos: proteínas < 3 g/dL, relación pleura/suero < 0,5, LDH < 200 U/L) con pH y glucosa estrictamente normales e idénticos a los niveles plasmáticos."
+  },
+  {
+    id: "B5-Q03",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Síndrome Antifosfolípido (SAF): Criterios de Sydney, Trombosis Vascular y Manejo Obstétrico",
+    perfilCode: "1.01.1.006",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Completo",
+      ges: "Garantía GES en Anticoagulación y Patología Reumatológica Asociada · Manejo integral especialista"
+    },
+    stem: "Mujer de 30 años, cursando embarazo de 7 semanas confirmado por ecografía obstétrica transvaginal con embrión viable y latidos cardiofetales presentes. Como antecedentes ginecoobstétricos destacan 3 abortos espontáneos consecutivos y no explicados a las 8, 9 y 8 semanas de gestación en los últimos cuatro años, sin antecedentes de trombosis venosa profunda ni arterial. Un estudio inmunológico realizado 5 meses antes y confirmado a las 14 semanas de intervalo demostró la presencia persistente de anticoagulante lúpico positivo y anticuerpos anticardiolipina IgG en títulos altos (68 GPL). La paciente no tiene otros antecedentes mórbidos. ¿Cuál es el tratamiento farmacológico de elección indicado para prevenir nuevas pérdidas reproductivas durante el embarazo actual?",
+    options: [
+      {
+        id: "A",
+        text: "Ácido acetilsalicílico en dosis bajas (100 mg/día) asociado a heparina de bajo peso molecular en dosis profiláctica (enoxaparina 40 mg/día sc) durante toda la gestación."
+      },
+      {
+        id: "B",
+        text: "Acenocumarol oral ajustado para mantener un INR entre 2,0 y 3,0 hasta la semana 36 de gestación."
+      },
+      {
+        id: "C",
+        text: "Prednisona oral 20 mg/día en monoterapia hasta el término del primer trimestre."
+      },
+      {
+        id: "D",
+        text: "Rivaroxabán 20 mg/día por vía oral asociado a ácido fólico 5 mg/día."
+      },
+      {
+        id: "E",
+        text: "Ácido acetilsalicílico 100 mg/día en monoterapia exclusiva desde el segundo trimestre."
+      }
+    ],
+    correcta: "A",
+    explicacion: "La opción correcta es la A.\n\nFisiopatología y Guías Clínicas: La paciente cumple estrictamente los criterios diagnósticos de Sydney para Síndrome Antifosfolípido Obstétrico: criterio clínico (≥ 3 abortos espontáneos consecutivos no explicados antes de la 10ª semana de gestación) sumado al criterio de laboratorio (anticoagulante lúpico y anticuerpos anticardiolipina IgG en títulos moderados/altos confirmados en dos determinaciones separadas por al menos 12 semanas). El estándar de tratamiento validado internacionalmente y por el Ministerio de Salud de Chile para mujeres con SAF obstétrico puro (sin eventos trombóticos previos) es la combinación de Ácido Acetilsalicílico (AAS) a dosis bajas (81-100 mg/día) iniciado previo a la concepción o apenas se confirma el embarazo, asociado a Heparina de Bajo Peso Molecular (HBPM) en dosis profiláctica (enoxaparina 40 mg/día subcutánea o dalteparina 5.000 UI/día sc). Esta combinación previene la trombosis de la microvasculatura placentaria, modula la invasión trofoblástica y ha demostrado reducir las pérdidas fetales y la preeclampsia, manteniéndose hasta el parto y prolongándose la HBPM por 6 semanas en el puerperio por alto riesgo protrombótico materno.\n\nAnálisis de distractores:\n- Opción B es incorrecta: Los antagonistas de la vitamina K (acenocumarol, warfarina) atraviesan la barrera placentaria y son teratogénicos, causando la embriopatía por warfarina (hipoplasia nasal, condrodisplasia punteada, anomalías del SNC) entre las semanas 6 y 12 de gestación, además de hemorragia fetal masiva; están terminantemente contraindicados en el embarazo.\n- Opción C es incorrecta: Los corticoides sistémicos no previenen el aborto en el SAF obstétrico y aumentan el riesgo materno de diabetes gestacional, hipertensión arterial, preeclampsia e infección, y rotura prematura de membranas.\n- Opción D es incorrecta: Los anticoagulantes orales directos (DOACs como rivaroxabán o apixabán) están contraindicados durante el embarazo por toxicidad fetal y porque el ensayo clínico TRAPS demostró una tasa inaceptable de eventos trombóticos arteriales en pacientes con SAF de alto riesgo inmunológico tratados con rivaroxabán.\n- Opción E es incorrecta: El AAS en monoterapia es insuficiente en pacientes con SAF obstétrico definido con ≥ 3 abortos recurrentes, logrando tasas de éxito marcadamente inferiores que la terapia combinada con HBPM profiláctica."
+  },
+  {
+    id: "B5-Q04",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Espondiloartritis: Concepto Unificador, HLA-B27 y Lumbago Inflamatorio vs Mecánico",
+    perfilCode: "1.05.1.001",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Sin garantía GES específica en generalidad · Manejo en APS y derivación a reumatología"
+    },
+    stem: "Hombre de 26 años, empleado bancario, consulta en el CESFAM por un cuadro de 6 meses de dolor lumbar bajo y en región glútea profunda. Refiere que las molestias se iniciaron de forma lenta e insidiosa. El dolor lo despierta habitualmente alrededor de las 04:30 AM, obligándolo a levantarse de la cama y caminar para poder aliviarlo. Al levantarse presenta una intensa rigidez de columna que dura cerca de 90 minutos y le dificulta vestirse. Conforme inicia su actividad laboral y camina, el dolor y la rigidez disminuyen notablemente; en cambio, los fines de semana, tras periodos prolongados de descanso o siesta en cama, el dolor empeora. En las últimas semanas nota dolorimiento en ambos talones al dar los primeros pasos en la mañana. No refiere traumatismos ni fiebre. Al examen físico: dolor a la palpación de ambas articulaciones sacroilíacas y a la compresión lateral de la pelvis, test de Schöber de 12 cm (basal 10 cm, normal > 15 cm) y dolor a la palpación en la inserción del tendón calcáneo bilateral. Examen neurológico de extremidades inferiores rigurosamente normal. ¿Cuál de las siguientes características clínicas descritas en este paciente es el marcador semiológico cardinal que distingue al lumbago inflamatorio de una afección mecánica?",
+    options: [
+      {
+        id: "A",
+        text: "Aparición de parestesias distales y alivio del dolor al flexionar el tronco hacia adelante."
+      },
+      {
+        id: "B",
+        text: "Dolor nocturno en la segunda mitad de la noche que mejora con la actividad física y empeora con el reposo."
+      },
+      {
+        id: "C",
+        text: "Inicio súbito tras esfuerzo físico y alivio completo e inmediato al acostarse en reposo horizontal en cama."
+      },
+      {
+        id: "D",
+        text: "Irradiación radicular unilateral bajo la rodilla con exacerbación ante maniobras de Valsalva."
+      },
+      {
+        id: "E",
+        text: "Rigidez matinal autolimitada a menos de 15 minutos que se agrava progresivamente con la marcha prolongada."
+      }
+    ],
+    correcta: "B",
+    explicacion: "La opción correcta es la B.\n\nFisiopatología y Semiología Reumatológica: La distinción entre lumbago mecánico y lumbago inflamatorio es un pilar formativo prioritario en el Perfil de Conocimientos EUNACOM 2026. Según los criterios ASAS (Assessment of SpondyloArthritis international Society), el dolor lumbar inflamatorio se define por la presencia de al menos 4 de los siguientes 5 parámetros: 1) edad de inicio menor a 40-45 años; 2) inicio insidioso; 3) mejoría con el ejercicio físico; 4) ausencia de mejoría (o empeoramiento) con el reposo en cama; y 5) dolor nocturno que despierta al paciente en la segunda mitad de la noche obligándolo a deambular. A esto se suma la rigidez matinal prolongada (> 30-60 minutos), el dolor glúteo alternante (que traduce sacroilitis) y la entesitis (talalgia por inserción aquiliana o fascia plantar). Por ende, el dolor nocturno en la segunda mitad de la noche que mejora con el movimiento y empeora con el reposo prolongado es el sello distintivo del dolor inflamatorio por espondiloartritis axial.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El alivio al flectar el tronco ('signo del carrito de supermercado') con parestesias distales es típico del canal lumbar estrecho (claudicación neurogénica), cuadro mecánico degenerativo de pacientes mayores.\n- Opción C es incorrecta: El inicio súbito tras sobrecarga física y el alivio inmediato al adoptar el decúbito en reposo absoluto definen clásicamente al lumbago mecánico muscular o facetario.\n- Opción D es incorrecta: La irradiación radicular dermatómica bajo la rodilla con exacerbación ante Valsalva (tos, estornudo) traduce una lumbociática compresiva radicular por hernia discal (afección mecánica), no una espondiloartritis.\n- Opción E es incorrecta: La rigidez matinal breve (< 15-30 minutos) que empeora a lo largo del día con el uso articular acumulado es característica de la artrosis o discopatía degenerativa mecánica."
+  },
+  {
+    id: "B5-Q05",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Vasculitis de Vaso Grande y Mediano: Arteritis de la Temporal (Células Gigantes / Urgencia Visual) y Arteritis de Takayasu",
+    perfilCode: "1.09.1.008",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Sin garantía GES directa · Urgencia médica oftalmológica y reumatológica de derivación terciaria inmediata"
+    },
+    stem: "Mujer de 73 años, previamente autovalente, consulta en el servicio de urgencia por un cuadro de 4 semanas de cefalea holocránea de predominio frontotemporal derecho, de intensidad progresiva y carácter terebrante, refractaria a paracetamol y tramadol. La paciente refiere marcado dolor en el cuero cabelludo al cepillarse el pelo (hiperestesia epicraneal) y dificultad para alimentarse debido a que, tras masticar pan o carne durante dos minutos, experimenta intenso dolor y fatiga en los músculos mandibulares que la obliga a descansar. En las últimas 18 horas ha presentado dos episodios de oscurecimiento visual monocular transitorio completo en el ojo derecho (amaurosis fugaz), de 3 minutos de duración cada uno, con recuperación posterior. Al examen físico: PA 142/84 mmHg, FC 80 lpm regular, T° 37,3 °C. La arteria temporal derecha se palpa engrosada, tortuosa, nodular, exquisitamente dolorosa y con disminución marcada de su pulso. El fondo de ojo actual es normal. Laboratorio urgente: leucocitos 9.200/mm³, hemoglobina 11,1 g/dL, VHS 92 mm/h, PCR 76 mg/L. ¿Cuál es la conducta médica inmediata más adecuada para esta paciente?",
+    options: [
+      {
+        id: "A",
+        text: "Programar biopsia de arteria temporal derecha de forma ambulatoria y diferir los corticoides para no alterar la anatomía patológica."
+      },
+      {
+        id: "B",
+        text: "Iniciar tratamiento con ácido acetilsalicílico 100 mg/día y solicitar ecografía Doppler de carótidas urgente por sospecha de accidente isquémico transitorio carotídeo aterotrombótico."
+      },
+      {
+        id: "C",
+        text: "Hospitalizar de inmediato e iniciar bolos de metilprednisolona endovenosa (500 a 1.000 mg/día por 3 días) para prevenir la pérdida visual permanente e irreversible."
+      },
+      {
+        id: "D",
+        text: "Iniciar prednisona oral a dosis de 10 mg/día y derivar a policlínico de reumatología para control en dos semanas."
+      },
+      {
+        id: "E",
+        text: "Administrar carbamazepina oral 200 mg cada 12 horas por sospecha de neuralgia del trigémino con irradiación temporal."
+      }
+    ],
+    correcta: "C",
+    explicacion: "La opción correcta es la C.\n\nFisiopatología y Urgencia Médica: La paciente presenta un cuadro clínico paradigmático de Arteritis de Células Gigantes (Arteritis de la Temporal), evidenciado por: edad > 50 años, cefalea temporal nueva y refractaria, engrosamiento con dolor del trayecto de la arteria temporal, claudicación mandibular (el síntoma más específico de esta vasculitis, > 90% de especificidad) y reactantes de fase aguda marcadamente elevados (VHS > 50-90 mm/h). Los episodios de amaurosis fugaz son un signo de alarma roja inminente de Neuropatía Óptica Isquémica Anterior Arterítica (NOIAA) por oclusión trombótica inflamatoria de las arterias ciliares posteriores cortas. La NOIAA provoca ceguera irreversible en horas y en un alto porcentaje compromete el ojo contralateral si no se trata de forma urgente. Ante cualquier síntoma visual en sospecha de arteritis temporal, el tratamiento obligatorio de rescate son los bolos de Metilprednisolona endovenosa a dosis altas (500 a 1.000 mg/día durante 3 días), continuados por prednisona oral 1 mg/kg/día. Jamás debe posponerse la corticoterapia a la espera de la biopsia o ecografía Doppler, ya que el infiltrado histológico transmural persiste analizable hasta por 2 a 4 semanas tras el inicio de los esteroides.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Es el error fatal clásico en EUNACOM. Suspender o retrasar los corticoides a la espera de la biopsia condena al paciente a una pérdida visual permanente e irreversible que no se recupera una vez instalada.\n- Opción B es incorrecta: Si bien la amaurosis fugaz ocurre en patología carotídea aterosclerótica, la presencia de cefalea temporal, engrosamiento arterial local, claudicación mandibular y VHS > 90 mm/h confirman una arteritis temporal; dar solo aspirina sin corticoides conducirá a ceguera.\n- Opción D es incorrecta: La dosis de 10 mg/día de prednisona es una dosis baja utilizada en polimialgia reumática pura sin arteritis temporal. Ante compromiso de arteritis craneal y más aún con amenaza visual, se requieren dosis plenas endovenosas (bolos de 500-1.000 mg/día) o al menos 1 mg/kg/día oral de prednisona si no hay síntomas visuales.\n- Opción E es incorrecta: La neuralgia del trigémino se caracteriza por descargas paroxísticas lancinantes de segundos de duración desencadenadas por estímulos sensitivos cutáneos superficiales en ramas V2-V3, sin engrosamiento arterial, sin claudicación mandibular por isquemia maseterina y con reactantes de fase aguda normales."
+  },
+  {
+    id: "B5-Q06",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Artritis Séptica del Adulto y Protésica: Etiología, Drenaje Urgente y Antimicrobianos",
+    perfilCode: "1.04.2.007",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Sospecha y confirmación de urgencia · Derivación prioritaria si sospecha séptica"
+    },
+    stem: "Mujer de 24 años, sexualmente activa, sin antecedentes mórbidos, consulta en el servicio de urgencia por un cuadro de 4 días de evolución de compromiso del estado general, calofríos y fiebre de hasta 38,6 °C, acompañado de poliartralgias migratorias que afectaron inicialmente rodillas y codos. En las últimas 24 horas el dolor se concentró intensamente en la muñeca izquierda y el tobillo derecho, con aumento de volumen e imposibilidad para caminar. Al examen físico: PA 118/72 mmHg, FC 96 lpm, T° 38,4 °C. En dorso de manos, dedos y antebrazos se observan 5 lesiones cutáneas consistentes en pápulas y pústulas eritemato-hemorrágicas no dolorosas de 3 a 5 mm sobre una base necrótica violácea. En la muñeca izquierda destaca marcada tumefacción, dolor y crepitación al palpar los tendones extensores de los dedos (tenosinovitis). El tobillo derecho presenta derrame articular con calor local y dolor extremo al apoyo. Se realiza artrocentesis de tobillo derecho que da salida a líquido turbio con 44.000 leucocitos/mm³ (87% PMN), con tinción de Gram sin bacterias visibles. ¿Cuál es el diagnóstico más probable y el tratamiento antimicrobiano empírico de elección?",
+    options: [
+      {
+        id: "A",
+        text: "Infección gonocócica diseminada (artritis gonocócica); hospitalizar para Ceftriaxona 1 a 2 g/día endovenosa más Azitromicina 1 g oral en dosis única."
+      },
+      {
+        id: "B",
+        text: "Artritis reactiva post-entérica; dar de alta con reposo y Naproxeno 500 mg cada 12 horas por vía oral."
+      },
+      {
+        id: "C",
+        text: "Endocarditis infecciosa por Streptococcus viridans; iniciar Vancomicina 1 g cada 12 horas endovenosa en monoterapia."
+      },
+      {
+        id: "D",
+        text: "Artritis meningocócica primaria; hospitalizar para tratamiento con Penicilina G sódica a dosis meníngeas por vía endovenosa."
+      },
+      {
+        id: "E",
+        text: "Artritis gotosa tofácea aguda; iniciar Colchicina 1 mg oral de ataque y Alopurinol 300 mg/día."
+      }
+    ],
+    correcta: "A",
+    explicacion: "La opción correcta es la A.\n\nFisiopatología y Manejo Clínico: La paciente presenta la clásica presentación clínica del síndrome artritis-dermatitis por Infección Gonocócica Diseminada (IGD), provocada por cepas hematógenas de Neisseria gonorrhoeae. Es la causa más frecuente de artritis séptica en adultos jóvenes y adolescentes sexualmente activos. La tríada clínica distintiva comprende: 1) tenosinovitis migratoria o aditiva que compromete muñecas, dedos y tobillos; 2) lesiones cutáneas periféricas escasas (pápulas, pústulas o vesículas de base eritematosa con centro hemorrágico/necrótico); y 3) poliartralgias o mono/oligoartritis asimétrica con fiebre. La tinción de Gram del líquido sinovial suele ser negativa en más del 70% de los casos de IGD y los cultivos articulares resultan positivos en menos del 50%, debido a que la fase bacterémica produce daño mediado por complejos inmunes o rápida lisis bacteriana; por ende, un Gram negativo jamás descarta la infección gonocócica. El tratamiento de elección de acuerdo con las guías del MINSAL y de los CDC es Ceftriaxona 1-2 g/día por vía endovenosa (hasta 24-48 horas tras la mejoría clínica, completando 7 días de terapia), asociada a Azitromicina 1 g oral en dosis única para cubrir empíricamente la frecuente coinfección por Chlamydia trachomatis.\n\nAnálisis de distractores:\n- Opción B es incorrecta: La artritis reactiva es una espondiloartritis asimétrica que típicamente ocurre 1 a 4 semanas tras una infección gastrointestinal o genitourinaria, pero la presencia de pústulas hemorrágicas dérmicas acrales, tenosinovitis aguda de muñecas y fiebre alta con líquido articular purulento en una mujer joven es la firma clínica de bacteriemia gonocócica activa que requiere antibióticos parenterales urgentes.\n- Opción C es incorrecta: Aunque la endocarditis puede provocar lesiones cutáneas embólicas (lesiones de Janeway) y artralgias, la tenosinovitis purulenta aguda articular en una mujer joven sexualmente activa es típica de N. gonorrhoeae, no de viridans, y el esquema de primera línea no es vancomicina monoterapia.\n- Opción D es incorrecta: Neisseria meningitidis puede causar artritis y púrpura fulminante, pero el síndrome tenosinovitis-dermatitis pustular en paciente sexualmente activa corresponde a gonococo, frente al cual ceftriaxona es el antibiótico de referencia debido a la resistencia de gonococo a penicilinas.\n- Opción E es incorrecta: La gota es excepcionalmente rara en mujeres premenopáusicas con función renal normal, no produce pústulas cutáneas ni tenosinovitis migratoria de muñecas, y el alopurinol está absolutamente contraindicado durante una crisis aguda."
+  },
+  {
+    id: "B5-Q07",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Artritis Reumatoide: Farmacoterapia, FARME Convencionales, Biológicos y GES",
+    perfilCode: "1.10.1.001",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Completo",
+      seg: "Completo",
+      ges: "Garantía Explícita en Salud (GES): Artritis Reumatoide en personas de 15 años y más · Confirmación y tratamiento completo"
+    },
+    stem: "Mujer de 48 años con diagnóstico confirmado de artritis reumatoide seropositiva y erosiva de 2 años de evolución, en control en policlínico de reumatología. A pesar de haber recibido dosis plenas y optimizadas de metotrexato (25 mg semanales por vía subcutánea asociado a ácido fólico) en combinación con leflunomida (20 mg/día por vía oral) durante 8 meses consecutivos con buena adherencia, la paciente mantiene alta actividad inflamatoria objetivada por un índice DAS28 de 5,6, con 9 articulaciones dolorosas, 6 tumefactas y PCR de 34 mg/L. Su médico reumatólogo tratante decide escalar la terapia farmacológica e indicar un fármaco biológico anti-TNF alfa (adalimumab). De acuerdo con las guías clínicas del MINSAL y normativas internacionales de seguridad, ¿cuál de los siguientes estudios es OBLIGATORIO realizar antes de administrar la primera dosis del agente biológico?",
+    options: [
+      {
+        id: "A",
+        text: "Biopsia de médula ósea para descartar síndrome mielodisplásico subclínico inducido por metotrexato."
+      },
+      {
+        id: "B",
+        text: "Ecocardiograma transtorácico bidimensional para descartar pericarditis constrictiva subclínica."
+      },
+      {
+        id: "C",
+        text: "Tamizaje de infección tuberculosa latente mediante prueba de tuberculina (PPD) o ensayo de liberación de interferón gamma (IGRA) y radiografía de tórax."
+      },
+      {
+        id: "D",
+        text: "Punción lumbar diagnóstica con análisis citoquímico y microbiológico para descartar leucoencefalopatía multifocal progresiva."
+      },
+      {
+        id: "E",
+        text: "Anticuerpos antitiroideos y niveles plasmáticos de tirotropina (TSH) para descartar tiroiditis autoinmune secundaria."
+      }
+    ],
+    correcta: "C",
+    explicacion: "La opción correcta es la C.\n\nFisiopatología y Seguridad Biológica en Guías GES/MINSAL: El factor de necrosis tumoral alfa (TNF-α) es una citoquina clave en la formación y mantención de los granulomas que contienen a Mycobacterium tuberculosis en el organismo humano. El bloqueo farmacológico del TNF-α (con anticuerpos monoclonales como adalimumab, infliximab o receptores solubles como etanercept) induce la lisis del granuloma y aumenta dramáticamente (entre 5 y 25 veces) el riesgo de reactivación de tuberculosis latente, progresando a formas graves, extrapulmonares y diseminadas (miliar o meníngea) potencialmente mortales. Por ello, es una exigencia médico-legal y clínica obligatoria en Chile tamizar a todo paciente previo al inicio de terapias biológicas con: 1) antecedentes epidemiológicos de exposición; 2) radiografía de tórax frontal para descartar secuelas o enfermedad activa; y 3) prueba de tuberculina (PPD, considerándose positivo ≥ 5 mm en este grupo) o ensayo IGRA (QuantiFERON-TB). Si se diagnostica tuberculosis latente, se debe iniciar quimioprofilaxis con Isoniazida (300 mg/día por 9 meses o esquemas asociados) y postergar el inicio del biológico al menos un mes.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La biopsia de médula ósea es un procedimiento invasivo no justificado de rutina; el metotrexato requiere monitorización hematológica con hemograma seriado, no biopsia de médula.\n- Opción B es incorrecta: El ecocardiograma solo se indica si el paciente presenta insuficiencia cardíaca congestiva sintomática (donde los anti-TNF están contraindicados en clases NYHA III-IV), pero no se exige como tamizaje de rutina para pericarditis subclínica en asintomáticos cardiovasculares.\n- Opción D es incorrecta: La punción lumbar es invasiva y absurda como tamizaje en un paciente sin signos meníngeos ni focalidad neurológica; la leucoencefalopatía multifocal progresiva (LMP) es una complicación infecciosa cerebral oportunista muy rara asociada a natalizumab o rituximab, no un cuadro basal a descartar con LCR en asintomáticos.\n- Opción E es incorrecta: La disfunción tiroidea puede coexistir en pacientes con enfermedades autoinmunes, pero su búsqueda no constituye un prerrequisito obligatorio ni condiciona un riesgo vital inmediato al iniciar adalimumab."
+  },
+  {
+    id: "B5-Q08",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Esclerosis Sistémica: Cutánea Difusa (Anti-Scl-70) vs Limitada / CREST (Anti-Centrómero) y Crisis Renal",
+    perfilCode: "1.05.1.004",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Sin garantía GES específica · Derivación a reumatología y manejo multidisciplinario"
+    },
+    stem: "Mujer de 47 años con diagnóstico de esclerosis sistémica variedad cutánea difusa de 2 años de evolución, con anticuerpos anti-topoisomerasa I (anti-Scl-70) positivos en títulos altos, engrosamiento cutáneo que compromete cara, tronco y brazos proximales. Hace 3 semanas inició prednisona oral 30 mg/día prescrita en un centro de urgencias por artralgias difusas y dolor miofascial. Consulta hoy en la urgencia por cefalea occipital pulsátil intensa, náuseas, visión borrosa y disminución marcada del volumen urinario en las últimas 24 horas. Al examen físico: PA 215/120 mmHg (su presión arterial habitual era 110/70 mmHg), FC 96 lpm, afebril. Fondo de ojo con edema de papila bilateral y hemorragias en llama. Exámenes de laboratorio: creatinina plasmática 4,1 mg/dL (basal de 0,8 mg/dL hace un mes), nitrógeno ureico 68 mg/dL, frotis de sangre periférica con abundantes esquistocitos (2,8%), plaquetas 72.000/mm³, LDH 890 U/L y examen de orina con proteinuria ++ y microhematuria con cilindros granulosos. ¿Cuál es el diagnóstico más probable y el fármaco de elección para su manejo inmediato?",
+    options: [
+      {
+        id: "A",
+        text: "Glomerulonefritis lúpica proliferativa difusa; iniciar bolos de metilprednisolona 1.000 mg/día por vía endovenosa."
+      },
+      {
+        id: "B",
+        text: "Púrpura trombocitopénica trombótica primaria; iniciar plasmaféresis de urgencia con reposición de plasma fresco congelado."
+      },
+      {
+        id: "C",
+        text: "Síndrome urémico hemolítico atípico; indicar infusión endovenosa de eculizumab y diálisis inmediata."
+      },
+      {
+        id: "D",
+        text: "Crisis renal esclerodérmica; iniciar de inmediato inhibidores de la enzima convertidora de angiotensina (captopril oral en dosis tituladas)."
+      },
+      {
+        id: "E",
+        text: "Hipertensión renovascular por displasia fibromuscular; programar angioplastia con stent de arteria renal y suspender todo fármaco antihipertensivo."
+      }
+    ],
+    correcta: "D",
+    explicacion: "La opción correcta es la D.\n\nFisiopatología y Manejo Clínico de Urgencia: La paciente presenta una Crisis Renal Esclerodérmica (CRE), una emergencia reumatológica y nefrológica potencialmente mortal que ocurre característicamente en pacientes con Esclerosis Sistémica variedad Cutánea Difusa de inicio reciente (< 3-4 años) y anti-Scl-70 positivo. Se desencadena o precipita con alta frecuencia por el uso de corticoides a dosis moderadas o altas (prednisona > 15 mg/día), los cuales están terminantemente desaconsejados en esta patología. La fisiopatología central es una vasculopatía obliterativa de las arterias interlobulillares renales que genera isquemia cortical severa, hiperreninemia masiva mediada por el aparato yuxtaglomerular e hipertensión arterial maligna acelerada, acompañada de insuficiencia renal oligúrica aguda y microangiopatía trombótica (anemia hemolítica microangiopática con esquistocitos y trombocitopenia de consumo). El tratamiento de elección que cambió radicalmente la sobrevida (de una mortalidad histórica > 85% a una recuperación superior al 70%) es el bloqueo inmediato y potente del eje renina-angiotensina con Inhibidores de la ECA (IECA), específicamente Captopril por vía oral (por su rápido inicio de acción y vida media corta que permite titulación horaria), con metas de normalización gradual de la PA.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Confundir la CRE con una glomerulonefritis lúpica y administrar bolos de corticoides es un error gravísimo y letal, ya que los corticoides a dosis altas perpetúan y empeoran catastróficamente la crisis renal esclerodérmica.\n- Opción B es incorrecta: Aunque cursa con microangiopatía trombótica (esquistocitos y trombocitopenia), se trata de un fenómeno secundario al cizallamiento eritrocitario en arteriolas renales estenosadas por hiperreninemia maligna; la plasmaféresis no tiene utilidad primaria y retrasar los IECA conduce a pérdida irreversible de la función renal y muerte.\n- Opción C es incorrecta: La causa desencadenante en una esclerodermia difusa expuesta a corticoides con crisis hipertensiva es la CRE dependiente de angiotensina II, donde el eculizumab no es la primera línea y su costo/disponibilidad no reemplaza al captopril.\n- Opción E es incorrecta: La displasia fibromuscular es típica de mujeres jóvenes sin esclerodermia ni microangiopatía; no explica la esclerodermia ni la microangiopatía sistémica."
+  },
+  {
+    id: "B5-Q09",
+    specialtyKey: "reumatologia",
+    specialtyName: "Reumatología",
+    topicTitle: "Espondilitis Anquilosante (EA): Sacroilitis Bilateral, Columna en Caña de Bambú y Terapia Anti-TNF",
+    perfilCode: "1.08.1.002",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Derivación a nivel secundario / terciario para confirmación radiológica y terapia biológica"
+    },
+    stem: "Hombre de 27 años, con diagnóstico de espondilitis anquilosante confirmado hace un año por la presencia de dolor lumbar inflamatorio crónico, antígeno HLA-B27 positivo y radiografía de pelvis que demuestra sacroilitis bilateral Grado 3 con esclerosis y erosiones subcondrales. Ha mantenido un estricto programa de kinesiterapia motora y ha recibido sucesivamente tratamiento continuo a dosis máximas de dos AINEs diferentes durante periodos de 6 semanas cada uno (naproxeno 500 mg cada 12 horas e indometacina 50 mg cada 8 horas). A pesar de esto, el paciente persiste con dolor lumbar y dorsal severo, dolor nocturno que interrumpe el sueño a las 04:00 AM y rigidez matinal mayor a 90 minutos, con un índice de actividad BASDAI de 6,8 puntos (alta actividad refractaria, corte ≥ 4) y PCR elevada en 28 mg/L. No presenta artritis periférica ni uveítis activa. ¿Cuál es el paso farmacológico más adecuado a seguir según las guías internacionales ASAS/EULAR y la práctica reumatológica en Chile?",
+    options: [
+      {
+        id: "A",
+        text: "Iniciar metotrexato oral 15 mg semanales asociado a ácido fólico."
+      },
+      {
+        id: "B",
+        text: "Iniciar prednisona oral a dosis de 40 mg/día en pauta descendente durante 6 meses."
+      },
+      {
+        id: "C",
+        text: "Suspender todo fármaco antiinflamatorio y mantener únicamente paracetamol 1 g cada 8 horas."
+      },
+      {
+        id: "D",
+        text: "Derivar para artrodesis quirúrgica lumbar multisegmentaria precoz para prevenir la deformidad cifótica."
+      },
+      {
+        id: "E",
+        text: "Iniciar terapia biológica con un fármaco anti-TNF alfa (como adalimumab o infliximab) previo descarte de tuberculosis latente e infecciones activas."
+      }
+    ],
+    correcta: "E",
+    explicacion: "La opción correcta es la E.\n\nFisiopatología y Recomendaciones Guías ASAS/EULAR: Los AINEs a dosis plenas son la primera línea de tratamiento farmacológico para el compromiso axial de la espondilitis anquilosante. Sin embargo, cuando un paciente presenta enfermedad axial persistentemente activa (definida por BASDAI ≥ 4 puntos o ASDAS ≥ 2,1 y elevación de reactantes de fase aguda) a pesar del uso secuencial de al menos dos AINEs a dosis óptimas durante un mínimo de 4 a 6 semanas cada uno, se considera falla terapéutica o enfermedad axial refractaria. En este escenario, la indicación indiscutida de segunda línea es el inicio de Terapia Biológica con Inhibidores del Factor de Necrosis Tumoral alfa (Anti-TNF, como adalimumab, infliximab, etanercept, golimumab o certolizumab) o inhibidores de la IL-17 (secukinumab), siempre habiendo descartado previamente tuberculosis latente e infecciones crónicas.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Es una de las trampas más frecuentes en el EUNACOM. Los fármacos modificadores de la enfermedad (FARME) convencionales sintéticos, como el metotrexato y la leflunomida, NO han demostrado ninguna eficacia en el compromiso axial de las espondiloartritis (solo tienen algún rol en la artritis periférica asociada); prescribir metotrexato para la columna inflamatoria es inútil y retrasa la terapia biológica efectiva.\n- Opción B es incorrecta: Los corticoides sistémicos orales no tienen indicación en el compromiso axial de la espondilitis anquilosante; su eficacia en la columna es nula o marginal y asocian alta toxicidad a largo plazo (osteopenia severa, riesgo de fracturas vertebrales por aplastamiento).\n- Opción C es incorrecta: El paracetamol es un analgésico puro sin efecto antiinflamatorio que resulta totalmente insuficiente para controlar la inflamación inmunológica mediada por TNF e IL-17 en la entesis y sacroilíacas.\n- Opción D es incorrecta: La cirugía de columna (osteotomía correctora o artrodesis) solo se reserva para complicaciones tardías extremas con grave deformidad en flexión (cifosis fija grave) o fracturas inestables de la columna anquilosada, nunca como manejo de actividad inflamatoria aguda."
+  },
+  {
+    id: "B5-Q10",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Accidente Cerebrovascular Isquémico: Diagnóstico, Ventana Terapéutica, Trombolisis IV (Alteplase/Tenecteplase) y Trombectomía Mecánica GES",
+    perfilCode: "1.10.2.001, 1.10.2.007",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Garantía Explícita en Salud (GES N° 37): Ataque Cerebrovascular Isquémico en personas de 15 años y más · Trombolisis IV en ventana ≤ 4.5 horas y Trombectomía Mecánica en centros de referencia"
+    },
+    stem: "Hombre de 64 años, con antecedentes de hipertensión arterial y tabaquismo activo, es traído al servicio de urgencia por su familia tras presentar de forma brusca pérdida de fuerza en el hemicuerpo izquierdo y dificultad para hablar. El inicio exacto de los síntomas fue presenciado por su esposa hace 2 horas. Al ingreso: PA 165/92 mmHg, FC 84 lpm regular, SatO2 98% ambiental, hemoglucotest 118 mg/dL. Al examen neurológico se constata hemiparesia faciobraquiocrural izquierda severa (fuerza 1/5 en extremidad superior, 2/5 en inferior), hemianopsia homónima izquierda, disartria moderada y negligencia visuoespacial izquierda, totalizando un puntaje en la escala NIHSS de 15 puntos. La tomografía computarizada (TAC) de cerebro sin contraste de urgencia descarta hemorragia intracraneana y muestra un puntaje ASPECTS de 9 (borramiento incipiente de la cinta insular derecha). La angio-TAC cerebral urgente revela una oclusión completa del segmento M1 de la arteria cerebral media derecha. No hay antecedentes quirúrgicos recientes, coagulopatías ni uso de anticoagulantes. ¿Cuál es la estrategia de reperfusión de elección recomendada por las guías clínicas GES N° 37 del MINSAL?",
+    options: [
+      {
+        id: "A",
+        text: "Administrar ácido acetilsalicílico 250 mg vía oral de inmediato y diferir la trombolisis para evitar el riesgo de transformación hemorrágica masiva."
+      },
+      {
+        id: "B",
+        text: "Iniciar inmediatamente trombolisis endovenosa con alteplase (o tenecteplase) y activar de forma paralela el traslado expedito a pabellón de hemodinamia para trombectomía mecánica endovascular ('terapia puente')."
+      },
+      {
+        id: "C",
+        text: "Proceder directamente a trombectomía mecánica endovascular exclusiva, omitiendo la trombolisis endovenosa para evitar toxicidad sistémica."
+      },
+      {
+        id: "D",
+        text: "Iniciar infusión continua de heparina no fraccionada endovenosa con bolo previo para lisar el trombo de la arteria cerebral media."
+      },
+      {
+        id: "E",
+        text: "Esperar 6 horas para repetir el TAC de cerebro y evaluar la extensión definitiva del tejido infartado antes de tomar una decisión terapéutica."
+      }
+    ],
+    correcta: "B",
+    explicacion: "La opción correcta es la B.\n\nFisiopatología y Estándar GES de Reperfusión Cerebral: El tiempo es cerebro (Time is Brain): cada minuto de oclusión arterial cerebral mueren cerca de 1,9 millones de neuronas. El paciente cursa con un infarto cerebral isquémico agudo de circulación anterior con oclusión de gran vaso (segmento proximal M1 de la ACM derecha), dentro de las primeras 4,5 horas de ventana terapéutica (2 horas de evolución), con TAC sin hemorragia, ASPECTS favorable (> 6) y sin contraindicaciones para trombolisis. El estándar de oro internacional y garantizado por el GES N° 37 en Chile para la oclusión de gran vaso en ventana < 4,5 horas es la denominada 'terapia puente' (bridging therapy): se debe iniciar de inmediato la infusión de trombolisis sistémica endovenosa (Alteplase 0,9 mg/kg o Tenecteplase 0,25 mg/kg en bolo) SIN demorar el procedimiento, y simultáneamente coordinar y trasladar al paciente a la sala de hemodinamia / angiografía para realizar trombectomía mecánica con stent retriever o aspiración directa (la cual tiene ventana hasta las 6 horas en forma estándar y hasta las 24 horas seleccionada por neuroimagen avanzada). No se debe esperar a ver si la trombolisis IV funciona para recién activar la trombectomía, ni tampoco omitir la trombolisis si no existen contraindicaciones.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La aspirina está terminantemente prohibida antes de la trombolisis y debe postergarse estrictamente por 24 horas tras la administración de alteplase/tenecteplase (previa confirmación con TAC de control de la ausencia de hemorragia). Dar aspirina de entrada impide la trombolisis y no recanaliza una arteria de gran calibre.\n- Opción C es incorrecta: Los ensayos clínicos aleatorizados (como DIRECT-MT, DEVT, MR CLEAN-NO IV) y las guías MINSAL/AHA confirman que los pacientes elegibles para trombolisis IV deben recibirla antes o durante la preparación de la trombectomía mecánica; omitir la trombolisis IV no demostró superioridad y puede retrasar la recanalización si hay demora en el acceso endovascular.\n- Opción D es incorrecta: La heparina no fraccionada endovenosa en fase aguda del ACV isquémico no ha demostrado mejorar el pronóstico funcional y aumenta significativamente el riesgo de hemorragia intracraneana fatal; no es un tratamiento de reperfusión.\n- Opción E es incorrecta: Esperar horas para ver la evolución del infarto es una negligencia inadmisible; la ventana de salvamento del tejido en penumbra isquémica es hiperaguda y diferir la conducta condena al paciente a hemiplejía definitiva o muerte por edema cerebral masivo."
+  },
+  {
+    id: "B5-Q11",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+    perfilCode: "1.10.1.012",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Completo",
+      seg: "Realizar",
+      ges: "Sin garantía GES directa · Diagnóstico y manejo integral ambulatorio en Atención Primaria de Salud (APS)"
+    },
+    stem: "Mujer de 31 años, profesora de enseñanza básica, consulta en el CESFAM por un cuadro de cefaleas recurrentes desde hace 10 meses. Refiere presentar entre 5 y 6 episodios mensuales de dolor hemicráneo derecho, pulsátil, de intensidad severa (8/10 en EVA), que se agrava con subir escalas o caminar, obligándola a recostarse en una habitación a oscuras y en silencio. Cada crisis se acompaña de náuseas intensas, fotofobia y fonofobia, durando entre 18 y 24 horas si no se médica eficazmente. La paciente ha incrementado el uso de ketoprofeno e ibuprofeno a más de 16 días al mes, notando que el dolor se ha hecho más frecuente e incapacitante. No tiene antecedentes de asma, depresión ni patología cardiovascular. Su examen físico y neurológico es rigurosamente normal (PA 116/74 mmHg, FC 70 lpm). Además de educar a la paciente sobre la deshabituación de los AINEs para evitar la cefalea por sobreuso de medicamentos, ¿cuál es el tratamiento profiláctico farmacológico de primera línea más adecuado para esta paciente?",
+    options: [
+      {
+        id: "A",
+        text: "Propranolol oral en dosis progresivas de 40 a 120 mg/día."
+      },
+      {
+        id: "B",
+        text: "Tartrato de ergotamina 1 mg administrado todas las noches al acostarse."
+      },
+      {
+        id: "C",
+        text: "Paracetamol 1 g cada 8 horas de forma reglada e indefinida."
+      },
+      {
+        id: "D",
+        text: "Pregabalina 150 mg cada 12 horas por vía oral."
+      },
+      {
+        id: "E",
+        text: "Prednisona oral 20 mg/día en pauta continua como terapia de mantención."
+      }
+    ],
+    correcta: "A",
+    explicacion: "La opción correcta es la A.\n\nFisiopatología y Profilaxis de la Migraña en APS: La paciente cumple los criterios de la International Headache Society (IHS) para Migraña episódica sin aura (dolor unilateral pulsátil moderado a severo, empeoramiento con actividad física rutinaria, náuseas, fotofobia y fonofobia, crisis > 4 horas). La profilaxis farmacológica está indicada cuando los pacientes presentan ≥ 3 a 4 crisis al mes, dolor altamente discapacitante o riesgo inminente de cefalea por sobreuso de analgésicos (consumo de AINEs ≥ 15 días/mes o triptanes/ergotamínicos ≥ 10 días/mes). El betabloqueador Propranolol (en dosis inicial de 40 mg/día y titulación progresiva hasta 80-160 mg/día) es un fármaco de primera línea con grado de recomendación A en pacientes jóvenes sin contraindicaciones (como asma bronquial, bloqueo AV, bradicardia o depresión severa). Otros profilácticos validados de primera línea son el topiramato (especialmente si hay sobrepeso), amitriptilina (ideal si coexiste insomnio o cefalea tensional) o flunarizina.\n\nAnálisis de distractores:\n- Opción B es incorrecta: La ergotamina es un fármaco abortivo para crisis agudas y NUNCA debe emplearse como tratamiento preventivo ni administrado diariamente; su uso diario regular provoca cefalea por sobreuso de ergotamínicos, vasoespasmo coronario e isquemia digital severa (ergotismo).\n- Opción C es incorrecta: Indicar paracetamol diario reglado agrava la cefalea por sobreuso de analgésicos y acarrea riesgo de hepatotoxicidad acumulativa, sin tener ninguna propiedad moduladora sobre la sensibilización central del sistema trigeminovascular.\n- Opción D es incorrecta: La pregabalina no es un fármaco de primera línea para profilaxis de migraña (se utiliza en dolor neuropático y fibromialgia); presenta escasa evidencia en jaqueca y asocia somnolencia, aumento de peso y mareos.\n- Opción E es incorrecta: Los corticoides orales continuos están contraindicados en el manejo crónico de la migraña debido a sus graves efectos adversos metabólicos, óseos e inmunológicos; solo se emplean pulsos ultra-breves (3 a 5 días) en el estatus migrañoso refractario de urgencias."
+  },
+  {
+    id: "B5-Q12",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Enfermedad de Parkinson: Criterios Diagnósticos MDS, Terapia con Levodopa y Fluctuaciones Motoras",
+    perfilCode: "1.10.1.006",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Garantía Explícita en Salud (GES N° 59): Enfermedad de Parkinson · Diagnóstico, canasta farmacológica (Levodopa/Carbidopa, Pramipexol) y seguimiento"
+    },
+    stem: "Hombre de 72 años, profesor jubilado, es llevado al consultorio de APS por su hija debido a cambios motores progresivos de 10 meses de evolución. La hija refiere que camina 'arrastrando los pies', con menor balanceo del brazo derecho, y le cuesta abotonarse la camisa o cortar los alimentos. En reposo, mientras ve televisión, presenta un temblor oscilatorio en su mano derecha que semeja 'contar monedas', el cual desaparece transitoriamente cuando extiende la mano para tomar una taza de té. Su esposa menciona que desde hace unos 4 años presenta constipación crónica pertinaz, pérdida del olfato y frecuentes pesadillas nocturnas en las que grita y lanza patadas dormido (trastorno conductual del sueño REM). Al examen físico: facies inexpresiva (hipomimia), voz de tono bajo (hipofonía), marcha con pasos cortos sin braceo derecho, tono muscular con rigidez en rueda dentada asimétrica de predominio en muñeca y codo derechos, y en la maniobra de golpeteo de dedos (finger tapping) se observa lentitud progresiva con fatiga y disminución evidente de la amplitud en mano derecha. Reflejo de enderezamiento conservado y motilidad ocular vertical conservada. Mini-Mental de 28/30. ¿Cuál es el diagnóstico clínico y el tratamiento farmacológico de inicio de elección bajo el marco GES N° 59?",
+    options: [
+      {
+        id: "A",
+        text: "Temblor esencial senil; iniciar tratamiento con Propranolol oral 40 mg cada 12 horas."
+      },
+      {
+        id: "B",
+        text: "Parkinsonismo farmacológico secundario; indicar Biperideno 2 mg cada 8 horas por vía oral."
+      },
+      {
+        id: "C",
+        text: "Enfermedad de Parkinson idiopática; iniciar Levodopa asociada a un inhibidor de la dopa-decarboxilasa (Levodopa/Carbidopa) por vía oral."
+      },
+      {
+        id: "D",
+        text: "Parálisis Supranuclear Progresiva; indicar Haloperidol 1 mg oral para estabilizar los movimientos involuntarios."
+      },
+      {
+        id: "E",
+        text: "Demencia por cuerpos de Lewy; iniciar Memantina 20 mg/día asociada a Risperidona oral."
+      }
+    ],
+    correcta: "C",
+    explicacion: "La opción correcta es la C.\n\nFisiopatología y Diagnóstico según Criterios MDS / GES: El paciente presenta el cuadro cardinal completo de la Enfermedad de Parkinson (EP) idiopática: presencia obligatoria de bradicinesia (disminución progresiva de la velocidad y amplitud del movimiento voluntario repetitivo, objetivado en el finger tapping), asociada a temblor de reposo asimétrico de baja frecuencia (4-6 Hz, en 'cuenta monedas', que atenúa con la acción) y rigidez en 'rueda dentada' asimétrica. Además, asocia los clásicos síntomas premotores no dopaminérgicos que preceden al debut motor por años (hiposmia, constipación grave y trastorno conductual del sueño REM por degeneración temprana de los núcleos del tronco encefálico según la estadificación de Braak). En pacientes mayores de 65 a 70 años, el tratamiento de inicio indiscutido y de mayor potencia para restaurar la función motora es la Levodopa combinada con un inhibidor periférico de la dopa-decarboxilasa (Carbidopa o Benserazida), la cual está plenamente garantizada en la canasta GES N° 59 en Chile.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El temblor esencial es un temblor de acción postural o cinético, típicamente bilateral y simétrico desde el inicio, que no se acompaña de bradicinesia, hipomimia ni rigidez en rueda dentada, y suele mejorar con alcohol y empeorar con la intención.\n- Opción B es incorrecta: El paciente no consume bloqueadores dopaminérgicos. El biperideno es un anticolinérgico que está terminantemente contraindicado en adultos mayores de 65-70 años por el altísimo riesgo de desencadenar deterioro cognitivo grave, delirium, retención aguda de orina y glaucoma de ángulo estrecho.\n- Opción D es incorrecta: La Parálisis Supranuclear Progresiva (PSP) cursa con parálisis de la mirada vertical hacia abajo y caídas precoces tempranas hacia atrás en el primer año, hallazgos ausentes en este paciente; además, el haloperidol bloquea receptores D2 y causaría un empeoramiento extrapyramidal catastrófico.\n- Opción E es incorrecta: La Demencia por Cuerpos de Lewy exige un deterioro cognitivo precoz y fluctuante que antecede o coincide con el parkinsonismo dentro del primer año, con alucinaciones visuales vívidas recurrentes. La risperidona está contraindicada por causar una sensibilidad extrema a neurolépticos con riesgo vital."
+  },
+  {
+    id: "B5-Q13",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Síndrome de Guillain-Barré: Polirradiculoneuropatía Aguda, Albúmino-citológico y Manejo Intensivo",
+    perfilCode: "1.10.2.013",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Sin garantía GES directa · Emergencia neurológica con riesgo de falla ventilatoria aguda; hospitalización inmediata en UCI bajo Ley de Urgencia"
+    },
+    stem: "Hombre de 36 años, sin antecedentes mórbidos relevantes, consulta en el servicio de urgencia por un cuadro de 4 días de evolución caracterizado inicialmente por parestesias y sensación de adormecimiento en los dedos de ambos pies, que ha progresado en las últimas 48 horas a debilidad muscular simétrica ascendente que le dificulta ponerse de pie y subir escalas. En las últimas 12 horas nota dificultad para elevar ambos brazos y para tragar líquidos. Como antecedente refiere un cuadro de diarrea acuosa autolimitada hace 12 días. Al examen físico: PA 152/94 mmHg, FC 102 lpm, FR 24 rpm, T° 36,8 °C, SatO2 96% ambiental. Al examen neurológico: paresia facial periférica bilateral (diplejía facial), tetraparesia flácida simétrica con fuerza muscular 2/5 en extremidades inferiores y 3/5 en superiores, hipoestesia distal en 'bota y guante' y abolición universal completa de los reflejos osteotendinosos (arreflexia rotuliana, aquiliana, bicipital y tricipital: 0/4+). La prueba de conteo espiratorio simple en una sola inspiración es de 12 (valor normal > 25) y la capacidad vital forzada es de 17 mL/kg. ¿Cuál es la conducta terapéutica de elección y qué fármaco se encuentra formalmente CONTRAINDICADO en este cuadro?",
+    options: [
+      {
+        id: "A",
+        text: "Hospitalizar de inmediato en Unidad de Paciente Crítico (UCI) para monitorización ventilatoria e inicio de Inmunoglobulina Humana endovenosa (o plasmaféresis); los corticoides sistémicos están formalmente contraindicados."
+      },
+      {
+        id: "B",
+        text: "Hospitalizar en sala básica de medicina interna para iniciar bolos de Metilprednisolona endovenosa; la plasmaféresis está formalmente contraindicada."
+      },
+      {
+        id: "C",
+        text: "Manejo ambulatorio en domicilio con Piridostigmina oral y reposo absoluto; los relajantes musculares no despolarizantes están contraindicados."
+      },
+      {
+        id: "D",
+        text: "Hospitalización en intermedio quirúrgico e inicio de antibioticoterapia con Ceftriaxona endovenosa; el uso de inmunoglobulina humana está contraindicado en la fase aguda."
+      },
+      {
+        id: "E",
+        text: "Indicar alta con kinesiterapia motora ambulatoria y Prednisona oral 60 mg/día; la intubación orotraqueal está proscrita."
+      }
+    ],
+    correcta: "A",
+    explicacion: "La opción correcta es la A.\n\nFisiopatología y Manejo Intensivo de Urgencia: El paciente presenta un Síndrome de Guillain-Barré (polirradiculoneuropatía desmielinizante inflamatoria aguda - AIDP), gatillado clásicamente por mimetismo molecular post-infeccioso tras una gastroenteritis por Campylobacter jejuni. El sello semiológico obligatorio en el examen físico es la debilidad motora simétrica rápidamente ascendente con arreflexia osteotendinosa universal (0/4+). El compromiso bulbar (diplejía facial, disfagia) y el deterioro de la mecánica ventilatoria (capacidad vital forzada < 20 mL/kg o conteo espiratorio simple < 15-20) indican riesgo inminente de falla respiratoria neuromuscular y parada cardiorrespiratoria por disautonomía (taquicardia, labilidad tensional). La conducta inmediata obligatoria es la hospitalización en Unidad de Cuidados Intensivos (UCI) para monitorización estricta de parámetros ventilatorios (regla 20/30/40) e inicio de terapia inmunomoduladora: Inmunoglobulina Humana Endovenosa (IGEV, 0,4 g/kg/día por 5 días) o Plasmaféresis (4 a 5 recambios), ambas con idéntica eficacia. Regla de Oro EUNACOM: Los corticoides sistémicos (orales o endovenosos) NO tienen ninguna eficacia demostrada en el SGB, no aceleran la recuperación e incluso pueden retrasar la regeneración axonal, por lo que están formalmente desaconsejados/contraindicados. Asimismo, en caso de intubación, la Succinilcolina está contraindicada por riesgo de hiperkalemia masiva letal secundaria a denervación aguda.\n\nAnálisis de distractores:\n- Opción B es incorrecta: La metilprednisolona o corticoides sistémicos no son útiles en el SGB y hospitalizar a un paciente con FVC < 20 mL/kg en sala básica pone en riesgo su vida ante la inminencia de paro respiratorio no monitorizado.\n- Opción C es incorrecta: La piridostigmina es el tratamiento sintomático de la miastenia gravis (defecto postsináptico de la placa motora), no tiene efecto en neuropatías desmielinizantes inflamatorias periféricas, y el manejo ambulatorio es letal.\n- Opción D es incorrecta: El SGB es una enfermedad autoinmune post-infecciosa; el antibiótico no trata la neuropatía activa, y la IGEV es el tratamiento de elección, no una contraindicación.\n- Opción E es incorrecta: Dar de alta al paciente y proscribir la intubación cuando presenta insuficiencia ventilatoria neuromuscular inminente constituye una mala praxis médica grave."
+  },
+  {
+    id: "B5-Q14",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Síndrome Confusional Agudo (Delirium): Criterios CAM, Factores Precipitantes y Abordaje Multicomponente",
+    perfilCode: "1.07.2.005",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Hospitalario / Ambulatorio",
+      ges: "Sin garantía GES directa · Emergencia neuropsiquiátrica transversal de máxima prevalencia en servicios médico-quirúrgicos, UPC y urgencias. Marcador independiente de morbimortalidad, institucionalización y declive cognitivo acelerado."
+    },
+    stem: "Hombre de 81 años, con antecedentes de deterioro cognitivo leve y hiperplasia prostática benigna, en su segundo día postoperatorio de una artroplastia total de cadera derecha electiva. Durante la entrega de turno matinal, la enfermera informa que el paciente pasó una noche muy agitada, intentando retirarse la vía venosa periférica, desorientado, con inversión del ciclo sueño-vigilia y alucinaciones visuales ('veía sombras en el techo'). Al evaluar al paciente en la mañana, se encuentra hipoactivo, somnoliento, bradipsíquico, sin lograr mantener la atención (falla en deletrear la palabra 'MUNDO' al revés) y con pensamiento desorganizado al responder con incoherencias. Al examen físico: PA 148/88 mmHg, FC 86 lpm, FR 18 rpm, T° 36,9 °C, SatO2 96% ambiental. A la palpación abdominal destaca dolor en hipogastrio con matidez suprapúbica a la percusión compatible con globo vesical. El residente de cirugía propone de inmediato indicar sujeción física de 4 extremidades y administrar lorazepam 2 mg endovenoso en bolo. ¿Cuál es la conducta médica inicial más adecuada para este paciente?",
+    options: [
+      {
+        id: "A",
+        text: "Aceptar la indicación del residente: instalar sujeción física rígida y administrar lorazepam endovenoso en bolo para controlar la agitación y asegurar el reposo."
+      },
+      {
+        id: "B",
+        text: "Administrar haloperidol 5 mg endovenoso en infusión rápida y solicitar resonancia magnética cerebral de urgencia por sospecha de infarto talámico."
+      },
+      {
+        id: "C",
+        text: "Iniciar de inmediato antibióticos de amplio espectro por vía endovenosa y solicitar punción lumbar para descartar meningitis nosocomial."
+      },
+      {
+        id: "D",
+        text: "Instalar una sonda Foley para aliviar el globo vesical, suspender fármacos con potencial anticolinérgico o sedante, e implementar medidas ambientales de reorientación no farmacológicas (acompañamiento familiar, luz natural, audífonos/lentes), evitando benzodiacepinas y sujeción física."
+      },
+      {
+        id: "E",
+        text: "Indicar traslado inmediato a la Unidad de Cuidados Intensivos e iniciar sedación profunda continua con propofol."
+      }
+    ],
+    correcta: "D",
+    explicacion: "La opción correcta es la D.\n\nFisiopatología y Abordaje Geriátrico Multicomponente: El paciente cumple todos los criterios CAM (Confusion Assessment Method) para Síndrome Confusional Agudo (Delirium): 1) inicio agudo y curso fluctuante; 2) inatención cardinal; sumado a 3) pensamiento desorganizado y 4) alteración del nivel de conciencia (con fluctuación entre subtipo hiperactivo nocturno e hipoactivo diurno). El delirium en el adulto mayor es una urgencia médica y un marcador independiente de mortalidad intrahospitalaria. La regla cardinal en su abordaje es identificar y resolver de inmediato los factores gatillantes reversibles. Dos causas mecánicas clásicas y altamente prevalentes que siempre deben descartarse antes de indicar cualquier psicofármaco son la retención urinaria aguda (globo vesical, facilitado por la cirugía y analgesia opioide) y el fecaloma. La conducta prioritaria consiste en descomprimir la vejiga con cateterismo vesical evacuador, suspender fármacos predisponentes (anticolinérgicos, opioides, sedantes) y aplicar medidas no farmacológicas del protocolo HELP (reorientación ambiental permanente, presencia familiar de soporte, adecuada hidratación, restitución de lentes y audífonos, y conservación del ciclo circadiano luz-oscuridad). Reglas de Oro EUNACOM: Las benzodiacepinas están CONTRAINDICADAS en el delirium (salvo en abstinencia alcohólica/delirium tremens) porque empeoran la desorganización cerebral, provocan sedación excesiva o agitación paradójica y aumentan el riesgo de caídas y broncoaspiración. Asimismo, la sujeción física está proscrita como primera línea porque intensifica el terror del paciente, precipita asfixia, lesiones cutáneas y aumenta la mortalidad.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Usar sujeción física y lorazepam es una pésima práctica médica: el lorazepam perpetúa y agrava el delirium y la sujeción física genera mayor agitación y complicaciones graves.\n- Opción B es incorrecta: La dosis de haloperidol de 5 mg EV es excesiva y peligrosa en un anciano (arriesga prolongación del intervalo QTc, torsades de pointes y parkinsonismo agudo grave); si se requiere haloperidol de rescate por agitación incontrolable con riesgo vital, se usan microdosis de 0,5 a 1 mg oral/sc, nunca de entrada si hay una causa mecánica evidente como el globo vesical.\n- Opción C es incorrecta: Iniciar antibióticos empíricos y punción lumbar sin fiebre, sin rigidez de nuca ni leucocitosis no se justifica en un delirium postoperatorio donde ya se identificó retención urinaria clara.\n- Opción E es incorrecta: La sedación profunda en UCI con propofol es una medida extrema desproporcionada que añadiría iatrogenia (intubación, neumonía asociada a ventilador) para un cuadro que se resuelve al instalar una sonda urinaria."
+  },
+  {
+    id: "B5-Q15",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Ataque Isquémico Transitorio (AIT): Score ABCD2, Estratificación de Riesgo Precoz y Prevención Secundaria",
+    perfilCode: "1.10.2.002",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Garantía Explícita en Salud (GES N° 37): Accidente Isquémico Transitorio · Hospitalización inmediata de pacientes con riesgo moderado a alto (ABCD² ≥ 4) para neuroimagen urgente, ecocardiograma, dúplex carotídeo y prevención secundaria precoz."
+    },
+    stem: "Mujer de 67 años, con antecedentes de diabetes mellitus tipo 2 e hipertensión arterial en tratamiento con enalapril y metformina, consulta en el servicio de urgencia 3 horas después de haber presentado de forma súbita pérdida de fuerza en el brazo y la pierna derechos asociada a dificultad para pronunciar las palabras (disartria). El cuadro duró exactamente 45 minutos y se recuperó íntegramente de manera espontánea antes de llegar al hospital. Al ingreso a la urgencia, la paciente se encuentra completamente asintomática, con examen neurológico rigurosamente normal (NIHSS 0). Al examen físico: PA 156/92 mmHg, FC 78 lpm regular, SatO2 97% ambiental, HGT 148 mg/dL. El electrocardiograma muestra ritmo sinusal normal sin arritmias y la tomografía computarizada (TAC) de cerebro sin contraste descarta hemorragia intracraneana y no evidencia lesiones isquémicas agudas. Considerando la estratificación de riesgo mediante el score ABCD² y las garantías AUGE/GES N° 37 del MINSAL, ¿cuál es el puntaje obtenido, la conducta de derivación hospitalaria y el esquema de prevención secundaria inmediata que corresponde indicar?",
+    options: [
+      {
+        id: "A",
+        text: "Score ABCD² de 2 puntos (bajo riesgo); alta inmediata a domicilio con aspirina 100 mg/día y control ambulatorio en APS en 30 días."
+      },
+      {
+        id: "B",
+        text: "Score ABCD² de 3 puntos (bajo riesgo); derivación a hospital de día para iniciar anticoagulación oral con warfarina sin necesidad de estudio vascular."
+      },
+      {
+        id: "C",
+        text: "Score ABCD² de 4 puntos (riesgo moderado); hospitalización en sala básica para iniciar trombolisis endovenosa con alteplase."
+      },
+      {
+        id: "D",
+        text: "Score ABCD² de 5 puntos (alto riesgo); dar de alta con reposo en domicilio y solicitar resonancia magnética cerebral ambulatoria prioritaria."
+      },
+      {
+        id: "E",
+        text: "Score ABCD² de 6 puntos (alto riesgo); hospitalización inmediata bajo garantía GES para estudio vascular carotídeo urgente e inicio de doble antiagregación plaquetaria con Ácido Acetilsalicílico más Clopidogrel durante 21 días."
+      }
+    ],
+    correcta: "E",
+    explicacion: "La opción correcta es la E.\n\nFisiopatología y Estratificación mediante Score ABCD²: El Ataque Isquémico Transitorio (AIT) es una urgencia médica extrema: hasta un 10-15% de los pacientes presentará un infarto cerebral definitivo en los primeros 90 días, ocurriendo la mitad de estos eventos en las primeras 48 horas tras el AIT. Para predecir este riesgo se utiliza el Score ABCD²:\n1) A (Age / Edad ≥ 60 años): 67 años = 1 punto.\n2) B (Blood Pressure / PA ≥ 140/90 mmHg): 156/92 mmHg = 1 punto.\n3) C (Clinical features / Síntomas clínicos): Paresia unilateral = 2 puntos (si fuera solo habla sin paresia sería 1 punto).\n4) D (Duration / Duración de los síntomas): 45 minutos (rango 10 a 59 minutos) = 1 punto (si fuera ≥ 60 minutos serían 2 puntos).\n5) D (Diabetes mellitus): Presente = 1 punto.\nPuntaje total = 1 + 1 + 2 + 1 + 1 = 6 puntos.\n\nConducta GES y Tratamiento: Un puntaje ABCD² ≥ 4 clasifica al paciente en riesgo moderado-alto (6 puntos confiere un riesgo de ACV a los 2 días superior al 8-10%). La Guía GES N° 37 del MINSAL establece que todo AIT con score ABCD² ≥ 4 requiere HOSPITALIZACIÓN INMEDIATA (en unidad de observación, UTAC o sala de agudos) para neuroimagen, ecocardiograma transtorácico y estudio de vasos de cuello (Dúplex carotídeo o angio-TAC) dentro de las primeras 24-48 horas para detectar estenosis carotídea tributaria de endarterectomía urgente. Asimismo, en AIT no cardioembólico de alto riesgo, los ensayos clínicos CHANCE y POINT demostraron que la Doble Antiagregación Plaquetaria (DAPT) con Ácido Acetilsalicílico (AAS 100 mg/día con carga de 250 mg) más Clopidogrel (75 mg/día con carga de 300 mg) iniciada precozmente y mantenida por exactamente 21 DÍAS, reduce significativamente el riesgo de infarto recurrente comparado con monoterapia, desescalando posteriormente a monoterapia para minimizar riesgo de sangrado.\n\nAnálisis de distractores:\n- Opción A es incorrecta: El cálculo de 2 puntos es erróneo y enviar a domicilio a un AIT de 6 puntos es un error médico de alto riesgo legal; el paciente corre grave riesgo de sufrir un ACV incapacitante en las siguientes 48 horas.\n- Opción B es incorrecta: El puntaje no es 3 y no hay indicación de anticoagulación sin demostrar fibrilación auricular u otra fuente cardioembólica; el AIT aterotrombótico o lacunar se maneja con antiagregantes.\n- Opción C es incorrecta: El cálculo es incorrecto y la trombolisis con alteplase está contraindicada porque los síntomas neurológicos ya se resolvieron por completo (NIHSS 0; no hay déficit persistente que justifique el riesgo hemorrágico de un fibrinolítico).\n- Opción D es incorrecta: El cálculo es de 6 puntos, no de 5, y el manejo ambulatorio con RM diferida está formalmente contraindicado ante un score de alto riesgo."
+  },
+  {
+    id: "B5-Q16",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Cefalea en Racimos (Cluster) y Neuralgia del Trigémino: Diagnóstico Diferencial, Manejo Agudo y Preventivo",
+    perfilCode: "1.10.1.013",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Completo",
+      seg: "Realizar",
+      ges: "Derivación Oportuna a Especialidad · Identificación precoz de síndromes de dolor neuropático craneofacial paroxístico y derivación a neurología/neurocirugía en refractariedad."
+    },
+    stem: "Hombre de 34 años, fumador activo de 15 cigarrillos al día, consulta en el servicio de urgencia a las 03:30 AM en un estado de evidente angustia y agitación psicomotora, deambulando por el pasillo y presionándose con el puño la órbita izquierda. Refiere que desde hace dos semanas presenta episodios diarios de dolor atroz, terebrante, estrictamente unilateral en la región periorbitaria y temporal izquierda, de 45 a 60 minutos de duración, que lo despiertan habitualmente en la madrugada. Al examen físico durante el ataque se constata dolor exquisito a la palpación ocular izquierda, acompañada de inyección conjuntival marcada, lagrimeo profuso ipsilateral, congestión nasal con rinorrea acuosa izquierda, y ptosis palpebral con miosis ipsilateral leve (síndrome de Horner parcial transitorio). El ojo derecho y el resto del examen neurológico son normales. ¿Cuál es el diagnóstico más probable y el tratamiento abortivo de rescate inmediato de primera línea?",
+    options: [
+      {
+        id: "A",
+        text: "Migraña común sin aura; administrar paracetamol 1 g endovenoso asociado a metoclopramida 10 mg endovenosa."
+      },
+      {
+        id: "B",
+        text: "Cefalea en racimos (Cluster headache o cefalea de Horton); administrar oxígeno al 100% mediante mascarilla con reservorio a 12-15 L/min durante 15 minutos asociado a Sumatriptán 6 mg por vía subcutánea."
+      },
+      {
+        id: "C",
+        text: "Neuralgia del trigémino (rama V1); iniciar carbamazepina oral 200 mg cada 12 horas e infiltrar el nervio supraorbitario con bupivacaína."
+      },
+      {
+        id: "D",
+        text: "Glaucoma agudo de ángulo cerrado; administrar manitol al 20% endovenoso en bolo e instilar colirio de pilocarpina al 2%."
+      },
+      {
+        id: "E",
+        text: "Cefalea tensional episódica; indicar ketorolaco 30 mg endovenoso asociado a diazepam 5 mg por vía intramuscular."
+      }
+    ],
+    correcta: "B",
+    explicacion: "La opción correcta es la B.\n\nFisiopatología y Diagnóstico Diferencial: El cuadro clínico es patognomónico de una Cefalea en Racimos (Cluster headache, también llamada cefalea en cúmulos o de Horton), arquetipo de las cefaleas trigémino-autonómicas. Afecta con mayor frecuencia a varones jóvenes fumadores y se caracteriza por: 1) dolor estrictamente unilateral periorbitario/temporal de intensidad atroz e insoportable ('dolor del suicidio'); 2) duración de 15 a 180 minutos; 3) periodicidad circadiana nocturna fija (despierta al paciente durante la fase de sueño REM en la madrugada); 4) síntomas autonómicos parasimpáticos craneofaciales ipsilaterales obligatorios (inyección conjuntival, epífora/lagrimeo, congestión nasal, rinorrea, edema palpebral y síndrome de Horner transitorio con ptosis y miosis por paresia simpática carotídea); y 5) agitación psicomotora distintiva (el paciente deambula, se golpea o balancea, en contraste con el paciente con migraña que prefiere permanecer inmóvil a oscuras).\n\nTratamiento Abortivo Agudo: El tratamiento de rescate de elección para el ataque agudo es la inhalación de Oxígeno normobárico al 100% a alto flujo (12 a 15 L/minutos) a través de una mascarilla facial con bolsa de no reinhalación (reservorio) durante 15 minutos (logra vasoconstricción cerebral mediada por hiperoxia y supresión del reflejo trigeminovascular en > 75% de los pacientes), asociado a Sumatriptán 6 mg por vía subcutánea (los triptanes orales no sirven por inicio de acción tardío). Para la prevención de mantenimiento, el fármaco de elección es el Verapamilo a dosis altas.\n\nAnálisis de distractores:\n- Opción A es incorrecta: La migraña dura 4 a 72 horas, cursa con náuseas y fotofobia, mejora con el reposo en cama a oscuras (no con deambulación agitada) y no asocia el marcado cortejo autonómico unilateral parasimpático del racimo.\n- Opción C es incorrecta: La neuralgia del trigémino se manifiesta por paroxismos lancinantes ultra-breves de segundos de duración que afectan predominantemente las ramas V2 y V3 desencadenados por el roce cutáneo, no cursa con inyección conjuntival, lagrimeo ni síndrome de Horner, y no dura 60 minutos continuos.\n- Opción D es incorrecta: El glaucoma agudo cursa con midriasis media arrefléctica (no miosis), ojo rojo profundo ciliar y córnea opaca edematosa con presión intraocular marcadamente elevada (> 40-50 mmHg), sin congestión nasal ni rinorrea.\n- Opción E es incorrecta: La cefalea tensional es bilateral, de intensidad leve a moderada, opresiva ('en casco'), sin cortejo vegetativo autonómico y jamás genera dolor atroz con agitación nocturna."
+  },
+  {
+    id: "B5-Q17",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Parkinsonismos Secundarios, Farmacológicos y Síndromes Parkinson-Plus",
+    perfilCode: "1.10.1.006",
+    legalLevel: {
+      dx: "Sospecha",
+      tx: "Inicial",
+      seg: "Derivar",
+      ges: "Derivación preferente a nivel secundario ante banderas rojas de parkinsonismo atípico (parálisis de la mirada vertical, caídas precoces, disautonomía severa precoz o nula respuesta a Levodopa)."
+    },
+    stem: "Mujer de 74 años, con antecedentes de hipertensión arterial tratada con enalapril y dispepsia funcional recurrente. Es traída a la consulta médica por sus hijos debido a un cuadro de 7 semanas de evolución caracterizado por lentitud generalizada para caminar, inestabilidad de la marcha y temblor fino de ambas manos. Al revisar la historia farmacológica, se constata que hace dos meses consultó en un servicio de urgencias por náuseas y distensión gástrica, donde le indicaron metoclopramida 10 mg oral antes de las comidas, fármaco que ha seguido tomando rigurosamente 3 veces al día de forma ininterrumpida. Al examen físico: facie inexpresiva con parpadeo disminuido, marcha a pasos cortos pero sin congelamiento, temblor postural y de reposo simétrico y bilateral en extremidades superiores, y marcada rigidez muscular con signo de la rueda dentada simétrica y bilateral en ambos codos y muñecas. No presenta caídas previas, la mirada vertical está conservada y no hay signos cerebelosos ni piramidales. Mini-Mental de 29/30. ¿Cuál es el diagnóstico clínico más probable y la conducta terapéutica inicial más adecuada?",
+    options: [
+      {
+        id: "A",
+        text: "Enfermedad de Parkinson idiopática; iniciar Levodopa/Carbidopa oral manteniendo la metoclopramida para prevenir las náuseas inducidas por dopamina."
+      },
+      {
+        id: "B",
+        text: "Parálisis Supranuclear Progresiva; indicar hospitalización urgente e iniciar bolos de corticoides endovenosos."
+      },
+      {
+        id: "C",
+        text: "Atrofia Multisistémica; solicitar resonancia magnética cerebral e iniciar de inmediato agonistas dopaminérgicos como pramipexol a dosis plenas."
+      },
+      {
+        id: "D",
+        text: "Temblor parkinsoniano psicógeno; derivar a psiquiatría e iniciar sertralina asociada a psicoterapia."
+      },
+      {
+        id: "E",
+        text: "Parkinsonismo farmacológico secundario inducido por metoclopramida; suspender de inmediato la metoclopramida y reevaluar la evolución clínica en las semanas posteriores."
+      }
+    ],
+    correcta: "E",
+    explicacion: "La opción correcta es la E.\n\nFisiopatología y Sospecha de Parkinsonismo Secundario: El parkinsonismo inducido por fármacos es la causa más frecuente de parkinsonismo secundario y el segundo síndrome parkinsoniano más prevalente en la práctica médica después de la Enfermedad de Parkinson idiopática. Los fármacos bloqueadores de los receptores dopaminérgicos D2 atraviesan la barrera hematoencefálica y antagonizan la vía nigroestriatal. En la práctica clínica chilena, los fármacos más frecuentemente culpables en adultos mayores son los antieméticos proquinéticos (Metoclopramida, Sulpirida), los neurolépticos/antipsicóticos (Haloperidol, Risperidona, Olanzapina) y los bloqueadores de canales de calcio con acción anti-dopaminérgica como Flunarizina y Cinarizina (usados erróneamente para el 'vértigo' crónico). A diferencia de la Enfermedad de Parkinson idiopática (que debuta de manera insidiosa y estrictamente asimétrica y unilateral), el parkinsonismo farmacológico se caracteriza por un debut subagudo (semanas o meses tras el inicio del fármaco) con manifestaciones típicamente bilaterales y simétricas (rigidez y bradicinesia simétrica) y temblor que suele ser postural y cinético más que de reposo puro. La conducta mandatoria, resolutiva y de primera línea es la SUSPENSIÓN INMEDIATA del fármaco causal. En la gran mayoría de los pacientes, los síntomas remiten gradualmente en un lapso de semanas a meses (habitualmente en 1 a 4 meses).\n\nAnálisis de distractores:\n- Opción A es incorrecta: Confundir este cuadro con Enfermedad de Parkinson e iniciar Levodopa mientras se mantiene la metoclopramida es un grave error; la metoclopramida bloquea los receptores dopaminérgicos y anulará el efecto de la levodopa, además de mantener la causa subyacente del cuadro.\n- Opción B es incorrecta: La Parálisis Supranuclear Progresiva no se relaciona con metoclopramida, cursa con parálisis supranuclear de la mirada vertical inferior y caídas hacia atrás precoces, y no responde a corticoides.\n- Opción C es incorrecta: La Atrofia Multisistémica es una sinucleinopatía neurodegenerativa que cursa con disautonomía severa precoz (hipotensión ortostática grave, vejiga neurogénica), estridor laríngeo o ataxia cerebelosa; no guarda relación causal con la metoclopramida y el pramipexol no es curativo.\n- Opción D es incorrecta: El paciente tiene signos motores extrapiramidales objetivos (rigidez en rueda dentada real, bradicinesia demostrable) atribuibles directamente a un fármaco proquinético antidopaminérgico probado; no es un trastorno conversivo ni psicógeno."
+  },
+  {
+    id: "B5-Q18",
+    specialtyKey: "neurologia",
+    specialtyName: "Neurología y Geriatría",
+    topicTitle: "Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+    perfilCode: "1.10.1.020",
+    legalLevel: {
+      dx: "Específico",
+      tx: "Completo",
+      seg: "Realizar",
+      ges: "Evaluación y seguimiento multidisciplinario por Neurología y Cirugía de Tórax · Cobertura hospitalaria de urgencia para Crisis Miasténica en Unidad de Paciente Crítico (UPC) bajo Ley de Urgencia."
+    },
+    stem: "Mujer de 28 años, previamente sana, consulta en policlínico de neurología por un cuadro de 7 semanas de evolución de caída del párpado superior izquierdo y visión doble (diplopía binocular horizontal) de carácter fluctuante. La paciente describe que al levantarse en la mañana se encuentra prácticamente asintomática, pero conforme avanza el día y realiza actividades visuales como leer o trabajar frente a la pantalla, los síntomas empeoran notablemente. En las últimas dos semanas ha notado cansancio para masticar carnes hacia el final de las comidas y debilidad leve en extremidades superiores al secarse el pelo. Al examen físico: ptosis palpebral bilateral asimétrica que empeora ostensiblemente tras mantener la mirada hacia arriba sostenida durante 60 segundos (prueba de Simpson positiva). La aplicación de una compresa fría con hielo sobre los párpados durante 2 minutos logra elevar la hendidura palpebral en 3 mm (prueba del hielo positiva). Los reflejos pupilares fotomotor directo y consensual son normales y simétricos bilateralmente. Los reflejos osteotendinosos están conservados (2/4+) y no hay alteraciones sensitivas. ¿Cuál es la combinación de estudios diagnósticos confirmatorios y de extensión anatómica más adecuada para esta paciente?",
+    options: [
+      {
+        id: "A",
+        text: "Punción lumbar con análisis de bandas oligoclonales en líquido cefalorraquídeo y resonancia magnética cerebral con gadolinio."
+      },
+      {
+        id: "B",
+        text: "Niveles plasmáticos de creatina quinasa (CK total), anticuerpos anti-Jo-1 y biopsia muscular de cuádriceps femoral."
+      },
+      {
+        id: "C",
+        text: "Anticuerpos anti-receptor de acetilcolina (anti-AChR), electroneumiografía con prueba de estimulación nerviosa repetitiva y tomografía computarizada (TAC) de tórax con contraste."
+      },
+      {
+        id: "D",
+        text: "Prueba de Schirmer, anticuerpos anti-Ro/SSA y anti-La/SSB, y biopsia de glándula salival menor labial."
+      },
+      {
+        id: "E",
+        text: "Determinación de anticuerpos antineuronales anti-Hu, anti-Yo y tomografía por emisión de positrones (PET-CT) corporal total."
+      }
+    ],
+    correcta: "C",
+    explicacion: "La opción correcta es la C.\n\nFisiopatología y Confirmación Diagnóstica: La paciente presenta una clínica clásica e indiscutible de Miastenia Gravis (MG), un trastorno autoinmune postsináptico de la unión neuromuscular caracterizado por debilidad muscular fluctuante y fatigabilidad (empeoramiento con el uso muscular repetitivo o hacia el atardecer y mejoría con el reposo). El compromiso ocular inicial (ptosis asimétrica y diplopía binocular) ocurre en más del 85% de los pacientes. Signo semiológico de oro EUNACOM: Las pupilas son SIEMPRE normales y reactivas a la luz, dado que el músculo constrictor pupilar intrínseco liso no posee receptores nicotínicos de acetilcolina; cualquier ptosis con alteración pupilar (midriasis o miosis) apunta a lesión del III par o síndrome de Horner, no a miastenia. La prueba del hielo (ice pack test) a pie de cama tiene alta sensibilidad y especificidad: el frío inhibe a la acetilcolinesterasa aumentando la concentración de acetilcolina en la hendidura sináptica, mejorando la ptosis en ≥ 2 mm tras 2 minutos.\n\nEl estudio diagnóstico confirmatorio protocolizado exige: 1) Determinación serológica de Anticuerpos Anti-Receptor de Acetilcolina (anti-AChR), positivos en el 85-90% de las formas generalizadas y 50% de las oculares puras (si son negativos, se solicitan anti-MuSK); 2) Electroneumiografía con estimulación nerviosa repetitiva a baja frecuencia (3 Hz), que demuestra un patrón decremental patológico mayor al 10% en la amplitud del potencial de acción muscular compuesto; y 3) Tomografía Computarizada (TAC) de tórax con contraste endovenoso, de carácter obligatorio para pesquisar hiperplasia tímica (presente en 65% de los casos) o Timoma (presente en 10-15% de los casos), cuya resección quirúrgica (timectomía) es mandatoria y curativa/terapéutica.\n\nAnálisis de distractores:\n- Opción A es incorrecta: Las bandas oligoclonales en LCR y la RM cerebral son el estudio de elección para Esclerosis Múltiple (enfermedad desmielinizante del SNC), la cual no produce debilidad fluctuante que mejore con hielo ni conserva arreflexia pupilar con prueba de Simpson positiva.\n- Opción B es incorrecta: La CK plasmática y la biopsia muscular evalúan miopatías inflamatorias primarias (polimiositis o dermatomiositis), las cuales causan debilidad proximal constante fija (sin fatigabilidad diurna ni compromiso de musculatura extraocular intrínseca/extrínseca típica de placa motora).\n- Opción D es incorrecta: La prueba de Schirmer y los anticuerpos anti-Ro/La corresponden al estudio del Síndrome de Sjögren primario (ojo y boca secos), que no explica la ptosis, diplopía ni la fatigabilidad muscular de la unión neuromuscular.\n- Opción E es incorrecta: Los anticuerpos anti-Hu/Yo y el PET-CT se utilizan para síndromes neurológicos paraneoplásicos atípicos (encefalitis límbica, degeneración cerebelosa paraneoplásica), lo cual está fuera de lugar ante una miastenia gravis típica de una mujer joven."
+  }
+];
+
+const outputPath = path.join(__dirname, '..', 'data', 'temp_ensayo_batch_5.json');
+fs.writeFileSync(outputPath, JSON.stringify(batch5Questions, null, 2), 'utf8');
+console.log(`Successfully generated and saved ${batch5Questions.length} questions to ${outputPath}`);

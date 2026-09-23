@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 415" width="100%" height="100%" style="max-width:100%;max-height:100%;width:auto;height:100%;font-family:'Inter',system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <marker id="arGray" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 6,3.5 0,7" fill="#475569"/>
+    </marker>
+    <marker id="arRed" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 6,3.5 0,7" fill="#dc2626"/>
+    </marker>
+    <marker id="arBlue" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0,0 6,3.5 0,7" fill="#2563eb"/>
+    </marker>
+    <filter id="cardShadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- 1. NODO SUPERIOR DE ENTRADA -->
+  <g filter="url(#cardShadow)">
+    <rect x="250" y="8" width="460" height="34" rx="5" fill="url(#darkGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="480" y="23" fill="#ffffff" font-size="10" font-weight="700" letter-spacing="0.05em" text-anchor="middle">PACIENTE CON SOSPECHA DE ERGE (PERFIL V3 ASOFAMECh)</text>
+    <text x="480" y="35" fill="#94a3b8" font-size="8" text-anchor="middle">Pirosis retroesternal urente ascendente o regurgitación ácida posprandial</text>
+  </g>
+
+  <!-- FLECHA HACIA DECISIÓN INICIAL -->
+  <line x1="480" y1="42" x2="480" y2="52" stroke="#475569" stroke-width="1.8" marker-end="url(#arGray)"/>
+
+  <!-- 2. NODO DE DECISIÓN: BANDERAS ROJAS / EDAD -->
+  <g filter="url(#cardShadow)">
+    <rect x="230" y="52" width="500" height="38" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.3"/>
+    <text x="480" y="67" fill="#92400e" font-size="9.5" font-weight="700" text-anchor="middle">¿Banderas Rojas o Edad ≥ 50 años?</text>
+    <text x="480" y="80" fill="#78350f" font-size="8" text-anchor="middle">Disfagia progresiva, odinofagia, baja de peso, hemorragia, vómitos o pirosis &gt; 5 años</text>
+  </g>
+
+  <!-- FLECHAS DE BIFURCACIÓN -->
+  <!-- Rama Izquierda (SÍ -> Alarma) -->
+  <path d="M 330 90 L 330 102 L 245 102 L 245 116" stroke="#dc2626" stroke-width="1.8" fill="none" marker-end="url(#arRed)"/>
+  <rect x="180" y="94" width="130" height="15" rx="3" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+  <text x="245" y="105" fill="#991b1b" font-size="8" font-weight="700" text-anchor="middle">SÍ: Alarma o Edad ≥ 50 años</text>
+
+  <!-- Rama Derecha (NO -> Joven sin alarma) -->
+  <path d="M 630 90 L 630 102 L 715 102 L 715 116" stroke="#2563eb" stroke-width="1.8" fill="none" marker-end="url(#arBlue)"/>
+  <rect x="650" y="94" width="130" height="15" rx="3" fill="#f0f9ff" stroke="#2563eb" stroke-width="1"/>
+  <text x="715" y="105" fill="#1e3a8a" font-size="8" font-weight="700" text-anchor="middle">NO: &lt; 50 años sin signos de alarma</text>
+
+  <!-- 3. RAMA IZQUIERDA: EDA OBLIGATORIA CON BIOPSIAS -->
+  <g filter="url(#cardShadow)">
+    <rect x="25" y="118" width="440" height="172" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+    <rect x="25" y="118" width="440" height="22" rx="6" fill="url(#redGrad)"/>
+    <text x="245" y="133" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.04em" text-anchor="middle">1. ENDOSCOPÍA DIGESTIVA ALTA (EDA) CON TOMA DE BIOPSIAS</text>
+
+    <!-- Sub-bloque A: Barrett sin displasia -->
+    <rect x="35" y="146" width="420" height="38" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="45" y="159" fill="#991b1b" font-size="8.5" font-weight="700">• Hallazgo: Esófago de Barrett SIN Displasia</text>
+    <text x="55" y="172" fill="#1e293b" font-size="8">Conducta: IBP continuo a permanencia + EDA cada 3 a 5 años (Cirugía CONTRAINDICADA)</text>
+
+    <!-- Sub-bloque B: Barrett con displasia -->
+    <rect x="35" y="188" width="420" height="38" rx="4" fill="#fff1f2" stroke="#fda4af" stroke-width="1"/>
+    <text x="45" y="201" fill="#991b1b" font-size="8.5" font-weight="700">• Hallazgo: Esófago de Barrett CON Displasia (Bajo / Alto Grado)</text>
+    <text x="55" y="214" fill="#1e293b" font-size="8">Conducta: Derivación inmediata a Gastroenterología (Manejo endoscópico de especialista)</text>
+
+    <!-- Sub-bloque C: Normal o Esofagitis A-B -->
+    <rect x="35" y="230" width="420" height="38" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="45" y="243" fill="#334155" font-size="8.5" font-weight="700">• Hallazgo: Esofagitis Erosiva Leve o Mucosa Esofágica Normal</text>
+    <text x="55" y="256" fill="#334155" font-size="8">Conducta: Omeprazol 20 mg/d por 4 a 8 semanas; reevaluar respuesta clínica</text>
+
+    <text x="45" y="282" fill="#b91c1c" font-size="8" font-weight="700">✖ Trampa EUNACOM: Prohibido duplicar dosis de omeprazol a ciegas si hay alarma</text>
+  </g>
+
+  <!-- 4. RAMA DERECHA: MANEJO CLÍNICO EN APS -->
+  <g filter="url(#cardShadow)">
+    <rect x="495" y="118" width="440" height="172" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="495" y="118" width="440" height="22" rx="6" fill="url(#blueGrad)"/>
+    <text x="715" y="133" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.04em" text-anchor="middle">2. MANEJO CLÍNICO EN ATENCIÓN PRIMARIA (APS)</text>
+
+    <!-- Sub-bloque A: Síndrome Típico -->
+    <rect x="505" y="146" width="420" height="52" rx="4" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="515" y="159" fill="#1e3a8a" font-size="8.5" font-weight="700">• Síndrome Típico (Pirosis retroesternal + Regurgitación ácida):</text>
+    <text x="525" y="172" fill="#334155" font-size="8">Paso 1: Prueba terapéutica con Omeprazol 20 mg/día en ayunas x 4 a 8 semanas</text>
+    <text x="525" y="185" fill="#047857" font-size="8" font-weight="700">➜ Alivio de síntomas &gt; 75% confirma diagnóstico de ERGE (NO pedir endoscopía inicial)</text>
+
+    <!-- Sub-bloque B: Síndrome Atípico -->
+    <rect x="505" y="202" width="420" height="52" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="515" y="215" fill="#1e3a8a" font-size="8.5" font-weight="700">• Síndrome Atípico (Tos nocturna, disfonía matutina, dolor torácico):</text>
+    <text x="525" y="228" fill="#b91c1c" font-size="8" font-weight="700">Paso Mandatorio: Descarte coronario prioritario (ECG + enzimas) antes de asumir ERGE</text>
+    <text x="525" y="241" fill="#334155" font-size="8">Si es no cardíaco: IBP a doble dosis x 8-12 sem; pH-impedanciometría 24h es Patrón Oro</text>
+
+    <text x="515" y="270" fill="#b91c1c" font-size="8" font-weight="700">✖ Trampa EUNACOM: Prohibido indicar IBP indefinido en dolor atípico sin estudio</text>
+    <text x="515" y="282" fill="#64748b" font-size="7.5">Los bloqueadores H2 (ranitidina/famotidina) están obsoletos como terapia de primera línea</text>
+  </g>
+
+  <!-- 5. NODO INFERIOR: REGLAS DE ORO DEL EXAMEN -->
+  <g filter="url(#cardShadow)">
+    <rect x="25" y="298" width="910" height="106" rx="6" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+    <rect x="25" y="298" width="910" height="22" rx="6" fill="url(#darkGrad)"/>
+    <text x="480" y="313" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.05em" text-anchor="middle">REGLAS CLÍNICAS DE ALTO RENDIMIENTO (PERFIL V3 ASOFAMECh)</text>
+
+    <!-- Columna Izquierda -->
+    <text x="40" y="333" fill="#1e3a8a" font-size="8.5" font-weight="700">Enfrentamiento y Tratamiento en APS:</text>
+    <text x="40" y="347" fill="#1e293b" font-size="8">• Paciente &lt; 50 años sin alarma: Omeprazol 20 mg/día en ayunas x 4-8 semanas</text>
+    <text x="50" y="359" fill="#047857" font-size="7.5">  La respuesta clínica favorable confirma ERGE sin requerir estudios invasivos</text>
+    <text x="40" y="373" fill="#1e293b" font-size="8">• Banderas rojas o edad ≥ 50 años: Endoscopía digestiva alta obligatoria de entrada</text>
+    <text x="50" y="385" fill="#991b1b" font-size="7.5">  Disfagia progresiva o baja de peso exigen biopsias; PROHIBIDO subir IBP a ciegas</text>
+    <text x="40" y="399" fill="#64748b" font-size="7.5">• Helicobacter pylori: NO se busca ni se erradica en ERGE (no existe asociación causal)</text>
+
+    <!-- Columna Derecha -->
+    <text x="500" y="333" fill="#065f46" font-size="8.5" font-weight="700">Esófago de Barrett y Formas Especiales:</text>
+    <text x="500" y="347" fill="#1e293b" font-size="8">• Barrett sin displasia: Manejo médico con IBP a permanencia + EDA cada 3-5 años</text>
+    <text x="510" y="359" fill="#047857" font-size="7.5">  La cirugía antirreflujo (funduplicatura) NO cura el Barrett y está CONTRAINDICADA</text>
+    <text x="500" y="373" fill="#1e293b" font-size="8">• Barrett con displasia confirmada: Derivación inmediata al especialista en Gastroenterología</text>
+    <text x="510" y="385" fill="#1e3a8a" font-size="7.5">  La displasia requiere tratamiento endoscópico avanzado para prevenir adenocarcinoma</text>
+    <text x="500" y="399" fill="#64748b" font-size="7.5">• Hernia Hiatal por deslizamiento: Distancia línea Z a impronta diafragmática &gt; 2 cm</text>
+  </g>
+</svg>

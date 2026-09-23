@@ -1,0 +1,3773 @@
+[
+  {
+    "number": 1,
+    "id": "Q-DIABETES-01",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "",
+    "topicTitle": "Desnutrición",
+    "perfilCode": "1.02.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Desnutrición · 1.02.1.001] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Desnutrición. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Desnutrición\" (1.02.1.001), el estándar del Perfil V3 exige Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 2,
+    "id": "Q-DIABETES-02",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "",
+    "topicTitle": "Obesidad",
+    "perfilCode": "1.02.1.012",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un adolescente de 16 años, con IMC de 33, se realiza una glicemia de ayuno, que resulta 96 mg/dl, más una insulina basal que resulta 23 UI/L. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iniciar insulina"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar dieta y ejercicio"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar metformina"
+      },
+      {
+        "id": "D",
+        "text": "Solicitar un test de tolerancia a la glucosa"
+      },
+      {
+        "id": "E",
+        "text": "Iniciar metformina más glibenclamida"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Tiene obesidad y resistencia a la insulina (HOMA = 96 x 23 / 405 = 5,5). No tiene ni diabetes, ni intolerancia a la glucosa, ni glicemia alterada de ayuno, así que solo se deja dieta y ejercicio."
+  },
+  {
+    "number": 3,
+    "id": "Q-DIABETES-03",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "",
+    "topicTitle": "Obesidad mórbida",
+    "perfilCode": "1.02.1.013",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Obesidad mórbida · 1.02.1.013] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Obesidad mórbida. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Obesidad mórbida\" (1.02.1.013), el estándar del Perfil V3 exige Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 4,
+    "id": "Q-DIABETES-04",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "",
+    "topicTitle": "Síndromes carenciales de vitaminas y minerales",
+    "perfilCode": "1.02.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Una paciente de 64 años, con antecedente de by-pass gástrico, por obesidad mórbida, presenta un cuadro de dificultad a la marcha, asociado a astenia y malestar general. En sus exámenes destaca anemia macrocítica, plaquetas: 100.000 por mm3, blancos: 6.000 por mm3, ferritina 56 ug/dl y saturación de transferrina de 18%. ¿El déficit de qué nutriente explica mejor este caso?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fierro"
+      },
+      {
+        "id": "B",
+        "text": "Ácido fólico"
+      },
+      {
+        "id": "C",
+        "text": "Cianocobalamina"
+      },
+      {
+        "id": "D",
+        "text": "Zinc"
+      },
+      {
+        "id": "E",
+        "text": "Tiamina"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tiene un déficit de B12, tanto por el antecedente de by-pass como por la macrocitosis y plaquetopenia. La ferritina está normal (VN: 15 a 300)."
+  },
+  {
+    "number": 5,
+    "id": "Q-DIABETES-05",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "",
+    "topicTitle": "Trastornos de conducta alimentaria",
+    "perfilCode": "1.02.1.018",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Trastornos de conducta alimentaria · 1.02.1.018] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Trastornos de conducta alimentaria. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Trastornos de conducta alimentaria\" (1.02.1.018), el estándar del Perfil V3 exige Diagnóstico Sospecha, Tratamiento Inicial y Seguimiento Derivar. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 6,
+    "id": "Q-DIABETES-06",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.02.1.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Una mujer cursa un embarazo de 10 semanas y se realiza una glicemia de ayuno, que resulta 128 mg/dl. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prediabetes"
+      },
+      {
+        "id": "B",
+        "text": "Diabetes mellitus gestacional"
+      },
+      {
+        "id": "C",
+        "text": "Glicemia de ayuno alterado"
+      },
+      {
+        "id": "D",
+        "text": "Diabetes mellitus pregestacional"
+      },
+      {
+        "id": "E",
+        "text": "Intolerancia a la glucosa oral"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Si bien le falta otra glicemia de ayuno mayor o igual a 126, para conﬁrmar el diagnóstico, sobre dicho valor se sospecha una diabetes pregestacional."
+  },
+  {
+    "number": 7,
+    "id": "Q-DIABETES-07",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.02.1.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Un paciente de 12 años, diabético tipo 1, en tratamiento con una dosis de NPH matinal, despierta con glicemias de ayuno muy elevadas, asociadas a hipoglicemias frecuentes antes del almuerzo. Su hemoglobina glicosilada es de 11,7%. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reemplazar el tratamiento por insulina glargina en la mañana"
+      },
+      {
+        "id": "B",
+        "text": "Dejar dos dosis de insulina NPH más tres refuerzos de insulina cristalina precomidas"
+      },
+      {
+        "id": "C",
+        "text": "Agregar insulina NPH nocturna"
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar la insulina NPH matinal por insulina NPH nocturna"
+      },
+      {
+        "id": "E",
+        "text": "Agregar metformina al tratamiento"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La DM1 se debe tratar con esquema intensificado: idealmente insulina glargina basal, con refuerzos con insulina ultrarrápida. Se acepta también las dos dosis de NPH, con referzos con IC precomidas. Las demás opciones son claramente insuficientes."
+  },
+  {
+    "number": 8,
+    "id": "Q-DIABETES-08",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.02.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Un hombre de 33 años, obeso, consulta por polidipsia y baja de peso de 6 kilogramos, en los últimos dos meses. Su examen físico no aporta mayor información. Se solicitan exámenes, entre los que destacan glicemia de ayuno de 245 mg/dl y hemoglobina glicosilada: 9,2%. El tratamiento inicial más adecuado es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metformina"
+      },
+      {
+        "id": "B",
+        "text": "Sitagliptina"
+      },
+      {
+        "id": "C",
+        "text": "Insulina"
+      },
+      {
+        "id": "D",
+        "text": "Liraglutide"
+      },
+      {
+        "id": "E",
+        "text": "Glibenclamida"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tanto por los síntomas de diabetes (baja de peso y polidipsia), como por la HbA1c mayor a 9%, está indicada la insulina."
+  },
+  {
+    "number": 9,
+    "id": "Q-DIABETES-09",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.02.1.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Mujer de 55 años con DM2 en tratamiento con metformina, requiere corticoterapia con prednisona 40 mg/día por enfermedad pulmonar. Sus glicemias de ayuno eran 130 mg/dL y post-prandiales suben a 280 mg/dL. ¿Cuál es el ajuste más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iniciar insulina"
+      },
+      {
+        "id": "B",
+        "text": "Agregar metformina adicional"
+      },
+      {
+        "id": "C",
+        "text": "Pioglitazona"
+      },
+      {
+        "id": "D",
+        "text": "Glibenclamida"
+      },
+      {
+        "id": "E",
+        "text": "Sitagliptina"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Corticoides causan hiperglicemia postprandial marcada por resistencia a la insulina. La insulina es el tratamiento de elección en este contexto (flexibilidad de ajuste, control rápido). Los hipoglicemiantes orales no dan el control necesario con dosis altas de corticoides."
+  },
+  {
+    "number": 10,
+    "id": "Q-DIABETES-10",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.02.1.014",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "DM con polineuropatía, dedos en garra, hiperqueratosis, con test de monofilamento alterado, pulsos disminuidos, conducta:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mejorar calzado"
+      },
+      {
+        "id": "B",
+        "text": "Electromiografia, realizar test de nuevo en unos meses (esta era RX para descartar osteomielitis)"
+      },
+      {
+        "id": "C",
+        "text": "Observación clínica"
+      },
+      {
+        "id": "D",
+        "text": "Derivar a urgencia"
+      },
+      {
+        "id": "E",
+        "text": "Control ambulatorio"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Diciembre 2024 · Pregunta 93). Evalúa el manejo clínico de Pié diabético y otras infecciones en diabetes según directrices MINSAL vigentes."
+  },
+  {
+    "number": 11,
+    "id": "Q-DIABETES-11",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.04.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Una mujer de 31 años, normopeso, con antecedente de vitiligo, consulta por astenia progresiva y baja de 5 kg en dos meses. Se constatan glicemias de ayuno de 260 mg/dL y 295 mg/dL, con HbA1c de 10.5%. No presenta acidosis metabólica. Se le indicó tratamiento con metformina 850 mg cada 12 horas, persistiendo con glicemias sobre 250 mg/dL a las tres semanas. ¿Cuál es el diagnóstico más probable y el examen que confirmaría la sospecha clínica?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diabetes mellitus tipo 2 resistente; solicitar curva de tolerancia oral a la glucosa"
+      },
+      {
+        "id": "B",
+        "text": "Diabetes autoinmune latente del adulto (LADA); solicitar anticuerpos anti-GAD65 y péptido C"
+      },
+      {
+        "id": "C",
+        "text": "Diabetes tipo MODY; solicitar estudio genético de glucoquinasa"
+      },
+      {
+        "id": "D",
+        "text": "Diabetes secundaria a pancreatitis crónica; solicitar elastasa fecal"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de Cushing subclínico; solicitar cortisol libre urinario"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El cuadro de debut hiperglicémico severo en una adulta joven sin obesidad, con comorbilidad autoinmune previa (vitiligo) y falla primaria rápida al tratamiento con metformina oral, orienta decididamente a Diabetes LADA (Latent Autoimmune Diabetes in Adults). El examen de elección para certificar la etiología es la determinación de anticuerpos anti-GAD65 (positivos en más del 80%) y la medición de péptido C plasmático (que evidenciará reserva beta deficiente)."
+  },
+  {
+    "number": 12,
+    "id": "Q-DIABETES-12",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.1",
+    "topicTitle": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.04.1.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2"
+    },
+    "stem": "Un joven de 20 años, deportista, con IMC de 22 kg/m², se realiza chequeo de rutina encontrándose una glicemia de ayuno de 145 mg/dL, confirmada en 150 mg/dL. Refiere que su padre, su tía paterna y su abuelo paterno son diabéticos diagnosticados antes de los 30 años, ninguno con obesidad y todos tratados eficazmente con glibenclamida oral. Los anticuerpos anti-GAD e IA2 resultan negativos. ¿Cuál es el tipo de diabetes más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diabetes mellitus tipo 1"
+      },
+      {
+        "id": "B",
+        "text": "Diabetes mellitus tipo 2 del adulto joven"
+      },
+      {
+        "id": "C",
+        "text": "Diabetes tipo MODY (Maturity-Onset Diabetes of the Young)"
+      },
+      {
+        "id": "D",
+        "text": "Diabetes tipo LADA"
+      },
+      {
+        "id": "E",
+        "text": "Hemocromatosis hereditaria juvenil"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La presencia de diabetes de inicio precoz (< 25 años) en un paciente delgado sin datos de resistencia a la insulina ni autoinmunidad (anti-GAD negativos), con un patrón de herencia claramente autosómico dominante (tres generaciones consecutivas comprometidas en línea directa) y excelente control con dosis bajas de sulfonilureas (glibenclamida), constituye la presentación canónica de Diabetes MODY (habitualmente MODY-3 por mutación en el factor nuclear HNF-1alfa)."
+  },
+  {
+    "number": 13,
+    "id": "Q-DIABETES-13",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.2",
+    "topicTitle": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+    "perfilCode": "1.04.1.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más"
+    },
+    "stem": "Un paciente de 52 años, con sobrepeso (IMC 28 kg/m²), asintomático, se realiza un chequeo médico preventivo que muestra una glicemia de ayuno de 118 mg/dL. ¿Cuál es la conducta diagnóstica más adecuada que se debe seguir a continuación?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico de diabetes mellitus tipo 2 e iniciar metformina"
+      },
+      {
+        "id": "B",
+        "text": "Repetir la glicemia de ayuno en dos semanas"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar una prueba de tolerancia a la glucosa oral (PTGO con 75 gramos)"
+      },
+      {
+        "id": "D",
+        "text": "Solicitar una hemoglobina glicosilada aislada"
+      },
+      {
+        "id": "E",
+        "text": "Dar de alta al paciente asegurando que se encuentra en un rango completamente normal"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Una glicemia de ayuno entre 100 y 125 mg/dL corresponde a una Glicemia de Ayuno Alterada (prediabetes). La conducta establecida en las guías clínicas del MINSAL ante este hallazgo es solicitar una Prueba de Tolerancia a la Glucosa Oral (PTGO) con 75 gramos de glucosa anhidra para evaluar si el paciente presenta intolerancia a la glucosa oral (140-199 mg/dL a las 2 horas) o diabetes mellitus encubierta (≥ 200 mg/dL). No se debe repetir la glicemia de ayuno porque ya sabemos que está en rango prediabético."
+  },
+  {
+    "number": 14,
+    "id": "Q-DIABETES-14",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.2",
+    "topicTitle": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+    "perfilCode": "1.04.1.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más"
+    },
+    "stem": "Un hombre de 46 años consulta por astenia, visión borrosa, polidipsia intensa y nicturia de tres semanas de evolución. Al examen físico se encuentra hidratado y con signos vitales normales. La glicemia capilar tomada en el box al azar arroja 248 mg/dL. ¿Cuál es la conducta médica correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solicitar glicemia de ayuno venosa para confirmar el diagnóstico la próxima semana"
+      },
+      {
+        "id": "B",
+        "text": "Realizar una prueba de tolerancia a la glucosa oral de 75 gramos en ayunas"
+      },
+      {
+        "id": "C",
+        "text": "Confirmar el diagnóstico de diabetes mellitus de inmediato e iniciar manejo terapéutico"
+      },
+      {
+        "id": "D",
+        "text": "Solicitar anticuerpos anti-insulina antes de emitir cualquier diagnóstico"
+      },
+      {
+        "id": "E",
+        "text": "Indicar dieta estricta sin fármacos y reevaluar con hemoglucotest seriado en un mes"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La presencia de síntomas cardinales clásicos de hiperglicemia (polidipsia, poliuria/nicturia, visión borrosa) en combinación con una glicemia casual tomada en cualquier momento del día ≥ 200 mg/dL cumple de forma definitiva y autónoma el criterio de confirmación de Diabetes Mellitus. En este escenario no se requiere ni se debe postergar el diagnóstico esperando una segunda muestra en ayunas, debiendo iniciarse el plan terapéutico de inmediato."
+  },
+  {
+    "number": 15,
+    "id": "Q-DIABETES-15",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.2",
+    "topicTitle": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+    "perfilCode": "1.04.1.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más"
+    },
+    "stem": "Una paciente de 60 años ingresa a la unidad de cuidados intensivos por shock séptico secundario a pielonefritis aguda. En sus exámenes de ingreso destaca una glicemia venosa de 240 mg/dL. La paciente no cuenta con antecedentes médicos conocidos ni controles previos. ¿Cuál es el examen de laboratorio más idóneo para determinar con certeza si la paciente es portadora de diabetes mellitus previa versus una hiperglicemia de estrés transitoria?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prueba de tolerancia a la glucosa oral con 75 g al tercer día"
+      },
+      {
+        "id": "B",
+        "text": "Determinación de Hemoglobina Glicosilada (HbA1c)"
+      },
+      {
+        "id": "C",
+        "text": "Repetición de glicemia venosa en ayuno a las 48 horas de evolución"
+      },
+      {
+        "id": "D",
+        "text": "Medición de insulinemia basal y cálculo del índice HOMA-IR"
+      },
+      {
+        "id": "E",
+        "text": "Cetonemia cuantitativa"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "En pacientes hospitalizados con procesos infecciosos o sépticos agudos graves, la liberación masiva de hormonas de contrarregulación (cortisol, catecolaminas, glucagón) induce hiperglicemia de estrés incluso en pacientes no diabéticos. En este contexto, la glicemia plasmática no sirve para diagnosticar diabetes de base. El examen de elección es la Hemoglobina Glicosilada (HbA1c), ya que refleja el promedio glucémico de los 2 a 3 meses previos al evento agudo; un valor ≥ 6.5% certifica diabetes previa a la hospitalización."
+  },
+  {
+    "number": 16,
+    "id": "Q-DIABETES-16",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.2",
+    "topicTitle": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+    "perfilCode": "1.04.1.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más"
+    },
+    "stem": "Un paciente de 48 años asintomático, sin antecedentes mórbidos, presenta en su primer examen de medicina preventiva una glicemia venosa en ayunas de 138 mg/dL. Se repite el examen dos semanas después bajo estricto ayuno de 10 horas, resultando en 115 mg/dL. ¿Cuál es el paso diagnóstico que corresponde realizar ahora?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Descartar diabetes mellitus y prediabetes por haber salido la segunda glicemia bajo 126 mg/dL"
+      },
+      {
+        "id": "B",
+        "text": "Confirmar diabetes mellitus tipo 2 por haber tenido una primera glicemia sobre 126 mg/dL"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar una prueba de tolerancia a la glucosa oral (PTGO con 75 gramos)"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar monoterapia con metformina 850 mg al día"
+      },
+      {
+        "id": "E",
+        "text": "Repetir la glicemia de ayuno una tercera vez al día siguiente"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "El paciente presentó una primera glicemia compatible con sospecha de diabetes (≥ 126 mg/dL), pero la segunda muestra resultó discordante (< 126 mg/dL, específicamente 115 mg/dL, en rango de glicemia de ayuno alterada). Ante resultados discordantes en ayuno, la regla diagnóstica de la ADA y las guías chilenas indica desempatar el cuadro solicitando una Prueba de Tolerancia a la Glucosa Oral (PTGO con 75 g), la cual determinará si el valor a las 2 horas es normal (< 140), intolerante (140-199) o diabético (≥ 200)."
+  },
+  {
+    "number": 17,
+    "id": "Q-DIABETES-17",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.3",
+    "topicTitle": "Diabetes y Embarazo: Gestacional (DMG) vs Pregestacional (DMPG)",
+    "perfilCode": "1.02.1.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Salud del Embarazo y Parto"
+    },
+    "stem": "paciente con diabetes gestacional 28 semanas, con tto metformina pero con cifras elevadas de glicemia, se preguntaba cómo continuar tto",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pioglitazona"
+      },
+      {
+        "id": "B",
+        "text": "agregar insulina"
+      },
+      {
+        "id": "C",
+        "text": "Glibenclamida"
+      },
+      {
+        "id": "D",
+        "text": "Sitagliptina"
+      },
+      {
+        "id": "E",
+        "text": "Metformina"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "agregar insulina"
+  },
+  {
+    "number": 18,
+    "id": "Q-DIABETES-18",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 1,
+    "blockName": "Diagnóstico, Clasificación y Tamizaje de Diabetes",
+    "topicLabel": "1.4",
+    "topicTitle": "Objetivos del Control Metabólico y Metas de HbA1c Individualizadas",
+    "perfilCode": "1.02.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 30 años, con IMC: 30 Kg/m2 consulta por hoperpigmentación de la piel de las axilas y el cuello, asociado a aparición de acrocórdones en plieguen inglinales, cervicales y en las axilar. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enfermedad de Cushing"
+      },
+      {
+        "id": "B",
+        "text": "Hipotiroidismo"
+      },
+      {
+        "id": "C",
+        "text": "Síndrome paraneoplásico"
+      },
+      {
+        "id": "D",
+        "text": "Insuficiencia suprarrenal"
+      },
+      {
+        "id": "E",
+        "text": "Resistencia a la insulina"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Tiene acantosis nigricans, clásico de la RI."
+  },
+  {
+    "number": 19,
+    "id": "Q-DIABETES-19",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.1",
+    "topicTitle": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 55 años, con diabetes mellitus tipo 2 diagnosticada hace 6 meses, se encuentra en tratamiento con metformina 850 mg cada 12 horas con adecuada adherencia. Acude a control trayendo una hemoglobina glicosilada (HbA1c) de 8.4%. Se encuentra asintomático, con examen físico normal y función renal conservada (creatinina 0.8 mg/dL). ¿Cuál es la conducta farmacológica más adecuada a seguir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender metformina e iniciar monoterapia con insulina NPH nocturna"
+      },
+      {
+        "id": "B",
+        "text": "Mantener metformina y asociar un segundo fármaco oral como glibenclamida"
+      },
+      {
+        "id": "C",
+        "text": "Triplicar la dosis de metformina a 1.700 mg cada 8 horas antes de agregar otro fármaco"
+      },
+      {
+        "id": "D",
+        "text": "Indicar solo refuerzo de la dieta y citar a nuevo control en un año"
+      },
+      {
+        "id": "E",
+        "text": "Iniciar infusión endovenosa continua de insulina rápida"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El paciente presenta falla terapéutica a la monoterapia con metformina en dosis estándar (1.700 mg/día), persistiendo con una HbA1c de 8.4% a los 6 meses (meta < 7.0%). Según las guías clínicas del MINSAL para DM2 (GES N° 2), ante el fracaso de la monoterapia en un paciente asintomático sin descompensación catabólica aguda, la conducta indicada es mantener la metformina y escalar a biterapia oral asociando un segundo agente (como una sulfonilurea, ej. glibenclamida 2.5 a 5 mg/día, o un inhibidor de DPP-4)."
+  },
+  {
+    "number": 20,
+    "id": "Q-DIABETES-20",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.1",
+    "topicTitle": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 48 años consulta por astenia intensa, polidipsia y pérdida involuntaria de 7 kg de peso en el último mes. Se constata glicemia de ayuno de 320 mg/dL y una HbA1c de 11.2%. El examen de orina revela glucosuria masiva con trazas de cetonas. ¿Cuál es el tratamiento farmacológico inicial de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metformina 500 mg una vez al día con escalamiento lento"
+      },
+      {
+        "id": "B",
+        "text": "Glibenclamida 5 mg cada 12 horas en monoterapia"
+      },
+      {
+        "id": "C",
+        "text": "Insulinoterapia de reemplazo (ej. insulina NPH nocturna) asociada a metformina"
+      },
+      {
+        "id": "D",
+        "text": "Dieta hipocalórica exclusiva durante cuatro semanas para reducir la gluco-toxicidad"
+      },
+      {
+        "id": "E",
+        "text": "Inhibidor de SGLT2 en monoterapia oral"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "El paciente debuta con una diabetes mellitus severamente descompensada caracterizada por marcada glucotoxicidad (HbA1c > 10% y glicemia > 300 mg/dL), catabolismo acelerado con baja de peso significativa y cetonuria incipiente. En este escenario, las células beta pancreáticas se encuentran aturdidas e incapaces de responder a hipoglucemiantes orales aislados. La indicación indiscutida es iniciar de inmediato insulinoterapia (insulina NPH basal nocturna ± insulina rápida), pudiendo asociarse metformina para mitigar la resistencia a la insulina."
+  },
+  {
+    "number": 21,
+    "id": "Q-DIABETES-21",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.1",
+    "topicTitle": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "¿Cuál es el plazo legal máximo garantizado por las Garantías Explícitas en Salud (GES N° 2) para el inicio del tratamiento farmacológico en un paciente con diagnóstico confirmado de Diabetes Mellitus Tipo 2 en Chile?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dentro de las primeras 24 horas desde la confirmación diagnóstica"
+      },
+      {
+        "id": "B",
+        "text": "A los 15 días tras la evaluación por especialista"
+      },
+      {
+        "id": "C",
+        "text": "A los 30 días posteriores al ingreso al programa cardiovascular"
+      },
+      {
+        "id": "D",
+        "text": "A los 45 días contados desde la sospecha clínica"
+      },
+      {
+        "id": "E",
+        "text": "A los 90 días con entrega de glucómetro"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La Garantía Explícita en Salud (GES N° 2) para Diabetes Mellitus Tipo 2 establece plazos legales perentorios: la confirmación diagnóstica debe realizarse dentro de 45 días desde la sospecha clínica en APS, pero una vez confirmado el diagnóstico, el inicio del tratamiento médico (farmacológico y nutricional) debe garantizarse dentro de las 24 HORAS siguientes a dicha confirmación."
+  },
+  {
+    "number": 22,
+    "id": "Q-DIABETES-22",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.1",
+    "topicTitle": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 62 años con diabetes tipo 2 de 8 años de evolución, con antecedente de infarto agudo de miocardio hace 2 años y fracción de eyección ventricular izquierda del 35% (insuficiencia cardíaca con FEVI reducida), mantiene HbA1c de 8.1% con metformina 1.000 mg cada 12 horas. Su VFG es de 55 mL/min/1.73m². Según las recomendaciones internacionales y guías de práctica clínica, ¿cuál es el segundo fármaco que ha demostrado reducir las hospitalizaciones por insuficiencia cardíaca y muerte cardiovascular en este perfil de paciente?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glibenclamida"
+      },
+      {
+        "id": "B",
+        "text": "Pioglitazona"
+      },
+      {
+        "id": "C",
+        "text": "Inhibidor del cotransportador sodio-glucosa 2 (iSGLT2, ej. dapagliflozina o empagliflozina)"
+      },
+      {
+        "id": "D",
+        "text": "Sulfato de glucosamina"
+      },
+      {
+        "id": "E",
+        "text": "Gliclazida"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Los grandes ensayos clínicos contemporáneos (DAPA-HF, EMPEROR-Reduced) y las guías de la ADA y la Sociedad Europea de Cardiología han establecido que en pacientes con DM2 y comorbilidad de Insuficiencia Cardíaca con FEVI reducida, los inhibidores de SGLT2 (como dapagliflozina o empagliflozina) son los fármacos de elección prioritaria independientemente del nivel de HbA1c, ya que reducen drásticamente las hospitalizaciones por falla cardíaca y la mortalidad cardiovascular. La pioglitazona (B) está contraindicada por retener líquido."
+  },
+  {
+    "number": 23,
+    "id": "Q-DIABETES-23",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.1",
+    "topicTitle": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "En el enfrentamiento clínico sistemático de Tratamiento Escalonado de la DM2 y Canasta GES MINSAL (Variante de Práctica 1) en APS o Servicio de Urgencia según la norma técnica MINSAL, ¿cuál es la conducta diagnóstica o terapéutica de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La metformina es el fármaco de primera línea universal en DM2 desde el momento del diagnóstico."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo y analgesia condicional sin estudio diagnóstico confirmatorio ni seguimiento."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar estudio terciario de alta complejidad antes de estabilizar y aplicar medidas básicas."
+      },
+      {
+        "id": "D",
+        "text": "Indicar tratamiento empírico con antibióticos o corticoides en dosis plenas sin indicación precisa."
+      },
+      {
+        "id": "E",
+        "text": "Derivar en forma electiva a especialista sin iniciar estudio básico ni soporte inicial."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Según el Perfil de Conocimientos V3 ASOFAMECh y las guías de práctica clínica para Tratamiento Escalonado de la DM2 y Canasta GES MINSAL, la conducta médica prioritaria es: La metformina es el fármaco de primera línea universal en DM2 desde el momento del diagnóstico.. Las demás opciones representan conductas diferidas o inapropiadas en el nivel primario."
+  },
+  {
+    "number": 24,
+    "id": "Q-DIABETES-24",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.2",
+    "topicTitle": "Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+    "perfilCode": "1.04.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 72 años con diabetes mellitus tipo 2 e insuficiencia renal crónica consulta para control. En sus exámenes de laboratorio presenta una creatinina de 2.2 mg/dL y una velocidad de filtración glomerular estimada (VFG) de 24 mL/min/1.73m². Actualmente recibe metformina 850 mg cada 12 horas. ¿Cuál es la conducta farmacológica que se debe adoptar de inmediato?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener la metformina pero indicar consumo abundante de líquidos"
+      },
+      {
+        "id": "B",
+        "text": "Suspender de inmediato la metformina debido al riesgo de acidosis láctica"
+      },
+      {
+        "id": "C",
+        "text": "Reducir la dosis de metformina a 850 mg al día y controlar en seis meses"
+      },
+      {
+        "id": "D",
+        "text": "Cambiar metformina por glibenclamida en dosis máxima de 10 mg al día"
+      },
+      {
+        "id": "E",
+        "text": "Asociar bicarbonato oral y mantener la misma dosis de metformina"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La metformina se elimina íntegramente por filtración glomerular y secreción tubular renal. Cuando la VFG desciende por debajo de 30 mL/min/1.73m², el fármaco se acumula exponencialmente en los tejidos, inhibiendo la fosforilación oxidativa mitocondrial e induciendo la temida Acidosis Láctica asociada a Metformina (MALA), cuadro de altísima letalidad. Por tanto, una VFG < 30 constituye una contraindicación absoluta e inmediata de metformina."
+  },
+  {
+    "number": 25,
+    "id": "Q-DIABETES-25",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.2",
+    "topicTitle": "Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+    "perfilCode": "1.04.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 78 años en tratamiento con glibenclamida 5 mg cada 12 horas ingresa al servicio de urgencias soporoso, diaforético y con glicemia capilar de 32 mg/dL. Se le administra un bolo endovenoso de 40 mL de solución glucosada al 30%, recuperando el estado de alerta con glicemia de control en 125 mg/dL a los 15 minutos. El paciente se siente bien y solicita el alta médica. ¿Cuál es la conducta médica correcta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Otorgar el alta inmediata recomendándole una colación rica en hidratos de carbono"
+      },
+      {
+        "id": "B",
+        "text": "Hospitalizar al paciente para observación y mantención de infusión continua de glucosa durante al menos 24 horas"
+      },
+      {
+        "id": "C",
+        "text": "Dar de alta con indicación de reducir la dosis de glibenclamida a la mitad al día siguiente"
+      },
+      {
+        "id": "D",
+        "text": "Administrar 1 mg de glucagón intramuscular y enviar a domicilio en reposo"
+      },
+      {
+        "id": "E",
+        "text": "Administrar 100 mg de hidrocortisona endovenosa y dar el alta en dos horas"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Las hipoglicemias secundarias a sulfonilureas de larga vida media como la glibenclamida son recurrentes y prolongadas debido a la persistencia del fármaco y sus metabolitos activos en la circulación, especialmente en adultos mayores con menor clearence renal. Aunque el paciente se recupere completamente con el bolo inicial de glucosa, el estímulo insulínico continúa y volverá a presentar hipoglicemia severa horas más tarde. Es imperativo hospitalizarlo con aporte continuo de suero glucosado al 10% por 24 horas."
+  },
+  {
+    "number": 26,
+    "id": "Q-DIABETES-26",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.3",
+    "topicTitle": "Nuevas Terapias: Inhibidores SGLT2, Agonistas GLP-1 e Inhibidores DPP-4",
+    "perfilCode": "1.04.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES (disponibilidad selectiva y guías internacionales)"
+    },
+    "stem": "Un paciente de 59 años con diabetes mellitus tipo 2 y antecedentes de infarto miocárdico hace 1 año presenta una HbA1c de 8.0% a pesar de recibir metformina 1.000 mg cada 12 horas. Se decide agregar dapagliflozina 10 mg al día. ¿Cuál es el efecto secundario de origen infeccioso más frecuentemente asociado al mecanismo de acción de este nuevo fármaco?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neumonía bacteriana por gérmenes atípicos"
+      },
+      {
+        "id": "B",
+        "text": "Infecciones micóticas genitales como vulvovaginitis o balanitis por Candida"
+      },
+      {
+        "id": "C",
+        "text": "Gastroenteritis aguda invasora por Campylobacter"
+      },
+      {
+        "id": "D",
+        "text": "Pielonefritis enfisematosa fulminante"
+      },
+      {
+        "id": "E",
+        "text": "Erisipela recurrente de extremidades inferiores"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Los inhibidores del cotransportador sodio-glucosa 2 (iSGLT2) como la dapagliflozina actúan bloqueando la reabsorción de glucosa en el túbulo proximal, excretando grandes cantidades de azúcar por la orina (glucosuria). El aumento de la concentración de glucosa en el tracto urogenital favorece la colonización y proliferación fúngica, siendo las infecciones micóticas genitales (candidiasis vulvovaginal en mujeres y balanitis en hombres) el efecto adverso más común (5 a 10% de los pacientes)."
+  },
+  {
+    "number": 27,
+    "id": "Q-DIABETES-27",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.3",
+    "topicTitle": "Nuevas Terapias: Inhibidores SGLT2, Agonistas GLP-1 e Inhibidores DPP-4",
+    "perfilCode": "1.04.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "No GES (disponibilidad selectiva y guías internacionales)"
+    },
+    "stem": "¿Cuál de los siguientes fármacos antidiabéticos orales del grupo de los inhibidores de la dipeptidil peptidasa-4 (iDPP-4) posee eliminación predominantemente hepática/biliar y, por lo tanto, NO requiere reducción de dosis en pacientes con enfermedad renal crónica avanzada en etapa 4 o 5?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sitagliptina"
+      },
+      {
+        "id": "B",
+        "text": "Vildagliptina"
+      },
+      {
+        "id": "C",
+        "text": "Linagliptina"
+      },
+      {
+        "id": "D",
+        "text": "Saxagliptina"
+      },
+      {
+        "id": "E",
+        "text": "Alogliptina"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "A diferencia de la sitagliptina y vildagliptina, que se eliminan principalmente por vía renal y requieren ajuste posológico según la VFG, la linagliptina se excreta en más del 80–90% por vía enterohepática a través de la bilis y las heces. Por este motivo, la linagliptina no requiere ningún ajuste de dosis en pacientes con insuficiencia renal en cualquier etapa (incluyendo pacientes en hemodiálisis o VFG < 15 mL/min), constituyendo una opción oral muy segura en nefropatía."
+  },
+  {
+    "number": 28,
+    "id": "Q-DIABETES-28",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.4",
+    "topicTitle": "Tratamiento y Monitoreo de la Diabetes en la Gestante",
+    "perfilCode": "1.04.2.001, 1.04.2.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Salud del Embarazo y Parto"
+    },
+    "stem": "Una mujer de 29 años, cursando embarazo de 28 semanas con diagnóstico de diabetes gestacional, lleva 14 días con régimen dietético fraccionado. En su registro de automonitoreo presenta glicemias de ayuno entre 80 y 90 mg/dL, pero el 30% de sus glicemias a la hora post-almuerzo y post-cena se encuentran entre 150 y 165 mg/dL. La ecografía fetal muestra un feto en percentil 60 de crecimiento. ¿Cuál es la conducta médica más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener la dieta exclusiva y reevaluar en un mes"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar glibenclamida oral 5 mg antes del almuerzo"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar insulina rápida (cristalina o ultrarrápida) antes de las comidas principales"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar insulina NPH nocturna a dosis de 0.2 UI/kg a las 22:00 horas"
+      },
+      {
+        "id": "E",
+        "text": "Programar interrupción inmediata del embarazo por vía cesárea"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La paciente presenta un fracaso de la terapia nutricional (> 20% de glicemias postprandiales sobre 140 mg/dL a la hora). Como las glicemias de ayuno son normales, no requiere insulina basal NPH nocturna. El tratamiento indicado es la adición de insulina prandial de acción rápida (cristalina o análogos lispro/aspart) administrada antes del almuerzo y la cena para aplanar los peaks glucémicos postprandiales. Los hipoglucemiantes orales como la glibenclamida están contraindicados."
+  },
+  {
+    "number": 29,
+    "id": "Q-DIABETES-29",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.4",
+    "topicTitle": "Tratamiento y Monitoreo de la Diabetes en la Gestante",
+    "perfilCode": "1.04.2.001, 1.04.2.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Salud del Embarazo y Parto"
+    },
+    "stem": "¿Cuál de las siguientes complicaciones fetales o neonatales es la consecuencia directa más frecuente de una diabetes gestacional mal controlada con hiperglicemias maternas postprandiales sostenidas durante el tercer trimestre?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agenesia sacra o síndrome de regresión caudal"
+      },
+      {
+        "id": "B",
+        "text": "Transposición de grandes vasos cardíacos"
+      },
+      {
+        "id": "C",
+        "text": "Macrosomía fetal con riesgo de distocia de hombros e hipoglicemia neonatal"
+      },
+      {
+        "id": "D",
+        "text": "Oligohidramnios severo con hipoplasia pulmonar"
+      },
+      {
+        "id": "E",
+        "text": "Restricción del crecimiento intrauterino simétrico severo"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La hiperglicemia materna en la segunda mitad del embarazo atraviesa la placenta libremente por difusión facilitada, estimulando al páncreas fetal a producir grandes cantidades de insulina (la cual no cruza la placenta). La insulina actúa en el feto como una potente hormona de crecimiento y anabolizante, provocando acumulación grasa en tronco y hombros (macrosomía fetal), con alto riesgo de distocia de hombros en el parto y de hipoglicemia neonatal grave tras el corte del cordón umbilical por cese brusco del aporte materno de glucosa. Las malformaciones mayores (A y B) son propias de la diabetes pregestacional descompensada en el primer trimestre."
+  },
+  {
+    "number": 30,
+    "id": "Q-DIABETES-30",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.02.1.008",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Hipertensión arterial en diabetes tipo 2 · 1.02.1.008] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Hipertensión arterial en diabetes tipo 2. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Hipertensión arterial en diabetes tipo 2\" (1.02.1.008), el estándar del Perfil V3 exige Diagnóstico Específico, Tratamiento Completo y Seguimiento Completo. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 31,
+    "id": "Q-DIABETES-31",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES): Hipertensión Arterial Primaria y DM2"
+    },
+    "stem": "Una paciente de 67 años, monorrena, es diagnos8cada recientemente de diabetes mellitus 8po 2. Sus exámenes muestran HbA1c de 8,5%, glicemia de ayuno de 132 mg/dL, crea8nina de 4,1 mg/dL, nitrógeno ureico de 68 mg/dL, potasio plasmá8co de 4,2 mEq/L y un clearance de crea8nina es8mado de 12 mL/min. Presenta una relación albuminuria/crea8nuria de 1.100 mg/g. ¿Qué fármaco es el más adecuado para iniciar el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meeormina"
+      },
+      {
+        "id": "B",
+        "text": "Glibenclamida"
+      },
+      {
+        "id": "C",
+        "text": "Vildaglip2na"
+      },
+      {
+        "id": "D",
+        "text": "Dapagliﬂozina"
+      },
+      {
+        "id": "E",
+        "text": "Semaglu2da"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Por tener HbA1c mayor a 7%, se debe avanzar en el tratamiento. Además, por la IRC están contraindicados la mayoría de los hipoglicemiantes orales, siendo indicación de insulina. Como alternativa modera están los agonistas GLP-1, como la semagluGda, liragluGda y dulagluGda. Los inhibidores SGLT-2, como la empaglifozina y la dapaglifozina, en cambio, requieren de una función renal adecuada para funcionar, ya que justamente bajan los niveles de azúcar, mediante glucosuria. Ambos, GLP- 1 y SGLT-2 son úGles en riesgo cardiovascular elevado, siendo una alternativa a la insulina."
+  },
+  {
+    "number": 32,
+    "id": "Q-DIABETES-32",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 60 años, diabético tipo 2, en tratamiento con 500 mg de metformina al día, acude a control, con hemoglobina glicosilada de 8,8%, proteinuria (+) y claerence de creatinina de 50 ml/min. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Subir la dosis de metformina"
+      },
+      {
+        "id": "B",
+        "text": "Agregar glibenclamida"
+      },
+      {
+        "id": "C",
+        "text": "Agregar insulina NPH nocturna"
+      },
+      {
+        "id": "D",
+        "text": "Tratar con mezcla de insulinas"
+      },
+      {
+        "id": "E",
+        "text": "Agregar glipizida al tratamiento"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "La insuficiencia renal contraindica los hipoglicemiantes orales: se debe dejar insulina. El tratamiento que tenía era pésimo."
+  },
+  {
+    "number": 33,
+    "id": "Q-DIABETES-33",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 78 años, diabé8co 8po 2 e hipertenso, sin controles hace 5 años, en tratamiento con enalapril, hidrocloro8azida, amlodipino y me{ormina, Acude a control, con exámenes de laboratorio. Su presión arterial es de 152/96 mmHg y su frecuencia cardíaca de 68 la8dos por minuto. Su examen cardiopulmonar y abdominal es normal. Entre sus exámenes destaca hemoglobina glicosilada: 6%, crea8nina plasmá8ca: 3,8 mg/dL, natremia: 140 mEq/L y potasemia: 4,8 mEq/L. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener el tratamiento"
+      },
+      {
+        "id": "B",
+        "text": "Suspender la meeormina"
+      },
+      {
+        "id": "C",
+        "text": "Suspender el diuré2co"
+      },
+      {
+        "id": "D",
+        "text": "Suspender el enalapril"
+      },
+      {
+        "id": "E",
+        "text": "Suspender el amlodipino"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Hay dos formas de enfrentar esta pregunta. 1. Paciente mayor de 75 años, el objetivo de hemoglobina glicosilada es menor a 8%, por tanto, está sobretratado y se puede suspender la me~ormina. 2. Tiene una insuﬁciencia renal crónica avanzada (creaGnina 3,8 mg/dl equivale a un clearence bajo 15 ml/min), por lo que está contraindicada la me~ormina. Los demás fármacos se pueden mantener, especialmente tomando en cuenta que su presión arterial sigue elevada (objetivo en mayores de 75 años suele ser <140-150/90 mmHg, en la mayoría de las fuentes) y que los electrolitos están normales."
+  },
+  {
+    "number": 34,
+    "id": "Q-DIABETES-34",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.02.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 45 años, diagnosticado de diabetes hace un mes, se le indicó tratamiento con metformina, la cual suspendió por que le producía diarrea, desde entonces ha estado asintomático. Acude a control con exámenes donde destaca hemoglobina glicosilada de 8,5%, glicemia de ayuno 180mg/dL, creatinina de 1,5 mg/dL. La conducta más adecuada en este caso es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indicar Insulina"
+      },
+      {
+        "id": "B",
+        "text": "Indicar glibenclamida"
+      },
+      {
+        "id": "C",
+        "text": "Indicar rosiglitazona"
+      },
+      {
+        "id": "D",
+        "text": "Indicar acarbosa"
+      },
+      {
+        "id": "E",
+        "text": "Indicar metformina de acción prolongada"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Por la crea de 1,5"
+  },
+  {
+    "number": 35,
+    "id": "Q-DIABETES-35",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.04.1.010",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Hipertensión Arterial Primaria y DM2"
+    },
+    "stem": "Un paciente de 58 años con diabetes mellitus tipo 2 de 5 años de evolución acude a control de salud. Presenta presiones arteriales promedio de 142/88 mmHg en tomas repetidas. El laboratorio reporta creatinina 0.9 mg/dL y una razón albúmina/creatinina en orina aislada de 180 mg/g (confirmada en dos muestras). ¿Cuál es el fármaco antihipertensivo de elección más indicado para iniciar tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atenolol 50 mg al día"
+      },
+      {
+        "id": "B",
+        "text": "Hidroclorotiazida 25 mg al día"
+      },
+      {
+        "id": "C",
+        "text": "Enalapril 10 a 20 mg al día (o Losartán 50 mg al día)"
+      },
+      {
+        "id": "D",
+        "text": "Furosemida 40 mg al día"
+      },
+      {
+        "id": "E",
+        "text": "Nifedipino de acción corta sublingual según necesidad"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "En todo paciente diabético hipertenso que presente albuminuria patológica (RAC ≥ 30 mg/g, en este caso 180 mg/g), el fármaco antihipertensivo de primera línea indiscutido según todas las guías de práctica clínica (ADA, KDIGO y MINSAL) es un inhibidor de la ECA (como Enalapril) o un antagonista de los receptores de angiotensina II (como Losartán). Estos agentes vasodilatan selectivamente la arteriola eferente, disminuyendo la presión capilar intraglomerular y confiriendo un beneficio nefroprotector directo superior a otros hipotensores."
+  },
+  {
+    "number": 36,
+    "id": "Q-DIABETES-36",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 2,
+    "blockName": "Farmacoterapia Oral y Manejo de DM2 en APS",
+    "topicLabel": "2.5",
+    "topicTitle": "Diabetes e Hipertensión Arterial: Metas Tensionales y Protección Renal",
+    "perfilCode": "1.04.1.010",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES): Hipertensión Arterial Primaria y DM2"
+    },
+    "stem": "¿Cuál es el mecanismo hemodinámico intrarrenal primario mediante el cual los fármacos inhibidores de la ECA (como enalapril) disminuyen la proteinuria y enlentecen la progresión de la nefropatía en pacientes diabéticos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vasoconstricción refleja de la arteriola eferente glomerular"
+      },
+      {
+        "id": "B",
+        "text": "Vasodilatación selectiva de la arteriola eferente glomerular, reduciendo la presión capilar intraglomerular"
+      },
+      {
+        "id": "C",
+        "text": "Vasoconstricción intensa de la arteriola aferente con disminución del flujo plasmático"
+      },
+      {
+        "id": "D",
+        "text": "Aumento de la permeabilidad de la membrana basal glomerular a las macromoléculas"
+      },
+      {
+        "id": "E",
+        "text": "Bloqueo directo de la reabsorción tubular de sodio en el asa de Henle"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La angiotensina II endógena genera una potente vasoconstricción sobre la arteriola eferente, lo que eleva de forma patológica la presión hidrostática dentro del ovillo capilar glomerular en la diabetes. Al bloquear la síntesis de angiotensina II con un IECA (enalapril), se produce una vasodilatación predominante de la arteriola eferente, disminuyendo la presión intraglomerular (presión de filtración), lo que alivia el estrés mecánico sobre los podocitos y disminuye notablemente la albuminuria."
+  },
+  {
+    "number": 37,
+    "id": "Q-DIABETES-37",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.1",
+    "topicTitle": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+    "perfilCode": "1.04.1.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "En el enfrentamiento clínico sistemático de Tipos de Insulina, Farmacocinética e Indicaciones de Inicio (Variante de Práctica 1) en APS o Servicio de Urgencia según la norma técnica MINSAL, ¿cuál es la conducta diagnóstica o terapéutica de primera línea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "La insulina NPH tiene un pico a las 4–10 horas; inyectada en la cena genera hipoglicemia nocturna; por ello debe indicarse al acostarse (bedtime, 22:00–23:00 hrs)."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo y analgesia condicional sin estudio diagnóstico confirmatorio ni seguimiento."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar estudio terciario de alta complejidad antes de estabilizar y aplicar medidas básicas."
+      },
+      {
+        "id": "D",
+        "text": "Indicar tratamiento empírico con antibióticos o corticoides en dosis plenas sin indicación precisa."
+      },
+      {
+        "id": "E",
+        "text": "Derivar en forma electiva a especialista sin iniciar estudio básico ni soporte inicial."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Según el Perfil de Conocimientos V3 ASOFAMECh y las guías de práctica clínica para Tipos de Insulina, Farmacocinética e Indicaciones de Inicio, la conducta médica prioritaria es: La insulina NPH tiene un pico a las 4–10 horas; inyectada en la cena genera hipoglicemia nocturna; por ello debe indicarse al acostarse (bedtime, 22:00–23:00 hrs).. Las demás opciones representan conductas diferidas o inapropiadas en el nivel primario."
+  },
+  {
+    "number": 38,
+    "id": "Q-DIABETES-38",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.1",
+    "topicTitle": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+    "perfilCode": "1.04.1.004, 1.04.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Un paciente de 65 años, diabético tipo 2 de 10 años de evolución, consulta por astenia y baja de peso involuntaria de 6 kg en el último mes, acompañada de poliuria y polidipsia. Actualmente toma metformina 850 mg cada 12 horas y glibenclamida 10 mg cada 12 horas. Sus exámenes demuestran: glicemia de ayunas 282 mg/dL, HbA1c 10.8%, creatinina 1.0 mg/dL y sedimento de orina normal. ¿Cuál es la conducta terapéutica más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar la dosis de metformina a 1000 mg cada 8 horas y agregar pioglitazona"
+      },
+      {
+        "id": "B",
+        "text": "Suspender glibenclamida e iniciar un inhibidor de DPP-4 (sitagliptina)"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar insulina NPH nocturna asociada a metformina"
+      },
+      {
+        "id": "D",
+        "text": "Indicar dieta estricta sin carbohidratos y citar a control en 3 meses"
+      },
+      {
+        "id": "E",
+        "text": "Cambiar glibenclamida por glimepirida y solicitar prueba de tolerancia a la glucosa oral"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "El paciente presenta síntomas catabólicos francos (baja de peso de 6 kg, poliuria, polidipsia) y una HbA1c de 10.8% pese a estar en biterapia oral a dosis plenas. La indicación indiscutida en la guía GES de DM2 y normas internacionales es el inicio de insulinoterapia basal (NPH nocturna 0.1-0.2 UI/kg o 10 UI bedtime), manteniendo la metformina para mitigar el aumento de peso y mejorar la sensibilidad insulínica."
+  },
+  {
+    "number": 39,
+    "id": "Q-DIABETES-39",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.1",
+    "topicTitle": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+    "perfilCode": "1.04.1.004, 1.04.1.009",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Una paciente de 24 años con diabetes mellitus tipo 1 en tratamiento con esquema intensificado de insulina consulta por presentar de forma reiterada episodios de sudoración profusa, palpitaciones y temblor entre las 03:00 y las 04:00 de la madrugada. Utiliza insulina NPH a las 20:00 horas (junto con la cena) e insulina cristalina antes de cada comida principal. ¿Cuál es la modificación farmacológica más apropiada para prevenir estos episodios?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender la dosis de insulina cristalina previa a la cena"
+      },
+      {
+        "id": "B",
+        "text": "Trasladar la administración de la insulina NPH desde la cena hacia el momento de acostarse (22:30–23:00 hrs)"
+      },
+      {
+        "id": "C",
+        "text": "Reducir los carbohidratos complejos de la colación nocturna"
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar la insulina NPH por una dosis matinal única de insulina cristalina"
+      },
+      {
+        "id": "E",
+        "text": "Aumentar la dosis de insulina NPH en la cena para superar la hipoglicemia de rebote"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La insulina NPH presenta un pico de acción máximo entre 4 y 10 horas después de su inyección subcutánea. Si se administra con la cena (20:00 hrs), su pico coincide con el nadir fisiológico de glicemia entre las 02:00 y 04:00 AM, provocando hipoglicemias nocturnas sintomáticas. La medida clásica recomendada es trasladar la inyección de NPH al momento de acostarse (\"bedtime\", 22:30-23:00 hrs), desplazando el pico hacia las 06:00-08:00 AM, donde coincide con el despertar y el desayuno."
+  },
+  {
+    "number": 40,
+    "id": "Q-DIABETES-40",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.2",
+    "topicTitle": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+    "perfilCode": "1.04.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Un paciente de 20 años, con diagnóstico de diabetes mellitus tipo 1, se encuentra en tratamiento con una dosis de insulina NPH matinal y tres dosis de insulina cristalina preprandiales. Se realiza un automonitoreo capilar que demuestra glicemias basales y postprandiales normales, excepto la glicemia medida dos horas después del almuerzo, que de manera constante se encuentra entre 220 y 250 mg/dL. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar la dosis de insulina NPH matinal"
+      },
+      {
+        "id": "B",
+        "text": "Aumentar la dosis de insulina cristalina previa al almuerzo"
+      },
+      {
+        "id": "C",
+        "text": "Agregar una dosis de insulina NPH antes del almuerzo"
+      },
+      {
+        "id": "D",
+        "text": "Aumentar la dosis de insulina cristalina previa al desayuno"
+      },
+      {
+        "id": "E",
+        "text": "Indicar una colación rica en proteínas a media tarde"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La insulina cristalina administrada antes de una comida tiene como función específica controlar la excursión glucémica postprandial producida por dicha ingesta. Dado que el paciente presenta exclusivamente hiperglicemias postprandiales tras el almuerzo (220-250 mg/dL), manteniendo el resto de sus mediciones en rangos óptimos, la conducta terapéutica precisa es aumentar la dosis de insulina cristalina administrada antes del almuerzo."
+  },
+  {
+    "number": 41,
+    "id": "Q-DIABETES-41",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.2",
+    "topicTitle": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+    "perfilCode": "1.04.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Un paciente de 18 años, con diabetes mellitus tipo 1 en tratamiento con insulina NPH en dos dosis (mañana y noche) e insulina ultra-rápida antes de las comidas, consulta porque sus controles de glicemia matinal en ayunas resultan constantemente elevados, fluctuando entre 220 y 260 mg/dL. No presenta síntomas diurnos. Para precisar la causa de esta alteración y definir el tratamiento, ¿cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar en 4 unidades la dosis de insulina NPH nocturna de forma empírica"
+      },
+      {
+        "id": "B",
+        "text": "Solicitar una glicemia capilar a las 03:00 de la madrugada"
+      },
+      {
+        "id": "C",
+        "text": "Solicitar una hemoglobina glicosilada fraccionada urgente"
+      },
+      {
+        "id": "D",
+        "text": "Adelantar la inyección de NPH nocturna a la hora de la cena"
+      },
+      {
+        "id": "E",
+        "text": "Cambiar la insulina ultra-rápida por insulina regular pre-cena"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La hiperglicemia matinal en ayunas en un paciente con insulina basal nocturna puede deberse a dos fenómenos con manejos radicalmente opuestos: el Efecto Somogyi (hipoglicemia nocturna que desencadena rebote hiperglicémico por hormonas contrarreguladoras) o el Fenómeno del Alba (hiperglicemia por secreción matinal de GH y cortisol). La única manera de diferenciarlos con certeza es medir la glicemia capilar en la madrugada (alrededor de las 03:00 AM). Si es baja (< 70 mg/dL) se reduce la insulina nocturna; si es normal o alta, se incrementa."
+  },
+  {
+    "number": 42,
+    "id": "Q-DIABETES-42",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.2",
+    "topicTitle": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+    "perfilCode": "1.04.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Una mujer de 58 años, diabética tipo 2 en tratamiento con metformina 850 mg cada 12 horas e insulina NPH 14 UI al acostarse (22:30 hrs). Trae su control de glicemias capilares de ayuno de los últimos 5 días: 188, 192, 179, 195 y 184 mg/dL. No ha presentado sudoración nocturna, temblores ni pesadillas. La glicemia a las 03:00 AM fue de 145 mg/dL. ¿Cuál es el ajuste farmacológico más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disminuir la insulina NPH a 10 UI al acostarse"
+      },
+      {
+        "id": "B",
+        "text": "Mantener la dosis actual y solicitar curva de tolerancia a la glucosa oral"
+      },
+      {
+        "id": "C",
+        "text": "Aumentar la insulina NPH a 18 UI al acostarse"
+      },
+      {
+        "id": "D",
+        "text": "Suspender la metformina y cambiar a sulfonilurea matinal"
+      },
+      {
+        "id": "E",
+        "text": "Agregar 10 UI de insulina cristalina a las 22:30 hrs"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La paciente presenta glicemias de ayuno persistentemente elevadas (> 180 mg/dL) con una medición a las 03:00 AM también elevada (145 mg/dL), lo que descarta de plano un efecto Somogyi y confirma que la dosis de insulina basal nocturna es insuficiente. Según el algoritmo de titulación de insulina basal, ante glicemias de ayuno > 180 mg/dL se debe incrementar la dosis de insulina basal nocturna en 4 unidades (de 14 a 18 UI), reevaluando en 3 a 5 días."
+  },
+  {
+    "number": 43,
+    "id": "Q-DIABETES-43",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.2",
+    "topicTitle": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+    "perfilCode": "1.04.1.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1"
+    },
+    "stem": "Un paciente de 62 años con DM2 en insulinoterapia basal con NPH 26 UI al acostarse y metformina 850 mg cada 8 horas. Sus glicemias de ayuno se encuentran perfectamente controladas (promedio 102 mg/dL), pero su último control de HbA1c resulta en 8.4%. Su automonitoreo evidencia glicemias post-almuerzo de 230–260 mg/dL, mientras que tras el desayuno y cena son de 130–145 mg/dL. ¿Cuál es la estrategia recomendada por las guías clínicas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aumentar la dosis de insulina NPH nocturna a 34 UI"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar esquema Basal-Plus agregando un bolo de insulina prandial antes del almuerzo"
+      },
+      {
+        "id": "C",
+        "text": "Fraccionar la insulina NPH en dos tercios en la mañana y un tercio en la noche"
+      },
+      {
+        "id": "D",
+        "text": "Agregar glibenclamida 10 mg con el almuerzo"
+      },
+      {
+        "id": "E",
+        "text": "Suspender la insulina y reiniciar monoterapia con metformina"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El paciente ha alcanzado la meta de glicemia de ayuno mediante su insulina basal nocturna, pero persiste fuera de la meta de HbA1c (< 7.0%) debido a excursiones hiperglicémicas postprandiales marcadas concentradas exclusivamente en el almuerzo (230-260 mg/dL). La conducta de intensificación avalada internacionalmente es la transición a un esquema Basal-Plus, incorporando un bolo de insulina prandial (rápida o ultrarrápida, 4 UI o 10% de la basal) inmediatamente antes del almuerzo."
+  },
+  {
+    "number": 44,
+    "id": "Q-DIABETES-44",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.3",
+    "topicTitle": "Manejo de la Hiperglicemia en el Paciente Hospitalizado",
+    "perfilCode": "1.04.1.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "Un paciente de 72 años, diabético tipo 2 en tratamiento ambulatorio regular con metformina 850 mg cada 8 horas, ingresa al hospital por un cuadro de sepsis de foco urinario, evidenciándose PA 88/55 mmHg, taquicardia de 112 lpm y creatinina plasmática de 2.2 mg/dL. Su glicemia capilar de ingreso es de 260 mg/dL. ¿Cuál es la indicación farmacológica más apropiada para el manejo de su diabetes durante la hospitalización?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuar metformina y agregar glibenclamida 5 mg cada 12 horas"
+      },
+      {
+        "id": "B",
+        "text": "Suspender metformina e indicar insulina cristalina en esquema móvil aislado según hemoglucotest cada 6 horas"
+      },
+      {
+        "id": "C",
+        "text": "Suspender metformina e iniciar insulinoterapia con esquema basal más correcciones de insulina rápida subcutánea"
+      },
+      {
+        "id": "D",
+        "text": "Mantener metformina reduciendo la dosis a la mitad y administrar bicarbonato profiláctico"
+      },
+      {
+        "id": "E",
+        "text": "Indicar hidratación vigorosa sin administrar hipoglucemiantes hasta que la glicemia supere los 300 mg/dL"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "En todo paciente hospitalizado con sepsis, falla renal aguda o hipotensión, la metformina debe suspenderse de inmediato ante el elevado riesgo de acidosis láctica. Asimismo, el uso exclusivo del \"esquema móvil\" está contraindicado por su ineficacia y variabilidad. La conducta correcta y estándar es iniciar insulinoterapia programada mediante un esquema basal (NPH o análogo prolongado) complementado con dosis de corrección de insulina rápida subcutánea, buscando una meta glicémica entre 140 y 180 mg/dL."
+  },
+  {
+    "number": 45,
+    "id": "Q-DIABETES-45",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.3",
+    "topicTitle": "Manejo de la Hiperglicemia en el Paciente Hospitalizado",
+    "perfilCode": "1.04.1.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2"
+    },
+    "stem": "¿Cuál es el rango de glicemia recomendado como objetivo terapéutico en la gran mayoría de los pacientes diabéticos adultos no gestantes hospitalizados en servicios de medicina interna?",
+    "options": [
+      {
+        "id": "A",
+        "text": "70 a 100 mg/dL"
+      },
+      {
+        "id": "B",
+        "text": "80 a 130 mg/dL"
+      },
+      {
+        "id": "C",
+        "text": "140 a 180 mg/dL"
+      },
+      {
+        "id": "D",
+        "text": "180 a 250 mg/dL"
+      },
+      {
+        "id": "E",
+        "text": "Menor a 110 mg/dL en todo momento"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Las guías clínicas internacionales (ADA, Endocrine Society) y los consensos hospitalarios establecen que la meta de glicemia recomendada para la gran mayoría de los pacientes hospitalizados (tanto críticos como no críticos en salas de medicina) es de 140 a 180 mg/dL (7.8 a 10.0 mmol/L). Intentar descensos a valores < 110 mg/dL no reduce complicaciones infecciosas y se asocia a un aumento drástico de hipoglicemias severas y mortalidad global."
+  },
+  {
+    "number": 46,
+    "id": "Q-DIABETES-46",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.02.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica APS"
+    },
+    "stem": "Un paciente de 60 años, con antecedente de diabetes mellitus 2 insulinodependien- te, en tratamiento con insulina NPH 30U en la mañana y 20 U en la noche. Presenta un cuadro de malestar, sudoración y palpitaciones intensas a las 3 de la madrugada, cons- tatándose un hemoglucotest de 50mg/dL. Su examen físico no muestra alteraciones. ¿Cuál",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disminuir la insulina NPH matinal"
+      },
+      {
+        "id": "B",
+        "text": "Suspender la insulina NPH matinal"
+      },
+      {
+        "id": "C",
+        "text": "Disminuir la insulina NPH nocturna"
+      },
+      {
+        "id": "D",
+        "text": "Suspender la insulina NPH nocturna"
+      },
+      {
+        "id": "E",
+        "text": "Disminuir ambas dosis de insulina NPH"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Está con hipoglicemias por insulina. La NPH nocturna es la que determina las gli- cemias a las 3 a.m., por lo que se debe disminuir esa."
+  },
+  {
+    "number": 47,
+    "id": "Q-DIABETES-47",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.02.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 78 años, diabético, en tratamiento con glibenclamida 15 mg/día, presenta convulsiones tónico-clónicas subintrantes desde hace algunos minutos. Hace 3 días se realizó control de exámenes, con glicemia de ayuno de 185 mg/dl y electrolitos plasmáticos dentro de rangos normales. ¿Cuál es la causa más probable de sus convulsiones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hipomagnesemia"
+      },
+      {
+        "id": "B",
+        "text": "Hipernatremia"
+      },
+      {
+        "id": "C",
+        "text": "Hipoglicemia"
+      },
+      {
+        "id": "D",
+        "text": "Hipocalcemia"
+      },
+      {
+        "id": "E",
+        "text": "Cetoacidosis"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La glibenclamida tiene alto riesgo de hipoglicemia. Además, este es el típico caso en que el paciente mal controlado decide \"autorreforzar\" su tratamiento, después de que los exámenes le salen mal, produciendo hipoglicemias. Que haya tenido glicemia alta antes, no impide que ahora esté baja. De las demás opciones, solo la hiponatremia produce convulsiones con cierta frecuencia."
+  },
+  {
+    "number": 48,
+    "id": "Q-DIABETES-48",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.02.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 78 años, diabético, en tratamiento con glibenclamida, presenta convulsiones tónico- clónicas subintrantes hace algunos minutos. Hace 3 días se realizó control de exámenes, con glicemia de 185 mg/dl y electrolitos plasmáticos dentro de rangos normales. ¿Cuál es la causa más probable de sus convulsiones?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hipomagnesemia"
+      },
+      {
+        "id": "B",
+        "text": "Hipernatremia"
+      },
+      {
+        "id": "C",
+        "text": "Hipoglicemia"
+      },
+      {
+        "id": "D",
+        "text": "Hipocalcemia"
+      },
+      {
+        "id": "E",
+        "text": "Cetoacidosis (nota: subintrante significa que comienza una nueva crisis, antes de recuperarse por completo de la anterior)"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Tanto por la clínica, como por el antecedente de glibenclamida, lo más probable es que tenga hipoglicemias (probablemente se sintió mal de haber estado mal controlado e intentó arreglar sus glicemias subiendo la dosis de GBC)."
+  },
+  {
+    "number": 49,
+    "id": "Q-DIABETES-49",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.02.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Hombre de 50 años operado de bypass gástrico hace 1 año. Consulta por episodios de sudoración, temblor y mareo 2 horas después de las comidas. Glicemia capilar durante el episodio: 52 mg/dL. ¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Úlcera marginal"
+      },
+      {
+        "id": "B",
+        "text": "Obstrucción de la anastomosis"
+      },
+      {
+        "id": "C",
+        "text": "Dumping tardío (hipoglicemia reactiva postprandial)"
+      },
+      {
+        "id": "D",
+        "text": "Hipoglicemia por insulinoma"
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de asa aferente"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Dumping tardío: hipoglicemia 1-3h postprandial por liberación exagerada de insulina tras la hiperglicemia inicial del dumping precoz. Exclusivo del bypass gástrico. Tratamiento: comidas pequeñas y frecuentes, reducción de carbohidratos simples, acarbosa."
+  },
+  {
+    "number": 50,
+    "id": "Q-DIABETES-50",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.02.2.006",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 67 años, diabético, tipo 2, en tratamiento con metformina 1700 mg/día y glibenclamida 20 mg/día, ambos separados en dos dosis diarias consulta por episodios repetidos de mareos, malestar y sudoración, asociado a temblor, que ocurren al final de la mañana o antes de almuerzo. Han coincidido con glicemias capilares de 65 mg/dl. Su IMC es 32 Kg/m2. Su hemoglobina A1c resulta 8,1. ¿Cuál es la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender la glibenclamida"
+      },
+      {
+        "id": "B",
+        "text": "Agregar una colación con 25 gramos de hidrato de carbono antes del almuerzo"
+      },
+      {
+        "id": "C",
+        "text": "Suspender la glibenclamida"
+      },
+      {
+        "id": "D",
+        "text": "Reemplazar la glibenclamida por sitagliptina"
+      },
+      {
+        "id": "E",
+        "text": "Reemplazar la metformina por pioglitazona"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "Tiene clínica de hipoglicemias, que probablemente son causadas por la glibenclamida. Por eso se debe cambiar por otro hipoglicemiante. Como tiene un mal control metabólico (HbA1c alta), no se debe agregar la colación"
+  },
+  {
+    "number": 51,
+    "id": "Q-DIABETES-51",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.04.1.018, 1.04.1.019",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica APS"
+    },
+    "stem": "Un paciente de 78 años, diabético tipo 2 en tratamiento con glibenclamida 10 mg al día y metformina 850 mg cada 12 horas, es ingresado al servicio de urgencias por compromiso de conciencia de inicio súbito. Al examen se encuentra soporoso, sudoroso y pálido, con una glicemia capilar de 34 mg/dL. Se administran 40 ml de glucosa al 30% por vía endovenosa, con lo cual el paciente recupera completamente la lucidez en 5 minutos y se encuentra orientado y asintomático. ¿Cuál es la conducta más adecuada a seguir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dar de alta con indicación de colación rica en carbohidratos y suspender la dosis de glibenclamida de ese día"
+      },
+      {
+        "id": "B",
+        "text": "Hospitalizar al paciente por al menos 24 a 48 horas con infusión continua de glucosa y monitoreo seriado de glicemias"
+      },
+      {
+        "id": "C",
+        "text": "Mantener en observación por 2 horas y dar de alta si el hemoglucotest es mayor a 100 mg/dL"
+      },
+      {
+        "id": "D",
+        "text": "Administrar 1 mg de glucagón por vía intramuscular y enviar a su domicilio con acompañante"
+      },
+      {
+        "id": "E",
+        "text": "Reiniciar inmediatamente la metformina a dosis plena y reducir la glibenclamida a 2.5 mg"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La glibenclamida es una sulfonilurea de acción prolongada cuyos metabolitos activos tienen una depuración muy lenta, especialmente en pacientes ancianos con filtración glomerular reducida. Aunque la glucosa endovenosa en bolo revierta temporalmente la neuroglucopenia, el fármaco continúa circulando y produciendo hiperinsulinismo, por lo que la hipoglicemia reaparecerá inexorablemente horas después. La norma clínica exige hospitalizar al paciente por un periodo de 24 a 48 horas con aporte continuo de glucosa parenteral."
+  },
+  {
+    "number": 52,
+    "id": "Q-DIABETES-52",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.04.1.018, 1.04.1.019",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica APS"
+    },
+    "stem": "Una mujer de 32 años, enfermera de profesión, sin antecedentes médicos conocidos, es traída a urgencias por haber presentado 4 episodios de confusión mental, visión borrosa y sudoración profusa en el último mes. Durante uno de los episodios en el hospital, se constata una glicemia venosa de 38 mg/dL. Los exámenes de laboratorio tomados durante la hipoglicemia revelan: insulina plasmática marcadamente elevada, péptido C indetectable y screening negativo para sulfonilureas en orina. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insulinoma maligno diseminado"
+      },
+      {
+        "id": "B",
+        "text": "Síndrome de dumping tardío posprandial"
+      },
+      {
+        "id": "C",
+        "text": "Administración subrepticia de insulina exógena (hipoglicemia facticia)"
+      },
+      {
+        "id": "D",
+        "text": "Ingesta accidental o encubierta de glibenclamida"
+      },
+      {
+        "id": "E",
+        "text": "Insuficiencia suprarrenal primaria autoinmune (Enfermedad de Addison)"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La secreción endógena de insulina por las células beta pancreáticas libera equimolarmente insulina y péptido C a la circulación portal. Por lo tanto, tanto en el estado fisiológico como en la presencia de un insulinoma o tras la ingesta de sulfonilureas, la elevación de la insulina plasmática se acompaña de un péptido C elevado. La combinación patognomónica de insulina plasmática muy alta con péptido C suprimido o indetectable es diagnóstica de administración exógena de insulina (habitualmente formulaciones farmacéuticas que carecen de péptido C), configurando un cuadro de hipoglicemia facticia."
+  },
+  {
+    "number": 53,
+    "id": "Q-DIABETES-53",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.04.1.018, 1.04.1.019",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica APS"
+    },
+    "stem": "Un paciente de 22 años con DM1 presenta temblor, palpitaciones, diaforesis y una glicemia capilar de 58 mg/dL. Se encuentra lúcido, colaborativo y con capacidad para deglutir normalmente. ¿Cuál es el manejo inicial recomendado según la evidencia y guías clínicas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar 1 mg de glucagón intramuscular de inmediato"
+      },
+      {
+        "id": "B",
+        "text": "Indicar la ingesta de 15 gramos de hidratos de carbono simples por vía oral y reevaluar la glicemia en 15 minutos"
+      },
+      {
+        "id": "C",
+        "text": "Canalizar una vía venosa periférica e infundir 2 ampollas de glucosa al 30% en bolo"
+      },
+      {
+        "id": "D",
+        "text": "Indicar el consumo de un sándwich con mantequilla y carne para retardar la absorción"
+      },
+      {
+        "id": "E",
+        "text": "Indicar reposo absoluto y esperar 1 hora para una nueva medición sin ingerir alimentos"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "En todo paciente con hipoglicemia Nivel 1 o 2 que se encuentre consciente y con la vía oral preservada, el tratamiento de elección es la \"Regla de los 15\": administrar 15 gramos de carbohidratos de absorción rápida por vía oral (ej. medio vaso de bebida azucarada, agua con 3 cucharaditas de azúcar o 150 ml de jugo), aguardar 15 minutos en reposo y verificar con un nuevo hemoglucotest que la glicemia supere los 70 mg/dL."
+  },
+  {
+    "number": 54,
+    "id": "Q-DIABETES-54",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 3,
+    "blockName": "Insulinoterapia y Manejo Hospitalario",
+    "topicLabel": "3.4",
+    "topicTitle": "Hipoglicemias: Tríada de Whipple, Fármacos Culpables y Rescate",
+    "perfilCode": "1.04.1.018, 1.04.1.019",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica APS"
+    },
+    "stem": "Un hombre de 62 años con diabetes mellitus e hipertensión arterial consulta por mareos y sensación de desmayo ocasional. Refiere que toma enalapril, propranolol y glibenclamida. Durante los últimos controles ha presentado glicemias de 50 a 60 mg/dL sin haber percibido palpitaciones, sudoración ni temblores previos. ¿A qué fármaco de su terapia se atribuye principalmente el enmascaramiento de los síntomas autonómicos de hipoglicemia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enalapril"
+      },
+      {
+        "id": "B",
+        "text": "Glibenclamida"
+      },
+      {
+        "id": "C",
+        "text": "Propranolol"
+      },
+      {
+        "id": "D",
+        "text": "A la combinación de enalapril con glibenclamida"
+      },
+      {
+        "id": "E",
+        "text": "A ninguno, se debe exclusivamente a neuropatía autonómica diabética avanzada"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Los betabloqueadores no cardioselectivos como el propranolol bloquean los receptores beta-1 y beta-2 adrenérgicos, suprimiendo las manifestaciones mediadas por la descarga simpática ante la hipoglicemia (taquicardia, palpitaciones, temblores y ansiedad). Esto priva al paciente de sus señales de alarma tempranas, favoreciendo el desarrollo de hipoglicemias severas inadvertidas. Es un concepto clásico del EUNACOM que la sudoración (diaforesis) suele persistir, ya que está mediada por receptores colinérgicos muscarínicos simpáticos."
+  },
+  {
+    "number": 55,
+    "id": "Q-DIABETES-55",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "",
+    "topicTitle": "Déficit agudo de tiamina",
+    "perfilCode": "1.02.2.004",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "Hombre con antecedente de cirugía bariátrica hace 1 año+consumo de OH desde hace 7 meses, deja de asistir a control médico, parte con 1 semana de evolución de ataxia, dificultad de la marcha, visión doble,confusión, somnolencia, cual es la deficiencia:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tiamina, Wernicke, llevaba solo un año desde la Cx y la presentación de síntomas era más aguda. Tenia triada de wernicke: encefalopatía, oftalmoplejía y ataxia (COCA como le dice Guevara)."
+      },
+      {
+        "id": "B",
+        "text": "Vitamina B12"
+      },
+      {
+        "id": "C",
+        "text": "Vitamina C"
+      },
+      {
+        "id": "D",
+        "text": "Laparotomía exploratoria"
+      },
+      {
+        "id": "E",
+        "text": "Cirugía laparoscópica"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Pregunta oficial de examen EUNACOM (EUNACOM Diciembre 2024 · Pregunta 22). Evalúa el manejo clínico de Déficit agudo de tiamina según directrices MINSAL vigentes."
+  },
+  {
+    "number": 56,
+    "id": "Q-DIABETES-56",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.02.1.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Neuropatía diabética · 1.02.1.011] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Neuropatía diabética. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Neuropatía diabética\" (1.02.1.011), el estándar del Perfil V3 exige Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 57,
+    "id": "Q-DIABETES-57",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.02.2.001",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Acidosis láctica · 1.02.2.001] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Acidosis láctica. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Acidosis láctica\" como urgencia clínica (1.02.2.001), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 58,
+    "id": "Q-DIABETES-58",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.02.2.002",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Un joven de 14 años, deportista de alto rendimiento, consulta por un cuadro de poldipsia y poliuria de 3 semanas de evolución, al que hace 7 días se agrega astenia, náuseas y malestar general. Refiere marcada debilidad, después de realizar ejercicio. Se solicitan exámenes, en las que destaca glicemia: 312 mg/dl, Na+: 132 mEq/L, K+: 5,0 mEq/L, pH sanguíneo: 7,26, bicarbonato plasmático: 11 mEq/L, exceso de base: -13. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hiperglicemia secundaria al ejercicio"
+      },
+      {
+        "id": "B",
+        "text": "Cetoacidosis diabética"
+      },
+      {
+        "id": "C",
+        "text": "Debut de diabetes tipo 2"
+      },
+      {
+        "id": "D",
+        "text": "Diabetes insípida descompensada"
+      },
+      {
+        "id": "E",
+        "text": "Coma hiperosmolar"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Es una cetoacidosis diabética clásica (acidosis metabólica y diabetes tipo 1)."
+  },
+  {
+    "number": 59,
+    "id": "Q-DIABETES-59",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.02.2.003",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "No requiere",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Un paciente de 70 años presenta un cuadro de malestar general y poliuria de dos semanas de evolución, agregándose desorientación y compromiso de conciencia cuan8ta8vo en las úl8mas 48 horas. En su examen, no presenta focalidad neurológica y sus laboratorios revelan glicemia: 950 mg/dL, pH venoso: 7,37, bicarbonato: 18 mEq/L, cetonemia (-), cetonuria (+), sodio plasmá8co: 149 mEq/L y potasio plasmá8co: 5,0 mEq/L. ¿Cuál es el diagnós8co más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coma hiperosmolar no cetósico"
+      },
+      {
+        "id": "B",
+        "text": "Cetoacidosis diabé2ca"
+      },
+      {
+        "id": "C",
+        "text": "Síndrome hiperglicémico mixto (hiperosmolar + cetoacidosis)"
+      },
+      {
+        "id": "D",
+        "text": "Hipernatremia sintomá2ca"
+      },
+      {
+        "id": "E",
+        "text": "Edema cerebral"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "Es un síndrome hiperglicémico hiperosmolar (Sd. HGHO) clásico, cuyo otro nombre es “coma hiperosmolar no cetósico”. No hay acidosis (cetoacidosis requiere pH < 7,3 y HCO3 < 15 mEq/L). Se puede estimar la osmolaridad con una fórmula (Osmolaridad = 2xfía + BUN/2,8 + glicemia/18, que en este caso, sin tomar en cuenta el BUN ya da 350 mOsm/L), sin embargo, suele bastar una glicemia mayor a 600 para que con alVsima probabilidad cumpla el criterio de la osmolaridad > 320 mOsm/L, propio del Sd. HGHO)."
+  },
+  {
+    "number": 60,
+    "id": "Q-DIABETES-60",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.02.2.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[URGENCIA: Síndrome hiperosmolar no cetósico · 1.02.2.007] Paciente adulto consulta de urgencia en Servicio de Urgencia (SAR/SAPU/Hospital) con signos cardinales de Síndrome hiperosmolar no cetósico. Al examen físico destaca compromiso hemodinámico/respiratorio agudo. De acuerdo con el Perfil de Conocimientos V3 ASOFAMECh y las directrices clínicas de urgencias en Chile, ¿cuál es la conducta médica prioritaria e inmediata?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asegurar monitorización multiparámetro, estabilización hemodinámica/respiratoria inicial, administrar tratamiento farmacológico de rescate de primera línea e iniciar coordinación con centro terciario."
+      },
+      {
+        "id": "B",
+        "text": "Indicar manejo analgésico sintomático vía oral y programar control ambulatorio electivo en APS en 7 días."
+      },
+      {
+        "id": "C",
+        "text": "Solicitar tomografía contrastada de cuerpo entero y panel de anticuerpos complejos antes de estabilizar al paciente."
+      },
+      {
+        "id": "D",
+        "text": "Administrar sedación profunda inmediata e intubación endotraqueal electiva sin evaluar la mecánica ventilatoria basal."
+      },
+      {
+        "id": "E",
+        "text": "Diferir cualquier medida farmacológica de urgencia hasta obtener confirmación de hemocultivos y serologías."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. En el enfrentamiento de \"Síndrome hiperosmolar no cetósico\" como urgencia clínica (1.02.2.007), las exigencias del Perfil V3 para el médico general establecen el deber de Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. La prioridad crítica es la reanimación fisiológica inmediata y soporte vital antes de cualquier estudio confirmatorio o diferido. Las opciones B, C, D y E representan conductas que retrasan el tratamiento de rescate o comprometen la seguridad vital del paciente."
+  },
+  {
+    "number": 61,
+    "id": "Q-DIABETES-61",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.04.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Un paciente de 17 años consulta en el servicio de urgencias por náuseas, vómitos reiterados y dolor abdominal intenso de 12 horas de evolución. Al examen físico destaca taquipnea profunda de 28 respiraciones por minuto, aliento con olor frutal y mucosas secas. Los exámenes de laboratorio revelan: glicemia 390 mg/dL, pH arterial 7.15, bicarbonato 11 mEq/L, sodio 134 mEq/L, potasio 5.1 mEq/L, cloro 98 mEq/L y glucosuria con cetonuria ++++. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Estado hiperglicémico hiperosmolar"
+      },
+      {
+        "id": "B",
+        "text": "Cetoacidosis diabética moderada a severa"
+      },
+      {
+        "id": "C",
+        "text": "Apendicitis aguda complicada con peritonitis séptica"
+      },
+      {
+        "id": "D",
+        "text": "Pancreatitis aguda necrohemorrágica"
+      },
+      {
+        "id": "E",
+        "text": "Acidosis láctica asociada a hipovolemia simple"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El paciente presenta todos los criterios diagnósticos de una Cetoacidosis Diabética Severa (pH arterial < 7.25, bicarbonato < 15 mEq/L, glicemia > 250 mg/dL, cetonuria marcada y un Anion Gap marcadamente elevado de 134 - [98 + 11] = 25 mEq/L). La taquipnea profunda corresponde a la respiración de Kussmaul y el dolor abdominal es un síntoma frecuente de la cetoacidosis en pacientes jóvenes que no traduce una urgencia quirúrgica abdominal."
+  },
+  {
+    "number": 62,
+    "id": "Q-DIABETES-62",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.04.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Un hombre de 76 años, diabético tipo 2 con secuelas de ACV previo y postrado en cama, es traído al hospital por compromiso de conciencia progresivo de una semana de evolución, asociando fiebre y tos con expectoración mucopurulenta. Al ingreso se encuentra estuporoso, con signos de deshidratación extrema, PA 85/50 mmHg, FC 110 lpm. Los exámenes de laboratorio demuestran: glicemia 850 mg/dL, pH arterial 7.36, bicarbonato 22 mEq/L, sodio plasmático 152 mEq/L, potasio 4.2 mEq/L, cloro 110 mEq/L y orina con glucosuria masiva sin cuerpos cetónicos. ¿Cuál es el diagnóstico fundamental?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cetoacidosis diabética grave"
+      },
+      {
+        "id": "B",
+        "text": "Estado hiperglicémico hiperosmolar"
+      },
+      {
+        "id": "C",
+        "text": "Accidente cerebrovascular isquémico agudo con hiperglicemia reactiva"
+      },
+      {
+        "id": "D",
+        "text": "Shock séptico refractario con acidosis láctica"
+      },
+      {
+        "id": "E",
+        "text": "Diabetes insípida nefrogénica"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El paciente cumple rigurosamente con los criterios de un Estado Hiperglicémico Hiperosmolar (EHH): glicemia marcadamente elevada (> 600 mg/dL, en este caso 850 mg/dL), pH arterial normal (> 7.30), bicarbonato normal (> 18 mEq/L), ausencia de cetonuria y una osmolaridad plasmática efectiva marcadamente elevada: 2 * 152 + (850 / 18) = 304 + 47.2 = 351.2 mOsm/kg (muy superior al umbral de 320 mOsm/kg), lo cual explica el estupor y la deshidratación extrema de 8 a 12 litros desencadenada por una infección respiratoria."
+  },
+  {
+    "number": 63,
+    "id": "Q-DIABETES-63",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.04.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "¿Cuál de las siguientes fórmulas representa de manera exacta el cálculo de la Osmolaridad Plasmática Efectiva (tonicidad) utilizada para la definición y monitorización del Estado Hiperglicémico Hiperosmolar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 * [Sodio] + [Glicemia] / 18 + [BUN] / 2.8"
+      },
+      {
+        "id": "B",
+        "text": "2 * [Sodio] + [Glicemia] / 18"
+      },
+      {
+        "id": "C",
+        "text": "[Sodio] + [Potasio] - ([Cloro] + [Bicarbonato])"
+      },
+      {
+        "id": "D",
+        "text": "2 * [Sodio] + [Potasio] + [Glicemia] / 10"
+      },
+      {
+        "id": "E",
+        "text": "[Glicemia] / 18 + [BUN] / 2.8"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La osmolaridad plasmática efectiva o tonicidad refleja la concentración de solutos que no atraviesan libremente las membranas celulares y que, por ende, generan desplazamientos osmóticos de agua entre los compartimentos intra y extracelular. Se calcula como: 2 * [Sodio] + [Glicemia] / 18 (en mg/dL). La urea (BUN) se excluye de este cálculo porque es un osmol libremente permeable que no contribuye a la deshidratación intracelular cerebral."
+  },
+  {
+    "number": 64,
+    "id": "Q-DIABETES-64",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.1",
+    "topicTitle": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.04.1.016",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Una paciente de 52 años con diabetes mellitus tipo 2 en tratamiento con metformina y empagliflozina consulta en urgencias por astenia severa, disnea de reposo y vómitos tras haber realizado un ayuno prolongado por un procedimiento endoscópico. Al examen físico: PA 110/70 mmHg, FC 98 lpm, polipnea de 24 rpm. Su hemoglucotest de ingreso es de 188 mg/dL. Los gases venosos muestran: pH 7.21, bicarbonato 12 mEq/L, sodio 138 mEq/L, cloro 101 mEq/L, y la cetonemia capilar resulta en 4.2 mmol/L. ¿Cuál es el diagnóstico de esta condición?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intoxicación aguda por metformina con acidosis láctica pura"
+      },
+      {
+        "id": "B",
+        "text": "Deshidratación por vómitos con alcalosis metabólica paradójica"
+      },
+      {
+        "id": "C",
+        "text": "Cetoacidosis diabética euglicémica inducida por inhibidor de SGLT2"
+      },
+      {
+        "id": "D",
+        "text": "Hiperglicemia simple de estrés sin repercusión metabólica"
+      },
+      {
+        "id": "E",
+        "text": "Acidosis tubular renal tipo 1 descompensada"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La paciente presenta una acidosis metabólica con Anion Gap aumentado (138 - [101 + 12] = 25 mEq/L) y cetonemia marcadamente positiva (4.2 mmol/L), pero con glicemia < 200 mg/dL (188 mg/dL). Esta es la presentación clásica de la Cetoacidosis Diabética Euglicémica desencadenada por inhibidores del cotransportador SGLT2 (como empagliflozina o dapagliflozina) en situaciones de estrés metabólico, ayuno o cirugía, donde la glucosuria forzada mantiene la glicemia engañosamente baja."
+  },
+  {
+    "number": 65,
+    "id": "Q-DIABETES-65",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.2",
+    "topicTitle": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria"
+    },
+    "stem": "Un joven de 21 años con diagnóstico reciente de diabetes mellitus tipo 1 es llevado al servicio de urgencias por compromiso de conciencia progresivo, respiración profunda y ruidosa, y vómitos reiterados. Al ingreso se constata sopor, mucosas secas, PA 85/55 mmHg, FC 122 lpm, hemoglucotest que marca \"HI\" (> 500 mg/dL) y cetonuria franca. ¿Cuál de las siguientes acciones terapéuticas debe realizarse en PRIMER lugar de forma imperativa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Administrar un bolo endovenoso de 10 UI de insulina cristalina"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar infusión de bicarbonato de sodio al 2/3 molar"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar infusión endovenosa rápida de Suero Fisiológico al 0.9% (1.000 a 1.500 ml en la primera hora)"
+      },
+      {
+        "id": "D",
+        "text": "Administrar 20 mEq de cloruro de potasio en bolo endovenoso directo"
+      },
+      {
+        "id": "E",
+        "text": "Realizar una punción lumbar para descartar meningoencefalitis infecciosa"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "En el manejo inicial de la cetoacidosis diabética y el estado hiperosmolar, la prioridad terapéutica absoluta número uno es la restauración del volumen intravascular y la perfusión tisular mediante la administración inmediata de cristaloides isotónicos (Suero Fisiológico 0.9% a 1.000–1.500 ml/h o 15–20 ml/kg/h). La insulina jamás debe administrarse antes de iniciar la hidratación porque induciría una caída del volumen intravascular al arrastrar agua al interior celular, precipitando un shock refractario."
+  },
+  {
+    "number": 66,
+    "id": "Q-DIABETES-66",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.2",
+    "topicTitle": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria"
+    },
+    "stem": "Un paciente de 25 años en tratamiento por cetoacidosis diabética severa ha recibido 3.500 ml de fluidos y una infusión de insulina cristalina a 0.1 UI/kg/hora durante las últimas 5 horas. Su glicemia plasmática ha descendido progresivamente desde 480 mg/dL hasta 195 mg/dL. Los gases venosos actuales muestran: pH 7.24, bicarbonato 14 mEq/L y Anion Gap de 16 mEq/L (aún elevado). ¿Cuál es la conducta correcta respecto a los fluidos e insulina en este momento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender completamente la infusión de insulina y pasar a insulina NPH subcutánea"
+      },
+      {
+        "id": "B",
+        "text": "Continuar solo con suero fisiológico al 0.9% y duplicar la infusión de insulina a 0.2 UI/kg/h"
+      },
+      {
+        "id": "C",
+        "text": "Agregar Suero Glucosado al 5% a la hidratación endovenosa y reducir la infusión de insulina a 0.02–0.05 UI/kg/h"
+      },
+      {
+        "id": "D",
+        "text": "Suspender todos los fluidos intravenosos e iniciar tolerancia oral con agua fría"
+      },
+      {
+        "id": "E",
+        "text": "Administrar una ampolla de bicarbonato de sodio en bolo para normalizar el pH"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Cuando la glicemia desciende a valores ≤ 200 mg/dL en CAD, es obligatorio incorporar Suero Glucosado al 5% (o suero glucosalino) a la fluidoterapia endovenosa y disminuir la velocidad de infusión de insulina (a 0.02-0.05 UI/kg/h). La razón fundamental es que la cetoacidosis NO está resuelta (pH < 7.30, bicarbonato < 18 mEq/L y Anion Gap aún abierto en 16 mEq/L); por ende, no se puede suspender la insulina sin reactivar la cetogénesis, requiriéndose glucosa exógena para prevenir una hipoglicemia severa mientras se completa la resolución metabólica."
+  },
+  {
+    "number": 67,
+    "id": "Q-DIABETES-67",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.2",
+    "topicTitle": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria"
+    },
+    "stem": "En un paciente cursando un Estado Hiperglicémico Hiperosmolar con glicemia de 900 mg/dL y sodio plasmático medido de 140 mEq/L, tras haber completado la reanimación inicial con 1.500 ml de solución salina al 0.9% en la primera hora, ¿cuál es el fluido intravenoso de elección para la fase de mantenimiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suero Fisiológico al 0.9% (NaCl 0.9%)"
+      },
+      {
+        "id": "B",
+        "text": "Solución Salina Hipotónica al 0.45% (NaCl 0.45%)"
+      },
+      {
+        "id": "C",
+        "text": "Suero Glucosado al 10%"
+      },
+      {
+        "id": "D",
+        "text": "Ringer Lactato con bicarbonato"
+      },
+      {
+        "id": "E",
+        "text": "Agua destilada endovenosa pura sin electrolitos"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Para decidir el fluido de mantenimiento se debe calcular el sodio corregido: Na corregido = Na medido + 1.6 * ((Glicemia - 100) / 100) = 140 + 1.6 * ((900 - 100) / 100) = 140 + 1.6 * 8 = 140 + 12.8 = 152.8 mEq/L. Al resultar el sodio corregido francamente hipernatrémico (> 145 mEq/L), existe un déficit masivo de agua libre que debe reponerse con una solución hipotónica como la Solución Salina al 0.45% (NaCl 0.45%) a 250–500 ml/h."
+  },
+  {
+    "number": 68,
+    "id": "Q-DIABETES-68",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.2",
+    "topicTitle": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria"
+    },
+    "stem": "¿Cuál es la velocidad de reducción de la glicemia plasmática considerada óptima y segura durante la fluidoterapia e insulinoterapia en las crisis hiperglicémicas agudas para evitar el edema cerebral?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Más de 150 mg/dL por hora"
+      },
+      {
+        "id": "B",
+        "text": "100 a 140 mg/dL por hora"
+      },
+      {
+        "id": "C",
+        "text": "50 a 75 mg/dL por hora"
+      },
+      {
+        "id": "D",
+        "text": "10 a 20 mg/dL por hora"
+      },
+      {
+        "id": "E",
+        "text": "La glicemia debe normalizarse a menos de 100 mg/dL en las primeras 2 horas"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "El objetivo de descenso glucémico seguro en el manejo de la cetoacidosis diabética y el estado hiperosmolar es de 50 a 75 mg/dL por hora (o aproximadamente un 10% del valor basal por hora). Descensos más bruscos o violentos (> 100 mg/dL/h) provocan caídas drásticas y precipitadas de la osmolaridad sérica eficaz, generando un gradiente osmótico favorable a la entrada masiva de agua hacia el parénquima cerebral con el consecuente edema cerebral agudo."
+  },
+  {
+    "number": 69,
+    "id": "Q-DIABETES-69",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.3",
+    "topicTitle": "Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "Un paciente de 23 años con diabetes tipo 1 ingresa en cetoacidosis diabética severa. Tras la primera hora de infusión de 1.500 ml de suero fisiológico, los exámenes de laboratorio informan: glicemia 430 mg/dL, pH venoso 7.14, bicarbonato 10 mEq/L y potasio plasmático de 3.0 mEq/L. ¿Cuál es la conducta terapéutica correcta respecto a la administración de insulina y electrolitos?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iniciar inmediatamente insulina cristalina a 0.1 UI/kg/h y diferir el potasio para cuando la glicemia sea normal"
+      },
+      {
+        "id": "B",
+        "text": "Postergar la administración de insulina e infundir cloruro de potasio a 20–30 mEq/hora hasta que la potasemia sea superior a 3.3 mEq/L"
+      },
+      {
+        "id": "C",
+        "text": "Administrar un bolo de bicarbonato de sodio y luego iniciar insulina en dosis doble"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar insulina NPH subcutánea inmediatamente y restringir la ingesta de potasio"
+      },
+      {
+        "id": "E",
+        "text": "Administrar gluconato de calcio endovenoso para antagonizar el potasio"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "En presencia de hipokalemia con potasio sérico < 3.3 mEq/L, la administración de insulina debe retrasarse de manera obligatoria. La insulina promueve la entrada masiva de potasio hacia el interior de las células mediante la activación de la bomba Na+/K+ ATPasa; si se administra con niveles < 3.3 mEq/L puede precipitar una hipokalemia fulminante con arritmias cardíacas fatales, parada cardíaca y parálisis de los músculos respiratorios. Se debe aportar potasio a 20-30 mEq/h y solo iniciar insulina cuando el potasio supere los 3.3 mEq/L."
+  },
+  {
+    "number": 70,
+    "id": "Q-DIABETES-70",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.3",
+    "topicTitle": "Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria"
+    },
+    "stem": "¿Bajo qué criterio clínico y gasométrico formal está indicada la administración de bicarbonato de sodio endovenoso en un paciente con cetoacidosis diabética según las guías clínicas internacionales y del MINSAL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Siempre que el bicarbonato sérico sea menor a 15 mEq/L"
+      },
+      {
+        "id": "B",
+        "text": "Únicamente si el pH arterial o venoso es menor a 6.90 a pesar de la hidratación inicial"
+      },
+      {
+        "id": "C",
+        "text": "Cuando el Anion Gap sea superior a 20 mEq/L"
+      },
+      {
+        "id": "D",
+        "text": "En todos los casos con respiración de Kussmaul presente al ingreso"
+      },
+      {
+        "id": "E",
+        "text": "En presencia de cetonuria ++++ independiente del valor de pH"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La administración de bicarbonato de sodio en la cetoacidosis diabética no ha demostrado beneficio en la morbimortalidad y se asocia a riesgos graves como hipokalemia severa, retraso en la caída de cuerpos cetónicos y acidosis paradójica en el sistema nervioso central. Por lo tanto, su indicación se encuentra estrictamente limitada a aquellos pacientes con acidosis extrema potencialmente letal con un pH < 6.90."
+  },
+  {
+    "number": 71,
+    "id": "Q-DIABETES-71",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.4",
+    "topicTitle": "Criterios de Resolución de CAD/EHH y Traslape a Insulina Subcutánea",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus"
+    },
+    "stem": "Un paciente de 19 años con DM1 evoluciona favorablemente de un episodio de cetoacidosis diabética. Sus exámenes de control muestran: glicemia 168 mg/dL, pH venoso 7.33, bicarbonato 19 mEq/L y Anion Gap 11 mEq/L. Se encuentra lúcido y solicita alimentarse. ¿Cuál es el procedimiento correcto para suspender la bomba de insulina endovenosa y realizar la transición a insulina subcutánea?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suspender la bomba de infusión endovenosa inmediatamente y esperar 4 horas antes de aplicar la primera dosis subcutánea"
+      },
+      {
+        "id": "B",
+        "text": "Inyectar la primera dosis de insulina basal subcutánea y apagar la bomba endovenosa simultáneamente en ese mismo instante"
+      },
+      {
+        "id": "C",
+        "text": "Administrar la dosis de insulina basal subcutánea y mantener la infusión endovenosa durante 1 a 2 horas más antes de suspenderla"
+      },
+      {
+        "id": "D",
+        "text": "Administrar solo insulina ultrarrápida subcutánea cuando la glicemia supere los 250 mg/dL en controles posteriores"
+      },
+      {
+        "id": "E",
+        "text": "Mantener la bomba de insulina endovenosa por 48 horas adicionales sin aportar alimentos por boca"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Dado que la vida media de la insulina endovenosa es de apenas 5 a 9 minutos, si la bomba se suspende al mismo tiempo que se administra la insulina subcutánea (la cual demora al menos 60 a 90 minutos en alcanzar niveles plasmáticos terapéuticos en el caso de la NPH o Glargina), se produce una ventana temporal sin insulina circulante que desencadena un rebote de la lipólisis y recaída de la cetoacidosis. La regla mandatoria es aplicar la insulina basal subcutánea y mantener la infusión endovenosa activa durante 1 a 2 horas de superposición."
+  },
+  {
+    "number": 72,
+    "id": "Q-DIABETES-72",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 4,
+    "blockName": "Emergencias Hiperglicémicas Agudas",
+    "topicLabel": "4.4",
+    "topicTitle": "Criterios de Resolución de CAD/EHH y Traslape a Insulina Subcutánea",
+    "perfilCode": "1.04.1.017",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus"
+    },
+    "stem": "¿Cuál de los siguientes conjuntos de parámetros gasométricos y de laboratorio certifica de manera indiscutida la resolución de una Cetoacidosis Diabética en un adulto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glicemia de 220 mg/dL, pH 7.26, bicarbonato 14 mEq/L y cetonuria negativa"
+      },
+      {
+        "id": "B",
+        "text": "Glicemia de 180 mg/dL, pH venoso 7.32, bicarbonato 19 mEq/L y Anion Gap de 10 mEq/L"
+      },
+      {
+        "id": "C",
+        "text": "Glicemia de 140 mg/dL, pH venoso 7.18, bicarbonato 12 mEq/L y glucosuria negativa"
+      },
+      {
+        "id": "D",
+        "text": "Glicemia de 95 mg/dL con cetonuria persistente +++ y pH 7.20"
+      },
+      {
+        "id": "E",
+        "text": "Glicemia de 250 mg/dL con osmolaridad de 290 mOsm/kg y bicarbonato de 15 mEq/L"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Los criterios diagnósticos de resolución de la CAD establecidos por la ADA y el Ministerio de Salud son: Glicemia < 200 mg/dL acompañada de al menos dos de los siguientes tres criterios: 1) pH venoso > 7.30; 2) Bicarbonato sérico ≥ 18 mEq/L; y 3) Anion Gap normalizado (≤ 12 mEq/L). La opción B cumple a cabalidad con todos y cada uno de estos requisitos."
+  },
+  {
+    "number": 73,
+    "id": "Q-DIABETES-73",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "",
+    "topicTitle": "Vasculopatía periférica",
+    "perfilCode": "1.02.1.019",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Vasculopatía periférica · 1.02.1.019] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Vasculopatía periférica. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Vasculopatía periférica\" (1.02.1.019), el estándar del Perfil V3 exige Diagnóstico Específico, Tratamiento Inicial y Seguimiento Derivar. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 74,
+    "id": "Q-DIABETES-74",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.1",
+    "topicTitle": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.02.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y GES Enfermedad Renal Crónica"
+    },
+    "stem": "Diabético con HbA1c en buen rango, LDL 135 mg/dL y TG 330 mg/dL. ¿Cuál es el tratamiento inicial más adecuado?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fenofibrato"
+      },
+      {
+        "id": "B",
+        "text": "Gemfibrozilo"
+      },
+      {
+        "id": "C",
+        "text": "Atorvastatina"
+      },
+      {
+        "id": "D",
+        "text": "Omega-3 en dosis farmacológica"
+      },
+      {
+        "id": "E",
+        "text": "Ezetimibe"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Atorvastatina"
+  },
+  {
+    "number": 75,
+    "id": "Q-DIABETES-75",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.1",
+    "topicTitle": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.02.1.007",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "Un paciente de 35 años, en tratamiento con atorvastatina, por hipercolesterolemia y cuyo padre tuvo un infarto a los 40 años, presentó mialgias y artralgias, por lo que decidió suspender el medicamento, sin indicación médica. Se controla con exámenes, entre los que destaca colesterol total: 354 mg/dl, colesterol LDL: 244 mg/dl, colesterol HDL: 70 mg/dl, triglicéridos: 198 mg/dl, creatinfosfoquinasa: 254 UI/L. El tratamiento más adecuado es:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colestiramina"
+      },
+      {
+        "id": "B",
+        "text": "Dieta estricta"
+      },
+      {
+        "id": "C",
+        "text": "Rosuvastatina"
+      },
+      {
+        "id": "D",
+        "text": "Ezetimibe"
+      },
+      {
+        "id": "E",
+        "text": "Fenofibrato"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "Si bien tiene todos los lípidos malos, tiene una hipercolesterolemia LDL muy elevada, por lo que requiere estatinas. Las mialgias, por lo general se estudian con CK. Si están normales, se evalúa mantener el tratamiento. Si están elevadas, se debe evaluar el riesgo / beneficio de la estatina. La rosuvastatina es de bajo riesgo de mialgias, al igual que la atorvastatina, por lo que, de las opciones, parece la más correcta, dado que los demás fármacos no son buenos para la hipercolesterolemia LDL."
+  },
+  {
+    "number": 76,
+    "id": "Q-DIABETES-76",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.1",
+    "topicTitle": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.02.1.010",
+    "legalLevel": {
+      "dx": "Sospecha",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "—"
+    },
+    "stem": "[ATENCIÓN PRIMARIA: Nefropatía incipiente · 1.02.1.010] Paciente de 52 años es evaluado en control médico en Atención Primaria de Salud (CESFAM) presentando antecedentes y cuadro clínico compatible con Nefropatía incipiente. El paciente se encuentra hemodinámicamente estable. De acuerdo con el Perfil V3 ASOFAMECh y los protocolos clínicos vigentes del MINSAL (Norma Técnica MINSAL), ¿cuál es la conducta diagnóstica y de manejo inicial más apropiada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confirmar el diagnóstico con los exámenes complementarios de primera línea según guía técnica, iniciar tratamiento médico basal no farmacológico/farmacológico y planificar seguimiento o derivación correspondiente."
+      },
+      {
+        "id": "B",
+        "text": "Indicar reposo absoluto prolongado sin solicitar exámenes básicos ni establecer un diagnóstico de sospecha."
+      },
+      {
+        "id": "C",
+        "text": "Iniciar terapia biológica inmunosupresora o polifarmacia de segunda línea sin confirmación diagnóstica previa."
+      },
+      {
+        "id": "D",
+        "text": "Derivar inmediatamente a unidad de cuidados intensivos mediante ambulancia SAMU de alta complejidad sin evaluación clínica basal."
+      },
+      {
+        "id": "E",
+        "text": "Desestimar el cuadro y recomendar automedicación condicional con antiinflamatorios no esteroidales sin controles."
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "La opción A es la respuesta correcta. Para la situación clínica \"Nefropatía incipiente\" (1.02.1.010), el estándar del Perfil V3 exige Diagnóstico Sospecha, Tratamiento Completo y Seguimiento Completo. El médico general en atención primaria debe aplicar la sospecha o confirmación clínica mediante el estudio normado por MINSAL, iniciar las medidas terapéuticas basales y derivar a nivel secundario si el caso requiere seguimiento especializado. Las alternativas B, C, D y E omiten el estándar técnico o aplican medidas desproporcionadas."
+  },
+  {
+    "number": 77,
+    "id": "Q-DIABETES-77",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.1",
+    "topicTitle": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.04.1.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y GES Enfermedad Renal Crónica"
+    },
+    "stem": "Un paciente de 54 años, con antecedente de diabetes mellitus tipo 2 de 4 años de evolución en tratamiento con metformina 850 mg cada 12 horas, normotenso (PA 120/75 mmHg), acude a su control programado. Se le realiza una razón albúmina/creatinina en orina aislada matinal que resulta en 120 mg/g. Se repite el examen dos meses después, confirmándose un valor de 135 mg/g, con cultivo de orina negativo. Su creatinina plasmática es de 0.9 mg/dL. ¿Cuál es la conducta farmacológica más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iniciar enalapril o losartán a dosis bajas con titulación progresiva"
+      },
+      {
+        "id": "B",
+        "text": "Mantener la terapia actual sin modificaciones dado que el paciente es normotenso"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar hidroclorotiazida para disminuir el volumen intravascular"
+      },
+      {
+        "id": "D",
+        "text": "Suspender la metformina por toxicidad renal inminente y pasar a insulina"
+      },
+      {
+        "id": "E",
+        "text": "Solicitar una biopsia renal percutánea urgente para descartar amiloidosis"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "El paciente tiene confirmada una nefropatía diabética incipiente en etapa de microalbuminuria persistente (RAC entre 30 y 299 mg/g en dos tomas consecutivas sin factores de confusión). Las guías internacionales y del MINSAL indican unánimemente que todo paciente diabético con albuminuria persistente debe recibir un bloqueador del eje renina-angiotensina-aldosterona (IECA como enalapril o ARA II como losartán), independientemente de sus cifras de presión arterial, dado su efecto hemodinámico específico dilatador de la arteriola eferente que frena la progresión del daño renal."
+  },
+  {
+    "number": 78,
+    "id": "Q-DIABETES-78",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.1",
+    "topicTitle": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.04.1.011",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y GES Enfermedad Renal Crónica"
+    },
+    "stem": "¿A partir de qué momento cronológico debe iniciarse el tamizaje anual de nefropatía diabética mediante la razón albúmina/creatinina en un paciente con diagnóstico reciente de diabetes mellitus tipo 2?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A los 5 años del diagnóstico"
+      },
+      {
+        "id": "B",
+        "text": "Al momento de realizar el diagnóstico de la enfermedad"
+      },
+      {
+        "id": "C",
+        "text": "Solo cuando las cifras de hemoglobina glicosilada superen el 8.5%"
+      },
+      {
+        "id": "D",
+        "text": "Al momento en que el paciente desarrolle hipertensión arterial concomitante"
+      },
+      {
+        "id": "E",
+        "text": "A los 10 años del diagnóstico o a los 65 años de edad"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "A diferencia de la DM1 (donde el daño microvascular tarda al menos 5 años en manifestarse), en la diabetes mellitus tipo 2 suele existir un periodo subclínico asintomático prolongado (de 4 a 7 años) previo a la detección clínica. Por lo tanto, un porcentaje importante de pacientes ya presenta complicaciones microvasculares al momento del debut, por lo que el tamizaje anual de nefropatía (RAC y VFG) y de retinopatía (fondo de ojo) debe iniciarse desde el momento mismo del diagnóstico."
+  },
+  {
+    "number": 79,
+    "id": "Q-DIABETES-79",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.2",
+    "topicTitle": "Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+    "perfilCode": "1.02.1.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Inicial",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Retinopatía Diabética (Acceso a tamizaje y fotocoagulación)"
+    },
+    "stem": "pte diabetico con fondo de ojo alterado tenia buen control metabolico, cual era la medida mas adecuada",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pioglitazona"
+      },
+      {
+        "id": "B",
+        "text": "Sitagliptina"
+      },
+      {
+        "id": "C",
+        "text": "Insulina NPH"
+      },
+      {
+        "id": "D",
+        "text": "Glibenclamida"
+      },
+      {
+        "id": "E",
+        "text": "subir metformina??"
+      }
+    ],
+    "correcta": "D",
+    "explicacion": "subir metformina??"
+  },
+  {
+    "number": 80,
+    "id": "Q-DIABETES-80",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.2",
+    "topicTitle": "Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+    "perfilCode": "1.04.1.013",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Retinopatía Diabética (Acceso a tamizaje y fotocoagulación)"
+    },
+    "stem": "¿Cuál es la lesión más precoz que se puede observar mediante la oftalmoscopía en el fondo de ojo de un paciente que está desarrollando una retinopatía diabética?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exudados duros céreos"
+      },
+      {
+        "id": "B",
+        "text": "Microaneurismas retinianos"
+      },
+      {
+        "id": "C",
+        "text": "Exudados algodonosos"
+      },
+      {
+        "id": "D",
+        "text": "Neovasos papilares"
+      },
+      {
+        "id": "E",
+        "text": "Hemorragias en llama extensas"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La alteración anatomopatológica inicial de la retinopatía diabética es la pérdida de pericitos capilares y la dilatación sacular de los capilares de la retina interna. Estas dilataciones son visibles al fondo de ojo como pequeños puntos rojos oscuros de bordes redondeados y muy bien delimitados conocidos como microaneurismas, constituyendo la primera lesión clínica e histopatológica demostrable."
+  },
+  {
+    "number": 81,
+    "id": "Q-DIABETES-81",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.2",
+    "topicTitle": "Retinopatía Diabética: No Proliferativa vs Proliferativa y GES",
+    "perfilCode": "1.04.1.013",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Retinopatía Diabética (Acceso a tamizaje y fotocoagulación)"
+    },
+    "stem": "Un paciente de 60 años, con diabetes mellitus tipo 2 de 15 años de evolución y controles médicos irregulares, consulta por disminución severa y repentina de la agudeza visual del ojo izquierdo, indolora, instaurada en un par de horas tras levantarse por la mañana. Al examen físico se constata agudeza visual de cuenta dedos en dicho ojo y ausencia del reflejo rojo pupilar, sin signos de inflamación externa. ¿Cuál es el diagnóstico clínico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oclusión de la arteria central de la retina"
+      },
+      {
+        "id": "B",
+        "text": "Glaucoma agudo de ángulo cerrado"
+      },
+      {
+        "id": "C",
+        "text": "Hemorragia vítrea por retinopatía diabética proliferativa"
+      },
+      {
+        "id": "D",
+        "text": "Neuritis óptica isquémica anterior no arterítica"
+      },
+      {
+        "id": "E",
+        "text": "Desprendimiento de retina regmatógeno primario"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "La pérdida súbita e indolora de la visión acompañada de abolición del rojo pupilar (\"ojo que no deja ver la retina al oftalmoscopio\") en un paciente con DM2 de larga data es la manifestación clásica de una Hemorragia Vítrea. Esta ocurre por la rotura de neovasos frágiles característicos de la Retinopatía Diabética Proliferativa. Debe derivarse de forma urgente a evaluación oftalmológica para estudio ecográfico y resolución mediante vitrectomía posterior o panfotocoagulación según corresponda."
+  },
+  {
+    "number": 82,
+    "id": "Q-DIABETES-82",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.3",
+    "topicTitle": "Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+    "perfilCode": "1.04.1.014, 1.04.1.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus (Canasta Integral de Curaciones y Manejo de Pie Diabético)"
+    },
+    "stem": "Un paciente diabético de 61 años presenta una úlcera indolora de 2 cm en la planta del pie derecho, localizada bajo la cabeza del primer metatarsiano, rodeada de un halo de tejido hiperqueratósico. Al examinar la lesión con un estilete metálico estéril de punta roma, se palpa con claridad una superficie ósea dura y resistente en el fondo de la úlcera. Los pulsos arteriales distales son palpables. ¿Cuál es el diagnóstico y la conducta más adecuada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Úlcera superficial Wagner 1; indicar curación avanzada ambulatoria con apósito hidrocoloide"
+      },
+      {
+        "id": "B",
+        "text": "Úlcera Wagner 3 con osteomielitis subyacente; hospitalizar para tratamiento antibiótico endovenoso y evaluación quirúrgica"
+      },
+      {
+        "id": "C",
+        "text": "Gangrena seca incipiente Wagner 4; indicar amputación supracondílea de urgencia"
+      },
+      {
+        "id": "D",
+        "text": "Úlcera isquémica pura; derivar a cirugía vascular para bypass fémoro-poplíteo ambulatorio"
+      },
+      {
+        "id": "E",
+        "text": "Fascitis necrotizante estreptocócica; administrar penicilina intramuscular ambulatoria"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "La prueba del estilete óseo (\"probe-to-bone test\") consiste en palpar hueso en el fondo de la úlcera mediante una sonda metálica estéril. Su positividad confirma con altísima sensibilidad y especificidad (> 90%) la existencia de una osteomielitis subyacente, lo que clasifica la lesión automáticamente como Grado 3 de Wagner. El manejo estándar exige la hospitalización inmediata del paciente para desbridamiento y aseo quirúrgico, obtención de muestras óseas para cultivo microbiológico y terapia antibiótica parenteral prolongada."
+  },
+  {
+    "number": 83,
+    "id": "Q-DIABETES-83",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.3",
+    "topicTitle": "Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+    "perfilCode": "1.04.1.014, 1.04.1.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus (Canasta Integral de Curaciones y Manejo de Pie Diabético)"
+    },
+    "stem": "¿Cuál es el instrumento semiológico validado y de primera línea en la atención primaria de salud para el tamizaje anual de la pérdida de la sensibilidad protectora en los pies de los pacientes con diabetes mellitus?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aguja de punción intradérmica desechable"
+      },
+      {
+        "id": "B",
+        "text": "Monofilamento de Semmes-Weinstein de 10 gramos (calibre 5.07)"
+      },
+      {
+        "id": "C",
+        "text": "Tubos con agua fría y caliente para sensibilidad térmica"
+      },
+      {
+        "id": "D",
+        "text": "Martillo de reflejos de Taylor para reflejo rotuliano"
+      },
+      {
+        "id": "E",
+        "text": "Electromiografía de cuatro extremidades obligatoria anual"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "El monofilamento de Semmes-Weinstein de 5.07, calibrado para aplicar exactamente una fuerza de 10 gramos al doblarse contra la piel, es el método estándar de oro, no invasivo, económico y universalmente recomendado en las guías del MINSAL y la ADA para la detección sistemática de la pérdida de la sensibilidad protectora en el pie diabético."
+  },
+  {
+    "number": 84,
+    "id": "Q-DIABETES-84",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.3",
+    "topicTitle": "Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+    "perfilCode": "1.04.1.014, 1.04.1.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus (Canasta Integral de Curaciones y Manejo de Pie Diabético)"
+    },
+    "stem": "Un paciente de 68 años con DM2 de larga data consulta por una lesión negruzca, seca y momificada que compromete el primer y segundo dedo del pie izquierdo, acompañada de frialdad local, ausencia de pulso pedio y tibial posterior, sin secreción purulenta ni fluctuación. ¿A qué estadio de la clasificación de Wagner corresponde este cuadro clínico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grado 2"
+      },
+      {
+        "id": "B",
+        "text": "Grado 3"
+      },
+      {
+        "id": "C",
+        "text": "Grado 4"
+      },
+      {
+        "id": "D",
+        "text": "Grado 5"
+      },
+      {
+        "id": "E",
+        "text": "Grado 0"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "En la clasificación de Wagner, el Grado 4 se define como la presencia de gangrena localizada y limitada a los dedos, antepié o talón (isquemia tisular focalizada). El Grado 5 corresponde a una gangrena extensa que compromete todo el pie o gran parte de la extremidad con repercusión sistémica severa."
+  },
+  {
+    "number": 85,
+    "id": "Q-DIABETES-85",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.3",
+    "topicTitle": "Pie Diabético: Úlceras, Neuropatía, Clasificación de Wagner y Manejo Quirúrgico",
+    "perfilCode": "1.04.1.014, 1.04.1.015",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus (Canasta Integral de Curaciones y Manejo de Pie Diabético)"
+    },
+    "stem": "Una paciente de 57 años con DM2 consulta por una úlcera de 1.5 cm en la cara lateral del quinto dedo del pie izquierdo tras estrenar un calzado nuevo. Al examen: la úlcera compromete la dermis superficial sin llegar al plano tendinoso ni óseo, no hay exudado purulento ni eritema mayor a 0.5 cm en los bordes. Los pulsos periféricos son normales y no hay dolor. ¿Cuál es el tratamiento local más importante para permitir la resolución y cicatrización de esta lesión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aplicación tópica diaria de pomada con corticoides y antibióticos"
+      },
+      {
+        "id": "B",
+        "text": "Descarga de la presión y del roce mecánico (\"off-loading\") asociada a curación avanzada"
+      },
+      {
+        "id": "C",
+        "text": "Cauterización química inmediata con nitrato de plata"
+      },
+      {
+        "id": "D",
+        "text": "Baños de pies con soluciones antisépticas calientes con povidona yodada"
+      },
+      {
+        "id": "E",
+        "text": "Amputación preventiva del quinto radio metatarsiano"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "En toda úlcera superficial de pie diabético (Wagner 1), la medida no negociable y determinante para lograr la cicatrización es la descarga de la presión y del traumatismo mecánico (\"off-loading\") sobre la zona lesionada (mediante calzado terapéutico modificado, reposo o férula), combinada con curaciones avanzadas que mantengan un ambiente húmedo y limpio. Ninguna terapia tópica o antibiótica será efectiva si la zona continúa sufriendo roce o impacto repetitivo."
+  },
+  {
+    "number": 86,
+    "id": "Q-DIABETES-86",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.4",
+    "topicTitle": "Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+    "perfilCode": "1.04.1.020, 1.04.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud: Prevención Secundaria Cardiovascular e Hipertensión Arterial / DM"
+    },
+    "stem": "Un paciente de 60 años, hipertenso, con antecedente de un infarto agudo de miocardio de pared anterior hace 6 meses tratado con angioplastía coronaria, acude a control médico ambulatorio. Su perfil lipídico actual bajo tratamiento con atorvastatina 10 mg al día muestra: Colesterol total 188 mg/dL, c-HDL 45 mg/dL, Triglicéridos 145 mg/dL y c-LDL 112 mg/dL. ¿Cuál es la conducta más adecuada a seguir respecto a su terapia hipolipemiante?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mantener la dosis actual ya que el colesterol total es menor a 200 mg/dL"
+      },
+      {
+        "id": "B",
+        "text": "Suspender la estatina y agregar gemfibrozilo 600 mg al día"
+      },
+      {
+        "id": "C",
+        "text": "Aumentar la dosis de atorvastatina a 40 u 80 mg al día para alcanzar una meta de c-LDL menor a 70 mg/dL"
+      },
+      {
+        "id": "D",
+        "text": "Cambiar atorvastatina por simvastatina 10 mg al día"
+      },
+      {
+        "id": "E",
+        "text": "Recomendar únicamente dieta estricta sin grasas saturadas durante 6 meses"
+      }
+    ],
+    "correcta": "C",
+    "explicacion": "En todo paciente con enfermedad cardiovascular ateroesclerótica confirmada (prevención secundaria por infarto de miocardio previo), el riesgo cardiovascular es clasificado como Muy Alto. La meta terapéutica obligatoria de colesterol LDL es alcanzar niveles < 70 mg/dL (o < 55 mg/dL según guías actuales) o reducir al menos el 50% del valor basal. Por ello, una dosis de 10 mg de atorvastatina es insuficiente, debiendo indicarse una estatina de alta intensidad como Atorvastatina 40 a 80 mg/día."
+  },
+  {
+    "number": 87,
+    "id": "Q-DIABETES-87",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.4",
+    "topicTitle": "Dislipidemias: Clasificación de Fredrickson, Riesgo Cardiovascular y Estatinas",
+    "perfilCode": "1.04.1.020, 1.04.1.021",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud: Prevención Secundaria Cardiovascular e Hipertensión Arterial / DM"
+    },
+    "stem": "Una mujer de 55 años que inició tratamiento con atorvastatina 40 mg al día hace 4 semanas por una dislipidemia mixta de alto riesgo consulta por dolores musculares difusos en muslos y hombros, de predominio vespertino. Al examen físico no se aprecian alteraciones articulares ni debilidad motora objetiva. ¿Cuál es la prueba diagnóstica de laboratorio inicial indispensable para evaluar la seguridad del tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anticuerpos antinucleares (ANA)"
+      },
+      {
+        "id": "B",
+        "text": "Creatina Kinasa total (CK)"
+      },
+      {
+        "id": "C",
+        "text": "Ácido úrico en sangre"
+      },
+      {
+        "id": "D",
+        "text": "Factor reumatoideo cuantitativo"
+      },
+      {
+        "id": "E",
+        "text": "Velocidad de eritrosedimentación"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Las estatinas pueden producir una gama de eventos adversos musculares que van desde mialgias simples sin daño celular hasta miositis severa y rabdomiólisis potencialmente letal. Ante la aparición de dolor o debilidad muscular en un paciente que recibe estatinas, el examen mandatario de laboratorio inicial es la medición de la Creatina Kinasa (CK) sérica. Si la CK se encuentra normal, se trata de una mialgia simple; si supera 5 a 10 veces el valor normal con elevación de transaminasas o daño renal, se debe suspender la estatina inmediatamente."
+  },
+  {
+    "number": 88,
+    "id": "Q-DIABETES-88",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.5",
+    "topicTitle": "Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+    "perfilCode": "1.02.2.005",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Derivar",
+      "ges": "Garantía Explícita en Salud: Prevención Cardiovascular / Patología de Urgencia"
+    },
+    "stem": "Un paciente de 45 años, obeso (con IMC:35) y diabético, en tratamiento con metformina y empaglifozina y con antecedente de consumo de 4 cervezas diarias, acude a chequeo. Trae múltiples exámenes, entre los que destaca perfil lipídico con colesterol LDL: 135 mg/dl, colesterol HDL: 27 mg/dl y triglicéridos: 1.000 mg/dl. ¿Cuál es la conducta más adecuada para el manejo de este paciente en este momento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enviar al servicio de urgencias"
+      },
+      {
+        "id": "B",
+        "text": "Iniciar gemfibrozilo 900 mg/día"
+      },
+      {
+        "id": "C",
+        "text": "Iniciar rosuvastatina 40 mg/día"
+      },
+      {
+        "id": "D",
+        "text": "Iniciar ezetimibe 10 mg/día"
+      },
+      {
+        "id": "E",
+        "text": "Iniciar dieta estricta"
+      }
+    ],
+    "correcta": "E",
+    "explicacion": "Manejo de Hipertrigliceridemia Severa: En un paciente con dislipidemia mixta el objetivo suele ser bajar el colesterol LDL, a menos que los triglicéridos sean > 500 mg/dL, en que la prioridad es bajar los triglicéridos. Con niveles > 1000 mg/dL, hay alto riesgo de pancreatitis, por lo que se debe manejar urgentemente. Hace años incluso se recomendaba hospitalizarlos para el manejo, sin embargo esa recomendación actualmente está obsoleta (tal vez el Eunacom aún la considera). La medida más importante o urgente es la suspensión inmediata del consumo de alcohol y una dieta estricta baja en glúcidos y baja en grasas. En paralelo, se inician los fibratos (gemfibrozilo).."
+  },
+  {
+    "number": 89,
+    "id": "Q-DIABETES-89",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.5",
+    "topicTitle": "Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+    "perfilCode": "1.04.1.022",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud: Prevención Cardiovascular / Patología de Urgencia"
+    },
+    "stem": "Un hombre de 48 años, asintomático, acude a su control de salud con exámenes preventivos: Colesterol total 250 mg/dL, c-HDL 35 mg/dL, c-LDL no calculable por hipertrigliceridemia y Triglicéridos plasmáticos de 1.280 mg/dL. El examen físico general y abdominal es estrictamente normal. ¿Cuál es el objetivo primordial inmediato y el fármaco de elección para iniciar el tratamiento?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prevenir el infarto agudo de miocardio iniciando atorvastatina 80 mg al día"
+      },
+      {
+        "id": "B",
+        "text": "Prevenir la pancreatitis aguda iniciando un fibrato (fenofibrato o gemfibrozilo)"
+      },
+      {
+        "id": "C",
+        "text": "Prevenir el accidente cerebrovascular isquémico iniciando aspirina 100 mg al día"
+      },
+      {
+        "id": "D",
+        "text": "Prevenir la esteatohepatitis iniciando metformina a dosis plenas"
+      },
+      {
+        "id": "E",
+        "text": "Indicar únicamente dieta vegetariana estricta y citar a nuevo control en 6 meses"
+      }
+    ],
+    "correcta": "B",
+    "explicacion": "Cuando los triglicéridos superan los 500 a 1.000 mg/dL, la complicación inmediata más grave que amenaza la vida del paciente no es la ateroesclerosis coronaria sino la Pancreatitis Aguda por hipertrigliceridemia (por toxicidad directa de los ácidos grasos libres sobre el tejido acinar pancreático). La prioridad absoluta es reducir rápidamente los triglicéridos mediante el inicio de un fibrato (fenofibrato 160–200 mg/d o gemfibrozilo 600 mg c/12h), sumado a la abstención completa de alcohol y azúcares simples."
+  },
+  {
+    "number": 90,
+    "id": "Q-DIABETES-90",
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "blockNum": 5,
+    "blockName": "Complicaciones Crónicas y Dislipidemias",
+    "topicLabel": "5.5",
+    "topicTitle": "Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
+    "perfilCode": "1.04.1.022",
+    "legalLevel": {
+      "dx": "Específico",
+      "tx": "Completo",
+      "seg": "Completo",
+      "ges": "Garantía Explícita en Salud: Prevención Cardiovascular / Patología de Urgencia"
+    },
+    "stem": "Un hombre de 34 años consulta por la aparición de nódulos indoloros y de consistencia firme en la cara posterior de ambos tobillos a nivel de los tendones de Aquiles. Refiere que su padre falleció súbitamente por un infarto agudo de miocardio a los 41 años. Su perfil lipídico revela: Colesterol total 340 mg/dL, c-HDL 48 mg/dL, Triglicéridos 130 mg/dL y c-LDL de 266 mg/dL. ¿Cuál es el diagnóstico genético más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hipercolesterolemia familiar heterocigota"
+      },
+      {
+        "id": "B",
+        "text": "Hipertrigliceridemia familiar aislada"
+      },
+      {
+        "id": "C",
+        "text": "Disbetalipoproteinemia familiar tipo III"
+      },
+      {
+        "id": "D",
+        "text": "Hiperlipidemia familiar combinada"
+      },
+      {
+        "id": "E",
+        "text": "Xantomatosis cerebrotendinosa recesiva"
+      }
+    ],
+    "correcta": "A",
+    "explicacion": "El paciente presenta los hallazgos clásicos de una Hipercolesterolemia Familiar Heterocigota: elevación extrema de colesterol LDL (> 190 mg/dL, en este caso 266 mg/dL), presencia de xantomas tendinosos en los tendones de Aquiles (estigma físico patognomónico que traduce depósito tisular de ésteres de colesterol por macrófagos espumosos) y antecedentes de primer grado de enfermedad coronaria prematura (padre con infarto a los 41 años). Se transmite de forma autosómica dominante por mutaciones del receptor LDL."
+  }
+]

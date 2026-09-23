@@ -1,0 +1,1966 @@
+[
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-01",
+    "title": "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+    "perfilCode": "1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica para IRA · Garantía de Urgencia Vital (Ley de Urgencias) en falla multiorgánica",
+    "tier": 3,
+    "keyPoints": [
+      "Criterios KDIGO de IRA: ↑ Cr ≥ 0.3 mg/dL en 48 h, o ↑ Cr ≥ 1.5x basal en 7 días, o diuresis < 0.5 mL/kg/h por > 6 h.",
+      "FeNa < 1% y Na urinario < 20 mEq/L certifican origen prerrenal; FeNa > 2% y Na urinario > 40 mEq/L indican NTA intrínseca.",
+      "Si el paciente utiliza diuréticos de asa, el FeNa se altera por la natriuresis forzada: el índice diagnóstico de elección es la FeUrea (< 35% es prerrenal).",
+      "Sedimento urinario: cilindros hialinos = prerrenal; cilindros granulosos oscuros (\"muddy brown\") = NTA; cilindros hemáticos = glomerulonefritis.",
+      "La combinación de AINEs (bloqueo prostaglandinas aferentes) + IECA/ARA-II (bloqueo angiotensina II eferente) anula la autorregulación renal y desencadena IRA en deshidratación.",
+      "En IRA prerrenal el tratamiento es la infusión de cristaloides isotónicos; en NTA establecida el exceso de volumen provoca edema pulmonar y congestión venosa renal.",
+      "Nunca administrar furosemida para \"forzar la diuresis\" en una IRA prerrenal hipovolémica: aumenta la depleción y precipita necrosis tubular isquémica.",
+      "Descartar siempre obstrucción urinaria (ecografía renal/vesical o palpación de globo) antes de rotular una IRA como parenquimatosa."
+    ],
+    "vignette": "Hombre de 68 años, hipertenso y diabético en tratamiento con Enalapril 20 mg/día e Hidroclorotiazida 25 mg/día. Consulta por cuadro de 4 días de diarrea acuosa profusa y vómitos. Ingresa somnoliento, PA 85/50 mmHg, FC 115 lpm, mucosas secas y llene capilar de 4 segundos. Exámenes: Creatinina 3.4 mg/dL (basal de hace 1 mes: 1.0 mg/dL), BUN 72 mg/dL, Na sérico 138 mEq/L, K sérico 5.6 mEq/L. Sedimento de orina: algunos cilindros hialinos, sin proteinuria ni hematuria. Sodio urinario: 12 mEq/L, Creatinina urinaria: 90 mg/dL.",
+    "explicacion": "El paciente presenta una Injuria Renal Aguda KDIGO Estadio 3 de origen prerrenal grave, precipitada por hipovolemia por deshidratación en un paciente que utilizaba un IECA (que impide la vasoconstricción de la arteriola eferente) y un diurético. El FeNa calculado es de 0.52% (claramente < 1%), la relación BUN/Creatinina es de 21:1 y el sodio urinario es de 12 mEq/L (< 20 mEq/L), con sedimento que muestra cilindros hialinos normales. La conducta oficial inmediata es suspender Enalapril e Hidroclorotiazida e iniciar hidratación intravenosa rápida con cristaloides isotónicos (Suero Fisiológico 0.9%). El uso de furosemida en este momento es un error grave que agravaría el shock hipovolémico.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 72 años con antecedentes de cardiopatía coronaria y uso crónico de furosemida 40 mg/día por insuficiencia cardíaca compensada. Consulta por debilidad y astenia tras 3 días de transgresión dietética y gastroenteritis aguda con vómitos. Al examen: PA 90/60 mmHg, turgencia cutánea disminuida, ortostatismo positivo. Laboratorio: Creatinina 2.9 mg/dL (basal 1.1 mg/dL), BUN 68 mg/dL, Sodio sérico 135 mEq/L, Potasio sérico 3.3 mEq/L, Sodio urinario 38 mEq/L. ¿Cuál es el parámetro más confiable para confirmar si la falla renal es de origen prerrenal en este paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fracción excretada de sodio (FeNa)"
+          },
+          {
+            "id": "B",
+            "text": "Fracción excretada de urea (FeUrea)"
+          },
+          {
+            "id": "C",
+            "text": "Sedimento urinario en fresco"
+          },
+          {
+            "id": "D",
+            "text": "Resonancia magnética renal con contraste"
+          },
+          {
+            "id": "E",
+            "text": "Prueba de furosemida intravenosa en bolo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En pacientes que reciben diuréticos (como la furosemida de uso crónico en este caso), la fracción excretada de sodio (FeNa) y el sodio urinario pierden confiabilidad diagnóstica debido a la natriuresis inducida farmacológicamente a nivel del asa de Henle, arrojando falsos positivos de NTA (FeNa > 1% o Na urinario > 20 mEq/L a pesar de hipovolemia). En este escenario clínico específico, la Fracción Excretada de Urea (FeUrea) es el índice de elección, ya que el transporte de urea en el túbulo proximal no se ve directamente afectado por los diuréticos de asa: un FeUrea < 35% confirma origen prerrenal con alta sensibilidad y especificidad."
+      },
+      {
+        "stem": "Mujer de 64 años ingresa a la Unidad de Paciente Crítico por shock séptico de foco abdominal. A las 24 horas de evolución en ventilación mecánica y noradrenalina, la diuresis acumulada en las últimas 8 horas es de 15 mL/hora (peso 60 kg). Exámenes muestran aumento de creatinina sérica desde 0.9 mg/dL al ingreso hasta 2.8 mg/dL hoy. Sedimento urinario: abundantes cilindros granulosos pigmentados pardos y células epiteliales tubulares aisladas. FeNa: 3.2%. ¿Cuál es el mecanismo fisiopatológico primario de la falla renal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hipoperfusión renal reversible sin daño estructural tubular"
+          },
+          {
+            "id": "B",
+            "text": "Necrosis tubular aguda isquémica y tóxica con pérdida de polaridad celular"
+          },
+          {
+            "id": "C",
+            "text": "Nefritis intersticial aguda alérgica por antibióticos"
+          },
+          {
+            "id": "D",
+            "text": "Glomerulonefritis membranoproliferativa rápidamente progresiva"
+          },
+          {
+            "id": "E",
+            "text": "Microangiopatía trombótica con anemia hemolítica microangiopática"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El cuadro clínico corresponde a una Necrosis Tubular Aguda (NTA) intrínseca establecida secundaria a shock séptico (isquemia hipóxica prolongada y citotoxicidad mediada por citoquinas proinflamatorias). Los hallazgos confirmatorios son: FeNa marcadamente elevado (> 2%, en este caso 3.2%), oliguria persistente y el sedimento urinario patognomónico con cilindros granulosos oscuros (\"muddy brown casts\") formados por células tubulares descamadas que se aglutinan en la luz tubular. La respuesta A corresponde a IRA prerrenal pura, descartada por el FeNa > 2% y los cilindros."
+      },
+      {
+        "stem": "Hombre de 76 años consulta por dolor lumbar derecho intenso, cólico, de 12 horas de evolución, asociado a anuria absoluta en las últimas 6 horas. Tiene antecedente de hiperplasia prostática benigna y nefrectomía izquierda hace 10 años por trauma. Al examen físico: abdomen blando, doloroso a la palpación en fosa ilíaca y flanco derecho, sin signos de peritonismo. Laboratorio: Creatinina 4.8 mg/dL, K 5.8 mEq/L. ¿Cuál es la conducta inicial prioritaria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar hemodiálisis de urgencia inmediata por fístula"
+          },
+          {
+            "id": "B",
+            "text": "Administrar 2.000 mL de suero fisiológico en bolo para forzar diuresis"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar ecografía renal urgente y descompresión de la vía urinaria"
+          },
+          {
+            "id": "D",
+            "text": "Indicar tratamiento con ácido acetilsalicílico y heparina de bajo peso molecular"
+          },
+          {
+            "id": "E",
+            "text": "Realizar biopsia renal percutánea de urgencia"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente es monorreno funcional (nefrectomía izquierda previa) y presenta dolor cólico agudo con anuria absoluta. La anuria súbita (débito 0 mL) es el sello de la obstrucción completa de la vía urinaria (litiasis o compresión ureteral en riñón único) o catástrofe vascular. La conducta inicial obligatoria es descartar y resolver la causa postrenal mediante ecografía renal de urgencia (o TAC sin contraste) para constatar hidronefrosis, seguida de la descompresión urológica urgente (nefrostomía percutánea o catéter doble J). Infundir 2 litros de suero (B) en un paciente anúrico obstructivo provocará edema agudo pulmonar."
+      },
+      {
+        "stem": "Mujer de 58 años, diabética en tratamiento con Metformina, consulta por cefalea y artromialgias para lo cual se automedicó con Ibuprofeno 600 mg cada 8 horas durante 7 días. Concomitantemente inició Losartán 50 mg/día indicado por su médico general por cifras tensionales limítrofes. Consulta por astenia y náuseas. Laboratorio: Creatinina sérica 3.1 mg/dL (basal de hace 2 semanas 0.9 mg/dL), BUN 58 mg/dL, K 5.4 mEq/L. No presenta edemas y su examen físico es normal. ¿Cuál es la explicación farmacológica de este cuadro?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Toxicidad tubular directa de la metformina sobre las células del túbulo distal"
+          },
+          {
+            "id": "B",
+            "text": "El ibuprofeno inhibe la vasodilatación de la arteriola aferente y el losartán impide la vasoconstricción de la arteriola eferente"
+          },
+          {
+            "id": "C",
+            "text": "El losartán produce vasoconstricción de la arteriola aferente y el ibuprofeno vasodilatación eferente"
+          },
+          {
+            "id": "D",
+            "text": "Inducción de nefritis lúpica proliferativa difusa por fármacos antihipertensivos"
+          },
+          {
+            "id": "E",
+            "text": "Precipitación intraluminal de cristales de metformina en el asa de Henle"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Este es el mecanismo clásico de \"doble bloqueo hemodinámico\" que anula la autorregulación renal: el AINE (Ibuprofeno) bloquea la síntesis de prostaglandinas vasodilatadoras en la arteriola aferente, reduciendo el flujo plasmático que entra al ovillo; paralelamente, el ARA-II (Losartán) bloquea el receptor AT1 de la angiotensina II en la arteriola eferente, impidiendo su vasoconstricción compensatoria. El resultado neto es una caída drástica de la presión hidrostática capilar intraglomerular con colapso de la filtración glomerular, generando una IRA hemodinámica que revierte al suspender ambos fármacos."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-05",
+    "title": "Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+    "perfilCode": "1.09.2.007, 1.09.2.008, 1.09.4.016",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · Cobertura AUGE de Urgencia en Encefalopatía Hiponatrémica Aguda Grave",
+    "tier": 3,
+    "keyPoints": [
+      "Confirmar siempre hiponatremia hipotónica verdadera: en hiperglicemia, corregir sumando 1.6 a 2.0 mEq/L de Na por cada 100 mg/dL de glicemia sobre 100 mg/dL.",
+      "Sodio < 120 mEq/L con compromiso de conciencia, estupor o convulsiones es una emergencia vital: tratamiento inmediato con bolo de NaCl al 3% (100–150 mL en 20 min).",
+      "Meta de emergencia inicial: elevar el sodio sérico entre 4 y 6 mEq/L en las primeras 2 a 4 horas para revertir la hipertensión endocraneana aguda.",
+      "Velocidad máxima absoluta de corrección: NO superar 8 a 10 mEq/L en 24 horas ni 18 mEq/L en 48 horas (en pacientes de alto riesgo: máx 6–8 mEq/L/día).",
+      "La corrección excesivamente rápida causa Síndrome de Desmielinización Osmótica (Mielinolisis Pontina Central) con cuadriplejía flácida y disartria bulbar irreversible.",
+      "Si ocurre sobrecorrección accidental, detener el ascenso infundiendo Suero Glucosado al 5% asociado a Desmopresina (DDAVP) 1 a 2 mcg IV/SC.",
+      "Diuréticos tiazídicos actúan en el túbulo contorneado distal alterando la dilución urinaria: son la causa farmacológica más frecuente de hiponatremia hipovolémica grave.",
+      "SIADH se caracteriza por euvolemia clínica, hiponatremia hipotónica con orina inapropiadamente concentrada (Osmu > 100) y natriuresis elevada (Nau > 40 mEq/L)."
+    ],
+    "vignette": "Mujer de 74 años, con antecedentes de hipertensión arterial y depresión mayor tratada con Hidroclorotiazida 25 mg/día y Citalopram 20 mg/día. Es traída al Servicio de Urgencias por sus familiares tras presentar cuadro de 24 horas de cefalea opresiva, marcha inestable y un episodio de convulsión tónico-clónica generalizada de 3 minutos de duración hace 30 minutos. Al examen físico: en sopor moderado, no responde al interrogatorio, PA 135/85 mmHg, FC 78 lpm, afebril, sin signos de deshidratación ni edemas periféricos, pupilas isocóricas. Exámenes de laboratorio: Glicemia 98 mg/dL, Sodio plasmático 112 mEq/L, Potasio 3.6 mEq/L, Creatinina 0.8 mg/dL, Osmolaridad plasmática 232 mOsm/kg. Sodio urinario 68 mEq/L, Osmolaridad urinaria 410 mOsm/kg.",
+    "explicacion": "La paciente presenta una Hiponatremia Hipotónica Euvolémica Grave Sintomática (Na 112 mEq/L) con Encefalopatía Hiponatrémica y convulsiones, desencadenada por el uso concomitante de un diurético tiazídico y un inhibidor selectivo de la recaptura de serotonina (Citalopram, inductor potente de SIADH). Ante la presencia de convulsiones activas o recientes, la conducta prioritaria e impostergable es administrar un bolo de Suero Salino Hipertónico al 3% (100–150 mL en 20 minutos) con el objetivo de elevar rápidamente la natremia entre 4 y 6 mEq/L para abortar el edema cerebral hipertensivo endocranéano. El límite de corrección en 24 horas no debe superar los 8–10 mEq/L para evitar la mielinolisis pontina central.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 60 años con diagnóstico reciente de neuralgia del trigémino en tratamiento con Carbamazepina desde hace 3 semanas. Consulta por astenia, mareos, náuseas y confusión progresiva de 48 horas de evolución. Al examen físico: orientado en persona pero desorientado en tiempo y espacio, PA 125/75 mmHg, FC 74 lpm, hidratado, sin edemas periféricos ni focalidad neurológica. Exámenes de laboratorio: Glicemia 92 mg/dL, Sodio sérico 118 mEq/L, Potasio 4.2 mEq/L, Creatinina 0.7 mg/dL, Sodio urinario 52 mEq/L, Osmolaridad urinaria 380 mOsm/kg. ¿Cuál es el trastorno hidroelectrolítico y el diagnóstico etiológico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hiponatremia euvolémica secundaria a SIADH inducido por carbamazepina"
+          },
+          {
+            "id": "B",
+            "text": "Hiponatremia hipovolémica por pérdida renal de sal"
+          },
+          {
+            "id": "C",
+            "text": "Pseudohiponatremia por hipertrigliceridemia farmacológica"
+          },
+          {
+            "id": "D",
+            "text": "Diabetes insípida central neurogénica"
+          },
+          {
+            "id": "E",
+            "text": "Insuficiencia suprarrenal primaria inducida por fármacos"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La Carbamazepina es un fármaco anticonvulsivante clásico bien conocido por sensibilizar el túbulo colector renal a la vasopresina y estimular la liberación hipotalámica de ADH, desencadenando un SIADH yatrogénico. El paciente presenta la tríada definitoria de SIADH: (1) hiponatremia hipotónica severa (118 mEq/L), (2) estado de euvolemia clínica (sin deshidratación ni edemas), y (3) orina inapropiadamente concentrada (Osmolaridad urinaria 380 mOsm/kg > 100) con natriuresis persistente (Sodio urinario 52 mEq/L > 40) en presencia de función renal y suprarrenal conservadas. El manejo consiste en suspender la carbamazepina y restringir el consumo de agua libre."
+      },
+      {
+        "stem": "Mujer de 70 años con antecedente de depresión en tratamiento con sertralina ingresa a urgencias en coma no reactivo tras presentar dos convulsiones tónico-clónicas generalizadas en su domicilio. Laboratorio de urgencia: Glicemia 105 mg/dL, Sodio plasmático 108 mEq/L, Potasio 3.9 mEq/L, Osmolaridad plasmática 225 mOsm/kg. ¿Cuál es la conducta terapéutica inmediata más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infusión continua de Suero Fisiológico 0.9% a 250 mL/hora"
+          },
+          {
+            "id": "B",
+            "text": "Bolo intravenoso de 100 a 150 mL de Suero Salino Hipertónico al 3% en 20 minutos"
+          },
+          {
+            "id": "C",
+            "text": "Restricción hídrica estricta a 500 mL/día y control electrolítico en 24 horas"
+          },
+          {
+            "id": "D",
+            "text": "Administración de 40 mg de furosemida intravenosa en bolo"
+          },
+          {
+            "id": "E",
+            "text": "Infusión rápida de Suero Glucosado al 5% con ampolla de cloruro de potasio"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La paciente presenta una encefalopatía hiponatrémica aguda severa con riesgo vital inminente por edema cerebral difuso y enclavamiento encefálico manifestado por coma y convulsiones recurrentes. En este contexto crítico, las guías internacionales y los consensos nefrológicos establecen que la medida de rescate de primera línea es la infusión rápida de un bolo de 100 a 150 mL de Suero Salino Hipertónico al 3% (NaCl 3%) administrado en 20 minutos. Este bolo persigue elevar la natremia en 4 a 6 mEq/L rápidamente, lo cual reduce de inmediato el volumen celular cerebral hipertensivo y detiene las convulsiones. El suero fisiológico al 0.9% es isotónico respecto al plasma normal pero puede ser inefectivo o incluso empeorar la natremia en SIADH grave."
+      },
+      {
+        "stem": "Hombre de 54 años con alcoholismo crónico severo y desnutrición ingresa con sodio sérico de 102 mEq/L por hiponatremia hipotónica. Se inicia reposición hidroelectrolítica con solución salina. A las 20 horas de ingreso, el control de laboratorio muestra sodio plasmático en 120 mEq/L (aumento de 18 mEq/L). El paciente evoluciona con disartria, disfagia, tetraparesia espástica y compromiso progresivo de la vigilia. ¿Cuál es el diagnóstico más probable de esta complicación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hematoma subdural crónico reagudizado"
+          },
+          {
+            "id": "B",
+            "text": "Encefalopatía de Wernicke por déficit de tiamina"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome de desmielinización osmótica (mielinolisis pontina central)"
+          },
+          {
+            "id": "D",
+            "text": "Accidente cerebrovascular isquémico de la arteria cerebral media"
+          },
+          {
+            "id": "E",
+            "text": "Delirium tremens por deprivación alcohólica aguda"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El cuadro corresponde al Síndrome de Desmielinización Osmótica (clásicamente conocido como Mielinolisis Pontina Central). Ocurre cuando una hiponatremia crónica severa se corrige a una velocidad excesiva (en este caso el sodio subió 18 mEq/L en 20 horas, violando ampliamente el límite de seguridad de 6–8 mEq/L/día para pacientes alcohólicos desnutridos). Al hipertonizarse bruscamente el plasma, las células cerebrales que habían agotado sus osmolitos orgánicos sufren una deshidratación osmótica masiva que lesiona de manera irreversible los oligodendrocitos pontinos, provocando desmielinización. Clínicamente se manifiesta de 2 a 6 días después de la corrección rápida con disartria, disfagia, paresia pseudobulbar, tetraparesia espástica y estado locked-in."
+      },
+      {
+        "stem": "¿Cuál es el mecanismo por el cual los diuréticos tiazídicos (ej. hidroclorotiazida, clortalidona) producen hiponatremia con mayor frecuencia y severidad que los diuréticos de asa (ej. furosemida)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Las tiazidas actúan en el túbulo contorneado distal bloqueando la excreción de agua libre sin interferir con la médula hiperosmolar"
+          },
+          {
+            "id": "B",
+            "text": "Las tiazidas destruyen directamente el gradiente medular de concentración en el asa de Henle"
+          },
+          {
+            "id": "C",
+            "text": "Las tiazidas inhiben la síntesis central de hormona antidiurética a nivel supraóptico"
+          },
+          {
+            "id": "D",
+            "text": "La furosemida produce mayor pérdida de sodio urinario que las tiazidas por miligramo de fármaco"
+          },
+          {
+            "id": "E",
+            "text": "Las tiazidas estimulan de manera directa a los osmorreceptores hipotalámicos induciendo sed patológica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Los diuréticos tiazídicos inhiben el cotransportador Na+/Cl- en el túbulo contorneado distal, el cual es el segmento dilutor cortical de la nefrona. Al bloquear este transportador, impiden la generación normal de orina diluida, forzando la excreción de orina hipertónica rica en sodio y potasio. Crucialmente, las tiazidas NO afectan el asa de Henle, por lo que dejan intacto el intersticio medular hiperosmolar renal, permitiendo que la hormona antidiurética (ADH) siga reabsorbiendo agua libre de forma masiva en el túbulo colector. En cambio, los diuréticos de asa bloquean el cotransportador Na+/K+/2Cl- en el asa gruesa de Henle, disolviendo el gradiente medular e impidiendo que el riñón concentre la orina, lo que genera excreción de agua libre y protege paradójicamente contra la hiponatremia."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-09",
+    "title": "Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+    "perfilCode": "1.09.2.005, 1.09.4.016",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud de Urgencia Vital (Ley de Urgencias)",
+    "tier": 3,
+    "keyPoints": [
+      "Hiperkalemia (> 6.5 mEq/L o cambios en ECG): el primer paso absoluto es siempre Gluconato de Calcio al 10% IV (10 mL en 2–5 min).",
+      "El Gluconato de Calcio NO disminuye los niveles séricos de potasio: actúa en 1 a 3 minutos estabilizando la membrana miocárdica al elevar el potencial umbral.",
+      "Si a los 5 a 10 minutos de administrar Gluconato de Calcio persisten los cambios electrocardiográficos, se debe repetir una segunda ampolla.",
+      "Para descender la kalemia plasmática rápidamente (shifting): Insulina Rápida 10 UI IV + Glucosa al 30% (50–100 mL) + Salbutamol nebulizado 10–20 mg.",
+      "El Bicarbonato de Sodio solo es útil para bajar el potasio si coexiste acidosis metabólica severa concomitante.",
+      "Para eliminar potasio definitivamente del cuerpo: Furosemida (si el paciente orina) o Hemodiálisis de Urgencia (en anuria o ERC estadio 5).",
+      "Bradicardia severa con QRS ancho en paciente renal crónico o dializado es hiperkalemia hasta que se demuestre lo contrario.",
+      "La tetraparesia flácida ascendente con reflejos osteotendinosos abolidos es una manifestación neuromuscular clásica de la hiperkalemia grave."
+    ],
+    "vignette": "Hombre de 28 años con insuficiencia renal crónica terminal en hemodiálisis trisemanal no acude a su sesión de diálisis programada del día sábado por encontrarse en una reunión familiar con abundante ingesta de asado de vacuno y frutas cítricas. El día lunes por la mañana es llevado a urgencias por astenia severa, dificultad extrema para mantenerse de pie y paresia flácida simétrica de las cuatro extremidades. Al examen físico: en sopor superficial, FC 34 lpm, PA 75/40 mmHg, sin signos meníngeos. El electrocardiograma muestra ausencia total de ondas P visibles, ritmo idioventricular regular lento a 34 lpm y complejos QRS ensanchados a 180 ms con ondas T picudas en derivaciones precordiales. La gasometría venosa rápida informa: Potasio sérico 8.6 mEq/L, Sodio 132 mEq/L, pH 7.24, Bicarbonato 14 mEq/L.",
+    "explicacion": "El paciente presenta una hiperkalemia catastrófica (8.6 mEq/L) con toxicidad miocárdica crítica manifestada por bradicardia extrema, pérdida de ondas P y ensanchamiento del QRS con riesgo inminente de fibrilación ventricular o asistolia. La PRIMERA Y MÁS URGENTE medida terapéutica es la administración intravenosa inmediata de Gluconato de Calcio al 10% (10 mL en 2 a 5 minutos) con el fin exclusivo de estabilizar la membrana miocárdica y evitar la muerte súbita arritmogénica. Simultáneamente se debe solicitar el llamado de urgencia al nefrólogo de turno para hemodiálisis urgente e iniciar el shifting con insulina regular más glucosa. El intento de instalar un marcapasos transitorio sin estabilizar previamente la membrana con calcio suele fracasar por falta de captura eléctrica del miocardio hiperexcitable despolarizado.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 68 años con antecedentes de cardiopatía hipertensiva y enfermedad renal crónica estadio 4 consulta por marcada debilidad muscular y palpitaciones lentas. Al examen físico: PA 80/50 mmHg, FC 32 lpm. El monitor muestra ritmo de la unión con QRS ensanchado a 160 ms y ondas T picudas simétricas de gran amplitud. El laboratorio de urgencia informa Potasio plasmático en 8.4 mEq/L. ¿Cuál es la intervención terapéutica inicial prioritaria que debe administrarse de inmediato?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bicarbonato de sodio 2/3 molar en infusión rápida"
+          },
+          {
+            "id": "B",
+            "text": "Insulina cristalina 10 UI asociada a 100 mL de suero glucosado al 30%"
+          },
+          {
+            "id": "C",
+            "text": "Gluconato de calcio al 10% intravenoso en 2 a 5 minutos"
+          },
+          {
+            "id": "D",
+            "text": "Instalación de marcapasos transitorio transvenoso de urgencia"
+          },
+          {
+            "id": "E",
+            "text": "Hemodiálisis inmediata por catéter venoso central"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En toda hiperkalemia grave acompañada de alteraciones electrocardiográficas (bradicardia extrema, QRS ancho u ondas T picudas), la regla de oro internacional es estabilizar de inmediato la membrana celular de los cardiomiocitos para impedir la fibrilación ventricular o asistolia letal. El fármaco de elección absoluta es el Gluconato de Calcio al 10% intravenoso. Su efecto protector es casi instantáneo (1 a 3 minutos). Las medidas para redistribuir el potasio (insulina con glucosa) o para eliminarlo (hemodiálisis) deben coordinarse de inmediato, pero NUNCA deben anteponerse a la administración del calcio."
+      },
+      {
+        "stem": "Mujer de 72 años con diabetes mellitus e hipertensión arterial tratada con Enalapril 20 mg cada 12 horas y Espironolactona 25 mg/día consulta por astenia y malestar general. El ECG revela prolongación del intervalo PR y ondas T altas y acuminadas. El potasio sérico es de 7.2 mEq/L. Se administra una ampolla de gluconato de calcio al 10% IV, revirtiendo transitoriamente los cambios en el ECG. ¿Cuál es el paso siguiente para inducir un rápido desplazamiento del potasio hacia el espacio intracelular?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Resina de intercambio catiónico (sulfonato de poliestireno sódico) por sonda nasogástrica"
+          },
+          {
+            "id": "B",
+            "text": "Bolo intravenoso de 10 UI de insulina rápida junto con solución glucosada hipertónica"
+          },
+          {
+            "id": "C",
+            "text": "Infusión continua de cloruro de potasio a bajas dosis"
+          },
+          {
+            "id": "D",
+            "text": "Bolo de furosemida 120 mg intravenoso"
+          },
+          {
+            "id": "E",
+            "text": "Suspender el enalapril y citar a control ambulatorio en 48 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Una vez estabilizada la membrana miocárdica con calcio, la fase terapéutica inmediata es el desplazamiento intracelular rápido (\"shifting\") del potasio plasmático. La medida más potente y rápida es la infusión de 10 Unidades de Insulina Rápida (regular o cristalina) combinada con glucosa hipertónica (ej. 100 mL de SG al 30% o 250 mL al 10%) para prevenir la hipoglicemia. La insulina estimula la bomba Na+/K+-ATPasa ingresando potasio a las células en 15 a 30 minutos. Las resinas de intercambio catiónico (A) tardan varias horas en hacer efecto y no son apropiadas para el rescate agudo."
+      },
+      {
+        "stem": "Hombre de 27 años con antecedente de insuficiencia renal crónica terminal en programa de hemodiálisis trisemanal no acude a su sesión programada del sábado. El lunes por la mañana consulta en urgencias con marcada debilidad muscular y dificultad para movilizar las extremidades inferiores. Al examen físico se constata tetraparesia flácida simétrica con reflejos osteotendinosos abolidos y frecuencia cardíaca de 40 latidos por minuto. ¿Cuál es el diagnóstico clínico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Síndrome de Guillain-Barré"
+          },
+          {
+            "id": "B",
+            "text": "Hipokalemia por pérdidas digestivas ocultas"
+          },
+          {
+            "id": "C",
+            "text": "Hiperkalemia grave por omisión de terapia de reemplazo renal"
+          },
+          {
+            "id": "D",
+            "text": "Accidente cerebrovascular isquémico de tronco encefálico"
+          },
+          {
+            "id": "E",
+            "text": "Crisis miasténica autoinmune"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En un paciente con insuficiencia renal crónica terminal en diálisis que omite su sesión de filtración, la retención de potasio es constante y predecible. Las manifestaciones clínicas clásicas de la hiperkalemia grave combinan dos esferas principales: la electrofisiología cardíaca (bradicardia, bloqueos AV y arritmias) y el sistema neuromuscular (debilidad muscular profunda, astenia, tetraparesia flácida ascendente e hiporreflexia que simula una parálisis periódica o un síndrome de Guillain-Barré). El diagnóstico es hiperkalemia grave y requiere ECG y tratamiento de urgencia inmediatos."
+      },
+      {
+        "stem": "Un médico evalúa a un paciente asintomático de 45 años cuyos exámenes de rutina en sangre venosa periférica informan un potasio plasmático de 6.8 mEq/L. El paciente no presenta antecedentes mórbidos, el examen físico es normal y el electrocardiograma de 12 derivaciones es estrictamente normal sin ondas T picudas ni ensanchamiento de complejos. El hemograma muestra plaquetas de 750.000/uL y glóbulos blancos normales. ¿Cuál es la conducta inicial más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Indicar hemodiálisis de urgencia inmediata"
+          },
+          {
+            "id": "B",
+            "text": "Administrar 10 mL de gluconato de calcio al 10% IV"
+          },
+          {
+            "id": "C",
+            "text": "Sospechar pseudohiperkalemia y repetir la toma de muestra venosa sin torniquete"
+          },
+          {
+            "id": "D",
+            "text": "Administrar sulfonato de poliestireno sódico oral cada 6 horas"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar infusión continua de bicarbonato de sodio isotónico"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La presencia de una hiperkalemia significativa en un paciente clínicamente asintomático, sin factores de riesgo conocidos de falla renal o ingesta de fármacos retenedores de potasio, y con un electrocardiograma completamente normal, orienta con fuerza a una Pseudohiperkalemia. Ésta se produce por la liberación in vitro de potasio intracelular tras la extracción sanguínea, típicamente por hemólisis traumática por torniquete prolongado, o por desgranulación de plaquetas en pacientes con trombocitosis marcada (> 500.000/uL). La conducta adecuada es confirmar el hallazgo mediante una nueva toma de muestra venosa atraumática sin torniquete o gasometría arterial con electrolitos antes de instaurar tratamientos potencialmente dañinos."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-13",
+    "title": "Síndrome Nefrótico y Complicaciones Trombóticas",
+    "perfilCode": "1.09.1.022, 1.09.4.016",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Garantía GES en ERC etapa 4–5 si evoluciona a daño renal crónico",
+    "tier": 3,
+    "keyPoints": [
+      "Tríada definitoria de Síndrome Nefrótico: Proteinuria > 3.5 g/24 h + Hipoalbuminemia < 3.0 g/dL + Edema blando.",
+      "Acompañantes universales: hipercolesterolemia grave (> 350 mg/dL) y lipiduria con cuerpos ovales grasos en \"Cruz de Malta\".",
+      "En todo adulto con síndrome nefrótico primario la Biopsia Renal Percutánea es obligatoria para definir diagnóstico y tratamiento.",
+      "Estado de hipercoagulabilidad severo por pérdida de Antitrombina III urinaria: riesgo de Trombosis de Vena Renal y TEP.",
+      "Varicocele izquierdo agudo que no se reduce en decúbito orienta a Trombosis de Vena Renal izquierda.",
+      "Anticoagulación profiláctica indicada si albúmina sérica cae < 2.0 a 2.5 g/dL (particularmente en Nefropatía Membranosa).",
+      "Susceptibilidad aumentada a bacterias encapsuladas (Streptococcus pneumoniae) por pérdida urinaria de IgG y factor B.",
+      "Manejo antiproteinúrico fundamental: IECA o ARA-II para reducir la presión intraglomerular dilatando la arteriola eferente."
+    ],
+    "vignette": "Hombre de 64 años, fumador, consulta por edema bilateral de miembros inferiores de 3 semanas de evolución, que asciende hasta los muslos, acompañado de orinas muy espumosas y aumento de 6 kg de peso corporal. Al examen físico: PA 130/80 mmHg, edema bimaleolar blando +++, sin estigmas de hepatopatía crónica ni lesiones cutáneas. Exámenes de laboratorio: Albúmina plasmática 2.1 g/dL, Colesterol total 420 mg/dL, Triglicéridos 360 mg/dL, Creatinina 0.9 mg/dL, BUN 18 mg/dL. Orina completa: proteinuria ++++, sedimento con 2 eritrocitos por campo y abundantes cuerpos ovales grasos con cruces de Malta. Proteinuria cuantificada en orina de 24 horas: 8.6 gramos.",
+    "explicacion": "El paciente presenta un Síndrome Nefrótico Puro en el adulto (proteinuria masiva de 8.6 g/24 h, hipoalbuminemia profunda de 2.1 g/dL, hiperlipidemia severa y lipiduria patognomónica con cruces de Malta). En un varón de 64 años sin diabetes previa, la causa primaria más frecuente es la Nefropatía Membranosa (a menudo asociada a autoanticuerpos anti-PLA2R). La conducta mandatoria para certificar la etiología y planificar el tratamiento es realizar una Biopsia Renal Percutánea. Además, dado el nivel de albúmina plasmática de 2.1 g/dL, el paciente tiene un riesgo inminente de complicaciones tromboembólicas (trombosis de vena renal o TEP), requiriendo evaluación para anticoagulación profiláctica.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 65 años con síndrome nefrótico en estudio con proteinuria de 24 horas de 6.5 gramos y albúmina sérica de 2.0 g/dL presenta dolor torácico súbito de tipo pleurítico, disnea y taquipnea. Al examen físico: saturación de oxígeno 88% aire ambiental, FC 115 lpm, PA 110/70 mmHg. La auscultación pulmonar no revela estertores patológicos significativos. ¿Cuál es la complicación aguda más probable de su cuadro renal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Neumonía bacteriana comunitaria por Streptococcus pneumoniae"
+          },
+          {
+            "id": "B",
+            "text": "Tromboembolismo pulmonar agudo secundario a pérdida urinaria de antitrombina III"
+          },
+          {
+            "id": "C",
+            "text": "Edema agudo de pulmón no cardiogénico por hipoalbuminemia"
+          },
+          {
+            "id": "D",
+            "text": "Infarto agudo de miocardio transmural"
+          },
+          {
+            "id": "E",
+            "text": "Derrame pericárdico con taponamiento cardíaco"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El síndrome nefrótico con hipoalbuminemia severa (< 2.5 g/dL) confiere un estado de hipercoagulabilidad severo debido a la pérdida urinaria selectiva de anticoagulantes endógenos fisiológicos, principalmente la Antitrombina III (AT-III), sumada a la hiperfibrinogenemia reactiva hepática. Esta alteración predispone de forma catastrófica a trombosis venosa profunda, trombosis de la vena renal y tromboembolismo pulmonar (TEP). El dolor pleurítico súbito con disnea e hipoxemia en este paciente traduce un TEP agudo."
+      },
+      {
+        "stem": "Mujer de 27 años, sin antecedentes mórbidos, consulta por cuadro de un mes de evolución de edema bimaleolar progresivo y edema palpebral matinal. Exámenes de laboratorio: Creatinina 0.8 mg/dL, Albúmina sérica 2.4 g/dL, Colesterol total 380 mg/dL. Sedimento de orina: sin hematuria ni leucocituria, presencia de abundantes cuerpos ovales grasos. Proteinuria cuantitativa de 24 horas: 7.2 gramos. Anticuerpos antinucleares (ANA) negativos, C3 y C4 normales. ¿Cuál es la conducta diagnóstica de elección para proseguir el estudio de esta paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar prednisona oral a dosis de 1 mg/kg/día de forma empírica"
+          },
+          {
+            "id": "B",
+            "text": "Realizar biopsia renal percutánea"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar electroforesis e inmunofijación de proteínas en suero y orina"
+          },
+          {
+            "id": "D",
+            "text": "Indicar tratamiento antiproteinúrico exclusivo con losartán y citar a control en 6 meses"
+          },
+          {
+            "id": "E",
+            "text": "Ecografía Doppler de arterias y venas renales como único estudio"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En todo paciente adulto que debuta con un síndrome nefrótico primario, la Biopsia Renal Percutánea es la conducta diagnóstica de elección obligatoria e insustituible. A diferencia de los niños, en quienes la gran mayoría padece enfermedad por cambios mínimos y se trata empíricamente con corticoides, en los adultos el espectro histológico es sumamente heterogéneo (membranosa, FSGS, cambios mínimos, amiloidosis) y los tratamientos inmunosupresores específicos difieren radicalmente según el patrón anatomopatológico."
+      },
+      {
+        "stem": "Hombre de 35 años sin antecedentes previos consulta por edema facial al despertar, orina espumosa y aumento de peso de 5 kg en 2 semanas. Al examen físico se constata edema con fóvea en ambas extremidades inferiores hasta rodillas. Exámenes: Proteinuria de 24 horas: 8.0 gramos. Albúmina plasmática: 2.0 g/dL. Sedimento urinario sin hematíes ni cilindros hemáticos. ¿Cuál es el diagnóstico sindromático más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Síndrome nefrótico puro"
+          },
+          {
+            "id": "B",
+            "text": "Síndrome nefrítico agudo"
+          },
+          {
+            "id": "C",
+            "text": "Glomerulonefritis membranoproliferativa"
+          },
+          {
+            "id": "D",
+            "text": "Nefropatía por depósitos de IgA"
+          },
+          {
+            "id": "E",
+            "text": "Pielonefritis crónica con proteinuria tubular"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El paciente cumple rigurosamente con los criterios de Síndrome Nefrótico Puro: proteinuria en rango nefrótico masivo (> 3.5 g/24 h), hipoalbuminemia marcada (< 3.0 g/dL) y edema clínico, en ausencia total de elementos inflamatorios nefríticos (sin hematuria dismórfica, sin hipertensión arterial y sin cilindros hemáticos). En adultos jóvenes, las causas primarias más comunes son la nefropatía por cambios mínimos o la glomeruloesclerosis focal y segmentaria."
+      },
+      {
+        "stem": "¿Cuál de los siguientes hallazgos en el sedimento microscópico de orina analizado bajo luz polarizada es patognomónico de síndrome nefrótico y lipiduria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cilindros céreos anchos de bordes mellados"
+          },
+          {
+            "id": "B",
+            "text": "Gotas lipídicas y cuerpos ovales grasos con birrefringencia en Cruz de Malta"
+          },
+          {
+            "id": "C",
+            "text": "Cilindros hemáticos con hematíes espiculados"
+          },
+          {
+            "id": "D",
+            "text": "Cristales de oxalato de calcio en sobre de carta"
+          },
+          {
+            "id": "E",
+            "text": "Cilindros leucocitarios con piuria estéril"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La lipiduria es una consecuencia directa de la filtración glomerular masiva de lipoproteínas en el síndrome nefrótico. Las células del epitelio tubular proximal endocitan estas grasas y al descamarse se observan como cuerpos ovales grasos en la orina. Al ser examinadas bajo luz microscópica polarizada, los ésteres de colesterol presentan una birrefringencia anisotrópica característica en forma de cruz, conocida clásicamente como la \"Cruz de Malta\", hallazgo distintivo y confirmatorio de síndrome nefrótico."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-18",
+    "title": "Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+    "perfilCode": "1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Problema de Salud GES N° 1: Enfermedad Renal Crónica Etapa 4 y 5 (Acceso garantizado a Nefrólogo, Fístula AV, Diálisis y Trasplante)",
+    "tier": 3,
+    "keyPoints": [
+      "ERC: TFG < 60 mL/min/1.73m² o daño renal (albuminuria persistente RAC ≥ 30 mg/g) por más de 3 meses.",
+      "Causa #1 de ERC terminal en Chile y el mundo: Nefropatía Diabética, seguida de la Nefroangioesclerosis hipertensiva.",
+      "IECA o ARA-II son los fármacos antiproteinúricos de elección en todo paciente con albuminuria A2 o A3.",
+      "Un aumento de hasta un 30% de la creatinina tras iniciar IECA/ARA-II es un efecto hemodinámico esperado y NO obliga a suspender el fármaco.",
+      "iSGLT2 (dapagliflozina, empagliflozina) han demostrado nefroprotección de clase reduciendo muerte renal en diabéticos y no diabéticos.",
+      "Problema de Salud GES N° 1: cubre la ERC Etapa 4 y 5 con consulta por Nefrólogo en ≤ 30 días, preparación de fístula AV, diálisis y trasplante.",
+      "La fístula arteriovenosa (FAV) debe confeccionarse al menos 6 meses antes del inicio previsto de diálisis (en estadio 4) para permitir su maduración.",
+      "Metformina debe suspenderse obligatoriamente si la TFG desciende por debajo de 30 mL/min por riesgo de acidosis láctica."
+    ],
+    "vignette": "Hombre de 54 años, con antecedentes de diabetes mellitus tipo 2 de 14 años de evolución e hipertensión arterial, en tratamiento regular con Metformina 850 mg cada 12 horas y Amlodipino 10 mg/día. Consulta a control médico asintomático. Al examen físico: PA 142/88 mmHg, FC 70 lpm, fondo de ojo con retinopatía diabética no proliferativa moderada, examen físico sin edemas. Exámenes de laboratorio: Glicemia 134 mg/dL, HbA1c 7.4%, Creatinina sérica 1.5 mg/dL (TFGe por CKD-EPI: 52 mL/min/1.73m², estadio G3a), Potasio 4.2 mEq/L. Orina completa normal, Razón Albúmina/Creatinina en orina (RAC): 180 mg/g (estadio A2, microalbuminuria confirmada en 2 tomas).",
+    "explicacion": "El paciente presenta una Enfermedad Renal Crónica estadio G3a A2 secundaria a Nefropatía Diabética establecida. La presencia de albuminuria moderadamente aumentada (A2: RAC 30–300 mg/g) en un paciente diabético con hipertensión arterial constituye la indicación de primera línea indiscutible para iniciar un Bloqueador del Sistema Renina-Angiotensina-Aldosterona (un IECA como Enalapril o un ARA-II como Losartán), sumado a un inhibidor de SGLT2 (Dapagliflozina o Empagliflozina). El IECA reduce selectivamente el tono de la arteriola eferente, disminuyendo la presión capilar intraglomerular y reduciendo la progresión del daño glomerular.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 46 años, con antecedente de diabetes mellitus tipo 2 en tratamiento con metformina, acude a control regular encontrándose asintomático. Al examen físico se pesquisa presión arterial de 138/84 mmHg, sin otros hallazgos patológicos. Sus exámenes de laboratorio revelan: HbA1c 6.9%, Creatinina 0.8 mg/dL, y un Índice Proteinuria/Creatininuria (o RAC) confirmado de 0.3 mg/mg (300 mg/g). ¿Cuál es la conducta farmacológica más adecuada e indicada para la protección renal de este paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumentar la dosis de metformina a 2.550 mg/día"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar hidroclorotiazida 25 mg/día"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar enalapril en dosis tituladas"
+          },
+          {
+            "id": "D",
+            "text": "Suspender metformina e iniciar esquema de insulina"
+          },
+          {
+            "id": "E",
+            "text": "Mantener el tratamiento actual sin modificaciones"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En todo paciente diabético que presenta microalbuminuria o proteinuria confirmada (RAC ≥ 30 mg/g o IPC ≥ 0.2), las guías clínicas ministeriales (MINSAL) e internacionales (ADA / KDIGO) establecen que el fármaco antihipertensivo y nefroprotector de elección obligada es un inhibidor de la enzima convertidora de angiotensina (IECA, como el Enalapril) o un antagonista de los receptores de angiotensina II (ARA-II, como el Losartán). Los IECA vasodilatan la arteriola eferente del glomérulo, disminuyendo la presión hidrostática intraglomerular y frenando la progresión de la nefropatía diabética."
+      },
+      {
+        "stem": "Mujer de 62 años con diabetes mellitus e hipertensión arterial consulta a control en Cesfam. Trae exámenes que muestran creatinina de 2.1 mg/dL, con una tasa de filtración glomerular estimada de 24 mL/min/1.73m² (confirmada con examen previo de hace 4 meses similar). No presenta síntomas urémicos. De acuerdo a la normativa de Garantías Explícitas en Salud (GES N° 1) en Chile, ¿cuál es la conducta que debe adoptar el médico tratante?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Notificar caso GES N° 1 de ERC Etapa 4 y generar interconsulta prioritaria a Nefrología para ingreso en menos de 30 días"
+          },
+          {
+            "id": "B",
+            "text": "Instalar catéter venoso central transitorio para hemodiálisis en el servicio de urgencias"
+          },
+          {
+            "id": "C",
+            "text": "Citar a nuevo control en atención primaria en un año para reevaluar función renal"
+          },
+          {
+            "id": "D",
+            "text": "Iniciar diálisis peritoneal ambulatoria de forma inmediata en el consultorio"
+          },
+          {
+            "id": "E",
+            "text": "Indicar restricción hídrica estricta de 500 mL/día y suspender todo tratamiento oral"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La paciente presenta una Enfermedad Renal Crónica confirmada en Etapa 4 (TFG entre 15 y 29 mL/min, en este caso 24 mL/min). En Chile, el Problema de Salud GES N° 1 cubre formalmente la ERC en Etapas 4 y 5. La obligación del médico de atención primaria es notificar el caso al sistema GES y emitir la derivación al especialista Nefrólogo en el nivel secundario, quien tiene un plazo garantizado por ley de no más de 30 días para evaluar a la paciente, optimizar el manejo metabólico, vacunar contra hepatitis B y planificar la confección oportuna del acceso vascular (fístula arteriovenosa) pre-diálisis."
+      },
+      {
+        "stem": "Hombre de 68 años con enfermedad renal crónica estadio 4 en programa de prediálisis es programado para confección de fístula arteriovenosa autóloga. ¿Por qué motivo las guías clínicas recomiendan confeccionar la fístula arteriovenosa con al menos 6 meses de anticipación al inicio previsto de la hemodiálisis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Para permitir el proceso de maduración y arterialización venosa con adecuado flujo y pared engrosada"
+          },
+          {
+            "id": "B",
+            "text": "Para prevenir la aparición de calcificaciones metastásicas en la arteria radial"
+          },
+          {
+            "id": "C",
+            "text": "Porque la fístula reduce de inmediato la cifra de creatinina sérica a valores normales"
+          },
+          {
+            "id": "D",
+            "text": "Para evitar el uso de eritropoyetina humana recombinante en el paciente"
+          },
+          {
+            "id": "E",
+            "text": "Para facilitar la reabsorción distal de potasio en las nefronas residuales"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Una fístula arteriovenosa (FAV) autóloga requiere someterse al flujo de alta presión pulsátil arterial para que la vena anastomosada se dilate progresivamente, engruese su capa muscular y endotelial (\"arterialización\") y alcance un calibre y flujo suficientes (> 500–600 mL/min) que permitan soportar punciones repetidas con agujas de diálisis de grueso calibre. Este proceso biológico de maduración vascular tarda típicamente entre 2 a 6 meses. La confección precoz evita que el paciente deba ingresar a diálisis de urgencia con un catéter venoso central transitorio, el cual se asocia a bacteriemias letales y estenosis venosa central."
+      },
+      {
+        "stem": "En un paciente hipertenso con enfermedad renal crónica y proteinuria en quien se inicia tratamiento con Losartán 50 mg/día, se constata a las 2 semanas de control un ascenso de la creatinina sérica desde 1.4 mg/dL hasta 1.65 mg/dL (incremento del 18%) y un potasio sérico de 4.8 mEq/L. El paciente se encuentra clínicamente asintomático y con PA de 128/78 mmHg. ¿Cuál es la conducta médica más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mantener el losartán sin cambios y continuar la monitorización periódica"
+          },
+          {
+            "id": "B",
+            "text": "Suspender de inmediato el losartán por toxicidad renal irreversible"
+          },
+          {
+            "id": "C",
+            "text": "Reducir la dosis a un cuarto de comprimido y administrar furosemida"
+          },
+          {
+            "id": "D",
+            "text": "Indicar hemodiálisis de urgencia por deterioro de filtración"
+          },
+          {
+            "id": "E",
+            "text": "Reemplazar el losartán por un AINE a dosis antiinflamatorias"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El bloqueo del sistema renina-angiotensina con IECA o ARA-II produce una vasodilatación de la arteriola eferente que alivia la hiperfiltración e hipertensión intraglomerular, lo cual genera de manera hemodinámica esperable una discreta disminución del filtrado glomerular reflejada en una elevación leve de la creatinina sérica. Se considera un efecto fisiológico seguro y tolerable si el aumento de la creatinina sérica es menor al 30% respecto al valor basal y la kalemia se mantiene en niveles seguros (< 5.5 mEq/L). Por tanto, con un ascenso del 18% y potasio normal, la conducta correcta es mantener el fármaco y monitorear."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-02",
+    "title": "Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+    "perfilCode": "1.09.2.004, 1.09.1.013",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES · Cobertura hospitalaria de urgencias",
+    "tier": 2,
+    "keyPoints": [
+      "Causa más frecuente de NTA en pacientes hospitalizados: isquemia prolongada (shock séptico/cardiogénico) y fármacos (aminoglucósidos, contraste).",
+      "La rabdomiólisis causa NTA por mioglobinuria: orina color té con dipstick positivo para sangre pero SIN glóbulos rojos al microscopio (detecta mioglobina).",
+      "Fármacos inductores de NTIA alérgica: Omeprazol/IBP (muy frecuente), Betalactámicos, AINEs y Sulfonamidas.",
+      "La tríada de NTIA (fiebre, rash, eosinofilia) es infrecuente; el hallazgo más constante es la piuria estéril con cilindros leucocitarios.",
+      "Conducta obligatoria en NTIA: suspender de inmediato el fármaco culpable. Si la creatinina no desciende en 5-7 días, indicar Prednisona 1 mg/kg/día."
+    ],
+    "vignette": "Hombre de 54 años, hospitalizado hace 10 días por osteomielitis en tratamiento con Cefazolina IV. Comienza con febrícula de 37.8 °C y un exantema eritematoso pruriginoso en tronco. Laboratorio muestra elevación de Creatinina de 1.0 a 2.6 mg/dL. Hemograma: 9.800 leucocitos con 9% de eosinófilos. Sedimento urinario: leucocitos 30-40 por campo, cilindros leucocitarios, urocultivo negativo.",
+    "explicacion": "El paciente presenta una Nefritis Túbulo-Intersticial Aguda (NTIA) inmunoalérgica clásica inducida por Cefazolina. El diagnóstico se confirma por la combinación de exposición al betalactámico, febrícula, rash, eosinofilia y sedimento con piuria estéril y cilindros leucocitarios en ausencia de infección urinaria activa. La primera conducta es suspender de inmediato la cefazolina y rotar a otra familia antibiótica.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 28 años ingresa tras colapso durante una maratón en día caluroso. Al ingreso está obnubilado, deshidratado, con mialgias generalizadas severas. Exámenes: Creatinina 4.2 mg/dL, K 6.1 mEq/L, CPK 68.000 U/L. La orina es de color marrón oscuro; la tira reactiva marca 4+ de sangre, pero el sedimento microscópico muestra apenas 0-2 hematíes por campo. ¿Cuál es el tratamiento inicial más adecuado para prevenir mayor daño renal?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hemodiálisis de urgencia con filtro de alta permeabilidad"
+          },
+          {
+            "id": "B",
+            "text": "Hidratación intravenosa agresiva con cristaloides isotónicos"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar corticoides en altas dosis por sospecha de miositis autoinmune"
+          },
+          {
+            "id": "D",
+            "text": "Administrar furosemida en infusión continua sin aporte de volumen"
+          },
+          {
+            "id": "E",
+            "text": "Indicar tratamiento con manitol al 20% en bolo cada 4 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Se trata de una rabdomiólisis por esfuerzo extremo con mioglobinuria masiva y Necrosis Tubular Aguda secundaria. La discordancia clásica del dipstick (tira reactiva que marca sangre 4+ debido a que la ortotolidina reacciona con el grupo hemo de la mioglobina libre) frente a la ausencia de glóbulos rojos en el microscopio certifica la mioglobinuria. El pilar fundamental y urgente del tratamiento es la hidratación intravenosa agresiva con cristaloides isotónicos (Suero Fisiológico o soluciones balanceadas a 200-300 mL/h) para mantener una diuresis elevada (> 2-3 mL/kg/h) y evitar la precipitación de cilindros de mioglobina y la toxicidad tubular directa."
+      },
+      {
+        "stem": "Mujer de 70 años con antecedente de artrosis y dispepsia en tratamiento con Omeprazol y Naproxeno. Consulta por astenia y náuseas. Laboratorio muestra elevación de creatinina sérica a 3.2 mg/dL (basal de hace 2 meses: 0.9 mg/dL). El sedimento urinario muestra 25 leucocitos por campo, cilindros leucocitarios y eosinófilos en orina (tinción de Hansel positiva). El urocultivo es negativo. ¿Cuál es la conducta inicial más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar ciprofloxacino por sospecha de pielonefritis aguda"
+          },
+          {
+            "id": "B",
+            "text": "Suspender de inmediato omeprazol y naproxeno"
+          },
+          {
+            "id": "C",
+            "text": "Realizar pielografía ascendente retrógrada"
+          },
+          {
+            "id": "D",
+            "text": "Indicar diálisis peritoneal continua"
+          },
+          {
+            "id": "E",
+            "text": "Aumentar la dosis de IBP para proteger la mucosa gástrica"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El cuadro corresponde a una Nefritis Túbulo-Intersticial Aguda inmunoalérgica secundaria a fármacos (el omeprazol y los AINEs son dos de los principales causantes). La presencia de piuria estéril (leucocitos en orina con urocultivo negativo), cilindros leucocitarios y eosinofiluria confirma el diagnóstico. La primera y más importante medida terapéutica es suspender inmediatamente todos los fármacos potencialmente alergizantes (omeprazol y naproxeno). La mayoría de los pacientes recupera la función renal solo con esta medida; los corticoides se reservan si no hay mejoría tras una semana."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-06",
+    "title": "SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+    "perfilCode": "1.09.1.010, 1.09.2.007",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica",
+    "tier": 2,
+    "keyPoints": [
+      "SIADH: hiponatremia hipotónica euvolémica con orina inapropiadamente concentrada (Osmu > 100 mOsm/kg) y Nau > 40 mEq/L.",
+      "Cáncer pulmonar microcítico es la causa paraneoplásica clásica de SIADH por síntesis ectópica tumoral de vasopresina.",
+      "Fármacos inductores frecuentes de SIADH: ISRS (citalopram, sertralina), carbamazepina, antipsicóticos y ciclofosfamida.",
+      "En SIADH el paciente está clí­nicamente euvolémico: no tiene edemas ni signos de deshidratación.",
+      "El tratamiento de base del SIADH euvolémico asintomático es la restricción hídrica estricta (800 a 1000 mL/día).",
+      "Síndrome Pierde Sal Cerebral (CSW): natriuresis mediada por BNP en patología neuroquirúrgica que cursa con HIPOVOLEMIA real.",
+      "Diferencia crítica: en SIADH se restringe agua libre; en Pierde Sal Cerebral se administra abundante suero salino al 0.9% para evitar shock e isquemia cerebral."
+    ],
+    "vignette": "Hombre de 52 años, operado hace 5 días de clipaje de aneurisma de arteria comunicante anterior por hemorragia subaracnoidea Fisher III. Ingresa a control de UCI taquicárdico (FC 110 lpm), PA 90/60 mmHg (previas de 135/85), PVC 2 cmH2O (basal 8 cmH2O), diuresis de 4.500 mL en las últimas 24 horas y balance hídrico negativo de -2.800 mL. Exámenes: Sodio sérico 126 mEq/L (basal 138), Potasio 4.0 mEq/L, BUN 28 mg/dL, Creatinina 0.9 mg/dL, Sodio urinario 88 mEq/L, Osmolaridad urinaria 450 mOsm/kg.",
+    "explicacion": "El paciente presenta una hiponatremia hipotónica con natriuresis elevada en contexto de una patología neuroquirúrgica intracraneana aguda. La clave diagnóstica que descarta SIADH y confirma Síndrome Pierde Sal Cerebral (CSW) es la presencia indudable de hipovolemia hemodinámica: hipotensión arterial, taquicardia ortostática, PVC colapsada (2 cmH2O) y balance hídrico marcadamente negativo con poliuria. La conducta terapéutica correcta es la reposición masiva de volumen intravascular y sodio con Suero Fisiológico al 0.9% intravenoso para prevenir el vasoespasmo e infarto cerebral secundario.",
+    "baseQuestions": [
+      {
+        "stem": "Mujer de 60 años con antecedentes de hipertensión arterial y depresión mayor tratada con Enalapril y Citalopram consulta para chequeo de rutina. Está completamente asintomática. En sus exámenes destaca: Sodio sérico 127 mEq/L, Potasio 4.1 mEq/L, Creatinina 0.9 mg/dL, Glicemia 88 mg/dL, Osmolaridad plasmática 262 mOsm/kg, Sodio urinario 60 mEq/L y Osmolaridad urinaria 520 mOsm/kg. Al examen físico no presenta edemas ni ortostatismo, signos vitales normales. Pruebas tiroideas y cortisol matinal normales. ¿Cuál es la causa más probable de su hiponatremia?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Efecto adverso del Enalapril por disminución de aldosterona"
+          },
+          {
+            "id": "B",
+            "text": "Secreción inadecuada de ADH (SIADH) secundaria a Citalopram"
+          },
+          {
+            "id": "C",
+            "text": "Insuficiencia suprarrenal primaria oculta"
+          },
+          {
+            "id": "D",
+            "text": "Pérdida renal de sodio por tubulopatía crónica"
+          },
+          {
+            "id": "E",
+            "text": "Hipotiroidismo primario descompensado"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El cuadro cumple los criterios estrictos de SIADH: hiponatremia hipotónica (127 mEq/L), euvolemia clínica (sin ortostatismo ni edema), sodio urinario alto (60 mEq/L > 40) y osmolaridad urinaria concentrada (520 mOsm/kg > 100) con funciones renal, suprarrenal y tiroidea normales. Los inhibidores selectivos de la recaptura de serotonina (como el Citalopram) son una causa farmacológica frecuente y reconocida de SIADH en adultos mayores al estimular la liberación hipotalámica de hormona antidiurética."
+      },
+      {
+        "stem": "Hombre de 72 años con tabaquismo severo consulta por tos crónica, baja de peso y desorientación fluctuante en la última semana. Al examen físico: adelgazado, vigil, pero desorientado en tiempo, sin focalidad neurológica, PA 130/80 mmHg, hidratado y sin edema. Exámenes: Sodio sérico 121 mEq/L, Sodio urinario 65 mEq/L, Osmolaridad urinaria 480 mOsm/kg. La radiografía de tórax muestra una masa hiliar derecha de bordes espiculados. ¿Cuál es el diagnóstico más probable del trastorno electrolítico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "SIADH por secreción ectópica paraneoplásica de carcinoma pulmonar de células pequeñas"
+          },
+          {
+            "id": "B",
+            "text": "Metástasis suprarrenales bilaterales con enfermedad de Addison"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome hiperosmolar secundario a neoplasia pulmonar"
+          },
+          {
+            "id": "D",
+            "text": "Hiponatremia hipervolémica por insuficiencia cardíaca congestiva"
+          },
+          {
+            "id": "E",
+            "text": "Pseudohiponatremia por hiperproteinemia paraneoplásica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El carcinoma neuroendocrino de células pequeñas del pulmón (microcítico u \"oat cell\") es la neoplasia maligna que con mayor frecuencia causa síndromes paraneoplásicos endocrinos, destacando la secreción ectópica no regulada de hormona antidiurética (vasopresina). Esto desencadena un SIADH clásico con hiponatremia hipotónica euvolémica grave y retención inapropiada de agua libre."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-10",
+    "title": "Hipokalemia y Reposición Segura de Potasio",
+    "perfilCode": "1.09.2.006, 1.09.3.009",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica",
+    "tier": 2,
+    "keyPoints": [
+      "Cambios típicos en ECG de hipokalemia: aplanamiento/inversión de T, infradesnivel ST y aparición de onda U prominente.",
+      "Vía oral con sales de potasio es siempre la primera opción si el paciente tolera y el K es > 2.5–3.0 mEq/L sin síntomas.",
+      "Vía venosa periférica: concentración máxima permitida de 40 mEq/L de solución y velocidad máxima de 10 a 20 mEq/hora.",
+      "NUNCA diluir el cloruro de potasio en Suero Glucosado: estimula liberación de insulina y empeora la hipokalemia.",
+      "Hipokalemia refractaria a reposición: sospechar y medir siempre hipomagnesemia; el tratamiento exige infundir Sulfato de Magnesio.",
+      "El déficit de magnesio desinhibe los canales ROMK tubulares provocando fuga renal incesante de potasio.",
+      "Diuréticos tiazídicos y de asa son la causa más frecuente de hipokalemia en el paciente ambulatorio."
+    ],
+    "vignette": "Mujer de 56 años con hipertensión arterial en tratamiento con Enalapril e Hidroclorotiazida que recientemente cambió este último por clortalidona a dosis plenas. Consulta por astenia marcada, calambres en ambas pantorrillas y palpitaciones esporádicas. Al examen físico: PA 128/78 mmHg, FC 76 lpm irregular. El electrocardiograma muestra aplanamiento de ondas T con presencia de ondas U positivas prominentes en V2–V4 y extrasístoles ventriculares monomórficas aisladas. Laboratorio: Potasio sérico 2.8 mEq/L, Sodio 138 mEq/L, Magnesio 1.4 mg/dL (VN 1.8–2.4). Se inicia infusión venosa periférica de KCl a 10 mEq/h. A las 24 horas, la kalemia de control se mantiene estancada en 2.9 mEq/L a pesar de aportes intravenosos acumulados de 80 mEq.",
+    "explicacion": "La paciente presenta una hipokalemia sintomática con repercusión electrocardiográfica (ondas U y ectopias ventriculares) secundaria al uso de diuréticos tiazídicos (clortalidona). La falta de ascenso del potasio plasmático tras 24 horas de reposición intravenosa adecuada (hipokalemia refractaria) se explica directamente por la co-existencia de hipomagnesemia no tratada (1.4 mg/dL). La hipomagnesemia remueve el bloqueo fisiológico sobre el canal ROMK en el túbulo colector, lo que hace que todo el potasio administrado sea inmediatamente excretado en la orina. La conducta médica correcta es administrar Sulfato de Magnesio intravenoso para permitir el cierre del canal ROMK y la retención efectiva del potasio sérico.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 62 años con antecedente de insuficiencia cardíaca y fibrilación auricular crónica en tratamiento con digoxina y furosemida consulta por náuseas, astenia y mareos. El ECG muestra bradiarritmia con extrasístoles ventriculares frecuentes, aplanamiento de ondas T y ondas U notorias. El potasio plasmático es de 2.6 mEq/L. ¿Cuál es el riesgo farmacológico inmediato más grave de esta alteración electrolítica?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Precipitación de intoxicación digitálica severa con arritmias ventriculares letales"
+          },
+          {
+            "id": "B",
+            "text": "Desarrollo de insuficiencia renal aguda prerrenal anúrica"
+          },
+          {
+            "id": "C",
+            "text": "Parálisis periódica tirotóxica irreversible"
+          },
+          {
+            "id": "D",
+            "text": "Bloqueo auriculoventricular de primer grado benigno autolimitado"
+          },
+          {
+            "id": "E",
+            "text": "Aparición de hipocalcemia sintomática aguda"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La hipokalemia es el principal factor facilitador de la toxicidad e intoxicación por digitálicos (digoxina). El potasio y la digoxina compiten por el mismo sitio de unión en la subunidad alfa extracelular de la bomba Na+/K+-ATPasa del miocito. Cuando existe hipokalemia, la digoxina se une de forma masiva y prolongada a la bomba, intensificando drásticamente su inhibición enzimática y desencadenando arritmias ventriculares graves potencialmente mortales (taquicardia ventricular bidireccional, fibrilación ventricular). Por ello, en pacientes usuarios de digoxina, la kalemia debe mantenerse rigurosamente sobre 4.0 mEq/L."
+      },
+      {
+        "stem": "Una paciente de 48 años hospitalizada por pancreatitis aguda en resolución presenta debilidad muscular y calambres. Sus exámenes revelan potasio de 2.9 mEq/L. Se prescribe reposición con cloruro de potasio intravenoso por vía venosa periférica. ¿Cuáles son la concentración máxima recomendada en la solución y la velocidad de infusión periférica segura para prevenir flebitis y toxicidad cardíaca?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Concentración máxima de 40 mEq/L y velocidad no superior a 10 a 20 mEq/hora"
+          },
+          {
+            "id": "B",
+            "text": "Concentración máxima de 100 mEq/L y velocidad no superior a 40 mEq/hora"
+          },
+          {
+            "id": "C",
+            "text": "Concentración máxima de 20 mEq/L y velocidad obligada de 5 mEq/día"
+          },
+          {
+            "id": "D",
+            "text": "Concentración máxima de 80 mEq/L administrada en bolo rápido de 5 minutos"
+          },
+          {
+            "id": "E",
+            "text": "Concentración de 60 mEq/L exclusivamente diluida en suero glucosado al 10%"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Las directrices clínicas estandarizadas de farmacoterapia intravenosa establecen que por vía venosa periférica la concentración de cloruro de potasio (KCl) no debe sobrepasar los 40 mEq por litro de solución (para evitar el dolor intenso, espasmo vascular y flebitis química) y el ritmo de infusión no debe superar los 10 a 20 mEq por hora. Para velocidades o concentraciones mayores se requiere acceso venoso central bajo monitorización continua."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "nefrologia",
+    "specialtyName": "Nefrología",
+    "classId": "nefro-14",
+    "title": "Glomerulopatías Primarias del Adulto: Cambios Mínimos, FSGS y Membranosa",
+    "perfilCode": "1.09.1.022",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica",
+    "tier": 2,
+    "keyPoints": [
+      "Nefropatía membranosa es la causa más común de síndrome nefrótico en adultos > 50 años.",
+      "Anticuerpos anti-PLA2R positivos en sangre certifican el origen primario autoinmune de la membranosa.",
+      "Histología de membranosa: engrosamiento de la MBG con espículas (\"spikes\") en tinción de plata y depósitos IgG subepiteliales.",
+      "En todo adulto con nefropatía membranosa descartar causa secundaria: neoplasias sólidas ocultas y virus hepatitis B.",
+      "Cambios mínimos: óptica normal y borramiento podocitario en microscopía electrónica; responde excelente a corticoides; se asocia a linfoma de Hodgkin.",
+      "GEFS: causa frecuente en adultos jóvenes y VIH; resistente a corticoides y con alta tasa de progresión a falla renal terminal."
+    ],
+    "vignette": "Hombre de 62 años consulta por cuadro de varias semanas de orinas espumosas y edema progresivo de extremidades inferiores. Exámenes: PA 125/80 mmHg, Creatinina 1.1 mg/dL, Albúmina sérica 2.2 g/dL, Colesterol total 390 mg/dL, Proteinuria de 24 horas: 7.5 gramos. El sedimento muestra 2 eritrocitos por campo sin acantocitos. La biopsia renal revela glomérulos con engrosamiento difuso de las paredes capilares y la tinción de plata muestra proyecciones subepiteliales espiculares (\"spikes\"), con inmunofluorescencia granular fina para IgG.",
+    "explicacion": "El diagnóstico anatomo-clínico es de Nefropatía Membranosa, la causa primaria más prevalente de síndrome nefrótico en pacientes mayores de 50 años. El patrón histológico caracterizado por engrosamiento difuso de la membrana basal con imágenes en \"espículas\" o \"spikes\" en la tinción de plata y depósito granular subepitelial de IgG es definitorio. En este paciente adulto mayor es mandatorio solicitar anticuerpos anti-PLA2R en sangre y realizar un cribado activo de neoplasias sólidas ocultas (colonoscopía, radiografía o TAC de tórax) para descartar membranosa secundaria paraneoplásica.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 62 años presenta un cuadro de varios días de evolución de orinas espumosas, asociado a edema marcado de extremidades inferiores. Su sedimento de orina muestra 2 a 4 hematíes por campo, 5 leucocitos por campo, creatininemia de 1.1 mg/dL y proteinuria cuantitativa de 24 horas de 7.0 gramos. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Nefropatía por depósitos de IgA (enfermedad de Berger)"
+          },
+          {
+            "id": "B",
+            "text": "Glomerulonefritis lúpica clase IV"
+          },
+          {
+            "id": "C",
+            "text": "Glomerulonefritis postestreptocócica"
+          },
+          {
+            "id": "D",
+            "text": "Glomerulonefritis rápidamente progresiva pauciinmune"
+          },
+          {
+            "id": "E",
+            "text": "Nefropatía membranosa"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "El cuadro corresponde a un Síndrome Nefrótico Puro en un adulto mayor de 60 años (proteinuria masiva de 7 g/24 h con sedimento urinario inactivo, sin hematuria glomerular). En este grupo etario, la causa más frecuente es la Nefropatía Membranosa. Todas las demás opciones planteadas (Berger, lupus, GNPE, vasculitis) cursan típicamente con síndrome nefrítico o glomerulonefritis proliferativa con hematuria dismórfica intensa, cilindros hemáticos y deterioro inflamatorio renal agudo."
+      },
+      {
+        "stem": "Hombre de 58 años es diagnosticado mediante biopsia renal de nefropatía membranosa idiopática. Sus niveles séricos de anticuerpos anti-PLA2R resultan negativos. ¿Cuál es la conducta diagnóstica complementaria prioritaria que se debe realizar en este paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cribado exhaustivo de neoplasia sólida oculta (colon, pulmón, próstata) y serologías virales (VHB)"
+          },
+          {
+            "id": "B",
+            "text": "Mielograma para descartar leucemia mieloide aguda"
+          },
+          {
+            "id": "C",
+            "text": "Punción lumbar para estudio de líquido cefalorraquídeo"
+          },
+          {
+            "id": "D",
+            "text": "Ecocardiograma transesofágico en busca de vegetaciones"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar hemodiálisis de mantención de inmediato"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Aproximadamente un 20 a 25% de las nefropatías membranosas del adulto son secundarias. Cuando los anticuerpos anti-PLA2R son negativos en un adulto mayor de 50 años, la sospecha de una etiología secundaria se eleva sustancialmente, siendo la principal causa el origen paraneoplásico por tumores sólidos ocultos (carcinoma pulmonar, de colon, gástrico o de mama) o infecciones virales crónicas (Hepatitis B). El estudio de extensión tumoral y serológico es un mandato prioritario."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-01",
+    "title": "Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
+    "perfilCode": "1.04.1.001",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 1 y Tipo 2",
+    "tier": 2,
+    "keyPoints": [
+      "La DM1 es autoinmune, cursa con déficit absoluto de insulina y debuta con baja de peso, cetosis o CAD.",
+      "La DM2 se debe a resistencia a la insulina asociada a obesidad; el péptido C está elevado o conservado.",
+      "La diabetes LADA es la DM autoinmune del adulto: paciente joven/maduro delgado con anti-GAD positivos que requiere insulina.",
+      "La diabetes MODY es monogénica autosómica dominante (historia familiar vertical en delgados) y responde a sulfonilureas.",
+      "El péptido C mide la producción endógena de insulina; permite diferenciar causas autoinmunes de resistencia a la insulina."
+    ],
+    "vignette": "Mujer de 28 años, con antecedentes de tiroiditis autoinmune de Hashimoto en tratamiento con levotiroxina, IMC 21.5 kg/m², consulta por polidipsia, astenia y baja de peso de 4 kg en 2 meses. Exámenes: Glicemia de ayuno 285 mg/dL, HbA1c 10.2%, sin cetonuria. Su médico inicia metformina oral sin lograr descenso glicémico tras 4 semanas de escalamiento.",
+    "explicacion": "Se trata de una paciente joven, delgada, con antecedentes de autoinmunidad previa (Hashimoto) que debuta con hiperglicemia severa sintomática y refractariedad absoluta a metformina. Este cuadro es prototípico de Diabetes LADA (autoinmune del adulto). La conducta obligatoria es solicitar títulos de anticuerpos anti-GAD65 y péptido C, iniciando de inmediato terapia de reemplazo con insulina para frenar el catabolismo celular.",
+    "baseQuestions": [
+      {
+        "stem": "Una mujer de 31 años, normopeso, con antecedente de vitiligo, consulta por astenia progresiva y baja de 5 kg en dos meses. Se constatan glicemias de ayuno de 260 mg/dL y 295 mg/dL, con HbA1c de 10.5%. No presenta acidosis metabólica. Se le indicó tratamiento con metformina 850 mg cada 12 horas, persistiendo con glicemias sobre 250 mg/dL a las tres semanas. ¿Cuál es el diagnóstico más probable y el examen que confirmaría la sospecha clínica?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Diabetes mellitus tipo 2 resistente; solicitar curva de tolerancia oral a la glucosa"
+          },
+          {
+            "id": "B",
+            "text": "Diabetes autoinmune latente del adulto (LADA); solicitar anticuerpos anti-GAD65 y péptido C"
+          },
+          {
+            "id": "C",
+            "text": "Diabetes tipo MODY; solicitar estudio genético de glucoquinasa"
+          },
+          {
+            "id": "D",
+            "text": "Diabetes secundaria a pancreatitis crónica; solicitar elastasa fecal"
+          },
+          {
+            "id": "E",
+            "text": "Síndrome de Cushing subclínico; solicitar cortisol libre urinario"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El cuadro de debut hiperglicémico severo en una adulta joven sin obesidad, con comorbilidad autoinmune previa (vitiligo) y falla primaria rápida al tratamiento con metformina oral, orienta decididamente a Diabetes LADA (Latent Autoimmune Diabetes in Adults). El examen de elección para certificar la etiología es la determinación de anticuerpos anti-GAD65 (positivos en más del 80%) y la medición de péptido C plasmático (que evidenciará reserva beta deficiente)."
+      },
+      {
+        "stem": "Un joven de 20 años, deportista, con IMC de 22 kg/m², se realiza chequeo de rutina encontrándose una glicemia de ayuno de 145 mg/dL, confirmada en 150 mg/dL. Refiere que su padre, su tía paterna y su abuelo paterno son diabéticos diagnosticados antes de los 30 años, ninguno con obesidad y todos tratados eficazmente con glibenclamida oral. Los anticuerpos anti-GAD e IA2 resultan negativos. ¿Cuál es el tipo de diabetes más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Diabetes mellitus tipo 1"
+          },
+          {
+            "id": "B",
+            "text": "Diabetes mellitus tipo 2 del adulto joven"
+          },
+          {
+            "id": "C",
+            "text": "Diabetes tipo MODY (Maturity-Onset Diabetes of the Young)"
+          },
+          {
+            "id": "D",
+            "text": "Diabetes tipo LADA"
+          },
+          {
+            "id": "E",
+            "text": "Hemocromatosis hereditaria juvenil"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La presencia de diabetes de inicio precoz (< 25 años) en un paciente delgado sin datos de resistencia a la insulina ni autoinmunidad (anti-GAD negativos), con un patrón de herencia claramente autosómico dominante (tres generaciones consecutivas comprometidas en línea directa) y excelente control con dosis bajas de sulfonilureas (glibenclamida), constituye la presentación canónica de Diabetes MODY (habitualmente MODY-3 por mutación en el factor nuclear HNF-1alfa)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-06",
+    "title": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+    "perfilCode": "1.04.1.008",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2",
+    "tier": 3,
+    "keyPoints": [
+      "La metformina es el fármaco de primera línea universal en DM2 desde el momento del diagnóstico.",
+      "La dosis terapéutica óptima de metformina es de 1.700 a 2.550 mg/día (habitualmente 850 mg c/12h o c/8h).",
+      "Si a los 3 meses de monoterapia la HbA1c es > 7.0%, se debe escalar de inmediato a biterapia oral.",
+      "En APS la biterapia se realiza asociando glibenclamida (o iDPP4/iSGLT2 si están disponibles).",
+      "Criterios de inicio inmediato de insulina: HbA1c ≥ 9.0-10.0%, baja de peso rápida, cetonuria o descompensación aguda.",
+      "La garantía GES N° 2 exige iniciar tratamiento farmacológico dentro de las 24 horas desde la confirmación diagnóstica.",
+      "En pacientes con insuficiencia cardíaca o nefropatía, los iSGLT2 son el segundo fármaco de elección indiscutido.",
+      "En enfermedad aterosclerótica establecida (IAM o ACV previo), los agonistas GLP-1 reducen la mortalidad cardiovascular."
+    ],
+    "vignette": "Hombre de 57 años con diagnóstico de DM2 hace 4 meses. Inició cambios de estilo de vida y metformina 850 mg cada 12 horas. Acude a control con HbA1c de 8.3%. El paciente no presenta baja de peso, poliuria ni antecedentes de enfermedad cardiovascular. Creatinina 0.9 mg/dL. ¿Cuál es la conducta médica indicada según la guía GES?",
+    "explicacion": "El paciente presenta una falla al tratamiento en monoterapia con metformina tras más de 3 meses de tratamiento a dosis terapéuticas, evidenciada por una HbA1c de 8.3% (por sobre la meta universal de 7.0%). Al encontrarse asintomático, sin catabolismo ni cetonuria, no cumple criterios de insulinización de entrada. La conducta recomendada por las guías del MINSAL es mantener la metformina y asociar un segundo fármaco oral (en la canasta de APS corresponde asociar una sulfonilurea como glibenclamida 2.5 a 5 mg/día, o un iDPP4/iSGLT2 según disponibilidad).",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 55 años, con diabetes mellitus tipo 2 diagnosticada hace 6 meses, se encuentra en tratamiento con metformina 850 mg cada 12 horas con adecuada adherencia. Acude a control trayendo una hemoglobina glicosilada (HbA1c) de 8.4%. Se encuentra asintomático, con examen físico normal y función renal conservada (creatinina 0.8 mg/dL). ¿Cuál es la conducta farmacológica más adecuada a seguir?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suspender metformina e iniciar monoterapia con insulina NPH nocturna"
+          },
+          {
+            "id": "B",
+            "text": "Mantener metformina y asociar un segundo fármaco oral como glibenclamida"
+          },
+          {
+            "id": "C",
+            "text": "Triplicar la dosis de metformina a 1.700 mg cada 8 horas antes de agregar otro fármaco"
+          },
+          {
+            "id": "D",
+            "text": "Indicar solo refuerzo de la dieta y citar a nuevo control en un año"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar infusión endovenosa continua de insulina rápida"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente presenta falla terapéutica a la monoterapia con metformina en dosis estándar (1.700 mg/día), persistiendo con una HbA1c de 8.4% a los 6 meses (meta < 7.0%). Según las guías clínicas del MINSAL para DM2 (GES N° 2), ante el fracaso de la monoterapia en un paciente asintomático sin descompensación catabólica aguda, la conducta indicada es mantener la metformina y escalar a biterapia oral asociando un segundo agente (como una sulfonilurea, ej. glibenclamida 2.5 a 5 mg/día, o un inhibidor de DPP-4)."
+      },
+      {
+        "stem": "Un paciente de 48 años consulta por astenia intensa, polidipsia y pérdida involuntaria de 7 kg de peso en el último mes. Se constata glicemia de ayuno de 320 mg/dL y una HbA1c de 11.2%. El examen de orina revela glucosuria masiva con trazas de cetonas. ¿Cuál es el tratamiento farmacológico inicial de elección?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Metformina 500 mg una vez al día con escalamiento lento"
+          },
+          {
+            "id": "B",
+            "text": "Glibenclamida 5 mg cada 12 horas en monoterapia"
+          },
+          {
+            "id": "C",
+            "text": "Insulinoterapia de reemplazo (ej. insulina NPH nocturna) asociada a metformina"
+          },
+          {
+            "id": "D",
+            "text": "Dieta hipocalórica exclusiva durante cuatro semanas para reducir la gluco-toxicidad"
+          },
+          {
+            "id": "E",
+            "text": "Inhibidor de SGLT2 en monoterapia oral"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente debuta con una diabetes mellitus severamente descompensada caracterizada por marcada glucotoxicidad (HbA1c > 10% y glicemia > 300 mg/dL), catabolismo acelerado con baja de peso significativa y cetonuria incipiente. En este escenario, las células beta pancreáticas se encuentran aturdidas e incapaces de responder a hipoglucemiantes orales aislados. La indicación indiscutida es iniciar de inmediato insulinoterapia (insulina NPH basal nocturna ± insulina rápida), pudiendo asociarse metformina para mitigar la resistencia a la insulina."
+      },
+      {
+        "stem": "¿Cuál es el plazo legal máximo garantizado por las Garantías Explícitas en Salud (GES N° 2) para el inicio del tratamiento farmacológico en un paciente con diagnóstico confirmado de Diabetes Mellitus Tipo 2 en Chile?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dentro de las primeras 24 horas desde la confirmación diagnóstica"
+          },
+          {
+            "id": "B",
+            "text": "A los 15 días tras la evaluación por especialista"
+          },
+          {
+            "id": "C",
+            "text": "A los 30 días posteriores al ingreso al programa cardiovascular"
+          },
+          {
+            "id": "D",
+            "text": "A los 45 días contados desde la sospecha clínica"
+          },
+          {
+            "id": "E",
+            "text": "A los 90 días con entrega de glucómetro"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La Garantía Explícita en Salud (GES N° 2) para Diabetes Mellitus Tipo 2 establece plazos legales perentorios: la confirmación diagnóstica debe realizarse dentro de 45 días desde la sospecha clínica en APS, pero una vez confirmado el diagnóstico, el inicio del tratamiento médico (farmacológico y nutricional) debe garantizarse dentro de las 24 HORAS siguientes a dicha confirmación."
+      },
+      {
+        "stem": "Un paciente de 62 años con diabetes tipo 2 de 8 años de evolución, con antecedente de infarto agudo de miocardio hace 2 años y fracción de eyección ventricular izquierda del 35% (insuficiencia cardíaca con FEVI reducida), mantiene HbA1c de 8.1% con metformina 1.000 mg cada 12 horas. Su VFG es de 55 mL/min/1.73m². Según las recomendaciones internacionales y guías de práctica clínica, ¿cuál es el segundo fármaco que ha demostrado reducir las hospitalizaciones por insuficiencia cardíaca y muerte cardiovascular en este perfil de paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Glibenclamida"
+          },
+          {
+            "id": "B",
+            "text": "Pioglitazona"
+          },
+          {
+            "id": "C",
+            "text": "Inhibidor del cotransportador sodio-glucosa 2 (iSGLT2, ej. dapagliflozina o empagliflozina)"
+          },
+          {
+            "id": "D",
+            "text": "Sulfato de glucosamina"
+          },
+          {
+            "id": "E",
+            "text": "Gliclazida"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Los grandes ensayos clínicos contemporáneos (DAPA-HF, EMPEROR-Reduced) y las guías de la ADA y la Sociedad Europea de Cardiología han establecido que en pacientes con DM2 y comorbilidad de Insuficiencia Cardíaca con FEVI reducida, los inhibidores de SGLT2 (como dapagliflozina o empagliflozina) son los fármacos de elección prioritaria independientemente del nivel de HbA1c, ya que reducen drásticamente las hospitalizaciones por falla cardíaca y la mortalidad cardiovascular. La pioglitazona (B) está contraindicada por retener líquido."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-11",
+    "title": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+    "perfilCode": "1.04.1.004, 1.04.1.009",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1",
+    "tier": 2,
+    "keyPoints": [
+      "La insulina NPH tiene un pico a las 4–10 horas; inyectada en la cena genera hipoglicemia nocturna; por ello debe indicarse al acostarse (bedtime, 22:00–23:00 hrs).",
+      "Los análogos ultrarrápidos (Lispro, Aspart) inician su acción en 10-15 minutos y se administran inmediatamente antes de comer; la cristalina requiere 30 minutos de anticipación.",
+      "La insulina cristalina es la única formulación autorizada para uso endovenoso en bombas continuas (cetoacidosis diabética, perioperatorio, UCI).",
+      "La lipohipertrofia por no rotar sitios de inyección produce absorción errática, hiperglicemias inexplicables y falsas sospechas de resistencia insulínica.",
+      "En DM2 con HbA1c ≥ 9.0–10.0% y síntomas catabólicos (baja de peso, polidipsia), la indicación directa es iniciar insulinoterapia, sin insistir en más fármacos orales.",
+      "En insuficiencia renal avanzada (VFG < 30 ml/min), la metformina está contraindicada y la insulina se convierte en el fármaco hipoglucemiante más seguro."
+    ],
+    "vignette": "Un hombre de 56 años con DM2 de 8 años de evolución, en tratamiento con metformina 850 mg c/8h y glibenclamida 10 mg c/12h con adherencia confirmada, consulta por astenia, baja de peso de 5 kg en 2 meses y nicturia. Al examen físico: IMC 27 kg/m², PA 130/80 mmHg, sin edema ni signos de infección. Sus exámenes muestran: glicemia de ayunas 264 mg/dL, HbA1c 10.4%, creatinina 0.9 mg/dL y orina completa sin cetonas ni leucocituria.",
+    "explicacion": "El paciente presenta una falla secundaria al tratamiento combinado oral a dosis máximas, evidenciado por HbA1c muy sobre la meta (10.4%) y síntomas catabólicos (baja de peso progresiva). La conducta indicada según las guías clínicas GES y ADA es iniciar insulinoterapia basal con insulina NPH al acostarse (o análogo basal) a dosis de 10 UI o 0.1–0.2 UI/kg/día, manteniendo la metformina y reevaluando el ajuste.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 65 años, diabético tipo 2 de 10 años de evolución, consulta por astenia y baja de peso involuntaria de 6 kg en el último mes, acompañada de poliuria y polidipsia. Actualmente toma metformina 850 mg cada 12 horas y glibenclamida 10 mg cada 12 horas. Sus exámenes demuestran: glicemia de ayunas 282 mg/dL, HbA1c 10.8%, creatinina 1.0 mg/dL y sedimento de orina normal. ¿Cuál es la conducta terapéutica más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumentar la dosis de metformina a 1000 mg cada 8 horas y agregar pioglitazona"
+          },
+          {
+            "id": "B",
+            "text": "Suspender glibenclamida e iniciar un inhibidor de DPP-4 (sitagliptina)"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar insulina NPH nocturna asociada a metformina"
+          },
+          {
+            "id": "D",
+            "text": "Indicar dieta estricta sin carbohidratos y citar a control en 3 meses"
+          },
+          {
+            "id": "E",
+            "text": "Cambiar glibenclamida por glimepirida y solicitar prueba de tolerancia a la glucosa oral"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente presenta síntomas catabólicos francos (baja de peso de 6 kg, poliuria, polidipsia) y una HbA1c de 10.8% pese a estar en biterapia oral a dosis plenas. La indicación indiscutida en la guía GES de DM2 y normas internacionales es el inicio de insulinoterapia basal (NPH nocturna 0.1-0.2 UI/kg o 10 UI bedtime), manteniendo la metformina para mitigar el aumento de peso y mejorar la sensibilidad insulínica."
+      },
+      {
+        "stem": "Una paciente de 24 años con diabetes mellitus tipo 1 en tratamiento con esquema intensificado de insulina consulta por presentar de forma reiterada episodios de sudoración profusa, palpitaciones y temblor entre las 03:00 y las 04:00 de la madrugada. Utiliza insulina NPH a las 20:00 horas (junto con la cena) e insulina cristalina antes de cada comida principal. ¿Cuál es la modificación farmacológica más apropiada para prevenir estos episodios?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suspender la dosis de insulina cristalina previa a la cena"
+          },
+          {
+            "id": "B",
+            "text": "Trasladar la administración de la insulina NPH desde la cena hacia el momento de acostarse (22:30–23:00 hrs)"
+          },
+          {
+            "id": "C",
+            "text": "Reducir los carbohidratos complejos de la colación nocturna"
+          },
+          {
+            "id": "D",
+            "text": "Reemplazar la insulina NPH por una dosis matinal única de insulina cristalina"
+          },
+          {
+            "id": "E",
+            "text": "Aumentar la dosis de insulina NPH en la cena para superar la hipoglicemia de rebote"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La insulina NPH presenta un pico de acción máximo entre 4 y 10 horas después de su inyección subcutánea. Si se administra con la cena (20:00 hrs), su pico coincide con el nadir fisiológico de glicemia entre las 02:00 y 04:00 AM, provocando hipoglicemias nocturnas sintomáticas. La medida clásica recomendada es trasladar la inyección de NPH al momento de acostarse (\"bedtime\", 22:30-23:00 hrs), desplazando el pico hacia las 06:00-08:00 AM, donde coincide con el despertar y el desayuno."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-15",
+    "title": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+    "perfilCode": "1.04.1.016",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Hospitalaria",
+    "tier": 3,
+    "keyPoints": [
+      "La CAD se define por la tríada: Glicemia > 250 mg/dL + pH < 7.30 (o HCO3 < 18) + Anion Gap > 10–12 mEq/L con cetonemia positiva.",
+      "El EHH se define por: Glicemia > 600 mg/dL + Osmolaridad efectiva > 320 mOsm/kg + pH > 7.30 y HCO3 > 18 mEq/L sin cetosis.",
+      "La osmolaridad efectiva se calcula: 2 * Na + (Glicemia / 18); el BUN no se incluye porque difunde libremente por las membranas.",
+      "En la CAD, el dolor abdominal y los vómitos simulan frecuentemente un abdomen agudo; ceden al corregir la acidosis con fluidos e insulina.",
+      "La respiración de Kussmaul (taquipnea profunda y rápida) es la compensación respiratoria fisiológica para barrer CO2 ante la cetoacidosis.",
+      "El sodio medido debe corregirse siempre: Na corregido = Na medido + 1.6 * ((Glicemia - 100) / 100).",
+      "Los inhibidores de SGLT2 pueden desencadenar cetoacidosis diabética euglicémica (glicemias < 200-250 mg/dL con acidosis severa y cetonemia).",
+      "La principal causa desencadenante de CAD y EHH son las infecciones bacterianas agudas (neumonía e infección del tracto urinario)."
+    ],
+    "vignette": "Un joven de 19 años sin antecedentes mórbidos conocidos es traído al servicio de urgencia por su familia debido a un cuadro de 24 horas de evolución caracterizado por dolor abdominal difuso e intenso, náuseas, múltiples vómitos y decaimiento severo. Al examen físico se encuentra deshidratado, taquipneico con respiraciones profundas y ruidosas, PA 100/65 mmHg, FC 118 lpm, abdomen blando y sensible en forma difusa sin signos de irritación peritoneal, y aliento con olor frutal característico. Sus exámenes muestran: glicemia capilar 420 mg/dL, pH venoso 7.12, bicarbonato 9 mEq/L, sodio 132 mEq/L, potasio 4.8 mEq/L, cloro 95 mEq/L y cetonuria ++++.",
+    "explicacion": "El cuadro clínico y de laboratorio es diagnóstico de una Cetoacidosis Diabética Severa (pH < 7.20, HCO3 < 10 mEq/L, Anion Gap = 132 - [95 + 9] = 28 mEq/L, cetonuria intensa) como forma de debut de una diabetes mellitus tipo 1. El dolor abdominal difuso y la respiración de Kussmaul son manifestaciones clásicas de la acidosis metabólica por cetoácidos y no corresponden a una patología quirúrgica.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 17 años consulta en el servicio de urgencias por náuseas, vómitos reiterados y dolor abdominal intenso de 12 horas de evolución. Al examen físico destaca taquipnea profunda de 28 respiraciones por minuto, aliento con olor frutal y mucosas secas. Los exámenes de laboratorio revelan: glicemia 390 mg/dL, pH arterial 7.15, bicarbonato 11 mEq/L, sodio 134 mEq/L, potasio 5.1 mEq/L, cloro 98 mEq/L y glucosuria con cetonuria ++++. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Estado hiperglicémico hiperosmolar"
+          },
+          {
+            "id": "B",
+            "text": "Cetoacidosis diabética moderada a severa"
+          },
+          {
+            "id": "C",
+            "text": "Apendicitis aguda complicada con peritonitis séptica"
+          },
+          {
+            "id": "D",
+            "text": "Pancreatitis aguda necrohemorrágica"
+          },
+          {
+            "id": "E",
+            "text": "Acidosis láctica asociada a hipovolemia simple"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente presenta todos los criterios diagnósticos de una Cetoacidosis Diabética Severa (pH arterial < 7.25, bicarbonato < 15 mEq/L, glicemia > 250 mg/dL, cetonuria marcada y un Anion Gap marcadamente elevado de 134 - [98 + 11] = 25 mEq/L). La taquipnea profunda corresponde a la respiración de Kussmaul y el dolor abdominal es un síntoma frecuente de la cetoacidosis en pacientes jóvenes que no traduce una urgencia quirúrgica abdominal."
+      },
+      {
+        "stem": "Un hombre de 76 años, diabético tipo 2 con secuelas de ACV previo y postrado en cama, es traído al hospital por compromiso de conciencia progresivo de una semana de evolución, asociando fiebre y tos con expectoración mucopurulenta. Al ingreso se encuentra estuporoso, con signos de deshidratación extrema, PA 85/50 mmHg, FC 110 lpm. Los exámenes de laboratorio demuestran: glicemia 850 mg/dL, pH arterial 7.36, bicarbonato 22 mEq/L, sodio plasmático 152 mEq/L, potasio 4.2 mEq/L, cloro 110 mEq/L y orina con glucosuria masiva sin cuerpos cetónicos. ¿Cuál es el diagnóstico fundamental?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cetoacidosis diabética grave"
+          },
+          {
+            "id": "B",
+            "text": "Estado hiperglicémico hiperosmolar"
+          },
+          {
+            "id": "C",
+            "text": "Accidente cerebrovascular isquémico agudo con hiperglicemia reactiva"
+          },
+          {
+            "id": "D",
+            "text": "Shock séptico refractario con acidosis láctica"
+          },
+          {
+            "id": "E",
+            "text": "Diabetes insípida nefrogénica"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente cumple rigurosamente con los criterios de un Estado Hiperglicémico Hiperosmolar (EHH): glicemia marcadamente elevada (> 600 mg/dL, en este caso 850 mg/dL), pH arterial normal (> 7.30), bicarbonato normal (> 18 mEq/L), ausencia de cetonuria y una osmolaridad plasmática efectiva marcadamente elevada: 2 * 152 + (850 / 18) = 304 + 47.2 = 351.2 mOsm/kg (muy superior al umbral de 320 mOsm/kg), lo cual explica el estupor y la deshidratación extrema de 8 a 12 litros desencadenada por una infección respiratoria."
+      },
+      {
+        "stem": "¿Cuál de las siguientes fórmulas representa de manera exacta el cálculo de la Osmolaridad Plasmática Efectiva (tonicidad) utilizada para la definición y monitorización del Estado Hiperglicémico Hiperosmolar?",
+        "options": [
+          {
+            "id": "A",
+            "text": "2 * [Sodio] + [Glicemia] / 18 + [BUN] / 2.8"
+          },
+          {
+            "id": "B",
+            "text": "2 * [Sodio] + [Glicemia] / 18"
+          },
+          {
+            "id": "C",
+            "text": "[Sodio] + [Potasio] - ([Cloro] + [Bicarbonato])"
+          },
+          {
+            "id": "D",
+            "text": "2 * [Sodio] + [Potasio] + [Glicemia] / 10"
+          },
+          {
+            "id": "E",
+            "text": "[Glicemia] / 18 + [BUN] / 2.8"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La osmolaridad plasmática efectiva o tonicidad refleja la concentración de solutos que no atraviesan libremente las membranas celulares y que, por ende, generan desplazamientos osmóticos de agua entre los compartimentos intra y extracelular. Se calcula como: 2 * [Sodio] + [Glicemia] / 18 (en mg/dL). La urea (BUN) se excluye de este cálculo porque es un osmol libremente permeable que no contribuye a la deshidratación intracelular cerebral."
+      },
+      {
+        "stem": "Una paciente de 52 años con diabetes mellitus tipo 2 en tratamiento con metformina y empagliflozina consulta en urgencias por astenia severa, disnea de reposo y vómitos tras haber realizado un ayuno prolongado por un procedimiento endoscópico. Al examen físico: PA 110/70 mmHg, FC 98 lpm, polipnea de 24 rpm. Su hemoglucotest de ingreso es de 188 mg/dL. Los gases venosos muestran: pH 7.21, bicarbonato 12 mEq/L, sodio 138 mEq/L, cloro 101 mEq/L, y la cetonemia capilar resulta en 4.2 mmol/L. ¿Cuál es el diagnóstico de esta condición?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Intoxicación aguda por metformina con acidosis láctica pura"
+          },
+          {
+            "id": "B",
+            "text": "Deshidratación por vómitos con alcalosis metabólica paradójica"
+          },
+          {
+            "id": "C",
+            "text": "Cetoacidosis diabética euglicémica inducida por inhibidor de SGLT2"
+          },
+          {
+            "id": "D",
+            "text": "Hiperglicemia simple de estrés sin repercusión metabólica"
+          },
+          {
+            "id": "E",
+            "text": "Acidosis tubular renal tipo 1 descompensada"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La paciente presenta una acidosis metabólica con Anion Gap aumentado (138 - [101 + 12] = 25 mEq/L) y cetonemia marcadamente positiva (4.2 mmol/L), pero con glicemia < 200 mg/dL (188 mg/dL). Esta es la presentación clásica de la Cetoacidosis Diabética Euglicémica desencadenada por inhibidores del cotransportador SGLT2 (como empagliflozina o dapagliflozina) en situaciones de estrés metabólico, ayuno o cirugía, donde la glucosuria forzada mantiene la glicemia engañosamente baja."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-20",
+    "title": "Nefropatía Diabética: Tamizaje con RAC y Enfoque Nefroprotector",
+    "perfilCode": "1.04.1.011",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y GES Enfermedad Renal Crónica",
+    "tier": 2,
+    "keyPoints": [
+      "El tamizaje de daño renal se realiza anualmente con la Razón Albúmina/Creatinina (RAC) en la primera orina de la mañana.",
+      "El tamizaje se inicia al momento del diagnóstico en DM2, y a los 5 años del debut en DM1.",
+      "Se define microalbuminuria patológica (categoría A2) como RAC entre 30 y 299 mg/g en al menos 2 de 3 muestras en 3 a 6 meses.",
+      "La presencia de microalbuminuria persistente exige iniciar IECA o ARA II, INCLUSO SI EL PACIENTE ES TOTALMENTE NORMOTENSO.",
+      "Los IECA/ARA II actúan dilatando preferentemente la arteriola eferente del glomérulo, disminuyendo la presión capilar intraglomerular.",
+      "Está contraindicado combinar un IECA y un ARA II en el mismo paciente por riesgo de falla renal aguda e hiperkalemia severa."
+    ],
+    "vignette": "Un hombre de 53 años con DM2 diagnosticada hace 1 año, con buen control metabólico en base a metformina (HbA1c 6.8%), acude a su control anual de salud cardiovascular en el CESFAM. Su presión arterial habitual es de 118/76 mmHg. No presenta edema ni síntomas urinarios. El examen de orina revela una Razón Albúmina/Creatinina (RAC) de 84 mg/g. Se repite el examen a las 6 semanas resultando en 92 mg/g, con sedimento urinario sin bacterias ni leucocitos y VFG estimada de 85 ml/min/1.73m².",
+    "explicacion": "El paciente presenta una microalbuminuria persistente confirmada (dos determinaciones de RAC entre 30 y 299 mg/g sin factores de confusión). A pesar de encontrarse en rango de normotensión arterial (PA 118/76 mmHg), la presencia de albuminuria patológica constituye una indicación formal y de máxima prioridad para iniciar un fármaco bloqueador del sistema renina-angiotensina (IECA como enalapril o ARA II como losartán) para brindar nefroprotección específica reduciendo la presión intraglomerular.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 54 años, con antecedente de diabetes mellitus tipo 2 de 4 años de evolución en tratamiento con metformina 850 mg cada 12 horas, normotenso (PA 120/75 mmHg), acude a su control programado. Se le realiza una razón albúmina/creatinina en orina aislada matinal que resulta en 120 mg/g. Se repite el examen dos meses después, confirmándose un valor de 135 mg/g, con cultivo de orina negativo. Su creatinina plasmática es de 0.9 mg/dL. ¿Cuál es la conducta farmacológica más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar enalapril o losartán a dosis bajas con titulación progresiva"
+          },
+          {
+            "id": "B",
+            "text": "Mantener la terapia actual sin modificaciones dado que el paciente es normotenso"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar hidroclorotiazida para disminuir el volumen intravascular"
+          },
+          {
+            "id": "D",
+            "text": "Suspender la metformina por toxicidad renal inminente y pasar a insulina"
+          },
+          {
+            "id": "E",
+            "text": "Solicitar una biopsia renal percutánea urgente para descartar amiloidosis"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El paciente tiene confirmada una nefropatía diabética incipiente en etapa de microalbuminuria persistente (RAC entre 30 y 299 mg/g en dos tomas consecutivas sin factores de confusión). Las guías internacionales y del MINSAL indican unánimemente que todo paciente diabético con albuminuria persistente debe recibir un bloqueador del eje renina-angiotensina-aldosterona (IECA como enalapril o ARA II como losartán), independientemente de sus cifras de presión arterial, dado su efecto hemodinámico específico dilatador de la arteriola eferente que frena la progresión del daño renal."
+      },
+      {
+        "stem": "¿A partir de qué momento cronológico debe iniciarse el tamizaje anual de nefropatía diabética mediante la razón albúmina/creatinina en un paciente con diagnóstico reciente de diabetes mellitus tipo 2?",
+        "options": [
+          {
+            "id": "A",
+            "text": "A los 5 años del diagnóstico"
+          },
+          {
+            "id": "B",
+            "text": "Al momento de realizar el diagnóstico de la enfermedad"
+          },
+          {
+            "id": "C",
+            "text": "Solo cuando las cifras de hemoglobina glicosilada superen el 8.5%"
+          },
+          {
+            "id": "D",
+            "text": "Al momento en que el paciente desarrolle hipertensión arterial concomitante"
+          },
+          {
+            "id": "E",
+            "text": "A los 10 años del diagnóstico o a los 65 años de edad"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "A diferencia de la DM1 (donde el daño microvascular tarda al menos 5 años en manifestarse), en la diabetes mellitus tipo 2 suele existir un periodo subclínico asintomático prolongado (de 4 a 7 años) previo a la detección clínica. Por lo tanto, un porcentaje importante de pacientes ya presenta complicaciones microvasculares al momento del debut, por lo que el tamizaje anual de nefropatía (RAC y VFG) y de retinopatía (fondo de ojo) debe iniciarse desde el momento mismo del diagnóstico."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-02",
+    "title": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+    "perfilCode": "1.04.1.002",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2 en Personas de 15 años y más",
+    "tier": 3,
+    "keyPoints": [
+      "Cuatro criterios: Ayuno ≥ 126 mg/dL; PTGO 2h ≥ 200 mg/dL; HbA1c ≥ 6.5%; o Glicemia al azar ≥ 200 mg/dL con síntomas.",
+      "En pacientes asintomáticos, toda glicemia ≥ 126 mg/dL DEBE repetirse en un día diferente para confirmar.",
+      "Glicemia casual ≥ 200 mg/dL con síntomas clásicos (4 P) confirma el diagnóstico sin requerir segundo examen.",
+      "Glicemia de ayuno entre 100 y 125 mg/dL se denomina Glicemia de Ayuno Alterada y exige solicitar una PTGO con 75 g.",
+      "La PTGO diagnostica Intolerancia a la Glucosa si el valor a las 2 horas es 140–199 mg/dL, y Diabetes si es ≥ 200 mg/dL.",
+      "En pacientes hospitalizados con patología aguda, la hiperglicemia puede ser por estrés; la HbA1c es el examen de elección.",
+      "La confirmación de diabetes tipo 2 activa las garantías legales GES N° 2 en Chile.",
+      "En adultos chilenos, un índice HOMA-IR > 2.6 certifica resistencia a la insulina."
+    ],
+    "vignette": "Hombre de 49 años, transportista, con IMC 31 kg/m² y antecedentes de hipertensión arterial, asintomático. En examen de medicina preventiva laboral presenta glicemia de ayuno de 132 mg/dL. El paciente niega polidipsia o baja de peso. Acude a su CESFAM para definir conducta médica.",
+    "explicacion": "En un paciente asintomático con una única glicemia de ayuno ≥ 126 mg/dL (132 mg/dL), no se puede certificar el diagnóstico de forma definitiva con un solo examen. La conducta reglamentaria e indicada por todas las guías de práctica clínica (ADA y MINSAL) es solicitar una SEGUNDA glicemia venosa de ayuno en un día distinto. Si este segundo examen resulta nuevamente ≥ 126 mg/dL, se confirma el diagnóstico de Diabetes Mellitus Tipo 2 y se procede al ingreso al programa GES.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 52 años, con sobrepeso (IMC 28 kg/m²), asintomático, se realiza un chequeo médico preventivo que muestra una glicemia de ayuno de 118 mg/dL. ¿Cuál es la conducta diagnóstica más adecuada que se debe seguir a continuación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Confirmar el diagnóstico de diabetes mellitus tipo 2 e iniciar metformina"
+          },
+          {
+            "id": "B",
+            "text": "Repetir la glicemia de ayuno en dos semanas"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar una prueba de tolerancia a la glucosa oral (PTGO con 75 gramos)"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar una hemoglobina glicosilada aislada"
+          },
+          {
+            "id": "E",
+            "text": "Dar de alta al paciente asegurando que se encuentra en un rango completamente normal"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Una glicemia de ayuno entre 100 y 125 mg/dL corresponde a una Glicemia de Ayuno Alterada (prediabetes). La conducta establecida en las guías clínicas del MINSAL ante este hallazgo es solicitar una Prueba de Tolerancia a la Glucosa Oral (PTGO) con 75 gramos de glucosa anhidra para evaluar si el paciente presenta intolerancia a la glucosa oral (140-199 mg/dL a las 2 horas) o diabetes mellitus encubierta (≥ 200 mg/dL). No se debe repetir la glicemia de ayuno porque ya sabemos que está en rango prediabético."
+      },
+      {
+        "stem": "Un hombre de 46 años consulta por astenia, visión borrosa, polidipsia intensa y nicturia de tres semanas de evolución. Al examen físico se encuentra hidratado y con signos vitales normales. La glicemia capilar tomada en el box al azar arroja 248 mg/dL. ¿Cuál es la conducta médica correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solicitar glicemia de ayuno venosa para confirmar el diagnóstico la próxima semana"
+          },
+          {
+            "id": "B",
+            "text": "Realizar una prueba de tolerancia a la glucosa oral de 75 gramos en ayunas"
+          },
+          {
+            "id": "C",
+            "text": "Confirmar el diagnóstico de diabetes mellitus de inmediato e iniciar manejo terapéutico"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar anticuerpos anti-insulina antes de emitir cualquier diagnóstico"
+          },
+          {
+            "id": "E",
+            "text": "Indicar dieta estricta sin fármacos y reevaluar con hemoglucotest seriado en un mes"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La presencia de síntomas cardinales clásicos de hiperglicemia (polidipsia, poliuria/nicturia, visión borrosa) en combinación con una glicemia casual tomada en cualquier momento del día ≥ 200 mg/dL cumple de forma definitiva y autónoma el criterio de confirmación de Diabetes Mellitus. En este escenario no se requiere ni se debe postergar el diagnóstico esperando una segunda muestra en ayunas, debiendo iniciarse el plan terapéutico de inmediato."
+      },
+      {
+        "stem": "Una paciente de 60 años ingresa a la unidad de cuidados intensivos por shock séptico secundario a pielonefritis aguda. En sus exámenes de ingreso destaca una glicemia venosa de 240 mg/dL. La paciente no cuenta con antecedentes médicos conocidos ni controles previos. ¿Cuál es el examen de laboratorio más idóneo para determinar con certeza si la paciente es portadora de diabetes mellitus previa versus una hiperglicemia de estrés transitoria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Prueba de tolerancia a la glucosa oral con 75 g al tercer día"
+          },
+          {
+            "id": "B",
+            "text": "Determinación de Hemoglobina Glicosilada (HbA1c)"
+          },
+          {
+            "id": "C",
+            "text": "Repetición de glicemia venosa en ayuno a las 48 horas de evolución"
+          },
+          {
+            "id": "D",
+            "text": "Medición de insulinemia basal y cálculo del índice HOMA-IR"
+          },
+          {
+            "id": "E",
+            "text": "Cetonemia cuantitativa"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En pacientes hospitalizados con procesos infecciosos o sépticos agudos graves, la liberación masiva de hormonas de contrarregulación (cortisol, catecolaminas, glucagón) induce hiperglicemia de estrés incluso en pacientes no diabéticos. En este contexto, la glicemia plasmática no sirve para diagnosticar diabetes de base. El examen de elección es la Hemoglobina Glicosilada (HbA1c), ya que refleja el promedio glucémico de los 2 a 3 meses previos al evento agudo; un valor ≥ 6.5% certifica diabetes previa a la hospitalización."
+      },
+      {
+        "stem": "Un paciente de 48 años asintomático, sin antecedentes mórbidos, presenta en su primer examen de medicina preventiva una glicemia venosa en ayunas de 138 mg/dL. Se repite el examen dos semanas después bajo estricto ayuno de 10 horas, resultando en 115 mg/dL. ¿Cuál es el paso diagnóstico que corresponde realizar ahora?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Descartar diabetes mellitus y prediabetes por haber salido la segunda glicemia bajo 126 mg/dL"
+          },
+          {
+            "id": "B",
+            "text": "Confirmar diabetes mellitus tipo 2 por haber tenido una primera glicemia sobre 126 mg/dL"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar una prueba de tolerancia a la glucosa oral (PTGO con 75 gramos)"
+          },
+          {
+            "id": "D",
+            "text": "Iniciar monoterapia con metformina 850 mg al día"
+          },
+          {
+            "id": "E",
+            "text": "Repetir la glicemia de ayuno una tercera vez al día siguiente"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente presentó una primera glicemia compatible con sospecha de diabetes (≥ 126 mg/dL), pero la segunda muestra resultó discordante (< 126 mg/dL, específicamente 115 mg/dL, en rango de glicemia de ayuno alterada). Ante resultados discordantes en ayuno, la regla diagnóstica de la ADA y las guías chilenas indica desempatar el cuadro solicitando una Prueba de Tolerancia a la Glucosa Oral (PTGO con 75 g), la cual determinará si el valor a las 2 horas es normal (< 140), intolerante (140-199) o diabético (≥ 200)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-07",
+    "title": "Hipoglucemiantes Orales Clásicos: Metformina y Sulfonilureas",
+    "perfilCode": "1.04.1.007",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Diabetes Mellitus Tipo 2",
+    "tier": 2,
+    "keyPoints": [
+      "La metformina reduce la producción hepática de glucosa vía activación de la AMPK; no causa hipoglicemia en monoterapia.",
+      "La metformina está formalmente contraindicada si la VFG es < 30 mL/min/1.73m² por riesgo de acidosis láctica.",
+      "Si la VFG está entre 30 y 44 mL/min, la dosis máxima de metformina debe reducirse a 1.000 mg/día.",
+      "La glibenclamida es un secretagogo que estimula la liberación de insulina independiente de la glicemia plasmática.",
+      "La glibenclamida está contraindicada en adultos mayores y nefrópatas por riesgo de hipoglicemias letales prolongadas.",
+      "Toda hipoglicemia severa por glibenclamida exige hospitalización en observación con suero glucosado continuo por 24 horas."
+    ],
+    "vignette": "Mujer de 76 años con diabetes mellitus tipo 2 de 15 años de evolución, en tratamiento con glibenclamida 5 mg cada 12 horas y metformina 850 mg/día. Es traída al servicio de urgencias en ambulancia por compromiso cuantitativo de conciencia y sudoración profusa. Hemoglucotest al ingreso: 36 mg/dL. Se administran dos ampollas de suero glucosado al 30% endovenoso, recuperando la conciencia y alcanzando glicemia de 110 mg/dL.",
+    "explicacion": "La paciente presentó una hipoglicemia severa inducida por glibenclamida. A diferencia de las hipoglicemias por ayuno o exceso de ejercicio, las sulfonilureas poseen metabolitos activos de eliminación prolongada que se acumulan en adultos mayores. Dar de alta a la paciente tras normalizar la glicemia con un bolo inicial es un error fatal, ya que recaerá en coma hipoglicémico en las próximas horas. La conducta obligatoria es hospitalizar en observación con infusión continua de glucosa al 10% por 24 horas y suspender la glibenclamida de forma definitiva.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 72 años con diabetes mellitus tipo 2 e insuficiencia renal crónica consulta para control. En sus exámenes de laboratorio presenta una creatinina de 2.2 mg/dL y una velocidad de filtración glomerular estimada (VFG) de 24 mL/min/1.73m². Actualmente recibe metformina 850 mg cada 12 horas. ¿Cuál es la conducta farmacológica que se debe adoptar de inmediato?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mantener la metformina pero indicar consumo abundante de líquidos"
+          },
+          {
+            "id": "B",
+            "text": "Suspender de inmediato la metformina debido al riesgo de acidosis láctica"
+          },
+          {
+            "id": "C",
+            "text": "Reducir la dosis de metformina a 850 mg al día y controlar en seis meses"
+          },
+          {
+            "id": "D",
+            "text": "Cambiar metformina por glibenclamida en dosis máxima de 10 mg al día"
+          },
+          {
+            "id": "E",
+            "text": "Asociar bicarbonato oral y mantener la misma dosis de metformina"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La metformina se elimina íntegramente por filtración glomerular y secreción tubular renal. Cuando la VFG desciende por debajo de 30 mL/min/1.73m², el fármaco se acumula exponencialmente en los tejidos, inhibiendo la fosforilación oxidativa mitocondrial e induciendo la temida Acidosis Láctica asociada a Metformina (MALA), cuadro de altísima letalidad. Por tanto, una VFG < 30 constituye una contraindicación absoluta e inmediata de metformina."
+      },
+      {
+        "stem": "Un paciente de 78 años en tratamiento con glibenclamida 5 mg cada 12 horas ingresa al servicio de urgencias soporoso, diaforético y con glicemia capilar de 32 mg/dL. Se le administra un bolo endovenoso de 40 mL de solución glucosada al 30%, recuperando el estado de alerta con glicemia de control en 125 mg/dL a los 15 minutos. El paciente se siente bien y solicita el alta médica. ¿Cuál es la conducta médica correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Otorgar el alta inmediata recomendándole una colación rica en hidratos de carbono"
+          },
+          {
+            "id": "B",
+            "text": "Hospitalizar al paciente para observación y mantención de infusión continua de glucosa durante al menos 24 horas"
+          },
+          {
+            "id": "C",
+            "text": "Dar de alta con indicación de reducir la dosis de glibenclamida a la mitad al día siguiente"
+          },
+          {
+            "id": "D",
+            "text": "Administrar 1 mg de glucagón intramuscular y enviar a domicilio en reposo"
+          },
+          {
+            "id": "E",
+            "text": "Administrar 100 mg de hidrocortisona endovenosa y dar el alta en dos horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Las hipoglicemias secundarias a sulfonilureas de larga vida media como la glibenclamida son recurrentes y prolongadas debido a la persistencia del fármaco y sus metabolitos activos en la circulación, especialmente en adultos mayores con menor clearence renal. Aunque el paciente se recupere completamente con el bolo inicial de glucosa, el estímulo insulínico continúa y volverá a presentar hipoglicemia severa horas más tarde. Es imperativo hospitalizarlo con aporte continuo de suero glucosado al 10% por 24 horas."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-12",
+    "title": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+    "perfilCode": "1.04.1.005",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus Tipo 2 y Tipo 1",
+    "tier": 3,
+    "keyPoints": [
+      "La regla de oro del ajuste prandial: la glicemia elevada tras una comida se corrige modificando la dosis de insulina rápida previa a ESA comida específica.",
+      "Ante una hiperglicemia matinal inexplicable, el primer paso clínico OBLIGATORIO es solicitar una glicemia capilar a las 03:00 AM para descartar Somogyi.",
+      "Si a las 03:00 AM la glicemia es < 70 mg/dL, es Efecto Somogyi y la conducta es REDUCIR la insulina nocturna; si es > 100 mg/dL, es Fenómeno del Alba y se debe SUBIR.",
+      "El esquema basal bedtime consiste en NPH 10 UI o 0.1-0.2 UI/kg a las 22:00-23:00 hrs manteniendo metformina oral.",
+      "Los ajustes de insulina basal ambulatoria se realizan cada 3 a 7 días en escalones de +2 UI (si 130-180 mg/dL) o +4 UI (si > 180 mg/dL).",
+      "Si el paciente presenta hipoglicemia en cualquier momento, la dosis responsable debe reducirse inmediatamente en un 10-20% (2 a 4 UI).",
+      "Si la glicemia de ayuno está en meta (< 130 mg/dL) pero la HbA1c sigue > 7.0%, se debe iniciar esquema Basal-Plus cubriendo la comida con mayor excursión glucémica.",
+      "La regla del 1800 permite calcular el Factor de Sensibilidad a la Insulina (FSI = 1800 / Dosis Total Diaria) para indicar bolos de corrección seguros."
+    ],
+    "vignette": "Un joven de 20 años con diabetes mellitus tipo 1 en tratamiento con una dosis matinal de insulina NPH y tres dosis de insulina cristalina preprandiales (desayuno, almuerzo y cena). Trae su registro de automonitoreo de los últimos 7 días: glicemia en ayunas 105 mg/dL, post-desayuno 120 mg/dL, pre-almuerzo 110 mg/dL, post-almuerzo 238 mg/dL, pre-cena 125 mg/dL y post-cena 130 mg/dL. Se encuentra asintomático y cumple rigurosamente su dieta.",
+    "explicacion": "El análisis metódico del registro glucémico muestra que todas las glicemias se encuentran dentro de las metas recomendadas (80–130 mg/dL preprandial y < 180 mg/dL postprandial), excepto la glicemia postprandial del almuerzo que se eleva marcadamente a 238 mg/dL. Dado que la insulina cristalina preprandial tiene su acción máxima y cobertura directa sobre la comida que le sigue, la conducta correcta es aumentar la dosis de insulina cristalina previa al almuerzo.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 20 años, con diagnóstico de diabetes mellitus tipo 1, se encuentra en tratamiento con una dosis de insulina NPH matinal y tres dosis de insulina cristalina preprandiales. Se realiza un automonitoreo capilar que demuestra glicemias basales y postprandiales normales, excepto la glicemia medida dos horas después del almuerzo, que de manera constante se encuentra entre 220 y 250 mg/dL. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumentar la dosis de insulina NPH matinal"
+          },
+          {
+            "id": "B",
+            "text": "Aumentar la dosis de insulina cristalina previa al almuerzo"
+          },
+          {
+            "id": "C",
+            "text": "Agregar una dosis de insulina NPH antes del almuerzo"
+          },
+          {
+            "id": "D",
+            "text": "Aumentar la dosis de insulina cristalina previa al desayuno"
+          },
+          {
+            "id": "E",
+            "text": "Indicar una colación rica en proteínas a media tarde"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La insulina cristalina administrada antes de una comida tiene como función específica controlar la excursión glucémica postprandial producida por dicha ingesta. Dado que el paciente presenta exclusivamente hiperglicemias postprandiales tras el almuerzo (220-250 mg/dL), manteniendo el resto de sus mediciones en rangos óptimos, la conducta terapéutica precisa es aumentar la dosis de insulina cristalina administrada antes del almuerzo."
+      },
+      {
+        "stem": "Un paciente de 18 años, con diabetes mellitus tipo 1 en tratamiento con insulina NPH en dos dosis (mañana y noche) e insulina ultra-rápida antes de las comidas, consulta porque sus controles de glicemia matinal en ayunas resultan constantemente elevados, fluctuando entre 220 y 260 mg/dL. No presenta síntomas diurnos. Para precisar la causa de esta alteración y definir el tratamiento, ¿cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumentar en 4 unidades la dosis de insulina NPH nocturna de forma empírica"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar una glicemia capilar a las 03:00 de la madrugada"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar una hemoglobina glicosilada fraccionada urgente"
+          },
+          {
+            "id": "D",
+            "text": "Adelantar la inyección de NPH nocturna a la hora de la cena"
+          },
+          {
+            "id": "E",
+            "text": "Cambiar la insulina ultra-rápida por insulina regular pre-cena"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La hiperglicemia matinal en ayunas en un paciente con insulina basal nocturna puede deberse a dos fenómenos con manejos radicalmente opuestos: el Efecto Somogyi (hipoglicemia nocturna que desencadena rebote hiperglicémico por hormonas contrarreguladoras) o el Fenómeno del Alba (hiperglicemia por secreción matinal de GH y cortisol). La única manera de diferenciarlos con certeza es medir la glicemia capilar en la madrugada (alrededor de las 03:00 AM). Si es baja (< 70 mg/dL) se reduce la insulina nocturna; si es normal o alta, se incrementa."
+      },
+      {
+        "stem": "Una mujer de 58 años, diabética tipo 2 en tratamiento con metformina 850 mg cada 12 horas e insulina NPH 14 UI al acostarse (22:30 hrs). Trae su control de glicemias capilares de ayuno de los últimos 5 días: 188, 192, 179, 195 y 184 mg/dL. No ha presentado sudoración nocturna, temblores ni pesadillas. La glicemia a las 03:00 AM fue de 145 mg/dL. ¿Cuál es el ajuste farmacológico más adecuado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Disminuir la insulina NPH a 10 UI al acostarse"
+          },
+          {
+            "id": "B",
+            "text": "Mantener la dosis actual y solicitar curva de tolerancia a la glucosa oral"
+          },
+          {
+            "id": "C",
+            "text": "Aumentar la insulina NPH a 18 UI al acostarse"
+          },
+          {
+            "id": "D",
+            "text": "Suspender la metformina y cambiar a sulfonilurea matinal"
+          },
+          {
+            "id": "E",
+            "text": "Agregar 10 UI de insulina cristalina a las 22:30 hrs"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La paciente presenta glicemias de ayuno persistentemente elevadas (> 180 mg/dL) con una medición a las 03:00 AM también elevada (145 mg/dL), lo que descarta de plano un efecto Somogyi y confirma que la dosis de insulina basal nocturna es insuficiente. Según el algoritmo de titulación de insulina basal, ante glicemias de ayuno > 180 mg/dL se debe incrementar la dosis de insulina basal nocturna en 4 unidades (de 14 a 18 UI), reevaluando en 3 a 5 días."
+      },
+      {
+        "stem": "Un paciente de 62 años con DM2 en insulinoterapia basal con NPH 26 UI al acostarse y metformina 850 mg cada 8 horas. Sus glicemias de ayuno se encuentran perfectamente controladas (promedio 102 mg/dL), pero su último control de HbA1c resulta en 8.4%. Su automonitoreo evidencia glicemias post-almuerzo de 230–260 mg/dL, mientras que tras el desayuno y cena son de 130–145 mg/dL. ¿Cuál es la estrategia recomendada por las guías clínicas?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumentar la dosis de insulina NPH nocturna a 34 UI"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar esquema Basal-Plus agregando un bolo de insulina prandial antes del almuerzo"
+          },
+          {
+            "id": "C",
+            "text": "Fraccionar la insulina NPH en dos tercios en la mañana y un tercio en la noche"
+          },
+          {
+            "id": "D",
+            "text": "Agregar glibenclamida 10 mg con el almuerzo"
+          },
+          {
+            "id": "E",
+            "text": "Suspender la insulina y reiniciar monoterapia con metformina"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente ha alcanzado la meta de glicemia de ayuno mediante su insulina basal nocturna, pero persiste fuera de la meta de HbA1c (< 7.0%) debido a excursiones hiperglicémicas postprandiales marcadas concentradas exclusivamente en el almuerzo (230-260 mg/dL). La conducta de intensificación avalada internacionalmente es la transición a un esquema Basal-Plus, incorporando un bolo de insulina prandial (rápida o ultrarrápida, 4 UI o 10% de la basal) inmediatamente antes del almuerzo."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "diabetes",
+    "specialtyName": "Diabetes y Nutrición",
+    "classId": "diab-16",
+    "title": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+    "perfilCode": "1.04.1.017",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES N° 2): Diabetes Mellitus / Urgencia Médica Hospitalaria",
+    "tier": 3,
+    "keyPoints": [
+      "La primera medida de reanimación en toda crisis hiperglicémica es SIEMPRE la fluidoterapia isotónica (NaCl 0.9% 1.000 a 1.500 ml en la primera hora).",
+      "Nunca debe administrarse insulina antes de iniciar la expansión de volumen, ya que precipitaría un colapso cardiovascular por arrastre osmótico de agua al intracelular.",
+      "Tras la primera hora, se evalúa el Sodio Corregido: si es ≥ 135 mEq/L se cambia a solución salina hipotónica al 0.45%; si es < 135 mEq/L se continúa con NaCl 0.9%.",
+      "Regla mandataria: cuando la glicemia sea ≤ 200 mg/dL en CAD o ≤ 300 mg/dL en EHH, se DEBE agregar Suero Glucosado al 5% a la hidratación.",
+      "La insulina NUNCA debe suspenderse al llegar a 200 mg/dL si el Anion Gap sigue abierto; se reduce su dosis y se infunde glucosa parenteral.",
+      "El déficit hídrico medio es de 3 a 6 litros en CAD y de 8 a 12 litros en EHH; su reposición debe completarse en 24 a 48 horas.",
+      "El descenso glicémico seguro es de 50 a 75 mg/dL por hora; descensos más rápidos (> 100 mg/dL/h) predisponen a edema cerebral.",
+      "El uso prolongado de suero salino al 0.9% puede generar acidosis metabólica hiperclorémica con anion gap normal, la cual no debe confundirse con persistencia de cetoacidosis."
+    ],
+    "vignette": "Un hombre de 26 años con antecedente de DM1 ingresa a la urgencia cursando una cetoacidosis diabética severa (glicemia 480 mg/dL, pH 7.10, HCO3 8 mEq/L, Na 130 mEq/L). Durante la primera hora se le infunden 1.500 ml de solución salina isotónica al 0.9% y luego se inicia infusión continua de insulina cristalina. A las 4 horas de evolución, un nuevo control de hemoglucotest marca 194 mg/dL. Los gases venosos de control muestran: pH 7.22, HCO3 13 mEq/L y Anion Gap de 17 mEq/L.",
+    "explicacion": "Aunque la glicemia ha descendido favorablemente por debajo de 200 mg/dL (194 mg/dL), los gases demuestran que la cetoacidosis NO está resuelta (pH < 7.30, HCO3 < 18 mEq/L y Anion Gap aún elevado en 17 mEq/L). Si el médico suspende la insulina, la producción hepática de cetoácidos rebrotará. La conducta correcta y mandataria es mantener la infusión de insulina a menor velocidad (0.02–0.05 UI/kg/h) y agregar inmediatamente Suero Glucosado al 5% a la fluidoterapia endovenosa para prevenir la hipoglicemia y permitir que la insulina continúe cerrando el Anion Gap.",
+    "baseQuestions": [
+      {
+        "stem": "Un joven de 21 años con diagnóstico reciente de diabetes mellitus tipo 1 es llevado al servicio de urgencias por compromiso de conciencia progresivo, respiración profunda y ruidosa, y vómitos reiterados. Al ingreso se constata sopor, mucosas secas, PA 85/55 mmHg, FC 122 lpm, hemoglucotest que marca \"HI\" (> 500 mg/dL) y cetonuria franca. ¿Cuál de las siguientes acciones terapéuticas debe realizarse en PRIMER lugar de forma imperativa?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar un bolo endovenoso de 10 UI de insulina cristalina"
+          },
+          {
+            "id": "B",
+            "text": "Iniciar infusión de bicarbonato de sodio al 2/3 molar"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar infusión endovenosa rápida de Suero Fisiológico al 0.9% (1.000 a 1.500 ml en la primera hora)"
+          },
+          {
+            "id": "D",
+            "text": "Administrar 20 mEq de cloruro de potasio en bolo endovenoso directo"
+          },
+          {
+            "id": "E",
+            "text": "Realizar una punción lumbar para descartar meningoencefalitis infecciosa"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En el manejo inicial de la cetoacidosis diabética y el estado hiperosmolar, la prioridad terapéutica absoluta número uno es la restauración del volumen intravascular y la perfusión tisular mediante la administración inmediata de cristaloides isotónicos (Suero Fisiológico 0.9% a 1.000–1.500 ml/h o 15–20 ml/kg/h). La insulina jamás debe administrarse antes de iniciar la hidratación porque induciría una caída del volumen intravascular al arrastrar agua al interior celular, precipitando un shock refractario."
+      },
+      {
+        "stem": "Un paciente de 25 años en tratamiento por cetoacidosis diabética severa ha recibido 3.500 ml de fluidos y una infusión de insulina cristalina a 0.1 UI/kg/hora durante las últimas 5 horas. Su glicemia plasmática ha descendido progresivamente desde 480 mg/dL hasta 195 mg/dL. Los gases venosos actuales muestran: pH 7.24, bicarbonato 14 mEq/L y Anion Gap de 16 mEq/L (aún elevado). ¿Cuál es la conducta correcta respecto a los fluidos e insulina en este momento?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suspender completamente la infusión de insulina y pasar a insulina NPH subcutánea"
+          },
+          {
+            "id": "B",
+            "text": "Continuar solo con suero fisiológico al 0.9% y duplicar la infusión de insulina a 0.2 UI/kg/h"
+          },
+          {
+            "id": "C",
+            "text": "Agregar Suero Glucosado al 5% a la hidratación endovenosa y reducir la infusión de insulina a 0.02–0.05 UI/kg/h"
+          },
+          {
+            "id": "D",
+            "text": "Suspender todos los fluidos intravenosos e iniciar tolerancia oral con agua fría"
+          },
+          {
+            "id": "E",
+            "text": "Administrar una ampolla de bicarbonato de sodio en bolo para normalizar el pH"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Cuando la glicemia desciende a valores ≤ 200 mg/dL en CAD, es obligatorio incorporar Suero Glucosado al 5% (o suero glucosalino) a la fluidoterapia endovenosa y disminuir la velocidad de infusión de insulina (a 0.02-0.05 UI/kg/h). La razón fundamental es que la cetoacidosis NO está resuelta (pH < 7.30, bicarbonato < 18 mEq/L y Anion Gap aún abierto en 16 mEq/L); por ende, no se puede suspender la insulina sin reactivar la cetogénesis, requiriéndose glucosa exógena para prevenir una hipoglicemia severa mientras se completa la resolución metabólica."
+      },
+      {
+        "stem": "En un paciente cursando un Estado Hiperglicémico Hiperosmolar con glicemia de 900 mg/dL y sodio plasmático medido de 140 mEq/L, tras haber completado la reanimación inicial con 1.500 ml de solución salina al 0.9% en la primera hora, ¿cuál es el fluido intravenoso de elección para la fase de mantenimiento?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Suero Fisiológico al 0.9% (NaCl 0.9%)"
+          },
+          {
+            "id": "B",
+            "text": "Solución Salina Hipotónica al 0.45% (NaCl 0.45%)"
+          },
+          {
+            "id": "C",
+            "text": "Suero Glucosado al 10%"
+          },
+          {
+            "id": "D",
+            "text": "Ringer Lactato con bicarbonato"
+          },
+          {
+            "id": "E",
+            "text": "Agua destilada endovenosa pura sin electrolitos"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Para decidir el fluido de mantenimiento se debe calcular el sodio corregido: Na corregido = Na medido + 1.6 * ((Glicemia - 100) / 100) = 140 + 1.6 * ((900 - 100) / 100) = 140 + 1.6 * 8 = 140 + 12.8 = 152.8 mEq/L. Al resultar el sodio corregido francamente hipernatrémico (> 145 mEq/L), existe un déficit masivo de agua libre que debe reponerse con una solución hipotónica como la Solución Salina al 0.45% (NaCl 0.45%) a 250–500 ml/h."
+      },
+      {
+        "stem": "¿Cuál es la velocidad de reducción de la glicemia plasmática considerada óptima y segura durante la fluidoterapia e insulinoterapia en las crisis hiperglicémicas agudas para evitar el edema cerebral?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Más de 150 mg/dL por hora"
+          },
+          {
+            "id": "B",
+            "text": "100 a 140 mg/dL por hora"
+          },
+          {
+            "id": "C",
+            "text": "50 a 75 mg/dL por hora"
+          },
+          {
+            "id": "D",
+            "text": "10 a 20 mg/dL por hora"
+          },
+          {
+            "id": "E",
+            "text": "La glicemia debe normalizarse a menos de 100 mg/dL en las primeras 2 horas"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El objetivo de descenso glucémico seguro en el manejo de la cetoacidosis diabética y el estado hiperosmolar es de 50 a 75 mg/dL por hora (o aproximadamente un 10% del valor basal por hora). Descensos más bruscos o violentos (> 100 mg/dL/h) provocan caídas drásticas y precipitadas de la osmolaridad sérica eficaz, generando un gradiente osmótico favorable a la entrada masiva de agua hacia el parénquima cerebral con el consecuente edema cerebral agudo."
+      }
+    ]
+  }
+]

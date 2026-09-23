@@ -1,0 +1,1646 @@
+[
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-01",
+    "title": "Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+    "perfilCode": "1.06.1.027",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · Norma MINSAL de dispepsia y uso racional de IBP",
+    "tier": 2,
+    "keyPoints": [
+      "Pirosis + regurgitación típicas, sin alarma y < 50 años: diagnóstico clínico y prueba con IBP; no se endoscopia de entrada.",
+      "El IBP se toma en ayunas, 30–60 min antes de comer. Los antagonistas H₂ están obsoletos y no se combinan con IBP.",
+      "Signos de alarma (disfagia, baja de peso, anemia, hemorragia, síntomas nocturnos, > 50 años, > 5 años de pirosis) obligan a endoscopía.",
+      "Barrett = biopsia con metaplasia intestinal. Lo que decide la cirugía es la displasia, no la metaplasia — son conceptos distintos.",
+      "No se erradica H. pylori por ERGE; sí es obligatorio erradicarlo en úlcera péptica y linfoma MALT."
+    ],
+    "vignette": "Mujer de 44 años consulta por pirosis retroesternal y regurgitación ácida de 2 años de evolución, que empeora al acostarse. Ha usado antiácidos ocasionales con alivio parcial. No refiere disfagia, baja de peso ni anemia. Examen físico normal.",
+    "explicacion": "ERGE no complicada en una paciente menor de 50 años sin signos de alarma: la conducta es prueba terapéutica con IBP en ayunas por 4 a 8 semanas junto con medidas antirreflujo, sin necesidad de endoscopía inicial. La endoscopía se reservaría para falta de respuesta, recurrencia precoz al suspender el IBP o aparición de signos de alarma.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 27 años, sin antecedentes, consulta por 3 meses de dolor epigástrico urente que aumenta con el ayuno y el estrés, con pirosis ocasional. La endoscopía digestiva alta muestra una úlcera duodenal activa y el test de ureasa resulta negativo. No usa AINE. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar omeprazol, amoxicilina y claritromicina por 14 días"
+          },
+          {
+            "id": "B",
+            "text": "Indicar omeprazol y repetir la endoscopía en 6 semanas"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar una nueva endoscopía con test de ureasa"
+          },
+          {
+            "id": "D",
+            "text": "Iniciar medidas antirreflujo y omeprazol a permanencia"
+          },
+          {
+            "id": "E",
+            "text": "Indicar solo omeprazol por 8 semanas y control clínico"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Úlcera duodenal activa en un paciente que no usa AINE: se asume infección por Helicobacter pylori aunque el test de ureasa sea negativo (falso negativo frecuente si hay sangrado reciente o uso previo de IBP/antibióticos), porque el 90 % de las úlceras duodenales son por H. pylori. La conducta es la terapia erradicadora de primera línea (IBP + amoxicilina + claritromicina, 14 días), no solo supresión ácida. B y E tratan la úlcera pero no la causa. D corresponde a manejo de ERGE, no de úlcera. C retrasa el tratamiento sin cambiar la conducta."
+      },
+      {
+        "stem": "Paciente con úlcera gástrica y test de ureasa positivo recibe amoxicilina, claritromicina y omeprazol por 10 días, seguido de omeprazol por 4 semanas. El control con test de ureasa a las 6 semanas post-tratamiento sigue positivo. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Repetir el mismo esquema por 14 días"
+          },
+          {
+            "id": "B",
+            "text": "Realizar endoscopía digestiva alta con biopsias"
+          },
+          {
+            "id": "C",
+            "text": "Indicar terapia erradicadora de segunda línea"
+          },
+          {
+            "id": "D",
+            "text": "Repetir el test de ureasa en 3 meses"
+          },
+          {
+            "id": "E",
+            "text": "Observar la evolución clínica"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Falla de la erradicación de primera línea confirmada por test de control positivo: se indica un esquema de segunda línea que evite la claritromicina (terapia cuádruple con bismuto, o levofloxacino + amoxicilina + IBP). Repetir el mismo esquema (A) mantiene la resistencia a claritromicina. La endoscopía (B) sería obligatoria para el control de la úlcera gástrica en sí, pero la pregunta apunta a la conducta frente a la falla de erradicación. D y E no corrigen la infección persistente."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-07",
+    "title": "Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable",
+    "perfilCode": "1.06.1.008",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES · manejo completo en Atención Primaria",
+    "tier": 1,
+    "keyPoints": [
+      "El diagnóstico de SII es clínico y positivo (criterios de Roma IV), no de descarte: no se necesita endoscopía si no hay signos de alarma.",
+      "Signos de alarma (ABCDEFH): anemia, baja de peso, cambio del hábito, disfagia, edad > 50 a, familiar con cáncer, hemorragia y síntomas nocturnos.",
+      "Cualquier signo de alarma obliga a estudio con endoscopía o colonoscopía para descartar cáncer.",
+      "Tratamiento: educación + manejo del estrés + dieta baja en FODMAP; amitriptilina si predomina la diarrea, polietilenglicol si predomina la constipación."
+    ],
+    "vignette": "Mujer de 32 años consulta por dolor abdominal en hipogastrio de 8 meses de evolución que alivia tras defecar, con períodos alternados de diarrea y constipación. Sin baja de peso, rectorragia ni anemia. Examen físico y hemograma normales.",
+    "explicacion": "Cumple criterios de Roma IV para síndrome de intestino irritable (dolor recurrente relacionado con la defecación y con cambio en la frecuencia y la forma de las deposiciones) y no presenta signos de alarma. El diagnóstico es clínico y positivo, no requiere endoscopía. El manejo es educación, dieta baja en FODMAP y fármacos según el síntoma predominante.",
+    "baseQuestions": [
+      {
+        "stem": "Mujer de 48 años consulta por distensión y dolor abdominal de 1 año, alternando diarrea y constipación. En los últimos 2 meses refiere deposiciones más frecuentes, baja de 4 kg de peso no buscada y un episodio de rectorragia. Su madre tuvo cáncer de colon a los 55 años. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Diagnosticar síndrome de intestino irritable e iniciar dieta baja en FODMAP"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar colonoscopía"
+          },
+          {
+            "id": "C",
+            "text": "Indicar antiespasmódicos y control en 3 meses"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar test de sangre oculta en deposiciones y repetir en 1 año"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar amitriptilina en dosis baja"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Tiene múltiples signos de alarma: edad > 50 (límite), baja de peso involuntaria, cambio reciente del hábito intestinal, rectorragia y antecedente familiar de cáncer de colon. Eso descarta el manejo como trastorno funcional (A, C, E) y obliga a colonoscopía para descartar cáncer colorrectal. El test de sangre oculta (D) es una herramienta de tamizaje poblacional en personas asintomáticas, no sirve para estudiar a un paciente sintomático con banderas rojas."
+      },
+      {
+        "stem": "Hombre de 29 años consulta por dolor abdominal recurrente de 6 meses que alivia al defecar, asociado a deposiciones más blandas cuando aparece el dolor. Sin baja de peso, anemia ni antecedentes familiares. Hemograma, PCR y anticuerpos anti-transglutaminasa normales. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Colonoscopía para descartar enfermedad inflamatoria intestinal"
+          },
+          {
+            "id": "B",
+            "text": "Diagnóstico de síndrome de intestino irritable e iniciar manejo"
+          },
+          {
+            "id": "C",
+            "text": "Endoscopía digestiva alta con biopsias duodenales"
+          },
+          {
+            "id": "D",
+            "text": "TAC de abdomen y pelvis con contraste"
+          },
+          {
+            "id": "E",
+            "text": "Prueba terapéutica con inhibidor de la bomba de protones"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Cumple criterios de Roma IV (dolor recurrente que alivia con la defecación y se asocia a cambio en la consistencia de las deposiciones) sin ningún signo de alarma y con exámenes básicos normales, incluyendo serología celíaca negativa. El diagnóstico de SII es clínico y positivo; corresponde iniciar tratamiento (educación, dieta, fármacos según síntoma) sin más estudios. Las alternativas A, C y D son estudios invasivos innecesarios en ausencia de banderas rojas."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-13",
+    "title": "Ictericia y Colestasia: Enfrentamiento Diagnóstico",
+    "perfilCode": "1.06.1.007",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · la ictericia obstructiva del adulto mayor se estudia y deriva según hallazgo",
+    "tier": 2,
+    "keyPoints": [
+      "Paso 1: ¿bilirrubina indirecta (Gilbert, hemólisis) o directa? Paso 2 en la directa: transaminasas (hepatitis) vs FA/GGT (colestasia).",
+      "Síndrome de Gilbert: hiperbilirrubinemia indirecta con el resto de las pruebas hepáticas normales → observar.",
+      "Colestasia con dolor = patología biliar; con dolor y fiebre = colangitis; sin dolor en el adulto mayor = cáncer.",
+      "Cáncer de páncreas: 3 D (diabetes, depresión, dolor) + baja de peso + ictericia silente + Courvoisier-Terrier.",
+      "La ecografía abdominal es siempre el primer examen de toda ictericia; el TAC se reserva para la sospecha de cáncer de páncreas."
+    ],
+    "vignette": "Hombre de 70 años consulta por ictericia que ha ido en aumento durante 6 semanas, prurito, coluria y baja de 8 kg de peso. No tiene dolor abdominal ni fiebre. Le diagnosticaron diabetes hace 2 meses. Al examen: ictericia marcada y una vesícula palpable, no dolorosa, en el hipocondrio derecho.",
+    "explicacion": "Ictericia progresiva e indolora en un adulto mayor, con baja de peso, diabetes de reciente inicio y signo de Courvoisier-Terrier (vesícula palpable indolora): es una ictericia obstructiva maligna, y la primera causa a considerar es el cáncer de cabeza de páncreas (\"las 3 D\"). El estudio comienza con ecografía abdominal y, ante la sospecha de masa pancreática, el examen de elección es el TAC de abdomen con contraste.",
+    "baseQuestions": [
+      {
+        "stem": "Estudiante de 22 años, asintomático, consulta porque en un examen preventivo le encontraron una bilirrubina total de 2,6 mg/dL, a expensas de la indirecta. Las transaminasas, fosfatasas alcalinas, GGT, hemograma y LDH son normales. ¿Cuál es el diagnóstico más probable y la conducta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hepatitis viral aguda; solicitar serología viral y control seriado"
+          },
+          {
+            "id": "B",
+            "text": "Anemia hemolítica; frotis y test de Coombs"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome de Gilbert; tranquilizar y no requiere tratamiento"
+          },
+          {
+            "id": "D",
+            "text": "Coledocolitiasis; ecografía abdominal urgente"
+          },
+          {
+            "id": "E",
+            "text": "Cirrosis biliar primaria; anticuerpos antimitocondriales"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Hiperbilirrubinemia indirecta aislada, con el resto de las pruebas hepáticas y el hemograma normales, en un joven asintomático: es un síndrome de Gilbert, un trastorno hereditario benigno de la conjugación de la bilirrubina que afecta al 5–10 % de la población y suele hacerse evidente con el ayuno o las infecciones. No requiere estudio adicional ni tratamiento."
+      },
+      {
+        "stem": "Mujer de 55 años con dolor cólico en el hipocondrio derecho e ictericia de 2 días, sin fiebre. Laboratorio: bilirrubina 4 mg/dL de predominio directo, fosfatasas alcalinas y GGT elevadas, transaminasas levemente altas. La ecografía muestra colelitiasis y una vía biliar de 9 mm, sin visualizar cálculos en el colédoco. ¿Cuál es el siguiente examen?",
+        "options": [
+          {
+            "id": "A",
+            "text": "CPRE directa"
+          },
+          {
+            "id": "B",
+            "text": "Colangiorresonancia"
+          },
+          {
+            "id": "C",
+            "text": "TAC de abdomen con contraste"
+          },
+          {
+            "id": "D",
+            "text": "Biopsia hepática percutánea"
+          },
+          {
+            "id": "E",
+            "text": "Repetir la ecografía en 48 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El patrón es colestásico con dolor y sin fiebre: coledocolitiasis. La ecografía muestra la vía biliar dilatada pero no ve el cálculo, así que el siguiente paso es la colangiorresonancia para confirmarlo antes de someter a la paciente a una CPRE (que es invasiva y tiene riesgo de pancreatitis). Se va directo a CPRE solo si hay colangitis o si la ecografía ya vio el cálculo en el colédoco."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-17",
+    "title": "Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+    "perfilCode": "1.06.1.006",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "GES: colecistectomía preventiva en colelitiasis, 35 a 49 años",
+    "tier": 3,
+    "keyPoints": [
+      "Solo dolor = cólico biliar; + fiebre = colecistitis; + ictericia = coledocolitiasis; + fiebre + ictericia = colangitis (Charcot).",
+      "Toda colelitiasis se opera (colecistectomía laparoscópica electiva), incluso asintomática — riesgo de cáncer de vesícula en Chile.",
+      "La colecistitis aguda es la única patología biliar de resolución quirúrgica urgente (colecistectomía < 72 h).",
+      "Coledocolitiasis: eco → colangiorresonancia → CPRE. Directo a CPRE si hay colangitis o si la eco ve el cálculo.",
+      "Colangitis: lo esencial es el drenaje biliar urgente por CPRE, junto con volumen y antibióticos."
+    ],
+    "vignette": "Mujer de 48 años consulta por 8 horas de dolor intenso y continuo en el hipocondrio derecho, con fiebre de 38,5 °C y vómitos. Al examen tiene un signo de Murphy claramente positivo. Laboratorio: leucocitos 15.000/mm³, PCR elevada, bilirrubina normal. La ecografía muestra colelitiasis, pared vesicular de 6 mm y líquido perivesicular.",
+    "explicacion": "Dolor persistente en el hipocondrio derecho + fiebre + Murphy positivo + hallazgos ecográficos (pared engrosada, líquido perivesicular) configuran una colecistitis aguda. La bilirrubina normal la separa de la coledocolitiasis y la colangitis. Es la única patología biliar que se opera de urgencia: el tratamiento es hospitalización, antibióticos y colecistectomía laparoscópica precoz, idealmente en las primeras 72 horas.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 62 años consulta por dolor en el hipocondrio derecho, ictericia progresiva, fiebre de 39 °C con calofríos y, en las últimas horas, tendencia a la somnolencia y presión arterial de 90/50 mmHg. ¿Cuál es el diagnóstico y la conducta prioritaria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Colecistitis aguda; colecistectomía laparoscópica de urgencia"
+          },
+          {
+            "id": "B",
+            "text": "Colangitis aguda grave; reposición de volumen, antibióticos y CPRE urgente para drenaje"
+          },
+          {
+            "id": "C",
+            "text": "Coledocolitiasis; colangiorresonancia y luego CPRE electiva"
+          },
+          {
+            "id": "D",
+            "text": "Hepatitis aguda; manejo de soporte"
+          },
+          {
+            "id": "E",
+            "text": "Absceso hepático; antibióticos y drenaje percutáneo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Dolor + ictericia + fiebre (tríada de Charcot) con hipotensión y compromiso de conciencia constituyen la péntada de Reynolds: una colangitis aguda grave. La prioridad es la reanimación con volumen, los antibióticos de amplio espectro y, sobre todo, el drenaje biliar urgente mediante CPRE. La colecistectomía se difiere hasta que el paciente se estabilice."
+      },
+      {
+        "stem": "Mujer de 40 años, sin síntomas, a quien en una ecografía de rutina se le detecta una colelitiasis (múltiples cálculos, vesícula de pared normal). ¿Cuál es la conducta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Observación; operar solo si aparecen síntomas"
+          },
+          {
+            "id": "B",
+            "text": "Ácido ursodesoxicólico para disolver los cálculos"
+          },
+          {
+            "id": "C",
+            "text": "Colecistectomía laparoscópica electiva"
+          },
+          {
+            "id": "D",
+            "text": "Dieta baja en grasas y control ecográfico anual"
+          },
+          {
+            "id": "E",
+            "text": "Colecistectomía solo si los cálculos superan los 2 cm"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En Chile, que tiene la incidencia de cáncer de vesícula más alta del mundo, la conducta ante una colelitiasis —aunque sea asintomática— es la colecistectomía laparoscópica electiva. El GES garantiza esta cirugía preventiva en el grupo de 35 a 49 años. La disolución con ursodesoxicólico y la observación no protegen del cáncer."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-19",
+    "title": "Abdomen Agudo: Apendicitis y Diverticulitis",
+    "perfilCode": "1.06.2.001",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · urgencia quirúrgica según Norma MINSAL",
+    "tier": 3,
+    "keyPoints": [
+      "Apendicitis: dolor que migra del ombligo a la fosa ilíaca derecha + anorexia; diagnóstico clínico → apendicectomía.",
+      "Mujer en edad fértil con dolor abdominal bajo: primero test de embarazo y evaluación ginecológica.",
+      "Plastrón apendicular (masa en FID): antibióticos primero y apendicectomía diferida; no es lo mismo que la apendicitis perforada.",
+      "Diverticulitis: TAC de abdomen y pelvis; la colonoscopía está contraindicada en el episodio agudo.",
+      "Hinchey I–II (absceso) → antibióticos ± drenaje; Hinchey III–IV (peritonitis) → operación de Hartmann.",
+      "Fístula colovesical (complicación de la diverticulitis): neumaturia e infecciones urinarias recurrentes."
+    ],
+    "vignette": "Hombre de 58 años consulta por 2 días de dolor en la fosa ilíaca izquierda, fiebre de 38,3 °C y deposiciones más frecuentes. Al examen tiene dolor y defensa localizada en la fosa ilíaca izquierda, sin signos peritoneales generalizados. El TAC de abdomen muestra engrosamiento del sigmoides con estrías de la grasa pericólica y una colección de 2 cm adyacente.",
+    "explicacion": "Diverticulitis aguda con un absceso pericólico pequeño, sin peritonitis generalizada: corresponde a un Hinchey I. El tratamiento es antibióticos (ceftriaxona + metronidazol, endovenosos u orales según la gravedad) y reposo intestinal; el drenaje percutáneo se reserva para los abscesos mayores o a distancia (Hinchey II), y la cirugía urgente (operación de Hartmann) para la peritonitis (Hinchey III–IV). La colonoscopía está contraindicada ahora y se programa a las 6–8 semanas.",
+    "baseQuestions": [
+      {
+        "stem": "Mujer de 24 años consulta por dolor que comenzó alrededor del ombligo y en 12 horas se localizó en la fosa ilíaca derecha, con náuseas y falta de apetito. Al examen tiene Blumberg positivo en la fosa ilíaca derecha. ¿Cuál es la primera conducta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Apendicectomía laparoscópica inmediata"
+          },
+          {
+            "id": "B",
+            "text": "Test de embarazo y evaluación ginecológica"
+          },
+          {
+            "id": "C",
+            "text": "TAC de abdomen y pelvis con contraste"
+          },
+          {
+            "id": "D",
+            "text": "Iniciar antibióticos empíricos y observar 24 horas"
+          },
+          {
+            "id": "E",
+            "text": "Colonoscopía urgente"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En toda mujer en edad fértil con dolor en la fosa ilíaca derecha y sospecha de apendicitis, lo primero es descartar patología ginecológica y, sobre todo, un embarazo ectópico: se solicita test de embarazo y evaluación ginecológica (con ecografía). Recién después se confirma la apendicitis (clínica + ecografía) y se lleva a pabellón. Operar sin este paso puede pasar por alto un ectópico roto."
+      },
+      {
+        "stem": "Mujer de 63 años con diverticulitis aguda. El TAC muestra abundante líquido y aire libre intraperitoneal, con signos de peritonitis fecal difusa. Está febril, taquicárdica e hipotensa. ¿Cuál es la conducta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Antibióticos endovenosos y reevaluar en 48 horas"
+          },
+          {
+            "id": "B",
+            "text": "Drenaje percutáneo guiado por TAC"
+          },
+          {
+            "id": "C",
+            "text": "Cirugía de urgencia (operación de Hartmann)"
+          },
+          {
+            "id": "D",
+            "text": "Colonoscopía para localizar la perforación"
+          },
+          {
+            "id": "E",
+            "text": "Resección sigmoidea laparoscópica con anastomosis primaria diferida"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Aire y líquido libre con peritonitis fecal corresponde a un Hinchey IV (perforación libre con contaminación fecal), que junto con el Hinchey III (peritonitis purulenta) es indicación de cirugía de urgencia: resección del sigmoides con colostomía terminal y cierre del muñón rectal (operación de Hartmann), reconstruyendo el tránsito meses después. El manejo médico o percutáneo solo sirve en los abscesos (Hinchey I–II)."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-23",
+    "title": "Diarrea Aguda y Crónica en el Niño",
+    "perfilCode": "1.06.2.005",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · Norma MINSAL de manejo de la diarrea aguda del lactante",
+    "tier": 2,
+    "keyPoints": [
+      "Diarrea aguda del niño: hidratar según el grado (Plan A oral / B SRO 50–100 mL/kg / C suero fisiológico 20 mL/kg en bolo).",
+      "Antidiarreicos contraindicados en pediatría; antibiótico solo en disentería por Shigella o E. coli enteroinvasora (ciprofloxacino).",
+      "Salmonella no tifoidea no complicada: no se trata con antibióticos (prolonga el estado de portador).",
+      "Diarrea crónica del lactante más frecuente: diarrea crónica inespecífica por jugos hiperosmolares → suspender jugos.",
+      "Siempre descartar giardiasis antes de diagnosticar enfermedad celíaca.",
+      "Alergia a la proteína de leche de vaca: diagnóstico por prueba terapéutica con reintroducción; no hay test sanguíneo validado."
+    ],
+    "vignette": "Lactante de 10 meses con diarrea acuosa de 3 días, sin sangre. Al examen está irritable, llora sin lágrimas, tiene las mucosas secas y los ojos hundidos, y ha perdido el 7 % de su peso. Bebe con avidez pequeñas cantidades de líquido que se le ofrecen.",
+    "explicacion": "Deshidratación moderada (7 % de pérdida de peso, mucosas secas, ojos hundidos, llanto sin lágrimas) por una diarrea aguda sin disentería: corresponde el Plan B, con sales de rehidratación oral 50–100 mL/kg en 4–6 horas, reevaluando. Como tolera la vía oral, no requiere suero endovenoso. No se indican antibióticos (no hay disentería ni fiebre alta persistente) y los antidiarreicos están contraindicados en pediatría.",
+    "baseQuestions": [
+      {
+        "stem": "Preescolar de 4 años de una zona rural consulta por diarrea crónica de 2 meses, con abundante flatulencia y dolor abdominal tipo cólico. Dos hermanos tienen síntomas similares. Crece en un percentil bajo pero estable. ¿Cuál es el diagnóstico más probable y su tratamiento?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Diarrea crónica inespecífica; suspender los jugos"
+          },
+          {
+            "id": "B",
+            "text": "Enfermedad celíaca; dieta sin gluten"
+          },
+          {
+            "id": "C",
+            "text": "Giardiasis; tinidazol (o metronidazol)"
+          },
+          {
+            "id": "D",
+            "text": "Fibrosis quística; enzimas pancreáticas"
+          },
+          {
+            "id": "E",
+            "text": "Alergia a la proteína de leche de vaca; fórmula hidrolizada"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Diarrea crónica con flatulencia y dolor cólico en un preescolar de zona rural, con varios convivientes afectados, es muy sugerente de giardiasis. Se confirma con parasitológico seriado (3 muestras en días distintos) y se trata con tinidazol o metronidazol. La giardiasis puede producir un síndrome de malabsorción idéntico al de la celíaca, por lo que siempre debe descartarse antes de ese diagnóstico."
+      },
+      {
+        "stem": "Lactante de 4 meses alimentado con fórmula presenta diarrea crónica con estrías de sangre, reflujo y episodios de exantema y sibilancias. El incremento ponderal está enlentecido. ¿Cuál es el estudio diagnóstico más apropiado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Test del sudor"
+          },
+          {
+            "id": "B",
+            "text": "Anticuerpos anti-transglutaminasa"
+          },
+          {
+            "id": "C",
+            "text": "Prueba terapéutica con fórmula extensamente hidrolizada por 2–4 semanas y posterior reintroducción"
+          },
+          {
+            "id": "D",
+            "text": "Parasitológico seriado de deposiciones"
+          },
+          {
+            "id": "E",
+            "text": "Endoscopía digestiva alta con biopsias"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Un lactante con síntomas gastrointestinales (diarrea con sangre, reflujo, mal incremento) y alérgicos (exantema, sibilancias) sugiere alergia a la proteína de leche de vaca. El diagnóstico se hace con prueba terapéutica: se cambia a fórmula extensamente hidrolizada (o de aminoácidos) por 2–4 semanas y, si mejora, se reintroduce la proteína de leche de vaca; la reaparición de los síntomas confirma el diagnóstico. No existe un test sanguíneo validado para esta condición."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-02",
+    "title": "Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+    "perfilCode": "1.06.1.030",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · Norma MINSAL de dispepsia y erradicación de H. pylori",
+    "tier": 2,
+    "keyPoints": [
+      "El omeprazol trata el reflujo; la úlcera péptica se trata erradicando H. pylori. Sin erradicación, la úlcera recidiva en el 90 %.",
+      "Toda úlcera duodenal se erradica aunque el test de H. pylori sea negativo (falso negativo frecuente con IBP o sangrado reciente).",
+      "Toda úlcera gástrica exige biopsia del borde para descartar cáncer y endoscopía de control tras el tratamiento.",
+      "Primera línea: IBP + amoxicilina + claritromicina por 14 días. Segunda línea: cuádruple con bismuto, sin claritromicina.",
+      "Linfoma MALT gástrico: se trata con erradicación de H. pylori, no con quimioterapia. En la ERGE no se erradica.",
+      "Úlcera perforada: radiografía de tórax de pie (neumoperitoneo) y cirugía urgente; la endoscopía está contraindicada."
+    ],
+    "vignette": "Hombre de 52 años consulta por epigastralgia urente de 6 semanas que aumenta con el ayuno y mejora al comer. No baja de peso ni presenta anemia. Por la edad se solicita endoscopía digestiva alta, que muestra una úlcera gástrica de 8 mm en curvatura menor; se toman biopsias del borde y el test de ureasa es positivo.",
+    "explicacion": "Úlcera gástrica con H. pylori positivo: el tratamiento es la terapia erradicadora de primera línea (IBP + amoxicilina + claritromicina 14 días) seguida de IBP hasta completar 6–8 semanas para asegurar la cicatrización. Toda úlcera gástrica obliga a biopsiar el borde para descartar cáncer y a repetir la endoscopía de control, tanto para verificar la cicatrización como para confirmar la erradicación. Dar solo IBP dejaría la causa sin tratar y la recidiva sería del 90 %.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 40 años con úlcera duodenal en la endoscopía. El test de ureasa para H. pylori resulta negativo. No usa AINE. ¿Cuál es la conducta respecto de la erradicación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "No erradicar, porque el test de H. pylori es negativo"
+          },
+          {
+            "id": "B",
+            "text": "Erradicar igualmente con esquema de primera línea"
+          },
+          {
+            "id": "C",
+            "text": "Indicar solo omeprazol por 6 semanas"
+          },
+          {
+            "id": "D",
+            "text": "Repetir la endoscopía en 4 semanas antes de decidir"
+          },
+          {
+            "id": "E",
+            "text": "Solicitar antígeno fecal y erradicar solo si es positivo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Toda úlcera duodenal se erradica aunque el test resulte negativo, porque el 90 % son por H. pylori y el test de ureasa tiene falsos negativos frecuentes (uso previo de IBP o antibióticos, sangrado reciente). Dar solo omeprazol (C) cicatriza pero no previene la recidiva. Repetir exámenes (D, E) retrasa el tratamiento sin cambiar la conducta."
+      },
+      {
+        "stem": "Mujer de 35 años con epigastralgia urente de 2 meses, sin baja de peso, anemia ni disfagia. La endoscopía digestiva alta es completamente normal y el test de H. pylori es negativo. ¿Cuál es el diagnóstico y la conducta inicial?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Úlcera péptica; iniciar terapia de erradicación"
+          },
+          {
+            "id": "B",
+            "text": "Cáncer gástrico incipiente; repetir endoscopía con cromoendoscopia"
+          },
+          {
+            "id": "C",
+            "text": "Dispepsia funcional; educación, manejo del estrés y prueba con IBP"
+          },
+          {
+            "id": "D",
+            "text": "Gastroparesia; solicitar cintigrafía de vaciamiento gástrico"
+          },
+          {
+            "id": "E",
+            "text": "ERGE; iniciar IBP a permanencia y cirugía antirreflujo"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Epigastralgia con endoscopía normal y sin signos de alarma es, por definición, dispepsia funcional (diagnóstico de exclusión que requiere endoscopía normal). El manejo es educación, manejo del estrés, moduladores del dolor y una prueba con IBP; se puede ofrecer erradicación de H. pylori si el test fuera positivo, lo que aquí no aplica. No corresponde tratar como úlcera (A) ni repetir estudios invasivos sin nuevas banderas rojas."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-08",
+    "title": "Diarrea Aguda, Diarrea Crónica y Constipación",
+    "perfilCode": "1.06.2.005",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · Norma MINSAL de manejo de la diarrea aguda (Planes A/B/C)",
+    "tier": 1,
+    "keyPoints": [
+      "Regla de los 3: diarrea = > 3 deposiciones/día; constipación = < 3 deposiciones/semana.",
+      "Diarrea aguda: el manejo es la hidratación (Plan A/B/C). Los antidiarreicos están contraindicados.",
+      "Antibiótico en diarrea aguda solo si disentería, diarrea del viajero, fiebre persistente o sepsis. Elección: ciprofloxacino.",
+      "Diarrea post-antibióticos (último mes) → C. difficile: PCR de toxina; la respuesta se evalúa clínicamente, no con PCR de control.",
+      "Diarrea crónica o constipación con signos de alarma en adulto mayor → colonoscopía para descartar cáncer."
+    ],
+    "vignette": "Lactante de 8 meses con diarrea acuosa de 3 días, sin sangre ni fiebre alta. Al examen está irritable, con las mucosas secas, los ojos hundidos y el signo del pliegue enlentecido; ha perdido el 7 % de su peso habitual. Tolera pequeños sorbos de líquido.",
+    "explicacion": "Deshidratación moderada (7 % de pérdida de peso, mucosas secas, ojos hundidos, irritabilidad) por diarrea aguda sin disentería: corresponde el Plan B, con sales de rehidratación oral 50–100 mL/kg en 4–6 horas y reevaluación clínica. Como tolera la vía oral, no se necesita hidratación endovenosa. No se indican antibióticos (no hay disentería ni fiebre alta persistente) ni antidiarreicos.",
+    "baseQuestions": [
+      {
+        "stem": "Hombre de 46 años presenta diarrea líquida de 3 semanas que comenzó 10 días después de terminar un tratamiento con amoxicilina-clavulánico por una neumonía. Sin sangre en las deposiciones. ¿Cuál es el examen más adecuado para confirmar la etiología?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Coprocultivo corriente"
+          },
+          {
+            "id": "B",
+            "text": "PCR de toxina para Clostridioides difficile en deposiciones"
+          },
+          {
+            "id": "C",
+            "text": "Parasitológico seriado de deposiciones"
+          },
+          {
+            "id": "D",
+            "text": "Colonoscopía con biopsias"
+          },
+          {
+            "id": "E",
+            "text": "Calprotectina fecal"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Diarrea que aparece hasta un mes después del uso de antibióticos obliga a descartar Clostridioides difficile. El examen de elección actual es la PCR de toxina en deposiciones, más sensible que la detección de toxinas A y B. El tratamiento es metronidazol oral y, si falla, vancomicina oral; la respuesta se evalúa por la clínica, no repitiendo la PCR (puede quedar positiva por semanas)."
+      },
+      {
+        "stem": "Niño de 2 años con diarrea acuosa de 2 días y fiebre de 38,5 °C, sin sangre en las deposiciones, con buen estado general y sin signos de deshidratación. ¿Cuál es la conducta respecto de los antibióticos?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ciprofloxacino oral"
+          },
+          {
+            "id": "B",
+            "text": "Ceftriaxona endovenosa"
+          },
+          {
+            "id": "C",
+            "text": "Azitromicina oral"
+          },
+          {
+            "id": "D",
+            "text": "No indicar antibióticos"
+          },
+          {
+            "id": "E",
+            "text": "Metronidazol oral"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La diarrea aguda del niño, por regla general, no lleva antibiótico. Solo se indica ante disentería con mal estado general, fiebre alta persistente por varios días, dolor abdominal intenso o aislamiento de Shigella o E. coli enteroinvasora. Este niño está en buen estado, sin disentería y con fiebre de pocas horas: el manejo es hidratación y observación."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "gastroenterologia",
+    "specialtyName": "Gastroenterología",
+    "classId": "gastro-14",
+    "title": "Hepatitis Aguda y Crónica",
+    "perfilCode": "1.06.1.019",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "GES: Hepatitis crónica por virus B y C (estudio y antivirales garantizados)",
+    "tier": 3,
+    "keyPoints": [
+      "Hepatitis aguda: el riesgo es la fulminante (ictericia + encefalopatía); se vigila con el tiempo de protrombina.",
+      "Hepatitis crónica: el riesgo es la cirrosis; se evalúa con biopsia o elastografía.",
+      "HBsAg = \"hay virus\"; IgM anti-HBc = \"es aguda\"; HBsAg (+) con IgM anti-HBc (−) = hepatitis B crónica.",
+      "Hepatitis A: contacto extradomiciliario → vacuna; contacto intradomiciliario → inmunoglobulina.",
+      "Relación AST/ALT > 2 = hepatitis alcohólica. Paracetamol → N-acetilcisteína.",
+      "Prurito + AMA + mujer = cirrosis biliar primaria. Colitis ulcerosa + ANCA + vía biliar \"en rosario\" = colangitis esclerosante primaria."
+    ],
+    "vignette": "Hombre de 38 años, asintomático, se realiza exámenes por una donación de sangre. Resultado: transaminasas levemente elevadas, HBsAg positivo e IgM anti-HBc negativa. Se solicita carga viral, que resulta detectable.",
+    "explicacion": "HBsAg positivo indica infección activa por virus B; la IgM anti-HBc negativa descarta que sea una infección aguda. La combinación HBsAg (+) con IgM anti-HBc (−) define una hepatitis B crónica. Corresponde derivar a especialista para estadificar (elastografía o biopsia, carga viral, HBeAg) y decidir tratamiento antiviral, además de estudiar coinfecciones y vacunar a los contactos.",
+    "baseQuestions": [
+      {
+        "stem": "Una paciente se realiza exámenes porque su pareja fue diagnosticada de hepatitis B. Tiene antígeno de superficie para VHB (AgHBs) negativo y anticuerpos anti-HBs (antisuperficie) positivos. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Vacunada contra la hepatitis B"
+          },
+          {
+            "id": "B",
+            "text": "Hepatitis B aguda"
+          },
+          {
+            "id": "C",
+            "text": "Hepatitis B crónica"
+          },
+          {
+            "id": "D",
+            "text": "Hepatitis B en período de ventana"
+          },
+          {
+            "id": "E",
+            "text": "Infección asintomática por virus hepatitis B"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El AgHBs negativo descarta infección activa y los anti-HBs positivos indican inmunidad. Como no se informan anti-HBc, el patrón \"anti-HBs aislado\" corresponde a inmunidad por vacuna (una infección resuelta también tendría anti-HBc IgG positivos). En ningún caso hay enfermedad activa ni período de ventana."
+      },
+      {
+        "stem": "Mujer de 30 años con 10 días de astenia, fiebre, malestar y dolor epigástrico; hace 2 días se agregó ictericia y hoy orinas oscuras. Al examen: FC 96/min, PA 100/60, ictericia franca, sin compromiso de conciencia, dolor en epigastrio e hipocondrio derecho sin signos peritoneales. Laboratorio: GOT 2.640 U/L, GPT 2.860 U/L, GGT 180, FA 412, protrombinemia 52 %, bilirrubina total 9,2 mg/dL (directa 6,6), albúmina 3,4 g/dL. IgM anti-VHA 5,5 U (VN < 0,2). ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dieta blanda y reposo en domicilio"
+          },
+          {
+            "id": "B",
+            "text": "Hospitalizar"
+          },
+          {
+            "id": "C",
+            "text": "Solicitar ecografía abdominal y controlar de forma ambulatoria"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar colangiopancreatografía por resonancia magnética"
+          },
+          {
+            "id": "E",
+            "text": "Indicar N-acetilcisteína oral"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Es una hepatitis A aguda (IgM anti-VHA positiva) con transaminasas muy elevadas y, sobre todo, protrombinemia de 52 %. Aún no hay encefalopatía, por lo que no cumple criterios de hepatitis fulminante, pero la caída del tiempo de protrombina es el marcador de gravedad y de riesgo de progresión: obliga a hospitalizar para vigilancia. El manejo ambulatorio se reserva para la hepatitis A no complicada con protrombina normal."
+      },
+      {
+        "stem": "Mujer de 20 años en tratamiento con isotretinoína hace 10 días por acné consulta por dolor abdominal, malestar y astenia, con ictericia y orinas oscuras. Examen: ictericia, dolor en epigastrio e hipocondrio, hígado palpable 3 cm bajo el reborde costal. Laboratorio: GOT 328 U/L, GPT 459 U/L, bilirrubina 1,8 mg/dL, FA 80, GGT 92, protrombinemia 80 %. Serología: IgG anti-VHA (+), IgM anti-VHA (−), AgHBs (−), anti-HBc totales (+); anti-VHC y autoinmunidad pendientes. El diagnóstico más probable es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hepatitis A"
+          },
+          {
+            "id": "B",
+            "text": "Hepatitis B"
+          },
+          {
+            "id": "C",
+            "text": "Hepatitis C"
+          },
+          {
+            "id": "D",
+            "text": "Hepatitis por fármacos"
+          },
+          {
+            "id": "E",
+            "text": "Hepatitis autoinmune"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La IgM anti-VHA negativa descarta hepatitis A aguda (la IgG solo marca contacto previo). El AgHBs negativo descarta infección B activa; los anti-HBc totales positivos sin AgHBs indican solo exposición pasada. Por descarte, y por la relación temporal con un fármaco hepatotóxico conocido (isotretinoína), el diagnóstico es hepatitis por fármacos: la conducta es suspender el fármaco de inmediato."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-01",
+    "title": "Espirometría y Pruebas de Función Pulmonar",
+    "perfilCode": "1.05.4.001",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Diagnóstico y Confirmación de Asma y EPOC en APS",
+    "tier": 2,
+    "keyPoints": [
+      "El patrón obstructivo se define estrictamente por VEF1/CVF < 0.70 post-broncodilatador.",
+      "Test BD positivo: aumento del VEF1 o CVF ≥ 12% Y ≥ 200 mL respecto al basal.",
+      "La severidad obstructiva se clasifica según el VEF1 post-BD: ≥80% leve, 50-79% moderada, 30-49% grave, <30% muy grave.",
+      "Trampa: la espirometría jamás confirma restricción; solo la sugiere cuando la CVF es < 80% con VEF1/CVF normal.",
+      "La confirmación categórica de restricción pulmonar exige pletismografía demostrando CPT < 80%."
+    ],
+    "vignette": "Hombre de 54 años, fumador de 25 paquetes-año, consulta por disnea de esfuerzo progresiva. La espirometría basal muestra VEF1/CVF 0.58, VEF1 1.60 L (52% predicho) y CVF 2.76 L (78% predicho). Tras 400 mcg de salbutamol inhalado, el VEF1 sube a 1.72 L (aumento de 120 mL y 7.5%) y VEF1/CVF 0.60.",
+    "explicacion": "El paciente presenta una limitación crónica al flujo aéreo no completamente reversible (VEF1/CVF post-BD < 0.70 con cambio < 12% y < 200 mL en VEF1), lo que confirma el diagnóstico de Enfermedad Pulmonar Obstructiva Crónica (EPOC) con limitación moderada al flujo aéreo (VEF1 52%).",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 26 años con antecedentes de rinitis alérgica consulta por episodios recurrentes de tos seca nocturna y disnea sibilante tras realizar ejercicio. Se realiza una espirometría basal que muestra VEF1/CVF de 0.64 y VEF1 del 68% del teórico. Tras la inhalación de 400 mcg de salbutamol, el VEF1 asciende al 84% del predicho, con un incremento absoluto de 420 mL. ¿Cuál es la interpretación diagnóstica más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Patrón restrictivo pulmonar puro secundario a hiperreactividad"
+          },
+          {
+            "id": "B",
+            "text": "Patrón obstructivo con respuesta broncodilatadora significativa compatible con asma"
+          },
+          {
+            "id": "C",
+            "text": "Obstrucción fija de la vía aérea que descarta asma bronquial"
+          },
+          {
+            "id": "D",
+            "text": "Espirometría no interpretable que exige solicitar pletismografía inmediata"
+          },
+          {
+            "id": "E",
+            "text": "Patrón mixto con atrapamiento aéreo severo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente presenta una relación VEF1/CVF < 0.70 basal que revierte tras broncodilatador con un aumento de VEF1 > 12% y > 200 mL (en este caso 420 mL y 16% absoluto), normalizando la función. Este patrón obstructivo reversible es característico y diagnóstico de asma bronquial. La restricción (A) cursa con relación VEF1/CVF normal. No es una obstrucción fija (C) porque revirtió significativamente."
+      },
+      {
+        "stem": "Un paciente de 60 años con disnea de esfuerzo en estudio presenta una espirometría con VEF1/CVF de 0.82, VEF1 del 62% del valor predicho y CVF del 60% del predicho. ¿Cuál es la conducta médica de elección para certificar el diagnóstico funcional?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Iniciar salmeterol con fluticasona por patrón obstructivo leve"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar pletismografía corporal para medir Capacidad Pulmonar Total (CPT)"
+          },
+          {
+            "id": "C",
+            "text": "Realizar test de provocación con metacolina en forma ambulatoria"
+          },
+          {
+            "id": "D",
+            "text": "Asumir diagnóstico definitivo de fibrosis pulmonar e iniciar pirfenidona"
+          },
+          {
+            "id": "E",
+            "text": "Repetir la espirometría tras ciclo de prednisona oral por 14 días"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Una espirometría con relación VEF1/CVF normal (≥ 0.70) y CVF disminuida (< 80%) es sugerente pero NO diagnóstica de alteración restrictiva. Para confirmar fehacientemente una restricción pulmonar es indispensable medir volúmenes absolutos mediante pletismografía corporal y constatar una CPT < 80%. Asumir fibrosis o indicar fármacos sin CPT es un error conceptual grave."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-06",
+    "title": "Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65",
+    "perfilCode": "1.05.1.027",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Neumonía Adquirida en la Comunidad de Manejo Ambulatorio en Personas de 65 años y más",
+    "tier": 3,
+    "keyPoints": [
+      "La confirmación de NAC exige siempre una Radiografía de tórax demostrando condensación o infiltrados nuevos.",
+      "El germen más común de NAC en todas las edades y comorbilidades es Streptococcus pneumoniae.",
+      "CURB-65: Confusión (+1), Urea > 42 mg/dL o BUN > 19 (+1), FR ≥ 30 (+1), PAS < 90 o PAD ≤ 60 (+1), Edad ≥ 65 (+1).",
+      "CURB-65 de 0 a 1 punto: manejo ambulatorio. 2 puntos: hospitalización en sala. ≥ 3 puntos: evaluar UCI/UTI.",
+      "Si el único punto en CURB-65 es la edad (≥ 65 años), el paciente puede ser manejado ambulatoriamente si no hay hipoxemia ni riesgo social.",
+      "Criterios mayores para UCI directa según ATS/IDSA: necesidad de ventilación mecánica invasiva o shock séptico refractario con vasopresores.",
+      "La NAC en mayores de 65 años es patología GES: garantiza diagnóstico y tratamiento antibiótico en menos de 24 horas.",
+      "Si la fiebre persiste tras 72 horas de tratamiento adecuado, sospechar derrame paraneumónico complicado o empiema."
+    ],
+    "vignette": "Mujer de 72 años consulta en el CESFAM por tos con expectoración herrumbrosa, tope inspiratorio en base derecha y fiebre hasta 38.8 °C de 48 horas de evolución. Al examen: orientada témporo-espacialmente, FR 24 rpm, FC 92 lpm, PA 130/80 mmHg, SatO2 95% al aire ambiente. Murmullo pulmonar con crépitos en tercio inferior de hemitórax derecho. Laboratorio: BUN 14 mg/dL. Rx tórax confirma condensación alveolar en lóbulo inferior derecho sin derrame pleural.",
+    "explicacion": "La paciente presenta una NAC confirmada radiológicamente. Al calcular el score CURB-65 presenta 1 punto exclusivamente por tener ≥ 65 años (C=0, U=0 con BUN 14, R=0 con FR 24, B=0 con PA 130/80). Por tener 1 solo punto por edad y contar con adecuada red de apoyo familiar, estabilidad hemodinámica y buena saturación, cumple criterios para manejo ambulatorio garantizado por GES con Amoxicilina/Ácido Clavulánico 875/125 mg cada 12 horas por 7 días y control médico obligatorio a las 48 horas.",
+    "baseQuestions": [
+      {
+        "stem": "Un hombre de 68 años consulta en el servicio de urgencias por compromiso del estado general, tos con expectoración purulenta y fiebre de 39 °C. Al examen físico se encuentra desorientado en tiempo y espacio, con FR de 34 rpm, PA 85/50 mmHg, FC 118 lpm y crepitaciones en la base pulmonar izquierda. La radiografía de tórax confirma una consolidación basal izquierda. El nitrógeno ureico en sangre (BUN) es de 28 mg/dL. ¿Cuál es el puntaje CURB-65 y la conducta de internación más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "CURB-65 de 2 puntos; hospitalización en sala de medicina general"
+          },
+          {
+            "id": "B",
+            "text": "CURB-65 de 3 puntos; manejo ambulatorio con control en 24 horas"
+          },
+          {
+            "id": "C",
+            "text": "CURB-65 de 5 puntos; hospitalización inmediata en Unidad de Cuidados Intensivos (UCI)"
+          },
+          {
+            "id": "D",
+            "text": "CURB-65 de 1 punto; tratamiento ambulatorio con levofloxacino"
+          },
+          {
+            "id": "E",
+            "text": "CURB-65 de 4 puntos; hospitalización en sala intermedia sin monitorización"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente cumple los 5 criterios del CURB-65: Confusión mental (+1), Urea/BUN > 19 mg/dL (+1 con BUN 28), FR ≥ 30 rpm (+1 con 34 rpm), PA < 90/60 mmHg (+1 con 85/50 mmHg) y Edad ≥ 65 años (+1 con 68 años). Total = 5 puntos. Este puntaje conlleva una mortalidad superior al 40% y define una NAC grave con necesidad inmediata de hospitalización en UCI para monitorización continua, aporte vasoactivo y soporte ventilatorio."
+      },
+      {
+        "stem": "¿Cuál es el examen complementario indispensable para confirmar el diagnóstico de neumonía adquirida en la comunidad en un adulto con clínica compatible?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tomografía computarizada de tórax de alta resolución"
+          },
+          {
+            "id": "B",
+            "text": "Radiografía de tórax anteroposterior y lateral"
+          },
+          {
+            "id": "C",
+            "text": "Tinción de Gram y cultivo de esputo"
+          },
+          {
+            "id": "D",
+            "text": "Proteína C reactiva y procalcitonina cuantitativa"
+          },
+          {
+            "id": "E",
+            "text": "Espirometría basal"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Por definición de consenso nacional e internacional, la confirmación diagnóstica de la neumonía adquirida en la comunidad exige la demostración objetiva de un infiltrado o condensación alveolar nuevo en la Radiografía de tórax (proyecciones frontal y lateral). Los exámenes de laboratorio (PCR, procalcitonina) apoyan la etiología pero no reemplazan la imagen, y el cultivo de esputo (C) no es imprescindible para iniciar el manejo ambulatorio."
+      },
+      {
+        "stem": "Hombre de 66 años, sin antecedentes mórbidos conocidos, consulta en un centro de salud familiar por cuadro de 48 horas de fiebre hasta 38.5 °C, tos productiva con esputo amarillento y dolor pleurítico en hemitórax derecho. Al examen: vigil, orientado en tiempo y espacio, FC 84 lpm, PA 126/78 mmHg, FR 20 rpm, SatO2 96% ambiental. Murmullo pulmonar conservado con crépitos inspiratorios en base derecha. BUN 12 mg/dL. Radiografía de tórax: infiltrado alveolar basal derecho. ¿Cuál es el puntaje CURB-65 y la conducta recomendada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "CURB-65 = 0 puntos; manejo sintomático con paracetamol sin antibióticos"
+          },
+          {
+            "id": "B",
+            "text": "CURB-65 = 1 punto; tratamiento ambulatorio con amoxicilina/ácido clavulánico oral y control clínico en 48 horas"
+          },
+          {
+            "id": "C",
+            "text": "CURB-65 = 2 puntos; hospitalización obligatoria en sala de cuidados medios"
+          },
+          {
+            "id": "D",
+            "text": "CURB-65 = 1 punto; derivación inmediata a urgencias para administración de ceftriaxona endovenosa"
+          },
+          {
+            "id": "E",
+            "text": "CURB-65 = 3 puntos; ingreso directo a Unidad de Cuidados Intensivos"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente tiene 66 años (≥ 65 años: +1 punto), pero no tiene confusión (0), su BUN es normal (12 mg/dL, corte > 19: 0), su FR es 20 rpm (< 30: 0) y su PA es normal (0). Puntaje CURB-65 = 1 punto. Cuando el único factor presente es la edad en un paciente estable, hemodinámicamente compensado, sin hipoxemia y con adecuado soporte sociofamiliar, la conducta validada por guías MINSAL y GES es el tratamiento ambulatorio con amoxicilina/ácido clavulánico (canasta GES mayores de 65 años) y citación a control clínico a las 48 horas."
+      },
+      {
+        "stem": "¿Cuál de los siguientes criterios clínicos constituye un criterio mayor de la Sociedad Americana del Tórax (ATS/IDSA) que define por sí solo el ingreso directo a una Unidad de Cuidados Intensivos (UCI) en un paciente con neumonía adquirida en la comunidad?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Frecuencia respiratoria superior a 30 respiraciones por minuto"
+          },
+          {
+            "id": "B",
+            "text": "Presencia de infiltrados alveolares multilobares en la radiografía de tórax"
+          },
+          {
+            "id": "C",
+            "text": "Shock séptico con necesidad de soporte con vasopresores a pesar de resucitación con fluidos"
+          },
+          {
+            "id": "D",
+            "text": "Relación PaO2/FiO2 menor o igual a 250"
+          },
+          {
+            "id": "E",
+            "text": "Confusión mental aguda con desorientación témporo-espacial"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Los criterios ATS/IDSA para NAC severa definen 2 criterios mayores: 1) Shock séptico que requiere vasopresores (noradrenalina); y 2) Insuficiencia respiratoria aguda que requiere ventilación mecánica invasiva. La presencia de cualquiera de estos dos criterios mayores obliga al ingreso directo a UCI. Las opciones A, B, D y E corresponden a criterios menores de ATS/IDSA, de los cuales se requerirían al menos 3 para justificar el ingreso a UCI."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-11",
+    "title": "Derrame Pleural: Diagnóstico Diferencial y Criterios de Light",
+    "perfilCode": "1.05.1.010",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "No GES",
+    "tier": 2,
+    "keyPoints": [
+      "Basta cumplir UN SOLO criterio de Light para certificar que el líquido pleural es un Exudado.",
+      "Los tres criterios de Light: Prot LP/S > 0.5, LDH LP/S > 0.6, y LDH LP > 2/3 del límite normal sérico.",
+      "La causa más frecuente de trasudado pleural es la insuficiencia cardíaca descompensada.",
+      "Las tres causas más frecuentes de exudado son el derrame paraneumónico, el cáncer y la tuberculosis.",
+      "Trampa: el tromboembolismo pulmonar (TEP) puede presentarse tanto como trasudado como exudado (frecuentemente serohemático)."
+    ],
+    "vignette": "Hombre de 64 años con antecedente de tabaquismo y baja de peso consulta por disnea progresiva y dolor sordo en hemitórax izquierdo. La radiografía confirma un derrame pleural izquierdo moderado. Se realiza toracocentesis: líquido amarillo cetrino, proteínas en líquido 4.2 g/dL (proteínas plasmáticas 6.8 g/dL), LDH pleural 380 U/L (LDH plasmática 240 U/L, límite superior normal sérico 250 U/L).",
+    "explicacion": "El análisis muestra: Relación Proteínas LP/Suero = 4.2 / 6.8 = 0.62 (> 0.5) y Relación LDH LP/Suero = 380 / 240 = 1.58 (> 0.6). Cumple criterios de Light para Exudado Pleural. Por tratarse de un adulto fumador con síndrome consuntivo, la conducta inmediata es el estudio citológico y biopsia pleural para descartar etiología neoplásica.",
+    "baseQuestions": [
+      {
+        "stem": "Se realiza una toracocentesis a un paciente de 70 años hospitalizado por disnea en estudio que presenta derrame pleural derecho. Los resultados del líquido pleural y sérico simultáneo arrojan: Proteínas en líquido pleural 2.1 g/dL, Proteínas en suero 6.4 g/dL; LDH en líquido pleural 90 U/L, LDH en suero 210 U/L (límite superior normal de LDH sérica: 200 U/L). ¿Cuál es la clasificación del líquido pleural y la etiología más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Exudado; empiema paraneumónico"
+          },
+          {
+            "id": "B",
+            "text": "Exudado; adenocarcinoma metastásico"
+          },
+          {
+            "id": "C",
+            "text": "Trasudado; insuficiencia cardíaca congestiva o cirrosis descompensada"
+          },
+          {
+            "id": "D",
+            "text": "Exudado; pleuritis lúpica"
+          },
+          {
+            "id": "E",
+            "text": "Quilotórax traumático"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Aplicando los Criterios de Light: Relación Proteínas LP/S = 2.1 / 6.4 = 0.32 (es ≤ 0.5); Relación LDH LP/S = 90 / 210 = 0.42 (es ≤ 0.6); y LDH pleural 90 U/L es inferior a los 2/3 del límite superior sérico (2/3 de 200 = 133 U/L). Al no cumplir ninguno de los tres criterios, se clasifica de forma concluyente como TRASUDADO. La causa más habitual de trasudado en el adulto mayor es la insuficiencia cardíaca congestiva o la hipertensión portal cirrótica."
+      },
+      {
+        "stem": "¿Cuál de los siguientes hallazgos al examen físico pulmonar es característico de un derrame pleural moderado a severo en la base pulmonar comprometida?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumento de las vibraciones vocales y timpanismo marcado"
+          },
+          {
+            "id": "B",
+            "text": "Disminución de las vibraciones vocales, matidez a la percusión y abolición del murmullo vesicular"
+          },
+          {
+            "id": "C",
+            "text": "Resonancia vocal incrementada (broncofonía) con estertores húmedos bilaterales"
+          },
+          {
+            "id": "D",
+            "text": "Frote pericárdico con murmullo pulmonar conservado"
+          },
+          {
+            "id": "E",
+            "text": "Sonoridad pulmonar aumentada con respiración ruda y sibilancias difusas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El síndrome de derrame pleural interpone una capa líquida entre el pulmón y la pared torácica, lo que bloquea la transmisión del sonido y altera la resonancia. Por ello genera la tríada semiológica patognomónica: (1) Abolición o disminución marcada de las vibraciones vocales táctiles, (2) Matidez hídrica franca a la percusión (sin resonancia aérea), y (3) Abolición o disminución extrema del murmullo pulmonar a la auscultación."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-16",
+    "title": "Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
+    "perfilCode": "1.05.1.008, 1.05.5.005",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES): Sospecha de Cáncer Pulmonar",
+    "tier": 2,
+    "keyPoints": [
+      "La primera medida obligatoria ante un nódulo pulmonar solitario es comparar con radiografías o TACs previas.",
+      "Un nódulo con estabilidad documentada de tamaño y forma por ≥ 2 años es benigno en el 99% de los casos.",
+      "La calcificación en \"popcorn\" (palomitas de maíz) es diagnóstica y patognomónica de hamartoma pulmonar.",
+      "Bordes espiculados, tamaño > 8 mm y localización en lóbulo superior indican alta sospecha de cáncer.",
+      "En nódulos > 8 mm con riesgo intermedio el examen no invasivo de elección es el PET-CT con 18-FDG."
+    ],
+    "vignette": "Hombre de 61 años, fumador de 30 paquetes-año, asintomático, se realiza radiografía de tórax como evaluación preoperatoria de hernia inguinal, pesquisándose un nódulo pulmonar de 18 mm en el lóbulo superior derecho. No dispone de radiografías previas. La TAC de tórax confirma nódulo sólido de 19 mm con bordes espiculados y sin calcificaciones.",
+    "explicacion": "Nódulo Pulmonar Solitario > 8 mm con alta probabilidad pretest de malignidad (edad > 50 años, antecedente de tabaquismo pesado, ubicación en lóbulo superior y bordes espiculados característicos). Al no contar con estudios previos, la conducta correcta es la etapificación diagnóstica con PET-CT o resección quirúrgica diagnóstica-terapéutica mediante biopsia por videotoracoscopía (VATS).",
+    "baseQuestions": [
+      {
+        "stem": "Una mujer de 58 años, fumadora de 20 paquetes-año, consulta por un cuadro de bronquitis aguda. La radiografía de tórax revela una opacidad redondeada homogénea de 12 mm en el lóbulo superior izquierdo sin otras anomalías. La paciente refiere que hace 3 años se tomó una radiografía de tórax por un chequeo laboral preventivo en su empresa. ¿Cuál es la conducta médica inmediata más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Realizar punción percutánea inmediata bajo visión ecográfica"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar y revisar la radiografía de tórax previa para comparar el tamaño de la lesión"
+          },
+          {
+            "id": "C",
+            "text": "Indicar tratamiento con levofloxacino por 14 días y radiografía al término"
+          },
+          {
+            "id": "D",
+            "text": "Programar lobectomía superior izquierda por sospecha de adenocarcinoma"
+          },
+          {
+            "id": "E",
+            "text": "Indicar broncoscopía rígida con biopsia transbronquial"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En todo paciente con un nódulo pulmonar solitario recién detectado, el primer paso clínico y con mayor costo-efectividad antes de indicar procedimientos invasivos es buscar y revisar las radiografías o tomografías previas. Si la lesión ya estaba presente y con idéntico tamaño y características hace 2 o 3 años, se confirma la estabilidad y benignidad de la lesión, evitando biopsias, cirugías innecesarias o radiación adicional."
+      },
+      {
+        "stem": "¿Cuál de los siguientes patrones de calcificación en la tomografía computarizada de un nódulo pulmonar solitario es patognomónico de un hamartoma pulmonar benigno?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Calcificación excéntrica milimétrica en la periferia de la lesión"
+          },
+          {
+            "id": "B",
+            "text": "Calcificaciones punteadas amorfas difusas"
+          },
+          {
+            "id": "C",
+            "text": "Calcificación densa en palomitas de maíz (popcorn) combinada con focos de densidad grasa"
+          },
+          {
+            "id": "D",
+            "text": "Calcificación en anillo de sello pleuropulmonar"
+          },
+          {
+            "id": "E",
+            "text": "Calcificación distrófica con nivel hidroaéreo"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El hamartoma es la neoplasia benigna más común del pulmón. Su hallazgo clásico en la tomografía computarizada de alta resolución es la presencia de una lesión bien delimitada que contiene calcificaciones internas gruesas dispuestas en \"palomitas de maíz\" (popcorn) y áreas focales hipodensas de tejido adiposo (densidad entre -40 y -120 UH). Esta combinación confirma categóricamente el origen benigno sin requerir resección."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-21",
+    "title": "Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
+    "perfilCode": "1.05.1.023, 1.05.2.008, 1.05.2.009",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "No GES",
+    "tier": 3,
+    "keyPoints": [
+      "Definición gasométrica de IRA: PaO2 < 60 mmHg respirando aire ambiental a nivel del mar (SatO2 < 90%).",
+      "IRA Tipo 1 es hipoxémica (PaCO2 ≤ 45 mmHg) con Gradiente Alvéolo-Arterial elevado por daño parenquimatoso o vascular.",
+      "IRA Tipo 2 es hipercápnica (PaCO2 > 45 mmHg) secundaria a falla de bomba ventilatoria o fatiga muscular.",
+      "La hipoventilación alveolar pura se diagnostica por hipercapnia con Gradiente Alvéolo-Arterial NORMAL (< 15–20 mmHg).",
+      "El Shunt intrapulmonar (SDRA, edema alveolar masivo) es el único mecanismo que NO corrige con O2 al 100%.",
+      "La Mascarilla Venturi es de elección en pacientes retenedores de CO2 para evitar hipoventilación por exceso de FiO2.",
+      "La Ventilación Mecánica No Invasiva (VMNI BiPAP) es la terapia de primera línea de elección en exacerbación de EPOC con pH 7.25–7.35.",
+      "Criterios de intubación endotraqueal inmediata: paro respiratorio inminente, Glasgow ≤ 8, shock o fracaso de VMNI."
+    ],
+    "vignette": "Joven de 22 años es encontrado inconsciente con jeringas vacías a su lado. Ingresa a reanimación en coma, con bradipnea severa de 6 rpm, miosis pupilar puntiforme y cianosis. Gases arteriales respirando aire ambiental: pH 7.22, PaO2 52 mmHg, PaCO2 68 mmHg, HCO3 26 mEq/L. El cálculo del gradiente alvéolo-arterial de oxígeno resulta en 11 mmHg (normal).",
+    "explicacion": "Insuficiencia respiratoria aguda hipercápnica (Tipo 2) secundaria a hipoventilación alveolar pura por sobredosis de opioides. La presencia de hipercapnia severa con acidosis respiratoria asociada a un Gradiente Alvéolo-Arterial rigurosamente NORMAL confirma que el pulmón está sano y la falla reside en la bomba ventilatoria/centro respiratorio. La conducta inmediata es ventilar con bolsa-mascarilla y administrar Naloxona endovenosa.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 25 años ingresa al servicio de urgencias estuporoso con sospecha de intoxicación exógena por sedantes. Al examen físico tiene FR 8 rpm y ruidos pulmonares normales bilateralmente. Sus gases en sangre arterial respirando aire ambiental muestran: pH 7.24, PaO2 55 mmHg, PaCO2 65 mmHg y bicarbonato 26 mEq/L. El gradiente alvéolo-arterial de oxígeno calculado es de 12 mmHg (dentro del rango normal para su edad). ¿Cuál es el mecanismo fisiopatológico primario responsable de la hipoxemia en este paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Shunt intrapulmonar de derecha a izquierda por microatelectasias"
+          },
+          {
+            "id": "B",
+            "text": "Desbalance entre la ventilación y la perfusión pulmonar (efecto V/Q)"
+          },
+          {
+            "id": "C",
+            "text": "Hipoventilación alveolar pura con integridad del parénquima pulmonar"
+          },
+          {
+            "id": "D",
+            "text": "Trastorno severo de la difusión alvéolo-capilar"
+          },
+          {
+            "id": "E",
+            "text": "Disminución crítica de la fracción inspirada de oxígeno"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "El paciente presenta una acidosis respiratoria aguda descompensada (pH 7.24, PaCO2 65 mmHg) con hipoxemia moderada (PaO2 55 mmHg). El dato decisivo es el Gradiente Alvéolo-Arterial de Oxígeno [P(A-a)O2], el cual es rigurosamente normal (12 mmHg). Cuando la hipoxemia se acompaña de hipercapnia con gradiente A-a normal, el único mecanismo fisiopatológico posible es la hipoventilación alveolar pura secundaria a la depresión central del estímulo ventilatorio por fármacos."
+      },
+      {
+        "stem": "¿Cuál de los siguientes mecanismos fisiopatológicos productores de hipoxemia arterial se caracteriza por presentar una falta de respuesta (o refractariedad) a la administración de oxígeno suplementario al 100% mediante mascarilla de no reinhalación?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Desbalance ventilación-perfusión con zonas de bajo V/Q"
+          },
+          {
+            "id": "B",
+            "text": "Efecto Shunt o cortocircuito de derecha a izquierda verdadero"
+          },
+          {
+            "id": "C",
+            "text": "Hipoventilación alveolar por intoxicación por benzodiacepinas"
+          },
+          {
+            "id": "D",
+            "text": "Disminución de la presión barométrica en grandes alturas"
+          },
+          {
+            "id": "E",
+            "text": "Limitación de la difusión en ejercicio"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El efecto Shunt intrapulmonar verdadero se produce cuando la sangre desoxigenada perfunde alvéolos completamente colapsados o inundados de líquido o pus (como ocurre en el SDRA grave, edema pulmonar masivo o atelectasia lobar total). Como el gas inspirado no entra en contacto con la sangre capilar de esas unidades no ventiladas, el aporte de O2 al 100% no logra oxigenar dicha fracción sanguínea, resultando en hipoxemia refractaria al oxígeno."
+      },
+      {
+        "stem": "Una mujer de 64 años ingresa al servicio de urgencias por disnea progresiva, tos y fiebre. Al examen: FR 28 rpm, SatO2 86% respirando aire ambiental. Sus gases arteriales a nivel del mar muestran: pH 7.45, PaO2 52 mmHg, PaCO2 32 mmHg y HCO3 22 mEq/L. Con una presión barométrica de 760 mmHg y vapor de agua de 47 mmHg, el cálculo del Gradiente Alvéolo-Arterial de Oxígeno resulta en 58 mmHg (marcadamente elevado). ¿Qué conclusión diagnóstica fisiopatológica se deriva de este resultado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hipoxemia por hipoventilación alveolar pura secundaria a debilidad de musculatura diafragmática"
+          },
+          {
+            "id": "B",
+            "text": "Hipoxemia dependiente de alteración del parénquima pulmonar o del lecho vascular (desbalance V/Q o shunt)"
+          },
+          {
+            "id": "C",
+            "text": "Insuficiencia respiratoria crónica compensada con integridad del alvéolo"
+          },
+          {
+            "id": "D",
+            "text": "Efecto secundario normal esperado para la edad de la paciente"
+          },
+          {
+            "id": "E",
+            "text": "Hipoxemia explicable exclusivamente por una disminución de la fracción inspirada de oxígeno ambiental"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La paciente presenta una IRA Tipo 1 (PaO2 52 mmHg con PaCO2 32 mmHg). La ecuación del gas alveolar arroja PAO2 = 150 - (32 / 0.8) = 110 mmHg. Al restar la PaO2 arterial (110 - 52), el gradiente alvéolo-arterial es de 58 mmHg (valor normal para su edad < 20 mmHg). Un gradiente A-a marcadamente elevado descarta categóricamente una causa extrapulmonar (como hipoventilación o altitud) y confirma la existencia de un daño estructural intrínseco del parénquima pulmonar (como neumonía comunitaria) o de la microvasculatura pulmonar (TEP)."
+      },
+      {
+        "stem": "Un paciente de 68 años con antecedente de EPOC grave ingresa a urgencias por disnea de reposo, tos con expectoración purulenta y compromiso cuantitativo de conciencia fluctuante con asterixis. Al examen físico: somnoliento, diaforético, FR 32 rpm con respiración con labios fruncidos y uso de esternocleidomastoideos. Gases arteriales con mascarilla Venturi al 28%: pH 7.27, PaO2 56 mmHg, PaCO2 66 mmHg, HCO3 30 mEq/L. ¿Cuál es el soporte ventilatorio de primera línea con mayor nivel de evidencia para evitar la intubación orotraqueal y disminuir la mortalidad?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumento inmediato de la FiO2 al 100% mediante mascarilla con reservorio"
+          },
+          {
+            "id": "B",
+            "text": "Ventilación Mecánica No Invasiva con presión positiva binivelada (VMNI BiPAP)"
+          },
+          {
+            "id": "C",
+            "text": "Intubación orotraqueal y conexión directa a ventilador mecánico invasivo"
+          },
+          {
+            "id": "D",
+            "text": "Infusión endovenosa continua de aminofilina a dosis de carga"
+          },
+          {
+            "id": "E",
+            "text": "Administración de bicarbonato de sodio 2/3 molar endovenoso para corregir el pH"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente presenta una exacerbación aguda de EPOC complicada con acidosis respiratoria hipercápnica descompensada (pH 7.27 y PaCO2 66 mmHg). En este escenario, la Ventilación Mecánica No Invasiva (VMNI en modalidad BiPAP) es la terapia de soporte ventilatorio de primera línea con recomendación grado 1A: disminuye el trabajo respiratorio, favorece el lavado de CO2, previene la intubación endotraqueal en más del 60% de los pacientes y reduce drásticamente la mortalidad hospitalaria. La intubación orotraqueal se reserva si la VMNI fracasa, si el pH es < 7.20-7.25 refractario o si hay coma profundo."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-02",
+    "title": "Crisis Asmática en el Adulto",
+    "perfilCode": "1.05.2.004",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Inicial",
+    "ges": "Garantía Explícita en Salud (GES): Manejo de Urgencia del Asma Bronquial Moderada o Grave",
+    "tier": 3,
+    "keyPoints": [
+      "Un PaCO2 \"normal\" (40 mmHg) en un paciente con crisis asmática y taquipnea es signo de alarma extrema de fatiga muscular inminente.",
+      "El tórax silente (ausencia de sibilancias con esfuerzo respiratorio) refleja una caída crítica del flujo aéreo y riesgo inminente de paro respiratorio.",
+      "El corticoide sistémico oral (Prednisona 40-50 mg) tiene la misma biodisponibilidad y rapidez que la vía EV; debe administrarse en la primera hora.",
+      "En crisis severa refractaria a SABA + Ipratropio en la primera hora, el fármaco de rescate de elección es Sulfato de Magnesio 2 g EV en 20 minutos.",
+      "No se realiza pauta descendente de corticoides sistémicos si el ciclo dura entre 5 y 7 días.",
+      "El inhalador presurizado de dosis medida (MDI) con aerocámara es tan eficaz como la nebulización continua y produce menor taquicardia.",
+      "Trampa de examen: los antibióticos y las metilxantinas (aminofilina) NO tienen indicación de rutina en la crisis asmática.",
+      "El criterio funcional objetivo para el alta del servicio de urgencia es un PEF > 70% del valor teórico o mejor valor personal tras 1 hora de observación."
+    ],
+    "vignette": "Mujer de 22 años con antecedentes de asma desde la infancia en tratamiento irregular consulta en el SAPU con disnea intensa, tos y sibilancias audibles a distancia de 4 horas de evolución. Al examen físico: FR 32 rpm, FC 128 lpm, SatO2 89% al aire ambiente, habla solo con monosílabos entrecortados, presenta tiraje intercostal y supraclavicular bilateral. La medición de PEF inicial es de 160 L/min (38% del predicho). Auscultación: sibilancias espiratorias e inspiratorias bilaterales difusas.",
+    "explicacion": "Se trata de una crisis asmática grave definida objetivamente por la incapacidad de pronunciar frases completas, taquicardia > 120 lpm, polipnea > 30 rpm, uso de musculatura accesoria y PEF < 50%. La conducta oficial inmediata y prioritaria consiste en: 1) Oxigenoterapia por cánula nasal para asegurar SatO2 93-95%; 2) Broncodilatadores de acción corta en dosis plena: Salbutamol 4-8 inhalaciones asociado a Bromuro de Ipratropio 4 puff con aerocámara cada 20 minutos durante la primera hora; 3) Corticoides sistémicos precoces desde el minuto cero (Prednisona 40-50 mg VO o Hidrocortisona 200 mg EV); y 4) Reevaluación clínica y de PEF a los 60 minutos. Si la respuesta es insuficiente, se administra Sulfato de Magnesio 2 g EV.",
+    "baseQuestions": [
+      {
+        "stem": "Un joven de 19 años es llevado al servicio de urgencias por una crisis asmática severa. Al ingreso se encuentra somnoliento, sudoroso, con respiración paradójica y a la auscultación pulmonar llama la atención un murmullo pulmonar globalmente disminuido sin sibilancias audibles (\"tórax silente\"). Los gases arteriales muestran: pH 7.28, PaO2 55 mmHg, PaCO2 48 mmHg y HCO3 22 mEq/L. ¿Cuál es la interpretación fisiopatológica y la conducta más prioritaria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mejoría clínica espontánea por ausencia de sibilancias; mantener observación con salbutamol en dosis bajas"
+          },
+          {
+            "id": "B",
+            "text": "Agotamiento diafragmático con riesgo vital inminente de paro respiratorio; preparar intubación endotraqueal"
+          },
+          {
+            "id": "C",
+            "text": "Ataque de pánico con hiperventilación psicógena; administrar alprazolam oral"
+          },
+          {
+            "id": "D",
+            "text": "Acidosis metabólica láctica primaria; administrar 100 mL de bicarbonato de sodio EV"
+          },
+          {
+            "id": "E",
+            "text": "Crisis leve-moderada compensada; nebulizar con suero fisiológico exclusivo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente presenta signos inequívocos de crisis asmática casi fatal con agotamiento muscular inminente: tórax silente (flujo aéreo insuficiente para generar sibilancias), somnolencia y acidosis respiratoria con hipercapnia (PaCO2 48 mmHg). Normalmente el asma hiperventila y genera hipocapnia (PaCO2 < 35); cuando la PaCO2 se normaliza o sube, el paciente está claudicando y requiere manejo en reanimación con preparación de intubación orotraqueal e ingreso a UCI."
+      },
+      {
+        "stem": "Una paciente de 30 años consulta por disnea sibilante de 6 horas de evolución. Presenta FR 24 rpm, FC 98 lpm, SatO2 94% ambiental y PEF del 62% del valor predicho. Tras recibir salbutamol 4 puff cada 20 minutos por 3 veces y 40 mg de prednisona oral, se encuentra asintomática, con SatO2 97% y PEF del 78%. ¿Cuál es la indicación farmacológica de egreso más apropiada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Salbutamol a demanda exclusivo sin corticoides ambulatorios"
+          },
+          {
+            "id": "B",
+            "text": "Prednisona oral 40 mg al día por 5 días más salbutamol de rescate y control médico"
+          },
+          {
+            "id": "C",
+            "text": "Ciclo de prednisona oral por 30 días con reducción progresiva semanal"
+          },
+          {
+            "id": "D",
+            "text": "Amoxicilina más ácido clavulánico 875/125 mg cada 12 horas por 7 días"
+          },
+          {
+            "id": "E",
+            "text": "Teofilina de liberación prolongada 200 mg cada 12 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Tras una crisis asmática moderada resuelta en urgencias, todo paciente debe ser dado de alta con un ciclo corto de corticoide sistémico oral (Prednisona 40–50 mg/día por 5 a 7 días) para prevenir recaídas precoces y consolidar la desinflamación bronquial. Los ciclos cortos (< 14 días) no requieren reducción gradual. Los antibióticos (D) no están indicados en crisis asmáticas no infecciosas y la teofilina (E) está en desuso."
+      },
+      {
+        "stem": "Hombre de 24 años consulta por crisis asmática grave. Recibe durante la primera hora 3 ciclos de salbutamol 8 puff más bromuro de ipratropio 4 puff con aerocámara e hidrocortisona 200 mg EV. En la reevaluación clínica a los 60 minutos persiste con disnea limitante, tiraje intercostal, FR 28 rpm, FC 118 lpm y su PEF se mantiene en 44% del teórico. ¿Cuál es el siguiente paso farmacológico indicado en el servicio de urgencia?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar aminofilina en infusión continua de carga y mantención"
+          },
+          {
+            "id": "B",
+            "text": "Infusión intravenosa de sulfato de magnesio 2 g en 20 minutos"
+          },
+          {
+            "id": "C",
+            "text": "Nebulización con adrenalina racémica al 2.25%"
+          },
+          {
+            "id": "D",
+            "text": "Administrar bicarbonato de sodio para alcalinizar la vía aérea"
+          },
+          {
+            "id": "E",
+            "text": "Indicar intubación orotraqueal inmediata electiva sin más fármacos"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En pacientes adultos con crisis asmática grave que no responden adecuadamente al tratamiento broncodilatador inicial de primera línea (SABA + SAMA) asociado a corticoides sistémicos y cuyo PEF persiste < 50% a la hora de manejo, la guía GINA y los protocolos de urgencia recomiendan fuertemente la administración de Sulfato de Magnesio 2 g EV en infusión de 20 minutos. El magnesio produce relajación rápida del músculo liso bronquial al bloquear canales de calcio voltaje-dependientes. La aminofilina (A) no ha demostrado beneficio adicional y posee alta toxicidad arrítmica."
+      },
+      {
+        "stem": "¿Cuál de las siguientes aseveraciones respecto a la aerosolterapia en la crisis asmática aguda en el servicio de urgencias es correcta según la evidencia médica actual?",
+        "options": [
+          {
+            "id": "A",
+            "text": "La nebulización continua con oxígeno es categóricamente superior en eficacia clínica que el inhalador de dosis medida con aerocámara"
+          },
+          {
+            "id": "B",
+            "text": "El inhalador presurizado de dosis medida (MDI) con aerocámara valvulada ofrece igual broncodilatación que la nebulización, con menor riesgo de efectos adversos sistémicos"
+          },
+          {
+            "id": "C",
+            "text": "Los corticoides inhalados a dosis altas reemplazan por completo la necesidad de corticoides sistémicos en la primera hora de una crisis grave"
+          },
+          {
+            "id": "D",
+            "text": "La administración de salbutamol por vía intramuscular o subcutánea es la vía de elección preferente sobre la vía inhalatoria"
+          },
+          {
+            "id": "E",
+            "text": "La aerocámara debe reservarse exclusivamente para niños menores de 5 años y no tiene utilidad en adultos"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Múltiples revisiones sistemáticas y metaanálisis (incluyendo Cochrane) han demostrado de forma concluyente que en la crisis asmática aguda leve, moderada e incluso grave, la administración de broncodilatadores beta-2 agonistas mediante MDI con aerocámara con válvula es al menos tan eficaz como la nebulización con mascarilla en términos de mejoría del VEF1/PEF y tasas de hospitalización. Además, el MDI con aerocámara genera menor taquicardia refleja, menor temblor y no produce aerosoles infecciosos dispersos al ambiente. Los corticoides sistémicos (VO o EV) siguen siendo obligatorios en la crisis grave."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-07",
+    "title": "Tratamiento Antimicrobiano de la NAC y Criterios GES",
+    "perfilCode": "1.05.1.028",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Garantía Explícita en Salud (GES): Neumonía en el Adulto de 65 años y más (Tratamiento en menos de 24 horas)",
+    "tier": 2,
+    "keyPoints": [
+      "NAC ambulatoria en joven sano sin comorbilidades: Amoxicilina 1 g c/8h VO por 5 a 7 días.",
+      "NAC ambulatoria en mayor de 65 años o con comorbilidades (GES): Amoxicilina/Ácido Clavulánico 875/125 mg c/12h.",
+      "NAC hospitalizada en sala general: Ceftriaxona 1-2 g al día EV (asociar Azitromicina si sospecha de atípico).",
+      "NAC en UCI: Betalactámico EV (Ceftriaxona 2 g) + Quinolona respiratoria (Levofloxacino) o Macrólido EV.",
+      "El cambio a vía oral se realiza con 48 horas afebril, estabilidad hemodinámica y buena tolerancia oral."
+    ],
+    "vignette": "Hombre de 42 años, previamente sano, no fumador, consulta por cuadro de 3 días de fiebre hasta 38.6 °C, tos con expectoración mucosa y dolor en puntada de costado derecho. Examen: SatO2 96%, PA 120/75, FR 18 rpm, crépitos audibles en base derecha. Rx tórax: foco de condensación lóbulo inferior derecho. CURB-65 = 0.",
+    "explicacion": "NAC de bajo riesgo en paciente joven sin comorbilidades: manejo ambulatorio. La terapia antimicrobiana de primera elección según la norma chilena es Amoxicilina oral en dosis de 1 g cada 8 horas por 5 a 7 días. No se justifica el uso de cefalosporinas de tercera generación ni quinolonas respiratorias de entrada en pacientes sanos.",
+    "baseQuestions": [
+      {
+        "stem": "Una mujer de 69 años con antecedente de diabetes mellitus tipo 2 e hipertensión arterial consulta en el CESFAM por fiebre de 38.5 °C, tos productiva y decaimiento de 48 horas. Al examen: orientada, PA 135/85 mmHg, FC 88 lpm, FR 20 rpm, SatO2 95% ambiental. La radiografía de tórax confirma neumonía basal derecha. ¿Cuál es el esquema antibiótico ambulatorio de primera línea según las guías clínicas ministeriales (GES)?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ceftriaxona 1 g intramuscular al día por 14 días"
+          },
+          {
+            "id": "B",
+            "text": "Amoxicilina con ácido clavulánico 875/125 mg cada 12 horas por vía oral durante 7 días"
+          },
+          {
+            "id": "C",
+            "text": "Amoxicilina 500 mg cada 8 horas por vía oral por 3 días"
+          },
+          {
+            "id": "D",
+            "text": "Ciprofloxacino 500 mg cada 12 horas por vía oral por 10 días"
+          },
+          {
+            "id": "E",
+            "text": "Cotrimoxazol fuerte 1 comprimido cada 12 horas por 14 días"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La paciente tiene 69 años y comorbilidades médicas crónicas (diabetes e hipertensión), por lo que según las guías chilenas MINSAL/GES el tratamiento ambulatorio de elección es Amoxicilina/Ácido Clavulánico 875/125 mg cada 12 horas vía oral por 7 días. La amoxicilina simple (C) tiene menor eficacia ante cepas resistentes de neumococo o H. influenzae productor de betalactamasa frecuentes en ancianos. El ciprofloxacino (D) no tiene buena cobertura antineumocócica."
+      },
+      {
+        "stem": "Un paciente de 58 años ingresa a sala de medicina interna por una neumonía adquirida en la comunidad CURB-65 = 2. Recibe ceftriaxona 1 g EV al día. Al cuarto día de hospitalización se encuentra afebril desde hace 48 horas, con FR 16 rpm, FC 74 lpm, PA 125/80 mmHg y SatO2 96% ambiental, tolerando alimentación por boca. ¿Cuál es la conducta terapéutica correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mantener la ceftriaxona endovenosa hasta completar estrictamente 14 días"
+          },
+          {
+            "id": "B",
+            "text": "Realizar switch a antibiótico oral ambulatorio (ej. amoxicilina/clavulánico o cefuroximo) para completar 7 días totales"
+          },
+          {
+            "id": "C",
+            "text": "Suspender antibióticos y solicitar nueva radiografía de tórax para comprobar la resolución del infiltrado antes del alta"
+          },
+          {
+            "id": "D",
+            "text": "Cambiar ceftriaxona a vancomicina oral profiláctica"
+          },
+          {
+            "id": "E",
+            "text": "Tomar broncoscopía con lavado broncoalveolar para cultivo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El paciente cumple todos los criterios de estabilidad clínica: afebril > 48 horas, parámetros vitales normales y buena tolerancia enteral. La conducta estándar recomendada es la transición rápida a terapia oral (switch precoz) para completar un curso total de 7 días de antibióticos y dar el alta hospitalaria. No se debe mantener la vía EV innecesariamente (A) ni exigir una radiografía de control para el alta (C), ya que los infiltrados radiológicos tardan de 4 a 8 semanas en limpiar."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-12",
+    "title": "Derrame Paraneumónico y Empiema Pleural",
+    "perfilCode": "1.05.1.011, 1.05.1.012",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "No GES",
+    "tier": 3,
+    "keyPoints": [
+      "El empiema se define por pus macroscópico franco O bacterias visibles en Gram/cultivo del líquido pleural.",
+      "Derrame paraneumónico complicado: pH < 7.20, glucosa < 40-60 mg/dL y LDH > 1.000 U/L.",
+      "Todo empiema o derrame paraneumónico complicado exige la instalación inmediata de un Tubo de Drenaje Torácico (pleurostomía).",
+      "El pH del líquido pleural (< 7.20) es el parámetro bioquímico individual más sensible y específico para indicar drenaje con tubo.",
+      "El tratamiento antibiótico empírico debe cubrir anaerobios orales (Ampicilina/Sulbactam o Ceftriaxona + Metronidazol) por 2 a 4 semanas.",
+      "Si existen tabicaciones múltiples en la ecografía que no drenan por el tubo, la conducta es fibrinolíticos intrapleurales (t-PA + DNAsa) o VATS.",
+      "Trampa de examen: nunca postergar el drenaje pleural en espera de la respuesta a antibióticos si el pH es < 7.20.",
+      "La decorticación quirúrgica por toracotomía se reserva para la fase de organización con corteza pleural rígida y pulmón atrapado."
+    ],
+    "vignette": "Hombre de 58 años con antecedentes de tabaquismo y mala dentadura ingresa hospitalizado por neumonía basal derecha. Inicia tratamiento con Ceftriaxona 2 g EV/día. Al cuarto día de tratamiento persiste febril con 38.6 °C, aumento del dolor pleurítico y disnea. La radiografía de tórax de control muestra un derrame pleural derecho que ocupa el tercio inferior del hemitórax. Se realiza toracocentesis diagnóstica: líquido pleural turbio y espeso, pH 7.12, glucosa 28 mg/dL, LDH 2.450 U/L y tinción de Gram con diplococos grampositivos.",
+    "explicacion": "El paciente presenta un derrame paraneumónico complicado que ha evolucionado hacia un empiema bacteriano (pH < 7.20, glucosa < 40 mg/dL, LDH > 1.000 U/L y tinción de Gram positiva). En este escenario, la mantención de antibióticos aislados es un error grave que conduce a fibrosis y sepsis. La conducta médica inaplazable y prioritaria es la instalación inmediata de una pleurostomía cerrada con tubo de drenaje torácico conectado a trampa de agua, ajustando la antibioticoterapia endovenosa con cobertura anaerobia (ej. asociando Metronidazol o cambiando a Ampicilina/Sulbactam).",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 62 años hospitalizado hace 4 días por neumonía comunitaria en tratamiento con ceftriaxona endovenosa persiste con picos febriles de 38.8 °C y marcado compromiso del estado general. La ecografía torácica evidencia un derrame pleural de 300 mL en la base derecha. Se realiza toracocentesis diagnóstica obteniendo líquido turbio cuyo análisis muestra: pH 7.14, glucosa 32 mg/dL, LDH 2.200 U/L, proteínas 4.5 g/dL. La tinción de Gram inmediata no observa bacterias. ¿Cuál es la conducta médica de elección más prioritaria?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mantener ceftriaxona en la misma dosis y repetir la punción diagnóstica en 48 horas"
+          },
+          {
+            "id": "B",
+            "text": "Instalar de inmediato un tubo de drenaje torácico conectado a trampa de agua"
+          },
+          {
+            "id": "C",
+            "text": "Suspender ceftriaxona e iniciar monoterapia con ciprofloxacino oral"
+          },
+          {
+            "id": "D",
+            "text": "Indicar toracotomía abierta de urgencia con decorticación pulmonar"
+          },
+          {
+            "id": "E",
+            "text": "Realizar kinesioterapia respiratoria intensiva y administrar diuréticos de asa"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El líquido pleural cumple criterios bioquímicos categóricos de derrame paraneumónico complicado: pH < 7.20 (7.14), glucosa < 40 mg/dL (32 mg/dL) y LDH > 1.000 U/L (2.200 U/L). A pesar de que la tinción de Gram sea inicialmente negativa, la acidosis láctica y el consumo extremo de glucosa certifican actividad bacteriana e inflamatoria intensa en el espacio pleural. La indicación indiscutible es el drenaje pleural inmediato mediante la instalación de un tubo de tórax (pleurostomía cerrada) para evitar la tabicación y el empiema multiloculado."
+      },
+      {
+        "stem": "¿Cuál de los siguientes parámetros del análisis físico-químico del líquido pleural es el indicador individual más confiable y determinante para decidir la instalación de un tubo de drenaje pleural en un derrame paraneumónico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Recuento absoluto de glóbulos blancos mayor a 10.000/uL"
+          },
+          {
+            "id": "B",
+            "text": "pH del líquido pleural inferior a 7.20"
+          },
+          {
+            "id": "C",
+            "text": "Relación de proteínas líquido pleural / suero mayor a 0.5"
+          },
+          {
+            "id": "D",
+            "text": "Nivel de amilasa pleural elevado al doble del plasma"
+          },
+          {
+            "id": "E",
+            "text": "Concentración de adenosina deaminasa (ADA) superior a 30 U/L"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El pH del líquido pleural medido en condiciones anaeróbicas es el parámetro bioquímico más sensible y con mayor respaldo en la literatura médica internacional (guías BTS y ACCP) para definir un derrame paraneumónico complicado y la necesidad de drenaje con tubo de tórax. Un pH < 7.20 indica un ambiente intensamente ácido secundario al metabolismo anaerobio bacteriano y leucocitario, lo que predice con más de 95% de precisión que el derrame no se resolverá con antibióticos solos."
+      },
+      {
+        "stem": "Hombre de 48 años con antecedentes de enolismo crónico es diagnosticado de empiema pleural derecho con abundante pus espeso y fétido al examen de toracocentesis. Se instala un tubo de drenaje pleural 28 Fr con salida inicial de 400 mL de material purulento. ¿Cuál es la terapia antimicrobiana parenteral de primera línea más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ciprofloxacino en monoterapia"
+          },
+          {
+            "id": "B",
+            "text": "Ampicilina / Sulbactam endovenoso (o Ceftriaxona asociada a Metronidazol)"
+          },
+          {
+            "id": "C",
+            "text": "Gentamicina endovenosa en dosis única diaria"
+          },
+          {
+            "id": "D",
+            "text": "Amoxicilina oral 500 mg cada 8 horas"
+          },
+          {
+            "id": "E",
+            "text": "Azitromicina endovenosa exclusiva"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "En el empiema pleural, especialmente en pacientes con factores de riesgo como alcoholismo crónico, trastornos deglutorios o patología periodontal, existe una alta participación de bacterias anaerobias orales (Fusobacterium, Peptostreptococcus, Bacteroides) asociadas a estreptococos y bacilos gramnegativos. La terapia antibiótica empírica de elección según las guías clínicas nacionales e internacionales es Ampicilina/Sulbactam 1.5 a 3 g cada 6 horas EV, o la combinación de Ceftriaxona 2 g EV al día más Metronidazol 500 mg cada 8 horas EV para asegurar cobertura anaerobia sólida."
+      },
+      {
+        "stem": "Paciente de 55 años con empiema pleural derecho complicado tiene instalado un tubo de drenaje torácico hace 48 horas. Sin embargo, el débito ha disminuido a menos de 50 mL/día a pesar de persistir con fiebre de 38.5 °C y leucocitosis de 18.000/uL. La ecografía torácica de control demuestra múltiples tabiques gruesos de fibrina con colecciones loculadas que no comunican con el tubo. ¿Cuál es el paso terapéutico más indicado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Retirar el tubo de tórax y mantener únicamente antibioticoterapia oral en domicilio"
+          },
+          {
+            "id": "B",
+            "text": "Instilación intrapleural de fibrinolíticos combinados (t-PA más DNAsa) o resolución por videotoracoscopía (VATS)"
+          },
+          {
+            "id": "C",
+            "text": "Punción pleural diaria repetida con aguja fina en la consulta"
+          },
+          {
+            "id": "D",
+            "text": "Aumentar la hidratación parenteral a 4.000 mL de suero fisiológico al día"
+          },
+          {
+            "id": "E",
+            "text": "Indicar reposo absoluto y esperar 14 días para la reabsorción espontánea"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Cuando un empiema o derrame paraneumónico complicado se encuentra en fase fibrinopurulenta avanzada con múltiples tabicaciones y loculaciones que impiden el drenaje efectivo por el tubo de pleurostomía, la conducta recomendada es la terapia intrapleural combinada con fibrinolíticos (Alteplasa/t-PA 10 mg + Dornasa alfa/DNAsa 5 mg dos veces al día por 3 días según el protocolo MIST-2) o bien la intervención quirúrgica precoz mediante Cirugía Toracoscópica Videoasistida (VATS) para debridamiento y lisis de adherencias bajo visión directa."
+      }
+    ]
+  },
+  {
+    "specialtyKey": "neumologia",
+    "specialtyName": "Respiratorio",
+    "classId": "resp-17",
+    "title": "Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
+    "perfilCode": "1.05.1.007, 1.05.1.025, 1.05.1.038",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Garantía Explícita en Salud (GES): Cáncer de Pulmón en Personas de 15 años y más",
+    "tier": 2,
+    "keyPoints": [
+      "El adenocarcinoma es el más frecuente en la población general y el más habitual en mujeres no fumadoras (periférico).",
+      "El carcinoma epidermoide es central, tiende a cavitar y produce hipercalcemia tumoral mediada por PTHrP.",
+      "El carcinoma microcítico es central, muy agresivo, no quirúrgico y causa SIADH, Cushing ectópico y Lambert-Eaton.",
+      "Tumor de Pancoast: dolor en territorio C8-T1 más Síndrome de Horner ipsilateral (ptosis, miosis, anhidrosis).",
+      "El tratamiento curativo del cáncer no microcítico en estadios resecables (I y II) es la lobectomía quirúrgica reglada."
+    ],
+    "vignette": "Hombre de 67 años, fumador activo de 45 paquetes-año, consulta por astenia, náuseas, constipación y confusión fluctuante. No tiene fiebre. La radiografía de tórax revela una masa central perihiliar derecha de 5 cm con ensanchamiento mediastínico. Laboratorio: Calcio sérico 13.8 mg/dL (hipercalcemia grave), Fósforo 2.1 mg/dL, PTH suprimida y PTHrP marcadamente elevada.",
+    "explicacion": "Masa pulmonar central en paciente fumador que debuta con hipercalcemia maligna severa mediada por secreción ectópica de PTHrP (con PTH fisiológica suprimida). Este síndrome paraneoplásico humoral es patognomónico del Carcinoma Epidermoide (o escamoso) de pulmón. El manejo inmediato incluye hidratación vigorosa con solución salina al 0.9%, bifosfonatos endovenosos (ácido zoledrónico) y fibrobroncoscopía con biopsia para confirmación histológica.",
+    "baseQuestions": [
+      {
+        "stem": "Un paciente de 64 años, con antecedente de tabaquismo severo (40 paquetes-año), consulta por tos persistente de 2 meses y debilidad muscular progresiva. Se encuentra hemodinámicamente estable pero apático. En sus exámenes de sangre destaca: Sodio 118 mEq/L, Potasio 4.0 mEq/L, Osmolaridad plasmática 245 mOsm/kg, Osmolaridad urinaria 480 mOsm/kg y Sodio urinario 45 mEq/L. La radiografía de tórax muestra una masa perihiliar derecha con adenopatías hiliares prominentes. ¿Cuál es el tipo histológico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Carcinoma de células pequeñas (microcítico)"
+          },
+          {
+            "id": "B",
+            "text": "Adenocarcinoma pulmonar acinar periférico"
+          },
+          {
+            "id": "C",
+            "text": "Carcinoma bronquioloalveolar mucinoso"
+          },
+          {
+            "id": "D",
+            "text": "Hamartoma pulmonar central"
+          },
+          {
+            "id": "E",
+            "text": "Tumor carcinoide típico bronquial"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "El paciente presenta una masa central perihiliar asociada a hiponatremia hipotónica euvolémica con orina inapropiadamente concentrada (Osm urinaria > 100 y Na urinario > 30), lo que certifica un Síndrome de Secreción Inadecuada de Hormona Antidiurética (SIADH). El SIADH es el síndrome paraneoplásico endocrino más característico del Carcinoma Pulmonar Microcítico (de células pequeñas u oat cell), el cual produce ADH ectópica en un 10–15% de los pacientes."
+      },
+      {
+        "stem": "Un paciente de 59 años, tabáquico, consulta por dolor intenso de hombro derecho y cara interna del antebrazo derecho, asociado a caída del párpado superior derecho y ausencia de sudoración en la mitad derecha del rostro. La radiografía de tórax muestra una opacidad apical en el vértice pulmonar derecho. ¿Cómo se denomina esta constelación clínica y cuál es su sustrato anatómico?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Síndrome de Kartagener por alteración de la motilidad ciliar"
+          },
+          {
+            "id": "B",
+            "text": "Tumor de Pancoast con Síndrome de Horner por compromiso del ganglio simpático estrellado"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome de Vena Cava Superior por compresión de la aurícula derecha"
+          },
+          {
+            "id": "D",
+            "text": "Miopatía tiroidea con infiltración de la base de la lengua"
+          },
+          {
+            "id": "E",
+            "text": "Neuralgia postherpética de ramas torácicas altas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "El Tumor de Pancoast (tumor del surco pulmonar superior) se ubica en el vértice apical y comprime estructuras vecinas: el plexo braquial inferior (raíces C8, T1 y T2) generando dolor urente irradiado al borde cubital del brazo, y la cadena simpática cervical/ganglio estrellado, provocando el Síndrome de Claude-Bernard-Horner ipsilateral caracterizado por la tríada clásica de ptosis palpebral, miosis y anhidrosis facial."
+      }
+    ]
+  }
+]
