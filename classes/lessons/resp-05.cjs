@@ -324,7 +324,7 @@ module.exports = {
         stem: 'Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Hombre de sesenta y siete años con EPOC, con disnea intensa, cianosis y uso de musculatura accesoria, frecuencia respiratoria de treinta y cinco. Está vigil y orientado. Tras una hora de antibióticos y broncodilatadores no mejora, y los gases muestran un pH de siete coma veintinueve, un dióxido de carbono de sesenta y dos y un oxígeno de cincuenta y seis.',
         question: '¿Cuál es la conducta más adecuada a continuación?',
         options: 'Las opciones: ventilación invasiva, aminofilina, cánula nasal de alto flujo, ventilación no invasiva, o bicarbonato. Piénsalo.',
-        answer: 'Es la D. Hay acidosis respiratoria hipercápnica, con pH bajo siete coma treinta y cinco y dióxido de carbono sobre cuarenta y cinco, a pesar del tratamiento. Y la clave está en una frase del enunciado: vigil y orientado. No hay contraindicación, así que va la no invasiva. La A es la trampa, porque el paciente se ve grave, pero la invasiva queda para el compromiso de conciencia o el fracaso del BiPAP. Y el bicarbonato no sirve: el problema es el dióxido de carbono.',
+        answer: 'Es la D. Hay acidosis respiratoria hipercápnica, con pH bajo siete coma treinta y cinco y dióxido de carbono sobre cuarenta y cinco, a pesar del tratamiento. Y la clave está en una frase del enunciado: vigil y orientado. No hay contraindicación, así que va la no invasiva. La A es la trampa: el paciente se ve grave, pero la invasiva queda para el compromiso de conciencia o el fracaso del BiPAP. Y el bicarbonato no ventila.',
       },
     },
 

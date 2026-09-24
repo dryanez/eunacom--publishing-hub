@@ -320,11 +320,7 @@ module.exports = {
           'Recidiva de Graves, bocio multinodular o adenoma tóxico: tratamiento definitivo. Ahora pregunta si hay compresión, bocio masivo, sospecha de cáncer u orbitopatía severa.',
           ['Sí', N('do', 'Tiroidectomía total', 'Tiamazol + Lugol 7 a 10 días',
             'Si hay alguno de ellos: tiroidectomía total, preparada con tiamazol hasta el eutiroidismo y Lugol los siete a diez días previos.')],
-          ['No', N('q', '¿Embarazo o lactancia?', 'Contraindicación absoluta',
-            'Si no hay ninguno, el radioyodo es la opción; pero antes, descarta embarazo y lactancia.',
-            ['No', N('ok', 'Radioyodo', 'Anticoncepción 6 meses; TSH anual',
-              'Sin embarazo ni lactancia: radioyodo, con anticoncepción por seis meses y TSH anual, porque vendrá el hipotiroidismo.')],
-            ['Sí', N('alert', 'No dar radioyodo', 'Fármacos o cirugía',
-              'Con embarazo o lactancia, el radioyodo está prohibido: se maneja con fármacos o, si hace falta, cirugía.')])])])]),
+          ['No', N('ok', 'Radioyodo', 'Beta-hCG negativa; anticoncepción 6 meses',
+            'Si no hay ninguno, el radioyodo es la opción, siempre que no haya embarazo ni lactancia: beta-hCG negativa antes, anticoncepción por seis meses después, y TSH anual, porque vendrá el hipotiroidismo.')])])]),
   },
 };
