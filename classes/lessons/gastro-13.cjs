@@ -1,0 +1,298 @@
+// Clase 3.1 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_gastroenterologia.cjs (gastro-13).
+
+const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+module.exports = {
+  id: 'gastro-13',
+  tier: 2,
+  slides: [
+    {
+      type: 'cover',
+      subtitle: 'Dos preguntas de laboratorio que ordenan cualquier ictericia',
+      say: 'Bienvenidos. Hoy abrimos el bloque de hígado con la ictericia y la colestasia. Es un tema muy rentable, porque casi cualquier pregunta de ictericia se resuelve con un algoritmo de dos pasos, siempre en el mismo orden. Si lo aprendes bien hoy, te va a servir para las clases de hepatitis y de vía biliar que vienen.',
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Primer paso',
+      title: '¿Qué bilirrubina sube?',
+      nodes: [
+        { id: 'ict', col: 0, row: 1, k: 'start', t: 'Ictericia', s: 'Visible sobre 2,5–3 mg/dL, primero en escleras' },
+        { id: 'car', col: 0, row: 3, k: 'trap', t: 'Carotenemia', s: 'Tiñe palmas y plantas, no escleras' },
+        { id: 'ind', col: 1, row: 0, k: 'mech', t: 'Bilirrubina indirecta', s: 'No conjugada' },
+        { id: 'gil', col: 2, row: 0, k: 'good', t: 'Síndrome de Gilbert', s: 'Resto normal · 5–10 % · observar' },
+        { id: 'hem', col: 3, row: 0, k: 'risk', t: 'Hemólisis', s: 'Anemia, LDH alta, esquistocitos' },
+        { id: 'dir', col: 1, row: 2, k: 'alert', t: 'Bilirrubina directa', s: '> 30 % del total: siempre patológica' },
+      ],
+      edges: [
+        { from: 'ict', to: 'ind', label: 'indirecta' }, { from: 'ind', to: 'gil', label: 'resto normal' },
+        { from: 'ind', to: 'hem', label: 'anemia' },
+        { from: 'ict', to: 'dir', label: 'directa' },
+      ],
+      steps: [
+        { show: ['ict'], note: 'Normal: bajo 1,1 mg/dL',
+          say: 'Partamos por los números. La bilirrubina total normal está bajo uno coma uno miligramos por decilitro, pero la ictericia recién se ve sobre dos coma cinco a tres. Y lo primero que se tiñe son las escleras.' },
+        { show: ['car'], note: 'Si las escleras están blancas, no es ictericia',
+          say: 'Ese dato sirve para una trampa clásica: la carotenemia. El exceso de caroteno tiñe las palmas y las plantas, pero no las escleras, y es benigno. Escleras blancas, no es ictericia.' },
+        { show: ['ind'], note: 'Primera pregunta: ¿indirecta o directa?',
+          say: 'Ahora, el primer paso del algoritmo: ¿la bilirrubina que sube es la indirecta, la no conjugada, o la directa?' },
+        { show: ['gil'], note: 'Joven, asintomático, todo lo demás normal',
+          say: 'Si es indirecta y todo lo demás está normal, es un síndrome de Gilbert. Es benigno, lo tiene entre el cinco y el diez por ciento de la población, y la conducta es observar y tranquilizar.' },
+        { show: ['hem'], note: 'Indirecta con anemia: se trata la causa',
+          say: 'La otra causa de bilirrubina indirecta es la hemólisis. Aquí no está todo normal: hay anemia, la LDH está alta y en el frotis aparecen esquistocitos. La conducta es tratar la causa.' },
+        { show: ['dir'], note: 'La directa nunca es un hallazgo benigno',
+          say: 'Y si la directa supera el treinta por ciento del total, estamos ante una hiperbilirrubinemia directa. Esta es siempre patológica, y obliga al segundo paso.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Segundo paso',
+      title: 'Hepatitis vs colestasia',
+      nodes: [
+        { id: 'dir', col: 0, row: 1, k: 'start', t: 'Bilirrubina directa', s: '¿Qué otra enzima sube?' },
+        { id: 'tra', col: 1, row: 0, k: 'mech', t: 'Transaminasas altas', s: 'AST y ALT' },
+        { id: 'hep', col: 2, row: 0, k: 'effect', t: 'Hepatitis', s: 'Lesión del hepatocito' },
+        { id: 'fa', col: 1, row: 2, k: 'mech', t: 'FA y GGT altas', s: 'Fosfatasas alcalinas + GGT' },
+        { id: 'col', col: 2, row: 2, k: 'effect', t: 'Colestasia', s: 'Obstrucción del flujo biliar' },
+        { id: 'ggt', col: 3, row: 2, k: 'trap', t: 'La GGT confirma el origen', s: 'Hepatobiliar, no óseo' },
+      ],
+      edges: [
+        { from: 'dir', to: 'tra' }, { from: 'tra', to: 'hep' },
+        { from: 'dir', to: 'fa' }, { from: 'fa', to: 'col' }, { from: 'col', to: 'ggt' },
+      ],
+      steps: [
+        { show: ['dir'], note: 'Ahora miramos las enzimas',
+          say: 'Tenemos una bilirrubina directa elevada. El segundo paso es mirar qué otra enzima la acompaña.' },
+        { show: ['tra', 'hep'], note: 'El problema está en la célula hepática',
+          say: 'Si suben las transaminasas, la AST y la ALT, el problema está en el hepatocito: es una hepatitis. Eso lo desarrollamos en la próxima clase.' },
+        { show: ['fa', 'col'], note: 'El problema está en el drenaje de la bilis',
+          say: 'Si en cambio suben las fosfatasas alcalinas y la gama glutamil transferasa, la GGT, el hepatocito está bien; lo que falla es la salida de la bilis. Eso es colestasia.' },
+        { show: ['ggt'], note: 'FA alta con GGT normal: pensar en hueso',
+          say: 'Y fíjate en el rol de la GGT. La fosfatasa alcalina también sale del hueso, así que la GGT alta es la que confirma que el origen es hepatobiliar y no óseo.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Clasificación',
+      title: 'Colestasia: el dolor lo dice todo',
+      nodes: [
+        { id: 'col', col: 0, row: 2, k: 'start', t: 'Colestasia', s: 'FA y GGT altas' },
+        { id: 'aut', col: 1, row: 0, k: 'cause', t: 'Crónica autoinmune', s: 'Cirrosis biliar primaria · colangitis esclerosante' },
+        { id: 'cdl', col: 1, row: 2, k: 'risk', t: 'Coledocolitiasis', s: 'Dolor + ictericia' },
+        { id: 'cht', col: 2, row: 2, k: 'alert', t: 'Colangitis', s: 'Charcot: dolor + ictericia + fiebre' },
+        { id: 'can', col: 1, row: 4, k: 'alert', t: 'Cáncer', s: 'Sin dolor, en el adulto mayor' },
+        { id: 'tip', col: 2, row: 4, k: 'risk', t: 'Páncreas, primero', s: 'Ampolla de Vater · colangiocarcinoma · vesícula' },
+      ],
+      edges: [
+        { from: 'col', to: 'aut', label: 'crónica' },
+        { from: 'col', to: 'cdl', label: 'con dolor' }, { from: 'cdl', to: 'cht', label: '+ fiebre' },
+        { from: 'col', to: 'can', label: 'silente' }, { from: 'can', to: 'tip' },
+      ],
+      steps: [
+        { show: ['col'], note: 'Tres grupos de causas',
+          say: 'Ya sabemos que es una colestasia. Ahora hay que ordenar la causa, y se separan en tres grupos.' },
+        { show: ['aut'], note: 'AMA en la mujer · ANCA con colitis ulcerosa',
+          say: 'El primero son las colestasias crónicas autoinmunes. La cirrosis biliar primaria, en una mujer con prurito y anticuerpos antimitocondriales. Y la colangitis esclerosante primaria, con ANCA y asociada a colitis ulcerosa. Las vemos a fondo en hepatitis crónica.' },
+        { show: ['cdl'], note: 'Colestasia aguda con dolor = cálculo',
+          say: 'El segundo grupo es la colestasia aguda con dolor. Dolor más ictericia es una coledocolitiasis: un cálculo que tapa el colédoco.' },
+        { show: ['cht'], note: 'Tríada de Charcot = urgencia',
+          say: 'Y si a eso se suma fiebre, tienes la tríada de Charcot: dolor, ictericia y fiebre. Es una colangitis, y es una urgencia.' },
+        { show: ['can'], note: 'La clave es la ausencia de dolor',
+          say: 'El tercer grupo es el que más se pregunta: la colestasia sin dolor, silente, en un adulto mayor. Eso es cáncer hasta que se demuestre lo contrario.' },
+        { show: ['tip'], note: 'El más frecuente: cabeza de páncreas',
+          say: '¿Cuál? El más frecuente es el cáncer de páncreas. Los otros son el de la ampolla de Vater, el colangiocarcinoma y el cáncer de vesícula.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Ictericia maligna',
+      title: 'Cómo reconocer el cáncer de páncreas',
+      cards: [
+        { title: 'Las 3 D', tag: 'Más baja de peso', kind: 'criteria', items: [
+          { t: 'Diabetes de reciente inicio', d: 'En un adulto mayor',
+            say: 'Para reconocer el cáncer de páncreas, el libro usa una regla: las tres D. La primera es una diabetes de reciente inicio en un adulto mayor.' },
+          { t: 'Depresión inexplicada', d: 'Sin causa aparente',
+            say: 'La segunda, una depresión sin explicación.' },
+          { t: 'Dolor sordo', d: 'Con ictericia progresiva e indolora',
+            say: 'Y la tercera, un dolor sordo. Todo eso con baja de peso y una ictericia que avanza sin dolor cólico. Ojo con la diferencia: el dolor sordo del tumor no es el cólico del cálculo.' },
+        ] },
+        { title: 'Courvoisier-Terrier', tag: 'Signo clásico', kind: 'alert', items: [
+          { t: 'Vesícula palpable e indolora', d: 'Con ictericia',
+            say: 'Y el signo que tienes que reconocer al examen físico: el de Courvoisier-Terrier. Una vesícula palpable y que no duele, en un paciente ictérico. Es la vesícula distendida por un tumor que tapa la vía biliar lentamente.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Estudio',
+      title: 'Siempre primero la ecografía',
+      nodes: [
+        { id: 'eco', col: 0, row: 1, k: 'start', t: 'Ecografía abdominal', s: 'Siempre el primer examen' },
+        { id: 'via', col: 1, row: 1, k: 'q', t: '¿Qué muestra?', s: 'Vía biliar, colédoco, masa' },
+        { id: 'crm', col: 2, row: 0, k: 'good', t: 'Colangiorresonancia', s: 'Elección para la vía biliar' },
+        { id: 'tac', col: 2, row: 2, k: 'refer', t: 'TAC con contraste', s: 'Si sugiere masa pancreática' },
+      ],
+      edges: [
+        { from: 'eco', to: 'via' },
+        { from: 'via', to: 'crm', label: 'vía biliar' },
+        { from: 'via', to: 'tac', label: 'masa en páncreas' },
+      ],
+      steps: [
+        { show: ['eco'], note: 'Barata, sin radiación, al lado de la cama',
+          say: '¿Cómo se estudia? Aquí hay una regla sin excepciones: toda ictericia parte con una ecografía abdominal.' },
+        { show: ['via'], note: '¿Vía biliar dilatada? ¿Colédoco? ¿Masa?',
+          say: 'La ecografía responde tres preguntas: si la vía biliar está dilatada, cómo está el colédoco, y si hay una masa.' },
+        { show: ['crm'], note: 'Ve la vía biliar sin invadir',
+          say: 'Después, el examen de elección para estudiar la vía biliar es la colangiorresonancia.' },
+        { show: ['tac'], note: 'El TAC es mejor para el páncreas',
+          say: 'Pero si la ecografía muestra o sugiere una masa en el páncreas, el examen es el TAC de abdomen con contraste, que ve mejor el páncreas. Esa elección entre colangiorresonancia y TAC se pregunta mucho.' },
+      ],
+    },
+
+    {
+      type: 'pathway',
+      intro: 'Ahora juntemos los dos pasos en un solo árbol.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Patrón bioquímico y conducta',
+      head: ['Patrón', 'Contexto', 'Diagnóstico y conducta'],
+      rows: [
+        { cells: ['Bilirrubina indirecta aislada', 'Joven asintomático', 'Gilbert → observar'],
+          say: 'Repasemos en una tabla. Bilirrubina indirecta aislada en un joven asintomático: Gilbert, se observa.' },
+        { cells: ['Indirecta + anemia + LDH alta', 'Esquistocitos', 'Hemólisis → tratar la causa'],
+          say: 'Indirecta con anemia, LDH alta y esquistocitos: hemólisis, se trata la causa.' },
+        { cells: ['FA y GGT + dolor', 'Cólico biliar', 'Coledocolitiasis → eco → colangio-RM → CPRE'],
+          say: 'Colestasia con dolor: coledocolitiasis. Ecografía, colangiorresonancia y luego la colangiopancreatografía retrógrada endoscópica, la CPRE, que extrae el cálculo.' },
+        { cells: ['FA y GGT + dolor + fiebre', 'Tríada de Charcot', 'Colangitis → CPRE urgente + antibióticos'],
+          say: 'Si se agrega fiebre: colangitis, con CPRE urgente y antibióticos.' },
+        { cells: ['FA y GGT sin dolor', 'Adulto mayor, baja de peso', 'Cáncer → eco → colangio-RM o TAC'],
+          say: 'Y colestasia sin dolor en un adulto mayor que baja de peso: cáncer. Ecografía, y después colangiorresonancia, o TAC si apunta al páncreas.' },
+      ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 70 años con ictericia progresiva de 6 semanas, prurito, coluria y baja de 8 kg. Sin dolor abdominal ni fiebre. Diabetes diagnosticada hace 2 meses. Al examen: ictericia marcada y vesícula palpable, no dolorosa. Laboratorio con patrón colestásico.',
+      question: 'Tras la ecografía, que sugiere una masa pancreática, ¿cuál es el examen de elección?',
+      options: [
+        { letter: 'A', text: 'CPRE diagnóstica' },
+        { letter: 'B', text: 'TAC de abdomen con contraste' },
+        { letter: 'C', text: 'Colangiorresonancia' },
+        { letter: 'D', text: 'Biopsia hepática percutánea' },
+        { letter: 'E', text: 'Anticuerpos antimitocondriales' },
+      ],
+      correct: 'B',
+      explanation: 'Ictericia indolora, baja de peso, diabetes reciente y signo de Courvoisier-Terrier: cáncer de cabeza de páncreas. La ecografía va primero; si sugiere masa pancreática, el examen de elección es el TAC con contraste. La colangiorresonancia es de elección para la vía biliar, no para el páncreas.',
+      say: {
+        stem: 'Vamos al caso. Hombre de setenta años con ictericia que ha ido en aumento durante seis semanas, con prurito, coluria y baja de ocho kilos. No tiene dolor ni fiebre, y le diagnosticaron diabetes hace dos meses. Al examen, ictericia marcada y una vesícula palpable que no duele. El laboratorio es colestásico.',
+        question: 'La ecografía sugiere una masa en el páncreas. ¿Cuál es el examen de elección?',
+        options: 'Las alternativas: una CPRE diagnóstica, un TAC de abdomen con contraste, una colangiorresonancia, una biopsia hepática, o anticuerpos antimitocondriales. Piénsalo.',
+        answer: 'Es la B. Junta las piezas: ictericia silente en un adulto mayor, baja de peso, diabetes nueva y vesícula palpable indolora, el signo de Courvoisier-Terrier. Es un cáncer de páncreas. El distractor tentador es la colangiorresonancia, que es de elección para la vía biliar; pero cuando la sospecha es una masa pancreática, el examen que la ve mejor es el TAC con contraste.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'Caso representativo · banco EUNACOM',
+      stem: 'Estudiante de 22 años, asintomático, con bilirrubina total de 2,6 mg/dL a expensas de la indirecta en un examen preventivo. Transaminasas, fosfatasas alcalinas, GGT, hemograma y LDH normales.',
+      question: '¿Cuál es el diagnóstico más probable y la conducta?',
+      options: [
+        { letter: 'A', text: 'Hepatitis viral aguda; serología viral y control seriado' },
+        { letter: 'B', text: 'Anemia hemolítica; frotis y test de Coombs' },
+        { letter: 'C', text: 'Síndrome de Gilbert; tranquilizar y no requiere tratamiento' },
+        { letter: 'D', text: 'Coledocolitiasis; ecografía abdominal urgente' },
+        { letter: 'E', text: 'Cirrosis biliar primaria; anticuerpos antimitocondriales' },
+      ],
+      correct: 'C',
+      explanation: 'Hiperbilirrubinemia indirecta aislada con el resto de las pruebas y el hemograma normales en un joven asintomático: síndrome de Gilbert, trastorno hereditario benigno de la conjugación (5–10 % de la población). No requiere estudio ni tratamiento.',
+      say: {
+        stem: 'Ahora una pregunta del banco EUNACOM. Estudiante de veintidós años, asintomático, al que en un examen preventivo le encuentran una bilirrubina total de dos coma seis, a expensas de la indirecta. Transaminasas, fosfatasas alcalinas, GGT, hemograma y LDH, todo normal.',
+        question: '¿Cuál es el diagnóstico más probable y la conducta?',
+        options: 'Las opciones: hepatitis viral aguda, anemia hemolítica, síndrome de Gilbert, coledocolitiasis, o cirrosis biliar primaria. Piénsalo.',
+        answer: 'La respuesta es la C, síndrome de Gilbert. Aplica el primer paso: la bilirrubina es indirecta, así que la hepatitis, el cálculo y la cirrosis biliar quedan fuera, porque esas dan bilirrubina directa. El distractor que queda es la hemólisis, pero con hemograma y LDH normales no hay hemólisis. Es un trastorno benigno de la conjugación: se tranquiliza y no se trata.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'Caso representativo · banco EUNACOM',
+      stem: 'Mujer de 55 años con dolor cólico en hipocondrio derecho e ictericia de 2 días, sin fiebre. Bilirrubina 4 mg/dL de predominio directo, FA y GGT elevadas, transaminasas levemente altas. Ecografía: colelitiasis y vía biliar de 9 mm, sin cálculos visibles en el colédoco.',
+      question: '¿Cuál es el siguiente examen?',
+      options: [
+        { letter: 'A', text: 'CPRE directa' },
+        { letter: 'B', text: 'Colangiorresonancia' },
+        { letter: 'C', text: 'TAC de abdomen con contraste' },
+        { letter: 'D', text: 'Biopsia hepática percutánea' },
+        { letter: 'E', text: 'Repetir la ecografía en 48 horas' },
+      ],
+      correct: 'B',
+      explanation: 'Colestasia con dolor y sin fiebre: coledocolitiasis. La ecografía ve la vía dilatada pero no el cálculo, así que se confirma con colangiorresonancia antes de la CPRE (invasiva, con riesgo de pancreatitis). Directo a CPRE solo si hay colangitis o si la eco ya vio el cálculo.',
+      say: {
+        stem: 'Una más del banco. Mujer de cincuenta y cinco años con dolor cólico en el hipocondrio derecho e ictericia de dos días, sin fiebre. Bilirrubina de cuatro, de predominio directo, con fosfatasas y GGT elevadas. La ecografía muestra cálculos en la vesícula y una vía biliar de nueve milímetros, pero no ve cálculos en el colédoco.',
+        question: '¿Cuál es el siguiente examen?',
+        options: 'Las opciones: CPRE directa, colangiorresonancia, TAC de abdomen, biopsia hepática, o repetir la ecografía en dos días. Piénsalo.',
+        answer: 'Es la B, colangiorresonancia. Colestasia con dolor y sin fiebre es coledocolitiasis, pero la ecografía no vio el cálculo. Antes de someterla a una CPRE, que es invasiva y puede causar pancreatitis, se confirma con colangiorresonancia. La trampa es la CPRE directa: solo se va directo si hay colangitis, o si la ecografía ya vio el cálculo en el colédoco.',
+      },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
+      cards: [
+        { title: 'Dos pasos', tag: 'Siempre en orden', kind: 'key', items: [
+          { t: 'Paso 1: indirecta o directa', d: 'Indirecta aislada = Gilbert',
+            say: 'Cerremos con las reglas de oro. Primer paso: indirecta o directa. La indirecta aislada con todo lo demás normal es Gilbert, y se observa.' },
+          { t: 'Paso 2: transaminasas o FA y GGT', d: 'Hepatitis vs colestasia',
+            say: 'Segundo paso, en la directa: transaminasas es hepatitis; fosfatasas y GGT es colestasia.' },
+        ] },
+        { title: 'Colestasia', tag: 'Manda el dolor', kind: 'alert', items: [
+          { t: 'Dolor = cálculo · + fiebre = colangitis', d: 'Tríada de Charcot',
+            say: 'En la colestasia, el dolor manda. Con dolor es un cálculo, con dolor y fiebre es colangitis.' },
+          { t: 'Sin dolor en el adulto mayor = cáncer', d: '3 D + Courvoisier-Terrier',
+            say: 'Y sin dolor en un adulto mayor, es cáncer, sobre todo de páncreas, con sus tres D y el signo de Courvoisier-Terrier.' },
+        ] },
+        { title: 'Estudio', tag: 'Orden de exámenes', kind: 'normal', items: [
+          { t: 'Eco siempre primero', d: 'Luego colangio-RM, o TAC si es páncreas',
+            say: 'Toda ictericia parte con ecografía; después colangiorresonancia, o TAC si se sospecha una masa pancreática. Si te llevas una sola idea de hoy: la ictericia que no duele en un adulto mayor es un cáncer hasta que se demuestre lo contrario. Nos vemos en la próxima clase.' },
+        ] },
+      ],
+    },
+  ],
+
+  pathway: {
+    title: 'Ictericia: dos preguntas de laboratorio',
+    root: N('start', 'Ictericia', 'Visible sobre 2,5–3 mg/dL',
+      'Partimos de un paciente con ictericia. Con dos preguntas de laboratorio, en orden, ordenamos casi todas las causas.',
+      ['', N('q', '¿Indirecta o directa?', 'Paso 1',
+        'Primera pregunta: ¿predomina la bilirrubina indirecta o la directa?',
+        ['Indirecta', N('ok', 'Gilbert o hemólisis', 'Resto normal: observar · anemia + LDH: hemólisis',
+          'Indirecta con todo lo demás normal en un joven: síndrome de Gilbert, se observa. Si hay anemia, LDH alta y esquistocitos, es hemólisis y se trata la causa.')],
+        ['Directa', N('q', '¿Transaminasas o FA y GGT?', 'Paso 2',
+          'La directa siempre es patológica. Segunda pregunta: ¿suben las transaminasas o las fosfatasas alcalinas con la GGT?',
+          ['Transaminasas', N('refer', 'Hepatitis', 'Lesión del hepatocito',
+            'Transaminasas altas: hepatitis, lesión del hepatocito. Se estudia como vemos en la clase de hepatitis.')],
+          ['FA y GGT', N('do', 'Ecografía abdominal', 'Siempre el primer examen',
+            'Fosfatasas y GGT altas: colestasia. El primer examen es siempre la ecografía abdominal.',
+            ['', N('q', '¿Dolor? ¿Fiebre?', 'Orienta la causa',
+              'Ahora miramos la clínica: ¿hay dolor, y hay fiebre?',
+              ['Dolor', N('refer', 'Coledocolitiasis', 'Colangio-RM → CPRE',
+                'Dolor e ictericia: coledocolitiasis. Colangiorresonancia para confirmar y luego CPRE para extraer el cálculo.')],
+              ['Dolor + fiebre', N('alert', 'Colangitis', 'CPRE urgente + antibióticos',
+                'Dolor, ictericia y fiebre, la tríada de Charcot: colangitis. CPRE urgente y antibióticos.')],
+              ['Sin dolor', N('alert', 'Sospecha de cáncer', 'Colangio-RM, o TAC si es páncreas',
+                'Ictericia silente en un adulto mayor con baja de peso: cáncer, sobre todo de páncreas. Colangiorresonancia, o TAC con contraste si se sospecha una masa pancreática.')])])])])]),
+  },
+};
