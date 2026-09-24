@@ -37,3 +37,6 @@ books/dist/*_pages/
 # IDE
 .vscode/
 .idea/
+classes/dist/video/
+classes/dist/audio/*/
+!classes/dist/audio/cardio-01/
