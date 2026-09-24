@@ -291,6 +291,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 |---|---|---|---|
 | hem-03 | Campo GES: "GES: prevención y tratamiento integral en niños y gestantes" para anemia ferropriva. | No existe una garantía GES para la anemia ferropriva. | No menciona GES. |
 | hem-08 | CHCM > 36 "patognomónica" de esferocitosis. | También sube en la AHAI con esferocitos (Dic 2025 P21); es característica, no patognomónica. | "La pista más sugerente", atribuyendo el término al libro. |
+| hem-06 | El ácido fólico solo "agota los residuos de cobalamina en la vía de la metilmalonil-CoA". | Mecanismo no establecido; lo aceptado es que corrige la anemia y enmascara el déficit mientras progresa el daño neurológico. | Explica ambas ideas sin profundizar. |
+| hem-07 | Frotis en crioaglutininas: hematíes "en pilas (rouleaux)". | Las crioaglutininas producen aglutinación irregular; el rouleaux es típico del mieloma. | "Glóbulos aglutinados". |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -299,12 +301,15 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-02 | Anemia de enfermedad crónica con saturación "15–25 %" (tabla) | La viñeta tiene saturación 14 % con el mismo diagnóstico | "Baja o normal", con corte de ferritina 100 |
 | hem-08 | Medir G6PD 2–3 meses después de la crisis (texto) | "Varias semanas" (keyPoints) | El texto |
 | hem-10 | TP/TTPK "estrictamente normales" en el SHU (libro) | Dic 2025 P61: SHU neumocócico con TP 16,2 s | El libro |
+| hem-05 | Más del 75 % de las aplasias son idiopáticas (texto) | 50–75 % (explicación de pregunta 2) | El texto |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
 | hem-01 a hem-03 | Las preguntas del libro son "Banco oficial AEE" sin fecha; la primera de hem-01 tiene el enunciado cortado y la alternativa E corrupta. |
 | hem-10 | Solo nombra E. coli O157:H7 y Shigella como causas de SHU (no el neumocócico, Dic 2025 P61) y no dice si evitar antibióticos o antidiarreicos en la diarrea por STEC. |
+| hem-06 | Solo da el esquema de B12 intramuscular para malabsorción; no da tratamiento del déficit dietario (vegano), que según Dic 2025 P133 es oral. |
+| hem-05, hem-07 | Preguntas del libro con texto corrupto ("Radioterapiay­oncologia/ 1/8", "Haptoglobina bajay­oncologia/ 1/6"). El banco real no tiene preguntas de aplasia medular. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -312,3 +317,4 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2019 · Pregunta 18 | Clave: transfundir a un paciente estable con Hb 7,8; el libro decide por clínica, no por cifra (la propia explicación la llama muy discutible). |
 | EUNACOM Julio 2025 · Pregunta 53 | Clave: hierro elemental 200 mg/día; el libro da 40–100 mg/día o en días alternos. |
 | EUNACOM Julio 2017 · Pregunta 5 | Embarazada con clave "HELLP"; la propia explicación duda y el caso calza igual o mejor con PTT. |
+| EUNACOM Julio 2013 · Pregunta 87 | Clave: hemograma con reticulocitos para el diagnóstico etiológico de la hemólisis; el libro dice Coombs directo. |
