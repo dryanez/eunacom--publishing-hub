@@ -14,6 +14,9 @@ antes de publicar, y se corrige en el libro (`books/scripts/dataset_*.cjs`) y en
 | gastro-07 | La explicación de la pregunta Dic 2018 #41 cuenta "edad mayor de 50" como signo de alarma, pero el paciente tiene 48 años. | La voz solo cuenta los cuatro signos que sí aplican. |
 | gastro-06 | `reconstrucciones` dice "Sin preguntas en exámenes 2013-2025", así que las preguntas del banco son casos representativos, no ítems reales. | La diapositiva usa la etiqueta del banco y no afirma que sea una pregunta real con fecha. |
 | gastro-03 | Los bloqueadores de calcio: el texto solo dice que relajan el esfínter y causan reflujo; los keyPoints agregan "útiles en acalasia inicial". | Se siguieron los keyPoints. |
+| gastro-18 | `frecuencia` dice "18 de 21 preguntas del banco" y `reconstrucciones` nombra cuatro exámenes (Q#66, Q#121, Q#54, Q#101), pero `questions` solo trae dos (Q#121 y Q#54). | Se usaron las dos que hay. Faltan Q#66 y Q#101 en el libro. |
+| gastro-23 | `reconstrucciones` dice "Sin preguntas en exámenes 2013-2025", pero `questions` trae dos casos representativos del banco. | Se usaron con la etiqueta del banco. |
+| gastro-23 | El árbol de decisión anterior usaba un corte de "menos o más de 4 semanas" entre diarrea aguda y crónica que no está en el libro. | Se quitó del árbol nuevo. |
 | gastro-25 | La viñeta dice "diana" y el texto dice "dona" (signo ecográfico de la invaginación). | Se mencionan ambos nombres. |
 
 ## Notas generales
