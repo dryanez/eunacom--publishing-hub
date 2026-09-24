@@ -290,20 +290,25 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
 |---|---|---|---|
 | hem-03 | Campo GES: "GES: prevención y tratamiento integral en niños y gestantes" para anemia ferropriva. | No existe una garantía GES para la anemia ferropriva. | No menciona GES. |
+| hem-08 | CHCM > 36 "patognomónica" de esferocitosis. | También sube en la AHAI con esferocitos (Dic 2025 P21); es característica, no patognomónica. | "La pista más sugerente", atribuyendo el término al libro. |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
 |---|---|---|---|
 | hem-03 | Hb sube "1 a 2 g/dL cada 2 a 3 semanas" (texto) | "Al menos 1,5 a 2,0 g/dL" a las 3–4 semanas (tabla) | La tabla |
 | hem-02 | Anemia de enfermedad crónica con saturación "15–25 %" (tabla) | La viñeta tiene saturación 14 % con el mismo diagnóstico | "Baja o normal", con corte de ferritina 100 |
+| hem-08 | Medir G6PD 2–3 meses después de la crisis (texto) | "Varias semanas" (keyPoints) | El texto |
+| hem-10 | TP/TTPK "estrictamente normales" en el SHU (libro) | Dic 2025 P61: SHU neumocócico con TP 16,2 s | El libro |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
 | hem-01 a hem-03 | Las preguntas del libro son "Banco oficial AEE" sin fecha; la primera de hem-01 tiene el enunciado cortado y la alternativa E corrupta. |
+| hem-10 | Solo nombra E. coli O157:H7 y Shigella como causas de SHU (no el neumocócico, Dic 2025 P61) y no dice si evitar antibióticos o antidiarreicos en la diarrea por STEC. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
 |---|---|
 | EUNACOM Diciembre 2019 · Pregunta 18 | Clave: transfundir a un paciente estable con Hb 7,8; el libro decide por clínica, no por cifra (la propia explicación la llama muy discutible). |
 | EUNACOM Julio 2025 · Pregunta 53 | Clave: hierro elemental 200 mg/día; el libro da 40–100 mg/día o en días alternos. |
+| EUNACOM Julio 2017 · Pregunta 5 | Embarazada con clave "HELLP"; la propia explicación duda y el caso calza igual o mejor con PTT. |
