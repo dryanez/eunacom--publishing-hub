@@ -15,9 +15,16 @@ const SPECIALTIES = [
   { key: 'diabetes', name: 'Diabetes y Dislipidemias' },
   { key: 'endocrinologia', name: 'Endocrinología' },
   { key: 'hematologia', name: 'Hematología' },
+  { key: 'infectologia', name: 'Infectología' },
+  { key: 'reumatologia', name: 'Reumatología' },
+  { key: 'neurologia', name: 'Neurología y Geriatría' },
 ];
 
-const PATHWAYS = require(path.join(ROOT, 'classes', 'pathways', 'gastro_pathways.cjs'));
+// Árboles de decisión: classes/pathways/*_pathways.cjs; una clase con guion propio puede traer el suyo en `pathway`.
+const PATHWAYS_DIR = path.join(ROOT, 'classes', 'pathways');
+const PATHWAYS = Object.assign({}, ...fs.readdirSync(PATHWAYS_DIR)
+  .filter(f => f.endsWith('_pathways.cjs'))
+  .map(f => require(path.join(PATHWAYS_DIR, f))));
 
 function flattenPathway(root) {
   const nodes = [];
@@ -667,7 +674,8 @@ function buildLesson(lesson, deck, specialtyName) {
       return { ch, type: 'points', title: s.title, kicker: s.kicker, cards, segments, notes: [segments.map(g => g.text).join(' ')] };
     }
     if (s.type === 'pathway') {
-      const pw = PATHWAYS[lesson.id];
+      const pw = lesson.pathway || PATHWAYS[lesson.id];
+      if (!pw) throw new Error(`Falta el árbol de decisión de ${lesson.id}`);
       const nodes = flattenPathway(pw.root);
       const segments = nodes.map((n, i) => seg(i, (i === 0 && s.intro ? s.intro + ' ' : '') + n.say));
       return { ch, type: 'pathway', title: pw.title, kicker: 'ÁRBOL DE DECISIÓN CLÍNICA', nodes, segments, notes: [segments.map(g => g.text).join(' ')] };

@@ -22,9 +22,10 @@ se copia lo que hacen esas dos clases.
 
 ## Archivos por clase
 
-1. `classes/lessons/<id>.cjs`: el guion (formato abajo).
-2. Una entrada `<id>` en `classes/pathways/<especialidad>_pathways.cjs`: el árbol de decisión
-   que usa la diapositiva `pathway` (mismo formato que `gastro_pathways.cjs`).
+Un solo archivo: `classes/lessons/<id>.cjs`, con `id`, `tier` (1, 2 o 3, el del libro), `slides` y `pathway`
+(el árbol de decisión de la diapositiva `pathway`, con el formato de `classes/pathways/gastro_pathways.cjs`:
+`{ title, root: N(k, t, s, say, ...kids) }`, y `N` definido al inicio del archivo).
+Gastro 1.1 y 1.2 tienen su árbol en `gastro_pathways.cjs`; las clases nuevas lo traen dentro del guion.
 
 ## Estructura dinámica (el tamaño lo decide el tema)
 
@@ -64,7 +65,7 @@ Nunca se rellena para llegar a un número ni se recorta contenido que el libro p
 
 ## Campos
 
-- `flow`: `nodes` con `id, col (0–3), row (0–2), k, t, s`; `edges` `{from, to, label?}`;
+- `flow`: `nodes` con `id, col (0–4), row (0–4), k, t, s`; `edges` `{from, to, label?}`;
   `steps` `{show: [ids], note, say}`: cada paso revela 1–2 nodos. Valores de `k`: `cause | mech | effect | risk | good | alert | start | q | refer | trap`.
 - `points`: `cards` `{title, tag, kind, items: [{t, d, say}]}`, con 2–3 tarjetas. Valores de `kind`: `key | alert | pharma | criteria | normal`.
 - `table`: `head` (3 columnas), `rows` `{cells, say}`.
@@ -88,6 +89,6 @@ Nunca se rellena para llegar a un número ni se recorta contenido que el libro p
 ## Verificación antes de entregar
 
 ```bash
-node -e "require('./classes/lessons/<id>.cjs')"
-node classes/scripts/build_swiss_player.cjs   # debe listar la clase sin errores
+node classes/scripts/check_lesson.cjs <id>    # sin ERROR; los avisos se corrigen salvo que haya motivo
 ```
+El reproductor (`build_swiss_player.cjs`) lo compila después quien integra; no se corre en paralelo.

@@ -3,6 +3,7 @@
 
 module.exports = {
   id: 'gastro-02',
+  tier: 2,
   slides: [
     {
       type: 'cover',

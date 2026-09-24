@@ -4,6 +4,7 @@
 
 module.exports = {
   id: 'gastro-01',
+  tier: 2,
   slides: [
     {
       type: 'cover',
