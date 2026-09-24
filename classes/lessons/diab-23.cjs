@@ -161,11 +161,11 @@ module.exports = {
         { cells: ['Ateroesclerosis documentada con LDL cercano a 90', 'Iniciar estatina', 'No tratar porque el LDL está bajo 100'],
           say: 'Un paciente con ateroesclerosis documentada es de riesgo muy alto aunque su LDL esté bajo cien: igual necesita estatina.' },
         { cells: ['Meta no alcanzada con dosis máxima', 'Agregar ezetimiba 10 mg', 'Cambiar a fibrato'],
-          say: 'Si no alcanza la meta con la dosis máxima tolerada, se agrega ezetimiba. El fibrato no baja el LDL de forma relevante.' },
+          say: 'Si no alcanza la meta con la dosis máxima tolerada, se agrega ezetimiba. Cambiar a un fibrato es la trampa: el objetivo sigue siendo el LDL.' },
         { cells: ['Mialgias con estatina', 'Medir CK', 'Suspender sin confirmar, o pedir ANA'],
           say: 'Mialgias con estatinas: primero la CK. Ni suspender a ciegas, ni irse a exámenes reumatológicos.' },
         { cells: ['CK más de 10 veces, orina color coñac', 'Rabdomiólisis: suspender', 'Llamarlo mialgia simple'],
-          say: 'Y CK más de diez veces lo normal con orina color coñac es rabdomiólisis: se suspende la estatina y se vigila el riñón.' },
+          say: 'Y CK más de diez veces lo normal con orina color coñac es rabdomiólisis: se suspende la estatina, y ojo con la falla renal aguda.' },
       ],
     },
 
@@ -280,7 +280,7 @@ module.exports = {
         stem: 'Ahora dos sobre el músculo. Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente diabético, hipertenso y coronario, con LDL de ciento sesenta y cinco. Inició atorvastatina cuarenta, pero la suspendió porque le dieron mialgias y artralgias.',
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las opciones son: rosuvastatina diez controlando con CK, fenofibrato, atorvastatina cinco miligramos día por medio, ezetimiba, o reforzar la dieta. Piénsalo.',
-        answer: 'Es la A. Es un paciente coronario: no puede quedarse sin estatina. Frente a los síntomas musculares, la conducta es reintroducir con una dosis menor, o cambiar a una estatina más hidrofílica como la rosuvastatina, y controlar con CK. La ezetimiba sola o la dieta lo dejan desprotegido, y el fibrato no es para el LDL.',
+        answer: 'Es la A. Es un paciente coronario: no puede quedarse sin estatina. Frente a los síntomas musculares, la conducta es reintroducir con una dosis menor, o cambiar a una estatina más hidrofílica como la rosuvastatina, y controlar con CK. La ezetimiba sola o la dieta lo dejan desprotegido, y el fibrato no apunta a su problema, que es el LDL.',
       },
     },
 
@@ -298,12 +298,12 @@ module.exports = {
         { letter: 'E', text: 'Polimialgia reumática' },
       ],
       correct: 'C',
-      explanation: 'Usuario de atorvastatina con mialgias proximales, debilidad y CK elevada varias veces sobre lo normal: miopatía por estatinas (miositis). Exige suspender la estatina. La polimialgia reumática cursa con CK normal.',
+      explanation: 'Usuario de atorvastatina con mialgias proximales, debilidad y CK elevada varias veces sobre lo normal: miopatía por estatinas (miositis). Exige suspender la estatina.',
       say: {
         stem: 'Y la última, también de diciembre de dos mil dieciocho. Paciente de ochenta y dos años, diabético y coronario, que toma atorvastatina cuarenta. Tiene mialgias generalizadas y debilidad de cintura escapular y muslos. La CK es mil trescientos veinte, con transaminasas elevadas.',
         question: '¿Cuál es el diagnóstico más probable?',
         options: 'Las opciones son: miopatía diabética, polineuropatía diabética, miopatía por estatinas, polimiositis, o polimialgia reumática. Piénsalo.',
-        answer: 'Es la C, miopatía por estatinas. Hay dolor y debilidad proximal con la CK elevada varias veces sobre lo normal, en un usuario de atorvastatina: una miositis por estatinas, que exige suspenderla. La polimiositis también da debilidad proximal con CK alta, pero aquí el fármaco lo explica todo. Y la polimialgia reumática tiene la CK normal.',
+        answer: 'Es la C, miopatía por estatinas. Hay dolor y debilidad proximal con la CK elevada varias veces sobre lo normal, en un usuario de atorvastatina: una miositis por estatinas, que exige suspenderla. La polimiositis también da debilidad proximal con CK alta, pero aquí el fármaco lo explica todo.',
       },
     },
 

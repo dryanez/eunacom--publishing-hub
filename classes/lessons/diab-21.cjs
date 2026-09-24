@@ -109,7 +109,7 @@ module.exports = {
         { show: ['fib', 'dr'], note: 'El neovaso cicatriza y tira',
           say: 'Con el tiempo, los neovasos se fibrosan, y ese tejido cicatricial se contrae y tracciona la retina. El resultado es un desprendimiento de retina traccional.' },
         { show: ['gla'], note: 'Neovasos en el iris',
-          say: 'Y si los neovasos crecen en el iris, la llamada rubeosis iridis, cierran el drenaje del humor acuoso y producen un glaucoma neovascular. Tres complicaciones, un mismo culpable: el neovaso.' },
+          say: 'Y si los neovasos crecen en el iris, la llamada rubeosis iridis, el resultado es un glaucoma neovascular. Tres complicaciones, un mismo culpable: el neovaso.' },
       ],
     },
 

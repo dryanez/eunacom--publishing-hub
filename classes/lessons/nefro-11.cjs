@@ -273,7 +273,7 @@ module.exports = {
         stem: 'Vamos al caso. Hombre de veinticuatro años con diabetes tipo uno que suspendió la insulina hace dos días. Llega estuporoso, con respiración de Kussmaul, aliento cetónico, hipotenso, taquicárdico y deshidratado. pH siete coma doce, presión de CO dos de dieciséis, bicarbonato de cinco. Glicemia de cuatrocientos ochenta, sodio ciento treinta y cuatro, cloro noventa y ocho, potasio cinco coma dos, y cetonemia alta.',
         question: '¿Cuál es la conducta más adecuada respecto del trastorno ácido base?',
         options: 'Las opciones: bicarbonato hasta normalizar el pH, cristaloides e insulina en infusión, intubar e hiperventilar, hemodiálisis de urgencia, o fomepizol con hemodiálisis. Piénsalo.',
-        answer: 'Es la B. Sigue los pasos: acidemia, bicarbonato bajo, y el anion gap da treinta y uno, elevado, por cetoácidos. Winter da un rango de trece y medio a diecisiete y medio, y su presión de CO dos de dieciséis está dentro: compensación pura. El tratamiento es la causa, fluidos e insulina, que frena la lipólisis y devuelve el bicarbonato. El distractor es el bicarbonato: con pH de siete coma doce no está indicado, y normalizar el pH nunca es la meta.',
+        answer: 'Es la B. El anion gap da treinta y uno, elevado por cetoácidos, y Winter da trece y medio a diecisiete y medio: su presión de CO dos de dieciséis es compensación pura. El tratamiento es la causa, fluidos e insulina, que frena la lipólisis y devuelve el bicarbonato. El distractor es el bicarbonato: con pH de siete coma doce no está indicado, y normalizar el pH nunca es la meta.',
       },
     },
 
