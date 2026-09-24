@@ -53,7 +53,7 @@ const qs = codes.flatMap(c => (bank[c] || []).map(q => ({ ...q, code: c })))
   .filter(q => (SEARCH ? SEARCH.test(q.stem + ' ' + q.explicacion) : q.confidence >= MIN) && !seen.has(q.key) && seen.add(q.key))
   .sort((a, b) => b.confidence - a.confidence || b.year - a.year);
 
-if (JSON_OUT) { console.log(JSON.stringify({ id, codes, questions: qs }, null, 2)); process.exit(0); }
+if (JSON_OUT) { console.log(JSON.stringify({ id, codes, questions: qs }, null, 2)); return; }
 console.log(SEARCH ? `búsqueda /${SEARCH.source}/ · ${qs.length} preguntas reales\n`
   : `${id} · códigos ${codes.join(', ') || '(ninguno)'} · ${qs.length} preguntas reales (confianza ≥ ${MIN})\n`);
 qs.forEach((q, i) => {
