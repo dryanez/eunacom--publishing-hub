@@ -7,6 +7,8 @@
  * Uso:
  *   ELEVENLABS_API_KEY=... [ELEVENLABS_VOICE_ID=...] node classes/scripts/render_lesson_video.cjs gastro-02
  *   node classes/scripts/render_lesson_video.cjs gastro-02 --dry   # silencio con duración estimada (sin API)
+ *   node classes/scripts/render_lesson_video.cjs gastro-02 --voice mi_voz
+ *       # usa audio ya generado en classes/dist/audio/gastro-02/mi_voz/sXX_gYY.wav (p. ej. tts_chatterbox.py), sin API
  */
 
 const fs = require('fs');
@@ -18,6 +20,8 @@ const classId = process.argv[2];
 const DRY = process.argv.includes('--dry');
 const API_KEY = process.env.ELEVENLABS_API_KEY;
 const VOICE_ID = process.env.ELEVENLABS_VOICE_ID || 'pNInz6obpgDQGcFmaJgB';
+const vIdx = process.argv.indexOf('--voice');
+const LOCAL_VOICE = vIdx > 0 ? process.argv[vIdx + 1] : null;
 const MODEL_ID = process.env.ELEVENLABS_MODEL_ID || 'eleven_multilingual_v2';
 
 const RATE = 44100;
@@ -26,7 +30,7 @@ const SLIDE_LEAD_IN = 0.9;
 const SLIDE_TAIL = 0.8;
 
 if (!classId) { console.error('Uso: node render_lesson_video.cjs <classId> [--dry]'); process.exit(1); }
-if (!DRY && !API_KEY) { console.error('Falta ELEVENLABS_API_KEY (o usa --dry).'); process.exit(1); }
+if (!DRY && !LOCAL_VOICE && !API_KEY) { console.error('Falta ELEVENLABS_API_KEY (o usa --voice <carpeta> o --dry).'); process.exit(1); }
 
 function ffmpegPath() {
   try { return execFileSync('python3', ['-c', 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())']).toString().trim(); }
@@ -71,7 +75,7 @@ function wav(pcm) {
 async function main() {
   const cls = loadClass();
   const outDir = path.join(ROOT, 'classes', 'dist', 'video', classId);
-  const audioDir = path.join(ROOT, 'classes', 'dist', 'audio', classId, DRY ? 'dry' : VOICE_ID);
+  const audioDir = path.join(ROOT, 'classes', 'dist', 'audio', classId, DRY ? 'dry' : LOCAL_VOICE || VOICE_ID);
   fs.mkdirSync(outDir, { recursive: true });
   fs.mkdirSync(audioDir, { recursive: true });
 
@@ -89,9 +93,15 @@ async function main() {
       if (DRY) {
         pcm = silence(Math.max(1.5, seg.text.split(/\s+/).length / 2.6));
       } else {
-        const file = path.join(audioDir, `s${String(si).padStart(2, '0')}_g${String(gi).padStart(2, '0')}.mp3`);
-        process.stdout.write(`  voz slide ${si + 1} segmento ${gi + 1}...\r`);
-        await synthesize(seg.text, file);
+        const base = path.join(audioDir, `s${String(si).padStart(2, '0')}_g${String(gi).padStart(2, '0')}`);
+        let file = base + '.mp3';
+        if (LOCAL_VOICE) {
+          file = [base + '.wav', base + '.mp3'].find(f => fs.existsSync(f));
+          if (!file) throw new Error(`Falta el audio ${base}.wav (genera la voz con tts_chatterbox.py)`);
+        } else {
+          process.stdout.write(`  voz slide ${si + 1} segmento ${gi + 1}...\r`);
+          await synthesize(seg.text, file);
+        }
         pcm = decodePcm(file);
       }
       timeline.push({ at: t, slide: si, step: seg.step });
