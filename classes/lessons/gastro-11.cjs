@@ -79,7 +79,7 @@ module.exports = {
       cards: [
         { title: 'Diagnóstico', tag: 'Siempre', kind: 'key', items: [
           { t: 'Colonoscopía total con biopsia', d: 'Ve todo el colon y confirma',
-            say: 'El diagnóstico se hace con colonoscopía total y biopsia. Total, porque puede haber lesiones sincrónicas en otro tramo del colon.' },
+            say: 'Frente a la sospecha, el diagnóstico se hace con colonoscopía total y biopsia. Es el mismo examen que vimos en la enfermedad inflamatoria: permite ver todo el colon y tomar la muestra que confirma.' },
         ] },
         { title: 'Etapificación', tag: 'Recto: más estudio', kind: 'criteria', items: [
           { t: 'TAC de tórax, abdomen y pelvis', d: 'Busca metástasis',
@@ -123,11 +123,11 @@ module.exports = {
           { t: 'Hemicolectomía derecha o izquierda', d: 'Según la localización',
             say: 'El tratamiento del cáncer de colon es quirúrgico: hemicolectomía derecha o izquierda según dónde esté el tumor.' },
           { t: 'También en enfermedad avanzada', d: 'Para evitar la obstrucción',
-            say: 'Y se opera siempre, incluso en enfermedad avanzada, para evitar que el tumor termine obstruyendo el colon.' },
+            say: 'Y se opera siempre, incluso en enfermedad avanzada, para evitar que el tumor termine obstruyendo el colon. Recuerda que la obstrucción es su complicación más frecuente.' },
         ] },
         { title: 'Quimioterapia', tag: 'Muy eficaz', kind: 'pharma', items: [
           { t: 'Puede curar con metástasis hepáticas', d: 'Si son resecables',
-            say: 'La quimioterapia del cáncer de colon es especialmente eficaz. Incluso con metástasis hepáticas resecables se puede lograr la curación.' },
+            say: 'La quimioterapia del cáncer de colon es especialmente eficaz. Incluso con metástasis hepáticas resecables se puede lograr la curación. Así que un cáncer de colon con metástasis en el hígado no es, de entrada, un paciente solo paliativo.' },
         ] },
         { title: 'Cáncer de recto', tag: 'Agrega radioterapia', kind: 'alert', items: [
           { t: 'Radioterapia', d: 'Complicación: rectitis actínica',
