@@ -90,7 +90,7 @@ module.exports = {
           { t: 'Dolor: antiespasmódicos', d: 'Trimebutino, bromuro de pinaverio',
             say: 'Los fármacos se eligen según el síntoma que predomina. Si predomina el dolor, antiespasmódicos: trimebutino o bromuro de pinaverio.' },
           { t: 'Diarrea: amitriptilina en dosis baja', d: 'Antidepresivo tricíclico',
-            say: 'Si predomina la diarrea, un antidepresivo tricíclico en dosis baja, la amitriptilina. No se usa como antidepresivo: actúa sobre la hipersensibilidad y enlentece el tránsito.' },
+            say: 'Si predomina la diarrea, un antidepresivo tricíclico en dosis baja, la amitriptilina.' },
           { t: 'Constipación: polietilenglicol', d: 'Laxante osmótico',
             say: 'Y si predomina la constipación, un laxante osmótico, el polietilenglicol.' },
         ] },
