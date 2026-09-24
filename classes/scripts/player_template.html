@@ -197,6 +197,32 @@
   .pw-trail { display:flex; flex-wrap:wrap; align-items:center; gap:6px; font-size:11.5px; }
   .pw-trail .pw-crumb { background:#FFFFFF; border:1px solid #DCD8CE; border-radius:4px; padding:3px 8px; font-weight:700; color:#111111; }
   .pw-trail .pw-arrow { color:#777069; font-weight:800; }
+
+  /* Mini-pathway conceptual (flow) */
+  .fl-wrap { flex:1; min-height:0; display:flex; flex-direction:column; gap:14px; }
+  .fl-stage { flex:1; }
+  .fl-note { flex-shrink:0; min-height:58px; display:flex; align-items:center; gap:14px; background:#111111; color:#F5F3EE; border-radius:8px; padding:14px 22px; }
+  .fl-note .fl-note-tag { font-size:10.5px; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:#FBBF24; white-space:nowrap; }
+  .fl-note .fl-note-text { font-size:19px; font-weight:700; letter-spacing:-0.01em; }
+  .fl-note .fl-note-text.fl-in { animation: slideEnter 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .pw-node.fl-node .pw-t { font-size:calc(16px * var(--pw-fs, 1)); }
+  .pw-node.fl-node .pw-s { font-size:calc(12.5px * var(--pw-fs, 1)); }
+  .pw-node.fl-dim { opacity:0.55; }
+
+  /* Puntos que se encienden a medida que se explican (points) */
+  .pt-grid { flex:1; min-height:0; display:grid; gap:20px; align-items:start; align-content:center; }
+  .pt-card { background:#EDEAE2; border:1px solid #DCD8CE; border-top:5px solid var(--c); border-radius:10px; padding:20px 22px; display:flex; flex-direction:column; gap:12px;
+    transition: opacity 0.5s ease, transform 0.6s var(--spring-curve), filter 0.5s ease; }
+  .pt-card.pt-card-hidden { opacity:0.2; transform:translateY(14px); filter:grayscale(1); }
+  .pt-tag { font-size:10.5px; font-weight:800; letter-spacing:0.12em; text-transform:uppercase; color:var(--c); }
+  .pt-title { font-size:23px; font-weight:800; letter-spacing:-0.02em; line-height:1.15; color:#111111; }
+  .pt-item { background:#FFFFFF; border:1px solid #DCD8CE; border-left:4px solid var(--c); border-radius:8px; padding:13px 16px; cursor:pointer;
+    transition: opacity 0.45s ease, transform 0.55s var(--spring-curve), box-shadow 0.35s ease, background 0.35s ease; }
+  .pt-item.pt-hidden { opacity:0; transform:translateY(14px) scale(0.96); }
+  .pt-item.pt-active { transform:scale(1.035); background:#FFFDF6; box-shadow:0 0 0 4px var(--ring), 0 12px 26px rgba(0,0,0,0.12); }
+  .pt-item.pt-done { opacity:0.8; }
+  .pt-t { font-size:19px; font-weight:800; letter-spacing:-0.01em; line-height:1.25; color:#111111; }
+  .pt-d { font-size:15px; line-height:1.4; color:#57534E; margin-top:4px; }
 </style>
 </head>
 <body class="h-screen w-screen flex flex-col relative select-none">
@@ -460,6 +486,8 @@
       if (sl.type === 'bento') return Math.max(1, (sl.cards || []).length);
       if (sl.type === 'figure') return Math.max(1, (sl.steps || []).length);
       if (sl.type === 'pathway') return Math.max(1, (sl.nodes || []).length);
+      if (sl.type === 'flow') return Math.max(1, (sl.steps || []).length);
+      if (sl.type === 'points') return Math.max(1, (sl.cards || []).reduce((a, c) => a + c.items.length, 0));
       if (sl.type === 'table') return Math.max(1, (sl.rows || []).length);
       if (sl.type === 'quiz') return 4;
       return 1;
@@ -719,6 +747,10 @@
         }
       } else if (sl.type === 'pathway') {
         pathwayReveal(currentStepIdx, animate);
+      } else if (sl.type === 'flow') {
+        flowReveal(currentStepIdx, animate);
+      } else if (sl.type === 'points') {
+        pointsReveal(currentStepIdx, animate);
       } else if (sl.type === 'table') {
         const rows = document.querySelectorAll('.table-step-row');
         rows.forEach((row, ri) => {
@@ -743,7 +775,14 @@
       ok:    { c: '#2F6B3F', bg: '#F0FDF4', ring: 'rgba(47,107,63,0.20)', tag: 'Conducta' },
       refer: { c: '#B45309', bg: '#FFFBEB', ring: 'rgba(180,83,9,0.20)', tag: 'Derivar / especialista' },
       alert: { c: '#B4322A', bg: '#FEF2F2', ring: 'rgba(180,50,42,0.20)', tag: 'Urgencia' },
+      cause: { c: '#111111', bg: '#F5F3EE', ring: 'rgba(17,17,17,0.14)', tag: 'Causa' },
+      mech:  { c: '#475569', bg: '#F8FAFC', ring: 'rgba(71,85,105,0.18)', tag: 'Mecanismo' },
+      effect:{ c: '#0369A1', bg: '#F0F9FF', ring: 'rgba(3,105,161,0.18)', tag: 'Consecuencia' },
+      risk:  { c: '#B4322A', bg: '#FEF2F2', ring: 'rgba(180,50,42,0.20)', tag: 'Riesgo' },
+      good:  { c: '#2F6B3F', bg: '#F0FDF4', ring: 'rgba(47,107,63,0.20)', tag: 'Conducta' },
+      trap:  { c: '#B4322A', bg: '#FEF2F2', ring: 'rgba(180,50,42,0.20)', tag: 'Trampa' },
     };
+    const CARD_COLORS = { key: ['#2F6B3F', 'rgba(47,107,63,0.18)'], alert: ['#B4322A', 'rgba(180,50,42,0.18)'], pharma: ['#1E3A8A', 'rgba(30,58,138,0.16)'], criteria: ['#854D0E', 'rgba(133,77,14,0.18)'], normal: ['#475569', 'rgba(71,85,105,0.16)'] };
 
     function pwKind(n) { return PW_KINDS[n.k] || PW_KINDS.do; }
 
@@ -905,7 +944,176 @@
     window.addEventListener('resize', () => {
       const sl = currentSlide();
       if (sl && sl.type === 'pathway') { drawPathwayEdges(); pathwayReveal(currentStepIdx, false); }
+      if (sl && sl.type === 'flow') { drawFlowEdges(); flowReveal(currentStepIdx, false); }
     });
+
+    // ---------------------------------------------------------------------
+    // MINI-PATHWAY CONCEPTUAL: nodos en grilla, flechas que conectan ideas
+    // ---------------------------------------------------------------------
+    function flowShownAt(sl, step) {
+      const shown = new Set();
+      (sl.steps || []).forEach((st, i) => { if (revealMode === 'all' || i <= step) st.show.forEach(id => shown.add(id)); });
+      return shown;
+    }
+
+    function renderFlowHtml(sl) {
+      const cols = Math.max(...sl.nodes.map(n => n.col)) + 1;
+      const rows = Math.max(...sl.nodes.map(n => n.row)) + 1;
+      const nodesHtml = sl.nodes.map(n => {
+        const k = pwKind(n);
+        const left = ((n.col + 0.5) / cols) * 100;
+        const top = ((n.row + 0.5) / rows) * 100;
+        return `<div id="fl-node-${n.id}" class="pw-node fl-node ${revealMode === 'all' ? '' : 'pw-hidden'}" style="left:${left}%;top:${top}%;--c:${k.c};--bg:${k.bg};--ring:${k.ring};width:min(270px, calc(${100 / cols}% - 44px));">
+            <span class="pw-kind">${k.tag}</span>
+            <div class="pw-t">${n.t}</div>
+            ${n.s ? `<div class="pw-s">${n.s}</div>` : ''}
+          </div>`;
+      }).join('');
+      const labelsHtml = sl.edges.map((e, i) => e.label ? `<div id="fl-label-${i}" class="pw-label pw-hidden" style="--c:#57534E">${e.label}</div>` : '').join('');
+      const markers = Object.entries(PW_KINDS).map(([name, k]) =>
+        `<marker id="fl-arrow-${name}" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${k.c}"/></marker>`
+      ).join('');
+      return `
+        <div class="fl-wrap">
+          <div class="pw-stage fl-stage" id="fl-stage">
+            <svg class="pw-svg"><defs>${markers}</defs><g id="fl-edges"></g></svg>
+            ${nodesHtml}
+            ${labelsHtml}
+          </div>
+          <div class="fl-note"><span class="fl-note-tag">La clave</span><span class="fl-note-text" id="fl-note-text"></span></div>
+        </div>`;
+    }
+
+    function drawFlowEdges() {
+      const sl = currentSlide();
+      const stage = document.getElementById('fl-stage');
+      const g = document.getElementById('fl-edges');
+      if (!sl || sl.type !== 'flow' || !stage || !g) return;
+      const rows = Math.max(...sl.nodes.map(n => n.row)) + 1;
+      const els = [...stage.querySelectorAll('.fl-node')];
+      for (let fs = 1; fs >= 0.66; fs -= 0.06) {
+        stage.style.setProperty('--pw-fs', fs.toFixed(2));
+        if (Math.max(...els.map(e => e.offsetHeight)) + 26 <= stage.clientHeight / rows) break;
+      }
+      g.innerHTML = '';
+      const byId = Object.fromEntries(sl.nodes.map(n => [n.id, n]));
+      sl.edges.forEach((e, i) => {
+        const a = document.getElementById('fl-node-' + e.from);
+        const b = document.getElementById('fl-node-' + e.to);
+        if (!a || !b) return;
+        const A = { x: a.offsetLeft, y: a.offsetTop, w: a.offsetWidth / 2, h: a.offsetHeight / 2 };
+        const B = { x: b.offsetLeft, y: b.offsetTop, w: b.offsetWidth / 2, h: b.offsetHeight / 2 };
+        const gap = 10;
+        let d;
+        if (Math.abs(A.x - B.x) < 4) {
+          const down = B.y > A.y;
+          d = `M ${A.x} ${A.y + (down ? A.h : -A.h)} V ${B.y + (down ? -B.h - gap - 8 : B.h + gap)}`;
+        } else {
+          const dir = B.x > A.x ? 1 : -1;
+          const x1 = A.x + dir * A.w, x2 = B.x - dir * (B.w + gap);
+          const mx = x1 + (x2 - x1) / 2;
+          d = Math.abs(A.y - B.y) < 4 ? `M ${x1} ${A.y} H ${x2}` : `M ${x1} ${A.y} H ${mx} V ${B.y} H ${x2}`;
+        }
+        const k = pwKind(byId[e.to]);
+        const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        p.setAttribute('d', d);
+        p.setAttribute('id', 'fl-edge-' + i);
+        p.setAttribute('class', 'pw-edge');
+        p.setAttribute('stroke', k.c);
+        p.dataset.marker = `url(#fl-arrow-${byId[e.to].k in PW_KINDS ? byId[e.to].k : 'do'})`;
+        g.appendChild(p);
+        const len = p.getTotalLength();
+        p.style.strokeDasharray = len;
+        p.style.strokeDashoffset = len;
+        const lbl = document.getElementById('fl-label-' + i);
+        if (lbl) {
+          const pt = p.getPointAtLength(len * 0.5);
+          lbl.style.left = pt.x + 'px';
+          lbl.style.top = pt.y + 'px';
+        }
+      });
+    }
+
+    function flowReveal(active, animate) {
+      const sl = currentSlide();
+      const shown = flowShownAt(sl, active);
+      const focus = new Set(((sl.steps || [])[active] || { show: [] }).show);
+      sl.nodes.forEach(n => {
+        const el = document.getElementById('fl-node-' + n.id);
+        if (!el) return;
+        el.classList.toggle('pw-hidden', !shown.has(n.id));
+        el.classList.toggle('pw-active', focus.has(n.id) && revealMode !== 'all');
+        el.classList.toggle('pw-onpath', focus.has(n.id));
+      });
+      sl.edges.forEach((e, i) => {
+        const p = document.getElementById('fl-edge-' + i);
+        if (!p) return;
+        const visible = shown.has(e.from) && shown.has(e.to);
+        const len = parseFloat(p.style.strokeDasharray) || 0;
+        if (!animate) p.style.transition = 'none';
+        p.style.strokeDashoffset = visible ? 0 : len;
+        p.classList.toggle('pw-onpath', visible && (focus.has(e.to) || focus.has(e.from)));
+        clearTimeout(p._markerTimer);
+        if (!visible) p.removeAttribute('marker-end');
+        else if (!p.hasAttribute('marker-end')) p._markerTimer = setTimeout(() => p.setAttribute('marker-end', p.dataset.marker), animate ? 650 : 0);
+        if (!animate) { p.getBoundingClientRect(); p.style.transition = ''; }
+        const lbl = document.getElementById('fl-label-' + i);
+        if (lbl) lbl.classList.toggle('pw-hidden', !visible);
+      });
+      const noteEl = document.getElementById('fl-note-text');
+      let note = '';
+      for (let i = Math.min(active, sl.steps.length - 1); i >= 0 && !note; i--) note = sl.steps[i].note;
+      if (noteEl && noteEl.textContent !== note) {
+        noteEl.textContent = note;
+        noteEl.classList.remove('fl-in'); void noteEl.offsetWidth; noteEl.classList.add('fl-in');
+      }
+    }
+
+    // ---------------------------------------------------------------------
+    // PUNTOS: cada punto se enciende mientras la voz lo explica
+    // ---------------------------------------------------------------------
+    function renderPointsHtml(sl) {
+      let k = 0;
+      const cardsHtml = sl.cards.map((c, ci) => {
+        const [col, ring] = CARD_COLORS[c.kind] || CARD_COLORS.normal;
+        const items = c.items.map(it => {
+          const id = k++;
+          return `<div id="pt-item-${id}" class="pt-item ${revealMode === 'all' ? '' : 'pt-hidden'}" onclick="onCardClick(${id})"><div class="pt-t">${it.t}</div>${it.d ? `<div class="pt-d">${it.d}</div>` : ''}</div>`;
+        }).join('');
+        return `<div id="pt-card-${ci}" class="pt-card ${revealMode === 'all' ? '' : 'pt-card-hidden'}" style="--c:${col};--ring:${ring}">
+            ${c.tag ? `<div class="pt-tag">${c.tag}</div>` : ''}
+            <div class="pt-title">${c.title}</div>
+            ${items}
+          </div>`;
+      }).join('');
+      return `<div class="pt-grid" style="grid-template-columns:repeat(${sl.cards.length}, 1fr)">${cardsHtml}</div>`;
+    }
+
+    function pointsReveal(active, animate) {
+      const sl = currentSlide();
+      let k = 0;
+      sl.cards.forEach((c, ci) => {
+        const first = k;
+        c.items.forEach(() => {
+          const el = document.getElementById('pt-item-' + k);
+          if (el) {
+            const visible = revealMode === 'all' || k <= active;
+            el.classList.toggle('pt-hidden', !visible);
+            el.classList.toggle('pt-active', k === active && revealMode !== 'all');
+            el.classList.toggle('pt-done', k < active && revealMode !== 'all');
+          }
+          k++;
+        });
+        const cardEl = document.getElementById('pt-card-' + ci);
+        const cardVisible = revealMode === 'all' || first <= active;
+        if (cardEl) cardEl.classList.toggle('pt-card-hidden', !cardVisible);
+        // Flecha a mano alzada que une una tarjeta con la siguiente cuando entra en escena.
+        if (autoAnnotate && animate && ci > 0 && first === active && !drawnArrows.has('pt' + ci)) {
+          drawnArrows.add('pt' + ci);
+          setTimeout(() => drawHandDrawnArrow(document.getElementById('pt-card-' + (ci - 1)), cardEl, '#B4322A'), 250);
+        }
+      });
+    }
 
     // Segmentos de locución: cada uno pertenece a un paso visual de la diapositiva.
     function getSegments(sl) {
@@ -1705,6 +1913,10 @@
         `;
       } else if (sl.type === 'pathway') {
         contentHtml = renderPathwayHtml(sl);
+      } else if (sl.type === 'flow') {
+        contentHtml = renderFlowHtml(sl);
+      } else if (sl.type === 'points') {
+        contentHtml = renderPointsHtml(sl);
       } else if (sl.type === 'figure') {
         // Pasos de decisión en barra horizontal superior con soporte paso a paso
         const stepsHtml = (sl.steps || []).map((st, si) => `
@@ -1746,6 +1958,7 @@
       void vp.offsetWidth;
       vp.classList.add('slide-enter');
       if (sl.type === 'pathway') drawPathwayEdges();
+      if (sl.type === 'flow') drawFlowEdges();
     }
 
     window.changeZoom = function(delta) {

@@ -95,7 +95,7 @@ function buildSegments(slide, introText) {
         const m = it.match(/^([^:]{3,35}):\s*(.*)$/);
         return sentence(m ? `${m[1]}: ${m[2]}` : it);
       });
-      const lead = ci === 0 ? sentence(slide.title) + ' ' : CARD_LEADS[Math.min(ci, CARD_LEADS.length - 1)];
+      const lead = ci === 0 ? sentence(slide.title.replace(/^\d+\.\s*/, '')) + ' ' : CARD_LEADS[Math.min(ci, CARD_LEADS.length - 1)];
       return seg(ci, `${lead}${sentence(c.title)} ${items.join(' ')}`);
     });
   }
@@ -628,6 +628,70 @@ function adaptDeckToSwiss(deck, specialtyName) {
   };
 }
 
+// Clases con guion docente escrito a mano (classes/lessons/<id>.cjs)
+const LESSONS_DIR = path.join(ROOT, 'classes', 'lessons');
+const LESSONS = fs.existsSync(LESSONS_DIR)
+  ? Object.fromEntries(fs.readdirSync(LESSONS_DIR).filter(f => f.endsWith('.cjs')).map(f => {
+      const l = require(path.join(LESSONS_DIR, f));
+      return [l.id, l];
+    }))
+  : {};
+
+const LESSON_CHAPTER = { cover: 0, flow: 1, points: 1, pathway: 2, table: 2, quiz: 3 };
+
+function buildLesson(lesson, deck, specialtyName) {
+  const base = adaptDeckToSwiss(deck, specialtyName);
+  const seg = (step, text) => ({ step, text: speakable(text) });
+  const lastIdx = lesson.slides.length - 1;
+
+  const slides = lesson.slides.map((s, idx) => {
+    let ch = LESSON_CHAPTER[s.type] ?? 1;
+    if (s.type === 'points' && idx === lastIdx) ch = 3;
+    if (s.type === 'points' && /tratamiento/i.test(s.kicker || '')) ch = 2;
+
+    if (s.type === 'cover') {
+      const cover = { ...base.slides[0], subtitle: s.subtitle || base.slides[0].subtitle };
+      return { ...cover, segments: [seg(0, s.say)], notes: [s.say] };
+    }
+    if (s.type === 'flow') {
+      const segments = s.steps.map((st, i) => seg(i, st.say));
+      return { ch, type: 'flow', title: s.title, kicker: s.kicker, nodes: s.nodes, edges: s.edges,
+        steps: s.steps.map(st => ({ show: st.show, note: st.note || '' })), segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'points') {
+      const segments = [];
+      const cards = s.cards.map(c => ({ ...c, items: c.items.map(it => {
+        segments.push(seg(segments.length, it.say));
+        return { t: it.t, d: it.d || '' };
+      }) }));
+      return { ch, type: 'points', title: s.title, kicker: s.kicker, cards, segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'pathway') {
+      const pw = PATHWAYS[lesson.id];
+      const nodes = flattenPathway(pw.root);
+      const segments = nodes.map((n, i) => seg(i, (i === 0 && s.intro ? s.intro + ' ' : '') + n.say));
+      return { ch, type: 'pathway', title: pw.title, kicker: 'ÁRBOL DE DECISIÓN CLÍNICA', nodes, segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'table') {
+      const segments = s.rows.map((r, i) => seg(i, r.say));
+      return { ch, type: 'table', title: s.title, kicker: s.kicker, note: s.note || '',
+        cols: s.head.map((_, i) => (i === 0 ? '1.3fr' : '1fr')), head: s.head,
+        rows: s.rows.map(r => ({ cells: r.cells, hi: false, alert: false })), segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'quiz') {
+      const segments = [seg(0, s.say.stem), seg(1, s.say.question), seg(2, s.say.options), seg(3, s.say.answer)];
+      return { ch, type: 'quiz', title: s.title, kicker: s.kicker, stem: s.stem, question: s.question,
+        options: s.options, correct: s.correct, explanation: s.explanation, ref: s.ref || 'Perfil V3 ASOFAMECh · Guías MINSAL',
+        segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    throw new Error(`Tipo de diapositiva desconocido en ${lesson.id}: ${s.type}`);
+  });
+
+  const count = c => slides.filter(sl => sl.ch === c).length;
+  const chapters = base.chapters.map((c, i) => ({ ...c, meta: i === 3 ? count(3) + ' slides' : count(i) + ' slides' }));
+  return { ...base, chapters, slides };
+}
+
 // Adaptar todas las clases
 const ALL_CLASSES = [];
 
@@ -640,7 +704,7 @@ if (fs.existsSync(introDeckPath)) {
 
 SPECIALTIES.forEach(({ key, name }) => {
   const decks = Object.values(loadDecks(key));
-  decks.forEach(d => ALL_CLASSES.push(adaptDeckToSwiss(d, name)));
+  decks.forEach(d => ALL_CLASSES.push(LESSONS[d.id] ? buildLesson(LESSONS[d.id], d, name) : adaptDeckToSwiss(d, name)));
   console.log(`  ${name}: ${decks.length} clases`);
 });
 
