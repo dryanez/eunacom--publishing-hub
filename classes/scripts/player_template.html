@@ -142,6 +142,61 @@
     mix-blend-mode: multiply;
     transition: stroke-dashoffset 0.40s cubic-bezier(0.25, 1, 0.5, 1);
   }
+
+  /* Transición de entrada de cada diapositiva */
+  @keyframes slideEnter { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:none; } }
+  .slide-enter > * { animation: slideEnter 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .slide-enter > *:nth-child(2) { animation-delay: 0.1s; }
+
+  /* Tarjeta activa: pequeño rebote; viñetas en cascada mientras se explican */
+  @keyframes activePop { 0% { scale:0.965; } 60% { scale:1.012; } 100% { scale:1; } }
+  @keyframes itemIn { from { opacity:0; transform:translateX(-14px); } to { opacity:1; transform:none; } }
+  .step-card.step-active { animation: activePop 0.6s var(--spring-curve); }
+  .step-card.step-active .card-item, .step-card.step-revealed .card-item { animation: itemIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .card-item:nth-child(2) { animation-delay: 0.15s !important; }
+  .card-item:nth-child(3) { animation-delay: 0.3s !important; }
+  .card-item:nth-child(4) { animation-delay: 0.45s !important; }
+  .card-item:nth-child(5) { animation-delay: 0.6s !important; }
+  .card-item:nth-child(6) { animation-delay: 0.75s !important; }
+  .table-step-row.step-active { animation: itemIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  #quiz-options.step-active .quiz-opt { animation: itemIn 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  #quiz-options.step-active .quiz-opt:nth-child(2) { animation-delay: 0.1s; }
+  #quiz-options.step-active .quiz-opt:nth-child(3) { animation-delay: 0.2s; }
+  #quiz-options.step-active .quiz-opt:nth-child(4) { animation-delay: 0.3s; }
+  #quiz-options.step-active .quiz-opt:nth-child(5) { animation-delay: 0.4s; }
+  #quiz-options.quiz-revealed .quiz-opt[data-correct="1"] { background:#E7EDE6 !important; border-color:#2F6B3F !important; box-shadow:0 0 0 3px rgba(47,107,63,0.18); }
+  #quiz-options.quiz-revealed .quiz-opt[data-correct="0"] { opacity:0.55; }
+  #quiz-options.quiz-revealed .quiz-opt[data-correct="1"] .quiz-opt-mark { display:inline !important; }
+  #quiz-answer { display:none; }
+  #quiz-answer.shown { display:block; animation: slideEnter 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+  /* Árbol de decisión clínica animado */
+  .pw-wrap { flex:1; min-height:0; display:flex; gap:20px; }
+  .pw-stage { position:relative; flex:1; min-width:0; background:#FFFFFF; border:1px solid #DCD8CE; border-radius:8px; overflow:hidden; }
+  .pw-svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; }
+  .pw-edge { fill:none; stroke-width:2.4; stroke-linejoin:round; transition: stroke-dashoffset 0.7s cubic-bezier(0.65, 0, 0.35, 1), stroke-width 0.3s ease, opacity 0.3s ease; }
+  .pw-edge.pw-onpath { stroke-width:3.6; }
+  .pw-node { position:absolute; transform:translate(-50%, -50%); background:#FFFFFF; border:2px solid var(--c); border-radius:10px; padding:calc(9px * var(--pw-fs, 1)) 12px calc(10px * var(--pw-fs, 1)); text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.06); cursor:pointer; z-index:2;
+    transition: opacity 0.45s ease, scale 0.6s var(--spring-curve), box-shadow 0.3s ease, background 0.3s ease; }
+  .pw-node.pw-hidden { opacity:0; scale:0.55; pointer-events:none; }
+  .pw-node.pw-onpath { background:var(--bg); }
+  .pw-node.pw-active { scale:1.07; z-index:4; box-shadow:0 0 0 5px var(--ring), 0 12px 30px rgba(0,0,0,0.16); animation: pwPulse 1.8s ease-out 0.4s infinite; }
+  @keyframes pwPulse { 0% { outline:0 solid var(--ring); outline-offset:0; } 100% { outline:12px solid transparent; outline-offset:6px; } }
+  .pw-node .pw-t { font-size:calc(14.5px * var(--pw-fs, 1)); font-weight:800; line-height:1.2; letter-spacing:-0.01em; color:#111111; }
+  .pw-node .pw-s { font-size:calc(11.5px * var(--pw-fs, 1)); line-height:1.3; color:#57534E; margin-top:3px; }
+  .pw-node .pw-kind { position:absolute; top:-9px; left:50%; transform:translateX(-50%); font-size:9px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:#FFFFFF; background:var(--c); padding:1px 7px; border-radius:9px; white-space:nowrap; }
+  .pw-label { position:absolute; transform:translate(-50%, -50%); font-size:10.5px; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; color:#FFFFFF; background:var(--c); padding:2px 8px; border-radius:10px; white-space:nowrap; z-index:3; transition: opacity 0.4s ease 0.35s, scale 0.4s var(--spring-curve) 0.35s; }
+  .pw-label.pw-hidden { opacity:0; scale:0.5; }
+  .pw-panel { width:30%; min-width:300px; max-width:420px; flex-shrink:0; display:flex; flex-direction:column; gap:14px; }
+  .pw-card { background:#EDEAE2; border:1px solid #DCD8CE; border-left:6px solid var(--c); border-radius:8px; padding:20px 22px; display:flex; flex-direction:column; gap:10px; }
+  .pw-card.pw-in { animation: slideEnter 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .pw-card .pw-tag { font-size:10.5px; font-weight:800; letter-spacing:0.12em; text-transform:uppercase; color:var(--c); }
+  .pw-card .pw-big { font-size:22px; font-weight:800; line-height:1.2; letter-spacing:-0.02em; color:#111111; }
+  .pw-card .pw-sub { font-size:13px; font-weight:600; color:#57534E; }
+  .pw-card .pw-say { font-size:15px; line-height:1.55; color:#1E293B; }
+  .pw-trail { display:flex; flex-wrap:wrap; align-items:center; gap:6px; font-size:11.5px; }
+  .pw-trail .pw-crumb { background:#FFFFFF; border:1px solid #DCD8CE; border-radius:4px; padding:3px 8px; font-weight:700; color:#111111; }
+  .pw-trail .pw-arrow { color:#777069; font-weight:800; }
 </style>
 </head>
 <body class="h-screen w-screen flex flex-col relative select-none">
@@ -404,8 +459,9 @@
       if (sl.type === 'cover') return 1;
       if (sl.type === 'bento') return Math.max(1, (sl.cards || []).length);
       if (sl.type === 'figure') return Math.max(1, (sl.steps || []).length);
-      if (sl.type === 'table') return Math.max(1, Math.min(4, (sl.rows || []).length));
-      if (sl.type === 'quiz') return 3;
+      if (sl.type === 'pathway') return Math.max(1, (sl.nodes || []).length);
+      if (sl.type === 'table') return Math.max(1, (sl.rows || []).length);
+      if (sl.type === 'quiz') return 4;
       return 1;
     }
 
@@ -656,7 +712,13 @@
           } else {
             qOptions.classList.add('step-pending');
           }
+          const qAnswer = document.getElementById('quiz-answer');
+          const showAnswer = currentStepIdx >= 3;
+          qOptions.classList.toggle('quiz-revealed', showAnswer);
+          if (qAnswer) qAnswer.classList.toggle('shown', showAnswer);
         }
+      } else if (sl.type === 'pathway') {
+        pathwayReveal(currentStepIdx, animate);
       } else if (sl.type === 'table') {
         const rows = document.querySelectorAll('.table-step-row');
         rows.forEach((row, ri) => {
@@ -664,20 +726,213 @@
             row.classList.remove('step-pending');
             row.classList.add('step-active');
           } else {
+            row.classList.remove('step-active');
             row.classList.add('step-pending');
           }
         });
       }
     }
 
-    // Sincronizar pasos con audio en tiempo real
+    // ---------------------------------------------------------------------
+    // ÁRBOL DE DECISIÓN: layout en árbol, conectores ortogonales y revelado
+    // ---------------------------------------------------------------------
+    const PW_KINDS = {
+      start: { c: '#111111', bg: '#F5F3EE', ring: 'rgba(17,17,17,0.14)', tag: 'Punto de partida' },
+      q:     { c: '#0369A1', bg: '#F0F9FF', ring: 'rgba(3,105,161,0.18)', tag: 'Pregunta clave' },
+      do:    { c: '#475569', bg: '#F8FAFC', ring: 'rgba(71,85,105,0.18)', tag: 'Examen / acción' },
+      ok:    { c: '#2F6B3F', bg: '#F0FDF4', ring: 'rgba(47,107,63,0.20)', tag: 'Conducta' },
+      refer: { c: '#B45309', bg: '#FFFBEB', ring: 'rgba(180,83,9,0.20)', tag: 'Derivar / especialista' },
+      alert: { c: '#B4322A', bg: '#FEF2F2', ring: 'rgba(180,50,42,0.20)', tag: 'Urgencia' },
+    };
+
+    function pwKind(n) { return PW_KINDS[n.k] || PW_KINDS.do; }
+
+    function pwLayout(nodes) {
+      const kids = nodes.map(() => []);
+      nodes.forEach(n => { if (n.parent >= 0) kids[n.parent].push(n.id); });
+      const x = new Array(nodes.length);
+      let slot = 0;
+      (function place(id) {
+        if (!kids[id].length) { x[id] = slot++; return; }
+        kids[id].forEach(place);
+        x[id] = (x[kids[id][0]] + x[kids[id][kids[id].length - 1]]) / 2;
+      })(0);
+      const depth = Math.max(...nodes.map(n => n.depth));
+      return { kids, x, leaves: Math.max(1, slot), depth };
+    }
+
+    function pwPathTo(nodes, id) {
+      const path = [];
+      for (let i = id; i >= 0; i = nodes[i].parent) path.unshift(i);
+      return path;
+    }
+
+    function renderPathwayHtml(sl) {
+      const nodes = sl.nodes || [];
+      const { x, leaves, depth } = pwLayout(nodes);
+      const nodesHtml = nodes.map(n => {
+        const k = pwKind(n);
+        const left = ((x[n.id] + 0.5) / leaves) * 100;
+        const top = ((n.depth + 0.5) / (depth + 1)) * 100;
+        const vis = revealMode === 'all' || n.id === 0 ? '' : 'pw-hidden';
+        return `<div id="pw-node-${n.id}" class="pw-node ${vis}" onclick="onCardClick(${n.id})" style="left:${left}%;top:${top}%;--c:${k.c};--bg:${k.bg};--ring:${k.ring};width:min(240px, calc(${100 / leaves}% - 18px));">
+            <span class="pw-kind">${k.tag}</span>
+            <div class="pw-t">${n.t}</div>
+            ${n.s ? `<div class="pw-s">${n.s}</div>` : ''}
+          </div>`;
+      }).join('');
+      const labelsHtml = nodes.filter(n => n.edge).map(n => {
+        const k = pwKind(n);
+        return `<div id="pw-label-${n.id}" class="pw-label ${revealMode === 'all' ? '' : 'pw-hidden'}" style="--c:${k.c}">${n.edge}</div>`;
+      }).join('');
+      const markers = Object.entries(PW_KINDS).map(([name, k]) =>
+        `<marker id="pw-arrow-${name}" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${k.c}"/></marker>`
+      ).join('');
+      return `
+        <div class="pw-wrap">
+          <div class="pw-stage" id="pw-stage">
+            <svg class="pw-svg" id="pw-svg"><defs>${markers}</defs><g id="pw-edges"></g></svg>
+            ${nodesHtml}
+            ${labelsHtml}
+          </div>
+          <div class="pw-panel" id="pw-panel"></div>
+        </div>`;
+    }
+
+    // Traza conectores en coordenadas reales de pantalla (tras medir cada caja).
+    // Reduce la tipografía hasta que cada fila del árbol quepa en su franja vertical.
+    function fitPathway(stage, sl) {
+      const rows = Math.max(...(sl.nodes || []).map(n => n.depth)) + 1;
+      const rowH = stage.clientHeight / rows;
+      const nodes = [...stage.querySelectorAll('.pw-node')];
+      for (let fs = 1; fs >= 0.66; fs -= 0.06) {
+        stage.style.setProperty('--pw-fs', fs.toFixed(2));
+        const tallest = Math.max(...nodes.map(n => n.offsetHeight));
+        if (tallest + 30 <= rowH) return;
+      }
+    }
+
+    function drawPathwayEdges() {
+      const sl = currentSlide();
+      const stage = document.getElementById('pw-stage');
+      const g = document.getElementById('pw-edges');
+      if (!sl || sl.type !== 'pathway' || !stage || !g) return;
+      fitPathway(stage, sl);
+      g.innerHTML = '';
+      (sl.nodes || []).forEach(n => {
+        if (n.parent < 0) return;
+        const a = document.getElementById('pw-node-' + n.parent);
+        const b = document.getElementById('pw-node-' + n.id);
+        if (!a || !b) return;
+        // offsetLeft/Top ignoran la escala animada, así el conector no salta.
+        const ax = a.offsetLeft, ay = a.offsetTop + a.offsetHeight / 2;
+        const bx = b.offsetLeft, by = b.offsetTop - b.offsetHeight / 2 - 12;
+        const midY = ay + (by - ay) * 0.45;
+        const d = Math.abs(ax - bx) < 2 ? `M ${ax} ${ay} V ${by}` : `M ${ax} ${ay} V ${midY} H ${bx} V ${by}`;
+        const k = pwKind(n);
+        const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        p.setAttribute('d', d);
+        p.setAttribute('id', 'pw-edge-' + n.id);
+        p.setAttribute('class', 'pw-edge');
+        p.setAttribute('stroke', k.c);
+        p.dataset.marker = `url(#pw-arrow-${n.k in PW_KINDS ? n.k : 'do'})`;
+        g.appendChild(p);
+        const len = p.getTotalLength();
+        const shown = revealMode === 'all' || n.id <= currentStepIdx;
+        p.style.strokeDasharray = len;
+        p.style.strokeDashoffset = shown ? 0 : len;
+        if (shown) p.setAttribute('marker-end', p.dataset.marker);
+        const lbl = document.getElementById('pw-label-' + n.id);
+        if (lbl) {
+          lbl.style.left = bx + 'px';
+          lbl.style.top = (midY + (by - midY) * 0.5) + 'px';
+        }
+      });
+    }
+
+    function pathwayReveal(active, animate) {
+      const sl = currentSlide();
+      const nodes = sl.nodes || [];
+      const onPath = new Set(pwPathTo(nodes, active));
+      nodes.forEach(n => {
+        const el = document.getElementById('pw-node-' + n.id);
+        if (!el) return;
+        const visible = revealMode === 'all' || n.id <= active;
+        el.classList.toggle('pw-hidden', !visible);
+        el.classList.toggle('pw-active', n.id === active);
+        el.classList.toggle('pw-onpath', onPath.has(n.id));
+        const edge = document.getElementById('pw-edge-' + n.id);
+        if (edge) {
+          const len = parseFloat(edge.style.strokeDasharray) || 0;
+          if (!animate) edge.style.transition = 'none';
+          edge.style.strokeDashoffset = visible ? 0 : len;
+          clearTimeout(edge._markerTimer);
+          if (!visible) edge.removeAttribute('marker-end');
+          else if (!edge.hasAttribute('marker-end')) {
+            // La punta de flecha aparece cuando la línea termina de dibujarse.
+            edge._markerTimer = setTimeout(() => edge.setAttribute('marker-end', edge.dataset.marker), animate ? 650 : 0);
+          }
+          edge.classList.toggle('pw-onpath', onPath.has(n.id));
+          edge.style.opacity = visible && !onPath.has(n.id) ? 0.55 : 1;
+          if (!animate) { edge.getBoundingClientRect(); edge.style.transition = ''; }
+        }
+        const lbl = document.getElementById('pw-label-' + n.id);
+        if (lbl) lbl.classList.toggle('pw-hidden', !visible);
+      });
+
+      const n = nodes[active];
+      const panel = document.getElementById('pw-panel');
+      if (!n || !panel) return;
+      const k = pwKind(n);
+      const trail = pwPathTo(nodes, active).map((id, i) => {
+        const m = nodes[id];
+        const via = i > 0 && m.edge ? `<span class="pw-arrow">${m.edge} →</span>` : (i > 0 ? '<span class="pw-arrow">→</span>' : '');
+        return `${via}<span class="pw-crumb">${m.t}</span>`;
+      }).join('');
+      panel.innerHTML = `
+        <div class="pw-card pw-in" style="--c:${k.c}">
+          <div class="pw-tag">Paso ${active + 1} de ${nodes.length} · ${k.tag}</div>
+          <div class="pw-big">${n.t}</div>
+          ${n.s ? `<div class="pw-sub">${n.s}</div>` : ''}
+          <div class="pw-say">${n.say || ''}</div>
+        </div>
+        <div>
+          <div class="mono" style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:#777069;margin-bottom:6px;">Tu razonamiento hasta aquí</div>
+          <div class="pw-trail">${trail}</div>
+        </div>`;
+    }
+
+    window.addEventListener('resize', () => {
+      const sl = currentSlide();
+      if (sl && sl.type === 'pathway') { drawPathwayEdges(); pathwayReveal(currentStepIdx, false); }
+    });
+
+    // Segmentos de locución: cada uno pertenece a un paso visual de la diapositiva.
+    function getSegments(sl) {
+      if (sl && sl.segments && sl.segments.length) return sl.segments;
+      return [{ step: 0, text: getSlideNarrationText(currentClass(), sl) }];
+    }
+
+    // Fracción del audio total en la que empieza cada segmento (proporcional a sus palabras).
+    function segmentStarts(sl) {
+      const segs = getSegments(sl);
+      const words = segs.map(g => Math.max(1, g.text.split(/\s+/).length));
+      const total = words.reduce((a, b) => a + b, 0);
+      let acc = 0;
+      return words.map(w => { const f = acc / total; acc += w; return f; });
+    }
+
+    // Para audio MP3 pregrabado: revela el paso del segmento que está sonando.
     function syncProgressiveSteps(currentTime, duration) {
       if (!duration || duration <= 0) return;
-      const progress = Math.max(0, Math.min(1, currentTime / duration));
-      const targetStep = Math.min(totalStepsInSlide - 1, Math.floor(progress * totalStepsInSlide));
-      if (targetStep > currentStepIdx) {
-        revealStep(targetStep, true);
-      }
+      const sl = currentSlide();
+      const segs = getSegments(sl);
+      const starts = segmentStarts(sl);
+      const progress = currentTime / duration;
+      let i = 0;
+      while (i + 1 < starts.length && starts[i + 1] <= progress) i++;
+      const target = Math.min(totalStepsInSlide - 1, segs[i].step);
+      if (target > currentStepIdx) revealStep(target, true);
     }
 
     function nextStep() {
@@ -704,13 +959,18 @@
     }
 
     function seekAudioToStep(step) {
-      const totalTime = isUsingTTS ? ttsDuration : (audioEl.duration || 30);
-      const targetTime = (step / totalStepsInSlide) * totalTime;
+      const sl = currentSlide();
+      const segs = getSegments(sl);
+      let i = segs.findIndex(g => g.step >= step);
+      if (i < 0) i = segs.length - 1;
+      ttsSegIdx = i;
+      const frac = segmentStarts(sl)[i];
       if (isUsingTTS) {
-        ttsElapsed = targetTime;
+        ttsElapsed = frac * ttsDuration;
         updateAudioUI(ttsElapsed, ttsDuration, isPlayingAudio);
+        if (isPlayingAudio) startSpeechSynthesis(i, activeAudioGen);
       } else if (audioEl && audioEl.duration) {
-        audioEl.currentTime = targetTime;
+        audioEl.currentTime = frac * audioEl.duration;
         updateAudioUI(audioEl.currentTime, audioEl.duration, isPlayingAudio);
       }
     }
@@ -836,9 +1096,12 @@
       }
       isUsingTTS = false;
       isPlayingAudio = false;
+      ttsToken++;
+      ttsSegIdx = 0;
     }
 
     function getSlideNarrationText(cls, sl) {
+      if (sl.segments && sl.segments.length) return sl.segments.map(g => g.text).join(' ');
       if (sl.notes && sl.notes[0] && sl.notes[0].trim().length > 10) {
         return sl.notes[0].trim();
       }
@@ -920,123 +1183,115 @@
       statusLbl.innerText = '● VOZ CLÍNICA (SINTETIZADA)';
       statusLbl.style.color = '#0284C7';
 
-      const cls = currentClass();
-      const sl = currentSlide();
-      const text = getSlideNarrationText(cls, sl);
+      const text = getSlideNarrationText(currentClass(), currentSlide());
       const wordCount = text.split(/\s+/).length;
       ttsDuration = Math.max(8, Math.round(wordCount / (2.6 * audioSpeed)));
       ttsElapsed = 0;
+      ttsSegIdx = 0;
       updateAudioUI(0, ttsDuration, false);
 
       if (autoStart || isPlayingAudio) {
-        startSpeechSynthesis(text, callerGen);
+        startSpeechSynthesis(0, callerGen);
       }
     }
 
-    function startSpeechSynthesis(text, callerGen) {
-      if (!window.speechSynthesis) return;
-      const myGen = callerGen || activeAudioGen;
+    function pickSpanishVoice() {
+      const voices = window.speechSynthesis.getVoices();
+      return voices.find(v => v.lang.startsWith('es-CL')) ||
+             voices.find(v => v.lang.startsWith('es-ES')) ||
+             voices.find(v => v.lang.startsWith('es-MX')) ||
+             voices.find(v => v.lang.startsWith('es')) ||
+             voices.find(v => /spanish|español|sabina|helena|laura|pablo|raul/i.test(v.name));
+    }
 
-      if (ttsUtterance) {
-        ttsUtterance.onend = null;
-        ttsUtterance.onerror = null;
-        ttsUtterance = null;
-      }
-      window.speechSynthesis.cancel();
+    let ttsSegIdx = 0;
+    let ttsToken = 0;
+
+    function clearTTSTimers() {
       if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
       if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
+    }
 
-      // Pausa técnica de 60ms para reiniciar el subsistema de audio de Chrome
-      setTimeout(() => {
-        if (myGen !== activeAudioGen) return;
+    // Habla la diapositiva segmento por segmento; al empezar cada uno revela su paso visual.
+    function startSpeechSynthesis(fromSeg, callerGen) {
+      if (!window.speechSynthesis) return;
+      const myGen = callerGen || activeAudioGen;
+      const myToken = ++ttsToken;
+      if (ttsUtterance) { ttsUtterance.onend = null; ttsUtterance.onerror = null; ttsUtterance = null; }
+      window.speechSynthesis.cancel();
+      clearTTSTimers();
 
-        ttsUtterance = new SpeechSynthesisUtterance(text);
-        window.__currentUtterance = ttsUtterance;
-        ttsUtterance.rate = audioSpeed;
-        ttsUtterance.lang = 'es-CL';
+      const sl = currentSlide();
+      const segs = getSegments(sl);
+      const starts = segmentStarts(sl);
+      const alive = () => myGen === activeAudioGen && myToken === ttsToken;
 
-        const voices = window.speechSynthesis.getVoices();
-        const esVoice = voices.find(v => v.lang.startsWith('es-CL')) ||
-                        voices.find(v => v.lang.startsWith('es-ES')) ||
-                        voices.find(v => v.lang.startsWith('es-MX')) ||
-                        voices.find(v => v.lang.startsWith('es')) ||
-                        voices.find(v => /spanish|español|sabina|helena|laura|pablo|raul/i.test(v.name));
-        
-        if (esVoice) {
-          ttsUtterance.voice = esVoice;
-          ttsUtterance.lang = esVoice.lang;
-        } else {
-          // No permitir que una voz en inglés lea español con acento roto
-          console.warn('No hay voz en español instalada en el navegador/sistema.');
-          const statusLbl = document.getElementById('audio-status-label');
-          statusLbl.innerText = '● VOZ EN ESPAÑOL REQUERIDA (O AUDIO HD)';
-          statusLbl.style.color = '#B4322A';
-          isPlayingAudio = false;
-          updateAudioUI(0, ttsDuration, false);
+      const esVoice = pickSpanishVoice();
+      if (!esVoice) {
+        const statusLbl = document.getElementById('audio-status-label');
+        statusLbl.innerText = '● VOZ EN ESPAÑOL REQUERIDA (O AUDIO HD)';
+        statusLbl.style.color = '#B4322A';
+        isPlayingAudio = false;
+        updateAudioUI(0, ttsDuration, false);
+        return;
+      }
+
+      isPlayingAudio = true;
+      updateAudioUI(ttsElapsed, ttsDuration, true);
+
+      ttsTimer = setInterval(() => {
+        if (!alive() || !isPlayingAudio) { clearInterval(ttsTimer); ttsTimer = null; return; }
+        const segEnd = (starts[ttsSegIdx + 1] !== undefined ? starts[ttsSegIdx + 1] : 1) * ttsDuration;
+        ttsElapsed = Math.min(ttsElapsed + 0.25, segEnd);
+        updateAudioUI(ttsElapsed, ttsDuration, true);
+      }, 250);
+
+      // Keepalive para evitar la desconexión a los 15 segundos en Chromium
+      window.__ttsKeepAlive = setInterval(() => {
+        if (!alive() || !isPlayingAudio) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; return; }
+        if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+          window.speechSynthesis.pause();
+          window.speechSynthesis.resume();
+        }
+      }, 8000);
+
+      function speakSegment(i) {
+        if (!alive()) return;
+        if (i >= segs.length) {
+          clearTTSTimers();
+          onSlideAudioEnded(true, myGen);
           return;
         }
+        ttsSegIdx = i;
+        ttsElapsed = starts[i] * ttsDuration;
+        const target = Math.min(totalStepsInSlide - 1, segs[i].step);
+        if (target !== currentStepIdx) revealStep(target, true);
 
-        ttsElapsed = 0;
-        isPlayingAudio = true;
-        updateAudioUI(0, ttsDuration, true);
-
-        if (ttsTimer) clearInterval(ttsTimer);
-        ttsTimer = setInterval(() => {
-          if (myGen !== activeAudioGen || !isPlayingAudio) {
-            clearInterval(ttsTimer);
-            ttsTimer = null;
-            return;
-          }
-          ttsElapsed += 0.25;
-          if (ttsElapsed >= ttsDuration) {
-            clearInterval(ttsTimer);
-            ttsTimer = null;
-          }
-          updateAudioUI(Math.min(ttsElapsed, ttsDuration), ttsDuration, true);
-          syncProgressiveSteps(ttsElapsed, ttsDuration);
-        }, 250);
-
-        // Keepalive para evitar la desconexión a los 15 segundos en Chromium
-        window.__ttsKeepAlive = setInterval(() => {
-          if (!window.speechSynthesis || myGen !== activeAudioGen || !isPlayingAudio) {
-            clearInterval(window.__ttsKeepAlive);
-            window.__ttsKeepAlive = null;
-            return;
-          }
-          if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
-            window.speechSynthesis.pause();
-            window.speechSynthesis.resume();
-          }
-        }, 8000);
-
-        ttsUtterance.onend = () => {
-          if (myGen !== activeAudioGen) return;
-          if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
-          if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
-          onSlideAudioEnded(true, myGen);
-        };
-
-        ttsUtterance.onerror = (e) => {
-          if (myGen !== activeAudioGen) return;
-          if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
-          if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
-          if (e && (e.error === 'canceled' || e.error === 'interrupted')) {
-            return; // Cancelación deliberada por navegación del usuario
-          }
+        const u = new SpeechSynthesisUtterance(segs[i].text);
+        ttsUtterance = u;
+        window.__currentUtterance = u;
+        u.voice = esVoice;
+        u.lang = esVoice.lang;
+        u.rate = audioSpeed;
+        u.onend = () => { if (alive()) speakSegment(i + 1); };
+        u.onerror = (e) => {
+          if (!alive()) return;
+          if (e && (e.error === 'canceled' || e.error === 'interrupted')) return;
           console.warn('TTS aviso:', e && e.error);
+          clearTTSTimers();
           isPlayingAudio = false;
           updateAudioUI(ttsElapsed, ttsDuration, false);
         };
+        window.speechSynthesis.speak(u);
+      }
 
-        window.speechSynthesis.speak(ttsUtterance);
-      }, 60);
+      // Pausa técnica de 60ms para reiniciar el subsistema de audio de Chrome
+      setTimeout(() => speakSegment(fromSeg || 0), 60);
     }
 
     function playAudio() {
       if (isUsingTTS) {
-        const cls = currentClass();
-        const sl = currentSlide();
-        startSpeechSynthesis(getSlideNarrationText(cls, sl), activeAudioGen);
+        startSpeechSynthesis(ttsSegIdx, activeAudioGen);
       } else if (audioEl && audioEl.src && audioEl.duration) {
         audioEl.play().then(() => {
           isPlayingAudio = true;
@@ -1052,13 +1307,10 @@
     function pauseAudio() {
       isPlayingAudio = false;
       if (isUsingTTS) {
-        if (ttsUtterance) {
-          ttsUtterance.onend = null;
-          ttsUtterance.onerror = null;
-        }
+        ttsToken++;
+        if (ttsUtterance) { ttsUtterance.onend = null; ttsUtterance.onerror = null; }
         if (window.speechSynthesis) window.speechSynthesis.cancel();
-        if (ttsTimer) { clearInterval(ttsTimer); ttsTimer = null; }
-        if (window.__ttsKeepAlive) { clearInterval(window.__ttsKeepAlive); window.__ttsKeepAlive = null; }
+        clearTTSTimers();
         updateAudioUI(ttsElapsed, ttsDuration, false);
       } else if (audioEl) {
         audioEl.pause();
@@ -1323,10 +1575,10 @@
               const highlightedBody = bodyText
                 .replace(/\b(Estadio\s+[123]|Grado\s+[123]|Clase\s+[I|II|III|IV]+|Forrest\s+[I|II|III][a-c]?)\b/gi, `<mark class="clinical-mark mark-alert" data-step="${ci}">$1</mark>`)
                 .replace(/\b(EDA|IBP|KDIGO|GES|MINSAL|CESFAM|ECG|TAC|POCUS|FeNa|FeUrea|PCR|VHS|VNI|UPC|UCI|NTA|BUN|Creatinina|Sonda Foley|Omeprazol|Esomeprazol|Lansoprazol|Terlipresina|Octreótido|Ceftriaxona|Ciprofloxacino|Amoxicilina|Sertralina|Escitalopram|Haloperidol|Lorazepam|Diazepam|Litio|Valproato|Olanzapina|Quetiapina|Tiamina|Naloxona|Flumazenil)\b/g, `<strong class="clinical-keyword" data-step="${ci}">$1</strong>`)
-                .replace(/(?:[≥≤><]?\s*\d+[\d.,]*\s*(?:mg[/]dL|mg[/]kg|mL[/]kg[/]hora|mL[/]kg[/]h|mEq[/]L|pg[/]mL|mmHg|g[/]dL|mg|g|ml|UI|veces|x\s+basal|x|horas?|días?|semanas?|meses?|años?|%))/gi, `<mark class="clinical-mark mark-number" data-step="${ci}">$&</mark>`);
+                .replace(/(?:(?:(?<=^|[\s(])[≥≤><])?\s*\d+[\d.,]*\s*(?:mg[/]dL|mg[/]kg|mL[/]kg[/]hora|mL[/]kg[/]h|mEq[/]L|pg[/]mL|mmHg|g[/]dL|mg|g|ml|UI|veces|x\s+basal|x|horas?|días?|semanas?|meses?|años?|%))/gi, `<mark class="clinical-mark mark-number" data-step="${ci}">$&</mark>`);
 
               return `
-                <div style="background:rgba(255,255,255,0.78); border:1px solid #DCD8CE; border-left:3px solid ${accentColor}; border-radius:4px; padding:10px 14px; display:flex; flex-direction:column; gap:3px; box-shadow:0 1px 4px rgba(0,0,0,0.02);">
+                <div class="card-item" style="background:rgba(255,255,255,0.78); border:1px solid #DCD8CE; border-left:3px solid ${accentColor}; border-radius:4px; padding:10px 14px; display:flex; flex-direction:column; gap:3px; box-shadow:0 1px 4px rgba(0,0,0,0.02);">
                   <div style="font-size:12px; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; color:${accentColor};">${tagText}</div>
                   <div style="font-size:15.5px; line-height:1.5; color:#1E293B;">${highlightedBody}</div>
                 </div>
@@ -1336,10 +1588,10 @@
             let highlighted = item
               .replace(/\b(Estadio\s+[123]|Grado\s+[123]|Clase\s+[I|II|III|IV]+|Forrest\s+[I|II|III][a-c]?)\b/gi, `<mark class="clinical-mark mark-alert" data-step="${ci}">$1</mark>`)
               .replace(/\b(EDA|IBP|KDIGO|GES|MINSAL|CESFAM|ECG|TAC|POCUS|FeNa|FeUrea|PCR|VHS|VNI|UPC|UCI|NTA|BUN|Creatinina|Sonda Foley|Omeprazol|Esomeprazol|Lansoprazol|Terlipresina|Octreótido|Ceftriaxona|Ciprofloxacino|Amoxicilina|Sertralina|Escitalopram|Haloperidol|Lorazepam|Diazepam|Litio|Valproato|Olanzapina|Quetiapina|Tiamina|Naloxona|Flumazenil)\b/g, `<strong class="clinical-keyword" data-step="${ci}">$1</strong>`)
-              .replace(/(?:[≥≤><]?\s*\d+[\d.,]*\s*(?:mg[/]dL|mg[/]kg|mL[/]kg[/]hora|mL[/]kg[/]h|mEq[/]L|pg[/]mL|mmHg|g[/]dL|mg|g|ml|UI|veces|x\s+basal|x|horas?|días?|semanas?|meses?|años?|%))/gi, `<mark class="clinical-mark mark-number" data-step="${ci}">$&</mark>`);
+              .replace(/(?:(?:(?<=^|[\s(])[≥≤><])?\s*\d+[\d.,]*\s*(?:mg[/]dL|mg[/]kg|mL[/]kg[/]hora|mL[/]kg[/]h|mEq[/]L|pg[/]mL|mmHg|g[/]dL|mg|g|ml|UI|veces|x\s+basal|x|horas?|días?|semanas?|meses?|años?|%))/gi, `<mark class="clinical-mark mark-number" data-step="${ci}">$&</mark>`);
 
             return `
-              <div style="display:flex; align-items:flex-start; gap:12px; font-size:15.5px; line-height:1.5; color:#1E293B;">
+              <div class="card-item" style="display:flex; align-items:flex-start; gap:12px; font-size:15.5px; line-height:1.5; color:#1E293B;">
                 <span style="color:${accentColor}; font-size:20px; line-height:1.1; font-weight:900; flex-shrink:0;">•</span>
                 <div style="flex:1;">${highlighted}</div>
               </div>
@@ -1417,10 +1669,10 @@
           }
 
           optionsHtml += `
-            <div onclick="selectQuizOption('${o.letter}')" style="display:flex;align-items:center;padding:10px 14px;border:1px solid ${isChosen ? '#111111' : '#DCD8CE'};background:${bg};border-radius:3px;cursor:${pickedLetter ? 'default' : 'pointer'}" class="${pickedLetter ? '' : 'btn-hover'}">
+            <div onclick="selectQuizOption('${o.letter}')" class="quiz-opt ${pickedLetter ? '' : 'btn-hover'}" data-correct="${isCorrect ? 1 : 0}" style="display:flex;align-items:center;padding:12px 18px;border:1px solid ${isChosen ? '#111111' : '#DCD8CE'};background:${bg};border-radius:4px;cursor:${pickedLetter ? 'default' : 'pointer'}">
               <span class="mono" style="width:28px;font-size:12px;font-weight:700;color:${isCorrect && pickedLetter ? '#2F6B3F' : '#111111'}">${o.letter}</span>
-              <span style="flex:1;font-size:13.5px;color:${fg}">${o.text}</span>
-              ${mark ? `<span class="mono" style="font-size:11px;font-weight:700;color:${markFg}">${mark}</span>` : ''}
+              <span style="flex:1;font-size:15px;color:${fg}">${o.text}</span>
+              ${mark ? `<span class="mono" style="font-size:11px;font-weight:700;color:${markFg}">${mark}</span>` : (isCorrect ? '<span class="mono quiz-opt-mark" style="display:none;font-size:11px;font-weight:700;color:#2F6B3F">[CORRECTA]</span>' : '')}
             </div>
           `;
         });
@@ -1445,12 +1697,14 @@
               ${stemHighlighted}
             </div>
             <div id="quiz-question" class="step-card ${revealMode === 'progressive' ? 'step-pending' : 'step-active'}" style="font-size:14px;font-weight:700;color:#111111;">${sl.question}</div>
-            <div id="quiz-options" class="step-card ${revealMode === 'progressive' ? 'step-pending' : 'step-active'}" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(360px, 1fr));gap:8px;">
+            <div id="quiz-options" class="step-card ${revealMode === 'progressive' ? 'step-pending' : 'step-active'}" style="display:grid;grid-template-columns:1fr;gap:8px;">
               ${optionsHtml}
             </div>
-            ${feedbackHtml}
+            ${feedbackHtml || `<div id="quiz-answer" style="padding:12px 16px;border:1px solid #2F6B3F;border-radius:4px;background:#E7EDE6"><div style="font-size:11.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#2F6B3F;margin-bottom:4px">La respuesta correcta es ${sl.correct}</div><div style="font-size:14px;line-height:1.5;color:#111111">${sl.explanation}</div></div>`}
           </div>
         `;
+      } else if (sl.type === 'pathway') {
+        contentHtml = renderPathwayHtml(sl);
       } else if (sl.type === 'figure') {
         // Pasos de decisión en barra horizontal superior con soporte paso a paso
         const stepsHtml = (sl.steps || []).map((st, si) => `
@@ -1488,6 +1742,10 @@
       }
 
       vp.innerHTML = headerHtml + contentHtml;
+      vp.classList.remove('slide-enter');
+      void vp.offsetWidth;
+      vp.classList.add('slide-enter');
+      if (sl.type === 'pathway') drawPathwayEdges();
     }
 
     window.changeZoom = function(delta) {
@@ -1622,9 +1880,12 @@
       const totalTime = isUsingTTS ? ttsDuration : (audioEl.duration || 30);
       const targetTime = pos * totalTime;
       if (isUsingTTS) {
-        ttsElapsed = targetTime;
-        updateAudioUI(ttsElapsed, ttsDuration, isPlayingAudio);
-        syncProgressiveSteps(ttsElapsed, ttsDuration);
+        const starts = segmentStarts(currentSlide());
+        let i = 0;
+        while (i + 1 < starts.length && starts[i + 1] <= pos) i++;
+        const step = getSegments(currentSlide())[i].step;
+        revealStep(step, true);
+        seekAudioToStep(step);
       } else if (audioEl && audioEl.duration) {
         audioEl.currentTime = targetTime;
         updateAudioUI(audioEl.currentTime, audioEl.duration, isPlayingAudio);

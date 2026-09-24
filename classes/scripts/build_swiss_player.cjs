@@ -17,6 +17,121 @@ const SPECIALTIES = [
   { key: 'hematologia', name: 'Hematología' },
 ];
 
+const PATHWAYS = require(path.join(ROOT, 'classes', 'pathways', 'gastro_pathways.cjs'));
+
+function flattenPathway(root) {
+  const nodes = [];
+  (function walk(n, parent, edge, depth) {
+    const id = nodes.length;
+    nodes.push({ id, parent, edge, depth, k: n.k, t: n.t, s: n.s || '', say: n.say || '' });
+    (n.kids || []).forEach(([label, child]) => walk(child, id, label, depth + 1));
+  })(root, -1, '', 0);
+  return nodes;
+}
+
+// Convierte texto de pantalla en texto locutable: símbolos y abreviaturas que la voz lee mal.
+function speakable(text) {
+  return String(text || '')
+    .replace(/<\/?(strong|em|b|i|br|span|mark)\b[^>]*>/gi, '')
+    .replace(/H\.\s*pylori/g, 'Helicobacter pylori')
+    .replace(/(\d)\s*[–-]\s*(\d)/g, '$1 a $2')
+    .replace(/mg\/dL/g, ' miligramos por decilitro')
+    .replace(/mL\/kg\/h(ora)?/g, ' mililitros por kilo por hora')
+    .replace(/mL\/kg/g, ' mililitros por kilo')
+    .replace(/g\/dL/g, ' gramos por decilitro')
+    .replace(/\/mm³/g, ' por milímetro cúbico')
+    .replace(/(\d)\s*mg\b/g, '$1 miligramos')
+    .replace(/(\d)\s*mL\b/g, '$1 mililitros')
+    .replace(/(\d)\s*cm\b/g, '$1 centímetros')
+    .replace(/(\d)\s*mm\b/g, '$1 milímetros')
+    .replace(/(\d)\s*h\b/g, '$1 horas')
+    .replace(/(\d)\s*sem\b/g, '$1 semanas')
+    .replace(/(\d)\s*×/g, '$1 veces')
+    .replace(/≥/g, ' mayor o igual a ')
+    .replace(/≤/g, ' menor o igual a ')
+    .replace(/(^|[\s(])>\s?/g, '$1más de ')
+    .replace(/(^|[\s(])<\s?/g, '$1menos de ')
+    .replace(/→/g, ', luego, ')
+    .replace(/±/g, ' con o sin ')
+    .replace(/(\d)\s*%/g, '$1 por ciento')
+    .replace(/\(\+\)/g, ' positivo')
+    .replace(/\((−|-)\)/g, ' negativo')
+    .replace(/\bATB\b/g, 'antibióticos')
+    .replace(/\bEDA\b/g, 'endoscopía digestiva alta')
+    .replace(/\bRx\b/g, 'radiografía')
+    .replace(/\bRM\b/g, 'resonancia')
+    .replace(/\bEV\b/g, 'endovenoso')
+    .replace(/\bc\/(\d)/g, 'cada $1')
+    .replace(/\s·\s/g, ', ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function sentence(s) {
+  const t = String(s || '').trim();
+  if (!t) return '';
+  return /[.!?:]$/.test(t) ? t : t + '.';
+}
+
+// Divide el cuerpo de una tarjeta exactamente como lo muestra el reproductor.
+function cardItems(body) {
+  const raw = String(body || '').trim();
+  if (raw.includes('•')) return raw.split(/•\s*/).map(s => s.trim()).filter(Boolean);
+  if (raw.includes('\n')) return raw.split(/\n+/).map(s => s.trim()).filter(Boolean);
+  const sents = raw.split(/(?<=[.!?])\s+/).filter(Boolean);
+  return sents.length > 1 ? sents : [raw];
+}
+
+const CARD_LEADS = ['', 'Ahora, ', 'Además, ', 'Por último, '];
+
+// Un segmento de locución por paso visual: lo que se revela es exactamente lo que se dice.
+function buildSegments(slide, introText) {
+  const seg = (step, text) => ({ step, text: speakable(text) });
+  if (slide.type === 'cover') return [seg(0, introText)];
+
+  if (slide.type === 'bento') {
+    return (slide.cards || []).map((c, ci) => {
+      const items = cardItems(c.body).map(it => {
+        const m = it.match(/^([^:]{3,35}):\s*(.*)$/);
+        return sentence(m ? `${m[1]}: ${m[2]}` : it);
+      });
+      const lead = ci === 0 ? sentence(slide.title) + ' ' : CARD_LEADS[Math.min(ci, CARD_LEADS.length - 1)];
+      return seg(ci, `${lead}${sentence(c.title)} ${items.join(' ')}`);
+    });
+  }
+
+  if (slide.type === 'table') {
+    const head = slide.head || [];
+    return (slide.rows || []).map((r, ri) => {
+      const cells = r.cells || [];
+      const parts = cells.slice(1).map((c, i) => (i === 0 ? c : `${head[i + 1] || ''}: ${c}`)).filter(Boolean);
+      const lead = ri === 0 ? sentence(slide.title) + ' ' : '';
+      return seg(ri, `${lead}${cells[0] || ''}: ${parts.join('. ')}`);
+    });
+  }
+
+  if (slide.type === 'quiz') {
+    const correct = (slide.options || []).find(o => o.letter === slide.correct);
+    return [
+      seg(0, `Caso clínico. ${slide.stem}`),
+      seg(1, slide.question),
+      seg(2, 'Las alternativas son: ' + (slide.options || []).map(o => `${o.letter}, ${sentence(o.text)}`).join(' ') + ' Piensa tu respuesta.'),
+      seg(3, `La respuesta correcta es la ${slide.correct}: ${sentence(correct ? correct.text : '')} ${slide.explanation || ''}`),
+    ];
+  }
+
+  if (slide.type === 'pathway') {
+    return slide.nodes.map((n, i) => seg(i, n.say || sentence(n.t)));
+  }
+
+  if (slide.type === 'figure') {
+    const steps = slide.steps || [];
+    return steps.map((st, si) => seg(si, `${si === 0 ? 'Revisemos el algoritmo: ' + sentence(slide.title) + ' ' : ''}${sentence(st.replace(/^[\d.]+\s*/, ''))}`));
+  }
+
+  return [seg(0, introText || slide.title)];
+}
+
 function loadDecks(key) {
   const p = path.join(ROOT, 'classes', 'curriculum', `${key}_decks_data.json`);
   return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : {};
@@ -242,8 +357,19 @@ function adaptDeckToSwiss(deck, specialtyName) {
   let txCount = 0;
   let qCount = 0;
 
+  const pathway = PATHWAYS[deck.id];
+  if (pathway) {
+    deck = { ...deck, slides: deck.slides.filter(s => s.type !== 'figura' && s.type !== 'figure') };
+    const insertAt = deck.slides.findIndex((s, i) => i > 0 && (s.type === 'table' || s.type === 'question'));
+    deck.slides.splice(insertAt > 0 ? insertAt : deck.slides.length - 1, 0, {
+      type: 'pathway',
+      title: pathway.title,
+      nodes: flattenPathway(pathway.root),
+    });
+  }
+
   // Inyectar algoritmo oficial de HDA en la clase correspondiente si no tiene figura
-  const hasFig = deck.slides.some(s => s.type === 'figura' || s.type === 'figure');
+  const hasFig = deck.slides.some(s => s.type === 'figura' || s.type === 'figure' || s.type === 'pathway');
   if (!hasFig && /hemorragia digestiva|hda/i.test(deck.title || '')) {
     const hdaSvgPath = path.join(ROOT, 'books', 'svg_diagrams', 'algo_hda.svg');
     if (fs.existsSync(hdaSvgPath)) {
@@ -275,6 +401,9 @@ function adaptDeckToSwiss(deck, specialtyName) {
     let ch = 1;
     if (s.type === 'cover' || idx === 0) {
       ch = 0;
+    } else if (s.type === 'pathway') {
+      ch = 2;
+      txCount++;
     } else if (s.type === 'question') {
       ch = 3;
       qCount++;
@@ -396,6 +525,14 @@ function adaptDeckToSwiss(deck, specialtyName) {
         explanation: stripEmojis(s.explanation || 'Justificación oficial según Perfil de Conocimientos ASOFAMECh.'),
         ref: stripEmojis(s.ref || 'Guías Clínicas GES / MINSAL 2026')
       };
+    } else if (s.type === 'pathway') {
+      slideObj = {
+        ch: 2,
+        type: 'pathway',
+        title: stripEmojis(s.title),
+        kicker: 'ÁRBOL DE DECISIÓN CLÍNICA',
+        nodes: s.nodes,
+      };
     } else if (s.type === 'figura' || s.type === 'figure') {
       let rawSvg = s.svg || '';
       if (!rawSvg && s.svgFile) {
@@ -470,7 +607,8 @@ function adaptDeckToSwiss(deck, specialtyName) {
 
     // Inyectar el guion pedagógico explicativo docente de Masterclass completa (250-400 palabras)
     const teachingScript = generateClinicalTeachingScript(slideObj, deck, specialtyName, idx, s);
-    slideObj.notes = [teachingScript];
+    slideObj.segments = buildSegments(slideObj, teachingScript);
+    slideObj.notes = [slideObj.segments.map(g => g.text).join(' ')];
 
     return slideObj;
   });
