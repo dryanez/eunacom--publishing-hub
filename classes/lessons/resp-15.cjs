@@ -259,11 +259,9 @@ module.exports = {
 
   pathway: {
     title: 'Exudado linfocítico: tuberculosis o cáncer',
-    root: N('start', 'Exudado pleural', 'Por criterios de Light',
-      'Punción pleural con un exudado por criterios de Light. El recuento celular y el ADA ordenan el resto.',
-      ['', N('q', '¿Más de 50 % de linfocitos?', 'Exudado linfocítico',
-        'Si más de la mitad de las células son linfocitos, piensas en tuberculosis y cáncer. Ahora miras el ADA.',
-        ['', N('q', '¿ADA en líquido pleural?', 'Corte: 40 U/L',
+    root: N('start', 'Exudado linfocítico', 'Light + más de 50 % linfocitos',
+      'Punción pleural con un exudado por criterios de Light, y más de la mitad de las células son linfocitos. Piensas en tuberculosis y en cáncer.',
+      ['', N('q', '¿ADA en líquido pleural?', 'Corte: 40 U/L',
           'El ADA decide la sospecha. El corte es cuarenta unidades por litro.',
           ['≥ 40 U/L', N('do', 'Pleuritis tuberculosa', 'Biopsia pleural con aguja',
             'ADA de cuarenta o más: pleuritis tuberculosa. No repitas la baciloscopía: confirmas con biopsia pleural con aguja y tratas con el esquema antituberculoso.')],
@@ -272,6 +270,6 @@ module.exports = {
             ['Positiva', N('alert', 'Derrame maligno', 'Pleurodesis con talco o catéter',
               'Citología positiva: derrame maligno, enfermedad avanzada. El manejo es paliativo: pleurodesis con talco o catéter tunelizado.')],
             ['Negativa', N('refer', 'Biopsia pleural por VATS', 'Si la sospecha persiste',
-              'Citología negativa con sospecha persistente: biopsia pleural por videotoracoscopía, el estándar definitivo.')])])])]),
+              'Citología negativa con sospecha persistente: biopsia pleural por videotoracoscopía, el estándar definitivo.')])])]),
   },
 };

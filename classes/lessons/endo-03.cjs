@@ -326,7 +326,7 @@ module.exports = {
         'Lo primero es la vía aérea. ¿Está ventilando? La hipoventilación con hipercapnia es frecuente.',
         ['NO', N('alert', 'Intubación y ventilación', 'En unidad de paciente crítico',
           'Si hipoventila, intubación y ventilación mecánica, y el paciente va a la unidad de paciente crítico.')],
-        ['Siempre', N('do', 'Hidrocortisona 100 mg EV', 'Antes o junto con la hormona',
+        ['SÍ, y en todos', N('do', 'Hidrocortisona 100 mg EV', 'Antes o junto con la hormona',
           'En todos, lo primero farmacológico es la hidrocortisona endovenosa, cien miligramos, sin esperar el cortisol sérico.',
           ['Luego', N('do', 'Levotiroxina EV 300–500 mcg', 'Luego 50–100 mcg/día',
             'Después, o junto, la carga de levotiroxina endovenosa, y luego la mantención diaria.',
