@@ -40,3 +40,6 @@ books/dist/*_pages/
 classes/dist/video/
 classes/dist/audio/*/
 !classes/dist/audio/cardio-01/
+
+# Python
+__pycache__/
