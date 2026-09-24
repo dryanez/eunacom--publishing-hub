@@ -254,6 +254,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-04 | Aumento de dosis al confirmar embarazo 20–30 % (texto); ectopia 50–60 % | 25–30 % (tabla) y 20–50 % (explicación); ectopia 60 % | El texto |
 | endo-22 | Macroadenoma en > 75 % (texto y tabla) | "Macroadenoma en 98 %" (contexto y keyPoints) | El texto: 98 % es adenoma secretor de GH y > 75 % de ellos son macro |
 | endo-24 | Osmolalidad urinaria en DI "< 200–300" (texto) | "< 300" (dx y keyPoints) | Ambos |
+| endo-19 | Mantención de vitamina D 1.000–2.000 UI/día; calcio 1.000 mg/día (texto) | 800–1.200 UI/día en adultos mayores (algoritmo); calcio 1.000–1.200 (preguntas) | El texto |
+| endo-20 | Resonancia urgente en la apoplejía (texto) | TAC (pregunta del libro) | El texto |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -261,9 +263,12 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2018 · Pregunta 105 | 84 años con TSH 8,4 y 9,2: clave "iniciar levotiroxina"; el libro observa en mayores de 70–80 asintomáticos con TSH 4,5–9,9. |
 | EUNACOM Diciembre 2022 · Pregunta 6 | Clave "cetoacidosis diabética" en un cuadro de coma mixedematoso sin datos de acidosis (TSH 100, T4L 0,1, hipotermia, bradicardia). La clave parece errónea. |
 | EUNACOM Diciembre 2022 · Pregunta 48 | Hipogonadismo con defecto de campo temporal: clave "TSH"; el libro dice que la TSH no sirve en falla central (y Dic 2018 P111 responde resonancia de silla turca). |
+| EUNACOM Julio 2024 · Pregunta 121 | Clave "denosumab endovenoso" (es subcutáneo) y recomienda anabólicos antes que bifosfonatos con fractura, contra el libro. |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
 | endo-22 | El título incluye gigantismo pero solo hay un keyPoint. |
 | endo-24 | El tratamiento de la DI solo está en el campo tx, sin dosis. El banco real no tiene preguntas de NEM. |
+| endo-18 | El campo GES cita "GES 16 (adulto mayor con artrosis / fracturas)" sin decir la garantía (número dudoso). No da conducta para la osteopenia bajo el umbral FRAX. |
+| endo-19 | "Raquitismo" está en el título sin contenido (clínica, profilaxis en lactantes). La contraindicación de bifosfonatos en osteomalacia solo está en una explicación. |
