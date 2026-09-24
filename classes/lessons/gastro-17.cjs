@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Sumar síntomas para separar cuatro cuadros y saber cuál es urgencia',
-      say: 'Bienvenidos. Hoy entramos al bloque de vía biliar con las cuatro patologías del cálculo: colelitiasis, colecistitis, coledocolitiasis y colangitis. Es un tema de alta rentabilidad, y se ordena con una regla muy simple: sumar síntomas. Si en la clase de ictericia aprendiste que el dolor manda en la colestasia, hoy vamos a ver por qué.',
+      say: 'Bienvenidos. Hoy entramos al bloque de vía biliar con las cuatro patologías del cálculo: colelitiasis, colecistitis, coledocolitiasis y colangitis. Es un tema de alta rentabilidad, y se ordena con una regla muy simple: sumar síntomas. Si en la clase de ictericia aprendiste que el dolor manda en la colestasia, hoy vamos a ver por qué. Al final vas a saber responder lo que el examen siempre pregunta: qué cuadro es, y si se opera, se drena o espera.',
     },
 
     {
@@ -32,13 +32,13 @@ module.exports = {
       ],
       steps: [
         { show: ['cal'], note: 'Todo parte del mismo cálculo',
-          say: 'Todo parte del mismo lugar: cálculos en la vesícula, la colelitiasis. Lo que cambia es dónde se queda el cálculo y si se infecta.' },
+          say: 'Todo parte del mismo lugar: cálculos en la vesícula, la colelitiasis. Lo que cambia es dónde se queda el cálculo y si se infecta. Entender ese recorrido es lo que te permite no memorizar cuatro cuadros por separado, sino deducirlos.' },
         { show: ['col'], note: 'Solo dolor, y cede solo',
           say: 'Si la vesícula se contrae contra un cálculo y luego este se libera, aparece solo dolor: el cólico biliar.' },
         { show: ['cis'], note: 'Se suma la fiebre',
-          say: 'Si el cálculo se queda enclavado, la vesícula se inflama y se infecta. Al dolor se suma la fiebre: es una colecistitis aguda.' },
+          say: 'Si el cálculo se queda enclavado, la vesícula se inflama y se infecta. Al dolor se suma la fiebre: es una colecistitis aguda. Fíjate que la bilis sigue saliendo por el colédoco, así que no hay ictericia.' },
         { show: ['cdl'], note: 'Se suma la ictericia',
-          say: 'Si el cálculo sale de la vesícula y migra al colédoco, tapa la salida de la bilis. Al dolor se suma la ictericia: es una coledocolitiasis.' },
+          say: 'Si el cálculo sale de la vesícula y migra al colédoco, tapa la salida de la bilis. Al dolor se suma la ictericia: es una coledocolitiasis. Es la colestasia con dolor que vimos en la clase de ictericia.' },
         { show: ['cht'], note: 'Tríada de Charcot',
           say: 'Y si esa bilis estancada se infecta, tienes dolor, ictericia y fiebre, la tríada de Charcot: una colangitis.' },
         { show: ['can'], note: 'Por eso toda colelitiasis se opera',
@@ -55,11 +55,11 @@ module.exports = {
           { t: 'Dolor sordo, 30–60 min', d: 'Epigastrio o hipocondrio derecho, cede solo',
             say: 'Empecemos por el cólico biliar. Es un dolor sordo en el epigastrio o el hipocondrio derecho, que dura de treinta a sesenta minutos y cede solo.' },
           { t: 'Tras comidas grasas', d: 'Con náuseas',
-            say: 'Lo típico es que aparezca después de una comida grasa, con náuseas. Sin fiebre, sin ictericia.' },
+            say: 'Lo típico es que aparezca después de una comida grasa, con náuseas. Sin fiebre, sin ictericia, y sin signos de irritación. Ese dolor que cede solo es lo que lo separa de la colecistitis, que viene a continuación.' },
         ] },
         { title: 'Diagnóstico', tag: 'Ecografía', kind: 'key', items: [
           { t: 'Imagen con sombra acústica', d: 'El cálculo en la vesícula',
-            say: 'El examen es la ecografía, que muestra el cálculo como una imagen con sombra acústica.' },
+            say: 'El examen es la ecografía, que muestra el cálculo como una imagen con sombra acústica. Es el mismo examen que abre el estudio de todas las patologías de esta clase.' },
         ] },
         { title: 'Manejo agudo', tag: 'En urgencia', kind: 'pharma', items: [
           { t: 'Dipirona + antiespasmódico', d: 'Analgesia',
@@ -81,7 +81,7 @@ module.exports = {
         ] },
         { title: 'GES', tag: 'Cirugía preventiva', kind: 'criteria', items: [
           { t: 'Entre 35 y 49 años', d: 'Colecistectomía garantizada',
-            say: 'Y está respaldado por el GES, que garantiza la colecistectomía preventiva entre los treinta y cinco y los cuarenta y nueve años. Esas edades se preguntan.' },
+            say: 'Y está respaldado por el GES, que garantiza la colecistectomía preventiva entre los treinta y cinco y los cuarenta y nueve años. Esas edades se preguntan. Fuera de ese rango la regla de operar se mantiene; lo que cambia es la garantía.' },
         ] },
       ],
     },
@@ -93,7 +93,7 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Dolor + fiebre', kind: 'criteria', items: [
           { t: 'Dolor persistente, más de 6 h', d: 'En el hipocondrio derecho',
-            say: 'Ahora la colecistitis aguda. La primera diferencia con el cólico es el tiempo: el dolor no cede, dura más de seis horas.' },
+            say: 'Ahora la colecistitis aguda. La primera diferencia con el cólico es el tiempo: el cólico dura menos de una hora y cede solo, mientras que aquí el dolor no cede y dura más de seis horas.' },
           { t: 'Fiebre, Murphy, leucocitosis', d: 'El Murphy es la clave del examen físico',
             say: 'Y se suman fiebre, leucocitosis y el signo de Murphy: el paciente corta la inspiración cuando palpas bajo el reborde costal derecho.' },
         ] },
@@ -101,7 +101,7 @@ module.exports = {
           { t: 'Cálculo enclavado', d: 'Y Murphy ecográfico',
             say: 'La ecografía muestra el cálculo enclavado, y el Murphy se puede reproducir con el transductor.' },
           { t: 'Pared > 4 mm', d: 'Y líquido perivesicular',
-            say: 'Además, la pared de la vesícula mide más de cuatro milímetros, y hay líquido alrededor. Una vesícula engrosada con líquido perivesicular es colecistitis.' },
+            say: 'Además, la pared de la vesícula mide más de cuatro milímetros, y hay líquido alrededor. Una vesícula engrosada con líquido perivesicular es colecistitis. Y fíjate en lo que no aparece: la bilirrubina es normal, porque el colédoco sigue libre.' },
         ] },
       ],
     },
@@ -123,11 +123,11 @@ module.exports = {
       ],
       steps: [
         { show: ['cis'], note: 'Cambia todo respecto del cólico',
-          say: 'Con el diagnóstico hecho, el manejo cambia completamente respecto del cólico.' },
+          say: 'Con el diagnóstico hecho, el manejo cambia completamente respecto del cólico. Aquí ya no hay solo un cálculo molestando: hay una vesícula inflamada e infectada.' },
         { show: ['hos'], note: 'No se va a la casa',
-          say: 'El paciente se hospitaliza y se inician antibióticos. Este no se va a la casa con analgesia.' },
+          say: 'El paciente se hospitaliza y se inician antibióticos. Este no se va a la casa con analgesia, como el del cólico.' },
         { show: ['q'], note: 'La pregunta es cuándo operar',
-          say: 'Y la pregunta siguiente no es si se opera, sino cuándo.' },
+          say: 'Y la pregunta siguiente no es si se opera, sino cuándo. Y aquí la respuesta es clara: no se deja para después, como en el cólico.' },
         { show: ['cir'], note: 'Primeras 72 horas',
           say: 'La respuesta es colecistectomía laparoscópica precoz, en las primeras setenta y dos horas. Fíjate bien: de las cuatro patologías biliares, la colecistitis es la única que se opera de urgencia.' },
         { show: ['pct'], note: 'Solo para el paciente que no resiste la cirugía',
@@ -154,7 +154,7 @@ module.exports = {
       ],
       steps: [
         { show: ['cdl'], note: 'Patrón colestásico',
-          say: 'Tercer cuadro: la coledocolitiasis. Dolor con ictericia, un patrón colestásico con fosfatasas alcalinas y GGT altas, y sin fiebre mientras no haya infección.' },
+          say: 'Tercer cuadro: la coledocolitiasis. Dolor con ictericia, un patrón colestásico con fosfatasas alcalinas y GGT altas, y sin fiebre mientras no haya infección. Es exactamente el segundo paso del algoritmo de ictericia que ya conoces.' },
         { show: ['eco'], note: 'Rara vez ve el cálculo en el colédoco',
           say: 'El primer examen es la ecografía. Un colédoco de más de seis a siete milímetros hace sospechar, pero la ecografía rara vez alcanza a ver el cálculo dentro del colédoco.' },
         { show: ['crm'], note: 'No invasiva',
@@ -162,7 +162,7 @@ module.exports = {
         { show: ['cpre'], note: 'Diagnostica y trata',
           say: 'Y con el cálculo confirmado, se hace la colangiopancreatografía retrógrada endoscópica, la CPRE, que lo extrae. Es invasiva y puede causar pancreatitis, por eso no se usa para confirmar.' },
         { show: ['dir'], note: 'Las dos excepciones se preguntan',
-          say: 'Hay dos situaciones en que se salta la colangiorresonancia y se va directo a CPRE: si hay colangitis, o si la ecografía ya vio el cálculo en el colédoco.' },
+          say: 'Hay dos situaciones en que se salta la colangiorresonancia y se va directo a CPRE: si hay colangitis, o si la ecografía ya vio el cálculo en el colédoco. En los dos casos no hay nada que confirmar, y esperar solo retrasa el tratamiento.' },
         { show: ['cx'], note: 'La vesícula sigue teniendo cálculos',
           say: 'Y no olvides el final: después de la CPRE, colecistectomía laparoscópica electiva, porque la vesícula sigue llena de cálculos.' },
       ],
@@ -175,11 +175,11 @@ module.exports = {
       cards: [
         { title: 'Tríada de Charcot', tag: 'Colangitis', kind: 'criteria', items: [
           { t: 'Dolor + ictericia + fiebre', d: 'Bilis infectada y a presión',
-            say: 'El cuarto cuadro es el más grave. La colangitis se reconoce por la tríada de Charcot: dolor, ictericia y fiebre. Es bilis infectada y a presión dentro de una vía biliar tapada.' },
+            say: 'El cuarto cuadro es el más grave. La colangitis se reconoce por la tríada de Charcot: dolor, ictericia y fiebre. Es bilis infectada y a presión dentro de una vía biliar tapada, casi siempre por el mismo cálculo de la coledocolitiasis que se complicó.' },
         ] },
         { title: 'Péntada de Reynolds', tag: 'Forma grave', kind: 'alert', items: [
           { t: 'Charcot + hipotensión', d: 'Shock séptico de origen biliar',
-            say: 'Si a la tríada se suma hipotensión y compromiso de conciencia, tienes la péntada de Reynolds: la forma grave, con el paciente en shock.' },
+            say: 'Si a la tríada se suma hipotensión y compromiso de conciencia, tienes la péntada de Reynolds: la forma grave, con el paciente en shock. Es una sepsis de origen biliar, y el reloj corre.' },
           { t: '+ compromiso de conciencia', d: 'Somnolencia, confusión',
             say: 'Ojo con el enunciado: somnolencia o confusión en un paciente con fiebre e ictericia es Reynolds, no una encefalopatía. Ese paciente necesita drenaje ya.' },
         ] },
@@ -204,12 +204,12 @@ module.exports = {
       steps: [
         { show: ['cht', 'vol'], note: 'Primero, estabilizar',
           say: '¿Cómo se trata? Primero se estabiliza: reposición de volumen, porque muchos llegan hipotensos.' },
-        { show: ['atb'], note: 'Cubrir gramnegativos y anaerobios',
+        { show: ['atb'], note: 'Amplio espectro',
           say: 'Junto con eso, antibióticos de amplio espectro, por ejemplo ceftriaxona más metronidazol.' },
-        { show: ['cpre'], note: 'Sin drenaje, los antibióticos no alcanzan',
-          say: 'Pero lo esencial es el drenaje biliar urgente por CPRE. Mientras la vía siga tapada, los antibióticos no llegan a la bilis infectada. Esta es la conducta prioritaria que te van a preguntar.' },
+        { show: ['cpre'], note: 'Drenar la vía biliar tapada',
+          say: 'Pero lo esencial es el drenaje biliar urgente por CPRE. Es un absceso dentro de la vía biliar, y como todo absceso, hay que drenarlo. Esta es la conducta prioritaria que te van a preguntar.' },
         { show: ['cx'], note: 'La vesícula se saca cuando el paciente está estable',
-          say: 'Y la colecistectomía se hace después, en forma electiva, con el paciente estable. Operar la vesícula de urgencia en una colangitis es una respuesta incorrecta clásica.' },
+          say: 'Y la colecistectomía se hace después, en forma electiva, con el paciente estable. Operar la vesícula de urgencia en una colangitis es una respuesta incorrecta clásica: el problema no está en la vesícula, sino en el colédoco.' },
       ],
     },
 
@@ -236,9 +236,9 @@ module.exports = {
         { show: ['cht', 'chtx'], note: 'Urgente, pero con endoscopio',
           say: 'La colangitis también es urgente, pero no se opera: se drena por CPRE. Urgente no siempre significa pabellón.' },
         { show: ['resto'], note: 'Cólico, colelitiasis y post CPRE',
-          say: 'Todo lo demás es electivo: la colelitiasis, el cólico biliar, y la colecistectomía que sigue a una CPRE.' },
+          say: 'Todo lo demás es electivo: la colelitiasis, el cólico biliar, y la colecistectomía que sigue a una CPRE. Incluso en la colangitis, la vesícula se saca después, cuando el paciente ya está estable.' },
         { show: ['cro'], note: 'Se operan por el riesgo de cáncer',
-          say: 'Y las colecistitis crónicas, como la vesícula en porcelana o la escleroatrófica, también se operan en forma electiva, por su riesgo de cáncer.' },
+          say: 'Y las colecistitis crónicas, como la vesícula en porcelana o la escleroatrófica, también se operan en forma electiva, por su riesgo de cáncer. Suelen ser un hallazgo de imagen, y la trampa es dejarlas en observación porque el paciente no tiene síntomas.' },
       ],
     },
 
@@ -254,13 +254,13 @@ module.exports = {
       head: ['Cuadro', 'Dolor + …', 'Conducta'],
       rows: [
         { cells: ['Cólico biliar', 'Solo dolor', 'Analgesia; colecistectomía electiva'],
-          say: 'Repasemos en una tabla. Cólico biliar, solo dolor: analgesia y colecistectomía electiva.' },
+          say: 'Repasemos en una tabla, que es la misma regla de sumar síntomas con su conducta al lado. Cólico biliar, solo dolor: analgesia y colecistectomía electiva.' },
         { cells: ['Colecistitis aguda', 'Fiebre + Murphy', 'Antibióticos + colecistectomía < 72 h'],
           say: 'Colecistitis aguda, dolor con fiebre y Murphy: antibióticos y colecistectomía antes de setenta y dos horas.' },
         { cells: ['Coledocolitiasis', 'Ictericia', 'Eco → colangio-RM → CPRE → colecistectomía'],
-          say: 'Coledocolitiasis, dolor con ictericia: ecografía, colangiorresonancia, CPRE, y luego colecistectomía electiva.' },
+          say: 'Coledocolitiasis, dolor con ictericia: ecografía, colangiorresonancia, CPRE, y luego colecistectomía electiva. Recuerda que la colangiorresonancia se salta si hay colangitis o si la ecografía ya vio el cálculo.' },
         { cells: ['Colangitis aguda', 'Ictericia + fiebre (Charcot)', 'Volumen + antibióticos + CPRE urgente'],
-          say: 'Colangitis, dolor con ictericia y fiebre: volumen, antibióticos y CPRE urgente.' },
+          say: 'Colangitis, dolor con ictericia y fiebre: volumen, antibióticos y CPRE urgente. Aquí lo urgente es drenar, no operar.' },
         { cells: ['Vesícula en porcelana o escleroatrófica', 'Hallazgo', 'Colecistectomía electiva'],
           say: 'Y la vesícula en porcelana o escleroatrófica, que suele ser un hallazgo: colecistectomía electiva por el riesgo de cáncer.' },
       ],
@@ -308,7 +308,7 @@ module.exports = {
         stem: 'Ahora una pregunta del banco EUNACOM. Hombre de sesenta y dos años con dolor en el hipocondrio derecho, ictericia progresiva, fiebre de treinta y nueve con calofríos, y en las últimas horas, somnolencia y una presión de noventa cincuenta.',
         question: '¿Cuál es el diagnóstico y la conducta prioritaria?',
         options: 'Las opciones: colecistitis con cirugía de urgencia, colangitis grave con volumen, antibióticos y CPRE urgente, coledocolitiasis con estudio electivo, hepatitis aguda, o absceso hepático. Piénsalo.',
-        answer: 'La respuesta es la B. Dolor, ictericia y fiebre es Charcot; con hipotensión y somnolencia es Reynolds, una colangitis grave. Lo prioritario es volumen, antibióticos y drenar la vía biliar por CPRE. La A es la trampa: la cirugía de urgencia es para la colecistitis, y aquí la vesícula se opera después, con el paciente estable.',
+        answer: 'La respuesta es la B. Dolor, ictericia y fiebre es Charcot; con hipotensión y somnolencia es Reynolds, una colangitis grave. Lo prioritario es volumen, antibióticos y drenar la vía biliar por CPRE. La A es la trampa: la cirugía de urgencia es para la colecistitis, y aquí la vesícula se opera después, con el paciente estable. Y la C falla por el tiempo: con Reynolds no hay espacio para un estudio electivo.',
       },
     },
 
@@ -331,7 +331,7 @@ module.exports = {
         stem: 'Una más del banco. Mujer de cuarenta años, sin síntomas, a la que en una ecografía de rutina le encuentran múltiples cálculos en una vesícula de pared normal.',
         question: '¿Cuál es la conducta?',
         options: 'Las opciones: observar y operar si aparecen síntomas, ácido ursodesoxicólico, colecistectomía laparoscópica electiva, dieta y control anual, u operar solo si los cálculos superan los dos centímetros. Piénsalo.',
-        answer: 'Es la C. En Chile toda colelitiasis se opera, aunque no dé síntomas, por el cáncer de vesícula. Y esta paciente de cuarenta años está justo en el rango GES, de treinta y cinco a cuarenta y nueve. La A es la trampa, porque es lo que dicen muchos textos extranjeros; pero observar, disolver o hacer dieta no la protege del cáncer.',
+        answer: 'Es la C. En Chile toda colelitiasis se opera, aunque no dé síntomas, por el cáncer de vesícula. Fíjate que el enunciado te quita todos los síntomas a propósito, para ver si aplicas la regla igual. Y esta paciente de cuarenta años está justo en el rango GES, de treinta y cinco a cuarenta y nueve. La A es la trampa, porque es lo que dicen muchos textos extranjeros; pero observar, disolver o hacer dieta no la protege del cáncer.',
       },
     },
 
@@ -342,7 +342,7 @@ module.exports = {
       cards: [
         { title: 'Sumar síntomas', tag: 'Dolor + …', kind: 'key', items: [
           { t: 'Solo dolor = cólico', d: '+ fiebre = colecistitis',
-            say: 'Cerremos con las reglas de oro. Solo dolor es cólico biliar; dolor con fiebre, colecistitis.' },
+            say: 'Cerremos con las reglas de oro. La primera es la regla que ordena toda la clase: sumar síntomas. Solo dolor es cólico biliar; dolor con fiebre, colecistitis.' },
           { t: '+ ictericia = coledocolitiasis', d: '+ fiebre + ictericia = colangitis',
             say: 'Dolor con ictericia, coledocolitiasis; y dolor, ictericia y fiebre, colangitis.' },
         ] },
@@ -350,7 +350,7 @@ module.exports = {
           { t: 'Colecistitis: cirugía < 72 h', d: 'La única que se opera de urgencia',
             say: 'La colecistitis es la única que se opera de urgencia, en menos de setenta y dos horas.' },
           { t: 'Colangitis: CPRE urgente', d: 'Volumen + antibióticos + drenaje',
-            say: 'La colangitis se drena de urgencia por CPRE, con volumen y antibióticos.' },
+            say: 'La colangitis se drena de urgencia por CPRE, con volumen y antibióticos, y la vesícula se opera después. Y en la coledocolitiasis, el orden es ecografía, colangiorresonancia y CPRE, salvo que haya colangitis o que la ecografía ya vea el cálculo.' },
         ] },
         { title: 'Electivo', tag: 'En Chile', kind: 'pharma', items: [
           { t: 'Toda colelitiasis se opera', d: 'GES entre 35 y 49 años',
@@ -363,9 +363,9 @@ module.exports = {
   pathway: {
     title: 'Patología biliar: qué acompaña al dolor',
     root: N('start', 'Dolor en hipocondrio derecho', 'Paciente con colelitiasis',
-      'Paciente con cálculos en la vesícula y dolor en el hipocondrio derecho. Lo que acompaña al dolor define el cuadro.',
+      'Paciente con cálculos en la vesícula y dolor en el hipocondrio derecho. No memorices cuatro cuadros: lo que acompaña al dolor define cuál es, y el cuadro define la conducta.',
       ['', N('q', '¿Qué acompaña al dolor?', 'Fiebre · ictericia · ambas',
-        '¿El dolor viene solo, con fiebre, con ictericia, o con ambas?',
+        'La pregunta es una sola: ¿el dolor viene solo, con fiebre, con ictericia, o con ambas? La fiebre habla de infección; la ictericia, de un colédoco tapado.',
         ['Solo dolor', N('ok', 'Cólico biliar', 'Analgesia + colecistectomía electiva',
           'Solo dolor, que cede en treinta a sesenta minutos: cólico biliar. Analgesia, y colecistectomía laparoscópica electiva, porque toda colelitiasis se opera.')],
         ['Fiebre', N('alert', 'Colecistitis aguda', 'Antibióticos + colecistectomía < 72 h',
@@ -377,6 +377,6 @@ module.exports = {
           ['SÍ', N('do', 'CPRE directa', 'Luego colecistectomía electiva',
             'Si la ecografía ya lo vio, se va directo a CPRE, y después colecistectomía electiva.')])],
         ['Ictericia + fiebre', N('alert', 'Colangitis: CPRE urgente', 'Volumen + antibióticos',
-          'Dolor, ictericia y fiebre, la tríada de Charcot: colangitis. Volumen, antibióticos y drenaje biliar urgente por CPRE.')])]),
+          'Dolor, ictericia y fiebre, la tríada de Charcot: colangitis. Volumen, antibióticos y drenaje biliar urgente por CPRE. Si además hay hipotensión y compromiso de conciencia, es la péntada de Reynolds, y el drenaje no puede esperar.')])]),
   },
 };

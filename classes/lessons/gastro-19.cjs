@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Fosa ilíaca derecha vs izquierda: qué se opera, qué se trata con antibióticos y qué no se endoscopia',
-      say: 'Bienvenidos. Abrimos el bloque de abdomen agudo con dos cuadros casi simétricos: la apendicitis, a la derecha, y la diverticulitis, a la izquierda. El examen los pregunta por su clasificación y por su conducta, y casi siempre con una trampa escondida. Vamos a ver cuál es cada una.',
+      say: 'Bienvenidos. Abrimos el bloque de abdomen agudo con dos cuadros casi simétricos: la apendicitis, a la derecha, y la diverticulitis, a la izquierda. El examen los pregunta por su clasificación y por su conducta, y casi siempre con una trampa escondida. En la clase de pancreatitis el dolor estaba en el epigastrio; hoy bajamos a las fosas ilíacas, y en la próxima clase veremos el abdomen agudo de origen vascular. Vamos a ver cuál es la trampa de cada uno.',
     },
 
     {
@@ -103,7 +103,7 @@ module.exports = {
           { t: 'Ecografía: niños y mujeres fértiles', d: 'Primera imagen en estos grupos',
             say: 'La ecografía se usa en dos grupos: los niños y las mujeres en edad fértil. Y fíjate que conecta con la regla anterior: en la mujer, la ecografía mira también la pelvis.' },
           { t: 'TAC: duda en el adulto', d: 'No es de rutina',
-            say: 'El TAC queda para el adulto con duda diagnóstica. Si la clínica es clara, no lo necesitas.' },
+            say: 'El TAC queda para el adulto con duda diagnóstica. Si la clínica es clara, no lo necesitas: un joven con dolor que migró a la fosa ilíaca derecha, anorexia y Blumberg positivo va a pabellón sin pasar por el escáner.' },
         ] },
         { title: 'Tratamiento', tag: 'Pabellón', kind: 'pharma', items: [
           { t: 'Apendicectomía laparoscópica', d: 'La apendicitis se opera',
@@ -200,7 +200,33 @@ module.exports = {
         { show: ['har'], note: 'Resección + colostomía, reconstruir meses después',
           say: 'Y estos van a cirugía de urgencia, con la operación de Hartmann: se reseca el sigmoides, se deja una colostomía terminal y se cierra el muñón rectal. El tránsito se reconstruye meses después.' },
         { show: ['fis'], note: 'Aire en la orina: piensa en fístula',
-          say: 'Una complicación más que se pregunta: la fístula colovesical. El colon inflamado se comunica con la vejiga, y el paciente orina aire, lo que se llama neumaturia, y hace infecciones urinarias a repetición.' },
+          say: 'Una complicación más que se pregunta: la fístula colovesical. El colon inflamado se comunica con la vejiga, y el paciente orina aire, lo que se llama neumaturia, y hace infecciones urinarias a repetición. Si en una pregunta ves un adulto mayor con neumaturia e infecciones urinarias recurrentes, piensa en el colon antes que en la vejiga.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diverticulitis aguda',
+      title: 'Manejo médico: Hinchey I y II',
+      cards: [
+        { title: 'Antibióticos', tag: 'La base', kind: 'pharma', items: [
+          { t: 'Ceftriaxona + metronidazol', d: 'Endovenosos u orales según la gravedad',
+            say: 'Veamos en concreto el manejo médico, que es el de la mayoría de los pacientes. Los antibióticos son los mismos que usamos en el plastrón: ceftriaxona más metronidazol, que cubren gramnegativos y anaerobios del colon. Van por vía endovenosa u oral, según la gravedad.' },
+          { t: 'Reposo intestinal', d: 'Deja descansar el colon inflamado',
+            say: 'Y se agrega reposo intestinal, para dejar descansar el colon inflamado mientras actúan los antibióticos.' },
+        ] },
+        { title: 'Dónde y cuánto', tag: 'Según Hinchey', kind: 'criteria', items: [
+          { t: 'Hinchey I leve: ambulatorio', d: 'Absceso pericólico pequeño',
+            say: 'En el Hinchey uno, con un absceso pericólico pequeño, los casos leves incluso se pueden manejar en forma ambulatoria.' },
+          { t: 'Hinchey II: drenaje percutáneo', d: 'Absceso mayor, pélvico o a distancia',
+            say: 'En el Hinchey dos, el absceso es mayor, pélvico o a distancia. Ahí, además de los antibióticos, se suma el drenaje percutáneo guiado por TAC.' },
+        ] },
+        { title: 'La simetría', tag: 'Derecha = izquierda', kind: 'key', items: [
+          { t: 'Contenido: antibióticos', d: 'Plastrón · Hinchey I–II',
+            say: 'Y fíjate en la simetría con el lado derecho. El plastrón y los Hinchey uno y dos tienen algo en común: el proceso está contenido, y se tratan con antibióticos, con o sin drenaje.' },
+          { t: 'Libre: pabellón', d: 'Apendicitis perforada · Hinchey III–IV',
+            say: 'La apendicitis perforada con peritonitis difusa y los Hinchey tres y cuatro también comparten algo: la infección está libre en el peritoneo, y van a pabellón de urgencia. Si entiendes esa lógica, no necesitas memorizar dos listas.' },
+        ] },
       ],
     },
 
