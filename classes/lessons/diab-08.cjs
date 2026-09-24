@@ -288,7 +288,7 @@ module.exports = {
         stem: 'Y la última, del EUNACOM de diciembre de dos mil veinticinco. Paciente de sesenta y siete años, monorrena, con diabetes tipo dos recién diagnosticada y hemoglobina glicosilada de ocho coma cinco. Su creatinina es cuatro coma uno, con un clearance de doce, y una albuminuria muy elevada.',
         question: '¿Qué fármaco es el más adecuado para iniciar el tratamiento?',
         options: 'Las opciones: metformina, glibenclamida, vildagliptina, dapagliflozina o semaglutida. Piénsalo.',
-        answer: 'Es la E, semaglutida. Vamos descartando por el riñón. Con un clearance de doce, la metformina y la glibenclamida están contraindicadas. La dapagliflozina tienta por la albuminuria, pero funciona botando glucosa por la orina, y con esta filtración ya no se inicia. La vildagliptina se elimina por el riñón y hay que ajustarla; la gliptina libre de ajuste era la linagliptina, que no está entre las opciones. Queda el agonista de GLP uno, que es la alternativa a la insulina en este paciente.',
+        answer: 'Es la E, semaglutida. Descartemos por el riñón. Con un clearance de doce, la metformina y la glibenclamida están contraindicadas. La dapagliflozina tienta por la albuminuria, pero funciona botando glucosa por la orina, y con esta filtración ya no se inicia. La vildagliptina se elimina por el riñón; la gliptina sin ajuste era la linagliptina, que no está. Queda el agonista de GLP uno, la alternativa a la insulina.',
       },
     },
 

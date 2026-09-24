@@ -191,7 +191,7 @@ module.exports = {
         stem: 'Vamos con un caso. Hombre de sesenta y cuatro años, fumador, con baja de peso, disnea progresiva y dolor sordo en el hemitórax izquierdo. La radiografía muestra un derrame moderado. En la toracocentesis sale un líquido amarillo cetrino, con proteínas de cuatro coma dos, y en el plasma seis coma ocho; LDH de trescientos ochenta, y en el plasma doscientos cuarenta, con un límite normal de doscientos cincuenta.',
         question: '¿Cuál es la clasificación y la conducta más adecuada?',
         options: 'Las opciones: trasudado con furosemida, exudado con citología y biopsia pleural, trasudado con ecocardiograma, exudado con tubo pleural inmediato, o repetir la punción. Piénsalo.',
-        answer: 'Es la B. Haz la cuenta: cuatro coma dos sobre seis coma ocho da cero coma sesenta y dos, sobre cero coma cinco; y la LDH da uno coma cincuenta y ocho. Con uno bastaba, y aquí se cumplen los tres: es exudado. Y en un fumador con baja de peso, lo que buscas es un cáncer, con citología y biopsia pleural. El tubo pleural es la trampa: se usa en el empiema, no para diagnosticar.',
+        answer: 'Es la B. Haz la cuenta: las proteínas dan cero coma sesenta y dos, y la LDH, uno coma cincuenta y ocho. Con uno bastaba, y aquí se cumplen los tres: es exudado. Y en un fumador con baja de peso, lo que buscas es un cáncer, con citología y biopsia pleural. El tubo pleural es la trampa: se usa en el empiema, no para diagnosticar.',
       },
     },
 
