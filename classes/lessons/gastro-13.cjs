@@ -143,7 +143,7 @@ module.exports = {
         { from: 'via', to: 'tac', label: 'masa en páncreas' },
       ],
       steps: [
-        { show: ['eco'], note: 'Barata, sin radiación, al lado de la cama',
+        { show: ['eco'], note: 'Regla sin excepciones',
           say: '¿Cómo se estudia? Aquí hay una regla sin excepciones: toda ictericia parte con una ecografía abdominal.' },
         { show: ['via'], note: '¿Vía biliar dilatada? ¿Colédoco? ¿Masa?',
           say: 'La ecografía responde tres preguntas: si la vía biliar está dilatada, cómo está el colédoco, y si hay una masa.' },

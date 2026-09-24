@@ -144,7 +144,7 @@ module.exports = {
         { id: 'p', col: 0, row: 1, k: 'start', t: 'Adulto sin diagnóstico', s: '¿Tiene síntomas?' },
         { id: 'asi', col: 1, row: 0, k: 'good', t: 'Asintomático, riesgo promedio', s: 'Desde los 50 años (GES)' },
         { id: 'tso', col: 2, row: 0, k: 'mech', t: 'Sangre oculta inmunoquímico', s: 'Anual o bienal; o colonoscopía c/10 años' },
-        { id: 'pos', col: 3, row: 0, k: 'good', t: 'Positivo: colonoscopía', s: '' },
+        { id: 'pos', col: 3, row: 0, k: 'good', t: 'Positivo: colonoscopía', s: 'Confirma y reseca adenomas' },
         { id: 'sin', col: 1, row: 2, k: 'alert', t: 'Sintomático o con alarma', s: 'Anemia, constipación nueva, rectorragia' },
         { id: 'col', col: 2, row: 2, k: 'trap', t: 'Colonoscopía directa', s: 'NO test de sangre oculta' },
       ],
