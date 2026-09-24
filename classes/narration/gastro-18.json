@@ -1,0 +1,300 @@
+{
+  "id": "gastro-18",
+  "title": "Gastroenterologia 4.2: Pancreatitis Aguda",
+  "specialty": "Gastroenterología",
+  "chars": 13416,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos pancreatitis aguda, un tema de alta rentabilidad: casi todas las preguntas del banco son de diagnóstico diferencial del dolor epigástrico agudo. Y es la continuación directa de la clase de vía biliar, porque el mismo cálculo que obstruye el colédoco puede terminar inflamando el páncreas. Partamos por entender qué le pasa a ese páncreas."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Todo parte con un gatillo. En Chile, los dos grandes son la litiasis biliar y el alcohol. Los retomamos en detalle más adelante."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Ese gatillo hace que el tripsinógeno se active antes de tiempo, dentro del propio acino pancreático. La enzima que debía activarse en el duodeno se enciende dentro de la glándula."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y eso desencadena una cascada de enzimas que digieren el propio páncreas y el retroperitoneo que lo rodea. La pancreatitis aguda, en una palabra, es autodigestión."
+    },
+    {
+      "file": "s01_g03",
+      "text": "De ahí sale la clínica. Un dolor epigástrico intenso, transfixiante, que se va en faja hacia la espalda, porque el páncreas está pegado al dorso. Y un íleo, con vómitos y distensión, porque el intestino vecino deja de moverse."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Pero lo más peligroso no se ve. La inflamación del retroperitoneo hace que el paciente pierda litros de líquido hacia el tercer espacio, aunque su piel se vea seca y parezca que no le pasa nada."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y esa es la razón de que el pilar del tratamiento en las primeras veinticuatro horas no sea un antibiótico ni un fármaco especial, sino reponer volumen de forma agresiva. Guarda esta idea, porque es la que más se pregunta en el manejo."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo se hace el diagnóstico. Se necesitan dos de tres criterios, los de Atlanta revisada del año dos mil doce. El primero es el dolor compatible: epigástrico, intenso, transfixiante e irradiado en faja al dorso."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo es la lipasa o la amilasa elevada a más de tres veces el límite superior normal. No basta con que esté alta: tiene que triplicar el valor normal."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el tercero es una imagen compatible con pancreatitis, ya sea tomografía con contraste, ecografía o resonancia."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Entre las dos enzimas, prefiere la lipasa: es más sensible, más específica, y se mantiene elevada por más días. Si el paciente consulta tarde, la amilasa puede haber bajado y la lipasa todavía estar alta."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y ojo con una trampa clásica: la magnitud de la elevación no se correlaciona con la gravedad. Una lipasa de cinco mil no significa una pancreatitis peor que una de seiscientos."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, una pregunta práctica que el examen adora. Llega un paciente con dolor típico y lipasa sobre tres veces lo normal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Ese paciente ya cumple dos de tres. El diagnóstico está hecho y no necesitas un TAC para confirmarlo. Pedirlo de rutina en la urgencia no es la respuesta."
+    },
+    {
+      "file": "s03_g02",
+      "text": "¿Cuándo sí? En dos situaciones: si hay duda diagnóstica, o si el paciente evoluciona mal. Y en ese caso se pide un TAC con contraste a las setenta y dos horas, para evaluar la necrosis. El TAC no hace el diagnóstico de rutina: busca complicaciones."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Una vez hecho el diagnóstico, hay que buscar la causa. La primera es la litiasis biliar: un cálculo que obstruye la ampolla de Vater. Es más frecuente en mujeres, y el laboratorio te da la pista, con transaminasas y fosfatasas alcalinas elevadas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La segunda es el alcohol: típicamente un hombre con un consumo intenso y sostenido."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Después vienen las causas menos frecuentes. La hipertrigliceridemia, con triglicéridos sobre mil miligramos por decilitro, la hipercalcemia y los fármacos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y también la pancreatitis que aparece después de una colangiopancreatografía retrógrada endoscópica, la CPRE, la autoinmune, la traumática y la secundaria a tumores."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Por eso, a todo paciente se le pide una ecografía abdominal en las primeras veinticuatro a cuarenta y ocho horas, buscando cálculos en la vesícula."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y se agregan perfil lipídico y calcemia, para no perder las causas metabólicas. Encontrar la causa no es un trámite: define si hay que operar la vesícula."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Con el diagnóstico y la causa en la mano, falta definir la gravedad. La misma clasificación de Atlanta distingue tres categorías. La leve no tiene falla orgánica ni complicaciones locales."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La moderadamente grave tiene una falla orgánica transitoria, que dura menos de cuarenta y ocho horas, o una complicación local."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y la grave es la que tiene una falla orgánica persistente, más allá de cuarenta y ocho horas. Fíjate que la línea divisoria es el tiempo que dura la falla, no la cifra de la lipasa."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Para predecir quién va a evolucionar mal existen scores. El más simple es el BISAP, que junta cinco elementos: nitrógeno ureico sobre veinticinco, alteración de conciencia, síndrome de respuesta inflamatoria sistémica, edad sobre sesenta años y derrame pleural."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El APACHE dos es el más usado en la unidad de cuidados intensivos. Y los criterios de Ranson, los más antiguos, tienen una desventaja: requieren cuarenta y ocho horas para completarse."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Pero la señal de alarma más útil es simple. Un hematocrito elevado y que sigue subiendo a las veinticuatro horas predice necrosis y mala evolución. Y tiene toda la lógica del mecanismo: la sangre se está concentrando porque el volumen se va al tercer espacio."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Lo mismo vale para un nitrógeno ureico que sube. Ambos te dicen que el paciente sigue perdiendo volumen y que tu reposición no está alcanzando."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al manejo, y volvemos a la idea que guardamos al principio. El paciente está perdiendo litros hacia el retroperitoneo. El problema de base es de volumen."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Por eso la primera intervención es reponer con cristaloides, de preferencia Ringer lactato, a cinco a diez mililitros por kilo por hora, de forma precoz y agresiva."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Pero no se repone a ciegas. Se ajusta según la respuesta: la diuresis, con una meta sobre medio mililitro por kilo por hora, la frecuencia cardíaca y el hematocrito, que es justamente el marcador que vimos en la gravedad."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y esta es la frase para el examen: la reposición de volumen es la intervención que más impacta en la mortalidad de la pancreatitis aguda. Si una alternativa dice volumen agresivo con Ringer lactato, míralo con mucho cariño."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El segundo pilar es la analgesia, y tiene que ser potente: opioides. La meperidina, que antes se usaba mucho, ya no es la preferida."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Después viene la nutrición. Se parte en régimen cero, pero por poco tiempo: la realimentación oral es precoz, dentro de las primeras veinticuatro a setenta y dos horas, apenas ceden el dolor y el íleo."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y esto vale incluso en la pancreatitis grave. Si no tolera la vía oral, se alimenta por sonda nasoyeyunal. La nutrición parenteral se evita. Dejar al paciente en ayuno prolongado es una respuesta antigua e incorrecta."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y ahora la trampa más preguntada. No se indican antibióticos profilácticos en la pancreatitis no infectada, ni siquiera cuando hay necrosis, si esa necrosis es estéril. La fiebre y la leucocitosis de los primeros días son inflamación, no infección."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Los antibióticos se reservan para dos escenarios: la necrosis infectada demostrada, o una colangitis concomitante."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos el manejo con la pancreatitis biliar, porque encontrar el cálculo agrega dos decisiones sobre la vía biliar."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La pregunta es una sola: ¿hay colangitis asociada, u obstrucción biliar persistente? Recuerda la clase de vía biliar: la colangitis es la tríada de Charcot, dolor, ictericia y fiebre."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si la hay, se hace una CPRE urgente, en menos de veinticuatro horas, para drenar la vía biliar. Pero solo en ese caso. Una pancreatitis biliar sin colangitis no necesita CPRE urgente."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si no hay colangitis, lo que previene el siguiente episodio es sacar la vesícula. En la pancreatitis biliar leve, la colecistectomía se hace en el mismo ingreso, una vez resuelto el cuadro."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y la trampa es mandarlo de alta con la cirugía programada para varias semanas después. En ese intervalo recurren la pancreatitis, la colecistitis o la colangitis. La vesícula se saca antes del alta."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos del paciente con dolor epigástrico intenso, transfixiante, irradiado en faja al dorso, con vómitos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cumple dos de tres criterios? Dolor típico, lipasa o amilasa sobre tres veces lo normal, o imagen compatible. Con los dos primeros no se necesita TAC."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si no los cumple, piensa en los imitadores: úlcera perforada, infarto de cara inferior, isquemia mesentérica o patología biliar. Y si la duda persiste, el TAC ayuda."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es una pancreatitis aguda. Lo que más reduce la mortalidad es el volumen precoz con Ringer lactato, ajustado a diuresis. Además analgesia con opioides, realimentación precoz y nada de antibióticos profilácticos."
+    },
+    {
+      "file": "s10_g04",
+      "text": "A todos se les pide ecografía abdominal en las primeras veinticuatro a cuarenta y ocho horas para buscar cálculos, más perfil lipídico y calcemia."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si es biliar, ¿hay colangitis asociada u obstrucción biliar persistente?"
+    },
+    {
+      "file": "s10_g06",
+      "text": "Solo en ese caso se hace CPRE urgente, en menos de veinticuatro horas, para drenar la vía biliar."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Sin colangitis, en la pancreatitis biliar leve se hace la colecistectomía en el mismo ingreso, una vez resuelto el episodio, para evitar la recurrencia."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Como el examen pregunta casi todo como diagnóstico diferencial, repasemos los imitadores. Pancreatitis: dolor transfixiante al dorso, íleo y lipasa sobre tres veces. Se confirma con las enzimas, y el TAC queda para la mala evolución."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Coledocolitiasis: dolor con ictericia, sin fiebre, y una lipasa normal o apenas elevada. Ecografía con colédoco sobre siete milímetros, y luego colangiorresonancia."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Colangitis: la tríada de Charcot. Ecografía, hemocultivos y CPRE."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Úlcera perforada: el dolor en puñalada y el abdomen en tabla. Radiografía de tórax de pie buscando neumoperitoneo, como vimos en la clase de úlcera."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Infarto de cara inferior: un paciente con factores de riesgo cardiovascular y síntomas vagales. Nunca te vayas a casa con un dolor epigástrico sin electrocardiograma y troponina."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Y la isquemia mesentérica: un dolor desproporcionado al examen físico, fibrilación auricular y acidosis con lactato elevado. Se confirma con angio TAC, y la veremos en detalle en su propia clase."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos al caso. Hombre de cincuenta años, bebedor intenso, con una pancreatitis aguda de veinte horas de evolución y una lipasa doce veces sobre lo normal. Está taquicárdico, orina poco, y el hematocrito subió de cuarenta y cuatro a cuarenta y nueve por ciento. Tiene treinta y siete ocho de temperatura y catorce mil leucocitos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la medida que más impacta en su pronóstico?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las alternativas: imipenem profiláctico, reposición agresiva con Ringer lactato, TAC con contraste de inmediato, nutrición parenteral, o CPRE urgente. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. El hematocrito que sube, la taquicardia y la diuresis escasa te dicen que está perdiendo volumen al tercer espacio, y eso predice necrosis. Lo que más reduce la mortalidad es el volumen con Ringer lactato, ajustado a diuresis. El distractor tentador es el imipenem, por la fiebre y los leucocitos, pero eso es inflamación: no hay antibióticos profilácticos. Y fíjate que la lipasa de doce veces no te dice nada de la gravedad."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y ahora una pregunta real, reconstruida del EUNACOM de dos mil trece. Hombre de cuarenta y cinco años con dolor epigástrico intenso y vómitos biliosos. Signos vitales estables, escleras levemente ictéricas, abdomen blando y doloroso en el epigastrio. Lipasa de ciento noventa, con un valor normal bajo sesenta. Bilirrubina de tres coma uno, directa, y una ecografía con colédoco de nueve milímetros y microlitiasis."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: colangitis aguda, pancreatitis aguda, coledocolitiasis, colecistitis aguda, o cólico biliar simple. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta es la B, pancreatitis aguda. Haz la cuenta: tres veces sesenta son ciento ochenta, y la lipasa está en ciento noventa. Con dolor típico, cumple dos de tres criterios. El distractor tentador es la coledocolitiasis, porque el colédoco está dilatado y hay ictericia, y probablemente coexiste. Pero cuando hay dos diagnósticos, manda el más grave, el que define la conducta. Y sin fiebre, no es colangitis."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Otra pregunta real, reconstruida del EUNACOM de julio de dos mil dieciséis. Paciente de cincuenta y cinco años con una pancreatitis aguda biliar de treinta y seis horas. Está estable, afebril, el dolor va bajando y tolera líquidos. La ecografía muestra colelitiasis, con una vía biliar de calibre normal y sin cálculos en el colédoco."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada respecto de la vía biliar?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: CPRE urgente, colecistectomía en el mismo ingreso, alta con cirugía programada en seis a ocho semanas, colangiorresonancia y luego CPRE, o manejo médico sin cirugía. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B. Pancreatitis biliar leve que ya se está resolviendo: la vesícula se saca en el mismo ingreso. El distractor tentador es la C, operar en seis a ocho semanas, pero en ese intervalo recurren la pancreatitis, la colecistitis o la colangitis. La CPRE urgente no corresponde, porque no hay colangitis ni obstrucción. Y con una vía biliar normal, la colangiorresonancia no agrega nada."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Dolor típico más lipasa sobre tres veces lo normal: el diagnóstico está hecho, sin TAC. El TAC es a las setenta y dos horas, si evoluciona mal."
+    },
+    {
+      "file": "s15_g01",
+      "text": "La cifra de lipasa no mide gravedad. El hematocrito y el nitrógeno ureico que suben, sí."
+    },
+    {
+      "file": "s15_g02",
+      "text": "El volumen agresivo con Ringer lactato es lo que más reduce la mortalidad."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Realimentación precoz, incluso en la grave, y nada de antibióticos profilácticos."
+    },
+    {
+      "file": "s15_g04",
+      "text": "Y en la biliar, CPRE urgente solo si hay colangitis, y colecistectomía antes del alta. Si te llevas una sola idea de hoy: la pancreatitis se trata con volumen, no con antibióticos. Nos vemos en la próxima clase."
+    }
+  ]
+}

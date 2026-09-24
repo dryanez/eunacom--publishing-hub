@@ -1,0 +1,256 @@
+{
+  "id": "gastro-03",
+  "title": "Gastroenterologia 1.3: Disfagia y Trastornos Motores del Esófago",
+  "specialty": "Gastroenterología",
+  "chars": 9577,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos disfagia y trastornos motores del esófago. Es una pregunta clásica del examen, y siempre tiene la misma forma: te describen cómo traga el paciente, y tú tienes que elegir el examen correcto. La buena noticia es que el patrón clínico te da la respuesta. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la idea que ordena toda la clase. Antes de pedir cualquier examen, pregúntale al paciente cómo traga. Esa sola descripción ya te orienta a la causa."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El primer patrón es la disfagia lógica. Es progresiva: parte con los sólidos, la carne o el pan, y con el tiempo le cuesta tragar también los líquidos. Se llama lógica porque tiene sentido."
+    },
+    {
+      "file": "s01_g02",
+      "text": "¿Y por qué tiene sentido? Porque hay algo que ocupa el lumen y que va creciendo. Primero se atasca lo grande, y a medida que el espacio se achica, pasa cada vez menos."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Esa obstrucción que crece, sobre todo si el paciente está bajando de peso, es un cáncer de esófago hasta demostrar lo contrario."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El otro patrón es la disfagia ilógica. Es fluctuante, hay días buenos y días malos, y afecta a los líquidos desde el inicio. Eso no calza con un tumor."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Aquí el lumen está libre; lo que falla es el músculo, que no coordina. Es un trastorno motor, y los dos que se preguntan son la acalasia y la esclerodermia. Regla de oro: si afecta a los líquidos desde el principio, piensa en el músculo, no en un tumor."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos el primer cuadro. Disfagia lógica progresiva con baja de peso. Si el paciente es fumador, piensa en carcinoma escamoso; si tiene reflujo o Barrett de larga data, en adenocarcinoma. Esa es justamente la puerta que dejamos abierta en la clase de reflujo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El cáncer del cardias se comporta exactamente igual, así que en el examen lo tratas del mismo modo."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y ojo con un matiz. Si la disfagia a sólidos es intermitente y no hay baja de peso, piensa en un anillo de Schatzki o en una estenosis péptica. También se estudia con endoscopía, que además permite dilatar."
+    },
+    {
+      "file": "s02_g03",
+      "text": "¿Qué examen pides? Endoscopía digestiva alta con biopsia. No la manometría ni el esofagograma: esos son para el músculo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Una vez confirmado, se etapifica con TAC de tórax y abdomen, y con endosonografía transesofágica. La endosonografía mide la invasión de la pared, que es el principal factor pronóstico."
+    },
+    {
+      "file": "s02_g05",
+      "text": "El único tratamiento curativo es la cirugía, y en el esófago la radioterapia tiene un rol importante. Todo esto lo profundizamos en la clase de cáncer de esófago y gástrico."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora el músculo. En la acalasia, el esfínter esofágico inferior tiene el tono aumentado y no se relaja al tragar. Fíjate que es exactamente lo contrario del reflujo: allá la puerta se abría cuando no debía; aquí no se abre cuando debe."
+    },
+    {
+      "file": "s03_g01",
+      "text": "A eso se suma que la peristalsis del cuerpo está disminuida. El esófago no empuja, y la puerta de salida no se abre."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Resultado: la comida queda estancada en el esófago y nunca llega al estómago."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Eso da una disfagia ilógica, fluctuante, y baja, porque el problema está en el esfínter inferior."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y da una pista muy preguntada: el paciente regurgita alimentos sin sabor ácido. ¿Por qué? Porque esa comida nunca estuvo en contacto con el ácido del estómago."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Si esa regurgitación ocurre de noche, el contenido se aspira, y aparecen neumonías aspirativas a repetición. Disfagia ilógica más neumonías aspirativas: piensa en acalasia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El examen de elección es la manometría esofágica. Mide presiones, así que muestra justo el mecanismo: peristalsis disminuida y un esfínter hipertónico que no se relaja."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El esofagograma con bario muestra el cuerpo dilatado que termina afinándose, la imagen en pico de pájaro. Es una imagen típica, pero no es el examen que confirma."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la endoscopía se hace igual, para descartar una pseudoacalasia, es decir, un cáncer del cardias que imita el cuadro."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La lógica del tratamiento es abrir la puerta. El de elección es la esfinterotomía, o miotomía, del esfínter esofágico inferior."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La toxina botulínica por vía endoscópica queda para etapas iniciales o para pacientes que no se pueden operar."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y los bloqueadores de calcio relajan el esfínter, pero producen reflujo. Por eso sirven en la acalasia inicial, y justamente por eso no se usan para tratar el reflujo."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El segundo trastorno motor es la esclerodermia. También da disfagia ilógica, pero con una diferencia clave frente a la acalasia: pirosis intensa. Aquí el esfínter pierde tono, así que hay reflujo ácido grave."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El enunciado te lo va a delatar con el contexto: fenómeno de Raynaud, calcinosis y telangiectasias."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Se estudia con manometría, más anticuerpos: anti Scl setenta y anticentrómero."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y el último cuadro está arriba, en el esfínter esofágico superior: el divertículo de Zenker. El paciente siente que la comida se le queda en la garganta, y tiene una halitosis marcada, porque el alimento retenido en el saco fermenta."
+    },
+    {
+      "file": "s05_g04",
+      "text": "También regurgita comida sin digerir, igual que en la acalasia. Lo que los separa es la halitosis y que la disfagia es alta."
+    },
+    {
+      "file": "s05_g05",
+      "text": "El examen es el esofagograma con bario, no la endoscopía ni la manometría. Y el tratamiento es quirúrgico: diverticulectomía más miotomía cricofaríngea."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos todo en un árbol: dos preguntas clínicas y ya sabes qué examen pedir. Paciente con disfagia. Con dos preguntas clínicas ya sabes qué examen pedir."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Primero: ¿la disfagia es alta, en la garganta, con halitosis marcada y regurgitación de comida sin digerir?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Eso es un divertículo de Zenker. El examen es el esofagograma con bario, no la endoscopía ni la manometría, y el tratamiento es quirúrgico."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si no, preguntamos el patrón. ¿Empezó con sólidos y progresó a líquidos? Eso es disfagia lógica. ¿Afecta a los líquidos desde el inicio y fluctúa? Eso es ilógica."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Disfagia lógica significa obstrucción mecánica que crece. Hay que descartar un cáncer de esófago, sobre todo con baja de peso: endoscopía digestiva alta con biopsia."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Disfagia ilógica es un problema del músculo, no un tumor. El examen de elección es la manometría esofágica."
+    },
+    {
+      "file": "s06_g06",
+      "text": "¿Se acompaña de pirosis intensa, fenómeno de Raynaud o calcinosis?"
+    },
+    {
+      "file": "s06_g07",
+      "text": "Eso es esclerodermia: un trastorno motor con reflujo ácido grave. Se piden anticuerpos anti Scl setenta y anticentrómero."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Sin reflujo, con regurgitación no ácida y neumonías aspirativas: acalasia. El esfínter no se relaja, y el tratamiento de elección es la miotomía del esfínter esofágico inferior."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos en una tabla, que es como lo pregunta el examen. Disfagia lógica progresiva con baja de peso: cáncer de esófago, endoscopía con biopsia."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Disfagia ilógica baja con neumonías aspirativas: acalasia, manometría."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Disfagia ilógica con pirosis y Raynaud: esclerodermia, manometría más anticuerpos."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Disfagia alta con halitosis: Zenker, esofagograma con bario."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y disfagia intermitente a sólidos, sin baja de peso: anillo de Schatzki o estenosis péptica, endoscopía, que además permite dilatar."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos al caso. Mujer de cuarenta y seis años con ocho meses de dificultad para tragar, más marcada con los líquidos que con los sólidos, y fluctuante. Ha tenido dos neumonías basales derechas en el último año, y de noche regurgita alimentos sin sabor ácido. No ha bajado de peso."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el examen que confirma el diagnóstico más probable?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las alternativas: endoscopía con biopsia, manometría esofágica, pH-metría de veinticuatro horas, TAC de tórax, o prueba con omeprazol. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, la manometría. Líquidos desde el inicio y fluctuante: disfagia ilógica, o sea, músculo. Súmale neumonías aspirativas y regurgitación no ácida, y tienes una acalasia. La alternativa tentadora es la endoscopía, porque igual se hace para descartar un cáncer del cardias. Pero la pregunta es qué examen confirma el trastorno motor, y ese es la manometría."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta del banco EUNACOM, un caso representativo. Hombre de sesenta y dos años, fumador de cuarenta paquetes año, con tres meses de disfagia que partió con la carne y el pan, y que ahora también le cuesta con los líquidos. Ha bajado siete kilos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta inicial?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: manometría, esofagograma con bario, endoscopía con biopsia, TAC de tórax, o prueba con IBP. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La respuesta es la C. De sólidos a líquidos y progresiva: disfagia lógica. Con baja de peso y tabaco, es un cáncer escamoso hasta demostrar lo contrario, y se confirma con endoscopía y biopsia. El distractor es el TAC: se pide, pero después, para etapificar. Y la manometría y el esofagograma son para el músculo, no para un tumor."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y una más del banco. Mujer de setenta y un años que siente que la comida se le queda en la garganta desde hace un año. Regurgita alimentos sin digerir, y su familia le nota una halitosis intensa."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: cáncer de esófago, acalasia, divertículo de Zenker, esclerodermia, o estenosis péptica. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C, divertículo de Zenker. La comida se queda en la garganta, o sea, disfagia alta, y hay halitosis marcada porque el alimento fermenta en el saco. El distractor es la acalasia, que también regurgita comida sin digerir. Pero la acalasia es baja, da neumonías, y no tiene esa halitosis. Y recuerda el examen: esofagograma con bario."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Disfagia lógica, de sólidos a líquidos y progresiva: obstrucción, y endoscopía con biopsia."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Disfagia ilógica, con líquidos desde el inicio: trastorno motor, y manometría."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Acalasia: regurgitación no ácida y neumonías aspirativas, y se trata con miotomía del esfínter."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Esclerodermia: trastorno motor con pirosis intensa y Raynaud."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y disfagia alta con halitosis: Zenker, esofagograma con bario y cirugía. Si te llevas una sola idea de hoy: si afecta a los líquidos desde el principio, piensa en el músculo y pide manometría; si parte con los sólidos y progresa, piensa en un tumor y pide endoscopía. Nos vemos en la próxima clase."
+    }
+  ]
+}

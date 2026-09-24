@@ -1,0 +1,228 @@
+{
+  "id": "gastro-05",
+  "title": "Gastroenterologia 1.5: Cáncer de Esófago y Cáncer Gástrico",
+  "specialty": "Gastroenterología",
+  "chars": 8765,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos cáncer de esófago y cáncer gástrico. Es el cierre lógico de las clases anteriores: el Barrett del reflujo, la disfagia lógica y la epigastralgia de la úlcera terminan, en el peor escenario, aquí. Y el examen pregunta casi siempre dos cosas: cuándo endoscopiar, y qué define el pronóstico."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por lo que tienen en común. Los dos dan baja de peso y anorexia, y el problema es que lo hacen tarde: cuando aparecen los síntomas, el tumor suele estar avanzado."
+    },
+    {
+      "file": "s01_g01",
+      "text": "También dan hemorragia digestiva, muchas veces silenciosa, que se manifiesta como una anemia ferropénica. Una anemia ferropénica en un adulto sin explicación siempre te obliga a mirar el tubo digestivo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El diagnóstico es siempre el mismo: endoscopía digestiva alta con biopsia. Sin biopsia no hay diagnóstico de cáncer."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y una vez confirmado, se etapifica con un TAC de tórax, abdomen y pelvis. Fíjate en el orden: el TAC va después, no antes."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y ahora el dato que más se pregunta. El principal factor pronóstico es la invasión transmural, es decir, qué tan profundo penetra el tumor en la pared. No son las adenopatías ni las metástasis. Es la profundidad."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El único tratamiento curativo es la cirugía. La quimioterapia y la radioterapia acompañan, pero son adyuvantes."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos al esófago. Hay dos tipos, y cada uno tiene su propia historia. El primero es el carcinoma escamoso: su causa es el tabaco y el alcohol, y se ubica en el tercio medio."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo es el adenocarcinoma, y aquí se cierra el círculo de la primera clase: nace del reflujo crónico y del esófago de Barrett, por eso se ubica en el tercio distal. El cáncer del cardias se maneja igual que este."
+    },
+    {
+      "file": "s02_g02",
+      "text": "¿Cómo se presenta? Con disfagia lógica progresiva y baja de peso. Como vimos en la clase de disfagia, el tumor va cerrando el lumen de a poco: primero cuestan los sólidos y después los líquidos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El diagnóstico es endoscopía con biopsia. Y para etapificar, además del TAC, se usa la endosonografía transesofágica. ¿Por qué? Porque mide justamente la invasión de la pared, que es lo que define el pronóstico."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El tratamiento curativo es la cirugía, la esofagectomía. Pero a diferencia del estómago, aquí la radioterapia tiene un rol destacado, y con frecuencia se da antes de operar, como neoadyuvancia."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Pasemos al estómago. En Chile, el cáncer gástrico es la primera causa de muerte por cáncer en hombres, y la segunda en mujeres, después del de mama."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La causa principal es el Helicobacter pylori, el mismo de la clase de úlcera. Y los factores de riesgo son la gastritis atrófica, la metaplasia intestinal, el antecedente familiar y una dieta rica en ahumados y sal."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La primera forma de presentación es la más traicionera: una epigastralgia urente, idéntica a la de la úlcera. Por eso la regla que vimos: epigastralgia en un mayor de cuarenta años, endoscopía siempre."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La segunda es el síndrome pilórico: vómitos posprandiales de retención, de comida ingerida horas antes, cada vez más frecuentes. En un adulto, eso es cáncer gástrico hasta demostrar lo contrario."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y las dos últimas ya hablan de enfermedad avanzada: una masa epigástrica palpable, o una adenopatía supraclavicular izquierda, el ganglio de Virchow."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Y ahora la clasificación, que es la aplicación directa del factor pronóstico. La pregunta es una sola: hasta dónde penetra el tumor."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si está limitado a la mucosa y la submucosa, es un cáncer incipiente, y eso es independiente de si tiene adenopatías o no. Ojo con esa trampa. Es el único de buen pronóstico."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Se trata con resección: endoscópica en casos seleccionados, o gastrectomía."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si compromete la muscular propia o va más allá, es un cáncer avanzado."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Aquí el tratamiento es una gastrectomía, subtotal o total, con linfadenectomía D dos, más quimioterapia perioperatoria."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y esto explica la garantía GES. Si solo el incipiente tiene buen pronóstico, y el cáncer gástrico da síntomas tarde, la única forma de ganar es buscarlo antes. Por eso Chile garantiza endoscopía a todo dispéptico de cuarenta años o más: para pillar más cánceres incipientes."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Paciente con baja de peso, anemia o anorexia. El síntoma que predomina nos dice qué cáncer buscar y con qué examen."
+    },
+    {
+      "file": "s05_g01",
+      "text": "¿Qué predomina en el cuadro?"
+    },
+    {
+      "file": "s05_g02",
+      "text": "Disfagia lógica progresiva con baja de peso: cáncer de esófago hasta demostrar lo contrario. Endoscopía con biopsia."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Se etapifica con TAC y endosonografía, porque el principal factor pronóstico es la invasión transmural. El tratamiento curativo es la cirugía, con rol importante de la radioterapia."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Epigastralgia en mayor de cuarenta, o vómitos de retención en aumento: cáncer gástrico. Endoscopía con biopsias, garantía GES."
+    },
+    {
+      "file": "s05_g05",
+      "text": "¿El tumor invade la muscular propia?"
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si está limitado a mucosa y submucosa es incipiente, con buen pronóstico: resección endoscópica en casos seleccionados, o gastrectomía."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Si compromete la muscular propia es avanzado: gastrectomía con linfadenectomía D dos y quimioterapia perioperatoria."
+    },
+    {
+      "file": "s05_g08",
+      "text": "Si a la baja de peso y la epigastralgia se suma ictericia, la sospecha cambia a cáncer de páncreas. Ahí el examen es TAC de abdomen con contraste, no endoscopía."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos en una tabla. Epigastralgia en un mayor de cuarenta, o con cualquier signo de alarma: puede ser una úlcera o un cáncer, y se pide endoscopía con biopsias."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Vómitos de retención que van en aumento: síndrome pilórico por cáncer gástrico, y también endoscopía."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Baja de peso con epigastralgia: cáncer gástrico, endoscopía."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Pero atención a esta fila, porque es la trampa. Si a la baja de peso y la epigastralgia se suma ictericia, la sospecha cambia a cáncer de páncreas, y el examen ya no es la endoscopía: es un TAC de abdomen con contraste."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y disfagia lógica progresiva con baja de peso: cáncer de esófago, endoscopía con biopsia."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Hombre de sesenta y ocho años con tres meses de plenitud después de comer y vómitos de alimentos ingeridos horas antes, cada vez más frecuentes, y una baja de nueve kilos. Al examen tiene chapoteo gástrico en ayunas y una pequeña adenopatía supraclavicular izquierda."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: úlcera duodenal no complicada, cáncer gástrico avanzado con obstrucción de la salida, acalasia, dispepsia funcional, o cáncer de páncreas. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Vómitos de retención en aumento son un síndrome pilórico, y en un adulto con baja de peso eso es cáncer gástrico hasta demostrar lo contrario. El ganglio de Virchow además te dice que hay metástasis, y eso contraindica la cirugía con intención curativa. La acalasia tienta porque hay regurgitación, pero es de comida no digerida que nunca llegó al estómago, y aquí hay chapoteo gástrico."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta del banco EUNACOM. Hombre de sesenta años que consulta por una baja de ocho kilos en tres meses, epigastralgia sorda e hiporexia. No tiene ictericia."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el examen inicial más adecuado?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: TAC de abdomen y pelvis, endoscopía digestiva alta con biopsias, ecografía abdominal, marcadores tumorales, o un tránsito con bario. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La respuesta es la B, endoscopía con biopsias. Baja de peso con epigastralgia en un mayor de cuarenta es cáncer gástrico hasta demostrar lo contrario. El distractor es el TAC: sirve, pero después, para etapificar. Y fíjate en el detalle del enunciado, \"no tiene ictericia\". Está ahí justamente para que no pienses en páncreas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra del mismo banco. Mujer de cincuenta y cinco años, a la que la endoscopía por dispepsia le muestra un adenocarcinoma gástrico limitado a la mucosa, de quince milímetros, bien diferenciado y sin úlcera. El TAC no muestra adenopatías ni metástasis."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Qué define el pronóstico y cuál es la conducta?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: el tamaño y observar, la profundidad de invasión y resecar, el Helicobacter y erradicar, la diferenciación y quimioterapia paliativa, o el antígeno carcinoembrionario y radioterapia. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Lo que define el pronóstico es la profundidad de invasión, y este tumor no pasa la mucosa: es incipiente, el de mejor pronóstico, y se reseca con intención curativa. Por ser pequeño, bien diferenciado y sin úlcera, puede ser por vía endoscópica. La trampa es la C: erradicar el Helicobacter está bien, pero solo, deja el cáncer sin tratar."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Epigastralgia en un mayor de cuarenta, o con alarma: endoscopía con biopsias, garantía GES."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Vómitos de retención en aumento en un adulto: cáncer gástrico hasta demostrar lo contrario."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si se agrega ictericia, piensa en páncreas y pide TAC."
+    },
+    {
+      "file": "s10_g03",
+      "text": "El pronóstico lo decide la invasión de la pared, no las adenopatías."
+    },
+    {
+      "file": "s10_g04",
+      "text": "El incipiente se reseca; el avanzado lleva gastrectomía con linfadenectomía D dos y quimioterapia."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y en el esófago, escamoso por tabaco y alcohol, adenocarcinoma por reflujo y Barrett. Si te llevas una sola idea de hoy: el pronóstico lo decide la profundidad, y por eso se endoscopia temprano. Nos vemos en la próxima clase."
+    }
+  ]
+}

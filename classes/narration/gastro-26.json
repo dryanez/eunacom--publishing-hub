@@ -1,0 +1,264 @@
+{
+  "id": "gastro-26",
+  "title": "Gastroenterologia 6.4: Trauma Abdominal y Torácico",
+  "specialty": "Gastroenterología",
+  "chars": 12417,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy cerramos el bloque con trauma abdominal y torácico. No ha salido en los exámenes de los últimos años, pero es foco prioritario del nuevo perfil EUNACOM, y se resuelve con una sola regla: el mecanismo manda. Trauma cerrado, arma blanca o arma de fuego: cada uno tiene su herramienta de evaluación y su indicación de cirugía."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el trauma abdominal cerrado, el del choque automovilístico, la caída o el golpe. Aquí no hay herida que explorar, así que la pregunta es cómo sabemos si hay algo roto por dentro. Un detalle antes: no hay garantía GES específica, el manejo sigue el protocolo ATLS."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Usamos dos herramientas. La clínica, es decir, si el paciente está estable y si tiene signos peritoneales. Y la eco FAST, la ecografía focalizada en trauma, que se hace al lado de la camilla y busca una sola cosa: líquido libre en el abdomen."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si el paciente está estable, sin signos peritoneales y con la FAST negativa, la conducta es la observación, con monitorización y reevaluaciones clínicas seriadas. No se opera a ciegas."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y si el mecanismo fue de alta energía, a esa observación se le puede sumar un TAC de abdomen, para no pasar por alto una lesión que la ecografía no ve. La FAST busca líquido; no te dice qué órgano está roto."
+    },
+    {
+      "file": "s01_g04",
+      "text": "En cambio, si el paciente está inestable, si tiene signos peritoneales, o si la FAST muestra líquido libre, cualquiera de los tres, la conducta es la laparotomía. Basta uno solo para ir a pabellón. Y si el paciente que estaba en observación se pone inestable o desarrolla peritonismo, cambia de rama y se opera."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos qué se puede romper. Si se rompe una víscera hueca, como el intestino, lo que sale es contenido intestinal y aire: el paciente hace peritonitis y neumoperitoneo. Es la misma lógica de la úlcera perforada que vimos en la clase de urgencias del tubo digestivo alto: aire libre significa víscera hueca rota, y eso se opera."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si se rompe una víscera sólida, el bazo o el hígado, lo que sale es sangre: hemoperitoneo. Y eso es justamente lo que detecta la FAST como líquido libre."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Pero ojo, que esto se pregunta: el bazo y el hígado lesionados se manejan de forma conservadora si el paciente está estable. Lo que decide la cirugía no es el órgano roto, es la estabilidad del paciente."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y un dato de examen muy concreto: el lavado peritoneal diagnóstico está obsoleto. La eco FAST lo reemplazó. Si aparece como alternativa, casi siempre es el distractor. Hoy la pregunta de si hay sangre en el abdomen la responde la ecografía, en minutos y sin puncionar al paciente."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Segundo mecanismo: la herida por arma blanca en el abdomen. Aquí cambia la herramienta. Ya no manda la ecografía, manda la herida misma."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Se evalúa con la clínica y con la exploración de la herida, y la pregunta es una sola: ¿la herida atraviesa el peritoneo?"
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si no lo atraviesa, el cuchillo no entró a la cavidad, y el paciente estable se puede observar. Ojo: observar no es dar de alta; es reevaluar, y si aparecen signos peritoneales o inestabilidad, se cambia de conducta."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si la herida penetra el peritoneo, la situación cambia. Y también cambia, aunque no hayas explorado la herida, si el paciente está inestable, tiene signos peritoneales, o hay evisceración, es decir, asas o epiplón asomando por la herida."
+    },
+    {
+      "file": "s03_g04",
+      "text": "En todos esos casos la conducta es la exploración quirúrgica, por laparotomía o laparoscopía. Fíjate en el detalle: si penetra el peritoneo se explora aunque el paciente esté estable y sin peritonismo, porque el riesgo de haber lesionado intestino o mesenterio es alto."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Tercer mecanismo, y el más simple: el trauma abdominal por proyectil de arma de fuego se explora quirúrgicamente siempre. No importa si el paciente está estable, no importa lo que diga la ecografía."
+    },
+    {
+      "file": "s04_g01",
+      "text": "¿Por qué siempre? Porque la energía del proyectil y su trayectoria, que es impredecible, producen lesiones múltiples de vísceras. A diferencia del cuchillo, que lesiona solo lo que toca en su trayecto, el proyectil puede dañar varias vísceras a la vez, y no hay exploración de la herida que te asegure que no entró."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Hay una sola excepción, y es muy acotada: una herida claramente tangencial, que no entra a la cavidad."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Solo en ese caso, con el paciente estable, se puede manejar sin operar, bajo observación estricta y con TAC. Para el examen, quédate con la regla: bala en el abdomen, pabellón."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora juntemos los tres, porque el examen hace esto: te da un paciente estable y sin signos peritoneales, y lo único que cambia es el mecanismo. Si el paciente estuviera inestable, o con peritonitis, la respuesta sería cirugía en los tres casos, y la pregunta no tendría gracia. La gracia está en el paciente estable, porque ahí cada mecanismo usa una herramienta distinta."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En el trauma cerrado manda la eco FAST: negativa, observar; con líquido libre, laparotomía."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En el arma blanca manda la herida: si no penetra el peritoneo, observar; si penetra, explorar. Y aquí está la trampa típica: pedir una FAST en una herida por arma blanca que ya sabes que penetra. Si penetra, la FAST no cambia nada, porque una FAST negativa no descarta una lesión de intestino."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y en el arma de fuego manda el mecanismo: se explora siempre, salvo la herida tangencial demostrada. Tres mecanismos, tres herramientas distintas."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Pasemos al tórax. En el trauma torácico cerrado y en el por arma blanca, la evaluación es la clínica más la radiografía de tórax. Y el manejo no es operar de entrada, sino tratar la complicación que encuentres."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si hay neumotórax o hemotórax, aire o sangre en la pleura, se instala un tubo pleural. Y ese tubo no solo trata: además mide cuánta sangre sale, y ese número va a ser clave en un momento. En el tórax hay dos cifras que tienes que llevarte sí o sí, y salen justamente de ese tubo."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si hay contusión pulmonar, es decir, el pulmón golpeado sin que haya aire ni sangre en la pleura, no hay nada que drenar. El tratamiento es soporte respiratorio."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y si hay taponamiento cardíaco, con sangre que comprime el corazón dentro del pericardio, hay que descomprimir: pericardiocentesis o ventana pericárdica. Fíjate en la lógica común: en el tórax, primero se resuelve la complicación con un procedimiento, y la toracotomía queda para indicaciones precisas, que vemos ahora."
+    },
+    {
+      "file": "s07_g00",
+      "text": "¿Cuándo se abre el tórax? La primera indicación de toracotomía es el hemotórax masivo, y se define por lo que sale por el tubo. Si al instalarlo salen más de mil quinientos mililitros de entrada, es hemotórax masivo."
+    },
+    {
+      "file": "s07_g01",
+      "text": "O si el débito se mantiene en más de doscientos mililitros por hora durante dos a cuatro horas. Cualquiera de los dos significa que hay una hemorragia activa que el tubo no va a detener. Aprende esos dos números: mil quinientos de entrada, doscientos por hora."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las otras indicaciones de toracotomía son tres. La primera es el taponamiento cardíaco: la pericardiocentesis descomprime, pero la fuente del sangrado hay que resolverla."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La segunda, la lesión de los grandes vasos o de la vía aérea, que ningún tubo pleural va a reparar."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y la tercera, todo trauma torácico por arma de fuego. Fíjate que es la misma regla que en el abdomen: el arma de fuego va a pabellón, en el tórax y en el abdomen. Si recuerdas eso, ya tienes resuelta una parte de las preguntas."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos del paciente con trauma abdominal. Antes de pedir cualquier examen, la pregunta es cuál fue el mecanismo, porque el mecanismo decide la herramienta."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Fue un trauma cerrado, una herida por arma blanca o una por arma de fuego?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "En el trauma cerrado evaluamos la clínica y hacemos eco FAST, buscando líquido libre. El lavado peritoneal está obsoleto."
+    },
+    {
+      "file": "s08_g03",
+      "text": "¿Está inestable, tiene signos peritoneales o la FAST muestra líquido libre? Basta uno de los tres."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si hay cualquiera de los tres, la conducta es la laparotomía."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Estable, sin peritonismo y con FAST negativa: observación con reevaluaciones seriadas, y TAC si el mecanismo fue de alta energía. Bazo e hígado estables se manejan de forma conservadora."
+    },
+    {
+      "file": "s08_g06",
+      "text": "En el arma blanca, exploramos la herida: ¿atraviesa el peritoneo? También cuentan la inestabilidad, los signos peritoneales y la evisceración."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si penetra el peritoneo, o hay inestabilidad, peritonitis o evisceración, se indica exploración quirúrgica, aunque el paciente esté estable."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si la herida no atraviesa el peritoneo y el paciente está estable, se puede observar."
+    },
+    {
+      "file": "s08_g09",
+      "text": "Arma de fuego en el abdomen: exploración quirúrgica siempre, por las lesiones múltiples que produce. La única excepción es la herida claramente tangencial, en un paciente estable, con observación estricta y TAC."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos en una tabla. Trauma abdominal cerrado: clínica y eco FAST, más TAC si fue de alta energía. Se opera si está inestable, con signos peritoneales o con líquido libre."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Arma blanca en el abdomen: clínica y exploración de la herida. Se opera si penetra el peritoneo, si está inestable, con peritonitis o con evisceración."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Arma de fuego en el abdomen: siempre, salvo la herida tangencial demostrada."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Tórax cerrado o por arma blanca: clínica y radiografía. Toracotomía si hay hemotórax masivo, taponamiento, o lesión de grandes vasos o de la vía aérea."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y el tórax por arma de fuego: siempre."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Hombre de treinta años que sufre un choque automovilístico de alta energía. Llega estable, con dolor leve en el hipocondrio izquierdo y sin signos peritoneales. La eco FAST no muestra líquido libre, y las radiografías de tórax y pelvis son normales."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las alternativas: laparotomía de urgencia, lavado peritoneal diagnóstico, observación con reevaluaciones seriadas y TAC de abdomen, exploración digital de la pared, o alta con analgesia. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Trauma cerrado, estable, sin peritonismo y con FAST negativa: se observa, y como el mecanismo fue de alta energía, se agrega un TAC. El distractor tentador es la laparotomía, por el dolor en el hipocondrio izquierdo que te hace pensar en el bazo; pero aunque el bazo estuviera lesionado, en un paciente estable se maneja de forma conservadora. El lavado está obsoleto, y la exploración de la herida es del arma blanca."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta del banco EUNACOM. Hombre de veinticinco años con una herida por arma blanca en el flanco derecho. Está estable y sin signos peritoneales. Al explorar la herida en pabellón, se constata que atraviesa el peritoneo parietal."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: observar veinticuatro horas, hacer una eco FAST y decidir, exploración quirúrgica, radiografía simple y alta si es normal, o lavado peritoneal. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C, exploración quirúrgica. En el arma blanca manda la herida, y esta penetra el peritoneo, así que se explora, aunque el paciente esté estable. El distractor más tentador es la eco FAST, porque la usamos en el trauma cerrado; pero aquí ya sabes que el cuchillo entró, y una FAST negativa no descarta una lesión de intestino o de mesenterio. Y el lavado, como ya sabes, está obsoleto."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y una segunda pregunta del banco. Paciente de cuarenta años con trauma torácico cerrado. La radiografía muestra una opacidad en la base derecha con borramiento del ángulo costofrénico. Se instala un tubo pleural que drena mil ochocientos mililitros de sangre en la primera hora."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: mantener el tubo y observar, toracotomía, transfundir y reevaluar en seis horas, cambiar el tubo por uno de mayor calibre, o TAC de tórax antes de decidir. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, toracotomía. Mil ochocientos mililitros de entrada supera el corte de mil quinientos: es un hemotórax masivo, con una hemorragia activa que el tubo no va a detener. El distractor tentador es transfundir y reevaluar, pero reponer sangre sin controlar la fuente lleva al shock. Y el TAC solo retrasa una cirugía que ya está indicada. Cambiar el tubo por uno más grueso tampoco resuelve nada: el problema no es el drenaje, es la fuente del sangrado."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Trauma abdominal cerrado: clínica y eco FAST; estable y con FAST negativa, se observa."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Arma blanca: si penetra el peritoneo, se explora."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Arma de fuego en el abdomen: se explora siempre."
+    },
+    {
+      "file": "s13_g03",
+      "text": "El lavado peritoneal está obsoleto, y el bazo y el hígado se manejan de forma conservadora si el paciente está estable."
+    },
+    {
+      "file": "s13_g04",
+      "text": "En el tórax, hemotórax con más de mil quinientos mililitros de entrada, o más de doscientos por hora, es toracotomía. Y el arma de fuego torácica también va a pabellón. Si te llevas una sola idea de hoy: en trauma, el mecanismo manda; la FAST para el cerrado, la herida para el arma blanca, y el pabellón para el arma de fuego. Nos vemos en la próxima clase."
+    }
+  ]
+}

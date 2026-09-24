@@ -1,0 +1,292 @@
+{
+  "id": "gastro-15",
+  "title": "Gastroenterologia 3.3: Daño Hepático Crónico e Hipertensión Portal",
+  "specialty": "Gastroenterología",
+  "chars": 13276,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos daño hepático crónico e hipertensión portal, es decir, las complicaciones del paciente cirrótico. Es un tema denso y de alta rentabilidad, pero tiene dos reglas que se preguntan sin falta: a todo cirrótico con ascitis que consulta se le hace paracentesis diagnóstica, y el TIPS está contraindicado si hay encefalopatía. No son reglas para memorizar a ciegas: las dos salen directo de la fisiopatología, y por eso vamos a partir por ahí. Vamos a entender por qué."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mapa. La cirrosis puede venir del alcohol o de las hepatitis crónicas que vimos en la clase anterior, pero una vez instalada, descompensa siempre por dos vías."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La primera vía es la hipertensión portal. El hígado fibrótico opone resistencia, la sangre del intestino no logra pasar, y la presión sube hacia atrás, en todo el territorio de la vena porta. Casi todo lo que vamos a ver hoy es consecuencia de esa presión."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Esa presión abre colaterales, que son las várices esofágicas, y empuja líquido al peritoneo, que es la ascitis. Y esa ascitis se puede infectar: la peritonitis bacteriana espontánea."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y en el cirrótico avanzado, la circulación está tan alterada que el riñón termina fallando sin estar enfermo: es el síndrome hepatorrenal. Guárdalo, porque la albúmina que vamos a indicar en varias situaciones existe justamente para prevenirlo."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La segunda vía es la insuficiencia hepática: el hígado ya no alcanza a hacer su trabajo."
+    },
+    {
+      "file": "s01_g05",
+      "text": "No depura las toxinas, y aparece la encefalopatía. No fabrica factores de coagulación, y aparece la coagulopatía. Cada una de estas complicaciones tiene su conducta, y las vamos a ver una por una."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Empecemos por las várices. A todo cirrótico se le hace una endoscopía para pesquisarlas, aunque nunca haya sangrado. La idea es encontrarlas antes de que sangren, porque la hemorragia variceal es la complicación más dramática del cirrótico."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si tiene várices y nunca ha sangrado, hablamos de profilaxis primaria, y es con betabloqueo no selectivo: propranolol o carvedilol. El betabloqueo baja la presión portal y con eso el riesgo de sangrado."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Solo si el betabloqueo está contraindicado, por ejemplo en un asmático, se hace ligadura endoscópica. Ligar de entrada a un paciente que puede recibir propranolol es la trampa."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si ya sangró una vez, la profilaxis secundaria suma las dos cosas: propranolol más ligadura. Primaria, una; secundaria, las dos. Esa diferencia se pregunta."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, el cirrótico que llega sangrando. Esto conecta con la clase de hemorragia digestiva alta, pero aquí el paquete es específico."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Primero, reposición de volumen para estabilizar al paciente. Y en paralelo, sin esperar la endoscopía, terlipresina, o somatostatina u octreótido, que bajan la presión portal y ayudan a detener el sangrado."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Tercero, y aquí está la trampa: antibióticos, con ceftriaxona. El cirrótico que sangra tiene alto riesgo de infectarse, y el antibiótico es profilaxis de peritonitis bacteriana espontánea. Omitir los antibióticos es el error que buscan, y es la omisión más frecuente en las alternativas."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Cuarto, endoscopía con ligadura de las várices, dentro de las primeras doce horas. La endoscopía confirma que el sangrado es variceal y, en el mismo acto, lo trata."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si el paciente es alcohólico, se agrega tiamina, como en todo paciente con consumo crónico de alcohol que llega a urgencias."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Si a pesar de todo el sangrado es refractario, el rescate es el TIPS, una derivación portosistémica que descomprime el sistema portal. Guarda este nombre, porque más adelante vamos a ver cuándo está prohibido. Y una vez superado el episodio, el paciente queda con profilaxis secundaria: propranolol más ligadura."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Vamos a la ascitis. Recuerda que es líquido empujado por la hipertensión portal, y que el riñón del cirrótico retiene sodio. Por eso el tratamiento de la ascitis no complicada parte con restricción de sodio."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y se suman diuréticos: espironolactona, con o sin furosemida. La espironolactona es la base, y la furosemida se agrega cuando hace falta."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si la ascitis está a tensión, se hace paracentesis evacuadora y se repone albúmina, cerca de ocho gramos por cada litro extraído. La albúmina evita que el paciente descompense su circulación al sacarle tanto líquido de golpe."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Pero ojo: antes de evacuar, siempre la paracentesis diagnóstica. Drenar sin descartar una peritonitis es una trampa clásica."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si la ascitis es refractaria a los diuréticos, se hacen paracentesis seriadas con albúmina, y se considera el TIPS o el trasplante hepático. Pero el TIPS no siempre se puede usar, y eso lo veremos en la encefalopatía."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Y aquí viene la primera regla de oro. A todo cirrótico con ascitis que consulta, por lo que sea, se le hace una paracentesis diagnóstica. Aunque venga por otra cosa, aunque no tenga dolor ni fiebre alta. Veamos qué buscamos en ese líquido."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Primero, la causa. Se calcula el gradiente entre la albúmina del suero y la del líquido ascítico. Si es de uno coma uno gramos por decilitro o más, confirma que la ascitis se debe a hipertensión portal. Es decir, que el problema es la presión y no, por ejemplo, un tumor en el peritoneo."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Segundo, el riesgo. Si la albúmina del líquido está bajo uno coma cinco gramos por decilitro, ese líquido tiene poca capacidad de defensa, el riesgo de peritonitis es alto, y se indica profilaxis primaria."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y tercero, lo más importante: el recuento de polimorfonucleares. Doscientos cincuenta o más por milímetro cúbico hacen el diagnóstico de peritonitis bacteriana espontánea. Ese número se pregunta, apréndelo tal cual."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora la peritonitis bacteriana espontánea. Fíjate que el paciente puede llegar solo con febrícula o con más ascitis, sin dolor peritoneal. Por eso no esperamos la clínica: puncionamos."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Con doscientos cincuenta o más polimorfonucleares por milímetro cúbico, es una peritonitis. El agente más frecuente es la Escherichia coli, una bacteria que viene del intestino. No hay una perforación ni un foco quirúrgico: por eso se llama espontánea."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El tratamiento es cefotaxima, o ceftriaxona, endovenosa por cinco a siete días."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y ojo con el distractor: los aminoglucósidos no se usan, porque son nefrotóxicos, y el riñón de este paciente ya está en riesgo."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La otra mitad del tratamiento es la albúmina, el día uno y el día tres. No es un detalle: la albúmina es la que previene el síndrome hepatorrenal."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y superada la peritonitis, queda profilaxis secundaria indefinida con ciprofloxacino, mientras persista la ascitis. Un paciente que ya hizo una peritonitis tiene alto riesgo de repetirla."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos a la encefalopatía hepática. El hígado no depura las toxinas intestinales, como el amonio, y estas llegan al cerebro. Se ve como desorientación y asterixis, ese temblor en aleteo de las manos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Casi siempre hay un gatillo, y el más frecuente es una infección. También la hemorragia digestiva, la constipación, los sedantes y los diuréticos."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Por eso el tratamiento tiene dos pasos. Primero, buscar y tratar el precipitante. Un cirrótico que se desorienta tiene una infección hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Segundo, lactulosa, titulada hasta lograr dos a tres deposiciones blandas al día, y se puede sumar rifaximina. La lactulosa ayuda a eliminar las toxinas por el intestino. Y por lo mismo, la constipación es un precipitante: el paciente tiene que evacuar."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y aquí la segunda regla de oro. El TIPS está contraindicado en la encefalopatía. ¿Por qué? Porque crea un puente que hace que la sangre intestinal salte el hígado. Baja la presión portal, pero manda más amonio directo al cerebro."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Nos quedan dos complicaciones. El síndrome hepatorrenal es una falla renal funcional del cirrótico avanzado: el riñón está sano, pero no recibe una perfusión adecuada. Su pronóstico es muy malo."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Se trata con terlipresina más albúmina, y la solución definitiva es el trasplante. Por eso insistimos tanto en prevenirlo con albúmina en la peritonitis y en las paracentesis grandes. Es mucho más fácil prevenirlo que tratarlo."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La coagulopatía tiene dos componentes: un INR alto, porque el hígado no fabrica factores, y plaquetas bajas, por el hiperesplenismo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y se corrige solo ante un sangrado o un procedimiento. No se transfunde plasma ni plaquetas solo para normalizar un examen."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos del cirrótico que llega descompensado a urgencias. Lo primero es identificar cuál de las complicaciones tiene, porque cada una sale de una de las dos vías que vimos: la presión portal o la falla del hígado."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Viene sangrando, con más ascitis, o desorientado? Pueden coexistir, y entonces se manejan todas, pero cada una tiene su conducta."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si sangra: volumen, terlipresina, antibióticos con ceftriaxona y endoscopía con ligadura en las primeras doce horas. Si es refractaria, TIPS. Después, profilaxis secundaria con propranolol más ligadura."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si tiene ascitis, paracentesis diagnóstica siempre, aunque no tenga dolor. Contamos los polimorfonucleares."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Con doscientos cincuenta o más, es peritonitis bacteriana espontánea: cefotaxima endovenosa y albúmina el día uno y el tres. Después, profilaxis con ciprofloxacino."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Sin peritonitis, tratamos la ascitis: restricción de sodio y diuréticos, y si está a tensión, paracentesis evacuadora con albúmina."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Si está desorientado con asterixis, es encefalopatía. Buscamos el precipitante, que casi siempre es una infección."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Tratamos el gatillo y damos lactulosa hasta dos a tres deposiciones blandas al día. El TIPS está contraindicado, y el paciente se evalúa para trasplante."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Repasemos en una tabla. Várices que nunca sangraron: propranolol. La trampa es ligar de entrada sin indicación; la ligadura sola queda para quien no tolera el betabloqueo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Hemorragia variceal activa: volumen, terlipresina, antibióticos y ligadura. La trampa es olvidar los antibióticos."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Ascitis a tensión: primero paracentesis diagnóstica, luego evacuadora con albúmina. La trampa es drenar sin descartar la peritonitis."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Líquido con doscientos cincuenta polimorfonucleares o más: cefotaxima y albúmina. La trampa son los aminoglucósidos, que dañan un riñón que ya está en riesgo."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y encefalopatía con ascitis refractaria: lactulosa y tratar el precipitante. La trampa es indicar un TIPS, que solo empeoraría la encefalopatía."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos al caso. Hombre de cincuenta y ocho años con cirrosis por alcohol, en control, que consulta por aumento del perímetro abdominal en la última semana y febrículas. Tiene ascitis moderada, sin dolor peritoneal ni encefalopatía, y está estable."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la primera conducta?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las alternativas: subir los diuréticos, paracentesis diagnóstica, paracentesis evacuadora sin estudiar el líquido, iniciar lactulosa, o derivar para TIPS. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, paracentesis diagnóstica. Cirrótico con ascitis que consulta, y además con febrícula: hay que descartar una peritonitis bacteriana espontánea antes que nada. El distractor tentador es subir los diuréticos, porque el problema parece ser solo más ascitis. Pero la peritonitis puede no dar dolor, y si no puncionas, no la ves. Y la paracentesis evacuadora sin estudiar el líquido es el mismo error: sacas el líquido sin saber si está infectado."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Ahora una pregunta del banco EUNACOM. Paciente cirrótico con várices esofágicas medianas encontradas en una endoscopía de tamizaje. Nunca ha sangrado."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la profilaxis indicada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: ligadura más propranolol, propranolol o carvedilol titulado por frecuencia cardíaca, TIPS electivo, terlipresina mensual, o ácido tranexámico permanente. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta es la B, betabloqueo no selectivo. Nunca sangró, así que es profilaxis primaria, y se titula bajando la frecuencia cardíaca. El distractor tentador es la A, ligadura más propranolol, pero esa combinación es la profilaxis secundaria, para el que ya sangró. Y el TIPS o la terlipresina no tienen lugar en un paciente que nunca ha sangrado."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y otra pregunta del banco. Cirrótico con ascitis refractaria a diuréticos, que además ha tenido dos episodios de encefalopatía hepática en el último mes. El equipo propone instalar un TIPS para controlar la ascitis."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta correcta?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: instalar el TIPS porque resuelve la ascitis y las várices, no instalarlo porque la encefalopatía lo contraindica, instalarlo con lactulosa profiláctica, instalarlo y suspender el betabloqueo, o instalarlo con anestesia general. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B: no se instala. La encefalopatía contraindica el TIPS, porque la sangre saltaría el hígado y llevaría más amonio al cerebro. El distractor tentador es la A, porque el TIPS sí trataría la ascitis, pero a costa de un cerebro más intoxicado. Y la lactulosa no elimina la contraindicación. Este paciente sigue con paracentesis seriadas con albúmina y va a evaluación para trasplante."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Todo cirrótico con ascitis que consulta: paracentesis diagnóstica antes que nada."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Con doscientos cincuenta polimorfonucleares o más, es peritonitis: cefotaxima más albúmina el día uno y el día tres."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Várices que nunca sangraron: propranolol, y ligadura sola solo si no lo tolera. Ya sangró: propranolol más ligadura."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Y en el sangrado activo, terlipresina, ligadura y nunca olvidar los antibióticos."
+    },
+    {
+      "file": "s14_g04",
+      "text": "En la encefalopatía, tratar el precipitante y dar lactulosa, y el TIPS está contraindicado. Si te llevas una sola idea de hoy: al cirrótico con ascitis se le punciona siempre, y al encefalopático nunca se le pone un TIPS. Nos vemos en la próxima clase."
+    }
+  ]
+}

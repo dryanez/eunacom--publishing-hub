@@ -1,0 +1,260 @@
+{
+  "id": "gastro-20",
+  "title": "Gastroenterologia 5.2: Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
+  "specialty": "Gastroenterología",
+  "chars": 12943,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos la isquemia mesentérica y el abdomen agudo de origen vascular. Es un tema corto, pero letal, y el examen lo pregunta con una frase que se repite: dolor intensísimo con un abdomen que casi no duele al palparlo. Si aprendes a reconocer esa frase, y sabes qué hacer en los primeros minutos, ya tienes la mayoría de las preguntas resueltas. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la entidad que más se pregunta: la embolia de la arteria mesentérica superior. El contexto casi siempre es el mismo, un paciente con fibrilación auricular, o con otra fuente de émbolos desde el corazón."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Un coágulo que se formó en la aurícula se suelta, viaja por la aorta y se aloja en la arteria mesentérica superior. Desde ese momento, el intestino que depende de ella se queda sin sangre. Por eso, lo primero que buscas en el enunciado es la arritmia, y sobre todo si el paciente no está anticoagulado."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La isquemia duele muchísimo, y duele de golpe. El paciente describe un dolor súbito e intensísimo, difuso. Al inicio puede tener vómitos y alguna deposición diarreica, lo que a veces confunde con una gastroenteritis."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y aquí está la clave de todo el tema. Al palpar, el abdomen está blando, sin defensa ni signo de Blumberg. ¿Por qué? Porque en las primeras horas el problema está dentro del intestino, y el peritoneo todavía no se ha enterado. Eso es la disociación clínica: mucho dolor, poco hallazgo."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y si nadie hace nada, en pocas horas el intestino se necrosa. Recién ahí aparece la hematoquecia y, más tarde, la peritonitis. Fíjate en la consecuencia práctica: si esperas los signos peritoneales para actuar, llegaste tarde. La ventana para salvar el intestino es de horas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "¿Cómo lo confirmamos? El examen de elección es el angio-TAC, que muestra el defecto de llene en la arteria mesentérica superior. Tiene que ser con contraste: un TAC sin contraste o una radiografía simple no ven el émbolo y te hacen perder horas que el intestino no tiene."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Antes de la imagen, un dato de laboratorio que el examen usa como pista: el lactato elevado. Te dice que hay tejido sin oxígeno. Pero ojo: la sospecha la hace la clínica, no el laboratorio. Si el cuadro calza, no te quedes esperando un número para actuar."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La alternativa es la angiografía formal, que tiene una ventaja: además de diagnosticar, puede ser terapéutica, porque por el mismo catéter se puede tratar el émbolo."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Ahora, el tratamiento, y aquí está el punto que más se pregunta. Se anticoagula con heparina ante la sola sospecha. No esperas el angio-TAC para partir: si el cuadro calza, la heparina va primero, para que el coágulo no siga creciendo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Después se revasculariza, es decir, se devuelve el flujo a la arteria, con una embolectomía o con trombólisis."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y si el intestino ya se necrosó, se opera para resecar el segmento muerto. Mientras antes actúes, menos intestino pierdes."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La segunda entidad es la trombosis venosa mesentérica, y cambia el terreno. Ya no es un paciente con fibrilación auricular, sino alguien con un estado de hipercoagulabilidad, con cirrosis, o con una cirugía abdominal reciente."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Aquí el coágulo no viene del corazón. Se forma en el lugar, dentro de la vena mesentérica. Y esa diferencia te va a ordenar el tratamiento, así que guárdala."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La clínica es distinta a la embolia en dos cosas. Primero, el dolor es subagudo: se instala en días, no de golpe. Y segundo, los signos peritoneales aparecen más precozmente. O sea, aquí la disociación clínica no es la regla. Ese contraste, súbito sin peritoneo versus días con peritoneo, es exactamente lo que el examen te pide distinguir."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El examen es el TAC con contraste, que visualiza el trombo dentro de la vena mesentérica. Es el mismo principio que en la embolia: sin contraste, el vaso no se ve."
+    },
+    {
+      "file": "s03_g04",
+      "text": "¿Y el tratamiento? Piensa en lo que es: en esencia, una trombosis venosa, como una trombosis de las piernas pero en el abdomen. Entonces se anticoagula, igual que en la embolia, aunque por un motivo distinto: aquí la anticoagulación no es un puente a la revascularización, es el tratamiento en sí. La cirugía queda solo para cuando hay necrosis o perforación."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La tercera entidad es la colitis isquémica, y ojo, porque es la forma más frecuente de isquemia intestinal. El paciente típico es un adulto mayor con ateroesclerosis, o alguien que acaba de pasar por un episodio de hipotensión."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Fíjate que aquí no hay un émbolo que tape una arteria. Lo que pasa es que el flujo global hacia el colon disminuye, por vasos enfermos o por una presión baja."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y cuando baja el flujo, sufren primero las zonas frontera: los sectores del colon donde termina un territorio arterial y empieza otro, y que por eso reciben la sangre más justa. Son dos: el ángulo esplénico y la unión rectosigmoidea."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Ahora el mecanismo te explica la clínica. Como las dos zonas frontera están en el lado izquierdo, el paciente tiene dolor cólico en el hemiabdomen izquierdo, y como la mucosa del colon se daña, elimina sangre roja: hematoquecia. Dolor izquierdo con sangre en un adulto mayor que estuvo hipotenso: colitis isquémica."
+    },
+    {
+      "file": "s05_g00",
+      "text": "¿Cómo se confirma? Con un TAC de abdomen, que muestra un engrosamiento segmentario de la pared del colon, justamente en esas zonas frontera."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La colonoscopía puede confirmar el diagnóstico, pero solo en casos seleccionados. No es el primer examen."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y fíjate en un puente con la próxima clase. Un adulto mayor con sangre roja por el recto también te obliga a pensar en hemorragia digestiva baja. Lo que inclina hacia la colitis isquémica es el dolor cólico izquierdo y el antecedente de hipotensión o ateroesclerosis."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y aquí viene la buena noticia: a diferencia de la embolia, la mayoría de las colitis isquémicas son transitorias y se resuelven con manejo médico. Reposo intestinal, hidratación y antibióticos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "La cirugía queda para las complicaciones: necrosis, perforación o, más adelante, una estenosis del segmento dañado. Fíjate que aparece un tercer motivo que no vimos en las otras dos entidades: la estenosis, porque el colon que cicatriza puede quedar estrecho."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora, lo que las tres comparten. Primero, hidratación endovenosa. Es un intestino con mala perfusión: lo último que quieres es que además el paciente esté seco."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Y siempre corregir la causa: la fuente de émbolos, el estado de hipercoagulabilidad o la hipotensión que gatilló el cuadro."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Segundo, antibióticos: ceftriaxona más metronidazol. ¿Por qué, si no es una infección? Porque la pared del intestino isquémico deja de ser una barrera, y las bacterias de la luz pasan a la sangre. Eso es la translocación bacteriana, y es lo que se previene."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y tercero, la regla común para la cirugía: se opera solo si hay necrosis o perforación. Si te preguntan cuándo operar cualquiera de las tres, esa es la respuesta."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La disociación clínica no es exclusiva de la isquemia, así que conviene tener a mano el diferencial. El primero es la pancreatitis aguda, que como vimos en su clase también puede doler mucho con poco hallazgo. La diferencia la hace la lipasa."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El segundo es el aneurisma aórtico roto. Aquí busca una masa pulsátil al palpar y un paciente hipotenso, y se confirma con TAC. Es el diferencial más grave de todos."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y hay causas que ni siquiera son abdominales. La cetoacidosis diabética también puede presentarse con dolor abdominal importante, y el que no la busca, no la encuentra."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y la porfiria, que es rara, pero aparece en las listas de diferencial del dolor abdominal desproporcionado."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora pongamos las tres entidades en un solo árbol de decisión. Partimos del paciente con un dolor abdominal intensísimo y un abdomen que casi no duele al palparlo. Esa disociación ya te obliga a pensar en isquemia intestinal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La siguiente pregunta es el contexto y la forma de inicio, porque cada una de las tres entidades tiene su terreno propio."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Fibrilación auricular y dolor súbito con disociación clínica: embolia de la arteria mesentérica superior. Se anticoagula con heparina ante la sola sospecha y se confirma con angio-TAC o angiografía."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Luego se revasculariza, con embolectomía o trombólisis, y se reseca el intestino necrótico si lo hay. La ventana para salvar el intestino es de horas."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Estado de hipercoagulabilidad, cirrosis o cirugía abdominal reciente, con dolor de días y signos peritoneales precoces: trombosis venosa mesentérica. El examen es el TAC con contraste, que muestra el trombo en la vena."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Como es una trombosis venosa, el tratamiento es anticoagular. La cirugía queda solo para la necrosis o la perforación."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Adulto mayor con ateroesclerosis o un episodio de hipotensión, con dolor en el hemiabdomen izquierdo y hematoquecia: colitis isquémica. El TAC muestra un engrosamiento segmentario del colon."
+    },
+    {
+      "file": "s08_g07",
+      "text": "La mayoría es transitoria y se resuelve con reposo intestinal, hidratación y antibióticos. Cirugía solo si hay necrosis, perforación o estenosis."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos en una tabla. Embolia mesentérica: fibrilación auricular, dolor súbito, y signos peritoneales ausentes al inicio. Angio-TAC, y heparina ante la sola sospecha."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Trombosis venosa mesentérica: hipercoagulable o cirrótico, dolor de días, y signos peritoneales precoces. TAC con contraste y anticoagulación."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Colitis isquémica: adulto mayor, hipotensión previa, dolor en el lado izquierdo con hematoquecia. TAC de abdomen, y casi siempre manejo médico. La trampa aquí es operar de entrada."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y el error clásico de todo el tema: descartar una embolia porque el abdomen está blando, o esperar los signos peritoneales para actuar. Cuando aparecen, el intestino ya se necrosó."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Mujer de setenta y seis años con fibrilación auricular no anticoagulada. Consulta por un dolor abdominal brusco hace cuatro horas, de intensidad diez de diez, difuso, con dos vómitos y una deposición diarreica. El abdomen está blando, depresible, apenas sensible, sin defensa ni Blumberg. Está taquicárdica, y el lactato está elevado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las alternativas: analgesia y reevaluar hasta que aparezca peritonismo, heparina y angio-TAC urgente, colonoscopía urgente, manejarla como gastroenteritis, o un TAC sin contraste. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. El caso trae todo junto: fibrilación auricular sin anticoagular, un dolor enorme con un abdomen blando, y un lactato alto que te dice que hay tejido sufriendo. Es una embolia mesentérica hasta que se demuestre lo contrario: heparina ya, y angio-TAC para revascularizar. La trampa más tentadora es la A. Parece prudente, pero esperar el peritonismo es esperar la necrosis. Y la gastroenteritis es el disfraz que ponen los vómitos y la diarrea."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta del banco EUNACOM. Paciente de setenta y dos años con fibrilación auricular, que presenta un dolor abdominal súbito y muy intenso. El examen abdominal es prácticamente normal, sin defensa ni Blumberg."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el examen diagnóstico de elección?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: TAC sin contraste, ecografía abdominal, angio-TAC o angiografía mesentérica, radiografía simple, o colonoscopía urgente. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La respuesta es la C. Ya reconoces la frase: fibrilación auricular, dolor súbito, abdomen casi normal. Es una embolia, y para ver un émbolo necesitas contraste dentro de la arteria: angio-TAC, o angiografía si además se va a tratar por vía endovascular. El distractor más tentador es el TAC sin contraste, porque suena a examen completo, pero sin contraste la arteria no se ve, y pierdes un tiempo que el intestino no tiene."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y otra pregunta del banco. Hombre de setenta años con ateroesclerosis que, después de un episodio de hipotensión por una hemorragia digestiva, presenta dolor cólico en el flanco izquierdo y elimina deposiciones con sangre roja. El abdomen está sensible en el flanco izquierdo, sin peritonismo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: embolia mesentérica, trombosis venosa mesentérica, colitis isquémica, diverticulitis aguda, o enfermedad de Crohn. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, colitis isquémica. El enunciado arma el mecanismo: ateroesclerosis más hipotensión es bajo flujo, y el bajo flujo daña las zonas frontera, que están a la izquierda. La embolia tienta porque también es isquemia, pero aquí no hay fibrilación auricular, y el dolor sería difuso y brutal, con disociación. Y la diverticulitis, de la clase anterior, no la gatilla una hipotensión."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Fibrilación auricular, dolor súbito e intensísimo, y un abdomen blando: embolia mesentérica hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Heparina ante la sola sospecha, angio-TAC, y revascularizar. La ventana es de horas."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La trombosis venosa: hipercoagulable, dolor de días y peritoneo precoz. TAC con contraste y anticoagulación. Aquí la heparina no es un puente: es el tratamiento."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La colitis isquémica: la más frecuente, dolor izquierdo con hematoquecia tras una hipotensión, y casi siempre se maneja sin cirugía."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Y para las tres, hidratación y antibióticos, con cirugía solo si hay necrosis o perforación. Si te llevas una sola idea de hoy: un dolor enorme con un abdomen que casi no duele, en un paciente con fibrilación auricular, se anticoagula antes de que el peritoneo te dé la razón. Nos vemos en la próxima clase."
+    }
+  ]
+}

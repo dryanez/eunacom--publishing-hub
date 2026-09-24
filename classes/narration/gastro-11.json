@@ -1,0 +1,220 @@
+{
+  "id": "gastro-11",
+  "title": "Gastroenterologia 2.5: Pólipos y Cáncer Colorrectal · Tamizaje",
+  "specialty": "Gastroenterología",
+  "chars": 8818,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos pólipos y cáncer colorrectal, con su tamizaje. Es un tema de alta rentabilidad, y se ordena con una idea: casi todos los cánceres de colon nacen de un pólipo que tarda años en malignizarse. Si entiendes esa ventana de tiempo, entiendes el tamizaje y la conducta. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el pólipo. Cuando la colonoscopía encuentra uno, lo que decide la conducta es la histología."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El pólipo hiperplásico no es premaligno. No evoluciona a cáncer, así que se observa y listo. No necesita cirugía ni vigilancia especial."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El adenomatoso, en cambio, es la lesión precursora del cáncer. Puede ser tubular, tubulovelloso o velloso, y el velloso es el de mayor riesgo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El paso de adenoma a carcinoma tarda alrededor de diez años. Esa es la ventana que aprovecha el tamizaje: encontrar el adenoma antes de que se transforme."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Por eso el adenoma se reseca en la misma colonoscopía, con polipectomía, y se controla con una nueva colonoscopía en uno a tres años, según el número, el tamaño y la histología. Resecar adenomas es prevenir cáncer. Fíjate que aquí la colonoscopía no solo diagnostica: también trata."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La clínica depende de dónde está el tumor. En el colon derecho, sangra de forma oculta, así que se presenta como una anemia ferropénica, a veces con una masa palpable."
+    },
+    {
+      "file": "s02_g01",
+      "text": "En el colon izquierdo, el tumor estrecha el lumen: da cambio del hábito, constipación progresiva y rectorragia. El escenario clásico es el adulto mayor con constipación que antes no tenía, y anemia. Es cáncer de colon hasta que la colonoscopía diga lo contrario."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y la complicación más frecuente del izquierdo es la obstrucción intestinal. De hecho, es la primera causa de obstrucción del colon en el adulto."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El cáncer de recto da hematoquecia, disquecia, tenesmo y deformación del bolo fecal. Ojo: esa hematoquecia se parece a la de un hemorroide, y en la próxima clase vas a ver que un sangrado atribuido a hemorroides siempre obliga a descartar otras causas, como un cáncer."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y tiene factores de riesgo propios: la colitis ulcerosa, que vimos en la clase anterior, el VIH y el virus papiloma humano."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Frente a la sospecha, el diagnóstico se hace con colonoscopía total y biopsia. Es el mismo examen que vimos en la enfermedad inflamatoria: permite ver todo el colon y tomar la muestra que confirma."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Una vez confirmado, hay que saber cuán extendido está. La etapificación se hace con TAC de tórax, abdomen y pelvis, buscando metástasis."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En el recto se agregan resonancia de pelvis y endosonografía. Y el TAC de tórax es obligatorio, porque el recto puede dar metástasis pulmonares sin pasar por el hígado."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y ojo con el antígeno carcinoembrionario. Solo sirve para el seguimiento después de la cirugía. No sirve para diagnosticar ni para tamizar, y en el examen aparece como distractor. Si te ofrecen pedir CEA para confirmar un cáncer, descártalo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Hay dos síndromes hereditarios que se preguntan. El primero es la poliposis adenomatosa familiar: cientos de pólipos adenomatosos. Si el enunciado dice innumerables pólipos, ya sabes qué es."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Como el cien por ciento maligniza, la conducta es la colectomía total profiláctica. Sacar los pólipos uno a uno es imposible y no elimina el riesgo."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El segundo es el síndrome de Lynch, el cáncer colorrectal hereditario no polipósico. Aquí hay pocos pólipos, pero el riesgo es alto."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y la conducta es distinta: vigilancia colonoscópica intensiva. Muchos pólipos, colectomía; pocos pólipos con alto riesgo, vigilancia. Esa diferencia se pregunta."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El tratamiento del cáncer de colon es quirúrgico: hemicolectomía derecha o izquierda según dónde esté el tumor."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Y se opera siempre, incluso en enfermedad avanzada, para evitar que el tumor termine obstruyendo el colon. Recuerda que la obstrucción es su complicación más frecuente."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La quimioterapia del cáncer de colon es especialmente eficaz. Incluso con metástasis hepáticas resecables se puede lograr la curación. Así que un cáncer de colon con metástasis en el hígado no es, de entrada, un paciente solo paliativo."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El cáncer de recto, a diferencia del de colon, agrega radioterapia, y su complicación es la rectitis actínica: una inflamación del recto por la radiación."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Para cerrar la teoría, el tamizaje. Recuerda la ventana de diez años del adenoma: el tamizaje existe para aprovecharla. Y la pregunta que lo ordena es una sola: ¿el paciente tiene síntomas?"
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si es asintomático y de riesgo promedio, corresponde tamizaje desde los cincuenta años. Está en las garantías GES. El objetivo es encontrar adenomas y cánceres tempranos, cuando todavía no dan síntomas. Esperar a que aparezcan síntomas anula el sentido del tamizaje."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Hay dos estrategias. Test de sangre oculta inmunoquímico, anual o cada dos años, y si sale positivo, colonoscopía. O directamente colonoscopía cada diez años."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Pero si el paciente tiene síntomas o signos de alarma, ya no estamos haciendo tamizaje. A ese paciente se le hace colonoscopía directamente. Pedir un test de sangre oculta a alguien con anemia y constipación nueva es la trampa más frecuente del tema."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos de un adulto que consulta. La primera pregunta define si hacemos tamizaje o estudio diagnóstico."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Tiene síntomas o signos de alarma? Anemia ferropénica, cambio del hábito, constipación nueva, rectorragia."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Con síntomas, colonoscopía total con biopsia directamente. El test de sangre oculta no tiene lugar aquí."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si confirma cáncer, se etapifica con TAC de tórax, abdomen y pelvis, más resonancia y endosonografía si es rectal, y se opera siempre, con hemicolectomía según la localización."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si muestra innumerables pólipos adenomatosos, es una poliposis adenomatosa familiar: colectomía total profiláctica."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Sin síntomas, preguntamos la edad y el riesgo. Desde los cincuenta años, con riesgo promedio, corresponde tamizaje GES."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Test de sangre oculta inmunoquímico anual o bienal, o colonoscopía cada diez años. Si el test sale positivo, colonoscopía."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si la colonoscopía encuentra un adenoma, se reseca y se controla en uno a tres años. Eso es prevenir el cáncer."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos en una tabla. Pólipo hiperplásico: riesgo nulo, se observa."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Pólipo adenomatoso: premaligno, se hace polipectomía y colonoscopía de control en uno a tres años."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Poliposis adenomatosa familiar: el cien por ciento evoluciona a cáncer, colectomía total profiláctica."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Síndrome de Lynch: riesgo alto con pocos pólipos, vigilancia colonoscópica intensiva."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el paciente sintomático con signos de alarma: colonoscopía, nunca test de sangre oculta."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos al caso. Mujer de setenta y cuatro años con cuatro meses de constipación progresiva que antes no tenía, deposiciones más delgadas y episodios de rectorragia escasa. El hemograma muestra una anemia microcítica con ferritina baja."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las alternativas: test de sangre oculta, CEA para confirmar, colonoscopía total con biopsia, fibra y fierro con control en tres meses, o TAC de abdomen como examen inicial. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, colonoscopía total con biopsia. Adulta mayor, constipación nueva, deposiciones acintadas, rectorragia y anemia ferropénica: es un cáncer colorrectal hasta que se demuestre lo contrario. El distractor tentador es el test de sangre oculta, pero esta paciente tiene síntomas: ya no es tamizaje. Y el CEA no diagnostica; el TAC viene después, para etapificar."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y ahora una pregunta del banco EUNACOM. Hombre de veintiocho años con antecedentes familiares de cáncer de colon. La colonoscopía describe más de ciento cincuenta pólipos en todo el colon y el recto, y las biopsias muestran adenomas tubulares con displasia de bajo grado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: polipectomía de los pólipos mayores con control anual, colectomía total profiláctica, quimioprevención con antiinflamatorios, CEA seriado cada seis meses, o colonoscopía de control en tres años. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la B, colectomía total profiláctica. Innumerables pólipos adenomatosos en un joven con historia familiar es una poliposis adenomatosa familiar, y el cien por ciento maligniza. El distractor tentador es la polipectomía de los más grandes, que suena conservadora, pero con ciento cincuenta pólipos es inviable y no elimina el riesgo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El adenoma es el precursor del cáncer: se reseca y se controla. El hiperplásico se observa."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Innumerables pólipos es poliposis adenomatosa familiar, y va a colectomía profiláctica. Lynch, con pocos pólipos, va a vigilancia intensiva."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Adulto mayor con constipación nueva y anemia ferropénica: colonoscopía, nunca test de sangre oculta."
+    },
+    {
+      "file": "s11_g03",
+      "text": "El CEA solo sirve para el seguimiento posoperatorio."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y el tamizaje, desde los cincuenta años en asintomáticos, con sangre oculta inmunoquímico o colonoscopía cada diez años. Si te llevas una sola idea de hoy: el test de sangre oculta es para el asintomático; al que tiene síntomas se le hace colonoscopía. Nos vemos en la próxima clase."
+    }
+  ]
+}
