@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Las complicaciones del cirrótico y las dos reglas que no fallan',
-      say: 'Bienvenidos. Hoy vemos daño hepático crónico e hipertensión portal, es decir, las complicaciones del paciente cirrótico. Es un tema denso y de alta rentabilidad, pero tiene dos reglas que se preguntan sin falta: a todo cirrótico con ascitis que consulta se le hace paracentesis diagnóstica, y el TIPS está contraindicado si hay encefalopatía. Vamos a entender por qué.',
+      say: 'Bienvenidos. Hoy vemos daño hepático crónico e hipertensión portal, es decir, las complicaciones del paciente cirrótico. Es un tema denso y de alta rentabilidad, pero tiene dos reglas que se preguntan sin falta: a todo cirrótico con ascitis que consulta se le hace paracentesis diagnóstica, y el TIPS está contraindicado si hay encefalopatía. No son reglas para memorizar a ciegas: las dos salen directo de la fisiopatología, y por eso vamos a partir por ahí. Vamos a entender por qué.',
     },
 
     {
@@ -35,11 +35,11 @@ module.exports = {
         { show: ['cir'], note: 'Venga de donde venga',
           say: 'Partamos por el mapa. La cirrosis puede venir del alcohol o de las hepatitis crónicas que vimos en la clase anterior, pero una vez instalada, descompensa siempre por dos vías.' },
         { show: ['htp'], note: 'Primera vía: la presión',
-          say: 'La primera vía es la hipertensión portal. El hígado fibrótico opone resistencia, la sangre del intestino no logra pasar, y la presión sube hacia atrás.' },
+          say: 'La primera vía es la hipertensión portal. El hígado fibrótico opone resistencia, la sangre del intestino no logra pasar, y la presión sube hacia atrás, en todo el territorio de la vena porta. Casi todo lo que vamos a ver hoy es consecuencia de esa presión.' },
         { show: ['var', 'asc'], note: 'Várices y ascitis',
           say: 'Esa presión abre colaterales, que son las várices esofágicas, y empuja líquido al peritoneo, que es la ascitis. Y esa ascitis se puede infectar: la peritonitis bacteriana espontánea.' },
         { show: ['shr'], note: 'El riñón paga las consecuencias',
-          say: 'En el cirrótico avanzado, el riñón termina fallando sin estar enfermo: es el síndrome hepatorrenal.' },
+          say: 'Y en el cirrótico avanzado, la circulación está tan alterada que el riñón termina fallando sin estar enfermo: es el síndrome hepatorrenal. Guárdalo, porque la albúmina que vamos a indicar en varias situaciones existe justamente para prevenirlo.' },
         { show: ['ih'], note: 'Segunda vía: la función',
           say: 'La segunda vía es la insuficiencia hepática: el hígado ya no alcanza a hacer su trabajo.' },
         { show: ['enc', 'coa'], note: 'No depura, no fabrica',
@@ -54,7 +54,7 @@ module.exports = {
       cards: [
         { title: 'Pesquisa', tag: 'Todo cirrótico', kind: 'key', items: [
           { t: 'Endoscopía a todo cirrótico', d: 'Para buscar várices',
-            say: 'Empecemos por las várices. A todo cirrótico se le hace una endoscopía para pesquisarlas, aunque nunca haya sangrado.' },
+            say: 'Empecemos por las várices. A todo cirrótico se le hace una endoscopía para pesquisarlas, aunque nunca haya sangrado. La idea es encontrarlas antes de que sangren, porque la hemorragia variceal es la complicación más dramática del cirrótico.' },
         ] },
         { title: 'Profilaxis primaria', tag: 'Nunca sangró', kind: 'pharma', items: [
           { t: 'Betabloqueo no selectivo', d: 'Propranolol o carvedilol',
@@ -94,7 +94,7 @@ module.exports = {
         { show: ['atb'], note: 'La omisión más preguntada',
           say: 'Tercero, y aquí está la trampa: antibióticos, con ceftriaxona. El cirrótico que sangra tiene alto riesgo de infectarse, y el antibiótico es profilaxis de peritonitis bacteriana espontánea. Omitir los antibióticos es el error que buscan.' },
         { show: ['lig'], note: 'Diagnostica y trata',
-          say: 'Cuarto, endoscopía con ligadura de las várices, dentro de las primeras doce horas.' },
+          say: 'Cuarto, endoscopía con ligadura de las várices, dentro de las primeras doce horas. La endoscopía confirma que el sangrado es variceal y, en el mismo acto, lo trata.' },
         { show: ['tia'], note: 'No olvidar en el alcohólico',
           say: 'Y si el paciente es alcohólico, se agrega tiamina.' },
         { show: ['tips'], note: 'Rescate si todo falla',
@@ -109,9 +109,9 @@ module.exports = {
       cards: [
         { title: 'No complicada', tag: 'Primera línea', kind: 'pharma', items: [
           { t: 'Restricción de sodio', d: 'Base del tratamiento',
-            say: 'Vamos a la ascitis. El tratamiento de la ascitis no complicada parte con restricción de sodio.' },
+            say: 'Vamos a la ascitis. Recuerda que es líquido empujado por la hipertensión portal, y que el riñón del cirrótico retiene sodio. Por eso el tratamiento de la ascitis no complicada parte con restricción de sodio.' },
           { t: 'Espironolactona ± furosemida', d: 'Diuréticos',
-            say: 'Y se suman diuréticos: espironolactona, con o sin furosemida.' },
+            say: 'Y se suman diuréticos: espironolactona, con o sin furosemida. La espironolactona es la base, y la furosemida se agrega cuando hace falta.' },
         ] },
         { title: 'A tensión', tag: 'Evacuar', kind: 'alert', items: [
           { t: 'Paracentesis evacuadora + albúmina', d: '~8 g de albúmina por litro extraído',
@@ -176,7 +176,7 @@ module.exports = {
         { show: ['cli'], note: 'La clínica puede ser mínima',
           say: 'Ahora la peritonitis bacteriana espontánea. Fíjate que el paciente puede llegar solo con febrícula o con más ascitis, sin dolor peritoneal. Por eso no esperamos la clínica: puncionamos.' },
         { show: ['pmn'], note: 'Una bacteria intestinal',
-          say: 'Con doscientos cincuenta o más polimorfonucleares por milímetro cúbico, es una peritonitis. El agente más frecuente es la Escherichia coli, una bacteria que viene del intestino.' },
+          say: 'Con doscientos cincuenta o más polimorfonucleares por milímetro cúbico, es una peritonitis. El agente más frecuente es la Escherichia coli, una bacteria que viene del intestino. No hay una perforación ni un foco quirúrgico: por eso se llama espontánea.' },
         { show: ['cef'], note: 'Cefalosporina de tercera generación',
           say: 'El tratamiento es cefotaxima, o ceftriaxona, endovenosa por cinco a siete días.' },
         { show: ['ami'], note: 'Distractor clásico',
@@ -184,7 +184,7 @@ module.exports = {
         { show: ['alb'], note: 'La mitad del tratamiento',
           say: 'La otra mitad del tratamiento es la albúmina, el día uno y el día tres. No es un detalle: la albúmina es la que previene el síndrome hepatorrenal.' },
         { show: ['cip'], note: 'Después de una PBE',
-          say: 'Y superada la peritonitis, queda profilaxis secundaria indefinida con ciprofloxacino, mientras persista la ascitis.' },
+          say: 'Y superada la peritonitis, queda profilaxis secundaria indefinida con ciprofloxacino, mientras persista la ascitis. Un paciente que ya hizo una peritonitis tiene alto riesgo de repetirla.' },
       ],
     },
 
@@ -203,7 +203,7 @@ module.exports = {
           { t: 'Tratar el precipitante', d: 'Siempre lo primero',
             say: 'Por eso el tratamiento tiene dos pasos. Primero, buscar y tratar el precipitante. Un cirrótico que se desorienta tiene una infección hasta que se demuestre lo contrario.' },
           { t: 'Lactulosa: 2–3 deposiciones blandas al día', d: '+ rifaximina',
-            say: 'Segundo, lactulosa, titulada hasta lograr dos a tres deposiciones blandas al día, y se puede sumar rifaximina. La lactulosa ayuda a eliminar las toxinas por el intestino.' },
+            say: 'Segundo, lactulosa, titulada hasta lograr dos a tres deposiciones blandas al día, y se puede sumar rifaximina. La lactulosa ayuda a eliminar las toxinas por el intestino. Y por lo mismo, la constipación es un precipitante: el paciente tiene que evacuar.' },
         ] },
         { title: 'TIPS', tag: 'Segunda regla de oro', kind: 'alert', items: [
           { t: 'Contraindicado en la encefalopatía', d: 'La sangre salta el hígado',
@@ -244,15 +244,15 @@ module.exports = {
       head: ['Situación', 'Primera línea', 'Trampa frecuente'],
       rows: [
         { cells: ['Várices que nunca sangraron', 'Betabloqueo no selectivo (propranolol)', 'Ligar de entrada sin indicación'],
-          say: 'Repasemos en una tabla. Várices que nunca sangraron: propranolol. La trampa es ligar de entrada sin indicación.' },
+          say: 'Repasemos en una tabla. Várices que nunca sangraron: propranolol. La trampa es ligar de entrada sin indicación; la ligadura sola queda para quien no tolera el betabloqueo.' },
         { cells: ['Hemorragia variceal activa', 'Volumen + terlipresina + antibióticos + ligadura', 'Omitir los antibióticos'],
           say: 'Hemorragia variceal activa: volumen, terlipresina, antibióticos y ligadura. La trampa es olvidar los antibióticos.' },
         { cells: ['Ascitis a tensión', 'Paracentesis diagnóstica, luego evacuadora + albúmina', 'Drenar sin descartar PBE'],
           say: 'Ascitis a tensión: primero paracentesis diagnóstica, luego evacuadora con albúmina. La trampa es drenar sin descartar la peritonitis.' },
         { cells: ['Líquido con ≥ 250 PMN/mm³', 'Cefotaxima + albúmina', 'Usar aminoglucósidos'],
-          say: 'Líquido con doscientos cincuenta polimorfonucleares o más: cefotaxima y albúmina. La trampa son los aminoglucósidos.' },
+          say: 'Líquido con doscientos cincuenta polimorfonucleares o más: cefotaxima y albúmina. La trampa son los aminoglucósidos, que dañan un riñón que ya está en riesgo.' },
         { cells: ['Encefalopatía + ascitis refractaria', 'Lactulosa + tratar precipitante; NO TIPS', 'Indicar TIPS'],
-          say: 'Y encefalopatía con ascitis refractaria: lactulosa y tratar el precipitante. La trampa es indicar un TIPS.' },
+          say: 'Y encefalopatía con ascitis refractaria: lactulosa y tratar el precipitante. La trampa es indicar un TIPS, que solo empeoraría la encefalopatía.' },
       ],
     },
 
@@ -275,7 +275,7 @@ module.exports = {
         stem: 'Vamos al caso. Hombre de cincuenta y ocho años con cirrosis por alcohol, en control, que consulta por aumento del perímetro abdominal en la última semana y febrículas. Tiene ascitis moderada, sin dolor peritoneal ni encefalopatía, y está estable.',
         question: '¿Cuál es la primera conducta?',
         options: 'Las alternativas: subir los diuréticos, paracentesis diagnóstica, paracentesis evacuadora sin estudiar el líquido, iniciar lactulosa, o derivar para TIPS. Piénsalo.',
-        answer: 'Es la B, paracentesis diagnóstica. Cirrótico con ascitis que consulta, y además con febrícula: hay que descartar una peritonitis bacteriana espontánea antes que nada. El distractor tentador es subir los diuréticos, porque el problema parece ser solo más ascitis. Pero la peritonitis puede no dar dolor, y si no puncionas, no la ves.',
+        answer: 'Es la B, paracentesis diagnóstica. Cirrótico con ascitis que consulta, y además con febrícula: hay que descartar una peritonitis bacteriana espontánea antes que nada. El distractor tentador es subir los diuréticos, porque el problema parece ser solo más ascitis. Pero la peritonitis puede no dar dolor, y si no puncionas, no la ves. Y la paracentesis evacuadora sin estudiar el líquido es el mismo error: sacas el líquido sin saber si está infectado. Si el recuento sale sobre doscientos cincuenta polimorfonucleares, inicias cefotaxima y albúmina.',
       },
     },
 
@@ -298,7 +298,7 @@ module.exports = {
         stem: 'Ahora una pregunta del banco EUNACOM. Paciente cirrótico con várices esofágicas medianas encontradas en una endoscopía de tamizaje. Nunca ha sangrado.',
         question: '¿Cuál es la profilaxis indicada?',
         options: 'Las opciones: ligadura más propranolol, propranolol o carvedilol titulado por frecuencia cardíaca, TIPS electivo, terlipresina mensual, o ácido tranexámico permanente. Piénsalo.',
-        answer: 'La respuesta es la B, betabloqueo no selectivo. Nunca sangró, así que es profilaxis primaria, y se titula bajando la frecuencia cardíaca. El distractor tentador es la A, ligadura más propranolol, pero esa combinación es la profilaxis secundaria, para el que ya sangró.',
+        answer: 'La respuesta es la B, betabloqueo no selectivo. Nunca sangró, así que es profilaxis primaria, y se titula bajando la frecuencia cardíaca. El distractor tentador es la A, ligadura más propranolol, pero esa combinación es la profilaxis secundaria, para el que ya sangró. Y el TIPS o la terlipresina no tienen lugar en un paciente que nunca ha sangrado.',
       },
     },
 
@@ -321,7 +321,7 @@ module.exports = {
         stem: 'Y otra pregunta del banco. Cirrótico con ascitis refractaria a diuréticos, que además ha tenido dos episodios de encefalopatía hepática en el último mes. El equipo propone instalar un TIPS para controlar la ascitis.',
         question: '¿Cuál es la conducta correcta?',
         options: 'Las opciones: instalar el TIPS porque resuelve la ascitis y las várices, no instalarlo porque la encefalopatía lo contraindica, instalarlo con lactulosa profiláctica, instalarlo y suspender el betabloqueo, o instalarlo con anestesia general. Piénsalo.',
-        answer: 'Es la B: no se instala. La encefalopatía contraindica el TIPS, porque la sangre saltaría el hígado y llevaría más amonio al cerebro. El distractor tentador es la C, agregar lactulosa, que suena a solución intermedia, pero no elimina la contraindicación. Este paciente sigue con paracentesis seriadas con albúmina y va a evaluación para trasplante.',
+        answer: 'Es la B: no se instala. La encefalopatía contraindica el TIPS, porque la sangre saltaría el hígado y llevaría más amonio al cerebro. El distractor tentador es la C, agregar lactulosa, que suena a solución intermedia, pero no elimina la contraindicación. Este paciente sigue con paracentesis seriadas con albúmina y va a evaluación para trasplante. Fíjate que la alternativa A suena muy razonable, porque el TIPS sí trataría la ascitis. Pero el costo sería un cerebro más intoxicado, y eso es lo que el examen quiere que veas.',
       },
     },
 
