@@ -122,6 +122,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | resp-19 | Llama a su Wells "versión original / simplificada de 3 niveles". | El corte que usa (≤ 4 vs > 4) es el de la versión de 2 niveles. | Usa el corte ≤ 4 / > 4. |
 | resp-18 | Corticoides contraindicados en la FPI sin excepción. | Las guías aún los permiten en la exacerbación aguda de FPI. | — |
 | resp-18 | La NIU "afecta la pleura visceral inmediata". | Afecta el pulmón subpleural, no la pleura. | — |
+| resp-08 | NIH por Klebsiella BLEE con esquema piperacilina/tazobactam o cefepime. | Esos esquemas no cubren BLEE de forma confiable; suele requerir carbapenémico. | — |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -138,6 +139,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | resp-10 | Fase de continuación diaria, 4 meses / 100 dosis (texto) | "Bisemanal o trisemanal" (diagrama) | El texto |
 | resp-12 | Tubo si glucosa pleural < 40 (sección 3) | Complicado < 40–60 (secciones 1–2, tabla); tubo obligatorio en categoría 3 con 40–60 (tabla de gravedad) | < 40 |
 | resp-09 | "Ampicilina/sulbactam oral/EV 4–6 sem" (tabla) | Ampicilina/sulbactam EV y luego amoxicilina/clavulánico oral (texto) | El texto |
+| resp-05 | Broncodilatador cada 2–4 h tras las primeras 2 h; prednisona "exactamente 5 días" (texto) | "c/4–6 h" (tabla); "no más de 5 a 7 días" (keyPoint) | El texto |
+| resp-06 | GES: atención integral de la NAC en ≥ 65 años, Rx y antibiótico en < 24 h (texto) | "NAC de manejo ambulatorio en ≥ 65" (campo GES) | El texto |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -152,6 +155,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | resp-14 | No hay preguntas reales de hemotórax masivo. |
 | resp-10 | Quimioprofilaxis solo obligatoria en menores de 5 y VIH; el banco pregunta adultos y embarazadas con PPD (+) (Jul 2017 P21, Dic 2017 P16). Falta seguimiento mensual con BK y fracaso vs recaída (Jul 2024 P140, Jul 2016 P118). El corte de transaminasas para suspender solo está en una explicación. |
 | resp-12 | No tiene el criterio de lactato pleural (Jul 2024 P156: drenaje por lactato > 5 con pH 7,26). |
+| resp-05 | La tabla de gravedad deja el pH 7,25–7,29 sin categoría; no dice que el antibiótico se indica en toda exacerbación con soporte ventilatorio (GOLD). |
+| resp-08 | No cubre Pneumocystis jirovecii (Dic 2019 P38) y nombra la NAV sin contenido. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -166,6 +171,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2024 · Pregunta 33 | Entrada corrupta (dos alternativas C; la clave es un comentario de alumno). |
 | EUNACOM Diciembre 2022 · Pregunta 81 | VIH con cultivo MGIT positivo: clave "profilaxis"; un cultivo positivo es TBC activa y se trata. |
 | EUNACOM Julio 2024 · Pregunta 156 | Drenaje por lactato > 5, criterio que el libro no tiene. |
+| EUNACOM Diciembre 2024 · Pregunta 132 | Entrada corrupta (alternativas de otra pregunta). |
 
 ## Diabetes
 
