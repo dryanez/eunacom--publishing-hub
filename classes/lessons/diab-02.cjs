@@ -260,7 +260,7 @@ module.exports = {
         stem: 'Vamos con un caso. Hombre de cuarenta y nueve años, transportista, obeso, hipertenso y sin síntomas. En un examen preventivo laboral le sale una glicemia de ayuno de ciento treinta y dos. Niega sed y baja de peso.',
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las alternativas: confirmar diabetes e iniciar metformina, repetir la glicemia de ayuno en otro día, pedir una prueba de tolerancia a la glucosa, pedir péptido C y anticuerpos, o controlar en tres años. Piénsalo.',
-        answer: 'Es la B. Paciente asintomático, un solo valor sobre ciento veintiséis: es sospecha, y se repite en otro día. Si vuelve a dar ciento veintiséis o más, es diabetes y entra a GES. El distractor más tentador es la A, porque el paciente tiene todo el perfil de tipo dos, pero el perfil no reemplaza la confirmación. Y la PTGO sería la respuesta si la glicemia hubiera estado entre cien y ciento veinticinco.',
+        answer: 'Es la B. Paciente asintomático, un solo valor sobre ciento veintiséis: es sospecha, y se repite en otro día. El distractor más tentador es la A, porque el paciente tiene todo el perfil de tipo dos, pero el perfil no reemplaza la confirmación. Y la PTGO sería la respuesta si la glicemia hubiera estado entre cien y ciento veinticinco.',
       },
     },
 
@@ -283,7 +283,7 @@ module.exports = {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Mujer asintomática de cuarenta y seis años, de peso normal, con antecedente de diabetes gestacional en su último embarazo. Su glicemia de ayuno es ciento doce.',
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las opciones: repetir la glicemia en ayunas, pedir hemoglobina glicosilada, indicar metformina, controlar en seis meses, o pedir una curva de tolerancia a la glucosa. Piénsalo.',
-        answer: 'Es la E. Ciento doce está entre cien y ciento veinticinco: glicemia de ayuno alterada, y el paso siguiente es la curva. El distractor clásico es repetir la glicemia, que no aporta nada. Y un detalle: esta mujer ya no está embarazada, así que se usan los cortes del adulto. Lee siempre si la paciente está o no embarazada antes de contestar, porque en el embarazo los cortes cambian, como veremos en la próxima clase.',
+        answer: 'Es la E. Ciento doce está entre cien y ciento veinticinco: glicemia de ayuno alterada, y el paso siguiente es la curva. El distractor clásico es repetir la glicemia, que no aporta nada. Y un detalle: esta mujer ya no está embarazada, así que se usan los cortes del adulto. En el embarazo los cortes cambian, como veremos en la próxima clase.',
       },
     },
 
@@ -352,7 +352,7 @@ module.exports = {
         stem: 'Y la última, del EUNACOM de julio de dos mil quince. Adolescente de dieciséis años, obeso, con glicemia de ayuno de noventa y seis e insulina basal de veintitrés.',
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las opciones: iniciar insulina, dieta y ejercicio, metformina, pedir una curva de tolerancia, o metformina más glibenclamida. Piénsalo.',
-        answer: 'Es la B. Calcula el HOMA: noventa y seis por veintitrés, dividido por cuatrocientos cinco, da cerca de cinco coma cinco. Está sobre dos coma seis, así que hay resistencia a la insulina. Pero la glicemia es menor a cien, así que no hay diabetes ni glicemia alterada, y la curva no está indicada. Lo que corresponde es dieta y ejercicio. Los fármacos son el distractor: tratan un diagnóstico que el paciente no tiene.',
+        answer: 'Es la B. Calcula el HOMA: noventa y seis por veintitrés, dividido por cuatrocientos cinco, da cerca de cinco coma cinco. Está sobre dos coma seis, así que hay resistencia a la insulina. Pero con glicemia bajo cien no hay diabetes ni glicemia alterada, y la curva no está indicada. Corresponde dieta y ejercicio. Los fármacos son el distractor: tratan un diagnóstico que el paciente no tiene.',
       },
     },
 

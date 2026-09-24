@@ -14,7 +14,8 @@ Repo: /home/user/eunacom--publishing-hub. Your prompt names your book and your c
 - The class usually covers more topics than its code, so also run `node classes/scripts/class_questions.cjs --search "term1|term2|…"` with the class's key topics.
 - Include every real question that teaches something different (typically 1–4, more for heavily tested topics). Copy the stem, options and correct answer as-is. Use the `recTag` as the slide title (e.g. "EUNACOM Julio 2013 · Pregunta 12") and say the exam and year in the voice, in words.
 - Discard a question whose answer contradicts the book or current practice, and report it.
-- Only if the real bank has nothing on the topic, use a book `questions` item labelled "Banco EUNACOM · Caso representativo" (kicker "Pregunta del banco EUNACOM"), with no invented date.
+- Only if the real bank has nothing on the topic, use a book `questions` item labelled "Banco EUNACOM · Caso representativo" (kicker "Pregunta del banco EUNACOM"), with no date.
+- **Never use the exam dates or numbers that the BOOK gives** (its `questions` recTags like "Reconstrucción EUNACOM Julio 2017", or its `reconstrucciones` list): they were found not to match the real bank. Only `recTag`s coming from class_questions.cjs are real.
 
 ## Output
 - One file per class: `classes/lessons/<id>.cjs`, with `id`, `tier`, `slides` and an inline `pathway` (use the `N` helper at the top), plus a header comment naming the source.

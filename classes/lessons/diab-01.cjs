@@ -194,7 +194,7 @@ module.exports = {
         stem: 'Vamos con un caso. Mujer de veintiocho años con tiroiditis de Hashimoto en tratamiento, de peso normal. Consulta por sed, cansancio y cuatro kilos menos en dos meses. Glicemia de ayuno de doscientos ochenta y cinco, hemoglobina glicosilada de diez coma dos, sin cetonas en la orina. Le iniciaron metformina y, tras cuatro semanas subiendo la dosis, la glicemia no baja.',
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las alternativas: agregar glibenclamida, pedir anti GAD y péptido C e iniciar insulina, pedir un estudio genético para MODY, pedir una prueba de tolerancia a la glucosa, o subir la metformina al máximo. Piénsalo.',
-        answer: 'Es la B. Suma las pistas: adulta joven, delgada, con otra enfermedad autoinmune, y que no responde a metformina. Es una LADA. Se confirma con anti GAD y péptido C, pero la insulina no espera el resultado, porque el catabolismo sigue avanzando. El distractor tentador es agregar glibenclamida: es lo que harías en una tipo dos, y aquí solo retrasa lo inevitable. Y la MODY no calza, porque no hay herencia familiar y sí hay autoinmunidad.',
+        answer: 'Es la B. Suma las pistas: adulta joven, delgada, con otra enfermedad autoinmune, y que no responde a metformina. Es una LADA. Se confirma con anti GAD y péptido C, pero la insulina no espera el resultado. El distractor tentador es agregar glibenclamida: es lo que harías en una tipo dos, y aquí solo retrasa lo inevitable. Y la MODY no calza, porque no hay herencia familiar y sí hay autoinmunidad.',
       },
     },
 
@@ -263,7 +263,7 @@ module.exports = {
         stem: 'Y una tercera, del EUNACOM de julio de dos mil trece. Paciente de diecisiete años, obeso, con una glicemia de ayuno de ciento treinta, que al repetirla da ciento treinta y siete. No tiene síntomas. Al examen, acantosis nigricans en el cuello y acrocordones.',
         question: '¿Cuál es el diagnóstico más probable?',
         options: 'Las opciones: tipo uno, tipo dos, diabetes autoinmune, intolerancia a la glucosa, o glicemia de ayuno alterada. Piénsalo.',
-        answer: 'Es la B, tipo dos. Esta pregunta pone a prueba si te dejas llevar por la edad. Diecisiete años hace pensar en tipo uno, pero el mecanismo dice otra cosa: obesidad, acantosis y acrocordones son resistencia a la insulina, y el cuadro es asintomático, sin catabolismo. Además, dos glicemias de ayuno sobre ciento veintiséis ya son diabetes, así que la intolerancia y la glicemia alterada quedan fuera. Ese corte lo vemos a fondo en la próxima clase.',
+        answer: 'Es la B, tipo dos. Diecisiete años hace pensar en tipo uno, pero el mecanismo dice otra cosa: obesidad, acantosis y acrocordones son resistencia a la insulina, y el cuadro es asintomático, sin catabolismo. Además, dos glicemias de ayuno sobre ciento veintiséis ya son diabetes, así que la intolerancia y la glicemia alterada quedan fuera. Ese corte lo vemos a fondo en la próxima clase.',
       },
     },
 
