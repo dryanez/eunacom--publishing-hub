@@ -8,11 +8,19 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..', '..');
-const GASTRO_PATH = path.join(ROOT, 'classes', 'curriculum', 'gastroenterologia_decks_data.json');
-const NEFRO_PATH = path.join(ROOT, 'classes', 'curriculum', 'nefrologia_decks_data.json');
+const SPECIALTIES = [
+  { key: 'gastroenterologia', name: 'Gastroenterología' },
+  { key: 'neumologia', name: 'Neumología' },
+  { key: 'nefrologia', name: 'Nefrología' },
+  { key: 'diabetes', name: 'Diabetes y Dislipidemias' },
+  { key: 'endocrinologia', name: 'Endocrinología' },
+  { key: 'hematologia', name: 'Hematología' },
+];
 
-const gastroDecks = fs.existsSync(GASTRO_PATH) ? JSON.parse(fs.readFileSync(GASTRO_PATH, 'utf8')) : {};
-const nefroDecks = fs.existsSync(NEFRO_PATH) ? JSON.parse(fs.readFileSync(NEFRO_PATH, 'utf8')) : {};
+function loadDecks(key) {
+  const p = path.join(ROOT, 'classes', 'curriculum', `${key}_decks_data.json`);
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : {};
+}
 
 function stripEmojis(text) {
   if (typeof text !== 'string') return text;
@@ -492,14 +500,10 @@ if (fs.existsSync(introDeckPath)) {
   ALL_CLASSES.push(adaptDeckToSwiss(introDeck, 'Inducción Oficial'));
 }
 
-// Clases de Gastroenterología
-Object.values(gastroDecks).forEach(d => {
-  ALL_CLASSES.push(adaptDeckToSwiss(d, 'Gastroenterología'));
-});
-
-// Clases de Nefrología
-Object.values(nefroDecks).forEach(d => {
-  ALL_CLASSES.push(adaptDeckToSwiss(d, 'Nefrología'));
+SPECIALTIES.forEach(({ key, name }) => {
+  const decks = Object.values(loadDecks(key));
+  decks.forEach(d => ALL_CLASSES.push(adaptDeckToSwiss(d, name)));
+  console.log(`  ${name}: ${decks.length} clases`);
 });
 
 console.log(`Total clases adaptadas al estándar Suizo: ${ALL_CLASSES.length}`);
@@ -515,10 +519,4 @@ htmlContent = htmlContent.replace('Catálogo Oficial de Clases EUNACOM', `Catál
 const outPath = path.join(ROOT, 'classes', 'decks', 'Reproductor_Suiza_Oficial.html');
 fs.writeFileSync(outPath, htmlContent, 'utf8');
 console.log(`✔ Reproductor Suizo Oficial generado exitosamente en: ${outPath}`);
-
-const artifactPath = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c/reproductor_suizo.html';
-fs.writeFileSync(artifactPath, htmlContent, 'utf8');
-const artifactPath2 = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c/reproductor_suizo_oficial.html';
-fs.writeFileSync(artifactPath2, htmlContent, 'utf8');
-console.log(`✔ Artefactos Antigravity generados exitosamente.`);
 
