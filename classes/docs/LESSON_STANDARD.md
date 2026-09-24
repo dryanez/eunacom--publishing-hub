@@ -1,7 +1,7 @@
 # Estándar de clase · Módulo 1 (modelo gastro 1.1 y 1.2)
 
 **Referencia oficial:** `classes/lessons/gastro-01.cjs` y `classes/lessons/gastro-02.cjs`.
-Toda clase nueva o reescrita de Módulo 1 se escribe así. Si algo no está en este documento,
+Toda clase nueva o reescrita de Módulo 1 se escribe con este estilo; el número de diapositivas depende del tamaño del tema. Si algo no está en este documento,
 se copia lo que hacen esas dos clases.
 
 ## Idea central
@@ -26,24 +26,41 @@ se copia lo que hacen esas dos clases.
 2. Una entrada `<id>` en `classes/pathways/<especialidad>_pathways.cjs`: el árbol de decisión
    que usa la diapositiva `pathway` (mismo formato que `gastro_pathways.cjs`).
 
-## Estructura (11 diapositivas, en este orden)
+## Estructura dinámica (el tamaño lo decide el tema)
 
-| # | type | Contenido |
-|--:|---|---|
-| 1 | `cover` | `subtitle` = la pregunta clínica de la clase; `say` = bienvenida, cuántas preguntas tiene en el banco y la idea que lo resuelve todo |
-| 2 | `flow` | Fisiopatología: causa → mecanismo → consecuencia/riesgo (5–8 nodos) |
-| 3 | `points` | Clínica o diagnóstico: ¿cómo llega el paciente? / ¿a quién se estudia? |
-| 4 | `flow` | La diferencia o decisión que más se pregunta |
-| 5 | `points` | Tratamiento (`kicker: 'Tratamiento'`) |
-| 6 | `flow` | Urgencias o complicaciones |
-| 7 | `pathway` | `intro` de una frase; el árbol va en el archivo de pathways |
-| 8 | `table` | Trampas EUNACOM: 4–6 filas, cada una con su `say` |
-| 9 | `quiz` | Caso clínico escrito para la clase (5 alternativas A–E) |
-| 10 | `quiz` | Pregunta real EUNACOM del banco del libro |
-| 11 | `points` | Cierre: reglas de oro; el último `say` termina con "Si te llevas una sola idea de hoy: …" y "Nos vemos en la próxima clase." |
+La clase no tiene un número fijo de diapositivas: crece o se achica según lo grande que es el tema en el libro.
+Gastro 1.1 y 1.2 son el ejemplo de un tema **tier 2** con 11 diapositivas.
 
-Las diapositivas 4 y 6 se pueden adaptar al tema (p. ej. una segunda `points`), pero se mantienen
-11 diapositivas y el orden cover → mecanismo → clínica → decisión → tratamiento → urgencia → árbol → tabla → caso → pregunta real → cierre.
+### Tamaño según el tier del libro (`tier` en el dataset)
+
+| Tier del libro | Tipo | Diapositivas | Duración | Palabras habladas |
+|---|---|---|---|---|
+| 1 | Focalizado (tema acotado) | 6–8 | 5–7 min | ~800–1.100 |
+| 2 | Estándar (como gastro 1.1 / 1.2) | 9–12 | 9–12 min | ~1.400–1.800 |
+| 3 | Denso / urgencia (4 páginas en el libro) | 13–18 | 14–20 min | ~2.100–3.000 |
+
+Si el tema no trae `tier` (p. ej. cardiología), se estima por la cantidad de `contentSections`
+(2–3 → tier 1 · 4–5 → tier 2 · 6 o más, o urgencia vital → tier 3).
+
+### Cómo se arma
+
+**Marco fijo (siempre va):**
+1. `cover`
+2. … cuerpo …
+3. `pathway` (si el tema tiene una decisión clínica; casi siempre la tiene)
+4. `table` de trampas EUNACOM (si el libro trae tabla o hay contrastes que se preguntan)
+5. `quiz` de caso clínico escrito para la clase
+6. `quiz` de pregunta real EUNACOM (una por tier: tier 1 → 1, tier 2 → 1–2, tier 3 → 2–3, según el banco)
+7. `points` de cierre con las reglas de oro; el último `say` termina con "Si te llevas una sola idea de hoy: …" y "Nos vemos en la próxima clase."
+
+**Cuerpo (lo que varía):** cada `contentSection` del libro se convierte en **una** diapositiva didáctica,
+o en dos si la sección es larga o mezcla mecanismo y conducta.
+- `flow` cuando hay una cadena causal o una decisión (causa → mecanismo → consecuencia, o "si A → X, si B → Y").
+- `points` cuando son criterios, listas, fármacos o hallazgos.
+- Orden sugerido: mecanismo → clínica → diagnóstico → la diferencia que más se pregunta → tratamiento → urgencias o complicaciones.
+- Un tema tier 1 puede no tener fisiopatología en flujo; un tema tier 3 puede tener varios `flow` y dos `points` de tratamiento.
+
+Nunca se rellena para llegar a un número ni se recorta contenido que el libro pide: manda el libro.
 
 ## Campos
 
@@ -65,7 +82,7 @@ Las diapositivas 4 y 6 se pueden adaptar al tema (p. ej. una segunda `points`), 
 
 ## Largo
 
-- Unas 1.500–1.800 palabras habladas (≈ 9–11 min, ≈ 9.000–11.000 caracteres).
+- El largo total lo fija la tabla de tiers de arriba.
 - Cada `say` tiene entre 1 y 4 frases. Si pasa de ~70 palabras, se divide en dos pasos.
 
 ## Verificación antes de entregar
