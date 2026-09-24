@@ -246,6 +246,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-03 | Carga de levotiroxina EV 300–500 mcg en el coma mixedematoso. | Las guías actuales usan 200–400 mcg y menos en ancianos o cardiópatas. | Sigue el libro. |
 | endo-16 | La PTH causa "hipofosfaturia/hipofosfatemia". | La PTH causa hiperfosfaturia (bloquea la reabsorción de fósforo). | "El fósforo se va por la orina". |
 | endo-14 | La adrenalectomía "normaliza la kalemia en el 100 %". | Exagerado. | Solo dice que normaliza el potasio. |
+| endo-10 | "GES N° 33" para el cáncer de tiroides. | El número parece incorrecto (el problema es "Cáncer de tiroides diferenciado y medular en personas de 15 años y más"). | Omite el número. |
+| endo-12 | Campo GES menciona "Ley Ricarte Soto para bombas o fármacos especializados". | No aplica a la insuficiencia suprarrenal. | Se omite. |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -259,6 +261,9 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-19 | Mantención de vitamina D 1.000–2.000 UI/día; calcio 1.000 mg/día (texto) | 800–1.200 UI/día en adultos mayores (algoritmo); calcio 1.000–1.200 (preguntas) | El texto |
 | endo-20 | Resonancia urgente en la apoplejía (texto) | TAC (pregunta del libro) | El texto |
 | endo-15 | Betabloqueo tras 2–4 días de alfabloqueo adecuado (texto) | Solo tras los 10–14 días de alfabloqueo (campo tx) | El texto |
+| endo-10 | Carcinoma medular 3–5 % (texto y tabla) | 5–7 % (diagrama) | 3–5 % |
+| endo-11 | Enfermedad de Cushing = 70–75 % del Cushing endógeno (texto y tabla) | 80 % (contexto) y 70–80 % (keyPoints) | 70–75 % |
+| endo-12 | ACTH en Addison "> 60 a 100 pg/mL" (texto) | "> 100 pg/mL" (tabla) | El texto |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -277,3 +282,28 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-19 | "Raquitismo" está en el título sin contenido (clínica, profilaxis en lactantes). La contraindicación de bifosfonatos en osteomalacia solo está en una explicación. |
 | endo-14 | No dice que la mayoría de los hiperaldosteronismos tienen potasio normal (Dic 2025 P171) ni que se agrega espironolactona como 4° fármaco en HTA resistente mientras se estudia (Dic 2022 P51, Ago 2021 P136, Ene 2023 P81). |
 | endo-15 | No diferencia feocromocitoma de adenoma de Conn u otras masas suprarrenales (Ene 2023 P82). |
+| endo-10 | No cubre las complicaciones de la tiroidectomía (hipoparatiroidismo, hipocalcemia), que el banco pregunta (Jul 2024 P82, Ene 2023 P110, Dic 2018 P25). |
+
+## Hematología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| hem-03 | Campo GES: "GES: prevención y tratamiento integral en niños y gestantes" para anemia ferropriva. | No existe una garantía GES para la anemia ferropriva. | No menciona GES. |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| hem-03 | Hb sube "1 a 2 g/dL cada 2 a 3 semanas" (texto) | "Al menos 1,5 a 2,0 g/dL" a las 3–4 semanas (tabla) | La tabla |
+| hem-02 | Anemia de enfermedad crónica con saturación "15–25 %" (tabla) | La viñeta tiene saturación 14 % con el mismo diagnóstico | "Baja o normal", con corte de ferritina 100 |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| hem-01 a hem-03 | Las preguntas del libro son "Banco oficial AEE" sin fecha; la primera de hem-01 tiene el enunciado cortado y la alternativa E corrupta. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2019 · Pregunta 18 | Clave: transfundir a un paciente estable con Hb 7,8; el libro decide por clínica, no por cifra (la propia explicación la llama muy discutible). |
+| EUNACOM Julio 2025 · Pregunta 53 | Clave: hierro elemental 200 mg/día; el libro da 40–100 mg/día o en días alternos. |
