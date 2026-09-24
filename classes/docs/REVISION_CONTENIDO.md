@@ -252,9 +252,18 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-02 | Dosis baja desde "> 60–65 años"; coronarios 25–50 mcg (12,5 en graves); TSH ≥ 10 se trata en "todo paciente" (texto) | "> 65 años"; 12,5–25 mcg; "no anciano" (tablas) | El texto |
 | endo-03 | Tríada: hipotermia + compromiso de conciencia + compromiso cardiovascular/respiratorio (texto) | Hipotermia + hiponatremia + sopor (keyPoints) | El texto |
 | endo-04 | Aumento de dosis al confirmar embarazo 20–30 % (texto); ectopia 50–60 % | 25–30 % (tabla) y 20–50 % (explicación); ectopia 60 % | El texto |
+| endo-22 | Macroadenoma en > 75 % (texto y tabla) | "Macroadenoma en 98 %" (contexto y keyPoints) | El texto: 98 % es adenoma secretor de GH y > 75 % de ellos son macro |
+| endo-24 | Osmolalidad urinaria en DI "< 200–300" (texto) | "< 300" (dx y keyPoints) | Ambos |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
 |---|---|
 | EUNACOM Diciembre 2018 · Pregunta 105 | 84 años con TSH 8,4 y 9,2: clave "iniciar levotiroxina"; el libro observa en mayores de 70–80 asintomáticos con TSH 4,5–9,9. |
 | EUNACOM Diciembre 2022 · Pregunta 6 | Clave "cetoacidosis diabética" en un cuadro de coma mixedematoso sin datos de acidosis (TSH 100, T4L 0,1, hipotermia, bradicardia). La clave parece errónea. |
+| EUNACOM Diciembre 2022 · Pregunta 48 | Hipogonadismo con defecto de campo temporal: clave "TSH"; el libro dice que la TSH no sirve en falla central (y Dic 2018 P111 responde resonancia de silla turca). |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| endo-22 | El título incluye gigantismo pero solo hay un keyPoint. |
+| endo-24 | El tratamiento de la DI solo está en el campo tx, sin dosis. El banco real no tiene preguntas de NEM. |
