@@ -18,7 +18,16 @@ se copia lo que hacen esas dos clases.
 - El contenido sale del libro: `books/scripts/dataset_<especialidad>.cjs` (cardiología:
   `master_cardiology_23_full_dataset.cjs`), el tema con el mismo `id`.
 - Las cifras, dosis, cortes GES y criterios deben coincidir con el libro.
-- La pregunta real EUNACOM se toma del banco del libro (`questions`), sin inventar fecha ni número.
+- Las preguntas reales EUNACOM salen del **banco real** (`books/data/real_questions_by_code.json`, 2.708 preguntas con examen y fecha):
+  `node classes/scripts/class_questions.cjs <id>` lista las del código de la clase, y
+  `node classes/scripts/class_questions.cjs --search "término1|término2"` busca por tema en todo el banco
+  (la clase cubre más temas que su código). Se copian tal cual (enunciado, alternativas, correcta) y el título es su `recTag`
+  (p. ej. "EUNACOM Julio 2013 · Pregunta 12"). Se prefieren las de mayor confianza y las más recientes.
+- Solo si el banco real no tiene ninguna pregunta del tema se usa una de `questions` del libro con la etiqueta
+  "Banco EUNACOM · Caso representativo" (kicker "Pregunta del banco EUNACOM"), y la voz no inventa fecha.
+- Si el libro se contradice a sí mismo o parece tener un error, se sigue el texto principal (`contentSections`)
+  y se anota en `classes/docs/REVISION_CONTENIDO.md` (ver "Revisión médica" abajo). Explicar con palabras simples
+  lo mismo que dice el libro **no** es una discrepancia y no se anota.
 
 ## Archivos por clase
 
@@ -32,16 +41,18 @@ Gastro 1.1 y 1.2 tienen su árbol en `gastro_pathways.cjs`; las clases nuevas lo
 La clase no tiene un número fijo de diapositivas: crece o se achica según lo grande que es el tema en el libro.
 Gastro 1.1 y 1.2 son el ejemplo de un tema **tier 2** con 11 diapositivas.
 
-### Tamaño según el tier del libro (`tier` en el dataset)
+### Tamaño: lo decide el contenido, no un número
 
-| Tier del libro | Tipo | Diapositivas | Duración | Palabras habladas |
-|---|---|---|---|---|
-| 1 | Focalizado (tema acotado) | 6–8 | 5–7 min | ~800–1.100 |
-| 2 | Estándar (como gastro 1.1 / 1.2) | 9–12 | 9–12 min | ~1.400–1.800 |
-| 3 | Denso / urgencia (4 páginas en el libro) | 13–18 | 14–20 min | ~2.100–3.000 |
+**No hay mínimo ni máximo de diapositivas.** El tier del libro solo da una idea de lo esperable:
 
-Si el tema no trae `tier` (p. ej. cardiología), se estima por la cantidad de `contentSections`
-(2–3 → tier 1 · 4–5 → tier 2 · 6 o más, o urgencia vital → tier 3).
+| Tier del libro | Tipo | Referencia (no es límite) |
+|---|---|---|
+| 1 | Focalizado | ~6–10 diapositivas, ~5–8 min |
+| 2 | Estándar (como gastro 1.1 / 1.2) | ~9–14 diapositivas, ~9–12 min |
+| 3 | Denso / urgencia | ~13–20 diapositivas, ~14–20 min |
+
+**Regla de oro: si el contenido necesita más diapositivas, se usan más.** Nunca se fusionan secciones, se quita la tabla
+o se descartan preguntas reales solo para caber en un número. Tampoco se rellena para llegar a un número.
 
 ### Cómo se arma
 
@@ -49,9 +60,9 @@ Si el tema no trae `tier` (p. ej. cardiología), se estima por la cantidad de `c
 1. `cover`
 2. … cuerpo …
 3. `pathway` (si el tema tiene una decisión clínica; casi siempre la tiene)
-4. `table` de trampas EUNACOM (si el libro trae tabla o hay contrastes que se preguntan)
+4. `table` de trampas EUNACOM (siempre que el libro traiga tabla o haya contrastes que se preguntan; las columnas se adaptan si hace falta)
 5. `quiz` de caso clínico escrito para la clase
-6. `quiz` de pregunta real EUNACOM (una por tier: tier 1 → 1, tier 2 → 1–2, tier 3 → 2–3, según el banco)
+6. `quiz` de preguntas reales EUNACOM del banco real: todas las que aporten algo distinto (normalmente 1 a 4; más si el tema es muy preguntado y cada una enseña algo nuevo)
 7. `points` de cierre con las reglas de oro; el último `say` termina con "Si te llevas una sola idea de hoy: …" y "Nos vemos en la próxima clase."
 
 **Cuerpo (lo que varía):** cada `contentSection` del libro se convierte en **una** diapositiva didáctica,
@@ -68,10 +79,10 @@ Nunca se rellena para llegar a un número ni se recorta contenido que el libro p
 - `flow`: `nodes` con `id, col (0–4), row (0–4), k, t, s`; `edges` `{from, to, label?}`;
   `steps` `{show: [ids], note, say}`: cada paso revela 1–2 nodos. Valores de `k`: `cause | mech | effect | risk | good | alert | start | q | refer | trap`.
 - `points`: `cards` `{title, tag, kind, items: [{t, d, say}]}`, con 2–3 tarjetas. Valores de `kind`: `key | alert | pharma | criteria | normal`.
-- `table`: `head` (3 columnas), `rows` `{cells, say}`.
+- `table`: `head` (2 a 4 columnas), `rows` `{cells, say}`.
 - `quiz`: `stem, question, options[{letter,text}], correct, explanation`, y `say: {stem, question, options, answer}`.
   En `say.options` se leen las alternativas resumidas y se termina con "Piénsalo." En `answer` se explica por qué la correcta es correcta y por qué cae el distractor más tentador.
-- Pathway: nodos `start | q | do | ok | refer | alert`, con 5–9 nodos y 2–4 niveles.
+- Pathway: nodos `start | q | do | ok | refer | alert`, con 5–12 nodos y 2–4 niveles.
 
 ## Reglas para que suene bien (TTS)
 
@@ -83,7 +94,7 @@ Nunca se rellena para llegar a un número ni se recorta contenido que el libro p
 
 ## Largo
 
-- El largo total lo fija la tabla de tiers de arriba.
+- El largo total lo fija el contenido (la tabla de tiers es solo referencia).
 - Cada `say` tiene entre 1 y 4 frases. Si pasa de ~70 palabras, se divide en dos pasos.
 
 ## Verificación antes de entregar
@@ -92,3 +103,12 @@ Nunca se rellena para llegar a un número ni se recorta contenido que el libro p
 node classes/scripts/check_lesson.cjs <id>    # sin ERROR; los avisos se corrigen salvo que haya motivo
 ```
 El reproductor (`build_swiss_player.cjs`) lo compila después quien integra; no se corre en paralelo.
+
+## Revisión médica (`classes/docs/REVISION_CONTENIDO.md`)
+
+Se anota solo lo que un médico tiene que decidir, en la sección de la especialidad y en la categoría que corresponde:
+- **A · Posible error del libro:** un dato que parece médicamente incorrecto.
+- **B · El libro se contradice:** dos partes del libro dicen cosas distintas (se indica cuál se usó).
+- **C · Falta información en el libro:** dosis, preguntas mencionadas que no están, etc.
+No se anotan decisiones de formato ni explicaciones con otras palabras de lo mismo que dice el libro.
+Cada agente devuelve sus notas en el informe final; quien integra las agrega al archivo.

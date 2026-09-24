@@ -16,7 +16,6 @@ const FLOW_K = new Set(['cause', 'mech', 'effect', 'risk', 'good', 'alert', 'sta
 const CARD_KIND = new Set(['key', 'alert', 'pharma', 'criteria', 'normal']);
 const PW_K = new Set(['start', 'q', 'do', 'ok', 'refer', 'alert']);
 const WORDS = { 1: [800, 1100], 2: [1400, 1800], 3: [2100, 3000] };
-const SLIDES = { 1: [6, 8], 2: [9, 12], 3: [13, 18] };
 
 function check(id) {
   const errors = [];
@@ -58,7 +57,7 @@ function check(id) {
         (n.kids || []).forEach(([, c]) => walk(c, d + 1));
       })(pw.root, 0);
     } else if (s.type === 'table') {
-      (s.rows || []).forEach((r, j) => { if (r.cells.length !== s.head.length) errors.push(`${w}: fila ${j + 1} con ${r.cells.length} celdas`); say(`${w} fila ${j + 1}`, r.say); });
+      (s.rows || []).forEach((r, j) => { if (r.cells.length !== s.head.length || s.head.length < 2 || s.head.length > 4) errors.push(`${w}: fila ${j + 1} con ${r.cells.length} celdas`); say(`${w} fila ${j + 1}`, r.say); });
     } else if (s.type === 'quiz') {
       if ((s.options || []).length !== 5) errors.push(`${w}: debe tener 5 alternativas`);
       if (!(s.options || []).some(o => o.letter === s.correct)) errors.push(`${w}: correct "${s.correct}" no está en las alternativas`);
@@ -72,9 +71,7 @@ function check(id) {
   const words = says.join(' ').split(/\s+/).length;
   if (WORDS[tier]) {
     const [a, b] = WORDS[tier];
-    if (words < a * 0.85 || words > b * 1.15) warns.push(`largo: ${words} palabras (tier ${tier} pide ${a}–${b})`);
-    const [sa, sb] = SLIDES[tier];
-    if (slides.length < sa || slides.length > sb) warns.push(`${slides.length} diapositivas (tier ${tier} pide ${sa}–${sb})`);
+    if (words < a * 0.85) warns.push(`largo: ${words} palabras, poco para un tier ${tier} (referencia ${a}–${b}); revisar que no falte contenido del libro`);
   }
   return { errors, warns, words, slides: slides.length, tier };
 }
