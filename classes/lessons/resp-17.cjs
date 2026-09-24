@@ -1,0 +1,341 @@
+// Clase 4.2 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_neumologia.cjs (resp-17).
+
+const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+module.exports = {
+  id: 'resp-17',
+  tier: 2,
+  slides: [
+    {
+      type: 'cover',
+      subtitle: 'Microcítico o no microcítico: la biopsia separa dos enfermedades distintas',
+      say: 'Bienvenidos. Hoy vemos cáncer pulmonar, la principal causa de muerte por cáncer en Chile y una patología GES. En la clase anterior aprendiste a enfrentar el nódulo pulmonar solitario; hoy vemos qué pasa cuando ese nódulo, o esa masa, resulta ser un cáncer. El examen pregunta tres cosas: el tipo histológico, su síndrome paraneoplásico y si se opera o no. Partamos.',
+    },
+
+    {
+      type: 'flow',
+      kicker: 'La gran división',
+      title: 'Un solo culpable, dos universos',
+      nodes: [
+        { id: 'tab', col: 0, row: 1, k: 'cause', t: 'Tabaquismo', s: '85–90 % de los casos' },
+        { id: 'bio', col: 1, row: 1, k: 'q', t: 'Biopsia', s: '¿Células pequeñas o no?' },
+        { id: 'nmc', col: 2, row: 0, k: 'effect', t: 'No microcítico', s: '85 %: adeno, epidermoide, células grandes' },
+        { id: 'cir', col: 3, row: 0, k: 'good', t: 'Etapas I–II: cirugía', s: 'Lobectomía curativa' },
+        { id: 'mic', col: 2, row: 2, k: 'risk', t: 'Microcítico', s: '15 %: sistémico desde el inicio' },
+        { id: 'qt', col: 3, row: 2, k: 'alert', t: 'Nunca cirugía de entrada', s: 'Quimioterapia + radioterapia' },
+      ],
+      edges: [
+        { from: 'tab', to: 'bio' },
+        { from: 'bio', to: 'nmc', label: 'no pequeñas' }, { from: 'nmc', to: 'cir' },
+        { from: 'bio', to: 'mic', label: 'pequeñas' }, { from: 'mic', to: 'qt' },
+      ],
+      steps: [
+        { show: ['tab'], note: 'El tabaco explica casi todos los casos',
+          say: 'Empecemos por la causa, porque casi no hay discusión: el tabaquismo explica entre el ochenta y cinco y el noventa por ciento de los cánceres pulmonares. Por eso el paciente típico del examen es un fumador de muchos paquetes al año.' },
+        { show: ['bio'], note: 'La pregunta que ordena todo el tema',
+          say: 'Pero el tabaco produce tumores muy distintos entre sí, y la biopsia es la que los separa. La pregunta clave es una sola: ¿son células pequeñas, o no lo son?' },
+        { show: ['nmc', 'cir'], note: 'No microcítico: en etapas tempranas se opera',
+          say: 'El cáncer de células no pequeñas es el ochenta y cinco por ciento. Agrupa al adenocarcinoma, al epidermoide y al de células grandes. Su gran ventaja es que, si se pilla en etapas uno o dos, se puede curar con cirugía.' },
+        { show: ['mic'], note: 'Microcítico: diseminado desde el diagnóstico',
+          say: 'El microcítico, o de células pequeñas, es el quince por ciento restante. Invade vasos temprano y se disemina precozmente a cerebro, hígado y hueso. Por eso se considera una enfermedad sistémica desde el diagnóstico.' },
+        { show: ['qt'], note: 'Esta diferencia se pregunta',
+          say: 'Y de ahí sale la regla que más se pregunta: el microcítico no tiene indicación quirúrgica de entrada. Se trata con quimioterapia y radioterapia. Operar un microcítico es la respuesta incorrecta clásica.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tipos histológicos',
+      title: 'Cuatro tipos, dos ubicaciones',
+      cards: [
+        { title: 'Periféricos', tag: 'Lejos del hilio', kind: 'key', items: [
+          { t: 'Adenocarcinoma: 40–50 %', d: 'El más frecuente, también en no fumadores',
+            say: 'Veamos los cuatro tipos, y fíjate en un truco: se ordenan por dónde crecen. El adenocarcinoma es el más frecuente, entre el cuarenta y el cincuenta por ciento. Es periférico, nace en los bronquiolos terminales, y es el más frecuente también en mujeres y en no fumadores.' },
+          { t: 'Células grandes: 10 %', d: 'Periférico, indiferenciado y agresivo',
+            say: 'El carcinoma de células grandes es cerca del diez por ciento. También es periférico, muy indiferenciado y agresivo.' },
+        ] },
+        { title: 'Centrales', tag: 'Cerca del hilio', kind: 'alert', items: [
+          { t: 'Epidermoide: 25–30 %', d: 'Muy ligado al tabaco, tiende a cavitar',
+            say: 'Los centrales crecen en los bronquios principales. El epidermoide, o escamoso, es entre el veinticinco y el treinta por ciento, está muy ligado al tabaco y tiende a necrosarse y cavitarse en el centro. Masa hiliar cavitada en un fumador: piensa en epidermoide.' },
+          { t: 'Microcítico: 15 %', d: 'Perihiliar, casi solo en fumadores pesados',
+            say: 'Y el microcítico, también central y perihiliar, casi exclusivo de fumadores pesados. Esa ubicación central explica, como vamos a ver, por qué comprime el mediastino.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Síndromes paraneoplásicos',
+      title: 'Cada tipo deja su firma a distancia',
+      nodes: [
+        { id: 'mic', col: 0, row: 0, k: 'cause', t: 'Microcítico', s: 'Secreta hormonas ectópicas' },
+        { id: 'sia', col: 1, row: 0, k: 'effect', t: 'SIADH', s: 'Hiponatremia hipotónica' },
+        { id: 'cus', col: 2, row: 0, k: 'effect', t: 'Cushing ectópico (ACTH)', s: 'Hipokalemia y alcalosis metabólica' },
+        { id: 'lam', col: 3, row: 0, k: 'effect', t: 'Lambert-Eaton', s: 'Anticuerpos anticanales de calcio' },
+        { id: 'epi', col: 0, row: 2, k: 'cause', t: 'Epidermoide', s: 'Secreta PTHrP' },
+        { id: 'hca', col: 1, row: 2, k: 'risk', t: 'Hipercalcemia', s: 'Sin metástasis óseas, PTH suprimida' },
+        { id: 'ade', col: 0, row: 4, k: 'cause', t: 'Adenocarcinoma', s: 'Periférico' },
+        { id: 'ost', col: 1, row: 4, k: 'effect', t: 'Osteoartropatía hipertrófica', s: 'Acropaquia + periostitis' },
+        { id: 'cgr', col: 3, row: 3, k: 'trap', t: 'Células grandes', s: 'Ginecomastia por beta-HCG' },
+      ],
+      edges: [
+        { from: 'mic', to: 'sia' }, { from: 'sia', to: 'cus' }, { from: 'cus', to: 'lam' },
+        { from: 'epi', to: 'hca', label: 'PTHrP' },
+        { from: 'ade', to: 'ost' },
+      ],
+      steps: [
+        { show: ['mic'], note: 'No es invasión ni metástasis: es a distancia',
+          say: 'Ahora lo que más se pregunta del tema: los síndromes paraneoplásicos. Son alteraciones a distancia que no se deben a invasión directa ni a metástasis, sino a sustancias que el tumor fabrica. Y el gran fabricante es el microcítico.' },
+        { show: ['sia'], note: 'El más característico del microcítico',
+          say: 'Su síndrome más característico es la secreción inadecuada de hormona antidiurética, el SIADH. El tumor fabrica hormona antidiurética, el riñón retiene agua libre, y aparece una hiponatremia hipotónica con una orina inapropiadamente concentrada.' },
+        { show: ['cus'], note: 'ACTH ectópica',
+          say: 'El segundo es el Cushing ectópico: el tumor secreta ACTH, y el exceso de cortisol se nota sobre todo en el laboratorio, con hipokalemia y alcalosis metabólica.' },
+        { show: ['lam'], note: 'Debilidad por anticuerpos',
+          say: 'Y el tercero es neurológico: el síndrome miasténico de Lambert-Eaton, causado por anticuerpos contra los canales de calcio dependientes de voltaje.' },
+        { show: ['epi', 'hca'], note: 'Hipercalcemia con PTH suprimida = epidermoide',
+          say: 'El epidermoide tiene una firma propia: secreta péptido relacionado con la hormona paratiroidea, y produce hipercalcemia sin metástasis óseas. La clave del laboratorio es que la PTH verdadera está suprimida. Calcio alto, PTH baja y masa central: epidermoide.' },
+        { show: ['ade', 'ost'], note: 'Dedos en palillo de tambor',
+          say: 'El adenocarcinoma se asocia a la osteoartropatía hipertrófica pulmonar: acropaquia, o dedos en palillo de tambor, con periostitis dolorosa bilateral.' },
+        { show: ['cgr'], note: 'Menos preguntado, pero existe',
+          say: 'Y el de células grandes, en la tabla del libro, se asocia a ginecomastia por secreción de gonadotrofina coriónica. Si te preguntan un síndrome paraneoplásico, primero identifica la histología, y el síndrome sale solo.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Invasión local',
+      title: 'Cuando el tumor comprime lo que tiene al lado',
+      cards: [
+        { title: 'Tumor de Pancoast', tag: 'Vértice pulmonar', kind: 'alert', items: [
+          { t: 'Dolor en territorio C8–T1', d: 'Cara interna del brazo',
+            say: 'Además de los síndromes a distancia, hay síndromes por invasión local. El primero es el tumor de Pancoast, del surco superior, en el vértice del pulmón. Suele ser un epidermoide o un adenocarcinoma, e invade el plexo braquial: el paciente consulta por dolor de hombro que baja por la cara interna del brazo, en el territorio de las raíces C ocho y T uno.' },
+          { t: 'Síndrome de Horner ipsilateral', d: 'Ptosis, miosis, enoftalmos, anhidrosis',
+            say: 'Y como también invade la cadena simpática, aparece un síndrome de Horner del mismo lado: ptosis, miosis, enoftalmos y anhidrosis facial. Dolor del brazo con un párpado caído en un fumador es Pancoast hasta demostrar lo contrario.' },
+        ] },
+        { title: 'Vena cava superior', tag: 'Tumor central', kind: 'criteria', items: [
+          { t: 'Compresión mediastínica', d: 'Microcítico central o adenopatías',
+            say: 'El segundo es el síndrome de vena cava superior. Aquí vuelve la ubicación: un tumor central, típicamente el microcítico, o sus adenopatías, comprime la vena cava en el mediastino.' },
+          { t: 'Edema en esclavina', d: 'Cianosis facial y venas torácicas dilatadas',
+            say: 'La sangre de la mitad superior del cuerpo no puede volver, y aparece el edema en esclavina, en cara, cuello y brazos, con cianosis facial y venas colaterales dilatadas en el tórax.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Manejo inicial',
+      title: 'De la sospecha al tratamiento',
+      nodes: [
+        { id: 'sos', col: 0, row: 1, k: 'start', t: 'Fumador con masa', s: 'Tos, hemoptisis, baja de peso' },
+        { id: 'bio', col: 1, row: 1, k: 'q', t: 'Biopsia + inmunohistoquímica', s: 'Define el tipo' },
+        { id: 'eta', col: 2, row: 0, k: 'mech', t: 'Etapificación TNM', s: 'PET-CT + RM de cerebro' },
+        { id: 'lob', col: 3, row: 0, k: 'good', t: 'Lobectomía', s: 'Con linfadenectomía mediastínica' },
+        { id: 'qt', col: 2, row: 2, k: 'alert', t: 'Cisplatino + etopósido', s: 'Microcítico' },
+        { id: 'rt', col: 3, row: 2, k: 'alert', t: 'Radioterapia', s: 'Torácica + holocraneal profiláctica' },
+      ],
+      edges: [
+        { from: 'sos', to: 'bio' },
+        { from: 'bio', to: 'eta', label: 'no microcítico' }, { from: 'eta', to: 'lob', label: 'etapas I–II' },
+        { from: 'bio', to: 'qt', label: 'microcítico' }, { from: 'qt', to: 'rt' },
+      ],
+      steps: [
+        { show: ['sos'], note: 'El paciente del examen',
+          say: 'Juntemos esto en el manejo. El paciente llega como fumador mayor con tos crónica, hemoptisis, baja de peso o disnea, y una masa en la radiografía o en el scanner.' },
+        { show: ['bio'], note: 'Sin histología no hay tratamiento',
+          say: 'El paso que no se salta es la biopsia con inmunohistoquímica. Sin histología no sabes en cuál de los dos universos estás, y el tratamiento es completamente distinto.' },
+        { show: ['eta'], note: 'Etapificar antes de operar',
+          say: 'Si es no microcítico, se etapifica con el sistema TNM, con PET-CT y resonancia de cerebro, porque antes de operar tienes que saber que el tumor está localizado.' },
+        { show: ['lob'], note: 'La opción curativa',
+          say: 'En etapas uno y dos, la opción curativa es la cirugía: lobectomía con linfadenectomía mediastínica.' },
+        { show: ['qt', 'rt'], note: 'Microcítico: tratamiento sistémico',
+          say: 'Si es microcítico, como ya es sistémico, el tratamiento es quimioterapia con cisplatino y etopósido, más radioterapia torácica y radioterapia holocraneal profiláctica. ¿Por qué al cerebro, si no hay metástasis? Porque el microcítico lo invade precozmente.' },
+      ],
+    },
+
+    {
+      type: 'pathway',
+      intro: 'Ahora juntemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Histología, ubicación y firma',
+      head: ['Tipo', 'Ubicación y frecuencia', 'Firma de examen'],
+      rows: [
+        { cells: ['Adenocarcinoma', 'Periférico · 40–50 %', 'Acropaquia; mujer no fumadora'],
+          say: 'Repasemos con la tabla. Adenocarcinoma: periférico, el más frecuente, y el de la mujer no fumadora. Su firma es la acropaquia con osteoartropatía.' },
+        { cells: ['Epidermoide', 'Central · 25–30 %', 'Hipercalcemia por PTHrP; cavita'],
+          say: 'Epidermoide: central, cavita, y da hipercalcemia con PTH suprimida. La trampa es pensar en metástasis óseas: aquí no las hay.' },
+        { cells: ['Microcítico', 'Central · 15 %', 'SIADH, Cushing, Lambert-Eaton'],
+          say: 'Microcítico: central, de fumador pesado, con SIADH, Cushing ectópico y Lambert-Eaton.' },
+        { cells: ['Células grandes', 'Periférico · 10 %', 'Ginecomastia (beta-HCG)'],
+          say: 'Células grandes: periférico, con ginecomastia.' },
+        { cells: ['Microcítico localizado', 'Quimio + radioterapia', 'Error: operarlo'],
+          say: 'Y la trampa de conducta: el microcítico no se opera de entrada, aunque parezca localizado. Quimioterapia y radioterapia.' },
+        { cells: ['No microcítico etapa I–II', 'Lobectomía + linfadenectomía', 'Error: solo quimioterapia'],
+          say: 'Al revés, el no microcítico en etapas uno o dos se opera. Dejarlo solo con quimioterapia es quedarse corto.' },
+      ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 67 años, fumador de 45 paquetes-año, consulta por astenia, náuseas, constipación y confusión fluctuante, sin fiebre. Radiografía: masa central perihiliar derecha de 5 cm con ensanchamiento mediastínico. Calcio 13,8 mg/dL, fósforo 2,1 mg/dL, PTH suprimida y PTHrP marcadamente elevada.',
+      question: '¿Cuál es el tipo histológico más probable?',
+      options: [
+        { letter: 'A', text: 'Adenocarcinoma periférico' },
+        { letter: 'B', text: 'Carcinoma epidermoide (escamoso)' },
+        { letter: 'C', text: 'Carcinoma microcítico' },
+        { letter: 'D', text: 'Carcinoma de células grandes' },
+        { letter: 'E', text: 'Metástasis óseas de un adenocarcinoma' },
+      ],
+      correct: 'B',
+      explanation: 'Masa central en fumador con hipercalcemia grave, PTH suprimida y PTHrP elevada: hipercalcemia humoral por PTHrP, firma del carcinoma epidermoide. Manejo inmediato: hidratación con suero fisiológico, bifosfonato EV (ácido zoledrónico) y fibrobroncoscopía con biopsia.',
+      say: {
+        stem: 'Vamos a un caso. Hombre de sesenta y siete años, fumador de cuarenta y cinco paquetes al año, con astenia, náuseas, constipación y confusión que va y viene. La radiografía muestra una masa central perihiliar derecha de cinco centímetros. El calcio está en trece coma ocho, la PTH suprimida y el péptido relacionado con la PTH muy elevado.',
+        question: '¿Cuál es el tipo histológico más probable?',
+        options: 'Las opciones: adenocarcinoma periférico, epidermoide, microcítico, células grandes, o metástasis óseas de un adenocarcinoma. Piénsalo.',
+        answer: 'Es la B, el epidermoide. La constipación, las náuseas y la confusión son la clínica de la hipercalcemia; la PTH suprimida con su péptido relacionado elevado dice que el tumor la fabrica. El distractor tentador es el microcítico, porque la masa es central, pero su firma es el SIADH, no el calcio. El manejo inmediato es hidratar con suero fisiológico, dar ácido zoledrónico, y confirmar con fibrobroncoscopía y biopsia.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2025 · Pregunta 29',
+      stem: 'Imagen radiográfica de tórax PA en hombre de 62 años, fumador, que muestra masa hiliar derecha irregular con atelectasia del lóbulo superior derecho.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Carcinoma espinocelular (epidermoide) de pulmón' },
+        { letter: 'B', text: 'Derrame pleural' },
+        { letter: 'C', text: 'Neumotórax espontáneo' },
+        { letter: 'D', text: 'Neumonía por aspiración' },
+        { letter: 'E', text: 'Adenocarcinoma periférico' },
+      ],
+      correct: 'A',
+      explanation: 'Masa hiliar central en fumador con atelectasia lobar: carcinoma epidermoide, de localización central, que obstruye el bronquio y colapsa el lóbulo distal. El adenocarcinoma es periférico.',
+      say: {
+        stem: 'Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Hombre de sesenta y dos años, fumador, cuya radiografía muestra una masa hiliar derecha irregular con atelectasia del lóbulo superior derecho.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: carcinoma epidermoide, derrame pleural, neumotórax, neumonía aspirativa, o adenocarcinoma periférico. Piénsalo.',
+        answer: 'Es la A, epidermoide. La palabra clave es hiliar: un tumor central crece dentro del bronquio, lo tapa, y el lóbulo que queda detrás se colapsa. La E es el distractor lógico, porque también es cáncer, pero el propio enunciado te dice que el adenocarcinoma es periférico. Ubicación primero, y la histología sale sola.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 92',
+      stem: 'Un paciente de 72 años, fumador de 40 paquetes/año, con diagnóstico de cáncer pulmonar de células pequeñas sin tratamiento actual, presenta un cuadro de 7 días de evolución de cefalea y tendencia a la desorientación. En sus exámenes destaca una concentración sérica de sodio de 121 mEq/L, sin focalidad neurológica.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'SIADH (Síndrome de secreción inapropiada de hormona antidiurética)' },
+        { letter: 'B', text: 'Metástasis cerebrales' },
+        { letter: 'C', text: 'Síndrome carcinoide' },
+        { letter: 'D', text: 'Accidente vascular encefálico' },
+        { letter: 'E', text: 'Hipercalcemia' },
+      ],
+      correct: 'A',
+      explanation: 'Cáncer de células pequeñas con hiponatremia y compromiso neurológico sin focalidad: SIADH, el síndrome paraneoplásico más característico del microcítico. La hipercalcemia es la firma del epidermoide.',
+      say: {
+        stem: 'Otra, del EUNACOM de julio de dos mil veinticuatro. Paciente de setenta y dos años, fumador de cuarenta paquetes al año, con un cáncer de células pequeñas sin tratamiento. Lleva siete días con cefalea y tendencia a desorientarse, y el sodio está en ciento veintiuno, sin focalidad neurológica.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: SIADH, metástasis cerebrales, síndrome carcinoide, accidente vascular, o hipercalcemia. Piénsalo.',
+        answer: 'Es la A. Microcítico más hiponatremia es SIADH, y la confusión se explica por el sodio bajo. Las metástasis cerebrales tientan, porque el microcítico las da, pero no explican el sodio y además no hay focalidad. Y la hipercalcemia está puesta para ver si confundes las firmas: esa es del epidermoide.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 165',
+      stem: 'Un paciente de 67 años, fumador de 40 paquetes/año presenta tos desde hace 4 meses, con expectoración mucosa y ocasionalmente hemoptoica. Además, ha presentado pérdida de 5 kilogramos peso. Al examen físico tiene FC: 72x’, PA: 120/80 mmHg y se observa hipocratismo digital. Al examen pulmonar disminución del murmullo pulmonar en el lado derecho y crépitos en la misma zona.',
+      question: '¿Cuál es el examen diagnóstico más adecuado para comenzar el manejo?',
+      options: [
+        { letter: 'A', text: 'PET-TC' },
+        { letter: 'B', text: 'Reacción en cadena de la polimerasa (PCR) para tuberculosis y cultivo para micobacterias' },
+        { letter: 'C', text: 'Fibrobroncoscopia con lavado bronquioalveolar' },
+        { letter: 'D', text: 'TAC de tórax' },
+        { letter: 'E', text: 'Resonancia magnética de tórax' },
+      ],
+      correct: 'D',
+      explanation: 'Fumador con tos, hemoptisis, baja de peso y acropaquia: sospecha de cáncer pulmonar. Se parte por la imagen (radiografía y TAC de tórax), que localiza la lesión y orienta la biopsia. El PET-CT se usa después, para etapificar.',
+      say: {
+        stem: 'Una más del EUNACOM de julio de dos mil veinticuatro. Paciente de sesenta y siete años, fumador de cuarenta paquetes al año, con cuatro meses de tos, a veces con sangre, y cinco kilos de baja de peso. Tiene hipocratismo digital y menos murmullo en el lado derecho, con crépitos.',
+        question: '¿Cuál es el examen más adecuado para comenzar el manejo?',
+        options: 'Las opciones: PET-CT, estudio de tuberculosis, fibrobroncoscopía con lavado, TAC de tórax, o resonancia de tórax. Piénsalo.',
+        answer: 'Es la D. Es la sospecha clásica de cáncer, y el estudio parte por la imagen, que localiza la masa y te dice por dónde biopsiar. El distractor es el PET-CT: suena más moderno, pero en el algoritmo del libro se usa para etapificar un no microcítico ya confirmado, no para empezar.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Banco EUNACOM · Caso representativo',
+      stem: 'Un paciente de 59 años, tabáquico, consulta por dolor intenso de hombro derecho y cara interna del antebrazo derecho, asociado a caída del párpado superior derecho y ausencia de sudoración en la mitad derecha del rostro. La radiografía de tórax muestra una opacidad apical en el vértice pulmonar derecho.',
+      question: '¿Cómo se denomina esta constelación clínica y cuál es su sustrato anatómico?',
+      options: [
+        { letter: 'A', text: 'Síndrome de Kartagener por alteración de la motilidad ciliar' },
+        { letter: 'B', text: 'Tumor de Pancoast con Síndrome de Horner por compromiso del ganglio simpático estrellado' },
+        { letter: 'C', text: 'Síndrome de Vena Cava Superior por compresión de la aurícula derecha' },
+        { letter: 'D', text: 'Miopatía tiroidea con infiltración de la base de la lengua' },
+        { letter: 'E', text: 'Neuralgia postherpética de ramas torácicas altas' },
+      ],
+      correct: 'B',
+      explanation: 'Tumor del surco superior que invade el plexo braquial inferior (dolor en el borde cubital del brazo) y la cadena simpática cervical/ganglio estrellado (Horner ipsilateral: ptosis, miosis, anhidrosis).',
+      say: {
+        stem: 'Cerramos las preguntas con un caso representativo del banco EUNACOM. Paciente de cincuenta y nueve años, fumador, con dolor intenso del hombro derecho y de la cara interna del antebrazo, el párpado derecho caído, y sin sudor en la mitad derecha de la cara. La radiografía muestra una opacidad en el vértice derecho.',
+        question: '¿Cómo se llama este cuadro y cuál es su sustrato anatómico?',
+        options: 'Las opciones: Kartagener, Pancoast con Horner, vena cava superior, miopatía tiroidea, o neuralgia postherpética. Piénsalo.',
+        answer: 'Es la B. Vértice pulmonar, dolor en el territorio del plexo braquial inferior y un Horner del mismo lado: tumor de Pancoast que invade el ganglio estrellado. La C tienta porque también es invasión local, pero el síndrome de vena cava da edema y cianosis de la cara, no dolor del brazo ni ptosis.',
+      },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
+      cards: [
+        { title: 'La gran división', tag: 'Decide la biopsia', kind: 'key', items: [
+          { t: 'Microcítico: nunca cirugía', d: 'Cisplatino + etopósido + radioterapia',
+            say: 'Cerremos con las reglas de oro. La primera: la biopsia separa dos universos. El microcítico es sistémico desde el inicio y no se opera; se trata con cisplatino, etopósido y radioterapia.' },
+          { t: 'No microcítico I–II: lobectomía', d: 'Tras etapificar con PET-CT y RM',
+            say: 'El no microcítico en etapas uno y dos se opera con lobectomía, después de etapificar.' },
+        ] },
+        { title: 'Firmas', tag: 'Paraneoplásicos', kind: 'alert', items: [
+          { t: 'Microcítico: SIADH, Cushing, Lambert-Eaton', d: 'Central, fumador pesado',
+            say: 'Las firmas: el microcítico da SIADH, Cushing ectópico y Lambert-Eaton.' },
+          { t: 'Epidermoide: hipercalcemia', d: 'PTH suprimida, sin metástasis óseas',
+            say: 'El epidermoide, hipercalcemia con PTH suprimida.' },
+          { t: 'Adenocarcinoma: acropaquia', d: 'Periférico, también en no fumadores',
+            say: 'Y el adenocarcinoma, periférico y el más frecuente, da acropaquia.' },
+        ] },
+        { title: 'Invasión local', tag: 'Ubicación', kind: 'criteria', items: [
+          { t: 'Pancoast: dolor C8–T1 + Horner', d: 'Vértice pulmonar',
+            say: 'Pancoast es dolor del brazo con Horner, y la vena cava superior es edema en esclavina por un tumor central. Si te llevas una sola idea de hoy: primero la ubicación y la histología; de ellas salen el síndrome y la conducta. Nos vemos en la próxima clase.' },
+        ] },
+      ],
+    },
+  ],
+
+  pathway: {
+    title: 'Cáncer pulmonar: de la masa a la conducta',
+    root: N('start', 'Fumador con masa pulmonar', 'Tos, hemoptisis, baja de peso',
+      'Fumador mayor con tos, hemoptisis o baja de peso, y una masa en la imagen. La sospecha es cáncer pulmonar, y lo primero es saber qué tipo es.',
+      ['', N('q', 'Biopsia: ¿células pequeñas?', 'Con inmunohistoquímica',
+        'La biopsia responde la única pregunta que cambia todo: ¿son células pequeñas o no?',
+        ['Sí', N('alert', 'Microcítico', 'Sistémico desde el inicio',
+          'Microcítico: se considera diseminado desde el diagnóstico. Busca su firma: SIADH, Cushing ectópico o Lambert-Eaton.',
+          ['', N('do', 'Cisplatino + etopósido', '+ radioterapia torácica y holocraneal profiláctica',
+            'No se opera. Quimioterapia con cisplatino y etopósido, radioterapia torácica y radioterapia holocraneal profiláctica.')])],
+        ['No', N('q', 'Etapificación TNM', 'PET-CT + RM de cerebro',
+          'No microcítico: antes de decidir, se etapifica con PET-CT y resonancia de cerebro. ¿Está en etapa uno o dos?',
+          ['I–II', N('ok', 'Lobectomía', '+ linfadenectomía mediastínica',
+            'En etapas uno y dos, la opción curativa es la lobectomía con linfadenectomía mediastínica.')],
+          ['Avanzado', N('refer', 'Manejo oncológico', 'Derivar al especialista',
+            'Si no es resecable, se deriva al equipo oncológico. Recuerda que es patología GES.')])])]),
+  },
+};
