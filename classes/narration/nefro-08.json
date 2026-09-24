@@ -1,0 +1,192 @@
+{
+  "id": "nefro-08",
+  "title": "Nefrologia 2.4: Fluidoterapia y Terapia Diurética en la Práctica Clínica",
+  "specialty": "Nefrología",
+  "chars": 7503,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque de sodio y agua con una clase práctica: qué suero dar y qué diurético elegir. En las clases anteriores ya apareció la regla de oro, en el shock primero el volumen. Hoy vamos a entender por qué, y a elegir el diurético según la función renal. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por una pregunta: ¿dónde se queda el suero que pones? Un cristaloide isotónico, como el suero fisiológico o el Ringer lactato, tiene la misma osmolaridad que el plasma. No hay gradiente que lo haga entrar a las células, así que se queda afuera y expande el espacio intravascular."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El suero glucosado al cinco por ciento es distinto. La glucosa se metaboliza rápido y lo que queda es agua libre. Y el agua libre se reparte por todo el cuerpo: dos tercios se van dentro de las células."
+    },
+    {
+      "file": "s01_g02",
+      "text": "De cada litro de suero glucosado, solo un ocho por ciento queda dentro de los vasos. Por eso sirve para dar agua, en la hipernatremia o la hipoglicemia, pero no sirve para reanimar."
+    },
+    {
+      "file": "s01_g03",
+      "text": "De ahí sale la regla que el examen repite: frente a un shock o una deshidratación grave, primero se expande con un cristaloide isotónico, sin importar cuánto marque el sodio. Los electrolitos se corrigen después."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos los dos cristaloides. El suero fisiológico al cero coma nueve por ciento tiene ciento cincuenta y cuatro de sodio y ciento cincuenta y cuatro de cloro. Y ese cloro es su problema: es mucho más que el del plasma."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si pasas grandes volúmenes, el exceso de cloro produce una acidosis metabólica hiperclorémica con anion gap normal, y además contrae la arteriola aferente del riñón. Esta acidosis la retomamos en el bloque ácido base."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El Ringer lactato es más fisiológico: ciento treinta de sodio, ciento nueve de cloro, y trae un poco de potasio y calcio."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y trae veintiocho miliequivalentes de lactato, que el hígado convierte en bicarbonato. Por eso no acidifica."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Es la solución de elección para reanimar el shock séptico y la deshidratación severa."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y recuerda las otras dos: el suero glucosado, para dar agua libre en la hipernatremia o glucosa en la hipoglicemia."
+    },
+    {
+      "file": "s02_g06",
+      "text": "Y el suero al tres por ciento, con quinientos trece de sodio, que vimos en la hiponatremia con convulsiones."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Pasemos a los diuréticos. Los de asa, como la furosemida, bloquean el cotransportador sodio, potasio, dos cloros en el asa gruesa de Henle. Son muy potentes: pueden eliminar hasta un veinte a veinticinco por ciento del sodio filtrado."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y lo más importante: siguen funcionando aunque la filtración glomerular esté bajo treinta. Por eso son el diurético de elección para el edema y la sobrecarga de volumen."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Sus efectos adversos: hipokalemia, hipomagnesemia, alcalosis metabólica e hiperuricemia."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Las tiazidas, como la hidroclorotiazida y la clortalidona, bloquean el cotransportador sodio cloro en el túbulo contorneado distal. Son antihipertensivos de primera línea."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Pero pierden su efecto diurético cuando la filtración cae bajo treinta. Entonces, en el paciente con enfermedad renal crónica avanzada y edema, la tiazida no sirve: se usa furosemida."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y sus efectos adversos son los que ya conoces del bloque: hiponatremia, que puede ser grave, hipokalemia, hipercalcemia, hiperglicemia e hiperuricemia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Frente a un paciente con un problema de volumen, la primera pregunta es simple: ¿le falta volumen o le sobra?"
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si le falta volumen, ¿está inestable?"
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si está en shock, cristaloide isotónico, suero fisiológico o Ringer lactato, sin importar el sodio. En el shock séptico, Ringer lactato."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si está estable y el problema es un sodio alto, se repone agua libre con suero glucosado o por vía enteral, lento."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si le sobra volumen, con edema, el diurético se elige según la filtración glomerular."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Con filtración bajo treinta, furosemida: es la que sigue funcionando."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Con filtración conservada, en el hipertenso, la tiazida es de primera línea, vigilando el sodio y el potasio."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos las trampas. Shock con sodio alto: primero cristaloide isotónico. El error es el suero glucosado, que no se queda en los vasos."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Shock séptico o deshidratación severa: Ringer lactato. Pasar solo suero fisiológico en grandes volúmenes arriesga la acidosis hiperclorémica."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Edema con filtración bajo treinta: furosemida. La tiazida ya no funciona ahí."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y la hiponatremia en un usuario de diurético: la culpable clásica es la tiazida, no la furosemida."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Hombre de cuarenta y cinco años con una deshidratación severa, reanimado solo con seis litros de suero fisiológico en un día. Ahora está estable, pero tiene cloro de ciento dieciocho y bicarbonato de dieciséis, con lactato y cetonas normales."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la causa más probable de su alteración ácido base?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las alternativas: acidosis hiperclorémica por el suero, acidosis láctica, cetoacidosis, alcalosis por contracción, o acidosis urémica. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la A. Calcula el anion gap: ciento cuarenta y dos menos la suma de ciento dieciocho y dieciséis, da ocho. Es normal. Acidosis con anion gap normal y cloro alto, después de seis litros de un suero que trae ciento cincuenta y cuatro de cloro: la causa es el propio suero. El distractor tentador es la acidosis láctica, pero el lactato es normal y esa acidosis subiría el anion gap."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de setenta años, diabético e hipertenso, que toma losartán e hidroclorotiazida, con cuatro días de vómitos y diarrea. Está bradipsíquico, con presión de cien sobre cincuenta y frecuencia de ciento diez. Tiene creatinina de dos, fracción excretada de sodio de cero coma cinco, sodio de ciento treinta y potasio de dos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Qué fluido debe administrarse inicialmente?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: suero glucosado, Ringer lactato, albúmina, solución glucosalina, o bicarbonato. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B, Ringer lactato. El paciente está hipovolémico, con una injuria renal prerrenal, y la fracción excretada de sodio baja lo confirma, como vimos en la clase de injuria renal. Lo primero es el volumen con un cristaloide isotónico, y el Ringer además trae algo de potasio. El distractor es el suero glucosado, que no sirve para reanimar."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Hombre de setenta y cinco años, hipertenso y diabético sin tratamiento, con edema marcado de las piernas, hígado palpable y escasos crépitos. Tiene creatinina de dos coma dos y potasio de cinco coma tres."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Qué diurético es de elección para el manejo del edema?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: clortalidona, hidroclorotiazida, furosemida, indapamida, o espironolactona. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C, furosemida. Hay edema con la función renal disminuida, y ahí el diurético de asa sigue funcionando, mientras que las tiazidas pierden su efecto. Fíjate que tres alternativas son tiazidas o parecidas, y se descartan juntas. Y la espironolactona es el distractor peligroso: con un potasio de cinco coma tres, lo subiría todavía más."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. En el shock o la deshidratación grave, primero un cristaloide isotónico, sin importar el sodio."
+    },
+    {
+      "file": "s09_g01",
+      "text": "El suero glucosado no reanima: casi todo se va dentro de las células."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Mucho suero fisiológico da acidosis hiperclorémica; el Ringer lactato es la elección en el shock séptico."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Para el edema con filtración bajo treinta, furosemida, porque la tiazida pierde su efecto."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y la tiazida es la causa clásica de hiponatremia e hipokalemia. Si te llevas una sola idea de hoy: el suero se elige por dónde se queda, y el diurético por cuánto filtra el riñón. En el próximo bloque entramos al potasio, partiendo por la hiperkalemia grave. Nos vemos en la próxima clase."
+    }
+  ]
+}

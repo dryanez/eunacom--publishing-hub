@@ -1,0 +1,360 @@
+{
+  "id": "endo-11",
+  "title": "Endocrinología 7.11: Síndrome de Cushing: Algoritmo Diagnóstico y Diagnóstico Etiológico",
+  "specialty": "Endocrinología",
+  "chars": 17733,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Con esta clase dejamos la tiroides y entramos a las suprarrenales, partiendo por el síndrome de Cushing, un tema de frecuencia alta en el EUNACOM. Y el examen lo pregunta casi siempre igual: te muestra una paciente cushingoide y te pregunta qué examen pides. Para responder bien necesitas una sola idea: el estudio tiene dos fases, y nunca se salta la primera."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por las causas. El síndrome de Cushing es el conjunto de signos que produce una exposición prolongada a demasiado glucocorticoide. Y la causa más frecuente, por lejos, es la exógena: los corticoides que el paciente usa. Por eso, ante todo paciente cushingoide, lo primero es preguntar por corticoides orales, inyectables, cremas o inhaladores de alta potencia."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Y ojo con este paciente: si suspende el corticoide bruscamente, su eje está atrofiado y hace una insuficiencia suprarrenal. Eso lo retomamos en la próxima clase."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Entre las causas endógenas, la gran mayoría depende de la ACTH. La principal es la enfermedad de Cushing, setenta a setenta y cinco por ciento: un microadenoma de hipófisis que fabrica ACTH por su cuenta. Es cinco veces más frecuente en mujeres. Fíjate en el nombre: enfermedad de Cushing es solo la hipofisaria; síndrome de Cushing es el cuadro, venga de donde venga."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La otra causa dependiente de ACTH es la secreción ectópica, cerca de un diez por ciento: un tumor fuera de la hipófisis que fabrica ACTH, sobre todo el cáncer pulmonar de células pequeñas y los carcinoides bronquiales o tímicos."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el resto, quince a veinte por ciento, nace en la propia suprarrenal: un adenoma benigno unilateral, que es lo más frecuente de este grupo, un carcinoma corticosuprarrenal, o una hiperplasia macronodular bilateral."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Entender este esquema te resuelve la mitad del tema. En el Cushing dependiente de ACTH, el motor está arriba: un adenoma de hipófisis, o un tumor ectópico, produce ACTH en exceso, y esa ACTH estimula las dos suprarrenales."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El resultado es un exceso de cortisol, y la clínica es la misma venga de donde venga. Por eso la clínica no te dice el origen."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En el independiente de ACTH, el motor está abajo: la suprarrenal fabrica cortisol por su cuenta, sin que nadie se lo pida."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y ese cortisol frena a la hipófisis por retroalimentación negativa, así que la ACTH cae, queda suprimida. Esa es la clave: la ACTH alta o normal te lleva arriba, y la ACTH suprimida te lleva a la suprarrenal."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y hay una consecuencia que se pregunta: sin ACTH, la suprarrenal del otro lado se atrofia. Cuando saques el adenoma, esa glándula atrófica no va a poder responder. Guárdalo para el tratamiento."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Veamos la clínica. Muchos pacientes son obesos e hipertensos, así que lo que importa son los signos que discriminan. El primero, la fragilidad capilar: equimosis y hematomas con traumatismos mínimos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El segundo, las estrías violáceas o rojizas, anchas, de más de un centímetro, en el abdomen, los flancos, las mamas y la cara interna de los muslos. Se producen porque el cortisol degrada el colágeno de la dermis."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El tercero, la miopatía proximal: atrofia de cuádriceps y de la cintura pélvica. El paciente no logra pararse de una silla o subir escaleras sin apoyarse con los brazos."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y el cuarto, la plétora facial. Si ves estos signos, la sospecha sube mucho."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Del otro lado están los signos frecuentes pero poco específicos: la obesidad central con giba de búfalo y grasa supraclavicular, y la cara de luna llena."
+    },
+    {
+      "file": "s03_g05",
+      "text": "La hipertensión resistente, la intolerancia a la glucosa o diabetes, y la osteoporosis precoz con fracturas vertebrales."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Y el hirsutismo, el acné, y los trastornos psiquiátricos, como la depresión o la psicosis corticoidea. Una paciente joven con hipertensión, estrías e hirsutismo es la presentación típica del examen."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora el algoritmo, que es lo que más se pregunta. Frente a la sospecha clínica, lo primero es descartar la causa exógena: pregunta por corticoides de cualquier tipo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si no los usa, la fase uno es demostrar que realmente hay un exceso de cortisol, y se hace con al menos dos pruebas de primera línea alteradas: el test de Nugent, el cortisol libre urinario de veinticuatro horas, y el cortisol salival nocturno."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Antes de avanzar, hay que descartar los estados de pseudo-Cushing, que pueden alterar las pruebas sin que exista un tumor: la depresión severa, el alcoholismo crónico, la obesidad mórbida y la anorexia nerviosa."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Con dos pruebas concordantes alteradas, el hipercortisolismo está confirmado. Y recién ahí se pasa a la fase dos, buscar el origen."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y esta es la regla de oro. Nunca se pide ACTH, ni resonancia de silla turca, ni escáner de suprarrenales antes de demostrar el hipercortisolismo. Los incidentalomas son frecuentes, y una imagen pedida antes de tiempo solo confunde. Este es el distractor favorito del examen."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Veamos cada prueba. El test de Nugent es la supresión rápida con dexametasona: se da un miligramo por boca a las once de la noche y se mide el cortisol plasmático a las ocho de la mañana siguiente."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La dexametasona le dice a la hipófisis que ya hay corticoide de sobra. Si el eje es normal, la ACTH baja y el cortisol cae bajo uno coma ocho microgramos por decilitro. Si el cortisol queda en uno coma ocho o más, no suprimió, y eso indica un hipercortisolismo patológico."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El cortisol libre urinario en orina de veinticuatro horas mide todo el cortisol que se produjo en el día. Idealmente se hacen dos recolecciones, y un valor sobre tres veces el límite superior es fuertemente diagnóstico."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y el cortisol salival nocturno aprovecha el ritmo circadiano: en una persona sana, el cortisol está en su mínimo a medianoche. En el Cushing ese ritmo se pierde, y el cortisol de las once de la noche sale alto, en al menos dos mediciones."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Fíjate en lo que no aparece en la lista: el cortisol plasmático de las ocho de la mañana. Suele salir normal en el Cushing, así que no sirve para diagnosticarlo."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Pasemos a la fase dos. Con el hipercortisolismo confirmado, el siguiente paso obligatorio es medir la ACTH plasmática a las ocho de la mañana. Antes de cualquier imagen."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si la ACTH está baja o indetectable, bajo cinco a diez picogramos por mililitro, es un Cushing independiente de ACTH: el problema está en la suprarrenal. Ahí pides una tomografía de abdomen con protocolo suprarrenal, para caracterizar un adenoma o un carcinoma."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si la ACTH está elevada, o normal cuando debería estar frenada, sobre quince a veinte, es un Cushing dependiente de ACTH. Ochenta a ochenta y cinco por ciento de estos son hipofisarios, y el resto ectópicos."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Para separarlos se pide una resonancia de silla turca con gadolinio, que busca el microadenoma, y una prueba de supresión con dosis alta de dexametasona, ocho miligramos, o un test de CRH. La enfermedad de Cushing conserva algo de retroalimentación y suprime más de la mitad del cortisol basal; el tumor ectópico es autónomo y no suprime."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si la resonancia es negativa, o muestra una lesión dudosa de menos de seis milímetros, el estándar de oro es el cateterismo de senos petrosos inferiores con estímulo de CRH. Eso ya es terreno del especialista."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Hay dos formas que el examen dibuja distinto. La primera, el Cushing ectópico. Piensa en un fumador con cáncer pulmonar de células pequeñas: ACTH altísima, sobre cien, y un hipercortisolismo fulminante, de semanas."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Da hipokalemia severa con alcalosis metabólica. ¿Por qué? El exceso de cortisol satura la enzima que normalmente lo inactiva en el riñón, la once beta hidroxiesteroide deshidrogenasa tipo dos, y el cortisol termina activando el receptor de mineralocorticoides."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y da hiperpigmentación, porque tanta ACTH estimula los melanocitos. Como es tan rápido, muchas veces no alcanza a desarrollar la obesidad típica. Fumador flaco, hiperpigmentado, con potasio bajo e hipertensión: Cushing ectópico."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La segunda es el carcinoma corticosuprarrenal. En la tomografía es una masa grande, de más de cuatro a seis centímetros, heterogénea e invasora, a diferencia del adenoma, que es un nódulo de menos de cuatro centímetros y rico en lípidos."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y como fabrica también andrógenos, la DHEA sulfato está muy elevada y la paciente se viriliza. En el adenoma, en cambio, la DHEA sulfato está baja. Se trata con cirugía oncológica abierta más mitotano."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos al tratamiento, que depende del origen. En la enfermedad de Cushing, resección transesfenoidal del adenoma por un neurocirujano experto, con un éxito inicial de ochenta a noventa por ciento. Si persiste o recidiva, radiocirugía, inhibidores suprarrenales o suprarrenalectomía bilateral."
+    },
+    {
+      "file": "s08_g01",
+      "text": "En el adenoma suprarrenal, suprarrenalectomía laparoscópica unilateral, después de estabilizar al paciente. Y en el ectópico, resecar el tumor primario cuando se puede."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y aquí vuelve la idea del esquema. Tras sacar el adenoma, la suprarrenal del otro lado está atrófica, porque llevaba años sin ACTH. El paciente pasa de golpe de tener demasiado cortisol a no tener nada, y hace una insuficiencia suprarrenal aguda. Por eso se deja hidrocortisona de reemplazo por seis a doce meses, hasta que el eje se recupere."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Los fármacos que inhiben la síntesis suprarrenal de cortisol, como el ketoconazol, la metirapona o el osilodrostat, se usan para controlar el hipercortisolismo grave antes de la cirugía, o en el ectópico que no se puede resecar."
+    },
+    {
+      "file": "s09_g00",
+      "text": "El hipercortisolismo no tratado tiene complicaciones graves. El paciente es hipercoagulable, con más factor ocho y von Willebrand, así que tiene riesgo de trombosis y embolía pulmonar: se indica tromboprofilaxis con enoxaparina antes y después de operar."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Está inmunosuprimido, con riesgo de sepsis bacteriana o micótica. En el hipercortisolismo severo se da profilaxis de Pneumocystis con cotrimoxazol."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Puede hacer una hipokalemia severa con hipertensión, que se maneja con espironolactona y aporte de cloruro de potasio."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y el hueso sufre: el cortisol inhibe a los osteoblastos, y aparecen fracturas vertebrales por compresión, que se tratan con calcio, vitamina D y bifosfonatos una vez corregido el cuadro."
+    },
+    {
+      "file": "s09_g04",
+      "text": "El síndrome de Cushing no tiene garantía GES directa. Tu rol es sospecharlo, pedir las pruebas de primera línea y derivar con prioridad a endocrinología, que coordina con neurocirugía o cirugía."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Juntemos todo en un árbol de decisión, desde la paciente cushingoide hasta el tratamiento. Parte con un paciente cushingoide: estrías violáceas anchas, miopatía proximal, equimosis fáciles."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Lo primero es preguntar por corticoides de cualquier tipo, porque la causa exógena es la más frecuente."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si los usa, es un Cushing exógeno, y el corticoide no se suspende bruscamente, porque el eje está atrófico."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si no, pide pruebas de primera línea y descarta un pseudo-Cushing. Hacen falta dos alteradas para confirmar."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Con el hipercortisolismo confirmado, mide la ACTH de la mañana."
+    },
+    {
+      "file": "s10_g05",
+      "text": "ACTH suprimida: tomografía suprarrenal. El adenoma va a suprarrenalectomía laparoscópica, con hidrocortisona después."
+    },
+    {
+      "file": "s10_g06",
+      "text": "ACTH alta o normal: resonancia de silla turca y dexametasona en dosis alta. Si suprime, es hipofisario, y va a cirugía transesfenoidal."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Si no suprime o la resonancia no aclara, cateterismo de senos petrosos, y búsqueda del tumor ectópico en tórax y abdomen."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Repasemos lado a lado. La ACTH: normal alta o elevada en la enfermedad de Cushing, suprimida en el adenoma suprarrenal, y muy elevada, sobre cien, en el ectópico."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El Nugent no suprime en ninguno de los tres. Fíjate que por eso sirve para confirmar el hipercortisolismo, pero no para saber de dónde viene."
+    },
+    {
+      "file": "s11_g02",
+      "text": "La dexametasona en dosis alta, en cambio, solo suprime en la enfermedad de Cushing, porque la hipófisis conserva algo de retroalimentación."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La imagen va donde apunta la ACTH: resonancia de silla turca, tomografía suprarrenal, o tomografía de tórax y abdomen buscando el tumor ectópico."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y el tratamiento sigue el mismo orden: cirugía transesfenoidal, suprarrenalectomía laparoscópica, o resección del tumor primario."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos a un caso. Mujer de cuarenta y un años, sin corticoides, con obesidad central, estrías violáceas de uno coma cinco centímetros y miopatía proximal. El Nugent deja un cortisol de doce, y el cortisol libre urinario sale cinco veces sobre el límite. La ACTH matinal está indetectable."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el examen más adecuado para continuar el estudio?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las alternativas: resonancia de silla turca, tomografía de abdomen con protocolo suprarrenal, cateterismo de senos petrosos, test de estimulación con ACTH, o tomografía de tórax. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, la tomografía suprarrenal. La fase uno ya está: dos pruebas alteradas. La fase dos también: ACTH indetectable significa que la suprarrenal fabrica cortisol por su cuenta y frenó a la hipófisis. El distractor tentador es la resonancia de silla turca, porque la enfermedad de Cushing es la causa más frecuente, pero con la ACTH suprimida la hipófisis no es el problema. Y el test de estimulación con ACTH es para la insuficiencia suprarrenal, no para el Cushing."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Ahora, preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de trece años con cefalea e hirsutismo. Tiene la presión en percentil noventa y nueve para su edad, obesidad, acné inflamatorio y estrías abdominales."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: diabetes tipo dos, ovario poliquístico, síndrome de Cushing, hipotiroidismo, o hiperprolactinemia. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la C, síndrome de Cushing. Suma todo: obesidad, hipertensión marcada, estrías, hirsutismo y acné. El distractor tentador es el ovario poliquístico, porque explica el hirsutismo y el acné en una adolescente, pero no te explica una presión en percentil noventa y nueve junto con estrías. El Cushing lo explica todo."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La segunda es del EUNACOM de julio de dos mil dieciséis. Mujer de treinta y cuatro años con amenorrea de seis meses, astenia, y equimosis con traumatismos mínimos. Tiene presión de ciento cincuenta con noventa, acné, cuello ancho, obesidad centrípeta y estrías violáceas. El test de embarazo es negativo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la prueba a realizar en primer lugar?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: cortisol plasmático basal, FSH y estradiol, cortisol libre urinario, prueba de estimulación con ACTH, o resonancia de silla turca. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C, el cortisol libre urinario. Equimosis fáciles y estrías violáceas son signos específicos de Cushing, y el estudio parte por la fase uno. El distractor tentador es el cortisol plasmático basal, que suena lógico, pero suele salir normal en el Cushing. La estimulación con ACTH es para la insuficiencia suprarrenal, y la resonancia se salta la fase uno."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La tercera es la más reciente, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintinueve años que sube diez kilos en un año pese a la dieta, con reglas cada vez más escasas. Tiene obesidad, estrías rojizas en abdomen y muslos, y presión de ciento cincuenta con noventa y seis."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Qué examen es más adecuado para iniciar el estudio?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: cortisol plasmático a las siete y a las veintitrés horas, cortisol plasmático post dexametasona, ACTH plasmática, resonancia de abdomen, o resonancia de hipófisis. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B, cortisol post dexametasona, que es el test de Nugent. Aquí no estaba el cortisol libre urinario, pero cualquiera de las tres pruebas de primera línea sirve para empezar. El distractor tentador es la ACTH, pero la ACTH es el primer paso de la fase dos, no de la fase uno. Y las resonancias se saltan todo el algoritmo."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Ahora dos casos representativos del banco, sobre lo que el banco real todavía no pregunta. El primero: hombre de sesenta y dos años, fumador pesado, con astenia, debilidad profunda y ocho kilos menos en un mes. Está hiperpigmentado, hipertenso, sin obesidad. Tiene potasio de dos coma uno, bicarbonato de treinta y seis, y una ACTH de doscientos ochenta que no suprime con dexametasona en dosis alta."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: enfermedad de Cushing, carcinoma suprarrenal, Cushing ectópico por cáncer pulmonar de células pequeñas, síndrome de Conn, o insuficiencia suprarrenal por metástasis. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la C, Cushing ectópico. Fumador flaco, hiperpigmentado, con hipokalemia y alcalosis, ACTH altísima que no suprime. El distractor tentador es la enfermedad de Cushing, porque la ACTH está alta, pero la hipófisis sí suprimiría con dosis alta. El carcinoma suprarrenal tendría la ACTH suprimida, y el Conn no explica la ACTH alta ni la hiperpigmentación."
+    },
+    {
+      "file": "s17_g00",
+      "text": "El segundo: paciente de cuarenta y un años con Cushing y ACTH indetectable. La tomografía muestra un adenoma suprarrenal derecho de tres coma dos centímetros, y la suprarrenal izquierda se ve delgada y atrófica. Se le hace una suprarrenalectomía laparoscópica derecha sin problemas."
+    },
+    {
+      "file": "s17_g01",
+      "text": "En el postoperatorio inmediato, ¿qué medida es obligatoria para prevenir una complicación mortal?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: ketoconazol, hidrocortisona de reemplazo, espironolactona, radioyodo, u observar sin fármacos. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la B, hidrocortisona. La suprarrenal izquierda lleva años sin ACTH y está atrófica; al sacar el adenoma, la paciente queda sin cortisol y puede hacer una crisis suprarrenal. El distractor tentador es observar, pensando que la otra glándula va a responder de inmediato, pero tarda seis a doce meses en recuperarse."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. La causa más frecuente de Cushing son los corticoides que el paciente usa: pregunta siempre."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Para confirmar, dos pruebas de primera línea alteradas: Nugent, cortisol libre urinario o cortisol salival nocturno. Nunca el cortisol basal, y nunca ACTH ni imágenes antes."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Confirmado el exceso, la ACTH decide: suprimida, tomografía suprarrenal; alta o normal, resonancia de silla turca y dexametasona en dosis alta."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Y tras sacar un adenoma suprarrenal, hidrocortisona de reemplazo, porque la otra glándula está atrófica. Si te llevas una sola idea de hoy: primero demuestra el exceso de cortisol, y solo después busca de dónde viene. En la próxima clase vemos el problema al revés: la insuficiencia suprarrenal. Nos vemos en la próxima clase."
+    }
+  ]
+}

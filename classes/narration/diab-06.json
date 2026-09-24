@@ -1,0 +1,332 @@
+{
+  "id": "diab-06",
+  "title": "Diabetes 2.1: Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 14894,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos el tratamiento escalonado de la diabetes tipo dos y su garantía GES, uno de los temas con más presencia en todo el EUNACOM. La buena noticia es que casi todas las preguntas se responden con una escalera de pocos peldaños: con qué se parte, cuándo se sube al siguiente escalón, y cuándo hay que saltarse la escalera e ir directo a la insulina. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Todo paciente con diabetes tipo dos recién diagnosticada parte con el mismo pilar: la modificación intensiva del estilo de vida. Un plan de alimentación mediterráneo o bajo en carbohidratos simples."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Una reducción del cinco a diez por ciento del peso corporal, y los ciento cincuenta minutos semanales de actividad física aeróbica que vimos en la clase anterior."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Pero aquí está el cambio respecto del pasado, y es una trampa clásica. Antes se hacían meses de prueba solo con dieta. Hoy, tanto la Asociación Americana de Diabetes como el MINSAL indican iniciar la metformina simultáneamente, desde el momento del diagnóstico."
+    },
+    {
+      "file": "s01_g03",
+      "text": "¿Por qué tanto apuro? Porque la glucosa alta es tóxica para las propias células beta del páncreas. Cada mes de hiperglicemia las daña un poco más. Tratar precoz revierte esa glucotoxicidad. Entonces, si una alternativa dice solo dieta y control en tres meses, desconfía."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La metformina es la primera línea obligatoria, y tiene cuatro razones. Es barata, no sube de peso, y no produce hipoglicemia cuando se usa sola."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y la cuarta: redujo los eventos cardiovasculares en el estudio UKPDS. En un paciente cuyo riesgo principal es el corazón, eso pesa."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Se parte con quinientos u ochocientos cincuenta miligramos una vez al día, con la comida principal, el almuerzo o la cena."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y se sube gradualmente cada una a dos semanas, hasta la dosis óptima de mil setecientos a dos mil quinientos cincuenta miligramos al día. En la práctica, ochocientos cincuenta cada doce horas, o cada ocho horas."
+    },
+    {
+      "file": "s02_g04",
+      "text": "¿Por qué subir lento? Por los efectos digestivos: diarrea, náuseas, meteorismo y sabor metálico, en un veinte a treinta por ciento. Dependen de la dosis, y se minimizan titulando despacio y tomando el comprimido siempre con comida."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y a largo plazo, puede producir déficit de vitamina B doce por malabsorción en el íleon. Sus contraindicaciones renales las vemos en detalle en la próxima clase."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, cómo se sube de escalón. El paciente está con estilo de vida y metformina a dosis plena."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El control se hace estrictamente a los tres meses de iniciado o ajustado el tratamiento, con la hemoglobina glicosilada. ¿Por qué tres meses? Porque la hemoglobina glicosilada refleja el promedio de glicemia de los últimos tres meses. Antes no alcanza a mostrar el efecto."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si el paciente está en su meta, que en general es bajo siete, se mantiene el tratamiento. No se agregan fármacos a un paciente que está bien controlado. Esa pregunta existe."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si con dosis plena de metformina sigue sobre la meta, se escala de inmediato a biterapia. Y fíjate: se agrega un segundo fármaco, la metformina no se suspende."
+    },
+    {
+      "file": "s03_g04",
+      "text": "En la red pública, en la atención primaria, el segundo fármaco disponible es una sulfonilurea, la glibenclamida, de dos coma cinco a cinco miligramos al día antes del desayuno. Se reserva para pacientes sin insuficiencia renal grave ni fragilidad extrema, por el riesgo de hipoglicemia."
+    },
+    {
+      "file": "s03_g05",
+      "text": "La trampa es la inercia: reforzar la dieta y controlar en otros tres meses, o en un año. Si no está en meta con dosis plena, se sube el escalón en ese mismo control."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pero el segundo fármaco no es igual para todos, y el examen lo pregunta cada vez más. En el paciente de riesgo estándar, sin falla de ningún órgano, sirve una sulfonilurea como la glibenclamida, o un inhibidor de DPP cuatro, como la sitagliptina."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si el paciente tiene insuficiencia cardíaca o enfermedad renal crónica, el segundo fármaco de elección es un inhibidor de SGLT dos, la empagliflozina o la dapagliflozina."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y en la insuficiencia cardíaca, ojo con la pioglitazona y las otras tiazolidinedionas: retienen líquido y la descompensan."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si lo que predomina es la enfermedad cardiovascular aterosclerótica, un infarto o un accidente cerebrovascular previo, se prefiere un agonista de GLP uno, como la liraglutida o la semaglutida, o también un inhibidor de SGLT dos."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Fíjate que son dos preguntas distintas. Si te preguntan qué se agrega en la canasta GES de atención primaria, es glibenclamida. Si te describen un paciente con insuficiencia cardíaca o un infarto previo, te están preguntando por el fármaco que protege el órgano. Estos fármacos los vemos a fondo en la clase de nuevas terapias."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora, lo que más se pregunta del tema: cuándo no se sigue la escalera y se va directo a la insulina. La primera indicación es un debut con hemoglobina glicosilada de nueve a diez o más, o una glicemia de ayuno sobre doscientos cincuenta a trescientos. Con esas cifras, un comprimido no alcanza."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La segunda son los síntomas catabólicos: baja de peso involuntaria y rápida, astenia extrema, deshidratación. Piensa en lo que significan: el cuerpo no puede usar la glucosa y está quemando sus propias reservas. Le falta insulina."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La tercera, la cetonuria, o la sospecha de una descompensación cetoacidótica. Es el mismo mensaje, más grave: falta insulina."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La cuarta es la falla de la biterapia oral a dosis máximas, después de tres a seis meses de seguimiento. Es decir, el paciente ya subió los dos escalones y no llegó."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y la quinta, una enfermedad intercurrente aguda grave, una cirugía mayor, o una contraindicación para los fármacos orales."
+    },
+    {
+      "file": "s05_g05",
+      "text": "En cualquiera de estos casos, se inicia insulina de inmediato: insulina NPH nocturna, o un esquema intensificado. Y la metformina se mantiene, porque sigue bajando la resistencia a la insulina."
+    },
+    {
+      "file": "s05_g06",
+      "text": "El error que el examen castiga es la inercia médica: agregar otro comprimido, o subir la dosis, a un paciente que ya necesita insulina. La insulina no es el último recurso ni un castigo: es el tratamiento correcto cuando falta insulina."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Veamos los dos últimos escalones. El tercero es la insulinización basal: se agrega insulina NPH nocturna, a cero coma dos unidades por kilo, a las diez de la noche."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Y se ajusta según la glicemia de ayuno: se suben dos unidades cada tres a cuatro días, hasta que el ayuno quede entre ochenta y ciento treinta. ¿Por qué se ajusta con la glicemia de la mañana? Porque la NPH de la noche es la que controla el ayuno."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si con la NPH por sobre cero coma cinco unidades por kilo sigue fuera de meta, o aparecen hipoglicemias, se pasa al cuarto escalón: NPH dos veces al día más insulina cristalina antes de las comidas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La dosis total va de cero coma cinco a una unidad por kilo al día, repartida, y este paciente ya se maneja con el equipo de diabetología en el nivel secundario. Los esquemas en detalle los vemos en el bloque de insulinoterapia."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Cerremos el contenido con la garantía GES, que cubre a beneficiarios de Fonasa e Isapre con diabetes tipo dos. Tiene dos plazos que se preguntan. El primero: desde la sospecha clínica, la confirmación diagnóstica tiene que estar dentro de cuarenta y cinco días."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Y el segundo, que es el más preguntado: una vez confirmado el diagnóstico, el tratamiento tiene que iniciarse dentro de veinticuatro horas. Ojo con confundirlos: cuarenta y cinco días para confirmar, veinticuatro horas para tratar. Y es coherente con lo que vimos: la metformina parte desde el diagnóstico."
+    },
+    {
+      "file": "s07_g02",
+      "text": "¿Qué cubre la canasta? En orales, la metformina y la glibenclamida. Por eso en atención primaria la biterapia clásica es metformina con glibenclamida."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Además, insulina NPH e insulina cristalina, y para los pacientes que usan insulina, jeringas, lancetas y glucómetro."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora pongamos la escalera completa en un solo árbol de decisión. Paciente con diabetes tipo dos recién diagnosticada. Todos parten con cambio de estilo de vida. La primera pregunta decide si se sube la escalera paso a paso o se salta directo a la insulina."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Tiene hemoglobina glicosilada de nueve a diez o más, glicemia sobre doscientos cincuenta a trescientos, síntomas catabólicos o cetonuria?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si tiene cualquiera de ellos, insulina NPH nocturna de inmediato, manteniendo la metformina. Sin inercia."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si no los tiene, metformina desde el diagnóstico, titulada lento hasta la dosis plena."
+    },
+    {
+      "file": "s08_g04",
+      "text": "A los tres meses se controla la hemoglobina glicosilada."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si está en meta, se mantiene el tratamiento."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si está sobre siete, biterapia: en atención primaria, glibenclamida; con insuficiencia cardíaca o enfermedad renal, inhibidor de SGLT dos; con enfermedad aterosclerótica, agonista de GLP uno."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si la biterapia a dosis máximas falla, insulina NPH nocturna. Y si con eso no se logra la meta, esquema intensificado en el nivel secundario."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Diabetes tipo dos recién diagnosticada y sin síntomas: estilo de vida y metformina desde el inicio. El error es dejar meses de prueba solo con dieta."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Paciente que está en meta: se mantiene el tratamiento. No se agregan fármacos a quien ya está bien."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Sobre siete a los tres meses con dosis plena: se mantiene la metformina y se agrega un segundo fármaco. El error es reemplazar la metformina, o esperar otros tres meses."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Con insuficiencia cardíaca o enfermedad renal crónica, el segundo fármaco es un inhibidor de SGLT dos. Y la pioglitazona en la insuficiencia cardíaca es un error."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Hemoglobina glicosilada de nueve a diez o más, baja de peso o cetonuria: insulina, manteniendo la metformina. Agregar otro comprimido es la inercia que se castiga."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Falla de la biterapia a dosis máximas: insulina basal. Subir un poco más los orales rara vez alcanza."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y los plazos GES: cuarenta y cinco días para confirmar, veinticuatro horas para iniciar tratamiento."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Hombre de cincuenta y siete años, con diabetes tipo dos diagnosticada hace cuatro meses, con estilo de vida y metformina ochocientos cincuenta cada doce horas. Llega con hemoglobina glicosilada de ocho coma tres. No ha bajado de peso, no tiene poliuria ni antecedentes cardiovasculares, y su creatinina es normal."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta indicada según la guía GES?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: suspender la metformina e iniciar insulina, mantener la metformina y agregar glibenclamida, reforzar la dieta y controlar en tres meses, reemplazar la metformina por glibenclamida, u hospitalizar para insulina endovenosa. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Pasaron más de tres meses con dosis plena y está sobre siete: se sube un escalón. Como no tiene síntomas, baja de peso ni cetonas, no hay criterios de insulina. Se mantiene la metformina y, en la canasta GES, se agrega glibenclamida. La D es la trampa: la metformina nunca se reemplaza, se suma. Y la C es inercia."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecinueve. Paciente de cuarenta y cinco años con glicemias de ayuno de ciento veintiocho y ciento treinta y seis, y hemoglobina glicosilada de siete coma dos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el tratamiento de elección para iniciar el manejo?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: glibenclamida, metformina, pioglitazona, sitagliptina o repaglinida. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, metformina. Dos glicemias de ayuno sobre ciento veintiséis confirman la diabetes, y por la edad lo más probable es que sea tipo dos. No tiene ningún criterio de insulina, así que se parte por el primer escalón: metformina, junto con el estilo de vida. La glibenclamida es el distractor, pero es un segundo fármaco, no el primero."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Del EUNACOM de diciembre de dos mil dieciocho. Hombre de treinta y tres años, obeso, con polidipsia y seis kilos de baja de peso en dos meses. Glicemia de ayuno de doscientos cuarenta y cinco y hemoglobina glicosilada de nueve coma dos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el tratamiento inicial más adecuado?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: metformina, sitagliptina, insulina, liraglutida o glibenclamida. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, insulina. Fíjate que tiene dos criterios de insulinización temprana a la vez: síntomas catabólicos, con baja de peso y polidipsia, y una hemoglobina glicosilada sobre nueve. Ese paciente no tiene insulina suficiente. La metformina es el distractor, porque es obeso y parece un tipo dos clásico, pero con catabolismo se parte con insulina."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Del EUNACOM de enero de dos mil veintitrés, una pregunta muy corta. Diabético con metformina y hemoglobina glicosilada sobre nueve."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: agregar glibenclamida, agregar sitagliptina, agregar liraglutida, subir la metformina al máximo, o insulina NPH. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la E, insulina NPH. Aquí no hay síntomas en el enunciado: la sola cifra, sobre nueve, basta para insulinizar. Las otras tres opciones que agregan un fármaco serían correctas con una hemoglobina glicosilada de ocho, pero con más de nueve no alcanzan a llevar al paciente a la meta."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Del EUNACOM de julio de dos mil trece. Paciente de cincuenta y cinco años con metformina, dos gramos al día, y glibenclamida, quince miligramos al día. Glicemia de ayuno de ciento ochenta y hemoglobina glicosilada de ocho coma ocho. Sin síntomas."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: subir la glibenclamida, subir la metformina, iniciar insulina, cambiar la metformina por rosiglitazona, o cambiar la glibenclamida por sitagliptina. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C. Este paciente ya subió los dos escalones y está en biterapia con dosis altas. Esa es la cuarta indicación de insulina: la falla de la biterapia oral. Aún quedaba un poco de margen para subir los comprimidos, y por eso las alternativas A y B tientan, pero con ocho coma ocho no alcanzan a llegar a la meta. Y el reemplazo por sitagliptina no suma potencia."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Y la última, del EUNACOM de julio de dos mil diecisiete. Paciente de cincuenta y nueve años con metformina y glibenclamida. Creatinina normal y hemoglobina glicosilada de seis coma nueve."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: suspender la glibenclamida, subirla, suspender la metformina, subirla, o mantener el tratamiento sin cambios. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la E. Está bajo siete, en meta, y es un adulto de cincuenta y nueve años con función renal normal: no hay nada que cambiar. La escalera también sirve para saber cuándo no subir. Guarda este caso, porque en la próxima clase vas a ver el mismo enunciado con un paciente de ochenta y cinco años, y la respuesta cambia."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. La metformina parte desde el diagnóstico, junto con el estilo de vida, sin meses de prueba de dieta."
+    },
+    {
+      "file": "s16_g01",
+      "text": "El control es a los tres meses. Si sigue sobre siete con dosis plena, se mantiene la metformina y se agrega un segundo fármaco: en la canasta GES, glibenclamida; con insuficiencia cardíaca o enfermedad renal, un inhibidor de SGLT dos; con enfermedad aterosclerótica, un agonista de GLP uno."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Hemoglobina glicosilada de nueve a diez o más, síntomas catabólicos o cetonas: insulina de inmediato, manteniendo la metformina."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Y si falla la biterapia a dosis máximas, también insulina: NPH nocturna, ajustada con la glicemia de ayuno."
+    },
+    {
+      "file": "s16_g04",
+      "text": "En el GES, cuarenta y cinco días para confirmar y veinticuatro horas para tratar. Si te llevas una sola idea de hoy: la metformina nunca se quita, se le suma; y cuando falta insulina, se da insulina sin esperar. Nos vemos en la próxima clase."
+    }
+  ]
+}

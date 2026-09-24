@@ -1,0 +1,204 @@
+{
+  "id": "resp-22",
+  "title": "Neumología 5.2: Síndrome de Distrés Respiratorio Agudo (SDRA): Criterios de Berlín",
+  "specialty": "Neumología",
+  "chars": 9781,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior dijimos que la hipoxemia que no corrige con oxígeno al cien por ciento es shunt, y que el ejemplo típico era el distrés respiratorio. Hoy vemos ese cuadro: el síndrome de distrés respiratorio agudo. El examen pregunta dos cosas: los cuatro criterios de Berlín con la clasificación por PaFi, y cómo se ventila a este paciente para no hacerle más daño."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. El distrés es una respuesta inflamatoria masiva del pulmón, que puede partir por dos caminos. El directo, cuando la agresión llega por la vía aérea: una neumonía grave, una aspiración masiva de contenido gástrico, una contusión pulmonar bilateral o la inhalación de humo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Y el indirecto, cuando la inflamación llega por la sangre. Aquí está la causa más común en la unidad de intensivo: la sepsis y el shock séptico. También el politraumatismo con transfusiones masivas, la pancreatitis aguda necrotizante y los grandes quemados."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Sea cual sea la puerta de entrada, el resultado es el mismo: daño alveolar difuso. La barrera entre el alvéolo y el capilar se rompe, y su permeabilidad aumenta de forma extrema."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Por esa barrera rota sale líquido rico en proteínas, que inunda los alvéolos. Fíjate en la diferencia con el edema cardiogénico: allá el líquido sale porque la presión es alta; aquí sale porque la pared está rota. Esa diferencia es uno de los criterios de Berlín."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y con los alvéolos inundados, la sangre pasa sin oxigenarse: es el shunt de la clase anterior, la hipoxemia que no corrige con oxígeno. En la radiografía, ese líquido se ve como opacidades bilaterales difusas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Para diagnosticar distrés se tienen que cumplir los cuatro criterios de Berlín a la vez. El primero es el tiempo: comienzo agudo dentro de una semana desde el insulto conocido, o desde que empeoran los síntomas respiratorios."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo es la imagen: opacidades bilaterales en la radiografía o en el TAC, que no se expliquen del todo por derrames, atelectasias lobares o nódulos."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El tercero es el origen: la insuficiencia respiratoria no se explica completamente por falla cardíaca ni por sobrecarga de fluidos. Para eso se necesita una evaluación objetiva, habitualmente un ecocardiograma."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el cuarto es la oxigenación: una relación PaFi de trescientos o menos, medida con una presión positiva al final de la espiración, o PEEP, de al menos cinco centímetros de agua. Ese detalle de la PEEP se pregunta."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La diferencia que más se pregunta es con el edema pulmonar cardiogénico. Los dos tienen hipoxemia y opacidades bilaterales, y en la radiografía se pueden ver iguales. Lo que los separa es el corazón, y por eso el ecocardiograma es clave."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si el ecocardiograma muestra una falla cardíaca que explica el cuadro, es un edema hidrostático, y se trata como tal: diurético de asa, como furosemida, vasodilatador, como nitroglicerina, y presión positiva no invasiva con CPAP."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si el corazón es normal y se cumplen los otros criterios, es distrés respiratorio agudo. Y el paso siguiente es clasificarlo por la PaFi, siempre medida con PEEP de cinco o más."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Los cortes son fáciles de recordar porque van de cien en cien. Leve, con PaFi sobre doscientos y hasta trescientos, con una mortalidad cercana al veintisiete por ciento. Moderado, sobre cien y hasta doscientos, con alrededor de treinta y dos por ciento."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y severo, con PaFi de cien o menos, con una mortalidad cercana al cuarenta y cinco por ciento. Casi la mitad de estos pacientes muere, y eso explica por qué el manejo ventilatorio importa tanto."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El distrés no tiene un fármaco que lo cure: se trata la causa y se ventila sin dañar. El primer pilar es el volumen corriente bajo, de seis mililitros por kilo de peso corporal predicho, o ideal. No del peso real. Esa es la trampa: un paciente obeso no tiene pulmones más grandes."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El segundo pilar es limitar la presión meseta, o plateau, a treinta centímetros de agua o menos. Es la presión que realmente soportan los alvéolos, y mantenerla bajo ese límite previene el volutrauma y el barotrauma."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En el distrés moderado a severo con PaFi bajo ciento cincuenta, se suma la posición prono precoz, al menos dieciséis horas seguidas al día. El estudio PROSEVA mostró que reduce claramente la mortalidad."
+    },
+    {
+      "file": "s04_g03",
+      "text": "En el distrés severo, el libro agrega bloqueo neuromuscular precoz con cisatracurio en las primeras cuarenta y ocho horas, para mejorar la sincronía con el ventilador."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y en el moderado, una PEEP optimizada para mantener abiertos los alvéolos, y evitar el balance hídrico positivo, porque el pulmón con la barrera rota se inunda con facilidad."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Juntemos el diagnóstico y el manejo en un solo árbol. Paciente crítico, con un insulto conocido como sepsis, neumonía, pancreatitis o politrauma, que desarrolla hipoxemia aguda."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Primero, el tiempo y la imagen: ¿empezó dentro de una semana, y la radiografía muestra opacidades bilaterales?"
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si no, no es distrés: busca otra causa, como un derrame, una atelectasia lobar o un nódulo."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si se cumplen, el tercer criterio: ¿la falla cardíaca o la sobrecarga de volumen explican el cuadro? Lo responde el ecocardiograma."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si el corazón lo explica, es edema cardiogénico: diurético, vasodilatador y CPAP."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si no, es distrés. Se mide la PaFi con PEEP de al menos cinco para clasificarlo, y todos se ventilan con volumen de seis mililitros por kilo de peso ideal y plateau de treinta o menos."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Con PaFi sobre ciento cincuenta: ventilación protectora, PEEP optimizada y evitar el balance hídrico positivo."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Con PaFi bajo ciento cincuenta: ventilación protectora más prono precoz, al menos dieciséis horas al día, y bloqueo neuromuscular en el severo."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. La PaFi de Berlín se mide con PEEP o CPAP de al menos cinco. Clasificar con una PaFi tomada sin presión positiva es el primer error."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si hay opacidades bilaterales, pero el ecocardiograma muestra una falla cardíaca que lo explica, no es distrés: es edema cardiogénico, y se trata con diurético."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El volumen corriente se calcula con el peso ideal. Calcularlo con el peso real, o usar diez a doce mililitros por kilo, es la alternativa incorrecta clásica."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El parámetro de seguridad es la presión plateau. La presión peak incluye la resistencia de la vía aérea, y no refleja lo que sufre el alvéolo."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y con PaFi bajo ciento cincuenta, prono al menos dieciséis horas al día. Dejar al paciente en supino estricto es no usar una de las pocas medidas que reduce la mortalidad."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Mujer de treinta y ocho años, al cuarto día de una pancreatitis necrotizante, con disnea intensa, frecuencia respiratoria de treinta y cuatro y cianosis. La radiografía muestra infiltrados bilaterales difusos. Intubada, con fracción inspirada de ochenta por ciento y PEEP de diez, tiene una presión de oxígeno de setenta y dos. El ecocardiograma es normal."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es el diagnóstico y la estrategia ventilatoria más adecuada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: distrés moderado con diez mililitros por kilo de peso real, edema cardiogénico con furosemida, distrés severo con ventilación protectora y prono, distrés leve con ventilación no invasiva, o neumonía aspirativa en supino estricto. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la C. Revisa los cuatro criterios: pancreatitis hace cuatro días, infiltrados bilaterales, corazón normal, y la PaFi: setenta y dos dividido por cero coma ocho da noventa, con PEEP sobre cinco. Eso es distrés severo. La A es la trampa: subir el volumen corriente y calcularlo con el peso real daña más el pulmón. Lo correcto es ventilación protectora y, con PaFi bajo ciento cincuenta, prono."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta del banco EUNACOM. Paciente de cincuenta años en la unidad de intensivo por shock séptico de una peritonitis apendicular. Al tercer día de ventilación mecánica empeora su oxigenación, y aparecen opacidades bilaterales difusas que no tenía al ingreso. Con fracción inspirada de setenta por ciento y PEEP de ocho, la presión de oxígeno es sesenta y tres: una PaFi de noventa. El ecocardiograma descarta falla cardíaca."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico según Berlín, y qué estrategia ventilatoria reduce la mortalidad?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: distrés leve con volúmenes altos, distrés severo con ventilación protectora y prono precoz, edema cardiogénico con digoxina, atelectasia con broncoscopía, o distrés moderado en supino estricto. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. Tiene la causa más común, la sepsis, menos de una semana, opacidades bilaterales y corazón normal. La PaFi de noventa con PEEP de ocho es severo. La E es la tentadora, porque mezcla un volumen casi correcto, pero clasifica mal y deja al paciente en supino, justo cuando el prono es lo que salva vidas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Una más del banco. ¿Cuál es el parámetro del ventilador que debe mantenerse bajo treinta centímetros de agua para prevenir el barotrauma en un paciente con distrés?"
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es ese parámetro?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: presión peak, presión plateau, PEEP, presión de oclusión de la arteria pulmonar, o presión venosa central. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B, la presión plateau. Se mide con una pausa al final de la inspiración, cuando no hay flujo, y por eso refleja lo que soporta el alvéolo. La peak es el distractor tentador, porque también es una presión del ventilador, pero incluye la resistencia de la vía aérea: puede subir por un tubo acodado sin que el alvéolo esté sobredistendido."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Berlín son cuatro criterios juntos: inicio en una semana o menos, opacidades bilaterales, y un cuadro que el corazón ni la sobrecarga de volumen explican."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Y la PaFi, medida con PEEP de cinco o más: trescientos, doscientos y cien separan leve, moderado y severo."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La ventilación protectora es seis mililitros por kilo de peso ideal, con plateau de treinta o menos."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y con PaFi bajo ciento cincuenta, prono al menos dieciséis horas al día. Si te llevas una sola idea de hoy: en el distrés, la clasificación la da la PaFi con PEEP, y la vida la salva ventilar poco y dar vuelta al paciente. Nos vemos en la próxima clase."
+    }
+  ]
+}

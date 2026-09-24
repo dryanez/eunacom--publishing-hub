@@ -1,0 +1,216 @@
+{
+  "id": "nefro-03",
+  "title": "Nefrologia 1.3: Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+  "specialty": "Nefrología",
+  "chars": 9159,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En las dos clases anteriores dijimos varias veces que había que vigilar los criterios de diálisis de urgencia. Hoy los vemos a fondo, junto al síndrome urémico. Es de los temas más evaluados en medicina interna y urgencias, y se ordena con una regla de cinco letras: AEIOU. Pero antes, una idea que vale más que cualquier número."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Imagina dos pacientes. El primero tiene una creatinina de ocho, pero está asintomático. Por impresionante que se vea el número, se puede manejar médicamente."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo tiene una creatinina de tres, mucho menor, pero está con un edema pulmonar que no responde, o con una hiperkalemia que ya altera el electrocardiograma. Este paciente se muere en minutos si no se dializa."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La conclusión es la regla de la clase: la cifra aislada de creatinina o de nitrógeno ureico no es indicación de diálisis urgente. Lo que la indica es la clínica, la uremia grave o una descompensación vital, y eso se resume en AEIOU."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El síndrome urémico es el conjunto de síntomas que produce la acumulación de toxinas urémicas en una falla renal avanzada. Las manifestaciones más peligrosas son tres. La primera es la encefalopatía: letargia, desorientación, mioclonías y asterixis, ese aleteo de las manos, que puede terminar en convulsiones o coma."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La segunda es la pericarditis urémica: dolor torácico pleuropericárdico y un roce pericárdico al auscultar. Es indicación formal de diálisis de urgencia."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y un detalle que se pregunta: en ese paciente no se anticoagula con heparina durante la diálisis, porque un pericardio inflamado puede sangrar y terminar en un taponamiento cardíaco."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La tercera es la disfunción plaquetaria urémica. Las plaquetas están en número normal, pero no se adhieren bien, por una alteración del factor de von Willebrand, y el paciente sangra por piel y mucosas."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Se revierte en forma transitoria con desmopresina, cero coma tres microgramos por kilo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Vamos letra por letra. A, de acidosis: una acidosis metabólica severa que no responde al bicarbonato, habitualmente con pH bajo siete coma quince o bicarbonato bajo diez."
+    },
+    {
+      "file": "s03_g01",
+      "text": "E, de electrolitos: una hiperkalemia sobre seis coma cinco, con cambios en el electrocardiograma, como ondas T picudas o QRS ancho, o que no responde al gluconato de calcio, la insulina con glucosa y el salbutamol. Fíjate que primero va el tratamiento médico, y la diálisis es para lo refractario."
+    },
+    {
+      "file": "s03_g02",
+      "text": "I, de intoxicaciones, pero solo las dializables. Se recuerdan con otra sigla, SLIME: salicilatos, litio, isopropanol, metanol y etilenglicol."
+    },
+    {
+      "file": "s03_g03",
+      "text": "O, de sobrecarga de volumen: un edema pulmonar agudo que no responde a dosis máximas de furosemida endovenosa, o en un paciente anúrico. Es la causa más común de diálisis urgente en el servicio de urgencia."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y U, de uremia sintomática: la pericarditis, la encefalopatía o la diátesis hemorrágica activa. Justamente las tres manifestaciones que acabamos de ver."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Para dializar de urgencia se necesita un acceso vascular temporal: un catéter venoso central de doble lumen, el catéter Mahurkar."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El sitio de elección es la vena yugular interna derecha, que tiene menos trombosis y estenosis. La subclavia se evita, para no estenosar el territorio donde en el futuro irá una fístula arteriovenosa. Esa diferencia se pregunta."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La complicación neurológica clásica de la primera sesión es el síndrome de desequilibrio dialítico: cefalea, náuseas, vómitos, agitación y hasta convulsiones. La urea baja muy rápido en la sangre, pero lento en el cerebro, y el agua entra al cerebro: es un edema cerebral osmótico."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Se previene con sesiones iniciales suaves, cortas, de unas dos horas, y a flujos bajos, sobre todo en pacientes con uremia muy elevada."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión. Paciente con falla renal avanzada. La pregunta no es cuánta creatinina tiene, sino si tiene alguna de las cinco vocales."
+    },
+    {
+      "file": "s05_g01",
+      "text": "¿Tiene acidosis refractaria, hiperkalemia grave, una intoxicación dializable, sobrecarga de volumen o uremia sintomática?"
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si no hay ninguna, manejo médico, aunque la creatinina sea muy alta. El número solo no dializa."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Hiperkalemia grave con cambios en el electrocardiograma: primero gluconato de calcio, después insulina con glucosa y salbutamol."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si no responde, hemodiálisis de urgencia, con catéter en la yugular interna derecha."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Pericarditis urémica: hemodiálisis de urgencia, sin heparina, por el riesgo de hemopericardio."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Acidosis refractaria, litio o alcoholes tóxicos, edema pulmonar refractario o encefalopatía urémica: hemodiálisis de urgencia. La primera sesión, corta y a flujo bajo, para evitar el desequilibrio dialítico."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos cada letra con su error típico. Acidosis: se dializa la refractaria, bajo siete coma quince. El error es dializar una acidosis leve y compensada, con pH siete coma treinta."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Hiperkalemia: sobre seis coma cinco con cambios en el electrocardiograma o refractaria. El error es ir directo a la diálisis sin antes dar gluconato de calcio, que protege el corazón en minutos."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Intoxicaciones: litio, metanol, etilenglicol y salicilatos. El error es pensar que cualquier intoxicación se dializa, por ejemplo, las benzodiacepinas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Sobrecarga: edema pulmonar refractario. El error es seguir repitiendo bolos de furosemida durante horas en un riñón que ya no responde."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y uremia: pericarditis, encefalopatía o sangrado. El error es heparinizar al paciente con pericarditis, con riesgo de hemopericardio."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Hombre de sesenta y dos años con enfermedad renal crónica avanzada, todavía sin diálisis. Lo traen por dos días de desorientación y somnolencia. Está estuporoso, con asterixis en ambas manos, y se ausculta un frote en el borde esternal izquierdo. La creatinina es nueve coma dos, el potasio cinco coma dos, el pH siete coma veintiocho, y no tiene congestión pulmonar."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: hemodiálisis de urgencia sin heparina, hemodiálisis con heparina en dosis plenas, bicarbonato y control en seis horas, observar porque el potasio y el pH no están en rango, o furosemida con restricción hídrica. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la A. La asterixis es encefalopatía urémica y el frote es pericarditis urémica: criterio U, y eso basta para dializar, aunque el potasio y el pH no sean críticos. Por eso la D es la trampa: mira los números y no la clínica. Y la B falla en un detalle: con pericarditis, la heparina plena arriesga un taponamiento."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora preguntas reales. La primera, del EUNACOM de enero de dos mil veintitrés. Paciente usuaria de litio, en sopor profundo, con una litemia de dos coma seis."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: lavado gástrico con carbón activado, suero fisiológico, suspender el litio y observar, diuresis forzada con furosemida, o hemodiálisis de urgencia. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la E, hemodiálisis de urgencia. Es la I de AEIOU: el litio es una molécula pequeña, que casi no se une a proteínas, y se dializa muy bien. Lo que decide aquí es la neurotoxicidad grave, el sopor profundo. El carbón activado es el distractor clásico, pero no une el litio, así que no sirve."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La siguiente, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintisiete años en hemodiálisis que falta a su sesión del sábado porque se va a una fiesta, con mucha comida y bebida. El lunes amanece con malestar y dificultad para mover las extremidades. Tiene tetraparesia y una frecuencia cardíaca de cuarenta."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: Guillain Barré, hipokalemia, hiperkalemia, hipocalcemia, o hiperfosfatemia. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, hiperkalemia. Un paciente sin riñones que se salta la diálisis y come de más acumula potasio, y el potasio alto paraliza el músculo y enlentece el corazón. El Guillain Barré es el distractor por la tetraparesia, pero no explica la bradicardia ni el contexto. Lo primero es el electrocardiograma, que se hace al tiro."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y la última, del EUNACOM de enero de dos mil veintitrés, que conecta con la tabla de trampas. Paciente con bradicardia de treinta y un potasio de ocho coma tres."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: bicarbonato, insulina con glucosa, gluconato de calcio, resinas de intercambio, o hemodiálisis de urgencia. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C, gluconato de calcio. La hemodiálisis es la trampa: el potasio de ocho es criterio E, pero el corazón no puede esperar a que se instale un catéter. El calcio estabiliza la membrana en minutos; después se mete el potasio a las células y se elimina, y la diálisis entra si no responde. Esto lo profundizamos en la clase de hiperkalemia."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. La creatinina o el nitrógeno ureico por sí solos no son indicación de diálisis urgente; lo es la clínica, la regla AEIOU."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En la hiperkalemia, primero gluconato de calcio, y diálisis si es refractaria."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El edema pulmonar que no responde a furosemida es la causa más común de diálisis urgente."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La pericarditis urémica se dializa de urgencia y sin heparina."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y el sangrado urémico se revierte transitoriamente con desmopresina."
+    },
+    {
+      "file": "s11_g05",
+      "text": "El catéter va en la yugular interna derecha, y la primera sesión es corta y suave, para evitar el desequilibrio dialítico. Si te llevas una sola idea de hoy: no se dializa un número, se dializa un paciente con acidosis, potasio, tóxicos, agua o uremia que no responden. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "resp-15",
+  "title": "Neumología 3.5: Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+  "specialty": "Neumología",
+  "chars": 9613,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque de pleura volviendo al líquido. En la clase de derrame pleural aprendiste a separar transudado de exudado con los criterios de Light. Hoy damos el paso siguiente: qué hacer con un exudado de predominio linfocítico. Ahí el examen siempre te pone a elegir entre dos diagnósticos, tuberculosis y cáncer, y hay un número que casi siempre decide: el ADA."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos donde quedamos. Puncionaste el derrame, y los criterios de Light te dicen que es un exudado. Eso ya descarta la insuficiencia cardíaca y los otros transudados."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El siguiente dato es el recuento celular. Si más de la mitad de las células son linfocitos, mononucleares, y hay escasas células mesoteliales, el diagnóstico diferencial se achica mucho."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Se reduce fundamentalmente a dos enfermedades. La primera es la tuberculosis pleural."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y la segunda es el derrame neoplásico, por metástasis en la pleura. Esas dos son las que el examen te pone en las alternativas, casi siempre juntas."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Mucho más atrás quedan el linfoma y la pleuritis reumatoidea. Ahora veamos cómo separar las dos grandes."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Empecemos por la tuberculosis, y por el mecanismo, porque explica la pregunta más repetida. Todo parte cuando se rompe un foco caseoso que estaba justo bajo la pleura, y unos pocos bacilos llegan al espacio pleural."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Lo que produce el derrame no es la cantidad de bacilos, sino la reacción del paciente: una hipersensibilidad retardada, mediada por células. Por eso hay muchos linfocitos y muy pocos bacilos. Es un derrame paucibacilar."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Clínicamente, es clásico en adultos jóvenes, con fiebre, tos seca y dolor pleurítico."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y aquí está la trampa. Como hay tan pocos bacilos, la baciloscopía del líquido pleural sale positiva en menos del cinco a diez por ciento de los casos. Una baciloscopía negativa no descarta nada, y repetirla tampoco ayuda."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Lo que sí refleja esa reacción de linfocitos es la adenosina deaminasa, el ADA. Un ADA en el líquido pleural de cuarenta unidades por litro o más tiene sensibilidad y especificidad sobre el noventa por ciento para tuberculosis pleural en Chile. Ese corte, cuarenta, se pregunta."
+    },
+    {
+      "file": "s02_g05",
+      "text": "La confirmación estándar es la biopsia pleural con aguja, de Cope o de Abrams, que muestra granulomas con necrosis de caseificación en más del ochenta por ciento. Y el tratamiento es el esquema antituberculoso habitual, que vimos en la clase de tuberculosis. Con él, se resuelve por completo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora el otro lado. El derrame neoplásico es la infiltración tumoral de la pleura. La causa más frecuente es el adenocarcinoma de pulmón, seguido por el cáncer de mama, el linfoma y el mesotelioma."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Suele ser un adulto mayor, de más de cincuenta o sesenta años, con un líquido serohemático o francamente hemorrágico. Y el ADA está bajo, bajo cuarenta. Ese contraste con la tuberculosis es el que más se pregunta."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El primer examen es la citología del líquido pleural. Detecta células malignas en cerca del sesenta por ciento con la primera muestra, y sube a ochenta u ochenta y cinco por ciento si la repites."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y si la citología es negativa pero la sospecha persiste, el estándar definitivo es la biopsia pleural por videotoracoscopía, la VATS, que permite ver la pleura y biopsiar lo que se ve. Fíjate en la diferencia: en la tuberculosis basta la biopsia con aguja; en el cáncer, el estándar es la VATS."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El manejo parte de un concepto. En el cáncer de pulmón, un derrame pleural maligno ya es enfermedad metastásica, M uno a. Por lo tanto, el objetivo no es curar el derrame, es aliviar la disnea."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La opción más simple es la toracocentesis evacuadora cuando el derrame da disnea. El problema es que el derrame maligno vuelve a llenarse."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Para el derrame que recidiva y da síntomas, la opción clásica es la pleurodesis química con talco estéril: inflama y pega las dos hojas de la pleura, y el líquido ya no tiene dónde acumularse. Es la misma idea que vimos en el neumotórax, ahora para el líquido."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La alternativa es un catéter pleural tunelizado permanente, que permite drenar el líquido en la casa del paciente."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Punción pleural con un exudado por criterios de Light, y más de la mitad de las células son linfocitos. Piensas en tuberculosis y en cáncer."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El ADA decide la sospecha. El corte es cuarenta unidades por litro."
+    },
+    {
+      "file": "s05_g02",
+      "text": "ADA de cuarenta o más: pleuritis tuberculosa. No repitas la baciloscopía: confirmas con biopsia pleural con aguja y tratas con el esquema antituberculoso."
+    },
+    {
+      "file": "s05_g03",
+      "text": "ADA bajo: sospecha de derrame neoplásico. Primero la citología del líquido."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Citología positiva: derrame maligno, enfermedad avanzada. El manejo es paliativo: pleurodesis con talco o catéter tunelizado."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Citología negativa con sospecha persistente: biopsia pleural por videotoracoscopía, el estándar definitivo."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos el contraste. La tuberculosis pleural es típica del joven, aunque también del adulto mayor; el derrame neoplásico, del mayor de cincuenta a sesenta años."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El líquido tuberculoso es amarillo cetrino; el neoplásico, serohemático o hemorrágico."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El dato clave: el ADA es de cuarenta o más en la tuberculosis, y bajo en el cáncer, salvo algunos linfomas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La baciloscopía rinde menos del diez por ciento en la tuberculosis; la citología encuentra células malignas en sesenta a ochenta por ciento de los derrames neoplásicos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La biopsia: con aguja muestra los granulomas de la tuberculosis; por videotoracoscopía confirma la infiltración tumoral."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y el tratamiento: esquema antituberculoso en un caso; pleurodesis con talco o catéter tunelizado en el otro."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Hombre de treinta y cuatro años con tres semanas de fiebre en las tardes, dolor pleurítico derecho y baja de dos kilos. Tiene un derrame derecho. La punción muestra un exudado con ochenta y cinco por ciento de linfocitos y un ADA de cincuenta y ocho. La baciloscopía del líquido es negativa."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada para confirmar el diagnóstico?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: repetir la baciloscopía, biopsia pleural con aguja, citología seriada, pleurodesis con talco, o broncoscopía con lavado. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Joven, febril, exudado linfocítico y ADA sobre cuarenta: pleuritis tuberculosa. La trampa es repetir la baciloscopía, porque es un derrame paucibacilar y rinde menos del diez por ciento, la repitas o no. La confirmación es la biopsia pleural con aguja, que muestra los granulomas. La pleurodesis es para el derrame maligno, no para este."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de sesenta y ocho años con cuatro meses de tos y disnea de esfuerzos, con matidez en la base derecha. El líquido es claro, con ochenta por ciento de mononucleares, ADA de veinte, LDH de ciento sesenta y siete, y colesterol de ciento diecinueve."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: insuficiencia cardíaca, tuberculosis pleural, empiema, cáncer bronquial, o derrame por artritis reumatoide. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la D, cáncer bronquial. La parte difícil era ver que es un exudado: la LDH es baja, pero el colesterol sobre cuarenta lo clasifica como exudado. Y un exudado mononuclear con ADA de veinte, en un adulto mayor, es cáncer. La tuberculosis es el distractor, pero tendría el ADA alto. La insuficiencia cardíaca sería un transudado."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La siguiente es del EUNACOM de diciembre de dos mil diecinueve. Fumador de cincuenta y seis años con dos meses de disnea progresiva y compromiso del estado general. Tiene un derrame derecho moderado. El líquido es un exudado por criterios de Light, con noventa por ciento de mononucleares, ADA de veinticuatro, y la citología es negativa."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen más adecuado para proseguir el estudio?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las alternativas: biopsia pulmonar por videotoracoscopía, broncoscopía con biopsia, PET, biopsia pleural por videotoracoscopía, o broncoscopía con lavado. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D, biopsia pleural por videotoracoscopía. Exudado mononuclear con ADA bajo: sospecha de cáncer. La citología fue negativa, y ya sabes que eso no descarta. El siguiente paso es biopsiar la pleura, que es donde está la enfermedad. Fíjate en la A: dice biopsia pulmonar, no pleural. Esa palabra es la trampa."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y la última, del EUNACOM de diciembre de dos mil diecisiete. Paciente de sesenta años con disnea progresiva y baja de seis kilos, que trabajó treinta años en una fábrica de pizarras de asbesto. Tiene un derrame derecho marcado: exudado con noventa por ciento de mononucleares, ADA de veintidós, y citología negativa."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: carcinoma pavimentoso, adenocarcinoma, tuberculosis pleural, mesotelioma o silicosis. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, mesotelioma. El líquido ya te dice cáncer: mononuclear y con ADA bajo. Pero la pista que elige entre los cánceres es el asbesto, que se relaciona fuertemente con el mesotelioma. El adenocarcinoma es el distractor tentador, porque es la causa más frecuente de derrame maligno, pero aquí la exposición manda."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Todo exudado con más de la mitad de linfocitos te obliga a pensar en tuberculosis y en cáncer, y el ADA orienta cuál."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En la tuberculosis, el ADA es de cuarenta o más, y la baciloscopía del líquido casi siempre sale negativa, porque es paucibacilar."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Se confirma con biopsia pleural con aguja, y se trata con el esquema antituberculoso."
+    },
+    {
+      "file": "s11_g03",
+      "text": "En el derrame neoplásico, el ADA es bajo. Primero citología, y si es negativa con sospecha persistente, biopsia pleural por videotoracoscopía."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y el manejo es paliativo: pleurodesis con talco o catéter tunelizado. Si te llevas una sola idea de hoy: exudado linfocítico con ADA alto es tuberculosis y se confirma con aguja; con ADA bajo es cáncer hasta demostrar lo contrario. Nos vemos en la próxima clase."
+    }
+  ]
+}

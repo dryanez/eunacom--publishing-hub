@@ -1,0 +1,280 @@
+{
+  "id": "diab-16",
+  "title": "Diabetes 4.2: Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 12273,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior aprendiste a separar la cetoacidosis del estado hiperosmolar, y dijimos que el hiperosmolar es un problema de agua. Pero la verdad es que los dos pacientes llegan secos. Hoy vemos cómo se repone esa agua: qué suero, a qué velocidad y en qué momento se cambia. El examen insiste en tres decisiones: la primera medida, el suero según el sodio corregido, y cuándo se agrega glucosa. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la regla más preguntada del tema. En toda crisis hiperglicémica, cetoacidosis o hiperosmolar, la primera intervención es la infusión rápida de volumen con cristaloides isotónicos. No la insulina. Veamos por qué."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Imagina que pones insulina a un paciente que no has hidratado. La insulina hace entrar la glucosa a las células, y el agua del espacio extracelular la sigue por osmosis."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el paciente, que ya tenía poco volumen dentro de los vasos, pierde todavía más. El resultado puede ser un colapso hemodinámico y un shock. Por eso la insulina antes del suero es un error grave."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Lo correcto es partir con suero fisiológico. Primero se llena el estanque, y después se trata la glucosa."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y fíjate en un detalle: el suero solo, sin insulina, ya baja la glicemia cincuenta a cien en la primera hora a hora y media. Lo hace por tres vías: diluye la glucosa, disminuye las hormonas contrarreguladoras y, al mejorar el filtrado del riñón, vuelve a eliminar glucosa por la orina."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La primera hora es igual para todos: suero fisiológico al cero coma nueve por ciento, mil a mil quinientos mililitros en la hora, o quince a veinte mililitros por kilo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Por una vía venosa periférica gruesa. El objetivo es restaurar el volumen circulante y la perfusión del riñón."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si el paciente llega en shock franco, con presión sistólica bajo noventa, frialdad periférica o anuria, se da más volumen todavía."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Bolos adicionales de mil mililitros de suero fisiológico en treinta minutos, hasta lograr una presión arterial media de sesenta y cinco o más. Y recién entonces se inicia cualquier otra terapia."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Terminada la primera hora, empieza la fase de mantención, y aquí el suero ya no es igual para todos. Lo decide el sodio corregido, la fórmula que vimos la clase anterior: el sodio medido más uno coma seis por cada cien de glicemia sobre cien."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si el sodio corregido es normal o alto, de ciento treinta y cinco o más, significa que el paciente perdió más agua que sodio. Sus células están deshidratadas."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Entonces necesita agua libre, y se cambia a suero salino al cero coma cuarenta y cinco por ciento, una solución hipotónica, a doscientos cincuenta a quinientos mililitros por hora. Esa agua libre vuelve a entrar a las células."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si el sodio corregido es bajo, menor de ciento treinta y cinco, todavía falta sodio en el cuerpo. Se sigue con suero fisiológico al cero coma nueve, a la misma velocidad, hasta normalizarlo."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Ojo con la trampa: usar el sodio medido. En un hiperosmolar con glicemia de novecientos y sodio medido de ciento cuarenta, el corregido es casi ciento cincuenta y tres. El medido parece normal, pero el paciente está hipernatrémico y necesita agua libre."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la regla más evaluada de esta clase. Durante el tratamiento corren dos relojes a distinta velocidad. La glicemia baja rápido. La acidosis, y el cierre del anion gap, bajan mucho más lento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Entonces llega un momento en que la glicemia ya está en doscientos, pero la cetoacidosis sigue ahí. Y aparece el dilema: ¿qué hago con la insulina?"
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si la suspendes para no bajar más la glicemia, la cetoacidosis no se resuelve. Recuerda el mecanismo: la insulina es la que frena la lipólisis y la producción de cetonas."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si la mantienes con suero salino solo, sin aportar glucosa, el paciente cae en una hipoglicemia severa."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La salida es cambiar el suero a glucosado al cinco por ciento, o glucosalino, a ciento cincuenta a doscientos cincuenta por hora, y bajar la insulina a la mitad, a cero coma cero dos a cero coma cero cinco unidades por kilo por hora. Así la glicemia se mantiene entre ciento cincuenta y doscientos, y la insulina sigue cerrando el gap."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Ese cambio se hace con doscientos en la cetoacidosis, y con trescientos en el estado hiperosmolar, donde el objetivo es evitar una caída brusca de la osmolaridad. Esos dos números se preguntan."
+    },
+    {
+      "file": "s05_g00",
+      "text": "¿Cuánta agua falta? En la cetoacidosis, tres a seis litros, alrededor de cien mililitros por kilo."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En el estado hiperosmolar, ocho a doce litros, ciento cincuenta a doscientos mililitros por kilo. Es el problema de agua del que hablamos la clase pasada."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y ese déficit no se repone de golpe. Se planifica para completarlo en veinticuatro a cuarenta y ocho horas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La osmolaridad no debe caer más de tres por hora, y la glicemia debe bajar cincuenta a setenta y cinco por hora. Caídas de más de cien por hora predisponen al edema cerebral."
+    },
+    {
+      "file": "s05_g04",
+      "text": "¿Por qué? Porque la neurona se adaptó a un ambiente hiperosmolar. Si la osmolaridad de afuera cae de golpe, el agua entra a la célula y el cerebro se hincha. Lo vemos en detalle en la clase de complicaciones."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Veamos el monitoreo. La glicemia capilar se controla cada hora. Si baja menos de cincuenta por hora, se sube la insulina; si baja más de cien, se reduce."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La diuresis también es horaria, con catéter vesical, buscando más de medio mililitro por kilo por hora. Si hay oliguria, primero se revisa la volemia."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Los electrolitos, cada dos a cuatro horas, con el potasio entre cuatro y cinco. El manejo del potasio lo vemos en detalle la próxima clase."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y los gases venosos, también cada dos a cuatro horas: el bicarbonato debe subir y el anion gap cerrarse. Mientras no se cierre, la insulina y el glucosado siguen."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Juntemos los errores, porque cada uno tiene su mecanismo. Insulina antes que el suero: el agua se va al intracelular y el paciente cae en un shock refractario."
+    },
+    {
+      "file": "s07_g01",
+      "text": "No agregar glucosa al llegar a doscientos: la insulina sigue haciendo entrar glucosa a las células, y terminas en hipoglicemia, o suspendiendo la insulina antes de tiempo."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Reponer demasiado rápido: la osmolaridad cae de golpe y aparece el edema cerebral, que puede terminar en herniación y muerte. Por eso, después de la expansión, doscientos cincuenta a quinientos por hora."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y el más sutil: usar solo suero fisiológico por más de veinticuatro horas. Aporta mucho cloro, que desplaza al bicarbonato, y produce una acidosis hiperclorémica con anion gap normal. Fíjate en el gap: si está normal, no es que la cetoacidosis persista. Por eso se cambia al cero coma cuarenta y cinco según el sodio corregido."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora pongamos toda la fluidoterapia en un solo árbol, en el orden en que la vas a indicar. Paciente con cetoacidosis o estado hiperosmolar. Antes de la insulina, el volumen."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La primera pregunta es si está en shock."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si está en shock, bolos de mil mililitros de suero fisiológico en treinta minutos hasta lograr una presión media de sesenta y cinco, antes de cualquier otra terapia."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si no, suero fisiológico mil a mil quinientos mililitros en la primera hora."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Terminada la primera hora, calcula el sodio corregido."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si es ciento treinta y cinco o más, suero al cero coma cuarenta y cinco, porque falta agua libre. Y cuando la glicemia llegue a doscientos en la cetoacidosis, o trescientos en el hiperosmolar, glucosado al cinco por ciento con la insulina a la mitad."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si es menor, se sigue con suero fisiológico. La misma regla de la glucosa aplica al llegar a doscientos o trescientos."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos en una tabla. Hora uno, todos los pacientes: suero fisiológico, mil a mil quinientos por hora. Nunca insulina antes."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si está en shock, bolos de mil en media hora hasta una presión media de sesenta y cinco."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Después, sodio corregido de ciento treinta y cinco o más: suero al cero coma cuarenta y cinco."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Sodio corregido bajo ciento treinta y cinco: se sigue con suero fisiológico."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Cetoacidosis con glicemia de doscientos o menos: glucosado al cinco por ciento y la insulina a la mitad. La trampa es suspender la insulina."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y en el hiperosmolar, lo mismo, pero con trescientos."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Mujer de veinticuatro años, diabética tipo uno, en tratamiento por una cetoacidosis severa. Recibió mil quinientos de suero fisiológico en la primera hora y luego insulina en infusión. A las cinco horas, el hemoglucotest es ciento ochenta y ocho, el pH siete coma veintiuno, el bicarbonato doce y el anion gap dieciocho."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: suspender la insulina, agregar glucosado al cinco por ciento y bajar la insulina a la mitad, pasar a NPH y suspender los fluidos, mantener todo igual con suero fisiológico, o dar bicarbonato y suspender la insulina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Mira los dos relojes: la glicemia ya bajó de doscientos, pero el pH, el bicarbonato y el gap dicen que la cetoacidosis sigue. La A es la trampa: sin insulina, las cetonas vuelven. Y la D, mantener todo igual, la lleva a la hipoglicemia. Lo correcto es aportar glucosa y seguir con la insulina, a menor dosis, hasta cerrar el gap."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Paciente de doce años con baja de peso y poliuria, que en las últimas horas compromete conciencia. Está taquicárdico, soporoso, con polipnea y deshidratado. Glicemia cuatrocientos setenta, sodio ciento cuarenta y tres, potasio cuatro coma ocho, cloro noventa y siete, bicarbonato doce y pH siete coma cero cinco."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Qué fluido debe administrarse?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: suero glucosado, glucosalino, salino al cero coma cuarenta y cinco, salino al cero coma nueve, o Ringer lactato. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, suero fisiológico al cero coma nueve. Es una cetoacidosis severa con deshidratación, y la primera hora siempre es suero fisiológico. La C es la trampa fina: si calculas el sodio corregido da cerca de ciento cuarenta y nueve, y eso te llevaría al cero coma cuarenta y cinco, pero recién después de la primera hora. Y el glucosado es para cuando la glicemia llegue a doscientos."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de once años con cuatro días de poliuria y polidipsia, que llega soporoso. Frecuencia cardíaca ciento cincuenta, presión cien sesenta. Glicemia trescientos veinte, pH siete coma once, bicarbonato doce, cetonas positivas, sodio ciento cuarenta y cinco, potasio cinco coma uno y creatinina uno coma ocho."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la primera medida a administrar?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: suero fisiológico veinte por kilo, insulina endovenosa, adrenalina, cloruro de potasio, u oxígeno por mascarilla. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A. Es una cetoacidosis de debut, con taquicardia y una creatinina alta que habla de riñón mal perfundido. La primera medida es siempre el volumen, y veinte por kilo está dentro de lo que vimos. La B es la trampa clásica: la insulina es parte del tratamiento, pero va después de iniciar el suero. Y el potasio en cinco coma uno no pide aporte inmediato."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y una pregunta del banco EUNACOM. Paciente en estado hiperosmolar, con glicemia de novecientos y sodio medido de ciento cuarenta, que ya completó la primera hora con mil quinientos de suero fisiológico."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el fluido de elección para la fase de mantención?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: suero fisiológico, salino hipotónico al cero coma cuarenta y cinco, glucosado al diez, Ringer con bicarbonato, o agua destilada. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Corrige el sodio: ochocientos sobre cien son ocho, por uno coma seis da casi trece, y el corregido queda en ciento cincuenta y tres. Sobre ciento treinta y cinco, se usa el cero coma cuarenta y cinco. La A es la trampa si miras solo el sodio medido. Y el glucosado es prematuro: en el hiperosmolar se agrega cuando la glicemia llega a trescientos."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. La primera medida es siempre suero fisiológico, mil a mil quinientos en la primera hora. Nunca insulina antes."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Después de la primera hora, decide el sodio corregido: ciento treinta y cinco o más, suero al cero coma cuarenta y cinco; menos, suero fisiológico."
+    },
+    {
+      "file": "s14_g02",
+      "text": "El déficit se repone en veinticuatro a cuarenta y ocho horas, bajando la glicemia cincuenta a setenta y cinco por hora, para no provocar edema cerebral."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Y cuando la glicemia llega a doscientos en la cetoacidosis, o a trescientos en el hiperosmolar, se agrega glucosado al cinco por ciento y la insulina baja a la mitad."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Si te llevas una sola idea de hoy: la glicemia baja primero, pero lo que manda es el anion gap; la glucosa se agrega para que la insulina pueda seguir. La próxima clase vemos la insulina y el potasio. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "resp-07",
+  "title": "Neumología 2.2: Tratamiento Antimicrobiano de la NAC y Criterios GES",
+  "specialty": "Neumología",
+  "chars": 11400,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior confirmamos la neumonía con la radiografía y decidimos con el CURB sesenta y cinco dónde se trata. Hoy cerramos el círculo: qué antibiótico va en cada lugar. Es uno de los temas más preguntados del examen, y la buena noticia es que son solo cuatro esquemas. Si sabes dónde está el paciente, sabes qué antibiótico darle."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La lógica es siempre la misma. Primero decides el lugar con el CURB sesenta y cinco, y el lugar te dice el esquema. A medida que el paciente está más grave, el antibiótico sube un peldaño."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En la casa hay dos esquemas, y la diferencia es el paciente. El menor de sesenta y cinco sin comorbilidades recibe amoxicilina sola. El de sesenta y cinco o más, o con comorbilidades, recibe amoxicilina con ácido clavulánico."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En la sala se pasa a la vía endovenosa, con ceftriaxona, y se agrega un macrólido si se sospecha un germen atípico."
+    },
+    {
+      "file": "s01_g03",
+      "text": "En intensivo, siempre doble cobertura: ceftriaxona más una quinolona respiratoria, como levofloxacino."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y la excepción: si el paciente tiene factores de riesgo de Pseudomonas, se cambia a un betalactámico antipseudomónico. Veamos cada peldaño."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El primer peldaño es el adulto menor de sesenta y cinco años, sin comorbilidades ni factores de riesgo. Recibe amoxicilina, un gramo cada ocho horas por vía oral, por cinco a siete días. Cubre al neumococo, que como vimos es el germen más frecuente."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y aquí está la trampa del examen: en este paciente no se justifica partir con una cefalosporina de tercera generación ni con una quinolona respiratoria. Más espectro no es mejor tratamiento."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si es alérgico a la penicilina, la alternativa es un macrólido: azitromicina quinientos miligramos al día por tres a cinco días."
+    },
+    {
+      "file": "s02_g03",
+      "text": "O claritromicina, quinientos miligramos cada doce horas. Cuando en una pregunta no aparece la amoxicilina entre las opciones, el macrólido suele ser la mejor alternativa."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El segundo peldaño es el paciente de sesenta y cinco años o más, o con comorbilidades como EPOC, diabetes o cardiopatía. La primera línea, según la guía GES, es amoxicilina con ácido clavulánico, ochocientos setenta y cinco con ciento veinticinco miligramos cada doce horas, por siete días."
+    },
+    {
+      "file": "s03_g01",
+      "text": "¿Por qué el clavulánico? Porque en este paciente aparecen Haemophilus influenzae y Moraxella, que pueden producir betalactamasa y destruir la amoxicilina sola."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y porque cubre mejor al neumococo con susceptibilidad intermedia. Es la misma lógica de la exacerbación de EPOC: mismo terreno, mismos gérmenes, mismo antibiótico."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Las alternativas son cefuroximo axetilo, quinientos miligramos cada doce horas, o levofloxacino setecientos cincuenta miligramos al día, que se reserva para la alergia grave o la sospecha alta de gramnegativos."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El tercer peldaño es el paciente con dos puntos de CURB sesenta y cinco, que se hospitaliza en sala. El tratamiento de elección es ceftriaxona, uno a dos gramos al día por vía endovenosa, o como alternativa ampicilina con sulbactam, uno coma cinco gramos cada seis horas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Se agrega azitromicina, quinientos miligramos al día, cuando hay sospecha de un germen atípico: infiltrados intersticiales, disociación entre el pulso y la temperatura, o mialgias marcadas."
+    },
+    {
+      "file": "s04_g02",
+      "text": "También se agrega en la neumonía de mayor severidad. ¿Por qué el macrólido? Porque la ceftriaxona, como todo betalactámico, no cubre a los atípicos. Lo vemos a fondo en la próxima clase."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y en el alérgico a la penicilina, una quinolona respiratoria: levofloxacino setecientos cincuenta miligramos al día, o moxifloxacino cuatrocientos."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El último peldaño es la neumonía grave en intensivo, con CURB sesenta y cinco de tres o más o con falla orgánica. Aquí siempre va doble cobertura: ceftriaxona dos gramos más levofloxacino setecientos cincuenta miligramos, ambos endovenosos."
+    },
+    {
+      "file": "s05_g01",
+      "text": "O ceftriaxona más azitromicina endovenosa. La idea es un betalactámico más algo que cubra atípicos: el paciente está demasiado grave para dejar un germen sin cubrir."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Dos situaciones cambian el esquema. Si hay factores de riesgo de Pseudomonas aeruginosa, como bronquiectasias, fibrosis quística o corticoides crónicos..."
+    },
+    {
+      "file": "s05_g03",
+      "text": "...se usa piperacilina con tazobactam, o cefepime más ciprofloxacino."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y si hay riesgo de estafilococo resistente a meticilina, se suma vancomicina."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El hospitalizado no se queda con suero y ceftriaxona indefinidamente. Se pasa a la vía oral cuando está estable: afebril por más de cuarenta y ocho horas, con frecuencia respiratoria bajo veinticuatro y frecuencia cardíaca bajo cien."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Además, presión sistólica de noventa o más, saturación sobre noventa por ciento sin oxígeno, y que tolere la vía oral."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si cumple todo, se cambia a un antibiótico oral, como amoxicilina con clavulánico o cefuroximo, para completar unos siete días en total, y se da el alta. No se espera una radiografía de control: los infiltrados tardan de cuatro a ocho semanas en limpiarse."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La trampa es la alternativa que mantiene el antibiótico endovenoso hasta completar catorce días. No es necesario completar tratamientos prolongados de diez a catorce días."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pongamos los cuatro peldaños en un solo árbol, partiendo del lugar que decidiste con el CURB sesenta y cinco. Neumonía confirmada con radiografía y con el CURB sesenta y cinco ya calculado. El lugar define el esquema."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Dónde se va a tratar este paciente?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si se va a su casa, la pregunta es el terreno: ¿tiene sesenta y cinco años o más, o una comorbilidad como EPOC, diabetes o cardiopatía?"
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si no, amoxicilina un gramo cada ocho horas por cinco a siete días, o un macrólido si es alérgico."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si sí, amoxicilina con clavulánico cada doce horas por siete días, con la garantía GES en sesenta y cinco años y más."
+    },
+    {
+      "file": "s07_g05",
+      "text": "En la sala, ceftriaxona endovenosa, sumando azitromicina si hay sospecha de atípico o más gravedad. Cuando esté estable y afebril por cuarenta y ocho horas, pasa a la vía oral."
+    },
+    {
+      "file": "s07_g06",
+      "text": "En intensivo, antes de elegir, pregunta por factores de riesgo de Pseudomonas: bronquiectasias, fibrosis quística o corticoides crónicos."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Sin riesgo, ceftriaxona dos gramos más levofloxacino setecientos cincuenta, o más azitromicina endovenosa."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Con riesgo, piperacilina con tazobactam, o cefepime más ciprofloxacino."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos. Ambulatorio, menor de sesenta y cinco y sano: amoxicilina un gramo cada ocho horas. Si es alérgico, un macrólido. El error es partir con ceftriaxona o una quinolona."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Ambulatorio de sesenta y cinco o más, o con comorbilidad: amoxicilina con clavulánico por siete días. El error es dejarle amoxicilina sola."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Sala general: ceftriaxona, con azitromicina si sospechas atípicos. Si es alérgico, una quinolona respiratoria."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Intensivo: ceftriaxona más levofloxacino, siempre doble cobertura. Y solo si hay riesgo de Pseudomonas se usa un antipseudomónico: ponerlo de rutina es la trampa."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Hombre de cuarenta y dos años, sano y no fumador, con tres días de fiebre, tos con expectoración y puntada de costado derecha. Satura noventa y seis, presión y frecuencia respiratoria normales, crépitos en la base derecha, y la radiografía muestra una condensación del lóbulo inferior derecho. Su CURB sesenta y cinco es cero."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: ceftriaxona intramuscular, levofloxacino oral, amoxicilina un gramo cada ocho horas, amoxicilina con clavulánico, u hospitalizar con ceftriaxona y azitromicina. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. Primero el lugar: con cero puntos, se va a su casa. Y como es menor de sesenta y cinco y sano, le toca el primer peldaño, amoxicilina sola. La D es el distractor tentador, pero el clavulánico es para el mayor de sesenta y cinco o el comórbido. Y la ceftriaxona o el levofloxacino son espectro de más para un paciente que no lo necesita."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de cuarenta y cinco años, hipertensa, con cuatro días de fiebre, mialgias, cefalea y tos con expectoración. Tiene signos vitales normales, satura noventa y ocho, y al examen, crépitos en la base izquierda con matidez y aumento de las vibraciones vocales, una condensación."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: oseltamivir, levofloxacino, ceftriaxona, amoxicilina o claritromicina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, amoxicilina. Es una neumonía con condensación, sin ningún criterio de gravedad, en una paciente menor de sesenta y cinco años. La trampa está en la hipertensión: no es una de las comorbilidades que obligan a subir al clavulánico, así que la paciente sigue en el primer peldaño."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Hombre de veintiún años, con dos días de fiebre y tos con expectoración mucopurulenta. Signos vitales normales, satura noventa y tres, crepitaciones en la base derecha, y una radiografía con condensación del lóbulo inferior."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el tratamiento antibiótico más adecuado?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: claritromicina, cefadroxilo, clindamicina, cloxacilina o ciprofloxacino. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. Es una neumonía de bajo riesgo en un joven sano, y lo ideal sería amoxicilina, pero no aparece. Cuando falta la amoxicilina, el macrólido es la mejor alternativa. El ciprofloxacino es el distractor, porque es una quinolona, pero no tiene buena cobertura contra el neumococo. Las quinolonas respiratorias son el levofloxacino y el moxifloxacino."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una pregunta real reciente, del EUNACOM de julio de dos mil veinticinco. Hombre de setenta y cinco años con neumonía adquirida en la comunidad, sin hospitalizaciones ni antibióticos recientes, y sin alergias."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el antibiótico de primera línea más adecuado?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones, todas orales: amoxicilina con clavulánico, ciprofloxacino, clindamicina, cefalexina o azitromicina. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A. Setenta y cinco años es el segundo peldaño: amoxicilina con clavulánico, ochocientos setenta y cinco con ciento veinticinco cada doce horas, por siete días. La E puede tentar, pero el macrólido es la alternativa para el alérgico, no la primera línea. Y fíjate que el enunciado te dice que no es alérgico justamente para que no lo elijas."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La última, del EUNACOM de julio de dos mil diecinueve. Paciente con EPOC, con tres días de fiebre, tos con expectoración mucopurulenta y más disnea. Al examen tiene apremio respiratorio de reposo, sibilancias difusas y crepitaciones en la base derecha. Se pide una radiografía."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Qué antibiótico es el más adecuado?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: amoxicilina, claritromicina, clindamicina, cefotaximo o azitromicina. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D. La clave es el apremio respiratorio de reposo: este paciente no se va a su casa, se hospitaliza. Y en la sala va una cefalosporina de tercera generación endovenosa. No hay ceftriaxona entre las opciones, pero el cefotaximo tiene la misma cobertura. La amoxicilina sola es la trampa, porque es de la casa y además no cubre la betalactamasa del Haemophilus de un EPOC."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. En la casa, el menor de sesenta y cinco y sano recibe amoxicilina un gramo cada ocho horas; si es alérgico, un macrólido."
+    },
+    {
+      "file": "s14_g01",
+      "text": "El de sesenta y cinco o más, o con comorbilidad, recibe amoxicilina con clavulánico, por GES."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En la sala, ceftriaxona, sumando azitromicina si sospechas atípicos."
+    },
+    {
+      "file": "s14_g03",
+      "text": "En intensivo, ceftriaxona más levofloxacino, y antipseudomónico solo si hay factores de riesgo."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Y con cuarenta y ocho horas afebril y estable, a la vía oral para completar siete días, sin esperar una radiografía de control. En la próxima clase vemos los casos en que estos esquemas no sirven: los atípicos, la aspirativa y la intrahospitalaria. Si te llevas una sola idea de hoy: primero decide el lugar, y el lugar te dice el antibiótico. Nos vemos en la próxima clase."
+    }
+  ]
+}

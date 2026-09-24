@@ -1,0 +1,252 @@
+{
+  "id": "endo-15",
+  "title": "Endocrinología 7.15: Feocromocitoma y Paragangliomas: Bloqueo Alfa Obligatorio",
+  "specialty": "Endocrinología",
+  "chars": 11452,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior la suprarrenal fabricaba aldosterona de más; hoy bajamos a la médula suprarrenal y vemos el feocromocitoma y los paragangliomas. Son tumores raros, menos del medio por ciento de los hipertensos, pero el examen los pregunta mucho, porque un error de tratamiento puede matar al paciente. Todo se resume en una regla: primero bloqueo alfa, y solo después bloqueo beta."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el origen. El feocromocitoma nace de las células cromafines de la médula suprarrenal, las mismas que normalmente fabrican adrenalina ante el estrés."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El tumor produce, almacena y secreta catecolaminas: noradrenalina, adrenalina y dopamina. Y muchas veces no lo hace de forma continua, sino en descargas."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Esas catecolaminas actúan sobre los receptores alfa uno de las arteriolas y las contraen. Por eso sube la presión, de manera paroxística o mantenida y de difícil manejo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y sobre los receptores beta uno del corazón, que aceleran la frecuencia y dan las palpitaciones."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Cada descarga se traduce en una crisis: cefalea, sudoración y palpitaciones, con la presión por las nubes. Guarda esta idea de alfa y beta, porque es la base de la regla de oro del tratamiento."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Cuando el mismo tipo de tumor nace fuera de la suprarrenal, en los ganglios simpáticos o parasimpáticos, se llama paraganglioma. Se comporta igual."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo llega el paciente. La tríada clásica, que tiene una especificidad sobre el noventa por ciento, parte con una cefalea intensa, pulsátil y holocránea."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Luego, sudoración profusa."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y palpitaciones intensas con taquicardia, acompañadas de hipertensión paroxística o mantenida. Fíjate en la palabra paroxística: son crisis que van y vienen. Eso es lo que lo separa del hiperaldosteronismo de la clase pasada."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Hay una regla histórica que todavía se pregunta, la regla del diez por ciento: un diez por ciento son bilaterales, un diez por ciento extraadrenales, es decir paragangliomas, y un diez por ciento pediátricos."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Otro diez por ciento son malignos con metástasis, y otro diez por ciento no tienen hipertensión."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Pero hay una corrección moderna importante: hasta el treinta y cinco a cuarenta por ciento de los casos son hereditarios, por mutaciones en RET, VHL, NF uno o las subunidades de la succinato deshidrogenasa. Por eso hay que pensar en los síndromes familiares."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Pasemos al diagnóstico. Ante la sospecha, el examen de primera línea son las metanefrinas: libres en plasma, o fraccionadas en orina de veinticuatro horas."
+    },
+    {
+      "file": "s03_g01",
+      "text": "¿Por qué metanefrinas y no catecolaminas? Porque el propio tumor degrada sus catecolaminas de forma continua con la enzima COMT, y las metanefrinas son esos metabolitos estables. Así el examen detecta el tumor aunque no esté en crisis, con una sensibilidad sobre el noventa y ocho por ciento. Las catecolaminas séricas y el ácido vanililmandélico quedan muy atrás."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Esa sensibilidad tiene una consecuencia práctica: si las metanefrinas son rigurosamente normales, el feocromocitoma está virtualmente descartado, y buscas otra causa de las crisis."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si están elevadas, recién ahí localizas con tomografía o resonancia de abdomen y pelvis. El feocromocitoma suele ser una masa grande, de más de tres centímetros, muy vascularizada y heterogénea, con áreas quísticas o necróticas. En la resonancia brilla en T dos, la clásica imagen en bombilla eléctrica."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si sospechas un paraganglioma extraadrenal, malignidad, o el tumor mide más de cinco centímetros, se agrega una imagen funcional: cintigrafía con MIBG, o PET con DOPA."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la regla que más se pregunta, y que se entiende con el mecanismo que vimos al inicio. Imagina que al paciente, por la taquicardia, le indicas un betabloqueador solo: propranolol, atenolol o labetalol."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Además del corazón, bloqueas los receptores beta dos de los vasos del músculo esquelético, que son vasodilatadores. Eran la única válvula de escape frente a tanta catecolamina."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Entonces las catecolaminas del tumor actúan libres, sin oposición, sobre los receptores alfa uno. El resultado es una vasoconstricción periférica masiva y una crisis hipertensiva que puede ser letal."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y esa crisis termina en un edema pulmonar agudo cardiogénico o en una rotura vascular cerebral. Por eso la regla es absoluta: nunca un betabloqueador antes de haber logrado un bloqueo alfa completo y eficaz."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El tratamiento curativo es la suprarrenalectomía laparoscópica, pero antes hay que preparar al paciente durante diez a catorce días. El paso uno es el bloqueo alfa: fenoxibenzamina, un bloqueador no selectivo de acción prolongada, partiendo con diez miligramos cada doce horas hasta ochenta a cien miligramos al día."
+    },
+    {
+      "file": "s05_g01",
+      "text": "O un bloqueador alfa uno selectivo, la doxazosina, de dos a dieciséis miligramos al día."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El paso dos es el volumen. La vasoconstricción crónica deja al paciente con el volumen plasmático muy contraído. Por eso se indica dieta rica en sodio e hidratación abundante, oral o endovenosa. Si no reexpandes, cuando el tumor sale la presión se desploma."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y recién el paso tres: solo después de dos a cuatro días de buen bloqueo alfa y volumen, si persiste taquicardia o una arritmia supraventricular, se puede agregar un betabloqueador, propranolol o atenolol."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Un último dato de conducta: si el paciente tiene un carcinoma medular de tiroides y un feocromocitoma al mismo tiempo, como en la neoplasia endocrina múltiple tipo dos, se opera siempre primero el feocromocitoma."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Veamos los síndromes familiares, todos autosómicos dominantes. La neoplasia endocrina múltiple dos A, o síndrome de Sipple, por el protooncogén RET: carcinoma medular de tiroides en todos, hiperparatiroidismo primario en el veinte a treinta por ciento, y feocromocitoma bilateral en más de la mitad."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La dos B, o síndrome de Gorlin, también por RET: carcinoma medular agresivo, neuromas mucosos y hábito marfanoide. El feocromocitoma también es bilateral en más de la mitad, y muy precoz."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Von Hippel Lindau: hemangioblastomas de retina y del sistema nervioso central, y carcinoma renal de células claras. El feocromocitoma suele ser bilateral o múltiple."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y la neurofibromatosis tipo uno: manchas café con leche, neurofibromas y nódulos de Lisch. Aquí el feocromocitoma es poco frecuente, del uno al cinco por ciento. Por todo esto, el seguimiento incluye estudio genético familiar."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con crisis de cefalea, sudoración y palpitaciones, con hipertensión paroxística o difícil de manejar. La primera pregunta es bioquímica."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Pides metanefrinas libres en plasma o fraccionadas en orina de veinticuatro horas. ¿Están elevadas?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si son rigurosamente normales, el feocromocitoma está virtualmente descartado, y buscas otra causa de las crisis adrenérgicas."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si están elevadas, localizas con tomografía o resonancia de abdomen y pelvis, y agregas MIBG o PET con DOPA si sospechas un paraganglioma, malignidad o un tumor de más de cinco centímetros."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Antes de operar, bloqueo alfa con fenoxibenzamina o doxazosina por diez a catorce días, con dieta rica en sal y líquidos. Nunca betabloqueo antes."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si después de varios días de buen bloqueo alfa persiste la taquicardia, recién ahí agregas propranolol o atenolol, y luego operas."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Con el paciente preparado, suprarrenalectomía laparoscópica. Después, metanefrinas anuales por diez años y estudio genético familiar."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Crisis de cefalea, sudoración y palpitaciones: metanefrinas. El error es partir por la tomografía; la imagen va después de la bioquímica."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Metanefrinas rigurosamente normales: el feocromocitoma está virtualmente descartado, y buscas otra causa."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Feocromocitoma con taquicardia: primero bloqueo alfa. Dar un betabloqueador solo es la respuesta que el examen castiga, porque desencadena la crisis hipertensiva."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Antes de la cirugía: bloqueo alfa por diez a catorce días, con sal y líquidos. Operar sin preparar expone a crisis durante la manipulación del tumor y a colapso cuando sale."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Carcinoma medular con feocromocitoma: primero el feocromocitoma."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y una masa suprarrenal grande con crisis adrenérgicas es feocromocitoma, no un adenoma de Conn, que da hipokalemia y no crisis paroxísticas. Esa es justamente la pregunta real que viene."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Mujer de treinta y seis años con episodios de cefalea pulsátil intensa, palpitaciones y sudoración profusa, de quince a treinta minutos, dos a tres veces por semana. En una crisis se le mide una presión de doscientos diez sobre ciento veinte y una frecuencia de ciento treinta. Entre las crisis está bien."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen inicial más adecuado para confirmar la sospecha?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las alternativas: tomografía de abdomen, catecolaminas plasmáticas en crisis, metanefrinas en orina de veinticuatro horas, relación aldosterona renina, o cintigrafía con MIBG. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. La tríada paroxística con hipertensión es feocromocitoma hasta demostrar lo contrario, y se confirma con metanefrinas, que detectan el tumor aunque no esté en crisis. El distractor tentador es la tomografía, pero la imagen solo localiza lo que la bioquímica ya confirmó. Las catecolaminas son menos sensibles, y la relación aldosterona renina es el examen de la clase pasada."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con hipertensión de difícil control, cefalea, palpitaciones, y una lesión suprarrenal derecha de cinco centímetros en la tomografía."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: adenoma productor de aldosterona, carcinoma suprarrenal, feocromocitoma, quiste simple, o hiperplasia suprarrenal nodular. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C, feocromocitoma. Hipertensión difícil con cefalea y palpitaciones es clínica adrenérgica, y la masa es grande, como es típico del feocromocitoma. El distractor es el adenoma de Conn, que también da hipertensión difícil con un tumor suprarrenal, pero se delata por la hipokalemia, no por crisis de palpitaciones, como el caso de la clase pasada."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y un caso representativo del banco, sobre la regla de oro. Mujer de cuarenta años con feocromocitoma suprarrenal derecho ya confirmado con metanefrinas y tomografía. Se programa la suprarrenalectomía laparoscópica para dentro de dos semanas."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el esquema preoperatorio correcto y obligatorio?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: propranolol de inmediato y fenoxibenzamina el día antes, bloqueo alfa por diez a catorce días y beta solo después si persiste taquicardia, atenolol solo, sulfato de magnesio y pabellón inmediato, o espironolactona con enalapril. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Primero bloqueo alfa por diez a catorce días, con sal y líquidos, y solo después, si persiste la taquicardia, el betabloqueador. El distractor tentador es la A, porque trae los dos fármacos correctos, pero en el orden al revés: partir con propranolol deja el alfa uno sin oposición y desencadena la crisis. Y el atenolol solo es el mismo error, sin siquiera el alfa."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La tríada paroxística de cefalea, sudoración y palpitaciones con hipertensión es la sospecha."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Se confirma con metanefrinas, y solo después se localiza con tomografía o resonancia. Si las metanefrinas son normales, está virtualmente descartado."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Antes de la suprarrenalectomía, bloqueo alfa con fenoxibenzamina o doxazosina por diez a catorce días, con sal y líquidos, y solo después el beta."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Piensa en los síndromes familiares, y si hay carcinoma medular, opera primero el feocromocitoma."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Después de operar, metanefrinas anuales por diez años. Si te llevas una sola idea de hoy: en el feocromocitoma, primero el alfa y después el beta, nunca al revés. Nos vemos en la próxima clase."
+    }
+  ]
+}

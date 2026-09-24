@@ -1,0 +1,308 @@
+{
+  "id": "nefro-09",
+  "title": "Nefrologia 3.1: Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+  "specialty": "Nefrología",
+  "chars": 13770,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos la hiperkalemia grave, el trastorno electrolítico más letal de la urgencia y una pregunta casi segura en cada EUNACOM. La buena noticia es que todo se ordena en tres pasos: proteger la membrana, meter el potasio a la célula y sacarlo del cuerpo. Si entiendes por qué van en ese orden, la pregunta de la primera medida no se te va a escapar nunca."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. El potasio es el catión de adentro de la célula: noventa y ocho por ciento está en el intracelular y apenas un dos por ciento en el plasma. Por eso, un cambio pequeño en el plasma tiene un efecto enorme sobre la membrana."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando el potasio extracelular sube, el potencial de reposo del miocito se vuelve menos negativo. La célula queda parcialmente despolarizada, como un resorte que ya no se puede tensar."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y una membrana despolarizada inactiva los canales de sodio que dependen del voltaje. Resultado: la conducción entre aurícula y ventrículo, y dentro del ventrículo, se vuelve lenta. Ese enlentecimiento es lo que vas a ver en el electrocardiograma."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Para clasificarla: sobre cinco coma cinco miliequivalentes por litro es leve, sobre seis es moderada, y sobre seis coma cinco es grave. La toxicidad depende de la cifra, pero también de lo rápido que subió."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y lo que la hace tan temida: sobre seis coma cinco, el paciente puede caer en fibrilación ventricular o en asistolia en cuestión de minutos, sin ningún aviso previo."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El electrocardiograma sigue una progresión bastante típica, pero traicionera. Lo primero son las ondas T altas, picudas, simétricas y de base angosta, en general con potasio entre cinco coma cinco y seis coma cinco."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Luego se alarga el PR y la onda P se va aplanando, entre seis coma cinco y siete."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Entre siete y ocho, la P desaparece por completo y el QRS se ensancha. Aquí ya estás frente a un corazón al borde del paro."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Después viene el ritmo idioventricular, la bradicardia extrema, el bloqueo auriculoventricular avanzado y el patrón en onda sinusoidal. El último paso es la fibrilación ventricular o la asistolia. Fíjate en la palabra traicionera: no siempre se recorren todas las etapas, y el paciente puede saltar al paro desde cualquiera."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Veamos cómo llega. En el corazón, el cuadro típico es la bradicardia severa con QRS ancho. Y una regla que se pregunta: en un paciente renal crónico o dializado, bradicardia con QRS ancho es hiperkalemia hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Esa bradicardia puede dar hipotensión, síncope y, al final, el paro. Por eso ante la sospecha, lo primero es un monitor y un electrocardiograma, que están disponibles en segundos."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La otra cara es neuromuscular. La hiperkalemia grave da debilidad profunda, hasta una tetraparesia flácida ascendente con reflejos osteotendíneos abolidos."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Por eso puede disfrazarse de síndrome de Guillain-Barré. La pista está en el contexto: un paciente en hemodiálisis que faltó a su sesión y comió mucho. Esa historia exacta ya salió en el examen, y la vamos a ver."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora el tratamiento, paso por paso. ¿Cuándo actuar de inmediato? Frente a cualquier alteración del electrocardiograma atribuible a hiperkalemia, incluso si son solo ondas T picudas, o con potasio sobre seis coma cinco e inestabilidad."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y la primera medida, absoluta, es el gluconato de calcio al diez por ciento: una ampolla de diez mililitros por vía endovenosa, en dos a cinco minutos. Esto es lo que el examen pregunta una y otra vez."
+    },
+    {
+      "file": "s04_g02",
+      "text": "¿Por qué funciona? El calcio lleva el umbral de disparo del miocito a valores menos negativos, y así restaura la distancia normal entre el reposo y el umbral. Actúa en uno a tres minutos y su efecto dura treinta a sesenta minutos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si a los cinco a diez minutos el electrocardiograma sigue alterado, se repite una segunda ampolla."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y ahora la trampa conceptual: el calcio no baja el potasio en nada. Solo compra tiempo para que actúen las otras medidas. Por eso, si en una pregunta te dicen que se dio calcio y se revirtió el electrocardiograma, el problema no está resuelto: el potasio sigue igual de alto."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Una duda que aparece siempre: si el paciente llega con treinta latidos por minuto, ¿no debería ir un marcapasos? El libro es claro. Un marcapasos transitorio instalado sin estabilizar antes la membrana suele fracasar, porque el miocardio despolarizado no captura el estímulo eléctrico."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Así que aunque la alternativa del marcapasos suene lógica frente a una bradicardia, en la hiperkalemia la respuesta es el calcio. Primero la membrana, después todo lo demás."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En paralelo, desde el minuto cero: monitor electrocardiográfico continuo y una vía venosa gruesa. Sin eso no puedes ver si el calcio funcionó ni administrar lo que viene."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El segundo paso es desplazar el potasio al interior de la célula. La medida más potente es la insulina: diez unidades de insulina regular endovenosa en bolo, con cincuenta a cien mililitros de suero glucosado al treinta por ciento, o doscientos cincuenta a quinientos de suero glucosado al diez."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La insulina estimula la bomba de sodio y potasio en el músculo y el hígado. Empieza a actuar en quince a treinta minutos y dura cuatro a seis horas. ¿Y la glucosa? Está ahí solo para evitar una hipoglicemia severa, por eso se controla la glicemia en forma seriada."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Se suma el salbutamol nebulizado en dosis altas, diez a veinte miligramos, unas cuatro veces la dosis que usas en el asma. Estimula la misma bomba por otra vía y actúa en sinergia con la insulina."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El bicarbonato de sodio solo sirve si coexiste una acidosis metabólica severa confirmada: pH bajo siete coma uno, o bicarbonato bajo doce."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Sin acidosis, o en el paciente anúrico en diálisis, es ineficaz y además provoca sobrecarga de volumen e hipocalcemia iónica. Todo este paso baja la kalemia entre medio y un poco más de un miliequivalente, pero es transitorio."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El potasio que metiste a la célula vuelve a salir en unas horas. Por eso, en paralelo, hay que eliminarlo. Si el paciente orina, la furosemida, cuarenta a ochenta miligramos endovenosos, aumenta el flujo tubular y la llegada de sodio al túbulo colector, y con eso fuerza la secreción de potasio."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Los quelantes intestinales, como el sulfonato de poliestireno, el patiromer o el ciclosilicato de zirconio, actúan en horas. Sirven para el manejo subagudo o ambulatorio, no para el rescate."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y la herramienta más rápida, potente y definitiva es la hemodiálisis de urgencia. Es mandatoria en la anuria y en el paciente en diálisis que omitió su sesión."
+    },
+    {
+      "file": "s07_g03",
+      "text": "También en la hiperkalemia refractaria al tratamiento médico, o asociada a edema agudo de pulmón. Esto conecta con la clase de urgencias dialíticas: la hiperkalemia refractaria es una de las indicaciones clásicas de diálisis."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ordenemos el arsenal por tiempos, porque así se razona en el examen. El gluconato de calcio actúa en uno a tres minutos, dura media hora a una hora, y no baja la kalemia."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La insulina con glucosa actúa en quince a treinta minutos y dura cuatro a seis horas. Baja el potasio, pero lo esconde en la célula."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El salbutamol tiene un inicio parecido y dura dos a cuatro horas."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La furosemida también actúa en quince a treinta minutos, pero esta sí saca el potasio del cuerpo, siempre que el paciente orine."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y la hemodiálisis actúa apenas se conecta, con un efecto permanente. Fíjate en la lógica: lo más rápido protege, lo intermedio redistribuye, y lo definitivo elimina."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Pongamos todo en un reloj. Minuto cero: monitor continuo, vía venosa gruesa, y buscar en el trazado las T picudas, el PR largo o el QRS ancho."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Minutos uno a cinco: gluconato de calcio, y se repite a los cinco a diez minutos si el electrocardiograma no mejora."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Minutos cinco a quince: insulina rápida con suero glucosado y salbutamol nebulizado, con controles de glicemia cada treinta a sesenta minutos para no provocar una hipoglicemia."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y entre los quince y treinta minutos, eliminar. Si orina, furosemida. Si está anúrico o tiene una enfermedad renal crónica en etapa cinco, llamado urgente a nefrología para hemodiálisis. La diuresis decide el camino."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Antes de cerrar el tratamiento, una trampa importante. Si el paciente está completamente asintomático, el electrocardiograma es rigurosamente normal y el potasio alto no tiene explicación, piensa en pseudohiperkalemia."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La causa principal es la hemólisis mecánica al tomar la muestra: torniquete prolongado, puño apretado o aguja de calibre fino. El potasio sale de los glóbulos rojos en el tubo, no en el paciente."
+    },
+    {
+      "file": "s10_g02",
+      "text": "También la dan la trombocitosis marcada, sobre quinientas mil plaquetas, y la leucocitosis extrema, sobre cincuenta mil."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La conducta es repetir la muestra venosa sin torniquete, o tomar gases arteriales con electrolitos. Tratar un número falso con calcio, insulina o diálisis es exponer al paciente a daño sin beneficio."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Juntemos todo en un árbol de decisión, tal como lo vas a razonar frente a una kalemia alta. Te informan un potasio elevado. Lo primero no es el número: es mirar el corazón con un monitor y un electrocardiograma."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La pregunta clave: ¿hay alteraciones electrocardiográficas atribuibles al potasio, o una cifra sobre seis coma cinco con inestabilidad?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si el paciente está asintomático, con electrocardiograma normal y sin explicación para el potasio alto, sospecha pseudohiperkalemia y repite la muestra antes de tratar."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Si hay compromiso cardíaco, gluconato de calcio al diez por ciento de inmediato, repitiendo si el trazado no mejora. Enseguida, redistribuir con insulina, glucosa y salbutamol. El bicarbonato solo si hay acidosis severa."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y en paralelo hay que eliminar el potasio. ¿El paciente tiene diuresis?"
+    },
+    {
+      "file": "s11_g05",
+      "text": "Si orina, furosemida endovenosa, y quelantes intestinales para el manejo posterior."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Si está anúrico, es un dializado que omitió su sesión, la hiperkalemia es refractaria o hay edema pulmonar: hemodiálisis de urgencia."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Repasemos las trampas. Hiperkalemia con bradicardia o QRS ancho: primero gluconato de calcio. El error es partir por el marcapasos o por la diálisis."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Si el calcio revirtió el electrocardiograma, sigue la insulina con glucosa y el salbutamol. El error es pensar que se resolvió: el potasio no ha bajado nada."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En el rescate agudo no van las resinas: tardan horas."
+    },
+    {
+      "file": "s12_g03",
+      "text": "El bicarbonato no es de rutina: solo si hay acidosis metabólica severa."
+    },
+    {
+      "file": "s12_g04",
+      "text": "En el dializado anúrico que faltó a su sesión, la furosemida no tiene dónde actuar: va hemodiálisis de urgencia."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y si el potasio está alto pero el paciente y su electrocardiograma están normales, se repite la muestra antes de tratar."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Vamos con un caso. Hombre de veintiocho años en hemodiálisis que falta a su sesión del sábado tras una reunión con mucho asado y cítricos. El lunes llega en sopor, con paresia flácida de las cuatro extremidades, treinta y cuatro latidos por minuto e hipotensión. Sin ondas P, QRS muy ancho y T picudas. Potasio de ocho coma seis, pH siete coma veinticuatro. Ya recibió gluconato de calcio."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la medida que elimina el potasio en forma definitiva en este paciente?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: furosemida endovenosa, salbutamol nebulizado, hemodiálisis de urgencia, sulfonato de poliestireno oral, o bicarbonato de sodio endovenoso. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta es la C, hemodiálisis de urgencia. Es un dializado que omitió su sesión: indicación inmediata. El distractor tentador es la furosemida, pero necesita un riñón que produzca orina. El salbutamol solo esconde el potasio en la célula, las resinas tardan horas, y el bicarbonato no está indicado con este pH. Mientras llega la diálisis, se inicia la insulina con glucosa."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con bradicardia de treinta latidos por minuto e hiperkalemia de ocho coma tres."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: bicarbonato de sodio, insulina con glucosa, gluconato de calcio, kayexalate oral, o hemodiálisis de urgencia. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C, gluconato de calcio endovenoso. Fíjate que dice conducta inicial, y la bradicardia te dice que el corazón ya está sufriendo. Lo primero es proteger la membrana. La trampa es la hemodiálisis: es la medida definitiva, pero demora en instalarse, y este paciente puede hacer un paro antes. La insulina con glucosa es el paso dos, y el kayexalate tarda horas."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintisiete años en hemodiálisis que no asiste a su sesión del sábado porque va a una fiesta con abundante comida y bebida. El lunes amanece con malestar y dificultad para mover las extremidades. Al examen tiene tetraparesia y cuarenta latidos por minuto."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: síndrome de Guillain-Barré, hipokalemia, hiperkalemia, hipocalcemia, o hiperfosfatemia. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la C, hiperkalemia. Junta las tres piezas: un dializado que omite su sesión, una tetraparesia flácida y una bradicardia. El distractor es el Guillain-Barré, que también da debilidad ascendente, pero no explica la bradicardia ni el contexto. Y la hipokalemia también da debilidad, pero un dializado que faltó a su sesión acumula potasio, no lo pierde. El paso siguiente es el electrocardiograma y el calcio."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Con electrocardiograma alterado, o potasio sobre seis coma cinco con inestabilidad, lo primero es siempre el gluconato de calcio."
+    },
+    {
+      "file": "s16_g01",
+      "text": "El calcio no baja el potasio: solo compra tiempo."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La insulina con glucosa y el salbutamol meten el potasio a la célula, y el bicarbonato solo sirve si hay acidosis severa."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Para eliminarlo, decide la diuresis: si orina, furosemida; si no orina o es dializado, hemodiálisis de urgencia."
+    },
+    {
+      "file": "s16_g04",
+      "text": "En el renal crónico, bradicardia con QRS ancho es hiperkalemia hasta demostrar lo contrario. Y si todo está normal menos el número, repite la muestra."
+    },
+    {
+      "file": "s16_g05",
+      "text": "En la próxima clase vemos el otro extremo, la hipokalemia. Si te llevas una sola idea de hoy: frente a una hiperkalemia con el corazón comprometido, primero calcio, porque protege, aunque no baje ni un miliequivalente. Nos vemos en la próxima clase."
+    }
+  ]
+}

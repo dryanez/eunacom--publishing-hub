@@ -1,0 +1,292 @@
+{
+  "id": "nefro-16",
+  "title": "Nefrologia 4.4: Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+  "specialty": "Nefrología",
+  "chars": 14012,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos un nefrítico que se resuelve solo, la postestreptocócica. Hoy vemos el extremo opuesto: la glomerulonefritis rápidamente progresiva, el cuadro más grave de la nefrología, que puede dejar a un paciente en diálisis para siempre en cuestión de semanas. Es una emergencia, y el examen pregunta tres cosas: reconocerla, saber qué tipo es, y no retrasar el tratamiento."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la definición, que tiene tres partes. La primera es la velocidad: el paciente pierde más de la mitad de su filtración glomerular en días o semanas. Por ejemplo, una creatinina que era normal hace dos meses y hoy está sobre cuatro."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La segunda es un síndrome nefrítico activo, con hematuria glomerular masiva, acantocitos y cilindros hemáticos. Es lo que vimos en la clase pasada, pero sin frenos."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y la tercera es histológica: en la biopsia, más de la mitad de los glomérulos tiene semilunas. Por eso también se la llama glomerulonefritis extracapilar."
+    },
+    {
+      "file": "s01_g03",
+      "text": "En el examen el paciente típico es un adulto mayor que lleva semanas con malestar, astenia, baja de peso y febrícula, y que después agrega orina oscura, menos orina, edema e hipertensión. Si ves esa combinación con una creatinina que se disparó, piensa en esta enfermedad."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos qué es una semiluna, porque explica por qué esto es una urgencia. Todo parte con una necrosis que atraviesa la membrana basal del glomérulo y rompe la pared del capilar."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Por esa rotura salen fibrina, macrófagos y mediadores inflamatorios hacia el espacio de Bowman, que es donde normalmente se recoge la orina."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Eso estimula a las células epiteliales parietales a proliferar, y forman una media luna que va rodeando y asfixiando al ovillo capilar. Esa es la semiluna."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Al principio la semiluna es celular, está hecha de células vivas e inflamación, y es reversible si se inmunosuprime a tiempo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Pero en semanas se vuelve fibrocelular y después fibrosa: una cicatriz que ya no responde a ningún fármaco, y el paciente termina en diálisis crónica. Por eso el porcentaje de semilunas fibrosas en la biopsia es el factor pronóstico más importante. Aquí el tiempo es riñón."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, la clasificación. Las semilunas se ven iguales en cualquier glomerulonefritis rápidamente progresiva. Lo que las separa es la inmunofluorescencia, que muestra cómo se depositan los anticuerpos. Hay tres patrones."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Patrón lineal: la inmunoglobulina G dibuja una línea continua a lo largo de la membrana basal, porque el anticuerpo está dirigido contra la membrana misma. Es el tipo uno, por anticuerpos anti membrana basal, diez a quince por ciento de los casos."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Patrón granular: grumos de inmunoglobulina G y C tres en el mesangio y la pared capilar. Son inmunocomplejos, y consumen complemento, así que el C tres está bajo. Es el tipo dos, veinte a treinta por ciento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y el tercer patrón es casi no ver nada: la inmunofluorescencia es negativa o escasa, y por eso se llama pauciinmune. Es el tipo tres, asociado a los anticuerpos ANCA, y es el más frecuente: cerca del sesenta por ciento, sobre todo en mayores de sesenta años."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Veamos cada tipo. En el tipo uno, la serología muestra anticuerpos anti membrana basal glomerular, y la biopsia, ese depósito lineal."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Cuando además hay hemorragia alveolar difusa, con hemoptisis e infiltrados pulmonares, se llama síndrome de Goodpasture. Es un síndrome riñón pulmón: el mismo anticuerpo ataca la membrana basal del glomérulo y la del alvéolo."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En el tipo dos, el complemento está bajo y hay que buscar la enfermedad que genera los inmunocomplejos. La primera es la nefritis lúpica proliferativa difusa, clase cuatro, que veremos en la próxima clase."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Luego, una glomerulonefritis postinfecciosa grave, y la endocarditis bacteriana subaguda, que es un clásico de pregunta: un paciente con endocarditis que hace hematuria dismórfica y C tres bajo."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y la crioglobulinemia mixta, asociada al virus de la hepatitis C."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Dentro de las vasculitis ANCA hay dos que tienes que separar. La poliangeítis microscópica se asocia a ANCA con patrón perinuclear, dirigidos contra la mieloperoxidasa, en más del ochenta por ciento."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Da un compromiso renal aislado, o con capilaritis pulmonar, pero sin granulomas. Es la vasculitis clásica del adulto mayor con síntomas generales y la creatinina subiendo."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La granulomatosis con poliangeítis, la antigua enfermedad de Wegener, se asocia a ANCA con patrón citoplasmático, contra la proteinasa tres, en más del noventa por ciento."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y su sello es la vía aérea superior: sinusitis crónica destructiva, otitis y perforación del tabique, con la nariz en silla de montar."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Además, nódulos pulmonares cavitados y glomerulonefritis necrotizante. Para recordarlo: la c de citoplasmático va con la granulomatosis, que tiene cavidades."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Pasemos al manejo. Ante la sospecha, la biopsia renal es una urgencia médica: es el examen que confirma el diagnóstico, cuenta las semilunas y dice el tipo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Pero ojo: si la biopsia se retrasa y el deterioro renal es acelerado, o hay compromiso pulmonar, el tratamiento no se posterga. Se parte con pulsos de metilprednisolona intravenosa, quinientos a mil miligramos al día por tres días seguidos, y luego prednisona oral a un miligramo por kilo."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Junto a los corticoides va un inmunosupresor citotóxico: ciclofosfamida, o rituximab, un anticuerpo anti CD veinte, especialmente útil en la vasculitis ANCA que recae."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y con esa inmunosupresión tan intensa, se agrega cotrimoxazol como profilaxis de la neumonía por Pneumocystis jirovecii."
+    },
+    {
+      "file": "s06_g04",
+      "text": "El último pilar es la plasmaféresis, que retira los anticuerpos circulantes. El libro la indica de primera línea en la enfermedad anti membrana basal o Goodpasture, y en la vasculitis ANCA con hemorragia alveolar activa o con creatinina sobre cinco coma siete o necesidad de diálisis."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Veamos el esquema con sus números. La fase uno es la metilprednisolona, hasta mil miligramos al día en infusión de dos horas, por tres días, para detener la inflamación de las semilunas."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La fase dos es la ciclofosfamida intravenosa mensual por tres a seis meses, o rituximab, trescientos setenta y cinco miligramos por metro cuadrado a la semana por cuatro dosis. El objetivo es una remisión profunda."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La plasmaféresis recambia cuatro litros de plasma al día, reemplazados con albúmina al cinco por ciento."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Se hacen siete a catorce sesiones, en la hemorragia alveolar o en la falla renal que ya requiere diálisis."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y el cotrimoxazol, ciento sesenta con ochocientos miligramos, tres veces por semana, es obligatorio mientras dure la inmunosupresión."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos todo en un árbol de decisión, tal como vas a enfrentar a un paciente con un nefrítico que empeora en semanas. Paciente con un síndrome nefrítico activo y una creatinina que se multiplicó en semanas. Sospecha de glomerulonefritis rápidamente progresiva: hospitalizar, biopsia renal urgente y, si hay deterioro acelerado, pulsos de metilprednisolona sin esperar el resultado."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La biopsia y la serología dicen el tipo. ¿Cómo es la inmunofluorescencia?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Depósito lineal y anti membrana basal positivo: tipo uno. Si hay hemorragia alveolar es un Goodpasture. Pulsos, ciclofosfamida y plasmaféresis, que aquí es de primera línea."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Depósito granular con complemento bajo: tipo dos. Busca la enfermedad de base: lupus, endocarditis, postinfecciosa o crioglobulinemia por hepatitis C, y trátala junto con la inmunosupresión."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Casi sin depósitos y ANCA positivo: tipo tres, la más frecuente. Pulsos de metilprednisolona más ciclofosfamida o rituximab, con cotrimoxazol. ¿Hay hemorragia alveolar o creatinina sobre cinco coma siete?"
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si la hay, el libro agrega plasmaféresis de rescate."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no, se sigue con la inducción: corticoides más ciclofosfamida o rituximab, y cotrimoxazol."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos en una tabla, porque así se pregunta: te dan una pista y tienes que llegar al tipo. Tipo uno: depósito lineal, anti membrana basal positivo, y la pista extrarrenal es la hemorragia alveolar con hemoptisis."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Tipo dos: depósito granular, complemento bajo, y las pistas son las de la enfermedad de base: lupus con artritis, púrpura palpable de la crioglobulinemia, o un soplo de endocarditis."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Tipo tres, poliangeítis microscópica: pauciinmune, ANCA perinuclear, en un adulto mayor con febrícula, baja de peso y mialgias. El complemento es normal, y eso la separa de la postestreptocócica y del lupus."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y tipo tres, granulomatosis con poliangeítis: pauciinmune, ANCA citoplasmático, con sinusitis destructiva, nariz en silla de montar y nódulos cavitados. Y una última trampa: si te preguntan qué examen confirma el diagnóstico, la respuesta es la biopsia, no los ANCA."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Hombre de setenta y un años con seis semanas de astenia, cinco kilos de baja de peso y febrícula, y en los últimos diez días, orina oscura, menos orina y edema. Presión de ciento setenta y seis con ciento diez. Su creatinina era cero coma nueve hace dos meses y hoy es cuatro coma tres. Hay acantocitos y cilindros hemáticos, anemia, VHS de noventa y ocho, complemento normal y ANCA perinuclear positivo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: furosemida y controlar el C tres, hospitalizar con biopsia urgente y pulsos de metilprednisolona más ciclofosfamida o rituximab, prednisona oral en dosis baja, hemodiálisis crónica sin inmunosuprimir, o solo IECA. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la B. La creatinina se multiplicó en semanas, hay un nefrítico activo, y el ANCA perinuclear con complemento normal apunta a una poliangeítis microscópica. Es una emergencia: biopsia urgente y pulsos sin esperar. La A es la trampa: es el manejo de la postestreptocócica, pero aquí el complemento es normal y el riñón no se va a recuperar solo. Y la diálisis sin inmunosupresión renuncia a unas semilunas que todavía pueden ser reversibles."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos con las preguntas reales. Esta es del EUNACOM de diciembre de dos mil veinticinco. Paciente de setenta y un años con dos meses de malestar, mialgias y febrícula, que agrega hematuria, edema y menos orina. Presión de ciento setenta y seis con ciento once, creatinina cuatro coma tres, y acantocitos en el sedimento."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Qué examen es el más adecuado para confirmar el diagnóstico?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: anticuerpos antinucleares, biopsia renal, ANCA, uroTAC, o electroforesis de proteínas en orina. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, biopsia renal. El cuadro es una glomerulonefritis rápidamente progresiva, y lo más probable es una poliangeítis microscópica. Los ANCA son el distractor más tentador, porque sí se piden y orientan mucho. Pero la pregunta dice confirmar, y lo que confirma es la biopsia: muestra las semilunas y el patrón de inmunofluorescencia."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una del EUNACOM de diciembre de dos mil diecisiete. Mujer de sesenta y siete años con malestar general, febrícula y edema. Presión de ciento ochenta con ciento diez, creatinina cuatro coma uno, ochenta por ciento de dismorfia y cilindros hemáticos. Plaquetas normales."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones son: glomerulonefritis postestreptocócica, nefropatía diabética, lesión glomerular mínima, vasculitis ANCA positiva, o púrpura trombocitopénico trombótico. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, vasculitis ANCA positiva. Adulta mayor, síntomas generales, nefrítico y una creatinina de cuatro: es el perfil de la poliangeítis microscópica. La postestreptocócica tienta por el nefrítico, pero no se describe una infección previa y es un cuadro de niños y jóvenes. Y el púrpura trombocitopénico trombótico necesitaría plaquetas bajas."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Ahora una del EUNACOM de julio de dos mil diecinueve. Mujer de setenta y seis años con un mes de tos y disnea, a veces con expectoración con sangre, a la que se agregan hematuria, edema y malestar. Creatinina cuatro coma seis, potasio alto, proteinuria de mil seiscientos miligramos, ANA negativos y complemento normal."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: glomerulonefritis postestreptocócica, lupus, tuberculosis miliar, vasculitis sistémica, o púrpura trombocitopénico trombótico. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D, vasculitis sistémica. Hemoptisis más glomerulonefritis rápidamente progresiva es un síndrome riñón pulmón. A los setenta y seis años, con ANA negativos y complemento normal, lo más probable es una poliangeítis microscópica con capilaritis pulmonar. El complemento normal es el dato que descarta la postestreptocócica y el lupus."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La última, del EUNACOM de julio de dos mil diecisiete. Paciente de treinta y tres años hospitalizado por una endocarditis subaguda por estreptococo viridans, con penicilina y gentamicina. Hace hematuria con noventa y cinco por ciento de dismorfia y cilindros hemáticos, creatinina dos coma cuatro, ANA negativo, y C tres bajo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones son: embolias renales, nefritis intersticial por penicilina, daño tubular por gentamicina, glomerulonefritis por complejos inmunes, o síndrome hemolítico urémico. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la D, glomerulonefritis por inmunocomplejos, el tipo dos. La dismorfia y los cilindros hemáticos te dicen que el daño es glomerular, y el C tres bajo te dice que hay inmunocomplejos, que aquí vienen de la endocarditis. La pregunta te tienta con los fármacos: la gentamicina y la penicilina dañan el túbulo y el intersticio, pero no dan cilindros hemáticos ni bajan el complemento."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Nefrítico con una creatinina que se dispara en semanas es una glomerulonefritis rápidamente progresiva, con semilunas en más de la mitad de los glomérulos."
+    },
+    {
+      "file": "s15_g01",
+      "text": "La semiluna celular es reversible; la fibrosa, no. Por eso es una emergencia."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Lineal es anti membrana basal y Goodpasture; granular son inmunocomplejos con C tres bajo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Pauciinmune es vasculitis ANCA, la más frecuente en el adulto mayor: perinuclear para la poliangeítis microscópica, citoplasmático para la granulomatosis."
+    },
+    {
+      "file": "s15_g04",
+      "text": "Biopsia urgente, pero los pulsos de metilprednisolona con ciclofosfamida o rituximab no esperan."
+    },
+    {
+      "file": "s15_g05",
+      "text": "Y plasmaféresis en el Goodpasture y en la hemorragia alveolar. Si te llevas una sola idea de hoy: en la glomerulonefritis rápidamente progresiva el tiempo es riñón, así que se biopsia rápido y se trata sin esperar. En la próxima clase vemos una de sus causas en detalle, la nefritis lúpica. Nos vemos en la próxima clase."
+    }
+  ]
+}

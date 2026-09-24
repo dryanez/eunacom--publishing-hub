@@ -1,0 +1,328 @@
+{
+  "id": "endo-18",
+  "title": "Endocrinología 7.18: Osteoporosis: Densitometría Ósea (DEXA), Criterios FRAX y Tratamiento",
+  "specialty": "Endocrinología",
+  "chars": 13192,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior terminamos con el calcio bajo; hoy pasamos del calcio al hueso, con la osteoporosis. Es un tema de frecuencia alta, y el examen pregunta casi siempre lo mismo: que sepas leer una densitometría, que sepas cuándo una fractura ya es el diagnóstico, y que sepas indicar el alendronato sin romperle el esófago al paciente. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La osteoporosis es un hueso con menos masa y con una arquitectura dañada, que se rompe ante un golpe de baja energía. Para medirla, el estándar de oro es la absorciometría de rayos X de doble energía, la DEXA, en la columna lumbar y en la cadera."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El resultado que importa es el T-score: cuántas desviaciones estándar está el hueso del paciente por debajo del pico de masa ósea de un adulto joven. Y siempre manda el sitio más bajo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si el T-score es menos uno o más, es normal. Entre menos uno y menos dos coma cinco, es osteopenia, o baja masa ósea."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y con menos dos coma cinco o menos, en cualquiera de los sitios, es osteoporosis. Ese es el número que tienes que tener grabado: menos dos coma cinco."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Si además hay una o más fracturas por fragilidad, hablamos de osteoporosis severa o establecida. Y esa fractura, como vamos a ver ahora, pesa más que cualquier número."
+    },
+    {
+      "file": "s02_g00",
+      "text": "¿Qué es una fractura por fragilidad? Es la que ocurre ante un traumatismo de baja energía, típicamente una caída desde la propia altura. Un hueso sano no se rompe con eso."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Los sitios típicos son la cadera, la vértebra por aplastamiento y el húmero proximal, además de la muñeca, la fractura de Colles."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y aquí está la regla que más se pregunta. Un adulto mayor con una fractura por fragilidad mayor tiene osteoporosis, sin importar el T-score. Aunque la densitometría diga osteopenia, se trata. Esperar el número es la trampa."
+    },
+    {
+      "file": "s02_g03",
+      "text": "¿Y a quién le pedimos la densitometría? A las mujeres de sesenta y cinco años o más, que son la población de mayor prevalencia en Chile."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y antes, si hay factores de riesgo: sobre todo el uso crónico de corticoides o una fractura previa. El paciente con corticoides por años es un clásico del examen."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, ¿cuándo se inician fármacos? Hay cuatro indicaciones. Las dos primeras ya las conoces: una fractura previa de cadera o vertebral por fragilidad, o un T-score de menos dos coma cinco o menos en columna o cadera."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La tercera es el uso crónico planificado de corticoides orales: prednisona de cinco a siete coma cinco miligramos al día o más, por más de tres meses. El corticoide destruye hueso, y a ese paciente no se le espera la fractura."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La cuarta es la más fina. La osteopenia, por sí sola, no es indicación de fármacos. Lo que decide es cuánto riesgo tiene esa persona de fracturarse."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Para eso está la herramienta FRAX, que calcula el riesgo de fractura en los próximos diez años sumando edad, sexo y factores clínicos."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Si el riesgo de fractura osteoporótica mayor es de veinte por ciento o más, o el de fractura de cadera es de tres por ciento o más, esa osteopenia se trata."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Cualquiera de las cuatro puertas lleva al mismo lugar: un bifosfonato, siempre acompañado de calcio y vitamina D. Veamos ahora qué factores alimentan el FRAX."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Los factores que integra el FRAX tienen lógica. Primero, los del propio paciente: la edad avanzada y el sexo femenino, porque la menopausia acelera la pérdida ósea."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y el antecedente de un padre o una madre con fractura de cadera."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Luego, el estilo de vida. Un índice de masa corporal bajo veinte: fíjate que la mujer delgada tiene más riesgo, no menos. Eso aparece mucho en los casos del examen."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el tabaquismo activo y el alcohol, desde tres unidades al día."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Por último, las causas secundarias: los corticoides, la artritis reumatoide y las demás causas de osteoporosis secundaria. Una paciente con artritis reumatoide que toma prednisona suma dos factores a la vez."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Vamos al tratamiento. La primera línea son los bifosfonatos orales: alendronato setenta miligramos una vez a la semana, o risedronato, treinta y cinco a la semana o ciento cincuenta al mes."
+    },
+    {
+      "file": "s05_g01",
+      "text": "¿Cómo funcionan? Inhiben una enzima del osteoclasto, la farnesil pirofosfato sintasa, y el osteoclasto muere. Menos osteoclastos, menos resorción: el hueso deja de perderse."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y ahora lo que más se pregunta. El alendronato casi no se absorbe: menos del uno por ciento. Por eso se toma a primera hora, en ayunas, con un vaso lleno de agua de la llave. Ni leche, ni jugo, ni té, ni agua mineral con gas, porque anulan la absorción."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Después, el paciente se queda erguido, de pie o sentado, sin acostarse, por treinta a sesenta minutos. ¿Por qué? Porque si la pastilla se queda pegada en el esófago, produce una esofagitis erosiva o una úlcera."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y en esos mismos treinta a sesenta minutos, nada de comida ni otros medicamentos. Ojo con el calcio: se da, pero no junto con el alendronato."
+    },
+    {
+      "file": "s06_g00",
+      "text": "¿Y si el paciente no puede cumplir esas reglas? Existe la alternativa endovenosa: ácido zoledrónico, cinco miligramos en una infusión de quince minutos, una vez al año."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Es de elección cuando hay reflujo severo, esofagitis previa, intolerancia digestiva, un paciente que no puede mantenerse erguido, o que no adhiere a la vía oral. Conecta esto con las reglas: si no puede cumplirlas, cambias la vía."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Todo paciente tratado recibe además calcio elemental, mil a mil doscientos miligramos al día, sumando la dieta y el suplemento."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y vitamina D tres, colecalciferol, de ochocientas a dos mil unidades al día. Pero ojo: calcio y vitamina D solos no tratan una osteoporosis. Son la base, no el tratamiento."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Con el uso prolongado aparecen dos complicaciones raras. La osteonecrosis de la mandíbula, asociada a extracciones dentales."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y la fractura atípica subtrocantérica del fémur, que se anuncia con dolor en el muslo después de más de cinco años de uso."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Por eso, a los tres a cinco años de bifosfonatos se evalúan las vacaciones terapéuticas. Y el seguimiento se hace con una densitometría cada uno a dos años."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Hay dos fármacos más que debes reconocer. El denosumab es un anticuerpo monoclonal que bloquea el ligando RANK, la señal que activa al osteoclasto. Se da sesenta miligramos subcutáneos cada seis meses."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Es útil en la falla renal moderada, donde el zoledrónico requiere precaución si la filtración está bajo treinta y cinco. Pero tiene un problema: si se suspende, la pérdida ósea rebota rápido."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y la teriparatida, un análogo de la paratohormona. Todos los anteriores frenan la resorción; la teriparatida, en cambio, forma hueso. Se da veinte microgramos subcutáneos al día, por un máximo de veinticuatro meses."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Se reserva para la osteoporosis severa, con múltiples fracturas vertebrales."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen. Mujer de sesenta y cinco años o más, o alguien con factores de riesgo como corticoides crónicos o una fractura previa. Lo primero que te preguntas no es el número, sino si ya se fracturó."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Tiene una fractura por fragilidad, de cadera, vértebra o húmero proximal, con una caída desde su propia altura?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si la tiene, es osteoporosis, sea cual sea el T-score. Se trata de inmediato, con la misma elección de vía que vemos más abajo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si no hay fractura, pides la densitometría y miras el T-score más bajo."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Menos dos coma cinco o menos: osteoporosis, y se trata. Ahora eliges la vía: ¿puede tomar el bifosfonato por boca y quedarse erguido?"
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si tolera la vía oral, alendronato setenta miligramos a la semana, en ayunas, con agua de la llave y erguido, más calcio y vitamina D."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si tiene reflujo severo, esofagitis, o no puede mantenerse erguido, ácido zoledrónico cinco miligramos endovenoso una vez al año."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Entre menos uno y menos dos coma cinco: osteopenia. Calculas el FRAX, y si supera veinte por ciento para fractura mayor o tres por ciento para cadera, se trata."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Sobre el umbral, se trata igual que una osteoporosis."
+    },
+    {
+      "file": "s08_g09",
+      "text": "Bajo el umbral, no hay indicación de fármaco antirresortivo: se controla y se trabajan los factores de riesgo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Fractura de cadera tras una caída a nivel, con un T-score de osteopenia: se trata con bifosfonato. El error es esperar a que el número llegue a menos dos coma cinco."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Osteoporosis densitométrica en alguien que ya toma calcio y vitamina D: se agrega el bifosfonato. Subir la dosis de los suplementos no trata la enfermedad."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Osteopenia sin fractura: primero el FRAX. Se trata solo si supera el umbral."
+    },
+    {
+      "file": "s09_g03",
+      "text": "El paciente con corticoides crónicos necesita densitometría, y con prednisona sobre el umbral por más de tres meses, tratamiento. No se espera la fractura."
+    },
+    {
+      "file": "s09_g04",
+      "text": "El alendronato se toma en ayunas, con agua de la llave, y erguido. Tomarlo con leche o justo antes de acostarse es la alternativa incorrecta clásica."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y si hay reflujo severo o esofagitis, el zoledrónico endovenoso anual, en vez de insistir con la vía oral."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Mujer de sesenta y siete años, menopáusica desde los cincuenta, sin terapia hormonal y sin fracturas. La densitometría muestra un T-score de menos dos coma ocho en columna y menos dos coma seis en el cuello femoral. Sus exámenes son normales y no tiene reflujo. Se decide iniciar alendronato semanal."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Qué indicación de administración es correcta?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: en la noche con leche, con el desayuno, en ayunas con agua de la llave y erguida, junto con el calcio, o disuelto en jugo de naranja. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la C. Primero, el diagnóstico: T-score bajo menos dos coma cinco, es osteoporosis, y se trata. Y como el alendronato casi no se absorbe e irrita el esófago, se toma en ayunas, solo con agua, y erguida. La trampa más tentadora es la D: el calcio sí se indica, pero junto al alendronato lo bloquea."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecinueve. Paciente de sesenta y seis años con un T-score de menos tres coma cinco en la cadera y menos dos coma ocho en la columna. Sus exámenes son normales. Mide un metro sesenta y ocho y pesa cuarenta y nueve kilos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: calcio y vitamina D, una carga de vitamina D, calcitonina intranasal, bifosfonatos orales o endovenosos, o terapia de reemplazo hormonal. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, bifosfonatos. Los dos sitios están bajo menos dos coma cinco: es osteoporosis. Fíjate además en el peso: su índice de masa corporal es de unos diecisiete, bajo veinte, y eso suma un factor de riesgo. La trampa es la A: el calcio y la vitamina D se dan, pero como base, no como tratamiento de la osteoporosis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La siguiente es del EUNACOM de julio de dos mil quince. Paciente de sesenta y cinco años que ya toma calcio, dos gramos al día, y vitamina D. Su densitometría muestra menos dos coma siete en la cadera y menos dos coma ocho en la columna."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: ejercicio aeróbico, reposo relativo, aumentar la vitamina D y el calcio, agregar bifosfonatos, o mantener el tratamiento. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, agregar bifosfonatos. Esta pregunta es la misma idea con otro disfraz: la paciente ya tiene la base, y aun así tiene osteoporosis. La trampa es la C, subir los suplementos. Más calcio no reemplaza al antirresortivo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Esta es del EUNACOM de julio de dos mil dieciséis. Paciente con artritis reumatoide, que toma metotrexato y prednisona hace cuatro años, y a quien ahora le diagnostican diabetes e inicia metformina."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Qué examen es perentorio realizarle como seguimiento?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: hemograma con plaquetas, radiografía atlantoaxoidea, insulinemia, LDH, o densitometría ósea. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la E, densitometría ósea. La diabetes es la distracción del enunciado. Lo importante son cuatro años de prednisona y una artritis reumatoide: dos factores de osteoporosis secundaria a la vez. La radiografía atlantoaxoidea tienta por la artritis, pero no se pide de rutina."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Y la última, del EUNACOM de agosto de dos mil veintiuno. Mujer de sesenta y tres años con dolor dorsal intenso de cinco días, que empezó con un esfuerzo en flexión y le limita la vida diaria. Hace un año se fracturó la muñeca. Al examen, dolor al mover la columna dorsal, sin cifosis."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: hernia del núcleo pulposo, tuberculosis vertebral, espondilolistesis, espondilosis, o fractura vertebral. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E, fractura vertebral por aplastamiento. Un esfuerzo mínimo que rompe una vértebra, en una mujer que ya se fracturó la muñeca: son dos fracturas por fragilidad. Y recuerda la regla: eso ya es osteoporosis y se trata. La hernia del núcleo pulposo tienta por el esfuerzo, pero la fractura previa es la pista que decide."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Un T-score de menos dos coma cinco o menos, en columna o cadera, es osteoporosis."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Y una fractura por fragilidad es osteoporosis, diga lo que diga la densitometría."
+    },
+    {
+      "file": "s15_g02",
+      "text": "En la osteopenia sin fractura, decide el FRAX: veinte por ciento para fractura mayor o tres por ciento para cadera."
+    },
+    {
+      "file": "s15_g03",
+      "text": "El tratamiento es un bifosfonato, siempre con calcio y vitamina D, que son la base pero no bastan solos."
+    },
+    {
+      "file": "s15_g04",
+      "text": "El alendronato va en ayunas, con agua de la llave y erguido. Si el paciente no puede cumplirlo, zoledrónico endovenoso una vez al año."
+    },
+    {
+      "file": "s15_g05",
+      "text": "Y a los tres a cinco años, se evalúan las vacaciones terapéuticas. Si te llevas una sola idea de hoy: la fractura por fragilidad ya es el diagnóstico, y el alendronato se toma en ayunas, con agua y erguido. En la próxima clase vemos la otra cara del hueso: el déficit de vitamina D y la osteomalacia. Nos vemos en la próxima clase."
+    }
+  ]
+}

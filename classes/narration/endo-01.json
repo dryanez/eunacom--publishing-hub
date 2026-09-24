@@ -1,0 +1,268 @@
+{
+  "id": "endo-01",
+  "title": "Endocrinología 1.1: Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+  "specialty": "Endocrinología",
+  "chars": 12811,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Abrimos el bloque de tiroides con la clase que ordena todas las demás: cómo leer un perfil tiroideo. Casi todas las preguntas de tiroides del EUNACOM te entregan una TSH y una T cuatro libre, y te piden decidir. Hoy vas a aprender a leerlas juntas, a separar lo primario de lo central, y a reconocer al paciente grave de la UCI al que no hay que tratar. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el eje, porque todo lo que vamos a interpretar sale de aquí. El hipotálamo secreta TRH, la hormona liberadora de tirotropina, y esta estimula a la adenohipófisis para que produzca TSH, la tirotropina."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La TSH estimula a la tiroides, que fabrica sobre todo T cuatro, cerca del ochenta por ciento, y solo un veinte por ciento de T tres."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Pero la hormona activa es la T tres. Y la mayor parte de la T tres circulante no sale de la tiroides: se fabrica en el hígado, el riñón y el músculo, cuando unas enzimas, las desyodasas, le quitan un yodo a la T cuatro. Guarda esta idea, porque es la base del síndrome del eutiroideo enfermo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y el eje se regula por retroalimentación negativa: la T cuatro libre frena a la hipófisis. Funciona como un termostato. Si la T cuatro baja un poco, la TSH sube mucho; si la T cuatro sube un poco, la TSH se desploma."
+    },
+    {
+      "file": "s02_g00",
+      "text": "De ese termostato sale la regla más útil de la clase. Como variaciones mínimas de la T cuatro libre producen cambios enormes de la TSH, la TSH es el sensor más fino que tienes."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Por eso la TSH ultrasensible es la prueba inicial de elección ante cualquier sospecha de enfermedad tiroidea, en cualquier nivel de atención. Es la más sensible y la más costo efectiva. Cuando la pregunta dice examen de elección para iniciar el estudio, la respuesta es la TSH."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El valor normal en el adulto va de cero coma cuatro a cuatro, o cuatro y medio. Fíjate que dije adulto: en el embarazo los rangos cambian, y eso lo vemos en la clase de situaciones especiales."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La T cuatro libre se suma para clasificar. La TSH te dice que algo anda mal; la T cuatro libre te dice qué tan mal y dónde está la falla. Y hay un caso en que la TSH sola te engaña, que es el que viene."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora juntemos los dos exámenes. Con la TSH y la T cuatro libre se arman cuatro patrones, y cada uno se deduce del termostato."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si la tiroides falla, la T cuatro libre baja, y la hipófisis responde subiendo mucho la TSH. TSH alta con T cuatro libre baja es el hipotiroidismo primario."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si la tiroides está empezando a fallar, la TSH sube y alcanza a mantener la T cuatro libre en rango normal. TSH alta con T cuatro libre normal es el hipotiroidismo subclínico: una falla compensada, con pocos o ningún síntoma."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Estos dos patrones comparten el problema: la glándula. Y el primario explica más del noventa y cinco por ciento de los hipotiroidismos."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Al revés, si la tiroides produce de más, la T cuatro libre o la T tres suben, y la TSH queda suprimida, bajo cero coma uno. Es el hipertiroidismo primario, que tiene su propio bloque más adelante."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y el cuarto patrón es el que se pregunta, porque engaña. T cuatro libre baja, pero la TSH está baja o normal. ¿Normal? Si la T cuatro está baja, una hipófisis sana debería estar gritando con una TSH alta. Una TSH normal en ese contexto es inapropiada."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Eso significa que el problema no está en la tiroides, sino arriba, en la hipófisis o el hipotálamo: el hipotiroidismo central. Y es justamente el caso en que la TSH sola, sin la T cuatro libre, te habría dejado tranquilo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Repasemos cómo se reconoce: T cuatro libre baja con una TSH baja, o con una TSH que parece normal, entre uno y tres coma cinco, pero que es inapropiada para esa T cuatro."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Las causas son las que dañan la hipófisis: un adenoma hipofisario, el síndrome de Sheehan después de un parto con hemorragia, o una cirugía o radioterapia de la región. Y como la hipófisis maneja varios ejes, estos pacientes suelen tener además hipogonadismo o falta de cortisol."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Por eso el hipotiroidismo central no se trata a ciegas: exige una resonancia magnética de hipófisis."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y la regla más importante: nunca inicies levotiroxina sin haber descartado, y tratado si existe, una insuficiencia suprarrenal. La hormona tiroidea acelera el consumo de cortisol, y en un paciente sin reserva puede desencadenar una crisis suprarrenal. Esta misma idea la vamos a ver con toda su fuerza en el coma mixedematoso."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Un detalle práctico: en el central, el control del tratamiento se hace con la T cuatro libre, no con la TSH, porque la TSH ya no es un sensor confiable."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora el tercer gran tema: el síndrome del eutiroideo enfermo. El nombre lo dice todo: la tiroides está sana, pero el paciente está muy enfermo de otra cosa. Sepsis, shock, un politraumatizado, una cetoacidosis o un postoperatorio mayor en la UCI."
+    },
+    {
+      "file": "s05_g01",
+      "text": "¿Recuerdas que la T tres activa se fabrica afuera, en los tejidos? Las citoquinas inflamatorias frenan justamente esa enzima, la desyodasa periférica. Entonces baja la conversión de T cuatro a T tres."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y la T cuatro se desvía hacia la T tres reversa, que es inactiva. Por eso la alteración más precoz y más común es una T tres muy baja, con la TSH y la T cuatro libre normales. Por eso también se llama síndrome de T tres baja."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si el paciente está más grave, también bajan la T cuatro libre y la TSH. Ojo aquí: T cuatro baja con TSH baja se parece mucho al hipotiroidismo central que acabamos de ver. Lo que los separa es el contexto: un paciente crítico con la T tres reversa alta."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y la clave para entender la conducta: esto no es una falla, es una respuesta adaptativa. El organismo gravemente enfermo baja su metabolismo para ahorrar energía. Si lo piensas así, la conducta sale sola."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La regla de oro: en el eutiroideo enfermo está contraindicado dar levotiroxina o T tres. No mejora el pronóstico y puede aumentar la mortalidad, porque obliga a gastar energía a un organismo que está intentando ahorrarla."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La conducta es observar el eje tiroideo y tratar exclusivamente la enfermedad de base. Cuando el paciente mejora, el perfil se normaliza solo."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y el perfil tiroideo se reevalúa semanas después del alta. Si en ese momento sigue alterado, recién ahí piensas en una enfermedad tiroidea real."
+    },
+    {
+      "file": "s06_g03",
+      "text": "En el examen, la alternativa trampa siempre es iniciar levotiroxina endovenosa o T tres por sonda, porque el examen sale bajo. Si ves un paciente de UCI con la T tres baja y la TSH normal, la respuesta es no tocar el eje."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pongamos todo en un solo árbol, tal como vas a leer un perfil tiroideo en el examen. Ante cualquier sospecha de enfermedad tiroidea se parte por la TSH, el sensor más fino del eje. Pero antes de leerla, mira el contexto del paciente."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Está gravemente enfermo de otra cosa? Porque en ese paciente el perfil cambia sin que la tiroides esté enferma."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si es un paciente crítico con la T tres baja y la T tres reversa alta, es el síndrome del eutiroideo enfermo. Se trata la enfermedad de base, no se da hormona, y el perfil se repite después del alta."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si no es un paciente crítico, lee la TSH junto con la T cuatro libre."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Con la TSH alta, la falla está en la glándula. La T cuatro libre dice si ya es clínica o todavía está compensada."
+    },
+    {
+      "file": "s07_g05",
+      "text": "TSH alta con T cuatro libre baja: hipotiroidismo primario. Se trata con levotiroxina, con garantía GES."
+    },
+    {
+      "file": "s07_g06",
+      "text": "TSH alta con T cuatro libre normal: subclínico. Se trata si la TSH es de diez o más, o si hay síntomas, anticuerpos positivos o embarazo."
+    },
+    {
+      "file": "s07_g07",
+      "text": "TSH suprimida con T cuatro libre alta: hipertiroidismo primario, que estudiamos en su propio bloque."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Si la T cuatro libre está baja y la TSH no sube, es central. Resonancia de hipófisis, y descartar insuficiencia suprarrenal antes de dar levotiroxina."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos en una tabla. Hipotiroidismo primario: TSH alta y T cuatro libre baja. Se trata con levotiroxina, uno coma seis microgramos por kilo al día, con garantía GES. La dosis y sus excepciones las vemos en detalle en la próxima clase."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Subclínico: TSH alta con T cuatro libre normal. No siempre se trata: se trata si la TSH llega a diez o más, si hay síntomas, anticuerpos anti TPO positivos o embarazo."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Central: T cuatro libre baja con TSH baja o inapropiadamente normal. Resonancia de hipófisis, y descartar insuficiencia suprarrenal antes de dar la hormona."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Hipertiroidismo primario: TSH suprimida bajo cero coma uno, con T cuatro libre alta. Se inicia tiamazol y propranolol, y se piden anticuerpos contra el receptor de TSH."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Hipertiroidismo subclínico: TSH baja con T cuatro libre normal. Se observa, y se trata si hay fibrilación auricular, osteoporosis, o una TSH bajo cero coma uno."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y el eutiroideo enfermo: T tres baja, con T tres reversa alta, TSH normal o algo baja. Se observa y se trata la enfermedad de base. Dar levotiroxina aquí es el error clásico."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos al caso. Hombre de sesenta y seis años en la UCI por un shock séptico de foco pulmonar, intubado y con noradrenalina. El perfil tiroideo de ingreso muestra una TSH de cero coma seis, una T cuatro libre de cero coma ochenta y dos, en el límite bajo, una T tres total muy baja, y una T tres reversa muy elevada. Nunca tuvo problemas de tiroides."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada respecto del eje tiroideo?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: levotiroxina endovenosa en dosis completa, T tres por sonda, observar el eje y tratar la sepsis, resonancia de hipófisis, o hidrocortisona seguida de levotiroxina. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. Paciente crítico, T tres muy baja con T tres reversa alta, y TSH y T cuatro libre normales: es el síndrome del eutiroideo enfermo, una respuesta de ahorro. Se trata la sepsis y el perfil se repite semanas después del alta. La A y la B son la trampa, porque tratan el examen y pueden aumentar la mortalidad. Y la D cae porque la TSH y la T cuatro libre están normales: no hay patrón central."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Hombre de treinta años, sin antecedentes, con tres meses de fatiga y baja de peso. Dirigidamente cuenta una ruptura sentimental, y desde entonces pena, insomnio y desconcentración. Examen físico normal."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el examen de elección para descartar una causa orgánica?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: tirotropina, VDRL, hemograma, creatinina y enzimas hepáticas, o glicemia de ayuno. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A, la tirotropina, que es simplemente la TSH con otro nombre. Es un cuadro depresivo, y la causa orgánica que más lo imita es la tiroides. Y ya sabes que ante cualquier sospecha tiroidea se parte por la TSH. El hemograma es el distractor tentador, y también se pide, pero el examen de elección es la TSH. Fíjate que el enunciado la esconde bajo el nombre tirotropina."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una más reciente, del EUNACOM de diciembre de dos mil veinticinco. Mujer de veinticinco años, en chequeo, usuaria de anticonceptivos orales. Tiene una T cuatro total alta, de dieciséis, con una TSH normal, de cero coma nueve. Examen físico normal."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Qué examen es el más adecuado para proseguir el estudio?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: anticuerpos contra el receptor de TSH, cintigrafía tiroidea, T tres, T cuatro libre, o tiroglobulina. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, la T cuatro libre. Los estrógenos de los anticonceptivos aumentan la proteína que transporta la tiroxina en la sangre, y la T cuatro total sube sin que cambie la hormona activa. Por eso se mide la libre. Y fíjate en lo más importante: la TSH normal ya te decía que no hay hipertiroidismo. Los anticuerpos y la cintigrafía son la trampa: estudian un hipertiroidismo que esta paciente no tiene."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y una tercera, del EUNACOM de julio de dos mil quince. Mujer de veintiocho años a la que le hicieron una histerectomía postparto por una inercia uterina. Seis meses después no ha tenido lactancia, tiene astenia, debilidad, piel seca, cabello quebradizo, palidez, y una presión de noventa sesenta."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: tiroiditis postparto, panhipopituitarismo, depresión postparto, insuficiencia ovárica, o hipotiroidismo. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, un panhipopituitarismo por síndrome de Sheehan. La hemorragia del parto dañó la hipófisis, y por eso no hubo lactancia. La piel seca habla del eje tiroideo, y la hipotensión, del eje suprarrenal. La E es la trampa: sí tiene hipotiroidismo, pero es central y es solo una parte del cuadro. Y justamente por esa hipotensión, antes de darle levotiroxina hay que cubrir el cortisol."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La TSH es la primera prueba ante cualquier sospecha tiroidea, porque es el sensor más fino del eje."
+    },
+    {
+      "file": "s13_g01",
+      "text": "TSH alta con T cuatro libre baja es primario; con T cuatro libre normal, subclínico. Y la T cuatro total engaña cuando hay estrógenos: se mide la libre."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Si la T cuatro libre está baja y la TSH no sube, piensa en la hipófisis: resonancia, y descartar insuficiencia suprarrenal antes de la levotiroxina."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Y en el paciente crítico con la T tres baja, no se da hormona: se trata la enfermedad de base y se repite el perfil después del alta. Si te llevas una sola idea de hoy: la TSH y la T cuatro libre se leen juntas, y el contexto decide si se trata. En la próxima clase usamos esto para tratar el hipotiroidismo primario. Nos vemos en la próxima clase."
+    }
+  ]
+}

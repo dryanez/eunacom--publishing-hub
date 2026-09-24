@@ -1,0 +1,212 @@
+{
+  "id": "diab-18",
+  "title": "Diabetes 4.4: Criterios de Resolución de CAD/EHH y Traslape a Insulina Subcutánea",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 9331,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Ya sabemos reanimar con suero, iniciar la insulina mirando el potasio y cuándo dar bicarbonato. Hoy cerramos el manejo de la crisis: cuándo se considera resuelta la cetoacidosis diabética, cuándo el estado hiperglicémico hiperosmolar, y cómo se pasa de la bomba a la insulina subcutánea sin que el paciente recaiga. Son dos preguntas típicas del examen, y ambas tienen una trampa muy concreta."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por una idea que ordena todo el tema. Cuando el paciente recibe insulina y suero, se están corrigiendo dos problemas al mismo tiempo: la hiperglicemia y la cetoacidosis. Pero no se corrigen a la misma velocidad."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La glicemia baja rápido, en pocas horas. Es lo primero que se ve mejor en los exámenes."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Los cetoácidos, en cambio, se van mucho más lento. La glicemia ya puede estar bajo doscientos, y el anion gap seguir abierto y el pH seguir ácido."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y aquí está la trampa. Si apagas la bomba porque la glicemia se normalizó, dejas una cetoacidosis activa sin insulina. La resolución no se define por la glicemia."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Lo correcto es lo que vimos en la clase de fluidos: se mantiene la insulina, se agrega suero glucosado al cinco por ciento, y se sostiene la glicemia entre ciento cincuenta y doscientos mientras se limpian los cetoácidos."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Solo cuando el ácido-base se normaliza, hablamos de resolución. Veamos exactamente con qué números."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La cetoacidosis se considera resuelta cuando se cumplen varias cosas a la vez. La primera es la glicemia bajo doscientos. Necesaria, pero, como acabamos de ver, no suficiente."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Además, al menos dos de estos tres parámetros. El bicarbonato sérico de dieciocho o más, que es el mejor marcador de recuperación."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El pH venoso sobre siete coma treinta, o el arterial sobre siete coma treinta y cinco."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el anion gap normalizado, de doce o menos, que confirma que los cetoácidos circulantes se eliminaron."
+    },
+    {
+      "file": "s02_g04",
+      "text": "A eso se suma la cetonemia bajo cero coma seis milimoles por litro, o con tendencia francamente descendente."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y el paciente alerta, que tolera bien la alimentación por boca. Este último punto es clave, porque sin vía oral no hay traslape."
+    },
+    {
+      "file": "s03_g00",
+      "text": "En el estado hiperglicémico hiperosmolar el problema no era la acidosis, era la osmolaridad. Por eso el criterio central es que la osmolaridad plasmática efectiva baje de trescientos quince."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La glicemia se exige estable bajo doscientos cincuenta a trescientos. Es un corte más alto que en la cetoacidosis, igual que el corte para agregar suero glucosado que vimos en la clase de fluidos."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y como el hiperosmolar es un cuadro neurológico, el tercer criterio es clínico: el paciente recupera su vigilia y su lucidez previas, y tolera la alimentación. El despertar neurológico va de la mano con la osmolaridad."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora el traslape, que es el momento más vulnerable de toda la hospitalización. Primero un dato de farmacología: la insulina cristalina endovenosa tiene una vida media de solo cinco a nueve minutos. Apagas la bomba, y en menos de diez minutos no queda insulina en la sangre."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La insulina subcutánea, en cambio, necesita tiempo: tarda una a dos horas en absorberse y empezar a actuar."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Con esos dos datos, piensa qué pasa si apagas la bomba en el mismo momento del pinchazo, o peor, antes. Queda una ventana de una a dos horas sin insulina circulante. Y sin insulina, se reactiva la lipólisis."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El resultado es una cetoacidosis de rebote en pocas horas. Todo el trabajo de la noche se pierde."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La regla, entonces: se inyecta la primera dosis de insulina basal subcutánea, NPH o glargina, y la bomba se mantiene una a dos horas más. Recién ahí se apaga. Esa superposición es lo que se pregunta."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si se usa un análogo ultrarrápido, como lispro o aspart, basta con ponerlo quince a treinta minutos antes de apagar. Y el traslape idealmente coincide con una comida principal, el desayuno o el almuerzo, para confirmar que el paciente tolera."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ordenemos la decisión de apagar la bomba en un solo árbol. Paciente con cetoacidosis que lleva horas con insulina en bomba. Llegan los exámenes de control, y la pregunta es si ya se puede pasar a subcutánea."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La pregunta tiene dos partes: ¿la glicemia bajó de doscientos, y además cumple al menos dos de los tres criterios ácido-base: pH, bicarbonato y anion gap?"
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si la glicemia bajó pero el ácido-base no, la cetoacidosis sigue activa. No se apaga la bomba: se mantiene la insulina y se agrega suero glucosado al cinco por ciento para sostener la glicemia entre ciento cincuenta y doscientos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si todavía no se cumple nada, se sigue con la insulina endovenosa y los controles seriados."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si cumple los criterios, falta una condición: que esté alerta y tolere comer."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si no tolera, se mantiene la bomba hasta que pueda alimentarse."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si tolera, se inyecta la basal subcutánea, NPH o glargina, y la bomba se apaga una a dos horas después. Con un análogo ultrarrápido, quince a treinta minutos antes. Nunca en el mismo momento del pinchazo."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos parámetro por parámetro. Glicemia: bajo doscientos en la cetoacidosis, bajo doscientos cincuenta a trescientos en el hiperosmolar. Y mientras no se resuelve, se sostiene entre ciento cincuenta y doscientos con suero glucosado."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El pH: sobre siete coma treinta. No se apaga la bomba con pH bajo siete coma treinta, aunque la glicemia sea normal."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El bicarbonato: dieciocho o más. Es el mejor marcador de recuperación."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El anion gap: doce o menos, lo que confirma que ya no quedan cetoácidos circulando."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La osmolaridad efectiva es el criterio propio del hiperosmolar: bajo trescientos quince, y se correlaciona con el despertar."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y en ambos cuadros, la bomba se apaga una a dos horas después de la basal subcutánea. Nunca al mismo tiempo que el pinchazo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Hombre de veinticuatro años con diabetes tipo uno, lleva diez horas con insulina en bomba por una cetoacidosis. En el control, la glicemia es ciento sesenta y cinco, pero el pH venoso es siete coma veintiuno, el bicarbonato doce y el anion gap diecinueve. Está somnoliento y con náuseas."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones son: suspender la bomba porque la glicemia bajó de doscientos, inyectar glargina y apagar la bomba al mismo tiempo, mantener la insulina endovenosa y agregar suero glucosado, dar bicarbonato, o pasar a cristalina subcutánea. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la C. La glicemia ya bajó de doscientos, pero no cumple ninguno de los tres criterios ácido-base, y además no tolera la vía oral. La cetoacidosis no está resuelta. Se mantiene la insulina y se agrega suero glucosado para no hacer una hipoglicemia. La A es la trampa de la clase: apagar por la glicemia. La B sería un traslape mal hecho, y además prematuro. Y el pH no llega al corte del bicarbonato."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora un caso representativo del banco EUNACOM. Paciente de diecinueve años que sale de una cetoacidosis: glicemia ciento sesenta y ocho, pH siete coma treinta y tres, bicarbonato diecinueve y anion gap once. Está lúcido y pide comer."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el procedimiento correcto para suspender la bomba y pasar a insulina subcutánea?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: apagar la bomba y esperar cuatro horas, pinchar y apagar al mismo tiempo, pinchar y mantener la bomba una a dos horas más, usar solo ultrarrápida si sube la glicemia, o mantener la bomba cuarenta y ocho horas en ayuno. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. Primero confirma que está resuelto: glicemia bajo doscientos y los tres criterios ácido-base cumplidos, y además tolera. Entonces se pincha la basal y la bomba sigue una a dos horas. La B es el distractor más tentador, porque parece ordenado, pero la insulina endovenosa desaparece en minutos y la subcutánea todavía no se absorbe: ese hueco es la cetoacidosis de rebote. Y la A es el mismo error, pero peor."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otro caso representativo del banco, más directo. Te piden elegir el conjunto de exámenes que certifica que una cetoacidosis está resuelta en un adulto."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál de estos conjuntos certifica la resolución?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "La A tiene glicemia doscientos veinte y pH siete coma veintiséis. La B, glicemia ciento ochenta, pH siete coma treinta y dos, bicarbonato diecinueve y anion gap diez. La C, glicemia ciento cuarenta con pH siete coma dieciocho. La D, glicemia noventa y cinco con cetonuria y pH siete coma veinte. Y la E, glicemia doscientos cincuenta con bicarbonato quince. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B: glicemia bajo doscientos, pH sobre siete coma treinta, bicarbonato sobre dieciocho y anion gap bajo doce. Cumple todo. Fíjate en la C y la D: tienen las glicemias más bajas de todas, y justamente por eso son los distractores. Siguen acidóticas. Es la misma trampa del caso anterior: la glicemia no define la resolución."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. La cetoacidosis está resuelta con glicemia bajo doscientos y dos de tres: pH sobre siete coma treinta, bicarbonato de dieciocho o más y anion gap de doce o menos, con el paciente tolerando la vía oral."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El hiperosmolar se resuelve con osmolaridad efectiva bajo trescientos quince y el paciente lúcido."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La glicemia se corrige antes que la acidosis: si el anion gap sigue abierto, no se apaga la bomba, se agrega suero glucosado."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y el traslape: la basal subcutánea se inyecta una a dos horas antes de apagar la bomba, porque la insulina endovenosa dura minutos. Con esto cerramos las crisis hiperglicémicas; en la próxima clase vemos qué puede salir mal durante su tratamiento. Si te llevas una sola idea de hoy: la cetoacidosis se cura con el pH, no con la glicemia, y la bomba se apaga después del pinchazo, nunca junto con él. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -318,3 +318,10 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Julio 2025 · Pregunta 53 | Clave: hierro elemental 200 mg/día; el libro da 40–100 mg/día o en días alternos. |
 | EUNACOM Julio 2017 · Pregunta 5 | Embarazada con clave "HELLP"; la propia explicación duda y el caso calza igual o mejor con PTT. |
 | EUNACOM Julio 2013 · Pregunta 87 | Clave: hemograma con reticulocitos para el diagnóstico etiológico de la hemólisis; el libro dice Coombs directo. |
+
+## Reumatología
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2017 · Pregunta 47 | Su explicación sugiere suspender la colchicina (solo en crisis); el libro indica colchicina profiláctica 0,5 mg/día por 3–6 meses al iniciar o titular alopurinol. |

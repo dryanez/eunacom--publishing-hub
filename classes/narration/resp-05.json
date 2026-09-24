@@ -1,0 +1,308 @@
+{
+  "id": "resp-05",
+  "title": "Neumología 1.5: Exacerbación Aguda de EPOC (Anthonisen)",
+  "specialty": "Neumología",
+  "chars": 14599,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos el EPOC estable, el paciente en su día a día. Hoy vemos lo que pasa cuando se descompensa: la exacerbación aguda, una de las urgencias respiratorias más frecuentes y un tema de máxima frecuencia en el EUNACOM. Casi todo lo que se pregunta cabe en cuatro decisiones: si lleva antibiótico, cuánto oxígeno darle, cuántos días de corticoide, y cuándo ponerle ventilación no invasiva. Partamos por entender qué se descompensa."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La exacerbación es un empeoramiento agudo de la disnea, la tos o la expectoración, más allá de la variación de todos los días, que se instala en menos de catorce días y obliga a ajustar el tratamiento. El gatillante, en tres de cada cuatro pacientes, es una infección bronquial, bacteriana o viral. El resto se explica por contaminación ambiental o por dejar los inhaladores."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La inflamación aumenta la resistencia al flujo, y el aire que entra no alcanza a salir. Se atrapa, y el pulmón se hiperinsufla. Eso aplana el diafragma y lo deja en desventaja mecánica: es un músculo que trabaja más y rinde menos."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El resultado es más trabajo respiratorio y un desbalance entre ventilación y perfusión. Lo primero que aparece es la hipoxemia."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y si los músculos se agotan, el paciente deja de ventilar lo suficiente, retiene dióxido de carbono y cae en acidosis respiratoria. Guarda esta cadena, porque explica las dos decisiones más preguntadas de hoy: por qué el oxígeno tiene un techo y por qué la ventilación no invasiva salva vidas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La primera decisión es el antibiótico, y se toma con los criterios de Anthonisen. Son tres síntomas cardinales. El primero, más disnea que la basal del paciente."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo, más volumen de esputo: el paciente expectora más que de costumbre."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el tercero, el que más pesa: la purulencia. Que el esputo se vuelva verde o amarillo, o que aumente su purulencia. Es el marcador de infección bacteriana, y por eso manda en la decisión del antibiótico."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Con esos tres síntomas se clasifica. El tipo uno, grave, tiene los tres criterios."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El tipo dos, moderado, tiene dos de los tres."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y el tipo tres, leve, tiene un solo criterio cardinal más al menos un criterio menor en los últimos cinco días: tos, sibilancias, fiebre o una infección de la vía aérea superior."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la decisión. En el tipo uno, con los tres criterios, el antibiótico va siempre."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El tipo dos es el que se pregunta, porque se divide en dos. La pregunta que tienes que hacerte es una sola: ¿uno de los dos criterios es la purulencia?"
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si es así, lleva antibiótico. Pero si el paciente tiene más disnea y más volumen de esputo, y el esputo sigue claro, no se indica antibiótico de rutina. Esa es la trampa del tipo dos: dos criterios no bastan si ninguno es el pus."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y en el tipo tres, leve, tampoco hay antibiótico de rutina. Se optimizan los broncodilatadores y se reevalúa."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Cuando la causa es bacteriana, hay tres gérmenes clásicos. El más frecuente es Haemophilus influenzae, y eso se pregunta directo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Lo siguen el neumococo y Moraxella catarrhalis."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y en el paciente con obstrucción muy severa o con bronquiectasias, hay que pensar también en Pseudomonas aeruginosa."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El antibiótico de primera línea en Chile es amoxicilina con ácido clavulánico, ochocientos setenta y cinco con ciento veinticinco miligramos cada doce horas, por cinco a siete días. El clavulánico está ahí por el Haemophilus y la Moraxella, que pueden producir betalactamasa."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Las alternativas son azitromicina, quinientos miligramos al día por tres a cinco días, o cefuroximo, quinientos miligramos cada doce horas."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Segunda decisión: cuánto oxígeno. El paciente llega desaturado, y la tentación es ponerle una mascarilla con reservorio a quince litros. Ese es el error clásico, y vamos a ver por qué."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Primero, el pulmón del EPOC cierra los vasos de los alvéolos que ventilan mal: es la vasoconstricción hipóxica, un mecanismo protector. El exceso de oxígeno la anula, la sangre vuelve a pasar por alvéolos que no ventilan, y el desbalance empeora."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Segundo, el efecto Haldane: la hemoglobina oxigenada suelta el dióxido de carbono hacia el plasma. Y tercero, se atenúa el estímulo hipóxico que empujaba a este paciente a respirar."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Los tres mecanismos llevan al mismo lugar: una hipercapnia brusca, acidosis respiratoria y encefalopatía hipercápnica, con asterixis, somnolencia y letargia, hasta el coma y el paro. Ojo con el enunciado típico: un EPOC que se pone somnoliento con una saturación perfecta no mejoró, se está narcotizando."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Por eso el oxígeno se titula con una meta estricta: saturación entre ochenta y ocho y noventa y dos por ciento, o una presión arterial de oxígeno entre cincuenta y cinco y sesenta y cinco. Ni más ni menos: es un rango, no un mínimo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se da con cánula nasal a uno o dos litros por minuto, o con mascarilla Venturi al veinticuatro o veintiocho por ciento, que entrega una fracción de oxígeno fija y conocida."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y si con eso no llega a la meta, la respuesta no es subir el oxígeno sin límite. Es pedir gases y pensar en ventilación no invasiva, que es lo que vamos a ver."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Tercera decisión, los fármacos, que van en todo paciente exacerbado. Primero, broncodilatación intensiva con dos fármacos: salbutamol, un beta dos agonista de acción corta, más bromuro de ipratropio, un anticolinérgico de acción corta. Cuatro a ocho puff de cada uno con aerocámara."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Se repiten cada veinte a treinta minutos durante las primeras dos horas, y luego se espacian cada dos a cuatro horas según la respuesta."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Segundo, corticoide sistémico por vía oral: prednisona cuarenta miligramos al día, durante cinco días. Es la dosis del estudio REDUCE, y es un número que tienes que saber."
+    },
+    {
+      "file": "s07_g03",
+      "text": "No se prolonga ni se hace descenso gradual. Catorce días no mejoran la recuperación ni previenen recaídas, y triplican las complicaciones metabólicas e infecciosas. En el examen, cualquier alternativa de catorce días o con descenso es la trampa."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La gravedad decide el lugar. La exacerbación leve, con disnea leve y sin insuficiencia respiratoria, se maneja en forma ambulatoria, aumentando los broncodilatadores de acción corta y con control médico."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La moderada tiene más disnea y taquipnea sobre veinticuatro por minuto, pero no tiene acidosis. Lleva doble broncodilatador y prednisona, en observación en la urgencia o en hospitalización básica."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La grave tiene frecuencia respiratoria sobre treinta, tiraje y acidosis leve, con pH entre siete coma treinta y siete coma treinta y cinco. Aquí se suma la ventilación no invasiva precoz, en una sala de cuidados medios."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y la muy grave tiene acidosis severa, con pH bajo siete coma veinticinco, sopor o inestabilidad: ventilación no invasiva inmediata de rescate o intubación, e ingreso a la unidad de cuidados intensivos. Fíjate que lo que separa los niveles no es la saturación, sino el pH."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cuarta decisión, la ventilación. Con el tratamiento médico en marcha, se piden gases arteriales, porque la saturación no te muestra el dióxido de carbono."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si no hay acidosis, se sigue con el tratamiento médico y se reevalúa."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Pero si hay acidosis respiratoria hipercápnica, con pH bajo siete coma treinta y cinco y dióxido de carbono sobre cuarenta y cinco, a pesar del tratamiento óptimo, el paciente necesita apoyo ventilatorio. Antes, una pregunta: ¿hay alguna contraindicación?"
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si no la hay, va ventilación mecánica no invasiva en modo BiPAP. Es el estándar de oro y la primera elección. Fíjate que la indicación la da el pH, no la saturación: un paciente vigil y que coopera, con pH de siete coma veintisiete, va a BiPAP, no a intubación."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si hay una contraindicación, o la no invasiva fracasa, se intuba y el paciente pasa a ventilación mecánica invasiva en la unidad de cuidados intensivos."
+    },
+    {
+      "file": "s10_g00",
+      "text": "¿Por qué funciona? Vuelve a la cadena del inicio: el problema era un músculo agotado. La ventilación no invasiva lo descarga, aumenta el volumen corriente y barre el dióxido de carbono acumulado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Con eso reduce en más de la mitad la necesidad de intubación, y disminuye la mortalidad intrahospitalaria. Por eso no se demora: si hay acidosis, se instala."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Como referencia, se parte con una presión inspiratoria de diez a catorce y una espiratoria de cuatro a seis centímetros de agua, en sesiones continuas de dos a cuatro horas."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Las contraindicaciones son las situaciones en que la mascarilla no alcanza o es peligrosa: paro cardiorrespiratorio inminente, y un Glasgow bajo ocho sin protección de la vía aérea."
+    },
+    {
+      "file": "s10_g04",
+      "text": "También la inestabilidad hemodinámica con drogas vasoactivas, los vómitos incoercibles y el trauma facial grave. En esos casos, intubación."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora juntemos las cuatro decisiones en un solo árbol, en el orden en que las tomas en la urgencia. Paciente con EPOC que empeora su disnea, su tos o su expectoración en menos de catorce días. Todos reciben la misma base: oxígeno controlado con meta de ochenta y ocho a noventa y dos, salbutamol con ipratropio, y prednisona cuarenta miligramos por cinco días. Lo que cambia son la ventilación y el antibiótico."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Lo primero que se decide es lo que amenaza la vida. Se piden gases: ¿hay acidosis respiratoria hipercápnica, con pH bajo siete coma treinta y cinco y dióxido de carbono sobre cuarenta y cinco, a pesar del tratamiento?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Sin acidosis, la pregunta que queda es el antibiótico. Cuenta los criterios de Anthonisen, y fíjate sobre todo en la purulencia."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Tres criterios, o dos con purulencia: se agrega amoxicilina con clavulánico por cinco a siete días."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Dos criterios sin purulencia, o un tipo tres: sin antibiótico de rutina. Se optimizan los broncodilatadores y se reevalúa."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Con acidosis, el paciente necesita ventilar, y el antibiótico se decide igual, con Anthonisen. ¿Tiene alguna contraindicación para la no invasiva?"
+    },
+    {
+      "file": "s11_g06",
+      "text": "Si no la tiene, ventilación no invasiva en modo BiPAP: es la primera elección y reduce en más de la mitad la intubación."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Si la tiene, o si la no invasiva fracasa, intubación y ventilación invasiva en la unidad de cuidados intensivos."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Repasemos las trampas. Más disnea y más esputo, pero sin purulencia: es un tipo dos sin pus, y no lleva antibiótico de rutina. El error es darlo porque hay dos criterios."
+    },
+    {
+      "file": "s12_g01",
+      "text": "EPOC desaturado en la urgencia: oxígeno por cánula o Venturi, con meta de ochenta y ocho a noventa y dos. El error es la mascarilla con reservorio a quince litros."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Si se pone somnoliento con asterixis después de subirle el oxígeno, es narcosis: se baja el oxígeno a la meta y se instala ventilación no invasiva. Sedarlo o subir más el oxígeno lo empeora."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Corticoide: prednisona cuarenta miligramos por cinco días. Catorce días o una pauta descendente es la alternativa incorrecta."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y acidosis respiratoria en un paciente vigil que coopera: BiPAP. Intubar de entrada o corregir el pH con bicarbonato son las dos trampas. El pH se corrige ventilando."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Vamos con un caso. Hombre de setenta años con EPOC por tabaquismo, que lleva dos días con más disnea, ahora a mínimos esfuerzos, más volumen de esputo y secreciones verdes y espesas. Frecuencia respiratoria de veintiocho, saturación de ochenta y seis por ciento, y a la auscultación, espiración prolongada con roncus y sibilancias."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el manejo más adecuado?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: reservorio con corticoide por catorce días, oxígeno controlado con doble broncodilatador, prednisona por cinco días y amoxicilina con clavulánico, lo mismo pero sin antibiótico, intubación inmediata, o aminofilina con ciprofloxacino. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Cuenta los criterios: más disnea, más volumen y esputo verde. Son los tres, un Anthonisen tipo uno, así que el antibiótico va. La C es el distractor tentador, porque todo lo demás está bien, pero le quita el antibiótico a un paciente con purulencia. La A falla dos veces, en el oxígeno y en los días de corticoide. Y no hay nada que justifique intubar a alguien que todavía no tiene gases."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Hombre de sesenta y siete años con EPOC, con disnea intensa, cianosis y uso de musculatura accesoria, frecuencia respiratoria de treinta y cinco. Está vigil y orientado. Tras una hora de antibióticos y broncodilatadores no mejora, y los gases muestran un pH de siete coma veintinueve, un dióxido de carbono de sesenta y dos y un oxígeno de cincuenta y seis."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada a continuación?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: ventilación invasiva, aminofilina, cánula nasal de alto flujo, ventilación no invasiva, o bicarbonato. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la D. Hay acidosis respiratoria hipercápnica, con pH bajo siete coma treinta y cinco y dióxido de carbono sobre cuarenta y cinco, a pesar del tratamiento. Y la clave está en una frase del enunciado: vigil y orientado. No hay contraindicación, así que va la no invasiva. La A es la trampa: el paciente se ve grave, pero la invasiva queda para el compromiso de conciencia o el fracaso del BiPAP. Y el bicarbonato no ventila."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Hombre de setenta y dos años con EPOC severo, con tres días de más tos, expectoración mucopurulenta y fiebre, que evoluciona con disnea de reposo, frecuencia respiratoria de cuarenta y saturación de ochenta y cuatro. Está agitado, pero orientado. Los gases muestran un pH de siete coma veintinueve y un dióxido de carbono de cincuenta y cinco. Ya recibe broncodilatadores, antibióticos y corticoides."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta más adecuada para su manejo respiratorio?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Fíjate que cuatro de las cinco opciones son formas de dar oxígeno: Venturi al cincuenta, mascarilla de no recirculación, naricera al veinticuatro, cánula de alto flujo, y la quinta es ventilación no invasiva. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la E. La saturación de ochenta y cuatro te empuja a pensar en oxígeno, pero los gases dicen otra cosa: hay acidosis hipercápnica, y ese es un problema de ventilación. El oxígeno no barre el dióxido de carbono, y en alto flujo lo empeora. La C tienta porque es oxígeno controlado, pero no resuelve la acidosis. Paciente orientado y con acidosis: BiPAP."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Antibiótico en el Anthonisen tipo uno, o en el tipo dos cuando uno de los criterios es la purulencia. El de elección es amoxicilina con clavulánico, porque el germen más frecuente es Haemophilus."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Todo exacerbado lleva doble broncodilatador, salbutamol con ipratropio."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Y prednisona cuarenta miligramos por cinco días, sin pauta descendente."
+    },
+    {
+      "file": "s16_g03",
+      "text": "El oxígeno tiene techo: meta de ochenta y ocho a noventa y dos por ciento. Más oxígeno no es más seguro, es narcosis hipercápnica."
+    },
+    {
+      "file": "s16_g04",
+      "text": "Y si los gases muestran acidosis respiratoria, ventilación no invasiva, sin demorarla. En la próxima clase entramos a la neumonía, que también puede descompensar a este mismo paciente. Si te llevas una sola idea de hoy: en el EPOC exacerbado, el pus decide el antibiótico y el pH decide la ventilación. Nos vemos en la próxima clase."
+    }
+  ]
+}

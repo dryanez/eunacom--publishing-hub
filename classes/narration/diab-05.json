@@ -1,0 +1,252 @@
+{
+  "id": "diab-05",
+  "title": "Diabetes 1.5: Ejercicio Físico, Cambios de Estilo de Vida y Prevención Cardiovascular",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 11332,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos el ejercicio y los cambios de estilo de vida en la diabetes. Parece un tema blando, pero el examen lo pregunta con precisión: cuántos minutos a la semana, qué hacer si la glicemia está baja antes de salir a caminar, y qué ejercicio no le indicas a un paciente con neuropatía. Y todo se responde entendiendo una sola cosa: el músculo que se contrae capta glucosa sin necesitar insulina."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo, porque explica todas las reglas de la clase. Cuando el músculo esquelético se contrae, necesita energía, y la saca de la glucosa de la sangre."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La contracción activa una enzima, la proteína quinasa activada por AMP, la AMPK. Guarda ese nombre, porque en la clase de metformina lo vamos a volver a encontrar."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La AMPK hace que los transportadores GLUT cuatro suban desde el citoplasma a la membrana de la célula muscular. Y aquí está lo importante: eso ocurre en forma totalmente independiente de la insulina. El músculo que trabaja abre sus propias puertas."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El resultado es que el músculo capta glucosa en forma masiva. Por eso el ejercicio programado, junto con la terapia nutricional, es la piedra angular no farmacológica de la diabetes: baja la hemoglobina glicosilada entre medio y un punto, algo comparable a un fármaco."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Pero el efecto no termina cuando el paciente deja de moverse. Después del esfuerzo, la sensibilidad a la insulina queda aumentada hasta por veinticuatro a cuarenta y ocho horas."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y eso tiene una consecuencia práctica. Si el paciente además usa algo que baja la glicemia por su cuenta, como la insulina o una sulfonilurea, puede hacer una hipoglicemia tardía, típicamente nocturna, horas después de haber hecho ejercicio. Esa es la complicación que el examen quiere que prevengas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora, la prescripción. La cifra que tienes que saber de memoria es ciento cincuenta minutos a la semana de actividad física aeróbica de intensidad moderada. Esa es la recomendación de la Asociación Americana de Diabetes y del MINSAL."
+    },
+    {
+      "file": "s02_g01",
+      "text": "¿Qué cuenta como aeróbico moderado? Caminar a paso ligero, nadar o andar en bicicleta. No es pasear: es un ritmo que acelera la respiración."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y esos minutos se reparten en al menos tres días por semana, sin dejar pasar más de dos días seguidos sin actividad. ¿Por qué ese detalle? Porque, como acabamos de ver, el efecto sobre la sensibilidad a la insulina dura uno a dos días. Si el paciente descansa más que eso, lo pierde."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Al aeróbico se le suman ejercicios de resistencia muscular, dos a tres veces por semana. Más músculo significa más tejido que capta glucosa."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y recuerda que el ejercicio no va solo. Es parte del cambio de estilo de vida, junto con la alimentación, y es la base sobre la que después se construye cualquier tratamiento con fármacos, como veremos en la próxima clase."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Veamos las reglas de seguridad, que son las que más se preguntan. Un paciente que usa insulina o sulfonilureas se mide la glicemia capilar antes de hacer ejercicio. Y ese número decide la conducta."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si la glicemia está bajo cien miligramos por decilitro, hay riesgo real de hipoglicemia. Piensa en el mecanismo: el músculo va a empezar a captar glucosa, y el fármaco sigue actuando."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La conducta no es suspender el ejercicio. Es comer antes de empezar: una colación de quince a veinte gramos de carbohidratos de absorción rápida o mixta, por ejemplo una fruta o unas galletas de agua. Y después sale a caminar."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Entre cien y doscientos cincuenta, es la zona segura. El paciente puede hacer su ejercicio con buena hidratación."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y el extremo opuesto: una glicemia sobre doscientos cincuenta con cetonas en la orina o en la sangre, sobre todo en un diabético tipo uno. Ese paciente no tiene insulina suficiente."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Aquí el ejercicio está contraindicado temporalmente. Sin insulina, el esfuerzo aumenta la descarga de catecolaminas y empuja hacia la cetoacidosis. Se suspende, se hidrata y se administra insulina rápida. Fíjate en la lógica: bajo cien falta azúcar, y sobre doscientos cincuenta con cetonas falta insulina."
+    },
+    {
+      "file": "s04_g00",
+      "text": "No todos los pacientes diabéticos tienen el mismo riesgo al hacer ejercicio. El riesgo lo ponen los fármacos que bajan la glicemia sin importar cuánta glucosa haya. El primero es la insulina, NPH o cristalina."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El segundo son las sulfonilureas, como la glibenclamida, que obligan al páncreas a liberar insulina aunque la glicemia esté baja. En la clase de hipoglucemiantes orales vamos a ver por qué es tan peligrosa."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En cambio, la metformina no causa hipoglicemia con el ejercicio."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y tampoco los inhibidores de SGLT dos ni los de DPP cuatro. Entonces, si en el enunciado el paciente solo usa metformina, la colación previa no es el tema de la pregunta."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y recuerda que el riesgo no termina al volver a casa. La mayor sensibilidad a la insulina dura hasta cuarenta y ocho horas, así que la hipoglicemia puede aparecer en la noche, cuando el paciente duerme."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora, las precauciones según las complicaciones crónicas. La primera es la neuropatía periférica sensitiva. Ese paciente perdió la sensibilidad protectora: no siente la ampolla, no siente la piedra en el zapato. Y así aparecen úlceras, e incluso fracturas por sobrecarga, sin que se dé cuenta."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Por eso se desaconseja el ejercicio de impacto: trotar, saltar, o caminar descalzo, sobre todo en superficies irregulares."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Lo que se recomienda es ejercicio sin impacto sobre la planta del pie: natación, remo o bicicleta estática. Esa es la respuesta que se pregunta."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y siempre con inspección diaria y minuciosa de los pies, y calzado acolchado sin costuras internas. Esto lo retomamos en la clase de pie diabético."
+    },
+    {
+      "file": "s05_g04",
+      "text": "La segunda es la retinopatía diabética proliferativa severa. Aquí el problema no es el pie, sino los vasos nuevos y frágiles de la retina. Se evitan los ejercicios vigorosos con maniobra de Valsalva y el levantamiento de pesas máximas."
+    },
+    {
+      "file": "s05_g05",
+      "text": "¿Por qué? Porque el aumento brusco de presión puede romper esos vasos y producir una hemorragia vítrea, o un desprendimiento de retina. Fíjate que cada complicación prohíbe un tipo distinto de ejercicio: la neuropatía, el impacto; la retinopatía, el esfuerzo con fuerza."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos todo en el árbol que usas antes de indicarle ejercicio a un paciente con diabetes. Paciente con diabetes al que le vas a indicar ejercicio. La meta es ciento cincuenta minutos semanales, pero antes hay que revisar dos cosas: sus complicaciones y su glicemia."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Primero, las complicaciones, porque cambian el tipo de ejercicio."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Con neuropatía sensitiva: nada de trote ni caminar descalzo. Natación, remo o bicicleta estática, e inspección diaria de los pies."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Con retinopatía proliferativa severa: evitar el esfuerzo con Valsalva y las pesas máximas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Luego, si usa insulina o sulfonilurea, se mide la glicemia capilar antes de partir."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Bajo cien: colación de quince a veinte gramos de carbohidratos, y luego el ejercicio."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Entre cien y doscientos cincuenta: zona segura, adelante con hidratación."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Sobre doscientos cincuenta con cetonas: se suspende el ejercicio, se hidrata y se da insulina rápida."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos las trampas. La prescripción general es ciento cincuenta minutos a la semana de aeróbico moderado, en al menos tres días. El error es concentrarlo todo en un día y descansar el resto."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Usuario de insulina o glibenclamida con glicemia bajo cien antes del ejercicio: colación de quince a veinte gramos de carbohidratos y luego ejercicio. Suspenderlo es exagerado, y salir igual es peligroso."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Entre cien y doscientos cincuenta, es zona segura. No hay nada que corregir."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Diabético tipo uno con glicemia sobre doscientos cincuenta y cetonas: se suspende el ejercicio, se hidrata y se da insulina rápida. La trampa es pensar que el ejercicio le va a bajar la glicemia: sin insulina, lo empuja a la cetoacidosis."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Neuropatía, con el monofilamento alterado: natación o bicicleta estática. El trote y la caminata descalzo son las alternativas incorrectas."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y retinopatía proliferativa activa: nada de pesas máximas, saltos ni maniobras de Valsalva, por el riesgo de hemorragia vítrea."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Hombre de cincuenta y cuatro años, diabético tipo dos, con metformina e insulina NPH en la mañana. Quiere empezar a trotar. A las once de la mañana, antes de salir, se mide la glicemia capilar: ochenta y ocho. No tiene ningún síntoma."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: suspender el ejercicio, comer una colación de quince a veinte gramos de carbohidratos antes de partir, salir a trotar de inmediato, suspender la insulina, o ponerse insulina cristalina. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. Usa insulina y está bajo cien: colación de quince a veinte gramos de carbohidratos, y después a trotar. Además, la NPH de la mañana tiene su peak entre cuatro y seis horas después, justo a la hora del trote. La C es la trampa: estar asintomático no lo protege, porque el músculo consumirá glucosa mientras la insulina sigue actuando. Y la A es exagerada: ochenta y ocho no es hipoglicemia."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Hombre de cuarenta y ocho años con glicemia de ayuno de ciento quince en dos ocasiones, índice de masa corporal de veintiocho, y sin otros factores de riesgo."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la intervención más importante para reducir la progresión a diabetes?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: dieta estricta baja en carbohidratos, metformina, ejercicio aeróbico de ciento cincuenta minutos por semana, orlistat, o insulina basal. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. Ciento quince en ayunas, dos veces, es una glicemia de ayuno alterada, lo que viste como prediabetes en la clase de diagnóstico. Todavía no es diabetes, y lo que más frena la progresión es el cambio de estilo de vida, con la cifra exacta que vimos: ciento cincuenta minutos semanales de aeróbico moderado. La metformina es el distractor tentador, pero en un paciente sin otros factores de riesgo no es la primera intervención."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Una más, del EUNACOM de julio de dos mil quince. Adolescente de dieciséis años, con índice de masa corporal de treinta y tres. Su glicemia de ayuno es noventa y seis, y su insulina basal, veintitrés."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: iniciar insulina, iniciar dieta y ejercicio, iniciar metformina, pedir una prueba de tolerancia a la glucosa, o metformina con glibenclamida. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. La glicemia es normal: no hay diabetes, ni glicemia de ayuno alterada. Lo que hay es obesidad con una insulina alta, es decir, resistencia a la insulina. Y justamente el ejercicio es lo que abre la puerta de la glucosa sin necesitar insulina. La metformina es la trampa: no hay ninguna alteración de la glicemia que tratar con fármacos."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El músculo que se contrae capta glucosa por GLUT cuatro, sin necesitar insulina, y deja la sensibilidad aumentada hasta dos días."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La prescripción: ciento cincuenta minutos semanales de aeróbico moderado, en al menos tres días, más fuerza dos a tres veces por semana."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Con insulina o sulfonilureas, bajo cien antes del ejercicio se come una colación de quince a veinte gramos de carbohidratos."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Sobre doscientos cincuenta con cetonas, no se hace ejercicio."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Con neuropatía, ejercicio sin impacto y revisión diaria de los pies. Con retinopatía proliferativa, nada de Valsalva ni pesas máximas."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Si te llevas una sola idea de hoy: el ejercicio funciona como un fármaco que baja la glicemia, así que se dosifica, y si el paciente usa insulina o glibenclamida, se come antes de empezar. En la próxima clase vemos el tratamiento farmacológico escalonado. Nos vemos en la próxima clase."
+    }
+  ]
+}

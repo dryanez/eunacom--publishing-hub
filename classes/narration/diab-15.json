@@ -1,0 +1,284 @@
+{
+  "id": "diab-15",
+  "title": "Diabetes 4.1: Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 12696,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy abrimos el bloque de emergencias hiperglicémicas con las dos crisis clásicas: la cetoacidosis diabética y el estado hiperglicémico hiperosmolar. Son preguntas fijas del EUNACOM. Y aunque las dos tienen la glicemia alta, son enfermedades distintas: una es un problema de ácido, la otra, un problema de agua. Si entiendes por qué, el diagnóstico diferencial sale solo. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el mecanismo. En la cetoacidosis hay un déficit absoluto, o casi absoluto, de insulina, sumado a una descarga masiva de hormonas contrarreguladoras: glucagón, catecolaminas, cortisol y hormona de crecimiento."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La insulina es el freno del tejido adiposo. Sin ella, se desinhibe la lipasa sensible a hormonas, y los ácidos grasos libres llegan en masa al hígado."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El hígado los convierte en cuerpos cetónicos: acetoacetato y beta-hidroxibutirato, que es el predominante. Son ácidos, y se acumulan. Eso es la cetoacidosis: un problema de ácido."
+    },
+    {
+      "file": "s01_g03",
+      "text": "En el estado hiperosmolar la historia es otra. Es un diabético tipo dos con un déficit relativo: todavía produce algo de insulina. Esa poca insulina que llega al hígado por la vena porta alcanza para frenar la lipólisis y la cetogénesis, pero no alcanza para que los tejidos capten la glucosa."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Entonces no hay cetonas, pero la glicemia sube sin control. Esa glucosa arrastra agua por la orina, durante días o semanas, y el paciente se deshidrata hasta la hiperosmolaridad, el colapso circulatorio y el compromiso neurológico. Eso es un problema de agua. Guarda esta idea: explica toda la clínica."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos a los criterios. La cetoacidosis necesita, primero, una glicemia sobre doscientos cincuenta, típicamente entre trescientos y seiscientos. Fíjate que no es tan alta."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Segundo, acidosis metabólica: pH arterial bajo siete coma treinta, o venoso bajo siete coma veinticinco, con bicarbonato bajo dieciocho."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Tercero, anion gap elevado, sobre diez a doce. Se calcula como el sodio menos la suma del cloro y el bicarbonato. Ese gap alto es la huella de los cetoácidos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y cuarto, cetonas positivas: beta-hidroxibutirato en sangre sobre tres milimoles por litro, o cetonuria moderada a intensa."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y se clasifica en tres grados. Leve: pH siete coma veinticinco a siete coma treinta, bicarbonato quince a dieciocho, paciente alerta. Va a sala o intermedio."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Moderada: pH siete a siete coma veinticuatro, bicarbonato diez a catorce, alerta a somnoliento. Va a intermedio."
+    },
+    {
+      "file": "s02_g06",
+      "text": "Severa: pH bajo siete, bicarbonato bajo diez, con estupor o coma. Va a la unidad de cuidados intensivos."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora el estado hiperosmolar. La glicemia es mucho más alta: sobre seiscientos, y con frecuencia entre ochocientos y mil doscientos. Es la consecuencia de días de hiperglicemia sin freno."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Pero el pH está sobre siete coma treinta, el bicarbonato sobre dieciocho, y las cetonas están ausentes o apenas en trazas. Recuerda el mecanismo: la poca insulina frenó la cetogénesis."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y el criterio que lo define: la osmolaridad plasmática efectiva sobre trescientos veinte."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La osmolaridad efectiva se calcula como dos veces el sodio, más la glicemia dividida por dieciocho. El valor normal es doscientos setenta y cinco a doscientos noventa y cinco."
+    },
+    {
+      "file": "s03_g04",
+      "text": "¿Y por qué no se suma el nitrógeno ureico, como en la osmolaridad total? Porque la urea atraviesa libremente las membranas celulares, y no mueve agua. Lo que deshidrata a la neurona es lo que no puede cruzar: el sodio y la glucosa."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la clínica, y aquí el mecanismo te lo explica todo. La cetoacidosis es típica del niño o el joven con diabetes tipo uno: es la forma de debut en un veinticinco a treinta por ciento, o aparece cuando se abandona la insulina. Se instala rápido, en menos de un día."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Da náuseas, vómitos y un dolor abdominal difuso que simula un abdomen agudo quirúrgico, como una apendicitis. Lo produce la propia acidosis, por gastroparesia e hipoperfusión mesentérica. Ojo: ese dolor cede al corregir la acidosis, no con cirugía."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y respira profundo y rápido, la respiración de Kussmaul, para botar dióxido de carbono y compensar la acidosis. Tiene aliento a fruta y una deshidratación moderada, de tres a seis litros."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El hiperosmolar es el adulto mayor con diabetes tipo dos, a veces institucionalizado, con días o semanas de poliuria y polidipsia."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La deshidratación es extrema: ocho a doce litros. Llega hipotenso, a veces en shock, con piel marmórea."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y lo que domina es el compromiso de conciencia, desde confusión hasta coma, que se correlaciona con la osmolaridad sobre trescientos veinte. Puede dar signos focales transitorios, como hemiparesia o convulsiones, que simulan un accidente cerebrovascular."
+    },
+    {
+      "file": "s05_g00",
+      "text": "En más del ochenta por ciento de los casos hay un gatillante, y el primero son las infecciones bacterianas: neumonía e infección urinaria. Por eso a estos pacientes siempre se les busca un foco."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Después vienen la omisión de la insulina, el infarto, el accidente cerebrovascular, la pancreatitis, y fármacos como los corticoides en dosis altas o los antipsicóticos atípicos."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y una fórmula que vas a necesitar la próxima clase: el sodio corregido. La glucosa alta saca agua de las células y diluye el sodio, así que el sodio medido aparece falsamente bajo. Por cada cien de glicemia sobre cien, se suma uno coma seis al sodio medido."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Por ejemplo, sodio de ciento treinta y dos con glicemia de cuatrocientos veinte: cuatrocientos veinte menos cien son trescientos veinte, tres coma dos veces cien, y eso por uno coma seis da cerca de cinco. El sodio real es alrededor de ciento treinta y siete. Ese número es el que elige el suero."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y el anion gap, normal entre ocho y doce, no solo diagnostica la cetoacidosis: su cierre es lo que se sigue para saber que se está resolviendo."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Y ahora la entidad que el examen pregunta cada vez más: la cetoacidosis euglicémica por inhibidores de SGLT dos, como dapagliflozina o empagliflozina. Estos fármacos botan glucosa por la orina, así que la glicemia queda normal o apenas elevada, bajo doscientos a doscientos cincuenta."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Con la glicemia baja, el páncreas secreta menos insulina, y sube el glucagón. Es exactamente el ambiente que favorece las cetonas."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si a eso se suma un estrés, como una cirugía, un ayuno o una infección, se desata la cetogénesis. Por eso en la clase anterior los suspendíamos al hospitalizar."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El resultado es una cetoacidosis con anion gap elevado y cetonemia positiva, pero sin la hiperglicemia marcada que esperarías."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y la trampa es descartar la cetoacidosis porque la glicemia capilar es de ciento ochenta. Todo paciente con un inhibidor de SGLT dos que consulta por náuseas, vómitos, dolor abdominal o disnea necesita gases venosos y cetonemia, sea cual sea su glicemia."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora juntemos todo en el árbol que vas a usar frente a un diabético descompensado. Llega un diabético descompensado. Antes de tratar, necesitas saber cuál de las dos crisis es, y para eso pides gases venosos, electrolitos y cetonas."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La primera pregunta es el ácido: ¿hay acidosis metabólica?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si hay acidosis, calcula el anion gap y mira las cetonas."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Gap alto con cetonas positivas es cetoacidosis. Si la glicemia está bajo doscientos cincuenta y el paciente usa un inhibidor de SGLT dos, es la forma euglicémica. Luego clasificas la severidad por el pH y el bicarbonato."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Sin acidosis, calcula la osmolaridad efectiva: dos veces el sodio, más la glicemia dividida por dieciocho."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Glicemia sobre seiscientos con osmolaridad sobre trescientos veinte, sin acidosis: estado hiperglicémico hiperosmolar. En los dos casos, busca el gatillante, primero una infección."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos la comparación en una tabla. Cetoacidosis: joven con diabetes tipo uno, instalación en horas. Hiperosmolar: adulto mayor con tipo dos, en días a semanas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La glicemia: en la cetoacidosis, doscientos cincuenta a seiscientos, o menos con inhibidores de SGLT dos. En el hiperosmolar, sobre seiscientos. Ojo: la glicemia más alta no significa la crisis más ácida."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El pH y el bicarbonato: bajos en la cetoacidosis, normales en el hiperosmolar."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El anion gap y las cetonas: altos en la cetoacidosis; normales, o apenas trazas de cetonas, en el hiperosmolar."
+    },
+    {
+      "file": "s08_g04",
+      "text": "La osmolaridad efectiva: habitualmente bajo trescientos veinte en la cetoacidosis, sobre trescientos veinte en el hiperosmolar."
+    },
+    {
+      "file": "s08_g05",
+      "text": "El déficit de agua: tres a seis litros contra ocho a doce."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Y la clínica que confunde: el dolor abdominal de la cetoacidosis no es quirúrgico, y los signos focales del hiperosmolar no son un accidente cerebrovascular."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Mujer de cincuenta y cuatro años, diabética tipo dos con metformina y dapagliflozina, en el segundo día después de una colectomía, en ayuno. Tiene náuseas, vómitos, dolor abdominal y respira rápido. Su hemoglucotest es ciento setenta y seis. Los gases muestran pH siete coma dieciocho y bicarbonato once. Sodio ciento treinta y nueve, cloro ciento dos, y cetonemia de cuatro coma cinco."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: acidosis láctica por metformina, cetoacidosis euglicémica por el inhibidor de SGLT dos, estado hiperosmolar, íleo postoperatorio, o acidosis hiperclorémica por el suero. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Calcula el anion gap: ciento treinta y nueve menos ciento trece da veintiséis, muy elevado, y la cetonemia está sobre tres. Es una cetoacidosis, con glicemia bajo doscientos, en una usuaria de dapagliflozina operada y en ayuno. La A tienta por la metformina, pero la cetonemia positiva te dice de dónde viene el ácido. Y la hiperclorémica tendría el gap normal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Joven de catorce años, deportista, con tres semanas de polidipsia y poliuria, al que hace una semana se agregan astenia, náuseas y malestar. Glicemia trescientos doce, sodio ciento treinta y dos, potasio cinco, pH siete coma veintiséis, bicarbonato once y exceso de base menos trece."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: hiperglicemia por ejercicio, cetoacidosis diabética, debut de diabetes tipo dos, diabetes insípida, o coma hiperosmolar. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Aplica los criterios: glicemia sobre doscientos cincuenta, pH bajo siete coma treinta y bicarbonato bajo dieciocho. Es una cetoacidosis, y en un adolescente es la forma de debut de la diabetes tipo uno. El deporte es un distractor. Y el coma hiperosmolar cae por dos razones: la glicemia no llega a seiscientos y hay acidosis."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de setenta años con dos semanas de malestar y poliuria, que en los últimos dos días se desorienta y compromete conciencia, sin focalidad. Glicemia novecientos cincuenta, pH venoso siete coma treinta y siete, bicarbonato dieciocho, cetonemia negativa, cetonuria positiva, sodio ciento cuarenta y nueve y potasio cinco."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: coma hiperosmolar no cetósico, cetoacidosis diabética, síndrome mixto, hipernatremia sintomática, o edema cerebral. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, el estado hiperosmolar. Adulto mayor, semanas de poliuria, compromiso de conciencia y glicemia sobre seiscientos, sin acidosis. Calcula la osmolaridad: dos por ciento cuarenta y nueve, más novecientos cincuenta dividido por dieciocho, da unos trescientos cincuenta. La trampa es la cetonuria positiva, que empuja al síndrome mixto; pero sin acidosis y con cetonemia negativa, no hay cetoacidosis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una más, del EUNACOM de julio de dos mil dieciséis. Paciente de veinte años con dos días de poliuria y polidipsia, al que hace pocas horas se agregan dolor abdominal y vómitos. La glicemia es trescientos sesenta."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Qué examen es más adecuado para seguir el estudio?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: cetonemia, creatinina, perfil lipídico, hemoglobina glicosilada o hemograma. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, la cetonemia. Joven, síntomas cardinales, dolor abdominal y vómitos, con glicemia sobre doscientos cincuenta: estás pensando en cetoacidosis, y el criterio que falta confirmar son las cetonas, junto con los gases. La hemoglobina glicosilada es la trampa: sirve para el control crónico, pero no te dice si hoy el paciente está en cetoacidosis."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Cetoacidosis: glicemia sobre doscientos cincuenta, pH bajo siete coma treinta con bicarbonato bajo dieciocho, anion gap elevado y cetonas positivas."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Es el joven con dolor abdominal, vómitos y Kussmaul. Ese dolor no se opera: se corrige la acidosis."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Estado hiperosmolar: glicemia sobre seiscientos y osmolaridad efectiva sobre trescientos veinte, sin acidosis ni cetosis."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es el adulto mayor con semanas de poliuria, deshidratación extrema y compromiso de conciencia."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Con inhibidores de SGLT dos, la cetoacidosis puede venir con glicemia normal."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Y siempre busca el gatillante, primero una infección. Si te llevas una sola idea de hoy: la cetoacidosis es un problema de ácido y el hiperosmolar, un problema de agua. En la próxima clase vemos cómo se repone esa agua. Nos vemos."
+    }
+  ]
+}

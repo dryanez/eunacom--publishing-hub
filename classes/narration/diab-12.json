@@ -1,0 +1,312 @@
+{
+  "id": "diab-12",
+  "title": "Diabetes 3.2: Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 13725,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior aprendimos qué insulina existe y cuándo se inicia. Hoy aprendemos a ajustarla, una de las competencias más evaluadas del examen. La clase entera se resume en una pregunta que te vas a hacer frente a cada registro de glicemias: ¿qué insulina está actuando a esa hora? Si la respondes, el ajuste sale solo, y evitas el error clásico: subir la insulina nocturna sin mirar las tres de la mañana."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Retomemos donde quedamos. Un diabético tipo dos que ya no se controla con orales va a iniciar insulina. En atención primaria, la estrategia de elección es el esquema basal."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Lo primero: la metformina se mantiene. Limita el aumento de peso que produce la insulina y permite usar menos dosis. Suspenderla es un error frecuente en las alternativas."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y se agrega NPH al acostarse, entre las diez y las once de la noche. La dosis de partida es de diez unidades, o de cero coma uno a cero coma dos unidades por kilo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si se dispone de un análogo de acción prolongada, como glargina o degludec, se pone una vez al día, siempre a la misma hora."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y ahora la clave: ¿qué glicemia refleja esa insulina? La NPH de la noche actúa durante la madrugada, así que la que la evalúa es la glicemia de ayuno. Esa es la cifra que guía todo el ajuste."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo se titula. Cada tres a siete días se mira el promedio de las glicemias de ayuno, no un valor aislado. La meta de ayuno es de setenta a ciento treinta."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si el promedio está entre setenta y ciento treinta, la dosis se mantiene, y se controla con hemoglobina glicosilada cada tres meses."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si está entre ciento treinta y uno y ciento ochenta, se suben dos unidades de NPH, y se reevalúa en tres a siete días con tres ayunos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si está sobre ciento ochenta, se suben cuatro unidades, y se reevalúa en tres a cinco días. Esos dos escalones, dos y cuatro, se preguntan."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y si aparece una glicemia bajo setenta, o síntomas de hipoglicemia en la madrugada, la dosis se reduce de inmediato, en un diez a veinte por ciento, es decir, dos a cuatro unidades."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Un límite de seguridad: en el paciente ambulatorio, evita subir más de cuatro unidades por ajuste. Subidas grandes son la receta para una hipoglicemia."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora el tema estrella. Un paciente con insulina basal amanece una y otra vez con glicemias de doscientos a doscientos sesenta. Hay dos mecanismos opuestos que lo explican. El primero es el efecto Somogyi, y empieza con demasiada insulina basal, que produce una hipoglicemia a las tres de la mañana, mientras el paciente duerme."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El organismo se defiende de esa hipoglicemia liberando en masa sus hormonas contrarreguladoras: glucagón, adrenalina, cortisol y hormona de crecimiento."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Esas hormonas hacen que el hígado libere glucosa en forma intensa, y al despertar el paciente tiene una hiperglicemia marcada. Es un rebote. Fíjate en la paradoja: el ayuno está alto porque hay demasiada insulina, no poca."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La hipoglicemia nocturna deja pistas en la historia: pesadillas, sudoración nocturna o cefalea al despertar. Si el enunciado las menciona, te están mostrando el Somogyi."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Entonces, frente a un ayuno alto en un paciente con insulina nocturna, ¿subo o bajo? No se puede saber mirando el ayuno. El primer paso obligatorio es medir la glicemia capilar a las tres de la mañana."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si a las tres de la mañana está bajo setenta, es Somogyi. La conducta es disminuir la insulina basal nocturna, o agregar una colación con carbohidratos complejos antes de dormir. Subirla agravaría la hipoglicemia y perpetuaría el rebote."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El segundo mecanismo es el fenómeno del alba. Es fisiológico: entre las cuatro y las ocho de la mañana sube la hormona de crecimiento y el cortisol, y el hígado se vuelve resistente a la insulina. Aquí no hubo hipoglicemia: a las tres de la mañana la glicemia está normal o alta, sobre cien."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La conducta es la opuesta: aumentar la insulina basal nocturna, o retrasar su inyección al momento de acostarse. Bajarla empeoraría la hiperglicemia."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y hay una tercera posibilidad: la glicemia está sobre ciento cuarenta toda la noche, con poliuria y nicturia. La dosis basal simplemente no alcanza, o se agota antes de completar el día. Se sube la dosis, o se fracciona la NPH en dos, mañana y noche."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Sigamos con el paciente que ya logró su ayuno en meta. Si después de tres a seis meses la hemoglobina glicosilada sigue sobre la meta, o la NPH ya supera cero coma cinco a cero coma siete unidades por kilo al día, algo más está fallando."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Y ese algo son las glicemias después de comer. La basal ya hizo su trabajo; subirla más solo arriesga hipoglicemias. Lo que falta es insulina prandial."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El paso siguiente es el esquema basal-plus: se agrega una sola dosis de insulina rápida o ultrarrápida, de cuatro unidades o el diez por ciento de la dosis basal, antes de la comida que produce el mayor peak. En Chile, habitualmente el almuerzo."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si con eso no basta, se progresa al basal-bolo completo: una o dos dosis basales, más tres bolos prandiales, antes del desayuno, el almuerzo y la cena."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y ojo: en la diabetes tipo uno no hay escalones. Como no hay secreción propia, el basal-bolo es obligatorio en todos los pacientes. Una sola dosis de NPH en un diabético tipo uno es un esquema insuficiente."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora el ajuste de la insulina prandial, que es pura lógica. Cada dosis de insulina rápida controla la glicemia de las dos horas después de su comida, y también la glicemia antes de la comida siguiente."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Entonces: si está alta la glicemia después del desayuno, o antes del almuerzo, se sube la rápida del desayuno."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si está alta después del almuerzo, o antes de la once o la cena, se sube la rápida del almuerzo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si está alta después de la cena o al acostarse, la de la cena."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si lo alto es el ayuno, y ya descartaste el Somogyi, se sube la basal de la noche. La trampa típica es subir la insulina equivocada, por ejemplo, la NPH de la mañana para corregir una glicemia post-almuerzo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ordenemos los esquemas. El basal nocturno, NPH o glargina más metformina, es para el diabético tipo dos que falló a los orales. Se monitorea con el ayuno y su riesgo de hipoglicemia es bajo a moderado."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El basal-plus es para el que tiene el ayuno en meta y la hemoglobina glicosilada sobre siete. Se monitorea el ayuno y el postprandial de la comida intervenida."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El basal-bolo es para todo diabético tipo uno y el tipo dos con déficit severo de insulina. Requiere cuatro a seis controles al día y educación estricta, porque su riesgo de hipoglicemia es alto."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y las mezclas fijas, setenta treinta de NPH con cristalina, dos veces al día con el desayuno y la cena, sirven al diabético tipo dos con horarios de comida muy regulares que no adhiere a muchas punciones. Su problema es la poca flexibilidad."
+    },
+    {
+      "file": "s08_g00",
+      "text": "En el diabético tipo uno con esquema intensificado, el ajuste es más fino. El ratio insulina carbohidratos dice cuántos gramos de carbohidratos cubre una unidad, y se estima con la regla del quinientos: quinientos dividido por la dosis total diaria."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Y el factor de sensibilidad dice cuánto baja la glicemia con una unidad de insulina rápida. Se estima con la regla del mil ochocientos: mil ochocientos dividido por la dosis total diaria. Sirve para indicar bolos de corrección seguros."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y en cada control, en atención primaria, se refuerza la técnica de inyección y la rotación de los sitios, como vimos en la clase anterior."
+    },
+    {
+      "file": "s08_g03",
+      "text": "También se enseña a reconocer los signos de neuroglucopenia, porque todo ajuste de insulina trae el riesgo de hipoglicemia, que es justamente el tema de la clase que viene."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Juntemos todo el razonamiento del ajuste en un solo árbol. Paciente en insulinoterapia que trae su registro de glicemias capilares. Lo primero es identificar qué glicemia está fuera de meta, porque cada una tiene su insulina responsable."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Lo alto es la glicemia de ayuno, o la glicemia después de alguna comida?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si es el ayuno, antes de tocar la dosis se mide la glicemia a las tres de la mañana."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Bajo setenta es efecto Somogyi: se baja la insulina basal nocturna o se agrega una colación antes de dormir."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Sobre cien es fenómeno del alba o una basal insuficiente: se sube la basal, dos o cuatro unidades según el ayuno, o se retrasa al acostarse."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si lo alto es después de comer, la pregunta es si el paciente ya usa insulina prandial."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Si solo usa basal, se pasa a basal-plus: un bolo de cuatro unidades, o el diez por ciento de la basal, antes de la comida que más sube."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Si ya usa bolos, se sube la insulina rápida de la comida que precede a la glicemia alta."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Repasemos la tabla que más se pregunta. Somogyi: a las tres de la mañana bajo setenta, con pesadillas o sudoración. Se baja la basal. El error es subirla, porque agrava la hipoglicemia y perpetúa el rebote."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Fenómeno del alba: normal o alta a las tres, asintomático en la noche. Se sube la basal o se retrasa al acostarse. El error es bajarla."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Basal insuficiente: alta toda la noche, con poliuria y nicturia. Se sube la basal o se fracciona la NPH. El error es agregar insulina rápida en la noche sin tocar la basal."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y la hiperglicemia post-almuerzo, con todo lo demás normal: se sube la rápida previa al almuerzo. El error es tocar la NPH."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos con un caso. Joven de veinte años, diabético tipo uno, con NPH en la mañana y cristalina antes del desayuno, el almuerzo y la cena. Su registro muestra ayuno de ciento cinco, post-desayuno ciento veinte, pre-almuerzo ciento diez, post-almuerzo doscientos treinta y ocho, pre-cena ciento veinticinco y post-cena ciento treinta."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: subir la NPH matinal, subir la cristalina del almuerzo, agregar NPH antes del almuerzo, subir la cristalina del desayuno, o una colación a media tarde. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Recorre el registro: todo está en meta, salvo el post-almuerzo en doscientos treinta y ocho. ¿Qué insulina actúa en ese momento? La cristalina que se puso antes del almuerzo. Esa se sube. La A es la trampa: la NPH de la mañana subiría todo el día y arriesgaría hipoglicemias en las glicemias que hoy están bien."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil veinticinco. Paciente de sesenta y cinco años, diabético tipo dos con NPH nocturna, que tiene ayunos de doscientos a doscientos cuarenta. La glicemia a las tres de la mañana es de sesenta y cinco."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el ajuste más adecuado?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: agregar glibenclamida, sitagliptina o pioglitazona, reducir la NPH nocturna, o un cambio de esquema con metformina. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, reducir la NPH nocturna. Aquí ya te dieron la glicemia de las tres de la mañana, y está bajo setenta: es un Somogyi. El ayuno alto es un rebote por exceso de insulina. Agregar cualquier fármaco que baje la glucosa, como la glibenclamida, empeoraría la hipoglicemia de madrugada."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La segunda, del EUNACOM de agosto de dos mil veintiuno, que también apareció en julio de dos mil diecisiete. Paciente de sesenta años con NPH, treinta unidades en la mañana y veinte en la noche. A las tres de la madrugada presenta sudoración y palpitaciones intensas, que responden al azúcar, con un hemoglucotest de cincuenta."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: bajar la NPH de la mañana, cambiar los horarios, bajar la NPH de la noche, suspender la NPH de la noche, o bajar ambas. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la C. Hazte la pregunta de la clase: ¿qué insulina actúa a las tres de la mañana? La NPH de la noche. Esa es la culpable y esa se reduce, en dos a cuatro unidades. Suspenderla es excesivo, y bajar ambas castiga a la dosis de la mañana, que no tiene nada que ver."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La tercera, del EUNACOM de julio de dos mil quince. Niño de doce años, diabético tipo uno, con una sola dosis de NPH en la mañana. Despierta con ayunos muy altos y hace hipoglicemias frecuentes antes del almuerzo. Su hemoglobina glicosilada es de once coma siete."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: cambiar a glargina en la mañana, dos dosis de NPH más tres refuerzos de cristalina, agregar NPH nocturna, mover la NPH a la noche, o agregar metformina. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B. Primero, la farmacocinética: la NPH de la mañana hace su peak antes del almuerzo, por eso la hipoglicemia, y se agota antes de la noche, por eso el ayuno alto. Pero la clave es que es tipo uno, y en la tipo uno el esquema es basal-bolo siempre. La C es la trampa: arregla el ayuno, pero deja sin bolos a un tipo uno."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La última, del EUNACOM de julio de dos mil veinticuatro. Paciente de cincuenta y siete años, con metformina y diez unidades de NPH nocturna. Respecto al control con glicemias capilares, ¿cuál es el esquema más adecuado?"
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el esquema de control más adecuado?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: dos horas después del desayuno, dos horas después del almuerzo, en ayunas a primera hora, antes de cada comida, o antes de la NPH nocturna. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la C, en ayunas. Es exactamente lo que vimos al comienzo: la NPH de la noche actúa en la madrugada, y la glicemia que la evalúa es la de ayuno. Con ese valor se decide si se suben dos o cuatro unidades. Controlar antes de cada comida tiene sentido en un basal-bolo, no en un esquema basal simple."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. En atención primaria se parte con NPH al acostarse más metformina, y se titula con el ayuno cada tres a siete días."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Dos unidades más si el ayuno está entre ciento treinta y uno y ciento ochenta, cuatro si está sobre ciento ochenta, y ante una hipoglicemia se baja un diez a veinte por ciento."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Ante un ayuno alto, primero la glicemia de las tres de la mañana. Bajo setenta es Somogyi y se baja la basal; sobre cien es alba y se sube."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Si el ayuno está en meta y la hemoglobina glicosilada sigue alta, basal-plus y luego basal-bolo, que en la tipo uno es obligatorio desde el inicio."
+    },
+    {
+      "file": "s16_g04",
+      "text": "Y la glicemia alta después de una comida se corrige con la rápida de esa comida. Si te llevas una sola idea de hoy: frente a cada glicemia alta o baja, pregúntate qué insulina está actuando a esa hora, y ajusta esa. Nos vemos en la próxima clase."
+    }
+  ]
+}
