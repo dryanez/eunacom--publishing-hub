@@ -300,10 +300,8 @@ module.exports = {
 
   pathway: {
     title: 'Hiperglicemia en el paciente hospitalizado',
-    root: N('start', 'Diabético o glicemia > 140 al ingreso', 'Paciente hospitalizado',
-      'Ingresa un paciente con diabetes, o con una glicemia sobre ciento cuarenta. Tenga o no diagnóstico previo, esto es hiperglicemia hospitalaria, y se trata.',
-      ['', N('do', 'Suspender todos los orales', 'Metformina · sulfonilureas · iSGLT2',
-        'El primer paso es suspender todos los hipoglucemiantes orales: la metformina por la acidosis láctica, las sulfonilureas por la hipoglicemia, y los inhibidores de SGLT dos por la cetoacidosis euglicémica.',
+    root: N('start', 'Hiperglicemia al ingreso', 'Glicemia > 140 · suspender todos los orales',
+      'Ingresa un paciente con glicemia sobre ciento cuarenta, tenga o no diabetes previa. El primer paso es suspender todos los orales: la metformina por la acidosis láctica, las sulfonilureas por la hipoglicemia, y los inhibidores de SGLT dos por la cetoacidosis euglicémica.',
         ['', N('q', '¿Paciente crítico?', 'UCI, shock o inestable',
           '¿El paciente es crítico, en intensivo o hemodinámicamente inestable? Eso define la vía de la insulina.',
           ['SÍ', N('alert', 'Insulina cristalina EV', 'Bomba · control cada 1–2 h',
@@ -315,6 +313,6 @@ module.exports = {
             ['SÍ', N('ok', 'Basal-bolo-corrección', '0,2–0,4 UI/kg/día · mitad basal',
               'Si come, basal-bolo-corrección: cero coma dos a cero coma cuatro unidades por kilo al día, la mitad como basal y la mitad en bolos prandiales, más la escala de corrección.')],
             ['Trampa', N('refer', 'Esquema móvil solo', 'Proscrito',
-              'Y lo que nunca se indica como terapia única es el esquema móvil de insulina cristalina según hemoglucotest: persigue la glicemia y produce hiper e hipoglicemias.')])])])]),
+              'Y lo que nunca se indica como terapia única es el esquema móvil de insulina cristalina según hemoglucotest: persigue la glicemia y produce hiper e hipoglicemias.')])])]),
   },
 };

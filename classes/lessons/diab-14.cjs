@@ -389,7 +389,7 @@ module.exports = {
   pathway: {
     title: 'Hipoglicemia: rescate y destino',
     root: N('start', 'Síntomas + glicemia < 70 mg/dL', 'Paciente con sospecha de hipoglicemia',
-      'Paciente con síntomas y un hemoglucotest bajo setenta. Primero se rescata, después se decide el destino, y si no es diabético, se estudia la causa.',
+      'Paciente con síntomas y un hemoglucotest bajo setenta. Primero se rescata según la conciencia, y después se decide el destino según el fármaco que la causó.',
       ['', N('q', '¿Consciente y traga bien?', 'Vía oral segura',
         '¿Está consciente y puede tragar sin riesgo? Eso define el rescate.',
         ['SÍ', N('ok', 'Regla de los 15', '15 g VO · control a los 15 min',

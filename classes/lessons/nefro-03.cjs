@@ -167,12 +167,12 @@ module.exports = {
         { letter: 'E', text: 'Hemodiálisis de urgencia' },
       ],
       correct: 'E',
-      explanation: 'Intoxicación por litio con neurotoxicidad grave (sopor profundo): criterio I de AEIOU. El litio es pequeño, poco unido a proteínas y muy dializable. El carbón activado no une litio y la furosemida aumenta su reabsorción.',
+      explanation: 'Intoxicación por litio con neurotoxicidad grave (sopor profundo): criterio I de AEIOU. El litio es pequeño, poco unido a proteínas y muy dializable. El carbón activado no une el litio.',
       say: {
         stem: 'Ahora preguntas reales. La primera, del EUNACOM de enero de dos mil veintitrés. Paciente usuaria de litio, en sopor profundo, con una litemia de dos coma seis.',
         question: '¿Cuál es el tratamiento más adecuado?',
         options: 'Las opciones: lavado gástrico con carbón activado, suero fisiológico, suspender el litio y observar, diuresis forzada con furosemida, o hemodiálisis de urgencia. Piénsalo.',
-        answer: 'Es la E, hemodiálisis de urgencia. Es la I de AEIOU: el litio es una molécula pequeña, que casi no se une a proteínas, y se dializa muy bien. Lo que decide aquí es la neurotoxicidad grave, el sopor profundo. El carbón activado es el distractor clásico, pero no une el litio. Y la furosemida lo empeora.',
+        answer: 'Es la E, hemodiálisis de urgencia. Es la I de AEIOU: el litio es una molécula pequeña, que casi no se une a proteínas, y se dializa muy bien. Lo que decide aquí es la neurotoxicidad grave, el sopor profundo. El carbón activado es el distractor clásico, pero no une el litio, así que no sirve.',
       },
     },
 
