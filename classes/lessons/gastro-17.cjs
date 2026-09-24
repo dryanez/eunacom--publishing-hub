@@ -175,7 +175,7 @@ module.exports = {
       cards: [
         { title: 'Tríada de Charcot', tag: 'Colangitis', kind: 'criteria', items: [
           { t: 'Dolor + ictericia + fiebre', d: 'Bilis infectada y a presión',
-            say: 'El cuarto cuadro es el más grave. La colangitis se reconoce por la tríada de Charcot: dolor, ictericia y fiebre. Es bilis infectada y a presión dentro de una vía biliar tapada, casi siempre por el mismo cálculo de la coledocolitiasis que se complicó.' },
+            say: 'El cuarto cuadro es el más grave. La colangitis se reconoce por la tríada de Charcot: dolor, ictericia y fiebre. Es bilis infectada y a presión dentro de una vía biliar tapada: es la coledocolitiasis que se infectó.' },
         ] },
         { title: 'Péntada de Reynolds', tag: 'Forma grave', kind: 'alert', items: [
           { t: 'Charcot + hipotensión', d: 'Shock séptico de origen biliar',
