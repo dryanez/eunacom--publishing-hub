@@ -244,6 +244,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-04 | La hCG "comparte la subunidad beta con la TSH". | Comparten la subunidad alfa; las beta solo se parecen. | Dice que la hCG "se parece a la TSH". |
 | endo-04 | En el embarazo "todo hipotiroidismo con TSH > 2,5 debe ser tratado". | Más estricto que la guía ATA actual (depende de anti-TPO y rangos del embarazo). | Sigue el libro. |
 | endo-03 | Carga de levotiroxina EV 300–500 mcg en el coma mixedematoso. | Las guías actuales usan 200–400 mcg y menos en ancianos o cardiópatas. | Sigue el libro. |
+| endo-16 | La PTH causa "hipofosfaturia/hipofosfatemia". | La PTH causa hiperfosfaturia (bloquea la reabsorción de fósforo). | "El fósforo se va por la orina". |
+| endo-14 | La adrenalectomía "normaliza la kalemia en el 100 %". | Exagerado. | Solo dice que normaliza el potasio. |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -256,6 +258,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-24 | Osmolalidad urinaria en DI "< 200–300" (texto) | "< 300" (dx y keyPoints) | Ambos |
 | endo-19 | Mantención de vitamina D 1.000–2.000 UI/día; calcio 1.000 mg/día (texto) | 800–1.200 UI/día en adultos mayores (algoritmo); calcio 1.000–1.200 (preguntas) | El texto |
 | endo-20 | Resonancia urgente en la apoplejía (texto) | TAC (pregunta del libro) | El texto |
+| endo-15 | Betabloqueo tras 2–4 días de alfabloqueo adecuado (texto) | Solo tras los 10–14 días de alfabloqueo (campo tx) | El texto |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -272,3 +275,5 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | endo-24 | El tratamiento de la DI solo está en el campo tx, sin dosis. El banco real no tiene preguntas de NEM. |
 | endo-18 | El campo GES cita "GES 16 (adulto mayor con artrosis / fracturas)" sin decir la garantía (número dudoso). No da conducta para la osteopenia bajo el umbral FRAX. |
 | endo-19 | "Raquitismo" está en el título sin contenido (clínica, profilaxis en lactantes). La contraindicación de bifosfonatos en osteomalacia solo está en una explicación. |
+| endo-14 | No dice que la mayoría de los hiperaldosteronismos tienen potasio normal (Dic 2025 P171) ni que se agrega espironolactona como 4° fármaco en HTA resistente mientras se estudia (Dic 2022 P51, Ago 2021 P136, Ene 2023 P81). |
+| endo-15 | No diferencia feocromocitoma de adenoma de Conn u otras masas suprarrenales (Ene 2023 P82). |
