@@ -360,3 +360,23 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | Pregunta | Motivo |
 |---|---|
 | EUNACOM Diciembre 2017 · Pregunta 47 | Su explicación sugiere suspender la colchicina (solo en crisis); el libro indica colchicina profiláctica 0,5 mg/día por 3–6 meses al iniciar o titular alopurinol. |
+
+## Infectología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| infecto-01, infecto-02 | Campos GES: "Manejo integral del paciente crítico en UCI" e "Infecciones del SNC en adultos y pediatría". | No parecen ser problemas GES reales. | No se menciona GES. |
+| infecto-03 | VHS-1 causa "> 90 % de los casos" de encefalitis viral esporádica. | El > 90 % es la proporción de encefalitis herpética del adulto por tipo 1, no de todas las encefalitis. | "Causa más frecuente", sin cifra. |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| infecto-02 | Tríada: fiebre, cefalea y rigidez de nuca (texto) | Fiebre, rigidez de nuca y compromiso de conciencia (keyPoints) | El texto |
+| infecto-02 | Ampicilina en > 50 años, embarazadas e inmunosuprimidos (texto) | > 50 años, alcohólicos y embarazadas (keyPoints) | El texto |
+| infecto-03 | Absceso post otitis con neurocirugía previa: ceftriaxona + metronidazol (pregunta 2 del libro) | Agregar vancomicina si hubo trauma o cirugía (texto) | El texto; no usa la pregunta |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| infecto-01 | No da esquema antibiótico empírico según foco en la sepsis ni dosis inicial de noradrenalina. El banco real no tiene preguntas de sepsis del adulto. |
