@@ -18,7 +18,7 @@ Cada agente lee `classes/docs/AGENT_BRIEF.md`. Antes de escribir una clase revis
 6. Módulo 3 (Materno-Infantil) y Módulo 4 (Salud Pública) — esta sesión:
    - **Obstetricia (20 clases, ids `ob-XX`): ob-01..20 hecho — LIBRO COMPLETO 20/20 (Antigravity)**
    - **Ginecología (16 clases, ids `gin-XX`): gin-01..16 hecho — LIBRO COMPLETO 16/16 (Antigravity)**
-   - Pediatría (22 clases, ids `ped-XX`): ped-01..04 **hecho** · 05..08 **hecho** · 09..12 · 13..16 · 17..19 · 20..22
+   - Pediatría (22 clases, ids `ped-XX`): ped-01..04 **hecho** · 05..08 **hecho** · 09..12 **hecho** · 13..16 · 17..19 · 20..22
    - Salud Pública (14 clases, ids `sp-XX`): sp-01..04 · 05..08 · 09..11 · 12..14
 
 ## Prompt de cada agente
