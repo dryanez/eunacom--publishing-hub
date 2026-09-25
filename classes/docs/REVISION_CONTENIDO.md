@@ -386,6 +386,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-10 | Cotrimoxazol con CD4 < 200 protege de Pneumocystis y Toxoplasma (keyPoint) | Toxoplasma: CD4 < 100 con IgG positiva (tabla) | La tabla |
 | infecto-14 | Plaquetas < 100.000 y hematocrito > 45–50 % (texto) | Plaquetas < 50.000 (explicación); hematocrito > 50 % (tabla y explicación) | El texto |
 | infecto-20 | Erisipela: cefadroxilo, cefalexina o flucloxacilina (texto) | Además penicilina oral, V y G sódica EV (tabla y explicación) | El texto, con penicilina oral como alternativa |
+| infecto-21 | Exantema post amoxicilina pruriginoso, 90–100 % (texto) | No pruriginoso (viñeta); 95 % (tabla), > 90 % (keyPoints) | El texto (90–100 %), sin afirmar prurito |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -406,6 +407,9 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-18 | No describe el hemograma de la fiebre tifoidea (leucopenia, aneosinofilia; Dic 2025 P57) ni dosis de doxiciclina en leptospirosis leve o de penicilina G en el síndrome de Weil. |
 | infecto-19 | Sin duración para la doxiciclina ni dosis de la triple terapia EV. No hay preguntas reales de ántrax. |
 | infecto-20 | Solo da tratamiento tópico para la foliculitis; no dice cuándo requiere antibiótico oral (Dic 2025 P55 espera flucloxacilina). |
+| infecto-21 | No dice cómo confirmar la infección aguda por VIH con anticuerpos negativos (carga viral / PCR; Jul 2024 P62). |
+| infecto-22 | **No cubre el exantema súbito (roséola, herpes 6), con al menos 5 preguntas reales** (Dic 2018 P70, Jul 2025 P13, Jul 2024 P52, Ago 2021 P35, Jul 2013 P131), ni la enfermedad mano-pie-boca. No menciona la GN post estreptocócica tras escarlatina; sarampión solo clínica y notificación. |
+| infecto-23 | No cubre el tratamiento sintomático de la varicela ni a quién dar aciclovir (> 13 años, segundo caso intradomiciliario, grave o inmunosuprimido); no cubre la embarazada expuesta (serología, inmunoglobulina hiperinmune; Dic 2018 P89, Dic 2022 P119). Corticoides en Ramsay-Hunt solo en la tabla. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -414,3 +418,5 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Agosto 2021 · Pregunta 27 y Julio 2016 · Pregunta 37 | Embarazada alérgica a penicilina con sífilis: clave eritromicina; el libro exige desensibilización y penicilina (el macrólido no cruza bien la placenta). |
 | EUNACOM Diciembre 2022 · Pregunta 86 | Clave coprocultivo en un cuadro de mononucleosis (debería ser anticuerpos heterófilos). |
 | **EUNACOM Diciembre 2024 · Pregunta 6 (usada en infecto-18)** | **Texto del banco corrupto: el agente conservó el enunciado y la respuesta (A, brucelosis) pero reconstruyó las alternativas. Revisar o quitar esa diapositiva.** |
+| EUNACOM Diciembre 2022 · Pregunta 43 | Lactante de 11 meses con 3 días de fiebre y luego exantema: clave Epstein-Barr; es roséola (herpes 6). |
+| EUNACOM Enero 2023 · Pregunta 116 | Famciclovir 500 mg c/8 h por 7 días también es correcto: dos respuestas válidas. |
