@@ -436,6 +436,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-14 | MMSE patológico < 24 (texto) | Normal ≥ 27 y DCL 24–27 (tabla A); normal 27–30, leve 20–23, sin categoría para 24–26 (tabla B) | El texto (MoCA < 26) |
 | neuro-17 | Rocuronio o vecuronio a un décimo de la dosis (texto y tabla) | Curarizantes "contraindicados absolutos" (keyPoints) | El texto |
 | neuro-17 | Anti-MuSK en 30–40 % de los seronegativos (texto) | 35–40 % (tabla) | 30–40 % |
+| neuro-19 | Prednisona 60 mg/día por 7 días y descenso en 3–5 días (texto y tabla) | "7 a 10 días" (keyPoints); descenso de 5 días (viñeta) | El texto |
+| neuro-20 | Crisis de Ménière 20 min a 12 h; neuronitis recupera en 2–4 semanas (texto) | 20 min a 12–24 h; cede en 3 semanas (tabla) | El texto |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -460,6 +462,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2022 · Pregunta 78 | Flufenazina con fiebre y rigidez generalizada: clave "distonía aguda"; es síndrome neuroléptico maligno. |
 | EUNACOM Diciembre 2022 · Pregunta 9 | Alzheimer con agitación: clave diazepam; el libro contraindica benzodiacepinas en demencia. |
 | EUNACOM Diciembre 2025 · Pregunta 24 | La clave (haloperidol) no coincide con su propia explicación (risperidona). |
+| **EUNACOM Diciembre 2025 · Pregunta 29 (usada en neuro-03)** | **Vértigo central: clave "TAC de cerebro"; el libro dice que el TAC detecta < 15–20 % de los infartos de fosa posterior y pide angio-RM urgente. neuro-20 la descartó; revisar neuro-03.** |
+| EUNACOM Diciembre 2017 · Pregunta 58 y Agosto 2021 · Pregunta 102 | Casi el mismo caso con claves distintas (atrapamiento cubital vs túnel carpiano); el propio banco las califica de malas. |
 
 ### A · Posible error del libro
 | Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
@@ -478,3 +482,5 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-16 | "PImáx < −30 cmH2O (o más positiva que −20)" como criterio de riesgo. | El signo está mal: el riesgo es no alcanzar −30. keyPoints además dice "< 30". | "No alcanza menos treinta". |
 | neuro-16 | Arreflexia "patognomónica"; corticoides "formalmente contraindicados". | La arreflexia es necesaria, no patognomónica; los corticoides no sirven, pero no hay contraindicación formal. | Sigue el libro en corticoides. |
 | neuro-17 | Respuesta a succinilcolina "errática". | En la miastenia hay resistencia a la succinilcolina. | Se omite. |
+| neuro-18 | Los anti-CD20 "degranulan" linfocitos B; bandas oligoclonales ausentes en "suero materno/sanguíneo". | Los anti-CD20 depletan linfocitos B; "materno" no corresponde en el adulto. | Términos corregidos. |
+| neuro-20 | "Conarizina" como sedante vestibular. | Es cinarizina. | "Cinarizina". |
