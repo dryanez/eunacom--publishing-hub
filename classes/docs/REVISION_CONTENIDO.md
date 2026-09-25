@@ -317,6 +317,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-18 | Primer peak de Hodgkin 15–35 años (texto) | 20–30 años (tabla y keyPoints) | El texto |
 | hem-21 | Monoterapia sin aminoglucósido de rutina (texto) | "Doble cobertura" ceftazidima + amikacina (pregunta 2 del libro) | El texto |
 | hem-21 | Vancomicina cada 8–12 h (texto) | Cada 12 h (tabla) | No da dosis |
+| hem-23 | ACOD "formalmente contraindicados" solo en SAF triple positivo (sección 3) | Contraindicados en todo SAF trombótico (contexto y keyPoints) | La sección 3 |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -332,6 +333,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-15 | No dice qué dar primero con TP y TTPK prolongados y fibrinógeno < 100 (Dic 2017 P54: plasma); no menciona el feto muerto retenido como causa de CID ni que el dímero D sube en el embarazo (Jul 2019 P54). |
 | hem-19 | No explica el corte de 60 % de plasmocitos ni los biomarcadores de mieloma activo sin CRAB (≥ 60 % plasmocitos, razón de cadenas livianas ≥ 100, > 1 lesión focal en RM). |
 | hem-22 | Las preguntas del libro son de tratamiento de LLA, no del tema; no dice qué hipouricemiante usar con déficit de G6PD; no dice que la PTH está suprimida en la hipercalcemia maligna. |
+| hem-23 | No dice que los anticuerpos antifosfolípidos dan VDRL falso positivo (Dic 2019 P54) ni el manejo del SAF obstétrico. |
+| hem-24 | No cubre la compatibilidad Rh ni el uso de sangre Rh+ en Rh− en emergencia (Jul 2024 P14); nombra el shock anafiláctico sin contenido; la compatibilidad ABO solo está en las preguntas. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -349,6 +352,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Julio 2024 · Pregunta 164 | Neutropenia febril: clave ceftriaxona, que no cubre Pseudomonas; el libro exige monoterapia antipseudomónica. |
 | EUNACOM Julio 2013 · Pregunta 109 | Clave ceftazidima + amikacina; el libro ya no agrega aminoglucósido de rutina. |
 | EUNACOM Enero 2023 · Pregunta 106 | LLA con hiperuricemia: clave suero + alopurinol; el libro indica rasburicasa en alto riesgo. |
+| EUNACOM Diciembre 2017 · Pregunta 54 | Hemorragia postparto con fibrinógeno 90: clave plasma; el libro indica crioprecipitado con fibrinógeno < 100–150. **Ojo: hem-15 sí la usa (con la clave del banco); revisar esa clase.** |
 
 ## Reumatología
 
