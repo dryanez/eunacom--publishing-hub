@@ -13,13 +13,10 @@ Cada agente lee `classes/docs/AGENT_BRIEF.md`. Antes de escribir una clase revis
 5. Módulo 2 (esta sesión — clases nuevas, no revisión):
    - Dermatología (16 clases, ids `derma-XX`): derma-01..04 **hecho** · 05..08 **hecho** · 09..12 **hecho** · 13..16 **hecho** — **LIBRO COMPLETO 16/16**
    - Oftalmología (18 clases, ids `oftal-XX`): oftal-01..04 **hecho** · 05..08 **hecho** · 09..12 **hecho** · 13..15 **hecho** · 16..18 **hecho** — **LIBRO COMPLETO 18/18**
-   - **MÓDULO 2 (Dermatología + Oftalmología) COMPLETO: 34/34 clases.**
-   - (Antigravity sigue con Cirugía por su cuenta — NO tocar cirugia-XX)
-6. Módulo 3 (Materno-Infantil) y Módulo 4 (Salud Pública) — esta sesión. Antigravity está escribiendo Obstetricia
-   (ob-XX) por su cuenta — NO tocar esos archivos. Mazos generados y libros agregados a `SPECIALTIES`/`BOOKS`
-   (ginecología, pediatría, salud pública) — el guion (`classes/lessons/<id>.cjs`) sigue viniendo de
-   `books/scripts/dataset_<libro>.cjs` directo, el mazo es solo para el cover/badges del reproductor y para
-   referencia de títulos vecinos (ver AGENT_BRIEF.md).
+   - **Cirugía General (18 clases, ids `cirugia-XX`): cirugia-01..18 hecho — LIBRO COMPLETO 18/18 (Antigravity)**
+   - **MÓDULO 2 (Dermatología + Oftalmología + Cirugía General) COMPLETO: 52/52 clases.**
+6. Módulo 3 (Materno-Infantil) y Módulo 4 (Salud Pública) — esta sesión:
+   - **Obstetricia (20 clases, ids `ob-XX`): ob-01..20 hecho — LIBRO COMPLETO 20/20 (Antigravity)**
    - Ginecología (16 clases, ids `gin-XX`): gin-01..04 **hecho** · 05..08 · 09..12 · 13..16
    - Pediatría (22 clases, ids `ped-XX`): ped-01..04 · 05..08 · 09..12 · 13..16 · 17..19 · 20..22
    - Salud Pública (14 clases, ids `sp-XX`): sp-01..04 · 05..08 · 09..11 · 12..14
