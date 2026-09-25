@@ -515,7 +515,13 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 
 ## Salud Pública
 
+### B · El libro se contradice (o discrepa del banco real)
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| sp-10 | Libro: el único indicador válido de efectividad de un tamizaje es la reducción de la **tasa de mortalidad**, nunca la sobrevida/letalidad. | "EUNACOM Julio 2017 · Pregunta 141" (banco real) da como respuesta correcta "disminución de la **letalidad**"; su propia explicación está autodudada ("C? El tamizaje no baja la incidencia..."). | El libro — no se usó esa pregunta; se usó "EUNACOM Agosto 2021 · Pregunta 6" (misma pregunta conceptual, responde "tasa de mortalidad", coincide con el libro). Queda para que un humano arbitre si el banco tiene ambos enfoques en años distintos. |
+
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
-| — (banco, no libro) | "EUNACOM Enero 2023 · Pregunta 166" (estructura del sistema de salud) tiene una explicación genérica de tipo "cuadro clínico" que no corresponde a la pregunta (no es un caso clínico). "EUNACOM Diciembre 2017 · Pregunta 66" da como respuesta correcta que la Subsecretaría de Redes Asistenciales delega en la SEREMI, lo que contradice la estructura que trae el libro (SEREMI depende de la Subsecretaría de Salud Pública, no de la de Redes). "EUNACOM Diciembre 2018 · Pregunta 47" (diseños de estudios) está marcada por el propio banco como "[Pregunta disputada]" (enunciado ambiguo, sin un diseño correcto único). Ninguna de las tres se usó. |
+| — (banco, no libro) | "EUNACOM Enero 2023 · Pregunta 166" (estructura del sistema de salud) tiene una explicación genérica de tipo "cuadro clínico" que no corresponde a la pregunta (no es un caso clínico). "EUNACOM Diciembre 2017 · Pregunta 66" da como respuesta correcta que la Subsecretaría de Redes Asistenciales delega en la SEREMI, lo que contradice la estructura que trae el libro (SEREMI depende de la Subsecretaría de Salud Pública, no de la de Redes). "EUNACOM Diciembre 2018 · Pregunta 47" (diseños de estudios) está marcada por el propio banco como "[Pregunta disputada]" (enunciado ambiguo, sin un diseño correcto único). "EUNACOM Diciembre 2024 · Pregunta 75" (sesgos) trae un comentario de evaluador filtrado dentro del texto de la alternativa B. Ninguna de las cuatro se usó. |
+| sp-11 | El código Perfil V3 de la clase (bioética clínica) solo tiene 2 preguntas reales en el banco y ninguna es del tema (Código Sanitario, imprudencia médica en pabellón). Búsquedas por tema (Jehová, rechazo de tratamiento, autonomía, doble efecto, comité de ética, sedación paliativa, voluntad anticipada) no encontraron ninguna pregunta real de bioética/consentimiento. Se usaron las 2 preguntas del libro como "Caso representativo". |
