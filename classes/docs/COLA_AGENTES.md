@@ -1,6 +1,6 @@
 # Cola de agentes · guiones docentes Módulo 1
 
-Regla: **un solo agente Claude a la vez**, 3 clases por agente. **Reumatología la hace Antigravity**: Claude no la toca.
+Regla: **un solo agente Claude a la vez**, 3 clases por agente. **Reumatología: terminada por Antigravity (24/24)**; Claude no la toca.
 Cada agente lee `classes/docs/AGENT_BRIEF.md`. Antes de escribir una clase revisa si ya existe y pasa
 `check_lesson.cjs`; si es así, la salta. El estado real lo da `node classes/scripts/progress.cjs`.
 
