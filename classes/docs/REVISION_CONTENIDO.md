@@ -495,3 +495,10 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | derma-12 | Ni el código ni la búsqueda por tema ("eritema multiforme", "lesión en diana", "escarapela") encontraron una pregunta real que sea realmente de eritema multiforme: todos los resultados son en realidad casos de Stevens-Johnson (diana de 2 anillos + compromiso mucoso, respuesta correcta explícitamente "Steven Johnson"). Se usó "Caso representativo" del libro en su lugar. |
 | derma-13, derma-15 | El banco real sí tiene preguntas reales de melanoma y queratosis actínica, pero todas dependen de una foto ("se observa lo siguiente en la imagen") que no está disponible en el guion — no es un error de tema, es que la pregunta no se puede usar sin la imagen. Se usó "Caso representativo" del libro en ambas clases. |
 | derma-16 | Búsqueda por "pitiriasis" en el banco real devuelve preguntas de pitiriasis rosada (Julio 2019 #121) y pitiriasis alba (Julio 2016 #82) — ninguna es pitiriasis versicolor, el tema real de esta clase. No se usaron. |
+
+## Oftalmología
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| oftal-03, oftal-04 | Mismo patrón de código/tema mal asignado: `class_questions.cjs oftal-04` (código 6.02.1.006, queratitis herpética) devuelve una pregunta real que en realidad es de conjuntivitis bacteriana crónica/blefaritis (tema de oftal-03); a la inversa, el código de oftal-03 devuelve "EUNACOM Julio 2017 · Pregunta 163", cuyo contenido real (aciclovir para úlcera dendrítica) es el tema de oftal-04. Ninguna se usó en la clase equivocada. Esa misma pregunta #163 además depende de una foto ("se muestra en la siguiente foto: INSERTAR FOTO") sin hallazgos en el texto, así que tampoco es usable en oftal-04. |
