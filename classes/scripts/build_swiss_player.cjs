@@ -22,6 +22,7 @@ const SPECIALTIES = [
   { key: 'dermatologia', name: 'Dermatología' },
   { key: 'oftalmologia', name: 'Oftalmología' },
   { key: 'ginecologia', name: 'Ginecología' },
+  { key: 'obstetricia', name: 'Obstetricia' },
   { key: 'pediatria', name: 'Pediatría' },
   { key: 'saludpublica', name: 'Salud Pública' },
 ];

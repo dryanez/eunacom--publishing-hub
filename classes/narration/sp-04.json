@@ -1,0 +1,200 @@
+{
+  "id": "sp-04",
+  "title": "Saludpublica 21.4: Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
+  "specialty": "Salud Pública",
+  "chars": 11290,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos las Enfermedades de Notificación Obligatoria en Chile, uno de los temas de más alta frecuencia del EUNACOM. La pregunta clásica es siempre la misma: frente a una enfermedad, hay que decidir si se notifica de inmediato o dentro de un día. El marco legal es el Decreto Supremo número siete, y de esa decisión depende si el paciente y sus contactos reciben profilaxis a tiempo. Vamos a ordenarla."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por lo legal. Todo médico cirujano que ejerce en Chile, en un hospital público, una clínica privada, un laboratorio o un centro comunitario, tiene la obligación de notificar las enfermedades transmisibles sujetas a vigilancia."
+    },
+    {
+      "file": "s01_g01",
+      "text": "No es una sugerencia: el incumplimiento constituye una infracción sanitaria severa, contemplada en el Código Sanitario, sancionable con sumario sanitario, multas e incluso inhabilidad profesional."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La vía es el sistema informático nacional Epivigila, o la comunicación telefónica directa a la Unidad de Epidemiología de la SEREMI de Salud cuando la emergencia lo exige. Y este es el puente con la clase de rectoría del sistema: la vigilancia epidemiológica depende de la Subsecretaría de Salud Pública, que coordina a las SEREMI."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y para que no se te mezclen los términos: la notificación obligatoria, sea inmediata o diaria, es una forma de vigilancia activa. El sistema exige que cada caso, uno por uno, se reporte apenas aparece."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La vigilancia pasiva es distinta: se usa para cuadros leves y poco transmisibles, como las infecciones urinarias o los exantemas banales, donde simplemente se reportan estadísticas generales para analizarlas después, sin urgencia de caso por caso. Ordénalas así: la activa exige buscar cada caso, la centinela muestrea en algunos centros, y la pasiva solo junta lo que ya se reportó por otra vía."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Las enfermedades de notificación inmediata se notifican por la vía más rápida disponible, dentro de las primeras horas, y con un principio que se pregunta mucho: nunca se espera el resultado de laboratorio. La sospecha clínica basta."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La razón es que estas enfermedades son graves y poco frecuentes, y esperar la confirmación retrasa el control del brote y la protección de los contactos, que a veces necesitan una profilaxis en las primeras horas."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En esta lista están la enfermedad meningocócica invasora y el síndrome cardiopulmonar por Hantavirus, el sarampión, la rubéola y la rabia."
+    },
+    {
+      "file": "s02_g03",
+      "text": "También el cólera, el botulismo, el ántrax, la peste, y los brotes de enfermedades transmitidas por alimentos, que se definen como dos o más personas con el mismo cuadro tras compartir un alimento común."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Las enfermedades de notificación diaria se notifican dentro de las veinticuatro horas siguientes a la atención o a la confirmación, de forma agrupada o individual según el formulario oficial. Son enfermedades menos virulentas o más frecuentes, así que el sistema no necesita reaccionar en el acto, pero igual necesita el dato para vigilar tendencias en el tiempo y detectar a tiempo si una de ellas empieza a comportarse como un brote."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Aquí están la tuberculosis en todas sus formas, y las infecciones de transmisión sexual: sífilis, gonorrea, y la infección por VIH."
+    },
+    {
+      "file": "s03_g02",
+      "text": "También las hepatitis virales agudas, la coqueluche o tos ferina, la enfermedad de Chagas, el tétanos, la hidatidosis y la brucelosis. Fíjate en la lógica: si una enfermedad de esta lista aparece en un brote inusual, con varios casos agrupados, ahí sí puede exigir una notificación más urgente, porque lo que cambia la velocidad no es solo el nombre de la enfermedad, sino la letalidad y la frecuencia con la que se está presentando."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Una vez notificada la sospecha, la SEREMI de Salud despliega una investigación epidemiológica y un estudio de contactos. Pero lo que se hace con esos contactos cambia según la enfermedad."
+    },
+    {
+      "file": "s04_g01",
+      "text": "En el meningococo, se define contacto estrecho a quien durmió bajo el mismo techo o compartió saliva en los últimos diez días, y a ellos se les da profilaxis con rifampicina, seiscientos miligramos cada doce horas por dos días, o ciprofloxacino en dosis única. En la embarazada se prefiere ceftriaxona intramuscular en dosis única."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la coqueluche, la profilaxis con azitromicina se da a los convivientes domiciliarios y a los cuidadores de lactantes, que son los que más riesgo tienen de un cuadro grave."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y en el Hantavirus, ojo con la trampa: no existe quimioprofilaxis farmacológica. Lo que se hace es seguimiento clínico estrecho de los convivientes expuestos, y consulta precoz ante la fiebre."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y en un brote de enfermedades transmitidas por alimentos, la investigación sigue un orden. Primero se confirma que de verdad es un brote, con dos o más personas que comieron lo mismo, usando una curva epidémica y calculando la tasa de ataque."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Luego se identifica el alimento causante con un cuestionario alimentario y el cálculo del riesgo relativo de cada plato, y con eso se decide qué clausurar. La medida inmediata es la inspección sanitaria del lugar, el decomiso del alimento sospechoso y la toma de coprocultivos a los afectados para aislar al agente, casi siempre Salmonella o Staphylococcus."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora ordenemos la decisión completa: inmediata, diaria, o centinela. Frente a cualquier enfermedad transmisible, la pregunta es cómo se vigila: caso a caso de inmediato, caso a caso dentro de un día, o por muestreo en centros determinados."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La velocidad de la notificación depende de dos cosas: la letalidad de la enfermedad y su frecuencia en la población."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Meningococo, Hantavirus, sarampión, cólera, botulismo o un brote de intoxicación alimentaria: se notifica de inmediato, ante la sola sospecha clínica, y se activa la investigación de contactos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Tuberculosis, sífilis, VIH, hepatitis virales o coqueluche: se notifica dentro de veinticuatro horas, caso por caso, para mantener la vigilancia sin la urgencia de un bloqueo inmediato."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Infecciones respiratorias altas, diarreas o influenza: no se notifica cada caso, sino que se muestrea en centros centinela seleccionados, para seguir la tendencia general."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos con una tabla. La notificación inmediata es ante la sola sospecha, sin esperar el laboratorio: meningococo, Hantavirus, sarampión, cólera y brotes de intoxicación alimentaria."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La notificación diaria es dentro de veinticuatro horas: tuberculosis, sífilis, VIH, hepatitis virales y coqueluche."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y la vigilancia centinela no es notificación caso a caso, sino un muestreo periódico en centros de salud específicos, para enfermedades frecuentes y poco graves: infecciones respiratorias altas, diarreas y virus respiratorios como la influenza. El error clásico es tratar estas enfermedades frecuentes como si fueran de notificación inmediata."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y un dato fino: la hepatitis A, como enfermedad aislada, es de notificación diaria, no inmediata. Lo que sí exige reacción inmediata es un brote, dos o más casos ligados a una fuente común, porque ahí el objetivo pasa a ser cortar la transmisión."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Un médico de urgencia rural atiende a un niño de seis años con fiebre alta, cefalea, vómitos, rigidez de nuca y petequias en las piernas, de ocho horas de evolución. Sospecha una enfermedad meningocócica y pide una punción lumbar."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta correcta respecto a la notificación epidemiológica?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: notificar de inmediato sin esperar el citoquímico ni el cultivo, esperar el Gram del líquido cefalorraquídeo, notificar dentro de veinticuatro horas por ser de notificación diaria, notificar solo si el hemocultivo confirma la bacteria, o no notificar hasta el alta. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la A. La enfermedad meningocócica es de notificación inmediata, y la regla de oro es que la sospecha clínica ya basta: no se espera el Gram, ni el cultivo, ni el alta. Cada hora que se demora la notificación es una hora menos de profilaxis para los contactos de este niño."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Usted atiende a cinco pacientes con vómitos y diarrea de inicio agudo en la misma urgencia, todos compañeros de trabajo que almuerzan en el mismo comedor. Se sospecha una intoxicación alimentaria."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Además del manejo de cada paciente, ¿cuál es la medida más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: notificar al encargado de epidemiología del hospital, interrogar a cada paciente para buscar el agente causal, notificar a la SEREMI de Salud, notificar al director del hospital, o notificar a la Superintendencia de Salud."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C, notificar a la SEREMI de Salud. Este es el destino correcto de toda enfermedad de notificación obligatoria, sea inmediata o diaria: la autoridad sanitaria territorial. El encargado de epidemiología del hospital y el director son actores internos, no la autoridad sanitaria; y la Superintendencia fiscaliza seguros y prestadores, no investiga brotes."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Preguntan qué tipo de vigilancia se usa en las infecciones respiratorias altas, las diarreas y las enfermedades de transmisión sexual."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tipo de vigilancia correcto?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: vigilancia activa, vigilancia centinela, vigilancia de notificación obligatoria, estudios de prevalencia, o estudios experimentales."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B, vigilancia centinela. Estas son enfermedades frecuentes y de baja letalidad, así que no tiene sentido notificar cada caso: se muestrea en centros centinela determinados. Ojo con la trampa dentro de la misma pregunta: la sífilis y la gonorrea son la excepción entre las infecciones de transmisión sexual, porque ellas sí son de notificación obligatoria diaria."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y esta pregunta real, del EUNACOM de julio de dos mil diecinueve, va directo a la razón de fondo. Preguntan por qué la meningococcemia es una enfermedad de notificación inmediata."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la razón correcta?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: para aislar a los contactos, para vacunar a la familia, para identificar y manejar a los contactos, para detectar casos secundarios, o por la gravedad de la enfermedad."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. La opción que suena más obvia es la gravedad, pero esa es la razón general de todas las enfermedades de notificación inmediata, no la específica de esta pregunta. Lo que se busca puntualmente es identificar a los contactos estrechos y darles quimioprofilaxis. Y fíjate en un matiz importante: en el meningococo no se aísla a los contactos, como sí se hace en otras enfermedades; se les da el antibiótico preventivo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Lo que decide si una enfermedad es de notificación inmediata o diaria es su letalidad y su frecuencia: grave y poco frecuente, inmediata, ante la sola sospecha, sin esperar el laboratorio."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Frecuente y menos grave, notificación diaria, dentro de veinticuatro horas. Y un brote agrupado de cualquier enfermedad puede exigir la reacción inmediata, aunque la enfermedad en sí sea de notificación diaria."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En el meningococo y en la coqueluche, sí hay quimioprofilaxis para los contactos estrechos. En el meningococo, rifampicina cada doce horas por dos días, o ciprofloxacino en dosis única; en la coqueluche, azitromicina a convivientes y cuidadores de lactantes."
+    },
+    {
+      "file": "s11_g03",
+      "text": "En el Hantavirus no existe quimioprofilaxis: solo seguimiento clínico de los convivientes expuestos y consulta precoz ante la fiebre. Si te llevas una sola idea de hoy: la sospecha, no el resultado del laboratorio, es lo que gatilla la notificación inmediata, y esa misma sospecha es la que activa la profilaxis de los contactos cuando corresponde. Nos vemos en la próxima clase."
+    }
+  ]
+}

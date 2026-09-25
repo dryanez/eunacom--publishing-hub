@@ -1,0 +1,200 @@
+{
+  "id": "sp-01",
+  "title": "Saludpublica 21.1: Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
+  "specialty": "Salud Pública",
+  "chars": 10829,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Partimos el módulo de Salud Pública, y lo hacemos con el tema que abre todo lo demás: cómo está organizado el sistema de salud chileno. Es un tema de altísima frecuencia, con pregunta prácticamente garantizada sobre los tramos de FONASA, el copago cero y los niveles de atención. Y no es un tema para memorizar sin orden: si entiendes la lógica, cada pregunta se responde sola. Empecemos por quién manda."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mando. El Ministerio de Salud es el rector del sistema: define las normas y las políticas, pero no administra los hospitales día a día. Eso lo hace a través de dos subsecretarías, y esa división es justamente lo que más se confunde en el examen."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La Subsecretaría de Salud Pública se encarga de la vigilancia epidemiológica, la regulación ambiental, y de coordinar a las Secretarías Regionales Ministeriales de Salud, las SEREMI. Guarda esta idea, porque la vamos a retomar cuando veamos las enfermedades de notificación obligatoria."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La Subsecretaría de Redes Asistenciales, en cambio, gestiona y articula los Servicios de Salud del país, que son los que administran los hospitales y la red pública en cada territorio. Una norma, la otra administra: esa es la diferencia que se pregunta."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Fuera de las subsecretarías está el Instituto de Salud Pública, que es el laboratorio nacional y de referencia para todos los laboratorios del país, públicos y privados. También autoriza medicamentos y hace vigilancia de laboratorio. No confundas su función técnica de laboratorio con la fiscalización financiera, que es otra institución."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y esa otra institución es la Superintendencia de Salud, un organismo autónomo que no depende jerárquicamente del MINSAL. Su función es fiscalizar: supervigila a FONASA, a las ISAPRES y a los prestadores acreditados, y vela por el cumplimiento de las garantías GES. Si la pregunta es quién controla el dinero y la calidad, la respuesta casi siempre es la Superintendencia."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos al financiamiento. La base es la cotización legal obligatoria para salud: siete por ciento de la remuneración imponible de los trabajadores dependientes, independientes y pensionados."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Eso se complementa con aportes fiscales generales del Estado, que financian especialmente a los tramos de menores ingresos y la infraestructura pública. El siete por ciento no le alcanza a todos, y ahí es donde entra el Estado."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Con ese financiamiento conviven dos subsistemas. FONASA es el seguro público, y cubre a la gran mayoría de los chilenos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Las ISAPRES son seguros privados, con un contrato individual y un plan de salud que varía según el ingreso y el riesgo del afiliado. Fíjate en la lógica: FONASA es solidario, y la ISAPRE es un seguro individual. Esa diferencia explica todo lo que viene con los tramos."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Los tramos se definen por el ingreso del grupo familiar. El tramo A son las personas carentes de recursos, indigentes y quienes reciben subsidio familiar. Su atención en la red pública es completamente gratuita."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y aquí está el dato que más se pregunta del tramo A: no tiene derecho a la Modalidad Libre Elección. No puede comprar bonos para atenderse en el sector privado, aunque tenga la orden de un médico. Solo la red pública."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Los tramos B, C y D se definen por ingresos crecientes, y a diferencia del tramo A, sí tienen derecho a la Modalidad Libre Elección, comprando bonos en prestadores privados en convenio."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y el dato que cambió hace pocos años, y que se pregunta muchísimo: desde el año dos mil veintidós, el programa Copago Cero eliminó los copagos que antes pagaban los tramos C y D en la red pública. Hoy los cuatro tramos, A, B, C y D, tienen gratuidad total en la Modalidad de Atención Institucional. El único lugar donde un afiliado FONASA paga es si elige voluntariamente atenderse en el sector privado por la Libre Elección."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La red asistencial pública se organiza en tres niveles, y todo parte por la Atención Primaria: los centros de salud familiar, los centros comunitarios y las postas rurales. Es la puerta de entrada regular y obligatoria al sistema público."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y no es un dato menor: la Atención Primaria resuelve entre ochenta y noventa de cada cien consultas de la población. La mayoría de los pacientes nunca necesita llegar más allá."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Cuando sí necesita más, el paso siguiente es el nivel secundario: atención especializada ambulatoria y apoyo diagnóstico complejo, a través de centros de referencia y consultorios adosados de especialidad. Y ojo, se llega por interconsulta oficial, no porque el paciente decida ir directo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el nivel terciario son los hospitales de alta complejidad e institutos especializados, con hospitalización, camas críticas y cirugía mayor."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Fuera de ese eje está la urgencia de la Atención Primaria. El SAPU está adosado al CESFAM, funciona en las tardes, noches y festivos, y resuelve con clínica básica, electrocardiograma y laboratorio rápido."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y el SAR es la versión más resolutiva: funciona extendido o las veinticuatro horas, y a diferencia del SAPU, cuenta con radiografía digital y laboratorio con troponina y dímero D. Esa diferencia en los exámenes disponibles es justo lo que separa a uno del otro en el examen."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Juntemos todo: dado el tramo y la modalidad de un paciente, ¿a qué tiene derecho? Para saber a qué tiene derecho un paciente, la primera pregunta siempre es la misma: cuál es su seguro de salud. Eso decide todo lo que sigue."
+    },
+    {
+      "file": "s05_g01",
+      "text": "FONASA es un seguro público y solidario; la ISAPRE es un seguro privado con un plan individual. Si es FONASA, el paso siguiente es el tramo."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con ISAPRE, la cobertura la define el plan contratado, y el paciente elige entre los prestadores en convenio de esa ISAPRE. No hay tramos ni Copago Cero: eso es exclusivo de FONASA."
+    },
+    {
+      "file": "s05_g03",
+      "text": "En FONASA, el tramo lo define el ingreso del grupo familiar. Y el tramo cambia el acceso a la Libre Elección, no el copago en la red pública, que hoy es cero para todos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El tramo A se atiende solo en la Modalidad de Atención Institucional, de forma completamente gratuita, y no tiene derecho a comprar bonos de Libre Elección."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Los tramos B, C y D tienen la red pública completamente gratuita gracias al Copago Cero, y además pueden elegir atenderse en el sector privado comprando un bono de Libre Elección, pagando el valor de ese bono."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. Si preguntan por el laboratorio nacional de referencia, la respuesta es el Instituto de Salud Pública. El error clásico es confundirlo con la Superintendencia, que fiscaliza el dinero y la calidad, no hace exámenes de laboratorio."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si preguntan quién fiscaliza a FONASA, a las ISAPRES y a los prestadores, y quién vela por el cumplimiento de las garantías GES, es la Superintendencia de Salud, un organismo autónomo, no el Ministerio."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Un afiliado del tramo A que pide un bono para atenderse en clínica privada no tiene derecho a la Modalidad Libre Elección. La orden de un médico de atención primaria no cambia eso: se deriva por la red pública."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Un afiliado del tramo D que se hospitaliza en la red pública paga cero por ciento de copago. El veinte por ciento que existía antes del Copago Cero ya no se cobra: es la trampa que más aparece cuando la pregunta usa cifras antiguas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y un paciente con una urgencia de baja complejidad en la noche se resuelve en el SAPU o el SAR, no yendo directo al hospital de alta complejidad, que es para lo que el nivel terciario no está pensado."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Hombre de cincuenta y ocho años, afiliado a FONASA en el tramo D, consulta en el CESFAM por un dolor lumbar mecánico. El médico le indica reposo y analgesia, y le pide una radiografía de columna en el hospital de su área. El paciente pregunta cuánto le va a costar todo esto."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la respuesta correcta sobre el costo de esta atención?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: pagar veinte por ciento del arancel, que el costo sea cero, pagar diez por ciento de la radiografía, que no tenga derecho al examen por ser tramo D, o que deba elegir entre la red pública o un bono con descuento. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Esto es exactamente el Copago Cero que acabamos de ver: los cuatro tramos de FONASA, incluido el D, tienen gratuidad total en la Modalidad de Atención Institucional, y eso incluye la consulta y la radiografía. Los distractores con veinte o diez por ciento son las cifras antiguas, antes del Copago Cero, y la trampa es que el examen te las presente como si siguieran vigentes."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Una empresa extranjera que otorga prestaciones de salud quiere operar en Chile, y pregunta cuál es la institución que actúa como laboratorio de referencia para todos los laboratorios del país, públicos y privados."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la respuesta correcta?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: Central Nacional de Abastecimiento, Instituto de Salud Pública, Superintendencia de Salud, Servicio Médico Legal, o Secretaría Regional Ministerial de Salud."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, el Instituto de Salud Pública. Es justo lo que vimos al principio: el ISP es el laboratorio nacional y de referencia, y además autoriza y fiscaliza medicamentos y dispositivos médicos. El distractor tentador es la Superintendencia de Salud, pero ella fiscaliza el dinero y la calidad de los prestadores, no hace de laboratorio."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Preguntan cuál institución supervisa el funcionamiento del sistema de salud público y privado, fiscaliza a FONASA y a las instituciones previsionales, y vela por el cumplimiento de las garantías GES."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la institución correcta?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: Instituto de Salud Pública, SEREMI de Salud, Ministerio de Salud por su Subsecretaría de Salud Pública, Superintendencia de Salud, o FONASA."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D, la Superintendencia de Salud. Fíjate que la misma idea aparece dos veces en el banco real con distintas palabras, y eso te dice que es de las más preguntadas: la Superintendencia fiscaliza, y las subsecretarías del Ministerio norman y administran, pero no fiscalizan. Esa distinción es la que decide la respuesta."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. El Ministerio norma, los Servicios de Salud administran la red pública, y la Superintendencia fiscaliza. No son la misma institución, y el examen vive de esa confusión."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El Instituto de Salud Pública es el laboratorio de referencia y autoriza medicamentos; no fiscaliza el dinero ni la calidad de los prestadores, eso es tarea de la Superintendencia."
+    },
+    {
+      "file": "s10_g02",
+      "text": "En FONASA, el tramo A no tiene derecho a Libre Elección: solo se atiende en la red pública, y en forma completamente gratuita."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y desde el Copago Cero, los cuatro tramos, A, B, C y D, tienen gratuidad total en la Modalidad de Atención Institucional. El copago solo aparece si el paciente elige atenderse por Libre Elección en el sector privado."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y la Atención Primaria es la puerta de entrada obligatoria, y resuelve entre ochenta y noventa de cada cien consultas. Si te llevas una sola idea de hoy: cada institución tiene una función, y el examen premia saber cuál es cuál. Nos vemos en la próxima clase."
+    }
+  ]
+}

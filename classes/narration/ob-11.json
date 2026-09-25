@@ -1,0 +1,280 @@
+{
+  "id": "ob-11",
+  "title": "Obstetricia 19.11: Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
+  "specialty": "Obstetricia",
+  "chars": 12508,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre embarazo ectópico, la principal causa de muerte materna por hemorragia durante el primer trimestre de la gestación. En esta sesión dominaremos las localizaciones tubáricas más frecuentes y más peligrosas, el uso de la zona discriminatoria de gonadotropina coriónica humana junto con la ecografía transvaginal, los criterios rigurosos para indicar tratamiento médico con metotrexato y las indicaciones quirúrgicas inaplazables de salpingectomía por laparoscopía. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Más del noventa y cinco por ciento de los embarazos ectópicos se implantan en la trompa de Falopio. La porción ampular es la localización más frecuente de todas, concentrando casi el ochenta por ciento de los casos gracias a su mayor diámetro y distensibilidad luminal relativa."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La porción ístmica tiene una pared poco elástica y se rompe tempranamente entre la semana seis y ocho. En contraste, la porción intersticial o cornual está rodeada por miometrio y se distiende hasta la semana doce a dieciséis, pero al romperse erosiona la arteria uterina desatando un sangrado cataclísmico mortal."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Un cinco por ciento corresponde a implantaciones atípicas en ovario, canal cervical, cavidad peritoneal o en la cicatriz de una cesárea previa, esta última de incidencia creciente y con elevado riesgo de acretismo placentario precoz y rotura uterina."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Haber tenido un embarazo ectópico previo es el factor de riesgo más potente de todos, elevando más de diez veces la probabilidad de recurrencia en futuros embarazos por secuelas anatómicas en el aparato tubárico."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Cualquier antecedente quirúrgico sobre las trompas, incluyendo intentos de recanalización o fallas de esterilización tubárica, altera la arquitectura muscular y la motilidad ciliar endotubárica."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La salpingitis crónica destruye los cilios del endosálpinx y forma sinequias intratubáricas que atrapan mecánicamente al blastocisto en su tránsito hacia la cavidad uterina."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El dispositivo intrauterino previene eficazmente la gestación intrauterina; por ende, si una mujer usuaria de DIU queda embarazada, la probabilidad de que sea ectópico alcanza hasta un cincuenta por ciento."
+    },
+    {
+      "file": "s02_g04",
+      "text": "La fertilización asistida eleva el riesgo de implantación tubárica por hiperestimulación y reflujo tubárico, aumentando la incidencia de embarazo heterotópico con un feto intrauterino y otro ectópico simultáneos."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El ectópico no roto mantiene signos vitales rigurosamente normales, mientras que la rotura tubárica desata colapso hemodinámico con shock hipovolémico por hemoperitoneo masivo."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El dolor del ectópico no roto es localizado y tolerable, mientras que el roto debuta con un dolor lancinante brusco que se extiende a todo el abdomen con signos de irritación peritoneal."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En el ectópico roto la movilización del cuello uterino provoca un dolor insoportable conocido como signo de Frenkel, con fondo de saco posterior doloroso y ocupado por sangre."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El no roto permite completar el estudio para evaluar metotrexato, mientras que el roto es una emergencia quirúrgica vital que no admite esperas de exámenes."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Toda mujer en edad fértil con amenorrea, dolor hipogástrico y sangrado vaginal oscuro debe ser evaluada de inmediato con ecografía transvaginal para determinar la presencia de un saco gestacional dentro de la cavidad endometrial."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La zona discriminatoria de la gonadotropina coriónica humana por vía transvaginal se sitúa entre mil quinientas y dos mil unidades internacionales por litro. Si el valor supera las mil quinientas unidades y el útero se encuentra completamente vacío, el diagnóstico es un embarazo ectópico hasta demostrar lo contrario."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si el valor es menor a mil quinientas unidades y no se visualiza saco intrauterino, se clasifica como embarazo de localización indeterminada. En una gestación intrauterina viable la hormona aumenta más del cincuenta por ciento cada cuarenta y ocho horas; un ascenso subóptimo o en meseta orienta fuertemente a ectópico o aborto retenido."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La paciente debe encontrarse en perfectas condiciones hemodinámicas, sin signos de peritonismo ni hemoperitoneo significativo en el fondo de saco de Douglas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El éxito del metotrexato decae notablemente con valores elevados. El punto de corte clásico para indicar manejo médico es una concentración menor a cinco mil unidades internacionales por litro."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La masa anexial no debe sobrepasar los tres coma cinco centímetros de diámetro mayor en la ecografía para minimizar el riesgo de rotura durante la lisis trofoblástica."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La presencia de latidos cardíacos embrionarios en la masa ectópica es una contraindicación formal para metotrexato debido a la altísima tasa de fracaso farmacológico y hemorragia."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El metotrexato es un antagonista del ácido fólico que inhibe la dihidrofolato reductasa. Requiere función medular ósea preservada para evitar aplasia medular grave."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Se exige función hepática y renal normales, ya que el fármaco se excreta íntegramente por filtración renal y puede inducir toxicidad hepática aguda."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El día cero se inyecta la dosis única intramuscular de cincuenta miligramos por metro cuadrado de superficie corporal, suspendiendo todo suplemento vitamínico con ácido fólico."
+    },
+    {
+      "file": "s06_g01",
+      "text": "En el día cuatro es habitual que la gonadotropina coriónica aumente ligeramente debido a la lisis celular trofoblástica; este aumento transitorio no significa fracaso terapéutico."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El hito decisivo es el día siete: se exige una caída mayor o igual al quince por ciento respecto al valor del día cuatro para confirmar que el tratamiento ha sido exitoso."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Confirmada la respuesta, se mide la hormona semanalmente hasta alcanzar niveles indetectables menores a cinco unidades, garantizando la resolución completa del tejido ectópico."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El saco gestacional se aloja dentro del nicho fibroso de la cicatriz de cesárea anterior. Si progresa hacia la serosa uterina, genera rotura catastrófica en el primer trimestre con hemoperitoneo fulminante."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El legrado a ciegas está estrictamente contraindicado por el riesgo de perforación y hemorragia incoercible. Se maneja con inyección local de metotrexato o resección quirúrgica guiada."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El trofoblasto invade el estroma cervical, que carece de miometrio contráctil para hemostasia. La metrorragia suele ser abundante e indolora, simulando un aborto en curso."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Para controlar el sangrado se insufla una sonda con balón intracervical para compresión mecánica, asociando quimioterapia o ligadura de arterias hipogástricas."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La cirugía está indicada de urgencia ante inestabilidad hemodinámica, dolor intratable, hemoperitoneo significativo, masa mayor a tres coma cinco centímetros o contraindicación de metotrexato. La vía laparoscópica es el estándar de oro por su menor dolor y pronta recuperación."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La salpingectomía total, consistente en la remoción completa de la trompa dañada, es la técnica más segura y definitiva. Está indicada ante rotura tubárica evidente, hemorragia activa o paridad cumplida."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La salpingostomía lineal preserva la trompa abriendo una incisión antimesentérica para extraer el saco. Se reserva para mujeres que desean fertilidad futura cuya trompa contralateral está ausente o dañada, exigiendo monitoreo estricto de beta hCG semanal para pesquisar trofoblasto persistente."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Toda mujer con factor Rh negativo no sensibilizada debe recibir trescientos microgramos de inmunoglobulina anti-D dentro de las setenta y dos horas del procedimiento."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Las pacientes que recibieron metotrexato deben posponer un nuevo embarazo durante al menos tres meses para evitar defectos congénitos graves por depleción de folato."
+    },
+    {
+      "file": "s09_g02",
+      "text": "En cualquier nuevo embarazo futuro se debe realizar una ecografía transvaginal precoz a las cinco semanas para confirmar de inmediato la ubicación intrauterina del saco."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Iniciamos el abordaje evaluando inmediatamente los signos vitales para descartar shock hipovolémico."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Si la paciente presenta inestabilidad o peritonismo, ingresamos de urgencia a pabellón para hemostasia quirúrgica."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Realizamos salpingectomía de urgencia y administramos inmunoglobulina anti-D si la madre es Rh negativa."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si está estable, realizamos ecografía transvaginal y medimos beta hCG para definir la ubicación."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Confirmado el ectópico, verificamos si cumple los criterios para manejo médico conservador con metotrexato."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Administramos metotrexato intramuscular y controlamos la caída hormonal entre los días cuatro y siete."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si no cumple criterios de metotrexato, programamos resolución quirúrgica por vía laparoscópica."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Con valores bajo mil quinientas unidades repetimos la medición en cuarenta y ocho horas para evaluar la curva."
+    },
+    {
+      "file": "s11_g00",
+      "text": "En una paciente inestable con sospecha de ectópico roto no se pierde tiempo esperando exámenes de laboratorio. Se traslada a pabellón para control quirúrgico del sangrado."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La presencia de actividad cardíaca embrionaria detectable contraindica el uso de metotrexato por su alta tasa de falla farmacológica y rotura."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El alza hormonal en el día cuatro refleja lisis del sincitiotrofoblasto. El éxito se evalúa recién en el día siete exigiendo una caída mayor al quince por ciento."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Con valores superiores a mil quinientas unidades y cavidad uterina vacía, el diagnóstico es ectópico hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una paciente de treinta y cinco años con antecedente de salpingitis consulta por sangrado genital escaso y dolor hipogástrico con amenorrea de seis semanas y prueba de embarazo positiva, encontrándose hemodinámicamente estable."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta diagnóstica inicial más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "La opción A propone ecografía transvaginal y niveles de gonadotropina coriónica cuantitativa. La B control ecográfico en siete días. La C laparoscopía inmediata. La D legrado de urgencia. La E resonancia magnética. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta correcta es la A. En una paciente estable con sospecha de ectópico la conducta inicial indispensable es la asociación de ecografía transvaginal con niveles plasmáticos de beta hCG."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una paciente de veintisiete años presenta beta hCG de dos mil ochocientas unidades, útero vacío en la ecografía y masa anexial derecha de veintiocho milímetros sin latidos, hemodinámicamente estable."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable y la conducta correspondiente?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A propone embarazo incipiente con control en cuarenta y ocho horas. La B embarazo ectópico tubárico candidato a metotrexato. La C aborto completo. La D ectópico roto con laparotomía. La E cuerpo lúteo hemorrágico. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. La beta hCG supera la zona discriminatoria y el útero está vacío, confirmando ectópico. Al tener beta menor a cinco mil, masa menor a tres coma cinco centímetros y ausencia de latidos, cumple los criterios para metotrexato."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una mujer de treinta y un años con amenorrea de seis semanas llega en shock hipovolémico con presión de ochenta con cuarenta, taquicardia y abdomen agudo peritoneal con dolor exquisito al movilizar el cérvix."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta médica inmediata más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A propone esperar niveles de beta hCG. La B administrar metotrexato intramuscular. La C reanimación hemodinámica agresiva y traslado inmediato a pabellón para cirugía de urgencia. La D aspiración manual endouterina. La E tomografía con contraste. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la C. Frente a un ectópico roto con shock hipovolémico la prioridad absoluta es la reanimación hemodinámica e intervención quirúrgica inmediata en pabellón."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una paciente tratada con metotrexato presenta tres mil seiscientas unidades el día cuatro y dos mil novecientas unidades el día siete, asintomática."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la interpretación del resultado y la conducta a seguir?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A propone tratamiento exitoso con controles semanales hasta negativizar. La B falla por descenso insuficiente. La C fracaso temprano por alza en día cuatro. La D alta definitiva. La E suspender controles. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la A. El descenso entre el día cuatro y el día siete supera el quince por ciento requerido por el protocolo, confirmando respuesta exitosa al metotrexato y requiriendo seguimiento semanal hasta negativizar."
+    },
+    {
+      "file": "s16_g00",
+      "text": "La porción ampular es la localización más frecuente; la porción intersticial cornual es la más peligrosa por riesgo de hemorragia masiva."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Con gonadotropina coriónica sobre mil quinientas unidades y cavidad uterina vacía, el diagnóstico es ectópico hasta demostrar lo contrario."
+    },
+    {
+      "file": "s16_g02",
+      "text": "El metotrexato exige estabilidad hemodinámica, hormona bajo cinco mil, masa menor a tres coma cinco centímetros y ausencia de latidos."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Si te llevas una sola idea de hoy: la paciente inestable con abdomen agudo y sospecha de ectópico roto va directo a pabellón para salpingectomía sin esperar exámenes de laboratorio. Nos vemos en la próxima clase."
+    }
+  ]
+}

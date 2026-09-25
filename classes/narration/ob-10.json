@@ -1,0 +1,272 @@
+{
+  "id": "ob-10",
+  "title": "Obstetricia 19.10: Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+  "specialty": "Obstetricia",
+  "chars": 13351,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre aborto espontáneo, sus formas clínicas, la urgencia del aborto séptico y el marco regulatorio de la ley de interrupción voluntaria del embarazo en tres causales. En esta sesión aprenderemos a distinguir con precisión la amenaza, el aborto inevitable, incompleto y retenido, conoceremos los criterios ecográficos de no viabilidad, dominaremos el manejo médico y quirúrgico con aspiración manual, el protocolo intensivo del aborto séptico y los requisitos médicos de la ley veintiún mil treinta. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La amenaza de aborto se define por la presencia de metrorragia escasa o moderada y contracciones uterinas dolorosas antes de las veintidós semanas de gestación. El rasgo semiológico cardinal es que el orificio cervical interno se encuentra rigurosamente cerrado al examen físico y la ecografía transvaginal confirma latidos cardiofetales presentes."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando el orificio cervical interno se dilata y se vuelve permeable al dedo del examinador, el cuadro se clasifica como aborto en evolución o inevitable. Si tras la salida de tejidos persisten restos ovulares en la cavidad uterina con endometrio mayor a quince milímetros, es incompleto; si la cavidad queda completamente vacía y el cuello se cierra, es completo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En el aborto retenido la gestación ha detenido su desarrollo de forma silenciosa. El embrión carece de latidos cardíacos o existe un saco gestacional mayor a veinticinco milímetros sin polo embrionario visible, manteniéndose el cuello uterino cerrado y sin sangrado activo, lo que exige una confirmación ecográfica rigurosa."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Más de la mitad de las pérdidas del primer trimestre se originan en anomalías cromosómicas numéricas esporádicas no hereditarias. La trisomía dieciséis es la más común en el tejido abortado, seguida de la monosomía X y las triploidías, explicando la mayoría de los abortos retenidos y anembrionados."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La edad materna sobre los treinta y cinco años constituye el principal factor predisponente independiente para la no disyunción cromosómica meiótica, duplicando el riesgo basal de aborto espontáneo y alcanzando cifras superiores al cincuenta por ciento en mujeres mayores de cuarenta años."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El síndrome antifosfolípido es la causa autoinmune tratable más importante de pérdida gestacional recurrente. Induce trombosis en los vasos de la decidua y se trata eficazmente con ácido acetilsalicílico en dosis bajas combinado con heparina de bajo peso molecular subcutánea."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Entre las anomalías congénitas müllerianas, el útero tabicado o septado presenta la mayor asociación con abortos espontáneos de repetición debido a que el tabique es una estructura fibrosa hipovascular que impide la adecuada nutrición trofoblástica."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El aborto espontáneo habitual se concentra en las primeras diez semanas, mientras que la incompetencia cervical produce pérdidas típicamente entre las semanas dieciséis y veintidós de gestación."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El aborto común cursa con intensos dolores cólicos uterinos provocados por la contractilidad miometrial, a diferencia de la incompetencia cervical que cursa con dilatación silente completamente indolora."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En la incompetencia cervical la paciente consulta por sensación de peso vaginal o rotura de membranas con salida de líquido amniótico, sin sangrado abundante previo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La debilidad cervical confirmada por antecedentes de pérdidas indoloras previas se previene realizando un cerclaje cervical profiláctico electivo entre las semanas doce y catorce del siguiente embarazo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La visualización de un polo embrionario con longitud céfalo nalgas mayor o igual a siete milímetros sin latidos cardíacos en la ecografía transvaginal es el criterio de certeza más sólido e irreversible de aborto retenido y muerte embrionaria."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Un saco gestacional con un diámetro medio mayor o igual a veinticinco milímetros en el que no se observa saco vitelino ni botón embrionario establece formalmente el diagnóstico de huevo anembrionado definitivo."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si el embrión mide menos de siete milímetros y no se aprecian latidos, jamás debe apresurarse una conducta invasiva. La norma técnica obliga a repetir la ecografía transvaginal en siete a diez días para confirmar viabilidad."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Un saco gestacional menor a veinticinco milímetros sin estructuras embrionarias visibles amerita control ecográfico en dos semanas para descartar un embarazo inicial normal con fecha de última regla desfasada."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El misoprostol es muy eficaz en gestaciones menores a doce semanas con estabilidad hemodinámica. Puede repetirse a las veinticuatro horas si no hay expulsión completa, logrando vaciamiento en la gran mayoría."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La aspiración manual endouterina es el método quirúrgico de primera elección antes de las doce semanas. Es mucho más segura, ambulatoria y genera menor trauma endometrial que el legrado tradicional."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El legrado cortante tradicional se reserva para situaciones de sangrado incoercible con compromiso hemodinámico donde no se disponga de cánulas, debido al riesgo de adherencias endometriales."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El manejo expectante solo se ofrece a pacientes altamente motivadas y estables con acceso rápido a urgencias si arrecia la hemorragia, requiriendo seguimiento clínico y ecográfico estricto."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El aborto séptico ocurre cuando bacterias del tracto genital inferior o patógenos introducidos por maniobras invasivas colonizan los restos ovulares en descomposición. Clínicamente se manifiesta por la tríada clásica de fiebre alta, dolor hipogástrico intenso y flujo vaginal purulento maloliente."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Los gérmenes invaden el espesor del miometrio y los plexos venosos uterinos causando tromboflebitis séptica pelviana. Ante el antecedente de maniobras abortivas instrumentales, es mandatorio buscar signos de perforación uterina con pelviperitonitis aguda o neumoperitoneo."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La liberación masiva de lipopolisacáridos o exotoxinas de Clostridium perfringens desata coagulación intravascular diseminada, hemólisis intravascular masiva y shock séptico distributivo refractario, configurando una emergencia que amenaza directamente la supervivencia materna."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El esquema parenteral de elección en Chile combina clindamicina para anaerobios y flora genital, gentamicina para bacilos gramnegativos entéricos y ampicilina para enterococos y estreptococos del grupo B, logrando una cobertura bactericida de máxima potencia."
+    },
+    {
+      "file": "s07_g01",
+      "text": "En situaciones con sospecha de insuficiencia renal aguda secundaria a sepsis o hipovolemia, se sustituye el aminoglucósido por ceftriaxona endovenosa combinada con metronidazol y ampicilina para proteger el filtrado glomerular."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El foco séptico necrótico debe vaciarse con celeridad. Se inicia de inmediato la infusión de antibióticos endovenosos y, entre dos y cuatro horas después con niveles tisulares adecuados, se procede al legrado o aspiración bajo cobertura."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si tras el legrado persiste el shock séptico refractario, si se evidencia miometritis necrotizante por Clostridium perfringens con gas intrauterino o si existe una perforación uterina extensa con peritonitis, la indicación inaplazable es la histerectomía total de urgencia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La primera causal aplica cuando la continuación de la gestación representa un riesgo vital inminente para la mujer. No tiene ningún límite de edad gestacional y requiere el diagnóstico fundado de un equipo médico tratante."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La causal dos cubre anomalías congénitas letales incompatibles con la sobrevida extrauterina independiente, como la anencefalia o la trisomía trece confirmada. Tampoco contempla restricción en la edad gestacional."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En mujeres mayores de catorce años, la ley chilena permite la interrupción voluntaria por causal de agresión sexual hasta cumplir las doce semanas completas de gestación."
+    },
+    {
+      "file": "s08_g03",
+      "text": "En niñas menores de catorce años de edad, el legislador reconoció la mayor vulnerabilidad y extendió formalmente el plazo legal de interrupción por violación hasta las catorce semanas de gestación."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Toda mujer con grupo Rh negativo no sensibilizada que experimenta una metrorragia o aborto debe recibir inmunoglobulina anti-D antes de cumplidas setenta y dos horas para prevenir la formación de anticuerpos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si la gestante ya se encuentra aloinmunizada con anticuerpos anti-D circulantes demostrados por un Coombs indirecto positivo, la gammaglobulina no aporta beneficio y la paciente se deriva a alto riesgo obstétrico."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las pacientes con grupo Rh positivo no poseen riesgo de inmunización frente al antígeno D y por tanto no requieren ninguna formulación de inmunoglobulina profiláctica."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Iniciamos el abordaje evaluando la estabilidad hemodinámica y el estado del orificio cervical interno en el examen con espéculo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Si la paciente presenta inestabilidad o hemorragia masiva, reanimamos con fluidos e ingresamos a pabellón de inmediato."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si está estable y con cuello cerrado, la ecografía transvaginal define si hay vitalidad o muerte embrionaria."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si el embrión tiene latidos conservados, diagnosticamos amenaza de aborto e indicamos reposo y observación."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si confirma ausencia de latidos con embrión de siete milímetros o más, indicamos evacuación médica o quirúrgica."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si el cuello está abierto, evaluamos la presencia de restos ovulares intrauterinos para guiar la evacuación."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si persisten restos abundantes, realizamos evacuación mediante aspiración manual o legrado instrumental."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Ante signos de infección intrauterina, hospitalizamos de inmediato con triple cobertura antibiótica y evacuamos el foco."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Nunca se diagnostica aborto retenido si el embrión mide menos de siete milímetros. Se debe esperar una semana y reevaluar para evitar evacuar un embarazo normal viable."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Intervenir quirúrgicamente un útero infectado sin cobertura antibiótica desencadena una bacteriemia masiva fulminante. Se deben infundir antibióticos parenterales y evacuar entre dos y cuatro horas después."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En niñas menores de catorce años el plazo legal para la causal de violación se amplía hasta las catorce semanas de gestación según la normativa chilena vigente."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La aspiración manual endouterina supera al legrado tradicional por tener menor tasa de complicaciones mecánicas como perforación uterina y síndrome adherencial de Asherman."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una paciente de ocho semanas asintomática con orificio cervical cerrado presenta ecografía transvaginal con embrión de ocho milímetros de longitud céfalo nalgas sin actividad cardíaca."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico definitivo y la conducta médica indicada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "La opción A plantea gestación incipiente y control en dos semanas. La B amenaza de aborto con reposo y progesterona. La C aborto retenido con misoprostol o AMEU. La D embarazo ectópico. La E huevo anembrionado con legrado. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta correcta es la C. Un embrión con longitud céfalo nalgas mayor o igual a siete milímetros sin latidos cardíacos define con certeza un aborto retenido, estando indicado el manejo médico con misoprostol o quirúrgico con AMEU."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una paciente de veinticinco años consulta por metrorragia abundante, dolor cólico, cuello uterino permeable con orificio cervical abierto y restos ovulares ecográficos con grosor de veinticuatro milímetros."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más adecuado?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A propone amenaza de aborto. La B aborto completo. La C aborto incompleto. La D enfermedad trofoblástica. La E hemorragia disfuncional. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la C. La combinación de cuello abierto con restos ovulares intrauterinos engrosados configura el cuadro clásico de aborto incompleto."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una mujer de veintiséis años presenta fiebre de treinta y nueve grados, taquicardia, dolor pelviano intenso y metrorragia purulenta fétida con útero subinvolucionado y sensible."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta médica inmediata más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A propone ciprofloxacino oral ambulatorio. La B legrado inmediato sin antibióticos. La C hospitalizar, iniciar triple esquema antibiótico parenteral y evacuar a las dos a cuatro horas. La D esperar hemocultivos. La E histerectomía inmediata. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la C. Frente al aborto séptico se debe hospitalizar de inmediato, iniciar triple cobertura antibiótica parenteral para estabilizar a la paciente y evacuar la cavidad uterina entre dos y cuatro horas después."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una niña de trece años víctima de agresión sexual solicita interrupción voluntaria del embarazo amparada en la Ley veintiún mil treinta, constatándose una edad gestacional de trece semanas y dos días."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la situación legal y la conducta correspondiente?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A sostiene que no procede por superar doce semanas. La B confirma que procede porque en menores de catorce años el plazo se extiende hasta las catorce semanas. La C exige riesgo vital. La D orden judicial. La E denuncia penal previa obligatoria. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. La ley chilena establece una extensión explícita del plazo hasta las catorce semanas de gestación para la causal de violación cuando la víctima es menor de catorce años."
+    },
+    {
+      "file": "s16_g00",
+      "text": "La clave semiológica que separa la amenaza de aborto de un aborto inevitable o incompleto es la apertura del orificio cervical interno."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Un embrión de siete o más milímetros sin latidos cardíacos es aborto retenido irrefutable; bajo siete milímetros se repite la ecografía en una semana."
+    },
+    {
+      "file": "s16_g02",
+      "text": "En aborto séptico nunca se realiza legrado sin antibióticos previos; se infunde el triple esquema y se evacua entre dos y cuatro horas después."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Si te llevas una sola idea de hoy: toda mujer Rh negativa no sensibilizada con un aborto debe recibir inmunoglobulina anti-D antes de las setenta y dos horas para prevenir la aloinmunización en futuros embarazos. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "ob-07",
+  "title": "Obstetricia 19.7: Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
+  "specialty": "Obstetricia",
+  "chars": 12715,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre diabetes gestacional y pregestacional. El control metabólico durante el embarazo es un tema cardinal en el EUNACOM por sus profundas implicancias sobre la salud de la madre y el recién nacido. En esta sesión dominaremos los algoritmos diagnósticos del primer trimestre y del tamizaje sistemático con prueba de sobrecarga oral, comprenderemos el mecanismo de la macrosomía por hiperinsulinismo fetal, fijaremos las metas glucémicas y aprenderemos cuándo iniciar insulina subcutánea. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "A toda mujer embarazada se le solicita una glicemia plasmática en ayunas en su primer control prenatal durante el primer trimestre. Este examen inicial permite pesquisar tanto una diabetes previa no diagnosticada como una intolerancia a los carbohidratos de debut precoz inducida por las primeras modificaciones hormonales."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si presenta dos glicemias de ayuno mayores o iguales a ciento veintiséis miligramos por decilitro, se diagnostica diabetes pregestacional manifiesta. Si presenta dos glicemias de ayuno entre cien y ciento veinticinco miligramos por decilitro en días diferentes, se confirma el diagnóstico de diabetes gestacional precoz sin requerir prueba de sobrecarga."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si la glicemia inicial es estrictamente menor a cien, la paciente continúa su control prenatal habitual y se somete a tamizaje universal entre las semanas veinticuatro y veintiocho mediante una prueba de tolerancia a la glucosa oral con setenta y cinco gramos. Un valor a las dos horas mayor o igual a ciento cuarenta sella el diagnóstico de diabetes gestacional."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Una glicemia de ayuno menor a cien se considera fisiológica y no requiere intervenciones dietéticas, programándose la prueba de sobrecarga de rutina para la semana veinticuatro a veintiocho."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La confirmación de dos glicemias de ayuno entre cien y ciento veinticinco miligramos por decilitro diagnostica formalmente diabetes gestacional precoz e impone manejo nutricional inmediato."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Valores en ayunas mayores o iguales a ciento veintiséis en dos oportunidades o una glicemia al azar mayor a doscientos con poliuria y polidipsia definen diabetes pregestacional."
+    },
+    {
+      "file": "s02_g03",
+      "text": "En el segundo trimestre, una glicemia a las dos horas poscarga mayor o igual a ciento cuarenta miligramos por decilitro diagnostica diabetes gestacional. No se requieren dos exámenes alterados; basta una sola prueba alterada."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Si la prueba fue normal a las veinticuatro semanas pero en el tercer trimestre el feto presenta crecimiento acelerado o polihidramnios inexplicable, debe repetirse una nueva prueba de sobrecarga oral entre las semanas treinta y treinta y dos."
+    },
+    {
+      "file": "s03_g00",
+      "text": "A partir de la semana veinticuatro, la placenta alcanza su máxima tasa de crecimiento y secreta al torrente materno potentes hormonas contrainsulares: lactógeno placentario humano, progesterona, cortisol placentario y prolactina."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Estas hormonas inducen una profunda resistencia a la insulina en los tejidos periféricos de la madre. Una gestante sana compensa triplicando la producción de insulina por sus células beta pancreáticas; pero si existe una limitación previa en su reserva secretora, sobreviene la diabetes gestacional."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La incapacidad de compensar produce hiperglicemia materna sostenida. Como la glucosa atraviesa libremente la membrana sincitiotrofoblástica por difusión facilitada mediante transportadores GLUT uno, el feto queda expuesto a sobrecargas continuas de glucosa."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La insulina materna no es capaz de cruzar la placenta, pero la glucosa pasa con extrema facilidad. El páncreas fetal responde a este aporte excesivo de glucosa desarrollando una marcada hiperplasia de islotes de Langerhans con hiperinsulinismo reactivo persistente."
+    },
+    {
+      "file": "s04_g01",
+      "text": "En la vida intrauterina la insulina es la hormona anabólica y promotora del crecimiento más potente. Estimula el depósito masivo de glucógeno y lípidos en el hígado, corazón y cintura escapular, causando macrosomía desproporcionada con alto riesgo de impactación de hombros durante el parto."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Al nacer y pinzar el cordón umbilical, cesa de golpe el suministro materno de glucosa, pero el hiperinsulinismo fetal se mantiene plenamente activo. Esto desencadena una hipoglicemia neonatal sintomática severa durante las primeras horas de vida."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El recién nacido sufre un colapso glucémico rápido debido a la secreción autónoma de insulina fetal. Requiere inicio precoz de lactancia materna dentro de los primeros treinta minutos de vida y controles de hemoglucotest seriados."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se produce una demora fisiológica en la activación de la paratohormona neonatal sumada a hipercalciuria fetal, provocando irritabilidad, temblores e hipocalcemia que amerita reposición parenteral si es sintomática."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El metabolismo anabólico acelerado genera hipoxia tisular relativa, lo que dispara la síntesis de eritropoyetina. La policitemia resultante aumenta la viscosidad sanguínea y desata ictericia neonatal masiva."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La hiperinsulinemia fetal bloquea directamente la síntesis de fosfolípidos del surfactante en los neumocitos tipo dos. Por ello, el hijo de madre diabética tiene riesgo de enfermedad de membrana hialina incluso cerca del término."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El exceso de insulina provoca hipertrofia del septum interventricular cardíaco. Puede generar estenosis funcional subaórtica transitoria que revierte espontáneamente en los primeros meses de vida tras normalizar los niveles de insulina."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La gestacional aparece tarde por influjo de hormonas placentarias; la pregestacional ya existía durante la fecundación y organogénesis."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La diabetes gestacional típica no produce malformaciones congénitas porque no afecta la organogénesis. En cambio, la pregestacional mal controlada quintuplica el riesgo de malformaciones."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La agenesia sacra o síndrome de regresión caudal es la malformación más específica de la diabetes pregestacional descompensada."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La diabetes pregestacional de larga data se asocia a microangiopatía renal y retiniana, aumentando el riesgo de preeclampsia severa."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La meta de glicemia en ayunas es mantenerse bajo noventa a noventa y cinco miligramos por decilitro. Valores superiores aumentan el riesgo de macrosomía y polihidramnios."
+    },
+    {
+      "file": "s07_g01",
+      "text": "A las dos horas de haber iniciado el desayuno, almuerzo o cena, la glicemia debe ser estrictamente menor a ciento veinte miligramos por decilitro."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si el centro asistencial prefiere la medición a la hora de las comidas, el límite de corte es ciento cuarenta miligramos por decilitro."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si tras una o dos semanas de dieta y ejercicio bien cumplidos, más del veinte por ciento de las mediciones sobrepasan las metas, se indica inicio de insulinoterapia."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La presencia de una circunferencia abdominal fetal ecográfica sobre el percentil setenta y cinco antes de la semana treinta y dos apoya la indicación temprana de insulina."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El pilar inicial en toda diabetes gestacional es el plan alimentario fraccionado en cuatro comidas y dos colaciones, evitando azúcares refinados, sumado a caminata de treinta minutos posprandial y automonitoreo glucémico."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Si más del ochenta por ciento de las mediciones se mantienen dentro de las metas en una a dos semanas de seguimiento, se continúa con el manejo nutricional sin requerir fármacos."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si fracasa la dieta, el fármaco de elección absoluta según la normativa del Ministerio de Salud es la insulina humana NPH subcutánea combinada con insulina regular o ultrarrápida. Los hipoglicemiantes orales como la metformina no son la primera línea oficial en Chile porque atraviesan la barrera placentaria."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La paciente bien controlada con dieta puede esperar el parto vaginal espontáneo hasta las cuarenta semanas con vigilancia biofísica semanal."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La paciente insulinodependiente se interrumpe entre las treinta y ocho y treinta y nueve semanas, manteniendo infusión continua de glucosa para evitar descompensaciones."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si la estimación de peso fetal supera los cuatro mil quinientos gramos en una madre diabética, se programa cesárea electiva para prevenir la impactación de hombros y parálisis braquial."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Tras el alumbramiento la resistencia insulínica desaparece. Se suspende la insulina y se reclasifica a la paciente a las seis semanas posparto con una nueva prueba de sobrecarga."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Iniciamos el abordaje evaluando la glicemia en ayunas del primer trimestre o la prueba de tolerancia en el segundo trimestre."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Si confirma dos glicemias de ayuno entre cien y ciento veinticinco, diagnosticamos diabetes gestacional precoz e iniciamos dieta."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si cumple las metas con el plan nutricional, mantenemos el manejo expectante hasta el término."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si fracasa la dieta con más del veinte por ciento de valores alterados, iniciamos insulina humana NPH."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si la prueba a las veinticuatro semanas resulta mayor o igual a ciento cuarenta, iniciamos manejo nutricional y automonitoreo."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Evaluamos el crecimiento fetal seriado para prevenir distocia de hombros mediante cesárea electiva si supera cuatro mil quinientos gramos."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si presenta glicemias de ayuno mayores o iguales a ciento veintiséis, se maneja como diabetes pregestacional con estudio de microangiopatía."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Un valor entre cien y ciento veinticinco en el primer trimestre no espera a la semana veinticuatro. Se repite de inmediato en ayunas para confirmar diabetes gestacional precoz."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En el embarazo no existe el concepto de intolerancia a la glucosa oral. Un valor poscarga mayor o igual a ciento cuarenta es por definición diabetes gestacional."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En Chile la metformina no es la primera línea en las guías técnicas del Ministerio de Salud. La insulina es el fármaco de elección indiscutido por no cruzar la placenta."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La diabetes gestacional típica no produce malformaciones congénitas porque debuta en el tercer trimestre, mucho después de completada la organogénesis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una primigesta de nueve semanas presenta una glicemia de ayunas de ciento doce miligramos por decilitro en sus exámenes de ingreso prenatal, asintomática."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "La opción A propone realizar prueba de tolerancia oral inmediata. La B repetir una segunda glicemia en ayunas. La C esperar a la semana veinticuatro. La D iniciar insulina subcutánea. La E iniciar metformina oral. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta correcta es la B. Ante una glicemia entre cien y ciento veinticinco en el primer trimestre, la norma ministerial exige solicitar una segunda glicemia en ayunas para confirmar diabetes gestacional precoz."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una paciente de treinta y un años con embarazo de veintiocho semanas presenta una prueba de sobrecarga oral con setenta y cinco gramos de glucosa que resulta con setenta y cinco basal y ciento sesenta miligramos por decilitro a las dos horas."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A propone intolerancia a la glucosa. La B diabetes gestacional. La C diabetes pregestacional. La D diabetes tipo dos. La E resistencia a la insulina. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. En obstetricia, un valor a las dos horas poscarga mayor o igual a ciento cuarenta miligramos por decilitro es diagnóstico de diabetes gestacional."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una embarazada de treinta y dos semanas con altura uterina discordante presenta ecografía con feto en percentil noventa y tres. La prueba de tolerancia a la glucosa muestra noventa y dos basal y ciento setenta miligramos por decilitro a las dos horas."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la causa más probable de la condición fetal?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A propone diabetes gestacional. La B obesidad materna aislada. La C diabetes pregestacional. La D incompatibilidad Rh. La E síndrome hipertensivo. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la A. El resultado de ciento setenta poscarga confirma diabetes gestacional, y el hiperinsulinismo fetal secundario es la causa directa del sobrecrecimiento y macrosomía."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una gestante de veintinueve semanas con diabetes gestacional presenta más del treinta por ciento de sus registros de automonitoreo capilar sobre las metas recomendadas tras dos semanas de dieta estricta."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta médica indicada?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A propone mantener la dieta por dos semanas más. La B iniciar metformina oral. La C iniciar insulina humana NPH subcutánea. La D programar cesárea. La E restricción calórica estricta. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la C. Ante el fracaso del manejo nutricional documentado por más del veinte por ciento de valores fuera de meta, la conducta obligatoria según la norma técnica es iniciar insulina humana NPH."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Dos mediciones en ayunas entre cien y ciento veinticinco en el primer trimestre confirman diabetes gestacional precoz."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Una glicemia a las dos horas poscarga mayor o igual a ciento cuarenta sella el diagnóstico de diabetes gestacional."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La insulina humana es la primera línea farmacológica oficial porque no atraviesa la barrera placentaria."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Si te llevas una sola idea de hoy: las malformaciones congénitas solo aumentan en diabetes pregestacional mal controlada durante el primer trimestre, mientras que la macrosomía por hiperinsulinismo ocurre en ambas. Nos vemos en la próxima clase."
+    }
+  ]
+}

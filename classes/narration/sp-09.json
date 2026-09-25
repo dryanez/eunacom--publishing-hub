@@ -1,0 +1,180 @@
+{
+  "id": "sp-09",
+  "title": "Saludpublica 21.9: Validez, Causalidad, Sesgos y Confusión en Estudios Epidemiológicos",
+  "specialty": "Salud Pública",
+  "chars": 9725,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos cómo se evalúa si una asociación estadística es real: validez, causalidad, sesgos y confusión. Es un tema de alta frecuencia en el EUNACOM, porque casi siempre trae una pregunta sobre reconocer un tipo de sesgo específico, o sobre el único criterio de causalidad que es obligatorio. Partamos por la distinción que ordena todo lo demás."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Cuando encuentras una asociación en un estudio, lo primero es preguntarte si es real o es un error. El error aleatorio es pura variabilidad del azar: afecta la precisión del resultado, pero no lo desvía sistemáticamente en una dirección."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Y lo importante para el examen: el error aleatorio se reduce aumentando el tamaño de la muestra, y se cuantifica con el valor p y el intervalo de confianza del noventa y cinco por ciento."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El error sistemático, o sesgo, es distinto: es una falla en el diseño, en el reclutamiento o en el análisis, que desvía los resultados siempre hacia el mismo lado. No es mala suerte, es un problema de método."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y aquí está la trampa clásica del examen: por mucho que aumentes el número de pacientes, el sesgo no desaparece, porque el error está en cómo se construyó el estudio. El sesgo afecta la validez interna, y si la validez interna está comprometida, ni siquiera vale la pena preguntarse si el resultado se puede generalizar a otra población."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El primer grupo son los sesgos de selección: ocurren cuando los grupos de estudio se arman de una forma que ya no son comparables entre sí. El más preguntado es el sesgo de Berkson, o de admisión hospitalaria: si eliges tus casos y tus controles solo entre pacientes hospitalizados, sus tasas de exposición y de otras enfermedades no representan a la comunidad general."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El sesgo del trabajador sano aparece cuando comparas trabajadores activos con la población general: los trabajadores activos, por definición, están sanos para trabajar, así que muestran menos morbilidad que una población general que incluye a los desempleados, los enfermos y los jubilados."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el sesgo del voluntario, muy parecido: quien se ofrece a participar en un estudio suele tener un estilo de vida más sano y más interés por su salud que quien no se ofrece. En los tres casos, el problema es el mismo: el grupo que estudiaste no se parece al grupo que quieres describir."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El segundo grupo son los sesgos de información: aquí el problema no es a quién eligiste, sino cómo mediste. El más preguntado es el sesgo de memoria, típico de los estudios de casos y controles: el paciente enfermo hace un esfuerzo mucho mayor por recordar sus exposiciones pasadas que el paciente sano, porque está buscando una explicación a su enfermedad."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El sesgo del entrevistador ocurre cuando quien aplica la encuesta pregunta con más insistencia por la exposición si ya sabe que ese paciente es un caso. Y el sesgo de vigilancia o detección aparece en los pacientes que tienen un factor de riesgo conocido: como se les controla más seguido, se les detectan más enfermedades asintomáticas, no porque tengan más enfermedad, sino porque se les buscó más."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la confusión, que es un fenómeno distinto al sesgo. Un estudio observa que las personas que toman café tienen más cáncer de páncreas. A primera vista, parece una asociación causal."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Pero aparece una tercera variable, el tabaquismo, que cumple los tres requisitos para ser un factor de confusión: está asociado al café, porque los fumadores suelen tomar más café; es un factor de riesgo independiente para el cáncer de páncreas; y no es un paso intermedio en el camino entre el café y el cáncer, es una causa aparte."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Cuando controlas esa variable con un análisis estratificado, separando fumadores de no fumadores, la asociación entre el café y el cáncer desaparece. Eso confirma que el tabaquismo era el verdadero confusor, y el café nunca fue la causa. Y esto también se controla desde el diseño: con aleatorización en un ensayo clínico, con restricción, incluyendo solo un tipo de sujeto, o con emparejamiento por edad y sexo entre casos y controles."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Cuando ya descartaste el azar, el sesgo y la confusión, queda evaluar si la asociación es realmente causal. Para eso, Austin Bradford Hill propuso nueve criterios, pero solo uno es absolutamente obligatorio: la temporalidad. La exposición tiene que haber ocurrido antes que la enfermedad. Si la enfermedad ya existía antes de la exposición, la causalidad queda descartada, sin excepción."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Los demás criterios suman evidencia, pero su ausencia no descarta la causalidad por sí sola. La fuerza de la asociación es la magnitud del riesgo relativo o del odds ratio. El gradiente biológico, o relación dosis respuesta, es que a mayor dosis o tiempo de exposición, mayor es el daño."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La plausibilidad biológica exige que la relación tenga sentido con lo que ya sabemos del organismo. Y la consistencia es que la asociación se repita en distintos estudios y poblaciones."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y un criterio que se pregunta específicamente es la evidencia experimental, o cesación de la exposición: si retiras la causa, el efecto disminuye. Por eso erradicar el Helicobacter pylori y ver que baja la recidiva de la úlcera es evidencia de causalidad, y corresponde justamente a ese criterio de cesación, no a la fuerza de la asociación."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen. El primer paso siempre es descartar los errores antes de hablar de causalidad."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El azar afecta la precisión; el sesgo afecta la validez interna del estudio."
+    },
+    {
+      "file": "s06_g02",
+      "text": "No hay falla de diseño: es variabilidad esperable que se reduce con más pacientes."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Revisa si es un sesgo de selección, como Berkson, o de información, como el de memoria."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Una variable de confusión está asociada a la exposición, es causa independiente de la enfermedad, y no es un paso intermedio."
+    },
+    {
+      "file": "s06_g05",
+      "text": "La asociación original era falsa: la tercera variable explicaba todo."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Revisa primero que la exposición haya precedido a la enfermedad; los demás criterios solo suman evidencia."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos con la tabla final. El sesgo de Berkson se reconoce porque casos y controles salen del hospital: se controla eligiendo controles de base comunitaria."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El sesgo de memoria se reconoce por la palabra clave recuerdo, siempre en casos y controles: se controla con registros médicos objetivos, no con lo que el paciente dice que recuerda."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El sesgo del entrevistador se reconoce porque quien aplica la encuesta sabe a qué grupo pertenece el paciente: se controla cegando al evaluador."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y la confusión se reconoce porque aparece una tercera variable, asociada a la exposición y causa independiente de la enfermedad, sin ser un paso intermedio: se controla con estratificación o con un análisis multivariado."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Un estudio retrospectivo de casos y controles evalúa si tomar antibióticos en el primer trimestre del embarazo se asocia a cardiopatías congénitas. Se entrevista a las madres de cien niños con cardiopatías complejas y a doscientas madres de niños sanos. Las madres de los niños con cardiopatía recuerdan con detalle haber tomado fármacos durante el embarazo, mientras que las madres de niños sanos no recuerdan haber tomado nada, aunque sí constaba en sus fichas clínicas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿A qué tipo de sesgo corresponde esta situación?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: sesgo de memoria, sesgo de Berkson, factor de confusión, sesgo del trabajador sano, o error aleatorio. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A, sesgo de memoria. Fíjate en la palabra clave: recuerdan. Las madres de los niños enfermos hacen un esfuerzo mayor por recordar exposiciones pasadas que las madres de niños sanos, y eso infla artificialmente la asociación. No es confusión, porque acá no hay una tercera variable distinta a la exposición que estás midiendo: el problema está en cómo se midió el recuerdo, no en a quién elegiste ni en una variable externa."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Según los criterios de causalidad de Bradford Hill, preguntan cuál es el requisito indispensable para establecer una asociación causal."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es requisito para establecer una asociación causal?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: fuerza de asociación, plausibilidad biológica, respuesta dosis dependiente, secuencia temporal, o asociación estadística."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D, secuencia temporal. Si la causa no aparece antes que el efecto, sencillamente no puede ser la causa, así de simple. Los demás, fuerza, plausibilidad y dosis respuesta, refuerzan la sospecha, pero ninguno es obligatorio como la temporalidad."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecisiete. Un estudio busca la asociación entre el uso de anticonceptivos orales y la hipertensión arterial, y concluye que hay más hipertensión en las pacientes que usaban anticonceptivos. Pero esas pacientes fueron controladas tres veces más seguido que las que no los recibían."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Qué sesgo se encuentra presente en el estudio descrito?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: sesgo de selección, sesgo de notificación, sesgo de exclusión, sesgo de vigilancia, o sesgo del evaluador."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, sesgo de vigilancia. Al grupo con anticonceptivos se le controló mucho más seguido, así que era casi inevitable que se detectara más hipertensión ahí, simplemente porque se buscó más. Es un clásico sesgo de vigilancia: se detectan más problemas en el grupo que está más vigilado."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El error aleatorio se corrige aumentando la muestra; el error sistemático, el sesgo, no se corrige nunca aumentando la muestra, porque el problema está en el diseño."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La confusión es una tercera variable real que se controla con estratificación, pareamiento o análisis multivariado, no un error de medición."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y de los nueve criterios de Bradford Hill, solo uno es obligatorio: la temporalidad. Si te llevas una sola idea de hoy: antes de hablar de causa, primero descarta el azar, después el sesgo, y recién ahí evalúa la temporalidad. Nos vemos en la próxima clase."
+    }
+  ]
+}

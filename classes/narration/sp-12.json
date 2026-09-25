@@ -1,0 +1,164 @@
+{
+  "id": "sp-12",
+  "title": "Saludpublica 21.12: Ley de Deberes y Derechos de los Pacientes (Ley 20.584): Ficha Clínica y Confidencialidad",
+  "specialty": "Salud Pública",
+  "chars": 7458,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos la Ley veinte mil quinientos ochenta y cuatro, la ley de derechos y deberes de los pacientes, con foco en la ficha clínica y el secreto médico. Es un tema de altísima frecuencia, porque casi todos los años aparece una pregunta sobre quién puede pedir una copia de la ficha, y quién no. Y se resuelve con una sola distinción: propiedad no es lo mismo que custodia. Partamos por ahí."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La ficha clínica es el instrumento donde se registra todo el historial asistencial de una persona, en papel o en formato electrónico. Y el primer dato que se pregunta es este: la información que contiene es de propiedad exclusiva e inalienable del paciente. No del médico, ni del hospital, ni de la clínica."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El establecimiento de salud, sea público o privado, no es el dueño de esa información. Es el custodio y depositario legal: está obligado a resguardar su integridad y su confidencialidad, pero la información sigue siendo del paciente. Esa diferencia entre propiedad y custodia es la base de todo lo que viene."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y como custodio, el prestador tiene una obligación legal de plazo: debe conservar la ficha clínica por un mínimo de quince años, contados desde la última vez que el paciente recibió atención en ese establecimiento. Si te preguntan un número distinto, es la trampa."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Empecemos por quién sí puede acceder. El primero, obvio, es el propio paciente: acredita su identidad y accede sin más trámite, porque es el dueño de la información."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Después están quienes actúan en su nombre: el representante legal, que son los padres de un menor o el tutor de un incapaz declarado, o un tercero con un poder notarial expreso. Y si el paciente falleció, sus herederos, acreditando el parentesco o la posesión efectiva."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y por último, dos instituciones del Estado: los tribunales y la Fiscalía, cuando la piden formalmente dentro de una causa, y la Superintendencia de Salud, cuando fiscaliza al prestador. Estos cinco son los únicos con acceso legítimo."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Ahora los que no pueden. El primero, y el que más se pregunta, es el empleador: nunca tiene derecho a la ficha de su trabajador, ni siquiera con una carta timbrada de la empresa. El segundo es la aseguradora privada: tampoco, salvo que el propio paciente le haya dado un poder notarial expreso para eso. Un contrato de seguro no levanta el secreto médico por sí solo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Tampoco la policía, ni Carabineros ni la PDI, si no traen una orden del fiscal o del tribunal: el uniforme no reemplaza a la orden judicial. Y tampoco un familiar de un adulto competente, como el cónyuge, si no tiene un poder notarial específico para eso."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y si el establecimiento entrega la ficha a cualquiera de estos, está vulnerando el secreto médico, y eso trae sanciones administrativas de la Superintendencia, además de responsabilidad civil e incluso penal."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La misma ley protege otros derechos que también se preguntan. El primero es el trato digno: respeto a la intimidad y al pudor, y el derecho a un facilitador lingüístico si el paciente pertenece a un pueblo indígena o es migrante y no habla español."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y hay una prohibición absoluta de fotografiar, grabar en video o grabar audio a un paciente sin su consentimiento informado y por escrito, aunque sea con fines docentes. Esto se pregunta seguido, sobre todo en el contexto de estudiantes que sacan fotos clínicas para presentaciones."
+    },
+    {
+      "file": "s03_g02",
+      "text": "También tiene derecho a información financiera clara sobre los costos de su atención, y a recibir el informe de epicrisis al momento del alta hospitalaria: eso es obligatorio, no opcional."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La ley también impone deberes al paciente: entregar información veraz sobre su salud y su identidad, y tratar con respeto al personal de salud."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y una norma que se conecta con esto es la Ley de Consultorio Seguro, que agrava las sanciones penales para quien agreda física o verbalmente a un funcionario de salud en su lugar de trabajo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pongamos todo esto en un árbol de decisión, tal como razonas frente a una solicitud real. Antes de nada, hay que identificar quién pide la información y qué puede acreditar."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El paciente y quien tenga su representación legal siempre pueden acceder, si acreditan quiénes son."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Se entrega sin más trámite: la información sigue siendo del paciente."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Sin acreditación no hay certeza de que corresponda entregarla; primero se verifica."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Ningún tercero externo tiene un derecho propio sobre la ficha de otra persona."
+    },
+    {
+      "file": "s04_g05",
+      "text": "La legitimación viene del documento formal, no de la relación laboral o contractual."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Entregar sin ese respaldo es una vulneración del secreto médico, sancionable."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos con la tabla final. El propio paciente: sí, siempre, porque es el dueño de su información."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El representante legal o los herederos: sí, porque actúan en nombre del paciente o continúan sus derechos."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La Fiscalía o los tribunales: sí, pero solo con un requerimiento formal dentro de una causa."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El empleador: no, nunca, aunque invoque una razón laboral. Esta es la respuesta incorrecta más repetida del tema."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y la aseguradora sin poder notarial: no, porque el contrato privado no basta para levantar el secreto médico."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Un trabajador de treinta y cinco años sufre una crisis de pánico en su horario laboral, y acude a urgencias de una clínica privada. Al día siguiente, el jefe de recursos humanos de la empresa llega a la dirección médica con una carta formal timbrada, pidiendo una copia íntegra de la ficha de urgencia del trabajador, para saber si su cuadro ameritaba reposo o si había consumo de sustancias."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la conducta que debe asumir la dirección del establecimiento de salud?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las opciones: entregar la ficha completa porque la carta la respalda, rechazar la solicitud porque el empleador no tiene acceso legal, entregar solo el diagnóstico de ingreso, pedir autorización verbal del jefe de servicio, o entregarla si el trabajador no reclama a tiempo. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la B. Ni la carta timbrada, ni entregar una versión parcial, ni una autorización verbal cambian nada: el empleador simplemente no está en la lista de quienes pueden acceder. La única conducta correcta es rechazar la solicitud completa, sin importar cuán formal se vea el papel que trae."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Se quiere hacer un estudio en adolescentes de dieciséis años, que estudian en colegios del sector público."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Quién debe firmar el documento de consentimiento informado para autorizar la participación de estos pacientes?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: el propio alumno, el director del establecimiento, cualquier pariente mayor de edad, el apoderado, o el encargado de salud y bienestar estudiantil."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la D, el apoderado. Conecta esto con lo que vimos de la ficha clínica: así como el representante legal es quien accede a la información de un menor, también es quien firma en su nombre cuando se necesita un consentimiento. El adolescente tiene derecho a que se le explique y se le escuche, pero la firma que hace válido el consentimiento es la de su representante legal."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Cerremos con las reglas de oro. La ficha clínica es del paciente; el establecimiento solo la custodia."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Y esa custodia dura un mínimo de quince años desde la última atención."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Solo cinco tienen acceso legítimo: el paciente, su representante, sus herederos, la justicia y la Superintendencia de Salud."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El empleador y la aseguradora nunca acceden por defecto, salvo con un poder notarial expreso del paciente. Si te llevas una sola idea de hoy: antes de entregar cualquier ficha, pregúntate si quien la pide está en esa lista de cinco. Nos vemos en la próxima clase."
+    }
+  ]
+}

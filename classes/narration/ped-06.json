@@ -1,0 +1,288 @@
+{
+  "id": "ped-06",
+  "title": "Pediatria 18.6: Laringitis Aguda Obstructiva / Croup: Score de Taussig, Adrenalina Racémica y Dexametasona",
+  "specialty": "Pediatría",
+  "chars": 12434,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre laringitis aguda obstructiva o croup en pediatría, uno de los motivos de consulta más frecuentes en el servicio de urgencia infantil durante los meses de otoño e invierno. En esta sesión aprenderemos a reconocer la tríada clínica patognomónica, estratificar la gravedad mediante los grados clínicos ministeriales, indicar oportunamente la dexametasona y la adrenalina racémica respetando el período de observación por efecto rebote, y diferenciar con precisión la epiglotitis y la traqueítis bacteriana. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El virus parainfluenza coloniza la mucosa laríngea desencadenando una intensa respuesta inflamatoria en la región subglótica, justo a nivel del cartílago cricoides, la única estructura cartilaginosa anular completa e inextensible de la vía aérea superior."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Debido a la ley de Poiseuille, apenas un milímetro de edema en la subglotis del lactante reduce el área luminal en tres cuartas partes y multiplica por dieciséis la resistencia al flujo aéreo, generando turbulencia acústica con estridor y tos perruna."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El virus parainfluenza tipo uno es el causante de más del setenta por ciento de los cuadros de laringitis aguda obstructiva infantil, presentándose en brotes epidémicos bien definidos en otoño y primavera."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Con menor frecuencia participan el virus respiratorio sincicial, el adenovirus y la influenza, estos dos últimos capaces de provocar formas inflamatorias más severas y prolongadas."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En el paciente pediátrico menor de ocho años, el punto más angosto de toda la vía aérea no son las cuerdas vocales, sino la región subglótica delimitada rígidamente por el anillo cricoides."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Cuando el niño llora o se agita, la presión inspiratoria negativa generada colapsa activamente las estructuras supraglóticas blandas, aumentando el edema y cerrando aún más la luz laríngea."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La inflamación de las cuerdas vocales verdaderas y falsas altera su vibración fisiológica, produciendo una disfonía característica con llanto ronco o apagado."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La tos es seca, metálica y resonante, tradicionalmente descrita como tos perruna o tos de foca, ocasionada por el paso forzado del aire a través del canal subglótico edematoso."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El estridor es un ruido respiratorio inspiratorio de tono rudo que al comienzo se escucha únicamente al llorar o agitarse, pero que al aumentar el edema se vuelve audible en reposo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Los padres consultan con frecuencia durante la madrugada debido a un despertar súbito del niño con tos sofocante y estridor, favorecido por el descenso del cortisol circadiano y el aire frío de la noche."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El grado uno o leve se define por disfonía y tos perruna con estridor presente solo cuando el niño llora o se inquieta, manteniéndose sin estridor ni esfuerzo muscular en reposo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El grado dos o moderado se caracteriza porque el estridor inspiratorio se ausculta en reposo absoluto, acompañado de tiraje intercostal y subcostal moderado."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El grado tres o severo presenta estridor bifásico inspiratorio y espiratorio, retracción universal intensa con aleteo nasal y signos de hipoxia con agitación psicomotriz."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El grado cuatro es la fase premórbida terminal: el niño se agota, deja de emitir estridor por flujo casi nulo, se torna cianótico y bradipneico requiriendo soporte ventilatorio inmediato."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La dexametasona oral en dosis única de cero coma quince a cero coma seis miligramos por kilo es el fármaco de elección indiscutido para todos los grados de laringitis, incluso en el grado uno."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La dexametasona inicia su acción antiinflamatoria a las dos horas de ingerida y posee una vida media biológica prolongada de hasta tres días, protegiendo al niño durante todo el período crítico."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si el paciente presenta vómitos reiterados o dificultad extrema para deglutir en grados tres, se administra la misma dosis de dexametasona por vía intramuscular o endovenosa."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La budesonida nebulizada a dosis de dos miligramos es una alternativa válida si existe rechazo absoluto a la vía oral y se busca evitar la inyección intramuscular en niños reactivos."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La adrenalina nebulizada actúa sobre los receptores alfa uno de la mucosa subglótica produciendo vasoconstricción capilar intensa, reduciendo el edema y aliviando el estridor en menos de treinta minutos."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se puede utilizar adrenalina racémica al dos coma veinticinco por ciento a dosis de cero coma cero cinco mililitros por kilo, o adrenalina corriente uno a mil a cero coma cinco mililitros por kilo nebulizada con oxígeno."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La acción de la adrenalina es fugaz y cede a las dos horas. Al terminar su efecto puede ocurrir vasodilatación de rebote con reaparición violenta del estridor y la insuficiencia respiratoria."
+    },
+    {
+      "file": "s06_g03",
+      "text": "En el EUNACOM es un mandato de seguridad: todo lactante que recibe adrenalina nebulizada debe permanecer en observación médica por un mínimo estricto de dos horas antes de autorizar el alta a domicilio."
+    },
+    {
+      "file": "s07_g00",
+      "text": "En la radiografía anteroposterior de cuello, el edema subglótico borra los ángulos laterales de la tráquea, dibujando un estrechamiento progresivo conocido clásicamente como signo de la torre, del lápiz o del campanario."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La placa lateral permite visualizar una epiglotis normal y delgada con espacio retrofaríngeo conservado, diferenciando con nitidez el croup de la peligrosa epiglotitis bacteriana."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Jamás se debe enviar a un niño con dificultad respiratoria moderada o severa a rayos sin haber iniciado el tratamiento, ya que la manipulación o el llanto en el servicio de radiología pueden gatillar asfixia súbita."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La radiografía de cuello se reserva para cuadros que no responden a la dexametasona y adrenalina, sospecha de cuerpo extraño radiopaco o sospecha clínica de traqueítis invasiva."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El croup viral por parainfluenza presenta buen estado general con tos perruna y estridor, respondiendo a dexametasona y adrenalina racémica."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La epiglotitis bacteriana muestra aspecto séptico tóxico, posición de trípode y babeo sin tos, requiriendo intubación inmediata en pabellón."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La traqueítis bacteriana debuta como un croup que no responde a adrenalina, con fiebre alta y secreción purulenta espesa en tráquea."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El cuerpo extraño laríngeo es súbito y afbril mientras el niño come o juega, exigiendo maniobras inmediatas o laringoscopía de rescate."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La epiglotitis aguda bacteriana se manifiesta por la clásica tétrada: disfagia intensa, salivación o babeo constante, voz apagada en papa caliente y dificultad respiratoria progresiva sin tos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "El paciente adopta espontáneamente la posición de trípode, inclinándose hacia adelante con el cuello en hiperextensión y la boca abierta para maximizar el paso de aire a través de la laringe tumefacta."
+    },
+    {
+      "file": "s09_g02",
+      "text": "En el box de urgencias está formalmente contraindicado introducir un bajalenguas o forzar el decúbito supino, ya que este estímulo puede desencadenar un laringoespasmo masivo y paro respiratorio inmediato."
+    },
+    {
+      "file": "s09_g03",
+      "text": "El niño debe permanecer tranquilo en brazos de sus padres con oxígeno por máscara próxima y ser trasladado de urgencia a quirófano para intubación orotraqueal por especialista bajo anestesia general."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La traqueítis bacteriana es una infección invasiva de la mucosa traqueal, frecuentemente por estafilococo dorado, que simula un croup viral pero evoluciona con fiebre alta y no responde a la adrenalina."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La invasión bacteriana produce necrosis de la mucosa con formación de pseudomembranas mucopurulentas densas que amenazan con ocluir por completo la tráquea distal."
+    },
+    {
+      "file": "s10_g02",
+      "text": "El paciente debe ser trasladado de urgencia a cuidados intensivos para intubación traqueal programada, permitiendo la aspiración directa de los tapones purulentos que provocan la asfixia."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Se inicia tratamiento antibiótico endovenoso de amplio espectro combinando cloxacilina o vancomicina con una cefalosporina de tercera generación para cubrir estafilococo y bacilos gramnegativos."
+    },
+    {
+      "file": "s11_g00",
+      "text": "El croup espasmódico se manifiesta por un despertar nocturno brusco con tos perruna y estridor en un niño previamente sano sin fiebre ni catarro previo, asociado a hiperreactividad laríngea."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La base patogénica involucra hiperreactividad neuromuscular y edema transitorio sin invasión viral destructiva, gatillado a menudo por microaspiración nocturna o aeroalérgenos."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El espasmo suele ceder espontáneamente al abrir la ventana y respirar aire fresco nocturno o con vapor tibio, aliviando la angustia familiar mediante medidas sencillas de confort."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Una dosis oral de dexametasona administrada en el episodio agudo aborta la inflamación y previene que el niño vuelva a despertar con estridor en las noches siguientes."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Iniciamos la evaluación clínica categorizando la presencia de estridor y retracción torácica para definir el grado de severidad."
+    },
+    {
+      "file": "s12_g01",
+      "text": "En grado uno indicamos dexametasona oral en dosis única y medidas de frío ambiental con alta y control si empeora."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En grado dos administramos dexametasona y nebulizamos adrenalina racémica con oxígeno en la sala de urgencias."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si el niño evoluciona favorablemente se completa el período obligatorio de dos horas y se otorga el alta a domicilio."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Si el estridor reaparece o no cede se indica nueva nebulización y se hospitaliza para vigilancia estrecha."
+    },
+    {
+      "file": "s12_g05",
+      "text": "En grado tres se administra oxígeno, adrenalina nebulizada inmediata y corticoide parenteral hospitalizando al paciente."
+    },
+    {
+      "file": "s12_g06",
+      "text": "En inminencia de paro se procede a intubación de rescate con tubo más estrecho por el edema y traslado urgente a cuidados intensivos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Niño de dieciocho meses con laringitis grado dos que recibe dexametasona y adrenalina racémica presentando rápida mejoría con desaparición del estridor."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta médica correcta respecto al destino del paciente?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A alta inmediata con amoxicilina. La B mantener en observación en urgencia por un mínimo de dos horas para descartar efecto rebote. La C cuidados intensivos. La D adrenalina reglada cada media hora. La E alta con salbutamol. Recuerda la farmacocinética de la adrenalina. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. La adrenalina puede provocar efecto rebote a las dos horas por lo que la observación durante ese período es una regla de oro."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Lactante de catorce meses con disfonía y tos perruna que presenta estridor inspiratorio únicamente al llorar sin estridor ni tiraje en reposo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico de severidad y el tratamiento de elección?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A plantea grado dos con adrenalina y hospitalización. La B laringitis grado uno con dexametasona oral en dosis única y manejo domiciliario. La C manejo expectante sin medicamentos. La D epiglotitis. La E bronquiolitis con salbutamol. Analiza el grado clínico. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B. El estridor que solo aparece con llanto define grado uno leve y se trata con dexametasona oral en dosis única."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Niño de tres años séptico con fiebre muy alta disfagia con sialorrea voz en papa caliente y posición en trípode sin toser."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la sospecha diagnóstica y la principal contraindicación en el box de urgencias?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A propone croup viral contraindicando adrenalina. La B epiglotitis aguda estando formalmente contraindicado examinar la orofaringe con bajalenguas. La C laringomalacia. La D absceso periamigdalino. La E cuerpo extraño. Prioriza la seguridad de la vía aérea. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. Es una epiglotitis aguda y está terminantemente prohibido usar bajalenguas en el box por riesgo inminente de laringoespasmo reflejo fatal."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Pregunta directa sobre el agente causal predominante en la laringitis aguda obstructiva pediátrica."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el principal patógeno responsable del croup viral?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "La opción A propone neumococo. La B virus Parainfluenza tipo uno. La C Haemophilus influenzae b. La D herpes simple. La E Mycoplasma pneumoniae. Identifica el virus respiratorio hegemónico. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B. El virus Parainfluenza tipo uno causa más del setenta por ciento de los casos de laringitis obstructiva en niños."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Recuerden que la dexametasona oral se administra en todos los grados de laringitis, incluso en el grado uno con estridor solo al llanto, para evitar que progrese a grados moderados o severos."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Si hay estridor en reposo se nebuliza adrenalina racémica, siendo obligatorio mantener al paciente en observación médica durante dos horas completas antes de evaluar su alta."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Jamás olviden la contraindicación absoluta del bajalenguas ante fiebre alta con sialorrea y posición de trípode, ya que gatilla paro respiratorio instantáneo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Si un croup agrega aspecto tóxico sospechen traqueítis bacteriana. Si te llevas una sola idea de hoy: en la laringitis obstructiva la dexametasona oral en dosis única es obligatoria en todo paciente, incluso en cuadros leves. Nos vemos en la próxima clase."
+    }
+  ]
+}

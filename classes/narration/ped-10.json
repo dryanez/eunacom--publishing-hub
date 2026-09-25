@@ -1,0 +1,300 @@
+{
+  "id": "ped-10",
+  "title": "Pediatria 18.10: Exantemas Infantiles: Diagnóstico Diferencial (Eritema Infeccioso, Exantema Súbito, Escarlatina, Varicela y Kawasaki)",
+  "specialty": "Pediatría",
+  "chars": 12617,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre exantemas infantiles, un tema de altísimo rendimiento en el examen EUNACOM que exige una semiología dermatológica rigurosa. Hoy aprenderemos a diferenciar con precisión el eritema infeccioso, el exantema súbito, la escarlatina bacteriana, la varicela y sus riesgos farmacológicos, junto a la identificación y tratamiento urgente de la enfermedad de Kawasaki para prevenir aneurismas coronarios. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El microorganismo ingresa por vía respiratoria o digestiva y se replica localmente, pasando a la circulación como una viremia transitoria o liberando exotoxinas pirogénicas a distancia como ocurre en la escarlatina."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La interacción de las toxinas o de los complejos inmunes con el endotelio capilar de la dermis desencadena vasodilatación e infiltración leucocitaria, generando el patrón morfológico distintivo de cada enfermedad exantemática."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El patrón maculopapular consiste en lesiones planas y sobreelevadas rosadas que blanquean a la presión, característico de agentes virales como el exantema súbito o el sarampión."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El patrón micropapular en papel de lija se palpa áspero como piel de gallina sobre una base eritematosa difusa, hallazgo clásico y patognomónico de la escarlatina estreptocócica."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El patrón vesicular se manifiesta por vesículas transparentes con halo eritematoso similar a una gota de rocío sobre un pétalo de rosa, las cuales se rompen formando costras fuertemente pruriginosas."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La presencia simultánea de lesiones en todos los estadios de evolución temporal, desde máculas hasta costras secas en un mismo segmento corporal, define a la varicela."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El eritema infeccioso debuta con la clásica mejilla abofeteada, un enrojecimiento facial intenso en ambas mejillas que respeta la zona alrededor de la boca, con estado general conservado."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Posteriormente aparece un exantema máculopapular en tronco y extremidades que se aclara centralmente adoptando un aspecto reticular en encaje, el cual puede reaparecer durante semanas con el sol o el baño caliente."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El Parvovirus be diecinueve infecta y destruye los precursores de la serie roja en médula ósea, provocando crisis aplásicas graves con reticulocitopenia en pacientes con esferocitosis o anemia falciforme."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En la mujer embarazada no inmunizada la infección puede cruzar la placenta y provocar anemia fetal severa con hidrops e insuficiencia cardíaca, exigiendo monitorización ecográfica fetal estrecha."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El exantema súbito afecta característicamente a lactantes entre seis y quince meses, manifestándose por tres a cuatro días de fiebre alta aislada sin foco aparente y con excelente estado de ánimo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La clave diagnóstica de examen es su cronología única: la fiebre desaparece de forma súbita y en ese mismo momento brota un exantema maculopapular rosado que predomina en tronco y cuello."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Debido a la rápida elevación térmica inicial, el exantema súbito es una de las causas más frecuentes de convulsión febril en lactantes pequeños en los servicios de urgencia."
+    },
+    {
+      "file": "s04_g03",
+      "text": "En el examen orofaríngeo se pueden visualizar las manchas de Nagayama, consistentes en pequeñas pápulas eritematosas en el paladar blando y la úvula que orientan precozmente al diagnóstico."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La escarlatina es producida por cepas de Streptococcus pyogenes productoras de exotoxina pirogénica, debutando con faringoamigdalitis febril exudativa y adenopatías dolorosas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El exantema micropapular eritematoso áspero al tacto confluye en tronco y extremidades respetando la región peribucal, configurando la clásica palidez perioral o máscara de Filatov."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En los pliegues articulares de flexión, como la fosa antecubital, el exantema se acentúa formando líneas transversales rojo violáceas que no desaparecen a la digitopresión, conocidas como signo de Pastia."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La lengua inicialmente cubierta por un exudado blanquecino se descama hacia el cuarto día dejando al descubierto papilas rojas prominentes en frambuesa, seguida de descamación laminar en palmas y plantas."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El tratamiento de elección es la amoxicilina oral a cincuenta miligramos por kilo al día durante diez días completos, o penicilina benzatina intramuscular en dosis única si se duda del cumplimiento."
+    },
+    {
+      "file": "s06_g01",
+      "text": "En alérgicos a betalactámicos se indica azitromicina oral por cinco días o claritromicina durante diez días para garantizar la erradicación bacteriana faríngea."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El objetivo fundamental de tratar con antibióticos la escarlatina es prevenir la fiebre reumática aguda y la temible valvulopatía cardíaca secundaria, siendo eficaz si se inicia dentro de los primeros nueve días."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es una clásica pregunta de examen: el tratamiento antibiótico no previene la glomerulonefritis aguda postestreptocócica, la cual depende del depósito renal de inmunocomplejos formados previamente."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El virus varicela zóster se transmite por aerosoles respiratorios y contacto directo con las vesículas, siendo contagioso desde dos días antes de que brote la primera lesión hasta que todas están en fase de costra."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El brote inicia característicamente en el cuero cabelludo y el tronco con una progresión centrípeta, asociando lesiones vesiculares dolorosas en mucosa bucal y genital con prurito desesperante."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La característica diagnóstica definitiva es el patrón en cielo estrellado: la presencia simultánea de máculas nuevas, vesículas transparentes, pústulas y costras secas en un mismo segmento corporal."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El niño puede reintegrarse a sus actividades habituales únicamente cuando todas las lesiones se encuentran secas en fase de costra, habitualmente tras siete a diez días desde el inicio del brote."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La aspirina está terminantemente prohibida en pacientes pediátricos con varicela por el riesgo de síndrome de Reye, un cuadro catastrófico de degeneración grasa hepática con hipertensión endocraneana y coma."
+    },
+    {
+      "file": "s08_g01",
+      "text": "El paracetamol oral a quince miligramos por kilo es el único antipirético de elección seguro para controlar la fiebre y el malestar durante la varicela."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La complicación más común es la sobreinfección bacteriana por el rascado de las lesiones, manifestándose como impétigo con costras melicéricas que responde a flucloxacilina o cefadroxilo oral."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Se aconseja evitar el uso de ibuprofeno durante la varicela activa debido a su asociación con cuadros graves de celulitis invasiva, abscesos profundos y fascitis necrotizante por estreptococo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "El aciclovir oral no se administra de rutina en niños sanos, reservándose para mayores de doce años, segundos casos dentro del hogar, pacientes con dermatitis atópica extensa o tratamiento crónico con corticoides."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La vía endovenosa es mandataria en inmunocomprometidos y ante complicaciones mayores como neumonía varicelosa o encefalitis, administrando diez a quince miligramos por kilo cada ocho horas."
+    },
+    {
+      "file": "s09_g02",
+      "text": "En contactos sanos no vacunados mayores de doce meses se indica la vacuna antivaricela dentro de las primeras setenta y dos a noventa y seis horas de la exposición para prevenir o atenuar la enfermedad."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La inmunoglobulina hiperinmune específica está indicada de urgencia en recién nacidos de madres con varicela entre cinco días antes y dos días después del parto para evitar la letal varicela neonatal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "El eritema infeccioso se caracteriza por mejillas rojas y aspecto reticular en encaje, requiriendo únicamente manejo de soporte."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El exantema súbito presenta caída brusca de la fiebre alta y brote maculopapular inmediato en tronco, siendo autolimitado."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La escarlatina combina faringitis con piel de lija y signo de Pastia, tratándose con amoxicilina oral por diez días para evitar secuelas cardíacas."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La varicela evoluciona con vesículas polimorfas y costras simultáneas, debiendo prohibirse formalmente la aspirina por riesgo de síndrome de Reye."
+    },
+    {
+      "file": "s10_g04",
+      "text": "La enfermedad de Kawasaki es una vasculitis febril prolongada tratada con inmunoglobulina endovenosa y aspirina para proteger las coronarias."
+    },
+    {
+      "file": "s11_g00",
+      "text": "El diagnóstico de Kawasaki clásico exige como requisito indispensable la presencia de fiebre de al menos cinco días de duración que no cede a antipiréticos ni antibióticos comunes."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Se requiere además cumplir cuatro de cinco criterios: conjuntivitis bilateral sin secreción, labios rojos agrietados con lengua en fresa, edema palmoplantar, exantema polimorfo y adenopatía cervical mayor a un centímetro y medio."
+    },
+    {
+      "file": "s11_g02",
+      "text": "La inyección conjuntival es bilateral, bulbar y llamativamente limpia, sin secreción purulenta ni lagañas, respetando el halo periquerático."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Destacan labios tumefactos con fisuras hemorrágicas, lengua aframbuesada, edema indurado y eritema en palmas y plantas, seguido en la segunda semana por una descamación característica alrededor de las uñas."
+    },
+    {
+      "file": "s12_g00",
+      "text": "El tratamiento de oro es la inmunoglobulina endovenosa a dos gramos por kilo en infusión única de diez horas administrada idealmente antes del décimo día de fiebre para prevenir los aneurismas de arterias coronarias."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Se asocia aspirina a dosis antiinflamatoria de treinta a cincuenta miligramos por kilo al día hasta dos días afebril, continuándola a dosis antiagregante durante seis a ocho semanas."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Es imperativo realizar un ecocardiograma Doppler al ingreso y repetirlo a las seis semanas para monitorizar el calibre de las arterias coronarias y descartar dilataciones o aneurismas."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si la fiebre persiste tras treinta y seis horas de terminada la infusión se diagnostica resistencia a inmunoglobulina, indicándose una segunda dosis o pulsos de corticoides endovenosos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Iniciamos la evaluación clasificando la morfología lesional primaria del exantema para guiar el diagnóstico diferencial."
+    },
+    {
+      "file": "s13_g01",
+      "text": "El patrón polimórfico en cielo estrellado confirma varicela, indicándose paracetamol y prohibiendo tajantemente la aspirina."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La piel de lija con signo de Pastia confirma escarlatina, tratándose con amoxicilina durante diez días completos."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Con cinco días de fiebre y compromiso mucocutáneo hospitalizamos de urgencia para inmunoglobulina endovenosa y aspirina."
+    },
+    {
+      "file": "s13_g04",
+      "text": "La lisis de la fiebre que coincide con el brote en tronco confirma exantema súbito requiriendo solo manejo de soporte."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Lactante de diez meses con tres días de fiebre alta que desaparece por completo brotando simultáneamente un exantema maculopapular rosado en tronco."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A sarampión clásico. La B escarlatina bacteriana. La C exantema súbito o roséola infantil. La D enfermedad de Kawasaki. La E eritema infeccioso. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la C. La caída brusca de la fiebre que coincide con la aparición del exantema en tronco es la firma clínica patognomónica del exantema súbito."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Niño de tres años con fiebre de seis días inyección conjuntival sin pus labios fisurados lengua aframbuesada edema en manos y pies y ganglio cervical."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el tratamiento de elección inmediato?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A amoxicilina clavulánico oral. La B ceftriaxona más vancomicina. La C inmunoglobulina endovenosa a dos gramos por kilo más aspirina. La D corticoides en pulsos. La E paracetamol. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la C. Es una enfermedad de Kawasaki y requiere inmunoglobulina endovenosa con aspirina urgente para prevenir aneurismas coronarios."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Preescolar de cuatro años con faringitis febril exantema micropapular áspero como lija líneas de Pastia en el codo y lengua en frutilla roja."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el tratamiento de elección y su objetivo principal?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "La opción A paracetamol exclusivo. La B amoxicilina oral por diez días para prevenir la fiebre reumática aguda. La C aciclovir oral. La D ciprofloxacino. La E inmunoglobulina endovenosa. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B. La escarlatina se trata con amoxicilina por diez días con el fin primario de evitar la fiebre reumática aguda."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Niño de cinco años con varicela activa febril cuya madre consulta por fármacos antipiréticos para el control de la temperatura."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál de los siguientes fármacos está formalmente contraindicado por riesgo de complicaciones potencialmente mortales?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "La opción A paracetamol. La B ácido acetilsalicílico o aspirina. La C ibuprofeno. La D clorfenamina. La E metamizol. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "La respuesta correcta es la B. La aspirina está terminantemente prohibida en varicela por el riesgo de desencadenar un síndrome de Reye fulminante."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Recuerden la regla del exantema súbito: tres días de fiebre alta aislada que cae bruscamente y en ese momento brota el exantema en tronco."
+    },
+    {
+      "file": "s18_g01",
+      "text": "En escarlatina asocien siempre piel de lija y líneas de Pastia, recordando que los diez días de amoxicilina previenen la fiebre reumática."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Jamás indiquen aspirina en un niño con varicela por el riesgo letal de síndrome de Reye, utilizando paracetamol como antipirético seguro."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Ante fiebre prolongada con inyección conjuntival sospechen enfermedad de Kawasaki. Si te llevas una sola idea de hoy: la gammaglobulina endovenosa precoz es la única intervención que previene los aneurismas coronarios en Kawasaki. Nos vemos en la próxima clase."
+    }
+  ]
+}

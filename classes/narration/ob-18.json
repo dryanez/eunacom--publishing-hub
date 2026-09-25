@@ -1,0 +1,252 @@
+{
+  "id": "ob-18",
+  "title": "Obstetricia 19.18: Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+  "specialty": "Obstetricia",
+  "chars": 13055,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre hemorragia postparto inmediata, la principal causa evitable de muerte materna en el mundo. En esta sesión dominaremos el protocolo de código rojo obstétrico, desglosaremos la regla etiológica de las cuatro te, aplicaremos el masaje bimanual y la farmacología uterotónica escalonada recordando contraindicaciones vitales, conoceremos el balón de Bakri y aprenderemos a resolver la catástrofe de la inversión uterina mediante la maniobra de Johnson. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Al desprenderse la placenta quedan al descubierto los senos venosos y arteriolas espirales miometriales que reciben un flujo sanguíneo de aproximadamente seiscientos mililitros por minuto. La contracción vigorosa y sostenida de las fibras musculares entrelazadas en forma de ocho estrangula mecánicamente estos vasos, constituyendo las llamadas ligaduras vivas de Pinard."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando el miometrio pierde su capacidad contráctil sobreviene la inercia o atonía uterina. Sin el efecto oclusivo de las ligaduras vivas, el útero sangra de forma torrencial vaciando la volemia materna en cuestión de minutos y desencadenando un shock hipovolémico fulminante que exige la activación inmediata del código rojo obstétrico."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La hemorragia postparto se define actualmente como una pérdida sanguínea acumulada de mil mililitros o más en las primeras veinticuatro horas, o bien cualquier pérdida asociada a taquicardia, palidez o hipotensión materna, debiendo activarse de inmediato el código rojo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Instalamos simultáneamente dos accesos venosos periféricos de gran calibre con bránulas catorce o dieciséis para permitir la infusión rápida de volumen, enviando muestras urgentes al laboratorio para hemograma, perfil de coagulación con fibrinógeno y pruebas cruzadas de glóbulos rojos."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Infundimos cristaloides tibios de manera controlada limitando el volumen inicial a no más de mil quinientos a dos mil mililitros de Ringer Lactato, previniendo la coagulopatía por hemodilución, la acidosis y la hipotermia que forman la tríada letal del trauma."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El ácido tranexámico endovenoso en dosis de un gramo diluido a pasar en diez minutos es una intervención obligatoria en toda hemorragia postparto. Su administración antes de cumplidas tres horas del parto bloquea la hiperfibrinólisis y disminuye notablemente la mortalidad materna."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La atonía del tono miometrial explica el setenta por ciento de todas las hemorragias postparto. A la palpación abdominal el útero se encuentra completamente blando, relajado, supraumbilical y sin consistencia muscular palpable."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El trauma del canal genital representa el veinte por ciento de los casos. Su hallazgo semiológico cardinal es un útero firmemente contraído en globo de Pinard pero con sangrado rutilante continuo originado en desgarros del cuello uterino, vagina o periné."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La retención de tejido o cotiledones placentarios corresponde al diez por ciento. La revisión cuidadosa de la cara materna de la placenta alumbada revela cotiledones faltantes o membranas desgarradas con vasos que terminan bruscamente en el borde."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Las alteraciones de la trombina o coagulopatías representan el uno por ciento. Se manifiestan por sangre fluida que no coagula en los campos quirúrgicos ni en los tubos secos, complicando cuadros de preeclampsia severa, desprendimiento placentario o sepsis."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El primer paso ante la atonía uterina es iniciar de inmediato el masaje bimanual enérgico asociado a oxitocina endovenosa continua y un gramo de ácido tranexámico para estimular la contracción mecánica y farmacológica."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si el útero no se contrae y persiste el sangrado, instalamos un balón hidrostático de Bakri dentro de la cavidad. Si la hemorragia continúa, ingresamos a pabellón para suturas hemostáticas de compresión tipo B-Lynch o histerectomía de urgencia."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Introducimos una mano enguantada estéril y empuñada en el fórnix vaginal anterior, apoyando el dorso de los dedos flexionados contra la pared anterior del útero para elevarlo firmemente hacia la pared abdominal."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Con la otra mano extendida sobre la pared abdominal, comprimimos con fuerza el fondo y la cara posterior del útero contra el puño intravaginal. Esta pinza bimanual comprime directamente la vasculatura miometrial hasta que los fármacos uterotónicos alcancen concentraciones efectivas."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Iniciamos de inmediato la pauta de oxitocina administrando un bolo lento de cinco a diez unidades endovenosas en tres minutos, acoplando de inmediato una infusión continua de veinte a cuarenta unidades en un matraz de solución fisiológica."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Está formalmente prohibido inyectar la oxitocina en bolo endovenoso directo rápido sin dilución, ya que induce vasodilatación periférica fulminante con colapso cardiovascular, hipotensión refractaria y riesgo inminente de paro cardíaco."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La oxitocina es el fármaco de elección universal, seguro en todas las pacientes pero requiriendo infusión controlada para evitar hipotensión."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La metilergonovina produce tetania miometrial pero está formalmente contraindicada en preeclampsia e hipertensión por causar vasoespasmo severo e infarto."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El misoprostol a dosis de ochocientos microgramos sublingual o rectal es un potente uterotónico que no requiere refrigeración y es seguro en hipertensas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El carboprost es una prostaglandina muy potente pero está totalmente prohibido en pacientes con asma bronquial por inducir broncoespasmo fulminante."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La metilergonovina es un alcaloide ergótico que está formalmente contraindicado en cualquier paciente con preeclampsia, hipertensión arterial crónica o cifras tensionales elevadas registradas durante el puerperio inmediato."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Su administración en gestantes hipertensas provoca vasoconstricción periférica violenta con picos de presión arterial incontrolables que pueden culminar en hemorragia intracerebral masiva, convulsiones eclámpticas o edema pulmonar agudo cardiogénico."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El carboprost trometamina es un análogo sintético de la prostaglandina efe dos alfa que ejerce una potente acción broncoconstrictora sobre el árbol respiratorio materno."
+    },
+    {
+      "file": "s07_g03",
+      "text": "En pacientes con antecedentes de asma bronquial o hiperreactividad de la vía aérea, el carboprost puede desencadenar un broncoespasmo severo refractario a broncodilatadores con asfixia y paro respiratorio fulminante."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El taponamiento con balón hidrostático de Bakri es el procedimiento mecánico conservador de primera elección ante una atonía que no responde al masaje bimanual ni a los uterotónicos combinados, evitando la necesidad de laparotomía en la mayoría de los casos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Al distenderse uniformemente dentro de la cavidad endometrial, la presión hidrostática generada por el balón supera la presión de perfusión de las arteriolas miometriales, logrando un hemostasia mecánica directa sobre el lecho placentario sangrante."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El balón se inserta por vía transcervical hacia el fondo uterino y se insufla de manera progresiva con trescientos a quinientos mililitros de suero fisiológico estéril tibio, colocando una compresa vaginal para evitar que se desplace hacia el exterior."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si tras insuflar el balón el sangrado disminuye a cifras despreciables por la sonda de drenaje, la prueba de taponamiento se considera positiva y el balón se mantiene durante doce a veinticuatro horas. Si persiste sangrado profuso continuo, se debe ingresar de inmediato a quirófano."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La sutura hemostática de compresión de B-Lynch consiste en pasar suturas reabsorbibles gruesas que envuelven el cuerpo uterino verticalmente a modo de tirantes, comprimiendo de forma continua las paredes anterior y posterior del útero con excelente tasa de éxito."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La desvascularización pélvica escalonada incluye la ligadura bilateral selectiva de las arterias uterinas según la técnica de O-Leary y de las anastomosis útero-ováricas, reduciendo de manera inmediata el noventa por ciento de la perfusión arterial miometrial."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Cuando las técnicas mecánicas y conservadoras fallan o si la paciente se encuentra en shock hipovolémico avanzado con coagulopatía de consumo e hipotermia, se debe proceder sin demora a la histerectomía obstétrica de urgencia como medida salvadora definitiva."
+    },
+    {
+      "file": "s09_g03",
+      "text": "En puérperas con inestabilidad hemodinámica crítica se prefiere realizar una histerectomía obstétrica subtotal conservando el cuello uterino, ya que este abordaje quirúrgico es mucho más rápido y reduce las pérdidas sanguíneas intraoperatorias adicionales."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La causa principal de la inversión uterina es la tracción forzada del cordón umbilical durante el alumbramiento sin haber constatado contracción del fondo. El fondo se invagina dentro de su propia cavidad asomando como una masa rojo violácea por la vagina mientras el útero desaparece del abdomen."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La tracción intensa del peritoneo y los ligamentos anchos desencadena un shock neurogénico caracterizado por hipotensión arterial profunda acompañada de bradicardia paradójica. El tratamiento inmediato es la reposición manual con la maniobra de Johnson bajo relajación miometrial."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La primera medida obligatoria ante una inversión uterina puerperal es suspender de inmediato cualquier infusión de oxitocina o uterotónicos, puesto que contraerían espásticamente el anillo cervical estrangulando el fondo invertido e impidiendo su retorno."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Si el anillo cervical se encuentra fuertemente contraído se indican tocolíticos de acción rápida o se profundiza la anestesia general con agentes inhalatorios para relajar el miometrio y permitir la reducción manual del fondo."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Mediante la maniobra de Johnson se coloca la palma de la mano sobre el fondo uterino invertido y con la punta de los dedos en la unión cérvico-uterina se empuja firmemente hacia arriba a través del canal vaginal en dirección al ombligo materno."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Una vez que el fondo uterino ha sido restituido a su posición anatómica intrabdominal, recién en ese instante se inicia una infusión continua de oxitocina a altas dosis para lograr una contracción firme y sostenida que impida una nueva inversión."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Activamos el código rojo, canalizamos dos accesos venosos gruesos e indicamos ácido tranexámico."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Palpamos el fondo del útero para determinar si está blando o firmemente contraído."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Iniciamos masaje bimanual y oxitocina continua, agregando metilergonovina o misoprostol."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si persiste sangrado instalamos el balón hidrostático de Bakri antes de abrir abdomen."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Ante falla del balón ingresamos a laparotomía para B-Lynch o histerectomía de rescate."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Con útero duro revisamos el canal con valvas ginecológicas y suturamos los desgarros."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una puérpera con antecedente de preeclampsia severa presenta hemorragia postparto por atonía uterina que no cede con masaje y oxitocina."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál de los siguientes fármacos uterotónicos está formalmente contraindicado en esta paciente?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A propone misoprostol. La B metilergonovina intramuscular. La C ácido tranexámico. La D carbetocina. La E balón de Bakri. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. La metilergonovina está formalmente prohibida en pacientes con preeclampsia o hipertensión arterial por provocar vasoconstricción y accidentes cerebrovasculares."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una puérpera inmediata presenta sangrado rojo rutilante abundante pero con fondo uterino firmemente contraído en globo de Pinard y placenta íntegra."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la causa más probable de la hemorragia y cuál es la conducta médica indicada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A propone atonía uterina oculta. La B trauma del canal del parto y sutura de desgarros bajo valvas ginecológicas. La C legrado instrumental. La D plasma fresco congelado. La E maniobra de Johnson. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B. Si el útero está duro y bien contraído pero la paciente sangra, la causa es un trauma del canal blando y se deben suturar los desgarros bajo valvas."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una paciente con hemorragia postparto por atonía no responde al masaje bimanual ni a oxitocina, ácido tranexámico ni misoprostol."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el siguiente paso terapéutico conservador antes de decidir una laparotomía?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A propone legrado cortante enérgico. La B instalar un balón hidrostático de taponamiento tipo Bakri. La C histerectomía total de inmediato. La D heparina sódica. La E conducta expectante. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. El balón de taponamiento hidrostático de Bakri es la medida mecánica conservadora de rescate antes de plantear la apertura quirúrgica del abdomen."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Si el útero está blando y flácido a la palpación la causa indiscutible es atonía uterina, requiriendo masaje bimanual inmediato combinado con oxitocina endovenosa y un gramo de ácido tranexámico precoz."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Si el útero se palpa duro y firme en globo de Pinard pero persiste sangrado rojo activo continuo, la causa es un desgarro o trauma del canal del parto y exige exploración minuciosa con valvas y sutura hemostática inmediata."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La metilergonovina está formalmente contraindicada en pacientes con preeclampsia o hipertensión arterial crónica debido a su potente efecto alfa-adrenérgico que provoca picos hipertensivos y hemorragia cerebral."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La maniobra de Johnson reposiciona el útero invertido antes de retirar la mano. Si te llevas una sola idea de hoy: ante una hemorragia postparto masiva activa el código rojo y aplica la regla de las cuatro T, recordando que la inercia uterina causa el setenta por ciento de los casos. Nos vemos en la próxima clase."
+    }
+  ]
+}

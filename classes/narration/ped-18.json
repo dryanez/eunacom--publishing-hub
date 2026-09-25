@@ -1,0 +1,276 @@
+{
+  "id": "ped-18",
+  "title": "Pediatria 18.18: Dificultad Respiratoria Neonatal: EMH (Déficit de Surfactante) vs TTNR (Pulmón Húmedo) vs SAM",
+  "specialty": "Pediatría",
+  "chars": 12618,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre dificultad respiratoria neonatal, una de las urgencias vitales más desafiantes en sala de partos y un clásico absoluto en el examen EUNACOM. En esta sesión aprenderemos a graduar la gravedad con el score de Silverman y Andersen, dominaremos el diagnóstico diferencial entre la enfermedad de membrana hialina del prematuro, el pulmón húmedo del nacido por cesárea y la aspiración meconial del postérmino asfíctico, interpretando sus patrones radiológicos característicos. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "En el prematuro la falta de surfactante incrementa la tensión superficial provocando atelectasias difusas progresivas que colapsan el pulmón al final de cada espiración. En contraste, en el recién nacido de término por cesárea electiva los canales epiteliales de sodio no se activan a tiempo, reteniendo líquido en el intersticio y en los alvéolos."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En el síndrome de aspiración meconial el material espeso bloquea mecánicamente las vías aéreas generando un mecanismo valvular con sobredistensión y atelectasias secundarias, sumado a una intensa neumonitis química que desactiva el surfactante y precipita hipoxemia refractaria con hipertensión pulmonar persistente severa."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Se evalúa la sincronía toraco-abdominal observando si el tórax y el abdomen se expanden armónicamente en inspiración o si existe un bamboleo respiratorio con colapso torácico y distensión abdominal alternante."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Se examina la retracción xifoidea subesternal y el aleteo nasal, un reflejo protector mediante el cual el recién nacido dilata activamente sus fosas nasales para disminuir la resistencia inspiratoria de la vía aérea superior."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El quejido espiratorio es un esfuerzo fisiológico compensatorio donde el neonato espira contra su glotis entreabierta, reteniendo volumen gaseoso y generando una presión positiva intrínseca para frenar el colapso alveolar."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si no hay quejido se califica con cero puntos, si se detecta únicamente mediante la auscultación con fonendoscopio suma un punto y si se escucha a distancia al pie de la cuna otorga dos puntos de gravedad."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El aleteo nasal pasa de estar completamente ausente en reposo a ser discreto y finalmente continuo y evidente."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El quejido se califica con un punto si requiere fonendoscopio y con dos puntos si es audible sin instrumentos."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El tiraje intercostal traduce el uso intenso de musculatura accesoria con colapso visible de las partes blandas."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La retracción xifoidea profunda otorga dos puntos reflejando presiones intratorácicas sumamente negativas."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Los neumocitos tipo dos maduran hacia la semana treinta y cuatro a treinta y cinco de gestación. En recién nacidos más prematuros, la carencia de fosfolípidos tensioactivos impide reducir la tensión superficial."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Al final de cada ciclo respiratorio los alvéolos colapsan íntegramente, requiriendo un gasto energético enorme para volver a inflarse, lo que conduce con rapidez a fatiga muscular, hipoxemia y acidosis respiratoria grave."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La probabilidad de desarrollar membrana hialina es inversamente proporcional a la edad gestacional, afectando a la mayoría de los prematuros extremos que no recibieron profilaxis con corticoides prenatales."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El exceso de insulina en el hijo de madre diabética antagoniza biológicamente la acción de los corticoides endógenos, retrasando la maduración bioquímica pulmonar incluso en edades gestacionales avanzadas."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El cuadro se manifiesta desde el nacimiento con polipnea, quejido continuo audible, retracción esternal acentuada y requerimientos crecientes de oxígeno que alcanzan su máxima severidad hacia las cuarenta y ocho horas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En el examen físico pulmonar destaca un murmullo vesicular notablemente amortiguado de forma homogénea en ambos campos, acompañado de crépitos inspiratorios finos por la apertura alveolar forzada."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La radiografía de tórax revela una marcada hipoinsuflación con menos de siete espacios intercostales visibles sobre las cúpulas diafragmáticas debido a las microatelectasias generalizadas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Aparece un infiltrado reticulogranular difuso y simétrico en vidrio esmerilado, a través del cual se transparenta el árbol traqueobronquial permeable en forma de broncograma aéreo prominente."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La estrategia ventilatoria moderna prioriza iniciar presión positiva continua nasal precoz desde la sala de partos para reclutar volumen pulmonar, administrando surfactante exógeno endotraqueal ante requerimientos de oxígeno sobre el treinta por ciento."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El surfactante se instila mediante sondas endotraqueales finas preservando la ventilación espontánea del niño, logrando una rápida distensión alveolar, aumento del volumen corriente y un descenso vertiginoso en la necesidad de oxígeno suplementario."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El esquema preventivo de referencia es la betametasona intramuscular a dosis de doce miligramos cada veinticuatro horas por dos dosis, administrada entre las veinticuatro y treinta y cuatro semanas de gestación."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El beneficio preventivo óptimo se alcanza cuando transcurren entre veinticuatro horas y siete días tras finalizar la segunda dosis intramuscular, reduciendo a más de la mitad la incidencia de membrana hialina y la necesidad de soporte ventilatorio mecánico invasivo."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Además de acelerar la síntesis fosfolipídica pulmonar, los corticoides reducen de manera estadísticamente significativa la hemorragia de la matriz germinal, la enterocolitis necrotizante y la mortalidad neonatal global."
+    },
+    {
+      "file": "s07_g03",
+      "text": "A nivel biológico celular estimulan la transcripción genética de las proteínas tensioactivas A, B y C en los neumocitos tipo dos, favoreciendo además la maduración de los capilares de la barrera alvéolo-capilar."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La taquipnea transitoria afecta característicamente a recién nacidos de término nacidos por cesárea programada sin trabajo de parto previo, los cuales no experimentan la compresión torácica mecánica del canal vaginal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La ausencia de contracciones uterinas priva al feto de la descarga fisiológica de catecolaminas y corticoides necesaria para activar los canales de sodio que reabsorben el líquido pulmonar hacia el sistema linfático."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Se manifiesta precozmente como una taquipnea superficial con frecuencias de ochenta a más de cien respiraciones por minuto, en un neonato activo, que llora con vigor y no presenta quejido importante."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El curso es uniformemente favorable: a medida que los vasos linfáticos reabsorben el exceso de líquido intersticial, el cuadro clínico se resuelve de forma completamente espontánea en veinticuatro a setenta y dos horas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La radiografía de tórax revela campos pulmonares ampliamente expandidos con más de ocho a nueve espacios intercostales visibles y aplanamiento de las cúpulas diafragmáticas."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Se observa una notable prominencia de las marcas vasculares que se extienden simétricamente desde ambos hilios hacia la periferia en el clásico patrón radiológico de sol radiante."
+    },
+    {
+      "file": "s09_g02",
+      "text": "El signo patognomónico indiscutible es la cisuritis, apreciándose una línea radiopaca líquida bien delimitada que discurre en sentido horizontal por la cisura menor del hemitórax derecho."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es común encontrar un discreto aumento de la silueta cardíaca por hipervolemia transitoria, la cual desaparece en dos días coincidiendo con la diuresis espontánea del recién nacido."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La hipoxia perinatal desencadena una fuerte descarga vagal que incrementa el peristaltismo intestinal y relaja el esfínter anal, expulsando meconio que el feto aspira profundamente en sus jadeos asfícticos intrauterinos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Las partículas meconiales impactadas en los bronquiolos actúan como válvulas unidireccionales que permiten entrar aire pero impiden su salida, generando hiperinsuflación segmentaria y neumotórax en hasta un veinte por ciento de los casos."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Los ácidos biliares y enzimas presentes en el meconio desencadenan una intensa neumonitis química que descama el epitelio respiratorio, inactiva los fosfolípidos tensioactivos y causa edema proteináceo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La acidosis metabólica y la hipoxemia refractaria gatillan un remodelamiento y espasmo violento de las arteriolas pulmonares, complicándose de forma muy frecuente con hipertensión pulmonar persistente grave."
+    },
+    {
+      "file": "s11_g00",
+      "text": "En la hipertensión pulmonar persistente la resistencia vascular pulmonar permanece patológicamente alta, superando la presión sistémica y forzando a la sangre desoxigenada a derivarse de derecha a izquierda por el conducto arterioso."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El diagnóstico clínico se confirma al constatar una diferencia de saturación mayor al diez por ciento entre la mano derecha preductal y las extremidades inferiores postductales."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El óxido nítrico inhalado es el vasodilatador de primera línea por su selectividad para relajar la microvasculatura alveolar ventilada sin generar hipotensión arterial sistémica, mejorando de inmediato la oxigenación del neonato."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Se asocia soporte inotrópico para sostener la presión sistémica y ventilación de alta frecuencia oscilatoria, recurriendo a membrana de oxigenación extracorpórea en casos refractarios."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La membrana hialina del prematuro muestra pulmones pequeños marcadamente hipoinsuflados con vidrio esmerilado difuso bilateral y broncograma aéreo prominente."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El pulmón húmedo presenta campos hiperinsuflados, diafragmas planos, congestión perihiliar en sol y línea de cisuritis derecha."
+    },
+    {
+      "file": "s12_g02",
+      "text": "El síndrome de aspiración meconial cursa con infiltrados en parches algodonosos alternados con áreas hiperclaras y riesgo de neumotórax."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La neumonía bacteriana puede mostrar condensaciones alveolares asimétricas acompañadas en ocasiones de derrame pleural exudativo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La membrana hialina afecta al prematuro inmaduro, el pulmón húmedo al nacido por cesárea electiva y el meconio al postérmino asfíctico."
+    },
+    {
+      "file": "s13_g01",
+      "text": "La clínica es grave en membrana hialina y aspiración meconial, mientras que en taquipnea transitoria cursa con buen estado general."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El pilar en membrana hialina es surfactante y CPAP precoz, en taquipnea es oxígeno transitorio y en meconio es soporte invasivo en UCI."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La taquipnea transitoria remite en setenta y dos horas, mientras que la aspiración meconial puede requerir semanas de ventilación mecánica."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Iniciamos el abordaje evaluando la gravedad del distrés con el score de Silverman y correlacionando con la edad gestacional."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En el prematuro con distrés inmediato e hipoinsuflación iniciamos CPAP nasal e indicamos surfactante exógeno precoz."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En el nacido por cesárea evaluamos la presencia de hiperinsuflación y cisuritis interlobar."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Confirmada la taquipnea transitoria mantenemos soporte mínimo y suspensión de alimentación oral si la frecuencia es muy alta."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Si existen factores infecciosos maternos o mala evolución iniciamos antibióticos parenterales por sospecha de neumonía."
+    },
+    {
+      "file": "s14_g05",
+      "text": "En el neonato con meconio e infiltrados en parches vigilamos la aparición de neumotórax e hipertensión pulmonar persistente."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Recién nacido de treinta semanas con dificultad respiratoria grave quejido audible y radiografía con hipoinsuflación y vidrio esmerilado con broncograma aéreo."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la causa fisiopatológica y el tratamiento de elección?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A retardo en la reabsorción de líquido alveolar. La B déficit de surfactante pulmonar con indicación de CPAP nasal y surfactante exógeno endotraqueal. La C aspiración de meconio. La D neumotórax a tensión. La E atresia esofágica. Correlaciona la edad gestacional con la radiografía. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. Corresponde a membrana hialina por déficit de surfactante en un prematuro, requiriendo CPAP y surfactante exógeno."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Recién nacido de término por cesárea electiva con taquipnea de ochenta y cuatro por minuto sin quejido y radiografía con hiperinsuflación y cisuritis líquida."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el diagnóstico más probable y el curso esperado?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "La opción A enfermedad de membrana hialina. La B taquipnea transitoria del recién nacido con resolución clínica espontánea en veinticuatro a setenta y dos horas. La C síndrome de aspiración meconial. La D neumonía congénita. La E hernia diafragmática. Observa la cesárea y la cisuritis. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B. Es una taquipnea transitoria del recién nacido o pulmón húmedo, entidad benigna que se resuelve espontáneamente en dos a tres días."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Asocien siempre al prematuro con vidrio esmerilado y broncograma aéreo con membrana hialina tratada con CPAP y surfactante exógeno."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Vinculen al nacido por cesárea electiva con hiperinsuflación y cisuritis con taquipnea transitoria que remite espontáneamente en dos a tres días."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Recuerden que el postérmino con meconio presenta neumonitis química con riesgo crítico de rotura alveolar e hipertensión pulmonar persistente."
+    },
+    {
+      "file": "s17_g03",
+      "text": "La betametasona antenatal estimula la síntesis de fosfolípidos. Si te llevas una sola idea de hoy: la enfermedad de membrana hialina se previene con corticoides antenatales y se trata precozmente con ventilación no invasiva y surfactante endotraqueal. Nos vemos en la próxima clase."
+    }
+  ]
+}

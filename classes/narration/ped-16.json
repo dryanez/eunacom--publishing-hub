@@ -1,0 +1,260 @@
+{
+  "id": "ped-16",
+  "title": "Pediatria 18.16: Evaluación de la Edad Gestacional (Capurro/Ballard) & Clasificación Ponderal Neonatal",
+  "specialty": "Pediatría",
+  "chars": 10185,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre evaluación de la edad gestacional y clasificación ponderal neonatal, un pilar de la neonatología en el examen EUNACOM. En esta sesión aprenderemos a clasificar al recién nacido cruzando su edad con su peso en percentiles, dominaremos los scores de Capurro y Ballard, revisaremos las complicaciones metabólicas del neonato pequeño y grande, y fijaremos el monitoreo de hipoglicemia. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La determinación de la edad gestacional inicia con los datos prenatales, especialmente la ecografía precoz del primer trimestre. Al nacer, el examen físico somático y neurológico permite ratificar la madurez biológica del recién nacido mediante escalas validadas como Capurro o Ballard."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Al cruzar la edad gestacional con el peso de nacimiento en las curvas de crecimiento intrauterino, clasificamos al neonato en pequeño, adecuado o grande para su edad, identificando oportunamente a aquellos pacientes en riesgo inminente de hipoglicemia o hipotermia que requieren monitorización estricta."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La ecografía del primer trimestre que mide la longitud céfalo-caudal es el método de referencia absoluto, superando a la fecha de última regla con un margen de error menor a cinco días."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La fecha de última regla solo es plenamente confiable si la mujer tenía ciclos menstruales regulares y no utilizaba anticonceptivos hormonales en los meses previos a la concepción."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El score de Capurro evalúa cinco características somáticas visibles al examen físico, siendo muy útil en recién nacidos de más de veintinueve semanas por su rapidez y simplicidad."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El score de New Ballard combina parámetros físicos y neuromusculares, siendo la herramienta obligada para evaluar con precisión a prematuros extremos desde las veinte semanas."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Se examina el incurvamiento del pabellón auricular y el tamaño palpable del nódulo mamario, el cual crece progresivamente conforme avanza la edad gestacional."
+    },
+    {
+      "file": "s03_g01",
+      "text": "También se evalúa el diámetro de la areola, la textura de la piel desde lisa y gelatinosa hasta agrietada, y la presencia de surcos en las plantas de los pies."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La fórmula suma los puntos de los cinco signos a la constante de doscientos cuatro, dividiendo el total por siete para obtener las semanas de gestación del paciente."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Su principal limitación es que en prematuros menores de veintinueve semanas los signos físicos están indiferenciados, por lo que en ellos debe usarse el score de New Ballard."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El pabellón auricular pasa de estar plano sin incurvación hasta mostrar un borde superior y lateral completamente enrollado."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La glándula mamaria pasa de no palparse en el prematuro hasta medir más de diez milímetros en el neonato de término."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La piel madura desde un aspecto fino y gelatinoso hasta una epidermis gruesa, apergaminada y con grietas profundas."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Las plantas de los pies carecen de pliegues en prematuros extremos, mostrando surcos profundos en más de la mitad en el recién nacido maduro."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El tono muscular progresa en sentido caudocefálico; la flexión pasiva de la muñeca contra el antebrazo forma un ángulo de cero grados en el niño maduro."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se evalúa la resistencia a la extensión en el retroceso del brazo, el ángulo poplíteo, el signo de la bufanda y la maniobra de talón a oreja."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El nuevo Ballard asigna puntuaciones negativas a signos de prematurez extrema como párpados fusionados o piel translúcida, permitiendo datar desde las veinte semanas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Es la escala de elección en unidades de cuidados intensivos neonatales para recién nacidos prematuros bajo ventilación mecánica invasiva."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El prematuro extremo nace antes de las veintiocho semanas de gestación, presentando un riesgo muy elevado de hemorragia intraventricular."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Los recién nacidos muy prematuros nacen entre las veintiocho y treinta y una semanas, requiriendo soporte ventilatorio y nutrición parenteral."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El prematuro tardío nace entre las treinta y cuatro y treinta y seis semanas, aparentando vigor pero con alto riesgo de hipoglicemia e ictericia."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El recién nacido de término completo nace entre las treinta y nueve y cuarenta semanas, teniendo la menor morbimortalidad perinatal."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pasemos ahora a la clasificación ponderal en las curvas chilenas. Consideramos pequeño para la edad gestacional a todo recién nacido cuyo peso se ubica por debajo del percentil diez."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El adecuado para la edad gestacional es aquel cuyo peso se sitúa entre el percentil diez y el percentil noventa para su edad gestacional."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Se clasifica como grande para la edad gestacional al neonato cuyo peso supera el percentil noventa para su edad gestacional y sexo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "En neonatología es una regla de oro formular siempre un diagnóstico cruzado: señalar si es de término o prematuro y añadir si es pequeño, adecuado o grande para su edad."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Jamás juzguen la madurez solo por el peso absoluto: un neonato de dos mil ochocientos gramos a las treinta y cinco semanas es un prematuro grande para su edad."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El crecimiento intrauterino restringido simétrico se origina por agresiones tempranas como infecciones del complejo TORCH o anomalías cromosómicas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "En el tipo simétrico todos los parámetros biométricos están disminuidos armónicamente, existiendo una reducción del número total de neuronas con peor pronóstico."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El tipo asimétrico se desata en el tercer trimestre debido a insuficiencia placentaria materna, habitualmente secundaria a preeclampsia o hipertensión crónica."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El feto activa un mecanismo de ahorro cerebral redistribuyendo el oxígeno hacia el encéfalo y corazón a expensas del hígado y la grasa, naciendo con cabeza normal y cuerpo adelgazado."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Los recién nacidos pequeños para la edad gestacional nacen con reservas hepáticas mínimas de glucógeno. Al cortarse el cordón umbilical agotan su glucosa rápidamente."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Cifras de glicemia menores a cuarenta y cinco miligramos por decilitro pueden causar convulsiones y daño cortical irreversible si no se tratan precozmente."
+    },
+    {
+      "file": "s09_g02",
+      "text": "La carencia de panículo adiposo y grasa parda favorece el enfriamiento rápido, desatando vasoconstricción periférica y mayor consumo de glucosa."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La hipoxemia crónica intrauterina estimula la síntesis excesiva de eritropoyetina, generando poliglobulia con hematocrito venoso sobre sesenta y cinco por ciento."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La hiperglicemia materna transfiere glucosa constante al feto, cuyo páncreas responde con hiperplasia de células beta y secreción masiva de insulina."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Al pinzar el cordón se corta bruscamente la entrada de azúcar materna mientras persisten niveles altísimos de insulina fetal, desatando una severa hipoglicemia de rebote."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La macrosomía predispone a distocia de hombros durante el parto vaginal, con riesgo de fractura clavicular y parálisis del plexo braquial."
+    },
+    {
+      "file": "s10_g03",
+      "text": "El hiperinsulinismo engruesa el tabique interventricular cardíaco y la poliglobulia asociada incrementa el riesgo de hiperbilirrubinemia severa."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Todo recién nacido clasificado como pequeño o grande para la edad gestacional debe iniciar alimentación al pecho materno dentro de la primera hora de vida, realizando el primer control de hemoglucotest a las dos horas de vida antes de la segunda toma."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El protocolo exige controles seriados a las dos, cuatro, seis, doce y veinticuatro horas de vida. Si la glicemia desciende por debajo de cuarenta y cinco miligramos por decilitro se adelanta la toma láctea o se inicia infusión endovenosa de glucosa."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Iniciamos el abordaje determinando con exactitud la edad gestacional y pesando al recién nacido en la balanza de atención inmediata."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Clasificamos la edad gestacional en pretérmino, término completo o postérmino."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Si nació antes de las treinta y siete semanas completas se clasifica como recién nacido pretérmino."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si nació entre las treinta y siete y cuarenta y una semanas con seis días se clasifica como recién nacido de término."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Si sobrepasa las cuarenta y dos semanas completas se cataloga formalmente como recién nacido postérmino."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Ubicamos el peso en las curvas de crecimiento para clasificarlo en percentiles."
+    },
+    {
+      "file": "s12_g06",
+      "text": "El recién nacido pequeño para la edad gestacional exige alimentación en la primera hora y monitoreo seriado de hemoglucotest."
+    },
+    {
+      "file": "s12_g07",
+      "text": "El recién nacido adecuado para su edad mantiene lactancia a libre demanda y cuidados estándar sin pruebas de glucosa de rutina."
+    },
+    {
+      "file": "s12_g08",
+      "text": "El recién nacido grande para su edad requiere hemoglucotest por hiperinsulinismo y descarte clínico de traumatismos del parto."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Recién nacido de sexo masculino de treinta y cinco semanas con peso de dos mil ochocientos cincuenta gramos ubicado en el percentil noventa y dos de las curvas."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la clasificación correcta del paciente?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A término pequeño para la edad gestacional. La B término adecuado. La C recién nacido pretérmino grande para la edad gestacional. La D pretérmino adecuado. La E postérmino grande. Cruza la edad gestacional con el percentil de peso. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la C. Nació a las treinta y cinco semanas lo que define pretérmino, y su peso sobre el percentil noventa define grande para la edad gestacional."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Pregunta sobre la complicación metabólica más frecuente y peligrosa a monitorizar de forma precoz en un recién nacido pequeño para la edad gestacional."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la complicación metabólica más frecuente y de mayor riesgo en el recién nacido PEG?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A hiperglicemia cetósica. La B hipoglicemia asintomática o sintomática por escasa reserva de glucógeno hepático. La C hipernatremia severa. La D hipocalcemia tardía. La E hiperpotasemia con arritmias. Recuerda los depósitos hepáticos fetales. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B. La hipoglicemia precoz por depleción de los depósitos hepáticos de glucógeno es la complicación metabólica cardinal del recién nacido PEG."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Formulen siempre la clasificación combinada señalando la edad gestacional y la adecuación de peso según los percentiles diez y noventa de las curvas."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Apliquen el score de Capurro somático en recién nacidos de más de veintinueve semanas y reserven el score de New Ballard para los prematuros extremos."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Recuerden que el neonato pequeño para la edad gestacional carece de depósitos de glucógeno, necesitando alimentación precoz y controles de glicemia."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Tengan presente que el recién nacido grande sufre hiperinsulinismo de rebote. Si te llevas una sola idea de hoy: clasifica siempre cruzando semanas y percentil de peso, y vigila la glicemia tanto en el pequeño como en el grande. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "sp-13",
+  "title": "Saludpublica 21.13: Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
+  "specialty": "Salud Pública",
+  "chars": 10986,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos la certificación médica de defunción, las autopsias y el deber de denuncia. Es de máxima rentabilidad, porque casi todos los exámenes traen una pregunta sobre el llenado correcto del certificado, y trae siempre la misma trampa: escribir paro cardiorrespiratorio, algo que está terminantemente prohibido. Vamos a entender por qué, y a aprender exactamente qué sí se puede escribir."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la estructura. El certificado de defunción se llena hacia atrás, empezando por el final, pero se razona hacia adelante, desde la causa básica. La causa básica es la enfermedad o lesión inicial que echó a andar toda la cadena, por ejemplo un adenocarcinoma o una cirrosis. Es la que el Instituto Nacional de Estadísticas tabula para las estadísticas de salud del país."
+    },
+    {
+      "file": "s01_g01",
+      "text": "De esa causa básica nace la causa intermedia: la complicación que la enfermedad de base originó o facilitó. Por ejemplo, una cirrosis que genera hipertensión portal y várices esofágicas."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y de la causa intermedia nace la causa inmediata: la condición final que llevó directamente a la muerte, como una hemorragia masiva o un shock séptico. Fíjate en la lógica: tiene que existir una relación de causalidad real entre las tres, una lleva a la otra en orden descendente."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y esa cadena completa termina en la muerte del paciente."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Ahora, la trampa que garantiza pregunta. Nunca se escribe paro cardiorrespiratorio, ni falla multiorgánica, ni paro respiratorio, como causa única o como causa básica. ¿Por qué? Porque todas las personas, sin excepción, mueren en paro cardiorrespiratorio: ese término no aporta ninguna información diagnóstica ni epidemiológica. Un certificado así no sirve para nada, y el examen lo sabe."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Antes de seguir, un detalle que el libro marca y que se pregunta poco pero se confunde mucho. El certificado tiene una segunda parte, la Parte dos, donde se anotan otros estados mórbidos que contribuyeron a la muerte, pero que no forman parte de esa cadena causal directa. Ahí van, por ejemplo, la diabetes mellitus tipo dos o la hipertensión arterial de un paciente que fallece por otra causa."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y la diferencia con la cadena de la Parte uno es exactamente esta: si esa diabetes o esa hipertensión generaron directamente la enfermedad que terminó matando al paciente, van en la cadena, como causa básica o intermedia. Si solo empeoraron el pronóstico sin ser la causa directa de nada, van en la Parte dos, como contribuyentes. No es lo mismo causar que acompañar."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la pregunta que decide si tú puedes firmar el certificado o no. Lo primero: toda muerte violenta, ya sea homicidio, suicidio, un trauma o un accidente de tránsito, va al Servicio Médico Legal. Y ojo con un detalle que se pregunta: da lo mismo si la muerte ocurre semanas después en la Unidad de Cuidados Intensivos por una complicación médica, como una neumonía; si el origen fue un trauma violento, sigue siendo una muerte médico-legal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Lo mismo con cualquier intoxicación, sea por un medicamento, un químico o una droga ilícita."
+    },
+    {
+      "file": "s03_g02",
+      "text": "También toda muerte que ocurra mientras la persona está bajo custodia policial o penitenciaria."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y la muerte intraoperatoria o en el postoperatorio inmediato que resulta inexplicable, porque ahí puede haber sospecha de mala praxis."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y un cadáver hallado en la vía pública o en su domicilio, sin atención médica previa y sin una causa de muerte clara."
+    },
+    {
+      "file": "s03_g05",
+      "text": "En todos estos casos, el médico tiene prohibición legal formal de firmar el certificado. Tiene que preservar el cuerpo, no alterar el sitio, y notificar de inmediato a Carabineros, a la PDI o al Ministerio Público, para que el caso se derive al Servicio Médico Legal."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Solo cuando la muerte es por una enfermedad médica conocida, sin sospecha de nada de lo anterior, el médico tratante firma el certificado, con su cadena de causa básica, intermedia e inmediata."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Hay dos tipos de autopsia, y no se pueden confundir. La autopsia clínica se hace en el servicio de anatomía patológica de un hospital, en pacientes fallecidos por causas naturales, y sirve para confirmar el diagnóstico, entender por qué no respondió al tratamiento, y con fines docentes para la formación de nuevos médicos."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y necesita la autorización firmada de los familiares directos. Sin esa firma, no se hace."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La autopsia médico-legal es completamente distinta: la ordena un fiscal del Ministerio Público, y es obligatoria en toda muerte violenta o con sospecha de delito, aunque los familiares prefieran evitarla."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Aquí la familia no tiene derecho a oponerse, porque no depende de su voluntad, depende de un mandato judicial que busca esclarecer un posible delito. Y el que firma el certificado, en estos casos, es el médico legista del Servicio Médico Legal, nunca el médico tratante que atendió al paciente en vida."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Cambiemos de tema, al deber de denuncia. Todo médico cirujano, enfermera o matrona que atienda a una persona con lesiones que parezcan un delito de acción pública, está obligado por ley a denunciarlo, sea en un establecimiento público o privado, y da lo mismo si el paciente sobrevive o fallece por esas lesiones."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se denuncian las lesiones por arma blanca o de fuego, la sospecha de agresión sexual, las señales de maltrato infantil o de violencia intrafamiliar grave, y las intoxicaciones dolosas."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y aquí está el dato que garantiza pregunta: el plazo legal para denunciar es de veinticuatro horas, contadas desde que el profesional toma conocimiento del hecho. No es facultativo, no depende de que la víctima autorice, y no se cumple citando primero al agresor para verificar su versión."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Se denuncia ante el Ministerio Público, Carabineros o la Policía de Investigaciones. No basta con avisar al jefe de servicio o con dejarlo solo escrito en la ficha: la denuncia formal es a la autoridad, y omitirla dentro del plazo es en sí mismo un delito."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y el incumplimiento no es una falta administrativa menor: omitir la denuncia constituye en sí mismo un delito de omisión, sancionado en el Código Penal, independiente de cualquier responsabilidad civil que además pueda seguir el profesional."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora armemos el árbol completo de decisión frente a un fallecido. La primera pregunta nunca es la última condición clínica: es el origen de todo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Incluso con una causa médica final, hay que descartar un origen violento oculto, revisando cómo empezó realmente el cuadro."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Se arma la cadena completa con enfermedades diagnosticables reales, evitando siempre términos como paro cardiorrespiratorio o falla multiorgánica."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es una muerte médico-legal, aunque la causa final parezca puramente médica y hayan pasado semanas desde el hecho inicial."
+    },
+    {
+      "file": "s06_g04",
+      "text": "El deber de denuncia es independiente de si el paciente sobrevive o fallece por esas lesiones."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Omitir la denuncia dentro del plazo es en sí mismo un delito de omisión, sancionado penalmente."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Pasado el plazo fatal, la denuncia tardía no borra la infracción ya cometida, pero sigue siendo obligatoria."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos con la tabla. Quién firma el certificado: en la muerte natural, el médico tratante; en la médico-legal, exclusivamente el médico legista."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El consentimiento familiar: se exige para la autopsia clínica, pero no aplica en la médico-legal, porque esa autopsia es obligatoria por orden del fiscal."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y el caso que más confunde, el que suele decidir la pregunta del examen: si el origen fue violento, la muerte sigue siendo médico-legal aunque el paciente fallezca semanas después en el hospital por una complicación médica, como una neumonía o una sepsis."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y una segunda tabla, con un ejemplo de llenado. En la causa inmediata, el error frecuente es escribir paro cardiorrespiratorio; lo correcto es la condición real, como un shock séptico de foco abdominal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "En la causa intermedia, el error es falla multiorgánica; lo correcto es la complicación real que la generó, como una peritonitis aguda difusa."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y en la causa básica, el error es un término inespecífico como insuficiencia respiratoria; lo correcto es la enfermedad que inició todo, en este ejemplo, una diverticulitis aguda perforada. Fíjate en el hilo: cada línea tiene que ser una enfermedad real y diagnosticable, nunca un modo de morir."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Un anciano de ochenta y dos años, diabético e hipertenso, sufre un asalto en la vía pública y recibe un golpe fuerte en el cráneo, que le produce un hematoma bajo la duramadre. Lo operan y lo llevan a la unidad de cuidados intensivos, donde fallece veinticinco días después, por una neumonía aspirativa y un shock séptico. El médico residente de turno evalúa si debe firmar el certificado, porque piensa que es una muerte hospitalaria tardía."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta correcta?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: firmar con shock séptico como causa básica, no firmar porque es médico-legal por el origen traumático, firmar escribiendo paro cardiorrespiratorio, firmar solo con autorización familiar, o pedir primero una autopsia clínica. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Este caso está armado justo para la trampa del tiempo: veinticinco días internado suenan a una muerte médica tardía, pero el origen de toda la cadena fue un trauma por asalto. Eso convierte la muerte en médico-legal, sin importar que la causa inmediata haya sido una complicación médica como la neumonía. El residente no firma nada: preserva el cuerpo y notifica para que vaya al Servicio Médico Legal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Un paciente con antecedente de cáncer de próstata sufre un tromboembolismo pulmonar, después una falla respiratoria, después un paro cardíaco, y finalmente muere."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la causa inmediata de muerte en el certificado de defunción?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: cáncer de próstata, tromboembolismo pulmonar, paro cardíaco, falla respiratoria, o trombosis venosa profunda."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, falla respiratoria. Arma la cadena completa como la vimos: el cáncer de próstata es la causa básica, el tromboembolismo pulmonar es la causa intermedia, y la falla respiratoria es la causa inmediata, la última condición real antes de morir. El paro cardíaco es exactamente el distractor que estudiamos: es lo último que ocurre, pero por ser un mecanismo universal, nunca se escribe en el certificado."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El certificado siempre tiene tres causas encadenadas: básica, intermedia e inmediata, y cada una tiene que ser una enfermedad real, nunca un modo de morir."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Nunca se escribe paro cardiorrespiratorio ni falla multiorgánica como causa básica o única."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si el origen fue violento, la muerte es médico-legal aunque el paciente fallezca semanas después en el hospital, y el médico clínico nunca firma ese certificado, por más que la causa inmediata que vio con sus propios ojos haya sido una complicación médica."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La autopsia clínica exige el consentimiento firmado de la familia; la autopsia médico-legal no, porque la ordena un fiscal y la familia no puede oponerse."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y el deber de denuncia tiene un plazo fatal de veinticuatro horas, hacia la Fiscalía o la policía, nunca solo hacia la ficha clínica. Si te llevas una sola idea de hoy: antes de firmar cualquier certificado, pregúntate cómo empezó todo, no solo cómo terminó. Nos vemos en la próxima clase."
+    }
+  ]
+}

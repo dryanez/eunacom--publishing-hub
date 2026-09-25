@@ -1,0 +1,284 @@
+{
+  "id": "ped-15",
+  "title": "Pediatria 18.15: Atención Inmediata del Recién Nacido & Reanimación Neonatal: Algoritmo AAP/AHA, Minuto de Oro y Test de APGAR",
+  "specialty": "Pediatría",
+  "chars": 11368,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre atención inmediata del recién nacido y reanimación neonatal en sala de partos, uno de los temas más evaluados y de mayor impacto asistencial en el examen EUNACOM. En esta sesión dominaremos las tres preguntas iniciales al nacer, el concepto crucial del minuto de oro, los pasos correctivos de la ventilación con la mnemotecnia míster sopa, la técnica del masaje tres a uno y el cálculo exacto del test de APGAR. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Durante la vida fetal el alvéolo está lleno de líquido y la resistencia vascular pulmonar es muy elevada. Al nacer, el pinzamiento del cordón y las primeras respiraciones generan una potente presión negativa que desplaza el líquido hacia los capilares y linfáticos, permitiendo la entrada de aire."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La llegada de oxígeno al alvéolo produce una rápida relajación del lecho vascular pulmonar con drástica caída de las resistencias. El flujo sanguíneo se desvía masivamente a los pulmones, provocando el cierre funcional del foramen oval y del conducto arterioso para consolidar la circulación neonatal autónoma."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La primera pregunta al recibir al recién nacido es verificar si es de término, es decir, si cumplió al menos treinta y siete semanas completas de gestación."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La segunda pregunta es evaluar el tono muscular, observando si el neonato mantiene sus cuatro extremidades flexionadas y con movilidad espontánea."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La tercera pregunta es constatar si el recién nacido respira de manera rítmica o emite un llanto enérgico inmediato que expanda ambos hemitórax."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si la respuesta es afirmativa a las tres preguntas, el recién nacido está vigoroso y debe colocarse de inmediato sobre el pecho desnudo de su madre para iniciar apego precoz ininterrumpido."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Si alguna de las tres preguntas es negativa, el neonato no es vigoroso o es prematuro, debiendo trasladarse sin pérdida de tiempo a la cuna de calor radiante para reanimación."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Lo primero es colocar al niño bajo la cuna de calor radiante precalentada para prevenir la pérdida calórica, factor que agravaría la acidosis metabólica."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Luego se posiciona la cabeza en ligera extensión, en la clásica posición de olfateo neutral, que alinea los ejes laríngeos y mantiene la faringe permeable."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Se seca todo el cuerpo y la cabeza con paños tibios, retirando de inmediato los campos húmedos para eliminar la pérdida de calor por evaporación."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La estimulación táctil debe ser suave pero firme, frotando la espalda o dando palmadas suaves en las plantas de los pies por pocos segundos."
+    },
+    {
+      "file": "s03_g04",
+      "text": "La aspiración de la vía aérea no es de rutina. Solo se realiza si hay secreciones abundantes que obstruyan la respiración, aspirando primero la boca y luego la nariz."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Evaluamos de inmediato la respiración. La presencia de apnea o de respiración en boqueo agónico equivale clínicamente a paro respiratorio inminente."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La frecuencia cardíaca se evalúa auscultando el precordio con fonendoscopio durante seis segundos y multiplicando por diez para obtener los latidos por minuto."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si la frecuencia cardíaca es menor a cien latidos por minuto o el niño está en apnea, la indicación inmediata e incuestionable es iniciar ventilación a presión positiva."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si la frecuencia cardíaca es mayor a cien pero el niño presenta quejido o tiraje, no requiere ventilación con bolsa sino presión positiva continua nasal."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ante una frecuencia cardíaca menor a cien latidos por minuto o apnea, se coloca la máscara facial anatómica cubriendo mentón, boca y nariz con un sello hermético con la mano en letra C."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se ventila a una frecuencia de cuarenta a sesenta insuflaciones por minuto al ritmo de ventilo, dos, tres, comprobando visualmente que el tórax se eleve suavemente con cada ventilación."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Al minuto uno la saturación preductal fisiológica es de apenas sesenta a sesenta y cinco por ciento. En recién nacidos de término se inicia con aire ambiental."
+    },
+    {
+      "file": "s06_g01",
+      "text": "A los dos minutos de vida la saturación sube a sesenta y cinco a setenta por ciento, titulando con mezclador para no sobreoxigenar."
+    },
+    {
+      "file": "s06_g02",
+      "text": "A los cinco minutos la meta es de ochenta a ochenta y cinco por ciento, evitando la hiperoxia que produce estrés oxidativo pulmonar y retinopatía."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Hacia los diez minutos el recién nacido alcanza su nivel de saturación preductal definitivo entre ochenta y cinco y noventa y cinco por ciento."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El sensor de oximetría debe colocarse estrictamente en la mano o muñeca derecha porque la arteria subclavia derecha nace del arco aórtico antes del ductus arterioso."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Esta sangre preductal refleja con exactitud la oxigenación real que están recibiendo las arterias coronarias del miocardio y las arterias carótidas que nutren el cerebro."
+    },
+    {
+      "file": "s07_g02",
+      "text": "En las piernas o en la mano izquierda la medición puede estar falseada por sangre desoxigenada postductal proveniente del ventrículo derecho a través del ductus."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Guiarse por un sensor colocado en el pie induciría a aumentar la concentración de oxígeno de forma iatrogénica por creer erróneamente que el niño está hipoxémico."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La letra M corresponde a reacomodar la máscara logrando un sello hermético, y la R a reposicionar la cabeza en ligera extensión de olfateo."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La letra S indica succionar secreciones de boca y nariz, y la letra O abrir la boca del paciente para reducir la resistencia al flujo de aire."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La letra P manda a aumentar gradualmente la presión de insuflación, y la letra A obliga a establecer una vía aérea alternativa como intubación endotraqueal."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La causa casi universal de bradicardia neonatal es la hipoxia asfíctica por colapso alveolar. Al lograr una expansión pulmonar efectiva el corazón recupera su frecuencia."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Jamás se debe pasar al masaje cardíaco sin haber certificado treinta segundos completos de ventilación a presión positiva efectiva que movilice el tórax."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Si tras al menos treinta segundos de ventilación a presión positiva efectiva la frecuencia cardíaca se mantiene por debajo de sesenta latidos por minuto, se inicia masaje cardíaco con la técnica de los dos pulgares sobre el tercio inferior del esternón."
+    },
+    {
+      "file": "s09_g01",
+      "text": "El masaje se coordina rígidamente con la ventilación a una relación de tres compresiones por una ventilación, sumando noventa compresiones y treinta ventilaciones por minuto, aumentando simultáneamente la fracción inspirada de oxígeno al cien por ciento."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La vía de elección para administrar adrenalina es el catéter venoso umbilical insertado rápidamente dos a cuatro centímetros hasta obtener retorno venoso."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La dosis recomendada es de cero punto cero dos miligramos por kilo de la solución diluida uno en diez mil, seguida de un bolo de solución fisiológica."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Los expansores de volumen se reservan para neonatos con sospecha de choque hipovolémico por sangrado materno o palidez extrema refractaria."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Se administra suero fisiológico isotónico a dosis de diez mililitros por kilo infundido en un lapso de cinco a diez minutos por la vena umbilical."
+    },
+    {
+      "file": "s11_g00",
+      "text": "El puntaje de APGAR no se utiliza jamás para decidir el inicio de la reanimación. Las maniobras de reanimación se inician en los primeros segundos de vida sin esperar el cumplimiento del primer minuto."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El APGAR se evalúa al minuto uno para medir cómo toleró el parto, y a los cinco minutos para cuantificar la eficacia de las maniobras de asistencia realizadas."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Un puntaje de siete a diez puntos clasifica al niño como vigoroso, siendo nueve puntos la puntuación más común al minuto por acrocianosis normal."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Un puntaje menor a siete refleja depresión neonatal; si a los cinco minutos persiste bajo siete, se debe continuar reevaluando cada cinco minutos hasta los veinte minutos."
+    },
+    {
+      "file": "s12_g00",
+      "text": "En coloración, la palidez o cianosis total da cero, el cuerpo rosado con acrocianosis distal otorga un punto y completamente rosado dos puntos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "En frecuencia cardíaca, ausente es cero, menor a cien latidos por minuto da un punto y sobre cien latidos por minuto suma dos puntos."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En reflejos, la falta de respuesta es cero puntos, una mueca débil da un punto y el llanto vigoroso o tos suma dos puntos."
+    },
+    {
+      "file": "s12_g03",
+      "text": "En tono muscular, la flacidez da cero puntos, una flexión débil da un punto y la flexión activa con buen tono suma dos puntos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Al momento del parto formulamos de inmediato las tres preguntas cardinales de vitalidad."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Si el neonato es de término, tiene buen tono y respira enérgicamente se indica apego piel con piel directo con su madre."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Llevamos al neonato a la cuna radiante para calentar, posicionar en olfateo, secar, estimular y despejar secreciones."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Recién nacido de treinta y nueve semanas que al nacer no llora y se encuentra hipotónico."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el primer paso a realizar de forma inmediata?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A masaje cardíaco inmediato. La B intubación directa. La C cuna de calor radiante, posicionar vía aérea, secar y estimular. La D adrenalina umbilical. La E calcular APGAR. Aplica la secuencia cronológica inicial. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la C. El primer paso consiste en trasladar a cuna radiante, posicionar la cabeza, secar meticulosamente y estimular."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Recién nacido al minuto con cuerpo rosado y extremidades azuladas, frecuencia cardíaca de ciento veinte, llanto vigoroso, buen tono muscular y respiración regular."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el puntaje de APGAR correspondiente?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A diez puntos. La B nueve puntos. La C ocho puntos. La D siete puntos. La E seis puntos. Suma los cinco parámetros clínicos. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. La suma de los parámetros arroja exactamente nueve puntos debido a la acrocianosis distal que resta un punto."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Recién nacido intubado con treinta segundos de ventilación a presión positiva efectiva cuya frecuencia cardíaca auscultada persiste en cuarenta y ocho latidos por minuto."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el siguiente paso protocolizado según el algoritmo internacional?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "La opción A continuar con ventilación exclusiva a aire ambiental. La B iniciar masaje cardíaco coordinado tres a uno y aumentar la fracción de oxígeno al cien por ciento. La C bicarbonato de sodio en bolo. La D desfibrilación inmediata. La E extubar. Recuerda el umbral de sesenta latidos. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B. Con frecuencia menor a sesenta tras ventilación efectiva se inicia masaje cardíaco tres a uno con oxígeno al cien por ciento."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Pregunta sobre la justificación anatómica y hemodinámica de ubicar el sensor de oximetría en la mano o muñeca derecha."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Por qué motivo el sensor debe colocarse estrictamente en la mano derecha durante la reanimación?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "La opción A por mayor calibre arterial. La B porque mide la saturación preductal reflejando fielmente la oxigenación del cerebro y miocardio. La C porque en los pies es idéntica a sangre fetal. La D evitar interferencia con el ombligo. La E convención aleatoria. Recuerda la anatomía aórtica. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "La respuesta correcta es la B. La mano derecha recibe irrigación preductal previa al conducto arterioso, reflejando la oxigenación miocárdica y cerebral."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Recuerden siempre que la ventilación efectiva con bolsa o reanimador en T es la clave absoluta de la reanimación neonatal, revirtiendo casi la totalidad de las depresiones."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Apliquen la mnemotecnia míster sopa si el tórax no se eleva, asegurando un sello perfecto antes de plantearse el inicio de compresiones torácicas."
+    },
+    {
+      "file": "s18_g02",
+      "text": "En el recién nacido de término se inicia siempre la ventilación con aire ambiental al veintiún por ciento, reservando el cien por ciento para el masaje cardíaco."
+    },
+    {
+      "file": "s18_g03",
+      "text": "El oxímetro se coloca siempre en la muñeca derecha. Si te llevas una sola idea de hoy: la ventilación a presión positiva es la maniobra más importante de la reanimación neonatal y nunca debe postergarse por calcular el puntaje de APGAR. Nos vemos en la próxima clase."
+    }
+  ]
+}

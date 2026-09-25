@@ -1,0 +1,180 @@
+{
+  "id": "sp-14",
+  "title": "Saludpublica 21.14: Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
+  "specialty": "Salud Pública",
+  "chars": 9384,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el módulo con tres leyes especiales que se preguntan seguido: la Ley veintiún mil treinta, que despenalizó la interrupción voluntaria del embarazo en tres causales, el Código Sanitario, que regula quién puede ejercer la medicina, y la ley que castiga penalmente las licencias médicas fraudulentas. El hilo de hoy es simple: cada una de estas leyes tiene un límite exacto, y ese límite es justamente lo que se pregunta."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La ley regula la interrupción del embarazo bajo tres causales, y nada más que esas tres. La primera es el riesgo vital: la mujer está en riesgo vital actual o inminente, y la interrupción evita ese peligro para su vida. No tiene límite de edad gestacional, y en general se exige el diagnóstico del médico tratante más la ratificación de un segundo especialista, aunque en una urgencia extrema esa segunda ratificación puede no ser exigible antes de actuar."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La segunda causal es la inviabilidad fetal: el feto tiene una patología congénita, estructural o cromosómica, incompatible con la vida fuera del útero, como una anencefalia. Tampoco tiene límite de semanas, y exige el diagnóstico concordante y por escrito de dos médicos especialistas."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y la tercera causal es la violación: el embarazo es resultado de una agresión sexual, y aquí sí hay un límite, hasta las doce semanas de gestación."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero hay una excepción que se pregunta directo: si la víctima es una niña menor de catorce años, ese límite se amplía hasta las catorce semanas de gestación. Guarda ese número, porque es justamente la trampa de la pregunta real que viene más adelante."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora el punto que más se pregunta de esta ley: la objeción de conciencia. Es el derecho del médico requerido, y también del resto del equipo de pabellón, a abstenerse de realizar la interrupción por razones éticas o religiosas. Pero para que valga, tiene que haberse manifestado antes, por escrito, ante el director del establecimiento. No sirve decirlo recién en el momento."
+    },
+    {
+      "file": "s02_g01",
+      "text": "En un caso que no es urgente, el objetor tiene la obligación de informar de inmediato a la dirección, para que reasignen a la paciente a un médico no objetor, dentro del mismo centro o derivándola a otro de la red. El objetor no interviene, pero tampoco puede simplemente dejarla sin atención."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Pero hay un escenario donde la objeción deja de proteger al médico: la causal uno, con riesgo vital inminente para la madre."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si la mujer necesita atención inmediata, y no existe ningún otro médico cirujano disponible en ese establecimiento, el objetor tiene la obligación legal y ética de intervenir igual, para evitar que la madre muera. La objeción de conciencia queda suspendida por ley ante un peligro vital inminente. Esta excepción es la que garantiza pregunta."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Cambiemos de ley. El Código Sanitario es el cuerpo normativo que regula el ejercicio de las profesiones de salud en Chile. Su artículo ciento doce exige un título oficial de médico cirujano, legalmente habilitado, y en el caso de un extranjero, la revalidación de su título o la aprobación del EUNACOM."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El artículo ciento trece define el ejercicio médico como el diagnóstico, el pronóstico y el tratamiento de las enfermedades humanas, y reserva la prescripción de fármacos éticos a los médicos cirujanos, a los odontólogos en su ámbito, y a las matronas, exclusivamente en el área gineco obstétrica y de planificación familiar."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y ejercer la medicina sin ese título habilitante constituye un delito penal de ejercicio ilegal de la profesión, lo que en la práctica se llama intrusismo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La licencia médica es a la vez un acto médico y un documento legal oficial: certifica que el trabajador está incapacitado transitoriamente, y justifica su ausencia, dando origen al pago del subsidio correspondiente. La COMPIN autoriza, reduce o rechaza las licencias, y la SUSESO es la instancia técnica que resuelve las apelaciones."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Emitir una licencia médica falsa, o sin que haya mediado una evaluación clínica real o una patología que la justifique, es un delito penal, no una simple infracción administrativa."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Las sanciones incluyen presidio, multas económicas a beneficio fiscal de entre cincuenta y quinientas UTM, e inhabilitación, temporal o incluso perpetua, para emitir licencias médicas y ejercer cargos en el sistema público de salud."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Armemos el árbol de decisión frente a una solicitud de interrupción del embarazo. La ley es taxativa: sin una causal, la sola voluntad de la paciente no habilita el procedimiento."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se explica con claridad por qué no procede, y se deriva a apoyo, sin ejecutar el procedimiento."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Estas dos causales se acreditan con el diagnóstico correspondiente, sin tope de edad gestacional."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Se cumplen los requisitos de la causal y se procede con la interrupción."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Ante un riesgo vital inminente sin médico alternativo, la objeción de conciencia no protege al objetor."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Doce semanas es el límite general; catorce, si la víctima es una niña menor de catorce años."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Se acredita la concurrencia de los hechos y se procede dentro del plazo legal."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Superado el plazo, esta causal específica ya no habilita el procedimiento."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos con la tabla. La causal de riesgo vital materno no tiene límite de semanas, y exige el diagnóstico del médico tratante más un segundo especialista."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La inviabilidad fetal tampoco tiene límite de semanas, y exige el diagnóstico concordante de dos médicos especialistas."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La violación en una mujer mayor de catorce años tiene tope de doce semanas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y la violación en una niña menor de catorce años amplía el tope hasta las catorce semanas. Confundir estos dos números es el error más común del tema."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. En un hospital provincial de baja complejidad, una gestante de dieciséis semanas ingresa a la urgencia obstétrica con un shock grave por rotura uterina espontánea y hemoperitoneo masivo, con riesgo de muerte inminente. Es la causal uno de la Ley IVE. El único gineco obstetra de turno está inscrito como objetor de conciencia, dice que por sus convicciones no hará la intervención, y pide trasladarla a un hospital regional lejano."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta correcta?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: trasladarla respetando la objeción, que el médico intervenga de inmediato porque la objeción se suspende, esperar autorización de la dirección, convocar al comité de ética, o sedarla mientras llega otro especialista. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Este caso está armado exactamente para la excepción que vimos: riesgo vital inminente, causal uno, y ningún otro médico disponible en el establecimiento. En ese escenario, la objeción de conciencia se suspende por ley, y el médico tiene la obligación de intervenir de inmediato. Trasladarla tres horas, esperar un trámite o convocar a un comité son formas de dejarla morir mientras se resuelve un papeleo, y eso es justamente lo que la ley busca evitar."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Una paciente de veintidós años, con un embarazo de dieciocho semanas, llega a urgencias pidiendo que le interrumpan el embarazo. No cumple ninguna de las tres causales legales vigentes en Chile."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta médica correcta?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: informar que no procede legalmente y derivar a consejería, realizar la interrupción porque ella lo solicita, derivarla de urgencia a matrona, hospitalizarla para observación, o referirla al comité de ética."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A. La ley es taxativa: solo se puede interrumpir el embarazo dentro de una de las tres causales. Sin ninguna presente, la sola voluntad de la paciente no basta, por más respetable que sea. Lo correcto es informarle con claridad que no procede, y derivarla a apoyo psicosocial. Derivarla a otro profesional o a un comité no resuelve nada, porque el problema no es de competencia clínica: es que la ley simplemente no lo permite."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Y una segunda pregunta real, del EUNACOM de enero de dos mil veintitrés, sobre otro punto de las licencias médicas. Se pregunta cuál de las siguientes situaciones corresponde a una licencia médica tipo uno, por enfermedad o accidente común."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál de las siguientes corresponde a una licencia médica tipo uno?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: amigdalitis aguda, accidente laboral con fractura, enfermedad profesional por ruido, reposo por embarazo de alto riesgo, o licencia por maternidad."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A, amigdalitis aguda. Es una enfermedad común, sin relación con el trabajo, y eso es exactamente lo que define al tipo uno. El accidente laboral y la enfermedad por ruido se cubren por la ley de accidentes del trabajo, no como tipo uno, y el embarazo de alto riesgo y la maternidad tienen sus propios regímenes de licencia. Fíjate en el patrón: el tipo de licencia lo define el origen de la incapacidad, no la gravedad del cuadro."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Las causales de riesgo vital y de inviabilidad fetal no tienen límite de semanas; la de violación sí, doce semanas, o catorce si la víctima es una niña menor de catorce años."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Y la objeción de conciencia es un derecho real, pero se suspende por ley cuando hay riesgo vital inminente y no hay otro médico disponible."
+    },
+    {
+      "file": "s10_g02",
+      "text": "El Código Sanitario reserva el ejercicio de la medicina a quien tiene el título habilitante; ejercer sin él es un delito."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y emitir una licencia médica fraudulenta trae presidio, multa e inhabilitación, no una simple amonestación. Si te llevas una sola idea de hoy: cada una de estas leyes protege algo distinto, pero todas fallan igual cuando se cruza el límite exacto que fija la norma. Con esto cerramos el módulo completo de salud pública. Mucho éxito en tu examen."
+    }
+  ]
+}

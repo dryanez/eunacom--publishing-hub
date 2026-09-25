@@ -1,0 +1,292 @@
+{
+  "id": "ped-07",
+  "title": "Pediatria 18.7: Neumonía Adquirida en la Comunidad (NAC) Pediátrica: Diagnóstico, Amoxicilina vs Ampicilina y Criterios de Hospitalización",
+  "specialty": "Pediatría",
+  "chars": 12891,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre neumonía adquirida en la comunidad en pediatría, un tema troncal con alta tasa de preguntas clínicas en el examen EUNACOM. En esta sesión abordaremos la estratificación etiológica según la edad del paciente, el rol de la taquipnea como signo cardinal definido por la Organización Mundial de la Salud, la dosificación de amoxicilina ambulatoria y ampicilina hospitalaria, los criterios estrictos de ingreso y el manejo del derrame pleural complicado. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La infección se inicia por la microaspiración de patógenos desde la nasofaringe colonizada hacia los alveolos distales, donde el neumococo evade las defensas mucociliares y activa a los macrófagos locales desencadenando una intensa cascada inflamatoria."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El espacio aéreo se llena rápidamente de un exudado rico en fibrina, leucocitos y detritus celulares que consolida el parénquima pulmonar, aboliendo la ventilación alveolar y generando un cortocircuito pulmonar que conduce a hipoxemia y taquipnea refleja."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En el neonato menor de un mes predominan los patógenos del canal del parto, destacando Streptococcus agalactiae, enterobacterias como Escherichia coli y Listeria monocytogenes."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Entre el primer y tercer mes de vida el neumococo comienza a ser el agente bacteriano dominante, coexistiendo con virus respiratorios y riesgo latente de sepsis bacteriana oculta."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Entre los tres meses y los cinco años, Streptococcus pneumoniae es el agente bacteriano por excelencia, aunque los virus respiratorios como el sincicial y metapneumovirus son extraordinariamente frecuentes."
+    },
+    {
+      "file": "s02_g03",
+      "text": "En niños mayores de cinco años los microorganismos atípicos como Mycoplasma pneumoniae y Chlamydophila superan al neumococo, presentándose como cuadros insidiosos con tos seca y mialgias."
+    },
+    {
+      "file": "s03_g00",
+      "text": "En el lactante menor de dos meses, la Organización Mundial de la Salud define taquipnea como una frecuencia respiratoria igual o superior a sesenta respiraciones por minuto contadas en reposo."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Entre los dos y once meses cumplidos, el punto de corte diagnóstico de taquipnea es de cincuenta respiraciones por minuto o más."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En niños entre uno y cuatro años de edad, se considera taquipnea toda frecuencia respiratoria igual o superior a cuarenta respiraciones por minuto."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En el niño mayor de cinco años el límite superior fisiológico desciende a treinta respiraciones por minuto, marcando un signo precoz de insuficiencia ventilatoria."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La neumonía bacteriana clásica por neumococo debuta en forma aguda con fiebre alta, calofríos, decaimiento marcado y dolor torácico de tipo pleurítico o dolor abdominal referido."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Al examen físico destacan crépitos finos inspiratorios focalizados en una zona pulmonar, respiración soplante o soplo tubario y matidez percutoria en la base afectada."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La neumonía atípica por Mycoplasma presenta un curso solapado con tos seca en salvas de más de una semana de evolución, acompañada de cefalea, dolor faríngeo y dolores musculares."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El sello distintivo es la disociación clínico radiológica: el escolar se aprecia en buen estado general con auscultación pulmonar modesta, pero su radiografía muestra densos infiltrados bilaterales."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Chlamydia trachomatis se adquiere durante el paso por el canal de parto infectado, debutando típicamente entre el primer y tercer mes de vida tras un antecedente de conjuntivitis neonatal."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La clínica es muy característica: presenta tos entrecortada en staccato similar al coqueluche, taquipnea y ausencia total de fiebre, encontrándose el lactante alerta y afebril."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En el laboratorio destaca una eosinofilia sanguínea marcada y la radiografía de tórax revela infiltrados intersticiales bilaterales con hiperinsuflación pulmonar simétrica."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El tratamiento de elección se realiza con macrólidos por vía oral como claritromicina o azitromicina durante catorce días, logrando la remisión completa del cuadro respiratorio."
+    },
+    {
+      "file": "s06_g00",
+      "text": "En la atención primaria de salud no es obligatorio solicitar radiografía de tórax ante un niño con clínica clara de neumonía no complicada que tolera la vía oral y satura adecuadamente."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La placa de tórax es imperativa si el paciente requiere hospitalización, si se sospecha complicación como derrame o atelectasia, o si persiste con fiebre tras cuarenta y ocho horas de antibióticos."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La consolidación alveolar densa y homogénea con broncograma aéreo que compromete un segmento o lóbulo completo es el patrón radiológico clásico de la neumonía bacteriana neumocócica."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El patrón intersticial con infiltrados reticulares difusos bilaterales y engrosamiento peribronquial orienta a patógenos virales o bacterias atípicas como Mycoplasma."
+    },
+    {
+      "file": "s07_g00",
+      "text": "En el examen EUNACOM la regla es absoluta: cualquier niño menor de tres meses de vida diagnosticado con neumonía debe hospitalizarse de inmediato por alto riesgo de bacteriemia oculta y apnea."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La saturación arterial inferior a noventa y tres por ciento al aire ambiente, el quejido espiratorio audible y las retracciones torácicas severas obligan al ingreso hospitalario urgente."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La imposibilidad de alimentarse o la presencia de vómitos reiterados que impiden la terapia oral constituyen indicación estricta de hospitalización para hidratación y antibióticos endovenosos."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El fracaso clínico tras cuarenta y ocho a setenta y dos horas de amoxicilina oral o el hallazgo de un derrame pleural exigen el ingreso hospitalario inmediato para estudio invasivo."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El neonato con neumonía se hospitaliza siempre recibiendo ampicilina más cefotaxima endovenosa para cubrir estreptococo del grupo B, listeria y bacilos entéricos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "El lactante menor de tres meses febril requiere hospitalización formal con ampicilina y cefotaxima parenteral por el riesgo elevado de infección bacteriana invasiva."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En el lactante mayor ambulatorio la amoxicilina oral a dosis plenas de ochenta a noventa miligramos por kilo al día durante siete días es el tratamiento de primera línea."
+    },
+    {
+      "file": "s08_g03",
+      "text": "En el niño hospitalizado que tolera bien y no está séptico, la ampicilina endovenosa a ciento cincuenta a doscientos miligramos por kilo es el fármaco de elección."
+    },
+    {
+      "file": "s08_g04",
+      "text": "En escolares con neumonía atípica se indican macrólidos orales como azitromicina a diez miligramos por kilo el primer día y cinco miligramos los cuatro días siguientes."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La resistencia del neumococo a la penicilina se debe a mutaciones en las proteínas fijadoras de penicilina y no a betalactamasas, por lo que se vence aumentando la concentración sérica del fármaco."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La dosis correcta exigida en las guías nacionales es de ochenta a noventa miligramos por kilo al día dividida cada ocho o doce horas por siete días. Dosis menores son un error frecuente en el examen."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Ojo con este error clásico en el examen: indicar amoxicilina con ácido clavulánico para una neumonía típica es incorrecto. El clavulánico no actúa sobre las mutaciones del neumococo y solo aumenta los efectos gastrointestinales."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Todo paciente que inicia amoxicilina ambulatoria debe ser reevaluado a las cuarenta y ocho horas en el consultorio para comprobar el cese de la fiebre y la disminución de la frecuencia respiratoria."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Para el niño hospitalizado que no presenta criterios de choque séptico, la ampicilina endovenosa a dosis de ciento cincuenta a doscientos miligramos por kilo al día fraccionada cada seis horas es la terapia de primera línea."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Una vez que el paciente permanece afebril por más de veinticuatro horas y se alimenta con normalidad, se realiza el traspaso secuencial a amoxicilina oral para completar siete a diez días de tratamiento."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Se indica cefotaxima o ceftriaxona endovenosa si el paciente ingresa séptico, en lactantes no vacunados contra Haemophilus o neumococo, o si no responde a la ampicilina inicial."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si la neumonía evoluciona con neumatoceles rápidos o choque tóxico, se asocia cloxacilina o vancomicina para cubrir Staphylococcus aureus resistente productor de toxina de Panton Valentine."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Si un niño con neumonía continúa con fiebre alta tras cuarenta y ocho horas de antibiótico adecuado o presenta matidez marcada con silencio vesicular en una base, se debe sospechar derrame paraneumónico."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La ecografía pleural es el examen de elección para evaluar el derrame, ya que cuantifica el volumen exacto, identifica la presencia de tabicaciones precoces y marca el sitio ideal para la punción."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El diagnóstico de empiema se confirma si el líquido es purulento o presenta pH menor a siete coma veinte, glucosa menor a cuarenta miligramos por decilitro o bacterias visibles en la tinción de Gram."
+    },
+    {
+      "file": "s11_g03",
+      "text": "El empiema exige la colocación inmediata de un tubo de drenaje pleural bajo aspiración asociado al uso de fibrinolíticos intrapleurales o resolución quirúrgica mediante videotoracoscopía temprana."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Iniciamos la evaluación estratificando los factores de riesgo de hospitalización inmediata y la presencia de dificultad respiratoria."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Ante cualquiera de estos criterios se hospitaliza de inmediato indicando oxígeno humidificado y radiografía de tórax."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En el paciente hospitalizado no crítico se inicia ampicilina endovenosa pasando a vía oral tras la defervescencia térmica."
+    },
+    {
+      "file": "s12_g03",
+      "text": "En neonatos o cuadros sépticos graves se emplean cefalosporinas de tercera generación asociadas según la sospecha microbiológica."
+    },
+    {
+      "file": "s12_g04",
+      "text": "En el paciente ambulatorio estable evaluamos la edad y el cuadro clínico para elegir el antibiótico correcto."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Se prescribe amoxicilina a dosis plenas de ochenta a noventa miligramos por kilo citando a control médico en dos días."
+    },
+    {
+      "file": "s12_g06",
+      "text": "En sospecha de patógenos atípicos se indica azitromicina oral en pauta de cinco días con excelente respuesta clínica."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Lactante de ocho meses en consultorio con fiebre tos taquipnea de cincuenta y cuatro saturación noventa y cinco por ciento y crépitos basales izquierdos tolerando el pecho."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el tratamiento de primera línea más adecuado?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A propone azitromicina oral por tres días. La B amoxicilina oral a ochenta a noventa miligramos por kilo al día por siete días. La C ceftriaxona intramuscular. La D salbutamol exclusivo. La E amoxicilina clavulánico a dosis bajas. Selecciona la pauta ministerial. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. La amoxicilina a dosis plenas de ochenta a noventa miligramos por kilo al día es el estándar indiscutido contra el neumococo en el lactante."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Pregunta sobre la identificación del criterio absoluto e imperativo de hospitalización en un niño con neumonía adquirida en la comunidad."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál de los siguientes pacientes presenta indicación estricta de ingreso hospitalario inmediato?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A lactante de catorce meses con saturación normal que come bien. La B lactante de dos meses de vida con fiebre y taquipnea. La C niño de cuatro años que satura noventa y cinco por ciento. La D escolar con neumonía atípica. La E lactante de nueve meses afebril con paracetamol. Identifica la edad crítica. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B. Todo lactante menor de tres meses con neumonía tiene indicación obligatoria de hospitalización por riesgo de bacteriemia y colapso."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Niño de siete años con tos seca de diez días cefalea mialgias buen estado general y radiografía con infiltrado intersticial bilateral disociado."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el tratamiento antibiótico empírico de elección?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A propone amoxicilina oral a dosis altas. La B azitromicina oral a diez miligramos por kilo el primer día y cinco miligramos los días dos a cinco. La C ampicilina endovenosa. La D cloxacilina. La E gentamicina. Recuerda la estructura celular de Mycoplasma. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. Mycoplasma carece de pared celular siendo inmune a penicilinas y respondiendo de forma electiva a los macrólidos orales."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Lactante de once meses en tratamiento con amoxicilina que persiste con fiebre a las cuarenta y ocho horas constatándose matidez basal y derrame pleural derecho en la placa."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la conducta inmediata correcta?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "La opción A mantener amoxicilina oral por dos días más. La B hospitalizar de inmediato con ecografía pleural punción diagnóstica y antibióticos endovenosos. La C kinesioterapia respiratoria. La D salbutamol nebulizado. La E diferir hospitalización. Aplica el protocolo de falla. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B. El derrame paraneumónico con fiebre persistente es un fracaso de tratamiento que exige hospitalización urgente y punción diagnóstica."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Graben la dosis exacta de amoxicilina: ochenta a noventa miligramos por kilo al día por siete días en el lactante ambulatorio. No asocien clavulánico de entrada porque no aporta sobre el neumococo."
+    },
+    {
+      "file": "s17_g01",
+      "text": "En escolares mayores de cinco años con cuadro atípico y disociación radiológica el fármaco de elección es la azitromicina oral, ya que los betalactámicos son completamente inactivos."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Todo menor de tres meses con sospecha de neumonía se hospitaliza de forma mandataria sin excepción por el altísimo riesgo de bacteriemia oculta."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Si la fiebre persiste tras cuarenta y ocho horas de antibióticos sospechen derrame paraneumónico y soliciten ecografía pleural. Si te llevas una sola idea de hoy: en neumonía ambulatoria del lactante la amoxicilina a dosis altas es el pilar indiscutible, sin clavulánico. Nos vemos en la próxima clase."
+    }
+  ]
+}

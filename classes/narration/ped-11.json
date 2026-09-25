@@ -1,0 +1,304 @@
+{
+  "id": "ped-11",
+  "title": "Pediatria 18.11: Diarrea Aguda Infantil y Planes de Rehidratación Oral OMS (Plan A, B, C) y Síndrome Hemolítico Urémico",
+  "specialty": "Pediatría",
+  "chars": 12662,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase sobre diarrea aguda infantil y planes de rehidratación de la Organización Mundial de la Salud, uno de los temas con mayor presencia histórica en el examen EUNACOM. En esta sesión dominaremos la semiología precisa del grado de deshidratación, ejecutaremos con exactitud los planes A, B y C, revisaremos el manejo del síndrome hemolítico urémico y analizaremos cinco preguntas reales del banco oficial. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El rotavirus infecta y destruye selectivamente a los enterocitos maduros de las puntas de las vellosidades intestinales, provocando atrofia vellosa con pérdida transitoria de las enzimas disacaridasas del ribete en cepillo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La lactosa no hidrolizada permanece en el lumen intestinal ejerciendo una gran fuerza osmótica que retiene agua y electrolitos, para luego fermentarse por bacterias colónicas produciendo gas, deposiciones ácidas y eritema perianal severo."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El rotavirus es el principal responsable de gastroenteritis aguda deshidratante en menores de dos años, debutando típicamente con vómitos alimentarios y fiebre moderada, seguidos de diarrea líquida abundante."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El norovirus genera brotes comunitarios rápidos con vómitos incoercibles en guarderías, mientras que los adenovirus entéricos producen cuadros diarreicos más insidiosos y prolongados."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La disentería bacteriana se caracteriza por deposiciones mucosanguinolentas escasas acompañadas de pujo, tenesmo rectal y fiebre muy alta, producto de la invasión y necrosis de la mucosa del colon."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Escherichia coli enterohemorrágica productora de toxina Shiga desencadena colitis hemorrágica con dolor abdominal intenso y deposiciones con sangre fresca, precediendo al síndrome hemolítico urémico."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El estado neurológico es el marcador más sensible: el niño sin deshidratación está alerta, el niño con deshidratación moderada se muestra irritable, y en la deshidratación severa se torna letárgico o comatoso."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Al ofrecer agua o sales orales, el paciente moderado bebe con avidez desesperada, mientras que el niño con deshidratación grave es incapaz de deglutir debido a la depresión de conciencia."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El pliegue cutáneo abdominal se recupera al instante en condiciones normales, tarda menos de dos segundos en la deshidratación moderada, y permanece retraído más de dos segundos en la deshidratación grave."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La ausencia de lágrimas al llorar, el enoftalmo con ojos hundidos y la saliva espesa filante confirman un déficit volumétrico de agua corporal superior al cinco por ciento del peso."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El Plan A se aplica en el niño sin signos de deshidratación clínica, indicando administrar diez mililitros por kilo de sales de rehidratación oral después de cada deposición líquida o vómito para reponer pérdidas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La alimentación debe mantenerse sin interrupciones ni diluciones de la leche: la lactancia materna debe ofrecerse con mayor frecuencia para aportar inmunoglobulinas y favorecer la regeneración epitelial."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La suplementación con zinc por catorce días acelera la cicatrización de las vellosidades intestinales, reduce la duración de la diarrea y previene recurrencias en los meses venideros."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Se educa a los padres para consultar de inmediato si el niño vomita todo lo que ingiere, si aparecen ojos hundidos, sed insaciable o presencia de sangre macroscópica en las heces."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El Plan B se realiza en el centro de salud administrando cincuenta a cien mililitros por kilo de sales de rehidratación oral durante un período estricto de cuatro horas de supervisión."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La solución se entrega fraccionada lentamente con cuchara o jeringa, a razón de cinco a diez mililitros cada dos a tres minutos, evitando dar volúmenes grandes de golpe que desencadenen vómitos."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si el niño vomita durante el procedimiento, se suspende la administración por diez minutos y luego se reinicia ofreciendo volúmenes menores a velocidad más pausada."
+    },
+    {
+      "file": "s05_g03",
+      "text": "A las cuatro horas se reevalúa al paciente: si está hidratado pasa a Plan A y se va a casa; si persiste con deshidratación moderada se repite el ciclo; y si empeora se pasa a rehidratación parenteral."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Hablamos de fracaso de la vía oral cuando los vómitos persisten de forma incoercible a pesar del fraccionamiento adecuado, o ante un flujo de diarrea masivo superior a diez mililitros por kilo por hora."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El rechazo persistente a beber la solución por fatiga extrema o sabor salino también constituye un criterio de falla para la administración oral espontánea."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Antes de recurrir a la vía endovenosa, la mejor estrategia es instalar una sonda nasogástrica e iniciar gastroclisis continua a veinte mililitros por kilo por hora, logrando excelente tolerancia gástrica."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La infusión gástrica continua evita la sobredistensión del estómago y suprime el reflejo del vómito, permitiendo rehidratar con éxito por vía digestiva sin someter al niño a punciones venosas dolorosas."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El Plan C está reservado para la deshidratación severa con pérdida mayor al diez por ciento del peso, presencia de letargia o coma, o signos clínicos de choque circulatorio hipovolémico."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La solución cristaloide de elección es el Ringer Lactato por su balance electrolítico fisiológico y aporte de buffer, utilizándose suero fisiológico al cero coma nueve por ciento como alternativa universal."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si el paciente ingresa en shock descompensado se administra de inmediato un bolo rápido de suero fisiológico a veinte mililitros por kilo en diez a quince minutos antes de calcular el resto del plan."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La pauta total de cien mililitros por kilo se entrega en seis horas en menores de un año, y en tres horas en niños mayores, pasando a vía oral tan pronto el paciente recupere la conciencia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El estado neurológico varía desde alerta en el niño normal, pasando por irritabilidad en el moderado, hasta letargia o coma en el severo."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Los ojos y lágrimas muestran sequedad progresiva, con enoftalmo marcado y ausencia total de secreción lagrimal en el cuadro grave."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Al ofrecer agua, el niño con deshidratación moderada bebe con desesperada avidez, mientras que el severo no logra tragar."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El pliegue cutáneo abdominal se recupera de inmediato en el niño sano, y tarda más de dos segundos en desaparecer en el paciente grave."
+    },
+    {
+      "file": "s08_g04",
+      "text": "La conducta es el Plan A ambulatorio para prevenir, Plan B con sales orales supervisadas por cuatro horas, y Plan C endovenoso urgente."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La loperamida y los fármacos modificadores del tránsito intestinal están terminantemente contraindicados en pediatría por provocar íleo paralítico, perforación intestinal y megacolon tóxico."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Los antiespasmódicos y adsorbentes carecen de utilidad clínica demostrada y aumentan los efectos adversos sin acortar la duración del cuadro diarreico."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las bebidas de fantasía, jugos industriales y bebidas deportivas para adultos están contraindicadas porque su elevada concentración de azúcar y escaso sodio empeoran el arrastre osmótico de agua."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Las sales de rehidratación oral de baja osmolaridad presentan concentraciones balanceadas de sodio y glucosa que aprovechan el cotransporte epitelial de solutos para arrastrar agua al torrente sanguíneo."
+    },
+    {
+      "file": "s10_g00",
+      "text": "El síndrome hemolítico urémico debuta con anemia hemolítica microangiopática con abundantes esquistocitos en frotis por fragmentación eritrocitaria en el endotelio capilar inflamado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La tríada se completa con trombocitopenia por agregación de plaquetas en el lecho vascular renal y falla renal aguda con oliguria, edema facial e hipertensión arterial severa."
+    },
+    {
+      "file": "s10_g02",
+      "text": "En el EUNACOM es una regla de oro: ante una diarrea sanguinolenta con sospecha de Escherichia coli enterohemorrágica está estrictamente contraindicado prescribir antibióticos, ya que multiplican la liberación de toxina Shiga."
+    },
+    {
+      "file": "s10_g03",
+      "text": "El tratamiento es exclusivamente de soporte: no se deben transfundir plaquetas de rutina porque avivan la microtrombosis, reservando la transfusión de glóbulos rojos empacados solo para anemia sintomática profunda."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Los antibióticos en gastroenteritis pediátrica se restringen a cuadros de disentería con fiebre muy alta y afectación sistémica severa por Shigella, o en sepsis neonatal comprobada."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En disentería por Shigella el tratamiento de elección es azitromicina oral por tres a cinco días o cefalosporinas de tercera generación en niños hospitalizados con intolerancia a la vía digestiva."
+    },
+    {
+      "file": "s11_g02",
+      "text": "La detección de Clostridioides difficile en heces de lactantes menores de dos años representa casi siempre una colonización asintomática inocua que no requiere metronidazol ni vancomicina."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Si un niño con diarrea acuosa por rotavirus presenta detección positiva para Clostridium difficile, la conducta médica correcta es mantener la hidratación oral sin indicar antibióticos específicos."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Iniciamos la evaluación clasificando al paciente en uno de los tres estados de hidratación según la escala de la OMS."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Con paciente hidratado indicamos Plan A en casa reponiendo pérdidas con sales orales y manteniendo la comida habitual."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En deshidratación moderada aplicamos Plan B en sala con cincuenta a cien mililitros por kilo de sales en cuatro horas."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si el niño se recupera pasa a Plan A y se da de alta con control médico ambulatorio."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Ante vómitos repetidos instalamos sonda nasogástrica para gastroclisis continua a veinte mililitros por kilo por hora."
+    },
+    {
+      "file": "s12_g05",
+      "text": "En deshidratación severa se canaliza vía venosa urgente con Ringer Lactato o bolo de suero fisiológico si hay choque."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Niño de dos años con gastroenteritis de veinticuatro horas vómitos y diarrea sin sangre mucosas hidratadas llenado capilar normal y diuresis conservada."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el manejo más adecuado?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "La opción A hospitalización y suero endovenoso. La B sales de rehidratación oral fraccionada en domicilio. La C ayuno digestivo absoluto. La D antibióticos empíricos. La E loperamida oral. Reconoce el estado de hidratación. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. Por encontrarse clínicamente hidratado corresponde el Plan A con sales de rehidratación oral fraccionadas en casa."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Niño de dieciocho meses con gastroenteritis acuosa febril hidratado en buen estado con deposiciones positivas para Rotavirus y Clostridioides difficile."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "La opción A probar tolerancia y rehidratación por vía oral. La B suero endovenoso. La C metronidazol oral. La D ceftriaxona. La E vancomicina endovenosa. Distingue infección de colonización. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la A. En lactantes Clostridium suele ser una colonización asintomática y el cuadro se explica por Rotavirus requiriendo solo hidratación oral."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Lactante de siete meses hospitalizado por bronquiolitis que al quinto día presenta fiebre y diarrea acuosa abundante de olor ácido sin sangre."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el agente etiológico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "La opción A Escherichia coli. La B Shigella. La C Clostridioides difficile. La D Rotavirus. La E Enterovirus. Identifica el virus nosocomial clásico. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la D. El rotavirus es la principal causa de diarrea aguda nosocomial acuosa y ácida en salas pediátricas."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Lactante de diez meses con diarrea acuosa de tres días que mejora tras rehidratación oral con electrolitos y hemograma normales."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el diagnóstico etiológico más probable?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "La opción A gastroenteritis por Salmonella. La B gastroenteritis por Rotavirus. La C infección urinaria. La D enfermedad celíaca. La E fibrosis quística. Reconoce la causa viral más común. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B. Rotavirus es la causa más frecuente de diarrea acuosa benigna autolimitada en lactantes pequeños."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Niño de tres años con diarrea francamente sanguinolenta dolor abdominal intenso y sospecha de Escherichia coli productora de toxina Shiga."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es la conducta médica respecto al uso de antibióticos en este paciente?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "La opción A ciprofloxacino oral. La B contraindicar formalmente los antibióticos por riesgo de inducir síndrome hemolítico urémico. La C metronidazol. La D ceftriaxona intramuscular. La E ampicilina con loperamida. Recuerda la liberación de toxina. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "La respuesta correcta es la B. Los antibióticos están estrictamente contraindicados porque lisan la bacteria y liberan toxina Shiga desatando síndrome hemolítico urémico."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Recuerden la escala de la OMS: Plan A en casa para reponer pérdidas; Plan B con cincuenta a cien mililitros por kilo de sales en cuatro horas; y Plan C parenteral si hay choque o deshidratación grave."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Si el niño vomita reiteradamente en Plan B recurran a la gastroclisis por sonda nasogástrica a veinte mililitros por kilo por hora antes de canalizar una vía venosa."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Nunca prescriban loperamida en niños por el peligro mortal de íleo paralítico y megacolon tóxico."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Los antibióticos están prohibidos ante sospecha de Escherichia coli enterohemorrágica. Si te llevas una sola idea de hoy: la rehidratación oral con sales de baja osmolaridad es el pilar absoluto, y los antibióticos en disentería aumentan el riesgo de síndrome hemolítico urémico. Nos vemos en la próxima clase."
+    }
+  ]
+}
