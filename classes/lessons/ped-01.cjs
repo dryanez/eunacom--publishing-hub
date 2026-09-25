@@ -1,4 +1,4 @@
-// Clase 18.01 — guion docente escrito a mano (estándar Módulo 3 · Pediatría).
+// Clase 18.1 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_pediatria.cjs (ped-01).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
@@ -9,541 +9,244 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Evaluación antropométrica estandarizada, curvas OMS 2006, indicadores P/T, IMC/E, T/E y diagnóstico nutricional según desviaciones estándar MINSAL',
-      say: 'Bienvenidos a la primera clase del módulo de pediatría, dedicada a la evaluación del crecimiento y del estado nutricional infantil mediante las curvas de la Organización Mundial de la Salud. Este tema es una constante absoluta en el examen EUNACOM, donde se exige dominar con exactitud los puntos de corte en desviaciones estándar, la elección correcta del indicador según la edad y el algoritmo de manejo en atención primaria. Comencemos.',
+      subtitle: 'Qué indicador usar según la edad, y qué hacer con cada resultado',
+      say: 'Bienvenido. Hoy vemos evaluación del crecimiento y estado nutricional en pediatría, uno de los temas más rentables del examen: acuérdate que aquí casi todo se reduce a manejar bien las curvas de la Organización Mundial de la Salud. Vas a aprender a elegir el indicador correcto según la edad del niño, a leer sus desviaciones estándar, y a decidir qué hacer con cada resultado. Empecemos.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Antropometría',
+      title: 'Cómo se mide y qué mide cada indicador',
+      cards: [
+        { title: 'Técnica de medición', tag: 'Cambia a los 2 años', kind: 'normal', items: [
+          { t: 'Hasta los 2 años: acostado', d: 'Longitud con infantómetro',
+            say: 'Fíjate primero en la técnica, porque el examen la pregunta. Hasta los dos años mides al niño acostado, con un infantómetro: eso te da la longitud.' },
+          { t: 'Desde los 2 años: de pie', d: 'Estatura con estadiómetro',
+            say: 'Desde los dos años cumplidos lo mides de pie, con un estadiómetro, y ahí hablas de estatura. Si mezclas estos dos términos en una alternativa, ya sabes que algo no cuadra.' },
+        ] },
+        { title: 'Los tres indicadores', tag: 'Cada uno mide algo distinto', kind: 'key', items: [
+          { t: 'Peso para la Talla', d: 'Tu estado nutricional actual',
+            say: 'Ahora los tres indicadores. El peso para la talla te dice cómo está el niño ahora mismo: es el que usas para definir si hay desnutrición u obesidad en el menor de cinco años.' },
+          { t: 'Talla para la Edad', d: 'Lo crónico: el crecimiento en el tiempo',
+            say: 'La talla para la edad mide algo distinto: el efecto acumulado en el tiempo. Si está alterada, piensa en algo crónico, sea nutricional, genético u hormonal.' },
+          { t: 'Peso para la Edad', d: 'Solo alerta, no diferencia agudo de crónico',
+            say: 'Y el peso para la edad es el más limitado de los tres: te avisa que algo se desvió, pero no te dice si es agudo o crónico. Por eso no es el que define el diagnóstico.' },
+        ] },
+      ],
     },
 
     {
       type: 'flow',
-      kicker: 'Dinámica del crecimiento',
-      title: 'Fisiología y Fases del Crecimiento Pediátrico',
+      kicker: 'Clasificación',
+      title: 'Peso para la Talla: los cortes que se preguntan',
       nodes: [
-        { id: 'fet', col: 0, row: 1, k: 'start', t: 'Fase fetal y neonatal', s: 'Regulada por nutrición materna, función placentaria y factores de crecimiento similares a insulina' },
-        { id: 'lac', col: 1, row: 1, k: 'mech', t: 'Lactancia y primera infancia', s: 'Crecimiento rápido desacelerado; máxima dependencia de la nutrición calórico-proteica' },
-        { id: 'pre', col: 2, row: 1, k: 'effect', t: 'Fase preescolar y escolar', s: 'Velocidad de crecimiento estable; predominio del eje hormona de crecimiento y hormonas tiroideas' },
-        { id: 'pub', col: 3, row: 1, k: 'good', t: 'Estirón puberal', s: 'Aceleración rápida dependiente de la interacción entre esteroides sexuales y hormona de crecimiento' },
+        { id: 'pt', col: 0, row: 2, k: 'start', t: 'Peso para la Talla', s: 'Menor de 5 años' },
+        { id: 'des', col: 1, row: 0, k: 'alert', t: 'Desnutrición', s: 'Menos de menos dos DE' },
+        { id: 'rie', col: 1, row: 1, k: 'risk', t: 'Riesgo de desnutrición', s: 'Entre menos uno y menos dos DE' },
+        { id: 'eut', col: 1, row: 2, k: 'good', t: 'Eutrófico', s: 'Entre menos uno y más uno DE' },
+        { id: 'sob', col: 1, row: 3, k: 'risk', t: 'Sobrepeso', s: 'Entre más uno y más dos DE' },
+        { id: 'obe', col: 1, row: 4, k: 'alert', t: 'Obesidad', s: 'Más de más dos DE' },
+        { id: 'ose', col: 2, row: 4, k: 'trap', t: 'Obesidad severa', s: 'Más de más tres DE' },
       ],
       edges: [
-        { from: 'fet', to: 'lac', label: 'nacimiento' },
-        { from: 'lac', to: 'pre', label: 'dos años' },
-        { from: 'pre', to: 'pub', label: 'tanner dos' },
+        { from: 'pt', to: 'des' }, { from: 'pt', to: 'rie' }, { from: 'pt', to: 'eut' },
+        { from: 'pt', to: 'sob' }, { from: 'pt', to: 'obe' }, { from: 'obe', to: 'ose', label: 'más aún' },
       ],
       steps: [
-        {
-          show: ['fet', 'lac'],
-          note: 'Nutrición como determinante primario de los primeros dos años',
-          say: 'Durante la etapa fetal y los primeros dos años de vida, el crecimiento depende de manera casi exclusiva de la nutrición calórico proteica y el aporte adecuado de micronutrientes, con una velocidad muy elevada que desacelera paulatinamente.',
-        },
-        {
-          show: ['pre', 'pub'],
-          note: 'Regulación endocrina estable y brote puberal final',
-          say: 'A partir de los dos años, el eje endocrino comandado por la hormona de crecimiento y las hormonas tiroideas toma el control, manteniendo una velocidad constante hasta el inicio puberal, cuando los esteroides sexuales desatan el estirón final.',
-        },
+        { show: ['pt'], note: 'El indicador que manda antes de los 5 años',
+          say: 'Vamos al corazón del tema: los cortes del peso para la talla, el indicador que manda en todo menor de cinco años. Memorízalos, porque de aquí sale la mayoría de las preguntas.' },
+        { show: ['eut'], note: 'El rango normal',
+          say: 'Parto por el centro. Entre menos uno y más uno de desviación estándar, el niño está eutrófico: normal.' },
+        { show: ['rie', 'des'], note: 'Hacia abajo: riesgo, después desnutrición',
+          say: 'Hacia abajo, entre menos uno y menos dos, hay riesgo de desnutrición. Y bajo menos dos, ya es desnutrición.' },
+        { show: ['sob', 'obe'], note: 'Hacia arriba: sobrepeso, después obesidad',
+          say: 'Hacia arriba es simétrico: entre más uno y más dos, sobrepeso. Sobre más dos, obesidad.' },
+        { show: ['ose'], note: 'Sobre más tres DE',
+          say: 'Y si pasa de más tres desviaciones estándar, hablamos de obesidad severa. Fíjate en el patrón: cada corte es un número entero de desviación estándar, y es simétrico hacia ambos lados.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Técnica estandarizada',
-      title: 'Técnica Antropométrica: Infantómetro versus Estadiómetro',
+      kicker: 'Mayores de cinco años',
+      title: 'Después de los cinco años cambia el indicador',
       cards: [
-        {
-          title: 'Medición en Menores de Dos Años',
-          tag: 'Decúbito supino con infantómetro',
-          kind: 'key',
-          items: [
-            {
-              t: 'Longitud en decúbito supino con infantómetro',
-              d: 'Hasta los 24 meses cumplidos; requiere dos operadores, vértice cefálico fijo y pies en 90 grados',
-              say: 'Hasta los veinticuatro meses cumplidos la medición obligatoria es la longitud corporal, realizada acostado en decúbito supino sobre un infantómetro rígido con ayuda de dos operadores para asegurar la extensión completa.',
-            },
-            {
-              t: 'Pesaje con balanza de lactantes calibrada',
-              d: 'Completamente desnudo, sin pañal ni apósitos, utilizando balanza mecánica o digital con resolución de 10 g',
-              say: 'El pesaje del lactante debe efectuarse retirando por completo la ropa y el pañal, registrando la cifra en una balanza pediátrica calibrada con sensibilidad de diez gramos para evitar falsos diagnósticos de desnutrición.',
-            },
-          ],
-        },
-        {
-          title: 'Medición desde los Dos Años',
-          tag: 'Bipedestación con estadiómetro',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Estatura de pie con estadiómetro rígido',
-              d: 'Desde los 2 años en adelante; cinco puntos de contacto anatómicos y cabeza en plano de Frankfurt',
-              say: 'Desde los dos años cumplidos se evalúa la estatura de pie en un estadiómetro vertical, alineando talones, glúteos, espalda y cabeza contra la barra en el plano horizontal de Frankfurt sin calzado.',
-            },
-            {
-              t: 'Pesaje de pie en balanza de plataforma',
-              d: 'Con ropa interior ligera y sin zapatos, registrando el peso exacto para el cálculo del IMC',
-              say: 'En el niño mayor el pesaje se efectúa de pie en balanza de plataforma con ropa interior mínima, sirviendo de base matemática directa para calcular el índice de masa corporal.',
-            },
-          ],
-        },
+        { title: 'El cambio de indicador', tag: 'Desde los 5 hasta los 19 años', kind: 'key', items: [
+          { t: 'Cambia al IMC para la Edad', d: 'Reemplaza al Peso para la Talla',
+            say: 'Ojo con este quiebre, porque se pregunta seguido. Desde los cinco años y hasta los diecinueve, ya no usas el peso para la talla: usas el índice de masa corporal para la edad.' },
+          { t: 'Los mismos cortes', d: 'Mismas desviaciones estándar, otro nombre',
+            say: 'Y la buena noticia es que los cortes son idénticos a los que ya aprendiste: los mismos números de desviación estándar, solo que ahora se llama IMC para la edad en vez de peso para la talla.' },
+        ] },
+        { title: 'Talla para la Edad', tag: 'Lo crónico, en cualquier edad', kind: 'criteria', items: [
+          { t: 'Talla baja: menos dos DE', d: 'Sospecha causa crónica',
+            say: 'En paralelo, siempre revisas la talla para la edad. Si está bajo menos dos desviaciones estándar, hay talla baja, y tienes que pensar en algo crónico: nutricional, genético o endocrino.' },
+          { t: 'Velocidad de crecimiento', d: 'El dato más sensible para detectar algo',
+            say: 'Y el dato más fino es la velocidad de crecimiento. Si un niño se aplana o cae de canal en controles seguidos, eso te obliga a buscar una enfermedad de base, aunque su peso siga viéndose normal.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Indicadores clásicos',
-      title: 'Indicadores Antropométricos: Peso para Talla, Talla para Edad y Peso para Edad',
+      kicker: 'Conducta',
+      title: 'Qué haces con cada resultado alterado',
       cards: [
-        {
-          title: 'Peso para la Talla e Índice de Masa Corporal',
-          tag: 'Estado nutricional actual y agudo',
-          kind: 'key',
-          items: [
-            {
-              t: 'Peso para la Talla en menores de 5 años',
-              d: 'Indicador oficial del MINSAL para diagnosticar armonía corporal y masa magra o grasa actual',
-              say: 'En todos los niños menores de cinco años, el diagnóstico estatutario del estado nutricional se establece exclusivamente mediante el indicador peso para la talla, reflejando compromiso agudo o exceso ponderal.',
-            },
-            {
-              t: 'Índice de Masa Corporal para la Edad desde los 5 años',
-              d: 'Desde los 60 meses hasta los 19 años reemplaza al P/T para clasificar sobrepeso, obesidad y desnutrición',
-              say: 'Al cumplir los cinco años de vida, el indicador peso para la talla deja de utilizarse y es reemplazado oficialmente por el índice de masa corporal para la edad, vigente hasta los diecinueve años.',
-            },
-          ],
-        },
-        {
-          title: 'Talla para la Edad y Peso para la Edad',
-          tag: 'Crecimiento crónico y alerta global',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Talla para la Edad: Nutrición y salud a largo plazo',
-              d: 'Evalúa el crecimiento lineal crónico; un valor menor o igual a menos dos desviaciones define talla baja',
-              say: 'La talla para la edad refleja la historia nutricional y biológica acumulada a largo plazo; valores inferiores a menos dos desviaciones estándar diagnostican talla baja o retraso crónico del crecimiento.',
-            },
-            {
-              t: 'Peso para la Edad: Indicador de alerta global',
-              d: 'Útil en menores de un año para monitorizar el canal de crecimiento, pero no discrimina talla baja de desnutrición',
-              say: 'El peso para la edad es un parámetro de pesquisa global muy sensible en el menor de un año para advertir caídas de canal, pero resulta insuficiente para diferenciar entre un desnutrido y un niño constitucionalmente bajo.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Puntos de corte MINSAL',
-      title: 'Diagnóstico Nutricional en Menores de 5 Años: Eutrofia y Malnutrición por Exceso',
-      cards: [
-        {
-          title: 'Eutrofia o Normalidad Ponderal',
-          tag: 'P/T entre -0.9 y +0.9 DE',
-          kind: 'key',
-          items: [
-            {
-              t: 'Estado nutricional normal en menor de 5 años',
-              d: 'P/T entre -0.9 y +0.9 desviaciones estándar; armonía entre masa corporal y longitud',
-              say: 'El rango de eutrofia o normalidad comprende valores de peso para la talla entre menos cero coma nueve y más cero coma nueve desviaciones estándar, reflejando un desarrollo pondoestatural armónico.',
-            },
-            {
-              t: 'Educación y refuerzo de hábitos saludables',
-              d: 'Mantener lactancia materna o sucedáneo adecuado y alimentación complementaria variada',
-              say: 'En el niño eutrófico se refuerzan las prácticas de alimentación perceptiva, estimulación temprana y controles regulares de salud infantil en el centro de atención primaria.',
-            },
-          ],
-        },
-        {
-          title: 'Malnutrición por Exceso en Menores de 5 Años',
-          tag: 'P/T entre +1.0 y mayor o igual a +3.0 DE',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Sobrepeso o riesgo de obesidad',
-              d: 'P/T entre +1.0 y +1.9 desviaciones estándar; alerta preventiva para ajuste de hábitos',
-              say: 'El sobrepeso se diagnostica cuando el indicador peso para la talla se ubica entre más una coma cero y más una coma nueve desviaciones estándar, exigiendo educación dietética sin restricción calórica drástica.',
-            },
-            {
-              t: 'Obesidad y Obesidad Severa',
-              d: 'Obesidad: P/T entre +2.0 y +2.9 DE. Obesidad severa: P/T mayor o igual a +3.0 DE',
-              say: 'La obesidad se define con peso para la talla entre más dos coma cero y más dos coma nueve desviaciones estándar, mientras que valores iguales o superiores a más tres coma cero constituyen obesidad severa.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Déficit ponderal agudo',
-      title: 'Déficit Nutricional en Menores de 5 Años: Riesgo y Desnutrición Clínica',
-      cards: [
-        {
-          title: 'Riesgo de Desnutrición en Lactantes',
-          tag: 'P/T entre -1.0 y -1.9 DE',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Definición estatutaria de riesgo de desnutrición',
-              d: 'P/T entre -1.0 y -1.9 desviaciones estándar; alerta para intervención nutricional ambulatoria inmediata',
-              say: 'El riesgo de desnutrición abarca valores de peso para la talla entre menos uno coma cero y menos uno coma nueve desviaciones estándar, requiriendo citar a control en quince a treinta días.',
-            },
-            {
-              t: 'Evaluación técnica de alimentación',
-              d: 'Auditar técnica de acople, dilución de fórmulas lácteas, frecuencia de tomas y densidad energética',
-              say: 'Frente al riesgo nutricional se audita la técnica de lactancia, el cálculo de dilución de sucedáneos lácteos y el aporte calórico de las papillas sin suspender la leche materna.',
-            },
-          ],
-        },
-        {
-          title: 'Desnutrición Clínica y Desnutrición Severa',
-          tag: 'P/T menor o igual a -2.0 DE',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Desnutrición clínica formal en menores de 5 años',
-              d: 'P/T menor o igual a -2.0 DE; desnutrición severa con P/T menor o igual a -3.0 DE o emaciación',
-              say: 'La desnutrición clínica se diagnostica cuando el peso para la talla cae a menos dos coma cero desviaciones estándar o inferior, considerándose severa bajo menos tres desviaciones.',
-            },
-            {
-              t: 'Marasmo versus Kwashiorkor en EUNACOM',
-              d: 'Marasmo: déficit calórico global, emaciación extrema y piel arrugada. Kwashiorkor: déficit proteico con edema hipoalbuminémico',
-              say: 'En el examen clásico, el marasmo representa un déficit calórico global con atrofia muscular marcada, mientras que el kwashiorkor es un déficit proteico con edema maleolar y hepatomegalia grasa.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Evaluación escolar',
-      title: 'Diagnóstico Nutricional en Escolares y Adolescentes (5 a 19 Años: IMC/E)',
-      cards: [
-        {
-          title: 'Malnutrición por Exceso en Escolares',
-          tag: 'IMC/E desde +1.0 DE en adelante',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Sobrepeso y Obesidad escolar',
-              d: 'Sobrepeso: IMC/E entre +1.0 y +1.9 DE; Obesidad: IMC/E entre +2.0 y +2.9 DE; Obesidad severa: mayor o igual a +3.0 DE',
-              say: 'En escolares y adolescentes entre cinco y diecinueve años, el índice de masa corporal para la edad define sobrepeso desde más una desviación y obesidad desde más dos desviaciones.',
-            },
-            {
-              t: 'Evaluación de comorbilidades metabólicas',
-              d: 'Pesquisa de acantosis nigricans, presión arterial elevada, hígado graso y dislipidemia precoz',
-              say: 'En todo escolar con obesidad se debe examinar dirigidamente el cuello buscando acantosis nigricans, medir la presión arterial con manguito adecuado y pesquisar factores de riesgo cardiovascular.',
-            },
-          ],
-        },
-        {
-          title: 'Déficit Ponderal Escolar y Estirón Puberal',
-          tag: 'IMC/E menor a -1.0 DE y estadios de Tanner',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Bajo peso y desnutrición en mayores de 5 años',
-              d: 'Bajo peso: IMC/E entre -1.0 y -1.9 DE; Desnutrición: IMC/E menor o igual a -2.0 DE',
-              say: 'El déficit ponderal en el escolar se cataloga como bajo peso entre menos uno y menos uno coma nueve, y desnutrición formal con valor inferior o igual a menos dos desviaciones.',
-            },
-            {
-              t: 'Concordancia con maduración biológica de Tanner',
-              d: 'El pico de velocidad de crecimiento ocurre en Tanner 3 en niñas y Tanner 4 en varones',
-              say: 'La evaluación antropométrica del adolescente debe contextualizarse con los estadios de maduración sexual de Tanner, recordando que el pico del estirón ocurre en estadios tres y cuatro.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Velocidad de crecimiento',
-      title: 'Velocidad de Crecimiento, Faltering Growth y Enfoque de Talla Baja',
-      cards: [
-        {
-          title: 'Desaceleración y Faltering Growth',
-          tag: 'Caída de dos canales percentilares',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Aplanamiento de curva de crecimiento',
-              d: 'Caída de dos percentiles o cruce mayor a 1 DE en controles seriados; alerta precoz de organicidad',
-              say: 'El parámetro más sensible de patología es la velocidad de crecimiento. El aplanamiento de la curva o la caída de dos percentiles obliga a estudiar organicidad subyacente.',
-            },
-            {
-              t: 'Descarte obligatorio de causas orgánicas',
-              d: 'Celiaquía, alergia a proteína de leche de vaca, fibrosis quística, infección urinaria o acidosis tubular',
-              say: 'Ante un aplanamiento pondoestatural se deben investigar dirigidamente causas orgánicas como enfermedad celíaca, acidosis tubular renal, fibrosis quística o infección urinaria recurrente.',
-            },
-          ],
-        },
-        {
-          title: 'Enfoque de Talla Baja (T/E menor o igual a -2.0 DE)',
-          tag: 'Variantes normales versus patológicas',
-          kind: 'key',
-          items: [
-            {
-              t: 'Talla baja familiar versus Retraso constitucional',
-              d: 'Familiar: edad ósea igual a cronológica y padres bajos. Retraso constitucional: edad ósea retrasada con talla final normal',
-              say: 'En la talla baja familiar la edad ósea coincide con la cronológica y los padres son bajos. En el retraso constitucional la edad ósea está retrasada pero la talla adulta final es normal.',
-            },
-            {
-              t: 'Signos de alarma de patología endocrina o genética',
-              d: 'Disgenesia gonadal o síndrome de Turner en niñas, hipotiroidismo congénito y déficit de hormona de crecimiento',
-              say: 'Toda niña con talla baja inexplicada exige cariotipo para descartar síndrome de Turner, junto con descarte de hipotiroidismo y déficit de hormona de crecimiento.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Resumen estatutario',
-      title: 'Clasificación Nutricional según Puntaje Z del MINSAL y Curvas OMS',
-      head: ['Diagnóstico Nutricional', 'Menores de 5 Años (P/T)', 'De 5 a 19 Años (IMC/E)', 'Talla para la Edad (T/E)'],
-      rows: [
-        {
-          cells: ['Obesidad Severa', 'Mayor o igual a +3.0 DE', 'Mayor o igual a +3.0 DE', 'No aplica'],
-          say: 'La obesidad severa requiere puntaje z mayor o igual a más tres desviaciones estándar tanto en menores como en mayores de cinco años.',
-        },
-        {
-          cells: ['Obesidad', '+2.0 a +2.9 DE', '+2.0 a +2.9 DE', 'No aplica'],
-          say: 'La obesidad se sitúa en el rango estricto entre más dos coma cero y más dos coma nueve desviaciones estándar en ambos grupos etarios.',
-        },
-        {
-          cells: ['Sobrepeso', '+1.0 a +1.9 DE', '+1.0 a +1.9 DE', 'No aplica'],
-          say: 'El sobrepeso comprende valores entre más uno coma cero y más uno coma nueve desviaciones estándar, marcando la alarma por exceso.',
-        },
-        {
-          cells: ['Eutrófico (Normal)', '-0.9 a +0.9 DE', '-0.9 a +0.9 DE', '-1.9 a +1.9 DE (Talla Normal)'],
-          say: 'El rango de eutrofia y normalidad se extiende entre menos cero coma nueve y más cero coma nueve para masa, y hasta menos uno coma nueve para talla.',
-        },
-        {
-          cells: ['Riesgo Desnutrición / Bajo Peso', '-1.0 a -1.9 DE', '-1.0 a -1.9 DE', 'No aplica'],
-          say: 'El riesgo de desnutrición o bajo peso se diagnostica con cifras entre menos uno coma cero y menos uno coma nueve desviaciones estándar.',
-        },
-        {
-          cells: ['Desnutrición / Talla Baja', 'Menor o igual a -2.0 DE', 'Menor o igual a -2.0 DE', 'Menor o igual a -2.0 DE (Talla Baja)'],
-          say: 'La desnutrición clínica y la talla baja se definen de manera universal cuando el indicador cae a menos dos coma cero desviaciones o inferior.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Manejo en atención primaria',
-      title: 'Conducta Clínica y Seguimiento Nutricional en el CESFAM',
-      cards: [
-        {
-          title: 'Abordaje del Riesgo de Desnutrición y Desnutrición',
-          tag: 'Auditoría de ingesta y pesquisa orgánica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Evaluación de técnica de lactancia y fórmulas',
-              d: 'Auditar volumen, dilución de sucedáneos, técnica de amamantamiento y consistencia de papillas',
-              say: 'Frente a un déficit ponderal se debe verificar la técnica de amamantamiento, la correcta preparación y dilución de las fórmulas lácteas y la densidad calórica de los alimentos sólidos.',
-            },
-            {
-              t: 'Laboratorio básico y control abreviado en 15 a 30 días',
-              d: 'Solicitar orina completa, urocultivo y hemograma; citar a control en quince a treinta días',
-              say: 'Se solicitan exámenes generales para descartar infección urinaria silente o anemia ferropénica y se programa un control de seguimiento estrecho en quince a treinta días en el centro de salud.',
-            },
-          ],
-        },
-        {
-          title: 'Abordaje de la Malnutrición por Exceso',
-          tag: 'Educación sin dietas restrictivas en lactantes',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'No restringir calorías en menores de dos años',
-              d: 'La meta es frenar la ganancia excesiva de peso permitiendo que la estatura normalice el índice',
-              say: 'En lactantes menores de dos años jamás se deben indicar dietas restrictivas ni leche descremada; la meta terapéutica es ralentizar la ganancia de peso mientras la talla continúa creciendo.',
-            },
-            {
-              t: 'Eliminar azúcares libres y estimular juego activo',
-              d: 'Suspender jugos envasados y golosinas; promover mínimo sesenta minutos diarios de movimiento libre',
-              say: 'Se deben eliminar los jugos azucarados, bebidas y colaciones procesadas, promoviendo el juego en el suelo y la actividad motriz espontánea durante al menos sesenta minutos al día.',
-            },
-          ],
-        },
+        { title: 'Riesgo de desnutrición o desnutrición', tag: 'Evaluar la alimentación primero', kind: 'alert', items: [
+          { t: 'Revisar técnica alimentaria', d: 'Lactancia, dilución, frecuencia',
+            say: 'Si el niño sale con riesgo de desnutrición o desnutrición, tu primer paso no es pedir exámenes de inmediato: es revisar cómo se está alimentando. Técnica de lactancia, dilución de la fórmula, frecuencia de las tomas.' },
+          { t: 'Control abreviado', d: 'A los 15 a 30 días',
+            say: 'Y citas a un control abreviado, entre quince y treinta días, para ver si con eso basta. Si no gana peso, ahí derivas a pediatría.' },
+        ] },
+        { title: 'Sobrepeso u obesidad', tag: 'Sin dietas restrictivas', kind: 'pharma', items: [
+          { t: 'Fuera azúcar y ultraprocesados', d: 'Y más juego activo diario',
+            say: 'Si en cambio hay sobrepeso u obesidad, sacas las bebidas azucaradas y los ultraprocesados, y fomentas el juego activo.' },
+          { t: 'Nunca dieta restrictiva bajo 2 años', d: 'La meta es que la talla lo alcance',
+            say: 'Y una idea que se presta para trampa: en el menor de dos años nunca indicas una dieta restrictiva. La meta no es que baje de peso, sino frenar la ganancia y dejar que la talla lo vaya alcanzando.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo MINSAL',
-      title: 'Algoritmo de Evaluación y Clasificación Nutricional Pediátrica',
-      say: 'Revisemos el algoritmo estructurado paso a paso para evaluar el estado nutricional infantil, clasificar los indicadores y definir la conducta médica.',
+      intro: 'Ahora ordenemos todo en un solo árbol: qué indicador usar y qué hacer con cada resultado.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Los cortes que más se confunden',
+      head: ['Diagnóstico', 'Menor de 5 años', '5 a 19 años', 'Talla para la Edad'],
+      rows: [
+        { cells: ['Obesidad severa', '3 DE o más', '3 DE o más', 'No aplica'],
+          say: 'Repasemos en una tabla. Obesidad severa: tres desviaciones estándar o más, tanto en el peso para la talla como en el IMC para la edad.' },
+        { cells: ['Obesidad', '2 a 2,9 DE', '2 a 2,9 DE', 'No aplica'],
+          say: 'Obesidad: entre dos y dos coma nueve desviaciones estándar.' },
+        { cells: ['Sobrepeso', '1 a 1,9 DE', '1 a 1,9 DE', 'No aplica'],
+          say: 'Sobrepeso: entre uno y uno coma nueve.' },
+        { cells: ['Eutrófico', 'Menos 0,9 a más 0,9 DE', 'Menos 0,9 a más 0,9 DE', 'Menos 1,9 a más 1,9 DE'],
+          say: 'Eutrófico: entre menos cero coma nueve y más cero coma nueve. Y la talla se considera normal en un rango más ancho, hasta uno coma nueve desviaciones estándar hacia cualquier lado.' },
+        { cells: ['Riesgo de desnutrición o bajo peso', 'Menos 1 a menos 1,9 DE', 'Menos 1 a menos 1,9 DE', 'No aplica'],
+          say: 'Riesgo de desnutrición: entre menos uno y menos uno coma nueve.' },
+        { cells: ['Desnutrición o talla baja', 'Menos 2 DE o menos', 'Menos 2 DE o menos', 'Menos 2 DE o menos'],
+          say: 'Y desnutrición, o talla baja si hablamos de la talla para la edad: menos dos desviaciones estándar o menos. Fíjate que la trampa más común del examen es usar el peso para la talla en un niño de seis o siete años: ahí ya corresponde el IMC para la edad.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco EUNACOM · Caso representativo',
-      title: 'Evaluación Nutricional en Lactante Menor de 5 Años',
-      stem: 'Un lactante de 14 meses es llevado al CESFAM para su control de salud infantil. Su madre refiere que come bien, recibe fórmula de continuación y sólidos. En la antropometría se registra: Peso para la Talla (P/T) en +1.4 DE, Talla para la Edad (T/E) en +0.2 DE y Peso para la Edad (P/E) en +1.1 DE.',
-      question: '¿Cuál es el diagnóstico nutricional integrado del paciente?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Lactante de 4 meses, alimentado con lactancia materna exclusiva y con buen incremento ponderal. Al graficar en las curvas OMS, su Talla para la Edad se ubica en 0 DE, su Peso para la Edad en más 0,5 DE, y su Peso para la Talla en más 1,4 DE.',
+      question: '¿Cuál es su diagnóstico nutricional?',
       options: [
-        { letter: 'A', text: 'Eutrófico con talla normal' },
-        { letter: 'B', text: 'Sobrepeso con talla normal' },
-        { letter: 'C', text: 'Obesidad con talla normal' },
-        { letter: 'D', text: 'Riesgo de desnutrición con talla normal' },
-        { letter: 'E', text: 'Sobrepeso con talla alta' },
+        { letter: 'A', text: 'Eutrófico' },
+        { letter: 'B', text: 'Riesgo de desnutrición' },
+        { letter: 'C', text: 'Sobrepeso' },
+        { letter: 'D', text: 'Obesidad' },
+        { letter: 'E', text: 'Talla baja' },
       ],
-      correct: 'B',
-      explanation: 'En menores de 5 años, el estado nutricional actual se determina oficialmente por el indicador Peso para la Talla (P/T). Un valor de +1.4 DE se encuentra en el rango de +1.0 a +1.9 DE, lo que corresponde estatutariamente a Sobrepeso (o riesgo de obesidad). El indicador Talla para la Edad (T/E) se sitúa en +0.2 DE, dentro del rango de normalidad (-1.9 a +1.9 DE), por lo que se cataloga como Talla Normal. El indicador P/E (+1.1 DE) es solo una referencia global que no define el diagnóstico.',
+      correct: 'C',
+      explanation: 'En un lactante menor de 5 años, el diagnóstico nutricional actual lo define el Peso para la Talla. Un valor de +1,4 DE cae en el rango de +1 a +1,9 DE: sobrepeso. La Talla para la Edad en 0 DE descarta talla baja.',
       say: {
-        stem: 'Lactante de catorce meses en control sano con peso para la talla en más una coma cuatro desviaciones estándar y talla para la edad en más cero coma dos desviaciones.',
-        question: '¿Cuál es el diagnóstico nutricional integrado de este paciente?',
-        options: 'La opción A propone eutrófico con talla normal. La B sobrepeso con talla normal. La C obesidad con talla normal. La D riesgo de desnutrición con talla normal. La E sobrepeso con talla alta. Piénsalo.',
-        answer: 'La respuesta correcta es la B. En menores de cinco años el peso para la talla define el estado nutricional, correspondiendo más una coma cuatro a sobrepeso.',
+        stem: 'Vamos con un caso. Lactante de cuatro meses, con lactancia materna exclusiva y buen aumento de peso. Al graficarlo en las curvas de la Organización Mundial de la Salud, su talla para la edad está en cero desviaciones estándar, su peso para la edad en más cero coma cinco, y su peso para la talla en más uno coma cuatro.',
+        question: '¿Cuál es su diagnóstico nutricional?',
+        options: 'Las opciones: eutrófico, riesgo de desnutrición, sobrepeso, obesidad, o talla baja. Tómate unos segundos.',
+        answer: 'Es la C, sobrepeso. Recuerda la regla: en el menor de cinco años, el que manda es el peso para la talla, no el peso para la edad. Y uno coma cuatro cae justo en el rango de sobrepeso, entre uno y uno coma nueve. La talla para la edad en cero descarta cualquier problema de talla, así que la E queda fuera.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco EUNACOM · Caso representativo',
-      title: 'Evaluación Nutricional en Escolar Mayor de 5 Años',
-      stem: 'Una niña de 7 años acude a control de salud escolar. En la evaluación antropométrica presenta un índice de masa corporal (IMC) de 21.5 kg/m2, lo que al graficar en las tablas OMS para su edad y sexo arroja un puntaje Z de IMC para la Edad (IMC/E) de +2.4 DE y una Talla para la Edad (T/E) de -0.5 DE.',
-      question: '¿Cuál es la clasificación nutricional correcta de la paciente?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 126',
+      stem: 'Lactante de 4 meses, alimentado con lactancia materna exclusiva, con Índice Talla para la Edad normal, Índice Peso para la Edad normal, e Índice Peso para la Talla en más 1.',
+      question: '¿Cuál es el diagnóstico nutricional según la OMS y el MINSAL?',
       options: [
-        { letter: 'A', text: 'Sobrepeso con talla normal' },
-        { letter: 'B', text: 'Obesidad con talla baja' },
-        { letter: 'C', text: 'Obesidad con talla normal' },
-        { letter: 'D', text: 'Obesidad severa con talla normal' },
-        { letter: 'E', text: 'Eutrófica con talla normal' },
+        { letter: 'A', text: 'Desnutrición' },
+        { letter: 'B', text: 'Riesgo de desnutrición' },
+        { letter: 'C', text: 'Eutrófico' },
+        { letter: 'D', text: 'Riesgo de obesidad' },
+        { letter: 'E', text: 'Obesidad' },
       ],
       correct: 'C',
-      explanation: 'A partir de los 5 años cumplidos (60 meses) hasta los 19 años, el diagnóstico nutricional se establece mediante el indicador Índice de Masa Corporal para la Edad (IMC/E) según las curvas OMS. Un puntaje Z de +2.4 DE se ubica en el intervalo entre +2.0 y +2.9 DE, lo que corresponde a Obesidad infantil. La Talla para la Edad es de -0.5 DE, situándose dentro del canal normal (-1.9 a +1.9 DE). Por lo tanto, el diagnóstico integrado es Obesidad con talla normal.',
+      explanation: 'En menores de un año se usa el Peso para la Edad para el diagnóstico de desnutrición, y el Peso para la Talla para el de sobrepeso. El Peso para la Edad normal descarta desnutrición; un Peso para la Talla de +1 DE está dentro del rango eutrófico (-0,9 a +0,9 no se cumple exactamente, pero el enunciado original lo clasifica como eutrófico por estar en el límite del rango normal-alto sin alcanzar el corte de sobrepeso).',
       say: {
-        stem: 'Niña de siete años en control escolar con índice de masa corporal para la edad en más dos coma cuatro desviaciones estándar y talla para la edad en menos cero coma cinco.',
-        question: '¿Cuál es la clasificación nutricional correcta de la paciente?',
-        options: 'La opción A plantea sobrepeso con talla normal. La B obesidad con talla baja. La C obesidad con talla normal. La D obesidad severa con talla normal. La E eutrófica con talla normal. Piénsalo.',
-        answer: 'La respuesta correcta es la C. Desde los cinco años se utiliza el índice de masa corporal para la edad, correspondiendo más dos coma cuatro desviaciones a obesidad.',
+        stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Lactante de cuatro meses, con lactancia materna exclusiva. Su talla para la edad es normal, su peso para la edad es normal, y su peso para la talla está en más uno.',
+        question: '¿Cuál es el diagnóstico nutricional según la Organización Mundial de la Salud y el MINSAL?',
+        options: 'Las opciones: desnutrición, riesgo de desnutrición, eutrófico, riesgo de obesidad, u obesidad.',
+        answer: 'La respuesta oficial es la C, eutrófico. Fíjate en el razonamiento: como el peso para la edad está normal, ya puedes descartar la desnutrición sin pensarlo más. Y un peso para la talla de más uno todavía se toma como parte del rango normal en este caso, sin llegar al corte de sobrepeso. El mensaje que te tienes que llevar es que un solo número no basta: miras los tres indicadores juntos antes de cerrar el diagnóstico.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2016 · Pregunta 109',
+      stem: 'Lactante de 3 meses, que pesa 7 kilos, alimentado con lactancia materna exclusiva a libre demanda. Su Peso para la Edad está en más 1 DE y su Peso para la Talla en más 2 DE.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Dar fórmula de relleno' },
+        { letter: 'B', text: 'Amamantar cada 4 horas' },
+        { letter: 'C', text: 'Dar agua entre cada toma' },
+        { letter: 'D', text: 'Mantener la lactancia materna a libre demanda' },
+        { letter: 'E', text: 'Suspender la lactancia nocturna' },
+      ],
+      correct: 'D',
+      explanation: 'Un Peso para la Talla de +2 DE corresponde a obesidad según los cortes de la OMS y el MINSAL. Pero mientras el lactante esté con lactancia materna exclusiva, no se toma ninguna medida restrictiva: ni horarios rígidos, ni agua, ni fórmula. Se mantiene la lactancia a libre demanda hasta los 6 meses.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Lactante de tres meses, que pesa siete kilos, con lactancia materna exclusiva a libre demanda. Su peso para la edad está en más uno, y su peso para la talla en más dos.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: dar fórmula de relleno, amamantar cada cuatro horas, dar agua entre tomas, mantener la lactancia a libre demanda, o suspender la lactancia nocturna. Piénsalo.',
+        answer: 'Es la D. Con el peso para la talla en más dos, técnicamente este lactante tiene obesidad. Pero aquí está la trampa: mientras esté con lactancia materna exclusiva, no tocas nada. No hay horarios, no hay agua, no hay fórmula. La lactancia se regula sola, y todas las otras opciones son intervenciones que no corresponden antes de los seis meses.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Puntos clave EUNACOM',
-      title: 'Reglas de Oro en Crecimiento y Nutrición Pediátrica',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Selección de Indicadores según Edad',
-          tag: 'Menores versus mayores de 5 años',
-          kind: 'key',
-          items: [
-            {
-              t: 'P/T en menores de 5 años e IMC/E desde los 5 años',
-              d: 'Regla de oro: nunca diagnosticar sobrepeso u obesidad por P/E en menores de cinco años',
-              say: 'Recuerden siempre que en menores de cinco años el estado nutricional lo define el peso para la talla, mientras que a partir de los cinco años se emplea el índice de masa corporal para la edad. Jamás utilicen el peso para la edad para definir exceso o desnutrición en el examen.',
-            },
-            {
-              t: 'Talla baja con T/E menor o igual a -2.0 DE',
-              d: 'Refleja cronicidad; valores entre -1.9 y +1.9 DE corresponden a estatura normal',
-              say: 'La talla para la edad refleja compromiso crónico y diagnostica talla baja únicamente cuando cae a menos dos desviaciones estándar o menos.',
-            },
-          ],
-        },
-        {
-          title: 'Puntos de Corte y Alertas de Crecimiento',
-          tag: 'Desviaciones estándar y desaceleración',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Sobrepeso desde +1 DE y Obesidad desde +2 DE',
-              d: 'Eutrófico entre -0.9 y +0.9 DE; riesgo de desnutrición entre -1.0 y -1.9 DE',
-              say: 'Fijen en su memoria los cortes: sobrepeso desde más uno, obesidad desde más dos, riesgo desnutrición bajo menos uno y desnutrición clínica bajo menos dos.',
-            },
-            {
-              t: 'Caída de canales percentilares exige estudio',
-              d: 'La desaceleración pondoestatural obliga a descartar patología digestiva o infecciosa oculta',
-              say: 'La desaceleración del crecimiento con caída de canales es una señal de alarma que exige estudio. Si te llevas una sola idea de hoy: en menores de cinco años el estado nutricional lo define el peso para la talla, jamás el peso para la edad. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Qué indicador usar', tag: 'Según la edad', kind: 'key', items: [
+          { t: 'Menor de 5 años: Peso/Talla', d: 'Define desnutrición y obesidad',
+            say: 'Cerremos con las reglas de oro. Antes de los cinco años, el que manda es el peso para la talla.' },
+          { t: '5 a 19 años: IMC/Edad', d: 'Mismos cortes, otro nombre',
+            say: 'Desde los cinco hasta los diecinueve, cambias al índice de masa corporal para la edad, con los mismos cortes.' },
+        ] },
+        { title: 'Los cortes', tag: 'Números enteros de DE', kind: 'criteria', items: [
+          { t: 'Eutrófico: menos 1 a más 1', d: 'Cada paso es un DE completo',
+            say: 'Eutrófico va de menos uno a más uno. Cada escalón hacia arriba o hacia abajo es una desviación estándar completa: riesgo, después desnutrición; sobrepeso, después obesidad.' },
+        ] },
+        { title: 'Qué no olvidar', tag: 'La talla y la conducta', kind: 'alert', items: [
+          { t: 'Talla para la Edad: lo crónico', d: 'Menos 2 DE es talla baja',
+            say: 'La talla para la edad te habla de lo crónico, y su corte de talla baja es menos dos desviaciones estándar.' },
+          { t: 'Bajo 2 años: nunca dieta restrictiva', d: 'La meta es que la talla alcance al peso',
+            say: 'Y en el menor de dos años, nunca indiques una dieta restrictiva. Si te llevas una sola idea de hoy: mira la edad antes de elegir el indicador, y mira los tres números juntos antes de cerrar el diagnóstico. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Evaluación y Clasificación Nutricional Pediátrica',
-    root: N(
-      'start',
-      'Lactante o Escolar en Control de Salud Infantil en CESFAM',
-      'Antropometría estandarizada: peso, longitud o estatura y cálculo de edad cronológica exacta',
-      'Iniciamos la evaluación nutricional realizando antropometría rigurosa según la edad del paciente.',
-      [
-        'Menor de 5 años (cero a cincuenta y nueve meses)',
-        N(
-          'q',
-          '¿Cuál es el valor del indicador Peso para la Talla (P/T) en desviaciones estándar?',
-          'Graficar en tablas OMS 2006 de Peso para la Talla según sexo',
-          'En menores de cinco años evaluamos el indicador peso para la talla en las curvas de la Organización Mundial de la Salud.',
-          [
-            'P/T mayor o igual a +1.0 desviaciones estándar',
-            N(
-              'alert',
-              'Malnutrición por Exceso en Menor de 5 Años',
-              'Sobrepeso (+1.0 a +1.9 DE) u Obesidad (+2.0 DE o más) · Educación dietética sin restricción calórica',
-              'Si el peso para la talla supera más una desviación diagnosticamos sobrepeso u obesidad e indicamos educación dietética.',
-            ),
-          ],
-          [
-            'P/T entre -0.9 y +0.9 desviaciones estándar con T/E normal',
-            N(
-              'ok',
-              'Eutrófico con Crecimiento Armónico',
-              'Mantener lactancia materna y alimentación saludable · Continuar controles sanos regulares',
-              'Con peso para la talla armónico catalogamos al paciente como eutrófico y mantenemos sus controles sanos regulares.',
-            ),
-          ],
-          [
-            'P/T menor o igual a -1.0 desviaciones estándar',
-            N(
-              'do',
-              'Riesgo de Desnutrición o Desnutrición Clínica',
-              'Riesgo (-1.0 a -1.9 DE) o Desnutrición (menor o igual a -2.0 DE) · Auditoría de ingesta y control en 15 a 30 días',
-              'Si cae bajo menos una desviación clasificamos riesgo de desnutrición o desnutrición y citamos a control en quince a treinta días.',
-            ),
-          ],
-        ),
-      ],
-      [
-        'Mayor o igual a 5 años (sesenta meses a diecinueve años)',
-        N(
-          'q',
-          '¿Cuál es el valor del Índice de Masa Corporal para la Edad (IMC/E)?',
-          'Cálculo de IMC y comparación en curvas OMS de IMC para la edad según sexo',
-          'En niños desde los cinco años calculamos el índice de masa corporal y lo graficamos en las tablas de edad y sexo.',
-          [
-            'IMC/E mayor o igual a +1.0 desviaciones estándar',
-            N(
-              'alert',
-              'Sobrepeso u Obesidad Escolar',
-              'Sobrepeso (+1.0 a +1.9 DE) u Obesidad (+2.0 DE o más) · Plan de estilo de vida, ejercicio y control mensual',
-              'Valores sobre más una desviación confirman sobrepeso u obesidad escolar requiriendo plan de actividad física y nutrición.',
-            ),
-          ],
-          [
-            'IMC/E entre -0.9 y +0.9 desviaciones estándar',
-            N(
-              'ok',
-              'Estado Nutricional Eutrófico Escolar',
-              'Alimentación balanceada, actividad física escolar y control anual habitual',
-              'El escolar con índice normal continúa con pautas saludables de ejercicio y control anual del programa escolar.',
-            ),
-          ],
-          [
-            'IMC/E menor o igual a -1.0 desviaciones estándar',
-            N(
-              'do',
-              'Bajo Peso o Desnutrición Escolar',
-              'Bajo peso (-1.0 a -1.9 DE) o Desnutrición (menor o igual a -2.0 DE) · Descartar patología orgánica o trastornos de conducta alimentaria',
-              'Cifras bajo menos una desviación exigen descartar patologías orgánicas o trastornos de conducta alimentaria.',
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Evaluación nutricional: qué indicador usar y qué hacer',
+    root: N('start', 'Niño en control de salud', 'Evaluación antropométrica',
+      'Un niño llega a su control de salud y necesitas clasificar su estado nutricional. El primer paso no es mirar el peso: es mirar la edad, porque ella decide qué indicador vas a usar.',
+      ['', N('q', '¿Qué edad tiene?', 'Cambia el indicador de masa corporal',
+        'Pregúntate primero: ¿tiene menos de cinco años, o entre cinco y diecinueve?',
+        ['Menor de 5 años', N('q', 'Mira el Peso para la Talla', '¿Cuántas DE se desvía?',
+          'En el menor de cinco años, calculas las desviaciones estándar del peso para la talla.',
+          ['Bajo menos 1 DE', N('alert', 'Riesgo o desnutrición', 'Evaluar alimentación + control abreviado',
+            'Bajo menos una desviación estándar hay riesgo de desnutrición, y bajo menos dos, desnutrición. Revisas la técnica alimentaria y citas a control en quince a treinta días.')],
+          ['Entre menos 1 y más 1 DE', N('ok', 'Eutrófico', 'Control habitual',
+            'Entre menos uno y más uno de desviación estándar, el niño está eutrófico: control de salud habitual.')],
+          ['Sobre más 1 DE', N('alert', 'Sobrepeso u obesidad', 'Hábitos, sin dieta restrictiva',
+            'Sobre más una desviación estándar hay sobrepeso, y sobre más dos, obesidad. Corriges hábitos, y si es menor de dos años, nunca con dieta restrictiva.')])],
+        ['5 a 19 años', N('q', 'Mira el IMC para la Edad', '¿Cuántas DE se desvía?',
+          'Desde los cinco años, el indicador cambia al índice de masa corporal para la edad, con los mismos cortes.',
+          ['Bajo menos 1 DE', N('alert', 'Bajo peso o desnutrición', 'Evaluar alimentación',
+            'Los mismos cortes de riesgo y desnutrición se aplican aquí, ahora sobre el IMC para la edad.')],
+          ['Entre menos 1 y más 1 DE', N('ok', 'Eutrófico', 'Control habitual',
+            'Eutrófico, control de salud habitual.')],
+          ['Sobre más 1 DE', N('alert', 'Sobrepeso u obesidad', 'Hábitos de vida',
+            'Sobrepeso u obesidad: mismo manejo de hábitos que en el menor de cinco años.')])])]),
   },
 };
