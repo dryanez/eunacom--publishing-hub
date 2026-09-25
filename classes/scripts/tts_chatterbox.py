@@ -25,6 +25,8 @@ NARRATION = ROOT / "classes" / "narration"
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("ids", nargs="*", help="clases a sintetizar (por defecto, todas las de manifest.json)")
     ap.add_argument("--ref", required=True, help="audio de referencia de la voz a clonar (10–30 s, limpio)")
