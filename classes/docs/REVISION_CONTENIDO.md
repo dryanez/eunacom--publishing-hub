@@ -372,6 +372,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-06 | Rabia: vacunar de inmediato si el animal es "desconocido, vagabundo o provocado". | "Provocado" parece invertido: la mordedura no provocada es la de mayor riesgo. | Omite la palabra. |
 | infecto-06 | Inmunoglobulina antirrábica solo en contacto con murciélago. | Las exposiciones graves por otros animales suelen recibirla también. | Sigue el libro. **Revisar.** |
 | infecto-08 | Cólera: "azitromicina 1 g dosis única en niños y embarazadas". | 1 g es la dosis de adulto; en niños es por peso (~20 mg/kg, máx. 1 g). | "Azitromicina en dosis única", sin cifra. |
+| infecto-11 | La TBC ganglionar (escrófula) es la forma extrapulmonar más frecuente. | Según datos del programa chileno la pleural sería la primera (no verificado). | Sigue el libro. **Revisar.** |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -381,6 +382,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-03 | Absceso post otitis con neurocirugía previa: ceftriaxona + metronidazol (pregunta 2 del libro) | Agregar vancomicina si hubo trauma o cirugía (texto) | El texto; no usa la pregunta |
 | infecto-05 | Coqueluche: azitromicina a toda embarazada (texto) | Solo en tercer trimestre (keyPoints) | El texto |
 | infecto-05 | Profilaxis post exposición VIH 28 días (texto) | "28 días a 6 semanas" (alternativa de pregunta) | 28 días |
+| infecto-10 | Cotrimoxazol con CD4 < 200 protege de Pneumocystis y Toxoplasma (keyPoint) | Toxoplasma: CD4 < 100 con IgG positiva (tabla) | La tabla |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -392,8 +394,12 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-07 | No menciona el departamento de control de infecciones (Jul 2025 P107). No hay preguntas reales de aislamiento ni infección de catéter. |
 | infecto-08 | No dice dónde se notifican los brotes (Seremi) ni el tipo de vigilancia (activa); no da tratamiento de Campylobacter (azitromicina). No hay preguntas reales de botulismo. |
 | infecto-09 | No cubre VIH y embarazo (transmisión vertical: TARV inmediata, zidovudina al RN, no amamantar), muy preguntado en el banco. |
+| infecto-10 | No cubre mucormicosis, aspergilosis ni vacunas en VIH (vacunas vivas), que el banco pregunta. No hay preguntas reales de toxoplasmosis cerebral. |
+| infecto-11 | El título promete "manejo MDR" sin contenido; falta TBC resistente, fracaso, seguimiento con baciloscopías (Jul 2016 P118) e imagen en el mal de Pott (RM). |
+| infecto-12 | Menciona la neurosífilis sin tratamiento; nombra el GES 35 sin el calendario de VDRL prenatal (28–30 semanas). |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
 |---|---|
 | EUNACOM Diciembre 2022 · Pregunta 55 | Diarrea febril por Campylobacter de 7 días: clave "probióticos"; contra la práctica actual y Ene 2023 P76 (azitromicina). |
+| EUNACOM Agosto 2021 · Pregunta 27 y Julio 2016 · Pregunta 37 | Embarazada alérgica a penicilina con sífilis: clave eritromicina; el libro exige desensibilización y penicilina (el macrólido no cruza bien la placenta). |
