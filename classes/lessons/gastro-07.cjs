@@ -1,7 +1,10 @@
 // Clase 2.1 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_gastroenterologia.cjs (gastro-07).
-// Tier 1 en 8 diapositivas: las secciones 1 y 2 del libro van juntas, y la tabla
-// "funcional vs orgánico" del libro se integra en la diapositiva de signos de alarma.
+// Revisión: se separan las secciones 1 (concepto) y 2 (diagnóstico, Roma IV) del libro,
+// que estaban fusionadas en una diapositiva; se agrega la tabla "funcional vs orgánico"
+// del libro, que no estaba; y se reemplaza la pregunta con fecha inventada por el libro
+// (el libro dice "Reconstrucción EUNACOM Diciembre 2018 · Q#41", pero esa fecha no viene
+// de class_questions.cjs) por una pregunta real y fechada del banco.
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -17,8 +20,8 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Concepto y diagnóstico',
-      title: '¿Qué es y cómo se diagnostica?',
+      kicker: 'Concepto',
+      title: '¿Qué es un trastorno digestivo funcional?',
       cards: [
         { title: 'Trastorno funcional', tag: 'Eje cerebro-intestino', kind: 'key', items: [
           { t: 'Síntomas crónicos sin lesión', d: 'Primera causa de consulta gastroenterológica',
@@ -26,6 +29,14 @@ module.exports = {
           { t: 'Hipersensibilidad visceral + motilidad', d: 'Gatillos: estrés, dieta, disbiosis',
             say: 'Hoy se entiende como un trastorno del eje cerebro intestino: un intestino que siente de más y que se mueve distinto, gatillado por el estrés, la dieta y la disbiosis. El prototipo es el síndrome de intestino irritable.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diagnóstico',
+      title: 'Roma IV: un diagnóstico positivo',
+      cards: [
         { title: 'Criterios de Roma IV', tag: 'Síndrome de intestino irritable', kind: 'criteria', items: [
           { t: 'Dolor ≥ 1 día por semana', d: 'En los últimos 3 meses',
             say: '¿Cómo se diagnostica? Con los criterios de Roma cuatro. Dolor abdominal recurrente, al menos un día por semana en los últimos tres meses.' },
@@ -103,6 +114,25 @@ module.exports = {
     },
 
     {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Funcional vs orgánico',
+      head: ['Rasgo', 'Trastorno funcional (SII)', 'Enfermedad orgánica'],
+      rows: [
+        { cells: ['Edad de inicio', 'Joven (< 50 años)', '> 50 años'],
+          say: 'Repasemos con la tabla. La edad de inicio: en el funcional, joven, menor de cincuenta años; en lo orgánico, mayor de cincuenta.' },
+        { cells: ['Síntomas nocturnos', 'Ausentes (no despiertan)', 'Presentes'],
+          say: 'Los síntomas nocturnos: en el funcional no despiertan al paciente; en lo orgánico, sí.' },
+        { cells: ['Baja de peso / anemia', 'Ausentes', 'Presentes'],
+          say: 'Baja de peso o anemia: ausentes en el funcional, presentes en lo orgánico.' },
+        { cells: ['Relación con la defecación', 'Característica (alivia o cambia)', 'Sin relación clara'],
+          say: 'La relación con la defecación es característica del funcional: el dolor alivia o cambia al defecar. En lo orgánico no hay esa relación clara.' },
+        { cells: ['Exámenes de rutina', 'Normales', 'Alterados (VHS, PCR, calprotectina, Hb)'],
+          say: 'Y los exámenes de rutina: normales en el funcional; alterados en lo orgánico, con la velocidad de sedimentación, la PCR, la calprotectina o la hemoglobina.' },
+      ],
+    },
+
+    {
       type: 'quiz',
       kicker: 'Caso clínico',
       title: 'Caso clínico',
@@ -128,23 +158,23 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'Reconstrucción EUNACOM Diciembre 2018 · Pregunta #41',
-      stem: 'Mujer de 48 años con distensión y dolor abdominal de 1 año, alternando diarrea y constipación. En los últimos 2 meses refiere deposiciones más frecuentes, baja de 4 kg de peso no buscada y un episodio de rectorragia. Su madre tuvo cáncer de colon a los 55 años.',
-      question: '¿Cuál es la conducta más adecuada?',
+      title: 'EUNACOM Julio 2024 · Pregunta 176',
+      stem: 'Un paciente de 31 años consulta por 2 meses de evolución de dolor abdominal y deposiciones diarreicas, inicialmente 3 veces al día, con aumento a 7 veces al día en las últimas 2 semanas. Examen físico: FC 88 por minuto, PA 130/82, T° 36,0 °C, abdomen blando, depresible, con meteorismo, sin masas ni visceromegalias, con ruidos hidroaéreos presentes y sin signos de irritación peritoneal.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Diagnosticar síndrome de intestino irritable e iniciar dieta baja en FODMAP' },
-        { letter: 'B', text: 'Solicitar colonoscopía' },
-        { letter: 'C', text: 'Indicar antiespasmódicos y control en 3 meses' },
-        { letter: 'D', text: 'Solicitar test de sangre oculta en deposiciones y repetir en 1 año' },
-        { letter: 'E', text: 'Iniciar amitriptilina en dosis baja' },
+        { letter: 'A', text: 'Enfermedad de Crohn' },
+        { letter: 'B', text: 'Enfermedad celíaca' },
+        { letter: 'C', text: 'Colitis ulcerosa' },
+        { letter: 'D', text: 'Colitis parasitaria' },
+        { letter: 'E', text: 'Síndrome de intestino irritable' },
       ],
-      correct: 'B',
-      explanation: 'Múltiples signos de alarma: baja de peso involuntaria, cambio reciente del hábito, rectorragia y familiar de primer grado con cáncer de colon. Eso descarta el manejo funcional (A, C, E) y obliga a colonoscopía. El test de sangre oculta (D) es tamizaje en asintomáticos, no estudio de un paciente con banderas rojas.',
+      correct: 'C',
+      explanation: 'Diarrea crónica que empeora recientemente, subiendo de 3 a 7 deposiciones diarias en 2 semanas: es un cambio reciente del patrón, señal de alarma (la "C" de ABCDEFH) que descarta el intestino irritable y obliga a estudio orgánico; con esa evolución, la colitis ulcerosa es el diagnóstico más probable.',
       say: {
-        stem: 'Y ahora una pregunta real, reconstruida del EUNACOM de diciembre de dos mil dieciocho. Mujer de cuarenta y ocho años con un año de distensión y dolor abdominal, alternando diarrea y constipación. En los últimos dos meses tiene deposiciones más frecuentes, bajó cuatro kilos sin buscarlo y tuvo un episodio de rectorragia. Su madre tuvo cáncer de colon a los cincuenta y cinco años.',
-        question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las opciones: diagnosticar intestino irritable con dieta, colonoscopía, antiespasmódicos y control, sangre oculta y repetir en un año, o amitriptilina. Piénsalo.',
-        answer: 'La respuesta es la B, colonoscopía. Cuenta las banderas rojas: cambio reciente del hábito, baja de peso, rectorragia y una madre con cáncer de colon. Basta una para abandonar la hipótesis funcional, y aquí hay cuatro. El distractor más fino es la sangre oculta: sirve para tamizar a personas sin síntomas, no para estudiar a una paciente que ya sangró.',
+        stem: 'Y ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y un años con dos meses de dolor abdominal y diarrea: partió con tres deposiciones al día, y en las últimas dos semanas subió a siete. Está afebril, sin signos de irritación peritoneal.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: enfermedad de Crohn, enfermedad celíaca, colitis ulcerosa, colitis parasitaria, o síndrome de intestino irritable. Piénsalo.',
+        answer: 'La respuesta es la C, colitis ulcerosa. El intestino irritable tienta, porque hay diarrea crónica, pero fíjate en el dato clave: el número de deposiciones subió de tres a siete en dos semanas. Ese es exactamente el cambio reciente del patrón que vimos en la regla de alarma, y esa sola señal abandona la hipótesis funcional.',
       },
     },
 

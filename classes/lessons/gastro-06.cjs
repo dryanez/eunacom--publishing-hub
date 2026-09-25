@@ -1,5 +1,11 @@
 // Clase 1.6 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_gastroenterologia.cjs (gastro-06).
+// Revisión: se separan las secciones 1+2 (hernia hiatal / hernia diafragmática) y 3+4
+// (tumores del mediastino / estudio y manejo) del libro, que estaban fusionadas en dos
+// diapositivas; y se reemplaza la pregunta de banco por dos preguntas reales EUNACOM
+// (hernia hiatal por deslizamiento vía EDA, y miastenia gravis), manteniendo el caso
+// representativo del libro para timoma + miastenia + TAC, tema sin equivalente exacto
+// en el banco real.
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -15,22 +21,18 @@ module.exports = {
 
     {
       type: 'flow',
-      kicker: 'Hernias',
-      title: 'Hiato y diafragma: ¿observar u operar?',
+      kicker: 'Hernia hiatal',
+      title: 'Hernia hiatal: ¿observar u operar?',
       nodes: [
         { id: 'hh', col: 0, row: 0, k: 'start', t: 'Hernia hiatal', s: '¿Qué es lo que sube?' },
         { id: 't1', col: 1, row: 0, k: 'good', t: 'Tipo I: por deslizamiento', s: '> 95 %: sube la unión gastroesofágica' },
         { id: 'obs', col: 2, row: 0, k: 'good', t: 'Observar', s: 'Tratar el reflujo solo si lo hay' },
         { id: 'par', col: 1, row: 1, k: 'risk', t: 'Paraesofágica (II–IV)', s: '< 5 %: sube el fondo gástrico' },
         { id: 'cir', col: 2, row: 1, k: 'refer', t: 'Cirugía electiva', s: 'Urgente si se complica' },
-        { id: 'hdt', col: 0, row: 3, k: 'cause', t: 'Hernia diafragmática traumática', s: 'Trauma toracoabdominal, más a izquierda' },
-        { id: 'ag', col: 1, row: 3, k: 'alert', t: 'Aguda o complicada', s: 'Cirugía de urgencia' },
-        { id: 'cr', col: 2, row: 3, k: 'refer', t: 'Crónica, hallazgo', s: 'Cirugía electiva: nunca se observa' },
       ],
       edges: [
         { from: 'hh', to: 't1' }, { from: 't1', to: 'obs' },
         { from: 'hh', to: 'par' }, { from: 'par', to: 'cir', label: 'vólvulo' },
-        { from: 'hdt', to: 'ag' }, { from: 'hdt', to: 'cr' },
       ],
       steps: [
         { show: ['hh'], note: 'La pregunta es qué sube al tórax',
@@ -43,17 +45,40 @@ module.exports = {
           say: 'La otra, menos del cinco por ciento, es la paraesofágica, tipos dos a cuatro. Aquí la unión se queda en su sitio y es el fondo gástrico el que sube al lado del esófago. Es una hernia real, con un saco donde el estómago se puede torcer.' },
         { show: ['cir'], note: 'Riesgo de vólvulo, incarceración y estrangulación',
           say: 'Tiene riesgo de vólvulo, incarceración y estrangulación, así que se opera de forma electiva, con reparación más funduplicatura, y de urgencia si se complica.' },
-        { show: ['hdt'], note: 'Después de un trauma, a veces años después',
-          say: 'La hernia diafragmática traumática aparece después de un trauma toracoabdominal, más frecuente a izquierda. Puede verse en la fase aguda, o años después, como un hallazgo: asas intestinales o la cámara gástrica en el hemitórax.' },
-        { show: ['ag', 'cr'], note: 'Nunca se observa',
-          say: 'En la fase aguda, con compromiso respiratorio o una víscera estrangulada, cirugía de urgencia. Y en la fase crónica, aunque el paciente esté estable, cirugía electiva, para prevenir una obstrucción o estrangulación futura. Esa es la trampa: una hernia diafragmática verdadera nunca se observa.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Hernia diafragmática',
+      title: 'Hernia diafragmática traumática del adulto',
+      nodes: [
+        { id: 'hdt', col: 0, row: 0, k: 'cause', t: 'Trauma toracoabdominal', s: 'Más frecuente a izquierda' },
+        { id: 'hal', col: 1, row: 0, k: 'mech', t: 'Hallazgo o fase aguda', s: 'A veces años después' },
+        { id: 'ag', col: 2, row: 0, k: 'alert', t: 'Aguda o complicada', s: 'Cirugía de urgencia' },
+        { id: 'cr', col: 2, row: 1, k: 'refer', t: 'Crónica, hallazgo', s: 'Cirugía electiva: nunca se observa' },
+      ],
+      edges: [
+        { from: 'hdt', to: 'hal' },
+        { from: 'hal', to: 'ag', label: 'compromiso respiratorio' },
+        { from: 'hal', to: 'cr', label: 'paciente estable' },
+      ],
+      steps: [
+        { show: ['hdt'], note: 'Después de un trauma, más a izquierda',
+          say: 'Ahora la hernia diafragmática traumática. Aparece después de un trauma toracoabdominal, más frecuente a izquierda.' },
+        { show: ['hal'], note: 'Puede verse en la fase aguda o años después, como hallazgo',
+          say: 'Puede verse en la fase aguda, o años después, como un hallazgo: asas intestinales o la cámara gástrica en el hemitórax, en una radiografía pedida por otro motivo.' },
+        { show: ['ag'], note: 'Compromiso respiratorio o víscera estrangulada',
+          say: 'En la fase aguda, con compromiso respiratorio o una víscera estrangulada, cirugía de urgencia.' },
+        { show: ['cr'], note: 'Nunca se observa',
+          say: 'Y en la fase crónica, aunque el paciente esté estable, cirugía electiva, para prevenir una obstrucción o estrangulación futura. Esa es la trampa: una hernia diafragmática verdadera nunca se observa, ni siquiera como hallazgo asintomático.' },
       ],
     },
 
     {
       type: 'points',
       kicker: 'Mediastino',
-      title: 'Masa mediastínica: dónde está y cómo se estudia',
+      title: 'Tumores del mediastino: dónde está la causa',
       cards: [
         { title: 'Anterior', tag: 'Las 4 T', kind: 'key', items: [
           { t: 'Timoma, Terrible linfoma', d: 'Teratoma, Tiroides (bocio endotorácico)',
@@ -65,11 +90,25 @@ module.exports = {
           { t: 'Posterior: neurogénicos', d: 'Los más frecuentes del mediastino',
             say: 'Y en el posterior, los tumores neurogénicos, como el neurinoma y el ganglioneuroma. Ojo con este dato: son los más frecuentes del mediastino en total.' },
         ] },
-        { title: 'Estudio y manejo', tag: 'TAC primero', kind: 'alert', items: [
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Mediastino',
+      title: 'Estudio y manejo de la masa mediastínica',
+      cards: [
+        { title: 'Estudio', tag: 'TAC primero', kind: 'alert', items: [
           { t: 'TAC de tórax con contraste', d: 'Examen de elección en cualquier compartimento',
-            say: 'Sea cual sea el compartimento, el examen de elección es el TAC de tórax con contraste: muestra localización, tamaño y relación con los vasos. Según el caso se completa con marcadores, como alfa feto proteína y beta hCG en los germinales, o con biopsia.' },
+            say: 'Sea cual sea el compartimento, el examen de elección es el TAC de tórax con contraste: muestra localización, tamaño y relación con los vasos.' },
+          { t: 'Se completa según el caso', d: 'Marcadores, biopsia',
+            say: 'Según el caso se completa con marcadores, como alfa feto proteína y beta hCG en los germinales, o con biopsia percutánea o quirúrgica.' },
+        ] },
+        { title: 'Manejo', tag: 'Según la causa', kind: 'pharma', items: [
           { t: 'Timoma con miastenia: timectomía', d: 'Puede mejorar la miastenia',
-            say: 'El timoma se reseca si es grande, da síntomas o se asocia a miastenia gravis, y la timectomía puede mejorar la miastenia. En cambio, el linfoma no se opera: se trata con quimioterapia. Y el teratoma maduro se reseca.' },
+            say: 'El timoma se reseca si es grande, da síntomas o se asocia a miastenia gravis, y la timectomía puede mejorar la miastenia.' },
+          { t: 'Linfoma: quimioterapia', d: 'Teratoma maduro: resección',
+            say: 'En cambio, el linfoma no se opera: se trata con quimioterapia. Y el teratoma maduro se reseca.' },
         ] },
       ],
     },
@@ -126,7 +165,53 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'Caso representativo · banco EUNACOM',
+      title: 'EUNACOM Agosto 2021 · Pregunta 120',
+      stem: 'Un paciente de 26 años consulta por pirosis y regurgitación de varios meses de evolución. Su examen físico no aporta mayor información. Se realiza una endoscopía digestiva alta que muestra mucosa de aspecto normal, línea Z a 28 cm de la arcada dentaria e impresión hiatal diafragmática a 37 cm de la arcada dentaria.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Acalasia esofágica' },
+        { letter: 'B', text: 'Hernia hiatal directa' },
+        { letter: 'C', text: 'Hernia paraesofágica' },
+        { letter: 'D', text: 'Esófago de Barrett' },
+        { letter: 'E', text: 'Divertículo esofágico' },
+      ],
+      correct: 'B',
+      explanation: 'La línea Z (unión gastroesofágica) está más arriba que la impresión diafragmática: es una hernia por deslizamiento, tipo I o "directa". Se maneja con observación, tratando el reflujo solo si aparece. La paraesofágica, en cambio, sí se opera por el riesgo de complicaciones.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de veintiséis años con pirosis y regurgitación de varios meses. La mucosa esofágica es normal, pero la línea Z, que marca la unión gastroesofágica, está a veintiocho centímetros de la arcada dentaria, y la impresión del diafragma a treinta y siete: la línea Z quedó por encima del diafragma.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las alternativas: acalasia esofágica, hernia hiatal directa, hernia paraesofágica, esófago de Barrett, o divertículo esofágico. Piénsalo.',
+        answer: 'Es la B, hernia hiatal directa, es decir, por deslizamiento. La unión gastroesofágica subió sobre la impresión del diafragma: exactamente lo que vimos, la unión que se desliza hacia el tórax. Se observa, y solo se trata el reflujo si aparece. La paraesofágica sería distinto: ahí la unión se queda abajo y es el fondo gástrico el que sube al lado del esófago, y esa sí se opera.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 74',
+      stem: 'Una paciente de 38 años, profesora de enseñanza básica, consulta por debilidad y mialgias generalizadas, que iniciaron hace 1 mes. Además, refiere ptosis a derecha, que suele ser mayor en las tardes. Al examen físico se constata ptosis bilateral, mayor a derecha, con normalidad de los reflejos osteotendíneos y la sensibilidad.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Esclerosis lateral amiotrófica' },
+        { letter: 'B', text: 'Polimiositis' },
+        { letter: 'C', text: 'Síndrome de Guillain Barré' },
+        { letter: 'D', text: 'Esclerosis múltiple' },
+        { letter: 'E', text: 'Miastenia gravis' },
+      ],
+      correct: 'E',
+      explanation: 'Ptosis fluctuante, que empeora con el uso y en la tarde, con reflejos y sensibilidad normales: es el cuadro clásico de miastenia gravis, una falla de la placa neuromuscular. Y aquí conecta con el mediastino: frente a una miastenia gravis hay que buscar un timoma, con TAC de tórax con contraste.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Profesora de treinta y ocho años, con debilidad y dolores musculares generalizados de un mes, y con caída del párpado derecho que empeora en las tardes. Al examen tiene ptosis bilateral, mayor a la derecha, con reflejos y sensibilidad normales.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las alternativas: esclerosis lateral amiotrófica, polimiositis, síndrome de Guillain Barré, esclerosis múltiple, o miastenia gravis. Piénsalo.',
+        answer: 'Es la E, miastenia gravis. La ptosis que fluctúa, que empeora con el uso y en la tarde, con reflejos y sensibilidad normales, es la firma de una falla en la placa neuromuscular. Y aquí volvemos al mediastino: frente a una miastenia gravis hay que buscar un timoma, y el examen es el TAC de tórax con contraste.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Banco EUNACOM · Caso representativo',
       stem: 'En una radiografía de tórax de control se observa un ensanchamiento del mediastino anterior en un paciente de 40 años con diplopía y fatigabilidad muscular que mejora con el reposo.',
       question: '¿Cuál es el examen a solicitar y la sospecha?',
       options: [
@@ -139,7 +224,7 @@ module.exports = {
       correct: 'B',
       explanation: 'Masa en el mediastino anterior + miastenia gravis (diplopía y debilidad fluctuante que mejora con el reposo) orientan a timoma. El examen de elección para cualquier masa mediastínica es el TAC de tórax con contraste. Timoma con miastenia: timectomía, que puede mejorar la miastenia.',
       say: {
-        stem: 'Ahora una pregunta del banco EUNACOM, un caso representativo. En una radiografía de control se ve un ensanchamiento del mediastino anterior, en un paciente de cuarenta años con diplopía y fatigabilidad muscular que mejora con el reposo.',
+        stem: 'Ahora una pregunta del banco EUNACOM, un caso representativo, porque el banco real no tiene una pregunta con esta combinación exacta. En una radiografía de control se ve un ensanchamiento del mediastino anterior, en un paciente de cuarenta años con diplopía y fatigabilidad muscular que mejora con el reposo.',
         question: '¿Cuál es el examen a solicitar y la sospecha?',
         options: 'Las opciones: ecografía y quiste pericárdico, TAC con contraste y timoma con miastenia, resonancia y tumor neurogénico, PET y linfoma, o cintigrafía y bocio. Piénsalo.',
         answer: 'La respuesta es la B. Mediastino anterior te da las cuatro T, y la diplopía con debilidad que mejora con el reposo es una miastenia gravis: eso apunta al timoma. Y el examen de cualquier masa mediastínica es el TAC de tórax con contraste. El distractor es el linfoma, que también está en el mediastino anterior, pero no explica la miastenia.',
