@@ -192,7 +192,7 @@ module.exports = {
             {
               t: 'Cefazolina o Ceftriaxona endovenosa',
               d: 'Cefazolina un gramo cada ocho horas o Ceftriaxona un a dos gramos cada veinticuatro horas',
-              say: 'Se inicia tratamiento parenteral inmediato con cefazolina o ceftriaxona endovenosa, manteniendo la vía parenteral hasta que la paciente cumpla cuarenta y ocho horas afebril y asintomática.',
+              say: 'En cambio, ante una pielonefritis aguda la hospitalización es obligada. Iniciamos tratamiento parenteral inmediato con cefazolina o ceftriaxona endovenosa, manteniéndolo hasta que cumpla cuarenta y ocho horas afebril.',
             },
             {
               t: 'Completar catorce días de terapia total',

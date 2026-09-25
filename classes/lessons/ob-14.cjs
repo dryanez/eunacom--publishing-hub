@@ -276,7 +276,7 @@ module.exports = {
             {
               t: 'Taquicardia materna y taquicardia fetal',
               d: 'FC materna mayor a 100 lpm y FCF sostenida mayor a 160 lpm',
-              say: 'Aparece taquicardia materna superior a cien latidos por minuto o taquicardia fetal sostenida por sobre ciento sesenta latidos por minuto, siendo esta última una de las señales más precoces de la respuesta inflamatoria fetal.',
+              say: 'Los criterios secundarios incluyen taquicardia materna sobre cien latidos por minuto o taquicardia fetal sostenida sobre ciento sesenta latidos por minuto, que es la señal más precoz de respuesta fetal.',
             },
             {
               t: 'Dolor uterino y líquido purulento fétido',

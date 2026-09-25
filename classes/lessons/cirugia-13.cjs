@@ -187,7 +187,7 @@ module.exports = {
             {
               t: 'Índice de Garcés mayor a setenta puntos',
               d: 'O quemaduras de segundo o tercer grado mayores al veinte por ciento',
-              say: 'Se define como Gran Quemado a todo paciente con índice de gravedad de Garcés superior a setenta puntos, o con más del veinte por ciento de superficie corporal quemada en adultos o más del diez por ciento en niños o ancianos.',
+              say: 'El criterio de Gran Quemado es garantía explícita en salud. Incluye a todo paciente con índice de gravedad de Garcés superior a setenta puntos, o con más del veinte por ciento de superficie quemada en adultos o más del diez por ciento en niños o ancianos.',
             },
             {
               t: 'Tercer grado mayor al cinco por ciento',

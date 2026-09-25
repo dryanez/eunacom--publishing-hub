@@ -231,7 +231,7 @@ module.exports = {
             {
               t: 'Pequeño para la Edad Gestacional (PEG): Menor al percentil 10',
               d: 'Peso de nacimiento situado bajo el percentil 10 de la curva de referencia para su edad gestacional y sexo',
-              say: 'Se define como pequeño para la edad gestacional a todo recién nacido cuyo peso de nacimiento se ubica por debajo del percentil diez de las curvas nacionales.',
+              say: 'Pasemos ahora a la clasificación ponderal en las curvas chilenas. Consideramos pequeño para la edad gestacional a todo recién nacido cuyo peso se ubica por debajo del percentil diez.',
             },
             {
               t: 'Adecuado para la Edad Gestacional (AEG): Percentil 10 a 90',
@@ -509,7 +509,7 @@ module.exports = {
             {
               t: 'Hipoglicemia en el GEG por hiperinsulinismo fetal',
               d: 'El hijo de madre diabética sufre hiperplasia de células beta; al cortar el cordón la insulina alta desploma la glicemia',
-              say: 'Tengan muy presente que el recién nacido grande para su edad sufre hiperinsulinismo de rebote, requiriendo idéntica monitorización estricta de glicemia.',
+              say: 'Tengan presente que el recién nacido grande sufre hiperinsulinismo de rebote. Si te llevas una sola idea de hoy: clasifica siempre cruzando semanas y percentil de peso, y vigila la glicemia tanto en el pequeño como en el grande. Nos vemos en la próxima clase.',
             },
           ],
         },

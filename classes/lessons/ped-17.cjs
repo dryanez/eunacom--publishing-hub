@@ -114,7 +114,7 @@ module.exports = {
             {
               t: 'Predominio no conjugado con bilirrubina directa normal',
               d: 'Bilirrubina directa siempre menor a 1.0 mg/dL o menor al veinte por ciento del valor de la bilirrubina total',
-              say: 'Es exclusivamente a expensas de bilirrubina indirecta, manteniendo la bilirrubina directa por debajo de un miligramo por decilitro y con deposiciones pigmentadas normales.',
+              say: 'Fíjate bien en el laboratorio: la ictericia fisiológica es exclusivamente a expensas de bilirrubina indirecta, manteniendo la directa menor a un miligramo por decilitro y deposiciones normales.',
             },
             {
               t: 'Ausencia de coluria, acolia, hepatoesplenomegalia o anemia',
@@ -139,7 +139,7 @@ module.exports = {
             {
               t: 'Inicio en los primeros tres a cinco días por hipogalactia',
               d: 'Técnica de lactancia deficiente que genera ayuno relativo, pérdida ponderal mayor al 10% y lentitud del tránsito intestinal',
-              say: 'Ocurre en la primera semana debido a ingesta calórica insuficiente por mala técnica de lactancia, generando deshidratación y aumento masivo de la recirculación enterohepática por menor tránsito digestivo.',
+              say: 'Aquí debes distinguir dos cuadros que se preguntan mucho. El primero es la ictericia por falta de lactancia, o por escaso aporte: esta ocurre en la primera semana por hipogalactia y mala técnica, lo que genera deshidratación y retención de meconio.',
             },
             {
               t: 'Manejo: Optimizar técnica de amamantamiento y frecuencia',
@@ -156,7 +156,7 @@ module.exports = {
             {
               t: 'Inicio tardío después del quinto a séptimo día de vida',
               d: 'Sustancias presentes en la leche materna como betaglucuronidasa inhiben la conjugación; niño eutrófico y vigoroso',
-              say: 'Aparece hacia el final de la primera semana en lactantes que crecen vigorosamente, atribuida a factores de la leche materna que favorecen la desconjugación intestinal de la bilirrubina.',
+              say: 'Muy diferente es la segunda entidad: la ictericia por leche materna propiamente tal, o síndrome de Arias. Esta aparece recién hacia el final de la primera semana en lactantes sanos y vigorosos que ganan peso sin problemas.',
             },
             {
               t: 'Evolución prolongada benigna de hasta doce semanas',
@@ -319,7 +319,7 @@ module.exports = {
             {
               t: 'Fase precoz: Hipotonía, letargia y succión débil',
               d: 'Neonato marcadamente ictérico que se muestra somnoliento, no despierta a comer y pierde el tono muscular habitual',
-              say: 'La fase inicial se manifiesta por somnolencia profunda, hipotonía generalizada y rechazo alimentario con llanto débil, signos que obligan a tratamiento de máxima urgencia.',
+              say: 'Cuando la bilirrubina libre invade el sistema nervioso, se desata la encefalopatía aguda. En su fase inicial verás hipotonía marcada, somnolencia profunda y rechazo alimentario con llanto débil, lo que exige tratamiento de rescate inmediato.',
             },
             {
               t: 'Fase avanzada: Hipertonía, opistótonos y llanto agudo',
@@ -590,7 +590,7 @@ module.exports = {
             {
               t: 'Bilirrubina directa sobre 1 mg/dL y acolia: Atresia biliar',
               d: 'Derivación inmediata a centro de referencia para cirugía de Kasai antes de los sesenta días de vida',
-              say: 'Toda ictericia directa con deposiciones acólicas es una emergencia quirúrgica por sospecha de atresia biliar que exige cirugía de Kasai antes de dos meses.',
+              say: 'Toda ictericia directa con deposiciones acólicas es una emergencia quirúrgica por sospecha de atresia biliar. Si te llevas una sola idea de hoy: la ictericia en el primer día de vida siempre es patológica y exige fototerapia de entrada. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -114,7 +114,7 @@ module.exports = {
             {
               t: 'Semiología focal o inicio focal con generalización secundaria',
               d: 'Movimientos clónicos limitados a un hemicuerpo, desviación de la mirada o asimetría motora evidente',
-              say: 'Se define como compleja ante cualquier elemento de focalidad motora, como sacudidas restringidas a un solo brazo, una pierna o un hemicuerpo.',
+              say: 'En cambio, la convulsión febril compleja se reconoce ante cualquier elemento de focalidad motora, como sacudidas restringidas a un solo brazo, una pierna o un hemicuerpo.',
             },
             {
               t: 'Duración mayor a quince minutos o recurrencia en veinticuatro horas',
@@ -504,7 +504,7 @@ module.exports = {
             {
               t: 'Tranquilizar a los padres: Excelente pronóstico neurológico',
               d: 'Explicar que la crisis simple no produce daño cerebral ni retraso cognitivo y que el riesgo de epilepsia es mínimo',
-              say: 'Eduquen a los padres con tranquilidad: expliquen que la crisis simple no daña las neuronas y que el riesgo de epilepsia futura es apenas del uno al dos por ciento.',
+              say: 'Eduquen a los padres con tranquilidad: la crisis simple no daña las neuronas. Si te llevas una sola idea de hoy: la crisis simple no requiere neuroimágenes ni anticonvulsivantes de mantención, solo educación y control térmico. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -55,7 +55,7 @@ module.exports = {
             {
               t: 'Definición operativa de fiebre sin foco',
               d: 'Temperatura axilar mayor o igual a 38.0 grados de menos de 7 días de duración sin foco tras examen físico meticuloso',
-              say: 'Se define como fiebre sin foco a toda temperatura axilar igual o superior a treinta y ocho grados de menos de una semana de evolución, cuya causa permanece desconocida tras una anamnesis y exploración física completas.',
+              say: 'El síndrome febril sin foco corresponde a toda temperatura axilar igual o superior a treinta y ocho grados de menos de una semana de evolución, en que no encuentras ninguna causa tras un examen físico minucioso.',
             },
             {
               t: 'Etiología viral benigna versus infección bacteriana grave',
@@ -578,7 +578,7 @@ module.exports = {
             {
               t: 'La bolsa recolectora no sirve para confirmar ITU',
               d: 'Falsos positivos > 85%; la muestra para urocultivo debe obtenerse por cateterismo vesical estéril',
-              say: 'Nunca tomen un urocultivo por bolsa recolectora debido a su enorme tasa de contaminación; utilicen siempre sondeo vesical estéril. Nos vemos en la próxima clase para revisar exantemas infantiles.',
+              say: 'Nunca tomen un urocultivo por bolsa recolectora debido a su enorme tasa de contaminación. Si te llevas una sola idea de hoy: en el lactante menor febril, la sospecha manda y la punción lumbar no se posterga ante la menor duda. Nos vemos en la próxima clase.',
             },
           ],
         },

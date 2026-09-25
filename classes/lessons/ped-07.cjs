@@ -353,7 +353,7 @@ module.exports = {
             {
               t: 'El ácido clavulánico no aporta contra neumococo',
               d: 'Al no producir betalactamasas, el inhibidor es farmacológicamente inútil frente a Streptococcus pneumoniae',
-              say: 'Es un error común indicar amoxicilina con ácido clavulánico para tratar una neumonía típica: el clavulánico no tiene ninguna acción sobre las proteínas mutadas del neumococo y solo aumenta la diarrea.',
+              say: 'Ojo con este error clásico en el examen: indicar amoxicilina con ácido clavulánico para una neumonía típica es incorrecto. El clavulánico no actúa sobre las mutaciones del neumococo y solo aumenta los efectos gastrointestinales.',
             },
             {
               t: 'Control médico obligatorio a las 48 horas en APS',
@@ -582,7 +582,7 @@ module.exports = {
             {
               t: 'Fiebre a las 48 horas obliga a buscar derrame pleural',
               d: 'Solicitar radiografía y ecografía pleural; toracocentesis si hay líquido significativo para descartar empiema',
-              say: 'Si la fiebre persiste tras cuarenta y ocho horas de antibióticos sospechen derrame paraneumónico y soliciten ecografía pleural. Nos vemos en la próxima clase para revisar cuerpo extraño en la vía aérea.',
+              say: 'Si la fiebre persiste tras cuarenta y ocho horas de antibióticos sospechen derrame paraneumónico y soliciten ecografía pleural. Si te llevas una sola idea de hoy: en neumonía ambulatoria del lactante la amoxicilina a dosis altas es el pilar indiscutible, sin clavulánico. Nos vemos en la próxima clase.',
             },
           ],
         },
