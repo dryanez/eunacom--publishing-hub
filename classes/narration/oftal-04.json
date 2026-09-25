@@ -1,0 +1,176 @@
+{
+  "id": "oftal-04",
+  "title": "Oftalmologia 15.4: Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+  "specialty": "Oftalmología",
+  "chars": 9096,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy llegamos a la córnea, el tejido más inervado del cuerpo, y por eso el más doloroso cuando se lesiona. Vamos a ver la queratitis herpética y la bacteriana, pero toda la clase gira en torno a una sola regla, la más rentable de toda la oftalmología: frente a una úlcera corneal, los corticoides tópicos están prohibidos. Vamos a entender por qué."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos del mecanismo. La córnea es el tejido más densamente inervado del cuerpo, por el nervio oftálmico, la primera rama del trigémino."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Por eso, cualquier lesión de su epitelio o de su estroma, ya sea por infección, trauma o un químico, desencadena una respuesta muy característica."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Es la tríada protectora de la córnea: dolor punzante intenso, como si algo cortara el ojo; blefarospasmo, una imposibilidad casi invencible de abrir el párpado; y fotofobia extrema con lagrimeo abundante. Se acompaña de inyección ciliar marcada, la que ya conoces de la primera clase."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Con esa sospecha, el examen que confirma la lesión es la tinción con fluoresceína, mirada bajo luz azul de cobalto. Es el examen de cabecera en atención primaria, y de ahí sale el diagnóstico."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La causa más frecuente de ceguera corneal infecciosa en países desarrollados es el virus herpes simple tipo uno, que se reactiva desde el ganglio del trigémino por fiebre, estrés o inmunosupresión. La lesión que produce es patognomónica: la úlcera dendrítica, una lesión lineal y ramificada, en forma de árbol o de helecho, con pequeños botones en los extremos."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y un dato que se pregunta: la córnea queda hipoestésica, pierde la sensibilidad al tocarla con una torunda de algodón, justo lo opuesto de lo esperado en un ojo tan doloroso."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El tratamiento es aciclovir en pomada oftálmica al tres por ciento, cinco veces al día, por diez a catorce días. En inmunodeprimidos se puede sumar aciclovir oral."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y aquí está la regla de oro de máxima rentabilidad de toda la oftalmología: los corticoides tópicos están estrictamente prohibidos. Frenan la inmunidad local, multiplican la replicación viral, y transforman esa dendrita pequeña en una úlcera geográfica gigante, con lisis del estroma y riesgo de perforación corneal permanente."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La otra gran causa de queratitis es bacteriana, y su principal factor de riesgo, el que siempre aparece en el enunciado, es el uso indebido de lentes de contacto blandos: dormir con ellos puestos, o lavarlos con agua corriente."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El germen protagonista es Pseudomonas aeruginosa, que produce enzimas capaces de destruir la córnea con una rapidez enorme."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Da un infiltrado corneal blanquecino o amarillento, denso, con un defecto epitelial encima."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y con frecuencia se forma hipopión de manera precoz, ese nivel de pus estéril en el fondo de la cámara anterior que ya conoces de la primera clase."
+    },
+    {
+      "file": "s03_g04",
+      "text": "El manejo es retirar y guardar los lentes para cultivo, iniciar colirios antibióticos reforzados de amplio espectro, como vancomicina más ceftazidima, o una fluoroquinolona de cuarta generación como moxifloxacino, y derivar el mismo día. Y un detalle importante: este ojo nunca se ocluye con parche."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Juntemos todo en un árbol: el patrón de tinción decide el camino. Paciente con dolor corneal, blefarospasmo y fotofobia, confirmado con fluoresceína positiva bajo luz azul de cobalto. El patrón de la lesión decide el camino."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Fíjate si la lesión es una dendrita ramificada, un infiltrado blanco denso, o una tinción punteada difusa y bilateral."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Úlcera dendrítica con botones terminales, con hipoestesia corneal: queratitis herpética. Aciclovir en pomada al tres por ciento, cinco veces al día, y jamás corticoides tópicos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Infiltrado corneal blanquecino, con posible hipopión, en usuario de lentes de contacto: sospecha de Pseudomonas. Retirar los lentes, antibióticos reforzados de amplio espectro y derivación el mismo día, sin parche."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Tinción punteada superficial y difusa, bilateral, tras exposición a luz ultravioleta sin protección: queratitis actínica. Ciclopléjico y pomada lubricante; cura sola en veinticuatro a cuarenta y ocho horas, sin usar anestésico tópico repetido."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos las trampas. Úlcera dendrítica con botones en los extremos: queratitis herpética, con aciclovir tópico. La trampa más grave de la clase es indicar un corticoide para desinflamar, que la transforma en una úlcera geográfica."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Infiltrado blanco en un usuario de lentes de contacto, con hipopión: queratitis por Pseudomonas, con antibióticos reforzados. La trampa es ocluir el ojo con un parche, que favorece que la bacteria siga creciendo."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Dolor bilateral después de exponerse a luz ultravioleta sin protección, como un soldador: queratitis actínica, que cura sola en veinticuatro a cuarenta y ocho horas con lubricante. La trampa es que el paciente siga usando el anestésico tópico para el dolor, porque eso destruye el epitelio."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y la regla general: cualquier úlcera o infiltrado corneal se deriva de forma prioritaria a oftalmología. Tratarlo solo en atención primaria, sin derivar, es siempre la respuesta incorrecta."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos al caso. Joven de veintiocho años, con ojo derecho muy rojo, doloroso y con fotofobia intensa, de un día de evolución. Tiene antecedente de herpes labial recurrente. Al examen: inyección periquerática intensa, y la fluoresceína bajo luz azul de cobalto muestra una úlcera ramificada, en forma de dendrita, con botones en los extremos, en el centro de la córnea."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la conducta más adecuada en atención primaria?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las opciones: aciclovir en pomada y derivar, colirio de dexametasona con control en una semana, cloranfenicol con parche ocular, colirio anestésico y alta, o ciprofloxacino reforzado y derivar en una semana. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la A. La dendrita con botones, más el antecedente de herpes labial, no dejan duda: es queratitis herpética. Aciclovir tópico y derivación. La dexametasona es la trampa central de la clase: transformaría esta dendrita pequeña en una úlcera geográfica destructiva. Y el anestésico tópico repetido, aunque calme el dolor, destruye el epitelio corneal si se usa fuera del box de examen."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pregunta real, del EUNACOM de julio de dos mil quince. Paciente miope, usuaria de lentes de contacto blandos, con dolor en el ojo izquierdo y lagrimeo. Al examen: ojo rojo periquerático izquierdo, y una zona de opacidad corneal de poco más de dos milímetros de diámetro."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: conjuntivitis bacteriana, úlcera corneal, uveítis aguda, glaucoma agudo, o blefaritis."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es úlcera corneal. El dato que arma toda la pregunta es la usuaria de lentes de contacto con dolor real e inyección periquerática: eso ya te saca de la conjuntivitis, que no da ese tipo de dolor. Y la opacidad corneal focal es justamente el hallazgo que confirma que el problema está en la córnea, no en la úvea ni en la presión ocular."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años, con dolor ocular derecho y ojo rojo que empezó hace cinco horas y se ha vuelto muy intenso, con lagrimeo. Tiene astigmatismo y usa lentes de contacto."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál de los siguientes exámenes es más adecuado para confirmar la sospecha diagnóstica?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: fondo de ojo, tonometría ocular, tomografía de órbitas, tinción con fluoresceína, o gonioscopía."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es tinción con fluoresceína. Usuaria de lentes de contacto con dolor agudo es la misma alerta que ya conoces: sospecha de queratitis o erosión corneal. Y el examen que confirma esa lesión en atención primaria es siempre la fluoresceína bajo luz azul de cobalto. La tonometría y la gonioscopía son para el estudio del glaucoma, no de la córnea, así que son la trampa si mezclas los dos temas de esta unidad."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con un caso representativo del banco, pensado justo para fijar la regla de oro. Paciente de treinta y cinco años, con dolor ocular punzante, fotofobia intensa y lagrimeo de dos días. La fluoresceína bajo luz azul de cobalto muestra una lesión arborescente y ramificada, con extremos abultados."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál de los siguientes fármacos está formalmente contraindicado por el riesgo de inducir perforación corneal?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: aciclovir en ungüento, ganciclovir en gel, dexametasona en colirio, ciclopentolato en colirio, o lágrimas artificiales. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la dexametasona. Es otra vez la dendrita herpética, y la pregunta esta vez no te pide el diagnóstico, te pide identificar lo prohibido. El aciclovir y el ganciclovir son tratamiento correcto; el ciclopentolato, un ciclopléjico, sirve para el dolor; y las lágrimas artificiales no hacen daño. El corticoide es el único que puede convertir esta úlcera pequeña en una perforación corneal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Ante dolor corneal, blefarospasmo y fotofobia, el examen de cabecera es la fluoresceína bajo luz azul de cobalto."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Una úlcera dendrítica con botones en los extremos es herpética, con aciclovir tópico. Un infiltrado blanco denso en un usuario de lentes de contacto es bacteriana, casi siempre por Pseudomonas, con antibióticos reforzados y derivación el mismo día."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Y si te llevas una sola idea de hoy: jamás indiques corticoides tópicos frente a una úlcera corneal, confirmada o sospechada. Es la regla más rentable de toda la oftalmología. Nos vemos en la próxima clase."
+    }
+  ]
+}

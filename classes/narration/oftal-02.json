@@ -1,0 +1,184 @@
+{
+  "id": "oftal-02",
+  "title": "Oftalmologia 15.2: Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+  "specialty": "Oftalmología",
+  "chars": 8456,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos de vuelta. En la clase pasada separamos el ojo rojo superficial del profundo. Hoy vamos a la causa más frecuente de lo superficial: la conjuntivitis. Con tres datos, el tipo de secreción, si hay prurito y si hay adenopatía preauricular, distingues la bacteriana, la viral y la alérgica. Y cerramos con la forma que no puedes pasar por alto: la gonocócica, que perfora la córnea en horas."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la bacteriana común, causada sobre todo por estafilococo dorado, neumococo y haemófilus. Su sello es la secreción mucopurulenta espesa y abundante: el paciente despierta con los párpados y las pestañas pegados."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La inyección es conjuntival difusa, sin dolor profundo y sin alteración visual. Recuerda la clase pasada: eso es justamente lo que la mantiene del lado superficial."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El tratamiento es aseo de secreciones con suero fisiológico, más colirio de cloranfenicol al cero coma cinco por ciento, o ciprofloxacino, cada cuatro horas por siete días."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si no responde en cuarenta y ocho a setenta y dos horas, se deriva. No te quedes insistiendo con el mismo colirio si el cuadro empeora."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora la forma que decide esta clase: la conjuntivitis hiperaguda por gonococo. Aparece típicamente en el recién nacido, a los dos a cinco días de vida por contagio en el parto, o en el adulto joven sexualmente activo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La secreción no es solo abundante: sale a presión, en chorro, purulenta, con quemosis severa, la conjuntiva hinchada como gelatina. No la confundas con una bacteriana común: aquí la cantidad es desproporcionada."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y aquí está el riesgo crítico: el gonococo, a diferencia de casi cualquier otra bacteria, puede atravesar y perforar el epitelio corneal intacto. Eso convierte esta conjuntivitis en una urgencia real, no en una variante más grave de lo mismo."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El tratamiento es ceftriaxona, un gramo intramuscular o endovenoso en monodosis, más lavados oculares continuos. Un colirio antibiótico tópico, por sí solo, no basta."
+    },
+    {
+      "file": "s02_g04",
+      "text": "En el recién nacido, la dosis se ajusta al peso: veinticinco a cincuenta miligramos por kilo. Y en todos los casos, se hospitaliza."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La conjuntivitis viral, casi siempre por adenovirus, da secreción acuosa o serosa, sensación de arenilla, e hiperemia con folículos en la conjuntiva tarsal inferior."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Pero el dato que confirma el diagnóstico es la adenopatía preauricular dolorosa, ese ganglio que se palpa justo delante de la oreja. Suele empezar en un ojo y pasar al otro en dos a tres días, y puede venir con fiebre y molestias al tragar, la fiebre faringoconjuntival."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El tratamiento es puramente de soporte: compresas frías y lágrimas artificiales sin preservantes."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y algo que se pregunta mucho: por su altísimo contagio por contacto de mano a ojo, se indica reposo laboral o escolar, y lavado frecuente de manos, por siete a diez días."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La conjuntivitis alérgica es una hipersensibilidad tipo uno por polen, ácaros o pelo de animales. Su signo cardinal, indiscutible, es el prurito intenso y bilateral. Si no hay picazón, el diagnóstico de alergia es muy poco probable."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Se acompaña de lagrimeo, edema palpebral y quemosis, ese edema gelatinoso de la conjuntiva, con papilas en empedrado en el párpado superior."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Se trata evitando el alérgeno, con compresas frías y antihistamínicos tópicos que además estabilizan el mastocito, como la olopatadina cada doce horas, o ketotifeno."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Los corticoides tópicos se reservan para casos graves, y solo bajo supervisión del oftalmólogo. Nunca son la primera línea que tú indicas en atención primaria."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora armemos el árbol con los tres datos que separan las cuatro conjuntivitis. Paciente con ojo rojo superficial, secreción y sin ningún signo de alarma de la clase pasada. Ahora hay que tipificar la conjuntivitis con tres preguntas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Mira el tipo de secreción, si hay prurito y si hay una adenopatía preauricular."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Secreción mucopurulenta espesa, pestañas pegadas al despertar: bacteriana común. Aseo más colirio de cloranfenicol cada cuatro horas por siete días."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Secreción acuosa con adenopatía preauricular dolorosa: viral por adenovirus. Compresas frías, lágrimas artificiales y reposo con aislamiento por el contagio."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Prurito intenso y bilateral, con papilas en empedrado: alérgica. Evitar el alérgeno y olopatadina o ketotifeno tópico."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Secreción purulenta en chorro con quemosis severa, en recién nacido o adulto joven sexualmente activo: gonocócica. Ceftriaxona sistémica y lavados continuos, de urgencia, por el riesgo de perforación corneal."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. Secreción mucopurulenta con pestañas pegadas: bacteriana común, con cloranfenicol. La trampa es sumar un corticoide pensando que acelera la mejoría."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Secreción acuosa con adenopatía preauricular dolorosa: viral por adenovirus. La trampa es darle un antibiótico, que no hace nada contra un virus."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Prurito bilateral intenso: alérgica, con antihistamínico tópico. La trampa es partir directo con un corticoide, en vez de con olopatadina."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y secreción purulenta en chorro con quemosis severa: gonocócica hiperaguda, con ceftriaxona sistémica. La trampa, la más peligrosa de esta clase, es pensar que un colirio antibiótico solo es suficiente. El gonococo perfora la córnea antes de que el colirio alcance a actuar."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Joven de diecinueve años, con ojo derecho rojo de cuarenta y ocho horas, que hoy también comenzó en el izquierdo. Sensación de arenilla, lagrimeo abundante, párpados hinchados, tos y molestias leves al tragar. Al examen: inyección conjuntival bilateral difusa, secreción serosa, y un nódulo doloroso justo delante de la oreja derecha. La visión es normal en ambos ojos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: colirio de cloranfenicol, compresas frías con lágrimas artificiales y aislamiento, ceftriaxona intramuscular, colirio de dexametasona, o derivar de urgencia. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Secreción acuosa, contagio de un ojo al otro, pródromo respiratorio y esa adenopatía preauricular dolorosa son la firma del adenovirus. No hay ningún signo de alarma, así que no se deriva de urgencia, y no lleva antibiótico ni corticoide, porque es un virus. Lo único activo aquí es el aislamiento, por lo contagiosa que es."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Pregunta real, del EUNACOM de julio de dos mil trece. Paciente de treinta y cinco años, con ojo rojo y secreción mucopurulenta de un día, al que se le indicó colirio de cloranfenicol cada ocho horas. Pero en vez de mejorar, evoluciona con más enrojecimiento, párpado hinchado y quemosis."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es celulitis orbitaria. La clave de esta pregunta no es el diagnóstico inicial, que sí era una conjuntivitis bacteriana común, sino saber reconocer cuándo un cuadro que parecía simple se complicó. El párpado que se hincha y la quemosis que empeora con tratamiento correcto son la bandera roja de que la infección avanzó más allá de la conjuntiva. Guarda esta idea, porque la próxima clase de este bloque profundiza justo en esa diferencia."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Una última pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Un recién nacido de veinte días, de un embarazo no controlado y parto en casa, es traído por secreción ocular bilateral de cinco días. Al examen: eritema conjuntival y secreción escasa en ambos ojos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el agente etiológico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: Neisseria meningitidis, Neisseria gonorrhoeae, Streptococcus pneumoniae, Streptococcus agalactiae, o Chlamydia trachomatis."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es Chlamydia trachomatis. Vimos que el gonococo da un cuadro violento en los primeros dos a cinco días, con secreción en chorro. Aquí el bebé tiene veinte días, y la secreción es escasa, no purulenta en chorro. Ese tiempo más largo y esa menor intensidad son justamente lo que distingue a la clamidia del gonococo en el recién nacido, y por eso se trata distinto: con azitromicina o eritromicina, en vez de ceftriaxona."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Tres preguntas te bastan: secreción mucopurulenta que pega las pestañas es bacteriana; secreción acuosa con adenopatía preauricular es viral."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Prurito intenso y bilateral es alérgica. Y secreción purulenta en chorro, con quemosis severa, es gonocócica hiperaguda."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La gonocócica es la única de las cuatro que perfora la córnea intacta, y la única que exige ceftriaxona sistémica, nunca solo un colirio."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y si te llevas una sola idea de hoy: ninguna conjuntivitis, de ninguno de los cuatro tipos, se trata con corticoides en atención primaria. Nos vemos en la próxima clase, donde vamos a los párpados y al saco lagrimal."
+    }
+  ]
+}

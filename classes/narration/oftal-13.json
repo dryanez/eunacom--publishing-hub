@@ -1,0 +1,180 @@
+{
+  "id": "oftal-13",
+  "title": "Oftalmologia 15.13: Retinopatía Hipertensiva: Cruces AV, Exudados Algodonosos y Edema Papilar",
+  "specialty": "Oftalmología",
+  "chars": 9656,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos la retinopatía hipertensiva. La retina es el único sitio del organismo donde puedes mirar directamente, sin ningún examen invasivo, cómo está sufriendo la microcirculación de un paciente hipertenso. Y el tema se resume en una sola pregunta de examen: ¿hay o no edema de papila? Esa pregunta separa un control ambulatorio de un ingreso a la unidad de cuidados intensivos. Vamos a eso."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el mecanismo, porque la clasificación entera nace de él. Cuando la presión arterial se mantiene elevada, la microvasculatura retiniana pasa por tres fases sucesivas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La primera es la fase vasoconstrictora: la arteriola se autorregula con un espasmo y un estrechamiento, difuso o focal, tratando de defenderse de la presión alta."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si la hipertensión sigue, viene la fase esclerótica: la íntima y la capa media de la arteriola se engrosan y se hialinizan, y la arteriola pierde su transparencia normal. Primero se ve como un hilo de cobre, con un reflejo luminoso cobrizo aumentado, y más adelante como un hilo de plata, donde la pared ya es tan opaca que no dejas ver la columna de sangre por dentro."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y la tercera es la fase exudativa. La pared del vaso se necrosa, se rompe la barrera hematorretiniana, y aparecen microinfartos que se ven como exudados algodonosos, junto con hemorragias en la capa de fibras nerviosas, en forma de llama."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Si el daño sigue avanzando, el último escalón es el edema de papila bilateral, con los bordes del disco óptico borrados. Y guarda esta idea, porque ese único hallazgo es el que define la emergencia hipertensiva maligna."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Esta es la clasificación universal que exige el examen. El grado uno es el más leve: solo estrechamiento arteriolar difuso, con el reflejo en hilo de cobre. El paciente no siente nada."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El grado dos suma los cruces arteriovenosos patológicos. Fíjate en los dos signos que se preguntan por nombre: el signo de Gunn, que es el afilamiento u ocultamiento de la vénula al pasar por debajo de la arteriola esclerosada, porque comparten la misma adventicia; y el signo de Salus, que es la deflexión de la vénula, como si el cruce la empujara en ángulo o en forma de ese."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El grado tres ya no es solo crónico: aparecen hemorragias retinianas en llama, exudados algodonosos, y a veces exudados duros que dibujan una estrella macular. Aquí la retina ya está isquémica de forma aguda."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el grado cuatro es todo lo anterior, más el edema de papila bilateral. Ese único hallazgo cambia por completo la conducta: deja de ser un tema de fondo de ojo y pasa a ser una emergencia médica."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, el manejo. Los grados uno y dos corresponden a una hipertensión crónica bien o moderadamente controlada, y se manejan titulando los antihipertensivos orales en atención primaria, sin urgencia."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El grado tres ya es una urgencia hipertensiva, con ajuste farmacológico más rápido y control estrecho, pero todavía no exige una unidad de cuidados intensivos."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El grado cuatro, en cambio, es una emergencia hipertensiva: casi siempre con presiones sobre doscientos con ciento veinte, y con encefalopatía hipertensiva o insuficiencia renal aguda asociada. Se hospitaliza en la unidad de cuidados intensivos, con monitorización invasiva, y se inicia labetalol o nitroprusiato de sodio endovenoso en infusión continua."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y aquí está la regla de oro que más se pregunta: el descenso tiene que ser gradual, bajando la presión arterial media solo entre un veinte y un veinticinco por ciento en las primeras dos a cuatro horas. Nunca normalices la presión de golpe, porque la autorregulación del cerebro y del nervio óptico colapsa, y puedes provocar un infarto cerebral isquémico o una neuropatía óptica isquémica que deja al paciente ciego por tu propio tratamiento."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Empieza siempre por lo mismo: examina el fondo de ojo y busca si los bordes de la papila están borrados en ambos ojos."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Confirma un grado cuatro: esto es una emergencia hipertensiva maligna, con daño de órgano blanco cerebral inminente."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Hospitaliza de inmediato en la unidad de cuidados intensivos e inicia labetalol o nitroprusiato endovenoso en infusión continua."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Desciende la presión arterial media de forma gradual, entre un veinte y un veinticinco por ciento en las primeras dos a cuatro horas. Nunca la normalices de golpe."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si no hay edema de papila, busca hemorragias o exudados algodonosos para terminar de clasificar el grado."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Clasifica como grado uno o dos: solo estrechamiento arteriolar o cruces arteriovenosos patológicos, sin hemorragias ni exudados."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Ajusta o intensifica el tratamiento antihipertensivo oral en atención primaria, sin necesidad de hospitalizar."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Clasifica como grado tres: hemorragias en llama y exudados algodonosos, todavía sin edema de papila."
+    },
+    {
+      "file": "s04_g08",
+      "text": "Intensifica el tratamiento de forma rápida y controla estrechamente, porque ya hay isquemia retiniana activa."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos la tabla completa. Grado uno: estrechamiento arteriolar leve, en hilo de cobre, por vasoconstricción funcional. Se maneja de forma ambulatoria."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Grado dos: hilo de plata, más los cruces arteriovenosos de Gunn y de Salus, por esclerosis de la adventicia compartida. Se optimiza el tratamiento oral."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Grado tres: hemorragias en llama y exudados algodonosos, por necrosis fibrinoide e isquemia aguda. Ya es una urgencia hipertensiva, con ajuste rápido."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y grado cuatro: todo lo anterior, más el edema de papila bilateral, por hipertensión intracraneana o hipertensión maligna. Es una emergencia: unidad de cuidados intensivos y fármacos endovenosos."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Mujer de cincuenta y cinco años, hipertensa crónica con mal control de su tratamiento oral, que consulta por un control habitual, sin ningún síntoma visual. Su presión arterial está en ciento noventa con ciento quince. Al fondo de ojo se ven hemorragias en llama y exudados algodonosos en ambos ojos, pero los bordes de la papila están nítidos, sin edema."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las opciones son: tranquilizarla y controlar en un año, hospitalizarla de inmediato en UCI con labetalol endovenoso, ajustar rápido el tratamiento oral y controlar estrechamente sin ingreso a UCI, dar nifedipino sublingual para normalizar la presión en minutos, o solo pedir una angiografía antes de decidir. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la C. Fíjate en el dato clave: no hay edema de papila. Eso descarta el grado cuatro, así que no corresponde hospitalizar en UCI ni usar fármacos endovenosos. Pero tampoco puedes esperar un año, porque las hemorragias y los exudados algodonosos ya marcan un grado tres, con isquemia retiniana activa: eso exige ajustar el tratamiento de forma rápida. Y el nifedipino sublingual es la trampa clásica: bajar la presión de golpe nunca es la respuesta correcta."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Esta es una pregunta representativa del banco de la especialidad, sin fecha del examen real, sobre el hallazgo que más distractores genera. Un paciente de sesenta y tres años, hipertenso crónico, va a control. Al fondo de ojo, sus arteriolas se ven estrechas, brillantes y cobrizas, y en los cruces arteriovenosos hay afilamiento y ocultamiento de las vénulas por debajo de las arteriolas, es decir, signo de Gunn positivo, sin hemorragias ni exudados."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿A qué grado de la clasificación de Keith-Wagener-Barker corresponde este hallazgo?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones son grado uno, grado dos, grado tres, grado cuatro, o retinopatía proliferativa grado B, que ni siquiera existe en esta clasificación."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B, grado dos. El signo de Gunn es justamente lo que define este grado, junto con la esclerosis en hilo de cobre o de plata. El grado uno no tiene cruces patológicos. Para subir a grado tres necesitarías hemorragias o exudados, y aquí el enunciado los descarta explícitamente. Y el grado cuatro exige, además, edema de papila, que tampoco aparece."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y una segunda pregunta representativa, esta vez sobre la conducta en la emergencia. Un hombre de cuarenta y cinco años llega a urgencias con una presión arterial de doscientos treinta con ciento cuarenta, cefalea de toda la cabeza y confusión. Al fondo de ojo hay borramiento de los bordes de ambas papilas, con sobreelevación, más exudados algodonosos y hemorragias en llama."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta terapéutica correcta respecto al manejo de su presión arterial?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: nifedipino sublingual para bajar la presión en quince minutos, hospitalizar en UCI con labetalol endovenoso bajando la presión arterial media entre un veinte y un veinticinco por ciento en las primeras horas, enalapril oral y enviarlo a la casa, punción lumbar antes de tratar la presión, o diuréticos de asa orales con analgesia."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. El edema de papila bilateral confirma el grado cuatro: es una emergencia hipertensiva maligna, y va directo a cuidados intensivos con fármacos endovenosos titulables. La trampa es la A: el nifedipino sublingual suena razonable con la presión tan alta, pero bajarla en quince minutos es justo lo que no debes hacer, porque colapsa la autorregulación cerebral y ocular. Enviarlo a la casa o pedir una punción lumbar antes de tratar la presión también retrasan una urgencia vital."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. Grado uno: hilo de cobre. Grado dos: se suman los cruces de Gunn o de Salus."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Grado tres: hemorragias en llama y exudados algodonosos. Y grado cuatro: todo lo anterior, más el edema de papila bilateral, que es el único hallazgo que define ese grado."
+    },
+    {
+      "file": "s09_g02",
+      "text": "El grado cuatro se hospitaliza en cuidados intensivos, con labetalol o nitroprusiato endovenoso en infusión continua."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y si te llevas una sola idea de hoy: nunca bajes la presión de golpe. La meta es reducir la presión arterial media entre un veinte y un veinticinco por ciento en las primeras dos a cuatro horas, sin excepción. Nos vemos en la próxima clase."
+    }
+  ]
+}

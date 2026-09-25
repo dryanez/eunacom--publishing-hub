@@ -18,6 +18,8 @@ const SPECIALTIES = [
   { key: 'infectologia', name: 'Infectología' },
   { key: 'reumatologia', name: 'Reumatología' },
   { key: 'neurologia', name: 'Neurología y Geriatría' },
+  { key: 'dermatologia', name: 'Dermatología' },
+  { key: 'oftalmologia', name: 'Oftalmología' },
 ];
 
 // Árboles de decisión: classes/pathways/*_pathways.cjs; una clase con guion propio puede traer el suyo en `pathway`.
