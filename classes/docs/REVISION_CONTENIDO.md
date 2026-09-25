@@ -410,6 +410,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-21 | No dice cómo confirmar la infección aguda por VIH con anticuerpos negativos (carga viral / PCR; Jul 2024 P62). |
 | infecto-22 | **No cubre el exantema súbito (roséola, herpes 6), con al menos 5 preguntas reales** (Dic 2018 P70, Jul 2025 P13, Jul 2024 P52, Ago 2021 P35, Jul 2013 P131), ni la enfermedad mano-pie-boca. No menciona la GN post estreptocócica tras escarlatina; sarampión solo clínica y notificación. |
 | infecto-23 | No cubre el tratamiento sintomático de la varicela ni a quién dar aciclovir (> 13 años, segundo caso intradomiciliario, grave o inmunosuprimido); no cubre la embarazada expuesta (serología, inmunoglobulina hiperinmune; Dic 2018 P89, Dic 2022 P119). Corticoides en Ramsay-Hunt solo en la tabla. |
+| infecto-24 | El título incluye "Fiebre sin foco" sin contenido (ni fiebre de origen desconocido); no trae los ítems del score MASCC. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -420,3 +421,4 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | **EUNACOM Diciembre 2024 · Pregunta 6 (usada en infecto-18)** | **Texto del banco corrupto: el agente conservó el enunciado y la respuesta (A, brucelosis) pero reconstruyó las alternativas. Revisar o quitar esa diapositiva.** |
 | EUNACOM Diciembre 2022 · Pregunta 43 | Lactante de 11 meses con 3 días de fiebre y luego exantema: clave Epstein-Barr; es roséola (herpes 6). |
 | EUNACOM Enero 2023 · Pregunta 116 | Famciclovir 500 mg c/8 h por 7 días también es correcto: dos respuestas válidas. |
+| **EUNACOM Julio 2013 · Pregunta 109 (usada en infecto-24)** | **Clave ceftazidima + amikacina; el libro hoy indica cefepime solo (en hem-21 se descartó). La voz lo aclara; revisar si se deja.** |
