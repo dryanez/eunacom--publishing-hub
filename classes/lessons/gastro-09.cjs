@@ -1,5 +1,11 @@
 // Clase 2.3 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_gastroenterologia.cjs (gastro-09).
+// Revisión: se agregan tres preguntas reales y fechadas del banco EUNACOM (diagnóstico
+// de celíaca con hepatitis como distractor, dermatitis herpetiforme, y la asociación con
+// hipotiroidismo autoinmune), que enseñan algo distinto del caso clínico y de los dos
+// casos representativos del libro (linfoma tras dieta sin gluten, y galactosemia del
+// recién nacido), que se mantienen porque el banco real no tiene una pregunta con esa
+// combinación exacta.
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -174,7 +180,53 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'Caso representativo · banco EUNACOM',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 25',
+      stem: 'Una paciente de 24 años presenta un cuadro de amenorrea y baja de peso, asociado a náuseas y dolor abdominal de varios meses de evolución. Tiene antecedente de una hermana gemela con hipotiroidismo. Sus exámenes muestran hematocrito de 28 %, blancos 9.600 por mm3, plaquetas 340.000 por mm3, bilirrubina 1,1 mg/dL, GOT 155 UI/L y GPT 120 UI/L.',
+      question: '¿Cuál es la conducta diagnóstica más adecuada?',
+      options: [
+        { letter: 'A', text: 'Solicitar IgM para virus hepatitis A' },
+        { letter: 'B', text: 'Realizar biopsia hepática' },
+        { letter: 'C', text: 'Solicitar colonoscopía' },
+        { letter: 'D', text: 'Solicitar ecografía abdominal' },
+        { letter: 'E', text: 'Solicitar anticuerpos antitransglutaminasa' },
+      ],
+      correct: 'E',
+      explanation: 'Amenorrea, baja de peso, dolor abdominal y anemia en una mujer joven con antecedente familiar de enfermedad autoinmune (hipotiroidismo) orientan a enfermedad celíaca, que puede oligosintomática y elevar discretamente las transaminasas. El estudio inicial son los anticuerpos antitransglutaminasa; la hepatitis es un distractor que no explica el resto del cuadro.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de veinticuatro años con amenorrea y baja de peso, con náuseas y dolor abdominal de varios meses. Tiene una hermana gemela con hipotiroidismo. Sus exámenes muestran anemia, con las transaminasas GOT y GPT levemente elevadas.',
+        question: '¿Cuál es la conducta diagnóstica más adecuada?',
+        options: 'Las alternativas: IgM para hepatitis A, biopsia hepática, colonoscopía, ecografía abdominal, o anticuerpos antitransglutaminasa. Piénsalo.',
+        answer: 'Es la E. Las transaminasas elevadas tientan hacia la hepatitis, pero no explican la amenorrea ni la baja de peso. Una mujer joven con antecedente familiar de una enfermedad autoinmune, como el hipotiroidismo de su hermana, y esta combinación de síntomas digestivos y carenciales, apunta a la enfermedad celíaca: se piden los anticuerpos antitransglutaminasa.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 98',
+      stem: 'Una paciente de 30 años, con antecedente de hipotiroidismo en tratamiento, consulta por diarrea de 3 meses de evolución, no disentérica, asociada a baja de peso y artralgias. Al examen físico destacan lesiones pruriginosas y vesiculares en el tronco y las extremidades.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Colitis ulcerosa' },
+        { letter: 'B', text: 'Enfermedad celíaca' },
+        { letter: 'C', text: 'Enfermedad de Crohn' },
+        { letter: 'D', text: 'Lupus eritematoso sistémico' },
+        { letter: 'E', text: 'Trastorno digestivo funcional' },
+      ],
+      correct: 'B',
+      explanation: 'La diarrea crónica con baja de peso es compatible con celíaca, Crohn o colitis ulcerosa, pero las lesiones cutáneas pruriginosas y vesiculares son una dermatitis herpetiforme, que se asocia específicamente a la enfermedad celíaca; las enfermedades inflamatorias intestinales dan eritema nodoso o pioderma gangrenoso, no este tipo de lesión.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de treinta años, con hipotiroidismo en tratamiento, con tres meses de diarrea sin sangre, baja de peso y dolor en las articulaciones. Al examen tiene lesiones que dan picazón y forman ampollas pequeñas, en el tronco y las extremidades.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las alternativas: colitis ulcerosa, enfermedad celíaca, enfermedad de Crohn, lupus, o trastorno digestivo funcional. Piénsalo.',
+        answer: 'Es la B, enfermedad celíaca. La diarrea con baja de peso podría ser cualquiera de las enfermedades inflamatorias intestinales, pero la lesión de piel es la clave: es una dermatitis herpetiforme, una erupción que da picazón y ampollas pequeñas, y que se asocia de forma específica a la celíaca. El Crohn y la colitis ulcerosa dan otras lesiones de piel, como el eritema nodoso.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Banco EUNACOM · Caso representativo',
       stem: 'Paciente con enfermedad celíaca que lleva 1 año con dieta sin gluten. Refiere seguirla de forma estricta, pero persiste con diarrea y baja de peso. Los anticuerpos anti-transglutaminasa están negativos.',
       question: '¿Cuál es la sospecha diagnóstica?',
       options: [
@@ -196,8 +248,8 @@ module.exports = {
 
     {
       type: 'quiz',
-      kicker: 'Pregunta real EUNACOM',
-      title: 'Caso representativo · banco EUNACOM',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Banco EUNACOM · Caso representativo',
       stem: 'Recién nacido de 12 días con ictericia prolongada, hepatomegalia, mal incremento ponderal y cataratas bilaterales detectadas en el examen ocular.',
       question: '¿Cuál es el tratamiento nutricional indicado?',
       options: [

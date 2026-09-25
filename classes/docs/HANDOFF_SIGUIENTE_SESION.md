@@ -24,7 +24,7 @@ Rama de trabajo: `claude/loving-ramanujan-0cwrvg` (hacer `git pull` al empezar y
 Gastro fue el primer libro y quedó con preguntas "Caso representativo" o con fechas inventadas del libro, y algunas clases
 recortadas por un límite de diapositivas que ya no existe.
 - Hecho: gastro-01, 02 (modelo, no tocar), 03, 04, 05.
-- En curso al cerrar la sesión anterior: gastro-06..09 (revisar con `git log` si quedó guardado; si no, rehacer).
+- Hecho también: gastro-06..09 (Sonnet; se separaron las secciones fusionadas y se agregaron las tablas que faltaban).
 - Pendiente: gastro-10..13 · 14..17 · 18..21 · 22..26.
   Casos conocidos: gastro-10 descartó la pregunta real Diciembre 2017 · Pregunta 26; gastro-12 juntó 4 secciones en 2 diapositivas;
   gastro-16 juntó lesiones benignas y malignas y no tiene tabla de trampas; gastro-18: buscar Q#66 y Q#101 que el libro menciona;

@@ -1,7 +1,11 @@
 // Clase 2.2 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_gastroenterologia.cjs (gastro-08).
-// Tema tier 1: las secciones 1 y 2 del libro (definiciones y planes A/B/C) van en un solo flujo,
-// y la tabla del libro (planes de hidratación) queda cubierta ahí, para no pasar de 8 diapositivas.
+// Revisión: se separan las secciones 1 (definiciones) y 2 (planes de hidratación) del
+// libro, que estaban fusionadas en una diapositiva; se agrega la tabla de planes A/B/C
+// del libro, que no estaba; se reemplaza el caso representativo (C. difficile) por la
+// misma situación clínica encontrada como pregunta real y fechada del banco, y se agregan
+// dos preguntas reales más (una de diagnóstico diferencial en diarrea aguda, otra sobre
+// el plan de hidratación C y una sobre constipación con alarma en el adulto).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -16,31 +20,49 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Definiciones',
+      title: 'La regla de los tres: diarrea y constipación',
+      cards: [
+        { title: 'Diarrea', tag: 'Regla de los 3', kind: 'key', items: [
+          { t: 'Más de 3 al día', d: 'Y de menor consistencia',
+            say: 'Primero las definiciones, con la regla de los tres. Diarrea son deposiciones de menor consistencia, más de tres al día.' },
+          { t: 'Aguda < 2 sem · prolongada 2–4 · crónica ≥ 4', d: 'El tiempo clasifica',
+            say: 'Por duración, la diarrea es aguda si dura menos de dos semanas, prolongada entre dos y cuatro, y crónica desde las cuatro semanas.' },
+        ] },
+        { title: 'Constipación', tag: 'Lo inverso', kind: 'normal', items: [
+          { t: 'Menos de 3 a la semana', d: 'Deposiciones duras',
+            say: 'Y constipación es lo inverso: deposiciones duras, menos de tres a la semana.' },
+        ] },
+        { title: 'Diarrea aguda', tag: 'Casi siempre viral', kind: 'criteria', items: [
+          { t: 'Infecciosa, más viral que bacteriana', d: 'Diagnóstico clínico',
+            say: 'La aguda es casi siempre infecciosa, y más viral que bacteriana. Por eso no se estudia la causa: el diagnóstico es clínico y el manejo, sintomático.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
-      kicker: 'Definiciones e hidratación',
-      title: 'El tiempo clasifica, la deshidratación decide el plan',
+      kicker: 'Hidratación',
+      title: 'La deshidratación decide el plan',
       nodes: [
-        { id: 'def', col: 0, row: 1, k: 'start', t: 'Diarrea', s: 'Más de 3 al día, menor consistencia' },
-        { id: 'agu', col: 1, row: 1, k: 'mech', t: 'Aguda: < 2 semanas', s: 'Casi siempre viral · diagnóstico clínico' },
-        { id: 'pa', col: 2, row: 0, k: 'good', t: 'Plan A: < 5 %', s: 'SRO 100–200 mL tras cada deposición' },
-        { id: 'pb', col: 2, row: 1, k: 'effect', t: 'Plan B: 5–10 %', s: 'SRO 50–100 mL/kg en 4–6 h' },
-        { id: 'pc', col: 2, row: 2, k: 'alert', t: 'Plan C: > 10 % o shock', s: 'Cristaloides endovenosos' },
-        { id: 'hip', col: 3, row: 2, k: 'trap', t: 'Hipernatremia', s: 'Soluciones hipotónicas o glucosalinas' },
+        { id: 'agu', col: 0, row: 1, k: 'start', t: 'Diarrea aguda', s: '¿Cuánto perdió de peso?' },
+        { id: 'pa', col: 1, row: 0, k: 'good', t: 'Plan A: < 5 %', s: 'SRO 100–200 mL tras cada deposición' },
+        { id: 'pb', col: 1, row: 1, k: 'effect', t: 'Plan B: 5–10 %', s: 'SRO 50–100 mL/kg en 4–6 h' },
+        { id: 'pc', col: 1, row: 2, k: 'alert', t: 'Plan C: > 10 % o shock', s: 'Cristaloides endovenosos' },
+        { id: 'hip', col: 2, row: 2, k: 'trap', t: 'Hipernatremia', s: 'Soluciones hipotónicas o glucosalinas' },
       ],
       edges: [
-        { from: 'def', to: 'agu' },
         { from: 'agu', to: 'pa', label: 'sin deshidratación' },
         { from: 'agu', to: 'pb', label: 'moderada' },
         { from: 'agu', to: 'pc', label: 'grave' },
         { from: 'pc', to: 'hip' },
       ],
       steps: [
-        { show: ['def'], note: 'Regla de los 3: más de 3 al día; constipación, menos de 3 a la semana',
-          say: 'Primero las definiciones, con la regla de los tres. Diarrea son deposiciones de menor consistencia, más de tres al día. Y constipación es lo inverso: deposiciones duras, menos de tres a la semana.' },
-        { show: ['agu'], note: 'Aguda < 2 sem · prolongada 2–4 · crónica ≥ 4',
-          say: 'Por duración, la diarrea es aguda si dura menos de dos semanas, prolongada entre dos y cuatro, y crónica desde las cuatro semanas. La aguda es casi siempre infecciosa, y más viral que bacteriana. Por eso no se estudia la causa: el diagnóstico es clínico y el manejo, sintomático.' },
+        { show: ['agu'], note: 'Lo que sí se evalúa siempre',
+          say: 'Ahora, lo que sí se evalúa en toda diarrea aguda es la deshidratación, porque decide el plan.' },
         { show: ['pa'], note: 'En domicilio',
-          say: 'Lo que sí se evalúa es la deshidratación, porque decide el plan. Sin deshidratación, o con pérdida de peso menor al cinco por ciento: plan A. Sales de rehidratación oral, cien a doscientos mililitros después de cada deposición, en la casa.' },
+          say: 'Sin deshidratación, o con pérdida de peso menor al cinco por ciento: plan A. Sales de rehidratación oral, cien a doscientos mililitros después de cada deposición, en la casa.' },
         { show: ['pb'], note: 'Irritable, mucosas secas, ojos hundidos',
           say: 'Deshidratación moderada, entre cinco y diez por ciento, con irritabilidad, mucosas secas y ojos hundidos: plan B. Sales orales de cincuenta a cien mililitros por kilo en cuatro a seis horas, reevaluando. Si vomita, se fracciona a sorbos. Fíjate que sigue siendo por boca.' },
         { show: ['pc'], note: 'Shock, compromiso de conciencia, íleo, vómitos incoercibles',
@@ -106,6 +128,21 @@ module.exports = {
     },
 
     {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Diarrea aguda: plan de hidratación',
+      head: ['Plan', 'Estado del paciente', 'Conducta'],
+      rows: [
+        { cells: ['A', 'Sin deshidratación (< 5 % pérdida de peso)', 'SRO 100–200 mL post deposición, en casa'],
+          say: 'Repasemos los planes. Plan A, sin deshidratación, menos del cinco por ciento de pérdida de peso: sales de rehidratación oral en la casa.' },
+        { cells: ['B', 'Deshidratación moderada (5–10 %): irritable, mucosas secas, ojos hundidos', 'SRO 50–100 mL/kg en 4–6 h y reevaluar'],
+          say: 'Plan B, deshidratación moderada, entre cinco y diez por ciento: sales orales según el peso, y reevaluar en cuatro a seis horas.' },
+        { cells: ['C', 'Deshidratación grave (> 10 %), shock, compromiso de conciencia, íleo, vómitos incoercibles', 'Cristaloides endovenosos'],
+          say: 'Y plan C, deshidratación grave o shock: cristaloides por vena.' },
+      ],
+    },
+
+    {
       type: 'quiz',
       kicker: 'Caso clínico',
       title: 'Caso clínico',
@@ -131,23 +168,69 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'Caso representativo · banco EUNACOM',
-      stem: 'Hombre de 46 años con diarrea líquida de 3 semanas, que comenzó 10 días después de terminar amoxicilina-clavulánico por una neumonía. Sin sangre en las deposiciones.',
-      question: '¿Cuál es el examen más adecuado para confirmar la etiología?',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 30',
+      stem: 'Un paciente de 34 años lleva 48 horas con dolor abdominal tipo cólico, que ha ido en aumento, asociado a deposiciones líquidas abundantes y sensación febril. Al examen físico tiene temperatura axilar de 37,1 °C, frecuencia cardíaca de 80, presión arterial 120/80, dolor a la palpación del abdomen, mayor en la fosa ilíaca derecha, sin signo de Blumberg. Una ecografía abdominal muestra inflamación del íleon distal y del colon derecho, y el apéndice con leve edema de la pared y un coprolito en su base.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Coprocultivo corriente' },
-        { letter: 'B', text: 'PCR de toxina para Clostridioides difficile en deposiciones' },
-        { letter: 'C', text: 'Parasitológico seriado de deposiciones' },
-        { letter: 'D', text: 'Colonoscopía con biopsias' },
-        { letter: 'E', text: 'Calprotectina fecal' },
+        { letter: 'A', text: 'Apendicitis aguda' },
+        { letter: 'B', text: 'Enteritis infecciosa' },
+        { letter: 'C', text: 'Diverticulitis aguda' },
+        { letter: 'D', text: 'Enfermedad de Crohn' },
+        { letter: 'E', text: 'Colitis isquémica' },
       ],
       correct: 'B',
-      explanation: 'Diarrea hasta un mes después de usar antibióticos obliga a descartar C. difficile. El examen de elección es la PCR de toxina en deposiciones. Tratamiento: metronidazol oral y, si falla, vancomicina oral; la respuesta se evalúa por la clínica, no repitiendo la PCR.',
+      explanation: 'El dolor en fosa ilíaca derecha con diarrea, fiebre baja y sin signo de Blumberg, con inflamación difusa del íleon y del colon derecho en la ecografía (no solo del apéndice), orienta a una enteritis infecciosa que compromete la zona ileocecal; el edema leve del apéndice y el coprolito son un hallazgo acompañante, no el foco principal.',
       say: {
-        stem: 'Y ahora una pregunta del banco EUNACOM. Hombre de cuarenta y seis años con diarrea líquida de tres semanas, que empezó diez días después de terminar amoxicilina con ácido clavulánico por una neumonía. Sin sangre.',
-        question: '¿Cuál es el examen más adecuado para confirmar la causa?',
-        options: 'Las opciones: coprocultivo, PCR de toxina de Clostridioides difficile, parasitológico seriado, colonoscopía con biopsias, o calprotectina fecal. Piénsalo.',
-        answer: 'La respuesta es la B. Diarrea prolongada que parte después de un antibiótico, dentro del mes: es Clostridioides difficile hasta demostrar lo contrario, y se confirma con PCR de toxina. El parasitológico tienta, porque es una diarrea prolongada, pero el dato del antibiótico manda. Y recuerda: después del tratamiento no se repite la PCR, porque puede seguir positiva por semanas.',
+        stem: 'Vamos con una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y cuatro años con dos días de dolor abdominal tipo cólico, en aumento, deposiciones líquidas abundantes y sensación febril. No tiene signo de Blumberg, y la ecografía muestra inflamación del íleon distal y del colon derecho, con el apéndice apenas edematoso y un coprolito en su base.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las alternativas: apendicitis aguda, enteritis infecciosa, diverticulitis aguda, enfermedad de Crohn, o colitis isquémica. Piénsalo.',
+        answer: 'Es la B, enteritis infecciosa. El coprolito y el dolor en la fosa ilíaca derecha tientan hacia la apendicitis, pero la ecografía muestra la inflamación repartida en el íleon y el colon derecho, no concentrada en el apéndice, que además está apenas edematoso y sin signo de Blumberg. Es un cuadro de diarrea aguda que se disfraza de abdomen agudo quirúrgico.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 132',
+      stem: 'Un paciente es hospitalizado durante 10 días por una neumonía neumocócica adquirida en la comunidad. Algunos días después de ser dado de alta, presenta diarrea líquida abundante, con 5 a 6 evacuaciones al día, asociada a dolor abdominal, malestar general y febrículas hasta 37,3 °C.',
+      question: '¿Cuál es el examen de elección para continuar el estudio?',
+      options: [
+        { letter: 'A', text: 'Colonoscopía' },
+        { letter: 'B', text: 'Parasitológico ampliado de deposiciones' },
+        { letter: 'C', text: 'Coprocultivo' },
+        { letter: 'D', text: 'PCR para Clostridioides difficile' },
+        { letter: 'E', text: 'Ecografía abdominal' },
+      ],
+      correct: 'D',
+      explanation: 'Diarrea que aparece después de una hospitalización con uso de antibióticos obliga a descartar Clostridioides difficile. El examen de elección es la PCR de toxina en deposiciones, que reemplazó a las pruebas de toxina A y B.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente hospitalizado diez días por una neumonía, que después del alta presenta diarrea líquida abundante, cinco a seis veces al día, con dolor abdominal y febrículas.',
+        question: '¿Cuál es el examen de elección para continuar el estudio?',
+        options: 'Las opciones: colonoscopía, parasitológico ampliado, coprocultivo, PCR para Clostridioides difficile, o ecografía abdominal. Piénsalo.',
+        answer: 'Es la D. Diarrea que aparece tras una hospitalización con antibióticos es Clostridioides difficile hasta demostrar lo contrario, y el examen de elección es la PCR de toxina en deposiciones. El coprocultivo tienta, porque suena razonable pedirlo primero, pero no detecta esta bacteria de la forma en que la detecta la PCR.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2016 · Pregunta 50',
+      stem: 'Un paciente de 70 años consulta por un cuadro de varios meses de evolución de constipación, alternado con diarrea. Su examen físico no aporta mayor información. En sus exámenes destaca hematocrito de 36 % y hemoglobina de 12 g/dL.',
+      question: '¿Qué examen debe solicitarse a continuación?',
+      options: [
+        { letter: 'A', text: 'Test de sangre oculta en deposiciones' },
+        { letter: 'B', text: 'Ecografía abdominal' },
+        { letter: 'C', text: 'TAC de abdomen y pelvis' },
+        { letter: 'D', text: 'Colonoscopía' },
+        { letter: 'E', text: 'Rectosigmoidoscopía' },
+      ],
+      correct: 'D',
+      explanation: 'Constipación que alterna con diarrea (cambio del hábito intestinal) en un adulto mayor de 50 años es una señal de alarma que obliga a descartar cáncer de colon con colonoscopía, aunque los exámenes básicos aún estén casi normales.',
+      say: {
+        stem: 'Y una última pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años con varios meses de constipación que alterna con diarrea. Su hematocrito y su hemoglobina están casi normales.',
+        question: '¿Qué examen debe solicitarse a continuación?',
+        options: 'Las opciones: sangre oculta en deposiciones, ecografía abdominal, TAC de abdomen y pelvis, colonoscopía, o rectosigmoidoscopía. Piénsalo.',
+        answer: 'Es la D, colonoscopía. Setenta años y un cambio del hábito intestinal, que alterna constipación con diarrea, son dos señales de alarma: la edad de inicio y el cambio reciente del patrón. Aunque el hematocrito casi no esté alterado, esa combinación en un adulto mayor obliga a descartar cáncer de colon con colonoscopía.',
       },
     },
 
