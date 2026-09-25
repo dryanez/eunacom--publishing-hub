@@ -433,6 +433,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-06 | Profilaxis con "3 o más crisis al mes" (texto) | "≥ 3–4 crisis mensuales" (keyPoints) | 3 o más |
 | neuro-07 | Fenitoína EV en crisis trigeminal refractaria y predominio femenino 2:1 (tabla) | No aparecen en el texto | Usa el predominio; omite fenitoína |
 | neuro-11 | Discinesias: bajar dosis unitaria y aumentar la frecuencia (texto) | Bajar dosis unitaria y mantener la frecuencia (tabla de gravedad) | El texto |
+| neuro-14 | MMSE patológico < 24 (texto) | Normal ≥ 27 y DCL 24–27 (tabla A); normal 27–30, leve 20–23, sin categoría para 24–26 (tabla B) | El texto (MoCA < 26) |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -442,6 +443,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-06 | No da tratamiento agudo de la cefalea tensional. No hay preguntas reales de cefalea en racimos. |
 | neuro-09 | No cubre las convulsiones en el embarazo ni la eclampsia (sulfato de magnesio; Jul 2025 P40). |
 | neuro-10 | No menciona la neurocisticercosis como causa de primera crisis (Dic 2019 P144, única pregunta real del código). |
+| neuro-13 | No da alternativa a biperideno/difenhidramina en la distonía aguda (el banco usa lorazepam, Dic 2019 P8); no cubre acatisia ni discinesia tardía (Dic 2018 P36, Ago 2021 P13). Preguntas del libro de otros temas o corruptas en neuro-12 y neuro-13. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -453,6 +455,9 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2018 · Pregunta 173 | Migraña menstrual con aura: clave anticonceptivos combinados; los estrógenos están contraindicados en migraña con aura. |
 | EUNACOM Enero 2023 · Pregunta 127 y Diciembre 2022 · Pregunta 65 | Delirium en Parkinson: claves risperidona y alprazolam; se prefiere quetiapina y el libro proscribe antipsicóticos bloqueadores. |
 | EUNACOM Diciembre 2024 · Pregunta 40 | Corrupta (comentario del transcriptor en la alternativa A) y la clave no calza con el caso (parkinsonismo por cinarizina). |
+| EUNACOM Diciembre 2022 · Pregunta 78 | Flufenazina con fiebre y rigidez generalizada: clave "distonía aguda"; es síndrome neuroléptico maligno. |
+| EUNACOM Diciembre 2022 · Pregunta 9 | Alzheimer con agitación: clave diazepam; el libro contraindica benzodiacepinas en demencia. |
+| EUNACOM Diciembre 2025 · Pregunta 24 | La clave (haloperidol) no coincide con su propia explicación (risperidona). |
 
 ### A · Posible error del libro
 | Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
@@ -465,3 +470,5 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-09 | "Hipertermia maligna secundaria" en el status. | Ese término es la reacción a anestésicos. | "Hipertermia". |
 | neuro-11 | Criterios "MDS 2026"; GES de Parkinson "N° 67"; plazos GES de 60 y 20 días y DBS cubierta por GES. | Los criterios MDS son de 2015; Parkinson sería el GES N° 62 (el 67 es esclerosis múltiple); verificar plazos y cobertura. | Omite el número GES. |
 | neuro-10 | "Crisis durante el sueño" y "déficit focal permanente" dan por sí solos riesgo de recurrencia > 60 %. | En la definición ILAE 2014 aumentan el riesgo, pero no se definen como > 60 % por sí solos. | "El libro agrega". |
+| neuro-12 | Flunarizina y cinarizina: "bloqueadores de canales de calcio con acción dopaminérgica". | Causan parkinsonismo por bloqueo D2: son antidopaminérgicas. | "Bloquean los receptores de dopamina". |
+| neuro-12 | Respuesta a levodopa en parkinsonismo por fármacos "nula / contraindicada". | "Contraindicada" no tiene sustento; la conducta es suspender el fármaco causal. | No dar levodopa y suspender el fármaco. |
