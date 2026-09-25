@@ -11,7 +11,7 @@ Cada agente lee `classes/docs/AGENT_BRIEF.md`. Antes de escribir una clase revis
 4. Revisión de Gastro (reemplazar preguntas con fecha del libro o "Caso representativo" por preguntas reales;
    restaurar contenido recortado por el antiguo límite de diapositivas): gastro-01..05 · 06..09 · 10..13 · 14..17 · 18..21 · 22..26 — **hecho**
 5. Módulo 2 (esta sesión — clases nuevas, no revisión):
-   - Dermatología (16 clases, ids `derma-XX`): derma-01..04 **hecho** · 05..08 **hecho** · 09..12 · 13..16
+   - Dermatología (16 clases, ids `derma-XX`): derma-01..04 **hecho** · 05..08 **hecho** · 09..12 **hecho** · 13..16
    - Oftalmología (18 clases, ids `oftal-XX`): oftal-01..04 · 05..08 · 09..12 · 13..15 · 16..18
    - (Antigravity sigue con el resto de Cirugía y otros libros del Módulo 3 por su cuenta)
 
