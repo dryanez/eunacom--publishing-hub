@@ -434,6 +434,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-07 | Fenitoína EV en crisis trigeminal refractaria y predominio femenino 2:1 (tabla) | No aparecen en el texto | Usa el predominio; omite fenitoína |
 | neuro-11 | Discinesias: bajar dosis unitaria y aumentar la frecuencia (texto) | Bajar dosis unitaria y mantener la frecuencia (tabla de gravedad) | El texto |
 | neuro-14 | MMSE patológico < 24 (texto) | Normal ≥ 27 y DCL 24–27 (tabla A); normal 27–30, leve 20–23, sin categoría para 24–26 (tabla B) | El texto (MoCA < 26) |
+| neuro-17 | Rocuronio o vecuronio a un décimo de la dosis (texto y tabla) | Curarizantes "contraindicados absolutos" (keyPoints) | El texto |
+| neuro-17 | Anti-MuSK en 30–40 % de los seronegativos (texto) | 35–40 % (tabla) | 30–40 % |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -472,3 +474,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-10 | "Crisis durante el sueño" y "déficit focal permanente" dan por sí solos riesgo de recurrencia > 60 %. | En la definición ILAE 2014 aumentan el riesgo, pero no se definen como > 60 % por sí solos. | "El libro agrega". |
 | neuro-12 | Flunarizina y cinarizina: "bloqueadores de canales de calcio con acción dopaminérgica". | Causan parkinsonismo por bloqueo D2: son antidopaminérgicas. | "Bloquean los receptores de dopamina". |
 | neuro-12 | Respuesta a levodopa en parkinsonismo por fármacos "nula / contraindicada". | "Contraindicada" no tiene sustento; la conducta es suspender el fármaco causal. | No dar levodopa y suspender el fármaco. |
+| neuro-15 | "Trazodona o sertralina" como ISRS en la demencia frontotemporal. | La trazodona no es un ISRS. | "Serotoninérgicos". |
+| neuro-16 | "PImáx < −30 cmH2O (o más positiva que −20)" como criterio de riesgo. | El signo está mal: el riesgo es no alcanzar −30. keyPoints además dice "< 30". | "No alcanza menos treinta". |
+| neuro-16 | Arreflexia "patognomónica"; corticoides "formalmente contraindicados". | La arreflexia es necesaria, no patognomónica; los corticoides no sirven, pero no hay contraindicación formal. | Sigue el libro en corticoides. |
+| neuro-17 | Respuesta a succinilcolina "errática". | En la miastenia hay resistencia a la succinilcolina. | Se omite. |
