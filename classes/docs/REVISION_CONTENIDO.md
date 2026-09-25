@@ -485,3 +485,10 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-17 | Respuesta a succinilcolina "errática". | En la miastenia hay resistencia a la succinilcolina. | Se omite. |
 | neuro-18 | Los anti-CD20 "degranulan" linfocitos B; bandas oligoclonales ausentes en "suero materno/sanguíneo". | Los anti-CD20 depletan linfocitos B; "materno" no corresponde en el adulto. | Términos corregidos. |
 | neuro-20 | "Conarizina" como sedante vestibular. | Es cinarizina. | "Cinarizina". |
+
+## Dermatología
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| derma-03, derma-06, derma-07, derma-08 | El código Perfil V3 del tema, buscado en `class_questions.cjs <id>`, devuelve preguntas reales de un tema vecino distinto (no del tema de la clase): derma-03 (rosácea, código 6.01.1.003) recibe preguntas de cáncer de piel; derma-08 (urticaria, código 6.01.1.002) recibe una pregunta de alopecia areata (la misma que sí es correcta para derma-04, que comparte ese código). Mismo patrón ya documentado en otros libros (Diabetes, Neumología — ver nota general arriba). Los agentes buscaron por tema (`--search`) en vez de por código y usaron solo las preguntas que de verdad corresponden; las mal asignadas no se usaron. |
