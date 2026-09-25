@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Hitos madurativos cardinales, baterías EEDP y TEPSI, estratificación de riesgo según Chile Crece Contigo y banderas rojas de derivación neurológica',
-      say: 'Bienvenidos a la clase sobre desarrollo psicomotor infantil, un eje fundamental de la atención primaria y una temática altamente evaluada en el examen EUNACOM. En esta sesión revisaremos los hitos madurativos cardinales por edad, dominaremos las baterías de tamizaje nacionales aplicadas en el control sano, aprenderemos a clasificar los puntajes de corte y fijaremos las banderas rojas que obligan a una derivación neurológica inmediata. Comencemos.',
+      say: 'Bienvenidos a la clase sobre desarrollo psicomotor infantil, un eje fundamental de la atención primaria y una temática ampliamente evaluada en el examen EUNACOM. En esta sesión revisaremos los hitos madurativos cardinales por trimestres, analizaremos en detalle las dos baterías de tamizaje nacionales aplicadas en el control sano, aprenderemos a clasificar los puntajes de corte y fijaremos las banderas rojas que obligan a una derivación neurológica inmediata. Comencemos.',
     },
 
     {
@@ -44,40 +44,40 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Hitos madurativos cardinales',
-      title: 'Hitos Madurativos por Trimestres: Del Sostén Cefálico a la Marcha',
+      kicker: 'Primer semestre',
+      title: 'Hitos Madurativos del Primer Semestre: De 3 a 6 Meses de Vida',
       cards: [
         {
-          title: 'Hitos del Primer Año de Vida',
-          tag: 'De tres a doce meses',
+          title: 'Hito de los Tres Meses de Vida',
+          tag: 'Sostén cefálico y sonrisa social',
           kind: 'key',
           items: [
             {
-              t: 'Tres y seis meses de vida',
-              d: '3 meses: sostén cefálico firme y sonrisa social; 6 meses: sedestación con apoyo y giro de prono a supino',
-              say: 'A los tres meses el lactante debe lograr sostén cefálico firme al sentarlo, sonrisa social responsiva, vocalizaciones guturales y mantener las manos abiertas. A los seis meses se sienta con apoyo en trípode, transfiere objetos de una mano a otra, gira de prono a supino y emite balbuceo con consonantes.',
+              t: 'Sostén cefálico firme y alineación axial',
+              d: 'Control antigravitatorio de cabeza y cuello al traccionar desde decúbito supino',
+              say: 'A los tres meses de vida el lactante debe lograr sostén cefálico firme sin oscilaciones al llevarlo a posición sentada, manteniendo manos entreabiertas y siguiendo objetos en ciento ochenta grados.',
             },
             {
-              t: 'Ocho a nueve y doce meses de vida',
-              d: '8 meses: sedestación independiente; 12 meses: pinza madura, primeras palabras y señalamiento',
-              say: 'A los ocho meses logra la sedestación independiente sin ningún apoyo, presenta angustia de separación ante extraños y balbucea mamá o papá inespecífico. A los doce meses domina la pinza fina madura índice pulgar, emite sus primeras palabras con sentido y señala con el dedo para pedir cosas.',
+              t: 'Sonrisa social responsiva y gorjeo',
+              d: 'Interacción visual directa con cuidadores y emisión de vocalizaciones guturales (agú)',
+              say: 'En el área socio comunicativa aparece la sonrisa social responsiva ante el rostro humano y los primeros gorjeos o vocalizaciones guturales, marcando el inicio del diálogo afectivo temprano.',
             },
           ],
         },
         {
-          title: 'Hitos del Segundo Año de Vida',
-          tag: 'De dieciocho a veinticuatro meses',
+          title: 'Hito de los Seis Meses de Vida',
+          tag: 'Sedestación en trípode y transferencia',
           kind: 'criteria',
           items: [
             {
-              t: 'Dieciocho meses: Marcha y juego simbólico',
-              d: 'Marcha autónoma fluida, torre de tres cubos, uso de cuchara y vocabulario de diez a veinte palabras',
-              say: 'A los dieciocho meses camina de forma totalmente independiente, sube escalones tomado de una mano, construye torres de tres cubos, utiliza la cuchara para alimentarse y maneja un vocabulario expresivo de diez a veinte palabras comprensibles para su entorno.',
+              t: 'Sedestación asistida con apoyo anterior en trípode',
+              d: 'Se apoya con ambas manos hacia adelante para mantener el equilibrio del tronco',
+              say: 'A los seis meses el lactante es capaz de mantenerse sentado con apoyo anterior en trípode apoyando sus manos sobre la colchoneta, y logra girar activamente su cuerpo de prono a supino.',
             },
             {
-              t: 'Veinticuatro meses: Frases y control motor avanzado',
-              d: 'Corre con seguridad, patea pelota, torre de seis cubos y formula frases de dos palabras conectadas',
-              say: 'A los dos años cumplidos corre con total agilidad, sube y baja escaleras solo, patea una pelota, apila seis cubos e hilvana frases de dos palabras conectadas con intención comunicativa clara, iniciando el control diurno de esfínteres.',
+              t: 'Transferencia bimanual y balbuceo consonántico',
+              d: 'Pasa objetos de una mano a otra con prensión palmar y emite sílabas como ma o da',
+              say: 'En la coordinación motriz destaca la capacidad de transferir un juguete de una mano a la otra, mientras que en el lenguaje debuta el balbuceo imitativo con sílabas simples.',
             },
           ],
         },
@@ -86,40 +86,166 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Baterías de tamizaje en Chile',
-      title: 'Instrumentos Estandarizados de Tamizaje: EEDP y TEPSI',
+      kicker: 'Segundo semestre',
+      title: 'Hitos Madurativos del Segundo Semestre: De 8 a 12 Meses de Vida',
       cards: [
         {
-          title: 'Escala de Evaluación del Desarrollo Psicomotor (EEDP)',
-          tag: 'De cero a veinticuatro meses',
+          title: 'Hito de los Ocho a Nueve Meses',
+          tag: 'Sedestación independiente y angustia',
           kind: 'key',
           items: [
             {
-              t: 'Áreas evaluadas en la EEDP',
-              d: 'Evalúa cuatro áreas: Motora, Coordinación, Lenguaje y Social en lactantes de 0 a 24 meses',
-              say: 'La escala de evaluación del desarrollo psicomotor estandarizada en Chile evalúa sistemáticamente cuatro áreas esenciales: motora gruesa, coordinación viso motriz, lenguaje y comportamiento social en lactantes desde el nacimiento hasta los dos años cumplidos.',
+              t: 'Sedestación independiente sin ningún apoyo',
+              d: 'Mantiene el equilibrio sentado con manos libres para manipular juguetes simultáneamente',
+              say: 'A los ocho meses cumplidos el niño logra sentarse solo sin ningún apoyo y con las manos totalmente libres para jugar, un hito fundamental para iniciar la alimentación complementaria.',
             },
             {
-              t: 'Edades de aplicación obligatoria por norma técnica',
-              d: 'Aplicación estatutaria a los 8 meses y a los 18 meses de vida en el control de salud infantil',
-              say: 'Por directriz oficial del Ministerio de Salud y del programa Chile Crece Contigo, esta batería debe aplicarse obligatoriamente a todos los lactantes a los ocho meses y a los dieciocho meses de vida dentro del control de salud infantil.',
+              t: 'Angustia ante extraños y balbuceo duplicado',
+              d: 'Diferencia a sus figuras de apego y emite cadenas silábicas dobles como mamá o papá',
+              say: 'Surge la angustia de separación o miedo ante extraños, evidenciando un apego selectivo normal, mientras que el balbuceo se enriquece con cadenas silábicas dobles inespecíficas.',
             },
           ],
         },
         {
-          title: 'Test de Desarrollo Psicomotor (TEPSI)',
-          tag: 'De dos a cinco años (veinticuatro a cincuenta y nueve meses)',
+          title: 'Hito de los Doce Meses (Primer Año)',
+          tag: 'Pinza madura, señalamiento y marcha incipiente',
+          kind: 'alert',
+          items: [
+            {
+              t: 'Pinza fina índice-pulgar madura',
+              d: 'Oposición precisa entre la yema del pulgar y el índice para tomar objetos diminutos',
+              say: 'Al año de vida se consolida la pinza fina madura entre el pulgar y el índice, permitiendo recoger migas u objetos pequeños sin arrastrar la mano en prensión palmar.',
+            },
+            {
+              t: 'Primeras palabras con significado y protoimperativo',
+              d: 'Dice una o dos palabras con sentido comunicativo real y señala con el dedo para pedir',
+              say: 'Emite sus primeras palabras intencionadas dirigidas a sus padres y utiliza el dedo índice para señalar objetos deseados, lo que se denomina gesto protoimperativo.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Segundo año',
+      title: 'Hitos Madurativos del Segundo Año: De 18 a 24 Meses de Vida',
+      cards: [
+        {
+          title: 'Hito de los Dieciocho Meses (Año y Medio)',
+          tag: 'Marcha autónoma y juego simbólico',
+          kind: 'alert',
+          items: [
+            {
+              t: 'Marcha autónoma independiente fluida',
+              d: 'Camina solo sin apoyo, sube escalones tomado de la mano y se agacha para recoger objetos',
+              say: 'A los dieciocho meses el niño camina de forma totalmente autónoma y fluida, sube peldaños tomado de una mano, utiliza la cuchara para comer y apila tres cubos en torre.',
+            },
+            {
+              t: 'Vocabulario expresivo de diez a veinte palabras',
+              d: 'Comprende órdenes simples, reconoce partes del cuerpo y utiliza juego funcional básico',
+              say: 'Maneja un repertorio de diez a veinte palabras con sentido claro, comprende instrucciones de un paso y reconoce partes de su cuerpo cuando se le solicita.',
+            },
+          ],
+        },
+        {
+          title: 'Hito de los Veinticuatro Meses (Dos Años)',
+          tag: 'Carrera, frases de dos palabras y control diurno',
+          kind: 'key',
+          items: [
+            {
+              t: 'Frases de dos palabras con intención comunicativa',
+              d: 'Conecta sustantivo y verbo para formular oraciones sencillas como quiero pan o vamos auto',
+              say: 'A los dos años cumplidos el hito lingüístico crucial es la combinación de dos palabras distintas para formar frases sencillas con sujeto y predicado como quiero agua o mamá ven.',
+            },
+            {
+              t: 'Control motor avanzado y juego cooperativo',
+              d: 'Corre ágilmente, patea una pelota sin caerse, torre de 6 cubos y control de esfínter diurno',
+              say: 'En el plano motor corre con destreza, patea una pelota, apila seis cubos e inicia las primeras pautas de control voluntario de esfínteres diurnos.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Escala de lactantes',
+      title: 'Batería EEDP: Evaluación del Desarrollo de 0 a 24 Meses',
+      cards: [
+        {
+          title: 'Estructura y Áreas Evaluadas en la EEDP',
+          tag: 'Cuatro dimensiones del desarrollo infantil',
+          kind: 'key',
+          items: [
+            {
+              t: 'Áreas Motora, Coordinación, Lenguaje y Social',
+              d: 'Setenta y cinco reactivos estandarizados que miden habilidades reflejas y voluntarias en lactantes',
+              say: 'La escala de evaluación del desarrollo psicomotor examina de manera objetiva cuatro áreas: motora, coordinación visomotriz, lenguaje comprensivo expresivo y comportamiento social adaptativo.',
+            },
+            {
+              t: 'Edades de aplicación obligatoria por norma técnica',
+              d: 'Aplicación universal estandarizada a los 8 meses y a los 18 meses de vida en el control infantil',
+              say: 'Por directriz obligatoria del Ministerio de Salud dentro del programa Chile Crece Contigo, esta batería debe aplicarse a todos los lactantes a los ocho y a los dieciocho meses de vida.',
+            },
+          ],
+        },
+        {
+          title: 'Cálculo del Coeficiente de Desarrollo (CD)',
+          tag: 'Puntaje estandarizado por edad cronológica',
           kind: 'criteria',
           items: [
             {
-              t: 'Áreas evaluadas en el TEPSI',
-              d: 'Evalúa tres áreas: Coordinación, Lenguaje y Motricidad en preescolares de 2 a 5 años',
-              say: 'El test de desarrollo psicomotor evalúa el rendimiento de los preescolares de dos a cinco años mediante cincuenta y dos ítems distribuidos en tres subtests específicos: coordinación visomotriz fina, lenguaje verbal y motricidad gruesa.',
+              t: 'Mes base, puntaje adicional y edad mental',
+              d: 'Se calcula la edad mental a partir de los ítems aprobados y se relaciona con la edad cronológica',
+              say: 'La prueba determina la edad mental del lactante mediante la suma de reactivos aprobados sobre el mes base, calculando el coeficiente de desarrollo estandarizado por tablas de conversión nacional.',
             },
             {
-              t: 'Edad de aplicación universal programada',
-              d: 'Aplicación estandarizada en atención primaria a los 3 años cumplidos (treinta y seis meses)',
-              say: 'En todos los centros de salud familiar del país, el test preescolar tiene su aplicación universal y programada fijada por protocolo a los tres años cumplidos, equivalente a los treinta y seis meses de edad.',
+              t: 'Ajuste estricto en niños prematuros',
+              d: 'Hasta los dos años de vida la evaluación del desarrollo debe ajustarse por edad gestacional corregida',
+              say: 'En niños con antecedente de prematurez la aplicación de la batería debe corregirse por edad gestacional restando las semanas que faltaron para el término hasta cumplir los dos años.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Test preescolar',
+      title: 'Batería TEPSI: Tamizaje en Preescolares de 2 a 5 Años',
+      cards: [
+        {
+          title: 'Estructura y Áreas Evaluadas en el TEPSI',
+          tag: 'Coordinación, Lenguaje y Motricidad',
+          kind: 'key',
+          items: [
+            {
+              t: 'Cincuenta y dos reactivos en tres subtests',
+              d: 'Subtest de Coordinación (16 ítems), Subtest de Lenguaje (24 ítems) y Subtest de Motricidad (12 ítems)',
+              say: 'El test de desarrollo psicomotor preescolar evalúa a niños entre dos y cinco años a través de cincuenta y dos ítems distribuidos en coordinación motriz fina, lenguaje verbal y motricidad gruesa.',
+            },
+            {
+              t: 'Aplicación universal a los tres años cumplidos',
+              d: 'Hito estatutario de tamizaje masivo a los 36 meses de edad en la red de atención primaria',
+              say: 'En todos los centros de salud familiar del país el test preescolar tiene su aplicación obligatoria protocolizada a los tres años cumplidos, equivalentes a treinta y seis meses.',
+            },
+          ],
+        },
+        {
+          title: 'Puntaje T y Coeficiente Estandarizado',
+          tag: 'Conversión psicométrica nacional',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Escala psicométrica con media cincuenta y desvío diez',
+              d: 'El puntaje bruto se transforma en Puntaje T según grupos de edad de seis meses',
+              say: 'El puntaje bruto se convierte mediante tablas normadas en un Puntaje T estandarizado, permitiendo comparar el desempeño del preescolar respecto a su grupo de pares en Chile.',
+            },
+            {
+              t: 'Pesquisa oportuna antes del ingreso escolar',
+              d: 'Detecta rezagos en motricidad fina y lenguaje previo a la transición a la educación parvularia',
+              say: 'Su objetivo sanitario es pesquisar oportunamente desfases en el lenguaje y motricidad fina antes del ingreso a kínder, permitiendo una nivelación oportuna en el sistema escolar.',
             },
           ],
         },
@@ -129,22 +255,22 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Estratificación y conducta',
-      title: 'Puntajes de Corte y Flujo de Intervención en Atención Primaria',
+      title: 'Puntajes de Corte y Flujo Asistencial en Atención Primaria',
       cards: [
         {
-          title: 'Clasificación del Coeficiente de Desarrollo',
-          tag: 'Puntajes de corte oficiales MINSAL',
+          title: 'Rangos de Corte en EEDP y TEPSI',
+          tag: 'Normalidad, rezago, riesgo y retraso',
           kind: 'alert',
           items: [
             {
-              t: 'Normal y Normal con Rezago',
-              d: 'Puntaje mayor o igual a 85 puntos; rezago si el puntaje global es normal pero reprueba un ítem específico',
-              say: 'Un coeficiente de desarrollo igual o superior a ochenta y cinco puntos define normalidad. Si el puntaje global es normal pero el niño reprueba un ítem específico del test, se cataloga formalmente como desarrollo normal con rezago.',
+              t: 'Normalidad y Normal con Rezago (mayor o igual a 85)',
+              d: 'Normal: puntaje mayor o igual a 85; Rezago: aprueba el global pero reprueba un reactivo específico',
+              say: 'Un puntaje igual o superior a ochenta y cinco puntos define normalidad. Si aprueba el puntaje global pero falla un reactivo puntual del test, se clasifica como normal con rezago.',
             },
             {
-              t: 'Riesgo y Retraso del Desarrollo',
-              d: 'Riesgo: 70 a 84 puntos. Retraso psicomotor formal: menor a 70 puntos',
-              say: 'Un resultado entre setenta y ochenta y cuatro puntos se clasifica como riesgo de déficit psicomotor, mientras que cualquier puntuación estrictamente inferior a setenta puntos constituye retraso del desarrollo psicomotor comprobado.',
+              t: 'Riesgo (70 a 84 puntos) y Retraso (menor a 70 puntos)',
+              d: 'Riesgo: déficit leve a moderado; Retraso psicomotor formal: puntaje menor a 70 puntos',
+              say: 'Un resultado entre setenta y ochenta y cuatro puntos clasifica como riesgo de déficit, mientras que una puntuación inferior a setenta puntos constituye retraso del desarrollo psicomotor.',
             },
           ],
         },
@@ -154,14 +280,14 @@ module.exports = {
           kind: 'key',
           items: [
             {
-              t: 'Conducta en categoría de Riesgo (70 a 84 puntos)',
-              d: 'Ingreso inmediato a Sala de Estimulación de APS y reevaluación con la batería en 60 a 90 días',
-              say: 'Todo lactante o preescolar diagnosticado en categoría de riesgo debe ingresar inmediatamente a la sala de estimulación comunal para intervención terapéutica multidisciplinaria, planificando su reevaluación estandarizada con la misma batería en sesenta días.',
+              t: 'Conducta en categoría de Riesgo: Sala de Estimulación',
+              d: 'Ingreso inmediato a la Sala de Estimulación de APS y reevaluación estandarizada en 60 a 90 días',
+              say: 'Todo niño calificado en riesgo debe ingresar inmediatamente a la sala de estimulación comunal para intervención con educadora o kinesiólogo, reevaluándose con la batería en sesenta días.',
             },
             {
-              t: 'Conducta en categoría de Retraso (menor a 70 puntos)',
-              d: 'Evaluación médica inmediata en APS y derivación prioritaria a pediatría o neurología infantil',
-              say: 'La clasificación de retraso psicomotor exige una evaluación médica diagnóstica presencial inmediata para pesquisar etiologías metabólicas, genéticas o neurológicas subyacentes, y la derivación prioritaria e interconsulta a neurología infantil o pediatría.',
+              t: 'Conducta en categoría de Retraso: Médico y Especialista',
+              d: 'Evaluación médica diagnóstica inmediata en APS y derivación prioritaria a Neurología Infantil',
+              say: 'El retraso psicomotor exige evaluación médica presencial en el centro de salud para descartar etiologías genéticas o metabólicas y derivación prioritaria a neurología infantil.',
             },
           ],
         },
@@ -171,39 +297,81 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Banderas rojas del neurodesarrollo',
-      title: 'Banderas Rojas y Signos de Alarma que Exigen Derivación Inmediata',
+      title: 'Banderas Rojas Motoras y Sensoriales de Alerta Absoluta',
       cards: [
         {
-          title: 'Banderas Rojas Motoras y Sensoriales',
-          tag: 'Edades límite absolutas de logro',
+          title: 'Límites Máximos de Logro Postural y Motor',
+          tag: 'Edades techo que nunca deben superarse',
           kind: 'alert',
           items: [
             {
-              t: 'Límites de sostén cefálico y sedestación',
-              d: 'Ausencia de sostén cefálico a los 4 meses o falta de sedestación sin apoyo a los 9 meses',
-              say: 'La ausencia de sostén cefálico a los cuatro meses o la incapacidad para mantenerse sentado sin apoyo a los nueve meses representan alteraciones mayores del tono muscular axial que obligan a estudio etiológico inmediato sin dilaciones.',
+              t: 'Falta de sostén cefálico a los cuatro meses',
+              d: 'Incapacidad de mantener la cabeza erguida a los 4 meses es signo de hipotonía axial severa',
+              say: 'La ausencia de sostén cefálico firme a los cuatro meses de vida constituye una bandera roja mayor que orienta a hipotonía muscular central o daño de motoneurona.',
             },
             {
-              t: 'Límite máximo para la marcha: 18 meses',
-              d: 'No caminar de forma independiente a los 18 meses es bandera roja absoluta; nunca esperar a los 2 años',
-              say: 'Graben este punto cardinal: el límite biológico absoluto para lograr la marcha independiente son los dieciocho meses. No caminar de forma autónoma a los dieciocho meses nunca es una variante normal y exige derivación médica prioritaria.',
+              t: 'Falta de sedestación sin apoyo a los nueve meses',
+              d: 'No mantenerse sentado solo a los 9 meses traduce retraso motor o diplejía en evolución',
+              say: 'No lograr sentarse sin apoyo a los nueve meses de vida refleja una falla grave del tono del tronco que impide la bipedestación y exige estudio diagnóstico inmediato.',
             },
           ],
         },
         {
-          title: 'Banderas Rojas Sociales y Regresión',
-          tag: 'Sospecha de TEA y neurodegeneración',
+          title: 'Límite Máximo para la Marcha Independiente',
+          tag: 'Dieciocho meses: el corte absoluto',
           kind: 'alert',
           items: [
             {
-              t: 'Ausencia de sonrisa y de señalar con el dedo',
-              d: 'Falta de sonrisa social a los 3 meses o no señalar para pedir objetos a los 12 meses',
-              say: 'La falta de sonrisa social responsiva a los tres meses o no señalar con el dedo para pedir cosas a los doce meses constituyen banderas rojas tempranas para sospechar trastornos del neurodesarrollo o del espectro autista.',
+              t: 'No caminar de forma autónoma a los 18 meses',
+              d: 'Bandera roja cardinal para el examen; nunca tranquilizar diciendo que es normal a los 2 años',
+              say: 'Graben este corte cardinal para el EUNACOM: los dieciocho meses son el límite superior estricto para la marcha independiente. No caminar a esa edad jamás es una variante normal.',
             },
             {
-              t: 'Pérdida de habilidades adquiridas (Regresión)',
-              d: 'La pérdida de cualquier pauta ya lograda es signo de alarma máxima de patología metabólica o regresión autista',
-              say: 'La pérdida o regresión de cualquier destreza psicomotora previamente consolidada, ya sea motriz, de lenguaje o social, es la alarma neurológica de mayor gravedad y orienta hacia enfermedades neurodegenerativas, metabólicas o del espectro autista.',
+              t: 'Signos focales piramidales o marcha en puntillas espástica',
+              d: 'Hipertonía de piernas, hiperreflexia rotuliana y Babinski orientan a diplejía espástica',
+              say: 'La marcha en puntas de pies acompañada de rigidez de piernas, hiperreflexia o signo de Babinski orienta a daño piramidal por parálisis cerebral espástica en prematuros.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trastornos de la comunicación',
+      title: 'Pesquisa Temprana de Trastornos del Espectro Autista (TEA)',
+      cards: [
+        {
+          title: 'Signos de Alerta Temprana en la Comunicación Social',
+          tag: 'De doce a dieciocho meses',
+          kind: 'alert',
+          items: [
+            {
+              t: 'Ausencia de respuesta al nombre y falta de contacto visual',
+              d: 'No orientarse al escuchar su nombre a los 12 meses y escaso contacto ocular sostenido',
+              say: 'No voltear ni responder al escuchar su nombre a los doce meses y la falta de contacto visual sostenido representan señales tempranas de alteración de la reciprocidad socio comunicativa.',
+            },
+            {
+              t: 'Ausencia de señalamiento con el dedo (protoimperativo y declarativo)',
+              d: 'No apuntar con el índice a los 14-18 meses para pedir objetos o compartir interés',
+              say: 'La ausencia de señalamiento con el dedo índice a los catorce a dieciocho meses para pedir o compartir atención con los adultos es un marcador altamente sensible de sospecha de autismo.',
+            },
+          ],
+        },
+        {
+          title: 'Tamizaje con Cuestionario M-CHAT y Regresión',
+          tag: 'Cuestionario M-CHAT a los 18-24 meses',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Aplicación del M-CHAT en control de 18 a 24 meses',
+              d: 'Cuestionario para padres que tamiza riesgo de trastorno del espectro autista en APS',
+              say: 'En el control de salud de los dieciocho a veinticuatro meses se aplica el cuestionario modificado para autismo en niños pequeños para clasificar el riesgo socio comunicativo.',
+            },
+            {
+              t: 'Regresión o pérdida de habilidades adquiridas',
+              d: 'Pérdida de palabras, contacto o pautas motoras es signo de alarma máxima de enfermedad neurológica',
+              say: 'La pérdida o regresión de cualquier habilidad motora, de lenguaje o social previamente lograda es la alarma más grave del neurodesarrollo y exige derivación de urgencia a especialista.',
             },
           ],
         },

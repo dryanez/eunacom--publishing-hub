@@ -9,8 +9,8 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Calendario oficial PNI Chile 2026, hitos de los 12 y 18 meses, vacunas de virus vivos versus inactivadas, anticuerpo monoclonal nirsevimab y contraindicaciones reales',
-      say: 'Bienvenidos a la clase del Programa Nacional de Inmunizaciones de Chile, una de las políticas sanitarias más emblemáticas y evaluadas en el examen EUNACOM. En esta sesión revisaremos la composición exacta del calendario obligatorio nacional, memorizaremos los esquemas de vacunación por edades, comprenderemos el rol del anticuerpo monoclonal nirsevimab contra virus respiratorio sincicial y desmitificaremos las falsas contraindicaciones. Comencemos.',
+      subtitle: 'Calendario oficial PNI Chile, hitos de los 12 y 18 meses, vacunas de virus vivos versus inactivadas, anticuerpo monoclonal nirsevimab y contraindicaciones reales',
+      say: 'Bienvenidos a la clase del Programa Nacional de Inmunizaciones de Chile, una política pública fundamental y de altísima presencia en el examen EUNACOM. En esta sesión revisaremos la composición del calendario ministerial obligatorio, detallaremos cada hito por edad cronológica, analizaremos la incorporación histórica del anticuerpo monoclonal nirsevimab contra el virus respiratorio sincicial y fijaremos las contraindicaciones reales versus las falsas contraindicaciones. Comencemos.',
     },
 
     {
@@ -32,52 +32,52 @@ module.exports = {
         {
           show: ['neo', 'pri'],
           note: 'Inmunización temprana contra patógenos invasores letales',
-          say: 'La protección comienza en la sala de partos con la vacuna contra tuberculosis y hepatitis B, continuándose a los dos, cuatro y seis meses con la vacuna hexavalente acelular y el antígeno neumocócico para proteger las vías respiratorias y el torrente sanguíneo de infecciones bacterianas invasoras.',
+          say: 'La protección comienza en la maternidad con las vacunas de tuberculosis y hepatitis B, continuando a los dos, cuatro y seis meses con la vacuna hexavalente acelular y el antígeno neumocócico para proteger las vías respiratorias y el torrente sanguíneo.',
         },
         {
           show: ['año', 'die'],
           note: 'Consolidación con virus atenuados y refuerzos bacterianos',
-          say: 'Al cumplir el año de vida se introducen los virus vivos atenuados de la tresvírica junto al meningococo conjugado, y a los dieciocho meses se refuerza la hexavalente completando la protección con hepatitis A y la primera dosis de vacuna viva contra varicela.',
+          say: 'Al cumplir el año de vida se introducen los virus vivos atenuados de la tresvírica junto al meningococo conjugado, y a los dieciocho meses se refuerza la hexavalente completando la protección con hepatitis A y la primera dosis de varicela.',
         },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Primer semestre de vida',
-      title: 'Inmunizaciones del Recién Nacido y Lactante Menor (0 a 6 Meses)',
+      kicker: 'Recién nacido',
+      title: 'Inmunización en la Maternidad: Vacunas BCG y Hepatitis B',
       cards: [
         {
-          title: 'Vacunas del Recién Nacido en Maternidad',
-          tag: 'Primeras veinticuatro horas de vida',
+          title: 'Vacuna BCG Intradérmica',
+          tag: 'Prevención de formas graves de TBC',
           kind: 'key',
           items: [
             {
-              t: 'Vacuna BCG intradérmica en brazo izquierdo',
-              d: 'Previene formas graves meníngea y miliar de tuberculosis; requiere peso mínimo de 2.000 g',
-              say: 'La vacuna de bacilo de Calmette Guerin se administra por vía intradérmica estricta en el brazo izquierdo antes del alta de maternidad para prevenir formas diseminadas y meníngeas graves de tuberculosis en recién nacidos con peso igual o mayor a dos mil gramos.',
+              t: 'Administración intradérmica estricta en brazo izquierdo',
+              d: 'Dosis única que previene formas diseminadas meníngea y miliar de tuberculosis infantil',
+              say: 'La vacuna de bacilo de Calmette Guerin se inocula por vía intradérmica estricta en el deltoides izquierdo antes del alta de la maternidad, con el objetivo de prevenir la meningitis tuberculosa y la tuberculosis miliar.',
             },
             {
-              t: 'Vacuna Hepatitis B monovalente intramuscular',
-              d: 'Primera dosis en las primeras 12 a 24 horas para prevenir transmisión vertical perinatal',
-              say: 'La primera dosis de hepatitis B monovalente se inyecta por vía intramuscular en la cara anterolateral del muslo durante las primeras doce a veinticuatro horas de vida, previniendo eficazmente la transmisión vertical perinatal y el estado de portador crónico.',
+              t: 'Requisito de peso mínimo de dos mil gramos',
+              d: 'Contraindicada si el recién nacido pesa menos de 2.000 g o si presenta inmunodeficiencia conocida',
+              say: 'Un requisito reglamentario indispensable para administrar la vacuna contra tuberculosis es que el recién nacido alcance un peso mínimo de dos mil gramos; en prematuros con peso menor se difiere hasta lograr dicho umbral.',
             },
           ],
         },
         {
-          title: 'Esquema a los 2, 4 y 6 Meses de Vida',
-          tag: 'Hexavalente y Neumococo conjugado',
+          title: 'Vacuna Hepatitis B Monovalente Neonatal',
+          tag: 'Corte de transmisión vertical perinatal',
           kind: 'criteria',
           items: [
             {
-              t: 'Vacuna Hexavalente acelular (DTPa-Hib-HB-VIP)',
-              d: 'Se administra a los 2, 4 y 6 meses; contiene toxoides, antígenos acelulares y virus polio inactivado',
-              say: 'A los dos, cuatro y seis meses de vida se aplica la vacuna hexavalente acelular, que protege contra difteria, tétanos, tos convulsiva acelular, influenza tipo b, hepatitis B y poliomielitis inactivada inyectable, eliminando el riesgo de polio posvacunal asociado a la antigua formulación oral.',
+              t: 'Primeras doce a veinticuatro horas de vida',
+              d: 'Inyección intramuscular en cara anterolateral del muslo para evitar infección crónica',
+              say: 'La primera dosis de vacuna monovalente contra la hepatitis B debe inyectarse en el muslo durante las primeras doce a veinticuatro horas de vida, bloqueando la transmisión vertical del virus en el canal de parto.',
             },
             {
-              t: 'Vacuna Neumocócica conjugada a los 2 y 4 meses',
-              d: 'Protege contra neumonías y meningitis invasivas por neumococo; prematuros reciben 3.ª dosis a los 6 meses',
-              say: 'La vacuna neumocócica conjugada se administra a los dos y cuatro meses en el muslo contralateral, confiriendo alta protección contra bacteriemia, meningitis y neumonía invasora; los prematuros extremos reciben una tercera dosis primaria adicional a los seis meses.',
+              t: 'Profilaxis en hijos de madres con antígeno de superficie positivo',
+              d: 'Asociar inmunoglobulina específica antihepatitis B dentro de las primeras doce horas',
+              say: 'Si la madre es portadora confirmada de antígeno de superficie positivo para hepatitis B, se debe administrar simultáneamente la vacuna y la inmunoglobulina específica en sitios anatómicos separados antes de doce horas.',
             },
           ],
         },
@@ -86,40 +86,82 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Hitos mayores de vacunación',
-      title: 'Hitos Inmunológicos de los 12 y 18 Meses de Vida',
+      kicker: 'Lactante menor',
+      title: 'Inmunización a los 2, 4 y 6 Meses: Vacunas Hexavalente y Neumococo',
       cards: [
         {
-          title: 'El Hito del Año de Vida (12 Meses)',
-          tag: 'Tresvírica, Meningocócica y Neumococo',
+          title: 'Vacuna Hexavalente Acelular (DTPa-Hib-HB-VIP)',
+          tag: 'Dosis a los dos, cuatro y seis meses',
+          kind: 'key',
+          items: [
+            {
+              t: 'Protección combinada contra seis enfermedades',
+              d: 'Difteria, Tétanos, Tos convulsiva acelular, Haemophilus influenzae b, Hepatitis B y Polio inactivada',
+              say: 'La vacuna hexavalente inyectable protege de forma combinada contra difteria, tétanos, pertussis acelular, influenza tipo b, hepatitis B y poliomielitis inactivada, evitando reacciones adversas neurológicas severas.',
+            },
+            {
+              t: 'Eliminación del virus polio oral vivo atenuado',
+              d: 'Uso exclusivo de virus inactivado inyectable (VIP); erradicación de polio vacunal',
+              say: 'En Chile la vacuna polio oral viva fue completamente sustituida por el virus inactivado inyectable dentro de la formulación hexavalente, erradicando el riesgo de parálisis flácida asociada a la vacuna.',
+            },
+          ],
+        },
+        {
+          title: 'Vacuna Neumocócica Conjugada',
+          tag: 'Dosis a los dos y cuatro meses',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Protección contra serotipos invasores de neumococo',
+              d: 'Reduce drásticamente la tasa de bacteriemias ocultas, meningitis bacteriana y neumonías lobares',
+              say: 'La vacuna neumocócica conjugada se administra a los dos y cuatro meses de vida, reduciendo en forma muy significativa las bacteriemias invasivas, las meningitis agudas y las consolidaciones pulmonares bacterianas.',
+            },
+            {
+              t: 'Esquema especial en prematuros extremos',
+              d: 'Prematuros de menos de 32 semanas reciben dosis adicional de neumococo a los 6 meses (esquema tres más uno)',
+              say: 'En prematuros extremos nacidos con menos de treinta y dos semanas de gestación se incorpora una tercera dosis primaria de vacuna antineumocócica a los seis meses para garantizar una respuesta humoral suficiente.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hito del primer año',
+      title: 'El Hito de los 12 Meses: Tresvírica, Meningococo ACWY y Neumococo',
+      cards: [
+        {
+          title: 'Vacuna Tresvírica (SRP) y Meningococo ACWY',
+          tag: 'Virus vivos atenuados y polisacáridos conjugados',
           kind: 'alert',
           items: [
             {
-              t: 'Vacuna Tresvírica (SRP) y Meningococo ACWY',
-              d: 'Tresvírica: virus vivos atenuados de sarampión, rubéola y parotiditis; Meningococo conjugado',
-              say: 'Al cumplir doce meses se administran la vacuna tresvírica de virus vivos atenuados contra sarampión, rubéola y parotiditis por vía subcutánea, junto a la vacuna meningocócica conjugada tetravalente contra los serogrupos A, C, W ciento treinta y cinco e Y.',
+              t: 'Tresvírica subcutánea (Sarampión, Rubéola y Parotiditis)',
+              d: 'Primera dosis de virus vivos atenuados; requiere un sistema inmune celular competente',
+              say: 'Al cumplir doce meses se administra por vía subcutánea la vacuna tresvírica, compuesta por virus vivos atenuados contra sarampión, rubéola y parotiditis, demandando indemnidad del sistema inmune celular.',
             },
             {
-              t: 'Refuerzo de Vacuna Neumocócica conjugada',
-              d: 'Dosis de refuerzo en el muslo contralateral para consolidar títulos de anticuerpos duraderos',
-              say: 'En el mismo control de los doce meses se inyecta la dosis de refuerzo de la vacuna antineumocócica conjugada en la extremidad contralateral, garantizando títulos elevados y duraderos de anticuerpos séricos protectores.',
+              t: 'Vacuna Meningocócica Conjugada Tetravalente',
+              d: 'Protege contra serogrupos A, C, W ciento treinta y cinco e Y de Neisseria meningitidis',
+              say: 'En el mismo control del año se inyecta la vacuna meningocócica conjugada que cubre los serogrupos A, C, W ciento treinta y cinco e Y, confiriendo protección contra la letal enfermedad meningocócica invasora.',
             },
           ],
         },
         {
-          title: 'El Hito de los 18 Meses (Año y Medio)',
-          tag: 'Hexavalente, Hepatitis A y Varicela',
+          title: 'Refuerzo de Vacuna Antineumocócica Conjugada',
+          tag: 'Consolidación de títulos séricos',
           kind: 'key',
           items: [
             {
-              t: 'Cuarta dosis de Hexavalente y Hepatitis A',
-              d: 'Hexavalente refuerzo intramuscular y vacuna inactivada monovalente contra Hepatitis A',
-              say: 'A los dieciocho meses el lactante recibe el cuarto refuerzo intramuscular de la vacuna hexavalente acelular y la primera dosis de vacuna inactivada contra la hepatitis A, confiriendo inmunidad sólida contra brotes entéricos en salas cuna.',
+              t: 'Dosis de refuerzo en extremidad contralateral',
+              d: 'Se administra a los doce meses para prolongar la memoria inmunológica bacteriana',
+              say: 'La tercera dosis o refuerzo de la vacuna antineumocócica conjugada se aplica también al año de vida en el muslo contralateral, consolidando la memoria inmunitaria de largo plazo frente a infecciones invasivas.',
             },
             {
-              t: 'Primera dosis de Vacuna contra Varicela',
-              d: 'Virus vivo atenuado por vía subcutánea; la segunda dosis se programa a los 36 meses (3 años)',
-              say: 'También a los dieciocho meses se administra la primera dosis de vacuna viva atenuada contra la varicela por vía subcutánea, programándose su segunda dosis de consolidación a los tres años cumplidos en el control preescolar.',
+              t: 'Regla mnemotécnica del año de vida',
+              d: 'A los 12 meses: Tresvírica más Meningococo más Neumococo; nunca colocar varicela ni hexavalente',
+              say: 'Fijen en su memoria esta tríada del año de vida: tresvírica, meningocócica conjugada y neumococo. Recuerden que la varicela y el refuerzo de hexavalente no corresponden al año sino a los dieciocho meses.',
             },
           ],
         },
@@ -128,40 +170,124 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Vacunación escolar e innovaciones',
-      title: 'Vacunación Escolar e Hito Sanitario del Nirsevimab',
+      kicker: 'Hito del año y medio',
+      title: 'El Hito de los 18 Meses: Hexavalente, Hepatitis A y Varicela',
       cards: [
         {
-          title: 'Esquema de Vacunación en Etapa Escolar',
-          tag: 'Primero, cuarto, quinto y octavo básico',
-          kind: 'criteria',
+          title: 'Refuerzo de Hexavalente y Vacuna Hepatitis A',
+          tag: 'Refuerzo bacteriano e inmunidad entérica',
+          kind: 'key',
           items: [
             {
-              t: 'Primero Básico (6 años) y Octavo Básico (13 años)',
-              d: '1.° Básico: 2.ª dosis de Tresvírica y dTpa acelular; 8.° Básico: refuerzo de toxoide dTpa',
-              say: 'En primero básico se aplica la segunda dosis de consolidación de tresvírica junto al toxoide diftérico y tos convulsiva acelular. En octavo básico se administra un refuerzo de esta misma formulación para prolongar la inmunidad durante la adolescencia.',
+              t: 'Cuarta dosis de Vacuna Hexavalente Acelular',
+              d: 'Refuerzo intramuscular para mantener títulos elevados de toxoides y anticuerpos bacterianos',
+              say: 'A los dieciocho meses el niño recibe la cuarta dosis de la vacuna hexavalente acelular por vía intramuscular, asegurando títulos de anticuerpos protectores que perduran hasta el ingreso escolar.',
             },
             {
-              t: 'Cuarto y Quinto Básico: Virus Papiloma Humano (VPH)',
-              d: 'Vacuna nonavalente administrada a niñas y niños en dos dosis para prevenir cánceres asociados a VPH',
-              say: 'En cuarto y quinto básico se administra la vacuna nonavalente contra el virus del papiloma humano a todas las niñas y niños, protegiendo de forma cruzada contra nueve genotipos oncogénicos y verrugas anogenitales antes del inicio de la actividad sexual.',
+              t: 'Vacuna contra Hepatitis A inactivada monovalente',
+              d: 'Dosis única que previene la transmisión fecal-oral en lactantes que asisten a salas cuna',
+              say: 'Se administra además la vacuna monovalente contra la hepatitis A formulada con virus inactivado, cortando la cadena de transmisión fecal oral en niños que inician su socialización en jardines y salas cuna.',
             },
           ],
         },
         {
-          title: 'Anticuerpo Monoclonal Nirsevimab contra VRS',
-          tag: 'Inmunización pasiva universal de vanguardia',
+          title: 'Primera Dosis de Vacuna contra Varicela',
+          tag: 'Virus vivo atenuado por vía subcutánea',
+          kind: 'alert',
+          items: [
+            {
+              t: 'Inicio de la protección contra el virus varicela zóster',
+              d: 'Primera dosis a los 18 meses; la segunda dosis de refuerzo se administra a los 36 meses (3 años)',
+              say: 'A los dieciocho meses se inocula la primera dosis de vacuna viva atenuada contra la varicela por vía subcutánea, programándose formalmente su segunda dosis de refuerzo a los tres años cumplidos.',
+            },
+            {
+              t: 'Prevención de complicaciones cutáneas y neurológicas',
+              d: 'Disminuye sobreinfecciones bacterianas de piel, ataxia cerebelosa y encefalitis por varicela',
+              say: 'La vacunación universal contra varicela ha reducido dramáticamente las hospitalizaciones pediátricas secundarias a sobreinfecciones cutáneas por estreptococo del grupo A, neumonías y cerebelitis.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Calendario escolar',
+      title: 'Vacunación Escolar: Primero, Cuarto, Quinto y Octavo Básico',
+      cards: [
+        {
+          title: 'Primero Básico (6 Años) y Octavo Básico (13 Años)',
+          tag: 'Refuerzo de virus vivos y toxoides acelulares',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Primero Básico: Segunda dosis de Tresvírica y dTpa acelular',
+              d: 'Consolida eliminación de sarampión y rubéola; refuerza inmunidad contra tos convulsiva y tétanos',
+              say: 'Al ingresar a primero básico los escolares reciben la segunda dosis de la vacuna tresvírica junto al toxoide diftérico y tos convulsiva acelular en formulación de niño mayor.',
+            },
+            {
+              t: 'Octavo Básico: Refuerzo de toxoide dTpa',
+              d: 'Dosis de refuerzo en adolescentes para prolongar la protección contra tétanos y pertussis',
+              say: 'En octavo básico se repite la dosis de refuerzo del toxoide diftérico tetánico con componente acelular de pertussis para sostener la inmunidad comunitaria durante la adolescencia.',
+            },
+          ],
+        },
+        {
+          title: 'Cuarto y Quinto Básico: Virus Papiloma Humano (VPH)',
+          tag: 'Vacuna nonavalente Gardasil 9 en niñas y niños',
           kind: 'key',
           items: [
             {
-              t: 'Nirsevimab no es vacuna, es un anticuerpo monoclonal',
-              d: 'Anticuerpo monoclonal IgG1 humanizado de vida media extendida dirigido contra la proteína F de fusión',
-              say: 'Nirsevimab no constituye una vacuna activa tradicional sino un anticuerpo monoclonal recombinante humanizado de vida media prolongada que neutraliza directamente la proteína de fusión del virus respiratorio sincicial evitando su entrada a la célula.',
+              t: 'Esquema de dos dosis en niñas y niños escolares',
+              d: 'Primera dosis en 4.° básico y segunda dosis en 5.° básico para cobertura de genotipos oncogénicos',
+              say: 'En cuarto y quinto básico se administra la vacuna nonavalente contra el virus del papiloma humano a todas las niñas y niños, protegiendo contra los genotipos oncogénicos dieciséis y dieciocho y verrugas genitales.',
             },
             {
-              t: 'Indicación universal a recién nacidos y lactantes',
-              d: 'Dosis única intramuscular para todos los nacidos y lactantes menores de 6 meses previa al invierno',
-              say: 'Se administra como estrategia de inmunización pasiva universal a todos los recién nacidos en maternidades y lactantes menores de seis meses que enfrentan su primera temporada de alta circulación invernal, reduciendo las hospitalizaciones en más del ochenta por ciento.',
+              t: 'Estrategia preventiva antes del inicio de actividad sexual',
+              d: 'Máxima eficacia inmunogénica al administrarse en preadolescentes vírgenes al virus',
+              say: 'La aplicación en la etapa escolar asegura que la población adquiera una inmunidad mucosal sólida antes del inicio de las relaciones sexuales, previniendo cánceres cervicouterinos, anales y orofaríngeos.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Innovación sanitaria histórica',
+      title: 'Anticuerpo Monoclonal Nirsevimab contra Virus Respiratorio Sincicial',
+      cards: [
+        {
+          title: 'Mecanismo de Inmunización Pasiva',
+          tag: 'No es una vacuna: es un anticuerpo monoclonal',
+          kind: 'key',
+          items: [
+            {
+              t: 'Anticuerpo monoclonal IgG1 humanizado recombinante',
+              d: 'Bloquea de forma directa y potente la proteína F de fusión del virus respiratorio sincicial',
+              say: 'Nirsevimab no es una vacuna activa sino un anticuerpo monoclonal IgG uno humanizado que actúa por inmunización pasiva, neutralizando de manera directa la proteína de fusión del virus sincicial.',
+            },
+            {
+              t: 'Vida media extendida que cubre toda la temporada invernal',
+              d: 'Una sola inyección intramuscular confiere protección inmediata durante al menos cinco a seis meses',
+              say: 'Gracias a modificaciones en su región constante, este anticuerpo posee una vida media extendida de varios meses, ofreciendo protección inmediata y continua durante toda la temporada de circulación viral.',
+            },
+          ],
+        },
+        {
+          title: 'Población Objetivo y Logro Sanitario en Chile',
+          tag: 'Recién nacidos y lactantes menores de 6 meses',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Administración universal a recién nacidos y lactantes',
+              d: 'Dosis única intramuscular antes del alta en maternidades y en CESFAM para lactantes bajo 6 meses',
+              say: 'Chile fue pionero en Latinoamérica al implementar la administración universal de nirsevimab en todas las maternidades a los recién nacidos y lactantes menores de seis meses que enfrentan su primer invierno.',
+            },
+            {
+              t: 'Impacto epidemiológico masivo',
+              d: 'Reducción de más del 80% en hospitalizaciones y prácticamente cero mortalidad por bronquiolitis VRS',
+              say: 'Esta medida logró una reducción superior al ochenta por ciento en las hospitalizaciones pediátricas por bronquiolitis grave y colapso de camas críticas durante la campaña de invierno.',
             },
           ],
         },
@@ -171,39 +297,81 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Seguridad en vacunación',
-      title: 'Contraindicaciones Reales versus Falsas Contraindicaciones',
+      title: 'Contraindicaciones Reales: Vacunas Vivas Atenuadas',
       cards: [
         {
-          title: 'Contraindicaciones Reales de Vacunas Vivas',
-          tag: 'BCG, Tresvírica y Varicela',
+          title: 'Poblaciones con Contraindicación Absoluta',
+          tag: 'Inmunodeficiencias celulares y quimioterapia',
           kind: 'alert',
           items: [
             {
-              t: 'Inmunodeficiencias celulares graves y quimioterapia',
-              d: 'Riesgo de replicación y diseminación sistémica con enfermedad vacunal letal en inmunosuprimidos',
-              say: 'Las vacunas de microorganismos vivos atenuados como tresvírica, varicela y bacilo de Calmette Guerin están formalmente contraindicadas en pacientes con inmunodeficiencias congénitas severas, leucemias activas o quimioterapia por riesgo de enfermedad vacunal invasiva letal.',
+              t: 'Inmunodeficiencias primarias y quimioterapia oncológica',
+              d: 'Riesgo inminente de replicación descontrolada con enfermedad vacunal diseminada potencialmente letal',
+              say: 'Las vacunas de virus vivos atenuados como tresvírica, varicela y bacilo de Calmette Guerin están terminantemente prohibidas en inmunodeficiencias celulares severas o quimioterapia por riesgo de infección vacunal letal.',
             },
             {
-              t: 'Embarazo como contraindicación absoluta de virus vivos',
-              d: 'Por riesgo teórico de infección congénita transplacentaria; vacunar postparto inmediato',
-              say: 'El embarazo representa una contraindicación absoluta e inviolable para recibir vacunas de virus vivos atenuados, debido al riesgo teórico de daño teratogénico o infección fetal transplacentaria, recomendándose su administración en el puerperio inmediato.',
+              t: 'Corticoterapia sistémica a dosis altas prolongadas',
+              d: 'Uso de prednisona a 2 mg/kg/día por más de 14 días contraindica temporalmente los virus vivos',
+              say: 'El uso de corticoides sistémicos a dosis iguales o superiores a dos miligramos por kilo al día de prednisona por más de catorce días contraindica de manera transitoria la administración de virus atenuados.',
             },
           ],
         },
         {
-          title: 'Falsas Contraindicaciones Clásicas de Examen',
-          tag: 'Errores frecuentes en EUNACOM',
+          title: 'Embarazo y Otras Contraindicaciones Específicas',
+          tag: 'Teratogénesis teórica y reacciones anafilácticas',
+          kind: 'alert',
+          items: [
+            {
+              t: 'Embarazo contraindica vacunas de virus vivos',
+              d: 'Riesgo potencial de infección transplacentaria fetal; administrar vacunas vivas en el puerperio',
+              say: 'El embarazo constituye una contraindicación formal para recibir vacunas vivas atenuadas por el riesgo teórico de viremia congénita, recomendándose inmunizar en el puerperio inmediato.',
+            },
+            {
+              t: 'Anafilaxia previa confirmada a la misma vacuna',
+              d: 'Reacción anafiláctica grave previa es contraindicación absoluta para futuras dosis del mismo producto',
+              say: 'El antecedente fidedigno de una reacción anafiláctica severa con compromiso respiratorio o hemodinámico contraindica de por vida la readministración de ese inmunógeno específico.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Desmitificando barreras',
+      title: 'Falsas Contraindicaciones Clásicas en el Examen EUNACOM',
+      cards: [
+        {
+          title: 'Enfermedades Intercurrentes Menores',
+          tag: 'Causa número uno de oportunidades perdidas',
           kind: 'criteria',
           items: [
             {
-              t: 'Infección respiratoria leve y fiebre baja',
-              d: 'Resfrío común, coriza, diarrea leve o fiebre menor a 38.5 grados NO contraindican la vacunación',
-              say: 'Un cuadro respiratorio alto banal, catarro, diarrea leve autolimitada o febrícula no constituyen jamás motivo médico para diferir las vacunas del programa; suspender la cita genera oportunidades perdidas de inmunización y desprotección comunitaria.',
+              t: 'Infección respiratoria alta o diarrea leve sin fiebre alta',
+              d: 'Resfrío común, coriza, tos leve o febrícula menor a 38.5 grados NO contraindican la vacunación',
+              say: 'Un catarro común, congestión nasal, diarrea leve o temperatura menor a treinta y ocho coma cinco grados jamás son motivos médicos para suspender una vacuna; diferir la cita genera desprotección injustificada.',
             },
             {
-              t: 'Tratamiento antibiótico y prematurez cronológica',
-              d: 'Los antibióticos no interfieren con vacunas; prematuros se vacunan por edad cronológica postnatal',
-              say: 'El uso de antibióticos sistémicos no interfiere con la síntesis de anticuerpos vacunales, y los recién nacidos prematuros deben vacunarse estrictamente por su edad cronológica desde el nacimiento, sin aplicar la corrección por semanas de gestación.',
+              t: 'Uso concomitante de antibióticos orales',
+              d: 'El tratamiento antimicrobiano en curso no interfiere con la síntesis de anticuerpos vacunales',
+              say: 'Estar recibiendo antibióticos orales por una otitis o amigdalitis no altera en absoluto la respuesta humoral a las vacunas y no constituye una contraindicación para vacunar al paciente.',
+            },
+          ],
+        },
+        {
+          title: 'Alergias Alimentarias y Nacimiento Prematuro',
+          tag: 'Mitos frecuentes en atención primaria',
+          kind: 'key',
+          items: [
+            {
+              t: 'Alergia al huevo y vacuna tresvírica',
+              d: 'La vacuna Tresvírica actual se cultiva en fibroblastos embrionarios y es segura sin pruebas previas',
+              say: 'La supuesta contraindicación de la tresvírica por alergia al huevo es un mito desmentido; la vacuna se cultiva en células de embrión de pollo y puede inocularse con seguridad en atención primaria.',
+            },
+            {
+              t: 'Prematuros se vacunan por edad cronológica real',
+              d: 'Se utiliza la edad desde el parto; nunca calcular el calendario por edad gestacional corregida',
+              say: 'Graben esta regla docente de oro: los prematuros se vacunan rigurosamente según su edad cronológica desde el nacimiento, sin aplicar bajo ninguna circunstancia la corrección de edad gestacional.',
             },
           ],
         },
@@ -212,8 +380,8 @@ module.exports = {
 
     {
       type: 'table',
-      kicker: 'Resumen estatutario',
-      title: 'Calendario Oficial de Vacunación Infantil PNI Chile 2026',
+      kicker: 'Resumen ministerial',
+      title: 'Calendario Oficial de Vacunación Infantil PNI Chile',
       head: ['Edad Cronológica', 'Vacunas Administradas', 'Vía de Administración', 'Tipo de Inmunógeno'],
       rows: [
         {

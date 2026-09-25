@@ -44,11 +44,11 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Leche humana y seguridad',
-      title: 'Lactancia Materna: Beneficios y Contraindicaciones Absolutas',
+      kicker: 'Leche humana y fisiología',
+      title: 'Lactancia Materna Exclusiva: Inmunología, Digestibilidad y Apego',
       cards: [
         {
-          title: 'Propiedades Inmunológicas de la Leche Materna',
+          title: 'Propiedades Inmunológicas y Nutricionales',
           tag: 'Inmunoglobulina A secretora y prebióticos',
           kind: 'key',
           items: [
@@ -58,26 +58,68 @@ module.exports = {
               say: 'La leche materna humana es un tejido biológico vivo que aporta inmunoglobulina A secretora, lactoferrina y oligosacáridos prebióticos que recubren la mucosa digestiva, reduciendo drásticamente la incidencia de gastroenteritis, sepsis, otitis media y neumonías.',
             },
             {
-              t: 'Técnica de amamantamiento y libre demanda',
-              d: 'Acople profundo boca-areola; amamantar a libre demanda sin horarios fijos ni restricción de tiempo',
-              say: 'El amamantamiento debe ofrecerse a libre demanda sin restricciones horarias rígidas, verificando un acople bucal profundo que abarque gran parte de la areola inferior para prevenir grietas del pezón y asegurar el vaciamiento glandular.',
+              t: 'Digestibilidad óptima y relación suero-caseína',
+              d: 'Predominio de proteínas del suero (alfa-lactoalbúmina) que facilita vaciamiento gástrico en 90 minutos',
+              say: 'La relación suero-caseína de la leche humana permite un vaciamiento gástrico fisiológico y previene cólicos severos, aportando además factores tróficos para la maduración del epitelio intestinal.',
             },
           ],
         },
         {
+          title: 'Técnica de Amamantamiento y Libre Demanda',
+          tag: 'Acople profundo y prevención de grietas',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Acople bucal asimétrico y profundo',
+              d: 'Boca bien abierta en más de 120 grados, labios evertidos y mentón apoyado firmemente en la mama',
+              say: 'El amamantamiento requiere un acople profundo donde la boca del lactante abarque ampliamente la areola inferior, con labios evertidos y mentón adosado a la mama para evitar el dolor y las grietas del pezón.',
+            },
+            {
+              t: 'Amamantamiento a libre demanda',
+              d: 'Sin horarios fijos ni límites de tiempo por toma; el llanto es un signo tardío de hambre',
+              say: 'La alimentación debe ofrecerse a libre demanda guiándose por señales precoces de hambre como cabeceo o succión de manos, sin imponer restricciones arbitrarias de minutos por cada pecho.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Seguridad y contraindicaciones',
+      title: 'Contraindicaciones de la Lactancia: Mitos versus Contraindicaciones Reales',
+      cards: [
+        {
           title: 'Contraindicaciones Absolutas Reales',
-          tag: 'Maternas y neonatales',
+          tag: 'Infección retroviral y galactosemia clásica',
           kind: 'alert',
           items: [
             {
               t: 'Infección materna por VIH y HTLV uno o dos',
-              d: 'En Chile con acceso universal a fórmula, el VIH y el retrovirus HTLV contraindican de forma absoluta el pecho',
-              say: 'En nuestro país la infección materna por virus de inmunodeficiencia humana y por retrovirus HTLV uno y dos son contraindicaciones absolutas para la lactancia por riesgo de transmisión vertical, sustituyéndose con fórmula de inicio.',
+              d: 'En Chile con acceso a fórmula garantizada, el VIH y el HTLV contraindican de forma absoluta el pecho',
+              say: 'En Chile, la infección materna por virus de inmunodeficiencia humana y por retrovirus HTLV uno y dos son contraindicaciones absolutas debido al riesgo comprobado de transmisión vertical por leche materna.',
             },
             {
-              t: 'Galactosemia clásica como contraindicación neonatal',
+              t: 'Galactosemia clásica neonatal',
               d: 'Déficit enzimático congénito que impide metabolizar galactosa; exige fórmula sin lactosa basada en soya',
-              say: 'En el recién nacido la única contraindicación metabólica congénita absoluta es la galactosemia clásica, patología que exige suspender de inmediato el pecho materno e indicar fórmula libre de lactosa formulada a base de proteína de soya.',
+              say: 'En el recién nacido, la única contraindicación metabólica congénita absoluta es la galactosemia clásica, patología que exige suspender de inmediato el pecho materno e indicar fórmula de soya sin lactosa.',
+            },
+          ],
+        },
+        {
+          title: 'Falsas Contraindicaciones Clásicas en EUNACOM',
+          tag: 'Situaciones donde la lactancia DEBE continuar',
+          kind: 'key',
+          items: [
+            {
+              t: 'Mastitis puerperal febril y grietas del pezón',
+              d: 'La lactancia NO se suspende; el vaciamiento mamario frecuente es parte fundamental de la terapia',
+              say: 'Pregunta clásica de examen: la mastitis puerperal jamás contraindica la lactancia materna. La madre debe seguir amamantando y vaciar completamente el pecho afectado para evitar la formación de abscesos.',
+            },
+            {
+              t: 'Hepatitis B, hepatitis C y uso de antibióticos habituales',
+              d: 'Hepatitis B no contraindica si RN recibe profilaxis; amoxicilina, paracetamol e ibuprofeno son seguros',
+              say: 'La hepatitis B no contraindica la lactancia tras la administración de vacuna e inmunoglobulina al recién nacido. La gran mayoría de los fármacos comunes como paracetamol, ibuprofeno o amoxicilina son seguros.',
             },
           ],
         },
@@ -87,17 +129,17 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Profilaxis universal MINSAL',
-      title: 'Suplementación Universal de Vitamina D y Hierro Elemental',
+      title: 'Suplementación Universal con Vitamina D Oral (400 UI al Día)',
       cards: [
         {
-          title: 'Vitamina D Oral Universal',
-          tag: 'Cuatrocientas unidades al día',
+          title: 'Inicio y Pauta de Dosificación Diaria',
+          tag: 'Cuatrocientas unidades al día desde los 30 días',
           kind: 'key',
           items: [
             {
-              t: 'Dosis y momento de inicio estandarizado',
-              d: '400 UI al día vía oral desde los 30 días de vida (primer mes) en todo lactante con lactancia materna',
-              say: 'La normativa técnica del Ministerio de Salud exige suplementar a todo recién nacido alimentado con pecho materno con cuatrocientas unidades internacionales al día de vitamina D oral desde el mes de vida cumplido.',
+              t: 'Momento de inicio universal al primer mes',
+              d: '400 UI al día vía oral desde los 30 días de vida en todo lactante alimentado con leche materna',
+              say: 'La normativa técnica del Ministerio de Salud exige suplementar con cuatrocientas unidades internacionales al día de vitamina D oral a todo lactante desde los treinta días de vida cumplidos.',
             },
             {
               t: 'Duración ininterrumpida hasta el año',
@@ -107,19 +149,61 @@ module.exports = {
           ],
         },
         {
-          title: 'Suplementación Profiláctica con Hierro Oral',
-          tag: 'Recién nacido de término versus prematuro',
+          title: 'Fisiopatología del Déficit y Raquitismo Carencial',
+          tag: 'Baja transferencia por leche materna',
           kind: 'alert',
           items: [
             {
-              t: 'Recién nacido de término con peso adecuado',
-              d: 'Iniciar a los 4 meses de vida a dosis de 1 mg/kg/día de hierro elemental si recibe > 50% de lactancia',
-              say: 'En el recién nacido de término con peso adecuado para la edad gestacional, el hierro elemental se inicia a los cuatro meses de vida a dosis de un miligramo por kilo al día, previniendo la anemia ferropénica del lactante.',
+              t: 'La leche humana tiene bajo contenido de vitamina D',
+              d: 'Aporta menos de 25 a 50 UI por litro; insuficiente para la rápida mineralización esquelética',
+              say: 'Aunque la leche materna es el alimento perfecto, su concentración de vitamina D es naturalmente baja, haciendo indispensable la suplementación exógena para evitar craneotabes, rosario raquítico y deformidades óseas.',
             },
             {
-              t: 'Prematuro o bajo peso menor a dos mil quinientos gramos',
+              t: 'Lactantes con fórmulas infantiles enriquecidas',
+              d: 'Solo si consumen más de 800 a 1.000 mL de fórmula al día se puede omitir el suplemento',
+              say: 'En niños alimentados exclusivamente con fórmulas infantiles que reciben un volumen superior a ochocientos mililitros diarios, el aporte del sucedáneo puede cubrir la meta sin requerir gotas adicionales.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Profilaxis hematológica',
+      title: 'Suplementación Profiláctica con Hierro Elemental (Término vs Prematuros)',
+      cards: [
+        {
+          title: 'Recién Nacido de Término con Buen Peso',
+          tag: 'Un miligramo por kilo al día a los 4 meses',
+          kind: 'key',
+          items: [
+            {
+              t: 'Inicio a los cuatro meses de vida cumplidos',
+              d: '1 mg/kg/día de hierro elemental si recibe lactancia materna exclusiva o predominante',
+              say: 'En el recién nacido de término con peso adecuado para la edad gestacional, el hierro elemental se inicia a los cuatro meses de vida a dosis de un miligramo por kilo al día, previniendo la anemia ferropénica.',
+            },
+            {
+              t: 'Agotamiento de depósitos fetales hepáticos',
+              d: 'Las reservas de hierro adquiridas en el tercer trimestre se agotan entre el cuarto y sexto mes',
+              say: 'Esta indicación a los cuatro meses coincide con el agotamiento progresivo de los depósitos de ferritina hepática traspasados por la placenta durante el tercer trimestre de gestación.',
+            },
+          ],
+        },
+        {
+          title: 'Prematuro o Recién Nacido de Bajo Peso',
+          tag: 'Dos a tres miligramos por kilo a los 2 meses',
+          kind: 'alert',
+          items: [
+            {
+              t: 'Prematuros menores de 37 semanas o peso menor a 2.500 g',
               d: 'Iniciar precozmente a los 2 meses a dosis de 2 a 3 mg/kg/día de hierro elemental por menor depósito fetal',
               say: 'En niños prematuros menores a treinta y siete semanas o recién nacidos con peso inferior a dos mil quinientos gramos, el hierro se inicia precozmente a los dos meses a dosis de dos a tres miligramos por kilo al día.',
+            },
+            {
+              t: 'Control de hemograma y ferritina a los seis meses',
+              d: 'Evaluar respuesta hematológica y descartar anemia ferropénica establecida para pasar a dosis terapéutica',
+              say: 'En los prematuros se realiza control estricto de hemograma y ferritina a los seis meses, aumentando la dosis a tres a cinco miligramos por kilo al día si se constata anemia ferropénica confirmada.',
             },
           ],
         },

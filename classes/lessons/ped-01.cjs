@@ -129,8 +129,25 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Puntos de corte MINSAL',
-      title: 'Diagnóstico Nutricional según Desviaciones Estándar en Menores de 5 Años',
+      title: 'Diagnóstico Nutricional en Menores de 5 Años: Eutrofia y Malnutrición por Exceso',
       cards: [
+        {
+          title: 'Eutrofia o Normalidad Ponderal',
+          tag: 'P/T entre -0.9 y +0.9 DE',
+          kind: 'key',
+          items: [
+            {
+              t: 'Estado nutricional normal en menor de 5 años',
+              d: 'P/T entre -0.9 y +0.9 desviaciones estándar; armonía entre masa corporal y longitud',
+              say: 'El rango de eutrofia o normalidad comprende valores de peso para la talla entre menos cero coma nueve y más cero coma nueve desviaciones estándar, reflejando un desarrollo pondoestatural armónico.',
+            },
+            {
+              t: 'Educación y refuerzo de hábitos saludables',
+              d: 'Mantener lactancia materna o sucedáneo adecuado y alimentación complementaria variada',
+              say: 'En el niño eutrófico se refuerzan las prácticas de alimentación perceptiva, estimulación temprana y controles regulares de salud infantil en el centro de atención primaria.',
+            },
+          ],
+        },
         {
           title: 'Malnutrición por Exceso en Menores de 5 Años',
           tag: 'P/T entre +1.0 y mayor o igual a +3.0 DE',
@@ -148,20 +165,45 @@ module.exports = {
             },
           ],
         },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Déficit ponderal agudo',
+      title: 'Déficit Nutricional en Menores de 5 Años: Riesgo y Desnutrición Clínica',
+      cards: [
         {
-          title: 'Eutrofia, Riesgo de Desnutrición y Desnutrición',
-          tag: 'P/T entre -0.9 y menor o igual a -2.0 DE',
-          kind: 'key',
+          title: 'Riesgo de Desnutrición en Lactantes',
+          tag: 'P/T entre -1.0 y -1.9 DE',
+          kind: 'alert',
           items: [
             {
-              t: 'Eutrófico o estado nutricional normal',
-              d: 'P/T entre -0.9 y +0.9 desviaciones estándar; desarrollo pondoestatural armónico',
-              say: 'Un niño se clasifica como eutrófico o nutricionalmente normal cuando su peso para la talla se encuentra dentro del rango de menos cero coma nueve a más cero coma nueve desviaciones estándar.',
+              t: 'Definición estatutaria de riesgo de desnutrición',
+              d: 'P/T entre -1.0 y -1.9 desviaciones estándar; alerta para intervención nutricional ambulatoria inmediata',
+              say: 'El riesgo de desnutrición abarca valores de peso para la talla entre menos uno coma cero y menos uno coma nueve desviaciones estándar, requiriendo citar a control en quince a treinta días.',
             },
             {
-              t: 'Riesgo de desnutrición y desnutrición',
-              d: 'Riesgo: P/T entre -1.0 y -1.9 DE. Desnutrición clínica: P/T menor o igual a -2.0 DE',
-              say: 'El riesgo de desnutrición abarca valores de peso para la talla entre menos uno coma cero y menos uno coma nueve, y la desnutrición clínica formal se diagnostica cuando cae a menos dos desviaciones o inferior.',
+              t: 'Evaluación técnica de alimentación',
+              d: 'Auditar técnica de acople, dilución de fórmulas lácteas, frecuencia de tomas y densidad energética',
+              say: 'Frente al riesgo nutricional se audita la técnica de lactancia, el cálculo de dilución de sucedáneos lácteos y el aporte calórico de las papillas sin suspender la leche materna.',
+            },
+          ],
+        },
+        {
+          title: 'Desnutrición Clínica y Desnutrición Severa',
+          tag: 'P/T menor o igual a -2.0 DE',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Desnutrición clínica formal en menores de 5 años',
+              d: 'P/T menor o igual a -2.0 DE; desnutrición severa con P/T menor o igual a -3.0 DE o emaciación',
+              say: 'La desnutrición clínica se diagnostica cuando el peso para la talla cae a menos dos coma cero desviaciones estándar o inferior, considerándose severa bajo menos tres desviaciones.',
+            },
+            {
+              t: 'Marasmo versus Kwashiorkor en EUNACOM',
+              d: 'Marasmo: déficit calórico global, emaciación extrema y piel arrugada. Kwashiorkor: déficit proteico con edema hipoalbuminémico',
+              say: 'En el examen clásico, el marasmo representa un déficit calórico global con atrofia muscular marcada, mientras que el kwashiorkor es un déficit proteico con edema maleolar y hepatomegalia grasa.',
             },
           ],
         },
@@ -170,40 +212,82 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Evaluación escolar y alertas',
-      title: 'Evaluación en Escolares y Alerta por Desaceleración del Crecimiento',
+      kicker: 'Evaluación escolar',
+      title: 'Diagnóstico Nutricional en Escolares y Adolescentes (5 a 19 Años: IMC/E)',
       cards: [
         {
-          title: 'Puntos de Corte de IMC/E en Escolares (5 a 19 Años)',
-          tag: 'Clasificación idéntica en desviaciones estándar',
-          kind: 'criteria',
+          title: 'Malnutrición por Exceso en Escolares',
+          tag: 'IMC/E desde +1.0 DE en adelante',
+          kind: 'alert',
           items: [
             {
-              t: 'Malnutrición por exceso escolar',
-              d: 'Sobrepeso: +1.0 a +1.9 DE; Obesidad: +2.0 a +2.9 DE; Obesidad severa: mayor o igual a +3.0 DE',
-              say: 'En escolares y adolescentes entre cinco y diecinueve años, los cortes de desviaciones estándar para el índice de masa corporal son equivalentes: sobrepeso desde más uno y obesidad desde más dos desviaciones.',
+              t: 'Sobrepeso y Obesidad escolar',
+              d: 'Sobrepeso: IMC/E entre +1.0 y +1.9 DE; Obesidad: IMC/E entre +2.0 y +2.9 DE; Obesidad severa: mayor o igual a +3.0 DE',
+              say: 'En escolares y adolescentes entre cinco y diecinueve años, el índice de masa corporal para la edad define sobrepeso desde más una desviación y obesidad desde más dos desviaciones.',
             },
             {
-              t: 'Bajo peso y desnutrición escolar',
-              d: 'Bajo peso: IMC/E entre -1.0 y -1.9 DE; Desnutrición escolar: IMC/E menor o igual a -2.0 DE',
-              say: 'El déficit ponderal en escolares se cataloga como bajo peso si el índice de masa corporal cae entre menos uno coma cero y menos uno coma nueve, y desnutrición si es menor o igual a menos dos desviaciones.',
+              t: 'Evaluación de comorbilidades metabólicas',
+              d: 'Pesquisa de acantosis nigricans, presión arterial elevada, hígado graso y dislipidemia precoz',
+              say: 'En todo escolar con obesidad se debe examinar dirigidamente el cuello buscando acantosis nigricans, medir la presión arterial con manguito adecuado y pesquisar factores de riesgo cardiovascular.',
             },
           ],
         },
         {
-          title: 'Velocidad de Crecimiento y Aplanamiento de Curva',
-          tag: 'Criterio de alerta: Faltering growth',
+          title: 'Déficit Ponderal Escolar y Estirón Puberal',
+          tag: 'IMC/E menor a -1.0 DE y estadios de Tanner',
+          kind: 'criteria',
+          items: [
+            {
+              t: 'Bajo peso y desnutrición en mayores de 5 años',
+              d: 'Bajo peso: IMC/E entre -1.0 y -1.9 DE; Desnutrición: IMC/E menor o igual a -2.0 DE',
+              say: 'El déficit ponderal en el escolar se cataloga como bajo peso entre menos uno y menos uno coma nueve, y desnutrición formal con valor inferior o igual a menos dos desviaciones.',
+            },
+            {
+              t: 'Concordancia con maduración biológica de Tanner',
+              d: 'El pico de velocidad de crecimiento ocurre en Tanner 3 en niñas y Tanner 4 en varones',
+              say: 'La evaluación antropométrica del adolescente debe contextualizarse con los estadios de maduración sexual de Tanner, recordando que el pico del estirón ocurre en estadios tres y cuatro.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Velocidad de crecimiento',
+      title: 'Velocidad de Crecimiento, Faltering Growth y Enfoque de Talla Baja',
+      cards: [
+        {
+          title: 'Desaceleración y Faltering Growth',
+          tag: 'Caída de dos canales percentilares',
           kind: 'alert',
           items: [
             {
-              t: 'Aplanamiento o cruce descendente de dos canales',
-              d: 'La desaceleración mayor a 1 DE o caída de 2 percentiles en controles sucesivos exige estudio etiológico',
-              say: 'El parámetro más precoz y sensible de enfermedad es la velocidad de crecimiento. El aplanamiento de la curva o el cruce descendente de dos canales percentilares constituye una alarma clínica ineludible.',
+              t: 'Aplanamiento de curva de crecimiento',
+              d: 'Caída de dos percentiles o cruce mayor a 1 DE en controles seriados; alerta precoz de organicidad',
+              say: 'El parámetro más sensible de patología es la velocidad de crecimiento. El aplanamiento de la curva o la caída de dos percentiles obliga a estudiar organicidad subyacente.',
             },
             {
-              t: 'Descarte obligatorio de patología orgánica subyacente',
-              d: 'Buscar celiaquía, alergia a proteína de leche de vaca, fibrosis quística, ITU crónica o cardiopatía',
-              say: 'Ante un aplanamiento pondoestatural se deben investigar dirigidamente causas orgánicas como enfermedad celíaca, alergia a la proteína de leche de vaca, fibrosis quística o infección urinaria recurrente.',
+              t: 'Descarte obligatorio de causas orgánicas',
+              d: 'Celiaquía, alergia a proteína de leche de vaca, fibrosis quística, infección urinaria o acidosis tubular',
+              say: 'Ante un aplanamiento pondoestatural se deben investigar dirigidamente causas orgánicas como enfermedad celíaca, acidosis tubular renal, fibrosis quística o infección urinaria recurrente.',
+            },
+          ],
+        },
+        {
+          title: 'Enfoque de Talla Baja (T/E menor o igual a -2.0 DE)',
+          tag: 'Variantes normales versus patológicas',
+          kind: 'key',
+          items: [
+            {
+              t: 'Talla baja familiar versus Retraso constitucional',
+              d: 'Familiar: edad ósea igual a cronológica y padres bajos. Retraso constitucional: edad ósea retrasada con talla final normal',
+              say: 'En la talla baja familiar la edad ósea coincide con la cronológica y los padres son bajos. En el retraso constitucional la edad ósea está retrasada pero la talla adulta final es normal.',
+            },
+            {
+              t: 'Signos de alarma de patología endocrina o genética',
+              d: 'Disgenesia gonadal o síndrome de Turner en niñas, hipotiroidismo congénito y déficit de hormona de crecimiento',
+              say: 'Toda niña con talla baja inexplicada exige cariotipo para descartar síndrome de Turner, junto con descarte de hipotiroidismo y déficit de hormona de crecimiento.',
             },
           ],
         },
