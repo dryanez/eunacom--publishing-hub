@@ -290,8 +290,8 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'Reconstrucción EUNACOM 2013 · Pregunta #121',
-      stem: 'Hombre de 45 años consulta por dolor epigástrico intenso y vómitos biliosos. Al examen: FC 90/min, PA 140/90, escleras levemente ictéricas, abdomen blando y doloroso a la palpación epigástrica. Exámenes: lipasa 190 U/L (VN < 60), bilirrubina total 3,1 mg/dL directa, ecografía con colédoco de 9 mm y microlitiasis.',
+      title: 'EUNACOM Julio 2013 · Pregunta 121',
+      stem: 'Un paciente de 45 años, sin antecedentes, consulta por dolor epigástrico intenso asociado a vómitos biliosos. Al examen físico se encuentra frecuencia cardiaca en 90 por minuto, presión arterial 140/90, escleras levemente ictéricas, abdomen blando, doloroso a palpación epigástrica, Blumberg negativo. Se solicitan exámenes que muestran GOT 100 U/L, GPT 110 U/L, bilirrubina total 2 mg/dL, fosfatasas alcalinas 350 U/L, lipasa 250 U/L. Ecografía abdominal que muestra vesícula de paredes delgadas, sin edema, con barro biliar visible y colédoco de 8 mm.',
       question: '¿Cuál es el diagnóstico más probable?',
       options: [
         { letter: 'A', text: 'Colangitis aguda' },
@@ -301,19 +301,42 @@ module.exports = {
         { letter: 'E', text: 'Cólico biliar simple' },
       ],
       correct: 'B',
-      explanation: 'Lipasa sobre 3 veces el límite superior (> 180 U/L) + dolor típico: cumple criterios de pancreatitis aguda. Aunque coexista una coledocolitiasis, "manda" la pancreatitis por ser la más grave y la que define la conducta. Sin fiebre ni compromiso hemodinámico no es colangitis.',
+      explanation: 'La lipasa está sobre 180, tres veces el límite superior normal, junto con dolor típico: cumple criterios de pancreatitis aguda. Además tiene barro biliar y un colédoco levemente dilatado, sugerentes de coledocolitiasis, pero manda la pancreatitis por ser lo más grave. Sin fiebre ni compromiso hemodinámico no es colangitis, y la vesícula de paredes delgadas sin edema descarta la colecistitis.',
       say: {
-        stem: 'Y ahora una pregunta real, reconstruida del EUNACOM de dos mil trece. Hombre de cuarenta y cinco años con dolor epigástrico intenso y vómitos biliosos. Signos vitales estables, escleras levemente ictéricas, abdomen blando y doloroso en el epigastrio. Lipasa de ciento noventa, con un valor normal bajo sesenta. Bilirrubina de tres coma uno, directa, y una ecografía con colédoco de nueve milímetros y microlitiasis.',
+        stem: 'Y ahora una pregunta real, del EUNACOM de julio de dos mil trece. Hombre de cuarenta y cinco años, sin antecedentes, con dolor epigástrico intenso y vómitos biliosos. Signos vitales estables, escleras levemente ictéricas, abdomen blando y doloroso en el epigastrio, sin signos peritoneales. Las transaminasas están elevadas, la bilirrubina en dos, las fosfatasas alcalinas en trescientos cincuenta, y la lipasa en doscientos cincuenta. La ecografía muestra barro biliar y un colédoco de ocho milímetros.',
         question: '¿Cuál es el diagnóstico más probable?',
         options: 'Las opciones: colangitis aguda, pancreatitis aguda, coledocolitiasis, colecistitis aguda, o cólico biliar simple. Piénsalo.',
-        answer: 'La respuesta es la B, pancreatitis aguda. Haz la cuenta: tres veces sesenta son ciento ochenta, y la lipasa está en ciento noventa. Con dolor típico, cumple dos de tres criterios. El distractor tentador es la coledocolitiasis, porque el colédoco está dilatado y hay ictericia, y probablemente coexiste. Pero cuando hay dos diagnósticos, manda el más grave, el que define la conducta. Y sin fiebre, no es colangitis.',
+        answer: 'La respuesta es la B, pancreatitis aguda. Haz la cuenta: tres veces el límite superior normal de la lipasa son ciento ochenta, y aquí está en doscientos cincuenta. Con dolor típico, ya cumple dos de tres criterios. El distractor tentador es la coledocolitiasis, porque hay barro biliar y colestasia, y probablemente coexiste. Pero cuando hay dos diagnósticos juntos, manda el más grave, el que define la conducta. Y sin fiebre, no es colangitis.',
       },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'Reconstrucción EUNACOM Julio 2016 · Pregunta #54',
+      title: 'EUNACOM Julio 2013 · Pregunta 66',
+      stem: 'Un paciente de 55 años, sin antecedentes, consulta por dolor epigástrico intenso asociado a vómitos biliosos. Al examen físico destacan escleras ictéricas, sensibilidad a la palpación epigástrica. Se realizan exámenes donde destaca leucocitos 13.000/mm³, PCR 50 mg/dL, GOT 120 U/L, GPT 140 U/L, bilirrubina 3 mg/dL, fosfatasas alcalinas 400 U/L, lipasa 100 U/L. Ecografía abdominal con vía biliar extrahepática dilatada.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Colangitis aguda' },
+        { letter: 'B', text: 'Pancreatitis aguda' },
+        { letter: 'C', text: 'Colecistitis aguda' },
+        { letter: 'D', text: 'Coledocolitiasis' },
+        { letter: 'E', text: 'Hepatitis aguda' },
+      ],
+      correct: 'D',
+      explanation: 'Tiene una coledocolitiasis: patrón colestásico con vía biliar dilatada. La lipasa está elevada pero no llega a tres veces el límite superior normal, así que no cumple criterio de pancreatitis. Los leucocitos y la PCR llaman la atención, pero la clínica no alcanza para colangitis, que exige la tríada de Charcot completa.',
+      say: {
+        stem: 'Una segunda pregunta real, también del EUNACOM de julio de dos mil trece, y que es el espejo de la anterior. Hombre de cincuenta y cinco años, sin antecedentes, con dolor epigástrico intenso y vómitos biliosos. Escleras ictéricas y dolor a la palpación epigástrica. Los leucocitos están en trece mil, la proteína C reactiva en cincuenta, las transaminasas y las fosfatasas alcalinas elevadas, la bilirrubina en tres, y la lipasa en cien. La ecografía muestra la vía biliar extrahepática dilatada.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: colangitis aguda, pancreatitis aguda, colecistitis aguda, coledocolitiasis, o hepatitis aguda. Piénsalo.',
+        answer: 'Es la D, coledocolitiasis. Fíjate en la trampa: el cuadro se parece al caso anterior, pero la lipasa está en cien, y tres veces el límite superior son ciento ochenta. No llega, así que no es pancreatitis. Los leucocitos y la proteína C reactiva altos tientan a pensar en colangitis, pero la clínica no alcanza para eso. La diferencia con la pregunta anterior está en un solo número: la lipasa.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Banco EUNACOM · Caso representativo',
       stem: 'Paciente de 55 años con pancreatitis aguda biliar de 36 horas de evolución. Está hemodinámicamente estable, afebril, con dolor en disminución y tolera líquidos. Ecografía: colelitiasis, vía biliar de calibre normal, sin cálculos en el colédoco.',
       question: '¿Cuál es la conducta más adecuada respecto de la vía biliar?',
       options: [
@@ -326,7 +349,7 @@ module.exports = {
       correct: 'B',
       explanation: 'Pancreatitis biliar leve ya resuelta: colecistectomía laparoscópica en el mismo ingreso; diferirla se asocia a alta recurrencia de pancreatitis, colecistitis o colangitis. La CPRE urgente es solo para colangitis u obstrucción persistente, y la colangiorresonancia no aporta con baja probabilidad de coledocolitiasis.',
       say: {
-        stem: 'Otra pregunta real, reconstruida del EUNACOM de julio de dos mil dieciséis. Paciente de cincuenta y cinco años con una pancreatitis aguda biliar de treinta y seis horas. Está estable, afebril, el dolor va bajando y tolera líquidos. La ecografía muestra colelitiasis, con una vía biliar de calibre normal y sin cálculos en el colédoco.',
+        stem: 'Un caso representativo del banco EUNACOM, sobre la decisión que más se pregunta en la pancreatitis biliar. Paciente de cincuenta y cinco años con una pancreatitis aguda biliar de treinta y seis horas. Está estable, afebril, el dolor va bajando y tolera líquidos. La ecografía muestra colelitiasis, con una vía biliar de calibre normal y sin cálculos en el colédoco.',
         question: '¿Cuál es la conducta más adecuada respecto de la vía biliar?',
         options: 'Las opciones: CPRE urgente, colecistectomía en el mismo ingreso, alta con cirugía programada en seis a ocho semanas, colangiorresonancia y luego CPRE, o manejo médico sin cirugía. Piénsalo.',
         answer: 'Es la B. Pancreatitis biliar leve que ya se está resolviendo: la vesícula se saca en el mismo ingreso. El distractor tentador es la C, operar en seis a ocho semanas, pero en ese intervalo recurren la pancreatitis, la colecistitis o la colangitis. La CPRE urgente no corresponde, porque no hay colangitis ni obstrucción. Y con una vía biliar normal, la colangiorresonancia no agrega nada.',
