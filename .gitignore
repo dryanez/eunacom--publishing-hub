@@ -43,3 +43,6 @@ classes/dist/audio/*/
 
 # Python
 __pycache__/
+.venv*/
+*.wav
+

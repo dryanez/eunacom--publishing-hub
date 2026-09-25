@@ -36,6 +36,9 @@ def main():
 
     import torch
     import torchaudio as ta
+    import perth
+    if getattr(perth, "PerthImplicitWatermarker", None) is None:
+        perth.PerthImplicitWatermarker = perth.DummyWatermarker
     from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
     ids = args.ids or [m["id"] for m in json.loads((NARRATION / "manifest.json").read_text())]
