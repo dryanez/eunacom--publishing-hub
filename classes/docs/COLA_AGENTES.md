@@ -20,7 +20,7 @@ Cada agente lee `classes/docs/AGENT_BRIEF.md`. Antes de escribir una clase revis
    (ginecología, pediatría, salud pública) — el guion (`classes/lessons/<id>.cjs`) sigue viniendo de
    `books/scripts/dataset_<libro>.cjs` directo, el mazo es solo para el cover/badges del reproductor y para
    referencia de títulos vecinos (ver AGENT_BRIEF.md).
-   - Ginecología (16 clases, ids `gin-XX`): gin-01..04 · 05..08 · 09..12 · 13..16
+   - Ginecología (16 clases, ids `gin-XX`): gin-01..04 **hecho** · 05..08 · 09..12 · 13..16
    - Pediatría (22 clases, ids `ped-XX`): ped-01..04 · 05..08 · 09..12 · 13..16 · 17..19 · 20..22
    - Salud Pública (14 clases, ids `sp-XX`): sp-01..04 · 05..08 · 09..11 · 12..14
 
