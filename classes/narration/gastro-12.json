@@ -2,7 +2,7 @@
   "id": "gastro-12",
   "title": "Gastroenterologia 2.6: Patología Perianal: Fisura, Hemorroides, Absceso y Fístula",
   "specialty": "Gastroenterología",
-  "chars": 6514,
+  "chars": 8173,
   "segments": [
     {
       "file": "s00_g00",
@@ -21,143 +21,179 @@
       "text": "Y ojo con este detalle: se secciona siempre el esfínter interno. El externo, el voluntario, no se toca, porque cortarlo produce incontinencia."
     },
     {
-      "file": "s01_g03",
-      "text": "El hemorroide interno es lo contrario: sangra sin dolor. Se clasifica de grado uno, que no protruye, a grado cuatro, irreductible. Es causa frecuente de hemorragia digestiva baja, pero siempre hay que descartar otras causas, como el cáncer que vimos en la clase anterior, con rectoscopía o colonoscopía."
-    },
-    {
-      "file": "s01_g04",
-      "text": "Se trata con ligadura con banda elástica, en forma electiva, más tratar la constipación. En grados avanzados, hemorroidectomía."
-    },
-    {
-      "file": "s01_g05",
-      "text": "El hemorroide externo trombosado da dolor anal agudo con un nódulo violáceo visible. Baños de asiento siempre, y trombectomía solo si consulta dentro de las primeras cuarenta y ocho a setenta y dos horas. Después ya no aporta."
-    },
-    {
-      "file": "s01_g06",
-      "text": "Distinto es la fluxión hemorroidal: hemorroides internos prolapsados y trombosados afuera, extremadamente dolorosos. Esa va a cirugía, urgente o electiva precoz."
-    },
-    {
       "file": "s02_g00",
-      "text": "Ahora lo quirúrgico. El absceso perianal da un dolor anal que aumenta progresivamente, día a día, no de forma súbita, y una masa eritematosa y fluctuante."
+      "text": "Ahora los hemorroides. El interno es lo contrario de la fisura: sangra sin dolor. Se clasifica de grado uno, que no protruye, a grado cuatro, irreductible. Es causa frecuente de hemorragia digestiva baja, pero siempre hay que descartar otras causas, como el cáncer que vimos en la clase anterior, con rectoscopía o colonoscopía."
     },
     {
       "file": "s02_g01",
-      "text": "Su tratamiento es el drenaje quirúrgico en pabellón. Los antibióticos solos no reemplazan el drenaje: una colección de pus no se cura con pastillas."
+      "text": "Se trata con ligadura con banda elástica, en forma electiva, más tratar la constipación. En grados avanzados, hemorroidectomía."
     },
     {
       "file": "s02_g02",
-      "text": "Si el absceso es profundo, pelvirrectal o isquioanal, el paciente llega con sepsis y síntomas urinarios. Ahí se pide resonancia de pelvis, se drena en pabellón y se agregan antibióticos endovenosos. Aquí sí van los antibióticos."
+      "text": "El hemorroide externo trombosado da dolor anal agudo con un nódulo violáceo visible. Baños de asiento siempre, y trombectomía solo si consulta dentro de las primeras cuarenta y ocho a setenta y dos horas. Después ya no aporta."
     },
     {
       "file": "s02_g03",
-      "text": "La fístula anal es la secuela de un absceso: un trayecto que comunica el canal anal con la piel, con un orificio que supura de forma crónica. El diagnóstico es clínico y el tratamiento es quirúrgico, con fistulotomía o sedal. Y en un paciente con fístulas perianales, recuerda pensar también en Crohn."
-    },
-    {
-      "file": "s02_g04",
-      "text": "Y la trampa del tema: fisura no es fístula. La fisura es una herida lineal dolorosa, causada por constipación, de manejo médico. La fístula es un trayecto, secuela de un absceso, de manejo quirúrgico. Se escriben parecido y se manejan al revés."
+      "text": "Distinto es la fluxión hemorroidal: hemorroides internos prolapsados y trombosados afuera, extremadamente dolorosos. Esa va a cirugía, urgente o electiva precoz."
     },
     {
       "file": "s03_g00",
-      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos del paciente que consulta por un problema anal: dolor, sangrado o una zona que supura."
+      "text": "Ahora lo quirúrgico. El absceso perianal da un dolor anal que aumenta progresivamente, día a día, no de forma súbita, y una masa eritematosa y fluctuante."
     },
     {
       "file": "s03_g01",
-      "text": "La primera pregunta es simple: ¿duele o no duele?"
+      "text": "Su tratamiento es el drenaje quirúrgico en pabellón. Los antibióticos solos no reemplazan el drenaje: una colección de pus no se cura con pastillas."
     },
     {
       "file": "s03_g02",
-      "text": "Sangrado rojo sin dolor: hemorroide interno. Ligadura elástica electiva y tratar la constipación, pero siempre descartando otras causas, como un cáncer, con rectoscopía o colonoscopía."
+      "text": "Si el absceso es profundo, pelvirrectal o isquioanal, el paciente llega con sepsis y síntomas urinarios. Ahí se pide resonancia de pelvis, se drena en pabellón y se agregan antibióticos endovenosos. Aquí sí van los antibióticos."
     },
     {
       "file": "s03_g03",
-      "text": "Si duele, miramos el patrón del dolor. ¿Aparece con cada defecación, empezó de golpe con un nódulo, o crece día a día?"
-    },
-    {
-      "file": "s03_g04",
-      "text": "Dolor con la defecación y sangre al papel: fisura. Baños de asiento y tratar la constipación; esfinterotomía lateral interna solo si es crónica y no responde."
-    },
-    {
-      "file": "s03_g05",
-      "text": "Dolor brusco con nódulo violáceo: hemorroide externo trombosado. Baños de asiento, y trombectomía solo dentro de las primeras setenta y dos horas."
-    },
-    {
-      "file": "s03_g06",
-      "text": "Dolor que crece con masa fluctuante: absceso. Drenaje en pabellón. Si hay sepsis y síntomas urinarios, pensar en absceso pelvirrectal: resonancia, drenaje y antibióticos endovenosos."
-    },
-    {
-      "file": "s03_g07",
-      "text": "Si meses después queda un orificio que supura, es una fístula: tratamiento quirúrgico."
+      "text": "La fístula anal es la secuela de un absceso: un trayecto que comunica el canal anal con la piel, con un orificio que supura de forma crónica. El diagnóstico es clínico y el tratamiento es quirúrgico, con fistulotomía o sedal. Y en un paciente con fístulas perianales, recuerda pensar también en Crohn."
     },
     {
       "file": "s04_g00",
-      "text": "Repasemos en una tabla. Fisura: dolor al defecar y sangre en el papel; baños de asiento y tratar la constipación."
+      "text": "Y aquí va la trampa del tema, porque el enunciado juega con el parecido de las palabras. La fisura es una herida lineal dolorosa del margen anal, causada por la constipación, y su manejo es médico: baños de asiento."
     },
     {
       "file": "s04_g01",
-      "text": "Hemorroide interno: sangra sin dolor; ligadura elástica, y descartar otras causas."
-    },
-    {
-      "file": "s04_g02",
-      "text": "Hemorroide externo trombosado: dolor agudo y nódulo violáceo; baños de asiento, y trombectomía solo si llega precoz."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Absceso: dolor que crece y masa fluctuante; drenaje en pabellón, no antibióticos solos."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Fístula: orificio que supura crónicamente; cirugía."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Y absceso pelvirrectal: sepsis y síntomas urinarios; resonancia, drenaje y antibióticos endovenosos."
+      "text": "La fístula es un trayecto que comunica el canal anal con la piel, secuela de un absceso, y su manejo es quirúrgico. Se escriben parecido, pero se manejan exactamente al revés: si confundes una con otra, eliges el tratamiento equivocado."
     },
     {
       "file": "s05_g00",
-      "text": "Vamos al caso. Hombre de treinta y ocho años con dolor anal que ha ido aumentando durante cuatro días, ahora intenso e invalidante, con fiebre de treinta y ocho grados. Al examen hay una tumoración perianal eritematosa, caliente y fluctuante, sin nódulo violáceo."
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos del paciente que consulta por un problema anal: dolor, sangrado o una zona que supura."
     },
     {
       "file": "s05_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "La primera pregunta es simple: ¿duele o no duele?"
     },
     {
       "file": "s05_g02",
-      "text": "Las alternativas: baños de asiento y laxantes, antibióticos orales con control en dos días, trombectomía, drenaje en pabellón, o esfinterotomía lateral interna. Piénsalo."
+      "text": "Sangrado rojo sin dolor: hemorroide interno. Ligadura elástica electiva y tratar la constipación, pero siempre descartando otras causas, como un cáncer, con rectoscopía o colonoscopía."
     },
     {
       "file": "s05_g03",
-      "text": "Es la D, drenaje quirúrgico en pabellón. Dolor que crece día a día, masa fluctuante y fiebre: es un absceso perianal. El distractor tentador son los antibióticos orales, pero una colección de pus no se resuelve sin drenaje. Y la trombectomía es para el hemorroide externo trombosado, que da un dolor brusco con nódulo violáceo y sin fiebre."
+      "text": "Si duele, miramos el patrón del dolor. ¿Aparece con cada defecación, empezó de golpe con un nódulo, o crece día a día?"
+    },
+    {
+      "file": "s05_g04",
+      "text": "Dolor con la defecación y sangre al papel: fisura. Baños de asiento y tratar la constipación; esfinterotomía lateral interna solo si es crónica y no responde."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Dolor brusco con nódulo violáceo: hemorroide externo trombosado. Baños de asiento, y trombectomía solo dentro de las primeras setenta y dos horas."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Dolor que crece con masa fluctuante: absceso. Drenaje en pabellón. Si hay sepsis y síntomas urinarios, pensar en absceso pelvirrectal: resonancia, drenaje y antibióticos endovenosos."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Si meses después queda un orificio que supura, es una fístula: tratamiento quirúrgico."
     },
     {
       "file": "s06_g00",
-      "text": "Y ahora una pregunta del banco EUNACOM. Hombre de cuarenta y cinco años con un pequeño orificio en la piel, cerca del ano, que supura pus de forma intermitente hace tres meses. Tuvo un absceso perianal drenado hace cuatro meses."
+      "text": "Repasemos en una tabla. Fisura: dolor al defecar y sangre en el papel; baños de asiento y tratar la constipación."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es el diagnóstico y el tratamiento?"
+      "text": "Hemorroide interno: sangra sin dolor; ligadura elástica, y descartar otras causas."
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: fisura crónica con baños de asiento, fístula anal con cirugía, hidradenitis con antibióticos, hemorroide interno grado cuatro con ligadura, o quiste pilonidal con observación. Piénsalo."
+      "text": "Hemorroide externo trombosado: dolor agudo y nódulo violáceo; baños de asiento, y trombectomía solo si llega precoz."
     },
     {
       "file": "s06_g03",
-      "text": "La respuesta es la B, fístula anal con tratamiento quirúrgico. Un orificio que supura después de un absceso drenado es exactamente la secuela que vimos. El distractor tentador es la fisura crónica, porque suena parecido, pero la fisura es una herida dolorosa de manejo médico, y la fístula es un trayecto que se opera."
+      "text": "Absceso: dolor que crece y masa fluctuante; drenaje en pabellón, no antibióticos solos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Fístula: orificio que supura crónicamente; cirugía."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y absceso pelvirrectal: sepsis y síntomas urinarios; resonancia, drenaje y antibióticos endovenosos."
     },
     {
       "file": "s07_g00",
-      "text": "Cerremos con las reglas de oro. La fisura se trata con baños de asiento y tratando la constipación; si se opera, se corta el esfínter interno, nunca el externo."
+      "text": "Vamos al caso. Hombre de treinta y ocho años con dolor anal que ha ido aumentando durante cuatro días, ahora intenso e invalidante, con fiebre de treinta y ocho grados. Al examen hay una tumoración perianal eritematosa, caliente y fluctuante, sin nódulo violáceo."
     },
     {
       "file": "s07_g01",
-      "text": "El hemorroide interno sangra sin dolor, y siempre obliga a descartar otras causas de sangrado."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "El absceso se drena en pabellón; los antibióticos solos no bastan."
+      "text": "Las alternativas: baños de asiento y laxantes, antibióticos orales con control en dos días, trombectomía, drenaje en pabellón, o esfinterotomía lateral interna. Piénsalo."
     },
     {
       "file": "s07_g03",
+      "text": "Es la D, drenaje quirúrgico en pabellón. Dolor que crece día a día, masa fluctuante y fiebre: es un absceso perianal. El distractor tentador son los antibióticos orales, pero una colección de pus no se resuelve sin drenaje. Y la trombectomía es para el hemorroide externo trombosado, que da un dolor brusco con nódulo violáceo y sin fiebre."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de cincuenta y dos años con hemorroides externos trombosados desde hace seis horas: violáceos, protruidos, irreductibles y muy dolorosos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el manejo más adecuado?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: hemorroidectomía de urgencia, trombectomía bajo anestesia local, ligadura con banda elástica, manejo médico conservador, o escleroterapia. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, trombectomía bajo anestesia local. Consulta a las seis horas, muy dentro de la ventana de cuarenta y ocho a setenta y dos horas, así que todavía aporta. La ligadura elástica es para el hemorroide interno, no el externo. Y el manejo conservador solo se justifica cuando ya pasó esa ventana."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecisiete. Hombre de cincuenta y cuatro años con dolor anal que aparece al defecar y persiste algunos minutos después, con sangre en las deposiciones en algunas ocasiones."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: hemorroide externo trombosado, cáncer de recto, fisura anal, fístula anal, o absceso perianal. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, fisura anal. El patrón es clásico: dolor que empieza justo con la defecación y se queda por minutos, por el espasmo del esfínter interno, con sangrado escaso. Eso descarta el hemorroide trombosado, que es de inicio brusco con un nódulo, y el absceso, que crece día a día. Nada de disfagia ni de masa que hagan pensar en cáncer."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y ahora una pregunta del banco EUNACOM. Hombre de cuarenta y cinco años con un pequeño orificio en la piel, cerca del ano, que supura pus de forma intermitente hace tres meses. Tuvo un absceso perianal drenado hace cuatro meses."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico y el tratamiento?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: fisura crónica con baños de asiento, fístula anal con cirugía, hidradenitis con antibióticos, hemorroide interno grado cuatro con ligadura, o quiste pilonidal con observación. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la B, fístula anal con tratamiento quirúrgico. Un orificio que supura después de un absceso drenado es exactamente la secuela que vimos. El distractor tentador es la fisura crónica, porque suena parecido, pero la fisura es una herida dolorosa de manejo médico, y la fístula es un trayecto que se opera."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. La fisura se trata con baños de asiento y tratando la constipación; si se opera, se corta el esfínter interno, nunca el externo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El hemorroide interno sangra sin dolor, y siempre obliga a descartar otras causas de sangrado."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El absceso se drena en pabellón; los antibióticos solos no bastan."
+    },
+    {
+      "file": "s11_g03",
       "text": "Y fisura no es fístula. Si te llevas una sola idea de hoy: pregúntate si duele y cómo empezó el dolor, porque eso separa lo que se trata con baños de asiento de lo que va a pabellón. Nos vemos en la próxima clase."
     }
   ]

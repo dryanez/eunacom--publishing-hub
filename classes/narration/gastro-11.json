@@ -2,7 +2,7 @@
   "id": "gastro-11",
   "title": "Gastroenterologia 2.5: Pólipos y Cáncer Colorrectal · Tamizaje",
   "specialty": "Gastroenterología",
-  "chars": 8818,
+  "chars": 9535,
   "segments": [
     {
       "file": "s00_g00",
@@ -182,38 +182,54 @@
     },
     {
       "file": "s10_g00",
-      "text": "Y ahora una pregunta del banco EUNACOM. Hombre de veintiocho años con antecedentes familiares de cáncer de colon. La colonoscopía describe más de ciento cincuenta pólipos en todo el colon y el recto, y las biopsias muestran adenomas tubulares con displasia de bajo grado."
+      "text": "Vamos con una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente mayor de cincuenta años al que le resecan un pólipo en la colonoscopía: es un adenoma velloso con displasia de bajo grado."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: polipectomía de los pólipos mayores con control anual, colectomía total profiláctica, quimioprevención con antiinflamatorios, CEA seriado cada seis meses, o colonoscopía de control en tres años. Piénsalo."
+      "text": "Las opciones: colonoscopía de control en un año, en tres años, en cinco años, hemicolectomía profiláctica, o colonoscopía de control en diez años. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la B, colectomía total profiláctica. Innumerables pólipos adenomatosos en un joven con historia familiar es una poliposis adenomatosa familiar, y el cien por ciento maligniza. El distractor tentador es la polipectomía de los más grandes, que suena conservadora, pero con ciento cincuenta pólipos es inviable y no elimina el riesgo."
+      "text": "Es la B, colonoscopía de control en tres años. Ya resecaste el adenoma en la misma colonoscopía, así que ya trataste el riesgo. Lo que queda es vigilar, y la ventana estándar es de uno a tres años. La hemicolectomía es la trampa: se reserva para el cáncer o para la poliposis con cientos de pólipos, nunca para un solo adenoma resecado."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. El adenoma es el precursor del cáncer: se reseca y se controla. El hiperplásico se observa."
+      "text": "Y ahora una pregunta del banco EUNACOM. Hombre de veintiocho años con antecedentes familiares de cáncer de colon. La colonoscopía describe más de ciento cincuenta pólipos en todo el colon y el recto, y las biopsias muestran adenomas tubulares con displasia de bajo grado."
     },
     {
       "file": "s11_g01",
-      "text": "Innumerables pólipos es poliposis adenomatosa familiar, y va a colectomía profiláctica. Lynch, con pocos pólipos, va a vigilancia intensiva."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Adulto mayor con constipación nueva y anemia ferropénica: colonoscopía, nunca test de sangre oculta."
+      "text": "Las opciones: polipectomía de los pólipos mayores con control anual, colectomía total profiláctica, quimioprevención con antiinflamatorios, CEA seriado cada seis meses, o colonoscopía de control en tres años. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "La respuesta es la B, colectomía total profiláctica. Innumerables pólipos adenomatosos en un joven con historia familiar es una poliposis adenomatosa familiar, y el cien por ciento maligniza. El distractor tentador es la polipectomía de los más grandes, que suena conservadora, pero con ciento cincuenta pólipos es inviable y no elimina el riesgo."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. El adenoma es el precursor del cáncer: se reseca y se controla. El hiperplásico se observa."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Innumerables pólipos es poliposis adenomatosa familiar, y va a colectomía profiláctica. Lynch, con pocos pólipos, va a vigilancia intensiva."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Adulto mayor con constipación nueva y anemia ferropénica: colonoscopía, nunca test de sangre oculta."
+    },
+    {
+      "file": "s12_g03",
       "text": "El CEA solo sirve para el seguimiento posoperatorio."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Y el tamizaje, desde los cincuenta años en asintomáticos, con sangre oculta inmunoquímico o colonoscopía cada diez años. Si te llevas una sola idea de hoy: el test de sangre oculta es para el asintomático; al que tiene síntomas se le hace colonoscopía. Nos vemos en la próxima clase."
     }
   ]

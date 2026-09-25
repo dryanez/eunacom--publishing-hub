@@ -2,7 +2,7 @@
   "id": "gastro-18",
   "title": "Gastroenterologia 4.2: Pancreatitis Aguda",
   "specialty": "Gastroenterología",
-  "chars": 13416,
+  "chars": 14609,
   "segments": [
     {
       "file": "s00_g00",
@@ -246,7 +246,7 @@
     },
     {
       "file": "s13_g00",
-      "text": "Y ahora una pregunta real, reconstruida del EUNACOM de dos mil trece. Hombre de cuarenta y cinco años con dolor epigástrico intenso y vómitos biliosos. Signos vitales estables, escleras levemente ictéricas, abdomen blando y doloroso en el epigastrio. Lipasa de ciento noventa, con un valor normal bajo sesenta. Bilirrubina de tres coma uno, directa, y una ecografía con colédoco de nueve milímetros y microlitiasis."
+      "text": "Y ahora una pregunta real, del EUNACOM de julio de dos mil trece. Hombre de cuarenta y cinco años, sin antecedentes, con dolor epigástrico intenso y vómitos biliosos. Signos vitales estables, escleras levemente ictéricas, abdomen blando y doloroso en el epigastrio, sin signos peritoneales. Las transaminasas están elevadas, la bilirrubina en dos, las fosfatasas alcalinas en trescientos cincuenta, y la lipasa en doscientos cincuenta. La ecografía muestra barro biliar y un colédoco de ocho milímetros."
     },
     {
       "file": "s13_g01",
@@ -258,42 +258,58 @@
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta es la B, pancreatitis aguda. Haz la cuenta: tres veces sesenta son ciento ochenta, y la lipasa está en ciento noventa. Con dolor típico, cumple dos de tres criterios. El distractor tentador es la coledocolitiasis, porque el colédoco está dilatado y hay ictericia, y probablemente coexiste. Pero cuando hay dos diagnósticos, manda el más grave, el que define la conducta. Y sin fiebre, no es colangitis."
+      "text": "La respuesta es la B, pancreatitis aguda. Haz la cuenta: tres veces el límite superior normal de la lipasa son ciento ochenta, y aquí está en doscientos cincuenta. Con dolor típico, ya cumple dos de tres criterios. El distractor tentador es la coledocolitiasis, porque hay barro biliar y colestasia, y probablemente coexiste. Pero cuando hay dos diagnósticos juntos, manda el más grave, el que define la conducta. Y sin fiebre, no es colangitis."
     },
     {
       "file": "s14_g00",
-      "text": "Otra pregunta real, reconstruida del EUNACOM de julio de dos mil dieciséis. Paciente de cincuenta y cinco años con una pancreatitis aguda biliar de treinta y seis horas. Está estable, afebril, el dolor va bajando y tolera líquidos. La ecografía muestra colelitiasis, con una vía biliar de calibre normal y sin cálculos en el colédoco."
+      "text": "Una segunda pregunta real, también del EUNACOM de julio de dos mil trece, y que es el espejo de la anterior. Hombre de cincuenta y cinco años, sin antecedentes, con dolor epigástrico intenso y vómitos biliosos. Escleras ictéricas y dolor a la palpación epigástrica. Los leucocitos están en trece mil, la proteína C reactiva en cincuenta, las transaminasas y las fosfatasas alcalinas elevadas, la bilirrubina en tres, y la lipasa en cien. La ecografía muestra la vía biliar extrahepática dilatada."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es la conducta más adecuada respecto de la vía biliar?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: CPRE urgente, colecistectomía en el mismo ingreso, alta con cirugía programada en seis a ocho semanas, colangiorresonancia y luego CPRE, o manejo médico sin cirugía. Piénsalo."
+      "text": "Las opciones: colangitis aguda, pancreatitis aguda, colecistitis aguda, coledocolitiasis, o hepatitis aguda. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la B. Pancreatitis biliar leve que ya se está resolviendo: la vesícula se saca en el mismo ingreso. El distractor tentador es la C, operar en seis a ocho semanas, pero en ese intervalo recurren la pancreatitis, la colecistitis o la colangitis. La CPRE urgente no corresponde, porque no hay colangitis ni obstrucción. Y con una vía biliar normal, la colangiorresonancia no agrega nada."
+      "text": "Es la D, coledocolitiasis. Fíjate en la trampa: el cuadro se parece al caso anterior, pero la lipasa está en cien, y tres veces el límite superior son ciento ochenta. No llega, así que no es pancreatitis. Los leucocitos y la proteína C reactiva altos tientan a pensar en colangitis, pero la clínica no alcanza para eso. La diferencia con la pregunta anterior está en un solo número: la lipasa."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Dolor típico más lipasa sobre tres veces lo normal: el diagnóstico está hecho, sin TAC. El TAC es a las setenta y dos horas, si evoluciona mal."
+      "text": "Un caso representativo del banco EUNACOM, sobre la decisión que más se pregunta en la pancreatitis biliar. Paciente de cincuenta y cinco años con una pancreatitis aguda biliar de treinta y seis horas. Está estable, afebril, el dolor va bajando y tolera líquidos. La ecografía muestra colelitiasis, con una vía biliar de calibre normal y sin cálculos en el colédoco."
     },
     {
       "file": "s15_g01",
-      "text": "La cifra de lipasa no mide gravedad. El hematocrito y el nitrógeno ureico que suben, sí."
+      "text": "¿Cuál es la conducta más adecuada respecto de la vía biliar?"
     },
     {
       "file": "s15_g02",
-      "text": "El volumen agresivo con Ringer lactato es lo que más reduce la mortalidad."
+      "text": "Las opciones: CPRE urgente, colecistectomía en el mismo ingreso, alta con cirugía programada en seis a ocho semanas, colangiorresonancia y luego CPRE, o manejo médico sin cirugía. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la B. Pancreatitis biliar leve que ya se está resolviendo: la vesícula se saca en el mismo ingreso. El distractor tentador es la C, operar en seis a ocho semanas, pero en ese intervalo recurren la pancreatitis, la colecistitis o la colangitis. La CPRE urgente no corresponde, porque no hay colangitis ni obstrucción. Y con una vía biliar normal, la colangiorresonancia no agrega nada."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Dolor típico más lipasa sobre tres veces lo normal: el diagnóstico está hecho, sin TAC. El TAC es a las setenta y dos horas, si evoluciona mal."
+    },
+    {
+      "file": "s16_g01",
+      "text": "La cifra de lipasa no mide gravedad. El hematocrito y el nitrógeno ureico que suben, sí."
+    },
+    {
+      "file": "s16_g02",
+      "text": "El volumen agresivo con Ringer lactato es lo que más reduce la mortalidad."
+    },
+    {
+      "file": "s16_g03",
       "text": "Realimentación precoz, incluso en la grave, y nada de antibióticos profilácticos."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "Y en la biliar, CPRE urgente solo si hay colangitis, y colecistectomía antes del alta. Si te llevas una sola idea de hoy: la pancreatitis se trata con volumen, no con antibióticos. Nos vemos en la próxima clase."
     }
   ]

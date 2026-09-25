@@ -20,19 +20,15 @@ Rama de trabajo: `claude/loving-ramanujan-0cwrvg` (hacer `git pull` al empezar y
 - Al terminar cada agente: pasar sus notas A/B/C/D a `REVISION_CONTENIDO.md` (sección del libro), commit + push, lanzar el siguiente.
 - Hablarle al usuario en español simple; respuestas cortas.
 
-## Tarea 1 · terminar la revisión de Gastro
+## Tarea 1 · revisión de Gastro — TERMINADA (25-09-2026)
 Gastro fue el primer libro y quedó con preguntas "Caso representativo" o con fechas inventadas del libro, y algunas clases
 recortadas por un límite de diapositivas que ya no existe.
-- Hecho: gastro-01, 02 (modelo, no tocar), 03, 04, 05.
-- Hecho también: gastro-06..09 (Sonnet; se separaron las secciones fusionadas y se agregaron las tablas que faltaban).
-- Pendiente: gastro-10..13 · 14..17 · 18..21 · 22..26.
-  Casos conocidos: gastro-10 descartó la pregunta real Diciembre 2017 · Pregunta 26; gastro-12 juntó 4 secciones en 2 diapositivas;
-  gastro-16 juntó lesiones benignas y malignas y no tiene tabla de trampas; gastro-18: buscar Q#66 y Q#101 que el libro menciona;
-  gastro-25 no tiene código Perfil (buscar por tema).
-- Prompt de revisión: igual al de AGENT_BRIEF, pero "REVISE existing lessons, not rewrite them": reemplazar quizzes "Caso representativo"
-  o con fecha del libro por preguntas reales, restaurar contenido recortado, mantener el resto.
-- Al terminar: `node classes/scripts/build_swiss_player.cjs`, `node classes/scripts/export_narration.cjs`, commit + push,
-  y republicar el reproductor (Artifact, misma URL) si el usuario lo pide.
+- **gastro-01..26: todas revisadas y pasan el checker.** (01, 02 son el modelo, no se tocaron; 03..26 revisadas por agentes Sonnet.)
+- Quedan algunos "Caso representativo" sin fecha donde no existe pregunta real en el banco para ese tema exacto (documentado,
+  no es un pendiente — ver `REVISION_CONTENIDO.md` sección Gastroenterología para el detalle por clase).
+- Reproductor y narración reconstruidos con las 26 clases: `node classes/scripts/build_swiss_player.cjs` y
+  `node classes/scripts/export_narration.cjs` ya corridos, commit + push hecho. Falta republicar el Artifact (misma URL,
+  claude.ai/artifact/3UF2UENnyJG4s6rbXWd84R) si el usuario lo pide.
 
 ## Tarea 2 · los otros módulos (2, 3 y Salud Pública)
 Hay libros listos en `books/scripts/dataset_*.cjs` para: cirugía, dermatología, oftalmología, otorrino, psiquiatría, traumatología,

@@ -2,7 +2,7 @@
   "id": "gastro-26",
   "title": "Gastroenterologia 6.4: Trauma Abdominal y Torácico",
   "specialty": "Gastroenterología",
-  "chars": 12417,
+  "chars": 13186,
   "segments": [
     {
       "file": "s00_g00",
@@ -210,54 +210,70 @@
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Hombre de veinticinco años con una herida por arma blanca en el flanco derecho. Está estable y sin signos peritoneales. Al explorar la herida en pabellón, se constata que atraviesa el peritoneo parietal."
+      "text": "Ahora una pregunta real del examen, de julio de dos mil quince. Un paciente sufre una herida por arma blanca en el abdomen, hace ocho horas. Está en buenas condiciones, con signos vitales normales y sin signos de irritación peritoneal. Se explora la herida con anestesia local, y se objetiva que laceró el peritoneo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: observar veinticuatro horas, hacer una eco FAST y decidir, exploración quirúrgica, radiografía simple y alta si es normal, o lavado peritoneal. Piénsalo."
+      "text": "Las opciones: lavado peritoneal diagnóstico, ecografía FAST, suturar la herida, TAC abdominal, o laparoscopía exploradora. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, exploración quirúrgica. En el arma blanca manda la herida, y esta penetra el peritoneo, así que se explora, aunque el paciente esté estable. El distractor más tentador es la eco FAST, porque la usamos en el trauma cerrado; pero aquí ya sabes que el cuchillo entró, y una FAST negativa no descarta una lesión de intestino o de mesenterio. Y el lavado, como ya sabes, está obsoleto."
+      "text": "Es la E. La herida penetró el peritoneo, y eso ya es indicación de exploración quirúrgica, aunque el paciente esté estable y sin peritonismo, hoy preferentemente por laparoscopía. Suturar la herida sin más sería dejar pasar una lesión de intestino que todavía no dio la cara. Y el lavado peritoneal, otra vez, está obsoleto."
     },
     {
       "file": "s12_g00",
-      "text": "Y una segunda pregunta del banco. Paciente de cuarenta años con trauma torácico cerrado. La radiografía muestra una opacidad en la base derecha con borramiento del ángulo costofrénico. Se instala un tubo pleural que drena mil ochocientos mililitros de sangre en la primera hora."
+      "text": "Y otra pregunta real, también de julio de dos mil quince. Un paciente de veintiocho años sufre una puñalada en el tórax, lado derecho. Está en buenas condiciones, con dolor torácico, y al examen tiene el murmullo pulmonar disminuido, con hipersonoridad al percutir ese lado."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: mantener el tubo y observar, toracotomía, transfundir y reevaluar en seis horas, cambiar el tubo por uno de mayor calibre, o TAC de tórax antes de decidir. Piénsalo."
+      "text": "Las opciones: radiografía de tórax, resonancia magnética de tórax, instalar un tubo pleural, TAC de tórax, o videotoracoscopía. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B, toracotomía. Mil ochocientos mililitros de entrada supera el corte de mil quinientos: es un hemotórax masivo, con una hemorragia activa que el tubo no va a detener. El distractor tentador es transfundir y reevaluar, pero reponer sangre sin controlar la fuente lleva al shock. Y el TAC solo retrasa una cirugía que ya está indicada. Cambiar el tubo por uno más grueso tampoco resuelve nada: el problema no es el drenaje, es la fuente del sangrado."
+      "text": "Es la A. La clínica es de un neumotórax traumático, pero el paciente está estable, sin signos de que esté a tensión. Lo primero es la radiografía de tórax: confirma el diagnóstico y muestra su magnitud, y con eso recién decides si va tubo pleural. Saltarte la radiografía para instalar un tubo directamente es adelantarte sin necesidad."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Trauma abdominal cerrado: clínica y eco FAST; estable y con FAST negativa, se observa."
+      "text": "Y una segunda pregunta del banco. Paciente de cuarenta años con trauma torácico cerrado. La radiografía muestra una opacidad en la base derecha con borramiento del ángulo costofrénico. Se instala un tubo pleural que drena mil ochocientos mililitros de sangre en la primera hora."
     },
     {
       "file": "s13_g01",
-      "text": "Arma blanca: si penetra el peritoneo, se explora."
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s13_g02",
-      "text": "Arma de fuego en el abdomen: se explora siempre."
+      "text": "Las opciones: mantener el tubo y observar, toracotomía, transfundir y reevaluar en seis horas, cambiar el tubo por uno de mayor calibre, o TAC de tórax antes de decidir. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la B, toracotomía. Mil ochocientos mililitros de entrada supera el corte de mil quinientos: es un hemotórax masivo, con una hemorragia activa que el tubo no va a detener. El distractor tentador es transfundir y reevaluar, pero reponer sangre sin controlar la fuente lleva al shock. Y el TAC solo retrasa una cirugía que ya está indicada. Cambiar el tubo por uno más grueso tampoco resuelve nada: el problema no es el drenaje, es la fuente del sangrado."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Trauma abdominal cerrado: clínica y eco FAST; estable y con FAST negativa, se observa."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Arma blanca: si penetra el peritoneo, se explora."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Arma de fuego en el abdomen: se explora siempre."
+    },
+    {
+      "file": "s14_g03",
       "text": "El lavado peritoneal está obsoleto, y el bazo y el hígado se manejan de forma conservadora si el paciente está estable."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "En el tórax, hemotórax con más de mil quinientos mililitros de entrada, o más de doscientos por hora, es toracotomía. Y el arma de fuego torácica también va a pabellón. Si te llevas una sola idea de hoy: en trauma, el mecanismo manda; la FAST para el cerrado, la herida para el arma blanca, y el pabellón para el arma de fuego. Nos vemos en la próxima clase."
     }
   ]

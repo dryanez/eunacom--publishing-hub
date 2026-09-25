@@ -2,7 +2,7 @@
   "id": "gastro-23",
   "title": "Gastroenterologia 6.1: Diarrea Aguda y Crónica en el Niño",
   "specialty": "Gastroenterología",
-  "chars": 9776,
+  "chars": 11167,
   "segments": [
     {
       "file": "s00_g00",
@@ -206,38 +206,70 @@
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta del banco. Lactante de cuatro meses, alimentado con fórmula, con diarrea crónica con estrías de sangre, reflujo, y episodios de exantema y sibilancias. Está subiendo poco de peso."
+      "text": "Ahora una pregunta real del examen, de julio de dos mil diecisiete. Niño de tres años con diarrea de tres meses, intermitente, generalmente acuosa, que a veces trae restos vegetales. Subió seiscientos gramos en ese periodo y mide noventa centímetros. Está con signos vitales normales, hidratado, y el abdomen es blando y sin hallazgos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el estudio diagnóstico más apropiado?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: test del sudor, anticuerpos anti transglutaminasa, prueba terapéutica con fórmula extensamente hidrolizada y reintroducción, parasitológico seriado, o endoscopía con biopsias. Piénsalo."
+      "text": "Las opciones: diarrea crónica inespecífica, enfermedad celíaca, enteropatía perdedora de proteínas, alergia a la proteína de leche de vaca, o intolerancia a los disacáridos. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C. Síntomas digestivos más alérgicos en un lactante: alergia a la proteína de leche de vaca, y se confirma con la prueba terapéutica, retirando y reintroduciendo. El distractor tentador son los anticuerpos anti transglutaminasa, pero con cuatro meses el niño todavía no ha comido gluten, así que no puede ser celíaca. Y el test del sudor no corresponde, porque las sibilancias aquí son alérgicas, sin neumonías recurrentes."
+      "text": "Es la A. El niño está sano y sigue creciendo, sin anemia ni ningún signo de alarma: es la diarrea crónica inespecífica, por exceso de jugos. La celíaca y la alergia a la proteína de leche de vaca se acompañan de mal incremento de peso o de otros síntomas, y aquí no hay nada de eso."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. En la diarrea aguda se hidrata según el grado: plan A en casa, plan B con sales en cuatro a seis horas, y plan C con suero en bolo."
+      "text": "Otra pregunta real, de julio de dos mil veinticinco. Lactante de cuatro meses con infecciones respiratorias a repetición, deposiciones grasas y malolientes, y retraso en el crecimiento. La madre cuenta que el sudor del niño sabe salado."
     },
     {
       "file": "s11_g01",
-      "text": "Nunca antidiarreicos. Antibiótico solo en la disentería, con ciprofloxacino, y la Salmonella no tifoidea no complicada no se trata."
+      "text": "¿Cuál es el examen diagnóstico de elección?"
     },
     {
       "file": "s11_g02",
-      "text": "En la crónica, si el niño está sano y crece bien, suspende los jugos."
+      "text": "Las opciones: broncoscopía, test del sudor, test de metacolina, TAC de tórax de alta resolución, o espirometría. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la B. Diarrea grasa más neumonías recurrentes es la combinación que te lleva a fibrosis quística, y aquí además está el dato clásico del sudor salado, que es literalmente el examen que confirma: el test del sudor."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y una pregunta más del banco real, también de julio de dos mil veinticinco. Lactante de dos meses con diarrea, vómitos y dermatitis alrededor de la boca y del ano, después de empezar con fórmula láctea. El test de parche da positivo para proteína de leche de vaca."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el manejo?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: cambiar a fórmula extensamente hidrolizada o elemental, seguir con la fórmula habitual y dar antihistamínico, hospitalizar para estudio endoscópico, iniciar corticoides orales, o cambiar a leche de soja. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A. El diagnóstico ya está confirmado, así que el manejo es retirar la proteína de la leche de vaca con una fórmula extensamente hidrolizada. La trampa es la E, la leche de soja: no se recomienda en menores de seis meses, porque hay reactividad cruzada con la proteína de la leche de vaca."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. En la diarrea aguda se hidrata según el grado: plan A en casa, plan B con sales en cuatro a seis horas, y plan C con suero en bolo."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Nunca antidiarreicos. Antibiótico solo en la disentería, con ciprofloxacino, y la Salmonella no tifoidea no complicada no se trata."
+    },
+    {
+      "file": "s13_g02",
+      "text": "En la crónica, si el niño está sano y crece bien, suspende los jugos."
+    },
+    {
+      "file": "s13_g03",
       "text": "Descarta siempre la Giardia antes de diagnosticar celíaca."
     },
     {
-      "file": "s11_g04",
+      "file": "s13_g04",
       "text": "Y la alergia a la proteína de leche de vaca se confirma retirando y reintroduciendo la leche, no con un examen. Si te llevas una sola idea de hoy: en la diarrea del niño, lo que salva es el agua, no el fármaco. Nos vemos en la próxima clase."
     }
   ]

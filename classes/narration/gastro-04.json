@@ -2,7 +2,7 @@
   "id": "gastro-04",
   "title": "Gastroenterologia 1.4: Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
   "specialty": "Gastroenterología",
-  "chars": 13063,
+  "chars": 14836,
   "segments": [
     {
       "file": "s00_g00",
@@ -262,58 +262,90 @@
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta del banco EUNACOM, un caso representativo. Niño de tres años que hace dos horas bebió un sorbo de soda cáustica de un envase mal rotulado. Tiene sialorrea y llora al tragar, sin dificultad respiratoria."
+      "text": "Vamos con una pregunta real, de julio de dos mil diecinueve. Paciente de cuarenta y tres años con dolor epigástrico urente de un mes. Hace veinticuatro horas dejó de eliminar gases y el dolor se volvió difuso y persistente, con distensión abdominal. Al examen tiene taquicardia, el abdomen doloroso y distendido, pérdida de la matidez hepática, y los ruidos hidroaéreos están abolidos."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones: lavado gástrico, carbón activado, endoscopía en las primeras horas, leche o vinagre para neutralizar, o provocar el vómito. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La respuesta es la C. Fíjate que las otras cuatro alternativas son justamente la lista de lo prohibido. El carbón activado es el distractor más tentador, porque es el reflejo frente a cualquier intoxicación. Pero aquí el daño ya ocurrió, y lavar, neutralizar o hacer vomitar solo vuelve a quemar el esófago. Lo que sirve es graduar el daño con la endoscopía precoz."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Y una más del banco. Hombre de cuarenta y cinco años que, después de una cena copiosa con alcohol y varios vómitos, presenta dolor torácico intenso. Al examen tiene crepitación al palpar el cuello, y está febril y taquicárdico."
-    },
-    {
-      "file": "s13_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las alternativas: obstrucción intestinal, pancreatitis aguda, perforación de úlcera péptica, plastrón vesicular, o cáncer de vesícula. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, perforación de úlcera péptica. Tienes el síndrome ulceroso previo, la epigastralgia urente, y luego el dolor se generaliza con un íleo paralítico por la peritonitis. Y la pista fina es la pérdida de la matidez hepática: es el aire libre que se mete entre el hígado y la pared, el mismo neumoperitoneo que buscamos en la radiografía."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Otra pregunta real, de julio de dos mil trece. Paciente de cuarenta y tres años con epigastralgia de tres semanas, a quien una endoscopía por sospecha de úlcera le muestra una gastritis erosiva con test de ureasa positivo, y se le indica tratamiento erradicador del Helicobacter pylori. Tres horas después del procedimiento, aparece dolor torácico irradiado al hombro derecho y sensación febril."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
+    },
+    {
       "file": "s13_g02",
-      "text": "Las opciones: Mallory-Weiss, síndrome de Boerhaave, infarto agudo al miocardio, neumotórax espontáneo, o disección aórtica. Piénsalo."
+      "text": "Las alternativas: radiografía de tórax, repetir la endoscopía, tomografía computada de tórax, radiografía baritada, o electrocardiograma. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B, Boerhaave. Vómitos, dolor torácico y enfisema subcutáneo: la tríada completa, y la fiebre con taquicardia te dice que ya viene la mediastinitis. El distractor es el Mallory-Weiss, que parte con los mismos vómitos, pero termina en hematemesis, sin aire en el cuello ni sepsis. Y recuerda: radiografía de tórax, nunca endoscopía."
+      "text": "Es la C, el TAC de tórax. Dolor torácico y fiebre horas después de una endoscopía son la causa más frecuente de perforación esofágica: la propia endoscopía. La radiografía simple es el primer examen que se pide, pero aquí, con la sospecha alta y el cuadro tan reciente, el TAC es el que mejor confirma el neumomediastino y guía la conducta."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Úlcera perforada: dolor en puñalada y abdomen en tabla, radiografía de tórax de pie y cirugía de urgencia."
+      "text": "Una pregunta real más, de julio de dos mil diecinueve. Paciente de cuarenta y cinco años que, después de una transgresión con alcohol y comida, presenta varios vómitos alimentarios, y en una ocasión hematemesis. Su hemoglobina está en nueve."
     },
     {
       "file": "s14_g01",
-      "text": "Boerhaave: vómitos, dolor torácico y enfisema, radiografía o TAC de tórax, y cirugía de urgencia."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Vómitos seguidos de sangre es Mallory-Weiss; vómitos seguidos de aire y dolor es Boerhaave."
+      "text": "Las alternativas: várices esofágicas, gastropatía erosiva, úlcera péptica activa, síndrome de Mallory-Weiss, o gastritis isquémica. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la D, síndrome de Mallory-Weiss. Vómitos intensos que terminan en hematemesis, sin fiebre ni enfisema, es el patrón clásico: un desgarro de la mucosa por el esfuerzo del vómito. No lo confundas con Boerhaave, que rompe toda la pared y da mediastinitis, no solo sangrado."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Y la última pregunta real de esta clase, de julio de dos mil dieciséis. Niña de cinco años que hace cuarenta y cinco minutos ingirió soda cáustica por accidente, y evoluciona con sialorrea y dolor abdominal y torácico."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las alternativas: carbón activado, endoscopía digestiva alta, un agente alcalinizante, sonda nasogástrica para aspirar, o inducir el vómito. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B, endoscopía digestiva alta. Es exactamente la regla que vimos: el daño ya ocurrió, así que carbón activado, neutralizantes, sonda para aspirar o provocar el vómito no ayudan y algunos lo empeoran. Lo único que sirve es graduar el daño con la endoscopía precoz, y de ahí decidir si se observa, se deja en régimen cero, o se opera."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Úlcera perforada: dolor en puñalada y abdomen en tabla, radiografía de tórax de pie y cirugía de urgencia."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Boerhaave: vómitos, dolor torácico y enfisema, radiografía o TAC de tórax, y cirugía de urgencia."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Vómitos seguidos de sangre es Mallory-Weiss; vómitos seguidos de aire y dolor es Boerhaave."
+    },
+    {
+      "file": "s16_g03",
       "text": "Ingesta de cáustico: endoscopía precoz, y según el daño se observa, se deja en régimen cero o se opera."
     },
     {
-      "file": "s14_g04",
+      "file": "s16_g04",
       "text": "Y nunca carbón activado, lavado gástrico, neutralizantes ni vómito provocado."
     },
     {
-      "file": "s14_g05",
+      "file": "s16_g05",
       "text": "Si en una perforación te ofrecen suero, antibióticos, IBP y cirugía, la respuesta es la cirugía. Si te llevas una sola idea de hoy: donde hay un agujero, la endoscopía se prohíbe y se opera; donde hay una quemadura, la endoscopía es lo primero. Nos vemos en la próxima clase."
     }
   ]

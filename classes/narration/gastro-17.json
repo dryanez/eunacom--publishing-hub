@@ -2,7 +2,7 @@
   "id": "gastro-17",
   "title": "Gastroenterologia 4.1: Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
   "specialty": "Gastroenterología",
-  "chars": 12370,
+  "chars": 13322,
   "segments": [
     {
       "file": "s00_g00",
@@ -234,54 +234,70 @@
     },
     {
       "file": "s13_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Hombre de sesenta y dos años con dolor en el hipocondrio derecho, ictericia progresiva, fiebre de treinta y nueve con calofríos, y en las últimas horas, somnolencia y una presión de noventa cincuenta."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecinueve. Paciente de cincuenta y dos años, con doce horas de dolor epigástrico irradiado a los flancos, vómitos y orinas oscuras, con fiebre hasta treinta y nueve. Está ictérico, con una presión de noventa sobre sesenta y una frecuencia de ciento diez. La ecografía muestra el colédoco dilatado a once milímetros, con cálculos múltiples en la vesícula."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico y la conducta prioritaria?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: colecistitis con cirugía de urgencia, colangitis grave con volumen, antibióticos y CPRE urgente, coledocolitiasis con estudio electivo, hepatitis aguda, o absceso hepático. Piénsalo."
+      "text": "Las opciones: colecistectomía laparoscópica, colecistectomía abierta más coledocostomía, colangiorresonancia, TAC de abdomen y pelvis, o drenaje endoscópico de la vía biliar. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta es la B. Dolor, ictericia y fiebre es Charcot; con hipotensión y somnolencia es Reynolds, una colangitis grave. Lo prioritario es volumen, antibióticos y drenar la vía biliar por CPRE. La A es la trampa: la cirugía de urgencia es para la colecistitis, y aquí la vesícula se opera después, con el paciente estable. Y la C falla por el tiempo: con Reynolds no hay espacio para un estudio electivo."
+      "text": "Es la E, drenaje endoscópico. Dolor, ictericia y fiebre con hipotensión es una colangitis grave, y con el colédoco ya dilatado en la ecografía, no hay que esperar ningún estudio adicional. Lo prioritario es drenar por CPRE, junto con volumen y antibióticos. La colecistectomía, sea laparoscópica o abierta, se difiere hasta que el paciente esté estable."
     },
     {
       "file": "s14_g00",
-      "text": "Una más del banco. Mujer de cuarenta años, sin síntomas, a la que en una ecografía de rutina le encuentran múltiples cálculos en una vesícula de pared normal."
+      "text": "Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de cincuenta y cinco años con tres días de dolor abdominal, más marcado en el epigastrio, con vómitos. La ecografía muestra la vía biliar de ocho milímetros y cálculos pequeños en la vesícula, con fosfatasas alcalinas y GGT muy elevadas, y bilirrubina de seis."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es la conducta?"
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: observar y operar si aparecen síntomas, ácido ursodesoxicólico, colecistectomía laparoscópica electiva, dieta y control anual, u operar solo si los cálculos superan los dos centímetros. Piénsalo."
+      "text": "Las opciones: CPRE, colangiorresonancia, TAC de abdomen y pelvis, resolver quirúrgicamente, o analgesia y antibióticos. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C. En Chile toda colelitiasis se opera, aunque no dé síntomas, por el cáncer de vesícula. Fíjate que el enunciado te quita todos los síntomas a propósito, para ver si aplicas la regla igual. Y esta paciente de cuarenta años está justo en el rango GES, de treinta y cinco a cuarenta y nueve. La A es la trampa, porque es lo que dicen muchos textos extranjeros; pero observar, disolver o hacer dieta no la protege del cáncer."
+      "text": "Es la B, colangiorresonancia. Es un patrón colestásico sin fiebre: coledocolitiasis, no colangitis. La ecografía vio el colédoco dilatado, pero no el cálculo, así que el paso siguiente es confirmar con colangiorresonancia. Ir directo a la CPRE sería saltarse un paso que aquí no está indicado, porque no hay colangitis ni el cálculo visto en la ecografía."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. La primera es la regla que ordena toda la clase: sumar síntomas. Solo dolor es cólico biliar; dolor con fiebre, colecistitis."
+      "text": "Una más del banco. Mujer de cuarenta años, sin síntomas, a la que en una ecografía de rutina le encuentran múltiples cálculos en una vesícula de pared normal."
     },
     {
       "file": "s15_g01",
-      "text": "Dolor con ictericia, coledocolitiasis; y dolor, ictericia y fiebre, colangitis."
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s15_g02",
-      "text": "La colecistitis es la única que se opera de urgencia, en menos de setenta y dos horas."
+      "text": "Las opciones: observar y operar si aparecen síntomas, ácido ursodesoxicólico, colecistectomía laparoscópica electiva, dieta y control anual, u operar solo si los cálculos superan los dos centímetros. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la C. En Chile toda colelitiasis se opera, aunque no dé síntomas, por el cáncer de vesícula. Fíjate que el enunciado te quita todos los síntomas a propósito, para ver si aplicas la regla igual. Y esta paciente de cuarenta años está justo en el rango GES, de treinta y cinco a cuarenta y nueve. La A es la trampa, porque es lo que dicen muchos textos extranjeros; pero observar, disolver o hacer dieta no la protege del cáncer."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. La primera es la regla que ordena toda la clase: sumar síntomas. Solo dolor es cólico biliar; dolor con fiebre, colecistitis."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Dolor con ictericia, coledocolitiasis; y dolor, ictericia y fiebre, colangitis."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La colecistitis es la única que se opera de urgencia, en menos de setenta y dos horas."
+    },
+    {
+      "file": "s16_g03",
       "text": "La colangitis se drena de urgencia por CPRE, con volumen y antibióticos, y la vesícula se opera después. Y en la coledocolitiasis, el orden es ecografía, colangiorresonancia y CPRE, salvo que haya colangitis o que la ecografía ya vea el cálculo."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "Y toda colelitiasis se opera, aunque sea asintomática, con GES entre los treinta y cinco y los cuarenta y nueve años. Si te llevas una sola idea de hoy: suma los síntomas, y sabrás cuál se opera, cuál se drena y cuál espera. Nos vemos en la próxima clase."
     }
   ]

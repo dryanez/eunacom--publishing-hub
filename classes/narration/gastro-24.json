@@ -2,7 +2,7 @@
   "id": "gastro-24",
   "title": "Gastroenterologia 6.2: Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
   "specialty": "Gastroenterología",
-  "chars": 10283,
+  "chars": 10944,
   "segments": [
     {
       "file": "s00_g00",
@@ -182,54 +182,70 @@
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Recién nacido de cuatro semanas, previamente sano, con cinco días de vómitos explosivos después de comer. Está ávido por alimentarse. Al examen tiene signos de deshidratación, y en el laboratorio destaca hipopotasemia y alcalosis metabólica."
+      "text": "Ahora una pregunta real del examen, de diciembre de dos mil dieciocho. Niño de veintiocho días con vómitos después de comer, que empezaron hace una semana y han ido aumentando. La madre cuenta que llora después de comer y de vomitar, y el niño no ha subido bien de peso, se ve algo enflaquecido."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el examen diagnóstico más apropiado?"
+      "text": "¿Cuál es el examen de elección para iniciar el estudio en este paciente?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: pH-metría de veinticuatro horas, radiografía de abdomen simple, ecografía abdominal, endoscopía alta, o TAC de abdomen. Piénsalo."
+      "text": "Las opciones: radiografía baritada de esófago, estómago y duodeno, ecografía abdominal, endoscopía digestiva alta con biopsia, colonoscopía con biopsia, o radiografía simple de tórax y abdomen. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C, ecografía abdominal. El enunciado te da todas las piezas: cuatro semanas de vida, vómitos explosivos, un lactante hambriento, y alcalosis con hipopotasemia por la pérdida de ácido. Es una estenosis del píloro, y la ecografía muestra el músculo engrosado. La pH-metría tienta porque el lactante vomita y piensas en reflujo, pero un reflujo no deshidrata ni da alcalosis."
+      "text": "Es la B. Vómitos posprandiales desde las cuatro semanas de vida, en aumento, con mal incremento de peso: es la estenosis hipertrófica del píloro, y el examen que la confirma es la ecografía abdominal, buscando el píloro engrosado."
     },
     {
       "file": "s10_g00",
-      "text": "Y otra pregunta del banco. Niño de cinco años con constipación crónica, que presenta dolor abdominal y manchado fecal en la ropa interior. Al examen se palpa una masa en el hipogastrio, y al tacto rectal, una gran masa fecal dura en la ampolla."
+      "text": "Y otra pregunta real, de diciembre de dos mil diecisiete. Recién nacido de cuatro semanas con vómitos posprandiales abundantes desde hace una semana, y detención del incremento de peso. La madre lo nota hambriento, toma la leche con avidez."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento inicial?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: dieta rica en fibra y agua, polietilenglicol oral para desimpactar, extracción digital bajo sedación, laxantes de mantención indefinidos, o derivación quirúrgica. Piénsalo."
+      "text": "Las opciones: radiografía de abdomen simple, tratamiento endoscópico, observar la evolución, pilorotomía de Ramstedt, o funduplicatura gástrica. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Hay un fecaloma, y el manchado es rebosamiento, no diarrea. Lo primero es desimpactar, y el tratamiento de elección es el polietilenglicol oral. La fibra y el agua tientan porque son correctas, pero son de la segunda fase: si partes por ahí, el fecaloma no sale. Y la extracción digital se reserva para casos excepcionales."
+      "text": "Es la D. Es la misma estenosis del píloro que ya conoces, y de las conductas que te ofrecen, la que la resuelve es la pilorotomía de Ramstedt. Recuerda el orden: siempre se corrige antes la hidratación y los electrolitos, y recién después se opera."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. El lactante feliz que crece bien tiene un reflujo fisiológico: se educa y se tranquiliza, sin fármacos."
+      "text": "Y una más del banco real, de diciembre de dos mil diecinueve. Niño de siete años que desde hace tres años tiene deposiciones cada vez más infrecuentes y duras. Hace algunas semanas empeoró, así que le iniciaron lactulosa, sin lograr cambios. Y ahora empezó a manchar los calzoncillos con deposiciones."
     },
     {
       "file": "s11_g01",
-      "text": "Con mal incremento, síntomas respiratorios o sangre, es patológico, y la primera línea es el omeprazol."
+      "text": "¿Cuál es la causa más probable de la falta de respuesta en este paciente?"
     },
     {
       "file": "s11_g02",
-      "text": "Vómitos explosivos entre la segunda y la sexta semana, con alcalosis hipoclorémica: estenosis del píloro, ecografía, y Ramstedt después de hidratar."
+      "text": "Las opciones: dosis insuficiente de laxante, dieta baja en fibra, enfermedad de Hirschsprung, presencia de fecaloma, o patología psiquiátrica concomitante. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la D. El manchado fecal es la pista: no es que el laxante esté fallando por la dosis, es que ya hay un fecaloma, y el líquido se escurre alrededor por rebosamiento. Un laxante de mantención no desimpacta nada; primero hay que sacarlo con polietilenglicol, y recién después mantener."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. El lactante feliz que crece bien tiene un reflujo fisiológico: se educa y se tranquiliza, sin fármacos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Con mal incremento, síntomas respiratorios o sangre, es patológico, y la primera línea es el omeprazol."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Vómitos explosivos entre la segunda y la sexta semana, con alcalosis hipoclorémica: estenosis del píloro, ecografía, y Ramstedt después de hidratar."
+    },
+    {
+      "file": "s12_g03",
       "text": "El dolor abdominal sin alarma, que cede en vacaciones, es funcional: se explica y se tranquiliza."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Y en la constipación con fecaloma, primero desimpactar con polietilenglicol, y después mantener por al menos cuatro semanas. Si te llevas una sola idea de hoy: en pediatría, primero mira al niño; si crece bien y está feliz, muchas veces la mejor receta es tranquilizar. Nos vemos en la próxima clase."
     }
   ]

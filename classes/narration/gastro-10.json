@@ -2,7 +2,7 @@
   "id": "gastro-10",
   "title": "Gastroenterologia 2.4: Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
   "specialty": "Gastroenterología",
-  "chars": 9496,
+  "chars": 11272,
   "segments": [
     {
       "file": "s00_g00",
@@ -190,38 +190,70 @@
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y cinco años con colitis ulcerosa diagnosticada a los veinte, inactiva hace diez años. Desde hace una semana tiene deposiciones blandas con escasa sangre, y el examen físico no aporta."
+      "text": "Vamos con una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Hombre de veinticinco años con un mes de diarrea, dolor abdominal y malestar general; ha tenido disentería en algunas ocasiones y bajó cuatro kilos. La colonoscopía muestra inflamación en el colon, con zonas de mucosa sana y sin afectación del recto."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: rectosigmoidoscopía, TAC de abdomen y pelvis, parasitológico de deposiciones, colonoscopía, o iniciar corticoides orales. Piénsalo."
+      "text": "Las opciones: colitis ulcerosa, enfermedad de Crohn, colitis isquémica, parasitosis intestinal, o colitis por Clostridioides difficile. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D, colonoscopía. Veinticinco años de colitis ulcerosa: el riesgo de cáncer colorrectal está aumentado, y un sangrado nuevo exige ver todo el colon. La rectosigmoidoscopía es el distractor tentador, porque parece suficiente para una enfermedad que parte en el recto, pero deja el colon proximal sin ver. Y dar corticoides asumiendo un brote, sin descartar un cáncer, es justo el error que buscan."
+      "text": "Es la B, enfermedad de Crohn. Aquí la clínica no dice mucho, así que fíjate en la colonoscopía: hay zonas de mucosa sana entremedio, eso es la lesión en parches, y el recto está respetado. Basta cualquiera de esas dos características para descartar la colitis ulcerosa, que siempre es continua y siempre parte del recto. Es la misma regla que acabamos de ver, aplicada a la imagen del colonoscopio en vez de al examen físico."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Joven con diarrea disentérica crónica, fiebre y baja de peso: colonoscopía con ileoscopía y biopsias."
+      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y cinco años con colitis ulcerosa diagnosticada a los veinte, inactiva hace diez años. Desde hace una semana tiene deposiciones blandas con escasa sangre, y el examen físico no aporta."
     },
     {
       "file": "s11_g01",
-      "text": "Basta una característica de Crohn para llamarlo Crohn. Solo colon, continuo y desde el recto: colitis ulcerosa."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "La colitis ulcerosa da megacolon tóxico y, tras ocho a diez años, cáncer colorrectal: por eso un sangrado nuevo se estudia con colonoscopía completa."
+      "text": "Las opciones: rectosigmoidoscopía, TAC de abdomen y pelvis, parasitológico de deposiciones, colonoscopía, o iniciar corticoides orales. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la D, colonoscopía. Veinticinco años de colitis ulcerosa: el riesgo de cáncer colorrectal está aumentado, y un sangrado nuevo exige ver todo el colon. La rectosigmoidoscopía es el distractor tentador, porque parece suficiente para una enfermedad que parte en el recto, pero deja el colon proximal sin ver. Y dar corticoides asumiendo un brote, sin descartar un cáncer, es justo el error que buscan."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y una última, del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con diarrea crónica con sangre y mucosidad de seis meses, urgencia para ir al baño, pujo y tenesmo. La colonoscopía muestra mucosa eritematosa, granular, con pseudopólipos, desde el recto en forma continua hasta el ángulo esplénico, sin mucosa sana entremedio."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: colitis isquémica, colitis ulcerosa, intestino irritable, colitis infecciosa, o enfermedad de Crohn. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, colitis ulcerosa. Esta vez date vuelta la pregunta: no hay ni una sola característica de Crohn. Es continua, parte del recto, no hay parches ni mucosa sana intercalada. Por descarte, y porque cumple todos los requisitos de la colitis ulcerosa, esa es la respuesta. La misma regla te sirve para afirmar un diagnóstico y para descartarlo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Joven con diarrea disentérica crónica, fiebre y baja de peso: colonoscopía con ileoscopía y biopsias."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Basta una característica de Crohn para llamarlo Crohn. Solo colon, continuo y desde el recto: colitis ulcerosa."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La colitis ulcerosa da megacolon tóxico y, tras ocho a diez años, cáncer colorrectal: por eso un sangrado nuevo se estudia con colonoscopía completa."
+    },
+    {
+      "file": "s13_g03",
       "text": "Los corticoides apagan el brote, pero nunca se usan de mantención."
     },
     {
-      "file": "s11_g04",
+      "file": "s13_g04",
       "text": "Y la colectomía cura la colitis ulcerosa, pero nunca el Crohn. Si te llevas una sola idea de hoy: basta una característica de Crohn para que sea Crohn, y eso decide si la cirugía cura o no. Nos vemos en la próxima clase."
     }
   ]

@@ -2,7 +2,7 @@
   "id": "gastro-03",
   "title": "Gastroenterologia 1.3: Disfagia y Trastornos Motores del Esófago",
   "specialty": "Gastroenterología",
-  "chars": 9577,
+  "chars": 12204,
   "segments": [
     {
       "file": "s00_g00",
@@ -202,23 +202,23 @@
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta del banco EUNACOM, un caso representativo. Hombre de sesenta y dos años, fumador de cuarenta paquetes año, con tres meses de disfagia que partió con la carne y el pan, y que ahora también le cuesta con los líquidos. Ha bajado siete kilos."
+      "text": "Vamos con una pregunta real, de julio de dos mil trece. Paciente de ochenta años, con hipertensión, diabetes insulinodependiente con mal control metabólico, y epigastralgia en tratamiento crónico con omeprazol, que consulta por disfagia lógica asociada a odinofagia de un mes de evolución. El examen físico es normal."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta inicial?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: manometría, esofagograma con bario, endoscopía con biopsia, TAC de tórax, o prueba con IBP. Piénsalo."
+      "text": "Las alternativas: cáncer esofágico, reflujo gastroesofágico, acalasia, candidiasis esofágica, o divertículo esofágico. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la C. De sólidos a líquidos y progresiva: disfagia lógica. Con baja de peso y tabaco, es un cáncer escamoso hasta demostrar lo contrario, y se confirma con endoscopía y biopsia. El distractor es el TAC: se pide, pero después, para etapificar. Y la manometría y el esofagograma son para el músculo, no para un tumor."
+      "text": "Es la A, cáncer esofágico. La disfagia es lógica, y eso apunta a una obstrucción que crece, no al músculo: por eso cae la acalasia. El distractor más tentador es la candidiasis esofágica, porque el paciente es diabético con mal control y tiene odinofagia. Pero la candidiasis no da una disfagia lógica progresiva, y el omeprazol crónico habla de un reflujo de base que, a los ochenta años, obliga a descartar cáncer antes que quedarte tranquilo con el reflujo."
     },
     {
       "file": "s10_g00",
-      "text": "Y una más del banco. Mujer de setenta y un años que siente que la comida se le queda en la garganta desde hace un año. Regurgita alimentos sin digerir, y su familia le nota una halitosis intensa."
+      "text": "Ahora una pregunta real de julio de dos mil veinticuatro. Un paciente de ochenta años consulta por dificultad para comer: disfagia alta e intermitente, tanto para sólidos como para líquidos. Además tiene regurgitación frecuente de alimentos, halitosis, y ha bajado cuatro kilos en los últimos meses."
     },
     {
       "file": "s10_g01",
@@ -226,30 +226,78 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: cáncer de esófago, acalasia, divertículo de Zenker, esclerodermia, o estenosis péptica. Piénsalo."
+      "text": "Las alternativas: acalasia esofágica, cáncer de esófago, divertículo de Zenker, esclerosis sistémica con compromiso esofágico, o reflujo gastroesofágico. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, divertículo de Zenker. La comida se queda en la garganta, o sea, disfagia alta, y hay halitosis marcada porque el alimento fermenta en el saco. El distractor es la acalasia, que también regurgita comida sin digerir. Pero la acalasia es baja, da neumonías, y no tiene esa halitosis. Y recuerda el examen: esofagograma con bario."
+      "text": "Es la C, divertículo de Zenker. La clave es que la disfagia es alta, no baja, y viene con halitosis marcada, porque el alimento retenido en el saco fermenta. El distractor es la acalasia, que también da disfagia ilógica y regurgitación de comida sin digerir, pero es baja y no trae esa halitosis tan marcada."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Disfagia lógica, de sólidos a líquidos y progresiva: obstrucción, y endoscopía con biopsia."
+      "text": "Una pregunta real de diciembre de dos mil dieciocho. Mujer de cuarenta y siete años, con pirosis y dolor epigástrico de ocho meses, que consulta por disfagia ilógica alta que ha ido en aumento. Tiene fenómeno de Raynaud, esclerodactilia, telangiectasias en el pecho, y la piel de la cara indurada, sin líneas de expresión."
     },
     {
       "file": "s11_g01",
-      "text": "Disfagia ilógica, con líquidos desde el inicio: trastorno motor, y manometría."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Acalasia: regurgitación no ácida y neumonías aspirativas, y se trata con miotomía del esfínter."
+      "text": "Las alternativas: acalasia esofágica, esclerosis sistémica, dermatomiositis, lupus eritematoso sistémico, o enfermedad mixta del tejido conectivo. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la B, esclerosis sistémica, un CREST. Fíjate en el combo: Raynaud, esclerodactilia, telangiectasias y piel indurada, más un trastorno motor esofágico con pirosis. El distractor es la acalasia, que también da disfagia ilógica, pero no explica el resto: el Raynaud y la piel indurada son de la esclerodermia, no del músculo esofágico solo."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, de julio de dos mil diecinueve. Mujer de cincuenta y seis años, que vivió en Brasil hasta hace seis meses, consulta por disfagia lógica y progresiva, con baja de seis kilos. El examen físico es normal, y tiene pirosis y regurgitación de larga data."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las alternativas: cáncer de esófago, estenosis péptica, esofagitis eosinofílica, acalasia esofágica, o cáncer gástrico. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, cáncer de esófago. El antecedente de Brasil tienta a pensar en la enfermedad de Chagas, que también compromete el esófago. Pero Chagas, igual que la acalasia y la esclerodermia, da disfagia ilógica, y aquí el patrón es lógico y progresivo, de sólidos a líquidos. El patrón clínico manda por sobre el antecedente epidemiológico."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una pregunta real más, de diciembre de dos mil veinticuatro, corta y directa. Un paciente tiene disfagia a nivel del esternón después de comer pollo, y no le pasa ni el agua."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las alternativas: endoscopía digestiva alta, radiografía, nasolaringoscopia, manometría esofágica, o derrame pleural. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A, endoscopía digestiva alta. Un bolo de comida que bloquea el esófago por completo, ni el agua pasa, es una urgencia, y el mismo procedimiento que retira el trozo atascado te muestra si detrás hay un anillo de Schatzki o una estenosis péptica, que es justamente el cuadro que vimos como disfagia lógica intermitente y sin baja de peso."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Disfagia lógica, de sólidos a líquidos y progresiva: obstrucción, y endoscopía con biopsia."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Disfagia ilógica, con líquidos desde el inicio: trastorno motor, y manometría."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Acalasia: regurgitación no ácida y neumonías aspirativas, y se trata con miotomía del esfínter."
+    },
+    {
+      "file": "s14_g03",
       "text": "Esclerodermia: trastorno motor con pirosis intensa y Raynaud."
     },
     {
-      "file": "s11_g04",
+      "file": "s14_g04",
       "text": "Y disfagia alta con halitosis: Zenker, esofagograma con bario y cirugía. Si te llevas una sola idea de hoy: si afecta a los líquidos desde el principio, piensa en el músculo y pide manometría; si parte con los sólidos y progresa, piensa en un tumor y pide endoscopía. Nos vemos en la próxima clase."
     }
   ]

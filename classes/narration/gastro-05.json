@@ -2,7 +2,7 @@
   "id": "gastro-05",
   "title": "Gastroenterologia 1.5: Cáncer de Esófago y Cáncer Gástrico",
   "specialty": "Gastroenterología",
-  "chars": 8765,
+  "chars": 10326,
   "segments": [
     {
       "file": "s00_g00",
@@ -170,58 +170,90 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Hombre de sesenta años que consulta por una baja de ocho kilos en tres meses, epigastralgia sorda e hiporexia. No tiene ictericia."
+      "text": "Vamos con una pregunta real, de julio de dos mil quince. Paciente de cincuenta y cinco años con pirosis postprandial que empezó hace dos meses y ha ido en aumento, baja de cuatro kilos, dolor que aumenta al palpar el epigastrio, y en el último tiempo se agregaron vómitos después de comer."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el examen inicial más adecuado?"
+      "text": "¿Cuál es el examen que debe solicitarse para estudiar a este paciente?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: TAC de abdomen y pelvis, endoscopía digestiva alta con biopsias, ecografía abdominal, marcadores tumorales, o un tránsito con bario. Piénsalo."
+      "text": "Las alternativas: endoscopía digestiva alta, pH-metría de veinticuatro horas, TAC de abdomen, ecografía abdominal, o marcadores tumorales. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta es la B, endoscopía con biopsias. Baja de peso con epigastralgia en un mayor de cuarenta es cáncer gástrico hasta demostrar lo contrario. El distractor es el TAC: sirve, pero después, para etapificar. Y fíjate en el detalle del enunciado, \"no tiene ictericia\". Está ahí justamente para que no pienses en páncreas."
+      "text": "Es la A, endoscopía digestiva alta. Baja de peso, dolor epigástrico y vómitos postprandiales en dos meses son un cuadro sospechoso de cáncer gástrico, y lo primero, siempre, es confirmarlo con endoscopía y biopsia. El TAC y los marcadores tumorales vienen después, una vez que ya tienes el diagnóstico."
     },
     {
       "file": "s09_g00",
-      "text": "Otra del mismo banco. Mujer de cincuenta y cinco años, a la que la endoscopía por dispepsia le muestra un adenocarcinoma gástrico limitado a la mucosa, de quince milímetros, bien diferenciado y sin úlcera. El TAC no muestra adenopatías ni metástasis."
+      "text": "Otra pregunta real, de julio de dos mil diecinueve. Hombre de cincuenta y siete años con epigastralgia, inapetencia y baja de peso de dos meses, que consulta porque además tuvo un episodio de melena."
     },
     {
       "file": "s09_g01",
-      "text": "¿Qué define el pronóstico y cuál es la conducta?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: el tamaño y observar, la profundidad de invasión y resecar, el Helicobacter y erradicar, la diferenciación y quimioterapia paliativa, o el antígeno carcinoembrionario y radioterapia. Piénsalo."
+      "text": "Las alternativas: cáncer gástrico, úlcera gastroduodenal, cáncer de esófago, linfoma gástrico, o gastritis erosiva. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Lo que define el pronóstico es la profundidad de invasión, y este tumor no pasa la mucosa: es incipiente, el de mejor pronóstico, y se reseca con intención curativa. Por ser pequeño, bien diferenciado y sin úlcera, puede ser por vía endoscópica. La trampa es la C: erradicar el Helicobacter está bien, pero solo, deja el cáncer sin tratar."
+      "text": "Es la A, cáncer gástrico. Epigastralgia, inapetencia y baja de peso, más una melena que confirma la hemorragia digestiva, es el cuadro clásico. La úlcera tienta porque también sangra, pero da un dolor urente sin esta baja de peso tan marcada, y el cáncer de esófago daría disfagia, no tanto inapetencia."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Epigastralgia en un mayor de cuarenta, o con alarma: endoscopía con biopsias, garantía GES."
+      "text": "Una pregunta real más, de julio de dos mil trece. Paciente de sesenta y cinco años, fumador crónico de treinta paquetes año, con tres meses de compromiso del estado general, pirosis y baja de diez kilos. Al examen está decaído, deshidratado, muy enflaquecido, con un leve edema simétrico en las piernas."
     },
     {
       "file": "s10_g01",
-      "text": "Vómitos de retención en aumento en un adulto: cáncer gástrico hasta demostrar lo contrario."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Si se agrega ictericia, piensa en páncreas y pide TAC."
+      "text": "Las alternativas: cáncer pulmonar, cáncer gástrico, cáncer de esófago, cáncer de páncreas, o cáncer de duodeno. Piénsalo."
     },
     {
       "file": "s10_g03",
+      "text": "Es la B, cáncer gástrico. El tabaquismo tienta a pensar en el esófago, pero ahí falta la disfagia, que es la clave de ese cuadro. La pirosis y la baja de peso tan grande orientan al estómago, y el edema de las piernas es por la desnutrición proteica del cáncer avanzado, no por otra causa."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y la última pregunta real de esta clase, de julio de dos mil veinticinco. Mujer de setenta y cuatro años con epigastralgia de tres semanas, sin irradiación y sin baja de peso. Tuvo dispepsia hace diez años, y usa antiinflamatorios de forma ocasional."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las alternativas: endoscopía por criterio de alarma según la edad, iniciar inhibidor de la bomba de protones y controlar en un mes, test no invasivo de Helicobacter y tratar si es positivo, radiografía de abdomen, o ecografía abdominal. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, endoscopía digestiva alta. Fíjate que no hay baja de peso ni otro signo de alarma clásico: la edad, sobre sesenta años, ya es un criterio de alarma por sí solo. Por eso no corresponde tratar de forma empírica con inhibidor de la bomba ni empezar por el Helicobacter: hay que descartar cáncer gástrico y úlcera con endoscopía primero."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Epigastralgia en un mayor de cuarenta, o con alarma: endoscopía con biopsias, garantía GES."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Vómitos de retención en aumento en un adulto: cáncer gástrico hasta demostrar lo contrario."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Si se agrega ictericia, piensa en páncreas y pide TAC."
+    },
+    {
+      "file": "s12_g03",
       "text": "El pronóstico lo decide la invasión de la pared, no las adenopatías."
     },
     {
-      "file": "s10_g04",
+      "file": "s12_g04",
       "text": "El incipiente se reseca; el avanzado lleva gastrectomía con linfadenectomía D dos y quimioterapia."
     },
     {
-      "file": "s10_g05",
+      "file": "s12_g05",
       "text": "Y en el esófago, escamoso por tabaco y alcohol, adenocarcinoma por reflujo y Barrett. Si te llevas una sola idea de hoy: el pronóstico lo decide la profundidad, y por eso se endoscopia temprano. Nos vemos en la próxima clase."
     }
   ]

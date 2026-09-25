@@ -2,7 +2,7 @@
   "id": "gastro-15",
   "title": "Gastroenterologia 3.3: Daño Hepático Crónico e Hipertensión Portal",
   "specialty": "Gastroenterología",
-  "chars": 13276,
+  "chars": 14752,
   "segments": [
     {
       "file": "s00_g00",
@@ -238,54 +238,86 @@
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Paciente cirrótico con várices esofágicas medianas encontradas en una endoscopía de tamizaje. Nunca ha sangrado."
+      "text": "Y ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de cincuenta y cinco años con varios episodios de hematemesis, cerca de un litro en la última hora. Está pálido, con una frecuencia cardíaca de ciento veinte y una presión de ochenta sobre sesenta, con estigmas de daño hepático crónico."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la profilaxis indicada?"
+      "text": "¿Cuál es la conducta inicial?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: ligadura más propranolol, propranolol o carvedilol titulado por frecuencia cardíaca, TIPS electivo, terlipresina mensual, o ácido tranexámico permanente. Piénsalo."
+      "text": "Las opciones: terlipresina endovenosa, cristaloides endovenosos, balón de Sengstaken, endoscopía digestiva alta, o transfundir glóbulos rojos. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta es la B, betabloqueo no selectivo. Nunca sangró, así que es profilaxis primaria, y se titula bajando la frecuencia cardíaca. El distractor tentador es la A, ligadura más propranolol, pero esa combinación es la profilaxis secundaria, para el que ya sangró. Y el TIPS o la terlipresina no tienen lugar en un paciente que nunca ha sangrado."
+      "text": "Es la B, cristaloides. Independiente de la causa, toda hemorragia digestiva se maneja primero reponiendo volumen. La terlipresina y la endoscopía son parte del paquete, pero no van antes que estabilizar al paciente que está en shock."
     },
     {
       "file": "s13_g00",
-      "text": "Y otra pregunta del banco. Cirrótico con ascitis refractaria a diuréticos, que además ha tenido dos episodios de encefalopatía hepática en el último mes. El equipo propone instalar un TIPS para controlar la ascitis."
+      "text": "Esta es del EUNACOM de julio de dos mil trece. Paciente de cincuenta y cinco años, con daño hepático crónico por virus C, que consulta por malestar general, febrículas, confusión y más ascitis. Al examen tiene matidez desplazable, y la paracentesis diagnóstica muestra trescientos leucocitos, cien por ciento polimorfonucleares."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta correcta?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: instalar el TIPS porque resuelve la ascitis y las várices, no instalarlo porque la encefalopatía lo contraindica, instalarlo con lactulosa profiláctica, instalarlo y suspender el betabloqueo, o instalarlo con anestesia general. Piénsalo."
+      "text": "Las opciones: albúmina endovenosa, paracentesis evacuadora, observar, antibióticos empíricos, o diuréticos. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B: no se instala. La encefalopatía contraindica el TIPS, porque la sangre saltaría el hígado y llevaría más amonio al cerebro. El distractor tentador es la A, porque el TIPS sí trataría la ascitis, pero a costa de un cerebro más intoxicado. Y la lactulosa no elimina la contraindicación. Este paciente sigue con paracentesis seriadas con albúmina y va a evaluación para trasplante."
+      "text": "Es la D, antibióticos empíricos. Trescientos polimorfonucleares confirman la peritonitis bacteriana espontánea. También va a necesitar albúmina, pero lo que define esta pregunta y lo más urgente es partir el antibiótico, con cefotaxima, sin esperar el cultivo."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Todo cirrótico con ascitis que consulta: paracentesis diagnóstica antes que nada."
+      "text": "Ahora una pregunta del banco EUNACOM. Paciente cirrótico con várices esofágicas medianas encontradas en una endoscopía de tamizaje. Nunca ha sangrado."
     },
     {
       "file": "s14_g01",
-      "text": "Con doscientos cincuenta polimorfonucleares o más, es peritonitis: cefotaxima más albúmina el día uno y el día tres."
+      "text": "¿Cuál es la profilaxis indicada?"
     },
     {
       "file": "s14_g02",
-      "text": "Várices que nunca sangraron: propranolol, y ligadura sola solo si no lo tolera. Ya sangró: propranolol más ligadura."
+      "text": "Las opciones: ligadura más propranolol, propranolol o carvedilol titulado por frecuencia cardíaca, TIPS electivo, terlipresina mensual, o ácido tranexámico permanente. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "La respuesta es la B, betabloqueo no selectivo. Nunca sangró, así que es profilaxis primaria, y se titula bajando la frecuencia cardíaca. El distractor tentador es la A, ligadura más propranolol, pero esa combinación es la profilaxis secundaria, para el que ya sangró. Y el TIPS o la terlipresina no tienen lugar en un paciente que nunca ha sangrado."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Y otra pregunta del banco. Cirrótico con ascitis refractaria a diuréticos, que además ha tenido dos episodios de encefalopatía hepática en el último mes. El equipo propone instalar un TIPS para controlar la ascitis."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta correcta?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: instalar el TIPS porque resuelve la ascitis y las várices, no instalarlo porque la encefalopatía lo contraindica, instalarlo con lactulosa profiláctica, instalarlo y suspender el betabloqueo, o instalarlo con anestesia general. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B: no se instala. La encefalopatía contraindica el TIPS, porque la sangre saltaría el hígado y llevaría más amonio al cerebro. El distractor tentador es la A, porque el TIPS sí trataría la ascitis, pero a costa de un cerebro más intoxicado. Y la lactulosa no elimina la contraindicación. Este paciente sigue con paracentesis seriadas con albúmina y va a evaluación para trasplante."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Todo cirrótico con ascitis que consulta: paracentesis diagnóstica antes que nada."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Con doscientos cincuenta polimorfonucleares o más, es peritonitis: cefotaxima más albúmina el día uno y el día tres."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Várices que nunca sangraron: propranolol, y ligadura sola solo si no lo tolera. Ya sangró: propranolol más ligadura."
+    },
+    {
+      "file": "s16_g03",
       "text": "Y en el sangrado activo, terlipresina, ligadura y nunca olvidar los antibióticos."
     },
     {
-      "file": "s14_g04",
+      "file": "s16_g04",
       "text": "En la encefalopatía, tratar el precipitante y dar lactulosa, y el TIPS está contraindicado. Si te llevas una sola idea de hoy: al cirrótico con ascitis se le punciona siempre, y al encefalopático nunca se le pone un TIPS. Nos vemos en la próxima clase."
     }
   ]

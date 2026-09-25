@@ -2,7 +2,7 @@
   "id": "gastro-08",
   "title": "Gastroenterologia 2.2: Diarrea Aguda, Diarrea Crónica y Constipación",
   "specialty": "Gastroenterología",
-  "chars": 6179,
+  "chars": 8088,
   "segments": [
     {
       "file": "s00_g00",
@@ -10,150 +10,206 @@
     },
     {
       "file": "s01_g00",
-      "text": "Primero las definiciones, con la regla de los tres. Diarrea son deposiciones de menor consistencia, más de tres al día. Y constipación es lo inverso: deposiciones duras, menos de tres a la semana."
+      "text": "Primero las definiciones, con la regla de los tres. Diarrea son deposiciones de menor consistencia, más de tres al día."
     },
     {
       "file": "s01_g01",
-      "text": "Por duración, la diarrea es aguda si dura menos de dos semanas, prolongada entre dos y cuatro, y crónica desde las cuatro semanas. La aguda es casi siempre infecciosa, y más viral que bacteriana. Por eso no se estudia la causa: el diagnóstico es clínico y el manejo, sintomático."
+      "text": "Por duración, la diarrea es aguda si dura menos de dos semanas, prolongada entre dos y cuatro, y crónica desde las cuatro semanas."
     },
     {
       "file": "s01_g02",
-      "text": "Lo que sí se evalúa es la deshidratación, porque decide el plan. Sin deshidratación, o con pérdida de peso menor al cinco por ciento: plan A. Sales de rehidratación oral, cien a doscientos mililitros después de cada deposición, en la casa."
+      "text": "Y constipación es lo inverso: deposiciones duras, menos de tres a la semana."
     },
     {
       "file": "s01_g03",
-      "text": "Deshidratación moderada, entre cinco y diez por ciento, con irritabilidad, mucosas secas y ojos hundidos: plan B. Sales orales de cincuenta a cien mililitros por kilo en cuatro a seis horas, reevaluando. Si vomita, se fracciona a sorbos. Fíjate que sigue siendo por boca."
-    },
-    {
-      "file": "s01_g04",
-      "text": "Plan C es la deshidratación grave, sobre diez por ciento, o cuando la vía oral no es posible: shock, compromiso de conciencia, íleo o vómitos incoercibles. Ahí se hidrata por vena, con suero fisiológico o Ringer lactato."
-    },
-    {
-      "file": "s01_g05",
-      "text": "Y un detalle: si hay hipernatremia, se prefieren soluciones hipotónicas o glucosalinas."
+      "text": "La aguda es casi siempre infecciosa, y más viral que bacteriana. Por eso no se estudia la causa: el diagnóstico es clínico y el manejo, sintomático."
     },
     {
       "file": "s02_g00",
-      "text": "Ahora los fármacos, y aquí está la trampa más clásica. En la diarrea aguda infecciosa no se usan antidiarreicos como la loperamida: frenar el intestino deja al germen adentro y aumenta el riesgo de complicaciones."
+      "text": "Ahora, lo que sí se evalúa en toda diarrea aguda es la deshidratación, porque decide el plan."
     },
     {
       "file": "s02_g01",
-      "text": "Lo que sí puedes dar, para el confort, son antieméticos y antiespasmódicos."
+      "text": "Sin deshidratación, o con pérdida de peso menor al cinco por ciento: plan A. Sales de rehidratación oral, cien a doscientos mililitros después de cada deposición, en la casa."
     },
     {
       "file": "s02_g02",
-      "text": "El antibiótico es la excepción, no la regla. Se indica en cuatro situaciones. Primera, disentería, es decir, sangre en las deposiciones, que hace pensar en Shigella o E. coli enteroinvasora."
+      "text": "Deshidratación moderada, entre cinco y diez por ciento, con irritabilidad, mucosas secas y ojos hundidos: plan B. Sales orales de cincuenta a cien mililitros por kilo en cuatro a seis horas, reevaluando. Si vomita, se fracciona a sorbos. Fíjate que sigue siendo por boca."
     },
     {
       "file": "s02_g03",
-      "text": "Las otras tres son la diarrea del viajero, la fiebre que persiste más de dos o tres días, y el paciente séptico. Fuera de eso, el antibiótico rara vez cambia el curso."
+      "text": "Plan C es la deshidratación grave, sobre diez por ciento, o cuando la vía oral no es posible: shock, compromiso de conciencia, íleo o vómitos incoercibles. Ahí se hidrata por vena, con suero fisiológico o Ringer lactato."
     },
     {
       "file": "s02_g04",
-      "text": "Y cuando se indica, el de elección es ciprofloxacino oral, o ceftriaxona endovenosa si el cuadro es grave."
-    },
-    {
-      "file": "s02_g05",
-      "text": "Dos excepciones: en el cólera y en el Campylobacter, azitromicina."
+      "text": "Y un detalle: si hay hipernatremia, se prefieren soluciones hipotónicas o glucosalinas."
     },
     {
       "file": "s03_g00",
-      "text": "Si la diarrea pasa las dos semanas, ahora sí buscamos el agente: coprocultivo, parasitológico seriado buscando Giardia y Entamoeba, y rotatest."
+      "text": "Ahora los fármacos, y aquí está la trampa más clásica. En la diarrea aguda infecciosa no se usan antidiarreicos como la loperamida: frenar el intestino deja al germen adentro y aumenta el riesgo de complicaciones."
     },
     {
       "file": "s03_g01",
-      "text": "Y si usó antibióticos en el último mes, sospecha Clostridioides difficile. Se diagnostica con PCR de toxina y se trata con metronidazol, y si falla, vancomicina oral. Ojo: la respuesta se evalúa por la clínica, no repitiendo la PCR."
+      "text": "Lo que sí puedes dar, para el confort, son antieméticos y antiespasmódicos."
     },
     {
       "file": "s03_g02",
-      "text": "La diarrea crónica se orienta por la clínica, y cada rama tiene su clase: funcional, como el intestino irritable; malabsorción, que vemos en la próxima clase con el Sudán y la D-xilosa; o enfermedad inflamatoria, que se estudia con colonoscopía."
+      "text": "El antibiótico es la excepción, no la regla. Se indica en cuatro situaciones. Primera, disentería, es decir, sangre en las deposiciones, que hace pensar en Shigella o E. coli enteroinvasora."
     },
     {
       "file": "s03_g03",
-      "text": "Y si hay signos de alarma, colonoscopía para descartar un cáncer de colon."
+      "text": "Las otras tres son la diarrea del viajero, la fiebre que persiste más de dos o tres días, y el paciente séptico. Fuera de eso, el antibiótico rara vez cambia el curso."
     },
     {
       "file": "s03_g04",
-      "text": "La constipación casi siempre es funcional: educación, fibra, agua y proquinéticos. Pero en un adulto mayor con signos de alarma, la conducta es la misma que en la diarrea: colonoscopía."
+      "text": "Y cuando se indica, el de elección es ciprofloxacino oral, o ceftriaxona endovenosa si el cuadro es grave."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Dos excepciones: en el cólera y en el Campylobacter, azitromicina."
     },
     {
       "file": "s04_g00",
-      "text": "Pongamos todo en un solo árbol. Diarrea es más de tres deposiciones al día de menor consistencia. La primera pregunta es cuánto tiempo lleva."
+      "text": "Si la diarrea pasa las dos semanas, ahora sí buscamos el agente: coprocultivo, parasitológico seriado buscando Giardia y Entamoeba, y rotatest."
     },
     {
       "file": "s04_g01",
-      "text": "¿Menos de dos semanas, entre dos y cuatro, o cuatro semanas o más?"
+      "text": "Y si usó antibióticos en el último mes, sospecha Clostridioides difficile. Se diagnostica con PCR de toxina y se trata con metronidazol, y si falla, vancomicina oral. Ojo: la respuesta se evalúa por la clínica, no repitiendo la PCR."
     },
     {
       "file": "s04_g02",
-      "text": "La diarrea aguda es casi siempre viral. El manejo es la hidratación según el plan A, B o C. La loperamida está contraindicada."
+      "text": "La diarrea crónica se orienta por la clínica, y cada rama tiene su clase: funcional, como el intestino irritable; malabsorción, que vemos en la próxima clase con el Sudán y la D-xilosa; o enfermedad inflamatoria, que se estudia con colonoscopía."
     },
     {
       "file": "s04_g03",
-      "text": "¿Hay sangre en las deposiciones, es diarrea del viajero, fiebre persistente o sepsis?"
+      "text": "Y si hay signos de alarma, colonoscopía para descartar un cáncer de colon."
     },
     {
       "file": "s04_g04",
-      "text": "Solo entonces se indica antibiótico: ciprofloxacino oral, o ceftriaxona endovenosa si es grave."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Si no, manejo sintomático: se pueden usar antieméticos y antiespasmódicos."
-    },
-    {
-      "file": "s04_g06",
-      "text": "En la diarrea prolongada se busca el agente: coprocultivo y parasitológico seriado. Si usó antibióticos el último mes, sospecha Clostridioides difficile y pide PCR de toxina."
-    },
-    {
-      "file": "s04_g07",
-      "text": "La diarrea crónica se orienta según la clínica: funcional, malabsorción, enfermedad inflamatoria o cáncer. Con signos de alarma, colonoscopía."
+      "text": "La constipación casi siempre es funcional: educación, fibra, agua y proquinéticos. Pero en un adulto mayor con signos de alarma, la conducta es la misma que en la diarrea: colonoscopía."
     },
     {
       "file": "s05_g00",
-      "text": "Vamos al caso. Hombre de treinta y cuatro años con dos días de diarrea con sangre, dolor cólico y fiebre de treinta y nueve grados. Está estable, tolera líquidos por boca y no está deshidratado."
+      "text": "Pongamos todo en un solo árbol. Diarrea es más de tres deposiciones al día de menor consistencia. La primera pregunta es cuánto tiempo lleva."
     },
     {
       "file": "s05_g01",
-      "text": "Además de hidratarlo, ¿cuál es la conducta más adecuada?"
+      "text": "¿Menos de dos semanas, entre dos y cuatro, o cuatro semanas o más?"
     },
     {
       "file": "s05_g02",
-      "text": "Las alternativas: loperamida, ciprofloxacino oral, solo sales sin otros fármacos, colonoscopía urgente, o vancomicina oral. Piénsalo."
+      "text": "La diarrea aguda es casi siempre viral. El manejo es la hidratación según el plan A, B o C. La loperamida está contraindicada."
     },
     {
       "file": "s05_g03",
-      "text": "Es la B. Diarrea con sangre es disentería, y esa es una de las cuatro indicaciones de antibiótico: ciprofloxacino oral. La C sería correcta en la gran mayoría de las diarreas agudas, pero aquí el caso te pone sangre justamente para sacarte de la regla. Y la loperamida, nunca en una diarrea infecciosa."
+      "text": "¿Hay sangre en las deposiciones, es diarrea del viajero, fiebre persistente o sepsis?"
+    },
+    {
+      "file": "s05_g04",
+      "text": "Solo entonces se indica antibiótico: ciprofloxacino oral, o ceftriaxona endovenosa si es grave."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si no, manejo sintomático: se pueden usar antieméticos y antiespasmódicos."
+    },
+    {
+      "file": "s05_g06",
+      "text": "En la diarrea prolongada se busca el agente: coprocultivo y parasitológico seriado. Si usó antibióticos el último mes, sospecha Clostridioides difficile y pide PCR de toxina."
+    },
+    {
+      "file": "s05_g07",
+      "text": "La diarrea crónica se orienta según la clínica: funcional, malabsorción, enfermedad inflamatoria o cáncer. Con signos de alarma, colonoscopía."
     },
     {
       "file": "s06_g00",
-      "text": "Y ahora una pregunta del banco EUNACOM. Hombre de cuarenta y seis años con diarrea líquida de tres semanas, que empezó diez días después de terminar amoxicilina con ácido clavulánico por una neumonía. Sin sangre."
+      "text": "Repasemos los planes. Plan A, sin deshidratación, menos del cinco por ciento de pérdida de peso: sales de rehidratación oral en la casa."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es el examen más adecuado para confirmar la causa?"
+      "text": "Plan B, deshidratación moderada, entre cinco y diez por ciento: sales orales según el peso, y reevaluar en cuatro a seis horas."
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: coprocultivo, PCR de toxina de Clostridioides difficile, parasitológico seriado, colonoscopía con biopsias, o calprotectina fecal. Piénsalo."
-    },
-    {
-      "file": "s06_g03",
-      "text": "La respuesta es la B. Diarrea prolongada que parte después de un antibiótico, dentro del mes: es Clostridioides difficile hasta demostrar lo contrario, y se confirma con PCR de toxina. El parasitológico tienta, porque es una diarrea prolongada, pero el dato del antibiótico manda. Y recuerda: después del tratamiento no se repite la PCR, porque puede seguir positiva por semanas."
+      "text": "Y plan C, deshidratación grave o shock: cristaloides por vena."
     },
     {
       "file": "s07_g00",
-      "text": "Cerremos con las reglas de oro. En la diarrea aguda, el tratamiento es la hidratación, con el plan A, B o C según el grado de deshidratación."
+      "text": "Vamos al caso. Hombre de treinta y cuatro años con dos días de diarrea con sangre, dolor cólico y fiebre de treinta y nueve grados. Está estable, tolera líquidos por boca y no está deshidratado."
     },
     {
       "file": "s07_g01",
-      "text": "Nunca loperamida, y antibiótico solo si hay disentería, diarrea del viajero, fiebre persistente o sepsis, con ciprofloxacino."
+      "text": "Además de hidratarlo, ¿cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Si hubo antibióticos el último mes, Clostridioides difficile, con PCR de toxina y sin PCR de control."
+      "text": "Las alternativas: loperamida, ciprofloxacino oral, solo sales sin otros fármacos, colonoscopía urgente, o vancomicina oral. Piénsalo."
     },
     {
       "file": "s07_g03",
+      "text": "Es la B. Diarrea con sangre es disentería, y esa es una de las cuatro indicaciones de antibiótico: ciprofloxacino oral. La C sería correcta en la gran mayoría de las diarreas agudas, pero aquí el caso te pone sangre justamente para sacarte de la regla. Y la loperamida, nunca en una diarrea infecciosa."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y cuatro años con dos días de dolor abdominal tipo cólico, en aumento, deposiciones líquidas abundantes y sensación febril. No tiene signo de Blumberg, y la ecografía muestra inflamación del íleon distal y del colon derecho, con el apéndice apenas edematoso y un coprolito en su base."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las alternativas: apendicitis aguda, enteritis infecciosa, diverticulitis aguda, enfermedad de Crohn, o colitis isquémica. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, enteritis infecciosa. El coprolito y el dolor en la fosa ilíaca derecha tientan hacia la apendicitis, pero la ecografía muestra la inflamación repartida en el íleon y el colon derecho, no concentrada en el apéndice, que además está apenas edematoso y sin signo de Blumberg. Es un cuadro de diarrea aguda que se disfraza de abdomen agudo quirúrgico."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente hospitalizado diez días por una neumonía, que después del alta presenta diarrea líquida abundante, cinco a seis veces al día, con dolor abdominal y febrículas."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen de elección para continuar el estudio?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: colonoscopía, parasitológico ampliado, coprocultivo, PCR para Clostridioides difficile, o ecografía abdominal. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D. Diarrea que aparece tras una hospitalización con antibióticos es Clostridioides difficile hasta demostrar lo contrario, y el examen de elección es la PCR de toxina en deposiciones. El coprocultivo tienta, porque suena razonable pedirlo primero, pero no detecta esta bacteria de la forma en que la detecta la PCR."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años con varios meses de constipación que alterna con diarrea. Su hematocrito y su hemoglobina están casi normales."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Qué examen debe solicitarse a continuación?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: sangre oculta en deposiciones, ecografía abdominal, TAC de abdomen y pelvis, colonoscopía, o rectosigmoidoscopía. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, colonoscopía. Setenta años y un cambio del hábito intestinal, que alterna constipación con diarrea, son dos señales de alarma: la edad de inicio y el cambio reciente del patrón. Aunque el hematocrito casi no esté alterado, esa combinación en un adulto mayor obliga a descartar cáncer de colon con colonoscopía."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. En la diarrea aguda, el tratamiento es la hidratación, con el plan A, B o C según el grado de deshidratación."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Nunca loperamida, y antibiótico solo si hay disentería, diarrea del viajero, fiebre persistente o sepsis, con ciprofloxacino."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si hubo antibióticos el último mes, Clostridioides difficile, con PCR de toxina y sin PCR de control."
+    },
+    {
+      "file": "s11_g03",
       "text": "Y diarrea crónica o constipación con alarma en un adulto mayor: colonoscopía. Si te llevas una sola idea de hoy: la diarrea aguda se hidrata, no se frena. Nos vemos en la próxima clase."
     }
   ]

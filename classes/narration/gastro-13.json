@@ -2,7 +2,7 @@
   "id": "gastro-13",
   "title": "Gastroenterologia 3.1: Ictericia y Colestasia: Enfrentamiento Diagnóstico",
   "specialty": "Gastroenterología",
-  "chars": 8753,
+  "chars": 9676,
   "segments": [
     {
       "file": "s00_g00",
@@ -214,22 +214,38 @@
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Primer paso: indirecta o directa. La indirecta aislada con todo lo demás normal es Gilbert, y se observa."
+      "text": "Una pregunta real más, del EUNACOM de diciembre de dos mil dieciocho. Mujer de setenta años con dolor abdominal intenso de un día, fiebre hasta treinta y ocho coma cinco, mal estado general y vómitos repetidos. Al examen está hipotensa, taquicárdica, ictérica, con dolor difuso y resistencia muscular en el hemiabdomen superior. La bilirrubina está en seis coma ocho, de predominio directo, con fosfatasas, GGT y transaminasas todas elevadas."
     },
     {
       "file": "s11_g01",
-      "text": "Segundo paso, en la directa: transaminasas es hepatitis; fosfatasas y GGT es colestasia."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "En la colestasia, el dolor manda. Con dolor es un cálculo, con dolor y fiebre es colangitis."
+      "text": "Las opciones: colecistitis enfisematosa, plastrón vesicular, hepatitis aguda, colangitis aguda, o coledocolitiasis. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la D, colangitis aguda. Tiene la tríada de Charcot completa: dolor, ictericia y fiebre, y además está hipotensa y taquicárdica, con compromiso hemodinámico. Eso la separa de la coledocolitiasis simple, que da dolor e ictericia pero no fiebre ni shock. Es una urgencia: va a drenaje de la vía biliar más antibióticos."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Primer paso: indirecta o directa. La indirecta aislada con todo lo demás normal es Gilbert, y se observa."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Segundo paso, en la directa: transaminasas es hepatitis; fosfatasas y GGT es colestasia."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En la colestasia, el dolor manda. Con dolor es un cálculo, con dolor y fiebre es colangitis."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y sin dolor en un adulto mayor, es cáncer, sobre todo de páncreas, con sus tres D y el signo de Courvoisier-Terrier."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Toda ictericia parte con ecografía; después colangiorresonancia, o TAC si se sospecha una masa pancreática. Si te llevas una sola idea de hoy: la ictericia que no duele en un adulto mayor es un cáncer hasta que se demuestre lo contrario. Nos vemos en la próxima clase."
     }
   ]

@@ -2,7 +2,7 @@
   "id": "gastro-20",
   "title": "Gastroenterologia 5.2: Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
   "specialty": "Gastroenterología",
-  "chars": 12943,
+  "chars": 14109,
   "segments": [
     {
       "file": "s00_g00",
@@ -206,23 +206,23 @@
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Paciente de setenta y dos años con fibrilación auricular, que presenta un dolor abdominal súbito y muy intenso. El examen abdominal es prácticamente normal, sin defensa ni Blumberg."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de sesenta y cinco años, con un accidente vascular encefálico hace dos años en tratamiento con aspirina, consulta por un dolor abdominal difuso e intenso, de inicio agudo. Al examen está en regulares condiciones, con ritmo irregular, y el abdomen apenas duele a la palpación profunda, con Blumberg negativo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el examen diagnóstico de elección?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: TAC sin contraste, ecografía abdominal, angio-TAC o angiografía mesentérica, radiografía simple, o colonoscopía urgente. Piénsalo."
+      "text": "Las opciones: isquemia mesentérica, disección aórtica, úlcera perforada, diverticulitis aguda, o trombosis mesentérica. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta es la C. Ya reconoces la frase: fibrilación auricular, dolor súbito, abdomen casi normal. Es una embolia, y para ver un émbolo necesitas contraste dentro de la arteria: angio-TAC, o angiografía si además se va a tratar por vía endovascular. El distractor más tentador es el TAC sin contraste, porque suena a examen completo, pero sin contraste la arteria no se ve, y pierdes un tiempo que el intestino no tiene."
+      "text": "Es la A, isquemia mesentérica, por embolia. El ritmo irregular es la fibrilación auricular escondida en el enunciado, la fuente del émbolo. Y fíjate en la frase clave: dolor intenso, pero abdomen apenas doloroso y Blumberg negativo. Esa es la disociación clínica de memoria. La trombosis mesentérica, la E, es la trampa, pero esa da un cuadro más lento, de días, no de inicio agudo como este."
     },
     {
       "file": "s12_g00",
-      "text": "Y otra pregunta del banco. Hombre de setenta años con ateroesclerosis que, después de un episodio de hipotensión por una hemorragia digestiva, presenta dolor cólico en el flanco izquierdo y elimina deposiciones con sangre roja. El abdomen está sensible en el flanco izquierdo, sin peritonismo."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Mujer de sesenta y dos años, con una cesárea reciente, consulta por un dolor abdominal intenso, de dos horas, difuso pero mayor en el hemiabdomen superior, con vómitos alimentarios. El dolor empezó tipo cólico y se hizo permanente. Está taquicárdica, con el abdomen timpánico y ruidos hidroaéreos muy disminuidos."
     },
     {
       "file": "s12_g01",
@@ -230,30 +230,46 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: embolia mesentérica, trombosis venosa mesentérica, colitis isquémica, diverticulitis aguda, o enfermedad de Crohn. Piénsalo."
+      "text": "Las opciones: obstrucción intestinal, perforación intestinal, vólvulo de sigmoides, trombosis de la vena mesentérica, o embolia mesentérica. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, colitis isquémica. El enunciado arma el mecanismo: ateroesclerosis más hipotensión es bajo flujo, y el bajo flujo daña las zonas frontera, que están a la izquierda. La embolia tienta porque también es isquemia, pero aquí no hay fibrilación auricular, y el dolor sería difuso y brutal, con disociación. Y la diverticulitis, de la clase anterior, no la gatilla una hipotensión."
+      "text": "Es la D, trombosis de la vena mesentérica. El distractor tentador es la embolia mesentérica, porque también es isquemia intestinal, pero a la embolia le falta la fuente: aquí no hay fibrilación auricular, y sí hay una cirugía reciente, que es justamente el terreno protrombótico de la trombosis venosa. El dolor que pasa de cólico a permanente en un par de horas también calza mejor con un cuadro que avanza más gradual que el de la embolia."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Fibrilación auricular, dolor súbito e intensísimo, y un abdomen blando: embolia mesentérica hasta que se demuestre lo contrario."
+      "text": "Cerremos con un caso representativo del banco EUNACOM, para la tercera entidad. Hombre de setenta años con ateroesclerosis que, después de un episodio de hipotensión por una hemorragia digestiva, presenta dolor cólico en el flanco izquierdo y elimina deposiciones con sangre roja. El abdomen está sensible en el flanco izquierdo, sin peritonismo."
     },
     {
       "file": "s13_g01",
-      "text": "Heparina ante la sola sospecha, angio-TAC, y revascularizar. La ventana es de horas."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "La trombosis venosa: hipercoagulable, dolor de días y peritoneo precoz. TAC con contraste y anticoagulación. Aquí la heparina no es un puente: es el tratamiento."
+      "text": "Las opciones: embolia mesentérica, trombosis venosa mesentérica, colitis isquémica, diverticulitis aguda, o enfermedad de Crohn. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la C, colitis isquémica. El enunciado arma el mecanismo: ateroesclerosis más hipotensión es bajo flujo, y el bajo flujo daña las zonas frontera, que están a la izquierda. La embolia tienta porque también es isquemia, pero aquí no hay fibrilación auricular, y el dolor sería difuso y brutal, con disociación. Y la diverticulitis, de la clase anterior, no la gatilla una hipotensión."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Fibrilación auricular, dolor súbito e intensísimo, y un abdomen blando: embolia mesentérica hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Heparina ante la sola sospecha, angio-TAC, y revascularizar. La ventana es de horas."
+    },
+    {
+      "file": "s14_g02",
+      "text": "La trombosis venosa: hipercoagulable, dolor de días y peritoneo precoz. TAC con contraste y anticoagulación. Aquí la heparina no es un puente: es el tratamiento."
+    },
+    {
+      "file": "s14_g03",
       "text": "La colitis isquémica: la más frecuente, dolor izquierdo con hematoquecia tras una hipotensión, y casi siempre se maneja sin cirugía."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y para las tres, hidratación y antibióticos, con cirugía solo si hay necrosis o perforación. Si te llevas una sola idea de hoy: un dolor enorme con un abdomen que casi no duele, en un paciente con fibrilación auricular, se anticoagula antes de que el peritoneo te dé la razón. Nos vemos en la próxima clase."
     }
   ]
