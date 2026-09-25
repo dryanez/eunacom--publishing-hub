@@ -302,7 +302,7 @@ module.exports = {
       say: {
         stem: 'Joven de veintiún años con dolor súbito e intenso en fosa ilíaca izquierda, vómitos repetidos, prueba de embarazo negativa y ecografía Doppler con ovario de siete centímetros y signo del remolino.',
         question: '¿Cuál es el tratamiento médico quirúrgico inmediato más adecuado para esta paciente?',
-        options: 'La opción A propone analgesia y reposo en domicilio. La B laparoscopía de urgencia para detorsión ovárica y preservación del anexo. La C punción evacuadora. La D antibióticos endovenosos. La E ooforectomía radical sin desenrollar. Piénsalo bien.',
+        options: 'La opción A propone analgesia y reposo en domicilio. La B laparoscopía de urgencia para detorsión ovárica y preservación del anexo. La C punción evacuadora. La D antibióticos endovenosos. La E ooforectomía radical sin desenrollar. Piénsalo.',
         answer: 'La respuesta correcta es la B. La torsión ovárica exige laparoscopía de urgencia para desenrollar el pedículo vascular y preservar el órgano.',
       },
     },
@@ -325,7 +325,7 @@ module.exports = {
       say: {
         stem: 'Paciente de veinticuatro años con dolor pélvico agudo postcoital en fase lútea tardía, hemodinámicamente estable, con quiste ovárico en red de pesca y líquido libre escaso.',
         question: '¿Cuál es la conducta médica indicada para esta paciente?',
-        options: 'La opción A propone laparotomía de urgencia con ooforectomía. La B manejo médico conservador expectante con analgesia, reposo y observación. La C cistectomía laparoscópica. La D metotrexato. La E transfusión de glóbulos rojos. Piénsalo bien.',
+        options: 'La opción A propone laparotomía de urgencia con ooforectomía. La B manejo médico conservador expectante con analgesia, reposo y observación. La C cistectomía laparoscópica. La D metotrexato. La E transfusión de glóbulos rojos. Piénsalo.',
         answer: 'La respuesta correcta es la B. Al encontrarse hemodinámicamente estable con hematocrito normal, el quiste hemorrágico roto se maneja de forma conservadora expectante.',
       },
     },
@@ -365,7 +365,7 @@ module.exports = {
             {
               t: 'Manejo conservador si la paciente está estable',
               d: 'Reposo y analgesia; la cirugía laparoscópica solo se indica si hay inestabilidad o hemorragia activa',
-              say: 'Si la mujer está hemodinámicamente estable el manejo es expectante con reposo y analgesia, operando solo ante hemoperitoneo descompensado. Nos vemos en la próxima clase.',
+              say: 'El quiste roto con hemoperitoneo e inestabilidad hemodinámica exige cirugía de urgencia. Si te llevas una sola idea de hoy: un tumor ovárico con componentes sólidos, tabiques gruesos y ascitis en la postmenopausia exige sospechar cáncer y derivar a ginecología oncológica. Nos vemos en la próxima clase.',
             },
           ],
         },

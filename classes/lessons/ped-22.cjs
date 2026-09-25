@@ -482,7 +482,7 @@ module.exports = {
       say: {
         stem: 'Lactante de dos meses en quien al realizar abducción de cadera flexionada con presión anterior se percibe un resalto clunk de reducción.',
         question: '¿Cuál es el nombre de esta maniobra y su significado clínico?',
-        options: 'La opción A maniobra de Barlow. La B maniobra de Ortolani indicando reducción de una cadera previamente luxada. La C signo de Galeazzi. La D signo de Trendelenburg. La E maniobra de Adams. Recuerda qué maniobra reduce la cadera.',
+        options: 'La opción A maniobra de Barlow. La B maniobra de Ortolani indicando reducción de una cadera previamente luxada. La C signo de Galeazzi. La D signo de Trendelenburg. La E maniobra de Adams. Recuerda qué maniobra reduce la cadera. Piénsalo.',
         answer: 'La respuesta correcta es la B. La maniobra de Ortolani es abductora y reductora, reintroduciendo la cabeza femoral luxada con un resalto clunk palpable.',
       },
     },
@@ -505,7 +505,7 @@ module.exports = {
       say: {
         stem: 'Radiografía de pelvis a los tres meses con índice acetabular de treinta y seis grados y núcleo en cuadrante súpero externo de Ombredanne.',
         question: '¿Cuál es el tratamiento de primera línea de esta patología ortopédica?',
-        options: 'La opción A kinesioterapia motora. La B instalación de correas o arnés de Pavlik por traumatólogo infantil. La C osteotomía femoral urgente. La D doble pañal de tela. La E conducta expectante. Recuerda el tratamiento de elección en menores de seis meses.',
+        options: 'La opción A kinesioterapia motora. La B instalación de correas o arnés de Pavlik por traumatólogo infantil. La C osteotomía femoral urgente. La D doble pañal de tela. La E conducta expectante. Recuerda el tratamiento de elección en menores de seis meses. Piénsalo.',
         answer: 'La respuesta correcta es la B. En menores de seis meses el tratamiento estándar de oro garantizado por el GES es la instalación del arnés de Pavlik.',
       },
     },
@@ -545,7 +545,7 @@ module.exports = {
             {
               t: 'Correas de Pavlik en menores de 6 meses; jamás doble pañal',
               d: 'El arnés de Pavlik cura el noventa y cinco por ciento; el doble pañal está formalmente prohibido por ineficaz y perjudicial',
-              say: 'Deriven de inmediato para instalación de correas de Pavlik en menores de seis meses y desaconsejen firmemente el uso ineficaz del doble pañal.',
+              say: 'Las correas de Pavlik son el estándar en menores de seis meses. Si te llevas una sola idea de hoy: en Chile la radiografía de pelvis a los tres meses es una garantía explícita universal que pesquisa a tiempo la displasia acetabular. Nos vemos en la próxima clase.',
             },
           ],
         },

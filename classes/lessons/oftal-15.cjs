@@ -223,7 +223,7 @@ module.exports = {
       say: {
         stem: 'Esta es una pregunta representativa del banco de la especialidad, sin fecha del examen real, sobre la prohibición más preguntada de todo el tema. Un obrero de la construcción recibe el impacto de un clavo en el ojo izquierdo. Está muy quejumbroso, su agudeza visual es de bultos a treinta centímetros, la pupila está desfigurada en forma de pera, y la cámara anterior está muy plana, con salida de un filamento oscuro a través de una incisión en la córnea.',
         question: '¿Cuál de las siguientes conductas representa una acción estrictamente contraindicada en este paciente?',
-        options: 'Las opciones: instalar una concha rígida fenestrada, dar analgesia y antieméticos endovenosos, realizar tonometría para cuantificar la hipotonía, indicar ayuno y evaluación urgente, o administrar la vacuna antitetánica.',
+        options: 'Las opciones: instalar una concha rígida fenestrada, dar analgesia y antieméticos endovenosos, realizar tonometría para cuantificar la hipotonía, indicar ayuno y evaluación urgente, o administrar la vacuna antitetánica. Piénsalo.',
         answer: 'Es la C. Este paciente tiene signos inequívocos de globo ocular abierto: la pupila en gota con herniación de tejido y la cámara colapsada. Medir la presión intraocular con el tonómetro está estrictamente prohibido, porque el propio instrumento comprime el ojo y puede expulsar su contenido, transformando una herida reparable en una pérdida definitiva. Todas las demás opciones son conductas obligatorias, no contraindicadas.',
       },
     },
@@ -246,7 +246,7 @@ module.exports = {
       say: {
         stem: 'Una segunda pregunta representativa, ahora sobre el hipema. Un paciente de veintiséis años recibe un golpe de puño directo en el ojo derecho durante una riña. En el box se ve un hipema que ocupa el tercio inferior de la cámara anterior, su agudeza visual está conservada, y no hay ningún signo de globo abierto.',
         question: '¿Cuál es la indicación de manejo más adecuada, y la complicación principal que se busca prevenir en los primeros días?',
-        options: 'Las opciones: reposo con la cabecera a cuarenta y cinco grados, protector rígido y evitar aspirina o antiinflamatorios, para prevenir el resangrado; reposo boca abajo para prevenir catarata; aspirina para licuar el coágulo; paracentesis corneal inmediata en el box; o pilocarpina cada quince minutos.',
+        options: 'Las opciones: reposo con la cabecera a cuarenta y cinco grados, protector rígido y evitar aspirina o antiinflamatorios, para prevenir el resangrado; reposo boca abajo para prevenir catarata; aspirina para licuar el coágulo; paracentesis corneal inmediata en el box; o pilocarpina cada quince minutos. Piénsalo.',
         answer: 'Es la A. El hipema se maneja con la cabecera elevada, para que la sangre decante por gravedad y libere el eje pupilar, protección sin compresión, y evitando de forma estricta la aspirina y los antiinflamatorios, porque alteran la coagulación. Y la complicación que más se teme en los primeros días es el resangrado, que suele ser mucho más extenso que el episodio inicial. Dar aspirina, como propone la opción C, es exactamente lo contrario de lo que corresponde.',
       },
     },
@@ -269,7 +269,7 @@ module.exports = {
       say: {
         stem: 'Y una tercera pregunta representativa, sobre el examen de imagen. Un tornero mecánico llega a urgencias tras sentir el impacto de una partícula de acero a alta velocidad en su ojo izquierdo, mientras usaba una pulidora sin gafas de protección. Su agudeza visual es de veinte treinta, hay una mínima hemorragia subconjuntival, pero no se ven cuerpos extraños en la superficie del ojo.',
         question: '¿Cuál es el estudio de imagen de elección para descartar un cuerpo extraño intraocular radiopaco?',
-        options: 'Las opciones: resonancia magnética de encéfalo y órbitas, tomografía computarizada de órbita sin contraste con cortes finos, radiografía simple de cráneo, ecografía ocular modo A, o gammagrafía ósea facial.',
+        options: 'Las opciones: resonancia magnética de encéfalo y órbitas, tomografía computarizada de órbita sin contraste con cortes finos, radiografía simple de cráneo, ecografía ocular modo A, o gammagrafía ósea facial. Piénsalo.',
         answer: 'Es la B, la tomografía computarizada de órbita sin contraste, con cortes finos. Este caso es la trampa clásica del cuerpo extraño metálico de alta velocidad, donde no hay ningún signo externo evidente. Y la opción más tentadora, la resonancia magnética, es justamente la que está estrictamente contraindicada, porque su campo magnético puede mover un fragmento metálico dentro del ojo y provocar una hemorragia catastrófica.',
       },
     },
@@ -292,7 +292,7 @@ module.exports = {
       say: {
         stem: 'Y la última pregunta representativa, sobre un detalle que suele pasar desapercibido. En un paciente con sospecha de estallido o ruptura del globo ocular, se decide administrar antieméticos endovenosos, como el ondansetrón, dentro del manejo inicial de urgencia.',
         question: '¿Cuál es el objetivo principal de esta indicación?',
-        options: 'Las opciones: prevenir la absorción sistémica de toxinas de la flora conjuntival, evitar las náuseas y el vómito porque la maniobra de Valsalva eleva bruscamente la presión intraocular, inducir miosis para sellar la herida, facilitar la penetración de colirios, o disminuir la producción de humor acuoso.',
+        options: 'Las opciones: prevenir la absorción sistémica de toxinas de la flora conjuntival, evitar las náuseas y el vómito porque la maniobra de Valsalva eleva bruscamente la presión intraocular, inducir miosis para sellar la herida, facilitar la penetración de colirios, o disminuir la producción de humor acuoso. Piénsalo.',
         answer: 'Es la B. Durante el vómito o las arcadas se genera una maniobra de Valsalva, con un aumento brusco de la presión venosa central que se transmite de inmediato al ojo. En un globo abierto, ese pico de presión actúa como un émbolo que expulsa el iris, el cristalino o el vítreo hacia afuera, convirtiendo una herida reparable en una pérdida definitiva. Por eso la antiemesis no es un detalle de confort: es una medida de rescate.',
       },
     },

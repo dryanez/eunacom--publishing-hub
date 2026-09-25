@@ -438,7 +438,7 @@ module.exports = {
       say: {
         stem: 'Mujer de veintiséis años con leucorrea blanco grisácea fina con mal olor postcoital, pH de cinco coma dos, aminas positivas y más de treinta por ciento de células clave en frotis.',
         question: '¿Cuál es el tratamiento de elección indicado por las guías clínicas para resolver este cuadro?',
-        options: 'La opción A propone fluconazol a la pareja. La B metronidazol quinientos miligramos cada doce horas oral por siete días a la paciente. La C ceftriaxona intramuscular. La D nistatina tópica. La E doxiciclina. Piénsalo bien.',
+        options: 'La opción A propone fluconazol a la pareja. La B metronidazol quinientos miligramos cada doce horas oral por siete días a la paciente. La C ceftriaxona intramuscular. La D nistatina tópica. La E doxiciclina. Piénsalo.',
         answer: 'La respuesta correcta es la B. La paciente cumple los criterios de Amsel para vaginosis bacteriana y se trata con metronidazol oral por siete días sin requerir tratar a la pareja.',
       },
     },
@@ -461,7 +461,7 @@ module.exports = {
       say: {
         stem: 'Mujer de veintinueve años que tras tomar amoxicilina presenta prurito vulvar severo, eritema con excoriaciones, flujo grumoso en leche cortada y pH ácido normal de cuatro coma cero.',
         question: '¿Cuál es el diagnóstico clínico más probable frente a estos hallazgos?',
-        options: 'La opción A propone vaginosis bacteriana. La B candidiasis vulvovaginal. La C tricomoniasis sintomática. La D cervicitis mucopurulenta. La E vaginitis atrófica senil. Piénsalo bien.',
+        options: 'La opción A propone vaginosis bacteriana. La B candidiasis vulvovaginal. La C tricomoniasis sintomática. La D cervicitis mucopurulenta. La E vaginitis atrófica senil. Piénsalo.',
         answer: 'La respuesta correcta es la B. El prurito desesperante tras antibióticos con flujo grumoso y pH ácido fisiológico menor a cuatro coma cinco es patognomónico de candidiasis.',
       },
     },
@@ -484,7 +484,7 @@ module.exports = {
       say: {
         stem: 'Pregunta conceptual sobre infecciones ginecológicas bajas y necesidad de cortar la cadena de transmisión epidemiológica.',
         question: '¿En cuál de las siguientes infecciones ginecológicas es obligatorio prescribir tratamiento farmacológico simultáneo a la pareja sexual?',
-        options: 'La opción A propone vaginosis bacteriana recurrente. La B candidiasis esporádica. La C tricomoniasis vaginal. La D vaginitis descamativa. La E infección urinaria baja. Piénsalo bien.',
+        options: 'La opción A propone vaginosis bacteriana recurrente. La B candidiasis esporádica. La C tricomoniasis vaginal. La D vaginitis descamativa. La E infección urinaria baja. Piénsalo.',
         answer: 'La respuesta correcta es la C. La tricomoniasis es una infección de transmisión sexual donde el varón suele ser portador asintomático, siendo mandatorio medicar a la pareja.',
       },
     },
@@ -507,7 +507,7 @@ module.exports = {
       say: {
         stem: 'Joven de veintiún años con secreción mucopurulenta por el orificio cervical externo y cuello friable que sangra a la tórula, afebril y sin dolor anexial.',
         question: '¿Cuál es el tratamiento antimicrobiano empírico recomendado por las guías del MINSAL mientras se esperan los resultados microbiológicos?',
-        options: 'La opción A propone metronidazol oral exclusivo. La B ceftriaxona quinientos miligramos intramuscular más doxiciclina cien miligramos cada doce horas por siete días. La C amoxicilina. La D fluconazol. La E clotrimazol. Piénsalo bien.',
+        options: 'La opción A propone metronidazol oral exclusivo. La B ceftriaxona quinientos miligramos intramuscular más doxiciclina cien miligramos cada doce horas por siete días. La C amoxicilina. La D fluconazol. La E clotrimazol. Piénsalo.',
         answer: 'La respuesta correcta es la B. La cervicitis mucopurulenta aguda exige cobertura empírica dual con ceftriaxona intramuscular para gonococo más doxiciclina oral para clamidia.',
       },
     },
@@ -564,7 +564,7 @@ module.exports = {
             {
               t: 'Esquema dual mandatorio MINSAL',
               d: 'Ceftriaxona 500 mg intramuscular más Doxiciclina 100 mg cada 12 horas por siete días',
-              say: 'El esquema empírico dual e indiscutible combina ceftriaxona intramuscular para gonococo y doxiciclina oral por siete días para clamidia. Nos vemos en la próxima clase.',
+              say: 'El esquema ambulatorio combina ceftriaxona y doxiciclina por dos semanas. Si te llevas una sola idea de hoy: ante dolor a la movilización cervical en una mujer joven, el tratamiento antibiótico empírico debe iniciarse de inmediato para prevenir secuelas de infertilidad. Nos vemos en la próxima clase.',
             },
           ],
         },

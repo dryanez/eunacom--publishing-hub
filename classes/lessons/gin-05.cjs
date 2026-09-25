@@ -397,7 +397,7 @@ module.exports = {
       say: {
         stem: 'Una paciente de veintiséis años presenta dismenorrea severa incapacitante, dispareunia profunda, disquecia y ecografía con quiste ovárico en vidrio esmerilado sin deseo reproductivo.',
         question: '¿Cuál es el tratamiento farmacológico oral de primera línea de elección para sus síntomas dolorosos?',
-        options: 'La opción A propone paracetamol solo en la menstruación. La B dienogest dos miligramos al día por vía oral de forma continua. La C metotrexato. La D citrato de clomifeno. La E estrógenos solos. Piénsalo bien.',
+        options: 'La opción A propone paracetamol solo en la menstruación. La B dienogest dos miligramos al día por vía oral de forma continua. La C metotrexato. La D citrato de clomifeno. La E estrógenos solos. Piénsalo.',
         answer: 'La respuesta correcta es la B. En una paciente con endometriosis y dolor sin deseo gestacional, el dienogest dos miligramos al día continuo es el tratamiento oral de primera línea de elección.',
       },
     },
@@ -443,7 +443,7 @@ module.exports = {
       say: {
         stem: 'Se pregunta por qué razón farmacológica el tratamiento médico hormonal con anticonceptivos o progestágenos no está indicado ante infertilidad en una paciente con endometriosis.',
         question: '¿Cuál es el fundamento clínico correcto?',
-        options: 'La opción A afirma que son teratogénicos. La B que suprimen la ovulación sin mejorar las tasas de embarazo ni nacidos vivos retrasando la búsqueda. La C que ocluyen trompas. La D mola. La E apoptosis ovárica. Piénsalo bien.',
+        options: 'La opción A afirma que son teratogénicos. La B que suprimen la ovulación sin mejorar las tasas de embarazo ni nacidos vivos retrasando la búsqueda. La C que ocluyen trompas. La D mola. La E apoptosis ovárica. Piénsalo.',
         answer: 'La respuesta correcta es la B. Los tratamientos hormonales bloquean la ovulación y no mejoran la fertilidad tras suspenderlos, haciendo perder tiempo reproductivo valioso.',
       },
     },
@@ -466,7 +466,7 @@ module.exports = {
       say: {
         stem: 'Una multípara de cuarenta y dos años presenta hipermenorrea, dismenorrea y útero difusamente aumentado y blando con microquistes ecográficos tras histerectomía.',
         question: '¿Qué hallazgo anatomopatológico confirmará el diagnóstico definitivo?',
-        options: 'La opción A propone glándulas y estroma endometrial ectópicos en el espesor del miometrio. La B leiomioma con células fusiformes. La C leiomiosarcoma. La D pólipo fibroepitelial. La E tejido en la serosa. Piénsalo bien.',
+        options: 'La opción A propone glándulas y estroma endometrial ectópicos en el espesor del miometrio. La B leiomioma con células fusiformes. La C leiomiosarcoma. La D pólipo fibroepitelial. La E tejido en la serosa. Piénsalo.',
         answer: 'La respuesta correcta es la A. La presencia de glándulas y estroma endometrial ectópico en el espesor del miometrio define anatomopatológicamente la adenomiosis.',
       },
     },
@@ -506,7 +506,7 @@ module.exports = {
             {
               t: 'DIU con Levonorgestrel o histerectomía',
               d: 'Manejo médico de elección con DIU-LNG o extirpación uterina curativa definitiva',
-              say: 'El tratamiento médico de primera línea para la adenomiosis es el dispositivo intrauterino con levonorgestrel, constituyendo la histerectomía total el único tratamiento curativo definitivo en pacientes con paridad cumplida. Nos vemos en la próxima clase.',
+              say: 'El dispositivo con levonorgestrel es el tratamiento médico de primera línea en adenomiosis. Si te llevas una sola idea de hoy: ante útero globuloso doloroso y sangrado abundante, el dispositivo intrauterino con levonorgestrel es la mejor opción médica y la histerectomía la solución definitiva. Nos vemos en la próxima clase.',
             },
           ],
         },

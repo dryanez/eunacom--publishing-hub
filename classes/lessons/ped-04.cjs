@@ -352,7 +352,7 @@ module.exports = {
       say: {
         stem: 'Lactante de dos meses prematuro a las treinta y tres semanas con peso de nacimiento de mil novecientos cincuenta gramos que recibe leche materna y vitamina D.',
         question: '¿Cuál es la indicación de suplementación con hierro más adecuada según la normativa chilena?',
-        options: 'La opción A propone esperar a los seis meses. La B iniciar sulfato ferroso a dos a tres miligramos por kilo al día desde este control. La C iniciar a los cuatro meses. La D no suplementar. La E hierro intramuscular. Piensa en sus depósitos fetales.',
+        options: 'La opción A propone esperar a los seis meses. La B iniciar sulfato ferroso a dos a tres miligramos por kilo al día desde este control. La C iniciar a los cuatro meses. La D no suplementar. La E hierro intramuscular. Piensa en sus depósitos fetales. Piénsalo.',
         answer: 'La respuesta correcta es la B. Los prematuros tienen depósitos reducidos y deben iniciar hierro a los dos meses a dosis de dos a tres miligramos por kilo.',
       },
     },
@@ -375,7 +375,7 @@ module.exports = {
       say: {
         stem: 'Madre de lactante de siete meses que consulta si puede endulzar la fruta con miel natural de abeja y agregar sal a la sopa por consejo familiar.',
         question: '¿Cuál es la recomendación médica y nutricional correcta que debe entregar el profesional de salud?',
-        options: 'La opción A permite miel natural. La B permite sal. La C contraindica estrictamente la miel por riesgo de botulismo y prohíbe la sal y el azúcar en menores de un año. La D autoriza ambos. La E hervir la miel. Recuerda las normas de seguridad.',
+        options: 'La opción A permite miel natural. La B permite sal. La C contraindica estrictamente la miel por riesgo de botulismo y prohíbe la sal y el azúcar en menores de un año. La D autoriza ambos. La E hervir la miel. Recuerda las normas de seguridad. Piénsalo.',
         answer: 'La respuesta correcta es la C. La miel está estrictamente prohibida por botulismo del lactante y la sal por sobrecarga renal durante todo el primer año.',
       },
     },
@@ -415,7 +415,7 @@ module.exports = {
             {
               t: '¡Cero miel en menores de un año por botulismo!',
               d: 'Prohibición estricta de miel (Clostridium botulinum), sal añadida, azúcar y leche entera de vaca',
-              say: 'Jamás olviden que la miel de abeja está absolutamente proscrita bajo el año por riesgo letal de botulismo infantil, al igual que la sal añadida, los azúcares refinados y la leche de vaca fluida. Nos vemos en la próxima clase para revisar bronquiolitis y síndrome bronquial obstructivo.',
+              say: 'La miel está prohibida bajo el año por botulismo del lactante. Si te llevas una sola idea de hoy: la lactancia materna exclusiva se mantiene hasta los seis meses y el hierro profiláctico inicia a los cuatro meses en el recién nacido de término. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -192,7 +192,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Una paciente de veintiséis años, con antecedente de esclerosis múltiple, consulta por disminución de la agudeza visual del ojo derecho, de dos días de evolución, con dolor retroocular leve que aumenta con los movimientos. Al examen tiene defecto pupilar aferente en el ojo derecho y un escotoma en ese mismo ojo.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: desprendimiento de retina, trombosis de la vena central de la retina, trombosis de arteria central de la retina, neuritis óptica, o absceso orbitario.',
+        options: 'Las opciones son: desprendimiento de retina, trombosis de la vena central de la retina, trombosis de arteria central de la retina, neuritis óptica, o absceso orbitario. Piénsalo.',
         answer: 'Es la D. La combinación de baja visual subaguda, dolor con los movimientos oculares y defecto pupilar aferente ya arma el cuadro, y el antecedente de esclerosis múltiple lo confirma. Las trombosis vasculares de retina no dan este dolor con la motilidad, y el absceso orbitario daría proptosis y fiebre, que aquí no aparecen.',
       },
     },
@@ -215,7 +215,7 @@ module.exports = {
       say: {
         stem: 'Y una segunda pregunta real, del EUNACOM de diciembre de dos mil diecisiete, que insiste en el mismo tema con un ángulo distinto. Una paciente con antecedente de esclerosis múltiple consulta por dolor ocular derecho, de dos días de evolución, con visión borrosa agregada. Su agudeza visual es de nueve décimos en el ojo derecho y de diez décimos en el izquierdo, y en el ojo derecho está muy afectada la visión de colores.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: discromatopsia, retinitis pigmentosa, coriorretinitis, desprendimiento de retina, o neuritis óptica.',
+        options: 'Las opciones son: discromatopsia, retinitis pigmentosa, coriorretinitis, desprendimiento de retina, o neuritis óptica. Piénsalo.',
         answer: 'Es la E. Fíjate en el detalle que hace especial esta pregunta: la agudeza visual apenas está alterada, casi normal, y aun así la respuesta es neuritis óptica, porque la discromatopsia puede adelantarse a la caída franca de la visión. La opción discromatopsia es la trampa, porque nombra el hallazgo, pero no es un diagnóstico: es un síntoma de la neuritis, en el contexto de esclerosis múltiple y dolor ocular reciente.',
       },
     },
@@ -238,7 +238,7 @@ module.exports = {
       say: {
         stem: 'Y una última pregunta real, del EUNACOM de diciembre de dos mil veinticinco, que cambia de tema dentro de la misma clase, hacia el papiledema. Una paciente de cuarenta y cinco años, con hipertensión arterial y migraña, consulta por una cefalea más intensa de lo habitual, desde hace dos meses, que empezó predominando en la mañana y ahora dura todo el día, con náuseas y vómitos explosivos. No ha respondido a analgésicos ni a ergotamínicos.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: síndrome de hipertensión endocraneana, hemorragia subaracnoidea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos.',
+        options: 'Las opciones son: síndrome de hipertensión endocraneana, hemorragia subaracnoidea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos. Piénsalo.',
         answer: 'Es la A. La cefalea de predominio matinal, junto con náuseas y vómitos, arma dos de los tres elementos del síndrome de hipertensión endocraneana; el tercero, el edema de papila, se confirma con el fondo de ojo. El tumor cerebral podría ser la causa de fondo, pero el diagnóstico sindromático que responde la pregunta es la hipertensión endocraneana, y lo siguiente es fondo de ojo más neuroimagen, nunca punción lumbar primero.',
       },
     },

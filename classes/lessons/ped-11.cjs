@@ -474,7 +474,7 @@ module.exports = {
       say: {
         stem: 'Niño de dos años con gastroenteritis de veinticuatro horas vómitos y diarrea sin sangre mucosas hidratadas llenado capilar normal y diuresis conservada.',
         question: '¿Cuál es el manejo más adecuado?',
-        options: 'La opción A hospitalización y suero endovenoso. La B sales de rehidratación oral fraccionada en domicilio. La C ayuno digestivo absoluto. La D antibióticos empíricos. La E loperamida oral. Reconoce el estado de hidratación.',
+        options: 'La opción A hospitalización y suero endovenoso. La B sales de rehidratación oral fraccionada en domicilio. La C ayuno digestivo absoluto. La D antibióticos empíricos. La E loperamida oral. Reconoce el estado de hidratación. Piénsalo.',
         answer: 'La respuesta correcta es la B. Por encontrarse clínicamente hidratado corresponde el Plan A con sales de rehidratación oral fraccionadas en casa.',
       },
     },
@@ -497,7 +497,7 @@ module.exports = {
       say: {
         stem: 'Niño de dieciocho meses con gastroenteritis acuosa febril hidratado en buen estado con deposiciones positivas para Rotavirus y Clostridioides difficile.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'La opción A probar tolerancia y rehidratación por vía oral. La B suero endovenoso. La C metronidazol oral. La D ceftriaxona. La E vancomicina endovenosa. Distingue infección de colonización.',
+        options: 'La opción A probar tolerancia y rehidratación por vía oral. La B suero endovenoso. La C metronidazol oral. La D ceftriaxona. La E vancomicina endovenosa. Distingue infección de colonización. Piénsalo.',
         answer: 'La respuesta correcta es la A. En lactantes Clostridium suele ser una colonización asintomática y el cuadro se explica por Rotavirus requiriendo solo hidratación oral.',
       },
     },
@@ -520,7 +520,7 @@ module.exports = {
       say: {
         stem: 'Lactante de siete meses hospitalizado por bronquiolitis que al quinto día presenta fiebre y diarrea acuosa abundante de olor ácido sin sangre.',
         question: '¿Cuál es el agente etiológico más probable?',
-        options: 'La opción A Escherichia coli. La B Shigella. La C Clostridioides difficile. La D Rotavirus. La E Enterovirus. Identifica el virus nosocomial clásico.',
+        options: 'La opción A Escherichia coli. La B Shigella. La C Clostridioides difficile. La D Rotavirus. La E Enterovirus. Identifica el virus nosocomial clásico. Piénsalo.',
         answer: 'La respuesta correcta es la D. El rotavirus es la principal causa de diarrea aguda nosocomial acuosa y ácida en salas pediátricas.',
       },
     },
@@ -543,7 +543,7 @@ module.exports = {
       say: {
         stem: 'Lactante de diez meses con diarrea acuosa de tres días que mejora tras rehidratación oral con electrolitos y hemograma normales.',
         question: '¿Cuál es el diagnóstico etiológico más probable?',
-        options: 'La opción A gastroenteritis por Salmonella. La B gastroenteritis por Rotavirus. La C infección urinaria. La D enfermedad celíaca. La E fibrosis quística. Reconoce la causa viral más común.',
+        options: 'La opción A gastroenteritis por Salmonella. La B gastroenteritis por Rotavirus. La C infección urinaria. La D enfermedad celíaca. La E fibrosis quística. Reconoce la causa viral más común. Piénsalo.',
         answer: 'La respuesta correcta es la B. Rotavirus es la causa más frecuente de diarrea acuosa benigna autolimitada en lactantes pequeños.',
       },
     },
@@ -566,7 +566,7 @@ module.exports = {
       say: {
         stem: 'Niño de tres años con diarrea francamente sanguinolenta dolor abdominal intenso y sospecha de Escherichia coli productora de toxina Shiga.',
         question: '¿Cuál es la conducta médica respecto al uso de antibióticos en este paciente?',
-        options: 'La opción A ciprofloxacino oral. La B contraindicar formalmente los antibióticos por riesgo de inducir síndrome hemolítico urémico. La C metronidazol. La D ceftriaxona intramuscular. La E ampicilina con loperamida. Recuerda la liberación de toxina.',
+        options: 'La opción A ciprofloxacino oral. La B contraindicar formalmente los antibióticos por riesgo de inducir síndrome hemolítico urémico. La C metronidazol. La D ceftriaxona intramuscular. La E ampicilina con loperamida. Recuerda la liberación de toxina. Piénsalo.',
         answer: 'La respuesta correcta es la B. Los antibióticos están estrictamente contraindicados porque lisan la bacteria y liberan toxina Shiga desatando síndrome hemolítico urémico.',
       },
     },
@@ -606,7 +606,7 @@ module.exports = {
             {
               t: '¡Cero antibióticos en diarrea disentérica con sospecha de SHU!',
               d: 'Lisan la bacteria aumentando la toxina Shiga circulante; el manejo del SHU es puramente de soporte',
-              say: 'Jamás indiquen antibióticos ante sospecha de Escherichia coli enterohemorrágica porque precipitan el síndrome hemolítico urémico. Nos vemos en la próxima clase para revisar vómitos en el lactante.',
+              say: 'Los antibióticos están prohibidos ante sospecha de Escherichia coli enterohemorrágica. Si te llevas una sola idea de hoy: la rehidratación oral con sales de baja osmolaridad es el pilar absoluto, y los antibióticos en disentería aumentan el riesgo de síndrome hemolítico urémico. Nos vemos en la próxima clase.',
             },
           ],
         },

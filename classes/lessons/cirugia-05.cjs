@@ -200,7 +200,7 @@ module.exports = {
       say: {
         stem: 'Analicemos esta pregunta oficial de agosto de dos mil veintiuno. Una mujer de cuarenta y tres años presenta dolor abdominal difuso muy intenso, vómitos, distensión, taquicardia y dos signos semiológicos patognomónicos: pérdida de la matidez hepática a la percusión y abolición de los ruidos hidroaéreos.',
         question: 'Se pregunta cuál es el diagnóstico más probable.',
-        options: 'Las alternativas son: opción A, obstrucción intestinal; opción B, pancreatitis aguda; opción C, perforación intestinal; opción D, megacolon tóxico; y opción E, embolia mesentérica.',
+        options: 'Las alternativas son: opción A, obstrucción intestinal; opción B, pancreatitis aguda; opción C, perforación intestinal; opción D, megacolon tóxico; y opción E, embolia mesentérica. Piénsalo.',
         answer: 'La respuesta correcta es la opción C, perforación intestinal. La desaparición de la matidez hepática a la percusión es el signo de Jobert positivo, que traduce la presencia de neumoperitoneo masivo por escape de aire desde una víscera perforada. Sumado al dolor peritoneal difuso y el silencio auscultatorio, confirma una peritonitis secundaria por perforación.',
       },
     },
@@ -222,7 +222,7 @@ module.exports = {
       say: {
         stem: 'Revisemos este caso representativo de úlcera péptica perforada en un paciente consumidor de antiinflamatorios. Presenta dolor en puñalada de inicio hiperagudo, vientre en tabla y una radiografía de tórax con neumoperitoneo subdiafragmático indiscutible.',
         question: 'Nos consultan por la conducta terapéutica de elección.',
-        options: 'Las opciones son: opción A, endoscopía alta de urgencia; opción B, sonda nasogástrica, fluidos endovenosos y laparotomía de urgencia con parche de Graham; opción C, tratamiento médico conservador con omeprazol; opción D, paracentesis; y opción E, tomografía en veinticuatro horas.',
+        options: 'Las opciones son: opción A, endoscopía alta de urgencia; opción B, sonda nasogástrica, fluidos endovenosos y laparotomía de urgencia con parche de Graham; opción C, tratamiento médico conservador con omeprazol; opción D, paracentesis; y opción E, tomografía en veinticuatro horas. Piénsalo.',
         answer: 'La respuesta correcta es la opción B. El cuadro de úlcera péptica perforada con neumoperitoneo y peritonitis química y bacteriana generalizada es una indicación formal de cirugía de urgencia. Se descomprime el estómago con sonda nasogástrica, se inicia hidratación y antibióticos, y se realiza laparotomía con lavado peritoneal profuso y sutura con parche de epiplón de Graham.',
       },
     },

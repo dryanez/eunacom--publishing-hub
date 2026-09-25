@@ -201,7 +201,7 @@ module.exports = {
       say: {
         stem: 'Vamos con una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y ocho años, hipermétrope, con dolor muy intenso en el ojo izquierdo, irradiado a la frente. Al examen: eritema periquerático, pupila midriática y arreactiva, opacidad corneal. El ojo derecho ve normal, y el izquierdo solo alcanza a contar dedos.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo.',
+        options: 'Las opciones son: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo. Piénsalo.',
         answer: 'Es glaucoma agudo. La pupila midriática y fija es la clave que lo separa de la uveítis, donde la pupila se achica. Y la hipermetropía no es un dato de relleno: un ojo hipermétrope es más corto, con una cámara anterior más estrecha, y eso predispone justamente al cierre angular.',
       },
     },
@@ -224,7 +224,7 @@ module.exports = {
       say: {
         stem: 'Otra pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con psoriasis, que consulta por disminución de la agudeza visual, ojo rojo profundo y fotofobia importante.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: uveítis anterior aguda, epiescleritis, glaucoma agudo de ángulo cerrado, conjuntivitis bacteriana aguda, o queratitis herpética.',
+        options: 'Las opciones: uveítis anterior aguda, epiescleritis, glaucoma agudo de ángulo cerrado, conjuntivitis bacteriana aguda, o queratitis herpética. Piénsalo.',
         answer: 'Es uveítis anterior aguda. El dato que decide la pregunta es la psoriasis, que pertenece al mismo grupo de enfermedades asociadas al antígeno HLA-B veintisiete que la espondiloartritis, y que se relaciona clásicamente con uveítis recurrente. Fíjate que el enunciado no te da el dato de la pupila: aquí lo que tienes que reconocer es la asociación de la enfermedad de base con el ojo rojo profundo.',
       },
     },

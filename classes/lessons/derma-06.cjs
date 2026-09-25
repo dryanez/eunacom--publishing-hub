@@ -164,7 +164,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Una niña de cuatro años presenta lesiones cutáneas recurrentes, de dos años de evolución, con pápulas pruriginosas en los antebrazos y las fosas cubitales, en las piernas y las fosas poplíteas, y en la cara y el cuello. Su madre cuenta que hay periodos de exacerbación y otros de mucha menos intensidad.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: dermatitis alérgica, urticaria, dermatitis atópica, escabiosis, o dermatitis seborreica.',
+        options: 'Las opciones: dermatitis alérgica, urticaria, dermatitis atópica, escabiosis, o dermatitis seborreica. Piénsalo.',
         answer: 'Es la C, dermatitis atópica. Fíjate en el patrón exacto que acabamos de ver: pápulas pruriginosas en las fosas antecubitales y poplíteas, más compromiso facial, con un curso crónico recidivante de exacerbaciones y remisiones. Eso es la fase infantil de la dermatitis atópica. La urticaria daría habones evanescentes que duran menos de veinticuatro horas, no pápulas crónicas fijas en pliegues.',
       },
     },

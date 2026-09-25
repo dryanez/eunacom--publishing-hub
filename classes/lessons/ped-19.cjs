@@ -566,7 +566,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de treinta y seis horas con letargia hipotermia de treinta y cinco coma seis y quejido con madre con rotura de membranas prolongada y fiebre.',
         question: '¿Cuál es la sospecha diagnóstica y el esquema antibiótico de primera línea?',
-        options: 'La opción A taquipnea transitoria con halo. La B sepsis neonatal precoz con ampicilina más cefotaxima o gentamicina endovenosa. La C sepsis tardía con vancomicina y meropenem. La D membrana hialina. La E hipoglicemia transitoria. Evalúa las horas de vida y los antecedentes.',
+        options: 'La opción A taquipnea transitoria con halo. La B sepsis neonatal precoz con ampicilina más cefotaxima o gentamicina endovenosa. La C sepsis tardía con vancomicina y meropenem. La D membrana hialina. La E hipoglicemia transitoria. Evalúa las horas de vida y los antecedentes. Piénsalo.',
         answer: 'La respuesta correcta es la B. Por debutar antes de setenta y dos horas con antecedentes maternos es una sepsis precoz que requiere ampicilina más cefotaxima o gentamicina.',
       },
     },
@@ -588,7 +588,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la justificación microbiológica de incorporar obligatoriamente ampicilina en el esquema de sepsis neonatal precoz en vez de usar cefalosporinas solas.',
         question: '¿Por qué motivo la ampicilina forma parte obligatoria del esquema inicial?',
-        options: 'La opción A porque cefalosporinas no cubren Escherichia coli. La B porque Listeria monocytogenes presenta resistencia intrínseca a todas las cefalosporinas y requiere ampicilina. La C ampicilina cubre Pseudomonas. La D toxicidad renal. La E costo económico. Recuerda la microbiología de Listeria.',
+        options: 'La opción A porque cefalosporinas no cubren Escherichia coli. La B porque Listeria monocytogenes presenta resistencia intrínseca a todas las cefalosporinas y requiere ampicilina. La C ampicilina cubre Pseudomonas. La D toxicidad renal. La E costo económico. Recuerda la microbiología de Listeria. Piénsalo.',
         answer: 'La respuesta correcta es la B. Listeria monocytogenes es naturalmente resistente a todas las cefalosporinas, haciendo que la ampicilina sea insustituible.',
       },
     },
@@ -628,7 +628,7 @@ module.exports = {
             {
               t: 'La hipotermia es el signo de sepsis por excelencia',
               d: 'Neonato con temperatura menor a 36 grados que no se alimenta bien debe considerarse séptico e iniciar antibióticos en la primera hora',
-              say: 'Consideren a todo neonato con hipotermia y decaimiento como portador de sepsis hasta demostrar lo contrario, iniciando tratamiento en la primera hora.',
+              say: 'La hipotermia y el decaimiento en el neonato son signos de sepsis hasta demostrar lo contrario. Si te llevas una sola idea de hoy: el esquema empírico inicial en sepsis precoz combina ampicilina y gentamicina, cubriendo Streptococcus agalactiae y Listeria monocytogenes. Nos vemos en la próxima clase.',
             },
           ],
         },

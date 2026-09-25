@@ -390,7 +390,7 @@ module.exports = {
       say: {
         stem: 'Lactante de diez meses que mientras come su almuerzo comienza súbitamente con tos disminución del esfuerzo respiratorio e hipotonía.',
         question: '¿Cuál es la conducta más adecuada en este caso?',
-        options: 'La opción A iniciar reanimación cardiopulmonar. La B exploración digital a ciegas en la cavidad oral. La C maniobra de Heimlich con presión en epigastrio. La D dar golpes en la espalda. La E ventilaciones boca a boca. Recuerda la edad del paciente.',
+        options: 'La opción A iniciar reanimación cardiopulmonar. La B exploración digital a ciegas en la cavidad oral. La C maniobra de Heimlich con presión en epigastrio. La D dar golpes en la espalda. La E ventilaciones boca a boca. Recuerda la edad del paciente. Piénsalo.',
         answer: 'La respuesta correcta es la D. En menores de un año la maniobra inicial consiste en dar cinco golpes en la espalda seguidos de cinco compresiones torácicas, estando prohibido Heimlich.',
       },
     },
@@ -413,7 +413,7 @@ module.exports = {
       say: {
         stem: 'Lactante de un año con ataque súbito de tos sofocamiento y dificultad respiratoria constatándose sibilancias y disminución del murmullo pulmonar.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'La opción A neumotórax espontáneo. La B laringitis aguda. La C bronquitis obstructiva. La D cuerpo extraño bronquial. La E angioedema laríngeo. Analiza el inicio brusco y la asimetría.',
+        options: 'La opción A neumotórax espontáneo. La B laringitis aguda. La C bronquitis obstructiva. La D cuerpo extraño bronquial. La E angioedema laríngeo. Analiza el inicio brusco y la asimetría. Piénsalo.',
         answer: 'La respuesta correcta es la D. El síndrome de penetración brusco con asimetría auscultatoria en un niño de un año es la presentación típica de cuerpo extraño bronquial.',
       },
     },
@@ -436,7 +436,7 @@ module.exports = {
       say: {
         stem: 'Niña de dos años con episodio brusco de tos intensa cianosis y disnea que remite persistiendo con tos en salvas y sibilancias mayores en lado derecho.',
         question: '¿Cuál es la conducta médica más adecuada?',
-        options: 'La opción A reacción en cadena para coqueluche. La B tomografía de tórax. La C solicitar broncoscopía. La D laringoscopía rígida. La E antibióticos orales. Elige la conducta diagnóstica y terapéutica.',
+        options: 'La opción A reacción en cadena para coqueluche. La B tomografía de tórax. La C solicitar broncoscopía. La D laringoscopía rígida. La E antibióticos orales. Elige la conducta diagnóstica y terapéutica. Piénsalo.',
         answer: 'La respuesta correcta es la C. Ante un síndrome de penetración categórico con sibilancias asimétricas la indicación definitiva e impostergable es la broncoscopía.',
       },
     },
@@ -459,7 +459,7 @@ module.exports = {
       say: {
         stem: 'Niña de tres años con tos de siete días rebelde a amoxicilina sibilancias unilaterales derechas y radiografía que demuestra atelectasia del lóbulo medio.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'La opción A laringitis viral. La B bronquiolitis aguda. La C neumonía atípica. La D cuerpo extraño bronquial. La E traqueítis bacteriana. Identifica la causa de la atelectasia unilateral.',
+        options: 'La opción A laringitis viral. La B bronquiolitis aguda. La C neumonía atípica. La D cuerpo extraño bronquial. La E traqueítis bacteriana. Identifica la causa de la atelectasia unilateral. Piénsalo.',
         answer: 'La respuesta correcta es la D. La tos refractaria con sibilancias unilaterales y atelectasia lobar en un niño de tres años es la forma clásica de cuerpo extraño bronquial inadvertido.',
       },
     },
@@ -499,7 +499,7 @@ module.exports = {
             {
               t: 'Broncoscopía rígida es el estándar definitivo',
               d: 'Diagnóstica y terapéutica; no suspender por radiografía normal si la sospecha clínica es categórica',
-              say: 'La broncoscopía rígida es el estándar de oro para extraer el objeto y nunca debe retrasarse si la clínica es sugerente aunque la radiografía parezca normal.',
+              say: 'La broncoscopía rígida es el estándar de oro diagnóstico y terapéutico. Si te llevas una sola idea de hoy: ante una asfixia presenciada o síndrome de penetración, la sospecha manda y se realiza broncoscopía aunque la radiografía sea normal. Nos vemos en la próxima clase.',
             },
           ],
         },

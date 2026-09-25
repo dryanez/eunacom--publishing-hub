@@ -186,7 +186,7 @@ module.exports = {
       say: {
         stem: 'Vamos con un caso. Hombre de treinta y dos años que consulta por lesiones que le pican en los codos. Al examen se ven lesiones sólidas y sobreelevadas, de color rojo, que miden entre tres y cinco centímetros, con la superficie aplanada, en meseta, y cubiertas de abundantes escamas de color plateado que confluyen formando zonas extensas.',
         question: '¿Cuál es el nombre semiológico correcto de esta lesión elemental?',
-        options: 'Tienes cinco opciones: mancha, pápula, placa, nódulo, o habón. Tómate unos segundos.',
+        options: 'Tienes cinco opciones: mancha, pápula, placa, nódulo, o habón. Piénsalo.',
         answer: 'La respuesta es la C, placa. Aplica la regla que vimos: es sólida, mide más de un centímetro, y en vez de crecer hacia arriba se extiende en meseta, por confluencia de lesiones más pequeñas. La mancha es la trampa fácil de descartar, porque es plana y esto se palpa. Y fíjate: esta combinación, placa eritematosa con escamas plateadas en los codos, es la presentación clásica de la psoriasis, que veremos en una próxima clase.',
       },
     },
@@ -209,7 +209,7 @@ module.exports = {
       say: {
         stem: 'Vamos con una pregunta del banco. Mujer de veinticinco años con una erupción diseminada. El médico describe lesiones con contenido líquido claro, de dos a tres milímetros, agrupadas en racimo sobre una base roja, en el labio superior.',
         question: '¿Cuál es el nombre semiológico exacto de esta lesión elemental primaria?',
-        options: 'Las opciones: pústula, vesícula, ampolla, pápula, o erosión.',
+        options: 'Las opciones: pústula, vesícula, ampolla, pápula, o erosión. Piénsalo.',
         answer: 'Es la B, vesícula. Aplica la regla de tamaño: líquida y menor a medio centímetro es vesícula, no ampolla. La pústula queda descartada porque el enunciado dice líquido claro, no pus. La pápula es sólida, y la erosión es una lesión secundaria, no primaria. Este patrón, vesículas agrupadas en racimo sobre base roja en el labio, es además la forma típica del herpes simple.',
       },
     },
@@ -232,7 +232,7 @@ module.exports = {
       say: {
         stem: 'Otra del banco. Un residente pregunta cuál es la diferencia semiológica e histológica fundamental entre una erosión y una úlcera.',
         question: '¿Cuál es la diferencia correcta?',
-        options: 'Las opciones hablan de profundidad y cicatriz, de origen infeccioso versus autoinmune, de si son primaria o terciaria, de dolor, y de tamaño. Piénsalo con lo que ya vimos.',
+        options: 'Las opciones hablan de profundidad y cicatriz, de origen infeccioso versus autoinmune, de si son primaria o terciaria, de dolor, y de tamaño. Piénsalo con lo que ya vimos. Piénsalo.',
         answer: 'Es la A, lo que repasamos en el flujo: la erosión solo llega a la epidermis y cura sin cicatriz, porque la capa basal regenera por mitosis; la úlcera llega a la dermis o la hipodermis y siempre deja cicatriz, con tejido de granulación y colágeno. Ninguna otra alternativa tiene relación con el mecanismo real: ni el origen infeccioso, ni la categoría, ni el dolor, ni el tamaño definen esta diferencia.',
       },
     },

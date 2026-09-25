@@ -322,7 +322,7 @@ module.exports = {
       say: {
         stem: 'Una primigesta de veintiocho semanas de gestación con grupo sanguíneo O Rh negativo presenta un test de Coombs indirecto negativo.',
         question: '¿Cuál es la conducta médica indicada según las guías clínicas del MINSAL?',
-        options: 'La opción A propone cesárea electiva. La B administrar inmunoglobulina anti-D trescientos microgramos intramuscular profiláctica. La C esperar al postparto. La D amniocentesis diagnóstica. La E plasma fresco materno. Piénsalo bien.',
+        options: 'La opción A propone cesárea electiva. La B administrar inmunoglobulina anti-D trescientos microgramos intramuscular profiláctica. La C esperar al postparto. La D amniocentesis diagnóstica. La E plasma fresco materno. Piénsalo.',
         answer: 'La respuesta correcta es la B. Toda gestante Rh negativa no sensibilizada debe recibir trescientos microgramos de inmunoglobulina anti-D intramuscular a las veintiocho semanas de gestación.',
       },
     },
@@ -345,7 +345,7 @@ module.exports = {
       say: {
         stem: 'Una gestante de dieciséis semanas con grupo B Rh negativo presenta test de Coombs indirecto positivo con títulos elevados de uno en sesenta y cuatro.',
         question: '¿Cuál de las afirmaciones es correcta respecto al manejo de esta paciente?',
-        options: 'La opción A propone administrar inmunoglobulina anti-D urgente. La B que la anti-D está contraindicada y se evalúa anemia fetal con Doppler de arteria cerebral media. La C exanguinotransfusión. La D legrado. La E que no hay peligro. Piénsalo bien.',
+        options: 'La opción A propone administrar inmunoglobulina anti-D urgente. La B que la anti-D está contraindicada y se evalúa anemia fetal con Doppler de arteria cerebral media. La C exanguinotransfusión. La D legrado. La E que no hay peligro. Piénsalo.',
         answer: 'La respuesta correcta es la B. En una paciente ya sensibilizada la inmunoglobulina anti-D está contraindicada; el manejo consiste en monitorizar anemia fetal con Doppler de la arteria cerebral media.',
       },
     },
@@ -385,7 +385,7 @@ module.exports = {
             {
               t: 'Tratamiento con transfusión intrauterina',
               d: 'Cordocentesis percutánea de vena umbilical e infusión de glóbulos rojos O Rh negativo concentrados',
-              say: 'La anemia fetal grave se confirma mediante cordocentesis y se resuelve mediante transfusión intrauterina de glóbulos rojos concentrados O Rh negativo, salvando la vida del feto. Con esto cerramos con éxito el libro completo de Obstetricia.',
+              say: 'La velocimetría Doppler de la arteria cerebral media pesquisa la anemia fetal sin invadir. Si te llevas una sola idea de hoy: la inmunoglobulina anti D debe administrarse a toda gestante Rh negativa no sensibilizada a las veintiocho semanas y dentro de las setenta y dos horas postparto. Nos vemos en la próxima clase.',
             },
           ],
         },

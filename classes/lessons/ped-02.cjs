@@ -436,7 +436,7 @@ module.exports = {
       say: {
         stem: 'Niño de dieciocho meses con antecedente de prematuridad a las treinta y dos semanas que camina en puntillas con hipertonía de extremidades inferiores, hiperreflexia y Babinski.',
         question: '¿Cuál es el diagnóstico más probable para este paciente?',
-        options: 'La opción A propone estereotipia de la marcha. La B retraso psicomotor simple. La C diplejía espástica. La D polineuropatía. La E distrofia muscular. Razona tu respuesta.',
+        options: 'La opción A propone estereotipia de la marcha. La B retraso psicomotor simple. La C diplejía espástica. La D polineuropatía. La E distrofia muscular. Razona tu respuesta. Piénsalo.',
         answer: 'La respuesta correcta es la C. Los signos piramidales focales en extremidades inferiores tras prematurez configuran una diplejía espástica.',
       },
     },
@@ -459,7 +459,7 @@ module.exports = {
       say: {
         stem: 'Lactante de ocho meses evaluado con escala de desarrollo psicomotor que obtiene un coeficiente de setenta y seis puntos.',
         question: '¿Cuál es la clasificación del desarrollo y la conducta inicial más adecuada?',
-        options: 'La opción A plantea desarrollo normal. La B riesgo de déficit con ingreso a sala de estimulación y reevaluación en sesenta días. La C retraso con derivación neurológica. La D hospitalización. La E rezago telefónico. Piensa la conducta estatutaria.',
+        options: 'La opción A plantea desarrollo normal. La B riesgo de déficit con ingreso a sala de estimulación y reevaluación en sesenta días. La C retraso con derivación neurológica. La D hospitalización. La E rezago telefónico. Piensa la conducta estatutaria. Piénsalo.',
         answer: 'La respuesta correcta es la B. Un puntaje entre setenta y ochenta y cuatro califica como riesgo, ingresando a sala de estimulación para reevaluar en sesenta días.',
       },
     },
@@ -482,7 +482,7 @@ module.exports = {
       say: {
         stem: 'Niño de dieciocho meses que no camina de forma independiente, dice una sola palabra y no señala con el dedo.',
         question: '¿Cuál es la conducta médica más adecuada para este paciente?',
-        options: 'La opción A propone esperar a los dos años. La B indicar andador infantil. La C considerar bandera roja formal, realizar examen neurológico y derivar a especialista. La D radiografía aislada. La E multivitamínicos. Identifica la conducta correcta.',
+        options: 'La opción A propone esperar a los dos años. La B indicar andador infantil. La C considerar bandera roja formal, realizar examen neurológico y derivar a especialista. La D radiografía aislada. La E multivitamínicos. Identifica la conducta correcta. Piénsalo.',
         answer: 'La respuesta correcta es la C. Los dieciocho meses son el límite absoluto para la marcha; su ausencia exige examen neurológico y derivación inmediata.',
       },
     },
@@ -522,7 +522,7 @@ module.exports = {
             {
               t: 'Regresión de pautas adquiridas es urgencia',
               d: 'La pérdida de habilidades previamente logradas exige estudio metabólico y neurológico urgente',
-              say: 'La pérdida de cualquier destreza que el niño ya dominaba constituye una bandera roja urgente que orienta hacia enfermedades degenerativas del sistema nervioso central.',
+              say: 'La pérdida de cualquier destreza previa es una bandera roja que obliga a derivar al neurólogo. Si te llevas una sola idea de hoy: la regresión psicomotora nunca se observa y exige estudio inmediato para descartar patología neurodegenerativa. Nos vemos en la próxima clase.',
             },
           ],
         },

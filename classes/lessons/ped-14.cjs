@@ -442,7 +442,7 @@ module.exports = {
       say: {
         stem: 'Niño de veinte meses con crisis generalizada de tres minutos en contexto de fiebre alta que recupera conciencia normal y presenta otitis media aguda derecha.',
         question: '¿Cuál es la conducta diagnóstica y terapéutica más adecuada?',
-        options: 'La opción A punción lumbar inmediata y tomografía. La B iniciar ácido valproico oral por dos años. La C diagnosticar convulsión febril simple, tratar la otitis media con amoxicilina oral, educar a los padres y dar de alta. La D hospitalizar en cuidados intensivos. La E electroencefalograma de urgencia. Analiza la benignidad del cuadro.',
+        options: 'La opción A punción lumbar inmediata y tomografía. La B iniciar ácido valproico oral por dos años. La C diagnosticar convulsión febril simple, tratar la otitis media con amoxicilina oral, educar a los padres y dar de alta. La D hospitalizar en cuidados intensivos. La E electroencefalograma de urgencia. Analiza la benignidad del cuadro. Piénsalo.',
         answer: 'La respuesta correcta es la C. Se trata de una crisis febril simple con foco evidente, requiriendo tratar la otitis media con amoxicilina, educar a la familia y dar el alta.',
       },
     },
@@ -464,7 +464,7 @@ module.exports = {
       say: {
         stem: 'Pregunta conceptual sobre los criterios que definen a una convulsión febril compleja o atípica.',
         question: '¿Cuál de las siguientes características clasifica a la crisis como compleja?',
-        options: 'La opción A duración de cuatro minutos generalizada. La B sacudidas limitadas al hemicuerpo derecho y duración de dieciocho minutos. La C fiebre sobre cuarenta grados. La D edad de dieciocho meses. La E recuperación rápida sin déficit. Recuerda los cuatro criterios de atipia.',
+        options: 'La opción A duración de cuatro minutos generalizada. La B sacudidas limitadas al hemicuerpo derecho y duración de dieciocho minutos. La C fiebre sobre cuarenta grados. La D edad de dieciocho meses. La E recuperación rápida sin déficit. Recuerda los cuatro criterios de atipia. Piénsalo.',
         answer: 'La respuesta correcta es la B. La semiología focal en un hemicuerpo y la duración mayor a quince minutos son criterios definitorios de crisis febril compleja.',
       },
     },

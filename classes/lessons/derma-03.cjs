@@ -184,7 +184,7 @@ module.exports = {
       say: {
         stem: 'Una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con eritema, pápulas y pústulas en ambas mejillas, de varios meses de evolución, que aumentan con la exposición al sol.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: acné del adulto, rosácea, dermatomiositis, erupción polimorfa solar, o lupus cutáneo crónico.',
+        options: 'Las opciones: acné del adulto, rosácea, dermatomiositis, erupción polimorfa solar, o lupus cutáneo crónico. Piénsalo.',
         answer: 'Es la B, rosácea. El enunciado no menciona comedones en ningún momento, y el empeoramiento claro con el sol calza con lo que vimos de los desencadenantes. El acné del adulto es la trampa más natural, pero exige comedones que aquí no aparecen. El lupus cutáneo crónico se ve como placas de curso lento, no como pústulas múltiples.',
       },
     },

@@ -154,7 +154,7 @@ module.exports = {
       say: {
         stem: 'Esta es una pregunta representativa del banco de la especialidad, sin fecha del examen real, sobre el hallazgo que más distractores genera. Un paciente de sesenta y tres años, hipertenso crónico, va a control. Al fondo de ojo, sus arteriolas se ven estrechas, brillantes y cobrizas, y en los cruces arteriovenosos hay afilamiento y ocultamiento de las vénulas por debajo de las arteriolas, es decir, signo de Gunn positivo, sin hemorragias ni exudados.',
         question: '¿A qué grado de la clasificación de Keith-Wagener-Barker corresponde este hallazgo?',
-        options: 'Las opciones son grado uno, grado dos, grado tres, grado cuatro, o retinopatía proliferativa grado B, que ni siquiera existe en esta clasificación.',
+        options: 'Las opciones son grado uno, grado dos, grado tres, grado cuatro, o retinopatía proliferativa grado B, que ni siquiera existe en esta clasificación. Piénsalo.',
         answer: 'Es la B, grado dos. El signo de Gunn es justamente lo que define este grado, junto con la esclerosis en hilo de cobre o de plata. El grado uno no tiene cruces patológicos. Para subir a grado tres necesitarías hemorragias o exudados, y aquí el enunciado los descarta explícitamente. Y el grado cuatro exige, además, edema de papila, que tampoco aparece.',
       },
     },
@@ -177,7 +177,7 @@ module.exports = {
       say: {
         stem: 'Y una segunda pregunta representativa, esta vez sobre la conducta en la emergencia. Un hombre de cuarenta y cinco años llega a urgencias con una presión arterial de doscientos treinta con ciento cuarenta, cefalea de toda la cabeza y confusión. Al fondo de ojo hay borramiento de los bordes de ambas papilas, con sobreelevación, más exudados algodonosos y hemorragias en llama.',
         question: '¿Cuál es la conducta terapéutica correcta respecto al manejo de su presión arterial?',
-        options: 'Las opciones: nifedipino sublingual para bajar la presión en quince minutos, hospitalizar en UCI con labetalol endovenoso bajando la presión arterial media entre un veinte y un veinticinco por ciento en las primeras horas, enalapril oral y enviarlo a la casa, punción lumbar antes de tratar la presión, o diuréticos de asa orales con analgesia.',
+        options: 'Las opciones: nifedipino sublingual para bajar la presión en quince minutos, hospitalizar en UCI con labetalol endovenoso bajando la presión arterial media entre un veinte y un veinticinco por ciento en las primeras horas, enalapril oral y enviarlo a la casa, punción lumbar antes de tratar la presión, o diuréticos de asa orales con analgesia. Piénsalo.',
         answer: 'Es la B. El edema de papila bilateral confirma el grado cuatro: es una emergencia hipertensiva maligna, y va directo a cuidados intensivos con fármacos endovenosos titulables. La trampa es la A: el nifedipino sublingual suena razonable con la presión tan alta, pero bajarla en quince minutos es justo lo que no debes hacer, porque colapsa la autorregulación cerebral y ocular. Enviarlo a la casa o pedir una punción lumbar antes de tratar la presión también retrasan una urgencia vital.',
       },
     },

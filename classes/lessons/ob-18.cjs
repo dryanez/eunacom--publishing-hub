@@ -436,7 +436,7 @@ module.exports = {
       say: {
         stem: 'Una puérpera con antecedente de preeclampsia severa presenta hemorragia postparto por atonía uterina que no cede con masaje y oxitocina.',
         question: '¿Cuál de los siguientes fármacos uterotónicos está formalmente contraindicado en esta paciente?',
-        options: 'La opción A propone misoprostol. La B metilergonovina intramuscular. La C ácido tranexámico. La D carbetocina. La E balón de Bakri. Piénsalo bien.',
+        options: 'La opción A propone misoprostol. La B metilergonovina intramuscular. La C ácido tranexámico. La D carbetocina. La E balón de Bakri. Piénsalo.',
         answer: 'La respuesta correcta es la B. La metilergonovina está formalmente prohibida en pacientes con preeclampsia o hipertensión arterial por provocar vasoconstricción y accidentes cerebrovasculares.',
       },
     },
@@ -459,7 +459,7 @@ module.exports = {
       say: {
         stem: 'Una puérpera inmediata presenta sangrado rojo rutilante abundante pero con fondo uterino firmemente contraído en globo de Pinard y placenta íntegra.',
         question: '¿Cuál es la causa más probable de la hemorragia y cuál es la conducta médica indicada?',
-        options: 'La opción A propone atonía uterina oculta. La B trauma del canal del parto y sutura de desgarros bajo valvas ginecológicas. La C legrado instrumental. La D plasma fresco congelado. La E maniobra de Johnson. Piénsalo bien.',
+        options: 'La opción A propone atonía uterina oculta. La B trauma del canal del parto y sutura de desgarros bajo valvas ginecológicas. La C legrado instrumental. La D plasma fresco congelado. La E maniobra de Johnson. Piénsalo.',
         answer: 'La respuesta correcta es la B. Si el útero está duro y bien contraído pero la paciente sangra, la causa es un trauma del canal blando y se deben suturar los desgarros bajo valvas.',
       },
     },
@@ -482,7 +482,7 @@ module.exports = {
       say: {
         stem: 'Una paciente con hemorragia postparto por atonía no responde al masaje bimanual ni a oxitocina, ácido tranexámico ni misoprostol.',
         question: '¿Cuál es el siguiente paso terapéutico conservador antes de decidir una laparotomía?',
-        options: 'La opción A propone legrado cortante enérgico. La B instalar un balón hidrostático de taponamiento tipo Bakri. La C histerectomía total de inmediato. La D heparina sódica. La E conducta expectante. Piénsalo bien.',
+        options: 'La opción A propone legrado cortante enérgico. La B instalar un balón hidrostático de taponamiento tipo Bakri. La C histerectomía total de inmediato. La D heparina sódica. La E conducta expectante. Piénsalo.',
         answer: 'La respuesta correcta es la B. El balón de taponamiento hidrostático de Bakri es la medida mecánica conservadora de rescate antes de plantear la apertura quirúrgica del abdomen.',
       },
     },
@@ -522,7 +522,7 @@ module.exports = {
             {
               t: 'Inversión uterina: Johnson antes de uterotónicos',
               d: 'Suspender oxitocina, relajar el miometrio, reponer el fondo y luego contraer el útero',
-              say: 'Ante una inversión uterina puerperal suspendemos de inmediato los uterotónicos, relajamos el miometrio, realizamos la reposición manual de Johnson con la palma de la mano y una vez en su sitio administramos oxitocina para fijar la contracción. Nos vemos en la próxima clase.',
+              say: 'La maniobra de Johnson reposiciona el útero invertido antes de retirar la mano. Si te llevas una sola idea de hoy: ante una hemorragia postparto masiva activa el código rojo y aplica la regla de las cuatro T, recordando que la inercia uterina causa el setenta por ciento de los casos. Nos vemos en la próxima clase.',
             },
           ],
         },

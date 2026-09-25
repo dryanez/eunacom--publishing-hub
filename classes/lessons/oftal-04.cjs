@@ -156,7 +156,7 @@ module.exports = {
       say: {
         stem: 'Pregunta real, del EUNACOM de julio de dos mil quince. Paciente miope, usuaria de lentes de contacto blandos, con dolor en el ojo izquierdo y lagrimeo. Al examen: ojo rojo periquerático izquierdo, y una zona de opacidad corneal de poco más de dos milímetros de diámetro.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: conjuntivitis bacteriana, úlcera corneal, uveítis aguda, glaucoma agudo, o blefaritis.',
+        options: 'Las opciones: conjuntivitis bacteriana, úlcera corneal, uveítis aguda, glaucoma agudo, o blefaritis. Piénsalo.',
         answer: 'Es úlcera corneal. El dato que arma toda la pregunta es la usuaria de lentes de contacto con dolor real e inyección periquerática: eso ya te saca de la conjuntivitis, que no da ese tipo de dolor. Y la opacidad corneal focal es justamente el hallazgo que confirma que el problema está en la córnea, no en la úvea ni en la presión ocular.',
       },
     },
@@ -179,7 +179,7 @@ module.exports = {
       say: {
         stem: 'Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años, con dolor ocular derecho y ojo rojo que empezó hace cinco horas y se ha vuelto muy intenso, con lagrimeo. Tiene astigmatismo y usa lentes de contacto.',
         question: '¿Cuál de los siguientes exámenes es más adecuado para confirmar la sospecha diagnóstica?',
-        options: 'Las opciones: fondo de ojo, tonometría ocular, tomografía de órbitas, tinción con fluoresceína, o gonioscopía.',
+        options: 'Las opciones: fondo de ojo, tonometría ocular, tomografía de órbitas, tinción con fluoresceína, o gonioscopía. Piénsalo.',
         answer: 'Es tinción con fluoresceína. Usuaria de lentes de contacto con dolor agudo es la misma alerta que ya conoces: sospecha de queratitis o erosión corneal. Y el examen que confirma esa lesión en atención primaria es siempre la fluoresceína bajo luz azul de cobalto. La tonometría y la gonioscopía son para el estudio del glaucoma, no de la córnea, así que son la trampa si mezclas los dos temas de esta unidad.',
       },
     },

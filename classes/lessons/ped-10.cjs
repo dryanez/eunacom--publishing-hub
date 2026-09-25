@@ -516,7 +516,7 @@ module.exports = {
       say: {
         stem: 'Lactante de diez meses con tres días de fiebre alta que desaparece por completo brotando simultáneamente un exantema maculopapular rosado en tronco.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'La opción A sarampión clásico. La B escarlatina bacteriana. La C exantema súbito o roséola infantil. La D enfermedad de Kawasaki. La E eritema infeccioso. Fíjate en la lisis de la fiebre.',
+        options: 'La opción A sarampión clásico. La B escarlatina bacteriana. La C exantema súbito o roséola infantil. La D enfermedad de Kawasaki. La E eritema infeccioso. Piénsalo.',
         answer: 'La respuesta correcta es la C. La caída brusca de la fiebre que coincide con la aparición del exantema en tronco es la firma clínica patognomónica del exantema súbito.',
       },
     },
@@ -539,7 +539,7 @@ module.exports = {
       say: {
         stem: 'Niño de tres años con fiebre de seis días inyección conjuntival sin pus labios fisurados lengua aframbuesada edema en manos y pies y ganglio cervical.',
         question: '¿Cuál es el tratamiento de elección inmediato?',
-        options: 'La opción A amoxicilina clavulánico oral. La B ceftriaxona más vancomicina. La C inmunoglobulina endovenosa a dos gramos por kilo más aspirina. La D corticoides en pulsos. La E paracetamol. Reconoce la vasculitis coronaria.',
+        options: 'La opción A amoxicilina clavulánico oral. La B ceftriaxona más vancomicina. La C inmunoglobulina endovenosa a dos gramos por kilo más aspirina. La D corticoides en pulsos. La E paracetamol. Piénsalo.',
         answer: 'La respuesta correcta es la C. Es una enfermedad de Kawasaki y requiere inmunoglobulina endovenosa con aspirina urgente para prevenir aneurismas coronarios.',
       },
     },
@@ -562,7 +562,7 @@ module.exports = {
       say: {
         stem: 'Preescolar de cuatro años con faringitis febril exantema micropapular áspero como lija líneas de Pastia en el codo y lengua en frutilla roja.',
         question: '¿Cuál es el tratamiento de elección y su objetivo principal?',
-        options: 'La opción A paracetamol exclusivo. La B amoxicilina oral por diez días para prevenir la fiebre reumática aguda. La C aciclovir oral. La D ciprofloxacino. La E inmunoglobulina endovenosa. Recuerda la secuela que se previene.',
+        options: 'La opción A paracetamol exclusivo. La B amoxicilina oral por diez días para prevenir la fiebre reumática aguda. La C aciclovir oral. La D ciprofloxacino. La E inmunoglobulina endovenosa. Piénsalo.',
         answer: 'La respuesta correcta es la B. La escarlatina se trata con amoxicilina por diez días con el fin primario de evitar la fiebre reumática aguda.',
       },
     },
@@ -585,7 +585,7 @@ module.exports = {
       say: {
         stem: 'Niño de cinco años con varicela activa febril cuya madre consulta por fármacos antipiréticos para el control de la temperatura.',
         question: '¿Cuál de los siguientes fármacos está formalmente contraindicado por riesgo de complicaciones potencialmente mortales?',
-        options: 'La opción A paracetamol. La B ácido acetilsalicílico o aspirina. La C ibuprofeno. La D clorfenamina. La E metamizol. Recuerda la toxicidad hepatoencefálica.',
+        options: 'La opción A paracetamol. La B ácido acetilsalicílico o aspirina. La C ibuprofeno. La D clorfenamina. La E metamizol. Piénsalo.',
         answer: 'La respuesta correcta es la B. La aspirina está terminantemente prohibida en varicela por el riesgo de desencadenar un síndrome de Reye fulminante.',
       },
     },
@@ -625,7 +625,7 @@ module.exports = {
             {
               t: 'Kawasaki: Fiebre mayor a 5 días exige IgEV y aspirina',
               d: 'Administrar antes del día diez para reducir aneurismas coronarios; ecocardiograma al ingreso y a las seis semanas',
-              say: 'Ante fiebre de más de cinco días con conjuntivitis y labios fisurados sospechen Kawasaki e indiquen inmunoglobulina y aspirina para salvar las coronarias. Nos vemos en la próxima clase para revisar diarrea aguda y deshidratación.',
+              say: 'Ante fiebre prolongada con inyección conjuntival sospechen enfermedad de Kawasaki. Si te llevas una sola idea de hoy: la gammaglobulina endovenosa precoz es la única intervención que previene los aneurismas coronarios en Kawasaki. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -204,7 +204,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de diecisiete años con acné: comedones en cara, pecho y espalda, con pápulas y pústulas abundantes, y algunos quistes en esas mismas zonas con cicatrices atróficas.',
         question: '¿Cuál es el tratamiento de elección para este paciente?',
-        options: 'Las opciones: peróxido de benzoilo tópico, clindamicina tópica, isotretinoína oral, doxiciclina oral, o adapaleno tópico.',
+        options: 'Las opciones: peróxido de benzoilo tópico, clindamicina tópica, isotretinoína oral, doxiciclina oral, o adapaleno tópico. Piénsalo.',
         answer: 'Es la C, isotretinoína oral. La palabra clave del enunciado es quistes con cicatrices atróficas: eso ya es un acné nódulo-quístico, inflamatorio severo, y ese grado de gravedad, con cicatriz activa, es indicación directa de isotretinoína. Los tópicos, y hasta la doxiciclina oral, se quedan cortos para este nivel; son el escalón de un acné más leve que el de este paciente.',
       },
     },

@@ -162,7 +162,7 @@ module.exports = {
           items: [
             {
               text: 'Nódulo doloroso violáceo e irreductible bajo la línea pectínea de aparición súbita.',
-              say: 'Se produce por la coagulación de la sangre en el plexo hemorroidal externo. Si consulta dentro de las primeras setenta y dos horas del inicio del dolor, el procedimiento de elección es la trombectomía bajo anestesia local: una pequeña incisión elíptica evacúa el coágulo y alivia el dolor en forma inmediata.',
+              say: 'La trombosis hemorroidal externa se produce por la coagulación de la sangre en el plexo subcutáneo externo. Si el paciente consulta dentro de las primeras setenta y dos horas, la conducta es realizar trombectomía bajo anestesia local, lo que alivia el dolor en forma inmediata.',
             },
             {
               text: 'Si consulta después de setenta y dos horas: manejo médico conservador.',
@@ -210,7 +210,7 @@ module.exports = {
       say: {
         stem: 'Revisemos esta pregunta real de julio de dos mil veinticinco. Un paciente de cincuenta y dos años consulta a las seis horas de evolución por un nódulo hemorroidal externo trombosado, violáceo y muy doloroso.',
         question: 'Nos consultan por el manejo más adecuado.',
-        options: 'Las alternativas son: opción A, hemorroidectomía de urgencia; opción B, trombectomía hemorroidal bajo anestesia local; opción C, ligadura con banda elástica; opción D, manejo médico conservador; y opción E, escleroterapia.',
+        options: 'Las alternativas son: opción A, hemorroidectomía de urgencia; opción B, trombectomía hemorroidal bajo anestesia local; opción C, ligadura con banda elástica; opción D, manejo médico conservador; y opción E, escleroterapia. Piénsalo.',
         answer: 'La respuesta correcta es la opción B, trombectomía hemorroidal bajo anestesia local. En las primeras setenta y dos horas desde el inicio de los síntomas, la escisión elíptica o enucleación del coágulo bajo anestesia local proporciona un alivio sintomático inmediato y definitivo.',
       },
     },
@@ -232,7 +232,7 @@ module.exports = {
       say: {
         stem: 'Analicemos este caso representativo de fisura anal crónica con pliegue centinela en la línea media posterior y dolor lancinante con la defecación.',
         question: 'Se pregunta cuál es el tratamiento médico de primera línea más adecuado.',
-        options: 'Las opciones son: opción A, esfinterotomía lateral interna; opción B, corticoides tópicos por tres meses; opción C, dieta rica en fibra, agua, baños de asiento tibios y diltiazem al dos por ciento tópico; opción D, nitrato de plata; y opción E, antibióticos orales.',
+        options: 'Las opciones son: opción A, esfinterotomía lateral interna; opción B, corticoides tópicos por tres meses; opción C, dieta rica en fibra, agua, baños de asiento tibios y diltiazem al dos por ciento tópico; opción D, nitrato de plata; y opción E, antibióticos orales. Piénsalo.',
         answer: 'La respuesta correcta es la opción C. El manejo de primera línea de la fisura anal es siempre médico conservador: regularizar el tránsito con fibra y agua, baños de asiento tibios para relajar el esfínter y bloqueadores de canales de calcio tópicos como diltiazem al dos por ciento durante seis a ocho semanas. La cirugía se reserva para casos crónicos refractarios.',
       },
     },

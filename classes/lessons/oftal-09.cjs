@@ -171,7 +171,7 @@ module.exports = {
       say: {
         stem: 'Vamos con una pregunta real, del EUNACOM de julio de dos mil diecisiete. Un paciente de dieciocho años tiene una visión perfecta en el ojo izquierdo, pero en el ojo derecho está reducida, y mejora al mirar por un agujero estenopeico. No tiene dolor.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: glaucoma, estrabismo, vicio de refracción, catarata, o coriorretinitis.',
+        options: 'Las opciones: glaucoma, estrabismo, vicio de refracción, catarata, o coriorretinitis. Piénsalo.',
         answer: 'Es la C, vicio de refracción. Este es el caso más directo de todo el tema: la agudeza visual mejora con el agujero estenopeico, así que el problema es puramente óptico. Ni el glaucoma, ni la catarata, ni una coriorretinitis mejoran con ese examen, porque son lesiones orgánicas, no ópticas.',
       },
     },
@@ -194,7 +194,7 @@ module.exports = {
       say: {
         stem: 'Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Un niño de cinco años, nacido a las treinta y dos semanas, es llevado a control porque se acerca mucho a la pantalla del televisor. La inspección ocular es normal. La agudeza visual del ojo izquierdo está reducida, pero mejora casi por completo al usar el agujero estenopeico.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: ambliopía, microftalmia, ametropía, glaucoma congénito, o retinopatía del prematuro.',
+        options: 'Las opciones: ambliopía, microftalmia, ametropía, glaucoma congénito, o retinopatía del prematuro. Piénsalo.',
         answer: 'Es la C, ametropía, es decir, un vicio de refracción. Este caso enseña la diferencia más fina del tema: la agudeza visual mejoró casi por completo con el agujero estenopeico, así que no es ambliopía. Si hubiera mejorado solo a medias, ahí sí tendrías que pensar en una ambliopía anisometrópica encima del vicio de refracción. El antecedente de prematurez es un distractor: la inspección y el resto del examen son normales.',
       },
     },
@@ -217,7 +217,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta real, del EUNACOM de agosto de dos mil veintiuno, y que es la contracara de todo lo que hemos visto. Un niño de dos meses tiene un estrabismo bilateral, que aparece y desaparece, es decir, es fluctuante. Sube bien de peso y no tiene otros síntomas. El reflejo rojo pupilar está presente en ambos ojos, sin defectos, y la movilidad ocular es normal.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las opciones: hacer un fondo de ojo, derivar a oftalmólogo pediátrico, indicar parches intermitentes, pedir una tomografía de órbitas, o simplemente mantener el control habitual del niño sano.',
+        options: 'Las opciones: hacer un fondo de ojo, derivar a oftalmólogo pediátrico, indicar parches intermitentes, pedir una tomografía de órbitas, o simplemente mantener el control habitual del niño sano. Piénsalo.',
         answer: 'Es la E. No todo estrabismo en un lactante es patológico: en los primeros meses de vida, la fijación binocular todavía no madura, y es normal que el ojo se desvíe de forma intermitente y fluctuante. La alarma se enciende si el estrabismo es fijo y constante, o si el reflejo rojo está alterado, que es justo lo que este niño no tiene. Sobrederivar aquí no es lo correcto: se mantiene el control habitual del niño sano.',
       },
     },

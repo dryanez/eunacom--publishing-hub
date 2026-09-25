@@ -440,7 +440,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de término macrosómico de madre diabética que a las dos horas presenta temblores succión débil y glicemia de treinta y dos miligramos por decilitro.',
         question: '¿Cuál es la conducta médica inmediata más adecuada?',
-        options: 'La opción A agua con azúcar oral. La B bolo endovenoso de suero glucosado al diez por ciento a dos mililitros por kilo en cinco minutos seguido de infusión continua. La C glucosa al cincuenta por ciento en bolo. La D hidrocortisona. La E observación. Analiza el estado sintomático.',
+        options: 'La opción A agua con azúcar oral. La B bolo endovenoso de suero glucosado al diez por ciento a dos mililitros por kilo en cinco minutos seguido de infusión continua. La C glucosa al cincuenta por ciento en bolo. La D hidrocortisona. La E observación. Analiza el estado sintomático. Piénsalo.',
         answer: 'La respuesta correcta es la B. La hipoglicemia sintomática exige bolo de suero glucosado al diez por ciento seguido de infusión continua de glucosa.',
       },
     },
@@ -463,7 +463,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido pretérmino con temblores irritabilidad calcio sérico de seis coma dos calcio iónico bajo e intervalo QTc prolongado.',
         question: '¿Cuál es el tratamiento de urgencia indicado?',
-        options: 'La opción A gluconato de calcio al diez por ciento a uno a dos mililitros por kilo por vía endovenosa lenta con monitorización cardíaca. La B calcio oral. La C sulfato de magnesio en bolo rápido. La D vitamina D intramuscular. La E cloruro de potasio. Identifica el fármaco de emergencia.',
+        options: 'La opción A gluconato de calcio al diez por ciento a uno a dos mililitros por kilo por vía endovenosa lenta con monitorización cardíaca. La B calcio oral. La C sulfato de magnesio en bolo rápido. La D vitamina D intramuscular. La E cloruro de potasio. Identifica el fármaco de emergencia. Piénsalo.',
         answer: 'La respuesta correcta es la A. Se administra gluconato de calcio al diez por ciento endovenoso lento en diez a quince minutos bajo monitorización cardíaca continua.',
       },
     },
@@ -503,7 +503,7 @@ module.exports = {
             {
               t: 'Hipocalcemia que no responde: Medir y tratar Magnesio',
               d: 'El déficit de magnesio bloquea la liberación de paratohormona; dosificar magnesio y corregir con sulfato de magnesio',
-              say: 'Ante una hipocalcemia refractaria dosifiquen magnesio sérico de inmediato y administren sulfato de magnesio para desbloquear la paratohormona.',
+              say: 'En hipocalcemia refractaria dosifiquen siempre magnesio sérico. Si te llevas una sola idea de hoy: la hipoglicemia sintomática exige un bolo de suero glucosado al diez por ciento a dos mililitros por kilo, seguido de una infusión continua calculada. Nos vemos en la próxima clase.',
             },
           ],
         },

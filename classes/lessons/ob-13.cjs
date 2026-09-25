@@ -315,7 +315,7 @@ module.exports = {
       say: {
         stem: 'Una paciente de treinta y cuatro semanas consulta por sangrado genital, útero doloroso e hipertónico y ecografía obstétrica informada como enteramente normal sin desprendimiento visible.',
         question: '¿Cuál es la conducta más adecuada con la paciente?',
-        options: 'La opción A propone nifedipino. La B inducción de parto con misoprostol. La C repetir Doppler en siete días. La D romper membranas. La E realizar operación cesárea. Piénsalo bien.',
+        options: 'La opción A propone nifedipino. La B inducción de parto con misoprostol. La C repetir Doppler en siete días. La D romper membranas. La E realizar operación cesárea. Piénsalo.',
         answer: 'La respuesta correcta es la E. Aunque la ecografía no observe el hematoma, la clínica de dolor e hipertonía uterina confirma el desprendimiento y exige la interrupción inmediata mediante cesárea.',
       },
     },
@@ -338,7 +338,7 @@ module.exports = {
       say: {
         stem: 'Una multípara con cesárea anterior de treinta y cinco semanas presenta metrorragia moderada e indolora con ecografía que confirma placenta previa oclusiva total sobre el cuello.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'La opción A propone tocolíticos. La B inducción con misoprostol. La C corticoides y esperar. La D repetir ecografía a las treinta y siete semanas. La E realizar cesárea. Piénsalo bien.',
+        options: 'La opción A propone tocolíticos. La B inducción con misoprostol. La C corticoides y esperar. La D repetir ecografía a las treinta y siete semanas. La E realizar cesárea. Piénsalo.',
         answer: 'La respuesta correcta es la E. Ante una placenta previa sintomática con más de treinta y cuatro semanas de gestación la conducta indicada es la interrupción mediante operación cesárea.',
       },
     },
@@ -361,7 +361,7 @@ module.exports = {
       say: {
         stem: 'Una paciente asintomática de veinticinco semanas presenta ecografía con placenta en contacto con el orificio cervical interno sin cubrirlo.',
         question: '¿Cuál es la conducta más adecuada a seguir?',
-        options: 'La opción A propone inducir el parto. La B cesárea electiva. La C controlar con ecografía en el tercer trimestre a las treinta y dos semanas. La D tocolíticos. La E Doppler uterino. Piénsalo bien.',
+        options: 'La opción A propone inducir el parto. La B cesárea electiva. La C controlar con ecografía en el tercer trimestre a las treinta y dos semanas. La D tocolíticos. La E Doppler uterino. Piénsalo.',
         answer: 'La respuesta correcta es la C. Debido al fenómeno de migración placentaria, las placentas bajas del segundo trimestre se controlan ecográficamente a las treinta y dos semanas para confirmar su posición definitiva.',
       },
     },
@@ -384,7 +384,7 @@ module.exports = {
       say: {
         stem: 'Una embarazada de treinta y dos semanas presenta dolor abdominal intenso, metrorragia oscura, hipertonía uterina y ecografía con desprendimiento placentario y desaceleraciones fetales.',
         question: '¿Cuál es la conducta médica indicada?',
-        options: 'La opción A plantea operación cesárea de urgencia. La B esperar a las treinta y cuatro semanas. La C corticoides y evaluar en cuarenta y ocho horas. La D oxitocina. La E reposo y tocolíticos. Piénsalo bien.',
+        options: 'La opción A plantea operación cesárea de urgencia. La B esperar a las treinta y cuatro semanas. La C corticoides y evaluar en cuarenta y ocho horas. La D oxitocina. La E reposo y tocolíticos. Piénsalo.',
         answer: 'La respuesta correcta es la A. Ante un desprendimiento prematuro de placenta con compromiso clínico y desaceleraciones fetales la indicación es la cesárea de urgencia inmediata.',
       },
     },
@@ -407,7 +407,7 @@ module.exports = {
       say: {
         stem: 'Durante un parto de término, inmediatamente tras romper membranas de forma artificial, aparece líquido con sangre roja rutilante y bradicardia fetal extrema súbita sin dolor materno.',
         question: '¿Cuál es el diagnóstico más probable en esta paciente?',
-        options: 'La opción A plantea rotura de vasa previa. La B placenta previa oclusiva. La C desprendimiento prematuro normoinserto. La D laceración cervical. La E corioamnionitis aguda. Reflexiona tu respuesta.',
+        options: 'La opción A plantea rotura de vasa previa. La B placenta previa oclusiva. La C desprendimiento prematuro normoinserto. La D laceración cervical. La E corioamnionitis aguda. Reflexiona tu respuesta. Piénsalo.',
         answer: 'La respuesta correcta es la A. La aparición de metrorragia inmediatamente tras romper membranas con colapso cardiofetal instantáneo es la presentación patognomónica de rotura de vasa previa.',
       },
     },
@@ -447,7 +447,7 @@ module.exports = {
             {
               t: 'Rotura de vasa previa tras amniorrexis',
               d: 'Sangrado inmediato con bradicardia fetal extrema exanguinante',
-              say: 'La metrorragia que aparece inmediatamente tras romper las membranas con bradicardia fetal fulminante es rotura de vasa previa y requiere cesárea en código rojo inmediato.',
+              say: 'La vasa previa rota causa hemorragia fetal masiva y sufrimiento agudo inmediato. Si te llevas una sola idea de hoy: ante una metrorragia del tercer trimestre nunca realices tacto vaginal sin antes descartar placenta previa mediante ecografía. Nos vemos en la próxima clase.',
             },
           ],
         },

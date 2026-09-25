@@ -507,7 +507,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de treinta semanas con dificultad respiratoria grave quejido audible y radiografía con hipoinsuflación y vidrio esmerilado con broncograma aéreo.',
         question: '¿Cuál es la causa fisiopatológica y el tratamiento de elección?',
-        options: 'La opción A retardo en la reabsorción de líquido alveolar. La B déficit de surfactante pulmonar con indicación de CPAP nasal y surfactante exógeno endotraqueal. La C aspiración de meconio. La D neumotórax a tensión. La E atresia esofágica. Correlaciona la edad gestacional con la radiografía.',
+        options: 'La opción A retardo en la reabsorción de líquido alveolar. La B déficit de surfactante pulmonar con indicación de CPAP nasal y surfactante exógeno endotraqueal. La C aspiración de meconio. La D neumotórax a tensión. La E atresia esofágica. Correlaciona la edad gestacional con la radiografía. Piénsalo.',
         answer: 'La respuesta correcta es la B. Corresponde a membrana hialina por déficit de surfactante en un prematuro, requiriendo CPAP y surfactante exógeno.',
       },
     },
@@ -530,7 +530,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de término por cesárea electiva con taquipnea de ochenta y cuatro por minuto sin quejido y radiografía con hiperinsuflación y cisuritis líquida.',
         question: '¿Cuál es el diagnóstico más probable y el curso esperado?',
-        options: 'La opción A enfermedad de membrana hialina. La B taquipnea transitoria del recién nacido con resolución clínica espontánea en veinticuatro a setenta y dos horas. La C síndrome de aspiración meconial. La D neumonía congénita. La E hernia diafragmática. Observa la cesárea y la cisuritis.',
+        options: 'La opción A enfermedad de membrana hialina. La B taquipnea transitoria del recién nacido con resolución clínica espontánea en veinticuatro a setenta y dos horas. La C síndrome de aspiración meconial. La D neumonía congénita. La E hernia diafragmática. Observa la cesárea y la cisuritis. Piénsalo.',
         answer: 'La respuesta correcta es la B. Es una taquipnea transitoria del recién nacido o pulmón húmedo, entidad benigna que se resuelve espontáneamente en dos a tres días.',
       },
     },
@@ -570,7 +570,7 @@ module.exports = {
             {
               t: 'Betametasona prenatal entre 24 y 34 semanas',
               d: 'Dos dosis de doce miligramos intramuscular cada 24 horas; la intervención obstétrica que salva más vidas',
-              say: 'Indiquen siempre maduración pulmonar con dos dosis de betametasona en partos prematuros para estimular la síntesis de fosfolípidos.',
+              say: 'La betametasona antenatal estimula la síntesis de fosfolípidos. Si te llevas una sola idea de hoy: la enfermedad de membrana hialina se previene con corticoides antenatales y se trata precozmente con ventilación no invasiva y surfactante endotraqueal. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -318,7 +318,7 @@ module.exports = {
       say: {
         stem: 'Pareja con infertilidad primaria de dieciocho meses; mujer de treinta y un años con ovulación normal pero histerosalpingografía con hidrosálpinx bilateral y prueba de Cotte negativa bilateral; espermiograma del cónyuge completamente normal.',
         question: '¿Cuál es la conducta terapéutica de elección para lograr el embarazo en esta pareja?',
-        options: 'La opción A propone inseminación con semen de donante. La B relaciones programadas con inductores. La C fertilización in vitro. La D inseminación intrauterina conyugal. La E doxiciclina oral. Piénsalo bien.',
+        options: 'La opción A propone inseminación con semen de donante. La B relaciones programadas con inductores. La C fertilización in vitro. La D inseminación intrauterina conyugal. La E doxiciclina oral. Piénsalo.',
         answer: 'La respuesta correcta es la C. La obstrucción tubárica bilateral con prueba de Cotte negativa es la indicación clásica de fertilización in vitro al saltar mecánicamente las trompas ocluidas.',
       },
     },
@@ -341,7 +341,7 @@ module.exports = {
       say: {
         stem: 'En el estudio básico de un varón de treinta años por sospecha de factor masculino de infertilidad, se solicita una muestra de espermiograma diagnóstico.',
         question: '¿Cuántos días de abstinencia sexual previa debe cumplir el paciente antes de recolectar la muestra de semen?',
-        options: 'La opción A propone menos de veinticuatro horas. La B de tres a cinco días de abstinencia estricta. La C veinte a treinta días. La D que la abstinencia es irrelevante. La E catorce días exactos. Piénsalo bien.',
+        options: 'La opción A propone menos de veinticuatro horas. La B de tres a cinco días de abstinencia estricta. La C veinte a treinta días. La D que la abstinencia es irrelevante. La E catorce días exactos. Piénsalo.',
         answer: 'La respuesta correcta es la B. La norma estándar internacional exige de tres a cinco días de abstinencia para no alterar el volumen ni la motilidad espermática.',
       },
     },
@@ -398,7 +398,7 @@ module.exports = {
             {
               t: 'Factor masculino severo',
               d: 'Recuento menor a un millón o azoospermia que exige microinyección intracitoplasmática',
-              say: 'Por su parte, el factor masculino severo con recuento espermático crítico o azoospermia se resuelve mediante fertilización de alta complejidad con microinyección intracitoplasmática. Nos vemos en la próxima clase.',
+              say: 'El factor tubárico bilateral y el masculino severo exigen fertilización asistida de alta complejidad. Si te llevas una sola idea de hoy: la evaluación de la pareja infértil inicia simultáneamente con espermiograma, confirmación ovulatoria y permeabilidad tubárica por histerosalpingografía. Nos vemos en la próxima clase.',
             },
           ],
         },

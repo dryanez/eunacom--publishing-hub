@@ -229,7 +229,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta representativa del banco. Hombre de cuarenta y seis años, con un nevo en la espalda que cambió de color y creció en los últimos cuatro meses. Al examen: una lesión asimétrica de ocho milímetros, bordes irregulares y tres colores distintos, café claro, negro y grisáceo.',
         question: '¿Cuál es la conducta diagnóstica de elección?',
-        options: 'Las opciones: crioterapia en la consulta, biopsia excisional completa, biopsia por shave para no dejar cicatriz, biopsia por punch del centro más pigmentado, o control fotográfico cada tres meses.',
+        options: 'Las opciones: crioterapia en la consulta, biopsia excisional completa, biopsia por shave para no dejar cicatriz, biopsia por punch del centro más pigmentado, o control fotográfico cada tres meses. Piénsalo.',
         answer: 'Es la B. Mismo razonamiento de siempre: sospecha de melanoma, biopsia excisional completa. El shave y el punch son la trampa que suena razonable, "para no dejar cicatriz" o "sacar solo lo más sospechoso", pero desestructuran la lesión y no permiten medir el Breslow.',
       },
     },
@@ -252,7 +252,7 @@ module.exports = {
       say: {
         stem: 'Una pregunta más. El informe de una biopsia excisional en la pierna de una mujer de treinta y ocho años dice: melanoma de extensión superficial, espesor de Breslow de cero coma seis milímetros, sin ulceración, márgenes libres a un milímetro.',
         question: '¿Cuál es la conducta terapéutica definitiva más apropiada?',
-        options: 'Las opciones: no hacer nada más porque los márgenes de la biopsia estaban libres, ampliar a un centímetro sin ganglio centinela, ampliar a dos centímetros más ganglio centinela obligatorio, quimioterapia con dacarbazina, o radioterapia sobre la cicatriz.',
+        options: 'Las opciones: no hacer nada más porque los márgenes de la biopsia estaban libres, ampliar a un centímetro sin ganglio centinela, ampliar a dos centímetros más ganglio centinela obligatorio, quimioterapia con dacarbazina, o radioterapia sobre la cicatriz. Piénsalo.',
         answer: 'Es la B. Aplica la tabla que aprendimos: Breslow de cero coma seis milímetros, menor a un milímetro, margen de un centímetro. Y como está bajo cero coma ocho milímetros y sin ulceración, no corresponde ganglio centinela. La trampa es la C, que suena más "agresiva" y por eso más segura, pero es un sobretratamiento para este Breslow.',
       },
     },

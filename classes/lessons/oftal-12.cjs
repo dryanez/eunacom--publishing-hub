@@ -197,7 +197,7 @@ module.exports = {
       say: {
         stem: 'Una pregunta representativa del banco de la especialidad, sin fecha del examen real, sobre el punto administrativo que más se pregunta. Un paciente de cincuenta y dos años es diagnosticado de diabetes tipo dos en un chequeo preventivo, y está completamente asintomático desde el punto de vista visual.',
         question: '¿Cuál es la indicación correcta respecto al tamizaje oftalmológico, según las guías del MINSAL y la garantía GES veintitrés?',
-        options: 'Las opciones: fondo de ojo al momento del diagnóstico y luego anualmente, esperar cinco años para el primer fondo de ojo, pedirlo solo si la hemoglobina glicosilada supera el ocho por ciento, pedirlo solo si hay síntomas visuales, o derivar de inmediato a cirugía de cataratas.',
+        options: 'Las opciones: fondo de ojo al momento del diagnóstico y luego anualmente, esperar cinco años para el primer fondo de ojo, pedirlo solo si la hemoglobina glicosilada supera el ocho por ciento, pedirlo solo si hay síntomas visuales, o derivar de inmediato a cirugía de cataratas. Piénsalo.',
         answer: 'Es la A. La diabetes tipo dos suele llevar años de evolución silenciosa antes del diagnóstico formal, así que hasta uno de cada cinco pacientes ya tiene algún grado de retinopatía cuando recién se entera de que es diabético. Por eso el fondo de ojo va al momento del diagnóstico, y luego cada año, de por vida. La opción B es la trampa: esperar cinco años es la regla de la diabetes tipo uno, no de la tipo dos.',
       },
     },
@@ -220,7 +220,7 @@ module.exports = {
       say: {
         stem: 'Y ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Una paciente de cincuenta y seis años, diabética de larga data y mal controlada, con nefropatía diabética avanzada, en etapa cuatro, presenta pérdida súbita e indolora de la visión del ojo izquierdo.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: glaucoma, edema macular, uveítis, trombosis de la vena central de la retina, o hemorragia vítrea.',
+        options: 'Las opciones: glaucoma, edema macular, uveítis, trombosis de la vena central de la retina, o hemorragia vítrea. Piénsalo.',
         answer: 'Es la E, hemorragia vítrea. El antecedente clave es el daño renal avanzado: cuando la microangiopatía diabética ya dañó el riñón de forma severa, es altamente probable que también haya una retinopatía proliferativa avanzada, con neovasos frágiles. La pérdida súbita e indolora es justamente lo que esperas cuando uno de esos neovasos se rompe y sangra hacia el vítreo.',
       },
     },
@@ -243,7 +243,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta real, del EUNACOM de julio de dos mil diecisiete, que insiste en el mismo punto con otro nivel de detalle. Un paciente de sesenta y ocho años, diabético e hipertenso, presenta caída brusca de la visión del ojo izquierdo, tan severa que solo distingue el movimiento de una mano. La exploración externa es normal, el reflejo rojo pupilar está negativo, y su hemoglobina glicosilada está muy elevada, en nueve coma dos por ciento.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: neuritis óptica isquémica, desprendimiento de retina, hemorragia vítrea, trombosis de la arteria central de la retina, o edema macular.',
+        options: 'Las opciones: neuritis óptica isquémica, desprendimiento de retina, hemorragia vítrea, trombosis de la arteria central de la retina, o edema macular. Piénsalo.',
         answer: 'Es la C, hemorragia vítrea. Fíjate en el detalle que la distingue de las otras opciones: la pérdida del reflejo rojo pupilar. Ni el edema macular ni la trombosis de la arteria central borran ese reflejo, y el edema, además, tarda varios días en instalarse. Con un diabético tan mal controlado y el rojo pupilar perdido, el sangrado hacia el vítreo por neovasos rotos junta todas las piezas.',
       },
     },

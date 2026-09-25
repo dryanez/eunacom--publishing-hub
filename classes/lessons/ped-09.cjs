@@ -470,7 +470,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de catorce días febril con temperatura de treinta y ocho coma cuatro activo reactivo que lacta bien y sin foco evidente.',
         question: '¿Cuál es la conducta médica correcta?',
-        options: 'La opción A paracetamol oral y control en dos días. La B hospitalizar de inmediato con estudio séptico que incluya punción lumbar e iniciar ampicilina más cefotaxima endovenosa. La C alta si exámenes normales. La D ceftriaxona intramuscular. La E compresas tibias. Aplica la regla neonatal.',
+        options: 'La opción A paracetamol oral y control en dos días. La B hospitalizar de inmediato con estudio séptico que incluya punción lumbar e iniciar ampicilina más cefotaxima endovenosa. La C alta si exámenes normales. La D ceftriaxona intramuscular. La E compresas tibias. Aplica la regla neonatal. Piénsalo.',
         answer: 'La respuesta correcta es la B. Todo menor de veintiocho días febril se hospitaliza de inmediato para estudio séptico completo con punción lumbar y cobertura parenteral.',
       },
     },
@@ -493,7 +493,7 @@ module.exports = {
       say: {
         stem: 'Lactante de cuarenta y cinco días con fiebre de treinta y ocho coma dos en excelentes condiciones que cumple la totalidad de los criterios de bajo riesgo de Rochester.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'La opción A hospitalización inmediata y punción lumbar. La B manejo ambulatorio con paracetamol oral y control médico presencial obligatorio a las veinticuatro horas. La C amoxicilina empírica. La D tomografía de tórax. La E alta definitiva sin control. Evalúa el riesgo.',
+        options: 'La opción A hospitalización inmediata y punción lumbar. La B manejo ambulatorio con paracetamol oral y control médico presencial obligatorio a las veinticuatro horas. La C amoxicilina empírica. La D tomografía de tórax. La E alta definitiva sin control. Evalúa el riesgo. Piénsalo.',
         answer: 'La respuesta correcta es la B. Si cumple todos los criterios de Rochester el riesgo es menor al uno por ciento permitiendo manejo ambulatorio con control presencial en veinticuatro horas.',
       },
     },
@@ -515,7 +515,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la etiología bacteriana grave invasiva oculta más frecuente en un lactante de seis meses con síndrome febril agudo sin foco.',
         question: '¿Cuál es la infección bacteriana más prevalente en este escenario clínico?',
-        options: 'La opción A meningitis bacteriana aguda. La B infección del tracto urinario. La C osteomielitis aguda. La D bacteriemia por Salmonella. La E absceso retrofaríngeo. Recuerda la epidemiología ambulatoria.',
+        options: 'La opción A meningitis bacteriana aguda. La B infección del tracto urinario. La C osteomielitis aguda. La D bacteriemia por Salmonella. La E absceso retrofaríngeo. Recuerda la epidemiología ambulatoria. Piénsalo.',
         answer: 'La respuesta correcta es la B. La infección del tracto urinario representa más del ochenta por ciento de las infecciones bacterianas ocultas en lactantes con fiebre sin foco.',
       },
     },
@@ -538,7 +538,7 @@ module.exports = {
       say: {
         stem: 'Lactante de dos meses con fiebre leucocitosis de dieciocho mil quinientos desviación a la izquierda y sedimento con leucocituria y bacterias abundantes.',
         question: '¿Cuál es la conducta médica indicada?',
-        options: 'La opción A cefadroxilo oral ambulatorio. La B hospitalizar para tratamiento antibiótico endovenoso con cefotaxima y estudio complementario. La C observar con paracetamol. La D punción suprapúbica sin antibióticos. La E nitrofurantoína. Identifica el alto riesgo.',
+        options: 'La opción A cefadroxilo oral ambulatorio. La B hospitalizar para tratamiento antibiótico endovenoso con cefotaxima y estudio complementario. La C observar con paracetamol. La D punción suprapúbica sin antibióticos. La E nitrofurantoína. Identifica el alto riesgo. Piénsalo.',
         answer: 'La respuesta correcta es la B. Por ser menor de tres meses con criterios de Rochester alterados e infección urinaria febril debe hospitalizarse para antibióticos endovenosos.',
       },
     },

@@ -526,7 +526,7 @@ module.exports = {
       say: {
         stem: 'Lactante de ocho meses febril sin foco con sedimento patológico obtenido mediante bolsa recolectora perineal.',
         question: '¿Cuál es la conducta médica correcta antes de iniciar el tratamiento antibiótico definitivo?',
-        options: 'La opción A nitrofurantoína oral inmediata. La B realizar cateterismo vesical estéril para confirmar sedimento y urocultivo. La C esperar cultivo de bolsa. La D ciprofloxacino y cintigrama. La E alta con paracetamol descartando infección. Recuerda la tasa de falsos positivos.',
+        options: 'La opción A nitrofurantoína oral inmediata. La B realizar cateterismo vesical estéril para confirmar sedimento y urocultivo. La C esperar cultivo de bolsa. La D ciprofloxacino y cintigrama. La E alta con paracetamol descartando infección. Recuerda la tasa de falsos positivos. Piénsalo.',
         answer: 'La respuesta correcta es la B. La bolsa recolectora no sirve para confirmar; ante un sedimento alterado es obligatorio realizar cateterismo vesical estéril.',
       },
     },
@@ -548,7 +548,7 @@ module.exports = {
       say: {
         stem: 'Pregunta directa sobre el antibiótico formalmente contraindicado como tratamiento de primera línea en pielonefritis aguda pediátrica.',
         question: '¿Cuál de los siguientes antibióticos carece de concentraciones terapéuticas en el parénquima renal?',
-        options: 'La opción A cefadroxilo. La B cefotaxima. La C nitrofurantoína. La D ceftriaxona. La E gentamicina. Analiza la farmacocinética tisular.',
+        options: 'La opción A cefadroxilo. La B cefotaxima. La C nitrofurantoína. La D ceftriaxona. La E gentamicina. Analiza la farmacocinética tisular. Piénsalo.',
         answer: 'La respuesta correcta es la C. La nitrofurantoína solo se concentra en la vejiga y está contraindicada en infecciones urinarias febriles.',
       },
     },
@@ -588,7 +588,7 @@ module.exports = {
             {
               t: 'Ecografía renal universal y uretrocistografía selectiva',
               d: 'Ecografía renal a todo primer episodio febril; UCG si la ecografía es anormal, hay recurrencia o germen atípico',
-              say: 'Indiquen ecografía renal a todo primer episodio febril, reservando la uretrocistografía para ecografías patológicas, infecciones recurrentes o gérmenes no coliformes.',
+              say: 'La ecografía renal se indica en todo primer episodio febril. Si te llevas una sola idea de hoy: el diagnóstico de certeza de infección urinaria en lactantes exige urocultivo por cateterismo vesical estéril, jamás por bolsa recolectora. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -291,7 +291,7 @@ module.exports = {
       say: {
         stem: 'Una puérpera de tres semanas presenta fiebre de treinta y nueve punto dos, placa eritematosa caliente indurada en mama derecha y grietas en el pezón.',
         question: '¿Cuál es la conducta terapéutica correcta con esta paciente?',
-        options: 'La opción A propone suspender la lactancia con ciprofloxacino. La B prescribir cloxacilina oral por diez a catorce días y continuar amamantando. La C drenaje quirúrgico. La D solo frío local. La E inhibir prolactina. Piénsalo bien.',
+        options: 'La opción A propone suspender la lactancia con ciprofloxacino. La B prescribir cloxacilina oral por diez a catorce días y continuar amamantando. La C drenaje quirúrgico. La D solo frío local. La E inhibir prolactina. Piénsalo.',
         answer: 'La respuesta correcta es la B. La mastitis infecciosa se trata con cloxacilina oral y jamás se debe suspender la lactancia materna porque el vaciamiento es la clave de la cura.',
       },
     },
@@ -354,7 +354,7 @@ module.exports = {
             {
               t: 'Absceso: masa fluctuante que exige drenaje',
               d: 'Ecografía confirmatoria y evacuación quirúrgica manteniendo la lactancia con mama sana',
-              say: 'El absceso mamario se manifiesta por fluctuación palpable tras fracaso del tratamiento antibiótico, requiriendo confirmación ecográfica y drenaje evacuador manteniendo la lactancia con el pecho sano. Nos vemos en la próxima clase.',
+              say: 'El absceso mamario requiere drenaje quirúrgico manteniendo la lactancia en la mama contralateral. Si te llevas una sola idea de hoy: la mastitis puerperal se trata con cloxacilina y vaciamiento mamario frecuente, sin suspender jamás la lactancia natural. Nos vemos en la próxima clase.',
             },
           ],
         },

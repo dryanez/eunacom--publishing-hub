@@ -456,7 +456,7 @@ module.exports = {
       say: {
         stem: 'Una primigesta de treinta semanas consulta por dinámica uterina dolorosa frecuente y cervicometría de dieciséis milímetros con dilatación de dos centímetros.',
         question: '¿Cuál es la conducta médica integral de primera línea para esta paciente?',
-        options: 'La opción A propone reposo en domicilio. La B hospitalizar en ARO con nifedipino, betametasona y sulfato de magnesio. La C cesárea urgente. La D indometacina por catorce días. La E cerclaje de emergencia. Piénsalo bien.',
+        options: 'La opción A propone reposo en domicilio. La B hospitalizar en ARO con nifedipino, betametasona y sulfato de magnesio. La C cesárea urgente. La D indometacina por catorce días. La E cerclaje de emergencia. Piénsalo.',
         answer: 'La respuesta correcta es la B. A las treinta semanas con cérvix corto se hospitaliza en ARO y se administra la tríada de oro: tocolisis con nifedipino, maduración con betametasona y neuroprotección con sulfato de magnesio.',
       },
     },
@@ -479,7 +479,7 @@ module.exports = {
       say: {
         stem: 'Se consulta en cuál escenario clínico está formalmente prohibido utilizar fármacos tocolíticos para frenar las contracciones uterinas.',
         question: '¿Cuál es la contraindicación absoluta para iniciar tocolisis?',
-        options: 'La opción A plantea gestación de veintiocho semanas con cérvix corto. La B antecedente de parto pretérmino. La C corioamnionitis clínica con fiebre y dolor uterino. La D embarazo gemelar. La E cistitis tratada. Piénsalo bien.',
+        options: 'La opción A plantea gestación de veintiocho semanas con cérvix corto. La B antecedente de parto pretérmino. La C corioamnionitis clínica con fiebre y dolor uterino. La D embarazo gemelar. La E cistitis tratada. Piénsalo.',
         answer: 'La respuesta correcta es la C. La corioamnionitis clínica prohíbe de forma absoluta la tocolisis, exigiendo la evacuación uterina inmediata bajo cobertura antibiótica.',
       },
     },
@@ -502,7 +502,7 @@ module.exports = {
       say: {
         stem: 'Se pregunta por qué razón farmacológica está contraindicado utilizar indometacina como tocolítico en una gestante de treinta y tres semanas.',
         question: '¿Cuál es el mecanismo fisiopatológico adverso de la indometacina?',
-        options: 'La opción A afirma que pierde efecto tocolítico. La B que induce cierre prematuro del conducto arterioso e hipertensión pulmonar fetal. La C hemorragia cerebral. La D arritmias maternas. La E sobredosis de surfactante. Piénsalo bien.',
+        options: 'La opción A afirma que pierde efecto tocolítico. La B que induce cierre prematuro del conducto arterioso e hipertensión pulmonar fetal. La C hemorragia cerebral. La D arritmias maternas. La E sobredosis de surfactante. Piénsalo.',
         answer: 'La respuesta correcta es la B. Tras las treinta y dos semanas la indometacina puede cerrar prematuramente el conducto arterioso fetal generando hipertensión pulmonar neonatal severa.',
       },
     },
@@ -525,7 +525,7 @@ module.exports = {
       say: {
         stem: 'Se consulta cuál es el beneficio clínico comprobado que fundamenta administrar sulfato de magnesio antenatal en partos inminentes antes de las treinta y dos semanas.',
         question: '¿Cuál es el principal impacto clínico demostrado?',
-        options: 'La opción A propone síntesis de surfactante. La B reducir el riesgo de parálisis cerebral infantil y disfunción motora. La C erradicar estreptococo. La D prevenir enterocolitis. La E frenar el parto hasta el término. Piénsalo bien.',
+        options: 'La opción A propone síntesis de surfactante. La B reducir el riesgo de parálisis cerebral infantil y disfunción motora. La C erradicar estreptococo. La D prevenir enterocolitis. La E frenar el parto hasta el término. Piénsalo.',
         answer: 'La respuesta correcta es la B. El sulfato de magnesio administrado antes de las treinta y dos semanas es un neuroprotector que reduce notablemente la tasa de parálisis cerebral infantil.',
       },
     },
@@ -564,7 +564,7 @@ module.exports = {
             {
               t: 'Sulfato de magnesio bajo las treinta y dos semanas',
               d: 'Neuroprotección antenatal con bolo de cuatro a cinco gramos que previene parálisis cerebral',
-              say: 'En partos inminentes bajo las treinta y dos semanas administramos sulfato de magnesio para neuroprotección fetal, previniendo la parálisis cerebral y la disfunción motora severa. Nos vemos en la próxima clase.',
+              say: 'El sulfato de magnesio antenatal reduce a la mitad el riesgo de parálisis cerebral. Si te llevas una sola idea de hoy: los tocolíticos solo ganan cuarenta y ocho horas para permitir la maduración pulmonar con corticoides y la neuroprotección con sulfato de magnesio. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -316,7 +316,7 @@ module.exports = {
       say: {
         stem: 'Una paciente de sesenta y dos años presenta escapes de orina involuntarios exclusivamente al toser, reír o levantar peso con maniobra de esfuerzo positiva tras fallar kinesiología.',
         question: '¿Cuál es el procedimiento quirúrgico de elección para resolver la incontinencia urinaria de esfuerzo?',
-        options: 'La opción A propone colocación de cabestrillo mediouretral libre de tensión cinta TOT o TVT. La B toxina botulínica en el detrusor. La C oxibutinina oral. La D cistoplastía de aumento. La E denervación pélvica. Piénsalo bien.',
+        options: 'La opción A propone colocación de cabestrillo mediouretral libre de tensión cinta TOT o TVT. La B toxina botulínica en el detrusor. La C oxibutinina oral. La D cistoplastía de aumento. La E denervación pélvica. Piénsalo.',
         answer: 'La respuesta correcta es la A. En la incontinencia urinaria de esfuerzo refractaria a kinesiología, la cirugía de primera línea de elección es la colocación de una cinta mediouretral libre de tensión tipo TOT o TVT.',
       },
     },
@@ -339,7 +339,7 @@ module.exports = {
       say: {
         stem: 'Una mujer de sesenta y ocho años presenta deseos imperiosos súbitos e incontenibles de orinar con escape abundante, poliaquiuria de doce veces al día y nicturia repetida.',
         question: '¿Cuál de las siguientes conductas terapéuticas es la más apropiada?',
-        options: 'La opción A propone cinta suburetral TOT. La B reeducación vesical combinada con un fármaco anticolinérgico como solifenacina o un agonista beta tres como mirabegrón. La C restricción hídrica extrema. La D uretrotomía. La E antibióticos continuos. Piénsalo bien.',
+        options: 'La opción A propone cinta suburetral TOT. La B reeducación vesical combinada con un fármaco anticolinérgico como solifenacina o un agonista beta tres como mirabegrón. La C restricción hídrica extrema. La D uretrotomía. La E antibióticos continuos. Piénsalo.',
         answer: 'La respuesta correcta es la B. La incontinencia de urgencia nunca se opera; se trata con reeducación vesical y relajantes del detrusor como solifenacina o mirabegrón.',
       },
     },
@@ -379,7 +379,7 @@ module.exports = {
             {
               t: 'Urgencia: ¡NUNCA OPERAR! Fármacos para detrusor',
               d: 'Escape con deseo imperioso por hiperactividad del detrusor; solifenacina o mirabegrón',
-              say: 'La incontinencia de urgencia obedece a hiperactividad involuntaria del músculo detrusor, está terminantemente prohibido operarla y se maneja con solifenacina o mirabegrón. Nos vemos en la próxima clase.',
+              say: 'La incontinencia de urgencia es de manejo médico, no quirúrgico. Si te llevas una sola idea de hoy: la incontinencia de esfuerzo se resuelve con cabestrillos suburetrales, mientras que la de urgencia se trata con fármacos anticolinérgicos o mirabegrón. Nos vemos en la próxima clase.',
             },
           ],
         },

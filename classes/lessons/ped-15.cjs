@@ -484,7 +484,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de treinta y nueve semanas que al nacer no llora y se encuentra hipotónico.',
         question: '¿Cuál es el primer paso a realizar de forma inmediata?',
-        options: 'La opción A masaje cardíaco inmediato. La B intubación directa. La C cuna de calor radiante, posicionar vía aérea, secar y estimular. La D adrenalina umbilical. La E calcular APGAR. Aplica la secuencia cronológica inicial.',
+        options: 'La opción A masaje cardíaco inmediato. La B intubación directa. La C cuna de calor radiante, posicionar vía aérea, secar y estimular. La D adrenalina umbilical. La E calcular APGAR. Aplica la secuencia cronológica inicial. Piénsalo.',
         answer: 'La respuesta correcta es la C. El primer paso consiste en trasladar a cuna radiante, posicionar la cabeza, secar meticulosamente y estimular.',
       },
     },
@@ -507,7 +507,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido al minuto con cuerpo rosado y extremidades azuladas, frecuencia cardíaca de ciento veinte, llanto vigoroso, buen tono muscular y respiración regular.',
         question: '¿Cuál es el puntaje de APGAR correspondiente?',
-        options: 'La opción A diez puntos. La B nueve puntos. La C ocho puntos. La D siete puntos. La E seis puntos. Suma los cinco parámetros clínicos.',
+        options: 'La opción A diez puntos. La B nueve puntos. La C ocho puntos. La D siete puntos. La E seis puntos. Suma los cinco parámetros clínicos. Piénsalo.',
         answer: 'La respuesta correcta es la B. La suma de los parámetros arroja exactamente nueve puntos debido a la acrocianosis distal que resta un punto.',
       },
     },
@@ -530,7 +530,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido intubado con treinta segundos de ventilación a presión positiva efectiva cuya frecuencia cardíaca auscultada persiste en cuarenta y ocho latidos por minuto.',
         question: '¿Cuál es el siguiente paso protocolizado según el algoritmo internacional?',
-        options: 'La opción A continuar con ventilación exclusiva a aire ambiental. La B iniciar masaje cardíaco coordinado tres a uno y aumentar la fracción de oxígeno al cien por ciento. La C bicarbonato de sodio en bolo. La D desfibrilación inmediata. La E extubar. Recuerda el umbral de sesenta latidos.',
+        options: 'La opción A continuar con ventilación exclusiva a aire ambiental. La B iniciar masaje cardíaco coordinado tres a uno y aumentar la fracción de oxígeno al cien por ciento. La C bicarbonato de sodio en bolo. La D desfibrilación inmediata. La E extubar. Recuerda el umbral de sesenta latidos. Piénsalo.',
         answer: 'La respuesta correcta es la B. Con frecuencia menor a sesenta tras ventilación efectiva se inicia masaje cardíaco tres a uno con oxígeno al cien por ciento.',
       },
     },
@@ -552,7 +552,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la justificación anatómica y hemodinámica de ubicar el sensor de oximetría en la mano o muñeca derecha.',
         question: '¿Por qué motivo el sensor debe colocarse estrictamente en la mano derecha durante la reanimación?',
-        options: 'La opción A por mayor calibre arterial. La B porque mide la saturación preductal reflejando fielmente la oxigenación del cerebro y miocardio. La C porque en los pies es idéntica a sangre fetal. La D evitar interferencia con el ombligo. La E convención aleatoria. Recuerda la anatomía aórtica.',
+        options: 'La opción A por mayor calibre arterial. La B porque mide la saturación preductal reflejando fielmente la oxigenación del cerebro y miocardio. La C porque en los pies es idéntica a sangre fetal. La D evitar interferencia con el ombligo. La E convención aleatoria. Recuerda la anatomía aórtica. Piénsalo.',
         answer: 'La respuesta correcta es la B. La mano derecha recibe irrigación preductal previa al conducto arterioso, reflejando la oxigenación miocárdica y cerebral.',
       },
     },
@@ -592,7 +592,7 @@ module.exports = {
             {
               t: 'Sensor preductal en muñeca derecha y APGAR al 1 y 5 min',
               d: 'Mano derecha para saturación de cerebro y corazón; el APGAR evalúa vitalidad pero no demora la reanimación',
-              say: 'Coloquen el oxímetro siempre en la muñeca derecha y recuerden que el APGAR evalúa la respuesta pero jamás debe retrasar el inicio de la ventilación.',
+              say: 'El oxímetro se coloca siempre en la muñeca derecha. Si te llevas una sola idea de hoy: la ventilación a presión positiva es la maniobra más importante de la reanimación neonatal y nunca debe postergarse por calcular el puntaje de APGAR. Nos vemos en la próxima clase.',
             },
           ],
         },

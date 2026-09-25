@@ -167,7 +167,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Hombre de setenta años, con una lesión en la mano derecha, aparecida hace seis meses, que ha crecido progresivamente, es dolorosa, y se ulcera y sangra con facilidad. Al examen: una lesión escamosa, ulcerada, de dos centímetros. Trabajó veinte años como minero en la región de Tarapacá.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: carcinoma espinocelular, carcinoma basocelular, melanoma maligno, granuloma piógeno, o queratosis actínica.',
+        options: 'Las opciones: carcinoma espinocelular, carcinoma basocelular, melanoma maligno, granuloma piógeno, o queratosis actínica. Piénsalo.',
         answer: 'Es la A, carcinoma espinocelular. La lesión escamosa, ulcerada y dolorosa, sumada a veinte años de exposición solar como minero, arma el cuadro clásico. El granuloma piógeno es el distractor tentador porque también sangra fácil, pero se ve rojo y húmedo, no escamoso como este caso.',
       },
     },
@@ -190,7 +190,7 @@ module.exports = {
       say: {
         stem: 'Y una pregunta real más, del EUNACOM de enero de dos mil veintitrés. Un adulto consulta por una lesión pruriginosa de tres meses en el párpado inferior, que ha ido aumentando de volumen.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: chalazión crónico, orzuelo interno, carcinoma basocelular, carcinoma espinocelular, o melanoma ocular.',
+        options: 'Las opciones: chalazión crónico, orzuelo interno, carcinoma basocelular, carcinoma espinocelular, o melanoma ocular. Piénsalo.',
         answer: 'Es la C, carcinoma basocelular. El párpado, sobre todo el inferior, es una de las localizaciones típicas del basocelular, y una lesión palpebral que crece durante meses, a diferencia de un chalazión o un orzuelo que resuelven en semanas, tiene que hacerte sospechar un cáncer basocelular, que es por lejos el tumor palpebral maligno más frecuente.',
       },
     },

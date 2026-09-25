@@ -474,7 +474,7 @@ module.exports = {
       say: {
         stem: 'Lactante de ocho meses en consultorio con fiebre tos taquipnea de cincuenta y cuatro saturación noventa y cinco por ciento y crépitos basales izquierdos tolerando el pecho.',
         question: '¿Cuál es el tratamiento de primera línea más adecuado?',
-        options: 'La opción A propone azitromicina oral por tres días. La B amoxicilina oral a ochenta a noventa miligramos por kilo al día por siete días. La C ceftriaxona intramuscular. La D salbutamol exclusivo. La E amoxicilina clavulánico a dosis bajas. Selecciona la pauta ministerial.',
+        options: 'La opción A propone azitromicina oral por tres días. La B amoxicilina oral a ochenta a noventa miligramos por kilo al día por siete días. La C ceftriaxona intramuscular. La D salbutamol exclusivo. La E amoxicilina clavulánico a dosis bajas. Selecciona la pauta ministerial. Piénsalo.',
         answer: 'La respuesta correcta es la B. La amoxicilina a dosis plenas de ochenta a noventa miligramos por kilo al día es el estándar indiscutido contra el neumococo en el lactante.',
       },
     },
@@ -496,7 +496,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la identificación del criterio absoluto e imperativo de hospitalización en un niño con neumonía adquirida en la comunidad.',
         question: '¿Cuál de los siguientes pacientes presenta indicación estricta de ingreso hospitalario inmediato?',
-        options: 'La opción A lactante de catorce meses con saturación normal que come bien. La B lactante de dos meses de vida con fiebre y taquipnea. La C niño de cuatro años que satura noventa y cinco por ciento. La D escolar con neumonía atípica. La E lactante de nueve meses afebril con paracetamol. Identifica la edad crítica.',
+        options: 'La opción A lactante de catorce meses con saturación normal que come bien. La B lactante de dos meses de vida con fiebre y taquipnea. La C niño de cuatro años que satura noventa y cinco por ciento. La D escolar con neumonía atípica. La E lactante de nueve meses afebril con paracetamol. Identifica la edad crítica. Piénsalo.',
         answer: 'La respuesta correcta es la B. Todo lactante menor de tres meses con neumonía tiene indicación obligatoria de hospitalización por riesgo de bacteriemia y colapso.',
       },
     },
@@ -519,7 +519,7 @@ module.exports = {
       say: {
         stem: 'Niño de siete años con tos seca de diez días cefalea mialgias buen estado general y radiografía con infiltrado intersticial bilateral disociado.',
         question: '¿Cuál es el tratamiento antibiótico empírico de elección?',
-        options: 'La opción A propone amoxicilina oral a dosis altas. La B azitromicina oral a diez miligramos por kilo el primer día y cinco miligramos los días dos a cinco. La C ampicilina endovenosa. La D cloxacilina. La E gentamicina. Recuerda la estructura celular de Mycoplasma.',
+        options: 'La opción A propone amoxicilina oral a dosis altas. La B azitromicina oral a diez miligramos por kilo el primer día y cinco miligramos los días dos a cinco. La C ampicilina endovenosa. La D cloxacilina. La E gentamicina. Recuerda la estructura celular de Mycoplasma. Piénsalo.',
         answer: 'La respuesta correcta es la B. Mycoplasma carece de pared celular siendo inmune a penicilinas y respondiendo de forma electiva a los macrólidos orales.',
       },
     },
@@ -542,7 +542,7 @@ module.exports = {
       say: {
         stem: 'Lactante de once meses en tratamiento con amoxicilina que persiste con fiebre a las cuarenta y ocho horas constatándose matidez basal y derrame pleural derecho en la placa.',
         question: '¿Cuál es la conducta inmediata correcta?',
-        options: 'La opción A mantener amoxicilina oral por dos días más. La B hospitalizar de inmediato con ecografía pleural punción diagnóstica y antibióticos endovenosos. La C kinesioterapia respiratoria. La D salbutamol nebulizado. La E diferir hospitalización. Aplica el protocolo de falla.',
+        options: 'La opción A mantener amoxicilina oral por dos días más. La B hospitalizar de inmediato con ecografía pleural punción diagnóstica y antibióticos endovenosos. La C kinesioterapia respiratoria. La D salbutamol nebulizado. La E diferir hospitalización. Aplica el protocolo de falla. Piénsalo.',
         answer: 'La respuesta correcta es la B. El derrame paraneumónico con fiebre persistente es un fracaso de tratamiento que exige hospitalización urgente y punción diagnóstica.',
       },
     },

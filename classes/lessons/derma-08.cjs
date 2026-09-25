@@ -153,7 +153,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de veintiocho años con urticaria generalizada, de dos días de evolución, con prurito intenso. Sin angioedema ni compromiso hemodinámico.',
         question: '¿Cuál es el tratamiento de primera línea?',
-        options: 'Las opciones: levocetirizina oral, adrenalina subcutánea, metilprednisolona endovenosa, omalizumab subcutáneo, o inmunoterapia sublingual.',
+        options: 'Las opciones: levocetirizina oral, adrenalina subcutánea, metilprednisolona endovenosa, omalizumab subcutáneo, o inmunoterapia sublingual. Piénsalo.',
         answer: 'Es la A, levocetirizina oral. Una urticaria aguda, sin ningún signo de anafilaxia, se trata con un antihistamínico H uno de segunda generación como primera línea. La adrenalina es solo para la anafilaxia. Los corticoides se reservan como rescate en casos refractarios, nunca como primera indicación. Y el omalizumab es una tercera línea, reservada para la urticaria crónica que no responde a los antihistamínicos.',
       },
     },
@@ -176,7 +176,7 @@ module.exports = {
       say: {
         stem: 'Y una tercera pregunta real, del EUNACOM de enero de dos mil veintitrés. Un niño presenta rash urticarial, edema de labios, taquicardia y sensibilidad abdominal.',
         question: '¿Cuál es el tratamiento inicial más adecuado?',
-        options: 'Las opciones: adrenalina intramuscular, difenhidramina endovenosa, hidrocortisona endovenosa, clorfenamina oral, o salbutamol inhalado.',
+        options: 'Las opciones: adrenalina intramuscular, difenhidramina endovenosa, hidrocortisona endovenosa, clorfenamina oral, o salbutamol inhalado. Piénsalo.',
         answer: 'Es la A, adrenalina intramuscular. Habones más angioedema de labios, taquicardia y dolor abdominal son las banderas rojas de anafilaxia que vimos hoy: hay compromiso hemodinámico y digestivo, no solo cutáneo. El tratamiento inicial inmediato es siempre la adrenalina intramuscular. Los antihistamínicos y los corticoides son fármacos secundarios, que tardan horas en actuar y nunca sustituyen a la adrenalina en este escenario.',
       },
     },

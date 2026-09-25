@@ -447,7 +447,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de sexo masculino de treinta y cinco semanas con peso de dos mil ochocientos cincuenta gramos ubicado en el percentil noventa y dos de las curvas.',
         question: '¿Cuál es la clasificación correcta del paciente?',
-        options: 'La opción A término pequeño para la edad gestacional. La B término adecuado. La C recién nacido pretérmino grande para la edad gestacional. La D pretérmino adecuado. La E postérmino grande. Cruza la edad gestacional con el percentil de peso.',
+        options: 'La opción A término pequeño para la edad gestacional. La B término adecuado. La C recién nacido pretérmino grande para la edad gestacional. La D pretérmino adecuado. La E postérmino grande. Cruza la edad gestacional con el percentil de peso. Piénsalo.',
         answer: 'La respuesta correcta es la C. Nació a las treinta y cinco semanas lo que define pretérmino, y su peso sobre el percentil noventa define grande para la edad gestacional.',
       },
     },
@@ -469,7 +469,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la complicación metabólica más frecuente y peligrosa a monitorizar de forma precoz en un recién nacido pequeño para la edad gestacional.',
         question: '¿Cuál es la complicación metabólica más frecuente y de mayor riesgo en el recién nacido PEG?',
-        options: 'La opción A hiperglicemia cetósica. La B hipoglicemia asintomática o sintomática por escasa reserva de glucógeno hepático. La C hipernatremia severa. La D hipocalcemia tardía. La E hiperpotasemia con arritmias. Recuerda los depósitos hepáticos fetales.',
+        options: 'La opción A hiperglicemia cetósica. La B hipoglicemia asintomática o sintomática por escasa reserva de glucógeno hepático. La C hipernatremia severa. La D hipocalcemia tardía. La E hiperpotasemia con arritmias. Recuerda los depósitos hepáticos fetales. Piénsalo.',
         answer: 'La respuesta correcta es la B. La hipoglicemia precoz por depleción de los depósitos hepáticos de glucógeno es la complicación metabólica cardinal del recién nacido PEG.',
       },
     },

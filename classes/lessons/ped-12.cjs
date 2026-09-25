@@ -428,7 +428,7 @@ module.exports = {
       say: {
         stem: 'Niño de veintiocho días con vómitos crecientes postprandiales que llora con hambre tras vomitar y presenta detención ponderal enflaquecido.',
         question: '¿Cuál es el examen de elección para iniciar el estudio en este paciente?',
-        options: 'La opción A radiografía baritada digestiva alta. La B ecografía abdominal dirigida a píloro. La C endoscopía alta con biopsia. La D colonoscopía. La E radiografía simple toracoabdominal. Selecciona el método de imagen ideal.',
+        options: 'La opción A radiografía baritada digestiva alta. La B ecografía abdominal dirigida a píloro. La C endoscopía alta con biopsia. La D colonoscopía. La E radiografía simple toracoabdominal. Selecciona el método de imagen ideal. Piénsalo.',
         answer: 'La respuesta correcta es la B. La ecografía abdominal es el examen de elección por su alta sensibilidad e inocuidad para confirmar estenosis pilórica.',
       },
     },
@@ -451,7 +451,7 @@ module.exports = {
       say: {
         stem: 'Varón de cuatro semanas con vómitos en proyectil no biliosos hambre voraz y alcalosis metabólica hipoclorémica con cloro en ochenta y seis.',
         question: '¿Cuál es el diagnóstico más probable y el examen de primera línea para confirmarlo?',
-        options: 'La opción A enfermedad por reflujo con peachemetría. La B estenosis hipertrófica del píloro con ecografía abdominal. La C invaginación con enema. La D atresia duodenal. La E alergia alimentaria. Analiza la tríada clínica.',
+        options: 'La opción A enfermedad por reflujo con peachemetría. La B estenosis hipertrófica del píloro con ecografía abdominal. La C invaginación con enema. La D atresia duodenal. La E alergia alimentaria. Analiza la tríada clínica. Piénsalo.',
         answer: 'La respuesta correcta es la B. La clínica y la alcalosis hipoclorémica confirman estenosis del píloro estudiándose con ecografía abdominal.',
       },
     },
@@ -474,7 +474,7 @@ module.exports = {
       say: {
         stem: 'Lactante de siete meses con cólicos paroxísticos encogimiento de piernas masa palpable en hipocondrio derecho y heces en jalea de grosella.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'La opción A disentería bacteriana. La B estenosis hipertrófica del píloro. La C invaginación intestinal o intususcepción. La D divertículo de Meckel indoloro. La E alergia a la proteína de leche. Identifica el abdomen agudo.',
+        options: 'La opción A disentería bacteriana. La B estenosis hipertrófica del píloro. La C invaginación intestinal o intususcepción. La D divertículo de Meckel indoloro. La E alergia a la proteína de leche. Identifica el abdomen agudo. Piénsalo.',
         answer: 'La respuesta correcta es la C. La tríada de crisis cólicas masa palpable en morcilla y deposición en jalea de grosella es patognomónica de invaginación intestinal.',
       },
     },
@@ -514,7 +514,7 @@ module.exports = {
             {
               t: 'El regurgitador feliz jamás recibe medicamentos',
               d: 'Regurgitaciones sin dolor con curva pondoestatural normal; medidas posturales exclusivas sin IBP',
-              say: 'El regurgitador feliz que sube de peso con normalidad jamás debe recibir medicamentos ni antiácidos. Nos vemos en la próxima clase para ingresar a la nefrourología pediátrica.',
+              say: 'El regurgitador feliz con curva de peso normal no requiere fármacos. Si te llevas una sola idea de hoy: en estenosis hipertrófica del píloro la prioridad antes de operar es corregir la alcalosis metabólica hipoclorémica con hidratación endovenosa. Nos vemos en la próxima clase.',
             },
           ],
         },

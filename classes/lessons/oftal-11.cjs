@@ -176,7 +176,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta representativa del banco de la especialidad, sin fecha del examen real, y que retoma la complicación tardía de esta clase. Una mujer de cincuenta y cinco años, hipertensa, tiene disminución progresiva de la visión del ojo izquierdo, y su fondo de ojo muestra hemorragias masivas en llama por los cuatro cuadrantes, venas muy dilatadas y exudados algodonosos. Tres meses después, vuelve a consultar por un dolor ocular insoportable, ojo rojo intenso y una presión intraocular muy elevada.',
         question: '¿Qué complicación ha desarrollado esta paciente?',
-        options: 'Las opciones: un glaucoma agudo por cierre angular primario, un glaucoma neovascular secundario a la isquemia retiniana, una endoftalmitis bacteriana, un desprendimiento de retina exudativo, o una uveítis anterior hipertensiva.',
+        options: 'Las opciones: un glaucoma agudo por cierre angular primario, un glaucoma neovascular secundario a la isquemia retiniana, una endoftalmitis bacteriana, un desprendimiento de retina exudativo, o una uveítis anterior hipertensiva. Piénsalo.',
         answer: 'Es la B. El cuadro inicial ya era una oclusión de vena central isquémica, con su imagen en tormenta retiniana. Esa isquemia liberó cantidades enormes de VEGF, que formó neovasos en el iris y el ángulo, bloqueando la malla trabecular. El resultado, a los tres meses, es el glaucoma de los cien días: doloroso, con ojo rojo y presión disparada. Por eso toda OVCR isquémica necesita vigilancia estricta de la presión intraocular.',
       },
     },

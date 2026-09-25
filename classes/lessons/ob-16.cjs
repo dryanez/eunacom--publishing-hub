@@ -298,7 +298,7 @@ module.exports = {
       say: {
         stem: 'Una paciente de cuarenta y una semanas ingresa para inducción de parto con cuello posterior, firme, cerrado y presentación flotante con Bishop de un punto.',
         question: '¿Cuál es la conducta de elección para iniciar la inducción del parto?',
-        options: 'La opción A propone infusión de oxitocina directa. La B maduración cervical previa con misoprostol vaginal o métodos mecánicos. La C amniotomía precoz. La D cesárea electiva. La E tocolíticos. Piénsalo bien.',
+        options: 'La opción A propone infusión de oxitocina directa. La B maduración cervical previa con misoprostol vaginal o métodos mecánicos. La C amniotomía precoz. La D cesárea electiva. La E tocolíticos. Piénsalo.',
         answer: 'La respuesta correcta es la B. Ante un score de Bishop desfavorable menor o igual a seis puntos, la conducta obligatoria es la maduración cervical previa con misoprostol o balón mecánico antes de oxitocina.',
       },
     },
@@ -321,7 +321,7 @@ module.exports = {
       say: {
         stem: 'Una primigesta de treinta y seis semanas presenta rotura de membranas confirmada con cuello posterior, duro y cerrado sin dilatación al examen obstétrico.',
         question: '¿Cuál es la conducta más adecuada en este caso?',
-        options: 'La opción A propone antibióticos y conducta expectante. La B inducir parto con misoprostol. La C realizar cesárea. La D inducir parto con oxitocina. La E perfil biofísico. Piénsalo bien.',
+        options: 'La opción A propone antibióticos y conducta expectante. La B inducir parto con misoprostol. La C realizar cesárea. La D inducir parto con oxitocina. La E perfil biofísico. Piénsalo.',
         answer: 'La respuesta correcta es la B. A las treinta y seis semanas la rotura de membranas exige interrupción, y al tener un cuello completamente inmaduro se induce con misoprostol para maduración cervical.',
       },
     },
@@ -384,7 +384,7 @@ module.exports = {
             {
               t: 'Tracción controlada con contratracción suprapúbica',
               d: 'Maniobra de Brandt-Andrews para desprender la placenta evitando la inversión uterina',
-              say: 'La tracción controlada del cordón con la maniobra de Brandt-Andrews y contratracción suprapúbica protege el fondo uterino de la inversión y garantiza un alumbramiento completo y seguro. Nos vemos en la próxima clase.',
+              say: 'La maniobra de Brandt-Andrews previene la inversión uterina en el alumbramiento. Si te llevas una sola idea de hoy: la oxitocina profiláctica administrada inmediatamente tras la salida del hombro anterior es la intervención más eficaz para prevenir la hemorragia postparto. Nos vemos en la próxima clase.',
             },
           ],
         },

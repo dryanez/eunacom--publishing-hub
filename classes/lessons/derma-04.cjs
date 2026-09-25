@@ -178,7 +178,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de diecinueve años que consulta por una zona sin cabello en la región occipital, que notó hace dos semanas. Al examen se ve una zona redondeada, de piel lisa, sin eritema ni descamación.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: lupus eritematoso cutáneo crónico, alopecia areata, alopecia androgénica, tricotilomanía, o tiña capitis.',
+        options: 'Las opciones: lupus eritematoso cutáneo crónico, alopecia areata, alopecia androgénica, tricotilomanía, o tiña capitis. Piénsalo.',
         answer: 'Es la B, alopecia areata. Una placa única, de aparición rápida, en un joven, con piel lisa y sin ningún signo inflamatorio, es el cuadro típico. El lupus discoide es cicatricial y de curso mucho más lento. La androgénica no da placas redondas de aparición súbita a esta edad. Y tanto la tricotilomanía como la tiña capitis suelen dejar pelos rotos o descamación, que aquí no se describen.',
       },
     },

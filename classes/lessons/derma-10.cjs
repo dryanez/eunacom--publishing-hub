@@ -193,7 +193,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Un paciente de veintisiete años tiene una placa eritematosa en la pierna e inicia cloxacilina endovenosa. Al quinto día, la lesión ha mejorado, pero aparece malestar general, fiebre y un exantema generalizado. Los exámenes muestran hematuria microscópica, veinte por ciento de eosinófilos en el hemograma, y una función renal alterada.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: glomerulonefritis postestreptocócica, púrpura trombocitopénico trombótico, vasculitis sistémica primaria, insuficiencia renal prerrenal, o nefritis intersticial.',
+        options: 'Las opciones: glomerulonefritis postestreptocócica, púrpura trombocitopénico trombótico, vasculitis sistémica primaria, insuficiencia renal prerrenal, o nefritis intersticial. Piénsalo.',
         answer: 'Es la E, nefritis intersticial. Esta pregunta muestra justamente lo que vimos hoy: el riñón como órgano blanco del DRESS. La fiebre y el exantema generalizado a los cinco días de un betalactámico, con una eosinofilia del veinte por ciento y deterioro renal, son la nefritis tubulointersticial secundaria a un Síndrome DRESS. La glomerulonefritis postestreptocócica no explicaría esta eosinofilia tan alta ligada al fármaco.',
       },
     },

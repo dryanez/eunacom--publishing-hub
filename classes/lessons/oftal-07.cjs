@@ -152,7 +152,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de cuarenta y dos años, con una tonometría que informa una presión intraocular de veintisiete. Tiene una excavación papilar de cero coma siete en el ojo derecho, y la gonioscopía muestra un ángulo abierto en todo el contorno del iris.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: retinopatía diabética, neuritis óptica, glaucoma crónico, coriorretinitis, o degeneración macular relacionada con la edad.',
+        options: 'Las opciones: retinopatía diabética, neuritis óptica, glaucoma crónico, coriorretinitis, o degeneración macular relacionada con la edad. Piénsalo.',
         answer: 'Es la C, glaucoma crónico. Fíjate que la pregunta te da la tríada completa: presión elevada, excavación aumentada, y la gonioscopía confirmando que el ángulo está abierto, no cerrado. Ese último dato es justo el que separa este cuadro del glaucoma agudo que vimos en la clase anterior.',
       },
     },
@@ -175,7 +175,7 @@ module.exports = {
       say: {
         stem: 'Y una última pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de sesenta años, diabético, hipertenso y dislipidémico, con disminución progresiva de la calidad de su visión. Al examen, el ojo se ve completamente normal, con reflejo rojo pupilar normal. Su agudeza visual está casi conservada. Pero la campimetría muestra defectos en los cuadrantes superiores del campo izquierdo y en los cuadrantes mediales del campo derecho.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: degeneración macular relacionada con la edad, tumor del lóbulo occipital, catarata, glaucoma crónico, o neuropatía óptica isquémica.',
+        options: 'Las opciones: degeneración macular relacionada con la edad, tumor del lóbulo occipital, catarata, glaucoma crónico, o neuropatía óptica isquémica. Piénsalo.',
         answer: 'Es la D, glaucoma crónico. La clave es que el examen del ojo es completamente normal y la visión está casi intacta, pero el campo visual ya está comprometido, de forma asimétrica entre los dos ojos. Eso descarta la catarata y la degeneración macular, que sí afectan la agudeza visual. Y un tumor occipital daría el mismo defecto en ambos ojos, no este patrón mezclado. Solo el glaucoma crónico explica un campo dañado con todo lo demás normal.',
       },
     },

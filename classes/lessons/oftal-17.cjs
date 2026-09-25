@@ -212,7 +212,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Una niña de cuatro años presenta un cuadro catarral, con abundante secreción nasal. Evoluciona con enrojecimiento y dolor alrededor del ojo derecho, junto con proptosis.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: celulitis preorbitaria, celulitis orbitaria, orbitopatía distiroidea, pseudotumor orbitario, o etmoiditis aguda.',
+        options: 'Las opciones son: celulitis preorbitaria, celulitis orbitaria, orbitopatía distiroidea, pseudotumor orbitario, o etmoiditis aguda. Piénsalo.',
         answer: 'Es la B. La palabra que resuelve la pregunta es proptosis: eso solo aparece cuando la infección ya cruzó el septum orbitario. Además, el cuadro catarral previo apunta al origen más frecuente, la sinusitis etmoidal. La celulitis preorbitaria es la trampa más tentadora, porque también da un párpado inflamado, pero por definición nunca da proptosis.',
       },
     },
@@ -235,7 +235,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta real, del EUNACOM de julio de dos mil trece, con otro punto de entrada. Un paciente de treinta y cinco años, con ojo rojo y secreción mucopurulenta desde hace un día, tratado con colirio de cloranfenicol cada ocho horas, evoluciona con más enrojecimiento, edema palpebral y quemosis.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal.',
+        options: 'Las opciones son: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal. Piénsalo.',
         answer: 'Es la B. Esto empezó como una conjuntivitis bacteriana simple, pero en vez de mejorar con el tratamiento, empeora con más edema y quemosis, la señal de que la infección atravesó el septum y se volvió celulitis orbitaria. La alergia al cloranfenicol es la trampa, pero es mucho menos frecuente y no explica esa progresión tan agresiva.',
       },
     },

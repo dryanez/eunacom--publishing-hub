@@ -147,7 +147,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil dieciocho. Paciente de setenta y ocho años, con disminución de la visión del ojo derecho, de cuatro meses de evolución. Al examen: caída de la agudeza visual de ese ojo, con menor visión del contraste y afectación del reflejo rojo pupilar.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: glaucoma crónico, catarata, degeneración macular relacionada con la edad, vicio de refracción, o atrofia del nervio óptico.',
+        options: 'Las opciones: glaucoma crónico, catarata, degeneración macular relacionada con la edad, vicio de refracción, o atrofia del nervio óptico. Piénsalo.',
         answer: 'Es la B, catarata. El dato que decide la pregunta es la afectación del reflejo rojo pupilar: eso solo lo da una opacidad del cristalino. El glaucoma no lo altera, y respeta la visión central hasta fases terminales; y un vicio de refracción tampoco afecta el rojo pupilar. La combinación de baja de contraste más rojo pupilar alterado es la firma de la catarata.',
       },
     },
@@ -170,7 +170,7 @@ module.exports = {
       say: {
         stem: 'Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de sesenta y ocho años, diabético tipo dos, con disminución progresiva de la visión del ojo derecho. La visión del ojo izquierdo es normal, y la del derecho está bastante más baja. Su reflejo rojo pupilar muestra una opacidad central, con forma de estrella.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: retinopatía diabética, edema macular, catarata, glaucoma, o hemorragia vítrea.',
+        options: 'Las opciones: retinopatía diabética, edema macular, catarata, glaucoma, o hemorragia vítrea. Piénsalo.',
         answer: 'Es la C, catarata. Este caso está armado para tentarte con la diabetes hacia una retinopatía, pero la retinopatía diabética no da síntomas directos ni altera el rojo pupilar. El glaucoma tampoco lo altera. El edema macular avanza en días, no de forma progresiva y lenta. Solo la opacidad del cristalino explica ese hallazgo central en el rojo pupilar.',
       },
     },
@@ -193,7 +193,7 @@ module.exports = {
       say: {
         stem: 'Cerremos con una última pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente con agudeza visual reducida en ambos ojos, que no mejora al mirar a través de un agujero estenopeico, con una refracción sin cambios.',
         question: '¿Cuál es la causa más probable de esta alteración visual?',
-        options: 'Las opciones: opacidad de medios como una catarata, error refractivo no corregido, ambliopía, glaucoma, o degeneración macular.',
+        options: 'Las opciones: opacidad de medios como una catarata, error refractivo no corregido, ambliopía, glaucoma, o degeneración macular. Piénsalo.',
         answer: 'Es la A, opacidad de medios. El agujero estenopeico es una prueba simple: si la visión mejora al mirar por el orificio, el problema es un error refractivo, algo que unos lentes corrigen. Si no mejora, como en este caso, el problema no es refractivo, sino una opacidad en el camino de la luz, o una patología retinal o neural. En un paciente de edad, la causa más probable de esa opacidad es la catarata.',
       },
     },

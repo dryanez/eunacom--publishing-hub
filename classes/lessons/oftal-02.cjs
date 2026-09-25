@@ -164,7 +164,7 @@ module.exports = {
       say: {
         stem: 'Pregunta real, del EUNACOM de julio de dos mil trece. Paciente de treinta y cinco años, con ojo rojo y secreción mucopurulenta de un día, al que se le indicó colirio de cloranfenicol cada ocho horas. Pero en vez de mejorar, evoluciona con más enrojecimiento, párpado hinchado y quemosis.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal.',
+        options: 'Las opciones: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal. Piénsalo.',
         answer: 'Es celulitis orbitaria. La clave de esta pregunta no es el diagnóstico inicial, que sí era una conjuntivitis bacteriana común, sino saber reconocer cuándo un cuadro que parecía simple se complicó. El párpado que se hincha y la quemosis que empeora con tratamiento correcto son la bandera roja de que la infección avanzó más allá de la conjuntiva. Guarda esta idea, porque la próxima clase de este bloque profundiza justo en esa diferencia.',
       },
     },
@@ -187,7 +187,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Un recién nacido de veinte días, de un embarazo no controlado y parto en casa, es traído por secreción ocular bilateral de cinco días. Al examen: eritema conjuntival y secreción escasa en ambos ojos.',
         question: '¿Cuál es el agente etiológico más probable?',
-        options: 'Las opciones: Neisseria meningitidis, Neisseria gonorrhoeae, Streptococcus pneumoniae, Streptococcus agalactiae, o Chlamydia trachomatis.',
+        options: 'Las opciones: Neisseria meningitidis, Neisseria gonorrhoeae, Streptococcus pneumoniae, Streptococcus agalactiae, o Chlamydia trachomatis. Piénsalo.',
         answer: 'Es Chlamydia trachomatis. Vimos que el gonococo da un cuadro violento en los primeros dos a cinco días, con secreción en chorro. Aquí el bebé tiene veinte días, y la secreción es escasa, no purulenta en chorro. Ese tiempo más largo y esa menor intensidad son justamente lo que distingue a la clamidia del gonococo en el recién nacido, y por eso se trata distinto: con azitromicina o eritromicina, en vez de ceftriaxona.',
       },
     },

@@ -376,7 +376,7 @@ module.exports = {
       say: {
         stem: 'Durante un parto con feto macrosómico se produce la salida de la cabeza que se retrae fuertemente contra el periné con impactación de hombros.',
         question: '¿Cuáles son las dos maniobras de primera línea recomendadas para resolver esta emergencia?',
-        options: 'La opción A propone Kristeller y tracción. La B maniobra de McRoberts combinada con presión suprapúbica de Mazzanti. La C maniobra de Zavanelli. La D fractura de clavículas. La E sinfisiotomía. Piénsalo bien.',
+        options: 'La opción A propone Kristeller y tracción. La B maniobra de McRoberts combinada con presión suprapúbica de Mazzanti. La C maniobra de Zavanelli. La D fractura de clavículas. La E sinfisiotomía. Piénsalo.',
         answer: 'La respuesta correcta es la B. La combinación de hiperflexión de muslos de McRoberts con presión suprapúbica de Mazzanti resuelve más del ochenta y cinco por ciento de las distocias de hombros.',
       },
     },
@@ -422,7 +422,7 @@ module.exports = {
       say: {
         stem: 'A siete centímetros de dilatación aparecen desaceleraciones tardías repetidas con nadir desfasado tras la contracción y variabilidad prácticamente ausente.',
         question: '¿Cuál es la conducta terapéutica indicada en esta paciente?',
-        options: 'La opción A propone esperar cuatro horas. La B aumentar oxitocina. La C reanimación intrauterina y cesárea de urgencia inmediata. La D antibióticos. La E anestesia epidural. Piénsalo bien.',
+        options: 'La opción A propone esperar cuatro horas. La B aumentar oxitocina. La C reanimación intrauterina y cesárea de urgencia inmediata. La D antibióticos. La E anestesia epidural. Piénsalo.',
         answer: 'La respuesta correcta es la C. Los DIP dos recurrentes con pérdida de variabilidad constituyen un trazado categoría tres que exige cesárea de urgencia bajo medidas de reanimación.',
       },
     },
@@ -445,7 +445,7 @@ module.exports = {
       say: {
         stem: 'Se consulta cuál es la complicación neurológica neonatal clásica derivada de aplicar tracción violenta sobre la cabeza fetal durante una distocia de hombros.',
         question: '¿Cuál es la lesión neurológica producida?',
-        options: 'La opción A propone parálisis facial de Bell. La B parálisis braquial superior de Erb-Duchenne de raíces cervical cinco y cervical seis. La C parálisis inferior de Klumpke. La D parálisis ciática. La E luxación cervical. Piénsalo bien.',
+        options: 'La opción A propone parálisis facial de Bell. La B parálisis braquial superior de Erb-Duchenne de raíces cervical cinco y cervical seis. La C parálisis inferior de Klumpke. La D parálisis ciática. La E luxación cervical. Piénsalo.',
         answer: 'La respuesta correcta es la B. La tracción forzada elonga las raíces cervical cinco y cervical seis del plexo braquial originando la parálisis de Erb-Duchenne con postura en propina de mozo.',
       },
     },
@@ -485,7 +485,7 @@ module.exports = {
             {
               t: 'DIP II tardíos indican asfixia y cesárea',
               d: 'Nadir desfasado tras la contracción refleja insuficiencia útero-placentaria severa',
-              say: 'Los DIP dos tardíos repetitivos asociados a pérdida de variabilidad son el signo más fidedigno de hipoxia fetal severa y acidosis, demandando cesárea de urgencia inmediata. Nos vemos en la próxima clase.',
+              say: 'Las desaceleraciones tardías repetidas con variabilidad mínima traducen acidosis hipóxica fetal. Si te llevas una sola idea de hoy: un trazado categoría tres con desaceleraciones tardías y pérdida de variabilidad exige interrupción inmediata por la vía más expedita. Nos vemos en la próxima clase.',
             },
           ],
         },

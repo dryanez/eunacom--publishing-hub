@@ -192,7 +192,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Niño de ocho años, con lesiones papulosas en manos, pies, axilas y espacios interdigitales, muy pruriginosas, que empeoran de noche. También están afectados su hermano y su madre.',
         question: '¿Cuál es el diagnóstico y el tratamiento?',
-        options: 'Las opciones: escabiosis con permetrina al cinco por ciento tópica y tratamiento a todos los contactos, dermatitis atópica, tinea pedis, erupción por contacto, o impétigo.',
+        options: 'Las opciones: escabiosis con permetrina al cinco por ciento tópica y tratamiento a todos los contactos, dermatitis atópica, tinea pedis, erupción por contacto, o impétigo. Piénsalo.',
         answer: 'Es la A. Prurito nocturno, distribución interdigital y axilar, y varios convivientes afectados: escabiosis. El tratamiento es permetrina al cinco por ciento en todo el cuerpo, tratando a todos los contactos al mismo tiempo, exactamente la misma regla que acabamos de repasar.',
       },
     },
@@ -215,7 +215,7 @@ module.exports = {
       say: {
         stem: 'Una pregunta real más, del EUNACOM de diciembre de dos mil diecisiete. Una preescolar de cuatro años tiene prurito en la cabeza. Al examen se ven abundantes liendres, a menos de tres centímetros del cuero cabelludo, sin visualizar piojos.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las opciones: ivermectina oral, permetrina tópica al uno por ciento, permetrina tópica al cinco por ciento, lindano tópico, o no tratar mientras no se vean piojos.',
+        options: 'Las opciones: ivermectina oral, permetrina tópica al uno por ciento, permetrina tópica al cinco por ciento, lindano tópico, o no tratar mientras no se vean piojos. Piénsalo.',
         answer: 'Es la B. Liendres tan cerca del cuero cabelludo significan que la infestación está activa, aunque no veas al piojo adulto. Y la trampa está en la concentración: la pediculosis se trata con permetrina al uno por ciento, no al cinco por ciento, que es la que usamos en la escabiosis.',
       },
     },

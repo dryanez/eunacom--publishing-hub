@@ -302,7 +302,7 @@ module.exports = {
       say: {
         stem: 'Mujer de cincuenta y un años histerectomizada hace tres años que consulta por bochornos intensos e insomnio en ventana de oportunidad sin contraindicaciones.',
         question: '¿Cuál es el esquema de Terapia de Reemplazo Hormonal de elección para esta paciente?',
-        options: 'La opción A propone estrógenos solos en monoterapia oral o transdérmica. La B estrógenos combinados con progesterona micronizada. La C progestágenos solos. La D moduladores androgénicos. La E contraindicación absoluta. Piénsalo bien.',
+        options: 'La opción A propone estrógenos solos en monoterapia oral o transdérmica. La B estrógenos combinados con progesterona micronizada. La C progestágenos solos. La D moduladores androgénicos. La E contraindicación absoluta. Piénsalo.',
         answer: 'La respuesta correcta es la A. Al no tener útero no existe riesgo de cáncer endometrial, por lo que se indican estrógenos puros sin asociar progestágenos.',
       },
     },
@@ -325,7 +325,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre los límites de seguridad y contraindicaciones absolutas mayores de la terapia de reemplazo hormonal sistémica en la mujer climatérica.',
         question: '¿Cuál de las siguientes condiciones clínicas constituye una contraindicación formal absoluta para prescribir terapia hormonal sistémica?',
-        options: 'La opción A propone antecedente personal de cáncer de mama ductal infiltrante. La B osteoporosis con t score de menos dos coma ocho. La C atrofia vulvovaginal. La D menopausia quirúrgica menor a cuarenta y cinco años. La E sofocos moderados en mujer sana. Piénsalo bien.',
+        options: 'La opción A propone antecedente personal de cáncer de mama ductal infiltrante. La B osteoporosis con t score de menos dos coma ocho. La C atrofia vulvovaginal. La D menopausia quirúrgica menor a cuarenta y cinco años. La E sofocos moderados en mujer sana. Piénsalo.',
         answer: 'La respuesta correcta es la A. El antecedente de cáncer de mama es una contraindicación absoluta para cualquier terapia hormonal sistémica.',
       },
     },
@@ -365,7 +365,7 @@ module.exports = {
             {
               t: 'Estrógenos tópicos locales en atrofia pura',
               d: 'Estriol o promestrieno vaginal seguros para tratar dispareunia y sequedad sin efecto sistémico',
-              say: 'Para la atrofia genital aislada prescribimos estrógenos locales tópicos como estriol, que curan la dispareunia sin absorción sistémica apreciable. Nos vemos en la próxima clase.',
+              say: 'Los estrógenos tópicos locales alivian el síndrome genitourinario sin riesgo sistémico. Si te llevas una sola idea de hoy: la terapia hormonal sistémica en mujeres con útero intacto exige asociar progestágenos a los estrógenos para prevenir la hiperplasia y cáncer endometrial. Nos vemos en la próxima clase.',
             },
           ],
         },

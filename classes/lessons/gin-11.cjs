@@ -438,7 +438,7 @@ module.exports = {
       say: {
         stem: 'Joven de veintidós años con dolor hipogástrico, dolor a la movilización cervical y dolor anexial bilateral sin colecciones ecográficas, en buenas condiciones generales.',
         question: '¿Cuál es el esquema farmacológico ambulatorio de elección indicado por las guías clínicas para esta paciente?',
-        options: 'La opción A propone ciprofloxacino oral en monoterapia. La B ceftriaxona intramuscular en dosis única más doxiciclina y metronidazol oral por catorce días. La C amoxicilina con ácido clavulánico. La D metronidazol en dosis única. La E gentamicina. Piénsalo bien.',
+        options: 'La opción A propone ciprofloxacino oral en monoterapia. La B ceftriaxona intramuscular en dosis única más doxiciclina y metronidazol oral por catorce días. La C amoxicilina con ácido clavulánico. La D metronidazol en dosis única. La E gentamicina. Piénsalo.',
         answer: 'La respuesta correcta es la B. Se trata de una infección pélvica estadio uno de Monif que requiere triple cobertura con ceftriaxona, doxiciclina y metronidazol por catorce días.',
       },
     },
@@ -461,7 +461,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la indicación médica indiscutible de hospitalización obligatoria en una paciente con diagnóstico de enfermedad pélvica inflamatoria.',
         question: '¿En cuál de las siguientes situaciones clínicas la paciente con infección pélvica debe ser obligatoriamente hospitalizada para recibir antibióticos endovenosos?',
-        options: 'La opción A propone paciente joven con estadio uno y buena tolerancia. La B presencia de absceso tubo-ovárico en ecografía. La C antecedente previo resuelto. La D cultivo positivo para ureaplasma. La E negativa de la pareja a tratarse. Piénsalo bien.',
+        options: 'La opción A propone paciente joven con estadio uno y buena tolerancia. La B presencia de absceso tubo-ovárico en ecografía. La C antecedente previo resuelto. La D cultivo positivo para ureaplasma. La E negativa de la pareja a tratarse. Piénsalo.',
         answer: 'La respuesta correcta es la B. El hallazgo de un absceso tubo-ovárico en el estadio tres de Monif impone la hospitalización inmediata para antibioticoterapia intravenosa de alta potencia.',
       },
     },
@@ -484,7 +484,7 @@ module.exports = {
       say: {
         stem: 'Mujer de veinticinco años con infección pélvica que agrega dolor en hipocondrio derecho pleurítico y adherencias en cuerdas de violín entre hígado y pared abdominal en laparoscopía.',
         question: '¿Cuál es el diagnóstico de esta complicación clínica clásica?',
-        options: 'La opción A propone síndrome de Fitz-Hugh-Curtis o perihepatitis. La B hepatitis autoinmune. La C síndrome de Budd-Chiari. La D absceso hepático amebiano. La E pileflebitis de vena porta. Piénsalo bien.',
+        options: 'La opción A propone síndrome de Fitz-Hugh-Curtis o perihepatitis. La B hepatitis autoinmune. La C síndrome de Budd-Chiari. La D absceso hepático amebiano. La E pileflebitis de vena porta. Piénsalo.',
         answer: 'La respuesta correcta es la A. Las adherencias perihepáticas en cuerdas de violín asociadas a dolor pélvico son patognomónicas del síndrome de Fitz-Hugh-Curtis.',
       },
     },
@@ -507,7 +507,7 @@ module.exports = {
       say: {
         stem: 'Paciente con absceso tubo-ovárico hospitalizada que presenta súbitamente dolor hiperagudo generalizado, abdomen en tabla, hipotensión de ochenta con cuarenta y shock séptico.',
         question: '¿Cuál es el diagnóstico y la conducta médica inmediata que salva la vida de la paciente?',
-        options: 'La opción A propone apendicitis con colonoscopía. La B rotura de absceso tubo-ovárico con shock séptico y laparotomía exploradora de urgencia en pabellón. La C embolia pulmonar. La D conducta expectante. La E hemorragia digestiva. Piénsalo bien.',
+        options: 'La opción A propone apendicitis con colonoscopía. La B rotura de absceso tubo-ovárico con shock séptico y laparotomía exploradora de urgencia en pabellón. La C embolia pulmonar. La D conducta expectante. La E hemorragia digestiva. Piénsalo.',
         answer: 'La respuesta correcta es la B. La rotura de un absceso tubo-ovárico produce peritonitis purulenta masiva y shock séptico que exige laparotomía exploradora inmediata.',
       },
     },
@@ -564,7 +564,7 @@ module.exports = {
             {
               t: 'Síndrome de Fitz-Hugh-Curtis',
               d: 'Perihepatitis con adherencias en cuerdas de violín que cura con el esquema antimicrobiano',
-              say: 'Recordemos el síndrome de Fitz-Hugh-Curtis con sus típicas adherencias perihepáticas en cuerdas de violín que responde a los antibióticos de la infección pélvica. Nos vemos en la próxima clase.',
+              say: 'Las adherencias en cuerda de violín reflejan una infección pélvica previa. Si te llevas una sola idea de hoy: el dolor pélvico crónico requiere un enfoque multidisciplinario, descartando endometriosis, adenomiosis y síndrome miofascial antes de cualquier cirugía. Nos vemos en la próxima clase.',
             },
           ],
         },

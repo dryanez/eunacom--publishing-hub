@@ -302,7 +302,7 @@ module.exports = {
       say: {
         stem: 'Mujer de treinta y un años con absceso fluctuante y caliente de cinco centímetros en glándula de Bartolino izquierda que le impide sentarse.',
         question: '¿Cuál es el procedimiento quirúrgico de elección para resolver el cuadro y prevenir la recidiva?',
-        options: 'La opción A propone punción con aguja fina. La B incisión drenaje y marsupialización o catéter de Word. La C vulvectomía simple. La D antibióticos exclusivos. La E nitrato de plata. Piénsalo bien.',
+        options: 'La opción A propone punción con aguja fina. La B incisión drenaje y marsupialización o catéter de Word. La C vulvectomía simple. La D antibióticos exclusivos. La E nitrato de plata. Piénsalo.',
         answer: 'La respuesta correcta es la B. El tratamiento de elección indiscutible es la marsupialización de la glándula o catéter de Word para garantizar un drenaje permanente.',
       },
     },
@@ -325,7 +325,7 @@ module.exports = {
       say: {
         stem: 'Mujer de sesenta y cuatro años con prurito vulvar crónico de ocho meses, placas blanquecinas en papel apergaminado en figura de ocho y borramiento de labios menores.',
         question: '¿Cuál es el diagnóstico clínico y el fármaco tópico de primera línea de elección?',
-        options: 'La opción A propone candidiasis crónica con clotrimazol. La B liquen escleroso vulvar con ungüento de propionato de clobetasol. La C condilomas con imiquimod. La D herpes con aciclovir. La E psoriasis con ácido salicílico. Piénsalo bien.',
+        options: 'La opción A propone candidiasis crónica con clotrimazol. La B liquen escleroso vulvar con ungüento de propionato de clobetasol. La C condilomas con imiquimod. La D herpes con aciclovir. La E psoriasis con ácido salicílico. Piénsalo.',
         answer: 'La respuesta correcta es la B. Las placas nacaradas en ocho con prurito crónico corresponden a liquen escleroso y se tratan con clobetasol ultrapotente.',
       },
     },
@@ -365,7 +365,7 @@ module.exports = {
             {
               t: 'Control estricto por riesgo neoplásico',
               d: 'Riesgo de tres a cinco por ciento de cáncer epidermoide; biopsia ante cualquier lesión engrosada',
-              say: 'Recordemos su potencial de transformación en cáncer epidermoide de vulva en hasta un cinco por ciento, obligando a biopsiar cualquier placa sospechosa. Nos vemos en la próxima clase.',
+              say: 'El liquen escleroso exige biopsia ante lesiones sospechosas por riesgo de malignidad. Si te llevas una sola idea de hoy: el liquen escleroso vulvar se trata con corticoides tópicos de alta potencia como clobetasol y requiere seguimiento por riesgo de carcinoma escamoso. Nos vemos en la próxima clase.',
             },
           ],
         },

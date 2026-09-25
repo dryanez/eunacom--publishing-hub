@@ -456,7 +456,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre el momento normado por el ministerio para la toma de sangre de talón en papel filtro y el requisito indispensable para fenilcetonuria.',
         question: '¿Cuál es el momento exacto y el requisito biológico necesario?',
-        options: 'La opción A en cordón umbilical. La B entre las cuarenta y cuarenta y ocho horas habiendo recibido alimentación láctea por al menos veinticuatro a cuarenta y ocho horas. La C a los treinta días. La D a las doce horas en ayunas. La E solo en sintomáticos. Recuerda la norma técnica nacional.',
+        options: 'La opción A en cordón umbilical. La B entre las cuarenta y cuarenta y ocho horas habiendo recibido alimentación láctea por al menos veinticuatro a cuarenta y ocho horas. La C a los treinta días. La D a las doce horas en ayunas. La E solo en sintomáticos. Recuerda la norma técnica nacional. Piénsalo.',
         answer: 'La respuesta correcta es la B. La muestra se toma entre las cuarenta y cuarenta y ocho horas con alimentación láctea previa de al menos un día.',
       },
     },
@@ -479,7 +479,7 @@ module.exports = {
       say: {
         stem: 'Lactante de dos meses sin tamizaje con macroglosia llanto ronco fontanela posterior amplia y hernia umbilical con sospecha de hipotiroidismo.',
         question: '¿Cuál es el examen confirmatorio de elección y el tratamiento que debe iniciarse de inmediato?',
-        options: 'La opción A ecografía de tiroides y yodo. La B tirotropina y tiroxina libre en sangre venosa con inicio de levotiroxina oral a diez a quince microgramos por kilo día. La C anticuerpos en saliva y metimazol. La D cintigrama antes de tratar. La E punción con aguja fina. Prioriza la confirmación funcional.',
+        options: 'La opción A ecografía de tiroides y yodo. La B tirotropina y tiroxina libre en sangre venosa con inicio de levotiroxina oral a diez a quince microgramos por kilo día. La C anticuerpos en saliva y metimazol. La D cintigrama antes de tratar. La E punción con aguja fina. Prioriza la confirmación funcional. Piénsalo.',
         answer: 'La respuesta correcta es la B. Se confirma con tirotropina y tiroxina libre en sangre venosa y se inicia de inmediato levotiroxina sódica oral.',
       },
     },
@@ -519,7 +519,7 @@ module.exports = {
             {
               t: 'Regla del 1, 3 y 6 meses en tamizaje auditivo',
               d: 'Pesquisa al mes con EOA, confirmación diagnóstica a los 3 meses y rehabilitación con audífonos a los 6 meses',
-              say: 'Apliquen la regla del uno, tres y seis meses en audición: pesquisa al mes, diagnóstico a los tres y tratamiento a los seis meses.',
+              say: 'En audición recuerden la regla de uno, tres y seis meses. Si te llevas una sola idea de hoy: el tamizaje neonatal en papel de filtro para fenilcetonuria e hipotiroidismo se toma obligatoriamente a las cuarenta horas de vida para evitar falsos negativos. Nos vemos en la próxima clase.',
             },
           ],
         },

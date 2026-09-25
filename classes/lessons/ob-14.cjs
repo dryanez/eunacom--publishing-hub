@@ -385,7 +385,7 @@ module.exports = {
       say: {
         stem: 'Una gestante de treinta y una semanas consulta por pérdida de líquido claro con especuloscopía confirmatoria, afebril y sin dolor uterino ni dinámica.',
         question: '¿Cuál es la conducta médica más apropiada a seguir?',
-        options: 'La opción A propone tacto vaginal e inducción. La B hospitalizar en ARO con betametasona y antibióticos de latencia. La C manejo ambulatorio. La D cesárea de urgencia. La E tocolisis por catorce días. Piénsalo bien.',
+        options: 'La opción A propone tacto vaginal e inducción. La B hospitalizar en ARO con betametasona y antibióticos de latencia. La C manejo ambulatorio. La D cesárea de urgencia. La E tocolisis por catorce días. Piénsalo.',
         answer: 'La respuesta correcta es la B. Entre las veinticuatro y treinta y tres semanas con seis días se hospitaliza para manejo expectante con betametasona intramuscular y antibióticos de latencia.',
       },
     },
@@ -408,7 +408,7 @@ module.exports = {
       say: {
         stem: 'Una gestante de treinta semanas con rotura de membranas presenta fiebre de treinta y ocho punto seis, taquicardia materna y fetal, útero muy doloroso y líquido purulento fétido.',
         question: '¿Cuál es la conducta médica inmediata e impostergable?',
-        options: 'La opción A propone tocolíticos y esperar. La B ampicilina más gentamicina e interrupción inmediata del embarazo. La C corticoides y esperar dos días. La D amniocentesis. La E sulfato de magnesio expectante. Reflexiona.',
+        options: 'La opción A propone tocolíticos y esperar. La B ampicilina más gentamicina e interrupción inmediata del embarazo. La C corticoides y esperar dos días. La D amniocentesis. La E sulfato de magnesio expectante. Reflexiona. Piénsalo.',
         answer: 'La respuesta correcta es la B. La corioamnionitis clínica exige interrupción inmediata del embarazo bajo cobertura antibiótica endovenosa con ampicilina y gentamicina sin esperar maduración pulmonar.',
       },
     },
@@ -431,7 +431,7 @@ module.exports = {
       say: {
         stem: 'Una gestante de treinta y seis semanas consulta por rotura de membranas de ocho horas de evolución, afebril, con cuello favorable y monitor reactivo.',
         question: '¿Cuál es la conducta indicada según las guías clínicas del MINSAL?',
-        options: 'La opción A propone inducir el parto de inmediato con oxitocina. La B betametasona y reposo. La C antibióticos de latencia ambulatorios. La D tocolisis con nifedipino. La E cesárea a la semana treinta y nueve. Piénsalo bien.',
+        options: 'La opción A propone inducir el parto de inmediato con oxitocina. La B betametasona y reposo. La C antibióticos de latencia ambulatorios. La D tocolisis con nifedipino. La E cesárea a la semana treinta y nueve. Piénsalo.',
         answer: 'La respuesta correcta es la A. Cumplidas las treinta y cuatro semanas de gestación, la conducta de consenso ante rotura de membranas es la inducción expedita del parto.',
       },
     },
@@ -454,7 +454,7 @@ module.exports = {
       say: {
         stem: 'Se consulta cuál examen o maniobra médica está formalmente contraindicado como método diagnóstico inicial en sospecha de rotura prematura de membranas sin trabajo de parto.',
         question: '¿Cuál es la maniobra formalmente proscrita?',
-        options: 'La opción A propone especuloscopía estéril. La B tacto vaginal digital. La C cristalización en hoja de helecho. La D papel de nitrazina. La E detección de microglobulina placentaria. Piénsalo bien.',
+        options: 'La opción A propone especuloscopía estéril. La B tacto vaginal digital. La C cristalización en hoja de helecho. La D papel de nitrazina. La E detección de microglobulina placentaria. Piénsalo.',
         answer: 'La respuesta correcta es la B. El tacto vaginal digital está terminantemente proscrito porque arrastra microorganismos patógenos y multiplica por cuatro la tasa de infección intraamniótica.',
       },
     },
@@ -494,7 +494,7 @@ module.exports = {
             {
               t: 'Corioamnionitis: interrupción inmediata con ampicilina y gentamicina',
               d: 'Fiebre más criterios de Gibbs obligan a evacuar el útero sin demora',
-              say: 'Ante la presencia de corioamnionitis clínica diagnosticada por criterios de Gibbs, se inicia antibioticoterapia endovenosa con ampicilina y gentamicina y se procede a la interrupción inmediata del embarazo sin tocolíticos. Nos vemos en la próxima clase.',
+              say: 'La sospecha de corioamnionitis obliga a interrumpir la gestación de inmediato. Si te llevas una sola idea de hoy: en la rotura prematura de membranas pretérmino el manejo es expectante con antibióticos de latencia, pero la infección intraamniótica obliga a interrumpir de inmediato. Nos vemos en la próxima clase.',
             },
           ],
         },

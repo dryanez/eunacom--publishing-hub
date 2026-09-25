@@ -163,7 +163,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Un paciente consulta porque hace veinte minutos le saltó una solución de soda cáustica en la cara, que le entró a los ojos, con dolor intenso y dificultad para ver. Al examen tiene ojo rojo profundo, córneas opacas, y con el ojo derecho solo cuenta dedos, mientras que con el izquierdo tiene una agudeza visual de veinte ochenta.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las opciones son: ungüento antibiótico y parche ocular, lavado con suero fisiológico abundante por treinta minutos, hielo local, corticoides tópicos, o analgésicos.',
+        options: 'Las opciones son: ungüento antibiótico y parche ocular, lavado con suero fisiológico abundante por treinta minutos, hielo local, corticoides tópicos, o analgésicos. Piénsalo.',
         answer: 'Es la B. Aunque el daño visual ya se ve severo, con córneas opacas y visión de cuenta dedos, la conducta sigue siendo la misma: lavado abundante durante treinta minutos. No importa cuán grave se vea el ojo, primero se lava. El parche ocular aquí no es error, porque no hay sospecha de perforación; se evita solo cuando sí la hay, para no adherir el párpado a un globo abierto.',
       },
     },

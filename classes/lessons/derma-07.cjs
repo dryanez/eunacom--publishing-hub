@@ -145,7 +145,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Una adolescente de quince años presenta lesiones en ambas orejas, que se extienden hasta el cuello. Tiene el antecedente de haberse hecho piercings hace una semana.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: celulitis, erisipela, dermatitis de contacto alérgica, dermatitis de contacto irritativa, o piodermitis superficial.',
+        options: 'Las opciones: celulitis, erisipela, dermatitis de contacto alérgica, dermatitis de contacto irritativa, o piodermitis superficial. Piénsalo.',
         answer: 'Es la C, dermatitis de contacto alérgica. La lesión aparece justo después de colocarse un piercing, y se extiende más allá del sitio del aro hacia el cuello, que es exactamente el signo que distingue a la alérgica de la irritativa: sobrepasar la zona de contacto. El alérgeno más probable es el níquel del piercing. La celulitis es poco probable, porque el pabellón auricular casi no tiene tejido celular subcutáneo.',
       },
     },
@@ -168,7 +168,7 @@ module.exports = {
       say: {
         stem: 'Y una tercera pregunta real, también de julio de dos mil dieciséis. Un recién nacido de veinte días presenta lesiones eritematosas, con descamación en la cabeza y la zona interciliar, de aspecto amarillo y oleoso. Está de buen aspecto y ha subido de peso normalmente.',
         question: '¿Cuál es la indicación más adecuada?',
-        options: 'Las opciones: fórmula con proteína hidrolizada, crema de betametasona tópica, crema de clotrimazol tópico, vaselina tópica, o antibióticos tópicos.',
+        options: 'Las opciones: fórmula con proteína hidrolizada, crema de betametasona tópica, crema de clotrimazol tópico, vaselina tópica, o antibióticos tópicos. Piénsalo.',
         answer: 'Es la D, vaselina tópica. Es una dermatitis seborreica del lactante, la costra láctea, un cuadro benigno y autolimitado en un niño que además está sano y sube de peso. En los adultos, por ser causada por un hongo, se usan antimicóticos tópicos e incluso corticoides como segunda línea, pero en los niños se prefiere no hacer nada, o solo aplicar vaselina para ayudar a remover la descamación.',
       },
     },

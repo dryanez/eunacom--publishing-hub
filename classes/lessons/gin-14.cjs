@@ -386,7 +386,7 @@ module.exports = {
       say: {
         stem: 'Mujer de cincuenta y dos años con mamografía de tamizaje que muestra nódulo espiculado con microcalcificaciones pleomórficas catalogado como BI-RADS cuatro.',
         question: '¿Cuál es la conducta diagnóstica de elección que debe indicarse de inmediato?',
-        options: 'La opción A propone control en seis meses. La B biopsia con aguja gruesa Core Biopsy guiada por imágenes. La C mastectomía radical de urgencia. La D punción con aguja fina. La E tamoxifeno empírico. Piénsalo bien.',
+        options: 'La opción A propone control en seis meses. La B biopsia con aguja gruesa Core Biopsy guiada por imágenes. La C mastectomía radical de urgencia. La D punción con aguja fina. La E tamoxifeno empírico. Piénsalo.',
         answer: 'La respuesta correcta es la B. Toda lesión BI-RADS cuatro o cinco debe biopsiarse con aguja gruesa bajo visión ecográfica o estereotaxia para obtener diagnóstico histológico.',
       },
     },
@@ -409,7 +409,7 @@ module.exports = {
       say: {
         stem: 'Mujer de cincuenta y ocho años sometida a tumorectomía conservadora con bordes libres por carcinoma ductal invasor de dieciocho milímetros.',
         question: '¿Cuál de las siguientes terapias adyuvantes locales es estrictamente obligatoria tras una cirugía conservadora de mama?',
-        options: 'La opción A propone radioterapia externa sobre la glándula mamaria restante. La B metotrexato intratecal. La C vaciamiento axilar bilateral. La D interferón intralesional. La E ninguna terapia adicional. Piénsalo bien.',
+        options: 'La opción A propone radioterapia externa sobre la glándula mamaria restante. La B metotrexato intratecal. La C vaciamiento axilar bilateral. La D interferón intralesional. La E ninguna terapia adicional. Piénsalo.',
         answer: 'La respuesta correcta es la A. Toda cirugía conservadora de mama exige radioterapia adyuvante complementaria para reducir la tasa de recidiva tumoral local.',
       },
     },
@@ -432,7 +432,7 @@ module.exports = {
       say: {
         stem: 'Mujer de cuarenta y seis años no lactante con salida espontánea de secreción serohemática unilateral por un único poro del pezón sin masas palpables.',
         question: '¿Cuál es la causa etiológica benigna más frecuente de este tipo de telorrea?',
-        options: 'La opción A propone fibroadenoma mamario simple. La B papiloma intraductal solitario. La C prolactinoma hipofisario. La D mastitis granulomatosa. La E ectasia ductal. Piénsalo bien.',
+        options: 'La opción A propone fibroadenoma mamario simple. La B papiloma intraductal solitario. La C prolactinoma hipofisario. La D mastitis granulomatosa. La E ectasia ductal. Piénsalo.',
         answer: 'La respuesta correcta es la B. La telorrea serohemática unicanalicular espontánea es producida de forma preponderante por un papiloma intraductal benigno.',
       },
     },
@@ -455,7 +455,7 @@ module.exports = {
       say: {
         stem: 'Paciente de cuarenta y dos años con cáncer mamario invasor cuyos receptores de estrógeno, progesterona y HER dos resultan completamente negativos.',
         question: '¿A qué subtipo molecular corresponde este tumor y cuál es su implicancia terapéutica?',
-        options: 'La opción A propone Luminal A sensible a tamoxifeno. La B subtipo Triple Negativo que no responde a hormonoterapia ni a trastuzumab requiriendo quimioterapia. La C HER dos enriquecido. La D Luminal B. La E carcinoma basocelular. Piénsalo bien.',
+        options: 'La opción A propone Luminal A sensible a tamoxifeno. La B subtipo Triple Negativo que no responde a hormonoterapia ni a trastuzumab requiriendo quimioterapia. La C HER dos enriquecido. La D Luminal B. La E carcinoma basocelular. Piénsalo.',
         answer: 'La respuesta correcta es la B. El cáncer triple negativo carece de receptores hormonales y dianas de HER dos, basándose exclusivamente en quimioterapia citotóxica.',
       },
     },
@@ -512,7 +512,7 @@ module.exports = {
             {
               t: 'Subtipo Triple Negativo sin dianas hormonales',
               d: 'RE, RP y HER2 negativos; no responde a tamoxifeno ni trastuzumab; se trata con quimioterapia',
-              say: 'El cáncer triple negativo carece de dianas moleculares, no responde a hormonoterapia y exige tratamiento con quimioterapia citotóxica combinada. Nos vemos en la próxima clase.',
+              say: 'El fenotipo triple negativo requiere quimioterapia citotóxica sistémica. Si te llevas una sola idea de hoy: la mamografía anual a partir de los cincuenta años es el único tamizaje que reduce la mortalidad por cáncer de mama en la población general. Nos vemos en la próxima clase.',
             },
           ],
         },

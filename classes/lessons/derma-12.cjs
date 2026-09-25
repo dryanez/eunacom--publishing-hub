@@ -148,7 +148,7 @@ module.exports = {
       say: {
         stem: 'Vamos con una pregunta del banco. Un adulto joven de veinticuatro años consulta por lesiones redondeadas en el dorso de ambas manos y antebrazos, con un centro purpúrico violáceo, un anillo pálido edematoso y un halo rojo externo. Tuvo un herpes labial hace una semana. No se palpan adenopatías y el signo de Nikolsky es negativo.',
         question: '¿Cuál es el diagnóstico más probable y el agente causal más frecuente?',
-        options: 'Las opciones: Stevens-Johnson por paracetamol, eritema multiforme por virus herpes simple, urticaria multiforme por Epstein-Barr, penfigoide por radiación ultravioleta, o lupus discoide por fotosensibilidad.',
+        options: 'Las opciones: Stevens-Johnson por paracetamol, eritema multiforme por virus herpes simple, urticaria multiforme por Epstein-Barr, penfigoide por radiación ultravioleta, o lupus discoide por fotosensibilidad. Piénsalo.',
         answer: 'Es la B. La diana de tres anillos en zonas acrales, el Nikolsky negativo, y el herpes labial una semana antes, arman el cuadro típico de eritema multiforme por virus herpes simple, la causa de más del setenta por ciento de los casos. Stevens-Johnson tendría dianas atípicas de dos anillos y Nikolsky positivo. La urticaria multiforme daría habones evanescentes, no dianas fijas de tres anillos.',
       },
     },

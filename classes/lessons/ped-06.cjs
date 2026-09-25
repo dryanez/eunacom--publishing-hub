@@ -470,7 +470,7 @@ module.exports = {
       say: {
         stem: 'Niño de dieciocho meses con laringitis grado dos que recibe dexametasona y adrenalina racémica presentando rápida mejoría con desaparición del estridor.',
         question: '¿Cuál es la conducta médica correcta respecto al destino del paciente?',
-        options: 'La opción A alta inmediata con amoxicilina. La B mantener en observación en urgencia por un mínimo de dos horas para descartar efecto rebote. La C cuidados intensivos. La D adrenalina reglada cada media hora. La E alta con salbutamol. Recuerda la farmacocinética de la adrenalina.',
+        options: 'La opción A alta inmediata con amoxicilina. La B mantener en observación en urgencia por un mínimo de dos horas para descartar efecto rebote. La C cuidados intensivos. La D adrenalina reglada cada media hora. La E alta con salbutamol. Recuerda la farmacocinética de la adrenalina. Piénsalo.',
         answer: 'La respuesta correcta es la B. La adrenalina puede provocar efecto rebote a las dos horas por lo que la observación durante ese período es una regla de oro.',
       },
     },
@@ -493,7 +493,7 @@ module.exports = {
       say: {
         stem: 'Lactante de catorce meses con disfonía y tos perruna que presenta estridor inspiratorio únicamente al llorar sin estridor ni tiraje en reposo.',
         question: '¿Cuál es el diagnóstico de severidad y el tratamiento de elección?',
-        options: 'La opción A plantea grado dos con adrenalina y hospitalización. La B laringitis grado uno con dexametasona oral en dosis única y manejo domiciliario. La C manejo expectante sin medicamentos. La D epiglotitis. La E bronquiolitis con salbutamol. Analiza el grado clínico.',
+        options: 'La opción A plantea grado dos con adrenalina y hospitalización. La B laringitis grado uno con dexametasona oral en dosis única y manejo domiciliario. La C manejo expectante sin medicamentos. La D epiglotitis. La E bronquiolitis con salbutamol. Analiza el grado clínico. Piénsalo.',
         answer: 'La respuesta correcta es la B. El estridor que solo aparece con llanto define grado uno leve y se trata con dexametasona oral en dosis única.',
       },
     },
@@ -516,7 +516,7 @@ module.exports = {
       say: {
         stem: 'Niño de tres años séptico con fiebre muy alta disfagia con sialorrea voz en papa caliente y posición en trípode sin toser.',
         question: '¿Cuál es la sospecha diagnóstica y la principal contraindicación en el box de urgencias?',
-        options: 'La opción A propone croup viral contraindicando adrenalina. La B epiglotitis aguda estando formalmente contraindicado examinar la orofaringe con bajalenguas. La C laringomalacia. La D absceso periamigdalino. La E cuerpo extraño. Prioriza la seguridad de la vía aérea.',
+        options: 'La opción A propone croup viral contraindicando adrenalina. La B epiglotitis aguda estando formalmente contraindicado examinar la orofaringe con bajalenguas. La C laringomalacia. La D absceso periamigdalino. La E cuerpo extraño. Prioriza la seguridad de la vía aérea. Piénsalo.',
         answer: 'La respuesta correcta es la B. Es una epiglotitis aguda y está terminantemente prohibido usar bajalenguas en el box por riesgo inminente de laringoespasmo reflejo fatal.',
       },
     },
@@ -538,7 +538,7 @@ module.exports = {
       say: {
         stem: 'Pregunta directa sobre el agente causal predominante en la laringitis aguda obstructiva pediátrica.',
         question: '¿Cuál es el principal patógeno responsable del croup viral?',
-        options: 'La opción A propone neumococo. La B virus Parainfluenza tipo uno. La C Haemophilus influenzae b. La D herpes simple. La E Mycoplasma pneumoniae. Identifica el virus respiratorio hegemónico.',
+        options: 'La opción A propone neumococo. La B virus Parainfluenza tipo uno. La C Haemophilus influenzae b. La D herpes simple. La E Mycoplasma pneumoniae. Identifica el virus respiratorio hegemónico. Piénsalo.',
         answer: 'La respuesta correcta es la B. El virus Parainfluenza tipo uno causa más del setenta por ciento de los casos de laringitis obstructiva en niños.',
       },
     },
@@ -578,7 +578,7 @@ module.exports = {
             {
               t: 'Croup refractario sugiere traqueítis bacteriana',
               d: 'Falta de respuesta a adrenalina más fiebre elevada obliga a sospechar infección por Staphylococcus aureus',
-              say: 'Si un croup no mejora tras adrenalina y agrega fiebre tóxica, sospechen de inmediato traqueítis bacteriana. Nos vemos en la próxima clase para revisar neumonía adquirida en la comunidad.',
+              say: 'Si un croup agrega aspecto tóxico sospechen traqueítis bacteriana. Si te llevas una sola idea de hoy: en la laringitis obstructiva la dexametasona oral en dosis única es obligatoria en todo paciente, incluso en cuadros leves. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -386,7 +386,7 @@ module.exports = {
       say: {
         stem: 'Mujer de sesenta y dos años con sangrado genital diez años después de la menopausia y ecografía con endometrio engrosado de doce milímetros.',
         question: '¿Cuál es la conducta médica de elección más adecuada que debe realizarse de inmediato?',
-        options: 'La opción A propone estrógenos locales para atrofia. La B biopsia endometrial ambulatoria con cánula de Pipelle. La C tomografía por emisión de positrones. La D conducta expectante. La E ooforectomía laparoscópica. Piénsalo bien.',
+        options: 'La opción A propone estrógenos locales para atrofia. La B biopsia endometrial ambulatoria con cánula de Pipelle. La C tomografía por emisión de positrones. La D conducta expectante. La E ooforectomía laparoscópica. Piénsalo.',
         answer: 'La respuesta correcta es la B. Un grosor endometrial de doce milímetros con sangrado menopáusico impone realizar de inmediato una biopsia por aspiración con cánula de Pipelle.',
       },
     },
@@ -409,7 +409,7 @@ module.exports = {
       say: {
         stem: 'Mujer de sesenta y cinco años con distensión, ascitis, masa anexial multiloculada con papilas y Doppler central, y marcador tumoral CA ciento veinticinco de cuatrocientos cincuenta.',
         question: '¿Cuál es la sospecha diagnóstica más probable y la conducta adecuada?',
-        options: 'La opción A propone quiste folicular. La B cáncer epitelial de ovario derivando a laparotomía citorreductora primaria. La C punción evacuadora del quiste. La D endometrioma. La E apendicectomía. Piénsalo bien.',
+        options: 'La opción A propone quiste folicular. La B cáncer epitelial de ovario derivando a laparotomía citorreductora primaria. La C punción evacuadora del quiste. La D endometrioma. La E apendicectomía. Piénsalo.',
         answer: 'La respuesta correcta es la B. Los hallazgos ecográficos IOTA y el CA ciento veinticinco elevado en una postmenopáusica indican cáncer de ovario y exigen laparotomía citorreductora.',
       },
     },
@@ -432,7 +432,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre los principios oncológicos quirúrgicos fundamentales que rigen el abordaje de las masas ováricas neoplásicas.',
         question: '¿Por qué razón fundamental está formalmente contraindicado realizar una punción aspiración de una masa ovárica sospechosa?',
-        options: 'La opción A propone hemorragia digestiva. La B rotura capsular con siembra peritoneal y empeoramiento irreversible del estadio oncológico. La C aumento irreversible de CA ciento veinticinco. La D cierre tubario. La E tirotoxicosis. Piénsalo bien.',
+        options: 'La opción A propone hemorragia digestiva. La B rotura capsular con siembra peritoneal y empeoramiento irreversible del estadio oncológico. La C aumento irreversible de CA ciento veinticinco. La D cierre tubario. La E tirotoxicosis. Piénsalo.',
         answer: 'La respuesta correcta es la B. Puncionar un tumor ovárico derrama células malignas en el peritoneo libre transformando un estadio inicial en uno avanzado de mal pronóstico.',
       },
     },
@@ -455,7 +455,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre los mecanismos endocrinos y factores de riesgo del adenocarcinoma de endometrio endometrioide tipo uno.',
         question: '¿Cuál de las siguientes condiciones se asocia al mayor riesgo de adenocarcinoma de endometrio tipo uno por hiperestrogenismo sin oposición?',
-        options: 'La opción A propone multiparidad. La B anticonceptivos orales combinados. La C obesidad severa y síndrome de ovario poliquístico. La D tabaquismo activo. La E dispositivo con levonorgestrel. Piénsalo bien.',
+        options: 'La opción A propone multiparidad. La B anticonceptivos orales combinados. La C obesidad severa y síndrome de ovario poliquístico. La D tabaquismo activo. La E dispositivo con levonorgestrel. Piénsalo.',
         answer: 'La respuesta correcta es la C. La obesidad severa y el síndrome de ovario poliquístico generan un hiperestrogenismo crónico sin progesterona que desencadena el tumor.',
       },
     },
@@ -512,7 +512,7 @@ module.exports = {
             {
               t: 'Síndrome de Lynch y cáncer de endometrio',
               d: 'Riesgo acumulado de hasta un sesenta por ciento; tamizaje anual estricto con biopsia endometrial',
-              say: 'El síndrome de Lynch incrementa fuertemente el cáncer de endometrio y colon, requiriendo vigilancia anual sistemática con biopsia endometrial. Nos vemos en la próxima clase.',
+              say: 'El síndrome de Lynch obliga a vigilancia endometrial anual. Si te llevas una sola idea de hoy: toda metrorragia en la postmenopausia es un cáncer de endometrio hasta demostrar lo contrario mediante ecografía y biopsia endometrial. Nos vemos en la próxima clase.',
             },
           ],
         },

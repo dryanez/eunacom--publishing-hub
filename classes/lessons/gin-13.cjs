@@ -386,7 +386,7 @@ module.exports = {
       say: {
         stem: 'Mujer de treinta y cuatro años asintomática con informe de Papanicolaou que demuestra lesión intraepitelial escamosa de alto grado y cuello macroscópicamente sano.',
         question: 'De acuerdo con las guías del MINSAL y el protocolo GES, ¿cuál es la conducta inmediata que debe adoptar el médico?',
-        options: 'La opción A propone repetir el PAP en seis meses. La B notificar GES y derivar de inmediato a patología cervical para colposcopía y biopsia dirigida. La C óvulos vaginales. La D histerectomía laparoscópica inmediata. La E vacuna contra el virus. Piénsalo bien.',
+        options: 'La opción A propone repetir el PAP en seis meses. La B notificar GES y derivar de inmediato a patología cervical para colposcopía y biopsia dirigida. La C óvulos vaginales. La D histerectomía laparoscópica inmediata. La E vacuna contra el virus. Piénsalo.',
         answer: 'La respuesta correcta es la B. Toda lesión de alto grado debe notificarse por GES y derivarse a colposcopía y biopsia dirigida en menos de treinta días.',
       },
     },
@@ -409,7 +409,7 @@ module.exports = {
       say: {
         stem: 'Mujer de cuarenta y nueve años con carcinoma epidermoide invasor de cuatro centímetros con invasión de parametrio izquierdo al tacto rectovaginal en estadio dos B.',
         question: '¿Cuál es el tratamiento oncológico de elección indicado para esta paciente?',
-        options: 'La opción A propone histerectomía radical de Wertheim Meigs. La B conización cervical. La C quimiorradioterapia concomitante con cisplatino semanal. La D histerectomía simple. La E cuidados paliativos exclusivos. Piénsalo bien.',
+        options: 'La opción A propone histerectomía radical de Wertheim Meigs. La B conización cervical. La C quimiorradioterapia concomitante con cisplatino semanal. La D histerectomía simple. La E cuidados paliativos exclusivos. Piénsalo.',
         answer: 'La respuesta correcta es la C. La invasión de parametrios contraindica la cirugía; el tratamiento de elección es la quimiorradioterapia concomitante definitiva.',
       },
     },
@@ -432,7 +432,7 @@ module.exports = {
       say: {
         stem: 'Pregunta epidemiológica sobre las normas ministeriales chilenas del programa de detección precoz del cáncer cervicouterino.',
         question: '¿Cuál es la edad y periodicidad del tamizaje poblacional universal garantizado por el régimen GES mediante Papanicolaou?',
-        options: 'La opción A propone examen anual desde el inicio sexual hasta los ochenta años. La B cada tres años en mujeres de veinticinco a sesenta y cuatro años. La C cada cinco años. La D semestral. La E una única vez en la vida. Piénsalo bien.',
+        options: 'La opción A propone examen anual desde el inicio sexual hasta los ochenta años. La B cada tres años en mujeres de veinticinco a sesenta y cuatro años. La C cada cinco años. La D semestral. La E una única vez en la vida. Piénsalo.',
         answer: 'La respuesta correcta es la B. La garantía explícita en salud cubre el tamizaje con Papanicolaou cada tres años en mujeres entre veinticinco y sesenta y cuatro años.',
       },
     },
@@ -455,7 +455,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la biología molecular y virología de los virus de papiloma humano vinculados al desarrollo de neoplasias malignas cervicales.',
         question: '¿Cuáles son los dos genotipos oncogénicos de alto riesgo responsables de más del setenta por ciento de los carcinomas de cuello uterino?',
-        options: 'La opción A propone genotipos seis y once. La B genotipos dieciséis y dieciocho. La C genotipos uno y dos. La D cuarenta y dos y cuarenta y tres. La E cinco y ocho. Piénsalo bien.',
+        options: 'La opción A propone genotipos seis y once. La B genotipos dieciséis y dieciocho. La C genotipos uno y dos. La D cuarenta y dos y cuarenta y tres. La E cinco y ocho. Piénsalo.',
         answer: 'La respuesta correcta es la B. Los genotipos virales dieciséis y dieciocho causan más del setenta por ciento de los carcinomas cervicales invasores.',
       },
     },
@@ -512,7 +512,7 @@ module.exports = {
             {
               t: '¡Parametrio invadido = Quimiorradioterapia!',
               d: 'Estadio IIB prohíbe la cirugía; tratamiento curativo exclusivo con radioterapia y cisplatino',
-              say: 'La presencia de invasión parametrial en el estadio dos B prohíbe taxativamente la cirugía y exige quimiorradioterapia concomitante definitiva. Nos vemos en la próxima clase.',
+              say: 'La invasión parametrial prohíbe la histerectomía radical. Si te llevas una sola idea de hoy: en cáncer cervicouterino, el compromiso de parametrios marca el límite entre la cirugía primaria y la radioquimioterapia concomitante definitiva. Nos vemos en la próxima clase.',
             },
           ],
         },

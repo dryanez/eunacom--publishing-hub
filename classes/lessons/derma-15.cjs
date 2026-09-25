@@ -154,7 +154,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta representativa del banco. Hombre de sesenta y cinco años, con varias máculas eritematosas milimétricas en la frente y el dorso de las manos, cubiertas por escamas ásperas muy adherentes, que al frotarlas con el dedo se sienten rugosas como lija. No hay induración ni signos inflamatorios profundos.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: queratosis actínicas, queratosis seborreicas, psoriasis vulgar, lupus eritematoso discoide, o linfoma cutáneo de células T.',
+        options: 'Las opciones: queratosis actínicas, queratosis seborreicas, psoriasis vulgar, lupus eritematoso discoide, o linfoma cutáneo de células T. Piénsalo.',
         answer: 'Es la A. El signo de la lija, en máculas eritematosas mal delimitadas de zonas fotoexpuestas, sin induración, es la descripción textual de la queratosis actínica. La queratosis seborreica, en cambio, tiene un aspecto untuoso y "pegado", no áspero.',
       },
     },

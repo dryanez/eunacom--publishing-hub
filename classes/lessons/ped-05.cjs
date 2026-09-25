@@ -474,7 +474,7 @@ module.exports = {
       say: {
         stem: 'Lactante de cinco meses llevado a urgencias por obstrucción bronquial con taquipnea importante saturando noventa por ciento tiraje intercostal y cianosis perioral.',
         question: '¿Cuál es la primera medida que se debe tomar?',
-        options: 'La opción A propone nebulizar salbutamol. La B corticoides orales. La C dar oxígeno por mascarilla. La D corticoides endovenosos. La E kinesioterapia respiratoria. Prioriza el ABC de reanimación.',
+        options: 'La opción A propone nebulizar salbutamol. La B corticoides orales. La C dar oxígeno por mascarilla. La D corticoides endovenosos. La E kinesioterapia respiratoria. Piénsalo.',
         answer: 'La respuesta correcta es la C. Ante hipoxemia demostrada en un trastorno ventilación perfusión la primera medida más urgente siempre es administrar oxígeno suplementario.',
       },
     },
@@ -497,7 +497,7 @@ module.exports = {
       say: {
         stem: 'Lactante de cuatro meses con frecuencia respiratoria de sesenta y cuatro tiraje moderado sibilancias en toda la espiración y sin cianosis.',
         question: '¿Cuál es el Score de Tal y la conducta inmediata correcta?',
-        options: 'La opción A plantea Tal cuatro leve. La B Tal seis moderado con hospitalización abreviada con salbutamol por una hora. La C Tal ocho severo a cuidados intensivos. La D adrenalina racémica. La E kinesioterapia respiratoria. Calcula con precisión.',
+        options: 'La opción A plantea Tal cuatro leve. La B Tal seis moderado con hospitalización abreviada con salbutamol por una hora. La C Tal ocho severo a cuidados intensivos. La D adrenalina racémica. La E kinesioterapia respiratoria. Piénsalo.',
         answer: 'La respuesta correcta es la B. En menores de seis meses esa frecuencia suma dos puntos, más dos de sibilancias y dos de tiraje totalizan seis puntos, requiriendo hospitalización abreviada.',
       },
     },
@@ -520,7 +520,7 @@ module.exports = {
       say: {
         stem: 'Lactante de siete meses con obstrucción moderada que al término de la primera hora de salbutamol persiste con un score de Tal de seis puntos.',
         question: '¿Cuál es la conducta indicada según la guía clínica ministerial?',
-        options: 'La opción A indica alta a domicilio. La B administrar prednisona oral de uno a dos miligramos por kilo e iniciar segunda hora de salbutamol. La C intubar de inmediato. La D amoxicilina. La E tomografía de tórax. Recuerda el protocolo de segunda hora.',
+        options: 'La opción A indica alta a domicilio. La B administrar prednisona oral de uno a dos miligramos por kilo e iniciar segunda hora de salbutamol. La C intubar de inmediato. La D amoxicilina. La E tomografía de tórax. Piénsalo.',
         answer: 'La respuesta correcta es la B. La persistencia en rango moderado tras la primera hora exige agregar corticoide sistémico e iniciar la segunda hora de salbutamol.',
       },
     },
@@ -543,7 +543,7 @@ module.exports = {
       say: {
         stem: 'Lactante de dos meses con taquipnea extrema quejido cianosis perioral y marcado silencio auscultatorio bilateral sin murmullo ni sibilancias audibles.',
         question: '¿Cuál es el significado clínico de este hallazgo y su puntuación en el score de Tal?',
-        options: 'La opción A sostiene mejoría clínica espontánea con cero puntos. La B signo de máxima gravedad por flujo casi nulo asignando tres puntos en sibilancias. La C enfisema con un punto. La D neumotórax. La E falso negativo. No caigas en la trampa del silencio.',
+        options: 'La opción A sostiene mejoría clínica espontánea con cero puntos. La B signo de máxima gravedad por flujo casi nulo asignando tres puntos en sibilancias. La C enfisema con un punto. La D neumotórax. La E falso negativo. Piénsalo.',
         answer: 'La respuesta correcta es la B. El tórax silente representa obstrucción extrema con flujo aéreo colapsado y asigna el puntaje máximo de tres puntos en el score de Tal.',
       },
     },
@@ -565,7 +565,7 @@ module.exports = {
       say: {
         stem: 'Pregunta sobre la intervención preventiva de mayor impacto poblacional en reducir hospitalizaciones por bronquiolitis grave por virus respiratorio sincicial en recién nacidos en Chile.',
         question: '¿Cuál es la estrategia implementada con éxito en nuestro país?',
-        options: 'La opción A propone vacuna viva atenuada. La B anticuerpo monoclonal de vida media prolongada Nirsevimab universal al recién nacido. La C Palivizumab mensual universal. La D Oseltamivir. La E solución salina hipertónica. Recuerda el avance chileno.',
+        options: 'La opción A propone vacuna viva atenuada. La B anticuerpo monoclonal de vida media prolongada Nirsevimab universal al recién nacido. La C Palivizumab mensual universal. La D Oseltamivir. La E solución salina hipertónica. Piénsalo.',
         answer: 'La respuesta correcta es la B. Nirsevimab es el anticuerpo monoclonal universal de dosis única que redujo en más de un ochenta por ciento las hospitalizaciones por sincicial.',
       },
     },
@@ -605,7 +605,7 @@ module.exports = {
             {
               t: 'Tórax silente asigna tres puntos máximos en sibilancias',
               d: 'No confundir silencio auscultatorio con mejoría clínica; traduce colapso de flujo aéreo inminente de paro',
-              say: 'El tórax silente suma tres puntos en el score de Tal y advierte paro respiratorio inminente. Nos vemos en la siguiente clase para dominar la laringitis aguda obstructiva.',
+              say: 'El tórax silente en el score de Tal advierte agotamiento inminente. Si te llevas una sola idea de hoy: en la bronquiolitis típica los corticoides y broncodilatadores no cambian el pronóstico, lo que salva vidas es la oxigenoterapia y la hidratación. Nos vemos en la próxima clase.',
             },
           ],
         },

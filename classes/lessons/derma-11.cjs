@@ -209,7 +209,7 @@ module.exports = {
       say: {
         stem: 'Vamos con una pregunta del banco. Un hombre de setenta y seis años, con Parkinson, consulta por dos meses de prurito generalizado severo, al que se agregan ampollas de gran tamaño en el abdomen, las ingles y la cara interna de los muslos. Las ampollas tienen contenido claro, paredes gruesas y muy tensas, sobre placas rojas. La mucosa oral está indemne. Al frotar con fuerza moderada la piel sana cercana, la epidermis no se despega.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: pénfigo vulgar, penfigoide ampollar, necrólisis epidérmica tóxica, dermatitis herpetiforme, o epidermólisis bullosa simple.',
+        options: 'Las opciones: pénfigo vulgar, penfigoide ampollar, necrólisis epidérmica tóxica, dermatitis herpetiforme, o epidermólisis bullosa simple. Piénsalo.',
         answer: 'Es la B, penfigoide ampollar. Todo calza con lo que vimos hoy: edad avanzada con antecedente neurológico, prurito intenso antes de las ampollas, ampollas tensas y resistentes, Nikolsky negativo, y boca respetada. El pénfigo se ve en pacientes más jóvenes, con ampollas flácidas, Nikolsky positivo, y casi siempre compromiso oral desde el inicio.',
       },
     },

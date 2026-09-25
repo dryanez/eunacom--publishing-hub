@@ -197,7 +197,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta años, hipermétrope, con cefalea muy intensa del lado derecho, asociada a náuseas. Al examen: ojo rojo profundo del lado derecho, con pupila en midriasis fija y arreactiva.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: glaucoma agudo, trombosis de la vena central de la retina, cefalea cluster, celulitis orbitaria, o accidente vascular encefálico.',
+        options: 'Las opciones: glaucoma agudo, trombosis de la vena central de la retina, cefalea cluster, celulitis orbitaria, o accidente vascular encefálico. Piénsalo.',
         answer: 'Es la A, glaucoma agudo. Este caso está armado para tentarte con una cefalea cluster o un accidente vascular, porque el dolor es unilateral e intenso. Pero el ojo rojo profundo y, sobre todo, la midriasis fija arreactiva, son hallazgos oculares que ninguna de esas dos causas explica. Cuando la cefalea viene con un signo ocular así, el ojo manda.',
       },
     },
@@ -220,7 +220,7 @@ module.exports = {
       say: {
         stem: 'Otra pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cincuenta años, con dolor ocular izquierdo de inicio agudo y visión borrosa. Al examen: ojo rojo periquerático y pupila midriática arreactiva, con la visión más baja en el ojo izquierdo.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: uveítis aguda, endoftalmitis, queratitis aguda, escleritis, o glaucoma agudo.',
+        options: 'Las opciones: uveítis aguda, endoftalmitis, queratitis aguda, escleritis, o glaucoma agudo. Piénsalo.',
         answer: 'Es la E, glaucoma agudo. Esta pregunta junta a propósito cuatro diagnósticos de ojo rojo doloroso para que sepas separarlos por la pupila: la uveítis da miosis, no midriasis; la queratitis y la escleritis no cambian la pupila; solo el glaucoma agudo produce esa midriasis media fija y arreactiva. Ese dato, solo, ya resuelve la pregunta.',
       },
     },
@@ -243,7 +243,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de cincuenta y cuatro años, con antecedente de jaqueca, en tratamiento con topiramato, con más estrés de lo habitual. Hace dos horas empieza con cefalea intensa, periocular derecha, con náuseas y vómitos. Al examen: ojo derecho enrojecido, pupila fija, en semimidriasis.',
         question: '¿Cuál es la conducta inicial más adecuada?',
-        options: 'Las opciones: manitol endovenoso, clorpromazina endovenosa, ketorolaco endovenoso, oxígeno con eletriptán, o carbamazepina oral.',
+        options: 'Las opciones: manitol endovenoso, clorpromazina endovenosa, ketorolaco endovenoso, oxígeno con eletriptán, o carbamazepina oral. Piénsalo.',
         answer: 'Es la A, manitol endovenoso. Y aquí hay un dato nuevo que se suma a la lista de gatillos: el topiramato, un fármaco usado para la jaqueca, puede precipitar un glaucoma agudo. El enunciado te tienta con tratamientos de migraña, como el eletriptán, pero la pupila fija en semimidriasis es un signo ocular que ninguna migraña explica. Y frente a un glaucoma agudo, el manitol es siempre el primer paso.',
       },
     },
@@ -266,7 +266,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y ocho años, hipermétrope, con dolor muy intenso en el ojo izquierdo, irradiado a la frente. Al examen: enrojecimiento periquerático izquierdo, pupila midriática arreactiva, y opacidad de la córnea. El ojo derecho ve normal; el izquierdo apenas alcanza a contar dedos.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo.',
+        options: 'Las opciones: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo. Piénsalo.',
         answer: 'Es la E, glaucoma agudo. Fíjate en la magnitud de la caída visual: contar dedos es una pérdida severa, coherente con una córnea edematosa y una presión disparada, no con una conjuntivitis ni con una queratitis, que casi nunca bajan tanto la visión. Y de nuevo, la hipermetropía y la midriasis fija son la firma de este diagnóstico.',
       },
     },

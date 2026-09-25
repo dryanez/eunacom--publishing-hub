@@ -394,7 +394,7 @@ module.exports = {
       say: {
         stem: 'Lactante de catorce meses en control sano con peso para la talla en más una coma cuatro desviaciones estándar y talla para la edad en más cero coma dos desviaciones.',
         question: '¿Cuál es el diagnóstico nutricional integrado de este paciente?',
-        options: 'La opción A propone eutrófico con talla normal. La B sobrepeso con talla normal. La C obesidad con talla normal. La D riesgo de desnutrición con talla normal. La E sobrepeso con talla alta. Analiza con cuidado.',
+        options: 'La opción A propone eutrófico con talla normal. La B sobrepeso con talla normal. La C obesidad con talla normal. La D riesgo de desnutrición con talla normal. La E sobrepeso con talla alta. Piénsalo.',
         answer: 'La respuesta correcta es la B. En menores de cinco años el peso para la talla define el estado nutricional, correspondiendo más una coma cuatro a sobrepeso.',
       },
     },
@@ -417,7 +417,7 @@ module.exports = {
       say: {
         stem: 'Niña de siete años en control escolar con índice de masa corporal para la edad en más dos coma cuatro desviaciones estándar y talla para la edad en menos cero coma cinco.',
         question: '¿Cuál es la clasificación nutricional correcta de la paciente?',
-        options: 'La opción A plantea sobrepeso con talla normal. La B obesidad con talla baja. La C obesidad con talla normal. La D obesidad severa con talla normal. La E eutrófica con talla normal. Elige la alternativa correcta.',
+        options: 'La opción A plantea sobrepeso con talla normal. La B obesidad con talla baja. La C obesidad con talla normal. La D obesidad severa con talla normal. La E eutrófica con talla normal. Piénsalo.',
         answer: 'La respuesta correcta es la C. Desde los cinco años se utiliza el índice de masa corporal para la edad, correspondiendo más dos coma cuatro desviaciones a obesidad.',
       },
     },
@@ -457,7 +457,7 @@ module.exports = {
             {
               t: 'Caída de canales percentilares exige estudio',
               d: 'La desaceleración pondoestatural obliga a descartar patología digestiva o infecciosa oculta',
-              say: 'La desaceleración del crecimiento con caída de canales es una señal de alarma que exige descartar patologías crónicas como celiaquía o infección urinaria recurrente.',
+              say: 'La desaceleración del crecimiento con caída de canales es una señal de alarma que exige estudio. Si te llevas una sola idea de hoy: en menores de cinco años el estado nutricional lo define el peso para la talla, jamás el peso para la edad. Nos vemos en la próxima clase.',
             },
           ],
         },

@@ -213,7 +213,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Un paciente de veintinueve años, tratado con amoxicilina por una amigdalitis desde hace catorce días, presenta desde hace tres días ardor ocular, lesiones en la boca, malestar general y un rash cutáneo. Al examen tiene eritema conjuntival bilateral, úlceras orales, y un exantema con pápulas y placas eritematosas en el tronco y las extremidades.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: Síndrome de Stevens-Johnson, gingivoestomatitis herpética, necrólisis epidérmica tóxica, pénfigo, o escarlatina.',
+        options: 'Las opciones: Síndrome de Stevens-Johnson, gingivoestomatitis herpética, necrólisis epidérmica tóxica, pénfigo, o escarlatina. Piénsalo.',
         answer: 'Es la A, Síndrome de Stevens-Johnson. Catorce días de latencia con un fármaco de riesgo, compromiso de dos mucosas y un exantema que ya vimos que corresponde al patrón típico. La gingivoestomatitis herpética no da compromiso ocular ni exantema en el tronco. Y para hablar de necrólisis epidérmica tóxica necesitaríamos un desprendimiento mucho mayor, que el enunciado no describe.',
       },
     },
@@ -236,7 +236,7 @@ module.exports = {
       say: {
         stem: 'Una segunda pregunta real, del EUNACOM de julio de dos mil dieciséis. Una paciente de veintiséis años se realiza una colecistectomía laparoscópica hace dos semanas. Evoluciona bien al principio, pero hace doce horas presenta fiebre y dolor cutáneo generalizado, con eritema de toda la piel y compromiso de las mucosas. Hace algunas horas empiezan a aparecer ampollas generalizadas.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: psoriasis eritrodérmica, escarlatina quirúrgica, pustulosis exantemática, necrólisis epidérmica tóxica, o pénfigo.',
+        options: 'Las opciones: psoriasis eritrodérmica, escarlatina quirúrgica, pustulosis exantemática, necrólisis epidérmica tóxica, o pénfigo. Piénsalo.',
         answer: 'Es la D, Necrólisis Epidérmica Tóxica. La cirugía es la pista de los fármacos: antibióticos perioperatorios, con una latencia de dos semanas. El dolor cutáneo desproporcionado, el eritema generalizado, el compromiso de mucosas y las ampollas que se generalizan describen exactamente el cuadro que vimos hoy. El pénfigo da ampollas flácidas también, pero sin este pródromo febril agudo ni esta latencia farmacológica tan característica.',
       },
     },

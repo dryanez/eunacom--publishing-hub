@@ -482,7 +482,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de dieciocho horas con ictericia hasta el abdomen, madre grupo O positivo y niño grupo B positivo, con bilirrubina de nueve coma cinco miligramos por decilitro.',
         question: '¿Cuál es el diagnóstico más probable y la conducta inicial?',
-        options: 'La opción A ictericia fisiológica y alta. La B incompatibilidad clásica ABO, hospitalizar para fototerapia continua y test de Coombs. La C ictericia por leche materna. La D atresia biliar. La E sepsis neonatal con vancomicina. Recuerda la regla de las veinticuatro horas.',
+        options: 'La opción A ictericia fisiológica y alta. La B incompatibilidad clásica ABO, hospitalizar para fototerapia continua y test de Coombs. La C ictericia por leche materna. La D atresia biliar. La E sepsis neonatal con vancomicina. Recuerda la regla de las veinticuatro horas. Piénsalo.',
         answer: 'La respuesta correcta es la B. Toda ictericia antes de las veinticuatro horas es patológica; con madre O e hijo B corresponde a incompatibilidad ABO que requiere fototerapia.',
       },
     },
@@ -505,7 +505,7 @@ module.exports = {
       say: {
         stem: 'Recién nacido de tres días vigoroso que lacta bien con bilirrubina de once coma dos en zona de bajo riesgo del nomograma sin incompatibilidad.',
         question: '¿Cuál es la conducta médica correcta?',
-        options: 'La opción A exanguinotransfusión. La B ingreso a fototerapia intensiva. La C manejo como ictericia fisiológica, reforzar lactancia y control en dos días. La D suspender pecho materno. La E fenobarbital oral. Evalúa el riesgo del nomograma.',
+        options: 'La opción A exanguinotransfusión. La B ingreso a fototerapia intensiva. La C manejo como ictericia fisiológica, reforzar lactancia y control en dos días. La D suspender pecho materno. La E fenobarbital oral. Evalúa el riesgo del nomograma. Piénsalo.',
         answer: 'La respuesta correcta es la C. Corresponde a una ictericia fisiológica en zona de bajo riesgo, requiriendo reforzar la lactancia y control ambulatorio.',
       },
     },
@@ -527,7 +527,7 @@ module.exports = {
       say: {
         stem: 'Pregunta fisiológica sobre el mecanismo biofísico y bioquímico por el cual la fototerapia reduce la bilirrubina indirecta.',
         question: '¿Cuál es el mecanismo exacto de la fototerapia con luz azul?',
-        options: 'La opción A acelera la maduración de la glucuroniltransferasa hepática. La B provoca fotoisomerización estructural transformándola en lumirrubina hidrosoluble que se excreta sin conjugación. La C destruye hematíes. La D inhibe absorción lipídica. La E bloquea receptores. Recuerda el fotoproducto soluble.',
+        options: 'La opción A acelera la maduración de la glucuroniltransferasa hepática. La B provoca fotoisomerización estructural transformándola en lumirrubina hidrosoluble que se excreta sin conjugación. La C destruye hematíes. La D inhibe absorción lipídica. La E bloquea receptores. Recuerda el fotoproducto soluble. Piénsalo.',
         answer: 'La respuesta correcta es la B. La fototerapia genera fotoisomerización irreversible a lumirrubina, la cual se excreta por orina y bilis sin necesidad de conjugación.',
       },
     },
@@ -550,7 +550,7 @@ module.exports = {
       say: {
         stem: 'Lactante de veinte días con ictericia persistente que presenta orina oscura con coluria deposiciones blancas acólicas y bilirrubina directa de cinco coma dos.',
         question: '¿Cuál es el diagnóstico de sospecha más urgente?',
-        options: 'La opción A ictericia fisiológica prolongada. La B ictericia por leche materna benigna. La C atresia de vías biliares extrahepática. La D incompatibilidad ABO tardía. La E síndrome de Gilbert. Fíjate en el predominio directo y la acolia.',
+        options: 'La opción A ictericia fisiológica prolongada. La B ictericia por leche materna benigna. La C atresia de vías biliares extrahepática. La D incompatibilidad ABO tardía. La E síndrome de Gilbert. Fíjate en el predominio directo y la acolia. Piénsalo.',
         answer: 'La respuesta correcta es la C. La ictericia colestásica con acolia y coluria obliga a sospechar atresia de vías biliares requiriendo derivación urgente.',
       },
     },

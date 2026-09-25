@@ -177,7 +177,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Un paciente de ochenta años, diabético, hipertenso y fumador de treinta paquetes al año, consulta por dificultad para leer, que ha empeorado lentamente. Además, notó hace poco una metamorfopsia en el ojo izquierdo. Su agudeza visual es de ocho décimos en el ojo derecho y cuatro décimos en el izquierdo.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: degeneración macular asociada a la edad, glaucoma de ángulo abierto, desprendimiento de retina, glaucoma de ángulo estrecho, o retinopatía diabética.',
+        options: 'Las opciones son: degeneración macular asociada a la edad, glaucoma de ángulo abierto, desprendimiento de retina, glaucoma de ángulo estrecho, o retinopatía diabética. Piénsalo.',
         answer: 'Es la A. La combinación de edad avanzada, dificultad progresiva y lenta para leer, y sobre todo la metamorfopsia, arma el cuadro típico de la degeneración macular. Y el antecedente de tabaquismo intenso refuerza el diagnóstico, porque es el principal factor de riesgo que el paciente puede modificar. El glaucoma es la trampa más tentadora por la edad, pero el glaucoma no da metamorfopsia: ataca primero el campo visual periférico, no la lectura fina.',
       },
     },
@@ -200,7 +200,7 @@ module.exports = {
       say: {
         stem: 'Y una última pregunta real, del EUNACOM de agosto de dos mil veintiuno, que insiste en el mismo punto con otro distractor. Un paciente de setenta y dos años consulta por dificultad para leer, que ha empeorado en el último mes, a pesar de haber cambiado de lentes hace seis meses. No tiene otros síntomas, su agudeza visual es veinte cuarenta en el ojo izquierdo, y refiere que ve algunos objetos deformados.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: degeneración macular asociada a la edad, glaucoma crónico, cataratas, desprendimiento de retina, o edema macular.',
+        options: 'Las opciones son: degeneración macular asociada a la edad, glaucoma crónico, cataratas, desprendimiento de retina, o edema macular. Piénsalo.',
         answer: 'Es la A. Fíjate en el detalle que descarta a la trampa más tentadora, las cataratas: el cambio reciente de lentes que no mejoró nada te dice que el problema no es de refracción. Y la palabra clave, deformados, es la metamorfopsia. Eso, sumado a la edad, arma la degeneración macular. El glaucoma no da esta distorsión, y ataca la lectura recién en etapas muy avanzadas.',
       },
     },

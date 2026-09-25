@@ -433,7 +433,7 @@ module.exports = {
       say: {
         stem: 'Mujer de treinta y ocho años que fuma veinte cigarrillos al día desde hace quince años consulta para iniciar un método anticonceptivo.',
         question: '¿Cuál de los siguientes métodos está formalmente contraindicado por clasificarse en la categoría cuatro de la Organización Mundial de la Salud?',
-        options: 'La opción A propone dispositivo intrauterino de cobre. La B implante subdérmico de etonogestrel. La C anticonceptivos orales combinados con etinilestradiol. La D dispositivo intrauterino con levonorgestrel. La E minipíldora de desogestrel. Piénsalo bien.',
+        options: 'La opción A propone dispositivo intrauterino de cobre. La B implante subdérmico de etonogestrel. La C anticonceptivos orales combinados con etinilestradiol. La D dispositivo intrauterino con levonorgestrel. La E minipíldora de desogestrel. Piénsalo.',
         answer: 'La respuesta correcta es la C. En mujeres de treinta y cinco años o más que fuman quince o más cigarrillos al día, los estrógenos están contraindicados de forma absoluta por riesgo de infarto y trombosis.',
       },
     },
@@ -456,7 +456,7 @@ module.exports = {
       say: {
         stem: 'Una joven de veinte años consulta dieciocho horas después de un coito no protegido por rotura de preservativo solicitando anticoncepción de emergencia.',
         question: '¿Cuál es el fármaco de elección, la dosis recomendada y el mecanismo de acción de la píldora de emergencia en el sistema público?',
-        options: 'La opción A propone mifepristona con desprendimiento del blastocisto. La B levonorgestrel uno coma cinco miligramos oral que retrasa el pico de LH. La C misoprostol vaginal. La D metotrexato. La E estrógenos conjugados. Piénsalo bien.',
+        options: 'La opción A propone mifepristona con desprendimiento del blastocisto. La B levonorgestrel uno coma cinco miligramos oral que retrasa el pico de LH. La C misoprostol vaginal. La D metotrexato. La E estrógenos conjugados. Piénsalo.',
         answer: 'La respuesta correcta es la B. El levonorgestrel a dosis de uno coma cinco miligramos oral inhibe o retrasa el pico ovulatorio de hormona luteinizante y no es abortivo.',
       },
     },
@@ -479,7 +479,7 @@ module.exports = {
       say: {
         stem: 'Paciente de veintiocho años con antecedente de migraña clásica con aura visual recurrente solicita anticoncepción hormonal en el consultorio.',
         question: '¿Cuál de los siguientes métodos está formalmente contraindicado por clasificarse en la categoría cuatro de la Organización Mundial de la Salud?',
-        options: 'La opción A propone anillo vaginal con etinilestradiol y etonogestrel. La B implante de etonogestrel. La C dispositivo de cobre. La D minipíldora de desogestrel. La E dispositivo con levonorgestrel. Piénsalo bien.',
+        options: 'La opción A propone anillo vaginal con etinilestradiol y etonogestrel. La B implante de etonogestrel. La C dispositivo de cobre. La D minipíldora de desogestrel. La E dispositivo con levonorgestrel. Piénsalo.',
         answer: 'La respuesta correcta es la A. El anillo vaginal combinado contiene etinilestradiol y está formalmente contraindicado en migraña con aura por riesgo de infarto cerebral.',
       },
     },
@@ -502,7 +502,7 @@ module.exports = {
       say: {
         stem: 'Una paciente toma la píldora de emergencia de levonorgestrel y presenta un vómito profuso cuarenta y cinco minutos después de la deglución.',
         question: '¿Cuál es la indicación médica correcta a seguir frente a este cuadro clínico?',
-        options: 'La opción A propone no hacer nada asumiendo absorción completa. La B repetir de inmediato la dosis completa de levonorgestrel con antiemético. La C declarar fracaso y esperar aborto. La D antibióticos. La E esperar una semana. Piénsalo bien.',
+        options: 'La opción A propone no hacer nada asumiendo absorción completa. La B repetir de inmediato la dosis completa de levonorgestrel con antiemético. La C declarar fracaso y esperar aborto. La D antibióticos. La E esperar una semana. Piénsalo.',
         answer: 'La respuesta correcta es la B. Si la paciente vomita dentro de las primeras dos horas post-ingesta, se debe repetir inmediatamente la dosis completa de uno coma cinco miligramos.',
       },
     },
@@ -559,7 +559,7 @@ module.exports = {
             {
               t: 'Repetición estricta si vomita antes de 2 horas',
               d: 'Asegurar absorción completa administrando una segunda dosis completa con antiemético',
-              say: 'Y recuerden siempre la regla de las dos horas: si la paciente vomita antes de cumplirse dos horas desde la toma, debe repetirse la dosis de inmediato. Nos vemos en la próxima clase.',
+              say: 'Recuerden la regla de las dos horas ante vómitos tras la pastilla de emergencia. Si te llevas una sola idea de hoy: los anticonceptivos hormonales combinados están contraindicados en mujeres mayores de treinta y cinco años fumadoras o con migraña con aura. Nos vemos en la próxima clase.',
             },
           ],
         },

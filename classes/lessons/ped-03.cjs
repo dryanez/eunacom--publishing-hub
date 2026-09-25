@@ -436,7 +436,7 @@ module.exports = {
       say: {
         stem: 'Lactante de doce meses que acude al vacunatorio con su calendario completo hasta los seis meses para recibir sus vacunas del año.',
         question: '¿Cuáles son las vacunas que le corresponde administrar según el calendario ministerial chileno?',
-        options: 'La opción A propone hexavalente, hepatitis A y varicela. La B tresvírica, meningocócica conjugada y refuerzo neumocócico. La C tresvírica, varicela y hexavalente. La D polio oral y hepatitis A. La E meningocócica y varicela. Analiza cada hito.',
+        options: 'La opción A propone hexavalente, hepatitis A y varicela. La B tresvírica, meningocócica conjugada y refuerzo neumocócico. La C tresvírica, varicela y hexavalente. La D polio oral y hepatitis A. La E meningocócica y varicela. Analiza cada hito. Piénsalo.',
         answer: 'La respuesta correcta es la B. A los doce meses corresponden exactamente tresvírica, meningocócica tetravalente y refuerzo neumocócico.',
       },
     },
@@ -459,7 +459,7 @@ module.exports = {
       say: {
         stem: 'Niño de tres años en quimioterapia activa por leucemia que consulta por la administración de vacunas pendientes.',
         question: '¿Cuál de las siguientes vacunas está absolutamente contraindicada en este paciente oncológico?',
-        options: 'La opción A propone antineumocócica conjugada. La B hepatitis A inactivada. La C vacuna contra varicela o tresvírica. La D hexavalente acelular. La E influenza inactivada. Recuerda el tipo de inmunógeno.',
+        options: 'La opción A propone antineumocócica conjugada. La B hepatitis A inactivada. La C vacuna contra varicela o tresvírica. La D hexavalente acelular. La E influenza inactivada. Recuerda el tipo de inmunógeno. Piénsalo.',
         answer: 'La respuesta correcta es la C. Las vacunas vivas atenuadas como varicela o tresvírica están estrictamente prohibidas en inmunosuprimidos.',
       },
     },
@@ -482,7 +482,7 @@ module.exports = {
       say: {
         stem: 'Niño de ocho años sin antecedentes de vacuna de tuberculosis que se encuentra asintomático con padre tratado en el extranjero.',
         question: '¿Cuál es la conducta inicial más adecuada para este paciente en el centro de salud?',
-        options: 'La opción A plantea prueba de tuberculina. La B radiografía de tórax. La C baciloscopías. La D quimioprofilaxis con isoniazida. La E administrar la vacuna de bacilo de Calmette Guerin. Evalúa la normativa de salud.',
+        options: 'La opción A plantea prueba de tuberculina. La B radiografía de tórax. La C baciloscopías. La D quimioprofilaxis con isoniazida. La E administrar la vacuna de bacilo de Calmette Guerin. Evalúa la normativa de salud. Piénsalo.',
         answer: 'La respuesta correcta es la E. Ante la ausencia de vacuna y sin síntomas actuales de infección, procede administrar la vacuna BCG.',
       },
     },
@@ -522,7 +522,7 @@ module.exports = {
             {
               t: 'Prematuros se vacunan por edad postnatal',
               d: 'Se utiliza la edad cronológica desde el nacimiento, sin corregir por semanas de prematurez',
-              say: 'Recuerden siempre como regla de oro que los prematuros se vacunan de acuerdo con su edad cronológica real desde el nacimiento, sin aplicar nunca la corrección de semanas de gestación. Nos vemos en la próxima clase.',
+              say: 'Recuerden que los prematuros se vacunan por edad cronológica. Si te llevas una sola idea de hoy: los prematuros reciben sus vacunas según su edad cronológica desde el nacimiento, sin corregir por semanas de gestación. Nos vemos en la próxima clase.',
             },
           ],
         },

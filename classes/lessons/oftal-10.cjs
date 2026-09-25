@@ -198,7 +198,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta representativa del banco de la especialidad, sin fecha del examen real. La pregunta es directa: ¿cuál es la diferencia fisiopatológica fundamental entre el desprendimiento de retina regmatógeno y el traccional?',
         question: 'Tómate un momento para pensar en el mecanismo de cada uno.',
-        options: 'Las opciones: que el regmatógeno necesita una rotura y el traccional son membranas fibrosas sin desgarro, que el regmatógeno duele y el traccional no, que el traccional se trata con láser y el regmatógeno solo con corticoides, que el regmatógeno es por exudados y el traccional por presión alta, o que no existe ninguna diferencia entre ambos.',
+        options: 'Las opciones: que el regmatógeno necesita una rotura y el traccional son membranas fibrosas sin desgarro, que el regmatógeno duele y el traccional no, que el traccional se trata con láser y el regmatógeno solo con corticoides, que el regmatógeno es por exudados y el traccional por presión alta, o que no existe ninguna diferencia entre ambos. Piénsalo.',
         answer: 'Es la A. El regmatógeno exige, por definición, una rotura de la retina, por la que se cuela el vítreo líquido. El traccional, en cambio, no tiene rotura: son bandas fibrovasculares, típicas de la retinopatía diabética proliferativa, que tiran físicamente de la retina hacia el centro del ojo. Confundir estos dos mecanismos cambia por completo la estrategia quirúrgica.',
       },
     },
@@ -221,7 +221,7 @@ module.exports = {
       say: {
         stem: 'Otra pregunta representativa, también sin fecha del examen real. Una mujer de cincuenta y cinco años presenta, de forma repentina, muchas moscas volantes y destellos luminosos en el ojo derecho, y consulta el mismo día. La oftalmoscopía con pupila dilatada muestra un desgarro retiniano periférico en forma de herradura, pero todavía sin líquido por debajo, es decir, sin desprendimiento.',
         question: '¿Cuál es el tratamiento profiláctico de elección para evitar que este desgarro progrese a un desprendimiento de retina?',
-        options: 'Las opciones: vitrectomía urgente con aceite de silicona, fotocoagulación con láser de argón alrededor del desgarro, una inyección intravítrea de corticoide, corticoides orales por un mes, u observación clínica semanal sin intervención.',
+        options: 'Las opciones: vitrectomía urgente con aceite de silicona, fotocoagulación con láser de argón alrededor del desgarro, una inyección intravítrea de corticoide, corticoides orales por un mes, u observación clínica semanal sin intervención. Piénsalo.',
         answer: 'Es la B. Este es el otro extremo del mismo tema: cuando se pesca el desgarro a tiempo, antes de que el vítreo líquido haya levantado la retina, no hace falta una cirugía mayor. Basta con la fotocoagulación láser alrededor del desgarro, que en pocos días forma una cicatriz firme y sella la retina al epitelio pigmentario. Esperar una semana, como dice la opción E, es la trampa que puede convertir un desgarro sellable en un desprendimiento quirúrgico.',
       },
     },
@@ -244,7 +244,7 @@ module.exports = {
       say: {
         stem: 'Una última pregunta representativa, también sin fecha del examen real. Se busca, en pacientes operados de desprendimiento de retina, cuál es el factor que más empeora el pronóstico visual final.',
         question: '¿Cuál de las siguientes opciones predice la peor agudeza visual, incluso después de una cirugía anatómicamente exitosa?',
-        options: 'Las opciones: que el desprendimiento esté en los cuadrantes superiores, que la mácula esté desprendida por más de una semana, tener menos de cuarenta años, haber usado lentes de contacto blandos, o haber tenido miodesopsias antes de operarse.',
+        options: 'Las opciones: que el desprendimiento esté en los cuadrantes superiores, que la mácula esté desprendida por más de una semana, tener menos de cuarenta años, haber usado lentes de contacto blandos, o haber tenido miodesopsias antes de operarse. Piénsalo.',
         answer: 'Es la B. Esto cierra el tema exactamente donde lo abrimos: lo que decide la visión final no es la ubicación del desprendimiento ni la edad del paciente, es cuánto tiempo estuvo la mácula sin su epitelio pigmentario. Si el desprendimiento foveal dura más de una a dos semanas, los conos de la fóvea se dañan de forma irreversible, y la retina puede quedar anatómicamente perfecta, pero la visión central fina ya no vuelve del todo.',
       },
     },

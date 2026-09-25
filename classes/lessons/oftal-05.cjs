@@ -140,7 +140,7 @@ module.exports = {
       say: {
         stem: 'Vamos con un caso. Mujer de cincuenta y dos años, con artritis reumatoide en tratamiento con metotrexato, consulta por dolor ocular izquierdo muy intenso, de cinco días, continuo, profundo, que le irradia al hemicráneo y no la deja dormir. Al examen, la visión está conservada, y el ojo izquierdo tiene una hiperemia difusa muy violácea. Se instila fenilefrina, y a los quince minutos el enrojecimiento y el dolor siguen exactamente igual.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las opciones: colirio de cloranfenicol y control en una semana, colirio de dexametasona cada cuatro horas, AINE oral en dosis altas y derivar de urgencia, tranquilizar con solo lágrimas artificiales, o colirio de timolol. Tómate unos segundos.',
+        options: 'Las opciones: colirio de cloranfenicol y control en una semana, colirio de dexametasona cada cuatro horas, AINE oral en dosis altas y derivar de urgencia, tranquilizar con solo lágrimas artificiales, o colirio de timolol. Piénsalo.',
         answer: 'Es la C. Todo el enunciado apunta a escleritis: dolor terebrante nocturno, color violáceo profundo, sin respuesta a la fenilefrina, y artritis reumatoide de base. Un colirio, sea antibiótico o corticoide, no sirve aquí, porque la inflamación no está en la superficie. Y tranquilizar sería grave: esto no es benigno. La conducta correcta es AINE oral en dosis altas y derivación urgente, porque además hay que estudiar la enfermedad sistémica de fondo.',
       },
     },

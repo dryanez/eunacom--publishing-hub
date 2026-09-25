@@ -205,7 +205,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con placas eritematosas bien delimitadas, cubiertas de escamas plateadas en rodillas y codos, con fenómeno de Auspitz positivo. El compromiso es del diez por ciento de la superficie corporal.',
         question: '¿Cuál es el diagnóstico?',
-        options: 'Las opciones: psoriasis en placas, dermatitis atópica, dermatitis de contacto, liquen plano, o micosis fungoide.',
+        options: 'Las opciones: psoriasis en placas, dermatitis atópica, dermatitis de contacto, liquen plano, o micosis fungoide. Piénsalo.',
         answer: 'Es la A, psoriasis en placas. Escamas plateadas en superficies extensoras, con el signo de Auspitz positivo, es el cuadro que acabamos de estudiar en el raspado de Brocq. Con un diez por ciento de superficie corporal, esta paciente ya está en el límite entre leve y moderada, así que conviene reevaluar si necesita escalar a fototerapia o metotrexato.',
       },
     },
@@ -228,7 +228,7 @@ module.exports = {
       say: {
         stem: 'Y una segunda pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y dos años con artritis de las articulaciones interfalángicas distales y proximales de ambas manos, con compromiso reciente de una articulación metatarsofalángica. Además, tiene múltiples depresiones en las uñas de las manos y engrosamiento de las uñas de los pies.',
         question: '¿A qué tipo de artritis corresponde este cuadro?',
-        options: 'Las opciones: reumatoide, reactiva, psoriática, gotosa, o lúpica.',
+        options: 'Las opciones: reumatoide, reactiva, psoriática, gotosa, o lúpica. Piénsalo.',
         answer: 'Es la C, psoriática. El compromiso de las interfalángicas distales junto con el pitting ungueal y el engrosamiento de las uñas son la firma de la artritis psoriásica, incluso cuando el enunciado no menciona placas en la piel. La reumatoide típicamente respeta las interfalángicas distales, y ahí está la diferencia que se pregunta.',
       },
     },
