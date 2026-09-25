@@ -59,48 +59,34 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Semiología y presentación clínica',
-      title: 'Tetraedro cardinal y diferenciación según nivel anatómico',
+      kicker: 'Semiología física',
+      title: 'Tetraedro cardinal y exploración obligatoria de orificios herniarios',
       cards: [
         {
           title: 'Tetraedro cardinal de la obstrucción',
           kind: 'criteria',
           items: [
             {
-              text: 'Dolor cólico abdominal: intermitente en crisis, periumbilical o difuso.',
-              say: 'El primer elemento es el dolor abdominal tipo cólico, que coincide con las ondas de hiperperistaltismo de lucha. En fases tempranas es paroxístico e intermitente. Una advertencia de oro para el examen: si el dolor pierde su intermitencia y se vuelve continuo, punzante y rebelde a analgésicos, debemos asumir de inmediato sufrimiento de asa o estrangulación.',
+              text: 'Dolor abdominal cólico: crisis paroxísticas que coinciden con ondas de hiperperistaltismo.',
+              say: 'El primer elemento es el dolor cólico intermitente. Si el dolor pierde su periodicidad y se vuelve continuo, punzante y refractario, debemos asumir de inmediato sufrimiento vascular del asa o estrangulación.',
             },
             {
-              text: 'Distensión abdominal: mínima en oclusión alta y masiva en oclusión colónica baja.',
-              say: 'El segundo elemento es la distensión. En obstrucciones altas de duodeno o yeyuno proximal, la distensión es mínima porque el estómago se vacía con los vómitos. Por el contrario, en obstrucciones bajas de íleon terminal o colon sigmoides, la distensión es evidente, difusa y timpánica.',
+              text: 'Distensión abdominal: central en intestino delgado y periférica en marco en el colon.',
+              say: 'El segundo elemento es la distensión abdominal timpánica. En obstrucciones altas de duodeno o yeyuno proximal es mínima por evacuación gástrica, mientras que en colon o íleon distal es masiva y difusa.',
             },
             {
-              text: 'Vómitos y detención de gases y heces por ano.',
-              say: 'El tercer elemento son los vómitos: precoces y biliosos en obstrucciones altas; tardíos, espesos y fecaloideos en obstrucciones bajas. El cuarto elemento es la detención completa de emisión de gases y heces por el recto, signo universal de oclusión mecánica establecida.',
+              text: 'Vómitos y detención de eliminación de gases y deposiciones por el recto.',
+              say: 'El tercer elemento son los vómitos: precoces y biliosos en obstrucción alta; tardíos y fecaloideos en obstrucción baja. El cuarto elemento es la detención completa de emisión de gases y heces.',
             },
           ],
         },
         {
-          title: 'Etiología según nivel anatómico',
-          kind: 'key',
-          items: [
-            {
-              text: 'Intestino delgado: bridas y adherencias postoperatorias en el sesenta a setenta por ciento.',
-              say: 'En el intestino delgado, la causa más frecuente con diferencia son las bridas o adherencias postoperatorias, responsables de hasta el setenta por ciento de los casos, seguidas por las hernias inguinales o crurales atascadas en un quince a veinte por ciento. La presencia de cicatrices de laparotomía previa es el antecedente clave.',
-            },
-            {
-              text: 'Colon: cáncer colorrectal en el sesenta por ciento y vólvulo de sigmoides en el quince a veinte por ciento.',
-              say: 'En el colon, la causa número uno en adultos mayores es el cáncer de colon, habitualmente del lado izquierdo o rectosigmoides, seguido por el vólvulo de sigmoides y la diverticulitis con estenosis cicatrizal.',
-            },
-          ],
-        },
-        {
-          title: 'Regla de seguridad: Examen de orificios herniarios',
+          title: 'Exploración de orificios herniarios',
           kind: 'alert',
           items: [
             {
-              text: 'Obligación médica: palpar siempre la región inguinal y crural en todo paciente obstruido.',
-              say: 'Nunca des por terminado el examen físico de un paciente con sospecha de obstrucción sin palpar minuciosamente los orificios herniarios inguinales y femorales. Pasar por alto una pequeña hernia crural atascada bajo el ligamento inguinal en una paciente anciana es un error gravísimo sancionado en el EUNACOM.',
+              text: 'Palpación sistemática obligatoria de regiones inguinales, crurales y cicatrices previas.',
+              say: 'Nunca des por concluido el examen físico sin palpar cuidadosamente los orificios herniarios inguinales y femorales. Pasar por alto una pequeña hernia crural atascada bajo el ligamento inguinal en una paciente anciana es un error gravísimo sancionado en el EUNACOM.',
             },
           ],
         },
@@ -109,36 +95,72 @@ module.exports = {
 
     {
       type: 'table',
-      kicker: 'Evaluación diagnóstica',
-      title: 'Hallazgos imagenológicos: Radiología simple versus Tomografía computarizada',
-      head: ['Modalidad', 'Signos radiológicos característicos', 'Utilidad clínica principal', 'Limitación o advertencia'],
+      kicker: 'Diferenciación anatómica',
+      title: 'Obstrucción de intestino delgado versus Obstrucción de colon',
+      head: ['Parámetro clínico', 'Obstrucción de intestino delgado', 'Obstrucción de colon', 'Implicancia diagnóstica'],
       rows: [
         {
           cells: [
-            'Radiografía simple de abdomen de pie y decúbito',
-            'Niveles hidroaéreos en escalera · distribución central · pliegues de conniventes que cruzan toda la luz (delgado) o marco periférico con haustras (colon)',
-            'Estudio inicial rápido y accesible en urgencias para confirmar dilatación de asas.',
-            'Baja sensibilidad para diagnosticar la causa exacta; no evalúa adecuadamente la isquemia mural.',
+            'Etiología principal',
+            'Bridas y adherencias postoperatorias (60 a 70%) · hernias atascadas (15 a 20%)',
+            'Cáncer de colon izquierdo (60%) · vólvulo de sigmoides (15 a 20%) · diverticulitis',
+            'Indagar siempre antecedentes quirúrgicos de laparotomías o laparoscopías previas.',
           ],
-          say: 'La radiografía simple de abdomen de pie y en decúbito es el estudio inicial. En intestino delgado muestra asas dilatadas mayores a tres centímetros en el centro del abdomen, con niveles hidroaéreos en escalera y válvulas conniventes que cruzan toda la luz como pilas de monedas. En colon se observa distensión periférica en marco con haustras que no cruzan por completo el diámetro.',
+          say: 'En el intestino delgado, la causa número uno por lejos son las bridas postoperatorias, seguidas por hernias de pared complicadas. En el colon, la causa predominante en adultos mayores es el cáncer colorrectal, seguido por el vólvulo de sigmoides.',
         },
         {
           cells: [
-            'Radiografía en Vólvulo de Sigmoides',
-            'Signo del grano de café o asa en omega invertida que asciende desde la fosa ilíaca izquierda hacia el hipocondrio derecho',
-            'Diagnóstico visual casi patognomónico del vólvulo sigmoideo en el adulto mayor institucionalizado.',
-            'Si hay neumoperitoneo o ausencia de gas distal, alerta sobre gangrena o perforación.',
+            'Patrón de distensión',
+            'Distensión moderada predominantemente central en mesogastrio',
+            'Distensión masiva periférica en marco cólico con timpanismo acentuado',
+            'Permite sospechar precozmente la altura topográfica del obstáculo en el examen físico.',
           ],
-          say: 'En el vólvulo de sigmoides, la radiografía simple es altamente orientadora: muestra una enorme asa colónica sobredistendida sin haustras que adopta la forma de un grano de café o de una U invertida, cuyo vértice apunta hacia el hipocondrio derecho o epigastrio, con escaso gas en la ampolla rectal.',
+          say: 'La distensión en delgado es central y moderada, mientras que en colon es periférica en marco, a menudo masiva y muy llamativa a la inspección visual.',
         },
         {
           cells: [
-            'Tomografía axial computarizada con contraste intravenoso',
-            'Zona de transición con cambio de calibre abrupto · signo del remolino en vólvulo · neumatosis intestinal · defecto de realce mural',
-            'Estándar de oro indiscutido: identifica la etiología exacta y pesquisa sufrimiento de asa precoz.',
-            'Requiere estabilidad hemodinámica y función renal compatible con medio de contraste iodado.',
+            'Características del vómito',
+            'Precoces, frecuentes, copiosos y de aspecto bilioso o porráceo',
+            'Tardíos, escasos o ausentes inicialmente; fecaloideos en etapas evolucionadas',
+            'La precocidad de los vómitos traduce un nivel obstructivo proximal al ángulo de Treitz.',
           ],
-          say: 'La tomografía computarizada de abdomen y pelvis con contraste intravenoso es el estándar de oro actual. Identifica con exactitud el punto de transición entre asas dilatadas y colapsadas, detecta el signo del remolino mesentérico en los vólvulos y revela signos de sufrimiento de asa como neumatosis parietal, gas en la vena porta y ausencia de realce con el contraste.',
+          say: 'Los vómitos en delgado alto son tempranos, abundantes y biliosos. En colon son tardíos y de aspecto francamente fecaloideo por fermentación bacteriana bacteriana prolongada.',
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diagnóstico por imágenes',
+      title: 'Radiología simple versus Tomografía axial computarizada',
+      cards: [
+        {
+          title: 'Radiografía de abdomen de pie y decúbito',
+          kind: 'key',
+          items: [
+            {
+              text: 'Niveles hidroaéreos en escalera y válvulas conniventes en pila de monedas en delgado.',
+              say: 'La radiografía simple de abdomen es el estudio inicial. En intestino delgado revela asas dilatadas mayores a tres centímetros, niveles hidroaéreos en escalera y válvulas conniventes que cruzan toda la circunferencia luminal.',
+            },
+            {
+              text: 'Haustras periféricas que no cruzan por completo la luz en obstrucción de colon.',
+              say: 'En colon se observan asas mayores a seis centímetros ubicadas en la periferia, cuyas haustras colónicas no cruzan la totalidad de la pared.',
+            },
+          ],
+        },
+        {
+          title: 'Tomografía computarizada con contraste intravenoso',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Estándar de oro indiscutido: identifica punto de transición y signos de isquemia precoz.',
+              say: 'La tomografía computarizada con contraste endovenoso es el examen de elección. Identifica con exactitud milimétrica la zona de transición y diagnostica precozmente el sufrimiento vascular del asa mediante neumatosis intestinal y defecto de realce mural.',
+            },
+            {
+              text: 'Signo del remolino mesentérico patognomónico de torsión en vólvulos.',
+              say: 'En vólvulos de sigmoides o de ciego, la tomografía demuestra el signo del remolino formado por la rotación del mesenterio y los vasos sobre su propio eje.',
+            },
+          ],
         },
       ],
     },
@@ -176,15 +198,32 @@ module.exports = {
             },
           ],
         },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Mecánica de asa cerrada',
+      title: 'Ley de Laplace y riesgo de perforación diastásica del ciego',
+      head: ['Condición de la válvula', 'Dinámica intraluminal', 'Punto de máxima tensión', 'Riesgo y conducta'],
+      rows: [
         {
-          title: 'Asa cerrada y dilatación cecal crítica',
-          kind: 'key',
-          items: [
-            {
-              text: 'Obstrucción en asa cerrada con válvula ileocecal continente: peligro de perforación.',
-              say: 'Cuando existe una obstrucción colónica y la válvula ileocecal es continente, el colon se comporta como un asa cerrada. Según la ley de Laplace, a mayor diámetro mayor tensión de pared. El ciego es el segmento más ancho del colon, por lo que una dilatación cecal superior a diez a doce centímetros implica un riesgo inminente de perforación diastásica.',
-            },
+          cells: [
+            'Válvula ileocecal continente (75%)',
+            'Obstrucción en asa cerrada entre el tumor distal y la válvula cerrada',
+            'Ciego: segmento con mayor radio colónico según ley de Laplace',
+            'Diámetro cecal mayor a diez a doce centímetros implica riesgo inminente de rotura; cirugía inmediata.',
           ],
+          say: 'Si la válvula ileocecal es continente, el colon entre el tumor y la válvula se convierte en un asa cerrada hermética. La ley de Laplace establece que la tensión de pared es proporcional a la presión multiplicada por el radio. Al ser el ciego el segmento con mayor diámetro del colon, alcanza la tensión mural más alta y sufre perforación diastásica por estiramiento isquémico si supera los diez a doce centímetros.',
+        },
+        {
+          cells: [
+            'Válvula ileocecal incompetente (25%)',
+            'Reflujo retrógrado de gas y secreciones hacia el íleon delgado',
+            'Descompresión parcial del colon hacia asas delgadas',
+            'Disminuye el riesgo de rotura diastásica aguda, pero genera gran distensión y vómitos fecaloideos.',
+          ],
+          say: 'Si la válvula ileocecal es incompetente, la presión colónica refluye hacia el intestino delgado descompresionando el ciego. Esto atenúa el peligro inmediato de rotura cecal pero produce dilatación de asas delgadas y vómitos fecaloideos abundantes.',
         },
       ],
     },
@@ -198,48 +237,166 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Manejo según causa',
-      title: 'Estrategias terapéuticas específicas en obstrucción intestinal',
+      kicker: 'Manejo de bridas',
+      title: 'Protocolo de manejo conservador y contraste hidrosoluble',
       cards: [
         {
-          title: 'Obstrucción por bridas: Manejo médico conservador inicial',
-          kind: 'pharma',
-          items: [
-            {
-              text: 'Régimen cero, hidratación parenteral vigorosa y sonda nasogástrica descompresiva.',
-              say: 'En un paciente con obstrucción de intestino delgado por bridas sin signos de estrangulación ni peritonitis, la conducta inicial de elección es el tratamiento médico conservador. Se indica régimen cero absoluto, reposición hidroelectrolítica endovenosa vigorosa y descompresión gástrica mediante sonda nasogástrica a caída libre.',
-            },
-            {
-              text: 'Periodo de prueba de veinticuatro a cuarenta y ocho horas; resuelve en el setenta por ciento.',
-              say: 'Este manejo conservador se mantiene durante veinticuatro a cuarenta y ocho horas. Resuelve favorablemente en más del setenta por ciento de los casos al desinflamar la pared y facilitar el tránsito. Si al cabo de este plazo el paciente no mejora, aumentan los residuos gástricos o aparecen signos de estrangulación, se pasa de inmediato a cirugía exploradora.',
-            },
-          ],
-        },
-        {
-          title: 'Vólvulo de sigmoides: Desvolvulación endoscópica',
+          title: 'Tratamiento conservador de primera línea',
           kind: 'key',
           items: [
             {
-              text: 'Desvolvulación endoscópica con sigmoidoscopía rígida o colonoscopía en ausencia de necrosis.',
-              say: 'En el vólvulo de sigmoides no complicado, sin fiebre, peritonismo ni sospecha de isquemia mucosa, el tratamiento de primera línea es la desvolvulación y descompresión endoscópica mediante rectosigmoidoscopía o colonoscopía, guiando una sonda rectal descompresiva.',
+              text: 'Régimen cero, hidratación parenteral vigorosa con cristaloides y sonda nasogástrica.',
+              say: 'En obstrucción por bridas sin estrangulación ni peritonitis, la conducta estándar es el manejo conservador: régimen cero, hidratación parenteral generosa con cristaloides para reponer pérdidas a tercer espacio y sonda nasogástrica a caída libre.',
             },
             {
-              text: 'Cirugía electiva diferida en la misma hospitalización para evitar recurrencia.',
-              say: 'La desvolvulación endoscópica tiene una tasa de recurrencia que supera el cincuenta por ciento. Por esta razón, tras descomprimir con éxito y preparar el colon, se programa una sigmoidectomía electiva con anastomosis primaria durante la misma estancia hospitalaria.',
-            },
-            {
-              text: 'Si hay necrosis mucosa o peritonitis: Operación de Hartmann urgente sin intentar endoscopía.',
-              say: 'Si al introducir el endoscopio se observa mucosa necrótica negruzca, ulcerada o si el paciente presenta abdomen en tabla y shock séptico, la desvolvulación endoscópica está prohibida por riesgo de perforación y se indica laparotomía de urgencia con operación de Hartmann.',
+              text: 'Éxito en más del setenta por ciento en veinticuatro a cuarenta y ocho horas.',
+              say: 'Este manejo resuelve la oclusión en más de dos tercios de los pacientes al disminuir el edema de asa y permitir el paso espontáneo de contenido. Si no hay resolución en cuarenta y ocho horas, se evalúa cirugía.',
             },
           ],
         },
         {
-          title: 'Cáncer colorrectal obstructivo',
+          title: 'Uso de contraste hidrosoluble: Gastrografin',
+          kind: 'pharma',
+          items: [
+            {
+              text: 'Prueba de Gastrografin: valor diagnóstico y terapéutico hiperosmolar.',
+              say: 'La administración de cien mililitros de contraste hidrosoluble por la sonda nasogástrica tiene doble función: su alta osmolaridad arrastra agua al lumen desimpactando el asa, y si a las veinticuatro horas el contraste alcanza el colon en una radiografía simple, predice resolución médica en más del noventa por ciento.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vólvulo de sigmoides',
+      title: 'Desvolvulación endoscópica versus Cirugía urgente',
+      cards: [
+        {
+          title: 'Epidemiología y diagnóstico radiológico',
+          kind: 'key',
+          items: [
+            {
+              text: 'Adulto mayor institucionalizado con constipación crónica o megacolon chagásico.',
+              say: 'El vólvulo de sigmoides afecta típicamente a pacientes ancianos con constipación de larga data, pacientes postrados o con megacolon chagásico en el norte de Chile.',
+            },
+            {
+              text: 'Radiografía de abdomen con signo patognomónico del grano de café o asa en U invertida.',
+              say: 'La radiografía simple es diagnóstica: muestra una enorme asa sigmoidea que asciende hacia el hipocondrio derecho con aspecto de grano de café sin haustras.',
+            },
+          ],
+        },
+        {
+          title: 'Manejo en dos tiempos',
           kind: 'alert',
           items: [
             {
-              text: 'Urgencia oncológica: resección con Hartmann versus stent colónico autoexpandible.',
-              say: 'En el cáncer obstructivo de colon izquierdo en urgencias, la técnica quirúrgica clásica es la operación de Hartmann. En centros especializados y en pacientes seleccionados, se puede instalar una prótesis o stent metálico autoexpandible por vía endoscópica para desobstruir el colon como puente a una cirugía electiva curativa en un solo tiempo.',
+              text: 'Primera línea en ausencia de necrosis: desvolvulación endoscópica con sonda rectal.',
+              say: 'Si no hay peritonitis ni signos de necrosis, el tratamiento inicial es la desvolvulación mediante proctosigmoidoscopía rígida o flexible y descompresión con sonda rectal.',
+            },
+            {
+              text: 'Cirugía electiva en la misma hospitalización; si hay necrosis, Operación de Hartmann urgente.',
+              say: 'Dada la recidiva sobre el cincuenta por ciento, se programa sigmoidectomía electiva en la misma hospitalización. Si la mucosa está negra o hay peritonitis, se realiza operación de Hartmann urgente.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vólvulo de ciego',
+      title: 'Asa en coma hacia hipocondrio izquierdo y conducta quirúrgica urgente',
+      cards: [
+        {
+          title: 'Fisiopatología y hallazgo radiográfico',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Falla en la fijación retroperitoneal del ciego y colon ascendente (ciego móvil).',
+              say: 'El vólvulo de ciego ocurre por anomalías de fijación embrionaria del ciego al retroperitoneo, originando un ciego móvil con mesenterio laxo en pacientes más jóvenes.',
+            },
+            {
+              text: 'Radiografía de abdomen: asa en coma o riñón que migra hacia el hipocondrio izquierdo.',
+              say: 'La imagen radiológica clásica es un asa dilatada que asciende desde la fosa ilíaca derecha hacia el hipocondrio izquierdo o epigastrio, adoptando forma de coma o de lágrima.',
+            },
+          ],
+        },
+        {
+          title: 'Conducta formal obligatoria',
+          kind: 'alert',
+          items: [
+            {
+              text: 'La desvolvulación endoscópica está formalmente contraindicada.',
+              say: 'Una trampa mayor del examen: nunca se intenta desvolvulación endoscópica en el vólvulo de ciego por tasa de éxito casi nula y altísimo riesgo de perforación cecal catastrófica.',
+            },
+            {
+              text: 'Tratamiento de elección: hemicolectomía derecha de urgencia.',
+              say: 'El tratamiento es siempre quirúrgico de urgencia: laparotomía o laparoscopía con hemicolectomía derecha con anastomosis ileocólica primaria o ileostomía según la estabilidad del paciente.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cáncer obstructivo',
+      title: 'Manejo del adenocarcinoma de colon izquierdo obstructivo',
+      cards: [
+        {
+          title: 'Presentación oncológica de urgencia',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Segunda causa de obstrucción colónica en adultos mayores sin cirugía previa.',
+              say: 'El adenocarcinoma estenosante de colon descendente o sigmoides es la etiología tumoral clásica en pacientes mayores que debutan con detención de gases y distensión progresiva.',
+            },
+          ],
+        },
+        {
+          title: 'Opciones de resolución quirúrgica',
+          kind: 'key',
+          items: [
+            {
+              text: 'Operación de Hartmann: procedimiento más seguro en peritonitis o paciente séptico inestable.',
+              say: 'En el paciente inestable, con ciego perforado o peritonitis fecal, la operación de Hartmann con sigmoidectomía oncológica y colostomía terminal es el estándar indiscutido.',
+            },
+            {
+              text: 'Stent colónico metálico autoexpandible como puente a cirugía electiva oncológica.',
+              say: 'En centros experimentados con pacientes sin peritonitis, se puede colocar un stent metálico autoexpandible por vía endoscópica que dilata la estenosis tumoral. Esto desobstruye el intestino y permite realizar una colectomía laparoscópica oncológica electiva en un solo tiempo.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diagnóstico funcional',
+      title: 'Íleo paralítico metabólico versus Íleo mecánico obstructivo',
+      cards: [
+        {
+          title: 'Íleo paralítico o metabólico',
+          kind: 'normal',
+          items: [
+            {
+              text: 'Atonía intestinal secundaria a cirugía reciente, peritonitis, fármacos opioides o hipokalemia.',
+              say: 'El íleo paralítico o adinámico es una detención del tránsito por inhibición neuromuscular difusa sin obstáculo mecánico. Es esperable en el postoperatorio inmediato de cirugía abdominal y se ve agravado por hipokalemia marcada o uso de opioides.',
+            },
+            {
+              text: 'Auscultación abdominal: silencio abdominal completo con ausencia de ruidos hidroaéreos.',
+              say: 'A la auscultación destaca silencio abdominal absoluto sin ruidos de lucha ni cólicos. El tratamiento es etiológico: corrección del potasio, suspensión de opioides y deambulación precoz.',
+            },
+          ],
+        },
+        {
+          title: 'Íleo mecánico obstructivo',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Obstáculo anatómico físico real con respuesta hiperperistáltica de lucha proximal.',
+              say: 'En cambio, el íleo mecánico cursa con dolor cólico paroxístico intenso y ruidos hidroaéreos de tono metálico aumentado, acompañados de borborigmos audibles a distancia y bazuqueo gástrico.',
             },
           ],
         },
@@ -249,35 +406,35 @@ module.exports = {
     {
       type: 'table',
       kicker: 'Diagnósticos diferenciales y trampas',
-      title: 'Trampas del EUNACOM en cuadros oclusivos y pseudooclusivos',
-      head: ['Patología simuladora', 'Perfil típico del paciente', 'Mecanismo o hallazgo clave', 'Conducta terapéutica correcta'],
+      title: 'Trampas clásicas del EUNACOM en obstrucción intestinal',
+      head: ['Escenario clínico', 'Error diagnóstico frecuente', 'Realidad fisiopatológica', 'Conducta correcta'],
       rows: [
         {
           cells: [
-            'Íleo paralítico o adinámico',
-            'Paciente postoperado abdominal reciente, en uso de opioides a altas dosis o con hipokalemia severa',
-            'Distensión difusa con silencio auscultatorio absoluto, sin ruidos metálicos de lucha y con gas distribuido en todo el marco colónico y delgado',
-            'Manejo de la causa de base: suspender opioides, corregir el potasio y deambulación precoz sin necesidad de cirugía.',
+            'Paciente añoso con distensión y vómitos',
+            'Omitir la palpación de regiones femorales e inguinales',
+            'Hernia crural atascada que pasa desapercibida bajo el panículo adiposo',
+            'Palpación meticulosa y obligatoria de todos los orificios herniarios en todo abdomen agudo.',
           ],
-          say: 'El íleo adinámico o paralítico ocurre con frecuencia tras cirugías abdominales, por hipokalemia grave o por sobredosis de opioides. A diferencia de la obstrucción mecánica, no hay dolor cólico en crisis ni ruidos de lucha, sino un abdomen distendido con silencio auscultatorio total y gas en todo el intestino. Se trata corrigiendo la causa de base.',
+          say: 'La trampa más clásica es olvidar palpar las ingles en pacientes ancianos con vómitos. Una hernia crural de apenas dos centímetros puede causar una oclusión mecánica completa de intestino delgado y necrosarse con rapidez.',
         },
         {
           cells: [
-            'Síndrome de Ogilvie (Pseudoobstrucción colónica aguda)',
-            'Paciente añoso postrado, traumatizado, con enfermedad neurológica o postcesárea en cama',
-            'Dilatación masiva y aislada del colon derecho y ciego sin ninguna lesión obstructiva mecánica visible en la tomografía',
-            'Descompresión médica con neostigmina endovenosa bajo monitorización cardíaca o descompresión colonoscópica.',
+            'Paciente con vólvulo de ciego',
+            'Intentar desvolvulación endoscópica como si fuera vólvulo de sigmoides',
+            'El vólvulo de ciego no responde a endoscopía y se perfora',
+            'Laparotomía o laparoscopía urgente con hemicolectomía derecha de inmediato.',
           ],
-          say: 'El síndrome de Ogilvie es una pseudoobstrucción colónica aguda caracterizada por una dilatación masiva del ciego y colon ascendente en pacientes añosos institucionalizados o postquirúrgicos, sin una lesión mecánica orgánica. Si el ciego supera diez a doce centímetros, se trata con neostigmina endovenosa o descompresión colonoscópica para evitar la perforación cecal.',
+          say: 'Jamás intentes desvolvular por colonoscopía un vólvulo de ciego. A diferencia del sigmoides, el ciego móvil requiere cirugía de urgencia inmediata con hemicolectomía derecha.',
         },
         {
           cells: [
-            'Hernia crural atascada en mujer añosa',
-            'Mujer mayor delgada que consulta por vómitos y dolor abdominal cólico con distensión leve',
-            'Masa dolorosa, no reductible, de pequeño tamaño ubicada exactamente por debajo del ligamento inguinal',
-            'Cirugía de urgencia inmediata para hernioplastia y eventual resección intestinal si hay sufrimiento.',
+            'Paciente obstruido con dolor que se vuelve continuo y taquicardia',
+            'Mantener manejo médico conservador con sonda nasogástrica',
+            'El dolor continuo y la taquicardia traducen estrangulación y necrosis de asa',
+            'Suspender manejo médico y pasar de inmediato a pabellón para laparotomía de urgencia.',
           ],
-          say: 'Una clásica trampa del examen consiste en presentar una paciente anciana con cuadro de obstrucción de intestino delgado sin cirugías previas. El examinador siempre debe buscar una hernia crural pequeña e inadvertida en la raíz del muslo. Requiere cirugía de urgencia inmediata.',
+          say: 'Si un paciente con obstrucción por bridas en tratamiento conservador deja de tener dolor cólico y desarrolla dolor continuo con taquicardia persistente o hiperlactatemia, suspende de inmediato la observación y llévalo a quirófano por sufrimiento de asa.',
         },
       ],
     },
@@ -285,66 +442,44 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Diciembre 2018 · Pregunta 53',
-      caseText: 'Un paciente de treinta y ocho años, con antecedente de cirugía bariátrica previa, consulta por dolor abdominal tipo cólico y vómitos de diez horas de evolución, que inició al día siguiente de una gran ingesta de alcohol y alimentos. Refiere que no ha eliminado gases. Al examen físico está adolorido, con frecuencia cardíaca de ciento seis por minuto, presión arterial de ciento veinte con ochenta y temperatura de treinta y siete coma seis grados. El abdomen se aprecia distendido y es doloroso a la palpación, sin signo de Blumberg. Se auscultan ruidos hidroaéreos aumentados de intensidad y bazuqueo. ¿Cuál es el diagnóstico más probable?',
+      title: 'EUNACOM Enero 2023 · Pregunta 173',
+      caseText: 'Paciente con antecedente de apendicectomía previa hace cinco años, quien consulta por dolor abdominal cólico difuso, distensión abdominal progresiva y detención completa en la eliminación de gases y deposiciones por ano desde hace veinticuatro horas. Al examen físico se auscultan ruidos hidroaéreos de tono metálico aumentados en frecuencia. ¿Cuál es el diagnóstico más probable?',
       question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Pancreatitis aguda', isCorrect: false },
-        { letter: 'B', text: 'Embolia mesentérica', isCorrect: false },
-        { letter: 'C', text: 'Úlcera gastroduodenal complicada', isCorrect: false },
-        { letter: 'D', text: 'Colecistitis aguda', isCorrect: false },
-        { letter: 'E', text: 'Obstrucción intestinal por bridas', isCorrect: true },
+        { letter: 'A', text: 'Obstrucción intestinal por bridas', isCorrect: true },
+        { letter: 'B', text: 'Vólvulo de colon sigmoide', isCorrect: false },
+        { letter: 'C', text: 'Íleo paralítico postoperatorio tardío', isCorrect: false },
+        { letter: 'D', text: 'Hernia inguinal incarcerada', isCorrect: false },
+        { letter: 'E', text: 'Cáncer de colon obstructivo', isCorrect: false },
       ],
-      correct: 'E',
+      correct: 'A',
       say: {
-        stem: 'Revisemos esta pregunta real de diciembre de dos mil dieciocho. Un paciente de treinta y ocho años con antecedente de cirugía bariátrica consulta por dolor cólico, vómitos, ausencia de eliminación de gases y distensión abdominal. En la auscultación presenta ruidos de lucha aumentados y bazuqueo, sin signos de peritonitis.',
+        stem: 'Revisemos esta pregunta oficial de enero de dos mil veintitrés. Un paciente con antecedente de apendicectomía presenta dolor cólico, distensión, detención de gases y deposiciones, y ruidos hidroaéreos aumentados de tono metálico.',
         question: 'Nos consultan por el diagnóstico más probable.',
-        options: 'Las alternativas son: opción A, pancreatitis aguda; opción B, embolia mesentérica; opción C, úlcera gastroduodenal complicada; opción D, colecistitis aguda; y opción E, obstrucción intestinal por bridas.',
-        answer: 'La respuesta correcta es la opción E, obstrucción intestinal por bridas. El antecedente quirúrgico de laparotomía o laparoscopía bariátrica previa es el factor de riesgo fundamental. El cuadro clínico reúne el tetraedro típico de obstrucción de intestino delgado con ruidos de lucha conservados.',
+        options: 'Las alternativas son: opción A, obstrucción intestinal por bridas; opción B, vólvulo de colon sigmoide; opción C, íleo paralítico postoperatorio tardío; opción D, hernia inguinal incarcerada; y opción E, cáncer de colon obstructivo. Piénsalo.',
+        answer: 'La respuesta correcta es la opción A, obstrucción intestinal por bridas. El antecedente de cirugía abdominal previa sumado a la clínica clásica de dolor cólico, distensión y ruidos metálicos de lucha apunta directamente a adherencias peritoneales como causa de oclusión mecánica del intestino delgado.',
       },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Diciembre 2022 · Pregunta 128',
-      caseText: 'Un paciente de cincuenta y ocho años presenta dolor abdominal intenso, tipo cólico, asociado a náuseas y distensión abdominal. Sus últimas deposiciones fueron hace dos días y no ha eliminado gases por ano desde ayer. Sus signos vitales muestran temperatura de treinta y seis coma ocho grados, frecuencia cardíaca de noventa y seis por minuto, presión arterial de ciento cuarenta y cuatro con noventa y dos. Abdomen distendido, doloroso a la palpación, con signo de Blumberg esbozado. En la auscultación abdominal presenta bazuqueo intestinal y disminución de los ruidos hidroaéreos. Como antecedentes médico-quirúrgicos, es diabético en metformina y se realizó apendicectomía hace diez años. ¿Cuál es el diagnóstico más probable?',
+      title: 'EUNACOM Julio 2024 · Pregunta 117',
+      caseText: 'Un paciente de cuarenta años con antecedente de cirugía bariátrica presenta un cuadro de veinticuatro horas de dolor abdominal muy intenso, tipo cólico, asociado a múltiples episodios de vómitos alimentarios. Al examen físico presenta temperatura de treinta y ocho coma cinco grados Celsius, frecuencia cardíaca regular de ciento ocho latidos por minuto y presión arterial de cien con sesenta milímetros de mercurio. Al examen abdominal se observa abdomen distendido, doloroso a la palpación con resistencia muscular difusa, auscultándose bazuqueo intestinal y ruidos hidroaéreos intensos de tono metálico. ¿Cuál es el diagnóstico más probable?',
       question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Vólvulo de sigmoides', isCorrect: false },
-        { letter: 'B', text: 'Isquemia mesentérica', isCorrect: false },
-        { letter: 'C', text: 'Gastroenteritis aguda', isCorrect: false },
-        { letter: 'D', text: 'Obstrucción intestinal', isCorrect: true },
-        { letter: 'E', text: 'Cáncer de colon perforado', isCorrect: false },
+        { letter: 'A', text: 'Íleo mecánico por bridas', isCorrect: true },
+        { letter: 'B', text: 'Perforación intestinal', isCorrect: false },
+        { letter: 'C', text: 'Isquemia mesentérica arterial aguda', isCorrect: false },
+        { letter: 'D', text: 'Colitis isquémica', isCorrect: false },
+        { letter: 'E', text: 'Gastroenteritis aguda bacteriana', isCorrect: false },
       ],
-      correct: 'D',
+      correct: 'A',
       say: {
-        stem: 'Analicemos esta pregunta de diciembre de dos mil veintidós. Un paciente de cincuenta y ocho años con antecedente de apendicectomía previa debuta con dolor cólico, distensión, ausencia de deposiciones y gases, y bazuqueo auscultatorio.',
-        question: 'Se pregunta cuál es el diagnóstico más probable.',
-        options: 'Las alternativas son: opción A, vólvulo de sigmoides; opción B, isquemia mesentérica; opción C, gastroenteritis aguda; opción D, obstrucción intestinal; y opción E, cáncer de colon perforado.',
-        answer: 'La respuesta correcta es la opción D, obstrucción intestinal mecánica. El cuadro es categórico para un síndrome oclusivo secundario a bridas o adherencias postapendicectomía, con detención de evacuaciones y dilatación con bazuqueo.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      caseText: 'Un hombre de setenta y cuatro años, institucionalizado por demencia senil y con antecedente de constipación crónica pertinaz, es llevado a urgencias por distensión abdominal masiva y progresiva de cuarenta y ocho horas de evolución, sin emisión de heces ni gases. Al examen físico está afebril, hemodinámicamente estable, con abdomen enormemente distendido y timpánico, indoloro a la palpación superficial y sin signos de irritación peritoneal. La radiografía simple de abdomen muestra una gran asa en omega que se origina en la pelvis y asciende hasta el cuadrante superior derecho con aspecto en grano de café. ¿Cuál es la conducta inicial de elección?',
-      question: '¿Cuál es la conducta inicial de elección?',
-      options: [
-        { letter: 'A', text: 'Laparotomía exploradora de urgencia con operación de Hartmann', isCorrect: false },
-        { letter: 'B', text: 'Desvolvulación y descompresión endoscópica mediante rectosigmoidoscopía', isCorrect: true },
-        { letter: 'C', text: 'Instalación de sonda nasogástrica y tratamiento médico exclusivo', isCorrect: false },
-        { letter: 'D', text: 'Administración de enemas evacuantes de fosfato y laxantes orales', isCorrect: false },
-        { letter: 'E', text: 'Punción descompresiva percutánea con aguja de la pared abdominal', isCorrect: false },
-      ],
-      correct: 'B',
-      say: {
-        stem: 'Revisemos este caso representativo de vólvulo de sigmoides. Un paciente anciano con constipación crónica presenta distensión masiva indolora y una radiografía clásica con signo del grano de café, sin signos de peritonitis ni compromiso hemodinámico.',
-        question: 'Nos consultan por la conducta inicial de elección.',
-        options: 'Las opciones son: opción A, laparotomía exploradora con operación de Hartmann; opción B, desvolvulación y descompresión endoscópica mediante rectosigmoidoscopía; opción C, sonda nasogástrica y tratamiento médico exclusivo; opción D, enemas evacuantes; y opción E, punción con aguja.',
-        answer: 'La respuesta correcta es la opción B. Ante un vólvulo de sigmoides no complicado, sin necrosis mucosa ni signos peritoneales, el procedimiento inicial de elección es la desvolvulación y descompresión endoscópica mediante sigmoidoscopía rígida o flexible. Esto resuelve la urgencia y permite planificar una cirugía electiva en la misma hospitalización.',
+        stem: 'Analicemos esta pregunta oficial de julio de dos mil veinticuatro. Un paciente joven con antecedente de bypass o cirugía bariátrica previa presenta veinticuatro horas de dolor cólico intenso, vómitos repetidos, distensión, bazuqueo y ruidos de lucha metálicos.',
+        question: 'Se nos consulta por el diagnóstico más probable entre las opciones.',
+        options: 'Las alternativas son: opción A, íleo mecánico por bridas; opción B, perforación intestinal; opción C, isquemia mesentérica arterial aguda; opción D, colitis isquémica; y opción E, gastroenteritis aguda bacteriana. Piénsalo.',
+        answer: 'La respuesta oficial es la opción A, íleo mecánico por bridas. El cuadro reúne la tríada cardinal de dolor cólico, distensión y vómitos con signos de lucha en un paciente con antecedente quirúrgico de cavidad abdominal abierta.',
       },
     },
 
@@ -358,20 +493,20 @@ module.exports = {
           kind: 'key',
           items: [
             {
-              text: 'Causas cardinales: bridas en intestino delgado y cáncer en colon.',
-              say: 'Primera regla: la causa más frecuente de obstrucción mecánica en intestino delgado son las bridas postoperatorias; en el colon, la causa predominante es el cáncer colorrectal, seguido del vólvulo sigmoideo.',
+              text: 'Las bridas son la causa número uno en delgado y el cáncer en colon.',
+              say: 'Primera regla: la etiología más frecuente de oclusión en intestino delgado son las adherencias o bridas postoperatorias; en colon de adultos mayores es el adenocarcinoma de colon.',
             },
             {
-              text: 'Dolor continuo, fiebre o lactato elevado exigen laparotomía inmediata.',
-              say: 'Segunda regla: el dolor que deja de ser cólico y se torna continuo, la fiebre, la taquicardia o la elevación del lactato traducen estrangulación y sufrimiento de asa, obligando a cirugía inmediata.',
+              text: 'El dolor continuo y la taquicardia alertan sobre estrangulación.',
+              say: 'Segunda regla: si el dolor cólico intermitente se transforma en dolor continuo, punzante y se asocia a taquicardia o hiperlactatemia, indica sufrimiento vascular y exige laparotomía de urgencia.',
             },
             {
-              text: 'Las bridas sin estrangulación se manejan médicamente por veinticuatro a cuarenta y ocho horas.',
-              say: 'Tercera regla: la obstrucción por bridas sin signos peritoneales se maneja inicialmente con reposo gástrico mediante sonda nasogástrica e hidratación endovenosa por veinticuatro a cuarenta y ocho horas.',
+              text: 'Vólvulo de sigmoides se desvolvula por endoscopía; el de ciego va a pabellón.',
+              say: 'Tercera regla: el vólvulo de sigmoides no complicado se trata inicialmente con desvolvulación endoscópica y sonda rectal; en cambio, el vólvulo de ciego requiere hemicolectomía derecha urgente sin intentar endoscopía.',
             },
             {
-              text: 'El vólvulo de sigmoides estable se descomprime primero por vía endoscópica.',
-              say: 'Cuarta regla: el vólvulo de sigmoides sin peritonitis ni necrosis se trata inicialmente con desvolvulación endoscópica; si hay necrosis o perforación, la conducta es la operación de Hartmann urgente.',
+              text: 'Dilatación cecal crítica mayor a diez a doce centímetros por Laplace.',
+              say: 'Cuarta regla: en obstrucción colónica con válvula continente en asa cerrada, un diámetro cecal mayor a diez a doce centímetros implica peligro inminente de perforación diastásica.',
             },
           ],
         },
@@ -380,8 +515,8 @@ module.exports = {
           kind: 'normal',
           items: [
             {
-              text: 'Palpar siempre orificios herniarios y vigilar el ciego en asa cerrada.',
-              say: 'Si te llevas una sola idea de hoy: en todo paciente con abdomen distendido debes palpar los orificios herniarios para descartar una hernia crural atascada, y recordar que un ciego mayor a diez a doce centímetros en asa cerrada está al borde de la perforación diastásica. Nos vemos en la próxima clase.',
+              text: 'Palpar los orificios herniarios inguinales y crurales en todo paciente obstruido.',
+              say: 'Si te llevas una sola idea de hoy: nunca diagnostiques un abdomen distendido y vomitador sin palpar prolijamente las ingles en busca de una hernia atascada. Nos vemos en la próxima clase.',
             },
           ],
         },
@@ -390,98 +525,89 @@ module.exports = {
   ],
 
   pathway: {
-    title: 'Algoritmo de Decisión Terapéutica en Obstrucción Intestinal Mecánica',
+    title: 'Algoritmo Diagnóstico y Conducta en Obstrucción Intestinal Mecánica',
     root: N(
       'start',
-      'Sospecha de obstrucción intestinal mecánica',
-      'Tetraedro: dolor cólico · vómitos · distensión · detención de gases y heces',
-      'Iniciamos el enfrentamiento clínico evaluando la presencia de signos de sufrimiento de asa o estrangulación.',
+      'Sospecha clínica de obstrucción intestinal',
+      'Dolor cólico · distensión abdominal · vómitos · detención de gases y heces',
+      'Iniciamos el enfrentamiento clínico confirmando la oclusión y evaluando signos de estrangulación vascular.',
       [
-        'Signos de estrangulación presentes',
+        'Signos de estrangulación o peritonitis',
         N(
           'alert',
-          'Sufrimiento de asa o peritonitis difusa',
-          'Dolor continuo · fiebre · taquicardia · Blumberg (+) · lactato elevado',
-          'Si el dolor se vuelve continuo o hay peritonismo y lactato elevado, asumimos estrangulación y contraindicamos el manejo conservador.',
+          'Sufrimiento de asa o abdomen en tabla',
+          'Dolor continuo no cólico · fiebre · taquicardia · lactato elevado · Blumberg',
+          'Ante cualquier sospecha de estrangulación o perforación libre, se suspende la observación y se indica pabellón de inmediato.',
           [
-            'Conducta de urgencia',
+            'Cirugía de urgencia inmediata',
             N(
               'do',
-              'Laparotomía o laparoscopía exploradora de urgencia',
-              'Reanimación con fluidos EV + antibióticos + cirugía descompresiva y resección',
-              'Indicamos cirugía de urgencia inmediata para resecación del segmento desvitalizado y liberación de la obstrucción.',
+              'Laparotomía exploradora urgente',
+              'Reanimación agresiva con cristaloides + profilaxis antibiótica + pabellón',
+              'Ingreso urgente a quirófano para resecación de asas necróticas y resolución de la causa.',
             ),
           ],
         ),
       ],
       [
-        'Sin signos de estrangulación',
+        'Sin estrangulación: definir etiología',
         N(
           'q',
-          'Determinar nivel y causa anatómica de la obstrucción',
-          'Radiografía simple de abdomen y tomografía computarizada con contraste',
-          'En ausencia de peritonitis, solicitamos estudio imagenológico para identificar la causa exacta del bloqueo.',
+          'Estudio imagenológico con radiografía o tomografía',
+          'Localización del nivel obstructivo: delgado versus colon',
+          'Identificamos si el nivel del obstáculo se sitúa en intestino delgado o marco colónico.',
           [
             'Intestino delgado con antecedente quirúrgico (Bridas)',
             N(
               'do',
-              'Tratamiento médico conservador inicial',
-              'Sonda nasogástrica a caída libre + régimen cero + fluidos EV',
-              'En bridas no complicadas indicamos sonda nasogástrica e hidratación parenteral vigorosa durante veinticuatro a cuarenta y ocho horas.',
+              'Manejo médico conservador inicial por 24 a 48 h',
+              'Régimen cero · reposición con cristaloides · sonda nasogástrica · Gastrografin',
+              'Iniciamos descompresión gástrica y reposición hidroelectrolítica vigorosa.',
               [
-                'Resolución clínica < 48 horas',
+                'Resolución médica favorable',
                 N(
                   'ok',
-                  'Éxito del manejo conservador',
-                  'Disminución del débito por SNG · eliminación de gases · realimentación',
-                  'Si el paciente reanuda el tránsito y disminuye el débito por sonda, retiramos la sonda nasogástrica y reiniciamos vía oral.',
+                  'Retiro de sonda y realimentación progresiva',
+                  'Eliminación de gases y heces con remisión de distensión',
+                  'Se resuelve favorablemente en más del setenta por ciento sin necesidad de cirugía.',
                 ),
               ],
               [
-                'Fracaso médico o persistencia a las 48 horas',
+                'Falla a las 48 horas o aparición de alarma',
                 N(
                   'alert',
-                  'Cirugía: Adhesiolisis quirúrgica',
-                  'Ausencia de progreso clínico o aumento de residuo gástrico',
-                  'Si no resuelve en cuarenta y ocho horas, indicamos cirugía para liberación de bridas y adherencias.',
+                  'Laparotomía o laparoscopía por bridas',
+                  'Adhesiolisis quirúrgica urgente',
+                  'Si persiste obstruido tras cuarenta y ocho horas se interviene para liberar la brida.',
                 ),
               ],
             ),
           ],
           [
-            'Vólvulo de sigmoides confirmado (Grano de café)',
-            N(
-              'q',
-              'Evaluar indemnidad de mucosa y signos peritoneales',
-              'Asa en omega · ciego y colon ascendente dilatados',
-              'Frente a un vólvulo de sigmoides, evaluamos la presencia de peritonitis o necrosis transmural.',
-              [
-                'Paciente estable sin signos de necrosis',
-                N(
-                  'do',
-                  'Desvolvulación y descompresión endoscópica',
-                  'Sigmoidoscopía con sonda rectal descompresiva',
-                  'Realizamos desvolvulación endoscópica descompresiva e indicamos sigmoidectomía electiva en la misma hospitalización.',
-                ),
-              ],
-              [
-                'Mucosa necrótica o peritonitis generalizada',
-                N(
-                  'alert',
-                  'Operación de Hartmann de urgencia',
-                  'Laparotomía inmediata · sigmoidectomía y colostomía terminal',
-                  'Ante necrosis o peritonitis, indicamos laparotomía de urgencia para realizar la operación de Hartmann.',
-                ),
-              ],
-            ),
-          ],
-          [
-            'Cáncer de colon obstructivo',
+            'Vólvulo de colon sigmoides confirmado',
             N(
               'do',
-              'Cirugía de urgencia vs Stent colónico',
-              'Operación de Hartmann o prótesis metálica autoexpandible como puente',
-              'En neoplasia obstructiva colónica se indica operación de Hartmann o stent colónico en centros especializados.',
+              'Desvolvulación endoscópica con proctosigmoidoscopía',
+              'Inspección mucosa y descompresión con sonda rectal transitoria',
+              'En ausencia de necrosis mucosa, realizamos desvolvulación endoscópica de primera línea.',
+              [
+                'Desvolvulación exitosa',
+                N(
+                  'ok',
+                  'Sigmoidectomía electiva diferida en misma hospitalización',
+                  'Resección con anastomosis primaria para prevenir recurrencia',
+                  'Se programa cirugía electiva para erradicar la recurrencia que supera el cincuenta por ciento.',
+                ),
+              ],
+            ),
+          ],
+          [
+            'Cáncer de colon o vólvulo cecal',
+            N(
+              'do',
+              'Resolución quirúrgica urgente',
+              'Hemicolectomía derecha (vólvulo ciego) · Hartmann o stent (cáncer)',
+              'El vólvulo cecal va a hemicolectomía derecha de urgencia; el cáncer a Hartmann o stent descompresivo.',
             ),
           ],
         ),

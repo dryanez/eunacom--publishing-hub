@@ -58,6 +58,42 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Patogenia y anatomía colónica',
+      title: 'Pseudodivertículos y divergencia clínica: diverticulitis versus hemorragia',
+      cards: [
+        {
+          title: 'Anatomía de los pseudodivertículos',
+          kind: 'key',
+          items: [
+            {
+              text: 'Herniación adquirida de mucosa y submucosa a través de brechas en la capa muscular circular.',
+              say: 'Los divertículos colónicos son pseudodivertículos o divertículos falsos porque carecen de la túnica muscular propia. Protruyen a través de las brechas anatómicas por donde ingresan los vasos sanguíneos rectos entre las tenias cólicas.',
+            },
+            {
+              text: 'Predominio absoluto en colon sigmoides por ley de Laplace y altas presiones intraluminales.',
+              say: 'De acuerdo con la ley de Laplace, el colon sigmoides es el segmento más estrecho del colon, por lo que genera las presiones de segmentación más elevadas frente a heces duras. Por eso más del noventa por ciento de la diverticulosis se concentra en el sigmoides.',
+            },
+          ],
+        },
+        {
+          title: 'Diferencia fundamental con hemorragia diverticular',
+          kind: 'alert',
+          items: [
+            {
+              text: 'La hemorragia diverticular es típicamente indolora, masiva y de colon derecho.',
+              say: 'Un contraste cardinal para el examen: la hemorragia diverticular cursa con sangrado rectal masivo de instalación súbita, sin dolor abdominal ni signos inflamatorios, y predomina en divertículos del colon derecho.',
+            },
+            {
+              text: 'La diverticulitis aguda cursa con dolor intenso, fiebre y leucocitosis sin sangrado macroscópico.',
+              say: 'En cambio, la diverticulitis aguda se caracteriza por inflamación parietal exquisita en la fosa ilíaca izquierda, fiebre y leucocitosis, pero casi nunca se asocia a hemorragia digestiva masiva.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Semiología y presentación clínica',
       title: 'Apendicitis del lado izquierdo: sospecha clínica en el adulto mayor',
       cards: [
@@ -89,13 +125,39 @@ module.exports = {
             },
           ],
         },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Complicaciones por contigüidad',
+      title: 'Fístula colovesical y sintomatología urinaria asociada',
+      cards: [
         {
-          title: 'Signos de alarma de peritonitis generalizada',
+          title: 'Fístula colovesical',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Complicación fistulosa más común de la diverticulitis recurrente.',
+              say: 'La fístula colovesical es la fístula digestiva más frecuente en la enfermedad diverticular, originada por la adherencia y erosión inflamatoria del colon sigmoides sobre la cúpula vesical. Es tres veces más común en hombres debido a la interposición del útero en mujeres.',
+            },
+            {
+              text: 'Neumaturia y fecaluria: síntomas patognomónicos en la orina.',
+              say: 'Los síntomas cardinales y patognomónicos son la neumaturia, descrita como expulsión de burbujas de gas con la orina, y la fecaluria o salida de restos fecales microscópicos o macroscópicos por la uretra, acompañada de infecciones urinarias a repetición por flora polimicrobiana entérica.',
+            },
+          ],
+        },
+        {
+          title: 'Diagnóstico y manejo de la fístula',
           kind: 'key',
           items: [
             {
-              text: 'Abdomen en tabla, descompresión difusa en los cuatro cuadrantes e hipotensión.',
-              say: 'La presencia de contractura muscular involuntaria generalizada, dolor a la descompresión en todo el abdomen y signos de respuesta inflamatoria sistémica o hipotensión arterial alertan de inmediato sobre una perforación a cavidad libre con peritonitis purulenta o fecaloidea.',
+              text: 'Tomografía computarizada con contraste oral y endovenoso: presencia de gas en la vejiga.',
+              say: 'La tomografía axial computarizada confirma el diagnóstico al evidenciar aire en el interior de la vejiga en un paciente no sondado y el engrosamiento inflamatorio en contacto con el sigmoides.',
+            },
+            {
+              text: 'Tratamiento definitivo: resección sigmoidea electiva y cierre de la brecha vesical.',
+              say: 'El manejo definitivo es quirúrgico electivo: resección del segmento colónico enfermo con anastomosis primaria y reparación simple de la pared vesical.',
             },
           ],
         },
@@ -140,11 +202,11 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Diagnóstico tomográfico y contraindicaciones',
-      title: 'Tomografía axial computarizada de elección y exámenes prohibidos',
+      kicker: 'Diagnóstico tomográfico',
+      title: 'Tomografía axial computarizada de abdomen y pelvis de elección',
       cards: [
         {
-          title: 'Estándar de oro: Tomografía de abdomen y pelvis con contraste',
+          title: 'Estándar de oro indiscutido en la fase aguda',
           kind: 'key',
           items: [
             {
@@ -158,26 +220,66 @@ module.exports = {
           ],
         },
         {
-          title: 'Contraindicación absoluta: Colonoscopía y enema baritado',
+          title: 'Rol de la ecografía abdominal',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Utilidad como examen de tamizaje inicial cuando no se dispone de tomografía inmediata.',
+              say: 'Aunque la ecografía puede detectar engrosamiento parietal y dolor focal bajo el transductor, tiene menor sensibilidad en presencia de abundante gas intestinal y no delimita con precisión la profundidad de los abscesos retroperitoneales.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Seguridad clínica',
+      title: 'Exámenes contraindicados en fase aguda: Colonoscopía y enema baritado',
+      cards: [
+        {
+          title: 'Colonoscopía prohibida en la fase aguda',
           kind: 'alert',
           items: [
             {
-              text: 'La colonoscopía está estrictamente prohibida durante la fase aguda de diverticulitis.',
-              say: 'Una de las preguntas más clásicas y sancionadas del EUNACOM: la colonoscopía y el enema baritado están formalmente contraindicados en la fase aguda de diverticulitis. La insuflación de aire o presión de bario en un colon friable puede transformar una microperforación sellada en una perforación libre con peritonitis fecal masiva.',
+              text: 'La colonoscopía está estrictamente contraindicada durante el episodio agudo.',
+              say: 'Una de las preguntas más clásicas y sancionadas del EUNACOM: la colonoscopía está formalmente contraindicada en la fase aguda de diverticulitis. La insuflación de aire endoscópica sobre una pared colónica isquémica y friable transforma una microperforación sellada en una perforación libre a cavidad peritoneal.',
             },
             {
-              text: 'El enema baritado corre el riesgo de causar peritonitis química por bario con altísima letalidad.',
-              say: 'El bario libre en la cavidad peritoneal produce una peritonitis química gravísima con granulomatosis y adherencias inextirpables. Por ello, nunca se solicita enema en abdomen agudo.',
+              text: 'Riesgo de perforación iatrogénica y peritonitis fecal catastrófica.',
+              say: 'Insuflar aire a presión puede desprender el epiplón bloqueador y provocar peritonitis fecal aguda que requiere cirugía de urgencia con colostomía.',
             },
           ],
         },
         {
-          title: 'Colonoscopía diferida obligatoria a las seis a ocho semanas',
-          kind: 'criteria',
+          title: 'Enema baritado formalmente proscrito',
+          kind: 'alert',
           items: [
             {
-              text: 'Colonoscopía total obligatoria tras seis a ocho semanas del episodio agudo resuelto.',
-              say: 'Una vez que el paciente se recupera por completo del episodio agudo y transcurren seis a ocho semanas, es obligatorio solicitar una colonoscopía completa de seguimiento. El objetivo es descartar un adenocarcinoma de colon, ya que hasta un tres a cinco por ciento de las masas inflamatorias corresponden a un cáncer de colon perforado enmascarado.',
+              text: 'El enema con bario produce peritonitis química grave por extravasación.',
+              say: 'El enema con bario está proscrito en abdomen agudo. La extravasación del sulfato de bario al peritoneo desencadena una peritonitis química gravísima con granulomas por cuerpo extraño, adherencias masivas y una mortalidad superior al cincuenta por ciento.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Seguimiento oncológico obligatorio',
+      title: 'Colonoscopía diferida a las seis a ocho semanas',
+      cards: [
+        {
+          title: 'Momento de realización: seis a ocho semanas',
+          kind: 'key',
+          items: [
+            {
+              text: 'Colonoscopía completa una vez resuelto en su totalidad el cuadro inflamatorio agudo.',
+              say: 'Una vez superado el cuadro agudo, cuando han transcurrido seis a ocho semanas y la inflamación de la pared colónica ha desaparecido, es mandatorio realizar una colonoscopía completa de control.',
+            },
+            {
+              text: 'Objetivo imperativo: descartar adenocarcinoma de colon enmascarado.',
+              say: 'El objetivo crítico de esta colonoscopía es descartar un cáncer colorrectal perforado o estenosante. Entre un tres y cinco por ciento de los cuadros catalogados inicialmente como diverticulitis complicada corresponden en realidad a un adenocarcinoma de colon que se perforó.',
             },
           ],
         },
@@ -193,44 +295,98 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Manejo invasivo y quirúrgico',
-      title: 'Drenaje percutáneo versus Operación de Hartmann',
+      kicker: 'Manejo médico escalonado',
+      title: 'Manejo ambulatorio versus hospitalización y antibióticos',
       cards: [
         {
-          title: 'Drenaje percutáneo en Hinchey II',
+          title: 'Manejo ambulatorio en Hinchey 0 e Ia seleccionados',
           kind: 'key',
           items: [
             {
-              text: 'Tratamiento de elección para abscesos mayores o iguales a tres o cuatro centímetros.',
-              say: 'En el estadio Hinchey dos, ante un absceso pélvico o retroperitoneal de cuatro centímetros o más accesible por punción, la conducta de elección es el drenaje percutáneo guiado por tomografía computarizada o ecografía, instalando un catéter tipo cola de cerdo.',
-            },
-            {
-              text: 'Evita la cirugía de urgencia con estoma y permite resección electiva en un solo tiempo.',
-              say: 'El drenaje percutáneo evacúa el foco séptico, revierte la inflamación aguda y permite transformar una cirugía de urgencia con colostomía en una resección electiva diferida con anastomosis primaria sin ostomía.',
+              text: 'Paciente joven, afebril, con tolerancia oral conservada y buen soporte familiar.',
+              say: 'En diverticulitis no complicada Hinchey cero o uno a en pacientes previamente sanos, afebriles, con dolor leve y buena tolerancia oral, es posible el manejo ambulatorio con régimen líquido, reposo relativo y analgesia con paracetamol.',
             },
           ],
         },
         {
-          title: 'Operación de Hartmann en peritonitis generalizada',
+          title: 'Criterios de hospitalización obligada',
           kind: 'alert',
           items: [
             {
-              text: 'Indicación categórica en Hinchey III y IV o falla séptica de drenaje percutáneo.',
-              say: 'La cirugía de urgencia es imperativa ante peritonitis generalizada purulenta o fecaloidea, inestabilidad hemodinámica persistente o falla del drenaje percutáneo con shock séptico progresivo.',
+              text: 'Fiebre alta, intolerancia a la vía oral, leucocitosis mayor a quince mil o inmunodepresión.',
+              say: 'La hospitalización es imperativa ante fiebre superior a treinta y ocho coma cinco grados, vómitos con intolerancia oral, leucocitosis marcada, edad avanzada, comorbilidades severas o pacientes inmunodeprimidos.',
             },
             {
-              text: 'Tres tiempos de la técnica: resección sigmoidea, cierre de muñón rectal y colostomía terminal.',
-              say: 'La operación de Hartmann consiste en resecar el segmento de colon sigmoides perforado y necrótico, cerrar el muñón rectal en fondo de saco ciego dentro de la pelvis y abocar el colon descendente proximal como colostomía terminal en la fosa ilíaca izquierda. El tránsito intestinal puede reconstruirse meses más tarde.',
+              text: 'Esquema parenteral: Ceftriaxona un gramo cada veinticuatro horas más Metronidazol quinientos miligramos cada ocho horas.',
+              say: 'En el paciente hospitalizado iniciamos régimen cero, hidratación endovenosa y cobertura antibiótica que abarque bacilos gramnegativos entéricos y anaerobios como Bacteroides fragilis, utilizando Ceftriaxona más Metronidazol endovenosos.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Terapia intervencional',
+      title: 'Drenaje percutáneo guiado por tomografía en Hinchey II',
+      cards: [
+        {
+          title: 'Indicación de drenaje percutáneo',
+          kind: 'key',
+          items: [
+            {
+              text: 'Tratamiento de elección para abscesos pélvicos o retroperitoneales mayores o iguales a cuatro centímetros.',
+              say: 'En el estadio Hinchey dos, ante un absceso a distancia pélvico o retroperitoneal de cuatro centímetros o más accesible por punción, la conducta de elección es el drenaje percutáneo guiado por tomografía o ecografía con un catéter tipo cola de cerdo.',
+            },
+            {
+              text: 'Evita la colostomía de urgencia y permite resección electiva con anastomosis primaria.',
+              say: 'El drenaje percutáneo evacúa el foco purulento sin necesidad de abrir el abdomen. Esto revierte el cuadro séptico y permite programar semanas después una sigmoidectomía electiva con anastomosis primaria, evitando al paciente una colostomía.',
             },
           ],
         },
         {
-          title: 'Esquemas antimicrobianos recomendados',
-          kind: 'pharma',
+          title: 'Falla del drenaje o abscesos no accesibles',
+          kind: 'alert',
           items: [
             {
-              text: 'Cobertura de bacilos gramnegativos entéricos y anaerobios como Bacteroides fragilis.',
-              say: 'El tratamiento antimicrobiano debe cubrir bacilos gramnegativos y anaerobios. El esquema parenteral de primera línea hospitalario es Ceftriaxona un gramo cada veinticuatro horas endovenoso más Metronidazol quinientos miligramos cada ocho horas endovenoso, o bien Ciprofloxacino más Metronidazol.',
+              text: 'Si el absceso no es accesible o el paciente no mejora en cuarenta y ocho horas, se indica cirugía.',
+              say: 'Si el absceso es inaccesible por estar rodeado de asas delgadas o si no hay mejoría clínica tras cuarenta y ocho horas de drenaje percutáneo, se debe proceder a laparotomía exploradora de urgencia.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Manejo quirúrgico de urgencia',
+      title: 'Operación de Hartmann en peritonitis purulenta y fecaloidea',
+      cards: [
+        {
+          title: 'Indicación imperativa en Hinchey III y IV',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Peritonitis generalizada purulenta o fecaloidea con inestabilidad hemodinámica.',
+              say: 'La cirugía de urgencia es inmediata ante peritonitis generalizada libre, shock séptico persistente o perforación colónica masiva con heces en cavidad.',
+            },
+            {
+              text: 'La técnica estándar tradicional de urgencia es la Operación de Hartmann.',
+              say: 'La operación de Hartmann sigue siendo el procedimiento más seguro y estándar en el paciente séptico inestable con peritonitis fecal.',
+            },
+          ],
+        },
+        {
+          title: 'Tiempos quirúrgicos de la técnica de Hartmann',
+          kind: 'key',
+          items: [
+            {
+              text: 'Resección del segmento sigmoideo perforado y lavado peritoneal profuso.',
+              say: 'El primer paso es la sigmoidectomía: se extirpa el segmento de colon sigmoides perforado y gangrenoso, y se realiza un lavado profuso de la cavidad abdominal con abundante suero tibio.',
+            },
+            {
+              text: 'Cierre ciego del muñón rectal y colostomía terminal en fosa ilíaca izquierda.',
+              say: 'El segundo paso es cerrar el muñón rectal en fondo de saco ciego dentro de la pelvis menor, y el tercer paso es exteriorizar el colon descendente sano como una colostomía terminal definitiva en la fosa ilíaca izquierda. El tránsito puede reconstruirse electivamente tres a seis meses más tarde.',
             },
           ],
         },
@@ -248,27 +404,27 @@ module.exports = {
             'Cáncer de colon izquierdo perforado',
             'Paciente añoso con baja de peso, anemia ferropénica previa y cuadro obstructivo o perforativo',
             'Tomografía muestra masa asimétrica o invasión de órganos vecinos; a menudo indistinguible de diverticulitis',
-            'Tratar la urgencia perforativa y realizar colonoscopía completa obligatoria a las seis a ocho semanas.',
+            'Tratar la fase aguda y realizar colonoscopía obligatoria a las seis a ocho semanas para descartar neoplasia.',
           ],
-          say: 'El cáncer de colon izquierdo perforado es el gran imitador de la diverticulitis en adultos mayores. Puede debutar exactamente como un flemón en fosa ilíaca izquierda. Por esta razón, todo episodio de diverticulitis tratada médicamente exige una colonoscopía diferida a las seis a ocho semanas para descartar neoplasia maligna.',
+          say: 'El cáncer de colon izquierdo perforado o necrosado simula con precisión una diverticulitis aguda. Por esta razón, todo paciente que se recupera de un episodio agudo debe ir a colonoscopía completa diferida a las seis a ocho semanas para biopsiar cualquier neoplasia oculta.',
         },
         {
           cells: [
             'Colitis isquémica aguda',
-            'Adulto mayor con antecedentes vasculares y episodio de hipotensión reciente que presenta dolor abdominal y rectorragia',
-            'Dolor cólico abdominal seguido rápidamente de diarrea sanguinolenta profusa, sin masa palpable y tomografía con engrosamiento mucosal en zonas limítrofes',
-            'Hidratación parenteral, reposo intestinal y colonoscopía suave de baja presión para evaluar viabilidad mucosa.',
+            'Adulto mayor con antecedente vascular o episodio previo de hipotensión arterial o shock',
+            'Dolor abdominal cólico difuso seguido rápidamente de diarrea sanguinolenta franca o rectorragia',
+            'Tomografía con engrosamiento parietal en territorio de vasos mesentéricos inferiores y colonoscopía precoz con biopsia.',
           ],
-          say: 'La colitis isquémica se diferencia porque el dolor suele acompañarse de deposiciones sanguinolentas abundantes y ocurre tras un evento de hipoperfusión sistémica en pacientes vasculares. En la diverticulitis no complicada el sangrado digestivo bajo masivo es excepcional.',
+          say: 'La colitis isquémica cursa con dolor abdominal seguido rápidamente de diarrea sanguinolenta profusa tras un episodio de hipotensión o arritmia. Afecta zonas limítrofes de flujo como el ángulo esplénico y la unión rectosigmoidea.',
         },
         {
           cells: [
-            'Fístula colovesical por diverticulitis previa',
-            'Paciente con antecedentes de diverticulitis que consulta por infecciones urinarias recurrentes por flora polimicrobiana',
-            'Presencia de neumaturia, emisión de gas en la orina, y fecaluria, paso de restos fecales en la orina',
-            'Tomografía con contraste que demuestra aire en la vejiga sin instrumentación previa y resolución quirúrgica electiva.',
+            'Patología ginecológica izquierda',
+            'Mujer joven con dolor pélvico agudo irradiado a fosa ilíaca izquierda',
+            'Torsión anexial, embarazo ectópico tubario izquierdo o enfermedad inflamatoria pélvica',
+            'Prueba de embarazo en sangre o test de orina y ecografía ginecológica transvaginal mandatoria.',
           ],
-          say: 'Una complicación crónica clásica de la diverticulitis es la fístula colovesical, más frecuente en hombres. Se manifiesta por neumaturia, que es la salida de gas por la uretra, y fecaluria con infecciones urinarias a repetición por enterobacterias. Se confirma con tomografía que evidencia aire en la vejiga y se resuelve con cirugía resectiva electiva.',
+          say: 'En mujeres en edad fértil con dolor en fosa ilíaca izquierda debemos descartar torsión ovárica izquierda, embarazo ectópico tubario o piosálpinx mediante subunidad beta de gonadotrofina coriónica y ecografía transvaginal.',
         },
       ],
     },
@@ -276,66 +432,22 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Julio 2015 · Pregunta 33',
-      caseText: 'Un paciente de setenta y tres años presenta un cuadro de dos días de dolor abdominal, mayor en la fosa ilíaca izquierda. Al examen físico presenta dolor a la palpación de la fosa ilíaca izquierda, con signos de irritación peritoneal en la zona. ¿Cuál es el diagnóstico más probable?',
+      title: 'EUNACOM Agosto 2021 · Pregunta 19',
+      caseText: 'Un paciente de sesenta y ocho años, con antecedente de diabetes e hipertensión en tratamiento con metformina, glibenclamida y enalapril, consulta por dolor abdominal de veinticuatro horas de evolución, localizado en el hipogastrio y la fosa ilíaca izquierda, asociado a sensación de malestar general. Al examen físico presenta temperatura de treinta y siete coma ocho grados Celsius, presión arterial de cien con sesenta, frecuencia cardíaca de ochenta y ocho por minuto, abdomen doloroso a la palpación superficial y profunda, mayor en la zona descrita, con signos peritoneales localizados en dicha área y disminución de los ruidos hidroaéreos. ¿Cuál es el diagnóstico más probable?',
       question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Apendicitis aguda', isCorrect: false },
-        { letter: 'B', text: 'Cáncer de colon', isCorrect: false },
-        { letter: 'C', text: 'Obstrucción intestinal', isCorrect: false },
-        { letter: 'D', text: 'Diverticulitis aguda', isCorrect: true },
-        { letter: 'E', text: 'Hernia inguinal complicada', isCorrect: false },
+        { letter: 'A', text: 'Infarto epiploico apendicular', isCorrect: false },
+        { letter: 'B', text: 'Embolia mesentérica', isCorrect: false },
+        { letter: 'C', text: 'Vólvulo de sigmoides', isCorrect: false },
+        { letter: 'D', text: 'Obstrucción intestinal', isCorrect: false },
+        { letter: 'E', text: 'Diverticulitis aguda', isCorrect: true },
       ],
-      correct: 'D',
+      correct: 'E',
       say: {
-        stem: 'Revisemos esta pregunta oficial de julio de dos mil quince. Un hombre de setenta y tres años presenta dos días de dolor en fosa ilíaca izquierda, con dolor exquisito e irritación peritoneal localizada.',
-        question: 'Nos consultan por el diagnóstico más probable entre las alternativas.',
-        options: 'Las alternativas son: opción A, apendicitis aguda; opción B, cáncer de colon; opción C, obstrucción intestinal; opción D, diverticulitis aguda; y opción E, hernia inguinal complicada.',
-        answer: 'La respuesta correcta es la opción D. El cuadro clínico de dolor agudo en fosa ilíaca izquierda con signos de irritación peritoneal focal en un paciente adulto mayor configura la presentación clásica de diverticulitis aguda en el colon sigmoides.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Julio 2013 · Pregunta 2',
-      caseText: 'Una paciente de sesenta y cinco años, diabética tipo dos en tratamiento con metformina, consulta por cuadro de dolor en fosa ilíaca izquierda, asociado a fiebre y hematoquecia en una oportunidad. Al examen físico destaca signo de Blumberg positivo en fosa ilíaca izquierda y disminución de ruidos hidroaéreos. El examen de elección para establecer el diagnóstico en este caso es:',
-      question: 'El examen de elección para establecer el diagnóstico en este caso es:',
-      options: [
-        { letter: 'A', text: 'Tomografía axial computada de abdomen y pelvis', isCorrect: true },
-        { letter: 'B', text: 'Colonoscopía', isCorrect: false },
-        { letter: 'C', text: 'Ecotomografía abdominal', isCorrect: false },
-        { letter: 'D', text: 'Radiografía de abdomen simple', isCorrect: false },
-        { letter: 'E', text: 'Resonancia magnética de abdomen', isCorrect: false },
-      ],
-      correct: 'A',
-      say: {
-        stem: 'Analicemos esta pregunta real de julio de dos mil trece. Una mujer de sesenta y cinco años consulta por dolor en fosa ilíaca izquierda, fiebre y Blumberg positivo, sospechándose fuertemente una diverticulitis aguda.',
-        question: 'Se pregunta cuál es el examen de elección para establecer el diagnóstico en este caso.',
-        options: 'Las opciones son: opción A, tomografía axial computada de abdomen y pelvis; opción B, colonoscopía; opción C, ecotomografía abdominal; opción D, radiografía de abdomen simple; y opción E, resonancia magnética de abdomen.',
-        answer: 'La respuesta correcta es la opción A. La tomografía axial computarizada de abdomen y pelvis con contraste es el estándar de oro diagnóstico indiscutido en la fase aguda. Recuerda que la opción B, colonoscopía, está formalmente contraindicada por riesgo inminente de perforación libre.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      caseText: 'Una mujer de sesenta y ocho años hospitalizada por diverticulitis aguda de cuatro días de evolución tratada con ceftriaxona y metronidazol endovenoso, persiste febril con temperatura de treinta y ocho coma cuatro grados y dolor en fosa ilíaca izquierda. La tomografía computarizada de control muestra una colección líquida purulenta bien delimitada de cinco centímetros de diámetro en la pelvis menor, en contacto estrecho con la pared abdominal anterior, sin aire libre peritoneal. La paciente se encuentra hemodinámicamente estable. ¿Cuál es la conducta más adecuada?',
-      question: '¿Cuál es la conducta más adecuada?',
-      options: [
-        { letter: 'A', text: 'Operación de Hartmann de urgencia de inmediato', isCorrect: false },
-        { letter: 'B', text: 'Drenaje percutáneo guiado por tomografía computarizada más mantención de antibióticos endovenosos', isCorrect: true },
-        { letter: 'C', text: 'Cambiar esquema antibiótico a vancomicina oral y esperar evolución', isCorrect: false },
-        { letter: 'D', text: 'Realizar colonoscopía descompresiva urgente', isCorrect: false },
-        { letter: 'E', text: 'Laparotomía exploradora con lavado peritoneal simple sin resección colónica', isCorrect: false },
-      ],
-      correct: 'B',
-      say: {
-        stem: 'Revisemos este caso de diverticulitis complicada con absceso pélvico. Una paciente con diverticulitis tratada con antibióticos persiste febril y la tomografía demuestra un absceso pélvico loculado de cinco centímetros accesible por punción, sin peritonitis difusa ni shock.',
-        question: 'Nos consultan por la conducta más adecuada.',
-        options: 'Las opciones son: opción A, operación de Hartmann de urgencia; opción B, drenaje percutáneo guiado por tomografía más mantención de antibióticos endovenosos; opción C, cambiar a vancomicina oral; opción D, colonoscopía descompresiva; y opción E, laparotomía exploradora con lavado peritoneal.',
-        answer: 'La respuesta correcta es la opción B. Ante un absceso diverticular Hinchey dos de cuatro centímetros o más accesible por punción en una paciente hemodinámicamente estable, el drenaje percutáneo guiado por imágenes es el tratamiento de elección. Permite resolver la colección purulenta y evita una colostomía de urgencia.',
+        stem: 'Revisemos esta pregunta real de agosto de dos mil veintiuno. Un hombre de sesenta y ocho años con diabetes e hipertensión consulta por dolor de veinticuatro horas en hipogastrio y fosa ilíaca izquierda, con febrícula de treinta y siete coma ocho grados y signos peritoneales focales con disminución de ruidos hidroaéreos.',
+        question: 'Nos consultan por el diagnóstico más probable entre las opciones.',
+        options: 'Las alternativas son: opción A, infarto epiploico apendicular; opción B, embolia mesentérica; opción C, vólvulo de sigmoides; opción D, obstrucción intestinal; y opción E, diverticulitis aguda. Piénsalo.',
+        answer: 'La respuesta correcta es la opción E, diverticulitis aguda. El cuadro clínico de dolor localizado en la fosa ilíaca izquierda, febrícula y peritonitis focal en un paciente adulto mayor configura la presentación clásica de apendicitis del lado izquierdo o diverticulitis aguda. El examen de confirmación de elección es la tomografía de abdomen y pelvis con contraste.',
       },
     },
 
@@ -349,20 +461,20 @@ module.exports = {
           kind: 'key',
           items: [
             {
-              text: 'Dolor en fosa ilíaca izquierda con Blumberg y fiebre en adulto mayor es diverticulitis.',
-              say: 'Primera regla: el dolor constante en la fosa ilíaca izquierda con signos de irritación peritoneal focal y fiebre en un paciente adulto mayor orienta directamente a diverticulitis aguda en el colon sigmoides.',
+              text: 'La tomografía con contraste es el estándar de oro confirmatorio.',
+              say: 'Primera regla: la tomografía axial computarizada de abdomen y pelvis con contraste endovenoso es el examen de elección indiscutido para confirmar y clasificar en estadios de Hinchey.',
             },
             {
-              text: 'La tomografía con contraste es el examen de elección en fase aguda.',
-              say: 'Segunda regla: la tomografía computarizada de abdomen y pelvis con contraste endovenoso es el examen de elección confirmatorio; la colonoscopía está estrictamente prohibida en agudo por riesgo de perforación libre.',
+              text: 'Colonoscopía y enema de bario formalmente prohibidos en fase aguda.',
+              say: 'Segunda regla: la colonoscopía y el enema baritado están estrictamente contraindicados durante el episodio agudo por el riesgo inminente de provocar una perforación colónica libre con peritonitis.',
             },
             {
               text: 'Abscesos mayores o iguales a cuatro centímetros se drenan por vía percutánea.',
-              say: 'Tercera regla: los abscesos pericólicos pequeños Hinchey uno b se manejan con antibióticos endovenosos, mientras que los abscesos a distancia Hinchey dos de cuatro centímetros o más se tratan con drenaje percutáneo guiado por imágenes.',
+              say: 'Tercera regla: los abscesos Hinchey dos de cuatro centímetros o más se tratan de elección con drenaje percutáneo guiado por tomografía más antibióticos endovenosos.',
             },
             {
-              text: 'Peritonitis generalizada requiere Operación de Hartmann urgente.',
-              say: 'Cuarta regla: la peritonitis purulenta o fecaloidea generalizada Hinchey tres o cuatro exige cirugía de urgencia mediante operación de Hartmann con sigmoidectomía y colostomía terminal.',
+              text: 'Peritonitis generalizada Hinchey III y IV requiere Operación de Hartmann.',
+              say: 'Cuarta regla: la peritonitis purulenta o fecaloidea generalizada exige laparotomía de urgencia con sigmoidectomía, cierre de muñón rectal y colostomía terminal según la técnica de Hartmann.',
             },
           ],
         },
@@ -371,8 +483,8 @@ module.exports = {
           kind: 'normal',
           items: [
             {
-              text: 'Colonoscopía diferida a las seis a ocho semanas para descartar cáncer de colon.',
-              say: 'Si te llevas una sola idea de hoy: todo paciente con diverticulitis aguda debe someterse a una colonoscopía completa a las seis a ocho semanas del episodio para descartar un adenocarcinoma de colon enmascarado. Nos vemos en la próxima clase.',
+              text: 'Colonoscopía diferida a las seis a ocho semanas para descartar neoplasia colónica.',
+              say: 'Si te llevas una sola idea de hoy: todo paciente que supera una diverticulitis aguda debe someterse a una colonoscopía completa diferida a las seis a ocho semanas para descartar un adenocarcinoma de colon enmascarado. Nos vemos en la próxima clase.',
             },
           ],
         },
@@ -381,91 +493,82 @@ module.exports = {
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo de Diverticulitis Aguda según Clasificación de Hinchey',
+    title: 'Algoritmo de Decisión Clínica en Sospecha de Diverticulitis Aguda',
     root: N(
       'start',
-      'Sospecha de diverticulitis aguda',
-      'Dolor en FII · fiebre · Blumberg focal · adulto mayor',
-      'Iniciamos el enfrentamiento solicitando una tomografía de abdomen y pelvis con contraste intravenoso urgente.',
+      'Sospecha clínica de diverticulitis aguda',
+      'Dolor en fosa ilíaca izquierda · fiebre · Blumberg local en adulto mayor',
+      'Iniciamos el enfrentamiento solicitando de inmediato una tomografía computarizada de abdomen y pelvis con contraste intravenoso.',
       [
-        'Tomografía confirma diverticulitis',
+        'Hinchey 0 o Ia: No complicada',
         N(
           'q',
-          'Estratificar según clasificación de Hinchey',
-          'Engrosamiento parietal sigmoideo > 4 mm · estriación grasa pericólica',
-          'Estratificamos el estadio tomográfico de Hinchey para definir el tratamiento médico o quirúrgico.',
+          'Diverticulitis no complicada (flemón pericólico)',
+          'Engrosamiento parietal < 4 mm o flemón confinado al mesocolon',
+          'Evaluamos el estado clínico general, tolerancia oral y comorbilidades del paciente.',
           [
-            'Hinchey 0 o Ia (no complicada)',
+            'Estable, joven, afebril, tolera vía oral',
             N(
-              'do',
-              'Manejo médico conservador',
-              'Flemón pericólico sin colección purulenta',
-              'En diverticulitis no complicada indicamos manejo conservador con régimen líquido y antibióticos.',
-              [
-                'Paciente joven estable y tolerando vía oral',
-                N(
-                  'ok',
-                  'Tratamiento ambulatorio',
-                  'Dieta líquida · analgesia con paracetamol · reposo',
-                  'Si el paciente está estable y tolera vía oral, puede manejarse ambulatoriamente con pautas de alarma.',
-                ),
-              ],
-              [
-                'Paciente anciano con comorbilidades o fiebre alta',
-                N(
-                  'ok',
-                  'Hospitalización y antibióticos EV',
-                  'Ceftriaxona 1 g EV día + Metronidazol 500 mg c/8h EV',
-                  'Hospitalizamos al paciente frágil para hidratación endovenosa y cobertura con ceftriaxona más metronidazol.',
-                ),
-              ],
+              'ok',
+              'Manejo médico ambulatorio',
+              'Régimen líquido, reposo relativo y analgesia con paracetamol',
+              'En pacientes seleccionados con bajo riesgo, indicamos manejo ambulatorio con control clínico en cuarenta y ocho horas.',
             ),
           ],
           [
-            'Hinchey Ib (absceso pericólico < 3 a 4 cm)',
+            'Anciano, comórbido, intolerancia oral o fiebre alta',
             N(
               'do',
-              'Tratamiento hospitalario con antibióticos EV',
-              'Colección pequeña bien contenida en mesocolon',
-              'En abscesos menores a cuatro centímetros indicamos antibióticos endovenosos de amplio espectro.',
-            ),
-          ],
-          [
-            'Hinchey II (absceso ≥ 3 a 4 cm accesible)',
-            N(
-              'do',
-              'Drenaje percutáneo guiado por TAC o ecografía',
-              'Catéter percutáneo + antibióticos EV de amplio espectro',
-              'En abscesos pélvicos o a distancia de cuatro centímetros o más, la conducta de elección es el drenaje percutáneo guiado por imágenes.',
-            ),
-          ],
-          [
-            'Hinchey III o IV o peritonitis difusa',
-            N(
-              'alert',
-              'Cirugía de urgencia: Operación de Hartmann',
-              'Peritonitis purulenta o fecaloidea · shock séptico',
-              'Ante peritonitis libre o shock séptico indicamos laparotomía de urgencia para realizar la operación de Hartmann.',
-              [
-                'Técnica quirúrgica resectiva',
-                N(
-                  'ok',
-                  'Sigmoidectomía y colostomía terminal en FII',
-                  'Cierre del muñón rectal y colostomía terminal',
-                  'Se reseca el segmento colónico perforado y se confecciona colostomía terminal en fosa ilíaca izquierda.',
-                ),
-              ],
+              'Hospitalización y antibióticos endovenosos',
+              'Régimen cero · Ceftriaxona 1 g EV + Metronidazol 500 mg EV',
+              'Hospitalizamos con reposo digestivo y cobertura parenteral para enterobacterias y anaerobios por siete días.',
             ),
           ],
         ),
       ],
       [
-        'Seguimiento a las 6 a 8 semanas',
+        'Hinchey Ib o II: Complicada con absceso',
         N(
-          'do',
-          'Colonoscopía total diferida obligatoria',
-          'Descartar adenocarcinoma de colon coexistente o enmascarado',
-          'A las seis a ocho semanas del episodio resuelto realizamos colonoscopía completa para descartar cáncer colorrectal.',
+          'q',
+          'Presencia de absceso en la tomografía computarizada',
+          'Tamaño de la colección purulenta loculada',
+          'Determinamos el diámetro del absceso y su localización anatómica.',
+          [
+            'Absceso pequeño < 4 cm (Hinchey Ib)',
+            N(
+              'do',
+              'Hospitalización y antibioterapia parenteral',
+              'Ceftriaxona + Metronidazol endovenoso por 10 a 14 días',
+              'Los abscesos menores a cuatro centímetros responden muy bien al tratamiento antibiótico exclusivo sin necesidad de punción.',
+            ),
+          ],
+          [
+            'Absceso pélvico ≥ 4 cm (Hinchey II)',
+            N(
+              'do',
+              'Drenaje percutáneo guiado por TAC',
+              'Punción y catéter de drenaje percutáneo + antibióticos EV',
+              'En colecciones mayores o iguales a cuatro centímetros, la conducta de elección es el drenaje percutáneo guiado por imágenes.',
+            ),
+          ],
+        ),
+      ],
+      [
+        'Hinchey III o IV: Peritonitis difusa o shock',
+        N(
+          'alert',
+          'Peritonitis generalizada purulenta o fecaloidea',
+          'Abdomen en tabla · neumoperitoneo masivo · inestabilidad hemodinámica',
+          'Frente a signos de peritonitis libre o shock séptico, indicamos cirugía de urgencia inmediata.',
+          [
+            'Laparotomía exploradora de urgencia',
+            N(
+              'do',
+              'Operación de Hartmann de urgencia',
+              'Sigmoidectomía + cierre de muñón rectal + colostomía terminal en FII',
+              'Realizamos la operación de Hartmann: extirpación del sigmoides enfermo, cierre de muñón rectal y colostomía terminal.',
+            ),
+          ],
         ),
       ],
     ),

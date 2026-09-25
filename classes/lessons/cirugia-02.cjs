@@ -59,6 +59,42 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Complicaciones anatomopatológicas',
+      title: 'Evolución a formas complicadas y necrosis vesicular',
+      cards: [
+        {
+          title: 'Colecistitis gangrenosa y empiema',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Colecistitis gangrenosa: necrosis transmural parchada por trombosis vascular mural.',
+              say: 'La colecistitis gangrenosa ocurre en hasta un treinta por ciento de los pacientes no operados a tiempo. La trombosis de las ramas de la arteria cística origina áreas de infarto y necrosis en la pared vesicular, perdiéndose el signo de Murphy por denervación de las fibras sensitivas locales.',
+            },
+            {
+              text: 'Empiema vesicular: acumulación de exudado francamente purulento a tensión.',
+              say: 'El empiema de vesícula biliar representa la transformación de la bilis estancada en pus espeso a gran presión intraluminal. Cursa con fiebre en agujas, escalofríos y alto riesgo de perforación inminente.',
+            },
+          ],
+        },
+        {
+          title: 'Colecistitis enfisematosa en diabéticos',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Infección fulminante por anaerobios productores de gas como Clostridium perfringens.',
+              say: 'La colecistitis enfisematosa es una emergencia quirúrgica catastrófica que afecta predominantemente a varones adultos mayores con diabetes mellitus. Bacterias anaerobias como Clostridium perfringens proliferan rápidamente y producen gas intraluminal y mural.',
+            },
+            {
+              text: 'Tomografía computarizada urgente y colecistectomía de urgencia sin demora.',
+              say: 'La tomografía demuestra gas en la pared o en la luz vesicular sin fístula digestiva previa. Tiene una tasa de perforación y mortalidad cinco veces superior a la colecistitis litiásica estándar y exige cirugía urgente.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Semiología y presentación clínica',
       title: 'Cuadro cardinal: dolor continuo, Murphy clínico y masas palpables',
       cards: [
@@ -110,35 +146,35 @@ module.exports = {
     {
       type: 'table',
       kicker: 'Consenso internacional',
-      title: 'Guías de Tokio 2018: Criterios diagnósticos y estratificación de severidad',
-      head: ['Criterio / Grado', 'Definición clínica y parámetros objetivos', 'Hallazgos clave', 'Implicancia en la conducta'],
+      title: 'Guías de Tokio 2018: Criterios diagnósticos de colecistitis aguda',
+      head: ['Categoría Tokio', 'Criterios clínicos y de laboratorio', 'Parámetros objetivos', 'Interpretación diagnóstica'],
       rows: [
         {
           cells: [
-            'Criterios diagnósticos Tokio 2018',
-            'A. Signos locales de inflamación · B. Signos sistémicos · C. Imágenes confirmatorias',
-            'Murphy (+) o masa en HCD (A) + Fiebre o leucocitosis (B) + Ecografía (+) (C)',
-            'Sospecha diagnóstica: A + B · Diagnóstico definitivo confirmado: A + B + C.',
+            'A. Signos locales de inflamación',
+            'Signo de Murphy positivo · dolor o hipersensibilidad en hipocondrio derecho · masa palpable',
+            'Murphy clínico o masa en HCD a la palpación profunda',
+            'La presencia de al menos un parámetro local define la categoría A.',
           ],
-          say: 'Las Guías de Tokio dos mil dieciocho definen el diagnóstico con tres pilares: categoría A para inflamación local como signo de Murphy o dolor en hipocondrio derecho; categoría B para signos sistémicos como fiebre, leucocitosis o proteína C reactiva elevada; y categoría C para imágenes confirmatorias. La sospecha clínica requiere un signo de A y uno de B; el diagnóstico definitivo exige confirmar con la categoría C mediante ecografía o tomografía.',
+          say: 'El primer pilar de Tokio dos mil dieciocho es la inflamación local en hipocondrio derecho, representada por el signo de Murphy positivo, dolor focal o la palpación de una masa o empastamiento en dicha zona.',
         },
         {
           cells: [
-            'Grado I: Leve y Grado II: Moderada',
-            'Grado I: confinada a la vesícula en paciente sano sin disfunción de órganos. Grado II: inflamación local avanzada o leucocitos > 18.000.',
-            'Grado II: evolución > 72 h, masa palpable, leucocitos > 18.000 o colecistitis gangrenosa/enfisematosa',
-            'Colecistectomía laparoscópica precoz dentro de las setenta y dos horas en ambos estratos.',
+            'B. Signos sistémicos de inflamación',
+            'Fiebre mayor a treinta y ocho grados · leucocitosis periférica · elevación de PCR',
+            'Leucocitos < 4.000 o > 10.000/mm³ · PCR ≥ 3 mg/dL',
+            'Sospecha diagnóstica: al menos un criterio de A sumado a un criterio de B.',
           ],
-          say: 'En la clasificación de severidad, el Grado uno o leve corresponde a una colecistitis en un paciente sin disfunción orgánica. El Grado dos o moderada se define por alguno de cuatro factores: leucocitosis mayor a dieciocho mil por milímetro cúbico, masa dolorosa palpable en hipocondrio derecho, síntomas por más de setenta y dos horas, o complicaciones locales como gangrena, enfisema o absceso. En ambos grados, la indicación de elección es la colecistectomía laparoscópica precoz.',
+          say: 'El segundo pilar son los signos de respuesta inflamatoria sistémica, definidos por fiebre mayor a treinta y ocho grados, leucocitosis sobre diez mil o proteína C reactiva elevada. Con un criterio local y uno sistémico tenemos una sospecha diagnóstica formal.',
         },
         {
           cells: [
-            'Grado III: Severa con disfunción orgánica',
-            'Compromiso y falla de al menos un órgano o sistema vital.',
-            'Hipotensión que requiere vasopresores, compromiso de conciencia, oliguria o creatinina > 2.0, o plaquetas < 100.000',
-            'Estabilización médica intensiva y colecistostomía percutánea si el riesgo quirúrgico es prohibitivo.',
+            'C. Hallazgos imagenológicos',
+            'Signos confirmatorios en ecografía abdominal o tomografía computarizada',
+            'Cálculo impactado · engrosamiento parietal ≥ 4 mm · Murphy ecográfico · líquido perivesicular',
+            'Diagnóstico definitivo: presencia de un criterio de A más uno de B más confirmación en C.',
           ],
-          say: 'El Grado tres o grave se caracteriza por la disfunción de al menos un órgano vital: cardiovascular requiriendo noradrenalina, neurológica con letargo, respiratoria, renal con creatinina mayor a dos, hepática con prolongación del tiempo de protrombina o hematológica con plaquetas bajo cien mil. Estos pacientes requieren reanimación intensiva y, si el riesgo quirúrgico es prohibitivo, colecistostomía percutánea bajo anestesia local.',
+          say: 'El tercer pilar es la confirmación por imágenes, habitualmente ecografía. Para el diagnóstico definitivo confirmado se requiere estrictamente un criterio de la categoría A, un criterio de la categoría B y la confirmación por imagen de la categoría C.',
         },
       ],
     },
@@ -194,6 +230,42 @@ module.exports = {
     },
 
     {
+      type: 'table',
+      kicker: 'Estratificación de severidad',
+      title: 'Clasificación de severidad Tokio 2018 y disfunción orgánica',
+      head: ['Grado de severidad', 'Criterios clínicos y de laboratorio', 'Marcadores de gravedad', 'Conducta terapéutica principal'],
+      rows: [
+        {
+          cells: [
+            'Grado I: Leve',
+            'Colecistitis aguda confinada a la vesícula sin criterios de moderada ni severa',
+            'Sin disfunción orgánica · paciente joven o sin comorbilidad relevante',
+            'Colecistectomía laparoscópica precoz dentro de las setenta y dos horas.',
+          ],
+          say: 'El Grado uno o leve corresponde a una inflamación aguda confinada a la vesícula sin disfunción orgánica en un paciente sin comorbilidades graves. La conducta de elección es la colecistectomía laparoscópica precoz.',
+        },
+        {
+          cells: [
+            'Grado II: Moderada',
+            'Inflamación local avanzada o evolución prolongada sin falla orgánica',
+            'Leucocitos > 18.000 · masa dolorosa en HCD · síntomas > 72 h · gangrena o enfisema',
+            'Colecistectomía laparoscópica precoz por equipo quirúrgico experimentado.',
+          ],
+          say: 'El Grado dos o moderada se define por leucocitosis mayor a dieciocho mil, masa dolorosa palpable, duración del cuadro superior a setenta y dos horas o marcada inflamación local como gangrena o enfisema. También se indica colecistectomía laparoscópica precoz por cirujanos experimentados.',
+        },
+        {
+          cells: [
+            'Grado III: Severa',
+            'Disfunción de al menos un órgano o sistema vital',
+            'Cardiovascular con vasopresores · neurológica · PaFi < 300 · creatinina > 2.0 · plaquetas < 100.000',
+            'Manejo intensivo en UPC y colecistostomía percutánea si hay riesgo quirúrgico prohibitivo.',
+          ],
+          say: 'El Grado tres o grave se caracteriza por la falla de al menos un órgano vital: hipotensión refractaria a volumen que requiere vasopresores, compromiso de conciencia, insuficiencia respiratoria, creatinina mayor a dos o trombocitopenia bajo cien mil. Requiere soporte intensivo y descompresión percutánea si el riesgo de pabellón es prohibitivo.',
+        },
+      ],
+    },
+
+    {
       type: 'pathway',
       kicker: 'Algoritmo terapéutico',
       title: 'Toma de decisiones y momento quirúrgico en colecistitis aguda',
@@ -202,48 +274,138 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Técnica y seguridad quirúrgica',
-      title: 'Colecistectomía laparoscópica y Visión Crítica de Strasberg',
+      kicker: 'Técnica quirúrgica y oportunidad',
+      title: 'Colecistectomía laparoscópica precoz versus diferida',
       cards: [
         {
-          title: 'Momento quirúrgico ideal: Precoz dentro de 72 horas',
+          title: 'Momento óptimo: dentro de setenta y dos horas',
           kind: 'key',
           items: [
             {
-              text: 'Colecistectomía laparoscópica precoz dentro de setenta y dos horas desde el inicio de los síntomas.',
-              say: 'La evidencia científica y las normas clínicas recomiendan la colecistectomía laparoscópica precoz, realizada idealmente dentro de las primeras setenta y dos horas de evolución o durante la misma hospitalización. Operar precozmente reduce las complicaciones infecciosas, acorta la estancia hospitalaria total y disminuye la tasa de conversión a cirugía abierta en comparación con el manejo diferido.',
+              text: 'Colecistectomía laparoscópica precoz en la misma hospitalización de urgencia.',
+              say: 'La recomendación clínica indiscutible es realizar la colecistectomía laparoscópica precoz, idealmente dentro de las primeras setenta y dos horas del inicio de los síntomas o durante el mismo ingreso hospitalario. En esta fase inicial predomina el edema tisular, lo que facilita los planos de disección entre la vesícula y el lecho hepático.',
             },
             {
-              text: 'Falso mito: no es necesario enfriar el cuadro con antibióticos si el paciente es operable.',
-              say: 'Una creencia antigua y errónea en el examen es sugerir enfriar el cuadro durante seis a ocho semanas con antibióticos antes de operar. En pacientes candidatos a cirugía, el manejo diferido conlleva un veinte por ciento de readmisiones de urgencia por colecistitis recurrente, pancreatitis o perforación.',
+              text: 'Menor tiempo de hospitalización total y menor costo para el sistema sanitario.',
+              say: 'La evidencia demuestra que la cirugía precoz disminuye significativamente la estadía hospitalaria total, los costos asociados y el ausentismo laboral, con tasas de complicaciones equivalentes o menores que la cirugía diferida.',
             },
           ],
         },
         {
-          title: 'Visión Crítica de Seguridad de Strasberg',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Tres requisitos obligatorios antes de cortar o engrapar cualquier estructura tubular.',
-              say: 'Para prevenir la temida lesión iatrogénica de la vía biliar principal, el cirujano debe obtener de forma mandatoria la visión crítica de seguridad de Strasberg antes de colocar cualquier clip o tijera.',
-            },
-            {
-              text: 'Triángulo hepatocístico despejado, tercio inferior disecado y solo dos estructuras visibles.',
-              say: 'Los tres pasos son: primero, liberar el triángulo hepatocístico de toda grasa y tejido inflamatorio fibroso; segundo, disecar el tercio inferior de la vesícula separándola de la placa hepática; y tercero, confirmar de manera indubitable que únicamente dos estructuras tubulares entran a la vesícula, que son el conducto cístico y la arteria cística.',
-            },
-          ],
-        },
-        {
-          title: 'Colecistostomía percutánea en paciente crítico',
+          title: 'El mito de enfriar el cuadro con antibióticos',
           kind: 'alert',
           items: [
             {
-              text: 'Indicada en Grado III con shock séptico o riesgo quirúrgico prohibitivo.',
-              say: 'En pacientes con colecistitis Grado tres con falla multiorgánica o en aquellos con comorbilidades médicas extremas que contraindican la anestesia general, como un infarto miocárdico reciente o insuficiencia cardíaca descompensada, la conducta salvadora es la colecistostomía percutánea transhepática.',
+              text: 'Diferir la cirugía a seis semanas triplica el riesgo de reingresos de urgencia.',
+              say: 'Una de las trampas conceptuales más comunes del EUNACOM es sugerir dar antibióticos por vía oral y programar la cirugía en seis a ocho semanas. Esta conducta provoca que hasta un veinte por ciento de los pacientes reingrese antes de tiempo por dolor intratable, pancreatitis aguda litiásica o perforación vesicular.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Seguridad quirúrgica',
+      title: 'Visión Crítica de Seguridad de Strasberg',
+      cards: [
+        {
+          title: 'Requisitos anatómicos obligatorios',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Tres criterios de seguridad antes de colocar clips o cortar cualquier estructura tubular.',
+              say: 'Para erradicar la temida lesión iatrogénica de la vía biliar principal, el cirujano debe documentar formalmente la visión crítica de seguridad de Strasberg antes de cortar o engrapar el conducto cístico o la arteria cística.',
             },
             {
-              text: 'Descompresión percutánea bajo anestesia local más antibióticos endovenosos.',
-              say: 'Bajo guía ecográfica o tomográfica y anestesia local se introduce un catéter que descomprime la bilis infectada a tensión. Una vez estabilizado el paciente y resuelta la sepsis, se puede programar una colecistectomía electiva diferida.',
+              text: 'Liberar el triángulo hepatocístico de grasa y tejido fibroso inflamatorio.',
+              say: 'El primer paso es vaciar completamente el triángulo hepatocístico de Calot, resecando toda la grasa y adherencias peritoneales para visualizar con total nitidez el conducto y la arteria.',
+            },
+          ],
+        },
+        {
+          title: 'Disección del tercio inferior y visualización dual',
+          kind: 'key',
+          items: [
+            {
+              text: 'Separar el tercio inferior de la vesícula de la placa cística del lecho hepático.',
+              say: 'El segundo paso es separar al menos el tercio inferior del cuerpo vesicular de la placa hepática, exponiendo la superficie inferior de la vesícula.',
+            },
+            {
+              text: 'Confirmar que única y exclusivamente dos estructuras tubulares entran a la vesícula.',
+              say: 'El tercer paso consiste en verificar sin ninguna sombra de duda que solo dos estructuras tubulares ingresan a la vesícula: el conducto cístico y la arteria cística. Si hay dudas anatómicas, la conducta es realizar colangiografía intraoperatoria o convertir a cirugía abierta.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Manejo en situaciones críticas',
+      title: 'Colecistitis alitiásica y Colecistostomía percutánea',
+      cards: [
+        {
+          title: 'Colecistitis aguda alitiásica en UPC',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Afecta a pacientes críticos: politraumatizados, grandes quemados o con sepsis severa.',
+              say: 'La colecistitis alitiásica representa el cinco por ciento de las colecistitis pero causa la mayor mortalidad. Ocurre en pacientes graves en unidades de cuidados intensivos, sometidos a ventilación mecánica prolongada, nutrición parenteral total o shock con drogas vasoactivas.',
+            },
+            {
+              text: 'Fisiopatología: isquemia microvascular por bajo flujo y éstasis biliar espesa.',
+              say: 'Se produce por una combinación destructiva de isquemia parietal por hipoperfusión tisular y acumulación de bilis espesa no estimulada por vía enteral. Progresa con gran rapidez a gangrena y perforación.',
+            },
+          ],
+        },
+        {
+          title: 'Colecistostomía percutánea de salvataje',
+          kind: 'pharma',
+          items: [
+            {
+              text: 'Punción y drenaje vesicular guiado por ecografía bajo anestesia local.',
+              say: 'En pacientes con colecistitis Grado tres en shock séptico o con riesgo anestésico prohibitivo por cardiopatía descompensada reciente, la colecistostomía percutánea transhepática guiada por ecografía o tomografía es el procedimiento salvador de elección.',
+            },
+            {
+              text: 'Descomprime la bilis purulenta a tensión permitiendo estabilizar al paciente.',
+              say: 'El catéter drena la infección a tensión de inmediato. Esto yugula la bacteriemia y permite diferir la colecistectomía para cuando el paciente recupere su estabilidad médica general.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fístulas biliodigestivas',
+      title: 'Fístula colecistoduodenal e Íleo Biliar',
+      cards: [
+        {
+          title: 'Patogenia de la fístula y migración litiásica',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Erosión transmural crónica por cálculo de gran tamaño hacia el bulbo duodenal.',
+              say: 'Cuando un cálculo vesicular de gran tamaño, mayor a dos centímetros y medio, inflama crónicamente la pared adyacente al duodeno, puede erosionarla y crear una fístula colecistoduodenal. El cálculo cae a la luz intestinal y viaja por el intestino delgado.',
+            },
+            {
+              text: 'Impactación en la válvula ileocecal produciendo obstrucción mecánica intestinal.',
+              say: 'Al llegar al íleon terminal, el segmento más estrecho y con menor distensibilidad, el cálculo se impacta en la válvula ileocecal, produciendo un cuadro de obstrucción mecánica de intestino delgado denominado íleo biliar.',
+            },
+          ],
+        },
+        {
+          title: 'Tríada de Rigler y resolución quirúrgica',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Tríada radiológica de Rigler: neumobilia, niveles hidroaéreos y cálculo ectópico.',
+              say: 'La radiografía o tomografía revela la clásica tríada de Rigler: primero, neumobilia o gas en la vía biliar por la fístula; segundo, dilatación de asas delgadas con niveles hidroaéreos; y tercero, un cálculo radiopaco calcificado ectópico alojado en la fosa ilíaca derecha.',
+            },
+            {
+              text: 'Tratamiento de urgencia: enterolitotomía proximal a la obstrucción.',
+              say: 'El tratamiento de urgencia no es operar la vesícula en ese momento. Consiste en realizar una laparotomía o laparoscopía con enterolitotomía: se incide el intestino inmediatamente proximal al cálculo, se extrae la piedra y se sutura el asa.',
             },
           ],
         },
@@ -252,8 +414,8 @@ module.exports = {
 
     {
       type: 'table',
-      kicker: 'Diagnósticos diferenciales y escenarios especiales',
-      title: 'Trampas del EUNACOM en patología vesicular aguda',
+      kicker: 'Diagnósticos diferenciales y trampas',
+      title: 'Trampas del EUNACOM en patología vesicular y biliar',
       head: ['Patología simuladora', 'Contexto clínico típico', 'Mecanismo o hallazgo clave', 'Conducta diagnóstica o terapéutica'],
       rows: [
         {
@@ -267,21 +429,21 @@ module.exports = {
         },
         {
           cells: [
-            'Colecistitis aguda alitiásica',
-            'Paciente crítico en unidad de cuidados intensivos, gran quemado, politraumatizado o en nutrición parenteral prolongada',
-            'Isquemia vesicular primaria por hipoperfusión y estasis biliar sin cálculos presentes',
-            'Alta mortalidad; requiere colecistectomía urgente o colecistostomía percutánea descompresiva inmediata.',
+            'Coledocolitiasis sintomática',
+            'Dolor cólico persistente asociado a ictericia franca, coluria y acolia sin signos de peritonitis',
+            'Bilirrubina total elevada a predominio directo y fosfatasas alcalinas aumentadas con dilatación de vía biliar',
+            'Colangiorresonancia confirmatoria seguida de colangiopancreatografía retrógrada endoscópica terapéutica.',
           ],
-          say: 'La colecistitis alitiásica ocurre en pacientes críticos hospitalizados en UCI, grandes quemados o pacientes sépticos en nutrición parenteral total prolongada. Es causada por hipoperfusión e isquemia microvascular sin cálculos. Presenta un curso fulminante con alta tasa de necrosis y requiere colecistectomía urgente o colecistostomía percutánea.',
+          say: 'Si un paciente con litiasis presenta ictericia marcada con bilirrubina sobre cuatro miligramos y patrón colestásico, la causa no es colecistitis simple sino coledocolitiasis. Se confirma con colangiorresonancia y se resuelve con colangiopancreatografía retrógrada endoscópica.',
         },
         {
           cells: [
-            'Colecistitis enfisematosa',
-            'Varón adulto mayor diabético descompensado con dolor abdominal agudo severo y toxicidad sistémica',
-            'Infección por anaerobios productores de gas como Clostridium perfringens con gas en pared o lumen vesicular',
-            'Tomografía computarizada urgente que muestra aire parietal y colecistectomía de urgencia inmediata.',
+            'Colangitis aguda ascendente',
+            'Paciente con fiebre alta con calofríos en agujas, ictericia y dolor en hipocondrio derecho',
+            'Tríada de Charcot o péntada de Reynolds con shock hemodinámico y alteración mental',
+            'Emergencia médica absoluta: hidratación, antibióticos endovenosos y descompresión biliar urgente con CPRE.',
           ],
-          say: 'La colecistitis enfisematosa es una variante fulminante típica de adultos mayores diabéticos, causada por bacterias anaerobias formadoras de gas como Clostridium perfringens o Escherichia coli. La tomografía demuestra gas en la pared o en la luz vesicular. Requiere cobertura antibiótica de amplio espectro y colecistectomía urgente inmediata.',
+          say: 'La colangitis aguda comparte el dolor en hipocondrio derecho pero agrega la tríada de Charcot con fiebre en agujas e ictericia franca. Si se suma shock o letargo conforma la péntada de Reynolds. Requiere antibióticos endovenosos y descompresión biliar endoscópica urgente.',
         },
       ],
     },
@@ -303,7 +465,7 @@ module.exports = {
       say: {
         stem: 'Revisemos esta pregunta oficial del examen de julio de dos mil veinticinco. Una paciente de cincuenta y cinco años presenta colecistitis aguda de cuarenta y ocho horas de evolución. Está hemodinámicamente estable, con fiebre de treinta y ocho grados y catorce mil leucocitos.',
         question: 'Nos consultan por el manejo quirúrgico más adecuado.',
-        options: 'Las alternativas son: opción A, colecistectomía laparoscópica precoz dentro de setenta y dos horas; opción B, cirugía electiva en seis semanas; opción C, drenaje percutáneo y cirugía diferida; opción D, solo antibióticos endovenosos y observación; y opción E, colecistostomía abierta de urgencia.',
+        options: 'Las alternativas son: opción A, colecistectomía laparoscópica precoz dentro de setenta y dos horas; opción B, cirugía electiva en seis semanas; opción C, drenaje percutáneo y cirugía diferida; opción D, solo antibióticos endovenosos y observación; y opción E, colecistostomía abierta de urgencia. Piénsalo.',
         answer: 'La respuesta correcta es la opción A. En un paciente con colecistitis aguda Grado uno o dos sin disfunción de órganos y con menos de setenta y dos horas de evolución, la colecistectomía laparoscópica precoz es la conducta de elección categórica. Enfriar el cuadro con antibióticos para operar en seis semanas aumenta complicaciones y estadía hospitalaria.',
       },
     },
@@ -325,30 +487,8 @@ module.exports = {
       say: {
         stem: 'Analicemos este caso clásico de paciente de alto riesgo. Un hombre de setenta y ocho años con infarto reciente y daño pulmonar severo cursa con colecistitis aguda Grado tres en shock séptico que requiere noradrenalina y con riesgo anestésico prohibitivo.',
         question: 'Se pregunta por la conducta más adecuada en este escenario.',
-        options: 'Las alternativas son: opción A, colecistectomía abierta de urgencia; opción B, colecistostomía percutánea transhepática guiada por imágenes más antibióticos endovenosos; opción C, antibióticos exclusivos sin descompresión; opción D, colangiopancreatografía retrógrada endoscópica; y opción E, observación en sala básica.',
+        options: 'Las alternativas son: opción A, colecistectomía abierta de urgencia; opción B, colecistostomía percutánea transhepática guiada por imágenes más antibióticos endovenosos; opción C, antibióticos exclusivos sin descompresión; opción D, colangiopancreatografía retrógrada endoscópica; y opción E, observación en sala básica. Piénsalo.',
         answer: 'La respuesta correcta es la opción B. Ante un paciente con colecistitis aguda Grado tres con inestabilidad hemodinámica y comorbilidades prohibitivas para someterse a anestesia general, la colecistostomía percutánea descompresiva bajo anestesia local es el procedimiento salvador de elección.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      caseText: 'Una mujer de cuarenta y dos años consulta en el servicio de urgencia por dolor continuo en hipocondrio derecho de ocho horas de evolución. Se realiza ecografía abdominal que demuestra varios cálculos milimétricos en el interior de la vesícula biliar. ¿Cuál de los siguientes hallazgos ecográficos presenta la mayor especificidad diagnóstica para confirmar colecistitis aguda litiásica?',
-      question: '¿Cuál de los siguientes hallazgos ecográficos presenta la mayor especificidad diagnóstica?',
-      options: [
-        { letter: 'A', text: 'Presencia de litiasis vesicular múltiple con sombra acústica posterior', isCorrect: false },
-        { letter: 'B', text: 'Engrosamiento difuso de la pared vesicular mayor a cuatro milímetros', isCorrect: false },
-        { letter: 'C', text: 'Signo de Murphy ecográfico positivo al presionar la vesícula con el transductor', isCorrect: true },
-        { letter: 'D', text: 'Diámetro longitudinal vesicular superior a diez centímetros', isCorrect: false },
-        { letter: 'E', text: 'Presencia de barro biliar móvil en el lumen vesicular', isCorrect: false },
-      ],
-      correct: 'C',
-      say: {
-        stem: 'Revisemos esta pregunta orientada a la semiología ecográfica. Una mujer de cuarenta y dos años consulta por dolor continuo de ocho horas con litiasis en la ecografía.',
-        question: 'Nos consultan cuál de los hallazgos ecográficos tiene la mayor especificidad diagnóstica para confirmar colecistitis aguda.',
-        options: 'Las alternativas son: opción A, litiasis múltiple con sombra acústica; opción B, engrosamiento de pared mayor a cuatro milímetros; opción C, signo de Murphy ecográfico positivo al presionar con el transductor; opción D, diámetro mayor a diez centímetros; y opción E, barro biliar móvil.',
-        answer: 'La respuesta correcta es la opción C. El signo de Murphy ecográfico positivo, que consiste en reproducir el dolor exquisite al comprimir directamente la vesícula con el transductor bajo visión ecográfica directa, es el signo con mayor especificidad diagnóstica, superando el noventa y cinco por ciento de especificidad.',
       },
     },
 

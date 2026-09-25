@@ -88,17 +88,71 @@ module.exports = {
             },
           ],
         },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Formas clínicas',
+      title: 'Hernia reductible versus atascada versus estrangulada',
+      cards: [
         {
-          title: 'Hernia estrangulada y prohibición de taxis',
+          title: 'Hernia reductible e incarcerada',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Reductible: el contenido regresa a cavidad espontáneamente o con maniobra suave de decúbito.',
+              say: 'Una hernia reductible reingresa a la cavidad abdominal al acostarse o mediante una suave compresión manual. Su tratamiento es la hernioplastia electiva ambulatoria para evitar futuras complicaciones.',
+            },
+            {
+              text: 'Atascada o incarcerada: atrapamiento mecánico irreducible sin compromiso vascular.',
+              say: 'La hernia incarcerada o atascada se encuentra atrapada por el orificio estrecho y no puede reducirse, pero no presenta compromiso isquémico de la pared intestinal ni signos inflamatorios locales.',
+            },
+          ],
+        },
+        {
+          title: 'Hernia estrangulada: Emergencia isquémica',
           kind: 'alert',
           items: [
             {
-              text: 'Signos de estrangulación: dolor intenso continuo, eritema cutáneo local, taquicardia y fiebre.',
-              say: 'La hernia estrangulada se reconoce por dolor severo e incoercible sobre la masa, eritema o calor en la piel suprayacente, leucocitosis, taquicardia y detención del tránsito intestinal por íleo obstructivo.',
+              text: 'Isquemia vascular aguda con riesgo inminente de necrosis transmural y perforación.',
+              say: 'La hernia estrangulada es una catástrofe quirúrgica producida por la oclusión del flujo arterial y venoso del asa atrapada. Cursa con dolor intenso y continuo sobre la masa, eritema cutáneo local, calor y fiebre.',
             },
             {
-              text: 'Regla categórica: PROHIBIDO INTENTAR REDUCCIÓN MANUAL O TAXIS EN HERNIA ESTRANGULADA.',
-              say: 'Una regla cardinal del EUNACOM: está formalmente prohibido realizar maniobras de taxis o reducción manual forzada ante una sospecha de hernia estrangulada. Reducir un asa desvitalizada reintroduce un segmento necrótico o perforado a la cavidad libre, provocando peritonitis fecal generalizada y muerte.',
+              text: 'Se asocia con frecuencia a signos de obstrucción intestinal mecánica difusa.',
+              say: 'Si el asa atrapada ocluye completamente la luz, el paciente desarrolla además vómitos, distensión y detención del tránsito intestinal.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Seguridad clínica categórica',
+      title: 'Prohibición absoluta de maniobras de taxis en hernia estrangulada',
+      cards: [
+        {
+          title: 'Peligro mortal de la reducción forzada',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Está formalmente prohibido realizar taxis o reducción forzada ante sospecha de estrangulación.',
+              say: 'Una regla cardinal del EUNACOM: está formalmente prohibido realizar maniobras de taxis o reducción manual forzada ante una sospecha de hernia estrangulada.',
+            },
+            {
+              text: 'Riesgo de reintroducir un asa intestinal necrótica o perforada a la cavidad peritoneal.',
+              say: 'Reducir un asa desvitalizada reintroduce un segmento necrótico o perforado a la cavidad libre, provocando peritonitis fecal generalizada, shock séptico fulminante y muerte.',
+            },
+          ],
+        },
+        {
+          title: 'Conducta inmediata correcta',
+          kind: 'key',
+          items: [
+            {
+              text: 'Laparotomía o abordaje quirúrgico inguinal de urgencia inmediata sin demora.',
+              say: 'La conducta correcta es mantener al paciente en régimen cero, administrar analgesia endovenosa, hidratación con cristaloides y derivar a pabellón de inmediato para inspección directa de la viabilidad del asa.',
             },
           ],
         },
@@ -143,40 +197,30 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Variedades epónimas y otras localizaciones',
-      title: 'Hernias con epónimo, umbilicales y eventraciones',
+      kicker: 'Hernias ventrales de la línea media',
+      title: 'Hernia umbilical del adulto y hernia epigástrica',
       cards: [
         {
-          title: 'Hernias epónimas de alto rendimiento',
+          title: 'Hernia umbilical en adultos',
           kind: 'alert',
           items: [
             {
-              text: 'Hernia de Richter: pinzamiento de borde antimesentérico con isquemia sin oclusión total.',
-              say: 'La hernia de Richter es el pinzamiento de solo una porción del borde antimesentérico del asa dentro del orificio. Como no ocluye completamente la luz, el paciente no presenta obstrucción intestinal franca ni distensión, pero el segmento pellizcado se necrosa y perfora rápidamente. Es sumamente engañosa en urgencias.',
+              text: 'Factores predisponentes: obesidad, embarazos múltiples y cirrosis hepática con ascitis.',
+              say: 'La hernia umbilical en el adulto es adquirida por aumento crónico de la presión intraabdominal. En pacientes cirróticos con ascitis a tensión, la piel suprayacente puede adelgazarse hasta ulcerarse, presentando riesgo de rotura espontánea y peritonitis bacteriana.',
             },
             {
-              text: 'Hernia de Littré y Hernia de Amyand: Meckel y apéndice en el saco.',
-              say: 'La hernia de Littré se define por la presencia de un divertículo de Meckel en el saco herniario. La hernia de Amyand contiene el apéndice cecal dentro de una hernia inguinal, mientras que la hernia de De Garengeot contiene el apéndice dentro de una hernia crural.',
+              text: 'Tratamiento quirúrgico con prótesis de malla si el defecto supera un centímetro y medio.',
+              say: 'A diferencia de los niños, en los adultos la hernia umbilical nunca cierra espontáneamente. Defectos mayores a un centímetro y medio se reparan mediante hernioplastia con malla de polipropileno para evitar recidivas.',
             },
           ],
         },
         {
-          title: 'Hernia umbilical del niño y del adulto',
+          title: 'Hernia epigástrica de la línea alba',
           kind: 'criteria',
           items: [
             {
-              text: 'En niños: observar hasta los cuatro años; cirugía GES si persiste o mide más de dos centímetros.',
-              say: 'En pediatría, la hernia umbilical es un defecto del anillo que cierra espontáneamente en más del noventa por ciento de los niños antes de los tres a cuatro años de edad. Solo se interviene antes si el defecto supera dos centímetros o produce episodios de atascamiento. En adultos, en cambio, no cierra espontáneamente y requiere hernioplastia con malla si mide más de un centímetro y medio.',
-            },
-          ],
-        },
-        {
-          title: 'Eventración o hernia incisional',
-          kind: 'key',
-          items: [
-            {
-              text: 'Defecto en una cicatriz quirúrgica previa; principal factor de riesgo es la infección de herida.',
-              say: 'La eventración o hernia incisional es la protrusión visceral a través de una cicatriz quirúrgica abdominal previa. El factor de riesgo principal es haber cursado con infección del sitio quirúrgico en el postoperatorio, seguido de obesidad, diabetes, desnutrición y tabaquismo. Su reparación en adultos se realiza con malla protésica retromuscular libre de tensión.',
+              text: 'Protrusión de grasa preperitoneal a través de la línea alba entre apéndice xifoides y ombligo.',
+              say: 'La hernia epigástrica se origina por un defecto en el entrecruzamiento de las fibras aponeuróticas de la línea alba. Frecuentemente contiene solo grasa preperitoneal estrangulada, provocando dolor focal agudo que simula una úlcera péptica o pancreatitis.',
             },
           ],
         },
@@ -185,34 +229,98 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Anatomía quirúrgica y nervios del canal',
-      title: 'Inervación del canal inguinal y zonas de peligro laparoscópico',
+      kicker: 'Patología de pared adquirida',
+      title: 'Eventración o hernia incisional postoperatoria',
+      cards: [
+        {
+          title: 'Factores de riesgo mayores',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Defecto músculo-aponeurótico en una cicatriz quirúrgica previa.',
+              say: 'La eventración o hernia incisional se produce por la reapertura o debilidad cicatrizal de una laparotomía previa. El factor de riesgo número uno con gran diferencia es la infección del sitio quirúrgico en el postoperatorio.',
+            },
+            {
+              text: 'Cofactores biológicos: obesidad, diabetes, desnutrición, tabaquismo y EPOC con tos crónica.',
+              say: 'Otros factores de riesgo mayores son la obesidad mórbida, desnutrición con hipoalbuminemia, tabaquismo activo y aumentos repetidos de presión intraabdominal por tos crónica o esfuerzo físico precoz.',
+            },
+          ],
+        },
+        {
+          title: 'Técnica de reparación',
+          kind: 'key',
+          items: [
+            {
+              text: 'Hernioplastia con malla protésica retromuscular libre de tensión.',
+              say: 'El tratamiento de elección en adultos es la hernioplastia incisional libre de tensión con colocación de malla retromuscular o preperitoneal, que asegura una resistencia duradera y minimiza la recidiva.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Variedades epónimas de alto rendimiento',
+      title: 'Hernias de Richter, Littré, Amyand y Spiegel',
+      cards: [
+        {
+          title: 'Hernia de Richter',
+          kind: 'alert',
+          items: [
+            {
+              text: 'Pinzamiento del borde antimesentérico del intestino sin obstruir toda la luz.',
+              say: 'La hernia de Richter es el pellizcamiento de solo una porción del borde antimesentérico del asa. Como no ocluye completamente el lumen intestinal, el paciente no presenta distensión ni detención del tránsito, pero el asa se necrosa y perfora rápidamente. Es sumamente traicionera en la práctica médica.',
+            },
+          ],
+        },
+        {
+          title: 'Hernias de Littré y de Amyand',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Hernia de Littré: presencia de un divertículo de Meckel dentro del saco herniario.',
+              say: 'La hernia de Littré se define estrictamente por la presencia de un divertículo de Meckel en el interior del saco herniario.',
+            },
+            {
+              text: 'Hernia de Amyand: presencia del apéndice cecal dentro de una hernia inguinal.',
+              say: 'La hernia de Amyand contiene el apéndice cecal inflamado o no dentro de una hernia inguinal, mientras que si está en una hernia crural se denomina hernia de De Garengeot.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Anatomía nerviosa y zonas de peligro',
+      title: 'Inervación del canal inguinal y anatomía laparoscópica de seguridad',
       cards: [
         {
           title: 'Nervios en riesgo durante cirugía abierta',
           kind: 'pharma',
           items: [
             {
-              text: 'Nervio ilioinguinal: cruza sobre el cordón espermático bajo la aponeurosis del oblicuo mayor.',
-              say: 'Durante la hernioplastia abierta de Lichtenstein, el nervio ilioinguinal discurre paralelo y por delante del cordón espermático. Su lesión o atrapamiento en una sutura causa dolor crónico inguinal invalidante o inguinodinia, así como pérdida de sensibilidad en la base del pene y cara anterior del escroto.',
+              text: 'Nervio ilioinguinal: discurre anterior al cordón espermático; riesgo de inguinodinia por atrapamiento.',
+              say: 'Durante la técnica abierta de Lichtenstein, el nervio ilioinguinal transcurre paralelo sobre el cordón. Su atrapamiento o lesión produce dolor neuropático crónico severo o inguinodinia en la base del pene y escroto.',
             },
             {
-              text: 'Nervio iliohipogástrico y rama genital del nervio genitofemoral.',
-              say: 'El nervio iliohipogástrico discurre craneal al cordón y la rama genital del genitofemoral viaja por dentro del cordón inervando el músculo cremáster y la piel escrotal. Deben identificarse y protegerse meticulosamente para evitar secuelas sensitivas y neuralgias postoperatorias.',
+              text: 'Nervio iliohipogástrico y rama genital del genitofemoral.',
+              say: 'Estos nervios deben ser minuciosamente respetados para evitar anestesia cutánea y disestesias permanentes en la ingle y muslo.',
             },
           ],
         },
         {
-          title: 'Zonas de peligro en hernioplastia laparoscópica',
+          title: 'Zonas de peligro laparoscópico',
           kind: 'alert',
           items: [
             {
-              text: 'Triángulo de la Fatalidad o del Desastre: delimitado por el conducto deferente y vasos espermáticos.',
-              say: 'En el abordaje laparoscópico, el triángulo de la fatalidad está comprendido entre los vasos espermáticos lateralmente y el conducto deferente medialmente. Por allí transcurren los vasos ilíacos externos: colocar grapas o puntos en esta zona causa hemorragia exanguinante inmediata.',
+              text: 'Triángulo de la Fatalidad: vasos ilíacos externos entre deferente y vasos espermáticos.',
+              say: 'En laparoscopía, el triángulo de la fatalidad alberga los vasos ilíacos externos. Colocar grapas en esta zona produce una hemorragia catastrófica exanguinante.',
             },
             {
-              text: 'Triángulo del Dolor: lateral a los vasos espermáticos e inferior a la cintilla iliopúbica.',
-              say: 'El triángulo del dolor se ubica lateral a los vasos espermáticos y por debajo de la cintilla iliopúbica. Por allí viajan los nervios cutáneo femoral lateral y la rama femoral del genitofemoral. Está prohibido disparar tachas o grapas en este triángulo para no lesionar los nervios femorales.',
+              text: 'Triángulo del Dolor: nervios femorales lateral a los vasos espermáticos.',
+              say: 'En el triángulo del dolor viajan ramas sensitivas del nervio femoral. Está estrictamente prohibido grapar en esta área para no generar neuralgias irreversibles.',
             },
           ],
         },
@@ -228,7 +336,7 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Técnicas de reparación quirúrgica',
+      kicker: 'Técnicas de reparación',
       title: 'Hernioplastia abierta libre de tensión de Lichtenstein versus Laparoscopía',
       cards: [
         {
@@ -250,18 +358,40 @@ module.exports = {
           kind: 'pharma',
           items: [
             {
-              text: 'Indicado de elección en hernias inguinales bilaterales y en hernias recidivadas.',
-              say: 'El abordaje laparoscópico transabdominal preperitoneal o totalmente extraperitoneal está indicado formalmente ante hernias inguinales bilaterales, ya que permite reparar ambos lados por las mismas incisiones, y en hernias recidivadas tras cirugía abierta para evitar disecar un canal con cicatrices densas.',
+              text: 'Indicaciones formales de laparoscopía: hernias bilaterales y recidivas tras cirugía abierta previa.',
+              say: 'El abordaje laparoscópico mediante técnica totalmente extraperitoneal o transabdominal preperitoneal es la indicación de primera línea indiscutida en dos escenarios: hernias inguinales bilaterales, porque repara ambos lados por los mismos puertos, y en hernias recidivadas tras abordaje anterior previo, ya que evita la fibrosis cicatrizal.',
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Peculiaridades en pediatría',
+      title: 'Manejo en niños: Hernia inguinal congénita y Hernia umbilical',
+      cards: [
+        {
+          title: 'Hernia inguinal en niños',
+          kind: 'criteria',
+          items: [
+            {
+              text: 'Siempre es indirecta congénita por persistencia del conducto peritoneovaginal.',
+              say: 'En pacientes pediátricos, la hernia inguinal es siempre indirecta y congénita debido a la falta de cierre del proceso vaginal embrionario. No existe debilidad de la fascia transversalis.',
+            },
+            {
+              text: 'Tratamiento quirúrgico: herniotomía simple con ligadura alta del saco sin uso de malla.',
+              say: 'Por lo tanto, en niños está prohibido utilizar mallas protésicas. La intervención consiste únicamente en la herniotomía con disección y ligadura alta del saco a nivel del anillo profundo.',
             },
           ],
         },
         {
-          title: 'Conducta en hernia estrangulada',
-          kind: 'alert',
+          title: 'Hernia umbilical en niños',
+          kind: 'key',
           items: [
             {
-              text: 'Apertura del saco, evaluación de viabilidad del asa y resección intestinal si hay necrosis.',
-              say: 'En la cirugía de urgencia por hernia estrangulada, el primer paso tras abrir el saco es sujetar el asa comprometida antes de liberar el anillo para evitar que retorne inadvertida a la cavidad. Se aplica calor con suero tibio y oxígeno al cien por ciento durante diez a quince minutos: si el asa no recupera color rosado, peristaltismo ni pulsos arteriales marginales, se realiza resección intestinal y anastomosis.',
+              text: 'Conducta expectante hasta los cuatro años; cierre espontáneo en más del noventa por ciento.',
+              say: 'En lactantes y niños pequeños, la hernia umbilical fisiológica se vigila expectante hasta los tres a cuatro años, momento en que más del noventa por ciento ha cerrado espontáneamente sin intervención.',
             },
           ],
         },
@@ -272,34 +402,34 @@ module.exports = {
       type: 'table',
       kicker: 'Diagnósticos diferenciales y trampas',
       title: 'Trampas del EUNACOM en aumento de volumen inguinal y testicular',
-      head: ['Patología simuladora', 'Hallazgo clínico diferenciador', 'Transiluminación o imágenes', 'Conducta correcta'],
+      head: ['Patología simuladora', 'Hallazgo clínico clave', 'Diferenciación con hernia inguinal', 'Conducta médica'],
       rows: [
         {
           cells: [
-            'Hidrocele testicular comunicante o no comunicante',
-            'Aumento de volumen escrotal blando e indoloro; el examinador puede palpar por encima de la masa la raíz del cordón',
-            'Transiluminación positiva (la luz atraviesa con brillo rojizo el líquido claro escrotal)',
-            'Cirugía electiva en hidroceles sintomáticos o comunicantes; no se confunde con hernia estrangulada.',
+            'Hidrocele testicular comunicante o simple',
+            'Masa escrotal no dolorosa fluctuante · transiluminación intensamente positiva',
+            'El hidrocele permite palpar claramente el cordón espermático normal sobre él en el polo superior.',
+            'Ecografía doppler testicular; cirugía electiva ambulatoria si persiste o genera molestias.',
           ],
-          say: 'El hidrocele testicular se distingue porque el examinador puede situar sus dedos por encima del tumor en el orificio inguinal superficial, el testículo queda inmerso en líquido y la transiluminación es intensamente positiva con la linterna. La hernia en cambio desciende desde el canal.',
+          say: 'El hidrocele presenta transiluminación positiva intensa y permite palpar el polo superior del cordón sano libre por encima del escroto, a diferencia de la hernia inguinoescrotal cuyo saco viene desde el canal.',
         },
         {
           cells: [
-            'Adenopatía inguinal o adenoflemón',
-            'Nódulo móvil o fijo sin orificio herniario palpable; a menudo bilateral o con foco cutáneo infeccioso en extremidad inferior',
-            'Ecografía de partes blandas demuestra ganglio con hilio graso o licuefacción sin asa intestinal',
-            'Antibioticoterapia si es infeccioso o biopsia si hay sospecha de neoplasia o linfoma.',
+            'Adenitis inguinal o adenoflemón',
+            'Masa fija, dolorosa, con signos inflamatorios cutáneos sin relación con maniobra de Valsalva',
+            'No tiene impulso con la tos ni reductibilidad; suele haber lesión infectada en extremidad inferior.',
+            'Tratamiento antimicrobiano sistémico o drenaje quirúrgico si hay colección fluctuante.',
           ],
-          say: 'Una adenopatía inguinal dolorosa puede simular una hernia atascada, pero no cambia de tamaño con la tos ni con el decúbito. La anamnesis suele revelar heridas o infecciones en la extremidad inferior o antecedentes de neoplasias pélvicas.',
+          say: 'Una adenopatía inguinal reactiva no se modifica con el esfuerzo o la tos, no es reductible y se asocia a heridas o infecciones en la extremidad inferior o región genital.',
         },
         {
           cells: [
-            'Varicocele izquierdo',
-            'Dilatación tortuosa del plexo pampiniforme descrita como una bolsa de gusanos que aumenta con Valsalva de pie',
-            'Ecografía Doppler testicular demuestra reflujo venoso retrógrado',
-            'Varicocelectomía electiva si hay dolor o alteración espermática; no es una hernia.',
+            'Hematoma inguinal precoz post hernioplastia',
+            'Aumento de volumen doloroso con equimosis pocas horas tras la cirugía',
+            'No es una recidiva herniaria; es sangrado postoperatorio en el lecho del canal inguinal',
+            'Compresión suave, reposo y observación si es pequeño; reexploración si es expansivo.',
           ],
-          say: 'El varicocele se presenta casi siempre en el lado izquierdo y al palpar se siente como una bolsa de gusanos que colapsa en decúbito dorsal y se repleta al ponerse de pie. El Doppler testicular confirma la incompetencia de la vena espermática.',
+          say: 'Si a las pocas horas de una hernioplastia el paciente presenta aumento de volumen doloroso y equimosis local, el diagnóstico es un hematoma postoperatorio precoz, no una recidiva de la hernia.',
         },
       ],
     },
@@ -308,43 +438,21 @@ module.exports = {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
       title: 'EUNACOM Diciembre 2018 · Pregunta 144',
-      caseText: 'Una paciente de sesenta años consulta por aumento de volumen en la cara anterior del muslo, que en ocasiones es dolorosa y se asocia a náuseas y dolor abdominal. Al examen físico se aprecia dicho aumento de volumen, por debajo del ligamento inguinal. ¿Cuál es el diagnóstico más probable?',
+      caseText: 'Una paciente de sesenta años consulta por aumento de volumen en la cara anterior del muslo derecho, que en ocasiones es doloroso y se asocia a náuseas y dolor abdominal difuso. Al examen físico se aprecia dicho aumento de volumen situado inmediatamente por debajo del ligamento inguinal. ¿Cuál es el diagnóstico más probable?',
       question: '¿Cuál es el diagnóstico más probable?',
       options: [
         { letter: 'A', text: 'Linfoma inguinal', isCorrect: false },
         { letter: 'B', text: 'Hernia inguinal directa', isCorrect: false },
         { letter: 'C', text: 'Adenopatía metastásica', isCorrect: false },
-        { letter: 'D', text: 'Hernia femoral', isCorrect: true },
+        { letter: 'D', text: 'Hernia femoral o crural', isCorrect: true },
         { letter: 'E', text: 'Sarcoma de partes blandas', isCorrect: false },
       ],
       correct: 'D',
       say: {
-        stem: 'Analicemos esta pregunta oficial de diciembre de dos mil dieciocho. Una paciente mujer de sesenta años consulta por aumento de volumen doloroso en la cara anterior del muslo que se acompaña de molestias abdominales y náuseas. Al examen físico la masa se ubica claramente por debajo del ligamento inguinal.',
-        question: 'Nos consultan por el diagnóstico más probable.',
-        options: 'Las alternativas son: opción A, linfoma inguinal; opción B, hernia inguinal directa; opción C, adenopatía metastásica; opción D, hernia femoral; y opción E, sarcoma de partes blandas.',
-        answer: 'La respuesta correcta es la opción D, hernia femoral o crural. El punto de referencia anatómico clave es la ubicación por debajo del ligamento inguinal en la raíz del muslo, lo que define por definición a la hernia crural. Además, la presencia de dolor y náuseas alerta sobre suboclusión intestinal por atascamiento.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      caseText: 'Un hombre de setenta y dos años consulta por la aparición súbita hace seis horas de dolor muy intenso en la región inguinal derecha, acompañado de náuseas y vómitos. Al examen físico se observa una masa firme de cinco centímetros en la fosa inguinal derecha que no se reduce con el decúbito ni a la presión suave. La piel que recubre la masa se encuentra eritematosa y caliente. El paciente presenta taquicardia de ciento cinco latidos por minuto y facies dolorosa. ¿Cuál es la conducta más adecuada?',
-      question: '¿Cuál es la conducta más adecuada?',
-      options: [
-        { letter: 'A', text: 'Realizar maniobra de taxis con presión bimanual profunda y relajantes musculares', isCorrect: false },
-        { letter: 'B', text: 'Solicitar tomografía computarizada de abdomen y pelvis ambulatoria', isCorrect: false },
-        { letter: 'C', text: 'Cirugía de urgencia inmediata para exploración, evaluación de viabilidad y hernioplastia', isCorrect: true },
-        { letter: 'D', text: 'Indicar reposo en cama con compresión fría local y control en cuarenta y ocho horas', isCorrect: false },
-        { letter: 'E', text: 'Punción aspirativa con aguja fina de la masa para aliviar la tensión', isCorrect: false },
-      ],
-      correct: 'C',
-      say: {
-        stem: 'Revisemos este caso representativo de hernia estrangulada. Un paciente adulto mayor presenta dolor súbito intenso, masa irreducible con signos inflamatorios cutáneos eritematosos y taquicardia sostenida.',
-        question: 'Se pregunta cuál es la conducta más adecuada.',
-        options: 'Las opciones son: opción A, maniobra de taxis bimanual; opción B, tomografía ambulatoria; opción C, cirugía de urgencia inmediata para exploración, viabilidad y hernioplastia; opción D, reposo y frío local; y opción E, punción de la masa.',
-        answer: 'La respuesta correcta es la opción C. El paciente cursa con una hernia inguinal estrangulada. Los signos inflamatorios locales y la taquicardia reflejan isquemia y necrosis parietal. La reducción manual o taxis está formalmente contraindicada y se debe ingresar de urgencia inmediata a pabellón quirúrgico.',
+        stem: 'Revisemos esta pregunta oficial de diciembre de dos mil dieciocho. Una mujer de sesenta años presenta aumento de volumen en la cara anterior del muslo, doloroso y acompañado de síntomas digestivos, ubicado por debajo del ligamento inguinal.',
+        question: 'Nos consultan por el diagnóstico más probable entre las opciones.',
+        options: 'Las alternativas son: opción A, linfoma inguinal; opción B, hernia inguinal directa; opción C, adenopatía metastásica; opción D, hernia femoral o crural; y opción E, sarcoma de partes blandas. Piénsalo.',
+        answer: 'La respuesta correcta es la opción D, hernia femoral o crural. La localización anatómica por debajo del ligamento inguinal en una mujer adulta mayor es la definición patognomónica de la hernia femoral. Su asociación con náuseas y dolor sugiere atascamiento u oclusión incipiente, lo que exige cirugía de urgencia por su alto riesgo de necrosis.',
       },
     },
 
@@ -358,20 +466,20 @@ module.exports = {
           kind: 'key',
           items: [
             {
-              text: 'Hernia indirecta es lateral y sale por anillo profundo; directa es medial en Hesselbach.',
-              say: 'Primera regla: la hernia indirecta es lateral a los vasos epigástricos y viaja al escroto por el anillo profundo; la hernia directa es medial a los vasos epigástricos por debilidad de la fascia transversalis.',
+              text: 'Sobre el ligamento es inguinal, bajo el ligamento es crural.',
+              say: 'Primera regla: la ubicación anatómica respecto al ligamento inguinal es absoluta: por encima es hernia inguinal, por debajo es hernia crural o femoral.',
             },
             {
-              text: 'La hernia crural se ubica bajo el ligamento inguinal y tiene la máxima tasa de estrangulación.',
-              say: 'Segunda regla: la hernia crural se sitúa por debajo del ligamento inguinal y medial a la vena femoral; afecta sobre todo a mujeres y se estrangula en hasta un cuarenta por ciento.',
+              text: 'La hernia crural tiene la mayor tasa de estrangulación (cuarenta por ciento).',
+              say: 'Segunda regla: la hernia crural es más frecuente en mujeres mayores y tiene la mayor tasa de estrangulación de toda la patología herniaria.',
             },
             {
-              text: 'Jamás realizar taxis en una hernia estrangulada.',
-              say: 'Tercera regla: si hay eritema cutáneo, dolor severo continuo o fiebre, la hernia está estrangulada y la maniobra de taxis está absolutamente prohibida; requiere cirugía de urgencia inmediata.',
+              text: 'Prohibido realizar reducción manual o taxis en hernia estrangulada.',
+              say: 'Tercera regla: ante una hernia estrangulada con dolor severo, eritema cutáneo o fiebre, está formalmente prohibido realizar taxis por riesgo de peritonitis letal.',
             },
             {
-              text: 'Lichtenstein con malla en adultos; herniotomía simple sin malla en niños.',
-              say: 'Cuarta regla: el tratamiento estándar en adultos es la hernioplastia libre de tensión de Lichtenstein; en pacientes pediátricos menores de quince años se realiza ligadura simple del saco sin malla.',
+              text: 'Lichtenstein libre de tensión es el estándar de oro en adultos.',
+              say: 'Cuarta regla: la hernioplastia de Lichtenstein con malla de polipropileno es el tratamiento estándar de elección en adultos; la laparoscopía se indica en bilaterales y recidivas.',
             },
           ],
         },
@@ -380,8 +488,8 @@ module.exports = {
           kind: 'normal',
           items: [
             {
-              text: 'En laparoscopía: indicada de elección en hernias bilaterales y recidivadas.',
-              say: 'Si te llevas una sola idea de hoy: la hernioplastia laparoscópica es la técnica de elección ante hernias inguinales bilaterales o recidivadas tras cirugía abierta, mientras que la hernia crural es la que con mayor frecuencia debuta estrangulada. Nos vemos en la próxima clase.',
+              text: 'En niños la hernia inguinal se opera sin malla mediante ligadura simple del saco.',
+              say: 'Si te llevas una sola idea de hoy: en pediatría la hernia inguinal es congénita y se opera mediante herniotomía simple con ligadura alta del saco sin utilizar mallas protésicas. Nos vemos en la próxima clase.',
             },
           ],
         },
@@ -390,98 +498,98 @@ module.exports = {
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo de Hernias Inguinocrurales',
+    title: 'Algoritmo Diagnóstico y Terapéutico en Hernias Inguinocrurales',
     root: N(
       'start',
-      'Paciente con masa o aumento de volumen en región inguinocrural',
-      'Evaluación clínica en bipedestación y decúbito con maniobra de Valsalva',
-      'Iniciamos el enfrentamiento determinando la localización anatómica respecto al ligamento inguinal y la reductibilidad de la masa.',
+      'Paciente con aumento de volumen en región inguinocrural',
+      'Masa palpable en ingle o raíz del muslo que protruye con el esfuerzo',
+      'Iniciamos el enfrentamiento examinando la relación de la masa con el ligamento inguinal y evaluando signos de complicación.',
       [
-        'Masa ubicada por debajo del ligamento inguinal (Hernia Crural)',
+        'Signos de estrangulación isquémica',
         N(
           'alert',
-          'Hernia Crural o Femoral sospechada',
-          'Alta tasa de estrangulación (30 a 40%) en mujeres añosas',
-          'Toda masa bajo el ligamento inguinal corresponde a una hernia crural y tiene indicación quirúrgica formal obligatoria.',
+          'Hernia estrangulada de urgencia',
+          'Dolor intenso continuo · eritema cutáneo local · fiebre · oclusión intestinal',
+          'Ante signos de compromiso vascular, se prohíbe el taxis y se traslada a pabellón de inmediato.',
           [
-            'Conducta en hernia crural',
+            'Conducta de emergencia inmediata',
             N(
               'do',
-              'Hernioplastia crural quirúrgica prioritaria',
-              'Reparación urgente si está atascada · electiva pronta si reduce',
-              'Indicamos reparación quirúrgica sin demoras para prevenir la estrangulación intestinal.',
+              'Cirugía exploradora de urgencia',
+              'PROHIBIDO TAXIS · pabellón urgente + incisión + evaluar viabilidad intestinal',
+              'Se interviene de urgencia para inspeccionar el asa, resecando si existe necrosis o realizando hernioplastia si es viable.',
             ),
           ],
         ),
       ],
       [
-        'Masa ubicada por encima del ligamento inguinal (Hernia Inguinal)',
+        'Masa incarcerada sin estrangulación aguda',
         N(
           'q',
-          'Evaluar si la hernia es reductible o está complicada',
-          'Exploración digital del canal: choque en punta (indirecta) vs yema (directa)',
-          'Evaluamos si el contenido de la hernia inguinal se reduce espontáneamente o si presenta signos de complicación.',
+          'Hernia atascada irreductible reciente',
+          'Masa irreducible sin eritema cutáneo ni taquicardia ni peritonitis',
+          'Si la incarceración tiene pocas horas y no hay signos de estrangulación, se puede intentar reducción suave bajo analgesia.',
           [
-            'Hernia reductible no complicada',
+            'Reducción suave exitosa',
             N(
-              'do',
-              'Hernioplastia programada según edad y lateralidad',
-              'Técnica libre de tensión con malla de polipropileno',
-              'En hernias reductibles programamos hernioplastia electiva.',
-              [
-                'Adulto con hernia unilateral primaria',
-                N(
-                  'ok',
-                  'Técnica de Lichtenstein abierta',
-                  'Malla de polipropileno libre de tensión · recidiva < 1%',
-                  'En adultos con hernia unilateral primaria realizamos la técnica abierta de Lichtenstein.',
-                ),
-              ],
-              [
-                'Hernia bilateral o recidivada',
-                N(
-                  'ok',
-                  'Abordaje laparoscópico TAPP o TEP',
-                  'Reparación preperitoneal mínimamente invasiva',
-                  'En hernias bilaterales o recidivadas el abordaje laparoscópico es la indicación de elección.',
-                ),
-              ],
-              [
-                'Paciente pediátrico menor de 15 años',
-                N(
-                  'ok',
-                  'Herniotomía simple sin malla',
-                  'Ligadura alta y sección del saco · Garantía GES N° 58',
-                  'En niños se realiza ligadura alta del saco herniario sin colocar malla protésica.',
-                ),
-              ],
+              'ok',
+              'Hospitalizar y programar hernioplastia diferida precoz',
+              'Cirugía electiva prioritaria en la misma hospitalización',
+              'Se reduce suavemente y se programa cirugía en las siguientes cuarenta y ocho horas.',
             ),
           ],
           [
-            'Hernia atascada o estrangulada',
+            'Falla de reducción o duda clínica',
             N(
               'alert',
-              'Masa irreductible con dolor agudo intenso',
-              'Diferenciar incarceración simple de estrangulación vascular',
-              'Frente a una hernia irreductible evaluamos si existen signos de compromiso vascular isquémico.',
-              [
-                'Signos de estrangulación: eritema, calor, fiebre, taquicardia',
-                N(
-                  'alert',
-                  'Hernia Estrangulada confirmada: PROHIBIDO TAXIS',
-                  'Laparotomía o inguinotomía urgente inmediata con evaluación de viabilidad',
-                  'Ante signos inflamatorios locales o shock está prohibido realizar taxis y se opera de urgencia inmediata.',
-                ),
-              ],
-              [
-                'Incarceración reciente sin signos inflamatorios',
-                N(
-                  'do',
-                  'Intento cuidadoso de reducción suave en decúbito',
-                  'Si reduce: programar cirugía · si no reduce: pabellón urgente',
-                  'En atascamiento temprano sin signos de isquemia se intenta reducción suave; si fracasa, se opera de urgencia.',
-                ),
-              ],
+              'Pabellón de urgencia',
+              'Resolución quirúrgica urgente',
+              'Si no reduce suavemente, el paciente va a quirófano sin forzar maniobras.',
+            ),
+          ],
+        ),
+      ],
+      [
+        'Hernia reductible no complicada',
+        N(
+          'q',
+          'Localización anatómica y perfil del paciente',
+          'Ubicación sobre versus bajo el ligamento inguinal · edad',
+          'Definimos la técnica quirúrgica electiva según el tipo de defecto y antecedentes.',
+          [
+            'Hernia crural bajo ligamento inguinal',
+            N(
+              'do',
+              'Hernioplastia crural prioritaria',
+              'Cirugía electiva precoz por alto riesgo de estrangulación del 40%',
+              'La hernia crural se opera prioritariamente debido a su altísimo riesgo de atascamiento.',
+            ),
+          ],
+          [
+            'Hernia inguinal unilateral primaria en adulto',
+            N(
+              'do',
+              'Hernioplastia abierta libre de tensión de Lichtenstein',
+              'Malla de polipropileno fijada sobre pared posterior del canal',
+              'Indicamos la técnica de Lichtenstein abierta como estándar de oro ambulatorio.',
+            ),
+          ],
+          [
+            'Hernia inguinal bilateral o recidivada',
+            N(
+              'do',
+              'Hernioplastia laparoscópica TEP o TAPP',
+              'Reparación preperitoneal mínimamente invasiva',
+              'En bilaterales o recidivas tras Lichtenstein previo, indicamos abordaje laparoscópico.',
+            ),
+          ],
+          [
+            'Hernia inguinal en paciente pediátrico',
+            N(
+              'do',
+              'Herniotomía simple sin malla',
+              'Disección y ligadura alta del conducto peritoneovaginal',
+              'En niños se efectúa herniotomía simple con ligadura alta del saco sin prótesis.',
             ),
           ],
         ),
