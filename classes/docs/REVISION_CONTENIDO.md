@@ -422,3 +422,21 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2022 · Pregunta 43 | Lactante de 11 meses con 3 días de fiebre y luego exantema: clave Epstein-Barr; es roséola (herpes 6). |
 | EUNACOM Enero 2023 · Pregunta 116 | Famciclovir 500 mg c/8 h por 7 días también es correcto: dos respuestas válidas. |
 | **EUNACOM Julio 2013 · Pregunta 109 (usada en infecto-24)** | **Clave ceftazidima + amikacina; el libro hoy indica cefepime solo (en hem-21 se descartó). La voz lo aclara; revisar si se deja.** |
+
+## Neurología y Geriatría
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| neuro-02 | Endarterectomía con estenosis 70–99 %, o 50–69 % en hombres (texto) | ≥ 70 % (keyPoints); > 50 % (criterios de hospitalización directa) | El texto |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| neuro-01 | La clasificación TOAST solo nombra trombosis venosa cerebral y disección arterial, sin clínica; el banco las pregunta (Dic 2019 P1; Ago 2021 P76, síndrome de Horner). |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Julio 2025 · Pregunta 66 | Clave aspirina a las 5 h; el libro da ventana de trombectomía de 0–6 h en oclusión de gran vaso (alternativa C). |
+| EUNACOM Diciembre 2022 · Pregunta 97 | Hemiparesia pura sin afasia: clave arteria cerebral media; el libro la clasifica como lacunar. |
