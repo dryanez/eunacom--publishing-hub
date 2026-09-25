@@ -373,6 +373,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-06 | Inmunoglobulina antirrábica solo en contacto con murciélago. | Las exposiciones graves por otros animales suelen recibirla también. | Sigue el libro. **Revisar.** |
 | infecto-08 | Cólera: "azitromicina 1 g dosis única en niños y embarazadas". | 1 g es la dosis de adulto; en niños es por peso (~20 mg/kg, máx. 1 g). | "Azitromicina en dosis única", sin cifra. |
 | infecto-11 | La TBC ganglionar (escrófula) es la forma extrapulmonar más frecuente. | Según datos del programa chileno la pleural sería la primera (no verificado). | Sigue el libro. **Revisar.** |
+| infecto-19 | Ántrax cutáneo: ciprofloxacino o doxiciclina por 60 días. | Los 60 días son para exposición inhalatoria o bioterrorismo; el ántrax cutáneo localizado se trata ~7–10 días. | Sigue el libro ("según el libro"). |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -384,6 +385,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-05 | Profilaxis post exposición VIH 28 días (texto) | "28 días a 6 semanas" (alternativa de pregunta) | 28 días |
 | infecto-10 | Cotrimoxazol con CD4 < 200 protege de Pneumocystis y Toxoplasma (keyPoint) | Toxoplasma: CD4 < 100 con IgG positiva (tabla) | La tabla |
 | infecto-14 | Plaquetas < 100.000 y hematocrito > 45–50 % (texto) | Plaquetas < 50.000 (explicación); hematocrito > 50 % (tabla y explicación) | El texto |
+| infecto-20 | Erisipela: cefadroxilo, cefalexina o flucloxacilina (texto) | Además penicilina oral, V y G sódica EV (tabla y explicación) | El texto, con penicilina oral como alternativa |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -401,9 +403,14 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-14 | No da el recuento de leucocitos (la viñeta tiene leucocitosis; Jul 2025 P7 dice leucopenia y nombra el virus "Sin Nombre", cuando en Chile es el virus Andes). |
 | infecto-15 | "Se trata a la madre post-parto y lactancia" es ambiguo. El banco real no tiene preguntas de Chagas (solo como distractor). |
 | infecto-13 | La sección de VPH no incluye la vacuna. Contactos a tratar: "recientes" (texto) y "últimos 60 días" (explicación). |
+| infecto-18 | No describe el hemograma de la fiebre tifoidea (leucopenia, aneosinofilia; Dic 2025 P57) ni dosis de doxiciclina en leptospirosis leve o de penicilina G en el síndrome de Weil. |
+| infecto-19 | Sin duración para la doxiciclina ni dosis de la triple terapia EV. No hay preguntas reales de ántrax. |
+| infecto-20 | Solo da tratamiento tópico para la foliculitis; no dice cuándo requiere antibiótico oral (Dic 2025 P55 espera flucloxacilina). |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
 |---|---|
 | EUNACOM Diciembre 2022 · Pregunta 55 | Diarrea febril por Campylobacter de 7 días: clave "probióticos"; contra la práctica actual y Ene 2023 P76 (azitromicina). |
 | EUNACOM Agosto 2021 · Pregunta 27 y Julio 2016 · Pregunta 37 | Embarazada alérgica a penicilina con sífilis: clave eritromicina; el libro exige desensibilización y penicilina (el macrólido no cruza bien la placenta). |
+| EUNACOM Diciembre 2022 · Pregunta 86 | Clave coprocultivo en un cuadro de mononucleosis (debería ser anticuerpos heterófilos). |
+| **EUNACOM Diciembre 2024 · Pregunta 6 (usada en infecto-18)** | **Texto del banco corrupto: el agente conservó el enunciado y la respuesta (A, brucelosis) pero reconstruyó las alternativas. Revisar o quitar esa diapositiva.** |
