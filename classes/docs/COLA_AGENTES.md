@@ -20,7 +20,7 @@ Cada agente lee `classes/docs/AGENT_BRIEF.md`. Antes de escribir una clase revis
    - **Ginecología (16 clases, ids `gin-XX`): gin-01..16 hecho — LIBRO COMPLETO 16/16 (Antigravity)**
    - **Pediatría (22 clases, ids `ped-XX`): ped-01..22 hecho — LIBRO COMPLETO 22/22 (Antigravity)**
    - **MÓDULO 3 (Obstetricia + Ginecología + Pediatría) COMPLETO: 58/58 clases.**
-   - Salud Pública (14 clases, ids `sp-XX`): sp-01..04 **hecho** · 05..08 · 09..11 · 12..14
+   - Salud Pública (14 clases, ids `sp-XX`): sp-01..04 **hecho** · 05..08 **hecho** · 09..11 · 12..14
 
 ## Prompt de cada agente
 > Read /home/user/eunacom--publishing-hub/classes/docs/AGENT_BRIEF.md and follow it exactly. Book: <libro>
