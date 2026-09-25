@@ -432,6 +432,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-08 | Valproato es el más eficaz en crisis generalizadas idiopáticas, incluidas ausencias (texto) | Etosuximida de elección en ausencias puras (tabla) | Ambos |
 | neuro-06 | Profilaxis con "3 o más crisis al mes" (texto) | "≥ 3–4 crisis mensuales" (keyPoints) | 3 o más |
 | neuro-07 | Fenitoína EV en crisis trigeminal refractaria y predominio femenino 2:1 (tabla) | No aparecen en el texto | Usa el predominio; omite fenitoína |
+| neuro-11 | Discinesias: bajar dosis unitaria y aumentar la frecuencia (texto) | Bajar dosis unitaria y mantener la frecuencia (tabla de gravedad) | El texto |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -439,6 +440,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-01 | La clasificación TOAST solo nombra trombosis venosa cerebral y disección arterial, sin clínica; el banco las pregunta (Dic 2019 P1; Ago 2021 P76, síndrome de Horner). |
 | neuro-03, neuro-05 | Las preguntas del libro son de otros temas (meningitis, neumonía, falla prerrenal, TEP con factor V Leiden, monitoreo de heparina). |
 | neuro-06 | No da tratamiento agudo de la cefalea tensional. No hay preguntas reales de cefalea en racimos. |
+| neuro-09 | No cubre las convulsiones en el embarazo ni la eclampsia (sulfato de magnesio; Jul 2025 P40). |
+| neuro-10 | No menciona la neurocisticercosis como causa de primera crisis (Dic 2019 P144, única pregunta real del código). |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -448,6 +451,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2022 · Pregunta 93 | Ptosis y miosis tras dolor cervical súbito: clave "parálisis del III par"; es un síndrome de Horner por disección carotídea. |
 | EUNACOM Julio 2016 · Pregunta 94 | Neuralgia del trigémino típica: clave "paracetamol y AINE"; el libro (y la propia explicación) dicen carbamazepina. |
 | EUNACOM Diciembre 2018 · Pregunta 173 | Migraña menstrual con aura: clave anticonceptivos combinados; los estrógenos están contraindicados en migraña con aura. |
+| EUNACOM Enero 2023 · Pregunta 127 y Diciembre 2022 · Pregunta 65 | Delirium en Parkinson: claves risperidona y alprazolam; se prefiere quetiapina y el libro proscribe antipsicóticos bloqueadores. |
+| EUNACOM Diciembre 2024 · Pregunta 40 | Corrupta (comentario del transcriptor en la alternativa A) y la clave no calza con el caso (parkinsonismo por cinarizina). |
 
 ### A · Posible error del libro
 | Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
@@ -457,3 +462,6 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-05 | "Proptosis ocular pulsátil" en la trombosis del seno cavernoso. | La proptosis pulsátil es típica de la fístula carótido-cavernosa. | "Proptosis". |
 | neuro-08 | Las crisis de inicio generalizado "cursan siempre con compromiso de conciencia desde el inicio". | Las mioclonías (p. ej. epilepsia mioclónica juvenil) suelen conservar la conciencia. | No lo afirma para las mioclonías. |
 | neuro-08 | Plazo GES "EEG y confirmación en ≤ 30 días" (epilepsia no refractaria ≥ 15 años). | Verificar contra el decreto GES vigente. | Sigue el libro. |
+| neuro-09 | "Hipertermia maligna secundaria" en el status. | Ese término es la reacción a anestésicos. | "Hipertermia". |
+| neuro-11 | Criterios "MDS 2026"; GES de Parkinson "N° 67"; plazos GES de 60 y 20 días y DBS cubierta por GES. | Los criterios MDS son de 2015; Parkinson sería el GES N° 62 (el 67 es esclerosis múltiple); verificar plazos y cobertura. | Omite el número GES. |
+| neuro-10 | "Crisis durante el sueño" y "déficit focal permanente" dan por sí solos riesgo de recurrencia > 60 %. | En la definición ILAE 2014 aumentan el riesgo, pero no se definen como > 60 % por sí solos. | "El libro agrega". |
