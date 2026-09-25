@@ -15,6 +15,7 @@ const BOOKS = [
   ['diabetes', 'Diabetes'], ['endocrinologia', 'Endocrinología'], ['hematologia', 'Hematología'],
   ['infectologia', 'Infectología'], ['neurologia', 'Neurología y Geriatría'], ['reumatologia', 'Reumatología'],
   ['dermatologia', 'Dermatología'], ['oftalmologia', 'Oftalmología'],
+  ['ginecologia', 'Ginecología'], ['pediatria', 'Pediatría'], ['saludpublica', 'Salud Pública'],
 ];
 
 function passes(id) {
