@@ -298,6 +298,10 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-16 | "GES N° 37" para leucemia en personas de 15 años y más. | El GES 37 sería el ACV isquémico; la leucemia del adulto sería el GES 45 (confirmar). | "Cubiertas por el GES", sin número. |
 | hem-18 | Llama "transformación de Richter" a la del linfoma folicular a linfoma agresivo. | El síndrome de Richter es la transformación de la LLC. | "Transformación a linfoma difuso agresivo". |
 | hem-17, hem-18 | Sombras de Gümprecht y signo de Hoster "patognomónicos". | Son característicos, no patognomónicos. | "Clásicas" / "orientan a Hodgkin". |
+| hem-20 | "Anomalía de Pelger-Huët" en la mielodisplasia. | En la mielodisplasia es adquirida: pseudo-Pelger-Huët. | — |
+| hem-21 | La mortalidad sube 10 % por cada hora de retraso del antibiótico. | Cifra exagerada o sin fuente. | Solo dice que cada hora de retraso aumenta la mortalidad. |
+| hem-21 | Campo GES: "GES: urgencia vital en paciente oncológico". | No existe un GES con ese nombre. | No se menciona. |
+| hem-22 | Ventana de Cairo-Bishop "24 h previas o 7 días posteriores"; lisis clínica con creatinina 1,5 veces la basal. | La definición estándar es 3 días antes a 7 después, y creatinina 1,5 veces el límite superior normal. | No da la ventana; sigue el libro en la creatinina. |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -311,6 +315,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-14 | Vitamina K oral con INR > 10: 2,5–5 mg (texto, tabla, keyPoints) | 1–2,5 mg (diagrama) | El texto |
 | hem-14 | Complejo protrombínico 25–50 UI/kg (texto y tabla) | 50 UI/kg en bolo (explicación) | El texto |
 | hem-18 | Primer peak de Hodgkin 15–35 años (texto) | 20–30 años (tabla y keyPoints) | El texto |
+| hem-21 | Monoterapia sin aminoglucósido de rutina (texto) | "Doble cobertura" ceftazidima + amikacina (pregunta 2 del libro) | El texto |
+| hem-21 | Vancomicina cada 8–12 h (texto) | Cada 12 h (tabla) | No da dosis |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -325,6 +331,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-14 | No dice que los anticoagulantes orales directos están contraindicados con válvulas mecánicas (Dic 2025 P150). |
 | hem-15 | No dice qué dar primero con TP y TTPK prolongados y fibrinógeno < 100 (Dic 2017 P54: plasma); no menciona el feto muerto retenido como causa de CID ni que el dímero D sube en el embarazo (Jul 2019 P54). |
 | hem-19 | No explica el corte de 60 % de plasmocitos ni los biomarcadores de mieloma activo sin CRAB (≥ 60 % plasmocitos, razón de cadenas livianas ≥ 100, > 1 lesión focal en RM). |
+| hem-22 | Las preguntas del libro son de tratamiento de LLA, no del tema; no dice qué hipouricemiante usar con déficit de G6PD; no dice que la PTH está suprimida en la hipercalcemia maligna. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -338,6 +345,10 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Diciembre 2022 · Pregunta 67 | Clave LMA en un cuadro típico de anemia megaloblástica (VCM 126, LDH 1.012). |
 | EUNACOM Diciembre 2022 · Pregunta 85 | Clave leucemia aguda en lactante de madre vegana estricta con pancitopenia y regresión (déficit de B12). |
 | EUNACOM Diciembre 2022 · Pregunta 134 | Clave quimioterapia con lisis tumoral establecida (K 6,3, ácido úrico 12,2, fósforo 7,1), que se trata primero. |
+| EUNACOM Diciembre 2022 · Pregunta 7 | Fiebre post quimioterapia: clave urocultivo como primer examen; el libro pide hemograma con RAN y luego hemocultivos. |
+| EUNACOM Julio 2024 · Pregunta 164 | Neutropenia febril: clave ceftriaxona, que no cubre Pseudomonas; el libro exige monoterapia antipseudomónica. |
+| EUNACOM Julio 2013 · Pregunta 109 | Clave ceftazidima + amikacina; el libro ya no agrega aminoglucósido de rutina. |
+| EUNACOM Enero 2023 · Pregunta 106 | LLA con hiperuricemia: clave suero + alopurinol; el libro indica rasburicasa en alto riesgo. |
 
 ## Reumatología
 
