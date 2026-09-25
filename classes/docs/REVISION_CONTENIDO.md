@@ -296,6 +296,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-13 | Llama "GES N° 32" a la hemofilia. | El número parece incorrecto (no se pudo confirmar). | "Cubierta por el GES", sin número. |
 | hem-12 | La tabla de gravedad asocia los grados OMS de sangrado a rangos de plaquetas; el grado 1 es incoherente (rango 20.000–30.000, conducta "si > 30.000 observar"). | La escala OMS se basa en el sangrado, no en el recuento. | No usa la tabla; sigue el texto. |
 | hem-16 | "GES N° 37" para leucemia en personas de 15 años y más. | El GES 37 sería el ACV isquémico; la leucemia del adulto sería el GES 45 (confirmar). | "Cubiertas por el GES", sin número. |
+| hem-18 | Llama "transformación de Richter" a la del linfoma folicular a linfoma agresivo. | El síndrome de Richter es la transformación de la LLC. | "Transformación a linfoma difuso agresivo". |
+| hem-17, hem-18 | Sombras de Gümprecht y signo de Hoster "patognomónicos". | Son característicos, no patognomónicos. | "Clásicas" / "orientan a Hodgkin". |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -308,6 +310,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-12 | Viñeta con 9.000 plaquetas y sangrado mucoso: corticoides e inmunoglobulina solo si no cede (explicación) | Sección 4 y tabla: < 10.000 → inmunoglobulina EV | Caso propio sin ambigüedad |
 | hem-14 | Vitamina K oral con INR > 10: 2,5–5 mg (texto, tabla, keyPoints) | 1–2,5 mg (diagrama) | El texto |
 | hem-14 | Complejo protrombínico 25–50 UI/kg (texto y tabla) | 50 UI/kg en bolo (explicación) | El texto |
+| hem-18 | Primer peak de Hodgkin 15–35 años (texto) | 20–30 años (tabla y keyPoints) | El texto |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -321,6 +324,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-13 | La pregunta 2 del libro tiene el campo de respuesta correcta vacío. |
 | hem-14 | No dice que los anticoagulantes orales directos están contraindicados con válvulas mecánicas (Dic 2025 P150). |
 | hem-15 | No dice qué dar primero con TP y TTPK prolongados y fibrinógeno < 100 (Dic 2017 P54: plasma); no menciona el feto muerto retenido como causa de CID ni que el dímero D sube en el embarazo (Jul 2019 P54). |
+| hem-19 | No explica el corte de 60 % de plasmocitos ni los biomarcadores de mieloma activo sin CRAB (≥ 60 % plasmocitos, razón de cadenas livianas ≥ 100, > 1 lesión focal en RM). |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
