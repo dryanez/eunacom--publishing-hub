@@ -18,4 +18,4 @@ Cardiología queda fuera por ahora.
 
 **Total: 216/216 clases con guion docente.**
 
-- Gastroenterología: aún usan "Caso representativo" (revisar si el banco real tiene preguntas): gastro-06, gastro-09, gastro-11, gastro-12, gastro-13, gastro-15, gastro-16, gastro-17, gastro-18, gastro-19, gastro-20, gastro-21, gastro-22, gastro-23, gastro-24, gastro-25, gastro-26
+- Gastroenterología: aún usan "Caso representativo" (revisar si el banco real tiene preguntas): gastro-06, gastro-09, gastro-11, gastro-12, gastro-13, gastro-15, gastro-16, gastro-17, gastro-18, gastro-19, gastro-20, gastro-21, gastro-23, gastro-26
