@@ -32,7 +32,7 @@ igual que si la clase no existiera. El archivo se sobreescribe con `Write`, no s
 - Seguir el resto de `LESSON_STANDARD.md` normalmente (marco fijo, TTS, preguntas reales, etc.)
 
 ## Progreso
-- Pediatría: pendiente
+- Pediatría: ped-01..04 **hecho** (verificado: 0 violaciones t/d en 86 campos, 0 "debe" impersonal en say) · 05..08 · 09..12 · 13..16 · 17..19 · 20..22
 - Ginecología (05-16): pendiente
 - Obstetricia: pendiente
 - Cirugía: pendiente
