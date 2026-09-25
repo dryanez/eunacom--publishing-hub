@@ -19,9 +19,9 @@ Cardiología queda fuera por ahora.
 | Oftalmología | 18/18 | — |
 | Cirugía General | 18/18 | — |
 | Ginecología | 16/16 | — |
-| Pediatría | 19/22 | ped-20, ped-21, ped-22 |
+| Pediatría | 22/22 | — |
 | Salud Pública | 0/14 | sp-01, sp-02, sp-03, sp-04, sp-05, sp-06, sp-07, sp-08, sp-09, sp-10, sp-11, sp-12, sp-13, sp-14 |
 
-**Total: 303/320 clases con guion docente.**
+**Total: 306/320 clases con guion docente.**
 
 - Gastroenterología: aún usan "Caso representativo" (revisar si el banco real tiene preguntas): gastro-06, gastro-09, gastro-11, gastro-12, gastro-13, gastro-15, gastro-16, gastro-17, gastro-18, gastro-19, gastro-20, gastro-21, gastro-23, gastro-26
