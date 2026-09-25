@@ -1,0 +1,212 @@
+{
+  "id": "infecto-19",
+  "title": "Infectologia 4.6: Ántrax (Carbunco Cutáneo y Respiratorio)",
+  "specialty": "Infectología",
+  "chars": 8735,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque de zoonosis con el ántrax, o carbunco. Es poco frecuente, pero cuando aparece se pregunta de forma muy clásica: reconocer una escara negra que no duele, saber que el antibiótico de elección es el ciprofloxacino, y saber qué no hay que hacer nunca. Y otra vez la exposición da la pista: ganado, cueros y lana."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el agente, porque explica la lesión. El Bacillus anthracis forma esporas extremadamente resistentes: aguantan el calor, la desecación y los desinfectantes comunes, y siguen viables en el suelo durante décadas. Por eso contaminan al ganado y a sus productos, y por eso se ha usado como arma biológica."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando la espora entra al cuerpo, germina. Es un bacilo grampositivo, encapsulado e inmóvil."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Tiene dos armas. La primera es la cápsula, que impide que los fagocitos lo destruyan."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La segunda es una toxina de tres piezas. El antígeno protector es la llave que permite entrar a las otras dos: el factor edematógeno y el factor letal."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El factor edematógeno produce un edema masivo, y el factor letal produce necrosis. Fíjate que ahí ya tienes la lesión: una escara necrótica rodeada de un edema enorme. El mecanismo te dibuja la clínica."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La forma cutánea es el noventa y cinco por ciento de los casos. Se adquiere cuando las esporas entran por pequeñas heridas de la piel, en personas que trabajan con ganado o con productos animales: cueros, lana y huesos. Curtidores, esquiladores, trabajadores de estancias."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La lesión parte como una pápula que pica pero no duele, y el paciente la confunde con una picadura. Luego se transforma en una vesícula."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Después se ulcera y aparece una escara negra central, como un carbón, de ahí el nombre carbunco, rodeada de una corona de pequeñas vesículas."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y alrededor, un edema gelatinoso muy extenso, que no deja fóvea y puede tomar todo el antebrazo. Es el factor edematógeno trabajando."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y el dato que más se pregunta: la lesión es típicamente indolora y no tiene pus, salvo que se sobreinfecte. Una escara negra con mucho edema que no duele, en alguien que manipula cueros, es carbunco."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La otra forma es la inhalatoria, llamada enfermedad de los cardadores de lana, porque aparecía en quienes procesaban lana contaminada. Hoy es también la forma del bioterrorismo: se inhalan esporas en aerosol."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Las esporas llegan a los ganglios del mediastino y producen una linfadenitis y mediastinitis hemorrágica necrotizante. Fíjate que no es una neumonía clásica: el daño está en el mediastino."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Al principio parece un cuadro gripal, sin nada que llame la atención."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Pero evoluciona bruscamente a disnea fulminante, cianosis y shock tóxico."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y la radiografía de tórax muestra el signo patognomónico: un ensanchamiento marcado del mediastino. Si en una pregunta ves un cuadro gripal que se vuelve fulminante con mediastino ancho, piensa en carbunco por inhalación."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Para confirmar, se toma líquido de las vesículas para tinción de Gram y cultivo, que muestran bacilos grampositivos en caña de bambú."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La confirmación final es por PCR en el Instituto de Salud Pública. Y como es un evento de bioseguridad, la notificación a la SEREMI es obligatoria e inmediata, no se espera el resultado."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El antibiótico de elección es el ciprofloxacino, quinientos miligramos cada doce horas por vía oral, o levofloxacino, por sesenta días según el libro."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La alternativa es doxiciclina, cien miligramos cada doce horas."
+    },
+    {
+      "file": "s04_g04",
+      "text": "En el carbunco sistémico o inhalatorio se usa una triterapia endovenosa: ciprofloxacino, clindamicina y meropenem."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y lo que nunca se hace: desbridar, curetear o resecar la escara. La manipulación rompe la barrera y lanza bacterias y toxinas a la sangre, con una bacteriemia que puede ser letal. Es contraintuitivo, porque ante una necrosis el reflejo es operar, y por eso se pregunta."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora juntemos todo en un árbol de decisión, partiendo por la lesión. Paciente con una lesión cutánea necrótica, con escara negra. Hay varias causas posibles, y dos preguntas las separan."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La primera pregunta es el dolor. El carbunco es típicamente indoloro y sin pus."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si duele mucho o supura, piensa en otra causa: aracnoidismo si es quemante y livedoide, ectima gangrenoso si es neutropénico, tularemia si hay gran adenopatía supurada."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si es indolora, sin pus, con corona de vesículas y gran edema, busca la exposición: ganado, cueros, lana o huesos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Con exposición, es carbunco cutáneo. Toma líquido vesicular para Gram y cultivo, confirma por PCR en el Instituto de Salud Pública, y notifica de inmediato a la SEREMI."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si está localizado, ciprofloxacino oral o doxiciclina. Y nunca desbridar la escara."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si hay compromiso sistémico, o un cuadro gripal fulminante con mediastino ensanchado, es carbunco sistémico o inhalatorio: triterapia endovenosa con ciprofloxacino, clindamicina y meropenem."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Sin esa exposición, el carbunco es muy improbable: revisa el diferencial y el contexto del paciente, como la inmunosupresión o una picadura."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las escaras negras que el examen puede poner juntas. El ántrax: escara negra seca con vesículas y gran edema, y es indolora y sin pus."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El aracnoidismo cutáneo, por la araña del rincón: una placa livedoide violácea con necrosis y flictena, que es intensamente dolorosa, quemante. Ese dolor es lo que lo separa del carbunco."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El ectima gangrenoso, por Pseudomonas: úlcera necrótica con halo eritematoso, en un paciente neutropénico, y duele. El contexto es otro: el paciente inmunosuprimido."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y la tularemia: úlcera muy dolorosa con una gran adenopatía que supura. En resumen, de todas las escaras negras, la única que no duele ni supura es el carbunco."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Hombre de cincuenta y dos años, curtidor de cueros y lanares en una estancia, con una lesión en el antebrazo de cinco días, que empezó como una picadura que no le dolía. Tiene una úlcera de dos centímetros con una escara negra seca, rodeada de vesículas y de un edema duro que toma todo el antebrazo. No duele, no tiene pus, y el paciente está afebril."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: aracnoidismo cutáneo, carbunco cutáneo, ectima gangrenoso, celulitis estafilocócica, o tularemia. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B, carbunco cutáneo. El oficio, los cueros y la lana, da la exposición, y la lesión es la pústula maligna completa: escara negra, corona de vesículas y un edema enorme. El distractor más tentador es el aracnoidismo, porque también da necrosis en una zona rural, pero la araña del rincón produce un dolor quemante intenso. Aquí la clave es justamente que no duele."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora un caso representativo del banco. Un trabajador de una fábrica de cueros importados consulta por una lesión en el dorso de la mano de cuatro días. Tiene una escara negruzca dura, rodeada de vesículas con líquido claro y un edema marcado de toda la mano, sin dolor y sin pus."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el tratamiento farmacológico de primera línea más adecuado?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: ciprofloxacino oral, cefazolina endovenosa, flucloxacilina oral, aciclovir tópico, o corticoides en dosis altas. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A, ciprofloxacino oral. Es la misma pústula maligna del caso anterior, y el antibiótico de elección es la quinolona, con doxiciclina como alternativa. La cefazolina y la flucloxacilina tientan porque son los antibióticos de las infecciones de piel habituales, pero esas lesiones duelen y supuran. Y los corticoides no tratan una infección bacteriana."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Y otro caso representativo del banco, más directo. ¿Cuál de estas conductas está contraindicada frente a una lesión sospechosa de carbunco cutáneo?"
+    },
+    {
+      "file": "s09_g01",
+      "text": "Busca la conducta que no se debe hacer."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: tomar líquido vesicular para Gram, desbridar y resecar la escara, notificar de inmediato, iniciar quinolonas precozmente, o aislamiento de contacto con la lesión cubierta. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Desbridar o resecar la escara está contraindicado, porque la manipulación lanza bacterias y toxinas a la sangre, con bacteriemia y shock. Todas las demás son correctas: el Gram del líquido vesicular confirma, la notificación es inmediata, la quinolona es el tratamiento, y la lesión se cubre. Fíjate que la trampa está en el reflejo quirúrgico frente a una necrosis: aquí ese reflejo mata."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Contacto con cueros, lana o ganado, y una escara negra con corona de vesículas y un gran edema: carbunco cutáneo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Lo que lo separa de las otras escaras negras es que no duele y no supura."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La forma inhalatoria es un cuadro gripal que se vuelve fulminante, con el mediastino ensanchado en la radiografía."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Se confirma con Gram, cultivo y PCR en el Instituto de Salud Pública, y se notifica de inmediato."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Se trata con ciprofloxacino, o doxiciclina, y nunca se desbrida la escara. Si te llevas una sola idea de hoy: una escara negra que no duele, en alguien que trabaja con cueros o lana, es carbunco, y se trata con antibiótico, no con bisturí. Nos vemos en la próxima clase."
+    }
+  ]
+}

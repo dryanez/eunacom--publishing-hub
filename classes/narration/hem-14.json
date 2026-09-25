@@ -1,0 +1,268 @@
+{
+  "id": "hem-14",
+  "title": "Hematología 8.14: Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
+  "specialty": "Hematología",
+  "chars": 11867,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos las coagulopatías congénitas, que son raras. Hoy vemos las adquiridas, que son las que realmente vas a encontrar en el adulto: el déficit de vitamina K, el daño hepático crónico y, sobre todo, el paciente sobreanticoagulado. Esta última es una de las urgencias iatrogénicas más frecuentes, y el examen pregunta exactamente eso: qué hacer según el INR y según si el paciente sangra."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo, porque ordena toda la clase. La vitamina K es una vitamina liposoluble que el hepatocito usa como cofactor de una enzima, la gamma-glutamil carboxilasa. Esa enzima termina de fabricar ciertos factores de la coagulación."
+    },
+    {
+      "file": "s01_g01",
+      "text": "¿Cuáles? Los factores dos, siete, nueve y diez. Memorízalos juntos, porque son exactamente los mismos que bloquea el acenocumarol y los mismos que trae el concentrado de complejo protrombínico. Es un solo concepto que se repite tres veces."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y ojo, que la vitamina K también activa a dos anticoagulantes naturales: las proteínas C y S. Guarda ese detalle para cuando hablemos del hígado."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Sin esa carboxilación, el factor se fabrica, pero no puede fijar calcio ni pegarse a la membrana de la plaqueta. Está, pero no sirve. Por eso el laboratorio muestra tiempos prolongados."
+    },
+    {
+      "file": "s02_g00",
+      "text": "¿Cuándo falta la vitamina K? Primero, cuando no entra: la desnutrición extrema. Segundo, cuando el antibiótico de amplio espectro por tiempo prolongado barre la flora del colon, que es la que fabrica parte de esta vitamina."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Tercero, la malabsorción, como la enfermedad celíaca o la resección ileal. Y cuarto, la colestasis crónica. Fíjate en la lógica: sin bilis en el intestino, no se absorben las grasas, y con ellas se pierden las vitaminas liposolubles, A, D, E y K."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En el laboratorio, el primer factor que cae es el siete. Y como vimos en la clase de exámenes de la hemostasia, el siete se mide con el tiempo de protrombina. Por eso lo primero que se alarga es el TP."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si el déficit sigue, cae después el factor nueve, y entonces se alarga también el TTPK."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y aquí está la prueba terapéutica: al administrar fitomenadiona, que es la vitamina K uno, el TP se normaliza en doce a veinticuatro horas. Si corrige, el hígado estaba sano y solo le faltaba la vitamina."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora el daño hepático crónico. El hígado fabrica prácticamente todos los factores de la coagulación. En la cirrosis se pierde masa de hepatocitos, y cae la síntesis de todos los factores, dependan o no de la vitamina K."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Pero recuerda que el hígado también fabrica los anticoagulantes naturales: proteína C, proteína S y antitrombina. Por eso el cirrótico no solo sangra: tiene a la vez una tendencia paradójica a trombosar. Un INR alto no lo protege de una trombosis."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y la herramienta para separar ambos cuadros es el factor cinco. Se fabrica solo en el hígado, pero no necesita vitamina K. Por eso mide directamente la función de síntesis."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si el TP está largo y el factor cinco está bajo, el problema es el hígado, y la vitamina K parenteral no lo va a corregir. Si el factor cinco está normal, piensa en déficit de vitamina K. Esa diferencia se pregunta."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos al paciente anticoagulado. El acenocumarol y la warfarina inhiben la enzima que recicla la vitamina K, la epóxido reductasa. Sin vitamina K activa, el hígado produce factores dos, siete, nueve y diez que no funcionan. Es un déficit de vitamina K provocado a propósito."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La meta habitual es un INR entre dos y tres."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la válvula mecánica mitral, la meta sube: entre dos coma cinco y tres coma cinco."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el INR fluctúa mucho por interacciones. Amiodarona, metronidazol, ciprofloxacino y cotrimoxazol inhiben el citocromo que degrada al cumarínico, y el INR se dispara. Cuando en un caso aparece un paciente con acenocumarol que empezó un antibiótico, busca la sobreanticoagulación."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Este es el corazón de la clase. Ante un paciente con cumarínico y el INR alto, haces dos preguntas en orden: primero, ¿está sangrando?, y solo después, ¿cuánto es el INR?"
+    },
+    {
+      "file": "s05_g01",
+      "text": "INR entre cuatro coma cinco y diez, sin sangrado: suspendes una o dos tomas, controlas el INR y reinicias con una dosis menor cuando vuelve al rango. No se da vitamina K de rutina. Esta es la trampa más frecuente del tema: la vitamina K aquí sobra."
+    },
+    {
+      "file": "s05_g02",
+      "text": "INR sobre diez, sin sangrado: suspendes el fármaco y das vitamina K uno por vía oral, en dosis bajas, dos coma cinco a cinco miligramos. ¿Por qué oral y baja? Porque es más segura y evita que el paciente quede resistente al cumarínico por días."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si hay un sangrado leve o mucocutáneo, con cualquier INR, la conducta es la misma: suspender, vitamina K oral y hemostasia local."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y si el sangrado es grave o amenaza la vida, el valor del INR ya no importa. Suspendes, y das de inmediato concentrado de complejo protrombínico de cuatro factores, veinticinco a cincuenta unidades por kilo endovenoso, más vitamina K diez miligramos endovenosa."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si no hay concentrado, usas plasma fresco congelado, quince mililitros por kilo, junto con la vitamina K. Funciona, pero es lento y mete mucho volumen."
+    },
+    {
+      "file": "s06_g00",
+      "text": "¿Por qué el concentrado de complejo protrombínico es la primera elección? Porque trae exactamente los cuatro factores que el cumarínico dejó inactivos: dos, siete, nueve y diez."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Revierte la anticoagulación en diez a quince minutos, en un volumen pequeño. El plasma tarda horas y puede sobrecargar a un paciente mayor o cardiópata."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La vitamina K endovenosa acompaña siempre al concentrado. El concentrado corrige ahora, pero la vitamina K es la que permite que el hígado vuelva a fabricar factores funcionales en las horas siguientes."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y un detalle de seguridad: se diluye en cien mililitros de suero fisiológico y pasa en treinta minutos. En bolo rápido puede provocar una anafilaxia grave."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Los anticoagulantes orales directos funcionan distinto. Rivaroxabán, apixabán y edoxabán inhiben directamente el factor diez activado; el dabigatrán inhibe directamente la trombina."
+    },
+    {
+      "file": "s07_g01",
+      "text": "No se controlan con TP ni TTPK, y su vida media es corta, de ocho a catorce horas si el riñón funciona bien."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Ante una hemorragia mayor o una cirugía de urgencia, cada uno tiene su antídoto. El dabigatrán tiene uno específico: el idarucizumab, un anticuerpo monoclonal, cinco gramos endovenosos, que lo neutraliza en minutos."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Para rivaroxabán y apixabán existe el andexanet alfa. Pero en la mayoría de los hospitales públicos no está, y se usa el concentrado de complejo protrombínico, cincuenta unidades por kilo."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y para la heparina no fraccionada, el antídoto es el sulfato de protamina: un miligramo neutraliza cien unidades de heparina puestas en las últimas dos horas. Protamina es para heparina; nunca para el acenocumarol."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos todo en un árbol de decisión para el paciente con cumarínico e INR alto. Paciente en tratamiento con acenocumarol o warfarina y un INR sobre el rango. Antes de mirar el número, pregunta si está sangrando."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La primera pregunta define la urgencia: ¿sangrado grave con riesgo vital, sangrado leve, o ningún sangrado?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Sangrado grave, con cualquier INR: suspender el cumarínico, concentrado de complejo protrombínico de cuatro factores y vitamina K endovenosa lenta. Si no hay concentrado, plasma fresco congelado."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Sangrado leve o mucocutáneo: suspender, vitamina K oral en dosis baja y hemostasia local."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si no sangra, recién ahora importa el número: ¿el INR está sobre diez?"
+    },
+    {
+      "file": "s08_g05",
+      "text": "INR sobre diez sin sangrado: suspender el fármaco y vitamina K oral, dos coma cinco a cinco miligramos."
+    },
+    {
+      "file": "s08_g06",
+      "text": "INR entre cuatro coma cinco y diez sin sangrado: suspender una o dos dosis, sin vitamina K, y reiniciar con una dosis menor al volver al rango."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. INR entre cuatro coma cinco y diez sin sangrado: suspender una o dos dosis y controlar. El error es dar vitamina K de rutina."
+    },
+    {
+      "file": "s09_g01",
+      "text": "INR sobre diez sin sangrado: suspender y vitamina K oral en dosis baja. El error es irse al plasma o a la vitamina K endovenosa en un paciente que no sangra."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Sangrado grave con cualquier INR: concentrado de complejo protrombínico más vitamina K endovenosa lenta. Dar solo vitamina K es quedarse corto, porque demora horas en actuar."
+    },
+    {
+      "file": "s09_g03",
+      "text": "TP largo con factor cinco bajo: es daño hepático, y no va a corregir con vitamina K."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Colestasis, malabsorción o antibióticos prolongados con TP largo: déficit de vitamina K, que corrige en doce a veinticuatro horas con fitomenadiona."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y hemorragia mayor con dabigatrán: idarucizumab. La protamina es solo para la heparina."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Hombre de setenta y un años con fibrilación auricular, en tratamiento con acenocumarol, que consulta por hematemesis y melena de seis horas, con mareo al pararse. Está hipotenso, con presión de noventa sobre cincuenta y cinco, taquicárdico, pálido y sudoroso. Hemoglobina de siete coma ocho, plaquetas normales e INR de ocho coma cinco."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Además de reanimar y pedir la endoscopía, ¿qué haces con la anticoagulación?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: suspender una o dos dosis y controlar, suspender y dar vitamina K oral, concentrado de complejo protrombínico más vitamina K endovenosa, protamina, o idarucizumab. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la C. El número engaña: un INR de ocho coma cinco sin sangrado se manejaría solo suspendiendo dosis. Pero este paciente sangra y está en shock, y con sangrado grave el INR deja de importar: concentrado de complejo protrombínico y vitamina K endovenosa lenta. La vitamina K oral es el distractor tentador, pero demora horas. La protamina es para la heparina, y el idarucizumab, para el dabigatrán."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de cincuenta y cinco años, hipertenso, con una válvula aórtica mecánica, anticoagulado con antagonistas de la vitamina K. Llega a urgencias con una hemorragia digestiva alta e inestabilidad hemodinámica. Además de los fluidos y la endoscopía urgente,"
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: vitamina K endovenosa, sangre completa, ácido tranexámico, plasma fresco congelado, o factor siete recombinante. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, plasma fresco congelado. Fíjate que el concentrado de complejo protrombínico no está entre las alternativas, así que eliges su reemplazo, que es el plasma. El distractor tentador es la vitamina K endovenosa: es correcta como complemento, pero sola tarda horas, y este paciente está sangrando ahora."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de sesenta y dos años, con una prótesis mecánica de válvula mitral e insuficiencia renal crónica, con un clearance de creatinina de veinte. Consulta por palpitaciones y el electrocardiograma muestra una taquiarritmia irregular, de QRS angosto y sin ondas P."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Qué tratamiento es el más adecuado?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones son: apixabán, enoxaparina, dabigatrán, acenocumarol, o rivaroxabán. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, acenocumarol. Es una fibrilación auricular en un paciente con válvula mecánica, y ahí el anticoagulante de elección sigue siendo el cumarínico, con la meta más alta que vimos, entre dos coma cinco y tres coma cinco. Los anticoagulantes directos no se usan en las prótesis mecánicas, y la falla renal grave hace todavía peor opción al dabigatrán y a la enoxaparina."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La vitamina K activa los factores dos, siete, nueve y diez, y las proteínas C y S. El primero en caer es el siete, y por eso se alarga primero el TP."
+    },
+    {
+      "file": "s13_g01",
+      "text": "El factor cinco no depende de la vitamina K: si está bajo, el problema es el hígado."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Sin sangrado y con INR entre cuatro coma cinco y diez, solo se suspenden dosis."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Sobre diez, se agrega vitamina K oral en dosis baja."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Y con sangrado grave, concentrado de complejo protrombínico más vitamina K endovenosa lenta; el plasma, solo si no hay concentrado."
+    },
+    {
+      "file": "s13_g05",
+      "text": "El dabigatrán se revierte con idarucizumab; los anti diez a, con andexanet o concentrado; y la heparina, con protamina."
+    },
+    {
+      "file": "s13_g06",
+      "text": "Si te llevas una sola idea de hoy: frente al paciente anticoagulado con INR alto, la primera pregunta no es el número, es si está sangrando. En la próxima clase veremos una coagulopatía adquirida que consume todo a la vez: la coagulación intravascular diseminada. Nos vemos en la próxima clase."
+    }
+  ]
+}

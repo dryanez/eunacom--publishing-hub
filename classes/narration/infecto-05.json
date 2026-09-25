@@ -1,0 +1,236 @@
+{
+  "id": "infecto-05",
+  "title": "Infectologia 2.1: Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+  "specialty": "Infectología",
+  "chars": 10378,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Abrimos el bloque de salud pública con una clase muy rentable: el manejo de contactos y el accidente cortopunzante. Son preguntas de reglas exactas, y casi todas se responden con tres ideas. Todo menor de quince años contacto de tuberculosis recibe isoniazida de entrada. El contacto de meningococo recibe rifampicina. Y la profilaxis del VIH después de un pinchazo tiene una ventana de setenta y dos horas. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la tuberculosis. El caso índice es un paciente bacilífero, con baciloscopía positiva, que transmite por aerosoles a quienes viven con él."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Lo primero con cada contacto es descartar que ya esté enfermo: se pregunta por síntomas y se piden radiografía de tórax y baciloscopías. Si tiene tuberculosis activa, no es profilaxis, es tratamiento completo. Eso lo verás en una pregunta real."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si no está enfermo, la conducta depende de quién es. En el menor de quince años y en el paciente con VIH, la respuesta celular es inmadura o deficiente, y el riesgo es enorme: meningitis tuberculosa y tuberculosis miliar."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Por eso la regla de oro en Chile es que todo menor de quince años conviviente recibe isoniazida oral de entrada, diez miligramos por kilo al día, sin esperar el PPD. Aunque el PPD inicial sea cero milímetros. Esa es la trampa que más se pregunta."
+    },
+    {
+      "file": "s01_g04",
+      "text": "¿Y para qué sirve el PPD entonces? Si el inicial es negativo, se repite al tercer mes. Si sigue negativo, se suspende la isoniazida. Si se positivizó, el niño se infectó, y se completan seis meses."
+    },
+    {
+      "file": "s01_g05",
+      "text": "En el adulto la lógica es otra: solo se trata si el PPD es mayor de diez milímetros, y se da isoniazida por seis meses. En el paciente con VIH el corte baja a cinco milímetros, y la profilaxis dura nueve meses."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Un caso especial que se pregunta: el recién nacido de una madre con tuberculosis pulmonar activa bacilífera. La conducta son tres medidas simultáneas. La primera, isoniazida oral por seis meses al recién nacido."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La segunda, postergar la vacuna BCG hasta terminar la quimioprofilaxis. ¿Por qué? Porque la BCG es un bacilo vivo atenuado, y la isoniazida lo mataría: la vacuna quedaría neutralizada."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y la tercera, que es la trampa: se mantiene la lactancia materna. La tuberculosis se transmite por aerosoles, no por la leche, así que la madre amamanta usando mascarilla quirúrgica."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Pasemos al meningococo, que conecta con la clase de meningitis. Se da profilaxis a los contactos que duermen bajo el mismo techo o que se expusieron a sus secreciones en los siete días previos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El fármaco de elección es rifampicina oral, seiscientos miligramos cada doce horas por dos días. La alternativa es ciprofloxacino, quinientos miligramos en dosis única."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y en la embarazada, ceftriaxona doscientos cincuenta miligramos intramuscular en dosis única. Esa variante se pregunta."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Ojo: la profilaxis de contactos de meningitis se hace solo en dos casos, el meningococo y el Haemophilus influenzae tipo b, este último con rifampicina por cuatro días. El neumococo no requiere profilaxis de contactos."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y en la coqueluche, azitromicina oral por cinco días a los contactos con síntomas y a los grupos de alto riesgo: los menores de un año y las embarazadas."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Y el último escenario, el que te puede pasar a ti: el accidente cortopunzante. El de mayor riesgo es la punción profunda con una aguja hueca con sangre, por ejemplo después de tomar gases arteriales."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Lo primero es el lavado inmediato de la herida con abundante agua y jabón."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Ahora, el mecanismo que explica la urgencia. Después de la punción, el VIH tarda cuarenta y ocho a setenta y dos horas en diseminarse a los ganglios linfáticos. Mientras está en la puerta de entrada, todavía se puede frenar."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Por eso la profilaxis post exposición, una triterapia antirretroviral por veintiocho días, se inicia antes de las setenta y dos horas, e idealmente en las primeras dos a cuatro horas. Se ofrece si la fuente es VIH positiva o desconocida."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Al trabajador se le pide un ELISA basal, para documentar que no estaba infectado antes del accidente, y luego controles serológicos a las seis semanas y a los tres meses."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y la trampa: esperar el resultado del examen de la fuente antes de iniciar. La serología de la fuente requiere su consentimiento, y no se le puede obligar. Pero la profilaxis del trabajador no espera ni el consentimiento ni el resultado."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Juntemos todo en un árbol de decisión: frente a una exposición, qué agente es y qué profilaxis corresponde. Tienes a alguien expuesto. Lo primero es identificar a qué agente se expuso, porque cada uno tiene su propia regla."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pregúntate a qué se expuso: a un bacilífero, a un caso de meningococo, o a sangre en un accidente."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si es tuberculosis, primero descartas enfermedad activa con radiografía y baciloscopías."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si no la tiene y es menor de quince años, isoniazida de entrada, y el PPD del tercer mes decide si se suspende o se completan seis meses."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si es adulto, isoniazida por seis meses solo si el PPD supera los diez milímetros; en VIH, sobre cinco milímetros y por nueve meses."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si es meningococo, rifampicina por dos días a los contactos de los últimos siete días, y ceftriaxona intramuscular en la embarazada."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si es un pinchazo con fuente positiva o desconocida, lavado y triterapia antes de las setenta y dos horas, por veintiocho días, sin esperar a la fuente."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las reglas. Tuberculosis bacilífera: todo menor de quince años conviviente recibe isoniazida, tres meses si el PPD sigue negativo y seis si vira. Aunque el PPD inicial sea cero."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Recién nacido de madre con tuberculosis: isoniazida seis meses, la BCG al final, y lactancia con mascarilla. No se separa al niño de la madre."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Meningococo: rifampicina por dos días a los convivientes, y en la embarazada, ceftriaxona intramuscular en dosis única."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y accidente cortopunzante con fuente positiva o desconocida: triterapia por veintiocho días antes de las setenta y dos horas, sin esperar la serología de la fuente."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Recién nacido de término, sano, de dos días de vida. A su madre se le diagnostica tuberculosis pulmonar con baciloscopía positiva durante el puerperio. El niño está asintomático y aún no recibe la BCG."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada con el recién nacido?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones son: vacunar hoy y suspender la lactancia; isoniazida por seis meses, postergar la BCG y mantener la lactancia con mascarilla; isoniazida junto con la BCG hoy; pedir un PPD y decidir según el resultado; o separar al niño de la madre. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La respuesta es la B, las tres medidas juntas. La C es el distractor más tentador, porque parece proteger doble, pero la isoniazida mataría el bacilo vivo de la vacuna. La D cae porque en el menor de quince años no se espera el PPD. Y separar al niño o suspender la lactancia no corresponde: basta la mascarilla."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve, y es corta. Un paciente es contacto intradomiciliario de alguien con tuberculosis pulmonar bacilífera."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: PPD y cultivo de expectoración; radiografía de tórax y baciloscopías; control clínico por tres meses; isoniazida por seis meses; o cultivo de Koch y broncoscopía. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. Antes de hablar de profilaxis, tienes que descartar que el contacto ya esté enfermo, y eso se hace con radiografía de tórax y baciloscopías. La D es el distractor: la isoniazida es la profilaxis, pero no sabes aún si el paciente es un adulto con PPD negativo o si ya tiene una tuberculosis activa, que necesita tratamiento completo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La siguiente es del EUNACOM de diciembre de dos mil diecisiete. Mujer de treinta años, asintomática, con veinte semanas de embarazo. Su marido tiene tuberculosis pulmonar con baciloscopías positivas. Ella tiene baciloscopías negativas y un PPD de veintiséis milímetros."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada con ella?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: conducta expectante para proteger al feto; tratamiento con cuatro fármacos; repetir baciloscopías; vacuna BCG; o isoniazida por seis meses. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la E. Aplica la regla del adulto: está asintomática y sin baciloscopías positivas, así que no tiene enfermedad activa, y su PPD supera los diez milímetros. Entonces, isoniazida por seis meses. El tratamiento con cuatro fármacos es el distractor: eso es para la tuberculosis activa. Y el embarazo no es motivo para quedarse expectante."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La siguiente es del EUNACOM de julio de dos mil diecinueve, sobre salud pública."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Por qué la meningococcemia es una enfermedad de notificación inmediata?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: para aislar a los contactos; para vacunar a la familia; para identificar y manejar a los contactos; para detectar casos secundarios; o por la gravedad de la enfermedad. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Se notifica de inmediato para encontrar a los contactos y darles profilaxis con rifampicina a tiempo. La gravedad es el distractor tentador: la enfermedad es grave, pero muchas enfermedades graves no se notifican de inmediato. Lo que justifica la urgencia es que existe una medida eficaz para los contactos."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y cerramos con un caso representativo del banco sobre el accidente cortopunzante. Una médica de treinta años se pincha con la aguja de un paciente cuya serología para VIH se desconoce. Ya lavó la herida."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: esperar el ELISA de la fuente; ofrecer de inmediato triterapia profiláctica; solo observar; pedir una PCR a la trabajadora y esperar; o monoterapia con zidovudina. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. La ventana es corta, así que la triterapia se ofrece de inmediato. La A es el distractor más tentador, porque parece lógico saber primero si la fuente está infectada. Pero la eficacia cae con cada hora, y la fuente puede no consentir. Y la monoterapia no es el esquema: son tres fármacos."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Con todo contacto de tuberculosis, primero descartas enfermedad activa."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El menor de quince años recibe isoniazida de entrada, sin esperar el PPD. El adulto, solo si el PPD supera los diez milímetros."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Y el hijo de madre con tuberculosis recibe isoniazida, la BCG se difiere y la lactancia sigue con mascarilla."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Los contactos de meningococo reciben rifampicina por dos días, y la embarazada, ceftriaxona intramuscular."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y en el pinchazo, triterapia por veintiocho días antes de las setenta y dos horas. Si te llevas una sola idea de hoy: la profilaxis se da a tiempo, y ningún examen que no cambie la conducta la retrasa. La próxima clase seguimos con profilaxis: rabia y tétanos. Nos vemos en la próxima clase."
+    }
+  ]
+}

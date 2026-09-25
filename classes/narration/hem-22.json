@@ -1,0 +1,288 @@
+{
+  "id": "hem-22",
+  "title": "Hematología 8.22: Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+  "specialty": "Hematología",
+  "chars": 13080,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos la neutropenia febril. Hoy cerramos las urgencias oncológicas con tres cuadros: el síndrome de lisis tumoral, la hipercalcemia de las neoplasias y la compresión medular. Tienen algo en común: en los tres, el examen pregunta qué haces primero. Suero y rasburicasa en la lisis, suero y bifosfonato en la hipercalcemia, y dexametasona antes de la resonancia en la compresión medular."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la lisis tumoral. Ocurre en tumores con gran masa y recambio celular muy rápido. Los clásicos son el linfoma de Burkitt, la leucemia linfoblástica aguda que vimos en leucemias agudas, y las leucemias con más de cien mil leucocitos."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Puede ser espontánea, pero lo típico es que aparezca entre doce y setenta y dos horas después de iniciar la quimioterapia. Miles de millones de células se rompen al mismo tiempo y vacían su contenido en la sangre."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Lo primero que sale es el potasio, el catión más abundante dentro de la célula. La hiperkalemia es lo que mata primero, porque produce arritmias ventriculares y paro cardíaco."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Luego, los ácidos nucleicos se degradan hasta ácido úrico. El ácido úrico precipita en los túbulos renales como cristales."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el fósforo, que en las células leucémicas es cuatro veces mayor que en las normales. Aquí está la clave para entender el calcio: el exceso de fósforo se une al calcio y precipita como fosfato cálcico. Por eso el calcio baja. No es que se pierda: se lo lleva el fósforo."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y el riñón queda tapado por dos tipos de cristales: urato y fosfato cálcico. Eso cierra el círculo, porque un riñón que falla ya no puede eliminar ni el potasio ni el fósforo."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Los criterios de laboratorio de Cairo-Bishop se preguntan con número. Ácido úrico de ocho o más, y potasio de seis o más."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Fósforo de cuatro coma cinco o más en adultos, o seis coma cinco en niños."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y calcio corregido de siete o menos. También cuenta un cambio de veinticinco por ciento respecto al basal. Se necesitan al menos dos de los cuatro, alrededor del inicio de la quimioterapia."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y cuando al laboratorio se suma al menos una manifestación clínica grave, hablamos de lisis tumoral clínica. La primera es la insuficiencia renal aguda, con una creatinina de una vez y media el basal."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Las otras son las arritmias, por el potasio, y las convulsiones o la tetania, por la hipocalcemia. Fíjate que cada manifestación clínica sale de una letra del laboratorio."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La prevención es el pilar. Primero, hiperhidratación endovenosa con suero fisiológico, dos coma cinco a tres litros por metro cuadrado al día, partiendo veinticuatro a cuarenta y ocho horas antes de la quimioterapia."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El objetivo es una diuresis abundante, sobre ochenta a cien mililitros por metro cuadrado por hora, que arrastre el ácido úrico y el fosfato antes de que precipiten."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Segundo, un hipouricemiante, y aquí está la diferencia que se pregunta. El alopurinol, trescientos miligramos al día, inhibe la xantina oxidasa: impide que se forme ácido úrico nuevo, pero no toca el que ya está. Y acumula xantina, que también precipita. Por eso es para el riesgo bajo o intermedio."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En el alto riesgo, es decir, Burkitt, leucemia linfoblástica con más de cien mil leucocitos, o ácido úrico ya elevado, la elección es la rasburicasa, cero coma dos miligramos por kilo endovenoso. Es una enzima que convierte el ácido úrico que ya existe en alantoína, mucho más soluble, y lo normaliza en menos de cuatro horas."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Dos trampas. La rasburicasa está contraindicada en el déficit de glucosa seis fosfato deshidrogenasa, porque produce hemólisis grave y metahemoglobinemia. Lo vimos en la clase de anemias hemolíticas."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y ya no se alcaliniza la orina con bicarbonato: disuelve el urato, pero hace precipitar el fosfato cálcico en los túbulos."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Si la lisis ya ocurrió, el orden importa. Lo primero es proteger el corazón de la hiperkalemia: gluconato de calcio al diez por ciento, endovenoso lento, que estabiliza la membrana del miocardio."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Luego, bajar el potasio rápido: insulina cristalina con glucosa hipertónica, y salbutamol nebulizado."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En paralelo, rasburicasa para degradar el ácido úrico e hiperhidratación con suero fisiológico."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si el paciente queda en anuria o el potasio no baja, hemodiálisis de urgencia. Todo esto, en la unidad de paciente crítico."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Segunda urgencia: la hipercalcemia maligna. Es la urgencia metabólica más común del cáncer avanzado, sobre todo de mama, pulmón, riñón y del mieloma múltiple que vimos hace dos clases."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Tiene dos mecanismos. El tumor puede secretar un péptido relacionado con la paratohormona, que imita a la hormona. O las metástasis líticas destruyen el hueso y liberan su calcio."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La clínica es la de cualquier hipercalcemia: el calcio impide concentrar la orina, así que el paciente orina mucho y se deshidrata. Además tiene constipación, confusión, y el QT se acorta en el electrocardiograma."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El tratamiento de urgencia parte siempre igual: suero fisiológico en forma vigorosa, tres a cuatro litros en veinticuatro horas. Corrige la deshidratación y fuerza la eliminación de calcio por la orina."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y luego, un bifosfonato endovenoso: ácido zoledrónico, cuatro miligramos en quince minutos. Frena la destrucción del hueso, pero su efecto se consolida a las cuarenta y ocho a setenta y dos horas. Por eso nunca va primero."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La tercera urgencia es la compresión medular neoplásica. Una metástasis colapsa una vértebra, o crece hacia el espacio epidural, y comprime la médula espinal. Es una emergencia neurológica."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El primer síntoma es el dolor de espalda localizado, progresivo, que empeora en la noche. En un paciente con cáncer, ese dolor ya es una alarma."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Después aparece la debilidad de las piernas, una paraparesia espástica, y un nivel sensitivo en el tronco."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y lo último es el compromiso de esfínteres, como la retención urinaria. Es un signo tardío: si esperas a verlo, la función puede no volver."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Por eso, esta es la conducta que el examen pregunta: ante la simple sospecha, se administra de inmediato dexametasona endovenosa en dosis altas, dieciséis a veinticuatro miligramos en bolo. Reduce el edema alrededor de la médula y salva la función neurológica."
+    },
+    {
+      "file": "s06_g05",
+      "text": "En paralelo, se coordina la resonancia magnética de columna completa y la radioterapia descompresiva urgente. Fíjate en el orden: la dexametasona no espera a la resonancia."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Juntemos las tres urgencias en un árbol de decisión, partiendo del paciente oncológico que se descompensa. Paciente con cáncer que se descompensa. Reconoce cuál de las tres urgencias es, porque cada una tiene su primer paso."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Qué predomina: un laboratorio de lisis después de la quimioterapia, un calcio alto, o dolor de espalda con déficit neurológico?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si hay ácido úrico, potasio y fósforo altos con calcio bajo, es una lisis tumoral. ¿El potasio ya altera el electrocardiograma?"
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si el electrocardiograma está alterado, gluconato de calcio primero. Luego insulina con glucosa, rasburicasa, hidratación, y diálisis si no responde."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si no, hiperhidratación y rasburicasa, o alopurinol si hay déficit de glucosa seis fosfato deshidrogenasa o el riesgo es bajo."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si es una hipercalcemia, suero fisiológico vigoroso y después ácido zoledrónico."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si hay dolor de espalda con debilidad de piernas, dexametasona endovenosa de inmediato, y en paralelo resonancia de columna completa y radioterapia descompresiva."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Burkitt o leucemia linfoblástica con más de cien mil leucocitos, antes de la quimioterapia: hiperhidratación y rasburicasa. Solo alopurinol se queda corto, porque no degrada el ácido úrico ya formado."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Pero si el paciente tiene déficit de glucosa seis fosfato deshidrogenasa, la rasburicasa está contraindicada."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Lisis con potasio alto y cambios en el electrocardiograma: primero gluconato de calcio para proteger el corazón. No se espera la diálisis."
+    },
+    {
+      "file": "s08_g03",
+      "text": "En la prevención, ya no se alcaliniza con bicarbonato, porque precipita el fosfato cálcico."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Hipercalcemia sintomática: primero suero fisiológico, después ácido zoledrónico. El bifosfonato como primera medida es el error, porque tarda dos a tres días."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y cáncer con dolor de espalda y debilidad de piernas: dexametasona endovenosa de inmediato. Esperar la resonancia para empezar es la trampa."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Hombre de veintiún años con un linfoma de Burkitt abdominal de doce centímetros. A las veinticuatro horas de su primera quimioterapia tiene oliguria, náuseas y hormigueo alrededor de la boca. El electrocardiograma muestra ondas T picudas y QRS ancho. Creatinina tres coma uno, potasio seis coma ocho, ácido úrico catorce coma cinco, fósforo siete coma ocho y calcio seis coma dos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la primera medida?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Tienes cinco opciones. Bicarbonato para alcalinizar la orina. Alopurinol oral. Gluconato de calcio endovenoso lento. Suspender la hidratación por la oliguria. O ácido zoledrónico. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La respuesta es la C. Tiene los cuatro criterios de laboratorio y además falla renal: es una lisis tumoral clínica. Pero lo que lo puede matar en minutos es el potasio, con el electrocardiograma ya alterado. Primero gluconato de calcio. El distractor tentador es el alopurinol, porque el ácido úrico está altísimo. Pero no degrada el que ya existe, y aquí la prioridad es el corazón. Después vienen la rasburicasa y la hidratación."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de diciembre de dos mil veinticinco. Paciente de cincuenta y cinco años con un linfoma no Hodgkin con masas de hasta veinticinco centímetros en el mediastino y el abdomen. Al tercer día de la quimioterapia está obnubilado, desorientado y con disnea. Ácido úrico trece, potasio cinco coma nueve, fósforo seis coma cinco y creatinina dos coma uno."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: hipercalcemia maligna, metástasis cerebrales, síndrome de vena cava superior, compresión medular, o síndrome de lisis tumoral. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la E, síndrome de lisis tumoral. Gran masa tumoral, tercer día de quimioterapia, ácido úrico y fósforo altos, y falla renal. El distractor tentador es la hipercalcemia maligna, porque también da confusión. Pero en la lisis el calcio baja, arrastrado por el fósforo. Y la vena cava superior tienta por las masas en el mediastino, pero no explica el laboratorio."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La segunda es del EUNACOM de agosto de dos mil veintiuno. Paciente de sesenta y siete años con dolores óseos en múltiples zonas, calcemia corregida de catorce coma cuatro, función renal normal, y radiografías con imágenes sugerentes de metástasis."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada para proseguir el estudio?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: calciuria de veinticuatro horas, vitamina D, paratohormona, cintigrafía ósea, o calcio iónico. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C, la paratohormona. Toda hipercalcemia se estudia con PTH. Si está alta, es un hiperparatiroidismo primario, que también puede dar lesiones óseas. Si está suprimida, apoya el origen neoplásico, porque el tumor produce calcio por otra vía. El distractor tentador es la cintigrafía ósea, pero es inespecífica, y las lesiones ya se vieron en la radiografía."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La tercera es del EUNACOM de julio de dos mil veinticinco. Hombre de cincuenta y cinco años con calcio de trece coma cinco, náuseas, poliuria, confusión y deshidratación. La PTH está elevada."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el tratamiento inicial de urgencia?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones son: resonancia magnética, cintigrafía con sestamibi, hidratación endovenosa con suero fisiológico, paratiroidectomía de urgencia, o carbonato de calcio oral. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, suero fisiológico. Aquí la causa es un hiperparatiroidismo, no un cáncer, y eso es justamente lo que enseña: sea cual sea la causa, la hipercalcemia grave y sintomática parte con volumen. El distractor tentador es la cintigrafía, porque la PTH está alta y quieres buscar el adenoma. Pero eso es para planificar una cirugía electiva, no para la urgencia."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticuatro. Síndrome de compresión medular en un paciente con cáncer de próstata y metástasis óseas."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el estudio de elección?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: resonancia de columna con gadolinio, mielografía, cintigrama óseo, radiografía de columna, o scanner. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A, la resonancia magnética de columna con gadolinio, idealmente de columna completa, porque puede haber más de un nivel comprimido. El distractor tentador es la cintigrafía, porque el paciente tiene metástasis óseas. Pero la cintigrafía muestra hueso, no la médula. Y recuerda que si la pregunta fuera por la primera medida, la respuesta sería la dexametasona."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. En la lisis tumoral suben el ácido úrico, el potasio y el fósforo, y baja el calcio, porque se lo lleva el fósforo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En el alto riesgo, hiperhidratación y rasburicasa, salvo déficit de glucosa seis fosfato deshidrogenasa. Y sin bicarbonato. Si hay hiperkalemia con electrocardiograma alterado, primero gluconato de calcio."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En la hipercalcemia maligna, primero suero fisiológico, tres a cuatro litros en el día, y después ácido zoledrónico."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Si te llevas una sola idea de hoy: en las urgencias oncológicas, el primer paso no espera la confirmación. Suero en la lisis y en la hipercalcemia, y dexametasona antes de la resonancia en la compresión medular. En la próxima clase veremos las trombofilias. Nos vemos en la próxima clase."
+    }
+  ]
+}

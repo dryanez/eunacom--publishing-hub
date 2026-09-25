@@ -1,0 +1,324 @@
+{
+  "id": "hem-23",
+  "title": "Hematología 8.23: Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
+  "specialty": "Hematología",
+  "chars": 15118,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En el bloque de hemostasia vimos pacientes que sangran. Hoy vemos el problema contrario: los que coagulan de más. Son las trombofilias, hereditarias y adquiridas, y la más importante de las adquiridas es el síndrome antifosfolípido. El examen pregunta cuatro cosas: cuál es la más frecuente, a quién estudiar, cuándo tomar la muestra y con qué anticoagular. Partamos por el mecanismo."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Piensa la coagulación como un auto con acelerador y freno. Los factores procoagulantes aceleran, y los anticoagulantes naturales, la antitrombina y las proteínas C y S, frenan. Una trombofilia es cualquier cosa que rompa ese equilibrio hacia la trombosis."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La primera forma es la ganancia de función, que es la más frecuente. El ejemplo clásico es el factor cinco Leiden. Una mutación puntual elimina justo el sitio donde la proteína C activada corta al factor cinco. Resultado: el factor cinco no se apaga. Eso se llama resistencia a la proteína C activada."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La otra es la mutación del gen de la protrombina. Aquí el hígado fabrica más protrombina, y con más materia prima se forma más trombina."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La segunda forma es la pérdida de los frenos: el déficit de antitrombina, de proteína C o de proteína S. Son más raras, pero tienen mayor potencial trombogénico. Fíjate en el contraste, porque se pregunta: las de ganancia son más frecuentes, las de pérdida son más graves."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Por cualquiera de las dos vías, el resultado es el mismo: tromboembolismo venoso, es decir, trombosis venosa profunda y tromboembolismo pulmonar, que aparece a edades tempranas y tiende a repetirse."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Dos superlativos que tienes que tener claros. El factor cinco Leiden es la trombofilia hereditaria más frecuente en la población caucásica y chilena: entre tres y cinco por ciento son portadores. Se hereda en forma autosómica dominante."
+    },
+    {
+      "file": "s02_g01",
+      "text": "En los heterocigotos, el riesgo de tromboembolismo venoso es cuatro a ocho veces mayor. Su trombosis es predominantemente venosa."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En el otro extremo, el déficit de antitrombina es raro, pero es la trombofilia hereditaria más trombogénica de todas. Da trombosis venosas profundas graves y recurrentes."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y tiene un detalle que se pregunta: resistencia a la heparina. ¿Por qué? Porque la heparina no anticoagula por sí sola, sino que potencia a la antitrombina. Si falta la antitrombina, la heparina no tiene sobre qué actuar."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Los déficits de proteína C y de proteína S también son raros y muy trombogénicos. Y tienen una complicación propia con los cumarínicos, que es lo que vemos ahora."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Este es un peligro que el examen adora. Un paciente con déficit congénito de proteína C o S inicia acenocumarol a dosis altas, sin puente con heparina."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El acenocumarol bloquea todas las proteínas dependientes de vitamina K, pero no caen al mismo ritmo. La proteína C tiene una vida media muy corta, de unas seis horas, así que es la primera en desaparecer, antes que los factores procoagulantes."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Entonces, durante los primeros días, el paciente pierde el freno antes que el acelerador. Paradójicamente, el anticoagulante lo deja en un estado protrombótico transitorio."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y ese estado se expresa como una trombosis microvascular masiva en la piel: la necrosis cutánea por cumarínicos."
+    },
+    {
+      "file": "s03_g04",
+      "text": "La prevención es la misma regla de siempre: iniciar el cumarínico con un puente de heparina, que protege al paciente mientras el acenocumarol hace efecto completo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos a la trombofilia adquirida más frecuente y más peligrosa: el síndrome antifosfolípido, o SAF. Es autoinmune, y puede ser primario o secundario a un lupus eritematoso sistémico. Se diagnostica con los criterios de Sydney: al menos un criterio clínico más al menos uno de laboratorio."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El primer criterio clínico es la trombosis documentada. Y aquí está la gran diferencia con las hereditarias: en el SAF la trombosis puede ser venosa, como una trombosis venosa profunda, pero también arterial. Un accidente cerebrovascular isquémico en un paciente joven te tiene que hacer pensar en SAF."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El segundo criterio es obstétrico, y tiene tres formas. Tres o más abortos espontáneos, consecutivos e inexplicados, antes de la semana diez."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Una o más muertes fetales inexplicadas desde la semana diez, con un feto morfológicamente normal."
+    },
+    {
+      "file": "s04_g04",
+      "text": "O uno o más partos prematuros antes de la semana treinta y cuatro, por preeclampsia severa, eclampsia o insuficiencia placentaria grave. Si en un enunciado ves trombosis más pérdidas de embarazo, ya sabes qué buscar."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El criterio de laboratorio más preguntado es el anticoagulante lúpico, y su nombre es una trampa. En el tubo, este anticuerpo se pega a los fosfolípidos que usa la prueba, y el TTPK sale prolongado."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Si mezclas el plasma del paciente con plasma normal, en partes iguales, el TTPK no corrige. Recuerda lo que vimos en la clase de laboratorio de hemostasia: si falta un factor, la mezcla corrige; si no corrige, hay un inhibidor."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y si agregas un exceso de fosfolípidos a la prueba, el anticuerpo queda saturado y el tiempo se normaliza. Eso confirma que el inhibidor va contra los fosfolípidos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Pero dentro del cuerpo el paciente no sangra: trombosa. Esa es la paradoja que el examen pregunta. Un paciente joven con trombosis y un TTPK prolongado no tiene una hemofilia: tiene un anticoagulante lúpico."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Los criterios de laboratorio son tres, y basta uno. El primero, el anticoagulante lúpico que acabamos de ver."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El segundo, los anticuerpos anticardiolipina, IgG o IgM, a títulos moderados o altos, sobre cuarenta unidades."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y el tercero, los anticuerpos anti beta dos glicoproteína uno, también IgG o IgM, a títulos elevados. Cuando los tres son positivos se habla de triple positividad, y eso importa para el tratamiento."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y una regla que no puedes olvidar: el anticuerpo tiene que ser positivo en al menos dos ocasiones, separadas por un mínimo de doce semanas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "¿Por qué? Porque después de una infección estos anticuerpos pueden aparecer en forma transitoria. Un solo resultado positivo no hace el diagnóstico."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora, la pregunta práctica: ¿a quién estudio? La primera indicación es la trombosis venosa no provocada en un menor de cincuenta años. Joven y sin causa aparente."
+    },
+    {
+      "file": "s07_g01",
+      "text": "También las trombosis recurrentes, y el paciente con familiares directos que tuvieron tromboembolismo a edad temprana."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y las trombosis en sitios atípicos: senos venosos cerebrales, venas mesentéricas o suprahepáticas. Una trombosis ahí no es una trombosis cualquiera."
+    },
+    {
+      "file": "s07_g03",
+      "text": "En cambio, no se estudia en forma indiscriminada al paciente cuya trombosis tiene un gatillante transitorio mayor y evidente: una cirugía ortopédica mayor, un politraumatismo o una inmovilización prolongada. Ahí la causa ya está clara."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ya decidiste estudiar. Ahora viene una regla técnica que el examen pregunta mucho: cuándo tomar la muestra. Depende de si el examen mide un gen o mide una proteína."
+    },
+    {
+      "file": "s08_g01",
+      "text": "El estudio genético, factor cinco Leiden y protrombina por PCR, se puede hacer en cualquier momento. El ADN no cambia con el trombo ni con el anticoagulante."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las pruebas funcionales, en cambio, miden proteínas: proteína C, proteína S y antitrombina. Y esas proteínas se mueven."
+    },
+    {
+      "file": "s08_g03",
+      "text": "En la fase aguda se consumen en el trombo. Y los anticoagulantes las alteran: los cumarínicos bajan la proteína C y la S, y las heparinas bajan la antitrombina. Si mides en ese momento, vas a encontrar un déficit que no existe."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Por eso el estudio funcional se difiere hasta al menos cuatro a seis semanas después de haber suspendido la anticoagulación. La trampa clásica es la alternativa que pide proteína C y S el día del diagnóstico."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Terminemos con el tratamiento. En el SAF trombótico, primario o asociado a lupus, se parte con heparina de bajo peso molecular como puente."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Y el tratamiento de elección es un antagonista de la vitamina K, acenocumarol o warfarina, con meta de INR entre dos y tres, y de por vida."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Ahora, la alerta del tema. Los anticoagulantes orales directos, como rivaroxabán o apixabán, parecen más cómodos. Pero los ensayos TRAPS y ASTRO-APS mostraron que son inferiores a los cumarínicos y aumentan las trombosis arteriales, como accidente cerebrovascular e infarto. En el SAF con triple positividad están formalmente contraindicados."
+    },
+    {
+      "file": "s09_g03",
+      "text": "En las trombofilias hereditarias, como el factor cinco Leiden o el déficit de antitrombina, sí se pueden usar los anticoagulantes directos o los cumarínicos. Por eso la pregunta de fondo siempre es la misma: ¿esto es hereditario o es un SAF?"
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora juntemos todo en un árbol: a quién estudiar, qué pedir, cuándo, y con qué tratar. Llega un paciente con una trombosis. La primera pregunta no es qué examen pedir, sino si vale la pena estudiarlo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Hay un gatillante transitorio mayor y evidente, como una cirugía ortopédica, un politraumatismo o una inmovilización prolongada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si lo hay, la causa ya está clara: se trata la trombosis y no se estudia trombofilia en forma indiscriminada."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si no lo hay, ¿es menor de cincuenta años, es recurrente, está en un sitio atípico, tiene historia familiar o pérdidas obstétricas? Entonces se estudia."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si hay pérdidas fetales, trombosis arterial o un TTPK largo que no corrige, sospecha SAF: pide los tres anticuerpos y confírmalos a las doce semanas."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si se confirma, heparina con puente a acenocumarol, INR de dos a tres y de por vida. Los anticoagulantes directos no."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si es una trombosis venosa, el estudio genético se pide ahora, y el funcional de proteína C, S y antitrombina, cuatro a seis semanas después de suspender el anticoagulante."
+    },
+    {
+      "file": "s10_g07",
+      "text": "En la trombofilia hereditaria sirven los anticoagulantes directos o los cumarínicos, y el seguimiento lo hace hematología."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Repasemos en una tabla las tres trombofilias que más se preguntan. El factor cinco Leiden y el déficit de antitrombina son hereditarios, autosómicos dominantes. El SAF es adquirido y autoinmune."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En frecuencia, el Leiden es la hereditaria más común, el déficit de antitrombina es raro, y el SAF es la trombofilia adquirida más frecuente."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En el tipo de trombosis está la clave: las hereditarias dan trombosis venosa; el SAF da trombosis venosa y también arterial, como accidente cerebrovascular, infarto o gangrena."
+    },
+    {
+      "file": "s11_g03",
+      "text": "En lo obstétrico, el SAF es el que tiene criterios propios: abortos recurrentes antes de la semana diez y muerte fetal desde la semana diez."
+    },
+    {
+      "file": "s11_g04",
+      "text": "En el examen, el Leiden se busca por resistencia a la proteína C activada o por PCR; el déficit, midiendo la actividad de la antitrombina; y el SAF, con sus tres anticuerpos."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Y en el tratamiento, la fila que más se pregunta: en las hereditarias sirven los anticoagulantes directos o los cumarínicos; en el SAF, cumarínico con INR de dos a tres, y los anticoagulantes directos no."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos con un caso. Mujer de treinta y un años con una trombosis venosa profunda iliofemoral izquierda, no provocada. Tuvo dos pérdidas fetales, a las dieciocho y veintidós semanas, con fetos normales, y un aborto a las ocho semanas. Sin anticonceptivos, viajes ni cirugías. El tiempo de protrombina es normal y el TTPK está en cincuenta y dos segundos, y no corrige con la mezcla."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: heparina y luego rivaroxabán, medir proteína C, S y antitrombina hoy, heparina con puente a acenocumarol y anticuerpos antifosfolípidos, plasma fresco para corregir el TTPK, o estudiar factores ocho y nueve. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C. Trombosis sin causa, muertes fetales y un TTPK que no corrige: es un anticoagulante lúpico, y esto es un SAF hasta demostrar lo contrario. Se anticoagula con heparina y acenocumarol, y los anticuerpos se repiten a las doce semanas. La A es la trampa más tentadora: en el SAF los anticoagulantes directos no sirven. La B falla por el momento, y la D y la E confunden un inhibidor con un déficit de factor."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta y dos años con una trombosis venosa profunda femoropoplítea. Su abuelo murió de un accidente cerebrovascular a los ochenta y cinco y su padre tuvo un infarto a los sesenta. En los exámenes: ciento cuarenta mil plaquetas, TTPA prolongado y VDRL positivo."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: déficit de antitrombina, déficit de factor ocho, síndrome antifosfolípido, púrpura trombocitopénica trombótica, o enfermedad de von Willebrand. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la C, síndrome antifosfolípido. Un joven que trombosa con un TTPA largo es la paradoja del anticoagulante lúpico. Y el VDRL positivo refuerza la idea: estos anticuerpos reaccionan con la cardiolipina que usa la prueba de sífilis y dan un falso positivo. El déficit de antitrombina es el distractor tentador, porque también trombosa, pero no alarga el TTPA. Y los antecedentes familiares de eventos a edades avanzadas no suman."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Otra del mismo examen, diciembre de dos mil diecinueve. Paciente de dieciocho años con dolor y aumento de volumen de la pantorrilla tras un traumatismo pequeño. El Doppler muestra una trombosis venosa profunda. Hemoglobina de doce coma ocho, ciento cuarenta y cinco mil plaquetas, TTPA de cincuenta y cuatro segundos y protrombina de ochenta y cinco por ciento."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: déficit de antitrombina, hemofilia A, trombofilia por anticoagulante lúpico, hemofilia B, o enfermedad de von Willebrand. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C. Otra vez la misma paradoja: un TTPA muy prolongado con protrombina normal, en un paciente que no sangra sino que trombosa. Eso es el anticoagulante lúpico. Las hemofilias y el von Willebrand son la trampa, porque también alargan el TTPA, pero sus pacientes sangran. Y fíjate que un traumatismo pequeño no explica una trombosis en alguien de dieciocho años."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Y una más reciente, del EUNACOM de julio de dos mil veinticinco. Mujer de veintiocho años con tres abortos espontáneos en el primer trimestre, que ahora presenta un sangrado vaginal profuso en su embarazo actual."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el estudio más adecuado para investigar la causa?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: panel de anticuerpos antifosfolípidos, cariotipo de los padres, histeroscopía, progesterona en fase lútea, o pruebas tiroideas. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la A. Tres abortos antes de la semana diez es exactamente el criterio obstétrico de Sydney. Entonces buscas los tres anticuerpos: anticoagulante lúpico, anticardiolipina y anti beta dos glicoproteína uno. Fíjate que esta pregunta viene de obstetricia: el SAF se pregunta también fuera de hematología. El cariotipo y la histeroscopía estudian otras causas, pero el SAF es la causa tratable más importante."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. El factor cinco Leiden es la trombofilia hereditaria más frecuente, por resistencia a la proteína C activada."
+    },
+    {
+      "file": "s16_g01",
+      "text": "El déficit de antitrombina es la más trombogénica, y da resistencia a la heparina."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Se estudia la trombosis no provocada en menores de cincuenta, la recurrente y la de sitio atípico, no la trombosis provocada."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Las pruebas funcionales se piden cuatro a seis semanas después de suspender la anticoagulación; el estudio genético, en cualquier momento."
+    },
+    {
+      "file": "s16_g04",
+      "text": "El SAF es trombosis o morbilidad obstétrica, más un anticuerpo positivo dos veces, separado por doce semanas. TTPK largo en quien trombosa es anticoagulante lúpico."
+    },
+    {
+      "file": "s16_g05",
+      "text": "Y se trata con cumarínicos, con INR de dos a tres, nunca con anticoagulantes directos. Si te llevas una sola idea de hoy: un paciente joven que trombosa con el TTPK largo tiene un SAF, y el SAF se trata con acenocumarol. Nos vemos en la próxima clase."
+    }
+  ]
+}

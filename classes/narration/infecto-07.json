@@ -1,0 +1,244 @@
+{
+  "id": "infecto-07",
+  "title": "Infectologia 2.3: IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+  "specialty": "Infectología",
+  "chars": 10821,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En las clases anteriores vimos profilaxis fuera del hospital. Hoy entramos al hospital: las infecciones asociadas a la atención de salud, que son un indicador directo de calidad asistencial. El examen pregunta dos cosas prácticas, una y otra vez. Qué tipo de aislamiento corresponde a cada germen, y qué hacer frente a una infección del catéter venoso central. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la base. Todo paciente hospitalizado, tenga lo que tenga, recibe precauciones estándar. La más importante es la higiene de manos, con alcohol gel o con agua y jabón, antes y después de tocar al paciente."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Además, equipo de protección personal según el riesgo de salpicadura, y manejo seguro de los cortopunzantes. Sobre esa base se agregan precauciones específicas, y lo que las decide es cómo se transmite el germen."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si el germen se transmite por las manos y las superficies, el aislamiento es de contacto: bata limpia, no estéril, y guantes antes de entrar a la habitación. Se usa pieza individual o en cohorte con pacientes que tengan la misma bacteria."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Aquí van los multirresistentes: estafilococo aureus resistente a meticilina, las bacterias productoras de betalactamasas de espectro extendido y el enterococo resistente a vancomicina. También el rotavirus, la sarna noruega y el impétigo."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el Clostridioides difficile, con un detalle que se pregunta mucho. El lavado de manos es obligatorio con agua y jabón, porque el alcohol gel no destruye las esporas. Si ves alcohol gel en una alternativa sobre difficile, descártala."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora, los gérmenes respiratorios. Aquí está la diferencia que más se pregunta del tema, y se entiende con física simple: todo depende del tamaño de la partícula que sale al toser o hablar."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Las gotitas grandes, de más de cinco micrones, pesan y caen a menos de un metro. Por eso basta una mascarilla quirúrgica al entrar, y las camas pueden compartir sala si están separadas por más de un metro."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Por gotitas van el meningococo, la influenza, el adenovirus, el coqueluche, la parotiditis y la rubéola. En el meningococo, el aislamiento se mantiene hasta cumplir veinticuatro horas de antibiótico efectivo."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Los núcleos de gotitas, de menos de cinco micrones, en cambio, flotan en el aire. Una mascarilla quirúrgica no sirve. Se necesita mascarilla de alta eficiencia N noventa y cinco, y habitación individual con presión negativa, con seis a doce recambios de aire por hora y la puerta siempre cerrada."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y la lista del aislamiento aéreo es corta, apréndetela de memoria: tuberculosis pulmonar bacilífera activa, sarampión, y varicela o herpes zóster diseminado. Fíjate en la trampa: meningococo y tuberculosis son ambos respiratorios, pero uno usa mascarilla quirúrgica y el otro N noventa y cinco."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Pasemos al catéter venoso central. Las bacterias llegan a la sangre por dos caminos. En los primeros diez días, migran desde la piel del sitio de inserción por fuera del catéter: es la vía extraluminal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Después de los diez días predomina la vía intraluminal: se contaminan el conector y las soluciones que se infunden, y los gérmenes entran por dentro del catéter."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Como el origen es sobre todo la piel, el germen más frecuente es el Staphylococcus epidermidis, un coagulasa negativo, en cuarenta a cincuenta por ciento de los casos. Le siguen el Staphylococcus aureus, las enterobacterias y la Candida."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El diagnóstico es microbiológico, y la clave es que los hemocultivos son pareados: se toman al mismo tiempo uno periférico y uno a través de cada lumen del catéter."
+    },
+    {
+      "file": "s03_g04",
+      "text": "¿Por qué pareados? Porque si el catéter es la fuente, tiene muchas más bacterias, y su frasco se vuelve positivo primero. El criterio es el mismo germen en ambos, con el frasco del catéter positivo más de dos horas antes que el periférico."
+    },
+    {
+      "file": "s03_g05",
+      "text": "El criterio alternativo es un cultivo cuantitativo, con una proporción entre catéter y periférico de tres a uno o más. Es la misma idea: hay más bacterias donde está el foco."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El tratamiento empírico se construye con los gérmenes que acabamos de ver. La base es vancomicina endovenosa, para cubrir el estafilococo aureus resistente a meticilina y el coagulasa negativo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si el paciente está séptico o neutropénico, se agrega cobertura para bacilos gramnegativos: cefepime, piperacilina con tazobactam o amikacina."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y ahora lo que más se pregunta: cuándo el catéter se saca de inmediato. Primero, el shock séptico o la inestabilidad hemodinámica severa."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Segundo, la infección del túnel subcutáneo, o eritema y pus franco en el sitio de inserción."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Tercero, las complicaciones metastásicas: endocarditis, tromboflebitis séptica supurada o embolias sépticas pulmonares."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Cuarto, y el más preguntado, los gérmenes de alto riesgo: Staphylococcus aureus, Candida, Pseudomonas aeruginosa o multirresistentes. Aquí el catéter sale siempre, sin excepción."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Y quinto, la bacteriemia o la fiebre que persisten a las cuarenta y ocho a setenta y dos horas de un antibiótico adecuado. Si el tratamiento no funciona, es porque el foco sigue adentro."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Compara dos gérmenes. Con el estafilococo coagulasa negativo, en casos seleccionados se puede intentar conservar el catéter con la técnica de sellado."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Con el Staphylococcus aureus, no. Tiene una altísima tendencia a sembrar a distancia. Por eso se retira el catéter y se da vancomicina endovenosa, ajustada a niveles plasmáticos de valle."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y siempre se pide un ecocardiograma, transtorácico o transesofágico, para descartar endocarditis. Otras siembras son la espondilodiscitis y los abscesos esplénicos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La Candida forma un biofilm masivo dentro y fuera del catéter. Se retira siempre, y se da un antifúngico sistémico, equinocandina o fluconazol."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y el equivalente del ecocardiograma en la candidemia es el fondo de ojo, para descartar una endoftalmitis candidiásica."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos la parte del catéter en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente hospitalizado con un catéter venoso central que hace fiebre. Tienes que pensar en una bacteriemia asociada al catéter."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Lo primero es tomar hemocultivos pareados, periférico y de cada lumen, e iniciar vancomicina, sumando cobertura gramnegativa si está séptico o neutropénico."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Luego la pregunta clave: ¿hay algún criterio de retiro inmediato?"
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si hay shock séptico, infección del túnel o pus en el sitio de inserción, el catéter sale de inmediato."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si crece Staphylococcus aureus, se retira el catéter y se pide ecocardiograma para descartar endocarditis."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si crece Candida, se retira el catéter, antifúngico sistémico y fondo de ojo para descartar endoftalmitis."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si no hay ningún criterio, por ejemplo un coagulasa negativo en un paciente estable, se sigue el tratamiento y se reevalúa. ¿Persisten la fiebre o la bacteriemia a las cuarenta y ocho a setenta y dos horas?"
+    },
+    {
+      "file": "s06_g07",
+      "text": "Si persisten, el foco sigue en el catéter y hay que retirarlo."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Si responde, se completa el tratamiento, y en casos seleccionados de coagulasa negativo se puede intentar conservar el catéter con sellado."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos con la tabla completa. Contacto: guantes y bata al entrar, pieza individual o cohorte. Difficile, estafilococo resistente a meticilina, enterococo resistente a vancomicina, BLEE y sarna."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Gotitas: mascarilla quirúrgica y camas separadas por más de un metro. Meningococo, influenza, coqueluche y parotiditis."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Aéreo: mascarilla N noventa y cinco con buen sello, presión negativa y puerta cerrada. Tuberculosis bacilífera, sarampión y varicela. La trampa es poner al meningococo aquí."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y un cuarto tipo que funciona al revés: el aislamiento protector, o inverso. Aquí se protege al paciente del ambiente, por eso la presión es positiva, con flujo laminar, y no se permiten flores. Es para la neutropenia severa, con recuento absoluto bajo quinientos, y el trasplante de médula."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Hombre de sesenta y cuatro años en la unidad de cuidados intensivos por una pancreatitis grave, con un catéter venoso central subclavio desde hace doce días. Hace fiebre de treinta y nueve grados con calofríos. El sitio de inserción está limpio. Los hemocultivos pareados muestran Staphylococcus aureus resistente a meticilina en ambos frascos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: mantener el catéter con vancomicina; recambiarlo sobre guía con cefazolina; retirarlo, vancomicina y ecocardiograma; sellar el catéter sin antibiótico sistémico; o retirarlo y observar sin antibióticos. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. El germen es aureus, así que el catéter sale siempre, aunque el sitio se vea limpio: ese es el distractor de la A. Se da vancomicina porque es resistente a meticilina, y se pide ecocardiograma por su tendencia a sembrar el endocardio. Recambiar sobre guía deja el problema en el mismo lugar, y la cefazolina no cubre este germen."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Es de salud pública, y pregunta por el DIEP, el departamento de infecciones y epidemiología del paciente de los hospitales chilenos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es su función principal?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: vigilar, prevenir y controlar las infecciones asociadas a la atención de salud; gestionar los recursos humanos; supervisar la farmacia; coordinar las licencias médicas; o auditar las finanzas. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A. El DIEP, o comité de infecciones asociadas a la atención de salud, existe para vigilar, prevenir y controlar justamente lo que vimos hoy. Las demás son funciones administrativas del hospital, que no tienen relación con las infecciones."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y como los aislamientos no tienen preguntas reales fechadas en el banco, cerramos con un caso representativo. ¿Qué enfermedad exige habitación individual con presión negativa y mascarilla N noventa y cinco para el personal?"
+    },
+    {
+      "file": "s10_g01",
+      "text": "Elige la alternativa correcta."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: meningitis meningocócica; tuberculosis pulmonar con baciloscopía positiva; colitis por Clostridioides difficile; coqueluche; o infección urinaria por Klebsiella BLEE. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, la tuberculosis bacilífera, porque sus partículas flotan en el aire por horas. La A es el distractor más tentador: el meningococo también es respiratorio y grave, pero viaja en gotitas grandes y basta la mascarilla quirúrgica. El coqueluche también es gotitas, y el difficile y la Klebsiella BLEE son contacto."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Aislamiento aéreo, con N noventa y cinco y presión negativa, solo para tres: tuberculosis bacilífera, sarampión y varicela."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El meningococo es gotitas: mascarilla quirúrgica, hasta cumplir veinticuatro horas de antibiótico."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y el difficile es contacto, con lavado de manos con agua y jabón, nunca solo alcohol gel."
+    },
+    {
+      "file": "s11_g03",
+      "text": "En el catéter, el diagnóstico se hace con hemocultivos pareados, y el del catéter se positiviza más de dos horas antes."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y con aureus o Candida, el catéter se retira siempre. Si te llevas una sola idea de hoy: el aislamiento lo decide cómo viaja el germen, y el retiro del catéter lo decide qué germen es. La próxima clase vemos intoxicación alimentaria, botulismo y cólera. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "neuro-17",
+  "title": "Neurologia 10.17: Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
+  "specialty": "Neurología y Geriatría",
+  "chars": 14840,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos una debilidad que nace en el nervio, el Guillain-Barré. Hoy bajamos un escalón más, a la unión entre el nervio y el músculo, con la miastenia gravis. Es un tema de alta rentabilidad, y se ordena con una palabra: fatigabilidad. La fuerza se agota con el uso y se recupera con el reposo. Si entiendes por qué, entiendes la clínica, los exámenes y hasta qué fármacos no puedes indicar. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la sinapsis normal. El nervio libera acetilcolina, que se une a los receptores nicotínicos del músculo. En condiciones normales, la señal que se genera es más que suficiente para contraer el músculo. Ese exceso se llama factor de seguridad."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En la miastenia, el sistema inmune fabrica anticuerpos contra la membrana postsináptica, sobre todo contra el receptor de acetilcolina. Y lo dañan de tres formas: activan el complemento, que destruye los pliegues de la membrana; aceleran la degradación del receptor; y bloquean directamente el sitio donde se une la acetilcolina. El resultado es que quedan muy pocos receptores funcionales."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Con pocos receptores, la primera contracción todavía funciona. Pero cuando el músculo se contrae una y otra vez, la acetilcolina liberada cae de forma natural, y en un paciente sin margen de sobra, la señal queda bajo el umbral."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Eso es la fatigabilidad, el sello de la enfermedad: la fuerza empeora con el ejercicio repetido y al final del día, y mejora con el reposo o con el frío. Guarda esta idea, porque explica el test del hielo, la electromiografía y el tratamiento."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos los anticuerpos. El principal es el anti receptor de acetilcolina: está en ochenta y cinco por ciento de las formas generalizadas, pero solo en la mitad de las formas oculares puras."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si ese anticuerpo es negativo, se busca el anti MuSK, presente en treinta a cuarenta por ciento de los seronegativos. Tiene un perfil propio: mujeres jóvenes, compromiso bulbar y respiratorio severo, debilidad facial y de cuello, y atrofia de la lengua. Responden mal o empeoran con piridostigmina, y muy bien a rituximab."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y en algunos pacientes negativos para ambos, aparece un tercer anticuerpo, el anti LRP cuatro."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La enfermedad tiene dos picos. El primero, mujeres jóvenes de veinte a cuarenta años, a menudo con hiperplasia del timo y otras enfermedades autoinmunes, como la tiroiditis de Hashimoto."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El segundo, hombres de cincuenta a sesenta años, donde es más frecuente el timoma. Eso ya te anticipa por qué siempre vamos a mirar el tórax."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Veamos cómo se presenta. Lo más frecuente es el ojo: la mitad de los pacientes debuta así, y más de ochenta y cinco por ciento lo tendrá en algún momento. Ptosis uni o bilateral asimétrica, y diplopía binocular que no calza con el territorio de un solo par craneal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y la regla de oro: las pupilas son normales, simétricas y reactivas. Siempre. La miastenia afecta la musculatura externa del ojo, nunca la intrínseca. Esa diferencia se pregunta."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Después viene lo bulbar, y fíjate que todo sigue la lógica de la fatiga. La voz se vuelve nasal a medida que habla, porque se cansa el velo del paladar."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Le cuesta terminar de masticar un trozo de carne, a veces tiene que sostener la mandíbula con la mano, y aparece disfagia."
+    },
+    {
+      "file": "s03_g04",
+      "text": "En las extremidades, la debilidad es proximal y simétrica: deltoides, flexores de cadera y flexores del cuello, hasta la cabeza caída. La fuerza distal suele conservarse. Y a diferencia del Guillain-Barré, los reflejos y la sensibilidad están normales."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Llevemos esa regla a la práctica. Frente a una ptosis con diplopía, lo primero que miras es la pupila. Si es normal y reactiva, la miastenia es compatible."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si hay midriasis o la pupila no reacciona a la luz, descartas miastenia. Tienes que pensar en una compresión del tercer par por un aneurisma de la comunicante posterior, en botulismo, o en un síndrome de Miller Fisher, la variante del Guillain-Barré que vimos en la clase anterior."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Hay dos pruebas que haces al lado de la cama. La primera es el test del hielo: pones una bolsa de hielo sobre el párpado caído por dos a tres minutos. Es positivo si la hendidura palpebral mejora dos milímetros o más."
+    },
+    {
+      "file": "s05_g01",
+      "text": "¿Por qué funciona? Porque el frío inhibe la acetilcolinesterasa, la enzima que degrada la acetilcolina. Queda más acetilcolina en la sinapsis, y el músculo recupera fuerza. Tiene una sensibilidad de ochenta a noventa por ciento en la ptosis miasténica."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La segunda es la prueba de fatigabilidad, o test de Simpson: le pides al paciente que mantenga la mirada hacia arriba durante sesenta segundos. En la miastenia, la ptosis aparece o empeora progresivamente. Es la fatigabilidad hecha visible."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Para confirmar, el primer examen son los anticuerpos anti receptor de acetilcolina. Es la prueba más específica, sobre noventa y ocho por ciento."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si resulta negativa y el cuadro es generalizado y sugerente, pides el anti MuSK."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El segundo examen es la electromiografía con estimulación repetitiva a tres hertz. Estimulas el nervio varias veces seguidas y mides la respuesta del músculo. Es positiva si cae más de diez por ciento entre el primer y el cuarto o quinto potencial. Es la fatigabilidad medida en el laboratorio."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y si todo lo anterior sale normal pero la sospecha sigue, la electromiografía de fibra aislada. Es la prueba más sensible, sobre noventa y cinco por ciento, y muestra un aumento del jitter, la variabilidad en la transmisión entre fibras de la misma unidad motora."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y un examen que se pide en todo paciente con miastenia: la tomografía de tórax con contraste, para mirar el timo. Diez a quince por ciento tiene un timoma, y sesenta y cinco a setenta por ciento, hiperplasia tímica. Si en una alternativa aparece TAC de tórax, no es un examen de más: es obligatorio."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una lista que se pregunta mucho, porque un fármaco mal indicado puede desencadenar una crisis. Primero, los aminoglucósidos, como gentamicina y amikacina: bloquean la liberación de acetilcolina y están contraindicados."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Las fluoroquinolonas, como ciprofloxacino y levofloxacino, tienen una advertencia de caja negra por exacerbaciones graves y parálisis respiratoria. Si necesitas tratar una infección urinaria, prefieres ceftriaxona o cotrimoxazol."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y los macrólidos, azitromicina y claritromicina, y la clindamicina, que también reducen la liberación de acetilcolina. Se usan con extrema cautela o se cambian por betalactámicos."
+    },
+    {
+      "file": "s07_g03",
+      "text": "En lo cardiovascular, se evitan los betabloqueadores, el verapamilo y el diltiazem, y antiarrítmicos como procainamida y quinidina. Para la hipertensión se prefieren IECA, ARA dos o hidralazina."
+    },
+    {
+      "file": "s07_g04",
+      "text": "El sulfato de magnesio endovenoso inhibe con fuerza la liberación de acetilcolina, y puede causar un paro respiratorio. Ojo con la embarazada miasténica con eclampsia: ahí está proscrito."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Los relajantes no despolarizantes, como el rocuronio, producen una parálisis extrema y prolongada, así que se usan a un décimo de la dosis habitual, con monitoreo. Y los inhibidores de checkpoint inmunológico, fármacos oncológicos, pueden desencadenar una miastenia fulminante con miocarditis."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Pasemos al tratamiento. La primera línea es la piridostigmina, un inhibidor reversible de la acetilcolinesterasa: treinta a sesenta miligramos por boca cada cuatro a seis horas, con un máximo habitual de trescientos sesenta al día. Fíjate en la lógica: hace lo mismo que el hielo, deja más acetilcolina en la sinapsis."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Actúa en quince a treinta minutos y dura tres a cuatro horas. Sus efectos adversos son colinérgicos: cólicos, diarrea, sialorrea, sudoración y secreciones bronquiales. Se manejan con dosis bajas de un anticolinérgico, como atropina o propantelina."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si los síntomas siguen incapacitando a pesar de una piridostigmina optimizada, se agrega prednisona. Y aquí hay un detalle que se pregunta: se parte con dosis bajas, diez a veinte miligramos al día, y se sube de a poco hasta cero coma setenta y cinco a uno por kilo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "¿Por qué partir bajo? Porque los corticoides en dosis altas pueden provocar un empeoramiento paradójico en los primeros siete a diez días, el llamado efecto dip."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Para el largo plazo se usan ahorradores de corticoides: azatioprina, dos a tres miligramos por kilo al día, o micofenolato, uno a dos gramos al día. Ambos tardan meses en hacer efecto."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La timectomía tiene dos indicaciones. La absoluta: todo timoma comprobado en la imagen se opera, para sacar la neoplasia y evitar que invada la pleura o el pericardio."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La segunda es modificadora de la enfermedad, aunque no haya timoma: pacientes de dieciocho a sesenta y cinco años, con miastenia generalizada y anticuerpos anti receptor positivos."
+    },
+    {
+      "file": "s09_g02",
+      "text": "En ellos, la timectomía aumenta la remisión completa y reduce a largo plazo la necesidad de corticoides y de hospitalizaciones."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y llegamos a la urgencia: la crisis miasténica. Se define como una insuficiencia respiratoria que requiere ventilación mecánica, o una disfagia tan grave que pone en riesgo la vía aérea. Los gatillos habituales son una infección o uno de los fármacos que acabamos de ver."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La conducta se parece mucho a la del Guillain-Barré: UCI, monitoreo de la capacidad vital y de la presión inspiratoria máxima, e intubación electiva precoz."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Y un tratamiento inmunomodulador rápido: plasmaféresis, cinco sesiones en diez días, o inmunoglobulina endovenosa, dos gramos por kilo en total, repartidos en dos a cinco días. Son igual de efectivas."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y una perla de cuidados intensivos: mientras el paciente está intubado, se suspende transitoriamente la piridostigmina. ¿Por qué? Por sus efectos muscarínicos: aumenta las secreciones bronquiales, que pueden obstruir el tubo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con ptosis, diplopía o debilidad que empeora con el uso y en la tarde. Lo primero es mirar la pupila."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La pupila separa la miastenia de sus imitadores. En la miastenia, la musculatura intrínseca del ojo nunca se compromete."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si hay midriasis o la pupila no reacciona, descartas miastenia: piensa en compresión del tercer par, botulismo o Miller Fisher."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Si la pupila es normal, test del hielo, anticuerpos anti receptor de acetilcolina, y electromiografía con estimulación repetitiva."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Confirmada la miastenia, TAC de tórax en todos, e inicio de piridostigmina."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Si hay timoma, timectomía siempre."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Sin timoma, si la piridostigmina no basta se agrega prednisona partiendo bajo, y se considera timectomía en la forma generalizada con anticuerpos positivos."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Si aparece falla respiratoria o disfagia grave, es una crisis: UCI, intubación electiva precoz, plasmaféresis o inmunoglobulina, y se suspende la piridostigmina mientras está intubado."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Repasemos las trampas. Ptosis fluctuante con pupilas normales: miastenia, y se confirma con test del hielo y anticuerpos. El error es irse al tercer par."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Al revés, ptosis con midriasis: la miastenia queda descartada, y hay que buscar una compresión del tercer par."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Miastenia recién diagnosticada: TAC de tórax en todos, sin excepción."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Infección urinaria en un miasténico: ceftriaxona o cotrimoxazol. El error es el ciprofloxacino o la gentamicina."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Al iniciar prednisona, dosis bajas que se suben de a poco. Los bolos altos de entrada pueden empeorar al paciente."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y en la crisis miasténica intubada: plasmaféresis o inmunoglobulina, suspendiendo la piridostigmina. Subirla solo llena la vía aérea de secreciones."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Vamos con un caso. Mujer de veintinueve años, cajera, con tres semanas de ptosis y visión doble que aparecen a medida que avanza la jornada; en la mañana está casi bien. Se le cansa la mandíbula al masticar y la voz se vuelve gangosa en la tarde. Tiene ptosis bilateral, mayor a izquierda, con pupilas iguales y reactivas. El test del hielo mejora la hendidura tres coma cinco milímetros. Reflejos y sensibilidad normales."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Además de iniciar piridostigmina, ¿qué estudio es obligatorio solicitar?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: angiografía por sospecha de aneurisma, punción lumbar, anticuerpos anti receptor de acetilcolina con TAC de tórax, resonancia de cerebro, o creatinquinasa con biopsia muscular. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la C. Todo grita miastenia: fatigabilidad que empeora en la tarde, compromiso ocular y bulbar, pupilas normales y un test del hielo positivo. Se confirma con anticuerpos, y la TAC de tórax es obligatoria para buscar un timoma. El distractor tentador es el aneurisma, pero las pupilas normales lo alejan. Y la punción lumbar es para el Guillain-Barré, donde además los reflejos estarían abolidos."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticuatro. Profesora de treinta y ocho años con un mes de debilidad y mialgias generalizadas, y ptosis derecha que empeora en las tardes. Al examen tiene ptosis bilateral, mayor a derecha, con reflejos y sensibilidad normales."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: esclerosis lateral amiotrófica, polimiositis, Guillain-Barré, esclerosis múltiple, o miastenia gravis. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E, miastenia gravis. La clave es la ptosis asimétrica que empeora en la tarde: eso es fatigabilidad. La polimiositis puede tentarte por las mialgias y la debilidad, pero no explica una ptosis que fluctúa durante el día. Y el Guillain-Barré tendría los reflejos abolidos."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La siguiente, también de julio de dos mil veinticuatro, es el diagnóstico diferencial. Paciente diabético de larga data, mal controlado, con ptosis del ojo derecho y diplopía al levantarle el párpado. Además, le cuesta llevar ese ojo hacia adentro y hacia arriba. La agudeza visual es normal."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: accidente vascular encefálico, tumor cerebral, cáncer de pulmón con compromiso del ganglio estrellado, ptosis aponeurótica, o parálisis del tercer par. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la E, parálisis del tercer par, la mononeuropatía del diabético. La ptosis con falla de la aducción y la elevación de un mismo ojo sigue exactamente el territorio del tercer par. Y ahí está la diferencia con la miastenia: la diplopía miasténica no calza con un solo nervio y fluctúa durante el día. El cáncer de pulmón tentaría por la ptosis, pero daría un síndrome de Horner, sin compromiso de la motilidad."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. La miastenia es fatigabilidad: la debilidad empeora con el uso y en la tarde, y mejora con reposo y con frío. Ojos, músculos bulbares y extremidades proximales."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Las pupilas siempre están normales. Si hay midriasis, busca otra causa."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Se confirma con anticuerpos y estimulación repetitiva, y la TAC de tórax se pide en todos."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Piridostigmina primero; si no basta, prednisona partiendo bajo."
+    },
+    {
+      "file": "s16_g04",
+      "text": "Timectomía siempre con timoma, y en la forma generalizada con anticuerpos positivos entre dieciocho y sesenta y cinco años."
+    },
+    {
+      "file": "s16_g05",
+      "text": "Evita aminoglucósidos, quinolonas y magnesio endovenoso. Y en la crisis, UCI, intubación precoz, y plasmaféresis o inmunoglobulina. Si te llevas una sola idea de hoy: debilidad que se cansa con pupilas normales es miastenia, y lo primero que buscas después es el timo. En la próxima clase vemos la esclerosis múltiple. Nos vemos en la próxima clase."
+    }
+  ]
+}

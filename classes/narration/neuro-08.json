@@ -1,0 +1,340 @@
+{
+  "id": "neuro-08",
+  "title": "Neurologia 10.8: Epilepsia del Adulto: Clasificación ILAE, Fármacos Antiepilépticos y Monitorización GES",
+  "specialty": "Neurología y Geriatría",
+  "chars": 15874,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase pasada terminamos con la carbamazepina en la neuralgia del trigémino. Hoy la vemos en su terreno principal: la epilepsia del adulto, una enfermedad crónica muy prevalente en Chile y con garantía GES. En el examen se juegan tres cosas: clasificar bien la crisis, elegir el fármaco según el tipo de crisis y según el paciente, y conocer las toxicidades de cada antiepiléptico. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. El cerebro funciona con un acelerador y un freno. El acelerador es el glutamato, que por sus receptores hace entrar sodio y calcio a la neurona. El freno es el GABA, que hace entrar cloro y la hiperpolariza."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando ese equilibrio se rompe a favor de la excitación, una población de neuronas de la corteza descarga de forma excesiva, anormal e hipersincrónica. Esa descarga es la crisis epiléptica. Y fíjate que los fármacos que veremos actúan justamente aquí: bloquean canales de sodio, reducen el glutamato o potencian el GABA."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Lo que importa para clasificar es dónde empieza esa descarga. Si parte en una red de un solo hemisferio, la crisis es de inicio focal. Si compromete desde el comienzo redes de ambos hemisferios, es de inicio generalizado. Y esa diferencia decide el fármaco."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Una crisis no es lo mismo que epilepsia. Según la Liga Internacional contra la Epilepsia, el diagnóstico se confirma con al menos dos crisis no provocadas, separadas por más de veinticuatro horas."
+    },
+    {
+      "file": "s02_g01",
+      "text": "O con una sola crisis no provocada, si el riesgo de repetir a diez años supera el sesenta por ciento. ¿Cómo sabemos eso? Porque el electroencefalograma muestra actividad epileptiforme, o la neuroimagen muestra una lesión que explica la crisis."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y es una patología GES: toda persona de quince años o más con sospecha de epilepsia no refractaria tiene garantizada la confirmación con especialista y el electroencefalograma en un plazo máximo de treinta días desde la derivación."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el inicio inmediato del tratamiento antiepiléptico, cubierto por la canasta GES."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La clasificación moderna abandona términos como parcial o gran mal y clasifica por el inicio. La crisis focal con conciencia preservada, la antigua focal simple: el paciente sigue consciente, interactúa y recuerda. Puede tener clonías de un segmento que avanzan, la marcha jacksoniana, o parestesias."
+    },
+    {
+      "file": "s03_g01",
+      "text": "También hay crisis focales no motoras: sensitivas, autonómicas o psíquicas, como el déjà vu o una sensación que sube desde el epigastrio."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La crisis focal con alteración de conciencia, la antigua focal compleja: el paciente se desconecta, queda con la mirada extraviada, no recuerda el episodio, y hace automatismos, como chupeteo, tragar, o movimientos de las manos. Típicamente viene del lóbulo temporal."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y la focal a tónico-clónica bilateral, la antigua secundariamente generalizada: parte con un signo focal, como una mano o la mirada desviada, y después se propaga a ambos hemisferios y termina en una convulsión. Ojo con esto: ese signo inicial la hace focal, aunque termine generalizada."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Las crisis de inicio generalizado comprometen la conciencia desde el principio. La tónico-clónica: pérdida brusca de conciencia, un grito, una fase tónica de diez a veinte segundos con cianosis, y luego una fase clónica simétrica de treinta a sesenta segundos, con relajación de esfínteres."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La ausencia típica: una detención súbita, con la mirada fija, de cinco a quince segundos. No se cae, no queda confuso, y retoma lo que hacía de inmediato. Por eso puede pasar como un niño distraído."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y en el electroencefalograma tiene un hallazgo patognomónico: descargas generalizadas de punta-onda a tres por segundo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Las crisis mioclónicas son sacudidas bruscas y breves, en los brazos, típicamente en la mañana al despertar. Son el sello de la epilepsia mioclónica juvenil: el adolescente que bota la taza del desayuno y que después de trasnochar hace una convulsión."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y si nadie vio cómo empezó, por ejemplo durante el sueño, se clasifica como de inicio desconocido."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El diagnóstico es clínico, y se basa en lo que cuenta el testigo. El electroencefalograma es el examen neurofisiológico de elección, y busca actividad epileptiforme entre crisis: puntas, ondas agudas y complejos punta-onda."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pero un electroencefalograma de rutina es normal en la mitad de los pacientes con epilepsia. Si la sospecha es alta, se repite con privación de sueño, hiperventilación y fotoestimulación, o se hace un video monitoreo prolongado. La regla de oro: un EEG normal no descarta epilepsia, y ondas lentas inespecíficas no la confirman."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Para buscar la causa, el examen de elección es la resonancia con protocolo de epilepsia, con cortes finos perpendiculares al hipocampo. Detecta la esclerosis mesial temporal, las displasias corticales, cavernomas, tumores de bajo grado y secuelas de infartos o traumas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El TAC queda para la urgencia inmediata, no para el estudio de la epilepsia."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos a los fármacos, que es de lo más preguntado. El ácido valproico es de amplio espectro, y el más potente para las epilepsias generalizadas idiopáticas: tónico-clónicas, mioclonías y ausencias."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Pero es altamente teratogénico: defectos del tubo neural, como la espina bífida, en uno a dos por ciento, cardiopatías, menor coeficiente intelectual y más riesgo de autismo. Además da hepatotoxicidad fulminante, pancreatitis, aumento de peso, alopecia y trombocitopenia."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La carbamazepina bloquea canales de sodio y es el clásico de las crisis focales. Su toxicidad: Stevens-Johnson y necrólisis epidérmica, asociados a un alelo HLA en población asiática; hiponatremia por secreción inadecuada de hormona antidiurética, sobre todo en el adulto mayor; y aplasia y agranulocitosis."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es un inductor enzimático potente de los citocromos hepáticos: baja los niveles de anticonceptivos, warfarina y estatinas. Y el peligro que más se pregunta: empeora las ausencias y las mioclonías."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La fenitoína tiene una cinética de saturación: a dosis terapéuticas su metabolismo se satura, y un pequeño aumento de dosis dispara el nivel a rango tóxico. Su rango es estrecho, de diez a veinte microgramos por mililitro."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y a largo plazo da hiperplasia gingival, hirsutismo, facies tosca, neuropatía, osteomalacia, anemia megaloblástica por déficit de folato, y atrofia cerebelosa con ataxia y nistagmo irreversibles. Por eso quedó en segunda o tercera línea."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La lamotrigina bloquea canales de sodio y reduce la liberación de glutamato. Es de amplio espectro. Su riesgo es el rash grave y el Stevens-Johnson, y para evitarlo se titula muy lento: se parte con veinticinco miligramos al día y se sube cada dos semanas."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Y la interacción de oro: el valproato inhibe la glucuronidación de la lamotrigina y duplica su vida media. Si se usan juntos, la dosis de lamotrigina se reduce a la mitad."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El levetiracetam se une a una proteína de las vesículas sinápticas y frena la liberación de glutamato. Es de amplio espectro, se elimina por el riñón y no pasa por los citocromos hepáticos, así que prácticamente no tiene interacciones."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Su efecto adverso típico es psiquiátrico: irritabilidad, hostilidad, agresividad, depresión, ideación suicida e incluso psicosis. Si un paciente se pone muy irritable después de empezar un antiepiléptico, piensa en levetiracetam."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos todo para elegir el fármaco. Son dos preguntas: qué tipo de crisis tiene, y quién es el paciente."
+    },
+    {
+      "file": "s08_g01",
+      "text": "En las crisis de inicio focal, con o sin evolución a bilateral, la primera línea es lamotrigina, levetiracetam o carbamazepina, u oxcarbazepina. La fenitoína quedó relegada."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En las generalizadas idiopáticas, como la mioclónica juvenil, el más efectivo es el valproato, en hombres. La alternativa moderna es levetiracetam o lamotrigina. Y en las ausencias puras, la tabla del libro da la etosuximida como elección, o el valproato."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y la regla de exclusión que más se pregunta: nunca carbamazepina ni fenitoína en una epilepsia generalizada idiopática. Tampoco gabapentina ni pregabalina. Agravan las ausencias y las mioclonías, y pueden precipitar un estatus de ausencia."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Ahora el paciente. En la mujer en edad fértil, el valproato está formalmente contraindicado. Se usa lamotrigina o levetiracetam, en monoterapia y a la menor dosis eficaz, más ácido fólico cinco miligramos al día, desde al menos tres meses antes de concebir y durante todo el primer trimestre."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y en el mayor de sesenta y cinco años o polimedicado, se evitan los inductores enzimáticos, carbamazepina, fenitoína y fenobarbital, por interacciones con anticoagulantes, hiponatremia y osteoporosis. La elección es levetiracetam en dosis bajas, ajustado a la función renal, o lamotrigina."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Los niveles plasmáticos no se piden de rutina para todos. Son obligatorios con la fenitoína, por su cinética de saturación."
+    },
+    {
+      "file": "s09_g01",
+      "text": "También si se sospecha toxicidad o sobredosis, o si se sospecha que el paciente no está tomando el fármaco."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Y en el embarazo, porque los niveles de lamotrigina caen mucho en el segundo y tercer trimestre, por la hiperfiltración y la glucuronidación inducida por estrógenos. Hay que medir y subir la dosis para evitar crisis."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La epilepsia refractaria, o farmacorresistente, es la que no se controla tras un ensayo adecuado de al menos dos fármacos de primera línea, bien tolerados, bien elegidos para el tipo de crisis, y en dosis plenas, solos o combinados."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Ese paciente se deriva a un centro terciario con unidad de epilepsia, para evaluar una cirugía, como la lobectomía temporal anterior o la lesionectomía, o una neuroestimulación del nervio vago."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Juntemos todo en un árbol: confirmar la epilepsia, clasificar la crisis y elegir el fármaco según el paciente. Paciente con una crisis no provocada. Lo primero es el relato del testigo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Tiene dos crisis no provocadas separadas por más de un día, o una sola con un electroencefalograma epileptiforme o una lesión en la resonancia?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Se confirma con especialista, electroencefalograma y resonancia con protocolo de epilepsia, con garantía GES."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Luego se clasifica según cómo empieza la crisis."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si es focal: lamotrigina, levetiracetam o carbamazepina. En el adulto mayor, levetiracetam."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y en cualquier tipo de epilepsia, si las crisis siguen pese a dos fármacos bien elegidos y en dosis plenas, es refractaria: se deriva a un centro de epilepsia."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si es generalizada idiopática, nunca carbamazepina ni fenitoína. Y la pregunta siguiente es si es una mujer en edad fértil."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Si es hombre, el valproato es el más efectivo."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Si es mujer en edad fértil, lamotrigina o levetiracetam con ácido fólico cinco miligramos, y nunca valproato."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Repasemos las trampas. Adolescente con mioclonías matinales que convulsiona después de trasnochar: epilepsia mioclónica juvenil, y en un hombre, valproato. La carbamazepina es la trampa: la empeora."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Mujer en edad fértil: lamotrigina o levetiracetam con ácido fólico en dosis alta. Nunca valproato."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Adulto mayor polimedicado: levetiracetam en dosis bajas. Los inductores enzimáticos son el error."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Mirada desviada o una mano que se mueve, y después convulsión: es una crisis focal a bilateral. No es generalizada primaria."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Electroencefalograma normal con clínica sugerente: se repite con privación de sueño o video monitoreo. Un EEG normal no descarta."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Lamotrigina con valproato: la dosis de lamotrigina a la mitad, porque el valproato duplica su vida media."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Y crisis pese a dos fármacos bien usados: epilepsia refractaria, y se deriva a un centro de epilepsia."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos con un caso. Mujer de veintiséis años, recién casada, que quiere embarazarse pronto. Tiene una epilepsia generalizada idiopática desde los dieciséis, y lleva tres años sin crisis con ácido valproico, quinientos miligramos cada doce horas. Su examen y sus exámenes son normales."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: mantener el valproato con ácido fólico en dosis baja; suspender el valproato de inmediato; cambiar gradualmente a lamotrigina o levetiracetam con ácido fólico cinco miligramos desde tres meses antes; cambiar a carbamazepina; o contraindicar el embarazo. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C. El valproato es el antiepiléptico más teratogénico, y en una mujer que planifica un embarazo se cambia, de forma programada y gradual, a lamotrigina o levetiracetam, con ácido fólico en dosis alta. La B tienta, pero suspender de golpe la expone a crisis, que también dañan al embarazo. Y la carbamazepina es la trampa doble: empeora una epilepsia generalizada."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de enero de dos mil veintitrés. Un paciente parte con la mirada forzada a la derecha, luego un espasmo de la mitad de la cara, y luego sacudidas de las cuatro extremidades."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: crisis focal con generalización secundaria, tónico-clónica generalizada primaria, estatus no convulsivo, isquemia transitoria, o crisis mioclónica juvenil. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A. Parte con signos focales, la mirada desviada y una hemicara, y después se propaga a las cuatro extremidades. Eso es una crisis focal que evoluciona a bilateral. La B es el distractor: termina igual, pero lo que define la clasificación es cómo empieza. Y la isquemia transitoria no da sacudidas."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La segunda, del EUNACOM de diciembre de dos mil diecisiete. Una adolescente de catorce años convulsiona después de una noche sin dormir, frente a las pantallas. Desde antes tenía sacudidas bruscas involuntarias, y sus amigas cuentan que a veces se queda pegada unos segundos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: epilepsia mioclónica juvenil, epilepsia de ausencia juvenil, epilepsia tónico-clónica, epilepsia focal, o crisis por privación de sueño. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la A, epilepsia mioclónica juvenil. Junta las tres crisis generalizadas: mioclonías, ausencias, y una tónico-clónica después de trasnochar. La ausencia juvenil tienta por el quedarse pegada, pero no explica las sacudidas. Y la privación de sueño es el gatillante, no el diagnóstico."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La tercera, del EUNACOM de diciembre de dos mil diecinueve. Un joven de dieciséis años convulsiona al despertar, después de jugar videojuegos hasta tarde. Hace meses tiene mioclonías en las mañanas. Su examen es normal."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: suspender por completo los videojuegos, ácido valproico, carbamazepina, melatonina, o diazepam si vuelve a convulsionar. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B, ácido valproico. Es la misma epilepsia mioclónica juvenil, ahora en un hombre, y en él el valproato es el fármaco más efectivo. La carbamazepina es la trampa clásica: es un buen antiepiléptico, pero empeora las mioclonías. Y fíjate: si fuera una mujer en edad fértil, la respuesta cambiaría a lamotrigina o levetiracetam."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticuatro. Un niño o adolescente con conducta disruptiva y crisis de ausencia."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cómo se estudia?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: electroencefalograma, TAC, resonancia, psicometría, o control sano habitual. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la A, electroencefalograma, que muestra la punta-onda generalizada a tres por segundo, patognomónica de la ausencia. La psicometría es el distractor, porque la ausencia se confunde con un problema de atención o de conducta. Y la imagen no es el estudio de una epilepsia generalizada."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Epilepsia es dos crisis no provocadas, o una con alto riesgo de repetir. El electroencefalograma normal no la descarta, y la resonancia busca la causa."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Si la crisis parte con un signo focal, es focal, aunque termine en una convulsión."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Focal: lamotrigina, levetiracetam o carbamazepina. Generalizada idiopática: valproato en el hombre, y nunca carbamazepina ni fenitoína."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Mujer en edad fértil: lamotrigina o levetiracetam con ácido fólico en dosis alta. Adulto mayor: levetiracetam."
+    },
+    {
+      "file": "s17_g04",
+      "text": "Y las toxicidades: valproato teratógeno y hepatotóxico, carbamazepina con hiponatremia y Stevens-Johnson, fenitoína con hiperplasia gingival, y levetiracetam con irritabilidad. Si te llevas una sola idea de hoy: el antiepiléptico se elige por cómo empieza la crisis y por quién es el paciente. Lo que sigue es qué hacer cuando la crisis no se detiene: el estatus epiléptico. Nos vemos en la próxima clase."
+    }
+  ]
+}

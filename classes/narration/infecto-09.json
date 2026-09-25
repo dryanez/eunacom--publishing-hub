@@ -1,0 +1,284 @@
+{
+  "id": "infecto-09",
+  "title": "Infectologia 3.1: Infección por VIH: Diagnóstico, Etapificación y Terapia Antirretroviral (TARV GES)",
+  "specialty": "Infectología",
+  "chars": 12401,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Abrimos el bloque de infecciones crónicas con uno de los temas más reglamentados del examen: la infección por virus de inmunodeficiencia humana, el VIH. Aquí se mezclan la medicina y la ley. Tienes que dominar tres ideas: el diagnóstico solo lo confirma el Instituto de Salud Pública, el tratamiento se inicia a todos de inmediato, sin mirar los CD cuatro, y el esquema es una pastilla al día con dolutegravir. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el diagnóstico, que en Chile está definido por ley. La ley diecinueve mil setecientos setenta y nueve, la ley del SIDA, dice que el test de VIH es voluntario, confidencial, y exige consentimiento informado firmado. Antes de pedirlo, el paciente tiene que aceptarlo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La primera etapa es el tamizaje local. Se hace con un ELISA de cuarta generación, que detecta a la vez el antígeno pe veinticuatro y los anticuerpos, o con un test rápido visual. Son pruebas pensadas para no dejar pasar a ningún infectado."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si sale no reactivo, el paciente no está infectado, y se hace consejería preventiva. Pero si la exposición fue reciente y puede estar en el período de ventana, se repite el examen en tres meses."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si sale reactivo, aquí está lo que más se pregunta. Un tamizaje reactivo, sea test rápido o ELISA, es un resultado preliminar. El paciente todavía no tiene diagnóstico de VIH."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La segunda etapa es obligatoria: se toma una segunda muestra de sangre venosa y se envía al Instituto de Salud Pública, el ISP, que es el único organismo legalmente facultado para confirmar la infección."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y la trampa: la alternativa que dice informar al paciente que tiene VIH e iniciar tratamiento con un test rápido reactivo. Suena resolutiva, pero es incorrecta. Nunca se comunica la positividad sin la confirmación del ISP."
+    },
+    {
+      "file": "s01_g06",
+      "text": "Una vez que el ISP confirma, el caso ingresa a la garantía GES número dieciocho, con cobertura gratuita e integral. Y desde ahí se pasa al tratamiento."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Con el diagnóstico confirmado, se piden los CD cuatro y la carga viral basales. Sirven para etapificar y para seguir la respuesta al tratamiento."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Pero ojo: no sirven para decidir si se trata. La estrategia actual se llama test and treat: la terapia antirretroviral se inicia de inmediato a todo paciente confirmado, sin importar sus CD cuatro ni su carga viral. Si una alternativa dice esperar a que los CD cuatro bajen, descártala."
+    },
+    {
+      "file": "s02_g02",
+      "text": "¿Con qué? El esquema de primera línea son tres fármacos en una sola pastilla al día: tenofovir, lamivudina y dolutegravir."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El dolutegravir es un inhibidor de la integrasa, y es la pieza clave del esquema: tiene una alta barrera genética, es decir, al virus le cuesta hacerse resistente, y logra una supresión viral rápida."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Por eso reemplazó a los esquemas antiguos: al efavirenz, por sus efectos neuropsiquiátricos, y a la zidovudina, por la mielotoxicidad y la anemia. Si los ves como primera línea en un adulto, son distractores."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La etapificación cruza dos ejes. En las filas, el recuento de CD cuatro: quinientos o más, entre doscientos y cuatrocientos noventa y nueve, y menos de doscientos. En las columnas, la clínica: A, B o C. Con quinientos o más, el paciente es A uno, B uno o C uno según su clínica."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Con doscientos a cuatrocientos noventa y nueve, es A dos, B dos o C dos. Fíjate que toda la columna C es SIDA, tenga los CD cuatro que tenga."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y con menos de doscientos, toda la fila es SIDA, aunque el paciente esté asintomático: A tres y B tres son SIDA por recuento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y qué pone a un paciente en cada columna. A: asintomático, linfadenopatía persistente o la primoinfección. B: sintomático pero no SIDA, como el muguet, la leucoplasia oral vellosa o el herpes zóster recurrente. C: las enfermedades marcadoras, como Pneumocystis, toxoplasmosis cerebral, criptococo, tuberculosis extrapulmonar y sarcoma de Kaposi."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Resumamos la definición que se pregunta. El paciente está en etapa SIDA si tiene menos de doscientos CD cuatro, aunque no tenga ningún síntoma."
+    },
+    {
+      "file": "s04_g01",
+      "text": "O si tiene una enfermedad marcadora, aunque sus CD cuatro estén altos. Basta uno de los dos. Las enfermedades marcadoras las vemos en detalle en la próxima clase."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y cuidado con el muguet: la candidiasis oral es categoría B. Es un signo de inmunodepresión, pero por sí sola no define SIDA."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el objetivo del tratamiento tiene un nombre: indetectable igual a intransmisible. Cuando la carga viral se mantiene bajo cincuenta copias por mililitro por más de seis meses..."
+    },
+    {
+      "file": "s04_g04",
+      "text": "...el riesgo de transmisión sexual se anula. Por eso tratar a todos de inmediato no solo protege al paciente: también corta la cadena de contagio."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Juntemos todo en el árbol de decisión que vas a usar en el examen, desde la sospecha hasta el tratamiento. Paciente en quien sospechas VIH, o que se hace un tamizaje. Lo primero, antes de cualquier examen, es el consentimiento informado."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se hace el tamizaje local, con ELISA de cuarta generación o test rápido. ¿Qué resultado dio?"
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si es no reactivo, la pregunta es si pudo estar en el período de ventana."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si no hubo una exposición reciente, el paciente no está infectado: consejería preventiva."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si la exposición fue reciente, se repite el examen en tres meses."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si es reactivo, es solo preliminar. Se envía una segunda muestra venosa al Instituto de Salud Pública, sin informar todavía el diagnóstico."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si el ISP confirma, se activa el GES dieciocho, y se piden CD cuatro y carga viral basales para etapificar."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Y se inicia de inmediato la terapia antirretroviral, sin importar los CD cuatro: tenofovir, lamivudina y dolutegravir. La meta es la carga viral indetectable, que además es intransmisible."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. Test rápido o ELISA reactivo: segunda muestra venosa al ISP. El error es informar el diagnóstico e iniciar tratamiento con el test local."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Tamizaje negativo con una exposición reciente: puede ser el período de ventana, y se repite en tres meses. El error es dar la infección por descartada."
+    },
+    {
+      "file": "s06_g02",
+      "text": "VIH confirmado con CD cuatro altos: tratamiento inmediato igual. Esperar a que bajen es un criterio antiguo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Primera línea en el adulto: tenofovir, lamivudina y dolutegravir. No efavirenz ni zidovudina."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y menos de doscientos CD cuatro sin síntomas: es SIDA, etapa A tres, aunque el paciente se sienta perfecto."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Hombre de veintinueve años que consulta en atención primaria por cansancio y muguet recurrente. Se le hace un test rápido de VIH en el CESFAM, y sale reactivo. El paciente se angustia, pregunta si ya tiene SIDA y si debe avisarle a su familia."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta inmediata?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones son: informar el diagnóstico e iniciar tratamiento hoy; explicar que es preliminar y enviar una segunda muestra al ISP; repetir el test en tres meses; pedir CD cuatro e informar SIDA si están bajo doscientos; o avisar a la familia. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Lo primero es contenerlo y explicarle que el test rápido es preliminar, y enviar la segunda muestra al ISP. La A es el distractor más tentador, porque el esquema es el correcto, pero todavía no hay diagnóstico. La C confunde el reactivo con el negativo. Y avisar a la familia viola la confidencialidad que exige la ley."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve, y conecta con el algoritmo en dos etapas. ¿Qué característica del ELISA permite detectar a los infectados en la población asintomática?"
+    },
+    {
+      "file": "s08_g01",
+      "text": "Elige la alternativa correcta."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: alta sensibilidad; baja especificidad; alta especificidad; alto valor predictivo positivo; o alto valor predictivo negativo. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A, alta sensibilidad. Un tamizaje tiene que encontrar a todos los infectados, aunque arrastre algunos falsos positivos. Y justamente por eso un ELISA reactivo no basta para el diagnóstico: hay que confirmar en el ISP. La C es el distractor: la alta especificidad es la virtud de la prueba confirmatoria, no del tamizaje."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La segunda es del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y siete años con dos días de fiebre y odinofagia. Tiene úlceras orales, adenopatías cervicales y un exantema en el tronco. Además está algo confuso, con rigidez de nuca esbozada. La serología para VIH y para Epstein Barr es negativa, y el líquido cefalorraquídeo muestra pleocitosis mononuclear con glucosa normal."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: primoinfección por VIH; meningoencefalitis por citomegalovirus; meningitis bacteriana; neurosífilis; o mononucleosis infecciosa. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A, la primoinfección, o síndrome retroviral agudo. Es un cuadro mononucleósico con úlceras orales y exantema, que puede dar una meningitis aséptica como esta. ¿Y la serología negativa? Es el período de ventana: todavía no hay anticuerpos. La E es el distractor, pero el Epstein Barr salió negativo, y la bacteriana no calza con un líquido mononuclear y glucosa normal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La tercera es del EUNACOM de diciembre de dos mil dieciocho. Embarazada de treinta y dos semanas, sin controles previos, con un ELISA para VIH positivo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más importante para evitar la transmisión vertical?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: iniciar triterapia ahora; cesárea ahora; triterapia solo si la carga viral es alta; tratamiento solo durante el trabajo de parto; o cesárea a las treinta y ocho semanas. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A, iniciar la triterapia ahora. La medida que más previene la transmisión al hijo es el tratamiento de la madre durante el embarazo, y a las treinta y dos semanas no hay tiempo que perder. La C es el distractor: igual que en el adulto, no se condiciona a la carga viral. Y la cesárea no reemplaza al tratamiento; la vía del parto se decide después, según la carga viral que se logre."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La cuarta sigue con el embarazo, del EUNACOM de julio de dos mil veinticuatro. Madre con VIH, bien controlada, con carga viral indetectable. El recién nacido nace a las treinta y ocho semanas por parto vaginal, sin complicaciones."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el antirretroviral de elección para el recién nacido?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: zidovudina; lamivudina; nevirapina; lopinavir; o abacavir. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, zidovudina. Fíjate en el contraste con el adulto: la zidovudina salió de la primera línea del adulto, pero sigue siendo la profilaxis del recién nacido, por algunas semanas después del parto. Y recuerda que en el hijo de madre con VIH la lactancia materna está contraindicada."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y la última, más antigua, del EUNACOM de julio de dos mil trece. Un joven de veintiún años, con dermatitis atópica y onicomicosis, hace una varicela necrohemorrágica."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Qué patología de base es más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones son: déficit de inmunoglobulina A; alteración de la fagocitosis; déficit de inmunoglobulina G; déficit de complemento; o inmunodeficiencia adquirida. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la E. Una varicela grave en un adulto joven, más hongos, habla de una falla de la inmunidad celular, que es justo lo que destruye el VIH. La enseñanza es práctica: una infección viral o fúngica más grave de lo esperado en un joven es motivo para ofrecer el test de VIH. Los déficits de anticuerpos o de complemento dan, en cambio, infecciones bacterianas."
+    },
+    {
+      "file": "s13_g00",
+      "text": "El esquema de primera línea no tiene preguntas reales fechadas en el banco, así que cerramos con un caso representativo. ¿Cuál es el esquema preferente para iniciar tratamiento en un adulto con VIH confirmado en Chile?"
+    },
+    {
+      "file": "s13_g01",
+      "text": "Elige la alternativa correcta."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: zidovudina, lamivudina y nevirapina; tenofovir, lamivudina y dolutegravir; abacavir, emtricitabina y lopinavir con ritonavir; efavirenz, zidovudina y atazanavir; o tenofovir en monoterapia. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B: tenofovir, lamivudina y dolutegravir, en una pastilla al día. La A y la D son los distractores, porque llevan zidovudina, que acabamos de ver en el recién nacido, pero en el adulto quedó desplazada por la anemia. Y la monoterapia nunca es opción: el VIH se trata siempre con tres fármacos."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. El test de VIH es voluntario, confidencial y con consentimiento informado."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Un tamizaje reactivo es preliminar: segunda muestra al ISP, y nunca se informa el diagnóstico sin su confirmación."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Confirmado el diagnóstico, tratamiento inmediato a todos, sin importar los CD cuatro."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Con tenofovir, lamivudina y dolutegravir, en una pastilla al día. Y en la embarazada, tratamiento de inmediato para proteger al hijo."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Es SIDA si hay menos de doscientos CD cuatro o una enfermedad marcadora."
+    },
+    {
+      "file": "s14_g05",
+      "text": "E indetectable es intransmisible. Si te llevas una sola idea de hoy: el diagnóstico lo confirma el ISP, y una vez confirmado, se trata a todos de inmediato. La próxima clase vemos las infecciones oportunistas del VIH. Nos vemos en la próxima clase."
+    }
+  ]
+}

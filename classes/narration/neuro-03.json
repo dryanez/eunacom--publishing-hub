@@ -1,0 +1,332 @@
+{
+  "id": "neuro-03",
+  "title": "Neurologia 10.3: Hemorragia Intracerebral Espontánea: Manejo de Presión Arterial, Reversión de Anticoagulantes y Criterios Quirúrgicos",
+  "specialty": "Neurología y Geriatría",
+  "chars": 15630,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En las dos clases anteriores vimos el infarto cerebral y su aviso, el AIT. Hoy vemos la otra cara del accidente cerebrovascular: la hemorragia intracerebral espontánea. Es solo un quinto de los ACV, pero concentra más de la mitad de la mortalidad. Y todo el tema gira en torno a una idea: el hematoma crece en las primeras horas, y tu trabajo es frenarlo. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. La hemorragia intracerebral espontánea es la rotura de una arteria pequeña que ya estaba enferma. Y la gran causa, el ochenta por ciento, es la hipertensión crónica mal controlada."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Años de presión alta dañan las arterias perforantes profundas: aparece lipohialinosis, degeneración fibrinoide y pequeños microaneurismas, los de Charcot-Bouchard. Un día, uno de ellos se rompe."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Como esas perforantes irrigan los núcleos profundos, la hemorragia hipertensiva cae en lugares muy predecibles: el putamen, que es la mitad de los casos, el tálamo, el puente y el cerebelo. Guarda esos cuatro lugares, porque cada uno tiene su propia clínica."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La segunda causa es la angiopatía amiloide. Es del adulto mayor, sobre sesenta y cinco o setenta años, y no necesariamente hipertenso. El beta-amiloide se deposita en la pared de las arterias de la corteza y las meninges."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Por eso sangra en la superficie: da hemorragias lobares, que tienden a repetirse, y la resonancia muestra microsangrados corticales asintomáticos. La regla es simple: profunda piensa en hipertensión, lobar en el anciano piensa en amiloide."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y si el paciente es joven o no es hipertenso, busca otra causa: una malformación arteriovenosa, cocaína o anfetaminas, una coagulopatía, una trombosis venosa, o un tumor que sangra, como una metástasis de melanoma o de cáncer renal."
+    },
+    {
+      "file": "s01_g06",
+      "text": "Ahora, lo más importante. A diferencia del infarto, el hematoma no se queda quieto: tiende a expandirse activamente en las primeras tres a seis horas. Todo el manejo que vamos a ver, bajar la presión y revertir la anticoagulación, tiene un solo objetivo: frenar esa expansión."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo llega el paciente. Es un cuadro agudo, de minutos a pocas horas: cefalea intensa, náuseas y vómitos explosivos. Fíjate que la cefalea y los vómitos hablan de un hematoma que ocupa espacio dentro del cráneo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Además hay un déficit motor o sensitivo focal, que puede ir progresando. Tiene sentido: el hematoma sigue creciendo."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y dos datos que suman: la presión arterial muy elevada, con sistólicas frecuentemente sobre ciento ochenta o doscientos veinte, y el compromiso de conciencia, que puede ir desde la somnolencia hasta el coma."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Pero ojo: aunque estos datos orientan, ninguno permite asegurar al lado de la cama que es una hemorragia y no un infarto. Eso lo decide la imagen, que vemos en un momento."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Vamos a la topografía, porque el examen la pregunta. La hemorragia putaminal, la más frecuente, da una hemiplejia contralateral densa y armónica, faciobraquiocrural, con hemihipoestesia, y afasia si toca el hemisferio dominante."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y el signo clave está en los ojos: desviación conjugada de la mirada hacia el lado de la lesión. El paciente mira su lesión, y le da la espalda a su hemiplejia."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La talámica es distinta: predomina el déficit sensitivo, una hemihipoestesia contralateral severa, mayor que la debilidad. A largo plazo puede dejar un dolor talámico crónico."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y los ojos se desvían hacia abajo y hacia adentro, como mirando la nariz, con parálisis de la mirada vertical hacia arriba, el síndrome de Parinaud, pupilas pequeñas que no reaccionan, y somnolencia precoz."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y la lobar da un déficit limitado al lóbulo que sangra: afasia si es temporal o frontal, hemianopsia si es occipital."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Como compromete la corteza, es la que más se acompaña de crisis epilépticas de inicio temprano."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Bajemos a la fosa posterior. La hemorragia del puente es la más grave: coma fulminante, tetraparesia flácida o postura de descerebración temprana, hipertermia y paro respiratorio central, porque destruye los centros del tronco."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El signo que se pregunta son las pupilas puntiformes, en miosis extrema, pero que todavía reaccionan a la luz si las miras con lupa. Y no hay reflejos oculocefálicos."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la más importante de toda la clase: la hemorragia cerebelosa. Cefalea occipital súbita, vértigo intenso y vómitos incoercibles."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El paciente no se puede parar: tiene una ataxia de la marcha que le impide la bipedestación, con dismetría del mismo lado y nistagmo."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y fíjate en la trampa: al inicio no tiene debilidad de las extremidades. Como no hay hemiplejia, parece un vértigo, y se subestima. Pero es la urgencia quirúrgica máxima, porque el cerebelo, al hincharse, comprime el tronco, obstruye el cuarto ventrículo y puede herniar en horas."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El diagnóstico lo hace el TAC de encéfalo sin contraste, el examen de elección en agudo. La sangre fresca se ve blanca: una colección hiperdensa, homogénea, dentro del parénquima. Es el mismo TAC que pedimos en el infarto para separar uno del otro."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El volumen se estima con una fórmula simple: se multiplican los tres diámetros del hematoma, A por B por C, y se divide por dos. Treinta mililitros o más es un corte que vamos a volver a usar."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si se hace una AngioTAC, puede aparecer el signo del spot: un punto de contraste que se escapa dentro del hematoma. Es una fuga activa, y predice que el hematoma va a crecer en las próximas horas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y en el anciano con hemorragia lobar, la resonancia con secuencias de gradiente de eco muestra los microsangrados corticales que apoyan la angiopatía amiloide."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Pasemos al manejo, empezando por la presión arterial. La presión muy alta hace crecer el hematoma y aumenta el edema. Por eso, si la sistólica al ingreso está entre ciento cincuenta y doscientos veinte, la meta es llevarla a ciento treinta a ciento cuarenta, idealmente en la primera o segunda hora."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Pero hay un límite de seguridad: la sistólica no debe caer bajo ciento treinta, ni bajar más de sesenta en pocos minutos. Eso compromete la perfusión cerebral y daña el riñón. Rápido, suave y sostenido."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Se usan fármacos endovenosos de vida media corta, que se pueden titular. El labetalol, en bolos de diez a veinte miligramos cada diez a quince minutos, o en infusión de dos a ocho miligramos por minuto."
+    },
+    {
+      "file": "s06_g03",
+      "text": "O el nicardipino, en infusión continua de cinco a quince miligramos por hora."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y lo que no se usa: el nitroprusiato y la hidralazina, porque dilatan las venas cerebrales y suben la presión intracraneana. Compáralo con el infarto: allá se tolera la presión alta hasta doscientos veinte; aquí se baja activamente."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La segunda medida urgente es revertir la anticoagulación. Una hemorragia en un paciente anticoagulado se expande en la mitad de los casos, y la mortalidad supera el sesenta por ciento. La reversión empieza en minutos, y depende del fármaco."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El caso más preguntado es el acenocumarol, con un INR sobre uno coma cuatro. La primera línea es el complejo protrombínico concentrado de cuatro factores, el CCP, de veinticinco a cincuenta unidades por kilo endovenoso. Normaliza el INR en quince a treinta minutos, sin sobrecargar de volumen."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y siempre junto al CCP, vitamina K, diez miligramos endovenosos lentos. ¿Por qué las dos? Porque el CCP actúa de inmediato pero dura pocas horas, y la vitamina K recién hace efecto a las cuatro a seis horas, cuando el hígado fabrica factores nuevos. Así se evita que el INR rebote."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El plasma fresco congelado es el distractor clásico. Solo se usa si no hay CCP, porque demora horas en descongelarse, requiere mucho volumen y puede dar edema pulmonar."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si el paciente usa dabigatrán, tiene un antídoto específico: el idarucizumab, cinco gramos endovenosos, en dos bolos de dos coma cinco. Revierte el efecto en minutos."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si usa rivaroxabán o apixabán, el antídoto es el andexanet alfa, si el centro lo tiene. Si no, CCP de cuatro factores en dosis alta, cincuenta unidades por kilo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Y la heparina se revierte con protamina: un miligramo neutraliza cien unidades de heparina no fraccionada de las últimas dos a tres horas. Con las heparinas de bajo peso, la neutralización es solo parcial."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La tercera decisión es quirúrgica, y aquí la ubicación lo cambia todo. Supratentorial e infratentorial se manejan con principios opuestos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La regla de oro: todo hematoma cerebeloso de tres centímetros o más de diámetro, o que comprima el tronco, deforme el cuarto ventrículo o produzca hidrocefalia, se opera de urgencia, con evacuación por craniectomía suboccipital. Observarlo es un error fatal: el paciente muere por enclavamiento en horas."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En cambio, en los hematomas profundos, del putamen o del tálamo, la cirugía abierta de rutina no demostró beneficio frente al manejo médico intensivo, según los ensayos STICH. Van a la unidad de cuidados intensivos, con presión controlada y anticoagulación revertida."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La excepción son casos seleccionados: un hematoma lobar superficial grande, de más de treinta mililitros y a menos de un centímetro de la corteza, en un paciente que se va deteriorando. O una craniectomía descompresiva si el edema es masivo e intratable."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y en cualquier ubicación, si la sangre invade los ventrículos y aparece hidrocefalia, se instala un drenaje ventricular externo de urgencia, que descomprime y permite medir la presión intracraneana."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Para cerrar el manejo, el pronóstico. El score ICH de Hemphill va de cero a seis puntos y predice la mortalidad a treinta días. El Glasgow es lo que más pesa: de tres a cuatro suma dos puntos, y de cinco a doce, uno."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Luego suma un punto cada uno: un volumen de treinta mililitros o más, y la invasión ventricular."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Y un punto más por origen infratentorial, en el cerebelo o el tronco, y por edad de ochenta años o más."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Con cero puntos la mortalidad es cero; con uno, trece por ciento; con dos, veintiséis."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y fíjate en el salto: con tres puntos ya es setenta y dos por ciento, con cuatro, noventa y siete, y con cinco o seis, cien por ciento. Tres puntos es donde el pronóstico se vuelve crítico."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora juntemos todo en un solo árbol, desde el paciente con cefalea y déficit hasta la decisión quirúrgica. Paciente con cefalea intensa, vómitos, déficit focal y presión muy alta. La clínica orienta, pero no distingue la hemorragia del infarto."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Primero el TAC sin contraste. ¿Hay una hiperdensidad dentro del parénquima?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si no hay sangre, vuelves al camino del infarto cerebral, y evalúas la trombólisis."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si hay sangre, dos medidas simultáneas en minutos: bajar la sistólica a ciento treinta a ciento cuarenta con labetalol o nicardipino, y revertir el anticoagulante según el fármaco."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y luego la pregunta quirúrgica: ¿dónde está el hematoma?"
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si es cerebeloso de tres centímetros o más, o comprime el tronco, cirugía de urgencia. Observarlo es un error fatal."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si es profundo, en el putamen o el tálamo, manejo médico en cuidados intensivos. La cirugía de rutina no aporta."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Si hay sangre en los ventrículos con hidrocefalia, drenaje ventricular externo de urgencia."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Repasemos las trampas. Hemorragia con sistólica entre ciento cincuenta y doscientos veinte: se baja a ciento treinta a ciento cuarenta con labetalol o nicardipino. El error es aplicar la regla del infarto y tolerar hasta doscientos veinte."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Pero el descenso es suave: nunca bajo ciento treinta, y sin nitroprusiato ni hidralazina."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Hemorragia en un paciente con acenocumarol: CCP de cuatro factores más vitamina K endovenosa. El plasma de primera línea, o la vitamina K sola, son las respuestas incorrectas."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Con dabigatrán, idarucizumab. Ni protamina ni vitamina K sirven."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Hematoma cerebeloso de tres centímetros o más: cirugía de urgencia. La trampa es observarlo porque el paciente no tiene hemiplejia."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Hematoma putaminal o talámico: manejo médico en cuidados intensivos. Operarlo de rutina no sirve."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Y la hemorragia lobar en un anciano no hipertenso: piensa en angiopatía amiloide, no en hipertensión."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos con un caso. Hombre de sesenta y dos años, con fibrilación auricular en tratamiento con acenocumarol, e hipertenso mal controlado. Presenta cefalea súbita, vómitos explosivos y hemiplejia izquierda. Presión de doscientos cinco sobre ciento quince, Glasgow once, y la mirada desviada hacia la derecha. El TAC muestra un hematoma de treinta y dos mililitros en el putamen derecho, con sangre en el ventrículo. El INR es tres coma cuatro."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: plasma y vitamina K oral, tratando la presión solo sobre doscientos veinte; complejo protrombínico más vitamina K endovenosa y labetalol hasta ciento treinta a ciento cuarenta; cirugía abierta del hematoma; nitroprusiato hasta menos de ciento veinte; o idarucizumab con nicardipino. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. El paciente mira su lesión, a la derecha: putamen derecho. Hay que frenar la expansión con dos medidas a la vez: CCP más vitamina K endovenosa, y sistólica a ciento treinta a ciento cuarenta. La A es la trampa: el plasma es inferior, y tolerar hasta doscientos veinte es la regla del infarto. El nitroprusiato no se usa, y el idarucizumab es para el dabigatrán."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de sesenta años, hipertenso de larga data mal controlado, con dos horas de cefalea intensa que va en aumento, vómitos y mareos. Tiene una presión de ciento setenta sobre ciento cinco, y el examen neurológico no muestra signos focales. En el examen original venía la TAC, que mostraba una hiperdensidad dentro del tálamo derecho."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: hematoma subdural, hemorragia subaracnoidea, infarto de la cerebral media con transformación hemorrágica, hematoma talámico derecho, o hemorragia por malformación arteriovenosa. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D, hematoma talámico derecho. La sangre fresca en la TAC es blanca, y está dentro del parénquima, en un núcleo profundo: eso es la hemorragia hipertensiva típica. El distractor tentador es la malformación arteriovenosa, pero esa se piensa en el joven o en el que no es hipertenso; este paciente tiene años de presión mal controlada. Y como es un ACV hemorrágico, nada de aspirina, anticoagulación ni trombólisis."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Otra del mismo examen, diciembre de dos mil veinticinco. Paciente de sesenta y siete años, hipertenso sin tratamiento, con vértigo intenso de inicio súbito hace dos horas y una dificultad en la marcha que le impide mantenerse de pie. Está hipotónico, con dismetría y nistagmo multidireccional."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: iniciar difenidol, examinar el octavo par, pedir una prueba calórica, pedir una resonancia de tronco, o pedir un TAC de cerebro. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E, TAC de cerebro. Esto no es un vértigo periférico: es súbito, el paciente no se puede parar, tiene dismetría y un nistagmo que cambia de dirección. Es un síndrome cerebeloso, y en un hipertenso tienes que pensar en un ACV del cerebelo, incluida la hemorragia que se opera. La resonancia tienta, porque ve mejor la fosa posterior, pero lo urgente es el TAC, que es rápido. Y el difenidol solo taparía un cuadro grave."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. La hemorragia profunda es hipertensiva, y la lobar en el anciano es amiloide. En el joven, busca otra causa."
+    },
+    {
+      "file": "s15_g01",
+      "text": "El diagnóstico lo hace el TAC sin contraste, y el vértigo súbito con ataxia en un hipertenso también se estudia con TAC."
+    },
+    {
+      "file": "s15_g02",
+      "text": "El hematoma crece en las primeras horas. Se baja la sistólica a ciento treinta a ciento cuarenta, sin pasar bajo ciento treinta."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Y se revierte la anticoagulación: CCP más vitamina K para el acenocumarol, idarucizumab para el dabigatrán."
+    },
+    {
+      "file": "s15_g04",
+      "text": "El cerebelo de tres centímetros se opera de urgencia; el putamen y el tálamo, no. Si te llevas una sola idea de hoy: en la hemorragia, el hematoma crece, y tu trabajo en los primeros minutos es frenarlo, bajando la presión y revirtiendo el anticoagulante. La próxima vez vemos la otra hemorragia, la subaracnoidea. Nos vemos en la próxima clase."
+    }
+  ]
+}

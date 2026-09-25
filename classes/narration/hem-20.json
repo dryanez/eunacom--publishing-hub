@@ -1,0 +1,276 @@
+{
+  "id": "hem-20",
+  "title": "Hematología 8.20: Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+  "specialty": "Hematología",
+  "chars": 12969,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos las neoplasias mieloproliferativas crónicas y la mielodisplasia. En la clase de leucemias crónicas ya conociste una de ellas, la leucemia mieloide crónica con su BCR-ABL. Hoy vemos a sus hermanas: la policitemia vera, la trombocitemia esencial y la mielofibrosis. Y al final, la mielodisplasia, que es casi lo contrario: una médula llena que produce mal. El examen pregunta tres cosas: el prurito tras la ducha caliente, la meta de hematocrito, y los dacriocitos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. Las neoplasias mieloproliferativas son enfermedades clonales de la célula madre de la médula. A diferencia de la leucemia aguda, aquí las células maduran bien: el problema es que se producen de más, sin que nadie lo pida."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En la policitemia vera, más del noventa y cinco por ciento de los pacientes tiene una mutación puntual en el gen JAK dos, la V seiscientos diecisiete F. JAK dos es la quinasa que transmite la señal del receptor de eritropoyetina."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La mutación anula el freno de esa quinasa. Entonces el receptor de eritropoyetina queda enviando señal todo el tiempo, haya o no haya hormona. El resultado es una masa de glóbulos rojos que crece sin control."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y fíjate en esta consecuencia, porque es la que se pregunta. El riñón ve tantos glóbulos rojos que deja de fabricar eritropoyetina. En la policitemia vera, la eritropoyetina está suprimida, casi indetectable. Guarda este dato: es el que la separa de las poliglobulias secundarias."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Como la mutación está en la célula madre, suben las tres series: glóbulos rojos, leucocitos y plaquetas. Eso se llama panmielosis. Y la sangre espesa enlentece el flujo y produce trombosis: infarto, accidente cerebrovascular, y trombosis en sitios raros, como la vena porta o las suprahepáticas, el síndrome de Budd-Chiari."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo llega el paciente. Lo primero que ves es la cara: rubicunda, con las conjuntivas rojas. Es la facies pletórica."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La sangre espesa da síntomas neurológicos inespecíficos: cefalea, mareos, zumbidos en los oídos y alteraciones visuales."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y en el examen, esplenomegalia palpable en el setenta por ciento. Eso ya te dice que no es una simple poliglobulia por hipoxia."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Ahora el síntoma estrella. El prurito acuagénico: una picazón intensa, urente, que aparece minutos después de ducharse con agua caliente. Se produce por desgranulación de mastocitos y basófilos. Si lo lees en un caso, piensa en policitemia vera."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y la eritromelalgia: dolor quemante con enrojecimiento de manos y pies, por la microcirculación que se tapa."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Los criterios mayores de la Organización Mundial de la Salud: hemoglobina sobre dieciséis coma cinco en hombres o dieciséis en mujeres, o hematocrito sobre cuarenta y nueve en hombres y cuarenta y ocho en mujeres."
+    },
+    {
+      "file": "s02_g06",
+      "text": "Además, la biopsia de médula con panmielosis y la mutación JAK dos. La eritropoyetina baja es el criterio menor."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Esta es la diferencia que más se pregunta. Ante un hematocrito alto, lo primero es descartar la policitemia relativa: un paciente deshidratado concentra la sangre, pero su masa de glóbulos rojos es normal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si la poliglobulia es real, pides dos exámenes: la eritropoyetina sérica y la mutación JAK dos. Con eso separas una médula que produce sola de una médula que responde a un estímulo."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Eritropoyetina baja y JAK dos positivo: policitemia vera. Y suele venir acompañada de leucocitosis, trombocitosis, esplenomegalia y prurito acuagénico."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En cambio, eritropoyetina alta y JAK dos negativo: poliglobulia secundaria. Aquí el riñón pide más glóbulos rojos porque hay hipoxia crónica, como en la EPOC, la apnea del sueño, el tabaquismo o la altura, o porque un tumor, como el carcinoma renal, secreta eritropoyetina. Los leucocitos y las plaquetas son normales, y no hay esplenomegalia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos al tratamiento, y aquí hay un número que tienes que saber. La meta es un hematocrito menor de cuarenta y cinco por ciento, en hombres y en mujeres. Eso reduce drásticamente las trombosis. Se logra con sangrías, o flebotomías: se extraen cuatrocientos a quinientos mililitros, una a dos veces por semana al inicio."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y se asocia aspirina en dosis bajas, cien miligramos al día. Sangría más aspirina: esa es la respuesta en la policitemia vera de bajo riesgo."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si el paciente es de alto riesgo, es decir, mayor de sesenta años o con una trombosis previa, se agrega un citorreductor: la hidroxiurea."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y ojo con no mezclar las conductas. En la poliglobulia secundaria no se trata la médula, se trata la hipoxemia de base: oxígeno si corresponde y dejar de fumar."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora la segunda neoplasia mieloproliferativa, la trombocitemia esencial. Aquí la serie que se dispara son las plaquetas: una trombocitosis clonal persistente sobre cuatrocientas cincuenta mil, y muchas veces sobre un millón."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Las mutaciones son distintas a la policitemia: JAK dos en el sesenta por ciento, calreticulina en el veinticinco y MPL en el cinco. Fíjate que un JAK dos negativo no la descarta."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y lo curioso: con tantas plaquetas, el paciente puede sangrar. ¿Por qué? Porque las plaquetas en exceso consumen los multímeros grandes del factor de von Willebrand, que vimos en las coagulopatías congénitas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y también puede hacer trombosis de vasos pequeños. Sangrado o trombosis: las dos son posibles en la misma enfermedad."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La tercera es la mielofibrosis primaria, la más agresiva del grupo. Todo parte de megacariocitos atípicos que liberan factores de crecimiento, el derivado de plaquetas y el transformante beta. Esos factores encienden a los fibroblastos de la médula."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Los fibroblastos depositan colágeno y reticulina, y la médula queda cicatrizada, sin función. Desde ahí sale la tríada que se pregunta."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Primero, la hematopoyesis tiene que emigrar a otro lugar: al bazo y al hígado. Eso es la metaplasia mieloide extramedular, y da una esplenomegalia masiva, que puede llegar hasta la fosa ilíaca derecha."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Segundo, el frotis. Los glóbulos rojos se deforman al pasar exprimidos por la fibrosis y salen con forma de gota o lágrima: los dacriocitos. Y aparecen células inmaduras en la sangre, la leucoeritroblastosis. Dacriocitos es la palabra que te tiene que hacer pensar en mielofibrosis."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y tercero, cuando intentas aspirar la médula, no sale nada. Es la punción seca, o dry tap. Por eso la biopsia ósea es obligatoria para el diagnóstico."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Cerremos el cuerpo con los síndromes mielodisplásicos. Aquí la lógica se invierte. La médula está llena, hipercelular, pero produce células defectuosas, displásicas, que mueren por apoptosis antes de salir. Eso es la hematopoyesis ineficaz."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Es una neoplasia clonal del adulto mayor. Y ahí está la paradoja que tienes que recordar: médula llena, sangre vacía."
+    },
+    {
+      "file": "s07_g02",
+      "text": "En la sangre ves pancitopenia con macrocitosis, citopenias que no responden a los tratamientos habituales."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y los neutrófilos salen con pocos gránulos y con el núcleo en dos lóbulos, la anomalía de Pelger-Huët."
+    },
+    {
+      "file": "s07_g04",
+      "text": "El gran riesgo es la transformación a leucemia mieloide aguda. Por eso se deriva a hematología. Pero ojo: una pancitopenia macrocítica en un anciano tiene una causa mucho más frecuente y reversible, el déficit de vitamina B doce. La pregunta real que viene va justamente de eso."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos todo en un árbol de decisión, partiendo del hemograma alterado. Adulto con un hemograma alterado. La primera pregunta es qué serie está alterada, y hacia dónde."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Mira el hemograma y el examen físico. ¿Qué serie manda?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si el hematocrito está alto, descarta primero la deshidratación, y luego pide eritropoyetina y JAK dos."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Eritropoyetina alta y JAK dos negativo es una poliglobulia secundaria. Se trata la causa: la hipoxemia, el tabaco, o un tumor secretor."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Eritropoyetina baja y JAK dos positivo es policitemia vera. Sangrías hasta un hematocrito menor de cuarenta y cinco y aspirina, más hidroxiurea si es de alto riesgo, y derivación a hematología."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si lo que sube son las plaquetas, sobre cuatrocientas cincuenta mil en forma sostenida, piensa en trombocitemia esencial y deriva a hematología."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si hay esplenomegalia masiva con dacriocitos y el aspirado sale seco, es una mielofibrosis primaria. Se confirma con biopsia ósea."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si hay pancitopenia macrocítica en un adulto mayor, descarta primero el déficit de vitamina B doce. Si persiste, sospecha mielodisplasia y deriva a hematología."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Hematocrito alto con prurito tras la ducha y esplenomegalia: policitemia vera. Pides eritropoyetina y JAK dos. No la confundas con una poliglobulia por hipoxemia, que no da bazo ni prurito."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Fumador o paciente con EPOC y hematocrito alto: eritropoyetina alta y JAK dos negativo. Se trata la causa. Sangrar como si fuera policitemia vera es el error."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Policitemia vera de bajo riesgo: sangrías hasta un hematocrito menor de cuarenta y cinco, más aspirina. La quimioterapia o la anticoagulación oral son distractores."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si es mayor de sesenta o ya tuvo una trombosis, es de alto riesgo, y se agrega hidroxiurea."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Bazo gigante, dacriocitos y aspirado seco: mielofibrosis primaria, y se confirma con biopsia ósea. Repetir el aspirado no sirve, porque va a volver a salir seco."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y anciano con pancitopenia macrocítica: antes de hablar de mielodisplasia, descarta el déficit de vitamina B doce, que es mucho más frecuente y se corrige."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Hombre de cincuenta y seis años, no fumador y sin enfermedad pulmonar. Tiene un prurito intenso que aparece diez minutos después de ducharse con agua caliente, además de cefalea y mareos. Está rubicundo y tiene el bazo palpable. Hemoglobina dieciocho coma nueve, hematocrito cincuenta y seis, leucocitos trece mil cuatrocientos y plaquetas cuatrocientas noventa mil. Su saturación es de noventa y ocho por ciento."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable y el estudio que corresponde?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Tienes cinco opciones. Poliglobulia secundaria, con espirometría y polisomnografía. Policitemia vera, con eritropoyetina y JAK dos. Trombocitemia esencial, con calreticulina. Policitemia relativa, hidratar y repetir. O mielofibrosis, con biopsia de médula. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la B. Suben las tres series, hay bazo, facies pletórica y prurito tras la ducha caliente: es una policitemia vera. Se confirma con eritropoyetina baja y JAK dos positivo, y se inician sangrías más aspirina. El distractor tentador es la poliglobulia secundaria, pero el paciente no fuma, oxigena normal, y la hipoxia no da bazo ni prurito ni sube las plaquetas."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Paciente de cincuenta y cuatro años con semanas de astenia y disnea de grandes esfuerzos. Está pálido, el hígado se palpa a seis centímetros y el bazo a diez centímetros bajo el reborde costal. Hemoglobina nueve coma seis, blancos y plaquetas algo bajos, y en el frotis, macrocitosis y abundantes dacriocitos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: mieloptisis, mieloma múltiple, leucemia mieloide crónica, mielodisplasia, o mielofibrosis primaria. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E, mielofibrosis primaria. Bazo gigante por hematopoyesis extramedular, citopenias y dacriocitos: la tríada de la clase. El distractor más tentador es la mieloptisis, y con razón, porque toda mielofibrosis es en rigor una ocupación de la médula. Pero cuando el examen te da dacriocitos con un bazo enorme, la respuesta más específica es mielofibrosis. Y la leucemia mieloide crónica tiene leucocitosis, no leucopenia."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La segunda es del EUNACOM de julio de dos mil diecinueve. Paciente de ochenta años con astenia, bradipsiquia, confusión y disnea de mínimos esfuerzos. Está pálido y taquicárdico. Hemoglobina cinco coma nueve, VCM ciento diecisiete, blancos tres mil cien, plaquetas cincuenta y siete mil, y una LDH de ochocientos noventa."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones son: anemia aplástica, anemia hemolítica, anemia megaloblástica, mielodisplasia, o mieloma múltiple. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, anemia megaloblástica. Pancitopenia con un VCM muy alto, LDH elevada por la eritropoyesis ineficaz, y compromiso neurológico: es el déficit de vitamina B doce que vimos en la clase de anemias macrocíticas. La mielodisplasia es el distractor tentador, porque también es un anciano con pancitopenia macrocítica. Pero la confusión y la LDH alta apuntan a la B doce, que es más frecuente y se corrige."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Hematocrito alto con prurito tras la ducha caliente, facies pletórica y bazo: policitemia vera."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Eritropoyetina baja y JAK dos positivo es primaria. Eritropoyetina alta y JAK dos negativo es secundaria, y se trata la causa."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Sangrías hasta un hematocrito menor de cuarenta y cinco, más aspirina. Y si es mayor de sesenta o tuvo una trombosis, se agrega hidroxiurea."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Trombocitemia esencial: plaquetas sobre cuatrocientas cincuenta mil, que pueden sangrar o trombosar."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Mielofibrosis: bazo gigante, dacriocitos y aspirado seco, y se confirma con biopsia ósea."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Si te llevas una sola idea de hoy: en la policitemia vera, la eritropoyetina baja y la meta es un hematocrito menor de cuarenta y cinco; y en la mielofibrosis, la palabra clave es dacriocito. En la próxima clase pasamos a las urgencias oncológicas, empezando por la neutropenia febril. Nos vemos en la próxima clase."
+    }
+  ]
+}

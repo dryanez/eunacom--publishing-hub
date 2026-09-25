@@ -1,0 +1,280 @@
+{
+  "id": "infecto-18",
+  "title": "Infectologia 4.5: Bacteriosis Zoonóticas: Brucelosis, Leptospirosis y Fiebre Tifoidea",
+  "specialty": "Infectología",
+  "chars": 12123,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Seguimos con las zoonosis, ahora con tres bacterias que dan fiebre prolongada: la brucelosis, la leptospirosis y la fiebre tifoidea. Las tres se parecen al principio, porque son un síndrome febril con compromiso de varios órganos. Y el examen las separa casi siempre con un solo dato: de dónde vino la bacteria. Si en la clase anterior el perro y el cerdo daban la pista, hoy la dan el queso de cabra, el agua estancada y la comida contaminada."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la idea que ordena toda la clase. Frente a un paciente con fiebre de varios días o semanas, la clínica al principio es muy parecida. Lo que cambia es la exposición, y por eso la anamnesis vale más que cualquier examen."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si el paciente toma leche cruda o come quesillo de cabra artesanal, o trabaja con ganado, piensa en brucelosis."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si se mojó en agua estancada, barro o una inundación, donde las ratas dejaron su orina, piensa en leptospirosis."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y si comió o tomó algo contaminado por un portador humano, piensa en fiebre tifoidea. Fíjate que esta última no es una zoonosis: su reservorio es exclusivamente humano. Por eso el examen la pone junto a las otras dos, para ver si sabes separarlas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos a la brucelosis, también llamada fiebre ondulante o de Malta. Se adquiere por leche cruda o quesillos de cabra artesanales, o por contacto laboral: veterinarios y matarifes que manipulan fetos abortados y placentas de animales infectados."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El agente es la Brucella, un cocobacilo gramnegativo que vive dentro de las células. En Chile la más frecuente es Brucella melitensis, de cabras y ovejas; la abortus viene de los bovinos. Retén que es intracelular, porque eso explica el tratamiento."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La clínica clásica es una fiebre ondulante, vespertina o nocturna, con sudoración profusa que tiene un olor característico a paja húmeda."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Se suma astenia intensa, artralgias y hepatoesplenomegalia, porque la bacteria se instala en el hígado, el bazo y la médula ósea."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y su complicación focal más frecuente, y la más invalidante, es osteoarticular: la sacroileítis y la espondilodiscitis lumbar. Ojo: fiebre prolongada con dolor lumbar o glúteo en alguien que come queso de cabra es brucelosis hasta demostrar lo contrario."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El diagnóstico parte con serología. La prueba de Rosa de Bengala es el tamizaje rápido, y la aglutinación en tubo confirma por títulos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El estándar de oro es el cultivo: mielocultivo de médula ósea, o hemocultivos en medios bifásicos prolongados, el de Ruiz Castañeda. Crece lento, y por eso hay que avisar al laboratorio."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El tratamiento siempre es combinado: doxiciclina cien miligramos cada doce horas más rifampicina de seiscientos a novecientos miligramos al día, ambas por vía oral."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y por seis semanas seguidas. La alternativa es doxiciclina con gentamicina durante las dos primeras semanas."
+    },
+    {
+      "file": "s03_g04",
+      "text": "¿Por qué tanto? Porque la bacteria se esconde dentro de las células y en el hueso. Un antibiótico solo, o un curso corto, cura la fiebre, pero la enfermedad recae. Si ves monoterapia o catorce días como alternativa, descártala."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la leptospirosis. La Leptospira interrogans es una espiroqueta que coloniza los túbulos renales de las ratas, y se elimina por su orina."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El humano se infecta cuando su piel erosionada o sus mucosas tocan agua estancada, barro, inundaciones o alcantarillado contaminados. Por eso los casos típicos son trabajadores de saneamiento, pescadores, o quien limpió un canal de regadío."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En el noventa por ciento de los casos la forma es anictérica: un síndrome febril agudo, que viene en dos fases."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y tiene dos signos que te dan el diagnóstico. La sufusión conjuntival bilateral: ojos rojos, sin secreción. Y un dolor exquisito al comprimir las pantorrillas, los gemelos. Fíjate que la conjuntiva está roja pero no tiene pus: eso la separa de una conjuntivitis."
+    },
+    {
+      "file": "s04_g04",
+      "text": "En cerca del diez por ciento aparece la forma grave, ictérica: el síndrome de Weil."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Su tríada es ictericia rubínica, falla renal aguda con hipokalemia, y diátesis hemorrágica. La hemorragia pulmonar es la complicación que mata. Ojo con el dato del potasio: una falla renal con potasio bajo es rara, y aquí es una pista."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El diagnóstico se confirma con la prueba de microaglutinación, conocida como MAT. Pero la sospecha es clínica: agua contaminada, ojos rojos sin pus y pantorrillas dolorosas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El tratamiento depende de la gravedad. En la forma leve, doxiciclina oral."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En la forma grave, el síndrome de Weil, penicilina G sódica endovenosa, o ceftriaxona endovenosa, con el paciente hospitalizado."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y el diferencial que te van a poner es ictericia con fiebre: hepatitis A o colangitis. Ninguna de las dos tiene sufusión conjuntival ni dolor de pantorrillas, y ninguna explica una falla renal con hipokalemia."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Y la tercera, la fiebre tifoidea, por Salmonella entérica serotipo Typhi, un bacilo gramnegativo entérico. Se transmite por vía fecal oral, en agua o alimentos contaminados por un manipulador que es portador crónico. Y ese portador guarda la bacteria en la vesícula biliar."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La clínica se ordena por semanas. En la primera, la fiebre sube en escalera, con cefalea intensa, dolor abdominal sordo y constipación. Fíjate: al principio no hay diarrea."
+    },
+    {
+      "file": "s06_g02",
+      "text": "En la segunda semana la fiebre queda en meseta, entre treinta y nueve y cuarenta grados. Y aparece el signo que más se pregunta: la bradicardia relativa, o signo de Faget. Con cuarenta grados el pulso debería estar muy alto, y sin embargo está normal o bajo. Eso es la disociación esfigmotérmica."
+    },
+    {
+      "file": "s06_g03",
+      "text": "En esa misma semana hay hepatoesplenomegalia, unas manchas rosadas en el abdomen, la roséola tífica, y recién ahí la diarrea, en puré de arvejas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La tercera semana es la peligrosa. La bacteria inflama las placas de Peyer del íleon, y estas pueden perforarse, dando un abdomen agudo, o sangrar, con una hemorragia digestiva baja masiva."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El examen que pides también depende de la semana. En la primera, hemocultivos, que son positivos en ochenta a noventa por ciento, porque la bacteria está en la sangre."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El coprocultivo se hace positivo desde la segunda o tercera semana, cuando la bacteria vuelve al intestino por la bilis."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y el mielocultivo es el más sensible, sobre noventa y cinco por ciento, incluso si el paciente ya recibió antibióticos."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El tratamiento de elección es ceftriaxona, dos gramos al día endovenosa, por siete a catorce días."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La alternativa oral es azitromicina, un gramo al día por siete días. El ciprofloxacino se reserva para cuando se confirma la sensibilidad."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y una trampa clásica: el test de Widal. Aparece como alternativa, pero hoy no tiene valor confirmatorio. Lo que confirma es el cultivo."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos las tres en un solo árbol, partiendo por la pregunta que las separa. Paciente con fiebre de días a semanas y compromiso de varios órganos. La primera pregunta no es un examen: es de dónde vino la bacteria."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Pregunta qué comió, en qué trabaja y dónde se mojó. Esa respuesta separa las tres enfermedades."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Lácteos de cabra sin pasteurizar o contacto con ganado, con fiebre ondulante y sudor a paja húmeda: brucelosis. Se confirma con Rosa de Bengala, aglutinación, o cultivo en medio de Ruiz Castañeda."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Tratamiento: doxiciclina más rifampicina por seis semanas, para evitar recaídas."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Agua contaminada con orina de rata, sufusión conjuntival y dolor de pantorrillas: leptospirosis. Ahora define la gravedad."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Sin ictericia ni falla renal, es la forma anictérica, la más frecuente. Doxiciclina oral."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Con ictericia, falla renal con hipokalemia o sangrado, es un síndrome de Weil. Hospitalizar y penicilina G sódica o ceftriaxona endovenosa."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Fiebre en escalera y luego en meseta con bradicardia relativa: fiebre tifoidea. En la primera semana, hemocultivos; el más sensible es el mielocultivo."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Ceftriaxona endovenosa por siete a catorce días, o azitromicina oral."
+    },
+    {
+      "file": "s08_g09",
+      "text": "Si en la tercera semana aparece un abdomen agudo, piensa en perforación de las placas de Peyer: es una urgencia quirúrgica."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos en una tabla. Brucelosis: queso o leche de cabra sin pasteurizar, fiebre ondulante con sudor a paja húmeda y sacroileítis. Doxiciclina con rifampicina por seis semanas. La trampa es la monoterapia."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Leptospirosis: agua estancada con orina de rata, sufusión conjuntival, dolor de pantorrillas y, en el Weil, ictericia con falla renal. Penicilina G sódica o ceftriaxona endovenosa en la forma grave."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Fiebre tifoidea: agua o comida contaminada, bradicardia relativa y roséola tífica. Ceftriaxona endovenosa por siete a catorce días, o azitromicina."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y en la tifoidea, el examen de la primera semana es el hemocultivo, no el test de Widal. Tampoco esperes la diarrea para sospecharla: al inicio hay constipación."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Hombre de cuarenta y dos años, criador de cabras en la precordillera de Coquimbo, con cinco semanas de fiebre en la tarde, calofríos, astenia y sudoración nocturna profusa. Hace diez días agrega dolor lumbar bajo que se irradia al glúteo derecho. Tiene hepatomegalia sensible y dolor sacroilíaco a la maniobra de Fabere. Y consume leche y queso de cabra artesanal."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: ciprofloxacino solo por catorce días, doxiciclina con rifampicina por seis semanas, ceftriaxona por siete días, penicilina endovenosa, o azitromicina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. El queso de cabra artesanal, la fiebre ondulante con sudoración y la sacroileítis arman una brucelosis. Y como la Brucella vive dentro de las células, necesita dos antibióticos por seis semanas. El distractor más tentador es el ciprofloxacino: es un buen antibiótico, pero solo y por catorce días, la brucelosis recae. La ceftriaxona y la azitromicina son de la tifoidea, y la penicilina, de la leptospirosis."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de siete años con siete días de fiebre, mayor en la tarde, con cefalea, anorexia y dolor abdominal. Tiene treinta y ocho coma dos grados y una frecuencia cardíaca de sesenta y dos. El abdomen es sensible sin signos peritoneales. El hemograma muestra tres mil setecientos leucocitos, con algo de desviación izquierda y cero eosinófilos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el agente etiológico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: Brucella melitensis, Salmonella typhi, Escherichia coli enterotoxigénica, virus de Epstein Barr, o citomegalovirus. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, Salmonella typhi. Fíjate en el pulso: sesenta y dos con fiebre es la bradicardia relativa que vimos, el signo de Faget. Y el hemograma, con leucopenia, desviación izquierda y sin eosinófilos, es lo que se conoce como hemograma tífico. La Brucella tienta por la fiebre de tarde, pero no hay ningún lácteo de cabra en la historia. Y la Escherichia coli enterotoxigénica da diarrea aguda del viajero, no una semana de fiebre."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticuatro, con un enunciado muy breve. Un veterinario expuesto a ganado consulta por dolor articular, y la artrocentesis muestra setenta por ciento de polimorfonucleares."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: brucelosis, fiebre Q, Staphylococcus aureus, Streptococcus pneumoniae, o Escherichia coli. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, brucelosis. Aquí la pregunta no te da el queso de cabra, te da la otra puerta de entrada: el contacto ocupacional de veterinarios y matarifes con el ganado. Y la complicación focal de la brucelosis es justamente osteoarticular. El Staphylococcus aureus sería la causa habitual de una artritis séptica, pero la pregunta te está mostrando el oficio a propósito: la exposición da el diagnóstico."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Queso de cabra, fiebre ondulante, sudor a paja húmeda y sacroileítis: brucelosis."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Se trata con doxiciclina y rifampicina por seis semanas, nunca con un solo antibiótico."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Agua estancada, ojos rojos sin pus y pantorrillas dolorosas: leptospirosis."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Si se suma ictericia, falla renal y sangrado, es un síndrome de Weil, y va penicilina G sódica o ceftriaxona endovenosa."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Fiebre alta con pulso lento es fiebre tifoidea, y en la primera semana se confirma con hemocultivos."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Se trata con ceftriaxona, y en la tercera semana se vigila la perforación ileal. Si te llevas una sola idea de hoy: en las fiebres zoonóticas, la exposición da el diagnóstico; queso de cabra es brucelosis, agua con orina de rata es leptospirosis, y fiebre con pulso lento es tifoidea. Nos vemos en la próxima clase."
+    }
+  ]
+}

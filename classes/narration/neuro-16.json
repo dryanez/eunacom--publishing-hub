@@ -1,0 +1,324 @@
+{
+  "id": "neuro-16",
+  "title": "Neurologia 10.16: Síndrome de Guillain-Barré: Polirradiculoneuropatía Aguda, Albúmino-citológico y Manejo Intensivo",
+  "specialty": "Neurología y Geriatría",
+  "chars": 15847,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy dejamos el cerebro y bajamos al nervio periférico, con el síndrome de Guillain-Barré. Es la causa más frecuente de parálisis flácida aguda en el adulto, es una urgencia, y es de las preguntas más rentables del examen. Casi todo se resuelve con dos ideas: el hallazgo que nunca falta es la arreflexia, y lo que mata es la falla respiratoria. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el mecanismo. Setenta por ciento de los pacientes cuenta una infección en las una a cuatro semanas previas. El agente más común, y el de peor pronóstico, es el Campylobacter jejuni, que da una diarrea. También citomegalovirus, Epstein-Barr, micoplasma, zika, influenza y el coronavirus del COVID."
+    },
+    {
+      "file": "s01_g01",
+      "text": "¿Y por qué una diarrea termina en parálisis? Por mimetismo molecular: las moléculas del germen se parecen a los gangliósidos del nervio. El sistema inmune fabrica anticuerpos contra la bacteria, pero esos anticuerpos también reconocen el nervio, y activan el complemento sobre él. Es una enfermedad autoinmune gatillada por una infección."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En la forma clásica, la desmielinizante, los macrófagos destruyen la mielina de las raíces y de los nervios. La señal eléctrica ya no salta de nodo en nodo, y se bloquea."
+    },
+    {
+      "file": "s01_g03",
+      "text": "En las variantes axonales, el ataque va directo a la membrana del axón. Ahí el nervio degenera, y la recuperación es más lenta y con más secuelas. Por eso el Campylobacter, que se asocia a estas formas, es el de peor pronóstico."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos la clínica. Parte con hormigueo en pies y manos, en calcetín y guante, y luego aparece la debilidad: flácida, bilateral, relativamente simétrica, y ascendente. Primero le cuesta pararse de la silla o subir escaleras, y en días sube a los brazos, al tronco y a la cara."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y el hallazgo que nunca falta: la hiporreflexia o arreflexia generalizada. Es obligatoria para el diagnóstico. Fíjate en la consecuencia: si los reflejos están vivos, prácticamente descartas Guillain-Barré y tienes que pensar en la médula, una compresión o una mielitis."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La progresión llega a su punto más bajo habitualmente a las dos a cuatro semanas del inicio."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Más de la mitad compromete pares craneales, y lo más típico es la parálisis facial bilateral. Si además toma los pares bajos, aparece disfagia, disartria y acumulación de secreciones, con riesgo de aspiración."
+    },
+    {
+      "file": "s02_g04",
+      "text": "La disautonomía aparece hasta en sesenta y cinco por ciento de los graves: presión que salta entre hipertensión e hipotensión, taquicardia, bradicardias bruscas e incluso asistolia, íleo y retención urinaria."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y un detalle que confunde: el dolor lumbar y radicular es muy frecuente, hasta ochenta por ciento, y muchas veces aparece antes que la debilidad."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora lo más importante. Hasta treinta por ciento de los pacientes desarrolla insuficiencia respiratoria, y es la causa principal de ingreso a UCI y de muerte. El mecanismo es el mismo de siempre: la debilidad llega al diafragma y a los intercostales, y el paciente hipoventila."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y aquí está la trampa. No es un problema del pulmón: no hay crépitos ni sibilancias, y la saturación se mantiene engañosamente normal hasta que el diafragma claudica. Si esperas que desature, llegaste tarde."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Por eso se mide la mecánica al lado de la cama cada cuatro a seis horas, con la regla veinte, treinta, cuarenta. Capacidad vital forzada bajo veinte mililitros por kilo, o una caída de más de treinta por ciento en veinticuatro horas. Presión inspiratoria máxima que no alcanza menos treinta centímetros de agua. Y presión espiratoria máxima bajo cuarenta, que significa una tos que ya no moviliza secreciones."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si no tienes espirómetro, pídele que inspire hondo y cuente en voz alta. Si no llega a veinte en una sola espiración, su capacidad vital está bajo quince a veinte mililitros por kilo. Ese paciente va a UCI para intubación electiva, antes de que aparezca la hipoxemia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ordenemos los criterios. Con capacidad vital bajo veinte mililitros por kilo, ingresa a UCI con monitoreo continuo. Y bajo quince, la capacidad vital es crítica: intubación electiva inmediata."
+    },
+    {
+      "file": "s04_g01",
+      "text": "También se intuba para proteger la vía aérea cuando avanza el compromiso bulbar: disfagia severa, disfonía y pérdida del reflejo nauseoso. Ahí el riesgo es la neumonía aspirativa masiva."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la disautonomía grave, con presión muy lábil, bradicardia bajo cuarenta o arritmias, necesita línea arterial y telemetría en UCI, por el riesgo de asistolia."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si vas a intubar, una regla que se pregunta: la succinilcolina está contraindicada. El músculo denervado llena su superficie de receptores de acetilcolina, y al despolarizarlos todos juntos sale una cantidad masiva de potasio. El resultado es hiperkalemia fulminante, arritmias y asistolia."
+    },
+    {
+      "file": "s04_g04",
+      "text": "El relajante de elección es el rocuronio, uno coma dos miligramos por kilo, un bloqueador no despolarizante que no libera potasio."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El diagnóstico se confirma con dos exámenes. El primero es la punción lumbar, y el hallazgo clásico tiene nombre propio: disociación albúmino-citológica. Proteínas altas, sobre cuarenta y cinco miligramos por decilitro, a menudo entre cien y cuatrocientos, con un recuento de células normal o casi normal. La inflamación está en las raíces, que sueltan proteínas, pero no hay infección en el líquido."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Y una perla que se pregunta: en la primera semana, las proteínas pueden ser normales hasta en treinta a cincuenta por ciento de los pacientes. La disociación se hace evidente entre el día siete y el catorce. Un líquido normal al comienzo no descarta Guillain-Barré, y no debe retrasar el tratamiento."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Al revés, si el líquido trae más de cincuenta células, eso no calza. Tienes que buscar otra causa: VIH, enfermedad de Lyme, poliomielitis o meningitis carcinomatosa."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El segundo examen es la electromiografía con velocidades de conducción. Confirma la neuropatía y separa la forma desmielinizante de la axonal. El signo más precoz es la onda F prolongada o ausente, que refleja el daño en las raíces. Después aparecen el bloqueo de conducción, la dispersión temporal y las velocidades muy lentas."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La forma clásica, la desmielinizante, es más del ochenta y cinco por ciento en Occidente: debilidad ascendente, parestesias distales y arreflexia."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La neuropatía axonal motora aguda es motora pura, sin alteraciones sensitivas objetivas. Se asocia a anticuerpos anti GM uno tras un Campylobacter, es rápida y severa, y requiere ventilación con más frecuencia."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y la forma axonal motora y sensitiva es la más grave: tetraparesia con pérdida sensitiva profunda, evolución fulminante y secuelas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Después vienen las variantes que parten por arriba. El síndrome de Miller Fisher tiene una tríada que se pregunta: ataxia, arreflexia y oftalmoplejía bilateral externa. Su anticuerpo es el anti GQ uno b, presente en más del noventa por ciento."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La encefalitis de tronco de Bickerstaff es del mismo espectro, pero se suma compromiso de conciencia, desde letargia hasta coma, y puede tener signos piramidales."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y la variante faringo cérvico braquial toma la faringe, el cuello y los hombros, con ptosis y disfagia, respetando las piernas. Se confunde con botulismo o miastenia."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pasemos al tratamiento. La inmunoterapia se indica en todo paciente con la marcha alterada, progresión rápida o insuficiencia respiratoria, y se inicia precoz: idealmente en las primeras dos semanas, y hasta las cuatro semanas desde el inicio de la debilidad."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La primera es la inmunoglobulina humana endovenosa, cero coma cuatro gramos por kilo al día durante cinco días, dos gramos por kilo en total. Es la más usada porque va por una vena periférica. Ojo en el déficit congénito de IgA, donde está contraindicada."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La segunda es la plasmaféresis: doscientos a doscientos cincuenta mililitros por kilo de plasma, en cuatro a cinco sesiones en días alternos. Remueve físicamente los anticuerpos, pero necesita un catéter central de alto flujo y un equipo especializado."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Dos reglas que no se discuten. Primero, no se combinan la inmunoglobulina y la plasmaféresis, ni juntas ni una tras otra: no suma beneficio y duplica las complicaciones."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y segundo, los corticoides están contraindicados. No aceleran la recuperación ni evitan el ventilador, y retrasan la reparación del nervio. Es la alternativa trampa más clásica, porque suena lógico en una enfermedad autoinmune."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y no olvides el soporte. Todo paciente que no camina recibe profilaxis tromboembólica desde el primer día, con enoxaparina cuarenta miligramos subcutánea al día y compresión neumática, para evitar un tromboembolismo pulmonar fatal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Y fisioterapia motora precoz."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El dolor es neuropático, así que se trata con gabapentina o pregabalina."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y se evitan los opioides en dosis altas, porque deprimen el centro respiratorio de un paciente que ya ventila al límite."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en la urgencia. Paciente con debilidad aguda, flácida y simétrica, que parte en las piernas y sube. Lo primero es mirar los reflejos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Los reflejos te dicen dónde está el problema. La arreflexia apunta al nervio periférico; los reflejos vivos, a la médula."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si los reflejos están vivos, prácticamente descartas Guillain-Barré. Piensa en una compresión medular o una mielitis transversa."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si hay arreflexia, sospechas Guillain-Barré. Antes que cualquier examen, evalúa la respiración: capacidad vital, presiones máximas, conteo en una espiración y compromiso bulbar."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Capacidad vital bajo quince a veinte, disfagia o disautonomía grave: UCI e intubación electiva, con rocuronio y nunca con succinilcolina."
+    },
+    {
+      "file": "s09_g05",
+      "text": "En paralelo se confirma con punción lumbar y electromiografía. Recuerda que el líquido puede ser normal la primera semana."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y se inicia inmunoterapia precoz: inmunoglobulina cero coma cuatro gramos por kilo al día por cinco días, o plasmaféresis. Nunca las dos, nunca corticoides."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Si todavía ventila bien, se hospitaliza monitorizado, midiendo la capacidad vital cada cuatro a seis horas, con telemetría y control de presión."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Si la marcha está alterada o progresa rápido, inmunoterapia precoz, con profilaxis tromboembólica y manejo del dolor neuropático."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Repasemos las trampas. Debilidad de las cuatro extremidades con reflejos vivos: piensa en la médula. El error es llamarlo Guillain-Barré, porque sin arreflexia no lo es."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Paciente que satura bien pero cuenta solo hasta doce en una espiración: UCI e intubación electiva. El error es confiar en el saturómetro."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Líquido normal en la primera semana: se mantiene la sospecha y se trata. El error es descartar el diagnóstico."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Tratamiento: inmunoglobulina o plasmaféresis, una de las dos. Los errores son dar corticoides o combinarlas."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si hay que intubar, rocuronio. La succinilcolina puede provocar un paro por hiperkalemia."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y la tríada de ataxia, arreflexia y oftalmoplejía: Miller Fisher. La arreflexia es la que te dice que no es un accidente vascular de tronco."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos con un caso. Hombre de treinta y cuatro años con una diarrea autolimitada hace dos semanas. Hace cuatro días empezó con hormigueo en los pies y debilidad que ya subió a los brazos, y ahora le cuesta tragar. Presión lábil, taquicardia, y saturación de noventa y siete por ciento. Tiene tetraparesia flácida simétrica, arreflexia universal, y solo cuenta hasta doce en una espiración. El líquido trae proteínas de ciento cuarenta y cinco con dos células."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: metilprednisolona y control en sala; UCI, intubación con rocuronio e inmunoglobulina; intubación con succinilcolina y plasmaféresis más inmunoglobulina; hospitalizar en sala y repetir la punción; u oxígeno y observar porque satura bien. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Es un Guillain-Barré de libro, con disociación albúmino-citológica, y además tiene disfagia y cuenta solo hasta doce: la falla respiratoria es inminente. Va a UCI, intubación electiva con rocuronio, e inmunoglobulina. La C tiene dos errores: succinilcolina y combinar ambas terapias. La A usa corticoides. Y la E es la trampa del saturómetro: la saturación es lo último que cae."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de veintinueve años con siete días de debilidad progresiva de las cuatro extremidades, mayor en las piernas. Tuvo influenza hace catorce días. Al examen tiene arreflexia aquiliana bilateral, reflejos rotulianos disminuidos, y paresia de las cuatro extremidades, más marcada abajo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: radiculopatía S uno derecha, polineuropatía desmielinizante aguda, meningitis viral, mielopatía por influenza, o miositis viral. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, polineuropatía desmielinizante aguda, es decir, un Guillain-Barré. Infección dos semanas antes, debilidad que predomina abajo y reflejos que se apagan. La radiculopatía es tentadora por la asimetría leve de los reflejos, pero no explica la debilidad de los brazos. Y la mielopatía daría reflejos vivos, no abolidos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La siguiente es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y ocho años con una semana de paresia facial bilateral, mayor a izquierda, y paresia del sexto par izquierdo. Al examen tiene debilidad generalizada de las extremidades con arreflexia e hipotonía."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: polineuropatía, Guillain-Barré, miastenia gravis, esclerosis múltiple, o infarto de tronco. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B, Guillain-Barré. La parálisis facial bilateral es el compromiso de par craneal más típico de esta enfermedad, y la arreflexia con hipotonía lo confirma. El infarto de tronco es el distractor, pero daría signos de primera motoneurona, no arreflexia. En el examen, esta pregunta se ha repetido casi igual."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Esta es del EUNACOM de julio de dos mil trece, y es para probar la regla de los reflejos. Paciente de veinticuatro años, sin antecedentes, que desde que despertó no puede mover las cuatro extremidades. La fuerza está totalmente disminuida, la sensibilidad es normal, y los reflejos están presentes y simétricos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: Guillain-Barré, miastenia gravis, botulismo, lesión medular cervical, o parálisis periódica hipokalémica. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E, parálisis periódica hipokalémica. El distractor tentador es el Guillain-Barré, porque es una debilidad de las cuatro extremidades en un joven. Pero los reflejos están presentes, y el Guillain-Barré los tiene abolidos. Además, se instaló de golpe al despertar, no ascendiendo en días."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y dos años con cinco días de debilidad en ambas piernas que en las últimas cuarenta y ocho horas subió a los brazos, con hormigueo en manos y pies. Tuvo una infección respiratoria hace dos semanas. Tiene debilidad simétrica, arreflexia global y marcha inestable, sin compromiso de pares craneales."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: resonancia de columna, inmunoglobulina endovenosa, resonancia de cerebro, corticoides endovenosos, o aciclovir. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B, inmunoglobulina endovenosa. Es un Guillain-Barré típico, y la marcha alterada ya es indicación de inmunoterapia precoz. La trampa es la D: los corticoides no sirven en el Guillain-Barré. Y la resonancia de columna sería para una debilidad con reflejos vivos o nivel sensitivo, que aquí no hay."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Debilidad flácida, simétrica y ascendente con arreflexia, después de una infección reciente: Guillain-Barré. Si los reflejos están vivos, no lo es."
+    },
+    {
+      "file": "s16_g01",
+      "text": "El líquido muestra proteínas altas con células normales, pero puede ser normal en la primera semana."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La respiración se vigila con la regla veinte, treinta, cuarenta, o con el conteo en una espiración. La saturación engaña."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Si hay que intubar, rocuronio, nunca succinilcolina."
+    },
+    {
+      "file": "s16_g04",
+      "text": "Y el tratamiento es inmunoglobulina o plasmaféresis, sin combinarlas y sin corticoides. Si te llevas una sola idea de hoy: en el Guillain-Barré, los reflejos hacen el diagnóstico y la capacidad vital decide la conducta. En la próxima clase seguimos con la debilidad, pero en la unión neuromuscular: la miastenia gravis. Nos vemos en la próxima clase."
+    }
+  ]
+}
