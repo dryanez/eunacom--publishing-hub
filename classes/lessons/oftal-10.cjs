@@ -143,6 +143,21 @@ module.exports = {
     },
 
     {
+      type: 'table',
+      kicker: 'Protocolo quirúrgico',
+      title: 'Tres herramientas, tres momentos distintos de la enfermedad',
+      head: ['Modalidad', 'Indicación', 'Mecanismo', 'Cuidado clave'],
+      rows: [
+        { cells: ['Fotocoagulación láser', 'Desgarro sin desprendimiento', 'Cicatriz coriorretiniana que suelda el desgarro', 'Reposo relativo por cuarenta y ocho horas'],
+          say: 'Y para cerrar el tratamiento, tres herramientas para tres momentos distintos. La fotocoagulación láser es para el desgarro que todavía no se ha desprendido: crea una cicatriz que suelda la retina, y el paciente solo necesita reposo relativo por cuarenta y ocho horas.' },
+        { cells: ['Vitrectomía pars plana', 'Desprendimiento ya establecido o traccional', 'Retira el vítreo, aplana con gas o silicón, y sella con láser', 'Posición boca abajo estricta, de una a dos semanas'],
+          say: 'La vitrectomía pars plana es para el desprendimiento ya establecido, o para el traccional: retira el vítreo, aplana la retina con gas o silicón, y sella con láser. Y aquí está un detalle que se pregunta: el paciente necesita mantener una posición boca abajo estricta, durante una a dos semanas, para que la burbuja sostenga la retina en su lugar.' },
+        { cells: ['Cerclaje escleral', 'Desprendimientos periféricos, pacientes jóvenes', 'Banda de silicona externa que indenta la esclera', 'Control estricto de la presión intraocular'],
+          say: 'Y el cerclaje escleral, más usado en desprendimientos periféricos de pacientes jóvenes, es una banda de silicona por fuera del ojo que empuja la esclera hacia adentro, acercándola a la retina desprendida. Requiere control estricto de la presión intraocular en el postoperatorio.' },
+      ],
+    },
+
+    {
       type: 'quiz',
       kicker: 'Caso clínico',
       title: 'Caso clínico',
@@ -208,6 +223,29 @@ module.exports = {
         question: '¿Cuál es el tratamiento profiláctico de elección para evitar que este desgarro progrese a un desprendimiento de retina?',
         options: 'Las opciones: vitrectomía urgente con aceite de silicona, fotocoagulación con láser de argón alrededor del desgarro, una inyección intravítrea de corticoide, corticoides orales por un mes, u observación clínica semanal sin intervención.',
         answer: 'Es la B. Este es el otro extremo del mismo tema: cuando se pesca el desgarro a tiempo, antes de que el vítreo líquido haya levantado la retina, no hace falta una cirugía mayor. Basta con la fotocoagulación láser alrededor del desgarro, que en pocos días forma una cicatriz firme y sella la retina al epitelio pigmentario. Esperar una semana, como dice la opción E, es la trampa que puede convertir un desgarro sellable en un desprendimiento quirúrgico.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Caso representativo',
+      stem: 'En una serie de pacientes operados de desprendimiento de retina, se busca el factor que se asocia con el peor pronóstico visual final.',
+      question: '¿Cuál de los siguientes factores predice la peor agudeza visual final tras la cirugía?',
+      options: [
+        { letter: 'A', text: 'Desprendimiento localizado en los cuadrantes superiores' },
+        { letter: 'B', text: 'Compromiso macular con desprendimiento foveal de más de una semana de evolución' },
+        { letter: 'C', text: 'Edad menor a cuarenta años' },
+        { letter: 'D', text: 'Uso previo de lentes de contacto blandos' },
+        { letter: 'E', text: 'Presencia de miodesopsias antes de la cirugía' },
+      ],
+      correct: 'B',
+      explanation: 'El factor pronóstico determinante es el estado de la mácula y el tiempo de isquemia foveal. Si el desprendimiento foveal persiste por más de una a dos semanas, los conos foveales sufren daño irreversible, y la recuperación de la visión central fina es pobre aunque la retina se reaplique con éxito anatómico.',
+      say: {
+        stem: 'Una última pregunta representativa, también sin fecha del examen real. Se busca, en pacientes operados de desprendimiento de retina, cuál es el factor que más empeora el pronóstico visual final.',
+        question: '¿Cuál de las siguientes opciones predice la peor agudeza visual, incluso después de una cirugía anatómicamente exitosa?',
+        options: 'Las opciones: que el desprendimiento esté en los cuadrantes superiores, que la mácula esté desprendida por más de una semana, tener menos de cuarenta años, haber usado lentes de contacto blandos, o haber tenido miodesopsias antes de operarse.',
+        answer: 'Es la B. Esto cierra el tema exactamente donde lo abrimos: lo que decide la visión final no es la ubicación del desprendimiento ni la edad del paciente, es cuánto tiempo estuvo la mácula sin su epitelio pigmentario. Si el desprendimiento foveal dura más de una a dos semanas, los conos de la fóvea se dañan de forma irreversible, y la retina puede quedar anatómicamente perfecta, pero la visión central fina ya no vuelve del todo.',
       },
     },
 
