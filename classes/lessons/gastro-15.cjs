@@ -281,6 +281,52 @@ module.exports = {
 
     {
       type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 148',
+      stem: 'Paciente de 55 años con múltiples episodios de hematemesis, cerca de un litro, en la última hora. Al examen: palidez de piel y mucosas, FC 120/min, PA 80/60 mmHg, estigmas de daño hepático crónico, abdomen blando y sensible.',
+      question: '¿Cuál es la conducta inicial?',
+      options: [
+        { letter: 'A', text: 'Administrar terlipresina endovenosa' },
+        { letter: 'B', text: 'Administrar cristaloides endovenosos' },
+        { letter: 'C', text: 'Instalar balón de Sengstaken' },
+        { letter: 'D', text: 'Realizar endoscopía digestiva alta' },
+        { letter: 'E', text: 'Transfundir glóbulos rojos' },
+      ],
+      correct: 'B',
+      explanation: 'Hemorragia digestiva alta variceal masiva, con hipotensión y taquicardia: la conducta inicial, antes que cualquier otra cosa, es reponer volumen con cristaloides. La terlipresina y la endoscopía se dan de inmediato después, pero primero se estabiliza al paciente.',
+      say: {
+        stem: 'Y ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de cincuenta y cinco años con varios episodios de hematemesis, cerca de un litro en la última hora. Está pálido, con una frecuencia cardíaca de ciento veinte y una presión de ochenta sobre sesenta, con estigmas de daño hepático crónico.',
+        question: '¿Cuál es la conducta inicial?',
+        options: 'Las opciones: terlipresina endovenosa, cristaloides endovenosos, balón de Sengstaken, endoscopía digestiva alta, o transfundir glóbulos rojos. Piénsalo.',
+        answer: 'Es la B, cristaloides. Independiente de la causa, toda hemorragia digestiva se maneja primero reponiendo volumen. La terlipresina y la endoscopía son parte del paquete, pero no van antes que estabilizar al paciente que está en shock.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2013 · Pregunta 98',
+      stem: 'Paciente de 55 años, con daño hepático crónico por virus hepatitis C, consulta por malestar general, febrículas, confusión y aumento del perímetro abdominal. Al examen: matidez desplazable. Paracentesis diagnóstica: transudado con 300 leucocitos por mm³, 100 % polimorfonucleares.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Administrar albúmina endovenosa' },
+        { letter: 'B', text: 'Realizar paracentesis evacuadora' },
+        { letter: 'C', text: 'Observar' },
+        { letter: 'D', text: 'Administrar antibióticos de forma empírica' },
+        { letter: 'E', text: 'Iniciar terapia con furosemida y espironolactona' },
+      ],
+      correct: 'D',
+      explanation: 'Trescientos leucocitos, cien por ciento polimorfonucleares en el líquido ascítico: peritonitis bacteriana espontánea. También corresponde dar albúmina, pero lo prioritario y lo que define la pregunta es iniciar antibióticos empíricos de inmediato, con cefotaxima.',
+      say: {
+        stem: 'Esta es del EUNACOM de julio de dos mil trece. Paciente de cincuenta y cinco años, con daño hepático crónico por virus C, que consulta por malestar general, febrículas, confusión y más ascitis. Al examen tiene matidez desplazable, y la paracentesis diagnóstica muestra trescientos leucocitos, cien por ciento polimorfonucleares.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: albúmina endovenosa, paracentesis evacuadora, observar, antibióticos empíricos, o diuréticos. Piénsalo.',
+        answer: 'Es la D, antibióticos empíricos. Trescientos polimorfonucleares confirman la peritonitis bacteriana espontánea. También va a necesitar albúmina, pero lo que define esta pregunta y lo más urgente es partir el antibiótico, con cefotaxima, sin esperar el cultivo.',
+      },
+    },
+
+    {
+      type: 'quiz',
       kicker: 'Pregunta del banco EUNACOM',
       title: 'Caso representativo · banco EUNACOM',
       stem: 'Paciente con cirrosis y várices esofágicas medianas encontradas en una endoscopía de tamizaje. Nunca ha presentado hemorragia digestiva.',
