@@ -39,8 +39,8 @@ module.exports = {
 
     {
       type: 'points',
-      kicker: 'Lesiones sólidas',
-      title: 'Benignas que se observan, y las que no',
+      kicker: 'Lesiones sólidas benignas',
+      title: 'Se observan, salvo el adenoma',
       cards: [
         { title: 'Se observan', tag: 'Benignas sin riesgo', kind: 'normal', items: [
           { t: 'Hemangioma', d: 'Hiperecogénico, homogéneo, bien delimitado',
@@ -50,16 +50,26 @@ module.exports = {
         ] },
         { title: 'Adenoma', tag: 'Se reseca', kind: 'alert', items: [
           { t: 'Hipoecogénico, único, homogéneo', d: 'Mujer con anticonceptivos o anabólicos',
-            say: 'El adenoma es distinto. Es hipoecogénico, único y homogéneo, en una mujer que usa anticonceptivos orales, o en quien usa esteroides anabólicos.' },
+            say: 'El adenoma es distinto, y aunque es benigno, no se deja tranquilo. Es hipoecogénico, único y homogéneo, en una mujer que usa anticonceptivos orales, o en quien usa esteroides anabólicos.' },
           { t: 'Suspender estrógenos, resecar', d: 'Si mide > 5 cm o da síntomas',
             say: 'Puede sangrar y puede malignizarse. Por eso se suspenden los estrógenos y se reseca si mide más de cinco centímetros o da síntomas.' },
         ] },
-        { title: 'Malignas', tag: 'Contexto', kind: 'key', items: [
-          { t: 'Hepatocarcinoma', d: 'Heterogéneo, irregular, en un cirrótico',
-            say: 'El hepatocarcinoma es heterogéneo e irregular, y aparece en un hígado dañado, sobre todo por cirrosis por virus B o C, como vimos en la clase de daño hepático crónico. La alfafetoproteína está alta.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Lesiones sólidas malignas',
+      title: 'El contexto delata el cáncer',
+      cards: [
+        { title: 'Hepatocarcinoma', tag: 'En el hígado dañado', kind: 'key', items: [
+          { t: 'Heterogéneo, irregular, en un cirrótico', d: 'Sobre todo cirrosis por virus B o C',
+            say: 'Pasemos a las malignas. El hepatocarcinoma es heterogéneo e irregular, y aparece en un hígado dañado, sobre todo por cirrosis por virus B o C, como vimos en la clase de daño hepático crónico. La alfafetoproteína está alta.' },
           { t: 'TAC o RM trifásico', d: 'Realce arterial + lavado',
             say: 'Se confirma con TAC o resonancia trifásica: realce en fase arterial y lavado después. Se trata con resección, ablación o trasplante, según los criterios de Milán.' },
-          { t: 'Metástasis: múltiples', d: 'Buscar el primario',
+        ] },
+        { title: 'Metástasis', tag: 'El hígado más frecuente', kind: 'alert', items: [
+          { t: 'Lesiones múltiples, hipoecogénicas', d: 'Buscar el primario',
             say: 'Y si las lesiones son múltiples e hipoecogénicas, son metástasis: hay que buscar el primario, en colon, mama, pulmón o estómago. En el cáncer de colon, algunas son resecables con intención curativa.' },
         ] },
       ],
@@ -93,6 +103,27 @@ module.exports = {
     },
 
     {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Lesión hepática en la ecografía: diagnóstico y conducta',
+      head: ['Aspecto ecográfico', 'Diagnóstico probable', 'Conducta'],
+      rows: [
+        { cells: ['Anecogénica, pared fina, sin tabiques', 'Quiste simple', 'Observar'],
+          say: 'Repasemos todo en una tabla. Anecogénica, de pared fina y sin tabiques: quiste simple, se observa.' },
+        { cells: ['Quística con membrana o tabiques, contexto rural', 'Quiste hidatídico', 'Albendazol + cirugía'],
+          say: 'Quística con membrana o tabiques, en contexto rural: quiste hidatídico, albendazol más cirugía, y nunca punción libre.' },
+        { cells: ['Hiperecogénica, homogénea', 'Hemangioma', 'Observar'],
+          say: 'Hiperecogénica y homogénea: hemangioma, se observa.' },
+        { cells: ['Hipoecogénica única y homogénea, mujer con ACO', 'Adenoma hepático', 'Suspender estrógenos; resecar si > 5 cm'],
+          say: 'Hipoecogénica, única y homogénea, en una mujer con anticonceptivos: adenoma. Suspender estrógenos y resecar si pasa de cinco centímetros.' },
+        { cells: ['Heterogénea irregular en cirrótico + AFP alta', 'Hepatocarcinoma', 'TAC o RM trifásico → resección, ablación o trasplante'],
+          say: 'Heterogénea e irregular en un cirrótico con alfafetoproteína alta: hepatocarcinoma, se confirma con TAC o resonancia trifásica.' },
+        { cells: ['Múltiples lesiones hipoecogénicas', 'Metástasis', 'Buscar el tumor primario'],
+          say: 'Y múltiples lesiones hipoecogénicas: metástasis, hay que buscar el primario.' },
+      ],
+    },
+
+    {
       type: 'quiz',
       kicker: 'Caso clínico',
       title: 'Caso clínico',
@@ -118,6 +149,75 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2016 · Pregunta 93',
+      stem: 'Paciente de 70 años, con cirrosis hepática, sin hábito alcohólico actual, AgHBs negativo y anticuerpos anti-VHC negativos, Child Pugh clase A. Ecografía abdominal: lesión sólida en el lóbulo hepático derecho, de 3,5 cm, de aspecto hipoecogénico. Alfafetoproteína 5,3 ng/mL (VN 0–7).',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Metástasis hepática' },
+        { letter: 'B', text: 'Adenoma hepático' },
+        { letter: 'C', text: 'Carcinoma hepatocelular' },
+        { letter: 'D', text: 'Quiste hepático' },
+        { letter: 'E', text: 'Hemangioma hepático' },
+      ],
+      correct: 'B',
+      explanation: 'Lesión sólida, hipoecogénica, homogénea, con alfafetoproteína normal: adenoma hepático. La cirrosis eleva el riesgo tanto de adenoma como de hepatocarcinoma, pero aquí la AFP no está elevada, lo que aleja el hepatocarcinoma. Las metástasis serían múltiples; el hemangioma sería hiperecogénico; el quiste sería anecogénico.',
+      say: {
+        stem: 'Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años, con cirrosis hepática, sin alcohol actual, con las serologías B y C negativas. La ecografía muestra una lesión sólida en el lóbulo hepático derecho, de tres coma cinco centímetros, hipoecogénica. La alfafetoproteína es de cinco coma tres, normal.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: metástasis, adenoma hepático, carcinoma hepatocelular, quiste hepático, o hemangioma hepático. Piénsalo.',
+        answer: 'Es la B, adenoma hepático. La trampa es que hay cirrosis, y uno salta de inmediato a hepatocarcinoma. Pero fíjate en la alfafetoproteína: está normal. Y la cirrosis también aumenta el riesgo de adenoma, no solo de cáncer. Hipoecogénica, única y homogénea, con alfafetoproteína normal, es adenoma. El hemangioma sería hiperecogénico, y las metástasis vendrían múltiples.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 24',
+      stem: 'Paciente con daño hepático crónico por consumo de alcohol, en TAC abdominal de control: tumor sólido en el lóbulo hepático derecho, de 3 cm, hipervascular en la fase arterial.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Nódulo de regeneración' },
+        { letter: 'B', text: 'Hepatocarcinoma' },
+        { letter: 'C', text: 'Hemangioma hepático' },
+        { letter: 'D', text: 'Hiperplasia nodular' },
+        { letter: 'E', text: 'Adenoma hepático' },
+      ],
+      correct: 'B',
+      explanation: 'El daño hepático crónico se asocia tanto a adenoma como a hepatocarcinoma, pero la hipervascularización en fase arterial —el realce arterial que después lava— orienta a hepatocarcinoma. Es exactamente el patrón que se busca con el TAC o la RM trifásico.',
+      say: {
+        stem: 'Esta es del EUNACOM de diciembre de dos mil diecisiete. Paciente con daño hepático crónico por alcohol, al que en un TAC de control le encuentran un tumor sólido en el lóbulo hepático derecho, de tres centímetros, hipervascular en la fase arterial.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: nódulo de regeneración, hepatocarcinoma, hemangioma hepático, hiperplasia nodular, o adenoma hepático. Piénsalo.',
+        answer: 'Es la B, hepatocarcinoma. El daño hepático crónico también da adenoma, pero lo que decide aquí es el patrón vascular: hipervascular en fase arterial es justo el realce arterial que buscamos en el TAC o la resonancia trifásica para confirmar hepatocarcinoma.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2018 · Pregunta 54',
+      stem: 'Paciente de 39 años, con obesidad, en quien una ecografía abdominal muestra hígado graso leve, un quiste hepático simple de 1,0 cm y un pólipo vesicular de 0,5 cm.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Biopsia por punción del pólipo' },
+        { letter: 'B', text: 'Controlar con una nueva ecografía en 6 meses' },
+        { letter: 'C', text: 'Laparotomía exploradora' },
+        { letter: 'D', text: 'Colecistectomía laparoscópica' },
+        { letter: 'E', text: 'Punción del quiste hepático' },
+      ],
+      correct: 'B',
+      explanation: 'Pólipo vesicular bajo 10 mm, en un hallazgo de rutina: colesterolínico, se sigue con ecografía. El quiste hepático simple menor a 1 cm tampoco requiere intervención. Ni la colecistectomía ni la punción tienen indicación aquí: el corte para operar un pólipo es 1 cm o más.',
+      say: {
+        stem: 'Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de treinta y nueve años, con obesidad, a quien una ecografía le muestra un hígado graso leve, un quiste hepático simple de un centímetro, y un pólipo vesicular de cero coma cinco centímetros.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: biopsia del pólipo, control ecográfico en seis meses, laparotomía exploradora, colecistectomía laparoscópica, o punción del quiste. Piénsalo.',
+        answer: 'Es la B, control ecográfico en seis meses. El pólipo mide menos de un centímetro, así que es colesterolínico y se sigue, no se opera. Y el quiste hepático simple, menor a un centímetro, tampoco necesita nada. El distractor es la colecistectomía, pero esa se reserva para el pólipo de un centímetro o más.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
       title: 'Caso representativo · banco EUNACOM',
       stem: 'En una ecografía solicitada por dispepsia se informa una lesión hepática de 3 cm, hiperecogénica, homogénea y de bordes bien definidos, en un paciente de 40 años sin antecedentes hepáticos ni baja de peso.',
       question: '¿Cuál es el diagnóstico más probable y la conducta?',
@@ -131,7 +231,7 @@ module.exports = {
       correct: 'B',
       explanation: 'Lesión hiperecogénica, homogénea y bien delimitada en un hígado sano: hemangioma, la lesión hepática benigna más frecuente. Se observa; si hay dudas, se confirma con RM. La cirugía solo en hemangiomas gigantes y sintomáticos.',
       say: {
-        stem: 'Ahora una pregunta del banco EUNACOM. En una ecografía pedida por dispepsia aparece una lesión hepática de tres centímetros, hiperecogénica, homogénea y de bordes bien definidos, en un paciente de cuarenta años sin antecedentes hepáticos ni baja de peso.',
+        stem: 'Y una última, del banco EUNACOM. En una ecografía pedida por dispepsia aparece una lesión hepática de tres centímetros, hiperecogénica, homogénea y de bordes bien definidos, en un paciente de cuarenta años sin antecedentes hepáticos ni baja de peso.',
         question: '¿Cuál es el diagnóstico más probable y la conducta?',
         options: 'Las opciones: metástasis, hemangioma, hepatocarcinoma, absceso, o quiste hidatídico. Piénsalo.',
         answer: 'La respuesta es la B, hemangioma, y se observa. La palabra clave es hiperecogénica y homogénea, en un hígado sano. Las metástasis serían múltiples e hipoecogénicas, el hepatocarcinoma necesita un hígado cirrótico, y el absceso vendría con fiebre y dolor. Si hubiera dudas, se confirma con resonancia, pero no se opera.',
