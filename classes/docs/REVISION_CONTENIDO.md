@@ -383,6 +383,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-05 | Coqueluche: azitromicina a toda embarazada (texto) | Solo en tercer trimestre (keyPoints) | El texto |
 | infecto-05 | Profilaxis post exposición VIH 28 días (texto) | "28 días a 6 semanas" (alternativa de pregunta) | 28 días |
 | infecto-10 | Cotrimoxazol con CD4 < 200 protege de Pneumocystis y Toxoplasma (keyPoint) | Toxoplasma: CD4 < 100 con IgG positiva (tabla) | La tabla |
+| infecto-14 | Plaquetas < 100.000 y hematocrito > 45–50 % (texto) | Plaquetas < 50.000 (explicación); hematocrito > 50 % (tabla y explicación) | El texto |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -397,6 +398,9 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-10 | No cubre mucormicosis, aspergilosis ni vacunas en VIH (vacunas vivas), que el banco pregunta. No hay preguntas reales de toxoplasmosis cerebral. |
 | infecto-11 | El título promete "manejo MDR" sin contenido; falta TBC resistente, fracaso, seguimiento con baciloscopías (Jul 2016 P118) e imagen en el mal de Pott (RM). |
 | infecto-12 | Menciona la neurosífilis sin tratamiento; nombra el GES 35 sin el calendario de VDRL prenatal (28–30 semanas). |
+| infecto-14 | No da el recuento de leucocitos (la viñeta tiene leucocitosis; Jul 2025 P7 dice leucopenia y nombra el virus "Sin Nombre", cuando en Chile es el virus Andes). |
+| infecto-15 | "Se trata a la madre post-parto y lactancia" es ambiguo. El banco real no tiene preguntas de Chagas (solo como distractor). |
+| infecto-13 | La sección de VPH no incluye la vacuna. Contactos a tratar: "recientes" (texto) y "últimos 60 días" (explicación). |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
