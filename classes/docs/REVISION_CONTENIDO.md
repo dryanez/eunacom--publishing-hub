@@ -43,6 +43,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | gastro-15 | Dosis de albúmina en la peritonitis bacteriana espontánea (solo dice "día 1 y día 3"). |
 | gastro-21 | "Ligadura en las primeras 12 horas" solo aparece en la explicación de la viñeta, no en el texto. |
 | gastro-06, gastro-12, gastro-25 | El tema no tiene código Perfil V3 en el libro, así que no se le pueden asignar preguntas reales del banco. |
+| gastro-12 | `reconstrucciones` dice "Sin preguntas en exámenes 2013-2025" para patología perianal, pero sí existen preguntas reales del banco (Julio 2025 #27, Julio 2017 #54); no aparecen buscando por código Perfil porque el tema no tiene `perfilCode` asignado, solo por texto. Se agregaron ambas al guion. |
 
 ## Nefrología
 
