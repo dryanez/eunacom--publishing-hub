@@ -39,7 +39,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
-| gastro-18 | `reconstrucciones` nombra 4 preguntas (Q#66, Q#121, Q#54, Q#101) pero `questions` trae solo 2. |
+| gastro-18 | `reconstrucciones` nombra 4 preguntas (Q#66, Q#121, Q#54, Q#101) pero `questions` trae solo 2. Q#66 sí es real (Julio 2013 · Pregunta 66) y ya se agregó al guion. Q#101 (Dic 2019) no se encontró en el banco real — sigue sin resolver. El Q#54 que cita el libro ("Julio 2016") no es real para este tema (la pregunta real de esa fecha/número es sobre cetoacidosis diabética); el guion usa esa pregunta como "Caso representativo" sin fecha. |
 | gastro-15 | Dosis de albúmina en la peritonitis bacteriana espontánea (solo dice "día 1 y día 3"). |
 | gastro-21 | "Ligadura en las primeras 12 horas" solo aparece en la explicación de la viñeta, no en el texto. |
 | gastro-06, gastro-12, gastro-25 | El tema no tiene código Perfil V3 en el libro, así que no se le pueden asignar preguntas reales del banco. |
