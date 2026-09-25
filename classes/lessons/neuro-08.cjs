@@ -390,7 +390,7 @@ module.exports = {
         ] },
         { title: 'Toxicidades', tag: 'Lo que se pregunta', kind: 'alert', items: [
           { t: 'Valproato teratógeno · CBZ hiponatremia', d: 'Fenitoína encías · LEV irritabilidad',
-            say: 'Y las toxicidades: valproato teratógeno y hepatotóxico, carbamazepina con hiponatremia y Stevens-Johnson, fenitoína con hiperplasia gingival, y levetiracetam con irritabilidad. Si te llevas una sola idea de hoy: el antiepiléptico se elige por cómo empieza la crisis y por quién es el paciente. En la próxima clase vemos qué hacer cuando la crisis no se detiene: el estatus epiléptico. Nos vemos en la próxima clase.' },
+            say: 'Y las toxicidades: valproato teratógeno y hepatotóxico, carbamazepina con hiponatremia y Stevens-Johnson, fenitoína con hiperplasia gingival, y levetiracetam con irritabilidad. Si te llevas una sola idea de hoy: el antiepiléptico se elige por cómo empieza la crisis y por quién es el paciente. Lo que sigue es qué hacer cuando la crisis no se detiene: el estatus epiléptico. Nos vemos en la próxima clase.' },
         ] },
       ],
     },

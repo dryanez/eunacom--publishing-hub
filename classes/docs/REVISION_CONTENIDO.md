@@ -429,12 +429,16 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
 |---|---|---|---|
 | neuro-02 | Endarterectomía con estenosis 70–99 %, o 50–69 % en hombres (texto) | ≥ 70 % (keyPoints); > 50 % (criterios de hospitalización directa) | El texto |
+| neuro-08 | Valproato es el más eficaz en crisis generalizadas idiopáticas, incluidas ausencias (texto) | Etosuximida de elección en ausencias puras (tabla) | Ambos |
+| neuro-06 | Profilaxis con "3 o más crisis al mes" (texto) | "≥ 3–4 crisis mensuales" (keyPoints) | 3 o más |
+| neuro-07 | Fenitoína EV en crisis trigeminal refractaria y predominio femenino 2:1 (tabla) | No aparecen en el texto | Usa el predominio; omite fenitoína |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
 | neuro-01 | La clasificación TOAST solo nombra trombosis venosa cerebral y disección arterial, sin clínica; el banco las pregunta (Dic 2019 P1; Ago 2021 P76, síndrome de Horner). |
 | neuro-03, neuro-05 | Las preguntas del libro son de otros temas (meningitis, neumonía, falla prerrenal, TEP con factor V Leiden, monitoreo de heparina). |
+| neuro-06 | No da tratamiento agudo de la cefalea tensional. No hay preguntas reales de cefalea en racimos. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -442,6 +446,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Julio 2025 · Pregunta 66 | Clave aspirina a las 5 h; el libro da ventana de trombectomía de 0–6 h en oclusión de gran vaso (alternativa C). |
 | EUNACOM Diciembre 2022 · Pregunta 97 | Hemiparesia pura sin afasia: clave arteria cerebral media; el libro la clasifica como lacunar. |
 | EUNACOM Diciembre 2022 · Pregunta 93 | Ptosis y miosis tras dolor cervical súbito: clave "parálisis del III par"; es un síndrome de Horner por disección carotídea. |
+| EUNACOM Julio 2016 · Pregunta 94 | Neuralgia del trigémino típica: clave "paracetamol y AINE"; el libro (y la propia explicación) dicen carbamazepina. |
+| EUNACOM Diciembre 2018 · Pregunta 173 | Migraña menstrual con aura: clave anticonceptivos combinados; los estrógenos están contraindicados en migraña con aura. |
 
 ### A · Posible error del libro
 | Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
@@ -449,3 +455,5 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | neuro-03 | "Hipertermia maligna" en la hemorragia pontina. | Ese término es la reacción anestésica; aquí es hipertermia central. | "Hipertermia". |
 | neuro-03 | Nitroprusiato e hidralazina "contraindicados". | Las guías aconsejan evitarlos, no los contraindican formalmente (confirmar). | "No se usa / evitar". |
 | neuro-05 | "Proptosis ocular pulsátil" en la trombosis del seno cavernoso. | La proptosis pulsátil es típica de la fístula carótido-cavernosa. | "Proptosis". |
+| neuro-08 | Las crisis de inicio generalizado "cursan siempre con compromiso de conciencia desde el inicio". | Las mioclonías (p. ej. epilepsia mioclónica juvenil) suelen conservar la conciencia. | No lo afirma para las mioclonías. |
+| neuro-08 | Plazo GES "EEG y confirmación en ≤ 30 días" (epilepsia no refractaria ≥ 15 años). | Verificar contra el decreto GES vigente. | Sigue el libro. |
