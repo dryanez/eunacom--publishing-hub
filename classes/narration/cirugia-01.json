@@ -1,0 +1,316 @@
+{
+  "id": "cirugia-01",
+  "title": "Cirugia 11.1: Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
+  "specialty": "Cirugía General",
+  "chars": 18979,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos al módulo dos de cirugía y especialidades. Hoy enfrentamos la apendicitis aguda, la causa más frecuente de abdomen agudo quirúrgico no traumático en Chile y uno de los temas con mayor rendimiento en el EUNACOM. En esta clase vamos a dominar la cronología de Murphy, los signos físicos cardinales, la aplicación exacta del score de Alvarado y la conducta frente a las formas complicadas como el plastrón y el absceso. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El evento inicial determinante en la apendicitis aguda es la obstrucción de la luz apendicular. En los adultos, la causa predominante es un fecalito calcificado o apendicolito, mientras que en los niños y adolescentes suele deberse a hiperplasia del tejido linfoide submucoso tras una infección viral reciente. Al quedar el lumen ocluido, la secreción mucosa continua incrementa progresivamente la presión intraluminal."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Esta distensión estimula las fibras aferentes viscerales simpáticas que entran a la médula entre los niveles torácico ocho y torácico diez. Por eso, el paciente experimenta inicialmente un dolor sordo, mal delimitado y opresivo en el epigastrio o la región periumbilical, frecuentemente acompañado de anorexia precoz, náuseas y vómitos reflejos. Esta es la fase catarral o congestiva."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En las siguientes seis a doce horas, la proliferación bacteriana invade la pared apendicular hasta alcanzar la serosa y el peritoneo parietal adyacente. En este momento se activan las fibras somáticas espinales, produciendo la clásica migración del dolor hacia la fosa ilíaca derecha, donde se torna continuo, punzante y bien localizado. Esta secuencia se conoce como cronología de Murphy y está presente en más de dos tercios de los pacientes."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si el proceso no se interrumpe, la presión transmural supera la perfusión venosa y capilar, desencadenando isquemia, trombosis venosa parietal, gangrena y perforación. Más allá de veinticuatro a treinta y seis horas desde el inicio de los síntomas, la tasa de perforación sube drásticamente, pudiendo derivar en peritonitis difusa o bien en una masa inflamatoria contenida por el epiplón llamada plastrón apendicular."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En las primeras cuatro a seis horas observamos la fase catarral. Hay edema submucoso, congestión vascular incipiente y dolor visceral puro sin irritación peritoneal. La flora bacteriana intraluminal todavía es similar a la del colon normal."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Hacia las doce horas se instaura la fase flegmonosa. Los neutrófilos atraviesan la pared muscular hasta la serosa, produciendo exudado fibrinoso. Aparece la peritonitis localizada con signos físicos positivos en la fosa ilíaca derecha."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La fase gangrenosa ocurre habitualmente entre las doce y veinticuatro horas. La trombosis de las vénulas intramurales genera infartos isquémicos focales, característicamente en el borde antimesentérico que posee menor flujo sanguíneo colateral."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Al perforarse la pared, habitualmente tras veinticuatro a cuarenta y ocho horas, se libera material purulento y fecal. La infección se torna mixta con alta carga de anaerobios obligados como Bacteroides fragilis y gramnegativos entéricos como Escherichia coli."
+    },
+    {
+      "file": "s02_g04",
+      "text": "La microbiología en fases avanzadas es sinérgica y altamente destructiva. Por eso, cualquier esquema antibiótico profiláctico o terapéutico debe cubrir simultáneamente bacilos gramnegativos facultativos y anaerobios del tubo digestivo bajo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El punto de McBurney se localiza exactamente en la unión del tercio lateral externo con los dos tercios mediales de la línea que conecta la espina ilíaca anterosuperior derecha con el ombligo. La palpación en este punto genera un dolor exquisito y focal, constituyendo el hallazgo clínico más sensible de la inflamación del fondo apendicular."
+    },
+    {
+      "file": "s03_g01",
+      "text": "En la posición cecal anterior habitual, el signo de McBurney tiene una sensibilidad clínica muy elevada. Sin embargo, su ausencia no descarta la patología si el apéndice tiene una disposición atípica, como retrocecal, pelviana o subhepática."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El signo de Blumberg, o signo del rebote, se produce al comprimir suave y profundamente la fosa ilíaca derecha y retirar la mano de forma súbita. Si el peritoneo parietal está inflamado, la descompresión brusca genera un dolor agudo e intolerable. Traduce peritonitis localizada y es uno de los criterios con mayor peso diagnóstico."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La contractura o defensa muscular involuntaria en la fosa ilíaca derecha refleja un espasmo de los músculos oblicuos y transversos secundario a la inflamación peritoneal profunda. Es un signo de alarma inequívoco de abdomen agudo quirúrgico."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El signo de Rovsing consiste en palpar profundamente la fosa ilíaca izquierda; el desplazamiento retrógrado de gas a través del colon marco distiende el ciego e inflama el apéndice enfermo, provocando dolor referido en la fosa ilíaca derecha. Confirma irritación peritoneal indirecta."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El signo del psoas se explora solicitando al paciente que se recueste sobre su lado izquierdo mientras el examinador hiperextiende pasivamente el muslo derecho hacia atrás. Si el apéndice es retrocecal y descansa sobre el músculo psoas mayor, el estiramiento muscular desencadena dolor intenso."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El signo del obturador se evalúa flexionando la cadera y rodilla derecha en noventa grados y rotando internamente el muslo. El contacto con el músculo obturador interno inflamado causa dolor en pacientes con apéndice de localización pelviana profunda."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El signo de Dunphy consiste en un dolor punzante en la fosa ilíaca derecha provocado por la tos voluntaria. Es un método gentil y sumamente útil en niños y ancianos para pesquisar peritonitis incipiente sin necesidad de realizar una palpación brusca."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El score de Alvarado clasifica los hallazgos en síntomas, signos y laboratorio. En los síntomas asignamos un punto a la migración del dolor hacia la fosa ilíaca derecha, un punto a la presencia de anorexia y un punto a las náuseas o vómitos. Un puntaje total de cero a tres puntos indica muy baja probabilidad diagnóstica y permite el alta con pautas de alarma o la evaluación de otros diagnósticos."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En los signos físicos, el dolor exquisito a la palpación en fosa ilíaca derecha suma dos puntos enteros, siendo el parámetro físico con mayor ponderación. El signo de Blumberg aporta un punto y la elevación térmica mayor o igual a treinta y siete coma tres grados aporta un punto adicional. Un puntaje acumulado entre cuatro y seis puntos define una probabilidad intermedia y obliga a solicitar imágenes complementarias."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En el laboratorio, la leucocitosis mayor a diez mil glóbulos blancos por milímetro cúbico suma dos puntos, y la presencia de neutrofilia o desviación izquierda mayor al setenta y cinco por ciento otorga un punto. Un paciente con puntaje de siete o más tiene una alta probabilidad de apendicitis. En hombres jóvenes con cuadro clásico, esta puntuación justifica indicar apendicectomía directa sin necesidad de perder tiempo en exámenes tomográficos."
+    },
+    {
+      "file": "s06_g00",
+      "text": "En varones jóvenes previamente sanos con presentación típica y score de Alvarado de siete a diez, el diagnóstico es eminentemente clínico. No se requiere tomografía previa; retrasar la cirugía para obtener una imagen aumenta innecesariamente el riesgo de perforación apendicular."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si el cuadro es atípico o el puntaje es intermedio, se solicita estudio por imágenes antes de ingresar a quirófano."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La tomografía axial computarizada de abdomen y pelvis con contraste endovenoso es el estándar de oro en adultos con presentación dudosa, en ancianos y cuando se sospechan complicaciones. Presenta una sensibilidad y especificidad que superan el noventa y cinco por ciento."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Los criterios tomográficos confirmatorios son: diámetro transverso del apéndice mayor a seis milímetros, engrosamiento parietal mayor a dos milímetros con realce anormal tras el medio de contraste, estriación de la grasa periapendicular adyacente y visualización de un apendicolito calcificado."
+    },
+    {
+      "file": "s06_g04",
+      "text": "En mujeres en edad reproductiva, la ecografía abdominal y ginecológica es mandatoria para descartar patología ovárica o anexial, como embarazo ectópico, quiste hemorrágico o enfermedad inflamatoria pélvica."
+    },
+    {
+      "file": "s06_g05",
+      "text": "En embarazadas y en pacientes pediátricos, la ecografía abdominal es siempre la primera elección para evitar la radiación ionizante. Se observa un apéndice no compresible con diámetro aumentado y aspecto en diana. Si la ecografía en una embarazada no es concluyente, el siguiente paso es una resonancia magnética nuclear."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Iniciamos el enfrentamiento clínico evaluando el score de Alvarado y las características demográficas del paciente."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Con un puntaje menor a cuatro puntos, la probabilidad es mínima; observamos evolución o investigamos diagnósticos diferenciales."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Indicamos observación y pautas estrictas de alarma médica."
+    },
+    {
+      "file": "s07_g03",
+      "text": "En riesgo intermedio o grupos con alta probabilidad de diagnósticos alternativos, solicitamos estudio por imágenes."
+    },
+    {
+      "file": "s07_g04",
+      "text": "En niños, mujeres en edad fértil y embarazadas, la ecografía abdominal es la primera línea obligatoria."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si la ecografía es concluyente con apéndice inflamado mayor a seis milímetros, indicamos apendicectomía."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si la ecografía no define el cuadro, realizamos resonancia magnética en gestantes o tomografía con contraste en adultos."
+    },
+    {
+      "file": "s07_g07",
+      "text": "En el adulto no gestante y el anciano, la tomografía computarizada con contraste es el estándar de oro confirmatorio."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Confirmado el diagnóstico tomográfico, el paciente va a pabellón con profilaxis antibiótica preoperatoria."
+    },
+    {
+      "file": "s07_g09",
+      "text": "En un varón joven con score de Alvarado de siete a diez puntos no perdemos tiempo en imágenes e indicamos apendicectomía directa."
+    },
+    {
+      "file": "s07_g10",
+      "text": "Se realiza apendicectomía laparoscópica y se suspenden los antibióticos en el postoperatorio si no hubo perforación."
+    },
+    {
+      "file": "s07_g11",
+      "text": "Si el paciente debuta con una masa palpable de más de cinco días de evolución, sospechamos plastrón y solicitamos tomografía urgente."
+    },
+    {
+      "file": "s07_g12",
+      "text": "En plastrón flemoso el manejo es médico conservador, programando apendicectomía diferida a las ocho a doce semanas."
+    },
+    {
+      "file": "s07_g13",
+      "text": "Si existe un absceso fluctuante de tres a cuatro centímetros o más, la conducta de elección es el drenaje percutáneo guiado por imágenes."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El plastrón apendicular se produce cuando una apendicitis que evoluciona por más de cuatro a cinco días se perfora de forma bloqueada, siendo contenida por el epiplón mayor y las asas de intestino delgado contiguas. Al examen físico se palpa una masa firme, sensible y delimitada en la fosa ilíaca derecha."
+    },
+    {
+      "file": "s08_g01",
+      "text": "El manejo de elección para el plastrón flemoso sólido es médico conservador: reposo intestinal, hidratación endovenosa y antibióticos de amplio espectro por siete a catorce días. Intentar operar de urgencia en esta etapa conlleva un riesgo altísimo de desgarro ileal y fístula cecal por inflamación friable. Se programa una apendicectomía de intervalo electiva a las ocho a doce semanas."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si la tomografía computarizada demuestra que dentro de la masa existe una colección líquida purulenta organizada de tres a cuatro centímetros o más de diámetro, la conducta de elección es el drenaje percutáneo guiado por tomografía o ecografía, sumado a cobertura antibiótica endovenosa."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Solo se indica laparotomía o laparoscopía exploradora de urgencia ante fracaso del drenaje percutáneo, empeoramiento séptico o si el paciente debuta con signos francos de peritonitis generalizada."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La apendicectomía laparoscópica es hoy el abordaje quirúrgico de elección en la gran mayoría de los centros. Ofrece menor dolor postoperatorio, menor estadía hospitalaria, retorno laboral más precoz y una tasa significativamente menor de infección del sitio quirúrgico en la pared."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Otra ventaja decisiva de la laparoscopía es permitir una exploración visual completa de la cavidad peritoneal y los órganos pélvicos, lo cual es invaluable en mujeres jóvenes donde la tasa de diagnóstico diferencial alternativo es muy alta."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si durante la exploración quirúrgica el apéndice luce macroscópicamente sano, la conducta formal es extirparlo de todas formas. Esto previene confusión médica futura si el paciente vuelve a consultar por dolor abdominal en la fosa ilíaca derecha."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Inmediatamente después, el cirujano tiene la obligación de revisar cuidadosamente los últimos sesenta a cien centímetros de íleon terminal para descartar un divertículo de Meckel complicado, una adenitis mesentérica o una enteritis regional por enfermedad de Crohn."
+    },
+    {
+      "file": "s09_g04",
+      "text": "En apendicitis no perforada, la profilaxis es en dosis única en la inducción anestésica. No se prolongan antibióticos en el postoperatorio."
+    },
+    {
+      "file": "s10_g00",
+      "text": "En mujeres en edad fértil, las patologías ginecológicas compiten directamente con la apendicitis. La subunidad beta de gonadotrofina coriónica y la ecografía transvaginal son indispensables para descartar un embarazo ectópico roto, una torsión de anexo o una enfermedad inflamatoria pélvica."
+    },
+    {
+      "file": "s10_g01",
+      "text": "En niños pequeños, la causa más común que simula apendicitis es la adenitis mesentérica tras una virosis respiratoria. La ecografía abdominal demuestra múltiples adenopatías inflamatorias en el mesenterio con un apéndice de calibre normal y compresible."
+    },
+    {
+      "file": "s10_g02",
+      "text": "En adultos mayores, la apendicitis suele presentarse sin fiebre ni dolor florido debido a la inmunosenescencia. Siempre debemos sospechar un adenocarcinoma de ciego o colon derecho perforado. La tomografía con contraste es mandatoria antes de cualquier decisión."
+    },
+    {
+      "file": "s11_g00",
+      "text": "En mujeres jóvenes en edad fértil que consultan por dolor en fosa ilíaca derecha, el primer error grave es olvidar solicitar una prueba de embarazo. Un embarazo ectópico roto o un quiste de ovario hemorrágico simulan con exactitud una apendicitis. La subunidad beta de gonadotrofina coriónica y la ecografía transvaginal son indispensables."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En niños pequeños, la adenitis mesentérica es un gran simulador tras un cuadro respiratorio alto viral. La ecografía demuestra ganglios mesentéricos inflamados y un apéndice sano compresible. El dolor suele ser más móvil y el niño no presenta la resistencia peritoneal focal típica."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Una trampa predilecta del EUNACOM es presentar un paciente con dolor típico en fosa ilíaca derecha y un sedimento urinario con quince a veinte leucocitos por campo. Esto no es una infección urinaria primaria: la vecindad del apéndice inflamado sobre el uréter derecho o la vejiga provoca leucocituria refleja por contigüidad. Si hay Blumberg y fiebre, el diagnóstico sigue siendo apendicitis aguda."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Analicemos esta pregunta real de julio de dos mil dieciséis. Una niña de siete años presenta doce horas de dolor en hipogastrio y fiebre de treinta y ocho coma siete grados, con irritación peritoneal franca dada por Blumberg positivo y contractura parietal. El laboratorio muestra dieciocho mil leucocitos, proteína C reactiva elevada y veinte leucocitos en la orina."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Se nos pregunta por el diagnóstico más probable."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las alternativas son: opción A, pielonefritis aguda; opción B, apendicitis aguda; opción C, infección del tracto urinario baja; opción D, torsión ovárica; y opción E, plastrón apendicular. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta correcta es la opción B, apendicitis aguda. Esta pregunta evalúa la trampa de la leucocituria en el sedimento de orina, que es refleja por contigüidad anatómica con el apéndice inflamado. La presencia de peritonitis con Blumberg y fiebre descarta una infección urinaria simple. Además, con doce horas de evolución no puede ser un plastrón, que requiere varios días."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Esta pregunta de diciembre de dos mil veintidós presenta una mujer joven con dolor abdominal intenso en fosa ilíaca derecha e hipogastrio que presenta un deterioro hemodinámico marcado a las dos horas de evolución hospitalaria, con taquicardia de ciento veinte e hipotensión de ochenta con cuarenta."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Nos preguntan por el diagnóstico más probable entre las alternativas ofrecidas."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: opción A, apendicitis aguda; opción B, perforación intestinal; opción C, torsión ovárica; opción D, absceso tubo-ovárico roto; y opción E, embarazo ectópico roto. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta oficial del examen es la opción A, apendicitis aguda complicada con shock séptico secundario a perforación aguda y peritonitis grave. El dolor que comienza y predomina en la fosa ilíaca derecha con evolución rápida a inestabilidad hemodinámica orienta con fuerza a esta urgencia en adultos jóvenes."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Revisemos esta excelente pregunta de julio de dos mil veinticuatro. Una mujer joven con dolor en fosa ilíaca derecha y defensa muscular simula clínicamente una apendicitis. Sin embargo, la ecografía transvaginal revela un tumor anexial quístico de diez centímetros con ausencia total de flujo vascular en el estudio Doppler."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Se nos pregunta por el diagnóstico más probable."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones son: opción A, apendicitis aguda; opción B, embarazo ectópico; opción C, proceso inflamatorio pélvico; opción D, tumor anexial torcido; y opción E, cáncer de ovario no complicado. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la opción D, tumor anexial torcido. Aunque la presentación clínica con dolor en fosa ilíaca derecha y defensa simula una apendicitis, el hallazgo de una masa ovárica mayor a cinco centímetros con ausencia de flujo Doppler confirma una torsión anexial. Esto exige laparoscopía urgente para detorsionar el ovario y evitar su necrosis."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Revisemos un caso representativo típico de las preguntas de plastrón. Un paciente con dolor de siete días de evolución presenta una masa palpable en fosa ilíaca derecha. La tomografía confirma un plastrón flemoso sin absceso coleccionado ni peritonitis difusa."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Se consulta por la conducta terapéutica más adecuada."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las alternativas son: opción A, apendicectomía abierta de urgencia; opción B, hemicolectomía derecha; opción C, drenaje percutáneo; opción D, hospitalización, reposo digestivo, antibióticos endovenosos y apendicectomía diferida en ocho a doce semanas; y opción E, alta con analgesia oral. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la opción D. Ante un plastrón apendicular flemoso no complicado con más de cinco días de evolución, la intervención quirúrgica de urgencia está formalmente desaconsejada por el riesgo de iatrogenia sobre asas friables. Se maneja médicamente con antibióticos endovenosos y se programa la apendicectomía de intervalo a las ocho a doce semanas."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Primera regla: el dolor que inicia sordo en el epigastrio o región periumbilical y migra tras seis a doce horas a la fosa ilíaca derecha es la cronología de Murphy, el patrón clínico más característico de la apendicitis aguda."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Segunda regla: un score de Alvarado de siete a diez puntos en un varón joven con clínica clásica justifica apendicectomía inmediata sin requerir estudios de imagen que retrasen la intervención."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Tercera regla: la tomografía computarizada con contraste intravenoso es el examen de elección en ancianos y cuadros dudosos; en embarazadas y niños, la ecografía es la primera línea obligada."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Cuarta regla: el plastrón apendicular de varios días sin absceso se maneja con tratamiento médico conservador y apendicectomía de intervalo en ocho a doce semanas; si hay un absceso de tres a cuatro centímetros o más, se realiza drenaje percutáneo."
+    },
+    {
+      "file": "s16_g04",
+      "text": "Si te llevas una sola idea de hoy: en la apendicitis aguda no complicada, la profilaxis antibiótica en la inducción quirúrgica es de dosis única; prolongar antibióticos en el postoperatorio es innecesario y se sanciona en el examen. Nos vemos en la próxima clase."
+    }
+  ]
+}

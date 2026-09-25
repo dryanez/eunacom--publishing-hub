@@ -1,0 +1,312 @@
+{
+  "id": "cirugia-09",
+  "title": "Cirugia 11.9: Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
+  "specialty": "Cirugía General",
+  "chars": 14092,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase de evaluación inicial del paciente politraumatizado. En el EUNACOM el trauma es una de las áreas más evaluadas con preguntas de conducta inmediata. Aquí la regla de oro es una sola: tratar primero la lesión que mata primero. Durante esta clase dominaremos la secuencia estricta del A-B-C-D-E, los accesos vasculares de reanimación, la clasificación del shock hemorrágico, las contraindicaciones absolutas de las sondas y los principios de la cirugía de control de daños. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La muerte por trauma sigue una distribución en tres picos temporales. El primer pico ocurre en segundos o minutos por lesiones devastadoras, como la rotura de la aorta torácica o la destrucción del tronco encefálico. Estas muertes solo se previenen con políticas de seguridad vial, no en la sala de urgencias."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo pico se produce en minutos a horas posteriores al impacto, la llamada hora dorada. Es causado por hemorragia masiva, neumotórax a tensión, taponamiento cardíaco o hematomas intracraneales. Este es el objetivo directo del protocolo ATLS: salvar la vida interviniendo de forma estandarizada y simultánea."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El tercer pico ocurre días o semanas más tarde en la unidad de cuidados intensivos, debido a sepsis, coagulopatía o falla multiorgánica. Si realizamos una reanimación inicial adecuada evitando la hipotermia y la acidosis, reducimos drásticamente este desenlace tardío."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En todo paciente que ha sufrido un trauma de alta energía se asume una lesión de columna cervical inestable. Está terminantemente prohibido hiperextender el cuello para abrir la vía aérea."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El collar cervical rígido tipo Philadelphia se coloca de inmediato. Si es necesario retirarlo para intubar o examinar la laringe, un segundo operador debe mantener la cabeza alineada manualmente en posición neutra con ambas manos."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Para permeabilizar la vía aérea sin mover el cuello se utiliza la tracción mandibular o elevación del mentón, retirando cuerpos extraños, sangre o secreciones con cánula de aspiración rígida."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La indicación más preguntada en el EUNACOM para intubación inmediata es la incapacidad de proteger la vía aérea, definida por un Glasgow menor o igual a ocho puntos, apnea, trauma maxilofacial grave o quemadura por inhalación."
+    },
+    {
+      "file": "s02_g04",
+      "text": "La intubación oro-traqueal se ejecuta mediante la técnica de cuatro manos: un operador inmoviliza la columna cervical desde la cabecera mientras el operador principal realiza la laringoscopía."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Todo paciente politraumatizado debe recibir oxígeno a alta concentración mediante mascarilla con bolsa de reservorio de no recirculación a diez a quince litros por minuto."
+    },
+    {
+      "file": "s03_g01",
+      "text": "En el paso B se busca de forma dirigida descartar tres grandes amenazas vitales inmediatas: el neumotórax a tensión, el neumotórax abierto y el tórax inestable o volante."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El neumotórax a tensión produce colapso circulatorio agudo por compresión de las venas cavas. Si el paciente tiene shock, timpanismo y ausencia de murmullo vesicular, está prohibido pedir radiografía de tórax."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La conducta inmediata es descompresión pleural urgente con aguja gruesa en el segundo espacio intercostal línea medioclavicular o en el quinto espacio intercostal línea axilar anterior, seguida de pleurostomía formal con tubo."
+    },
+    {
+      "file": "s03_g04",
+      "text": "En el neumotórax abierto se sella la herida con un parche oclusivo rectangular fijado solo en tres de sus cuatro bordes, actuando como una válvula de escape para que el aire salga pero no reingrese."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El sangrado externo activo se detiene mediante compresión directa sostenida sobre la herida. Si se trata de una extremidad con sangrado arterial exanguinante, se coloca un torniquete de inmediato y se anota la hora."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Se instalan dos vías venosas periféricas de grueso calibre, catorce o dieciséis gauge, en pliegue antebraquial. Si no se logran en noventa segundos, la alternativa inmediata es el acceso intraóseo tibial o humeral."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Está proscrito pasar grandes volúmenes de suero fisiológico frío, ya que diluyen los factores de coagulación, rompen coágulos blandos y provocan acidosis hiperclorémica. Se tolera una presión sistólica entre ochenta y noventa."
+    },
+    {
+      "file": "s04_g03",
+      "text": "En el shock hemorrágico severo se activa el protocolo de transfusión masiva administrando concentrados de glóbulos rojos, plasma fresco congelado y plaquetas en proporción balanceada uno a uno a uno."
+    },
+    {
+      "file": "s04_g04",
+      "text": "El ácido tranexámico disminuye la mortalidad por hemorragia al bloquear la fibrinólisis. Debe administrarse un gramo en bolo dentro de las primeras tres horas del trauma. Después de tres horas pierde beneficio y aumenta el riesgo."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El shock clase uno equivale a una donación de sangre estándar. El paciente está compensado, con pulso y presión normales."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En la clase dos aparece taquicardia refleja y disminución de la presión de pulso, aunque la presión sistólica todavía se mantiene normal gracias a la vasoconstricción."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La clase tres es el punto de quiebre: cae la presión arterial sistólica, hay oliguria y confusión. Requiere transfusión precoz de glóbulos rojos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La clase cuatro es una hemorragia exanguinante con riesgo de paro cardíaco inminente. Exige activación inmediata del protocolo de transfusión masiva y hemostasia quirúrgica."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Las fracturas pélvicas por compresión anteroposterior o impacto lateral rompen las venas del plexo presacro y ramas de la arteria ilíaca interna, acumulando litros de sangre en el retroperitoneo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si sospechas fractura de pelvis, examina la estabilidad pélvica una única vez. Movilizar o comprimir la pelvis repetidamente destruye los coágulos retroperitoneales y desata una hemorragia letal."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La fijación pélvica de urgencia se logra con una faja comercial o una sábana anudada con pinzas. Recuerda la referencia anatómica que pregunta el examen: debe centrarse a nivel de los trocánteres mayores, no sobre los flancos."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si el paciente sigue inestable pese a cerrar la pelvis, se traslada a angiografía para embolización arterial o a pabellón para empaquetamiento pélvico preperitoneal de control de daños."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El nivel de conciencia se documenta con la escala de Glasgow al ingreso. Permite clasificar el traumatismo encéfalo-craneano en leve con trece a quince puntos, moderado con nueve a doce puntos y severo con tres a ocho puntos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Cualquier caída de dos puntos o más en la escala de Glasgow durante la observación obliga a una reevaluación urgente y a descartar un hematoma epidural o subdural con tomografía inmediata."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Una pupila dilatada que no responde a la luz en un paciente con trauma craneano es un signo de herniación del uncus temporal que comprime el tercer par craneal del mismo lado. Es una emergencia neuroquirúrgica absoluta."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Otra trampa clásica del examen: si un paciente politraumatizado huele a alcohol o tiene test de drogas positivo pero está en coma, jamás atribuyas el compromiso al alcohol. La causa es un trauma craneano hasta demostrar lo contrario."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El paciente debe ser desnudado por completo para no pasar por alto heridas penetrantes en glúteos, axilas o periné. Toda la ropa se corta rápidamente evitando movimientos bruscos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Para examinar la columna, el dorso y realizar el tacto rectal se realiza un giro en bloque de noventa grados guiado exclusivamente por la voz del operador que sostiene la cabeza."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La tríada letal es la causa biológica de muerte en trauma severo: la hipotermia por debajo de treinta y cinco grados desactiva las enzimas de la coagulación, la hipoperfusión genera acidosis láctica y ambas perpetúan una coagulopatía refractaria."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Para prevenirla, inmediatamente después del examen se cubre al paciente con mantas de aire caliente, se infunden sueros y hemoderivados a treinta y nueve grados y se mantiene el box de reanimación a veintisiete grados."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Las únicas radiografías que se justifican durante la evaluación primaria son la radiografía anteroposterior de tórax y la radiografía de pelvis. Ambas se toman con equipo portátil en el box."
+    },
+    {
+      "file": "s09_g01",
+      "text": "El Eco-FAST se realiza en la camilla de reanimación buscando líquido libre en la ventana hepatorrenal o espacio de Morrison, periesplénica, pelvis y ventana subxifoidea para taponamiento cardíaco."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si el paciente presenta sangre en el meato uretral, hematoma perineal en alas de mariposa o próstata ascendida al tacto rectal, está contraindicada la sonda Foley. Se solicita uretrocistografía retrógrada o se realiza cistostomía."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si hay sospecha de fractura de base de cráneo con equimosis periorbitaria o rinorrea de líquido cefalorraquídeo, está prohibido colocar sonda por la nariz por riesgo de penetración intracraneal. Se instala sonda orogástrica."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Iniciamos la evaluación primaria A-B-C-D-E con reanimación simultánea."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Evaluamos si la vía aérea está permeable y si el paciente es capaz de protegerla."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Se realiza intubación oro-traqueal manteniendo alineación cervical manual neutra por un segundo operador."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Con la vía aérea protegida, pasamos de inmediato al paso B de ventilación."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Se mantiene el collar cervical y se administra oxígeno a diez a quince litros por minuto."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Buscamos activamente lesiones torácicas con riesgo vital inminente."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Se realiza toracostomía con aguja y luego pleurostomía formal sin esperar radiografía de tórax."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Se confirma adecuada ventilación y se avanza al paso C circulatorio."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Evaluamos pulso, presión arterial y hemostasia externa."
+    },
+    {
+      "file": "s10_g09",
+      "text": "Se aplica compresión firme o torniquete proximal en la extremidad afectada."
+    },
+    {
+      "file": "s10_g10",
+      "text": "Se activa protocolo de transfusión masiva balanceado y se infunde ácido tranexámico antes de tres horas."
+    },
+    {
+      "file": "s10_g11",
+      "text": "Se estabiliza el anillo pélvico a nivel trocantérico y se planifica angioembolización o pabellón."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La evaluación secundaria solo se realiza cuando las funciones vitales han sido normalizadas y la reanimación está en marcha. Si el paciente se deteriora, se vuelve de inmediato al paso A."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La historia se obtiene con la regla AMPLIA: alergias, medicamentos habituales, patologías previas y embarazo, libaciones o última ingesta y ambiente o detalles del incidente."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En el paciente in extremis se aplica la cirugía de control de daños. La etapa uno es una laparotomía de treinta a sesenta minutos para cohibir sangrados y controlar fugas digestivas con empaquetamiento o packing con compresas."
+    },
+    {
+      "file": "s11_g03",
+      "text": "El abdomen no se cierra para evitar la hipertensión intraabdominal. La etapa dos es la corrección en la unidad de cuidados intensivos de la tríada letal. La etapa tres es la cirugía definitiva a las cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Un paciente en coma no puede ir al tomógrafo sin vía aérea segura. La intubación orotraqueal con técnica de cuatro manos precede a cualquier imagen."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Nunca esperes una radiografía ante un neumotórax a tensión. El diagnóstico es puramente clínico y la descompresión es inmediata."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Forzar una sonda Foley ante una rotura uretral transforma un desgarro parcial en una sección completa e introduce gérmenes a un hematoma pélvico."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La sobrecarga masiva de cristaloides diluye plaquetas, congela al paciente y empeora la coagulopatía. La reanimación moderna es con hemoderivados."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Revisemos esta pregunta representativa del protocolo ATLS. Un paciente joven politraumatizado ingresa estuporoso con cuatro puntos en la escala de coma de Glasgow tras un accidente en motocicleta."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la primera medida prioritaria que se debe realizar?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las alternativas proponen: trasladar a pabellón de inmediato, intubación orotraqueal con estabilización cervical en línea, tomografía computarizada cerebral urgente, dos litros de suero en bolo o sonda nasogástrica. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B. Con un puntaje en la escala de Glasgow menor o igual a ocho puntos, el paciente es incapaz de proteger su vía aérea y tiene riesgo inminente de aspiración y muerte por asfixia. La prioridad indiscutible del paso A es la intubación orotraqueal con fijación manual en línea bimanual retirando temporalmente la valva anterior del collar."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Veamos este caso cardinal sobre manejo de vías y anexos. Un paciente politraumatizado hipotenso presenta sangre en el meato uretral y un hematoma perineal en alas de mariposa."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta correcta respecto al cateterismo urinario?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las alternativas plantean: pasar sonda Foley con presión suave, contraindicar sonda Foley y evaluar cistostomía o uretrografía, instalar sonda nasogástrica y Foley, dilatar con bujías o punción a ciegas. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B. La tríada de sangre en el meato uretral, hematoma perineal y próstata flotante indica rotura uretral. El paso a ciegas de una sonda Foley está estrictamente prohibido porque convierte un desgarro parcial en una sección completa y contamina el espacio pélvico. Debe solicitarse uretrografía retrógrada o realizar una cistostomía suprapúbica."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Analicemos esta pregunta sobre farmacología del trauma. Se consulta por el beneficio y momento de indicación del ácido tranexámico en la reanimación del shock hemorrágico por politraumatismo."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el beneficio comprobado del ácido tranexámico?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones son: aumentar la agregación plaquetaria después de cuatro horas, reducir la mortalidad por hemorragia administrado antes de las tres horas, revertir anticoagulantes orales, prevenir falla renal o reemplazar las plaquetas. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la B. El ácido tranexámico es un antifibrinolítico que reduce la mortalidad en trauma sangrante si se administra de forma precoz, dentro de las primeras tres horas del impacto. Administrado más tarde de ese plazo no aporta beneficio e incluso puede elevar la mortalidad tromboembólica."
+    },
+    {
+      "file": "s16_g00",
+      "text": "La evaluación primaria es dinámica: nunca avances al siguiente paso sin haber controlado y resuelto la amenaza del paso previo."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Todo paciente con Glasgow menor o igual a ocho puntos requiere vía aérea definitiva mediante intubación oro-traqueal con inmovilización cervical manual en línea."
+    },
+    {
+      "file": "s16_g02",
+      "text": "El neumotórax a tensión es una emergencia clínica pura: punciona y descomprime de inmediato sin esperar imágenes."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Ante sospecha de rotura uretral por uretrorragia o hematoma perineal, la sonda Foley está estrictamente prohibida."
+    },
+    {
+      "file": "s16_g04",
+      "text": "Si te llevas una sola idea de hoy: en el politraumatizado grave, la hipotermia, la acidosis y la coagulopatía forman un círculo vicioso letal. Reanima precozmente con hemoderivados balanceados uno a uno a uno, ácido tranexámico antes de tres horas y calentamiento activo para preservar la vida. Nos vemos en la próxima clase."
+    }
+  ]
+}

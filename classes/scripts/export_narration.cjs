@@ -20,7 +20,7 @@ const ALL = args.includes('--all');
 const ids = args.filter(a => !a.startsWith('--'));
 
 const html = fs.readFileSync(path.join(ROOT, 'classes', 'decks', 'Reproductor_Suiza_Oficial.html'), 'utf8');
-const classes = JSON.parse(html.match(/const CLASSES = (\[.*?\]);\n/s)[1]);
+const classes = JSON.parse(html.match(/const CLASSES = (\[.*?\]);\r?\n/s)[1]);
 const lessonIds = new Set(fs.readdirSync(path.join(ROOT, 'classes', 'lessons'))
   .filter(f => f.endsWith('.cjs')).map(f => f.replace(/\.cjs$/, '')));
 

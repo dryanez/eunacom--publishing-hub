@@ -1,0 +1,296 @@
+{
+  "id": "cirugia-12",
+  "title": "Cirugia 11.12: Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
+  "specialty": "Cirugía General",
+  "chars": 12800,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase de traumatismo encéfalo-craneano. En el EUNACOM el TEC es un tema cardinal donde se evalúan decisiones diagnósticas y terapéuticas impostergables. En esta sesión dominaremos la clasificación por severidad según la escala de Glasgow, las reglas clínicas precisas para indicar tomografía computarizada en TEC leve, la diferenciación anatómica y tomográfica entre hematoma epidural y subdural, y el manejo intensivo de la hipertensión endocraneana evitando los errores farmacológicos fatales. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La cavidad craneal es una estructura rígida con un volumen total fijo. De acuerdo con la doctrina de Monro-Kellie, este espacio está ocupado por tres componentes en equilibrio: el parénquima cerebral que representa el ochenta por ciento, la sangre con un diez por ciento y el líquido cefalorraquídeo con el diez por ciento restante."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando aparece una masa adicional, como un hematoma epidural o subdural, el sistema compensa inicialmente desplazando líquido cefalorraquídeo hacia el canal espinal y vaciando sangre venosa de los senos durales. Una vez agotada esta reserva elástica, pequeños aumentos de volumen disparan de manera exponencial la presión intracraneana."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La presión de perfusión cerebral es igual a la presión arterial media menos la presión intracraneana. Si la PIC se eleva por encima de veinte milímetros de mercurio o si el paciente cae en hipotensión sistémica, la perfusión cerebral colapsa provocando isquemia cerebral secundaria masiva o herniación encefálica fatal."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El TEC leve tiene entre trece y quince puntos. La inmensa mayoría se recupera favorablemente, pero un subgrupo de alto riesgo puede deteriorarse rápidamente por un hematoma expansivo oculto."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El TEC moderado tiene entre nueve y doce puntos. Todos requieren tomografía de encéfalo inmediata y hospitalización en sala de intermedio para monitoreo neurológico estricto."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El TEC grave tiene un puntaje menor o igual a ocho puntos. Constituye una emergencia vital absoluta que exige intubación orotraqueal inmediata y traslado a una unidad de pacientes críticos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La hipotensión es el factor pronóstico modificable más destructivo. Un solo episodio de presión arterial sistólica menor a noventa milímetros de mercurio duplica la mortalidad en el TEC grave."
+    },
+    {
+      "file": "s02_g04",
+      "text": "La hipoxemia agrava de inmediato la isquemia celular. Se debe asegurar saturación sobre noventa y cuatro por ciento y presión arterial de oxígeno mayor a ochenta milímetros de mercurio."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Si el paciente no recupera un Glasgow de quince puntos tras dos horas de observación en urgencias, la tomografía de encéfalo sin contraste es mandatoria."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Todo adulto mayor de sesenta y cinco años que sufre un golpe en la cabeza tiene indicación formal de escáner, aunque esté lúcido con quince puntos al ingreso."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El antecedente de anticoagulación oral o terapia antiplaquetaria obliga a realizar tomografía urgente sin importar lo leve que haya sido el traumatismo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La presencia de dos o más vómitos explosivos o una amnesia del evento mayor a treinta minutos justifican plenamente la realización de un escáner craneal."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Cualquier irregularidad ósea o signo de fractura craneal exige tomografía inmediata para descartar desgarros durales y neumoencéfalo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El signo de los ojos de mapache consiste en equimosis periorbitaria bilateral sin compromiso ocular directo, característica de fractura del techo orbitario y fosa anterior."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El signo de Battle es una mancha equimótica sobre la apófisis mastoides que aparece doce a veinticuatro horas después por rotura de la base temporal."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La salida de líquido claro por nariz o conducto auditivo traduce fístula dural. Al gotear en una gasa forma un anillo transparente periférico rodeando el centro hemático, el signo del halo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Grábate esta trampa de examen: ante sospecha de fractura de base de cráneo está contraindicada la sonda nasogástrica. Debe usarse siempre una sonda orogástrica por la boca."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El epidural sangra por rotura de la arteria meníngea media tras fractura del hueso temporal. El subdural sangra por desgarro de las venas puente que van hacia el seno longitudinal."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El epidural se ubica por fuera de la duramadre en un espacio virtual que debe despegarse a presión arterial. El subdural se acumula libremente bajo la duramadre."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En el escáner el epidural forma una lente biconvexa que no cruza las suturas craneales porque la duramadre está adherida al hueso. El subdural forma una semiluna que sí cruza suturas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El epidural presenta el clásico intervalo lúcido: golpe, recuperación momentánea y caída súbita en coma con midriasis. El subdural suele presentar deterioro continuo desde el impacto."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El epidural tiene excelente pronóstico si se drena de inmediato porque el cerebro subyacente suele estar intacto. El subdural tiene alta mortalidad por daño parenquimatoso severo concurrente."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El pterion es el punto más delgado de la bóveda craneal. Una fractura lineal en esta zona desgarra directamente la arteria meníngea media."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El paciente se despierta lúcido tras el golpe inicial creyendo estar bien, pero mientras la sangre arterial acumula presión, el hematoma despega la duramadre hasta provocar herniación."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El lóbulo temporal herniado comprime las fibras parasimpáticas periféricas del tercer par craneal ipsilateral, provocando midriasis fija."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La compresión de la vía piramidal en el mesencéfalo produce hemiparesia o hemiplejia en el lado contrario al hematoma."
+    },
+    {
+      "file": "s06_g04",
+      "text": "El tratamiento es la craneotomía de urgencia con evacuación del coágulo y coagulación del vaso sangrante, revirtiendo el cuadro por completo si se hace a tiempo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El hematoma subdural agudo aparece en las primeras setenta y dos horas. Se asocia a laceración cortical severa y edema masivo del hemisferio."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Requiere craneotomía si el espesor del hematoma supera diez milímetros o si produce una desviación de la línea media mayor a cinco milímetros en la tomografía."
+    },
+    {
+      "file": "s07_g02",
+      "text": "En adultos mayores con atrofia cerebral o alcoholismo, un golpe menor desapercibido semanas antes desgarra una vena puente. El hematoma se licúa lentamente y forma una cápsula."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Suele confundirse con demencia senil o depresión. El escáner muestra una colección hipodensa o isodensa en semiluna que se resuelve mediante orificios de trépano bajo anestesia local."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La cama debe mantenerse con elevación cefálica de treinta grados y el cuello estrictamente alineado para optimizar el retorno venoso cerebral por las yugulares."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Se mantiene normocapnia. La hipocapnia produce vasoconstricción cerebral e isquemia; la hipercapnia causa vasodilatación e hipertensión endocraneana refractaria."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La meta terapéutica es mantener la presión de perfusión cerebral por encima de sesenta a setenta milímetros de mercurio, optimizando la presión arterial media con noradrenalina si es necesario."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si el paciente tiene presión arterial límite o hipotensión, el suero salino hipertónico al tres por ciento es el fármaco de elección porque expande la volemia mientras reduce el edema cerebral."
+    },
+    {
+      "file": "s08_g04",
+      "text": "El manitol está contraindicado si la presión arterial sistólica es menor a noventa milímetros de mercurio, ya que su diuresis osmótica desata una hipovolemia que agrava la isquemia cerebral."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si la presión intracraneana se mantiene sobre veinte milímetros de mercurio refractaria a medidas médicas, se realiza una craniectomía descompresiva amplia para evitar el enclavamiento mortal."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Iniciamos el enfrentamiento clínico clasificando la severidad según el puntaje de la escala de Glasgow."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Evaluamos si el paciente presenta criterios de las reglas canadiense o de New Orleans para indicar escáner."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Solicitamos tomografía computarizada sin contraste inmediata y mantenemos en observación hospitalaria."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Se traslada de inmediato a pabellón neuroquirúrgico para descompresión craneal antes del deterioro."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si el paciente no tiene factores de riesgo, se observa durante seis horas y se da de alta con instrucciones escritas."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Todo paciente con TEC moderado requiere tomografía computarizada sin contraste y vigilancia continua."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Cualquier caída en la escala de Glasgow exige repetir el escáner y evaluar intervención quirúrgica urgente."
+    },
+    {
+      "file": "s09_g07",
+      "text": "El TEC grave exige aseguramiento de la vía aérea con intubación inmediata y ventilación controlada."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Se instala catéter de monitoreo de presión intracraneana y se optimiza la presión arterial media."
+    },
+    {
+      "file": "s09_g09",
+      "text": "Si la PIC supera veinte milímetros de mercurio se administra suero hipertónico y se realiza craniectomía descompresiva."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Los ancianos anticoagulados pueden tener hematomas subdurales asintomáticos al inicio que sangran horas después. El escáner es obligatorio."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Pasar manitol en un paciente hipotenso agrava el colapso hemodinámico y precipita la isquemia cerebral secundaria."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Introducir una sonda por la nariz ante una fractura de base de cráneo puede perforar la lámina cribosa y alojarse dentro del cerebro."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La radiografía simple de cráneo no descarta hemorragia intracraneal y no tiene utilidad en el algoritmo de urgencias."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Revisemos este caso clásico de la patología neuroquirúrgica de urgencia. Un joven sufre un traumatismo craneano, se recupera completamente, pero a las dos horas cae súbitamente en coma con midriasis pupilar derecha fija."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las alternativas proponen: hemorragia subaracnoidea, hematoma epidural agudo por rotura de arteria meníngea media, hematoma subdural crónico, trombosis venosa o contusión cerebral. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La respuesta correcta es la B, hematoma epidural agudo. El intervalo lúcido seguido de coma y midriasis ipsilateral por herniación del uncus temporal comprimiendo el tercer par craneal es la presentación de libro de la rotura de la arteria meníngea media. Requiere craneotomía urgente."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Analicemos este caso clínico sobre reglas de decisión en TEC leve. Una paciente de setenta y dos años usuaria de apixabán sufre una caída doméstica menor y se encuentra totalmente lúcida con quince puntos en la escala de Glasgow."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada a seguir?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones son: alta inmediata, tomografía computarizada de encéfalo sin contraste urgente, radiografía simple de cráneo, suspender anticoagulante con control ambulatorio o administrar complejo protrombínico. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta correcta es la B, solicitar tomografía de encéfalo sin contraste de urgencia. Jamás des de alta a un paciente anticoagulado mayor de sesenta y cinco años con TEC sin una tomografía previa. La atrofia cortical estira las venas puente y permite que los hematomas subdurales alcancen volúmenes peligrosos antes de dar síntomas."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Revisemos esta pregunta sobre semiología radiológica en neurotrauma. Se consulta por la imagen tomográfica característica del hematoma subdural agudo."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el patrón imagenológico que lo define?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las alternativas describen: lente biconvexa que respeta suturas, semiluna cóncava que bordea el hemisferio y cruza suturas, hiperdensidad en cisternas de la base, petequias en sustancia blanca o colección hipodensa capsulada. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la B, colección hiperdensa en semiluna cóncava que cruza suturas craneales. Recuerda la diferencia geométrica clave: el hematoma epidural es una lente biconvexa que respeta las suturas, mientras que el subdural es una semiluna que se expande por toda la convexidad y sí cruza las líneas de sutura ósea."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Veamos este escenario crítico de neurointensivo. Un paciente con TEC grave tiene hipertensión endocraneana con PIC de veintiocho milímetros de mercurio, pero se encuentra hipotenso con ochenta y cinco con cincuenta de presión arterial."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el error terapéutico que se debe evitar a toda costa?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las alternativas proponen: usar noradrenalina, indicar manitol al veinte por ciento en bolo con hipotensión, elevar cabecera a treinta grados, mantener normocapnia o infundir suero fisiológico. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B, indicar manitol al veinte por ciento en presencia de hipotensión. Con una presión de perfusión cerebral de solo treinta y tres milímetros de mercurio, el manitol causa diuresis masiva que derrumba aún más la presión arterial, matando el tejido cerebral por isquemia. En este escenario se usa suero salino hipertónico al tres por ciento y noradrenalina."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La hipotensión sistémica es el peor enemigo del cerebro lesionado: mantén la presión sistólica sobre cien y la perfusión cerebral sobre sesenta."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Si la PIC está alta pero el paciente está hipotenso, el manitol está contraindicado: el fármaco osmótico de elección es el suero salino hipertónico."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Nunca confíes en un Glasgow de quince en un anciano anticoagulado: el TAC sin contraste es obligatorio para descartar hematoma subdural."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Si te llevas una sola idea de hoy: la tríada de impacto craneal, intervalo lúcido transitorio y posterior caída en coma con midriasis pupilar ipsilateral es patognomónica del hematoma epidural agudo por rotura de la arteria meníngea media. Requiere craneotomía y evacuación inmediata para salvar la vida antes del enclavamiento. Nos vemos en la próxima clase."
+    }
+  ]
+}

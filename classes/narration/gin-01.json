@@ -1,0 +1,296 @@
+{
+  "id": "gin-01",
+  "title": "Ginecologia 20.1: Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+  "specialty": "Ginecología",
+  "chars": 13858,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Empezamos el bloque de endocrinología ginecológica con la fisiología del ciclo menstrual y el estudio de la amenorrea, uno de los temas de mayor rentabilidad del examen. La buena noticia es que casi todo se resuelve con un solo hábito: seguir el estudio paso a paso, sin saltarte ninguno. Primero vemos el mecanismo del ciclo, porque te va a explicar cada paso del algoritmo. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo, porque te va a explicar todo el algoritmo que viene. En la fase folicular, la secreción pulsátil de GnRH estimula la FSH, que recluta una cohorte de folículos. Aquí funciona la teoría de las dos células: la teca produce andrógenos por estímulo de la LH, y la granulosa los aromatiza a estrógenos por estímulo de la FSH."
+    },
+    {
+      "file": "s01_g01",
+      "text": "De esa cohorte se selecciona un folículo dominante, que produce cantidades crecientes de estradiol y hace proliferar el endometrio."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Cuando el estradiol supera un umbral crítico, sobre doscientos picogramos por mililitro sostenido más de cuarenta y ocho horas, pasa algo contraintuitivo: en vez de frenar a la hipófisis, la estimula. Es un feedback positivo, y dispara el pico masivo de LH."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Ese pico de LH es el gatillo: la ovulación ocurre treinta y seis horas después de que empieza el pico."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El folículo que quedó vacío se transforma en cuerpo lúteo bajo la LH, y secreta grandes cantidades de progesterona, que transforma el endometrio en fase secretora, lista para recibir un embarazo."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Si no hay fecundación, el cuerpo lúteo degenera a los catorce días, caen de golpe el estrógeno y la progesterona, y esa caída hormonal es la que produce la descamación del endometrio: la menstruación. Guarda esta idea, porque cada paso del algoritmo de amenorrea que viene pregunta por uno de estos eslabones."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Empecemos por la amenorrea primaria con útero ausente, porque el examen la separa por el cariotipo. Con cariotipo cuarenta y seis XX está el síndrome de Rokitansky, o agenesia mülleriana: hay agenesia congénita del útero y de los dos tercios superiores de la vagina, que termina en un fondo ciego."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y fíjate en el resto del examen: los ovarios funcionan normal, así que las mamas y el vello púbico se desarrollan con normalidad. La paciente es biológicamente fértil por fertilización in vitro con maternidad subrogada, aunque nunca va a menstruar."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El otro grupo, con útero ausente, tiene cariotipo cuarenta y seis XY: es el síndrome de Morris, o insensibilidad completa a los andrógenos. La testosterona se aromatiza en la periferia a estrógenos, así que las mamas se desarrollan bien. Pero como el receptor de andrógenos no funciona, no hay vello púbico ni axilar. Ese contraste, mamas sí y vello no, es la pista que el examen usa para separarlo de Rokitansky."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Los testículos quedan intraabdominales o inguinales, y hay que extirparlos una vez completada la pubertad, por el riesgo de gonadoblastoma."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Cuando el útero está presente, la FSH te dice dónde está el problema. Si la FSH está elevada, es que el ovario no responde: falla ovárica. El ejemplo clásico es el síndrome de Turner, cariotipo cuarenta y cinco equis cero, con talla baja, cuello alado y coartación aórtica."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y la disgenesia gonadal pura, el síndrome de Swyer, con cariotipo cuarenta y seis XY, sin desarrollo mamario y con gónadas en cintilla de alto riesgo tumoral."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si en cambio la FSH está baja, el problema está arriba, en el hipotálamo o la hipófisis. El caso que se pregunta siempre es el síndrome de Kallmann: falla en la migración de las neuronas de GnRH, que se asocia a anosmia o hiposmia. Amenorrea primaria más pérdida del olfato es Kallmann, sin necesidad de pensar en nada más."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Repasemos en una tabla. Rokitansky, cuarenta y seis XX, sin útero, con mamas y vello normales."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Morris, cuarenta y seis XY, también sin útero, pero con mamas sí y vello no. Esa es toda la diferencia que necesitas para separarlos."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Turner, cuarenta y cinco equis cero, con útero presente pero pequeño, talla baja y cuello alado."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Kallmann, con útero presente y la pista es la anosmia."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y el himen imperforado, con útero presente: da dolor pélvico cíclico que va creciendo, pero sin sangrado visible, porque la sangre se acumula detrás del himen."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora el algoritmo que más se pregunta: la amenorrea secundaria, que se define como ausencia de menstruación por tres meses o más en una mujer con ciclos previos regulares, o por seis meses si ya era oligomenorreica. Y la regla de oro es esta: el estudio es escalonado, y nunca te saltas un paso."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El primer examen, siempre, sin excepción, es la beta hCG. Es la causa más común de amenorrea secundaria en el mundo, y saltártela es el error que el examen más castiga."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si es positiva, ahí termina el estudio: es un embarazo, y lo que sigue es el control prenatal."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si es negativa, el paso dos es TSH y prolactina. El hipotiroidismo eleva la TRH, que a su vez estimula la prolactina; y la hiperprolactinemia por sí sola frena los pulsos de GnRH y también da galactorrea."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El paso tres es el test de progesterona: se da medroxiprogesterona oral por varios días y se observa si la paciente sangra al suspenderla."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si sangra, el mensaje es claro: el endometrio ya estaba proliferado por estrógenos propios, pero la paciente no está ovulando. Es anovulación, y su causa más frecuente es el ovario poliquístico, que vemos en la próxima clase."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si no sangra, todavía no tienes el diagnóstico: falta separar un problema anatómico de uno hormonal. El paso siguiente es dar estrógeno más progesterona; si tampoco sangra, sospechas Asherman, una obstrucción del útero. Y si sí sangra, pides FSH y LH: si están altas, es falla ovárica; si están bajas o normales, es una falla hipotalámica o hipofisiaria."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Veamos el tratamiento de cada causa. La hiperprolactinemia y el prolactinoma se tratan con un agonista dopaminérgico, la cabergolina, que normaliza la prolactina y hace regresar el tumor."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La amenorrea hipotalámica funcional, típica del estrés crónico, la anorexia o el ejercicio extenuante, se trata recuperando peso y reduciendo el gasto energético, para reactivar los pulsos naturales de GnRH. No se empieza con fármacos."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y el síndrome de Asherman, casi siempre después de un legrado, se trata con histeroscopía, liberando las sinequias uterinas y usando después una sonda con estrógenos a dosis altas para restaurar la cavidad."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Tres alarmas que el examen espera que reconozcas. La primera: un macroprolactinoma que crece hacia arriba puede comprimir el quiasma óptico y dar hemianopsia bitemporal. Eso es una resonancia urgente y cabergolina de inmediato."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La segunda: toda gónada disgenética con línea celular Y, como en Morris o en Swyer, tiene riesgo de gonadoblastoma. Se opera después de completar la pubertad en Morris, y de inmediato en Swyer, porque ahí no hay pubertad que esperar."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y la tercera: la insuficiencia ovárica prematura, antes de los cuarenta años, se acompaña de osteoporosis acelerada y riesgo cardiovascular. Por eso se indica terapia hormonal de reemplazo, obligatoria, hasta la edad promedio de la menopausia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora armemos el algoritmo completo de la amenorrea secundaria en un solo árbol, tal como lo vas a razonar en el examen. Mujer en edad fértil que dejó de menstruar. El estudio es escalonado: cada paso decide si sigues o si ya tienes el diagnóstico."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Lo primero, sin excepción, es descartar embarazo."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Es la causa más frecuente de amenorrea secundaria en el mundo. Aquí termina el estudio."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Con el embarazo descartado, el paso dos es TSH y prolactina."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Con TSH y prolactina normales, el paso tres es dar un progestágeno y ver si la paciente sangra al suspenderlo."
+    },
+    {
+      "file": "s08_g05",
+      "text": "El endometrio ya estaba proliferado por estrógenos propios, pero no hay ovulación. Es el diagnóstico más frecuente en mujeres jóvenes."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no sangra con progesterona sola, falta separar lo anatómico de lo hormonal: se da un ciclo combinado de estrógeno y progesterona."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si tampoco sangra con estrógeno más progesterona, el problema es anatómico: sinequias uterinas o estenosis del canal. Se confirma y se trata con histeroscopía."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si sangra, el tracto de salida funciona: el problema es hormonal, y la FSH dice dónde."
+    },
+    {
+      "file": "s08_g09",
+      "text": "FSH muy elevada antes de los cuarenta años es insuficiencia ovárica prematura. Requiere terapia de reemplazo hormonal para proteger hueso y corazón."
+    },
+    {
+      "file": "s08_g10",
+      "text": "FSH baja o normal es un hipogonadismo hipogonadotrópico: la causa está en el hipotálamo o la hipófisis, por estrés, bajo peso, ejercicio extremo, o un tumor selar."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Amenorrea con embarazo ya descartado: sigue el orden, TSH, prolactina y test de progesterona. El error es saltarse pasos y pedir cariotipo o ecografía de una vez."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Test de progesterona positivo: es anovulación con estrógenos presentes, casi siempre ovario poliquístico. No lo confundas con falla ovárica, que da un test negativo."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si el test combinado de estrógeno y progesterona no sangra, y hay antecedente de legrado, sospecha Asherman y confírmalo con histeroscopía. El error es seguir pidiendo hormonas en vez de mirar la cavidad."
+    },
+    {
+      "file": "s09_g03",
+      "text": "FSH muy elevada antes de los cuarenta: insuficiencia ovárica prematura, con terapia de reemplazo obligatoria. El error es observar, sin proteger el hueso ni el corazón."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Amenorrea primaria con anosmia es Kallmann. El error es pensar primero en Turner y pedir cariotipo, cuando la anosmia ya te dio el diagnóstico."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y amenorrea primaria con mamas presentes pero sin vello: es Morris, y se confirma con cariotipo. El error es asumir que es Rokitansky sin pedirlo, porque en Rokitansky el vello es normal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Mujer de diecisiete años con amenorrea primaria. Al examen tiene un desarrollo mamario avanzado, pero ausencia completa de vello axilar y púbico. La vagina termina en un fondo ciego corto, y se palpan masas móviles y no dolorosas en ambos conductos inguinales. El cariotipo está pendiente."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: síndrome de Rokitansky, síndrome de Morris, síndrome de Turner, síndrome de Kallmann, o himen imperforado. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, síndrome de Morris. El contraste que lo define es este: mamas bien desarrolladas, pero sin nada de vello púbico ni axilar. En Rokitansky el vello sería normal. Y las masas inguinales son los testículos, que confirman que estamos ante un cariotipo cuarenta y seis XY, no una falla ovárica ni una anomalía anatómica aislada."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos con preguntas reales. Esta es del EUNACOM de julio de dos mil veinticuatro. Paciente de veinticuatro años con siete semanas sin menstruar. Su examen físico es normal."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: la beta hCG, la FSH, la ecografía transvaginal, la prolactina, o la TSH. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. Da igual lo que sospeches: el estudio de toda amenorrea empieza siempre por la beta hCG. Ni la FSH, ni la ecografía, ni las hormonas tiroideas o la prolactina van antes. Esta pregunta está hecha para premiar al que respeta el orden del algoritmo."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Esta es del mismo examen, julio de dos mil veinticuatro. Mujer de treinta y ocho años, con cuatro partos y cinco abortos que requirieron legrado, que nota cómo su regla se va haciendo cada vez más escasa hasta caer en amenorrea desde hace cien días."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: síndrome de Asherman, menopausia precoz, hiperprolactinemia, ovario poliquístico, o hipopituitarismo. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, síndrome de Asherman. La pista no es solo la amenorrea: es que el flujo se fue reduciendo progresivamente después de varios legrados, hasta desaparecer. Eso describe una cavidad uterina que se va cicatrizando y obliterando, no una falla hormonal. Ni la menopausia precoz ni el ovario poliquístico explican esa disminución progresiva ligada a los legrados."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Esta es del EUNACOM de agosto de dos mil veintiuno. Paciente de diecisiete años con cuatro meses de amenorrea. Test de embarazo negativo, TSH y prolactina normales. Su test de progesterona sale negativo, pero el test de estrógeno más progesterona sale positivo. Y la LH y la FSH están normales, en el límite bajo."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: macroadenoma hipofisiario, falla ovárica primaria, embarazo ectópico, amenorrea hipotalámica, u ovario poliquístico. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D. Sigue el algoritmo paso por paso: progesterona negativa descarta la anovulación con estrógenos presentes, que sería el ovario poliquístico. El test combinado positivo te dice que el tracto de salida funciona. Y con la FSH en el límite bajo, el hipogonadismo es hipogonadotrópico, no hipergonadotrópico como en la falla ovárica. Es un truco que se repite: el hipo con hipo, es hipo hipo, hipotálamo o hipófisis."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Y esta es una trampa clásica, del EUNACOM de julio de dos mil dieciséis. Niña de catorce años que aún no tiene su primera regla, pero con desarrollo puberal ya iniciado, mamas y vello púbico presentes, además de vello axilar. El resto del examen es normal."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: pedir ecografía, pedir cariotipo, pedir estradiol y gonadotrofinas, hacer un test de progesterona, o controlar en un año. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E. Y la razón es que todavía no hay nada que estudiar: la amenorrea primaria se define a los quince años cuando hay caracteres sexuales secundarios presentes, y esta niña tiene solo catorce, con la pubertad ya en marcha. Pedir exámenes ahora es adelantarse a la definición. El examen te está probando si sabes cuándo empieza el reloj, no solo el algoritmo."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. El estradiol alto es el que gatilla el pico de LH, y ese pico es el que produce la ovulación; sin fecundación, la caída hormonal produce la regla."
+    },
+    {
+      "file": "s15_g01",
+      "text": "En la amenorrea primaria, si hay mamas pero no vello, es Morris; si hay mamas y vello normales pero no útero, es Rokitansky. La anosmia es Kallmann."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Y en la amenorrea secundaria, el primer paso es siempre la beta hCG, y después sigue el orden: TSH y prolactina, test de progesterona, test combinado, y por último la FSH. Si te llevas una sola idea de hoy: nunca te saltes un paso del algoritmo. Nos vemos en la próxima clase, con el ovario poliquístico."
+    }
+  ]
+}

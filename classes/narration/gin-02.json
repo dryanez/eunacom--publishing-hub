@@ -1,0 +1,216 @@
+{
+  "id": "gin-02",
+  "title": "Ginecologia 20.2: Síndrome de Ovario Poliquístico (SOP): Criterios de Rotterdam, Resistencia a la Insulina y Manejo",
+  "specialty": "Ginecología",
+  "chars": 9231,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Seguimos con el ovario poliquístico, la endocrinopatía más frecuente en mujeres en edad fértil y la continuación natural de la clase anterior: allá vimos que un test de progesterona positivo apunta a anovulación con estrógenos presentes, y esa es justamente la firma del ovario poliquístico. Hoy vemos cómo se confirma el diagnóstico y cómo se elige el tratamiento."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Hay dos engranajes que se retroalimentan, y conviene separarlos. El primero es neuroendocrino: los pulsos de GnRH se hacen más frecuentes, y eso favorece la síntesis de LH por sobre la FSH."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Esa LH en exceso estimula demasiado a la teca ovárica, que produce andrógenos de más. Y como falta FSH relativa, esos folículos no terminan de aromatizar ni de madurar."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El segundo engranaje es metabólico: la resistencia a la insulina, presente en la gran mayoría de las pacientes, incluso en las que no son obesas."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La insulina en exceso hace caer la SHBG en el hígado, la proteína que transporta las hormonas sexuales. Con menos proteína transportadora, sube la fracción libre de testosterona, que es la que actúa."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Los dos caminos convergen en el mismo resultado: hiperandrogenismo clínico, hirsutismo y acné."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y por el lado ovulatorio, la anovulación crónica deja al endometrio expuesto a estrógenos sin la oposición de la progesterona, porque no hay cuerpo lúteo. Esa exposición mantenida es lo que explica el riesgo a largo plazo, y lo retomamos en un momento."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El diagnóstico se hace con los criterios de Rotterdam, y se necesitan dos de tres. El primero es la disfunción ovulatoria: ciclos infrecuentes, de más de treinta y cinco días, o amenorrea."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo es el hiperandrogenismo: hirsutismo evaluado con la escala de Ferriman-Gallwey, acné severo, alopecia, o una testosterona elevada en el laboratorio."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el tercero es la ecografía: muchos folículos pequeños distribuidos en la periferia del ovario, o un volumen ovárico aumentado. Con dos de estos tres, el diagnóstico está hecho."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Pero antes de cerrar el diagnóstico, hay un paso que se pregunta mucho: descartar otras causas de hiperandrogenismo. Se pide diecisiete hidroxiprogesterona matinal, para descartar una hiperplasia suprarrenal congénita no clásica, que puede dar un cuadro casi idéntico."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y también se piden TSH y prolactina, porque el hipotiroidismo y la hiperprolactinemia también alteran el ciclo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Esta diferencia es la que más confunde, porque las dos entidades pueden verse casi idénticas en la consulta: hirsutismo, acné, ciclos irregulares. El examen que las separa es la diecisiete hidroxiprogesterona matinal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si sale normal, sigues adelante con el ovario poliquístico y confirmas con Rotterdam."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Pero si está elevada, es una hiperplasia suprarrenal congénita no clásica, por déficit de la enzima veintiuno hidroxilasa, y el manejo ya no es el mismo. No te quedes solo con el cuadro clínico: sin este examen no puedes cerrar el diagnóstico."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Antes de cualquier fármaco, el pilar es el mismo para todas: bajar entre un cinco y un diez por ciento del peso corporal. Solo con eso, más de la mitad de las pacientes recupera la ovulación espontánea."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si la paciente no busca embarazo, el tratamiento de elección son los anticonceptivos combinados, con un progestágeno antiandrogénico: ciproterona, dienogest o drospirenona. Bajan la LH, suben la SHBG y protegen el endometrio con la deprivación mensual regular."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Se agrega metformina si hay resistencia a la insulina comprobada, y espironolactona si el hirsutismo persiste después de seis meses de anticonceptivos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si la paciente sí busca embarazo, los anticonceptivos quedan fuera, porque frenarían la ovulación que estás tratando de lograr. El inductor de ovulación de primera línea hoy es el letrozol, un inhibidor de la aromatasa."
+    },
+    {
+      "file": "s04_g04",
+      "text": "El citrato de clomifeno queda como alternativa clásica, con menor tasa de embarazo que el letrozol."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Juntemos el diagnóstico y el tratamiento en un solo árbol de decisión. Mujer en edad fértil con ciclos irregulares e hiperandrogenismo clínico. Antes de aplicar Rotterdam, hay que descartar otras causas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se mide primero, porque puede dar un cuadro casi idéntico."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con la diecisiete hidroxiprogesterona elevada, el diagnóstico cambia, y ya no aplicas los criterios de Rotterdam."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Con el descarte hecho, se aplican los criterios de Rotterdam."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Confirmado el diagnóstico, la pregunta que decide el manejo es el deseo de fertilidad."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Se suma estilo de vida y, si hay resistencia a la insulina, metformina."
+    },
+    {
+      "file": "s05_g06",
+      "text": "El clomifeno queda como alternativa, con menor tasa de embarazo."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Sin dos criterios de Rotterdam, hay que replantear el estudio: pensar en otras causas de ciclos irregulares."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. Hirsutismo con ciclos irregulares en una adolescente: primero la diecisiete hidroxiprogesterona, antes de cerrar el diagnóstico. El error es etiquetarla de ovario poliquístico sin descartar la hiperplasia suprarrenal."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Paciente que no desea embarazo: anticonceptivos con progestágeno antiandrogénico. El error es darle un inductor de ovulación, que no tiene ningún sentido aquí."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si desea embarazo, letrozol como primera línea. El error contrario: empezar con anticonceptivos combinados, que bloquean justo lo que quieres lograr."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y la anovulación crónica sin tratar aumenta el riesgo de hiperplasia y cáncer de endometrio. No lo subestimes solo porque la paciente es joven: el estímulo estrogénico sin oposición no distingue edad."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Mujer de veintitrés años, con sobrepeso, con reglas cada cincuenta a sesenta días desde la menarquia y acné facial persistente. Al examen tiene vello grueso en el mentón y en la línea media del abdomen, con un puntaje de hirsutismo de once. La ecografía muestra ambos ovarios con múltiples folículos pequeños en la periferia. No desea embarazo por ahora."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es el tratamiento farmacológico de primera línea más adecuado?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: citrato de clomifeno, anticonceptivos combinados con progestágeno antiandrogénico, análogos de GnRH, metformina sola, o danazol. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Esta paciente cumple dos criterios de Rotterdam, la oligomenorrea y la ecografía, más el hiperandrogenismo clínico: es un ovario poliquístico. Y como no busca embarazo, el clomifeno no tiene ningún rol aquí, porque es un inductor de ovulación. Lo correcto son los anticonceptivos con progestágeno antiandrogénico, que regulan el ciclo, mejoran el acné y el hirsutismo, y protegen el endometrio."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de veintiocho años con cuatro meses de amenorrea, hirsutismo, acné y obesidad central. La ecografía muestra ovarios con múltiples folículos en la periferia, y la testosterona libre está levemente elevada."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: ovario poliquístico, hiperprolactinemia, insuficiencia ovárica prematura, síndrome de Cushing, o hiperplasia suprarrenal congénita. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A. Aquí se cumplen los tres criterios de Rotterdam a la vez: la amenorrea es la disfunción ovulatoria, el hirsutismo y la testosterona son el hiperandrogenismo, y la ecografía confirma la morfología poliquística. Con dos ya bastaba, y esta paciente tiene los tres."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de diecisiete años, con menarquia a los dieciséis, con reglas cada tres a cuatro meses. Tiene vello grueso extenso, en el mentón, los brazos, el pecho, los muslos y la línea media del abdomen, con un puntaje de hirsutismo muy alto. Su examen mamario y genital son normales."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen de elección para hacer el diagnóstico diferencial con el síndrome de ovario poliquístico?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: la relación FSH sobre LH, el cariograma, la curva de insulina, la prolactina, o la diecisiete hidroxiprogesterona. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la E. Con un hirsutismo tan marcado, el diagnóstico diferencial obligado del ovario poliquístico es la hiperplasia suprarrenal congénita no clásica, y el examen que la descarta es la diecisiete hidroxiprogesterona matinal. La relación FSH sobre LH no se usa como criterio, por tener muchos falsos negativos."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y esta última, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veintiocho años en control de fertilidad, con reglas cada dos a tres meses, obesidad, hirsutismo y acné. Su prueba de resistencia a la insulina sale normal, y la ecografía confirma ovarios poliquísticos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento más adecuado para lograr la fertilidad en esta paciente?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: espironolactona, análogos de GnRH, citrato de clomifeno, metformina, o progesterona. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Tiene infertilidad por anovulación, así que se induce la ovulación. Y fíjate en el detalle: la metformina podría parecer tentadora, pero solo se usa cuando hay resistencia a la insulina comprobada, y aquí la prueba salió normal. Sin esa indicación, el inductor de ovulación es la respuesta correcta."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El diagnóstico son dos de tres criterios de Rotterdam."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Y antes de cerrar el diagnóstico, siempre se descarta la hiperplasia suprarrenal, el hipotiroidismo y la hiperprolactinemia."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si no desea embarazo, anticonceptivos con progestágeno antiandrogénico."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Si desea embarazo, letrozol como inductor de ovulación de primera línea. Si te llevas una sola idea de hoy: dos de tres criterios hacen el diagnóstico, y el deseo de embarazo decide el tratamiento. Nos vemos en la próxima clase."
+    }
+  ]
+}

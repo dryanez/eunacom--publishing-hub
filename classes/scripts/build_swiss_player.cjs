@@ -18,6 +18,7 @@ const SPECIALTIES = [
   { key: 'infectologia', name: 'Infectología' },
   { key: 'reumatologia', name: 'Reumatología' },
   { key: 'neurologia', name: 'Neurología y Geriatría' },
+  { key: 'cirugia', name: 'Cirugía General' },
   { key: 'dermatologia', name: 'Dermatología' },
   { key: 'oftalmologia', name: 'Oftalmología' },
   { key: 'ginecologia', name: 'Ginecología' },

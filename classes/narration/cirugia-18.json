@@ -1,0 +1,192 @@
+{
+  "id": "cirugia-18",
+  "title": "Cirugia 11.18: Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+  "specialty": "Cirugía General",
+  "chars": 8280,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase de manejo de heridas traumáticas, mordeduras y profilaxis antitetánica. Este es uno de los temas más prácticos y frecuentemente preguntados en el EUNACOM para la atención en servicios de urgencia y consultorios. Hoy dominaremos el protocolo oficial de profilaxis antitetánica del Ministerio de Salud, las indicaciones precisas de vacuna e inmunoglobulina, el tratamiento antimicrobiano de las mordeduras y las reglas estrictas sobre cuándo está prohibido suturar una herida. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Toda herida abierta contaminada con tierra, heces, saliva animal o metales oxidados es potencialmente tetanígena. Las esporas anaerobias de Clostridium tetani proliferan en tejidos desvitalizados y con hipoxia tisular."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En las mordeduras de gato y perro el patógeno más peligroso es Pasteurella multocida, que causa celulitis fulminante en menos de veinticuatro horas. En la mordedura humana destaca Eikenella corrodens junto a anaerobios. El antibiótico de elección indiscutido para ambas es amoxicilina con ácido clavulánico."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El pilar más importante del tratamiento es el lavado profuso con suero fisiológico a presión. Recuerda la regla de oro: las mordeduras no se suturan de regla para evitar abscesos cerrados y flemones profundos."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Una herida limpia es aquella superficial, reciente y no contaminada con tierra, polvo o cuerpos extraños, como un corte con cuchillo limpio de cocina."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Es tetanígena toda herida con restos de tierra, heces, orina, óxido, aplastamiento, quemaduras profundas, heridas punzantes o mordeduras animales y humanas."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si el paciente tiene su esquema completo de tres dosis o más, jamás requiere inmunoglobulina. Solo necesita una dosis de refuerzo de vacuna si pasaron más de cinco años en heridas sucias o más de diez años en heridas limpias."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si no tiene las tres dosis o no recuerda sus vacunas, se inicia el esquema vacunal. Si además la herida es sucia, se administra obligatoriamente la inmunoglobulina antitetánica de doscientas cincuenta unidades en un sitio anatómico diferente."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Con antecedentes inciertos o menos de tres dosis se indica vacuna en todas las heridas y se agrega inmunoglobulina solo si la herida es sucia."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si el paciente tiene tres o más dosis y el último refuerzo fue hace menos de cinco años, no requiere ninguna intervención."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si pasaron entre cinco y diez años desde la última dosis, solo se administra refuerzo de vacuna en heridas sucias."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si transcurrieron más de diez años de la última vacuna, se indica refuerzo de toxoide tanto en heridas limpias como en sucias."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El factor determinante para prevenir la infección es la irrigación mecánica con abundante suero fisiológico a presión. No se deben verter antisépticos puros como alcohol o povidona yodada dentro del lecho."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Los bordes macerados y desvitalizados deben resecárse conservadoramente con tijera para asegurar un margen dérmico sano y sangrante apto para cicatrizar."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En el tronco y las extremidades la ventana de tiempo estándar para realizar un cierre primario seguro es de seis a doce horas desde el traumatismo. Pasado este plazo, el cierre primario hermético se asocia a una elevada tasa de infección purulenta, prefiriéndose el cierre por segunda intención o diferido."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La cara posee una rica irrigación que permite realizar sutura primaria por razones estéticas hasta doce a veinticuatro horas después del trauma tras un aseo quirúrgico meticuloso."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Los dientes de gato actúan como agujas que inoculan Pasteurella multocida en la profundidad del tejido celular o las vainas tendíneas de la mano, con más del cincuenta por ciento de infección severa."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Está terminantemente prohibido suturar las punciones por mordedura de gato. Cerrar la piel atrapa las bacterias y genera flemones de mano y artritis séptica."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El perro produce lesiones combinadas por desgarro, avulsión y aplastamiento de tejidos blandos. Además de la flora habitual, la bacteria Capnocytophaga canimorsus presente en su saliva puede causar bacteriemia fulminante, shock séptico y gangrena periférica en pacientes asplénicos o con cirrosis hepática."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Toda mordedura en manos, cerca de articulaciones, infectada o causada por gato exige profilaxis antibiótica con amoxicilina con ácido clavulánico oral."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El golpe de puño cerrado contra la boca de un oponente introduce flora oral directamente en el espacio articular de los nudillos, requiriendo aseo quirúrgico y amoxicilina-clavulánico."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Las mordeduras humanas nunca se suturan de forma primaria debido a la altísima concentración de gérmenes virulentos como Eikenella corrodens."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Cualquier contacto o mordedura provocada por murciélagos, zorros u otros animales silvestres carnívoros exige iniciar de inmediato el esquema de vacunación antirrábica e inmunoglobulina específica sin perder tiempo esperando la captura o el análisis del animal, ya que la rabia humana es casi cien por ciento letal."
+    },
+    {
+      "file": "s06_g03",
+      "text": "En cambio, si la mordedura fue causada por un perro o gato doméstico ubicable y sano, se mantiene al animal bajo estricta observación veterinaria durante diez días corridos. Si el animal no enferma ni muere en ese plazo, se descarta rabia y no es necesario administrar la vacuna antirrábica al paciente."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Iniciamos el enfrentamiento clínico lavando con suero a presión y evaluando el mecanismo causal."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Identificamos si la lesión fue causada por dientes humanos, perro o gato."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Se irriga copiosamente con suero, se deja la herida abierta y se inicia amoxicilina con ácido clavulánico."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Evaluamos el estado inmunitario del paciente contra el tétanos."
+    },
+    {
+      "file": "s07_g04",
+      "text": "El paciente conserva memoria inmune: solo requiere vacuna si pasaron más de cinco años en herida sucia."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Se inicia esquema con vacuna dT y se administra TIG doscientas cincuenta unidades si la herida es tetanígena."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La cloxacilina no cubre Pasteurella multocida y suturar la mordedura provoca flemones profundos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Si el paciente tiene tres dosis previas jamás requiere inmunoglobulina, solo una dosis de vacuna."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En herida sucia sin vacunas conocidas se deben administrar vacuna e inmunoglobulina en sitios anatómicos separados."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Los antisépticos en el interior de la herida son citotóxicos y retrasan la cicatrización natural."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Revisemos esta clásica pregunta sobre mordeduras animales. Un hombre de treinta y cinco años es mordido por un gato en la mano derecha dos horas antes y presenta heridas puntiformes en la palma."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta terapéutica inicial más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las alternativas proponen: suturar con ciprofloxacino, irrigar profusamente sin suturar y dar amoxicilina con ácido clavulánico, cloxacilina con sutura, reposo sin antibióticos o pabellón inmediato. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La respuesta correcta es la B, irrigar profusamente con suero fisiológico, dejar las heridas abiertas e iniciar amoxicilina con ácido clavulánico. Las mordeduras de gato inoculan Pasteurella multocida en la profundidad. Suturar está contraindicado porque genera tenosinovitis infecciosa. El fármaco de primera línea es la amoxicilina con ácido clavulánico."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Analicemos este ejercicio del protocolo oficial antitetánico. Una mujer con vacunas al día sufre una herida sucia con lata oxidada. Su última dosis de vacuna antitetánica fue hace siete años."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la indicación correcta respecto a la profilaxis antitetánica?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: no administrar nada, dar únicamente refuerzo de vacuna dT, dar solo inmunoglobulina, administrar vacuna e inmunoglobulina a la vez o penicilina benzatina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta correcta es la B, administrar únicamente una dosis de refuerzo de vacuna antitetánica. Al estar vacunada previamente con más de tres dosis, jamás necesita inmunoglobulina. Pero como la herida es tetanígena y ya transcurrieron más de cinco años desde el último refuerzo, debe administrarse una dosis de vacuna dT."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Si el paciente tiene tres o más dosis de vacuna, jamás indiques inmunoglobulina."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En herida sucia con vacunas desconocidas debes administrar vacuna e inmunoglobulina en sitios separados."
+    },
+    {
+      "file": "s11_g02",
+      "text": "No sutures mordeduras de animales o humanas: trátalas abiertas y con amoxicilina-clavulánico."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Si te llevas una sola idea de hoy: en el manejo de heridas contaminadas, irriga abundantemente con suero fisiológico a presión, no satures las mordeduras de regla, indica amoxicilina con ácido clavulánico y aplica el protocolo oficial antitetánico administrando solo vacuna si el paciente ya tenía su esquema completo. Nos vemos en la próxima clase."
+    }
+  ]
+}

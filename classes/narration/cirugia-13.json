@@ -1,0 +1,316 @@
+{
+  "id": "cirugia-13",
+  "title": "Cirugia 11.13: Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
+  "specialty": "Cirugía General",
+  "chars": 13067,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la clase de quemaduras graves y paciente gran quemado. En el EUNACOM este tema es de máxima rentabilidad porque combina el cálculo matemático exacto de fluidos mediante la fórmula de Parkland, la definición legal de las garantías GES número cincuenta y seis, el reconocimiento precoz de la injuria inhalatoria para intubación inmediata y la indicación urgente de escarotomía en quemaduras circulares. Comencemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El daño térmico destruye la barrera protectora de la piel por necrosis coagulativa. Esto provoca una evaporación masiva de agua libre, pérdida del control térmico corporal y desprotección inmunológica frente a infecciones bacterianas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En quemaduras que superan el veinte por ciento de superficie corporal, se desata una tormenta inflamatoria sistémica. La permeabilidad microvascular aumenta no solo en la quemadura, sino en todo el lecho capilar del organismo, permitiendo la salida masiva de plasma y proteínas hacia el espacio intersticial."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Esta fuga genera una hipovolemia brutal con hemoconcentración marcada, shock distributivo y falla renal aguda prerrenal por hipoperfusión. La única medida que previene la muerte es la reposición hidroelectrolítica inmediata con Ringer Lactato titulada minuto a minuto según la diuresis horaria."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La quemadura de primer grado, como la solar, solo afecta la epidermis. Cursa con eritema y dolor pero sin ampollas. Grábate esto: jamás se contabiliza en el cálculo de superficie corporal quemada ni en la fórmula de Parkland."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo grado superficial compromete la dermis papilar. Presenta ampollas o flictenas intactas, lecho rosado muy húmedo y dolor intenso al roce. Cura espontáneamente en diez a catorce días sin cicatriz patológica."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El segundo grado profundo lesiona la dermis reticular. El lecho es pálido, seco y moteado, con dolor disminuido por destrucción parcial de terminaciones nerviosas. Tarda más de veintiún días en epitelizar y suele requerir injerto."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El tercer grado destruye todas las capas dérmicas hasta el tejido celular subcutáneo. La lesión es una escara rígida, acartonada, de color blanco céreo o marrón, y completamente insensible al tacto y al pinchazo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Al destruirse los anejos pilosebáceos, el tercer grado es incapaz de regenerar piel. Requiere escisión quirúrgica precoz en pabellón y cobertura definitiva con autoinjertos de piel parcial."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La cabeza y cuello representan el nueve por ciento de la superficie corporal total. Cada extremidad superior completa, incluyendo mano y antebrazo, equivale a un nueve por ciento."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El tronco anterior suma un dieciocho por ciento, dividido en tórax y abdomen. La cara posterior del tronco y los glúteos suman otro dieciocho por ciento."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Cada extremidad inferior completa desde el muslo hasta el pie representa un dieciocho por ciento. La región genital y periné aporta el uno por ciento restante."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En quemaduras irregulares o dispersas se utiliza la palma de la mano del paciente con los dedos juntos, que equivale al uno por ciento de su superficie corporal total."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La cabeza y cuello aportan nueve por ciento y exigen descartar compromiso de vía aérea."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El tronco anterior equivale a dieciocho por ciento; si la quemadura es circular, impide expandir la caja torácica."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El dorso aporta dieciocho por ciento y obliga a desvestir y rotar al paciente para examinarlo por completo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Cada extremidad superior representa nueve por ciento; el compromiso de manos es criterio GES por secuela funcional."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Cada pierna suma dieciocho por ciento y su quemadura profunda puede ocluir el retorno vascular tibial."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Los genitales representan el uno por ciento; se instala sonda Foley antes de que el edema impida el cateterismo."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Se define como Gran Quemado a todo paciente con índice de gravedad de Garcés superior a setenta puntos, o con más del veinte por ciento de superficie corporal quemada en adultos o más del diez por ciento en niños o ancianos."
+    },
+    {
+      "file": "s05_g01",
+      "text": "También clasifica como gran quemado quien presente quemaduras de tercer grado que superen el cinco por ciento de superficie corporal, o quemaduras asociadas a politrauma mayor."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Toda quemadura profunda en áreas funcionales y estéticas críticas califica como grave y requiere derivación a centros especializados."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La sospecha de trauma inhalatorio califica automáticamente al paciente como gran quemado independientemente del porcentaje cutáneo."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Las quemaduras eléctricas de alto voltaje causan destrucción muscular profunda masiva, mioglobinuria y riesgo de insuficiencia renal aguda."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La fórmula de Parkland establece: cuatro mililitros multiplicado por el peso del paciente en kilogramos y por el porcentaje de superficie corporal quemada de segundo y tercer grado."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El fluido estándar es el Ringer Lactato tibio. El suero fisiológico al cero nueve por ciento está desaconsejado en grandes volúmenes porque produce acidosis metabólica hiperclorémica severa."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Esta es la trampa que más se pregunta: la mitad del volumen calculado debe pasarse en las primeras ocho horas contadas desde el momento exacto en que ocurrió la quemadura, no desde el ingreso al hospital."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El cincuenta por ciento restante se administra en las siguientes dieciséis horas. Si el paciente llega a urgencias dos horas después del fuego, debes pasar la mitad en las seis horas restantes."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La diuresis horaria medida con urómetro estricto es el mejor parámetro para guiar la reposición. En adultos la meta es mantener entre cero coma cinco y un mililitro por kilo por hora."
+    },
+    {
+      "file": "s07_g01",
+      "text": "En pacientes pediátricos la meta de diuresis horaria es más exigente, debiendo mantenerse entre uno y uno coma cinco mililitros por kilo por hora."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La fórmula de Parkland es solo un punto de partida. Si la diuresis cae bajo la meta, aumentas el flujo un veinte por ciento; si supera la meta, lo reduces para no provocar edema pulmonar."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Infundir líquidos en exceso provoca un tercer espacio masivo intraabdominal, hipertensión intrabdominal y síndrome compartimental con anuria e isquemia intestinal."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La sospecha nace de la historia de incendio en lugar cerrado con pérdida de conciencia, esputo con partículas de carbón y vibrisas nasales o cejas chamuscadas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La presencia de voz ronca, disfonía o estridor inspiratorio indica que la glotis y las cuerdas vocales están severamente edematizadas y a punto de cerrarse."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Ante estridor laríngeo o quemadura profunda de cuello, la intubación orotraqueal debe realizarse de inmediato. Esperar unas horas puede imposibilitar la laringoscopía y obligar a una traqueostomía de urgencia."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Todo paciente atrapado en un incendio debe recibir oxígeno al cien por ciento para desplazar al monóxido de carbono de la hemoglobina y reducir su vida media de cuatro horas a cuarenta minutos."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La piel con quemadura de tercer grado se vuelve una coraza inelástica. Conforme se infunden sueros, el edema muscular aumenta la presión hasta superar la presión capilar y arterial."
+    },
+    {
+      "file": "s09_g01",
+      "text": "En una extremidad quemada de forma circular aparecen dolor exquisito, pérdida de sensibilidad en los dedos y finalmente desaparición del pulso radial o pedio."
+    },
+    {
+      "file": "s09_g02",
+      "text": "La escarotomía se realiza en el box de urgencias incidiendo con bisturí la escara a lo largo de las caras lateral y medial del miembro hasta alcanzar el tejido celular subcutáneo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si la quemadura circular compromete el tórax, la escara impide la expansión pulmonar produciendo hipoventilación severa. Se realizan incisiones en enrejado para liberar la caja torácica."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Iniciamos la atención evaluando la vía aérea y determinando si cumple criterios de Gran Quemado según Guías GES."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Evaluamos si hay quemadura de vía aérea superior con riesgo de oclusión glótica."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Se intuba de inmediato en el box y se administra oxígeno al cien por ciento para tratar monóxido de carbono."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Calculamos la superficie corporal quemada de segundo y tercer grado con la regla de Wallace."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Se inicia infusión de Ringer Lactato pasando el cincuenta por ciento en las primeras ocho horas del accidente."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Se titula la velocidad de sueros para mantener diuresis de cero coma cinco a un mililitro por kilo por hora."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Evaluamos la perfusión distal en miembros con quemaduras circulares o la ventilación en tórax."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Se incide la escara en toda su longitud en el box de urgencias para restaurar el flujo vascular distal."
+    },
+    {
+      "file": "s11_g00",
+      "text": "El primer grado nunca se suma en el cálculo de Parkland; sobrehidratar a un paciente por eritema es una iatrogenia grave."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Las primeras ocho horas de la fórmula de Parkland se cuentan desde la hora del accidente y no desde la llegada a urgencias."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Esperar ante un estridor en un quemado conduce a la asfixia total por edema glótico irreversible."
+    },
+    {
+      "file": "s11_g03",
+      "text": "El hielo agrava la isquemia tisular; el síndrome compartimental por escara exige apertura quirúrgica inmediata."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Revisemos esta pregunta oficial de enero de dos mil veintitrés. Un niño con quemadura de segundo grado con ampollas en ambas manos llega extremadamente irritable, lloroso y con dolor severo a urgencias."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta médica inicial prioritaria?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las alternativas proponen: aplicar apósitos de plata, enfriar con agua fría, analgesia endovenosa inmediata, hospitalizar directamente o debridar en pabellón. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La respuesta correcta es la C, indicar analgesia endovenosa inmediata. El dolor en las quemaduras superficiales es atroz debido a las terminaciones nerviosas desnudas. En urgencias no se puede manipular ni curar una quemadura sin antes haber garantizado una analgesia potente y eficaz por vía endovenosa."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Analicemos este clásico ejercicio de cálculo de Parkland. Un hombre de setenta kilos con quemadura del tronco anterior y ambos brazos llega dos horas después del siniestro."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el volumen total calculado y su distribución?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones ofrecen diferentes volúmenes totales y ventanas de tiempo de seis u ocho horas. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta correcta es la A. El tronco anterior suma dieciocho y ambos brazos suman dieciocho, totalizando treinta y seis por ciento de superficie quemada. Cuatro por setenta por treinta y seis da diez mil ochenta mililitros. La mitad, cinco mil cuarenta mililitros, debe pasar en las primeras ocho horas del accidente. Como ya pasaron dos horas, ese volumen debe infundirse en las seis horas restantes."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Revisemos esta pregunta sobre monitoreo en la reanimación del quemado. Se consulta por el mejor parámetro individual para titular la velocidad de los cristaloides."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el parámetro estándar de oro para guiar los sueros?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las alternativas proponen: presión venosa central, diuresis horaria estricta con urómetro, hematocrito seriado, frecuencia cardíaca o lactato venoso. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "La respuesta correcta es la B, diuresis horaria estricta mediante sonda vesical con urómetro. Ni la presión venosa central ni los signos vitales reflejan con tanta precisión la perfusión tisular efectiva como el flujo urinario horario, cuya meta en adultos es de cero cinco a un mililitro por kilo por hora."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Analicemos este caso de urgencia respiratoria. Un bombero rescatado de un incendio cerrado presenta quemadura de vibrisas, esputo con carbón, disfonía y estridor laríngeo inspiratorio leve."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta médica inmediata?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones son: intubación orotraqueal inmediata, nebulizar con adrenalina racémica, pedir radiografía de tórax previa, corticoides endovenosos o lavado gástrico. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La respuesta correcta es la A, intubación orotraqueal inmediata. El estridor laríngeo en un quemado indica que la vía aérea superior está a punto de colapsar por edema inflamatorio agudo. Si esperas que desature o pides una radiografía, las cuerdas vocales se cerrarán por completo, imposibilitando la intubación y forzando una vía aérea quirúrgica de rescate."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Revisemos este caso de complicación vascular en quemaduras. Un paciente con quemadura circular de tercer grado en el antebrazo desarrolla dolor intolerable, pérdida de sensibilidad en los dedos y ausencia de pulsos distales."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el procedimiento terapéutico urgente que se debe realizar?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las alternativas proponen: elevar el brazo con hielo, escarotomía longitudinal descompresiva inmediata, heparina endovenosa, yeso cerrado o vasodilatadores orales. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "La respuesta correcta es la B, escarotomía longitudinal descompresiva inmediata. La escara inelástica de tercer grado actúa como un torniquete implacable sobre el antebrazo edematoso. La única forma de evitar la necrosis neuromuscular irreversible y la amputación es incidir la escara de polo a polo hasta descomprimir el compartimento."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Grábate esta regla de oro: el eritema solar de primer grado jamás se contabiliza para la fórmula de Parkland."
+    },
+    {
+      "file": "s17_g01",
+      "text": "La mitad de los fluidos de Parkland debe infundirse en las primeras ocho horas del siniestro, no desde el ingreso."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Ajusta el goteo de sueros según la diuresis horaria con sonda vesical: entre cero coma cinco y un mililitro por kilo por hora."
+    },
+    {
+      "file": "s17_g03",
+      "text": "El estridor en un quemado es el último aviso antes del cierre total de la glotis: intuba de inmediato."
+    },
+    {
+      "file": "s17_g04",
+      "text": "Si te llevas una sola idea de hoy: en quemaduras circulares de tercer grado que comprometen una extremidad o el tórax, la escara rígida produce un síndrome compartimental asfixiante o isquémico. Realiza de inmediato una escarotomía longitudinal en el box de urgencias para descomprimir los tejidos y salvar la extremidad. Nos vemos en la próxima clase."
+    }
+  ]
+}
