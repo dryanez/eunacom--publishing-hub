@@ -371,6 +371,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-04 | Campo GES: "Infecciones graves de cabeza, cuello y partes blandas". | No parece un problema GES real. | No se menciona. |
 | infecto-06 | Rabia: vacunar de inmediato si el animal es "desconocido, vagabundo o provocado". | "Provocado" parece invertido: la mordedura no provocada es la de mayor riesgo. | Omite la palabra. |
 | infecto-06 | Inmunoglobulina antirrábica solo en contacto con murciélago. | Las exposiciones graves por otros animales suelen recibirla también. | Sigue el libro. **Revisar.** |
+| infecto-08 | Cólera: "azitromicina 1 g dosis única en niños y embarazadas". | 1 g es la dosis de adulto; en niños es por peso (~20 mg/kg, máx. 1 g). | "Azitromicina en dosis única", sin cifra. |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -388,3 +389,11 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-04 | Cita el "score LRINEC > 8" sin dar sus criterios; solo explica por qué va clindamicina, no meropenem ni vancomicina. |
 | infecto-05 | No dice cómo estudiar al contacto de TBC antes de la quimioprofilaxis (radiografía y baciloscopías). No hay preguntas reales de accidente cortopunzante. |
 | infecto-06 | No hay preguntas reales de contacto con murciélago ni de profilaxis antitetánica. |
+| infecto-07 | No menciona el departamento de control de infecciones (Jul 2025 P107). No hay preguntas reales de aislamiento ni infección de catéter. |
+| infecto-08 | No dice dónde se notifican los brotes (Seremi) ni el tipo de vigilancia (activa); no da tratamiento de Campylobacter (azitromicina). No hay preguntas reales de botulismo. |
+| infecto-09 | No cubre VIH y embarazo (transmisión vertical: TARV inmediata, zidovudina al RN, no amamantar), muy preguntado en el banco. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2022 · Pregunta 55 | Diarrea febril por Campylobacter de 7 días: clave "probióticos"; contra la práctica actual y Ene 2023 P76 (azitromicina). |
