@@ -368,6 +368,9 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 |---|---|---|---|
 | infecto-01, infecto-02 | Campos GES: "Manejo integral del paciente crítico en UCI" e "Infecciones del SNC en adultos y pediatría". | No parecen ser problemas GES reales. | No se menciona GES. |
 | infecto-03 | VHS-1 causa "> 90 % de los casos" de encefalitis viral esporádica. | El > 90 % es la proporción de encefalitis herpética del adulto por tipo 1, no de todas las encefalitis. | "Causa más frecuente", sin cifra. |
+| infecto-04 | Campo GES: "Infecciones graves de cabeza, cuello y partes blandas". | No parece un problema GES real. | No se menciona. |
+| infecto-06 | Rabia: vacunar de inmediato si el animal es "desconocido, vagabundo o provocado". | "Provocado" parece invertido: la mordedura no provocada es la de mayor riesgo. | Omite la palabra. |
+| infecto-06 | Inmunoglobulina antirrábica solo en contacto con murciélago. | Las exposiciones graves por otros animales suelen recibirla también. | Sigue el libro. **Revisar.** |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -375,8 +378,13 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | infecto-02 | Tríada: fiebre, cefalea y rigidez de nuca (texto) | Fiebre, rigidez de nuca y compromiso de conciencia (keyPoints) | El texto |
 | infecto-02 | Ampicilina en > 50 años, embarazadas e inmunosuprimidos (texto) | > 50 años, alcohólicos y embarazadas (keyPoints) | El texto |
 | infecto-03 | Absceso post otitis con neurocirugía previa: ceftriaxona + metronidazol (pregunta 2 del libro) | Agregar vancomicina si hubo trauma o cirugía (texto) | El texto; no usa la pregunta |
+| infecto-05 | Coqueluche: azitromicina a toda embarazada (texto) | Solo en tercer trimestre (keyPoints) | El texto |
+| infecto-05 | Profilaxis post exposición VIH 28 días (texto) | "28 días a 6 semanas" (alternativa de pregunta) | 28 días |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
 |---|---|
 | infecto-01 | No da esquema antibiótico empírico según foco en la sepsis ni dosis inicial de noradrenalina. El banco real no tiene preguntas de sepsis del adulto. |
+| infecto-04 | Cita el "score LRINEC > 8" sin dar sus criterios; solo explica por qué va clindamicina, no meropenem ni vancomicina. |
+| infecto-05 | No dice cómo estudiar al contacto de TBC antes de la quimioprofilaxis (radiografía y baciloscopías). No hay preguntas reales de accidente cortopunzante. |
+| infecto-06 | No hay preguntas reales de contacto con murciélago ni de profilaxis antitetánica. |
