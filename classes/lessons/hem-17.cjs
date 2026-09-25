@@ -1,0 +1,342 @@
+// Clase 8.17 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_hematologia.cjs (hem-17).
+
+const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+module.exports = {
+  id: 'hem-17',
+  tier: 2,
+  slides: [
+    {
+      type: 'cover',
+      subtitle: 'Filadelfia e imatinib en la mieloide; Gümprecht y observar en la linfática',
+      say: 'Bienvenidos. En la clase anterior vimos las leucemias agudas, que apagan la médula en semanas. Hoy vemos lo contrario: las leucemias crónicas, que avanzan en años y muchas veces se descubren en un hemograma de rutina. El examen compara siempre dos: la leucemia mieloide crónica y la leucemia linfática crónica. Y casi todo se responde con dos preguntas: qué célula está aumentada en el frotis, y si hay que tratar ya o se puede observar.',
+    },
+
+    {
+      type: 'flow',
+      kicker: 'LMC · Mecanismo',
+      title: 'Un cromosoma, una enzima que no se apaga',
+      nodes: [
+        { id: 'ph', col: 0, row: 1, k: 'cause', t: 'Cromosoma Filadelfia', s: 't(9;22) en el 95%' },
+        { id: 'bcr', col: 1, row: 1, k: 'mech', t: 'Proteína BCR-ABL1', s: 'Tirosina quinasa siempre activa' },
+        { id: 'pro', col: 2, row: 0, k: 'effect', t: 'Proliferación granulocítica', s: 'Sin apoptosis' },
+        { id: 'fro', col: 3, row: 0, k: 'effect', t: 'Toda la serie en sangre', s: 'Mielocitos a segmentados' },
+        { id: 'bzo', col: 3, row: 2, k: 'risk', t: 'Esplenomegalia', s: 'Puede ser gigante' },
+        { id: 'itk', col: 1, row: 3, k: 'good', t: 'Imatinib (ITK)', s: 'Bloquea el sitio del ATP' },
+      ],
+      edges: [
+        { from: 'ph', to: 'bcr' }, { from: 'bcr', to: 'pro' }, { from: 'pro', to: 'fro' },
+        { from: 'pro', to: 'bzo' }, { from: 'itk', to: 'bcr', label: 'bloquea' },
+      ],
+      steps: [
+        { show: ['ph'], note: 'Una translocación entre el 9 y el 22',
+          say: 'Partamos por la mieloide crónica, que nace en la célula madre de la médula. En el noventa y cinco por ciento de los casos hay un cromosoma Filadelfia: una translocación entre los cromosomas nueve y veintidós. El gen ABL del nueve queda pegado al gen BCR del veintidós.' },
+        { show: ['bcr'], note: 'Una enzima encendida sin que nadie la active',
+          say: 'Ese gen de fusión fabrica una proteína nueva, la BCR-ABL. Es una tirosina quinasa que está siempre encendida, sin necesitar ninguna señal externa. Y como fosforila sin parar las vías de crecimiento, la célula recibe la orden de proliferar todo el tiempo.' },
+        { show: ['pro', 'fro'], note: 'No hay bloqueo madurativo: maduran todas',
+          say: 'Fíjate en la diferencia con la clase anterior. En la leucemia aguda había un bloqueo madurativo y solo blastos. Aquí las células sí maduran, pero se producen de más y no mueren. Por eso la sangre se llena de toda la línea granulocítica: mielocitos, metamielocitos, baciliformes y segmentados.' },
+        { show: ['bzo'], note: 'El bazo se llena de granulocitos',
+          say: 'Y esas células también invaden el bazo. Por eso la esplenomegalia es el signo clave de la mieloide crónica, y puede ser gigante.' },
+        { show: ['itk'], note: 'Si conoces la enzima, la puedes bloquear',
+          say: 'Este mecanismo tiene un premio: si la enfermedad depende de una sola enzima, basta bloquearla. Eso hace el imatinib, un inhibidor de tirosina quinasa que tapa el bolsillo donde se une el ATP. Lo retomamos en el tratamiento.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'LMC · Clínica',
+      title: 'Fase crónica: cómo llega el paciente',
+      cards: [
+        { title: 'Hemograma', tag: 'La clave del diagnóstico', kind: 'key', items: [
+          { t: 'Leucocitosis marcada', d: 'Frecuente entre 50.000 y 300.000',
+            say: 'Veamos cómo llega el paciente. Ochenta y cinco de cada cien se diagnostican en fase crónica, muchas veces por un hemograma de rutina. Lo primero que llama la atención es una leucocitosis enorme, a menudo entre cincuenta mil y trescientos mil.' },
+          { t: 'Toda la serie, sin hiato', d: 'Blastos bajo 10%',
+            say: 'En el frotis ves todas las etapas madurativas, desde mielocitos hasta segmentados, y menos de diez por ciento de blastos. No falta ninguna etapa intermedia. Esa continuidad es lo que la separa de la leucemia aguda, donde saltas de blastos a segmentados.' },
+          { t: 'Basofilia y eosinofilia', d: 'Plaquetas normales o altas',
+            say: 'Suma dos pistas que el examen usa mucho: basofilia y eosinofilia. Y las plaquetas están normales o altas, con una anemia normocítica leve. Leucocitosis con desviación a izquierda y trombocitosis es mieloide crónica.' },
+        ] },
+        { title: 'Examen físico', tag: 'Más del 80%', kind: 'criteria', items: [
+          { t: 'Esplenomegalia palpable', d: 'Puede cruzar la línea media',
+            say: 'Al examen, más del ochenta por ciento tiene el bazo palpable. Puede ser gigante y cruzar la línea media.' },
+          { t: 'Pesadez y saciedad precoz', d: 'El bazo comprime el estómago',
+            say: 'Y eso explica los síntomas: pesadez gástrica y saciedad precoz, porque el bazo comprime el estómago. Si un caso trae dolor en el hipocondrio izquierdo con un bazo enorme y leucocitosis, ya tienes el diagnóstico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'LMC · Evolución y tratamiento',
+      title: 'Tres fases, y el fármaco que las frena',
+      nodes: [
+        { id: 'cro', col: 0, row: 1, k: 'start', t: 'Fase crónica', s: '85% · blastos bajo 10%' },
+        { id: 'ace', col: 1, row: 1, k: 'risk', t: 'Fase acelerada', s: 'Blastos 10–19% · basófilos ≥ 20%' },
+        { id: 'bla', col: 2, row: 1, k: 'alert', t: 'Crisis blástica', s: 'Blastos ≥ 20% · leucemia aguda' },
+        { id: 'itk', col: 0, row: 3, k: 'good', t: 'ITK oral · GES 37', s: 'Imatinib, dasatinib, nilotinib' },
+        { id: 'vid', col: 1, row: 3, k: 'good', t: 'Remisión molecular', s: 'Sobrevida como la población sana' },
+      ],
+      edges: [
+        { from: 'cro', to: 'ace', label: 'sin tratamiento' }, { from: 'ace', to: 'bla' },
+        { from: 'cro', to: 'itk' }, { from: 'itk', to: 'vid' },
+      ],
+      steps: [
+        { show: ['cro'], note: 'Estable, pero no se queda así',
+          say: 'La mieloide crónica no se queda quieta. Parte en la fase crónica, que es estable y donde se diagnostica la gran mayoría.' },
+        { show: ['ace'], note: 'Suben los blastos y los basófilos',
+          say: 'Sin tratamiento, avanza a la fase acelerada: los blastos suben a entre diez y diecinueve por ciento, los basófilos a veinte por ciento o más, y las plaquetas se descontrolan, hacia arriba o hacia abajo, sin responder.' },
+        { show: ['bla'], note: 'Se transforma en una leucemia aguda',
+          say: 'Y termina en la crisis blástica: veinte por ciento de blastos o más, es decir, se transformó en una leucemia aguda. Dos tercios son mieloides y un tercio linfoides, y su curso es fulminante. Aquí conecta con la clase anterior: el mismo umbral de veinte por ciento define la leucemia aguda.' },
+        { show: ['itk'], note: 'Primera línea universal, garantizada',
+          say: 'Por eso se trata de inmediato. La primera línea son los inhibidores de tirosina quinasa orales: el imatinib, que fue el pionero, o los de segunda generación, dasatinib y nilotinib. Está garantizado en el GES número treinta y siete, leucemia en personas de quince años y más.' },
+        { show: ['vid'], note: 'Una leucemia con expectativa de vida normal',
+          say: 'El resultado es notable: remisión molecular profunda y una expectativa de vida igual a la de la población sana. Por eso, en la mieloide crónica, la respuesta de tratamiento en el examen es el imatinib, no la quimioterapia.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'LLC · Diagnóstico',
+      title: 'Leucemia linfática crónica: el linfocito que no muere',
+      cards: [
+        { title: 'Quién y qué célula', tag: 'Adulto mayor', kind: 'key', items: [
+          { t: 'La leucemia del adulto mayor', d: 'Sobre 70 años; rara bajo 40',
+            say: 'Cambiemos a la linfática crónica. Es la leucemia más frecuente del adulto mayor, típicamente sobre los setenta años, y muy rara antes de los cuarenta. Si el caso es un anciano asintomático con linfocitosis en un preoperatorio, ya vas bien encaminado.' },
+          { t: 'Linfocitos B maduros clonales', d: 'CD19, CD20 débil, CD23 y CD5',
+            say: 'Son linfocitos B maduros, pero inútiles para defender. Se acumulan en la sangre, la médula y los ganglios. Su firma en la citometría es CD diecinueve, CD veinte débil, CD veintitrés y un marcador raro, el CD cinco, que normalmente es de linfocitos T.' },
+        ] },
+        { title: 'Criterio diagnóstico', tag: 'Citometría de flujo', kind: 'criteria', items: [
+          { t: 'Linfocitos B ≥ 5.000/µL', d: 'Persistentes al menos 3 meses',
+            say: 'El diagnóstico exige una linfocitosis B clonal de cinco mil o más por microlitro, que persista al menos tres meses, y se confirma con citometría de flujo.' },
+          { t: 'Sombras de Gümprecht', d: 'Linfocitos frágiles rotos en el frotis',
+            say: 'Y en el frotis aparece la pista clásica: las sombras de Gümprecht. Son núcleos aplastados, sin citoplasma, de linfocitos tan frágiles que se rompen al hacer el frotis. Ojo: no las confundas con los bastones de Auer, que son de la leucemia mieloide aguda.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Inmunidad alterada', kind: 'alert', items: [
+          { t: 'Hipogammaglobulinemia', d: 'Infecciones respiratorias a repetición',
+            say: 'Como esos linfocitos no fabrican anticuerpos útiles, aparece hipogammaglobulinemia progresiva, con infecciones bacterianas respiratorias a repetición.' },
+          { t: 'Autoinmunidad paradójica', d: 'Anemia hemolítica por Ac calientes y PTI',
+            say: 'Y, paradójicamente, autoinmunidad: anemia hemolítica autoinmune por anticuerpos calientes, que vimos en la clase de hemólisis, y púrpura trombocitopénica inmune. Una anemia hemolítica con Coombs positivo en un anciano con linfocitosis te debe hacer pensar en linfática crónica.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'LLC · Conducta',
+      title: '¿Tratar o esperar? Lo decide el estadio',
+      nodes: [
+        { id: 'llc', col: 0, row: 1, k: 'start', t: 'LLC confirmada', s: 'Citometría de flujo' },
+        { id: 'est', col: 1, row: 1, k: 'q', t: '¿Estadio y síntomas?', s: 'Binet / Rai' },
+        { id: 'tem', col: 2, row: 0, k: 'good', t: 'Binet A · Rai 0', s: 'Asintomático, sin citopenias' },
+        { id: 'obs', col: 3, row: 0, k: 'good', t: 'Observar', s: '"Watch and wait"' },
+        { id: 'ava', col: 2, row: 2, k: 'risk', t: 'Binet C · Rai III–IV', s: 'Hb < 10 o plaquetas < 100.000' },
+        { id: 'tto', col: 3, row: 2, k: 'refer', t: 'Tratar', s: 'Ibrutinib, acalabrutinib, venetoclax' },
+        { id: 'ric', col: 1, row: 3, k: 'alert', t: 'Síndrome de Richter', s: 'Paso a linfoma agresivo' },
+      ],
+      edges: [
+        { from: 'llc', to: 'est' }, { from: 'est', to: 'tem', label: 'temprano' }, { from: 'tem', to: 'obs' },
+        { from: 'est', to: 'ava', label: 'avanzado o síntomas B' }, { from: 'ava', to: 'tto' },
+        { from: 'llc', to: 'ric', label: 'riesgo' },
+      ],
+      steps: [
+        { show: ['llc', 'est'], note: 'La pregunta de examen no es el fármaco',
+          say: 'Ahora, la pregunta que más le gusta al examen en la linfática crónica. Confirmado el diagnóstico, no preguntan qué fármaco dar. Preguntan si hay que tratar. Y eso lo decide el estadio, con la clasificación de Binet o la de Rai.' },
+        { show: ['tem'], note: 'Temprano: sin anemia ni plaquetopenia',
+          say: 'En el estadio temprano, Binet A, el paciente tiene linfocitosis con menos de tres áreas ganglionares. Rai cero es la linfocitosis aislada, sin adenopatías ni citopenias. Lo importante: está asintomático y su hemoglobina y plaquetas son normales.' },
+        { show: ['obs'], note: 'Tratar antes no alarga la vida',
+          say: 'Y aquí la conducta es observar, sin tratamiento: lo que en inglés llaman watch and wait. ¿Por qué? Porque tratar precozmente no prolonga la sobrevida y solo agrega toxicidad. Controles periódicos, y nada más. Esa es la respuesta que el examen busca.' },
+        { show: ['ava'], note: 'La médula empieza a fallar',
+          say: 'En cambio, el estadio avanzado ya muestra insuficiencia medular: Binet C, o Rai tres y cuatro, con hemoglobina bajo diez o plaquetas bajo cien mil. También se trata si hay síntomas B severos y progresivos.' },
+        { show: ['tto'], note: 'Terapia dirigida, en centro especializado',
+          say: 'Recién entonces se trata, con terapias dirigidas: inhibidores de BTK como ibrutinib o acalabrutinib, o el venetoclax, que inhibe BCL dos. Para ti, como médico general, la conducta es sospechar y derivar.' },
+        { show: ['ric'], note: 'Crecimiento rápido de un ganglio',
+          say: 'Y así como la mieloide crónica tiene su crisis blástica, la linfática tiene su propia transformación: el síndrome de Richter, el paso a un linfoma difuso agresivo. Es el puente con la próxima clase, que es justamente linfomas.' },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'LMC vs LLC',
+      title: 'Las dos leucemias crónicas, lado a lado',
+      head: ['Parámetro', 'LMC', 'LLC'],
+      rows: [
+        { cells: ['Edad típica', '40 a 60 años', 'Sobre 70 años'],
+          say: 'Pongamos las dos lado a lado, porque el examen las enfrenta todo el tiempo. La mieloide crónica aparece entre los cuarenta y los sesenta años; la linfática, sobre los setenta.' },
+        { cells: ['Célula que prolifera', 'Granulocitos, toda la serie + basofilia', 'Linfocito B maduro (CD19+, CD5+)'],
+          say: 'En la mieloide prolifera toda la serie granulocítica, con basofilia. En la linfática, un linfocito B maduro y monótono, CD diecinueve y CD cinco positivo.' },
+        { cells: ['Frotis', 'Mielocitos, metamielocitos, bandas', 'Linfocitos maduros + Gümprecht'],
+          say: 'El frotis de la mieloide muestra mielocitos, metamielocitos y baciliformes. El de la linfática, linfocitos pequeños maduros y sombras de Gümprecht.' },
+        { cells: ['Genética', 'Filadelfia t(9;22) · BCR-ABL1', 'del 13q buena · del 17p/TP53 mala'],
+          say: 'En genética, la mieloide tiene el Filadelfia. En la linfática, la deleción del trece q es de buen pronóstico, y la del diecisiete p, con TP cincuenta y tres, de mal pronóstico.' },
+        { cells: ['Signo clave', 'Esplenomegalia gigante', 'Adenopatías generalizadas indoloras'],
+          say: 'El signo clave de la mieloide es el bazo gigante. El de la linfática, las adenopatías generalizadas, bilaterales e indoloras.' },
+        { cells: ['Transformación', 'Crisis blástica', 'Síndrome de Richter'],
+          say: 'La mieloide se transforma en crisis blástica; la linfática, en síndrome de Richter.' },
+        { cells: ['Conducta inicial', 'Imatinib de inmediato', 'Observar en Binet A'],
+          say: 'Y la diferencia más preguntada de todas: la mieloide se trata de inmediato con imatinib, y la linfática temprana se observa. Una se trata siempre, la otra muchas veces no.' },
+      ],
+    },
+
+    {
+      type: 'pathway',
+      intro: 'Juntemos todo en un árbol de decisión, partiendo del hemograma de rutina que te sorprende.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Las decisiones que más se preguntan',
+      head: ['Escenario', 'Respuesta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Leucocitosis, toda la serie, basofilia, bazo grande', 'LMC', 'Llamarla leucemia aguda por ver algún blasto'],
+          say: 'Repasemos las trampas. Leucocitosis con toda la serie granulocítica, basofilia y un bazo grande es mieloide crónica. El error es llamarla aguda porque aparece un cinco por ciento de blastos: en fase crónica puede haber hasta diez por ciento.' },
+        { cells: ['LMC confirmada', 'ITK oral: imatinib (GES 37)', 'Quimioterapia clásica'],
+          say: 'Mieloide crónica confirmada: inhibidor de tirosina quinasa oral, imatinib, con garantía GES. La quimioterapia clásica no es la respuesta.' },
+        { cells: ['Anciano con linfocitosis y Gümprecht', 'LLC', 'Linfoma o LMC'],
+          say: 'Anciano con linfocitosis madura y sombras de Gümprecht es linfática crónica. Aunque tenga adenopatías, no respondas linfoma: el linfoma suele tener un hemograma normal.' },
+        { cells: ['LLC Binet A, asintomática', 'Observación periódica', 'Iniciar quimioterapia'],
+          say: 'Linfática crónica en Binet A, asintomática y sin citopenias: observación. Tratar de entrada es la alternativa trampa, porque no alarga la vida.' },
+        { cells: ['LLC con Hb < 10 o plaquetas < 100.000', 'Tratamiento dirigido', 'Seguir solo observando'],
+          say: 'Y el error contrario: si ya hay hemoglobina bajo diez o plaquetas bajo cien mil, la médula está fallando y ahora sí se trata.' },
+        { cells: ['LLC con anemia y Coombs positivo', 'AHAI por Ac calientes', 'Atribuirla solo a infiltración medular'],
+          say: 'Una anemia en la linfática crónica no siempre es infiltración: si el Coombs es positivo, es una anemia hemolítica autoinmune por anticuerpos calientes.' },
+      ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 76 años, autovalente, en control de hipertensión. Asintomático. Ganglios cervicales e inguinales bilaterales de 1 cm, móviles e indoloros; sin esplenomegalia. Hb 13,8 g/dL, plaquetas 195.000/µL, leucocitos 42.000/µL con 88% de linfocitos maduros. Frotis con sombras de Gümprecht. Citometría: población B clonal CD19+, CD5+, CD23+.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Observación clínica periódica cada 3 a 6 meses, sin tratamiento' },
+        { letter: 'B', text: 'Iniciar imatinib oral' },
+        { letter: 'C', text: 'Iniciar ibrutinib de inmediato' },
+        { letter: 'D', text: 'Quimioterapia de inducción tipo 7 + 3' },
+        { letter: 'E', text: 'Biopsia ganglionar urgente por sospecha de linfoma' },
+      ],
+      correct: 'A',
+      explanation: 'LLC confirmada por citometría, en estadio temprano (Binet A: menos de 3 áreas ganglionares, sin anemia ni plaquetopenia) y asintomática. El tratamiento precoz no prolonga la sobrevida: la conducta es observar ("watch and wait"). Imatinib es de la LMC; ibrutinib se reserva para enfermedad avanzada o sintomática.',
+      say: {
+        stem: 'Vamos con un caso. Hombre de setenta y seis años, autovalente, que viene a su control de hipertensión. Está asintomático. Tiene ganglios cervicales e inguinales de un centímetro, móviles e indoloros, y no se palpa el bazo. Hemoglobina trece coma ocho, plaquetas ciento noventa y cinco mil, y cuarenta y dos mil leucocitos, con ochenta y ocho por ciento de linfocitos maduros. Hay sombras de Gümprecht, y la citometría muestra linfocitos B clonales CD cinco positivos.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Tienes cinco opciones: observación periódica sin tratamiento, imatinib, ibrutinib de inmediato, quimioterapia de inducción siete más tres, o biopsia ganglionar urgente. Piénsalo.',
+        answer: 'La respuesta es la A, observar. Es una linfática crónica confirmada, en Binet A: dos áreas ganglionares, hemoglobina y plaquetas normales, y ningún síntoma. Tratarlo no le alarga la vida. El distractor más tentador es el ibrutinib, porque es el fármaco correcto de la enfermedad, pero se reserva para el estadio avanzado o sintomático. Y el imatinib es de la mieloide, no de la linfática.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2015 · Pregunta 12',
+      stem: 'Un paciente de 81 años, en espera de una cirugía de cataratas, se realiza un hemograma, como parte de los exámenes preoperatorios, que muestra 140.000 blancos, con predominio de linfocitos, de aspecto redondo, con citoplasma escaso, cromatina heterogénea y sombras de Gumprecht, además tiene hemoglobina de 13,1 g/dl y 180.000 plaquetas por mm3. Al examen físico se palpa una adenopatía cervical de 3 cm, indolora.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Leucemia aguda' },
+        { letter: 'B', text: 'Mielodisplasia' },
+        { letter: 'C', text: 'Leucemia mieloide crónica' },
+        { letter: 'D', text: 'Linfoma' },
+        { letter: 'E', text: 'Leucemia linfática crónica' },
+      ],
+      correct: 'E',
+      explanation: 'Adulto mayor asintomático, hallazgo en exámenes preoperatorios, linfocitosis madura con sombras de Gumprecht y adenopatía indolora: leucemia linfática crónica. El linfoma no explica una linfocitosis de 140.000; la LMC tendría toda la serie granulocítica y esplenomegalia.',
+      say: {
+        stem: 'Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil quince. Paciente de ochenta y un años, en su preoperatorio de cataratas. El hemograma muestra ciento cuarenta mil blancos, con predominio de linfocitos redondos, de citoplasma escaso, y sombras de Gumprecht. Hemoglobina y plaquetas normales. Al examen, una adenopatía cervical de tres centímetros, indolora.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones son: leucemia aguda, mielodisplasia, leucemia mieloide crónica, linfoma, o leucemia linfática crónica. Piénsalo.',
+        answer: 'Es la E, leucemia linfática crónica. Es el caso de libro: anciano, hallazgo en un preoperatorio, linfocitosis madura y sombras de Gumprecht. El distractor tentador es el linfoma, por la adenopatía. Pero el linfoma no llena la sangre con ciento cuarenta mil linfocitos; su hemograma suele ser normal.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 164',
+      stem: 'Una paciente de 83 años se realiza exámenes preoperatorios, por una cirugía de cataratas, entre los que destaca un hemograma con 86.000 glóbulos blancos por mm3, hematocrito: 32%, hemoglobina: 11 g/dl, plaquetas: 123.000 por mm3. La fórmula diferencial muestra 86% de linfocitos, con aumento de citoplasma y sombras de Gumprecht en el frotis. Al examen físico se palpan múltiples adenopatías gomosas, generalizadas, de 2 a 3 cm de diámetro.',
+      question: 'El diagnóstico más probable es:',
+      options: [
+        { letter: 'A', text: 'Leucemia mieloide crónica en crisis blástica' },
+        { letter: 'B', text: 'Linfoma' },
+        { letter: 'C', text: 'Leucemia linfática crónica clásica' },
+        { letter: 'D', text: 'Leucemia mieloide crónica estable' },
+        { letter: 'E', text: 'Leucemia de células velludas' },
+      ],
+      correct: 'C',
+      explanation: 'Adulta mayor con linfocitosis madura, sombras de Gumprecht y adenopatías generalizadas: LLC clásica. Las citopenias leves pueden acompañarla. El linfoma suele tener hemograma normal; la LMC tiene predominio granulocítico con desviación izquierda, basofilia y trombocitosis.',
+      say: {
+        stem: 'La segunda es del EUNACOM de julio de dos mil diecinueve, y se parece mucho. Paciente de ochenta y tres años, también en su preoperatorio de cataratas. Ochenta y seis mil blancos con ochenta y seis por ciento de linfocitos y sombras de Gumprecht, hemoglobina once y plaquetas ciento veintitrés mil. Tiene múltiples adenopatías gomosas generalizadas, de dos a tres centímetros.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones son: mieloide crónica en crisis blástica, linfoma, linfática crónica clásica, mieloide crónica estable, o leucemia de células velludas. Piénsalo.',
+        answer: 'Es la C, leucemia linfática crónica clásica. Lo nuevo de esta pregunta es que ahora hay adenopatías generalizadas y citopenias leves, y eso no cambia el diagnóstico: la linfocitosis madura con Gumprecht sigue mandando. Otra vez el linfoma es el distractor, por los ganglios. Y la mieloide crónica, estable o en crisis, tendría granulocitos, no linfocitos.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Agosto 2021 · Pregunta 108',
+      stem: 'Un paciente de 65 años, diabético, presenta un cuadro de astenia y sensación febril de 4 semanas de evolución, asociado a baja de peso de 3 kilogramos, no explicado. Además, refiere dolor abdominal epigástrico y en el hipocondrio izquierdo. Al examen físico tiene ligera palidez de mucosas y se palpa el bazo por 13 cm bajo el reborde costal. Se solicita un hemograma que muestra hematocrito: 32%, hemoglobina: 10,6 g/dl, VCM: 90 fl, blancos: 65.000 por mm3, con 15% de juveniles, 20% mielocitos, 13% promielocitos y 5% de blastos, con plaquetas: 450.000 por mm3.',
+      question: 'El diagnóstico más probable es:',
+      options: [
+        { letter: 'A', text: 'Leucemia mieloide aguda' },
+        { letter: 'B', text: 'Leucemia linfática crónica' },
+        { letter: 'C', text: 'Leucemia mieloide crónica' },
+        { letter: 'D', text: 'Mielodisplasia' },
+        { letter: 'E', text: 'Mielofibrosis' },
+      ],
+      correct: 'C',
+      explanation: 'Esplenomegalia gigante, leucocitosis con toda la serie granulocítica (sin hiato leucémico), solo 5% de blastos y trombocitosis: LMC en fase crónica. La LMA tendría 20% o más de blastos, hiato leucémico y plaquetas bajas.',
+      say: {
+        stem: 'Y la última, del EUNACOM de agosto de dos mil veintiuno. Hombre de sesenta y cinco años con cuatro semanas de astenia, sensación febril, baja de peso y dolor en el hipocondrio izquierdo. El bazo se palpa trece centímetros bajo el reborde costal. Hemoglobina diez coma seis, sesenta y cinco mil blancos con juveniles, mielocitos, promielocitos y cinco por ciento de blastos, y cuatrocientas cincuenta mil plaquetas.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones son: leucemia mieloide aguda, linfática crónica, mieloide crónica, mielodisplasia, o mielofibrosis. Piénsalo.',
+        answer: 'Es la C, leucemia mieloide crónica. Bazo gigante, leucocitosis con todas las etapas granulocíticas y plaquetas altas. El distractor es la mieloide aguda, porque hay blastos y fiebre. Pero son solo cinco por ciento, lejos del veinte que define la aguda, no hay hiato entre blastos y células maduras, y las plaquetas están altas, no bajas.',
+      },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
+      cards: [
+        { title: 'Mieloide crónica', tag: 'Filadelfia', kind: 'key', items: [
+          { t: 'Toda la serie + basofilia + bazo gigante', d: 'Plaquetas normales o altas',
+            say: 'Cerremos con las reglas de oro. Leucocitosis con toda la serie granulocítica, basofilia y bazo gigante es mieloide crónica.' },
+          { t: 't(9;22) · BCR-ABL1', d: 'Tratamiento: imatinib oral, GES 37',
+            say: 'Su marca es el cromosoma Filadelfia, y su tratamiento, el imatinib oral, con garantía GES.' },
+        ] },
+        { title: 'Linfática crónica', tag: 'Adulto mayor', kind: 'criteria', items: [
+          { t: 'Linfocitosis B madura + Gümprecht', d: 'CD5+ · ≥ 5.000/µL por 3 meses',
+            say: 'Anciano con linfocitosis madura y sombras de Gümprecht es linfática crónica, confirmada por citometría.' },
+          { t: 'AHAI caliente, PTI, infecciones', d: 'Por hipogammaglobulinemia',
+            say: 'Y recuerda sus complicaciones: infecciones por hipogammaglobulinemia, y autoinmunidad, con hemólisis y PTI.' },
+        ] },
+        { title: 'La conducta', tag: 'Tratar o esperar', kind: 'alert', items: [
+          { t: 'LLC temprana: observar', d: 'Tratar solo si Hb < 10 o plaquetas < 100.000',
+            say: 'Si te llevas una sola idea de hoy: la mieloide crónica se trata siempre y de inmediato con imatinib, y la linfática crónica temprana y asintomática se observa. En la próxima clase veremos los linfomas, donde el ganglio pasa a ser el protagonista. Nos vemos en la próxima clase.' },
+        ] },
+      ],
+    },
+  ],
+
+  pathway: {
+    title: 'Leucemias crónicas: del hemograma a la conducta',
+    root: N('start', 'Leucocitosis en hemograma de rutina', 'Adulto asintomático o con astenia leve',
+      'Adulto casi sin síntomas, con una leucocitosis importante en un hemograma de rutina. El primer paso es el frotis: define qué célula está aumentada.',
+      ['', N('q', '¿Qué célula predomina en el frotis?', 'Granulocitos o linfocitos maduros',
+        '¿Predominan precursores granulocíticos en todas sus etapas, o linfocitos maduros y monótonos?',
+        ['Granulocitos', N('q', '¿Blastos 20% o más?', 'Toda la serie + basofilia + bazo',
+          'Toda la serie granulocítica con basofilia y bazo grande orienta a mieloide crónica. Pero antes, mira los blastos: si llegan a veinte por ciento, ya es una crisis blástica.',
+          ['NO', N('refer', 'LMC fase crónica: derivar', 'Confirmar BCR-ABL1 · imatinib GES 37',
+            'Con menos de veinte por ciento de blastos, es una mieloide crónica. Se deriva a hematología con garantía GES, se confirma el BCR-ABL, y se inicia imatinib oral de inmediato.')],
+          ['SÍ', N('alert', 'Crisis blástica', 'Transformación a leucemia aguda',
+            'Con veinte por ciento o más, es una crisis blástica: se comporta como una leucemia aguda, de curso fulminante. Derivación urgente.')])],
+        ['Linfocitos', N('q', '¿Hb < 10, plaquetas < 100.000 o síntomas B?', 'LLC confirmada por citometría',
+          'Linfocitosis B madura con Gümprecht, confirmada por citometría: linfática crónica. Ahora la pregunta clave es si hay citopenias o síntomas.',
+          ['NO', N('ok', 'Observar: watch and wait', 'Binet A · controles periódicos',
+            'Sin citopenias ni síntomas, estadio temprano: observación periódica sin tratamiento, porque tratar antes no alarga la vida.')],
+          ['SÍ', N('refer', 'Tratar: derivar a hematología', 'Ibrutinib, acalabrutinib o venetoclax',
+            'Con hemoglobina bajo diez, plaquetas bajo cien mil o síntomas B progresivos, hay que tratar: terapias dirigidas en hematología.')])])]),
+  },
+};
