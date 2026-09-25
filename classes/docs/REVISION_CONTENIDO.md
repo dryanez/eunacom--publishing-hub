@@ -293,6 +293,8 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-08 | CHCM > 36 "patognomónica" de esferocitosis. | También sube en la AHAI con esferocitos (Dic 2025 P21); es característica, no patognomónica. | "La pista más sugerente", atribuyendo el término al libro. |
 | hem-06 | El ácido fólico solo "agota los residuos de cobalamina en la vía de la metilmalonil-CoA". | Mecanismo no establecido; lo aceptado es que corrige la anemia y enmascara el déficit mientras progresa el daño neurológico. | Explica ambas ideas sin profundizar. |
 | hem-07 | Frotis en crioaglutininas: hematíes "en pilas (rouleaux)". | Las crioaglutininas producen aglutinación irregular; el rouleaux es típico del mieloma. | "Glóbulos aglutinados". |
+| hem-13 | Llama "GES N° 32" a la hemofilia. | El número parece incorrecto (no se pudo confirmar). | "Cubierta por el GES", sin número. |
+| hem-12 | La tabla de gravedad asocia los grados OMS de sangrado a rangos de plaquetas; el grado 1 es incoherente (rango 20.000–30.000, conducta "si > 30.000 observar"). | La escala OMS se basa en el sangrado, no en el recuento. | No usa la tabla; sigue el texto. |
 
 ### B · El libro se contradice
 | Clase | Parte 1 | Parte 2 | Qué usa el guion |
@@ -302,6 +304,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-08 | Medir G6PD 2–3 meses después de la crisis (texto) | "Varias semanas" (keyPoints) | El texto |
 | hem-10 | TP/TTPK "estrictamente normales" en el SHU (libro) | Dic 2025 P61: SHU neumocócico con TP 16,2 s | El libro |
 | hem-05 | Más del 75 % de las aplasias son idiopáticas (texto) | 50–75 % (explicación de pregunta 2) | El texto |
+| hem-12 | Viñeta con 9.000 plaquetas y sangrado mucoso: corticoides e inmunoglobulina solo si no cede (explicación) | Sección 4 y tabla: < 10.000 → inmunoglobulina EV | Caso propio sin ambigüedad |
 
 ### C · Falta información en el libro
 | Clase | Qué falta |
@@ -310,6 +313,9 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | hem-10 | Solo nombra E. coli O157:H7 y Shigella como causas de SHU (no el neumocócico, Dic 2025 P61) y no dice si evitar antibióticos o antidiarreicos en la diarrea por STEC. |
 | hem-06 | Solo da el esquema de B12 intramuscular para malabsorción; no da tratamiento del déficit dietario (vegano), que según Dic 2025 P133 es oral. |
 | hem-05, hem-07 | Preguntas del libro con texto corrupto ("Radioterapiay­oncologia/ 1/8", "Haptoglobina bajay­oncologia/ 1/6"). El banco real no tiene preguntas de aplasia medular. |
+| hem-11 | El fibrinógeno está en el título sin rango normal ni interpretación. |
+| hem-12 | No trata la trombocitopenia inducida por heparina (Jul 2025 P131). El título dice "Terapia GES" pero el campo GES dice "No GES directo". |
+| hem-13 | La pregunta 2 del libro tiene el campo de respuesta correcta vacío. |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
@@ -318,6 +324,7 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | EUNACOM Julio 2025 · Pregunta 53 | Clave: hierro elemental 200 mg/día; el libro da 40–100 mg/día o en días alternos. |
 | EUNACOM Julio 2017 · Pregunta 5 | Embarazada con clave "HELLP"; la propia explicación duda y el caso calza igual o mejor con PTT. |
 | EUNACOM Julio 2013 · Pregunta 87 | Clave: hemograma con reticulocitos para el diagnóstico etiológico de la hemólisis; el libro dice Coombs directo. |
+| EUNACOM Diciembre 2025 · Pregunta 22 | Adulto con 15.000 plaquetas sin sangrado grave: clave dexametasona EV + inmunoglobulina EV; el libro indica corticoide oral (la propia explicación lo admite). |
 
 ## Reumatología
 
