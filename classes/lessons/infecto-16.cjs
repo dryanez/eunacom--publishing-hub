@@ -1,0 +1,387 @@
+// Clase 4.3 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_infectologia.cjs (inf-16).
+
+const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+module.exports = {
+  id: 'infecto-16',
+  tier: 2,
+  slides: [
+    {
+      type: 'cover',
+      subtitle: 'El viajero con fiebre: signos de alarma del dengue, gota gruesa en la malaria y la vacuna antes de viajar',
+      say: 'Bienvenidos. Después del Chagas, seguimos con enfermedades que llegan por un vector, pero esta vez son los mosquitos: dengue, malaria y fiebre amarilla. En Chile son sobre todo enfermedades del viajero que vuelve del trópico con fiebre. El EUNACOM pregunta tres cosas: reconocer los signos de alarma del dengue, pedir la gota gruesa en la malaria, y saber cuándo y a quién vacunar antes de viajar. Partamos.',
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Dengue · mecanismo',
+      title: '¿Por qué la segunda infección es la peligrosa?',
+      nodes: [
+        { id: 'vec', col: 0, row: 1, k: 'cause', t: 'Aedes aegypti', s: 'Flavivirus · 4 serotipos' },
+        { id: 'chi', col: 0, row: 3, k: 'risk', t: 'En Chile', s: 'Isla de Pascua y extremo norte' },
+        { id: 'pri', col: 1, row: 1, k: 'mech', t: 'Primera infección', s: 'Inmunidad de por vida a ese serotipo' },
+        { id: 'cru', col: 2, row: 1, k: 'effect', t: 'Inmunidad cruzada temporal', s: 'Contra los otros 3 serotipos' },
+        { id: 'sec', col: 2, row: 3, k: 'risk', t: 'Segunda infección', s: 'Por un serotipo distinto' },
+        { id: 'ade', col: 3, row: 3, k: 'alert', t: 'Amplificación por anticuerpos', s: 'Tormenta de citoquinas' },
+        { id: 'gra', col: 4, row: 3, k: 'alert', t: 'Dengue grave', s: 'Fuga capilar masiva' },
+      ],
+      edges: [
+        { from: 'vec', to: 'pri' }, { from: 'pri', to: 'cru' },
+        { from: 'cru', to: 'sec', label: 'se pierde' }, { from: 'sec', to: 'ade' }, { from: 'ade', to: 'gra' },
+      ],
+      steps: [
+        { show: ['vec'], note: 'Un flavivirus con cuatro serotipos',
+          say: 'Empecemos por el dengue. Es un flavivirus que transmite el mosquito Aedes aegypti, y tiene cuatro serotipos distintos. Ese detalle de los cuatro serotipos es el que explica por qué hay dengue leve y dengue grave.' },
+        { show: ['chi'], note: 'La mayoría de los casos son importados',
+          say: 'En Chile continental el vector no es endémico. Sí está en Isla de Pascua, y hay hallazgos recientes en el extremo norte, en Arica y Tarapacá. La gran mayoría de los casos que vas a ver son importados de Brasil, Bolivia, Perú o Argentina. Por eso la clave de la anamnesis es el viaje.' },
+        { show: ['pri', 'cru'], note: 'Protege de por vida solo contra el mismo serotipo',
+          say: 'Cuando alguien se infecta con un serotipo, queda inmune de por vida contra ese mismo serotipo. Pero contra los otros tres, la protección cruzada es solo temporal.' },
+        { show: ['sec', 'ade'], note: 'Los anticuerpos previos facilitan la infección',
+          say: 'Y aquí está el problema. Si años después se infecta con un serotipo distinto, los anticuerpos de la primera vez no lo neutralizan: lo ayudan a entrar a las células. Eso se llama amplificación mediada por anticuerpos, y termina en una tormenta de citoquinas.' },
+        { show: ['gra'], note: 'La fuga de plasma es lo que mata',
+          say: 'El resultado es una fuga capilar masiva: el plasma se sale de los vasos. Eso es el dengue grave. Quédate con esta idea, porque todo el manejo del dengue gira en torno a detectar esa fuga a tiempo.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Dengue · clínica',
+      title: 'Dos fases: la fiebre y la caída de la fiebre',
+      cards: [
+        { title: 'Fase febril', tag: 'Días 1 a 3', kind: 'criteria', items: [
+          { t: 'Fiebre alta súbita', d: 'Con cefalea retroorbitaria intensa',
+            say: 'El dengue tiene dos fases, y confundirlas es un error peligroso. La primera es la fase febril, los primeros tres días: fiebre alta de inicio súbito y una cefalea muy característica, detrás de los ojos, la cefalea retroorbitaria.' },
+          { t: 'Mialgias y artralgias intensas', d: 'La fiebre quebrantahuesos',
+            say: 'Se suman mialgias y artralgias tan intensas que al dengue se le llama la fiebre quebrantahuesos.' },
+          { t: 'Exantema con islas blancas', d: 'Piel sana dentro del eritema',
+            say: 'Y un exantema eritematoso que respeta pequeñas zonas de piel sana, las islas blancas en un mar rojo. Dolor detrás de los ojos, dolor muscular intenso y ese exantema, en alguien que viene del trópico: piensa en dengue.' },
+        ] },
+        { title: 'Fase crítica', tag: 'Días 3 a 7', kind: 'alert', items: [
+          { t: 'Cuando cae la fiebre', d: 'Máximo riesgo de fuga plasmática',
+            say: 'La segunda es la fase crítica, entre el tercer y el séptimo día, y empieza justo cuando cae la fiebre. Esa es la trampa: el paciente parece mejorar, pero es el momento de máximo peligro, porque es cuando aparece la fuga de plasma que vimos en el mecanismo.' },
+          { t: 'Hematocrito sube, plaquetas caen', d: 'Plaquetas bajo 100.000/mm³',
+            say: 'En el laboratorio la fuga se ve así: el hematocrito sube, porque la sangre se concentra, y al mismo tiempo las plaquetas caen rápido, bajo cien mil por milímetro cúbico. Las dos cosas juntas son el sello del dengue que se está complicando.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Dengue · banderas rojas',
+      title: 'Signos de alarma: hospitalizar de inmediato',
+      nodes: [
+        { id: 'abd', col: 0, row: 0, k: 'risk', t: 'Dolor abdominal intenso', s: 'Continuo' },
+        { id: 'vom', col: 0, row: 1, k: 'risk', t: 'Vómitos persistentes', s: '' },
+        { id: 'liq', col: 0, row: 2, k: 'risk', t: 'Acumulación de fluidos', s: 'Ascitis, derrame pleural' },
+        { id: 'san', col: 1, row: 0, k: 'risk', t: 'Sangrado de mucosas', s: 'Epistaxis, gingivorragia' },
+        { id: 'let', col: 1, row: 1, k: 'risk', t: 'Letargia o irritabilidad', s: 'Hepatomegalia > 2 cm' },
+        { id: 'lab', col: 1, row: 2, k: 'risk', t: 'Hematocrito ↑ y plaquetas ↓', s: 'Plaquetas < 100.000/mm³' },
+        { id: 'hos', col: 3, row: 1, k: 'good', t: 'Hospitalizar', s: 'Cristaloides con soporte vigoroso' },
+        { id: 'ain', col: 3, row: 3, k: 'trap', t: 'AINE o aspirina', s: 'Contraindicados: solo paracetamol' },
+      ],
+      edges: [
+        { from: 'abd', to: 'hos' }, { from: 'vom', to: 'hos' }, { from: 'liq', to: 'hos' },
+        { from: 'san', to: 'hos' }, { from: 'let', to: 'hos' }, { from: 'lab', to: 'hos' },
+        { from: 'hos', to: 'ain', label: 'nunca' },
+      ],
+      steps: [
+        { show: ['abd', 'vom'], note: 'Señales de fuga en el abdomen',
+          say: 'Ahora lo que más se pregunta: los signos de alarma del dengue grave. Los primeros son digestivos: dolor abdominal intenso y continuo, y vómitos persistentes.' },
+        { show: ['liq'], note: 'El plasma ya salió de los vasos',
+          say: 'Luego, la acumulación clínica de líquido, como ascitis o derrame pleural. Es la fuga plasmática que ya se hace visible.' },
+        { show: ['san'], note: 'Sangran las mucosas',
+          say: 'Después, el sangrado de mucosas: epistaxis o gingivorragia.' },
+        { show: ['let'], note: 'Compromiso neurológico y hepático',
+          say: 'También la letargia o la irritabilidad extrema, y una hepatomegalia de más de dos centímetros.' },
+        { show: ['lab'], note: 'El signo de laboratorio',
+          say: 'Y en el laboratorio, el hematocrito que sube mientras las plaquetas caen bajo cien mil. Esa combinación es un signo de alarma por sí sola.' },
+        { show: ['hos'], note: 'Basta uno solo',
+          say: 'Basta un solo signo de alarma para hospitalizar de inmediato, con soporte hemodinámico vigoroso con cristaloides. El tratamiento del dengue es reponer el plasma que se pierde: no hay antiviral.' },
+        { show: ['ain'], note: 'Trampa: el antiinflamatorio para las mialgias',
+          say: 'Y ojo con la trampa, porque es la pregunta más fácil de perder. Con tanto dolor muscular, dar un antiinflamatorio parece lógico. Pero en el dengue los antiinflamatorios no esteroidales, los AINE, y la aspirina están formalmente contraindicados, por el riesgo de hemorragia grave. La analgesia es exclusivamente con paracetamol.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Dengue · conducta',
+      title: 'Confirmar y decidir dónde se trata',
+      cards: [
+        { title: 'Confirmación', tag: 'Según los días', kind: 'key', items: [
+          { t: 'Antígeno NS1', d: 'En los primeros 5 días',
+            say: 'Para confirmar el dengue, el examen depende del día de evolución. En los primeros cinco días se pide el antígeno ene ese uno, que detecta al virus mientras circula.' },
+          { t: 'IgM', d: 'Después del quinto día',
+            say: 'Después del quinto día, cuando ya se formaron anticuerpos, se pide la IgM.' },
+        ] },
+        { title: 'Sin signos de alarma', tag: 'Ambulatorio', kind: 'normal', items: [
+          { t: 'Hidratación oral abundante', d: 'Paracetamol para la fiebre',
+            say: 'Si no hay ningún signo de alarma, el manejo es ambulatorio: hidratación oral abundante y paracetamol para la fiebre y el dolor.' },
+          { t: 'Educar los signos de alarma', d: 'Reconsultar de urgencia si aparecen',
+            say: 'Y lo más importante de ese alta: educar al paciente sobre los signos de alarma. Dolor abdominal continuo, sangrado o vómitos significan volver de inmediato, sobre todo cuando baja la fiebre.' },
+          { t: 'Prohibir aspirina e ibuprofeno', d: 'También ketoprofeno',
+            say: 'Y hay que decirle en forma explícita que no tome aspirina, ibuprofeno ni ketoprofeno.' },
+        ] },
+        { title: 'Notificación', tag: 'ENO inmediata', kind: 'alert', items: [
+          { t: 'Dengue, malaria y fiebre amarilla', d: 'Notificación obligatoria inmediata',
+            say: 'Un último punto que vale para las tres enfermedades de hoy: dengue, malaria y fiebre amarilla son de notificación obligatoria inmediata.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Malaria · mecanismo',
+      title: 'Malaria: un parásito del glóbulo rojo',
+      nodes: [
+        { id: 'ano', col: 0, row: 1, k: 'cause', t: 'Anopheles hembra', s: 'Transmite Plasmodium' },
+        { id: 'fal', col: 1, row: 0, k: 'alert', t: 'P. falciparum', s: 'El más letal: malaria cerebral' },
+        { id: 'viv', col: 1, row: 2, k: 'risk', t: 'P. vivax y P. ovale', s: 'Hipnozoítos en el hígado' },
+        { id: 'par', col: 2, row: 1, k: 'effect', t: 'Accesos palúdicos', s: 'Calofrío, fiebre 40 °C, sudoración' },
+        { id: 'ane', col: 3, row: 1, k: 'effect', t: 'Anemia hemolítica', s: 'E ictericia' },
+        { id: 'rec', col: 2, row: 3, k: 'risk', t: 'Recidivas', s: 'Meses después' },
+      ],
+      edges: [
+        { from: 'ano', to: 'fal' }, { from: 'ano', to: 'viv' },
+        { from: 'fal', to: 'par' }, { from: 'viv', to: 'par' }, { from: 'par', to: 'ane' },
+        { from: 'viv', to: 'rec', label: 'latentes' },
+      ],
+      steps: [
+        { show: ['ano'], note: 'Otro mosquito, otro agente: un protozoo',
+          say: 'Pasemos a la malaria, o paludismo. Aquí el vector es otro mosquito, la hembra del Anopheles, y el agente ya no es un virus: es un protozoo del género Plasmodium.' },
+        { show: ['fal'], note: 'El que mata',
+          say: 'De las especies, hay dos grupos que tienes que distinguir. Plasmodium falciparum es el más letal: produce la malaria cerebral y una hemólisis masiva.' },
+        { show: ['viv'], note: 'Los que se esconden en el hígado',
+          say: 'Plasmodium vivax y ovale tienen otra particularidad: forman hipnozoítos, formas latentes que se quedan dormidas en el hígado. Existe además Plasmodium malariae.' },
+        { show: ['par'], note: 'Calofrío, fiebre, sudor, y se repite',
+          say: 'La clínica es el acceso palúdico, con una secuencia muy típica: calofrío intenso con temblor incontrolable, después fiebre alta de cuarenta grados con cefalea, y al final sudoración profusa con descenso de la temperatura. Ese ciclo se repite cada cuarenta y ocho horas, la fiebre terciana, o cada setenta y dos horas en Plasmodium malariae, la fiebre cuartana.' },
+        { show: ['ane'], note: 'El dato que la separa del dengue',
+          say: 'Como el parásito vive y se multiplica dentro del glóbulo rojo, lo rompe. Por eso la malaria cursa con anemia hemolítica e ictericia. Fíjate en este dato, porque es el que la separa del dengue en el examen.' },
+        { show: ['rec'], note: 'Por eso vivax y ovale necesitan un fármaco extra',
+          say: 'Y los hipnozoítos explican las recidivas: meses después de un tratamiento aparentemente exitoso, el parásito despierta en el hígado y el paciente vuelve a hacer fiebre. Eso decide el tratamiento, como vemos ahora.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Malaria · diagnóstico y tratamiento',
+      title: 'Gota gruesa y tratamiento según la especie',
+      cards: [
+        { title: 'Diagnóstico de certeza', tag: 'Gota gruesa', kind: 'key', items: [
+          { t: 'Frotis y gota gruesa con Giemsa', d: 'Idealmente en el pico febril',
+            say: 'El diagnóstico de certeza de la malaria es el frotis sanguíneo y la gota gruesa, teñidos con Giemsa. Se toman idealmente durante el pico febril, cuando hay más parásitos circulando.' },
+          { t: 'Trofozoítos en anillo', d: 'Y cuantifica la parasitemia',
+            say: 'Así se ven los trofozoítos en anillo dentro del glóbulo rojo, y además se cuantifica la parasitemia. Si piensas en malaria, el examen es la gota gruesa.' },
+        ] },
+        { title: 'P. falciparum', tag: 'Artemisininas', kind: 'pharma', items: [
+          { t: 'Terapia combinada con artemisinina', d: 'Arteméter-lumefantrina',
+            say: 'El tratamiento depende de la especie. Para Plasmodium falciparum se usa la terapia combinada basada en artemisininas: arteméter con lumefantrina.' },
+        ] },
+        { title: 'P. vivax y P. ovale', tag: 'Cura radical', kind: 'alert', items: [
+          { t: 'Cloroquina', d: 'Elimina las formas sanguíneas',
+            say: 'Para vivax y ovale, la cloroquina elimina las formas que están en la sangre. Pero la cloroquina no toca los hipnozoítos del hígado.' },
+          { t: 'Primaquina por 14 días', d: 'Erradica los hipnozoítos',
+            say: 'Por eso se agrega obligatoriamente primaquina por catorce días, que erradica los hipnozoítos y previene las recaídas. Esto se pregunta: sin primaquina, el paciente recae meses después.' },
+          { t: 'Contraindicada en déficit de G6PD', d: 'Riesgo de hemólisis',
+            say: 'Y un detalle fino: la primaquina está contraindicada en el déficit de glucosa seis fosfato deshidrogenasa, por riesgo de hemólisis. Por eso se verifica esa enzima antes de indicarla.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fiebre amarilla',
+      title: 'Fiebre amarilla y vacuna del viajero',
+      cards: [
+        { title: 'La enfermedad', tag: 'Flavivirus', kind: 'alert', items: [
+          { t: 'Zonas selváticas', d: 'Sudamérica y África',
+            say: 'La tercera enfermedad es la fiebre amarilla. Es otro flavivirus, igual que el dengue, transmitido por mosquitos en zonas selváticas de Sudamérica y África.' },
+          { t: 'Ictericia fulminante y vómito negro', d: 'Con bradicardia relativa: signo de Faget',
+            say: 'Su nombre lo dice: cursa con fiebre, ictericia fulminante y sangrado digestivo, el vómito negro. Y tiene un signo clásico, el signo de Faget: una bradicardia relativa, un pulso más lento de lo que correspondería a esa fiebre.' },
+          { t: 'Letalidad 20–50%', d: 'Soporte intensivo: no hay antiviral',
+            say: 'Su letalidad va del veinte al cincuenta por ciento, y el manejo es de soporte intensivo. Como no hay tratamiento específico, lo que realmente la controla es la vacuna.' },
+        ] },
+        { title: 'Vacuna antiamarílica', tag: 'Virus vivo atenuado', kind: 'pharma', items: [
+          { t: 'Cepa 17D, una sola dosis', d: 'Inmunidad de por vida',
+            say: 'La vacuna antiamarílica es de virus vivo atenuado, la cepa diecisiete D. Es muy eficaz, y una sola dosis da inmunidad de por vida.' },
+          { t: 'Al menos 10 días antes de viajar', d: 'A zonas endémicas',
+            say: 'El dato que se pregunta es el plazo: se coloca al menos diez días antes de viajar a una zona endémica, para que alcance a proteger.' },
+        ] },
+        { title: 'Contraindicaciones', tag: 'Por ser vacuna viva', kind: 'criteria', items: [
+          { t: 'Embarazo', d: 'Y lactantes menores de 9 meses',
+            say: 'Y como es una vacuna viva, tiene contraindicaciones precisas: el embarazo y los lactantes menores de nueve meses.' },
+          { t: 'Timoma o inmunosupresión severa', d: 'El virus vacunal puede diseminarse',
+            say: 'También el timoma y la inmunosupresión severa. En esos pacientes el virus atenuado de la vacuna puede comportarse como una infección real.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'pathway',
+      intro: 'Juntemos las tres enfermedades en un solo árbol, partiendo del viajero que llega con fiebre.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Fiebre en el viajero: las diferencias que se preguntan',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Dengue con mialgias intensas', 'Paracetamol', 'Ketoprofeno, ibuprofeno o aspirina'],
+          say: 'Repasemos las trampas. Dengue con mialgias intensas: paracetamol. El error es dar un AINE o aspirina, que están contraindicados por riesgo de hemorragia.' },
+        { cells: ['Dengue que mejora al bajar la fiebre', 'Buscar signos de alarma: fase crítica', 'Dar de alta sin educar'],
+          say: 'Dengue en que la fiebre acaba de caer: no es mejoría segura, es la entrada a la fase crítica. Hay que buscar signos de alarma y educar antes de cualquier alta.' },
+        { cells: ['Hematocrito ↑ con plaquetas < 100.000', 'Hospitalizar con cristaloides', 'Seguir en forma ambulatoria'],
+          say: 'Hematocrito que sube con plaquetas bajo cien mil: es fuga plasmática, es un signo de alarma, y se hospitaliza con cristaloides. Seguir en forma ambulatoria es el error.' },
+        { cells: ['Fiebre con anemia en viajero', 'Gota gruesa y frotis', 'Solo serología de dengue'],
+          say: 'Fiebre con anemia en un viajero: piensa en malaria y pide gota gruesa. El dengue no explica una anemia marcada.' },
+        { cells: ['Malaria por P. vivax tratada', 'Agregar primaquina 14 días', 'Solo cloroquina'],
+          say: 'Malaria por vivax tratada con cloroquina: falta la primaquina por catorce días. Sin ella, los hipnozoítos producen recaídas.' },
+        { cells: ['Embarazada que viaja a zona selvática', 'No vacunar contra fiebre amarilla', 'Vacunar igual'],
+          say: 'Y la embarazada que viaja a zona selvática: la vacuna antiamarílica está contraindicada, porque es de virus vivo.' },
+      ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Joven de 26 años con 4 días de fiebre hasta 39,5 °C, dolor retroorbitario intenso que empeora con los movimientos oculares, mialgias y artralgias severas. Regresó hace 5 días del noreste de Brasil. T° 38,8 °C, PA 110/70 mmHg, FC 92 lpm. Exantema eritematoso en tronco que respeta pequeñas zonas redondeadas de piel sana. Sin dolor abdominal ni sangrado.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Confirmar con NS1 o IgM, manejo ambulatorio con hidratación oral y paracetamol, y educar signos de alarma' },
+        { letter: 'B', text: 'Hospitalizar e iniciar cristaloides endovenosos' },
+        { letter: 'C', text: 'Indicar ketoprofeno para las mialgias y control en una semana' },
+        { letter: 'D', text: 'Solicitar gota gruesa e iniciar arteméter-lumefantrina' },
+        { letter: 'E', text: 'Iniciar antiviral específico y aislamiento respiratorio' },
+      ],
+      correct: 'A',
+      explanation: 'Viaje a zona endémica con fiebre, dolor retroorbitario, mialgias y exantema con islas blancas: dengue sin signos de alarma. Se confirma con NS1 o IgM, manejo ambulatorio con hidratación oral y paracetamol, y se educa sobre los signos de alarma. Los AINE están contraindicados; no hay antiviral; sin alarma no se hospitaliza.',
+      say: {
+        stem: 'Vamos con un caso. Joven de veintiséis años, con cuatro días de fiebre hasta treinta y nueve y medio, dolor detrás de los ojos que empeora al moverlos, y mialgias y artralgias severas. Volvió hace cinco días del noreste de Brasil. Tiene un exantema en el tronco que respeta pequeñas zonas de piel sana. No tiene dolor abdominal ni sangrado.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones son: confirmar y manejar en forma ambulatoria con hidratación oral y paracetamol, hospitalizar con cristaloides, indicar ketoprofeno, pedir gota gruesa y tratar malaria, o iniciar un antiviral. Piénsalo.',
+        answer: 'La respuesta es la A. Viaje al trópico, dolor retroorbitario, quebrantahuesos y las islas blancas: es un dengue. Y buscamos signos de alarma: no hay ninguno. Entonces se confirma con antígeno ene ese uno o IgM, se maneja en forma ambulatoria con hidratación oral y paracetamol, y se educa. La trampa es el ketoprofeno, que suena lógico para las mialgias, pero está contraindicado. Hospitalizar sería correcto solo con un signo de alarma.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 147',
+      stem: 'Una paciente realiza un viaje a la selva amazónica y, al cuarto día luego de su regreso, presenta fiebre alta hasta 39,3°C, asociada a cefalea intensa y persistente, con marcado malestar general y mialgias. Se realiza un hemograma, que muestra hematocrito: 24%, hemoglobina: 8 g/dl, glóbulos blancos: 16.000 por mm3, con fórmula diferencial normal, plaquetas: 93.000 por mm3 y VHS: 35 mmHg.',
+      question: 'El agente etiológico más probable es:',
+      options: [
+        { letter: 'A', text: 'Viruz zika' },
+        { letter: 'B', text: 'Virus dengue' },
+        { letter: 'C', text: 'Plasmodium falciparum' },
+        { letter: 'D', text: 'Salmonella typhi' },
+        { letter: 'E', text: 'Virus de fiebre amarilla' },
+      ],
+      correct: 'C',
+      explanation: 'La clínica es compatible con dengue, pero la anemia marcada (Hb 8 g/dl, Hto 24%) apunta a hemólisis: malaria. En el dengue que se complica el hematocrito sube, no baja. A la fiebre amarilla le falta la ictericia.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Una paciente vuelve de la selva amazónica y al cuarto día presenta fiebre de treinta y nueve, cefalea intensa, malestar general y mialgias. El hemograma muestra hematocrito de veinticuatro por ciento, hemoglobina de ocho, leucocitos de dieciséis mil y plaquetas de noventa y tres mil.',
+        question: '¿Cuál es el agente etiológico más probable?',
+        options: 'Las opciones son: virus Zika, virus dengue, Plasmodium falciparum, Salmonella typhi, o virus de la fiebre amarilla. Piénsalo.',
+        answer: 'Es la C, Plasmodium falciparum. La clínica y las plaquetas bajas son compatibles con dengue, y por eso el dengue es el distractor más tentador. Pero mira el hematocrito: en el dengue que se complica, la sangre se concentra y el hematocrito sube. Aquí está en veinticuatro, con hemoglobina de ocho: es una anemia marcada, y eso es hemólisis. El parásito que rompe glóbulos rojos es el Plasmodium. A la fiebre amarilla le faltaría la ictericia.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Enero 2023 · Pregunta 24',
+      stem: 'Niño con reacción anafiláctica al huevo hace 1 mes.',
+      question: '¿Qué vacuna está contraindicada?',
+      options: [
+        { letter: 'A', text: 'Triple viral (SRP)' },
+        { letter: 'B', text: 'Influenza inactivada' },
+        { letter: 'C', text: 'Hepatitis A' },
+        { letter: 'D', text: 'Varicela' },
+        { letter: 'E', text: 'Fiebre amarilla' },
+      ],
+      correct: 'E',
+      explanation: 'La vacuna antiamarílica se produce en huevo embrionado: la anafilaxia al huevo la contraindica. La triple viral se puede administrar en alérgicos al huevo.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de enero de dos mil veintitrés, que conecta con la vacuna. Un niño tuvo una reacción anafiláctica al huevo hace un mes.',
+        question: '¿Qué vacuna está contraindicada?',
+        options: 'Las opciones son: triple viral, influenza inactivada, hepatitis A, varicela, o fiebre amarilla. Piénsalo.',
+        answer: 'Es la E, la vacuna contra la fiebre amarilla. Esta vacuna viva se produce en huevo embrionado, así que la anafilaxia al huevo la contraindica. Súmala a la lista que vimos: embarazo, menores de nueve meses, timoma e inmunosupresión severa. El distractor tentador es la triple viral, pero esa sí se puede administrar a un niño alérgico al huevo.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2025 · Pregunta 152',
+      stem: '¿Cuál de las siguientes patologías no es autóctona de Chile?',
+      question: 'Elige la alternativa correcta.',
+      options: [
+        { letter: 'A', text: 'Síndrome pulmonar por hantavirus' },
+        { letter: 'B', text: 'Leptospirosis' },
+        { letter: 'C', text: 'Influenza' },
+        { letter: 'D', text: 'Dengue' },
+        { letter: 'E', text: 'Malaria' },
+      ],
+      correct: 'E',
+      explanation: 'En Chile no hay malaria autóctona: todos los casos son importados. El dengue sí tiene transmisión local en Isla de Pascua, donde existe el vector.',
+      say: {
+        stem: 'Y una pregunta real reciente, del EUNACOM de diciembre de dos mil veinticinco, sobre epidemiología nacional.',
+        question: '¿Cuál de las siguientes patologías no es autóctona de Chile?',
+        options: 'Las opciones son: hantavirus, leptospirosis, influenza, dengue o malaria. Piénsalo.',
+        answer: 'Es la E, la malaria. En Chile no hay malaria autóctona: todos los casos que vemos son importados. El distractor es el dengue, porque también lo asociamos al viajero. Pero recuerda lo que vimos al inicio: el Aedes aegypti sí existe en Isla de Pascua, así que ahí el dengue se transmite localmente.',
+      },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
+      cards: [
+        { title: 'Dengue', tag: 'Vigilar la fuga', kind: 'alert', items: [
+          { t: 'Retroorbitario, mialgias, islas blancas', d: 'En un viajero del trópico',
+            say: 'Cerremos con las reglas de oro. Dolor retroorbitario, mialgias quebrantahuesos y exantema con islas blancas, en alguien que vuelve del trópico: dengue.' },
+          { t: 'Un signo de alarma: hospitalizar', d: 'Sobre todo cuando cae la fiebre',
+            say: 'Un solo signo de alarma obliga a hospitalizar, y el peligro está cuando cae la fiebre.' },
+          { t: 'Solo paracetamol', d: 'AINE y aspirina contraindicados',
+            say: 'Y la analgesia es solo con paracetamol: nunca AINE ni aspirina.' },
+        ] },
+        { title: 'Malaria', tag: 'Gota gruesa', kind: 'key', items: [
+          { t: 'Fiebre paroxística + anemia', d: 'Gota gruesa con Giemsa',
+            say: 'Fiebre en accesos con anemia hemolítica: malaria, y el examen es la gota gruesa.' },
+          { t: 'Vivax y ovale: primaquina 14 días', d: 'Verificar G6PD antes',
+            say: 'Si es vivax u ovale, cloroquina más primaquina por catorce días, verificando antes la glucosa seis fosfato deshidrogenasa.' },
+        ] },
+        { title: 'Fiebre amarilla', tag: 'Prevenir', kind: 'pharma', items: [
+          { t: 'Vacuna viva, dosis única', d: 'Al menos 10 días antes de viajar',
+            say: 'La vacuna antiamarílica es viva, de dosis única, y va al menos diez días antes del viaje. Nunca en embarazadas ni inmunosuprimidos.' },
+          { t: 'Las tres: notificación inmediata', d: 'Enfermedades de notificación obligatoria',
+            say: 'Si te llevas una sola idea de hoy: en el viajero con fiebre, el dengue se vigila por la fuga de plasma y se trata con paracetamol, y la malaria se busca por la anemia con una gota gruesa. En la próxima clase volvemos a las zoonosis chilenas: hidatidosis y triquinosis. Nos vemos en la próxima clase.' },
+        ] },
+      ],
+    },
+  ],
+
+  pathway: {
+    title: 'Fiebre en el viajero que vuelve del trópico',
+    root: N('start', 'Viajero con fiebre', 'Vuelve de zona tropical',
+      'Paciente que vuelve de una zona tropical con fiebre. Lo primero es preguntar el viaje; lo segundo, mirar qué acompaña a la fiebre.',
+      ['', N('q', '¿Qué acompaña a la fiebre?', 'Dolor · anemia · ictericia',
+        '¿La fiebre viene con dolor retroorbitario y mialgias, con accesos y anemia, o con ictericia y hemorragia?',
+        ['Retroorbitario + mialgias', N('q', 'Dengue: ¿signos de alarma?', 'Dolor abdominal, sangrado, Hto ↑ plaquetas ↓',
+          'Dolor retroorbitario, mialgias y exantema con islas blancas: dengue. La pregunta que decide todo es si hay algún signo de alarma.',
+          ['NO', N('ok', 'Ambulatorio', 'NS1 o IgM · hidratación oral · paracetamol',
+            'Sin alarma: se confirma con antígeno ene ese uno o IgM, manejo ambulatorio con hidratación oral y paracetamol, y educación de los signos de alarma. Nunca AINE ni aspirina.')],
+          ['SÍ', N('alert', 'Hospitalizar', 'Cristaloides con soporte vigoroso',
+            'Con un solo signo de alarma: hospitalizar de inmediato y reponer con cristaloides. Es la fuga plasmática del dengue grave.')])],
+        ['Accesos + anemia', N('q', 'Malaria: gota gruesa', '¿Qué especie?',
+          'Calofrío, fiebre y sudoración que se repiten, con anemia e ictericia: malaria. Gota gruesa y frotis con Giemsa, y el tratamiento depende de la especie.',
+          ['P. falciparum', N('alert', 'Artemisininas', 'Arteméter-lumefantrina',
+            'Plasmodium falciparum, el más letal: terapia combinada con artemisininas, arteméter con lumefantrina.')],
+          ['P. vivax u ovale', N('do', 'Cloroquina + primaquina', 'Primaquina 14 días · verificar G6PD',
+            'Vivax u ovale: cloroquina para la sangre y primaquina por catorce días para los hipnozoítos, verificando antes la enzima glucosa seis fosfato deshidrogenasa.')])],
+        ['Ictericia + hemorragia', N('refer', 'Fiebre amarilla', 'Soporte en UCI · notificar',
+          'Fiebre con ictericia intensa, vómito negro y bradicardia relativa: fiebre amarilla. Soporte intensivo en la unidad de cuidados intensivos. Y las tres enfermedades se notifican de inmediato.')])]),
+  },
+};
