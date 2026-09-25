@@ -213,6 +213,29 @@ module.exports = {
 
     {
       type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Enero 2023 · Pregunta 175',
+      stem: 'Paciente mayor de 50 años con pólipo resecado en la colonoscopía: adenoma velloso con displasia de bajo grado.',
+      question: '¿Cuál es la conducta?',
+      options: [
+        { letter: 'A', text: 'Colonoscopía de control en 1 año' },
+        { letter: 'B', text: 'Colonoscopía de control en 3 años' },
+        { letter: 'C', text: 'Colonoscopía de control en 5 años' },
+        { letter: 'D', text: 'Hemicolectomía profiláctica' },
+        { letter: 'E', text: 'Colonoscopía de control en 10 años' },
+      ],
+      correct: 'B',
+      explanation: 'El adenoma resecado, cualquiera sea su histología o su grado de displasia, se controla con una nueva colonoscopía en 1 a 3 años. No corresponde cirugía por un solo pólipo resecado por completo en la endoscopía.',
+      say: {
+        stem: 'Vamos con una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente mayor de cincuenta años al que le resecan un pólipo en la colonoscopía: es un adenoma velloso con displasia de bajo grado.',
+        question: '¿Cuál es la conducta?',
+        options: 'Las opciones: colonoscopía de control en un año, en tres años, en cinco años, hemicolectomía profiláctica, o colonoscopía de control en diez años. Piénsalo.',
+        answer: 'Es la B, colonoscopía de control en tres años. Ya resecaste el adenoma en la misma colonoscopía, así que ya trataste el riesgo. Lo que queda es vigilar, y la ventana estándar es de uno a tres años. La hemicolectomía es la trampa: se reserva para el cáncer o para la poliposis con cientos de pólipos, nunca para un solo adenoma resecado.',
+      },
+    },
+
+    {
+      type: 'quiz',
       kicker: 'Pregunta del banco EUNACOM',
       title: 'Caso representativo · banco EUNACOM',
       stem: 'En una colonoscopía realizada a un hombre de 28 años con antecedentes familiares de cáncer de colon se describen más de 150 pólipos distribuidos por todo el colon y el recto. Varias biopsias muestran adenomas tubulares con displasia de bajo grado.',

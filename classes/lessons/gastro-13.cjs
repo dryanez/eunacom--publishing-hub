@@ -248,6 +248,29 @@ module.exports = {
     },
 
     {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2018 · Pregunta 145',
+      stem: 'Mujer de 70 años con dolor abdominal intenso de 24 horas, fiebre hasta 38,5 grados, marcado malestar general y vómitos alimentarios en múltiples ocasiones. Al examen: presión arterial 90/60, frecuencia cardíaca 105 por minuto, ictericia de piel y mucosas, abdomen doloroso de forma difusa, con resistencia muscular, mayor en el hemiabdomen superior. Bilirrubina total 6,8 mg/dL, directa 6,1 mg/dL, fosfatasas alcalinas y GGT elevadas, transaminasas también altas.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Colecistitis enfisematosa' },
+        { letter: 'B', text: 'Plastrón vesicular' },
+        { letter: 'C', text: 'Hepatitis aguda' },
+        { letter: 'D', text: 'Colangitis aguda' },
+        { letter: 'E', text: 'Coledocolitiasis' },
+      ],
+      correct: 'D',
+      explanation: 'Dolor, ictericia y fiebre, con compromiso hemodinámico: es la tríada de Charcot que define la colangitis aguda, una urgencia que requiere drenaje de la vía biliar y antibióticos.',
+      say: {
+        stem: 'Una pregunta real más, del EUNACOM de diciembre de dos mil dieciocho. Mujer de setenta años con dolor abdominal intenso de un día, fiebre hasta treinta y ocho coma cinco, mal estado general y vómitos repetidos. Al examen está hipotensa, taquicárdica, ictérica, con dolor difuso y resistencia muscular en el hemiabdomen superior. La bilirrubina está en seis coma ocho, de predominio directo, con fosfatasas, GGT y transaminasas todas elevadas.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: colecistitis enfisematosa, plastrón vesicular, hepatitis aguda, colangitis aguda, o coledocolitiasis. Piénsalo.',
+        answer: 'Es la D, colangitis aguda. Tiene la tríada de Charcot completa: dolor, ictericia y fiebre, y además está hipotensa y taquicárdica, con compromiso hemodinámico. Eso la separa de la coledocolitiasis simple, que da dolor e ictericia pero no fiebre ni shock. Es una urgencia: va a drenaje de la vía biliar más antibióticos.',
+      },
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

@@ -221,6 +221,29 @@ module.exports = {
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 26',
+      stem: 'Hombre de 25 años con 1 mes de diarrea, dolor abdominal y malestar general; ha tenido disentería en algunas ocasiones y bajó 4 kg. La colonoscopía muestra signos de inflamación en el colon, con zonas de mucosa indemne y sin afectación del recto.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Colitis ulcerosa' },
+        { letter: 'B', text: 'Enfermedad de Crohn' },
+        { letter: 'C', text: 'Colitis isquémica' },
+        { letter: 'D', text: 'Parasitosis intestinal' },
+        { letter: 'E', text: 'Colitis por Clostridioides difficile' },
+      ],
+      correct: 'B',
+      explanation: 'La colonoscopía define el caso: inflamación en parches, con zonas de mucosa indemne, y respeto del recto. Cualquiera de esas dos características, por sí sola, descarta la colitis ulcerosa, que es continua y siempre rectal, y establece el diagnóstico de enfermedad de Crohn.',
+      say: {
+        stem: 'Vamos con una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Hombre de veinticinco años con un mes de diarrea, dolor abdominal y malestar general; ha tenido disentería en algunas ocasiones y bajó cuatro kilos. La colonoscopía muestra inflamación en el colon, con zonas de mucosa sana y sin afectación del recto.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: colitis ulcerosa, enfermedad de Crohn, colitis isquémica, parasitosis intestinal, o colitis por Clostridioides difficile. Piénsalo.',
+        answer: 'Es la B, enfermedad de Crohn. Aquí la clínica no dice mucho, así que fíjate en la colonoscopía: hay zonas de mucosa sana entremedio, eso es la lesión en parches, y el recto está respetado. Basta cualquiera de esas dos características para descartar la colitis ulcerosa, que siempre es continua y siempre parte del recto. Es la misma regla que acabamos de ver, aplicada a la imagen del colonoscopio en vez de al examen físico.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
       title: 'EUNACOM Agosto 2021 · Pregunta 21',
       stem: 'Paciente de 45 años con colitis ulcerosa diagnosticada a los 20 años, inactiva hace 10 años. Desde hace una semana presenta deposiciones blandas con escasa sangre. El examen físico no aporta información.',
       question: '¿Cuál es la conducta más adecuada?',
@@ -238,6 +261,29 @@ module.exports = {
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las opciones: rectosigmoidoscopía, TAC de abdomen y pelvis, parasitológico de deposiciones, colonoscopía, o iniciar corticoides orales. Piénsalo.',
         answer: 'Es la D, colonoscopía. Veinticinco años de colitis ulcerosa: el riesgo de cáncer colorrectal está aumentado, y un sangrado nuevo exige ver todo el colon. La rectosigmoidoscopía es el distractor tentador, porque parece suficiente para una enfermedad que parte en el recto, pero deja el colon proximal sin ver. Y dar corticoides asumiendo un brote, sin descartar un cáncer, es justo el error que buscan.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2025 · Pregunta 164',
+      stem: 'Mujer de 35 años con diarrea crónica mucosanguinolenta de 6 meses, urgencia defecatoria, pujo y tenesmo. Colonoscopía: mucosa eritematosa, granular, con pseudopólipos, desde el recto en forma continua hasta el ángulo esplénico, sin mucosa sana intercalada.',
+      question: '¿Cuál es el diagnóstico?',
+      options: [
+        { letter: 'A', text: 'Colitis isquémica' },
+        { letter: 'B', text: 'Colitis ulcerosa' },
+        { letter: 'C', text: 'Síndrome de intestino irritable' },
+        { letter: 'D', text: 'Colitis infecciosa' },
+        { letter: 'E', text: 'Enfermedad de Crohn' },
+      ],
+      correct: 'B',
+      explanation: 'Compromiso mucoso continuo desde el recto hacia proximal, sin mucosa sana intercalada, con pseudopólipos y clínica de pujo y tenesmo: es una colitis ulcerosa. La ausencia de parches, de compromiso ileal y de lesiones perianales descarta el Crohn.',
+      say: {
+        stem: 'Y una última, del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con diarrea crónica con sangre y mucosidad de seis meses, urgencia para ir al baño, pujo y tenesmo. La colonoscopía muestra mucosa eritematosa, granular, con pseudopólipos, desde el recto en forma continua hasta el ángulo esplénico, sin mucosa sana entremedio.',
+        question: '¿Cuál es el diagnóstico?',
+        options: 'Las opciones: colitis isquémica, colitis ulcerosa, intestino irritable, colitis infecciosa, o enfermedad de Crohn. Piénsalo.',
+        answer: 'Es la B, colitis ulcerosa. Esta vez date vuelta la pregunta: no hay ni una sola característica de Crohn. Es continua, parte del recto, no hay parches ni mucosa sana intercalada. Por descarte, y porque cumple todos los requisitos de la colitis ulcerosa, esa es la respuesta. La misma regla te sirve para afirmar un diagnóstico y para descartarlo.',
       },
     },
 

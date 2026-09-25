@@ -16,19 +16,29 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Manejo médico',
-      title: 'Fisura y hemorroides',
+      title: 'Fisura anal',
       cards: [
-        { title: 'Fisura anal', tag: 'Duele al defecar', kind: 'key', items: [
+        { title: 'Clínica y diagnóstico', tag: 'Duele al defecar', kind: 'key', items: [
           { t: 'Desgarro por deposición dura', d: 'Dolor que persiste minutos + sangre al papel',
             say: 'Partamos por la fisura. Es un desgarro del anodermo por una deposición dura. Duele intensamente al defecar, y el dolor persiste varios minutos porque el esfínter interno queda en espasmo. Sangra poco, manchando el papel. Se diagnostica con la inspección.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Médico primero', kind: 'pharma', items: [
           { t: 'Baños de asiento + tratar constipación', d: 'Crónica > 6 semanas: esfinterotomía lateral interna',
             say: 'El tratamiento es médico: baños de asiento, que relajan el esfínter interno, y tratar la constipación con fibra, agua y laxantes osmóticos. Solo si es crónica, de más de seis semanas, y no responde, se hace una esfinterotomía lateral interna.' },
           { t: 'Se corta el interno, nunca el externo', d: 'El externo es voluntario: incontinencia',
             say: 'Y ojo con este detalle: se secciona siempre el esfínter interno. El externo, el voluntario, no se toca, porque cortarlo produce incontinencia.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Manejo médico',
+      title: 'Hemorroides',
+      cards: [
         { title: 'Hemorroide interno', tag: 'Sangra sin dolor', kind: 'normal', items: [
           { t: 'Hematoquecia indolora', d: 'Grados I a IV; descartar otras causas',
-            say: 'El hemorroide interno es lo contrario: sangra sin dolor. Se clasifica de grado uno, que no protruye, a grado cuatro, irreductible. Es causa frecuente de hemorragia digestiva baja, pero siempre hay que descartar otras causas, como el cáncer que vimos en la clase anterior, con rectoscopía o colonoscopía.' },
+            say: 'Ahora los hemorroides. El interno es lo contrario de la fisura: sangra sin dolor. Se clasifica de grado uno, que no protruye, a grado cuatro, irreductible. Es causa frecuente de hemorragia digestiva baja, pero siempre hay que descartar otras causas, como el cáncer que vimos en la clase anterior, con rectoscopía o colonoscopía.' },
           { t: 'Ligadura elástica electiva', d: 'Grados avanzados: hemorroidectomía',
             say: 'Se trata con ligadura con banda elástica, en forma electiva, más tratar la constipación. En grados avanzados, hemorroidectomía.' },
         ] },
@@ -44,7 +54,7 @@ module.exports = {
     {
       type: 'flow',
       kicker: 'Manejo quirúrgico',
-      title: 'Absceso y fístula',
+      title: 'Absceso perianal y fístula',
       nodes: [
         { id: 'abs', col: 0, row: 1, k: 'risk', t: 'Absceso perianal', s: 'Dolor creciente + masa fluctuante' },
         { id: 'dre', col: 1, row: 1, k: 'good', t: 'Drenaje en pabellón', s: 'Antibióticos solos no sirven' },
@@ -52,7 +62,6 @@ module.exports = {
         { id: 'rm', col: 2, row: 3, k: 'good', t: 'RM pelvis + drenaje + ATB ev', s: 'Aquí sí antibióticos' },
         { id: 'fis', col: 2, row: 1, k: 'effect', t: 'Fístula anal', s: 'Orificio cutáneo que supura' },
         { id: 'fto', col: 3, row: 1, k: 'good', t: 'Fistulotomía o sedal', s: 'Tratamiento quirúrgico' },
-        { id: 'trap', col: 3, row: 0, k: 'trap', t: 'Fisura ≠ fístula', s: 'Se escriben parecido, se manejan al revés' },
       ],
       edges: [
         { from: 'abs', to: 'dre' }, { from: 'abs', to: 'pel', label: 'profundo' }, { from: 'pel', to: 'rm' },
@@ -67,8 +76,20 @@ module.exports = {
           say: 'Si el absceso es profundo, pelvirrectal o isquioanal, el paciente llega con sepsis y síntomas urinarios. Ahí se pide resonancia de pelvis, se drena en pabellón y se agregan antibióticos endovenosos. Aquí sí van los antibióticos.' },
         { show: ['fis', 'fto'], note: 'Secuela del absceso',
           say: 'La fístula anal es la secuela de un absceso: un trayecto que comunica el canal anal con la piel, con un orificio que supura de forma crónica. El diagnóstico es clínico y el tratamiento es quirúrgico, con fistulotomía o sedal. Y en un paciente con fístulas perianales, recuerda pensar también en Crohn.' },
-        { show: ['trap'], note: 'Error clásico',
-          say: 'Y la trampa del tema: fisura no es fístula. La fisura es una herida lineal dolorosa, causada por constipación, de manejo médico. La fístula es un trayecto, secuela de un absceso, de manejo quirúrgico. Se escriben parecido y se manejan al revés.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'No confundir',
+      title: 'Fisura no es fístula',
+      cards: [
+        { title: 'Se escriben parecido, se manejan al revés', tag: 'Trampa del tema', kind: 'alert', items: [
+          { t: 'Fisura: herida, manejo médico', d: 'Dolorosa, por constipación, baños de asiento',
+            say: 'Y aquí va la trampa del tema, porque el enunciado juega con el parecido de las palabras. La fisura es una herida lineal dolorosa del margen anal, causada por la constipación, y su manejo es médico: baños de asiento.' },
+          { t: 'Fístula: trayecto, manejo quirúrgico', d: 'Secuela de un absceso, se opera',
+            say: 'La fístula es un trayecto que comunica el canal anal con la piel, secuela de un absceso, y su manejo es quirúrgico. Se escriben parecido, pero se manejan exactamente al revés: si confundes una con otra, eliges el tratamiento equivocado.' },
+        ] },
       ],
     },
 
@@ -118,6 +139,52 @@ module.exports = {
         question: '¿Cuál es la conducta más adecuada?',
         options: 'Las alternativas: baños de asiento y laxantes, antibióticos orales con control en dos días, trombectomía, drenaje en pabellón, o esfinterotomía lateral interna. Piénsalo.',
         answer: 'Es la D, drenaje quirúrgico en pabellón. Dolor que crece día a día, masa fluctuante y fiebre: es un absceso perianal. El distractor tentador son los antibióticos orales, pero una colección de pus no se resuelve sin drenaje. Y la trombectomía es para el hemorroide externo trombosado, que da un dolor brusco con nódulo violáceo y sin fiebre.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2025 · Pregunta 27',
+      stem: 'Paciente de 52 años con hemorroides externas trombosadas desde hace 6 horas, violáceas, protruidas, irreducibles y muy dolorosas.',
+      question: '¿Cuál es el manejo más adecuado?',
+      options: [
+        { letter: 'A', text: 'Hemorroidectomía de urgencia' },
+        { letter: 'B', text: 'Trombectomía hemorroidal bajo anestesia local' },
+        { letter: 'C', text: 'Ligadura con banda elástica' },
+        { letter: 'D', text: 'Manejo médico conservador con analgesia y baños de asiento' },
+        { letter: 'E', text: 'Escleroterapia' },
+      ],
+      correct: 'B',
+      explanation: 'Hemorroide externo trombosado que consulta dentro de las primeras 48–72 horas: la trombectomía bajo anestesia local alivia el dolor de inmediato. Pasado ese plazo, el manejo es conservador, porque el trombo se reabsorbe solo.',
+      say: {
+        stem: 'Vamos con una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de cincuenta y dos años con hemorroides externos trombosados desde hace seis horas: violáceos, protruidos, irreductibles y muy dolorosos.',
+        question: '¿Cuál es el manejo más adecuado?',
+        options: 'Las opciones: hemorroidectomía de urgencia, trombectomía bajo anestesia local, ligadura con banda elástica, manejo médico conservador, o escleroterapia. Piénsalo.',
+        answer: 'Es la B, trombectomía bajo anestesia local. Consulta a las seis horas, muy dentro de la ventana de cuarenta y ocho a setenta y dos horas, así que todavía aporta. La ligadura elástica es para el hemorroide interno, no el externo. Y el manejo conservador solo se justifica cuando ya pasó esa ventana.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2017 · Pregunta 54',
+      stem: 'Hombre de 54 años consulta por dolor anal que se presenta al defecar, persistiendo por algunos minutos luego de la defecación. En algunas ocasiones ha presentado sangre en las deposiciones.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Hemorroide externo trombosado' },
+        { letter: 'B', text: 'Cáncer de recto' },
+        { letter: 'C', text: 'Fisura anal' },
+        { letter: 'D', text: 'Fístula anal' },
+        { letter: 'E', text: 'Absceso perianal' },
+      ],
+      correct: 'C',
+      explanation: 'Dolor que aparece con la defecación y persiste minutos después, con sangrado escaso: es una fisura anal, por el espasmo del esfínter interno que sigue a cada episodio.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil diecisiete. Hombre de cincuenta y cuatro años con dolor anal que aparece al defecar y persiste algunos minutos después, con sangre en las deposiciones en algunas ocasiones.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: hemorroide externo trombosado, cáncer de recto, fisura anal, fístula anal, o absceso perianal. Piénsalo.',
+        answer: 'Es la C, fisura anal. El patrón es clásico: dolor que empieza justo con la defecación y se queda por minutos, por el espasmo del esfínter interno, con sangrado escaso. Eso descarta el hemorroide trombosado, que es de inicio brusco con un nódulo, y el absceso, que crece día a día. Nada de disfagia ni de masa que hagan pensar en cáncer.',
       },
     },
 
