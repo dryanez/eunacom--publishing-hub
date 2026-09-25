@@ -512,3 +512,10 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 |---|---|
 | gin-04 | El título del libro dice "Miomatosis Uterina y Adenomiosis", pero ninguna sección de contenido, tabla, viñeta ni pregunta de esta clase desarrolla adenomiosis — el tema completo está en gin-05 ("Endometriosis y Adenomiosis"). El guion agrega una tarjeta breve con la única frase descriptiva que sí trae el libro y remite a gin-05 para el resto, en vez de inventar criterios diagnósticos que el libro no da. |
 | — (banco, no libro) | Dos preguntas más del banco real con datos corruptos: "EUNACOM Diciembre 2025 · Pregunta 113" (amenorrea primaria/agenesia vaginal) tiene texto con errores de OCR ("Fsico", "8ene", "magné2ca", "an2concep2vos"); "EUNACOM Diciembre 2024 · Pregunta 124" (SUA) trae comentarios de reconstrucción metidos dentro de una alternativa ("(segun yo tmbn x4, obs pólipo endometrial)"). Ninguna se usó. |
+
+## Salud Pública
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| — (banco, no libro) | "EUNACOM Enero 2023 · Pregunta 166" (estructura del sistema de salud) tiene una explicación genérica de tipo "cuadro clínico" que no corresponde a la pregunta (no es un caso clínico). "EUNACOM Diciembre 2017 · Pregunta 66" da como respuesta correcta que la Subsecretaría de Redes Asistenciales delega en la SEREMI, lo que contradice la estructura que trae el libro (SEREMI depende de la Subsecretaría de Salud Pública, no de la de Redes). Ninguna de las dos se usó en sp-01. |
