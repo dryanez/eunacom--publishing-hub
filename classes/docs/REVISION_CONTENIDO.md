@@ -434,9 +434,18 @@ Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de 
 | Clase | Qué falta |
 |---|---|
 | neuro-01 | La clasificación TOAST solo nombra trombosis venosa cerebral y disección arterial, sin clínica; el banco las pregunta (Dic 2019 P1; Ago 2021 P76, síndrome de Horner). |
+| neuro-03, neuro-05 | Las preguntas del libro son de otros temas (meningitis, neumonía, falla prerrenal, TEP con factor V Leiden, monitoreo de heparina). |
 
 ### Preguntas del banco real descartadas
 | Pregunta | Motivo |
 |---|---|
 | EUNACOM Julio 2025 · Pregunta 66 | Clave aspirina a las 5 h; el libro da ventana de trombectomía de 0–6 h en oclusión de gran vaso (alternativa C). |
 | EUNACOM Diciembre 2022 · Pregunta 97 | Hemiparesia pura sin afasia: clave arteria cerebral media; el libro la clasifica como lacunar. |
+| EUNACOM Diciembre 2022 · Pregunta 93 | Ptosis y miosis tras dolor cervical súbito: clave "parálisis del III par"; es un síndrome de Horner por disección carotídea. |
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| neuro-03 | "Hipertermia maligna" en la hemorragia pontina. | Ese término es la reacción anestésica; aquí es hipertermia central. | "Hipertermia". |
+| neuro-03 | Nitroprusiato e hidralazina "contraindicados". | Las guías aconsejan evitarlos, no los contraindican formalmente (confirmar). | "No se usa / evitar". |
+| neuro-05 | "Proptosis ocular pulsátil" en la trombosis del seno cavernoso. | La proptosis pulsátil es típica de la fístula carótido-cavernosa. | "Proptosis". |
