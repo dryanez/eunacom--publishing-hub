@@ -19,7 +19,7 @@ igual que si la clase no existiera. El archivo se sobreescribe con `Write`, no s
 1. Pediatría (22 clases, `ped-XX`): ped-01..04 · 05..08 · 09..12 · 13..16 · 17..19 · 20..22
 2. Ginecología (12 clases, `gin-05..16`): gin-05..08 · 09..12 · 13..16
 3. Obstetricia (20 clases, `ob-XX`): ob-01..04 · 05..08 · 09..12 · 13..16 · 17..20
-4. Cirugía (18 clases, `cirugia-XX`): cirugia-01..04 **hecho** (verificado: 0/118 t/d, 0/12 sin Piénsalo, 8 reales/0 caso-repr) · 05..08 **hecho** (verificado: 0/97 t/d, 0/14 sin Piénsalo, 12 reales/0 caso-repr) · 09..12 **hecho** (verificado: 0/112 t/d, 0/12 sin Piénsalo, 8 reales/0 caso-repr) · 13..15 · 16..18
+4. Cirugía (18 clases, `cirugia-XX`): cirugia-01..04 **hecho** (verificado: 0/118 t/d, 0/12 sin Piénsalo, 8 reales/0 caso-repr) · 05..08 **hecho** (verificado: 0/97 t/d, 0/14 sin Piénsalo, 12 reales/0 caso-repr) · 09..12 **hecho** (verificado: 0/112 t/d, 0/12 sin Piénsalo, 8 reales/0 caso-repr) · 13..15 **hecho** (verificado: 0/101 t/d, 0/10 sin Piénsalo, 3 reales/5 caso-repr — tema de anestesia sin cobertura real en el banco) · 16..18
 
 ## Instrucciones especiales para cada agente (además de AGENT_BRIEF.md)
 - **NO leer el archivo `classes/lessons/<id>.cjs` existente.** Sobreescribirlo directo con `Write`, como si
