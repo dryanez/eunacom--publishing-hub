@@ -27,6 +27,14 @@ module.exports = {
         { title: 'Factores de riesgo mayores', tag: 'BRCA1 y BRCA2', kind: 'alert', items: [
           { t: 'Mutación BRCA1 o BRCA2', d: 'Hasta 80 de cada 100 con el riesgo',
             say: 'Y el factor de riesgo más potente es genético: las mutaciones BRCA uno y BRCA dos, que llevan el riesgo acumulado de cáncer de mama hasta ochenta de cada cien mujeres portadoras.' },
+          { t: 'Familiar de 1.er grado', d: 'Sobre todo si fue antes de los 40',
+            say: 'También pesa mucho el antecedente familiar directo, en especial si el cáncer fue bilateral, o apareció antes de los cuarenta años.' },
+        ] },
+        { title: 'Otros factores', tag: 'También se preguntan', kind: 'normal', items: [
+          { t: 'Radioterapia torácica joven', d: 'Por ejemplo, tras un linfoma de Hodgkin',
+            say: 'También suma la radioterapia en el tórax durante la juventud, como la que se usa para tratar un linfoma de Hodgkin.' },
+          { t: 'Hiperplasia atípica previa', d: 'O un carcinoma lobulillar in situ',
+            say: 'Y una biopsia previa con hiperplasia ductal atípica, o con carcinoma lobulillar in situ, también marca mayor riesgo a futuro.' },
         ] },
       ],
     },
@@ -58,7 +66,9 @@ module.exports = {
         { show: ['brd45'], note: 'Aquí ya no hay dudas',
           say: 'Y BI-RADS cuatro o cinco es sospechoso o muy sospechoso, con un riesgo que va de dos hasta más de noventa y cinco de cada cien.' },
         { show: ['biopsia'], note: 'Solo la aguja gruesa sirve para esto',
-          say: 'Ahí la conducta es una sola: biopsia con aguja gruesa. Y ojo, no cualquier biopsia sirve: la punción con aguja fina solo saca células sueltas, y no te permite diferenciar un carcinoma in situ de uno invasor. Para eso necesitas el cilindro de tejido que da la aguja gruesa.' },
+          say: 'Ahí la conducta es una sola: biopsia con aguja gruesa. Y ojo, no cualquier biopsia sirve: la punción con aguja fina solo saca células sueltas, y no te permite diferenciar un carcinoma in situ de uno invasor. Para eso necesitas el cilindro de tejido que da la aguja gruesa, porque además es el que te entrega el panel completo de receptores hormonales, HER2 y Ki-67.' },
+        { show: ['biopsia'], note: 'BI-RADS 6: ya no hay nada que discutir',
+          say: 'Y un dato final del sistema: BI-RADS seis ya no es una categoría de sospecha, es malignidad confirmada por una biopsia previa. Ahí lo que sigue es planificar el tratamiento, no seguir estudiando.' },
       ],
     },
 
@@ -69,13 +79,13 @@ module.exports = {
       cards: [
         { title: 'Fibroadenoma', tag: 'La joven con nódulo móvil', kind: 'criteria', items: [
           { t: 'Firme, móvil, indoloro', d: 'En mujeres de 15 a 35 años',
-            say: 'El nódulo benigno más frecuente es el fibroadenoma, en mujeres jóvenes, entre quince y treinta y cinco años. Al tacto es firme, móvil e indoloro, con bordes bien definidos.' },
+            say: 'El nódulo benigno más frecuente es el fibroadenoma, en mujeres jóvenes, entre quince y treinta y cinco años. Al tacto es firme, móvil e indoloro, con bordes bien definidos. En la ecografía se ve más ancho que alto, con el eje mayor paralelo a la piel.' },
           { t: 'Se observa si es pequeño', d: 'Se opera si crece o genera dudas',
-            say: 'Si es pequeño y estable, se observa. Si crece, o genera dudas, se extirpa.' },
+            say: 'Si es pequeño, de menos de dos a tres centímetros, y estable, se observa. Si crece, o genera dudas, se extirpa.' },
         ] },
         { title: 'Condición fibroquística', tag: '30 a 50 años', kind: 'normal', items: [
           { t: 'Mastalgia cíclica bilateral', d: 'Nodularidad difusa antes de la regla',
-            say: 'La segunda es la condición fibroquística, la más frecuente entre los treinta y los cincuenta años: mastalgia cíclica, bilateral, con nodularidad difusa antes de la menstruación. El manejo es sintomático, con sostén y antiinflamatorios.' },
+            say: 'La segunda es la condición fibroquística, la más frecuente entre los treinta y los cincuenta años: mastalgia cíclica, bilateral, con una nodularidad difusa que muchos describen como bolsa de perdigones, antes de la menstruación. El manejo es sintomático, con sostén y antiinflamatorios.' },
         ] },
         { title: 'Papiloma intraductal', tag: 'Telorrea hemática uniporo', kind: 'alert', items: [
           { t: 'Secreción por un solo poro', d: 'Serohemática, espontánea, sin lactancia',
@@ -97,9 +107,33 @@ module.exports = {
           { t: 'HER2 sobreexpresado', d: 'Quimioterapia más trastuzumab',
             say: 'El HER2 enriquecido tiene los receptores hormonales negativos, pero sobreexpresa la proteína HER2. Por eso se trata con quimioterapia más un anticuerpo dirigido, el trastuzumab.' },
         ] },
+        { title: 'Luminal B', tag: 'Pronóstico intermedio', kind: 'pharma', items: [
+          { t: 'Ki-67 alto o HER2 positivo', d: 'Combina quimioterapia y hormonoterapia',
+            say: 'Entre esos dos extremos está el Luminal B: también tiene receptores hormonales positivos, pero con un Ki-67 alto o con HER2 positivo. Por eso combina quimioterapia con hormonoterapia, a diferencia del Luminal A.' },
+        ] },
         { title: 'Triple negativo', tag: 'El más agresivo', kind: 'alert', items: [
           { t: 'RE, RP y HER2 negativos', d: 'No responde a hormonas ni a trastuzumab',
             say: 'Y el triple negativo tiene los tres marcadores negativos: no responde ni a la hormonoterapia ni al trastuzumab. Es más frecuente en mujeres jóvenes con mutación BRCA1, y se trata con quimioterapia citotóxica intensiva.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hormonoterapia',
+      title: 'Tamoxifeno o inhibidor de aromatasa',
+      cards: [
+        { title: 'Tamoxifeno', tag: 'Premenopáusica', kind: 'pharma', items: [
+          { t: 'Modulador de receptores', d: 'Bloquea el estrógeno en la mama',
+            say: 'Cuando el tumor tiene receptores hormonales positivos, se agrega hormonoterapia. En la premenopáusica se usa el tamoxifeno, un modulador selectivo que bloquea el estrógeno en la mama.' },
+          { t: 'Riesgo de endometrio y trombosis', d: 'Exige control ginecológico',
+            say: 'Pero fíjate en el costo: el tamoxifeno actúa como estrógeno en el endometrio, y eso sube el riesgo de cáncer endometrial y de trombosis venosa. Por eso toda paciente con tamoxifeno y metrorragia se biopsia.' },
+        ] },
+        { title: 'Inhibidores de aromatasa', tag: 'Postmenopáusica', kind: 'pharma', items: [
+          { t: 'Anastrozol o letrozol', d: 'Bloquean la aromatización periférica',
+            say: 'En la postmenopáusica se prefieren los inhibidores de aromatasa, como el anastrozol, que bloquean la conversión de andrógenos a estrógeno en la grasa periférica.' },
+          { t: 'Artralgias y osteoporosis', d: 'Piden densitometría y calcio',
+            say: 'Su costo es distinto: aceleran la osteoporosis y dan artralgias, así que requieren densitometría ósea y suplemento de calcio y vitamina D.' },
         ] },
       ],
     },
@@ -126,9 +160,9 @@ module.exports = {
         { show: ['rt'], note: 'Sin esto, la recidiva se dispara',
           say: 'Pero fíjate en esto, porque se pregunta mucho: la cirugía conservadora exige siempre radioterapia sobre la mama restante. Sin ella, la recidiva local sube muchísimo.' },
         { show: ['multi', 'mast'], note: 'Cuando conservar no es una opción',
-          say: 'Si el tumor es multicéntrico, muy grande, o la relación con la mama es mala, se hace mastectomía total, con posibilidad de reconstrucción.' },
+          say: 'Si el tumor es multicéntrico, tiene microcalcificaciones difusas muy extensas, la relación con la mama es mala, o hay una contraindicación para la radioterapia, se hace mastectomía total, con posibilidad de reconstrucción inmediata.' },
         { show: ['gc'], note: 'Evita el linfedema del brazo',
-          say: 'Y en cualquiera de los dos casos, si la axila está clínicamente negativa, se hace biopsia del ganglio centinela. Si sale negativo, te ahorras el vaciamiento axilar completo y el linfedema del brazo que viene con él.' },
+          say: 'Y en cualquiera de los dos casos, si la axila está clínicamente negativa, se hace biopsia del ganglio centinela: se inyecta un radioisótopo o un tinte azul junto al tumor, y se extirpa solo el primer ganglio que lo capta. Si sale negativo, te ahorras el vaciamiento axilar completo, y con eso reduces el linfedema del brazo en más de noventa de cada cien casos.' },
       ],
     },
 
@@ -153,6 +187,8 @@ module.exports = {
           say: 'Y telorrea con sangre por un solo poro: se estudia y se reseca el conducto. Atribuirla a la mastopatía fibroquística es el error clásico, porque esa da secreción, pero no hemática ni por un solo poro.' },
         { cells: ['Cirugía conservadora', 'Radioterapia siempre', 'Omitirla si el margen quedó libre'],
           say: 'Y la cirugía conservadora siempre lleva radioterapia. Omitirla, aunque el margen haya quedado libre, es la trampa más repetida del tratamiento quirúrgico.' },
+        { cells: ['Receptores + y Ki-67 alto', 'Luminal B: quimioterapia y hormonoterapia', 'Tratarlo solo con hormonoterapia'],
+          say: 'Y si el tumor tiene receptores positivos pero un Ki-67 alto, es Luminal B, no Luminal A: necesita quimioterapia además de la hormonoterapia. Tratarlo solo con hormonas es quedarse corto.' },
       ],
     },
 
@@ -226,6 +262,29 @@ module.exports = {
     },
 
     {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 153',
+      stem: 'Una mujer de 45 años se realiza una mamografía, que muestra microcalcificaciones agrupadas y espiculadas en el cuadrante superior externo de la mama derecha, de 2 cm de diámetro. Su examen mamario no tiene alteraciones y cuenta con una mamografía previa, de hace 2 años, informada como BI-RADS 2.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Pedir ecotomografía mamaria' },
+        { letter: 'B', text: 'Realizar biopsia con aguja gruesa' },
+        { letter: 'C', text: 'Programar biopsia estereotáxica' },
+        { letter: 'D', text: 'Solicitar resonancia magnética mamaria' },
+        { letter: 'E', text: 'Realizar control mamográfico en un año' },
+      ],
+      correct: 'C',
+      explanation: 'Las microcalcificaciones agrupadas y espiculadas corresponden a un BI-RADS 4 a 5 actual, sin importar que hace 2 años fuera BI-RADS 2. Como el examen mamario es normal, la lesión no es palpable, así que la biopsia se hace guiada por estereotaxia, no con aguja gruesa a mano alzada.',
+      say: {
+        stem: 'Una pregunta real más, del EUNACOM de julio de dos mil diecinueve. Mujer de cuarenta y cinco años, cuya mamografía muestra microcalcificaciones agrupadas y espiculadas, de dos centímetros, en el cuadrante superior externo. Su examen mamario es normal, y tiene una mamografía de hace dos años informada como BI-RADS dos.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: pedir ecografía mamaria, biopsia con aguja gruesa, biopsia estereotáxica, resonancia mamaria, o control en un año. Piénsalo.',
+        answer: 'Es la C. Ojo con la trampa: el BI-RADS dos es de hace dos años, la imagen de hoy ya es otra, con microcalcificaciones espiculadas que la hacen BI-RADS cuatro a cinco. Y como el examen físico es normal, la lesión no se palpa, así que se biopsia guiada por estereotaxia, no con aguja gruesa a mano alzada.',
+      },
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -240,11 +299,15 @@ module.exports = {
           { t: 'Cirugía conservadora', d: 'Exige radioterapia siempre',
             say: 'La cirugía conservadora exige radioterapia siempre, sin excepción.' },
           { t: 'El subtipo decide el fármaco', d: 'Hormonoterapia, trastuzumab o quimioterapia',
-            say: 'Y el subtipo molecular decide el fármaco: hormonoterapia en el Luminal A, trastuzumab en el HER2 enriquecido, y quimioterapia intensiva en el triple negativo.' },
+            say: 'Y el subtipo molecular decide el fármaco: hormonoterapia en el Luminal A, quimioterapia más hormonoterapia en el Luminal B, trastuzumab en el HER2 enriquecido, y quimioterapia intensiva en el triple negativo.' },
+          { t: 'Ganglio centinela negativo', d: 'Evita el vaciamiento axilar completo',
+            say: 'Y con el ganglio centinela negativo, te ahorras el vaciamiento axilar y su linfedema.' },
         ] },
         { title: 'Patología benigna', tag: 'No todo es cáncer', kind: 'normal', items: [
-          { t: 'Fibroadenoma en la joven', d: 'Papiloma intraductal en la telorrea uniporo',
-            say: 'Si te llevas una sola idea de hoy: el número BI-RADS manda la conducta, y solo el cuatro y el cinco biopsian. Nos vemos en la próxima clase.' },
+          { t: 'Fibroadenoma en la joven', d: 'Nódulo firme, móvil, indoloro',
+            say: 'El fibroadenoma es el nódulo típico de la mujer joven: firme, móvil e indoloro.' },
+          { t: 'Papiloma en la telorrea uniporo', d: 'La causa benigna más frecuente',
+            say: 'Y el papiloma intraductal es la causa benigna más frecuente de telorrea hemática por un solo poro. Si te llevas una sola idea de hoy: el número BI-RADS manda la conducta, y solo el cuatro y el cinco biopsian. Nos vemos en la próxima clase.' },
         ] },
       ],
     },
