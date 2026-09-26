@@ -257,7 +257,7 @@ module.exports = {
 
 function buildPathway() {
   const hospitalizarNode = N('do', 'Hospitalizar', 'Clindamicina más gentamicina',
-    'Hospitalizas siempre, con clindamicina más gentamicina hasta 48 horas afebril.');
+    'Hospitalizas siempre, con clindamicina más gentamicina hasta cuarenta y ocho horas afebril.');
   const endometritisNode = N('alert', 'Endometritis puerperal', 'Loquios fétidos, útero subinvolucionado',
     'Útero doloroso, subinvolucionado, con loquios fétidos: es endometritis.',
     ['', hospitalizarNode]);
