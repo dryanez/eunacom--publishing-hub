@@ -54,7 +54,7 @@ module.exports = {
         { title: 'La regla de oro', tag: 'Se trata siempre', kind: 'alert', items: [
           { t: 'Se trata siempre en la embarazada', d: 'Aunque no tenga ninguna molestia',
             say: 'Y aquí está la idea central. En cualquier otra persona, la bacteriuria asintomática no se trata: no vale la pena. Pero en la embarazada, tú la tratas siempre, aunque no tenga ninguna molestia.' },
-          { t: 'Sin tratar: treinta a cuarenta por ciento', d: 'Progresa a pielonefritis',
+          { t: 'Sin tratarla, progresa', d: 'Treinta a cuarenta de cada cien, a pielonefritis',
             say: 'Y la razón es que si no la tratas, de treinta a cuarenta de cada cien va a progresar a una pielonefritis, con riesgo de parto prematuro. Esa diferencia con la mujer no embarazada es justo lo que te van a preguntar.' },
         ] },
       ],
@@ -249,7 +249,7 @@ module.exports = {
       title: 'Reglas de oro para el examen',
       cards: [
         { title: 'Diagnóstico', tag: 'El número que manda', kind: 'key', items: [
-          { t: 'Más de cien mil UFC, sin síntomas', d: 'Bacteriuria asintomática: se trata siempre',
+          { t: 'Más de cien mil UFC', d: 'Sin síntomas: se trata siempre en el embarazo',
             say: 'Cerremos con las reglas de oro. Más de cien mil colonias, sin síntomas, en la embarazada, se trata siempre. Ese "siempre" es lo que la diferencia de cualquier otra paciente.' },
         ] },
         { title: 'Tratamiento', tag: 'Ambulatorio vs hospital', kind: 'pharma', items: [

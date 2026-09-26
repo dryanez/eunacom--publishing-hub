@@ -36,7 +36,7 @@ module.exports = {
       kicker: 'Diagnóstico',
       title: '¿Está roto? Esa es tu primera pregunta',
       nodes: [
-        { id: 'sos', col: 0, row: 1, k: 'start', t: 'Dolor anexial + atraso + test positivo', s: 'Sospecha de ectópico' },
+        { id: 'sos', col: 0, row: 1, k: 'start', t: 'Dolor, atraso y test positivo', s: 'Sospecha de ectópico' },
         { id: 'est', col: 1, row: 1, k: 'q', t: '¿Está hemodinámicamente estable?', s: 'Presión, pulso, dolor peritoneal' },
         { id: 'ino', col: 2, row: 0, k: 'risk', t: 'Inestable', s: 'Hemoperitoneo por rotura' },
         { id: 'cir', col: 3, row: 0, k: 'alert', t: 'Cirugía de urgencia', s: 'No se espera ningún examen' },
@@ -87,9 +87,9 @@ module.exports = {
       nodes: [
         { id: 'noc', col: 0, row: 1, k: 'start', t: 'Ectópico no complicado', s: 'Confirmado, sin hemoperitoneo' },
         { id: 'cri', col: 1, row: 1, k: 'q', t: 'Tres criterios', s: 'Beta-hCG, tamaño, latidos' },
-        { id: 'cum', col: 2, row: 0, k: 'good', t: 'Cumple los tres', s: 'Menos de cinco mil, menos de tres coma cinco, sin latidos' },
+        { id: 'cum', col: 2, row: 0, k: 'good', t: 'Cumple los tres', s: 'hCG baja, masa chica, sin latidos' },
         { id: 'mtx', col: 3, row: 0, k: 'good', t: 'Metotrexato intramuscular', s: 'Dosis única' },
-        { id: 'nocu', col: 2, row: 2, k: 'risk', t: 'No cumple alguno', s: 'Más de cinco mil, más de tres coma cinco, o con latidos' },
+        { id: 'nocu', col: 2, row: 2, k: 'risk', t: 'No cumple alguno', s: 'hCG alta, masa grande, o con latidos' },
         { id: 'lap', col: 3, row: 2, k: 'alert', t: 'Cirugía laparoscópica', s: 'Salpingostomía o salpingectomía' },
       ],
       edges: [
@@ -110,6 +110,22 @@ module.exports = {
           say: 'Pero si no cumple aunque sea uno de los tres, ya sea que la beta-hCG sea mayor, la masa más grande, o que haya latidos, el metotrexato queda descartado.' },
         { show: ['lap'], note: 'Salpingostomía si quiere fertilidad, salpingectomía si no',
           say: 'Ahí vas a cirugía laparoscópica: salpingostomía si quiere conservar la fertilidad y la otra trompa está dañada, o salpingectomía si la trompa está muy destruida o la paridad ya está cumplida.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Detalles que se preguntan',
+      title: 'Manejo expectante y cuando el metotrexato no basta',
+      cards: [
+        { title: 'Manejo expectante', tag: 'Solo casos muy seleccionados', kind: 'normal', items: [
+          { t: 'Beta-hCG bajo mil, bajando sola', d: 'Y la paciente sin dolor',
+            say: 'Hay un tercer camino, poco usado, pero que se pregunta: el manejo expectante. Solo lo eliges si la beta-hCG está por debajo de mil, y ya viene bajando espontáneamente en los controles, con la paciente sin dolor.' },
+        ] },
+        { title: 'Si el metotrexato no basta', tag: 'Segunda dosis o esquema seriado', kind: 'pharma', items: [
+          { t: 'Descenso menor al quince por ciento', d: 'Segunda dosis o esquema de varios días',
+            say: 'Y si entre el día cuatro y el día siete la beta-hCG no bajó ese quince por ciento que necesitas, tienes dos caminos: repetir una segunda dosis única, o cambiar a un esquema de dosis múltiples en días alternos. Si ninguno funciona, ahí sí pasas a cirugía.' },
+        ] },
       ],
     },
 
@@ -241,7 +257,7 @@ module.exports = {
             say: 'Si está estable, la beta-hCG por sobre mil quinientas a dos mil, con el útero vacío, confirma el diagnóstico.' },
         ] },
         { title: 'Tratamiento', tag: 'Tres criterios', kind: 'pharma', items: [
-          { t: 'Menos de cinco mil, menos de tres coma cinco, sin latidos', d: 'Los tres juntos: metotrexato',
+          { t: 'hCG baja, masa chica, sin latidos', d: 'Los tres juntos: metotrexato',
             say: 'Y para el metotrexato, tienes que cumplir los tres a la vez: beta-hCG menor a cinco mil, masa menor a tres coma cinco centímetros, y sin latidos. Si te llevas una sola idea de hoy: primero decide si está roto, y si no lo está, son esos tres números los que deciden entre fármaco y cirugía. Nos vemos en la próxima clase.' },
         ] },
       ],
@@ -263,7 +279,7 @@ module.exports = {
           ['SÍ', N('q', '¿Cumple los tres criterios de metotrexato?', 'Menos de cinco mil, menos de tres coma cinco, sin latidos',
             'Ectópico confirmado. Revisa los tres criterios juntos.',
             ['SÍ', N('ok', 'Metotrexato intramuscular', 'Control en el día cuatro y siete',
-              'Dosis única, con control de beta-hCG en el día cuatro y en el día siete: debe bajar al menos un quince por ciento entre esos días.')],
+              'Dosis única, con control de beta-hCG en el día cuatro y en el día siete: tiene que bajar al menos un quince por ciento entre esos días.')],
             ['NO', N('do', 'Cirugía laparoscópica', 'Salpingostomía o salpingectomía',
               'Falla algún criterio: salpingostomía si desea fertilidad y la otra trompa está dañada, o salpingectomía si la trompa está muy destruida o la paridad está cumplida.')])])])]),
   },

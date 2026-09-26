@@ -104,6 +104,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Complicaciones',
+      title: 'Lo que puede salir mal, y cómo lo rescatas',
+      cards: [
+        { title: 'Shock hipovolémico', tag: 'Sangrado masivo', kind: 'alert', items: [
+          { t: 'Presión baja, pulso acelerado', d: 'Sangrado con coágulos grandes',
+            say: 'Antes de cerrar, revisemos las complicaciones que te pueden llegar a urgencias. La primera es el shock hipovolémico, por un sangrado masivo: la presión cae, el pulso se acelera, y ves coágulos grandes.' },
+          { t: 'Vías gruesas y evacuar ya', d: 'Cristaloides y sangre si hace falta',
+            say: 'Ahí instalas vías gruesas, repones con cristaloides y hemoderivados si hace falta, y evacúas el útero de urgencia: eso es lo que detiene el sangrado.' },
+        ] },
+        { title: 'Clostridium en el séptico', tag: 'La forma más grave', kind: 'alert', items: [
+          { t: 'Ictericia por hemólisis masiva', d: 'Con falla renal',
+            say: 'Y dentro del aborto séptico hay una forma todavía más grave: la infección por Clostridium, que destruye los glóbulos rojos en masa y deja a la paciente ictérica, con la orina oscura y el riñón fallando.' },
+        ] },
+        { title: 'Después de una evacuación enérgica', tag: 'Secuelas', kind: 'normal', items: [
+          { t: 'Perforación uterina', d: 'Se detecta el procedimiento y se opera',
+            say: 'Y si el legrado es muy enérgico, puedes perforar el útero: lo notas porque la cureta pierde resistencia de golpe. Ahí detienes todo y evalúas quirúrgicamente.' },
+          { t: 'Sinequias de Asherman', d: 'La paciente deja de menstruar después',
+            say: 'Y más adelante, ese mismo legrado agresivo puede dejar cicatrices dentro del útero, el síndrome de Asherman, que se nota porque la paciente deja de menstruar con normalidad. Por eso siempre preferimos el AMEU sobre el legrado con cureta.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Ley 21.030',
       title: 'Las tres causales que despenalizan el aborto en Chile',
       cards: [
@@ -116,7 +140,7 @@ module.exports = {
             say: 'La segunda es la inviabilidad fetal letal, una patología incompatible con la vida fuera del útero. Aquí sí necesitas que un segundo ginecobstetra la confirme.' },
         ] },
         { title: 'Causal tres', tag: 'Violación', kind: 'alert', items: [
-          { t: 'Doce semanas, o catorce si es menor', d: 'Y no exige denuncia previa',
+          { t: 'Plazo: doce semanas', d: 'Catorce si la paciente es menor de catorce años',
             say: 'Y la tercera es la violación, con un plazo de doce semanas, o de catorce si la paciente tiene menos de catorce años. Fíjate en algo que se pregunta seguido: no se exige denuncia ni condena previa, solo la evaluación de un equipo psicosocial.' },
           { t: 'Objeción de conciencia', d: 'No aplica si el riesgo vital es inminente',
             say: 'El equipo puede objetar conciencia, pero no puede negarse si la paciente está en riesgo vital inmediato y no hay otro médico disponible.' },
