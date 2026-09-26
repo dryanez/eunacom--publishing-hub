@@ -1,5 +1,5 @@
-// Clase 11.5 — guion docente escrito a mano (estándar Módulo 2 · Cirugía).
-// Fuente clínica: books/scripts/dataset_cirugia.cjs (cir-05).
+// Clase 11.5 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-05, classId cirugia-05).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,326 +9,248 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Clasificación etiológica primaria vs secundaria, abdomen perforativo, Signo de Jobert, neumoperitoneo y Parche de Graham',
-      say: 'Bienvenidos a la quinta clase de cirugía general. Hoy estudiamos la peritonitis generalizada y el abdomen perforativo. La distinción cardinal para el EUNACOM es separar la peritonitis primaria del paciente cirrótico, cuyo tratamiento es exclusivamente médico, de la peritonitis secundaria por perforación de víscera hueca, que constituye una emergencia quirúrgica impostergable. Al terminar sabrás reconocer el vientre en tabla, el signo de Jobert y la técnica quirúrgica de rescate con parche de epiplón. Comencemos.',
+      subtitle: 'Primaria o secundaria, y qué hacer con el aire libre bajo el diafragma',
+      say: 'Hoy vemos la peritonitis generalizada y el abdomen perforativo. Es un tema que se resuelve con una sola pregunta: esta peritonitis, ¿es médica o quirúrgica? Si aprendes a separarlas bien, vas a acertar casi cualquier pregunta que te pongan sobre esto. Partamos.',
     },
 
     {
       type: 'flow',
-      kicker: 'Etiología y patogenia',
-      title: 'Las tres formas biológicas de peritonitis',
+      kicker: 'Clasificación',
+      title: 'Primaria, secundaria o terciaria: no son lo mismo',
       nodes: [
-        { id: 'per', col: 0, row: 2, k: 'start', t: 'Peritonitis generalizada', s: 'Inflamación difusa del peritoneo parietal y visceral' },
-        { id: 'pri', col: 1, row: 0, k: 'good', t: 'Peritonitis Primaria PBE', s: 'Cirrosis hepática · monomicrobiana · tratamiento médico' },
-        { id: 'sec', col: 1, row: 2, k: 'alert', t: 'Peritonitis Secundaria', s: 'Perforación de víscera hueca · polimicrobiana · quirúrgica' },
-        { id: 'ter', col: 1, row: 4, k: 'trap', t: 'Peritonitis Terciaria', s: 'Persistente tras 48h de cirugía · flora nosocomial y hongos' },
-        { id: 'ulc', col: 2, row: 1, k: 'cause', t: 'Úlcera péptica perforada', s: 'Dolor en puñalada · peritonitis química a bacteriana' },
-        { id: 'neu', col: 3, row: 2, k: 'alert', t: 'Neumoperitoneo masivo', s: 'Aire libre subdiafragmático y Signo de Jobert' },
-        { id: 'lap', col: 4, row: 2, k: 'good', t: 'Laparotomía y Parche de Graham', s: 'Lavado profuso y cierre con parche de epiplón' },
+        { id: 'cir', col: 0, row: 0, k: 'cause', t: 'Cirrótico con ascitis', s: 'Sin foco quirúrgico evidente' },
+        { id: 'pri', col: 1, row: 0, k: 'mech', t: 'Peritonitis primaria', s: 'Monomicrobiana, PBE' },
+        { id: 'med', col: 2, row: 0, k: 'good', t: 'Manejo médico', s: 'Cefotaxima, sin cirugía' },
+        { id: 'vis', col: 0, row: 2, k: 'cause', t: 'Rotura de víscera hueca', s: 'Úlcera, apéndice, divertículo' },
+        { id: 'sec', col: 1, row: 2, k: 'mech', t: 'Peritonitis secundaria', s: 'Polimicrobiana, más del 90 %' },
+        { id: 'cx', col: 2, row: 2, k: 'alert', t: 'Laparotomía urgente', s: 'Control del foco' },
+        { id: 'ter', col: 3, row: 1, k: 'trap', t: 'Peritonitis terciaria', s: 'Tras 48 horas, en la UCI' },
       ],
       edges: [
-        { from: 'per', to: 'pri', label: 'sin solución de continuidad' },
-        { from: 'per', to: 'sec', label: 'rotura visceral > 90%' },
-        { from: 'per', to: 'ter', label: 'falla terapéutica en UCI' },
-        { from: 'sec', to: 'ulc', label: 'ácido y bilis libre' },
-        { from: 'ulc', to: 'neu', label: 'escape gaseoso' },
-        { from: 'neu', to: 'lap', label: 'resolución urgente' },
+        { from: 'cir', to: 'pri' }, { from: 'pri', to: 'med' },
+        { from: 'vis', to: 'sec' }, { from: 'sec', to: 'cx' },
+        { from: 'cx', to: 'ter', label: 'si persiste' },
       ],
       steps: [
-        {
-          show: ['per', 'pri'],
-          note: 'Peritonitis primaria o espontánea',
-          say: 'La peritonitis primaria o bacteriana espontánea se produce en pacientes con ascitis por cirrosis hepática o síndrome nefrótico, sin existir una perforación de víscera abdominal. Ocurre por traslocación bacteriana hematógena, típicamente monomicrobiana por Escherichia coli o neumococo. Su diagnóstico se confirma con más de doscientos cincuenta polimorfonucleares por milímetro cúbico en el líquido ascítico y su tratamiento es exclusivamente médico con cefotaxima o ceftriaxona endovenosa.',
-        },
-        {
-          show: ['sec', 'ulc'],
-          note: 'Peritonitis secundaria por perforación',
-          say: 'La peritonitis secundaria representa más del noventa por ciento de los cuadros quirúrgicos y se debe a la rotura o necrosis de un órgano intraabdominal, como una úlcera péptica gastroduodenal, apendicitis gangrenosa o diverticulitis perforada. La flora es polimicrobiana mixta entérica con bacilos aerobios y anaerobios como Bacteroides fragilis.',
-        },
-        {
-          show: ['neu', 'lap'],
-          note: 'Neumoperitoneo y conducta quirúrgica',
-          say: 'Al perforarse un órgano con gas, este escapa hacia la cavidad peritoneal alojándose bajo el diafragma. El contacto de jugo gástrico y bacterias produce peritonitis química y bacteriana inmediata. La presencia de neumoperitoneo con peritonismo obliga a reanimación y laparotomía de urgencia inmediata para lavado profuso y rafia con parche de Graham.',
-        },
-        {
-          show: ['ter'],
-          note: 'Peritonitis terciaria nosocomial',
-          say: 'La peritonitis terciaria es una complicación tardía en pacientes críticos que persiste tras más de cuarenta y ocho horas de una cirugía previa adecuada. Es causada por patógenos nosocomiales oportunistas multirresistentes como Pseudomonas aeruginosa, Enterococcus faecium y levaduras como Candida albicans, con altísima mortalidad.',
-        },
+        { show: ['cir', 'pri'], note: 'PBE: infección sin rotura de nada',
+          say: 'Empecemos separando dos escenarios que se confunden mucho. El primero es el paciente cirrótico con ascitis. Ahí las bacterias del intestino cruzan la pared sin que nada se rompa, y contaminan el líquido ascítico. Eso es la peritonitis primaria, o peritonitis bacteriana espontánea, y es monomicrobiana: casi siempre un solo germen, típicamente Escherichia coli.' },
+        { show: ['med'], note: 'Aquí la cirugía está contraindicada',
+          say: 'Y aquí viene el dato que más se pregunta: esta peritonitis se trata solo con antibióticos, cefotaxima o ceftriaxona endovenosa. Operar a este paciente es un error grave, porque no hay ningún foco que drenar.' },
+        { show: ['vis'], note: 'Aquí sí se rompió algo',
+          say: 'El segundo escenario es distinto: algo se perforó. Una úlcera, un apéndice, un divertículo. Ahí el contenido intestinal contamina el peritoneo con muchos gérmenes a la vez.' },
+        { show: ['sec'], note: 'Más del noventa por ciento de las peritonitis quirúrgicas',
+          say: 'Eso es la peritonitis secundaria, polimicrobiana, y es la que ves casi siempre en la práctica: más del noventa por ciento de las peritonitis que operas son de este tipo.' },
+        { show: ['cx'], note: 'Al revés que en la PBE: aquí sí se opera',
+          say: 'Y aquí la conducta es exactamente la opuesta: laparotomía de urgencia para controlar el foco. Fíjate en el contraste, porque es justo lo que el examen te va a poner a prueba: en la primaria, cirugía contraindicada; en la secundaria, cirugía obligatoria.' },
+        { show: ['ter'], note: 'Paciente crítico, gérmenes raros',
+          say: 'Y hay un tercer escenario, menos preguntado: la peritonitis terciaria. Aparece después de cuarenta y ocho horas de haber operado una secundaria, en un paciente crítico e inmunodeprimido, con gérmenes oportunistas como cándida. Guárdalo para cuando veas un caso que no mejora después de la cirugía.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Semiología de urgencia',
-      title: 'El síndrome de abdomen perforativo y sus signos cardinales',
+      kicker: 'Abdomen perforativo',
+      title: 'La clínica de la úlcera que se rompió',
       cards: [
-        {
-          title: 'Dolor en puñalada hiperagudo',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Inicio brusco en segundos, descrito como un dolor en puñalada en epigastrio.',
-              say: 'El cuadro de úlcera péptica perforada debuta de forma instantánea, en segundos. El paciente puede precisar el minuto exacto en que sintió una puñalada desgarradora en el epigastrio, provocada por el contacto súbito del ácido clorhídrico y pepsina sobre el peritoneo ricamente inervado.',
-            },
-            {
-              text: 'Inmovilidad absoluta: cualquier movimiento, respiración profunda o tos agrava el dolor.',
-              say: 'El paciente permanece completamente inmóvil en decúbito dorsal con las piernas flectadas. La respiración se vuelve superficial y puramente torácica para evitar el roce del diafragma con la cavidad abdominal inflamada.',
-            },
-          ],
-        },
-        {
-          title: 'Vientre en tabla y Signo de Jobert',
-          kind: 'alert',
-          items: [
-            {
-              text: 'Vientre en tabla: contractura muscular refleja involuntaria rígida en los cuatro cuadrantes.',
-              say: 'A la palpación destaca el vientre en tabla, una contractura muscular refleja involuntaria y tónica de toda la pared anterior del abdomen que es invencible a la palpación y rígida como una madera. Traduce peritonitis química o purulenta difusa.',
-            },
-            {
-              text: 'Signo de Jobert: desaparición de la matidez hepática a la percusión en el hemitórax derecho.',
-              say: 'A la percusión, el hallazgo patognomónico es el signo de Jobert positivo: la desaparición de la matidez hepática normal sobre el reborde costal derecho, sustituida por timpanismo debido a la interposición de aire libre subdiafragmático. Además, existe silencio auscultatorio por íleo paralítico secundario.',
-            },
-          ],
-        },
-        {
-          title: 'Contraindicación formal: Endoscopía digestiva',
-          kind: 'key',
-          items: [
-            {
-              text: 'La endoscopía digestiva alta está formalmente contraindicada ante sospecha de perforación.',
-              say: 'Nunca se debe realizar una endoscopía alta si se sospecha úlcera perforada. La insuflación neumática endoscópica aumentaría drásticamente la fuga de aire y contenido gástrico hacia el peritoneo libre, agravando el shock.',
-            },
-          ],
-        },
+        { title: 'Dolor característico', tag: 'Inicio hiperagudo', kind: 'key', items: [
+          { t: 'Dolor en puñalada', d: 'Empieza en el epigastrio, en segundos',
+            say: 'Fíjate en cómo llega este paciente. El dolor empieza en segundos, en el epigastrio, y el paciente lo describe como una puñalada. No es un dolor que va creciendo: aparece así, de golpe.' },
+          { t: 'Se generaliza rápido', d: 'Y el paciente no se mueve',
+            say: 'En minutos se generaliza a todo el abdomen, y el paciente queda inmóvil, porque cualquier movimiento, hasta respirar hondo, le duele muchísimo más.' },
+        ] },
+        { title: 'Examen físico', tag: 'Peritonitis química', kind: 'criteria', items: [
+          { t: 'Abdomen en tabla', d: 'Contractura involuntaria, rígida, en los cuatro cuadrantes',
+            say: 'Al examen físico encuentras el abdomen en tabla: una contractura involuntaria, dura como una madera, que compromete los cuatro cuadrantes.' },
+          { t: 'Signo de Jobert', d: 'Desaparece la matidez hepática',
+            say: 'Y el signo que más se pregunta es el de Jobert: al percutir donde debería estar la matidez del hígado, encuentras timpanismo, porque hay aire libre interpuesto. Ese aire viene de la úlcera perforada.' },
+        ] },
       ],
     },
 
     {
-      type: 'table',
-      kicker: 'Diagnóstico diferencial',
-      title: 'Peritonitis Primaria versus Peritonitis Secundaria',
-      head: ['Parámetro clínico', 'Peritonitis Primaria PBE', 'Peritonitis Secundaria', 'Implicancia médica directa'],
-      rows: [
-        {
-          cells: [
-            'Población y causa de base',
-            'Cirrosis hepática avanzada con ascitis o síndrome nefrótico severo',
-            'Cualquier paciente con perforación de víscera hueca: úlcera, apéndice o divertículo',
-            'La PBE no tiene una perforación orgánica macroscópica de la pared digestiva.',
-          ],
-          say: 'La peritonitis primaria ocurre casi exclusivamente en pacientes cirróticos con ascitis preexistente por traslocación bacteriana. La peritonitis secundaria aparece en cualquier paciente como complicación de una perforación mecánica visceral.',
-        },
-        {
-          cells: [
-            'Microbiología del líquido peritoneal',
-            'Monomicrobiana en más del noventa por ciento: Escherichia coli, Klebsiella o Neumococo',
-            'Polimicrobiana mixta: flora entérica con aerobios gramnegativos y anaerobios Bacteroides',
-            'El aislamiento de flora mixta con anaerobios en un cirrótico obliga a sospechar perforación secundaria.',
-          ],
-          say: 'La microbiología es determinante: la peritonitis bacteriana espontánea es monomicrobiana, mientras que la peritonitis secundaria es típicamente polimicrobiana con flora mixta fecal y anaerobios estrictos.',
-        },
-        {
-          cells: [
-            'Neumoperitoneo y conducta terapéutica',
-            'Neumoperitoneo ausente · Tratamiento médico con Cefotaxima endovenosa',
-            'Neumoperitoneo presente en más del ochenta por ciento · Laparotomía de urgencia',
-            'Operar una PBE incrementa la mortalidad sobre el ochenta por ciento; no operar una peritonitis secundaria es fatal.',
-          ],
-          say: 'En la peritonitis primaria no hay neumoperitoneo y la laparotomía está formalmente desaconsejada porque precipita la falla hepática; se trata con cefotaxima endovenosa. Por el contrario, la peritonitis secundaria con neumoperitoneo exige cirugía de urgencia inmediata.',
-        },
+      type: 'flow',
+      kicker: 'Diagnóstico y conducta',
+      title: 'De la sospecha al pabellón',
+      nodes: [
+        { id: 'sos', col: 0, row: 1, k: 'start', t: 'Sospecha de perforación', s: 'Dolor en puñalada, abdomen en tabla' },
+        { id: 'rx', col: 1, row: 0, k: 'mech', t: 'Radiografía de tórax de pie', s: 'Busca neumoperitoneo' },
+        { id: 'tac', col: 1, row: 2, k: 'mech', t: 'TAC de abdomen', s: 'Si la radiografía no es clara' },
+        { id: 'rea', col: 2, row: 1, k: 'good', t: 'Reanimación inmediata', s: 'Volumen, sonda nasogástrica, antibióticos' },
+        { id: 'lap', col: 3, row: 1, k: 'alert', t: 'Laparotomía urgente', s: 'Lavado y parche de Graham' },
+      ],
+      edges: [
+        { from: 'sos', to: 'rx' }, { from: 'sos', to: 'tac', label: 'si duda' },
+        { from: 'rx', to: 'rea' }, { from: 'tac', to: 'rea' },
+        { from: 'rea', to: 'lap' },
+      ],
+      steps: [
+        { show: ['sos', 'rx'], note: 'El examen más rápido primero',
+          say: 'Con esta clínica, el primer examen no es el más sofisticado, sino el más rápido: la radiografía de tórax de pie. Busca la semiluna de aire libre bajo el diafragma, y la encuentra en más de tres de cada cuatro casos.' },
+        { show: ['tac'], note: 'Confirma cuando la radiografía no basta',
+          say: 'Si la radiografía sale dudosa pero tú sigues sospechando, el paso siguiente es el TAC de abdomen, que confirma hasta las burbujas de aire más pequeñas y te dice dónde está la perforación.' },
+        { show: ['rea'], note: 'No se pierde tiempo mientras se confirma',
+          say: 'En paralelo, mientras confirmas, ya empiezas a actuar: volumen por dos vías gruesas, sonda nasogástrica para vaciar el estómago y frenar la fuga, y antibióticos de amplio espectro, ceftriaxona más metronidazol.' },
+        { show: ['lap'], note: 'El parche de Graham cierra la úlcera',
+          say: 'Y el destino final es la laparotomía o laparoscopía de urgencia: lavas toda la cavidad con suero tibio, y cierras la perforación con un parche de epiplón vascularizado, la técnica de Graham. Acuérdate de una cosa muy importante: jamás pidas una endoscopía aquí. Meter aire a presión en un abdomen ya perforado empeora todo.' },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de urgencias',
-      title: 'Enfrentamiento y conducta en peritonitis generalizada',
-      say: 'Revisemos el árbol de decisión ante un paciente con signos de peritonitis aguda generalizada para definir el manejo médico o quirúrgico inmediato.',
+      intro: 'Ahora juntemos las dos peritonitis en un solo árbol de decisión.',
     },
 
     {
-      type: 'points',
-      kicker: 'Tratamiento quirúrgico definitivo',
-      title: 'Técnica de Parche de Graham y reanimación perioperatoria',
-      cards: [
-        {
-          title: 'Medidas médicas iniciales inmediatas',
-          kind: 'pharma',
-          items: [
-            {
-              text: 'Instalación de sonda nasogástrica a caída libre para vaciar el estómago.',
-              say: 'La primera medida en urgencias es instalar una sonda nasogástrica gruesa a caída libre con aspiración suave para evacuar el ácido y jugo gástrico residual, interrumpiendo la fuga continua hacia el peritoneo.',
-            },
-            {
-              text: 'Reanimación con cristaloides isotónicos y cobertura antibiótica endovenosa de amplio espectro.',
-              say: 'Se inicia reposición hidroelectrolítica agresiva con suero ringer lactato o fisiológico por dos vías venosas gruesas y se administran antibióticos endovenosos de amplio espectro como Ceftriaxona dos gramos al día más Metronidazol quinientos miligramos cada ocho horas.',
-            },
-          ],
-        },
-        {
-          title: 'Técnica quirúrgica: Parche de Graham',
-          kind: 'key',
-          items: [
-            {
-              text: 'Lavado profuso de toda la cavidad peritoneal con seis a diez litros de suero fisiológico tibio.',
-              say: 'El pilar fundamental de la cirugía es el lavado exhaustivo de los cuatro cuadrantes, correderas parietocólicas y fondo de saco de Douglas con varios litros de suero fisiológico tibio para eliminar todo residuo alimentario y purulento.',
-            },
-            {
-              text: 'Sutura de la perforación con parche de epiplón mayor pediculado vascularizado.',
-              say: 'La úlcera duodenal o gástrica perforada no se reseca en agudo: se realiza la técnica de Graham o parche de epiplón, pasando puntos de sutura a través de los bordes sanos y anudándolos sobre una lengüeta de epiplón mayor vascularizado que sella biológicamente la perforación.',
-            },
-          ],
-        },
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Primaria versus secundaria: la trampa clásica',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Cirrótico, ascitis, PMN sobre 250', 'Cefotaxima endovenosa, sin cirugía', 'Operar de urgencia'],
+          say: 'Repasemos las trampas. Cirrótico con ascitis y más de doscientos cincuenta polimorfonucleares: cefotaxima, sin cirugía. Operarlo es el error grave que más se repite.' },
+        { cells: ['Dolor en puñalada, abdomen en tabla', 'Radiografía de tórax de pie', 'Pedir endoscopía de entrada'],
+          say: 'Dolor en puñalada con abdomen en tabla: tu primer examen es la radiografía de tórax de pie. Pedir una endoscopía aquí solo empeora la perforación.' },
+        { cells: ['Neumoperitoneo confirmado', 'Laparotomía urgente con parche de Graham', 'Tratar solo con antibióticos'],
+          say: 'Con neumoperitoneo confirmado, vas a laparotomía urgente con parche de Graham. Tratar solo con antibióticos, sin operar, deja el foco sin controlar.' },
+        { cells: ['Fiebre persistente 48 horas tras operar', 'Sospechar peritonitis terciaria', 'Asumir que la cirugía ya resolvió todo'],
+          say: 'Y si el paciente sigue con fiebre cuarenta y ocho horas después de una peritonitis secundaria ya operada, sospecha una peritonitis terciaria, con gérmenes distintos.' },
       ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 44 años, usuario crónico de diclofenaco por lumbago, consulta por dolor epigástrico de inicio súbito hace 3 horas, tipo puñalada, que se generalizó a todo el abdomen. Está pálido, sudoroso, con presión arterial de 100/60 y frecuencia cardíaca de 110. El abdomen no tiene movimiento respiratorio, está rígido en los cuatro cuadrantes, y a la percusión desaparece la matidez hepática.',
+      question: '¿Cuál es la conducta inicial más adecuada?',
+      options: [
+        { letter: 'A', text: 'Solicitar endoscopía digestiva alta de urgencia' },
+        { letter: 'B', text: 'Solicitar radiografía de tórax de pie' },
+        { letter: 'C', text: 'Indicar amilasa y lipasa seriadas' },
+        { letter: 'D', text: 'Iniciar cefotaxima endovenosa y observar' },
+        { letter: 'E', text: 'Solicitar colonoscopía de urgencia' },
+      ],
+      correct: 'B',
+      explanation: 'Dolor en puñalada, abdomen en tabla y signo de Jobert son el cuadro típico de una úlcera perforada. El examen inicial, por rapidez, es la radiografía de tórax de pie, buscando neumoperitoneo. La endoscopía está contraindicada, y la cefotaxima sola es el manejo de la peritonitis primaria, no de esta.',
+      say: {
+        stem: 'Vamos con un caso. Hombre de cuarenta y cuatro años, usuario crónico de diclofenaco por lumbago, con dolor epigástrico que empezó de golpe hace tres horas, como una puñalada, y que se generalizó a todo el abdomen. Está pálido, sudoroso, con la presión baja y el pulso acelerado. El abdomen no se mueve al respirar, está rígido en los cuatro cuadrantes, y al percutir desaparece la matidez del hígado.',
+        question: '¿Cuál es la conducta inicial más adecuada?',
+        options: 'Tienes cinco opciones: pedir una endoscopía de urgencia, pedir una radiografía de tórax de pie, pedir amilasa y lipasa, dar cefotaxima y observar, o pedir una colonoscopía. Piénsalo.',
+        answer: 'Es la B. Este cuadro es el arquetipo de la úlcera perforada: dolor en puñalada, abdomen en tabla, y el signo de Jobert que te acaba de confirmar el neumoperitoneo. El examen más rápido para verlo es la radiografía de tórax de pie. La endoscopía la descartas de plano, porque empeora la perforación. Y la cefotaxima sola sería la respuesta si esto fuera una peritonitis primaria, pero aquí hay un foco que se rompió: eso necesita cirugía, no solo antibióticos.',
+      },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
       title: 'EUNACOM Agosto 2021 · Pregunta 169',
-      caseText: 'Una paciente de cuarenta y tres años, multípara, presenta dolor abdominal difuso, intenso y vómitos, con marcado meteorismo. Al examen físico tiene frecuencia cardíaca de ciento diez por minuto, presión arterial de cien con sesenta milímetros de mercurio y al examen abdominal se observa cicatriz de cesárea antigua. Se palpa abdomen muy doloroso tanto a la palpación superficial como profunda, con distensión de la pared abdominal, pérdida de la matidez hepática a la percusión y abolición de los ruidos hidroaéreos a la auscultación. ¿Cuál es el diagnóstico más probable?',
+      stem: 'Paciente de 43 años, multípara, con dolor abdominal difuso, intenso y vómitos, con marcado meteorismo. Frecuencia cardíaca de 110 y presión arterial de 100/60. Al examen abdominal se observa cicatriz de cesárea, con abdomen muy doloroso a la palpación, distensión de la pared, pérdida de la matidez hepática a la percusión y abolición de los ruidos hidroaéreos.',
       question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Obstrucción intestinal', isCorrect: false },
-        { letter: 'B', text: 'Pancreatitis aguda', isCorrect: false },
-        { letter: 'C', text: 'Perforación intestinal', isCorrect: true },
-        { letter: 'D', text: 'Megacolon tóxico', isCorrect: false },
-        { letter: 'E', text: 'Embolia mesentérica', isCorrect: false },
+        { letter: 'A', text: 'Obstrucción intestinal' },
+        { letter: 'B', text: 'Pancreatitis aguda' },
+        { letter: 'C', text: 'Perforación intestinal' },
+        { letter: 'D', text: 'Megacolon' },
+        { letter: 'E', text: 'Embolia mesentérica' },
       ],
       correct: 'C',
+      explanation: 'La pérdida de la matidez hepática indica neumoperitoneo, propio de una perforación. Sumado a la abolición de los ruidos hidroaéreos y el dolor intenso y difuso, el cuadro es de una peritonitis secundaria a perforación intestinal.',
       say: {
-        stem: 'Analicemos esta pregunta oficial de agosto de dos mil veintiuno. Una mujer de cuarenta y tres años presenta dolor abdominal difuso muy intenso, vómitos, distensión, taquicardia y dos signos semiológicos patognomónicos: pérdida de la matidez hepática a la percusión y abolición de los ruidos hidroaéreos.',
-        question: 'Se pregunta cuál es el diagnóstico más probable.',
-        options: 'Las alternativas son: opción A, obstrucción intestinal; opción B, pancreatitis aguda; opción C, perforación intestinal; opción D, megacolon tóxico; y opción E, embolia mesentérica. Piénsalo.',
-        answer: 'La respuesta correcta es la opción C, perforación intestinal. La desaparición de la matidez hepática a la percusión es el signo de Jobert positivo, que traduce la presencia de neumoperitoneo masivo por escape de aire desde una víscera perforada. Sumado al dolor peritoneal difuso y el silencio auscultatorio, confirma una peritonitis secundaria por perforación.',
+        stem: 'Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y tres años, multípara, con dolor abdominal difuso e intenso, vómitos y mucha distensión. Frecuencia cardíaca de ciento diez y presión de cien sobre sesenta. Tiene cicatriz de cesárea, el abdomen está muy doloroso, distendido, con pérdida de la matidez hepática y sin ruidos hidroaéreos.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones son: obstrucción intestinal, pancreatitis aguda, perforación intestinal, megacolon, o embolia mesentérica. Piénsalo.',
+        answer: 'Es la C, perforación intestinal. La pieza clave es la misma que en el caso anterior: la pérdida de la matidez hepática. Eso es neumoperitoneo, y con ruidos hidroaéreos abolidos por el íleo que genera la peritonitis, el cuadro completo apunta a una víscera que se rompió, no a una obstrucción simple.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      caseText: 'Un hombre de cincuenta y cuatro años con antecedentes de consumo crónico de antiinflamatorios no esteroidales por lumbago, consulta por un cuadro de inicio súbito hace tres horas de dolor epigástrico de intensidad diez de diez, que describe como una puñalada y que rápidamente se generalizó a todo el abdomen. Al examen físico destaca paciente pálido, sudoroso, con presión arterial de cien con sesenta, frecuencia cardíaca de ciento quince por minuto. El abdomen se encuentra plano, inmóvil con la respiración y presenta vientre en tabla con resistencia muscular invencible y dolor a la descompresión en los cuatro cuadrantes. Se solicita radiografía de tórax de pie que evidencia una semiluna radiolúcida de gas bajo el hemidiafragma derecho. ¿Cuál es la conducta terapéutica de elección?',
-      question: '¿Cuál es la conducta terapéutica de elección?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 162',
+      stem: 'Paciente de 43 años con dolor epigástrico urente de un mes de evolución. Hace 24 horas deja de eliminar gases y el dolor se vuelve difuso y persistente, con distensión abdominal. Frecuencia cardíaca de 110 y presión arterial de 110/70. El abdomen está doloroso y distendido, con pérdida de la matidez hepática y ruidos hidroaéreos abolidos.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Endoscopía digestiva alta de urgencia para hemostasia con clip', isCorrect: false },
-        { letter: 'B', text: 'Instalación de sonda nasogástrica, reanimación con fluidos endovenosos y laparotomía de urgencia con parche de Graham', isCorrect: true },
-        { letter: 'C', text: 'Tratamiento médico conservador con inhibidores de bomba de protones a altas dosis en infusión continua', isCorrect: false },
-        { letter: 'D', text: 'Paracentesis diagnóstica y evacuadora urgente', isCorrect: false },
-        { letter: 'E', text: 'Tomografía computarizada de control en veinticuatro horas y analgesia con opioides', isCorrect: false },
+        { letter: 'A', text: 'Obstrucción intestinal' },
+        { letter: 'B', text: 'Pancreatitis aguda' },
+        { letter: 'C', text: 'Perforación de úlcera péptica' },
+        { letter: 'D', text: 'Plastrón vesicular' },
+        { letter: 'E', text: 'Cáncer de vesícula' },
       ],
-      correct: 'B',
+      correct: 'C',
+      explanation: 'El mes de epigastralgia urente que mejoraba con la comida marca una úlcera activa de fondo. El cambio brusco a dolor difuso, íleo y pérdida de la matidez hepática es la perforación de esa misma úlcera hacia el peritoneo.',
       say: {
-        stem: 'Revisemos este caso representativo de úlcera péptica perforada en un paciente consumidor de antiinflamatorios. Presenta dolor en puñalada de inicio hiperagudo, vientre en tabla y una radiografía de tórax con neumoperitoneo subdiafragmático indiscutible.',
-        question: 'Nos consultan por la conducta terapéutica de elección.',
-        options: 'Las opciones son: opción A, endoscopía alta de urgencia; opción B, sonda nasogástrica, fluidos endovenosos y laparotomía de urgencia con parche de Graham; opción C, tratamiento médico conservador con omeprazol; opción D, paracentesis; y opción E, tomografía en veinticuatro horas. Piénsalo.',
-        answer: 'La respuesta correcta es la opción B. El cuadro de úlcera péptica perforada con neumoperitoneo y peritonitis química y bacteriana generalizada es una indicación formal de cirugía de urgencia. Se descomprime el estómago con sonda nasogástrica, se inicia hidratación y antibióticos, y se realiza laparotomía con lavado peritoneal profuso y sutura con parche de epiplón de Graham.',
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de cuarenta y tres años con un mes de dolor epigástrico urente. Hace veinticuatro horas deja de eliminar gases, y el dolor se vuelve difuso y persistente, con distensión. Frecuencia cardíaca de ciento diez, presión de ciento diez sobre setenta, abdomen distendido, con pérdida de la matidez hepática y sin ruidos hidroaéreos.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones son: obstrucción intestinal, pancreatitis aguda, perforación de úlcera péptica, plastrón vesicular, o cáncer de vesícula. Piénsalo.',
+        answer: 'Es la C. Fíjate en la historia completa: un mes de epigastralgia urente es la úlcera activa que ya conoces de la clase de gastroenterología. Y el cambio brusco a dolor difuso con signos de neumoperitoneo es esa misma úlcera perforándose. No es una obstrucción simple, porque ahí no esperarías perder la matidez hepática.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2022 · Pregunta 159',
+      stem: 'Paciente de 67 años, cirrótico por alcohol, traído por deterioro del estado general y compromiso de conciencia. Está en sopor superficial, con fetor hepático, temperatura de 38,3 y frecuencia cardíaca de 85. El abdomen muestra ascitis a tensión, con asterixis y sin focalidad neurológica.',
+      question: '¿Cuál es el examen de elección para iniciar el estudio?',
+      options: [
+        { letter: 'A', text: 'Hemocultivos' },
+        { letter: 'B', text: 'Hemograma' },
+        { letter: 'C', text: 'Estudio de líquido ascítico' },
+        { letter: 'D', text: 'TAC de abdomen' },
+        { letter: 'E', text: 'Ecografía abdominal' },
+      ],
+      correct: 'C',
+      explanation: 'Todo cirrótico con ascitis que se descompensa debe estudiarse primero para descartar una peritonitis bacteriana espontánea, con paracentesis y recuento de polimorfonucleares en el líquido ascítico.',
+      say: {
+        stem: 'Y una última pregunta real, del EUNACOM de diciembre de dos mil veintidós, para el otro lado de la clase. Paciente de sesenta y siete años, cirrótico por alcohol, con deterioro y compromiso de conciencia. Está en sopor, con fetor hepático, algo de fiebre, y el abdomen muestra ascitis a tensión, con asterixis.',
+        question: '¿Cuál es el examen de elección para iniciar el estudio?',
+        options: 'Las opciones son: hemocultivos, hemograma, estudio de líquido ascítico, TAC de abdomen, o ecografía abdominal. Piénsalo.',
+        answer: 'Es la C. Todo cirrótico con ascitis que se descompensa tiene que estudiarse primero por peritonitis bacteriana espontánea, y eso se hace con una paracentesis diagnóstica, contando los polimorfonucleares del líquido ascítico. Si pasa de doscientos cincuenta, tratas con cefotaxima, sin necesidad de ningún TAC ni de cirugía.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos clave para el EUNACOM',
-      title: 'Reglas de oro en peritonitis generalizada',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Cuatro certezas clínicas',
-          kind: 'key',
-          items: [
-            {
-              text: 'Peritonitis primaria es médica y peritonitis secundaria es quirúrgica.',
-              say: 'Primera regla: la peritonitis bacteriana espontánea en el cirrótico es monomicrobiana y se trata médicamente con cefotaxima; la peritonitis secundaria por perforación es polimicrobiana y exige cirugía de urgencia.',
-            },
-            {
-              text: 'El dolor en puñalada y el vientre en tabla traducen perforación.',
-              say: 'Segunda regla: el inicio instantáneo del dolor en puñalada seguido de vientre en tabla rígido como madera es el cuadro cardinal de la úlcera péptica perforada a cavidad libre.',
-            },
-            {
-              text: 'El Signo de Jobert es el timpanismo sobre el área hepática.',
-              say: 'Tercera regla: el signo de Jobert traduce neumoperitoneo por interposición de aire libre entre el hígado y la pared torácica; la radiografía de tórax de pie es el estudio inicial más rápido.',
-            },
-            {
-              text: 'El tratamiento de la úlcera perforada es el Parche de Graham.',
-              say: 'Cuarta regla: el tratamiento quirúrgico estándar consiste en lavado peritoneal profuso y rafia de la perforación protegida con un parche de epiplón pediculado vascularizado.',
-            },
-          ],
-        },
-        {
-          title: 'Idea final',
-          kind: 'normal',
-          items: [
-            {
-              text: 'Nunca solicitar endoscopía digestiva ante sospecha de perforación.',
-              say: 'Si te llevas una sola idea de hoy: la endoscopía digestiva alta está terminantemente contraindicada ante la sospecha de úlcera perforada, porque la insuflación de aire agrava drásticamente la peritonitis y el neumoperitoneo. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'La pregunta central', tag: 'Primaria o secundaria', kind: 'key', items: [
+          { t: 'Cirrótico, ascitis, PMN alto', d: 'Cefotaxima, nunca cirugía',
+            say: 'Cerremos con las reglas de oro. Si es un cirrótico con ascitis y PMN elevados, es peritonitis primaria: cefotaxima, y nunca cirugía.' },
+          { t: 'Víscera perforada', d: 'Laparotomía urgente, siempre',
+            say: 'Si hay una víscera perforada, es peritonitis secundaria: laparotomía urgente, siempre.' },
+        ] },
+        { title: 'El abdomen perforativo', tag: 'Clínica y examen', kind: 'criteria', items: [
+          { t: 'Puñalada más abdomen en tabla', d: 'Piensa en úlcera perforada',
+            say: 'El dolor en puñalada con abdomen en tabla te tiene que hacer pensar en úlcera perforada.' },
+          { t: 'Radiografía de tórax de pie', d: 'Primero, nunca endoscopía',
+            say: 'Y el examen inicial es la radiografía de tórax de pie, nunca la endoscopía.' },
+        ] },
+        { title: 'Tratamiento quirúrgico', tag: 'Parche de Graham', kind: 'alert', items: [
+          { t: 'Lavado más parche de epiplón', d: 'Cierra la perforación',
+            say: 'Y el tratamiento quirúrgico es lavado de toda la cavidad y parche de epiplón para cerrar la perforación. Si te llevas una sola idea de hoy: primero decide si es primaria o secundaria, porque de eso depende si operas o no. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Enfrentamiento de la Peritonitis Generalizada',
-    root: N(
-      'start',
-      'Sospecha de peritonitis generalizada',
-      'Dolor abdominal difuso · defensa involuntaria · vientre en tabla',
-      'Iniciamos el enfrentamiento determinando si existe antecedente de cirrosis o si el cuadro corresponde a una perforación visceral.',
-      [
-        'Paciente cirrótico con ascitis conocida (Sospecha PBE)',
-        N(
-          'do',
-          'Paracentesis diagnóstica urgente',
-          'Recuento celular y cultivo monomicrobiano',
-          'En el cirrótico realizamos paracentesis diagnóstica inmediata para descartar peritonitis primaria.',
-          [
-            'PMN ≥ 250 por mm³ y sin aire libre',
-            N(
-              'ok',
-              'Peritonitis Bacteriana Espontánea confirmada',
-              'Tratamiento médico con Cefotaxima 2 g c/8h EV · NO operar',
-              'Confirmada la peritonitis bacteriana espontánea, el tratamiento es exclusivamente médico con antibióticos; la cirugía está contraindicada.',
-            ),
-          ],
-          [
-            'Flora polimicrobiana o neumoperitoneo en TAC',
-            N(
-              'alert',
-              'Perforación visceral secundaria en paciente cirrótico',
-              'Sospecha de rotura de víscera sobreagregada',
-              'Si el líquido ascítico muestra flora mixta o hay aire libre en la tomografía, asumimos peritonitis secundaria e indicamos cirugía.',
-            ),
-          ],
-        ),
-      ],
-      [
-        'Inicio hiperagudo con vientre en tabla (Sospecha perforativa)',
-        N(
-          'do',
-          'Radiografía de tórax de pie o TAC con contraste',
-          'Pesquisa de aire libre subdiafragmático o líquido libre',
-          'En sospecha de perforación solicitamos radiografía de tórax de pie para constatar neumoperitoneo subdiafragmático.',
-          [
-            'Neumoperitoneo confirmado + peritonismo',
-            N(
-              'alert',
-              'Abdomen perforativo agudo confirmado',
-              'Sonda nasogástrica + hidratación vigorosa + antibióticos EV',
-              'Confirmado el neumoperitoneo con peritonitis, instalamos sonda nasogástrica, hidratación endovenosa y antibióticos.',
-              [
-                'Cirugía de urgencia inmediata',
-                N(
-                  'ok',
-                  'Laparotomía con lavado y Parche de Graham',
-                  'Lavado profuso de 4 cuadrantes y cierre con epiplón',
-                  'Realizamos laparotomía de urgencia con lavado peritoneal exhaustivo y rafia con parche de epiplón de Graham.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Peritonitis generalizada: primaria o secundaria',
+    root: N('start', 'Paciente con signos de peritonitis', 'Dolor y defensa abdominal',
+      'Un paciente llega con dolor abdominal y signos de irritación peritoneal. Antes de pensar en pabellón, pregúntate una cosa: ¿hay algo que se haya roto, o es un cirrótico con ascitis infectada?',
+      ['', N('q', '¿Cirrótico con ascitis, sin foco quirúrgico?', 'O víscera perforada',
+        'La pregunta que separa todo el tema.',
+        ['Sí, cirrótico con ascitis', N('q', 'Paracentesis: ¿PMN igual o más de 250?', 'Confirma o descarta la PBE',
+          'Con sospecha de peritonitis primaria, la paracentesis diagnóstica te da la respuesta.',
+          ['Sí', N('ok', 'Peritonitis bacteriana espontánea', 'Cefotaxima endovenosa, sin cirugía',
+            'Con PMN elevados, es PBE: manejo médico exclusivo con cefotaxima o ceftriaxona. Operar aquí es un error grave.')],
+          ['No', N('ok', 'Buscar otra causa', 'La ascitis no está infectada',
+            'Sin PMN elevados, no es PBE: sigue buscando la causa de la descompensación.')])],
+        ['Sí, víscera perforada', N('q', '¿Confirmaste el neumoperitoneo?', 'Radiografía de tórax de pie primero',
+          'Con sospecha de perforación, el estudio empieza por el examen más rápido.',
+          ['Radiografía positiva', N('alert', 'Laparotomía urgente', 'Lavado y parche de Graham',
+            'Con neumoperitoneo confirmado, vas directo a laparotomía o laparoscopía urgente: lavado profuso y cierre de la perforación con parche de epiplón.')],
+          ['Radiografía dudosa', N('do', 'TAC de abdomen', 'Confirma y localiza la perforación',
+            'Si la radiografía no es concluyente pero la sospecha sigue firme, el TAC confirma el aire libre y ubica el sitio de la perforación.')])])]),
   },
 };
