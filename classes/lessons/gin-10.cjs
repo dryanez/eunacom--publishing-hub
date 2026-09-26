@@ -1,4 +1,4 @@
-// Clase 20.10 — guion docente escrito a mano (estándar Módulo 3 · Ginecología).
+// Clase 20.10 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_ginecologia.cjs (gin-10).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
@@ -9,413 +9,235 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Patología vulvar y glándula de Bartolino, quiste versus absceso agudo con marsupialización y liquen escleroso con clobetasol tópico',
-      say: 'Bienvenidos a la clase sobre patología vulvar y afecciones de la glándula de Bartolino, dos temas de altísima frecuencia en el examen EUNACOM. En esta sesión aprenderemos a distinguir con claridad un quiste indoloro de un absceso agudo que exige drenaje quirúrgico formal con marsupialización o catéter de Word, y dominaremos el diagnóstico clínico y tratamiento del liquen escleroso vulvar con corticoides tópicos ultrapotentes, recordando siempre su riesgo latente de degeneración neoplásica hacia carcinoma epidermoide. Comencemos.',
+      subtitle: 'Quiste que observas, absceso que marsupializas, y una placa blanca que biopsias si dudas',
+      say: 'Bienvenida. Hoy vemos dos temas de la vulva que se preguntan mucho: la patología de la glándula de Bartolino y el liquen escleroso. Vas a ver que en los dos casos hay una regla simple que decide todo: en el Bartolino, si duele o no duele; en el liquen, si hay o no hay una lesión sospechosa. Vamos a ese detalle.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Glándula de Bartolino',
+      title: 'Quiste: una masa que no duele',
+      cards: [
+        { title: 'Mecanismo y clínica', tag: 'Estéril, sin inflamación', kind: 'criteria', items: [
+          { t: 'A las 4 u 8 del reloj', d: 'Tercio posterior del labio mayor',
+            say: 'Empecemos por el quiste. La glándula de Bartolino está a los dos lados del introito, en las posiciones de las cuatro y las ocho del reloj. Si su conducto se tapa, se acumula moco estéril, y eso es el quiste.' },
+          { t: 'Masa redondeada, indolora', d: 'Sin eritema ni calor',
+            say: 'Al examinarla, es una masa redonda, móvil, y completamente indolora, sin ningún signo de infección.' },
+        ] },
+        { title: 'Manejo', tag: 'La mayoría se observa', kind: 'normal', items: [
+          { t: 'Asintomático: observación', d: 'No necesita ningún procedimiento',
+            say: 'Si no le molesta, simplemente observas. No hace falta drenar ni operar un quiste que no da síntomas.' },
+          { t: 'Si molesta: marsupialización', d: 'Cuando duele al caminar o en el coito',
+            say: 'Y si es grande y le molesta al caminar o durante las relaciones, ahí sí ofreces la marsupialización.' },
+        ] },
+      ],
     },
 
     {
       type: 'flow',
-      kicker: 'Mecánica glandular y sobreinfección',
-      title: 'Fisiopatología de la Patología de la Glándula de Bartolino',
+      kicker: 'Glándula de Bartolino',
+      title: 'Absceso: la infección que necesita drenaje',
       nodes: [
-        { id: 'obs', col: 0, row: 1, k: 'start', t: 'Obstrucción del conducto', s: 'Oclusión mecánica del ostium excretor por tapón mucoso o proceso inflamatorio previo' },
-        { id: 'qui', col: 1, row: 1, k: 'effect', t: 'Quiste de Bartolino', s: 'Retención de mucus estéril, dilatación no inflamatoria, indolora y renitente' },
-        { id: 'sob', col: 2, row: 1, k: 'mech', t: 'Sobreinfección bacteriana', s: 'Colonización polimicrobiana por anaerobios entéricos, estafilococo o gonococo' },
-        { id: 'abs', col: 3, row: 1, k: 'alert', t: 'Absceso de Bartolino', s: 'Colección purulenta a tensión, eritema marcado, calor y dolor vulvar invalidante' },
+        { id: 'inf', col: 0, row: 1, k: 'cause', t: 'Sobreinfección bacteriana', s: 'Del quiste o la glándula' },
+        { id: 'clin', col: 1, row: 1, k: 'effect', t: 'Masa fluctuante y muy dolorosa', s: 'Impide sentarse o caminar' },
+        { id: 'mar', col: 2, row: 0, k: 'good', t: 'Marsupialización', s: 'Crea un nuevo orificio permanente' },
+        { id: 'word', col: 2, row: 2, k: 'good', t: 'Catéter de Word', s: 'Alternativa, cuatro semanas' },
+        { id: 'punc', col: 3, row: 1, k: 'trap', t: 'Punción simple', s: 'Recidiva en más del 80 por ciento' },
       ],
       edges: [
-        { from: 'obs', to: 'qui', label: 'acumulación estéril' },
-        { from: 'qui', to: 'sob', label: 'ingreso de patógenos' },
-        { from: 'sob', to: 'abs', label: 'abscedación' },
+        { from: 'inf', to: 'clin' },
+        { from: 'clin', to: 'mar' },
+        { from: 'clin', to: 'word' },
+        { from: 'mar', to: 'punc', label: 'nunca' },
       ],
       steps: [
-        {
-          show: ['obs', 'qui'],
-          note: 'Oclusión ductal y formación del quiste simple',
-          say: 'Las glándulas de Bartolino desembocan en el introito posterior a las cuatro y ocho del reloj para lubricar la vulva. La obstrucción del conducto por detritos o microtraumas retiene el mucus estéril formando un quiste liso, renitente e indoloro que no presenta signos inflamatorios locales.',
-        },
-        {
-          show: ['sob', 'abs'],
-          note: 'Contaminación polimicrobiana y formación del absceso',
-          say: 'Si el quiste o la glándula se colonizan por bacterias de la flora entérica perineal como Escherichia coli o anaerobios, se desencadena una infección supurada aguda a tensión: el absceso de Bartolino, caracterizado por dolor vulvar paroxístico que impide caminar y sentarse.',
-        },
+        { show: ['inf'], note: 'Ya no es estéril, ahora hay bacterias',
+          say: 'Ahora, si ese quiste, o la glándula misma, se infecta, cambia todo el cuadro: aparece el absceso de Bartolino.' },
+        { show: ['clin'], note: 'Eritema, calor y fluctuación',
+          say: 'Y la clínica es opuesta al quiste: dolor intenso, una masa fluctuante, roja y caliente, que le impide sentarse o caminar con normalidad.' },
+        { show: ['mar'], note: 'Sutura los bordes a la mucosa vestibular',
+          say: 'El tratamiento de elección es la marsupialización: se drena, y se suturan los bordes de la cápsula a la mucosa, para crear un orificio nuevo que quede abierto para siempre.' },
+        { show: ['word'], note: 'Sonda con balón, se retira a las 4 semanas',
+          say: 'Una alternativa moderna es el catéter de Word: una sonda con un pequeño balón que se deja puesta cuatro semanas, mientras se forma el nuevo trayecto.' },
+        { show: ['punc'], note: 'Vuelve a cerrarse casi siempre',
+          say: 'Y la trampa clásica: la punción simple con aguja. Suena menos invasiva, pero recidiva en más del ochenta por ciento de los casos, porque el orificio se vuelve a cerrar. Nunca es la respuesta correcta.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Masa vulvar indolora',
-      title: 'Quiste de Bartolino: Clínica, Diagnóstico y Conducta',
+      kicker: 'Liquen escleroso vulvar',
+      title: 'Prurito crónico en la mujer mayor',
       cards: [
-        {
-          title: 'Características Clínicas del Quiste',
-          tag: 'Asintomático y no inflamatorio',
-          kind: 'key',
-          items: [
-            {
-              t: 'Ubicación anatómica en tercio posterior',
-              d: 'Masa redondeada en el tercio inferior del labio mayor en posición de 4 u 8 horas del reloj',
-              say: 'El quiste de Bartolino se palpa como una tumoración redondeada, móvil y renitente localizada de forma característica en el espesor del tercio posterior del labio mayor, orientada anatómicamente en la posición horaria de las cuatro o las ocho del introito vaginal.',
-            },
-            {
-              t: 'Ausencia total de dolor y eritema',
-              d: 'Piel circundante de aspecto normal sin calor local; puede causar molestia mecánica leve',
-              say: 'El rasgo semiológico cardinal del quiste de Bartolino es que no duele en absoluto a la palpación ni presenta eritema o calor local en la piel suprayacente, manifestándose típicamente como una molestia física mecánica o asimetría vulvar cuando alcanza un volumen considerable.',
-            },
-          ],
-        },
-        {
-          title: 'Conducta Médica y Sospecha Oncológica',
-          tag: 'Manejo según síntomas y edad',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Manejo expectante versus quirúrgico',
-              d: 'Observación si es pequeño y asintomático; marsupialización electiva si produce molestias',
-              say: 'Si el quiste es pequeño y asintomático la conducta es la simple observación periódica. Si genera interferencia al caminar o durante el coito, se programa una marsupialización electiva.',
-            },
-            {
-              t: '¡Alerta de cáncer en mujeres postmenopáusicas!',
-              d: 'Toda masa en la glándula de Bartolino en mayores de 40 a 50 años exige biopsia o escisión',
-              say: 'En mujeres mayores de cuarenta o cincuenta años la aparición de una masa en la glándula de Bartolino es infrecuente y obliga a descartar un adenocarcinoma glandular mediante biopsia o escisión completa.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Urgencia infecciosa vulvar',
-      title: 'Absceso de Bartolino: Bartonolitis Aguda y Presentación Clínica',
-      cards: [
-        {
-          title: 'Cuadro Clínico Agudo e Invalidante',
-          tag: 'Dolor paroxístico y fluctuación',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Dolor vulvar severo que impide sentarse',
-              d: 'Dolor urente y pulsátil progresivo que empeora al apoyar la pelvis o con la marcha',
-              say: 'La paciente consulta en el servicio de urgencia por un dolor vulvar lancinante, pulsátil y de rápida instauración que le impide adoptar la posición sentada y la obliga a deambular con marcada dificultad adoptando una marcha antálgica con las piernas abiertas.',
-            },
-            {
-              t: 'Tumoración inflamatoria fluctuante',
-              d: 'Masa tumefacta, muy caliente, intensamente eritematosa y exquisitamente sensible a la palpación',
-              say: 'Al examen ginecológico se aprecia una masa voluminosa, intensamente eritematosa, caliente al tacto y de extrema sensibilidad dolorosa, la cual exhibe una clara fluctuación central indicativa de pus purulento acumulado a gran tensión dentro de la cavidad glandular.',
-            },
-          ],
-        },
-        {
-          title: 'Etiología Polimicrobiana',
-          tag: 'Flora mixta perineal',
-          kind: 'key',
-          items: [
-            {
-              t: 'Microbiología habitual entérica y vaginal',
-              d: 'Predominio de Escherichia coli, Bacteroides, Staphylococcus aureus y flora anaerobia mixta',
-              say: 'La gran mayoría de los abscesos obedecen a una sobreinfección oportunista por bacterias entéricas y anaerobias perineales, participando de forma menos común gonococos o clamidias.',
-            },
-            {
-              t: 'Antibioticoterapia complementaria seleccionada',
-              d: 'Solo indicada si existe celulitis perilesional extensa, fiebre sistémica o inmunosupresión',
-              say: 'Los antibióticos orales como amoxicilina con ácido clavulánico o cefadroxilo se reservan como complemento solo si existe celulitis extensa circundante, fiebre o en pacientes inmunodeprimidas.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Técnica quirúrgica y trampas',
-      title: 'Tratamiento del Absceso de Bartolino: Marsupialización y Catéter de Word',
-      cards: [
-        {
-          title: 'Procedimiento Estándar de Elección',
-          tag: 'Marsupialización quirúrgica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Incisión amplia y eversión de bordes',
-              d: 'Incisión longitudinal en la mucosa vestibular, evacuación del pus, lavado y fijación con sutura',
-              say: 'La marsupialización consiste en realizar una incisión elíptica en la mucosa vestibular sobre la cara interna del absceso, evacuar completamente la colección purulenta, lavar la cavidad y eversar suturando los bordes de la cápsula glandular a la mucosa con puntos absorbibles para mantenerla permanentemente abierta.',
-            },
-            {
-              t: 'Creación de un nuevo ostium permanente',
-              d: 'Garantiza el drenaje continuo impidiendo que la herida cierre en falso y vuelva a infectarse',
-              say: 'Esta técnica quirúrgica confecciona un nuevo orificio o estoma glandular definitivo que drena libremente hacia el vestíbulo, preservando la función de lubricación y erradicando de forma categórica el riesgo de reacumulación bacteriana y recidiva a largo plazo.',
-            },
-          ],
-        },
-        {
-          title: 'Catéter de Word y Prohibición de Punción',
-          tag: 'Reglas de oro EUNACOM',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Catéter de Word como alternativa ambulatoria',
-              d: 'Sonda con balón insuflado con suero que permanece cuatro semanas para epitelizar el conducto',
-              say: 'Una alternativa eficaz es el catéter de Word: se introduce una pequeña sonda con balón insuflado con suero que se mantiene cuatro semanas hasta epitelizar un nuevo trayecto fistuloso.',
-            },
-            {
-              t: '¡Prohibida la punción simple con aguja!',
-              d: 'La aspiración o punción con aguja tiene una tasa de recidiva superior al noventa por ciento',
-              say: 'Graben esta prohibición absoluta de examen: jamás se debe realizar punción o aspiración simple con aguja, pues la cavidad se sella en pocas horas recidivando el absceso en casi todos los casos.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Dermatosis autoinmune vulvar',
-      title: 'Liquen Escleroso Vulvar: Prurito Crónico y Morfología en Ocho',
-      cards: [
-        {
-          title: 'Fisiopatología y Perfil de Paciente',
-          tag: 'Inflamación linfocítica crónica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Población diana postmenopáusica',
-              d: 'Afecta predominantemente a mujeres climatéricas y postmenopáusicas mediado por autoinmunidad',
-              say: 'El liquen escleroso es una dermatosis inflamatoria crónica autoinmune mediada por linfocitos T, cuya incidencia máxima se concentra en mujeres después de la menopausia.',
-            },
-            {
-              t: 'Prurito vulvar intratable de larga evolución',
-              d: 'Prurito quemante y desesperante de meses o años de duración que interrumpe el descanso nocturno',
-              say: 'El síntoma cardinal e indiscutible del liquen escleroso es un prurito vulvar crónico desesperante e intratable de meses o años de evolución, que típicamente no cede con cremas antifúngicas habituales y llega a perturbar gravemente el descanso nocturno de la mujer.',
-            },
-          ],
-        },
-        {
-          title: 'Morfología Patognomónica en Papel Apergaminado',
-          tag: 'Patrón en cerradura o en ocho',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Placas blanquecinas nacaradas atróficas',
-              d: 'Piel adelgazada, nacarada y arrugada con aspecto clásico en papel de cigarrillo o pergamino',
-              say: 'A la inspección minuciosa se aprecian placas blanquecinas nacaradas y brillantes con atrofia epidérmica muy marcada, adquiriendo el tegumento vulvar un aspecto arrugado, frágil y apergaminado que se compara clásicamente con el papel de cigarrillo.',
-            },
-            {
-              t: 'Distribución en ocho y borramiento anatómico',
-              d: 'Rodea vulva y ano respetando vagina; borra labios menores y encapucha el clítoris',
-              say: 'Las lesiones dibujan un patrón clásico en forma de ocho o cerradura rodeando vulva y periné sin afectar la vagina, produciendo borramiento de labios menores y estenosis progresiva del introito.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Tratamiento y riesgo oncológico',
-      title: 'Liquen Escleroso: Manejo con Clobetasol y Riesgo de Cáncer de Vulva',
-      cards: [
-        {
-          title: 'Terapia de Elección con Corticoide Ultrapotente',
-          tag: 'Propionato de clobetasol tópico',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Ungüento de propionato de clobetasol al 0.05%',
-              d: 'Aplicación nocturna diaria por cuatro semanas, luego en noches alternas y dosis de mantención',
-              say: 'El tratamiento de primera línea respaldado mundialmente es el propionato de clobetasol en ungüento al cero coma cero cinco por ciento aplicado cada noche durante cuatro semanas.',
-            },
-            {
-              t: 'Alivio del prurito y frenado de la atrofia',
-              d: 'Disminuye la inflamación dérmica, erradica el prurito y detiene la esclerosis anatómica',
-              say: 'El clobetasol frena la respuesta autoinmune, elimina por completo el prurito y evita la progresión de la distorsión anatómica vulvar, pasando luego a pautas de mantenimiento.',
-            },
-          ],
-        },
-        {
-          title: 'Vigilancia y Riesgo de Carcinoma Epidermoide',
-          tag: 'Riesgo neoplásico del 3 al 5 por ciento',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Riesgo elevado de cáncer epidermoide de vulva',
-              d: 'Un tres a cinco por ciento de las pacientes con liquen desarrollará carcinoma espinocelular invasor',
-              say: 'Las mujeres con liquen escleroso tienen un riesgo de un tres a cinco por ciento de desarrollar un carcinoma epidermoide de vulva sobre la piel crónicamente inflamada.',
-            },
-            {
-              t: 'Biopsia obligatoria ante lesiones sospechosas',
-              d: 'Toda placa hiperqueratósica, sobreelevada, ulcerada o sangrante exige biopsia con sacabocados',
-              say: 'Cualquier zona sobreelevada, engrosada, pigmentada o ulcerada que no responda al tratamiento exige de inmediato una biopsia cutánea en sacabocados para descartar una neoplasia maligna.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Diagnóstico diferencial',
-      title: 'Comparativa de Patologías Vulvares Más Preguntadas',
-      head: ['Entidad Clínica', 'Semiología Cardinal', 'Conducta Terapéutica de Elección'],
-      rows: [
-        {
-          cells: ['Quiste de Bartolino', 'Masa liso-renitente, indolora, afebril, sin eritema', 'Observación si asintomático; marsupialización electiva'],
-          say: 'El quiste de Bartolino es una dilatación indolora sin calor local que solo se opera con marsupialización si produce molestias mecánicas.',
-        },
-        {
-          cells: ['Absceso de Bartolino', 'Masa caliente, eritematosa, fluctuante, dolor invalidante', 'Drenaje quirúrgico con marsupialización o catéter de Word'],
-          say: 'El absceso de Bartolino presenta pus fluctuante y dolor que impide sentarse, exigiendo drenaje y marsupialización para no recidivar.',
-        },
-        {
-          cells: ['Liquen Escleroso Vulvar', 'Prurito crónico, placas nacaradas en 8, atrofia de labios', 'Propionato de clobetasol 0.05% tópico (vigilar cáncer)'],
-          say: 'El liquen escleroso cursa con prurito intractable y placas en ocho, respondiendo a ungüento de clobetasol y requiriendo control oncológico.',
-        },
-        {
-          cells: ['Cáncer Epidermoide de Vulva', 'Placa indurada o úlcera vulvar que sangra en ancianas', 'Biopsia con sacabocados confirmatoria y cirugía oncológica'],
-          say: 'El cáncer de vulva se sospecha ante úlceras o placas vegetantes induradas y se confirma siempre con biopsia en sacabocados.',
-        },
+        { title: 'Clínica', tag: 'Figura en ocho', kind: 'criteria', items: [
+          { t: 'Prurito crónico intratable', d: 'De meses o años de evolución',
+            say: 'Cambiemos de tema. El liquen escleroso da un prurito vulvar crónico, que no cede, y que suele llevar meses o años.' },
+          { t: 'Placas blancas nacaradas', d: 'En figura de ocho, vulva y ano',
+            say: 'Al examinarla, ves placas blancas, atróficas, como papel de cigarrillo, que rodean la vulva y el ano en forma de ocho.' },
+        ] },
+        { title: 'Riesgo y tratamiento', tag: 'Biopsia si hay duda', kind: 'alert', items: [
+          { t: 'Riesgo de tres a cinco por ciento', d: 'De cáncer epidermoide de vulva',
+            say: 'Y el dato que más se pregunta: tiene un riesgo de tres a cinco por ciento de terminar en un cáncer epidermoide de vulva.' },
+          { t: 'Biopsia si hay lesión sospechosa', d: 'Engrosada, ulcerada o sobreelevada',
+            say: 'Por eso, cualquier zona que se vea engrosada, ulcerada o sobreelevada, se biopsia. No se asume que todo es liquen.' },
+          { t: 'Clobetasol tópico', d: 'Corticoide ultrapotente, en las noches',
+            say: 'Y el tratamiento es un corticoide ultrapotente: propionato de clobetasol, aplicado en las noches. Revierte la atrofia y te quita el prurito.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de abordaje vulvar',
-      title: 'Algoritmo de Manejo de Masas de Bartolino y Dermatosis Pruriginosas',
-      say: 'Revisemos el algoritmo estructurado para clasificar una lesión vulvar entre patología glandular infecciosa versus dermatosis inflamatoria crónica.',
+      intro: 'Juntemos Bartolino y liquen escleroso en un solo árbol.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Lo que más se confunde en el examen',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Masa vulvar indolora, sin eritema', 'Observación si es asintomática', 'Drenar un quiste que no molesta'],
+          say: 'Repasemos las trampas. Masa vulvar indolora, sin eritema: observación. El error es drenar un quiste que no está infectado.' },
+        { cells: ['Masa fluctuante, eritematosa, muy dolorosa', 'Drenaje con marsupialización', 'Punción simple con aguja'],
+          say: 'Masa fluctuante, roja, dolorosa: marsupialización. El error clásico es la punción simple, que casi siempre recidiva.' },
+        { cells: ['Prurito crónico, placas en cerradura', 'Clobetasol tópico', 'Tratarlo como candidiasis'],
+          say: 'Prurito crónico con placas en cerradura: clobetasol. El error es tratarlo como una candidiasis que nunca mejora.' },
+        { cells: ['Liquen con área ulcerada', 'Biopsia con sacabocados', 'Aumentar el corticoide sin biopsiar'],
+          say: 'Y liquen con un área ulcerada nueva: biopsia primero. El error es solo subir la dosis del corticoide, sin descartar cáncer.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Absceso de Bartolino · Tratamiento Quirúrgico de Elección',
-      stem: 'Una paciente de 31 años consulta por dolor vulvar progresivo e invalidante que le impide sentarse. Al examen ginecológico se aprecia una masa de 5 cm de diámetro en el labio mayor izquierdo, en posición de las 4 horas del reloj, caliente, fluctuante, muy eritematosa y de extrema sensibilidad al tacto. Se diagnostica un absceso de la glándula de Bartolino.',
-      question: '¿Cuál es el procedimiento quirúrgico de elección para resolver el cuadro y prevenir la recidiva?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Mujer de 34 años, con tres episodios previos de absceso de Bartolino tratados con drenaje simple, consulta de nuevo por dolor y una masa de 4 cm, fluctuante y eritematosa, en el labio mayor derecho.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Punción evacuadora con aguja fina bajo anestesia local' },
-        { letter: 'B', text: 'Incisión, drenaje y marsupialización de la glándula (o colocación de catéter de Word)' },
-        { letter: 'C', text: 'Vulvectomía simple izquierda' },
-        { letter: 'D', text: 'Prescripción exclusiva de antibióticos orales sin drenar el absceso' },
-        { letter: 'E', text: 'Cauterización química con nitrato de plata de la mucosa vestibular' },
+        { letter: 'A', text: 'Nueva punción evacuadora con aguja' },
+        { letter: 'B', text: 'Drenaje quirúrgico con marsupialización' },
+        { letter: 'C', text: 'Solo antibióticos orales, sin drenar' },
+        { letter: 'D', text: 'Observación, porque ya se drenó antes' },
+        { letter: 'E', text: 'Vulvectomía simple' },
       ],
       correct: 'B',
-      explanation: 'El tratamiento de elección para el absceso agudo de la glándula de Bartolino es la incisión y drenaje amplio seguido de MARSUPIALIZACIÓN (sutura de los bordes de la pared de la cápsula a la mucosa vestibular para formar un ostium permanente permeable), o alternativamente la colocación de un Catéter de Word. Estos procedimientos permiten la evacuación del pus y garantizan la formación de una nueva apertura fistulosa definitiva que previene la reobstrucción y recidiva. La punción con aguja tiene una tasa de recidiva superior al 80-90% y está proscrita.',
+      explanation: 'Absceso recurrente de Bartolino: el drenaje simple o la punción ya fallaron antes, por lo que la conducta es el drenaje con marsupialización, que crea un orificio permanente y baja el riesgo de recidiva.',
       say: {
-        stem: 'Mujer de treinta y un años con absceso fluctuante y caliente de cinco centímetros en glándula de Bartolino izquierda que le impide sentarse.',
-        question: '¿Cuál es el procedimiento quirúrgico de elección para resolver el cuadro y prevenir la recidiva?',
-        options: 'La opción A propone punción con aguja fina. La B incisión drenaje y marsupialización o catéter de Word. La C vulvectomía simple. La D antibióticos exclusivos. La E nitrato de plata. Piénsalo.',
-        answer: 'La respuesta correcta es la B. El tratamiento de elección indiscutible es la marsupialización de la glándula o catéter de Word para garantizar un drenaje permanente.',
+        stem: 'Vamos al caso. Mujer de treinta y cuatro años, con tres episodios previos de absceso de Bartolino tratados con drenaje simple, que vuelve a consultar por dolor y una masa de cuatro centímetros, fluctuante y eritematosa, en el labio mayor derecho.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Tienes cinco opciones: nueva punción con aguja, drenaje con marsupialización, solo antibióticos, observación, o vulvectomía simple. Piénsalo.',
+        answer: 'Es la B. Fíjate en el dato clave: ya van tres episodios drenados de forma simple, y sigue recidivando. Eso es justamente lo que la marsupialización previene, al dejar un orificio permanente. La vulvectomía es una cirugía para cáncer, no para esto.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Liquen Escleroso Vulvar · Diagnóstico y Tratamiento',
-      stem: 'Una mujer de 64 años consulta por prurito vulvar intenso y constante de más de 8 meses de evolución que le interrumpe el sueño. Al examen físico se aprecia atrofia severa de los labios menores con enterramiento parcial del clítoris y placas blanquecinas nacaradas adelgazadas de aspecto en papel apergaminado distribuidas en la vulva y región perianal en figura de ocho, sin úlceras activas.',
-      question: '¿Cuál es el diagnóstico clínico y el fármaco tópico de primera línea de elección?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2018 · Pregunta 168',
+      stem: 'Mujer de 30 años, con actividad sexual, consulta por dolor vulvar y sensación febril. Al examen físico se aprecia un aumento de volumen eritematoso, de 6 centímetros de diámetro, doloroso, en relación a la zona posterior del labio mayor derecho.',
+      question: '¿Cuál es la conducta terapéutica más adecuada?',
       options: [
-        { letter: 'A', text: 'Candidiasis vulvovaginal crónica; Clotrimazol en crema al 1%' },
-        { letter: 'B', text: 'Liquen Escleroso Vulvar; Propionato de Clobetasol al 0.05% en ungüento tópico' },
-        { letter: 'C', text: 'Condilomas acuminados gigantes; Imiquimod al 5% en crema' },
-        { letter: 'D', text: 'Herpes genital recurrente; Aciclovir tópico en crema' },
-        { letter: 'E', text: 'Psoriasis invertida; Ácido salicílico al 10%' },
+        { letter: 'A', text: 'Cistectomía de Bartolino' },
+        { letter: 'B', text: 'Drenaje por punción' },
+        { letter: 'C', text: 'Drenaje quirúrgico simple' },
+        { letter: 'D', text: 'Iniciar antibióticos orales y esperar el drenaje espontáneo' },
+        { letter: 'E', text: 'Bartholinocistostomía' },
+      ],
+      correct: 'E',
+      explanation: 'Absceso de Bartolino de 6 cm: la conducta recomendada es la marsupialización (bartholinocistostomía), que drena la colección y crea un orificio permanente, con menor tasa de recidiva que la punción o el drenaje simple.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con dolor vulvar y sensación febril. Al examen, un aumento de volumen eritematoso, de seis centímetros, doloroso, en la zona posterior del labio mayor derecho.',
+        question: '¿Cuál es la conducta terapéutica más adecuada?',
+        options: 'Las opciones: cistectomía de Bartolino, drenaje por punción, drenaje quirúrgico simple, antibióticos y esperar, o bartholinocistostomía. Piénsalo.',
+        answer: 'Es la E, que es otro nombre para la marsupialización. Con seis centímetros de diámetro, es un absceso que se beneficia de crear un orificio permanente desde el principio. La punción y el drenaje simple se asocian a mucha más recidiva.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2022 · Pregunta 111',
+      stem: 'Mujer de 35 años, con antecedente de tres abscesos de Bartolino que han requerido drenaje quirúrgico, consulta por dolor vulvar de dos días. Al examen se observa un aumento de volumen de 3 centímetros en el labio menor derecho, a tensión, doloroso, sin signos inflamatorios.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Bartholinocistoneostomía' },
+        { letter: 'B', text: 'Evacuación por punción' },
+        { letter: 'C', text: 'Vaciamiento por incisión' },
+        { letter: 'D', text: 'Antibióticos orales' },
+        { letter: 'E', text: 'Baños de asiento y analgésicos' },
+      ],
+      correct: 'A',
+      explanation: 'Recidiva de absceso de Bartolino tras varios drenajes previos: la conducta es la marsupialización (bartholinocistoneostomía), que crea un trayecto de drenaje definitivo y evita una cuarta recidiva.',
+      say: {
+        stem: 'Y una pregunta real más, del EUNACOM de diciembre de dos mil veintidós. Mujer de treinta y cinco años, con tres abscesos de Bartolino previos ya drenados, que consulta por dolor vulvar de dos días. Al examen, un aumento de volumen de tres centímetros, a tensión, doloroso, sin signos inflamatorios evidentes.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: bartholinocistoneostomía, evacuación por punción, vaciamiento por incisión, antibióticos orales, o baños de asiento con analgésicos. Piénsalo.',
+        answer: 'Es la A. Con tres recidivas ya drenadas antes, seguir puncionando o incidiendo solo te da una cuarta recidiva. La marsupialización, que aquí se llama bartholinocistoneostomía, es la que rompe ese ciclo.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Caso representativo · banco EUNACOM',
+      stem: 'Mujer de 64 años, con prurito vulvar intenso y constante de más de 8 meses, que le interrumpe el sueño. Al examen se aprecia atrofia de los labios menores, con enterramiento parcial del clítoris, y placas blanquecinas nacaradas en figura de ocho en la vulva y la región perianal, sin úlceras activas.',
+      question: '¿Cuál es el diagnóstico y el fármaco tópico de primera línea?',
+      options: [
+        { letter: 'A', text: 'Candidiasis vulvovaginal crónica; clotrimazol crema' },
+        { letter: 'B', text: 'Liquen escleroso vulvar; propionato de clobetasol en ungüento' },
+        { letter: 'C', text: 'Condilomas acuminados gigantes; imiquimod crema' },
+        { letter: 'D', text: 'Herpes genital recurrente; aciclovir tópico' },
+        { letter: 'E', text: 'Psoriasis invertida; ácido salicílico' },
       ],
       correct: 'B',
-      explanation: 'La combinación de prurito vulvar crónico intratable en una mujer postmenopáusica con placas atróficas blanquecinas apergaminadas en forma de cerradura o en ocho, con reabsorción de labios menores y encapuchamiento del clítoris, es la descripción patognomónica del Liquen Escleroso Vulvar. El tratamiento de primera línea respaldado por todas las guías dermatológicas y ginecológicas consiste en la aplicación tópica de Corticoides Ultrapotentes, siendo el ungüento de Propionato de Clobetasol al 0.05% el fármaco de elección para frenar la inflamación autoinmune y aliviar el prurito.',
+      explanation: 'Prurito crónico intratable en mujer postmenopáusica, con placas atróficas blanquecinas en figura de ocho y enterramiento del clítoris: liquen escleroso vulvar. El tratamiento de primera línea es el clobetasol tópico ultrapotente.',
       say: {
-        stem: 'Mujer de sesenta y cuatro años con prurito vulvar crónico de ocho meses, placas blanquecinas en papel apergaminado en figura de ocho y borramiento de labios menores.',
-        question: '¿Cuál es el diagnóstico clínico y el fármaco tópico de primera línea de elección?',
-        options: 'La opción A propone candidiasis crónica con clotrimazol. La B liquen escleroso vulvar con ungüento de propionato de clobetasol. La C condilomas con imiquimod. La D herpes con aciclovir. La E psoriasis con ácido salicílico. Piénsalo.',
-        answer: 'La respuesta correcta es la B. Las placas nacaradas en ocho con prurito crónico corresponden a liquen escleroso y se tratan con clobetasol ultrapotente.',
+        stem: 'Una más del banco. Mujer de sesenta y cuatro años, con prurito vulvar intenso y constante de más de ocho meses, que le interrumpe el sueño. Al examen, atrofia de los labios menores, con el clítoris parcialmente enterrado, y placas blancas nacaradas en figura de ocho en la vulva y la región perianal, sin úlceras activas.',
+        question: '¿Cuál es el diagnóstico y el fármaco tópico de primera línea?',
+        options: 'Las opciones: candidiasis crónica con clotrimazol, liquen escleroso con clobetasol, condilomas con imiquimod, herpes con aciclovir, o psoriasis con ácido salicílico. Piénsalo.',
+        answer: 'Es la B. La descripción es la del liquen escleroso: prurito crónico, placas nacaradas en figura de ocho, y esa atrofia que entierra el clítoris. Ninguna de las otras cuatro da esa atrofia tan característica. El tratamiento de primera línea es el clobetasol.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Puntos clave EUNACOM',
-      title: 'Reglas de Oro en Patología de Bartolino y Dermatosis Vulvares',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Patología de la Glándula de Bartolino',
-          tag: 'Quiste vs Absceso supurado',
-          kind: 'key',
-          items: [
-            {
-              t: 'Quiste indoloro versus absceso caliente',
-              d: 'El quiste no duele y se observa si es asintomático; el absceso tiene dolor agudo y exige drenaje',
-              say: 'El quiste de Bartolino es indoloro y se observa; el absceso presenta calor, eritema y dolor invalidante, exigiendo evacuación quirúrgica.',
-            },
-            {
-              t: 'Marsupialización obligatoria y punción proscrita',
-              d: 'Drenar y marsupializar o colocar catéter de Word; la punción simple con aguja está prohibida',
-              say: 'El tratamiento de elección del absceso es la incisión con marsupialización o catéter de Word; jamás se debe punzar con aguja por su altísima recidiva.',
-            },
-          ],
-        },
-        {
-          title: 'Liquen Escleroso y Riesgo Oncológico',
-          tag: 'Clobetasol y riesgo de carcinoma',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Prurito crónico y lesiones en cerradura u ocho',
-              d: 'Placas atróficas en papel apergaminado tratadas de elección con propionato de clobetasol',
-              say: 'El liquen escleroso produce prurito intratable y placas nacaradas en ocho, respondiendo al ungüento de propionato de clobetasol tópico.',
-            },
-            {
-              t: 'Control estricto por riesgo neoplásico',
-              d: 'Riesgo de tres a cinco por ciento de cáncer epidermoide; biopsia ante cualquier lesión engrosada',
-              say: 'El liquen escleroso exige biopsia ante lesiones sospechosas por riesgo de malignidad. Si te llevas una sola idea de hoy: el liquen escleroso vulvar se trata con corticoides tópicos de alta potencia como clobetasol y requiere seguimiento por riesgo de carcinoma escamoso. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Bartolino', tag: 'Duele o no duele', kind: 'key', items: [
+          { t: 'Sin dolor: observar', d: 'No se drena un quiste sano',
+            say: 'Cerremos con las reglas de oro. Si la masa de Bartolino no duele, observas.' },
+          { t: 'Con dolor y fluctuación: marsupializar', d: 'Nunca solo puncionar',
+            say: 'Y si duele y fluctúa, marsupializas. La punción simple recidiva casi siempre, y nunca es la respuesta correcta.' },
+        ] },
+        { title: 'Liquen escleroso', tag: 'Vigila el cáncer', kind: 'alert', items: [
+          { t: 'Clobetasol para el prurito', d: 'Corticoide ultrapotente, tópico',
+            say: 'En el liquen escleroso, el clobetasol tópico controla el prurito.' },
+          { t: 'Biopsia si hay lesión sospechosa', d: 'Riesgo de tres a cinco por ciento de cáncer',
+            say: 'Y cualquier lesión sospechosa se biopsia, porque el riesgo de cáncer epidermoide no es cero. Si te llevas una sola idea de hoy: en la vulva, el dolor decide la conducta, y la duda siempre se resuelve con biopsia. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo de Masas de Bartolino y Dermatosis Pruriginosas',
-    root: N(
-      'start',
-      'Paciente con Masa Vulvar o Prurito Genital Crónico',
-      'Examen ginecológico meticuloso · palpación de introito posterior y evaluación de piel vulvar',
-      'Iniciamos el examen distinguiendo una masa en tercio posterior de una lesión cutánea generalizada.',
-      [
-        'Masa localizada en tercio posterior del labio mayor (Glándula de Bartolino)',
-        N(
-          'q',
-          '¿Presenta signos de inflamación aguda, eritema, calor y dolor?',
-          'Palpación dirigida en posición de las 4 y 8 horas del reloj',
-          'Determinamos si la masa de Bartolino es asintomática o presenta signos inflamatorios agudos.',
-          [
-            'Masa blanda indolora, móvil y sin eritema ni calor',
-            N(
-              'ok',
-              'Quiste de Bartolino: Observación o Marsupialización Electiva',
-              'Observar si es asintomático · marsupializar si interfiere con la marcha o el coito',
-              'Si es un quiste indoloro observamos, indicando marsupialización solo si produce molestias mecánicas.',
-            ),
-          ],
-          [
-            'Masa intensamente dolorosa, caliente, eritematosa y fluctuante',
-            N(
-              'alert',
-              'Absceso de Bartolino: Marsupialización o Catéter de Word',
-              'Incisión y marsupialización de elección · ¡Punción con aguja contraindicada!',
-              'Ante un absceso fluctuante y caliente realizamos drenaje y marsupialización de urgencia.',
-            ),
-          ],
-        ),
-      ],
-      [
-        'Prurito vulvar crónico con placas blanquecinas atróficas en figura de ocho',
-        N(
-          'do',
-          'Liquen Escleroso Vulvar: Propionato de Clobetasol al 0.05% Tópico',
-          'Corticoide ultrapotente por cuatro semanas · biopsia si hay engrosamiento sospechoso de cáncer',
-          'Frente a prurito crónico y placas nacaradas en ocho indicamos ungüento de clobetasol al cero coma cero cinco por ciento.',
-        ),
-      ],
-    ),
+    title: 'Patología vulvar: qué decide la conducta',
+    root: N('start', 'Lesión vulvar', 'Masa en el labio mayor, o placa blanca',
+      'Partamos de lo que encuentras en la vulva. Lo primero es distinguir si es una masa de Bartolino o una placa blanquecina.',
+      ['', N('q', '¿Masa de Bartolino, o placa blanca?', 'Dos caminos distintos',
+        'La pregunta que ordena todo.',
+        ['Masa de Bartolino', N('q', '¿Duele y fluctúa?', 'Eso decide entre observar y drenar',
+          '¿La masa está dolorosa, roja y fluctuante, o es indolora?',
+          ['No, indolora', N('ok', 'Quiste de Bartolino', 'Observación si no molesta',
+            'Si no duele, es un quiste: observas, y solo marsupializas si molesta al caminar o al tener relaciones.')],
+          ['Sí, dolorosa y fluctuante', N('alert', 'Absceso de Bartolino', 'Drenaje con marsupialización',
+            'Si duele y fluctúa, es un absceso: drenaje con marsupialización, o catéter de Word. Nunca solo punción.')])],
+        ['Placa blanca con prurito crónico', N('q', '¿Hay lesión sospechosa?', 'Liquen escleroso vulvar',
+          'Placas nacaradas en figura de ocho, con prurito crónico: liquen escleroso. ¿Hay alguna zona engrosada, ulcerada o sobreelevada?',
+          ['No', N('do', 'Clobetasol tópico', 'Corticoide ultrapotente en la noche',
+            'Sin lesión sospechosa, tratas con clobetasol tópico y controlas la respuesta.')],
+          ['Sí', N('refer', 'Biopsia con sacabocados', 'Descarta cáncer epidermoide',
+            'Con una lesión sospechosa, biopsias antes de seguir tratando, para no dejar pasar un cáncer epidermoide de vulva.')])])]),
   },
 };
