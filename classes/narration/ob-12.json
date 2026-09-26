@@ -2,203 +2,215 @@
   "id": "ob-12",
   "title": "Obstetricia 19.12: Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento",
   "specialty": "Obstetricia",
-  "chars": 8472,
+  "chars": 8552,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre enfermedad trofoblástica gestacional, un grupo heterogéneo de proliferaciones del trofoblasto que abarca desde la mola hidatiforme hasta la neoplasia maligna. En esta sesión aprenderemos a contrastar las bases genéticas y ecográficas de la mola completa y parcial, a reconocer signos clínicos patognomónicos como la preeclampsia precoz y los quistes tecaluteínicos, a ejecutar la evacuación por aspiración, el seguimiento hormonal estricto y el diagnóstico precoz de neoplasia trofoblástica gestacional. Comencemos."
+      "text": "Bienvenida. Hoy vemos la enfermedad trofoblástica gestacional: la mola hidatiforme completa y la parcial, y cómo saber si evolucionó a una neoplasia trofoblástica. Es un tema que se reconoce por un patrón muy característico, y que exige algo que muchos olvidan: seguir a la paciente después de tratarla, porque ahí es donde se juega si detectas a tiempo un cáncer."
     },
     {
       "file": "s01_g00",
-      "text": "La mola hidatiforme completa tiene una dotación diploide cuarenta y seis XX de origen cien por ciento paterno androgenético, originada por la fecundación de un ovocito sin material genético propio por un espermatozoide haploide que duplica su genoma o por dos espermatozoides."
+      "text": "Empecemos por el mecanismo, porque de él se deduce todo lo demás. La mola completa nace de un óvulo vacío, sin ningún material genético de la madre."
     },
     {
       "file": "s01_g01",
-      "text": "En cambio, la mola parcial es triploide, habitualmente sesenta y nueve XXY, originada por la dispermia o fecundación simultánea de un óvulo haploide normal con material materno intacto por dos espermatozoides."
+      "text": "Ese óvulo vacío es fecundado por un espermatozoide, que luego se duplica."
     },
     {
       "file": "s01_g02",
-      "text": "Esta disparidad genética determina su comportamiento clínico: la mola completa no posee tejido embrionario y exhibe hiperplasia trofoblástica masiva con un quince a veinte por ciento de progresión a neoplasia, mientras que la parcial contiene feto malformado y solo progresa en un tres a cinco por ciento."
+      "text": "El resultado es un embrión con todo su material genético de origen paterno, generalmente cuarenta y seis, XX."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y como nunca hubo aporte materno, nunca se forma ningún embrión ni tejido fetal. Todas las vellosidades se hinchan por igual: esa es la mola completa."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La mola parcial es otra historia. Aquí el óvulo sí es normal, pero lo fecundan dos espermatozoides a la vez."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El resultado es triploide, con sesenta y nueve cromosomas en vez de cuarenta y seis."
+    },
+    {
+      "file": "s01_g06",
+      "text": "Y como sí hay aporte genético materno, sí se forma un embrión, aunque con malformaciones múltiples que no son compatibles con la vida. Guarda esta diferencia, porque es la base de toda la clase: completa, sin embrión nunca; parcial, con embrión, pero que no va a llegar a término."
     },
     {
       "file": "s02_g00",
-      "text": "La mola completa es diploide puramente paterna, mientras que la parcial es triploide conteniendo cromosomas maternos."
+      "text": "La mola completa llega con metrorragia indolora, y algo que llama la atención al examen: el útero es mucho más grande de lo que corresponde a las semanas de embarazo."
     },
     {
       "file": "s02_g01",
-      "text": "La completa carece de embrión; la parcial se acompaña de restos fetales con malformaciones severas que habitualmente fallecen."
+      "text": "Y como la beta-hCG está altísima, arrastra síntomas por su similitud con otras hormonas: náuseas y vómitos muy intensos, a veces hipertiroidismo, y quistes en los ovarios por el hiperestímulo."
     },
     {
       "file": "s02_g02",
-      "text": "La mola completa produce cifras astronómicas de gonadotropina superando cien mil unidades; la parcial presenta valores moderados."
+      "text": "Y aquí tienes un dato que se pregunta directo: si una paciente hace preeclampsia antes de las veinte semanas, en el examen esa combinación casi siempre apunta a una mola hidatiforme."
     },
     {
       "file": "s02_g03",
-      "text": "La imagen en tormenta de nieve con cavidad uterina llena de vesículas sin embrión es la estampa clásica de la mola completa."
+      "text": "La ecografía muestra el patrón que le da nombre a la clase: la imagen en tormenta de nieve, con múltiples quistes pequeños ocupando la cavidad, y sin ningún saco gestacional ni embrión."
     },
     {
       "file": "s03_g00",
-      "text": "La metrorragia indolora es el síntoma inicial más común. La expulsión de vesículas translúcidas similares a granos de uva es el único signo patognomónico visible al examen físico."
+      "text": "El tratamiento inicial es la evacuación con aspiración manual endouterina, junto con oxitocina en la misma infusión, para ayudar a que el útero se contraiga."
     },
     {
       "file": "s03_g01",
-      "text": "El útero se encuentra desproporcionadamente aumentado de tamaño respecto a las semanas de amenorrea en más del cincuenta por ciento de los casos, con consistencia blanda."
-    },
-    {
-      "file": "s03_g02",
-      "text": "En el EUNACOM, toda preeclampsia diagnosticada antes de las veinte semanas de gestación es casi sinónimo de mola hidatiforme por sobrecarga de volumen trofoblástico."
-    },
-    {
-      "file": "s03_g03",
-      "text": "La extrema concentración de gonadotropina coriónica estimula los receptores de hormona luteinizante ováricos, induciendo quistes tecaluteínicos bilaterales que regresan solos tras la evacuación."
-    },
-    {
-      "file": "s03_g04",
-      "text": "La subunidad beta de la gonadotropina comparte homología estructural con la hormona estimulante del tiroides, provocando tirotoxicosis gestacional y vómitos incoercibles."
+      "text": "Y todo el tejido que sacas se manda a biopsia, sin excepción, porque ahí se confirma si es completa o parcial."
     },
     {
       "file": "s04_g00",
-      "text": "Antes de cualquier maniobra quirúrgica se debe estabilizar a la paciente, descartar anemia severa, compensar la tirotoxicosis y confirmar el factor Rh para administrar inmunoglobulina anti-D si es negativa."
+      "text": "Aquí está la parte que más se olvida en la práctica, y que más se pregunta en el examen. Evacuar la mola no es el final del tratamiento, es la mitad."
     },
     {
       "file": "s04_g01",
-      "text": "El método terapéutico de elección indiscutido es la aspiración al vacío o aspiración manual endouterina con cánulas de grueso calibre bajo goteo simultáneo de oxitocina para favorecer la contractilidad miometrial y reducir la hemorragia."
+      "text": "Mides la beta-hCG toda las semanas, hasta tener tres valores seguidos ya en rango normal."
     },
     {
       "file": "s04_g02",
-      "text": "El legrado cortante enérgico a ciegas está formalmente contraindicado por el riesgo de perforación y diseminación embólica. Todo el tejido aspirado se envía a biopsia y se inicia el protocolo de seguimiento hormonal seriado."
+      "text": "Y ahí no terminas: sigues con control mensual, durante seis meses más, para confirmar que no vuelve a subir."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y mientras dura todo este seguimiento, la anticoncepción es obligatoria. Si la paciente se embaraza de nuevo, su beta-hCG sube por el embarazo normal, y tú ya no puedes distinguir eso de una recaída."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y si en cualquier momento la beta-hCG se estanca o empieza a subir en vez de bajar, eso ya no es normal: es una neoplasia trofoblástica gestacional, y necesita quimioterapia."
     },
     {
       "file": "s05_g00",
-      "text": "La gonadotropina coriónica cuantitativa se controla semanalmente desde la evacuación hasta alcanzar tres semanas consecutivas con niveles normales indetectables menores a cinco unidades por litro."
+      "text": "Ahora pongamos el diagnóstico y el seguimiento en un solo árbol de decisión. Paciente con metrorragia del primer trimestre y un útero que se palpa más grande de lo que corresponde a sus semanas. Pide beta-hCG y ecografía transvaginal."
     },
     {
       "file": "s05_g01",
-      "text": "Una vez negativizada la hormona, se mantiene un control mensual riguroso durante seis meses completos para confirmar la remisión biológica definitiva de la enfermedad."
+      "text": "¿Ves quistes pequeños ocupando la cavidad, sin ningún saco ni embrión?"
     },
     {
       "file": "s05_g02",
-      "text": "La paciente debe utilizar anticoncepción hormonal oral segura durante todo el período de seguimiento. Un nuevo embarazo elevaría la hormona y crearía el dilema de una gestación normal versus recurrencia tumoral."
+      "text": "Evacúas con aspiración manual y oxitocina, y mandas todo el tejido a biopsia. Pero esto es solo la mitad del tratamiento."
     },
     {
       "file": "s05_g03",
-      "text": "El dispositivo intrauterino está contraindicado hasta completar la vigilancia serológica por el riesgo de sangrado confuso, perforación y sinequias."
+      "text": "Sigues la beta-hCG semanal hasta tres valores normales, y luego mensual por seis meses, con anticoncepción obligatoria durante todo ese tiempo."
+    },
+    {
+      "file": "s05_g04",
+      "text": "La beta-hCG llega a valores indetectables y se mantiene así: es una remisión completa."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Estudias con imágenes, calculas el score de riesgo, y tratas con metotrexato en bajo riesgo, o poliquimioterapia en alto riesgo."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Igual se evacúa con aspiración manual; el riesgo de progresar a neoplasia es mucho menor que en la completa, pero el seguimiento es el mismo."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Mismo esquema de seguimiento: semanal hasta tres valores normales, y luego mensual por seis meses, con anticoncepción."
+    },
+    {
+      "file": "s05_g08",
+      "text": "La beta-hCG llega a valores indetectables y se mantiene así: es una remisión completa."
+    },
+    {
+      "file": "s05_g09",
+      "text": "Estudias con imágenes, calculas el score de riesgo, y tratas con metotrexato en bajo riesgo, o poliquimioterapia en alto riesgo."
     },
     {
       "file": "s06_g00",
-      "text": "Si la gonadotropina coriónica se estanca en meseta durante tres semanas consecutivas, se diagnostica formalmente neoplasia trofoblástica gestacional."
+      "text": "Repasemos en la tabla. Embrión: en la completa nunca hay; en la parcial sí hay, aunque malformado."
     },
     {
       "file": "s06_g01",
-      "text": "Un aumento sostenido de la hormona en dos semanas consecutivas sella la progresión tumoral y exige tratamiento quimioterápico inmediato."
+      "text": "La beta-hCG: en la completa está muy elevada, por sobre cien mil; en la parcial, normal o apenas elevada."
     },
     {
       "file": "s06_g02",
-      "text": "Si tras seis meses de seguimiento la gonadotropina continúa detectable en sangre, se diagnostica neoplasia trofoblástica gestacional."
+      "text": "Y el riesgo de que progrese a neoplasia: mucho mayor en la completa, de quince a veinte por ciento, contra uno a cinco en la parcial."
     },
     {
       "file": "s06_g03",
-      "text": "La identificación histológica de coriocarcinoma es un criterio maligno indiscutido que impone quimioterapia inmediata sin esperar curvas."
+      "text": "Y la trampa más clásica: si la beta-hCG se estanca o sube durante el seguimiento, es neoplasia trofoblástica. El error es pensar que todavía puede bajar sola y seguir observando."
     },
     {
       "file": "s07_g00",
-      "text": "El ochenta por ciento de las neoplasias trofoblásticas son de bajo riesgo. Responden de forma extraordinaria a la monoquimioterapia con metotrexato, alcanzando una tasa de curación cercana al cien por ciento con preservación completa de la fertilidad."
+      "text": "Vamos con un caso. Mujer de veintidós años, con doce semanas por fecha de última regla, consulta por metrorragia y vómitos intensos. El útero se palpa como de dieciocho semanas. La beta-hCG es ciento noventa mil, y la ecografía muestra la cavidad ocupada por múltiples quistes pequeños, sin saco gestacional ni embrión."
     },
     {
       "file": "s07_g01",
-      "text": "Una vez alcanzada la negativización de la gonadotropina coriónica, se administran dos ciclos adicionales de consolidación para erradicar cualquier clon celular microscópico residual."
+      "text": "¿Cuál es el diagnóstico y la conducta inicial más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "En pacientes con metástasis cerebrales o hepáticas, o puntuación de alto riesgo, se indica poliquimioterapia intensiva con el esquema EMA-CO, logrando curación en más del ochenta y cinco al noventa por ciento de los casos."
+      "text": "Tus opciones: mola completa con aspiración manual, aborto retenido con misoprostol, embarazo gemelar con control en cuatro semanas, mola parcial con quimioterapia de inmediato, o embarazo ectópico con metotrexato. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la A. El útero mucho más grande de lo esperado, la beta-hCG estratosférica y la tormenta de nieve sin ningún embrión, son la firma de la mola completa. Y el tratamiento inicial siempre es evacuar, no dar quimioterapia de entrada: la quimioterapia se reserva para cuando el seguimiento demuestra que se convirtió en una neoplasia."
     },
     {
       "file": "s08_g00",
-      "text": "Iniciamos el abordaje evaluando la imagen ecográfica transvaginal y cuantificando la beta hCG sérica."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veinticinco años, con metrorragia abundante de dos días y atraso menstrual de cuatro semanas, dudoso por reglas irregulares. El útero se palpa como de doce semanas. La beta-hCG es doscientas mil, y la ecografía muestra la imagen en tormenta de nieve."
     },
     {
       "file": "s08_g01",
-      "text": "Procedemos a la evacuación mediante aspiración endouterina con oxitocina y enviamos muestra a biopsia."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Monitoreamos semanalmente la hormona hasta negativizar y luego mensualmente por medio año bajo anticonceptivos orales."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Al cumplir seis meses con valores indetectables certificamos la curación completa de la paciente."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Ante meseta o ascenso hormonal diagnosticamos neoplasia trofoblástica e indicamos quimioterapia."
-    },
-    {
-      "file": "s08_g05",
-      "text": "En bajo riesgo indicamos monoquimioterapia con metotrexato logrando curación completa."
-    },
-    {
-      "file": "s09_g00",
-      "text": "La preeclampsia antes de la semana veinte es la presentación más engañosa del EUNACOM. Siempre debe hacer sospechar mola completa por sobrecarga trofoblástica."
-    },
-    {
-      "file": "s09_g01",
-      "text": "Los quistes tecaluteínicos son funcionales por exceso de beta hCG. No se operan porque involucionan solos al descender los niveles hormonales."
-    },
-    {
-      "file": "s09_g02",
-      "text": "El legrado cortante enérgico perfora fácilmente el útero blando molar. La técnica correcta es la aspiración al vacío con cánulas gruesas."
-    },
-    {
-      "file": "s09_g03",
-      "text": "El DIU está contraindicado durante el seguimiento serológico postmolar. El método obligado son los anticonceptivos orales para asegurar un control hormonal estricto."
-    },
-    {
-      "file": "s10_g00",
-      "text": "Una primigesta de quince semanas presenta metrorragia indolora, náuseas incoercibles, presión arterial elevada, útero de veintiún centímetros y ecografía con patrón en tormenta de nieve y quistes ováricos bilaterales."
-    },
-    {
-      "file": "s10_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s08_g02",
+      "text": "Las opciones: aborto en evolución, embarazo ectópico roto, mola hidatiforme, metrorragia disfuncional, o tumor del sitio de inserción placentaria. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C, mola hidatiforme. La imagen en tormenta de nieve ya es prácticamente diagnóstica, y se suma la beta-hCG muy elevada y el útero mucho más grande de lo que marca el atraso menstrual. Nada de esto encaja con un aborto ni con un ectópico."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con un aborto espontáneo manejado con legrado, sin complicaciones. Se controla dos semanas después y la biopsia informa mola hidatiforme."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: anticonceptivos orales por doce meses, control con beta-hCG seriada, control con ecografía en dos semanas, quimioterapia profiláctica, o histerectomía. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Lo esencial, apenas te llega ese resultado de biopsia, es partir el seguimiento hormonal seriado, porque ahí es donde vas a pescar a tiempo una neoplasia trofoblástica. La anticoncepción también va, pero acompañando ese seguimiento, no reemplazándolo."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecisiete. Mujer de veinticinco años con un aborto espontáneo hace dos meses, que nunca se legró. Ahora tiene metrorragia de siete días, y la beta-hCG resulta ciento treinta y cinco mil. La ecografía muestra el útero grande, con contenido irregular y múltiples vesículas."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
       "file": "s10_g02",
-      "text": "La opción A propone embarazo gemelar. La B mola hidatiforme completa. La C mola parcial con feto. La D coriocarcinoma. La E aborto incompleto infectado. Piénsalo."
+      "text": "Las opciones: metotrexato, esperar evolución espontánea, legrado, resonancia de pelvis, o histerectomía. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la B. La constelación de útero grande, preeclampsia antes de las veinte semanas, quistes ováricos bilaterales y ecografía en tormenta de nieve define una mola hidatiforme completa."
+      "text": "Es la E. Fíjate en el tiempo: dos meses de una mola que nunca se trató, con la beta-hCG todavía altísima, ya no es una mola simple que evacúas y sigues. Es una neoplasia trofoblástica ya establecida, y por eso el manejo salta directo a la histerectomía, con quimioterapia después. Este caso te muestra lo que pasa exactamente cuando no haces el seguimiento que vimos hoy."
     },
     {
       "file": "s11_g00",
-      "text": "Una paciente evacuada de mola completa hace cinco semanas presenta niveles hormonales de mil cien, mil ciento cincuenta y mil doscientas unidades en las últimas tres semanas usando anticonceptivos orales."
+      "text": "Cerremos con las reglas de oro. La mola se reconoce por la tormenta de nieve en la ecografía, sin ningún embrión, y una beta-hCG muy elevada."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta médica indicada en este momento?"
+      "text": "El tratamiento inicial es siempre evacuar con aspiración manual, y biopsiar todo lo que sale."
     },
     {
       "file": "s11_g02",
-      "text": "La opción A propone esperar cuatro semanas. La B repetir el legrado uterino. La C diagnosticar neoplasia trofoblástica gestacional por meseta e iniciar estudio y quimioterapia. La D suspender anticonceptivos. La E histerectomía total. Piénsalo."
-    },
-    {
-      "file": "s11_g03",
-      "text": "La respuesta correcta es la C. El estancamiento o ascenso de la beta hCG durante tres semanas consecutivas define formalmente neoplasia trofoblástica gestacional, requiriendo estudio de etapificación e inicio de quimioterapia."
-    },
-    {
-      "file": "s12_g00",
-      "text": "La mola completa es diploide de origen exclusivamente paterno y cursa con hiperplasia difusa sin feto."
-    },
-    {
-      "file": "s12_g01",
-      "text": "Preeclampsia antes de la semana veinte con útero grande y quistes tecaluteínicos bilaterales es mola completa."
-    },
-    {
-      "file": "s12_g02",
-      "text": "La evacuación molar se realiza mediante aspiración al vacío para prevenir perforación miometrial y embolia trofoblástica."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Si te llevas una sola idea de hoy: el seguimiento postmolar exige beta hCG mensual por seis meses bajo anticoncepción oral obligatoria, y una meseta hormonal en tres semanas sella el diagnóstico de neoplasia trofoblástica tributaria de quimioterapia. Nos vemos en la próxima clase."
+      "text": "Y el seguimiento con beta-hCG, semanal y luego mensual, con anticoncepción durante todo ese tiempo, no es opcional. Si te llevas una sola idea de hoy: evacuar la mola es solo la mitad del tratamiento; la otra mitad es no dejar de seguirla. Nos vemos en la próxima clase."
     }
   ]
 }

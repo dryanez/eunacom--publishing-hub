@@ -2,195 +2,203 @@
   "id": "gin-06",
   "title": "Ginecologia 20.6: Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
   "specialty": "Ginecología",
-  "chars": 9379,
+  "chars": 7600,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre uroginecología, un bloque de extraordinaria rentabilidad en el examen EUNACOM. En esta sesión aprenderemos a clasificar el prolapso de órganos pélvicos utilizando el sistema POP-Q con el himen como punto cero, diferenciaremos de inmediato la incontinencia urinaria de esfuerzo de la de urgencia, y grabaremos la regla de oro terapéutica: la incontinencia de esfuerzo se opera con cintas mediouretrales mientras que la de urgencia nunca se opera y se trata con fármacos. Comencemos."
+      "text": "Bienvenida. Hoy vemos el piso pélvico: el prolapso de órganos y la incontinencia urinaria. Y ahí hay una pregunta que vas a ver una y otra vez en el examen: incontinencia de esfuerzo versus incontinencia de urgencia. Se parecen en el síntoma, pero el tratamiento es completamente opuesto. Vamos a aprender a separarlas."
     },
     {
       "file": "s01_g00",
-      "text": "El piso pélvico se mantiene suspendido gracias a la acción combinada del músculo elevador del ano y las fascias endopélvicas. Los partos vaginales traumáticos con macrosomía o fórceps y el pujo prolongado provocan desgarros fasciales y denervación muscular, agravados en la postmenopausia por el hipoestrogenismo tisular."
+      "text": "Empecemos por el mecanismo, porque son dos enfermedades distintas que comparten un síntoma. La primera empieza con el daño del piso pélvico durante el parto vaginal, sobre todo si hubo fórceps o bebés grandes."
     },
     {
       "file": "s01_g01",
-      "text": "Al debilitarse los soportes ligamentosos de suspensión, los órganos pélvicos se hernian a través del introito vaginal. La paciente relata típicamente una sensación de peso o cuerpo extraño genital en hipogastrio que se acentúa al permanecer de pie o realizar esfuerzos físicos, requiriendo en ocasiones reducir la masa manualmente para poder orinar."
+      "text": "Ese daño deja a la uretra sin el soporte que la mantiene fija: se vuelve hipermóvil."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y por eso, cuando sube la presión abdominal, al toser, reír o correr, se escapa la orina. Esto es la incontinencia de esfuerzo: un problema anatómico de soporte."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La segunda es completamente distinta: el músculo detrusor de la vejiga se contrae solo, sin que tú lo controles, durante el llenado."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y esa contracción da un deseo miccional urgente y súbito, que termina en escape antes de llegar al baño. Esto es la incontinencia de urgencia: un problema funcional del músculo, no del soporte. Guarda esta diferencia, porque de ella depende todo el tratamiento."
     },
     {
       "file": "s02_g00",
-      "text": "El sistema de cuantificación POP-Q utiliza el plano del anillo himenal como línea de referencia anatómica cero. Cualquier punto que permanezca por dentro de la vagina se mide en centímetros negativos, mientras que cualquier estructura que protruya hacia el exterior del himen se consigna en centímetros positivos."
+      "text": "En la incontinencia de esfuerzo, el escape ocurre justo cuando tose o se ríe, en poco volumen, y sin ningún aviso previo."
     },
     {
       "file": "s02_g01",
-      "text": "El estadio cero indica un soporte anatómico perfecto sin prolapso. En el estadio uno el punto de mayor descenso se sitúa a más de un centímetro por encima del anillo himenal, es decir, en un valor menor a menos un centímetro."
+      "text": "La confirmas con la prueba de esfuerzo: le pides que tosa con la vejiga llena y ves el escape en el momento."
     },
     {
       "file": "s02_g02",
-      "text": "El estadio dos se define cuando el punto de máximo descenso se encuentra en la franja perihimenal comprendida entre un centímetro por encima y un centímetro por debajo del plano del himen, entre menos uno y más un centímetro."
+      "text": "Y si quieres confirmar que el mecanismo es el soporte, está el test de Bonney: al elevar con los dedos el cuello vesical, sin ocluir la uretra, el escape desaparece."
     },
     {
       "file": "s02_g03",
-      "text": "El estadio tres sobrepasa con creces el himen exteriorizándose a más de un centímetro por fuera pero sin evertir completamente la vagina, mientras que el estadio cuatro corresponde a la procidencia completa con eversión total de toda la longitud vaginal."
+      "text": "En la incontinencia de urgencia, primero viene el deseo urgente e incontrolable, y después un escape de bastante volumen."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y casi siempre se acompaña de polaquiuria y nicturia. Con ese cuadro, ya deberías pensar en vejiga hiperactiva, no en un problema de soporte."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y algo que siempre te van a pedir en el examen: antes de etiquetarla como vejiga hiperactiva, confirma con un urocultivo negativo que no es simplemente una infección urinaria la que le da esos síntomas."
     },
     {
       "file": "s03_g00",
-      "text": "Si el prolapso es asintomático no requiere tratamiento invasivo, limitándonos a educar a la paciente y controlar el estreñimiento crónico."
+      "text": "El prolapso de órganos pélvicos comparte el mismo origen: partos vaginales traumáticos, y después la menopausia, que debilita el colágeno de sostén."
     },
     {
       "file": "s03_g01",
-      "text": "La kinesiología de piso pélvico mediante ejercicios de Kegel guiados por kinesiólogo especialista fortalece la musculatura estriada del elevador del ano, aliviando la sensación de peso en estadios uno y dos y previniendo el progreso del prolapso."
+      "text": "Para medirlo se usa el sistema POP-Q, donde el himen es el punto de referencia cero. El estadio dos es cuando el descenso queda entre un centímetro por encima y un centímetro por debajo del himen."
     },
     {
       "file": "s03_g02",
-      "text": "Los pesarios vaginales de silicona en forma de anillo o cubo son la alternativa mecánica de primera línea en pacientes ancianas frágiles, con comorbilidades severas o alto riesgo quirúrgico que rechazan o contraindican la anestesia general."
+      "text": "Y el estadio cuatro es la procidencia total, con la vagina completamente evertida."
     },
     {
       "file": "s03_g03",
-      "text": "La corrección quirúrgica mediante colporrafia anterior o posterior, histerectomía vaginal o suspensión apical con sacrocolpopexia se reserva para estadios avanzados tres y cuatro con impacto severo en la calidad de vida o falla de las medidas conservadoras."
+      "text": "Si es sintomático, el pesario vaginal es la opción conservadora de elección cuando la paciente rechaza la cirugía o tiene alto riesgo quirúrgico."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si va a cirugía, se corrige con colporrafia anterior o posterior, según el compartimento, o con sacrocolpopexia si es apical."
     },
     {
       "file": "s04_g00",
-      "text": "En la incontinencia de esfuerzo, el suelo pélvico no sostiene la uretra. Ante un aumento de presión intraabdominal por toser o saltar, la uretra desciende y la orina escapa en chorro. El tratamiento definitivo cuando falla la kinesiología es quirúrgico mediante una cinta libre de tensión."
+      "text": "En la incontinencia de esfuerzo empiezas siempre con los ejercicios de Kegel, para fortalecer el piso pélvico."
     },
     {
       "file": "s04_g01",
-      "text": "En la incontinencia de urgencia el problema no es anatómico sino neuromuscular: el músculo detrusor se contrae espásticamente de forma involuntaria durante el llenado. Está formalmente prohibido operarla; su manejo es estrictamente médico con reeducación vesical y fármacos que relajen el detrusor."
+      "text": "Si eso falla, o el caso es más severo, la cirugía de elección es el cabestrillo mediouretral, la cinta TOT o TVT, con una curación sobre el ochenta y cinco por ciento."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la incontinencia de urgencia, empiezas con la reeducación vesical: micciones a horario fijo, y menos café, té y alcohol."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y sumas fármacos: solifenacina u oxibutinina, o mirabegrón si quieres evitar la boca seca en el adulto mayor. Y acuérdate de esto siempre: la cirugía de cabestrillo está formalmente contraindicada aquí, porque empeora la urgencia."
     },
     {
       "file": "s05_g00",
-      "text": "La de esfuerzo gotea al toser o reír; la de urgencia moja la ropa al sentir una necesidad imperiosa e incontenible de orinar."
+      "text": "Ordenemos todo en un solo árbol de decisión. Partamos con una mujer que consulta por escapes de orina. Antes de nada, descarta una infección urinaria con el sedimento y el urocultivo."
     },
     {
       "file": "s05_g01",
-      "text": "La incontinencia de esfuerzo no tiene síntomas de llenado; la de urgencia se acompaña de nicturia repetida y poliaquiuria marcada."
+      "text": "Con eso descartado, la pregunta clave es cómo se desencadena el escape."
     },
     {
       "file": "s05_g02",
-      "text": "El mecanismo de la de esfuerzo es la hipermovilidad del cuello vesical; la de urgencia es la hiperactividad motora del detrusor."
+      "text": "Si el escape es con la tos o el esfuerzo, confírmalo con la prueba de esfuerzo: vejiga llena, y se le pide toser."
     },
     {
       "file": "s05_g03",
-      "text": "La incontinencia de esfuerzo se resuelve con cabestrillos quirúrgicos mediouretrales; la de urgencia jamás se opera y se trata con fármacos."
+      "text": "Confirmada la incontinencia de esfuerzo, empiezas con Kegel. ¿Responde?"
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si responde, continúas con la kinesioterapia de piso pélvico, sin necesidad de operar."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si no responde, el cabestrillo mediouretral, TOT o TVT, es la cirugía de elección."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si el escape viene precedido de un deseo urgente, con polaquiuria y nicturia, es incontinencia de urgencia. Y aquí la cirugía nunca es la respuesta."
+    },
+    {
+      "file": "s05_g07",
+      "text": "El tratamiento es reeducación vesical, sumado a un anticolinérgico como la solifenacina o la oxibutinina, o mirabegrón si quieres evitar la boca seca."
     },
     {
       "file": "s06_g00",
-      "text": "El abordaje de primera línea en incontinencia de esfuerzo leve a moderada consiste en la kinesiología de suelo pélvico mediante ejercicios de Kegel supervisados durante un período mínimo de tres meses continuos para fortalecer el soporte suburetral."
+      "text": "Repasemos en una tabla. El gatillo: presión abdominal en una, deseo súbito en la otra."
     },
     {
       "file": "s06_g01",
-      "text": "Bajar de peso y cesar el tabaquismo disminuye la presión intraabdominal y la tos crónica, reduciendo significativamente los episodios de escape."
+      "text": "Los síntomas asociados: casi nunca hay polaquiuria en la de esfuerzo; casi siempre la hay en la de urgencia."
     },
     {
       "file": "s06_g02",
-      "text": "Cuando falla la kinesiología, la cirugía estándar de oro de elección en incontinencia de esfuerzo es la colocación de una cinta mediouretral libre de tensión de polipropileno por vía transobturatriz TOT o retropúbica TVT."
+      "text": "El tratamiento inicial: Kegel en una, reeducación y fármacos en la otra."
     },
     {
       "file": "s06_g03",
-      "text": "Esta intervención mínimamente invasiva actúa restituyendo el plano de apoyo fascial suburetral, permitiendo que la uretra media se colapse sobre la cinta durante los aumentos de presión y curando a más del noventa por ciento de las pacientes."
+      "text": "Y la cirugía: es el estándar de oro en la de esfuerzo, y está formalmente contraindicada en la de urgencia. Esta última fila es la que más se pregunta."
     },
     {
       "file": "s07_g00",
-      "text": "La incontinencia de urgencia nunca se opera bajo ninguna circunstancia. Colocar un cabestrillo suburetral en una vejiga hiperactiva agrava de forma desastrosa los episodios de urgencia miccional y precipita retención urinaria obstructiva postoperatoria."
+      "text": "Vamos al caso. Mujer de cincuenta y dos años, con tres partos vaginales de recién nacidos grandes, consulta por escapes de orina de dos años de evolución. Ocurren al toser fuerte, reírse o hacer ejercicio. Niega deseo urgente de orinar, no tiene polaquiuria y duerme sin levantarse en la noche. Al examen, con la vejiga llena, se le pide toser y se ve un chorro de escape sincrónico con la tos. El urocultivo es negativo."
     },
     {
       "file": "s07_g01",
-      "text": "Iniciamos con micciones programadas cada dos a tres horas y restricción estricta de irritantes vesicales como café, té, bebidas colas, alcohol y edulcorantes artificiales."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Los fármacos anticolinérgicos como la solifenacina o tolterodina bloquean selectivamente los receptores muscarínicos M dos y M tres del músculo detrusor, inhibiendo las contracciones involuntarias durante la fase de llenado vesical."
+      "text": "Tienes cinco opciones: iniciar oxibutinina, indicar ejercicios de Kegel, realizar cistoscopía, instalar una sonda permanente, o ir directo al cabestrillo sin kinesioterapia previa. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "El mirabegrón es un agonista selectivo de los receptores beta-tres adrenérgicos que relaja activamente el detrusor durante el llenado sin causar boca seca ni constipación, siendo el fármaco de elección en adultas mayores o pacientes con riesgo de glaucoma."
+      "text": "Es la B. Todo el cuadro es incontinencia de esfuerzo: escape sincrónico con la tos, sin urgencia ni polaquiuria, y prueba de esfuerzo positiva. El manejo siempre empieza con Kegel. La oxibutinina es para la urgencia, y el cabestrillo se reserva para cuando la kinesioterapia ya falló, no para partir."
     },
     {
       "file": "s08_g00",
-      "text": "La sequedad de boca intensa y la constipación intestinal rebelde son los efectos secundarios más molestos de la oxibutinina y solifenacina, causando abandono del tratamiento."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de cincuenta y seis años con escapes de orina en grandes cantidades, precedidos por deseos incontrolables de orinar, incluso en la noche. Al examen, la maniobra de Valsalva no provoca escape. El urocultivo es negativo y la ecografía muestra una vejiga normal."
     },
     {
       "file": "s08_g01",
-      "text": "Pueden provocar visión borrosa por alteración de la acomodación pupilar y somnolencia o confusión mental en pacientes geriátricas por cruzar la barrera hematoencefálica."
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s08_g02",
-      "text": "Los anticolinérgicos están estrictamente contraindicados en pacientes con glaucoma de ángulo estrecho no tratado, ya que la midriasis puede precipitar un glaucoma agudo por cierre angular."
+      "text": "Las opciones: iniciar tamsulosina, iniciar oxibutinina, realizar cistoscopía, hacer una suspensión con cinta transvaginal, o indicar kinesioterapia pélvica. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Asimismo, están formalmente contraindicados en retención urinaria con gran residuo postmiccional, gastroparesia severa y miastenia gravis."
+      "text": "La respuesta es la B, oxibutinina. Fíjate que la Valsalva salió negativa: esto descarta el componente de esfuerzo. El deseo urgente que precede al escape es la firma de la incontinencia de urgencia, y ahí el tratamiento es el anticolinérgico, nunca la cirugía."
     },
     {
       "file": "s09_g00",
-      "text": "Iniciamos el estudio descartando una infección urinaria y caracterizando el tipo de escape."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y ocho años, multípara de cuatro, con sensación de peso vaginal y escapes de orina al inicio del deseo miccional. Al examen físico se confirma un prolapso genital."
     },
     {
       "file": "s09_g01",
-      "text": "Si el escape ocurre al toser o reír diagnosticamos incontinencia urinaria de esfuerzo."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Indicamos kinesiología de piso pélvico con ejercicios de Kegel durante tres meses."
+      "text": "Las opciones: iniciar oxibutinina, realizar la prueba de Q-tip, hacer la estadificación POP-Q, pedir una resonancia pelviana, o realizar histerectomía. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Ante fracaso de la kinesiología indicamos cirugía con cinta mediouretral libre de tensión."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Si el escape se asocia a deseo imperioso diagnosticamos incontinencia de urgencia que nunca se opera."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Iniciamos reeducación vesical combinada con solifenacina o mirabegrón para relajar el detrusor."
+      "text": "Es la C. Confirmado el prolapso al examen, el paso que sigue es cuantificarlo con el sistema POP-Q, tomando el himen como plano cero. Recién con ese grado definido decides entre pesario u observación, o cirugía. Ir directo a la histerectomía, sin siquiera estadificar, es la trampa."
     },
     {
       "file": "s10_g00",
-      "text": "Una paciente de sesenta y dos años presenta escapes de orina involuntarios exclusivamente al toser, reír o levantar peso con maniobra de esfuerzo positiva tras fallar kinesiología."
+      "text": "Cerremos. La primera pregunta siempre es cómo se desencadena el escape: con el esfuerzo, o con un deseo urgente."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el procedimiento quirúrgico de elección para resolver la incontinencia urinaria de esfuerzo?"
+      "text": "En la de esfuerzo, Kegel primero, y si falla, cirugía con cabestrillo."
     },
     {
       "file": "s10_g02",
-      "text": "La opción A propone colocación de cabestrillo mediouretral libre de tensión cinta TOT o TVT. La B toxina botulínica en el detrusor. La C oxibutinina oral. La D cistoplastía de aumento. La E denervación pélvica. Piénsalo."
+      "text": "En la de urgencia, reeducación vesical y anticolinérgicos o mirabegrón, y la cirugía nunca entra."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la A. En la incontinencia urinaria de esfuerzo refractaria a kinesiología, la cirugía de primera línea de elección es la colocación de una cinta mediouretral libre de tensión tipo TOT o TVT."
-    },
-    {
-      "file": "s11_g00",
-      "text": "Una mujer de sesenta y ocho años presenta deseos imperiosos súbitos e incontenibles de orinar con escape abundante, poliaquiuria de doce veces al día y nicturia repetida."
-    },
-    {
-      "file": "s11_g01",
-      "text": "¿Cuál de las siguientes conductas terapéuticas es la más apropiada?"
-    },
-    {
-      "file": "s11_g02",
-      "text": "La opción A propone cinta suburetral TOT. La B reeducación vesical combinada con un fármaco anticolinérgico como solifenacina o un agonista beta tres como mirabegrón. La C restricción hídrica extrema. La D uretrotomía. La E antibióticos continuos. Piénsalo."
-    },
-    {
-      "file": "s11_g03",
-      "text": "La respuesta correcta es la B. La incontinencia de urgencia nunca se opera; se trata con reeducación vesical y relajantes del detrusor como solifenacina o mirabegrón."
-    },
-    {
-      "file": "s12_g00",
-      "text": "El sistema anatómico POP-Q toma el anillo himenal como punto cero inmutable; los valores negativos representan vísceras dentro de la cavidad y los positivos prolapsos exteriorizados por fuera del himen."
-    },
-    {
-      "file": "s12_g01",
-      "text": "El prolapso asintomático no se opera; el sintomático se trata con kinesiología de Kegel o pesarios en ancianas frágiles y cirugía reconstructiva si es severo."
-    },
-    {
-      "file": "s12_g02",
-      "text": "La incontinencia de esfuerzo responde a hipermovilidad del cuello vesical y se resuelve quirúrgicamente con cabestrillos mediouretrales libres de tensión tras fracaso de ejercicios de Kegel."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La incontinencia de urgencia es de manejo médico, no quirúrgico. Si te llevas una sola idea de hoy: la incontinencia de esfuerzo se resuelve con cabestrillos suburetrales, mientras que la de urgencia se trata con fármacos anticolinérgicos o mirabegrón. Nos vemos en la próxima clase."
+      "text": "Si te llevas una sola idea de hoy: nunca operes una incontinencia de urgencia, y nunca trates un prolapso sin antes estadificarlo con POP-Q. Nos vemos en la próxima clase."
     }
   ]
 }

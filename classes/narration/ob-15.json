@@ -2,279 +2,195 @@
   "id": "ob-15",
   "title": "Obstetricia 19.15: Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
   "specialty": "Obstetricia",
-  "chars": 13225,
+  "chars": 8490,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre síndrome de parto prematuro. El parto pretérmino representa la principal causa de morbimortalidad neonatal no malformativa en el mundo. En esta sesión aprenderemos a diagnosticar con precisión la amenaza de parto prematuro mediante cervicometría transvaginal, utilizaremos correctamente el nifedipino como tocolítico de primera línea, dominaremos los esquemas de corticoterapia y neuroprotección con sulfato de magnesio, y memorizaremos las contraindicaciones absolutas de la tocolisis. Comencemos."
+      "text": "Bienvenido a la amenaza de parto prematuro: cómo la defines, qué tocolítico usas, y por qué das corticoides y sulfato de magnesio. Es la continuación natural de las dos clases anteriores: ahí viste las urgencias que obligan a nacer ya; hoy vas a ver cómo ganar tiempo, cuando ganar tiempo todavía es posible. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "El síndrome de parto prematuro es una vía final común activada por múltiples causas, donde la infección intraamniótica subclínica, la sobredistensión uterina en polihidramnios o gemelares y la isquemia decidual liberan interleucinas que desencadenan la síntesis masiva de prostaglandinas miometriales."
+      "text": "Una amenaza de parto prematuro no es solo que la paciente sienta contracciones. Necesitas dinámica uterina de verdad: cuatro o más contracciones dolorosas en veinte a treinta minutos."
     },
     {
       "file": "s01_g01",
-      "text": "Las prostaglandinas actúan en dos frentes simultáneos: degradan el colágeno del cuello uterino provocando su acortamiento y dilatación precoz, y activan las uniones de hendidura en las células miometriales generando contracciones rítmicas dolorosas y sostenidas."
+      "text": "Y el segundo dato lo da la cervicometría transvaginal, que mide el largo del cuello con la vejiga vacía."
     },
     {
       "file": "s01_g02",
-      "text": "Si el proceso no se interrumpe oportunamente a tiempo, culmina en el parto prematuro entre las veintidós y treinta y seis semanas con seis días, exponiendo al recién nacido al síndrome de distrés respiratorio, hemorragia intraventricular, enterocolitis y parálisis cerebral."
+      "text": "Un cuello menor a veinticinco milímetros es el predictor independiente más fuerte de parto prematuro que existe, y es justo el corte que se pregunta."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Con contracciones frecuentes y ese cuello acortado, entre las veintidós y las treinta y cuatro semanas, confirmas la amenaza de parto prematuro."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Si el cuello es largo y no hay dilatación, el riesgo es bajo y basta con observar. Y si el cuello viene corto desde antes, sin contracciones, ahí lo que se usa es progesterona vaginal como prevención, no como tratamiento de una crisis ya en curso."
     },
     {
       "file": "s02_g00",
-      "text": "La amenaza de parto prematuro se define por la presencia de contracciones uterinas dolorosas y frecuentes asociadas a modificaciones cervicales progresivas, pero sin superar los tres centímetros de dilatación ni entrar en fase activa irreversible."
+      "text": "Ojo con esto, porque es lo que más se pregunta mal entendido: la tocolisis no evita el parto prematuro a largo plazo. Su único objetivo es frenar la dinámica uterina por cuarenta y ocho horas."
     },
     {
       "file": "s02_g01",
-      "text": "El trabajo de parto prematuro franco se diagnostica cuando existe dinámica uterina regular junto con una dilatación cervical igual o mayor a cuatro centímetros o borramiento completo, escenario en el cual el parto es prácticamente inevitable a corto plazo."
+      "text": "Y esas cuarenta y ocho horas sirven para completar los corticoides, dar el sulfato de magnesio si corresponde, y trasladar a la paciente a un centro con neonatología. El fármaco de primera línea en Chile es el nifedipino oral, desde las treinta y dos semanas."
     },
     {
       "file": "s02_g02",
-      "text": "La ecografía transvaginal con vejiga vacía es el estándar de oro para medir la longitud cervical, siendo mucho más reproducible y precisa que el tacto vaginal manual."
+      "text": "Antes de las treinta y dos semanas se prefiere la indometacina, pero nunca después, porque cierra antes de tiempo el ductus arterioso del feto."
     },
     {
       "file": "s02_g03",
-      "text": "Una longitud cervical inferior a veinticinco milímetros antes de las veintiocho semanas define el cérvix corto y constituye el predictor independiente más potente de parto prematuro espontáneo en la práctica obstétrica."
+      "text": "Y hay contraindicaciones absolutas que ya conoces de las clases anteriores: corioamnionitis, desprendimiento de placenta, eclampsia, o sufrimiento fetal agudo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "En cualquiera de esos escenarios, frenar el parto sería un error grave: ahí no se tocoliza, se nace, aunque sea prematuro."
     },
     {
       "file": "s03_g00",
-      "text": "En pacientes con antecedente de parto pretérmino previo espontáneo que presentan acortamiento cervical, la administración de progesterona micronizada vaginal nocturna reduce en casi un cincuenta por ciento la tasa de recurrencia."
+      "text": "Los corticoides se dan siempre que hay riesgo de parto prematuro entre las veinticuatro y las treinta y cuatro semanas: betametasona, dos dosis, una cada veinticuatro horas. Bajan a la mitad la enfermedad de membrana hialina, y también la hemorragia intraventricular."
     },
     {
       "file": "s03_g01",
-      "text": "La medición de longitud cervical por cervicometría transvaginal en la ecografía morfológica de las veinte a veinticuatro semanas permite identificar a tiempo cuellos cortos e iniciar progesterona micronizada profiláctica de forma oportuna."
+      "text": "El sulfato de magnesio no frena el parto, y esa es justamente la trampa del examen. Se da cuando el parto ya es inminente y la gestación es menor a treinta y dos semanas, y lo que hace es bajar la tasa de parálisis cerebral del recién nacido."
     },
     {
       "file": "s03_g02",
-      "text": "En gemelares con longitud cervical conservada mantenemos seguimiento ecográfico estricto, recordando que el cerclaje no está indicado de rutina en gestaciones múltiples."
+      "text": "Y la prevención primaria, con progesterona vaginal hasta las treinta y seis semanas, en toda paciente con cuello corto en la ecografía de rutina o con un parto prematuro previo."
     },
     {
       "file": "s04_g00",
-      "text": "Es fundamental comprender que la tocolisis no cura la causa del parto prematuro ni prolonga el embarazo hasta el término. Su único objetivo terapéutico demostrado es frenar las contracciones durante cuarenta y ocho horas para permitir intervenciones que salvan la vida fetal."
+      "text": "Si el nifedipino no frena la dinámica, la alternativa es el atosibán, un antagonista de la oxitocina con muy buen perfil de seguridad materna, aunque de mayor costo."
     },
     {
       "file": "s04_g01",
-      "text": "Estas cuarenta y ocho horas se aprovechan para completar el ciclo de dos dosis de betametasona para maduración pulmonar, administrar sulfato de magnesio para neuroprotección fetal si la gestación es menor a treinta y dos semanas, y trasladar a la madre hacia un centro de alta complejidad con unidad neonatal."
+      "text": "El fenoterol quedó casi en desuso, porque puede provocar edema pulmonar, taquicardia e hiperglicemia en la madre."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y no olvides la profilaxis intraparto contra el estreptococo del grupo B, con penicilina o ampicilina, en todo parto prematuro con cultivo positivo o sin resultado conocido."
     },
     {
       "file": "s05_g00",
-      "text": "El nifedipino bloquea la entrada de calcio al miocito uterino disminuyendo la contractilidad. Se inicia con una dosis de carga de veinte miligramos vía oral, repetible a los veinte minutos si persisten las contracciones, hasta un máximo de cuarenta miligramos en la primera hora."
+      "text": "Ahora pongamos los cuatro pilares del manejo en un solo árbol. Con la amenaza de parto prematuro confirmada, cuatro preguntas ordenan el manejo completo."
     },
     {
       "file": "s05_g01",
-      "text": "Sus efectos secundarios más comunes derivan de la vasodilatación sistémica: cefalea pulsátil, rubor facial en cuello y mejillas, mareos e hipotensión arterial con taquicardia refleja compensatoria."
+      "text": "Si hay corioamnionitis, desprendimiento de placenta o eclampsia, la tocolisis está prohibida: se interrumpe el embarazo, no se frena el parto."
     },
     {
       "file": "s05_g02",
-      "text": "El atosiban bloquea selectivamente los receptores de oxitocina en el útero mediante infusión endovenosa continua. Posee un perfil de seguridad materno excepcional, siendo la alternativa en pacientes con cardiopatía o hipotensión grave."
+      "text": "Sin contraindicaciones y con treinta y dos semanas o más, nifedipino oral, con el único fin de ganar cuarenta y ocho horas."
     },
     {
       "file": "s05_g03",
-      "text": "La indometacina es un potente tocolítico antiprostaglandínico, pero su uso está estrictamente restringido a embarazos menores de treinta y dos semanas y por menos de cuarenta y ocho horas continuas por sus graves riesgos fetales."
+      "text": "Bajo las treinta y dos semanas se prefiere la indometacina, y como el parto puede ser inminente, sumas sulfato de magnesio para proteger el cerebro fetal."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y en paralelo, siempre que la gestación esté entre veinticuatro y treinta y cuatro semanas, betametasona para madurar el pulmón fetal."
     },
     {
       "file": "s06_g00",
-      "text": "El nifedipino oral es el fármaco de primera elección en todos los hospitales de Chile por su alta eficacia, fácil administración oral y excelente tolerancia fetal."
+      "text": "Repasemos en una tabla. Cuello corto, sin antecedentes: progesterona vaginal. El error es indicar un cerclaje sin que haya un parto muy prematuro previo."
     },
     {
       "file": "s06_g01",
-      "text": "El atosiban endovenoso es seguro y eficaz pero su elevado costo limita su disponibilidad en el sistema público, reservándose para casos seleccionados con contraindicación de nifedipino."
+      "text": "Amenaza de parto prematuro desde las treinta y dos semanas: nifedipino oral. La indometacina ya no corresponde a esta edad."
     },
     {
       "file": "s06_g02",
-      "text": "La indometacina inhibe la síntesis de prostaglandinas pero acarrea el riesgo fatal de cierre prematuro del conducto arterioso fetal si se administra después de las treinta y dos semanas."
+      "text": "Parto inminente antes de las treinta y dos semanas: sulfato de magnesio. El error clásico es olvidarlo, pensando que ya se dio suficiente con los corticoides."
     },
     {
       "file": "s06_g03",
-      "text": "Los betamiméticos como el fenoterol están prácticamente en desuso debido al alto riesgo de edema pulmonar agudo materno, arritmias ventriculares y descompensación metabólica."
+      "text": "Con corioamnionitis o desprendimiento: nunca tocolisis, se interrumpe. Intentar frenar el parto ahí pone en riesgo a los dos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si ya está en fase activa, con dilatación avanzada, los tocolíticos ya no sirven. Insistir con nifedipino solo retrasa lo inevitable."
     },
     {
       "file": "s07_g00",
-      "text": "La corioamnionitis clínica es la contraindicación número uno de la tocolisis. Intentar frenar las contracciones en un útero infectado conduce a shock séptico y muerte de la madre y del feto."
+      "text": "Vamos con un caso. Primigesta de veintinueve semanas, con dolor tipo cólico de tres horas de evolución. Está afebril y con signos vitales normales. El monitor muestra cuatro contracciones dolorosas en veinte minutos, y la cervicometría muestra un cuello de dieciocho milímetros, con dilatación de un centímetro y medio. No hay sangrado ni pérdida de líquido, y el feto está reactivo."
     },
     {
       "file": "s07_g01",
-      "text": "Ante un desprendimiento de placenta o hemorragia obstétrica masiva no se debe administrar tocolisis; la prioridad es la estabilización y la resolución quirúrgica inmediata."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "No se tocoliza si existe sufrimiento fetal agudo evidenciado por monitoreo categoría tres, ni ante un óbito fetal intrauterino o malformación letal incompatible con la vida."
+      "text": "Las opciones: reposo en domicilio, hospitalizar con nifedipino, betametasona y sulfato de magnesio, cesárea de urgencia, indometacina rectal por catorce días, o un cerclaje de urgencia. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Cuando la paciente ya presenta más de cuatro a cinco centímetros de dilatación cervical el trabajo de parto es irreversible y los tocolíticos resultan completamente inútiles y riesgosos."
+      "text": "Es la B. Contracciones frecuentes con un cuello corto y ya dilatado a las veintinueve semanas confirman la amenaza de parto prematuro, y no hay ninguna contraindicación para frenarla. El manejo completo es nifedipino para la tocolisis, betametasona para el pulmón, y sulfato de magnesio porque es menor a treinta y dos semanas. El cerclaje de urgencia con contracciones activas está contraindicado."
     },
     {
       "file": "s08_g00",
-      "text": "Los corticoides atraviesan la barrera placentaria y se unen a receptores nucleares en los neumocitos tipo dos del feto, estimulando la transcripción enzimática para producir surfactante pulmonar endógeno que previene el colapso alveolar."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de veintisiete años, con un embarazo de treinta y dos semanas, con contracciones dolorosas. Tiene tres contracciones cada diez minutos, el cuello borrado a la mitad y un centímetro de dilatación. El feto está en ciento treinta, con buena variabilidad."
     },
     {
       "file": "s08_g01",
-      "text": "La corticoterapia antenatal no solo previene el síndrome de distrés respiratorio o enfermedad de membrana hialina, sino que también estabiliza la vasculatura cerebral y mesentérica, disminuyendo en más del cincuenta por ciento la hemorragia intraventricular y la enterocolitis necrotizante."
+      "text": "¿Cuál de los siguientes fármacos es el más adecuado para el manejo inicial?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: ampicilina, indometacina, nifedipino, sulfato de magnesio, o atosibán. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C, nifedipino. Desde las treinta y dos semanas en adelante, el tocolítico de primera línea es el nifedipino oral. La indometacina ya quedó atrás, porque se reserva para menos de treinta y dos semanas, y el atosibán es la alternativa de segunda línea si el nifedipino falla."
     },
     {
       "file": "s09_g00",
-      "text": "El esquema preferido en Chile es betametasona doce miligramos intramusculares cada veinticuatro horas por dos dosis en total. Es el fármaco con mayor evidencia clínica en la literatura médica."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Primigesta de veintitrés años, con un embarazo de veinte semanas, a quien la ecografía transvaginal le muestra un cuello de veinte milímetros, sin otras alteraciones."
     },
     {
       "file": "s09_g01",
-      "text": "La máxima protección pulmonar se alcanza transcurridas veinticuatro horas desde la primera dosis y se mantiene durante los primeros siete días posteriores al ciclo."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Si no se dispone de betametasona, el esquema alternativo equivalente es dexametasona seis miligramos intramusculares cada doce horas hasta completar cuatro dosis en total."
+      "text": "Las opciones: indicar un pesario cervical, iniciar progesterona vaginal, hacer un cerclaje, dar corticoides sistémicos, u observar la evolución. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Está desaconsejado repetir ciclos múltiples de corticoides de forma profiláctica o semanal, ya que la sobreexposición esteroidal fetal se asocia a microcefalia y restricción del crecimiento."
+      "text": "Es la B, progesterona vaginal. Tiene el cuello corto, bajo los veinticinco milímetros, pero es primigesta y no tiene ningún antecedente de parto muy prematuro. Sin ese antecedente, el cerclaje no corresponde: lo que se indica es progesterona vaginal, como prevención primaria."
     },
     {
       "file": "s10_g00",
-      "text": "La neuroprotección con sulfato de magnesio está indicada en toda gestante con menos de treinta y dos semanas de gestación que presente amenaza de parto inminente en las siguientes veinticuatro horas."
+      "text": "La última pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y dos años, con un embarazo de treinta y dos semanas, con contracciones frecuentes y un tacto vaginal que ya muestra seis centímetros de dilatación, con el cuello completamente borrado."
     },
     {
       "file": "s10_g01",
-      "text": "Los ensayos clínicos aleatorizados han demostrado de forma concluyente que el sulfato de magnesio antenatal reduce de manera altamente significativa el riesgo de parálisis cerebral infantil y disfunción motora severa en el prematuro."
+      "text": "¿Cuál de los siguientes fármacos es el más importante para mejorar el pronóstico del recién nacido?"
     },
     {
       "file": "s10_g02",
-      "text": "El magnesio bloquea de forma voltaje-dependiente los canales de los receptores NMDA de glutamato, impidiendo la entrada masiva y lesiva de calcio al interior de las neuronas fetales ante la asfixia."
+      "text": "Las opciones: corticoides, sulfato de magnesio, tocolíticos, antibióticos, o progesterona. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Asimismo, estabiliza las membranas celulares, ejerce efectos antioxidantes y vasodilata la microcirculación cerebral previniendo la isquemia de la sustancia blanca periventricular."
+      "text": "Es la B, sulfato de magnesio. Con seis centímetros y el cuello borrado, el parto ya es inminente: ni los tocolíticos van a frenar nada, ni los corticoides alcanzan a hacer efecto a tiempo. Lo que sigue teniendo un beneficio real, protegiendo el cerebro del recién nacido, es el sulfato de magnesio."
     },
     {
       "file": "s11_g00",
-      "text": "Iniciamos con una dosis de impregnación de cuatro a cinco gramos de sulfato de magnesio endovenoso diluido a pasar en treinta minutos, controlando permanentemente la frecuencia respiratoria y la presión arterial de la madre."
+      "text": "Cerremos con las reglas de oro. Contracciones frecuentes más un cuello menor a veinticinco milímetros confirman la amenaza de parto prematuro."
     },
     {
       "file": "s11_g01",
-      "text": "Mantenemos una infusión continua de un gramo por hora hasta que se produzca el nacimiento o hasta completar un máximo de veinticuatro horas, vigilando de manera horaria la presencia de reflejos osteotendinosos rotulianos y la diuresis materna."
+      "text": "El nifedipino es la primera línea desde las treinta y dos semanas, y su único objetivo es ganar cuarenta y ocho horas, no evitar el parto."
     },
     {
       "file": "s11_g02",
-      "text": "Ante signos clínicos de intoxicación por magnesio como la abolición del reflejo rotuliano o depresión respiratoria, suspendemos la infusión y administramos un gramo de gluconato de calcio endovenoso."
+      "text": "Y nunca la uses con corioamnionitis o desprendimiento de placenta: ahí se nace, no se frena."
     },
     {
-      "file": "s12_g00",
-      "text": "Todo parto prematuro menor a treinta y siete semanas con cultivo de estreptococo del grupo B positivo o desconocido debe recibir quimioprofilaxis antibiótica intraparto sin excepción."
-    },
-    {
-      "file": "s12_g01",
-      "text": "El sistema inmunológico inmaduro del recién nacido pretérmino no posee anticuerpos maternos suficientes, por lo que la colonización por estreptococo del grupo B desencadena sepsis fulminante y meningitis."
-    },
-    {
-      "file": "s12_g02",
-      "text": "El antibiótico de elección es la penicilina G sódica, con un bolo de carga de cinco millones de unidades endovenosas seguido de dos punto cinco a tres millones cada cuatro horas hasta el nacimiento."
-    },
-    {
-      "file": "s12_g03",
-      "text": "En caso de alergia a penicilina sin riesgo de anafilaxia se utiliza cefazolina endovenosa, garantizando una adecuada concentración en líquido amniótico."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Evaluamos a la gestante con contracciones regulares y descartamos de inmediato signos de infección o hemorragia."
-    },
-    {
-      "file": "s13_g01",
-      "text": "Ante corioamnionitis clínica la tocolisis está prohibida e interrumpimos el embarazo sin demora."
-    },
-    {
-      "file": "s13_g02",
-      "text": "Realizamos cervicometría transvaginal para determinar la longitud cervical exacta."
-    },
-    {
-      "file": "s13_g03",
-      "text": "Con cuello corto hospitalizamos de inmediato para tocolisis con nifedipino y betametasona de maduración."
-    },
-    {
-      "file": "s13_g04",
-      "text": "Si la gestación es menor a treinta y dos semanas asociamos sulfato de magnesio para neuroprotección fetal."
-    },
-    {
-      "file": "s13_g05",
-      "text": "Si el cuello mide veinticinco milímetros o más el riesgo de parto a corto plazo es muy bajo y observamos."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Una primigesta de treinta semanas consulta por dinámica uterina dolorosa frecuente y cervicometría de dieciséis milímetros con dilatación de dos centímetros."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es la conducta médica integral de primera línea para esta paciente?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A propone reposo en domicilio. La B hospitalizar en ARO con nifedipino, betametasona y sulfato de magnesio. La C cesárea urgente. La D indometacina por catorce días. La E cerclaje de emergencia. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la B. A las treinta semanas con cérvix corto se hospitaliza en ARO y se administra la tríada de oro: tocolisis con nifedipino, maduración con betametasona y neuroprotección con sulfato de magnesio."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Se consulta en cuál escenario clínico está formalmente prohibido utilizar fármacos tocolíticos para frenar las contracciones uterinas."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es la contraindicación absoluta para iniciar tocolisis?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A plantea gestación de veintiocho semanas con cérvix corto. La B antecedente de parto pretérmino. La C corioamnionitis clínica con fiebre y dolor uterino. La D embarazo gemelar. La E cistitis tratada. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la C. La corioamnionitis clínica prohíbe de forma absoluta la tocolisis, exigiendo la evacuación uterina inmediata bajo cobertura antibiótica."
-    },
-    {
-      "file": "s16_g00",
-      "text": "Se pregunta por qué razón farmacológica está contraindicado utilizar indometacina como tocolítico en una gestante de treinta y tres semanas."
-    },
-    {
-      "file": "s16_g01",
-      "text": "¿Cuál es el mecanismo fisiopatológico adverso de la indometacina?"
-    },
-    {
-      "file": "s16_g02",
-      "text": "La opción A afirma que pierde efecto tocolítico. La B que induce cierre prematuro del conducto arterioso e hipertensión pulmonar fetal. La C hemorragia cerebral. La D arritmias maternas. La E sobredosis de surfactante. Piénsalo."
-    },
-    {
-      "file": "s16_g03",
-      "text": "La respuesta correcta es la B. Tras las treinta y dos semanas la indometacina puede cerrar prematuramente el conducto arterioso fetal generando hipertensión pulmonar neonatal severa."
-    },
-    {
-      "file": "s17_g00",
-      "text": "Se consulta cuál es el beneficio clínico comprobado que fundamenta administrar sulfato de magnesio antenatal en partos inminentes antes de las treinta y dos semanas."
-    },
-    {
-      "file": "s17_g01",
-      "text": "¿Cuál es el principal impacto clínico demostrado?"
-    },
-    {
-      "file": "s17_g02",
-      "text": "La opción A propone síntesis de surfactante. La B reducir el riesgo de parálisis cerebral infantil y disfunción motora. La C erradicar estreptococo. La D prevenir enterocolitis. La E frenar el parto hasta el término. Piénsalo."
-    },
-    {
-      "file": "s17_g03",
-      "text": "La respuesta correcta es la B. El sulfato de magnesio administrado antes de las treinta y dos semanas es un neuroprotector que reduce notablemente la tasa de parálisis cerebral infantil."
-    },
-    {
-      "file": "s18_g00",
-      "text": "La cervicometría transvaginal menor a veinticinco milímetros define cérvix corto e identifica a las pacientes con alto riesgo de parto pretérmino inminente."
-    },
-    {
-      "file": "s18_g01",
-      "text": "El nifedipino oral es el tocolítico de primera línea en Chile. Su objetivo primordial no es llevar el embarazo al término, sino ganar cuarenta y ocho horas vitales para la maduración pulmonar fetal."
-    },
-    {
-      "file": "s18_g02",
-      "text": "La corticoterapia antenatal con betametasona está indicada entre las veinticuatro y treinta y cuatro semanas, reduciendo a la mitad el distrés respiratorio y la hemorragia cerebral."
-    },
-    {
-      "file": "s18_g03",
-      "text": "El sulfato de magnesio antenatal reduce a la mitad el riesgo de parálisis cerebral. Si te llevas una sola idea de hoy: los tocolíticos solo ganan cuarenta y ocho horas para permitir la maduración pulmonar con corticoides y la neuroprotección con sulfato de magnesio. Nos vemos en la próxima clase."
+      "file": "s11_g03",
+      "text": "Y si el parto es inminente y la gestación es menor a treinta y dos semanas, sulfato de magnesio, para proteger el cerebro del recién nacido. Si te llevas una sola idea de hoy: la tocolisis solo compra tiempo, y ese tiempo es para dar corticoides y sulfato de magnesio. Nos vemos en la próxima clase."
     }
   ]
 }

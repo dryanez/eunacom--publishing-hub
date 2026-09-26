@@ -2,6 +2,36 @@
 
 Rama de trabajo: `claude/loving-ramanujan-0cwrvg` (hacer `git pull` al empezar y antes de cada push).
 
+## Estado al 26-09-2026: CURRÍCULO COMPLETO (340/340) + reescritura de calidad terminada (72/72)
+
+**Lo más importante de esta actualización:** el usuario detectó que las 4 libros que escribió Antigravity en paralelo
+(Pediatría 22, Ginecología gin-05..16 = 12, Obstetricia 20, Cirugía 18 — total 72 clases) no cumplían el estándar:
+- Voz impersonal ("debe/se debe/deben") en vez de "tú" directo al estudiante.
+- Texto en pantalla (`d` de `points`/`flow`) demasiado largo: 47-92% de los campos superaban las ~10 palabras
+  del estándar ("la pantalla muestra poco"), en vez de frases cortas.
+- Cirugía además tenía el ratio de preguntas invertido: 30 "Caso representativo" vs 19 reales (al revés que
+  cualquier otro libro del currículo).
+
+**Se reescribieron las 72 clases desde cero** (sin que el agente leyera la versión anterior, para no heredar
+nada), usando solo `books/scripts/dataset_<libro>.cjs` como fuente. Verificado con un script propio (el checker
+NO valida esto) después de cada grupo:
+
+| Libro | t>6 palabras (antes → después) | d>10 palabras (antes → después) | Reales vs Caso-repr |
+|---|---|---|---|
+| Pediatría | 56% → 0.7% | 92% → 0% | 71 vs 3 |
+| Ginecología (05-16) | 22% → 1.5% | 66% → 0% | 62 vs 1 |
+| Obstetricia | 11% → 0.9% | 47% → 0% | 71 vs 3 |
+| Cirugía | 15% → 0% | 19% → 0% | 51 vs 4 (antes 19 vs 30, invertido) |
+
+Detalles de instrucciones y progreso grupo por grupo: `classes/docs/COLA_REESCRITURA_CALIDAD.md` (ya completo,
+puede archivarse o dejarse de referencia). Notas médicas/de banco encontradas durante la reescritura (preguntas
+corruptas nuevas, discrepancias libro-vs-banco) están en `classes/docs/REVISION_CONTENIDO.md`, secciones
+Pediatría/Ginecología/Obstetricia/Cirugía General.
+
+Reproductor y narración ya reconstruidos con el contenido reescrito (`build_swiss_player.cjs` y
+`export_narration.cjs` corridos, commit + push hecho). **Falta republicar el Artifact público si el usuario lo
+pide** — mismo URL: claude.ai/artifact/3UF2UENnyJG4s6rbXWd84R.
+
 ## Estado al 25-09-2026: CURRÍCULO COMPLETO — 340/340 clases
 
 Todos los libros planeados están escritos y pasan `check_lesson.cjs`. Entre esta sesión (Claude) y una sesión
@@ -62,8 +92,15 @@ paralela de Antigravity (mismo branch), se terminaron los 4 módulos:
    terminado por ahora.
 
 ## Programación automática
-Existe un Routine "Guiones Módulo 3/4 (Gine/Pedia/SaludPub) · cada 5 h" (trigger `trig_016jfQXiWLsXwGd8PfkVTAdN`) bound
-a esta sesión. **Ya cumplió su tarea (todo lo que vigilaba está en 100%) y debe desactivarse** apenas se retome el
-trabajo, o reescribirse para el próximo libro si el usuario pide continuar con otro. Los dos Routines anteriores
-("Guiones Módulo 1", `trig_012D12TwgLtZAc2RFx7TkpyD`, y "Guiones Módulo 2 (Derma/Oftal)", `trig_01KpAxai5Pkqao3v2njSA4hD`)
-ya están desactivados.
+Existe un Routine "Reescritura calidad Ped/Gin/Ob/Cirugía · cada 5 h" (trigger `trig_013k6hvbStGdKTUNzUdZgf1V`) bound
+a esta sesión. **Ya cumplió su tarea (las 72 clases están reescritas y verificadas) y debe desactivarse** apenas se
+retome el trabajo, o reescribirse para lo que siga si el usuario pide continuar. Los Routines anteriores
+("Guiones Módulo 1" `trig_012D12TwgLtZAc2RFx7TkpyD`, "Guiones Módulo 2 (Derma/Oftal)" `trig_01KpAxai5Pkqao3v2njSA4hD`,
+"Guiones Módulo 3/4 (Gine/Pedia/SaludPub)" `trig_016jfQXiWLsXwGd8PfkVTAdN`) ya están desactivados.
+
+## Antes de escribir más clases nuevas
+Si se retoma con otorrino/traumatología/urología/psiquiatría u otro libro nuevo, aplicar desde el principio el
+estándar de voz "tú" + `d`≤10 palabras que costó una reescritura completa corregir acá — no asumir que "pasa el
+checker" implica que cumple el estilo; el checker no valida ni el tono ni el largo del texto en pantalla. Correr
+manualmente el conteo de palabras en `t`/`d` y buscar "debe/deben/se debe/ustedes" en los campos `say` antes de
+dar por buena una clase nueva.

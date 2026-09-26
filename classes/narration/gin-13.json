@@ -2,263 +2,275 @@
   "id": "gin-13",
   "title": "Ginecologia 20.13: Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
   "specialty": "Ginecología",
-  "chars": 12114,
+  "chars": 11356,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre cáncer cervicouterino y patología preinvasora del cuello uterino, una de las garantías explícitas en salud más trascendentes de nuestro país y un tópico estelar del examen EUNACOM. En esta sesión dominaremos las pautas de tamizaje con Papanicolaou, conoceremos los genotipos oncogénicos del virus del papiloma humano, interpretaremos la conducta ante informes del sistema Bethesda, revisaremos la vacunación profiláctica y fijaremos la frontera quirúrgica infranqueable entre la cirugía radical y la quimiorradioterapia. Comencemos."
+      "text": "Bienvenido a la clase de hoy. Vamos a ver el cáncer cervicouterino, las lesiones que lo preceden y la colposcopía, uno de los temas de mayor rentabilidad del examen. Vas a aprender a leer un Papanicolau alterado, a saber cuándo corresponde biopsiar, y a entender por qué hay un punto exacto en que la cirugía deja de ser la respuesta correcta. Empecemos por el virus que está detrás de casi todos los casos."
     },
     {
       "file": "s01_g00",
-      "text": "El cáncer de cuello uterino es provocado de forma prácticamente universal por la infección persistente por genotipos de alto riesgo del virus del papiloma humano. Al integrarse al genoma celular del hospedero, el virus expresa continuamente las oncoproteínas carcinogénicas E seis y E siete, las cuales degradan e inactivan a los genes supresores tumorales maestros p cincuenta y tres y proteína del retinoblastoma."
+      "text": "Todo parte de una infección: el virus papiloma humano. Fíjate que no cualquier serotipo importa igual. Los que te tienes que aprender son el dieciséis y el dieciocho, porque juntos explican más de setenta de cada cien cánceres de cuello uterino."
     },
     {
       "file": "s01_g01",
-      "text": "Esta pérdida del control del ciclo celular origina una neoplasia intraepitelial que progresa lentamente durante diez a quince años desde lesiones de bajo grado hasta lesiones preinvasoras avanzadas. Si no se pesquisa oportunamente, las células tumorales rompen la membrana basal invadiendo el estroma vascular como carcinoma invasor."
+      "text": "Este virus no solo infecta: produce dos proteínas que hacen todo el daño. La E6 degrada la p cincuenta y tres, que es el gen que frena células dañadas. Y la E7 inactiva la proteína del retinoblastoma, que también frena la división celular. Con esas dos barreras caídas, la célula pierde el control."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Sin esos frenos, la célula acumula errores en su ADN y ya no los repara. Eso es la inestabilidad genómica, y es el paso que transforma una infección en una lesión precancerosa."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si esto se mantiene por años, sin que nadie lo detecte, llegas al cáncer cervicouterino. Y aquí está la buena noticia: este proceso es lento, toma años, y eso es justamente lo que hace posible el tamizaje que viene ahora."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Antes de seguir, un dato de prevención primaria: la vacuna nonavalente, que en Chile se da gratis en cuarto y quinto básico, previene la infección por los serotipos que más importan."
     },
     {
       "file": "s02_g00",
-      "text": "El inicio precoz de la actividad sexual coital antes de los dieciocho años expone un epitelio metaplásico inmaduro y biológicamente vulnerable a la infección persistente por genotipos oncogénicos del virus papiloma, especialmente ante múltiples parejas sexuales."
+      "text": "El primer pilar es el tamizaje poblacional. En Chile, toda mujer entre veinticinco y sesenta y cuatro años se hace un Papanicolau cada tres años. Y ese intervalo no es al azar: se eligió porque el cáncer tarda años en desarrollarse, así que tres años sigue detectando a tiempo."
     },
     {
       "file": "s02_g01",
-      "text": "El tabaquismo crónico actúa como un potente cofactor carcinogénico al concentrar nicotina e hidrocarburos en el moco cervical, duplicando el riesgo de progresión hacia lesiones de alto grado, un fenómeno que se agrava de manera crítica en mujeres con infección por el virus de inmunodeficiencia humana."
+      "text": "El otro método es el test de virus papiloma humano, que se usa desde los treinta años. Si sale negativo, el control se espera hasta cinco años, porque es más sensible que el Papanicolau y permite espaciar más los controles."
     },
     {
       "file": "s02_g02",
-      "text": "En Chile la vacuna contra el virus del papiloma humano se administra de manera sistemática y gratuita a escolares de cuarto y quinto año básico de ambos sexos antes del inicio de la vida sexual."
-    },
-    {
-      "file": "s02_g03",
-      "text": "Es crítico recordar que la vacuna es estrictamente profiláctica e induce inmunidad humoral neutralizante frente a nuevos contactos, careciendo por completo de efecto curativo sobre displasias preexistentes."
+      "text": "Y antes del tamizaje está la vacuna nonavalente, gratuita para escolares de cuarto y quinto básico. Vacuna y tamizaje trabajan en momentos distintos: una previene la infección, el otro detecta la lesión ya instalada."
     },
     {
       "file": "s03_g00",
-      "text": "En Chile la garantía explícita en salud número tres establece formalmente que el programa de tamizaje universal del cáncer cervicouterino está dirigido a toda mujer asintomática entre los veinticinco y los sesenta y cuatro años de edad beneficiaria del sistema de salud."
+      "text": "Ahora, cómo se lee un Papanicolau alterado. El sistema Bethesda tiene varias categorías, y la primera que te tienes que aprender es el ASC-US: significa atipia de significado indeterminado, y es la alteración más frecuente de todas."
     },
     {
       "file": "s03_g01",
-      "text": "La periodicidad oficial establecida por las guías clínicas del Ministerio de Salud es de un examen de Papanicolaou cada tres años ininterrumpidos, una vez que la usuaria cuenta con dos exámenes anuales consecutivos previos informados como rigurosamente normales."
+      "text": "Un poco más grave es el ASC-H, donde no se puede descartar una lesión de alto grado. Fíjate en la diferencia: uno es indeterminado, el otro ya levanta sospecha."
     },
     {
       "file": "s03_g02",
-      "text": "Los genotipos dieciséis y dieciocho del virus papiloma humano son responsables de más del setenta por ciento de todos los carcinomas invasores en el mundo y están incluidos en las vacunas del programa nacional."
+      "text": "Después vienen las lesiones intraepiteliales. La de bajo grado, o NIE uno, es la infección misma por el virus, y en más de ochenta de cada cien casos regresiona sola en dos años. No te apures a tratarla."
     },
     {
       "file": "s03_g03",
-      "text": "En contraste, los genotipos virales seis y once son de bajo potencial oncogénico y son los causantes de nueve de cada diez condilomas acuminados vulvares y perianales benignos."
+      "text": "La de alto grado, NIE dos o NIE tres, es distinta: tiene alto riesgo de progresar a cáncer invasor, y esa es la que te obliga a actuar rápido."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si el informe habla de células glandulares atípicas, o de sospecha de invasión, no hay margen de duda: se deriva de inmediato."
     },
     {
       "file": "s04_g00",
-      "text": "Ante un informe de células escamosas atípicas de significado indeterminado la conducta recomendada es repetir el Papanicolaou a los seis meses o tipificar el virus papiloma, derivando si persiste la alteración."
+      "text": "Con esa clasificación en la cabeza, vamos al algoritmo. Si tu paciente tiene un ASC-US o una lesión de bajo grado, y tiene más de treinta años, el siguiente paso es buscar el virus papiloma humano."
     },
     {
       "file": "s04_g01",
-      "text": "El informe de lesión intraepitelial de bajo grado refleja cambios virales transitorios o neoplasia intraepitelial grado uno y activa la derivación a la unidad de patología cervical para estudio colposcópico."
+      "text": "Y aquí viene un matiz que se pregunta: no cualquier virus de alto riesgo cambia la conducta de la misma forma. Si el positivo es el dieciséis o el dieciocho, vas directo a colposcopía. Pero si es otro genotipo de alto riesgo, con un Papanicolau normal, la conducta sigue siendo el control."
     },
     {
       "file": "s04_g02",
-      "text": "El hallazgo citológico de lesión intraepitelial escamosa de alto grado agrupa a la neoplasia intraepitelial grado dos y tres y al carcinoma in situ, con alto riesgo de invasión estromal oculta."
+      "text": "Entonces, si el test es negativo, o es un genotipo distinto con Papanicolau normal, controlas en seis a doce meses. Nada de colposcopía todavía."
     },
     {
       "file": "s04_g03",
-      "text": "Todo informe de lesión de alto grado impone la notificación inmediata de garantía GES y la derivación a la unidad de patología cervical para colposcopía y biopsia dirigida en menos de treinta días."
+      "text": "Si el test es positivo para dieciséis o dieciocho, ahí sí: colposcopía y biopsia."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Pero si el resultado ya viene como lesión de alto grado, ASC-H, o células glandulares atípicas, te saltas todo lo anterior."
+    },
+    {
+      "file": "s04_g05",
+      "text": "La derivación es inmediata, a la Unidad de Patología Cervical, con un plazo garantizado de menos de treinta días. Acuérdate de ese plazo, porque el GES lo exige y se pregunta seguido."
     },
     {
       "file": "s05_g00",
-      "text": "Al aplicar ácido acético al tres a cinco por ciento sobre el cuello uterino se deshidratan y coagulan las proteínas nucleares aumentadas, observándose un epitelio blanco denso, opaco y con márgenes sobreelevados en aquellas áreas con alta densidad celular y atipia tumoral."
+      "text": "Con la biopsia confirmando NIE dos o NIE tres, el tratamiento es la conización cervical, ya sea con asa eléctrica, la LEEP, o con bisturí, el cono frío."
     },
     {
       "file": "s05_g01",
-      "text": "Al pincelar con solución de Lugol, el epitelio normal capta el yodo tornándose marrón caoba, mientras que las lesiones neoplásicas carecen de glucógeno y se aprecian como zonas yodonegativas claras."
+      "text": "Y ojo con esto: la conización no solo diagnostica, también cura, siempre que los márgenes queden libres de lesión."
     },
     {
       "file": "s05_g02",
-      "text": "La presencia de un mosaico vascular grueso o punteados dilatados irregulares refleja una angiogénesis anómala de alto grado que orienta el sitio exacto donde debe tomarse la biopsia con pinza."
+      "text": "¿Y cómo ve el especialista la lesión antes de biopsiar? Con ácido acético, que marca las zonas sospechosas de un blanco denso."
     },
     {
       "file": "s05_g03",
-      "text": "La toma de biopsia dirigida bajo visión colposcópica magnificada es el estándar confirmatorio irremplazable que define formalmente la profundidad y el grado histológico de la lesión."
+      "text": "Y con el test de Schiller, usando lugol: la zona alterada no se tiñe, mientras que el tejido sano sí capta el yodo."
     },
     {
       "file": "s06_g00",
-      "text": "La neoplasia intraepitelial grado uno tiene una tasa de regresión espontánea superior al sesenta por ciento en mujeres jóvenes, mediada por la respuesta inmune contra el virus."
+      "text": "Pasemos al cáncer ya instalado. El síntoma más clásico, y el que más se pregunta, es la sinusorragia: un sangrado que aparece después de la relación sexual."
     },
     {
       "file": "s06_g01",
-      "text": "La conducta de elección es el seguimiento periódico con citología y colposcopía, reservando tratamientos ablativos como crioterapia únicamente ante persistencia documentada por más de dos años."
+      "text": "También puede aparecer una leucorrea con mal olor, que los libros describen como agua de lavar carne. Fíjate en esa imagen, porque aparece literal en los enunciados."
     },
     {
       "file": "s06_g02",
-      "text": "Las lesiones de grado dos y tres exigen tratamiento quirúrgico conservador mediante conización cervical con asa de radiofrecuencia o cono frío para resecar íntegramente la zona de transformación."
-    },
-    {
-      "file": "s06_g03",
-      "text": "La conización cervical cumple un doble propósito asistencial irremplazable: descarta definitivamente la presencia de focos de microinvasión estromal oculta en el tejido y cura la neoplasia preinvasora al obtener bordes quirúrgicos libres de lesión."
+      "text": "Al examen con espéculo vas a encontrar una masa que sangra fácil al tocarla, o una úlcera en el cuello. Con esa imagen, no hay que dudar: se biopsia directo."
     },
     {
       "file": "s07_g00",
-      "text": "La complicación obstétrica más relevante de la conización cervical profunda es la incompetencia cervical, la cual eleva el riesgo de abortos de segundo trimestre y partos prematuros en embarazos posteriores."
+      "text": "Ahora la parte que más se pregunta de toda la clase: la etapificación FIGO y su punto de quiebre. Mientras el tumor está confinado al cuello, o invade la vagina sin tocar el parametrio, estás en un estadio precoz."
     },
     {
       "file": "s07_g01",
-      "text": "A nivel ginecológico puede originar estenosis del orificio cervical con hematómetra y dismenorrea severa, además de dificultar la visualización de la zona de transformación en controles futuros."
+      "text": "Ahí el tratamiento es quirúrgico: la histerectomía radical con linfadenectomía pélvica, la operación de Wertheim-Meigs."
     },
     {
       "file": "s07_g02",
-      "text": "Toda paciente sometida a conización debe ser controlada estrictamente a los seis meses con Papanicolaou y colposcopía para asegurar la erradicación completa de la neoplasia y vigilar recidivas."
+      "text": "Pero apenas el tumor invade el parametrio, estás en el estadio dos B en adelante, y todo cambia."
     },
     {
       "file": "s07_g03",
-      "text": "Si el informe patológico revela que el margen endocervical se encuentra comprometido por displasia grave, se debe programar una reconización quirúrgica para descartar adenocarcinoma invasor oculto."
+      "text": "El tratamiento ya no es cirugía: es quimiorradioterapia, con cisplatino semanal, radioterapia externa y braquiterapia."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y aquí está la trampa clásica: operar a una paciente con parametrios invadidos. No se hace, porque no vas a lograr bordes libres, y solo agregas complicaciones sin ganar sobrevida. Guarda esta idea: el parametrio es la frontera entre operar y no operar."
     },
     {
       "file": "s08_g00",
-      "text": "En el estadio uno el tumor está estrictamente limitado al cuello uterino. Si el diámetro es menor a cuatro centímetros la cirugía de elección es la histerectomía radical con linfadenectomía pélvica."
+      "text": "Ahora juntemos todo el razonamiento, desde el PAP alterado hasta la decisión final, en un solo árbol. Paciente con un Papanicolau alterado. La categoría de Bethesda es lo que abre el árbol de decisión completo."
     },
     {
       "file": "s08_g01",
-      "text": "La operación radical de Wertheim Meigs extirpa el cuerpo y cuello uterino junto a los parametrios mediales, el manguito vaginal superior y los ganglios linfáticos pélvicos bilaterales, alcanzando excelentes tasas de sobrevida y curación oncológica definitiva cuando se logran márgenes histológicos completamente libres de tumor."
+      "text": "Con ASC-US o lesión de bajo grado, el paso es buscar el virus. Pero solo el dieciséis y el dieciocho, positivos, adelantan la colposcopía."
     },
     {
       "file": "s08_g02",
-      "text": "Cuando el tumor se extiende lateralmente e invade los tejidos parametrios al tacto rectovaginal, la paciente se clasifica en estadio dos B de la Federación Internacional de Ginecología y Obstetricia."
+      "text": "Si el test es negativo, o es otro genotipo de alto riesgo con Papanicolau normal, controlas en seis a doce meses."
     },
     {
       "file": "s08_g03",
-      "text": "Graben esta regla de oro: invadido el parametrio la cirugía está absolutamente contraindicada; el tratamiento curativo estándar indiscutible es la quimiorradioterapia concomitante con cisplatino semanal."
+      "text": "Con dieciséis o dieciocho positivo, colposcopía y biopsia."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Con lesión de alto grado, ASC-H, o células glandulares atípicas, te saltas el test de virus: la colposcopía es inmediata, con plazo GES de menos de treinta días."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si la biopsia confirma NIE dos o NIE tres, el tratamiento es la conización, con asa eléctrica o con bisturí."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si la biopsia ya muestra cáncer invasor, todo depende de si el tumor tocó el parametrio."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Sin invasión del parametrio, cirugía radical: histerectomía con linfadenectomía pélvica."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Con el parametrio invadido, quimiorradioterapia con cisplatino, radioterapia y braquiterapia. Operar ahí es la trampa clásica del tema."
     },
     {
       "file": "s09_g00",
-      "text": "El estadio uno A uno es microinvasor y se resuelve conservadoramente con cono cervical si desea fertilidad o histerectomía simple."
+      "text": "Repasemos las trampas. ASC-US en una mayor de treinta: se pide el test de VPH, no una colposcopía de entrada."
     },
     {
       "file": "s09_g01",
-      "text": "El estadio uno B tiene tumor clínicamente visible pero confinado al cérvix, tratándose con cirugía radical de Wertheim Meigs."
+      "text": "Si el VPH es positivo pero no es dieciséis ni dieciocho, y el Papanicolau es normal, se controla, no se deriva de inmediato."
     },
     {
       "file": "s09_g02",
-      "text": "En el estadio dos B hay invasión de parametrios; la cirugía queda prohibida y se aplica quimiorradioterapia con cisplatino."
+      "text": "Con lesión de alto grado, ASC-H, o células glandulares atípicas, la colposcopía es inmediata. Repetir el PAP solo retrasa el diagnóstico."
     },
     {
       "file": "s09_g03",
-      "text": "En estadios avanzados con hidronefrosis o metástasis distantes se indica quimiorradioterapia extendida o quimioterapia sistémica."
+      "text": "NIE dos o NIE tres se trata con conización. Ir directo a una histerectomía es un exceso terapéutico."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y desde el estadio dos B en adelante, quimiorradioterapia. Operar ahí es la trampa más clásica de todo el tema."
     },
     {
       "file": "s10_g00",
-      "text": "Iniciamos el abordaje clasificando el resultado citológico según el sistema Bethesda."
+      "text": "Vamos con un caso. Mujer de cuarenta y seis años, en control de salud sexual, que cuenta un sangrado escaso después de las relaciones sexuales desde hace dos meses. Su último Papanicolau, hace ocho meses, fue normal. Al examen con espéculo se ve una lesión que sangra fácil al tocarla, de un centímetro y medio, en el labio anterior del cuello uterino."
     },
     {
       "file": "s10_g01",
-      "text": "Ante lesión de alto grado notificamos GES y derivamos de inmediato para colposcopía y biopsia dirigida."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Indicamos conización cervical con asa de radiofrecuencia para resecar la lesión con márgenes libres."
+      "text": "Tienes cinco opciones: repetir el Papanicolau ahora, hacer colposcopía con biopsia dirigida, pedir la tipificación del virus papiloma humano, dar antibióticos y controlar en un mes, o programar una histerectomía sin biopsia previa. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Evaluamos mediante tacto rectovaginal si existe compromiso de los tejidos parametrales."
-    },
-    {
-      "file": "s10_g04",
-      "text": "Si los parametrios están libres realizamos histerectomía radical con linfadenectomía pélvica."
-    },
-    {
-      "file": "s10_g05",
-      "text": "Ante invasión parametrial la cirugía está contraindicada e indicamos quimiorradioterapia curativa."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Si el Papanicolaou resulta normal citamos a nuevo control en tres años dentro del programa de tamizaje."
+      "text": "Es la B. Fíjate que aquí ya hay una lesión visible, así que el Papanicolau ya no aporta nada: cuando ves la lesión, biopsias directo, en la misma colposcopía. La tipificación de virus no cambia nada frente a una lesión que ya se ve. Y operar sin biopsia previa, sin saber si es invasor o qué tan invasor, es un error grave."
     },
     {
       "file": "s11_g00",
-      "text": "Mujer de treinta y cuatro años asintomática con informe de Papanicolaou que demuestra lesión intraepitelial escamosa de alto grado y cuello macroscópicamente sano."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Mujer de treinta y cuatro años, con la vacuna contra el VPH completa, se realiza un Papanicolau, que sale normal, sin atipías, y una prueba de VPH que resulta positiva para un serotipo de alto riesgo, el cincuenta y seis."
     },
     {
       "file": "s11_g01",
-      "text": "De acuerdo con las guías del MINSAL y el protocolo GES, ¿cuál es la conducta inmediata que debe adoptar el médico?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "La opción A propone repetir el PAP en seis meses. La B notificar GES y derivar de inmediato a patología cervical para colposcopía y biopsia dirigida. La C óvulos vaginales. La D histerectomía laparoscópica inmediata. La E vacuna contra el virus. Piénsalo."
+      "text": "Las opciones: reforzar la vacuna, controlar el PAP en un año, hacer colposcopía, repetir el PAP ahora mismo, o hacer una conización cervical. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta correcta es la B. Toda lesión de alto grado debe notificarse por GES y derivarse a colposcopía y biopsia dirigida en menos de treinta días."
+      "text": "Es la B. Este es justo el matiz que vimos: el dieciséis y el dieciocho van directo a colposcopía si salen positivos, pero el cincuenta y seis es otro genotipo de alto riesgo, y con el Papanicolau normal, la conducta es controlar en un año, no derivar de inmediato."
     },
     {
       "file": "s12_g00",
-      "text": "Mujer de cuarenta y nueve años con carcinoma epidermoide invasor de cuatro centímetros con invasión de parametrio izquierdo al tacto rectovaginal en estadio dos B."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y cinco años, con un hijo, se hace un Papanicolau de control que informa atipia escamosa de significado indeterminado, un ASC-US. Su especuloscopía es normal."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento oncológico de elección indicado para esta paciente?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "La opción A propone histerectomía radical de Wertheim Meigs. La B conización cervical. La C quimiorradioterapia concomitante con cisplatino semanal. La D histerectomía simple. La E cuidados paliativos exclusivos. Piénsalo."
+      "text": "Las opciones: colposcopía y biopsia, pedir la prueba de VPH, hacer diatermocoagulación, hacer histerectomía, o biopsiar el endometrio. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta correcta es la C. La invasión de parametrios contraindica la cirugía; el tratamiento de elección es la quimiorradioterapia concomitante definitiva."
+      "text": "Es la B. Con un ASC-US, el paso siguiente es buscar el virus, no ir directo a colposcopía. Si el test sale positivo para un genotipo de alto riesgo, ahí recién se deriva a colposcopía y biopsia. Sin esa prueba de por medio, todas las demás opciones se adelantan al paso que corresponde."
     },
     {
       "file": "s13_g00",
-      "text": "Pregunta epidemiológica sobre las normas ministeriales chilenas del programa de detección precoz del cáncer cervicouterino."
+      "text": "Una más, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veinticinco años, con inicio sexual a los catorce años y múltiples parejas sin métodos de barrera, se hace un Papanicolau que informa lesión de alto grado. Además, la tipificación del virus muestra un serotipo de bajo grado."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la edad y periodicidad del tamizaje poblacional universal garantizado por el régimen GES mediante Papanicolaou?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "La opción A propone examen anual desde el inicio sexual hasta los ochenta años. La B cada tres años en mujeres de veinticinco a sesenta y cuatro años. La C cada cinco años. La D semestral. La E una única vez en la vida. Piénsalo."
+      "text": "Las opciones: repetir el PAP en seis meses, repetirlo en seis años, hacer colposcopía y eventual biopsia, hacer conización, o hacer histerectomía. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta correcta es la B. La garantía explícita en salud cubre el tamizaje con Papanicolaou cada tres años en mujeres entre veinticinco y sesenta y cuatro años."
+      "text": "Es la C. Fíjate en la trampa: el resultado del virus es de bajo grado, pero eso no importa aquí, porque el Papanicolau ya viene como lesión de alto grado. Y un Papanicolau de alto grado siempre va a colposcopía y biopsia, sin que la tipificación del virus cambie nada."
     },
     {
       "file": "s14_g00",
-      "text": "Pregunta sobre la biología molecular y virología de los virus de papiloma humano vinculados al desarrollo de neoplasias malignas cervicales."
+      "text": "Cerremos con las reglas de oro. El Papanicolau se hace cada tres años, entre los veinticinco y los sesenta y cuatro."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuáles son los dos genotipos oncogénicos de alto riesgo responsables de más del setenta por ciento de los carcinomas de cuello uterino?"
+      "text": "Y solo el dieciséis y el dieciocho, con Papanicolau alterado, van directo a colposcopía. Los demás genotipos, con Papanicolau normal, se controlan."
     },
     {
       "file": "s14_g02",
-      "text": "La opción A propone genotipos seis y once. La B genotipos dieciséis y dieciocho. La C genotipos uno y dos. La D cuarenta y dos y cuarenta y tres. La E cinco y ocho. Piénsalo."
+      "text": "El NIE dos y el NIE tres se tratan con conización, y los márgenes libres son los que confirman la cura."
     },
     {
       "file": "s14_g03",
-      "text": "La respuesta correcta es la B. Los genotipos virales dieciséis y dieciocho causan más del setenta por ciento de los carcinomas cervicales invasores."
+      "text": "Sin invasión del parametrio, cirugía radical."
     },
     {
-      "file": "s15_g00",
-      "text": "El tamizaje con Papanicolaou se realiza de forma trienal entre los veinticinco y sesenta y cuatro años de edad garantizado por el régimen de salud."
-    },
-    {
-      "file": "s15_g01",
-      "text": "Cualquier reporte de lesión escamosa de alto grado exige notificación GES y derivación urgente a colposcopía sin perder tiempo repitiendo el examen citológico."
-    },
-    {
-      "file": "s15_g02",
-      "text": "Los genotipos virales dieciséis y dieciocho causan la gran mayoría de los carcinomas invasores, mientras que seis y once producen verrugas genitales benignas."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La neoplasia intraepitelial grado dos y tres se resuelve mediante conización cervical diagnóstica y terapéutica con márgenes histológicos libres."
-    },
-    {
-      "file": "s15_g04",
-      "text": "El tratamiento quirúrgico radical se reserva para tumores menores a cuatro centímetros estrictamente confinados al cuello con parametrios indemnes."
-    },
-    {
-      "file": "s15_g05",
-      "text": "La invasión parametrial prohíbe la histerectomía radical. Si te llevas una sola idea de hoy: en cáncer cervicouterino, el compromiso de parametrios marca el límite entre la cirugía primaria y la radioquimioterapia concomitante definitiva. Nos vemos en la próxima clase."
+      "file": "s14_g04",
+      "text": "Con parametrio invadido, quimiorradioterapia, y la cirugía queda contraindicada. Si te llevas una sola idea de hoy: el parametrio es la frontera entre operar y no operar. Nos vemos en la próxima clase."
     }
   ]
 }

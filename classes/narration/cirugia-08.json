@@ -2,231 +2,195 @@
   "id": "cirugia-08",
   "title": "Cirugia 11.8: Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
   "specialty": "Cirugía General",
-  "chars": 10058,
+  "chars": 7907,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase de patología pilonidal, hidrosadenitis supurativa y tumores de partes blandas. Aunque muchas veces se consideran patologías menores, en el EUNACOM se evalúan con frecuencia dos decisiones críticas: distinguir cuándo un absceso pilonidal exige drenaje simple inmediato en lugar de una resección amplia, y reconocer las banderas rojas de un sarcoma de partes blandas para no cometer el error de extirparlo a ciegas en atención primaria. Vamos a dominar estos conceptos."
+      "text": "Hoy vemos tres cosas que se ven mucho en la práctica: la enfermedad pilonidal, la hidrosadenitis, y los tumores de partes blandas. Y aquí la idea central es una sola: aprender a distinguir lo que se resuelve con una simple incisión de lo que nunca debes tocar sin antes pedir una imagen. Vamos por partes."
     },
     {
       "file": "s01_g00",
-      "text": "La enfermedad pilonidal no es una malformación congénita, sino un cuadro adquirido. Ocurre típicamente en hombres jóvenes con abundante vello corporal y actividades sedentarias. El roce continuo y la presión sobre el surco interglúteo fuerzan a los pelos sueltos a penetrar en los orificios foliculares dilatados de la línea media sacrococcígea."
+      "text": "Todo empieza cuando un pelo se invagina en un folículo dilatado del surco interglúteo, cerca del cóccix. Es típico del adulto joven, hirsuto, con algo de sobrepeso."
     },
     {
       "file": "s01_g01",
-      "text": "La presencia de queratina y pelos en la dermis desencadena un granuloma a cuerpo extraño. Cuando la microbiota cutánea coloniza esta cavidad cerrada, se produce una supuración aguda. El paciente consulta por una masa intensamente dolorosa, eritematosa, caliente y fluctuante en el pliegue interglúteo, a pocos centímetros del ano."
+      "text": "La fricción de estar sentado mucho tiempo, el sudor y el vello abundante favorecen que ese pelo se siga metiendo."
     },
     {
       "file": "s01_g02",
-      "text": "Frente al absceso pilonidal agudo, la regla de oro que siempre pregunta el EUNACOM es el drenaje quirúrgico simple de urgencia bajo anestesia local. Está prohibido intentar una resección amplia en este momento de infección activa. Solo se incide, se evacua el pus y se curetean los nidos de pelos."
+      "text": "Cuando esto se infecta, tienes un absceso pilonidal: masa dolorosa, fluctuante y caliente. Y aquí va la conducta de urgencia: drenaje simple, con una incisión lateralizada, no en la línea media, más curetaje para sacar los mechones de pelo. Nada de resección amplia mientras está infectado."
     },
     {
       "file": "s01_g03",
-      "text": "Tras el drenaje agudo o tras una rotura espontánea, el cuadro pasa a una fase crónica. Se observan orificios puntiformes en la línea media con secreción serosanguinolenta persistente. La extirpación definitiva del trayecto fistuloso se planifica de manera electiva semanas más tarde, con la piel sana, ya sea mediante cierre por segunda intención o colgajos locales."
+      "text": "Si no se infecta, o después de drenado, puede quedar un seno crónico: uno o varios orificios puntiformes con secreción intermitente y pelos visibles."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el tratamiento definitivo de ese seno crónico es la resección quirúrgica completa, pero programada, en frío, nunca durante la infección activa, porque la herida se abre y se infecta de nuevo."
     },
     {
       "file": "s02_g00",
-      "text": "El absceso pilonidal se presenta con dolor pulsátil intenso, aumento de volumen eritematoso y fluctuación franca en la región sacrococcígea, sin compromiso del esfínter anal."
+      "text": "La hidrosadenitis compromete las glándulas sudoríparas apocrinas, así que aparece en axilas, ingles, periné y bajo las mamas, con nódulos dolorosos que se hacen abscesos y fístulas."
     },
     {
       "file": "s02_g01",
-      "text": "El tratamiento es siempre el drenaje quirúrgico inmediato. No des antibióticos solos esperando que se reabsorba. Una incisión longitudinal simple, retiro de pelos y curaciones diarias resuelven la urgencia."
+      "text": "El tabaco es el principal desencadenante, y dejarlo es tan parte del tratamiento como cualquier fármaco."
     },
     {
       "file": "s02_g02",
-      "text": "Nunca realices una resección radical con colgajos en el episodio agudo infectado. Eso condena al paciente a dehiscencia masiva de la herida, infección severa y recidiva."
+      "text": "El manejo médico usa doxiciclina, o la combinación de clindamicina con rifampicina en los brotes, y en casos más severos se llega a terapia biológica anti factor de necrosis tumoral."
     },
     {
       "file": "s02_g03",
-      "text": "En la fase crónica destacan los hoyuelos o pits en la línea media y a veces orificios secundarios laterales por donde asoman pelos y secreción recurrente que mancha la ropa interior."
-    },
-    {
-      "file": "s02_g04",
-      "text": "La cirugía definitiva se realiza con el tejido desinflamado. Se reseca todo el trayecto fibroso hasta la fascia presacra. Se puede dejar cicatrizar por segunda intención o usar técnicas de colgajo como el de Limberg."
-    },
-    {
-      "file": "s02_g05",
-      "text": "La principal medida médica para evitar que la enfermedad reaparezca tras la cirugía es mantener la zona interglútea completamente depilada de por vida y extremar el secado del surco."
+      "text": "La cirugía queda para los trayectos ya crónicos y organizados: destechar el trayecto o extirpar el tejido glandular comprometido."
     },
     {
       "file": "s03_g00",
-      "text": "La hidrosadenitis supurativa es una enfermedad inflamatoria crónica del epitelio folicular en regiones ricas en glándulas apocrinas. Compromete axilas e ingles en forma bilateral y recidivante."
+      "text": "La mayoría de las masas de partes blandas que ves en la práctica son benignas, y se distinguen con el examen físico."
     },
     {
       "file": "s03_g01",
-      "text": "Comienza con nódulos subcutáneos inflamatorios que evolucionan a abscesos recurrentes, fístulas que drenan material fétido, comedones abiertos dobles y puentes cicatrizales fibrosos."
+      "text": "El lipoma es el tumor benigno más común: blando, lobulado, móvil, y se resbala bajo tus dedos al palparlo."
     },
     {
       "file": "s03_g02",
-      "text": "Se estratifica con la escala de Hurley. El estadio uno tiene nódulos aislados sin fístulas. El estadio dos presenta fístulas y cicatrices separadas. El estadio tres compromete toda el área con cordones fibrosos interconectados."
+      "text": "El quiste epidérmico tiene un poro central visible, pegado a la piel. Ojo con esto: si al operarlo se rompe la cápsula, casi siempre recidiva. Y si está infectado, primero drenas, y recién después, ya frío, sacas la cápsula completa."
     },
     {
       "file": "s03_g03",
-      "text": "El tabaquismo y el sobrepeso son desencadenantes fundamentales. La suspensión estricta del tabaco es obligatoria desde la primera consulta médica."
+      "text": "Pero antes de decidir cualquier cirugía, hazte estas preguntas: ¿mide más de cinco centímetros, está profunda, bajo la fascia o el músculo, creció rápido en semanas, o está fija a un plano profundo? Cualquiera de estas es una bandera roja de sarcoma."
     },
     {
       "file": "s03_g04",
-      "text": "En formas leves se usa clindamicina tópica al uno por ciento. En cuadros moderados se indican tetraciclinas orales como doxiciclina o la combinación de rifampicina con clindamicina por diez semanas. En casos severos refractarios se utiliza adalimumab."
+      "text": "Con una sola bandera roja, está formalmente prohibida la resección marginal a ciegas. Lo primero es una resonancia magnética con contraste, para ver cuánto se extiende."
     },
     {
       "file": "s03_g05",
-      "text": "El drenaje simple solo alivia la tensión momentánea pero no cura. En casos avanzados con fístulas fijas se realiza destechamiento quirúrgico o exéresis completa de la piel axilar comprometida."
+      "text": "Y después derivas a un centro oncológico para una biopsia con aguja gruesa, planificada en el mismo eje que va a usar la cirugía definitiva. Operar a ciegas antes de esto contamina los planos musculares y empeora el pronóstico."
     },
     {
       "file": "s04_g00",
-      "text": "El lipoma y el quiste son lesiones superficiales del tejido celular subcutáneo o de la dermis. El sarcoma, en cambio, nace profundo respecto a la fascia muscular."
+      "text": "Ahora pongamos todo esto en un solo árbol de decisión. Un paciente llega con un bulto o un absceso. Antes de decidir la conducta, ubica dónde está y cómo se ve."
     },
     {
       "file": "s04_g01",
-      "text": "Al palpar, el lipoma es blando y resbala fácilmente bajo los dedos. El quiste es elástico y esférico. El sarcoma suele ser duro, firme y fijo a las masas musculares o al hueso."
+      "text": "La ubicación cambia por completo lo que sigue."
     },
     {
       "file": "s04_g02",
-      "text": "El quiste epidérmico tiene casi siempre un pequeño orificio o poro central en la piel que lo cubre. El lipoma no altera la piel suprayacente."
+      "text": "Incisión lateralizada, fuera de la línea media, con curetaje de pelos. La resección amplia se difiere para cuando ceda la infección."
     },
     {
       "file": "s04_g03",
-      "text": "El diámetro es decisivo. Una masa de partes blandas mayor a cinco centímetros debe considerarse un sarcoma hasta que se demuestre lo contrario."
+      "text": "Enfermedad crónica de las glándulas apocrinas. El manejo inicial es médico, y la cirugía se reserva para trayectos ya organizados."
     },
     {
       "file": "s04_g04",
-      "text": "En el lipoma y el quiste realizas exéresis completa. Pero ante sospecha de sarcoma está terminantemente prohibido resecar en atención primaria. Se deriva de inmediato."
+      "text": "Con el examen físico ya distingues las dos lesiones benignas más frecuentes."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Tumor benigno más común de partes blandas, sin urgencia de resecarlo."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Si está infectado, drenar primero y resecar la cápsula íntegra ya sin inflamación, para evitar la recidiva."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Con cualquier bandera roja, está prohibida la resección a ciegas: primero resonancia magnética, y biopsia planificada en un centro oncológico."
     },
     {
       "file": "s05_g00",
-      "text": "El tamaño es el factor de alarma más importante. Una masa en muslo, glúteo o brazo que sobrepasa los cinco centímetros tiene alta probabilidad de malignidad mesenquimática."
+      "text": "Repasemos las trampas. Absceso pilonidal agudo: drenaje simple, lateralizado. Resecar todo el trayecto en plena infección es el error clásico."
     },
     {
       "file": "s05_g01",
-      "text": "Si le pides al paciente que contraiga el músculo y la lesión se torna inmóvil y queda atrapada en la profundidad, se trata de una masa subfascial."
+      "text": "Seno pilonidal crónico: resección electiva, cuando ya no hay infección activa."
     },
     {
       "file": "s05_g02",
-      "text": "Un lipoma suele tardar años en crecer lentamente sin molestar. El sarcoma suele presentar un aumento rápido de volumen, sensación de pesadez o dolor por invasión de estructuras vecinas."
+      "text": "Quiste epidérmico infectado: drenas primero, y la cápsula la sacas completa cuando ya bajó la inflamación."
     },
     {
       "file": "s05_g03",
-      "text": "Esta es la clásica trampa del EUNACOM: jamás programes una resección en el consultorio ante una masa mayor a cinco centímetros o profunda. Romper su pseudocápsula disemina el sarcoma y arruina la opción curativa."
-    },
-    {
-      "file": "s05_g04",
-      "text": "El examen imagenológico de primera línea ante sospecha de sarcoma es la resonancia magnética con contraste de la extremidad afectada, ya que define con precisión la anatomía neurovascular."
-    },
-    {
-      "file": "s05_g05",
-      "text": "La confirmación histológica se obtiene exclusivamente mediante biopsia con aguja gruesa Tru-Cut realizada por el equipo de oncología quirúrgica que hará el tratamiento definitivo."
+      "text": "Y una masa grande, profunda y de crecimiento rápido: resonancia y biopsia planificada. Resecarla en el policlínico, a ciegas, es el error más grave de todo el tema."
     },
     {
       "file": "s06_g00",
-      "text": "Comenzamos evaluando si hay signos inflamatorios agudos o si se trata de una tumefacción indolora."
+      "text": "Vamos con un caso. Hombre de veinticuatro años, con harto vello y algo de sobrepeso, con dos días de dolor y aumento de volumen en la zona sacrococcígea, que empeora al sentarse. En la línea interglútea hay una masa de tres centímetros, eritematosa, caliente y fluctuante, con un mechón de pelos saliendo por un orificio central."
     },
     {
       "file": "s06_g01",
-      "text": "Si hay una masa fluctuante y eritematosa en el pliegue sacrococcígeo, se trata de un absceso pilonidal agudo."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s06_g02",
-      "text": "El tratamiento es el drenaje simple bajo anestesia local en urgencias. Nunca reseques en bloque durante el cuadro agudo."
+      "text": "Tienes cinco opciones: resección amplia en bloque, antibióticos orales por diez días, drenaje quirúrgico simple con incisión lateralizada, resonancia magnética antes de decidir, u observación. Piénsalo."
     },
     {
       "file": "s06_g03",
-      "text": "Tras enfriar el cuadro, si queda una fístula crónica, se programa la resección electiva con piel sana."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si el cuadro es crónico, bilateral y compromete pliegues axilares o inguinales, sospechamos hidrosadenitis supurativa."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Indicamos suspensión del tabaco y terapia antibiótica prolongada combinada según el estadio de Hurley."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Los estadios con cicatrices severas requieren intervención quirúrgica reconstructiva especializada."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Si la masa es indolora, evaluamos si mide más de cinco centímetros, es profunda o crece rápidamente."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Ante cualquier bandera roja está proscrita la cirugía ambulatoria menor. Solicitamos resonancia magnética con contraste."
-    },
-    {
-      "file": "s06_g09",
-      "text": "El equipo oncológico realiza la biopsia percutánea y planifica la resección con márgenes amplios."
-    },
-    {
-      "file": "s06_g10",
-      "text": "Si es superficial, móvil y menor a cinco centímetros, se confirma ecográficamente y se programa enucleación electiva."
-    },
-    {
-      "file": "s06_g11",
-      "text": "Se realiza la exéresis en policlínico asegurando la extracción completa de la cápsula quística."
+      "text": "Es la C. El cuadro es un absceso pilonidal agudo, y la conducta de urgencia es drenarlo con una incisión lateralizada, más curetaje de los pelos retenidos. La resección amplia, la opción A, es la trampa: hacerla en plena infección aumenta el riesgo de que la herida no cicatrice bien. Esa resección definitiva se deja para más adelante, con el paciente ya sin inflamación."
     },
     {
       "file": "s07_g00",
-      "text": "Frente al absceso pilonidal fluctuante la respuesta correcta es drenar. No des antibióticos orales aislados y jamás intentes una resección radical de entrada."
+      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de veinte años, con aumento de volumen eritematoso y doloroso en la zona interglútea, cerca del cóccix. Al examen mide cinco centímetros, y tiene dos orificios negros en la piel cerca de la lesión."
     },
     {
       "file": "s07_g01",
-      "text": "Una masa grande de partes blandas profunda no se toca en atención primaria. La trampa habitual es ofrecer extirparla como si fuera un lipoma."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s07_g02",
-      "text": "En el quiste epidérmico, si solo exprimes la queratina dejando la cápsula, la lesión recidiva en pocos meses. La pared debe salir intacta."
+      "text": "Las opciones son: linfoma, sarcoma, quiste pilonidal, absceso anorrectal, o lipoma. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "En la hidrosadenitis supurativa inicial, incidir los nódulos no soluciona el problema y genera fístulas iatrogénicas. El tratamiento de base es médico."
+      "text": "Es la C, quiste pilonidal. La ubicación sacrococcígea, sobre la línea media, junto con esos orificios puntiformes, es la huella típica de la enfermedad pilonidal. El absceso anorrectal se ubica más cerca del ano, no tan arriba en la línea interglútea, y ni el linfoma ni el sarcoma dan esos orificios con pelos."
     },
     {
       "file": "s08_g00",
-      "text": "Analicemos esta pregunta oficial de diciembre de dos mil veinticuatro. Un paciente en buenas condiciones generales presenta un aumento de volumen interglúteo de dos centímetros, doloroso y fluctuante."
+      "text": "Y otra pregunta real, del EUNACOM de diciembre de dos mil veinticuatro. Paciente con un absceso interglúteo de dos centímetros, en buenas condiciones generales."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta inicial correcta?"
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas son: antibióticos orales solos, drenar quirúrgicamente la lesión, marsupialización inmediata o diferir a tres meses. Piénsalo."
+      "text": "Las opciones son: antibióticos exclusivos, drenar, marsupialización, solicitar cultivo antes de cualquier procedimiento, u observación. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta correcta es la B, drenar. Frente a un absceso pilonidal agudo fluctuante, la descompresión mecánica mediante incisión y drenaje es el único tratamiento que resuelve la infección aguda. La opción A y la D fallan porque los antibióticos no penetran la cavidad purulenta cerrada, y la opción C se reserva para tiempos electivos."
+      "text": "Es la B, drenar. Por pequeño que sea, un absceso pilonidal se drena siempre. Puedes sumar antibióticos, pero no los usas solos en lugar del drenaje. Y si este cuadro se repite, ahí recién planteas la extirpación completa del quiste, ya en frío."
     },
     {
       "file": "s09_g00",
-      "text": "Revisemos esta otra pregunta oficial de diciembre de dos mil veinticuatro. Un paciente joven consulta por un aumento de volumen blando, móvil y no adherido en el muslo, de tres centímetros de diámetro, indoloro y sin signos inflamatorios."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de dieciocho años, con un año de aumento de volumen progresivo en la cara anterior del muslo derecho, que hace poco se volvió doloroso. Al examen mide diez centímetros, es dura, no pétrea, y no compromete la piel."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el estudio inicial más apropiado?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las alternativas ofrecen: ecografía de partes blandas, resonancia magnética, tomografía computarizada, biopsia por congelación o radiografía simple. Piénsalo."
+      "text": "Las opciones son: resección y biopsia, observar evolución, solicitar ecografía de partes blandas, solicitar radiografía de fémur, o punción y drenaje. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta correcta es la A, ecografía de piel y partes blandas. Al ser una lesión pequeña menor a cinco centímetros, móvil y claramente superficial, la ecografía confirma su naturaleza lipomatosa sin requerir estudios de alto costo. La resonancia magnética de la alternativa B se reservaría si midiera más de cinco centímetros o fuera profunda."
+      "text": "Es la C. Con más de cinco centímetros y creciendo, esto ya es una bandera roja de sarcoma de partes blandas, y la regla es no tocarlo sin estudio. Lo ideal es la resonancia, pero si no está disponible, la ecografía al menos te separa lo benigno de lo sospechoso, antes de definir la biopsia y la cirugía. Operar directo, la opción A, es el error que el examen castiga."
     },
     {
       "file": "s10_g00",
-      "text": "Grábate esta regla: el absceso pilonidal agudo se drena de inmediato bajo anestesia local. La resección en bloque se realiza de forma electiva semanas después."
+      "text": "Cerremos con las reglas de oro. En fase aguda, drenaje simple y lateralizado; el trayecto crónico se reseca después, en frío."
     },
     {
       "file": "s10_g01",
-      "text": "La hidrosadenitis supurativa no se cura con drenajes locales repetidos. Requiere cese estricto del tabaco y terapia antibiótica combinada prolongada."
+      "text": "Y si una masa mide más de cinco centímetros, es profunda, crece rápido o está fija a un plano, primero resonancia, nunca resección a ciegas."
     },
     {
       "file": "s10_g02",
-      "text": "Para que un quiste epidérmico no recidive, debes resecar la cápsula completa intacta."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Si te llevas una sola idea de hoy: toda masa de partes blandas mayor a cinco centímetros o fija a planos profundos es un sarcoma hasta demostrar lo contrario. Está prohibido operarla en atención primaria: solicita resonancia y deriva a oncología. Nos vemos en la próxima clase."
+      "text": "Y para lo simple, te basta el examen físico: el lipoma se resbala bajo los dedos, y el quiste epidérmico tiene su poro central. Si te llevas una sola idea de hoy: pregúntate siempre si esa masa tiene alguna bandera roja antes de decidir si la tocas o la estudias primero. Nos vemos en la próxima clase."
     }
   ]
 }

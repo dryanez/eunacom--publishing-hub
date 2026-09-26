@@ -2,291 +2,243 @@
   "id": "ped-09",
   "title": "Pediatria 18.9: Síndrome Febril Agudo sin Foco en el Lactante: Estratificación según Edad, Criterios de Rochester y Manejo",
   "specialty": "Pediatría",
-  "chars": 12561,
+  "chars": 10568,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre síndrome febril agudo sin foco en el lactante, un desafío diagnóstico constante en el examen EUNACOM. Hoy aprenderemos a estratificar el riesgo según la edad, dominaremos el estudio séptico del neonato, aplicaremos los criterios de Rochester de uno a tres meses y fijaremos la conducta ante bacteriemia e infección urinaria oculta. Comencemos."
+      "text": "Bienvenido. Hoy vemos al lactante con fiebre sin foco, uno de los temas que más se pregunta en pediatría. Vas a aprender algo que te va a servir para siempre: en este tema, la edad manda. La misma fiebre significa cosas muy distintas según si el paciente tiene días o meses, y esa sola pregunta ordena todo lo que viene: qué exámenes pedir, si hospitalizas o si mandas a la casa, y qué antibiótico usar. Empecemos."
     },
     {
       "file": "s01_g00",
-      "text": "Los lactantes menores presentan una inmadurez marcada en la función de opsonización y fagocitosis, lo que facilita que microorganismos patógenos atraviesen las barreras mucosas y colonicen el torrente sanguíneo de manera asintomática."
+      "text": "Fíjate primero en el mecanismo. El sistema inmune de un recién nacido todavía no está entrenado, así que se defiende peor que el de un niño mayor frente a la misma bacteria."
     },
     {
       "file": "s01_g01",
-      "text": "La elevación térmica suele ser la única manifestación inicial de esta bacteriemia oculta, la cual, de no ser identificada precozmente, puede evolucionar con rapidez hacia siembras metastásicas graves como meningitis purulenta, artritis séptica o choque séptico fulminante."
+      "text": "Y encima, el cuerpo de un lactante pequeño no te avisa con claridad: puede tener una meningitis y no hacer rigidez de nuca, o una infección urinaria y no tener ningún síntoma que la delate."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Por eso, cuando ves a un lactante con fiebre y sin foco, lo que estás descartando es una infección bacteriana grave: bacteriemia, meningitis, infección urinaria o neumonía."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y aquí viene la idea central de la clase: ese riesgo no es igual a cualquier edad. Antes de los veintiocho días, el riesgo es tan alto que la conducta no se discute."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Entre los veintinueve y los noventa días, el riesgo baja, y además se puede medir con criterios clínicos y de laboratorio. Ese es el tramo que más se pregunta, y lo vemos enseguida."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y después de los tres meses, si el niño se ve bien, casi siempre es un virus. Ahí lo que tienes que cazar es una sola cosa escondida, que también vemos más adelante."
     },
     {
       "file": "s02_g00",
-      "text": "El síndrome febril sin foco corresponde a toda temperatura axilar igual o superior a treinta y ocho grados de menos de una semana de evolución, en que no encuentras ninguna causa tras un examen físico minucioso."
+      "text": "Antes de ver la conducta, fíjate en quién causa esto, porque también cambia con la edad. En el recién nacido, el culpable más frecuente es el estreptococo del grupo B, que adquiere durante el parto."
     },
     {
       "file": "s02_g01",
-      "text": "Si bien la gran mayoría corresponde a pródromos de infecciones virales autolimitadas, el objetivo primordial del médico es pesquisar oportunamente ese diez por ciento que alberga una infección bacteriana grave oculta."
+      "text": "Y junto a él, la E. coli y la Listeria. Estos tres son los que cubre el esquema de ampicilina más cefotaxima que ya vamos a ver."
     },
     {
       "file": "s02_g02",
-      "text": "No debe confundirse la fiebre aguda sin foco con la fiebre de origen desconocido, entidad que exige más de dos o tres semanas de fiebre comprobada sin diagnóstico tras un estudio hospitalario estructurado."
-    },
-    {
-      "file": "s02_g03",
-      "text": "El estudio de la fiebre prolongada se orienta hacia patologías no habituales como enfermedad de Kawasaki, artritis idiopática juvenil, tuberculosis, abscesos profundos o neoplasias hematológicas."
+      "text": "Entre uno y tres meses, se agregan dos actores nuevos: el neumococo y el meningococo. Guarda este dato, porque explica por qué el esquema antibiótico cambia un poco en este grupo si el paciente se hospitaliza."
     },
     {
       "file": "s03_g00",
-      "text": "En el neonato menor de veintiocho días los gérmenes predominantes son Streptococcus agalactiae del grupo B y Escherichia coli, ambos capaces de producir meningitis y bacteriemia fulminante."
+      "text": "Empecemos por el grupo de mayor riesgo. Si tienes un recién nacido de menos de veintiocho días con fiebre, se hospitaliza siempre, aunque lo veas tranquilo, reactivo y mamando bien."
     },
     {
       "file": "s03_g01",
-      "text": "Listeria monocytogenes también integra este espectro patogénico neonatal, justificando plenamente el uso empírico mandatorio de ampicilina para garantizar su erradicación."
+      "text": "Y ojo con la trampa: ningún examen normal ni el buen aspecto clínico te autorizan a mandarlo a la casa. En este grupo no existe el manejo ambulatorio."
     },
     {
       "file": "s03_g02",
-      "text": "Desde el segundo mes de vida la infección del tracto urinario por bacilos coliformes representa por lejos la causa bacteriana grave más frecuente en niños con fiebre sin foco evidente."
+      "text": "Le pides el estudio completo: hemograma, hemocultivos, orina obtenida por sondeo vesical, y punción lumbar para ver el líquido cefalorraquídeo."
     },
     {
       "file": "s03_g03",
-      "text": "Gracias a las vacunas conjugadas infantiles, la bacteriemia por neumococo y meningococo ha caído a mínimos históricos, pero continúan siendo patógenos temibles ante fiebre muy elevada."
+      "text": "La radiografía de tórax la agregas solo si tiene síntomas respiratorios."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y partes los antibióticos de inmediato, por vía endovenosa: ampicilina más cefotaxima. Esa combinación cubre a la listeria, al estreptococo del grupo B y a la E. coli, que son los culpables típicos de esta edad."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y guarda este dato para el examen: nunca ceftriaxona en el recién nacido, porque desplaza la bilirrubina de su transportador y puede producir kernicterus."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Y no basta con partir el tratamiento: a las cuarenta y ocho horas reevalúas con los resultados del urocultivo y del líquido cefalorraquídeo, y ajustas según lo que encuentres."
     },
     {
       "file": "s04_g00",
-      "text": "En el examen EUNACOM la regla es categórica: todo recién nacido menor de veintiocho días con fiebre axilar igual o superior a treinta y ocho grados se considera de alto riesgo y se hospitaliza de inmediato."
+      "text": "Pasemos al tramo que más se pregunta: de veintinueve a noventa días. Aquí ya no hospitalizas a todos por igual, porque el riesgo se puede medir con los criterios de Rochester."
     },
     {
       "file": "s04_g01",
-      "text": "El manejo ambulatorio expectante en un neonato con fiebre sin foco constituye una negligencia médica grave por la elevada mortalidad asociada a la sepsis neonatal no tratada."
+      "text": "Y aquí está la clave de toda esta parte: tiene que cumplir absolutamente todos los criterios, o no sirve. Si falla uno solo, ya no es de bajo riesgo. Veamos los dos grupos de criterios con calma."
     },
     {
       "file": "s04_g02",
-      "text": "El protocolo exige hemograma con recuento diferencial, reactantes de fase aguda y toma rigurosa de dos frascos de hemocultivos obtenidos por punciones venosas independientes."
+      "text": "Si cumple absolutamente todo, el manejo es ambulatorio: antipiréticos y un control presencial obligatorio a las veinticuatro horas. No es un alta sin más: es un alta vigilada."
     },
     {
       "file": "s04_g03",
-      "text": "Es imperativo realizar punción lumbar para análisis citoquímico y cultivo de líquido cefalorraquídeo, y recolectar orina mediante sonda vesical estéril antes de iniciar antibióticos endovenosos."
+      "text": "Pero si falla un solo criterio, se hospitaliza y se estudia igual que al grupo de mayor riesgo: punción lumbar, hemocultivos, orina por sondeo, y antibióticos empíricos. Esa diferencia, todo o nada, es justo lo que más te van a preguntar."
     },
     {
       "file": "s05_g00",
-      "text": "La ampicilina endovenosa garantiza una cobertura bactericida óptima contra Listeria monocytogenes y estreptococo del grupo B, microorganismos resistentes a todas las cefalosporinas."
+      "text": "Del lado clínico, tienes que verlo alerta, reactivo y que se consuele al tomarlo en brazos. Además, tiene que haber nacido de término y no haber estado hospitalizado ni haber recibido antibióticos antes."
     },
     {
       "file": "s05_g01",
-      "text": "Se asocia cefotaxima endovenosa para erradicar enterobacterias como Escherichia coli con excelente paso a través de la barrera hematoencefálica hacia el espacio subaracnoideo."
+      "text": "Y al examinarlo, no puede tener ningún foco visible: ni en la piel, ni en el oído, ni en una articulación. Si hay algo de esto, ya sabes de dónde viene la fiebre y dejas de aplicar Rochester."
     },
     {
       "file": "s05_g02",
-      "text": "La ceftriaxona está terminantemente contraindicada en menores de veintiocho días porque desplaza a la bilirrubina no conjugada de la albúmina, gatillando encefalopatía bilirrubínica o kernicterus."
+      "text": "Del lado del laboratorio, le pides un hemograma: los glóbulos blancos tienen que estar entre cinco mil y quince mil, y las formas inmaduras, los baciliformes, tienen que ser pocas."
     },
     {
       "file": "s05_g03",
-      "text": "Además, la ceftriaxona forma cristales insolubles irreversibles con el calcio presente en infusiones parenterales neonatales, provocando embolias microvasculares letales en parénquima pulmonar y renal."
+      "text": "Y la orina tiene que mostrar pocos glóbulos blancos por campo. Ahora sí, con estos dos grupos completos, vuelve al árbol: si falla cualquiera de ellos, se trata como alto riesgo."
     },
     {
       "file": "s06_g00",
-      "text": "El paciente debe haber nacido a término, sin hospitalizaciones previas, sin uso reciente de antibióticos y sin enfermedades crónicas subyacentes que aumenten su susceptibilidad."
+      "text": "Pasado los tres meses, si el niño se ve bien, la inmensa mayoría de estas fiebres son virosis autolimitadas. Pero hay una causa bacteriana que se esconde y que tienes que buscar siempre: la infección urinaria."
     },
     {
       "file": "s06_g01",
-      "text": "Al examen físico el lactante debe lucir activo, con llanto vigoroso, hidratación conservada y sin ningún foco infeccioso evidente en piel, articulaciones, tórax ni oídos."
+      "text": "El examen que más rinde es la orina completa y el urocultivo, tomados por sondeo vesical, sobre todo en niñas menores de dos años y en niños no circuncidados con fiebre alta y persistente."
     },
     {
       "file": "s06_g02",
-      "text": "El hemograma debe registrar leucocitos estrictamente entre cinco mil y quince mil por microlitro y formas inmaduras o baciliformes inferiores a mil quinientos."
+      "text": "Y para el manejo sintomático, el paracetamol es tu primera opción, a quince miligramos por kilo por dosis."
     },
     {
       "file": "s06_g03",
-      "text": "El sedimento de orina debe ser estrictamente normal con menos de diez leucocitos por campo y bacterias negativas en orina obtenida por técnica limpia o cateterismo."
+      "text": "Y evita el ibuprofeno antes de los seis meses de vida: en ese grupo aumenta el riesgo de complicaciones."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y antes de mandarlo a la casa, dale pautas claras a la familia. Si la fiebre persiste varios días o no cede con el paracetamol, tiene que volver a control."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y si en cualquier momento lo ves decaído o con mal aspecto, eso cambia el panorama por completo y tienes que reevaluarlo de nuevo, aunque antes se haya visto bien."
     },
     {
       "file": "s07_g00",
-      "text": "Si el lactante cumple rigurosamente todos los criterios de Rochester, se indica manejo ambulatorio sin prescribir antibióticos empíricos, los cuales solo enmascararían una infección no diagnosticada."
+      "text": "Ahora juntemos las tres edades en un solo árbol de decisión, tal como lo vas a razonar en el examen. Tienes un lactante con fiebre y no encuentras un foco al examinarlo. Antes de pedir cualquier examen, pregúntate una sola cosa: cuántos días o meses tiene."
     },
     {
       "file": "s07_g01",
-      "text": "Se administran antipiréticos para el malestar, se educa a los padres en signos de alarma y es imperativo citar a un control médico presencial obligatorio a las veinticuatro horas en el centro de salud."
+      "text": "Esa pregunta ordena toda la conducta: menor de veintiocho días, entre veintinueve y noventa, o mayor de tres meses."
     },
     {
       "file": "s07_g02",
-      "text": "Si el paciente falla cualquiera de los criterios de Rochester, se considera de alto riesgo y se debe realizar punción lumbar para estudio microbiológico y bioquímico del líquido cefalorraquídeo."
+      "text": "Aquí no hay margen: hospitalización, punción lumbar, hemocultivos, orina por sondeo, y ampicilina más cefotaxima de inmediato."
     },
     {
       "file": "s07_g03",
-      "text": "El lactante debe ser hospitalizado de urgencia iniciando tratamiento antibiótico parenteral con cefotaxima o ceftriaxona endovenosa mientras se monitoriza su evolución y se aguardan los cultivos."
+      "text": "Revisa el buen estado, la orina y el hemograma. Tiene que cumplir absolutamente todo."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Antipiréticos y control presencial a las veinticuatro horas: es un alta vigilada, no un alta sin más."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Un solo criterio alterado basta para tratarlo igual que al recién nacido: estudio completo y antibióticos empíricos."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Casi siempre es un virus, pero la causa bacteriana que se esconde es la infección urinaria: pide orina y urocultivo por sondeo, sobre todo en niñas menores de dos años y en niños no circuncidados con fiebre alta y persistente."
     },
     {
       "file": "s08_g00",
-      "text": "El neonato febril se hospitaliza siempre realizando estudio séptico con punción lumbar y recibiendo ampicilina con cefotaxima endovenosa."
+      "text": "Repasemos las trampas. Un recién nacido con fiebre y buen aspecto: igual se hospitaliza y se estudia completo. El error es confiarse de que se ve tranquilo."
     },
     {
       "file": "s08_g01",
-      "text": "El lactante de uno a tres meses que cumple criterios de Rochester se maneja ambulatorio con control presencial en veinticuatro horas."
+      "text": "Un lactante de veintinueve a noventa días con un solo criterio alterado: se hospitaliza igual que el de alto riesgo. El error clásico es mandarlo a la casa porque el aspecto engaña."
     },
     {
       "file": "s08_g02",
-      "text": "Si falla algún criterio de Rochester se realiza punción lumbar, se hospitaliza y se administran cefalosporinas de tercera generación parenterales."
+      "text": "Pasados los tres meses, sin foco: orina completa y urocultivo por sondeo. El error es pedir solo un hemograma y quedarse esperando."
     },
     {
       "file": "s08_g03",
-      "text": "En el lactante mayor de tres meses con vacunas al día se descarta infección urinaria y se maneja ambulatorio con pautas de alarma."
+      "text": "Y en el recién nacido, el esquema es ampicilina más cefotaxima. La ceftriaxona es la trampa, porque en esta edad puede desplazar la bilirrubina."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y una última trampa, más simple pero muy preguntada: en un lactante menor de seis meses, el antipirético es paracetamol. Indicar ibuprofeno en ese rango de edad es un error clásico."
     },
     {
       "file": "s09_g00",
-      "text": "En niños de tres a veinticuatro meses con síndrome febril sin foco, la infección urinaria es la causa bacteriana más común, presentándose con irritabilidad, vómitos esporádicos o simplemente fiebre aislada."
+      "text": "Vamos con un caso. Lactante de cincuenta días, con fiebre de treinta y ocho coma seis. Al examen está alerta, reactivo y sin foco. El hemograma muestra diecisiete mil doscientos leucocitos, con doce por ciento de baciliformes. El sedimento de orina es normal."
     },
     {
       "file": "s09_g01",
-      "text": "El riesgo de infección urinaria oculta es mayor en niñas menores de dos años, niños no circuncidados menores de un año y ante temperaturas superiores a treinta y nueve grados de más de dos días de duración."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Un lactante que cuenta con sus dosis correspondientes de vacuna hexavalente y antineumocócica conjugada presenta un riesgo de bacteriemia oculta inferior al cero coma cinco por ciento."
-    },
-    {
-      "file": "s09_g03",
-      "text": "El hemograma y los hemocultivos se reservan para lactantes con fiebre muy elevada sobre treinta y nueve coma cinco grados, esquemas de vacunación incompletos o aspecto clínico tóxico."
-    },
-    {
-      "file": "s10_g00",
-      "text": "La bolsa recolectora adhesiva presenta una tasa de falsos positivos en el cultivo superior al ochenta y cinco por ciento debido al arrastre de bacterias saprófitas de la piel perineal."
-    },
-    {
-      "file": "s10_g01",
-      "text": "Una orina normal tomada por bolsa recolectora tiene alto valor predictivo negativo para descartar infección, pero si sale alterada jamás autoriza a diagnosticar o tratar sin una muestra estéril."
-    },
-    {
-      "file": "s10_g02",
-      "text": "El sondeo vesical estéril con sonda nelaton fina es la técnica estándar para confirmar infección urinaria en lactantes, considerándose positivo con más de cincuenta mil unidades formadoras de colonias."
-    },
-    {
-      "file": "s10_g03",
-      "text": "La punción suprapúbica guiada por ecografía es el método de referencia más limpio, donde la presencia de cualquier colonia bacteriana confirma de manera categórica el diagnóstico."
-    },
-    {
-      "file": "s11_g00",
-      "text": "La escala de Yale evalúa seis variables clínicas conductuales: la fuerza del llanto, el consuelo en brazos de los padres, el estado de alerta, la coloración cutánea, la hidratación y la respuesta social."
-    },
-    {
-      "file": "s11_g01",
-      "text": "Un puntaje menor o igual a diez puntos refleja bajo riesgo de bacteriemia, mientras que valores iguales o superiores a dieciséis puntos traducen una probabilidad superior al noventa por ciento de sepsis grave."
-    },
-    {
-      "file": "s11_g02",
-      "text": "El enlentecimiento del llenado capilar por sobre tres segundos, la piel marmórea y las extremidades frías advierten mala perfusión periférica y choque séptico precoz."
-    },
-    {
-      "file": "s11_g03",
-      "text": "La somnolencia patológica, la hipotonía y el llanto débil o quejumbroso son signos de afectación meníngea o colapso sistémico que obligan a iniciar reanimación con fluidos y antibióticos endovenosos."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Iniciamos la evaluación clínica clasificando al paciente según su edad y evaluando de inmediato si presenta signos de toxicidad clínica."
-    },
-    {
-      "file": "s12_g01",
-      "text": "Ante un niño séptico tóxico se procede a reanimación vascular inmediata con fluidos y antibióticos parenterales de amplio espectro."
-    },
-    {
-      "file": "s12_g02",
-      "text": "En el niño con buen estado general evaluamos la edad cronológica para aplicar el protocolo correspondiente."
-    },
-    {
-      "file": "s12_g03",
-      "text": "El recién nacido se hospitaliza de manera obligatoria realizando punción lumbar e iniciando ampicilina más cefotaxima endovenosa."
-    },
-    {
-      "file": "s12_g04",
-      "text": "En lactantes de uno a tres meses aplicamos los criterios de Rochester clínicos y de laboratorio."
-    },
-    {
-      "file": "s12_g05",
-      "text": "Si cumple todos los criterios se maneja en casa con paracetamol y control presencial obligatorio a las veinticuatro horas."
-    },
-    {
-      "file": "s12_g06",
-      "text": "Si falla cualquier criterio se hospitaliza para punción lumbar y tratamiento con cefalosporinas de tercera generación."
-    },
-    {
-      "file": "s12_g07",
-      "text": "En mayores de tres meses descartamos infección urinaria por sondeo y mantenemos observación ambulatoria con pautas de alarma."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Recién nacido de catorce días febril con temperatura de treinta y ocho coma cuatro activo reactivo que lacta bien y sin foco evidente."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es la conducta médica correcta?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "La opción A paracetamol oral y control en dos días. La B hospitalizar de inmediato con estudio séptico que incluya punción lumbar e iniciar ampicilina más cefotaxima endovenosa. La C alta si exámenes normales. La D ceftriaxona intramuscular. La E compresas tibias. Aplica la regla neonatal. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la B. Todo menor de veintiocho días febril se hospitaliza de inmediato para estudio séptico completo con punción lumbar y cobertura parenteral."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Lactante de cuarenta y cinco días con fiebre de treinta y ocho coma dos en excelentes condiciones que cumple la totalidad de los criterios de bajo riesgo de Rochester."
-    },
-    {
-      "file": "s14_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
-      "file": "s14_g02",
-      "text": "La opción A hospitalización inmediata y punción lumbar. La B manejo ambulatorio con paracetamol oral y control médico presencial obligatorio a las veinticuatro horas. La C amoxicilina empírica. La D tomografía de tórax. La E alta definitiva sin control. Evalúa el riesgo. Piénsalo."
+      "file": "s09_g02",
+      "text": "Tienes cinco opciones: manejo ambulatorio con control en veinticuatro horas, hospitalizar y completar el estudio, dar de alta porque el examen y la orina son normales, amoxicilina oral ambulatoria, o solo una radiografía de tórax. Piénsalo."
     },
     {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la B. Si cumple todos los criterios de Rochester el riesgo es menor al uno por ciento permitiendo manejo ambulatorio con control presencial en veinticuatro horas."
+      "file": "s09_g03",
+      "text": "La respuesta es la B. Este caso está armado para que confíes en el buen aspecto clínico y en la orina normal, pero fíjate en el hemograma: los leucocitos y los baciliformes están fuera del rango de bajo riesgo. Y recuerda la regla: basta que falle un solo criterio de Rochester para que este paciente se trate como de alto riesgo, con hospitalización, estudio completo y antibióticos."
     },
     {
-      "file": "s15_g00",
-      "text": "Pregunta sobre la etiología bacteriana grave invasiva oculta más frecuente en un lactante de seis meses con síndrome febril agudo sin foco."
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Recién nacido de diez días, sin antecedentes, con fiebre hasta treinta y nueve grados desde hace cinco horas, rechazo alimentario e hiporreactividad. El examen físico es normal, y la orina muestra leucocitos aumentados."
     },
     {
-      "file": "s15_g01",
-      "text": "¿Cuál es la infección bacteriana más prevalente en este escenario clínico?"
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
-      "file": "s15_g02",
-      "text": "La opción A meningitis bacteriana aguda. La B infección del tracto urinario. La C osteomielitis aguda. La D bacteriemia por Salmonella. La E absceso retrofaríngeo. Recuerda la epidemiología ambulatoria. Piénsalo."
+      "file": "s10_g02",
+      "text": "Las opciones: pedir sedimento de orina y decidir según el resultado, hospitalizar para estudio y manejo, antipiréticos con control en dos días, antibióticos orales con control en dos días, o pedir una ecografía renal. Piénsalo."
     },
     {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. La infección del tracto urinario representa más del ochenta por ciento de las infecciones bacterianas ocultas en lactantes con fiebre sin foco."
+      "file": "s10_g03",
+      "text": "Es la B. Este recién nacido tiene diez días: está en el grupo de máximo riesgo, y ahí no se negocia. Se hospitaliza para estudio séptico completo, incluida la punción lumbar, y se inician antibióticos endovenosos. Esperar el sedimento de orina, dar antibióticos orales o solo controlar en dos días retrasaría el tratamiento de una posible sepsis."
     },
     {
-      "file": "s16_g00",
-      "text": "Lactante de dos meses con fiebre leucocitosis de dieciocho mil quinientos desviación a la izquierda y sedimento con leucocituria y bacterias abundantes."
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticinco. Lactante de tres meses, con fiebre de treinta y nueve grados, rigidez de nuca, fontanela abombada y letárgico."
     },
     {
-      "file": "s16_g01",
-      "text": "¿Cuál es la conducta médica indicada?"
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
-      "file": "s16_g02",
-      "text": "La opción A cefadroxilo oral ambulatorio. La B hospitalizar para tratamiento antibiótico endovenoso con cefotaxima y estudio complementario. La C observar con paracetamol. La D punción suprapúbica sin antibióticos. La E nitrofurantoína. Identifica el alto riesgo. Piénsalo."
+      "file": "s11_g02",
+      "text": "Las opciones: hospitalizar con punción lumbar y antibióticos empíricos, antibióticos orales con control en veinticuatro horas, solo antipiréticos y observación, pedir una tomografía antes de la punción lumbar, o dar de alta. Piénsalo."
     },
     {
-      "file": "s16_g03",
-      "text": "La respuesta correcta es la B. Por ser menor de tres meses con criterios de Rochester alterados e infección urinaria febril debe hospitalizarse para antibióticos endovenosos."
+      "file": "s11_g03",
+      "text": "Es la A. Aquí ni siquiera necesitas calcular Rochester: la fontanela abombada, la rigidez de nuca y la letargia son signos de alarma que por sí solos te obligan a hospitalizar, hacer la punción lumbar e iniciar ampicilina más cefotaxima de inmediato. Pedir una tomografía antes solo retrasa el tratamiento de una meningitis bacteriana."
     },
     {
-      "file": "s17_g00",
-      "text": "Recuerden que el neonato menor de veintiocho días con fiebre se hospitaliza siempre realizando estudio séptico con punción lumbar e indicando ampicilina más cefotaxima endovenosa."
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Menor de veintiocho días: siempre se hospitaliza y se estudia completo, sin excepción."
     },
     {
-      "file": "s17_g01",
-      "text": "Entre uno y tres meses apliquen los criterios de Rochester: si cumple todos los parámetros se maneja ambulatorio con control en veinticuatro horas; si falla alguno se hospitaliza con punción lumbar."
+      "file": "s12_g01",
+      "text": "De veintinueve a noventa días, deciden los criterios de Rochester, y son todo o nada: un solo criterio alterado saca al paciente del bajo riesgo."
     },
     {
-      "file": "s17_g02",
-      "text": "Jamás indiquen ceftriaxona en el neonato por riesgo de kernicterus y cristales cálcicos pulmonares; la cefalosporina de elección en neonatos es siempre la cefotaxima."
+      "file": "s12_g02",
+      "text": "El esquema del neonato es ampicilina más cefotaxima, y nunca ceftriaxona, por el riesgo de kernicterus."
     },
     {
-      "file": "s17_g03",
-      "text": "Nunca tomen un urocultivo por bolsa recolectora debido a su enorme tasa de contaminación. Si te llevas una sola idea de hoy: en el lactante menor febril, la sospecha manda y la punción lumbar no se posterga ante la menor duda. Nos vemos en la próxima clase."
+      "file": "s12_g03",
+      "text": "Y pasados los tres meses, con buen estado general, la clave es la orina, tomada por sondeo y no por bolsa recolectora. Si te llevas una sola idea de hoy: en fiebre sin foco, la edad decide la conducta antes que cualquier examen. Nos vemos en la próxima clase."
     }
   ]
 }

@@ -2,247 +2,231 @@
   "id": "ob-04",
   "title": "Obstetricia 19.4: Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler",
   "specialty": "Obstetricia",
-  "chars": 11706,
+  "chars": 11140,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase de restricción del crecimiento fetal, uno de los temas más evaluados y de mayor impacto pronóstico en la obstetricia moderna. En esta sesión aprenderemos a diferenciar con absoluta certeza un feto constitucionalmente pequeño de una verdadera restricción patológica, contrastaremos los fenotipos precoz y tardío, dominaremos la secuencia del deterioro hemodinámico en la velocimetría Doppler y fijaremos las semanas exactas de interrupción según los consensos del Ministerio de Salud. Comencemos."
+      "text": "Bienvenido a una de las clases más rentables del módulo: la restricción de crecimiento fetal. Vas a ver algo que se pregunta una y otra vez: no todo feto que pesa poco está en riesgo. Hay un pequeño para la edad gestacional que es solo eso, pequeño y sano, y hay una restricción de crecimiento verdadera, con una placenta que está fallando. Lo que separa a uno del otro, siempre, es el Doppler. Empecemos."
     },
     {
       "file": "s01_g00",
-      "text": "El punto de partida clínico es el hallazgo ecográfico de una estimación de peso fetal por debajo del percentil diez para la edad gestacional. Sin embargo, no todo feto pequeño está enfermo ni sufre hipoxia placentaria."
+      "text": "Partamos por el mecanismo. Te llega un feto con peso estimado bajo el percentil diez, y ese dato, solo, no te dice nada todavía."
     },
     {
       "file": "s01_g01",
-      "text": "Si el feto tiene un peso entre el percentil tres y diez, pero su velocimetría Doppler de la arteria umbilical, de la cerebral media y de las arterias uterinas es rigurosamente normal, y el líquido amniótico está conservado, estamos ante un pequeño para la edad gestacional constitucional. Es un feto genéticamente pequeño y sano, con excelente pronóstico perinatal, cuyo parto se espera a término entre las treinta y nueve y cuarenta semanas."
+      "text": "Si está entre el percentil tres y el diez, y el Doppler de la arteria umbilical, de la cerebral media y de las arterias uterinas está estrictamente normal, con líquido amniótico también normal..."
     },
     {
       "file": "s01_g02",
-      "text": "En cambio, diagnosticamos restricción del crecimiento fetal cuando el peso fetal estimado cae por debajo del percentil tres, independientemente del Doppler, o cuando estando entre el percentil tres y diez se asocia a Doppler patológico o a una caída de más de dos canales percentilares. Aquí existe insuficiencia placentaria e hipoxia progresiva que exige vigilancia estrecha e interrupción guiada."
+      "text": "...tienes un pequeño para la edad gestacional constitucional. Es un feto genéticamente pequeño, mantiene su propio canal de crecimiento, y su pronóstico es igual al de un feto de peso adecuado."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero hay otras dos puertas que te llevan a un diagnóstico distinto: que el peso esté bajo el percentil tres, sin importar el Doppler, o que el Doppler salga alterado, sin importar el percentil."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Por cualquiera de esas dos puertas, el problema real es la placenta: las arterias espirales no se remodelaron bien, y la placenta no está entregando lo que el feto necesita."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y eso es la restricción de crecimiento fetal verdadera. Aquí sí hay riesgo real de hipoxia, y aquí sí te vas a tener que preocupar del momento exacto del parto. Guarda esta diferencia, porque es la base de toda la clase."
+    },
+    {
+      "file": "s01_g06",
+      "text": "Y hay una tercera forma de llegar al mismo diagnóstico, que también se pregunta: si el feto cae más de dos canales percentilares entre dos ecografías separadas por semanas, ya es restricción de crecimiento, aunque el percentil actual no sea tan bajo."
     },
     {
       "file": "s02_g00",
-      "text": "Cualquier feto con una estimación de peso fetal bajo el percentil tres se clasifica de inmediato como restricción de crecimiento fetal, incluso si todos los parámetros Doppler iniciales resultan normales. Es un grupo de alto riesgo perinatal."
+      "text": "Cuando la restricción debuta antes de las treinta y dos semanas, hablas de RCF precoz. Ahí la falla en la placenta es masiva y profunda desde el principio."
     },
     {
       "file": "s02_g01",
-      "text": "El perímetro abdominal refleja el depósito de glucógeno en el hígado fetal. Su caída por debajo del percentil tres confirma la desnutrición intrauterina grave por privación calórico proteica placentaria."
+      "text": "Se asocia a preeclampsia severa en la mayoría de los casos: hasta siete de cada diez."
     },
     {
       "file": "s02_g02",
-      "text": "Si el peso se ubica entre el percentil tres y diez, la presencia de un índice de pulsatilidad en la arteria umbilical sobre el percentil noventa y cinco, o vasodilatación en la cerebral media bajo el percentil cinco, sella el diagnóstico de restricción patológica."
+      "text": "Y el Doppler se deteriora en un orden predecible: primero la arteria umbilical, después la cerebral media, y al final el ductus venoso. Ese orden es justo lo que vamos a etapificar ahora."
     },
     {
       "file": "s02_g03",
-      "text": "Una caída longitudinal documentada de más de dos canales percentilares en ecografías separadas por al menos dos semanas demuestra desaceleración del potencial de crecimiento y califica como restricción patológica."
+      "text": "Si debuta desde las treinta y dos semanas, casi siempre a término, es RCF tardío. La falla placentaria es más leve, por senescencia difusa, y casi no se asocia a preeclampsia."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Aquí la arteria umbilical suele estar normal. Lo que se altera es la cerebral media, que se dilata para proteger al cerebro, un efecto que llamamos redistribución."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Su peligro es distinto: pasa desapercibido, y el riesgo mayor es una hipoxia aguda durante el trabajo de parto, no algo lento y progresivo. Por eso, aunque suene menos grave que el precoz, es el que más se asocia a un óbito inesperado en un embarazo que parecía tranquilo."
     },
     {
       "file": "s03_g00",
-      "text": "El fenotipo precoz obedece a una falla profunda en la remodelación de las arterias espirales durante el primer trimestre, mientras que el tardío surge por envejecimiento y sobrecarga funcional de la placenta a término."
+      "text": "Vamos con las cuatro etapas, de la más leve a la más grave. En la etapa uno, el índice de pulsatilidad de la umbilical está sobre el percentil noventa y cinco, o el de la cerebral media, bajo el percentil cinco. Con esto, interrumpes a la semana treinta y siete, y puedes intentar la inducción."
     },
     {
       "file": "s03_g01",
-      "text": "El RCF precoz se asocia intensamente a preeclampsia severa y daño endotelial materno sistémico, mientras que el RCF tardío se presenta típicamente en embarazos normotensos."
+      "text": "En la etapa dos, la arteria umbilical pierde el flujo en diástole: se queda sin flujo en más de la mitad del ciclo, señal de que se obliteró entre el sesenta y el setenta por ciento del lecho vellositario. Aquí adelantas a la semana treinta y cuatro, por cesárea, y das corticoides antes de nacer."
     },
     {
       "file": "s03_g02",
-      "text": "En el feto precoz el lecho placentario está destruido, por lo que la arteria umbilical se altera tempranamente. En el feto tardío la umbilical suele ser normal y el único signo de alarma es la vasodilatación cerebral."
+      "text": "En la etapa tres, el flujo en diástole ya no está ausente: va al revés, reverso, reflejando una obliteración masiva de más del ochenta por ciento de los vasos placentarios. Interrumpes a la semana treinta, siempre por cesárea electiva."
     },
     {
       "file": "s03_g03",
-      "text": "El dilema del RCF precoz es balancear la prematurez extrema contra la hipoxia. En el feto tardío el riesgo es la muerte súbita durante el trabajo de parto por falta de reserva placentaria ante las contracciones."
+      "text": "Y en la etapa cuatro, lo que se altera es el ductus venoso, con una onda llamada \"a\" que se vuelve reversa. Eso refleja que el corazón derecho del feto ya está fallando por la acidosis. Interrumpes de inmediato, entre las semanas veintiséis y veintiocho, con corticoides y sulfato de magnesio para proteger el cerebro. Fíjate en la lógica completa: mientras peor el Doppler, más temprano nace, sin importar lo prematuro que sea."
     },
     {
       "file": "s04_g00",
-      "text": "A medida que se pierden capilares en las vellosidades placentarias, la resistencia vascular aumenta. La arteria umbilical eleva su índice de pulsatilidad por sobre el percentil noventa y cinco, traduciendo una placenta insuficiente."
+      "text": "Antes de las treinta y cuatro semanas, das betametasona, doce miligramos cada veinticuatro horas, dos dosis, por vía intramuscular. Reduce la membrana hialina, la hemorragia intraventricular y la mortalidad."
     },
     {
       "file": "s04_g01",
-      "text": "Frente a la privación de oxígeno, el feto activa un mecanismo compensatorio de redistribución de flujo, vasodilatando la arteria cerebral media para proteger el cerebro, el corazón y las suprarrenales a expensas de la perfusión renal y esplácnica."
+      "text": "Y si el parto va a ser antes de las treinta y dos semanas, sumas sulfato de magnesio como neuroprotector: un bolo inicial, y después una infusión continua. Reduce la parálisis cerebral y la disfunción motora del recién nacido."
     },
     {
       "file": "s04_g02",
-      "text": "Cuando se oblitera más de la mitad del lecho placentario, el flujo telediastólico en la arteria umbilical desaparece y luego se invierte. Finalmente, la acidosis miocárdica claudica el ventrículo derecho, produciendo una onda a reversa en el ductus venoso, antesala de la muerte fetal."
+      "text": "Y la vía del parto: desde la etapa dos en adelante, siempre cesárea. Le evitas al feto el estrés de las contracciones, que ya no tolera."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Mientras no llega el momento de interrumpir, el seguimiento es con Doppler seriado, cada veinticuatro horas hasta cada siete días, según qué tan grave sea la etapa. Ese control es lo que te avisa si el feto está empeorando antes de que llegue el daño permanente."
     },
     {
       "file": "s05_g00",
-      "text": "La pulsatilidad elevada de la arteria umbilical traduce insuficiencia vascular placentaria. Es el primer vaso en alterarse en la restricción de inicio precoz y marca el ingreso a la etapa uno."
+      "text": "Ahora ordenemos todo el razonamiento, desde el peso fetal hasta el momento exacto del parto. Tienes un feto que está creciendo bajo el percentil diez. La pregunta que decide todo no es solo cuánto pesa: es si además tiene el Doppler alterado."
     },
     {
       "file": "s05_g01",
-      "text": "La ausencia de diástole refleja daño vascular masivo y exige interrupción a las treinta y cuatro semanas. La diástole reversa confiere una mortalidad mayor al cincuenta por ciento e impone interrupción a las treinta semanas."
+      "text": "Miras dos cosas a la vez: bajo qué percentil está el peso fetal estimado, y cómo sale el Doppler."
     },
     {
       "file": "s05_g02",
-      "text": "La caída de resistencia en la cerebral media refleja redistribución hemodinámica protectora. Es el hallazgo cardinal en el feto tardío y alerta sobre riesgo inminente de asfixia intraparto."
+      "text": "Si el Doppler de la arteria umbilical, la cerebral media y las uterinas está estrictamente normal, es un pequeño para la edad gestacional constitucional. No hay hipoxia, y esperas el parto a término, entre las semanas treinta y nueve y cuarenta."
     },
     {
       "file": "s05_g03",
-      "text": "El ductus venoso comunica la vena umbilical con la vena cava inferior. La inversión de su onda a traduce falla ventricular derecha terminal e indica cesárea de emergencia en menos de veinticuatro a cuarenta y ocho horas."
+      "text": "Con cualquiera de esos dos hallazgos, ya no es un PEG: es una restricción de crecimiento fetal verdadera, y lo que sigue es etapificar con el Doppler."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y aquí está el corazón del tema: el Doppler no es todo o nada, tiene cuatro etapas, y cada una te dice cuándo interrumpes."
+    },
+    {
+      "file": "s05_g05",
+      "text": "En la etapa uno, interrumpes a la semana treinta y siete, y puedes intentar la inducción: no necesitas ir directo a cesárea."
+    },
+    {
+      "file": "s05_g06",
+      "text": "En la etapa dos, adelantas a la semana treinta y cuatro, por cesárea, y antes le das corticoides para madurar el pulmón."
+    },
+    {
+      "file": "s05_g07",
+      "text": "En la etapa tres, adelantas más, a la semana treinta, también por cesárea electiva y con corticoides."
+    },
+    {
+      "file": "s05_g08",
+      "text": "Y en la etapa cuatro, la interrupción es inmediata, entre las semanas veintiséis y veintiocho, con corticoides y sulfato de magnesio para proteger el cerebro, porque el feto está en falla franca."
     },
     {
       "file": "s06_g00",
-      "text": "La etapa uno reúne a fetos con aumento leve de resistencia umbilical o vasodilatación cerebral. Se interrumpe al término precoz a las treinta y siete semanas, pudiendo intentarse parto vaginal con monitorización continua."
+      "text": "Repasemos las trampas. Percentil tres a diez con Doppler normal es un PEG constitucional, y el parto va a término. El error es adelantarlo solo porque el peso está bajo."
     },
     {
       "file": "s06_g01",
-      "text": "La etapa dos se define por la ausencia de flujo diastólico en la arteria umbilical. Requiere corticoides para maduración pulmonar e interrupción a las treinta y cuatro semanas mediante cesárea programada."
+      "text": "Un peso bajo el percentil tres sigue siendo restricción severa, aunque el Doppler salga normal en un control posterior. Esperar por ese dato es la trampa: la severidad ya la marcó el percentil."
     },
     {
       "file": "s06_g02",
-      "text": "La etapa tres presenta flujo invertido en la diástole umbilical. Se indica cesárea a las treinta semanas previa maduración con betametasona y neuroprotección con sulfato de magnesio."
+      "text": "Diástole ausente en la umbilical: interrumpes a la semana treinta y cuatro, por cesárea. Solo repetir el Doppler y seguir observando es quedarse corto."
     },
     {
       "file": "s06_g03",
-      "text": "La etapa cuatro es la claudicación miocárdica terminal con onda a reversa en el ductus venoso. Se interrumpe de inmediato a partir de la viabilidad gestacional con neuroprotección y corticoides."
+      "text": "La onda a reversa en el ductus venoso es la máxima urgencia: interrupción inmediata. Esperar a que termine la maduración pulmonar puede costar la vida del feto."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si el feto cae más de dos canales percentilares entre dos ecografías, ya es restricción de crecimiento, aunque el peso actual todavía parezca normal. Ignorar esa caída es otro error clásico."
     },
     {
       "file": "s07_g00",
-      "text": "Todo feto con restricción de crecimiento con indicación de interrupción antes de las treinta y cuatro semanas debe recibir un curso completo de betametasona para inducir maduración pulmonar y reducir hemorragia intraventricular."
+      "text": "Un caso. Embarazada de treinta y tres semanas, con una estimación de peso fetal en percentil ocho. El Doppler muestra la arteria umbilical normal, la cerebral media normal, y el líquido amniótico normal."
     },
     {
       "file": "s07_g01",
-      "text": "En todo parto prematuro inminente menor a treinta y dos semanas es obligatorio administrar sulfato de magnesio endovenoso para prevenir parálisis cerebral y daño neurológico grave."
+      "text": "¿Cuál es el diagnóstico y la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "La redistribución de flujo reduce el filtrado glomerular fetal y genera oligoamnios, lo que aumenta el riesgo de compresión de cordón umbilical y sufrimiento fetal agudo."
+      "text": "Las opciones: restricción de crecimiento etapa uno con interrupción a las treinta y siete semanas, pequeño para la edad gestacional constitucional con parto a término, restricción severa con cesárea inmediata, sufrimiento fetal agudo con amniocentesis, o peso adecuado para la edad. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Un registro no estresante con variabilidad silente o desaceleraciones espontáneas refleja hipoxia cerebral avanzada y obliga a precipitar la interrupción incluso antes de la edad gestacional meta."
+      "text": "Es la B. El percentil ocho está entre tres y diez, y lo que decide aquí es que el Doppler está perfecto en todos los vasos. Eso es justo la definición de un pequeño para la edad gestacional constitucional: nada de hipoxia, manejo conservador, y parto a término, entre las semanas treinta y nueve y cuarenta."
     },
     {
       "file": "s08_g00",
-      "text": "Iniciamos el abordaje evaluando la velocimetría Doppler fetal ante una estimación de peso bajo el percentil diez."
+      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta y cuatro años, con un embarazo de treinta y cinco semanas, con un feto que crece en percentil dos desde la semana treinta y tres, con Doppler normal en ese momento. Se pide un nuevo Doppler de control, que tampoco muestra alteraciones."
     },
     {
       "file": "s08_g01",
-      "text": "Si el Doppler es rigurosamente normal y el peso está sobre el percentil tres, diagnosticamos pequeño constitucional."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Mantenemos vigilancia habitual y permitimos que el parto ocurra espontáneamente al término."
+      "text": "Las opciones: inducir el parto, hacer cesárea, pedir perfil biofísico, controlar semanalmente con Doppler, o interrumpir a las treinta y siete semanas. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Si el peso está bajo el percentil tres o el Doppler está alterado, confirmamos restricción patológica."
-    },
-    {
-      "file": "s08_g04",
-      "text": "En la etapa uno mantenemos vigilancia semanal e interrumpimos a las treinta y siete semanas."
-    },
-    {
-      "file": "s08_g05",
-      "text": "En la etapa dos hospitalizamos, maduramos con betametasona y realizamos cesárea a las treinta y cuatro semanas."
-    },
-    {
-      "file": "s08_g06",
-      "text": "En la etapa tres indicamos cesárea a las treinta semanas con corticoides y sulfato de magnesio."
-    },
-    {
-      "file": "s08_g07",
-      "text": "En la etapa cuatro realizamos cesárea de emergencia inmediata con sulfato de magnesio independientemente de las semanas."
+      "text": "Es la B. Aquí la trampa es dejarte tranquilizar porque el Doppler sigue normal. Pero un percentil dos, bajo el percentil tres, ya es una restricción de crecimiento severa por definición, sin importar el Doppler, y eso obliga a interrumpir a las treinta y cuatro semanas, que ya se cumplieron, por cesárea."
     },
     {
       "file": "s09_g00",
-      "text": "Muchos postulantes se asustan al ver un peso en percentil seis y deciden interrumpir. Si el Doppler y el líquido son normales, es un PEG constitucional sano que debe llegar a término."
+      "text": "Y una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente con un embarazo de treinta y cinco semanas, diagnosticada de restricción de crecimiento fetal en percentil tres."
     },
     {
       "file": "s09_g01",
-      "text": "Un peso bajo el percentil tres es por definición un RCF severo. Aunque el Doppler inicial sea normal, este feto no debe sobrepasar las treinta y cuatro a treinta y cinco semanas."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Ante un feto pequeño en el tercer trimestre no se puede observar sin un Doppler. El Doppler es mandatorio para descartar vasodilatación cerebral de un RCF tardío."
-    },
-    {
-      "file": "s09_g03",
-      "text": "El ductus venoso invertido nunca se observa. Refleja claudicación ventricular derecha con muerte fetal inminente en menos de cuarenta y ocho horas y exige cesárea inmediata."
-    },
-    {
-      "file": "s10_g00",
-      "text": "Una primigesta de treinta y tres semanas presenta altura uterina disminuida y ecografía con estimación de peso fetal en percentil seis. La velocimetría Doppler de arteria umbilical, cerebral media y arterias uterinas es completamente normal, y el líquido amniótico es de doce centímetros."
-    },
-    {
-      "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más adecuado y la conducta a seguir?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "La opción A plantea restricción severa y cesárea urgente. La B plantea pequeño para la edad gestacional constitucional y parto a término. La C propone restricción etapa dos con cesárea a las treinta y cuatro semanas. La D sugiere inducción inmediata. Piénsalo."
-    },
-    {
-      "file": "s10_g03",
-      "text": "La respuesta correcta es la B. Un feto con peso entre el percentil tres y diez que mantiene Doppler de arteria umbilical y cerebral normales y líquido conservado es un pequeño constitucional sano. No tiene patología placentaria ni riesgo de asfixia, por lo que su evolución debe ser expectante hasta el término."
-    },
-    {
-      "file": "s11_g00",
-      "text": "Una paciente de treinta y cuatro años con embarazo de treinta y cinco semanas tiene un feto creciendo en el percentil dos desde la semana treinta y tres. El Doppler de control no muestra alteraciones."
-    },
-    {
-      "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada en este caso?"
-    },
-    {
-      "file": "s11_g02",
-      "text": "La opción A propone inducir el parto. La B plantea realizar cesárea. La C sugiere perfil biofísico. La D aconseja control semanal con Doppler. Y la E propone esperar a las treinta y siete semanas. Piénsalo."
-    },
-    {
-      "file": "s11_g03",
-      "text": "La respuesta correcta es la B. Todo feto con peso menor al percentil tres se clasifica como restricción severa. A las treinta y cinco semanas ya superó el umbral de las treinta y cuatro semanas y debe interrumpirse mediante operación cesárea."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Una paciente de treinta años con treinta y siete semanas de gestación presenta altura uterina de veintiocho centímetros. La ecografía muestra feto en percentil ocho con índice de líquido amniótico de ocho centímetros."
-    },
-    {
-      "file": "s12_g01",
-      "text": "¿Cuál es la conducta clínica más adecuada?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "La opción A propone inducir el parto con misoprostol. La B realizar registro basal. La C observar evolución. La D realizar Doppler materno fetal. La E realizar cesárea. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La respuesta correcta es la D. Ante un feto en percentil ocho a las treinta y siete semanas, la conducta prioritaria es realizar un Doppler materno fetal para clasificar si es un PEG constitucional o un RCF tardío con vasodilatación cerebral."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Una paciente de treinta y cinco semanas con restricción de crecimiento en percentil tres se encuentra en control ecográfico seriado."
-    },
-    {
-      "file": "s13_g01",
       "text": "¿Cuál de las siguientes alteraciones es indicación de interrupción inmediata del embarazo?"
     },
     {
-      "file": "s13_g02",
-      "text": "La opción A propone oligohidroamnios leve. La B aumento de resistencia en arterias umbilicales. La C vasodilatación de la cerebral media. La D relación fémoro abdominal alterada. La E ducto venoso con flujo ausente o reverso en diástole. Piénsalo."
+      "file": "s09_g02",
+      "text": "Las opciones: oligohidramnios, aumento de la resistencia en las arterias umbilicales, dilatación de la cerebral media, relación fémur abdomen mayor a cero coma veinticinco, o ductus venoso con flujo ausente en diástole. Piénsalo."
     },
     {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la E. La onda a reversa o ausente en el ductus venoso traduce claudicación ventricular y asfixia terminal, siendo el signo de máxima urgencia obstétrica que obliga a interrumpir de inmediato."
+      "file": "s09_g03",
+      "text": "Es la E. Las otras cuatro son hallazgos que sí importan, pero no son el final de la cascada: son etapas más tempranas o marcadores acompañantes. El ductus venoso alterado es el último escalón, el que te dice que el corazón fetal ya está fallando, y por eso es el único que exige interrumpir de inmediato."
     },
     {
-      "file": "s14_g00",
-      "text": "El pequeño constitucional tiene Doppler normal y no requiere adelantar el parto ni realizar cesáreas innecesarias."
+      "file": "s10_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente multípara de cuarenta años, con un embarazo de treinta y dos semanas. La ecografía muestra líquido amniótico normal, con un feto en percentil diez, y un peso estimado de mil trescientos veinte gramos."
     },
     {
-      "file": "s14_g01",
-      "text": "Si el peso cae bajo el percentil tres, el feto tiene restricción severa y se interrumpe a las treinta y cuatro a treinta y cinco semanas."
+      "file": "s10_g01",
+      "text": "¿Cuál es la actitud más adecuada?"
     },
     {
-      "file": "s14_g02",
-      "text": "Los fetos en etapa uno se interrumpen a las treinta y siete semanas, evaluando inducción si las condiciones obstétricas lo permiten."
+      "file": "s10_g02",
+      "text": "Las opciones: observar evolución, pedir Doppler de arterias uterinas, pedir Doppler de arteria umbilical, repetir la ecografía en dos semanas, o inducir maduración pulmonar con corticoides. Piénsalo."
     },
     {
-      "file": "s14_g03",
-      "text": "La ausencia de flujo diastólico en la umbilical impone cesárea a las treinta y cuatro semanas tras ciclo de betametasona."
+      "file": "s10_g03",
+      "text": "Es la C. Con un peso en percentil diez todavía no sabes si es un PEG constitucional o una restricción de verdad, y el examen que te lo dice, el que separa uno del otro y de paso te dice qué tan grave es, es el Doppler de la arteria umbilical. Observar sin más, o repetir la ecografía sin Doppler, te deja sin la información que decide todo."
     },
     {
-      "file": "s14_g04",
-      "text": "Si te llevas una sola idea de hoy: la onda a reversa en el ductus venoso marca claudicación miocárdica inminente y exige cesárea inmediata con sulfato de magnesio y corticoides. Nos vemos en la próxima clase."
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Percentil tres a diez, con Doppler estrictamente normal, es un PEG, y el parto va a término."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Bajo el percentil tres, o con Doppler alterado en cualquier percentil, ya es una restricción de crecimiento verdadera."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y las cuatro etapas del Doppler tienen su semana exacta: treinta y siete, treinta y cuatro, treinta, y veintiséis a veintiocho."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La onda a reversa en el ductus venoso es la urgencia máxima: interrupción inmediata, con neuroprotección si el embarazo aún es pretérmino. Si te llevas una sola idea de hoy: el peso solo no te dice nada, es el Doppler el que separa al feto sano del que está en riesgo. Nos vemos en la próxima clase."
     }
   ]
 }

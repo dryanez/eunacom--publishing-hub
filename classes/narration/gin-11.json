@@ -2,279 +2,211 @@
   "id": "gin-11",
   "title": "Ginecologia 20.11: Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
   "specialty": "Ginecología",
-  "chars": 12767,
+  "chars": 7374,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre enfermedad pélvica inflamatoria, una de las urgencias ginecológicas más evaluadas en el examen EUNACOM. En esta sesión dominaremos los criterios diagnósticos clínicos de Hager, aprenderemos a clasificar minuciosamente cada caso según los cuatro estadios de Monif, identificaremos los criterios indiscutibles que obligan a hospitalizar de urgencia a la paciente en la sala de ginecología, y fijaremos los esquemas antimicrobianos ambulatorios e intrahospitalarios de catorce días completos. Comencemos."
+      "text": "Bienvenida. Hoy vemos la enfermedad pélvica inflamatoria, una infección que sube desde el cuello uterino hasta las trompas y el peritoneo. Es un tema de alta rentabilidad, y se ordena con dos herramientas: los criterios de Hager, que la diagnostican, y la clasificación de Monif, que te dice qué tan grave es y si hospitalizas o no. Vamos paso a paso."
     },
     {
       "file": "s01_g00",
-      "text": "El proceso comienza típicamente con una infección de transmisión sexual por clamidia o gonococo en el canal endocervical. Durante la menstruación o tras procedimientos intrauterinos, el moco cervical pierde su viscosidad permitiendo a las bacterias ascender libremente hacia la cavidad endometrial."
+      "text": "Empecemos por el mecanismo. Casi siempre parte con Chlamydia o gonococo, subiendo desde el cuello uterino, y después se agregan bacterias anaerobias y enterobacterias."
     },
     {
       "file": "s01_g01",
-      "text": "Al invadir las trompas de Falopio se produce una salpingitis aguda purulenta con pérdida irreversible de los cilios tubarios. Se suman rápidamente bacterias anaerobias y entéricas secundarias, originando pelviperitonitis, abscesos tubo-ováricos o adherencias pélvicas crónicas."
+      "text": "El primer escalón es la endometritis: la infección ya entró al útero."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si sigue subiendo, llega a las trompas: es la salpingitis, y aquí ya hablamos de enfermedad pélvica inflamatoria propiamente dicha."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si continúa, se derrama al peritoneo pélvico, y aparece el dolor peritoneal que vas a ver al examen."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y en el punto más grave, se forma un absceso tubo-ovárico: una colección de pus dentro de la trompa y el ovario, que puede romperse."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Fíjate en algo importante: aunque trates la infección, las trompas quedan con cicatrices. Por eso las secuelas son infertilidad y embarazo ectópico, y eso no cambia con el antibiótico."
     },
     {
       "file": "s02_g00",
-      "text": "El grupo de mayor riesgo epidemiológico está conformado por mujeres jóvenes menores de veinticinco años con vida sexual activa, parejas sexuales múltiples o recambio reciente de pareja sin protección."
+      "text": "El diagnóstico se basa en los criterios de Hager, y necesitas los tres mayores presentes. El primero: dolor a la palpación del abdomen bajo."
     },
     {
       "file": "s02_g01",
-      "text": "El factor predictor clínico más potente para desarrollar una nueva infección pélvica es el antecedente personal de un episodio previo documentado, el cual multiplica por cuatro el riesgo debido a la alteración anatómica permanente y a la pérdida residual de los cilios del endosálpinx."
+      "text": "El segundo: dolor al movilizar el cuello uterino, lo que se llama el signo de Frenkel."
     },
     {
       "file": "s02_g02",
-      "text": "La inserción de un dispositivo intrauterino eleva el riesgo de infección pélvica de forma transitoria únicamente durante los primeros veinte días post-inserción por arrastre mecánico de flora cervical."
+      "text": "Y el tercero: dolor a la palpación de los anexos. Si te faltan estos tres, no puedes llamarlo enfermedad pélvica inflamatoria."
     },
     {
       "file": "s02_g03",
-      "text": "Las duchas vaginales frecuentes constituyen otro factor coadyuvante demostrado al remover la flora protectora de lactobacilos y empujar bacterias del fondo de saco hacia el orificio cervical."
+      "text": "Y los menores refuerzan el diagnóstico: fiebre sobre treinta y ocho coma tres, leucorrea anormal."
+    },
+    {
+      "file": "s02_g04",
+      "text": "También PCR elevada, leucocitosis, o un cultivo positivo para gonococo o Chlamydia."
     },
     {
       "file": "s03_g00",
-      "text": "El primer criterio mayor de Hager es la presencia obligatoria de dolor espontáneo y a la palpación profunda en el hemiabdomen inferior o hipogastrio, habitualmente de carácter bilateral, continuo y de intensidad moderada a severa."
+      "text": "La clasificación de Monif te dice qué tan grave es. El estadio uno es salpingitis, sin peritonitis y sin masas: manejo ambulatorio."
     },
     {
       "file": "s03_g01",
-      "text": "El segundo criterio mayor es el dolor intenso a la movilización o lateralización cervical durante el tacto bimanual, conocido como signo de Frenkel positivo por tracción de los ligamentos útero-sacros inflamados."
+      "text": "El estadio dos suma peritonitis pélvica localizada. Aquí depende de qué tan bien luzca la paciente."
     },
     {
       "file": "s03_g02",
-      "text": "El tercer criterio mayor indispensable es el dolor marcado a la palpación bimanual de uno o ambos anexos tubáricos, reflejando directamente el compromiso inflamatorio exudativo agudo del parénquima y serosa de las trompas de Falopio."
+      "text": "El estadio tres es el absceso tubo-ovárico, íntegro, y aquí la hospitalización ya no se discute."
     },
     {
       "file": "s03_g03",
-      "text": "Los criterios menores incluyen fiebre mayor a treinta y ocho coma tres grados Celsius, exudado mucopurulento purulento por el orificio cervical o friabilidad del cuello uterino."
-    },
-    {
-      "file": "s03_g04",
-      "text": "También apoyan el diagnóstico el aumento de proteína C reactiva o velocidad de sedimentación globular, leucocitosis en el hemograma y la confirmación microbiológica de gonococo o clamidia."
+      "text": "Y el estadio cuatro es el absceso roto, con peritonitis generalizada y shock séptico: es una emergencia quirúrgica."
     },
     {
       "file": "s04_g00",
-      "text": "La laparoscopía es el estándar de oro confirmatorio al visualizar directamente trompas eritematosas, edematosas y cubiertas de fibrina o pus, reservándose para dudas diagnósticas graves."
+      "text": "Con el diagnóstico hecho, la siguiente pregunta es dónde tratar a la paciente."
     },
     {
       "file": "s04_g01",
-      "text": "La biopsia endometrial por aspiración confirma histológicamente la presencia de endometritis inflamatoria con infiltración de plasmocitos estromales y neutrófilos intraepiteliales."
+      "text": "Y eso lo deciden los criterios de gravedad: absceso tubo-ovárico, embarazo, sospecha de otra urgencia quirúrgica, un cuadro muy grave, o que no responde en setenta y dos horas."
     },
     {
       "file": "s04_g02",
-      "text": "La ecografía transvaginal es la imagen inicial indispensable ante sospecha de infección pélvica, permitiendo detectar colecciones líquidas en trompas, piosálpinx y abscesos tubo-ováricos."
+      "text": "Sin esos criterios, el manejo es ambulatorio: ceftriaxona intramuscular en dosis única, más doxiciclina y metronidazol orales, por catorce días completos, con control a las cuarenta y ocho o setenta y dos horas."
     },
     {
       "file": "s04_g03",
-      "text": "Toda paciente con dolor pélvico debe contar con test de embarazo en sangre u orina y ecografía para descartar categóricamente un embarazo ectópico complicado o una apendicitis aguda."
+      "text": "Y con esos criterios, se hospitaliza y se usa la vía endovenosa: el mismo esquema, o clindamicina más gentamicina, que cubre muy bien anaerobios y el absceso tubo-ovárico."
     },
     {
       "file": "s05_g00",
-      "text": "El estadio uno de Monif corresponde a una salpingitis aguda simple sin pelviperitonitis ni masas palpables, siendo el único estadio candidato a tratamiento médico ambulatorio con estricto control."
+      "text": "La primera complicación que se pregunta es el síndrome de Fitz-Hugh-Curtis: dolor en el hipocondrio derecho, porque la infección sube por el peritoneo hasta la cápsula del hígado."
     },
     {
       "file": "s05_g01",
-      "text": "El estadio dos presenta extensión de la infección con irritación peritoneal pélvica y Blumberg localizado, exigiendo de inmediato hospitalización y terapia antibiótica endovenosa."
+      "text": "Al operar, se ven adherencias finas entre la cápsula hepática y la pared, como cuerdas de violín. El tratamiento sigue siendo el mismo esquema para la enfermedad pélvica inflamatoria."
     },
     {
       "file": "s05_g02",
-      "text": "El estadio tres se define por la presencia de un absceso tubo-ovárico íntegro con masa purulenta anexial; obliga a hospitalizar para recibir antibióticos parenterales de máxima potencia."
+      "text": "Y sobre el dispositivo intrauterino: solo aumenta el riesgo en las primeras semanas después de instalarlo. Pasado ese tiempo, no es un factor de riesgo."
     },
     {
       "file": "s05_g03",
-      "text": "El estadio cuatro es la rotura del absceso tubo-ovárico hacia el peritoneo libre, desencadenando peritonitis generalizada y shock séptico con indicación de cirugía inmediata."
+      "text": "Y la secuela más importante a largo plazo es la infertilidad tubárica, que aumenta mucho con cada episodio que se repite."
     },
     {
       "file": "s06_g00",
-      "text": "La presencia confirmada de un absceso tubo-ovárico es un criterio absoluto de hospitalización inmediata por el riesgo vital de rotura peritoneal si no responde a fármacos intravenosos."
+      "text": "Ahora juntemos todo en un solo árbol de decisión. Partamos de la sospecha. Lo primero es aplicar los criterios de Hager."
     },
     {
       "file": "s06_g01",
-      "text": "Toda mujer embarazada con sospecha de infección pélvica debe ser ingresada al hospital sin excepción, debido a la gravedad del cuadro sobre la gestación y el binomio materno fetal."
+      "text": "Necesitas los tres presentes para diagnosticar."
     },
     {
       "file": "s06_g02",
-      "text": "Si no es posible descartar con absoluta certeza una apendicitis aguda o una torsión de ovario, la paciente se hospitaliza para observación quirúrgica activa y eventual laparoscopía."
+      "text": "Sin los tres criterios mayores, no puedes llamarlo enfermedad pélvica inflamatoria: busca otra causa del dolor."
     },
     {
       "file": "s06_g03",
-      "text": "Asimismo, la intolerancia gástrica con vómitos incoercibles o el fracaso del tratamiento ambulatorio tras cuarenta y ocho a setenta y dos horas imponen el ingreso intrahospitalario."
+      "text": "Con el diagnóstico confirmado, revisa si hay algún criterio de hospitalización."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Sin criterios de gravedad, tratamiento ambulatorio con los tres antibióticos, y control en cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Con algún criterio de gravedad, hospitalizas y usas la vía endovenosa, vigilando si el absceso necesita drenaje quirúrgico."
     },
     {
       "file": "s07_g00",
-      "text": "El pilar bactericida indiscutible para erradicar Neisseria gonorrhoeae y sus cepas resistentes es la administración inmediata de ceftriaxona quinientos miligramos por vía intramuscular profunda en monodosis estricta durante el primer día de consulta en el centro asistencial."
+      "text": "Repasemos las trampas. Con los tres criterios mayores de Hager, ya puedes diagnosticar. El error es demorar el tratamiento pidiendo estudios de imagen primero."
     },
     {
       "file": "s07_g01",
-      "text": "Para erradicar a Chlamydia trachomatis del epitelio tubario se prescribe formalmente doxiciclina cien miligramos cada doce horas por vía oral durante catorce días completos, asegurando una penetración tisular intracelular óptima en las trompas."
+      "text": "Absceso tubo-ovárico visto en la ecografía: hospitalización obligatoria. El error es tratarlo de forma ambulatoria porque la paciente luce bien."
     },
     {
       "file": "s07_g02",
-      "text": "Es indispensable asociar metronidazol quinientos miligramos cada doce horas vía oral por catorce días para cubrir la flora anaerobia sobreinfectante del tracto genital."
+      "text": "Dolor en el hipocondrio derecho junto con una EIP: piensa en Fitz-Hugh-Curtis. El error es enfocarse solo en la vesícula."
     },
     {
       "file": "s07_g03",
-      "text": "La paciente ambulatoria tiene cita obligatoria de control a las cuarenta y ocho o setenta y dos horas; si persiste febril o el dolor no cede, se hospitaliza de inmediato para terapia endovenosa."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Todas las parejas sexuales de los últimos sesenta días deben ser evaluadas y tratadas empíricamente para gonorrea y clamidia, recomendando abstinencia hasta finalizar los antibióticos."
+      "text": "Y un DIU instalado hace un año: ya no es factor de riesgo. El error es retirarlo sin necesidad, cuando el riesgo real solo dura las primeras semanas."
     },
     {
       "file": "s08_g00",
-      "text": "El esquema clásico hospitalario de alta cobertura anaerobia combina clindamicina novecientos miligramos endovenosos cada ocho horas más gentamicina dos miligramos por kilo de carga y mantenimiento."
+      "text": "Vamos al caso. Mujer de veintitrés años, sexualmente activa, con dolor en el hipogastrio de tres días, fiebre de treinta y ocho coma seis, y flujo purulento. Al tacto bimanual, dolor al mover el cuello uterino y dolor anexial de los dos lados, sin masas. La ecografía no muestra colecciones, y el test de embarazo es negativo."
     },
     {
       "file": "s08_g01",
-      "text": "Una alternativa eficaz es ceftriaxona uno a dos gramos endovenosos al día asociada a doxiciclina oral y metronidazol endovenoso cada doce horas hasta completar mejoría."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "El setenta por ciento de los abscesos tubo-ováricos no complicados menores a ocho centímetros curan con antibióticos endovenosos exclusivos sin requerir ninguna intervención quirúrgica."
+      "text": "Tienes cinco opciones: hospitalizar para tratamiento endovenoso, laparoscopía de urgencia, ceftriaxona más doxiciclina y metronidazol orales por catorce días, solo doxiciclina por siete días, o retirar el DIU y esperar. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Si tras setenta y dos horas de antibióticos intravenosos la paciente persiste febril o el absceso supera los ocho centímetros, se indica drenaje percutáneo guiado por tomografía o laparoscopía."
+      "text": "Es la C. Cumple los tres criterios mayores de Hager, y la fiebre suma como criterio menor: es una enfermedad pélvica inflamatoria. Sin masas ni signos de gravedad, no hay motivo para hospitalizar. El esquema ambulatorio completo, con los tres antibióticos, es lo que corresponde."
     },
     {
       "file": "s09_g00",
-      "text": "La rotura de un absceso tubo-ovárico es una catástrofe quirúrgica que se manifiesta por dolor abdominal difuso hiperagudo diez de diez, vientre en tabla, hipotensión y shock séptico descompensado."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de veinticinco años, sexualmente activa, sin métodos de barrera, con fiebre, dolor abdominal, disuria, y leucorrea. Temperatura de treinta y ocho grados, dolor abdominal mayor en la fosa ilíaca derecha, y dolor a la palpación bimanual."
     },
     {
       "file": "s09_g01",
-      "text": "La conducta inmediata que salva la vida de la paciente es la reanimación con fluidos y el traslado urgente a pabellón para laparotomía exploradora con lavado peritoneal y salpingooforectomía."
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s09_g02",
-      "text": "El síndrome de Fitz-Hugh-Curtis ocurre por diseminación de clamidia o gonococo a lo largo de las correderas parietocólicas hacia la cápsula hepática, simulando un cólico biliar o pleuritis."
+      "text": "Las opciones: Escherichia coli, Gardnerella vaginalis, Trichomona vaginalis, estreptococo grupo A, o gonococo. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "En la laparoscopía se observan adherencias finas y translúcidas patognomónicas en cuerdas de violín entre la cápsula de Glisson y la pared abdominal, respondiendo al tratamiento antibiótico de la infección pélvica."
+      "text": "Es la E, gonococo. El cuadro es una enfermedad pélvica inflamatoria clásica, y el gonococo, junto con la Chlamydia, son los agentes que inician casi todos estos cuadros. La Gardnerella y la Trichomona dan flujo vaginal, no esta clínica de dolor pélvico con fiebre."
     },
     {
       "file": "s10_g00",
-      "text": "El estadio uno no tiene peritonismo y se trata ambulatoriamente con ceftriaxona intramuscular y catorce días de doxiciclina y metronidazol oral."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, sexualmente activa, con disuria y dolor abdominal bajo que se extiende al hipocondrio derecho, con leucorrea sin mal olor."
     },
     {
       "file": "s10_g01",
-      "text": "El estadio dos presenta reacción peritoneal pélvica y exige hospitalización inmediata para recibir antibióticos endovenosos de amplio espectro."
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "El estadio tres presenta una masa purulenta anexial íntegra que se hospitaliza con clindamicina y gentamicina, drenando si fracasa a las setenta y dos horas."
+      "text": "Las opciones: Enterococcus faecalis, Ureaplasma urealyticum, Chlamydia trachomatis, Treponema pallidum, o Mycoplasma genitalium. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "El estadio cuatro es la rotura del absceso con abdomen en tabla y shock séptico, requiriendo laparotomía exploradora de urgencia para salvar la vida."
+      "text": "Es la C, Chlamydia trachomatis. El dolor que sube hasta el hipocondrio derecho es el síndrome de Fitz-Hugh-Curtis, la perihepatitis que acompaña a la enfermedad pélvica inflamatoria, y su causa habitual es justamente la Chlamydia, o el gonococo."
     },
     {
       "file": "s11_g00",
-      "text": "Iniciamos el abordaje confirmando la tríada clínica de Hager y descartando embarazo ectópico."
+      "text": "Cerremos con las reglas de oro. Los tres criterios mayores de Hager: dolor en el hipogastrio, al mover el cuello, y en los anexos."
     },
     {
       "file": "s11_g01",
-      "text": "Si presenta absceso tubo-ovárico, embarazo o peritonismo pélvico ingresamos a hospitalización."
+      "text": "Y un criterio menor lo refuerza: fiebre, leucorrea, o el laboratorio alterado."
     },
     {
       "file": "s11_g02",
-      "text": "Indicamos clindamicina más gentamicina endovenosa, vigilando la respuesta médica."
+      "text": "El absceso tubo-ovárico siempre se hospitaliza."
     },
     {
       "file": "s11_g03",
-      "text": "Ante rotura del absceso con peritonitis y shock realizamos laparotomía exploradora de urgencia."
+      "text": "Sin absceso, sin embarazo y sin peritonitis difusa, el esquema ambulatorio de catorce días funciona bien."
     },
     {
       "file": "s11_g04",
-      "text": "Prescribimos ceftriaxona intramuscular más catorce días de doxiciclina y metronidazol oral con control en cuarenta y ocho horas."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Joven de veintidós años con dolor hipogástrico, dolor a la movilización cervical y dolor anexial bilateral sin colecciones ecográficas, en buenas condiciones generales."
-    },
-    {
-      "file": "s12_g01",
-      "text": "¿Cuál es el esquema farmacológico ambulatorio de elección indicado por las guías clínicas para esta paciente?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "La opción A propone ciprofloxacino oral en monoterapia. La B ceftriaxona intramuscular en dosis única más doxiciclina y metronidazol oral por catorce días. La C amoxicilina con ácido clavulánico. La D metronidazol en dosis única. La E gentamicina. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La respuesta correcta es la B. Se trata de una infección pélvica estadio uno de Monif que requiere triple cobertura con ceftriaxona, doxiciclina y metronidazol por catorce días."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Pregunta sobre la indicación médica indiscutible de hospitalización obligatoria en una paciente con diagnóstico de enfermedad pélvica inflamatoria."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿En cuál de las siguientes situaciones clínicas la paciente con infección pélvica debe ser obligatoriamente hospitalizada para recibir antibióticos endovenosos?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "La opción A propone paciente joven con estadio uno y buena tolerancia. La B presencia de absceso tubo-ovárico en ecografía. La C antecedente previo resuelto. La D cultivo positivo para ureaplasma. La E negativa de la pareja a tratarse. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la B. El hallazgo de un absceso tubo-ovárico en el estadio tres de Monif impone la hospitalización inmediata para antibioticoterapia intravenosa de alta potencia."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Mujer de veinticinco años con infección pélvica que agrega dolor en hipocondrio derecho pleurítico y adherencias en cuerdas de violín entre hígado y pared abdominal en laparoscopía."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es el diagnóstico de esta complicación clínica clásica?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A propone síndrome de Fitz-Hugh-Curtis o perihepatitis. La B hepatitis autoinmune. La C síndrome de Budd-Chiari. La D absceso hepático amebiano. La E pileflebitis de vena porta. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la A. Las adherencias perihepáticas en cuerdas de violín asociadas a dolor pélvico son patognomónicas del síndrome de Fitz-Hugh-Curtis."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Paciente con absceso tubo-ovárico hospitalizada que presenta súbitamente dolor hiperagudo generalizado, abdomen en tabla, hipotensión de ochenta con cuarenta y shock séptico."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es el diagnóstico y la conducta médica inmediata que salva la vida de la paciente?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A propone apendicitis con colonoscopía. La B rotura de absceso tubo-ovárico con shock séptico y laparotomía exploradora de urgencia en pabellón. La C embolia pulmonar. La D conducta expectante. La E hemorragia digestiva. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. La rotura de un absceso tubo-ovárico produce peritonitis purulenta masiva y shock séptico que exige laparotomía exploradora inmediata."
-    },
-    {
-      "file": "s16_g00",
-      "text": "La presencia de dolor hipogástrico junto a dolor cervical y anexial bimanual basta para iniciar tratamiento antibiótico empírico inmediato sin esperar confirmación microbiológica."
-    },
-    {
-      "file": "s16_g01",
-      "text": "El estadio uno no complicado se trata de forma ambulatoria con ceftriaxona intramuscular y catorce días completos de doxiciclina y metronidazol, citando a control a las cuarenta y ocho horas."
-    },
-    {
-      "file": "s16_g02",
-      "text": "El absceso tubo-ovárico o la coexistencia de embarazo obligan a hospitalizar de urgencia para terapia intravenosa combinada con clindamicina y gentamicina."
-    },
-    {
-      "file": "s16_g03",
-      "text": "La rotura de un absceso tubo-ovárico en el estadio cuatro de Monif constituye una catástrofe que exige traslado inmediato a pabellón para laparotomía exploradora."
-    },
-    {
-      "file": "s16_g04",
-      "text": "Cada episodio de salpingitis lesiona gravemente el endosálpinx, siendo la causa primordial de infertilidad tubárica y multiplicando el riesgo de embarazo ectópico futuro."
-    },
-    {
-      "file": "s16_g05",
-      "text": "Las adherencias en cuerda de violín reflejan una infección pélvica previa. Si te llevas una sola idea de hoy: el dolor pélvico crónico requiere un enfoque multidisciplinario, descartando endometriosis, adenomiosis y síndrome miofascial antes de cualquier cirugía. Nos vemos en la próxima clase."
+      "text": "Si te llevas una sola idea de hoy: ante dolor en el hipocondrio derecho en una mujer joven con antecedente pélvico, piensa en Fitz-Hugh-Curtis antes que en la vesícula. Nos vemos en la próxima clase."
     }
   ]
 }

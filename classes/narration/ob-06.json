@@ -2,283 +2,199 @@
   "id": "ob-06",
   "title": "Obstetricia 19.6: Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
   "specialty": "Obstetricia",
-  "chars": 14278,
+  "chars": 8063,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre emergencias hipertensivas en el embarazo. Nos enfrentamos a las complicaciones más temidas de la obstetricia: la preeclampsia severa, la eclampsia y el síndrome HELLP. En esta sesión aprenderemos a identificar de inmediato los criterios formales de severidad, a manejar el sulfato de magnesio según el esquema de Zuspan, a emplear el gluconato de calcio como antídoto y a controlar la crisis con labetalol endovenoso. Comencemos."
+      "text": "Bienvenida a la continuación directa de la clase anterior. Ahí vimos la preeclampsia sin severidad; hoy vemos qué pasa cuando se complica: preeclampsia severa, eclampsia y síndrome HELLP. Este es un tema de máxima rentabilidad, y la buena noticia es que casi todo se resuelve con una sola idea: hay un orden fijo de acción, y ese orden empieza siempre con el sulfato de magnesio. Vamos a verlo."
     },
     {
       "file": "s01_g00",
-      "text": "La preeclampsia con criterios de severidad se caracteriza por crisis hipertensivas o compromiso hemodinámico y celular de órganos vitales. A partir de este momento la paciente entra en inminente riesgo de complicaciones que amenazan la vida tanto de la madre como del feto."
+      "text": "Empecemos por los criterios de severidad. Basta que aparezca uno solo para que tu paciente pase de leve a severa. El primero: presión ciento sesenta sobre ciento diez o más, confirmada en dos tomas con quince minutos de diferencia."
     },
     {
       "file": "s01_g01",
-      "text": "Cuando el vasoespasmo cerebral y el edema vasogénico vencen los mecanismos de autorregulación vascular, aparecen los síntomas premonitorios de eclampsia: cefalea pulsátil, fosfenos e hiperreflexia patológica con clonus. Si no se frena inmediatamente con sulfato de magnesio, sobrevienen convulsiones tónico clónicas generalizadas con altísimo riesgo de accidente cerebrovascular hemorrágico letal."
+      "text": "El segundo grupo es de laboratorio: plaquetas bajo cien mil, o transaminasas al doble de lo normal, o creatinina sobre uno coma uno."
     },
     {
       "file": "s01_g02",
-      "text": "Paralelamente, la microangiopatía trombótica difusa puede desencadenar el síndrome HELLP con hemólisis microangiopática intravascular, necrosis hepatocelular y consumo masivo de plaquetas. Tanto en la eclampsia como en el síndrome HELLP, la única cura definitiva es la interrupción del embarazo una vez estabilizada la madre con sulfato de magnesio."
+      "text": "Y el tercer grupo es neurológico y visceral: cefalea intensa que no cede, escotomas centellantes, o un dolor en el epigastrio que tampoco cede. Fíjate en algo: ese dolor epigástrico no es casualidad, viene de la cápsula del hígado estirándose, y lo vamos a ver de nuevo en el HELLP."
     },
     {
       "file": "s02_g00",
-      "text": "Una presión arterial mayor o igual a ciento sesenta con ciento diez milímetros de mercurio en dos tomas separadas por quince minutos define una crisis hipertensiva severa que requiere rescate farmacológico inmediato para evitar rotura vascular encefálica."
+      "text": "Desde esta preeclampsia severa, hay dos caminos que se pueden disparar, y ambos son urgencias."
     },
     {
       "file": "s02_g01",
-      "text": "La presencia de cefalea intensa holocraneana o frontal que no cede a analgésicos comunes, alteraciones visuales como fosfenos o escotomas centellantes, o clonus inagotable, anuncia una convulsión inminente por edema vasogénico occipital."
+      "text": "El primero es la eclampsia: convulsiones tónico-clónicas generalizadas, sin que haya otra causa neurológica de por medio."
     },
     {
       "file": "s02_g02",
-      "text": "El dolor epigástrico o en hipocondrio derecho traduce isquemia y distensión aguda de la cápsula hepática de Glisson por necrosis centrolobulillar, siendo la antesala de un hematoma subcapsular hepático con riesgo de rotura catastrófica."
+      "text": "Y su complicación más temida es la hemorragia cerebral, que es la causa más frecuente de muerte materna en la eclampsia. Justamente por eso el sulfato de magnesio es tan importante: previene la siguiente convulsión."
     },
     {
       "file": "s02_g03",
-      "text": "El recuento de plaquetas menor a cien mil por milímetro cúbico refleja consumo periférico acelerado por daño endotelial extenso y depósito difuso de fibrina en la microvasculatura."
+      "text": "El segundo camino es el síndrome HELLP: hemólisis, con esquistocitos y LDH sobre seiscientos; enzimas hepáticas elevadas; y plaquetas bajo cien mil."
     },
     {
       "file": "s02_g04",
-      "text": "La elevación de transaminasas séricas al doble del límite superior normal y la creatinina plasmática mayor a uno coma un miligramos por decilitro confirman falla orgánica avanzada y pérdida de la función de filtración."
-    },
-    {
-      "file": "s02_g05",
-      "text": "El edema pulmonar es una emergencia de máxima gravedad producida por aumento de la permeabilidad capilar y disfunción ventricular izquierda aguda secundaria a la elevadísima poscarga vascular periférica."
+      "text": "Su complicación catastrófica es la rotura hepática, con un dolor en puñalada y shock hipovolémico súbito. Ese dolor epigástrico intenso que no cede es la alarma que no puedes dejar pasar."
     },
     {
       "file": "s03_g00",
-      "text": "La cefalea intensa y los fosfenos traducen edema cerebral vasogénico occipital y preceden a las convulsiones. Exigen administrar sulfato de magnesio de inmediato para estabilizar la membrana neuronal."
+      "text": "Vamos al tratamiento, en el orden en que se hace. Primero, siempre, el sulfato de magnesio: una carga de cuatro a cinco gramos endovenosos en veinte minutos."
     },
     {
       "file": "s03_g01",
-      "text": "El clonus inagotable al dorsiflectar el pie revela hiperexcitabilidad del sistema nervioso central y anticipa una crisis convulsiva generalizada. Requiere ingreso inmediato a una unidad de cuidados intensivos."
+      "text": "Y después, una mantención de uno a dos gramos por hora, que se mantiene veinticuatro horas después del parto."
     },
     {
       "file": "s03_g02",
-      "text": "El dolor en barra epigástrico alerta sobre distensión de la cápsula hepática y riesgo de rotura con hemoperitoneo letal. Obliga a descartar hematoma subcapsular y planificar la interrupción."
+      "text": "Mientras la pasas, vigilas tres cosas cada hora. La primera: que el reflejo rotuliano siga presente. Su ausencia es la primera señal de que hay demasiado magnesio."
     },
     {
       "file": "s03_g03",
-      "text": "Los crepitantes difusos traducen edema agudo de pulmón. En este caso específico sí está indicada la furosemida endovenosa junto con soporte ventilatorio y restricción hídrica estricta."
+      "text": "La segunda, que la frecuencia respiratoria esté bien. Y la tercera, que la diuresis se mantenga, porque el magnesio se elimina solo por el riñón."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si algo de esto falla, el antídoto es el gluconato de calcio, un gramo endovenoso, que tiene que estar disponible al lado de la cama."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Con el magnesio ya puesto, controlas la presión con labetalol endovenoso en bolos crecientes, buscando una meta de ciento cuarenta a ciento cincuenta sobre noventa a cien. No más abajo: bajarla de más le corta la circulación a la placenta."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Y si tu paciente no puede recibir labetalol, por ejemplo por bradicardia o por asma, la hidralazina endovenosa es la alternativa."
+    },
+    {
+      "file": "s03_g07",
+      "text": "Y una vez que la madre está estable, interrumpes el embarazo. En la eclampsia y en el HELLP, esa interrupción es la única cura, y no espera a que avance la edad gestacional."
     },
     {
       "file": "s04_g00",
-      "text": "Cuando la presión arterial media supera los límites superiores de autorregulación cerebral, los vasos del lecho encefálico se dilatan de forma forzada, provocando hiperperfusión y rotura de la barrera hematoencefálica con fuga masiva de proteínas y líquido al intersticio."
+      "text": "Veamos esto con más detalle, porque se pregunta seguido. Entre cuatro y siete miliequivalentes por litro estás en el rango que buscas: los reflejos están conservados y la diuresis es normal. Ahí mantienes la infusión tal como está."
     },
     {
       "file": "s04_g01",
-      "text": "El líquido extravasado genera edema vasogénico de predominio en las regiones parieto-occipitales del encéfalo, configurando el llamado síndrome de leucoencefalopatía posterior reversible. Esto explica por qué las pacientes presentan ceguera cortical transitoria, escotomas y cefalea occipital intensa."
+      "text": "Entre ocho y diez, el primer signo aparece: se abole el reflejo rotuliano. Ahí suspendes la infusión de inmediato, antes de que avance más."
     },
     {
       "file": "s04_g02",
-      "text": "El edema cortical y la isquemia focal generan hiperexcitabilidad neuronal mediada por receptores de glutamato de tipo N-metil-D-aspartato, desencadenando una despolarización sincrónica generalizada. Esto culmina en la crisis convulsiva tónico clónica de la eclampsia, que induce bradicardia fetal severa y riesgo inminente de sangrado intracraneano materno."
+      "text": "Entre diez y doce, ya hay depresión respiratoria, con menos de doce respiraciones por minuto. Ahí no basta con suspender: agregas el gluconato de calcio."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y sobre quince, el magnesio bloquea la conducción del corazón y puede llevar al paro. Ahí es gluconato de calcio más intubación, sin demora."
     },
     {
       "file": "s05_g00",
-      "text": "La destrucción mecánica de glóbulos rojos al circular por capilares lesionados y redes de fibrina produce esquistocitos en el frotis, hiperbilirrubinemia de predominio indirecto y lactato deshidrogenasa mayor a seiscientas unidades por litro."
+      "text": "Pongamos el orden completo en un solo árbol de decisión. Aquí tienes la emergencia. Actúas en un orden fijo: primero el magnesio, después todo lo demás."
     },
     {
       "file": "s05_g01",
-      "text": "La necrosis isquémica focal hepatocelular secundaria a microtrombos intrahepáticos eleva las transaminasas séricas por encima de setenta unidades por litro o al doble de sus valores de referencia normales."
+      "text": "La primera pregunta ante una preeclampsia con criterio de severidad es simple: ¿ya convulsionó?"
     },
     {
       "file": "s05_g02",
-      "text": "El daño endotelial diseminado activa la agregación plaquetaria intravascular a gran escala, provocando un rápido consumo periférico que derrumba el recuento plaquetario por debajo de cien mil."
+      "text": "Si convulsionó, es eclampsia, sin importar si ya le habías bajado la presión."
     },
     {
       "file": "s05_g03",
-      "text": "La complicación quirúrgica más temida del síndrome HELLP es la rotura de un hematoma subcapsular hepático, manifestada por dolor en puñalada en hipocondrio derecho y shock hipovolémico súbito que exige laparotomía urgente."
+      "text": "Si no ha convulsionado todavía, igual está en riesgo de hacerlo, así que recibe el sulfato de magnesio de todas formas, como prevención."
     },
     {
       "file": "s05_g04",
-      "text": "El síndrome HELLP es una patología biológicamente progresiva que no responde a manejo expectante. Su único tratamiento curativo es la interrupción del embarazo, la cual debe ejecutarse expeditamente tras estabilizar a la paciente."
+      "text": "Lo primero, siempre, es el sulfato de magnesio: no el antihipertensivo, no la cesárea. Primero esto."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Después de estabilizarla, pregúntate si tiene hemólisis, transaminasas elevadas y plaquetas bajas."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si los tres están presentes, es síndrome HELLP, y la interrupción es inmediata, sin importar cuántas semanas tenga."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Si no cumple los tres criterios, igual interrumpes, pero apenas la madre esté estable."
     },
     {
       "file": "s06_g00",
-      "text": "El síndrome HELLP casi siempre se acompaña de hipertensión arterial severa, mientras que el hígado graso agudo suele debutar con presión arterial estrictamente normal."
+      "text": "Repasemos las trampas. Preeclampsia severa que todavía no convulsiona: el sulfato de magnesio se da igual, como prevención. El error es esperar la convulsión para recién indicarlo."
     },
     {
       "file": "s06_g01",
-      "text": "La hipoglicemia severa es el signo distintivo cardinal del hígado graso agudo por falla mitocondrial hepática masiva, mientras que en el HELLP la glicemia permanece en rangos normales."
+      "text": "Convulsión en una embarazada con preeclampsia, aunque tenga antecedente de epilepsia: sigue siendo eclampsia, y el tratamiento es sulfato de magnesio, no fenobarbital ni diazepam."
     },
     {
       "file": "s06_g02",
-      "text": "El hígado graso agudo cursa con insuficiencia hepática fulminante con coagulopatía precoz y caída rápida de la protrombina, mientras que el HELLP inicia con trombocitopenia aislada."
+      "text": "Si ya le controlaste la presión y aun así convulsiona, sigue siendo el sulfato de magnesio lo que corresponde, no un segundo antihipertensivo."
     },
     {
       "file": "s06_g03",
-      "text": "El hígado graso agudo presenta hiperuricemia desproporcionada y encefalopatía hepática con aumento de amonio, orientando hacia insuficiencia hepatocelular primaria."
+      "text": "Y si el reflejo rotuliano desaparece durante la infusión, suspendes el magnesio y das gluconato de calcio. El error más peligroso es aumentar la dosis pensando que hace falta más."
     },
     {
       "file": "s07_g00",
-      "text": "El sulfato de magnesio es muy superior a las benzodiacepinas y fenitoína para prevenir y yugular convulsiones eclampsicas actuando como antagonista de los receptores NMDA y vasodilatador cerebral. Se inicia con una dosis de carga de cuatro a cinco gramos endovenosos administrados en quince a veinte minutos diluidos en suero fisiológico o glucosado."
+      "text": "Vamos con un caso. Embarazada de treinta y cinco semanas, traída tras una convulsión tónico-clónica de dos minutos en su casa. Llega en período postictal, con presión ciento setenta y cuatro sobre ciento catorce, e hiperreflexia con clonus bilateral."
     },
     {
       "file": "s07_g01",
-      "text": "Inmediatamente tras la carga, se continúa con una infusión de mantenimiento de uno a dos gramos por hora en bomba continua. Esta infusión debe mantenerse durante todo el trabajo de parto y prolongarse rigurosamente durante las primeras veinticuatro horas del posparto, cuando ocurre casi la mitad de los episodios eclampsicos."
+      "text": "¿Cuál es la primera medida terapéutica?"
     },
     {
       "file": "s07_g02",
-      "text": "Debido a su estrecho margen terapéutico y a que se elimina de manera exclusiva por filtración renal, cada hora se debe verificar la presencia de reflejo patelar vivo, frecuencia respiratoria normal y diuresis horaria suficiente para prevenir una sobredosis accidental."
+      "text": "Tienes cinco opciones: labetalol endovenoso, sulfato de magnesio endovenoso, cesárea de urgencia sin más estudio, diazepam endovenoso, o una tomografía de cerebro. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Convulsionó, así que ya es eclampsia. Y en eclampsia, antes que la presión, antes que decidir cómo nace el bebé, va el sulfato de magnesio: es lo que evita la siguiente convulsión. El diazepam queda descartado, porque el magnesio le gana en eficacia."
     },
     {
       "file": "s08_g00",
-      "text": "La abolición del reflejo rotuliano es el signo clínico más temprano y fidedigno de intoxicación. Ocurre con concentraciones séricas de ocho a diez miliequivalentes por litro y precede a la parálisis respiratoria."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Primigesta de treinta y dos semanas, con cefalea intensa y presión ciento setenta sobre ciento diez. Le dan labetalol endovenoso y baja a ciento cuarenta sobre noventa. Pero dos horas después, convulsiona por dos minutos."
     },
     {
       "file": "s08_g01",
-      "text": "Una frecuencia respiratoria menor a doce respiraciones por minuto indica depresión del centro respiratorio por bloqueo neuromuscular, constituyendo una emergencia vital con riesgo de paro hipóxico."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "El magnesio se excreta íntegramente por los riñones. Una diuresis menor a treinta mililitros por hora provoca acumulación plasmática progresiva e intoxicación grave en cuestión de pocas horas."
+      "text": "Las opciones: lorazepam endovenoso, labetalol endovenoso, sulfato de magnesio endovenoso, tocolíticos endovenosos, o maduración pulmonar. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Frente a la pérdida del reflejo rotuliano o bradipnea, la conducta médica inmediata consiste en suspender la infusión de sulfato de magnesio y administrar un gramo de gluconato de calcio al diez por ciento por vía endovenosa lenta en tres a cinco minutos."
-    },
-    {
-      "file": "s08_g04",
-      "text": "La ampolla de gluconato de calcio debe estar permanentemente preparada a la cabecera de toda paciente que reciba sulfato de magnesio para responder de forma instantánea ante cualquier signo de toxicidad neuromuscular."
+      "text": "Es la C. Fíjate en la trampa: ya le habían controlado bien la presión, y aun así convulsionó. Eso te confirma que controlar la presión no basta para prevenir la eclampsia. Ahora que convulsionó, el paso que corresponde es el sulfato de magnesio, sin importar que el labetalol ya haya funcionado."
     },
     {
       "file": "s09_g00",
-      "text": "El labetalol endovenoso es el fármaco de primera línea de rescate. Se administra en bolos crecientes de veinte, cuarenta y ochenta miligramos hasta una dosis acumulada máxima de trescientos miligramos, controlando la presión cada cinco minutos."
+      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veintidós. Embarazada de treinta y dos semanas, con dolor epigástrico y en el hipocondrio derecho de dos días. Sus plaquetas están en ochenta mil, la bilirrubina en dos, y las transaminasas muy elevadas. La ecografía muestra litiasis vesicular."
     },
     {
       "file": "s09_g01",
-      "text": "El nifedipino oral es una excelente alternativa si no se dispone de vía venosa inmediata. Debe tragarse entero, jamás administrarse sublingual para evitar un colapso tensional súbito con sufrimiento fetal agudo."
-    },
-    {
-      "file": "s09_g02",
-      "text": "La hidralazina endovenosa es un vasodilatador directo arteriolar seguro, aunque puede desencadenar taquicardia materna refleja y cefalea pulsátil que puede confundirse con síntomas premonitorios."
-    },
-    {
-      "file": "s09_g03",
-      "text": "La meta nunca es normalizar la presión a cifras menores a ciento veinte con ochenta. Un descenso excesivo provocaría colapso en la perfusión útero placentaria y asfixia fetal aguda irreversible."
-    },
-    {
-      "file": "s10_g00",
-      "text": "Iniciamos el abordaje de emergencia evaluando simultáneamente la vía aérea, las cifras tensionales y el estado neurológico."
-    },
-    {
-      "file": "s10_g01",
-      "text": "Si la paciente presenta convulsiones o pródromos neurológicos graves, aseguramos la vía aérea e iniciamos neuroprotección."
-    },
-    {
-      "file": "s10_g02",
-      "text": "Administramos la dosis de carga de sulfato de magnesio y mantenemos la infusión continua."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Ante pérdida del reflejo rotuliano o bradipnea, suspendemos la infusión y pasamos gluconato de calcio al diez por ciento."
-    },
-    {
-      "file": "s10_g04",
-      "text": "Si presenta crisis hipertensiva iniciamos rescate con labetalol endovenoso o nifedipino oral."
-    },
-    {
-      "file": "s10_g05",
-      "text": "Alcanzada la meta de seguridad, mantenemos vigilancia hemodinámica continua sin descender a presiones normales."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Una vez estabilizada la paciente procedemos a la interrupción del embarazo según la edad gestacional y gravedad."
-    },
-    {
-      "file": "s11_g00",
-      "text": "En la eclampsia las benzodiacepinas no son de primera línea. El sulfato de magnesio reduce a la mitad la recurrencia de crisis convulsivas en comparación con cualquier anticonvulsivante tradicional."
-    },
-    {
-      "file": "s11_g01",
-      "text": "La pérdida del reflejo rotuliano es el primer signo de intoxicación. Se suspende el sulfato de inmediato y se administra el antídoto específico endovenoso sin esperar a que ocurra paro respiratorio."
-    },
-    {
-      "file": "s11_g02",
-      "text": "Bajar la presión bruscamente puede causar isquemia cerebral materna y colapso de órganos diana. La meta terapéutica busca siempre un rango de seguridad moderado y bien tolerado."
-    },
-    {
-      "file": "s11_g03",
-      "text": "El síndrome HELLP nunca se maneja de forma expectante. La interrupción del embarazo es la única cura causal y debe realizarse tras estabilizar hemodinámicamente a la paciente."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Una paciente de treinta y cuatro semanas con preeclampsia severa recibe sulfato de magnesio en bomba continua. En el control horario presenta frecuencia respiratoria de diez por minuto, ausencia bilateral del reflejo rotuliano y diuresis de quince mililitros en la última hora."
-    },
-    {
-      "file": "s12_g01",
-      "text": "¿Cuál es la conducta médica inmediata?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "La opción A propone aumentar la infusión. La B suspender el sulfato de magnesio y administrar gluconato de calcio al diez por ciento endovenoso. La C diazepam endovenoso. La D intubación orotraqueal sin antídoto. La E furosemida endovenosa. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La respuesta correcta es la B. La tríada de arreflexia rotuliana, bradipnea y oliguria confirma intoxicación aguda por sulfato de magnesio. Se debe suspender la infusión inmediatamente y pasar un gramo de gluconato de calcio endovenoso lento en tres a cinco minutos."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Una primigesta de treinta y ocho semanas en trabajo de parto presenta presión arterial sostenida de ciento setenta y cinco con ciento quince milímetros de mercurio, cefalea frontal y fotopsias."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es el fármaco de rescate endovenoso de primera línea para el control rápido de la crisis?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "La opción A propone nitroprusiato de sodio. La B labetalol endovenoso en bolo inicial de veinte miligramos. La C enalaprilato endovenoso. La D furosemida en bolo. La E nifedipino sublingual masticado. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la B. El labetalol endovenoso es el antihipertensivo parenteral de elección para la crisis hipertensiva en el embarazo. El enalaprilato está prohibido y el nifedipino sublingual está proscrito por riesgo de hipotensión precipitada y desaceleraciones fetales severas."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Una embarazada de treinta y dos semanas consulta en urgencias por cefalea intensa, fotopsias, epigastralgia, presión arterial de ciento sesenta con ciento diez milímetros de mercurio y clonus."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es la conducta terapéutica inicial prioritaria?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A propone administrar sulfato de magnesio intravenoso. La B diazepam diez miligramos intravenoso. La C reposo en decúbito lateral. La D cesárea inmediata sin medicación. La E paracetamol y derivar. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la A. Los síntomas neurológicos con presión de ciento sesenta con ciento diez representan inminencia de eclampsia. La prioridad absoluta para evitar convulsiones y hemorragia cerebral materna es el sulfato de magnesio intravenoso."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Una paciente con embarazo sobre veinte semanas presenta dolor epigástrico constante, hipertensión arterial severa, elevación marcada de transaminasas y trombocitopenia."
-    },
-    {
-      "file": "s15_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
-      "file": "s15_g02",
-      "text": "La opción A plantea hepatitis viral aguda. La B colecistitis aguda. La C síndrome de HELLP. La D colestasia intrahepática. La E púrpura trombocitopénico idiopático. Piénsalo."
+      "file": "s09_g02",
+      "text": "Las opciones: pancreatitis aguda, hepatitis viral, colecistitis aguda, colestasia intrahepática, o síndrome de HELLP. Piénsalo."
     },
     {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la C. La coexistencia de hipertensión, dolor epigástrico, hepatitis isquémica y consumo plaquetario en el segundo o tercer trimestre define el síndrome HELLP hasta demostrar lo contrario."
+      "file": "s09_g03",
+      "text": "Es la E. Junta las tres letras: plaquetas bajas, transaminasas muy altas, y la bilirrubina elevada te habla de hemólisis. Eso es HELLP. La litiasis vesicular es la trampa: aparece en la ecografía, pero es un hallazgo incidental frecuente en el embarazo, no la causa de este cuadro."
     },
     {
-      "file": "s16_g00",
-      "text": "El sulfato de magnesio es el fármaco indiscutido para prevenir y tratar las convulsiones eclampsicas, superando ampliamente a las benzodiacepinas."
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Ante cualquier severidad, lo primero es siempre el sulfato de magnesio, antes que tratar la presión o decidir el parto."
     },
     {
-      "file": "s16_g01",
-      "text": "Ante pérdida del reflejo rotuliano o bradipnea, se suspende la infusión y se pasa de inmediato gluconato de calcio al diez por ciento endovenoso."
+      "file": "s10_g01",
+      "text": "Vigilas el reflejo rotuliano, la respiración y la diuresis cada hora, con el gluconato de calcio listo si aparece toxicidad."
     },
     {
-      "file": "s16_g02",
-      "text": "El labetalol parenteral es la primera línea en crisis hipertensiva; la meta es ciento cuarenta a ciento cincuenta con noventa a cien milímetros de mercurio."
-    },
-    {
-      "file": "s16_g03",
-      "text": "Si te llevas una sola idea de hoy: en eclampsia y síndrome HELLP la interrupción del embarazo es la única cura definitiva y debe realizarse de inmediato una vez estabilizada la paciente. Nos vemos en la próxima clase."
+      "file": "s10_g02",
+      "text": "Y en eclampsia y en HELLP, la interrupción no espera la edad gestacional: se hace apenas la madre está estable. Si te llevas una sola idea de hoy: en la emergencia hipertensiva, el orden es magnesio primero, siempre. Nos vemos en la próxima clase, donde vemos la diabetes en el embarazo."
     }
   ]
 }

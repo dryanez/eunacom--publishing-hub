@@ -2,275 +2,239 @@
   "id": "ped-18",
   "title": "Pediatria 18.18: Dificultad Respiratoria Neonatal: EMH (Déficit de Surfactante) vs TTNR (Pulmón Húmedo) vs SAM",
   "specialty": "Pediatría",
-  "chars": 12618,
+  "chars": 11330,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre dificultad respiratoria neonatal, una de las urgencias vitales más desafiantes en sala de partos y un clásico absoluto en el examen EUNACOM. En esta sesión aprenderemos a graduar la gravedad con el score de Silverman y Andersen, dominaremos el diagnóstico diferencial entre la enfermedad de membrana hialina del prematuro, el pulmón húmedo del nacido por cesárea y la aspiración meconial del postérmino asfíctico, interpretando sus patrones radiológicos característicos. Comencemos."
+      "text": "Bienvenido a la clase de dificultad respiratoria neonatal. Vas a ver tres cuadros que se preguntan todo el tiempo: la enfermedad de membrana hialina, la taquipnea transitoria y el síndrome de aspiración meconial. Los tres se ven parecidos al inicio, pero el antecedente obstétrico y la radiografía te dicen exactamente cuál es cada uno. Empecemos."
     },
     {
       "file": "s01_g00",
-      "text": "En el prematuro la falta de surfactante incrementa la tensión superficial provocando atelectasias difusas progresivas que colapsan el pulmón al final de cada espiración. En contraste, en el recién nacido de término por cesárea electiva los canales epiteliales de sodio no se activan a tiempo, reteniendo líquido en el intersticio y en los alvéolos."
+      "text": "Antes de entrar a los tres cuadros, aprende a medir la gravedad. La escala de Silverman-Andersen funciona al revés que el Apgar: cero puntos significa que no hay dificultad respiratoria, y diez puntos es la gravedad máxima. No te confundas con el sentido de los números."
     },
     {
       "file": "s01_g01",
-      "text": "En el síndrome de aspiración meconial el material espeso bloquea mecánicamente las vías aéreas generando un mecanismo valvular con sobredistensión y atelectasias secundarias, sumado a una intensa neumonitis química que desactiva el surfactante y precipita hipoxemia refractaria con hipertensión pulmonar persistente severa."
+      "text": "Suma cinco signos: el quejido espiratorio, el aleteo nasal, el tiraje intercostal, la retracción del esternón, y la disociación entre el tórax y el abdomen al respirar. Cada uno se puntúa de cero a dos."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Con uno a tres puntos la dificultad es leve, con cuatro a seis es moderada, y con siete o más ya es grave y necesita soporte respiratorio de inmediato. Ahora sí, vamos a los tres cuadros que la producen."
     },
     {
       "file": "s02_g00",
-      "text": "Se evalúa la sincronía toraco-abdominal observando si el tórax y el abdomen se expanden armónicamente en inspiración o si existe un bamboleo respiratorio con colapso torácico y distensión abdominal alternante."
+      "text": "Vamos signo por signo. El movimiento toracoabdominal: si es rítmico y sincrónico, cero puntos. Si el tórax queda quieto y solo se mueve el abdomen, un punto. Y si están totalmente disociados, en balancín, dos puntos."
     },
     {
       "file": "s02_g01",
-      "text": "Se examina la retracción xifoidea subesternal y el aleteo nasal, un reflejo protector mediante el cual el recién nacido dilata activamente sus fosas nasales para disminuir la resistencia inspiratoria de la vía aérea superior."
+      "text": "El tiraje intercostal va de ausente, a discreto, a acentuado y visible."
     },
     {
       "file": "s02_g02",
-      "text": "El quejido espiratorio es un esfuerzo fisiológico compensatorio donde el neonato espira contra su glotis entreabierta, reteniendo volumen gaseoso y generando una presión positiva intrínseca para frenar el colapso alveolar."
+      "text": "La retracción xifoidea, debajo del esternón, se puntúa igual: ausente, discreta o acentuada."
     },
     {
       "file": "s02_g03",
-      "text": "Si no hay quejido se califica con cero puntos, si se detecta únicamente mediante la auscultación con fonendoscopio suma un punto y si se escucha a distancia al pie de la cuna otorga dos puntos de gravedad."
+      "text": "El aleteo nasal, lo mismo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y el quejido espiratorio: ausente, audible solo con el fonendoscopio, o audible a distancia, sin necesitar ningún instrumento. Suma los cinco signos y con siete puntos o más ya sabes que la dificultad es grave."
     },
     {
       "file": "s03_g00",
-      "text": "El aleteo nasal pasa de estar completamente ausente en reposo a ser discreto y finalmente continuo y evidente."
+      "text": "Empecemos por el primer cuadro. En un prematuro menor de treinta y cinco semanas, los neumocitos que fabrican el surfactante todavía no maduran del todo. Mientras más chico, menos surfactante tiene."
     },
     {
       "file": "s03_g01",
-      "text": "El quejido se califica con un punto si requiere fonendoscopio y con dos puntos si es audible sin instrumentos."
+      "text": "Y sin surfactante, la tensión superficial dentro del alvéolo se dispara, porque el surfactante es justo lo que la mantiene baja."
     },
     {
       "file": "s03_g02",
-      "text": "El tiraje intercostal traduce el uso intenso de musculatura accesoria con colapso visible de las partes blandas."
+      "text": "Por eso el alvéolo colapsa cada vez que el bebé espira. Y aquí está el porqué del quejido: el recién nacido cierra parcialmente la glotis para mantener algo de presión y evitar que el pulmón se colapse del todo. No es un ruido cualquiera, es un mecanismo de defensa."
     },
     {
       "file": "s03_g03",
-      "text": "La retracción xifoidea profunda otorga dos puntos reflejando presiones intratorácicas sumamente negativas."
+      "text": "Dos factores lo agravan: el hijo de madre diabética, porque el exceso de insulina frena la maduración del surfactante, y la cesárea sin trabajo de parto, que le quita al pulmón el estímulo hormonal del parto."
     },
     {
       "file": "s04_g00",
-      "text": "Los neumocitos tipo dos maduran hacia la semana treinta y cuatro a treinta y cinco de gestación. En recién nacidos más prematuros, la carencia de fosfolípidos tensioactivos impide reducir la tensión superficial."
+      "text": "La clínica empieza desde el nacimiento o en las primeras horas: quejido intenso, polipnea y cianosis que va progresando."
     },
     {
       "file": "s04_g01",
-      "text": "Al final de cada ciclo respiratorio los alvéolos colapsan íntegramente, requiriendo un gasto energético enorme para volver a inflarse, lo que conduce con rapidez a fatiga muscular, hipoxemia y acidosis respiratoria grave."
+      "text": "La radiografía es al revés de lo que vas a ver en el siguiente cuadro: el pulmón está hipoinsuflado, con menos de siete espacios intercostales visibles."
     },
     {
       "file": "s04_g02",
-      "text": "La probabilidad de desarrollar membrana hialina es inversamente proporcional a la edad gestacional, afectando a la mayoría de los prematuros extremos que no recibieron profilaxis con corticoides prenatales."
+      "text": "Y aparece el patrón en vidrio esmerilado, con broncograma aéreo bien marcado: el aire que queda dentro de los bronquios se ve nítido sobre un pulmón colapsado alrededor."
     },
     {
       "file": "s04_g03",
-      "text": "El exceso de insulina en el hijo de madre diabética antagoniza biológicamente la acción de los corticoides endógenos, retrasando la maduración bioquímica pulmonar incluso en edades gestacionales avanzadas."
+      "text": "La prevención es corticoides prenatales a la madre, betametasona, entre las semanas veinticuatro y treinta y cuatro de gestación, en dos dosis con un día de diferencia. Es una de las intervenciones que más reduce esta enfermedad, y por eso se pregunta tanto."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y ya nacido, el tratamiento es CPAP nasal precoz más surfactante exógeno por vía endotraqueal, entre cien y doscientos miligramos por kilo, administrado apenas el bebé necesita más de treinta por ciento de oxígeno en el CPAP. Sin este tratamiento, el cuadro empeora hasta el tercer día."
     },
     {
       "file": "s05_g00",
-      "text": "El cuadro se manifiesta desde el nacimiento con polipnea, quejido continuo audible, retracción esternal acentuada y requerimientos crecientes de oxígeno que alcanzan su máxima severidad hacia las cuarenta y ocho horas."
+      "text": "El segundo cuadro es la taquipnea transitoria, y parte de un antecedente distinto al de la membrana hialina: la cesárea electiva, sin trabajo de parto previo, en un recién nacido de término o casi de término."
     },
     {
       "file": "s05_g01",
-      "text": "En el examen físico pulmonar destaca un murmullo vesicular notablemente amortiguado de forma homogénea en ambos campos, acompañado de crépitos inspiratorios finos por la apertura alveolar forzada."
+      "text": "El feto viene con líquido dentro del pulmón, y normalmente el trabajo de parto y sus catecolaminas activan los canales de sodio que lo reabsorben. Sin ese estímulo, el líquido se reabsorbe lento."
     },
     {
       "file": "s05_g02",
-      "text": "La radiografía de tórax revela una marcada hipoinsuflación con menos de siete espacios intercostales visibles sobre las cúpulas diafragmáticas debido a las microatelectasias generalizadas."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Aparece un infiltrado reticulogranular difuso y simétrico en vidrio esmerilado, a través del cual se transparenta el árbol traqueobronquial permeable en forma de broncograma aéreo prominente."
+      "text": "Y el resultado es un bebé que respira muy rápido, hasta cien veces por minuto, pero con poco tiraje y poco quejido. La frase clásica es un bebé taquipneico pero contento, muy distinto del que viste en la membrana hialina."
     },
     {
       "file": "s06_g00",
-      "text": "La estrategia ventilatoria moderna prioriza iniciar presión positiva continua nasal precoz desde la sala de partos para reclutar volumen pulmonar, administrando surfactante exógeno endotraqueal ante requerimientos de oxígeno sobre el treinta por ciento."
+      "text": "La radiografía aquí es opuesta a la anterior: el pulmón está hiperinsuflado, con más de ocho espacios intercostales visibles."
     },
     {
       "file": "s06_g01",
-      "text": "El surfactante se instila mediante sondas endotraqueales finas preservando la ventilación espontánea del niño, logrando una rápida distensión alveolar, aumento del volumen corriente y un descenso vertiginoso en la necesidad de oxígeno suplementario."
+      "text": "Y se ve líquido metido en la cisura pulmonar, con congestión alrededor del hilio en un patrón que llaman en sol radiante."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El curso es benigno, resuelve solo en veinticuatro a setenta y dos horas, y basta con oxígeno de soporte por naricera o halo."
     },
     {
       "file": "s07_g00",
-      "text": "El esquema preventivo de referencia es la betametasona intramuscular a dosis de doce miligramos cada veinticuatro horas por dos dosis, administrada entre las veinticuatro y treinta y cuatro semanas de gestación."
+      "text": "El tercer cuadro, el síndrome de aspiración meconial, empieza con un feto sometido a asfixia o estrés intrauterino, que por eso relaja el esfínter anal y elimina meconio al líquido amniótico."
     },
     {
       "file": "s07_g01",
-      "text": "El beneficio preventivo óptimo se alcanza cuando transcurren entre veinticuatro horas y siete días tras finalizar la segunda dosis intramuscular, reduciendo a más de la mitad la incidencia de membrana hialina y la necesidad de soporte ventilatorio mecánico invasivo."
+      "text": "Ese mismo estrés lo hace jadear dentro del útero, y al jadear aspira ese meconio espeso hacia la vía aérea. Es un cuadro de término o postérmino: casi nunca ocurre en el prematuro menor de treinta y cuatro semanas."
     },
     {
       "file": "s07_g02",
-      "text": "Además de acelerar la síntesis fosfolipídica pulmonar, los corticoides reducen de manera estadísticamente significativa la hemorragia de la matriz germinal, la enterocolitis necrotizante y la mortalidad neonatal global."
+      "text": "El meconio obstruye como una válvula: deja entrar el aire pero no salir, así que quedan zonas de atelectasia junto a zonas de enfisema, alternadas en el mismo pulmón."
     },
     {
       "file": "s07_g03",
-      "text": "A nivel biológico celular estimulan la transcripción genética de las proteínas tensioactivas A, B y C en los neumocitos tipo dos, favoreciendo además la maduración de los capilares de la barrera alvéolo-capilar."
+      "text": "Y la complicación que más te importa es la hipertensión pulmonar persistente, con una hipoxemia que no responde a oxígeno solo, y que necesita óxido nítrico inhalado y ventilación de alta frecuencia. La radiografía, otra vez distinta a las dos anteriores, muestra infiltrados algodonosos en parches, alternados con zonas hiperinsufladas y el diafragma aplanado."
     },
     {
       "file": "s08_g00",
-      "text": "La taquipnea transitoria afecta característicamente a recién nacidos de término nacidos por cesárea programada sin trabajo de parto previo, los cuales no experimentan la compresión torácica mecánica del canal vaginal."
+      "text": "Antes de seguir, un cuarto nombre que no puedes dejar fuera. Si la madre tuvo fiebre en el trabajo de parto, o la rotura de membranas duró muchas horas, el sospechoso ya no es surfactante, ni cesárea, ni meconio: es infección."
     },
     {
       "file": "s08_g01",
-      "text": "La ausencia de contracciones uterinas priva al feto de la descarga fisiológica de catecolaminas y corticoides necesaria para activar los canales de sodio que reabsorben el líquido pulmonar hacia el sistema linfático."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Se manifiesta precozmente como una taquipnea superficial con frecuencias de ochenta a más de cien respiraciones por minuto, en un neonato activo, que llora con vigor y no presenta quejido importante."
-    },
-    {
-      "file": "s08_g03",
-      "text": "El curso es uniformemente favorable: a medida que los vasos linfáticos reabsorben el exceso de líquido intersticial, el cuadro clínico se resuelve de forma completamente espontánea en veinticuatro a setenta y dos horas."
+      "text": "El agente típico es el estreptococo grupo B, el mismo que causa la sepsis neonatal precoz que vas a ver en la próxima clase, y el tratamiento también se adelanta a esa clase: ampicilina más gentamicina o cefotaxima, por vía endovenosa, sin esperar el cultivo."
     },
     {
       "file": "s09_g00",
-      "text": "La radiografía de tórax revela campos pulmonares ampliamente expandidos con más de ocho a nueve espacios intercostales visibles y aplanamiento de las cúpulas diafragmáticas."
+      "text": "Ahora pongamos los tres cuadros en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aquí tienes al recién nacido con dificultad respiratoria. Lo primero es puntuar la gravedad con la escala de Silverman-Andersen, y después buscas el antecedente que te va a decir cuál de los tres cuadros es."
     },
     {
       "file": "s09_g01",
-      "text": "Se observa una notable prominencia de las marcas vasculares que se extienden simétricamente desde ambos hilios hacia la periferia en el clásico patrón radiológico de sol radiante."
+      "text": "La pregunta que separa los tres cuadros es el antecedente: ¿nació prematuro sin corticoides, por cesárea sin trabajo de parto, o con meconio espeso en el líquido amniótico? Cada antecedente apunta a un diagnóstico distinto."
     },
     {
       "file": "s09_g02",
-      "text": "El signo patognomónico indiscutible es la cisuritis, apreciándose una línea radiopaca líquida bien delimitada que discurre en sentido horizontal por la cisura menor del hemitórax derecho."
+      "text": "Si es un prematuro con dificultad respiratoria desde el nacimiento y quejido intenso, sospechas enfermedad de membrana hialina. Inicias CPAP nasal precoz y administras surfactante exógeno por vía endotraqueal."
     },
     {
       "file": "s09_g03",
-      "text": "Es común encontrar un discreto aumento de la silueta cardíaca por hipervolemia transitoria, la cual desaparece en dos días coincidiendo con la diuresis espontánea del recién nacido."
+      "text": "Si nació por cesárea electiva, sin trabajo de parto, y respira rápido pero sin gran esfuerzo, es taquipnea transitoria. Solo necesita oxígeno de soporte, y se resuelve sola en veinticuatro a setenta y dos horas."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y si es de término o postérmino, con líquido amniótico con meconio espeso, piensas en síndrome de aspiración meconial. La radiografía muestra infiltrados en parches, y el riesgo mayor es la hipertensión pulmonar persistente."
     },
     {
       "file": "s10_g00",
-      "text": "La hipoxia perinatal desencadena una fuerte descarga vagal que incrementa el peristaltismo intestinal y relaja el esfínter anal, expulsando meconio que el feto aspira profundamente en sus jadeos asfícticos intrauterinos."
+      "text": "Repasemos las trampas. Prematuro sin corticoides, con pulmón hipoinsuflado en la radiografía: membrana hialina. El error es confundirla con taquipnea transitoria, que va justo al revés."
     },
     {
       "file": "s10_g01",
-      "text": "Las partículas meconiales impactadas en los bronquiolos actúan como válvulas unidireccionales que permiten entrar aire pero impiden su salida, generando hiperinsuflación segmentaria y neumotórax en hasta un veinte por ciento de los casos."
+      "text": "Cesárea electiva, sin trabajo de parto, con pulmón hiperinsuflado: taquipnea transitoria. Darle surfactante a este bebé es un error, porque no le falta surfactante, solo tiene líquido de más."
     },
     {
       "file": "s10_g02",
-      "text": "Los ácidos biliares y enzimas presentes en el meconio desencadenan una intensa neumonitis química que descama el epitelio respiratorio, inactiva los fosfolípidos tensioactivos y causa edema proteináceo."
+      "text": "Postérmino con meconio espeso en el líquido amniótico: aspiración meconial. El error es no vigilar la hipertensión pulmonar, que es lo que complica el pronóstico."
     },
     {
       "file": "s10_g03",
-      "text": "La acidosis metabólica y la hipoxemia refractaria gatillan un remodelamiento y espasmo violento de las arteriolas pulmonares, complicándose de forma muy frecuente con hipertensión pulmonar persistente grave."
+      "text": "Y un bebé taquipneico, pero contento, sin gran tiraje ni quejido: taquipnea transitoria. Tratarlo como si fuera membrana hialina es sobretratar un cuadro que se resuelve solo."
     },
     {
       "file": "s11_g00",
-      "text": "En la hipertensión pulmonar persistente la resistencia vascular pulmonar permanece patológicamente alta, superando la presión sistémica y forzando a la sangre desoxigenada a derivarse de derecha a izquierda por el conducto arterioso."
+      "text": "Vamos con un caso. Recién nacido de treinta y una semanas, por parto prematuro espontáneo, cuya madre no recibió corticoides prenatales. Desde el nacimiento tiene quejido audible a distancia, aleteo nasal y retracción marcada, con una saturación de ochenta y dos por ciento al aire ambiental. La radiografía muestra pulmones con poco volumen, vidrio esmerilado y broncograma aéreo."
     },
     {
       "file": "s11_g01",
-      "text": "El diagnóstico clínico se confirma al constatar una diferencia de saturación mayor al diez por ciento entre la mano derecha preductal y las extremidades inferiores postductales."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "El óxido nítrico inhalado es el vasodilatador de primera línea por su selectividad para relajar la microvasculatura alveolar ventilada sin generar hipotensión arterial sistémica, mejorando de inmediato la oxigenación del neonato."
+      "text": "Las opciones: oxígeno por naricera y control en veinticuatro horas, CPAP más surfactante endotraqueal, ventilación mecánica sin surfactante, antibióticos de amplio espectro, u observación porque es autolimitado. Tómate unos segundos."
     },
     {
       "file": "s11_g03",
-      "text": "Se asocia soporte inotrópico para sostener la presión sistémica y ventilación de alta frecuencia oscilatoria, recurriendo a membrana de oxigenación extracorpórea en casos refractarios."
+      "text": "Es la B. Prematuro, sin corticoides, dificultad desde el nacimiento, y una radiografía que es el retrato exacto de la membrana hialina: vidrio esmerilado con broncograma. El tratamiento estándar es CPAP nasal precoz más surfactante por vía endotraqueal. Observarlo como si fuera autolimitado es el error clásico: eso es taquipnea transitoria, no esto."
     },
     {
       "file": "s12_g00",
-      "text": "La membrana hialina del prematuro muestra pulmones pequeños marcadamente hipoinsuflados con vidrio esmerilado difuso bilateral y broncograma aéreo prominente."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Recién nacido de treinta y seis semanas, nacido por cesárea, con dificultad respiratoria luego de nacer: taquipnea, retracción subcostal y crepitantes en las bases. La radiografía muestra hiperinsuflación en ambos pulmones, refuerzo alrededor del hilio, diafragmas aplanados, y una silueta cardiaca normal."
     },
     {
       "file": "s12_g01",
-      "text": "El pulmón húmedo presenta campos hiperinsuflados, diafragmas planos, congestión perihiliar en sol y línea de cisuritis derecha."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "El síndrome de aspiración meconial cursa con infiltrados en parches algodonosos alternados con áreas hiperclaras y riesgo de neumotórax."
+      "text": "Las opciones: neumomediastino, neumonía connatal, taquipnea transitoria, enfermedad de membrana hialina, o cardiopatía congénita. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La neumonía bacteriana puede mostrar condensaciones alveolares asimétricas acompañadas en ocasiones de derrame pleural exudativo."
+      "text": "Es la C, taquipnea transitoria. El antecedente de cesárea, sin trabajo de parto, ya te orienta, y la radiografía lo confirma: hiperinsuflación, no el pulmón chico y colapsado que verías en la membrana hialina. La silueta cardiaca normal descarta la cardiopatía, y no hay antecedente de meconio ni de fiebre materna para pensar en las otras opciones."
     },
     {
       "file": "s13_g00",
-      "text": "La membrana hialina afecta al prematuro inmaduro, el pulmón húmedo al nacido por cesárea electiva y el meconio al postérmino asfíctico."
+      "text": "Una más del banco. Recién nacido de treinta semanas, con dificultad respiratoria grave desde el nacimiento: quejido constante, cianosis y retracción costal severa. La radiografía muestra pulmones poco expandidos, con un patrón reticulonodular difuso y broncograma aéreo visible."
     },
     {
       "file": "s13_g01",
-      "text": "La clínica es grave en membrana hialina y aspiración meconial, mientras que en taquipnea transitoria cursa con buen estado general."
+      "text": "¿Cuál es la etiología y el tratamiento de elección?"
     },
     {
       "file": "s13_g02",
-      "text": "El pilar en membrana hialina es surfactante y CPAP precoz, en taquipnea es oxígeno transitorio y en meconio es soporte invasivo en UCI."
+      "text": "Las opciones: retardo en la reabsorción de líquido con naricera, déficit de surfactante con CPAP y surfactante exógeno, aspiración masiva de meconio con lavado traqueal, neumotórax con toracocentesis, o atresia esofágica con sonda. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "La taquipnea transitoria remite en setenta y dos horas, mientras que la aspiración meconial puede requerir semanas de ventilación mecánica."
+      "text": "Es la B. Treinta semanas, distrés desde el nacimiento, y una radiografía que muestra exactamente el patrón hipoinsuflado con broncograma: es déficit de surfactante, la enfermedad de membrana hialina. El tratamiento de elección es CPAP nasal con surfactante exógeno endotraqueal. La aspiración de meconio no calza, porque el meconio casi nunca aparece en un prematuro tan chico."
     },
     {
       "file": "s14_g00",
-      "text": "Iniciamos el abordaje evaluando la gravedad del distrés con el score de Silverman y correlacionando con la edad gestacional."
+      "text": "Cerremos con las reglas de oro. Prematuro sin corticoides, con dificultad desde el nacimiento: membrana hialina."
     },
     {
       "file": "s14_g01",
-      "text": "En el prematuro con distrés inmediato e hipoinsuflación iniciamos CPAP nasal e indicamos surfactante exógeno precoz."
+      "text": "Cesárea electiva en un recién nacido de término: taquipnea transitoria."
     },
     {
       "file": "s14_g02",
-      "text": "En el nacido por cesárea evaluamos la presencia de hiperinsuflación y cisuritis interlobar."
+      "text": "Y postérmino con meconio espeso: aspiración meconial."
     },
     {
       "file": "s14_g03",
-      "text": "Confirmada la taquipnea transitoria mantenemos soporte mínimo y suspensión de alimentación oral si la frecuencia es muy alta."
+      "text": "Vidrio esmerilado con pulmón chico y broncograma: membrana hialina."
     },
     {
       "file": "s14_g04",
-      "text": "Si existen factores infecciosos maternos o mala evolución iniciamos antibióticos parenterales por sospecha de neumonía."
+      "text": "Cisuritis con pulmón hiperinsuflado: taquipnea transitoria, benigna y autolimitada."
     },
     {
       "file": "s14_g05",
-      "text": "En el neonato con meconio e infiltrados en parches vigilamos la aparición de neumotórax e hipertensión pulmonar persistente."
+      "text": "Reserva el CPAP con surfactante para cuando de verdad falta surfactante, no para todo recién nacido taquipneico."
     },
     {
-      "file": "s15_g00",
-      "text": "Recién nacido de treinta semanas con dificultad respiratoria grave quejido audible y radiografía con hipoinsuflación y vidrio esmerilado con broncograma aéreo."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es la causa fisiopatológica y el tratamiento de elección?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A retardo en la reabsorción de líquido alveolar. La B déficit de surfactante pulmonar con indicación de CPAP nasal y surfactante exógeno endotraqueal. La C aspiración de meconio. La D neumotórax a tensión. La E atresia esofágica. Correlaciona la edad gestacional con la radiografía. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. Corresponde a membrana hialina por déficit de surfactante en un prematuro, requiriendo CPAP y surfactante exógeno."
-    },
-    {
-      "file": "s16_g00",
-      "text": "Recién nacido de término por cesárea electiva con taquipnea de ochenta y cuatro por minuto sin quejido y radiografía con hiperinsuflación y cisuritis líquida."
-    },
-    {
-      "file": "s16_g01",
-      "text": "¿Cuál es el diagnóstico más probable y el curso esperado?"
-    },
-    {
-      "file": "s16_g02",
-      "text": "La opción A enfermedad de membrana hialina. La B taquipnea transitoria del recién nacido con resolución clínica espontánea en veinticuatro a setenta y dos horas. La C síndrome de aspiración meconial. La D neumonía congénita. La E hernia diafragmática. Observa la cesárea y la cisuritis. Piénsalo."
-    },
-    {
-      "file": "s16_g03",
-      "text": "La respuesta correcta es la B. Es una taquipnea transitoria del recién nacido o pulmón húmedo, entidad benigna que se resuelve espontáneamente en dos a tres días."
-    },
-    {
-      "file": "s17_g00",
-      "text": "Asocien siempre al prematuro con vidrio esmerilado y broncograma aéreo con membrana hialina tratada con CPAP y surfactante exógeno."
-    },
-    {
-      "file": "s17_g01",
-      "text": "Vinculen al nacido por cesárea electiva con hiperinsuflación y cisuritis con taquipnea transitoria que remite espontáneamente en dos a tres días."
-    },
-    {
-      "file": "s17_g02",
-      "text": "Recuerden que el postérmino con meconio presenta neumonitis química con riesgo crítico de rotura alveolar e hipertensión pulmonar persistente."
-    },
-    {
-      "file": "s17_g03",
-      "text": "La betametasona antenatal estimula la síntesis de fosfolípidos. Si te llevas una sola idea de hoy: la enfermedad de membrana hialina se previene con corticoides antenatales y se trata precozmente con ventilación no invasiva y surfactante endotraqueal. Nos vemos en la próxima clase."
+      "file": "s14_g06",
+      "text": "Y si aparece fiebre materna, ya sabes que el sospechoso cambia a neumonía connatal. Si te llevas una sola idea de hoy: el antecedente obstétrico te dice el diagnóstico antes de mirar la radiografía, y la radiografía solo lo confirma. Nos vemos en la próxima clase."
     }
   ]
 }

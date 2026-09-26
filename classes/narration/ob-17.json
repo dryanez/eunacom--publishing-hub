@@ -2,231 +2,231 @@
   "id": "ob-17",
   "title": "Obstetricia 19.17: Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
   "specialty": "Obstetricia",
-  "chars": 12651,
+  "chars": 10294,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre distocias del trabajo de parto, distocia de hombros y monitorización intraparto. Esta sesión aborda situaciones de alta exigencia médica en la sala de partos. Aprenderemos a reconocer los trastornos de progresión del parto, dominaremos el algoritmo secuencial ante una distocia de hombros ejecutando McRoberts y Mazzanti mientras evitamos maniobras letales, y aprenderemos a interpretar con seguridad las desaceleraciones en el registro cardiofetal continuo. Comencemos."
+      "text": "Bienvenido. Hoy vemos dos urgencias que se juntan en la sala de partos: la distocia de hombros y la lectura del monitoreo fetal intraparto. Es un tema de máxima rentabilidad, con varias preguntas reales en el banco. Vas a aprender qué maniobra haces primero cuando el hombro se atasca, cuál está prohibida, y cómo una desaceleración te dice si el niño está bien o si tienes que actuar ya. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "Las distocias dinámicas corresponden a alteraciones cuantitativas o cualitativas de las contracciones uterinas. La hipodinamia con menos de tres contracciones cada diez minutos es la anomalía más común, y suele corregirse exitosamente con aceleración mediante infusión de oxitocina y rotura artificial de membranas siempre que no exista obstrucción ósea."
+      "text": "Empecemos por lo básico: cuándo decimos que un parto no progresa. Si la dilatación avanza a menos de un centímetro cada hora, con buena dinámica uterina, tienes una fase activa prolongada."
     },
     {
       "file": "s01_g01",
-      "text": "Cuando existe una estenosis de los estrechos pélvicos o un feto voluminoso con diámetro biparietal que excede el canal, se configura una desproporción céfalo-pélvica. En este escenario puramente mecánico, forzar la dinámica con oxitocina está terminantemente prohibido porque precipita la rotura uterina y la muerte fetal por asfixia."
+      "text": "Y si la dilatación se detiene por completo durante dos horas o más, aunque las contracciones sean adecuadas, es una detención secundaria. En el descenso, la misma idea: una hora sin avanzar en la multípara, dos en la primípara."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Hay una causa que tienes que sospechar cuando nada de esto funciona: la desproporción entre la cabeza fetal y tu pelvis materna. Se plantea cuando la dilatación o el descenso se detienen a pesar de una dinámica adecuada, o de una prueba con oxitocina bien hecha."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Fíjate en los signos que te lo confirman: el asinclitismo, las suturas del cráneo que se cabalgan entre sí, y un caput succedáneo grande. Esa combinación te lleva a cesárea."
     },
     {
       "file": "s02_g00",
-      "text": "Hablamos de fase activa prolongada cuando, tras haber alcanzado los cinco centímetros de dilatación con dinámica uterina de tres a cinco contracciones cada diez minutos, la velocidad de dilatación progresa a menos de un centímetro por hora, prolongando excesivamente el trabajo de parto."
+      "text": "Piensa primero en quién llega a esto. El factor de riesgo principal es la macrosomía fetal, un feto de más de cuatro mil a cuatro mil quinientos gramos. Y la diabetes gestacional favorece justo ese crecimiento. Súmale la obesidad materna, un parto instrumental previo, y el antecedente de una distocia de hombros anterior."
     },
     {
       "file": "s02_g01",
-      "text": "La detención secundaria de la dilatación se certifica cuando no se constata ninguna progresión en los centímetros de dilatación cervical durante dos horas completas de dinámica uterina activa y vigorosa con membranas rotas, obligando a sospechar desproporción céfalo-pélvica."
+      "text": "Con un hombro grande, la cabeza sale, pero el hombro anterior queda atascado detrás de tu sínfisis púbica, y no logra desprenderse con la tracción suave habitual."
     },
     {
       "file": "s02_g02",
-      "text": "La detención del descenso se define por la ausencia total de progresión de la presentación fetal tras una hora de pujos dirigidos en multíparas o tras dos horas en primíparas sin analgesia epidural, requiriendo una cuidadosa reevaluación de la estática fetal."
-    },
-    {
-      "file": "s02_g03",
-      "text": "Si la cabeza fetal se encuentra firmemente encajada en plano tres o cuatro de Lee con variedad de posición clara y periné distensible, puede considerarse un parto instrumental con fórceps; por el contrario, si la cabeza permanece en plano cero o superior, la única conducta admisible es la cesárea."
+      "text": "Y el signo que te avisa esta emergencia es inconfundible: la cabeza fetal se desprende, pero de inmediato se retrae con fuerza contra el periné. Es el signo de la tortuga, y ahí tienes que actuar en minutos."
     },
     {
       "file": "s03_g00",
-      "text": "La detención completa de la dilatación cervical durante dos horas o más en presencia de contracciones uterinas potentes y regulares traduce la incapacidad biomecánica del polo cefálico para franquear el estrecho superior de la pelvis materna."
+      "text": "Antes de darte la secuencia correcta, tienes que grabarte lo que está prohibido. La maniobra de Kristeller, esa presión sobre el fondo del útero, impacta todavía más el hombro contra el pubis y puede romper tu útero."
     },
     {
       "file": "s03_g01",
-      "text": "La formación precoz de un voluminoso tumor del parto o caput succedaneum sumado al cabalgamiento acentuado de los huesos parietales demuestra que el cráneo fetal está sometido a una fuerza compresiva extrema contra un canal óseo que no cede."
-    },
-    {
-      "file": "s03_g02",
-      "text": "Una presentación fetal que se mantiene por encima o a nivel de las espinas ciáticas en plano cero a pesar de pujos expulsivos intensos y dirigidos confirma la desproporción céfalo-pélvica y exige la interrupción quirúrgica inmediata por cesárea."
+      "text": "Y tampoco tracciones ni balancees la cabeza con fuerza. Eso elonga las raíces del plexo braquial y te deja una parálisis de Erb-Duchenne, con el brazo en postura de propina de mozo."
     },
     {
       "file": "s04_g00",
-      "text": "Al momento de desprenderse la cabeza fetal, esta se retrae bruscamente contra el periné materno en el clásico signo de la tortuga. El hombro anterior fetal queda atrapado mecánicamente detrás del reborde superior de la sínfisis púbica impidiendo la salida del tórax y bloqueando el nacimiento."
+      "text": "La primera maniobra, y la que más rinde, es la de McRoberts: hiperflexionas y abduces los muslos de tu paciente sobre el abdomen. Eso aplana la curvatura lumbar y rota tu pubis hacia la cabeza, liberando el hombro en la mayoría de los casos."
     },
     {
       "file": "s04_g01",
-      "text": "Con el tórax atrapado, los vasos umbilicales del cordón se comprimen de forma crítica contra el estrecho pélvico. El equipo médico dispone de una ventana de menos de cinco minutos para ejecutar las maniobras de rescate y desimpactar el hombro antes de que la asfixia severa cause daño cerebral irreversible."
+      "text": "Junto con eso, la presión suprapúbica, la maniobra de Mazzanti: un ayudante presiona con fuerza justo sobre el pubis, hacia abajo, para achicar el diámetro del hombro."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si con esas dos no basta, pasas a las maniobras internas: rotar el hombro con la mano, la maniobra de Rubin o de Woods, o extraer el brazo posterior, la maniobra de Jacquemier."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si todo eso falla, quedan los recursos extremos: fracturar la clavícula a propósito, o la maniobra de Zavanelli, que devuelve la cabeza al útero para hacer una cesárea de urgencia."
     },
     {
       "file": "s05_g00",
-      "text": "La maniobra de Kristeller o presión manual sobre el fondo del útero está terminantemente prohibida ante una distocia de hombros. Lejos de ayudar, la fuerza ejercida desde el fondo empuja la clavícula fetal contra el pubis, clavando e impactando aún más el hombro anterior."
+      "text": "Ahora lo que más se pregunta: leer el monitoreo. Lo normal es una frecuencia basal entre ciento diez y ciento sesenta latidos por minuto, con variabilidad moderada y aceleraciones presentes. Desde ahí juzgas cada desaceleración."
     },
     {
       "file": "s05_g01",
-      "text": "Esta maniobra proscrita provoca desgarros perineales severos de tercer y cuarto grado, inversión uterina aguda y rotura del segmento uterino inferior, con altísimo riesgo de muerte materna y fetal por hemorragia masiva."
+      "text": "La desaceleración temprana empieza junto con la contracción y termina junto con ella, como en un espejo. Es solo la cabeza comprimiéndose contra tu pelvis, un reflejo vagal benigno. No indica hipoxia y no cambias nada."
     },
     {
       "file": "s05_g02",
-      "text": "Ejercer tracción axial forzada o lateralizar bruscamente la cabeza del feto está formalmente prohibido. Es el mecanismo biomecánico exacto que estira y avulsiona las raíces nerviosas cervical cinco y cervical seis del plexo braquial fetal."
+      "text": "La tardía es distinta: empieza después del punto más alto de la contracción y se recupera lento. Refleja una insuficiencia de la placenta con hipoxia fetal. Si se repite, o pierde variabilidad, hablas de acidosis y necesitas actuar."
     },
     {
       "file": "s05_g03",
-      "text": "Esta tracción genera la parálisis braquial superior de Erb-Duchenne, dejando la extremidad superior inmóvil con el brazo en aducción, rotación interna y pronación de la mano, conocida universalmente en semiología como postura en propina de camarero o mozo."
+      "text": "La variable es brusca, en forma de uve, y no guarda relación fija con la contracción. Nace de la compresión del cordón umbilical. Es grave si dura más de un minuto, o si la frecuencia baja de setenta latidos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y el patrón sinusoidal, esa ondulación suave y regular sin ninguna aceleración, es la firma de una anemia fetal grave. Guarda esta imagen, porque casi no se repite en el examen, pero cuando aparece, es inconfundible."
     },
     {
       "file": "s06_g00",
-      "text": "Dos operadores hiperflexionan y abducen con firmeza ambos muslos de la madre contra su propio abdomen. Esta maniobra de McRoberts aplana la curvatura de la columna lumbosacra, bascula la sínfisis del pubis hacia arriba y ensancha significativamente el diámetro conjugado anterior."
+      "text": "El monitoreo se resume en tres categorías. La uno es el trazado seguro: basal y variabilidad normales, aceleraciones presentes, y sin desaceleraciones tardías ni variables. Ahí sigues el parto sin tocar nada."
     },
     {
       "file": "s06_g01",
-      "text": "De forma simultánea y coordinada, otro operador aplica presión firme con el talón de la mano justo sobre el hueso púbico en sentido oblicuo hacia el tórax fetal, maniobra de Mazzanti, aduciendo el hombro para que se deslice suavemente por debajo del pubis."
+      "text": "La dos es indeterminada: bradicardia con buena variabilidad, o desaceleraciones variables frecuentes. No es tranquilizador ni ominoso. Cambias de posición, hidratas, y vigilas de cerca."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y la tres es la emergencia: variabilidad ausente, junto con desaceleraciones tardías recurrentes, variables graves o bradicardia sostenida. Antes de la cesárea intentas la reanimación intrauterina: acuestas a tu paciente de lado, suspendes la oxitocina, le das volumen y oxígeno. Si no revierte, cesárea inmediata."
     },
     {
       "file": "s07_g00",
-      "text": "Si la maniobra de McRoberts combinada con presión suprapúbica no logra liberar el hombro en treinta a sesenta segundos, introducimos dos dedos en la vagina para empujar la cara posterior del hombro anterior, rotándolo hacia el diámetro oblicuo pelviano mediante la maniobra de Rubin o Woods."
+      "text": "Ahora juntemos las dos urgencias de hoy en un solo árbol de decisión. Estás en el expulsivo y algo no va bien. Puede ser que el hombro no salga, o que el registro fetal cambie. Son dos urgencias distintas, con su propio árbol de decisión."
     },
     {
       "file": "s07_g01",
-      "text": "La maniobra de Jacquemier consiste en introducir la mano enguantada por la concavidad sacra, ubicar el brazo fetal posterior, flexionar el codo y barrer el antebrazo sobre el pecho para exteriorizarlo. Al extraer el brazo posterior el diámetro biacromial se reduce drásticamente facilitando la salida inmediata."
+      "text": "La primera pregunta es simple: ¿el problema es que el hombro no sale, o que el monitoreo fetal cambió?"
     },
     {
       "file": "s07_g02",
-      "text": "La maniobra de Gaskin consiste en colocar a la paciente en posición de cuatro apoyos o cuadrupedia sobre manos y rodillas. Esta postura aprovecha el efecto de la gravedad y amplía las dimensiones de la pelvis posterior, logrando desimpactar el hombro anterior atrapado."
+      "text": "La cabeza sale y se retrae con fuerza contra el periné: es una distocia de hombros."
     },
     {
       "file": "s07_g03",
-      "text": "Como maniobra de rescate heroico ante falla total de las maniobras previas en feto vivo, se aplica tocolisis aguda y se realiza la maniobra de Zavanelli, flexionando y reintroduciendo la cabeza fetal en el canal del parto para trasladar de inmediato a pabellón y extraer al recién nacido mediante cesárea."
+      "text": "Primero McRoberts, hiperflexionando los muslos, junto con presión suprapúbica."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si no cede, rotas el hombro con la mano o extraes el brazo posterior."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con la mayoría de los casos, el hombro se libera aquí mismo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "¿La desaceleración copia la contracción, la sigue con retraso, o es brusca y sin patrón fijo?"
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si copia la contracción en espejo, es temprana: compresión de la cabeza, sin hipoxia, no cambias nada."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Si empieza después del punto más alto de la contracción, es tardía: hipoxia por insuficiencia placentaria. Reanimación intrauterina, y si no revierte, cesárea de urgencia."
+    },
+    {
+      "file": "s07_g09",
+      "text": "Si es brusca y no guarda relación fija, es variable, por compresión del cordón. Vigilas, y es grave si dura más de un minuto o la frecuencia baja mucho."
     },
     {
       "file": "s08_g00",
-      "text": "Durante cada contracción la presión intramiometrial supera la presión arterial materna, cerrando temporalmente el flujo de sangre a la placenta. Un feto sano tolera perfectamente esta pausa fisiológica manteniendo su variabilidad cardíaca normal entre cinco y veinticinco latidos por minuto."
+      "text": "Repasemos las trampas. Con el signo de la tortuga, haces McRoberts más presión suprapúbica. El error clásico es presionar el fondo del útero, la maniobra de Kristeller."
     },
     {
       "file": "s08_g01",
-      "text": "Si la placenta no tiene reserva funcional suficiente, cada contracción induce hipoxemia aguda en el feto. Esto desencadena una estimulación refleja por quimiorreceptores produciendo una desaceleración tardía o DIP dos, indicadora de asfixia y acidosis metabólica en evolución."
+      "text": "Una desaceleración que copia la contracción, en espejo, es temprana y benigna. El error es tratarla como si fuera sufrimiento fetal."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Desaceleraciones tardías que se repiten, sin variabilidad, son categoría tres: reanimación intrauterina y cesárea. El error es subir la oxitocina, que empeora todo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y unas pocas desaceleraciones variables, con buena variabilidad de fondo, solo piden vigilancia y cambio de posición. Indicar cesárea de inmediato ahí es adelantarse."
     },
     {
       "file": "s09_g00",
-      "text": "Las desaceleraciones precoces o DIP uno son caídas de la frecuencia cardíaca que calcan simétricamente la morfología de la contracción en imagen en espejo. Se deben a compresión fisiológica de la cabeza fetal que estimula el nervio vago; son enteramente benignas y no requieren cesárea ni medidas de reanimación."
+      "text": "Vamos con un caso. Una primigesta de treinta y nueve semanas, con diabetes gestacional, está en el expulsivo. Tras salir la cabeza fetal, esta se retrae con fuerza contra el periné. La tracción suave no logra liberar el hombro."
     },
     {
       "file": "s09_g01",
-      "text": "Las desaceleraciones tardías o DIP dos se inician tarde respecto a la contracción y su nadir ocurre cuando la contracción ya ha finalizado. Son el signo inequívoco de hipoxia fetal por insuficiencia útero-placentaria y acidosis metabólica tisular, exigiendo interrupción inmediata del parto por cesárea si son recurrentes."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las desaceleraciones variables o DIP tres presentan caídas y recuperaciones abruptas con morfología en letra uve o doble uve, causadas por la compresión mecánica transitoria del cordón umbilical. Suelen resolverse cambiando a la paciente a decúbito lateral izquierdo para descomprimir el cordón."
+      "text": "Las opciones: presionar el fondo uterino, hacer McRoberts más presión suprapúbica, traccionar la cabeza con firmeza, hacer la maniobra de Zavanelli, o fracturar la clavícula de inmediato. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "El patrón sinusoidal es un trazado ondulatorio continuo y suave con aspecto de onda sinusoidal regular sin aceleraciones. Es un hallazgo patognomónico de anemia fetal severa y descompensación hemodinámica crítica secundaria a isoinmunización Rh o rotura de vasa previa."
+      "text": "Es la B. Diabetes gestacional, signo de la tortuga y hombro que no sale con la tracción suave: es una distocia de hombros. La primera línea es siempre McRoberts junto con presión suprapúbica. La A y la C son las dos maniobras que están terminantemente prohibidas, y la D y la E son recursos extremos que solo se usan si todo lo anterior fracasa."
     },
     {
       "file": "s10_g00",
-      "text": "El trazado cardiotocográfico categoría uno predice con máxima confiabilidad un estado ácido-base fetal normal en ese momento, permitiendo continuar la evolución espontánea del trabajo de parto con monitorización intermitente estándar."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil diecisiete. Una paciente está en trabajo de parto de término. En el expulsivo se desprende la cabeza fetal, pero los hombros no rotan ni descienden."
     },
     {
       "file": "s10_g01",
-      "text": "El trazado categoría tres asocia ausencia de variabilidad con bradicardia sostenida, desaceleraciones tardías recurrentes o patrón sinusoidal. Refleja acidosis metabólica severa y alto riesgo de daño neurológico permanente, requiriendo cesárea de extrema urgencia."
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Colocamos a la paciente en decúbito lateral izquierdo estricto para descomprimir los grandes vasos y pasamos una carga rápida de solución fisiológica endovenosa."
+      "text": "Las opciones: traccionar la cabeza, hacer compresiones suprapúbicas, hacer la maniobra de McRoberts, rotar los hombros con la maniobra de Rubin, o extraer el brazo posterior con Jacquemier. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es mandatorio suspender de inmediato cualquier infusión de oxitocina para frenar la tetania miometrial y administrar tocolisis aguda si hay hiperdinamia."
+      "text": "Es la C, McRoberts. Se hace siempre primero, porque resuelve la mayoría de los casos con una morbilidad muy baja. La presión suprapúbica se suma casi al mismo tiempo, pero las maniobras internas, como Rubin o Jacquemier, quedan para cuando las externas no bastan. Y traccionar la cabeza nunca es una opción."
     },
     {
       "file": "s11_g00",
-      "text": "Diagnosticamos la distocia de hombros ante la retracción cefálica y prohibimos traccionar o empujar el fondo."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil quince. Un embarazo de término, en trabajo de parto, con seis centímetros de dilatación y variabilidad disminuida en el registro fetal. Dos horas después, con ocho centímetros, la variabilidad sigue disminuida y aparecen desaceleraciones tardías con cada contracción."
     },
     {
       "file": "s11_g01",
-      "text": "Iniciamos de inmediato la maniobra de McRoberts coordinada con la presión suprapúbica de Mazzanti."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Lograda la desimpactación completamos el nacimiento y revisamos posibles desgarros del canal blando."
+      "text": "Las opciones: hacer fórceps, hacer cesárea, dar misoprostol, iniciar oxitocina, o mantener conducta expectante y reevaluar en media hora. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Si no desimpacta pasamos sin demora a maniobras internas como el sacacorchos o la extracción del brazo posterior."
+      "text": "Es la B. Variabilidad disminuida junto con desaceleraciones tardías que se repiten es categoría tres, sufrimiento fetal, y necesitas la vía más rápida. El fórceps no se puede hacer con solo ocho centímetros de dilatación, y esperar o subir la oxitocina solo empeora la hipoxia."
     },
     {
       "file": "s12_g00",
-      "text": "Durante un parto con feto macrosómico se produce la salida de la cabeza que se retrae fuertemente contra el periné con impactación de hombros."
+      "text": "Y esta es del EUNACOM de julio de dos mil diecinueve. Una paciente está en fase activa de trabajo de parto de término, avanzando de dos a siete centímetros en dos horas, con buena dinámica y membranas rotas. El registro fetal muestra buena frecuencia, buena variabilidad y aceleraciones, sin desaceleraciones."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuáles son las dos maniobras de primera línea recomendadas para resolver esta emergencia?"
+      "text": "¿Cuál es el diagnóstico más probable del estado fetal?"
     },
     {
       "file": "s12_g02",
-      "text": "La opción A propone Kristeller y tracción. La B maniobra de McRoberts combinada con presión suprapúbica de Mazzanti. La C maniobra de Zavanelli. La D fractura de clavículas. La E sinfisiotomía. Piénsalo."
+      "text": "Las opciones: registro tipo uno, tipo dos, tipo tres, registro reactivo, o variabilidad disminuida. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta correcta es la B. La combinación de hiperflexión de muslos de McRoberts con presión suprapúbica de Mazzanti resuelve más del ochenta y cinco por ciento de las distocias de hombros."
+      "text": "Es la A. Todo normal, sin desaceleraciones: eso es un trazado categoría uno, el trazado seguro. La D es la trampa: reactivo es el nombre que usas en un registro basal no estresante, sin contracciones, no en un monitoreo intraparto como este, aunque el concepto de fondo se parezca."
     },
     {
       "file": "s13_g00",
-      "text": "Durante el trabajo de parto se observan desaceleraciones en espejo que coinciden con el acmé de la contracción y variabilidad conservada de quince latidos."
+      "text": "Cerremos con las reglas de oro. Ante el signo de la tortuga, primero McRoberts, junto con la presión suprapúbica."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el significado fisiopatológico de este hallazgo y la conducta a seguir?"
+      "text": "Y nunca presiones el fondo uterino ni tracciones la cabeza con fuerza."
     },
     {
       "file": "s13_g02",
-      "text": "La opción A propone acidosis y cesárea. La B desaceleraciones precoces por compresión cefálica que son fisiológicas. La C hipoxia e indicación de tocolíticos. La D compresión de cordón. La E anemia fetal. Piénsalo."
+      "text": "La desaceleración temprana es benigna; la tardía habla de hipoxia y te obliga a actuar."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta correcta es la B. Las desaceleraciones en espejo o DIP uno son fisiológicas por compresión de la cabeza fetal y no requieren cesárea ni frenar el parto."
-    },
-    {
-      "file": "s14_g00",
-      "text": "A siete centímetros de dilatación aparecen desaceleraciones tardías repetidas con nadir desfasado tras la contracción y variabilidad prácticamente ausente."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es la conducta terapéutica indicada en esta paciente?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A propone esperar cuatro horas. La B aumentar oxitocina. La C reanimación intrauterina y cesárea de urgencia inmediata. La D antibióticos. La E anestesia epidural. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la C. Los DIP dos recurrentes con pérdida de variabilidad constituyen un trazado categoría tres que exige cesárea de urgencia bajo medidas de reanimación."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Se consulta cuál es la complicación neurológica neonatal clásica derivada de aplicar tracción violenta sobre la cabeza fetal durante una distocia de hombros."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es la lesión neurológica producida?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A propone parálisis facial de Bell. La B parálisis braquial superior de Erb-Duchenne de raíces cervical cinco y cervical seis. La C parálisis inferior de Klumpke. La D parálisis ciática. La E luxación cervical. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. La tracción forzada elonga las raíces cervical cinco y cervical seis del plexo braquial originando la parálisis de Erb-Duchenne con postura en propina de mozo."
-    },
-    {
-      "file": "s16_g00",
-      "text": "La maniobra de Kristeller está formalmente proscrita en distocia de hombros porque enclava con mayor fuerza el hombro anterior contra el pubis y produce rotura uterina catastrófica con hemorragia masiva."
-    },
-    {
-      "file": "s16_g01",
-      "text": "La maniobra de McRoberts con hiperflexión forzada de muslos combinada con la presión suprapúbica de Mazzanti resuelve más del ochenta y cinco por ciento de las distocias de hombros de forma no traumática."
-    },
-    {
-      "file": "s16_g02",
-      "text": "Las desaceleraciones precoces o DIP uno son imágenes en espejo benignas originadas por compresión mecánica del polo cefálico y no justifican ninguna indicación quirúrgica de cesárea."
-    },
-    {
-      "file": "s16_g03",
-      "text": "Las desaceleraciones tardías repetidas con variabilidad mínima traducen acidosis hipóxica fetal. Si te llevas una sola idea de hoy: un trazado categoría tres con desaceleraciones tardías y pérdida de variabilidad exige interrupción inmediata por la vía más expedita. Nos vemos en la próxima clase."
+      "text": "Y si pierdes la variabilidad junto con desaceleraciones tardías, es cesárea de urgencia. Si te llevas una sola idea de hoy: en el hombro, McRoberts primero; en el monitoreo, la variabilidad y las tardías deciden la urgencia. Nos vemos en la próxima clase."
     }
   ]
 }

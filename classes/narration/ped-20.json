@@ -2,247 +2,187 @@
   "id": "ped-20",
   "title": "Pediatria 18.20: Hipoglicemia Neonatal, Hipocalcemia & Trastornos Metabólicos del Neonato",
   "specialty": "Pediatría",
-  "chars": 10256,
+  "chars": 7768,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre hipoglicemia, hipocalcemia y trastornos metabólicos neonatales, una de las emergencias bioquímicas más comunes en la sala de recién nacidos y una pregunta reiterada en el examen EUNACOM. En esta sesión aprenderemos a definir y estratificar la hipoglicemia en las primeras horas, dominaremos el cálculo de la velocidad de infusión de glucosa sin cometer errores osmolares y revisaremos el manejo agudo de la hipocalcemia con gluconato de calcio. Comencemos."
+      "text": "Bienvenido. Hoy vemos la hipoglicemia neonatal y, junto a ella, la hipocalcemia del recién nacido. Es un tema que se pregunta seguido, y se ordena con una sola pregunta: tiene síntomas o no. Esa pregunta te va a decidir todo lo que viene. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "Al clampear el cordón umbilical cesa bruscamente la entrega transplacentaria de glucosa. El recién nacido sano responde con una elevación de glucagón y catecolaminas que moviliza el glucógeno hepático e induce gluconeogénesis para estabilizar sus niveles sanguíneos."
+      "text": "Empecemos por el mecanismo, porque te va a explicar a quién le pides el examen. Hay dos caminos para llegar a la hipoglicemia. El primero es tener casi nada guardado: eso pasa en el prematuro, en el niño pequeño para su edad gestacional, y en el que sufrió asfixia al nacer."
     },
     {
       "file": "s01_g01",
-      "text": "El encéfalo neonatal consume casi la totalidad de la glucosa circulante. Si los depósitos de glucógeno son escasos o la insulina está desmedidamente alta, la glucosa plasmática se desploma, desatando una falla bioenergética neuronal que culmina en apoptosis occipital irreversible."
+      "text": "El segundo camino es al revés: el hijo de madre diabética trae la insulina muy alta, porque se acostumbró a la glucosa extra que le llegaba de su mamá. Al cortar el cordón, esa insulina se queda circulando y le consume la glucosa mucho más rápido de lo normal."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y aquí está la clave que explica por qué esto es urgente: el cerebro del recién nacido no fabrica ni guarda su propia glucosa. Vive del azúcar que circula en ese momento. Si se le acaba, no tiene ningún plan B."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Por eso se fija un corte: hablamos de hipoglicemia cuando la glicemia baja de cuarenta y cinco miligramos por decilitro. Fíjate en un detalle que se pregunta: en las primeras cuatro horas de vida el corte es un poco más bajo, cuarenta, porque toda guagua tiene una caída fisiológica al nacer."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Ahora, ¿cómo se te presenta? Con temblores finos, succión débil, decaimiento, o episodios de apnea. Pero acuérdate de esto: la mayoría de los recién nacidos de riesgo no tiene ningún síntoma. Por eso a estos grupos les tomas el examen aunque se vean perfectos."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y si esa glicemia baja se mantiene o se repite, el riesgo ya no es un temblor: son convulsiones, y un daño en el cerebro que después no se revierte. Por eso no se trata de esperar a ver qué pasa."
     },
     {
       "file": "s02_g00",
-      "text": "Durante las primeras cuarenta y ocho horas de vida se define hipoglicemia ante cualquier cifra plasmática menor a cuarenta y cinco miligramos por decilitro, umbral bajo el cual peligra el metabolismo cerebral."
+      "text": "Vamos al manejo, escalón por escalón. Si el recién nacido está sin síntomas y la glicemia está entre treinta y cinco y cuarenta y cuatro, tu primer paso no es el suero: es alimentarlo de inmediato, al pecho o con fórmula."
     },
     {
       "file": "s02_g01",
-      "text": "Posterior a las cuarenta y ocho horas de adaptación el valor de corte se eleva, exigiéndose mantener la glicemia por sobre los sesenta miligramos por decilitro de manera continua."
+      "text": "Y controlas la glicemia entre treinta y sesenta minutos después. Si se normaliza, sigues con tomas frecuentes y controles antes de cada una."
     },
     {
       "file": "s02_g02",
-      "text": "Los recién nacidos prematuros y los pequeños para la edad gestacional nacen con depósitos hepáticos mínimos, agotando sus escasas reservas energéticas en las primeras dos a cuatro horas."
+      "text": "Pero si tiene síntomas, o la glicemia ya está bajo treinta y cinco, aquí no hay tiempo para esperar que coma: es un bolo endovenoso de suero glucosado al diez por ciento, dos mililitros por kilo, pasado lento en cinco minutos."
     },
     {
       "file": "s02_g03",
-      "text": "Los hijos de madre diabética sufren hiperinsulinismo severo de rebote: al cortarse el cordón, las concentraciones masivas de insulina desploman la glicemia en las primeras horas de vida."
+      "text": "Y ese bolo siempre va seguido de una infusión continua, para no dejarlo caer de nuevo apenas se le pase el efecto."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y una trampa clásica: nunca le pases un bolo de suero glucosado al veinte o al cincuenta. Suena más potente, pero le dispara la insulina de rebote y lo deja peor. El bolo siempre es al diez."
     },
     {
       "file": "s03_g00",
-      "text": "El síntoma cardinal más precoz son los temblores finos en brazos y piernas que ceden al sujetar con suavidad la extremidad, acompañados de irritabilidad desproporcionada al tacto."
+      "text": "De la mano con la glicemia va el calcio. Hablamos de hipocalcemia con un calcio bajo siete en el prematuro, o bajo ocho en el recién nacido de término."
     },
     {
       "file": "s03_g01",
-      "text": "Conforme se profundiza la falta de glucosa, el niño se torna hipotónico, pierde la fuerza de succión, no despierta para alimentarse y cae en un estado de letargia profunda."
+      "text": "La forma precoz aparece en las primeras setenta y dos horas, y fíjate que comparte exactamente los mismos grupos de riesgo: el prematuro, el asfixiado, y el hijo de madre diabética."
     },
     {
       "file": "s03_g02",
-      "text": "La neuroglucopenia severa compromete el centro respiratorio bulbar, originando pausas de apnea prolongadas, cianosis y respiración periódica."
+      "text": "Si le da temblores, o el electrocardiograma muestra el intervalo prolongado, el tratamiento es gluconato de calcio al diez por ciento, uno a dos mililitros por kilo, endovenoso lento."
     },
     {
       "file": "s03_g03",
-      "text": "En casos graves se desencadenan crisis convulsivas e hipotermia persistente debido a la incapacidad biológica de quemar grasa parda sin glucosa intracelular."
+      "text": "Y nunca lo pases sin monitor: si se lo das rápido, le puede provocar una bradicardia severa. Este dato del monitor es justo lo que más te van a preguntar aquí."
     },
     {
       "file": "s04_g00",
-      "text": "En el niño asintomático con valores limítrofes se indica alimentación láctea inmediata y nuevo control en sesenta minutos."
+      "text": "Ahora ordenemos todo esto en un solo árbol de decisión. Recién nacido de un grupo de riesgo, con hemoglucotest bajo el corte. La pregunta que decide todo es si tiene síntomas."
     },
     {
       "file": "s04_g01",
-      "text": "Si la glicemia desciende de treinta y cinco miligramos, aunque esté asintomático, se inicia aporte parenteral preventivo."
+      "text": "Primero preguntas si hay síntomas neurológicos. La respuesta te separa en dos caminos completamente distintos."
     },
     {
       "file": "s04_g02",
-      "text": "Ante un neonato sintomático con temblores o letargia se administra de inmediato un bolo endovenoso de glucosa al diez por ciento."
+      "text": "Sin síntomas y con una glicemia entre treinta y cinco y cuarenta y cuatro: alimentas de inmediato, y controlas en treinta a sesenta minutos."
     },
     {
       "file": "s04_g03",
-      "text": "Si presenta convulsiones se administra bolo de suero glucosado al diez por ciento y se ajusta la carga de glucosa sobre ocho."
+      "text": "Si tras alimentar la glicemia sigue baja, cambias de camino."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si se corrigió, mantienes tomas frecuentes con controles preprandiales."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si persiste baja, ya no insistes con la vía oral: pasas a la vía endovenosa."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Con síntomas, o una glicemia bajo treinta y cinco, es una urgencia: bolo endovenoso de suero glucosado al diez por ciento."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Y siempre sigue con una infusión continua, para sostener la glicemia sobre el corte de seguridad."
     },
     {
       "file": "s05_g00",
-      "text": "En todo recién nacido con hipoglicemia sintomática se administra de inmediato un bolo endovenoso de suero glucosado al diez por ciento a dos mililitros por kilo, infundido lentamente en cinco minutos para recuperar el nivel plasmático sin provocar hiperosmolaridad."
+      "text": "Repasemos con una tabla. Riesgo, sin síntomas, glicemia entre treinta y cinco y cuarenta y cuatro: alimentas y controlas. El error es saltarte ese paso y pasar suero de entrada."
     },
     {
       "file": "s05_g01",
-      "text": "Inmediatamente después del bolo se conecta una infusión continua con una carga de glucosa de seis a ocho miligramos por kilo minuto, controlando la glicemia plasmática a los treinta minutos para certificar que supere los cincuenta miligramos por decilitro."
+      "text": "Con síntomas, o glicemia bajo treinta y cinco: bolo de suero glucosado al diez y luego infusión. El error contrario es intentar solo alimentarlo y esperar."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En cualquier bolo, siempre al diez por ciento. Usar uno al veinte o al cincuenta es el error que más se repite en este tema."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y en la hipocalcemia con síntomas: gluconato de calcio, siempre con monitor cardíaco. Pasarlo rápido y sin vigilancia es lo que causa la bradicardia."
     },
     {
       "file": "s06_g00",
-      "text": "El uso de glucosa hipertónica al veinte o cincuenta por ciento en bolo genera una hiperosmolaridad intravascular devastadora, causando deshidratación neuronal aguda y hemorragia intraventricular."
+      "text": "Vamos con el caso. Recién nacido de treinta y nueve semanas, hijo de madre con diabetes gestacional en tratamiento con insulina, nacido por cesárea con cuatro mil trescientos cincuenta gramos. A las dos horas de vida tiene temblores finos, succión débil y algo de hipotonía. El hemoglucotest marca treinta y dos, confirmado con glicemia venosa en treinta."
     },
     {
       "file": "s06_g01",
-      "text": "Además, la llegada masiva de glucosa al páncreas desata una liberación masiva de insulina que provoca una hipoglicemia de rebote aún más profunda y refractaria."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s06_g02",
-      "text": "La única concentración autorizada para administrar en bolo por vía venosa en el neonato es el suero glucosado al diez por ciento, garantizando eficacia terapéutica y seguridad endotelial."
+      "text": "Tienes cinco opciones: pecho materno y control en dos horas, bolo de suero glucosado al diez con infusión, bolo rápido de suero al cincuenta, solo observar porque es esperable, o hidrocortisona de entrada. Piénsalo."
     },
     {
       "file": "s06_g03",
-      "text": "Si los requerimientos de glucosa superan los doce miligramos por kilo minuto para mantener cifras normales, se debe sospechar hiperinsulinismo congénito indicando diazóxido o hidrocortisona."
+      "text": "Es la B. Este paciente ya tiene síntomas y una glicemia bien baja: no es momento de esperar a ver si come. Va bolo de suero glucosado al diez, dos mililitros por kilo en cinco minutos, y de inmediato la infusión continua. El suero al cincuenta es la trampa: parece más potente, pero dispara la insulina de rebote. Y observar sin tratar, con temblores y succión débil, es dejarlo avanzar hacia el daño que veníamos explicando."
     },
     {
       "file": "s07_g00",
-      "text": "La hipocalcemia precoz debuta en los primeros tres días en prematuros, asfícticos o hijos de madre diabética, debida a una respuesta transitoria insuficiente de la paratohormona al corte del cordón."
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Recién nacido pequeño para la edad gestacional, con dos mil quinientos gramos."
     },
     {
       "file": "s07_g01",
-      "text": "Se confirma ante un calcio total menor a siete u ocho miligramos por decilitro o un calcio iónico biológicamente activo menor a un milimol por litro."
+      "text": "¿Qué conducta tomar en relación a la alimentación?"
     },
     {
       "file": "s07_g02",
-      "text": "La hipocalcemia tardía aparece al final de la primera semana, típicamente por consumo de leche de vaca no modificada cuya alta carga de fósforo deprime los niveles de calcio sérico."
+      "text": "Las opciones: fórmula hipercalórica, sonda nasogástrica, ayuno de seis horas y fórmula de prematuro, pecho materno precoz con control en dos horas, o suero glucosado endovenoso de entrada."
     },
     {
       "file": "s07_g03",
-      "text": "También puede traducir un hipoparatiroidismo congénito en el contexto de un síndrome de DiGeorge, asociándose a cardiopatías congénitas e inmunodeficiencia de células T."
+      "text": "Es la D. Fíjate que este recién nacido no tiene ningún síntoma: solo tiene el factor de riesgo, el bajo peso. Y ese es justo el escenario del primer escalón que vimos: no partes con suero, partes alimentando precoz y controlando la glicemia a las dos horas. El suero endovenoso de entrada es la trampa, porque se salta un paso que aquí es innecesario."
     },
     {
       "file": "s08_g00",
-      "text": "La falta de calcio estabilizador de membrana produce hiperexcitabilidad con temblores intensos, hiperreflexia osteotendinosa y clonus patológico ante el menor estímulo."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Recién nacido de término, hijo de madre con preeclampsia, que pesa dos mil seiscientos gramos al nacer."
     },
     {
       "file": "s08_g01",
-      "text": "En casos severos se presenta estridor respiratorio por laringoespasmo, contracturas musculares tónicas y convulsiones que solo ceden al administrar calcio."
+      "text": "¿Cuál es la complicación más frecuente durante las primeras horas de vida?"
     },
     {
       "file": "s08_g02",
-      "text": "En el electrocardiograma el hallazgo característico es la prolongación del intervalo QT corregido a expensas de un segmento ST alargado, predisponiendo a arritmias ventriculares graves."
+      "text": "Las opciones son: hipoglicemia, sepsis, hiperbilirrubinemia, anemia, o distrés respiratorio."
     },
     {
       "file": "s08_g03",
-      "text": "La duración del intervalo QT se normaliza con rapidez al corregir los niveles séricos de calcio iónico, sirviendo como guía de respuesta terapéutica."
+      "text": "Es la A. Con la preeclampsia de la madre, este recién nacido nació chico para su edad gestacional, y ya sabes lo que eso significa: reservas casi en cero. La trampa aquí es la anemia. El pequeño para la edad gestacional no se pone anémico, se pone policitémico, así que la anemia queda descartada, y la respuesta es la hipoglicemia."
     },
     {
       "file": "s09_g00",
-      "text": "El tratamiento de urgencia consiste en administrar gluconato de calcio al diez por ciento a dosis de uno a dos mililitros por kilo, diluido al medio con agua bidestilada o solución salina."
+      "text": "Cerremos con las reglas de oro. La pregunta que ordena todo es si hay síntomas. Sin síntomas y entre treinta y cinco y cuarenta y cuatro: alimentas y controlas."
     },
     {
       "file": "s09_g01",
-      "text": "Debe infundirse muy lentamente en diez a quince minutos, manteniendo una monitorización electrocardiográfica continua y suspendiendo la infusión si aparece bradicardia."
+      "text": "Con síntomas, o bajo treinta y cinco: bolo de suero glucosado al diez, y de inmediato la infusión continua."
     },
     {
       "file": "s09_g02",
-      "text": "La administración rápida en bolo directo está formalmente prohibida por el riesgo letal de bradicardia extrema, paro sinusal y asistolía ventricular."
+      "text": "Nunca uses suero al veinte o al cincuenta en bolo."
     },
     {
       "file": "s09_g03",
-      "text": "La extravasación del gluconato de calcio causa necrosis tisular severa y calcinosis dérmica profunda, requiriendo verificar minuciosamente la permeabilidad de la vena."
+      "text": "Y nunca pases el gluconato de calcio sin monitor cardíaco."
     },
     {
-      "file": "s10_g00",
-      "text": "El magnesio es un cofactor indispensable para la síntesis y liberación de paratohormona. Ante una hipomagnesemia profunda la glándula paratiroides no secreta hormona y los tejidos diana no responden a ella."
-    },
-    {
-      "file": "s10_g01",
-      "text": "Toda hipocalcemia que resulte refractaria a la administración reiterada de gluconato de calcio se debe a una hipomagnesemia concomitante que bloquea el eje hormonal."
-    },
-    {
-      "file": "s10_g02",
-      "text": "Es mandatario dosificar magnesio plasmático ante cualquier recién nacido con temblores persistentes o hipocalcemia que no normaliza sus valores tras el tratamiento inicial."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Se corrige administrando sulfato de magnesio al cincuenta por ciento a dosis de cincuenta a cien miligramos por kilo en infusión lenta diluida o por vía intramuscular profunda."
-    },
-    {
-      "file": "s11_g00",
-      "text": "La hipoglicemia sintomática se corrige con suero glucosado al diez por ciento a dos mililitros por kilo seguido de infusión continua."
-    },
-    {
-      "file": "s11_g01",
-      "text": "La hipocalcemia sintomática se trata con gluconato de calcio al diez por ciento en infusión lenta bajo monitorización cardíaca."
-    },
-    {
-      "file": "s11_g02",
-      "text": "La hipomagnesemia debe corregirse con sulfato de magnesio si la hipocalcemia no responde a las dosis estándar de calcio."
-    },
-    {
-      "file": "s11_g03",
-      "text": "El hiperinsulinismo persistente con cargas elevadas de glucosa se maneja con diazóxido o hidrocortisona en cuidados intensivos."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Iniciamos el abordaje evaluando la glicemia capilar o venosa para confirmar o descartar hipoglicemia aguda."
-    },
-    {
-      "file": "s12_g01",
-      "text": "Evaluamos si el paciente presenta síntomas neurológicos o si la cifra es inferior a treinta y cinco."
-    },
-    {
-      "file": "s12_g02",
-      "text": "Administramos bolo de suero glucosado al diez por ciento a dos mililitros por kilo seguido de infusión continua y control en media hora."
-    },
-    {
-      "file": "s12_g03",
-      "text": "En el recién nacido asintomático indicamos alimentación láctea inmediata y repetimos el control glicémico en sesenta minutos."
-    },
-    {
-      "file": "s12_g04",
-      "text": "Con glicemia normal evaluamos los niveles de calcio iónico y total para diagnosticar hipocalcemia."
-    },
-    {
-      "file": "s12_g05",
-      "text": "Administramos gluconato de calcio al diez por ciento endovenoso lento en diez a quince minutos bajo monitorización cardíaca continua."
-    },
-    {
-      "file": "s12_g06",
-      "text": "Si el calcio es normal descartamos asfixia perinatal, infección del sistema nervioso central o síndrome de privación."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Recién nacido de término macrosómico de madre diabética que a las dos horas presenta temblores succión débil y glicemia de treinta y dos miligramos por decilitro."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es la conducta médica inmediata más adecuada?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "La opción A agua con azúcar oral. La B bolo endovenoso de suero glucosado al diez por ciento a dos mililitros por kilo en cinco minutos seguido de infusión continua. La C glucosa al cincuenta por ciento en bolo. La D hidrocortisona. La E observación. Analiza el estado sintomático. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la B. La hipoglicemia sintomática exige bolo de suero glucosado al diez por ciento seguido de infusión continua de glucosa."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Recién nacido pretérmino con temblores irritabilidad calcio sérico de seis coma dos calcio iónico bajo e intervalo QTc prolongado."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es el tratamiento de urgencia indicado?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A gluconato de calcio al diez por ciento a uno a dos mililitros por kilo por vía endovenosa lenta con monitorización cardíaca. La B calcio oral. La C sulfato de magnesio en bolo rápido. La D vitamina D intramuscular. La E cloruro de potasio. Identifica el fármaco de emergencia. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la A. Se administra gluconato de calcio al diez por ciento endovenoso lento en diez a quince minutos bajo monitorización cardíaca continua."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Recuerden siempre el umbral de cuarenta y cinco miligramos por decilitro en las primeras cuarenta y ocho horas para intervenir y prevenir daño cerebral."
-    },
-    {
-      "file": "s15_g01",
-      "text": "Utilicen siempre suero glucosado al diez por ciento a dos mililitros por kilo en cinco minutos, seguido inmediatamente de infusión continua."
-    },
-    {
-      "file": "s15_g02",
-      "text": "Infundan el gluconato de calcio en al menos diez minutos con monitorización electrocardiográfica para frenar ante cualquier bradicardia."
-    },
-    {
-      "file": "s15_g03",
-      "text": "En hipocalcemia refractaria dosifiquen siempre magnesio sérico. Si te llevas una sola idea de hoy: la hipoglicemia sintomática exige un bolo de suero glucosado al diez por ciento a dos mililitros por kilo, seguido de una infusión continua calculada. Nos vemos en la próxima clase."
+      "file": "s09_g04",
+      "text": "Si te llevas una sola idea de hoy: hipoglicemia e hipocalcemia comparten los mismos grupos de riesgo, y en los dos casos, el síntoma es lo que te obliga a actuar rápido. Nos vemos en la próxima clase."
     }
   ]
 }

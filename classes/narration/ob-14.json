@@ -2,259 +2,203 @@
   "id": "ob-14",
   "title": "Obstetricia 19.14: Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
   "specialty": "Obstetricia",
-  "chars": 13345,
+  "chars": 9440,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre rotura prematura de membranas ovulares y corioamnionitis clínica. La rotura prematura de membranas es responsable de un tercio de los partos de pretérmino. En esta sesión dominaremos la especuloscopía estéril, la estricta prohibición del tacto vaginal digital, el umbral crítico de treinta y cuatro semanas, los antibióticos de latencia y los criterios diagnósticos de Gibbs. Comencemos."
+      "text": "Bienvenido a rotura prematura de membranas, antibióticos de latencia y corioamnionitis. En la clase pasada viste que nunca se toca a ciegas cuando hay sangrado; hoy vas a ver que tampoco se toca a ciegas cuando lo que sale es líquido amniótico. Y el resto de la clase se ordena con una sola pregunta: la edad gestacional, y si hay o no infección. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "La rotura prematura de membranas no es un simple desgaste físico mecánico, sino un proceso biológico activo donde gérmenes ascendentes del tracto genital inferior o procesos inflamatorios inducen la síntesis de metaloproteinasas y colagenasas que degradan la matriz extracelular de las membranas ovulares."
+      "text": "La paciente te cuenta que perdió, de golpe o poco a poco, un líquido claro y tibio, con un olor característico a cloro. Ese relato ya orienta casi todo."
     },
     {
       "file": "s01_g01",
-      "text": "Al romperse las membranas se produce la salida de líquido amniótico al exterior. El intervalo entre la rotura y el desencadenamiento espontáneo de las contracciones uterinas se denomina período de latencia; a menor edad gestacional, más prolongada suele ser esta latencia fisiológica."
+      "text": "Y aquí va la primera regla de la clase, tan importante como la del sangrado: nada de tacto vaginal digital si no hay trabajo de parto. Arrastra bacterias de la vagina hacia el cuello, acorta la latencia a la mitad, y multiplica el riesgo de infección."
     },
     {
       "file": "s01_g02",
-      "text": "La complicación más grave de la rotura de membranas es la pérdida de la barrera de esterilidad amniótica. Los microorganismos vaginales ascienden rápidamente hacia la cavidad uterina, colonizando la placenta, el cordón y los pulmones fetales, lo cual puede culminar en sepsis neonatal grave y corioamnionitis."
+      "text": "Lo que sí haces es una especuloscopía estéril, para ver el líquido saliendo directamente por el orificio cervical."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si no sale espontáneo, pides a la paciente que puje, la maniobra de Valsalva, o empujas la presentación hacia arriba, la maniobra de Tarnier."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Si con eso ya viste el líquido, no necesitas nada más. Pero si la duda persiste, recién ahí pides un examen de apoyo."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El test de la microglobulina placentaria, y el de la cristalización en hoja de helecho, son los que mejor confirman el diagnóstico cuando la clínica no basta."
     },
     {
       "file": "s02_g00",
-      "text": "La paciente relata la pérdida brusca o continua de abundante líquido acuoso transparente, tibio y con olor característico a hipoclorito de sodio o semen. Este olor a cloro orienta fuertemente al clínico antes de iniciar el examen físico."
+      "text": "A partir de las treinta y cuatro semanas, el riesgo de esperar, con corioamnionitis y compresión de cordón, ya supera al riesgo de nacer un poco antes. Se induce el parto."
     },
     {
       "file": "s02_g01",
-      "text": "La especuloscopía estéril es el examen de elección. Permite visualizar directamente la salida de líquido amniótico por el orificio cervical externo de forma espontánea, al solicitar a la paciente que puje con la maniobra de Valsalva o al rechazar suavemente la presentación fetal hacia arriba mediante la maniobra de Tarnier."
+      "text": "Y das profilaxis con penicilina o ampicilina si la paciente tiene el estreptococo del grupo B positivo, o si la latencia se alarga más de doce a dieciocho horas."
     },
     {
       "file": "s02_g02",
-      "text": "El tacto vaginal digital está terminantemente contraindicado en la sospecha de rotura de membranas sin trabajo de parto franco. Constituye una de las preguntas trampa clásicas del examen EUNACOM que ningún postulante debe olvidar jamás."
+      "text": "Antes de las treinta y cuatro semanas, la conducta cambia por completo: hospitalizas en una unidad de alto riesgo obstétrico, y vigilas de cerca los signos de infección."
     },
     {
       "file": "s02_g03",
-      "text": "Realizar un tacto vaginal digital arrastra microorganismos de la microbiota vaginal patógena directamente al canal endocervical. Esto reduce a la mitad el tiempo de latencia libre de parto y cuadruplica el riesgo de infección intraamniótica materna y sepsis neonatal grave."
+      "text": "Das antibióticos de latencia, ampicilina más eritromicina, que no curan nada todavía, pero prolongan el tiempo libre de parto y bajan la sepsis neonatal."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Sumas betametasona para madurar el pulmón fetal, y si la gestación es menor a treinta y dos semanas, sulfato de magnesio para proteger el cerebro del feto."
     },
     {
       "file": "s03_g00",
-      "text": "El test de cristalización en hoja de helecho detecta la arborización producida por la concentración de cloruro de sodio y mucina al secarse al aire libre en un portaobjetos, observándose al microscopio con una sensibilidad diagnóstica superior al noventa por ciento."
+      "text": "La corioamnionitis se define con los criterios de Gibbs, y el primero es obligatorio: fiebre materna de treinta y ocho grados o más."
     },
     {
       "file": "s03_g01",
-      "text": "El test de nitrazina aprovecha el pH básico del líquido amniótico, en contraste con el pH ácido normal de la vagina. El viraje del papel a un color azul intenso indica alcalinidad, aunque la presencia de semen, orina infectada o sangre pueden arrojar falsos positivos."
+      "text": "A esa fiebre le sumas al menos dos de estos: taquicardia materna, taquicardia fetal, dolor a la palpación del útero, líquido de mal olor, o leucocitosis."
     },
     {
       "file": "s03_g02",
-      "text": "Los inmunoensayos modernos como la microglobulina placentaria alfa-uno tienen una sensibilidad y especificidad superiores al noventa y ocho por ciento, siendo sumamente útiles en el servicio de urgencias cuando la especuloscopía no es concluyente."
+      "text": "Con eso confirmas una corioamnionitis clínica, y esto cambia todo lo que veíamos antes: la infección invalida por completo la conducta expectante. Se acabaron los corticoides, se acabó la tocolisis, y no importa si la paciente tiene veintiséis semanas."
     },
     {
       "file": "s03_g03",
-      "text": "La ecografía obstétrica evalúa el índice de líquido amniótico y el bolsillo único mayor. El hallazgo de oligohidramnios o disminución marcada del volumen apoya fuertemente la sospecha clínica, pero nunca confirma por sí solo la existencia de una rotura de membranas."
+      "text": "La conducta es interrumpir el embarazo de inmediato, por la vía más expedita, sin esperar ningún resultado adicional."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y en paralelo, antibióticos de amplio espectro por vía endovenosa, ampicilina más gentamicina. Si se termina haciendo una cesárea, se agrega clindamicina para cubrir los anaerobios."
     },
     {
       "file": "s04_g00",
-      "text": "A partir de las treinta y cuatro semanas de gestación la conducta indicada es la interrupción activa del embarazo. La madurez pulmonar fetal ya está prácticamente consolidada y prolongar la gestación solo aumenta exponencialmente el riesgo de corioamnionitis, desprendimiento placentario y compresión del cordón umbilical."
+      "text": "El esquema de latencia parte con ampicilina y eritromicina endovenosas por cuarenta y ocho horas, y sigue con las mismas dos por vía oral hasta completar siete días en total."
     },
     {
       "file": "s04_g01",
-      "text": "En embarazos entre las veinticuatro y las treinta y tres semanas con seis días, si no hay evidencia de infección clínica o desprendimiento, se indica un manejo conservador hospitalizado en sala de alto riesgo obstétrico para ganar madurez fetal mediante corticoides y antibióticos de latencia."
+      "text": "Para el pulmón fetal, betametasona en dos dosis, una cada veinticuatro horas, o su alternativa, dexametasona, en cuatro dosis cada doce horas."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El sulfato de magnesio se da en un bolo inicial, seguido de una infusión continua, siempre que la gestación sea menor a treinta y dos semanas y el parto esté por ocurrir."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si la corioamnionitis termina en cesárea, se agrega clindamicina al esquema de ampicilina y gentamicina, para cubrir los gérmenes anaerobios que esa combinación no alcanza."
     },
     {
       "file": "s05_g00",
-      "text": "La antibioticoterapia de latencia prolonga significativamente los días de gestación libre de parto. Además, disminuye la tasa de corioamnionitis materna y reduce en el neonato las complicaciones más temidas: la sepsis precoz, la enterocolitis necrotizante y la hemorragia intraventricular."
+      "text": "Ahora pongamos la edad gestacional y la infección en un solo árbol de decisión. Con la rotura ya confirmada, dos preguntas ordenan todo: qué edad gestacional tiene, y si hay o no signos de infección."
     },
     {
       "file": "s05_g01",
-      "text": "El protocolo normado por el MINSAL y las guías internacionales contempla una fase inicial endovenosa de cuarenta y ocho horas con ampicilina y eritromicina, continuada por cinco días de amoxicilina oral combinada con eritromicina oral hasta completar siete días íntegros."
+      "text": "Si cumple los criterios de Gibbs, es una corioamnionitis clínica. Esto invalida cualquier conducta expectante: se interrumpe de inmediato, con antibióticos endovenosos, sin importar la edad gestacional."
     },
     {
       "file": "s05_g02",
-      "text": "En todo embarazo entre las veinticuatro y treinta y cuatro semanas administramos betametasona intramuscular en dos dosis de doce miligramos separadas por veinticuatro horas. Este esquema acelera la síntesis de surfactante y reduce el síndrome de distrés respiratorio y la mortalidad neonatal."
+      "text": "Sin infección y con treinta y cuatro semanas o más, el riesgo de esperar ya supera al de nacer. Se induce el parto, con profilaxis para el estreptococo si el cultivo es positivo o desconocido."
     },
     {
       "file": "s05_g03",
-      "text": "Cuando el parto prematuro es inminente en gestaciones menores a treinta y dos semanas, indicamos una infusión de sulfato de magnesio como neuroprotector fetal, reduciendo a la mitad el riesgo de parálisis cerebral infantil y disfunción motora severa."
+      "text": "Bajo las treinta y cuatro semanas y sin infección, hospitalizas en ARO, das corticoides para el pulmón fetal y antibióticos de latencia. Si es menor a treinta y dos semanas, sumas sulfato de magnesio para proteger el cerebro fetal."
     },
     {
       "file": "s06_g00",
-      "text": "Iniciamos ampicilina endovenosa con dos gramos de carga seguidos de un gramo cada seis horas por cuarenta y ocho horas para lograr concentraciones bactericidas inmediatas contra estreptococo del grupo B y enterobacterias."
+      "text": "Repasemos en una tabla. RPM de treinta y cuatro semanas o más: se induce el parto. El error es esperar a que empiece solo."
     },
     {
       "file": "s06_g01",
-      "text": "Asociamos eritromicina en dosis de doscientos cincuenta miligramos cada seis horas durante siete días para erradicar gérmenes atípicos como Ureaplasma urealyticum y Mycoplasma hominis, agentes etiológicos centrales en la colagenólisis de membranas."
+      "text": "RPM entre veinticuatro y treinta y tres más seis: antibióticos de latencia, corticoides y vigilancia. El error es interrumpir antes de tiempo, sin que haga falta."
     },
     {
       "file": "s06_g02",
-      "text": "A partir del tercer día pasamos a la vía oral con amoxicilina quinientos miligramos cada ocho horas durante cinco días más, completando los siete días normados sin requerir antibióticos adicionales si la paciente permanece asintomática."
+      "text": "Ante la duda diagnóstica: especuloscopía y el test de microglobulina. El error clásico es meter el dedo para confirmar."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Con corioamnionitis clínica, se interrumpe ya, con antibióticos endovenosos. El error grave es seguir dando corticoides o tocolíticos, pensando solo en la prematurez."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si el parto es inminente antes de las treinta y dos semanas, no olvides el sulfato de magnesio, porque protege el cerebro del feto."
     },
     {
       "file": "s07_g00",
-      "text": "La colonización de la cavidad amniótica por gérmenes como Ureaplasma, micoplasmas, Escherichia coli o Estreptococo del grupo B genera una intensa infiltración leucocitaria en las membranas, el cordón y el líquido amniótico."
+      "text": "Vamos con un caso. Primigesta de treinta semanas, hospitalizada hace tres días por rotura prematura de membranas, en manejo conservador. Ahora tiene fiebre de treinta y ocho y medio, calofríos y taquicardia materna. El útero está hipertónico y muy sensible al tacto, sale líquido amniótico purulento y de mal olor, el feto está taquicárdico, y el hemograma muestra leucocitosis con desviación a la izquierda."
     },
     {
       "file": "s07_g01",
-      "text": "El feto responde a la infección con una masiva liberación de citocinas inflamatorias como interleucina seis. Este síndrome de respuesta fetal puede lesionar la sustancia blanca cerebral provocando leucomalacia periventricular y parálisis cerebral permanente."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Para la madre, la corioamnionitis representa un riesgo inminente de sepsis grave, shock séptico, abscesos pélvicos y atonía uterina postparto con hemorragia masiva por incapacidad de contracción del miometrio infectado."
+      "text": "Las opciones: antipiréticos y tocolíticos esperando a las treinta y cuatro semanas, ampicilina más gentamicina e interrumpir ya, un segundo ciclo de betametasona, una amniocentesis con espera del cultivo, o sulfato de magnesio con conducta expectante. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Fiebre, taquicardia materna y fetal, dolor uterino, líquido purulento y leucocitosis: cumple de sobra los criterios de Gibbs. Con una corioamnionitis clínica confirmada, no hay conducta expectante que valga, ni corticoides, ni tocolíticos. Se dan antibióticos endovenosos de amplio espectro y se interrumpe el embarazo de inmediato."
     },
     {
       "file": "s08_g00",
-      "text": "El diagnóstico clínico de corioamnionitis requiere de manera obligatoria e insustituible la presencia de fiebre materna, definida como temperatura axilar de treinta y ocho grados o más en dos tomas separadas o treinta y ocho punto cinco grados en una sola medición."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente multípara, con un embarazo de treinta y seis semanas, con pérdida de líquido hace una hora, confirmada con la prueba de microglobulina placentaria. La ecografía muestra el líquido disminuido, con el feto en cefálica y bienestar conservado."
     },
     {
       "file": "s08_g01",
-      "text": "Esta fiebre debe ocurrir sin que exista otro foco infeccioso extrauterino que la explique, como una pielonefritis aguda, un cuadro respiratorio bajo o una apendicitis aguda concomitante durante la gestación."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Los criterios secundarios incluyen taquicardia materna sobre cien latidos por minuto o taquicardia fetal sostenida sobre ciento sesenta latidos por minuto, que es la señal más precoz de respuesta fetal."
+      "text": "Las opciones: cesárea, dar corticoides, inducir el parto, esperar cuarenta y ocho horas, o dar antibióticos. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Se constata hipersensibilidad o dolor marcado a la palpación del cuerpo y fondo uterino, o bien la salida evidente de líquido amniótico turbio, francamente purulento y con olor fétido descompuesto."
-    },
-    {
-      "file": "s08_g04",
-      "text": "El hemograma materno confirma leucocitosis superior a quince mil células por milímetro cúbico asociada a desviación izquierda con presencia de baciliformes o neutrofilia patológica."
+      "text": "Es la C, inducir el parto. Con treinta y seis semanas ya cumplidas, la rotura de membranas se interrumpe de inmediato si no hay ninguna contraindicación para el parto vaginal. Los corticoides y los antibióticos de latencia son para las gestaciones bajo las treinta y cuatro semanas, y aquí ya la pasó."
     },
     {
       "file": "s09_g00",
-      "text": "La presencia de corioamnionitis clínica es una contraindicación absoluta para cualquier manejo expectante. Está formalmente prohibido administrar tocolíticos para intentar frenar el trabajo de parto o retrasar la evacuación uterina para esperar el efecto de los corticoides."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veintiocho años, con un embarazo de treinta y dos semanas, sin controles previos, con pérdida de líquido amniótico. Tiene fiebre de treinta y ocho y medio, y una frecuencia cardíaca de ciento diez. La especuloscopía confirma la salida de líquido, el feto está taquicárdico a ciento ochenta, y la ecografía muestra oligoamnios."
     },
     {
       "file": "s09_g01",
-      "text": "La corioamnionitis no es una indicación directa e indiscutible de cesárea. Si las condiciones obstétricas y cervicales son favorables con feto en cefálica y bienestar conservado, la vía vaginal con inducción acelerada es la primera opción para evitar mayor morbilidad operatoria."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Iniciamos de forma inmediata antibioticoterapia endovenosa de amplio espectro combinando ampicilina dos gramos cada seis horas más gentamicina endovenosa, garantizando una rápida concentración tisular fetal y placentaria."
+      "text": "Las opciones: interrumpir el embarazo, dar corticoides y antibióticos con conducta expectante, pedir un doppler materno fetal, hacer una amniocentesis, o hacer una amnioinfusión con surfactante. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Si el parto debe resolverse mediante operación cesárea por motivos obstétricos, se agrega clindamicina o metronidazol endovenoso para una adecuada cobertura de bacterias anaerobias, disminuyendo el riesgo de fascitis y peritonitis puerperal."
+      "text": "Es la A. Fiebre materna con taquicardia materna y fetal en una rotura de membranas de pretérmino ya cumple los criterios de corioamnionitis clínica. Y la corioamnionitis gana por encima de la edad gestacional: se interrumpe, aunque tenga solo treinta y dos semanas. Dar corticoides y esperar sería un error grave frente a una infección activa."
     },
     {
       "file": "s10_g00",
-      "text": "El tacto vaginal digital a ciegas en sospecha de rotura de membranas está formalmente contraindicado porque introduce gérmenes y cuadruplica la infección."
+      "text": "Una más del banco. Primigesta de treinta semanas, con pérdida repentina de líquido claro hace cuatro horas, con olor a lavandina, sin dolor ni contracciones. Está afebril, sus signos vitales son normales, y la especuloscopía confirma la salida de líquido al toser. El feto está reactivo, y no hay dinámica uterina."
     },
     {
       "file": "s10_g01",
-      "text": "A partir de las treinta y cuatro semanas no se administra maduración pulmonar ni se espera; la conducta es la inducción activa del parto."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Ante corioamnionitis clínica la interrupción debe ser inmediata; la tocolisis está estrictamente contraindicada porque perpetúa el foco séptico intrauterino."
+      "text": "Las opciones: hospitalizar en ARO con betametasona y antibióticos de latencia, reposo domiciliario, inducir con misoprostol de inmediato, cesárea en las próximas horas, o tocolisis de mantención por dos semanas. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La corioamnionitis no obliga a cesárea per se; el parto vaginal inducido es la vía de elección salvo que existan contraindicaciones obstétricas clásicas."
+      "text": "Es la A. Es una RPM de pretérmino, sin fiebre ni signos de infección: manejo conservador, hospitalizada en una unidad de alto riesgo obstétrico, con betametasona para el pulmón fetal y antibióticos de latencia para ganar tiempo. El reposo en casa es peligroso, y la tocolisis de mantención no está indicada más allá de las cuarenta y ocho horas."
     },
     {
       "file": "s11_g00",
-      "text": "Iniciamos el abordaje recordando que el tacto digital está estrictamente prohibido y realizamos una especuloscopía estéril suave."
+      "text": "Cerremos con las reglas de oro. El diagnóstico se confirma con especuloscopía, nunca con un tacto vaginal digital."
     },
     {
       "file": "s11_g01",
-      "text": "Confirmada la salida de líquido amniótico, evaluamos la edad gestacional y descartamos signos de corioamnionitis clínica."
+      "text": "Con treinta y cuatro semanas o más, se induce el parto. Antes de eso, corticoides, antibióticos de latencia, y sulfato de magnesio si es menor a treinta y dos."
     },
     {
       "file": "s11_g02",
-      "text": "Si presenta fiebre y criterios de Gibbs diagnosticamos corioamnionitis e interrumpimos de inmediato el embarazo con antibióticos."
-    },
-    {
-      "file": "s11_g03",
-      "text": "A partir de las treinta y cuatro semanas indicamos la inducción activa del parto por vía vaginal."
-    },
-    {
-      "file": "s11_g04",
-      "text": "En pretérminos sin infección indicamos reposo en sala de alto riesgo obstétrico con betametasona y antibióticos de latencia."
-    },
-    {
-      "file": "s11_g05",
-      "text": "Si la especuloscopía es dudosa solicitamos cristalización en hoja de helecho o microglobulina placentaria alfa-uno."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Una gestante de treinta y una semanas consulta por pérdida de líquido claro con especuloscopía confirmatoria, afebril y sin dolor uterino ni dinámica."
-    },
-    {
-      "file": "s12_g01",
-      "text": "¿Cuál es la conducta médica más apropiada a seguir?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "La opción A propone tacto vaginal e inducción. La B hospitalizar en ARO con betametasona y antibióticos de latencia. La C manejo ambulatorio. La D cesárea de urgencia. La E tocolisis por catorce días. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La respuesta correcta es la B. Entre las veinticuatro y treinta y tres semanas con seis días se hospitaliza para manejo expectante con betametasona intramuscular y antibióticos de latencia."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Una gestante de treinta semanas con rotura de membranas presenta fiebre de treinta y ocho punto seis, taquicardia materna y fetal, útero muy doloroso y líquido purulento fétido."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es la conducta médica inmediata e impostergable?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "La opción A propone tocolíticos y esperar. La B ampicilina más gentamicina e interrupción inmediata del embarazo. La C corticoides y esperar dos días. La D amniocentesis. La E sulfato de magnesio expectante. Reflexiona. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la B. La corioamnionitis clínica exige interrupción inmediata del embarazo bajo cobertura antibiótica endovenosa con ampicilina y gentamicina sin esperar maduración pulmonar."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Una gestante de treinta y seis semanas consulta por rotura de membranas de ocho horas de evolución, afebril, con cuello favorable y monitor reactivo."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es la conducta indicada según las guías clínicas del MINSAL?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A propone inducir el parto de inmediato con oxitocina. La B betametasona y reposo. La C antibióticos de latencia ambulatorios. La D tocolisis con nifedipino. La E cesárea a la semana treinta y nueve. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la A. Cumplidas las treinta y cuatro semanas de gestación, la conducta de consenso ante rotura de membranas es la inducción expedita del parto."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Se consulta cuál examen o maniobra médica está formalmente contraindicado como método diagnóstico inicial en sospecha de rotura prematura de membranas sin trabajo de parto."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es la maniobra formalmente proscrita?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A propone especuloscopía estéril. La B tacto vaginal digital. La C cristalización en hoja de helecho. La D papel de nitrazina. La E detección de microglobulina placentaria. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. El tacto vaginal digital está terminantemente proscrito porque arrastra microorganismos patógenos y multiplica por cuatro la tasa de infección intraamniótica."
-    },
-    {
-      "file": "s16_g00",
-      "text": "La especuloscopía estéril con maniobra de Valsalva es el estándar de oro inicial; el tacto vaginal digital está terminantemente prohibido porque introduce gérmenes exógenos y cuadruplica la infección intraamniótica."
-    },
-    {
-      "file": "s16_g01",
-      "text": "El umbral decisivo son las treinta y cuatro semanas: bajo esta edad indicamos manejo expectante en ARO con betametasona y antibióticos; sobre las treinta y cuatro semanas la indicación categórica es la inducción del parto."
-    },
-    {
-      "file": "s16_g02",
-      "text": "En recién nacidos pretérmino administramos ampicilina más eritromicina por siete días completos, logrando prolongar significativamente la latencia y prevenir secuelas neurológicas e infecciosas graves."
-    },
-    {
-      "file": "s16_g03",
-      "text": "La sospecha de corioamnionitis obliga a interrumpir la gestación de inmediato. Si te llevas una sola idea de hoy: en la rotura prematura de membranas pretérmino el manejo es expectante con antibióticos de latencia, pero la infección intraamniótica obliga a interrumpir de inmediato. Nos vemos en la próxima clase."
+      "text": "Y si aparece fiebre con dos criterios de Gibbs, la corioamnionitis gana por encima de todo: se interrumpe de inmediato, con antibióticos endovenosos, sin importar la edad gestacional. Si te llevas una sola idea de hoy: la edad gestacional decide, salvo que haya infección, porque ahí la infección decide todo. Nos vemos en la próxima clase."
     }
   ]
 }

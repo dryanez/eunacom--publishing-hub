@@ -2,255 +2,287 @@
   "id": "gin-15",
   "title": "Ginecologia 20.15: Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario: Diagnóstico y Marcadores",
   "specialty": "Ginecología",
-  "chars": 12558,
+  "chars": 10955,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre cáncer de endometrio y neoplasias ováricas, dos patologías oncológicas de altísimo rendimiento en el examen EUNACOM. En esta sesión aprenderemos a estudiar la metrorragia de la postmenopausia utilizando el grosor endometrial y la biopsia con cánula de Pipelle, reconoceremos los criterios ecográficos de malignidad en masas anexiales según el modelo IOTA, y grabaremos la prohibición absoluta de realizar punciones ováricas ante sospecha de cáncer. Comencemos."
+      "text": "Bienvenido a la clase de hoy. Vamos a ver dos neoplasias del tracto genital interno: el cáncer de endometrio y el cáncer de ovario. El endometrio suele avisar temprano, con sangrado. El ovario es al revés: casi no da señales hasta que ya está avanzado. Vas a aprender la regla que nunca falla frente a un sangrado en la postmenopausia, y a leer una masa anexial con los mismos ojos con que la lee el radiólogo."
     },
     {
       "file": "s01_g00",
-      "text": "El adenocarcinoma de endometrio tipo uno endometrioide se origina por la exposición continua y prolongada a concentraciones elevadas de estrógenos sin la oposición protectora de la progesterona secretada por el cuerpo lúteo. En pacientes con obesidad mórbida, la enzima aromatasa del tejido adiposo convierte masivamente la androstenediona suprarrenal en estrona circulante, induciendo una hiperplasia endometrial compleja con atipias nucleares progresivas."
+      "text": "El cáncer de endometrio tiene dos caminos, y el más frecuente es el tipo uno, endometrioide, que explica ochenta de cada cien casos, con buen pronóstico."
     },
     {
       "file": "s01_g01",
-      "text": "La hiperplasia atípica evoluciona inevitablemente hacia un adenocarcinoma que infiltra el estroma y la pared miometrial, manifestándose de forma temprana por metrorragia en la postmenopausia. En marcado contraste, el cáncer epitelial de ovario se desarrolla de forma silente exfoliando células malignas hacia el líquido peritoneal, originando ascitis masiva y depósitos metastásicos carcinomatosos sobre el epiplón mayor y la superficie diafragmática."
+      "text": "Se origina por hiperestrogenismo crónico, sin la progesterona que normalmente lo frena. Por eso todos sus factores de riesgo apuntan al mismo lugar: más estrógeno, sin oposición."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El factor de riesgo más potente es la obesidad: el tejido graso convierte andrógenos en estrógeno, y mantiene ese estímulo todo el tiempo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "También pesa el tamoxifeno, que en la mama bloquea el estrógeno, pero en el endometrio actúa igual que él. Toda paciente con tamoxifeno y sangrado se biopsia."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el síndrome de Lynch, con mutaciones en los genes de reparación del ADN, da hasta sesenta de cada cien de riesgo de cáncer de endometrio y de colon."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El tipo dos es distinto: aparece en mujeres mayores, con un endometrio atrófico, sin relación con el estrógeno, y es mucho más agresivo."
     },
     {
       "file": "s02_g00",
-      "text": "La obesidad es el factor de riesgo primordial en los países occidentales, debido a que el exceso de tejido adiposo periférico contiene abundante enzima aromatasa que convierte continuamente los andrógenos suprarrenales en estrona, estimulando al epitelio endometrial sin oposición progestagénica."
+      "text": "Guarda esta regla, porque ordena toda la clase: todo sangrado en la postmenopausia es cáncer de endometrio hasta que se demuestre lo contrario."
     },
     {
       "file": "s02_g01",
-      "text": "El síndrome de ovario poliquístico perpetúa ciclos anovulatorios crónicos sin fase lútea ni secreción de progesterona, mientras que fármacos como el tamoxifeno ejercen un efecto agonista estrogénico parcial sobre el endometrio que cuadruplica el riesgo de adenocarcinoma."
+      "text": "El primer examen es la ecografía transvaginal, midiendo el grosor del endometrio."
     },
     {
       "file": "s02_g02",
-      "text": "Los anticonceptivos combinados y el dispositivo con levonorgestrel brindan una potente protección al mantener el endometrio en atrofia, reduciendo a la mitad el riesgo de cáncer a largo plazo."
+      "text": "Si el endometrio mide menos de cuatro a cinco milímetros, la causa más probable es la atrofia, con una probabilidad de cáncer menor a uno de cada cien."
     },
     {
       "file": "s02_g03",
-      "text": "La multiparidad confiere una marcada protección gracias a los prolongados períodos de exposición a progesterona placentaria que interrumpen los ciclos hiperestrogénicos."
+      "text": "Pero si mide cuatro a cinco milímetros o más, o si la paciente usa terapia de reemplazo hormonal, el corte sube a ocho milímetros. Ojo con ese matiz, porque se pregunta seguido."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Con el endometrio engrosado, la biopsia endometrial es obligatoria, y se hace de forma ambulatoria, con la cánula de Pipelle."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Si esa muestra sale insuficiente, o hay sospecha de un pólipo, el siguiente paso es la histeroscopía, con biopsia dirigida."
     },
     {
       "file": "s03_g00",
-      "text": "Cualquier episodio de pérdida hemática genital espontánea en una mujer menopáusica representa una neoplasia maligna ginecológica hasta demostrar lo contrario, obligando a realizar una ecografía transvaginal de alta resolución de forma inmediata e impostergable."
+      "text": "El tratamiento del cáncer de endometrio es quirúrgico: histerectomía total, con extirpación de ambas trompas y ovarios."
     },
     {
       "file": "s03_g01",
-      "text": "El punto de corte ecográfico fundamental consensuado internacionalmente es de cuatro a cinco milímetros en mujeres que no usan terapia hormonal; un grosor endometrial igual o superior a esta cifra impone la toma mandatoria e ineludible de una biopsia histológica."
+      "text": "Y se completa con linfadenectomía, o con el mapeo del ganglio centinela, para saber si hay diseminación."
     },
     {
       "file": "s03_g02",
-      "text": "La biopsia endometrial ambulatoria por aspiración utilizando una cánula flexible de Pipelle es el procedimiento diagnóstico de primera línea, destacando por su altísima sensibilidad cercana al noventa y ocho por ciento, su bajo costo y su excelente tolerancia sin requerir anestesia ni pabellón quirúrgico."
+      "text": "Y antes de llevarla a pabellón, si la biopsia confirma el cáncer, se pide un TAC de tórax, abdomen y pelvis, para buscar diseminación antes de operar."
     },
     {
       "file": "s03_g03",
-      "text": "Si la muestra con cánula de Pipelle resulta escasa o si la metrorragia recidiva con estudio previo negativo, se realiza una histeroscopía con biopsia dirigida bajo visión directa."
+      "text": "En estadio uno, de bajo riesgo, basta con la cirugía: se observa, sin nada más."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Pero en estadios más avanzados, se agrega quimioterapia y radioterapia externa."
     },
     {
       "file": "s04_g00",
-      "text": "El adenocarcinoma endometrioide tipo uno representa más de ocho de cada diez neoplasias endometriales, surge sobre hiperplasia endometrial compleja en mujeres con sobrepeso y ofrece un pronóstico curativo excelente cuando se detecta y opera en estadios tempranos."
+      "text": "Cambiemos al ovario. Le dicen el asesino silencioso, porque más de setenta de cada cien casos se diagnostican ya en estadio tres o cuatro."
     },
     {
       "file": "s04_g01",
-      "text": "Los tumores tipo dos serosos papilares o de células claras no dependen del estímulo estrogénico, asientan sobre endometrio atrófico en mujeres ancianas delgadas, expresan mutaciones en el gen supresor p cincuenta y tres y presentan un comportamiento biológico de extrema agresividad clínica."
+      "text": "Y la razón es que los primeros síntomas son vagos y digestivos: distensión, saciedad precoz, dolor pélvico sordo. Se confunden fácil con un colon irritable."
     },
     {
       "file": "s04_g02",
-      "text": "El pilar del tratamiento y de la estadificación es quirúrgico, requiriendo histerectomía total extrafascial con salpingooforectomía bilateral en bloque y toma de líquido peritoneal."
+      "text": "También puede aparecer un aumento del perímetro abdominal, y polaquiuria, porque la masa comprime la vejiga desde afuera."
     },
     {
       "file": "s04_g03",
-      "text": "Se completa con el estudio del ganglio centinela pélvico o linfadenectomía pélvico paraórtica si existe invasión de más del cincuenta por ciento del miometrio o histología de alto grado."
+      "text": "El tipo más frecuente es el carcinoma epitelial seroso de alto grado, que explica entre setenta y ochenta de cada cien casos y se origina en la fimbria de la trompa, no en el ovario mismo."
     },
     {
       "file": "s05_g00",
-      "text": "El cáncer epitelial de ovario es la neoplasia ginecológica más letal debido a la ausencia total de sintomatología en sus fases tempranas, diagnosticándose más del setenta por ciento de las pacientes en estadios avanzados tres o cuatro con carcinomatosis peritoneal diseminada."
+      "text": "Para leer la ecografía de una masa anexial, están las reglas IOTA. Del lado benigno: un quiste unilocular, anecoico, sin tabiques ni componente sólido."
     },
     {
       "file": "s05_g01",
-      "text": "La gran mayoría de los carcinomas serosos de alto grado se originan en realidad a partir de lesiones precursoras en las fimbrias distales de las trompas de Falopio y no del propio ovario."
+      "text": "Sin flujo Doppler, y sin ascitis. Ahí la conducta es control ecográfico en seis a doce semanas, porque suele ser un quiste funcional."
     },
     {
       "file": "s05_g02",
-      "text": "Las pacientes suelen consultar de forma tardía tras semanas o meses refiriendo síntomas digestivos vagos como distensión abdominal progresiva, plenitud postprandial, saciedad precoz, dispepsia y un aumento persistente e inexplicable del perímetro de su cintura."
+      "text": "Del lado maligno: proyecciones papilares sólidas de más de tres milímetros dentro del quiste, y tabiques gruesos, también de más de tres milímetros."
     },
     {
       "file": "s05_g03",
-      "text": "Al examen físico destaca la presencia de ascitis con matidez desplazable en el abdomen y una masa pélvica profunda, fija, dura y nodular en el fondo de saco de Douglas."
+      "text": "Súmale la ascitis, y un flujo Doppler central intenso dentro de la masa. Con esos signos, la derivación a ginecología oncológica es directa."
     },
     {
       "file": "s06_g00",
-      "text": "De acuerdo con las reglas ecográficas internacionales del grupo IOTA, el hallazgo de masas tumorales sólidas de contornos irregulares, tabiques internos gruesos mayores a cinco milímetros y cuatro o más proyecciones papilares con flujo Doppler interno establece una altísima probabilidad de malignidad ovárica."
+      "text": "El CA-125 es el marcador principal, pero su valor cambia con la edad. En la postmenopáusica, con una masa anexial compleja, es altamente predictivo de cáncer."
     },
     {
       "file": "s06_g01",
-      "text": "El hallazgo de ascitis libre junto a una intensa vascularización central con flujo de baja resistencia en el Doppler color confirman la sospecha de malignidad ovárica avanzada."
+      "text": "En la mujer joven es poco específico, porque también sube con miomas, endometriosis o un embarazo. Ahí no sirve solo."
     },
     {
       "file": "s06_g02",
-      "text": "El antígeno tumoral sérico CA ciento veinticinco se encuentra marcadamente elevado en los carcinomas serosos de ovario, alcanzando su mayor rendimiento y valor predictivo positivo en mujeres postmenopáusicas que presentan una masa pélvica sólida en la ecografía."
+      "text": "En mujeres jóvenes con una masa sólida de crecimiento rápido, hay que pensar en tumores germinales, y ahí se piden otros marcadores: la alfafetoproteína, para el tumor del seno endodérmico."
     },
     {
       "file": "s06_g03",
-      "text": "El marcador HE cuatro aporta mayor especificidad que el CA ciento veinticinco porque no se eleva en endometriosis ni en cuadros benignos, combinándose en el índice de riesgo de malignidad."
+      "text": "La beta gonadotrofina coriónica, para el coriocarcinoma, y la deshidrogenasa láctica, para el disgerminoma."
     },
     {
       "file": "s07_g00",
-      "text": "Graben esta prohibición absoluta y terminante de examen: jamás se debe puncionar o aspirar con aguja una masa ovárica sospechosa de cáncer, debido a que la rotura de la cápsula provoca una siembra y diseminación masiva de células neoplásicas en la cavidad peritoneal."
+      "text": "Si sospechas un síndrome de Lynch, por varios familiares con cáncer de colon y de endometrio a edad joven, el manejo cambia: tamizaje anual con ecografía y biopsia endometrial desde los treinta a treinta y cinco años."
     },
     {
       "file": "s07_g01",
-      "text": "La punción transforma una neoplasia precoz confinada al ovario en un estadio avanzado con líquido peritoneal contaminado, multiplicando el riesgo de recidiva y arruinando el pronóstico de la paciente."
+      "text": "Y una vez cumplida la paridad, se ofrece histerectomía profiláctica a los cuarenta años, para sacarle ventaja al riesgo antes de que aparezca el cáncer."
     },
     {
       "file": "s07_g02",
-      "text": "El abordaje quirúrgico estándar de elección es la laparotomía exploradora oncológica con objetivo de citorreducción primaria máxima o debulking óptimo, realizando histerectomía total con anexectomía bilateral en bloque, omentectomía infracólica completa, apendicectomía y resección sistemática de cualquier implante peritoneal o carcinomatosis macroscópica visible."
+      "text": "Y en los tumores germinales de la mujer joven, la cirugía es conservadora: se saca el tumor, preservando el útero y el ovario contralateral sano."
     },
     {
       "file": "s07_g03",
-      "text": "Tras completar una cirugía citorreductora primaria óptima con citorreducción completa, todas las pacientes en estadios avanzados reciben de forma protocolizada seis ciclos de quimioterapia adyuvante basada en la combinación de carboplatino y paclitaxel para erradicar cualquier micrometástasis residual."
+      "text": "La quimioterapia es el esquema BEP, con bleomicina, etopósido y cisplatino, y es curativa en la gran mayoría de los casos."
     },
     {
       "file": "s08_g00",
-      "text": "Las mujeres portadoras de mutaciones germinales en los genes supresores de tumores BRCA uno y BRCA dos presentan un riesgo acumulado a lo largo de su vida de hasta un cuarenta por ciento de desarrollar cáncer epitelial de ovario y un ochenta por ciento de padecer carcinoma mamario invasor."
+      "text": "El tratamiento del cáncer de ovario es la cirugía de citorreducción máxima: sacar todo el tumor visible, sin dejar residuo."
     },
     {
       "file": "s08_g01",
-      "text": "En mujeres con mutación BRCA comprobada la conducta de mayor impacto es la salpingooforectomía bilateral profiláctica entre los treinta y cinco y cuarenta años al completar la paridad."
+      "text": "Y después de la cirugía, quimioterapia con carboplatino más paclitaxel."
     },
     {
       "file": "s08_g02",
-      "text": "El síndrome de Lynch se produce por mutaciones en genes reparadores de errores de apareamiento del ADN y es la principal causa hereditaria de cáncer de endometrio y colon."
-    },
-    {
-      "file": "s08_g03",
-      "text": "En las mujeres con síndrome de Lynch el riesgo de desarrollar cáncer de endometrio supera incluso al de cáncer de colon, requiriendo tamizaje endometrial anual con biopsia ambulatoria."
+      "text": "Y una regla que no tiene excepción: nunca se punciona una masa ovárica sospechosa. Si rompes la cápsula, siembras células malignas en todo el peritoneo, y un tumor que estaba confinado al ovario pasa a un estadio peor, con mucho peor pronóstico para la paciente."
     },
     {
       "file": "s09_g00",
-      "text": "El cáncer de endometrio debuta precozmente con metrorragia; el de ovario debuta tardíamente con distensión y ascitis."
+      "text": "Ahora pongamos el sangrado postmenopáusico y la masa anexial en un solo árbol de decisión. Mujer en la postmenopausia con un sangrado genital, o con una masa anexial encontrada en la ecografía. El camino se separa según cuál de las dos tienes delante."
     },
     {
       "file": "s09_g01",
-      "text": "El endometrio se evalúa midiendo el grosor y biopsiando con Pipelle; el ovario requiere ecografía con criterios IOTA."
+      "text": "Con sangrado, el primer paso es medir el endometrio."
     },
     {
       "file": "s09_g02",
-      "text": "El endometrio exige biopsia inmediata; en el ovario la punción está prohibida y se extirpa en bloque quirúrgicamente."
+      "text": "Endometrio fino: la causa más probable es la atrofia, con bajo riesgo de cáncer."
     },
     {
       "file": "s09_g03",
-      "text": "El cáncer de ovario se monitoriza con marcadores tumorales como CA ciento veinticinco y HE cuatro en sangre."
+      "text": "Endometrio grueso para su contexto: biopsia obligatoria con Pipelle, e histeroscopía si la muestra no alcanza."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Con una masa anexial, lo que decide todo son los criterios ecográficos IOTA."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Quiste simple, sin componente sólido ni flujo: control ecográfico, casi siempre se resuelve solo."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Con signos de malignidad, se deriva para cirugía citorreductora. Puncionar está formalmente prohibido, por el riesgo de sembrar el peritoneo."
     },
     {
       "file": "s10_g00",
-      "text": "Iniciamos el algoritmo clasificando entre sangrado genital postmenopáusico o masa anexial."
+      "text": "Repasemos las trampas. Sangrado en la postmenopausia: ecografía y biopsia si el endometrio mide cuatro a cinco milímetros o más. Observar, o dar hormonas sin biopsiar, retrasa el diagnóstico."
     },
     {
       "file": "s10_g01",
-      "text": "Medimos el grosor endometrial sagital por ecografía transvaginal."
+      "text": "Si usa terapia de reemplazo hormonal, el corte sube a ocho milímetros. Aplicar el mismo corte de siempre es la trampa clásica."
     },
     {
       "file": "s10_g02",
-      "text": "Ante un grosor igual o superior a cuatro milímetros realizamos biopsia inmediata con cánula de Pipelle."
+      "text": "Masa con criterios IOTA benignos: control ecográfico, sin apurar cirugía ni marcadores."
     },
     {
       "file": "s10_g03",
-      "text": "Con endometrio atrófico menor a cuatro milímetros observamos, descartando malignidad endometrial activa."
+      "text": "Y con criterios de malignidad, se deriva a ginecología oncológica. Puncionar, aunque sea para aliviar síntomas, está formalmente prohibido."
     },
     {
       "file": "s10_g04",
-      "text": "Prohibimos categóricamente la punción de la masa ovárica y derivamos a laparotomía citorreductora en centro oncológico."
+      "text": "Y el CA-125 elevado en una mujer joven no es sinónimo de cáncer: piensa también en miomas o endometriosis antes de asumir lo peor."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y con antecedente familiar sugerente de síndrome de Lynch, el tamizaje anual empieza a los treinta o treinta y cinco años. Esperar a que aparezcan síntomas es dejar pasar la ventana de detección precoz."
     },
     {
       "file": "s11_g00",
-      "text": "Mujer de sesenta y dos años con sangrado genital diez años después de la menopausia y ecografía con endometrio engrosado de doce milímetros."
+      "text": "Vamos con un caso. Mujer de cincuenta y ocho años, con menopausia hace siete años, sin terapia de reemplazo hormonal, con un sangrado genital escaso de diez días de evolución. La ecografía transvaginal muestra un endometrio de nueve milímetros, heterogéneo, con anexos normales."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta médica de elección más adecuada que debe realizarse de inmediato?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "La opción A propone estrógenos locales para atrofia. La B biopsia endometrial ambulatoria con cánula de Pipelle. La C tomografía por emisión de positrones. La D conducta expectante. La E ooforectomía laparoscópica. Piénsalo."
+      "text": "Las opciones: estrógenos vaginales y control en tres meses, biopsia endometrial ambulatoria con cánula de Pipelle, resonancia de pelvis, reposo y observación, o histerectomía sin estudio previo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta correcta es la B. Un grosor endometrial de doce milímetros con sangrado menopáusico impone realizar de inmediato una biopsia por aspiración con cánula de Pipelle."
+      "text": "Es la B. El endometrio mide nueve milímetros, muy por encima del corte de cuatro a cinco, y sin terapia hormonal de por medio. Eso es biopsia ya, con Pipelle. Los estrógenos, el reposo o la observación solo retrasan el diagnóstico de un posible cáncer, y operar sin biopsia previa es un error grave."
     },
     {
       "file": "s12_g00",
-      "text": "Mujer de sesenta y cinco años con distensión, ascitis, masa anexial multiloculada con papilas y Doppler central, y marcador tumoral CA ciento veinticinco de cuatrocientos cincuenta."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de cincuenta y cinco años, con menopausia a los cincuenta y uno, que usa estrógenos transdérmicos como terapia de reemplazo hormonal, y consulta por un sangrado genital de cinco días. Sus signos vitales son normales, y la especuloscopía no muestra sangrado activo ni lesiones del cuello."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la sospecha diagnóstica más probable y la conducta adecuada?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "La opción A propone quiste folicular. La B cáncer epitelial de ovario derivando a laparotomía citorreductora primaria. La C punción evacuadora del quiste. La D endometrioma. La E apendicectomía. Piénsalo."
+      "text": "Las opciones: histerectomía, aumentar la dosis de estrógenos, iniciar anticonceptivos orales, solicitar biopsia de endometrio, o dar ácido tranexámico. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta correcta es la B. Los hallazgos ecográficos IOTA y el CA ciento veinticinco elevado en una postmenopáusica indican cáncer de ovario y exigen laparotomía citorreductora."
+      "text": "Es la D. Toda metrorragia postmenopáusica se biopsia, y el hecho de que use terapia hormonal no cambia esa obligación, aunque el corte para el grosor endometrial sea más alto. Aumentar estrógenos o dar un hemostático sin diagnóstico es tratar el síntoma e ignorar la posibilidad de un cáncer detrás."
     },
     {
       "file": "s13_g00",
-      "text": "Pregunta sobre los principios oncológicos quirúrgicos fundamentales que rigen el abordaje de las masas ováricas neoplásicas."
+      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de cincuenta y seis años, en tratamiento con tamoxifeno, veinte miligramos al día, por un cáncer de mama de hace nueve años, con una metrorragia escasa de cinco días. La ecografía muestra un endometrio de ocho milímetros, sin alteraciones anexiales."
     },
     {
       "file": "s13_g01",
-      "text": "¿Por qué razón fundamental está formalmente contraindicado realizar una punción aspiración de una masa ovárica sospechosa?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "La opción A propone hemorragia digestiva. La B rotura capsular con siembra peritoneal y empeoramiento irreversible del estadio oncológico. La C aumento irreversible de CA ciento veinticinco. La D cierre tubario. La E tirotoxicosis. Piénsalo."
+      "text": "Las opciones: iniciar terapia de reemplazo hormonal, instalar un dispositivo intrauterino medicado, disminuir el tamoxifeno, solicitar biopsia endometrial, o hacer histerectomía. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta correcta es la B. Puncionar un tumor ovárico derrama células malignas en el peritoneo libre transformando un estadio inicial en uno avanzado de mal pronóstico."
+      "text": "Es la D. El tamoxifeno es justo el factor de riesgo que vimos: actúa como estrógeno en el endometrio, y con metrorragia y un endometrio de ocho milímetros, la conducta es biopsiar. No se toca la dosis de tamoxifeno por esto, y operar sin biopsia previa es adelantarse al diagnóstico."
     },
     {
       "file": "s14_g00",
-      "text": "Pregunta sobre los mecanismos endocrinos y factores de riesgo del adenocarcinoma de endometrio endometrioide tipo uno."
+      "text": "Una pregunta real más, del EUNACOM de diciembre de dos mil dieciocho. Paciente de setenta años, con dolor abdominal progresivo de cuatro meses, que ha bajado cinco kilos de peso. Al examen tiene el abdomen distendido, y se palpa una masa anexial de siete centímetros, de consistencia aumentada."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál de las siguientes condiciones se asocia al mayor riesgo de adenocarcinoma de endometrio tipo uno por hiperestrogenismo sin oposición?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "La opción A propone multiparidad. La B anticonceptivos orales combinados. La C obesidad severa y síndrome de ovario poliquístico. La D tabaquismo activo. La E dispositivo con levonorgestrel. Piénsalo."
+      "text": "Las opciones: quiste funcional, mioma uterino, cáncer de ovario, cáncer de colon, o endometriosis. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "La respuesta correcta es la C. La obesidad severa y el síndrome de ovario poliquístico generan un hiperestrogenismo crónico sin progesterona que desencadena el tumor."
+      "text": "Es la C. Esto calza exactamente con lo que vimos: una mujer mayor, con síntomas vagos y progresivos, baja de peso, y una masa anexial firme. Un quiste funcional no ocurre a esta edad, un mioma no explica la baja de peso, y la endometriosis no aparece recién en la postmenopausia."
     },
     {
       "file": "s15_g00",
-      "text": "Toda metrorragia en la postmenopausia con un endometrio de cuatro a cinco milímetros o más exige biopsia inmediata por aspiración con Pipelle en la consulta."
+      "text": "Cerremos con las reglas de oro. Todo sangrado en la postmenopausia es cáncer de endometrio hasta que se demuestre lo contrario."
     },
     {
       "file": "s15_g01",
-      "text": "La obesidad es el principal factor de riesgo para el adenocarcinoma tipo uno al generar hiperestrogenismo continuo sin balance progestagénico."
+      "text": "Y el corte para biopsiar es de cuatro a cinco milímetros, u ocho si usa terapia hormonal."
     },
     {
       "file": "s15_g02",
-      "text": "La combinación de ascitis, proyecciones papilares sólidas con vascularización central y CA ciento veinticinco elevado orienta a cáncer epitelial de ovario."
+      "text": "En la masa anexial, papilas sólidas, tabiques gruesos y ascitis son los signos de malignidad."
     },
     {
       "file": "s15_g03",
-      "text": "La punción ovárica está estrictamente prohibida por diseminar células tumorales; la masa sospechosa debe extirparse siempre íntegra mediante laparotomía citorreductora."
-    },
-    {
-      "file": "s15_g04",
-      "text": "Las mutaciones BRCA conllevan un altísimo riesgo ovárico y justifican la anexectomía profiláctica bilateral al completar los deseos de fertilidad."
-    },
-    {
-      "file": "s15_g05",
-      "text": "El síndrome de Lynch obliga a vigilancia endometrial anual. Si te llevas una sola idea de hoy: toda metrorragia en la postmenopausia es un cáncer de endometrio hasta demostrar lo contrario mediante ecografía y biopsia endometrial. Nos vemos en la próxima clase."
+      "text": "Y nunca se punciona una masa sospechosa: siembra el peritoneo y empeora el pronóstico. Si te llevas una sola idea de hoy: el sangrado postmenopáusico se biopsia siempre, y la masa anexial sospechosa jamás se punciona. Nos vemos en la próxima clase."
     }
   ]
 }

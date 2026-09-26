@@ -2,279 +2,219 @@
   "id": "ped-19",
   "title": "Pediatria 18.19: Sepsis Neonatal: Precoz (< 72 h) vs Tardía (> 72 h), Esquema Ampicilina + Aminoglucósido y Cefotaxima",
   "specialty": "Pediatría",
-  "chars": 12752,
+  "chars": 10993,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre sepsis neonatal, una de las principales causas de morbimortalidad en el período perinatal y una materia evaluada constantemente en el examen EUNACOM. En esta sesión aprenderemos a diferenciar con exactitud la sepsis precoz de transmisión vertical de la sepsis tardía nosocomial, dominaremos el estudio séptico riguroso, comprenderemos por qué la ampicilina es insustituible por la resistencia natural de Listeria monocytogenes y fijaremos las conductas antimicrobianas de rescate. Comencemos."
+      "text": "Bienvenido a la clase de sepsis neonatal, una urgencia pediátrica mayor y uno de los temas de mayor rentabilidad del banco. Vas a ver que todo el tema se ordena con una sola pregunta: ¿esto empezó antes o después de las setenta y dos horas de vida? De esa respuesta depende el germen que sospechas, los factores de riesgo que buscas en la historia obstétrica, y el esquema antibiótico que inicias, siempre antes de tener el resultado del cultivo. Empecemos."
     },
     {
       "file": "s01_g00",
-      "text": "La sepsis precoz se inicia habitualmente por vía ascendente desde el tracto genital materno colonizado hacia la cavidad amniótica, donde el feto aspira o deglute líquido infectado, permitiendo que las bacterias penetren el epitelio alveolar y pasen directamente a la circulación sanguínea."
+      "text": "Olvídate de buscar fiebre alta como en el adulto. En el recién nacido, sobre todo en el prematuro, el signo más frecuente de infección grave es la hipotermia, no la fiebre."
     },
     {
       "file": "s01_g01",
-      "text": "La presencia de bacterias y endotoxinas en el torrente sanguíneo desata una respuesta inflamatoria desregulada con liberación masiva de interleuquinas y factor de necrosis tumoral, provocando fuga capilar, depresión miocárdica, choque séptico distributivo y acidosis metabólica refractaria con coagulación intravascular."
+      "text": "Se suma letargia, hipotonía, y algo que las madres notan enseguida: el bebé deja de mamar bien."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y en lo cardiorrespiratorio, apneas que aparecen de la nada, taquicardia persistente, y un llene capilar de más de tres segundos, que ya te habla de mala perfusión y de un shock que empieza a instalarse."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Aquí hay una trampa clásica: el marcador más grave no es la leucocitosis, es la leucopenia, por debajo de cinco mil, porque significa que la médula ya se agotó."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el marcador más sensible es la relación entre neutrófilos inmaduros y totales, que sobre cero coma veinte te habla de una desviación muy marcada hacia la izquierda."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Súmale la trombocitopenia, por debajo de cien mil, que refleja el consumo de plaquetas dentro de una coagulación intravascular que ya empezó."
     },
     {
       "file": "s02_g00",
-      "text": "La sepsis precoz debuta en las primeras setenta y dos horas de vida y es el resultado directo de la transmisión vertical de microorganismos provenientes del canal del parto o de la cavidad amniótica materna."
+      "text": "No te quedes solo con lo respiratorio y lo hemodinámico. El bebé también puede tener vómitos, distensión abdominal y residuo gástrico bilioso, porque el intestino sufre igual que el resto del cuerpo."
     },
     {
       "file": "s02_g01",
-      "text": "Tiene una presentación aguda y fulminante que remeda el distrés respiratorio, progresando rápidamente hacia la inestabilidad hemodinámica y la falla multiorgánica con elevada letalidad."
-    },
-    {
-      "file": "s02_g02",
-      "text": "La sepsis tardía se manifiesta después del tercer día de vida y hasta el mes, originándose por la transmisión horizontal de patógenos del ambiente hospitalario, dispositivos invasivos o la comunidad."
-    },
-    {
-      "file": "s02_g03",
-      "text": "Su inicio es más insidioso pero se asocia a una frecuencia muy elevada de meningitis bacteriana, artritis séptica o focos infecciosos profundos que exigen búsqueda activa."
+      "text": "Y la glicemia se descontrola en ambos sentidos: hipoglicemia o hiperglicemia, según qué tan comprometido esté el paciente. Por eso el aporte de glucosa se mantiene continuo mientras dura el tratamiento, y se controla varias veces al día junto con el resto de los signos vitales."
     },
     {
       "file": "s03_g00",
-      "text": "El estreptococo del grupo B es un coco grampositivo que coloniza la vagina y el recto materno, siendo el principal agente etiológico bacteriano de sepsis precoz en países con tamizaje incompleto."
+      "text": "Partamos por la sepsis precoz, la que empieza antes de las setenta y dos horas de vida y explica la mayoría de los casos graves. El primer factor de riesgo que te tienes que aprender es la rotura de membranas de más de dieciocho horas."
     },
     {
       "file": "s03_g01",
-      "text": "Conserva una sensibilidad excelente a la penicilina y ampicilina, razón por la cual la profilaxis antibiótica intraparto con ampicilina o penicilina previene eficazmente la infección neonatal."
+      "text": "El segundo es la corioamnionitis materna: fiebre durante el trabajo de parto, taquicardia fetal, útero doloroso a la palpación, o una secreción vaginal con mal olor."
     },
     {
       "file": "s03_g02",
-      "text": "Escherichia coli es el patógeno predominante en recién nacidos prematuros, destacando cepas con cápsula ca uno que presentan gran tropismo por las meninges causando bacteriemia y meningitis neonatal invasiva gran tropismo por las meninges y resistencia a aminopenicilinas."
+      "text": "Y el tercero es que la madre esté colonizada por estreptococo grupo B y no haya recibido la profilaxis antibiótica completa durante el parto. Esa profilaxis se hace con penicilina o ampicilina endovenosa, iniciada al menos cuatro horas antes de que nazca el bebé; si empieza más tarde, ya no cuenta como completa."
     },
     {
       "file": "s03_g03",
-      "text": "Listeria monocytogenes se adquiere por vía digestiva materna consumiendo quesos no pasteurizados, cruza la placenta y produce microabscesos diseminados conocidos como granulomatosis infantiséptica."
+      "text": "Con cualquiera de estos factores, el recién nacido se contamina al pasar por el canal del parto, y los dos gérmenes que más vas a encontrar son el estreptococo agalactiae, que explica más de la mitad de los casos, y la escherichia coli, más frecuente en el prematuro."
     },
     {
       "file": "s04_g00",
-      "text": "Staphylococcus epidermidis es el agente más habitual de sepsis nosocomial tardía en recién nacidos prematuros portadores de catéteres venosos centrales, gracias a su capacidad de formar biopelículas protectoras."
+      "text": "Y ahora la otra cara del tema. La sepsis tardía empieza después de las setenta y dos horas, casi siempre por transmisión nosocomial, a través de catéteres venosos, tubos endotraqueales o el personal de salud dentro de la unidad de cuidados intensivos neonatales."
     },
     {
       "file": "s04_g01",
-      "text": "Debido a que casi todas las cepas hospitalarias portan genes de resistencia a meticilina, el tratamiento empírico de elección ante la sospecha de sepsis tardía exige el uso de vancomicina."
+      "text": "El germen más frecuente ya no es el estreptococo, es el Staphylococcus coagulasa negativo, junto con enterobacterias hospitalarias."
     },
     {
       "file": "s04_g02",
-      "text": "Los bacilos gramnegativos hospitalarios como Klebsiella o Pseudomonas colonizan la vía aérea y el intestino, generando bacteriemias graves con resistencia a múltiples familias de antibióticos."
-    },
-    {
-      "file": "s04_g03",
-      "text": "La infección por Candida debe sospecharse en prematuros extremos con deterioro clínico refractario a antibacterianos que reciben nutrición parenteral prolongada a través de catéteres vasculares."
+      "text": "Y la clínica suele ser más insidiosa que la precoz: apneas, mala tolerancia a la alimentación, y a veces meningitis asociada. Aparece sobre todo en el prematuro que lleva días o semanas en la unidad neonatal, conectado a catéteres o a un tubo endotraqueal."
     },
     {
       "file": "s05_g00",
-      "text": "La sepsis precoz refleja factores de riesgo obstétricos maternos, mientras que la tardía se relaciona con procedimientos invasivos y hospitalización."
+      "text": "Con la sospecha de sepsis precoz, tomas hemocultivos, hemograma y punción lumbar, pero no esperas ningún resultado para empezar a tratar. El esquema se inicia dentro de la primera hora."
     },
     {
       "file": "s05_g01",
-      "text": "La etiología precoz está dominada por estreptococo del grupo B y Listeria, a diferencia de la tardía dominada por estafilococo coagulasa negativo."
+      "text": "La base es la ampicilina, que cubre al estreptococo agalactiae y, algo que muchos olvidan, a la Listeria monocytogenes."
     },
     {
       "file": "s05_g02",
-      "text": "La sepsis precoz debuta con dificultad respiratoria y choque, mientras que la sepsis tardía presenta una tasa muy alta de compromiso meníngeo."
+      "text": "Se combina con gentamicina, que cubre los gramnegativos como la escherichia coli, y además hace sinergia con la ampicilina contra el estreptococo."
     },
     {
       "file": "s05_g03",
-      "text": "El esquema empírico inicial combina ampicilina en la precoz para cubrir Listeria, mientras que en la tardía se inicia vancomicina de entrada."
+      "text": "Si hay sospecha de meningitis, cambias la gentamicina por cefotaxima, porque penetra mucho mejor al líquido cefalorraquídeo. Fíjate que se reemplaza, no se suma a las dos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y aquí está la pregunta de mecanismo que más se repite: la Listeria tiene resistencia intrínseca a todas las cefalosporinas, sin excepción, porque carece de los receptores a los que ese fármaco se une. Por eso, aunque uses cefotaxima para la meningitis, la ampicilina nunca se quita del esquema."
     },
     {
       "file": "s06_g00",
-      "text": "La presencia de fiebre materna durante el trabajo de parto es el factor clínico de mayor peso para sospechar corioamnionitis e infección bacteriana intrauterina."
+      "text": "Un par de dosis que se preguntan. La ampicilina se da entre cien y doscientos miligramos por kilo al día, cada doce horas en la primera semana, y cubre al estreptococo agalactiae y a la Listeria."
     },
     {
       "file": "s06_g01",
-      "text": "Una rotura prematura de membranas ovulares que sobrepasa las dieciocho horas de evolución multiplica exponencialmente el riesgo de invasión microbiana ascendente hacia la cavidad amniótica y el feto."
+      "text": "La gentamicina, cuatro a cinco miligramos por kilo cada veinticuatro horas, cubre los bacilos gramnegativos y potencia a la ampicilina contra el estreptococo."
     },
     {
       "file": "s06_g02",
-      "text": "El tamizaje vagino-rectal positivo para estreptococo del grupo B sin profilaxis antibiótica intraparto completa exige vigilar estrechamente al recién nacido."
+      "text": "La cefotaxima, cien a ciento cincuenta miligramos por kilo al día, es la que eliges cuando necesitas buena penetración al líquido cefalorraquídeo."
     },
     {
       "file": "s06_g03",
-      "text": "El nacimiento prematuro espontáneo antes de las treinta y siete semanas incrementa notablemente la vulnerabilidad inmunológica ante cualquier germen del canal."
+      "text": "Y la vancomicina, diez a quince miligramos por kilo cada ocho a doce horas, con monitoreo de niveles en sangre, para la sepsis tardía por Staphylococcus."
     },
     {
       "file": "s07_g00",
-      "text": "A diferencia de los niños mayores, el recién nacido séptico debuta típicamente con hipotermia y no con fiebre, mostrando gran dificultad para mantener su temperatura."
+      "text": "Para la sepsis tardía, el esquema cambia por completo: vancomicina, que cubre el Staphylococcus coagulasa negativo y el aureus resistente, más amikacina, o meropenem si el paciente está en shock séptico o si sospechas una pseudomona, muy típica de los pacientes que llevan mucho tiempo intubados en la unidad neonatal."
     },
     {
       "file": "s07_g01",
-      "text": "Los padres o el equipo de enfermería notan que el niño no luce bien: se torna somnoliento, rechaza el pecho, pierde el tono muscular y emite un llanto débil."
-    },
-    {
-      "file": "s07_g02",
-      "text": "El compromiso respiratorio manifestado por taquipnea superficial, quejido espiratorio audible, aleteo nasal o pausas de apnea inexplicadas representa la forma de debut clínico más habitual en la sepsis precoz."
-    },
-    {
-      "file": "s07_g03",
-      "text": "La piel marmórea con llenado capilar prolongado por sobre tres segundos y la palidez terrosa advierten hipoperfusión tisular y choque séptico inminente."
+      "text": "Si repites ampicilina y gentamicina en una sepsis tardía, te equivocaste de germen: ya no estás tratando lo que trajo el parto, estás tratando lo que trajo la unidad neonatal. Y si el paciente no mejora con vancomicina y amikacina, hay que pensar también en Candida, sobre todo en el prematuro extremo con catéter central por muchos días."
     },
     {
       "file": "s08_g00",
-      "text": "En el hemograma completo la leucopenia marcada menor a cinco mil leucocitos constituye un signo cardinal de alarma biológica que refleja agotamiento medular ante una bacteriemia invasiva fulminante."
+      "text": "Ahora pongamos las setenta y dos horas y los dos esquemas en un solo árbol de decisión. Tienes un recién nacido con signos sutiles: hipotermia en vez de fiebre, letargia, mala succión, o apneas. Ya sospechas sepsis neonatal, y ahora necesitas ordenar el estudio y el tratamiento."
     },
     {
       "file": "s08_g01",
-      "text": "El índice entre neutrófilos inmaduros y totales mayor a cero punto dos refleja una desviación a la izquierda que apoya fuertemente el diagnóstico de sepsis."
+      "text": "La pregunta que ordena todo el tema es una sola: ¿esto empezó antes o después de las setenta y dos horas de vida? Antes, es transmisión vertical. Después, es nosocomial. Y cada una tiene su propio esquema antibiótico."
     },
     {
       "file": "s08_g02",
-      "text": "Es mandatario extraer hemocultivos con técnica rigurosamente estéril antes de administrar la primera dosis de antibiótico parenteral."
+      "text": "Si empezó antes de las setenta y dos horas, es sepsis precoz, casi siempre por transmisión vertical. Inicias ampicilina más gentamicina de inmediato, sin esperar los cultivos."
     },
     {
       "file": "s08_g03",
-      "text": "La punción lumbar forma parte esencial e insustituible del estudio séptico completo para evaluar celularidad, proteínas, glucosa y tinción de Gram en el líquido cefalorraquídeo descartando meningitis."
+      "text": "Y si hay signos de meningitis, cambias la gentamicina por cefotaxima, porque penetra mucho mejor al líquido cefalorraquídeo. La ampicilina se mantiene siempre, por la Listeria."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si empezó después de las setenta y dos horas, piensas en transmisión nosocomial, casi siempre por Staphylococcus coagulasa negativo. El esquema cambia por completo: vancomicina más amikacina."
     },
     {
       "file": "s09_g00",
-      "text": "Ante un recién nacido con hipotermia, quejido o mala perfusión, la prioridad es estabilizar la temperatura bajo cuna radiante, asegurar una adecuada oxigenación y canalizar accesos vasculares."
+      "text": "Repasemos las trampas. Antes de las setenta y dos horas, con rotura de membranas o corioamnionitis: sepsis precoz. Ampicilina más gentamicina, sin esperar el cultivo."
     },
     {
       "file": "s09_g01",
-      "text": "Se realiza rápidamente el estudio séptico completo que incluye hemocultivos y punción lumbar, iniciando la antibioticoterapia empírica parenteral dentro de la primera hora de atención sin demoras."
+      "text": "Si hay sospecha de meningitis: cambias el aminoglucósido, no la ampicilina. Ampicilina más cefotaxima."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Después de las setenta y dos horas, en una unidad neonatal: sepsis tardía. Vancomicina más amikacina, no el esquema de la precoz."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y la trampa de mecanismo: usar una cefalosporina de tercera generación sola deja a la Listeria sin cubrir. Siempre agregas ampicilina."
     },
     {
       "file": "s10_g00",
-      "text": "La ampicilina endovenosa se prescribe a dosis de cien a doscientos miligramos por kilo día, administrada cada doce horas durante la primera semana de vida para garantizar niveles bactericidas sostenidos en sangre y tejidos."
+      "text": "Vamos con un caso. Recién nacido de veintiocho horas de vida, con veintidós horas de rotura de membranas y fiebre materna intraparto. El niño no quiere mamar, está pálido y frío, con hipotermia y taquicardia. El llene capilar tarda cuatro segundos, y el hemograma muestra leucopenia con desviación a la izquierda marcada."
     },
     {
       "file": "s10_g01",
-      "text": "Se asocia habitualmente a gentamicina en dosis única diaria de cuatro a cinco miligramos por kilo día para una potente sinergia bactericida contra enterobacterias."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Si se sospecha meningitis neonatal o hay compromiso neurológico, se prefiere asociar ampicilina con cefotaxima endovenosa por su óptima penetración en el líquido cefalorraquídeo."
+      "text": "Las opciones: alta con control en cuarenta y ocho horas, hospitalizar con cultivos e iniciar ampicilina más gentamicina, solo antipiréticos y observación, vancomicina más amikacina de entrada, o solo suero glucosado. Tómate unos segundos."
     },
     {
       "file": "s10_g03",
-      "text": "Cuando se utilizan aminoglucósidos es fundamental controlar la diuresis y la función renal para evitar toxicidad coclear y tubular en el neonato."
+      "text": "Es la B. Menos de setenta y dos horas de vida, con rotura de membranas prolongada y fiebre materna: los dos factores de riesgo mayores de sepsis precoz. Y el cuadro lo confirma: hipotermia, mala succión, taquicardia, llene capilar lento, leucopenia con desviación a la izquierda marcada. Hospitalizas, tomas los cultivos, e inicias ampicilina más gentamicina sin esperar ningún resultado. La vancomicina es para la sepsis tardía, y aquí el reloj corre en horas, no en días."
     },
     {
       "file": "s11_g00",
-      "text": "Listeria monocytogenes presenta una resistencia intrínseca natural absoluta a todas las cefalosporinas existentes, debido a que carece de proteínas ligadoras de penicilina que reconozcan a estos fármacos."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Recién nacido de diez días de vida, sin antecedentes, que desde hace cinco horas tiene fiebre hasta treinta y nueve grados, rechazo alimentario e hiporreactividad, sin otros síntomas y con examen físico normal."
     },
     {
       "file": "s11_g01",
-      "text": "Utilizar una cefalosporina como monoterapia en el período neonatal constituye una negligencia grave, pues dejaría a Listeria sin cobertura terapéutica con desenlace mortal."
+      "text": "¿Cuál es la conducta más adecuada en este caso?"
     },
     {
       "file": "s11_g02",
-      "text": "La ampicilina se une con altísima afinidad a la pared celular de Listeria, ejerciendo una acción bactericida potente que se potencia de forma sinérgica con aminoglucósidos."
+      "text": "Las opciones: sedimento de orina y decidir según resultado, hospitalizar para estudio y manejo, antipiréticos orales y control en dos días, antibióticos orales y control en dos días, o ecografía renal y vesical. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Además de cubrir a Listeria, la ampicilina asegura una cobertura perfecta contra el estreptococo del grupo B y los enterococos entéricos."
+      "text": "Es la B. En un recién nacido, fiebre alta con rechazo alimentario e hiporreactividad no se maneja nunca de forma ambulatoria ni por vía oral: es sepsis neonatal hasta que se demuestre lo contrario. Hospitalizas, tomas cultivos, y empiezas el manejo completo. Esperar el sedimento de orina en la casa, o tratarlo con antibióticos orales, subestima la gravedad de un recién nacido séptico."
     },
     {
       "file": "s12_g00",
-      "text": "La ceftriaxona presenta una altísima afinidad de unión por la albúmina plasmática, desplazando competitivamente a la bilirrubina no conjugada e incrementando bruscamente la fracción libre neurotóxica capaz de atravesar la barrera hematoencefálica inmadura."
+      "text": "Una última, del banco, sobre el mecanismo detrás del esquema. Un residente propone tratar la sospecha de sepsis precoz solo con cefotaxima, en vez de ampicilina más un aminoglucósido, porque dice que la cefotaxima ya cubre bien a los gramnegativos."
     },
     {
       "file": "s12_g01",
-      "text": "Este desplazamiento competitivo puede precipitar un kernicterus grave en un recién nacido ictérico, razón por la cual está formalmente contraindicada."
+      "text": "¿Por qué la ampicilina es obligatoria, y no se puede reemplazar por cefotaxima sola?"
     },
     {
       "file": "s12_g02",
-      "text": "La administración concomitante de ceftriaxona con soluciones intravenosas que contienen sales de calcio como el gluconato de calcio genera precipitados cristalinos insolubles de ceftriaxona cálcica que provocan embolias microvasculares pulmonares y daño renal agudo irreversible."
+      "text": "Las opciones: las cefalosporinas no cubren escherichia coli, la Listeria resiste a todas las cefalosporinas, la ampicilina es la única activa contra pseudomona, las cefalosporinas están contraindicadas en el recién nacido, o es solo por costo. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La cefotaxima no compite con la albúmina ni precipita con calcio, siendo la única cefalosporina de tercera generación autorizada con seguridad en neonatología."
+      "text": "Es la B. El residente tiene razón en que la cefotaxima cubre bien a los gramnegativos, pero se le escapa un germen: la Listeria monocytogenes tiene resistencia intrínseca a todas las cefalosporinas, sin excepción. Por eso la ampicilina nunca se saca del esquema empírico, sin importar qué tan buena sea la cefalosporina que elijas para lo demás."
     },
     {
       "file": "s13_g00",
-      "text": "En la sepsis tardía hospitalaria se inicia vancomicina endovenosa como terapia de primera línea para erradicar cepas de Staphylococcus epidermidis asociadas a biopelículas y Staphylococcus aureus meticilino resistente."
+      "text": "Cerremos con las reglas de oro. Antes de las setenta y dos horas, transmisión vertical: estreptococo agalactiae y escherichia coli."
     },
     {
       "file": "s13_g01",
-      "text": "La vancomicina se asocia rigurosamente a un fármaco con amplio espectro contra bacilos gramnegativos hospitalarios como amikacina, cefepime o meropenem según el mapa microbiológico de la unidad neonatal."
+      "text": "Después de las setenta y dos horas, transmisión nosocomial: Staphylococcus coagulasa negativo."
     },
     {
       "file": "s13_g02",
-      "text": "Si los hemocultivos persisten positivos o hay deterioro hemodinámico, es mandatario retirar el catéter venoso central para erradicar la fuente bacteriana."
+      "text": "En el recién nacido, el signo grave es la hipotermia, no la fiebre, y el laboratorio grave es la leucopenia, no la leucocitosis."
     },
     {
       "file": "s13_g03",
-      "text": "Ante un prematuro extremo con trombocitopenia inexplicable y mala respuesta a antibacterianos se debe añadir precozmente anfotericina B por sospecha de candidiasis."
+      "text": "En la precoz, ampicilina más gentamicina, y cambias a cefotaxima si sospechas meningitis."
     },
     {
-      "file": "s14_g00",
-      "text": "La ampicilina endovenosa es el componente insustituible del esquema precoz para garantizar la cobertura de Listeria y estreptococo del grupo B."
-    },
-    {
-      "file": "s14_g01",
-      "text": "La gentamicina aporta sinergia bactericida rápida contra bacilos gramnegativos, requiriendo monitorizar la función renal."
-    },
-    {
-      "file": "s14_g02",
-      "text": "La cefotaxima es la cefalosporina de elección cuando se sospecha infección meníngea por su óptima penetración en líquido cefalorraquídeo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La vancomicina es la primera línea en sepsis tardía para erradicar estafilococos resistentes a meticilina asociados a catéteres."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Iniciamos el abordaje evaluando la cronología del debut clínico para clasificar en sepsis precoz o tardía."
-    },
-    {
-      "file": "s15_g01",
-      "text": "En la sepsis precoz estabilizamos al paciente, tomamos cultivos y punción lumbar e iniciamos antibióticos antes de sesenta minutos."
-    },
-    {
-      "file": "s15_g02",
-      "text": "En la sepsis tardía el estudio completo exige además urocultivo por sonda y evaluación del retiro de catéteres."
-    },
-    {
-      "file": "s16_g00",
-      "text": "Recién nacido de treinta y seis horas con letargia hipotermia de treinta y cinco coma seis y quejido con madre con rotura de membranas prolongada y fiebre."
-    },
-    {
-      "file": "s16_g01",
-      "text": "¿Cuál es la sospecha diagnóstica y el esquema antibiótico de primera línea?"
-    },
-    {
-      "file": "s16_g02",
-      "text": "La opción A taquipnea transitoria con halo. La B sepsis neonatal precoz con ampicilina más cefotaxima o gentamicina endovenosa. La C sepsis tardía con vancomicina y meropenem. La D membrana hialina. La E hipoglicemia transitoria. Evalúa las horas de vida y los antecedentes. Piénsalo."
-    },
-    {
-      "file": "s16_g03",
-      "text": "La respuesta correcta es la B. Por debutar antes de setenta y dos horas con antecedentes maternos es una sepsis precoz que requiere ampicilina más cefotaxima o gentamicina."
-    },
-    {
-      "file": "s17_g00",
-      "text": "Pregunta sobre la justificación microbiológica de incorporar obligatoriamente ampicilina en el esquema de sepsis neonatal precoz en vez de usar cefalosporinas solas."
-    },
-    {
-      "file": "s17_g01",
-      "text": "¿Por qué motivo la ampicilina forma parte obligatoria del esquema inicial?"
-    },
-    {
-      "file": "s17_g02",
-      "text": "La opción A porque cefalosporinas no cubren Escherichia coli. La B porque Listeria monocytogenes presenta resistencia intrínseca a todas las cefalosporinas y requiere ampicilina. La C ampicilina cubre Pseudomonas. La D toxicidad renal. La E costo económico. Recuerda la microbiología de Listeria. Piénsalo."
-    },
-    {
-      "file": "s17_g03",
-      "text": "La respuesta correcta es la B. Listeria monocytogenes es naturalmente resistente a todas las cefalosporinas, haciendo que la ampicilina sea insustituible."
-    },
-    {
-      "file": "s18_g00",
-      "text": "Recuerden con exactitud el límite temporal de setenta y dos horas de vida: antes de este plazo corresponde a transmisión vertical materna perinatal y posterior a este corte se trata de infección nosocomial u horizontal asociada a dispositivos invasivos."
-    },
-    {
-      "file": "s18_g01",
-      "text": "Tengan grabado para siempre que Listeria monocytogenes presenta resistencia natural intrínseca a todas las generaciones de cefalosporinas, haciendo mandatoria la incorporación de ampicilina en todo esquema empírico neonatal."
-    },
-    {
-      "file": "s18_g02",
-      "text": "Jamás prescriban ceftriaxona en un recién nacido en sala o intensivo: desplaza a la bilirrubina causando kernicterus y precipita con gluconato de calcio; usen siempre cefotaxima endovenosa."
-    },
-    {
-      "file": "s18_g03",
-      "text": "La hipotermia y el decaimiento en el neonato son signos de sepsis hasta demostrar lo contrario. Si te llevas una sola idea de hoy: el esquema empírico inicial en sepsis precoz combina ampicilina y gentamicina, cubriendo Streptococcus agalactiae y Listeria monocytogenes. Nos vemos en la próxima clase."
+      "file": "s13_g04",
+      "text": "En la tardía, vancomicina más amikacina. Y en cualquiera de los dos esquemas, la ampicilina cubre algo que ningún otro fármaco cubre: la Listeria. Si te llevas una sola idea de hoy: antes de las setenta y dos horas es vertical, después es nosocomial, y el tratamiento empieza antes de tener el cultivo. Nos vemos en la próxima clase."
     }
   ]
 }

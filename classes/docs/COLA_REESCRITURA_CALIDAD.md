@@ -19,7 +19,9 @@ igual que si la clase no existiera. El archivo se sobreescribe con `Write`, no s
 1. Pediatría (22 clases, `ped-XX`): ped-01..04 · 05..08 · 09..12 · 13..16 · 17..19 · 20..22
 2. Ginecología (12 clases, `gin-05..16`): gin-05..08 · 09..12 · 13..16
 3. Obstetricia (20 clases, `ob-XX`): ob-01..04 · 05..08 · 09..12 · 13..16 · 17..20
-4. Cirugía (18 clases, `cirugia-XX`): cirugia-01..04 **hecho** (verificado: 0/118 t/d, 0/12 sin Piénsalo, 8 reales/0 caso-repr) · 05..08 **hecho** (verificado: 0/97 t/d, 0/14 sin Piénsalo, 12 reales/0 caso-repr) · 09..12 **hecho** (verificado: 0/112 t/d, 0/12 sin Piénsalo, 8 reales/0 caso-repr) · 13..15 **hecho** (verificado: 0/101 t/d, 0/10 sin Piénsalo, 3 reales/5 caso-repr — tema de anestesia sin cobertura real en el banco) · 16..18
+4. Cirugía (18 clases, `cirugia-XX`): **LIBRO COMPLETO 18/18.** Auditoría final (508 campos t/d): t>6 palabras 0/508 · d>10 palabras 0/508 · 51 preguntas reales vs 4 caso representativo (antes: 19 reales vs 30 caso-repr, ratio invertido) · 0/55 quiz sin Piénsalo · 0 "debe" impersonal.
+
+## CURRÍCULO DE REESCRITURA COMPLETO: 72/72 clases (Pediatría 22 + Ginecología 12 + Obstetricia 20 + Cirugía 18) en Pediatría/Ginecología/Obstetricia/Cirugía. Ver classes/docs/HANDOFF_SIGUIENTE_SESION.md.
 
 ## Instrucciones especiales para cada agente (además de AGENT_BRIEF.md)
 - **NO leer el archivo `classes/lessons/<id>.cjs` existente.** Sobreescribirlo directo con `Write`, como si

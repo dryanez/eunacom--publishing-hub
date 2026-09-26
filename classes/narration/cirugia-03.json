@@ -2,243 +2,231 @@
   "id": "cirugia-03",
   "title": "Cirugia 11.3: Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
   "specialty": "Cirugía General",
-  "chars": 13790,
+  "chars": 10513,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la tercera clase de cirugía general. Hoy estudiamos la diverticulitis aguda, la patología colónica aguda más frecuente en el adulto mayor y un motivo recurrente de consulta quirúrgica de urgencia. Denominada tradicionalmente como la apendicitis del lado izquierdo, en esta clase aprenderás a diagnosticarla mediante tomografía axial computarizada, a clasificarla con la escala de Hinchey, a definir cuándo drenar por vía percutánea y cuándo indicar la operación de Hartmann de urgencia, sin olvidar la colonoscopía diferida obligatoria. Comencemos."
+      "text": "Bienvenido de nuevo. Hoy vemos diverticulitis aguda, la patología colónica más frecuente del adulto mayor, y que muchos le dicen la apendicitis izquierda, porque el razonamiento es casi idéntico. Vas a aprender a etapificarla con el TAC, usando la clasificación de Hinchey, y sobre todo, una regla que se pregunta siempre: qué examen nunca se pide en la fase aguda, aunque parezca el más lógico. Partamos por el mecanismo."
     },
     {
       "file": "s01_g00",
-      "text": "Los divertículos del colon son pseudodivertículos adquiridos formados por la herniación de la mucosa y submucosa a través de la capa muscular propia, en los puntos donde penetran las arterias rectas. Más del noventa por ciento se ubican en el colon sigmoides y descendente debido a su menor radio y mayores presiones de segmentación. La diverticulitis aguda se desencadena cuando un fecalito oclusivo se impacta en el cuello diverticular, produciendo estasis e isquemia focal."
+      "text": "Todo parte de los divertículos, que son herniaciones de la mucosa por los puntos débiles de la pared del colon, casi siempre en el sigmoides y el colon descendente, donde la presión intraluminal es más alta. Tener divertículos no es lo mismo que estar enfermo: la mayoría de las personas que los tienen nunca se complican, y esa condición se llama diverticulosis, no diverticulitis."
     },
     {
       "file": "s01_g01",
-      "text": "La isquemia y proliferación bacteriana producen una microperforación de la delgada pared diverticular. En la gran mayoría de los casos, esta perforación es inmediatamente sellada por la grasa pericólica del mesocolon y el epiplón, constituyendo un flemón inflamatorio localizado. Esto corresponde al estadio Hinchey uno a."
+      "text": "El problema empieza cuando un fecalito se aloja dentro de uno de esos divertículos y lo obstruye. Fíjate que es exactamente el mismo mecanismo inicial que viste en la apendicitis."
     },
     {
       "file": "s01_g02",
-      "text": "Si el proceso infeccioso no se autolimita, la microperforación acumula material purulento organizado, formando un absceso pericólico pequeño o un absceso a distancia pélvico o retroperitoneal, lo que define los estadios Hinchey uno b y Hinchey dos. Estos pacientes presentan fiebre persistente y masa palpable."
+      "text": "Esa obstrucción eleva la presión, la pared se isquemia y empieza a necrosarse."
     },
     {
       "file": "s01_g03",
-      "text": "Si el absceso se rompe hacia la cavidad peritoneal libre, se genera una peritonitis purulenta generalizada o Hinchey tres. Si existe una rotura transmural abierta no contenida que vuelca heces directamente a la cavidad abdominal, estamos ante una peritonitis fecaloidea o Hinchey cuatro, cuadros gravísimos que cursan con abdomen en tabla y shock séptico."
+      "text": "Y esa pared debilitada termina con una microperforación, que inflama la grasa que rodea al colon."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El resultado es dolor continuo en la fosa ilíaca izquierda, con fiebre y leucocitosis: la misma lógica de la apendicitis, pero del lado contrario. Por eso a la diverticulitis le dicen la apendicitis izquierda."
     },
     {
       "file": "s02_g00",
-      "text": "Los divertículos colónicos son pseudodivertículos o divertículos falsos porque carecen de la túnica muscular propia. Protruyen a través de las brechas anatómicas por donde ingresan los vasos sanguíneos rectos entre las tenias cólicas."
+      "text": "El cuadro típico es un dolor progresivo, de varios días, en la fosa ilíaca izquierda, con sensación febril y anorexia. Suele venir con constipación, aunque a veces hay diarrea."
     },
     {
       "file": "s02_g01",
-      "text": "De acuerdo con la ley de Laplace, el colon sigmoides es el segmento más estrecho del colon, por lo que genera las presiones de segmentación más elevadas frente a heces duras. Por eso más del noventa por ciento de la diverticulosis se concentra en el sigmoides."
+      "text": "Al examen, encuentras resistencia muscular y Blumberg localizado en esa zona, y en uno de cada cinco pacientes hasta se palpa una masa inflamatoria."
     },
     {
       "file": "s02_g02",
-      "text": "Un contraste cardinal para el examen: la hemorragia diverticular cursa con sangrado rectal masivo de instalación súbita, sin dolor abdominal ni signos inflamatorios, y predomina en divertículos del colon derecho."
+      "text": "Y si el flemón queda pegado a la vejiga, puede dar síntomas urinarios, como si fuera una cistitis. No te dejes engañar: revisa siempre el abdomen antes de cerrar ese diagnóstico."
     },
     {
       "file": "s02_g03",
-      "text": "En cambio, la diverticulitis aguda se caracteriza por inflamación parietal exquisita en la fosa ilíaca izquierda, fiebre y leucocitosis, pero casi nunca se asocia a hemorragia digestiva masiva."
+      "text": "Y hay un antecedente que se pregunta seguido: si el dolor en la fosa ilíaca izquierda aparece horas después de una colonoscopía, sobre todo con resección de pólipos, piensa en una diverticulitis provocada por la insuflación de aire durante el procedimiento."
     },
     {
       "file": "s03_g00",
-      "text": "La presentación típica es la de un paciente adulto mayor de sesenta años que consulta por dolor constante y punzante en la fosa ilíaca izquierda o el hipogastrio, de dos a tres días de evolución. Con frecuencia se asocia a constipación pertinaz, aunque algunos pacientes debutan con diarrea por inflamación de la mucosa colónica adyacente."
+      "text": "El examen de elección en la fase aguda, sin discusión, es el TAC de abdomen y pelvis con contraste intravenoso. Con él clasificas la severidad según la clasificación de Hinchey."
     },
     {
       "file": "s03_g01",
-      "text": "El paciente suele referir sensación febril, decaimiento general, anorexia y náuseas. La fiebre cuantificada y la taquicardia orientan a la presencia de complicación flemosa o abscedada."
+      "text": "Hinchey cero y uno A son las formas leves: solo hay engrosamiento de la pared, o un flemón sólido, sin ninguna colección líquida."
     },
     {
       "file": "s03_g02",
-      "text": "Al examen físico abdominal destaca dolor exquisito y resistencia muscular a la palpación en el cuadrante inferior izquierdo. El signo de Blumberg o rebote en fosa ilíaca izquierda es positivo, traduciendo irritación del peritoneo parietal por contigüidad inflamatoria."
+      "text": "Hinchey uno B y dos son cuando ya se formó un absceso: pequeño y cercano en el uno B, o más grande y a distancia en el dos."
     },
     {
       "file": "s03_g03",
-      "text": "En aproximadamente un quinto de los pacientes puede palparse una masa sensible, mal delimitada y firme en la fosa ilíaca izquierda, que corresponde al sigmoides intensamente engrosado empastado con asas delgadas y epiplón mayor."
+      "text": "Y Hinchey tres y cuatro son cuando la perforación ya no está contenida: peritonitis purulenta generalizada en el tres, y peritonitis con contenido fecal libre en el cuatro."
+    },
+    {
+      "file": "s03_g04",
+      "text": "En las formas leves, el tratamiento es médico: reposo digestivo y antibióticos, orales si el paciente tolera y está bien, o endovenosos si hay comorbilidad o fiebre alta. Más del noventa por ciento responde sin necesitar cirugía."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Si el absceso mide cuatro centímetros o más, el tratamiento de elección es el drenaje percutáneo guiado por TAC, más antibióticos. Esto evita una cirugía de urgencia con colostomía, y permite operar después, de forma electiva y con anastomosis directa."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Y con peritonitis generalizada, la cirugía ya no se puede posponer: la operación de Hartmann, que reseca el segmento perforado, cierra el muñón rectal y deja una colostomía terminal."
     },
     {
       "file": "s04_g00",
-      "text": "La fístula colovesical es la fístula digestiva más frecuente en la enfermedad diverticular, originada por la adherencia y erosión inflamatoria del colon sigmoides sobre la cúpula vesical. Es tres veces más común en hombres debido a la interposición del útero en mujeres."
+      "text": "Antes de seguir con el manejo, vale la pena que sepas quién tiene más riesgo. La dieta baja en fibra y rica en carnes rojas aumenta la presión dentro del colon, y con el tiempo favorece que aparezcan más divertículos."
     },
     {
       "file": "s04_g01",
-      "text": "Los síntomas cardinales y patognomónicos son la neumaturia, descrita como expulsión de burbujas de gas con la orina, y la fecaluria o salida de restos fecales microscópicos o macroscópicos por la uretra, acompañada de infecciones urinarias a repetición por flora polimicrobiana entérica."
-    },
-    {
-      "file": "s04_g02",
-      "text": "La tomografía axial computarizada confirma el diagnóstico al evidenciar aire en el interior de la vejiga en un paciente no sondado y el engrosamiento inflamatorio en contacto con el sigmoides."
-    },
-    {
-      "file": "s04_g03",
-      "text": "El manejo definitivo es quirúrgico electivo: resección del segmento colónico enfermo con anastomosis primaria y reparación simple de la pared vesical."
+      "text": "La obesidad, el tabaquismo, y el uso frecuente de antiinflamatorios no esteroidales también suman riesgo, tanto de tener divertículos como de que se compliquen con una diverticulitis, e incluso de que ese episodio termine en una perforación libre en vez de quedar contenido."
     },
     {
       "file": "s05_g00",
-      "text": "El estadio Hinchey cero corresponde a diverticulitis leve con engrosamiento de pared sin flemón. El estadio Hinchey uno a presenta flemón pericólico confinado al mesocolon. Ambos constituyen diverticulitis no complicada. En pacientes jóvenes, estables y sin comorbilidades se manejan de forma ambulatoria con dieta líquida y analgesia; en ancianos o pacientes frágiles se hospitaliza con antibióticos endovenosos."
+      "text": "La primera regla: la colonoscopía está formalmente contraindicada en la fase aguda. La insuflación de aire puede romper una microperforación que estaba sellada y provocar una peritonitis fecal masiva."
     },
     {
       "file": "s05_g01",
-      "text": "El estadio Hinchey uno b es un absceso pericólico pequeño menor a tres o cuatro centímetros, que se trata con hospitalización y antibióticos endovenosos, resolviendo en más del ochenta por ciento sin punción. En cambio, el estadio Hinchey dos es un absceso a distancia pélvico o retroperitoneal habitualmente mayor a cuatro centímetros, cuyo tratamiento de elección es el drenaje percutáneo guiado por tomografía más antibióticos endovenosos."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Los estadios Hinchey tres y cuatro representan peritonitis generalizada purulenta y fecaloidea respectivamente. Son urgencias quirúrgicas críticas con indicación absoluta de laparotomía exploradora de urgencia. La técnica estándar salvadora es la operación de Hartmann: resección del sigmoides perforado, cierre del muñón rectal y colostomía terminal en fosa ilíaca izquierda."
+      "text": "Y la segunda regla, que parece contradecir a la primera pero no lo hace: una vez que el episodio agudo se resolvió, a las seis u ocho semanas, la colonoscopía completa es obligatoria. Hasta un cinco por ciento de lo que parecía diverticulitis termina siendo un cáncer de colon perforado o coexistente."
     },
     {
       "file": "s06_g00",
-      "text": "La tomografía axial computarizada de abdomen y pelvis con contraste endovenoso es el examen de elección indiscutido en la fase aguda. Permite confirmar el diagnóstico, estadificar con exactitud según la escala de Hinchey y planificar si se requiere drenaje percutáneo o cirugía."
+      "text": "Si el paciente es joven, está estable y tolera comer, el manejo puede ser ambulatorio: ciprofloxacino más metronidazol por vía oral, durante siete a diez días."
     },
     {
       "file": "s06_g01",
-      "text": "Los hallazgos tomográficos característicos incluyen: divertículos en colon sigmoides, engrosamiento concéntrico de la pared colónica mayor a cuatro milímetros, estriación de la grasa pericólica adyacente, presencia de colecciones purulentas loculadas y burbujas de gas extraluminal."
+      "text": "Si es un adulto mayor, tiene comorbilidad, o no tolera comer, hospitalizas: ceftriaxona más metronidazol endovenoso, al menos tres a cinco días, y luego completas por vía oral."
     },
     {
       "file": "s06_g02",
-      "text": "Aunque la ecografía puede detectar engrosamiento parietal y dolor focal bajo el transductor, tiene menor sensibilidad en presencia de abundante gas intestinal y no delimita con precisión la profundidad de los abscesos retroperitoneales."
+      "text": "Y un grupo especial: el paciente inmunosuprimido, por corticoides crónicos o quimioterapia, puede no mostrar fiebre ni leucocitosis a pesar de tener una perforación seria, porque no monta una respuesta inflamatoria normal. Con ellos, el umbral para hospitalizar y para operar tiene que ser mucho más bajo."
     },
     {
       "file": "s07_g00",
-      "text": "Una de las preguntas más clásicas y sancionadas del EUNACOM: la colonoscopía está formalmente contraindicada en la fase aguda de diverticulitis. La insuflación de aire endoscópica sobre una pared colónica isquémica y friable transforma una microperforación sellada en una perforación libre a cavidad peritoneal."
+      "text": "Ahora, ¿qué haces si el paciente no mejora con antibióticos? Si la fiebre o el dolor persisten más de cuarenta y ocho a setenta y dos horas, repites el TAC, porque puede haber progresado de un flemón a un absceso, o a una perforación."
     },
     {
       "file": "s07_g01",
-      "text": "Insuflar aire a presión puede desprender el epiplón bloqueador y provocar peritonitis fecal aguda que requiere cirugía de urgencia con colostomía."
-    },
-    {
-      "file": "s07_g02",
-      "text": "El enema con bario está proscrito en abdomen agudo. La extravasación del sulfato de bario al peritoneo desencadena una peritonitis química gravísima con granulomas por cuerpo extraño, adherencias masivas y una mortalidad superior al cincuenta por ciento."
+      "text": "Y hay señales que no esperan ningún control: presión arterial baja, lactato elevado, o un abdomen que pasa de doloroso localizado a un abdomen en tabla generalizado. Ahí no repites examen, activas cirugía de inmediato."
     },
     {
       "file": "s08_g00",
-      "text": "Una vez superado el cuadro agudo, cuando han transcurrido seis a ocho semanas y la inflamación de la pared colónica ha desaparecido, es mandatorio realizar una colonoscopía completa de control."
+      "text": "Ahora ordenemos todo en un solo árbol de decisión. Llega un paciente con dolor en la fosa ilíaca izquierda y fiebre. Antes de pensar en endoscopía, pide un TAC de abdomen y pelvis con contraste."
     },
     {
       "file": "s08_g01",
-      "text": "El objetivo crítico de esta colonoscopía es descartar un cáncer colorrectal perforado o estenosante. Entre un tres y cinco por ciento de los cuadros catalogados inicialmente como diverticulitis complicada corresponden en realidad a un adenocarcinoma de colon que se perforó."
+      "text": "El TAC te dice si hay solo inflamación, un absceso, o una peritonitis ya establecida."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Sin absceso ni peritonitis, el tratamiento es médico: antibióticos, y la gran mayoría resuelve sin cirugía."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Un absceso pequeño puede resolver solo con antibióticos; uno grande necesita drenaje."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Los abscesos pequeños responden bien a antibióticos solos, sin necesidad de intervencionismo."
+    },
+    {
+      "file": "s08_g05",
+      "text": "El drenaje percutáneo controla el foco y permite operar después, de forma electiva y sin colostomía."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Con peritonitis purulenta o fecaloidea generalizada, la cirugía de urgencia ya no se puede posponer."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Una vez resuelto el cuadro, todavía falta descartar lo que puede estar escondido detrás."
+    },
+    {
+      "file": "s08_g08",
+      "text": "La colonoscopía diferida es obligatoria: hasta un cinco por ciento de los cuadros iniciales resultan ser un cáncer de colon."
     },
     {
       "file": "s09_g00",
-      "text": "Iniciamos el enfrentamiento solicitando de inmediato una tomografía computarizada de abdomen y pelvis con contraste intravenoso."
+      "text": "Repasemos las trampas. Ante la sospecha, el examen es el TAC. El error más grave es pedir una colonoscopía para \"confirmar\": eso es justo lo que no se hace en agudo."
     },
     {
       "file": "s09_g01",
-      "text": "Evaluamos el estado clínico general, tolerancia oral y comorbilidades del paciente."
+      "text": "Un absceso menor a cuatro centímetros responde solo con antibióticos. Drenar cualquier colección, por chica que sea, es intervencionismo de más."
     },
     {
       "file": "s09_g02",
-      "text": "En pacientes seleccionados con bajo riesgo, indicamos manejo ambulatorio con control clínico en cuarenta y ocho horas."
+      "text": "Con cuatro centímetros o más, el drenaje percutáneo es lo indicado. Operar de urgencia igual, cuando el drenaje pudo evitarlo, te deja con una colostomía innecesaria."
     },
     {
       "file": "s09_g03",
-      "text": "Hospitalizamos con reposo digestivo y cobertura parenteral para enterobacterias y anaerobios por siete días."
+      "text": "Con peritonitis generalizada, la cirugía no espera. Insistir en manejo médico aquí solo empeora la sepsis."
     },
     {
       "file": "s09_g04",
-      "text": "Determinamos el diámetro del absceso y su localización anatómica."
+      "text": "Y al alta, siempre programas la colonoscopía diferida. No estudiar más el colon, pensando que el TAC ya lo dijo todo, deja pasar un cáncer."
     },
     {
       "file": "s09_g05",
-      "text": "Los abscesos menores a cuatro centímetros responden muy bien al tratamiento antibiótico exclusivo sin necesidad de punción."
-    },
-    {
-      "file": "s09_g06",
-      "text": "En colecciones mayores o iguales a cuatro centímetros, la conducta de elección es el drenaje percutáneo guiado por imágenes."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Frente a signos de peritonitis libre o shock séptico, indicamos cirugía de urgencia inmediata."
-    },
-    {
-      "file": "s09_g08",
-      "text": "Realizamos la operación de Hartmann: extirpación del sigmoides enfermo, cierre de muñón rectal y colostomía terminal."
+      "text": "Y en el inmunosuprimido, el umbral para hospitalizar y para operar es bajo. Confiar en que está bien porque no tiene fiebre es la trampa: puede tener una perforación seria y no mostrar ningún signo inflamatorio clásico."
     },
     {
       "file": "s10_g00",
-      "text": "En diverticulitis no complicada Hinchey cero o uno a en pacientes previamente sanos, afebriles, con dolor leve y buena tolerancia oral, es posible el manejo ambulatorio con régimen líquido, reposo relativo y analgesia con paracetamol."
+      "text": "Vamos con un caso. Mujer de sesenta y ocho años, con tres días de dolor progresivo en la fosa ilíaca izquierda, fiebre de treinta y ocho grados y constipación. Al examen, resistencia muscular localizada en esa zona, sin masa palpable. Catorce mil ochocientos leucocitos."
     },
     {
       "file": "s10_g01",
-      "text": "La hospitalización es imperativa ante fiebre superior a treinta y ocho coma cinco grados, vómitos con intolerancia oral, leucocitosis marcada, edad avanzada, comorbilidades severas o pacientes inmunodeprimidos."
+      "text": "¿Cuál es el examen más adecuado para continuar el estudio?"
     },
     {
       "file": "s10_g02",
-      "text": "En el paciente hospitalizado iniciamos régimen cero, hidratación endovenosa y cobertura antibiótica que abarque bacilos gramnegativos entéricos y anaerobios como Bacteroides fragilis, utilizando Ceftriaxona más Metronidazol endovenosos."
+      "text": "Tienes cinco opciones: colonoscopía para ver el colon directamente, TAC de abdomen y pelvis con contraste, enema baritado, radiografía simple de abdomen, o ecografía transvaginal. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. El cuadro es una diverticulitis aguda clásica, y el examen de elección para confirmarla y etapificarla es el TAC. La colonoscopía y el enema baritado son justamente los que están contraindicados en esta fase: el riesgo de perforar una microperforación ya existente es demasiado alto. La ecografía transvaginal solo tendría sentido si la clínica ginecológica fuera más sugerente, y aquí no lo es."
     },
     {
       "file": "s11_g00",
-      "text": "En el estadio Hinchey dos, ante un absceso a distancia pélvico o retroperitoneal de cuatro centímetros o más accesible por punción, la conducta de elección es el drenaje percutáneo guiado por tomografía o ecografía con un catéter tipo cola de cerdo."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Un paciente se hace una colonoscopía para resecar unos pólipos. Algunas horas después, tiene dolor abdominal bajo, con algo de sangre en las deposiciones y malestar general. Al examen, duele la fosa ilíaca izquierda."
     },
     {
       "file": "s11_g01",
-      "text": "El drenaje percutáneo evacúa el foco purulento sin necesidad de abrir el abdomen. Esto revierte el cuadro séptico y permite programar semanas después una sigmoidectomía electiva con anastomosis primaria, evitando al paciente una colostomía."
+      "text": "¿Qué examen es el más adecuado para proseguir con el estudio en este paciente?"
     },
     {
       "file": "s11_g02",
-      "text": "Si el absceso es inaccesible por estar rodeado de asas delgadas o si no hay mejoría clínica tras cuarenta y ocho horas de drenaje percutáneo, se debe proceder a laparotomía exploradora de urgencia."
+      "text": "Las opciones son: resonancia magnética de abdomen y pelvis, ecografía abdominal y pélvica, colonoscopía, radiografía de abdomen y pelvis, o TAC de abdomen y pelvis. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E, TAC. Esta pregunta pone a prueba justo la regla de oro del tema: nunca repites la colonoscopía cuando sospechas una diverticulitis aguda, así sea que la sospecha nació de la colonoscopía misma. Volver a insuflar aire ahí es el error más peligroso que puedes cometer."
     },
     {
       "file": "s12_g00",
-      "text": "La cirugía de urgencia es inmediata ante peritonitis generalizada libre, shock séptico persistente o perforación colónica masiva con heces en cavidad."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de sesenta y ocho años, con dolor abdominal bajo y fiebre, mayor en el cuadrante inferior izquierdo. Temperatura de treinta y siete coma siete, abdomen doloroso con resistencia muscular marcada en la fosa ilíaca izquierda y ruidos hidroaéreos disminuidos."
     },
     {
       "file": "s12_g01",
-      "text": "La operación de Hartmann sigue siendo el procedimiento más seguro y estándar en el paciente séptico inestable con peritonitis fecal."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "El primer paso es la sigmoidectomía: se extirpa el segmento de colon sigmoides perforado y gangrenoso, y se realiza un lavado profuso de la cavidad abdominal con abundante suero tibio."
+      "text": "Las opciones son: diverticulitis aguda, colitis isquémica, apendicitis aguda, vólvulo de sigmoides, o cáncer de colon complicado. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "El segundo paso es cerrar el muñón rectal en fondo de saco ciego dentro de la pelvis menor, y el tercer paso es exteriorizar el colon descendente sano como una colostomía terminal definitiva en la fosa ilíaca izquierda. El tránsito puede reconstruirse electivamente tres a seis meses más tarde."
+      "text": "Es la A. La localización en la fosa ilíaca izquierda ya casi cierra el diagnóstico: es exactamente lo que llamamos la apendicitis izquierda. La colitis isquémica suele doler más difuso y en pacientes con enfermedad vascular; el vólvulo da distensión masiva, no este dolor focal con resistencia; y el cáncer de colon complicado no suele debutar con fiebre tan marcada desde el inicio."
     },
     {
       "file": "s13_g00",
-      "text": "El cáncer de colon izquierdo perforado o necrosado simula con precisión una diverticulitis aguda. Por esta razón, todo paciente que se recupera de un episodio agudo debe ir a colonoscopía completa diferida a las seis a ocho semanas para biopsiar cualquier neoplasia oculta."
+      "text": "Cerremos con las reglas de oro. Ante la sospecha, siempre TAC con contraste, y ahí etapificas con Hinchey."
     },
     {
       "file": "s13_g01",
-      "text": "La colitis isquémica cursa con dolor abdominal seguido rápidamente de diarrea sanguinolenta profusa tras un episodio de hipotensión o arritmia. Afecta zonas limítrofes de flujo como el ángulo esplénico y la unión rectosigmoidea."
+      "text": "Sin absceso, antibióticos y nada más. Con absceso de cuatro centímetros o más, drenaje percutáneo. Y con peritonitis generalizada, Hartmann de urgencia."
     },
     {
       "file": "s13_g02",
-      "text": "En mujeres en edad fértil con dolor en fosa ilíaca izquierda debemos descartar torsión ovárica izquierda, embarazo ectópico tubario o piosálpinx mediante subunidad beta de gonadotrofina coriónica y ecografía transvaginal."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Revisemos esta pregunta real de agosto de dos mil veintiuno. Un hombre de sesenta y ocho años con diabetes e hipertensión consulta por dolor de veinticuatro horas en hipogastrio y fosa ilíaca izquierda, con febrícula de treinta y siete coma ocho grados y signos peritoneales focales con disminución de ruidos hidroaéreos."
-    },
-    {
-      "file": "s14_g01",
-      "text": "Nos consultan por el diagnóstico más probable entre las opciones."
-    },
-    {
-      "file": "s14_g02",
-      "text": "Las alternativas son: opción A, infarto epiploico apendicular; opción B, embolia mesentérica; opción C, vólvulo de sigmoides; opción D, obstrucción intestinal; y opción E, diverticulitis aguda. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la opción E, diverticulitis aguda. El cuadro clínico de dolor localizado en la fosa ilíaca izquierda, febrícula y peritonitis focal en un paciente adulto mayor configura la presentación clásica de apendicitis del lado izquierdo o diverticulitis aguda. El examen de confirmación de elección es la tomografía de abdomen y pelvis con contraste."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Primera regla: la tomografía axial computarizada de abdomen y pelvis con contraste endovenoso es el examen de elección indiscutido para confirmar y clasificar en estadios de Hinchey."
-    },
-    {
-      "file": "s15_g01",
-      "text": "Segunda regla: la colonoscopía y el enema baritado están estrictamente contraindicados durante el episodio agudo por el riesgo inminente de provocar una perforación colónica libre con peritonitis."
-    },
-    {
-      "file": "s15_g02",
-      "text": "Tercera regla: los abscesos Hinchey dos de cuatro centímetros o más se tratan de elección con drenaje percutáneo guiado por tomografía más antibióticos endovenosos."
-    },
-    {
-      "file": "s15_g03",
-      "text": "Cuarta regla: la peritonitis purulenta o fecaloidea generalizada exige laparotomía de urgencia con sigmoidectomía, cierre de muñón rectal y colostomía terminal según la técnica de Hartmann."
-    },
-    {
-      "file": "s15_g04",
-      "text": "Si te llevas una sola idea de hoy: todo paciente que supera una diverticulitis aguda debe someterse a una colonoscopía completa diferida a las seis a ocho semanas para descartar un adenocarcinoma de colon enmascarado. Nos vemos en la próxima clase."
+      "text": "Y la colonoscopía: nunca en la fase aguda, y siempre a las seis u ocho semanas después. Si te llevas una sola idea de hoy: en diverticulitis, el TAC diagnostica y el tiempo decide cuándo mirar adentro con el endoscopio. Nos vemos en la próxima clase."
     }
   ]
 }

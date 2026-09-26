@@ -2,255 +2,171 @@
   "id": "ped-14",
   "title": "Pediatria 18.14: Convulsiones Febriles: Crisis Simple vs Compleja, Punción Lumbar & Pronóstico",
   "specialty": "Pediatría",
-  "chars": 10527,
+  "chars": 6932,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre convulsiones febriles en pediatría, una de las emergencias que mayor angustia genera en los padres y una pregunta obligada en el examen EUNACOM. En esta sesión aprenderemos a clasificar con precisión las crisis en simples y complejas, dominaremos las indicaciones estrictas de punción lumbar para descartar meningitis sin caer en estudios innecesarios, revisaremos el manejo agudo con benzodiacepinas y aclararemos el pronóstico real de recurrencia y epilepsia. Comencemos."
+      "text": "Bienvenido a la clase de convulsiones febriles, el trastorno convulsivo más frecuente de la infancia. Hoy vas a aprender a distinguir la crisis simple de la compleja, a saber cuándo una punción lumbar no se discute, y qué decirle a unos padres angustiados sobre el pronóstico. Vamos a revisar preguntas reales que ponen a prueba justo esa diferencia. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "El cerebro infantil en desarrollo presenta una inmadurez intrínseca en sus circuitos inhibitorios gabaérgicos. Ante una infección sistémica o respiratoria común, la liberación masiva de interleuquinas pirógenas desencadena un ascenso térmico rápido que desestabiliza las membranas celulares."
+      "text": "Empecemos por el porqué. En estos niños, la fiebre que sube rápido, sobre los treinta y ocho grados, es el gatillo."
     },
     {
       "file": "s01_g01",
-      "text": "Esta elevación brusca de la temperatura reduce drásticamente el umbral convulsivo de las neuronas corticales inmaduras, desatando una descarga paroxística sincrónica y bilateral que se traduce clínicamente en una crisis motora generalizada, la cual cede espontáneamente en pocos minutos."
+      "text": "Y el terreno que lo permite es un cerebro todavía inmaduro, entre los seis meses y los cinco años de vida, con un pico alrededor de los dieciocho meses."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Esa combinación baja el umbral convulsivo: el cerebro se irrita con más facilidad de lo normal."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y el resultado es la convulsión asociada a fiebre, el trastorno convulsivo más frecuente de la infancia."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La gran mayoría, entre el setenta y el ochenta por ciento, es una crisis simple: generalizada, dura menos de quince minutos, aparece una sola vez en veinticuatro horas, y el niño se recupera por completo. Excelente pronóstico, y no necesitas ni electroencefalograma, ni imagen, ni fármaco de mantención."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El resto, entre el veinte y el treinta por ciento, es una crisis compleja: tiene un inicio focal, dura más de quince minutos, se repite en el mismo día, o deja una paresia transitoria, la parálisis de Todd. Fíjate bien: basta uno solo de esos signos para que deje de ser simple."
     },
     {
       "file": "s02_g00",
-      "text": "La convulsión febril se define como una crisis convulsiva que ocurre exclusivamente en niños de seis meses a cinco años, con un pico clásico entre los doce y dieciocho meses de vida."
+      "text": "Vamos con la pregunta que más se repite: ¿cuándo pides la punción lumbar? Primero, si hay signos meníngeos: rigidez de nuca, Kernig o Brudzinski."
     },
     {
       "file": "s02_g01",
-      "text": "Debe asociarse a fiebre documentada por una causa extracraneal, descartando de plano meningitis, encefalitis o abscesos del sistema nervioso central."
+      "text": "Segundo, si la letargia o la irritabilidad extrema persisten más allá del período postictal esperado."
     },
     {
       "file": "s02_g02",
-      "text": "El niño no debe registrar antecedentes de crisis convulsivas afebriles previas ni diagnóstico previo de epilepsia, ya que de lo contrario se considera una crisis epiléptica secundaria."
+      "text": "Tercero, si es un lactante entre seis y doce meses con las vacunas contra Haemophilus o neumococo incompletas."
     },
     {
       "file": "s02_g03",
-      "text": "Es indispensable confirmar que no existan desequilibrios hidroelectrolíticos graves, hipoglicemia o intoxicaciones exógenas como desencadenantes de la crisis."
+      "text": "Y cuarto, si el niño venía tomando antibióticos, porque eso puede enmascarar una meningitis decapitada. Con cualquiera de estos cuatro, la punción lumbar deja de ser opcional."
     },
     {
       "file": "s03_g00",
-      "text": "La crisis simple se caracteriza por ser generalizada tónico-clónica bilateral, durar menos de quince minutos y presentarse como un episodio único dentro de un período de veinticuatro horas."
+      "text": "Sobre la recurrencia: cerca de un treinta por ciento va a tener otra convulsión con fiebre en el futuro, y ese riesgo sube a un cincuenta por ciento si el debut fue antes del año de vida."
     },
     {
       "file": "s03_g01",
-      "text": "El paciente recupera plenamente su nivel de conciencia habitual en menos de una hora, sin mostrar ninguna focalidad motora residual ni la temida paresia de Todd."
+      "text": "Después de una crisis simple, el riesgo de epilepsia futura es prácticamente el mismo que en cualquier niño: uno a dos por ciento. Tranquiliza a los padres con este dato."
     },
     {
       "file": "s03_g02",
-      "text": "En cambio, la convulsión febril compleja se reconoce ante cualquier elemento de focalidad motora, como sacudidas restringidas a un solo brazo, una pierna o un hemicuerpo."
-    },
-    {
-      "file": "s03_g03",
-      "text": "También clasifica como compleja si se prolonga por más de quince minutos, si se repite en menos de un día o si deja una paresia motora residual."
+      "text": "Después de una crisis compleja, con antecedente familiar de epilepsia o daño neurológico previo, ese riesgo sube a un cinco a diez por ciento."
     },
     {
       "file": "s04_g00",
-      "text": "La crisis simple es simétrica y generalizada, mientras que la crisis compleja muestra focalidad motora que obliga a descartar patología estructural."
+      "text": "Ahora pongamos la clasificación y la punción lumbar en un solo árbol. Tienes un niño entre seis meses y cinco años que convulsiona con fiebre. Antes de nada, clasificas la crisis por su forma y duración."
     },
     {
       "file": "s04_g01",
-      "text": "La gran mayoría de las simples duran menos de cinco minutos; una duración mayor a quince minutos define formalmente una crisis compleja."
+      "text": "La pregunta es: ¿fue generalizada y breve, o tuvo algo distinto?"
     },
     {
       "file": "s04_g02",
-      "text": "La crisis simple ocurre una sola vez en veinticuatro horas, a diferencia de la compleja que recurre dentro del mismo proceso febril."
+      "text": "Si fue una crisis simple, antes de dar de alta revisas si hay signos meníngeos o letargia que no mejora."
     },
     {
       "file": "s04_g03",
-      "text": "La persistencia de debilidad muscular residual o paresia de Todd en el período postictal es un marcador inequívoco de crisis compleja."
+      "text": "Si no hay ninguno de esos signos, confirmas la crisis febril simple: educas a los padres y das de alta, sin más estudio."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Pero si hay signos meníngeos o la letargia persiste, ahí la punción lumbar deja de ser opcional: hay que descartar una meningitis."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si en cambio la crisis fue focal, duró más de quince minutos, se repitió, o dejó una parálisis de Todd, es una crisis compleja, y requiere estudio dirigido según cómo evolucione."
     },
     {
       "file": "s05_g00",
-      "text": "Al presenciar una convulsión febril activa lo primero es proteger al niño, colocarlo de lado en decúbito lateral para prevenir la aspiración, despejar la vía aérea y controlar el tiempo exacto con reloj."
+      "text": "Repasemos las trampas. Crisis generalizada, típica y breve: alta con educación a los padres. El error es pedir electroencefalograma o TAC de rutina."
     },
     {
       "file": "s05_g01",
-      "text": "Si la crisis no cede espontáneamente a los cinco minutos, se considera estatus epiléptico precoz y se debe administrar de inmediato una benzodiacepina de acción rápida, manteniendo estricto monitoreo de la vía aérea."
+      "text": "Signos meníngeos o letargia que no mejora: punción lumbar. El error es asumir que es solo la crisis febril y dar de alta igual."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Lactante sin esas vacunas al día: también punción lumbar. El error es no estudiar solo porque el resto del cuadro parece benigno."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Primera crisis simple: no vas a fármaco antiepiléptico de mantención. El error es iniciar ácido valproico por si acaso."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y una crisis focal, o que se repite en veinticuatro horas: la clasificas como compleja y estudias. El error es llamarla simple solo porque cedió sola."
     },
     {
       "file": "s06_g00",
-      "text": "El midazolam intranasal o transmucoso a dosis de cero punto dos a cero punto tres miligramos por kilo es hoy la primera línea por su absorción ultrarrápida sin requerir acceso vascular."
+      "text": "Vamos al caso. Lactante de dieciocho meses, previamente sano y con vacunas al día. Con fiebre de treinta y nueve coma dos por una faringoamigdalitis, presenta una crisis generalizada de tres minutos que cede sola. Veinte minutos después está afebril, activo y reactivo, sin rigidez de nuca ni déficit motor."
     },
     {
       "file": "s06_g01",
-      "text": "El diazepam por vía rectal a dosis de cero punto tres a cero punto cinco miligramos por kilo sigue siendo una alternativa ampliamente disponible en el ámbito prehospitalario y doméstico."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s06_g02",
-      "text": "Si el paciente ya cuenta con una vía venosa permeable, se administra lorazepam endovenoso a cero punto un miligramos por kilo o diazepam endovenoso lento diluido."
+      "text": "Tienes cinco opciones: diagnosticar convulsión febril simple y educar a los padres, pedir un electroencefalograma, hospitalizar para fenitoína, hacer una punción lumbar de urgencia, o iniciar ácido valproico. Piénsalo."
     },
     {
       "file": "s06_g03",
-      "text": "Si la convulsión continúa tras cinco minutos se puede reiterar una segunda dosis, activando el protocolo de estatus convulsivo con levetiracetam o fenitoína endovenosa si no remite."
+      "text": "Es la A. Edad típica, crisis generalizada y breve, única, y una recuperación completa sin ningún signo de alarma: es una convulsión febril simple. Ni el electroencefalograma, ni la punción lumbar, ni el fármaco de mantención tienen espacio aquí. Solo tratas el foco infeccioso y educas a los padres."
     },
     {
       "file": "s07_g00",
-      "text": "La punción lumbar es mandataria e inmediata ante cualquier signo de irritación meníngea, fontanela abombada o compromiso de conciencia prolongado que sugiera infección intracraneal."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Lactante de quince meses con una crisis tónico-clónica de un minuto, autolimitada, con fiebre de treinta y nueve grados. Está bien perfundido, consciente, sin signos focales ni signos meníngeos."
     },
     {
       "file": "s07_g01",
-      "text": "Un niño con apariencia tóxica persistente, somnolencia desmedida o quejido respiratorio debe someterse a estudio de líquido cefalorraquídeo para descartar meningitis bacteriana."
+      "text": "Además de bajar la temperatura, ¿cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "En menores de doce meses los signos meníngeos clásicos son sumamente inconstantes, por lo que se debe mantener un umbral muy bajo para punción lumbar, en especial si faltan vacunas."
+      "text": "Las opciones: punción lumbar, diazepam, resonancia de cerebro, ácido valproico, u observación."
     },
     {
       "file": "s07_g03",
-      "text": "El antecedente de haber recibido antibióticos en los días previos puede enmascarar los signos clínicos de una meningitis bacteriana en curso, justificando la realización del procedimiento."
+      "text": "Es la E. Es una convulsión febril benigna: sin signos que hagan sospechar meningitis, y al ser la primera crisis, tampoco hay espacio para antiepilépticos. La conducta es mantenerlo en observación."
     },
     {
       "file": "s08_g00",
-      "text": "En un niño mayor de doce meses con vacunas completas, examen neurológico normal y un foco infeccioso evidente, la punción lumbar está totalmente contraindicada por ser invasiva e innecesaria."
+      "text": "Y una segunda pregunta real, del EUNACOM de julio de dos mil quince. Niño de cuatro años, con una convulsión febril hace dos años, que ahora presenta fiebre, cefalea, deterioro del estado general y compromiso de conciencia, y luego convulsiona. La punción lumbar muestra trescientas células, con predominio mononuclear, y glóbulos rojos crenados."
     },
     {
       "file": "s08_g01",
-      "text": "La tomografía computarizada cerebral de urgencia no está indicada en las crisis simples, pues somete al paciente a radiación innecesaria sin modificar en absoluto la conducta médica."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s08_g02",
-      "text": "El electroencefalograma no debe solicitarse en la urgencia frente a una crisis febril simple, ya que las alteraciones inespecíficas postictales no predicen la recurrencia ni el desarrollo de epilepsia."
+      "text": "Las opciones: encefalitis herpética, hemorragia subaracnoidea, meningitis bacteriana, meningitis tuberculosa, o convulsión febril benigna."
     },
     {
       "file": "s08_g03",
-      "text": "Tampoco se requiere hemograma ni bioquímica sanguínea de rutina en un niño con una crisis febril típica y foco clínico claro como una otitis o un catarro común."
+      "text": "Es la A, encefalitis herpética. Fíjate en el distractor: el antecedente de una convulsión febril previa tienta a marcar la E, pero el compromiso de conciencia que no mejora y un líquido hemorrágico con células mononucleares no son de una crisis benigna. Son de una encefalitis herpética, que ataca justamente los lóbulos temporales. Esa diferencia entre lo benigno y lo grave es la que hoy tienes que manejar."
     },
     {
       "file": "s09_g00",
-      "text": "Los antipiréticos como el paracetamol alivian el malestar del niño pero no reducen el riesgo de recurrencia de una nueva crisis febril."
+      "text": "Cerremos con las reglas de oro. Simple es generalizada, breve, única en veinticuatro horas y sin secuela."
     },
     {
       "file": "s09_g01",
-      "text": "El uso continuado de fármacos antiepilépticos como ácido valproico está formalmente desaconsejado en crisis simples por su toxicidad potencial."
+      "text": "Y basta uno solo de estos signos para volverla compleja: focal, prolongada, repetida, o con parálisis de Todd."
     },
     {
       "file": "s09_g02",
-      "text": "Las convulsiones febriles simples no dejan secuelas neurológicas ni comprometen el desarrollo psicomotor ni el intelecto futuro del niño."
+      "text": "La punción lumbar no se discute si hay signos meníngeos, letargia persistente, un lactante sin vacunas al día, o antibiótico previo."
     },
     {
       "file": "s09_g03",
-      "text": "El riesgo de desarrollar epilepsia tras una crisis simple es de apenas uno a dos por ciento, prácticamente idéntico al de la población general."
-    },
-    {
-      "file": "s10_g00",
-      "text": "La probabilidad promedio de presentar una nueva convulsión febril en cuadros infecciosos posteriores es de un tercio, ocurriendo la gran mayoría de estas dentro del primer año posterior."
-    },
-    {
-      "file": "s10_g01",
-      "text": "Si el primer evento se manifiesta antes del primer año de vida, la tasa de recurrencia futura trepa hasta un cincuenta por ciento debido al largo tiempo que le resta de inmadurez termorreguladora."
-    },
-    {
-      "file": "s10_g02",
-      "text": "El antecedente de convulsiones febriles en padres o hermanos es el factor de riesgo genético más potente para predecir la repetición de un nuevo episodio."
-    },
-    {
-      "file": "s10_g03",
-      "text": "El desarrollo de la crisis con temperaturas moderadas menores a treinta y ocho coma cinco grados o de aparición muy temprana también anticipa mayor facilidad para recurrir."
-    },
-    {
-      "file": "s11_g00",
-      "text": "En niños con convulsión febril simple el riesgo de padecer epilepsia en la adolescencia o adultez es de apenas uno a dos por ciento, idéntico al de cualquier niño sano."
-    },
-    {
-      "file": "s11_g01",
-      "text": "Múltiples estudios de cohortes confirman que las crisis febriles simples no reducen el rendimiento académico ni generan trastornos conductuales a largo plazo."
-    },
-    {
-      "file": "s11_g02",
-      "text": "En cambio, cuando la crisis fue compleja con signos focales motores o duración prolongada, el riesgo de epilepsia aumenta a un rango de cinco a diez por ciento."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Si se suma una alteración previa del desarrollo psicomotor o antecedentes familiares de epilepsia idiopática, el riesgo puede superar el diez por ciento justificando control con neuropediatra."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Iniciamos el abordaje asegurando la vía aérea y evaluando si la convulsión se encuentra activa o ya ha cedido."
-    },
-    {
-      "file": "s12_g01",
-      "text": "Si la crisis persiste por más de cinco minutos procedemos a la administración de benzodiacepinas."
-    },
-    {
-      "file": "s12_g02",
-      "text": "Administramos midazolam intranasal o diazepam rectal con aporte de oxígeno y monitorización ventilatoria estricta."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Colocamos al paciente en decúbito lateral de seguridad y monitorizamos su recuperación de conciencia."
-    },
-    {
-      "file": "s12_g04",
-      "text": "Una vez recuperado el estado postictal evaluamos la presencia de signos meníngeos o aspecto séptico."
-    },
-    {
-      "file": "s12_g05",
-      "text": "Ante signos meníngeos o aspecto séptico hospitalizamos de inmediato para punción lumbar y antibioticoterapia parenteral."
-    },
-    {
-      "file": "s12_g06",
-      "text": "En el niño con examen neurológico normal diferenciamos entre crisis simple o compleja."
-    },
-    {
-      "file": "s12_g07",
-      "text": "En la crisis simple tratamos el foco infeccioso primario, educamos a los padres en seguridad y otorgamos el alta."
-    },
-    {
-      "file": "s12_g08",
-      "text": "Si la crisis fue compleja hospitalizamos en observación durante veinticuatro horas para control y estudio neurológico."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Niño de veinte meses con crisis generalizada de tres minutos en contexto de fiebre alta que recupera conciencia normal y presenta otitis media aguda derecha."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es la conducta diagnóstica y terapéutica más adecuada?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "La opción A punción lumbar inmediata y tomografía. La B iniciar ácido valproico oral por dos años. La C diagnosticar convulsión febril simple, tratar la otitis media con amoxicilina oral, educar a los padres y dar de alta. La D hospitalizar en cuidados intensivos. La E electroencefalograma de urgencia. Analiza la benignidad del cuadro. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "La respuesta correcta es la C. Se trata de una crisis febril simple con foco evidente, requiriendo tratar la otitis media con amoxicilina, educar a la familia y dar el alta."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Pregunta conceptual sobre los criterios que definen a una convulsión febril compleja o atípica."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál de las siguientes características clasifica a la crisis como compleja?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A duración de cuatro minutos generalizada. La B sacudidas limitadas al hemicuerpo derecho y duración de dieciocho minutos. La C fiebre sobre cuarenta grados. La D edad de dieciocho meses. La E recuperación rápida sin déficit. Recuerda los cuatro criterios de atipia. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la B. La semiología focal en un hemicuerpo y la duración mayor a quince minutos son criterios definitorios de crisis febril compleja."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Reserven la punción lumbar para pacientes con signos meníngeos, sospecha de sepsis, uso de antibióticos previos o menores de doce meses sin vacunas."
-    },
-    {
-      "file": "s15_g01",
-      "text": "Nunca indiquen anticonvulsivantes profilácticos continuos como valproato o fenobarbital en crisis simples; los riesgos superan con creces los beneficios."
-    },
-    {
-      "file": "s15_g02",
-      "text": "Si la crisis supera los cinco minutos indiquen de inmediato midazolam intranasal o diazepam rectal para evitar la progresión hacia un estatus convulsivo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "Eduquen a los padres con tranquilidad: la crisis simple no daña las neuronas. Si te llevas una sola idea de hoy: la crisis simple no requiere neuroimágenes ni anticonvulsivantes de mantención, solo educación y control térmico. Nos vemos en la próxima clase."
+      "text": "Y el riesgo de epilepsia futura es bajo, uno a dos por ciento, si la crisis fue simple. Si te llevas una sola idea de hoy: la crisis simple no necesita ni estudio ni fármaco, y basta un solo signo de alarma para cambiar toda la conducta. Nos vemos en la próxima clase."
     }
   ]
 }

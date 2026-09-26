@@ -2,263 +2,231 @@
   "id": "ped-22",
   "title": "Pediatria 18.22: Displasia del Desarrollo de la Cadera (DDC GES N° 23): Maniobras de Ortolani y Barlow, Radiografía a los 3 Meses y Correas de Pavlik",
   "specialty": "Pediatría",
-  "chars": 10117,
+  "chars": 9141,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre displasia del desarrollo de la cadera, patología con garantía GES evaluada con alta frecuencia en el examen EUNACOM. En esta sesión dominaremos la semiología articular con las maniobras de Ortolani y Barlow, aprenderemos a interpretar la radiografía de pelvis a los tres meses midiendo el índice acetabular y los cuadrantes de Ombredanne, y revisaremos el uso correcto de las correas de Pavlik. Comencemos."
+      "text": "Bienvenido. Cerramos pediatría con la displasia del desarrollo de la cadera, uno de los temas de mayor rentabilidad de todo el módulo. Vas a ver que todo se ordena con dos preguntas: cómo la examinas según la edad, y qué te dice la imagen. Y con eso decides si va arnés, o si solo sigues controlando. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "La cadera normal requiere que la cabeza esférica del fémur esté permanentemente centrada dentro del acetábulo para que este se profundice. Ante la laxitud hormonal o la compresión en el útero, la cabeza se desalinea y el cotilo permanece aplanado, vertical e incompetente."
+      "text": "Partamos por quién tiene más riesgo. El primer factor es el sexo: las niñas se afectan cuatro veces más que los niños, por la laxitud que les dan las hormonas maternas."
     },
     {
       "file": "s01_g01",
-      "text": "Al nacer y aumentar el tono muscular, la cabeza femoral es traccionada hacia arriba y afuera, produciéndose una subluxación o luxación completa que, de no ser reducida en los primeros meses de vida, conduce a una cojera permanente y artrosis invalidante del adulto joven."
+      "text": "El segundo es venir de nalgas: la presentación podálica deja la cadera en una postura forzada dentro del útero."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el tercero es tener un familiar directo con este mismo problema. Súmale el oligoamnios, que también comprime la cadera del feto."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Con cualquiera de estos factores, el acetábulo no termina de formar un techo firme, y la cabeza femoral no queda bien contenida ahí adentro."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El resultado va desde una cadera que se sale con facilidad, hasta una que ya nace luxada. Y justo eso es lo que buscas al examinar."
     },
     {
       "file": "s02_g00",
-      "text": "El sexo femenino es el factor epidemiológico más evidente, presentándose seis niñas afectadas por cada varón debido a una mayor sensibilidad de sus tejidos a las hormonas maternas."
+      "text": "Empecemos con las dos maniobras que más se preguntan. En Ortolani, flexionas la cadera y la rodilla, abduces el muslo y empujas hacia adelante. Es positiva cuando sientes un resalto: es la cabeza femoral que estaba luxada, entrando de vuelta al acetábulo."
     },
     {
       "file": "s02_g01",
-      "text": "El parto en presentación podálica es el factor de riesgo individual más potente, multiplicando el riesgo de displasia y obligando a un estudio imagenológico anticipado."
+      "text": "Barlow es al revés: aduces y empujas hacia atrás. Si la cadera es inestable, se te sale del acetábulo. Ojo con no confundirlas: Ortolani reduce, Barlow luxa."
     },
     {
       "file": "s02_g02",
-      "text": "El antecedente de displasia en padres o hermanos incrementa notablemente la probabilidad, reflejando una base hereditaria en la arquitectura ósea del cotilo."
+      "text": "Y fíjate en algo importante: pasados los tres meses, estas maniobras pierden fuerza. Ahí el signo que más confías es la abducción limitada, bajo sesenta grados."
     },
     {
       "file": "s02_g03",
-      "text": "El embarazo primigesta y el oligohidramnios reducen el espacio intrauterino, asociándose a signos de compresión fetal como tortícolis congénita o pie bot."
+      "text": "Y el signo de Galeazzi: con las caderas flectadas, una rodilla te queda más abajo que la otra, por el fémur acortado del lado luxado."
     },
     {
       "file": "s03_g00",
-      "text": "La maniobra de Barlow es una maniobra aductora y luxadora. Se flexionan las caderas en noventa grados, se aduce el muslo y se ejerce una suave presión hacia atrás."
+      "text": "Ahora, la imagen. Y lo primero que decide cuál pedir es la edad del niño."
     },
     {
       "file": "s03_g01",
-      "text": "Si la cadera es displásica e inestable, la cabeza femoral se descoloca y sale del acetábulo, confirmando que se trata de una cadera luxable."
+      "text": "Bajo los tres meses, el examen es la ecografía de cadera, porque a esa edad el hueso todavía es puro cartílago y no se ve en una radiografía."
     },
     {
       "file": "s03_g02",
-      "text": "La maniobra de Ortolani es una maniobra abductora y reductora. Al separar suavemente los muslos se presiona el trocánter mayor hacia adelante."
+      "text": "Y a los tres meses, en Chile se le toma una radiografía de pelvis a todo lactante, tenga o no tenga factores de riesgo. Esto es una garantía GES, y ese detalle universal se pregunta harto."
     },
     {
       "file": "s03_g03",
-      "text": "Al abducir, la cabeza femoral que estaba fuera reingresa en el acetábulo con un resalto palpable característico llamado clunk, confirmando una cadera luxada reducible."
+      "text": "En esa radiografía se trazan dos líneas: una horizontal, la de Hilgenreiner, y una vertical, la de Perkin. Juntas dividen la cadera en cuadrantes."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Si el núcleo de la cabeza femoral está en el cuadrante de abajo y hacia adentro, con un ángulo acetabular de treinta grados o menos, la cadera es normal."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Pero si el núcleo se corrió al cuadrante de arriba y hacia afuera, con el ángulo por sobre treinta, ahí tienes la displasia."
     },
     {
       "file": "s04_g00",
-      "text": "A partir de los tres meses las maniobras de Barlow y Ortolani se vuelven negativas por contractura de los músculos aductores, convirtiéndose la limitación de la abducción en el signo clínico cardinal."
+      "text": "Confirmada la displasia en un lactante menor de seis meses, el tratamiento es el arnés de Pavlik. Mantiene la cadera flectada entre noventa y cien grados, con una abducción moderada."
     },
     {
       "file": "s04_g01",
-      "text": "La posición anómala de la cabeza femoral genera una contractura rígida de los aductores que impide separar las rodillas sobre la mesa de examen en decúbito dorsal."
+      "text": "Con esa posición, la cabeza femoral se va centrando dentro del cotilo por sí sola, sin que tengas que forzar nada."
     },
     {
       "file": "s04_g02",
-      "text": "El signo de Galeazzi se evidencia al juntar los pies sobre la mesa con caderas flexionadas, observándose la rodilla del lado afectado a menor altura por el ascenso posterior del fémur."
+      "text": "Y ojo con no pasarte: si fuerzas la abducción sobre setenta grados, arriesgas una necrosis avascular de la cabeza femoral, justo lo que estabas tratando de evitar."
     },
     {
       "file": "s04_g03",
-      "text": "La asimetría de pliegues en muslos es un signo muy inespecífico presente en muchos niños normales, por lo que nunca debe usarse de forma aislada para diagnosticar displasia."
+      "text": "Y si el arnés falla, o el niño ya tiene más de seis meses, el manejo sube a una reducción bajo anestesia general y un yeso pelvipédico. Por eso el diagnóstico precoz es tan importante."
     },
     {
       "file": "s05_g00",
-      "text": "Barlow evalúa si la cadera es luxable hacia atrás mediante aducción suave en los primeros meses."
+      "text": "Ahora ordenemos el examen y la imagen en un solo árbol de decisión. Todo lactante se examina la cadera en su control sano. Pero cómo lo examinas, y qué imagen le pides, depende de la edad."
     },
     {
       "file": "s05_g01",
-      "text": "Ortolani reduce la cadera luxada hacia adentro al abducir el muslo, sintiéndose un resalto clunk."
+      "text": "Bajo los tres meses, tus maniobras son Ortolani y Barlow."
     },
     {
       "file": "s05_g02",
-      "text": "La limitación de la abducción es el signo más constante en mayores de tres meses por tensión muscular."
+      "text": "Si alguna sale positiva, derivas de inmediato y pides ecografía de caderas, sin esperar la radiografía universal."
     },
     {
       "file": "s05_g03",
-      "text": "Galeazzi demuestra una rodilla más baja en el lado afectado por el desplazamiento superior de la cabeza."
+      "text": "Si el examen es normal, igual continúa hacia la radiografía de los tres meses, porque es universal y no depende del examen físico."
+    },
+    {
+      "file": "s05_g04",
+      "text": "A los tres meses, la radiografía de pelvis con las líneas de Hilgenreiner y Perkin te da el índice acetabular."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Treinta grados o menos, con el núcleo en el cuadrante correcto: cadera normal, sigues con los controles habituales."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Sobre treinta grados, con el núcleo desplazado: displasia confirmada. Si el lactante tiene menos de seis meses, el tratamiento es el arnés de Pavlik."
     },
     {
       "file": "s06_g00",
-      "text": "En Chile la garantía explícita en salud número veintitrés asegura a todo lactante el derecho a una radiografía de pelvis anteroposterior a los tres meses de vida cumplidos."
+      "text": "Repasemos con una tabla. Menor de tres meses, con Ortolani positivo: derivas y pides ecografía de caderas. El error es esperar a la radiografía de los tres meses."
     },
     {
       "file": "s06_g01",
-      "text": "Se realiza a los tres meses porque antes de esa edad la pelvis es cartilaginosa y radiolúcida, dificultando una medición certera de los ángulos acetabulares."
+      "text": "A los tres meses, aunque no tenga ningún factor de riesgo: igual se toma la radiografía de pelvis. Es un error saltársela porque el examen físico salió normal."
     },
     {
       "file": "s06_g02",
-      "text": "La ecografía de caderas según técnica de Graf es el estudio de elección en menores de tres meses con examen físico alterado o antecedentes de parto podálico."
+      "text": "Ángulo acetabular de treinta o menos: sigues con los controles habituales. Indicar arnés igual, sin displasia, es un error."
     },
     {
       "file": "s06_g03",
-      "text": "Permite medir los ángulos alfa y beta visualizando directamente el cartílago sin radiación, habilitando el uso precoz de correas de Pavlik."
+      "text": "Con la displasia confirmada, en menor de seis meses: arnés de Pavlik. El doble pañal es la trampa clásica que suena razonable pero no corrige nada."
     },
     {
       "file": "s07_g00",
-      "text": "La línea de Hilgenreiner es una horizontal que une los cartílagos trirradiados en el fondo de ambos cotilos, sirviendo de base para todas las mediciones."
+      "text": "Vamos al caso. Lactante mujer de tres meses, nacida de término en presentación podálica. En el control sano, la cadera se examina estable, sin ningún resalto. Pero por la garantía GES le toman la radiografía de pelvis: la cadera derecha sale con el núcleo bien ubicado y un ángulo de veintiséis grados; la izquierda, con el núcleo corrido al cuadrante de arriba y afuera, un ángulo de treinta y ocho grados, y el arco de Shenton roto."
     },
     {
       "file": "s07_g01",
-      "text": "La línea de Perkin es una perpendicular que desciende desde el reborde óseo más externo del techo acetabular, dividiendo la cadera en mitades."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "En una cadera normal la cabeza femoral o su núcleo deben ubicarse estrictamente dentro del cuadrante ínfero-interno formado por el cruce de ambas líneas."
+      "text": "Las opciones: mantener controles porque el examen físico es normal, derivar e instalar correas de Pavlik, doble pañal con control ecográfico, resonancia magnética antes de decidir, u osteotomía de urgencia. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Si el núcleo femoral asciende y se ubica en el cuadrante súpero-externo, se confirma de inmediato que la cadera se encuentra luxada."
+      "text": "Es la B. Este caso está armado justo para mostrarte por qué se toma la radiografía a todos: el examen físico ya no alcanza a detectar esta displasia a los tres meses, pero la imagen la muestra clarísima en la cadera izquierda. Con esos hallazgos, se deriva y se instala el arnés de Pavlik de inmediato. Pedir otra imagen, o esperar, solo retrasa un tratamiento que funciona mejor mientras antes empiece."
     },
     {
       "file": "s08_g00",
-      "text": "El índice acetabular se forma trazando una línea oblicua desde el cartílago trirradiado a lo largo del techo cotiloideo hasta la línea horizontal."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niño diagnosticado de displasia de cadera a los seis meses, con una radiografía que muestra la cabeza femoral izquierda luxada."
     },
     {
       "file": "s08_g01",
-      "text": "A los tres meses de vida el valor normal debe ser menor o igual a treinta grados. Si sobrepasa los treinta grados se diagnostica displasia de cadera."
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s08_g02",
-      "text": "El arco de Shenton es una parábola continua que une el borde inferior del cuello del fémur con el margen superior del agujero obturatriz."
+      "text": "Las opciones: doble pañal, correas de Pavlik, yeso con fijador, osteotomía periacetabular, o reducción abierta con osteosíntesis."
     },
     {
       "file": "s08_g03",
-      "text": "Si la cabeza femoral está ascendida o fuera del cotilo, el arco de Shenton se interrumpe y se quiebra, demostrando subluxación articular."
+      "text": "Es la B, correas de Pavlik. A los seis meses todavía estás dentro de la ventana en la que el arnés funciona como primera línea. La cirugía y la osteotomía se reservan para cuando el arnés fracasa o el niño ya es mayor, y el doble pañal, ya lo vimos, no corrige nada."
     },
     {
       "file": "s09_g00",
-      "text": "Hilgenreiner conecta ambos cartílagos trirradiados de la pelvis sirviendo como línea basal horizontal."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil quince. Niño de tres meses, con una radiografía de pelvis que muestra displasia de cadera izquierda, con un índice acetabular de treinta y seis grados."
     },
     {
       "file": "s09_g01",
-      "text": "Perkin desciende verticalmente desde el margen cotiloideo externo dividiendo el cotilo en cuadrantes."
+      "text": "¿Cuál es la indicación más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "El núcleo de osificación femoral debe ubicarse ínfero-interno; si está súpero-externo hay luxación."
+      "text": "Las opciones: ejercicios de rotación y compresión, bota larga de yeso con yugo, yeso pelvipédico, doble pañal, o arnés de Pavlik."
     },
     {
       "file": "s09_g03",
-      "text": "El índice acetabular debe ser menor o igual a treinta grados; valores superiores definen displasia cotiloidea."
+      "text": "Es la E. Treinta y seis grados está claramente sobre el corte normal de treinta, así que hay displasia confirmada. A los tres meses, la respuesta es arnés de Pavlik. El yeso pelvipédico es para cuando el arnés no funciona o el niño es mayor, y esa es la trampa que quiere hacerte confundir edades y tratamientos."
     },
     {
       "file": "s10_g00",
-      "text": "Al confirmar una radiografía de pelvis alterada a los tres meses se activa la garantía GES número veintitrés, derivando de inmediato al paciente para ser evaluado por traumatología infantil."
+      "text": "Una tercera pregunta real, del EUNACOM de agosto de dos mil veintiuno. Niño de tres meses, con la radiografía de tamizaje para displasia de cadera: ángulo acetabular de veintiséis grados a la derecha, y veintiocho a la izquierda."
     },
     {
       "file": "s10_g01",
-      "text": "El traumatólogo instala las correas de Pavlik manteniendo las caderas en flexión de noventa grados y abducción suave, logrando que la cabeza femoral estimule la remodelación del cotilo con curación completa en más del noventa y cinco por ciento."
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: derivar a traumatología infantil, doble pañal, arnés de Pavlik, ecografía de cadera, o mantener los controles habituales."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la E. Y esta pregunta es el espejo de la anterior: aquí los dos ángulos están bajo treinta, así que la cadera es normal para esta edad. Derivar, poner un arnés o pedir otra imagen sería sobretratar a un niño sano. El ángulo normal es el que decide, no la sospecha por sí sola."
     },
     {
       "file": "s11_g00",
-      "text": "El arnés de Pavlik sostiene las caderas en la posición ideal de flexión y abducción moderada, permitiendo al lactante mover las piernas sin que la cabeza femoral se desplace fuera del acetábulo."
+      "text": "Y la última pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Lactante de dos meses, con lactancia materna exclusiva y buen aumento de peso, en quien el examen muestra Ortolani positivo y una abducción limitada de la cadera derecha, sin antecedentes familiares."
     },
     {
       "file": "s11_g01",
-      "text": "Debe vigilarse que la flexión no supere los ciento diez grados para no lesionar el nervio femoral, y evitar abducciones extremas que compriman los vasos circunflejos causando necrosis de la cabeza."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "El uso de doble pañal es una práctica tradicional completamente inútil que no posee rigidez mecánica para mantener la reducción ni corregir la displasia cotiloidea."
+      "text": "Las opciones: ecografía de caderas, resonancia magnética, doble pañal con control en un mes, esperar la radiografía de rutina de los tres meses, o cirugía."
     },
     {
       "file": "s11_g03",
-      "text": "Su indicación está formalmente prohibida porque genera una falsa sensación de tranquilidad que retrasa la consulta oportuna, cerrando la ventana terapéutica conservadora del lactante."
+      "text": "Es la A. Tiene solo dos meses y ya tiene un examen físico positivo, así que no esperas a la radiografía universal de los tres meses: ese examen es para el que no tiene hallazgos. Aquí ya hay una sospecha clínica clara, y bajo los tres meses el examen de elección es la ecografía de caderas, porque a esa edad la radiografía todavía no muestra el núcleo óseo."
     },
     {
       "file": "s12_g00",
-      "text": "Posterior al sexto mes las correas de Pavlik pierden eficacia debido al aumento de peso y a la potente fuerza muscular del lactante, aumentando el riesgo de fracaso del tratamiento."
+      "text": "Cerremos con las reglas de oro. Bajo los tres meses, el examen es Ortolani y Barlow: uno reduce, el otro luxa."
     },
     {
       "file": "s12_g01",
-      "text": "A esta edad el tratamiento requiere reducción cerrada bajo anestesia general en pabellón quirúrgico, a menudo con tenotomía de aductores e inmovilización con espica de yeso pelvipedio."
+      "text": "Sobre los tres meses, el signo más confiable es la abducción limitada, junto con el signo de Galeazzi."
     },
     {
       "file": "s12_g02",
-      "text": "En niños mayores que ya caminan con cojera se requiere cirugía mayor con reducción abierta, resección de tejidos interpuestos y osteotomías óseas del fémur y de la pelvis."
+      "text": "Bajo los tres meses, ecografía. A los tres meses, radiografía de pelvis a todo lactante, sea o no de riesgo."
     },
     {
       "file": "s12_g03",
-      "text": "El pronóstico funcional decae drásticamente cuando el diagnóstico se retrasa, justificando plenamente el tamizaje radiológico universal a los tres meses."
+      "text": "Y un índice acetabular sobre treinta confirma la displasia."
     },
     {
-      "file": "s13_g00",
-      "text": "Iniciamos el abordaje evaluando la articulación de las caderas en cada control de salud infantil según los meses de vida."
-    },
-    {
-      "file": "s13_g01",
-      "text": "En el menor de tres meses evaluamos si presenta Ortolani o Barlow positivo o factores de riesgo."
-    },
-    {
-      "file": "s13_g02",
-      "text": "Ante maniobras positivas o parto podálico solicitamos ecografía precoz y derivamos para instalación de correas de Pavlik."
-    },
-    {
-      "file": "s13_g03",
-      "text": "Si el examen es normal se mantiene el seguimiento habitual programando la radiografía de pelvis universal a los tres meses."
-    },
-    {
-      "file": "s13_g04",
-      "text": "A los tres meses analizamos la radiografía de pelvis midiendo el índice acetabular y los cuadrantes."
-    },
-    {
-      "file": "s13_g05",
-      "text": "Si el índice supera treinta grados confirmamos displasia y derivamos de inmediato para instalación del arnés de Pavlik."
-    },
-    {
-      "file": "s13_g06",
-      "text": "Si el índice es menor o igual a treinta grados y el núcleo es ínfero-interno se otorga el alta de tamizaje de cadera."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Lactante de dos meses en quien al realizar abducción de cadera flexionada con presión anterior se percibe un resalto clunk de reducción."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es el nombre de esta maniobra y su significado clínico?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A maniobra de Barlow. La B maniobra de Ortolani indicando reducción de una cadera previamente luxada. La C signo de Galeazzi. La D signo de Trendelenburg. La E maniobra de Adams. Recuerda qué maniobra reduce la cadera. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la B. La maniobra de Ortolani es abductora y reductora, reintroduciendo la cabeza femoral luxada con un resalto clunk palpable."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Radiografía de pelvis a los tres meses con índice acetabular de treinta y seis grados y núcleo en cuadrante súpero externo de Ombredanne."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es el tratamiento de primera línea de esta patología ortopédica?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A kinesioterapia motora. La B instalación de correas o arnés de Pavlik por traumatólogo infantil. La C osteotomía femoral urgente. La D doble pañal de tela. La E conducta expectante. Recuerda el tratamiento de elección en menores de seis meses. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. En menores de seis meses el tratamiento estándar de oro garantizado por el GES es la instalación del arnés de Pavlik."
-    },
-    {
-      "file": "s16_g00",
-      "text": "Recuerden siempre la regla de oro: la maniobra de Ortolani abduce y entra la cadera luxada, mientras que Barlow aduce y saca la cadera inestable."
-    },
-    {
-      "file": "s16_g01",
-      "text": "En mayores de tres meses busquen siempre la limitación de la abducción y el signo de Galeazzi, ya que Barlow y Ortolani se negativizan."
-    },
-    {
-      "file": "s16_g02",
-      "text": "Indiquen sin excepción la radiografía de pelvis a los tres meses garantizada por el GES, verificando que el índice acetabular no supere los treinta grados."
-    },
-    {
-      "file": "s16_g03",
-      "text": "Las correas de Pavlik son el estándar en menores de seis meses. Si te llevas una sola idea de hoy: en Chile la radiografía de pelvis a los tres meses es una garantía explícita universal que pesquisa a tiempo la displasia acetabular. Nos vemos en la próxima clase."
+      "file": "s12_g04",
+      "text": "Menor de seis meses, arnés de Pavlik, sin forzar la abducción. Si te llevas una sola idea de hoy: el examen cambia con la edad, y cuanto antes trates, menos cirugía necesita este niño. Con esto cerramos pediatría completa. Nos vemos en la próxima clase."
     }
   ]
 }

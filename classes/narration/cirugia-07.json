@@ -2,179 +2,195 @@
   "id": "cirugia-07",
   "title": "Cirugia 11.7: Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
   "specialty": "Cirugía General",
-  "chars": 9165,
+  "chars": 7640,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la séptima clase de cirugía general. Hoy abordamos la patología orificial benigna, un grupo de afecciones anorrectales extraordinariamente frecuentes en la práctica ambulatoria y en el EUNACOM. En esta sesión aprenderás a diferenciar con exactitud la fisura anal del sangrado hemorroidal indoloro, a indicar la trombectomía en la trombosis externa dentro de las primeras setenta y dos horas, y a recordar que todo absceso anorrectal se drena de inmediato sin esperar fluctuación. Comencemos."
+      "text": "Hoy vemos la patología orificial benigna: fisura anal, hemorroides y abscesos perianales. Es el motivo de consulta proctológico más frecuente, y se ordena fácil si te fijas en un solo dato: cómo es el dolor y cuándo aparece. Vamos a eso."
     },
     {
       "file": "s01_g00",
-      "text": "La semiología orificial es muy precisa. Si el paciente consulta por un dolor anal lacerante e insoportable que se inicia durante la defecación y persiste durante horas como una quemadura de cristales rotos, el diagnóstico es fisura anal en más del noventa por ciento de los casos. Ocurre predominantemente en la línea media posterior debido a una zona de hipoperfusión isquémica del anodermo."
+      "text": "Empecemos por la fisura anal. El paciente te describe un dolor lacerante, como un corte de vidrios, que empieza justo al defecar y se queda doliendo varias horas después."
     },
     {
       "file": "s01_g01",
-      "text": "Si el motivo de consulta es la emisión de sangre roja rutilante fresca que gotea en la taza al final de la deposición o mancha el papel higiénico, completamente indolora, estamos ante hemorroides internas. Al originarse por encima de la línea dentada, carecen de inervación somática dolorosa. Su tratamiento depende del grado de prolapso."
+      "text": "Y suele manchar poca sangre roja fresca, en el papel higiénico, no mezclada en la deposición."
     },
     {
       "file": "s01_g02",
-      "text": "Si el paciente presenta un nódulo anal violáceo, indurado y sumamente doloroso de inicio súbito tras un esfuerzo físico o pujo intenso, se trata de una trombosis hemorroidal externa. Al estar cubierta por anodermo ricamente inervado, duele intensamente. Si consulta en las primeras setenta y dos horas, la conducta de elección es la trombectomía bajo anestesia local."
+      "text": "Si separas los glúteos, mira la línea media posterior: ahí está más del noventa por ciento de las fisuras, porque es la zona que menos sangre recibe."
     },
     {
       "file": "s01_g03",
-      "text": "El dolor continuo, pulsátil, con masa perianal tumefacta, calor local y fiebre corresponde a un absceso anorrectal por infección de las criptas anales. La regla absoluta es drenarlo de inmediato sin esperar fluctuación. Tras el drenaje, entre un treinta y cincuenta por ciento evolucionará hacia una fístula anal crónica, cuyo trayecto se rige por la regla de Goodsall."
+      "text": "Si ya lleva semanas, vas a ver la tríada de Brodie: la úlcera con las fibras del esfínter a la vista, una papila hipertrófica arriba, y una hemorroide centinela abajo. Eso te dice que ya es una fisura crónica."
     },
     {
       "file": "s02_g00",
-      "text": "La fisura anal es un desgarro del epitelio escamoso por debajo de la línea dentada. El dolor espasmódico desencadena una hipertonía refleja del esfínter anal interno, lo que mantiene la isquemia e impide la cicatrización espontánea."
+      "text": "El mecanismo empieza con una deposición dura que desgarra el anodermo. Ese dolor genera hipertonía del esfínter anal interno, y esa hipertonía isquemiza la zona: entras en un círculo que se retroalimenta."
     },
     {
       "file": "s02_g01",
-      "text": "Cuando la fisura lleva más de seis a ocho semanas se considera crónica y desarrolla la tríada de Brodie: en el vértice proximal una papila anal hipertrófica; en el centro la úlcera con fibras blanquecinas circulares del esfínter interno visibles; y en el extremo distal un colgajo cutáneo o pliegue centinela."
+      "text": "Por eso el tratamiento de primera línea rompe justo ese círculo: fibra y agua para ablandar la deposición, baños de asiento tibios que relajan el esfínter, y diltiazem tópico, que también lo relaja. Con esto se cura la gran mayoría."
     },
     {
       "file": "s02_g02",
-      "text": "El tratamiento inicial es conservador con dieta rica en fibra, ingesta de dos litros diarios de agua y baños de asiento tibios durante diez a quince minutos tras defecar. El calor local relaja el esfínter anal interno y alivia el dolor."
+      "text": "Si después de seis a ocho semanas la fisura sigue sin cerrar, ya es crónica."
     },
     {
       "file": "s02_g03",
-      "text": "La esfinterotomía química tópica de primera línea es el gel o pomada de Diltiazem al dos por ciento aplicado en el margen anal cada doce horas por seis a ocho semanas. Produce vasodilatación y relajación del esfínter interno, logrando la curación en más del setenta a ochenta por ciento sin causar cefalea intensa como la nitroglicerina."
-    },
-    {
-      "file": "s02_g04",
-      "text": "Ante fracaso del tratamiento médico tras ocho semanas, el estándar quirúrgico es la esfinterotomía lateral interna. Consiste en la sección controlada del tercio inferior del esfínter interno, curando más del noventa y cinco por ciento de los casos con mínimo riesgo de incontinencia a gases."
+      "text": "Y ahí sí pasas a cirugía: la esfinterotomía lateral interna, que es el estándar para la fisura crónica que no responde al tratamiento médico."
     },
     {
       "file": "s03_g00",
-      "text": "Las hemorroides Grado uno sangran pero no descienden a través del orificio anal. Se manejan con medidas higiénico-dietéticas, abundante fibra y laxantes formadores de volumen para evitar el esfuerzo evacuatorio."
+      "text": "Las hemorroides internas están sobre la línea dentada, cubiertas por mucosa sin sensibilidad al dolor. Por eso dan sangrado rojo, rutilante, al final de la deposición, sin que duela nada."
     },
     {
       "file": "s03_g01",
-      "text": "Las hemorroides Grado dos prolapsan con la evacuación pero regresan solas al canal anal. El procedimiento ambulatorio de elección es la ligadura con bandas elásticas en la consulta, que estrangula la mucosa redundante por encima de la línea dentada sin dolor."
+      "text": "Se clasifican en cuatro grados según cuánto prolapsan. Grado uno y dos se manejan con dieta y bandas elásticas; grado tres y cuatro necesitan hemorroidectomía."
     },
     {
       "file": "s03_g02",
-      "text": "En el Grado tres el paciente debe reintroducir manualmente el paquete hemorroidal; en el Grado cuatro el prolapso es crónico e irreductible. Ambos grados tienen indicación quirúrgica formal mediante hemorroidectomía resectiva excisional, como las técnicas de Milligan y Morgan o Ferguson."
+      "text": "Las externas están bajo la línea dentada, cubiertas de piel con harta sensibilidad. Cuando se trombosan, aparece de golpe un nódulo violáceo, tenso y muy doloroso, sin relación directa con la defecación."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si el paciente consulta antes de setenta y dos horas, la trombectomía bajo anestesia local le quita el dolor de inmediato. Si ya pasó ese plazo, el coágulo se está reabsorbiendo solo, y ahí basta con calor local y analgesia."
     },
     {
       "file": "s04_g00",
-      "text": "Iniciamos el enfrentamiento semiológico inspeccionando suavemente el margen anal y separando los glúteos."
+      "text": "El absceso y la fístula parten del mismo lugar: se tapa e infecta una glándula que desemboca en las criptas de Morgagni."
     },
     {
       "file": "s04_g01",
-      "text": "Constatada la fisura anal, clasificamos entre aguda o crónica y definimos el escalonamiento terapéutico."
+      "text": "En fase aguda, eso es el absceso perianal: dolor pulsátil, continuo, que no se relaciona solo con defecar, y que va empeorando hora a hora. No confundas ese dolor continuo con el dolor de la fisura, que es solo al defecar."
     },
     {
       "file": "s04_g02",
-      "text": "Iniciamos tratamiento médico de primera línea con diltiazem tópico al dos por ciento y baños de asiento tibios."
+      "text": "Y aquí está la regla que más se pregunta de todo el tema: todo absceso perianal se drena quirúrgicamente de inmediato. No esperas a que fluctúe, y no lo tratas solo con antibióticos, porque puede extenderse y terminar en una gangrena de Fournier."
     },
     {
       "file": "s04_g03",
-      "text": "Se logra la cicatrización completa y se mantienen medidas de heces blandas."
+      "text": "En treinta a cincuenta por ciento de los casos, después del drenaje queda una fístula: un trayecto que sigue comunicando la cripta con la piel."
     },
     {
       "file": "s04_g04",
-      "text": "Ante fracaso médico en fisura crónica refractaria indicamos esfinterotomía lateral interna."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Evaluamos el grado de prolapso de las hemorroides internas para seleccionar la intervención adecuada."
-    },
-    {
-      "file": "s04_g06",
-      "text": "En hemorroides Grado uno y dos indicamos dieta rica en fibra y ligadura con bandas elásticas."
-    },
-    {
-      "file": "s04_g07",
-      "text": "En prolapso Grado tres o cuatro indicamos hemorroidectomía quirúrgica formal."
-    },
-    {
-      "file": "s04_g08",
-      "text": "En trombosis hemorroidal externa evaluamos la ventana temporal de setenta y dos horas."
-    },
-    {
-      "file": "s04_g09",
-      "text": "Si consulta antes de setenta y dos horas realizamos trombectomía bajo anestesia local con alivio inmediato."
-    },
-    {
-      "file": "s04_g10",
-      "text": "Tras tres días el coágulo ya se organiza y se indica manejo médico conservador expectante."
-    },
-    {
-      "file": "s04_g11",
-      "text": "Ante un absceso perianal está indicado el drenaje de urgencia inmediato sin esperar fluctuación."
-    },
-    {
-      "file": "s04_g12",
-      "text": "Realizamos incisión y drenaje quirúrgico amplio de urgencia para evacuar el pus."
+      "text": "Para saber por dónde va ese trayecto sin operar a ciegas, usas la regla de Goodsall: si el orificio externo está adelante, el trayecto es recto hacia la cripta más cercana; si está atrás, el trayecto es curvo hacia la línea media posterior."
     },
     {
       "file": "s05_g00",
-      "text": "La trombosis hemorroidal externa se produce por la coagulación de la sangre en el plexo subcutáneo externo. Si el paciente consulta dentro de las primeras setenta y dos horas, la conducta es realizar trombectomía bajo anestesia local, lo que alivia el dolor en forma inmediata."
+      "text": "Ahora ordenemos los cuatro cuadros en un solo árbol de decisión. Un paciente llega con una molestia anal. Antes de examinar, pregúntale cómo es el dolor y cuándo aparece: esa sola respuesta ya te ordena el diagnóstico."
     },
     {
       "file": "s05_g01",
-      "text": "Si el paciente consulta después de tres días, el dolor espontáneo ya comenzó a disminuir y el trombo se encuentra en fase de reabsorción y fibrosis; la cirugía ya no aporta beneficio y se indica manejo médico conservador con analgesia y baños de asiento tibios."
+      "text": "Separa el cuadro según lo que más molesta al paciente."
     },
     {
       "file": "s05_g02",
-      "text": "Un principio categórico del EUNACOM: todo absceso perianal o isquiorrectal tiene indicación de drenaje quirúrgico de urgencia inmediato. No se debe esperar a que fluctúe ni tratar exclusivamente con antibióticos, ya que la demora propaga la infección hacia las fosas isquiorrectales y eleva el riesgo de fascitis necrotizante de Fournier."
+      "text": "Dolor que corta al defecar y sigue doliendo después, con poca sangre: fisura anal. Tratamiento médico en más del ochenta por ciento de los casos."
     },
     {
       "file": "s05_g03",
-      "text": "Si el orificio fistuloso externo se ubica por delante de una línea transversal imaginaria que cruza el ano, el trayecto es recto y radial hacia la cripta correspondiente. Si el orificio externo se ubica por detrás de la línea, el trayecto es curvo y converge en la línea media posterior."
+      "text": "Sangre roja al final de la deposición, sin dolor: hemorroide interna. El grado, según cuánto prolapsa, decide entre manejo médico o hemorroidectomía."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Dolor súbito con un nódulo azulado bajo la piel: trombosis hemorroidal externa."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Antes de setenta y dos horas, drenar el coágulo quita el dolor en el momento."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Pasadas las setenta y dos horas, el trombo se reabsorbe solo: basta con calor local y analgesia."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Dolor continuo que no cede, con masa indurada y eritematosa: absceso perianal. Se drena de inmediato, sin esperar fluctuación ni tratar solo con antibióticos."
     },
     {
       "file": "s06_g00",
-      "text": "Revisemos esta pregunta real de julio de dos mil veinticinco. Un paciente de cincuenta y dos años consulta a las seis horas de evolución por un nódulo hemorroidal externo trombosado, violáceo y muy doloroso."
+      "text": "Repasemos en la tabla. Fisura anal, dolor lacerante al defecar: fibra, baños de asiento y diltiazem tópico."
     },
     {
       "file": "s06_g01",
-      "text": "Nos consultan por el manejo más adecuado."
+      "text": "Hemorroide interna, sangrado indoloro: grado uno y dos manejo médico, grado tres y cuatro hemorroidectomía."
     },
     {
       "file": "s06_g02",
-      "text": "Las alternativas son: opción A, hemorroidectomía de urgencia; opción B, trombectomía hemorroidal bajo anestesia local; opción C, ligadura con banda elástica; opción D, manejo médico conservador; y opción E, escleroterapia. Piénsalo."
+      "text": "Trombosis hemorroidal, dolor brusco con nódulo violáceo: trombectomía si consulta antes de setenta y dos horas."
     },
     {
       "file": "s06_g03",
-      "text": "La respuesta correcta es la opción B, trombectomía hemorroidal bajo anestesia local. En las primeras setenta y dos horas desde el inicio de los síntomas, la escisión elíptica o enucleación del coágulo bajo anestesia local proporciona un alivio sintomático inmediato y definitivo."
+      "text": "Absceso perianal, dolor pulsátil continuo: drenaje quirúrgico inmediato, nunca solo antibióticos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y fístula anorrectal, con supuración crónica: fistulotomía o sedal, según lo que prediga la regla de Goodsall."
     },
     {
       "file": "s07_g00",
-      "text": "Analicemos este caso representativo de fisura anal crónica con pliegue centinela en la línea media posterior y dolor lancinante con la defecación."
+      "text": "Vamos con un caso. Mujer de treinta y ocho años, con dos días de dolor perianal continuo y pulsátil, que le impide sentarse, con algo de fiebre. Al examen, en el cuadrante posterolateral izquierdo hay una masa de tres centímetros, eritematosa, indurada, caliente y muy dolorosa, sin fluctuación clara todavía."
     },
     {
       "file": "s07_g01",
-      "text": "Se pregunta cuál es el tratamiento médico de primera línea más adecuado."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones son: opción A, esfinterotomía lateral interna; opción B, corticoides tópicos por tres meses; opción C, dieta rica en fibra, agua, baños de asiento tibios y diltiazem al dos por ciento tópico; opción D, nitrato de plata; y opción E, antibióticos orales. Piénsalo."
+      "text": "Tienes cinco opciones: antibióticos orales y control en cinco días, drenaje quirúrgico sin esperar más, antiinflamatorios y baños de asiento, ecografía transrectal antes de decidir, o punción con aguja fina. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "La respuesta correcta es la opción C. El manejo de primera línea de la fisura anal es siempre médico conservador: regularizar el tránsito con fibra y agua, baños de asiento tibios para relajar el esfínter y bloqueadores de canales de calcio tópicos como diltiazem al dos por ciento durante seis a ocho semanas. La cirugía se reserva para casos crónicos refractarios."
+      "text": "Es la B. El dolor pulsátil y continuo, que no se relaciona solo con la defecación, junto con la masa indurada y eritematosa, es un absceso perianal, aunque todavía no fluctúe. Esperar a que fluctúe o tratarlo solo con antibióticos es justo el error que el examen quiere que cometas: eso deja el foco sin controlar y puede extenderse hacia planos más profundos."
     },
     {
       "file": "s08_g00",
-      "text": "Primera regla: el dolor lacerante defecatorio con quemadura prolongada define la fisura anal; el sangrado rojo rutilante indoloro en gotas que mancha el agua del inodoro corresponde a hemorroides internas."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de cincuenta y dos años, con hemorroides externas trombosadas desde hace seis horas, violáceas, protruidas, irreducibles y muy dolorosas."
     },
     {
       "file": "s08_g01",
-      "text": "Segunda regla: el diltiazem al dos por ciento relaja el esfínter anal interno y cura la fisura sin provocar la cefalea severa de los nitratos; la esfinterotomía lateral interna se reserva para casos refractarios."
+      "text": "¿Cuál es el manejo más adecuado?"
     },
     {
       "file": "s08_g02",
-      "text": "Tercera regla: si el paciente con trombosis hemorroidal externa consulta antes de tres días, se realiza trombectomía bajo anestesia local; tras setenta y dos horas el manejo es médico conservador."
+      "text": "Las opciones son: hemorroidectomía de urgencia, trombectomía bajo anestesia local, ligadura con banda elástica, manejo conservador con analgesia y baños de asiento, o escleroterapia. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Cuarta regla: el absceso anorrectal es una urgencia quirúrgica que requiere incisión y drenaje inmediato; esperar fluctuación o confiar exclusivamente en antibióticos es una mala práctica."
+      "text": "Es la B. Seis horas de evolución están bien dentro de la ventana de setenta y dos horas, así que todavía te conviene drenar el coágulo: la trombectomía bajo anestesia local alivia el dolor de inmediato. La hemorroidectomía es una cirugía mayor que no se justifica aquí, y el manejo conservador es para cuando ya pasaron las setenta y dos horas."
     },
     {
-      "file": "s08_g04",
-      "text": "Si te llevas una sola idea de hoy: en fístulas anales los orificios anteriores a la línea transversa tienen trayecto radial recto, y los posteriores tienen trayecto curvo hacia la línea media posterior. Nos vemos en la próxima clase."
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecisiete. Paciente de cincuenta y cuatro años, con dolor anal que aparece al defecar y sigue doliendo algunos minutos después, con sangre en las deposiciones en algunas ocasiones."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: hemorroide externo trombosado, cáncer de recto, fisura anal, fístula anal, o absceso perianal. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, fisura anal. La clave es la relación exacta con la defecación: duele al defecar y sigue doliendo un rato después, que es justo el patrón de la fisura. El absceso duele continuo, sin ese vínculo tan marcado con ir al baño, y aquí no hay ningún dato que apunte a cáncer."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Dolor que empieza al defecar y sigue doliendo después: fisura anal."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Sangrado rojo sin dolor: hemorroide interna."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Y dolor pulsátil y continuo, que no cede: absceso perianal, y ahí no esperas, drenas ya."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y en tratamiento, la fisura parte con diltiazem tópico, y la trombosis se drena si consulta antes de setenta y dos horas. Si te llevas una sola idea de hoy: fíjate en cómo es el dolor y cuándo aparece, y con eso resuelves casi todo este tema. Nos vemos en la próxima clase."
     }
   ]
 }

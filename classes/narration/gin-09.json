@@ -2,291 +2,255 @@
   "id": "gin-09",
   "title": "Ginecologia 20.9: Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
   "specialty": "Ginecología",
-  "chars": 12401,
+  "chars": 9204,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase sobre infecciones del tracto genital inferior, uno de los temas con mayor número de preguntas en el examen EUNACOM. En esta sesión dominaremos la diferenciación clínica y de laboratorio entre vaginosis bacteriana, candidiasis vulvovaginal y tricomoniasis, grabaremos cuándo es obligatorio tratar a la pareja sexual, y fijaremos el esquema empírico combinado de ceftriaxona y doxiciclina en cervicitis mucopurulenta. Comencemos."
+      "text": "Bienvenida. Hoy vemos las infecciones más frecuentes de la vagina y el cuello uterino: vaginosis bacteriana, candidiasis, tricomoniasis y cervicitis. Los cuatro cuadros dan flujo vaginal, así que se parecen mucho al principio. Pero se separan con tres datos muy simples: el pH, el test de aminas y lo que ves al microscopio. Aprende esa regla y vas a resolver casi cualquier pregunta de este tema."
     },
     {
       "file": "s01_g00",
-      "text": "El epitelio vaginal fisiológico en edad fértil se encuentra colonizado de forma preponderante por colonias protectoras de lactobacilos acidófilos que fermentan activamente el glucógeno celular y producen ácido láctico y peróxido de hidrógeno, manteniendo un pH marcadamente ácido inferior a cuatro coma cinco. Factores disruptores como antibióticos sistémicos, el coito sin condón o las duchas vaginales barren esta flora protectora."
+      "text": "Partamos por el mecanismo, porque cambia según la causa. En la vaginosis bacteriana no hay una bacteria invasora: lo que pasa es que los lactobacilos, que mantienen la vagina ácida y protegida, disminuyen, y en su lugar crecen la Gardnerella y otros anaerobios."
     },
     {
       "file": "s01_g01",
-      "text": "Al caer la defensa ácida proliferan patógenos oportunistas: anaerobios en la vaginosis bacteriana, hongos del género cándida en estados de hiperglucemia o inmunosupresión, y protozoos transmitidos por contacto sexual como tricomonas, originando flujos característicos y síntomas inflamatorios."
+      "text": "Por eso la vaginosis no duele ni pica: es un desequilibrio de la flora, no una inflamación. El flujo es gris, homogéneo, y con un olor característico a pescado."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La candidiasis es distinta: aquí sí hay un hongo, la Candida albicans, que aprovecha un ambiente favorable. Antibióticos recientes, embarazo o una diabetes mal controlada son los gatillantes típicos."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y ahora sí hay inflamación: prurito intenso, que es el síntoma que manda en este cuadro."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y la tricomoniasis cambia otra vez de familia: es un protozoo flagelado, la Trichomona vaginalis, y se transmite por contacto sexual."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Justamente por ser una infección de transmisión sexual, aquí vas a tener que tratar también a la pareja. Guarda esa diferencia, porque es la que más se pregunta."
     },
     {
       "file": "s02_g00",
-      "text": "La vaginosis bacteriana no es una infección invasora inflamatoria sino una disbiosis ecológica compleja donde los lactobacilos son sustituidos por una densa biopelícula polimicrobiana de bacterias anaerobias."
+      "text": "Para confirmar la vaginosis usas los criterios de Amsel, y necesitas al menos tres de cuatro. El primero: un flujo gris, fino, que baña toda la vagina por igual."
     },
     {
       "file": "s02_g01",
-      "text": "A diferencia de otras infecciones genitales, en la vaginosis bacteriana no se observan leucocitos abundantes en el microscopio ni se aprecia eritema vulvar importante, predominando el mal olor."
+      "text": "El segundo, un pH sobre cuatro coma cinco. El tercero, el test de aminas positivo: le agregas hidróxido de potasio a la muestra y sale ese olor a pescado."
     },
     {
       "file": "s02_g02",
-      "text": "En el embarazo la vaginosis bacteriana no tratada incrementa sustancialmente el peligro de aborto espontáneo del segundo trimestre, rotura de membranas pretérmino e infección intraamniótica."
+      "text": "Y el cuarto, al mirar al microscopio, encuentras las clue cells: células cubiertas de bacterias, con el borde borrado, en más del veinte por ciento."
     },
     {
       "file": "s02_g03",
-      "text": "Asimismo, la pérdida de la acidez protectora facilita la colonización ascendente post-procedimientos ginecológicos y duplica el riesgo de adquirir el virus de inmunodeficiencia humana."
+      "text": "El tratamiento es metronidazol oral, quinientos miligramos cada doce horas, por siete días."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y fíjate en algo importante: no tienes que tratar a la pareja. Se ha demostrado que no cambia las recurrencias. Esa es justamente la diferencia con lo que viene ahora."
     },
     {
       "file": "s03_g00",
-      "text": "El primer criterio es la presencia de un flujo vaginal homogéneo, fino, blanco grisáceo, que recubre las paredes vaginales sin formar grumos adherentes."
+      "text": "En la candidiasis, lo que manda es el prurito vulvar, intenso y persistente."
     },
     {
       "file": "s03_g01",
-      "text": "El segundo criterio es un pH vaginal elevado superior a cuatro coma cinco al contacto con papel tornasol, secundario al déficit de ácido láctico protector."
+      "text": "El flujo se describe como leche cortada: blanco, espeso, en grumos, adherido a la pared vaginal."
     },
     {
       "file": "s03_g02",
-      "text": "El tercer criterio es la prueba de aminas positiva: al mezclar el flujo con hidróxido de potasio al diez por ciento se volatilizan putrescina y cadaverina generando un penetrante olor a pescado."
+      "text": "Y aquí está el dato que la separa de las otras dos: el pH sigue normal, bajo cuatro coma cinco, y el test de aminas es negativo. Es el único cuadro de los tres que no altera el pH."
     },
     {
       "file": "s03_g03",
-      "text": "El cuarto criterio es el hallazgo microscópico de células clave o clue cells en más del veinte por ciento de los campos, constituidas por células escamosas con bordes difuminados por bacterias."
+      "text": "El tratamiento es fluconazol, ciento cincuenta miligramos, en una sola dosis oral."
     },
     {
       "file": "s03_g04",
-      "text": "El tratamiento de primera línea respaldado por el Ministerio de Salud es metronidazol quinientos miligramos por vía oral cada doce horas durante siete días continuos."
-    },
-    {
-      "file": "s03_g05",
-      "text": "Graben esta regla de oro: la vaginosis bacteriana no requiere tratamiento empírico de la pareja sexual masculina de rutina, a diferencia absoluta de lo que ocurre con la tricomoniasis."
+      "text": "Pero ojo con la embarazada: ahí el fluconazol oral se evita, y usas clotrimazol tópico. Guarda ese dato, porque el examen lo pregunta seguido."
     },
     {
       "file": "s04_g00",
-      "text": "La candidiasis suele desencadenarse tras el uso de antibióticos como amoxicilina que eliminan las bacterias competidoras, en estados de hiperglucemia diabética, en el embarazo o ante corticoides."
+      "text": "En la tricomoniasis, el flujo es abundante, espumoso, de color amarillo verdoso, y con mal olor."
     },
     {
       "file": "s04_g01",
-      "text": "Candida albicans causa nueve de cada diez episodios y responde de forma excelente a azólicos comunes; las cepas no albicans causan cuadros recurrentes más rebeldes al manejo."
+      "text": "Y al mirar el cuello uterino puedes ver el signo del cuello en fresa: pequeñas petequias rojas sobre la mucosa."
     },
     {
       "file": "s04_g02",
-      "text": "El síntoma cardinal es un prurito vulvar desesperante acompañado de ardor miccional, disuria externa, marcado edema en labios menores y excoriaciones por rascado."
+      "text": "El tratamiento es metronidazol, dos gramos, en una sola dosis."
     },
     {
       "file": "s04_g03",
-      "text": "El flujo es blanco, espeso, grumoso como leche cortada o requesón, intensamente adherido a la mucosa. Su rasgo clave de laboratorio es que mantiene un pH ácido normal menor a cuatro coma cinco."
+      "text": "Y a diferencia de la vaginosis, aquí tratas siempre a la pareja, de forma simultánea, porque es una infección de transmisión sexual y si no la vuelves a contagiar de inmediato."
     },
     {
       "file": "s05_g00",
-      "text": "En mujeres no gestantes el tratamiento de elección por su comodidad y eficacia es el fluconazol oral en dosis única de ciento cincuenta miligramos, con resolución rápida de los síntomas."
+      "text": "Cambiemos de nivel. En la cervicitis, la secreción purulenta sale del cuello uterino, no de las paredes vaginales."
     },
     {
       "file": "s05_g01",
-      "text": "Como alternativa tópica se pueden utilizar óvulos vaginales de clotrimazol de quinientos miligramos en dosis única o de cien miligramos durante seis noches consecutivas."
+      "text": "Y el cuello está friable: sangra apenas lo tocas con la tórula al examinarlo."
     },
     {
       "file": "s05_g02",
-      "text": "En la mujer embarazada está formalmente contraindicado el fluconazol oral por potencial teratogénico. El tratamiento mandatorio es exclusivamente tópico con clotrimazol vaginal durante siete noches."
+      "text": "El tratamiento cubre los dos agentes de siempre. Ceftriaxona, quinientos miligramos intramuscular, en una sola dosis, para el gonococo."
     },
     {
       "file": "s05_g03",
-      "text": "La pareja sexual masculina asintomática no requiere tratamiento. Solo se prescribe crema tópica de clotrimazol en el varón si presenta signos inflamatorios evidentes de balanitis candidiásica."
+      "text": "Y doxiciclina, cien miligramos cada doce horas, por siete días, para la Chlamydia. Casi siempre van juntas, así que tratas las dos aunque solo confirmes una."
     },
     {
       "file": "s06_g00",
-      "text": "Trichomonas vaginalis es un protozoo flagelado móvil que coloniza el epitelio escamoso del tracto genital y se transmite de forma prácticamente exclusiva por contacto sexual coital."
+      "text": "Juntemos las cuatro entidades en un solo árbol de decisión. Partamos de la sospecha. Lo primero que necesitas es el pH y el test de aminas."
     },
     {
       "file": "s06_g01",
-      "text": "En el varón la infección suele cursar de manera asintomática o como una uretritis subclínica leve, actuando como un reservorio silencioso que reinfecta continuamente a su pareja."
+      "text": "La pregunta que ordena todo: ¿el pH está normal, o está alto?"
     },
     {
       "file": "s06_g02",
-      "text": "La paciente consulta por un flujo genital profuso, amarillo verdoso, de consistencia espumosa con burbujas de gas y muy maloliente, asociado a prurito vulvar y sensación de quemazón."
+      "text": "Con pH normal y prurito intenso, es candidiasis. Fluconazol en dosis única, o clotrimazol tópico si está embarazada."
     },
     {
       "file": "s06_g03",
-      "text": "A la especuloscopía destaca la colpitis macular o cuello en fresa, constituido por múltiples petequias eritematosas punctiformes sobre la superficie del cuello uterino y cúpula vaginal."
+      "text": "Con el pH alto, la microscopía decide entre las dos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si ves clue cells, es vaginosis bacteriana. Metronidazol oral por siete días, y no necesitas tratar a la pareja."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si ves un protozoo flagelado moviéndose, es tricomoniasis. Metronidazol en dosis única, y esta vez sí, a la paciente y a su pareja."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Y si la secreción purulenta sale del cuello uterino y no de las paredes vaginales, es cervicitis: ceftriaxona más doxiciclina, cubriendo gonococo y Chlamydia juntos."
     },
     {
       "file": "s07_g00",
-      "text": "En el examen directo en fresco con suero fisiológico se aprecian trofozoítos flagelados ovoides que se mueven activamente entre numerosos leucocitos polimorfonucleares."
+      "text": "Repasemos las trampas. Flujo gris sin dolor y pH alto: metronidazol solo a la paciente. El error es tratar a la pareja sin necesidad."
     },
     {
       "file": "s07_g01",
-      "text": "El pH vaginal es marcadamente alcalino, casi siempre superior a cinco coma cinco, y la prueba de aminas con hidróxido de potasio suele resultar positiva por descomposición de proteínas."
+      "text": "Prurito con flujo en leche cortada y pH normal: fluconazol. El error es pensar que todo flujo anormal tiene el pH alto."
     },
     {
       "file": "s07_g02",
-      "text": "El tratamiento de elección consiste en metronidazol por vía oral, ya sea en monodosis de dos gramos o en pauta fraccionada de quinientos miligramos cada doce horas durante siete días."
+      "text": "Flujo espumoso con cuello en fresa: metronidazol a los dos, porque es una ITS. El error clásico es olvidar a la pareja."
     },
     {
       "file": "s07_g03",
-      "text": "Es terminantemente obligatorio tratar a todas las parejas sexuales recientes simultáneamente e indicar abstinencia sexual hasta completar la terapia para erradicar el reservorio y evitar reinfecciones."
+      "text": "Secreción purulenta que sale del cuello: ceftriaxona más doxiciclina. El metronidazol no cubre ni gonococo ni Chlamydia."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y candidiasis en el embarazo: siempre tópico. El fluconazol oral se evita en la gestante."
     },
     {
       "file": "s08_g00",
-      "text": "La cervicitis aguda es una infección del epitelio cilíndrico del canal endocervical producida predominantemente por Chlamydia trachomatis y Neisseria gonorrhoeae, con frecuente coinfección."
+      "text": "Vamos al caso. Mujer de veinticuatro años, embarazada de doce semanas, con prurito vulvar intenso de una semana, y flujo blanco, espeso, en grumos, adherido a la pared vaginal. El pH vaginal es de cuatro, y el test de aminas es negativo."
     },
     {
       "file": "s08_g01",
-      "text": "A la especuloscopía se aprecia exudado mucopurulento amarillento espeso fluyendo desde el orificio cervical externo y una marcada friabilidad del cuello que sangra al mínimo contacto de la tórula."
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s08_g02",
-      "text": "La clave clínica para distinguir la cervicitis de una enfermedad pélvica inflamatoria es que la paciente no presenta dolor a la movilización cervical ni sensibilidad en los fondos de saco anexiales."
+      "text": "Tienes cinco opciones: fluconazol oral en dosis única, clotrimazol en óvulos por siete días, metronidazol oral por siete días, metronidazol en dosis única para ella y su pareja, o ceftriaxona intramuscular. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "La mujer con cervicitis pura se encuentra afebril y en buenas condiciones generales, requiriendo tratamiento inmediato para impedir la progresión bacteriana ascendente hacia el endometrio y trompas."
+      "text": "Es la B. El cuadro es una candidiasis clásica: prurito, leche cortada, y un pH que no sube. La trampa está en el embarazo: el fluconazol oral, que sería tu primera opción fuera del embarazo, aquí se evita, y usas clotrimazol tópico. El metronidazol es para vaginosis o tricomoniasis, y la ceftriaxona, para cervicitis."
     },
     {
       "file": "s09_g00",
-      "text": "Para erradicar Neisseria gonorrhoeae la pauta actual del Ministerio de Salud indica ceftriaxona quinientos miligramos por vía intramuscular profunda en dosis única."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de veintiocho años con dispareunia y flujo vaginal gris homogéneo, con mal olor que empeora después de las relaciones. El pH vaginal es de cinco coma cinco, y el test de aminas con KOH resulta positivo."
     },
     {
       "file": "s09_g01",
-      "text": "Para cubrir Chlamydia trachomatis se asocia de forma estricta doxiciclina cien miligramos cada doce horas por vía oral durante siete días completos."
+      "text": "¿Cuál es el diagnóstico y tratamiento más adecuado?"
     },
     {
       "file": "s09_g02",
-      "text": "En pacientes embarazadas las tetraciclinas están prohibidas por toxicidad ósea y dental fetal; en este grupo reemplazamos la doxiciclina por azitromicina un gramo oral en dosis única."
+      "text": "Las opciones: vaginosis bacteriana con metronidazol oral, candidiasis con fluconazol, tricomoniasis con metronidazol en dosis única, herpes genital con aciclovir, o cervicitis por Chlamydia con azitromicina. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Toda cervicitis obliga a convocar y tratar a la pareja sexual para cortar la cadena de transmisión y exige solicitar serología de tamizaje para sífilis, virus de hepatitis B y virus de inmunodeficiencia."
+      "text": "Es la A. Flujo gris homogéneo, pH sobre cuatro coma cinco y aminas positivas: son tres de los criterios de Amsel, y con eso ya tienes vaginosis bacteriana. El tratamiento es metronidazol oral por siete días, sin necesidad de tratar a la pareja."
     },
     {
       "file": "s10_g00",
-      "text": "La vaginosis tiene flujo fino grisáceo, olor a pescado, células clave, pH elevado y se trata con metronidazol sin necesidad de medicar al cónyuge."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintiséis años, sin antecedentes, con secreción vaginal y prurito. Al examen se ven marcas de rascado en la vulva, y en la especuloscopía, una leucorrea blanquecina."
     },
     {
       "file": "s10_g01",
-      "text": "La candidiasis se distingue por prurito desesperante, flujo en requesón, pH ácido normal y se trata con fluconazol oral o clotrimazol tópico."
+      "text": "¿Cuál es el fármaco de elección para el manejo de este caso?"
     },
     {
       "file": "s10_g02",
-      "text": "La tricomoniasis cursa con flujo espumoso verdoso, colpitis petequial y exige tratar al protozoo flagelado y medicar obligatoriamente a la pareja."
+      "text": "Las opciones: metronidazol, fluconazol, miconazol, doxiciclina, o ceftriaxona. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La cervicitis purulenta sangra al roce y requiere la combinación de ceftriaxona intramuscular para gonococo y doxiciclina oral para clamidia."
+      "text": "Es la B, fluconazol. El prurito intenso con las marcas de rascado te tiene que hacer pensar de inmediato en candidiasis. Y aunque el miconazol también es un antifúngico, la vía oral en dosis única con fluconazol es la respuesta que el examen busca como fármaco de elección."
     },
     {
       "file": "s11_g00",
-      "text": "Iniciamos la evaluación mediante especuloscopía directa, medición de pH y prueba de aminas."
+      "text": "Una pregunta real más, del EUNACOM de julio de dos mil diecisiete. Mujer de treinta años con leucorrea y prurito. A la especuloscopía, un flujo abundante, amarillo y espumoso."
     },
     {
       "file": "s11_g01",
-      "text": "Si observamos secreción purulenta endocervical y cuello friable diagnosticamos cervicitis aguda."
+      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
     },
     {
       "file": "s11_g02",
-      "text": "Indicamos ceftriaxona intramuscular para gonococo más doxiciclina oral por siete días para clamidia."
+      "text": "Las opciones: prueba de aminas, cultivo para Cándida, células clave, frotis fresco de la secreción, o PCR para Chlamydia. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "En embarazadas sustituimos la doxiciclina por azitromicina oral en dosis única."
-    },
-    {
-      "file": "s11_g04",
-      "text": "Evaluamos el pH vaginal para orientar la etiología infecciosa o disbiosis."
-    },
-    {
-      "file": "s11_g05",
-      "text": "Ante prurito intenso con pH ácido menor a cuatro coma cinco diagnosticamos candidiasis y damos fluconazol."
-    },
-    {
-      "file": "s11_g06",
-      "text": "Si el pH está elevado con células clave indicamos metronidazol oral por siete días sin tratar a la pareja."
-    },
-    {
-      "file": "s11_g07",
-      "text": "Con flujo espumoso verdoso y protozoos móviles tratamos con metronidazol y medicamos obligatoriamente a la pareja."
+      "text": "Es la D, frotis fresco. El flujo amarillo y espumoso es tricomoniasis, y ahí el examen que la confirma en el momento es mirar la muestra fresca al microscopio: vas a ver al protozoo moviéndose. Las clue cells son para vaginosis, y las aminas apoyan pero no confirman por sí solas."
     },
     {
       "file": "s12_g00",
-      "text": "Mujer de veintiséis años con leucorrea blanco grisácea fina con mal olor postcoital, pH de cinco coma dos, aminas positivas y más de treinta por ciento de células clave en frotis."
+      "text": "Y la última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, alérgica a la penicilina, con disuria y molestias genitales de cuatro días, con leucorrea. El cultivo de Thayer Martin sale positivo, y la prueba de aminas, negativa."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento de elección indicado por las guías clínicas para resolver este cuadro?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s12_g02",
-      "text": "La opción A propone fluconazol a la pareja. La B metronidazol quinientos miligramos cada doce horas oral por siete días a la paciente. La C ceftriaxona intramuscular. La D nistatina tópica. La E doxiciclina. Piénsalo."
+      "text": "Las opciones: ciprofloxacino, ceftriaxona, azitromicina, doxiciclina, o penicilina benzatina. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta correcta es la B. La paciente cumple los criterios de Amsel para vaginosis bacteriana y se trata con metronidazol oral por siete días sin requerir tratar a la pareja."
+      "text": "Es la B, ceftriaxona. El cultivo positivo confirma gonococo, y la ceftriaxona sigue siendo de elección aunque la paciente sea alérgica a la penicilina, porque son familias distintas de antibiótico. Ojo: en la práctica también cubrirías Chlamydia con doxiciclina, pero esta pregunta apunta específicamente al tratamiento del gonococo."
     },
     {
       "file": "s13_g00",
-      "text": "Mujer de veintinueve años que tras tomar amoxicilina presenta prurito vulvar severo, eritema con excoriaciones, flujo grumoso en leche cortada y pH ácido normal de cuatro coma cero."
+      "text": "Cerremos con las reglas de oro. Si el pH es normal, piensa en candidiasis: es el único cuadro que no lo altera."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico clínico más probable frente a estos hallazgos?"
+      "text": "Si el pH está alto y las aminas son positivas, es vaginosis o tricomoniasis, y ahí la microscopía decide: clue cells o protozoo móvil."
     },
     {
       "file": "s13_g02",
-      "text": "La opción A propone vaginosis bacteriana. La B candidiasis vulvovaginal. La C tricomoniasis sintomática. La D cervicitis mucopurulenta. La E vaginitis atrófica senil. Piénsalo."
+      "text": "De las tres, solo en la tricomoniasis tratas a la pareja, porque es la única de transmisión sexual."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta correcta es la B. El prurito desesperante tras antibióticos con flujo grumoso y pH ácido fisiológico menor a cuatro coma cinco es patognomónico de candidiasis."
+      "text": "Y en la cervicitis, siempre las dos: ceftriaxona y doxiciclina."
     },
     {
-      "file": "s14_g00",
-      "text": "Pregunta conceptual sobre infecciones ginecológicas bajas y necesidad de cortar la cadena de transmisión epidemiológica."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿En cuál de las siguientes infecciones ginecológicas es obligatorio prescribir tratamiento farmacológico simultáneo a la pareja sexual?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A propone vaginosis bacteriana recurrente. La B candidiasis esporádica. La C tricomoniasis vaginal. La D vaginitis descamativa. La E infección urinaria baja. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la C. La tricomoniasis es una infección de transmisión sexual donde el varón suele ser portador asintomático, siendo mandatorio medicar a la pareja."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Joven de veintiún años con secreción mucopurulenta por el orificio cervical externo y cuello friable que sangra a la tórula, afebril y sin dolor anexial."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es el tratamiento antimicrobiano empírico recomendado por las guías del MINSAL mientras se esperan los resultados microbiológicos?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A propone metronidazol oral exclusivo. La B ceftriaxona quinientos miligramos intramuscular más doxiciclina cien miligramos cada doce horas por siete días. La C amoxicilina. La D fluconazol. La E clotrimazol. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. La cervicitis mucopurulenta aguda exige cobertura empírica dual con ceftriaxona intramuscular para gonococo más doxiciclina oral para clamidia."
-    },
-    {
-      "file": "s16_g00",
-      "text": "La vaginosis bacteriana se caracteriza por células clave, aminas positivas y pH mayor a cuatro coma cinco; se trata con metronidazol oral y no requiere medicar al varón."
-    },
-    {
-      "file": "s16_g01",
-      "text": "La candidiasis cursa con intenso prurito y flujo en requesón conservando un pH ácido fisiológico menor a cuatro coma cinco; usamos fluconazol oral o clotrimazol en gestantes."
-    },
-    {
-      "file": "s16_g02",
-      "text": "La tricomoniasis presenta flujo espumoso amarillo verdoso, colpitis petequial en fresa y protozoos flagelados que se mueven activamente en el frotis en fresco."
-    },
-    {
-      "file": "s16_g03",
-      "text": "En la tricomoniasis es terminantemente obligatorio tratar a la pareja sexual con metronidazol para evitar que el varón actúe como reservorio asintomático."
-    },
-    {
-      "file": "s16_g04",
-      "text": "La cervicitis purulenta produce exudado cervical espeso y sangrado fácil al contacto de la tórula sin dolor a la movilización pélvica."
-    },
-    {
-      "file": "s16_g05",
-      "text": "El esquema ambulatorio combina ceftriaxona y doxiciclina por dos semanas. Si te llevas una sola idea de hoy: ante dolor a la movilización cervical en una mujer joven, el tratamiento antibiótico empírico debe iniciarse de inmediato para prevenir secuelas de infertilidad. Nos vemos en la próxima clase."
+      "file": "s13_g04",
+      "text": "Si te llevas una sola idea de hoy: mira el pH antes de decidir el tratamiento, y recuerda que en la embarazada la candidiasis siempre se trata tópica. Nos vemos en la próxima clase."
     }
   ]
 }

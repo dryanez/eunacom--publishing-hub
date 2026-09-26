@@ -2,203 +2,219 @@
   "id": "cirugia-16",
   "title": "Cirugia 11.16: Fiebre Postoperatoria: Cronología de las 5 'W' (Wind, Water, Wound, Walking, Wonder drugs)",
   "specialty": "Cirugía General",
-  "chars": 8004,
+  "chars": 9345,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a la clase de fiebre postoperatoria. En el EUNACOM este tema se responde con la regla mnemotécnica clásica de las cinco W. Hoy aprenderemos a diagnosticar la causa exacta según el día postoperatorio, a evitar dar antibióticos a ciegas el primer día y a saber cuándo abrir y drenar una herida quirúrgica. Comencemos."
+      "text": "Bienvenido. Ya vimos evaluación preoperatoria y anestesia, y hoy damos el primer paso después de la cirugía: la fiebre postoperatoria. Es de las preguntas más repetidas del examen, y tiene un truco simple: casi siempre se responde con el día en que aparece la fiebre, más que con exámenes complicados. Vamos a ordenar eso con las cinco W, una regla mnemotécnica en inglés que te va a servir toda la vida."
     },
     {
       "file": "s01_g00",
-      "text": "En las primeras veinticuatro a cuarenta y ocho horas postoperatorias, la causa número uno de fiebre es la atelectasia pulmonar, representada por la palabra Wind. El dolor incisional y los anestésicos deprimen la respiración profunda, colapsando los alvéolos de las bases pulmonares."
+      "text": "Fíjate en algo antes de partir: frente a un paciente operado con fiebre, la primera pregunta que te tienes que hacer no es qué examen pedir, sino qué día postoperatorio es. Eso ya te acerca muchísimo a la respuesta."
     },
     {
       "file": "s01_g01",
-      "text": "Hacia el tercer a quinto día la sospecha se desplaza a la vía urinaria con la letra Water, casi siempre por colonización de una sonda vesical. Entre el quinto y séptimo día postoperatorio cobra protagonismo la letra Wound: la infección de la herida quirúrgica con dolor local y pus."
+      "text": "En el día uno y dos, la letra es Wind, viento, y apunta al pulmón. La causa más frecuente de toda la fiebre postoperatoria es la atelectasia pulmonar. Guarda ese dato, porque el examen vuelve a él una y otra vez."
     },
     {
       "file": "s01_g02",
-      "text": "Hacia el séptimo a décimo día aparece la letra Walking, que representa la trombosis venosa profunda y el embolismo pulmonar por inmovilidad. Finalmente, la letra Wonder drugs recuerda la fiebre por fármacos, típica de pacientes con buen estado general que reciben antibióticos."
+      "text": "Al tercer día, la letra es Water, agua, y piensas en la vía urinaria. Es la infección asociada a la sonda vesical."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Entre el día cinco y el día siete, Wound, herida: ahora el foco es la infección del sitio quirúrgico."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Hacia el día siete a diez, Walking, caminar, porque coincide con cuando el paciente empieza a moverse más: piensas en trombosis venosa profunda, y su complicación temida, el tromboembolismo pulmonar."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y de ahí en adelante, Wonder drugs, fármacos maravillosos, con ironía: es la fiebre por medicamentos. Es un diagnóstico de exclusión, así que la piensas al final, no al principio."
     },
     {
       "file": "s02_g00",
-      "text": "El paciente operado ventila superficialmente por dolor y acumula secreciones bronquiales. Los alvéolos basales se colapsan generando fiebre moderada, taquipnea leve y crepitaciones bibasales."
+      "text": "Empecemos por la atelectasia, porque es la que más se pregunta. Aparece con fiebre moderada, taquipnea, y murmullo vesicular disminuido, con crepitaciones en las bases."
     },
     {
       "file": "s02_g01",
-      "text": "El tratamiento de la atelectasia jamás requiere antibióticos. Se optimiza la analgesia para que el paciente pueda toser, se realiza kinesiterapia respiratoria con ejercicios incentivados y se fomenta la deambulación precoz."
+      "text": "Y algo clave para diferenciarla: la herida está limpia, sin eritema ni secreción. El problema está en el pulmón, no en la piel."
     },
     {
       "file": "s02_g02",
-      "text": "Si un paciente presenta fiebre muy alta y dolor desproporcionado en las primeras veinticuatro horas, sospecha una infección por estreptococo del grupo A o gangrena gaseosa clostridial con crepitación dérmica."
+      "text": "El mecanismo explica todo: el dolor de la herida y los efectos de la anestesia hacen que el paciente respire poco profundo, y los alvéolos de las bases se colapsan."
     },
     {
       "file": "s02_g03",
-      "text": "La hipertermia maligna debuta en el mismo pabellón quirúrgico por anestésicos halogenados o succinilcolina, requiriendo suspensión inmediata del agente y administración de dantroleno endovenoso."
+      "text": "El tratamiento es kinesiterapia respiratoria, espirometría incentivada, y sobre todo, buena analgesia, porque un paciente sin dolor respira profundo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y deambulación precoz. Y fíjate en la trampa clásica: la atelectasia no necesita antibióticos. Si ves esa opción en el examen, es el distractor."
     },
     {
       "file": "s03_g00",
-      "text": "La causa predominante hacia el tercer día es la infección urinaria en pacientes que mantienen sonda vesical. El biofilm bacteriano asciende por el catéter hasta infectar la vejiga."
+      "text": "Al tercer día piensa en la vía urinaria. Casi siempre está ligada a la sonda Foley: cuanto más tiempo la dejas puesta, más riesgo de infección."
     },
     {
       "file": "s03_g01",
-      "text": "La medida más eficaz es retirar la sonda Foley tan pronto como el paciente recupere la movilidad, tomar sedimento de orina y cultivo, e iniciar tratamiento antibiótico empírico."
+      "text": "La conducta es retirar la sonda apenas puedas, tomar un urocultivo, y dar un antibiótico dirigido según ese resultado."
     },
     {
       "file": "s03_g02",
-      "text": "Revisa siempre los accesos venosos periféricos. Una vía colocada hace más de setenta y dos horas puede causar flebitis con eritema lineal y dolor que simulan un cuadro séptico."
+      "text": "Entre el día cinco y siete, revisa la herida: eritema, calor, dolor creciente, y a veces salida de secreción purulenta."
     },
     {
       "file": "s03_g03",
-      "text": "El tratamiento consiste simplemente en retirar la cánula afectada, aplicar compresas húmedas tibias y rotar el acceso venoso a la extremidad contralateral."
+      "text": "El tratamiento es abrir la herida y drenar todo el pus. Los antibióticos se agregan solo si hay celulitis extensa o el paciente está comprometido, y esto lo vas a ver con más detalle en la próxima clase."
     },
     {
       "file": "s04_g00",
-      "text": "Hacia el final de la primera semana, la causa clásica de fiebre es la infección de la herida quirúrgica. El paciente consulta por dolor que en lugar de ceder empeora, eritema en los bordes y salida de pus."
+      "text": "Hacia el día siete a diez, piensa en trombosis. La clínica es una pantorrilla que aumenta de volumen de forma asimétrica, dolorosa, con empastamiento muscular."
     },
     {
       "file": "s04_g01",
-      "text": "El pilar indiscutido del tratamiento es abrir la herida retirando las suturas del área infectada, evacuar el pus acumulado y dejar cicatrizar por segunda intención con curaciones abiertas."
+      "text": "Y si en vez de eso aparece disnea súbita con taquipnea, ahí piensas en tromboembolismo pulmonar, la complicación grave de la misma trombosis."
     },
     {
       "file": "s04_g02",
-      "text": "No todos los pacientes con herida infectada requieren antibióticos orales. Se reservan exclusivamente si el eritema sobrepasa cinco centímetros de los bordes o si hay fiebre alta con sepsis."
+      "text": "Se confirma con eco-Doppler venoso, y se trata con anticoagulación plena, típicamente heparina de bajo peso molecular."
     },
     {
       "file": "s04_g03",
-      "text": "Si la herida está sana pero el paciente mantiene fiebre en agujas, dolor vago y leucocitosis, sospecha un absceso intraabdominal en el lecho quirúrgico o fondo de saco."
+      "text": "Y la última letra, Wonder drugs: el paciente está con buen estado general, a veces con un rash o eosinofilia, y ya descartaste todo lo anterior."
     },
     {
       "file": "s04_g04",
-      "text": "El método diagnóstico de elección es la tomografía computarizada con contraste, que permite localizar la colección y guiar su drenaje percutáneo por radiología intervencional."
+      "text": "El tratamiento es suspender el fármaco sospechoso, y los que más dan esta fiebre son los betalactámicos y la heparina."
     },
     {
       "file": "s05_g00",
-      "text": "Entre el séptimo y décimo día postoperatorio la fiebre puede ser la primera manifestación de una trombosis venosa profunda, acompañada de aumento de volumen unilateral de la pantorrilla."
+      "text": "Antes de pedir cualquier examen, tienes que examinar al paciente completo. Primero, mira la herida de verdad: retira el apósito, no te quedes con que se ve limpia por fuera."
     },
     {
       "file": "s05_g01",
-      "text": "Se solicita ecografía Doppler venosa de miembros inferiores e inicia de inmediato anticoagulación plena con heparina de bajo peso molecular para prevenir un tromboembolismo pulmonar letal."
+      "text": "Ausculta los pulmones, revisa los accesos venosos buscando flebitis, y palpa las pantorrillas."
     },
     {
       "file": "s05_g02",
-      "text": "Sospecha fiebre farmacológica en pacientes que lucen bien, afebriles clínicamente pero con temperatura elevada en el termómetro, a menudo con eosinofilia o exantema cutáneo leve."
+      "text": "Y aquí está la trampa que el examen repite con distintos disfraces: partir con antibióticos de amplio espectro apenas aparece la fiebre, en el primer día, con la herida limpia y crepitaciones en las bases."
     },
     {
       "file": "s05_g03",
-      "text": "Los antibióticos betalactámicos son los causantes más habituales. El diagnóstico se confirma y la fiebre desaparece dentro de las cuarenta y ocho horas posteriores a la suspensión del fármaco."
+      "text": "Ese cuadro es atelectasia. Se trata con kinesiterapia y analgesia, y elegir el antibiótico ahí es la respuesta incorrecta."
     },
     {
       "file": "s06_g00",
-      "text": "En las primeras cuarenta y ocho horas la atelectasia se maneja con kinesiterapia y analgesia sin usar antibióticos."
+      "text": "Ahora ordenemos todo el enfrentamiento en un solo árbol de decisión. Paciente que después de una cirugía presenta fiebre. Antes de pedir cualquier examen, la pregunta clave es una sola: en qué día postoperatorio estás."
     },
     {
       "file": "s06_g01",
-      "text": "Hacia el tercer día la infección urinaria exige retirar la sonda vesical y tratar según cultivo."
+      "text": "Cada franja de días apunta a una causa distinta, y en ese orden es como se pregunta en el examen."
     },
     {
       "file": "s06_g02",
-      "text": "Hacia el quinto día la herida infectada se resuelve abriendo las suturas y drenando el pus."
+      "text": "Día uno o dos, con herida limpia y crepitaciones bibasales: atelectasia pulmonar. Se trata con kinesiterapia respiratoria, buena analgesia y deambulación precoz, nunca con antibióticos de entrada."
     },
     {
       "file": "s06_g03",
-      "text": "En la segunda semana la trombosis venosa profunda requiere Eco-Doppler e inicio de anticoagulación con heparina."
+      "text": "Día tres, con sonda Foley puesta: infección urinaria. Se retira la sonda, se toma un urocultivo y se trata según ese resultado."
     },
     {
       "file": "s06_g04",
-      "text": "La fiebre por fármacos es tardía en un paciente con buen estado general y cede al retirar el medicamento."
+      "text": "Día cinco a siete, con eritema, calor y salida de pus por la herida: infección del sitio quirúrgico. El pilar es abrir y drenar; los antibióticos se agregan solo si hay celulitis extensa."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Día siete a diez, con una pantorrilla asimétrica y dolorosa, o disnea súbita: trombosis venosa profunda, o su complicación, el tromboembolismo pulmonar. Se confirma con eco-Doppler y se trata con anticoagulación plena."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Buen estado general, a veces con rash, y ya descartaste todo lo anterior: fiebre por fármacos. Es diagnóstico de exclusión, y se resuelve suspendiendo el medicamento sospechoso, típicamente un betalactámico o la heparina."
     },
     {
       "file": "s07_g00",
-      "text": "Iniciamos el enfrentamiento clínico identificando el día transcurrido desde la intervención quirúrgica."
+      "text": "Repasemos en la tabla. Wind, día uno y dos: crepitaciones en las bases y herida limpia. Kinesiterapia y analgesia, nunca antibióticos."
     },
     {
       "file": "s07_g01",
-      "text": "Evaluamos la presencia de atelectasia pulmonar por hipoventilación basal."
+      "text": "Water, día tres: disuria con sonda Foley puesta. Retiras la sonda, tomas cultivo, y das antibiótico dirigido."
     },
     {
       "file": "s07_g02",
-      "text": "Se optimiza la analgesia parenteral y se inician ejercicios respiratorios sin indicar antibióticos."
+      "text": "Wound, día cinco a siete: eritema, calor y pus en la herida. Se abre y se drena."
     },
     {
       "file": "s07_g03",
-      "text": "Buscamos focos en la vía urinaria y accesos vasculares periféricos."
+      "text": "Walking, día siete a diez: pantorrilla asimétrica y dolorosa. Eco-Doppler y anticoagulación."
     },
     {
       "file": "s07_g04",
-      "text": "Se retira el dispositivo causante y se inicia tratamiento antibiótico específico según urocultivo."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Inspeccionamos directamente la incisión quirúrgica retirando el apósito."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Se retiran los puntos del segmento comprometido para evacuar la colección y lavar profusamente."
+      "text": "Y Wonder drugs, desde el día siete en adelante: buen estado general y a veces rash. Se suspende el fármaco sospechoso, y solo después de descartar todo lo anterior."
     },
     {
       "file": "s08_g00",
-      "text": "Dar antibióticos por fiebre en el primer día postoperatorio con herida limpia es un error grave de sobretratamiento."
+      "text": "Vamos al caso. Hombre de cincuenta y cuatro años, fumador, operado hace veinte horas de una hemicolectomía izquierda por cáncer de colon. Tiene fiebre de treinta y ocho grados y tres décimas, y respira veintidós veces por minuto. La herida está limpia, sin eritema ni secreción, y en el pulmón hay murmullo vesicular disminuido con crepitaciones finas en ambas bases."
     },
     {
       "file": "s08_g01",
-      "text": "Los antibióticos no curan una herida con pus acumulado: la incisión debe abrirse y drenarse."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Dejar la sonda vesical perpetúa la infección urinaria nosocomial."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Escalar antibióticos ante una fiebre medicamentosa agrava el cuadro; la solución es suspender el fármaco."
-    },
-    {
-      "file": "s09_g00",
-      "text": "Revisemos este caso clásico de las primeras cuarenta y ocho horas. Un paciente operado hace veinticuatro horas hace fiebre de treinta y ocho cuatro grados con crepitaciones en bases y herida limpia."
-    },
-    {
-      "file": "s09_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s08_g02",
+      "text": "Tienes cinco opciones: partir con ceftriaxona por sospecha de neumonía, indicar analgesia con espirometría y deambulación, abrir la herida para buscar infección oculta, pedir un escáner de tórax, o instalar un catéter venoso central. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La respuesta es la B. Es el día uno, la herida está limpia, y la clínica pulmonar es típica: esto es atelectasia, la causa número uno de fiebre tan temprana. El tratamiento es analgesia, kinesiterapia y movilización, no antibióticos. Y fíjate que la herida limpia descarta de entrada la opción de abrirla."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de diecisiete años, apendicectomizado hace seis horas, con malestar general y dolor abdominal intenso. El pulso está en ciento veinte por minuto, la presión en noventa sobre cincuenta, y la temperatura en treinta y siete grados y siete décimas. Al examen hay dolor a la palpación y signos peritoneales difusos, mayores en la parte baja del abdomen."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
       "file": "s09_g02",
-      "text": "Las alternativas proponen: ceftriaxona endovenosa, analgesia y kinesiterapia respiratoria, abrir la herida, catéter venoso central o broncoscopía. Piénsalo."
+      "text": "Las opciones son: hemoperitoneo, evisceración, trombosis de la vena porta, dehiscencia de la base apendicular, o tromboembolismo pulmonar masivo. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta correcta es la B, analgesia adecuada, kinesiterapia y deambulación precoz. En las primeras veinticuatro horas la causa indiscutida de fiebre es la atelectasia pulmonar. No es una neumonía bacteriana, por lo que la opción A con antibióticos es incorrecta. Se maneja aliviando el dolor para permitir una ventilación profunda y expandiendo los alvéolos."
+      "text": "La respuesta es la D, dehiscencia de la base apendicular. Fíjate en la secuencia: dolor localizado que se vuelve difuso, signos peritoneales, y recién ahí el compromiso hemodinámico. Eso es peritonitis progresando a shock séptico, y es mucho más frecuente que el hemoperitoneo, que da compromiso hemodinámico primero y el dolor aparece después."
     },
     {
       "file": "s10_g00",
-      "text": "Analicemos este caso típico del sexto día postoperatorio. Una paciente presenta fiebre, dolor eritematoso y secreción purulenta franca a través de la herida quirúrgica de una histerectomía."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de cuarenta y seis años, operado de una colecistectomía abierta. A las cuarenta y ocho horas tiene fiebre de treinta y siete grados y ocho décimas, respira bien, con catorce respiraciones por minuto y buena saturación. La herida está sin eritema ni secreción, las vías venosas están sanas, y en el pulmón hay crepitaciones localizadas en la base derecha."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta inicial correcta?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: ciprofloxacino oral con herida cerrada, retirar puntos y abrir la herida para curación abierta, resonancia magnética, corticoides endovenosos o comprimir sin descoser. Piénsalo."
+      "text": "Las opciones: neumonía, dehiscencia de la anastomosis, atelectasia, infección de la herida operatoria, o tromboembolismo pulmonar. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la B, retirar los puntos de sutura, abrir la herida y realizar curaciones abiertas. El principio hipocrático de ubi pus, ibi evacua manda en cirugía: donde hay pus acumulado debe drenarse mecánicamente. Mantener la sutura cerrada con antibióticos orales solo perpetúa el absceso de pared."
+      "text": "Es la C, atelectasia. Estamos dentro de las primeras cuarenta y ocho horas, con crepitaciones localizadas y todo lo demás normal. La neumonía necesita tos y expectoración, que aquí no aparecen; el tromboembolismo suele venir con taquicardia o un inicio brusco; y la dehiscencia de la anastomosis daría signos de peritonitis, no solo crepitaciones."
     },
     {
       "file": "s11_g00",
-      "text": "La fiebre en las primeras cuarenta y ocho horas es atelectasia hasta demostrar lo contrario: no indiques antibióticos."
+      "text": "Cerremos con las reglas de oro. El orden es Wind, Water, Wound: pulmón en los primeros días, vía urinaria al tercero, y herida entre el cinco y el siete."
     },
     {
       "file": "s11_g01",
-      "text": "Hacia el quinto a séptimo día el pus de la herida se trata abriendo la piel, no con pastillas."
+      "text": "Y después, Walking y Wonder drugs: trombosis hacia el día siete, y fármacos, siempre como diagnóstico de exclusión."
     },
     {
       "file": "s11_g02",
-      "text": "Si la fiebre aparece en la segunda semana con asimetría en piernas, descarta trombosis venosa profunda."
+      "text": "La trampa que más se repite: fiebre el primer día, con herida limpia. No es infección, es atelectasia, y no lleva antibióticos."
     },
     {
       "file": "s11_g03",
-      "text": "Si te llevas una sola idea de hoy: la fiebre postoperatoria tiene un reloj cronológico estricto: Wind en los días uno y dos, Water en los días tres a cinco, Wound en los días cinco a siete y Walking hacia la segunda semana. Jamás prescribas antibióticos a ciegas sin examinar la incisión y los accesos vasculares del paciente. Nos vemos en la próxima clase."
+      "text": "Si te llevas una sola idea de hoy: antes de pedir cualquier examen, revisa la herida, el pulmón y las piernas, porque el día y el examen físico casi siempre te dan la respuesta. Nos vemos en la próxima clase."
     }
   ]
 }

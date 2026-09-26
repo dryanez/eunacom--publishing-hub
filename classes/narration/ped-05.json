@@ -2,311 +2,227 @@
   "id": "ped-05",
   "title": "Pediatria 18.5: Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO): VRS, Score de Tal y Manejo Escalonado",
   "specialty": "Pediatría",
-  "chars": 14044,
+  "chars": 10782,
   "segments": [
     {
       "file": "s00_g00",
-      "text": "Bienvenidos a una de las clases más determinantes de la pediatría ambulatoria y de urgencias en el examen EUNACOM: bronquiolitis aguda y síndrome bronquial obstructivo en el lactante. Esta patología representa el motivo principal de consulta respiratoria y de hospitalización invernal en menores de dos años en Chile. Hoy dominaremos la fisiopatología del virus respiratorio sincicial, el impacto revolucionario del anticuerpo monoclonal Nirsevimab, la puntuación exacta del score de Tal y el algoritmo ministerial de hospitalización abreviada. Comencemos."
+      "text": "Bienvenido. Empezamos el bloque respiratorio con el tema que más se pregunta de toda la pediatría: la bronquiolitis y el síndrome bronquial obstructivo del lactante. Y la buena noticia es que casi todo el tema se resuelve con una sola herramienta: el score de Tal. Si aprendes a calcularlo bien, sabes qué hacer con este paciente. Partamos."
     },
     {
       "file": "s01_g00",
-      "text": "El virus respiratorio sincicial ingresa por vía nasofaríngea y migra hacia la vía aérea inferior, destruyendo el epitelio ciliado bronquiolar y generando abundantes detritus celulares con tapones densos de fibrina y moco."
+      "text": "Fíjate primero en el virus. El virus respiratorio sincicial explica la gran mayoría de los cuadros, sobre todo en el lactante menor de dos años. Esa edad no es un dato menor: si es el primer episodio de obstrucción bronquial antes de los dos años, se llama bronquiolitis."
     },
     {
       "file": "s01_g01",
-      "text": "La submucosa engrosada actúa como una válvula que permite la entrada del aire durante la inspiración forzada, pero colapsa en la espiración pasiva, produciendo atrapamiento aéreo distal, hiperinsuflación alveolar y severo desbalance ventilación perfusión."
+      "text": "El virus invade el epitelio del bronquiolo, lo daña, y deja detrás un tapón de moco espeso. Ojo con esto, porque es distinto al asma: aquí el problema no es solo que el músculo se contraiga, es que la vía aérea queda literalmente taponada."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y como el bronquiolo es angosto y está tapado, el aire entra con más facilidad de la que sale. Eso atrapa aire dentro del pulmón, y ese atrapamiento explica todo lo que vas a examinar a continuación."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Por eso el lactante te llega respirando rápido, con sibilancias, con tiraje, y en los casos más graves, con cianosis. Guarda esta cadena, porque el score que viene a continuación mide exactamente estos mismos signos. Y hay algo más que conviene que sepas: este mismo mecanismo, cuando se repite varias veces en un mismo niño, ya no se llama bronquiolitis, sino síndrome bronquial obstructivo recurrente, y ahí hay que buscar otras causas además del virus."
     },
     {
       "file": "s02_g00",
-      "text": "La bronquiolitis aguda se define formalmente como el primer episodio de sibilancias y dificultad respiratoria precedido por coriza en un lactante menor de dos años, con pico de incidencia entre los dos y seis meses."
+      "text": "Casi siempre empieza igual: dos a tres días de coriza, congestión y tos seca, con poca fiebre. Un cuadro catarral común, sin nada llamativo todavía."
     },
     {
       "file": "s02_g01",
-      "text": "A diferencia del asma en el niño mayor, en la bronquiolitis predomina la inflamación y el edema de la pared bronquiolar junto al tapón mucoso, razón por la cual los broncodilatadores tienen una eficacia errática."
+      "text": "Y ahí, de forma progresiva, se agrega la dificultad respiratoria y el niño empieza a rechazar el pecho o la mamadera. Ese cambio es la señal de que hay que examinarlo con más cuidado."
     },
     {
       "file": "s02_g02",
-      "text": "En el sistema de salud chileno se utiliza el término síndrome bronquial obstructivo para agrupar operativamente a todo cuadro de obstrucción bronquial en el lactante, permitiendo protocolizar su manejo según severidad."
-    },
-    {
-      "file": "s02_g03",
-      "text": "Hablamos de síndrome bronquial obstructivo recurrente cuando el paciente presenta tres o más episodios en el año, situación que obliga a investigar atopia familiar, reflujo gastroesofágico, cardiopatías congénitas o fibrosis quística."
+      "text": "El diagnóstico es clínico, y esto se pregunta harto: no le pidas radiografía de tórax a todo lactante con sibilancias. La reservas para cuando hay duda diagnóstica, o sospechas una complicación como atelectasia o neumotórax. Pedirla de rutina no cambia la conducta y solo expone al niño a radiación innecesaria, así que si te la ofrecen como primera opción en una pregunta, casi siempre es la alternativa incorrecta."
     },
     {
       "file": "s03_g00",
-      "text": "El virus respiratorio sincicial es el agente causal predominante en más del setenta por ciento de los casos hospitalizados, con circulación estacional invernal intensa y transmisión directa por microgotas y fómites."
+      "text": "Vamos al score de Tal, que es la columna vertebral de esta clase. Evalúa cuatro cosas: la frecuencia respiratoria, según la edad; las sibilancias, que van de ausentes a audibles sin fonendoscopio; la cianosis, y la retracción o tiraje. Sumas los cuatro puntajes y con eso decides la conducta."
     },
     {
       "file": "s03_g01",
-      "text": "Otros patógenos frecuentes son el rinovirus, el metapneumovirus y el adenovirus, este último capaz de desencadenar cuadros necrotizantes severos que pueden evolucionar a bronquiolitis obliterante crónica."
+      "text": "Si la suma da cinco o menos, es leve, y el manejo es ambulatorio: salbutamol en aerosol con aerocámara, y control si no mejora."
     },
     {
       "file": "s03_g02",
-      "text": "Chile marcó un hito epidemiológico histórico al implementar en dos mil veinticuatro la administración universal de Nirsevimab, un anticuerpo monoclonal de vida media prolongada inyectado a todo recién nacido en maternidades."
+      "text": "Si suma entre seis y ocho, es moderado, y aquí viene lo que más te van a preguntar: la hospitalización abreviada. Se le da salbutamol con aerocámara cada diez minutos, durante una hora completa, y luego se reevalúa."
     },
     {
       "file": "s03_g03",
-      "text": "Esta estrategia de inmunización pasiva logró reducir en más de un ochenta por ciento las hospitalizaciones por virus respiratorio sincicial en lactantes, transformando radicalmente la campaña de invierno nacional."
+      "text": "Y si suma nueve o más, es severo, y ahí no hay hospitalización abreviada que valga: se hospitaliza de inmediato, con oxígeno, y se considera apoyo ventilatorio si no responde."
     },
     {
       "file": "s04_g00",
-      "text": "El cuadro debuta típicamente con dos a tres días de rinorrea transparente, estornudos y fiebre baja, tras los cuales el virus desciende a la vía aérea distal desatando tos progresiva y dificultad para respirar."
+      "text": "Al término de esa hora, reevalúas. Si el puntaje bajó a cinco o menos, das el alta con salbutamol cada cuatro horas y un control al día siguiente."
     },
     {
       "file": "s04_g01",
-      "text": "El momento de máxima dificultad respiratoria suele presentarse entre el tercer y quinto día de enfermedad, manifestándose con taquipnea marcada, tiraje intercostal y rechazo a las tomas de leche."
+      "text": "Pero si sigue entre seis y ocho, agregas un corticoide oral, la prednisona, e inicias una segunda hora de salbutamol. Si después de esa segunda hora tampoco mejora, ahí sí se hospitaliza."
     },
     {
       "file": "s04_g02",
-      "text": "A la auscultación destacan sibilancias bilaterales espiratorias junto a crépitos finos basales que reflejan la ocupación alveolar y bronquiolar periférica por detritus inflamatorios."
-    },
-    {
-      "file": "s04_g03",
-      "text": "El examen físico debe evaluar meticulosamente el esfuerzo toracoabdominal, buscando aleteo nasal, tiraje subcostal y disociación toracoabdominal como signos cardinales de fatiga diafragmática inminente."
+      "text": "Y aquí una trampa fina: en la bronquiolitis viral pura, el beneficio del broncodilatador y del corticoide es marginal, y lo que realmente cambia el pronóstico es el oxígeno. Ojo, esto no significa que no se use: se prueba y se sigue solo si el niño responde."
     },
     {
       "file": "s05_g00",
-      "text": "El score de Tal evalúa cuatro parámetros asignando de cero a tres puntos. La frecuencia respiratoria se diferencia estrictamente: en menores de seis meses el corte de tres puntos es sobre setenta respiraciones por minuto, mientras que desde los seis meses es sobre sesenta."
+      "text": "Desde hace poco Chile protege a todos los recién nacidos con nirsevimab, un anticuerpo monoclonal de vida media larga contra el virus respiratorio sincicial. No es una vacuna: es protección pasiva, y se administra en la maternidad. Desde que se implementó, las hospitalizaciones por bronquiolitis grave bajaron de forma muy marcada, así que si te preguntan qué intervención tuvo más impacto poblacional en esta enfermedad, la respuesta es esta."
     },
     {
       "file": "s05_g01",
-      "text": "Las sibilancias se gradúan desde ausentes con cero puntos, pasando a un punto si son telespiratorias, dos puntos si abarcan toda la espiración, y tres puntos si son audibles en ambos tiempos o existe tórax silente."
-    },
-    {
-      "file": "s05_g02",
-      "text": "La cianosis puntúa cero si está ausente, un punto si aparece en la boca solo al llorar, dos puntos si se observa cianosis perioral en reposo, y tres puntos si es generalizada."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Las retracciones suman un punto si el tiraje intercostal es leve, dos puntos con compromiso intercostal y subcostal moderado, y tres puntos si compromete fosas supraclaviculares con aleteo nasal y quejido."
+      "text": "Y guarda esta idea para el examen: si un lactante grave deja de sibilar de golpe, no pienses que mejoró. Puede ser tórax silente, la obstrucción tan extrema que casi no entra aire y por eso no hace ruido. En el score, eso puntúa como lo más grave posible. Si además el niño está agotado, pálido y con la conciencia comprometida, estás ante una insuficiencia respiratoria inminente."
     },
     {
       "file": "s06_g00",
-      "text": "El tórax silente es una trampa mortal en urgencias: la desaparición de las sibilancias en un niño visiblemente agotado no significa mejoría, sino que el flujo de aire es casi nulo por obstrucción bronquiolar extrema."
+      "text": "Antes de seguir, ordenemos algo que el examen mezcla a propósito: no todo lactante con ruido al respirar tiene lo mismo. Pregúntate cómo empezó y qué tipo de ruido hace."
     },
     {
       "file": "s06_g01",
-      "text": "Por norma técnica del Ministerio de Salud, el silencio auscultatorio o tórax silente se califica obligatoriamente con tres puntos máximos en el ítem de sibilancias del score de Tal."
+      "text": "Si el inicio fue gradual, con pródromo catarral, y el ruido es sibilancia espiratoria, estás en bronquiolitis o síndrome obstructivo, que es justo lo que estamos viendo."
     },
     {
       "file": "s06_g02",
-      "text": "Si un lactante polipneico comienza a respirar más lento con pausas o boqueos, no se está tranquilizando: está sufriendo fatiga de la musculatura respiratoria y entrará en paro por hipoxia."
+      "text": "Si en cambio el ruido es un estridor, con tos que suena a perro y la voz ronca, eso ya no es bronquiolitis: es laringitis, y esa la vemos en detalle en la próxima clase."
     },
     {
       "file": "s06_g03",
-      "text": "La somnolencia profunda y la hipotonía son manifestaciones de narcosis por dióxido de carbono e hipoxia tisular severa, requiriendo ventilación con bolsa mascarilla e intubación inmediata en sala de reanimación."
+      "text": "Si el inicio fue súbito, mientras el niño jugaba o comía, sospecha cuerpo extraño en la vía aérea. También lo revisamos más adelante en este mismo bloque."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si hay fiebre muy alta y el niño se ve tóxico, con mal aspecto general, piensa en traqueítis bacteriana. Guarda este mapa, porque te va a servir en las próximas clases."
     },
     {
       "file": "s07_g00",
-      "text": "En el examen EUNACOM es una regla de oro: la radiografía de tórax no se solicita de rutina en el síndrome bronquial obstructivo típico, pues el diagnóstico y la severidad son exclusivamente clínicos."
+      "text": "Ahora juntemos todo el razonamiento del score de Tal en un solo árbol de decisión. Tienes un lactante con su primer episodio de sibilancias, antes de los dos años. Antes de decidir nada, calcula el score de Tal: frecuencia respiratoria, sibilancias, cianosis y tiraje."
     },
     {
       "file": "s07_g01",
-      "text": "Cuando se realiza, la placa suele mostrar signos inespecíficos de atrapamiento aéreo como hiperclaridad, costillas horizontalizadas, aplanamiento de cúpulas diafragmáticas y frecuentes microatelectasias laminares."
+      "text": "Súmalos y mira en qué rango cae."
     },
     {
       "file": "s07_g02",
-      "text": "Se solicita radiografía de tórax ante asimetría persistente en el examen físico para descartar atelectasias masivas o neumotórax, o si el paciente fracasa a la hospitalización abreviada."
+      "text": "Cinco o menos es leve. Se maneja en la casa, con salbutamol con aerocámara y control si no mejora."
     },
     {
       "file": "s07_g03",
-      "text": "También está indicada la placa si existe fiebre alta persistente sobre treinta y nueve grados con deterioro séptico que haga sospechar una condensación neumónica bacteriana sobreagregada."
+      "text": "Entre seis y ocho es moderado. Inicias hospitalización abreviada: salbutamol cada diez minutos, durante una hora completa, y luego reevalúas."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si al término de la hora bajó a cinco o menos, das el alta con salbutamol cada cuatro horas y control al día siguiente."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si sigue igual, agregas un corticoide oral e inicias una segunda hora de salbutamol. Si tampoco mejora, ahí sí se hospitaliza para oxígeno y manejo continuo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Nueve o más es severo, y aquí no hay hospitalización abreviada: se hospitaliza de inmediato, con oxígeno, y se considera apoyo ventilatorio si no responde."
     },
     {
       "file": "s08_g00",
-      "text": "El síndrome bronquial obstructivo y la bronquiolitis afectan a menores de dos años con sibilancias espiratorias bilaterales y responden al soporte con oxígeno y salbutamol."
+      "text": "Repasemos con una tabla. Score de cinco o menos: salbutamol en casa y control. El error es hospitalizar a un lactante que no lo necesita."
     },
     {
       "file": "s08_g01",
-      "text": "La laringitis aguda compromete la región subglótica con estridor típicamente inspiratorio y tos perruna, tratándose con dexametasona y adrenalina racémica."
+      "text": "Score entre seis y ocho: hospitalización abreviada por una hora. El error es saltarse ese paso y hospitalizar de entrada."
     },
     {
       "file": "s08_g02",
-      "text": "El cuerpo extraño debuta en forma súbita con síndrome de penetración y auscultación asimétrica, requiriendo broncoscopía rígida sin dilación."
+      "text": "Si persiste moderado al término de la hora: corticoide oral y una segunda hora de salbutamol. El error es solo repetir el broncodilatador sin agregar el corticoide."
     },
     {
       "file": "s08_g03",
-      "text": "La traqueítis bacteriana presenta aspecto tóxico, fiebre elevada y estridor bifásico, requiriendo cefalosporinas de tercera generación e intubación precoz en cuidados intensivos."
+      "text": "Si un lactante grave deja de sibilar de golpe, piensa en tórax silente. El error clásico es leerlo como mejoría."
     },
     {
       "file": "s08_g04",
-      "text": "La laringomalacia es la causa congénita más común de estridor inspiratorio, el cual empeora al alimentar o acostar boca arriba y cede en decúbito prono."
+      "text": "Y en el cuadro típico sin alarma, no se pide radiografía de rutina. El error frecuente es pedirla a todo lactante con sibilancias."
     },
     {
       "file": "s09_g00",
-      "text": "Todo lactante con score de Tal entre seis y ocho puntos califica como síndrome bronquial obstructivo moderado y debe ingresar de inmediato al protocolo de hospitalización abreviada."
+      "text": "Vamos con un caso. Lactante de seis meses, con dos días de coriza y tos, que ahora tiene dificultad respiratoria. Al examen: frecuencia respiratoria de cincuenta y ocho, sibilancias en toda la espiración con fonendoscopio, tiraje subcostal moderado, sin cianosis."
     },
     {
       "file": "s09_g01",
-      "text": "La primera hora consiste en administrar salbutamol en aerosol con aerocámara valvulada pediátrica, a razón de dos inhalaciones cada diez minutos completando cinco ciclos en una hora."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Si al cabo de los sesenta minutos el score de Tal desciende a cinco puntos o menos, el cuadro pasa a leve y el niño se va a casa con salbutamol cada cuatro a seis horas y control al día siguiente."
+      "text": "Tienes cinco opciones: hospitalización abreviada con salbutamol cada diez minutos, alta con salbutamol cada seis horas, hospitalización directa en la unidad de cuidados intensivos, pedir radiografía antes de decidir, o adrenalina racémica en observación. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Si tras la primera hora el lactante persiste con score de Tal entre seis y ocho puntos, se administra una dosis oral de prednisona a uno o dos miligramos por kilo y se inicia la segunda hora de salbutamol."
+      "text": "Es la A. Súmalo tú mismo: la frecuencia da dos puntos, las sibilancias en toda la espiración dan dos puntos, el tiraje subcostal moderado da dos puntos más, y la ausencia de cianosis no suma nada. En total, seis puntos: moderado. Eso es justo el rango de la hospitalización abreviada. La radiografía no aporta nada aquí, porque el cuadro es típico y no hay duda diagnóstica."
     },
     {
       "file": "s10_g00",
-      "text": "Si al terminar la segunda hora el score de Tal baja a cinco puntos o menos, se indica alta ambulatoria completando cinco días de prednisona oral y salbutamol con control médico al día siguiente."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Lactante de cinco meses con tos y coriza, y fiebre hasta treinta y ocho y medio. Al día siguiente aparece dificultad respiratoria y taquipnea, con frecuencia respiratoria de setenta, uso de musculatura accesoria, sibilancias en toda la espiración y la inspiración, y cianosis perioral."
     },
     {
       "file": "s10_g01",
-      "text": "Si al concluir las dos horas de salbutamol el lactante persiste con seis a ocho puntos o sube a nueve puntos, se decreta el fracaso terapéutico y se hospitaliza de inmediato en un centro asistencial."
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Un paciente que consulta con score de Tal inicial de nueve a doce puntos no ingresa a hospitalización abreviada en consultorio: se administra oxígeno inmediato y se traslada de urgencia al hospital."
+      "text": "Las opciones: virus respiratorio sincicial, Bordetella pertussis, virus influenza, virus parainfluenza, o neumococo."
     },
     {
       "file": "s10_g03",
-      "text": "La edad menor a tres meses, el antecedente de prematurez menor a treinta y dos semanas, episodios de apnea o saturación ambiental menor a noventa y tres por ciento son criterios absolutos de hospitalización formal."
+      "text": "Es la A, virus respiratorio sincicial. Es la bronquiolitis clásica que vimos al inicio de la clase, y este virus explica la gran mayoría de los casos. Fíjate que aquí el score de Tal daría un puntaje severo: frecuencia muy alta, sibilancias intensas y cianosis, así que a este paciente le corresponde hospitalizar de inmediato."
     },
     {
       "file": "s11_g00",
-      "text": "En el paciente hospitalizado por bronquiolitis, el oxígeno humidificado es la medida terapéutica más eficaz y con mayor evidencia para corregir la hipoxemia tisular secundaria a la alteración ventilación perfusión."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Lactante de ocho meses con fiebre y rinorrea de dos días, y dificultad respiratoria en las últimas horas. Al examen: tiraje subcostal e intercostal moderado, frecuencia cardíaca de ciento veinte, frecuencia respiratoria de treinta y cinco, saturación de noventa y tres por ciento, con sibilancias y crépitos en ambos pulmones."
     },
     {
       "file": "s11_g01",
-      "text": "Si la frecuencia respiratoria supera sesenta por minuto, la alimentación oral se suspende o se fracciona mediante sonda nasogástrica para prevenir eventos de broncoaspiración durante la deglución."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "La cánula nasal de alto flujo entrega mezclas de gas calentado y saturado con flujos de uno a dos litros por kilo al minuto, generando presión positiva espiratoria que disminuye el trabajo respiratorio y previene la intubación."
+      "text": "Las opciones: bronquiolitis, asma del lactante, neumonía multifocal, neumonía atípica, o cardiopatía congénita."
     },
     {
       "file": "s11_g03",
-      "text": "El paciente debe ingresar a unidad de paciente crítico ante la persistencia de quejido espiratorio, apneas recurrentes, acidosis respiratoria descompensada o requerimiento creciente de soporte ventilatorio mecánico."
+      "text": "La respuesta es la A, bronquiolitis. Es exactamente el mecanismo que vimos: pródromo catarral y luego dificultad respiratoria con sibilancias, en un lactante pequeño. La asma del lactante es la trampa tentadora, pero ese término se reserva para cuadros recurrentes, no para un primer episodio como este."
     },
     {
       "file": "s12_g00",
-      "text": "Iniciamos la evaluación del paciente calculando el score de Tal para estratificar la gravedad y definir la conducta inmediata."
+      "text": "Una última pregunta real, del EUNACOM de julio de dos mil quince. Lactante de cinco meses con obstrucción bronquial, taquipneico, saturando noventa, con retracción intercostal, cianosis perioral y sibilancias intensas en ambos pulmones."
     },
     {
       "file": "s12_g01",
-      "text": "Con score de Tal leve el lactante se maneja en casa con salbutamol cada cuatro a seis horas y control médico al día siguiente."
-    },
-    {
-      "file": "s12_g02",
-      "text": "El SBO moderado ingresa a hospitalización abreviada recibiendo cinco ciclos de salbutamol durante la primera hora."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Si el score desciende a rango leve se otorga el alta con salbutamol en aerosol y control en veinticuatro horas."
-    },
-    {
-      "file": "s12_g04",
-      "text": "Si persiste moderado administramos prednisona oral de uno a dos miligramos por kilo e iniciamos la segunda hora de salbutamol."
-    },
-    {
-      "file": "s12_g05",
-      "text": "Al descender a rango leve tras la segunda hora se da de alta completando cinco días de prednisona oral y control al día siguiente."
-    },
-    {
-      "file": "s12_g06",
-      "text": "Si no responde tras dos horas de tratamiento se declara fracaso terapéutico y se traslada para hospitalización formal."
-    },
-    {
-      "file": "s12_g07",
-      "text": "Con score de Tal severo se administra oxígeno urgente y se hospitaliza de inmediato en un centro terciario o unidad crítica."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Lactante de cinco meses llevado a urgencias por obstrucción bronquial con taquipnea importante saturando noventa por ciento tiraje intercostal y cianosis perioral."
-    },
-    {
-      "file": "s13_g01",
       "text": "¿Cuál es la primera medida que se debe tomar?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las opciones: nebulizar con salbutamol, nebulizar con budesonida, dar corticoides orales, dar oxígeno por mascarilla, o corticoides endovenosos."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, oxígeno. Este paciente está hipoxémico, y ante eso lo primero siempre es corregir la oxigenación. Conecta esto con lo que dijimos antes: en la bronquiolitis pura, el broncodilatador y el corticoide tienen un beneficio marginal, y lo que de verdad cambia el pronóstico es el oxígeno."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Score de cinco o menos: manejo en casa."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Entre seis y ocho: hospitalización abreviada por una hora, y si persiste, corticoide y una segunda hora."
+    },
+    {
       "file": "s13_g02",
-      "text": "La opción A propone nebulizar salbutamol. La B corticoides orales. La C dar oxígeno por mascarilla. La D corticoides endovenosos. La E kinesioterapia respiratoria. Piénsalo."
+      "text": "Nueve o más: se hospitaliza de inmediato, sin intentar nada abreviado."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta correcta es la C. Ante hipoxemia demostrada en un trastorno ventilación perfusión la primera medida más urgente siempre es administrar oxígeno suplementario."
+      "text": "El tórax silente es la máxima gravedad, jamás lo leas como mejoría."
     },
     {
-      "file": "s14_g00",
-      "text": "Lactante de cuatro meses con frecuencia respiratoria de sesenta y cuatro tiraje moderado sibilancias en toda la espiración y sin cianosis."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es el Score de Tal y la conducta inmediata correcta?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "La opción A plantea Tal cuatro leve. La B Tal seis moderado con hospitalización abreviada con salbutamol por una hora. La C Tal ocho severo a cuidados intensivos. La D adrenalina racémica. La E kinesioterapia respiratoria. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "La respuesta correcta es la B. En menores de seis meses esa frecuencia suma dos puntos, más dos de sibilancias y dos de tiraje totalizan seis puntos, requiriendo hospitalización abreviada."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Lactante de siete meses con obstrucción moderada que al término de la primera hora de salbutamol persiste con un score de Tal de seis puntos."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es la conducta indicada según la guía clínica ministerial?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "La opción A indica alta a domicilio. La B administrar prednisona oral de uno a dos miligramos por kilo e iniciar segunda hora de salbutamol. La C intubar de inmediato. La D amoxicilina. La E tomografía de tórax. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "La respuesta correcta es la B. La persistencia en rango moderado tras la primera hora exige agregar corticoide sistémico e iniciar la segunda hora de salbutamol."
-    },
-    {
-      "file": "s16_g00",
-      "text": "Lactante de dos meses con taquipnea extrema quejido cianosis perioral y marcado silencio auscultatorio bilateral sin murmullo ni sibilancias audibles."
-    },
-    {
-      "file": "s16_g01",
-      "text": "¿Cuál es el significado clínico de este hallazgo y su puntuación en el score de Tal?"
-    },
-    {
-      "file": "s16_g02",
-      "text": "La opción A sostiene mejoría clínica espontánea con cero puntos. La B signo de máxima gravedad por flujo casi nulo asignando tres puntos en sibilancias. La C enfisema con un punto. La D neumotórax. La E falso negativo. Piénsalo."
-    },
-    {
-      "file": "s16_g03",
-      "text": "La respuesta correcta es la B. El tórax silente representa obstrucción extrema con flujo aéreo colapsado y asigna el puntaje máximo de tres puntos en el score de Tal."
-    },
-    {
-      "file": "s17_g00",
-      "text": "Pregunta sobre la intervención preventiva de mayor impacto poblacional en reducir hospitalizaciones por bronquiolitis grave por virus respiratorio sincicial en recién nacidos en Chile."
-    },
-    {
-      "file": "s17_g01",
-      "text": "¿Cuál es la estrategia implementada con éxito en nuestro país?"
-    },
-    {
-      "file": "s17_g02",
-      "text": "La opción A propone vacuna viva atenuada. La B anticuerpo monoclonal de vida media prolongada Nirsevimab universal al recién nacido. La C Palivizumab mensual universal. La D Oseltamivir. La E solución salina hipertónica. Piénsalo."
-    },
-    {
-      "file": "s17_g03",
-      "text": "La respuesta correcta es la B. Nirsevimab es el anticuerpo monoclonal universal de dosis única que redujo en más de un ochenta por ciento las hospitalizaciones por sincicial."
-    },
-    {
-      "file": "s18_g00",
-      "text": "Graben los tres niveles de Tal: cinco o menos es leve y va a domicilio; seis a ocho es moderado e ingresa a hospitalización abreviada; nueve o más es severo y se hospitaliza de inmediato."
-    },
-    {
-      "file": "s18_g01",
-      "text": "La primera hora es salbutamol cada diez minutos; si persiste en moderado se agrega prednisona oral y se hace la segunda hora; si no responde tras dos horas, el niño se hospitaliza."
-    },
-    {
-      "file": "s18_g02",
-      "text": "Frente a un lactante desaturando con cianosis, la primera medida impostergable es el oxígeno. Ningún fármaco sustituye la corrección inmediata de la hipoxemia tisular."
-    },
-    {
-      "file": "s18_g03",
-      "text": "El tórax silente en el score de Tal advierte agotamiento inminente. Si te llevas una sola idea de hoy: en la bronquiolitis típica los corticoides y broncodilatadores no cambian el pronóstico, lo que salva vidas es la oxigenoterapia y la hidratación. Nos vemos en la próxima clase."
+      "file": "s13_g04",
+      "text": "Y si te llevas una sola idea de hoy: en la bronquiolitis, el score de Tal decide todo, y el oxígeno es lo que de verdad cambia el pronóstico. Nos vemos en la próxima clase, con la laringitis."
     }
   ]
 }
