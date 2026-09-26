@@ -110,7 +110,7 @@ module.exports = {
         ] },
         { title: 'Histología', tag: 'La más frecuente', kind: 'criteria', items: [
           { t: 'Carcinoma seroso de alto grado', d: 'Se origina en la fimbria tubárica',
-            say: 'El tipo más frecuente es el carcinoma epitelial seroso de alto grado, que se origina en la fimbria de la trompa, no en el ovario mismo.' },
+            say: 'El tipo más frecuente es el carcinoma epitelial seroso de alto grado, que explica entre setenta y ochenta de cada cien casos y se origina en la fimbria de la trompa, no en el ovario mismo.' },
         ] },
       ],
     },
@@ -188,7 +188,7 @@ module.exports = {
         ] },
         { title: 'Nunca puncionar', tag: 'Regla absoluta', kind: 'alert', items: [
           { t: 'Riesgo de siembra peritoneal', d: 'Empeora el estadio y el pronóstico',
-            say: 'Y una regla que no tiene excepción: nunca se punciona una masa ovárica sospechosa. Si rompes la cápsula, siembras células malignas en todo el peritoneo, y empeoras el estadio y el pronóstico de la paciente.' },
+            say: 'Y una regla que no tiene excepción: nunca se punciona una masa ovárica sospechosa. Si rompes la cápsula, siembras células malignas en todo el peritoneo, y un tumor que estaba confinado al ovario pasa a un estadio peor, con mucho peor pronóstico para la paciente.' },
         ] },
       ],
     },

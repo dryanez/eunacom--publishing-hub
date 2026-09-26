@@ -1,5 +1,5 @@
-// Clase 20.16 — guion docente escrito a mano (estándar Módulo 3 · Ginecología).
-// Fuente clínica: books/scripts/dataset_ginecologia.cjs (gin-16).
+// Clase 20.16 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_ginecologia.cjs (gin-16, bloque 4).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,431 +9,257 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Urgencias ginecológicas quirúrgicas, torsión anexial con detorsión ovárica conservadora por laparoscopía y quiste hemorrágico roto con manejo expectante',
-      say: 'Bienvenidos a la última clase del módulo de ginecología, dedicada a las urgencias ginecológicas quirúrgicas, un capítulo imprescindible en los servicios de urgencia y en el examen EUNACOM. En esta sesión aprenderemos a diagnosticar con rapidez una torsión anexial mediante el cuadro clínico y el Doppler ginecológico, dominaremos el cambio de paradigma quirúrgico hacia la detorsión conservadora para salvar el ovario, y fijaremos las conductas entre el manejo expectante del quiste hemorrágico roto y la cirugía. Comencemos.',
+      subtitle: 'Dolor pélvico agudo: cuándo es pabellón ya y cuándo puedes esperar',
+      say: 'Bienvenido a la clase de hoy. Vamos a ver las dos urgencias ginecológicas quirúrgicas más preguntadas: la torsión anexial y el quiste ovárico hemorrágico roto. Vas a aprender a distinguirlas con la clínica y la ecografía, y sobre todo, vas a entender por qué una siempre va a pabellón y la otra casi nunca. Empecemos por la que no puede esperar.',
     },
 
     {
       type: 'flow',
-      kicker: 'Mecanismo patológico vascular',
-      title: 'Fisiopatología Vascular de la Torsión Anexial y el Hemoperitoneo',
+      kicker: 'Torsión anexial',
+      title: '¿Por qué es una emergencia?',
       nodes: [
-        { id: 'qui', col: 0, row: 1, k: 'start', t: 'Quiste anexial móvil', s: 'Masa ovárica de cinco a diez centímetros; teratoma quístico maduro o quiste folicular' },
-        { id: 'rot', col: 1, row: 1, k: 'mech', t: 'Rotación del pedículo vascular', s: 'Torsión sobre el ligamento infundíbulo-pélvico con bloqueo del retorno venoso' },
-        { id: 'ede', col: 2, row: 1, k: 'effect', t: 'Edema masivo e isquemia', s: 'Congestión tisular, colapso de la irrigación arterial y riesgo de necrosis gangrenosa' },
-        { id: 'det', col: 3, row: 1, k: 'good', t: 'Detorsión laparoscópica', s: 'Desenrollar el ovario de urgencia para restaurar la perfusión y preservar la fertilidad' },
+        { id: 'quiste', col: 0, row: 1, k: 'cause', t: 'Quiste de 5 a 10 cm', s: 'Sobre todo un teratoma' },
+        { id: 'rot', col: 1, row: 1, k: 'mech', t: 'Rotación del pedículo', s: 'Sobre el ligamento infundíbulo-pélvico' },
+        { id: 'ven', col: 2, row: 0, k: 'effect', t: 'Se ocluye la vena', s: 'Congestión y edema del ovario' },
+        { id: 'art', col: 3, row: 1, k: 'risk', t: 'Se ocluye la arteria', s: 'Isquemia y necrosis' },
+        { id: 'horas', col: 4, row: 1, k: 'alert', t: 'Horas para actuar', s: 'La demora pierde el ovario' },
       ],
       edges: [
-        { from: 'qui', to: 'rot', label: 'movimiento brusco' },
-        { from: 'rot', to: 'ede', label: 'oclusión vascular' },
-        { from: 'ede', to: 'det', label: 'cirugía urgente' },
+        { from: 'quiste', to: 'rot' }, { from: 'rot', to: 'ven' }, { from: 'ven', to: 'art', label: 'si sigue' }, { from: 'art', to: 'horas' },
       ],
       steps: [
-        {
-          show: ['qui', 'rot'],
-          note: 'Rotación axial de masas móviles de tamaño intermedio',
-          say: 'Los tumores ováricos benignos de cinco a diez centímetros de diámetro, especialmente los teratomas quísticos por su contenido graso flotante, presentan gran movilidad. Un movimiento brusco puede hacer rotar al ovario sobre su ligamento suspensorio, ocluyendo inicialmente las venas y los linfáticos de baja presión.',
-        },
-        {
-          show: ['ede', 'det'],
-          note: 'Congestión, isquemia arterial y rescate quirúrgico',
-          say: 'El flujo arterial continuo sin drenaje venoso genera un edema estromal masivo que termina por colapsar las arterias ováricas produciendo isquemia aguda. Si no se interviene de urgencia desenrollando el pedículo mediante laparoscopía, el órgano sufre necrosis hemorrágica irreversible en menos de veinticuatro horas.',
-        },
+        { show: ['quiste'], note: 'El factor de riesgo que más se pregunta',
+          say: 'La torsión anexial casi siempre tiene el mismo gatillante: un quiste de ovario de cinco a diez centímetros, y el que más se tuerce es el teratoma quístico maduro, por su contenido graso que flota.' },
+        { show: ['rot'], note: 'El ovario gira sobre su propio eje vascular',
+          say: 'Ese quiste hace que el ovario gire sobre su pedículo, el ligamento infundíbulo-pélvico, que es justo por donde pasan la arteria y la vena ováricas.' },
+        { show: ['ven'], note: 'Primero se tapa lo de baja presión',
+          say: 'Como la vena tiene menos presión, se ocluye primero. Eso genera una congestión pasiva enorme: el ovario se llena de líquido y se edematiza.' },
+        { show: ['art'], note: 'Ahí ya no hay vuelta atrás',
+          say: 'Si la torsión sigue, se ocluye también la arteria, y ahí empieza la isquemia real, que termina en necrosis si nadie interviene.' },
+        { show: ['horas'], note: 'Por eso es una emergencia de verdad',
+          say: 'Y todo esto ocurre en horas, no en días. Pasadas veinticuatro a treinta y seis horas, el ovario ya está perdido. Por eso es una emergencia quirúrgica de verdad.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Mecánica de la torsión',
-      title: 'Torsión Anexial: Fisiopatología y Factores Predisponentes',
+      kicker: 'Torsión anexial',
+      title: 'Cómo se presenta y cómo se confirma',
       cards: [
-        {
-          title: 'Tamaño Óptimo y Movilidad de la Masa',
-          tag: 'Masas de cinco a diez centímetros',
-          kind: 'key',
-          items: [
-            {
-              t: 'Quistes de tamaño intermedio móviles',
-              d: 'Las masas de 5 a 10 cm tienen el peso y la holgura ligamentosa justa para rotar sobre su eje',
-              say: 'Los quistes que con mayor frecuencia se tuercen miden entre cinco y diez centímetros. Masas menores a cinco centímetros carecen del peso y momento cinético necesarios para rotar, mientras que los tumores ováricos gigantes quedan aprisionados en la pelvis sin espacio anatómico libre para completar el giro.',
-            },
-            {
-              t: 'Teratoma quístico maduro (Quiste dermoide)',
-              d: 'Tumor benigno más frecuentemente asociado a torsión por su alto contenido sebáceo ligero',
-              say: 'El teratoma quístico maduro o quiste dermoide es la neoplasia que más comúnmente se tuerce en mujeres jóvenes, debido a que su abundante contenido de sebo, pelos y grasa disminuye su densidad relativa frente al líquido pélvico, facilitando su flotabilidad y balanceo mecánico continuo.',
-            },
-          ],
-        },
-        {
-          title: 'Factores Protectores contra la Torsión',
-          tag: 'Adherencias y fijación tumoral',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Tumores malignos y adherencias pélvicas',
-              d: 'El cáncer ovárico y la endometriosis grave fijan el anexo impidiendo mecánicamente la torsión',
-              say: 'Los tumores ováricos malignos invasores y los endometriomas rara vez sufren torsión. Esto se explica porque desencadenan una intensa reacción inflamatoria peritumoral con densas adherencias fibrosas que fijan rígidamente el anexo a las paredes pélvicas, impidiendo cualquier rotación axial sobre su eje vascular.',
-            },
-            {
-              t: 'Predisposición del lado derecho',
-              d: 'La torsión es más común en el ovario derecho por mayor longitud libre del ligamento infundíbulo-pélvico',
-              say: 'Existe una clara y marcada preferencia anatómica por el anexo derecho en más del sesenta por ciento de los casos. La presencia del colon sigmoides y su meso en la fosa ilíaca izquierda ocupa espacio y actúa como una barrera anatómica protectora que amortigua la movilidad del ovario izquierdo.',
-            },
-          ],
-        },
+        { title: 'Clínica clásica', tag: 'La tríada que se pregunta', kind: 'alert', items: [
+          { t: 'Dolor unilateral hiperagudo', d: 'Súbito, lancinante, con paroxismos',
+            say: 'La paciente llega con un dolor unilateral hiperagudo, súbito, que a veces cede y vuelve, porque el ovario se tuerce y se destuerce parcialmente.' },
+          { t: 'Vómitos profusos', d: 'En más de 80 de cada 100 casos',
+            say: 'Y casi siempre con vómitos profusos, en más de ochenta de cada cien casos. Es un reflejo vagal por la isquemia, y es un dato que se pregunta mucho.' },
+        ] },
+        { title: 'Ecografía Doppler', tag: 'Lo que confirma la sospecha', kind: 'criteria', items: [
+          { t: 'Ovario aumentado y edematoso', d: 'Con folículos desplazados a la periferia',
+            say: 'La ecografía muestra un ovario mucho más grande de lo normal, edematoso, con los folículos empujados hacia el borde.' },
+          { t: 'Signo del remolino', d: 'Y flujo Doppler ausente o disminuido',
+            say: 'En el pedículo se ve el signo del remolino, y el Doppler muestra el flujo ausente o disminuido. Pero ojo con esto: si hay flujo arterial presente, eso no descarta la torsión, porque el útero también irriga al ovario por otra vía. Si la clínica es sospechosa, se opera igual.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Tratamiento',
+      title: 'Detorsión conservadora: el cambio de paradigma',
+      nodes: [
+        { id: 'sospecha', col: 0, row: 1, k: 'start', t: 'Torsión sospechada', s: 'Clínica y ecografía' },
+        { id: 'lap', col: 1, row: 1, k: 'mech', t: 'Laparoscopía de urgencia', s: 'Sin demora' },
+        { id: 'detor', col: 2, row: 1, k: 'good', t: 'Detorsión conservadora', s: 'Desenrollar el pedículo' },
+        { id: 'negro', col: 3, row: 0, k: 'trap', t: 'Ovario violáceo', s: 'Igual se conserva' },
+        { id: 'ooforec', col: 3, row: 2, k: 'refer', t: 'Ooforectomía', s: 'Solo si hay necrosis gangrenosa' },
+      ],
+      edges: [
+        { from: 'sospecha', to: 'lap' }, { from: 'lap', to: 'detor' }, { from: 'detor', to: 'negro' }, { from: 'detor', to: 'ooforec', label: 'excepción' },
+      ],
+      steps: [
+        { show: ['sospecha', 'lap'], note: 'No se espera a confirmar todo',
+          say: 'Con la sospecha clínica y ecográfica, el tratamiento es laparoscopía de urgencia, sin demora.' },
+        { show: ['detor'], note: 'Ya no se saca el ovario de entrada',
+          say: 'Y la conducta de elección hoy es la detorsión conservadora: se desenrolla el pedículo, y se evalúa si el ovario recupera su color y su perfusión.' },
+        { show: ['negro'], note: 'La regla que más se pregunta',
+          say: 'Aquí está la idea que más se pregunta: aunque el ovario se vea negruzco o violáceo, igual se conserva. En más de noventa de cada cien casos, recupera su función con el tiempo. Sacarlo de entrada, sin intentar destorcerlo, es una práctica obsoleta.' },
+        { show: ['ooforec'], note: 'Solo la excepción real',
+          say: 'La ooforectomía queda solo para la necrosis gangrenosa ya establecida, o para la mujer postmenopáusica.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Cuadro clínico y Doppler',
-      title: 'Diagnóstico de Torsión: Dolor Súbito, Vómitos y Signo del Remolino',
+      kicker: 'Quiste hemorrágico',
+      title: 'El otro diagnóstico: roto, no torcido',
       cards: [
-        {
-          title: 'Presentación Clínica Típica',
-          tag: 'Dolor hiperagudo y reflejo vagal',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Dolor pélvico hiperagudo y constante',
-              d: 'Inicio súbito punzante en fosa ilíaca que no cede con analgésicos comunes y empeora en horas',
-              say: 'La paciente consulta por dolor pélvico unilateral de comienzo brutal, lacerante e hiperagudo, de intensidad máxima, que no cede con analgésicos comunes y suele desencadenarse durante el ejercicio físico, relaciones sexuales o giros corporales bruscos.',
-            },
-            {
-              t: 'Náuseas y vómitos alimentarios profusos',
-              d: 'Presentes en más del setenta por ciento por estimulación refleja del plexo simpático ovárico',
-              say: 'Un hallazgo clínico determinante es la presencia concomitante de náuseas intensas y vómitos alimentarios a repetición en más del setenta por ciento de las pacientes, generados por irritación autonómica refleja directa sobre las fibras simpáticas del plexo ovárico y peritonismo local.',
-            },
-          ],
-        },
-        {
-          title: 'Signos en Ecografía Doppler Transvaginal',
-          tag: 'Edema ovárico y signo del remolino',
-          kind: 'key',
-          items: [
-            {
-              t: 'Aumento de volumen con folículos periféricos',
-              d: 'Ovario crecido mayor a cuatro o cinco centímetros con estroma hiperrefráctil y edema masivo',
-              say: 'En la ecografía transvaginal destaca un ovario marcadamente aumentado de volumen, de aspecto globuloso y estroma heterogéneo marcadamente edematoso, con sus pequeños folículos antrales empujados hacia la corteza externa en un patrón característico semejante a un collar de perlas.',
-            },
-            {
-              t: 'Signo del remolino y alteración del flujo Doppler',
-              d: 'Visualización del pedículo enrollado con ausencia o caída crítica del flujo venoso y arterial',
-              say: 'La visualización del pedículo vascular torsionado sobre sí mismo conforma el signo patognomónico del remolino o torbellino. Aunque la ausencia de flujo Doppler venoso y arterial confirma la isquemia severa, la presencia de flujo residual no descarta torsión intermitente o en evolución.',
-            },
-          ],
-        },
+        { title: 'Clínica y gatillante', tag: 'Fase lútea tardía', kind: 'criteria', items: [
+          { t: 'Dolor postcoital', d: 'Días 20 a 26 del ciclo',
+            say: 'El otro gran diagnóstico diferencial es el quiste ovárico hemorrágico roto. El gatillante clásico es la relación sexual, en la fase lútea tardía, entre los días veinte y veintiséis del ciclo.' },
+          { t: 'Sin vómitos, cede lento', d: 'A diferencia de la torsión',
+            say: 'Y a diferencia de la torsión, casi nunca da vómitos, y el dolor cede lento, no en paroxismos.' },
+        ] },
+        { title: 'Ecografía', tag: 'Imagen muy característica', kind: 'key', items: [
+          { t: 'Patrón en red de pesca', d: 'Ecos reticulares por la fibrina',
+            say: 'La ecografía muestra un patrón reticular, en tela de araña o red de pesca, que son hebras de fibrina dentro del quiste.' },
+          { t: 'Líquido libre en Douglas', d: 'Sin flujo Doppler dentro del coágulo',
+            say: 'Y hay líquido libre hemático en el fondo de saco de Douglas, con el coágulo retráctil, sin flujo Doppler adentro.' },
+        ] },
       ],
     },
 
     {
-      type: 'points',
-      kicker: 'Cambio de paradigma quirúrgico',
-      title: 'Manejo Quirúrgico de Torsión: Laparoscopía y Detorsión Ovárica Conservadora',
-      cards: [
-        {
-          title: 'Emergencia Quirúrgica por Laparoscopía',
-          tag: 'El tiempo es tejido ovárico',
-          kind: 'key',
-          items: [
-            {
-              t: 'Laparoscopía de urgencia inmediata',
-              d: 'Abordaje mínimamente invasivo de elección para confirmar el diagnóstico y desenrollar el pedículo',
-              say: 'Ante la sospecha clínica fundada de torsión anexial se debe indicar una laparoscopía quirúrgica de urgencia inmediata. En patología vascular ovárica, el tiempo transcurrido es tejido folicular preservado, y cada hora de retraso incrementa el daño tisular irreversible.',
-            },
-            {
-              t: 'Detorsión ovárica conservadora obligatoria',
-              d: 'Desenrollar el ovario sobre su eje vascular para restablecer de inmediato el flujo sanguíneo',
-              say: 'El procedimiento quirúrgico de elección es la detorsión ovárica conservadora, consistente en desrotar con gentileza las vueltas del ligamento infundíbulo pélvico para restablecer la perfusión microvascular, sin realizar quistectomía en agudo en tejidos edematosos friables.',
-            },
-          ],
-        },
-        {
-          title: 'El Paradigma Moderno de Preservación',
-          tag: '¡Conservar aunque se observe cianótico!',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Conservar el anexo aunque luzca negruzco',
-              d: 'Más del noventa por ciento de los ovarios cianóticos recuperan su función endocrina y fertilidad',
-              say: 'Graben con fuerza este principio para el examen: aunque el ovario se observe cianótico, amoratado o negruzco al ingresar a la cavidad, se debe desenrollar y conservar intacto. Más del noventa por ciento de estos ovarios recuperan completamente su función hormonal y ovulatoria.',
-            },
-            {
-              t: 'Mito del embolismo venoso superado',
-              d: 'La antigua práctica de extirpar sin desenrollar por temor a trombosis pulmonar está proscrita',
-              say: 'La antigua conducta docente de extirpar el anexo en bloque sin desenrollarlo por miedo a soltar émbolos pulmonares ha sido totalmente refutada por estudios clínicos modernos. La ooforectomía primaria en mujeres jóvenes constituye hoy una conducta desaconsejada y mutilante.',
-            },
-          ],
-        },
+      type: 'flow',
+      kicker: 'Quiste hemorrágico',
+      title: 'Casi siempre se resuelve sin cirugía',
+      nodes: [
+        { id: 'roto', col: 0, row: 1, k: 'start', t: 'Quiste hemorrágico roto', s: 'Confirmado por ecografía' },
+        { id: 'estable', col: 1, row: 0, k: 'good', t: 'Estable', s: 'La inmensa mayoría' },
+        { id: 'medico', col: 2, row: 0, k: 'good', t: 'Manejo médico', s: 'Reposo, analgesia, observación' },
+        { id: 'inestable', col: 1, row: 2, k: 'risk', t: 'Inestable', s: 'Hematocrito cae, o hay shock' },
+        { id: 'lapqx', col: 2, row: 2, k: 'alert', t: 'Laparoscopía hemostática', s: 'Solo en este escenario' },
       ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Hemorragia folicular o lútea',
-      title: 'Quiste Ovárico Hemorrágico Roto: Fisiopatología y Gatillante Coital',
-      cards: [
-        {
-          title: 'Mecanismo Fisiopatológico y Momento del Ciclo',
-          tag: 'Fase lútea tardía en días 20 a 26',
-          kind: 'key',
-          items: [
-            {
-              t: 'Sangrado dentro del cuerpo lúteo vascularizado',
-              d: 'Hemorragia interna de la cavidad lútea postovulatoria con distensión capsular y rotura secundaria',
-              say: 'El quiste ovárico hemorrágico se produce por un sangrado intrínseco exagerado dentro del cuerpo lúteo ricamente vascularizado, habitualmente en la fase lútea tardía entre los días veinte y veintiséis del ciclo, provocando sobretensión capsular y posterior fisura peritoneal.',
-            },
-            {
-              t: 'Gatillante clásico: Dolor durante o tras el coito',
-              d: 'Aparición repentina de dolor pélvico agudo postcoital o tras ejercicio intenso premenstrual',
-              say: 'El evento agudo se desencadena clásicamente durante o inmediatamente después del coito sexual o de una sesión de actividad física intensa en los días premenstruales, producto del choque mecánico directo que rompe la delgada pared del quiste hemático a tensión.',
-            },
-          ],
-        },
-        {
-          title: 'Descarte Obligatorio de Embarazo Ectópico',
-          tag: 'Regla de seguridad inquebrantable',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Test de embarazo o gonadotropina en sangre obligatorio',
-              d: 'Todo dolor pélvico agudo con líquido libre en edad fértil exige descartar embarazo ectópico roto',
-              say: 'Ante toda mujer en edad fértil que consulta con dolor pélvico súbito y líquido libre peritoneal, es un deber inexcusable descartar un embarazo ectópico roto mediante una determinación inmediata de gonadotropina coriónica humana cualitativa o cuantitativa.',
-            },
-            {
-              t: 'Confirmación de prueba de embarazo negativa',
-              d: 'Una prueba de embarazo negativa orienta con certeza a quiste lúteo roto o torsión anexial',
-              say: 'Al constatar un resultado rigurosamente negativo en la prueba de gestación, se descarta la emergencia gestacional ectópica y el diagnóstico se orienta hacia un quiste ovárico lúteo roto o una torsión ovárica aguda.',
-            },
-          ],
-        },
+      edges: [
+        { from: 'roto', to: 'estable' }, { from: 'estable', to: 'medico' }, { from: 'roto', to: 'inestable' }, { from: 'inestable', to: 'lapqx' },
       ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Ecografía y manejo médico',
-      title: 'Ecografía en Red de Pesca y Manejo Conservador versus Quirúrgico',
-      cards: [
-        {
-          title: 'Patrón Ecográfico Patognomónico',
-          tag: 'Red de pesca o tela de araña',
-          kind: 'key',
-          items: [
-            {
-              t: 'Quiste con patrón reticular fibrinoide',
-              d: 'Contenido heterogéneo con múltiples hebras finas entrecruzadas en red de pesca sin flujo Doppler interno',
-              say: 'El signo ecográfico característico es una masa anexial quística con ecos internos lineales finos y desordenados que forman un patrón reticular en red de pesca o tela de araña, originados por la retracción de hebras de fibrina dentro del coágulo en evolución.',
-            },
-            {
-              t: 'Hemoperitoneo en fondo de saco de Douglas',
-              d: 'Líquido libre anecoico o particulado en Douglas que traduce la sangre derramada autolimitada',
-              say: 'Es frecuente apreciar líquido libre pélvico en el fondo de saco de Douglas, correspondiente a la sangre derramada desde el lecho quístico fisurado, la cual suele ser autolimitada en volumen y reabsorberse gradualmente sin secuelas.',
-            },
-          ],
-        },
-        {
-          title: 'Manejo Médico Conservador de Elección',
-          tag: 'Paciente hemodinámicamente estable',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Conducta expectante en la inmensa mayoría',
-              d: 'Hospitalización en observación por veinticuatro horas, reposo, analgesia y hematocrito seriado',
-              say: 'En pacientes hemodinámicamente estables, con presión arterial y pulso normales y hematocrito sin variaciones significativas, la conducta médica de elección es el manejo médico conservador con reposo, hidratación, analgesia intravenosa y vigilancia seriada del hemograma.',
-            },
-            {
-              t: 'Cirugía reservada solo para inestabilidad hemodinámica',
-              d: 'Laparoscopía de urgencia si hay caída de presión arterial, hemoperitoneo masivo o taquicardia',
-              say: 'La intervención quirúrgica por laparoscopía se restringe de manera estricta a casos excepcionales con descompensación hemodinámica, hipotensión refractaria, taquicardia persistente o descenso pronunciado del hematocrito por sangrado activo no contenido.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Diagnóstico diferencial',
-      title: 'Diagnóstico Diferencial de Urgencias Ginecológicas Pélvicas Agudas',
-      head: ['Cuadro Clínico', 'Gatillante y Características', 'Signos Clave y Laboratorio', 'Conducta de Elección'],
-      rows: [
-        {
-          cells: ['Torsión Anexial', 'Dolor súbito constante y vómitos profusos', 'Signo del remolino Doppler, ovario edematoso, beta hCG (-)', 'Laparoscopía de urgencia con detorsión ovárica'],
-          say: 'La torsión anexial cursa con dolor súbito unilateral, náuseas y vómitos profusos, demostrando el signo del remolino al Doppler color y demandando laparoscopía de urgencia con detorsión conservadora.',
-        },
-        {
-          cells: ['Quiste Hemorrágico Roto', 'Dolor agudo postcoital en fase lútea tardía', 'Patrón reticular en red de pesca, líquido libre, estable', 'Manejo médico conservador expectante con analgesia y reposo'],
-          say: 'El quiste roto debuta típicamente postcoito en fase lútea con patrón ecográfico en red de pesca; si los signos vitales y el hematocrito son estables, se opta por observación médica expectante.',
-        },
-        {
-          cells: ['Embarazo Ectópico Roto', 'Atraso menstrual, dolor pélvico y metrorragia', 'Prueba de subunidad beta hCG POSITIVA, masa anexial', 'Laparoscopía o laparotomía exploradora de urgencia'],
-          say: 'El embarazo ectópico roto presenta antecedente de atraso menstrual, metrorragia escasa y prueba de gestación positiva en sangre u orina, requiriendo cirugía de urgencia inmediata para hemostasia salpingocéntrica.',
-        },
-        {
-          cells: ['Enfermedad Pélvica Inflamatoria', 'Dolor sordo bilateral tras regla y fiebre', 'Tríada de Hager, leucorrea purulenta, Doppler periférico', 'Antibioticoterapia triple por 14 días (ceftriaxona + doxiciclina)'],
-          say: 'La infección pélvica es bilateral, de curso subagudo postmenstrual, con fiebre y tríada dolorosa de Hager, tratándose de inicio con antibióticos sistémicos de amplio espectro sin requerir cirugía en fase temprana.',
-        },
+      steps: [
+        { show: ['roto', 'estable'], note: 'El escenario más frecuente, por lejos',
+          say: 'Con el quiste hemorrágico confirmado, lo primero es ver cómo está la paciente. La inmensa mayoría está estable.' },
+        { show: ['medico'], note: 'Se reabsorbe solo',
+          say: 'Ahí el manejo es médico: observación por veinticuatro horas, reposo, analgesia, y control seriado del hematocrito. El sangrado casi siempre se autolimita.' },
+        { show: ['inestable'], note: 'La minoría que sí opera',
+          say: 'Solo si el hematocrito sigue cayendo, o la paciente entra en shock, cambia la conducta.' },
+        { show: ['lapqx'], note: 'Para coagular o para hacer cistectomía',
+          say: 'Ahí sí, laparoscopía de urgencia, para aspirar el hemoperitoneo y coagular el lecho ovárico. Fíjate en el contraste con la torsión: ahí la cirugía es casi siempre, y aquí es la excepción.' },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de emergencia',
-      title: 'Algoritmo de Abordaje del Dolor Pélvico Agudo Ginecológico',
-      say: 'Revisemos el algoritmo estructurado para clasificar y resolver con rapidez una emergencia ginecológica aguda en el servicio de urgencia.',
+      intro: 'Ahora pongamos las dos urgencias, una al lado de la otra, en un solo árbol de decisión.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Torsión anexial vs quiste hemorrágico roto',
+      head: ['Parámetro', 'Torsión anexial', 'Quiste hemorrágico roto'],
+      rows: [
+        { cells: ['Vómitos', 'Profusos, en más de 80 de cada 100', 'Casi nunca'],
+          say: 'Repasemos las trampas comparando las dos. Los vómitos profusos son de la torsión, no del quiste hemorrágico.' },
+        { cells: ['Gatillante', 'Idiopático o quiste preexistente', 'Relación sexual, fase lútea tardía'],
+          say: 'El gatillante también difiere: la torsión suele ser idiopática, sobre un quiste ya presente; el quiste hemorrágico se dispara con la relación sexual.' },
+        { cells: ['Doppler', 'Ausente o disminuido en el ovario', 'Ausente solo dentro del coágulo'],
+          say: 'En el Doppler, la torsión compromete todo el ovario; el quiste hemorrágico solo no tiene flujo dentro del coágulo mismo.' },
+        { cells: ['Ovario violáceo en cirugía', 'Se conserva igual', 'No aplica'],
+          say: 'Y si en la cirugía el ovario se ve violáceo por la torsión, se conserva igual: sacarlo de entrada es la trampa más clásica de todo el tema.' },
+        { cells: ['Conducta habitual', 'Laparoscopía de urgencia siempre', 'Manejo médico si está estable'],
+          say: 'La conducta habitual es opuesta: la torsión es cirugía siempre; el quiste hemorrágico es manejo médico, salvo que la paciente se desestabilice.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Torsión Ovárica · Cirugía de Elección',
-      stem: 'Una joven de 21 años consulta por dolor intenso y súbito en fosa ilíaca izquierda de 5 horas de evolución que se acompaña de náuseas y múltiples vómitos alimentarios. La prueba de embarazo es negativa. La ecografía transvaginal Doppler revela un ovario izquierdo aumentado de volumen a 7 cm con estroma marcadamente edematoso y ausencia de flujo vascular al Doppler color, visualizándose el signo del remolino en el pedículo.',
-      question: '¿Cuál es el tratamiento médico-quirúrgico inmediato más adecuado para esta paciente?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Mujer de 26 años, nulípara, consulta por dolor súbito en fosa ilíaca izquierda de 3 horas, intensidad 9/10, con 3 episodios de vómitos. Test de embarazo negativo. La ecografía Doppler muestra un ovario izquierdo de 8 cm, edematoso, con un quiste de 6 cm compatible con teratoma, y ausencia de flujo venoso.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Prescribir analgesia con ketorolaco endovenoso y enviar a reposo en domicilio' },
-        { letter: 'B', text: 'Laparoscopía de urgencia inmediata para detorsión ovárica y preservación del anexo' },
-        { letter: 'C', text: 'Punción transvaginal evacuadora guiada por ecografía' },
-        { letter: 'D', text: 'Tratamiento antibiótico endovenoso para enfermedad pélvica inflamatoria' },
-        { letter: 'E', text: 'Ooforectomía radical izquierda abierta sin desenrollar el ovario' },
+        { letter: 'A', text: 'Analgesia endovenosa y alta con control ambulatorio' },
+        { letter: 'B', text: 'Laparoscopía de urgencia para detorsión ovárica conservadora' },
+        { letter: 'C', text: 'Ooforectomía izquierda abierta, sin intentar destorcer' },
+        { letter: 'D', text: 'Antibióticos endovenosos por sospecha de proceso inflamatorio pélvico' },
+        { letter: 'E', text: 'Punción ecoguiada del quiste para aliviar el dolor' },
       ],
       correct: 'B',
-      explanation: 'La Torsión Ovárica es una emergencia quirúrgica isquémica por compromiso vascular del ligamento infundíbulo-pélvico. En mujeres jóvenes en edad reproductiva, el estándar quirúrgico internacional exige la intervención inmediata mediante Laparoscopía de urgencia para realizar la DETORSIÓN OVÁRICA CONSERVADORA (desenrollar el anexo sobre su eje) para restaurar el flujo sanguíneo y preservar el parénquima ovárico y la fertilidad. El ovario tiene una extraordinaria capacidad de recuperación funcional aun tras horas de isquemia clínica, por lo que la ooforectomía de entrada está desaconsejada.',
+      explanation: 'Dolor unilateral hiperagudo con vómitos profusos, un quiste de riesgo y ausencia de flujo venoso en la ecografía Doppler: es una torsión anexial. La conducta es laparoscopía de urgencia con detorsión ovárica conservadora, preservando el órgano aunque se vea comprometido.',
       say: {
-        stem: 'Joven de veintiún años con dolor súbito e intenso en fosa ilíaca izquierda, vómitos repetidos, prueba de embarazo negativa y ecografía Doppler con ovario de siete centímetros y signo del remolino.',
-        question: '¿Cuál es el tratamiento médico quirúrgico inmediato más adecuado para esta paciente?',
-        options: 'La opción A propone analgesia y reposo en domicilio. La B laparoscopía de urgencia para detorsión ovárica y preservación del anexo. La C punción evacuadora. La D antibióticos endovenosos. La E ooforectomía radical sin desenrollar. Piénsalo.',
-        answer: 'La respuesta correcta es la B. La torsión ovárica exige laparoscopía de urgencia para desenrollar el pedículo vascular y preservar el órgano.',
+        stem: 'Vamos con un caso. Mujer de veintiséis años, nulípara, con dolor súbito en la fosa ilíaca izquierda de tres horas, de intensidad nueve sobre diez, con tres episodios de vómitos. El test de embarazo es negativo. La ecografía Doppler muestra un ovario izquierdo de ocho centímetros, edematoso, con un quiste de seis centímetros compatible con teratoma, y ausencia de flujo venoso.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: analgesia y alta ambulatoria, laparoscopía de urgencia con detorsión conservadora, ooforectomía abierta sin destorcer, antibióticos por proceso inflamatorio pélvico, o punción ecoguiada del quiste. Piénsalo.',
+        answer: 'Es la B. Todo calza con la torsión: dolor hiperagudo, vómitos profusos, un teratoma como factor de riesgo, y ausencia de flujo venoso. Se opera de urgencia, y se intenta destorcer y conservar el ovario, aunque se vea comprometido. Dar de alta, no operar, u operar sacando el ovario sin destorcer, son todos errores graves.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Quiste Ovárico Hemorrágico Roto · Manejo Expectante',
-      stem: 'Una paciente de 24 años consulta por dolor pélvico agudo de inicio brusco tras mantener relaciones sexuales coitales hace 3 horas. Se encuentra en el día 23 de su ciclo menstrual (fase lútea tardía). Signos vitales: PA 118/74 mmHg, FC 78 lpm, afebril. Abdomen blando, sensible en fosa ilíaca derecha sin signos peritoneales. La prueba rápida de embarazo es negativa. La ecografía transvaginal muestra una imagen quística ovárica derecha de 3.5 cm con múltiples septos finos reticulares en red de pesca y escaso líquido libre anecoico en el fondo de saco de Douglas. Su hematocrito es de 40% y se mantiene estable tras 4 horas de observación.',
-      question: '¿Cuál es la conducta médica indicada para esta paciente?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 58',
+      stem: 'Una paciente de 30 años consulta por dolor en la fosa ilíaca derecha, asociado a vómitos alimentarios, que inició hace 48 horas. Al examen físico: FC 110 por minuto, resistencia muscular involuntaria en la fosa ilíaca derecha. La ecografía transvaginal visualiza un tumor anexial derecho quístico multiloculado, de 10 cm de diámetro, con ausencia de flujo al Doppler color.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Laparotomía exploradora de urgencia para ooforectomía derecha' },
-        { letter: 'B', text: 'Manejo médico conservador expectante con analgesia oral, reposo y control ambulatorio' },
-        { letter: 'C', text: 'Cistectomía ovárica laparoscópica inmediata' },
-        { letter: 'D', text: 'Inicio de quimioterapia con metotrexato parenteral' },
-        { letter: 'E', text: 'Transfusión inmediata de 2 unidades de glóbulos rojos' },
+        { letter: 'A', text: 'Apendicitis aguda' },
+        { letter: 'B', text: 'Embarazo ectópico' },
+        { letter: 'C', text: 'Proceso inflamatorio pélvico' },
+        { letter: 'D', text: 'Tumor anexial torcido' },
+        { letter: 'E', text: 'Cáncer de ovario' },
       ],
-      correct: 'B',
-      explanation: 'El cuadro clínico de dolor pélvico agudo postcoital en fase lútea tardía, asociado a los hallazgos ecográficos patognomónicos de un quiste con patrón reticular en red de pesca y líquido libre escaso en una paciente hemodinámicamente estable (PA 118/74, FC 78, hematocrito normal de 40%), corresponde a un Quiste Ovárico Hemorrágico Roto no complicado. La conducta de elección es el MANEJO MÉDICO CONSERVADOR EXPECTANTE con analgesia, reposo y observación clínica. El sangrado del lecho quístico se autolimita espontáneamente y el hemoperitoneo leve se reabsorbe sin necesidad de cirugía.',
+      correct: 'D',
+      explanation: 'Aunque la clínica imita una apendicitis, el tumor anexial de 10 cm sin flujo Doppler es una torsión ovárica. El tamaño mayor a 10 cm es el factor de riesgo de mayor peso, y aun con Doppler normal, la sospecha clínica obliga a operar.',
       say: {
-        stem: 'Paciente de veinticuatro años con dolor pélvico agudo postcoital en fase lútea tardía, hemodinámicamente estable, con quiste ovárico en red de pesca y líquido libre escaso.',
-        question: '¿Cuál es la conducta médica indicada para esta paciente?',
-        options: 'La opción A propone laparotomía de urgencia con ooforectomía. La B manejo médico conservador expectante con analgesia, reposo y observación. La C cistectomía laparoscópica. La D metotrexato. La E transfusión de glóbulos rojos. Piénsalo.',
-        answer: 'La respuesta correcta es la B. Al encontrarse hemodinámicamente estable con hematocrito normal, el quiste hemorrágico roto se maneja de forma conservadora expectante.',
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta años, con dolor en la fosa ilíaca derecha y vómitos, de cuarenta y ocho horas de evolución. Al examen tiene la frecuencia cardíaca en ciento diez, con resistencia muscular involuntaria en la fosa ilíaca derecha. La ecografía muestra un tumor anexial derecho, quístico, multiloculado, de diez centímetros, sin flujo Doppler.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: apendicitis aguda, embarazo ectópico, proceso inflamatorio pélvico, tumor anexial torcido, o cáncer de ovario. Piénsalo.',
+        answer: 'Es la D. El cuadro se parece a una apendicitis, y esa es justo la trampa. Pero hay un tumor anexial de diez centímetros, que es un tamaño de alto riesgo, sin flujo Doppler: eso es una torsión. Y recuerda: aunque el Doppler hubiera sido normal, con esta clínica y este tamaño, igual se opera.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2017 · Pregunta 169',
+      stem: 'Una paciente de 19 años, con ciclos menstruales regulares, consulta por dolor abdominal intenso, mayor en la fosa ilíaca izquierda. Su fecha de última regla fue hace 20 días. Al examen físico presenta dolor a la palpación con signos peritoneales esbozados. El test de embarazo es negativo, y la ecografía transvaginal muestra una lesión anexial mixta de 8 cm, con líquido libre en moderada cantidad.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Cuerpo lúteo hemorrágico' },
+        { letter: 'B', text: 'Cuerpo lúteo roto' },
+        { letter: 'C', text: 'Apendicitis aguda' },
+        { letter: 'D', text: 'Torsión ovárica' },
+        { letter: 'E', text: 'Absceso tubo-ovárico' },
+      ],
+      correct: 'A',
+      explanation: 'El día 20 del ciclo corresponde a la fase lútea, y la imagen mixta con líquido libre, sin cortejo vegetativo intenso ni signos de compromiso vascular, es el cuadro clásico del cuerpo lúteo hemorrágico, distinto de la torsión y del cuerpo lúteo ya roto con inestabilidad.',
+      say: {
+        stem: 'Una pregunta real más, del EUNACOM de julio de dos mil diecisiete. Paciente de diecinueve años, con ciclos regulares, con dolor abdominal intenso en la fosa ilíaca izquierda. Su última regla fue hace veinte días. Al examen tiene dolor con signos peritoneales esbozados, el test de embarazo es negativo, y la ecografía muestra una lesión anexial mixta de ocho centímetros, con líquido libre en cantidad moderada.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: cuerpo lúteo hemorrágico, cuerpo lúteo roto, apendicitis aguda, torsión ovárica, o absceso tubo-ovárico. Piénsalo.',
+        answer: 'Es la A. Fíjate en el día del ciclo: el veinte cae justo en la fase lútea, cuando el cuerpo lúteo puede sangrar y crecer. La imagen mixta con líquido libre encaja con eso. No hay el cortejo vegetativo intenso de la torsión, y no hay compromiso hemodinámico como para hablar de un cuerpo lúteo ya roto e inestable.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Puntos clave EUNACOM',
-      title: 'Reglas de Oro en Urgencias Ginecológicas Quirúrgicas',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Torsión Anexial y Rescate del Ovario',
-          tag: 'Detorsión conservadora obligatoria',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Dolor hiperagudo con náuseas y vómitos',
-              d: 'Tríada clásica de sospecha; la ecografía Doppler evidencia edema y signo del remolino',
-              say: 'El dolor súbito unilateral asociado a náuseas y vómitos orienta fuertemente a torsión, confirmándose con Doppler ante el signo del remolino.',
-            },
-            {
-              t: '¡Desenrollar y preservar el anexo!',
-              d: 'Laparoscopía de urgencia para detorsión; conservar el ovario aunque luzca cianótico',
-              say: 'El manejo de elección es la laparoscopía para detorsión conservadora; el ovario se preserva siempre en jóvenes aun cuando luzca cianótico.',
-            },
-          ],
-        },
-        {
-          title: 'Quiste Hemorrágico Roto',
-          tag: 'Dolor postcoital y estabilidad hemodinámica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Dolor postcoito en fase lútea tardía',
-              d: 'Fisura de quiste lúteo con ecografía en red de pesca y descarte obligatorio de embarazo',
-              say: 'El quiste lúteo roto se gatilla tras el coito en días previos a la menstruación con ecografía en red de pesca y prueba de gestación negativa.',
-            },
-            {
-              t: 'Manejo conservador si la paciente está estable',
-              d: 'Reposo y analgesia; la cirugía laparoscópica solo se indica si hay inestabilidad o hemorragia activa',
-              say: 'El quiste roto con hemoperitoneo e inestabilidad hemodinámica exige cirugía de urgencia. Si te llevas una sola idea de hoy: un tumor ovárico con componentes sólidos, tabiques gruesos y ascitis en la postmenopausia exige sospechar cáncer y derivar a ginecología oncológica. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Torsión anexial', tag: 'Cirugía siempre', kind: 'alert', items: [
+          { t: 'Vómitos profusos + dolor hiperagudo', d: 'Con un quiste de riesgo detrás',
+            say: 'Cerremos con las reglas de oro. Dolor hiperagudo con vómitos profusos, sobre un quiste de riesgo: piensa en torsión.' },
+          { t: 'Detorsión conservadora', d: 'Aunque el ovario se vea violáceo',
+            say: 'Y la conducta es laparoscopía de urgencia, con detorsión conservadora, aunque el ovario se vea violáceo.' },
+        ] },
+        { title: 'Quiste hemorrágico', tag: 'Manejo médico', kind: 'key', items: [
+          { t: 'Postcoital, fase lútea tardía', d: 'Patrón en red de pesca',
+            say: 'El quiste hemorrágico aparece tras la relación sexual, en fase lútea tardía, con el patrón en red de pesca.' },
+          { t: 'Cirugía solo si hay inestabilidad', d: 'La mayoría se maneja médico',
+            say: 'Y se opera solo si la paciente se desestabiliza. Si te llevas una sola idea de hoy: la torsión siempre se opera, y el quiste hemorrágico casi nunca. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Abordaje del Dolor Pélvico Agudo Ginecológico',
-    root: N(
-      'start',
-      'Mujer en Edad Fértil con Dolor Pélvico Agudo en Servicio de Urgencia',
-      'Signos vitales · palpación abdominal y bimanual · prueba rápida de embarazo en orina obligatoria',
-      'Iniciamos el abordaje evaluando estabilidad hemodinámica y descartando embarazo con prueba de orina.',
-      [
-        'Prueba de embarazo NEGATIVA con sospecha de patología ovárica mecánica o hemorrágica',
-        N(
-          'q',
-          '¿Cuál es el hallazgo en la ecografía transvaginal con Doppler color?',
-          'Evaluación de estroma ovárico, perfusión Doppler del pedículo y líquido libre en Douglas',
-          'Determinamos el diagnóstico ecográfico entre compromiso vascular isquémico o hemorragia quística.',
-          [
-            'Ovario aumentado de volumen con edema, signo del remolino y ausencia de flujo Doppler',
-            N(
-              'alert',
-              'Torsión Anexial: LAPAROSCOPÍA DE URGENCIA INMEDIATA',
-              'Detorsión ovárica conservadora desenrollando el pedículo · ¡Preservar aunque esté cianótico!',
-              'Ante torsión anexial realizamos laparoscopía de urgencia para detorsión y conservación ovárica.',
-            ),
-          ],
-          [
-            'Quiste con hebras de fibrina en red de pesca y líquido libre pélvico en Douglas',
-            N(
-              'q',
-              '¿Se encuentra la paciente hemodinámicamente estable?',
-              'Presión arterial, frecuencia cardíaca y hematocrito seriado en observación',
-              'Evaluamos si la paciente con quiste hemorrágico roto conserva estabilidad hemodinámica.',
-              [
-                'Paciente estable sin signos de shock ni caída del hematocrito',
-                N(
-                  'ok',
-                  'Manejo Médico Conservador Expectante',
-                  'Observación clínica por veinticuatro horas con analgesia parenteral y reposo absoluto',
-                  'Si está estable indicamos manejo médico conservador expectante con analgesia y reposo.',
-                ),
-              ],
-              [
-                'Paciente inestable con hipotensión o hemoperitoneo progresivo',
-                N(
-                  'do',
-                  'Laparoscopía de Urgencia para Hemostasia',
-                  'Aspiración de hemoperitoneo y coagulación hemostática conservadora del lecho ovárico',
-                  'Ante inestabilidad hemodinámica realizamos laparoscopía de urgencia para hemostasia ovárica.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-      [
-        'Prueba de embarazo POSITIVA con dolor y metrorragia',
-        N(
-          'alert',
-          'Sospecha de Embarazo Ectópico Complicado',
-          'Ecografía para localizar saco gestacional y evaluar hemoperitoneo · pabellón si hay shock',
-          'Con prueba positiva sospechamos embarazo ectópico roto e indicamos conducta obstétrica inmediata.',
-        ),
-      ],
-    ),
+    title: 'Dolor pélvico agudo: torsión o quiste roto',
+    root: N('start', 'Dolor pélvico agudo unilateral', '¿Qué muestra la ecografía Doppler?',
+      'Mujer en edad fértil, con test de embarazo negativo, y un dolor pélvico agudo unilateral. La ecografía Doppler separa los dos diagnósticos.',
+      ['Ovario aumentado, sin flujo Doppler', N('alert', 'Torsión anexial', 'Vómitos profusos, quiste de riesgo detrás',
+        'Ovario edematoso, sin flujo, con vómitos profusos: torsión. Aunque el Doppler arterial esté presente, si la clínica es sospechosa, se opera igual.',
+        ['', N('do', 'Laparoscopía de urgencia', 'Detorsión ovárica conservadora',
+          'Se opera de urgencia, y se desenrolla el pedículo. Aunque el ovario se vea violáceo, se conserva: la ooforectomía queda solo para la necrosis gangrenosa.')])],
+      ['Patrón en red de pesca, líquido en Douglas', N('q', '¿Está estable?', 'Decide manejo médico o quirúrgico',
+        'Quiste hemorrágico roto, típico de la fase lútea tardía tras la relación sexual.',
+        ['Sí, la mayoría', N('ok', 'Manejo médico conservador', 'Reposo, analgesia, control de hematocrito',
+          'Estable: observación, analgesia y control seriado. El sangrado casi siempre se autolimita.')],
+        ['No, hematocrito cae o hay shock', N('alert', 'Laparoscopía hemostática', 'Aspirar y coagular el lecho ovárico',
+          'Inestable: laparoscopía de urgencia para aspirar el hemoperitoneo y controlar el sangrado.')])]),
   },
 };
