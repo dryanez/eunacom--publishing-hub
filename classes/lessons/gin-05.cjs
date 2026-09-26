@@ -98,7 +98,7 @@ module.exports = {
       title: 'Ahora el otro lado: cuando es todo el útero',
       cards: [
         { title: 'Quién la tiene', tag: 'El perfil que cambia todo', kind: 'key', items: [
-          { t: 'Multípara de treinta y cinco a cincuenta', d: 'No la joven nuligesta',
+          { t: 'Multípara, 35 a 50 años', d: 'No la joven nuligesta',
             say: 'Cambiemos de enfermedad. La adenomiosis aparece en la mujer multípara, entre los treinta y cinco y los cincuenta años. Ese perfil ya es distinto al de la endometriosis, que ves en la joven nuligesta.' },
           { t: 'Hipermenorrea + dismenorrea tardía', d: 'El sangrado abundante manda',
             say: 'Y el síntoma que manda cambia también: aquí lo que más te va a contar es hipermenorrea, sangrado abundante, con una dismenorrea que aparece más tarde en la vida.' },
@@ -240,7 +240,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y ocho años con dismenorrea severa, dispareunia profunda y sangrado menstrual abundante e irregular. La ecografía transvaginal muestra un útero aumentado de tamaño, con la textura heterogénea, y sin ningún mioma definido.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: endometriosis, pólipo endometrial, hiperplasia endometrial, mioma intramural, o adenomiosis.',
+        options: 'Las opciones son: endometriosis, pólipo endometrial, hiperplasia endometrial, mioma intramural, o adenomiosis. Piénsalo.',
         answer: 'La respuesta es la E, adenomiosis. Fíjate en la trampa: la dispareunia y la dismenorrea te tientan a marcar endometriosis, pero el hallazgo clave es el útero aumentado de tamaño de forma difusa y heterogénea, sin masa focal. Eso es adenomiosis, no endometriosis: en esta última, el útero al examen suele ser de tamaño normal.',
       },
     },
@@ -263,7 +263,7 @@ module.exports = {
       say: {
         stem: 'Y otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de treinta y dos años con dismenorrea progresiva de dos años. Al examen se palpa un tumor anexial derecho, y la ecografía muestra un quiste ovárico derecho de seis coma cinco centímetros, en vidrio esmerilado. Su Ca ciento veinticinco sale en ochenta y seis, sobre el valor normal.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones: carcinoma epitelial, endometrioma ovárico, teratoma maduro, disgerminoma, o quiste folicular.',
+        options: 'Las opciones: carcinoma epitelial, endometrioma ovárico, teratoma maduro, disgerminoma, o quiste folicular. Piénsalo.',
         answer: 'Es la B, endometrioma ovárico. Y aquí está la trampa: el Ca ciento veinticinco elevado te tienta hacia el cáncer, pero ese marcador también sube en la endometriosis, porque es un proceso inflamatorio peritoneal. La imagen manda: vidrio esmerilado, sin papilas, en una mujer joven con dismenorrea progresiva, es endometrioma.',
       },
     },

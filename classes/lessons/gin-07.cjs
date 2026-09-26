@@ -1,4 +1,4 @@
-// Clase 20.7 — guion docente escrito a mano (estándar Módulo 3 · Ginecología).
+// Clase 20.7 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_ginecologia.cjs (gin-07).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
@@ -9,455 +9,250 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Infertilidad conyugal, estudio básico en cuatro pilares, e indicaciones de técnicas de reproducción asistida de baja versus alta complejidad',
-      say: 'Bienvenidos a la clase sobre infertilidad conyugal, un tema clásico y de altísima rentabilidad en el examen EUNACOM. En esta sesión aprenderemos a definir con precisión cuándo iniciar el estudio según la edad materna, dominaremos los cuatro pilares diagnósticos básicos que deben solicitarse en paralelo, y fijaremos las reglas claras para elegir entre inseminación intrauterina y fertilización in vitro. Comencemos.',
+      subtitle: 'Cuatro pilares para estudiar a la pareja, y una regla para elegir la técnica',
+      say: 'Bienvenida. Hoy vemos infertilidad conyugal: cómo estudias a la pareja con cuatro pilares ordenados, y cómo eliges entre inseminación intrauterina y fertilización in vitro. Acuérdate siempre de algo antes de empezar: la infertilidad se estudia como pareja, nunca como si el problema fuera solo de ella.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Definiciones',
+      title: '¿Cuándo empiezas a estudiar?',
+      cards: [
+        { title: 'Plazo para estudiar', tag: 'Depende de la edad', kind: 'key', items: [
+          { t: 'Menor de treinta y cinco', d: 'Doce meses buscando sin lograrlo',
+            say: 'Empecemos por el plazo. En la mujer menor de treinta y cinco años, estudias tras doce meses de búsqueda sin resultado.' },
+          { t: 'Treinta y cinco años o más', d: 'Solo seis meses de espera',
+            say: 'Pero si tiene treinta y cinco años o más, no esperas doce meses: adelantas el estudio a los seis, porque la reserva ovárica cae rápido a esa edad.' },
+        ] },
+        { title: 'Quién falla más', tag: 'Se reparte entre los dos', kind: 'normal', items: [
+          { t: 'Masculino: el más frecuente', d: 'Alrededor de un tercio de los casos',
+            say: 'Y la causa se reparte casi por igual entre los dos. El factor masculino es el más frecuente, cerca de un tercio de los casos.' },
+          { t: 'Tuboperitoneal y ovulatorio', d: 'El resto, salvo lo idiopático',
+            say: 'Después viene el factor tuboperitoneal, el ovulatorio, y una parte sin causa identificable, aunque el estudio esté completo.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Estudio básico',
+      title: 'Pilar uno y dos: él, y la ovulación de ella',
+      cards: [
+        { title: 'Espermiograma', tag: 'El primer examen, siempre', kind: 'key', items: [
+          { t: 'Tres a cinco días de abstinencia', d: 'Ni menos, ni mucho más',
+            say: 'El primer examen en toda pareja infértil es el espermiograma, y se pide con tres a cinco días de abstinencia sexual previa: ni menos, porque baja el volumen, ni mucho más, porque baja la movilidad.' },
+          { t: 'Si sale alterado, se repite', d: 'A las cuatro a doce semanas',
+            say: 'Si sale alterado, nunca etiquetes al paciente con una sola muestra: se repite entre cuatro y doce semanas después, para confirmarlo.' },
+        ] },
+        { title: 'Factor ovulatorio', tag: 'Reserva y confirmación', kind: 'normal', items: [
+          { t: 'Progesterona en el día veintiuno', d: 'Confirma que sí ovuló',
+            say: 'Para confirmar que ella ovula, pides progesterona en el día veintiuno del ciclo: si sale alta, hubo ovulación.' },
+          { t: 'Hormona antimülleriana', d: 'El marcador de reserva ovárica',
+            say: 'Y para medir cuántos óvulos le quedan, pides la hormona antimülleriana, que puedes medir cualquier día del ciclo, porque no cambia con la regla.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Estudio básico',
+      title: 'Pilar tres y cuatro: las trompas, y el útero',
+      cards: [
+        { title: 'Histerosalpingografía', tag: 'Estudia las trompas', kind: 'key', items: [
+          { t: 'Contraste por el cuello uterino', d: 'Se ve si pasa a la cavidad peritoneal',
+            say: 'Para las trompas, la histerosalpingografía: inyectas contraste por el cuello uterino y ves si pasa libremente a la cavidad peritoneal.' },
+          { t: 'Prueba de Cotte positiva', d: 'Confirma que la trompa es permeable',
+            say: 'Si el contraste se dispersa por ambos lados, la prueba de Cotte sale positiva, y eso confirma que las trompas están permeables.' },
+        ] },
+        { title: 'Factor uterino', tag: 'La cavidad donde se implanta', kind: 'normal', items: [
+          { t: 'Ecografía transvaginal', d: 'Busca miomas, pólipos o adenomiosis',
+            say: 'Y para el útero, la ecografía transvaginal, buscando miomas submucosos, pólipos o adenomiosis que compliquen la implantación.' },
+          { t: 'Histeroscopía si hay dudas', d: 'Cuando la histerosalpingografía muestra defectos',
+            say: 'Si la histerosalpingografía muestra algún defecto de llene dentro de la cavidad, confirmas con histeroscopía directa.' },
+        ] },
+      ],
     },
 
     {
       type: 'flow',
-      kicker: 'Abordaje secuencial de la pareja',
-      title: 'Algoritmo Diagnóstico Inicial: Evaluación Sistemática Simultánea',
+      kicker: 'Reproducción asistida',
+      title: '¿Inseminación, o fertilización in vitro?',
       nodes: [
-        { id: 'con', col: 0, row: 1, k: 'start', t: 'Sospecha de infertilidad', s: 'Doce meses sin concepción en menores de 35 años o seis meses si tiene 35 años o más' },
-        { id: 'pil', col: 1, row: 1, k: 'mech', t: 'Cuatro pilares paralelos', s: 'Espermiograma, progesterona día 21, histerosalpingografía y ecografía transvaginal' },
-        { id: 'cla', col: 2, row: 1, k: 'effect', t: 'Identificación de la causa', s: 'Factor masculino, tuboperitoneal, ovulatorio, uterino o idiopático' },
-        { id: 'tra', col: 3, row: 1, k: 'good', t: 'Selección de la técnica', s: 'Inseminación intrauterina si trompas permeables versus fertilización in vitro si obstrucción' },
+        { id: 'est', col: 0, row: 1, k: 'start', t: 'Estudio básico completo', s: 'Cuatro pilares evaluados' },
+        { id: 'trp', col: 1, row: 0, k: 'q', t: '¿Al menos una trompa permeable?', s: 'Y espermatozoides suficientes' },
+        { id: 'iiu', col: 2, row: 0, k: 'good', t: 'Inseminación intrauterina', s: 'De baja complejidad' },
+        { id: 'obs', col: 1, row: 2, k: 'risk', t: 'Obstrucción bilateral o factor severo', s: 'Sin trompa útil o REM bajo' },
+        { id: 'fiv', col: 2, row: 2, k: 'alert', t: 'Fertilización in vitro o ICSI', s: 'De alta complejidad' },
       ],
       edges: [
-        { from: 'con', to: 'pil', label: 'evaluación conyugal' },
-        { from: 'pil', to: 'cla', label: 'hallazgos' },
-        { from: 'cla', to: 'tra', label: 'complejidad' },
+        { from: 'est', to: 'trp' }, { from: 'trp', to: 'iiu', label: 'sí' },
+        { from: 'est', to: 'obs' }, { from: 'obs', to: 'fiv' },
       ],
       steps: [
-        {
-          show: ['con', 'pil'],
-          note: 'Inicio oportuno y estudio simultáneo de ambos miembros',
-          say: 'El estudio de infertilidad siempre debe evaluar a ambos miembros de la pareja en forma simultánea. Nunca cometamos el error de estudiar únicamente a la mujer. En menores de treinta y cinco años esperamos doce meses de relaciones regulares sin protección, pero si la mujer tiene treinta y cinco años o más, iniciamos el estudio a los seis meses.',
-        },
-        {
-          show: ['cla', 'tra'],
-          note: 'Etiología y selección de la técnica terapéutica',
-          say: 'Los exámenes iniciales identifican si el factor predominante es masculino, tubario, ovulatorio o uterino. Esta categorización define directamente el tratamiento: si hay al menos una trompa permeable y buen recuento espermático se puede plantear baja complejidad, pero ante daño tubárico bilateral o factor masculino severo pasamos directamente a fertilización in vitro.',
-        },
+        { show: ['est'], note: 'La técnica depende de lo que encontraste',
+          say: 'Con el estudio básico completo, toca elegir la técnica de reproducción asistida. Y esa elección depende de dos preguntas muy concretas.' },
+        { show: ['trp'], note: 'Necesitas ambas condiciones',
+          say: 'La primera: ¿hay al menos una trompa permeable? Y la segunda: ¿el semen capacitado tiene tres millones o más de espermatozoides móviles?' },
+        { show: ['iiu'], note: 'De bajo costo, ambulatoria',
+          say: 'Si ambas se cumplen, vas a la inseminación intrauterina: es de baja complejidad, ambulatoria, y bastante más económica.' },
+        { show: ['obs'], note: 'Aquí la inseminación no tiene ningún sentido',
+          say: 'Pero si las trompas están obstruidas de los dos lados, o el factor masculino es severo, la inseminación no tiene ninguna posibilidad de funcionar.' },
+        { show: ['fiv'], note: 'Salta el problema por completo',
+          say: 'Ahí vas directo a fertilización in vitro, o a inyección intracitoplasmática de un solo espermatozoide si el factor masculino es muy severo. La ventaja de estas técnicas es que saltan por completo el problema de la trompa: el óvulo se une al espermatozoide en el laboratorio.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Definiciones y epidemiología',
-      title: 'Criterios Temporales de Estudio y Distribución Etiológica',
+      kicker: 'Indicaciones',
+      title: '¿A quién más le indicas cada técnica?',
       cards: [
-        {
-          title: 'Criterios de Temporalidad',
-          tag: 'Edad materna como factor crítico',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Mujeres menores de 35 años',
-              d: 'Se define infertilidad tras 12 meses de coito regular sin anticoncepción',
-              say: 'En mujeres menores de treinta y cinco años el plazo estándar para definir infertilidad es de doce meses completos de búsqueda activa mediante relaciones sexuales regulares sin métodos anticonceptivos.',
-            },
-            {
-              t: 'Mujeres de 35 años o más',
-              d: 'El estudio debe iniciarse a los 6 meses por declive acelerado de reserva ovárica',
-              say: 'Si la mujer tiene treinta y cinco años o más, el tiempo de espera se reduce estrictamente a seis meses. La reserva ovárica y la calidad ovocitaria experimentan una caída acelerada que no permite postergar la evaluación.',
-            },
-            {
-              t: 'Inicio inmediato del estudio',
-              d: 'Ante amenorrea, endometriosis severa, cirugías pélvicas o criptorquidia previa',
-              say: 'El estudio no debe esperar si existen antecedentes de alto riesgo evidentes, tales como oligomenorrea severa, endometriosis moderada o grave, secuelas de peritonitis o antecedente de criptorquidia en el varón.',
-            },
-          ],
-        },
-        {
-          title: 'Distribución Etiológica de la Pareja',
-          tag: 'Causas compartidas de esterilidad',
-          kind: 'key',
-          items: [
-            {
-              t: 'Factor masculino (35 por ciento)',
-              d: 'Varicocele, infecciones accesorias, tóxicos o anomalías de espermatogénesis',
-              say: 'El factor masculino representa un tercio de las causas de infertilidad conyugal, motivando que el espermiograma sea el primer examen solicitado por su carácter no invasivo y bajo costo.',
-            },
-            {
-              t: 'Factor tuboperitoneal (30 por ciento)',
-              d: 'Secuelas de enfermedad pélvica inflamatoria, salpingitis y adherencias',
-              say: 'El factor tubárico y peritoneal causa otro treinta por ciento, predominantemente secundario a secuelas cicatrizales de infecciones por clamidia o gonococo y endometriosis pélvica.',
-            },
-            {
-              t: 'Factor ovulatorio y uterino (25 a 30 por ciento)',
-              d: 'Síndrome de ovario poliquístico, hiperprolactinemia, miomas submucosos y pólipos',
-              say: 'El factor anovulatorio, liderado por el síndrome de ovario poliquístico, junto a patología uterina endocavitaria y un diez por ciento de causa inexplicada, completan el panorama etiológico.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Pilar masculino',
-      title: 'Espermiograma: Condiciones Preanalíticas y Criterios Diagnósticos',
-      cards: [
-        {
-          title: 'Condiciones de Recolección',
-          tag: 'Estandarización estricta OMS',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Abstinencia sexual de 3 a 5 días',
-              d: 'Períodos más cortos reducen el volumen; períodos más largos deterioran la motilidad',
-              say: 'Para que el espermiograma sea representativo, el varón debe cumplir estrictamente entre tres y cinco días de abstinencia sexual previa. Menos tiempo reduce el volumen y recuento, mientras que más días acumulan espermatozoides senescentes e inmóviles.',
-            },
-            {
-              t: 'Repetición obligatoria a las 4 a 12 semanas',
-              d: 'Nunca emitir diagnóstico definitivo de factor masculino con una sola muestra alterada',
-              say: 'Por norma internacional, jamás se concluye un diagnóstico con un único espermiograma alterado. La espermatogénesis es fluctuante y sensible a cuadros febriles o estrés, por lo que siempre se confirma con una segunda muestra entre cuatro y doce semanas después.',
-            },
-          ],
-        },
-        {
-          title: 'Valores Seminales Normales de Referencia',
-          tag: 'Criterios internacionales OMS',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Volumen y concentración celular',
-              d: 'Volumen mayor o igual a 1.4 mL y concentración mayor o igual a 16 millones por mL',
-              say: 'Los parámetros normales exigen un volumen eyaculado igual o superior a uno coma cuatro mililitros y una concentración de al menos dieciséis millones de espermatozoides por mililitro.',
-            },
-            {
-              t: 'Motilidad y morfología estricta',
-              d: 'Motilidad progresiva al menos 30 a 32 por ciento y morfología Kruger normal al menos 4 por ciento',
-              say: 'La motilidad progresiva debe alcanzar al menos el treinta por ciento de los espermatozoides, y la morfología según criterios estrictos de Kruger debe superar el cuatro por ciento de formas normales.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Pilar ovulatorio y reserva',
-      title: 'Evaluación de la Ovulación y Marcadores de Reserva Ovárica',
-      cards: [
-        {
-          title: 'Confirmación de la Ovulación',
-          tag: 'Progesterona en fase lútea media',
-          kind: 'key',
-          items: [
-            {
-              t: 'Progesterona plasmática en día 21',
-              d: 'En ciclos de 28 días, un valor mayor a 3 a 5 ng/mL confirma ovulación funcional',
-              say: 'Para comprobar si la mujer ovula solicitamos una progesterona plasmática en el día veintiuno del ciclo menstrual. Un valor superior a tres nanogramos por mililitro confirma la presencia de un cuerpo lúteo funcionante y ovulación espontánea.',
-            },
-            {
-              t: 'Seguimiento folicular ecográfico',
-              d: 'Mide crecimiento del folículo dominante hasta 18-22 mm y su colapso ovulatorio',
-              say: 'El seguimiento folicular por ecografía transvaginal seriada permite verificar el crecimiento regular del folículo dominante y su posterior colapso con líquido libre en el fondo de saco de Douglas.',
-            },
-            {
-              t: 'Descarte endocrinológico complementario',
-              d: 'Medición obligatoria de TSH y prolactina sérica ante trastornos menstruales',
-              say: 'Toda alteración ovulatoria u oligomenorrea obliga a descartar patología tiroidea mediante tirotropina y prolactina sérica, además del estudio de resistencia a la insulina.',
-            },
-          ],
-        },
-        {
-          title: 'Reserva Ovárica Funcional',
-          tag: 'AMH y recuento de folículos antrales',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Hormona Antimülleriana (AMH)',
-              d: 'Producida por células de la granulosa; valor menor a 1 ng/mL alerta baja reserva',
-              say: 'La hormona antimülleriana cuantifica la dotación de folículos preantrales y se mide en cualquier día del ciclo. Cifras inferiores a un nanogramo por mililitro señalan una reserva disminuida.',
-            },
-            {
-              t: 'Recuento de Folículos Antrales (RFA)',
-              d: 'Menos de 5 a 7 folículos bilaterales en ecografía predice baja respuesta ovárica',
-              say: 'El recuento de folículos antrales por ecografía transvaginal en fase folicular temprana complementa la reserva. Encontrar menos de cinco a siete folículos entre ambos ovarios anticipa pobre respuesta.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Pilares tubárico y uterino',
-      title: 'Histerosalpingografía y Evaluación Anatómica Pélvica',
-      cards: [
-        {
-          title: 'Histerosalpingografía (HSG)',
-          tag: 'Permeabilidad tubárica y cavidad',
-          kind: 'key',
-          items: [
-            {
-              t: 'Prueba de Cotte Positiva bilateral',
-              d: 'Paso y dispersión libre del medio de contraste hacia la cavidad peritoneal',
-              say: 'La histerosalpingografía con medio de contraste iodado evalúa la morfología uterina y las trompas. La prueba de Cotte positiva confirma el paso y dispersión libre del medio hacia el peritoneo.',
-            },
-            {
-              t: 'Prueba de Cotte Negativa o hidrosálpinx',
-              d: 'Detención del contraste o dilatación ampular sin salida; indica obstrucción mecánica',
-              say: 'Si el medio de contraste se detiene o se acumula en una ampolla dilatada configurando un hidrosálpinx con prueba de Cotte negativa, se establece el diagnóstico de obstrucción tubárica.',
-            },
-          ],
-        },
-        {
-          title: 'Evaluación Uterina y Endocavitaria',
-          tag: 'Factor endometrial y miometrial',
-          kind: 'normal',
-          items: [
-            {
-              t: 'Ecografía transvaginal ginecológica',
-              d: 'Descarta miomas submucosos, adenomiosis difusa o pólipos endometriales',
-              say: 'La ecografía transvaginal es el estudio no invasivo de elección para pesquisar miomas submucosos, adenomiosis o engrosamientos focales sugerentes de pólipos endometriales.',
-            },
-            {
-              t: 'Histeroscopía diagnóstica y terapéutica',
-              d: 'Estudio de confirmación y resección ante defectos de llene en la radiografía',
-              say: 'Ante imágenes dudosas o defectos de llene intrauterinos observados en la histerosalpingografía, la histeroscopía directa es el estándar de oro para confirmar y resecar adherencias o pólipos.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Técnicas de reproducción asistida',
-      title: 'Comparativa de TRA: Baja versus Alta Complejidad',
-      head: ['Técnica', 'Requisitos indispensables', 'Indicaciones cardinales'],
-      rows: [
-        {
-          cells: ['Inseminación Intrauterina (IIU)', 'Al menos una trompa permeable (Cotte +) y REM mayor a 3-5 millones', 'Factor cervical, disovulación refractaria a citrato, factor masculino leve o causa idiopática'],
-          say: 'La inseminación intrauterina exige como condición indispensable que al menos una trompa esté permeable y un recuento de espermatozoides móviles recuperados adecuado.',
-        },
-        {
-          cells: ['Fertilización In Vitro (FIV)', 'Ovocitos viables y semen; no requiere permeabilidad tubárica', 'Obstrucción tubárica bilateral, hidrosálpinx, endometriosis severa o fracaso de inseminación'],
-          say: 'La fertilización in vitro es mandatoria ante obstrucción tubárica bilateral con hidrosálpinx, superando el bloqueo mecánico mediante fecundación extracorpórea.',
-        },
-        {
-          cells: ['Inyección Intracitoplasmática (ICSI)', 'Un espermatozoide por ovocito aspirado por punción ovárica', 'Factor masculino severo, recuento menor a un millón o espermatozoides testiculares en azoospermia'],
-          say: 'La inyección intracitoplasmática de espermatozoides resuelve el factor masculino severo introduciendo un único espermatozoide directamente dentro del ovocito.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Conducta terapéutica escalonada',
-      title: 'Secuencia de Decisión Terapéutica en la Pareja Infértil',
-      cards: [
-        {
-          title: 'Algoritmo de Derivación Oportuna',
-          tag: 'Pasos clínicos en atención primaria',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Paso 1: Solicitud paralela de exámenes',
-              d: 'Espermiograma estandarizado, progesterona día 21, histerosalpingografía y ecografía',
-              say: 'El primer paso ante la pareja infértil es ordenar en paralelo el estudio básico: espermiograma con tres a cinco días de abstinencia, progesterona en día veintiuno, histerosalpingografía y ecografía ginecológica.',
-            },
-            {
-              t: 'Paso 2: Evaluación crítica de permeabilidad',
-              d: 'Verificar prueba de Cotte positiva para descartar daño tubárico bilateral',
-              say: 'En el segundo paso evaluamos la histerosalpingografía. Si ambas trompas están ocluidas con prueba de Cotte negativa o hidrosálpinx, queda totalmente contraindicada la inseminación intrauterina.',
-            },
-            {
-              t: 'Paso 3: Definición del nivel de complejidad',
-              d: 'Derivación para baja complejidad si trompas viables o alta complejidad directa si daño severo',
-              say: 'En el tercer paso derivamos según complejidad: inseminación intrauterina ante trompas permeables y buen semen, versus fertilización in vitro directa si hay obstrucción tubaria o factor masculino severo.',
-            },
-          ],
-        },
-        {
-          title: 'Errores Clásicos que Debes Evitar',
-          tag: 'Trampas frecuentes EUNACOM',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Nunca intentar inseminación sin trompas permeables',
-              d: 'La inseminación intrauterina en obstrucción tubárica bilateral tiene cero por ciento de éxito',
-              say: 'Un error gravísimo en el examen es proponer inseminación intrauterina en una mujer con hidrosálpinx bilateral. Sin trompas permeables el espermatozoide no puede fecundar y el procedimiento fracasa.',
-            },
-            {
-              t: 'Nunca rotular factor masculino con un solo espermiograma',
-              d: 'La alteración seminal exige confirmación con segunda muestra a las 4 a 12 semanas',
-              say: 'Tampoco debemos rotular a un varón como infértil con un único examen alterado. Siempre debe repetirse el espermiograma semanas después para confirmar el diagnóstico con rigor.',
-            },
-          ],
-        },
+        { title: 'Inseminación intrauterina', tag: 'Casos leves', kind: 'normal', items: [
+          { t: 'Factor masculino leve', d: 'O anovulación que no responde a fármacos orales',
+            say: 'Fuera de lo tuboperitoneal, también indicas inseminación en el factor masculino leve, o en la anovulación que ya no responde a los inductores orales.' },
+        ] },
+        { title: 'Fertilización in vitro', tag: 'Casos más complejos', kind: 'alert', items: [
+          { t: 'Edad materna sobre treinta y ocho', d: 'O reserva ovárica muy baja',
+            say: 'Y también vas directo a fertilización in vitro con edad materna sobre los treinta y ocho años, con endometriosis severa, o después de repetidos intentos fallidos de inseminación.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de decisión clínica',
-      title: 'Algoritmo de Manejo y Derivación en Infertilidad de Pareja',
-      say: 'Revisemos el algoritmo estructurado para decidir la técnica de reproducción asistida según los hallazgos en las trompas y el espermiograma.',
+      intro: 'Ahora pongamos todo en un solo árbol de decisión.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Lo que más se confunde en el examen',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Primera consulta de la pareja', 'Espermiograma para él', 'Empezar solo con exámenes de ella'],
+          say: 'Repasemos las trampas. En la primera consulta, el primer examen es el espermiograma. El error es partir solo con exámenes de ella.' },
+        { cells: ['Espermiograma alterado', 'Repetirlo en uno a tres meses', 'Diagnosticar infertilidad masculina de inmediato'],
+          say: 'Si el espermiograma sale alterado, se repite antes de etiquetar. El error es diagnosticar infertilidad masculina con una sola muestra.' },
+        { cells: ['Obstrucción tubárica bilateral', 'Fertilización in vitro', 'Intentar inseminación intrauterina'],
+          say: 'Con obstrucción tubárica bilateral, la respuesta es fertilización in vitro. El error clásico es intentar la inseminación, que tiene cero probabilidad de éxito.' },
+        { cells: ['Mujer de treinta y cinco años o más', 'Estudiar a los seis meses', 'Esperar los doce meses habituales'],
+          say: 'Y con treinta y cinco años o más, adelantas el estudio a los seis meses. El error es hacerla esperar los doce meses habituales.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Factor Tubárico Bilateral · Conducta Terapéutica',
-      stem: 'Pareja compuesta por mujer de 31 años y varón de 33 años consultan por no haber logrado embarazo tras 18 meses de relaciones sexuales regulares no protegidas. La mujer tiene ciclos regulares de 28 días y progesterona plasmática en el día 21 de 12 ng/mL. La histerosalpingografía demuestra cavidad uterina normal, pero existe ausencia completa de paso de medio de contraste a través de ambas trompas de Falopio, con dilatación ampular bilateral compatible con hidrosálpinx bilateral y prueba de Cotte negativa bilateral. El espermiograma del cónyuge resulta con 45 millones de espermatozoides por mL y 55% de motilidad progresiva normal.',
-      question: '¿Cuál es la conducta terapéutica de elección para lograr el embarazo en esta pareja?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Pareja de 31 y 33 años consulta por no lograr embarazo tras 18 meses. Ella tiene ciclos regulares y progesterona en día 21 ovulatoria. La histerosalpingografía muestra cavidad uterina normal, pero ausencia completa de paso de contraste por ambas trompas, con hidrosálpinx bilateral y prueba de Cotte negativa. El espermiograma de él es normal.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Inseminación intrauterina con semen de donante' },
-        { letter: 'B', text: 'Relaciones sexuales programadas con inductores orales de la ovulación' },
-        { letter: 'C', text: 'Fertilización In Vitro (FIV)' },
-        { letter: 'D', text: 'Inseminación intrauterina con semen conyugal capacitado' },
-        { letter: 'E', text: 'Antibioticoterapia prolongada con doxiciclina y reevaluación en 6 meses' },
+        { letter: 'A', text: 'Inseminación intrauterina con semen del cónyuge' },
+        { letter: 'B', text: 'Inducción de ovulación con citrato de clomifeno' },
+        { letter: 'C', text: 'Fertilización in vitro' },
+        { letter: 'D', text: 'Repetir la histerosalpingografía en 3 meses' },
+        { letter: 'E', text: 'Antibioticoterapia prolongada con doxiciclina' },
       ],
       correct: 'C',
-      explanation: 'La obstrucción tubárica bilateral con prueba de Cotte negativa bilateral e hidrosálpinx es la indicación clásica y definitiva de Fertilización In Vitro (FIV). La FIV prescinde por completo de la función de las trompas de Falopio al aspirar los ovocitos directamente del ovario mediante punción transvaginal ecoguiada, fecundarlos en el laboratorio y transferir el embrión a la cavidad uterina. La inseminación intrauterina (IIU) está formalmente contraindicada y tiene tasa de éxito de cero por ciento si no existe al menos una trompa permeable.',
+      explanation: 'La obstrucción tubárica bilateral confirmada con Cotte negativa hace imposible el encuentro entre óvulo y espermatozoide, aunque el semen y la ovulación sean normales. La inseminación está contraindicada; la conducta es derivar a fertilización in vitro.',
       say: {
-        stem: 'Pareja con infertilidad primaria de dieciocho meses; mujer de treinta y un años con ovulación normal pero histerosalpingografía con hidrosálpinx bilateral y prueba de Cotte negativa bilateral; espermiograma del cónyuge completamente normal.',
-        question: '¿Cuál es la conducta terapéutica de elección para lograr el embarazo en esta pareja?',
-        options: 'La opción A propone inseminación con semen de donante. La B relaciones programadas con inductores. La C fertilización in vitro. La D inseminación intrauterina conyugal. La E doxiciclina oral. Piénsalo.',
-        answer: 'La respuesta correcta es la C. La obstrucción tubárica bilateral con prueba de Cotte negativa es la indicación clásica de fertilización in vitro al saltar mecánicamente las trompas ocluidas.',
+        stem: 'Vamos al caso. Pareja de treinta y un y treinta y tres años consulta porque no logra embarazo tras dieciocho meses. Ella tiene ciclos regulares y su progesterona del día veintiuno confirma que ovula. La histerosalpingografía muestra la cavidad uterina normal, pero el contraste no pasa por ninguna de las dos trompas, con hidrosálpinx bilateral y prueba de Cotte negativa. El espermiograma de él es normal.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Tienes cinco opciones: inseminación intrauterina, inducción de ovulación con clomifeno, fertilización in vitro, repetir la histerosalpingografía, o antibióticos prolongados. Piénsalo.',
+        answer: 'Es la C. Fíjate que todo lo demás está normal: ovula bien, y el semen de él es normal. El problema es puramente mecánico: las dos trompas están cerradas, así que el óvulo y el espermatozoide nunca se van a encontrar. Ahí la inseminación no sirve de nada, porque necesita al menos una trompa abierta. La fertilización in vitro salta ese obstáculo por completo.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Espermiograma · Período de Abstinencia Sexual',
-      stem: 'En el estudio de un varón de 30 años cuya pareja no logra concebir tras un año de búsqueda, se solicita un espermiograma de control.',
-      question: 'Para que los resultados del análisis seminal según los estándares internacionales de la OMS sean válidos y confiables, ¿cuántos días de abstinencia sexual previa debe cumplir el paciente antes de recolectar la muestra?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 75',
+      stem: 'Hombre de 33 años, lleva 18 meses intentando concebir un hijo con su pareja. Ella tiene reglas regulares. Él tiene examen físico y genital normal.',
+      question: '¿Con qué examen debemos iniciar el estudio en este paciente?',
       options: [
-        { letter: 'A', text: 'Menos de 24 horas de abstinencia' },
-        { letter: 'B', text: 'De 3 a 5 días de abstinencia estricta' },
-        { letter: 'C', text: 'Al menos 20 a 30 días de abstinencia' },
-        { letter: 'D', text: 'La abstinencia sexual previa es irrelevante para el espermiograma' },
-        { letter: 'E', text: 'Exactamente 14 días coincidiendo con el ciclo de la pareja' },
+        { letter: 'A', text: 'Hormona luteinizante' },
+        { letter: 'B', text: 'Hormona folículo estimulante' },
+        { letter: 'C', text: 'Espermiograma' },
+        { letter: 'D', text: 'Cultivo de líquido seminal' },
+        { letter: 'E', text: 'Ecografía testicular' },
       ],
-      correct: 'B',
-      explanation: 'La Organización Mundial de la Salud (OMS) y las guías de fertilidad establecen de forma estricta que la recolección seminal para un espermiograma diagnóstico debe realizarse tras un período de abstinencia de 3 a 5 días (rango estricto aceptable de 2 a 7 días). Períodos menores a 48 horas disminuyen el volumen y la concentración celular, mientras que abstinencias prolongadas deterioran gravemente la motilidad y la viabilidad celular por senescencia espermática.',
+      correct: 'C',
+      explanation: 'El primer examen del estudio de infertilidad masculina es siempre el espermiograma, sin importar que el examen físico sea normal. Las hormonas o la imagen se piden solo si el espermiograma resulta alterado.',
       say: {
-        stem: 'En el estudio básico de un varón de treinta años por sospecha de factor masculino de infertilidad, se solicita una muestra de espermiograma diagnóstico.',
-        question: '¿Cuántos días de abstinencia sexual previa debe cumplir el paciente antes de recolectar la muestra de semen?',
-        options: 'La opción A propone menos de veinticuatro horas. La B de tres a cinco días de abstinencia estricta. La C veinte a treinta días. La D que la abstinencia es irrelevante. La E catorce días exactos. Piénsalo.',
-        answer: 'La respuesta correcta es la B. La norma estándar internacional exige de tres a cinco días de abstinencia para no alterar el volumen ni la motilidad espermática.',
+        stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Hombre de treinta y tres años, lleva dieciocho meses intentando tener un hijo con su pareja. Ella tiene reglas regulares, y él tiene el examen físico y genital normal.',
+        question: '¿Con qué examen debemos iniciar el estudio en este paciente?',
+        options: 'Las opciones: hormona luteinizante, hormona folículo estimulante, espermiograma, cultivo de líquido seminal, o ecografía testicular. Piénsalo.',
+        answer: 'La respuesta es la C, espermiograma. Aunque el examen físico sea normal, el primer paso en el hombre siempre es el espermiograma. Las hormonas y la ecografía testicular quedan para después, solo si el espermiograma sale alterado.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Agosto 2021 · Pregunta 146',
+      stem: 'Mujer de 38 años consulta porque lleva 2 años intentando embarazarse. Sus reglas son regulares, su examen físico es normal y múltiples exámenes hormonales confirman ciclos ovulatorios. Su pareja tiene un espermiograma normal.',
+      question: '¿Cuál es la conducta más adecuada para proseguir el estudio?',
+      options: [
+        { letter: 'A', text: 'Histeroscopía' },
+        { letter: 'B', text: 'Laparoscopía' },
+        { letter: 'C', text: 'Histerosalpingografía' },
+        { letter: 'D', text: 'Niveles plasmáticos de hormona antimülleriana' },
+        { letter: 'E', text: 'Seguimiento folicular ecográfico' },
+      ],
+      correct: 'C',
+      explanation: 'Con la ovulación confirmada y el espermiograma normal, quedan descartados el factor ovulatorio y el masculino. El siguiente pilar a estudiar es el tuboperitoneal, y el examen de elección es la histerosalpingografía.',
+      say: {
+        stem: 'Y una última pregunta real, del EUNACOM de agosto de dos mil veintiuno. Mujer de treinta y ocho años, lleva dos años buscando embarazo. Sus reglas son regulares, y varios exámenes hormonales ya confirmaron que ovula. Su pareja tiene un espermiograma normal.',
+        question: '¿Cuál es la conducta más adecuada para proseguir el estudio?',
+        options: 'Las opciones: histeroscopía, laparoscopía, histerosalpingografía, hormona antimülleriana, o seguimiento folicular. Piénsalo.',
+        answer: 'Es la C. Ya tienes dos de los cuatro pilares resueltos: ovula, y el semen de él es normal. Lo que sigue en el orden del estudio es el factor tuboperitoneal, y ahí el examen es la histerosalpingografía. La laparoscopía queda para el final, solo si todo lo anterior sale normal y sigues sin causa.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Puntos clave EUNACOM',
-      title: 'Reglas de Oro en Infertilidad Conyugal y Reproducción Asistida',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Cuatro Pilares Básicos Obligatorios',
-          tag: 'Evaluación simultánea de la pareja',
-          kind: 'key',
-          items: [
-            {
-              t: 'Estudio conyugal en paralelo',
-              d: 'Espermiograma, progesterona en día 21, histerosalpingografía y ecografía transvaginal',
-              say: 'La regla de oro diagnóstica es estudiar en paralelo a ambos miembros de la pareja. En el varón pedimos espermiograma con tres a cinco días de abstinencia; en la mujer, confirmamos ovulación con progesterona en día veintiuno y permeabilidad con histerosalpingografía.',
-            },
-            {
-              t: 'Criterio temporal estricto',
-              d: 'Doce meses en menores de 35 años; seis meses si tiene 35 años o más',
-              say: 'Recordemos siempre el punto de corte etario: doce meses de búsqueda en mujeres jóvenes, pero reducimos la espera a seis meses si la paciente tiene treinta y cinco años o más.',
-            },
-          ],
-        },
-        {
-          title: 'Requisitos de Baja Complejidad',
-          tag: 'Inseminación Intrauterina (IIU)',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Al menos una trompa permeable',
-              d: 'Prueba de Cotte positiva obligatoria para permitir el encuentro de gametos',
-              say: 'Para indicar inseminación intrauterina es condición no negociable que al menos una trompa de Falopio esté completamente permeable con prueba de Cotte positiva.',
-            },
-            {
-              t: 'Recuento espermático suficiente',
-              d: 'Recuento de móviles progresivos post-capacitación mayor a 3 a 5 millones',
-              say: 'Además, la muestra seminal tras capacitación debe recuperar al menos tres a cinco millones de espermatozoides con motilidad progresiva.',
-            },
-          ],
-        },
-        {
-          title: 'Indicaciones Mandatarias de Alta Complejidad',
-          tag: 'Fertilización In Vitro (FIV / ICSI)',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Factor tubárico severo bilateral',
-              d: 'Obstrucción tubárica bilateral, hidrosálpinx o salpingectomía bilateral',
-              say: 'La obstrucción tubárica bilateral con prueba de Cotte negativa o hidrosálpinx va directo a fertilización in vitro, ya que salta por completo la vía tubaria extrayendo los ovocitos por punción ovárica.',
-            },
-            {
-              t: 'Factor masculino severo',
-              d: 'Recuento menor a un millón o azoospermia que exige microinyección intracitoplasmática',
-              say: 'El factor tubárico bilateral y el masculino severo exigen fertilización asistida de alta complejidad. Si te llevas una sola idea de hoy: la evaluación de la pareja infértil inicia simultáneamente con espermiograma, confirmación ovulatoria y permeabilidad tubárica por histerosalpingografía. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Estudio', tag: 'Siempre en pareja', kind: 'key', items: [
+          { t: 'Primero, el espermiograma', d: 'Antes que cualquier examen de ella',
+            say: 'Cerremos. El primer examen de toda pareja infértil es el espermiograma.' },
+          { t: '35 años: adelanta a 6 meses', d: 'No esperes los doce meses',
+            say: 'Y con treinta y cinco años o más, no esperes los doce meses: estudia a los seis.' },
+        ] },
+        { title: 'Técnica', tag: 'Depende de dos condiciones', kind: 'pharma', items: [
+          { t: 'Trompa permeable y REM adecuado', d: 'Inseminación intrauterina',
+            say: 'Con al menos una trompa permeable y espermatozoides suficientes, inseminación intrauterina.' },
+          { t: 'Obstrucción bilateral o factor severo', d: 'Fertilización in vitro',
+            say: 'Con obstrucción bilateral o un factor masculino severo, fertilización in vitro.' },
+        ] },
+        { title: 'Última idea', tag: 'Para el examen', kind: 'alert', items: [
+          { t: 'Sin trompa, la inseminación falla siempre', d: 'Aunque todo lo demás esté normal',
+            say: 'Si te llevas una sola idea de hoy: sin al menos una trompa permeable, la inseminación intrauterina no funciona, por muy normal que esté todo lo demás. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo y Derivación en Infertilidad de Pareja',
-    root: N(
-      'start',
-      'Pareja con Criterio Clínico de Infertilidad',
-      'Doce meses en menores de 35 años o seis meses en mujeres de 35 años o más',
-      'Iniciamos el abordaje confirmando el criterio temporal de la pareja.',
-      [
-        'Estudio paralelo de los cuatro pilares completado',
-        N(
-          'q',
-          '¿Existe al menos una trompa permeable con prueba de Cotte positiva?',
-          'Histerosalpingografía para valorar integridad anatómica tubárica bilateral',
-          'Evaluamos si la histerosalpingografía demuestra al menos una trompa permeable con prueba de Cotte positiva.',
-          [
-            'Trompas permeables comprobadas bilateral o unilateralmente',
-            N(
-              'q',
-              '¿Recuento espermático recuperado (REM) mayor a 3 a 5 millones?',
-              'Capacitación espermática diagnóstica previa a la decisión',
-              'Verificamos si el recuento de espermatozoides móviles progresivos supera los tres a cinco millones.',
-              [
-                'REM adecuado y trompa permeable',
-                N(
-                  'ok',
-                  'Técnica de Baja Complejidad: Inseminación Intrauterina (IIU)',
-                  'Inducción de ovulación más inseminación intrauterina conyugal',
-                  'Indicamos inseminación intrauterina con inducción ovulatoria.',
-                ),
-              ],
-              [
-                'REM crítico menor a 1 a 3 millones',
-                N(
-                  'refer',
-                  'Técnica de Alta Complejidad: ICSI (Inyección Intracitoplasmática)',
-                  'Microinyección de un espermatozoide por cada ovocito capturado',
-                  'Derivamos a alta complejidad para microinyección intracitoplasmática por factor masculino severo.',
-                ),
-              ],
-            ),
-          ],
-          [
-            'Obstrucción tubárica bilateral o hidrosálpinx con Cotte negativo',
-            N(
-              'alert',
-              'Técnica de Alta Complejidad Directa: Fertilización In Vitro (FIV)',
-              'Punción folicular ecoguiada y fertilización extracorpórea sin requerir trompas',
-              'Ante daño tubárico bilateral indicamos fertilización in vitro directa.',
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Infertilidad conyugal: los cuatro pilares y la técnica',
+    root: N('start', 'Pareja sin embarazo', 'Doce meses, o seis si ella tiene treinta y cinco o más',
+      'Partamos de la pareja que consulta por infertilidad. Primero confirma el plazo: doce meses, o seis si ella tiene treinta y cinco años o más.',
+      ['', N('q', '¿Qué pilar estudias primero?', 'Siempre en este orden',
+        'El orden del estudio no es al azar: primero él, luego la ovulación, luego las trompas y el útero.',
+        ['Factor masculino', N('do', 'Espermiograma con tres a cinco días de abstinencia', 'Si sale alterado, se repite',
+          'Primero, el espermiograma, con tres a cinco días de abstinencia. Si sale alterado, se repite antes de concluir nada.')],
+        ['Factor ovulatorio', N('do', 'Progesterona en el día veintiuno más hormona antimülleriana', 'Confirma ovulación y reserva',
+          'Después, la progesterona del día veintiuno para confirmar ovulación, y la hormona antimülleriana para ver la reserva.')],
+        ['Factor tuboperitoneal y uterino', N('q', '¿La prueba de Cotte es positiva?', 'Define si la trompa sirve',
+          'Y con la histerosalpingografía evalúas las trompas: ¿la prueba de Cotte sale positiva?',
+          ['Sí, al menos una trompa', N('q', '¿El REM post capacitación es de tres millones o más?', 'Segunda condición para inseminar',
+            'Con al menos una trompa permeable, falta la segunda condición: ¿el semen capacitado tiene tres millones o más de espermatozoides móviles?',
+            ['Sí', N('ok', 'Inseminación intrauterina', 'Técnica de baja complejidad',
+              'Si ambas condiciones se cumplen, inseminación intrauterina: baja complejidad y menor costo.')],
+            ['No, factor masculino severo', N('alert', 'Fertilización in vitro o ICSI', 'La inseminación no alcanza',
+              'Si el factor masculino es severo, la inseminación no alcanza: vas directo a fertilización in vitro o ICSI.')])],
+          ['No, obstrucción bilateral', N('alert', 'Fertilización in vitro', 'La inseminación aquí no tiene ningún sentido',
+            'Si las dos trompas están obstruidas, la inseminación no tiene ningún sentido: la conducta es fertilización in vitro, que salta el problema tubárico.')])])]),
   },
 };

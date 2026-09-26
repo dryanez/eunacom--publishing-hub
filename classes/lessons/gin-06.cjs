@@ -20,7 +20,7 @@ module.exports = {
       nodes: [
         { id: 'par', col: 0, row: 1, k: 'cause', t: 'Daño obstétrico del piso pélvico', s: 'Partos vaginales, fórceps' },
         { id: 'hip', col: 1, row: 0, k: 'mech', t: 'Hipermovilidad uretral', s: 'Se pierde el soporte' },
-        { id: 'esf', col: 2, row: 0, k: 'effect', t: 'Escape con la tos o el esfuerzo', s: 'Incontinencia de esfuerzo' },
+        { id: 'esf', col: 2, row: 0, k: 'effect', t: 'Escape con tos o esfuerzo', s: 'Incontinencia de esfuerzo' },
         { id: 'det', col: 1, row: 2, k: 'mech', t: 'Detrusor hiperactivo', s: 'Se contrae solo, sin avisar' },
         { id: 'urg', col: 2, row: 2, k: 'effect', t: 'Escape con deseo urgente', s: 'Incontinencia de urgencia' },
       ],
@@ -173,7 +173,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de cincuenta y seis años con escapes de orina en grandes cantidades, precedidos por deseos incontrolables de orinar, incluso en la noche. Al examen, la maniobra de Valsalva no provoca escape. El urocultivo es negativo y la ecografía muestra una vejiga normal.',
         question: '¿Cuál es el tratamiento más adecuado?',
-        options: 'Las opciones: iniciar tamsulosina, iniciar oxibutinina, realizar cistoscopía, hacer una suspensión con cinta transvaginal, o indicar kinesioterapia pélvica.',
+        options: 'Las opciones: iniciar tamsulosina, iniciar oxibutinina, realizar cistoscopía, hacer una suspensión con cinta transvaginal, o indicar kinesioterapia pélvica. Piénsalo.',
         answer: 'La respuesta es la B, oxibutinina. Fíjate que la Valsalva salió negativa: esto descarta el componente de esfuerzo. El deseo urgente que precede al escape es la firma de la incontinencia de urgencia, y ahí el tratamiento es el anticolinérgico, nunca la cirugía.',
       },
     },
@@ -196,7 +196,7 @@ module.exports = {
       say: {
         stem: 'Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y ocho años, multípara de cuatro, con sensación de peso vaginal y escapes de orina al inicio del deseo miccional. Al examen físico se confirma un prolapso genital.',
         question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las opciones: iniciar oxibutinina, realizar la prueba de Q-tip, hacer la estadificación POP-Q, pedir una resonancia pelviana, o realizar histerectomía.',
+        options: 'Las opciones: iniciar oxibutinina, realizar la prueba de Q-tip, hacer la estadificación POP-Q, pedir una resonancia pelviana, o realizar histerectomía. Piénsalo.',
         answer: 'Es la C. Confirmado el prolapso al examen, el paso que sigue es cuantificarlo con el sistema POP-Q, tomando el himen como plano cero. Recién con ese grado definido decides entre pesario u observación, o cirugía. Ir directo a la histerectomía, sin siquiera estadificar, es la trampa.',
       },
     },
