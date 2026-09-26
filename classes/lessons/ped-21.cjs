@@ -1,5 +1,7 @@
-// Clase 18.21 — guion docente escrito a mano (estándar Módulo 3 · Pediatría).
-// Fuente clínica: books/scripts/dataset_pediatria.cjs (ped-21).
+// Clase 18.21 — guion docente escrito a mano (formato: ver gastro-01.cjs y gastro-17.cjs).
+// Fuente clínica: books/scripts/dataset_pediatria.cjs / dataset_pediatria_bloque_4.cjs (ped-21).
+// Preguntas reales: EUNACOM Diciembre 2024 · Pregunta 92; EUNACOM Diciembre 2017 · Pregunta 72;
+// EUNACOM Julio 2019 · Pregunta 53.
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,567 +11,286 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Tamizaje neonatal universal en Chile, pesquisa de hipotiroidismo congénito y fenilcetonuria, toma de muestra en papel filtro, levotiroxina y tamizaje auditivo',
-      say: 'Bienvenidos a la clase sobre tamizaje neonatal universal en Chile, una de las políticas de salud pública más exitosas de nuestro país y un tema con preguntas de memoria muy precisas en el examen EUNACOM. En esta sesión aprenderemos el momento exacto y los requisitos de la toma de muestra de talón en papel filtro, dominaremos la confirmación y el tratamiento del hipotiroidismo congénito con levotiroxina, revisaremos la fisiopatología de la fenilcetonuria y fijaremos las bases del tamizaje auditivo. Comencemos.',
+      subtitle: 'Por qué se pesquisa a todos, aunque nazcan perfectos',
+      say: 'Bienvenido. Hoy vemos el tamizaje neonatal universal en Chile: el hipotiroidismo congénito, la fenilcetonuria, y también la pesquisa auditiva y de cardiopatías. Vas a ver que las tres comparten una misma lógica: el daño ya está avanzando antes de que aparezca cualquier síntoma, y por eso se busca en todos, no solo en el que se ve enfermo. Partamos.',
     },
 
     {
       type: 'flow',
-      kicker: 'Medicina preventiva perinatal',
-      title: 'Historia Natural de los Errores Metabólicos sin Pesquisa Neonatal',
+      kicker: 'La lógica del tamizaje',
+      title: '¿Por qué buscarlo si el niño se ve bien?',
       nodes: [
-        { id: 'asi', col: 0, row: 1, k: 'start', t: 'Neonato asintomático al nacer', s: 'La placenta materna depuró los metabolitos tóxicos y aportó hormonas durante la gestación' },
-        { id: 'lac', col: 1, row: 1, k: 'mech', t: 'Inicio de alimentación láctea', s: 'La ingesta de proteínas aporta fenilalanina y cesa el aporte transplacentario de tiroxina' },
-        { id: 'acu', col: 2, row: 1, k: 'risk', t: 'Acumulación tóxica silenciosa', s: 'Aumento progresivo de fenilalanina o déficit tisular de hormonas tiroideas sin signos clínicos' },
-        { id: 'dan', col: 3, row: 1, k: 'alert', t: 'Daño neurológico irreversible', s: 'Aparición de microcefalia, cretinismo y retraso mental severo permanente e irrecuperable' },
+        { id: 'nac', col: 0, row: 1, k: 'start', t: 'Recién nacido sin síntomas', s: 'El 95 % se ve perfecto' },
+        { id: 'hc', col: 1, row: 0, k: 'cause', t: 'Tiroides que no funciona', s: 'Disgenesia tiroidea' },
+        { id: 'pku', col: 1, row: 2, k: 'cause', t: 'Enzima que falta', s: 'No se metaboliza la fenilalanina' },
+        { id: 'sil', col: 2, row: 1, k: 'mech', t: 'El daño avanza en silencio', s: 'Semanas sin ninguna señal' },
+        { id: 'ret', col: 3, row: 1, k: 'risk', t: 'Retraso mental si se demora', s: 'Y ya no se revierte' },
+        { id: 'tam', col: 4, row: 1, k: 'good', t: 'Tamizaje al segundo día', s: 'Detecta antes del síntoma' },
       ],
       edges: [
-        { from: 'asi', to: 'lac', label: 'nacimiento' },
-        { from: 'lac', to: 'acu', label: 'metabolismo postnatal' },
-        { from: 'acu', to: 'dan', label: 'ventana terapéutica cerrada' },
+        { from: 'hc', to: 'sil' }, { from: 'pku', to: 'sil' },
+        { from: 'nac', to: 'sil' },
+        { from: 'sil', to: 'ret', label: 'si no se busca' },
+        { from: 'sil', to: 'tam', label: 'si se busca' },
       ],
       steps: [
-        {
-          show: ['asi', 'lac'],
-          note: 'Protección biológica materna transitoria e inicio lácteo',
-          say: 'Al momento de nacer, el recién nacido con hipotiroidismo congénito o fenilcetonuria luce completamente sano y vigoroso debido a que la madre suplió las hormonas tiroideas y depuró los metabolitos a través de la placenta durante todo el embarazo.',
-        },
-        {
-          show: ['acu', 'dan'],
-          note: 'Deterioro silente irreversible y cierre de la ventana de rescate',
-          say: 'Al iniciar la alimentación con leche materna o fórmula, la fenilalanina se acumula o la falta de tiroxina lesiona la mielinización cerebral de forma silente. Cuando los síntomas clínicos se hacen evidentes a los dos o tres meses, el daño intelectual ya es severo e irreversible.',
-        },
+        { show: ['nac'], note: 'Nace sin ninguna señal de alarma',
+          say: 'Fíjate en el punto de partida: un recién nacido con hipotiroidismo congénito o fenilcetonuria nace casi siempre sin nada que llame la atención. El noventa y cinco por ciento se ve completamente sano.' },
+        { show: ['hc'], note: 'La tiroides no se formó bien',
+          say: 'En el hipotiroidismo congénito, la causa más frecuente es que la tiroides no se formó donde debía, o quedó demasiado pequeña.' },
+        { show: ['pku'], note: 'Falta la enzima que procesa un aminoácido',
+          say: 'En la fenilcetonuria, lo que falta es una enzima del hígado. Sin ella, un aminoácido de la dieta se acumula y se vuelve tóxico para el cerebro.' },
+        { show: ['sil'], note: 'Meses de daño sin que nadie lo note',
+          say: 'Y en las dos, el problema avanza en silencio, semana tras semana, mientras el niño sigue pareciendo normal.' },
+        { show: ['ret'], note: 'El daño no se revierte',
+          say: 'Si nadie lo busca, cuando por fin aparecen los síntomas ya pasaron semanas, y ese daño en el desarrollo cerebral ya no se recupera.' },
+        { show: ['tam'], note: 'Se anticipa al síntoma',
+          say: 'Por eso Chile pesquisa a todos los recién nacidos con una muestra de sangre del talón, antes de que exista cualquier síntoma. Esa es la idea que explica toda la clase.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Programa nacional ministerial',
-      title: 'Programa Nacional de Pesquisa Neonatal en Chile: Principios Rectores',
+      kicker: 'Hipotiroidismo congénito',
+      title: 'La causa más frecuente de retraso prevenible',
       cards: [
-        {
-          title: 'Cobertura Universal Obligatoria',
-          tag: 'Garantía para todos los recién nacidos del territorio chileno',
-          kind: 'key',
-          items: [
-            {
-              t: 'Pesquisa obligatoria en sector público y privado',
-              d: 'Se aplica al cien por ciento de los recién nacidos vivos en maternidades públicas y clínicas privadas del país',
-              say: 'El programa de tamizaje neonatal es de carácter universal y obligatorio en todo Chile, abarcando al cien por ciento de los recién nacidos tanto en hospitales públicos como en clínicas privadas.',
-            },
-            {
-              t: 'Objetivo de salud pública fundamental',
-              d: 'Detectar precozmente enfermedades metabólicas tratables antes de que produzcan discapacidad intelectual permanente',
-              say: 'Su objetivo primordial es pesquisar en fase presintomática el hipotiroidismo congénito y la fenilcetonuria, permitiendo iniciar el tratamiento antes de que se instale el daño cerebral irreversible.',
-            },
-          ],
-        },
-        {
-          title: 'Patologías Incluidas en el Programa Histórico Nacional',
-          tag: 'Dos enfermedades endocrino metabólicas cardinales',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Hipotiroidismo Congénito (HC): Pesquisa mediante TSH',
-              d: 'Cuantificación de tirotropina en sangre seca de talón; patología garantizada en el Régimen GES N° 34',
-              say: 'La primera patología es el hipotiroidismo congénito, evaluado mediante la medición de la hormona tirotropina en sangre de talón, con cobertura integral garantizada por el régimen de salud.',
-            },
-            {
-              t: 'Fenilcetonuria (PKU): Pesquisa de Fenilalanina',
-              d: 'Detección de hiperfenilalaninemia mediante espectrometría de masas o método microbiológico de Guthrie',
-              say: 'La segunda patología es la fenilcetonuria, pesquisada mediante la cuantificación directa de los niveles plasmáticos de fenilalanina en la misma tarjeta de papel filtro.',
-            },
-          ],
-        },
+        { title: 'Cuándo sospecharlo si se escapó', tag: 'Signos tardíos', kind: 'alert', items: [
+          { t: 'Fontanela posterior amplia', d: 'Y llanto ronco',
+            say: 'Si este niño se te escapó del tamizaje, vas a verlo con signos tardíos: fontanela posterior amplia, y un llanto ronco.' },
+          { t: 'Macroglosia y hernia umbilical', d: 'Con ictericia prolongada y constipación',
+            say: 'Además, macroglosia, hernia umbilical, ictericia que se prolonga, y constipación pertinaz. Acuérdate de este conjunto, porque en el examen suele venir así, junto.' },
+        ] },
+        { title: 'Confirmación y tratamiento', tag: 'No se espera', kind: 'pharma', items: [
+          { t: 'TSH y T4 libre en sangre venosa', d: 'Ante cualquier tamizaje alterado',
+            say: 'Si el tamizaje de talón sale alterado, confirmas con TSH y T cuatro libre en sangre venosa.' },
+          { t: 'Levotiroxina antes de los 15 días', d: 'Para proteger el coeficiente intelectual',
+            say: 'Y parte con levotiroxina antes de los quince días de vida. Cuanto antes la inicies, mejor es el pronóstico intelectual. Esto no se espera ni un día más de lo necesario.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Técnica y requisitos de laboratorio',
-      title: 'Toma de Muestra de Talón en Papel Filtro: Momento y Requisito Biológico',
+      kicker: 'Fenilcetonuria',
+      title: 'Una dieta puede evitar el retraso mental',
       cards: [
-        {
-          title: 'Momento Exacto Normado por el MINSAL',
-          tag: 'Pregunta obligada de memorización en el examen',
-          kind: 'key',
-          items: [
-            {
-              t: 'Entre las cuarenta y cuarenta y ocho horas de vida',
-              d: 'La toma se realiza idealmente al alta de la maternidad, nunca antes de las 40 horas ni después de las 72 horas',
-              say: 'La norma técnica ministerial establece con rigor que la toma de sangre de talón debe realizarse estrictamente entre las cuarenta y cuarenta y ocho horas de vida, coincidiendo con el alta hospitalaria.',
-            },
-            {
-              t: '¿Por qué no tomarla al momento del nacimiento?',
-              d: 'En cordón umbilical la TSH sufre un pico fisiológico transitorio posparto que arroja falsos positivos masivos',
-              say: 'Jamás debe tomarse de cordón umbilical ni en las primeras horas, ya que el estrés del nacimiento gatilla un alza fisiológica transitoria de tirotropina que causaría falsos positivos masivos.',
-            },
-          ],
-        },
-        {
-          title: 'Requisito Biológico Indispensable para Fenilcetonuria',
-          tag: 'Alimentación proteica previa por al menos 24 a 48 horas',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Ingesta proteica láctea previa obligatoria',
-              d: 'El neonato debe haber recibido leche materna o fórmula por un mínimo de 24 a 48 horas antes de la punción',
-              say: 'Para que la fenilcetonuria pueda ser detectada, es un requisito biológico indispensable que el niño haya iniciado alimentación con leche por al menos veinticuatro a cuarenta y ocho horas previas.',
-            },
-            {
-              t: 'Peligro de falsos negativos en pacientes en ayuno',
-              d: 'Si el niño no ha comido proteínas no acumula fenilalanina en sangre, arrojando un resultado falsamente normal',
-              say: 'Si el recién nacido se encuentra en ayunas o no ha ingerido proteínas, no habrá acumulado fenilalanina en sangre, arrojando un resultado falsamente negativo con graves consecuencias.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Endocrinología neonatal',
-      title: 'Hipotiroidismo Congénito: Epidemiología y Etiología',
-      cards: [
-        {
-          title: 'Epidemiología e Impacto Sanitario',
-          tag: 'La causa prevenible más común de discapacidad intelectual',
-          kind: 'key',
-          items: [
-            {
-              t: 'Prevalencia en Chile: Uno por cada tres mil recién nacidos',
-              d: 'Una de las tasas de incidencia más altas descritas en Latinoamérica, con leve predominio en sexo femenino',
-              say: 'En Chile la incidencia de hipotiroidismo congénito es de aproximadamente uno por cada tres mil recién nacidos vivos, constituyendo la causa prevenible más frecuente de discapacidad cognitiva.',
-            },
-            {
-              t: 'Presentación inicial asintomática en más del 95% de los casos',
-              d: 'El examen físico en las primeras dos semanas de vida suele ser completamente normal en recién nacidos afectados',
-              say: 'La inmensa mayoría de los recién nacidos con hipotiroidismo congénito no presenta ningún signo evidente al nacer, haciendo que el examen físico aislado sea totalmente insuficiente para detectarlo.',
-            },
-          ],
-        },
-        {
-          title: 'Etiología Principal: Disgenesia Tiroidea',
-          tag: 'Representa el ochenta y cinco por ciento de los casos',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Disgenesia tiroidea: Ectopia, atireosis e hipoplasia',
-              d: 'La tiroides ectópica sublingual es la anomalía más común (60%), seguida de agenesia total e hipoplasia glandular',
-              say: 'El ochenta y cinco por ciento de los casos se debe a una disgenesia tiroidea, siendo la tiroides ectópica en la base lingual la anomalía anatómica más habitual en la práctica clínica.',
-            },
-            {
-              t: 'Dishormonogénesis tiroidea: Quince por ciento restante',
-              d: 'Defectos enzimáticos hereditarios autosómicos recesivos en la síntesis de tiroxina; cursan con bocio neonatal',
-              say: 'El quince por ciento restante corresponde a dishormonogénesis por defectos enzimáticos en la biosíntesis hormonal, cuadro que se transmite de forma autosómica recesiva y suele cursar con bocio.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Semiología de la sospecha tardía',
-      title: 'Clínica del Hipotiroidismo Congénito sin Diagnóstico Precoz',
-      cards: [
-        {
-          title: 'Banderas Rojas al Examen Físico a los Dos Meses',
-          tag: 'Signos clásicos cuando se omitió el tamizaje de talón',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Facies típica: Macroglosia y llanto ronco característico',
-              d: 'Lengua engrosada que protruye de la boca, edema periorbitario y emisión de un llanto grave y ronco áspero',
-              say: 'A los dos meses el lactante no pesquisado desarrolla la clásica facies mixedematosa con lengua aumentada de tamaño que asoma entre los labios y un llanto típicamente ronco y apagado.',
-            },
-            {
-              t: 'Fontanela posterior amplia mayor a un centímetro',
-              d: 'Retraso en el cierre de la fontanela lambdoidea mayor a 0.5 cm en recién nacidos de término',
-              say: 'Destaca una fontanela posterior anormalmente amplia que supera el centímetro de diámetro, traduciendo un retraso severo en la osificación del esqueleto craneano infantil.',
-            },
-          ],
-        },
-        {
-          title: 'Alteraciones Metabólicas, Digestivas y Cutáneas',
-          tag: 'Enlentecimiento generalizado del metabolismo basal',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Constipación intestinal severa y hernia umbilical prominente',
-              d: 'Disminución del peristaltismo colónico con retención fecal pertinaz e hipotonía de la pared abdominal',
-              say: 'Presentan constipación pertinaz por hipomotilidad intestinal y una hernia umbilical prominente secundaria a la hipotonía marcada de los músculos rectos del abdomen.',
-            },
-            {
-              t: 'Piel seca, fría, livedo reticularis e ictericia prolongada',
-              d: 'Hipotermia, piel áspera descamativa y persistencia de ictericia indirecta más allá de las tres semanas',
-              say: 'La piel se palpa fría, seca y moteada por vasoconstricción, asociándose frecuentemente a ictericia fisiológica prolongada por retardo en la maduración de las enzimas hepáticas.',
-            },
-          ],
-        },
+        { title: 'La condición para tomar el examen', tag: 'Ojo con esto', kind: 'key', items: [
+          { t: 'Necesita alimentación previa', d: 'Al menos un día con leche',
+            say: 'Un detalle que se pregunta seguido: para pesquisar la fenilcetonuria, el niño tiene que haber comido antes. Si tomas la muestra sin que haya recibido leche, la fenilalanina te va a salir falsamente normal.' },
+        ] },
+        { title: 'Tratamiento', tag: 'De por vida', kind: 'criteria', items: [
+          { t: 'Dieta sin fenilalanina', d: 'Con fórmula especial y tirosina',
+            say: 'El tratamiento no es un fármaco: es una dieta estricta, restringida en fenilalanina, con una fórmula especial que la reemplaza. Y es de por vida.' },
+        ] },
       ],
     },
 
     {
       type: 'flow',
-      kicker: 'Confirmación y rescate endocrino',
-      title: 'Algoritmo de Rescate ante Pesquisa de Talón Alterada',
+      kicker: 'Logística del tamizaje',
+      title: '¿Cuándo se toma la muestra de talón?',
       nodes: [
-        { id: 'tal', col: 0, row: 1, k: 'start', t: 'TSH elevada en papel filtro', s: 'Tirotropina en sangre de talón superior al punto de corte del laboratorio' },
-        { id: 'lla', col: 1, row: 1, k: 'alert', t: 'Ubicación inmediata de familia', s: 'Contacto telefónico urgente en las primeras cuarenta y ocho horas' },
-        { id: 'ven', col: 2, row: 1, k: 'good', t: 'Confirmación en sangre venosa', s: 'Extracción venosa inmediata de TSH y T4 libre para confirmación diagnóstica' },
-        { id: 'lev', col: 3, row: 1, k: 'effect', t: 'Inicio de Levotiroxina oral', s: 'Inicio de reemplazo hormonal antes de los quince días de vida cumplidos' },
+        { id: 'nac', col: 0, row: 1, k: 'start', t: 'Recién nacido en maternidad', s: 'Antes del alta' },
+        { id: 'mom', col: 1, row: 1, k: 'mech', t: 'Entre 40 y 48 horas de vida', s: 'Con alimentación láctea ya iniciada' },
+        { id: 'tem', col: 2, row: 0, k: 'trap', t: 'Tomarla al cortar el cordón', s: 'Da falsos resultados' },
+        { id: 'lab', col: 2, row: 2, k: 'good', t: 'Papel filtro al laboratorio', s: 'TSH y fenilalanina' },
       ],
       edges: [
-        { from: 'tal', to: 'lla', label: 'alerta de screening' },
-        { from: 'lla', to: 'ven', label: 'citación urgente' },
-        { from: 'ven', to: 'lev', label: 'TSH alta con T4 libre baja' },
+        { from: 'nac', to: 'mom' }, { from: 'mom', to: 'lab' }, { from: 'mom', to: 'tem', label: 'error' },
       ],
       steps: [
-        {
-          show: ['tal', 'lla'],
-          note: 'Detección en laboratorio de tamizaje y búsqueda activa del paciente',
-          say: 'Si el resultado de la tirotropina en papel filtro supera el umbral de corte, el centro de pesquisa activa de inmediato la búsqueda telefónica y territorial de la familia para una citación médica de urgencia.',
-        },
-        {
-          show: ['ven', 'lev'],
-          note: 'Confirmación con sangre venosa e inicio terapéutico inmediato',
-          say: 'Se toma de inmediato una muestra de sangre venosa para medir tirotropina y tiroxina libre. Si se confirma el hipotiroidismo, se inicia levotiroxina sódica oral antes de los quince días de vida para asegurar un desarrollo psicomotor totalmente normal.',
-        },
+        { show: ['nac'], note: 'Se toma antes del alta',
+          say: 'Ahora, la logística. La muestra se toma en la misma maternidad, antes de que la mamá y el niño se vayan a casa.' },
+        { show: ['mom'], note: 'El momento justo',
+          say: 'El momento correcto es entre las cuarenta y las cuarenta y ocho horas de vida, y con el niño ya alimentándose, porque la fenilalanina necesita ese tiempo con leche para subir si hay enfermedad.' },
+        { show: ['tem'], note: 'Muy temprano, sin alimentación',
+          say: 'Y la trampa clásica es tomarla apenas nace, antes de la primera mamada: ahí la fenilalanina todavía no ha subido, y te puede quedar un falso normal.' },
+        { show: ['lab'], note: 'Se procesa en un laboratorio central',
+          say: 'Con el momento correcto, la muestra en papel filtro se envía y se miden ahí la TSH y la fenilalanina.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Tratamiento hormonal sustitutivo',
-      title: 'Tratamiento del Hipotiroidismo Congénito con Levotiroxina',
+      kicker: 'Otros dos tamizajes universales',
+      title: 'Oído y corazón, el mismo día',
       cards: [
-        {
-          title: 'Dosificación y Administración de Levotiroxina Sódica',
-          tag: 'Fármaco garantizado por las Garantías Explícitas en Salud (GES N° 34)',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Dosis inicial: Diez a quince microgramos por kilo día',
-              d: 'Dosis elevada en el recién nacido para normalizar rápidamente la T4 libre en los primeros tres a cinco días',
-              say: 'La dosis de inicio es de diez a quince microgramos por kilo día en toma única diaria, dosis proporcionalmente alta para lograr normalizar la tiroxina libre en menos de una semana.',
-            },
-            {
-              t: 'Técnica de administración: Ayunas triturada con agua',
-              d: 'Triturar el comprimido en una cucharita con unas gotas de leche materna o agua; jamás con sales de hierro ni soya',
-              say: 'El comprimido debe triturarse finamente en una cuchara con unas gotas de agua o leche materna administrándose en ayunas, evitando mezclarse con suplementos de hierro que quelan el fármaco.',
-            },
-          ],
-        },
-        {
-          title: 'Seguimiento y Metas Hormonales Estrictas',
-          tag: 'Monitoreo mensual por endocrinología infantil',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Meta: Normalizar T4 libre precozmente y mantener TSH normal',
-              d: 'Mantener la T4 libre en la mitad superior del rango normal para la edad durante todo el primer año de vida',
-              say: 'El objetivo es mantener la tiroxina libre en la mitad superior del rango de referencia durante los primeros meses para garantizar un óptimo crecimiento neuronal y axonal.',
-            },
-            {
-              t: 'Controles de laboratorio seriados mensuales',
-              d: 'Control de TSH y T4 libre al mes del inicio y luego cada dos a tres meses durante los primeros tres años',
-              say: 'Se efectúan controles hormonales mensuales durante el primer semestre ajustando la dosis según el aumento de peso corporal para evitar el hipotiroidismo subclínico.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Error innato de los aminoácidos',
-      title: 'Fenilcetonuria (PKU): Fisiopatología y Neurotoxicidad',
-      cards: [
-        {
-          title: 'Déficit Enzimático y Bloqueo Metabólico',
-          tag: 'Herencia autosómica recesiva clásica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Mutación en gen de Fenilalanina Hidroxilasa (PAH)',
-              d: 'Incapacidad enzimática hepática para transformar el aminoácido esencial fenilalanina en tirosina',
-              say: 'La fenilcetonuria se produce por mutaciones autosómicas recesivas en la enzima fenilalanina hidroxilasa hepática, impidiendo la conversión normal de fenilalanina en tirosina.',
-            },
-            {
-              t: 'Acumulación de fenilalanina y ácidos fenilpirúvico y fenilláctico',
-              d: 'Niveles plasmáticos de fenilalanina mayores a 20 mg/dL cruzan la barrera cerebral bloqueando neurotransmisores',
-              say: 'La fenilalanina acumulada compite por los transportadores cerebrales de aminoácidos neutros, bloqueando la síntesis de dopamina y serotonina y lesionando gravemente la mielina.',
-            },
-          ],
-        },
-        {
-          title: 'Cuadro Clínico Clásico sin Tratamiento Oportuno',
-          tag: 'Fenotipo característico descrito antes del screening',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Discapacidad intelectual severa y microcefalia progresiva',
-              d: 'Pérdida irreversible de puntos de coeficiente intelectual cada mes que se retrasa el inicio de la fórmula',
-              say: 'Los niños no tratados sufren un retraso psicomotor severo y microcefalia progresiva, perdiendo irreversiblemente puntos de coeficiente intelectual cada mes que se posterga la dieta.',
-            },
-            {
-              t: 'Olor a humedad o ratón mojado y piel hipopigmentada',
-              d: 'Excreción de fenilacetato en orina y sudor; déficit de melanina por bloqueo en la síntesis de tirosina',
-              say: 'Presentan un olor penetrante a humedad o ratón mojado en la orina y sudor por eliminación de ácido fenilacético, con tez pálida y ojos claros por falta de melanina.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Dietoterapia de precisión',
-      title: 'Tratamiento Nutricional de la Fenilcetonuria',
-      cards: [
-        {
-          title: 'Dieta Restricta en Fenilalanina para Toda la Vida',
-          tag: 'La intervención que erradicó la discapacidad por PKU',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Fórmula médica especial libre de fenilalanina',
-              d: 'Aporte de aminoácidos esenciales enriquecidos con tirosina, vitaminas y minerales garantizados por el Estado',
-              say: 'El tratamiento consiste en una fórmula médica especial completamente libre de fenilalanina pero suplementada con tirosina, la cual es provista de forma gratuita y continua por el Estado.',
-            },
-            {
-              t: 'Restricción estricta de alimentos proteicos naturales',
-              d: 'Prohibición absoluta de carnes, pescados, huevos, lácteos y legumbres; aporte controlado de frutas y verduras',
-              say: 'Se restringen rigurosamente todos los alimentos ricos en proteínas naturales como carnes, huevos y lácteos, calculando al gramo el aporte mínimo de fenilalanina indispensable.',
-            },
-          ],
-        },
-        {
-          title: 'Monitorización de Niveles Plasmáticos de Fenilalanina',
-          tag: 'Mantener niveles en rango seguro para evitar neurotoxicidad',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Rango terapéutico objetivo: Dos a seis miligramos por decilitro',
-              d: 'Mediciones periódicas de fenilalaninemia mediante gotas de sangre en papel filtro enviadas al laboratorio',
-              say: 'El seguimiento exige controles periódicos con gotas de sangre en papel filtro para asegurar que los niveles de fenilalanina se mantengan entre dos y seis miligramos por decilitro.',
-            },
-            {
-              t: 'Mantenimiento del tratamiento durante la adultez y embarazo',
-              d: 'La dieta debe mantenerse de por vida; en mujeres previene el síndrome de fenilcetonuria materna con cardiopatía fetal',
-              say: 'La dieta debe mantenerse de por vida, siendo especialmente crítica en mujeres jóvenes para prevenir el síndrome de fenilcetonuria materna que causa malformaciones cardíacas fetales.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Sensorial y neurodesarrollo',
-      title: 'Tamizaje Auditivo Universal en el Recién Nacido',
-      cards: [
-        {
-          title: 'Pesquisa Oportuna de la Hipoacusia Congénita',
-          tag: 'Objetivo internacional: Detección antes de los tres meses',
-          kind: 'key',
-          items: [
-            {
-              t: 'Prevalencia: Uno a tres por cada mil recién nacidos sanos',
-              d: 'La incidencia se multiplica por diez en prematuros extremos hospitalizados en unidades neonatales intensivas',
-              say: 'La hipoacusia neurosensorial congénita afecta a uno a tres de cada mil recién nacidos sanos, aumentando a uno de cada cincuenta en prematuros internados en cuidados intensivos.',
-            },
-            {
-              t: 'La regla del uno, tres y seis meses',
-              d: 'Tamizaje antes del primer mes de vida, diagnóstico confirmatorio a los 3 meses e inicio de rehabilitación a los 6 meses',
-              say: 'La regla internacional establece realizar el tamizaje antes del primer mes de vida, confirmar el diagnóstico antes de los tres meses e iniciar la intervención auditiva a los seis meses.',
-            },
-          ],
-        },
-        {
-          title: 'Métodos Electrofisiológicos de Detección',
-          tag: 'Emisiones otoacústicas y potenciales evocados auditivos',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Emisiones Otoacústicas (EOA): Tamizaje universal rápido',
-              d: 'Prueba no invasiva automatizada que evalúa la integridad de las células ciliadas externas de la cóclea',
-              say: 'Las emisiones otoacústicas constituyen el método de elección para el tamizaje universal rápido, evaluando de forma automatizada la respuesta de las células ciliadas de la cóclea.',
-            },
-            {
-              t: 'Potenciales Evocados Auditivos de Tronco Encefálico (PEATC)',
-              d: 'Obligatorios en recién nacidos de alto riesgo (prematuros, asfixia, hiperbilirrubinemia con recambio o uso de aminoglucósidos)',
-              say: 'Los potenciales evocados auditivos de tronco cerebral son obligatorios en neonatos con factores de riesgo para pesquisar neuropatías auditivas del nervio coclear.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Programas de pesquisa en chile',
-      title: 'Comparación de los Programas de Tamizaje Neonatal Universal en Chile',
-      head: ['Patología Tamizada', 'Método Diagnóstico', 'Momento de Toma', 'Tratamiento Inmediato'],
-      rows: [
-        {
-          cells: ['Hipotiroidismo Congénito', 'TSH en papel filtro de talón', '40 a 48 horas de vida', 'Levotiroxina sódica oral a 10-15 mcg/kg/d'],
-          say: 'El hipotiroidismo congénito se tamiza con TSH de talón entre las cuarenta y cuarenta y ocho horas y se trata con levotiroxina sódica oral.',
-        },
-        {
-          cells: ['Fenilcetonuria (PKU)', 'Fenilalanina en papel filtro', '40 a 48 horas (con lactancia)', 'Fórmula especial libre de fenilalanina'],
-          say: 'La fenilcetonuria exige alimentación láctea previa y se trata de por vida con una fórmula médica completamente libre de fenilalanina.',
-        },
-        {
-          cells: ['Hipoacusia congénita', 'Emisiones Otoacústicas (EOA)', 'Antes del alta o primer mes', 'Audífonos o implante coclear antes de 6 meses'],
-          say: 'La hipoacusia congénita se pesquisa mediante emisiones otoacústicas antes del mes, habilitando audífonos o implante coclear precoz.',
-        },
-        {
-          cells: ['Displasia de caderas', 'Radiografía de pelvis AP', 'A los tres meses de vida (GES)', 'Correas o arnés de Pavlik en menores de 6 meses'],
-          say: 'La displasia del desarrollo de la cadera se tamiza con radiografía de pelvis a los tres meses y se corrige con correas de Pavlik.',
-        },
+        { title: 'Tamizaje auditivo', tag: 'Antes del alta', kind: 'key', items: [
+          { t: 'Emisiones otoacústicas', d: 'A todo recién nacido',
+            say: 'Junto con el papel filtro van otros dos tamizajes. El del oído se hace con emisiones otoacústicas, antes de que el niño salga de la maternidad.' },
+          { t: 'Si falla, se repite al mes', d: 'Y si sigue alterado, potenciales evocados',
+            say: 'Si la primera prueba sale alterada, se repite al mes. Y si persiste, ahí recién van los potenciales evocados auditivos, para confirmar antes de los seis meses.' },
+        ] },
+        { title: 'Tamizaje cardíaco', tag: 'Oximetría de pulso', kind: 'criteria', items: [
+          { t: 'Mano derecha y un pie', d: 'A las 24 a 48 horas de vida',
+            say: 'Y el del corazón se hace con oximetría de pulso, comparando la mano derecha con un pie, a las veinticuatro o cuarenta y ocho horas de vida.' },
+          { t: 'Busca cardiopatías dependientes del ductus', d: 'Antes de que se cierre y colapse',
+            say: 'Lo que busca es una cardiopatía que depende del ductus para funcionar, y quieres encontrarla antes de que ese ductus se cierre solo y el niño colapse.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de actuación clínica',
-      title: 'Algoritmo Nacional de Pesquisa Neonatal de Talón y Rescate Endocrinológico',
-      say: 'Examinemos el algoritmo paso a paso para la toma de muestra de talón en la maternidad, el procesamiento ministerial y la conducta médica ante un resultado alterado.',
+      intro: 'Pongamos todo el flujo del tamizaje en un solo árbol.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Momento, método y confirmación',
+      head: ['Programa', 'Momento', 'Confirmación', 'Tratamiento'],
+      rows: [
+        { cells: ['Hipotiroidismo congénito', 'TSH de talón, 40 a 48 h', 'TSH y T4 libre venosa', 'Levotiroxina antes de los 15 días'],
+          say: 'Repasemos en una tabla. Hipotiroidismo congénito: TSH de talón entre las cuarenta y las cuarenta y ocho horas, se confirma con TSH y T cuatro libre venosa, y se trata con levotiroxina antes de los quince días.' },
+        { cells: ['Fenilcetonuria', 'Con alimentación láctea previa', 'Fenilalanina cuantitativa', 'Dieta sin fenilalanina de por vida'],
+          say: 'Fenilcetonuria: exige alimentación láctea previa, se confirma con fenilalanina cuantitativa, y se trata con dieta sin fenilalanina de por vida.' },
+        { cells: ['Hipoacusia', 'Emisiones otoacústicas al alta', 'Potenciales evocados si falla', 'Audífono o implante coclear'],
+          say: 'Hipoacusia: emisiones otoacústicas al alta, y si falla, potenciales evocados para confirmar.' },
+        { cells: ['Cardiopatía crítica', 'Oximetría a las 24–48 h', 'Ecocardiografía urgente', 'Prostaglandina si depende del ductus'],
+          say: 'Y cardiopatía crítica: oximetría entre las veinticuatro y las cuarenta y ocho horas, y si sale alterada, ecocardiografía urgente.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco Oficial AEE · Perfil V3 2.01.1.134',
-      title: 'Momento de Toma de Muestra y Requisito en Fenilcetonuria',
-      stem: 'En relación con el Programa Nacional de Pesquisa Neonatal de Errores Innatos del Metabolismo en Chile, ¿cuál es el momento exacto normado por el MINSAL para la toma de la muestra de sangre de talón en papel filtro y cuál es el requisito biológico indispensable para la pesquisa de Fenilcetonuria?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Lactante de 1 mes, nacido de término en parto domiciliario rural, sin controles ni tamizaje de talón. La madre lo describe muy tranquilo, duerme todo el día, le cuesta mamar y tiene el abdomen distendido. Al examen: fontanela posterior amplia de 1,5 cm, ictericia leve, macroglosia, llanto ronco y hernia umbilical de 2 cm reducible.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Inmediatamente al corte del cordón umbilical en sala de partos, antes de la primera mamada' },
-        { letter: 'B', text: 'Entre las 40 y 48 horas de vida (al alta de maternidad), habiendo recibido alimentación láctea por al menos 24 a 48 horas' },
-        { letter: 'C', text: 'A los 30 días de vida en el primer control de salud infantil del CESFAM' },
-        { letter: 'D', text: 'A las 12 horas de vida en ayunas estricto de agua y leche' },
-        { letter: 'E', text: 'Solo si el recién nacido presenta ictericia o letargia clínica' },
+        { letter: 'A', text: 'Solicitar ecografía de tiroides como primer examen' },
+        { letter: 'B', text: 'Solicitar TSH y T4 libre en sangre venosa, e iniciar levotiroxina oral' },
+        { letter: 'C', text: 'Indicar fórmula libre de fenilalanina de forma empírica' },
+        { letter: 'D', text: 'Control en un mes más, ya que a esta edad puede ser variante normal' },
+        { letter: 'E', text: 'Solicitar cintigrama tiroideo antes de decidir cualquier tratamiento' },
       ],
       correct: 'B',
-      explanation: 'La norma técnica del Ministerio de Salud de Chile establece que la toma de sangre de talón en papel filtro debe realizarse entre las 40 y 48 horas de vida (coincidiendo con el alta de la maternidad). En el caso de la Fenilcetonuria (PKU), es un requisito biológico indispensable que el recién nacido haya recibido alimentación con leche materna o fórmula por un mínimo de 24 a 48 horas para que los niveles de fenilalanina plasmática alcancen valores medibles, evitando falsos negativos catastróficos.',
+      explanation: 'El cuadro reúne los signos tardíos clásicos del hipotiroidismo congénito, que se debió pesquisar con el tamizaje que nunca se tomó. La conducta inmediata es confirmar con TSH y T4 libre en sangre venosa e iniciar levotiroxina oral sin retraso, para minimizar el daño en el desarrollo.',
       say: {
-        stem: 'Pregunta sobre el momento normado por el ministerio para la toma de sangre de talón en papel filtro y el requisito indispensable para fenilcetonuria.',
-        question: '¿Cuál es el momento exacto y el requisito biológico necesario?',
-        options: 'La opción A en cordón umbilical. La B entre las cuarenta y cuarenta y ocho horas habiendo recibido alimentación láctea por al menos veinticuatro a cuarenta y ocho horas. La C a los treinta días. La D a las doce horas en ayunas. La E solo en sintomáticos. Recuerda la norma técnica nacional. Piénsalo.',
-        answer: 'La respuesta correcta es la B. La muestra se toma entre las cuarenta y cuarenta y ocho horas con alimentación láctea previa de al menos un día.',
+        stem: 'Vamos al caso. Lactante de un mes, nacido de término en un parto domiciliario rural, sin ningún control ni tamizaje de talón. La madre cuenta que es muy tranquilo, duerme todo el día, le cuesta mamar y tiene el abdomen distendido. Al examen tiene la fontanela posterior amplia, ictericia leve, macroglosia, llanto ronco y una hernia umbilical.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: ecografía de tiroides primero, TSH y T cuatro libre venosa con inicio de levotiroxina, fórmula libre de fenilalanina empírica, controlar en un mes más, o cintigrama tiroideo antes de tratar. Piénsalo.',
+        answer: 'Es la B. Junta los signos: fontanela amplia, macroglosia, llanto ronco, hernia umbilical, y todo en un niño al que nunca le tomaron el talón. Es un hipotiroidismo congénito que se escapó del tamizaje. No hay tiempo que perder: TSH y T cuatro libre para confirmar, y levotiroxina de inmediato. Esperar un cintigrama, o esperar otro mes, solo suma más días de daño.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco Oficial AEE · Perfil V3 2.01.1.134',
-      title: 'Diagnóstico Confirmatorio y Manejo en Sospecha de Hipotiroidismo',
-      stem: 'Un lactante de 2 meses no tuvo tamizaje de talón al nacer. Es evaluado en APS por constipación severa. Al examen se observa somnoliento, con piel seca y fría, llanto ronco, fontanela posterior abierta de 2 cm, macroglosia y una hernia umbilical evidente. La sospecha clínica apunta a Hipotiroidismo Congénito.',
-      question: '¿Cuál es el examen confirmatorio de elección y el tratamiento que debe iniciarse de inmediato?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2024 · Pregunta 92',
+      stem: 'Lactante que llega sin test de audición a su primer control.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Ecografía de tiroides exclusiva; indicar fórmula enriquecida con yodo' },
-        { letter: 'B', text: 'TSH y T4 libre en sangre venosa; iniciar Levotiroxina oral a 10-15 mcg/kg/día' },
-        { letter: 'C', text: 'Anticuerpos anti-TPO en saliva; iniciar Metimazol oral' },
-        { letter: 'D', text: 'Cintigrama de tiroides con I-131 previo a cualquier tratamiento' },
-        { letter: 'E', text: 'Punción aspiración de tiroides con aguja fina y tiroidectomía total' },
+        { letter: 'A', text: 'Emisiones otoacústicas' },
+        { letter: 'B', text: 'Impedanciometría' },
+        { letter: 'C', text: 'Evaluación por fonoaudiología' },
+        { letter: 'D', text: 'Audiometría' },
+        { letter: 'E', text: 'Reflejo cocleopalpebral' },
       ],
-      correct: 'B',
-      explanation: 'Ante la sospecha clínica tardía de Hipotiroidismo Congénito (facies con macroglosia, llanto ronco, fontanela posterior amplia, hernia umbilical y constipación pertinaz), el examen confirmatorio estándar e ineludible es la medición de TSH y T4 libre en sangre venosa. Confirmado el cuadro (TSH muy elevada con T4 libre baja), se debe iniciar inmediatamente tratamiento con Levotiroxina sódica oral a dosis de 10 a 15 microgramos por kilo día en ayunas, patología garantizada por las Garantías Explícitas en Salud (GES N° 34) para prevenir un retraso mental irreversible.',
+      correct: 'A',
+      explanation: 'El examen de tamizaje auditivo universal en el recién nacido es la medición de emisiones otoacústicas. Los potenciales evocados quedan para cuando esta prueba sale alterada, no como primera opción.',
       say: {
-        stem: 'Lactante de dos meses sin tamizaje con macroglosia llanto ronco fontanela posterior amplia y hernia umbilical con sospecha de hipotiroidismo.',
-        question: '¿Cuál es el examen confirmatorio de elección y el tratamiento que debe iniciarse de inmediato?',
-        options: 'La opción A ecografía de tiroides y yodo. La B tirotropina y tiroxina libre en sangre venosa con inicio de levotiroxina oral a diez a quince microgramos por kilo día. La C anticuerpos en saliva y metimazol. La D cintigrama antes de tratar. La E punción con aguja fina. Prioriza la confirmación funcional. Piénsalo.',
-        answer: 'La respuesta correcta es la B. Se confirma con tirotropina y tiroxina libre en sangre venosa y se inicia de inmediato levotiroxina sódica oral.',
+        stem: 'Una pregunta real, del EUNACOM de diciembre de dos mil veinticuatro. Un lactante llega a su primer control sin haberse hecho el test de audición.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: emisiones otoacústicas, impedanciometría, evaluación por fonoaudiología, audiometría, o reflejo cocleopalpebral.',
+        answer: 'Es la A, emisiones otoacústicas. Es exactamente el examen de tamizaje que vimos: se hace primero, y es el que le faltó a este niño. La audiometría y los potenciales evocados vienen después, solo si esta primera prueba sale alterada.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2017 · Pregunta 72',
+      stem: 'Screening de fenilcetonuria que se hace a todos los recién nacidos en Chile.',
+      question: '¿A qué tipo de medida corresponde?',
+      options: [
+        { letter: 'A', text: 'Promoción de la salud' },
+        { letter: 'B', text: 'Protección de la salud' },
+        { letter: 'C', text: 'Prevención primaria' },
+        { letter: 'D', text: 'Prevención secundaria' },
+        { letter: 'E', text: 'Prevención terciaria' },
+      ],
+      correct: 'D',
+      explanation: 'Un tamizaje detecta una enfermedad que ya está presente, antes de que dé síntomas: eso es prevención secundaria. La prevención primaria evitaría que la enfermedad apareciera; aquí la enfermedad ya existe, solo se adelanta el diagnóstico.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Te preguntan por el tamizaje de fenilcetonuria que se hace a todos los recién nacidos en Chile.',
+        question: '¿A qué tipo de medida corresponde?',
+        options: 'Las opciones: promoción de la salud, protección de la salud, prevención primaria, prevención secundaria, o prevención terciaria.',
+        answer: 'Es la D, prevención secundaria. Y esto conecta con toda la clase: la enfermedad ya está ahí, ya tiene la falla enzimática o la tiroides que no funciona, solo que todavía no da síntomas. Detectarla en esa etapa silenciosa es prevención secundaria, no primaria. La primaria evitaría que la enfermedad ocurriera, y eso aquí no se puede.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 53',
+      stem: 'Lactante de 3 meses, diagnosticado de hipotiroidismo congénito, en tratamiento con levotiroxina. TSH: 0,09 (normal 0,7 a 5,7). T4 libre: 2,18 (normal 0,9 a 2,1).',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Suspender la levotiroxina' },
+        { letter: 'B', text: 'Subir la dosis de levotiroxina' },
+        { letter: 'C', text: 'Repetir la TSH en 6 semanas, sin cambios' },
+        { letter: 'D', text: 'Disminuir la dosis de levotiroxina' },
+        { letter: 'E', text: 'Solicitar cintigrafía tiroidea' },
+      ],
+      correct: 'D',
+      explanation: 'La TSH está bajo lo normal y la T4 libre sobre lo normal: el lactante está sobretratado. La conducta es disminuir la dosis de levotiroxina y reevaluar, no suspenderla, porque el tratamiento de por vida sigue siendo necesario.',
+      say: {
+        stem: 'Y la última pregunta real, del EUNACOM de julio de dos mil diecinueve. Lactante de tres meses, ya diagnosticado de hipotiroidismo congénito y en tratamiento con levotiroxina. La TSH le sale muy baja, y la T cuatro libre por sobre lo normal.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: suspender la levotiroxina, subir la dosis, repetir la TSH sin cambios, disminuir la dosis, o pedir un cintigrama tiroideo.',
+        answer: 'Es la D. Esto es después del diagnóstico, así que ya cambia la pregunta: aquí no se trata de confirmar, sino de ajustar. Una TSH tan baja con la T cuatro libre alta te dice que la dosis está muy alta para este lactante, así que la bajas y controlas. Suspenderla sería un error grave, porque el hipotiroidismo congénito se trata de por vida.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Reglas de oro EUNACOM',
-      title: 'Puntos Clave y Perlas Indispensables en Tamizaje Neonatal',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Momento y Requisitos del Talón',
-          tag: 'Memorización estricta de normas técnicas',
-          kind: 'key',
-          items: [
-            {
-              t: 'Muestra de talón entre las 40 y 48 horas de vida',
-              d: 'Nunca tomar en cordón por falsos positivos de TSH; exigir ingesta láctea previa de al menos 24 horas para PKU',
-              say: 'Recuerden que la sangre de talón se toma entre las cuarenta y cuarenta y ocho horas de vida habiendo comido leche previamente.',
-            },
-            {
-              t: 'Levotiroxina a 10 a 15 mcg/kg/día antes de los 15 días',
-              d: 'El tratamiento oportuno del hipotiroidismo congénito asegura un desarrollo cognitivo e intelectual cien por ciento normal',
-              say: 'La levotiroxina a diez a quince microgramos por kilo día iniciada antes de los quince días de vida garantiza un intelecto normal.',
-            },
-          ],
-        },
-        {
-          title: 'Fenilcetonuria y Tamizaje Auditivo',
-          tag: 'Prevención integral de secuelas sensoriales y cognitivas',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Fórmula libre de fenilalanina de por vida en PKU',
-              d: 'Evita la microcefalia y el retraso mental severo; olor a ratón mojado y piel clara en casos no tratados',
-              say: 'La fenilcetonuria exige fórmula sin fenilalanina de por vida para evitar el daño cerebral y el clásico olor a ratón mojado.',
-            },
-            {
-              t: 'Regla del 1, 3 y 6 meses en tamizaje auditivo',
-              d: 'Pesquisa al mes con EOA, confirmación diagnóstica a los 3 meses y rehabilitación con audífonos a los 6 meses',
-              say: 'En audición recuerden la regla de uno, tres y seis meses. Si te llevas una sola idea de hoy: el tamizaje neonatal en papel de filtro para fenilcetonuria e hipotiroidismo se toma obligatoriamente a las cuarenta horas de vida para evitar falsos negativos. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'La idea que ordena todo', tag: 'Antes del síntoma', kind: 'key', items: [
+          { t: 'Se busca en todos', d: 'Aunque el niño se vea sano',
+            say: 'Cerremos con las reglas de oro. El tamizaje se hace a todos, aunque el niño se vea perfectamente sano, porque el daño avanza antes del síntoma.' },
+          { t: 'Es prevención secundaria', d: 'Detecta lo que ya existe',
+            say: 'Y en salud pública, esto es prevención secundaria: la enfermedad ya está, se adelanta el diagnóstico.' },
+        ] },
+        { title: 'Los dos condicionantes', tag: 'Momento y método', kind: 'criteria', items: [
+          { t: 'Talón entre 40 y 48 horas', d: 'Con alimentación láctea ya iniciada',
+            say: 'La muestra de talón se toma entre las cuarenta y las cuarenta y ocho horas, con alimentación láctea ya iniciada para no perder la fenilcetonuria.' },
+          { t: 'Confirmar en sangre venosa', d: 'Nunca tratar solo con el talón alterado',
+            say: 'Y todo tamizaje alterado se confirma en sangre venosa antes de tratar. Si te llevas una sola idea de hoy: se busca antes del síntoma, y se confirma antes de tratar. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
-  pathway: {
-    title: 'Algoritmo Nacional de Pesquisa Neonatal de Talón, Confirmación y Rescate Endocrinológico',
-    root: N(
-      'start',
-      'Recién Nacido en Maternidad: Cumplimiento de 40 a 48 Horas de Vida con Alimentación Láctea',
-      'Punción de cara lateral externa del talón con lanceta y llenado de círculos de papel filtro estandarizado',
-      'Iniciamos el protocolo tomando la muestra de sangre en papel filtro al cumplir cuarenta a cuarenta y ocho horas de vida.',
-      [
-        'Procesamiento en Laboratorio Central de Tamizaje Metabólico',
-        N(
-          'q',
-          '¿Resultado del análisis de TSH y Fenilalanina en sangre seca?',
-          'Cuantificación hormonal y de aminoácidos con puntos de corte validados',
-          'El laboratorio central procesa la muestra analizando tirotropina y concentración de fenilalanina.',
-          [
-            'TSH sobre el punto de corte (Sospecha de Hipotiroidismo Congénito)',
-            N(
-              'alert',
-              'Ubicación Urgente de Familia y Confirmación en Sangre Venosa',
-              'Llamado telefónico inmediato · Extracción de TSH y T4 libre en sangre venosa · Si se confirma: Levotiroxina sódica oral a 10-15 mcg/kg/día antes de 15 días (GES N° 34)',
-              'Ante tirotropina elevada en el talón se cita de inmediato para confirmar con sangre venosa e iniciar levotiroxina precoz.',
-            ),
-          ],
-          [
-            'Fenilalanina sobre el punto de corte (Sospecha de Fenilcetonuria)',
-            N(
-              'alert',
-              'Derivación Inmediata a Centro de Enfermedades Metabólicas',
-              'Confirmación cromatográfica de aminoácidos plasmáticos · Inicio inmediato de fórmula especial sin fenilalanina y seguimiento nutricional estricto de por vida',
-              'Ante fenilalanina elevada derivamos de inmediato para confirmar con cromatografía e iniciar fórmula libre de fenilalanina.',
-            ),
-          ],
-          [
-            'Resultados de TSH y Fenilalanina en rangos normales',
-            N(
-              'ok',
-              'Control de Salud Infantil Habitual en Atención Primaria (CESFAM)',
-              'Registro en carné de salud infantil · Continuar controles sanos regulares · No requiere repetición del examen si no hay factores de riesgo especiales',
-              'Si ambos resultados son normales se registran en el carné infantil y se continúa con los controles de salud habituales.',
-            ),
-          ],
-        ),
-      ],
-    ),
-  },
+  pathway: (() => {
+    const nEsperar = N('alert', 'Esperar antes de tomar la muestra', 'Si no, sale falsamente normal',
+      'Si todavía no ha comido, esperas: sin alimentación previa, la fenilalanina puede salir falsamente normal.');
+    const nHipotiroidismo = N('refer', 'Sospecha de hipotiroidismo congénito', 'Confirmar con TSH y T4 libre venosa',
+      'TSH alta en el talón: confirmas con TSH y T cuatro libre en sangre venosa, e inicias levotiroxina antes de los quince días.');
+    const nPKU = N('refer', 'Sospecha de fenilcetonuria', 'Confirmación cuantitativa',
+      'Fenilalanina alta en el talón: confirmas de forma cuantitativa e inicias la dieta sin fenilalanina.');
+    const nContinua = N('ok', 'Continúa con el resto del tamizaje', 'Auditivo y cardíaco',
+      'Si el talón sale normal, igual continúas con el tamizaje auditivo y el de cardiopatías críticas, porque son programas independientes.');
+    const nResultado = N('q', '¿Resultado alterado?', 'TSH alta o fenilalanina alta',
+      'El resultado te separa en dos sospechas distintas.',
+      ['TSH alta', nHipotiroidismo],
+      ['Fenilalanina alta', nPKU],
+      ['Normal', nContinua]);
+    const nToma = N('do', 'Toma de talón entre 40 y 48 horas', 'TSH y fenilalanina',
+      'Con alimentación ya iniciada, tomas el papel filtro entre las cuarenta y las cuarenta y ocho horas de vida.',
+      ['', nResultado]);
+    const nAlimentacion = N('q', '¿Ya recibió alimentación láctea?', 'Al menos 24 a 48 horas',
+      'Antes de tomar la muestra de talón, preguntas si ya comió, porque de eso depende que la fenilalanina sea confiable.',
+      ['NO', nEsperar],
+      ['SÍ', nToma]);
+    return {
+      title: 'Tamizaje neonatal: qué se busca y cuándo',
+      root: N('start', 'Recién nacido en maternidad', 'Sin ningún síntoma, antes del alta',
+        'Punto de partida: un recién nacido que se ve completamente sano, antes de irse a casa.',
+        ['', nAlimentacion]),
+    };
+  })(),
 };
