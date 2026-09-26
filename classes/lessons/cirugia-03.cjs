@@ -232,7 +232,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Un paciente se hace una colonoscopía para resecar unos pólipos. Algunas horas después, tiene dolor abdominal bajo, con algo de sangre en las deposiciones y malestar general. Al examen, duele la fosa ilíaca izquierda.',
         question: '¿Qué examen es el más adecuado para proseguir con el estudio en este paciente?',
-        options: 'Las opciones son: resonancia magnética de abdomen y pelvis, ecografía abdominal y pélvica, colonoscopía, radiografía de abdomen y pelvis, o TAC de abdomen y pelvis.',
+        options: 'Las opciones son: resonancia magnética de abdomen y pelvis, ecografía abdominal y pélvica, colonoscopía, radiografía de abdomen y pelvis, o TAC de abdomen y pelvis. Piénsalo.',
         answer: 'Es la E, TAC. Esta pregunta pone a prueba justo la regla de oro del tema: nunca repites la colonoscopía cuando sospechas una diverticulitis aguda, así sea que la sospecha nació de la colonoscopía misma. Volver a insuflar aire ahí es el error más peligroso que puedes cometer.',
       },
     },

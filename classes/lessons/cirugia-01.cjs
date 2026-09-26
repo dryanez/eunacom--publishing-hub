@@ -207,7 +207,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Niña de siete años, con doce horas de fiebre y dolor en el hipogastrio. Temperatura de treinta y ocho coma siete, frecuencia cardíaca de cien, dolor a la palpación con Blumberg positivo y resistencia de la pared. Dieciocho mil leucocitos, y el sedimento de orina muestra veinte leucocitos por campo.',
         question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las opciones son: pielonefritis aguda, apendicitis aguda, infección urinaria baja, torsión ovárica, o plastrón apendicular.',
+        options: 'Las opciones son: pielonefritis aguda, apendicitis aguda, infección urinaria baja, torsión ovárica, o plastrón apendicular. Piénsalo.',
         answer: 'Es la B, apendicitis aguda. Fíjate en el distractor: los leucocitos en la orina tientan a pensar en una infección urinaria, pero un apéndice inflamado que toca la vejiga puede irritarla y dar ese mismo hallazgo, sin que exista infección urinaria real. Lo que manda acá es el Blumberg positivo con resistencia muscular: eso es irritación peritoneal, no una simple cistitis.',
       },
     },

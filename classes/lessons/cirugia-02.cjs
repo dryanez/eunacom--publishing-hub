@@ -216,7 +216,7 @@ module.exports = {
       say: {
         stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de cincuenta y cinco años, con colecistitis aguda de cuarenta y ocho horas de evolución. Está estable, con fiebre de treinta y ocho grados y catorce mil leucocitos.',
         question: '¿Cuál es el manejo quirúrgico más adecuado?',
-        options: 'Las opciones son: colecistectomía laparoscópica precoz antes de setenta y dos horas, cirugía electiva en seis semanas, drenaje percutáneo con cirugía diferida, solo antibióticos y observación, o colecistostomía abierta de urgencia.',
+        options: 'Las opciones son: colecistectomía laparoscópica precoz antes de setenta y dos horas, cirugía electiva en seis semanas, drenaje percutáneo con cirugía diferida, solo antibióticos y observación, o colecistostomía abierta de urgencia. Piénsalo.',
         answer: 'Es la A. Está estable y sin falla de órganos, así que no hay ningún motivo para diferir ni para drenar. La colecistectomía precoz, antes de las setenta y dos horas, es mejor que esperar: menos complicaciones y menos conversión a cirugía abierta que si la dejas enfriar.',
       },
     },
@@ -250,11 +250,11 @@ module.exports = {
       title: 'Reglas de oro para el examen',
       cards: [
         { title: 'Diagnóstico', tag: 'Tres pilares', kind: 'key', items: [
-          { t: 'Murphy + fiebre o leucocitosis + eco', d: 'Los tres juntos confirman',
+          { t: 'Los tres pilares de Tokio', d: 'Los tres juntos confirman',
             say: 'Cerremos con las reglas de oro. Murphy positivo, fiebre o leucocitosis, y ecografía confirmatoria: los tres juntos dan el diagnóstico definitivo.' },
         ] },
         { title: 'Tratamiento', tag: 'Según el grado', kind: 'pharma', items: [
-          { t: 'Grado I y II: operar antes de 72 h', d: 'Colecistectomía laparoscópica',
+          { t: 'Grado I y II: operar pronto', d: 'Antes de 72 horas',
             say: 'Grado uno y dos: colecistectomía laparoscópica antes de setenta y dos horas.' },
           { t: 'Grado III: drenar, no operar', d: 'Colecistostomía percutánea',
             say: 'Grado tres, con falla de órganos: colecistostomía percutánea, y difieres la cirugía definitiva.' },
@@ -262,7 +262,7 @@ module.exports = {
         { title: 'En pabellón', tag: 'Nunca cortar a ciegas', kind: 'alert', items: [
           { t: 'Visión crítica de Strasberg', d: 'Solo 2 estructuras a la vesícula',
             say: 'Y en pabellón, nunca cortes sin la visión crítica de Strasberg.' },
-          { t: 'Bilirrubina alta no es de la vesícula', d: 'Pensar en coledocolitiasis o Mirizzi',
+          { t: 'Bilirrubina alta: no es solo vesícula', d: 'Pensar en coledocolitiasis o Mirizzi',
             say: 'Si te llevas una sola idea de hoy: el grado de Tokio, no solo el diagnóstico, es lo que decide si operas o si drenas, y una ictericia marcada nunca es solo de la vesícula. Nos vemos en la próxima clase.' },
         ] },
       ],
