@@ -562,3 +562,12 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 | — (banco, no libro) | Más encontradas en ob-17..20: "EUNACOM Diciembre 2024 · Pregunta 97" (código 3.01.1.009) tiene enunciado truncado y una explicación de plantilla sin relación con sus alternativas; "EUNACOM Diciembre 2024 · Pregunta 73" (código 3.01.2.020, mastitis/absceso) tiene letras de alternativa duplicadas y distractores de otro tema (psoriasis, dermatitis atópica). Ninguna se usó. |
 | ob-17, ob-18, ob-20 | El código Perfil V3 propio de estas tres clases apunta en el banco real a un diagnóstico completamente distinto: ob-17 (distocia de hombros, código 3.01.1.008) devuelve preguntas de mola hidatiforme; ob-18 (hemorragia posparto, código 3.01.1.009) devuelve preguntas de macrosomía/vía de parto; ob-20 (aloinmunización Rh, código 3.01.1.012) devuelve preguntas de amenorrea. Se ignoraron esos resultados por código y se armó cada set buscando por tema (`--search`). Vale la pena que alguien revise si esos códigos están mal asignados en el dataset del libro. |
 | ob-20 | El libro no menciona la variante D-u (weak D); se incluyó igual porque hay una pregunta real EUNACOM sobre el tema (Agosto 2021 · Pregunta 74) y es un hecho médicamente correcto, explicado solo dentro de esa pregunta. |
+
+## Cirugía General
+
+Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en pantalla + preguntas reales), no de una revisión de contenido médico.
+
+### C · Falta información en el libro / banco
+| Clase | Qué falta |
+|---|---|
+| — (banco, no libro) | "EUNACOM Diciembre 2025 · Pregunta 110" (diverticulitis) tiene errores de OCR ("diagnós8co", "diver2culi2s"). No se usó. |
