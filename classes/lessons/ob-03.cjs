@@ -1,7 +1,31 @@
-// Clase 1.3 — guion docente escrito a mano (estándar Módulo 3 · Obstetricia).
-// Fuente clínica: books/scripts/dataset_obstetricia.cjs (ob-03).
+// Clase 19.3 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_obstetricia_bloque_1.cjs (ob-03).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+const pwPbf = N('do', 'Perfil biofísico', 'Ecografía en tiempo real, hasta 30 minutos',
+  'Con el RBNE que sigue sin reactividad, das el siguiente paso: el perfil biofísico, que combina ese mismo registro con la ecografía en tiempo real, hasta por treinta minutos.');
+
+const pwSigue = N('q', '¿Sigue sin reactividad?', 'Después de estimular al feto',
+  'Estimulaste al feto y esperaste los cuarenta minutos completos. ¿Sigue sin aceleraciones?',
+  ['Sí', pwPbf],
+  ['No, ya aceleró', N('ok', 'RBNE reactivo', 'Era el sueño fetal', 'Si con el estímulo empieza a acelerar, era justamente el ciclo de sueño. Con eso ya tienes tu RBNE reactivo, y no necesitas nada más.')]);
+
+const pwProlongar = N('do', 'Prolongas y estimulas', 'Hasta completar 40 minutos',
+  'Extiendes el registro hasta completar los cuarenta minutos, y le das un estímulo vibroacústico o táctil para despertarlo, por si está en su ciclo de sueño.',
+  ['', pwSigue]);
+
+const pwReactivo = N('ok', 'RBNE reactivo', 'Feto bien oxigenado, sin más estudio',
+  'Con dos o más aceleraciones así, el feto está bien oxigenado, y no necesitas ningún estudio adicional por ahora.');
+
+const pwCriterios = N('q', '¿Cumple los criterios de reactivo?', '2 aceleraciones de 15 por 15, en 20 minutos',
+  'Miras el trazado de los primeros veinte minutos: ¿tiene dos o más aceleraciones de al menos quince latidos, que duren al menos quince segundos?',
+  ['Sí', pwReactivo],
+  ['No', pwProlongar]);
+
+const pwRoot = N('start', 'RBNE de 20 minutos', 'Frecuencia basal, variabilidad y aceleraciones',
+  'Le acabas de poner el monitor a tu paciente, y tienes un registro basal no estresante de veinte minutos delante. Ahora tienes que interpretarlo.',
+  ['', pwCriterios]);
 
 module.exports = {
   id: 'ob-03',
@@ -9,440 +33,186 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Registro basal no estresante, variabilidad, desaceleraciones DIP I-II-III, Score de Manning y Test de Pose',
-      say: 'Bienvenidos a la tercera clase de obstetricia. Hoy abordamos la evaluación del bienestar fetal antenatal, uno de los temas con mayor número de preguntas clínicas en el EUNACOM. En esta sesión aprenderás a interpretar el registro basal no estresante, a diferenciar las desaceleraciones precoces de las tardías y variables, a dominar las cinco variables del perfil biofísico de Manning y a definir cuándo una alteración exige la interrupción inmediata del embarazo. Comencemos.',
+      subtitle: 'Cómo saber si el feto está bien oxigenado, sin tocarlo',
+      say: 'Bienvenido otra vez. Hoy vemos cómo evalúas el bienestar fetal antes del parto, con dos herramientas que se complementan: el registro basal no estresante y el perfil biofísico de Manning. Las dos buscan lo mismo, que el feto no esté en hipoxia, y las dos se preguntan mucho, porque hay que saber leer un número exacto para no equivocarse. Vamos a eso.',
     },
 
     {
       type: 'flow',
-      kicker: 'Fisiopatología de la hipoxia fetal',
-      title: 'Cascada de deterioro biofísico y redistribución hemodinámica',
+      kicker: 'Registro basal no estresante',
+      title: 'Qué mide y qué significa cada parámetro',
       nodes: [
-        { id: 'hip', col: 0, row: 2, k: 'start', t: 'Hipoxia fetal progresiva', s: 'Insuficiencia placentaria o compresión funicular' },
-        { id: 'rbn', col: 1, row: 1, k: 'alert', t: 'Pérdida de reactividad', s: 'Primer centro en deprimirse: sistema simpático y aceleraciones' },
-        { id: 'res', col: 2, row: 0, k: 'alert', t: 'Cese de respiración fetal', s: 'Inhibición de movimientos respiratorios continuos' },
-        { id: 'cor', col: 2, row: 2, k: 'risk', t: 'Abolición de movimientos', s: 'Cese de movimientos corporales y pérdida del tono flexor' },
-        { id: 'oli', col: 3, row: 3, k: 'trap', t: 'Oligohidramnios crónico', s: 'Vasoconstricción renal fetal por redistribución de flujo' },
-        { id: 'asf', col: 4, row: 2, k: 'trap', t: 'Asfixia y acidosis metabólica', s: 'pH fetal bajo 7.20 y riesgo de muerte intrauterina' },
+        { id: 'bas', col: 0, row: 0, k: 'start', t: 'FCF basal', s: 'Entre 110 y 160 latidos por minuto' },
+        { id: 'var', col: 0, row: 1, k: 'mech', t: 'Variabilidad', s: 'Entre 6 y 25: oxigenación intacta' },
+        { id: 'ace', col: 0, row: 2, k: 'mech', t: 'Aceleraciones', s: 'Al menos 15 por 15, dos o más veces' },
+        { id: 'des', col: 0, row: 3, k: 'risk', t: 'Desaceleraciones', s: 'No deberían aparecer' },
+        { id: 'rea', col: 2, row: 1, k: 'good', t: 'RBNE reactivo', s: 'Feto vigoroso y oxigenado' },
+        { id: 'nor', col: 2, row: 3, k: 'alert', t: 'RBNE no reactivo', s: 'Casi siempre es sueño fetal' },
       ],
       edges: [
-        { from: 'hip', to: 'rbn', label: 'hipoxia precoz' },
-        { from: 'rbn', to: 'res', label: 'depresión cortical' },
-        { from: 'res', to: 'cor', label: 'compromiso motor' },
-        { from: 'hip', to: 'oli', label: 'redistribución' },
-        { from: 'cor', to: 'asf', label: 'falla central' },
-        { from: 'oli', to: 'asf', label: 'colapso crónico' },
+        { from: 'bas', to: 'rea' }, { from: 'var', to: 'rea' }, { from: 'ace', to: 'rea' },
+        { from: 'des', to: 'nor' },
       ],
       steps: [
-        {
-          show: ['hip', 'rbn'],
-          note: 'Inicio de la hipoxia y respuesta simpática',
-          say: 'Los centros neurológicos que controlan las distintas variables biofísicas tienen distinta sensibilidad a la falta de oxígeno. El primero en afectarse ante una hipoxia incipiente es el sistema nervioso autónomo central, manifestándose precozmente por la pérdida de las aceleraciones y disminución de la variabilidad en el registro basal no estresante.',
-        },
-        {
-          show: ['res', 'cor'],
-          note: 'Deterioro motor progresivo',
-          say: 'Si la hipoxia se profundiza, se inhiben consecutivamente los centros subcorticales del tronco encefálico: primero desaparecen los movimientos respiratorios fetales, luego los movimientos corporales gruesos y finalmente se pierde el tono flexor fetal, lo que traduce una acidemia severa.',
-        },
-        {
-          show: ['oli', 'asf'],
-          note: 'Redistribución de flujo y asfixia',
-          say: 'De manera paralela y crónica, el feto hipóxico redistribuye su gasto cardíaco priorizando cerebro, corazón y glándulas suprarrenales a expensas de la vasoconstricción renal y esplácnica. La menor perfusión renal reduce la diuresis fetal, originando oligohidramnios. Por ello, el líquido amniótico disminuido es un marcador de sufrimiento crónico prolongado.',
-        },
+        { show: ['bas'], note: 'Primero, la frecuencia basal',
+          say: 'Empecemos por lo básico. La frecuencia cardíaca fetal basal tiene que estar entre ciento diez y ciento sesenta latidos por minuto.' },
+        { show: ['var'], note: 'La variabilidad refleja la oxigenación cerebral',
+          say: 'Después viene la variabilidad, esas fluctuaciones latido a latido. Entre seis y veinticinco latidos es lo normal, y te dice que el cerebro fetal está bien oxigenado. Si baja de cinco, piensa en hipoxia o en sueño.' },
+        { show: ['ace'], note: 'La regla es 15 por 15, dos veces',
+          say: 'Y lo más importante: las aceleraciones. Necesitas al menos dos, cada una con un aumento de quince latidos por quince segundos, dentro de veinte minutos. Esa es la regla que te van a preguntar tal cual.' },
+        { show: ['des'], note: 'Su sola presencia ya es una alarma',
+          say: 'Las desaceleraciones, en cambio, no deberían aparecer nunca en un registro basal. Si las ves, ya es una alarma.' },
+        { show: ['rea'], note: 'Con esto, no necesitas nada más',
+          say: 'Cuando se cumplen los tres primeros criterios, tienes un registro reactivo, y eso te predice bienestar fetal con más de noventa y nueve por ciento de seguridad para la semana siguiente.' },
+        { show: ['nor'], note: 'La causa más frecuente es benigna',
+          say: 'Y si no aparecen aceleraciones, tienes un registro no reactivo. Antes de asustarte, piensa en la causa más común: el ciclo de sueño profundo del feto, que dura entre veinte y cuarenta minutos. Y si después de estimularlo y prolongar el registro sigue sin reactividad, ahí es cuando subes de nivel, con un perfil biofísico o con un Doppler fetal.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Monitoreo electrónico basal',
-      title: 'Parámetros del Registro Basal No Estresante en veinte a cuarenta minutos',
+      kicker: 'Perfil biofísico de Manning',
+      title: 'Cinco variables, dos puntos cada una',
       cards: [
-        {
-          title: 'Frecuencia cardíaca basal y variabilidad',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Frecuencia basal normal: ciento diez a ciento sesenta latidos por minuto.',
-              say: 'La frecuencia cardíaca fetal basal normal se sitúa entre ciento diez y ciento sesenta latidos por minuto. Una frecuencia sobre ciento sesenta define taquicardia fetal, comúnmente causada por fiebre materna o corioamnionitis; bajo ciento diez define bradicardia sostenida.',
-            },
-            {
-              text: 'Variabilidad moderada normal: fluctuaciones de seis a veinticinco latidos por minuto.',
-              say: 'La variabilidad latido a latido es el parámetro individual más fidedigno de oxigenación cerebral. La variabilidad moderada normal de seis a veinticinco latidos traduce un sistema nervioso autónomo perfectamente perfundido.',
-            },
-          ],
-        },
-        {
-          title: 'Aceleraciones transitorias de la FCF',
-          kind: 'key',
-          items: [
-            {
-              text: 'Aumento transitorio de al menos quince latidos por al menos quince segundos.',
-              say: 'En fetos de treinta y dos semanas o más, una aceleración normal es una elevación de la frecuencia de al menos quince latidos sobre la línea de base que dura al menos quince segundos. En menores de treinta y dos semanas basta un aumento de diez latidos por diez segundos.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Interpretación del trazado',
-      title: 'Clasificación del RBNE y tipología de desaceleraciones',
-      cards: [
-        {
-          title: 'Trazado Reactivo versus No Reactivo',
-          kind: 'key',
-          items: [
-            {
-              text: 'Reactivo: dos o más aceleraciones en veinte minutos con variabilidad conservada.',
-              say: 'Un registro es reactivo cuando presenta al menos dos aceleraciones en un lapso de veinte minutos, con frecuencia basal normal y variabilidad adecuada. Predice bienestar fetal en más del noventa y nueve por ciento para la siguiente semana.',
-            },
-            {
-              text: 'No Reactivo: menos de dos aceleraciones en cuarenta minutos de registro.',
-              say: 'Un trazado no reactivo no es sinónimo de asfixia fetal, ya que en el ochenta por ciento de los casos se debe a un ciclo de sueño profundo fisiológico. Obliga a estimular al feto acústicamente o a complementar con un perfil biofísico.',
-            },
-          ],
-        },
-        {
-          title: 'Desaceleraciones: DIP I, DIP II y DIP III',
-          kind: 'alert',
-          items: [
-            {
-              text: 'DIP I o precoces: sincrónicas con la contracción por compresión cefálica refleja.',
-              say: 'Las desaceleraciones precoces o DIP uno coinciden con el acmé de la contracción uterina por estimulación vagal secundaria a compresión de la cabeza fetal. Son fisiológicas y no indican hipoxia ni exigen cesárea.',
-            },
-            {
-              text: 'DIP II o tardías: decalaje tras el acmé de la contracción por hipoxia uteroplacentaria.',
-              say: 'Las desaceleraciones tardías o DIP dos comienzan después del punto máximo de la contracción y se recuperan tardíamente. Traducen hipoxia tisular severa por insuficiencia de la placenta y exigen interrupción urgente.',
-            },
-            {
-              text: 'DIP III o variables: forma en V o W por compresión mecánica del cordón umbilical.',
-              say: 'Las desaceleraciones variables o DIP tres tienen forma aguda en V y se deben a compresión transitoria del cordón. Si son profundas o duran más de sesenta segundos, alertan sobre riesgo de acidemia.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Evaluación biofísica integral',
-      title: 'Perfil Biofísico Fetal de Manning: las cinco variables ecográficas',
-      cards: [
-        {
-          title: 'Marcadores agudos del sistema nervioso central',
-          kind: 'criteria',
-          items: [
-            {
-              text: '1) Reactividad cardíaca: RBNE reactivo con dos aceleraciones otorga dos puntos.',
-              say: 'El perfil de Manning evalúa cinco variables en treinta minutos de ecografía y monitorización. Cada variable normal suma dos puntos; si está ausente suma cero puntos. El primer parámetro es el registro basal reactivo.',
-            },
-            {
-              text: '2) Movimientos respiratorios y 3) Movimientos corporales gruesos.',
-              say: 'La segunda variable es la presencia de al menos un episodio de movimientos respiratorios continuos de treinta segundos. La tercera variable son al menos tres movimientos corporales o de extremidades fetales.',
-            },
-            {
-              text: '4) Tono fetal: al menos un episodio de extensión activa con retorno rápido a flexión.',
-              say: 'El cuarto parámetro es el tono flexor: se observa a la extremidad o la mano del feto extenderse y flexionarse activamente. Es el último marcador agudo en perderse en la acidosis grave.',
-            },
-          ],
-        },
-        {
-          title: 'Marcador crónico placentario',
-          kind: 'alert',
-          items: [
-            {
-              text: '5) Volumen de líquido amniótico: al menos un bolsillo vertical único de dos centímetros o más.',
-              say: 'La quinta variable es el líquido amniótico. Exige visualizar al menos un bolsillo vertical único libre de partes fetales de dos centímetros o más de profundidad, o un índice de Phelan mayor o igual a cinco centímetros.',
-            },
-            {
-              text: 'El oligohidramnios refleja hipoperfusión renal crónica por vasoconstricción fetal.',
-              say: 'A diferencia de los otros cuatro parámetros que reflejan el estado del sistema nervioso central en ese instante, el líquido amniótico refleja la función placentaria y la perfusión renal de las últimas semanas.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Interpretación y conducta',
-      title: 'Estratificación del Score de Manning y conducta obstétrica',
-      head: ['Puntaje PBF', 'Interpretación clínica de asfixia', 'Mortalidad perinatal', 'Conducta recomendada'],
-      rows: [
-        {
-          cells: [
-            '10 de 10 u 8 de 10 con líquido normal',
-            'Feto normal sin asfixia fetal · excelente reserva de oxígeno',
-            'Menor a uno por cada mil nacidos vivos',
-            'Conducta expectante; continuar control prenatal habitual y repetir en siete días si persiste indicación.',
-          ],
-          say: 'Un score de ocho sobre diez con volumen de líquido amniótico normal o diez sobre diez descarta asfixia fetal con alta seguridad. Permite mantener una conducta expectante y continuar el control habitual.',
-        },
-        {
-          cells: [
-            '8 de 10 con Oligohidramnios (cero puntos en líquido)',
-            'Insuficiencia placentaria crónica establecida con feto aún compensado',
-            'Aumento significativo de riesgo de muerte súbita intrauterina',
-            'En embarazos de término mayores o iguales a 37 semanas se indica interrupción inmediata del parto.',
-          ],
-          say: 'Ojo con este escenario clásico del examen: un perfil de ocho sobre diez donde la única variable fallida es el líquido amniótico. Si el embarazo es de término, el oligohidramnios obliga a interrumpir el embarazo sin dilaciones.',
-        },
-        {
-          cells: [
-            '6 de 10 (puntaje dudoso)',
-            'Sospecha de asfixia fetal incipiente o feto en ciclo de reposo fisiológico',
-            'Riesgo intermedio de morbimortalidad',
-            'Si es de término, interrumpir; si es pretérmino, repetir en doce a veinticuatro horas o realizar prueba de Pose.',
-          ],
-          say: 'Un puntaje de seis sobre diez es dudoso. Si el feto es de término se interrumpe el embarazo; si es pretérmino se repite en doce a veinticuatro horas o se realiza una prueba de contracciones de Pose.',
-        },
-        {
-          cells: [
-            '0 a 4 de 10 (puntaje patológico)',
-            'Alta probabilidad de asfixia fetal severa y acidosis metabólica',
-            'Mortalidad perinatal muy elevada',
-            'Interrupción inmediata del embarazo por la vía más expedita, habitualmente cesárea de urgencia.',
-          ],
-          say: 'Un puntaje de cero a cuatro sobre diez traduce asfixia intrauterina severa. La indicación indiscutible es la interrupción inmediata del embarazo por la vía más expedita, que casi siempre es una cesárea de urgencia.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Prueba de estrés contráctil',
-      title: 'Test de Tolerancia a las Contracciones o Prueba de Pose',
-      cards: [
-        {
-          title: 'Mecanismo de la Prueba de Pose',
-          kind: 'key',
-          items: [
-            {
-              text: 'Inducción de tres contracciones uterinas en diez minutos mediante infusión de oxitocina.',
-              say: 'El test de tolerancia a las contracciones somete al feto al estrés transitorio del trabajo de parto mediante una microinfusión controlada de oxitocina, logrando tres contracciones de buena intensidad en diez minutos.',
-            },
-            {
-              text: 'Test Negativo: ausencia de desaceleraciones tardías DIP II; confirma bienestar fetal.',
-              say: 'Si no aparecen desaceleraciones tardías, la prueba es negativa y garantiza que la reserva placentaria tolerará un parto vaginal sin asfixia.',
-            },
-            {
-              text: 'Test Positivo: presencia de DIP II en el cincuenta por ciento o más de las contracciones.',
-              say: 'Si aparecen DIP dos en la mitad o más de las contracciones, la prueba es positiva e indica que el feto caerá en acidosis durante el trabajo de parto, indicándose cesárea.',
-            },
-          ],
-        },
-        {
-          title: 'Contraindicaciones formales de la Prueba de Pose',
-          kind: 'alert',
-          items: [
-            {
-              text: 'Situaciones donde las contracciones uterinas ponen en riesgo la vida materna o fetal.',
-              say: 'Está formalmente contraindicado realizar una prueba de Pose en presencia de placenta previa, cesárea anterior clásica o corporal, antecedente de rotura uterina o amenaza de parto prematuro extremo.',
-            },
-          ],
-        },
+        { title: 'Lo que mide', tag: 'Ecografía más monitor', kind: 'criteria', items: [
+          { t: 'Reactividad, respiración, movimiento', d: 'Tono fetal y líquido amniótico',
+            say: 'Cuando el registro no reactivo persiste, subes de nivel: el perfil biofísico de Manning. Combina el mismo registro cardíaco con cuatro variables ecográficas: movimientos respiratorios, movimientos corporales, tono fetal, y el volumen de líquido amniótico.' },
+          { t: 'Movimientos respiratorios', d: 'Al menos un episodio de 30 segundos',
+            say: 'Los movimientos respiratorios puntúan si ves al menos un episodio continuo de treinta segundos.' },
+          { t: 'Movimientos corporales', d: 'Al menos tres, de cuerpo o extremidades',
+            say: 'Los movimientos corporales necesitan al menos tres, ya sea de todo el cuerpo o de las extremidades.' },
+          { t: 'Tono fetal', d: 'Extensión con retorno a la flexión',
+            say: 'Y el tono fetal puntúa con al menos un episodio de extensión que vuelve a la flexión, como abrir y cerrar la mano. Es el parámetro más resistente: es el último que se pierde cuando avanza la hipoxia.' },
+          { t: 'Cada variable: 0 o 2 puntos', d: 'Diez puntos en total',
+            say: 'Cada una de las cinco variables te da dos puntos si es normal, y cero si no lo es. El máximo es diez.' },
+        ] },
+        { title: 'Cómo interpretas el número', tag: 'El líquido amniótico importa aparte', kind: 'key', items: [
+          { t: '10 o 8 con líquido normal', d: 'Feto sano, manejo conservador',
+            say: 'Con diez, o con ocho y el líquido amniótico normal, el feto está sano y sigues con manejo conservador.' },
+          { t: '8 con oligohidramnios', d: 'Marca hipoxia crónica: considera interrumpir',
+            say: 'Pero si el ocho viene con oligohidramnios, cambia todo: eso ya es un marcador de hipoxia crónica, y si el embarazo está de término, consideras interrumpir.' },
+          { t: '6, o 4 o menos', d: 'Sospecha de asfixia, hasta asfixia grave',
+            say: 'Con seis, sospechas asfixia: si es de término, interrumpes; si es prematuro, repites el examen en veinticuatro horas o complementas con Doppler. Y con cuatro o menos, la probabilidad de asfixia grave es tan alta que la interrupción es inmediata, sin esperar nada más.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de decisión clínica',
-      title: 'Enfrentamiento ante sospecha de compromiso del bienestar fetal',
-      say: 'Revisemos el algoritmo escalonado ante una paciente que consulta por disminución de movimientos fetales.',
+      intro: 'Vamos a recorrer, paso a paso, cómo se lee un RBNE hasta llegar al perfil biofísico.',
     },
 
     {
       type: 'table',
-      kicker: 'Diagnósticos diferenciales y trampas',
-      title: 'Trampas del EUNACOM en monitorización fetal',
-      head: ['Hallazgo o escenario clínico', 'Error habitual en la respuesta', 'Concepto fisiopatológico real', 'Conducta correcta'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Los números que decides de memoria',
+      head: ['Situación', 'Conducta correcta', 'Error frecuente'],
       rows: [
-        {
-          cells: [
-            'Registro basal no reactivo aislado en paciente asintomática',
-            'Indicar cesárea de urgencia inmediata por sospecha de sufrimiento fetal',
-            'En el ochenta por ciento de los casos el feto está simplemente dormido',
-            'Estimulación vibroacústica o prolongar trazado a 40 minutos; si persiste no reactivo, pedir Perfil Biofísico.',
-          ],
-          say: 'Un registro no reactivo nunca justifica una cesárea inmediata por sí solo. La causa más frecuente es el sueño fetal. Se realiza estimulación acústica o se solicita un perfil biofísico antes de tomar decisiones quirúrgicas.',
-        },
-        {
-          cells: [
-            'Desaceleraciones precoces DIP I durante trabajo de parto activo',
-            'Suspender conducción y realizar cesárea de urgencia por sufrimiento',
-            'Son causadas por compresión fisiológica de la cabeza fetal con reflejo vagal transitorio',
-            'Continuar el trabajo de parto normalmente; son un hallazgo benigno que no indica hipoxia.',
-          ],
-          say: 'Los DIP uno son sincrónicos con la contracción y totalmente fisiológicos. No traducen asfixia ni requieren ninguna intervención.',
-        },
-        {
-          cells: [
-            'Perfil biofísico de ocho sobre diez con oligoamnios a las cuarenta semanas',
-            'Mantener conducta expectante hasta la semana cuarenta y uno por puntaje tranquilizador',
-            'El oligoamnios es un marcador de hipoperfusión placentaria crónica no compensable a término',
-            'Indicar la interrupción del embarazo en ese momento mediante inducción o cesárea.',
-          ],
-          say: 'Aunque el puntaje global sea ocho, la presencia de oligohidramnios en un feto de término obliga a interrumpir el embarazo debido al riesgo de compresión de cordón y muerte súbita.',
-        },
+        { cells: ['RBNE sin aceleraciones a los 20 minutos', 'Prolongar y estimular hasta los 40 minutos', 'Concluir sufrimiento fetal de inmediato'],
+          say: 'Repasemos las trampas. Un RBNE sin aceleraciones a los veinte minutos no es sufrimiento fetal: primero prolongas y estimulas hasta los cuarenta minutos. Concluir sufrimiento de entrada es el error más repetido.' },
+        { cells: ['RBNE no reactivo tras 40 minutos', 'Perfil biofísico o Doppler', 'Interrumpir el embarazo sin más estudio'],
+          say: 'Si sigue no reactivo después de los cuarenta minutos, ahí sí subes a un perfil biofísico o a un Doppler, no directo a interrumpir.' },
+        { cells: ['Perfil biofísico 8/10 con oligohidramnios', 'Marcador de hipoxia crónica', 'Tranquilizarse porque el puntaje es alto'],
+          say: 'Un ocho sobre diez con oligohidramnios sigue siendo preocupante. El error es fijarse solo en el número final e ignorar que el líquido está bajo.' },
+        { cells: ['Perfil biofísico 4/10 o menos', 'Interrupción inmediata del embarazo', 'Repetir el examen en unos días'],
+          say: 'Y con cuatro o menos, la conducta es interrumpir ahora. Esperar a repetir el examen en unos días puede costarle la vida al feto.' },
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Agosto 2021 · Pregunta 54',
-      caseText: 'Una paciente de treinta años, cursando un embarazo de cuarenta semanas, consulta por ausencia de percepción de movimientos fetales durante las últimas horas, por lo que se realiza un perfil biofísico fetal que resulta ocho de diez, con presencia de oligoamnios evidente. La conducta más adecuada es:',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Embarazada de 34 semanas, sin patología conocida, consulta por disminución de movimientos fetales de 6 horas de evolución. Se instala monitor cardiofetal: en los primeros 20 minutos hay frecuencia basal de 140 latidos por minuto, variabilidad de 10, sin desaceleraciones, y ninguna aceleración.',
       question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Dejar a evolución espontánea y controlar en una semana', isCorrect: false },
-        { letter: 'B', text: 'Interrumpir inmediatamente por cesárea sin evaluar cuello', isCorrect: false },
-        { letter: 'C', text: 'Inducir el parto en este momento', isCorrect: true },
-        { letter: 'D', text: 'Repetir el perfil biofísico fetal en cuarenta y ocho horas', isCorrect: false },
-        { letter: 'E', text: 'Inducir el parto al cumplir las cuarenta y una semanas', isCorrect: false },
+        { letter: 'A', text: 'Indicar cesárea por sufrimiento fetal agudo' },
+        { letter: 'B', text: 'Prolongar el registro y aplicar estímulo vibroacústico' },
+        { letter: 'C', text: 'Dar el alta, indicando que el examen es normal' },
+        { letter: 'D', text: 'Solicitar amniocentesis para estudio de madurez pulmonar' },
+        { letter: 'E', text: 'Administrar corticoides de inmediato' },
       ],
-      correct: 'C',
+      correct: 'B',
+      explanation: 'A los 20 minutos, sin aceleraciones pero con basal y variabilidad normales, corresponde prolongar el registro hasta los 40 minutos y estimular al feto para descartar el ciclo de sueño fisiológico, antes de considerar el examen alterado.',
       say: {
-        stem: 'Revisemos esta pregunta de agosto de dos mil veintiuno. Una paciente de cuarenta semanas consulta por disminución de movimientos fetales. Se realiza un perfil biofísico que resulta ocho sobre diez, pero con presencia de oligohidramnios.',
-        question: 'Nos consultan por la conducta más adecuada.',
-        options: 'Las alternativas son: opción A, evolución espontánea; opción B, cesárea inmediata; opción C, inducir el parto en este momento; opción D, repetir perfil en cuarenta y ocho horas; y opción E, inducir a las cuarenta y una semanas. Piénsalo.',
-        answer: 'La respuesta correcta es la opción C. El puntaje de ocho sobre diez confirma que el feto no presenta asfixia aguda; sin embargo, el oligohidramnios refleja insuficiencia placentaria crónica. En un embarazo de término a las cuarenta semanas, el oligohidramnios es indicación formal de interrupción, pudiendo realizarse inducción del parto vaginal si no existen contraindicaciones obstétricas.',
+        stem: 'Un caso. Embarazada de treinta y cuatro semanas, sin ninguna patología, que consulta por disminución de los movimientos fetales de seis horas de evolución. Le instalas el monitor: en los primeros veinte minutos, la frecuencia basal es de ciento cuarenta, la variabilidad es de diez, no hay desaceleraciones, pero tampoco hay ninguna aceleración.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: indicar cesárea por sufrimiento fetal agudo, prolongar el registro con estímulo vibroacústico, dar el alta como examen normal, pedir amniocentesis para madurez pulmonar, o dar corticoides de inmediato. Piénsalo.',
+        answer: 'Es la B. Fíjate que la basal y la variabilidad están perfectas: lo único que falta son las aceleraciones, y a los veinte minutos. Antes de asumir que algo anda mal, prolongas a cuarenta minutos y estimulas al feto, porque lo más probable es que esté dormido. Ni la cesárea ni los corticoides tienen lugar todavía, y el alta sería precipitada: el examen aún no cumple los criterios de reactivo.',
       },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Enero 2023 · Pregunta 43',
-      caseText: 'Embarazada de treinta y seis semanas, con antecedente de cesárea previa, consulta por disminución marcada de movimientos fetales. Se realiza un registro basal no estresante que resulta no reactivo persistente en cuarenta minutos. El perfil biofísico muestra tono y movimientos conservados, pero con un bolsillo vertical único de líquido amniótico menor a un centímetro. Al tacto vaginal se constata cuello uterino posterior, firme y cerrado con índice de Bishop de tres puntos. ¿Cuál es la conducta más adecuada?',
+      title: 'EUNACOM Julio 2013 · Pregunta 25',
+      stem: 'Mujer de 28 años, con embarazo de 30 semanas, consulta angustiada por no percibir movimientos fetales, sin otros síntomas. Su examen físico es normal. Se le solicita un registro basal no estresante de veinte minutos.',
+      question: '¿Cuál es la conducta más adecuada en este caso?',
+      options: [
+        { letter: 'A', text: 'Tranquilizar a la paciente e indicar que mantenga sus controles habituales' },
+        { letter: 'B', text: 'Solicitar perfil biofísico' },
+        { letter: 'C', text: 'Solicitar ecografía obstétrica' },
+        { letter: 'D', text: 'Repetir el registro basal no estresante por veinte minutos más' },
+        { letter: 'E', text: 'Realizar un test de tolerancia a las contracciones uterinas' },
+      ],
+      correct: 'D',
+      explanation: 'El trazado es no reactivo, con mínimas aceleraciones. Antes de subir a un estudio mayor, se prolonga el registro veinte minutos más, cumpliendo así los cuarenta minutos que dan tiempo para superar un eventual ciclo de sueño fetal.',
+      say: {
+        stem: 'Una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintiocho años, con embarazo de treinta semanas, que consulta angustiada porque no siente movimientos fetales, sin otro síntoma. Su examen físico es normal, y se le hace un registro basal no estresante de veinte minutos.',
+        question: '¿Cuál es la conducta más adecuada en este caso?',
+        options: 'Las opciones: tranquilizarla y mantener el control habitual, pedir perfil biofísico, pedir ecografía obstétrica, repetir el registro veinte minutos más, o hacer un test de tolerancia a las contracciones. Piénsalo.',
+        answer: 'Es la D. El trazado sale no reactivo, y lo primero que corresponde no es subir al perfil biofísico ni pedir otra ecografía: es alargar el mismo registro veinte minutos más, hasta completar los cuarenta, para dar tiempo a que termine un posible ciclo de sueño fetal.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2018 · Pregunta 83',
+      stem: 'Mujer de 30 años, cursando un embarazo de 40 semanas, consulta por ausencia de movimientos fetales. Se le realiza un perfil biofísico, que resulta 8/10, con oligoamnios.',
       question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Interrumpir el embarazo por cesárea', isCorrect: true },
-        { letter: 'B', text: 'Maduración cervical con misoprostol vaginal e inducción con oxitocina', isCorrect: false },
-        { letter: 'C', text: 'Hospitalizar y repetir el perfil biofísico en veinticuatro horas', isCorrect: false },
-        { letter: 'D', text: 'Administrar betametasona y diferir conducta por cuarenta y ocho horas', isCorrect: false },
-        { letter: 'E', text: 'Dar el alta con control ambulatorio de movimientos fetales', isCorrect: false },
+        { letter: 'A', text: 'Dejar a evolución espontánea' },
+        { letter: 'B', text: 'Interrumpir el embarazo ahora, por cesárea' },
+        { letter: 'C', text: 'Inducir el parto en este momento' },
+        { letter: 'D', text: 'Realizar cesárea al inicio del trabajo de parto' },
+        { letter: 'E', text: 'Inducir el parto a las 41 semanas' },
       ],
-      correct: 'A',
+      correct: 'C',
+      explanation: 'Un perfil biofísico de 8/10 con oligoamnios, en un embarazo ya de término, es indicación de interrumpir por el riesgo de hipoxia progresiva. La cesárea no es obligatoria: al ser un puntaje 8 y no uno crítico, se puede intentar la inducción del parto.',
       say: {
-        stem: 'Analicemos esta pregunta oficial de enero de dos mil veintitrés. Una paciente de treinta y seis semanas con cesárea previa presenta disminución de movimientos, registro basal no reactivo, oligohidramnios severo con bolsillo menor a un centímetro y cuello desfavorable.',
-        question: 'Se consulta por la conducta clínica más adecuada.',
-        options: 'Las opciones son: opción A, interrumpir por cesárea; opción B, misoprostol e inducción; opción C, repetir perfil en veinticuatro horas; opción D, betametasona y esperar; y opción E, alta médica. Piénsalo.',
-        answer: 'La respuesta oficial es la opción A, interrumpir por cesárea. El compromiso crónico con oligohidramnios severo sumado a un registro no reactivo en un feto cercano al término exige la interrupción inmediata. Dado que la paciente tiene el antecedente de una cesárea anterior y un cuello totalmente inmaduro, la inducción con misoprostol está contraindicada por riesgo de rotura uterina, siendo la cesárea la vía de elección.',
+        stem: 'Y una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con un embarazo de cuarenta semanas, que consulta por ausencia de movimientos fetales. Se le hace un perfil biofísico, que resulta ocho sobre diez, con oligoamnios.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: dejar a evolución espontánea, interrumpir ahora por cesárea, inducir el parto ahora, hacer cesárea al inicio del trabajo de parto, o inducir a las cuarenta y una semanas. Piénsalo.',
+        answer: 'Es la C. El ocho sobre diez con oligoamnios, en un embarazo ya de cuarenta semanas, te dice que hay que interrumpir, porque esperar más solo suma riesgo. Pero no es un puntaje crítico como para exigir cesárea: puedes inducir el parto en este momento. Esperar hasta la semana cuarenta y uno, con el líquido ya bajo, es la trampa de este caso.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos clave para el EUNACOM',
-      title: 'Reglas de oro en evaluación del bienestar fetal',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Cuatro certezas clínicas',
-          kind: 'key',
-          items: [
-            {
-              text: 'La variabilidad moderada de seis a veinticinco latidos descarta acidemia fetal.',
-              say: 'Primera regla: la presencia de variabilidad moderada en el monitoreo descarta hipoxia cerebral grave en ese momento.',
-            },
-            {
-              text: 'Los DIP I son fisiológicos; los DIP II traducen hipoxia por insuficiencia placentaria.',
-              say: 'Segunda regla: las desaceleraciones precoces o DIP uno son fisiológicas por compresión de la cabeza; las desaceleraciones tardías o DIP dos indican hipoxia fetal y obligan a resolver el parto.',
-            },
-            {
-              text: 'Score de Manning de cero a cuatro exige cesárea inmediata de urgencia.',
-              say: 'Tercera regla: un perfil biofísico fetal menor o igual a cuatro sobre diez es sinónimo de asfixia intrauterina severa y requiere interrupción inmediata por cesárea.',
-            },
-            {
-              text: 'Oligohidramnios en embarazo de término obliga a interrumpir el embarazo.',
-              say: 'Cuarta regla: el oligohidramnios a las cuarenta semanas no se observa; se interrumpe el embarazo por riesgo de compresión funicular.',
-            },
-          ],
-        },
-        {
-          title: 'Idea final',
-          kind: 'normal',
-          items: [
-            {
-              text: 'El sueño fetal es la causa más frecuente de registro basal no estresante no reactivo.',
-              say: 'Si te llevas una sola idea de hoy: nunca lleves a una paciente a pabellón solo por un registro no reactivo de veinte minutos sin antes descartar que el feto esté durmiendo mediante estímulo o perfil biofísico. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Registro basal no estresante', tag: 'La regla 15 por 15', kind: 'key', items: [
+          { t: '2 aceleraciones de 15 por 15', d: 'En 20 minutos: reactivo',
+            say: 'Cerremos con las reglas de oro. Dos aceleraciones de quince latidos por quince segundos, en veinte minutos, es tu registro reactivo.' },
+          { t: 'No reactivo a los 20 minutos', d: 'Prolongas y estimulas hasta los 40',
+            say: 'Si no las ves a los veinte minutos, prolongas y estimulas hasta los cuarenta, antes de asumir que algo anda mal.' },
+        ] },
+        { title: 'Perfil biofísico', tag: 'El líquido cambia todo', kind: 'pharma', items: [
+          { t: '8/10 con oligohidramnios', d: 'No es tranquilizador: hipoxia crónica',
+            say: 'Y en el perfil biofísico, un ocho sobre diez con oligohidramnios no es tranquilizador: es un marcador de hipoxia crónica.' },
+        ] },
+        { title: 'La urgencia máxima', tag: '4 o menos', kind: 'alert', items: [
+          { t: 'Puntaje 4 o menos', d: 'Interrupción inmediata del embarazo',
+            say: 'Un puntaje de cuatro o menos es asfixia fetal grave, e interrumpes de inmediato. Si te llevas una sola idea de hoy: el registro no reactivo casi siempre es sueño, pero el líquido amniótico bajo nunca es un hallazgo menor. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo ante Sospecha de Compromiso del Bienestar Fetal',
-    root: N(
-      'start',
-      'Paciente consulta por disminución de movimientos fetales',
-      'Embarazo viable mayor a 28 a 32 semanas · control en urgencia',
-      'Iniciamos el enfrentamiento clínico realizando un Registro Basal No Estresante de entrada.',
-      [
-        'RBNE Reactivo',
-        N(
-          'ok',
-          'Bienestar fetal confirmado',
-          '≥ 2 aceleraciones en 20 min · variabilidad 6 a 25 lpm · sin desaceleraciones',
-          'El trazado reactivo descarta asfixia actual con un valor predictivo negativo superior al noventa y nueve por ciento.',
-          [
-            'Conducta expectante',
-            N(
-              'ok',
-              'Alta o control prenatal habitual',
-              'Educar en conteo diario de movimientos fetales',
-              'Tranquilizamos a la paciente y mantenemos el control habitual en atención primaria.',
-            ),
-          ],
-        ),
-      ],
-      [
-        'RBNE No Reactivo tras 40 minutos',
-        N(
-          'q',
-          'Ausencia de aceleraciones transitorias',
-          'Feto potencialmente dormido versus hipoxia inicial',
-          'Realizamos estímulo vibroacústico y solicitamos Perfil Biofísico Fetal ecográfico.',
-          [
-            'PBF 8 a 10 con líquido amniótico normal',
-            N(
-              'ok',
-              'Feto sano en reposo fisiológico',
-              'Variables ecográficas normales',
-              'El perfil tranquilizador confirma que el feto no presenta asfixia; control ambulatorio.',
-            ),
-          ],
-          [
-            'PBF 8 con Oligohidramnios en feto de término (≥ 37 sem)',
-            N(
-              'do',
-              'Interrupción del embarazo a término',
-              'Inducción del parto vaginal o cesárea según condiciones obstétricas',
-              'A término, el oligohidramnios es indicación de interrupción para evitar muerte fetal.',
-            ),
-          ],
-          [
-            'PBF 0 a 4 de 10 o presencia de DIP II persistentes',
-            N(
-              'alert',
-              'Asfixia fetal severa / Sufrimiento fetal agudo',
-              'Acidosis metabólica intrauterina · trazado ominoso',
-              'Indicamos interrupción inmediata del embarazo por la vía más expedita.',
-              [
-                'Resolución quirúrgica de urgencia',
-                N(
-                  'do',
-                  'Cesárea de urgencia inmediata',
-                  'Reanimación intrauterina + traslado urgente a pabellón',
-                  'Traslado inmediato a pabellón con oxígeno materno y decúbito lateral izquierdo.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Cómo se lee un registro basal no estresante',
+    root: pwRoot,
   },
 };

@@ -1,7 +1,42 @@
-// Clase 1.2 — guion docente escrito a mano (estándar Módulo 3 · Obstetricia).
-// Fuente clínica: books/scripts/dataset_obstetricia.cjs (ob-02).
+// Clase 19.2 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_obstetricia_bloque_1.cjs (ob-02).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+const pwTrisom = N('do', 'Estudio invasivo', 'Biopsia de vellosidad corial u amniocentesis',
+  'Con un riesgo alto en la primera ecografía, ya no basta con seguir mirando: pides un estudio invasivo. Entre las once y las catorce semanas, biopsia de vellosidad corial; desde las quince o dieciséis, amniocentesis.');
+
+const pwAspirina = N('do', 'Aspirina 150 mg en la noche', 'Antes de la semana 16',
+  'Con el Doppler de uterinas alterado, indicas aspirina, ciento cincuenta miligramos, tomada en la noche, y la partida antes de la semana dieciséis es lo que hace la diferencia.');
+
+const pwMarcador = N('q', '¿Qué marcador salió alterado?', 'Translucencia nucal o Doppler de uterinas',
+  'En esta ecografía hay dos marcadores distintos, y cada uno te manda por un camino distinto: ¿cuál de los dos salió alterado?',
+  ['Translucencia nucal aumentada', pwTrisom],
+  ['Doppler de arterias uterinas alterado', pwAspirina]);
+
+const pwEco1 = N('do', 'Ecografía de 11 a 14 semanas', 'Translucencia nucal y Doppler de uterinas',
+  'Si tu paciente está entre las once y las catorce semanas, la ecografía busca dos cosas a la vez: la translucencia nucal, y el Doppler de las arterias uterinas.',
+  ['', pwMarcador]);
+
+const pwProgesterona = N('alert', 'Progesterona vaginal', '200 mg cada noche hasta la semana 36',
+  'Con un cuello menor a veinticinco milímetros, indicas progesterona natural micronizada, doscientos miligramos cada noche, hasta la semana treinta y seis.');
+
+const pwCuelloOk = N('ok', 'No necesita progesterona', 'Cuello normal, sigue su control',
+  'Si el cuello mide veinticinco milímetros o más, sigue con su control habitual, sin progesterona.');
+
+const pwCuello = N('q', '¿El cuello mide menos de 25 mm?', 'Cervicometría transvaginal',
+  'Y aquí la pregunta es sobre el cuello: ¿mide menos de veinticinco milímetros?',
+  ['Sí', pwProgesterona],
+  ['No', pwCuelloOk]);
+
+const pwEco2 = N('do', 'Ecografía de 20 a 24 semanas', 'Morfológica y cervicometría',
+  'Si en cambio está entre las veinte y las veinticuatro semanas, la ecografía revisa la anatomía completa del feto, y además mide el cuello por vía transvaginal.',
+  ['', pwCuello]);
+
+const pwRoot = N('start', '¿En qué ecografía universal estás?', 'Cada una busca algo distinto',
+  'Tu paciente llega a una de las dos ecografías universales del embarazo. Lo primero es saber en cuál está, porque cada una busca algo completamente distinto.',
+  ['Semana 11 a 14', pwEco1],
+  ['Semana 20 a 24', pwEco2]);
 
 module.exports = {
   id: 'ob-02',
@@ -9,445 +44,212 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Tamizaje de aneuploidías, Doppler de arterias uterinas, prevención de preeclampsia con aspirina y cervicometría para parto prematuro',
-      say: 'Bienvenidos a la segunda clase de obstetricia. Hoy revisamos las dos ecografías más determinantes del embarazo: la ecografía de once a catorce semanas y la ecografía morfológica de veinte a veinticuatro semanas. Al terminar esta clase dominarás los marcadores de aneuploidías como la translucencia nucal y el hueso nasal, la indicación oportuna de aspirina según el doppler de arterias uterinas para prevenir la preeclampsia, y el manejo del cuello corto con progesterona o cerclaje. Comencemos.',
+      subtitle: 'Dos ecografías universales, dos riesgos distintos, dos tratamientos que se te pueden olvidar',
+      say: 'Bienvenido de vuelta. Hoy revisamos las dos ecografías que se le hacen a toda embarazada: la de las once a catorce semanas, y la de las veinte a veinticuatro. La primera te habla de aneuploidías y de preeclampsia; la segunda, de malformaciones y de parto prematuro. Y en las dos hay un hallazgo que, si lo pescas a tiempo, cambia el tratamiento. Vamos a eso.',
     },
 
     {
       type: 'flow',
-      kicker: 'Cronología ecográfica',
-      title: 'Hitos y objetivos de las dos ecografías sistemáticas mayores',
+      kicker: 'Ecografía de 11 a 14 semanas',
+      title: 'Un examen, dos marcadores distintos',
       nodes: [
-        { id: 'e11', col: 0, row: 2, k: 'start', t: 'Ecografía 11 a 14 semanas', s: 'LCN entre 45 y 84 milímetros · edad gestacional definitiva' },
-        { id: 'ane', col: 1, row: 1, k: 'alert', t: 'Marcadores de aneuploidías', s: 'Translucencia nucal · hueso nasal · ductus venoso' },
-        { id: 'pre', col: 1, row: 3, k: 'risk', t: 'Doppler arterias uterinas', s: 'Índice de pulsatilidad medio elevado sobre percentil 95' },
-        { id: 'asp', col: 2, row: 3, k: 'good', t: 'Aspirina 150 mg al día', s: 'Inicio antes de las 16 semanas para prevenir preeclampsia' },
-        { id: 'e20', col: 3, row: 1, k: 'mech', t: 'Ecografía 20 a 24 semanas', s: 'Anatomía fetal exhaustiva corte por corte' },
-        { id: 'cer', col: 4, row: 2, k: 'good', t: 'Cervicometría transvaginal', s: 'Pesquisa de cuello corto menor a 25 mm y prevención de prematurez' },
+        { id: 'lcn', col: 0, row: 1, k: 'start', t: 'LCN entre 45 y 84 mm', s: 'Ventana de la primera ecografía' },
+        { id: 'tn', col: 1, row: 0, k: 'mech', t: 'Translucencia nucal', s: 'Espacio entre piel y tejido retrocervical' },
+        { id: 'tris', col: 2, row: 0, k: 'risk', t: 'Riesgo de trisomías', s: '≥ 3 mm, o sin hueso nasal' },
+        { id: 'dop', col: 1, row: 2, k: 'mech', t: 'Doppler de arterias uterinas', s: 'Evalúa la invasión trofoblástica' },
+        { id: 'pre', col: 2, row: 2, k: 'risk', t: 'Riesgo de preeclampsia precoz', s: 'Índice de pulsatilidad sobre percentil 95' },
       ],
       edges: [
-        { from: 'e11', to: 'ane', label: 'genética' },
-        { from: 'e11', to: 'pre', label: 'placentación' },
-        { from: 'pre', to: 'asp', label: 'profilaxis' },
-        { from: 'ane', to: 'e20', label: 'segundo trimestre' },
-        { from: 'asp', to: 'e20', label: 'seguimiento' },
-        { from: 'e20', to: 'cer', label: 'tamizaje prematuro' },
+        { from: 'lcn', to: 'tn' },
+        { from: 'lcn', to: 'dop' },
+        { from: 'tn', to: 'tris' },
+        { from: 'dop', to: 'pre' },
       ],
       steps: [
-        {
-          show: ['e11', 'ane'],
-          note: 'Ecografía de primer trimestre tardío',
-          say: 'La ecografía de once a trece semanas con seis días se realiza con una longitud céfalo-nalgas de cuarenta y cinco a ochenta y cuatro milímetros. Su primer gran objetivo es el tamizaje de cromosomopatías mediante marcadores fenotípicos como la translucencia nucal, la presencia del hueso nasal y el flujo del ductus venoso.',
-        },
-        {
-          show: ['pre', 'asp'],
-          note: 'Tamizaje de preeclampsia precoz',
-          say: 'El segundo gran objetivo es evaluar las arterias uterinas con doppler. Si el índice de pulsatilidad medio se encuentra elevado sobre el percentil noventa y cinco, traduce una mala invasión trofoblástica y alto riesgo de preeclampsia precoz. La conducta salvadora es iniciar aspirina en dosis de ciento cincuenta miligramos diarios por la noche antes de las dieciséis semanas.',
-        },
-        {
-          show: ['e20', 'cer'],
-          note: 'Ecografía morfológica y cervicometría',
-          say: 'Entre las veinte y veinticuatro semanas se efectúa la ecografía morfológica de segundo trimestre para revisar toda la anatomía fetal y descartar malformaciones mayores. Simultáneamente se realiza la cervicometría transvaginal para pesquisar cuello corto menor o igual a veinticinco milímetros y prevenir el parto prematuro.',
-        },
+        { show: ['lcn'], note: 'Se hace con LCN entre 45 y 84 mm',
+          say: 'Empecemos por la primera ecografía, entre las once y las trece semanas más seis días. Se hace con una longitud céfalo-nalgas entre cuarenta y cinco y ochenta y cuatro milímetros, y en el mismo examen te está evaluando dos cosas completamente distintas.' },
+        { show: ['tn'], note: 'Fíjate: es del feto',
+          say: 'La primera es del feto: la translucencia nucal, ese espacio entre la piel y el tejido blando por detrás del cuello.' },
+        { show: ['tris'], note: 'Ojo con el hueso nasal también',
+          say: 'Si mide tres milímetros o más, o si no ves el hueso nasal, sube el riesgo de trisomía veintiuno, dieciocho y trece, y también de cardiopatías.' },
+        { show: ['dop'], note: 'La segunda es de la madre',
+          say: 'La segunda medición ya no es del feto: es de la madre. El Doppler de las arterias uterinas te dice cómo va la invasión de las arterias espirales por la placenta.' },
+        { show: ['pre'], note: 'Ojo: esta alteración predice preeclampsia, no trisomía',
+          say: 'Si el índice de pulsatilidad está sobre el percentil noventa y cinco, tienes alto riesgo de preeclampsia precoz y de restricción de crecimiento. Y esa es justamente la diferencia que se pregunta: la translucencia te habla del feto, el Doppler de uterinas te habla de la placenta.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Marcadores de aneuploidías a las 11-14 semanas',
-      title: 'Translucencia nucal, hueso nasal y flujo en ductus venoso',
+      kicker: 'Lo que haces con cada hallazgo',
+      title: 'Un marcador, una conducta',
       cards: [
-        {
-          title: 'Translucencia nucal patológica',
-          kind: 'alert',
-          items: [
-            {
-              text: 'Grosor sonolúcido retrocervical patológico si es mayor o igual a tres milímetros.',
-              say: 'La translucencia nucal es el espacio anecoico entre la piel y el tejido blando fetal a nivel de la nuca. Se considera patológica si mide tres o más milímetros o supera el percentil noventa y cinco para la longitud céfalo-nalgas.',
-            },
-            {
-              text: 'Asociación cardinal con Trisomía 21, cardiopatías congénitas y Síndrome de Turner.',
-              say: 'Una translucencia aumentada se asocia fuertemente a síndrome de Down o trisomía veintiuno, pero también a trisomías dieciocho y trece, síndrome de Turner y malformaciones cardíacas congénitas severas.',
-            },
-          ],
-        },
-        {
-          title: 'Hueso nasal y Ductus venoso',
-          kind: 'key',
-          items: [
-            {
-              text: 'Ausencia de osificación del hueso nasal en la semana once a catorce.',
-              say: 'La ausencia de visualización del hueso nasal es un marcador específico de síndrome de Down, estando ausente en hasta dos tercios de los fetos con trisomía veintiuno en esta ventana gestacional.',
-            },
-            {
-              text: 'Onda A reversa en el ductus venoso: traduce sobrecarga y falla cardíaca fetal derecha.',
-              say: 'En el ductus venoso, la presencia de una onda A reversa durante la contracción auricular traduce una elevación patológica de las presiones cardíacas y se asocia tanto a cromosomopatías como a defectos estructurales del corazón.',
-            },
-          ],
-        },
+        { title: 'Translucencia nucal alterada', tag: 'Estudio genético', kind: 'alert', items: [
+          { t: 'Riesgo alto', d: 'Biopsia de vellosidad corial o amniocentesis',
+            say: 'Si la translucencia sale alterada, y el riesgo calculado es alto, más de uno en cien, vas directo al estudio invasivo: biopsia de vellosidad corial si tienes entre once y catorce semanas, o amniocentesis desde las quince o dieciséis. Si el riesgo es intermedio, entre uno en cien y uno en mil, primero pruebas con el ADN fetal libre en sangre materna, y dejas el examen invasivo para confirmar.' },
+        ] },
+        { title: 'Doppler de uterinas alterado', tag: 'Fármaco de elección', kind: 'pharma', items: [
+          { t: 'Aspirina 150 mg en la noche', d: 'Iniciada antes de la semana 16',
+            say: 'Si en cambio lo que sale alterado es el Doppler de uterinas, la conducta es dar aspirina, ciento cincuenta miligramos, tomados en la noche.' },
+          { t: 'El momento lo es todo', d: 'Después de la semana 16 pierde efecto',
+            say: 'Y aquí está el dato que más se pregunta: tiene que partir antes de la semana dieciséis. Iniciada después, la aspirina ya no te reduce la preeclampsia precoz de la misma forma.' },
+        ] },
+        { title: 'Ecografía de 20 a 24 semanas', tag: 'Dos objetivos', kind: 'key', items: [
+          { t: 'Anatomía fetal completa', d: 'Cabeza, corazón, pared, riñones',
+            say: 'Y en la segunda ecografía, entre las veinte y las veinticuatro semanas, revisas la anatomía fetal completa, buscando malformaciones: la cabeza y el cerebro, la cara, el corazón con sus cuatro cámaras, la pared abdominal, los riñones y las extremidades. También miras la placenta, para descartar que esté previa, y el volumen del líquido amniótico.' },
+          { t: 'Cervicometría transvaginal', d: 'Siempre con la vejiga vacía',
+            say: 'En el mismo examen mides el cuello por vía transvaginal, con la vejiga vacía. Y ese dato conecta con lo que viene ahora.' },
+        ] },
       ],
     },
 
     {
-      type: 'points',
-      kicker: 'Predicción de preeclampsia y RCF',
-      title: 'Doppler de arterias uterinas y profilaxis con aspirina',
-      cards: [
-        {
-          title: 'Doppler de arterias uterinas a las 11-14 semanas',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Fisiopatología: falla de la segunda oleada de invasión trofoblástica en arterias espiraladas.',
-              say: 'El doppler de arterias uterinas evalúa la resistencia vascular placentaria. En un embarazo normal, el trofoblasto invade la capa muscular de las arterias espiraladas transformándolas en vasos de alta capacitancia y baja resistencia.',
-            },
-            {
-              text: 'Criterio patológico: Índice de pulsatilidad medio superior al percentil noventa y cinco.',
-              say: 'Si la invasión falla, las arterias se mantienen rígidas con persistencia del notch protodiastólico y elevación del índice de pulsatilidad medio por encima del percentil noventa y cinco.',
-            },
-          ],
-        },
-        {
-          title: 'Intervención con Aspirina preventiva',
-          kind: 'pharma',
-          items: [
-            {
-              text: 'Ácido acetilsalicílico ciento cincuenta miligramos cada noche antes de dormir.',
-              say: 'La única intervención farmacológica que ha demostrado reducir en más del sesenta por ciento la preeclampsia precoz y la restricción del crecimiento fetal es la aspirina en dosis de ciento cincuenta miligramos al día administrada por la noche.',
-            },
-            {
-              text: 'Momento de inicio crítico: antes de las dieciséis semanas y mantenida hasta la semana treinta y seis.',
-              say: 'Para que la aspirina sea efectiva, debe iniciarse imperativamente antes de la semana dieciséis de gestación, idealmente entre las once y catorce semanas, y mantenerse hasta la semana treinta y seis.',
-            },
-          ],
-        },
+      type: 'flow',
+      kicker: 'Cuello corto',
+      title: 'La cervicometría decide el tratamiento',
+      nodes: [
+        { id: 'cer', col: 0, row: 1, k: 'start', t: 'Cervicometría a las 20-24 semanas', s: 'Vía transvaginal' },
+        { id: 'cor', col: 1, row: 1, k: 'q', t: '¿Menos de 25 mm?', s: 'Cuello corto' },
+        { id: 'pro', col: 2, row: 0, k: 'good', t: 'Progesterona vaginal', s: '200 mg cada noche' },
+        { id: 'has', col: 3, row: 0, k: 'good', t: 'Hasta la semana 36', s: 'No se suspende antes' },
+        { id: 'nor', col: 2, row: 2, k: 'effect', t: 'Cuello normal', s: 'Control habitual, sin fármaco' },
       ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Ecografía morfológica de 20-24 semanas',
-      title: 'Revisión sistemática de la anatomía fetal y descarte de malformaciones',
-      cards: [
-        {
-          title: 'Sistema nervioso central y cara',
-          kind: 'key',
-          items: [
-            {
-              text: 'Ventrículos laterales normales menores a diez milímetros de diámetro.',
-              say: 'En el cerebro fetal se miden los ventrículos laterales a nivel del atrio: un diámetro mayor a diez milímetros define ventriculomegalia y obliga a descartar hidrocefalia o infecciones congénitas.',
-            },
-            {
-              text: 'Visualización del perfil fetal y labio superior continuo para descartar hendidura labial.',
-              say: 'Se explora la cisterna magna, el cerebelo y la integridad del labio superior para descartar labio leporino y defectos del paladar.',
-            },
-          ],
-        },
-        {
-          title: 'Corazón y pared abdominal',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Corte de cuatro cámaras y salida de grandes vasos: descarta cardiopatías mayores.',
-              say: 'La evaluación cardíaca con corte de cuatro cámaras y tractos de salida aórtico y pulmonar pesquisa la gran mayoría de las cardiopatías congénitas severas.',
-            },
-            {
-              text: 'Pared abdominal anterior: diferenciación entre onfalocele y gastrosquisis.',
-              say: 'En la pared abdominal se confirma la inserción del cordón. El onfalocele presenta saco membranoso con inserción central del cordón y se asocia a trisomías; la gastrosquisis es un defecto paraumbilical derecho sin membrana con asas flotando libres.',
-            },
-          ],
-        },
+      edges: [
+        { from: 'cer', to: 'cor' },
+        { from: 'cor', to: 'pro', label: 'sí' },
+        { from: 'pro', to: 'has' },
+        { from: 'cor', to: 'nor', label: 'no' },
       ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Screening de parto prematuro',
-      title: 'Cervicometría transvaginal y manejo del cuello corto',
-      cards: [
-        {
-          title: 'Técnica de medición estandarizada',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Vía transvaginal con vejiga vacía entre las veinte y veinticuatro semanas.',
-              say: 'La cervicometría debe realizarse siempre por vía transvaginal y con la vejiga vacía. La ecografía transabdominal no es confiable porque la repleción vesical elonga artificialmente el cuello.',
-            },
-            {
-              text: 'Definición de cuello corto: longitud cervical menor o igual a veinticinco milímetros.',
-              say: 'Se define cuello corto si la longitud del canal cervical cerrado es menor o igual a veinticinco milímetros, o menor a veinte milímetros en pacientes sin antecedentes.',
-            },
-          ],
-        },
-        {
-          title: 'Manejo según antecedente obstétrico',
-          kind: 'alert',
-          items: [
-            {
-              text: 'Sin antecedente de parto prematuro previo: Progesterona micronizada doscientos miligramos al día.',
-              say: 'Si una paciente asintomática sin antecedentes de prematurez presenta cuello corto, la conducta de elección es indicar progesterona micronizada doscientos miligramos al día por vía vaginal hasta la semana treinta y seis.',
-            },
-            {
-              text: 'Con antecedente de parto prematuro espontáneo previo: indicación de Cerclaje cervical.',
-              say: 'En cambio, si coexiste el antecedente de uno o más partos prematuros espontáneos o incompetencia cervical, la conducta indicada es la colocación quirúrgica de un cerclaje cervical antes de las veinticuatro semanas.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Comparativa sistemática',
-      title: 'Matriz clínica: Ecografía 11-14 semanas versus Ecografía 20-24 semanas',
-      head: ['Parámetro de comparación', 'Ecografía 11 a 13+6 semanas', 'Ecografía 20 a 24 semanas', 'Relevancia en el examen'],
-      rows: [
-        {
-          cells: [
-            'Medición biométrica clave',
-            'Longitud céfalo-nalgas de 45 a 84 mm',
-            'Diámetro biparietal, circunferencia cefálica y abdominal, fémur',
-            'La LCN en 11-14 sem fija la edad gestacional más certera de todo el embarazo.',
-          ],
-          say: 'La ecografía de primer trimestre mide la longitud céfalo-nalgas para fijar la edad definitiva. La de segundo trimestre evalúa la biometría fetal completa para construir las curvas de crecimiento.',
-        },
-        {
-          cells: [
-            'Objetivo genético y vascular',
-            'Translucencia nucal y doppler de arterias uterinas para preeclampsia precoz',
-            'Anatomía de órganos internos y cervicometría para riesgo de parto prematuro',
-            '11 a 14 semanas previene preeclampsia con aspirina; 20 a 24 previene prematurez.',
-          ],
-          say: 'El doppler uterino precoz permite prevenir la preeclampsia con aspirina; la cervicometría de segundo trimestre previene la prematurez con progesterona o cerclaje.',
-        },
-        {
-          cells: [
-            'Intervención terapéutica preventiva',
-            'Aspirina 150 mg cada noche iniciada antes de la semana 16',
-            'Progesterona micronizada vaginal 200 mg o cerclaje cervical según antecedentes',
-            'Ambas intervenciones deben iniciarse dentro de sus ventanas terapéuticas exactas.',
-          ],
-          say: 'Iniciar la aspirina después de las dieciséis semanas pierde casi toda su efectividad profiláctica. El cerclaje se coloca habitualmente antes de las veinticuatro semanas.',
-        },
+      steps: [
+        { show: ['cer'], note: 'Se mide junto con la ecografía morfológica',
+          say: 'Sigamos con el cuello. Ya viste que la cervicometría se toma junto con la ecografía de las veinte a veinticuatro semanas.' },
+        { show: ['cor'], note: 'El corte es 25 mm',
+          say: 'Y la pregunta que decide todo es si mide menos de veinticinco milímetros.' },
+        { show: ['pro'], note: 'Reduce el parto prematuro a la mitad',
+          say: 'Si es así, indicas progesterona natural micronizada por vía vaginal, doscientos miligramos cada noche. Reduce en cerca de la mitad el riesgo de un parto antes de las treinta y cuatro semanas.' },
+        { show: ['has'], note: 'No confundir con el momento de la aspirina',
+          say: 'Y la mantienes hasta la semana treinta y seis. Fíjate que aquí el fármaco se sostiene por meses, al revés que la aspirina, que se suspendía antes, a las treinta y seis semanas también, pero porque ya cumplió su función.' },
+        { show: ['nor'], note: 'Sin hallazgo, sin fármaco',
+          say: 'Y si el cuello mide veinticinco milímetros o más, sigue con su control habitual: no le das progesterona porque sí.' },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de decisión clínica',
-      title: 'Conducta ante hallazgos anormales en la ecografía de primer y segundo trimestre',
-      say: 'Revisemos el árbol de decisiones ante una translucencia nucal aumentada, un doppler uterino alterado o un cuello uterino corto en la cervicometría.',
+      intro: 'Ahora ordenemos las dos ecografías y sus tratamientos en un solo árbol.',
     },
 
     {
       type: 'table',
-      kicker: 'Diagnósticos diferenciales y trampas',
-      title: 'Trampas del EUNACOM en ecografía prenatal',
-      head: ['Hallazgo ecográfico', 'Error común a evitar', 'Concepto correcto', 'Conducta según norma'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Qué marcador, qué conducta',
+      head: ['Hallazgo', 'Conducta correcta', 'Error frecuente'],
       rows: [
-        {
-          cells: [
-            'Translucencia nucal aumentada mayor a tres milímetros',
-            'Asumir que solo predice síndrome de Down y no estudiar otros órganos',
-            'Se asocia también a cardiopatías congénitas severas, Turner y trisomías 13 y 18',
-            'Ofrecer estudio genético diagnóstico y programar ecocardiograma fetal a las 20 a 22 semanas.',
-          ],
-          say: 'Una translucencia aumentada no solo alerta sobre trisomía veintiuno. Obliga a descartar cardiopatías congénitas mediante un ecocardiograma fetal avanzado a las veinte semanas.',
-        },
-        {
-          cells: [
-            'Doppler uterino alterado a las 11-14 semanas',
-            'Esperar al segundo trimestre para confirmar la resistencia antes de tratar',
-            'La ventana para que la aspirina prevenga la preeclampsia se cierra a las 16 semanas',
-            'Iniciar de inmediato ácido acetilsalicílico 150 mg al día por la noche antes de la semana 16.',
-          ],
-          say: 'No debes esperar a la ecografía morfológica de segundo trimestre para indicar aspirina. Si la indicas tarde, las arterias espiraladas ya consolidaron su daño y no habrá beneficio preventivo.',
-        },
-        {
-          cells: [
-            'Cuello corto de veinte milímetros sin contracciones en paciente sin antecedentes',
-            'Indicar cerclaje de urgencia o reposo absoluto en cama',
-            'El cerclaje en cuello corto aislado sin antecedentes de prematurez previa no aporta beneficio',
-            'Indicar progesterona micronizada doscientos miligramos al día por vía vaginal.',
-          ],
-          say: 'En un cuello corto detectado por screening en una mujer sin partos prematuros previos, el tratamiento de elección es progesterona vaginal. El cerclaje se reserva para quienes tienen el antecedente de prematurez espontánea.',
-        },
+        { cells: ['Translucencia nucal ≥ 3 mm', 'Estudio genético invasivo', 'Repetir la ecografía en unas semanas'],
+          say: 'Repasemos las trampas. Translucencia nucal aumentada: vas al estudio genético invasivo. El error es solo repetir la ecografía más adelante.' },
+        { cells: ['Doppler de uterinas alterado', 'Aspirina antes de la semana 16', 'Iniciar aspirina después de la semana 20'],
+          say: 'Doppler de uterinas alterado: aspirina antes de la semana dieciséis. El error clásico es partir tarde, después de la semana veinte, cuando ya perdió gran parte de su efecto.' },
+        { cells: ['Cuello menor a 25 mm, sin antecedentes', 'Progesterona vaginal hasta la semana 36', 'Indicar cerclaje de entrada'],
+          say: 'Cuello menor a veinticinco milímetros, sin antecedente de parto prematuro: progesterona vaginal. El cerclaje de entrada es la trampa, porque se reserva para otro escenario.' },
+        { cells: ['Translucencia normal, Doppler alterado', 'Riesgo es de preeclampsia, no de trisomía', 'Pedir cariograma fetal'],
+          say: 'Y si la translucencia es normal pero el Doppler de uterinas está alterado, el riesgo es de preeclampsia, no de trisomía. Pedir un cariograma aquí es confundir a qué paciente pertenece cada marcador.'},
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Agosto 2021 · Pregunta 75',
-      caseText: 'Una paciente de cuarenta y un años, cursando un embarazo de once semanas, se realiza una ecografía transvaginal que muestra una translucencia nucal de seis milímetros, siendo el valor de referencia menor a tres milímetros, y ausencia de hueso nasal. ¿Cuál es la conducta más adecuada para proseguir el estudio?',
-      question: '¿Cuál es la conducta más adecuada para proseguir el estudio?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Secundigesta de 13 semanas, con antecedente de preeclampsia severa en su primer embarazo, se realiza la ecografía de 11 a 14 semanas: translucencia nucal de 1,8 mm, hueso nasal presente, y Doppler de arterias uterinas con índice de pulsatilidad sobre el percentil 95.',
+      question: '¿Cuál es la conducta más adecuada en este control?',
       options: [
-        { letter: 'A', text: 'Biopsia de vellosidades coriales para estudio citogenético', isCorrect: true },
-        { letter: 'B', text: 'Mediciones ecográficas seriadas de longitud femoral', isCorrect: false },
-        { letter: 'C', text: 'Repetir la ecografía a las catorce semanas de gestación', isCorrect: false },
-        { letter: 'D', text: 'Solicitar niveles plasmáticos maternos de gonadotrofina coriónica', isCorrect: false },
-        { letter: 'E', text: 'Continuar el control habitual del embarazo sin estudios invasivos', isCorrect: false },
+        { letter: 'A', text: 'Indicar aspirina 150 mg en la noche' },
+        { letter: 'B', text: 'Solicitar biopsia de vellosidad corial' },
+        { letter: 'C', text: 'Indicar progesterona vaginal 200 mg cada noche' },
+        { letter: 'D', text: 'Solicitar amniocentesis a las 16 semanas' },
+        { letter: 'E', text: 'Mantener el control habitual, sin ninguna intervención' },
       ],
       correct: 'A',
+      explanation: 'La translucencia nucal y el hueso nasal son normales: no hay indicación de estudio genético. El Doppler de uterinas alterado, sumado al antecedente de preeclampsia previa, define alto riesgo de preeclampsia precoz, y la intervención con mayor evidencia es la aspirina, iniciada antes de la semana 16.',
       say: {
-        stem: 'Revisemos esta pregunta oficial de agosto de dos mil veintiuno. Una paciente de cuarenta y un años con once semanas de gestación presenta una translucencia nucal de seis milímetros y ausencia de hueso nasal.',
-        question: 'Nos consultan por la conducta más adecuada para proseguir el estudio.',
-        options: 'Las alternativas son: opción A, biopsia de vellosidades coriales; opción B, mediciones seriadas de fémur; opción C, repetir ecografía a las catorce semanas; opción D, niveles de gonadotrofina coriónica; y opción E, control habitual. Piénsalo.',
-        answer: 'La respuesta correcta es la opción A. Con una edad materna avanzada, una translucencia nucal marcadamente engrosada de seis milímetros y ausencia del hueso nasal, el riesgo de aneuploidía es extraordinariamente alto. En el primer trimestre, entre las once y catorce semanas, el examen diagnóstico invasivo de elección es la biopsia de vellosidades coriales.',
+        stem: 'Un caso. Secundigesta de trece semanas, con antecedente de preeclampsia severa en su primer embarazo. En la ecografía de once a catorce semanas, la translucencia nucal sale en uno coma ocho milímetros, con hueso nasal presente, pero el Doppler de arterias uterinas muestra un índice de pulsatilidad sobre el percentil noventa y cinco.',
+        question: '¿Cuál es la conducta más adecuada en este control?',
+        options: 'Las opciones: indicar aspirina en la noche, pedir biopsia de vellosidad corial, indicar progesterona vaginal, pedir amniocentesis a las dieciséis semanas, o mantener el control sin intervenir. Piénsalo.',
+        answer: 'Es la A. Fíjate que la translucencia y el hueso nasal están completamente normales, así que el estudio genético no tiene ningún lugar aquí. Lo que está alterado es el Doppler de uterinas, y con el antecedente de preeclampsia previa, el riesgo de preeclampsia precoz es alto. La conducta con más evidencia es la aspirina, y tiene que partir antes de la semana dieciséis. La progesterona no aplica: eso es para el cuello corto, y aquí no se ha medido.',
       },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Julio 2013 · Pregunta 72',
-      caseText: 'Una mujer de treinta y cuatro años, multípara de dos, cursando embarazo de veinte semanas, con antecedente de dos partos prematuros espontáneos a las veinte y veinticuatro semanas, asintomática, acude a control prenatal. Su examen físico es normal, con útero a nivel umbilical. Se realiza cervicometría transvaginal de control, la cual muestra una longitud cervical de veinte milímetros. La conducta más adecuada en este caso es:',
-      question: '¿Cuál es la conducta más adecuada en este caso?',
+      title: 'EUNACOM Julio 2025 · Pregunta 133',
+      stem: 'Embarazada de 12 semanas, con translucencia nucal aumentada en la ecografía.',
+      question: '¿Cuál es el examen definitivo para confirmar una trisomía 21?',
       options: [
-        { letter: 'A', text: 'Solicitar un perfil biofísico fetal de inmediato', isCorrect: false },
-        { letter: 'B', text: 'Indicar corticoides y antibióticos manteniendo conducta expectante', isCorrect: false },
-        { letter: 'C', text: 'Realizar cerclaje cervical quirúrgico', isCorrect: true },
-        { letter: 'D', text: 'Administrar tocolisis endovenosa y reposo absoluto', isCorrect: false },
-        { letter: 'E', text: 'Aplicar estrógenos tópicos locales', isCorrect: false },
+        { letter: 'A', text: 'Biopsia de vellosidades coriales (11 a 14 semanas)' },
+        { letter: 'B', text: 'Amniocentesis (15 a 20 semanas)' },
+        { letter: 'C', text: 'ADN fetal en sangre materna' },
+        { letter: 'D', text: 'Fetoscopía' },
+        { letter: 'E', text: 'Marcadores séricos maternos (triple marcador)' },
       ],
-      correct: 'C',
+      correct: 'A',
+      explanation: 'A las 12 semanas, la biopsia de vellosidades coriales es el examen invasivo de elección para el cariotipo fetal, dentro de su ventana de las 10 a 14 semanas. La amniocentesis se reserva para después de las 15 semanas.',
       say: {
-        stem: 'Analicemos esta pregunta real de julio de dos mil trece. Una mujer con veinte semanas de gestación y antecedente de dos pérdidas o partos prematuros espontáneos previos presenta una cervicometría con cuello corto de veinte milímetros.',
-        question: 'Se pregunta por la conducta terapéutica más adecuada.',
-        options: 'Las opciones son: opción A, perfil biofísico; opción B, corticoides y antibióticos; opción C, realizar cerclaje cervical quirúrgico; opción D, tocolisis endovenosa; y opción E, estrógenos tópicos. Piénsalo.',
-        answer: 'La respuesta oficial es la opción C, realizar cerclaje cervical. En una paciente con cuello corto menor a veinticinco milímetros que además cuenta con el antecedente de partos prematuros previos recurrentes, la incompetencia cervical es el diagnóstico de certeza y el cerclaje cervical quirúrgico es la indicación de primera línea.',
+        stem: 'Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Embarazada de doce semanas, con translucencia nucal aumentada en la ecografía.',
+        question: '¿Cuál es el examen definitivo para confirmar una trisomía veintiuno?',
+        options: 'Las opciones: biopsia de vellosidades coriales, amniocentesis, ADN fetal en sangre materna, fetoscopía, o marcadores séricos maternos. Piénsalo.',
+        answer: 'Es la A. A las doce semanas estás justo en la ventana de la biopsia de vellosidades coriales, que va de las diez a las catorce semanas. La amniocentesis suena parecida, pero recién se hace desde las quince semanas en adelante: a las doce todavía no toca.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2019 · Pregunta 155',
+      stem: 'Primigesta de 23 años, cursando un embarazo de 20 semanas, se realiza una ecografía transvaginal que muestra un cuello de 20 mm de longitud, sin otras alteraciones.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Indicar pesario cervical' },
+        { letter: 'B', text: 'Iniciar progesterona vaginal' },
+        { letter: 'C', text: 'Realizar cerclaje cervical' },
+        { letter: 'D', text: 'Administrar corticoides sistémicos' },
+        { letter: 'E', text: 'Observar evolución, sin intervenir' },
+      ],
+      correct: 'B',
+      explanation: 'Cuello menor a 25 mm en paciente sin antecedente de parto prematuro ni de incompetencia cervical: la conducta es progesterona vaginal. El cerclaje se reserva para cuando además hay antecedente de aborto tardío o parto muy prematuro previo.',
+      say: {
+        stem: 'Y otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Primigesta de veintitrés años, con un embarazo de veinte semanas, a la que una ecografía transvaginal le muestra un cuello de veinte milímetros de longitud, sin otras alteraciones.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: indicar pesario cervical, iniciar progesterona vaginal, hacer cerclaje, dar corticoides sistémicos, u observar sin intervenir. Piénsalo.',
+        answer: 'Es la B. El cuello está bajo veinticinco milímetros, así que algo hay que hacer, y como es primigesta, sin antecedente de parto prematuro ni de incompetencia cervical, la conducta es la progesterona vaginal. El cerclaje sería la respuesta si además tuviera ese antecedente, y no es el caso.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos clave para el EUNACOM',
-      title: 'Reglas de oro en ecografía obstétrica',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Cuatro certezas clínicas',
-          kind: 'key',
-          items: [
-            {
-              text: 'Translucencia nucal mayor o igual a tres milímetros orienta a Down y cardiopatías.',
-              say: 'Primera regla: la translucencia nucal patológica mayor o igual a tres milímetros entre las once y catorce semanas exige estudio genético y ecocardiograma fetal.',
-            },
-            {
-              text: 'Doppler uterino alterado exige Aspirina ciento cincuenta miligramos antes de la semana dieciséis.',
-              say: 'Segunda regla: si el doppler de arterias uterinas a las once a catorce semanas muestra un índice de pulsatilidad sobre el percentil noventa y cinco, se prescribe aspirina nocturna antes de las dieciséis semanas.',
-            },
-            {
-              text: 'Cuello corto menor o igual a veinticinco milímetros en cervicometría transvaginal.',
-              say: 'Tercera regla: la cervicometría se mide por vía transvaginal a las veinte a veinticuatro semanas; si es menor o igual a veinticinco milímetros sin antecedentes previos se trata con progesterona vaginal.',
-            },
-            {
-              text: 'Cerclaje cervical si hay antecedente de parto prematuro previo recurrente.',
-              say: 'Cuarta regla: el cerclaje cervical se indica ante cuello corto en pacientes con historia obstétrica de incompetencia cervical o partos prematuros previos.',
-            },
-          ],
-        },
-        {
-          title: 'Idea final',
-          kind: 'normal',
-          items: [
-            {
-              text: 'La longitud céfalo-nalgas de primer trimestre es el parámetro más exacto de datación.',
-              say: 'Si te llevas una sola idea de hoy: la ecografía precoz mediante longitud céfalo-nalgas manda sobre cualquier fecha menstrual para fijar la edad gestacional definitiva del embarazo. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Ecografía 11 a 14 semanas', tag: 'Dos marcadores', kind: 'key', items: [
+          { t: 'Translucencia alterada', d: 'Riesgo del feto: estudio genético',
+            say: 'Cerremos con las reglas de oro. La translucencia nucal alterada es riesgo del feto, y te lleva al estudio genético.' },
+          { t: 'Doppler de uterinas alterado', d: 'Riesgo de la placenta: aspirina antes de la 16',
+            say: 'El Doppler de uterinas alterado es riesgo de la placenta, y te lleva a la aspirina, siempre antes de la semana dieciséis.' },
+        ] },
+        { title: 'Ecografía 20 a 24 semanas', tag: 'El cuello decide', kind: 'pharma', items: [
+          { t: 'Cuello menor a 25 mm', d: 'Progesterona vaginal hasta la semana 36',
+            say: 'Y en la segunda ecografía, un cuello menor a veinticinco milímetros te lleva a la progesterona vaginal, hasta la semana treinta y seis.' },
+        ] },
+        { title: 'No los confundas', tag: 'Cada hallazgo, su fármaco', kind: 'alert', items: [
+          { t: 'Aspirina es para la placenta', d: 'Progesterona es para el cuello',
+            say: 'Si te llevas una sola idea de hoy: la aspirina es para el Doppler de la placenta, y la progesterona es para el cuello corto. No se reemplazan entre sí. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo de Hallazgos en Ecografía Obstétrica',
-    root: N(
-      'start',
-      'Ecografía obstétrica de tamizaje sistemático',
-      'Evaluación de 11 a 14 semanas o de 20 a 24 semanas',
-      'Iniciamos el enfrentamiento según el trimestre y el parámetro evaluado en la ecografía.',
-      [
-        'Primer trimestre: 11 a 14 semanas',
-        N(
-          'q',
-          'Evaluación de translucencia nucal y doppler uterino',
-          'LCN 45 a 84 mm · marcadores de cromosomopatía y resistencia placentaria',
-          'Determinamos si el riesgo es genético o de insuficiencia placentaria.',
-          [
-            'Translucencia nucal ≥ 3.0 mm o hueso nasal ausente',
-            N(
-              'alert',
-              'Alto riesgo de aneuploidía y cardiopatía',
-              'Trisomía 21, 18, 13 · Turner · malformación cardíaca',
-              'Frente a marcadores aneuploides alterados ofrecemos estudio citogenético diagnóstico.',
-              [
-                'Estudio genético invasivo',
-                N(
-                  'do',
-                  'Biopsia de vellosidades coriales',
-                  'Cariograma / microarray + ecocardiograma fetal a las 20 semanas',
-                  'Indicamos biopsia corial y programamos ecocardiograma fetal posterior.',
-                ),
-              ],
-            ),
-          ],
-          [
-            'Doppler uterino alterado (IP medio > p95)',
-            N(
-              'do',
-              'Prevención farmacológica de preeclampsia',
-              'Aspirina 150 mg al día por la noche antes de las 16 semanas',
-              'Iniciamos aspirina nocturna de inmediato antes de las dieciséis semanas hasta la semana treinta y seis.',
-            ),
-          ],
-        ),
-      ],
-      [
-        'Segundo trimestre: 20 a 24 semanas',
-        N(
-          'q',
-          'Cervicometría transvaginal para riesgo de prematurez',
-          'Medición de longitud cervical con vejiga vacía',
-          'Evaluamos la longitud del cuello uterino y los antecedentes obstétricos.',
-          [
-            'Longitud cervical normal > 25 mm',
-            N(
-              'ok',
-              'Bajo riesgo de parto prematuro',
-              'Continuar control prenatal habitual',
-              'Mantenemos el seguimiento habitual sin intervenciones farmacológicas.',
-            ),
-          ],
-          [
-            'Cuello corto ≤ 25 mm',
-            N(
-              'alert',
-              'Alto riesgo de parto prematuro',
-              'Definir conducta según antecedente obstétrico previo',
-              'Estratificamos el manejo según si tiene o no partos prematuros espontáneos previos.',
-              [
-                'Sin antecedente de parto prematuro previo',
-                N(
-                  'do',
-                  'Progesterona micronizada vaginal',
-                  '200 mg al día por vía vaginal hasta la semana 36',
-                  'Indicamos progesterona micronizada vaginal para prevenir el parto prematuro.',
-                ),
-              ],
-              [
-                'Con antecedente de parto prematuro espontáneo previo',
-                N(
-                  'do',
-                  'Cerclaje cervical quirúrgico',
-                  'Procedimiento quirúrgico antes de las 24 semanas',
-                  'Indicamos cerclaje cervical quirúrgico para tratar la incompetencia cervical.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Las dos ecografías universales del embarazo',
+    root: pwRoot,
   },
 };
