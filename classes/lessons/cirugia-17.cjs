@@ -1,4 +1,4 @@
-// Clase 11.17 — guion docente escrito a mano (estándar Módulo 2 · Cirugía).
+// Clase 11.17 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_cirugia.cjs (cir-17).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
@@ -9,453 +9,197 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Infección del sitio quirúrgico incisional y profunda, dehiscencia aponeurótica, líquido en agua de carne y evisceración aguda',
-      say: 'Bienvenidos a la clase de infección de sitio quirúrgico, dehiscencia de herida y evisceración aguda. Estas complicaciones de la incisión operatoria generan gran morbimortalidad y son evaluadas con frecuencia en el EUNACOM. Durante esta sesión aprenderemos a clasificar las heridas quirúrgicas para indicar profilaxis racional, a diagnosticar la dehiscencia de fascia ante el clásico líquido en agua de carne y a ejecutar la conducta de emergencia ante una evisceración aguda sin cometer errores fatales. Comencemos.',
+      subtitle: 'De la profilaxis correcta a la evisceración que no se puede esperar',
+      say: 'Bienvenido. En la clase anterior vimos por qué aparece la fiebre según el día postoperatorio, y una de esas letras era Wound, la herida. Hoy nos metemos de lleno en esa herida: cómo se previene su infección, cómo se clasifica cuando ya aparece, y qué haces si la pared abdominal se abre por completo. Esta última es una urgencia real, así que préstale mucha atención a esa parte.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Clasificación de la herida y profilaxis',
+      cards: [
+        { title: 'Según contaminación', tag: 'Cuatro clases', kind: 'key', items: [
+          { t: 'Limpia', d: 'Sin abrir tubo digestivo ni vía urinaria',
+            say: 'Toda herida se clasifica antes de operar, porque de ahí sale la decisión de dar o no antibióticos. La limpia es la que no abre el tubo digestivo, la vía biliar ni la urinaria, como una tiroidectomía.' },
+          { t: 'Limpia contaminada', d: 'Abre el tubo digestivo en forma controlada',
+            say: 'La limpia contaminada abre el tubo digestivo, la vía biliar o la urinaria, pero de forma programada y controlada, como una colecistectomía o una apendicectomía no complicada.' },
+          { t: 'Contaminada y sucia', d: 'Derrame grosero o pus ya presente',
+            say: 'La contaminada tiene un derrame grosero de contenido intestinal, y la sucia ya tiene pus libre, como una peritonitis por perforación. Ahí ya no hablamos de profilaxis, sino de tratamiento antibiótico.' },
+        ] },
+        { title: 'La profilaxis correcta', tag: 'Cefazolina', kind: 'pharma', items: [
+          { t: 'Solo en limpia contaminada', d: 'La limpia casi nunca la necesita',
+            say: 'La profilaxis antibiótica se da en la limpia contaminada y en la contaminada. La limpia no la necesita, salvo que se instale una malla o una prótesis.' },
+          { t: 'Antes de la incisión', d: 'Entre treinta y sesenta minutos antes',
+            say: 'Y el detalle que más se pregunta: se administra entre treinta y sesenta minutos antes de la incisión, no después, para que el antibiótico ya esté actuando cuando el cirujano corta.' },
+        ] },
+      ],
     },
 
     {
       type: 'flow',
-      kicker: 'Contaminación y profilaxis',
-      title: 'Clasificación de heridas quirúrgicas e indicación de antimicrobianos',
+      kicker: 'Clasificación',
+      title: '¿Dónde está la infección en la herida?',
       nodes: [
-        { id: 'her', col: 0, row: 2, k: 'start', t: 'Incisión quirúrgica programada', s: 'Evaluación del riesgo de contaminación bacteriana' },
-        { id: 'c1', col: 1, row: 0, k: 'good', t: 'Clase I: Herida limpia', s: 'Sin apertura de tracto digestivo, biliar o respiratorio' },
-        { id: 'pro', col: 2, row: 0, k: 'alert', t: '¿Uso de prótesis o malla sintética?', s: 'Excepción: hernioplastía con malla requiere Cefazolina' },
-        { id: 'c2', col: 1, row: 2, k: 'mech', t: 'Clase II: Limpia-contaminada', s: 'Apertura controlada de tubo digestivo o vía biliar' },
-        { id: 'c3', col: 2, row: 2, k: 'risk', t: 'Clase III: Contaminada', s: 'Fuga evidente de bilis o contenido entérico sin pus' },
-        { id: 'c4', col: 3, row: 1, k: 'trap', t: 'Clase IV: Sucia o infectada', s: 'Peritonitis purulenta, heces o tejido desvitalizado' },
-        { id: 'tx', col: 4, row: 1, k: 'good', t: 'Antibioticoterapia terapéutica', s: 'Tratamiento prolongado terapéutico, no profilaxis' },
+        { id: 'ini', col: 0, row: 2, k: 'start', t: 'Fiebre y herida sospechosa', s: '¿Hasta dónde llega?' },
+        { id: 'sup', col: 1, row: 0, k: 'risk', t: 'Piel y tejido subcutáneo', s: 'Infección incisional superficial' },
+        { id: 'pro', col: 1, row: 2, k: 'risk', t: 'Fascia y músculo', s: 'Infección incisional profunda' },
+        { id: 'org', col: 1, row: 4, k: 'alert', t: 'Cavidad manipulada', s: 'Infección de órgano o espacio' },
+        { id: 'ts', col: 2, row: 0, k: 'good', t: 'Retirar puntos y drenar', s: 'Curación abierta' },
+        { id: 'tp', col: 2, row: 2, k: 'good', t: 'Desbridar tejido no viable', s: 'Drenaje amplio' },
+        { id: 'to', col: 2, row: 4, k: 'refer', t: 'Drenaje guiado por escáner', s: 'O nueva cirugía de aseo' },
       ],
       edges: [
-        { from: 'her', to: 'c1', label: 'sin víscera hueca' },
-        { from: 'c1', to: 'pro', label: 'evaluar implante' },
-        { from: 'her', to: 'c2', label: 'apertura controlada' },
-        { from: 'her', to: 'c3', label: 'derrame o trauma' },
-        { from: 'her', to: 'c4', label: 'infección activa' },
-        { from: 'c3', to: 'tx', label: 'esquema curativo' },
-        { from: 'c4', to: 'tx', label: 'esquema curativo' },
+        { from: 'ini', to: 'sup' }, { from: 'ini', to: 'pro' }, { from: 'ini', to: 'org' },
+        { from: 'sup', to: 'ts' }, { from: 'pro', to: 'tp' }, { from: 'org', to: 'to' },
       ],
       steps: [
-        {
-          show: ['her', 'c1', 'pro'],
-          note: 'Heridas limpias y la excepción de la malla',
-          say: 'Las heridas limpias no atraviesan vísceras huecas ni presentan inflamación activa. Por norma general no requieren antibióticos profilácticos, con una excepción obligatoria en el EUNACOM: cuando se implanta material protésico permanente como una malla en una hernioplastía, donde se indica cefazolina preoperatoria.',
-        },
-        {
-          show: ['c2'],
-          note: 'Heridas limpia-contaminadas y profilaxis estándar',
-          say: 'Las heridas limpia-contaminadas corresponden a cirugías donde se abre el tubo digestivo, urinario o biliar bajo condiciones controladas sin derrame inusual, como una colecistectomía programada. Aquí la profilaxis antibiótica preincisional de dosis única es mandatoria.',
-        },
-        {
-          show: ['c3', 'c4', 'tx'],
-          note: 'Heridas contaminadas y sucias: tratamiento terapéutico',
-          say: 'En las heridas contaminadas y sucias existe contaminación bacteriana masiva o peritonitis purulenta establecida. En estos escenarios ya no hablamos de profilaxis sino de tratamiento antibiótico terapéutico parenteral prolongado por varios días.',
-        },
+        { show: ['ini'], note: 'La profundidad decide el manejo',
+          say: 'Ya con la infección instalada, lo que decide el manejo es qué tan profundo llega el compromiso.' },
+        { show: ['sup', 'ts'], note: 'La más frecuente y la más simple',
+          say: 'Si solo compromete la piel y el tejido subcutáneo, es una infección incisional superficial. Se retiran los puntos de esa zona, se abre y se drena, con curaciones abiertas después.' },
+        { show: ['pro', 'tp'], note: 'Ya compromete la fascia',
+          say: 'Si llega hasta la fascia o el músculo, es una infección incisional profunda, y ahí necesitas desbridar el tejido que ya no está viable, además del drenaje.' },
+        { show: ['org', 'to'], note: 'La más grave, dentro del abdomen',
+          say: 'Y si el compromiso está dentro de la cavidad que se manipuló, es una infección de órgano o espacio, como un absceso intraabdominal. Ahí el drenaje se hace guiado por escáner o ecografía, o con una nueva cirugía de aseo si no alcanza.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Clasificación CDC / MINSAL',
-      title: 'Categorías de Infección del Sitio Quirúrgico (ISQ)',
+      kicker: 'Dehiscencia',
+      title: 'Cuando la pared abdominal se abre',
       cards: [
-        {
-          title: 'ISQ Incisional Superficial y Profunda',
-          tag: 'Compromiso de pared',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Incisional superficial: piel y celular subcutáneo',
-              d: 'Aparece dentro de los treinta días con dolor, eritema y pus',
-              say: 'La infección superficial solo afecta la piel y el tejido celular subcutáneo. El diagnóstico es clínico por la presencia de secreción purulenta y signos inflamatorios locales en el primer mes.',
-            },
-            {
-              t: 'Incisional profunda: fascia y músculo',
-              d: 'Drenaje purulento profundo o dehiscencia espontánea de la fascia',
-              say: 'La infección profunda compromete la aponeurosis o las capas musculares de la pared. Suele asociarse a fiebre alta y requiere exploración y desbridamiento del tejido fascial necrótico.',
-            },
-          ],
-        },
-        {
-          title: 'ISQ de Órgano y Espacio',
-          tag: 'Compromiso cavitario',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Compromiso de cavidades anatómicas manipuladas',
-              d: 'Abscesos intraabdominales, colecciones pélvicas o peritonitis postquirúrgica',
-              say: 'La infección de órgano o espacio se desarrolla en cualquier zona anatómica manipulada durante la intervención, como un absceso subfrénico o peritonitis residual tras una apendicectomía.',
-            },
-            {
-              t: 'Confirmación y resolución mínimamente invasiva',
-              d: 'Tomografía computarizada con contraste y drenaje percutáneo guiado',
-              say: 'El diagnóstico se confirma mediante tomografía computarizada con contraste endovenoso, resolviéndose habitualmente mediante drenaje percutáneo guiado por radiología sin abrir el abdomen.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Buenas prácticas clínicas',
-      title: 'Medidas de prevención de ISQ basadas en la evidencia',
-      cards: [
-        {
-          title: 'Profilaxis antimicrobiana preincisional',
-          tag: 'Momento de administración',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Administración treinta a sesenta minutos preincisión',
-              d: 'Cefazolina dos gramos endovenosa durante la inducción anestésica',
-              say: 'La cefazolina debe administrarse dentro de los sesenta minutos previos al corte quirúrgico para garantizar niveles tisulares bactericidas máximos al momento de abrir la piel.',
-            },
-            {
-              t: 'Dosis única preoperatoria',
-              d: 'Prolongar antibióticos en el postoperatorio no previene infecciones',
-              say: 'En cirugías no complicadas basta una dosis única preoperatoria. Mantener antibióticos por dos o tres días tras la cirugía no reduce la infección y genera resistencia bacteriana.',
-            },
-          ],
-        },
-        {
-          title: 'Preparación del paciente y control ambiental',
-          tag: 'Normas de pabellón',
-          kind: 'key',
-          items: [
-            {
-              t: 'Prohibido el rasurado con hoja de afeitar',
-              d: 'El corte con navaja genera microabrasiones que colonizan bacterias',
-              say: 'Nunca rasures con máquina de afeitar la noche anterior: multiplica el riesgo de infección por microheridas cutáneas. Si es indispensable cortar el vello, se usa clipper eléctrico en pabellón.',
-            },
-            {
-              t: 'Normotermia y normoglicemia perioperatoria',
-              d: 'Evitar la hipotermia y mantener glicemias bajo ciento ochenta',
-              say: 'Mantener la temperatura corporal sobre treinta y seis grados y controlar la glicemia en rangos normales optimiza la función leucocitaria y la cicatrización colágena.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Comparación anatómica',
-      title: 'Complicaciones de la herida quirúrgica y conducta estandarizada',
-      head: ['Complicación', 'Plano comprometido', 'Manifestación patognomónica', 'Conducta quirúrgica'],
-      rows: [
-        {
-          cells: ['ISQ superficial', 'Piel y tejido subcutáneo', 'Eritema local y pus entre bordes', 'Retiro de puntos, drenaje y aseo'],
-          say: 'La infección superficial solo compromete la piel y el tejido celular subcutáneo. Se resuelve de forma inmediata retirando las suturas, drenando todo el pus acumulado y realizando curaciones húmedas por segunda intención.',
-        },
-        {
-          cells: ['Dehiscencia de fascia', 'Aponeurosis muscular', 'Líquido en agua de carne profuso', 'Pabellón para resutura aponeurótica'],
-          say: 'La dehiscencia aponeurótica avisa con la salida súbita de líquido serohemático acuoso en agua de carne tras un esfuerzo de tos y requiere reexploración urgente en pabellón quirúrgico para resuturar la fascia.',
-        },
-        {
-          cells: ['Evisceración aguda', 'Todos los planos de la pared', 'Asas intestinales visibles al exterior', 'Compresas estériles tibias y pabellón directo'],
-          say: 'La evisceración aguda expone las asas intestinales o el epiplón directamente al exterior. Exige cubrirlas de inmediato con compresas estériles empapadas en suero tibio y traslado urgente a quirófano sin manipularlas en la sala.',
-        },
-        {
-          cells: ['Eventración tardía', 'Cicatriz aponeurótica antigua', 'Hernia incisional indolora meses después', 'Hernioplastía electiva con malla'],
-          say: 'La eventración es la secuela tardía diferida y se repara en forma electiva con malla de refuerzo.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Alerta de dehiscencia profunda',
-      title: 'Dehiscencia aponeurótica y el clásico signo en agua de carne',
-      cards: [
-        {
-          title: 'Fisiopatología del fallo de pared',
-          tag: 'Quinto al octavo día',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Ruptura de la sutura fascial profunda',
-              d: 'Tensión excesiva por tos, obesidad, desnutrición o infección oculta',
-              say: 'La dehiscencia aponeurótica ocurre clásicamente entre el quinto y octavo día postoperatorio, cuando la sutura cede por esfuerzos de tos, distensión abdominal o cierre deficiente.',
-            },
-            {
-              t: 'Salida de líquido en agua de carne',
-              d: 'Líquido serohemático acuoso rosado y profuso que empapa apósitos',
-              say: 'El signo patognomónico que siempre pregunta el EUNACOM es la salida súbita y profusa de líquido serohemático rosado, descrito como en agua de carne, que empapa múltiples capas de gasa.',
-            },
-          ],
-        },
-        {
-          title: 'Conducta médica ante la sospecha',
-          tag: 'Exploración obligatoria',
-          kind: 'key',
-          items: [
-            {
-              t: 'Inspección minuciosa retirando apósitos',
-              d: 'Palpación de la brecha aponeurótica bajo la piel con técnica estéril',
-              say: 'Todo apósito empapado en líquido acuoso exige retirar la curación e inspeccionar directamente la incisión. Si la piel está cerrada pero la aponeurosis se abrió, existe dehiscencia encubierta.',
-            },
-            {
-              t: 'Reparación quirúrgica en pabellón',
-              d: 'Reoperación de urgencia para aseo y cierre monofilamento con puntos totales',
-              say: 'La dehiscencia de fascia es una indicación formal de retorno a pabellón quirúrgico para realizar un nuevo cierre de la pared con material irreabsorbible o puntos de retención.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Emergencia de piso',
-      title: 'Evisceración aguda: conducta inmediata en la sala de hospitalización',
-      cards: [
-        {
-          title: 'Cuadro clínico y error fatal proscrito',
-          tag: 'Prohibido reintroducir',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Exteriorización de vísceras abdominales',
-              d: 'Protrusión súbita de asas de intestino delgado o epiplón tras esfuerzo',
-              say: 'La evisceración es la salida de las vísceras hacia el exterior a través de la piel y aponeurosis completamente abiertas, desencadenada habitualmente por un golpe de tos o vómito.',
-            },
-            {
-              t: 'NUNCA reintroducir las asas en la sala',
-              d: 'La manipulación en cama perfora asas friables e introduce contaminación masiva',
-              say: 'Esta es la regla cardinal del examen: jamás intentes reintroducir manualmente el intestino dentro del abdomen en la cama del paciente. Eso desgarra el mesenterio, perfora vísceras y desata peritonitis letal.',
-            },
-          ],
-        },
-        {
-          title: 'Protocolo de rescate en la sala',
-          tag: 'Manejo paso a paso',
-          kind: 'key',
-          items: [
-            {
-              t: 'Cubrir con compresas estériles húmedas tibias',
-              d: 'Empapar compresas en suero fisiológico tibio para evitar la desecación isquémica',
-              say: 'La conducta inmediata en la sala es cubrir suavemente las vísceras con compresas estériles empapadas en suero fisiológico tibio, evitando la hipotermia y la necrosis por desecación.',
-            },
-            {
-              t: 'Traslado inmediato a pabellón quirúrgico',
-              d: 'Régimen cero, analgesia parenteral y laparotomía de urgencia bajo anestesia general',
-              say: 'Se suspende la vía oral, se indica analgesia endovenosa y se traslada de urgencia al quirófano para lavado peritoneal exhaustivo y reconstrucción formal de la pared abdominal.',
-            },
-          ],
-        },
+        { title: 'El signo que la anuncia', tag: 'Día cinco a ocho', kind: 'alert', items: [
+          { t: 'Líquido rosado abundante', d: 'Se le llama agua de carne',
+            say: 'Antes de la evisceración hay un aviso: la salida de un líquido rosado y abundante, que se conoce como agua de carne. Aparece típicamente entre el día cinco y el ocho.' },
+          { t: 'Anuncia la fascia rota', d: 'No es un simple seroma',
+            say: 'Ese signo casi siempre significa que la fascia por debajo ya cedió, y no es un seroma cualquiera. Fíjate bien en él, porque es la pista que se pregunta.' },
+        ] },
+        { title: 'Evisceración: qué haces', tag: 'Urgencia quirúrgica', kind: 'key', items: [
+          { t: 'Cubrir con compresas tibias', d: 'Empapadas en suero fisiológico',
+            say: 'Si las asas ya salieron por la herida, lo primero es cubrirlas con compresas estériles empapadas en suero fisiológico tibio, para que no se sequen ni se dañen.' },
+          { t: 'Nunca reintroducirlas', d: 'Puedes perforar el intestino',
+            say: 'Nunca intentes meter las asas de vuelta ahí mismo: puedes perforar el intestino o contaminar todavía más la cavidad.' },
+          { t: 'Traslado urgente a pabellón', d: 'Con vía venosa y suero',
+            say: 'Instala una vía venosa, pasa suero, y trasládalo de inmediato a pabellón para el cierre definitivo. No es algo que se pueda dejar para más tarde.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Árbol de decisión clínica',
-      title: 'Algoritmo de complicaciones de la herida quirúrgica',
-      say: 'Analicemos el árbol de decisiones ante un paciente que presenta dolor, secreción o dehiscencia de la herida operatoria en el postoperatorio.',
+      intro: 'Juntemos todo en un árbol de decisión, desde la herida infectada hasta la evisceración.',
     },
 
     {
       type: 'table',
-      kicker: 'Trampas del EUNACOM',
-      title: 'Errores frecuentes en complicaciones de herida quirúrgica',
-      head: ['Situación clínica', 'Conducta médica estándar', 'Error fatal o trampa'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Herida, profilaxis y dehiscencia',
+      head: ['Situación', 'Conducta correcta', 'Error frecuente'],
       rows: [
-        {
-          cells: [
-            'Evisceración aguda con asas en la cama',
-            'Compresas estériles tibias y pabellón urgente',
-            'Intentar reintroducir las asas manualmente en la sala',
-          ],
-          say: 'Reintroducir vísceras en la cama contamina y desgarra el intestino; deben cubrirse con compresas tibias y operar.',
-        },
-        {
-          cells: [
-            'Salida de líquido en agua de carne profuso',
-            'Diagnosticar dehiscencia fascial y programar cirugía',
-            'Creer que es exudado normal y colocar vendaje compresivo',
-          ],
-          say: 'El líquido en agua de carne nunca es normal: traduce rotura completa de la aponeurosis bajo la piel.',
-        },
-        {
-          cells: [
-            'Hernioplastía inguinal limpia con malla sintética',
-            'Cefazolina dos gramos preoperatoria en inducción',
-            'Omitir profilaxis por tratarse de una herida limpia clase uno',
-          ],
-          say: 'El implante de una malla sintética siempre exige profilaxis preoperatoria aunque la herida sea limpia.',
-        },
-        {
-          cells: [
-            'Infección superficial de herida con pus localizado',
-            'Apertura de suturas, drenaje y curaciones abiertas',
-            'Administrar antibióticos orales manteniendo la herida cerrada',
-          ],
-          say: 'Las heridas infectadas se curan abriendo los puntos y lavando, no con antibióticos cerrados.',
-        },
+        { cells: ['Colecistectomía electiva', 'Cefazolina 30 a 60 minutos antes', 'Darla después de cerrar la piel'],
+          say: 'Repasemos las trampas. En una colecistectomía electiva, la cefazolina se da entre treinta y sesenta minutos antes de la incisión. El error es administrarla después de terminar la cirugía.' },
+        { cells: ['Hernioplastía con malla', 'Sí lleva profilaxis, aunque sea limpia', 'Omitirla por ser cirugía limpia'],
+          say: 'En una hernioplastía con malla sí se da profilaxis, aunque la herida sea limpia, porque hay un cuerpo extraño de por medio. El error es omitirla solo por la clasificación.' },
+        { cells: ['Infección superficial de la herida', 'Abrir y drenar', 'Partir con antibióticos sin drenar'],
+          say: 'Frente a una infección superficial de la herida, la conducta es abrir y drenar. Partir con antibióticos sin drenar retrasa la curación.' },
+        { cells: ['Líquido en agua de carne', 'Sospechar dehiscencia de fascia', 'Confundirlo con un seroma banal'],
+          say: 'El líquido en agua de carne te obliga a sospechar una dehiscencia de fascia. El error es confundirlo con un seroma banal y no revisar la herida.' },
+        { cells: ['Evisceración', 'Compresas húmedas + pabellón urgente', 'Reintroducir las asas en la cama'],
+          say: 'Y ante una evisceración: compresas húmedas tibias y pabellón urgente. El error, el más grave de esta clase, es reintroducir las asas en la cama del paciente.' },
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.3.016',
-      stem: 'Un hombre de 70 años, diabético y con EPOC, operado hace 7 días de resección sigmoidea programada, presenta súbita salida abundante de líquido rosado acuoso (en agua de carne) a través de la herida operatoria tras un esfuerzo de tos. Al retirar los apósitos se observa dehiscencia de la piel y aponeurosis con protrusión de asas de intestino delgado hacia el exterior. ¿Cuál es la conducta inmediata más adecuada?',
-      question: '¿Cuál es la conducta médica inmediata?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 68 años, obeso y con tos crónica por EPOC, operado hace 6 días de una laparotomía de urgencia por peritonitis apendicular. Mientras tose con fuerza, siente un dolor agudo en el abdomen. Al revisar la herida, el apósito está empapado de líquido serosanguinolento abundante, y se observan asas de intestino delgado protruyendo a través de la herida, con serosa enrojecida pero viable.',
+      question: '¿Cuál es la conducta inmediata más adecuada?',
       options: [
-        { letter: 'A', text: 'Reintroducir las asas manualmente en la cavidad y cerrar piel con puntos en sala' },
-        { letter: 'B', text: 'Cubrir las asas evisceradas con compresas estériles húmedas tibias y trasladar a pabellón' },
-        { letter: 'C', text: 'Aplicar vendaje compresivo elástico seco sobre el abdomen y observar en sala' },
-        { letter: 'D', text: 'Instalar un sistema de aspiración negativa directamente sobre las asas expuestas' },
-        { letter: 'E', text: 'Administrar heparina de bajo peso molecular y pedir tomografía de urgencia' },
+        { letter: 'A', text: 'Reintroducir las asas manualmente y cerrar la piel con puntos gruesos' },
+        { letter: 'B', text: 'Cubrir las asas con compresas estériles empapadas en suero tibio y trasladar a pabellón' },
+        { letter: 'C', text: 'Aplicar un vendaje compresivo seco y mantener observación ambulatoria' },
+        { letter: 'D', text: 'Instalar un sistema de aspiración negativa directo sobre las asas expuestas' },
+        { letter: 'E', text: 'Indicar heparina de bajo peso molecular y solicitar un escáner de abdomen' },
       ],
       correct: 'B',
-      explanation: 'La evisceración aguda postoperatoria requiere protección inmediata de las vísceras expuestas con compresas estériles empapadas en suero fisiológico tibio para evitar la desecación, el enfriamiento y la necrosis intestinal. Está terminantemente prohibido reintroducir las asas en la sala. El tratamiento definitivo es la reoperación urgente en pabellón.',
+      explanation: 'Es una evisceración aguda, favorecida por la tos crónica y la peritonitis previa. Se cubren las asas con compresas estériles húmedas tibias para evitar su desecación y necrosis, sin intentar reintroducirlas, y se traslada de inmediato a pabellón para el cierre definitivo.',
       say: {
-        stem: 'Revisemos esta pregunta clásica de urgencia quirúrgica. Un paciente operado hace una semana presenta salida de líquido en agua de carne y protrusión de intestino delgado tras un golpe de tos.',
-        question: '¿Cuál es la conducta inmediata correcta?',
-        options: 'Las alternativas proponen: reintroducir las asas en la sala, cubrir con compresas estériles húmedas tibias y trasladar a pabellón, vendaje compresivo elástico, aspiración negativa o tomografía de urgencia. Piénsalo.',
-        answer: 'La respuesta correcta es la B, cubrir con compresas estériles húmedas tibias y trasladar a pabellón. La opción A es un error mortal: jamás intentes meter las asas al abdomen en la cama del paciente. Las vísceras se protegen con compresas empapadas en suero tibio y el paciente se traslada de inmediato a quirófano para reparación formal.',
+        stem: 'Vamos al caso. Hombre de sesenta y ocho años, obeso, con tos crónica por su EPOC, operado hace seis días de una laparotomía de urgencia por una peritonitis apendicular. Mientras tose con fuerza, siente un dolor agudo en el abdomen. Al revisar la herida, el apósito está empapado de un líquido rosado abundante, y se ven asas de intestino delgado saliendo por la herida, con la serosa enrojecida pero viable.',
+        question: '¿Cuál es la conducta inmediata más adecuada?',
+        options: 'Las opciones: reintroducir las asas y cerrar la piel, cubrirlas con compresas tibias y trasladar a pabellón, aplicar un vendaje seco y observar, instalar aspiración directa sobre las asas, o dar anticoagulante y pedir un escáner. Piénsalo.',
+        answer: 'La respuesta es la B. Es una evisceración: la tos crónica subió tanto la presión dentro del abdomen que rompió la fascia ya debilitada por la peritonitis previa. Cubres las asas con compresas húmedas tibias, para que no se sequen ni se necrosen, y trasladas de inmediato a pabellón. Reintroducirlas tú mismo es la trampa más peligrosa de esta pregunta.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.3.016',
-      stem: '¿En cuál de las siguientes situaciones clínicas se encuentra formalmente indicada la administración de profilaxis antibiótica quirúrgica según las normas ministeriales y consensos internacionales?',
-      question: '¿Cuál procedimiento tiene indicación formal de profilaxis?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 11',
+      stem: 'Mujer de 35 años consulta por dolor abdominal epigástrico recurrente. La ecografía abdominal muestra múltiples cálculos en la vesícula biliar, y se decide realizar una colecistectomía laparoscópica electiva.',
+      question: '¿Cuál esquema antibiótico es de elección como profilaxis de infección de la herida operatoria?',
       options: [
-        { letter: 'A', text: 'Biopsia excisional de un nevus dérmico benigno de un centímetro en el tórax' },
-        { letter: 'B', text: 'Hernioplastía inguinal electiva con colocación de malla de polipropileno' },
-        { letter: 'C', text: 'Drenaje ambulatorio de un absceso perianal fluctuante de dos centímetros' },
-        { letter: 'D', text: 'Extirpación de un lipoma subcutáneo superficial de tres centímetros en antebrazo' },
-        { letter: 'E', text: 'Curación de una quemadura superficial tipo A de dos por ciento de superficie' },
+        { letter: 'A', text: 'Amoxicilina con ácido clavulánico' },
+        { letter: 'B', text: 'Ceftriaxona' },
+        { letter: 'C', text: 'Clindamicina' },
+        { letter: 'D', text: 'Cloxacilina' },
+        { letter: 'E', text: 'Cefazolina' },
       ],
-      correct: 'B',
-      explanation: 'Las cirugías limpias (Clase I) habitualmente no requieren profilaxis antibiótica, con una excepción formal: cuando se implanta un cuerpo extraño protésico permanente como una malla de polipropileno en una hernioplastía. La infección de una malla obliga a su retiro quirúrgico, por lo que se indica profilaxis con cefazolina preincisional.',
+      correct: 'E',
+      explanation: 'Toda cirugía limpia contaminada, como la colecistectomía electiva, requiere profilaxis antibiótica dirigida a cubrir cocáceas grampositivas y flora entérica. La cefazolina es el fármaco de elección en la mayoría de las cirugías abdominales, incluida esta.',
       say: {
-        stem: 'Analicemos este ejercicio de indicaciones profilácticas. Se consulta en cuál de los procedimientos señalados está formalmente indicada la profilaxis antibiótica quirúrgica.',
-        question: '¿Cuál es la intervención que exige profilaxis antimicrobiana?',
-        options: 'Las opciones son: biopsia de nevus dérmico, hernioplastía inguinal electiva con malla protésica, drenaje de absceso perianal, extirpación de lipoma de antebrazo o curación de quemadura menor. Piénsalo.',
-        answer: 'La respuesta correcta es la B, hernioplastía inguinal electiva con malla de polipropileno. Aunque la cirugía de hernia es una herida limpia clase uno, la colocación de un cuerpo extraño protésico permanente justifica el uso de cefazolina preoperatoria porque la infección de la malla es una complicación catastrófica.',
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y cinco años consulta por dolor epigástrico recurrente. La ecografía muestra múltiples cálculos en la vesícula, y se decide una colecistectomía laparoscópica electiva.',
+        question: 'La pregunta es cuál esquema antibiótico es de elección como profilaxis de la infección de la herida operatoria.',
+        options: 'Las opciones son: amoxicilina con ácido clavulánico, ceftriaxona, clindamicina, cloxacilina, o cefazolina. Piénsalo.',
+        answer: 'La respuesta es la E, cefazolina. Esta cirugía es limpia contaminada, porque abre la vía biliar de forma programada, y ese es exactamente el grupo donde la profilaxis se indica. La cefazolina cubre bien la flora que importa aquí, y es la primera elección en la gran mayoría de las cirugías abdominales.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos indispensables',
-      title: 'Reglas de oro en complicaciones de la herida quirúrgica',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Prevención y diagnóstico precoz',
-          tag: 'Principios quirúrgicos',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Malla en cirugía limpia exige cefazolina',
-              d: 'Dosis única treinta a sesenta minutos antes de la incisión de la piel',
-              say: 'Toda cirugía limpia que implanta material protésico o mallas sintéticas permanentes requiere profilaxis antibiótica preincisional con cefazolina en la inducción para evitar infecciones catastróficas.',
-            },
-            {
-              t: 'Líquido en agua de carne es dehiscencia de fascia',
-              d: 'Salida abundante serohemática al quinto día exige revisión en pabellón',
-              say: 'Si un paciente empapa apósitos con líquido rosado acuoso descrito como en agua de carne, la aponeurosis profunda se abrió por completo y requiere resutura en pabellón.',
-            },
-          ],
-        },
-        {
-          title: 'Emergencia de evisceración',
-          tag: 'Conducta en sala',
-          kind: 'key',
-          items: [
-            {
-              t: 'Prohibido reintroducir asas en la cama',
-              d: 'La manipulación en la sala perfora vísceras y desata peritonitis mortal',
-              say: 'Jamás intentes reintroducir el intestino en la cama del paciente: la manipulación a ciegas perfora vísceras friables, desgarra el mesenterio y contamina masivamente el peritoneo.',
-            },
-            {
-              t: 'Compresas estériles tibias y traslado a quirófano',
-              d: 'Empapar en solución salina tibia para prevenir desecación y necrosis',
-              say: 'Si te llevas una sola idea de hoy: ante una evisceración aguda con asas expuestas, mantén la calma, cubre de inmediato las vísceras con compresas estériles húmedas tibias para evitar su enfriamiento y desecación, e ingresa al paciente de urgencia a pabellón sin intentar reintroducirlas en la sala. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Profilaxis', tag: 'El momento importa', kind: 'pharma', items: [
+          { t: 'Cefazolina en limpia contaminada', d: 'Treinta a sesenta minutos antes',
+            say: 'Cerremos con las reglas de oro. La cefazolina se da en la cirugía limpia contaminada, entre treinta y sesenta minutos antes de la incisión.' },
+          { t: 'Malla o prótesis', d: 'También lleva profilaxis',
+            say: 'Y aunque la herida sea limpia, si hay malla o prótesis, también lleva profilaxis.' },
+        ] },
+        { title: 'Infección de la herida', tag: 'Drenar primero', kind: 'key', items: [
+          { t: 'Abrir y drenar', d: 'Los antibióticos son un apoyo',
+            say: 'Frente a la herida infectada, el pilar es abrir y drenar; los antibióticos son un apoyo, no el tratamiento principal.' },
+        ] },
+        { title: 'Evisceración', tag: 'No se improvisa', kind: 'alert', items: [
+          { t: 'Compresas húmedas tibias', d: 'Y traslado urgente a pabellón',
+            say: 'Y ante la evisceración: compresas húmedas tibias y traslado urgente a pabellón.' },
+          { t: 'Nunca reintroducir las asas', d: 'En la sala o en la cama',
+            say: 'Si te llevas una sola idea de hoy: nunca reintroduzcas las asas tú mismo, y nunca olvides que el agua de carne anuncia lo que viene. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo de Complicaciones de Herida Operatoria',
-    root: N(
-      'start',
-      'Paciente con complicación en herida quirúrgica abdominal',
-      'Examen directo de la incisión retirando apósitos',
-      'Iniciamos el enfrentamiento evaluando si hay secreción purulenta, líquido acuoso o exteriorización visceral.',
-      [
-        'Evisceración aguda (asas o epiplón visibles)',
-        N(
-          'alert',
-          'Urgencia quirúrgica inmediata de pared',
-          'Prohibido reintroducir vísceras en la sala',
-          'Constatamos la protrusión de asas intestinales a través de la incisión abierta.',
-          [
-            'Conducta de salvataje en la sala',
-            N(
-              'do',
-              'Cubrir con compresas estériles húmedas tibias',
-              'Prevenir desecación e hipotermia visceral',
-              'Se colocan compresas húmedas con suero tibio y se indica régimen cero con analgesia parenteral.',
-              [
-                'Tratamiento definitivo',
-                N(
-                  'refer',
-                  'Traslado urgente a pabellón quirúrgico',
-                  'Laparotomía exploradora, aseo y cierre formal',
-                  'Se traslada de inmediato a quirófano para resutura de pared abdominal bajo anestesia general.'
-                )
-              ]
-            )
-          ]
-        )
-      ],
-      [
-        'Salida profusa de líquido en agua de carne',
-        N(
-          'alert',
-          'Dehiscencia de fascia profunda encubierta',
-          'Líquido serohemático acuoso tras esfuerzo de tos',
-          'Sospechamos rotura aponeurótica bajo piel aparentemente cerrada.',
-          [
-            'Exploración y resolución',
-            N(
-              'refer',
-              'Reoperación programada de urgencia',
-              'Apertura cutánea y resutura aponeurótica firme',
-              'Se programa revisión en pabellón para resuturar la aponeurosis con material irreabsorbible.'
-            )
-          ]
-        )
-      ],
-      [
-        'Infección de herida con eritema y pus (ISQ)',
-        N(
-          'q',
-          '¿Afecta solo tejido celular o fascia profunda?',
-          'ISQ incisional superficial versus profunda',
-          'Evaluamos la profundidad del compromiso inflamatorio de la pared.',
-          [
-            'Incisional superficial',
-            N(
-              'do',
-              'Retiro de puntos de sutura y drenaje',
-              'Curaciones abiertas por segunda intención',
-              'Se abren las suturas comprometidas, se evacua el pus y se realizan curaciones húmedas diarias.'
-            )
-          ]
-        )
-      ]
-    ),
+    title: 'Herida operatoria: de la prevención a la evisceración',
+    root: N('start', 'Cirugía abdominal', '¿Qué tan sucia es la herida?',
+      'Toda cirugía se clasifica antes de operar, porque de eso depende si se da profilaxis antibiótica, y esa misma herida es la que después puede complicarse.',
+      ['', N('q', '¿Cómo se clasifica la herida?', 'Limpia · limpia contaminada · contaminada · sucia',
+        'Cuatro categorías según cuánto se contamina la herida durante la cirugía.',
+        ['Limpia contaminada', N('do', 'Cefazolina preincisional', 'Treinta a sesenta minutos antes',
+          'Abre el tubo digestivo o la vía biliar de forma programada, como una colecistectomía: se da cefazolina entre treinta y sesenta minutos antes de la incisión.')],
+        ['Limpia con malla', N('do', 'Cefazolina igual', 'Por el cuerpo extraño protésico',
+          'Aunque sea limpia, si se instala una malla o una prótesis, también se da profilaxis, porque infectar ese material es una catástrofe.')],
+        ['Ya hay fiebre y herida sospechosa', N('q', '¿Hasta dónde llega el compromiso?', 'Superficial · profunda · de órgano',
+          'Con la infección ya instalada, el manejo depende de la profundidad que alcanza.',
+          ['Superficial', N('ok', 'Retirar puntos y drenar', 'Curación abierta',
+            'Compromete piel y tejido subcutáneo: se abre esa zona, se drena y se cura abierta.')],
+          ['Profunda u órgano', N('alert', 'Desbridar o drenar guiado', 'Antibióticos si hay compromiso extenso',
+            'Compromete fascia o la cavidad manipulada: se desbrida el tejido no viable, o se drena guiado por imágenes, sumando antibióticos si hay celulitis extensa o sepsis.')])],
+        ['Líquido en agua de carne', N('alert', 'Sospecha de dehiscencia de fascia', 'Revisar la herida de inmediato',
+          'Salida de líquido rosado abundante entre el día cinco y ocho: la fascia probablemente ya cedió por debajo, aunque la piel se vea intacta.')],
+        ['Asas visibles en la herida', N('refer', 'Evisceración: pabellón urgente', 'Compresas húmedas tibias, nunca reintroducir',
+          'Se cubren las asas con compresas estériles empapadas en suero tibio, nunca se reintroducen a la fuerza, y se traslada de inmediato a pabellón para el cierre definitivo.')])]),
   },
 };
