@@ -547,3 +547,12 @@ las notas A/B/C que aparezcan acá son las que fueron surgiendo durante esa rees
 | ped-17 | "EUNACOM Julio 2018 · Pregunta 176" da como correcta una respuesta que contradice el propio criterio del libro para colestasis (corte de 20% de bilirrubina directa; el caso de la pregunta lo supera y aun así la respuesta no la clasifica como colestasis). No se usó. |
 | ped-18 | El banco real no tiene ninguna pregunta que sea genuinamente de membrana hialina (EMH) ni de síndrome aspirativo meconial (SAM) como diagnóstico — solo de TTRN. Se usó "Caso representativo" del libro para EMH. |
 | ped-19 | "EUNACOM Julio 2025 · Pregunta 25" (sepsis neonatal) tiene una explicación que se contradice con su propia respuesta y menciona "PIP" sin relación con el enunciado — parece corrupta, no se usó. |
+
+## Obstetricia
+
+Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en pantalla), no de una revisión de contenido médico.
+
+### C · Falta información en el libro / banco
+| Clase | Qué falta |
+|---|---|
+| — (banco, no libro) | "EUNACOM Diciembre 2024 · Pregunta 95" (código 3.01.3.001): el enunciado es de ácido fólico pero la explicación/respuesta correcta es "Interrupción del embarazo" — completamente descalzado. "EUNACOM Diciembre 2024 · Pregunta 17" (glucosuria) y "Pregunta 58" (movimientos fetales) tienen explicaciones con texto de plantilla genérico ("Según los consensos... Perfil V3 ASOFAMECh", una con "****" literal). "EUNACOM Diciembre 2025 · Pregunta 50" (translucencia nucal/hueso nasal) tiene errores de OCR ("Gene" por "tiene", "uGliza" por "utiliza"). Ninguna se usó. |
