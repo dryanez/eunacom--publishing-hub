@@ -61,7 +61,7 @@ module.exports = {
             say: 'Además, macroglosia, hernia umbilical, ictericia que se prolonga, y constipación pertinaz. Acuérdate de este conjunto, porque en el examen suele venir así, junto.' },
         ] },
         { title: 'Confirmación y tratamiento', tag: 'No se espera', kind: 'pharma', items: [
-          { t: 'TSH y T4 libre en sangre venosa', d: 'Ante cualquier tamizaje alterado',
+          { t: 'TSH y T4 libre venosa', d: 'Ante cualquier tamizaje alterado',
             say: 'Si el tamizaje de talón sale alterado, confirmas con TSH y T cuatro libre en sangre venosa.' },
           { t: 'Levotiroxina antes de los 15 días', d: 'Para proteger el coeficiente intelectual',
             say: 'Y parte con levotiroxina antes de los quince días de vida. Cuanto antes la inicies, mejor es el pronóstico intelectual. Esto no se espera ni un día más de lo necesario.' },
@@ -91,7 +91,7 @@ module.exports = {
       title: '¿Cuándo se toma la muestra de talón?',
       nodes: [
         { id: 'nac', col: 0, row: 1, k: 'start', t: 'Recién nacido en maternidad', s: 'Antes del alta' },
-        { id: 'mom', col: 1, row: 1, k: 'mech', t: 'Entre 40 y 48 horas de vida', s: 'Con alimentación láctea ya iniciada' },
+        { id: 'mom', col: 1, row: 1, k: 'mech', t: '40 a 48 horas de vida', s: 'Con alimentación láctea ya iniciada' },
         { id: 'tem', col: 2, row: 0, k: 'trap', t: 'Tomarla al cortar el cordón', s: 'Da falsos resultados' },
         { id: 'lab', col: 2, row: 2, k: 'good', t: 'Papel filtro al laboratorio', s: 'TSH y fenilalanina' },
       ],

@@ -276,7 +276,7 @@ module.exports = {
             say: 'Y un índice acetabular sobre treinta confirma la displasia.' },
         ] },
         { title: 'El tratamiento', tag: 'Cuanto antes, mejor', kind: 'pharma', items: [
-          { t: 'Menor de 6 meses: arnés de Pavlik', d: 'Sin forzar la abducción',
+          { t: 'Bajo 6 meses: arnés de Pavlik', d: 'Sin forzar la abducción',
             say: 'Menor de seis meses, arnés de Pavlik, sin forzar la abducción. Si te llevas una sola idea de hoy: el examen cambia con la edad, y cuanto antes trates, menos cirugía necesita este niño. Con esto cerramos pediatría completa. Nos vemos en la próxima clase.' },
         ] },
       ],

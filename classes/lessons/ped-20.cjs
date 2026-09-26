@@ -196,7 +196,7 @@ module.exports = {
             say: 'Con síntomas, o bajo treinta y cinco: bolo de suero glucosado al diez, y de inmediato la infusión continua.' },
         ] },
         { title: 'Lo que nunca se hace', tag: 'Trampas', kind: 'alert', items: [
-          { t: 'Nunca suero al 20 o 50 %', d: 'En bolo, dispara la insulina',
+          { t: 'Nunca suero al 20% o 50%', d: 'En bolo, dispara la insulina',
             say: 'Nunca uses suero al veinte o al cincuenta en bolo.' },
           { t: 'Nunca calcio sin monitor', d: 'Riesgo de bradicardia grave',
             say: 'Y nunca pases el gluconato de calcio sin monitor cardíaco.' },
