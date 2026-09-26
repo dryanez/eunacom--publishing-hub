@@ -1,5 +1,5 @@
-// Clase 3.9 — guion docente escrito a mano (estándar Módulo 3 · Obstetricia).
-// Fuente clínica: books/scripts/dataset_obstetricia.cjs (ob-09).
+// Clase 19.9 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_obstetricia_bloque_2.cjs (ob-09).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,436 +9,278 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Bacteriuria asintomática, cistitis, pielonefritis aguda parenteral, esquemas antimicrobianos y profilaxis continua hasta el parto',
-      say: 'Bienvenidos a la clase sobre infección del tracto urinario en el embarazo. La infección urinaria es la complicación médica infecciosa más frecuente de la gestación y una causa directa prevenible de prematurez y shock séptico. En esta sesión aprenderemos por qué la bacteriuria asintomática debe tratarse siempre en la gestante, los esquemas antibióticos ambulatorios de primera línea, la indicación de hospitalización obligatoria en pielonefritis aguda y la quimioprofilaxis continua hasta el parto. Comencemos.',
+      subtitle: 'Por qué a la embarazada se le trata todo, y qué la manda al hospital',
+      say: 'Bienvenida. Hoy vemos la infección urinaria en el embarazo: bacteriuria asintomática, cistitis y pielonefritis aguda. Es un tema muy preguntado, y tiene una idea que lo ordena todo: en la embarazada, tú tratas incluso lo que en cualquier otra persona dejarías tranquilo. Vamos a ver por qué, y cómo separar lo que se trata en tu consulta de lo que mandas al hospital.',
     },
 
     {
       type: 'flow',
-      kicker: 'Predisposición anatómica y hormonal',
-      title: 'Modificaciones gravídicas que favorecen la infección ascendente',
+      kicker: 'Fisiopatología',
+      title: '¿Por qué la embarazada se infecta más?',
       nodes: [
-        { id: 'pro', col: 0, row: 1, k: 'start', t: 'Efecto de la progesterona', s: 'Relajación del músculo liso con hipotonía ureteral y vesical' },
-        { id: 'hid', col: 1, row: 1, k: 'mech', t: 'Hidronefrosis fisiológica', s: 'Dilatación pielocalicial y éstasis urinario de predominio derecho' },
-        { id: 'ute', col: 2, row: 0, k: 'risk', t: 'Compresión mecánica uterina', s: 'Dextrorrotación del útero comprime el uréter derecho en el estrecho superior' },
-        { id: 'met', col: 2, row: 2, k: 'risk', t: 'Cambios bioquímicos urinarios', s: 'Glucosuria y aminoaciduria aumentan pH y nutren uropatógenos' },
-        { id: 'asc', col: 4, row: 1, k: 'trap', t: 'Colonización y ascenso bacteriano', s: 'Escherichia coli asciende fácilmente desde la vejiga hacia el parénquima renal' },
+        { id: 'pro', col: 0, row: 0, k: 'cause', t: 'Progesterona relaja el uréter', s: 'El uréter se dilata' },
+        { id: 'ute', col: 0, row: 1, k: 'cause', t: 'Útero grávido comprime', s: 'Dextrorrotado, aprieta el uréter derecho' },
+        { id: 'sta', col: 1, row: 0, k: 'mech', t: 'La orina se estanca', s: 'Sube más lento de lo normal' },
+        { id: 'asc', col: 2, row: 0, k: 'effect', t: 'La bacteria asciende', s: 'Escherichia coli, la más frecuente' },
+        { id: 'ba', col: 3, row: 0, k: 'risk', t: 'Bacteriuria asintomática', s: 'Bacteria en la orina, sin síntomas' },
       ],
       edges: [
-        { from: 'pro', to: 'hid', label: 'hipotonía muscular' },
-        { from: 'ute', to: 'hid', label: 'compresión pélvica' },
-        { from: 'hid', to: 'asc', label: 'éstasis urinario' },
-        { from: 'met', to: 'asc', label: 'medio favorable' },
+        { from: 'pro', to: 'sta' }, { from: 'ute', to: 'sta', label: 'comprime' },
+        { from: 'sta', to: 'asc' }, { from: 'asc', to: 'ba' },
       ],
       steps: [
-        {
-          show: ['pro', 'hid'],
-          note: 'Hipotonía ureteral por progesterona',
-          say: 'Durante el embarazo, los altos niveles de progesterona inducen una profunda relajación del músculo liso ureteral y vesical. Esto provoca hipotonía, dilatación de la pelvis renal y los uréteres, y un marcado éstasis urinario.',
-        },
-        {
-          show: ['ute', 'met'],
-          note: 'Factores mecánicos y metabólicos coadyuvantes',
-          say: 'A esto se suma la compresión mecánica ejercida por el útero grávido en dextrorrotación sobre el uréter derecho en el estrecho pélvico superior, junto con el aumento de la filtración glomerular que incrementa la glucosa y aminoácidos en la orina, alcalinizándola.',
-        },
-        {
-          show: ['asc'],
-          note: 'Facilitación del ascenso bacteriano',
-          say: 'Este ambiente de éstasis y nutrientes permite que bacterias uropatógenas del microbiota fecal, principalmente Escherichia coli, colonicen la uretra, proliferen en la vejiga y asciendan rápidamente hacia el parénquima renal.',
-        },
+        { show: ['pro'], note: 'La progesterona relaja el músculo liso del uréter',
+          say: 'Empecemos por entender por qué a ti, como médico, te va a tocar tratar tanta infección urinaria en el embarazo. La progesterona relaja el músculo liso, y eso incluye al uréter: se dilata.' },
+        { show: ['ute'], note: 'El útero aprieta más el lado derecho',
+          say: 'Y el útero que va creciendo comprime el uréter desde afuera. Como el útero rota hacia la derecha, fíjate que esto explica algo que vas a ver más adelante: la pielonefritis del embarazo es más frecuente del lado derecho.' },
+        { show: ['sta'], note: 'Un uréter dilatado y comprimido drena lento',
+          say: 'Entre la dilatación y la compresión, la orina se estanca, y baja mucho más lento de lo normal.' },
+        { show: ['asc'], note: 'Escherichia coli, la protagonista de siempre',
+          say: 'Y con la orina estancada, la bacteria que sube desde la vagina, casi siempre Escherichia coli, tiene todo el tiempo del mundo para instalarse.' },
+        { show: ['ba'], note: 'Bacteria en la orina, sin ningún síntoma',
+          say: 'Y así llegas a la bacteriuria asintomática: hay bacteria en la orina, pero la paciente no tiene ninguna molestia. Guarda esta idea, porque es la clave de toda la clase.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Regla cardinal EUNACOM',
-      title: 'Bacteriuria Asintomática en la embarazada: diagnóstico y tratamiento',
+      kicker: 'Bacteriuria asintomática',
+      title: 'La regla que cambia todo en el embarazo',
       cards: [
-        {
-          title: 'Definición y pesquisa sistemática',
-          tag: 'Criterio microbiológico',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Urocultivo con cien mil UFC por mililitro',
-              d: 'Aislamiento de germen único en muestra de segundo chorro sin síntomas',
-              say: 'La bacteriuria asintomática se define por el aislamiento de cien mil o más unidades formadoras de colonias por mililitro de un único germen en una paciente sin ningún síntoma urinario ni sistémico.',
-            },
-            {
-              t: 'Tamizaje rutinario universal',
-              d: 'Urocultivo de ingreso en primer trimestre para todas las gestantes',
-              say: 'El tamizaje con urocultivo es mandatorio para todas las embarazadas en su primer control prenatal, debido a que la prevalencia de bacteriuria asintomática oscila entre el cinco y diez por ciento.',
-            },
-          ],
-        },
-        {
-          title: 'Conducta terapéutica obligatoria',
-          tag: 'Prevención de prematurez',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Se trata siempre en la embarazada',
-              d: 'Si no se trata, el 30 a 40% progresa a pielonefritis aguda',
-              say: 'En población general la bacteriuria asintomática no se trata. En la embarazada se trata siempre, porque si se deja evolucionar, hasta un cuarenta por ciento desarrollará pielonefritis aguda y sepsis.',
-            },
-            {
-              t: 'Riesgo de parto prematuro',
-              d: 'La endotoxemia bacteriana gatilla dinámica uterina precoz',
-              say: 'La colonización urinaria no tratada se asocia directamente a rotura prematura de membranas, bajo peso al nacer y síndrome de parto prematuro por activación de mediadores inflamatorios.',
-            },
-            {
-              t: 'Urocultivo de control obligatorio',
-              d: 'Solicitar siete a catorce días tras finalizar los antibióticos',
-              say: 'Una vez finalizado el tratamiento antibiótico, es mandatorio solicitar un urocultivo de control entre los siete y catorce días para confirmar la erradicación bacteriana bacteriológica.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Espectro de gravedad clínica',
-      title: 'Clasificación de la infección urinaria: Cistitis versus Pielonefritis',
-      head: ['Parámetro de comparación', 'Cistitis Aguda (baja)', 'Pielonefritis Aguda (alta)'],
-      rows: [
-        {
-          cells: ['Localización anatómica', 'Vejiga y uretra proximal', 'Parénquima renal y sistema pielocalicial'],
-          say: 'La cistitis se limita a la mucosa vesical, mientras que la pielonefritis compromete el parénquima renal profundo.',
-        },
-        {
-          cells: ['Manifestaciones clínicas', 'Disuria, polaquiuria, tenesmo, dolor suprapúbico', 'Fiebre alta, calofríos intensos, dolor lumbar y vómitos'],
-          say: 'La cistitis cursa únicamente con síntomas irritativos bajos sin fiebre; la pielonefritis debuta con fiebre en agujas, calofríos y dolor en fosa lumbar.',
-        },
-        {
-          cells: ['Examen físico característico', 'Dolor a la palpación hipogástrica', 'Puñopercusión lumbar francamente positiva'],
-          say: 'El signo semiológico cardinal de la pielonefritis es la puñopercusión lumbar marcadamente positiva, con mayor frecuencia en el lado derecho.',
-        },
-        {
-          cells: ['Nivel de atención y manejo', 'Manejo ambulatorio en atención primaria', 'Hospitalización inmediata obligatoria en sala de ARO'],
-          say: 'La cistitis se trata de forma ambulatoria por vía oral; la pielonefritis exige hospitalización inmediata en todas las embarazadas sin excepción.',
-        },
-      ],
-    },
-
-    {
-      type: 'flow',
-      kicker: 'Cadena de complicación sistémica',
-      title: 'Fisiopatología de la Pielonefritis Aguda: del riñón al choque séptico',
-      nodes: [
-        { id: 'bac', col: 0, row: 1, k: 'start', t: 'Invasión pielonefrítica', s: 'Proliferación masiva de bacilos gramnegativos en parénquima renal' },
-        { id: 'end', col: 1, row: 1, k: 'mech', t: 'Liberación de endotoxinas', s: 'Lipopolisacáridos bacterianos ingresan a la circulación sistémica' },
-        { id: 'cit', col: 2, row: 1, k: 'risk', t: 'Tormenta de citoquinas', s: 'Interleucina uno, seis, factor de necrosis tumoral y prostaglandinas' },
-        { id: 'app', col: 3, row: 0, k: 'alert', t: 'Amenaza de parto prematuro', s: 'Las prostaglandinas estimulan receptores de oxitocina y maduran el cérvix' },
-        { id: 'sdr', col: 3, row: 2, k: 'trap', t: 'SDRA materno y shock séptico', s: 'Fuga capilar pulmonar alveolar y colapso cardiovascular refractario' },
-      ],
-      edges: [
-        { from: 'bac', to: 'end', label: 'lisis bacteriana' },
-        { from: 'end', to: 'cit', label: 'respuesta inflamatoria' },
-        { from: 'cit', to: 'app', label: 'prostaglandinas E2 y F2a' },
-        { from: 'cit', to: 'sdr', label: 'daño endotelial difuso' },
-      ],
-      steps: [
-        {
-          show: ['bac', 'end'],
-          note: 'Lisis bacteriana y endotoxemia sistémica',
-          say: 'Al proliferar en el tejido renal, los bacilos gramnegativos liberan grandes cantidades de lipopolisacáridos al torrente sanguíneo, desatando una severa endotoxemia materna.',
-        },
-        {
-          show: ['cit', 'app'],
-          note: 'Inducción de dinámica uterina prematura',
-          say: 'Las endotoxinas activan la síntesis masiva de interleucinas y prostaglandinas E dos y F dos alfa. Estas prostaglandinas desencadenan contracciones miometriales y borramiento cervical, provocando amenaza de parto prematuro.',
-        },
-        {
-          show: ['sdr'],
-          note: 'Riesgo de distress respiratorio y choque séptico',
-          say: 'Las citoquinas dañan también la microvasculatura capilar pulmonar, causando edema alveolar no cardiogénico conocido como síndrome de distrés respiratorio agudo del adulto, junto con riesgo de choque séptico refractario.',
-        },
+        { title: 'Definición', tag: 'Un solo germen', kind: 'criteria', items: [
+          { t: 'Urocultivo con más de cien mil', d: 'Segundo chorro, sin ningún síntoma',
+            say: 'Fíjate en la definición, porque se pregunta tal cual: urocultivo por segundo chorro con más de cien mil unidades formadoras de colonias de un solo germen, en una paciente que no tiene ningún síntoma urinario ni general.' },
+        ] },
+        { title: 'La regla de oro', tag: 'Se trata siempre', kind: 'alert', items: [
+          { t: 'Se trata siempre en la embarazada', d: 'Aunque no tenga ninguna molestia',
+            say: 'Y aquí está la idea central. En cualquier otra persona, la bacteriuria asintomática no se trata: no vale la pena. Pero en la embarazada, tú la tratas siempre, aunque no tenga ninguna molestia.' },
+          { t: 'Sin tratar: treinta a cuarenta por ciento', d: 'Progresa a pielonefritis',
+            say: 'Y la razón es que si no la tratas, de treinta a cuarenta de cada cien va a progresar a una pielonefritis, con riesgo de parto prematuro. Esa diferencia con la mujer no embarazada es justo lo que te van a preguntar.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Tratamiento antimicrobiano',
-      title: 'Terapéutica escalonada para ITU en la gestante',
+      kicker: 'Bacteriuria y cistitis',
+      title: 'Tratamiento ambulatorio',
       cards: [
-        {
-          title: 'Infección urinaria baja (BA y cistitis)',
-          tag: 'Tratamiento oral ambulatorio',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Cefadroxilo oral de primera línea',
-              d: 'Quinientos miligramos cada doce horas por vía oral por siete días',
-              say: 'El cefadroxilo es la cefalosporina oral de primera elección en Chile por su excelente perfil de seguridad en todos los trimestres del embarazo y alta concentración urinaria.',
-            },
-            {
-              t: 'Nitrofurantoína oral',
-              d: 'Cien miligramos cada ocho horas por siete días (evitar en semanas 36 a 40)',
-              say: 'La nitrofurantoína es una alternativa eficaz, pero debe evitarse en las últimas semanas de gestación por el riesgo teórico de hemólisis neonatal en recién nacidos con déficit enzimático.',
-            },
-            {
-              t: 'Fármacos contraindicados en embarazo',
-              d: 'Quinolonas (Ciprofloxacino) y aminoglucósidos proscritos',
-              say: 'Las fluoroquinolonas están contraindicadas por inducir artropatía y daño de cartílagos de crecimiento en el feto. El cotrimoxazol se proscribe en el primer y tercer trimestre.',
-            },
-          ],
-        },
-        {
-          title: 'Pielonefritis aguda parenteral',
-          tag: 'Hospitalización inmediata',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Cefazolina o Ceftriaxona endovenosa',
-              d: 'Cefazolina un gramo cada ocho horas o Ceftriaxona un a dos gramos cada veinticuatro horas',
-              say: 'En cambio, ante una pielonefritis aguda la hospitalización es obligada. Iniciamos tratamiento parenteral inmediato con cefazolina o ceftriaxona endovenosa, manteniéndolo hasta que cumpla cuarenta y ocho horas afebril.',
-            },
-            {
-              t: 'Completar catorce días de terapia total',
-              d: 'Paso a vía oral con Cefadroxilo hasta completar dos semanas continuas',
-              say: 'Tras cumplir cuarenta y ocho horas afebril, se traslapa a vía oral con cefadroxilo para completar un ciclo antibiótico total de catorce días.',
-            },
-          ],
-        },
+        { title: 'Antibiótico de elección', tag: 'Siete días', kind: 'pharma', items: [
+          { t: 'Cefadroxilo cada doce horas', d: 'Por siete días completos',
+            say: 'Tanto la bacteriuria asintomática como la cistitis se tratan igual, ambulatorio, con cefadroxilo oral cada doce horas, por siete días.' },
+          { t: 'Nitrofurantoína, alternativa', d: 'Evítala entre las semanas treinta y seis y cuarenta',
+            say: 'La alternativa es la nitrofurantoína. Pero acuérdate de un detalle que se pregunta: evítala entre las semanas treinta y seis y cuarenta, porque hay un riesgo teórico de anemia hemolítica en el recién nacido.' },
+        ] },
+        { title: 'Cistitis aguda', tag: 'Síntomas bajos, sin fiebre', kind: 'criteria', items: [
+          { t: 'Disuria y polaquiuria', d: 'Sin fiebre ni compromiso general',
+            say: 'La cistitis se ve como en cualquier mujer: disuria, polaquiuria, dolor suprapúbico, pero sin fiebre. La tratas igual, ambulatorio.' },
+        ] },
+        { title: 'Control', tag: 'Siempre se confirma', kind: 'key', items: [
+          { t: 'Urocultivo de control', d: 'A los siete a catorce días de terminado el tratamiento',
+            say: 'Y en los dos casos, tienes que pedir un urocultivo de control, a los siete a catorce días de terminado el tratamiento, para confirmar que la erradicaste.' },
+        ] },
       ],
     },
 
     {
-      type: 'table',
-      kicker: 'Prevención secundaria de recurrencias',
-      title: 'Indicaciones y esquemas de quimioprofilaxis antibiótica nocturna',
-      head: ['Indicación clínica formal', 'Esquema antimicrobiano nocturno', 'Momento de administración', 'Duración del tratamiento'],
-      rows: [
-        {
-          cells: ['Post episodio de pielonefritis aguda', 'Cefadroxilo 500 mg o Nitrofurantoína 100 mg', 'Dosis única oral nocturna al acostarse', 'Continua hasta el momento del parto'],
-          say: 'Toda gestante que supera una pielonefritis aguda debe recibir profilaxis antibiótica nocturna continua hasta el parto para evitar recidivas que pongan en riesgo al feto.',
-        },
-        {
-          cells: ['Dos o más episodios de ITU baja en el embarazo', 'Cefadroxilo 500 mg o Cefalexina 500 mg', 'Dosis única nocturna diaria', 'Continua durante toda la gestación'],
-          say: 'La presencia de dos o más episodios de cistitis o bacteriuria en el mismo embarazo también es indicación formal de profilaxis supresora nocturna.',
-        },
-        {
-          cells: ['Seguimiento con urocultivos mensuales', 'Urocultivo mensual de vigilancia sistemática', 'Durante toda la quimioprofilaxis', 'Hasta el puerperio'],
-          say: 'Las pacientes bajo profilaxis deben controlarse con urocultivos mensuales para pesquisar precozmente la aparición de cepas bacterianas resistentes.',
-        },
+      type: 'flow',
+      kicker: 'Pielonefritis aguda',
+      title: 'Cuando la infección sube al riñón',
+      nodes: [
+        { id: 'fie', col: 0, row: 0, k: 'risk', t: 'Fiebre alta y calofríos', s: 'Sobre treinta y ocho y medio' },
+        { id: 'ppl', col: 0, row: 1, k: 'risk', t: 'Puñopercusión positiva', s: 'Más frecuente a la derecha' },
+        { id: 'hos', col: 1, row: 1, k: 'alert', t: 'Hospitalización obligatoria', s: 'A toda embarazada, sin excepción' },
+        { id: 'ev', col: 2, row: 1, k: 'good', t: 'Ceftriaxona o cefazolina endovenosa', s: 'Hasta cuarenta y ocho horas afebril' },
+        { id: 'or', col: 3, row: 1, k: 'good', t: 'Luego cefadroxilo oral', s: 'Hasta completar catorce días' },
+        { id: 'ries', col: 1, row: 3, k: 'trap', t: 'Sepsis y SDRA', s: 'Y parto prematuro' },
+      ],
+      edges: [
+        { from: 'fie', to: 'hos' }, { from: 'ppl', to: 'hos' },
+        { from: 'hos', to: 'ev' }, { from: 'ev', to: 'or' },
+        { from: 'hos', to: 'ries', label: 'si no se trata a tiempo' },
+      ],
+      steps: [
+        { show: ['fie'], note: 'Fiebre alta, no un febrículo',
+          say: 'Ahora subamos un piso: la pielonefritis aguda. La clínica cambia por completo. Aquí sí hay fiebre alta, con calofríos intensos.' },
+        { show: ['ppl'], note: 'Puñopercusión: el signo que confirma el riñón',
+          say: 'Y se suma el dolor lumbar, con puñopercusión positiva, más frecuente a la derecha, justo por lo que vimos al principio: el útero rotado comprime más ese lado.' },
+        { show: ['hos'], note: 'No hay pielonefritis ambulatoria en el embarazo',
+          say: 'Y aquí no hay ninguna duda: toda embarazada con pielonefritis se hospitaliza. No existe la pielonefritis ambulatoria en el embarazo.' },
+        { show: ['ev'], note: 'Endovenoso hasta que esté bien, no un número fijo de días',
+          say: 'El tratamiento parte endovenoso, con ceftriaxona o cefazolina, y lo mantienes hasta que la paciente lleve cuarenta y ocho horas sin fiebre.' },
+        { show: ['or'], note: 'Después pasa a la casa con antibiótico oral',
+          say: 'Recién ahí pasas a cefadroxilo oral, hasta completar catorce días en total.' },
+        { show: ['ries'], note: 'Por eso no se puede tratar en la casa',
+          say: 'Y esto no es solo protocolo: si no la hospitalizas, el riesgo es sepsis, una falla respiratoria grave, y desencadenar un parto prematuro. Por eso la hospitalización no se discute.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Después del episodio',
+      title: 'Quién queda con profilaxis',
+      cards: [
+        { title: 'Profilaxis nocturna', tag: 'Hasta el parto', kind: 'pharma', items: [
+          { t: 'Post pielonefritis', d: 'O dos o más episodios de infección urinaria',
+            say: 'Y hay un paso final que se te puede olvidar. Toda paciente que tuvo una pielonefritis, o que acumula dos o más episodios de infección urinaria en el embarazo, queda con profilaxis.' },
+          { t: 'Cefadroxilo o nitrofurantoína', d: 'Una dosis nocturna hasta el parto',
+            say: 'Se deja una dosis nocturna de cefadroxilo o nitrofurantoína, todas las noches, hasta que nazca. Así evitas que se repita.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de decisión clínica',
-      title: 'Algoritmo de Manejo de la Infección Urinaria en el Embarazo',
-      say: 'Revisemos el algoritmo estructurado para el abordaje de la bacteriuria asintomática, cistitis y pielonefritis en la gestante.',
+      intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },
 
     {
       type: 'table',
-      kicker: 'Trampas frecuentes EUNACOM',
-      title: 'Distracciones y errores comunes en preguntas de infección urinaria',
-      head: ['Situación presentada en la pregunta', 'Error habitual del postulante', 'Conducta médica correcta'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Bacteriuria, cistitis y pielonefritis, lado a lado',
+      head: ['Cuadro', 'Clínica', 'Conducta'],
       rows: [
-        {
-          cells: ['Bacteriuria asintomática con 100.000 UFC en embarazada sana', 'No tratar porque la paciente no presenta molestias urinarias', 'Tratar de inmediato con Cefadroxilo oral por 7 días y urocultivo de control'],
-          say: 'En el adulto no gestante no se trata la bacteriuria asintomática. En la embarazada es un error gravísimo no tratarla, pues evolucionará a pielonefritis y parto prematuro.',
-        },
-        {
-          cells: ['Embarazada con disuria tratada con Ciprofloxacino oral', 'Aceptar el tratamiento asumiendo adecuada cobertura gramnegativa', 'Suspender Ciprofloxacino por contraindicación fetal y sustituir por Cefalosporina'],
-          say: 'El ciprofloxacino está absolutamente contraindicado en el embarazo por provocar toxicidad sobre el cartílago articular fetal en desarrollo.',
-        },
-        {
-          cells: ['Pielonefritis aguda en embarazada de 24 semanas sin shock', 'Indicar antibióticos orales ambulatorios con reposo domiciliario', 'Hospitalización inmediata obligatoria e inicio de antibióticos endovenosos'],
-          say: 'La pielonefritis aguda en una embarazada nunca se trata de forma ambulatoria. Requiere hospitalización obligatoria para vigilar sepsis y dinámica uterina.',
-        },
-        {
-          cells: ['Alta médica tras pielonefritis aguda resuelta a las 26 semanas', 'Dar de alta con control habitual sin fármacos de mantenimiento', 'Prescribir quimioprofilaxis antibiótica nocturna continua hasta el parto'],
-          say: 'Dar el alta sin profilaxis nocturna tras una pielonefritis es una falla habitual. La paciente debe mantener profilaxis hasta el alumbramiento.',
-        },
+        { cells: ['Bacteriuria asintomática', 'Sin síntomas, más de cien mil UFC', 'Cefadroxilo siete días, siempre'],
+          say: 'Repasemos en la tabla. Bacteriuria asintomática: sin síntomas, urocultivo con más de cien mil colonias. Se trata siempre con cefadroxilo por siete días.' },
+        { cells: ['Cistitis aguda', 'Disuria, sin fiebre', 'Igual, ambulatorio'],
+          say: 'Cistitis aguda: disuria, sin fiebre. El manejo es igual, ambulatorio.' },
+        { cells: ['Pielonefritis aguda', 'Fiebre y puñopercusión positiva', 'Hospitalizar, antibiótico endovenoso'],
+          say: 'Pielonefritis aguda: fiebre alta y puñopercusión positiva. Aquí se hospitaliza siempre, y el antibiótico parte endovenoso.' },
+        { cells: ['Menos de cien mil UFC, sin síntomas', 'No es bacteriuria asintomática', 'No tratar, repetir el urocultivo'],
+          say: 'Y la trampa más común: si el urocultivo tiene menos de cien mil colonias y la paciente no tiene síntomas, no es bacteriuria asintomática. No tratas; repites el urocultivo más adelante.' },
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Caso de razonamiento clínico',
-      title: 'Pesquisa y conducta ante Bacteriuria Asintomática en el primer trimestre',
-      stem: 'Una mujer de 24 años, primigesta cursando un embarazo de 11 semanas, acude a revisión de exámenes del primer control prenatal. Se encuentra asintomática, sin disuria, polaquiuria ni dolor lumbar. En el sedimento de orina se observan leucocitos de 15 a 20 por campo, y el urocultivo tomado por segundo chorro informa desarrollo de Escherichia coli con recuento mayor a 100.000 unidades formadoras de colonias por mililitro, sensible a cefalosporinas.',
-      question: '¿Cuál es la conducta médica más adecuada?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Embarazada de 18 semanas, sin ninguna molestia urinaria, trae el urocultivo de rutina de su control prenatal: 120.000 UFC por mililitro de Escherichia coli, sensible a cefadroxilo y nitrofurantoína.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Observar evolución sin antibióticos por tratarse de un hallazgo asintomático' },
-        { letter: 'B', text: 'Indicar aumento de ingesta de líquidos y repetir urocultivo en el segundo trimestre' },
-        { letter: 'C', text: 'Indicar tratamiento con Cefadroxilo 500 mg cada 12 horas por 7 días y solicitar urocultivo de control' },
-        { letter: 'D', text: 'Hospitalizar de inmediato para tratamiento con Ceftriaxona endovenosa' },
-        { letter: 'E', text: 'Prescribir Ciprofloxacino 500 mg cada 12 horas por 3 días' },
-      ],
-      correct: 'C',
-      explanation: 'La paciente presenta una Bacteriuria Asintomática (urocultivo mayor o igual a 100.000 UFC/mL sin síntomas). En la embarazada es mandatorio el tratamiento antimicrobiano para prevenir su progresión a pielonefritis aguda (30-40% de riesgo) y parto prematuro. El tratamiento de primera línea es Cefadroxilo oral por 7 días, seguido de urocultivo de control a los 7-14 días.',
-      say: {
-        stem: 'Una primigesta de once semanas presenta urocultivo de control prenatal con Escherichia coli mayor a cien mil unidades formadoras de colonias por mililitro, completamente asintomática.',
-        question: '¿Cuál es la conducta médica más adecuada?',
-        options: 'La opción A propone observar sin antibióticos. La B aumentar líquidos y repetir en el segundo trimestre. La C indicar cefadroxilo oral por siete días y urocultivo de control. La D hospitalizar para ceftriaxona endovenosa. La E ciprofloxacino oral. Piénsalo.',
-        answer: 'La respuesta correcta es la C. Toda bacteriuria asintomática en la embarazada debe tratarse con antibióticos por vía oral durante siete días para evitar pielonefritis, requiriendo urocultivo de control posterior.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'EUNACOM Julio 2025',
-      title: 'EUNACOM Julio 2025 · Pregunta 34',
-      stem: 'Embarazada de 20 semanas con urocultivo positivo para Escherichia coli multisensible. Sin antecedentes de alergias a medicamentos ni patologías asociadas. ¿Cuál es el antibiótico de elección para el tratamiento de la infección urinaria en este contexto clínico?',
-      question: '¿Cuál es el antibiótico de elección?',
-      options: [
-        { letter: 'A', text: 'Cefalexina o Cefadroxilo oral por 7 días' },
-        { letter: 'B', text: 'Amoxicilina oral por 3 días' },
-        { letter: 'C', text: 'Cotrimoxazol oral por 7 días' },
-        { letter: 'D', text: 'Ciprofloxacino oral por 5 días' },
-        { letter: 'E', text: 'Gentamicina intramuscular por 7 días' },
-      ],
-      correct: 'A',
-      explanation: 'Las cefalosporinas de primera generación orales (Cefadroxilo o Cefalexina) administradas durante 7 días constituyen el tratamiento antimicrobiano de primera línea de elección para la infección urinaria en el embarazo en Chile. Presentan un excelente perfil de seguridad materno-fetal en todos los trimestres. Las quinolonas como Ciprofloxacino están contraindicadas por artropatía fetal, y Cotrimoxazol se proscribe en el primer y tercer trimestre.',
-      say: {
-        stem: 'Una paciente de veinte semanas de gestación presenta urocultivo positivo para Escherichia coli sensible, sin antecedentes de alergias.',
-        question: '¿Cuál es el antibiótico de elección para el tratamiento de la infección urinaria?',
-        options: 'La opción A propone cefalexina o cefadroxilo oral por siete días. La B amoxicilina por tres días. La C cotrimoxazol oral. La D ciprofloxacino oral. La E gentamicina intramuscular. Piénsalo.',
-        answer: 'La respuesta correcta es la A. Las cefalosporinas de primera generación orales por siete días son el tratamiento de primera línea de elección en el embarazo en Chile por su máxima seguridad fetal.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Caso de razonamiento clínico',
-      title: 'Manejo inicial y hospitalización en Pielonefritis Aguda gravídica',
-      stem: 'Una mujer de 22 años, cursando un embarazo de 26 semanas, consulta en el servicio de urgencia por cuadro de 24 horas de fiebre hasta 39°C asociada a calofríos intensos, náuseas, vómitos y dolor lumbar derecho. Al examen físico destaca temperatura de 38.8°C, frecuencia cardíaca de 105 latidos por minuto, presión arterial de 100/65 mmHg y puñopercusión lumbar derecha francamente positiva. Se constata útero blando sin dinámica.',
-      question: '¿Cuál es la conducta médica inmediata más adecuada?',
-      options: [
-        { letter: 'A', text: 'Indicar hidratación oral y ciprofloxacino ambulatorio con control en 48 horas' },
-        { letter: 'B', text: 'Hospitalización inmediata, toma de urocultivo e inicio de Cefazolina o Ceftriaxona endovenosa' },
-        { letter: 'C', text: 'Administrar paracetamol endovenoso y dar de alta con nitrofurantoína oral' },
-        { letter: 'D', text: 'Realizar cesárea de emergencia inmediata por riesgo inminente de sepsis' },
-        { letter: 'E', text: 'Indicar reposo en cama y analgésicos antiespasmódicos orales' },
+        { letter: 'A', text: 'No tratar, porque está asintomática' },
+        { letter: 'B', text: 'Indicar cefadroxilo oral por 7 días y urocultivo de control a las 1–2 semanas' },
+        { letter: 'C', text: 'Hospitalizar para tratamiento endovenoso' },
+        { letter: 'D', text: 'Indicar solo aumentar la ingesta de agua y controlar en un mes' },
+        { letter: 'E', text: 'Repetir el urocultivo en 4 semanas, sin tratar por ahora' },
       ],
       correct: 'B',
-      explanation: 'La paciente presenta una Pielonefritis Aguda del Embarazo (síndrome febril alto, compromiso del estado general y dolor lumbar con puñopercusión positiva). Toda pielonefritis en el embarazo es de manejo intrahospitalario estricto debido al alto riesgo de sepsis materna, choque séptico, distrés respiratorio (SDRA) y amenaza de parto prematuro. Se hospitaliza de inmediato, se toman urocultivo y hemocultivos y se inicia antibioticoterapia parenteral con Cefazolina o Ceftriaxona EV.',
+      explanation: 'Más de cien mil colonias de un solo germen, sin síntomas: bacteriuria asintomática. En el embarazo se trata siempre, con cefadroxilo oral por 7 días, y se confirma la erradicación con un urocultivo de control a los 7–14 días.',
       say: {
-        stem: 'Una paciente de veintiséis semanas consulta en urgencias por fiebre de treinta y nueve grados, calofríos, náuseas y puñopercusión lumbar derecha intensamente positiva.',
-        question: '¿Cuál es la conducta médica inmediata más adecuada?',
-        options: 'La opción A propone ciprofloxacino oral ambulatorio. La B hospitalización inmediata, urocultivo e inicio de cefazolina o ceftriaxona endovenosa. La C paracetamol y alta con nitrofurantoína. La D cesárea de emergencia. La E reposo y antiespasmódicos. Piénsalo.',
-        answer: 'La respuesta correcta es la B. La pielonefritis aguda en el embarazo exige hospitalización obligatoria inmediata para inicio de antibióticos parenterales y monitorización estricta de complicaciones sistémicas.',
+        stem: 'Vamos con un caso. Embarazada de dieciocho semanas, sin ninguna molestia urinaria, trae su urocultivo de control prenatal: ciento veinte mil colonias de Escherichia coli, sensible a cefadroxilo y nitrofurantoína.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Tus opciones: no tratar porque está asintomática, indicar cefadroxilo por siete días con control posterior, hospitalizar para tratamiento endovenoso, solo indicar tomar más agua, o repetir el urocultivo en un mes sin tratar. Piénsalo.',
+        answer: 'Es la B. Tiene más de cien mil colonias, sin ningún síntoma: es bacteriuria asintomática. Y aquí no vale el reflejo de "está asintomática, no se trata", que sí aplicaría en cualquier otra paciente. En el embarazo la tratas siempre, con cefadroxilo por siete días, y confirmas con un urocultivo de control. La hospitalización es para la pielonefritis, no para esto.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2019 · Pregunta 147',
+      stem: 'Mujer de 23 años, cursando un embarazo de 20 semanas, sin complicaciones, se realiza un urocultivo, que resulta positivo para Escherichia coli multisensible, 60.000 UFC por mililitro.',
+      question: '¿Cuál es la conducta más adecuada?',
+      options: [
+        { letter: 'A', text: 'Repetir el urocultivo en 2 semanas' },
+        { letter: 'B', text: 'Iniciar cefradina vía oral' },
+        { letter: 'C', text: 'Iniciar ciprofloxacino vía oral' },
+        { letter: 'D', text: 'Solicitar ecografía' },
+        { letter: 'E', text: 'Iniciar ceftriaxona endovenosa' },
+      ],
+      correct: 'A',
+      explanation: 'El corte para bacteriuria asintomática es cien mil colonias por mililitro; con sesenta mil, el urocultivo no la confirma. La conducta es repetirlo, no tratar todavía.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de veintitrés años, con un embarazo de veinte semanas sin complicaciones, se hace un urocultivo que resulta positivo para Escherichia coli multisensible, con sesenta mil colonias por mililitro.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones: repetir el urocultivo en dos semanas, iniciar cefradina oral, iniciar ciprofloxacino oral, pedir una ecografía, o iniciar ceftriaxona endovenosa. Piénsalo.',
+        answer: 'Es la A. Este caso está armado para que confundas el número. El corte para diagnosticar bacteriuria asintomática es cien mil colonias, y aquí solo hay sesenta mil: no cumple el criterio. Por eso no inicias ningún antibiótico todavía; repites el urocultivo. Y la ceftriaxona endovenosa sería para una pielonefritis, que ni siquiera está en el enunciado.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2016 · Pregunta 137',
+      stem: 'Paciente de 23 años, cursando un embarazo de 7 semanas, presenta un cuadro de disuria y polaquiuria, por lo que se realiza un urocultivo, que resulta positivo para Escherichia coli sensible, con más de 100.000 UFC.',
+      question: '¿Cuál es el tratamiento más adecuado?',
+      options: [
+        { letter: 'A', text: 'Cotrimoxazol' },
+        { letter: 'B', text: 'Flucloxacilina' },
+        { letter: 'C', text: 'Nitrofurantoína' },
+        { letter: 'D', text: 'Levofloxacino' },
+        { letter: 'E', text: 'Ciprofloxacino' },
+      ],
+      correct: 'C',
+      explanation: 'Cistitis en el primer trimestre: la nitrofurantoína es segura y de elección aquí; se evita solo entre las semanas 36 y 40. El cotrimoxazol se evita cerca del término, y las fluoroquinolonas están contraindicadas en todo el embarazo.',
+      say: {
+        stem: 'Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de veintitrés años, con un embarazo de siete semanas, con disuria y polaquiuria. El urocultivo resulta positivo para Escherichia coli sensible, con más de cien mil colonias.',
+        question: '¿Cuál es el tratamiento más adecuado?',
+        options: 'Las opciones: cotrimoxazol, flucloxacilina, nitrofurantoína, levofloxacino, o ciprofloxacino. Piénsalo.',
+        answer: 'Es la C, nitrofurantoína. Fíjate en la semana: son siete, muy lejos de la ventana que hay que evitar, que es entre las treinta y seis y las cuarenta. Las fluoroquinolonas, ciprofloxacino y levofloxacino, están contraindicadas en todo el embarazo, y el cotrimoxazol se evita cerca del parto por el riesgo de kernicterus en el recién nacido.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 8',
+      stem: 'Paciente de 28 años, cursando un embarazo de 18 semanas, consulta por fiebre, malestar general, náuseas, disuria dolorosa y dolor lumbar derecho. Tiene fiebre de 38,9 grados, frecuencia cardíaca de noventa y cinco por minuto, y puñopercusión positiva a derecha. El sedimento de orina muestra abundantes bacterias y leucocitos, con el urocultivo pendiente. Las pruebas de bienestar fetal son normales.',
+      question: '¿Qué tratamiento antibiótico es el más adecuado?',
+      options: [
+        { letter: 'A', text: 'Ciprofloxacino' },
+        { letter: 'B', text: 'Nitrofurantoína' },
+        { letter: 'C', text: 'Amoxicilina más ácido clavulánico' },
+        { letter: 'D', text: 'Ceftriaxona' },
+        { letter: 'E', text: 'Ampicilina' },
+      ],
+      correct: 'D',
+      explanation: 'Fiebre alta con puñopercusión positiva en el embarazo es pielonefritis aguda: se hospitaliza y se trata con cefalosporina endovenosa, ceftriaxona o cefazolina. La nitrofurantoína solo sirve para infección urinaria baja, y el ciprofloxacino está contraindicado.',
+      say: {
+        stem: 'Y una más, del EUNACOM de julio de dos mil veinticuatro. Paciente de veintiocho años, con un embarazo de dieciocho semanas, con fiebre de treinta y ocho coma nueve, malestar general, náuseas, disuria y dolor lumbar derecho. La frecuencia cardíaca es de noventa y cinco, la puñopercusión derecha es positiva, y el sedimento de orina muestra abundantes bacterias y leucocitos. El bienestar fetal está normal.',
+        question: '¿Qué tratamiento antibiótico es el más adecuado?',
+        options: 'Las opciones: ciprofloxacino, nitrofurantoína, amoxicilina con ácido clavulánico, ceftriaxona, o ampicilina. Piénsalo.',
+        answer: 'Es la D, ceftriaxona. Fiebre alta más puñopercusión positiva es pielonefritis, y eso significa hospitalizar con antibiótico endovenoso, no oral. La nitrofurantoína está descartada porque no cubre bien la vía urinaria alta. Y el ciprofloxacino, otra vez, está contraindicado en el embarazo.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Reglas de oro',
-      title: 'Conceptos clave en infección urinaria y embarazo para el EUNACOM',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Tamizaje y tratamiento oral',
-          tag: 'Manejo ambulatorio',
-          kind: 'key',
-          items: [
-            {
-              t: 'La bacteriuria asintomática se trata siempre',
-              d: 'Cefadroxilo oral por 7 días más urocultivo de control posterior',
-              say: 'La bacteriuria asintomática en el embarazo se trata siempre para prevenir pielonefritis y parto prematuro.',
-            },
-            {
-              t: 'Cefalosporinas de primera línea',
-              d: 'Cefadroxilo y Cefalexina seguros; quinolonas prohibidas',
-              say: 'El cefadroxilo oral por siete días es la primera línea; las quinolonas están estrictamente prohibidas por daño del cartílago fetal.',
-            },
-          ],
-        },
-        {
-          title: 'Pielonefritis y profilaxis',
-          tag: 'Manejo intrahospitalario',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Hospitalización inmediata en pielonefritis',
-              d: 'Cefazolina o Ceftriaxona EV hasta 48 horas afebril',
-              say: 'La pielonefritis aguda gestacional requiere hospitalización inmediata obligatoria con antibioticoterapia endovenosa.',
-            },
-            {
-              t: 'Profilaxis nocturna continua hasta el parto',
-              d: 'Mandatoria post pielonefritis o tras dos episodios de ITU baja',
-              say: 'Si te llevas una sola idea de hoy: toda gestante que supera una pielonefritis debe recibir quimioprofilaxis antibiótica nocturna continua hasta el momento del parto. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Diagnóstico', tag: 'El número que manda', kind: 'key', items: [
+          { t: 'Más de cien mil UFC, sin síntomas', d: 'Bacteriuria asintomática: se trata siempre',
+            say: 'Cerremos con las reglas de oro. Más de cien mil colonias, sin síntomas, en la embarazada, se trata siempre. Ese "siempre" es lo que la diferencia de cualquier otra paciente.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Ambulatorio vs hospital', kind: 'pharma', items: [
+          { t: 'Bacteriuria y cistitis: cefadroxilo', d: 'Ambulatorio, por siete días',
+            say: 'La bacteriuria y la cistitis se tratan igual, ambulatorio, con cefadroxilo por siete días.' },
+          { t: 'Pielonefritis: hospitalizar', d: 'Antibiótico endovenoso hasta las cuarenta y ocho horas afebril',
+            say: 'La pielonefritis se hospitaliza siempre, con antibiótico endovenoso hasta que lleve cuarenta y ocho horas sin fiebre, y luego completa catorce días con antibiótico oral.' },
+        ] },
+        { title: 'Después', tag: 'Profilaxis', kind: 'alert', items: [
+          { t: 'Post pielonefritis o dos episodios', d: 'Profilaxis nocturna hasta el parto',
+            say: 'Y toda paciente que tuvo pielonefritis, o dos o más infecciones urinarias, queda con profilaxis nocturna hasta el parto. Si te llevas una sola idea de hoy: en el embarazo, tratas incluso lo que no da síntomas. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Abordaje de la Infección Urinaria en el Embarazo',
-    root: N(
-      'start',
-      'Tamizaje o Sospecha de Infección Urinaria en Gestante',
-      'Urocultivo de rutina en primer trimestre o paciente con sintomatología urinaria o sistémica',
-      'Iniciamos el abordaje evaluando la presencia de síntomas sistémicos y el resultado del urocultivo.',
-      [
-        'Urocultivo mayor o igual a 100.000 UFC/mL sin síntomas',
-        N(
-          'alert',
-          'Bacteriuria Asintomática',
-          'Tratamiento ambulatorio obligatorio para evitar progresión a pielonefritis',
-          'Si confirma bacteriuria asintomática, indicamos tratamiento oral obligatorio durante siete días.',
-          [
-            'Tratamiento de primera línea',
-            N(
-              'do',
-              'Cefadroxilo 500 mg c/12h por 7 días vía oral',
-              'Alternativa: Nitrofurantoína 100 mg c/8h por 7 días (evitar en semanas 36 a 40)',
-              'Indicamos cefadroxilo oral durante siete días y programamos urocultivo de control posterior.',
-              [
-                'Control post tratamiento',
-                N(
-                  'ok',
-                  'Urocultivo de control a los 7 a 14 días',
-                  'Confirmar erradicación bacteriológica completa · seguimiento con urocultivos mensuales',
-                  'Solicitamos urocultivo de control a los siete a catorce días de terminado el esquema.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-      [
-        'Síntomas miccionales bajos sin fiebre ni dolor lumbar',
-        N(
-          'do',
-          'Cistitis Aguda',
-          'Disuria, polaquiuria y tenesmo · Cefadroxilo oral 500 mg c/12h por 7 días',
-          'Ante síntomas bajos tratamos como cistitis aguda con cefadroxilo oral durante siete días.',
-        ),
-      ],
-      [
-        'Fiebre alta, calofríos y puñopercusión lumbar positiva',
-        N(
-          'alert',
-          'Pielonefritis Aguda',
-          'Hospitalización inmediata obligatoria en sala de Alto Riesgo Obstétrico (ARO)',
-          'Ante sospecha de pielonefritis hospitalizamos de inmediato para manejo parenteral y vigilancia de sepsis.',
-          [
-            'Terapia parenteral de urgencia',
-            N(
-              'do',
-              'Cefazolina 1 g c/8h EV o Ceftriaxona 1 a 2 g/día EV',
-              'Mantener endovenoso hasta 48 horas afebril · completar 14 días totales con Cefadroxilo oral',
-              'Iniciamos cefazolina o ceftriaxona endovenosa hasta cumplir cuarenta y ocho horas afebril y completamos catorce días.',
-              [
-                'Prevención secundaria obligatoria',
-                N(
-                  'ok',
-                  'Quimioprofilaxis antibiótica nocturna hasta el parto',
-                  'Cefadroxilo 500 mg/noche o Nitrofurantoína 100 mg/noche hasta el parto',
-                  'Al egreso indicamos quimioprofilaxis nocturna continua hasta el parto para prevenir recidivas.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Infección urinaria en el embarazo: qué se trata y dónde',
+    root: N('start', 'Urocultivo positivo o síntomas urinarios', 'Embarazada en control prenatal',
+      'Toda embarazada con urocultivo alterado o síntomas urinarios entra aquí. La pregunta clave no es si tratar: en el embarazo casi siempre tratas. La pregunta es dónde.',
+      ['', N('q', '¿Fiebre y puñopercusión positiva?', 'Eso separa lo alto de lo bajo',
+        'Pregúntate una sola cosa: ¿hay fiebre alta y puñopercusión positiva?',
+        ['NO, sin síntomas', N('q', '¿Más de cien mil UFC?', 'Define la bacteriuria asintomática',
+          '¿El urocultivo tiene más de cien mil colonias de un solo germen?',
+          ['SÍ', N('ok', 'Bacteriuria asintomática', 'Cefadroxilo 7 días + control',
+            'Se trata siempre, con cefadroxilo por siete días, y urocultivo de control a los siete a catorce días.')],
+          ['NO', N('do', 'No tratar todavía', 'Repetir el urocultivo',
+            'No cumple el corte diagnóstico: repites el urocultivo, sin iniciar antibiótico.')])],
+        ['NO, con disuria', N('ok', 'Cistitis aguda', 'Cefadroxilo 7 días, ambulatorio',
+          'Síntomas bajos, sin fiebre: se trata igual, ambulatorio, con cefadroxilo por siete días.')],
+        ['SÍ', N('alert', 'Pielonefritis aguda', 'Hospitalizar + antibiótico endovenoso',
+          'Fiebre alta y puñopercusión positiva: hospitalización obligatoria, con ceftriaxona o cefazolina endovenosa hasta cuarenta y ocho horas afebril, y luego cefadroxilo oral hasta completar catorce días. Si tuvo pielonefritis o dos o más episodios, queda con profilaxis nocturna hasta el parto.')])]),
   },
 };
