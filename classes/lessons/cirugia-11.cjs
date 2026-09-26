@@ -1,5 +1,5 @@
-// Clase 11.11 — guion docente escrito a mano (estándar Módulo 2 · Cirugía).
-// Fuente clínica: books/scripts/dataset_cirugia.cjs (cir-11).
+// Clase 11.11 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_cirugia.cjs / dataset_cirugia_bloque_3.cjs (cir-11, classId cirugia-11).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,676 +9,253 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Trauma cerrado vs penetrante, protocolo Eco-FAST de 4 ventanas, criterios de laparotomía y manejo no operatorio',
-      say: 'Bienvenidos a la clase de trauma abdominal. En el paciente politraumatizado el abdomen suele ser la principal fuente oculta de shock hemorrágico y muerte prevenible. Durante esta clase aprenderemos a jerarquizar los órganos lesionados según el mecanismo del impacto, a interpretar el protocolo Eco-FAST en la camilla de reanimación, a aplicar el algoritmo que define quién va directo a laparotomía y quién puede recibir manejo no operatorio, y a prevenir la temida sepsis post-esplenectomía. Comencemos.',
+      subtitle: 'Cerrado o penetrante, estable o inestable: dos preguntas que deciden todo',
+      say: 'Seguimos en trauma, ahora con el abdomen. Es una cavidad que se puede llenar de litros de sangre sin que se note por fuera, y por eso el examen te obliga a razonar en dos pasos: primero, si el paciente está estable o no; y segundo, qué tan probable es que algo se haya roto ahí adentro. Vamos a ese razonamiento.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Mecanismo',
+      title: 'Qué órgano se rompe según cómo llegó el golpe',
+      cards: [
+        { title: 'Trauma cerrado', tag: 'Compresión o desaceleración', kind: 'key', items: [
+          { t: 'Bazo, primero', d: 'Después el hígado, y el intestino delgado',
+            say: 'Empecemos por el mecanismo. En el trauma cerrado, por un golpe directo o una desaceleración brusca, el órgano que más se rompe es el bazo, seguido de cerca por el hígado.' },
+          { t: 'Signo de Kehr', d: 'Dolor en el hombro izquierdo por sangre bajo el diafragma',
+            say: 'Y un signo clásico de la rotura esplénica es el signo de Kehr: dolor referido al hombro izquierdo, porque la sangre bajo el diafragma irrita el nervio frénico.' },
+        ] },
+        { title: 'Trauma penetrante', tag: 'Arma blanca o de fuego', kind: 'alert', items: [
+          { t: 'Arma blanca: hígado primero', d: 'El trayecto es una línea recta',
+            say: 'En el trauma penetrante, la cosa cambia. Con arma blanca, el trayecto es una línea recta, y el órgano más lesionado es el hígado, seguido del intestino delgado.' },
+          { t: 'Arma de fuego: intestino primero', d: 'La cavitación daña estructuras lejos del trayecto',
+            say: 'Con arma de fuego, en cambio, el proyectil genera una cavitación que daña tejido incluso lejos de su trayecto, y ahí el órgano más lesionado pasa a ser el intestino delgado.' },
+        ] },
+        { title: 'Otra pista clínica', tag: 'El cinturón de seguridad', kind: 'criteria', items: [
+          { t: 'Equimosis transversa en la pared', d: 'Sospecha rotura de intestino delgado',
+            say: 'Y una última pista: si ves una equimosis transversa en la pared del abdomen, marcada por el cinturón de seguridad, sospecha una rotura del intestino delgado o su mesenterio.' },
+          { t: 'Desaceleración brusca', d: 'Avulsión de pedículos vasculares, o desgarro en puntos fijos',
+            say: 'Y en una desaceleración muy violenta, como una caída de altura, hay otro mecanismo que se pregunta: los órganos siguen moviéndose por inercia mientras sus puntos de fijación se quedan quietos. Eso puede avulsionar un pedículo vascular completo, o desgarrar el intestino justo donde está fijo, como en la unión entre el duodeno y el yeyuno.' },
+          { t: 'Cullen y Grey Turner', d: 'Moretón periumbilical o en los flancos',
+            say: 'Y dos signos más que apuntan a un sangrado escondido detrás del peritoneo: un moretón alrededor del ombligo, el signo de Cullen, o en los flancos, el signo de Grey Turner. Ninguno aparece de inmediato: se demoran horas o incluso días en formarse, así que su ausencia al ingreso no descarta nada.' },
+        ] },
+      ],
     },
 
     {
       type: 'flow',
-      kicker: 'Mecanismos y epidemiología',
-      title: 'Cinemática del trauma abdominal y órganos más vulnerables',
+      kicker: 'Eco-FAST',
+      title: 'Una ecografía que solo busca una cosa',
       nodes: [
-        { id: 'cin', col: 0, row: 2, k: 'start', t: 'Mecanismo de impacto abdominal', s: 'Trauma contuso cerrado vs penetrante por arma blanca vs balístico' },
-        { id: 'con', col: 1, row: 0, k: 'risk', t: 'Trauma cerrado o contuso', s: 'Accidentes vehiculares · caídas de altura · desaceleración súbita' },
-        { id: 'baz', col: 2, row: 0, k: 'alert', t: 'Bazo primero · Hígado segundo', s: 'Desaceleración arranca ligamentos esplénicos y vasos hiliares' },
-        { id: 'arm', col: 1, row: 2, k: 'mech', t: 'Herida penetrante por arma blanca', s: 'Baja energía · trayecto lesional lineal directo' },
-        { id: 'hig', col: 2, row: 2, k: 'alert', t: 'Hígado primero · Intestino segundo', s: 'El gran volumen hepático lo expone al arma blanca' },
-        { id: 'bal', col: 1, row: 3, k: 'trap', t: 'Proyectil de arma de fuego', s: 'Alta energía y cavitación expansiva destructiva' },
-        { id: 'del', col: 2, row: 3, k: 'alert', t: 'Intestino delgado primero · Colon segundo', s: 'Múltiples perforaciones viscerales en cavidad libre' },
-        { id: 'sho', col: 3, row: 1, k: 'trap', t: 'Shock hemorrágico o peritonitis', s: 'Hemoperitoneo masivo de víscera sólida o filtración entérica' },
-        { id: 'lap', col: 4, row: 1, k: 'good', t: 'Resolución quirúrgica o MNO', s: 'Laparotomía según estabilidad vs observación intensiva' },
+        { id: 'lle', col: 0, row: 1, k: 'start', t: 'Trauma abdominal', s: 'En el box de reanimación' },
+        { id: 'eco', col: 1, row: 1, k: 'mech', t: 'Eco-FAST en 2 minutos', s: 'Simultáneo al ABC' },
+        { id: 'mor', col: 2, row: 0, k: 'effect', t: 'Ventana de Morrison', s: 'Entre el hígado y el riñón derecho' },
+        { id: 'esp', col: 2, row: 1, k: 'effect', t: 'Ventana esplenorrenal', s: 'Entre el bazo y el riñón izquierdo' },
+        { id: 'pel', col: 2, row: 2, k: 'effect', t: 'Ventana pélvica', s: 'Fondo de saco de Douglas' },
+        { id: 'obj', col: 3, row: 1, k: 'risk', t: 'Busca líquido libre', s: 'No identifica qué órgano se rompió' },
       ],
       edges: [
-        { from: 'cin', to: 'con', label: 'desaceleración' },
-        { from: 'con', to: 'baz', label: 'compresión' },
-        { from: 'cin', to: 'arm', label: 'arma blanca' },
-        { from: 'arm', to: 'hig', label: 'trayecto' },
-        { from: 'cin', to: 'bal', label: 'arma de fuego' },
-        { from: 'bal', to: 'del', label: 'cavitación' },
-        { from: 'baz', to: 'sho', label: 'sangrado' },
-        { from: 'hig', to: 'sho', label: 'sangrado' },
-        { from: 'del', to: 'sho', label: 'peritonitis' },
-        { from: 'sho', to: 'lap', label: 'conducta' },
+        { from: 'lle', to: 'eco' }, { from: 'eco', to: 'mor' }, { from: 'eco', to: 'esp' },
+        { from: 'eco', to: 'pel' }, { from: 'mor', to: 'obj' }, { from: 'esp', to: 'obj' }, { from: 'pel', to: 'obj' },
       ],
       steps: [
-        {
-          show: ['cin', 'con', 'baz'],
-          note: 'Trauma contuso y predominio esplénico',
-          say: 'En el traumatismo abdominal cerrado por desaceleración o impacto directo, el órgano que se lesiona con mayor frecuencia es el bazo, responsable de casi la mitad de los hemoperitoneos contusos, seguido de cerca por el hígado. La inercia y los ligamentos suspensorios desgarran el parénquima y los vasos hiliares.',
-        },
-        {
-          show: ['arm', 'hig'],
-          note: 'Trauma penetrante por arma blanca',
-          say: 'En cambio, en las heridas penetrantes por arma blanca el órgano más comúnmente comprometido es el hígado debido a su gran tamaño en el hemiabdomen superior, seguido por el intestino delgado y el diafragma.',
-        },
-        {
-          show: ['bal', 'del'],
-          note: 'Trauma balístico por proyectil de arma de fuego',
-          say: 'En las heridas por proyectil de arma de fuego, la onda expansiva y el trayecto sinuoso lesionan predominantemente el intestino delgado en primer lugar y el colon en segundo lugar, generando contaminación fecal inmediata y hemorragia mesentérica masiva.',
-        },
-        {
-          show: ['sho', 'lap'],
-          note: 'Consecuencia clínica y toma de decisiones',
-          say: 'Estas lesiones amenazan la vida por dos vías: el shock hemorrágico por sangrado de vísceras sólidas o grandes vasos, y la peritonitis séptica por perforación de vísceras huecas. La conducta depende de la estabilidad hemodinámica del paciente.',
-        },
+        { show: ['lle', 'eco'], note: 'Se hace junto con el ABC, no después',
+          say: 'Con la sospecha de trauma abdominal, el primer examen no es de sangre ni de imagen sofisticada: es el Eco-FAST, hecho en el mismo box de reanimación, en menos de dos o tres minutos, al mismo tiempo que sigues con el ABC, sin mover al paciente de la camilla.' },
+        { show: ['mor'], note: 'La más sensible de las cuatro ventanas',
+          say: 'Revisa cuatro ventanas. La primera y más sensible es el espacio de Morrison, entre el hígado y el riñón derecho.' },
+        { show: ['esp'], note: 'El equivalente del lado izquierdo',
+          say: 'La segunda es la ventana esplenorrenal, entre el bazo y el riñón izquierdo.' },
+        { show: ['pel'], note: 'Y una cuarta ventana en el pericardio',
+          say: 'Y la tercera es la ventana pélvica, en el fondo de saco de Douglas. Hay una cuarta ventana, la pericárdica, que ya viste la clase pasada para el taponamiento.' },
+        { show: ['obj'], note: 'No dice qué se rompió, solo si hay sangre',
+          say: 'Y fíjate en algo importante: el Eco-FAST no te dice qué órgano se rompió. Solo busca una cosa, líquido libre, casi siempre sangre, en esos espacios. Con esa sola pregunta ya puedes tomar la decisión más importante de la clase.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'La decisión central',
+      title: 'Inestable con líquido libre: pabellón, nunca el escáner',
+      nodes: [
+        { id: 'est', col: 0, row: 1, k: 'q', t: '¿Está estable?', s: 'Presión sistólica sobre 90' },
+        { id: 'ines', col: 1, row: 0, k: 'risk', t: 'Inestable + Eco-FAST positivo', s: 'No responde a la reanimación' },
+        { id: 'lap', col: 2, row: 0, k: 'alert', t: 'Laparotomía urgente', s: 'Directo a pabellón, sin TAC' },
+        { id: 'esta', col: 1, row: 2, k: 'good', t: 'Estable, o se estabilizó', s: 'Responde a los fluidos' },
+        { id: 'tac', col: 2, row: 2, k: 'good', t: 'TAC con contraste', s: 'Gradúa la lesión y guía el manejo' },
+      ],
+      edges: [
+        { from: 'est', to: 'ines' }, { from: 'ines', to: 'lap' },
+        { from: 'est', to: 'esta' }, { from: 'esta', to: 'tac' },
+      ],
+      steps: [
+        { show: ['est'], note: 'La única pregunta que importa primero',
+          say: 'Con el Eco-FAST hecho, viene la pregunta que decide todo: ¿el paciente está hemodinámicamente estable, o no?' },
+        { show: ['ines'], note: 'No responde a la reanimación inicial',
+          say: 'Si está inestable, con la presión baja a pesar de los fluidos, y el Eco-FAST muestra líquido libre, ya tienes tu respuesta.' },
+        { show: ['lap'], note: 'El viaje al escáner puede ser el último',
+          say: 'La conducta es laparotomía exploradora de urgencia, directo a pabellón. Está formalmente prohibido llevar a este paciente al tomógrafo: el riesgo de que se descompense y muera durante el examen es demasiado alto, y ese trayecto se conoce entre los cirujanos como el viaje de la muerte al escáner.' },
+        { show: ['esta'], note: 'Ya sea desde el principio, o tras los fluidos',
+          say: 'Si en cambio el paciente está estable, o se estabilizó con la reanimación inicial, tienes tiempo para estudiarlo mejor.' },
+        { show: ['tac'], note: 'El estándar de oro cuando hay tiempo',
+          say: 'Ahí el examen de elección es el TAC de abdomen y pelvis con contraste. Te muestra el grado exacto de la lesión, dónde está el sangrado si sigue activo, y te permite decidir si el paciente puede tratarse sin cirugía o necesita ir a pabellón igual.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Semiología de urgencias',
-      title: 'Evaluación física del abdomen y sus limitaciones en trauma',
+      kicker: 'Manejo no operatorio',
+      title: 'Cuándo el bazo o el hígado se dejan sin operar',
       cards: [
-        {
-          title: 'Signos cardinales de alarma',
-          tag: 'Irritación peritoneal',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Defensa muscular involuntaria y rebote',
-              d: 'Peritonitis química o bacteriana por hemoperitoneo o perforación',
-              say: 'La contractura muscular refleja involuntaria y el dolor a la descompresión peritoneal indican compromiso parietal severo por sangre libre o contenido digestivo.',
-            },
-            {
-              t: 'Signo de Kehr por irritación diafragmática',
-              d: 'Dolor referido al hombro izquierdo por hemoperitoneo periesplénico',
-              say: 'El signo de Kehr consiste en dolor agudo en el hombro izquierdo provocado por la sangre acumulada en el espacio subfrénico que irrita las fibras del nervio frénico.',
-            },
-            {
-              t: 'Signos de hemoperitoneo tardío',
-              d: 'Equimosis periumbilical de Cullen y en flancos de Grey Turner',
-              say: 'Las equimosis periumbilicales o en flancos traducen hemorragia retroperitoneal o intraabdominal masiva, pero aparecen de forma tardía, después de doce a veinticuatro horas.',
-            },
-          ],
-        },
-        {
-          title: 'Limitaciones del examen físico',
-          tag: 'Falsos negativos',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Compromiso de conciencia o intoxicación',
-              d: 'Glasgow alterado, alcohol o sedación enmascaran el peritonismo',
-              say: 'El examen físico abdominal es poco confiable en pacientes con traumatismo encéfalo-craneano, shock severo o intoxicación por drogas o alcohol, pasando por alto lesiones graves.',
-            },
-            {
-              t: 'Trauma raquimedular con anestesia sensitiva',
-              d: 'La denervación autonómica impide percibir dolor o contractura',
-              say: 'En pacientes con sección medular el abdomen puede estar completamente blando e indoloro a pesar de contener dos litros de sangre libre en su cavidad.',
-            },
-          ],
-        },
+        { title: 'Requisitos', tag: 'No cualquiera califica', kind: 'criteria', items: [
+          { t: 'Estable, sin peritonitis', d: 'Y sin sospecha de víscera hueca asociada',
+            say: 'Hoy, más del ochenta por ciento de las lesiones de bazo e hígado se tratan sin cirugía. Pero eso exige requisitos: el paciente estable, sin signos de peritonitis, y sin sospecha de que además se haya roto una víscera hueca.' },
+          { t: 'Vigilancia estrecha', d: 'Hematocrito seriado y pabellón disponible',
+            say: 'Y necesitas vigilancia estrecha, con hematocrito seriado cada seis a ocho horas, y un pabellón disponible las veinticuatro horas por si las cosas cambian.' },
+          { t: 'La gradación la da el TAC', d: 'De grado uno, una laceración chica, a grado cinco, el estallido',
+            say: 'Y el TAC es el que gradúa la lesión, de uno a cinco. En los grados bajos, casi siempre basta con el reposo y la vigilancia. En el grado cinco, con el órgano prácticamente estallado, la conducta ya no es esperar: es la cirugía, con empaquetamiento hepático o esplenectomía según el caso.' },
+        ] },
+        { title: 'Cuándo se convierte a cirugía', tag: 'Señales de alarma', kind: 'alert', items: [
+          { t: 'Cae el hematocrito', d: 'O aparece dolor peritoneal progresivo',
+            say: 'Si el hematocrito sigue cayendo, o aparece dolor peritoneal progresivo, ese manejo conservador se convierte en cirugía.' },
+          { t: 'Angioembolización', d: 'Si el TAC muestra sangrado activo (blush)',
+            say: 'Y si el TAC muestra un sangrado activo, lo que se llama blush, la radiología intervencional puede embolizar ese vaso y evitar la cirugía en la mayoría de los casos.' },
+          { t: 'Profilaxis de trombosis', d: 'Enoxaparina a las 24 a 48 horas, si el hematocrito ya es estable',
+            say: 'Y un dato que se pregunta: aunque el paciente esté con una lesión esplénica en observación, la profilaxis de trombosis con enoxaparina se inicia igual, apenas el hematocrito se mantiene estable por veinticuatro a cuarenta y ocho horas. Tenerle miedo a esa inyección y no darla expone al paciente a una trombosis o una embolia pulmonar, sin que el riesgo real de resangrado suba.' },
+        ] },
+        { title: 'Indicaciones que saltan directo a pabellón', tag: 'Sin necesidad de imágenes', kind: 'key', items: [
+          { t: 'Peritonitis o evisceración', d: 'O neumoperitoneo evidente',
+            say: 'Y hay señales que van directo a laparotomía sin ninguna imagen previa: un abdomen en tabla generalizado, una evisceración de asas por la herida, o aire libre evidente bajo el diafragma.' },
+        ] },
+        { title: 'Si te queda un bazo sin bazo', tag: 'Vacunas obligatorias', kind: 'pharma', items: [
+          { t: 'Neumococo, meningococo y Hib', d: 'Antes del alta, si se extirpó el bazo',
+            say: 'Y un dato que se pregunta después de una esplenectomía completa: hay que vacunar contra neumococo, meningococo y Haemophilus influenzae tipo b, idealmente antes de que el paciente se vaya de alta. Sin esa protección, el riesgo de una sepsis fulminante por asplenia es real y puede ser mortal.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Ultrasonido en reanimación',
-      title: 'Protocolo Eco-FAST: las cuatro ventanas ecográficas cardinales',
+      kicker: 'Retroperitoneo',
+      title: 'Los hematomas que se abren, y los que no',
       cards: [
-        {
-          title: 'Metodología y objetivo del FAST',
-          tag: 'Líquido libre',
-          kind: 'key',
-          items: [
-            {
-              t: 'Detección de hemoperitoneo en sesenta segundos',
-              d: 'Visualizar interfases anecogénicas oscuras en zonas declives',
-              say: 'El Eco-FAST busca líquido libre anormal en el peritoneo y pericardio. No evalúa la función del órgano ni mide laceraciones; su único objetivo es confirmar o descartar sangre libre.',
-            },
-            {
-              t: 'Umbral de sensibilidad de volumen',
-              d: 'Detecta desde doscientos mililitros de líquido en manos entrenadas',
-              say: 'El examen tiene alta sensibilidad para detectar colecciones líquidas mayores a doscientos o trescientos mililitros en la cavidad peritoneal de forma no invasiva.',
-            },
-          ],
-        },
-        {
-          title: 'Las cuatro ventanas anatómicas',
-          tag: 'Recorrido sistemático',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Espacio hepatorrenal o fondo de saco de Morrison',
-              d: 'Ventana más sensible para líquido libre en decúbito supino',
-              say: 'La primera y más sensible es la ventana del cuadrante superior derecho entre el hígado y el riñón derecho, el espacio de Morrison, donde la sangre se acumula por gravedad.',
-            },
-            {
-              t: 'Espacio periesplénico o esplenorrenal',
-              d: 'Cuadrante superior izquierdo entre el bazo y el riñón izquierdo',
-              say: 'La segunda es la ventana esplenorrenal en el flanco izquierdo, buscando colecciones anecogénicas alrededor del polo inferior del bazo.',
-            },
-            {
-              t: 'Ventana pélvica o retrovesical suprapúbica',
-              d: 'Fondo de saco de Douglas en mujeres y fondo rectovesical en varones',
-              say: 'La tercera es la ventana pélvica sobre la sínfisis púbica, que inspecciona la pelvis menor con la vejiga discretamente distendida como ventana acústica.',
-            },
-            {
-              t: 'Ventana pericárdica subxifoidea',
-              d: 'Descarte inmediato de taponamiento cardíaco en epigastrio',
-              say: 'La cuarta es la ventana subxifoidea, angulando el transductor hacia el corazón para descartar hemopericardio y taponamiento cardíaco de urgencia.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Algoritmo decisivo',
-      title: 'Paciente inestable versus estable: la bifurcación obligatoria',
-      cards: [
-        {
-          title: 'Paciente hemodinámicamente inestable',
-          tag: 'Prohibido el TAC',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Inestable con Eco-FAST positivo',
-              d: 'Laparotomía exploradora de urgencia inmediata en pabellón',
-              say: 'Esta es la regla más preguntada en el EUNACOM: si un paciente politraumatizado está hipotenso y el Eco-FAST muestra líquido libre abdominal, va de inmediato a laparotomía exploradora sin ninguna otra imagen.',
-            },
-            {
-              t: 'Prohibición absoluta de traslado al escáner',
-              d: 'El paciente inestable nunca debe ingresar a la sala de tomografía',
-              say: 'Enviar a un paciente con shock persistente al tomógrafo es un error fatal. La sala de escáner no cuenta con el equipamiento necesario para reanimar un paro cardiorrespiratorio por hemorragia masiva.',
-            },
-            {
-              t: 'Inestable con Eco-FAST negativo',
-              d: 'Buscar sangrado en tórax, pelvis o retroperitoneo',
-              say: 'Si el paciente está en shock y el FAST es estrictamente negativo, el sangrado no está en el peritoneo libre. Busca de inmediato hemotórax masivo, fractura de pelvis o hemorragia retroperitoneal.',
-            },
-          ],
-        },
-        {
-          title: 'Paciente hemodinámicamente estable',
-          tag: 'Estándar tomográfico',
-          kind: 'key',
-          items: [
-            {
-              t: 'Tomografía computarizada con contraste intravenoso',
-              d: 'Estándar de oro para clasificar lesiones y planificar manejo',
-              say: 'Si el paciente tiene presión arterial y pulso normales, el examen de elección es la tomografía axial computarizada de abdomen y pelvis con contraste intravenoso, que define la extensión exacta de las laceraciones.',
-            },
-            {
-              t: 'Detección de extravasación activa o blush arterial',
-              d: 'Mancha hiperdensa de contraste que indica sangrado activo',
-              say: 'El escáner permite identificar el signo del blush arterial, una fuga de contraste endovenoso que indica hemorragia activa pasible de angioembolización percutánea.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Manejo según mecanismo',
-      title: 'Trauma penetrante: arma blanca versus proyectil balístico',
-      cards: [
-        {
-          title: 'Herida por arma blanca abdominal',
-          tag: 'Exploración local',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Exploración digital de la herida en el box',
-              d: 'Bajo anestesia local para comprobar indemnidad aponeurótica',
-              say: 'Toda herida por arma blanca en la pared abdominal anterior debe explorarse localmente en la sala de urgencias bajo anestesia local para verificar si penetró la fascia aponeurótica anterior.',
-            },
-            {
-              t: 'Aponeurosis intacta permite alta con alarma',
-              d: 'Si la fascia no fue violada, no hay riesgo intraabdominal',
-              say: 'Si la aponeurosis está intacta y el examen peritoneal es normal, se sutura la piel y el paciente puede ser dado de alta con pautas de alarma.',
-            },
-            {
-              t: 'Laceración aponeurótica o peritoneal',
-              d: 'Laparoscopía exploradora o laparotomía en pabellón',
-              say: 'Si el arma blanca atravesó la aponeurosis anterior o el peritoneo, el paciente debe ser ingresado a pabellón para exploración quirúrgica, idealmente laparoscópica en pacientes estables.',
-            },
-          ],
-        },
-        {
-          title: 'Herida por proyectil de arma de fuego',
-          tag: 'Cirugía mandatoria',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Penetración abdominal casi siempre exige laparotomía',
-              d: 'Más del noventa por ciento presenta lesiones viscerales graves',
-              say: 'En el trauma balístico con orificio de entrada que cruza la cavidad peritoneal, la laparotomía exploradora es mandatoria en casi el cien por ciento de los casos por el alto riesgo de perforación intestinal inadvertida.',
-            },
-            {
-              t: 'Evisceración de epiplón u órganos',
-              d: 'Salida de contenido visceral por la herida es indicación de cirugía',
-              say: 'La presencia de evisceración de epiplón, estómago o intestino a través de la herida constituye indicación absoluta de laparotomía formal de urgencia.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Estratificación AAST',
-      title: 'Clasificación AAST y manejo del trauma de víscera sólida',
-      head: ['Grado de lesión', 'Hallazgo patológico típico', 'Conducta estándar', 'Criterio de conversión a cirugía'],
-      rows: [
-        {
-          cells: ['Grado uno', 'Hematoma subcapsular menor al 10% · Laceración < 1 cm', 'Manejo no operatorio en reposo', 'Caída inexplicable del hematocrito'],
-          say: 'Las lesiones grado uno tienen hematomas subcapsulares o laceraciones superficiales mínimas y se manejan en forma no operatoria con reposo.',
-        },
-        {
-          cells: ['Grado dos', 'Hematoma 10 a 50% · Laceración de uno a tres centímetros', 'Manejo no operatorio en agudos', 'Aparición de signos de peritonitis'],
-          say: 'Las lesiones grado dos comprometen parénquima superficial sin afectar vasos y responden favorablemente a la observación clínica estricta.',
-        },
-        {
-          cells: ['Grado tres', 'Hematoma > 50% roto · Laceración > 3 cm de profundidad', 'Manejo no operatorio en UPC · AngioTAC', 'Requerimiento de más de dos transfusiones'],
-          say: 'Las lesiones grado tres tienen hematomas grandes o laceraciones profundas. Se vigilan en cuidados intensivos y se realiza angiografía si hay sangrado activo.',
-        },
-        {
-          cells: ['Grado cuatro o cinco', 'Compromiso vascular hiliar o estallido visceral total', 'Angioembolización o cirugía urgente', 'Inestabilidad hemodinámica persistente'],
-          say: 'Las lesiones grado cuatro y cinco con compromiso de vasos hiliares o estallido del órgano requieren angioembolización si está estable o laparotomía urgente si está en shock.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Enfoque conservador seguro',
-      title: 'Manejo No Operatorio (MNO) en lesiones esplénicas y hepáticas',
-      cards: [
-        {
-          title: 'Requisitos indispensables para MNO',
-          tag: 'Criterios de inclusión',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Estabilidad hemodinámica estricta',
-              d: 'Presión arterial y frecuencia cardíaca normales sin requerir drogas',
-              say: 'El primer y más importante requisito para intentar un manejo no operatorio es que el paciente se encuentre hemodinámicamente estable sin soporte de vasopresores.',
-            },
-            {
-              t: 'Ausencia de signos de irritación peritoneal',
-              d: 'Abdomen blando sin sospecha de perforación de víscera hueca',
-              say: 'El abdomen debe estar blando e indoloro, descartando peritonitis o lesión de intestino delgado que justifiquen exploración quirúrgica.',
-            },
-            {
-              t: 'Recursos institucionales disponibles',
-              d: 'Monitoreo en UPC, tomografía y pabellón quirúrgico las 24 horas',
-              say: 'El hospital debe contar con unidad de cuidados intensivos, cirujano de guardia y radiología intervencional disponible de inmediato en caso de resangrado.',
-            },
-          ],
-        },
-        {
-          title: 'Tromboprofilaxis en el MNO',
-          tag: 'Seguridad clínica',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Inicio precoz entre veinticuatro y cuarenta y ocho horas',
-              d: 'Heparina de bajo peso molecular tras documentar hematocrito estable',
-              say: 'Una vez demostrada la estabilidad clínica y del hematocrito tras veinticuatro a cuarenta y ocho horas, se debe iniciar tromboprofilaxis farmacológica con enoxaparina.',
-            },
-            {
-              t: 'Prevención de embolia pulmonar sin riesgo de sangrado',
-              d: 'La heparina profiláctica no aumenta el resangrado visceral',
-              say: 'La evidencia demuestra que la inmovilización prolongada en cama sin profilaxis expone a trombosis venosa profunda mortal, mientras que la heparina a dosis preventiva es completamente segura.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Región de alto riesgo',
-      title: 'Heridas toracoabdominales y rotura diafragmática oculta',
-      cards: [
-        {
-          title: 'Límites de la región toracoabdominal',
-          tag: 'Zona de riesgo diafragmático',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Cuarto espacio anterior al sexto espacio posterior',
-              d: 'Heridas entre pezones y reborde costal pueden atravesar diafragma',
-              say: 'Cualquier herida penetrante por debajo de la línea intermamilar por anterior o la punta de la escápula por posterior hasta el reborde costal puede lesionar el diafragma.',
-            },
-            {
-              t: 'Falla diagnóstica del TAC en diafragma izquierdo',
-              d: 'Las perforaciones diafragmáticas aisladas suelen ser invisibles al TAC',
-              say: 'La tomografía computarizada y la radiografía de tórax suelen ser normales en heridas diafragmáticas agudas sin herniación visceral evidente.',
-            },
-          ],
-        },
-        {
-          title: 'Conducta diagnóstica y terapéutica',
-          tag: 'Laparoscopía obligatoria',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Laparoscopía diagnóstica de elección',
-              d: 'Visualización directa de la cara abdominal del hemidiafragma',
-              say: 'En el paciente hemodinámicamente estable con herida toracoabdominal izquierda, el método de elección para descartar rotura diafragmática es la laparoscopía diagnóstica.',
-            },
-            {
-              t: 'Riesgo de hernia diafragmática tardía estrangulada',
-              d: 'La gradiente toracoabdominal succiona vísceras a la cavidad pleural',
-              say: 'Si no se sutura el defecto diafragmático, la presión negativa del tórax succiona el estómago y el colon, provocando hernias diafragmáticas estranguladas meses o años después.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Inmunoprofilaxis post-quirúrgica',
-      title: 'Esplenectomía y prevención de la sepsis bacteriana fulminante',
-      cards: [
-        {
-          title: 'Riesgo de sepsis fulminante post-esplenectomía',
-          tag: 'OPSI en pacientes asplénicos',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Infección devastadora por bacterias encapsuladas',
-              d: 'Mortalidad mayor al cincuenta por ciento en menos de veinticuatro horas',
-              say: 'La sepsis fulminante post-esplenectomía es una complicación letal causada por la pérdida del filtro esplénico y de la producción de opsoninas contra bacterias con cápsula polisacárida.',
-            },
-            {
-              t: 'Tríada clásica de patógenos encapsulados',
-              d: 'Streptococcus pneumoniae, Neisseria meningitidis y Haemophilus influenzae',
-              say: 'El principal responsable en más del setenta por ciento de los casos es el neumococo, seguido por el meningococo y el Haemophilus influenzae tipo b.',
-            },
-          ],
-        },
-        {
-          title: 'Esquema de vacunación postoperatorio',
-          tag: 'Momento de administración',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Vacunación obligatoria a los catorce días de la cirugía',
-              d: 'Administrar vacuna antineumocócica, antimeningocócica y anti-Hib',
-              say: 'En la esplenectomía de urgencia por trauma, las vacunas deben administrarse alrededor del día catorce postoperatorio para asegurar una respuesta inmunológica humoral adecuada.',
-            },
-            {
-              t: 'Antibioticoterapia de rescate domiciliaria',
-              d: 'Amoxicilina con ácido clavulánico ante el primer signo febril',
-              say: 'Todo paciente esplenectomizado debe portar una identificación médica y tener antibióticos orales de reserva para iniciar de inmediato ante cualquier cuadro febril en domicilio.',
-            },
-          ],
-        },
+        { title: 'Zona central', tag: 'Explorar siempre', kind: 'alert', items: [
+          { t: 'Aorta, vena cava, duodeno', d: 'Un hematoma acá se explora siempre',
+            say: 'Un último punto, sobre los hematomas que encuentras al abrir el abdomen. En la zona central, donde están la aorta, la vena cava y el duodeno, un hematoma retroperitoneal se explora siempre, porque ahí puede haber una lesión vascular mayor.' },
+        ] },
+        { title: 'Flancos', tag: 'Depende del mecanismo', kind: 'criteria', items: [
+          { t: 'Riñones y colon', d: 'No se explora si es cerrado y no crece',
+            say: 'En los flancos, donde están los riñones y el colon, un hematoma cerrado que no crece no se explora, porque abrirlo puede hacer perder un riñón que se estaba controlando solo. Pero si es penetrante, o está pulsátil, ahí sí se abre.' },
+        ] },
+        { title: 'Pelvis', tag: 'Nunca se abre', kind: 'alert', items: [
+          { t: 'Fracturas pélvicas inestables', d: 'Abrirlo desata una hemorragia que no se controla',
+            say: 'Y en la pelvis, con una fractura pélvica inestable, el hematoma nunca se explora. Abrirlo libera el taponamiento natural del propio retroperitoneo y desata una hemorragia venosa masiva que ya no se puede controlar con nada. Ahí la conducta es empaquetar y estabilizar la pelvis por fuera, con una faja o un fijador externo, no abrir.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Árbol de decisión clínica',
-      title: 'Algoritmo de toma de decisiones en trauma abdominal',
-      say: 'Analicemos el árbol de decisiones en trauma abdominal. La primera evaluación clasifica al paciente según su estabilidad hemodinámica y el resultado del Eco-FAST.',
+      intro: 'Ahora juntemos todo en el árbol de decisión del trauma abdominal.',
     },
 
     {
       type: 'table',
-      kicker: 'Trampas del EUNACOM',
-      title: 'Errores frecuentes en la toma de decisiones en trauma abdominal',
-      head: ['Situación clínica', 'Conducta médica estándar', 'Error fatal o trampa'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Lo que más se confunde en trauma abdominal',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
       rows: [
-        {
-          cells: [
-            'Politrauma inestable con Eco-FAST positivo',
-            'Laparotomía exploradora de urgencia inmediata',
-            'Solicitar tomografía computarizada para localizar el sangrado',
-          ],
-          say: 'El paciente inestable con líquido libre no va al tomógrafo: va directo a quirófano para laparotomía de urgencia.',
-        },
-        {
-          cells: [
-            'Herida penetrante por arma blanca anterior',
-            'Exploración digital local de la herida en el box',
-            'Dar de alta inmediata si el examen abdominal inicial es indoloro',
-          ],
-          say: 'Nunca des de alta una puñalada abdominal sin antes explorar la aponeurosis bajo anestesia local en el box de urgencias.',
-        },
-        {
-          cells: [
-            'Herida toracoabdominal izquierda penetrante',
-            'Laparoscopía diagnóstica para examinar diafragma',
-            'Confiar en una tomografía computarizada con contraste normal',
-          ],
-          say: 'La tomografía no descarta rotura diafragmática izquierda; la laparoscopía es mandatoria para prevenir una hernia diafragmática estrangulada.',
-        },
-        {
-          cells: [
-            'Traumatismo esplénico grado dos estable en MNO',
-            'Iniciar enoxaparina a las veinticuatro a cuarenta y ocho horas',
-            'Suspender anticoagulantes por semanas por miedo a hemorragia',
-          ],
-          say: 'Omitir la tromboprofilaxis en un paciente postrado en cama causa embolia pulmonar mortal sin evitar el resangrado visceral.',
-        },
+        { cells: ['Inestable con Eco-FAST positivo', 'Laparotomía urgente, directo a pabellón', 'Enviar al paciente al TAC'],
+          say: 'Repasemos las trampas. Inestable con Eco-FAST positivo: laparotomía urgente, directo a pabellón. Enviarlo al escáner es el error que más cuesta caro.' },
+        { cells: ['Estable, lesión esplénica grado bajo', 'Manejo no operatorio con vigilancia', 'Esplenectomía de entrada'],
+          say: 'Estable, con una lesión esplénica de grado bajo: manejo no operatorio con vigilancia. Operar de entrada le quita al paciente un bazo que se podía salvar.' },
+        { cells: ['Herida penetrante en hipocondrio izquierdo, estable', 'Laparoscopía diagnóstica del diafragma', 'Dar de alta sin más estudio'],
+          say: 'Herida penetrante en el hipocondrio izquierdo, estable, con TAC normal: laparoscopía diagnóstica, porque la rotura diafragmática puede ser silenciosa. Dar de alta sin buscarla deja pasar una hernia tardía.' },
+        { cells: ['Signo del cinturón de seguridad', 'Sospechar rotura de intestino delgado', 'Asumir que es solo una contusión de pared'],
+          say: 'Y la equimosis del cinturón de seguridad obliga a sospechar una rotura de intestino delgado, no a asumir que es solo un moretón de la pared.' },
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Oficial',
-      title: 'EUNACOM Julio 2015 · Pregunta 31',
-      recTag: 'EUNACOM Julio 2015 · Pregunta 31',
-      stem: 'Un paciente sufre una herida por arma blanca en el abdomen, hace 8 horas. Al examen físico está en buenas condiciones generales, con signos vitales normales y examen abdominal sin signos de irritación peritoneal, con ruidos hidroaéreos presentes. Se realiza exploración digital de la herida con anestesia local, objetivándose laceración del peritoneo. ¿Cuál es la conducta más adecuada?',
-      question: '¿Cuál es la conducta terapéutica indicada?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Mujer de 26 años sufre un vuelco en automóvil, con uso de cinturón de seguridad. Ingresa pálida, con presión arterial de 84/50 y frecuencia cardíaca de 124. Se le administra 1 litro de suero Ringer Lactato, y la presión sube apenas a 88/52. El Eco-FAST muestra líquido libre en el espacio de Morrison y en la pelvis.',
+      question: '¿Cuál es la conducta inmediata más adecuada?',
       options: [
-        { letter: 'A', text: 'Realizar lavado peritoneal diagnóstico' },
-        { letter: 'B', text: 'Realizar ecografía FAST de control' },
-        { letter: 'C', text: 'Suturar la herida y dar de alta con reposo' },
-        { letter: 'D', text: 'Solicitar tomografía axial computarizada' },
-        { letter: 'E', text: 'Realizar laparoscopía exploradora en pabellón' },
-      ],
-      correct: 'E',
-      explanation: 'Una herida por arma blanca que atraviesa el peritoneo parietal parietal es formalmente una herida penetrante abdominal. En un paciente estable sin peritonitis franca, la exploración quirúrgica miniinvasiva mediante laparoscopía exploradora es la conducta estándar para descartar lesiones diafragmáticas, gástricas o entéricas.',
-      say: {
-        stem: 'Revisemos esta pregunta oficial de julio de dos mil quince. Un paciente con herida por arma blanca de ocho horas de evolución está en buenas condiciones y sin peritonitis. Al explorar la herida en el box, se constata laceración franca del peritoneo.',
-        question: '¿Cuál es la conducta más adecuada?',
-        options: 'Las alternativas plantean: lavado peritoneal diagnóstico, ecografía FAST, sutura de la herida, tomografía computarizada o laparoscopía exploradora en pabellón. Piénsalo.',
-        answer: 'La respuesta correcta es la E, laparoscopía exploradora. Al demostrarse que el arma penetró el peritoneo, existe riesgo de lesiones inadvertidas de vísceras huecas o diafragma. En un paciente hemodinámicamente estable, la laparoscopía permite revisar minuciosamente la cavidad con mínima invasión y resolver cualquier hallazgo patológico.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.010',
-      stem: 'Un paciente de 28 años politraumatizado por colisión vehicular ingresa taquicárdico e hipotenso con PA 75/40 mmHg. No responde a la infusión rápida de 1.000 mL de solución fisiológica tibia. En la evaluación primaria se realiza Eco-FAST que evidencia abundante líquido libre en el espacio hepatorrenal (Morrison) y en la pelvis menor. ¿Cuál es la conducta inmediata que debe adoptarse?',
-      question: '¿Cuál es la conducta inmediata prioritaria?',
-      options: [
-        { letter: 'A', text: 'Traslado inmediato a pabellón para laparotomía exploradora de urgencia' },
-        { letter: 'B', text: 'Solicitar tomografía computarizada abdominopélvica con contraste' },
-        { letter: 'C', text: 'Instalar catéter venoso central y diferir cirugía' },
-        { letter: 'D', text: 'Repetir el Eco-FAST en treinta minutos para evaluar progresión' },
-        { letter: 'E', text: 'Solicitar arteriografía percutánea para embolización vascular' },
-      ],
-      correct: 'A',
-      explanation: 'Paciente con trauma abdominal e inestabilidad hemodinámica persistente más Eco-FAST positivo para líquido libre intraabdominal tiene indicación absoluta e inaplazable de laparotomía exploradora de urgencia. Llevar al paciente inestable al tomógrafo está estrictamente proscrito por riesgo inminente de muerte.',
-      say: {
-        stem: 'Analicemos este caso representativo típico del banco de preguntas. Un politraumatizado ingresa hipotenso y taquicárdico, sin responder a la resucitación inicial de fluidos. El Eco-FAST muestra abundante líquido libre en Morrison y pelvis.',
-        question: '¿Cuál es la conducta inmediata que se debe adoptar?',
-        options: 'Las opciones son: laparotomía exploradora de urgencia, tomografía computarizada con contraste, catéter venoso central, repetir el FAST o arteriografía percutánea. Piénsalo.',
-        answer: 'La respuesta correcta es la A, laparotomía exploradora de urgencia. La regla de oro del ATLS es inmutable: inestabilidad hemodinámica más líquido libre intraabdominal en el Eco-FAST equivale a hemoperitoneo exanguinante que solo se resuelve en pabellón quirúrgico. La alternativa B es un distractor fatal: jamás traslades a un paciente inestable al escáner.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.010',
-      stem: '¿Cuál es el órgano que se lesiona con mayor frecuencia en los traumatismos abdominales cerrados o contusos de alta energía?',
-      question: '¿Cuál es el órgano más frecuentemente comprometido?',
-      options: [
-        { letter: 'A', text: 'Hígado' },
-        { letter: 'B', text: 'Bazo' },
-        { letter: 'C', text: 'Páncreas' },
-        { letter: 'D', text: 'Intestino delgado' },
-        { letter: 'E', text: 'Vejiga urinaria' },
+        { letter: 'A', text: 'Solicitar TAC de abdomen y pelvis con contraste' },
+        { letter: 'B', text: 'Trasladar de inmediato a pabellón para laparotomía exploradora' },
+        { letter: 'C', text: 'Repetir el Eco-FAST en 30 minutos y reevaluar' },
+        { letter: 'D', text: 'Indicar 2 litros adicionales de suero fisiológico frío' },
+        { letter: 'E', text: 'Solicitar angiografía para embolización' },
       ],
       correct: 'B',
-      explanation: 'En el traumatismo abdominal contuso cerrado el bazo es el órgano más frecuentemente lesionado (responsable del 40 a 55% de los casos), seguido por el hígado. En el trauma penetrante por arma blanca el órgano más afectado es el hígado, y en heridas por arma de fuego es el intestino delgado.',
+      explanation: 'La paciente sigue inestable pese a la reanimación inicial, con Eco-FAST positivo para hemoperitoneo. La conducta obligatoria es la laparotomía exploradora de urgencia; enviarla al TAC en ese estado es la trampa clásica y de alto riesgo vital.',
       say: {
-        stem: 'Revisemos esta pregunta directa de epidemiología quirúrgica. Se consulta por el órgano abdominal que se lesiona con mayor frecuencia en traumatismos cerrados de alta energía.',
-        question: '¿Cuál es el órgano más frecuentemente comprometido?',
-        options: 'Las alternativas son: hígado, bazo, páncreas, intestino delgado o vejiga urinaria. Piénsalo.',
-        answer: 'La respuesta correcta es la B, el bazo. En trauma contuso o cerrado el bazo lidera la frecuencia con más del cuarenta por ciento de las lesiones de víscera sólida, seguido de cerca por el hígado. Recuerda el contraste: en arma blanca es el hígado, y en proyectil de arma de fuego es el intestino delgado.',
+        stem: 'Vamos con un caso. Mujer de veintiséis años, tras un vuelco en automóvil, con cinturón de seguridad puesto. Llega pálida, con presión arterial de ochenta y cuatro sobre cincuenta y frecuencia cardíaca de ciento veinticuatro. Se le pasa un litro de suero, y la presión apenas sube. El Eco-FAST muestra líquido libre en el espacio de Morrison y en la pelvis.',
+        question: '¿Cuál es la conducta inmediata más adecuada?',
+        options: 'Tienes cinco opciones: pedir un TAC de abdomen, trasladar a pabellón para laparotomía, repetir el Eco-FAST en media hora, dar dos litros más de suero frío, o pedir una angiografía. Piénsalo.',
+        answer: 'Es la B. Esta paciente no respondió a la reanimación inicial, sigue inestable, y el Eco-FAST ya te confirmó el hemoperitoneo. Con esos dos datos juntos, la conducta obligatoria es la laparotomía de urgencia. Pedir un TAC aquí es la trampa: llevarla al escáner en ese estado puede costarle la vida.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.010',
-      stem: 'Un hombre de 24 años sufre una herida penetrante por arma blanca en el hipocondrio izquierdo. Al ingreso se encuentra vigil, con PA 120/75 mmHg y FC 80 lpm. El abdomen es blando y no doloroso. El examen físico de la herida confirma penetración de la aponeurosis. El Eco-FAST y la tomografía computarizada con contraste no muestran lesiones viscerales ni neumoperitoneo. ¿Cuál es la conducta más adecuada para descartar una rotura diafragmática oculta?',
-      question: '¿Cuál es el procedimiento diagnóstico de elección?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2015 · Pregunta 31',
+      stem: 'Paciente sufre una herida por arma blanca en el abdomen, hace 8 horas. Al examen físico está en buenas condiciones generales, con signos vitales normales y examen abdominal sin signos de irritación peritoneal, con ruidos hidroaéreos presentes. Se realiza exploración digital de la herida, con anestesia local, objetivándose laceración del peritoneo.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Laparoscopía diagnóstica en pabellón' },
-        { letter: 'B', text: 'Alta médica con reposo y analgésicos' },
-        { letter: 'C', text: 'Lavado peritoneal diagnóstico ambulatorio' },
-        { letter: 'D', text: 'Radiografía seriada de esófago y estómago con bario' },
-        { letter: 'E', text: 'Ecocardiograma transtorácico de control' },
+        { letter: 'A', text: 'Realizar lavado peritoneal diagnóstico' },
+        { letter: 'B', text: 'Realizar ecografía FAST' },
+        { letter: 'C', text: 'Suturar la herida' },
+        { letter: 'D', text: 'Solicitar TAC abdominal' },
+        { letter: 'E', text: 'Realizar laparoscopía exploradora' },
       ],
-      correct: 'A',
-      explanation: 'En heridas toracoabdominales izquierdas las lesiones diafragmáticas son asintomáticas de inicio e invisibles a la tomografía computarizada en una alta proporción de pacientes. La laparoscopía diagnóstica es el estándar de oro para descartar y reparar defectos diafragmáticos, previniendo hernias diafragmáticas tardías estranguladas.',
+      correct: 'E',
+      explanation: 'La exploración local confirma que la herida penetró el peritoneo. En un paciente estable, la conducta recomendada es la laparoscopía exploradora, que confirma o descarta lesión visceral con una agresión mínima; suturar la herida sin explorar la cavidad deja pasar lesiones internas.',
       say: {
-        stem: 'Veamos este escenario sobre heridas toracoabdominales. Un joven estable con herida penetrante en hipocondrio izquierdo tiene tomografía computarizada normal sin neumoperitoneo ni lesiones sólidas.',
-        question: '¿Cuál es la conducta más adecuada para descartar una lesión diafragmática?',
-        options: 'Las opciones son: laparoscopía diagnóstica, alta médica con reposo, lavado peritoneal, estudio contrastado con bario o ecocardiograma. Piénsalo.',
-        answer: 'La respuesta correcta es la A, laparoscopía diagnóstica. En la región toracoabdominal izquierda las laceraciones del diafragma pasan desapercibidas en el escáner y la radiografía. Si no se exploran por laparoscopía, el defecto permanece abierto y con el tiempo el estómago o el colon se hernian hacia el tórax sufriendo estrangulación.',
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Paciente con una herida por arma blanca en el abdomen, hace ocho horas. Está en buenas condiciones, con signos vitales normales y sin irritación peritoneal. Al explorar la herida bajo anestesia local, se confirma que la hoja penetró el peritoneo.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones son: lavado peritoneal diagnóstico, ecografía FAST, suturar la herida, pedir un TAC abdominal, o laparoscopía exploradora. Piénsalo.',
+        answer: 'Es la E. Una vez que confirmas que la herida atravesó el peritoneo, en un paciente estable la conducta es explorar la cavidad, y hoy eso se hace por laparoscopía: te deja ver si hay una lesión visceral, con una agresión mucho menor que abrir el abdomen entero. Suturar la piel sin mirar adentro es la trampa: dejarías pasar una perforación intestinal silenciosa.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos indispensables',
-      title: 'Reglas de oro en trauma abdominal de urgencia',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Algoritmo decisivo e imágenes',
-          tag: 'Prioridades clínicas',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Inestable con FAST positivo va a pabellón',
-              d: 'Laparotomía exploradora urgente; prohibido trasladar al TAC',
-              say: 'La regla de oro del ATLS: shock más líquido libre en el FAST es laparotomía de urgencia inmediata.',
-            },
-            {
-              t: 'Estable va a tomografía con contraste',
-              d: 'Clasifica laceraciones AAST y detecta blush arterial para angio',
-              say: 'Si el paciente está estable, el escáner con contraste endovenoso es el estándar de oro para definir conducta.',
-            },
-          ],
-        },
-        {
-          title: 'Vísceras y profilaxis',
-          tag: 'Seguridad quirúrgica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Órgano más lesionado según mecanismo',
-              d: 'Cerrado bazo, arma blanca hígado, arma de fuego intestino',
-              say: 'Recuerda la epidemiología: cerrado es bazo, arma blanca es hígado y proyectil balístico es intestino delgado.',
-            },
-            {
-              t: 'Vacunación obligatoria post-esplenectomía',
-              d: 'Inmunizar a los catorce días contra neumococo, meningococo y Hib',
-              say: 'Si te llevas una sola idea de hoy: en toda esplenectomía total por trauma debes administrar las vacunas contra bacterias encapsuladas alrededor del día catorce postoperatorio para prevenir la sepsis bacteriana fulminante post-esplenectomía, una complicación con mortalidad mayor al cincuenta por ciento. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'La pregunta que manda', tag: 'Estable o inestable', kind: 'key', items: [
+          { t: 'Inestable + Eco-FAST positivo', d: 'Pabellón directo, nunca el TAC',
+            say: 'Cerremos con las reglas de oro. Inestable con Eco-FAST positivo es pabellón directo, nunca el TAC.' },
+          { t: 'Estable', d: 'TAC con contraste, y a veces manejo sin cirugía',
+            say: 'Estable es TAC con contraste, y muchas veces manejo no operatorio con vigilancia estrecha.' },
+        ] },
+        { title: 'Según cómo llegó el golpe', tag: 'Cerrado o penetrante', kind: 'alert', items: [
+          { t: 'Cerrado: bazo primero', d: 'Penetrante por arma blanca: hígado primero',
+            say: 'En el trauma cerrado, el bazo es el primer sospechoso. En el penetrante por arma blanca, es el hígado.' },
+          { t: 'Signos que van directo a cirugía', d: 'Peritonitis, evisceración o neumoperitoneo',
+            say: 'Y peritonitis, evisceración o neumoperitoneo van directo a cirugía, sin ninguna imagen de por medio. Si te llevas una sola idea de hoy: antes de pensar en qué se rompió, pregúntate si el paciente está estable. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Manejo en Trauma Abdominal Contuso y Penetrante',
-    root: N(
-      'start',
-      'Ingreso de paciente con trauma abdominal sospechado',
-      'Evaluación primaria y monitorización hemodinámica',
-      'Iniciamos el enfrentamiento dividiendo al paciente según su estabilidad hemodinámica y el mecanismo lesional.',
-      [
-        'Inestabilidad hemodinámica (PAS < 90)',
-        N(
-          'q',
-          'Eco-FAST en camilla de reanimación',
-          'Búsqueda de líquido libre en cuatro ventanas',
-          'Realizamos Eco-FAST inmediato en el box de reanimación.',
-          [
-            'Eco-FAST positivo (líquido libre)',
-            N(
-              'alert',
-              'Laparotomía exploradora de urgencia',
-              'Pabellón directo sin demora; prohibido TAC',
-              'El paciente inestable con líquido libre va de inmediato a quirófano para laparotomía de control de daños.'
-            )
-          ],
-          [
-            'Eco-FAST negativo sin líquido libre',
-            N(
-              'do',
-              'Buscar sangrado extraabdominal',
-              'Descartar tórax masivo o fractura de pelvis',
-              'Si el FAST es negativo, se busca hemorragia activa en tórax, retroperitoneo o pelvis inestable.'
-            )
-          ]
-        )
-      ],
-      [
-        'Estabilidad hemodinámica confirmada',
-        N(
-          'q',
-          '¿Mecanismo cerrado o penetrante?',
-          'Selección de estudio diagnóstico según lesión',
-          'En el paciente estable evaluamos si el trauma es contuso o penetrante.',
-          [
-            'Trauma contuso cerrado',
-            N(
-              'do',
-              'Tomografía computarizada con contraste IV',
-              'Gradación AAST y pesquisa de blush arterial',
-              'Realizamos escáner con contraste endovenoso para decidir entre manejo no operatorio o angioembolización.',
-              [
-                'Manejo No Operatorio en UPC',
-                N(
-                  'ok',
-                  'Vigilancia y tromboprofilaxis a las 24-48 h',
-                  'Reposo, hematocrito seriado y enoxaparina',
-                  'Se indica reposo en cama, control de hematocrito e inicio de heparina profiláctica tras estabilización.'
-                )
-              ]
-            )
-          ],
-          [
-            'Herida penetrante por arma blanca anterior',
-            N(
-              'do',
-              'Exploración digital local de la herida en el box',
-              'Verificación de aponeurosis y peritoneo',
-              'Exploramos bajo anestesia local en el box de urgencias.',
-              [
-                'Penetra aponeurosis o peritoneo',
-                N(
-                  'refer',
-                  'Laparoscopía exploradora en pabellón',
-                  'Revisión diafragmática y de víscera hueca',
-                  'Si penetra la fascia, se realiza laparoscopía diagnóstica para descartar lesiones ocultas.'
-                )
-              ]
-            )
-          ]
-        )
-      ]
-    ),
+    title: 'Trauma abdominal: la estabilidad decide el camino',
+    root: N('start', 'Trauma abdominal cerrado o penetrante', 'Eco-FAST junto con el ABC',
+      'Llega un paciente con trauma abdominal, cerrado o penetrante. Haces el Eco-FAST al mismo tiempo que el ABC, buscando solo una cosa: líquido libre en los espacios que revisas.',
+      ['¿Peritonitis, evisceración o neumoperitoneo?', N('alert', 'Laparotomía directa', 'Sin necesidad de ninguna imagen previa',
+        'Con estos signos, no esperas ningún examen: vas directo a pabellón para la laparotomía exploradora.')],
+      ['¿Está inestable y el Eco-FAST es positivo?', N('q', '¿Responde a la reanimación inicial?', 'Fluidos y hemoderivados',
+        'Si el paciente no responde a los fluidos y el Eco-FAST muestra líquido libre, la decisión ya está tomada.',
+        ['No responde', N('alert', 'Laparotomía exploradora urgente', 'Directo a pabellón, nunca al TAC',
+          'Prohibido llevarlo al tomógrafo: el riesgo de morir durante el examen es demasiado alto. Va directo a pabellón, con reanimación continua en el trayecto.')],
+        ['Se estabiliza', N('do', 'TAC de abdomen y pelvis con contraste', 'Ya hay tiempo para estudiar mejor',
+          'Si responde a la reanimación, tienes tiempo para el TAC, que gradúa la lesión y guía la siguiente decisión.')])],
+      ['¿Estable desde el principio?', N('do', 'TAC de abdomen y pelvis con contraste', 'Estándar de oro sin urgencia vital',
+        'Sin inestabilidad, el TAC con contraste es el examen de elección para decidir el manejo.',
+        ['¿Lesión de bazo o hígado, sin víscera hueca?', N('ok', 'Manejo no operatorio', 'Vigilancia y hematocrito seriado',
+          'Sin peritonitis ni sospecha de víscera hueca, la mayoría de estas lesiones se tratan sin cirugía, con vigilancia estrecha y hematocrito seriado hasta confirmar que todo se mantiene estable.')])]),
   },
 };

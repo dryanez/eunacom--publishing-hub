@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Timpanismo o matidez: ese solo dato decide el tratamiento',
-      say: 'Seguimos en trauma, ahora con el tórax. La clase pasada viste que en el paso B tienes que buscar lesiones que matan en minutos. Hoy vamos a esas lesiones una por una, y vas a ver que casi todas se distinguen con dos datos del examen físico: la percusión del tórax, y cómo están las venas del cuello. Partamos por la más urgente de todas.',
+      say: 'Seguimos en trauma, ahora con el tórax. La clase pasada viste que en el paso B tienes que buscar lesiones que matan en minutos. Hoy vamos a esas lesiones una por una, y vas a ver que casi todas se distinguen con dos datos simples del examen físico: la percusión del tórax, y cómo están las venas del cuello en ese momento. Partamos por la más urgente de todas.',
     },
 
     {
@@ -30,15 +30,15 @@ module.exports = {
       ],
       steps: [
         { show: ['val'], note: 'Una laceración que actúa como válvula',
-          say: 'Empecemos por la lesión que más rápido mata. Una laceración en el pulmón o en la pared torácica arma una válvula que solo deja pasar el aire en un sentido.' },
+          say: 'Empecemos por la lesión que más rápido mata dentro del paso B. Una laceración en el pulmón o en la pared torácica arma una válvula que solo deja pasar el aire en un sentido, casi siempre en un paciente que tuvo un trauma cerrado de alta energía o una herida penetrante.' },
         { show: ['atr'], note: 'Entra y se queda adentro',
           say: 'El aire entra a la pleura cuando el paciente inspira, pero no puede salir cuando espira. Con cada respiración se acumula más presión adentro del tórax.' },
         { show: ['med'], note: 'La vena cava se comprime',
           say: 'Esa presión termina desplazando todo el mediastino hacia el lado sano, y comprime la vena cava. El corazón deja de recibir sangre de vuelta.' },
         { show: ['shk'], note: 'Un shock que no es por sangrado',
-          say: 'Y eso produce un shock obstructivo: la presión arterial cae, no porque el paciente esté sangrando, sino porque el corazón no se puede llenar.' },
+          say: 'Y eso produce un shock obstructivo: la presión arterial cae, no porque el paciente esté sangrando, sino porque el corazón no se puede llenar. Es un mecanismo completamente distinto al del hemotórax que viene después.' },
         { show: ['cli'], note: 'Los cuatro signos que se preguntan juntos',
-          say: 'Al examen encuentras el murmullo pulmonar abolido de ese lado, timpanismo al percutir, las venas del cuello ingurgitadas, y la tráquea desviada hacia el lado contrario. Con estos cuatro signos juntos, el diagnóstico es clínico. Nunca esperes una radiografía para descomprimir: eso solo demora una emergencia que se mide en segundos.' },
+          say: 'Al examen encuentras el murmullo pulmonar abolido de ese lado, timpanismo al percutir, las venas del cuello ingurgitadas, y la tráquea desviada hacia el lado contrario. Con estos cuatro signos juntos, el diagnóstico es clínico y no necesita ningún examen de imagen. Nunca esperes una radiografía para descomprimir: eso solo demora una emergencia que se mide en segundos.' },
       ],
     },
 
@@ -61,7 +61,7 @@ module.exports = {
         ] },
         { title: 'Dónde va el tubo', tag: 'El triángulo de seguridad', kind: 'normal', items: [
           { t: 'Quinto espacio intercostal', d: 'Entre la línea axilar anterior y la media',
-            say: 'Y un detalle técnico que se pregunta: el tubo pleural se instala en el quinto espacio intercostal, entre la línea axilar anterior y la media, lo que se llama el triángulo de seguridad.' },
+            say: 'Y un detalle técnico que se pregunta bastante: el tubo pleural se instala en el quinto espacio intercostal, entre la línea axilar anterior y la media, en lo que se llama el triángulo de seguridad de la pared torácica lateral.' },
           { t: 'Por el borde superior de la costilla', d: 'Ahí no está el paquete vascular',
             say: 'Y siempre pasando por el borde superior de la costilla inferior, nunca por el borde inferior, porque ahí es donde corre el paquete vascular intercostal.' },
         ] },
@@ -90,13 +90,13 @@ module.exports = {
         { show: ['hem'], note: 'Más de 1.500 mililitros de entrada',
           say: 'Si esa acumulación pasa de mil quinientos mililitros, o sigue drenando más de doscientos por hora durante varias horas, es un hemotórax masivo.' },
         { show: ['mat'], note: 'El contraste que más se pregunta',
-          say: 'Y aquí está el contraste que el examen adora: a diferencia del neumotórax a tensión, aquí la percusión da matidez, no timpanismo, y las venas del cuello están planas, colapsadas por la hipovolemia, no ingurgitadas.' },
+          say: 'Y aquí está el contraste que el examen adora: a diferencia del neumotórax a tensión, aquí la percusión da matidez, no timpanismo, y las venas del cuello están planas, colapsadas por la hipovolemia, no ingurgitadas como en la otra emergencia.' },
         { show: ['cos'], note: 'Un segmento que ya no tiene marco óseo',
           say: 'El otro escenario es distinto: tres o más costillas rotas, cada una en dos puntos. Ese segmento pierde su marco óseo y queda flotando, separado del resto de la pared.' },
         { show: ['vol'], note: 'Se mete al inspirar, sale al espirar',
           say: 'Por eso se mueve al revés que el resto del tórax: se hunde cuando el paciente inspira, y se abomba cuando espira. Eso es el tórax volante.' },
         { show: ['con'], note: 'El dato que más se pregunta de este tema',
-          say: 'Pero fíjate en el dato que más se pregunta: la hipoxia grave de este paciente no la explica el movimiento paradójico. La explica la contusión pulmonar que va por debajo, con sangre y edema llenando los alvéolos.' },
+          say: 'Pero fíjate en el dato que más se pregunta: la hipoxia grave de este paciente no la explica el movimiento paradójico. La explica la contusión pulmonar que va por debajo, con sangre y edema llenando los alvéolos, algo que el impacto de alta energía deja sobre ese mismo segmento de la pared.' },
       ],
     },
 
@@ -109,11 +109,11 @@ module.exports = {
           { t: 'Tubo pleural grueso', d: 'Con transfusión de hemoderivados en paralelo',
             say: 'El hemotórax se trata con un tubo pleural grueso, y en paralelo, transfusión de hemoderivados.' },
           { t: 'Toracotomía si no para', d: 'Débito inicial alto o sangrado que persiste',
-            say: 'Si al ponerlo sale mucha sangre de entrada, o sigue drenando sin parar, ahí ya no basta el tubo: va a toracotomía para controlar el vaso.' },
+            say: 'Si al ponerlo sale mil quinientos mililitros de entrada, o sigue drenando más de doscientos por hora durante varias horas seguidas, ahí ya no basta el tubo: va a toracotomía para controlar el vaso que sigue sangrando.' },
         ] },
         { title: 'Tórax volante', tag: 'Analgesia y cuidado con el suero', kind: 'criteria', items: [
           { t: 'Analgesia potente', d: 'Para que el paciente respire hondo sin dolor',
-            say: 'El tórax volante se trata con analgesia potente, para que el paciente pueda respirar hondo sin tanto dolor, y así prevenir que el pulmón se colapse por debajo.' },
+            say: 'El tórax volante se trata con analgesia potente, idealmente con un bloqueo regional del nervio, para que el paciente pueda respirar hondo sin tanto dolor, y así prevenir que el pulmón se colapse por debajo con atelectasias.' },
           { t: 'Restringir el suero', d: 'La sobrecarga inunda el pulmón contundido',
             say: 'Y con el suero hay que ser prudente: pasar mucho volumen inunda el pulmón ya contundido y empeora la hipoxia.' },
         ] },
@@ -121,7 +121,7 @@ module.exports = {
           { t: 'Hipotensión, yugulares altas, ruidos apagados', d: 'Con murmullo pulmonar normal',
             say: 'Y el último cuadro es el taponamiento: sangre en el saco pericárdico que no deja llenarse al corazón. La tríada de Beck es hipotensión, yugulares ingurgitadas y ruidos cardíacos apagados, con el murmullo pulmonar completamente normal.' },
           { t: 'Eco-FAST subxifoideo', d: 'Confirma en segundos, y decide el pabellón',
-            say: 'Esa última parte es la clave para no confundirlo con el neumotórax a tensión. El Eco-FAST subxifoideo lo confirma en segundos, y el destino es pabellón para abrir el pericardio.' },
+            say: 'Esa última parte es la clave para no confundirlo con el neumotórax a tensión. El Eco-FAST subxifoideo lo confirma en segundos, y el destino es pabellón para abrir el pericardio. Si no hay pabellón disponible de inmediato, la pericardiocentesis con aguja es solo una medida transitoria mientras se traslada.' },
         ] },
       ],
     },
@@ -142,9 +142,9 @@ module.exports = {
         { cells: ['Venas del cuello', 'Ingurgitadas', 'Colapsadas', 'Ingurgitadas'],
           say: 'En las venas del cuello: ingurgitadas en el neumotórax a tensión, colapsadas en el hemotórax por la hipovolemia, e ingurgitadas otra vez en el taponamiento.' },
         { cells: ['Murmullo pulmonar', 'Abolido de un lado', 'Abolido de un lado', 'Normal, sin cambios'],
-          say: 'Y el murmullo pulmonar es el que separa al taponamiento de los otros dos: en el taponamiento está completamente normal, porque el problema nunca fue el pulmón.' },
+          say: 'Y el murmullo pulmonar es el que separa al taponamiento de los otros dos: en el taponamiento está completamente normal, porque el problema nunca fue el pulmón, sino el saco que envuelve al corazón.' },
         { cells: ['Ante la duda diagnóstica', 'Descomprimir sin esperar radiografía', 'Tubo pleural grueso', 'Eco-FAST subxifoideo'],
-          say: 'Y ante la duda, el error más caro es esperar una radiografía en el neumotórax a tensión. Ahí se descomprime primero y se piensa después.' },
+          say: 'Y ante la duda, el error más caro es esperar una radiografía en el neumotórax a tensión. Ahí se descomprime primero y se piensa después, porque cada minuto que pasa el mediastino se desplaza un poco más.' },
       ],
     },
 
@@ -247,9 +247,9 @@ module.exports = {
       cards: [
         { title: 'El signo que decide todo', tag: 'Percusión y yugulares', kind: 'key', items: [
           { t: 'Timpanismo con yugulares altas', d: 'Neumotórax a tensión: descomprime ya',
-            say: 'Cerremos con las reglas de oro. Timpanismo con yugulares ingurgitadas es neumotórax a tensión: descomprimes de inmediato, sin radiografía.' },
+            say: 'Cerremos con las reglas de oro. Timpanismo con yugulares ingurgitadas es neumotórax a tensión: descomprimes de inmediato, sin radiografía, porque cada minuto de espera empeora el colapso del retorno venoso.' },
           { t: 'Matidez con yugulares planas', d: 'Hemotórax masivo: tubo pleural grueso',
-            say: 'Matidez con yugulares planas es hemotórax masivo: tubo pleural grueso, con transfusión en paralelo.' },
+            say: 'Matidez con yugulares planas es hemotórax masivo: tubo pleural grueso, con transfusión en paralelo, y toracotomía si el débito no cede.' },
         ] },
         { title: 'Lo que no es el pulmón', tag: 'Tórax volante y taponamiento', kind: 'alert', items: [
           { t: 'Tórax volante', d: 'La hipoxia es por la contusión, no por el movimiento',
@@ -266,7 +266,7 @@ module.exports = {
     root: N('start', 'Trauma torácico con dificultad respiratoria', 'Evaluación rápida en el paso B',
       'Un paciente con trauma torácico y dificultad respiratoria. Percute el tórax y mira las venas del cuello: eso separa las tres emergencias.',
       ['Timpanismo, yugulares ingurgitadas, tráquea desviada', N('alert', 'Neumotórax a tensión', 'Descompresión con aguja, sin esperar radiografía',
-        'Con estos cuatro signos, el diagnóstico es clínico: descomprimes con aguja en el segundo espacio intercostal, y después dejas un tubo pleural.')],
+        'Con estos cuatro signos, el diagnóstico es clínico: descomprimes con aguja en el segundo espacio intercostal, y después dejas instalado un tubo pleural definitivo en el quinto espacio.')],
       ['Matidez, yugulares colapsadas, hipovolemia', N('do', 'Hemotórax masivo', 'Tubo pleural grueso y hemoderivados',
         'Con matidez y yugulares planas por la pérdida de sangre, instalas un tubo pleural grueso y transfundes en paralelo.',
         ['¿Débito inicial mayor a 1.500 mL o sangrado persistente?', N('alert', 'Toracotomía', 'Control quirúrgico del vaso sangrante',
