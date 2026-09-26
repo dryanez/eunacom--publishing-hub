@@ -32,7 +32,8 @@ igual que si la clase no existiera. El archivo se sobreescribe con `Write`, no s
 - Seguir el resto de `LESSON_STANDARD.md` normalmente (marco fijo, TTS, preguntas reales, etc.)
 
 ## Progreso
-- Pediatría: ped-01..04 **hecho** (verificado: 0 violaciones t/d en 86 campos, 0 "debe" impersonal en say) · 05..08 **hecho** (verificado: 0/103) · 09..12 **hecho** (verificado: 0/133) · 13..16 **hecho** (verificado: 4/82 t levemente largos, 0/82 d, 0 debe; corregido 1 ERROR de kind inválido en ped-15) · 17..19 **hecho** (verificado: 0/95) · 20..22
+- Pediatría: **LIBRO COMPLETO 22/22.** Auditoría final (577 campos t/d): t>6 palabras 4/577 (0.7%, antes 56%) · d>10 palabras 0/577 (antes 92%) · 71 preguntas reales vs 3 caso representativo · 0 "debe" impersonal en say.
+  - Pendiente aparte (no es parte de este encargo, ya existía antes en varios libros propios también): ~35 quizzes sin el cierre "Piénsalo." que pide el estándar en `say.options` — anotado para una pasada futura si se pide.
 - Ginecología (05-16): pendiente
 - Obstetricia: pendiente
 - Cirugía: pendiente
