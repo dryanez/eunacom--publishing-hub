@@ -34,6 +34,6 @@ igual que si la clase no existiera. El archivo se sobreescribe con `Write`, no s
 ## Progreso
 - Pediatría: **LIBRO COMPLETO 22/22.** Auditoría final (577 campos t/d): t>6 palabras 4/577 (0.7%, antes 56%) · d>10 palabras 0/577 (antes 92%) · 71 preguntas reales vs 3 caso representativo · 0 "debe" impersonal en say.
   - Pendiente aparte (no es parte de este encargo, ya existía antes en varios libros propios también): ~35 quizzes sin el cierre "Piénsalo." que pide el estándar en `say.options` — anotado para una pasada futura si se pide.
-- Ginecología (05-16): gin-05..08 **hecho** (verificado: 0/114 t/d, 0/13 sin Piénsalo) · 09..12 **hecho** (verificado: 0/196 t/d, 0/16 sin Piénsalo) · 13..16
+- Ginecología (05-16): **LIBRO COMPLETO 16/16 (consistente con gin-01..04).** Auditoría final (465 campos t/d): t>6 palabras 7/465 (1.5%) · d>10 palabras 0/465 · 62 preguntas reales vs 1 caso representativo · 0/63 quiz sin Piénsalo · 0 "debe" impersonal.
 - Obstetricia: pendiente
 - Cirugía: pendiente
