@@ -7,9 +7,38 @@
 <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
 <style>
   * { box-sizing: border-box; }
-  html, body { margin:0; height:100%; background:#F5F3EE; color:#111111; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; overflow:hidden; }
-  a { color:#B4322A; text-decoration:none; }
-  a:hover { color:#8C231D; }
+  html, body { margin:0; height:100%; background:#0B0B0B; color:#111111; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; overflow:hidden; overscroll-behavior:none; }
+  a { color:var(--book-acc); text-decoration:none; }
+  a:hover { color:color-mix(in srgb, var(--book-acc) 75%, black); }
+
+  /* ══════ ESCENARIO DE AJUSTE A PANTALLA (RESPONSIVE FIT-TO-SCREEN) ══════
+     El masterclass fue diseñado como un escenario 16:9 de precisión editorial.
+     En vez de reflujar cada elemento pixel-perfecto para cada ancho posible,
+     se escala el escenario completo (igual que un deck de diapositivas) para
+     que se vea idéntico -solo más pequeño o más grande- en teléfono, tablet,
+     ventana angosta o monitor grande, sin recortes ni overflow. */
+  #stage-outer {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0B0B0B;
+    overflow: hidden;
+    touch-action: pan-x pan-y;
+  }
+  #stage {
+    width: 1440px;
+    height: 900px;
+    flex-shrink: 0;
+    transform-origin: center center;
+    background: #F5F3EE;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.35);
+  }
   ::-webkit-scrollbar { width:8px; height:8px; }
   ::-webkit-scrollbar-track { background:#EDEAE2; }
   ::-webkit-scrollbar-thumb { background:#CFC8B6; border-radius:4px; }
@@ -21,13 +50,16 @@
   .btn-hover:hover { background:#EDEAE2; cursor:pointer; }
   .drawer-panel { position:absolute; top:58px; bottom:54px; right:0; width:360px; background:#F5F3EE; border-left:1px solid #111111; z-index:40; display:flex; flex-direction:column; box-shadow:-8px 0 24px rgba(0,0,0,0.06); }
   .modal-overlay { position:fixed; inset:0; background:rgba(17,17,17,0.7); z-index:50; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(3px); }
-  .modal-card { width:780px; max-height:85vh; background:#F5F3EE; border:2px solid #111111; display:flex; flex-direction:column; overflow:hidden; }
+  .modal-card { width:780px; max-height:85%; background:#F5F3EE; border:2px solid #111111; display:flex; flex-direction:column; overflow:hidden; }
 
   :root {
     --acc: #16a34a;
     --acc-t: #f8fafc;
     --acc-p: #0284c7;
     --spring-curve: cubic-bezier(0.34, 1.56, 0.64, 1);
+    /* Color de marca de la especialidad/tomo (igual al color de portada del libro).
+       Se sobreescribe en tiempo de ejecución por clase vía applyBookAccent(). */
+    --book-acc: #B4322A;
   }
   /* High-Resolution SVG Decision Trees */
   #svg-stage svg, #modal-diag-stage svg {
@@ -144,7 +176,9 @@
   }
 </style>
 </head>
-<body class="h-screen w-screen flex flex-col relative select-none">
+<body class="select-none">
+<div id="stage-outer">
+<div id="stage" class="flex flex-col relative">
 
   <!-- CAPA DE ANOTACIONES AUTOMÁTICAS VECTORIALES (MANO HUMANA / DESTACADOR / FLECHAS DINÁMICAS) -->
   <svg id="handdrawn-svg-layer" style="position:absolute; inset:58px 0 54px 0; width:100%; height:calc(100% - 112px); z-index:18; pointer-events:none; overflow:visible;">
@@ -179,7 +213,7 @@
     </div>
 
     <div style="display:flex;align-items:center;padding:0 16px;border-left:1px solid #DCD8CE">
-      <div id="ui-class-badge" style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid #B4322A;padding-bottom:3px">ESTÁNDAR · 15 MIN</div>
+      <div id="ui-class-badge" style="font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border-bottom:3px solid var(--book-acc);padding-bottom:3px">ESTÁNDAR · 15 MIN</div>
     </div>
 
     <div style="display:flex;align-items:center;padding:0 18px;border-left:1px solid #DCD8CE;min-width:96px;justify-content:flex-end">
@@ -209,7 +243,7 @@
   <aside id="notes-drawer" class="drawer-panel" style="display:none">
     <div style="padding:16px 20px;border-bottom:1px solid #111111;display:flex;align-items:center;justify-content:space-between">
       <span class="mono" style="font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#777069">NOTAS DEL DOCENTE</span>
-      <span id="drawer-counter" class="mono" style="font-size:11px;color:#B4322A">Slide 01/12</span>
+      <span id="drawer-counter" class="mono" style="font-size:11px;color:var(--book-acc)">Slide 01/12</span>
     </div>
     <div style="flex:1;overflow:auto;padding:20px;display:flex;flex-direction:column;gap:14px">
       <p id="drawer-notes-content" style="font-size:14px;line-height:1.6;color:#3D3A36;margin:0">
@@ -223,7 +257,7 @@
   </aside>
 
   <!-- INDEX DRAWER -->
-  <aside id="index-drawer" style="position:absolute;top:58px;left:0;right:0;max-height:60vh;background:#F5F3EE;border-bottom:2px solid #111111;z-index:45;display:none;overflow:auto;box-shadow:0 12px 32px rgba(0,0,0,0.15)">
+  <aside id="index-drawer" style="position:absolute;top:58px;left:0;right:0;max-height:60%;background:#F5F3EE;border-bottom:2px solid #111111;z-index:45;display:none;overflow:auto;box-shadow:0 12px 32px rgba(0,0,0,0.15)">
     <div style="padding:20px 24px;display:flex;flex-direction:column;gap:16px" id="index-list">
       <!-- Llenado dinámicamente -->
     </div>
@@ -247,7 +281,7 @@
 
   <!-- MODAL: DIAGRAMA PANTALLA COMPLETA -->
   <div id="diagram-modal" class="modal-overlay" style="display:none;" onclick="if(event.target===this)closeDiagramModal()">
-    <div style="width:94vw; height:92vh; background:#FFFFFF; border:3px solid #111111; display:flex; flex-direction:column; overflow:hidden; border-radius:6px; box-shadow:0 24px 64px rgba(0,0,0,0.3);">
+    <div style="width:94%; height:92%; background:#FFFFFF; border:3px solid #111111; display:flex; flex-direction:column; overflow:hidden; border-radius:6px; box-shadow:0 24px 64px rgba(0,0,0,0.3);">
       <div style="padding:14px 20px; background:#111111; color:#FFFFFF; display:flex; align-items:center; justify-content:space-between;">
         <div style="font-size:13px; font-weight:800; letter-spacing:0.08em; text-transform:uppercase;" id="modal-diag-title">ALGORITMO CLÍNICO VECTORIAL (ALTA RESOLUCIÓN)</div>
         <button onclick="closeDiagramModal()" style="background:transparent; border:none; color:#FFFFFF; font-size:20px; font-weight:800; cursor:pointer;">✕</button>
@@ -260,7 +294,7 @@
   <!-- BOTTOM ACTION DOCK -->
   <footer class="swiss-dock">
     <div id="btn-prev" class="btn-hover" style="padding:14px 16px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;border-right:1px solid #DCD8CE">← Atrás</div>
-    <div id="btn-next" class="btn-hover" style="padding:14px 20px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#B4322A">Adelante →</div>
+    <div id="btn-next" class="btn-hover" style="padding:14px 20px;font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--book-acc)">Adelante →</div>
     
     <!-- ELEVENLABS MASTERCLASS VOICEOVER CONTROLLER -->
     <div style="display:flex;align-items:center;gap:14px;padding:0 20px;border-left:1px solid #DCD8CE;border-right:1px solid #DCD8CE;">
@@ -276,7 +310,7 @@
           <span id="audio-time-total">00:30</span>
         </div>
         <div style="width:100%;height:5px;background:#DCD8CE;border-radius:3px;overflow:hidden;cursor:pointer;" id="audio-progress-container">
-          <div id="audio-progress-bar" style="width:0%;height:100%;background:#B4322A;transition:width 0.15s linear;"></div>
+          <div id="audio-progress-bar" style="width:0%;height:100%;background:var(--book-acc);transition:width 0.15s linear;"></div>
         </div>
       </div>
 
@@ -326,6 +360,46 @@
     let activeTool = null;
     let zoomLevel = 1;
 
+    // ══════ COLOR DE MARCA POR ESPECIALIDAD (igual al color de portada del libro) ══════
+    function bookAccentHex() {
+      return (getComputedStyle(document.documentElement).getPropertyValue('--book-acc') || '#B4322A').trim();
+    }
+    function bookAccentRGBA(alpha) {
+      const hex = bookAccentHex().replace('#', '');
+      const r = parseInt(hex.substring(0, 2), 16) || 0;
+      const g = parseInt(hex.substring(2, 4), 16) || 0;
+      const b = parseInt(hex.substring(4, 6), 16) || 0;
+      return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
+    }
+    function applyBookAccent(hex) {
+      document.documentElement.style.setProperty('--book-acc', hex || '#B4322A');
+    }
+
+    // Convierte un DOMRect real (post-transform) a coordenadas locales del
+    // escenario de 1440x900, para que las anotaciones SVG/canvas dibujadas a
+    // partir de getBoundingClientRect() se alineen sin importar el zoom de ajuste.
+    function scaleRect(r) {
+      return {
+        left: r.left / stageScale, right: r.right / stageScale,
+        top: r.top / stageScale, bottom: r.bottom / stageScale,
+        width: r.width / stageScale, height: r.height / stageScale
+      };
+    }
+
+    // ══════ ESCENARIO DE AJUSTE A PANTALLA (RESPONSIVE FIT-TO-SCREEN) ══════
+    // Escala el escenario fijo de 1440x900 para que quepa completo en cualquier
+    // ventana o teléfono, sin recortes, manteniendo la fidelidad del diseño.
+    let stageScale = 1;
+    function fitStage() {
+      const stage = document.getElementById('stage');
+      if (!stage) return;
+      stageScale = Math.min(window.innerWidth / 1440, window.innerHeight / 900);
+      stage.style.transform = 'scale(' + stageScale + ')';
+      if (typeof resizeCanvas === 'function') resizeCanvas();
+    }
+    window.addEventListener('resize', fitStage);
+    window.addEventListener('orientationchange', fitStage);
+
     // Inicializar Canvas de Anotación
     const canvas = document.getElementById('annotator-canvas');
     const ctx = canvas.getContext('2d');
@@ -344,14 +418,14 @@
       canvas.setPointerCapture(e.pointerId);
       ctx.beginPath();
       const r = canvas.getBoundingClientRect();
-      ctx.moveTo(e.clientX - r.left, e.clientY - r.top);
+      ctx.moveTo((e.clientX - r.left) / stageScale, (e.clientY - r.top) / stageScale);
     });
 
     canvas.addEventListener('pointermove', (e) => {
       if (!isDrawing || !activeTool) return;
       const r = canvas.getBoundingClientRect();
       if (activeTool === 'marker') {
-        ctx.strokeStyle = 'rgba(180,50,42,0.28)';
+        ctx.strokeStyle = bookAccentRGBA(0.28);
         ctx.lineWidth = 18;
       } else {
         ctx.strokeStyle = '#111111';
@@ -359,7 +433,7 @@
       }
       ctx.lineCap = 'round';
       ctx.lineJoin = 'round';
-      ctx.lineTo(e.clientX - r.left, e.clientY - r.top);
+      ctx.lineTo((e.clientX - r.left) / stageScale, (e.clientY - r.top) / stageScale);
       ctx.stroke();
     });
 
@@ -376,7 +450,7 @@
       canvas.style.pointerEvents = activeTool ? 'auto' : 'none';
       document.getElementById('tool-pen').style.background = activeTool === 'pen' ? '#111111' : '#F5F3EE';
       document.getElementById('tool-pen').style.color = activeTool === 'pen' ? '#F5F3EE' : '#111111';
-      document.getElementById('tool-marker').style.background = activeTool === 'marker' ? '#B4322A' : '#F5F3EE';
+      document.getElementById('tool-marker').style.background = activeTool === 'marker' ? bookAccentHex() : '#F5F3EE';
       document.getElementById('tool-marker').style.color = activeTool === 'marker' ? '#F5F3EE' : '#111111';
     }
 
@@ -433,14 +507,15 @@
     }
 
     // Dibujar flecha orgánica entre dos elementos DOM (trazada en vivo con pluma humana)
-    function drawHandDrawnArrow(fromEl, toEl, color = '#B4322A') {
+    function drawHandDrawnArrow(fromEl, toEl, color = null) {
+      color = color || bookAccentHex();
       const svg = document.getElementById('handdrawn-svg-layer');
       const arrowsGroup = document.getElementById('handdrawn-arrows-group');
       if (!svg || !arrowsGroup || !fromEl || !toEl) return null;
 
-      const svgR = svg.getBoundingClientRect();
-      const rA = fromEl.getBoundingClientRect();
-      const rB = toEl.getBoundingClientRect();
+      const svgR = scaleRect(svg.getBoundingClientRect());
+      const rA = scaleRect(fromEl.getBoundingClientRect());
+      const rB = scaleRect(toEl.getBoundingClientRect());
 
       const isSideBySide = rB.left >= (rA.right - 40);
       let d = '';
@@ -483,7 +558,7 @@
       path.setAttribute('stroke-width', '3.2');
       path.setAttribute('class', 'handdrawn-arrow-path');
       path.setAttribute('filter', 'url(#handdrawn-jitter)');
-      path.style.filter = 'drop-shadow(0 2px 4px rgba(180,50,42,0.18)) url(#handdrawn-jitter)';
+      path.style.filter = 'drop-shadow(0 2px 4px ' + bookAccentRGBA(0.18) + ') url(#handdrawn-jitter)';
 
       arrowsGroup.appendChild(path);
 
@@ -506,8 +581,8 @@
       const hlGroup = document.getElementById('handdrawn-highlighter-group');
       if (!svg || !hlGroup || !targetEl) return;
 
-      const svgR = svg.getBoundingClientRect();
-      const rects = targetEl.getClientRects();
+      const svgR = scaleRect(svg.getBoundingClientRect());
+      const rects = Array.from(targetEl.getClientRects()).map(scaleRect);
 
       let strokeColor = 'rgba(245, 158, 11, 0.38)'; // Amarillo cálido clínico
       if (kind === 'alert') strokeColor = 'rgba(180, 50, 42, 0.26)'; // Rojo carmesí
@@ -582,7 +657,7 @@
             const prevCard = document.getElementById('card-step-' + (currentStepIdx - 1));
             const curCard = document.getElementById('card-step-' + currentStepIdx);
             if (prevCard && curCard) {
-              drawHandDrawnArrow(prevCard, curCard, '#B4322A');
+              drawHandDrawnArrow(prevCard, curCard, bookAccentHex());
             }
           }
 
@@ -1178,6 +1253,9 @@
       const sl = currentSlide();
       const total = cls.slides.length;
 
+      // Color de marca de la especialidad (idéntico al tomo/portada impresa)
+      applyBookAccent(cls.accent);
+
       // Header UI
       document.getElementById('ui-class-title').innerText = cls.title;
       document.getElementById('ui-class-code').innerText = cls.code;
@@ -1201,7 +1279,7 @@
         if (i < activeSlideIdx) {
           seg.style.background = '#111111';
         } else if (i === activeSlideIdx) {
-          seg.style.background = '#B4322A';
+          seg.style.background = bookAccentHex();
         } else {
           seg.style.background = '#DCD8CE';
         }
@@ -1237,7 +1315,7 @@
         vp.innerHTML = `
           <div style="flex:1; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:36px 56px; text-align:center; position:relative; box-sizing:border-box;">
             <!-- Glow sutil de fondo -->
-            <div style="position:absolute; width:520px; height:520px; background:radial-gradient(circle, rgba(180,50,42,0.16) 0%, rgba(15,23,42,0) 70%); top:50%; left:50%; transform:translate(-50%, -50%); pointer-events:none;"></div>
+            <div style="position:absolute; width:520px; height:520px; background:radial-gradient(circle, ${bookAccentRGBA(0.16)} 0%, rgba(15,23,42,0) 70%); top:50%; left:50%; transform:translate(-50%, -50%); pointer-events:none;"></div>
 
             <!-- Kicker / Especialidad -->
             <div style="margin-bottom:18px; z-index:1;">
@@ -1441,7 +1519,7 @@
 
         contentHtml = `
           <div style="flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;overflow:auto;">
-            <div id="quiz-stem" class="step-card step-active" style="background:#EDEAE2;border-left:4px solid #B4322A;padding:12px 18px;font-size:14px;line-height:1.5;color:#111111;border-radius:3px;">
+            <div id="quiz-stem" class="step-card step-active" style="background:#EDEAE2;border-left:4px solid var(--book-acc);padding:12px 18px;font-size:14px;line-height:1.5;color:#111111;border-radius:3px;">
               ${stemHighlighted}
             </div>
             <div id="quiz-question" class="step-card ${revealMode === 'progressive' ? 'step-pending' : 'step-active'}" style="font-size:14px;font-weight:700;color:#111111;">${sl.question}</div>
@@ -1541,7 +1619,7 @@
         item.style.cursor = 'pointer';
         item.className = 'btn-hover';
         item.innerHTML = `
-          <span class="mono" style="width:36px;font-size:12px;font-weight:700;color:${i === activeSlideIdx ? '#B4322A' : '#777069'}">${String(i+1).padStart(2,'0')}</span>
+          <span class="mono" style="width:36px;font-size:12px;font-weight:700;color:${i === activeSlideIdx ? 'var(--book-acc)' : '#777069'}">${String(i+1).padStart(2,'0')}</span>
           <span style="flex:1;font-size:14px;font-weight:${i === activeSlideIdx ? '700' : '400'}">${s.title}</span>
           <span class="mono" style="font-size:11px;text-transform:uppercase;color:#777069">${s.type}</span>
         `;
@@ -1589,7 +1667,7 @@
         item.style.alignItems = 'center';
         item.style.justifyContent = 'space-between';
         item.style.padding = '12px 16px';
-        item.style.border = idx === activeClassIdx ? '2px solid #B4322A' : '1px solid #DCD8CE';
+        item.style.border = idx === activeClassIdx ? '2px solid var(--book-acc)' : '1px solid #DCD8CE';
         item.style.background = idx === activeClassIdx ? '#EDEAE2' : '#F5F3EE';
         item.style.cursor = 'pointer';
         item.className = 'btn-hover';
@@ -1671,8 +1749,11 @@
     });
 
     // Iniciar
+    fitStage();
     renderAll();
     setupAudioForSlide(false);
   </script>
+</div>
+</div>
 </body>
 </html>

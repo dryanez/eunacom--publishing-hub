@@ -6,6 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { accentForSpecialty } = require('./specialty_colors.cjs');
 
 const ROOT = path.join(__dirname, '..', '..');
 const GASTRO_PATH = path.join(ROOT, 'classes', 'curriculum', 'gastroenterologia_decks_data.json');
@@ -474,6 +475,7 @@ function adaptDeckToSwiss(deck, specialtyName) {
   return {
     id: deck.id,
     specialty: specialtyName,
+    accent: accentForSpecialty(specialtyName),
     title: stripEmojis(deck.title),
     code: 'ASOFAMECh · ' + code + ' · Perfil V3',
     badge: tierName,
@@ -516,9 +518,18 @@ const outPath = path.join(ROOT, 'classes', 'decks', 'Reproductor_Suiza_Oficial.h
 fs.writeFileSync(outPath, htmlContent, 'utf8');
 console.log(`✔ Reproductor Suizo Oficial generado exitosamente en: ${outPath}`);
 
-const artifactPath = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c/reproductor_suizo.html';
-fs.writeFileSync(artifactPath, htmlContent, 'utf8');
-const artifactPath2 = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c/reproductor_suizo_oficial.html';
-fs.writeFileSync(artifactPath2, htmlContent, 'utf8');
-console.log(`✔ Artefactos Antigravity generados exitosamente.`);
+// Copia sincronizada usada por algunos enlaces/entornos como player.html
+const playerCopyPath = path.join(ROOT, 'classes', 'decks', 'player.html');
+fs.writeFileSync(playerCopyPath, htmlContent, 'utf8');
+console.log(`✔ Copia sincronizada generada en: ${playerCopyPath}`);
+
+// Artefactos opcionales de un entorno de desarrollo local (Antigravity). Solo se
+// escriben si esa carpeta existe en esta máquina; en cualquier otro entorno se
+// omiten sin interrumpir la generación del reproductor.
+const artifactDir = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c';
+if (fs.existsSync(artifactDir)) {
+  fs.writeFileSync(path.join(artifactDir, 'reproductor_suizo.html'), htmlContent, 'utf8');
+  fs.writeFileSync(path.join(artifactDir, 'reproductor_suizo_oficial.html'), htmlContent, 'utf8');
+  console.log('✔ Artefactos Antigravity generados exitosamente.');
+}
 
