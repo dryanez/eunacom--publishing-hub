@@ -1,7 +1,46 @@
-// Clase 1.1 — guion docente escrito a mano (estándar Módulo 3 · Obstetricia).
-// Fuente clínica: books/scripts/dataset_obstetricia.cjs (ob-01).
+// Clase 19.1 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_obstetricia_bloque_1.cjs (ob-01).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+const pwPenicilina = N('alert', 'Penicilina G endovenosa', 'Al entrar en trabajo de parto',
+  'Si el cultivo sale positivo, no la tratas antes. Anotas el resultado en su carné, y ella recibe penicilina G endovenosa apenas entre en trabajo de parto, o se le rompan las membranas.');
+
+const pwSinTratar = N('ok', 'No necesita nada más', 'Cultivo negativo, control habitual',
+  'Si el cultivo sale negativo, sigue con el control habitual, sin ninguna profilaxis.');
+
+const pwEgb = N('q', '¿El cultivo salió positivo?', 'Streptococcus agalactiae',
+  'Y aquí viene la pregunta donde más se equivocan: ¿el cultivo salió positivo?',
+  ['Sí', pwPenicilina],
+  ['No', pwSinTratar]);
+
+const pwBateria1 = N('do', 'Batería del primer trimestre', 'Grupo, Rh, VDRL, VIH, glicemia',
+  'Antes de las doce semanas pides la batería completa: grupo y Rh, Coombs indirecto, VDRL, test de VIH, glicemia de ayunas, orina y urocultivo.');
+
+const pwPtgo = N('do', 'PTGO con 75 gramos', 'A todas, entre las 24 y 28 semanas',
+  'Entre las veinticuatro y las veintiocho semanas, la prueba de tolerancia a la glucosa con setenta y cinco gramos va para todas tus pacientes, no solo para las de riesgo.');
+
+const pwSemana = N('q', '¿En qué semana está?', 'Eso decide el examen',
+  'Lo primero que te preguntas es en qué semana está tu paciente, porque eso decide qué examen toca.',
+  ['Antes de las 12 semanas', pwBateria1],
+  ['Entre las 24 y 28 semanas', pwPtgo],
+  ['Entre las 35 y 37 semanas', pwEgb]);
+
+const pwAlto = N('do', 'Ácido fólico 4 a 5 mg', 'Alto riesgo de defecto del tubo neural',
+  'Si tiene un hijo previo con defecto del tubo neural, es diabética, o toma anticonvulsivantes, le indicas cuatro a cinco miligramos al día.');
+
+const pwBajo = N('do', 'Ácido fólico 0,4 a 1 mg', 'Bajo riesgo, sin antecedentes',
+  'Si no tiene esos antecedentes, con cero coma cuatro a un miligramo al día te alcanza.');
+
+const pwRiesgo = N('q', '¿Tiene antecedente de riesgo?', 'Para el tubo neural',
+  'La otra pregunta te la haces desde el primer control: ¿tiene algún antecedente de riesgo para el tubo neural?',
+  ['Sí: hijo con DTN, diabética o anticonvulsivantes', pwAlto],
+  ['No', pwBajo]);
+
+const pwRoot = N('start', 'Primer control prenatal', 'Dos preguntas antes de recetar',
+  'Aquí tienes a tu paciente en su primer control. Antes de recetar nada, hazte dos preguntas.',
+  ['¿Cuánto ácido fólico le indico?', pwRiesgo],
+  ['¿Qué examen toca esta semana?', pwSemana]);
 
 module.exports = {
   id: 'ob-01',
@@ -9,423 +48,213 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Calendario de controles, cálculo de edad gestacional, suplementación con ácido fólico y batería de exámenes por trimestre',
-      say: 'Bienvenidos al módulo tres de ginecología y obstetricia. Iniciamos con la clase fundamental de la especialidad: el control prenatal de bajo riesgo. En esta sesión dominaremos el calendario de controles según las normas técnicas del Ministerio de Salud, el cálculo exacto de la fecha probable de parto, las dosis diferenciales de suplementación con ácido fólico, calcio y fierro, y la batería cronológica de exámenes por trimestre. Comencemos.',
+      subtitle: 'Calendario, suplementación y la batería de exámenes que no te puedes saltar',
+      say: 'Bienvenido a la primera clase de obstetricia. Vas a ver el control prenatal de bajo riesgo: el calendario de visitas, cuánto ácido fólico, calcio y hierro le indicas a tu paciente, y qué examen toca en cada trimestre. Suena administrativo, pero es de las clases más rentables del examen, porque casi todo se pregunta con una fecha o una dosis exacta. Empecemos.',
     },
 
     {
       type: 'flow',
-      kicker: 'Cronología y principios',
-      title: 'Principios rectores del control prenatal y cálculo de edad gestacional',
+      kicker: 'Antes de todo',
+      title: '¿En qué semana está tu paciente?',
       nodes: [
-        { id: 'pre', col: 0, row: 2, k: 'start', t: 'Ingreso precoz', s: 'Ideal antes de las 12 semanas · integral y continuo' },
-        { id: 'fur', col: 1, row: 1, k: 'mech', t: 'Regla de Naegele', s: 'FUR confiable: más siete días y menos tres meses' },
-        { id: 'eco', col: 2, row: 0, k: 'alert', t: 'Ecografía precoz LCN', s: 'Longitud céfalo-nalgas de 7 a 14 semanas · máxima precisión' },
-        { id: 'cor', col: 2, row: 2, k: 'risk', t: 'Ajuste de edad gestacional', s: 'Discrepancia mayor a cinco a siete días corrige FUR' },
-        { id: 'per', col: 3, row: 1, k: 'good', t: 'Controles periódicos', s: 'Mensual hasta semana 28 · quincenal a 36 · semanal al parto' },
-        { id: 'pla', col: 4, row: 2, k: 'good', t: 'Plan de parto y pesquisa', s: 'Detección temprana de patologías materno-fetales' },
+        { id: 'fum', col: 0, row: 1, k: 'start', t: 'Fecha de última regla', s: 'Si el ciclo era regular y confiable' },
+        { id: 'nag', col: 1, row: 1, k: 'mech', t: 'Regla de Naegele', s: 'Más siete días, menos tres meses' },
+        { id: 'eco', col: 0, row: 3, k: 'cause', t: 'Ecografía precoz', s: 'Longitud céfalo-nalgas, entre 7 y 14 semanas' },
+        { id: 'dif', col: 1, row: 2, k: 'q', t: '¿Cuánto difieren?', s: 'Fecha de regla versus ecografía' },
+        { id: 'cor', col: 2, row: 3, k: 'good', t: 'Corriges por la ecografía', s: 'Pasa a ser la fecha oficial' },
+        { id: 'man', col: 2, row: 1, k: 'effect', t: 'Mantienes la fecha de regla', s: 'Diferencia pequeña' },
       ],
       edges: [
-        { from: 'pre', to: 'fur', label: 'anamnesis' },
-        { from: 'fur', to: 'eco', label: 'confirmación' },
-        { from: 'fur', to: 'cor', label: 'evaluar desfase' },
-        { from: 'eco', to: 'cor', label: 'criterio LCN' },
-        { from: 'cor', to: 'per', label: 'cronograma' },
-        { from: 'per', to: 'pla', label: 'término' },
+        { from: 'fum', to: 'nag' },
+        { from: 'nag', to: 'dif' },
+        { from: 'eco', to: 'dif' },
+        { from: 'dif', to: 'cor', label: 'más de 5 a 7 días' },
+        { from: 'dif', to: 'man', label: 'menos de 5 días' },
       ],
       steps: [
-        {
-          show: ['pre', 'fur'],
-          note: 'Ingreso precoz y regla de Naegele',
-          say: 'El control prenatal debe ser precoz, idealmente antes de las doce semanas de gestación, periódico, continuo e integral. Para determinar la fecha probable de parto se utiliza la regla de Naegele a partir de una fecha de última regla segura y confiable: se suman siete días y se restan tres meses al primer día de la última menstruación.',
-        },
-        {
-          show: ['eco', 'cor'],
-          note: 'Confirmación y corrección ecográfica',
-          say: 'El estándar de máxima precisión para fijar la edad gestacional es la ecografía precoz del primer trimestre mediante la medición de la longitud céfalo-nalgas entre las siete y catorce semanas. Si existe una discrepancia mayor a cinco a siete días entre la fecha de última regla y la ecografía precoz, la edad gestacional se corrige oficialmente por la ecografía.',
-        },
-        {
-          show: ['per', 'pla'],
-          note: 'Periodicidad del seguimiento clínico',
-          say: 'En un embarazo de bajo riesgo, el calendario estandarizado establece un control mensual hasta la semana veintiocho, luego cada quince días entre las semanas veintiocho y treinta y seis, y finalmente semanal desde la semana treinta y seis hasta el momento del parto.',
-        },
+        { show: ['fum'], note: 'Punto de partida: la fecha de última regla',
+          say: 'Antes de pedir cualquier examen, tienes que saber en qué semana está tu paciente, porque de eso depende todo lo demás. Si su fecha de última regla es confiable y su ciclo era regular, partes de ahí.' },
+        { show: ['nag'], note: 'Naegele: más siete días, menos tres meses',
+          say: 'Con esa fecha aplicas la regla de Naegele: le sumas siete días y le restas tres meses. Ahí tienes la fecha probable de parto.' },
+        { show: ['eco'], note: 'La ecografía precoz mide mejor',
+          say: 'Pero fíjate en algo importante: la ecografía del primer trimestre, entre las siete y las catorce semanas, mide la longitud céfalo-nalgas, y es más precisa que la fecha que te da la paciente.' },
+        { show: ['dif'], note: 'Comparas las dos fechas',
+          say: 'Entonces comparas las dos. ¿Y si no coinciden?' },
+        { show: ['cor'], note: 'Diferencia grande: gana la ecografía',
+          say: 'Si la diferencia es mayor a cinco o siete días, la ecografía gana: se vuelve la fecha oficial, y ya no se mueve más.' },
+        { show: ['man'], note: 'Diferencia chica: te quedas con la regla',
+          say: 'Si la diferencia es menor, te quedas con la fecha de última regla. Esa diferencia se pregunta seguido, así que guárdala.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Evaluación clínica basal',
-      title: 'Parámetros obligatorios en cada control prenatal',
+      kicker: 'Suplementación',
+      title: 'Lo que le recetas, y cuándo empieza cada cosa',
       cards: [
-        {
-          title: 'Examen físico y signos vitales',
-          kind: 'criteria',
-          items: [
-            {
-              text: 'Presión arterial sentada con manguito adecuado: pesquisa de hipertensión gestacional.',
-              say: 'La toma rigurosa de la presión arterial en el brazo derecho con la paciente sentada es el parámetro físico más relevante en cada control para pesquisar precozmente trastornos hipertensivos del embarazo.',
-            },
-            {
-              text: 'Curva de peso materno e incremento según índice de masa corporal pregestacional.',
-              say: 'El incremento ponderal se evalúa con la gráfica de Rosso y Mardones según el estado nutricional inicial: las pacientes con enflaquecimiento deben ganar entre doce y dieciocho kilos, mientras que en pacientes con obesidad se restringe la ganancia entre cinco y nueve kilos.',
-            },
-          ],
-        },
-        {
-          title: 'Parámetros fetales y obstétricos',
-          kind: 'key',
-          items: [
-            {
-              text: 'Altura uterina con huincha métrica desde el borde superior del pubis al fondo uterino.',
-              say: 'La altura uterina se mide en centímetros desde la semana veinte. Un crecimiento menor al percentil diez obliga a descartar restricción del crecimiento fetal u oligohidramnios; una altura sobre el percentil noventa orienta a macrosomía o polihidramnios.',
-            },
-            {
-              text: 'Auscultación de latidos cardiofetales con doppler portátil desde las doce semanas.',
-              say: 'Los latidos cardiofetales normales oscilan entre ciento diez y ciento sesenta latidos por minuto. Su ausencia o alteración del ritmo obliga a evaluación fetal urgente.',
-            },
-          ],
-        },
+        { title: 'Ácido fólico', tag: 'Antes del embarazo', kind: 'pharma', items: [
+          { t: 'Bajo riesgo', d: '0,4 a 1 miligramo al día',
+            say: 'Pasemos a lo que le vas a recetar. En una paciente sin antecedentes, el ácido fólico va de cero coma cuatro a un miligramo al día.' },
+          { t: 'Alto riesgo', d: '4 a 5 miligramos al día',
+            say: 'Pero si hay un hijo previo con defecto del tubo neural, si es diabética, o si toma anticonvulsivantes, la dosis sube diez veces: cuatro a cinco miligramos al día. Y en los dos casos, empiezas tres meses antes de buscar el embarazo, y mantienes hasta que se cierra el tubo neural, a las doce semanas.' },
+        ] },
+        { title: 'Carbonato de calcio', tag: 'Desde las 12 a 16 semanas', kind: 'pharma', items: [
+          { t: '1.000 a 1.500 mg al día', d: 'Recién desde las 12 a 16 semanas',
+            say: 'El calcio arranca después, entre las doce y las dieciséis semanas, con mil a mil quinientos miligramos al día. Fíjate en el porqué: baja el riesgo de preeclampsia en más de la mitad.' },
+        ] },
+        { title: 'Hierro oral', tag: 'Desde las 16 a 20 semanas', kind: 'pharma', items: [
+          { t: '30 a 60 mg al día', d: 'Si la hemoglobina o ferritina están al límite',
+            say: 'El hierro se suma desde las dieciséis a veinte semanas, si la hemoglobina o la ferritina están justo en el límite. Y acuérdate de la meta: hemoglobina de once o más en el primer y tercer trimestre, y diez coma cinco en el segundo, porque ahí el plasma se diluye más.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Suplementación farmacológica universal',
-      title: 'Ácido fólico: prevención de defectos del tubo neural',
+      kicker: 'Batería de exámenes',
+      title: 'Qué toca en cada trimestre',
       cards: [
-        {
-          title: 'Población general de bajo riesgo',
-          kind: 'key',
-          items: [
-            {
-              text: 'Dosis estándar: cero coma cuatro a un miligramo al día por vía oral.',
-              say: 'En la población general sin factores de riesgo, la recomendación oficial del Ministerio de Salud es indicar ácido fólico en dosis de cero coma cuatro a un miligramo al día por vía oral.',
-            },
-            {
-              text: 'Ventana temporal crítica: tres meses antes de la concepción hasta la semana doce.',
-              say: 'Para asegurar el cierre adecuado del tubo neural, que culmina a los veintiocho días postconcepción, el suplemento debe iniciarse al menos tres meses antes del embarazo y continuarse durante todo el primer trimestre hasta la semana doce.',
-            },
-          ],
-        },
-        {
-          title: 'Población de alto riesgo',
-          kind: 'alert',
-          items: [
-            {
-              text: 'Dosis alta: cuatro a cinco miligramos al día por vía oral.',
-              say: 'Se debe prescribir una dosis diez veces mayor, de cuatro a cinco miligramos al día, en cuatro situaciones específicas muy preguntadas en el examen.',
-            },
-            {
-              text: 'Indicaciones formales de dosis alta: hijo previo con defecto del tubo neural, diabetes pregestacional, obesidad mórbida o uso de anticonvulsivantes como ácido valproico o carbamazepina.',
-              say: 'Las indicaciones categóricas son: antecedente de un hijo previo con anencefalia o espina bífida, madre con diabetes mellitus pregestacional, obesidad materna severa o usuaria de fármacos anticonvulsivantes antifolato como ácido valproico o carbamazepina.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Micronutrientes esenciales',
-      title: 'Suplementación con calcio y fierro elemental en el embarazo',
-      cards: [
-        {
-          title: 'Calcio para prevención de preeclampsia',
-          kind: 'pharma',
-          items: [
-            {
-              text: 'Dosis de mil a mil quinientos miligramos al día desde la semana doce de gestación.',
-              say: 'El carbonato de calcio en dosis de mil a mil quinientos miligramos de calcio elemental al día se indica desde las doce semanas hasta el parto en mujeres con baja ingesta láctea o con factores de riesgo de preeclampsia. Reduce significativamente la incidencia de hipertensión gestacional.',
-            },
-            {
-              text: 'Separar la toma de calcio de la de fierro para evitar interferencia en la absorción intestinal.',
-              say: 'Ojo con este detalle práctico: el calcio y el fierro compiten por el mismo transportador intestinal de cationes divalentes. Deben administrarse separados por al menos dos horas.',
-            },
-          ],
-        },
-        {
-          title: 'Fierro elemental universal',
-          kind: 'key',
-          items: [
-            {
-              text: 'Suplementación universal profiláctica: treinta a sesenta miligramos al día desde la semana veinte.',
-              say: 'A partir de la semana veinte se inicia suplementación universal con treinta a sesenta miligramos al día de hierro elemental, habitualmente como sulfato ferroso doscientos miligramos al día, para compensar la expansión fisiológica del volumen plasmático y el consumo fetal.',
-            },
-            {
-              text: 'Dosis terapéutica en anemia: ciento veinte a doscientos miligramos de hierro elemental al día.',
-              say: 'Si la hemoglobina desciende bajo once gramos por decilitro en el primer o tercer trimestre, o bajo diez coma cinco en el segundo trimestre, se duplica la dosis a tratamiento curativo de anemia ferropénica.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Batería sistemática de laboratorio',
-      title: 'Exámenes de ingreso en el primer trimestre de gestación',
-      head: ['Examen de ingreso', 'Objetivo clínico y corte patológico', 'Conducta médica inmediata'],
-      rows: [
-        {
-          cells: [
-            'Grupo sanguíneo y factor Rh con Coombs indirecto',
-            'Identificar pacientes Rh negativas y evaluar aloinmunización eritrocitaria previa',
-            'Si Rh negativa con Coombs negativo, repetir Coombs a las veintiocho semanas e indicar profilaxis con inmunoglobulina anti-D.',
-          ],
-          say: 'El grupo sanguíneo y factor Rh junto al test de Coombs indirecto pesquisan el riesgo de enfermedad hemolítica perinatal. Si la madre es Rh negativa y no está sensibilizada, se repetirá el Coombs a las veintiocho semanas para administrar la inmunoglobulina anti-D.',
-        },
-        {
-          cells: [
-            'Glicemia en ayunas del primer trimestre',
-            'Pesquisa de diabetes pregestacional o diabetes gestacional precoz',
-            'Glicemia entre cien y ciento veinticinco en dos tomas confirma diabetes gestacional; mayor o igual a ciento veintiséis confirma diabetes pregestacional.',
-          ],
-          say: 'En Chile, una glicemia en ayunas entre cien y ciento veinticinco miligramos por decilitro en dos ocasiones distintas durante el primer trimestre diagnostica diabetes gestacional. Si supera ciento veintiséis en dos tomas, define diabetes pregestacional.',
-        },
-        {
-          cells: [
-            'VDRL o RPR y serología VIH con consentimiento',
-            'Prevención de transmisión vertical de sífilis congénita y virus de inmunodeficiencia humana',
-            'Si VDRL es reactivo, tratar de inmediato con Penicilina Benzatina según etapa; si VIH es positivo, iniciar triterapia antirretroviral GES.',
-          ],
-          say: 'El VDRL o RPR y el test de VIH son universales para prevenir la transmisión vertical. Si el VDRL es reactivo, se confirma y se inicia penicilina benzatina de inmediato. La penicilina es el único fármaco que trata eficazmente al feto.',
-        },
-        {
-          cells: [
-            'Sedimento de orina y Urocultivo',
-            'Pesquisa sistemática de bacteriuria asintomática presente en el cinco al diez por ciento',
-            'Tratar todo urocultivo positivo con más de cien mil unidades formadoras de colonias con antibióticos por siete días.',
-          ],
-          say: 'El urocultivo es mandatorio porque la bacteriuria asintomática no tratada progresa a pielonefritis aguda en un tercio de las embarazadas, gatillando sepsis y parto prematuro. Se trata siempre según antibiograma.',
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Seguimiento por etapas',
-      title: 'Exámenes complementarios en segundo y tercer trimestre',
-      head: ['Edad gestacional', 'Examen específico', 'Criterio diagnóstico clave', 'Conducta recomendada'],
-      rows: [
-        {
-          cells: [
-            'Semana 24 a 28',
-            'Prueba de tolerancia a la glucosa oral con setenta y cinco gramos',
-            'Glicemia a las dos horas mayor o igual a ciento cuarenta miligramos por decilitro',
-            'Diagnostica diabetes gestacional; manejo nutricional, automonitoreo y eventual insulina si no logra metas.',
-          ],
-          say: 'Entre las semanas veinticuatro y veintiocho se realiza la prueba de tolerancia a la glucosa oral con setenta y cinco gramos. Una glicemia a las dos horas mayor o igual a ciento cuarenta miligramos por decilitro establece el diagnóstico de diabetes gestacional.',
-        },
-        {
-          cells: [
-            'Semana 28 a 30',
-            'Segundo VDRL y repetición de Coombs indirecto en Rh negativas',
-            'Pesquisa de sífilis adquirida durante la gestación y verificación de no sensibilización Rh',
-            'Administración de inmunoglobulina anti-D trescientos microgramos a la semana veintiocho si el Coombs sigue negativo.',
-          ],
-          say: 'A las veintiocho semanas se repite el VDRL y se aplica la dosis profiláctica de inmunoglobulina anti-D de trescientos microgramos en toda paciente Rh negativa no sensibilizada.',
-        },
-        {
-          cells: [
-            'Semana 35 a 37',
-            'Cultivo rectovaginal universal para Estreptococo del grupo B',
-            'Detección de colonización por Streptococcus agalactiae',
-            'Si es positivo, indicar profilaxis antibiótica intraparto con Penicilina sódica o Ampicilina endovenosa.',
-          ],
-          say: 'Entre las semanas treinta y cinco y treinta y siete se toma el cultivo rectovaginal sin espéculo para pesquisar Estreptococo del grupo B. Si resulta positivo, la paciente recibirá profilaxis intraparto con penicilina endovenosa durante el trabajo de parto para prevenir sepsis neonatal precoz.',
-        },
+        { title: 'Primer trimestre', tag: 'Antes de las 12 semanas', kind: 'criteria', items: [
+          { t: 'Grupo, Rh y Coombs', d: 'Hemograma, VDRL, VIH, glicemia y urocultivo',
+            say: 'Ahora los exámenes. En el primer trimestre pides grupo y Rh con Coombs indirecto, hemograma, VDRL, test de VIH, glicemia de ayunas, orina con urocultivo, y en zonas con riesgo, serología de Chagas.' },
+          { t: 'Glicemia entre 100 y 125', d: 'Repites el examen antes de decidir',
+            say: 'Ojo con la glicemia de ayunas. Si te sale entre cien y ciento veinticinco, no corras a pedir la prueba de tolerancia: repites la glicemia. Si se repite alterada, ya es diabetes gestacional precoz. Si sale ciento veintiséis o más, es una diabetes pregestacional que recién se manifiesta.' },
+        ] },
+        { title: 'Segundo trimestre', tag: '24 a 28 semanas', kind: 'key', items: [
+          { t: 'PTGO con 75 gramos', d: 'A todas las embarazadas',
+            say: 'A las veinticuatro a veintiocho semanas le pides la prueba de tolerancia a la glucosa con setenta y cinco gramos, a todas tus pacientes, no solo a las de riesgo.' },
+          { t: '140 a las 2 horas', d: 'Diagnostica diabetes gestacional',
+            say: 'Si a las dos horas la glicemia es ciento cuarenta o más, ya tienes el diagnóstico de diabetes gestacional.' },
+        ] },
+        { title: 'Tercer trimestre', tag: '35 a 37 semanas', kind: 'alert', items: [
+          { t: 'Cultivo vaginorrectal', d: 'Busca el Streptococcus agalactiae',
+            say: 'Y entre las treinta y cinco y las treinta y siete semanas tomas el cultivo vaginorrectal, buscando el Streptococcus agalactiae, el estreptococo del grupo B.' },
+          { t: 'Si sale positivo', d: 'Penicilina G endovenosa durante el parto',
+            say: 'Si sale positivo, tú no tratas antes del parto: la bacteria vuelve en pocos días. Lo que haces es dejarlo anotado, y ella recibe penicilina G endovenosa apenas entre en trabajo de parto.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de decisión clínica',
-      title: 'Flujo de estratificación de riesgo en el ingreso prenatal',
-      say: 'Revisemos el árbol de decisiones para estratificar a la paciente en bajo o alto riesgo obstétrico al momento de su primer control prenatal.',
+      intro: 'Juntemos las dos preguntas del control prenatal en un solo árbol.',
     },
 
     {
       type: 'table',
-      kicker: 'Diagnósticos diferenciales y trampas',
-      title: 'Trampas clásicas del EUNACOM en control prenatal',
-      head: ['Escenario clínico', 'Error diagnóstico o de manejo', 'Concepto correcto', 'Conducta según norma técnica'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Las dosis y los tiempos que más se confunden',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
       rows: [
-        {
-          cells: [
-            'VDRL no reactivo con prueba treponémica reactiva (MHA-TP o FTA-ABS)',
-            'Indicar tratamiento antibiótico asumiendo sífilis activa no diagnosticada',
-            'Las pruebas treponémicas quedan positivas de por vida tras una infección tratada en el pasado',
-            'Considerar sífilis curada y continuar control prenatal habitual repitiendo VDRL a las veintiocho semanas.',
-          ],
-          say: 'Una de las trampas predilectas del examen: una embarazada con VDRL no reactivo y prueba treponémica reactiva tiene una cicatriz serológica de una sífilis tratada en el pasado. No requiere penicilina ahora, sino su control habitual con VDRL a las veintiocho a treinta semanas.',
-        },
-        {
-          cells: [
-            'Mujer hipertensa crónica que planifica embarazo en uso de Enalapril o Losartán',
-            'Mantener el tratamiento antihipertensivo habitual durante el primer trimestre',
-            'Los inhibidores de la enzima convertidora y antagonistas de angiotensina son teratogénicos y causan falla renal fetal',
-            'Suspender inmediatamente y cambiar por Alfametildopa o Labetalol oral antes de concebir.',
-          ],
-          say: 'Los fármacos bloqueadores del sistema renina-angiotensina causan displasia renal, oligohidramnios e hipoplasia pulmonar fetal. Deben suspenderse y sustituirse por alfametildopa, labetalol o nifedipino.',
-        },
-        {
-          cells: [
-            'Embarazada con urocultivo positivo asintomática',
-            'Desestimar el resultado por falta de disuria y no indicar tratamiento',
-            'La bacteriuria asintomática causa pielonefritis aguda y prematurez en el embarazo',
-            'Tratar siempre con antibióticos por siete días según antibiograma y realizar urocultivo de control posterior.',
-          ],
-          say: 'En población general la bacteriuria asintomática no se trata, pero en el embarazo es mandatorio erradicarla con antibióticos para prevenir pielonefritis y parto prematuro.',
-        },
+        { cells: ['Alto riesgo de defecto del tubo neural', 'Ácido fólico 4 a 5 mg desde 3 meses antes', 'Dejarla con 0,4 mg, como si fuera bajo riesgo'],
+          say: 'Repasemos las trampas. Alto riesgo de defecto del tubo neural: ácido fólico cuatro a cinco miligramos, desde tres meses antes. El error es dejarla con la dosis de bajo riesgo.' },
+        { cells: ['FUM y ecografía difieren más de 5 a 7 días', 'Corregir la edad gestacional por la ecografía', 'Mantener la fecha de última regla'],
+          say: 'Si la fecha de última regla y la ecografía difieren más de cinco a siete días, corriges por la ecografía. El error es aferrarse a la fecha que dio la paciente.' },
+        { cells: ['Glicemia de ayuno entre 100 y 125', 'Repetir la glicemia de ayuno', 'Pedir la PTGO de inmediato'],
+          say: 'Glicemia de ayuno entre cien y ciento veinticinco: repites la glicemia. El error es saltarte ese paso y pedir la prueba de tolerancia de una vez.' },
+        { cells: ['PTGO con glicemia de 140 o más a las 2 horas', 'Diagnóstico de diabetes gestacional', 'Pedir una segunda prueba para confirmar'],
+          say: 'Con la prueba de tolerancia, si a las dos horas sale ciento cuarenta o más, el diagnóstico ya está hecho. El error es pedir una segunda prueba, como si hiciera falta confirmar.' },
+        { cells: ['Cultivo vaginorrectal positivo, paciente sin síntomas', 'Anotar y dar penicilina G en el parto', 'Tratarla con antibiótico oral antes del parto'],
+          say: 'Y con el cultivo positivo para estreptococo, la respuesta es penicilina en el parto, no antes. Ese antibiótico oral previo es la trampa más repetida de todo el tema.' },
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Diciembre 2022 · Pregunta 163',
-      caseText: 'Una pareja consulta porque hace un año tuvieron una interrupción de un embarazo debido a que el feto tenía anencefalia. Desde entonces ella ha tomado anticonceptivos; sin embargo, ahora quieren intentar un nuevo embarazo. Él tiene treinta y ocho años y ella treinta y cinco. Como antecedente, ella tiene diagnóstico de hipotiroidismo subclínico sin tratamiento y él tiene un hermano con trisomía veintiuno. ¿Cuál es la conducta más adecuada?',
-      question: '¿Cuál es la conducta más adecuada?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Primigesta de 9 semanas por FUM confiable, sin antecedentes mórbidos, acude a su primer control prenatal. Pregunta qué debe empezar a tomar y qué exámenes se le van a solicitar.',
+      question: '¿Cuál es la indicación correcta para este control?',
       options: [
-        { letter: 'A', text: 'Realizar cariograma a ambos miembros de la pareja', isCorrect: false },
-        { letter: 'B', text: 'Iniciar levotiroxina a la mujer y suspender anticonceptivos', isCorrect: false },
-        { letter: 'C', text: 'Solicitar espermiograma al hombre', isCorrect: false },
-        { letter: 'D', text: 'Iniciar ácido fólico cuatro miligramos al día desde tres meses antes del embarazo a la mujer', isCorrect: true },
-        { letter: 'E', text: 'Solicitar anticuerpos antifosfolípidos a la mujer', isCorrect: false },
+        { letter: 'A', text: 'Ácido fólico 0,4 a 1 mg al día y batería completa de exámenes del primer trimestre' },
+        { letter: 'B', text: 'Ácido fólico 4 a 5 mg al día, por tratarse de su primer embarazo' },
+        { letter: 'C', text: 'Iniciar carbonato de calcio 1.000 mg al día desde este control' },
+        { letter: 'D', text: 'Solicitar la PTGO de 75 gramos en este mismo control' },
+        { letter: 'E', text: 'Iniciar hierro oral profiláctico desde este control' },
       ],
-      correct: 'D',
+      correct: 'A',
+      explanation: 'Sin antecedentes de riesgo, el ácido fólico es en dosis de bajo riesgo (0,4–1 mg/día), y a las 9 semanas corresponde la batería del primer trimestre. El calcio se inicia recién a las 12–16 semanas, la PTGO a las 24–28 semanas, y el hierro desde las 16–20 semanas: ninguno de los tres corresponde todavía.',
       say: {
-        stem: 'Revisemos esta pregunta oficial de diciembre de dos mil veintidós. Una mujer de treinta y cinco años con antecedente de un embarazo previo afectado por anencefalia planifica una nueva gestación.',
-        question: 'Nos consultan por la conducta más adecuada en la consulta preconcepcional.',
-        options: 'Las alternativas son: opción A, cariograma a ambos; opción B, iniciar levotiroxina; opción C, espermiograma al hombre; opción D, iniciar ácido fólico cuatro miligramos al día desde tres meses antes del embarazo; y opción E, anticuerpos antifosfolípidos. Piénsalo.',
-        answer: 'La respuesta correcta es la opción D. El antecedente de un hijo previo con defecto del tubo neural como anencefalia o espina bífida sitúa a la paciente en la categoría de alto riesgo. Por ende, la indicación formal es prescribir ácido fólico en dosis alta de cuatro miligramos al día, iniciándolo al menos tres meses antes de la concepción y manteniéndolo durante todo el primer trimestre.',
+        stem: 'Vamos con un caso. Primigesta de nueve semanas, por una fecha de regla confiable, sin antecedentes, que llega a su primer control prenatal. Te pregunta qué tiene que empezar a tomar y qué exámenes le vas a pedir.',
+        question: '¿Cuál es la indicación correcta para este control?',
+        options: 'Tienes cinco opciones: ácido fólico en dosis baja más la batería del primer trimestre, ácido fólico en dosis alta solo por ser su primer embarazo, iniciar calcio desde ya, pedir la prueba de tolerancia a la glucosa ahora mismo, o iniciar hierro desde ya. Piénsalo.',
+        answer: 'Es la A. No tiene ningún antecedente de riesgo, así que el ácido fólico va en dosis baja, y a las nueve semanas corresponde justo la batería del primer trimestre. El resto son trampas de tiempo: el calcio parte a las doce a dieciséis semanas, la prueba de tolerancia a las veinticuatro a veintiocho, y el hierro desde las dieciséis a veinte. Ninguno de esos tres toca todavía.',
       },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta real EUNACOM',
-      title: 'EUNACOM Julio 2024 · Pregunta 69',
-      caseText: 'Una paciente de veinticinco años, embarazada con doce semanas contadas desde una fecha de última regla segura y confiable, se realiza exámenes de ingreso entre los que trae un VDRL que resulta no reactivo y un test treponémico MHA-TP que resulta reactivo. ¿Cuál es la conducta más adecuada?',
-      question: '¿Cuál es la conducta más adecuada?',
+      title: 'EUNACOM Julio 2013 · Pregunta 60',
+      stem: 'Mujer de 35 años, con embarazo de 15 semanas, sin síntomas. En exámenes de control destaca VDRL negativo, hemoglobina de 11,5 mg/dL y glicemia de ayuno de 108 mg/dL. Examen físico normal, con altura uterina acorde.',
+      question: '¿Cuál es la conducta más adecuada en este caso?',
       options: [
-        { letter: 'A', text: 'Administrar penicilina benzatina de inmediato a la paciente y su pareja', isCorrect: false },
-        { letter: 'B', text: 'Realizar VDRL mensual durante el resto del embarazo', isCorrect: false },
-        { letter: 'C', text: 'Continuar control prenatal habitual con nuevo VDRL a las veintiocho a treinta semanas', isCorrect: true },
-        { letter: 'D', text: 'Solicitar un examen FTA-ABS confirmatorio adicional', isCorrect: false },
-        { letter: 'E', text: 'Indicar tratamiento con doxiciclina por vía oral', isCorrect: false },
+        { letter: 'A', text: 'Solicitar test de tolerancia oral a la glucosa' },
+        { letter: 'B', text: 'Indicar dieta y mantener el control habitual' },
+        { letter: 'C', text: 'Solicitar hemoglobina glicosilada' },
+        { letter: 'D', text: 'Indicar insulina subcutánea' },
+        { letter: 'E', text: 'Solicitar una nueva glicemia de ayunas' },
       ],
-      correct: 'C',
+      correct: 'E',
+      explanation: 'Glicemia de ayuno entre 100 y 125 mg/dL: se repite el examen, no se salta a la prueba de tolerancia ni se trata todavía. La PTGO se reserva para las 24 a 28 semanas, salvo que la segunda glicemia confirme la diabetes gestacional precoz.',
       say: {
-        stem: 'Analicemos esta pregunta real de julio de dos mil veinticuatro. Una gestante de doce semanas presenta en sus exámenes de ingreso un VDRL no reactivo y una prueba treponémica reactiva.',
-        question: 'Se pregunta por la conducta médica más adecuada a seguir.',
-        options: 'Las opciones son: opción A, penicilina benzatina inmediata; opción B, VDRL mensual; opción C, continuar control habitual con VDRL a las veintiocho a treinta semanas; opción D, solicitar FTA-ABS; y opción E, doxiciclina oral. Piénsalo.',
-        answer: 'La respuesta correcta es la opción C. Las pruebas no treponémicas como el VDRL se negativizan tras un tratamiento exitoso, mientras que las treponémicas persisten reactivas de por vida como memoria inmunológica. Un VDRL no reactivo con treponémica positiva traduce una sífilis curada en el pasado. Corresponde continuar el control prenatal habitual con repetición de VDRL a las veintiocho a treinta semanas.',
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de treinta y cinco años, con embarazo de quince semanas, sin síntomas. Su VDRL es negativo, su hemoglobina es once coma cinco, y su glicemia de ayuno sale en ciento ocho. El examen físico es normal.',
+        question: '¿Cuál es la conducta más adecuada en este caso?',
+        options: 'Las opciones son: pedir la prueba de tolerancia a la glucosa, indicar dieta y seguir el control habitual, pedir hemoglobina glicosilada, indicar insulina, o pedir una nueva glicemia de ayunas. Piénsalo.',
+        answer: 'Es la E. Fíjate que ciento ocho cae justo entre cien y ciento veinticinco, y eso no te manda directo a la prueba de tolerancia: primero repites la glicemia de ayunas. Si vuelve a salir alterada, ahí sí es diabetes gestacional precoz. Pedir la prueba de tolerancia de entrada, o tratarla con insulina, es adelantarse al paso que corresponde.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2025 · Pregunta 38',
+      stem: 'Paciente de 25 años, vegana estricta, con antecedente de un parto hace 6 meses de un hijo con mielomeningocele, consulta porque desea planificar un nuevo embarazo.',
+      question: '¿Qué suplemento se le debe indicar de manera prioritaria?',
+      options: [
+        { letter: 'A', text: 'Vitamina B12' },
+        { letter: 'B', text: 'Ácido fólico' },
+        { letter: 'C', text: 'Calcio' },
+        { letter: 'D', text: 'Hierro' },
+        { letter: 'E', text: 'Ácidos grasos omega-3' },
+      ],
+      correct: 'B',
+      explanation: 'La dieta vegana estricta se asocia sobre todo a déficit de vitamina B12, pero el antecedente de un hijo con defecto del tubo neural manda por sobre eso: se indica ácido fólico en dosis alta (4 mg/día), idealmente desde 3 meses antes del embarazo y hasta la semana 12.',
+      say: {
+        stem: 'Y una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veinticinco años, vegana estricta, con un parto hace seis meses de un hijo con mielomeningocele, que consulta porque quiere planificar un nuevo embarazo.',
+        question: '¿Cuál es el suplemento que se indica de manera prioritaria?',
+        options: 'Las opciones: vitamina B doce, ácido fólico, calcio, hierro, o ácidos grasos omega tres. Piénsalo.',
+        answer: 'Es la B. La pregunta te tienta con la vitamina B doce, porque la dieta vegana sí se asocia a ese déficit. Pero el antecedente que manda aquí es el hijo previo con defecto del tubo neural: eso te obliga al ácido fólico en dosis alta, cuatro miligramos al día, empezando idealmente tres meses antes del embarazo y hasta la semana doce. La vitamina B doce importa, pero no es la prioridad de esta paciente.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos clave para el EUNACOM',
-      title: 'Reglas de oro en control prenatal de bajo riesgo',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Cuatro certezas clínicas',
-          kind: 'key',
-          items: [
-            {
-              text: 'La ecografía precoz por LCN corrige la FUR si discrepa más de cinco a siete días.',
-              say: 'Primera regla: la ecografía precoz del primer trimestre mediante longitud céfalo-nalgas es el estándar más exacto y corrige la fecha de última regla ante una discrepancia mayor a cinco a siete días.',
-            },
-            {
-              text: 'Ácido fólico en dosis de cuatro a cinco miligramos en alto riesgo.',
-              say: 'Segunda regla: la dosis de ácido fólico es de cero coma cuatro a un miligramo en bajo riesgo y de cuatro a cinco miligramos al día en pacientes con antecedente de defecto del tubo neural o diabetes pregestacional, iniciándolo tres meses antes de concebir.',
-            },
-            {
-              text: 'Cultivo rectovaginal para Estreptococo grupo B a las treinta y cinco a treinta y siete semanas.',
-              say: 'Tercera regla: el tamizaje universal de Streptococcus agalactiae se realiza a las treinta y cinco a treinta y siete semanas; si es positivo, se administra profilaxis con penicilina intraparto.',
-            },
-            {
-              text: 'Inmunoglobulina anti-D a las veintiocho semanas en Rh negativas no sensibilizadas.',
-              say: 'Cuarta regla: toda gestante Rh negativa con Coombs indirecto negativo debe recibir inmunoglobulina anti-D profiláctica a las veintiocho semanas de gestación.',
-            },
-          ],
-        },
-        {
-          title: 'Idea final',
-          kind: 'normal',
-          items: [
-            {
-              text: 'Toda bacteriuria asintomática en el embarazo se trata con antibióticos por siete días.',
-              say: 'Si te llevas una sola idea de hoy: en la embarazada, todo urocultivo positivo con más de cien mil unidades formadoras de colonias se trata siempre con antibióticos para prevenir pielonefritis y parto prematuro. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Fechado y folato', tag: 'Lo primero', kind: 'key', items: [
+          { t: 'Diferencia mayor a 5-7 días', d: 'Corrige por la ecografía precoz',
+            say: 'Cerremos con las reglas de oro. Si la fecha de última regla y la ecografía precoz difieren más de cinco a siete días, corriges por la ecografía.' },
+          { t: 'Alto riesgo de DTN', d: 'Ácido fólico 4 a 5 mg, no 0,4 mg',
+            say: 'Y con antecedente de defecto del tubo neural, diabetes o anticonvulsivantes, el ácido fólico va en dosis alta, no en la dosis de bajo riesgo.' },
+        ] },
+        { title: 'La glicemia y la PTGO', tag: 'No te adelantes', kind: 'pharma', items: [
+          { t: 'Glicemia 100 a 125', d: 'Se repite, no se trata todavía',
+            say: 'Una glicemia de ayuno entre cien y ciento veinticinco se repite, no se trata todavía.' },
+          { t: 'PTGO a las 24-28 semanas', d: '140 a las 2 horas: diagnóstico',
+            say: 'Y la prueba de tolerancia va a las veinticuatro a veintiocho semanas, con ciento cuarenta a las dos horas como corte diagnóstico.' },
+        ] },
+        { title: 'Estreptococo del grupo B', tag: 'Se trata en el parto', kind: 'alert', items: [
+          { t: 'Cultivo positivo', d: 'Penicilina G solo durante el parto',
+            say: 'El cultivo positivo para estreptococo del grupo B no se trata antes: se anota, y se da penicilina G durante el parto. Si te llevas una sola idea de hoy: en el control prenatal, cada dato tiene su semana exacta, y esa semana es justamente lo que se pregunta. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Estratificación de Riesgo en Ingreso Prenatal',
-    root: N(
-      'start',
-      'Gestante en primer control prenatal',
-      'Confirmación de embarazo · anamnesis y cálculo de edad gestacional',
-      'Iniciamos el control calculando la edad gestacional por fecha de última regla y solicitando ecografía precoz.',
-      [
-        'Factores de alto riesgo identificados',
-        N(
-          'alert',
-          'Embarazo de Alto Riesgo Obstétrico (ARO)',
-          'Hijo previo con DTN · diabetes · hipertensión crónica · patología materna severa',
-          'Si identificamos comorbilidades severas o antecedentes críticos, derivamos a policlínico de alto riesgo obstétrico.',
-          [
-            'Antecedente de defecto del tubo neural',
-            N(
-              'do',
-              'Ácido fólico dosis alta 4 a 5 mg/día',
-              'Iniciar 3 meses pregestacional y mantener hasta semana 12',
-              'Indicamos ácido fólico en dosis alta de cuatro a cinco miligramos al día por vía oral.',
-            ),
-          ],
-          [
-            'Uso de antihipertensivos teratogénicos (IECA o ARA II)',
-            N(
-              'do',
-              'Cambio inmediato a Alfametildopa o Labetalol',
-              'Suspender Enalapril o Losartán por riesgo de fetopatía renal',
-              'Sustituimos de inmediato por antihipertensivos seguros en el embarazo.',
-            ),
-          ],
-        ),
-      ],
-      [
-        'Embarazo de bajo riesgo sin comorbilidad',
-        N(
-          'q',
-          'Control prenatal en Atención Primaria de Salud',
-          'Calendario: mensual hasta sem 28 · quincenal a 36 · semanal al término',
-          'En gestantes sanas mantenemos el control periódico en atención primaria según cronograma estandarizado.',
-          [
-            'Suplementación profiláctica universal',
-            N(
-              'do',
-              'Ácido fólico estándar + Calcio + Fierro',
-              'Fólico 1 mg hasta sem 12 · Calcio 1 g desde sem 12 · Fierro 30 a 60 mg desde sem 20',
-              'Iniciamos suplementación escalonada según la edad gestacional de la paciente.',
-            ),
-          ],
-          [
-            'Batería sistemática de exámenes por trimestre',
-            N(
-              'ok',
-              'Exámenes reglamentarios MINSAL',
-              'Trimestre 1: VDRL, VIH, Chagas, Coombs, orina · Trimestre 2: PTGO · Trimestre 3: SGB',
-              'Solicitamos la batería estandarizada de exámenes en cada etapa del embarazo.',
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Control prenatal: suplementación y batería de exámenes',
+    root: pwRoot,
   },
 };
