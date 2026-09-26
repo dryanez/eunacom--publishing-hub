@@ -1,7 +1,38 @@
-// Clase 18.17 — guion docente escrito a mano (estándar Módulo 3 · Pediatría).
+// Clase 18.17 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_pediatria.cjs (ped-17).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+const pwExsang = N('alert', 'Exanguinotransfusión', 'Recambia dos volemias del paciente',
+  'Y si la fototerapia falla, o el paciente muestra un signo precoz de encefalopatía aguda como el llanto agudo o el opistótonos, la conducta es la exanguinotransfusión, recambiando dos volemias completas.');
+
+const pwFototerapia = N('do', 'Fototerapia LED continua', 'Controlas la respuesta en horas',
+  'Si cae en la zona de alto riesgo, inicias fototerapia con luz azul de forma continua, y controlas la respuesta con bilirrubinas seriadas.',
+  ['No responde', pwExsang]);
+
+const pwObservacion = N('ok', 'Observación', 'Reforzar lactancia y control ambulatorio',
+  'Si cae en la zona de bajo riesgo, no hay nada que hacer más que reforzar la lactancia y controlar de forma ambulatoria.');
+
+const pwBhutani = N('q', '¿Qué muestra el nomograma de Bhutani?', 'Bilirrubina versus horas de vida',
+  'Entre el segundo y el décimo día, lo esperable es que sea fisiológica. Para decidir si necesita tratamiento, ubicas la bilirrubina en el nomograma de Bhutani, cruzando el valor con las horas de vida exactas.',
+  ['Bajo riesgo', pwObservacion],
+  ['Alto riesgo', pwFototerapia]);
+
+const pwPatologica = N('alert', 'Patológica: sospecha hemolítica', 'Coombs, hemograma y bilirrubina urgente',
+  'Antes de las veinticuatro horas es patológica y hemolítica hasta que la descartes. Pides Coombs directo, hemograma y bilirrubina de urgencia, y casi siempre entra directo a fototerapia.');
+
+const pwAtresia = N('refer', 'Sospecha de atresia biliar', 'Bilirrubina directa alta, acolia y coluria',
+  'Y la última rama, la que más se te puede pasar: si la ictericia se mantiene después de las dos semanas, con bilirrubina directa alta, acolia y coluria, ya no piensas en fisiológico. Piensas en atresia de vías biliares y derivas para cirugía.');
+
+const pwCuando = N('q', '¿Cuándo empezó la ictericia?', 'El momento manda sobre todo lo demás',
+  'La pregunta es cuándo empezó. Antes de las veinticuatro horas, entre el segundo y el décimo día, o después de las dos semanas: cada momento te lleva a un lugar distinto.',
+  ['Antes de las 24 horas', pwPatologica],
+  ['Entre el día 2 y el 10', pwBhutani],
+  ['Más de 14 días', pwAtresia]);
+
+const pwRoot = N('start', 'Recién nacido con ictericia visible', 'Evalúas Kramer y horas de vida',
+  'Aquí tienes el recién nacido con ictericia visible. Evalúas la zona de Kramer y las horas de vida, y eso te lleva a la pregunta que ordena todo el tema.',
+  ['', pwCuando]);
 
 module.exports = {
   id: 'ped-17',
@@ -9,656 +40,327 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Ictericia neonatal, diagnóstico diferencial fisiológica versus patológica, incompatibilidad ABO y Rh, nomograma de Bhutani, fototerapia y atresia biliar',
-      say: 'Bienvenidos a la clase sobre ictericia neonatal, uno de los motivos de consulta y hospitalización más frecuentes en neonatología y una materia evaluada con preguntas complejas en el examen EUNACOM. En esta sesión aprenderemos a distinguir con rigor la ictericia fisiológica de la patológica antes de las veinticuatro horas, dominaremos el nomograma de Bhutani para indicar fototerapia y exanguinotransfusión, revisaremos el mecanismo biofísico de la lumirrubina y fijaremos la pesquisa oportuna de la colestasis neonatal y la atresia biliar. Comencemos.',
+      subtitle: 'Cuándo la ictericia es normal y cuándo es una emergencia hemolítica',
+      say: 'Bienvenido a la clase de ictericia neonatal, uno de los temas que más se pregunta en pediatría dentro de este banco. Vas a aprender una sola pregunta que ordena todo el tema: ¿la ictericia apareció antes o después de las veinticuatro horas de vida? Esa pregunta te dice si estás frente a algo hemolítico y grave, o frente a algo fisiológico y benigno. Empecemos.',
     },
 
     {
       type: 'flow',
-      kicker: 'Metabolismo y fisiopatología',
-      title: 'Metabolismo de la Bilirrubina, Inmadurez Hepática y Riesgo de Kernicterus',
+      kicker: 'Fisiopatología',
+      title: '¿Por qué el recién nacido se pone amarillo?',
       nodes: [
-        { id: 'hem', col: 0, row: 1, k: 'start', t: 'Lisis de glóbulos rojos fetales', s: 'Vida media eritrocitaria reducida a noventa días con masa globular elevada' },
-        { id: 'lip', col: 1, row: 1, k: 'mech', t: 'Bilirrubina no conjugada lipofílica', s: 'Transporte unida a albúmina sérica; inmadurez de la glucuroniltransferasa hepática' },
-        { id: 'ent', col: 2, row: 1, k: 'risk', t: 'Circulación enterohepática activa', s: 'Acción de la betaglucuronidasa intestinal que desconjuga y reabsorbe bilirrubina' },
-        { id: 'ker', col: 3, row: 1, k: 'alert', t: 'Depósito cerebral y kernicterus', s: 'Paso por barrera hematoencefálica con necrosis de ganglios basales' },
+        { id: 'hto', col: 0, row: 0, k: 'cause', t: 'Hematócrito alto al nacer', s: 'Vida media del glóbulo rojo corta' },
+        { id: 'ugt', col: 0, row: 1, k: 'cause', t: 'Glucuroniltransferasa inmadura', s: 'El hígado conjuga poco' },
+        { id: 'ent', col: 0, row: 2, k: 'cause', t: 'Circulación enterohepática aumentada', s: 'El intestino recicla bilirrubina' },
+        { id: 'bil', col: 1, row: 1, k: 'mech', t: 'Sube la bilirrubina indirecta', s: 'Se acumula en la sangre' },
+        { id: 'ict', col: 2, row: 1, k: 'effect', t: 'Ictericia céfalo-caudal', s: 'De la cara hacia los pies' },
       ],
       edges: [
-        { from: 'hem', to: 'lip', label: 'oxidación de hemo' },
-        { from: 'lip', to: 'ent', label: 'conjugación deficiente' },
-        { from: 'lip', to: 'ker', label: 'fracción libre tóxica' },
+        { from: 'hto', to: 'bil' },
+        { from: 'ugt', to: 'bil' },
+        { from: 'ent', to: 'bil', label: 'recircula' },
+        { from: 'bil', to: 'ict' },
       ],
       steps: [
-        {
-          show: ['hem', 'lip'],
-          note: 'Sobrecarga de bilirrubina y limitación de la depuración hepática',
-          say: 'El recién nacido produce el doble de bilirrubina que el adulto debido a su alta masa globular y a la menor vida media de sus eritrocitos. Esta molécula lipofílica viaja unida a la albúmina hacia el hígado, donde la inmadurez de la enzima glucuroniltransferasa limita severamente su conjugación hidrosoluble.',
-        },
-        {
-          show: ['ent', 'ker'],
-          note: 'Reabsorción enterohepática y toxicidad cerebral irreversible',
-          say: 'La betaglucuronidasa intestinal desconjuga la bilirrubina y la reabsorbe hacia la sangre. Cuando los niveles séricos sobrepasan la capacidad de transporte de la albúmina, la fracción libre atraviesa la barrera hematoencefálica inmadura, depositándose en los ganglios de la base para causar necrosis y kernicterus permanente.',
-        },
+        { show: ['hto'], note: 'Menos glóbulos rojos duran, más bilirrubina liberan',
+          say: 'Fíjate primero en el punto de partida. Al nacer tienes un hematócrito alto, porque en el útero necesitabas más glóbulos rojos para compensar el poco oxígeno disponible. Esos glóbulos rojos duran menos tiempo, así que se destruyen rápido y liberan mucha bilirrubina de golpe.' },
+        { show: ['ugt'], note: 'El hígado todavía no da abasto',
+          say: 'Súmale que el hígado del recién nacido todavía no madura del todo la enzima que conjuga esa bilirrubina, la glucuroniltransferasa. Entonces entra más bilirrubina de la que el hígado alcanza a procesar, y se acumula en su forma indirecta.' },
+        { show: ['ent'], note: 'Comer y evacuar poco empeora todo',
+          say: 'Y hay un tercer factor que se te puede olvidar: el intestino del recién nacido recicla bilirrubina de vuelta a la sangre. Mientras menos come y menos evacúa, más recircula, y por eso ayuda tanto alimentarlo seguido.' },
+        { show: ['bil', 'ict'], note: 'Kramer: estimas el nivel con solo mirar',
+          say: 'Súmalo todo y tienes bilirrubina indirecta acumulada, que se deposita en la piel de arriba hacia abajo: primero la cara, después el tronco, y en los casos más severos hasta las palmas y las plantas. Esa progresión tiene un nombre, la zona de Kramer, y te sirve para estimar el nivel con solo mirar al paciente.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Alerta clínica cardinal',
-      title: 'Ictericia en las Primeras Veinticuatro Horas: Siempre Patológica',
+      kicker: 'La primera pregunta',
+      title: 'Antes o después de las 24 horas: la pregunta que decide todo',
       cards: [
-        {
-          title: 'Regla de Oro de las Primeras Veinticuatro Horas',
-          tag: 'Toda ictericia antes del primer día exige estudio inmediato',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Carácter patológico universal antes de las 24 horas',
-              d: 'Ninguna ictericia en el primer día de vida es fisiológica; traduce invariablemente una enfermedad hemolítica grave',
-              say: 'La ictericia que se hace visible en las primeras veinticuatro horas de vida jamás es fisiológica. Su sola presencia indica hemólisis acelerada y obliga a una hospitalización inmediata para estudio y tratamiento.',
-            },
-            {
-              t: 'Velocidad de ascenso rápida mayor a cinco miligramos día',
-              d: 'Un aumento superior a 0.2 o 0.5 mg/dL por hora o más de 5 mg/dL en 24 horas advierte hemólisis fulminante',
-              say: 'Un incremento de la bilirrubina superior a cero punto cinco miligramos por decilitro cada hora o más de cinco miligramos al día confirma una destrucción eritrocitaria acelerada que amenaza el sistema nervioso central.',
-            },
-          ],
-        },
-        {
-          title: 'Etiologías Principales de Hemólisis Neonatal Precoz',
-          tag: 'Incompatibilidad de grupo sanguíneo clásico y factor Rh',
-          kind: 'key',
-          items: [
-            {
-              t: 'Incompatibilidad por grupo clásico ABO: La más frecuente',
-              d: 'Madre grupo O con recién nacido grupo A o B; anticuerpos anti A o anti B de tipo IgG atraviesan la placenta',
-              say: 'La incompatibilidad clásica de grupo es la causa más común de hemólisis neonatal, ocurriendo en madres grupo O con hijos grupo A o B cuyos anticuerpos maternos IgG cruzan la placenta.',
-            },
-            {
-              t: 'Incompatibilidad por factor Rh (D): La más grave',
-              d: 'Madre Rh negativo sensibilizada con feto Rh positivo; genera anemia severa, hidropesía fetal e ictericia masiva',
-              say: 'La incompatibilidad por factor Rh es menos común gracias a la profilaxis con inmunoglobulina anti D, pero cuando ocurre es sumamente severa, generando anemia grave y kernicterus precoz.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Entidad madurativa frecuente',
-      title: 'Ictericia Fisiológica Neonatal: Criterios Definitorios',
-      cards: [
-        {
-          title: 'Cronología y Límites de la Ictericia Fisiológica',
-          tag: 'Presente en más del sesenta por ciento de los recién nacidos de término',
-          kind: 'normal',
-          items: [
-            {
-              t: 'Aparición posterior a las veinticuatro a cuarenta y ocho horas',
-              d: 'Se hace clínicamente evidente en el segundo o tercer día de vida en niños sanos y asintomáticos',
-              say: 'La ictericia fisiológica nunca aparece en el primer día. Se hace visible a partir del segundo o tercer día de vida en un recién nacido activo, con buen reflejo de succión y afebril.',
-            },
-            {
-              t: 'Pico térmico al tercer a cuarto día y resolución espontánea',
-              d: 'Alcanza su valor máximo de 10 a 12 mg/dL en el día 3 a 4 en término y desciende paulatinamente antes del décimo día',
-              say: 'Su concentración máxima oscila entre diez y doce miligramos por decilitro entre el tercer y cuarto día de vida, para luego descender de manera progresiva hasta normalizarse antes de los diez días.',
-            },
-          ],
-        },
-        {
-          title: 'Requisitos Negativos Obligatorios',
-          tag: 'Condiciones de laboratorio que ratifican benignidad',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Predominio no conjugado con bilirrubina directa normal',
-              d: 'Bilirrubina directa siempre menor a 1.0 mg/dL o menor al veinte por ciento del valor de la bilirrubina total',
-              say: 'Fíjate bien en el laboratorio: la ictericia fisiológica es exclusivamente a expensas de bilirrubina indirecta, manteniendo la directa menor a un miligramo por decilitro y deposiciones normales.',
-            },
-            {
-              t: 'Ausencia de coluria, acolia, hepatoesplenomegalia o anemia',
-              d: 'Orina clara, heces amarillentas de transición y examen físico abdominal sin visceromegalias patológicas',
-              say: 'El paciente no presenta hepatomegalia, no tiene anemia clínica y sus pañales demuestran deposiciones amarillas normales sin ningún rastro de acolia ni de coluria.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Lactancia y bilirrubina',
-      title: 'Ictericia Asociada a la Alimentación al Seno Materno',
-      cards: [
-        {
-          title: 'Ictericia por Falta de Lactancia (Por Escaso Aporte)',
-          tag: 'Fenómeno precoz por deshidratación en la primera semana',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Inicio en los primeros tres a cinco días por hipogalactia',
-              d: 'Técnica de lactancia deficiente que genera ayuno relativo, pérdida ponderal mayor al 10% y lentitud del tránsito intestinal',
-              say: 'Aquí debes distinguir dos cuadros que se preguntan mucho. El primero es la ictericia por falta de lactancia, o por escaso aporte: esta ocurre en la primera semana por hipogalactia y mala técnica, lo que genera deshidratación y retención de meconio.',
-            },
-            {
-              t: 'Manejo: Optimizar técnica de amamantamiento y frecuencia',
-              d: 'Corregir acople al pecho, aumentar tomas a 8 a 12 veces al día y asegurar hidratación; jamás suspender la lactancia',
-              say: 'El tratamiento consiste en corregir la técnica de acople, aumentar la frecuencia de las mamadas y asegurar una adecuada hidratación, sin suspender jamás la leche materna.',
-            },
-          ],
-        },
-        {
-          title: 'Ictericia por Leche Materna (Síndrome de Arias)',
-          tag: 'Fenómeno tardío benigno a partir de la segunda semana',
-          kind: 'normal',
-          items: [
-            {
-              t: 'Inicio tardío después del quinto a séptimo día de vida',
-              d: 'Sustancias presentes en la leche materna como betaglucuronidasa inhiben la conjugación; niño eutrófico y vigoroso',
-              say: 'Muy diferente es la segunda entidad: la ictericia por leche materna propiamente tal, o síndrome de Arias. Esta aparece recién hacia el final de la primera semana en lactantes sanos y vigorosos que ganan peso sin problemas.',
-            },
-            {
-              t: 'Evolución prolongada benigna de hasta doce semanas',
-              d: 'Puede prolongarse entre 4 y 12 semanas sin causar toxicidad neurológica; la lactancia debe mantenerse sin interrupción',
-              say: 'Puede persistir durante cuatro a doce semanas con valores estables y seguros, requiriendo únicamente monitorización clínica y mantención firme de la lactancia materna exclusiva.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Diagnóstico diferencial sistemático',
-      title: 'Comparación Esencial de las Formas Frecuentes de Ictericia Neonatal',
-      head: ['Tipo de Ictericia', 'Inicio Clínico', 'Mecanismo Fisiopatológico', 'Conducta Médica Obligada'],
-      rows: [
-        {
-          cells: ['Hemolítica por isoinmunización', 'Menor a veinticuatro horas', 'Anticuerpos maternos IgG lisan eritrocitos', 'Hospitalizar para fototerapia inmediata'],
-          say: 'La ictericia hemolítica debuta antes de las veinticuatro horas por incompatibilidad de grupo y requiere fototerapia continua de urgencia.',
-        },
-        {
-          cells: ['Ictericia fisiológica', 'Dos a tres días de vida', 'Inmadurez transitoria de glucuroniltransferasa', 'Observación ambulatoria y control'],
-          say: 'La ictericia fisiológica aparece entre el segundo y tercer día por inmadurez enzimática y solo requiere control y apoyo en la lactancia.',
-        },
-        {
-          cells: ['Por falta de lactancia', 'Tres a cinco días de vida', 'Aumento de circulación enterohepática por ayuno', 'Mejorar acople y aumentar frecuencia'],
-          say: 'La ictericia por escaso aporte debuta en los primeros días por hipogalactia y se corrige optimizando las tomas de leche materna.',
-        },
-        {
-          cells: ['Por leche materna', 'Mayor a cinco a siete días', 'Factores de la leche que desconjugan bilirrubina', 'Mantener lactancia materna exclusiva'],
-          say: 'La ictericia por leche materna aparece después del quinto día en niños sanos y no justifica interrumpir la alimentación al pecho.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Evaluación semiológica visual',
-      title: 'Zonas Dérmicas de Kramer y Limitaciones de la Estimación Visual',
-      cards: [
-        {
-          title: 'Progresión Céfalo-Caudal de la Ictericia',
-          tag: 'Regla de Kramer para estimación clínica en box',
-          kind: 'key',
-          items: [
-            {
-              t: 'Zonas 1 y 2: Cabeza y tronco superior',
-              d: 'Zona 1: cabeza y cuello (aproximadamente 4 a 6 mg/dL); Zona 2: tronco hasta el ombligo (aproximadamente 8 a 10 mg/dL)',
-              say: 'La ictericia progresa en sentido céfalo-caudal. La zona uno comprende cabeza y cuello con cuatro a seis miligramos, y la zona dos abarca hasta el ombligo con ocho a diez miligramos.',
-            },
-            {
-              t: 'Zonas 3, 4 y 5: Abdomen, extremidades y palmas',
-              d: 'Zona 3: hipogastrio y muslos (12 mg/dL); Zona 4: brazos y piernas (15 mg/dL); Zona 5: palmas y plantas (mayor a 15 mg/dL)',
-              say: 'La zona tres llega a muslos con doce miligramos, la cuatro a piernas con quince miligramos y la zona cinco tiñe palmas y plantas traduciendo niveles peligrosos sobre quince miligramos.',
-            },
-          ],
-        },
-        {
-          title: 'Limitaciones Clínicas Severas de la Estimación Visual',
-          tag: 'Prohibido tomar decisiones terapéuticas sin examen de laboratorio',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Imprecisión en fototipos oscuros y bajo luz artificial',
-              d: 'La inspección visual subestima o sobreestima los niveles reales en más de un tercio de los pacientes evaluados',
-              say: 'La evaluación visual tiene un alto margen de error, particularmente bajo luz artificial o en recién nacidos de piel morena, pudiendo subestimar concentraciones críticas.',
-            },
-            {
-              t: 'Bilirrubinemia sérica obligatoria para definir fototerapia',
-              d: 'Toda decisión de ingreso a fototerapia o exanguinotransfusión debe basarse estrictamente en la medición cuantitativa de laboratorio',
-              say: 'Toda conducta médica activa debe sustentarse en la medición cuantitativa de bilirrubina sérica o transcutánea calibrada, sin basarse jamás únicamente en la vista.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Estratificación cuantitativa estandarizada',
-      title: 'Nomograma de Bhutani y Curvas Horarias de Riesgo',
-      cards: [
-        {
-          title: 'El Concepto Clave: Bilirrubina según Horas de Vida Exactas',
-          tag: 'Nomograma de percentiles de la Academia Americana de Pediatría',
-          kind: 'key',
-          items: [
-            {
-              t: 'Graficar siempre con horas de vida cronológicas',
-              d: 'Un valor de 10 mg/dL es normal a las 72 horas pero representa un riesgo crítico de daño neurológico a las 18 horas de vida',
-              say: 'El valor de bilirrubina carece de sentido si no se grafica contra las horas de vida exactas del neonato. Una cifra de diez miligramos es benigna a los tres días pero catastrófica a las dieciocho horas.',
-            },
-            {
-              t: 'Las cuatro zonas de riesgo del nomograma de Bhutani',
-              d: 'Bajo riesgo (menor a P40), riesgo intermedio bajo (P40 a P75), intermedio alto (P75 a P95) y alto riesgo (mayor a P95)',
-              say: 'El nomograma divide los valores en cuatro zonas: bajo riesgo bajo el percentil cuarenta, intermedio bajo, intermedio alto y zona de alto riesgo sobre el percentil noventa y cinco.',
-            },
-          ],
-        },
-        {
-          title: 'Decisión Terapéutica Personalizada',
-          tag: 'Curvas que ajustan por edad gestacional y neurotoxicidad',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Factores de riesgo de neurotoxicidad que bajan el umbral',
-              d: 'Enfermedad hemolítica isoinmune, déficit de G6PD, asfixia perinatal, letargia significativa, inestabilidad térmica o sepsis',
-              say: 'La presencia de factores de riesgo como hemólisis inmunitaria, asfixia, letargia o prematurez desciende la curva de tolerancia obligando a iniciar fototerapia con valores menores.',
-            },
-            {
-              t: 'Fototerapia intensiva versus exanguinotransfusión',
-              d: 'Si el valor supera la curva de fototerapia se inicia luz azul; si se acerca a la curva superior o hay signos de toxicidad se prepara recambio',
-              say: 'Si el valor sobrepasa el umbral se inicia fototerapia continua de alta intensidad, preparándose la exanguinotransfusión si la cifra continúa subiendo hacia la línea de recambio vascular.',
-            },
-          ],
-        },
+        { title: 'Ictericia patológica', tag: 'Antes de las 24 horas', kind: 'alert', items: [
+          { t: 'Antes de las 24 horas', d: 'Es hemolítica hasta demostrar lo contrario',
+            say: 'Grábate esta regla, porque resuelve la mitad de las preguntas del tema: si la ictericia aparece antes de las veinticuatro horas de vida, es patológica y hemolítica hasta que tú la descartes.' },
+          { t: 'Sube rápido y muy alto', d: 'Más de 5 mg/dL al día',
+            say: 'También es patológica si sube muy rápido, más de cinco miligramos por decilitro al día, o si supera los quince miligramos por decilitro en un recién nacido de término.' },
+          { t: 'Bilirrubina directa alta', d: 'Sospecha de colestasia, no solo de hemólisis',
+            say: 'Y hay un tercer signo de alarma que cambia el enfoque completo: si la bilirrubina directa está alta, ya no piensas solo en hemólisis, piensas en colestasia. Guarda esa idea, porque volvemos a ella al final.' },
+        ] },
+        { title: 'Ictericia fisiológica', tag: 'Después de las 24 horas', kind: 'key', items: [
+          { t: 'Después de las 24 horas', d: 'Pico al tercer o quinto día',
+            say: 'En cambio, si la ictericia aparece después de las veinticuatro horas, con pico entre el tercer y el quinto día, vas por buen camino.' },
+          { t: 'Bebé activo y de buen aspecto', d: 'Sin signos de alarma',
+            say: 'El recién nacido está activo, se alimenta bien, y no tiene ningún signo de alarma.' },
+          { t: 'Resuelve antes del día 10', d: 'Después de eso, hay que estudiar',
+            say: 'Y resuelve sola antes del día diez. Si se pasa de ese plazo, ya no la llamas fisiológica sin más: ahí tienes que estudiarla.' },
+        ] },
       ],
     },
 
     {
       type: 'flow',
-      kicker: 'Mecanismo biofísico y fotoquímico',
-      title: 'Fototerapia con Luz Azul: Formación de Lumirrubina Hidrosoluble',
+      kicker: 'La causa hemolítica más preguntada',
+      title: 'Incompatibilidad ABO versus incompatibilidad Rh',
       nodes: [
-        { id: 'luz', col: 0, row: 1, k: 'start', t: 'Luz azul 460 a 490 nm', s: 'Espectro electromagnético absorbido óptimamente por la bilirrubina dérmica' },
-        { id: 'fot', col: 1, row: 1, k: 'mech', t: 'Fotoisomerización estructural', s: 'Conversión fotoquímica irreversible del isómero lipofílico 4Z,15Z' },
-        { id: 'lum', col: 2, row: 1, k: 'good', t: 'Producción de lumirrubina', s: 'Molécula hidrosoluble polar que no requiere conjugación enzimática hepática' },
-        { id: 'exc', col: 3, row: 1, k: 'effect', t: 'Excreción biliar y urinaria directa', s: 'Eliminación rápida en orina y bilis con descenso acelerado de niveles séricos' },
+        { id: 'mad', col: 0, row: 1, k: 'start', t: 'Ictericia antes de las 24 horas', s: 'Buscas la causa hemolítica' },
+        { id: 'abo', col: 1, row: 0, k: 'cause', t: 'Madre O, hijo A o B', s: 'Puede darse en el primer embarazo' },
+        { id: 'rh', col: 1, row: 2, k: 'risk', t: 'Madre Rh negativo, hijo Rh positivo', s: 'Necesita sensibilización previa' },
+        { id: 'abo2', col: 2, row: 0, k: 'effect', t: 'Cuadro leve a moderado', s: 'Coombs débil o incluso negativo' },
+        { id: 'rh2', col: 2, row: 2, k: 'alert', t: 'Cuadro grave, a veces fulminante', s: 'Riesgo de hidrops fetal' },
       ],
       edges: [
-        { from: 'luz', to: 'fot', label: 'absorción cutánea' },
-        { from: 'fot', to: 'lum', label: 'reordenamiento químico' },
-        { from: 'lum', to: 'exc', label: 'filtración renal' },
+        { from: 'mad', to: 'abo' },
+        { from: 'mad', to: 'rh' },
+        { from: 'abo', to: 'abo2' },
+        { from: 'rh', to: 'rh2' },
       ],
       steps: [
-        {
-          show: ['luz', 'fot'],
-          note: 'Absorción de fotones de luz azul en los capilares cutáneos',
-          say: 'La luz azul con longitud de onda entre cuatrocientos sesenta y cuatrocientos noventa nanómetros penetra la epidermis y es absorbida directamente por las moléculas de bilirrubina libre presentes en los capilares superficiales.',
-        },
-        {
-          show: ['lum', 'exc'],
-          note: 'Conversión fotoquímica irreversible a lumirrubina y excreción',
-          say: 'Esta energía lumínica desencadena una fotoisomerización estructural irreversible transformando la bilirrubina lipofílica en lumirrubina, un fotoproducto altamente hidrosoluble que se excreta de inmediato por vía biliar y renal sin requerir conjugación hepática.',
-        },
+        { show: ['mad'], note: 'Dos incompatibilidades, dos gravedades distintas',
+          say: 'Con una ictericia antes de las veinticuatro horas, hay dos causas hemolíticas que tienes que distinguir, porque no pesan igual.' },
+        { show: ['abo', 'abo2'], note: 'Puede pasar desde el primer hijo',
+          say: 'La incompatibilidad de grupo clásico se da cuando la madre es grupo O y el hijo es grupo A o B. La madre ya trae anticuerpos que cruzan la placenta, así que puede pasar desde el primer embarazo. Y el cuadro suele ser leve a moderado: fíjate que el Coombs directo a veces sale débil, o incluso negativo, y eso no descarta el diagnóstico.' },
+        { show: ['rh', 'rh2'], note: 'Rh: el segundo hijo es el que sufre',
+          say: 'La incompatibilidad Rh necesita que la madre Rh negativo se haya sensibilizado antes, en un parto o aborto previo. Por eso casi nunca afecta al primer hijo. Pero cuando ocurre, el cuadro es grave, incluso fulminante, con anemia severa y riesgo de hidrops fetal. Esa diferencia de gravedad se pregunta seguido: ABO es más frecuente y más leve, Rh es más raro y más peligroso.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Neurotoxicidad severa',
-      title: 'Encefalopatía Bilirrubínica Aguda y Secuelas de Kernicterus',
+      kicker: 'Dos causas benignas que se confunden',
+      title: 'Lactancia ineficaz versus ictericia por leche materna',
       cards: [
-        {
-          title: 'Encefalopatía Bilirrubínica Aguda: Fases Progresivas',
-          tag: 'Signos de daño neurológico en curso potencialmente reversibles',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Fase precoz: Hipotonía, letargia y succión débil',
-              d: 'Neonato marcadamente ictérico que se muestra somnoliento, no despierta a comer y pierde el tono muscular habitual',
-              say: 'Cuando la bilirrubina libre invade el sistema nervioso, se desata la encefalopatía aguda. En su fase inicial verás hipotonía marcada, somnolencia profunda y rechazo alimentario con llanto débil, lo que exige tratamiento de rescate inmediato.',
-            },
-            {
-              t: 'Fase avanzada: Hipertonía, opistótonos y llanto agudo',
-              d: 'Espasmos extensores axiales con arqueamiento del tronco en opistótonos, retrocolis, llanto de tono cerebral agudo y convulsiones',
-              say: 'Si no se interviene, progresa a hipertonía con opistótonos, arqueamiento espinal rígido, llanto agudo incontrolable, fiebre central y crisis convulsivas de mal pronóstico.',
-            },
-          ],
-        },
-        {
-          title: 'Kernicterus Crónico: Secuelas Neurológicas Permanentes',
-          tag: 'Daño tisular neuronal irreversible en ganglios basales',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Parálisis cerebral atetoide o coreoatetósica',
-              d: 'Destrucción de neuronas del globo pálido y núcleos subtalámicos con movimientos distónicos y discinéticos involuntarios',
-              say: 'El kernicterus crónico deja como secuela una parálisis cerebral coreoatetoide con distonías severas por impregnación necrótica del globo pálido y subtálamo.',
-            },
-            {
-              t: 'Hipoacusia neurosensorial y displasia del esmalte dental',
-              d: 'Compromiso auditivo central por lesión de los núcleos cocleares del tronco y defecto en la dentición primaria',
-              say: 'También ocasiona sordera neurosensorial por destrucción de los núcleos cocleares en el tronco encefálico y defectos severos en el esmalte de la dentición de leche.',
-            },
-          ],
-        },
+        { title: 'Lactancia ineficaz', tag: 'Días 2 a 5', kind: 'normal', items: [
+          { t: 'Poca leche, bebé se deshidrata', d: 'Orina poco y baja más del 10%',
+            say: 'Ahora dos causas benignas que se prestan para confusión. La primera es la lactancia ineficaz: el bebé recibe poca leche, se deshidrata, orina poco y baja más del diez por ciento de su peso. Esa deshidratación aumenta la recirculación de bilirrubina que ya vimos.' },
+          { t: 'Se corrige, nunca se suspende', d: 'Mejora el acople y la frecuencia',
+            say: 'La conducta es mejorar la técnica de acople y aumentar la frecuencia de las tomas. Nunca se suspende la lactancia por esto.' },
+        ] },
+        { title: 'Ictericia por leche materna', tag: 'Después del día 5', kind: 'key', items: [
+          { t: 'Empieza más tarde, sube de peso', d: 'El bebé está excelente y activo',
+            say: 'La segunda, la ictericia por leche materna, empieza más tarde, al final de la primera semana, y aquí el bebé sube de peso vigorosamente y está en excelente estado. Ese detalle es justo lo que la separa de la anterior.' },
+          { t: 'Es benigna y se va sola', d: 'En uno a tres meses',
+            say: 'Es totalmente benigna y se resuelve sola en uno a tres meses. Y otra vez la misma regla: tampoco se suspende la lactancia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Cómo decides el tratamiento',
+      title: 'El nomograma de Bhutani manda la conducta',
+      nodes: [
+        { id: 'biltot', col: 0, row: 1, k: 'start', t: 'Bilirrubina total y horas de vida', s: 'Se ubican juntas en la curva' },
+        { id: 'zonabaja', col: 1, row: 0, k: 'good', t: 'Zona de bajo riesgo', s: 'Solo observación' },
+        { id: 'zonainter', col: 1, row: 1, k: 'q', t: 'Zona intermedia', s: 'Control en 24 a 48 horas' },
+        { id: 'zonaalta', col: 1, row: 2, k: 'risk', t: 'Zona de alto riesgo', s: 'Fototerapia LED continua' },
+        { id: 'exsang', col: 2, row: 2, k: 'alert', t: 'Falla la fototerapia', s: 'O signos de encefalopatía aguda' },
+        { id: 'exang2', col: 3, row: 2, k: 'trap', t: 'Exanguinotransfusión', s: 'Recambia dos volemias del paciente' },
+      ],
+      edges: [
+        { from: 'biltot', to: 'zonabaja' },
+        { from: 'biltot', to: 'zonainter' },
+        { from: 'biltot', to: 'zonaalta' },
+        { from: 'zonaalta', to: 'exsang', label: 'si falla' },
+        { from: 'exsang', to: 'exang2' },
+      ],
+      steps: [
+        { show: ['biltot'], note: 'No es un número fijo: depende de la hora',
+          say: 'Ya sabes que la ictericia es fisiológica. Ahora, ¿necesita tratamiento? Eso no lo decide un número fijo de bilirrubina, lo decide el nomograma de Bhutani, que cruza el valor con las horas exactas de vida. La misma cifra puede ser normal a los cuatro días y una emergencia a las veinticuatro horas.' },
+        { show: ['zonabaja'], note: 'Nada que hacer',
+          say: 'Si el valor cae en la zona de bajo riesgo, no hay nada que hacer más que observar.' },
+        { show: ['zonainter'], note: 'Repites el control pronto',
+          say: 'Si cae en la zona intermedia, repites el control en veinticuatro a cuarenta y ocho horas, para ver hacia dónde va.' },
+        { show: ['zonaalta'], note: 'Luz azul que fabrica lumirrubina',
+          say: 'Y si cae en la zona de alto riesgo, inicias fototerapia con luz azul continua. El mecanismo es bonito: la luz transforma la bilirrubina en lumirrubina, un isómero que se elimina por la bilis y la orina sin que el hígado tenga que conjugarlo.' },
+        { show: ['exsang', 'exang2'], note: 'El paso que previene el kernicterus',
+          say: 'Y si la fototerapia falla, o aparece un signo precoz de encefalopatía aguda como el llanto agudo o la postura en opistótonos, ya no esperas más: vas a la exanguinotransfusión, que recambia dos volemias completas del paciente y previene el kernicterus.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Terapia de recambio vascular',
-      title: 'Exanguinotransfusión Neonatal: Indicaciones de Emergencia',
+      kicker: 'La bandera roja que no puedes pasar',
+      title: 'Cuando la ictericia dura demasiado',
       cards: [
-        {
-          title: 'Procedimiento y Mecanismo Terapéutico',
-          tag: 'Eliminación mecánica rápida de bilirrubina y anticuerpos',
-          kind: 'key',
-          items: [
-            {
-              t: 'Recambio de dos volemias sanguíneas (160 a 180 mL/kg)',
-              d: 'Se extrae sangre del recién nacido y se reemplaza por alícuotas con sangre total reconstituida fresca compatible',
-              say: 'La exanguinotransfusión consiste en recambiar dos volemias sanguíneas completas a través de un catéter venoso umbilical, removiendo glóbulos rojos sensibilizados y anticuerpos circulantes.',
-            },
-            {
-              t: 'Objetivo fisiológico primordial',
-              d: 'Disminuir de inmediato los niveles séricos de bilirrubina a la mitad, cortar la hemólisis activa y corregir la anemia severa',
-              say: 'Su objetivo primordial es reducir los niveles de bilirrubina a la mitad en pocas horas, frenar la hemólisis activa y prevenir el desarrollo inminente de encefalopatía aguda.',
-            },
-          ],
-        },
-        {
-          title: 'Indicaciones Formales Inmediatas',
-          tag: 'Criterios que no toleran dilación asistencial',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Presencia de signos de encefalopatía aguda independientemente del valor',
-              d: 'Ante cualquier signo clínico de letargia profunda, opistótonos o llanto agudo la exanguinotransfusión es mandatoria',
-              say: 'La presencia de cualquier signo clínico de encefalopatía aguda obliga a iniciar la preparación del recambio sanguíneo sin importar el valor numérico de laboratorio.',
-            },
-            {
-              t: 'Falla comprobada de la fototerapia intensiva',
-              d: 'Bilirrubina que continúa aumentando más de 0.5 mg/dL por hora a pesar de fototerapia de alta intensidad con máxima superficie',
-              say: 'También se indica cuando los niveles continúan subiendo a pesar de fototerapia intensiva o sobrepasan el percentil de recambio según las curvas de edad gestacional.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Urgencia quirúrgica pediátrica',
-      title: 'Colestasis Neonatal y Atresia de Vías Biliares Extrahepática',
-      cards: [
-        {
-          title: 'Signos Cardinales de Alarma Colestásica',
-          tag: 'Toda ictericia con acolia y coluria exige derivación urgente',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Ictericia prolongada más allá de las dos semanas de vida',
-              d: 'Todo neonato que persiste amarillo a los 14 días en término o 21 días en pretérmino debe medirse bilirrubina total y directa',
-              say: 'Todo recién nacido con ictericia persistente más allá de las dos semanas de vida debe someterse a determinación obligatoria de bilirrubina total y directa fraccionada.',
-            },
-            {
-              t: 'Triada de colestasis: Ictericia, coluria y acolia fecal',
-              d: 'Bilirrubina directa mayor a 1.0 mg/dL, orina oscura como té cargado y deposiciones blanquecinas o decoloradas como masilla',
-              say: 'La presencia de bilirrubina directa elevada sobre un miligramo por decilitro con orina oscura y deposiciones blancas o acólicas confirma un síndrome colestásico neonatal.',
-            },
-          ],
-        },
-        {
-          title: 'Atresia de Vías Biliares y Cirugía de Kasai Precoz',
-          tag: 'Obliteración fibrótica progresiva del árbol biliar',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Primera causa de trasplante hepático en pediatría',
-              d: 'Obliteración inflamatoria de los conductos biliares extrahepáticos que evoluciona rápidamente a cirrosis biliar secundaria',
-              say: 'La atresia de vías biliares extrahepáticas es la causa principal de trasplante de hígado en niños, progresando a cirrosis biliar irreversible si no se opera tempranamente.',
-            },
-            {
-              t: 'Hepatoportoenterostomía de Kasai antes de los sesenta días',
-              d: 'La anastomosis en Y de Roux debe realizarse antes de las 8 semanas de vida; posterior a este plazo la tasa de éxito cae bajo el 20%',
-              say: 'El tratamiento de elección es la cirugía de Kasai, la cual debe practicarse idealmente antes de los sesenta días de vida para evitar el colapso funcional del hígado.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Comparación analítica de laboratorio',
-      title: 'Bilirrubina No Conjugada (Indirecta) versus Conjugada (Directa)',
-      head: ['Parámetro Analítico', 'Hiperbilirrubinemia Indirecta', 'Hiperbilirrubinemia Directa', 'Implicancia Clínica'],
-      rows: [
-        {
-          cells: ['Solubilidad molecular', 'Lipofílica (insoluble en agua)', 'Hidrosoluble (polar)', 'La indirecta atraviesa barrera cerebral'],
-          say: 'La bilirrubina indirecta es liposoluble y puede ingresar al encéfalo causando kernicterus, mientras que la directa es hidrosoluble y no causa neurotoxicidad.',
-        },
-        {
-          cells: ['Coloración de deposiciones', 'Color normal amarillento', 'Acolia fecal (heces blancas)', 'La acolia demuestra obstrucción biliar'],
-          say: 'En el predominio indirecto las heces son amarillas normales, mientras que en el predominio directo las heces son acólicas y blanquecinas.',
-        },
-        {
-          cells: ['Coloración de orina', 'Normal clara sin coluria', 'Coluria oscura (color té)', 'La presencia de coluria descarta ictericia fisiológica'],
-          say: 'La orina es clara en la ictericia fisiológica indirecta, pero se vuelve oscura y espumosa con coluria en las colestasis obstructivas.',
-        },
-        {
-          cells: ['Causa paradigmática', 'Fisiológica o incompatibilidad', 'Atresia de vías biliares', 'La directa requiere derivación quirúrgica'],
-          say: 'El exceso indirecto orienta a fisiológica o hemólisis; el exceso directo sugiere colestasis y atresia biliar quirúrgica urgente.',
-        },
+        { title: 'Colestasia neonatal', tag: 'Bilirrubina directa alta', kind: 'alert', items: [
+          { t: 'Acolia y coluria', d: 'Heces blancas, orina oscura como té',
+            say: 'Y aquí retomamos lo que dejamos pendiente. Si un recién nacido tiene acolia, heces pálidas como masilla, y coluria, orina oscura como té cargado, ya no estás frente a algo fisiológico.' },
+          { t: 'Más de 14 días de ictericia', d: 'O más del 20% de bilirrubina directa',
+            say: 'La sospechas cuando la ictericia pasa de los catorce días, o cuando la bilirrubina directa supera el veinte por ciento de la total.' },
+          { t: 'Atresia de vías biliares', d: 'Cirugía de Kasai antes de los 60 días',
+            say: 'La causa que más te importa descartar es la atresia de vías biliares, porque necesita cirugía de Kasai antes de los sesenta días de vida para evitar la cirrosis. Fíjate en el contraste con todo lo anterior: ahí el problema era exceso de bilirrubina indirecta; aquí, la bilis ni siquiera está saliendo.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de actuación clínica',
-      title: 'Algoritmo de Diagnóstico, Estratificación y Tratamiento de la Ictericia Neonatal',
-      say: 'Examinemos el algoritmo paso a paso para el abordaje metódico de la ictericia neonatal, diferenciando la edad de inicio, el fraccionamiento de bilirrubina y los umbrales terapéuticos.',
+      intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Las decisiones que más se preguntan',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Ictericia antes de las 24 horas', 'Hospitalizar y estudiar hemólisis', 'Esperar a ver si es fisiológica'],
+          say: 'Repasemos las trampas que más se repiten. Ictericia antes de las veinticuatro horas: hospitalizas y estudias hemólisis de inmediato. El error es esperar a ver si se comporta como fisiológica.' },
+        { cells: ['Madre Rh positiva, hijo Rh negativo', 'No hay incompatibilidad Rh', 'Pensar en incompatibilidad Rh igual'],
+          say: 'Madre Rh positiva e hijo Rh negativo: ahí no hay incompatibilidad Rh, porque quien se sensibiliza es siempre la madre Rh negativa frente a un hijo Rh positivo.' },
+        { cells: ['Fisiológica, bebé sano y activo', 'Reforzar lactancia y control ambulatorio', 'Pedir estudio de hemólisis sin motivo'],
+          say: 'Ictericia fisiológica en un bebé sano y activo: refuerzas la lactancia y controlas de forma ambulatoria. Pedir un estudio completo de hemólisis, sin ningún signo de alarma, solo retrasa el alta.' },
+        { cells: ['Ictericia por leche materna, sube de peso', 'Tranquilizar y mantener la lactancia', 'Suspender el pecho materno'],
+          say: 'Ictericia por leche materna, con el bebé subiendo de peso: tranquilizas a los padres y mantienes la lactancia. Suspender el pecho es la respuesta incorrecta más clásica de esta parte.' },
+        { cells: ['Acolia y coluria', 'Derivar urgente para estudio y Kasai', 'Decir que es solo leche materna'],
+          say: 'Y la última: acolia y coluria. Derivas urgente para estudio de vía biliar y eventual cirugía de Kasai. Confundirla con ictericia por leche materna, solo porque el bebé se ve bien, es el error que más cuesta caro en este tema.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco Oficial AEE · Perfil V3 2.01.1.121',
-      title: 'Conducta Inmediata ante Ictericia Precoz e Incompatibilidad ABO',
-      stem: 'Un recién nacido de 18 horas de vida presenta ictericia marcada que compromete cara, tórax y abdomen. La madre es grupo O Rh(+) y el niño es grupo B Rh(+). El examen de laboratorio informa: Bilirrubina Total de 9.5 mg/dL y Bilirrubina Directa de 0.5 mg/dL.',
-      question: '¿Cuál es el diagnóstico más probable y la conducta inicial?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Recién nacido de 16 horas de vida, de término, vigoroso, nacido por parto vaginal sin incidentes. La matrona nota ictericia marcada en cara, tronco y abdomen (zona 3 de Kramer). La madre es primigesta, grupo O Rh positivo; el recién nacido es grupo A Rh positivo. La bilirrubina total es de 9,2 mg/dL con bilirrubina directa de 0,4 mg/dL. El hematocrito es de 44%.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Ictericia fisiológica; enviar a domicilio con lactancia a libre demanda y control en 7 días' },
-        { letter: 'B', text: 'Incompatibilidad de grupo clásico ABO; hospitalizar de inmediato para iniciar fototerapia continua y solicitar Coombs directo' },
-        { letter: 'C', text: 'Ictericia por leche materna; suspender la lactancia materna por 48 horas y alimentar con fórmula' },
-        { letter: 'D', text: 'Atresia de vías biliares congénita; derivar a cirugía pediátrica de urgencia' },
-        { letter: 'E', text: 'Sepsis neonatal precoz; iniciar vancomicina más meropenem de entrada' },
+        { letter: 'A', text: 'Dar de alta con control ambulatorio en 7 días' },
+        { letter: 'B', text: 'Hospitalizar, iniciar fototerapia y solicitar Coombs directo' },
+        { letter: 'C', text: 'Suspender la lactancia materna por 48 horas' },
+        { letter: 'D', text: 'Solicitar ecografía abdominal para descartar atresia biliar' },
+        { letter: 'E', text: 'Indicar fenobarbital oral para inducir la conjugación hepática' },
       ],
       correct: 'B',
-      explanation: 'Toda ictericia que inicia en las primeras 24 horas de vida (< 24h) es patológica y obliga al estudio hemolítico urgente. El binomio madre O positivo con recién nacido B positivo configura una incompatibilidad por grupo clásico ABO. Con una bilirrubinemia de 9.5 mg/dL a las 18 horas de vida (ubicada en la zona de alto riesgo del nomograma de Bhutani), la conducta reglamentaria es hospitalizar en neonatología, iniciar fototerapia intensiva continua de inmediato, solicitar test de Coombs directo, hemograma con frotis y reticulocitos, y monitorizar la velocidad de ascenso de la bilirrubina cada 4 a 6 horas.',
+      explanation: 'Ictericia a las 16 horas de vida: patológica y hemolítica hasta demostrar lo contrario. La madre grupo O y el hijo grupo A orientan a incompatibilidad ABO. A esa hora de vida, 9,2 mg/dL cae en zona de alto riesgo de Bhutani: fototerapia inmediata más Coombs directo.',
       say: {
-        stem: 'Recién nacido de dieciocho horas con ictericia hasta el abdomen, madre grupo O positivo y niño grupo B positivo, con bilirrubina de nueve coma cinco miligramos por decilitro.',
-        question: '¿Cuál es el diagnóstico más probable y la conducta inicial?',
-        options: 'La opción A ictericia fisiológica y alta. La B incompatibilidad clásica ABO, hospitalizar para fototerapia continua y test de Coombs. La C ictericia por leche materna. La D atresia biliar. La E sepsis neonatal con vancomicina. Recuerda la regla de las veinticuatro horas. Piénsalo.',
-        answer: 'La respuesta correcta es la B. Toda ictericia antes de las veinticuatro horas es patológica; con madre O e hijo B corresponde a incompatibilidad ABO que requiere fototerapia.',
+        stem: 'Vamos con un caso. Recién nacido de dieciséis horas de vida, de término, vigoroso, con ictericia marcada en la cara, el tronco y el abdomen. La madre es primeriza, grupo O Rh positivo; el recién nacido es grupo A Rh positivo. La bilirrubina total es de nueve coma dos, con bilirrubina directa de cero coma cuatro. El hematocrito es cuarenta y cuatro por ciento.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Tienes cinco opciones: dar de alta con control en siete días, hospitalizar con fototerapia y Coombs directo, suspender la lactancia por cuarenta y ocho horas, pedir una ecografía abdominal, o indicar fenobarbital. Tómate unos segundos.',
+        answer: 'La respuesta es la B. Dieciséis horas de vida es antes de las veinticuatro: patológica hasta que la descartes. Y la combinación madre O con hijo A apunta a incompatibilidad ABO. A esa hora de vida, ese valor de bilirrubina ya está en zona de alto riesgo. Hospitalizas, inicias fototerapia y pides el Coombs directo. Dar de alta ignora la regla de las veinticuatro horas, y ni la ecografía ni el fenobarbital tienen espacio aquí.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco Oficial AEE · Perfil V3 2.01.1.121',
-      title: 'Manejo de Ictericia al Tercer Día en Zona de Bajo Riesgo',
-      stem: 'Un recién nacido de término de 3 días de vida (72 horas) presenta ictericia hasta el abdomen (zona 3 de Kramer). Está activo, se alimenta exclusivamente al pecho con buena succión, orina claro y sus deposiciones son de transición amarillentas. Su madre es A(+) y el niño es A(+). La bilirrubina total es de 11.2 mg/dL con bilirrubina directa de 0.6 mg/dL. Al graficar en el nomograma de Bhutani, el valor se ubica en la zona de bajo riesgo.',
-      question: '¿Cuál es la conducta médica correcta?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2019 · Pregunta 60',
+      stem: 'Un recién nacido de 18 horas de vida desarrolla ictericia hasta los muslos. Los niveles plasmáticos de bilirrubina resultan 15,3 mg/dl, con fracción indirecta de 15 mg/dl. La madre es O-IV Rh positiva y el niño es B-I Rh negativo.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Exanguinotransfusión inmediata' },
-        { letter: 'B', text: 'Ingreso a fototerapia intensiva' },
-        { letter: 'C', text: 'Manejo como ictericia fisiológica, reforzar la lactancia materna y dar de alta con control ambulatorio a las 48 horas' },
-        { letter: 'D', text: 'Suspender el pecho materno de forma definitiva' },
-        { letter: 'E', text: 'Indicar fenobarbital oral para inducir la glucuroniltransferasa' },
+        { letter: 'A', text: 'Ictericia hemolítica por incompatibilidad de grupo clásico' },
+        { letter: 'B', text: 'Ictericia hemolítica por incompatibilidad Rh' },
+        { letter: 'C', text: 'Ictericia fisiológica' },
+        { letter: 'D', text: 'Hepatitis neonatal' },
+        { letter: 'E', text: 'Síndrome de Gilbert' },
+      ],
+      correct: 'A',
+      explanation: 'Ictericia a las 18 horas: patológica. La madre O e hijo B calzan con incompatibilidad ABO. La incompatibilidad Rh exige madre Rh negativo e hijo Rh positivo; aquí es al revés (madre Rh positiva, hijo Rh negativo), así que esa opción queda descartada por definición.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Recién nacido de dieciocho horas de vida, con ictericia hasta los muslos. La bilirrubina total es quince coma tres, casi toda indirecta. La madre es grupo O Rh positivo, y el niño es grupo B Rh negativo.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: incompatibilidad de grupo clásico, incompatibilidad Rh, ictericia fisiológica, hepatitis neonatal, o síndrome de Gilbert.',
+        answer: 'Es la A. Dieciocho horas de vida ya es patológica, y madre O con hijo B calza exacto con incompatibilidad ABO. Fíjate en el distractor: para que exista incompatibilidad Rh, la madre tiene que ser Rh negativo y el hijo Rh positivo. Aquí es justo al revés, la madre es Rh positivo y el hijo Rh negativo, así que esa opción queda descartada solo por los grupos, sin necesitar ningún otro dato.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2017 · Pregunta 39',
+      stem: 'Un lactante de 5 días de vida, alimentado con lactancia materna exclusiva, presenta ictericia en la cara y el tronco, que inició hace 2 días. La bilirrubina plasmática resulta 10 mg/dl, bilirrubina directa de 0,3 mg/dl, hematocrito de 56%.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Hepatitis neonatal' },
+        { letter: 'B', text: 'Atresia biliar primaria' },
+        { letter: 'C', text: 'Ictericia fisiológica' },
+        { letter: 'D', text: 'Ictericia hemolítica' },
+        { letter: 'E', text: 'Ictericia por leche materna' },
       ],
       correct: 'C',
-      explanation: 'El paciente presenta una clásica Ictericia Fisiológica: inicio posterior a las 24 horas de vida, examen físico impecable en recién nacido de término vigoroso sin incompatibilidad sanguínea, orina clara y heces coloreadas, bilirrubina indirecta de 11.2 mg/dL a las 72 horas (momento del pico fisiológico) y ubicación en zona de bajo riesgo del nomograma de Bhutani. No requiere fototerapia ni estudios invasivos. La conducta correcta es mantener y reforzar la lactancia materna, educar en signos de alarma y programar control clínico en 48 horas.',
+      explanation: 'Ictericia que apareció al tercer día, con bilirrubina indirecta moderada y directa normal: patrón fisiológico. El hematocrito alto no cambia el diagnóstico, es parte esperable del recién nacido y no un signo de alarma por sí solo.',
       say: {
-        stem: 'Recién nacido de tres días vigoroso que lacta bien con bilirrubina de once coma dos en zona de bajo riesgo del nomograma sin incompatibilidad.',
-        question: '¿Cuál es la conducta médica correcta?',
-        options: 'La opción A exanguinotransfusión. La B ingreso a fototerapia intensiva. La C manejo como ictericia fisiológica, reforzar lactancia y control en dos días. La D suspender pecho materno. La E fenobarbital oral. Evalúa el riesgo del nomograma. Piénsalo.',
-        answer: 'La respuesta correcta es la C. Corresponde a una ictericia fisiológica en zona de bajo riesgo, requiriendo reforzar la lactancia y control ambulatorio.',
+        stem: 'Esta es del EUNACOM de julio de dos mil diecisiete. Lactante de cinco días de vida, con lactancia materna exclusiva, que presenta ictericia en la cara y el tronco desde hace dos días. La bilirrubina total es diez, casi toda indirecta, y el hematocrito es cincuenta y seis por ciento.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: hepatitis neonatal, atresia biliar primaria, ictericia fisiológica, ictericia hemolítica, o ictericia por leche materna. Piénsalo.',
+        answer: 'Es la C, ictericia fisiológica. La ictericia empezó al tercer día, con bilirrubina indirecta moderada y directa normal: ese es el patrón esperado. El hematocrito alto puede sonar alarmante, pero es parte normal del recién nacido, no un signo de hemólisis por sí solo. Y para que fuera atresia biliar necesitarías bilirrubina directa alta, que aquí no existe.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco Oficial AEE · Perfil V3 2.01.1.121',
-      title: 'Mecanismo Biofísico de la Fototerapia con Luz Azul',
-      stem: '¿Cuál es el mecanismo biofísico y bioquímico mediante el cual la Fototerapia con luz azul (longitud de onda 460-490 nm) reduce los niveles séricos de bilirrubina indirecta en el recién nacido?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2018 · Pregunta 154',
+      stem: 'Un niño de 6 semanas de vida presenta ictericia desde hace 2 semanas. Al examen físico se aprecia ictérico y presenta deposiciones claras en el pañal, sin otras alteraciones.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Acelera la maduración de la glucuroniltransferasa hepática' },
-        { letter: 'B', text: 'Provoca fotoisomerización estructural de la bilirrubina indirecta no polar transformándola en lumirrubina hidrosoluble que se excreta sin conjugación' },
-        { letter: 'C', text: 'Destruye los hematíes circulantes que contienen hemoglobina fetal' },
-        { letter: 'D', text: 'Inhibe la absorción intestinal de lípidos y quilomicrones' },
-        { letter: 'E', text: 'Bloquea los receptores Fc de los macrófagos esplénicos' },
+        { letter: 'A', text: 'Estenosis hipertrófica del píloro' },
+        { letter: 'B', text: 'Atresia biliar primaria' },
+        { letter: 'C', text: 'Hepatitis viral' },
+        { letter: 'D', text: 'Síndrome de Crigler Najjar' },
+        { letter: 'E', text: 'Hipotiroidismo congénito' },
       ],
       correct: 'B',
-      explanation: 'La luz azul de alta intensidad (460 a 490 nm) penetra el lecho capilar cutáneo y produce una reacción fotoquímica irreversible que altera la configuración espacial de la molécula de bilirrubina no conjugada (isómero 4Z,15Z lipofílico), transformándola en Lumirrubina (isómero estructural hidrosoluble). La lumirrubina tiene la propiedad crucial de ser excretada directamente a través de la bilis y de la orina sin requerir la conjugación hepática por la glucuroniltransferasa.',
+      explanation: 'Ictericia tardía, de más de dos semanas, con deposiciones claras (acolia): patrón colestásico clásico de atresia biliar. Las otras opciones no explican las deposiciones acólicas.',
       say: {
-        stem: 'Pregunta fisiológica sobre el mecanismo biofísico y bioquímico por el cual la fototerapia reduce la bilirrubina indirecta.',
-        question: '¿Cuál es el mecanismo exacto de la fototerapia con luz azul?',
-        options: 'La opción A acelera la maduración de la glucuroniltransferasa hepática. La B provoca fotoisomerización estructural transformándola en lumirrubina hidrosoluble que se excreta sin conjugación. La C destruye hematíes. La D inhibe absorción lipídica. La E bloquea receptores. Recuerda el fotoproducto soluble. Piénsalo.',
-        answer: 'La respuesta correcta es la B. La fototerapia genera fotoisomerización irreversible a lumirrubina, la cual se excreta por orina y bilis sin necesidad de conjugación.',
+        stem: 'Ahora una del EUNACOM de diciembre de dos mil dieciocho. Niño de seis semanas de vida, con ictericia desde hace dos semanas, y deposiciones claras en el pañal, sin ningún otro hallazgo.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: estenosis hipertrófica del píloro, atresia biliar primaria, hepatitis viral, síndrome de Crigler Najjar, o hipotiroidismo congénito. Piénsalo.',
+        answer: 'Es la B. La palabra clave del enunciado es una sola: deposiciones claras, que es la acolia. Ninguna otra opción explica que la bilis no esté llegando al intestino. Con ictericia tardía y acolia, la sospecha obligatoria es atresia de vías biliares, y necesita estudio y cirugía urgente.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'Banco Oficial AEE · Perfil V3 2.01.1.121',
-      title: 'Pesquisa Urgente de Colestasis Neonatal y Acolia Fecal',
-      stem: 'Un lactante de 20 días de vida es traído a control sano. La madre refiere que lo nota amarillo desde la primera semana de vida. Al examen físico destaca ictericia en cara y tronco, pero la madre agrega que los pañales de orina son oscuros como té cargado (coluria) y las deposiciones han sido blanquecinas como masilla (acolia) en los últimos días. La bilirrubinemia total es de 8.5 mg/dL con bilirrubina directa de 5.2 mg/dL.',
-      question: '¿Cuál es el diagnóstico de sospecha más urgente?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2013 · Pregunta 117',
+      stem: 'Un lactante de un mes, sin antecedentes perinatales, es traído por presentar ictericia hasta los muslos, resto normal. Su desarrollo psicomotor, crecimiento y alimentación han sido normales. Al preguntar dirigidamente, la madre refiere que también ha presentado orinas oscuras.',
+      question: '¿Cuál es el examen de elección frente a este paciente?',
       options: [
-        { letter: 'A', text: 'Ictericia fisiológica prolongada' },
-        { letter: 'B', text: 'Ictericia por leche materna benigna' },
-        { letter: 'C', text: 'Atresia de Vías Biliares Extrahepática' },
-        { letter: 'D', text: 'Incompatibilidad de grupo ABO tardía' },
-        { letter: 'E', text: 'Síndrome de Gilbert del lactante' },
+        { letter: 'A', text: 'Ecografía abdominal' },
+        { letter: 'B', text: 'Hormona estimulante de la tiroides' },
+        { letter: 'C', text: 'Resonancia magnética abdominal' },
+        { letter: 'D', text: 'Test de Coombs' },
+        { letter: 'E', text: 'Bilirrubinemia diferenciada' },
       ],
-      correct: 'C',
-      explanation: 'Todo lactante que curse con ictericia persistente más allá de las 2 semanas de vida con elevación patológica de la Bilirrubina Directa (> 1.0 mg/dL o > 20% de la total), asociada a coluria y acolia fecal (heces pálidas o blancas), presenta un Síndrome Colestásico Neonatal. La causa más prevalente y que representa una urgencia quirúrgica indiscutible es la Atresia de Vías Biliares Extrahepática. Debe derivarse de inmediato para ecografía biliar y cirugía de Kasai (hepatoportoenterostomía) antes de los 60 días de vida para evitar la falla hepática cirrótica terminal.',
+      correct: 'E',
+      explanation: 'Ictericia tardía con coluria: sospecha de colestasia. Pero antes de pedir imágenes, el primer paso siempre es medir la bilirrubina diferenciada, para confirmar que el componente directo está elevado. Recién con eso se justifica avanzar a la ecografía.',
       say: {
-        stem: 'Lactante de veinte días con ictericia persistente que presenta orina oscura con coluria deposiciones blancas acólicas y bilirrubina directa de cinco coma dos.',
-        question: '¿Cuál es el diagnóstico de sospecha más urgente?',
-        options: 'La opción A ictericia fisiológica prolongada. La B ictericia por leche materna benigna. La C atresia de vías biliares extrahepática. La D incompatibilidad ABO tardía. La E síndrome de Gilbert. Fíjate en el predominio directo y la acolia. Piénsalo.',
-        answer: 'La respuesta correcta es la C. La ictericia colestásica con acolia y coluria obliga a sospechar atresia de vías biliares requiriendo derivación urgente.',
+        stem: 'Una pregunta que se trata sobre el orden de los exámenes, del EUNACOM de julio de dos mil trece. Lactante de un mes, sin antecedentes, con ictericia hasta los muslos, con desarrollo, crecimiento y alimentación normales. Al preguntar directamente, la madre cuenta que también ha notado orinas oscuras.',
+        question: '¿Cuál es el examen de elección frente a este paciente?',
+        options: 'Las opciones: ecografía abdominal, hormona estimulante de la tiroides, resonancia magnética abdominal, test de Coombs, o bilirrubinemia diferenciada. Piénsalo.',
+        answer: 'Es la E. Las orinas oscuras te hacen sospechar colestasia, igual que en los casos anteriores. Pero fíjate en el orden: antes de pedir una imagen, el primer paso siempre es confirmar con el laboratorio que el componente directo está elevado. Recién con la bilirrubina diferenciada alterada, avanzas a la ecografía. Pedir la ecografía de entrada es saltarse un paso.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Reglas de oro EUNACOM',
-      title: 'Puntos Clave y Perlas Indispensables en Ictericia Neonatal',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Reglas Temporales y Decisión Asistencial',
-          tag: 'Conceptos que definen conductas inmediatas',
-          kind: 'key',
-          items: [
-            {
-              t: 'Ictericia antes de las 24 horas: Siempre patológica',
-              d: 'Hospitalizar, solicitar bilirrubinas fraccionadas, grupo sanguíneo, Rh y Coombs directo; iniciar fototerapia sin demora',
-              say: 'Grábense que la ictericia en el primer día nunca es normal. Exige hospitalización para estudio de hemólisis y fototerapia inmediata.',
-            },
-            {
-              t: 'El valor de bilirrubina siempre se interpreta por horas',
-              d: 'Utilizar el nomograma de Bhutani correlacionando los miligramos por decilitro con las horas exactas de vida cumplidas',
-              say: 'Interpreten siempre la cifra de bilirrubina según las horas de vida del paciente en el nomograma para decidir con rigor científico el inicio de fototerapia.',
-            },
-          ],
-        },
-        {
-          title: 'Mecanismo Terapéutico y Banderas Rojas',
-          tag: 'Fototerapia y pesquisa oportuna de colestasis',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Fototerapia convierte bilirrubina en lumirrubina hidrosoluble',
-              d: 'La lumirrubina se elimina por vía biliar y urinaria directa sin necesitar conjugación hepática por la transferasa',
-              say: 'Recuerden que la fototerapia actúa transformando la molécula tóxica en lumirrubina soluble, permitiendo su eliminación sin pasar por el hígado.',
-            },
-            {
-              t: 'Bilirrubina directa sobre 1 mg/dL y acolia: Atresia biliar',
-              d: 'Derivación inmediata a centro de referencia para cirugía de Kasai antes de los sesenta días de vida',
-              say: 'Toda ictericia directa con deposiciones acólicas es una emergencia quirúrgica por sospecha de atresia biliar. Si te llevas una sola idea de hoy: la ictericia en el primer día de vida siempre es patológica y exige fototerapia de entrada. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'La regla de las 24 horas', tag: 'Lo primero que miras', kind: 'key', items: [
+          { t: 'Antes de las 24 horas', d: 'Patológica y hemolítica',
+            say: 'Cerremos con las reglas de oro. Antes de las veinticuatro horas, es patológica y hemolítica hasta que la descartes.' },
+          { t: 'Después de las 24 horas', d: 'Fisiológica si el bebé está bien',
+            say: 'Después de las veinticuatro horas, y con el bebé de buen aspecto, es fisiológica.' },
+        ] },
+        { title: 'Hemólisis', tag: 'ABO frecuente, Rh grave', kind: 'alert', items: [
+          { t: 'ABO: madre O, primer hijo', d: 'Cuadro leve, Coombs a veces débil',
+            say: 'La incompatibilidad ABO es la más frecuente, puede darse desde el primer hijo, y suele ser leve.' },
+          { t: 'Rh: necesita sensibilización previa', d: 'Cuadro grave, riesgo de hidrops',
+            say: 'La incompatibilidad Rh necesita un embarazo previo que sensibilice a la madre, y cuando aparece es grave.' },
+        ] },
+        { title: 'Tratamiento y bandera roja', tag: 'Bhutani y colestasia', kind: 'pharma', items: [
+          { t: 'Bhutani decide la fototerapia', d: 'El valor cruzado con la hora de vida',
+            say: 'El nomograma de Bhutani, cruzando el valor con la hora de vida, es lo que decide si vas a fototerapia.' },
+          { t: 'Acolia y coluria: atresia biliar', d: 'No lo confundas con leche materna',
+            say: 'Y si ves acolia y coluria, olvídate de causas benignas: sospecha atresia de vías biliares y deriva rápido. Si te llevas una sola idea de hoy: antes de las veinticuatro horas es hemólisis, después de las dos semanas con acolia es atresia biliar, y todo lo del medio se decide con Bhutani. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Diagnóstico, Estratificación y Manejo de la Ictericia Neonatal',
-    root: N(
-      'start',
-      'Recién Nacido con Ictericia Clínica Visible: Evaluación Cronológica Inicial',
-      'Examen visual de progresión céfalo-caudal (Zonas de Kramer) y registro de las horas de vida exactas',
-      'Iniciamos el abordaje evaluando el momento de aparición de la ictericia respecto a las primeras veinticuatro horas de vida.',
-      [
-        'Ictericia de inicio precoz: Menor a veinticuatro horas de vida (< 24 h)',
-        N(
-          'alert',
-          'Ictericia Siempre Patológica: Estudio Hemolítico Inmediato',
-          'Hospitalizar en neonatología · Bilirrubina total y directa · Grupo sanguíneo, Rh y test de Coombs directo · Hemograma, frotis y reticulocitos · Iniciar fototerapia intensiva continua de inmediato',
-          'Toda ictericia antes de veinticuatro horas es patológica; hospitalizamos de inmediato para estudio de hemólisis y fototerapia.',
-        ),
-      ],
-      [
-        'Ictericia de inicio posterior a las veinticuatro horas de vida (>= 24 h)',
-        N(
-          'q',
-          '¿Cuál es el tipo de bilirrubina predominante en el laboratorio?',
-          'Fraccionamiento analítico: Hiperbilirrubinemia indirecta versus directa',
-          'En el neonato que debuta después del primer día analizamos el predominio de bilirrubina en el examen de sangre.',
-          [
-            'Predominio directo: Bilirrubina directa mayor a 1.0 mg/dL o > 20% de total',
-            N(
-              'refer',
-              'Síndrome Colestásico Neonatal: Sospecha de Atresia Biliar',
-              'Preguntar dirigidamente por acolia (heces blancas) y coluria · Derivación urgente a gastroenterología pediátrica · Ecografía de vía biliar en ayuno · Cirugía de Kasai antes de los 60 días',
-              'El predominio directo con acolia define colestasis neonatal y obliga a descartar atresia de vías biliares antes de dos meses.',
-            ),
-          ],
-          [
-            'Predominio indirecto (No conjugada): Correlación en Nomograma de Bhutani',
-            N(
-              'q',
-              '¿En qué zona de riesgo se sitúa el valor según las horas de vida?',
-              'Curvas horarias de Bhutani según factores de riesgo y edad gestacional',
-              'Ubicamos el valor de bilirrubina indirecta en el nomograma de Bhutani según las horas exactas de vida.',
-              [
-                'Sobre la curva de fototerapia o en zona de alto riesgo (> P95)',
-                N(
-                  'alert',
-                  'Ingreso a Fototerapia Continua y Vigilancia de Curva de Recambio',
-                  'Fototerapia con luz azul de alta intensidad · Protección ocular estricta · Fomentar ingesta hídrica o leche · Control de bilirrubina cada 6-12h · Preparar exanguinotransfusión si falla',
-                  'Si supera la curva de fototerapia iniciamos luz azul continua con protección ocular y monitoreo estrecho.',
-                ),
-              ],
-              [
-                'Bajo la curva de fototerapia en zona de bajo riesgo (< P40)',
-                N(
-                  'ok',
-                  'Ictericia Fisiológica: Apoyo a la Lactancia y Control Ambulatorio',
-                  'Reforzar técnica y frecuencia de lactancia materna (8 a 12 tomas/día) · Educación a padres en signos de alarma (acolia, decaimiento) · Control ambulatorio presencial en 48 horas',
-                  'Si se sitúa en bajo riesgo manejamos como fisiológica reforzando la lactancia con control ambulatorio en dos días.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Ictericia neonatal: cuándo es peligrosa',
+    root: pwRoot,
   },
 };
