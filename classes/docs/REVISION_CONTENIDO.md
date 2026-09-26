@@ -571,3 +571,4 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 | Clase | Qué falta |
 |---|---|
 | — (banco, no libro) | "EUNACOM Diciembre 2025 · Pregunta 110" (diverticulitis) tiene errores de OCR ("diagnós8co", "diver2culi2s"). No se usó. |
+| — (banco, no libro) | "EUNACOM Diciembre 2025 · Pregunta 87" (perfil 4.01.2.024, hernias): las alternativas marcan correcta la D (cuerpo extraño), pero la explicación describe un hematoma inguinal posoperatorio (opción B) — inconsistente consigo misma. No se usó. |
