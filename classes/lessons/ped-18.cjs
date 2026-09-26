@@ -43,7 +43,7 @@ module.exports = {
           { t: 'Suma 5 signos clínicos', d: 'Quejido, aleteo, tiraje, retracción, disociación',
             say: 'Suma cinco signos: el quejido espiratorio, el aleteo nasal, el tiraje intercostal, la retracción del esternón, y la disociación entre el tórax y el abdomen al respirar. Cada uno se puntúa de cero a dos.' },
           { t: 'Siete puntos o más: grave', d: 'Necesita soporte de inmediato',
-            say: 'Con siete puntos o más, la dificultad es grave y necesita soporte respiratorio de inmediato. Ahora sí, vamos a los tres cuadros que la producen.' },
+            say: 'Con uno a tres puntos la dificultad es leve, con cuatro a seis es moderada, y con siete o más ya es grave y necesita soporte respiratorio de inmediato. Ahora sí, vamos a los tres cuadros que la producen.' },
         ] },
       ],
     },
@@ -135,7 +135,7 @@ module.exports = {
       ],
       steps: [
         { show: ['ces2'], note: 'Sin trabajo de parto, falta el estímulo hormonal',
-          say: 'El segundo cuadro es la taquipnea transitoria, y parte de un antecedente distinto: la cesárea electiva, sin trabajo de parto previo.' },
+          say: 'El segundo cuadro es la taquipnea transitoria, y parte de un antecedente distinto al de la membrana hialina: la cesárea electiva, sin trabajo de parto previo, en un recién nacido de término o casi de término.' },
         { show: ['liq'], note: 'El trabajo de parto activa los canales que secan el pulmón',
           say: 'El feto viene con líquido dentro del pulmón, y normalmente el trabajo de parto y sus catecolaminas activan los canales de sodio que lo reabsorben. Sin ese estímulo, el líquido se reabsorbe lento.' },
         { show: ['taq'], note: 'Taquipneico pero contento: la frase que lo describe',
@@ -185,6 +185,20 @@ module.exports = {
           say: 'El meconio obstruye como una válvula: deja entrar el aire pero no salir, así que quedan zonas de atelectasia junto a zonas de enfisema, alternadas en el mismo pulmón.' },
         { show: ['hpp'], note: 'La complicación que puede matar',
           say: 'Y la complicación que más te importa es la hipertensión pulmonar persistente, con una hipoxemia que no responde a oxígeno solo, y que necesita óxido nítrico inhalado y ventilación de alta frecuencia. La radiografía, otra vez distinta a las dos anteriores, muestra infiltrados algodonosos en parches, alternados con zonas hiperinsufladas y el diafragma aplanado.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'El cuarto diferencial',
+      title: 'Cuando aparece la fiebre, cambia el sospechoso',
+      cards: [
+        { title: 'Neumonía connatal', tag: 'Fiebre materna o RPM prolongada', kind: 'alert', items: [
+          { t: 'Fiebre o rotura prolongada de membranas', d: 'Antecedente materno, no fetal',
+            say: 'Antes de seguir, un cuarto nombre que no puedes dejar fuera. Si la madre tuvo fiebre en el trabajo de parto, o la rotura de membranas duró muchas horas, el sospechoso ya no es surfactante, ni cesárea, ni meconio: es infección.' },
+          { t: 'Agente típico: estreptococo grupo B', d: 'Igual que en la sepsis neonatal precoz',
+            say: 'El agente típico es el estreptococo grupo B, el mismo que causa la sepsis neonatal precoz que vas a ver en la próxima clase, y el tratamiento también se adelanta a esa clase: ampicilina más gentamicina o cefotaxima, por vía endovenosa, sin esperar el cultivo.' },
+        ] },
       ],
     },
 
@@ -301,8 +315,8 @@ module.exports = {
         { title: 'Tratamiento', tag: 'Lo que no puedes confundir', kind: 'pharma', items: [
           { t: 'CPAP y surfactante', d: 'Solo si de verdad falta surfactante',
             say: 'Reserva el CPAP con surfactante para cuando de verdad falta surfactante, no para todo recién nacido taquipneico.' },
-          { t: 'Fiebre materna cambia todo', d: 'Piensa en neumonía connatal, no solo en estos tres',
-            say: 'Y guarda un cuarto nombre para la próxima clase: si a la dificultad respiratoria se suma fiebre materna o rotura de membranas prolongada, ya no pienses solo en estos tres cuadros, piensa en neumonía connatal por estreptococo grupo B, que se trata con ampicilina y cefotaxima o gentamicina. Si te llevas una sola idea de hoy: el antecedente obstétrico te dice el diagnóstico antes de mirar la radiografía, y la radiografía solo lo confirma. Nos vemos en la próxima clase.' },
+          { t: 'Fiebre materna cambia todo', d: 'Piensa en neumonía connatal',
+            say: 'Y si aparece fiebre materna, ya sabes que el sospechoso cambia a neumonía connatal. Si te llevas una sola idea de hoy: el antecedente obstétrico te dice el diagnóstico antes de mirar la radiografía, y la radiografía solo lo confirma. Nos vemos en la próxima clase.' },
         ] },
       ],
     },
