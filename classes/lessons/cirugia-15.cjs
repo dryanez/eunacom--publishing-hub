@@ -1,5 +1,5 @@
-// Clase 11.15 — guion docente escrito a mano (estándar Módulo 2 · Cirugía).
-// Fuente clínica: books/scripts/dataset_cirugia.cjs (cir-15).
+// Clase 11.15 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_cirugia.cjs (cir-15, classId cirugia-15).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,484 +9,274 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Anestesia general vs neuroaxial raquídea y peridural, farmacología de anestésicos locales, dosis máximas, intoxicación LAST y emulsión lipídica',
-      say: 'Bienvenidos a la clase de anestesiología y toxicidad por anestésicos locales. Todo médico que realiza procedimientos quirúrgicos menores o atiende partos y urgencias debe dominar el uso seguro de los anestésicos locales. En el EUNACOM se evalúan con especial énfasis las dosis máximas de seguridad, el reconocimiento inmediato de los pródromos de la toxicidad sistémica o síndrome LAST, la indicación del antídoto con emulsión lipídica al veinte por ciento y el manejo de la cefalea post-punción dural. Comencemos.',
+      subtitle: 'Qué anestesia elegir, y cómo reaccionas si el anestésico local se envenena',
+      say: 'Seguimos en el bloque del perioperatorio. Hoy vemos anestesia general contra neuroaxial, y la complicación que más se pregunta de los anestésicos locales: su toxicidad sistémica. Vas a ver que hay una secuencia de síntomas muy reconocible, y un antídoto puntual que tienes que saber de memoria. Empecemos.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Técnicas',
+      title: 'General o neuroaxial: ¿qué decide la diferencia?',
+      cards: [
+        { title: 'Anestesia general', tag: 'Tres cosas a la vez', kind: 'key', items: [
+          { t: 'Hipnosis, analgesia y relajación', d: 'La tríada clásica',
+            say: 'Empecemos por las técnicas. La anestesia general busca tres cosas al mismo tiempo: que el paciente esté inconsciente, que no sienta dolor, y que sus músculos se relajen.' },
+          { t: 'Propofol es el de elección', d: 'Etomidato si hay shock o cardiopatía grave',
+            say: 'Para inducir, el propofol es el fármaco de elección, aunque baja la presión. Si el paciente ya está en shock o tiene una cardiopatía grave, prefieres etomidato, porque mantiene la presión estable.' },
+          { t: 'Ketamina en shock o asma grave', d: 'Estimula el corazón y broncodilata',
+            say: 'Y hay un tercer inductor para un escenario puntual: la ketamina. A diferencia de los otros dos, estimula el corazón en vez de deprimirlo, y además broncodilata, por eso es la elegida en el shock y en la crisis asmática grave.' },
+        ] },
+        { title: 'Anestesia neuroaxial', tag: 'Raquídea o peridural', kind: 'criteria', items: [
+          { t: 'Raquídea: directo al líquido cefalorraquídeo', d: 'Bloqueo rápido, profundo y predecible',
+            say: 'La neuroaxial es otra familia completa. La raquídea deposita el anestésico directo en el líquido cefalorraquídeo, y el bloqueo es rápido, profundo y muy predecible.' },
+          { t: 'Peridural: fuera de la duramadre', d: 'Permite dejar un catéter para analgesia continua',
+            say: 'La peridural queda por fuera de la duramadre, necesita más volumen de anestésico, y su ventaja es que puedes dejar un catéter para analgesia continua, como en el trabajo de parto.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Complicaciones neuroaxiales',
+      title: 'Lo que puede pasar apenas pones el bloqueo',
+      cards: [
+        { title: 'Hipotensión por bloqueo simpático', tag: 'La más frecuente', kind: 'alert', items: [
+          { t: 'El bloqueo abre las venas', d: 'Apaga las fibras simpáticas que las contraen',
+            say: 'Apenas pones una raquídea o una peridural, fíjate en la complicación más frecuente: la presión cae, porque el bloqueo también apaga las fibras simpáticas que mantienen contraídas las venas.' },
+          { t: 'Volumen y un vasoconstrictor', d: 'Efedrina o fenilefrina',
+            say: 'Se maneja con volumen y con un vasoconstrictor, efedrina o fenilefrina.' },
+        ] },
+        { title: 'Anestesia general', tag: 'Su propia caída de presión', kind: 'normal', items: [
+          { t: 'Propofol también hipotensa', d: 'Por vasodilatación y depresión del corazón',
+            say: 'Y recuerda que la anestesia general tiene su propia caída de presión: el propofol vasodilata y deprime algo el corazón, así que este riesgo no es exclusivo de la neuroaxial.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Relajantes musculares',
+      title: 'Para intubar rápido, y cómo revertir después',
+      cards: [
+        { title: 'Succinilcolina', tag: 'La más rápida', kind: 'alert', items: [
+          { t: 'Inicio en menos de un minuto', d: 'Ideal para intubación de secuencia rápida',
+            say: 'Y para completar la tríada, ya sabes que necesitas relajación muscular. La succinilcolina actúa en menos de un minuto, y es la elegida cuando necesitas intubar de inmediato.' },
+          { t: 'Hiperkalemia grave', d: 'Contraindicada en el gran quemado y en denervación',
+            say: 'Pero tiene un riesgo puntual: puede causar una hiperkalemia grave, así que evítala en el gran quemado de más de veinticuatro horas, en el politraumatizado, y en cualquier denervación muscular.' },
+        ] },
+        { title: 'Rocuronio y vecuronio', tag: 'Se pueden revertir', kind: 'pharma', items: [
+          { t: 'No despolarizantes', d: 'Acción más lenta que la succinilcolina',
+            say: 'El rocuronio y el vecuronio son no despolarizantes, con un inicio más lento.' },
+          { t: 'Sugammadex los revierte directo', d: 'Los atrapa y termina el bloqueo',
+            say: 'Su ventaja es que el sugammadex los revierte de forma directa y específica, envolviendo la molécula del relajante. Si no tienes sugammadex, la alternativa es neostigmina con atropina.' },
+        ] },
+      ],
     },
 
     {
       type: 'flow',
-      kicker: 'Mecanismo farmacológico y toxicidad',
-      title: 'Bloqueo de canales de sodio y fisiopatología del síndrome LAST',
+      kicker: 'Complicación neuroaxial',
+      title: 'La cefalea que aparece al sentarse',
       nodes: [
-        { id: 'blo', col: 0, row: 2, k: 'start', t: 'Infiltración de anestésico local', s: 'Inyección tisular o bloqueo de nervios periféricos' },
-        { id: 'can', col: 1, row: 1, k: 'mech', t: 'Bloqueo de canales de sodio NaV', s: 'Inhibe la despolarización axonal y la conducción del dolor' },
-        { id: 'abs', col: 2, row: 0, k: 'alert', t: 'Inyección intravascular inadvertida', s: 'Paso directo a vénula o absorción sistémica masiva' },
-        { id: 'snc', col: 2, row: 2, k: 'risk', t: 'Toxicidad sobre sistema nervioso', s: 'Inhibición de vías GABAérgicas produce convulsiones' },
-        { id: 'cvs', col: 3, row: 1, k: 'trap', t: 'Colapso cardiovascular agudo', s: 'Depresión miocárdica severa y arritmias ventriculares' },
-        { id: 'lip', col: 4, row: 2, k: 'good', t: 'Rescate con emulsión lipídica', s: 'Intralipid 20% secuestra el fármaco y restaura ATP' },
+        { id: 'pun', col: 0, row: 1, k: 'cause', t: 'Punción dural durante la técnica', s: 'Con la raquídea o al fallar la peridural' },
+        { id: 'fug', col: 1, row: 1, k: 'mech', t: 'Fuga continua de líquido', s: 'La presión intracraneana baja' },
+        { id: 'cef', col: 2, row: 1, k: 'effect', t: 'Cefalea postural', s: 'Empeora al sentarse, mejora acostado' },
+        { id: 'con', col: 3, row: 0, k: 'good', t: 'Reposo, hidratación y cafeína', s: 'Primera línea' },
+        { id: 'par', col: 3, row: 2, k: 'refer', t: 'Parche hemático epidural', s: 'Si no cede en dos o tres días' },
       ],
       edges: [
-        { from: 'blo', to: 'can', label: 'efecto local' },
-        { from: 'blo', to: 'abs', label: 'inadvertida' },
-        { from: 'abs', to: 'snc', label: 'umbral tóxico' },
-        { from: 'snc', to: 'cvs', label: 'progresión rápida' },
-        { from: 'abs', to: 'cvs', label: 'dosis masiva' },
-        { from: 'cvs', to: 'lip', label: 'antídoto urgente' },
+        { from: 'pun', to: 'fug' }, { from: 'fug', to: 'cef' },
+        { from: 'cef', to: 'con', label: 'primero' }, { from: 'con', to: 'par', label: 'si no cede' },
       ],
       steps: [
-        {
-          show: ['blo', 'can'],
-          note: 'Mecanismo de acción anestésico local',
-          say: 'Los anestésicos locales actúan bloqueando los canales de sodio dependientes de voltaje en la membrana neuronal. Al impedir la entrada de sodio, suprimen la generación del potencial de acción, bloqueando de manera reversible la transmisión del dolor.',
-        },
-        {
-          show: ['abs', 'snc'],
-          note: 'Paso a la circulación y pródromos del SNC',
-          say: 'Si el anestésico se inyecta accidentalmente dentro de un vaso o supera la dosis máxima segura, pasa a la circulación sistémica. El sistema nervioso central es el primero en sufrir: se bloquean las neuronas inhibidoras corticales, desatando pródromos sensoriales y luego convulsiones tónico-clónicas generalizadas.',
-        },
-        {
-          show: ['cvs', 'lip'],
-          note: 'Colapso cardiovascular y rescate lipídico',
-          say: 'A concentraciones más elevadas, fármacos muy lipofílicos como la bupivacaína bloquean los canales de sodio cardíacos durante la sístole, provocando bradicardia extrema, bloqueo auriculoventricular y colapso circulatorio. El rescate farmacológico específico e impostergable es la emulsión lipídica al veinte por ciento.',
-        },
+        { show: ['pun'], note: 'Puede pasar con la raquídea, o sin querer con la peridural',
+          say: 'Antes de llegar a la toxicidad grave, mira esta complicación más frecuente y menos dramática: la punción de la duramadre, ya sea al hacer una raquídea, o sin querer, mientras intentas una peridural.' },
+        { show: ['fug'], note: 'Menos líquido cefalorraquídeo del que debería',
+          say: 'Por el orificio que queda, el líquido cefalorraquídeo sigue fugando, y su presión baja.' },
+        { show: ['cef'], note: 'El dato que la reconoce de inmediato',
+          say: 'Y eso da una cefalea muy característica: empeora en segundos al sentarse o pararse, y desaparece casi por completo al acostarse. Ese patrón postural es el dato que la reconoce de inmediato.' },
+        { show: ['con'], note: 'La mayoría mejora sola en dos o tres días',
+          say: 'El tratamiento de primera línea es simple: reposo en decúbito, buena hidratación, y cafeína. La mayoría mejora sola en dos o tres días.' },
+        { show: ['par'], note: 'Sangre propia que sella el orificio',
+          say: 'Si no cede en ese plazo, se hace un parche hemático epidural: se inyecta sangre del propio paciente en el espacio epidural, y esa sangre sella el orificio.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Farmacología',
+      title: 'Ésteres y amidas: dos familias, un mismo bloqueo',
+      nodes: [
+        { id: 'nav', col: 0, row: 1, k: 'mech', t: 'Bloquean el canal de sodio', s: 'La neurona no se despolariza' },
+        { id: 'est', col: 1, row: 0, k: 'cause', t: 'Ésteres', s: 'Procaína, tetracaína' },
+        { id: 'ale', col: 2, row: 0, k: 'risk', t: 'Alergia verdadera', s: 'Por su metabolito, el PABA' },
+        { id: 'ami', col: 1, row: 2, k: 'cause', t: 'Amidas', s: 'Lidocaína, bupivacaína' },
+        { id: 'hig', col: 2, row: 2, k: 'effect', t: 'Se metabolizan en el hígado', s: 'Alergia verdadera, casi nunca' },
+      ],
+      edges: [
+        { from: 'nav', to: 'est' }, { from: 'est', to: 'ale' },
+        { from: 'nav', to: 'ami' }, { from: 'ami', to: 'hig' },
+      ],
+      steps: [
+        { show: ['nav'], note: 'El mismo mecanismo para las dos familias',
+          say: 'Ahora la farmacología. Todos los anestésicos locales hacen lo mismo: bloquean el canal de sodio de la neurona, y sin ese canal, no hay despolarización ni dolor que se transmita.' },
+        { show: ['est'], note: 'Se acuerdan por el nombre corto',
+          say: 'La primera familia son los ésteres: procaína y tetracaína.' },
+        { show: ['ale'], note: 'Esto casi no se ve con las amidas',
+          say: 'Su metabolito, el ácido para amino benzoico, es el responsable de que los ésteres den bastante más alergia verdadera.' },
+        { show: ['ami'], note: 'Truco para memorizar: llevan dos íes en el nombre',
+          say: 'La segunda familia son las amidas: lidocaína, bupivacaína, y las demás terminadas en caína con dos íes en el nombre.' },
+        { show: ['hig'], note: 'Las que más usas en la práctica diaria',
+          say: 'Se metabolizan en el hígado, y la alergia verdadera con ellas es rarísima. Son, por lejos, las que más usas. Y justamente de una de ellas viene la complicación más grave de la clase.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Estructura molecular',
-      title: 'Clasificación química de anestésicos locales: ésteres versus amidas',
+      kicker: 'Dosis máximas',
+      title: 'El límite antes de que aparezca la toxicidad',
       cards: [
-        {
-          title: 'Anestésicos tipo amino-éster',
-          tag: 'Metabolismo plasmático',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Procaína, clorprocaína y tetracaína',
-              d: 'Metabolizados por la pseudocolinesterasa plasmática',
-              say: 'Los amino-ésteres tienen una sola letra i en su nombre genérico. Se metabolizan rápidamente en la sangre por acción de la pseudocolinesterasa plasmática circulante.',
-            },
-            {
-              t: 'Mayor potencial alérgico por PABA',
-              d: 'Generan ácido para-aminobenzoico responsable de hipersensibilidad',
-              say: 'Su degradación produce ácido para-aminobenzoico, el PABA, una molécula altamente inmunogénica que explica las reacciones alérgicas verdaderas tipo uno.',
-            },
-          ],
-        },
-        {
-          title: 'Anestésicos tipo amino-amida',
-          tag: 'Metabolismo hepático',
-          kind: 'key',
-          items: [
-            {
-              t: 'Lidocaína, bupivacaína y mepivacaína',
-              d: 'Tienen dos letras i en su nombre; degradación por citocromo hepático',
-              say: 'Los amino-amidas se reconocen fácilmente porque tienen dos letras i en su nombre genérico: lidocaína, bupivacaína, ropivacaína. Se metabolizan exclusivamente en el hígado por el sistema del citocromo pe cuatrocientos cincuenta.',
-            },
-            {
-              t: 'Reacciones alérgicas extremadamente raras',
-              d: 'La alergia verdadera es casi inexistente; sospechar toxicidad sistémica',
-              say: 'La alergia a las amidas es casi anecdótica. Si un paciente dice ser alérgico a la lidocaína, habitualmente se trató de una inyección intravascular con taquicardia por epinefrina o un pródromo de toxicidad sistémica.',
-            },
-          ],
-        },
+        { title: 'Lidocaína', tag: 'La más usada', kind: 'key', items: [
+          { t: 'Sin epinefrina, cuatro a cinco', d: 'Miligramos por kilo, máximo trescientos',
+            say: 'Y esto conecta directo con la toxicidad: cada anestésico tiene un límite. La lidocaína sin epinefrina llega a cuatro o cinco miligramos por kilo, con un máximo de trescientos miligramos.' },
+          { t: 'Con epinefrina: siete por kilo', d: 'Máximo quinientos miligramos',
+            say: 'Con epinefrina, ese límite sube a siete miligramos por kilo, porque la epinefrina enlentece la absorción hacia la sangre.' },
+        ] },
+        { title: 'Bupivacaína', tag: 'La de mayor riesgo', kind: 'alert', items: [
+          { t: 'Solo dos por kilo', d: 'Máximo ciento cincuenta miligramos',
+            say: 'La bupivacaína tiene un límite mucho más bajo: solo dos miligramos por kilo, ciento cincuenta como máximo, porque se pega con fuerza al canal de sodio del corazón y cuesta mucho que lo suelte.' },
+          { t: 'Sumar dosis, no solo mirar volumen', d: 'Un error de cálculo dispara la toxicidad',
+            say: 'La trampa más común es calcular mal, sumando el volumen sin convertirlo a miligramos por kilo: ese error de cálculo es lo que más dispara la toxicidad.' },
+        ] },
+        { title: 'Otras amidas', tag: 'Alternativas más seguras', kind: 'normal', items: [
+          { t: 'Ropivacaína: menor cardiotoxicidad', d: 'Misma duración larga que la bupivacaína',
+            say: 'Y si necesitas un bloqueo de larga duración, pero con menos margen de susto, la ropivacaína tiene una cardiotoxicidad bastante menor que la bupivacaína, con una duración parecida.' },
+          { t: 'Mepivacaína: menos vasodilatación', d: 'Útil en bloqueos periféricos sin epinefrina',
+            say: 'Y la mepivacaína vasodilata menos que las demás por sí sola, lo que la hace útil en bloqueos periféricos incluso sin agregar epinefrina.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Toxicidad sistémica',
+      title: 'Cuando el anestésico local se va a la sangre',
+      nodes: [
+        { id: 'iny', col: 0, row: 1, k: 'cause', t: 'Inyección intravascular por error', s: 'O una dosis demasiado alta' },
+        { id: 'sab', col: 1, row: 0, k: 'q', t: 'Sabor metálico y tinnitus', s: 'El primer aviso' },
+        { id: 'con', col: 2, row: 0, k: 'risk', t: 'Convulsión tónico clónica', s: 'Fase de excitación del sistema nervioso' },
+        { id: 'car', col: 2, row: 2, k: 'alert', t: 'Colapso cardiovascular', s: 'Bloqueo, arritmias, QRS ancho' },
+        { id: 'lip', col: 3, row: 1, k: 'good', t: 'Emulsión lipídica al veinte por ciento', s: 'El antídoto específico' },
+      ],
+      edges: [
+        { from: 'iny', to: 'sab' }, { from: 'sab', to: 'con' }, { from: 'sab', to: 'car', label: 'si avanza' },
+        { from: 'con', to: 'lip' }, { from: 'car', to: 'lip' },
+      ],
+      steps: [
+        { show: ['iny'], note: 'Bupivacaína es la más peligrosa de todas',
+          say: 'Y esa complicación es la toxicidad sistémica por anestésicos locales. Ocurre cuando el fármaco pasa a la sangre en cantidad, casi siempre por una inyección intravascular accidental, y la bupivacaína es la más peligrosa de todas por su alta cardiotoxicidad.' },
+        { show: ['sab'], note: 'Si el paciente te dice esto, detente ya',
+          say: 'El primer aviso es puramente subjetivo: el paciente refiere un sabor metálico en la boca, hormigueo alrededor de los labios, y tinnitus. En cuanto escuches esto, detienes la inyección de inmediato.' },
+        { show: ['con'], note: 'El sistema nervioso se excita antes de deprimirse',
+          say: 'Si sigues adelante, viene la fase de excitación del sistema nervioso: temblores, y convulsiones tónico clónicas generalizadas.' },
+        { show: ['car'], note: 'Aquí es donde se muere el paciente',
+          say: 'Y en paralelo, o después, llega la parte que mata: el corazón se deprime, aparecen bloqueos, el QRS se ensancha, y pueden aparecer arritmias ventriculares hasta el paro cardíaco.' },
+        { show: ['lip'], note: 'Se pide apenas aparecen los primeros síntomas',
+          say: 'El tratamiento específico es la emulsión lipídica al veinte por ciento. Actúa como una esponja que atrapa el anestésico libre en la sangre, y se pide desde el primer síntoma, no cuando ya hay paro cardíaco.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Modalidades anestésicas',
-      title: 'Anestesia general: inducción, mantención y reversión neuromuscular',
+      kicker: 'Manejo de la toxicidad',
+      title: 'Cómo reanimas a este paciente',
       cards: [
-        {
-          title: 'Componentes de la anestesia general',
-          tag: 'Tríada clásica',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Hipnosis y amnesia',
-              d: 'Propofol en bolo endovenoso para pérdida rápida de conciencia',
-              say: 'La inducción de la hipnosis se logra habitualmente con propofol, un agonista del receptor GABA que induce inconsciencia suave en menos de un minuto.',
-            },
-            {
-              t: 'Analgesia opioide potente',
-              d: 'Fentanilo o remifentanilo para suprimir la respuesta simpática',
-              say: 'El componente analgésico se cubre con opioides sintéticos de alta potencia como el fentanilo o remifentanilo, que atenúan la taquicardia e hipertensión provocadas por la intubación y la incisión.',
-            },
-            {
-              t: 'Relajación neuromuscular y monitoreo',
-              d: 'Bloqueadores neuromusculares no despolarizantes tipo rocuronio',
-              say: 'La relajación muscular facilita la intubación y la exposición quirúrgica abdominal. Se monitoriza mediante el tren de cuatro o TOF estimulando el nervio cubital.',
-            },
-          ],
-        },
-        {
-          title: 'Reversión y fármacos específicos',
-          tag: 'Recuperación segura',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Sugammadex para rocuronio',
-              d: 'Encapsula selectivamente la molécula de rocuronio en plasma',
-              say: 'El sugammadex es una ciclodextrina modificada que revierte de forma inmediata y completa el bloqueo neuromuscular inducido por rocuronio o vecuronio mediante quelación química.',
-            },
-            {
-              t: 'Neostigmina más atropina',
-              d: 'Inhibidor de acetilcolinesterasa asociado a anticolinérgico',
-              say: 'La reversión clásica con neostigmina aumenta la acetilcolina en la placa motora, pero requiere administrarse siempre junto a atropina para prevenir bradicardia y broncorrea muscarínica severa.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Bloqueos centrales',
-      title: 'Anestesia neuroaxial: raquídea versus peridural',
-      cards: [
-        {
-          title: 'Anestesia raquídea o subaracnoidea',
-          tag: 'Intratecal directa',
-          kind: 'key',
-          items: [
-            {
-              t: 'Punción del espacio subaracnoideo',
-              d: 'Atraviesa duramadre y aracnoides; se confirma con flujo de LCR',
-              say: 'La anestesia raquídea deposita el anestésico directamente en el líquido cefalorraquídeo atravesando la duramadre. Se realiza por debajo del cono medular, a nivel lumbar tres cuatro o lumbar cuatro cinco.',
-            },
-            {
-              t: 'Dosis mínima y bloqueo potente inmediato',
-              d: 'Volúmenes pequeños de dos a tres mililitros con inicio en dos minutos',
-              say: 'Requiere dosis muy pequeñas de anestésico, apenas diez a quince miligramos de bupivacaína pesada, logrando un bloqueo sensitivo y motor denso en menos de tres minutos.',
-            },
-          ],
-        },
-        {
-          title: 'Anestesia peridural o epidural',
-          tag: 'Espacio extradural',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Espacio peridural virtual',
-              d: 'No atraviesa la duramadre; técnica de pérdida de resistencia',
-              say: 'La anestesia peridural introduce la aguja de Tuohy en el espacio que rodea la duramadre sin perforarla, identificado mediante la técnica de pérdida de resistencia con jeringa de baja fricción.',
-            },
-            {
-              t: 'Catéter peridural y analgesia continua',
-              d: 'Permite infusiones continuas prolongadas para trabajo de parto y dolor postoperatorio',
-              say: 'Permite dejar un catéter para infundir anestésicos y opioides durante horas o días, siendo la técnica de elección para analgesia del trabajo de parto y postoperatorio torácico o abdominal.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Complicación neuroaxial cardinal',
-      title: 'Cefalea post-punción dural y parche hemático epidural',
-      cards: [
-        {
-          title: 'Fisiopatología y semiología',
-          tag: 'Cefalea ortostática',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Fuga continua de líquido cefalorraquídeo',
-              d: 'El orificio meníngeo permite la salida constante de LCR al espacio peridural',
-              say: 'La cefalea post-punción dural se produce por la fuga de líquido cefalorraquídeo a través del orificio meníngeo no cicatrizado, reduciendo la presión intracraneana y traccionando las meninges.',
-            },
-            {
-              t: 'Carácter estrictamente postural',
-              d: 'Aparece o empeora al ponerse de pie y desaparece al acostarse',
-              say: 'Su rasgo patognomónico es postural: dolor frontal u occipital intenso que aparece a los pocos segundos de incorporarse o ponerse de pie, y que alivia por completo en posición horizontal supina.',
-            },
-          ],
-        },
-        {
-          title: 'Tratamiento escalonado',
-          tag: 'De conservador a intervencional',
-          kind: 'key',
-          items: [
-            {
-              t: 'Manejo médico inicial',
-              d: 'Reposo en cama, hidratación parenteral abundante, analgesia y cafeína',
-              say: 'El manejo inicial comprende reposo horizontal, hidratación endovenosa vigorosa, analgésicos comunes y cafeína oral o endovenosa por su efecto vasoconstrictor cerebral.',
-            },
-            {
-              t: 'Parche hemático epidural autógeno',
-              d: 'Estándar de oro si persiste tras veinticuatro a cuarenta y ocho horas',
-              say: 'Si la cefalea no cede tras cuarenta y ocho horas o es invalidante, el tratamiento de elección es el parche hemático: se inyectan quince a veinte mililitros de sangre autógena en el espacio peridural para sellar la brecha meníngea.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Farmacología clínica',
-      title: 'Anestésicos locales tipo amida: dosis máximas y cardiotoxicidad',
-      head: ['Fármaco anestésico', 'Dosis máxima sin epinefrina', 'Dosis máxima con epinefrina', 'Perfil de cardiotoxicidad'],
-      rows: [
-        {
-          cells: ['Lidocaína al 2%', '4 a 5 mg/kg (máximo 300 mg)', '7 mg/kg (máximo 500 mg)', 'Toxicidad intermedia · predomina SNC'],
-          say: 'La lidocaína tolera cuatro a cinco miligramos por kilo sola y hasta siete miligramos por kilo con epinefrina, con un tope absoluto de quinientos miligramos.',
-        },
-        {
-          cells: ['Bupivacaína al 0.5%', '2 mg/kg (máximo 150 mg)', '2.5 mg/kg (máximo 175 mg)', 'MÁXIMA CARDIOTOXICIDAD · arritmias letales'],
-          say: 'La bupivacaína tiene un tope estrecho de dos miligramos por kilo y posee la mayor cardiotoxicidad de todos los anestésicos locales.',
-        },
-        {
-          cells: ['Mepivacaína al 2%', '4 a 5 mg/kg (máximo 300 mg)', '7 mg/kg (máximo 500 mg)', 'Toxicidad intermedia · menor vasodilatación propia'],
-          say: 'La mepivacaína tiene un perfil posológico similar a la lidocaína con menor efecto vasodilatador intrínseco.',
-        },
-        {
-          cells: ['Ropivacaína al 0.75%', '3 mg/kg (máximo 200 mg)', '3.5 mg/kg (máximo 250 mg)', 'Baja cardiotoxicidad · menor bloqueo motor'],
-          say: 'La ropivacaína es un enantiómero puro con mucha menor toxicidad miocárdica que la bupivacaína.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Pródromos y alerta precoz',
-      title: 'Manifestaciones neurológicas de la intoxicación LAST',
-      cards: [
-        {
-          title: 'Pródromos sensoriales iniciales',
-          tag: 'Alerta temprana en el box',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Sabor metálico lingual y parestesias periorales',
-              d: 'Sensación metálica en la boca y adormecimiento de labios y lengua',
-              say: 'El primer síntoma de alarma que refiere el paciente despierto es un sabor metálico característico en la lengua, acompañado de hormigueo o parestesias en los labios y la región perioral.',
-            },
-            {
-              t: 'Tinnitus auditivo y diplopía visual',
-              d: 'Zumbido de oídos de tono agudo, mareos, visión borrosa y euforia',
-              say: 'Le siguen rápidamente acúfenos o zumbido en los oídos, sensación de mareo, dificultad para articular palabras y visión doble o borrosa.',
-            },
-          ],
-        },
-        {
-          title: 'Excitación y colapso neurológico',
-          tag: 'Crisis comicial',
-          kind: 'key',
-          items: [
-            {
-              t: 'Fasciculaciones y convulsiones generalizadas',
-              d: 'Temblor fino facial que progresa a crisis tónico-clónica bilateral',
-              say: 'Al caer la inhibición cortical aparecen temblores involuntarios y convulsiones tónico-clónicas generalizadas que aumentan el consumo de oxígeno y generan acidosis láctica.',
-            },
-            {
-              t: 'Depresión profunda del SNC',
-              d: 'Coma profundo, abolición de reflejos de tronco y paro respiratorio',
-              say: 'La fase excitatoria es transitoria y culmina en una depresión neurológica global con pérdida de conciencia, coma arrefléctico y apnea.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Emergencia hemodinámica',
-      title: 'Colapso cardiovascular por anestésicos locales y bupivacaína',
-      cards: [
-        {
-          title: 'Mecanismo de la cardiotoxicidad',
-          tag: 'Bloqueo cardíaco irreversible',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Unión tenaz y lenta a canales de sodio miocárdicos',
-              d: 'La bupivacaína se fija en sístole y tarda decenas de segundos en disociarse',
-              say: 'A diferencia de la lidocaína que se disocia rápidamente del canal de sodio cardíaco, la bupivacaína se une fuertemente y no se despega durante la diástole, enlenteciendo la conducción ventricular.',
-            },
-            {
-              t: 'Inhibición del metabolismo mitocondrial',
-              d: 'Bloquea el transporte de carnitina y la producción de ATP miocárdico',
-              say: 'Además del bloqueo eléctrico, los anestésicos lipofílicos inhiben la síntesis de trifosfato de adenosina mitocondrial, provocando una pérdida aguda e intratable de la contractilidad miocárdica.',
-            },
-          ],
-        },
-        {
-          title: 'Trastornos del ritmo y shock',
-          tag: 'Arritmias refractarias',
-          kind: 'key',
-          items: [
-            {
-              t: 'Bradicardia extrema y ensanchamiento del QRS',
-              d: 'Bloqueos auriculoventriculares avanzados de segundo y tercer grado',
-              say: 'En el electrocardiograma se observa un alargamiento progresivo del intervalo PR y ensanchamiento bizarro del complejo QRS con bradicardia severa.',
-            },
-            {
-              t: 'Fibrilación ventricular y asistolia terminal',
-              d: 'Paro cardiorrespiratorio resistente a la reanimación habitual',
-              say: 'El desenlace final es la taquicardia ventricular, fibrilación ventricular o asistolia con colapso cardiogénico refractario a los inotrópicos habituales.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Antídoto específico',
-      title: 'Protocolo de rescate con emulsión lipídica al 20% (Intralipid)',
-      cards: [
-        {
-          title: 'Mecanismo de acción: trampa lipídica',
-          tag: 'Secuestro molecular',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Trampa lipídica intravascular',
-              d: 'Crea una fase hidrofóbica plasmática que absorbe el anestésico libre',
-              say: 'La emulsión de lípidos al veinte por ciento forma una fase hidrofóbica en el torrente sanguíneo que actúa como una esponja molecular, extrayendo las moléculas lipofílicas de anestésico libre del corazón y el cerebro.',
-            },
-            {
-              t: 'Recuperación del metabolismo mitocondrial',
-              d: 'Aporta ácidos grasos como sustrato energético directo al cardiomiocito',
-              say: 'Al mismo tiempo, los triglicéridos de la emulsión proporcionan energía directa al miocardio agotado, restaurando la contractilidad cardíaca.',
-            },
-          ],
-        },
-        {
-          title: 'Pauta posológica estandarizada (Guías ASRA)',
-          tag: 'Dosis exacta de rescate',
-          kind: 'key',
-          items: [
-            {
-              t: 'Bolo inicial de 1.5 mL por kilo en un minuto',
-              d: 'Aproximadamente cien mililitros de emulsión al veinte por ciento en adulto de setenta kilos',
-              say: 'Ante sospecha fundada de LAST con arritmias o convulsiones, se administra un bolo endovenoso directo de uno coma cinco mililitros por kilo de emulsión lipídica al veinte por ciento en un minuto.',
-            },
-            {
-              t: 'Infusión continua de 0.25 mL por kilo por minuto',
-              d: 'Mantener la infusión al menos quince minutos tras recuperar estabilidad',
-              say: 'Inmediatamente después se inicia una infusión continua a cero coma veinticinco mililitros por kilo por minuto, repitiendo el bolo si el colapso persiste hasta un techo máximo de doce mililitros por kilo.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Soporte vital modificado',
-      title: 'Modificaciones críticas al protocolo ACLS en paro por LAST',
-      cards: [
-        {
-          title: 'Ajuste de dosis de adrenalina',
-          tag: 'Dosis reducidas',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Dosis bajas de adrenalina: menores a un microgramo por kilo',
-              d: 'Dosis estándar de un miligramo empeora arritmias y eleva postcarga',
-              say: 'En el paro cardíaco por anestésicos locales, la dosis estándar de un miligramo de adrenalina está desaconsejada porque provoca arritmias ventriculares intratables. Se usan bolos pequeños menores a un microgramo por kilo.',
-            },
-            {
-              t: 'Vasopresina terminantemente contraindicada',
-              d: 'La vasopresina causa acidosis láctica y agrava el colapso miocárdico',
-              say: 'La vasopresina está formalmente contraindicada en la reanimación por LAST debido a que empeora el pronóstico neurológico y cardíaco.',
-            },
-          ],
-        },
-        {
-          title: 'Fármacos proscritos y soporte prolongado',
-          tag: 'Seguridad en reanimación',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Contraindicados bloqueadores de calcio y betabloqueadores',
-              d: 'Deprimen aún más la contractilidad y la conducción auriculoventricular',
-              say: 'No administres bloqueadores de canales de calcio ni betabloqueadores porque agravan la depresión cardíaca.',
-            },
-            {
-              t: 'Reanimación prolongada y soporte circulatorio mecánico',
-              d: 'Las maniobras de RCP deben mantenerse por tiempo prolongado con lípidos',
-              say: 'El anestésico local se metaboliza lentamente. El masaje cardíaco debe prolongarse durante sesenta minutos o más mientras se infunden los lípidos, evaluando bypass cardiopulmonar de rescate si no hay respuesta.',
-            },
-          ],
-        },
+        { title: 'Lo inmediato', tag: 'Antes que nada', kind: 'alert', items: [
+          { t: 'Suspender el anestésico', d: 'Y pedir el kit de rescate lipídico',
+            say: 'Ante los primeros síntomas, suspendes la inyección de inmediato y pides el kit de rescate lipídico.' },
+          { t: 'Oxígeno al cien por ciento', d: 'La hipoxia empeora la cardiotoxicidad',
+            say: 'Das oxígeno al cien por ciento, porque la hipoxia y la acidosis empeoran todavía más la toxicidad sobre el corazón.' },
+        ] },
+        { title: 'El antídoto', tag: 'Emulsión lipídica', kind: 'pharma', items: [
+          { t: 'Bolo de uno y medio', d: 'Por kilo, en un minuto, más infusión continua',
+            say: 'El bolo inicial de la emulsión lipídica es de uno y medio mililitros por kilo, pasado en un minuto, seguido de una infusión continua.' },
+          { t: 'Midazolam para la convulsión', d: 'Evita propofol si ya está hipotenso',
+            say: 'Para la convulsión usas midazolam. Evita el propofol en dosis altas si el paciente ya está con la presión baja, porque la baja todavía más.' },
+        ] },
+        { title: 'Si llega al paro', tag: 'ACLS modificado', kind: 'criteria', items: [
+          { t: 'Adrenalina en dosis bajas', d: 'Menos de un microgramo por kilo',
+            say: 'Si llega al paro cardíaco, el soporte avanzado se modifica: la adrenalina se da en dosis mucho más bajas que lo habitual.' },
+          { t: 'Nunca vasopresina ni bloqueadores de calcio', d: 'Empeoran la arritmia',
+            say: 'Y evitas por completo la vasopresina y los bloqueadores de canales de calcio, porque empeoran la arritmia. La reanimación puede durar mucho más de lo habitual, así que no la suspendas temprano.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Árbol de decisión clínica',
-      title: 'Algoritmo de diagnóstico y manejo de la toxicidad por anestésicos locales (LAST)',
-      say: 'Analicemos el árbol de decisiones ante un paciente sometido a bloqueo anestésico local o regional que presenta síntomas tóxicos agudos.',
+      intro: 'Ahora ordenemos toda la toxicidad por anestésicos locales en un solo árbol.',
     },
 
     {
       type: 'table',
-      kicker: 'Trampas del EUNACOM',
-      title: 'Errores frecuentes en el uso de anestésicos locales y LAST',
-      head: ['Situación clínica', 'Conducta médica estándar', 'Error fatal o trampa'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Lo que más se confunde en anestesia',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
       rows: [
-        {
-          cells: [
-            'Infiltración con lidocaína al 2% con epinefrina',
-            'Respetar dosis máxima de 7 mg/kg (techo 500 mg)',
-            'Infiltrar sin calcular volumen ni peso del paciente',
-          ],
-          say: 'Infiltrar varios frascos de lidocaína a ciegas supera rápidamente la dosis tóxica sistémica.',
-        },
-        {
-          cells: [
-            'Convulsiones y bradicardia por bupivacaína',
-            'Infusión precoz de emulsión lipídica al 20%',
-            'Administrar bolo estándar de un miligramo de adrenalina',
-          ],
-          say: 'El antídoto específico es la emulsión lipídica; la adrenalina en dosis altas desencadena arritmias ventriculares letales.',
-        },
-        {
-          cells: [
-            'Cefalea intensa a las 48 h de anestesia raquídea',
-            'Diagnosticar cefalea post-punción dural si es postural',
-            'Solicitar punción lumbar diagnóstica para descartar meningitis',
-          ],
-          say: 'Puncionar nuevamente a una paciente con cefalea post-punción empeora la fuga de líquido cefalorraquídeo.',
-        },
-        {
-          cells: [
-            'Anestesia de dedo de la mano o pabellón auricular',
-            'Utilizar siempre lidocaína pura sin epinefrina',
-            'Infiltrar lidocaína con epinefrina en territorio terminal',
-          ],
-          say: 'Inyectar vasoconstrictores en dedos, orejas o pene produce vasoespasmo y necrosis isquémica irreversible.',
-        },
+        { cells: ['Paciente en shock que necesita inducción', 'Etomidato', 'Propofol por costumbre'],
+          say: 'Repasemos las trampas. En un paciente en shock, el inductor es etomidato, no propofol por costumbre: el propofol le baja aún más la presión.' },
+        { cells: ['Sabor metálico y tinnitus durante un bloqueo', 'Suspender la inyección de inmediato', 'Terminar de pasar la dosis completa'],
+          say: 'Ante sabor metálico y tinnitus durante un bloqueo, se suspende la inyección ya. Terminar de pasar la dosis completa es el error que después cuesta la vida.' },
+        { cells: ['Toxicidad sistémica por anestésico local', 'Emulsión lipídica al veinte por ciento', 'Solo soporte vital básico, sin antídoto'],
+          say: 'Y en la toxicidad sistémica confirmada, el antídoto es la emulsión lipídica. Quedarse solo con el soporte básico, sin pedir el antídoto, retrasa el único tratamiento específico que existe.' },
+        { cells: ['Cefalea postural tras raquídea', 'Reposo, hidratación y cafeína primero', 'Parche hemático de entrada'],
+          say: 'Y la cefalea postural después de una raquídea parte con reposo, hidratación y cafeína. Ir directo al parche hemático, sin dar esos días, es adelantarse.' },
       ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Durante un bloqueo de nervio periférico con lidocaína para una cirugía de mano, el paciente refiere de pronto adormecimiento alrededor de los labios y un sabor metálico intenso en la boca. Segundos después presenta fasciculaciones faciales.',
+      question: '¿Cuál es la conducta inmediata más adecuada?',
+      options: [
+        { letter: 'A', text: 'Continuar el bloqueo, ya que la dosis calculada era segura' },
+        { letter: 'B', text: 'Suspender la inyección de inmediato y prepararse para tratar la toxicidad sistémica' },
+        { letter: 'C', text: 'Administrar un antihistamínico, pensando en una reacción alérgica' },
+        { letter: 'D', text: 'Completar la dosis y observar en las próximas 2 horas' },
+        { letter: 'E', text: 'Solicitar una tomografía computarizada de cerebro de urgencia' },
+      ],
+      correct: 'B',
+      explanation: 'Sabor metálico, parestesias periorales y fasciculaciones son los pródromos clásicos de la toxicidad sistémica por anestésicos locales. Suspender la inyección de inmediato evita que progrese a convulsiones y colapso cardiovascular; esperar a completar la dosis es la conducta que más la agrava.',
+      say: {
+        stem: 'Vamos con un caso. Durante un bloqueo de nervio periférico con lidocaína para operar una mano, el paciente refiere de pronto adormecimiento alrededor de los labios y un sabor metálico intenso. Segundos después le aparecen fasciculaciones en la cara.',
+        question: '¿Cuál es la conducta inmediata más adecuada?',
+        options: 'Tienes cinco opciones: continuar el bloqueo, suspender la inyección y prepararte para tratar la toxicidad, dar un antihistamínico, completar la dosis y observar, o pedir un TAC de cerebro. Piénsalo.',
+        answer: 'Es la B. Ese sabor metálico y esas fasciculaciones son exactamente los pródromos que acabas de aprender: es toxicidad sistémica por anestésico local empezando. Suspender ya mismo puede evitar que llegue a la convulsión y al colapso cardiovascular. Pensar en alergia es la trampa: la alergia verdadera con una amida como la lidocaína es rarísima.',
+      },
     },
 
     {
       type: 'quiz',
       kicker: 'Pregunta del banco EUNACOM',
       title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.028',
-      stem: 'Durante la realización de un bloqueo peridural para una intervención ginecológica utilizando bupivacaína, la paciente refiere repentinamente sabor metálico en la boca, mareos y zumbido de oídos. Segundos después presenta una convulsión tónico-clónica generalizada seguida de colapso hemodinámico con bradicardia severa y ensanchamiento del QRS. ¿Cuál es el tratamiento farmacológico específico que debe iniciarse de urgencia?',
-      question: '¿Cuál es el antídoto específico indicado?',
+      stem: 'Durante un bloqueo peridural con bupivacaína para una cirugía ginecológica, la paciente refiere sabor metálico, mareos y tinnitus, y de inmediato presenta una convulsión tónico clónica generalizada, con colapso hemodinámico, bradicardia extrema y ensanchamiento del QRS.',
+      question: '¿Cuál es el tratamiento farmacológico específico que debe iniciarse de urgencia?',
       options: [
-        { letter: 'A', text: 'Infusión inmediata de emulsión lipídica al veinte por ciento (Intralipid)' },
-        { letter: 'B', text: 'Bolo de un miligramo de adrenalina endovenosa directa' },
-        { letter: 'C', text: 'Sulfato de magnesio cinco gramos en infusión rápida' },
+        { letter: 'A', text: 'Infusión inmediata de emulsión lipídica al 20 %' },
+        { letter: 'B', text: 'Bolo de 1 mg de adrenalina endovenosa directa' },
+        { letter: 'C', text: 'Sulfato de magnesio en infusión rápida' },
         { letter: 'D', text: 'Flumazenil endovenoso en bolos seriados' },
-        { letter: 'E', text: 'Amiodarona trescientos miligramos en bolo endovenoso' },
+        { letter: 'E', text: 'Amiodarona en bolo endovenoso' },
       ],
       correct: 'A',
-      explanation: 'La paciente presenta una toxicidad sistémica por anestésicos locales (LAST) severa por inyección intravascular inadvertida de bupivacaína. El antídoto específico indiscutido según las guías internacionales es la emulsión lipídica al 20%, que secuestra el fármaco libre y restaura el metabolismo miocárdico.',
+      explanation: 'El cuadro es una toxicidad sistémica grave por bupivacaína, probablemente por inyección intravascular inadvertida. El tratamiento específico es la emulsión lipídica al 20 %, en bolo de 1,5 mL por kilo en un minuto, seguida de infusión continua, que secuestra el anestésico libre en el plasma.',
       say: {
-        stem: 'Revisemos este caso de emergencia anestesiológica. Una paciente a quien se le infiltra bupivacaína presenta sabor metálico, tinnitus, convulsiones y colapso cardiovascular con bradicardia extrema y QRS ancho.',
-        question: '¿Cuál es el tratamiento farmacológico específico de urgencia?',
-        options: 'Las alternativas plantean: emulsión lipídica al veinte por ciento, un miligramo de adrenalina directa, sulfato de magnesio, flumazenil o amiodarona. Piénsalo.',
-        answer: 'La respuesta correcta es la A, infusión inmediata de emulsión lipídica al veinte por ciento. La bupivacaína causa un bloqueo cardíaco gravísimo por toxicidad sistémica. El antídoto de elección es el Intralipid al veinte por ciento, que actúa atrapando las moléculas lipofílicas en sangre y reactivando la síntesis de energía miocárdica.',
+        stem: 'Esta pregunta viene del banco de estudio del EUNACOM, sin fecha de examen real. Durante un bloqueo peridural con bupivacaína para una cirugía ginecológica, la paciente presenta sabor metálico, mareos, tinnitus, y de inmediato una convulsión con colapso, bradicardia extrema y el QRS ensanchado.',
+        question: '¿Cuál es el tratamiento farmacológico específico que debe iniciarse de urgencia?',
+        options: 'Las opciones: emulsión lipídica al veinte por ciento, un miligramo de adrenalina en bolo directo, sulfato de magnesio, flumazenil, o amiodarona. Piénsalo.',
+        answer: 'Es la A. Es la misma secuencia que ya conoces, con bupivacaína, que es la más cardiotóxica de todas. El antídoto específico, sin discusión, es la emulsión lipídica al veinte por ciento. La adrenalina en dosis alta es la trampa: en esta toxicidad se usa en dosis mucho más bajas que la de un paro cardíaco habitual.',
       },
     },
 
@@ -494,169 +284,70 @@ module.exports = {
       type: 'quiz',
       kicker: 'Pregunta del banco EUNACOM',
       title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.028',
-      stem: '¿Cuál es la dosis máxima recomendada de lidocaína al 2% CON epinefrina que se puede infiltrar de forma segura en un paciente adulto de 70 kg durante una intervención de cirugía menor ambulatoria?',
-      question: '¿Cuál es la dosis máxima de lidocaína con epinefrina?',
+      stem: 'Una mujer de 28 años fue sometida a una cesárea bajo anestesia raquídea, sin incidentes, hace 48 horas. Al levantarse de la cama presenta cefalea holocraneana severa y dolor cervical, que empeora drásticamente al ponerse de pie y desaparece por completo en decúbito supino. El examen neurológico es normal.',
+      question: '¿Cuál es el diagnóstico y su mecanismo?',
       options: [
-        { letter: 'A', text: 'Tres miligramos por kilo (aproximadamente doscientos diez miligramos)' },
-        { letter: 'B', text: 'Siete miligramos por kilo (aproximadamente cuatrocientos noventa a quinientos miligramos)' },
-        { letter: 'C', text: 'Diez miligramos por kilo (aproximadamente setecientos miligramos)' },
-        { letter: 'D', text: 'Quince miligramos por kilo (aproximadamente mil cincuenta miligramos)' },
-        { letter: 'E', text: 'Uno coma cinco miligramos por kilo (aproximadamente ciento cinco miligramos)' },
+        { letter: 'A', text: 'Meningitis bacteriana por inoculación intratecal' },
+        { letter: 'B', text: 'Cefalea postpunción dural, por fuga persistente de líquido cefalorraquídeo' },
+        { letter: 'C', text: 'Trombosis de senos durales por estado protrombótico puerperal' },
+        { letter: 'D', text: 'Hemorragia subaracnoidea por rotura de aneurisma' },
+        { letter: 'E', text: 'Cefalea tensional por contractura cervical' },
       ],
       correct: 'B',
-      explanation: 'La dosis máxima de lidocaína con epinefrina es de 7 mg/kg de peso corporal, con un techo máximo absoluto de 500 mg en adultos. La epinefrina enlentece la absorción sistémica vascular, permitiendo aumentar la dosis segura respecto a la lidocaína pura sin vasoconstrictor, cuya dosis máxima es de 4 a 5 mg/kg (máximo 300 mg).',
+      explanation: 'El carácter estrictamente postural, con alivio completo en decúbito, es patognomónico de la cefalea postpunción dural: la fuga de líquido cefalorraquídeo por el orificio de la aguja espinal reduce la presión y produce tracción de estructuras sensibles al dolor.',
       say: {
-        stem: 'Analicemos esta pregunta directa sobre dosificación segura en cirugía menor. Se consulta por la dosis máxima recomendada de lidocaína con epinefrina en un adulto de setenta kilos.',
-        question: '¿Cuál es la dosis máxima permisible?',
-        options: 'Las alternativas proponen: tres miligramos por kilo, siete miligramos por kilo, diez miligramos por kilo, quince miligramos por kilo o uno coma cinco miligramos por kilo. Piénsalo.',
-        answer: 'La respuesta correcta es la B, siete miligramos por kilo, con un tope absoluto de quinientos miligramos. Recuerda la regla mnemotécnica: sin epinefrina la dosis máxima de lidocaína es cuatro a cinco miligramos por kilo con techo de trescientos miligramos; con epinefrina sube a siete miligramos por kilo con techo de quinientos miligramos.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.028',
-      stem: 'Una mujer de 28 años fue sometida a cesárea bajo anestesia raquídea hace 48 horas. Al levantarse para amamantar presenta cefalea holocraneana severa y dolor cervical que empeora drásticamente al ponerse de pie y desaparece por completo al adoptar el decúbito supino horizontal. El examen neurológico es normal. ¿Cuál es el diagnóstico más probable?',
-      question: '¿Cuál es el diagnóstico clínico más probable?',
-      options: [
-        { letter: 'A', text: 'Meningitis bacteriana aguda nosocomial' },
-        { letter: 'B', text: 'Cefalea post-punción dural por fuga de líquido cefalorraquídeo' },
-        { letter: 'C', text: 'Trombosis venosa de senos durales' },
-        { letter: 'D', text: 'Hemorragia subaracnoidea aneurismática' },
-        { letter: 'E', text: 'Cefalea tensional por contractura muscular' },
-      ],
-      correct: 'B',
-      explanation: 'El rasgo patognomónico de la cefalea post-punción dural es su carácter estrictamente postural: aparece al sentarse o ponerse de pie y alivia completamente al acostarse en decúbito supino. Es causada por la fuga de LCR a través del orificio dejado por la aguja en la duramadre, lo que provoca hipotensión intracraneal y tracción meníngea.',
-      say: {
-        stem: 'Revisemos este cuadro clásico puerperal. Una paciente sometida a cesárea bajo anestesia raquídea presenta cefalea intensa que aparece al sentarse o caminar y desaparece por completo al acostarse.',
-        question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las alternativas proponen: meningitis bacteriana nosocomial, cefalea post-punción dural por fuga de LCR, trombosis de senos durales, hemorragia subaracnoidea o cefalea tensional. Piénsalo.',
-        answer: 'La respuesta correcta es la B, cefalea post-punción dural. La naturaleza estrictamente ortostática confirma la pérdida continua de líquido cefalorraquídeo por el orificio de la duramadre. Si no responde al reposo, hidratación y cafeína, se resuelve con un parche hemático epidural.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'Pregunta del banco EUNACOM',
-      title: 'Banco EUNACOM · Caso representativo',
-      recTag: 'Banco Oficial AEE · Perfil V3 4.01.2.028',
-      stem: 'Durante la reanimación cardiopulmonar avanzada de un paciente en paro cardiorrespiratorio inducido por toxicidad sistémica severa por bupivacaína (LAST), ¿cuál de las siguientes modificaciones al algoritmo estándar de ACLS debe aplicarse de forma estricta?',
-      question: '¿Cuál es la modificación mandatoria en la reanimación por LAST?',
-      options: [
-        { letter: 'A', text: 'Administrar bolos de adrenalina de tres miligramos cada dos minutos' },
-        { letter: 'B', text: 'Reducir las dosis de adrenalina a menos de un microgramo por kilo y evitar vasopresina' },
-        { letter: 'C', text: 'Administrar infusión continua de diltiazem para estabilizar membranas' },
-        { letter: 'D', text: 'Interrumpir el masaje cardíaco si no hay pulso a los diez minutos' },
-        { letter: 'E', text: 'Indicar cardioversión eléctrica sincronizada en presencia de asistolia' },
-      ],
-      correct: 'B',
-      explanation: 'En el paro cardíaco por toxicidad sistémica por anestésicos locales (LAST) se debe reducir la dosis de adrenalina a bolos pequeños menores a 1 mcg/kg para evitar arritmias ventriculares refractarias e hiperpresión arterial pulmonar. Además, se proscribe la vasopresina y los bloqueadores de canales de calcio, priorizando la infusión precoz de emulsión lipídica.',
-      say: {
-        stem: 'Analicemos esta modificación técnica de soporte vital avanzado. Se consulta por los cambios mandatorios al protocolo estándar de reanimación cardiopulmonar en un paro inducido por toxicidad por bupivacaína.',
-        question: '¿Cuál es la modificación específica recomendada?',
-        options: 'Las opciones son: dosis altas de adrenalina de tres miligramos, reducir la adrenalina a menos de un microgramo por kilo y evitar vasopresina, infundir diltiazem, suspender masaje a los diez minutos o cardiovertir la asistolia. Piénsalo.',
-        answer: 'La respuesta correcta es la B. En la LAST, los bolos habituales de un miligramo de adrenalina empeoran la isquemia miocárdica y desencadenan arritmias ventriculares letales. Se usan dosis reducidas menores a un microgramo por kilo, se evita la vasopresina y se inicia de inmediato la infusión de emulsión lipídica al veinte por ciento.',
+        stem: 'Otra pregunta del banco de estudio, sin fecha de examen real. Mujer de veintiocho años, con una cesárea bajo anestesia raquídea hace cuarenta y ocho horas, sin problemas durante la técnica. Al levantarse presenta una cefalea intensa que empeora al pararse y desaparece por completo acostada. Su examen neurológico es normal.',
+        question: '¿Cuál es el diagnóstico y su mecanismo?',
+        options: 'Las opciones son: meningitis bacteriana, cefalea postpunción dural, trombosis de senos durales, hemorragia subaracnoidea, o cefalea tensional. Piénsalo.',
+        answer: 'Es la B. Fíjate en el patrón: aparece de pie, y se va por completo acostada. Esa relación tan estricta con la postura es la firma de la cefalea postpunción dural, por la fuga de líquido cefalorraquídeo que dejó la aguja. Las otras opciones no tendrían ese alivio tan completo y tan inmediato con solo acostarse.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Conceptos indispensables',
-      title: 'Reglas de oro en anestesiología y anestésicos locales',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Dosificación segura y pródromos',
-          tag: 'Prevención estricta',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Lidocaína con epinefrina máximo siete miligramos por kilo',
-              d: 'Techo absoluto de quinientos miligramos en adultos; aspirar antes de inyectar',
-              say: 'Respeta siempre las dosis máximas: siete miligramos por kilo con epinefrina y cuatro a cinco sin vasoconstrictor, aspirando siempre con la jeringa antes de infiltrar.',
-            },
-            {
-              t: 'Sabor metálico y tinnitus alertan toxicidad',
-              d: 'Detener inmediatamente la inyección y preparar emulsión lipídica',
-              say: 'Si el paciente refiere sabor metálico en la boca o zumbido en los oídos, detén de inmediato la infiltración.',
-            },
-          ],
-        },
-        {
-          title: 'Rescate farmacológico y técnica',
-          tag: 'Antídoto de urgencia',
-          kind: 'key',
-          items: [
-            {
-              t: 'Emulsión lipídica al veinte por ciento es el antídoto',
-              d: 'Bolo de 1.5 mL por kilo seguido de infusión a 0.25 mL por kilo por minuto',
-              say: 'El antídoto específico de la LAST es el Intralipid al veinte por ciento: un bolo inicial de uno coma cinco mililitros por kilo y luego infusión continua.',
-            },
-            {
-              t: 'Parche hemático epidural cura la CPPD',
-              d: 'Cefalea ortostática refractaria se sella con sangre autógena',
-              say: 'Si te llevas una sola idea de hoy: la toxicidad sistémica por anestésicos locales es una emergencia letal que avisa con sabor metálico y tinnitus antes de causar convulsiones y colapso cardíaco. Ante cualquier signo de toxicidad, suspende la infiltración, pide ayuda e inicia de inmediato el rescate con emulsión lipídica al veinte por ciento. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Técnica', tag: 'Según el paciente', kind: 'key', items: [
+          { t: 'Shock o cardiopatía grave', d: 'Etomidato en vez de propofol',
+            say: 'Cerremos con las reglas de oro. Con shock o cardiopatía grave, etomidato en vez de propofol.' },
+          { t: 'Cefalea al sentarse tras raquídea', d: 'Postpunción dural, reposo primero',
+            say: 'Y una cefalea que empeora al sentarse, después de una raquídea, es postpunción dural, y parte con reposo.' },
+        ] },
+        { title: 'Toxicidad sistémica', tag: 'La secuencia que se pregunta', kind: 'alert', items: [
+          { t: 'Sabor metálico y tinnitus', d: 'Suspender la inyección ya',
+            say: 'Sabor metálico y tinnitus: suspende la inyección de inmediato, sin esperar a la convulsión.' },
+          { t: 'Emulsión lipídica al veinte por ciento', d: 'El antídoto específico, sin discusión',
+            say: 'Y el antídoto, sin discusión, es la emulsión lipídica al veinte por ciento. Si te llevas una sola idea de hoy: el sabor metálico no es un detalle raro que se cuenta en la historia, es la alarma que te dice que pares de inyectar. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
-  pathway: {
-    title: 'Algoritmo de Diagnóstico y Manejo de la Toxicidad Sistémica por Anestésicos Locales (LAST)',
-    root: N(
-      'start',
-      'Infiltración o bloqueo con anestésico local',
-      'Monitoreo clínico continuo y comunicación activa con el paciente',
-      'Iniciamos la vigilancia clínica durante y después de la administración de anestésicos locales.',
-      [
-        'Pródromos neurológicos iniciales',
-        N(
-          'alert',
-          'Sabor metálico, tinnitus o parestesias periorales',
-          'Suspender de inmediato la inyección del fármaco',
-          'Ante el primer síntoma de alarma sensorial se detiene la infiltración y se pide el carro de paro.',
-          [
-            '¿Aparición de convulsiones tónico-clónicas?',
-            N(
-              'do',
-              'Asegurar vía aérea y benzodiacepinas',
-              'Oxígeno al cien por ciento y midazolam o diazepam',
-              'Se ventila con oxígeno al cien por ciento y se controlan las convulsiones con benzodiacepinas a dosis bajas.',
-              [
-                'Progresión a colapso cardiovascular',
-                N(
-                  'alert',
-                  'Rescate urgente con emulsión lipídica al 20%',
-                  'Bolo de 1.5 mL por kg e infusión a 0.25 mL por kg por minuto',
-                  'Se infunde Intralipid al veinte por ciento de inmediato para secuestrar el anestésico de la circulación coronaria.'
-                )
-              ]
-            )
-          ]
-        )
-      ],
-      [
-        'Colapso hemodinámico o paro cardiorrespiratorio',
-        N(
-          'alert',
-          'Modificaciones de reanimación ACLS por LAST',
-          'Adrenalina en dosis bajas menores a 1 mcg por kg y evitar vasopresina',
-          'Se realiza reanimación cardiopulmonar de alta calidad evitando dosis estándar de adrenalina.',
-          [
-            'Infusión continua de lípidos',
-            N(
-              'ok',
-              'Mantener soporte prolongado con Intralipid',
-              'RCP prolongada durante sesenta minutos hasta metabolización',
-              'Se mantiene el soporte circulatorio y la emulsión lipídica hasta restaurar el ritmo cardíaco sinusal espontáneo.'
-            )
-          ]
-        )
-      ]
-    ),
-  },
+  pathway: (() => {
+    const lipidica = N('alert', 'Emulsión lipídica al veinte por ciento', 'Bolo de uno y medio por kilo, más infusión',
+      'Suspendes el anestésico, das oxígeno al cien por ciento, tratas la convulsión con midazolam, y administras la emulsión lipídica de inmediato.');
+
+    const colapso = N('alert', 'Convulsión o colapso cardiovascular', 'Bloqueos, arritmias, QRS ancho',
+      'Si no suspendiste a tiempo, la toxicidad avanza a convulsión tónico clónica y después a depresión miocárdica grave.',
+      ['¿Cómo tratas esto de urgencia?', lipidica]);
+
+    const prodromo = N('q', '¿Sabor metálico, parestesias periorales o tinnitus?', 'El aviso más precoz',
+      'Estos síntomas subjetivos aparecen antes que cualquier signo objetivo, y son tu única alarma temprana.',
+      ['Si aparecen', N('alert', 'Suspender la inyección de inmediato', 'Antes de que avance a convulsión',
+        'Detener la inyección en este momento puede evitar por completo la fase convulsiva y cardiovascular.',
+        ['¿Igual progresa?', colapso])]);
+
+    const cppd = N('refer', 'Cefalea postpunción dural', 'Empeora al sentarse, mejora acostado',
+      'Si en vez de toxicidad tienes una cefalea postural después de una técnica neuroaxial, el mecanismo es otro: fuga de líquido cefalorraquídeo.',
+      ['¿No cede con reposo y cafeína en dos o tres días?', N('do', 'Parche hemático epidural', 'Sangre propia que sella el orificio',
+        'Se inyecta sangre autóloga en el espacio epidural, y sella el punto de fuga.')]);
+
+    const root = N('start', 'Paciente recibiendo un anestésico local', 'Infiltración, bloqueo o técnica neuroaxial',
+      'Con cualquier anestésico local en curso, tu primera tarea es vigilar los síntomas de alarma.',
+      ['¿Aparecen los pródromos de toxicidad?', prodromo],
+      ['¿O aparece una cefalea postural después de la técnica?', cppd]);
+
+    return { title: 'Toxicidad por anestésicos locales: el sabor metálico manda a parar', root };
+  })(),
 };
