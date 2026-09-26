@@ -33,7 +33,7 @@ module.exports = {
         { title: 'Por qué la presión sube tan rápido', tag: 'El cráneo no se estira', kind: 'normal', items: [
           { t: 'Un espacio fijo, sin dónde crecer', d: 'Cerebro, sangre y líquido cefalorraquídeo',
             say: 'Y entiende por qué un sangrado pequeño ya es grave adentro del cráneo: es una caja rígida, con un volumen fijo de cerebro, sangre y líquido cefalorraquídeo. Cuando aparece una masa nueva, como un hematoma, algo de lo demás tiene que salir para compensar.' },
-          { t: 'Cuando se agota, la presión sube de golpe', d: 'Y cae la perfusión de todo el cerebro',
+          { t: 'La presión sube de golpe', d: 'Y cae la perfusión de todo el cerebro',
             say: 'Al principio el cuerpo compensa desplazando líquido y sangre venosa, pero ese margen se agota rápido, y entonces la presión intracraneana sube de golpe, la perfusión del cerebro cae, y empieza la isquemia global.' },
         ] },
       ],
@@ -247,7 +247,7 @@ module.exports = {
       'Llega un paciente tras un golpe en la cabeza. Lo primero es calcular el Glasgow, ya reanimado, porque de ahí sale todo el resto del razonamiento.',
       ['Glasgow 8 o menos', N('alert', 'TEC grave', 'Intubación y TAC de cerebro inmediato',
         'Con Glasgow de ocho o menos, intubas de inmediato y pides el TAC sin ninguna demora, manteniendo la presión arterial y evitando la hiperventilación.')],
-      ['Glasgow 15, ¿tiene factores de riesgo?', N('q', '¿Fractura de base, 65 años, anticoagulado o vómitos?', 'Las banderas rojas del TEC leve',
+      ['Glasgow 15, ¿tiene factores de riesgo?', N('q', '¿Alguna bandera roja presente?', 'Las banderas rojas del TEC leve',
         'Con Glasgow quince, la decisión depende de si aparece alguna de las banderas rojas del TEC leve.',
         ['Sí, algún factor presente', N('do', 'TAC de cerebro sin contraste', 'De urgencia, aunque se vea bien',
           'Con cualquiera de estos factores, pides el TAC de urgencia, aunque el paciente parezca estar perfectamente bien.')],

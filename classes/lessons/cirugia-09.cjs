@@ -221,7 +221,7 @@ module.exports = {
       title: 'Reglas de oro para el examen',
       cards: [
         { title: 'El orden que no cambia', tag: 'A antes que B, B antes que C', kind: 'key', items: [
-          { t: 'Se trata primero lo que mata primero', d: 'A, B, C, D, E, siempre en ese orden',
+          { t: 'Primero lo que mata primero', d: 'A, B, C, D, E, siempre en ese orden',
             say: 'Cerremos con las reglas de oro. En todo politraumatizado, el orden es siempre el mismo: se trata primero la lesión que mata primero.' },
           { t: 'Glasgow de 8 o menos', d: 'Intubación con control cervical',
             say: 'Con Glasgow de ocho o menos, intubas con control cervical, sin discutirlo.' },

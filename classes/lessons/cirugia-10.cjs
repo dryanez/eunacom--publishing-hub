@@ -62,7 +62,7 @@ module.exports = {
         { title: 'Dónde va el tubo', tag: 'El triángulo de seguridad', kind: 'normal', items: [
           { t: 'Quinto espacio intercostal', d: 'Entre la línea axilar anterior y la media',
             say: 'Y un detalle técnico que se pregunta bastante: el tubo pleural se instala en el quinto espacio intercostal, entre la línea axilar anterior y la media, en lo que se llama el triángulo de seguridad de la pared torácica lateral.' },
-          { t: 'Por el borde superior de la costilla', d: 'Ahí no está el paquete vascular',
+          { t: 'Por el borde superior costal', d: 'Ahí no está el paquete vascular',
             say: 'Y siempre pasando por el borde superior de la costilla inferior, nunca por el borde inferior, porque ahí es donde corre el paquete vascular intercostal.' },
         ] },
       ],
