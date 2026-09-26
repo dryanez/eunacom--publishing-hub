@@ -1,5 +1,5 @@
-// Clase 11.10 — guion docente escrito a mano (estándar Módulo 2 · Cirugía).
-// Fuente clínica: books/scripts/dataset_cirugia.cjs (cir-10).
+// Clase 11.10 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_cirugia.cjs / dataset_cirugia_bloque_3.cjs (cir-10, classId cirugia-10).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -9,663 +9,271 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Neumotórax a tensión, hemotórax masivo, tórax volante, contusión pulmonar y taponamiento cardíaco',
-      say: 'Bienvenidos a la clase de trauma torácico mayor. En el EUNACOM el tórax es protagonista indiscutido de las preguntas de urgencia porque las decisiones deben tomarse en segundos y basándose casi exclusivamente en la semiología clínica. Durante esta sesión aprenderemos a diagnosticar y descomprimir de inmediato un neumotórax a tensión, a identificar los criterios exactos de toracotomía en un hemotórax masivo, a manejar el tórax volante con contusión pulmonar y a sospechar el taponamiento cardíaco. Comencemos.',
+      subtitle: 'Timpanismo o matidez: ese solo dato decide el tratamiento',
+      say: 'Seguimos en trauma, ahora con el tórax. La clase pasada viste que en el paso B tienes que buscar lesiones que matan en minutos. Hoy vamos a esas lesiones una por una, y vas a ver que casi todas se distinguen con dos datos del examen físico: la percusión del tórax, y cómo están las venas del cuello. Partamos por la más urgente de todas.',
     },
 
     {
       type: 'flow',
-      kicker: 'Mecanismo y colapso circulatorio',
-      title: 'Neumotórax a tensión: del efecto valvular al colapso hemodinámico',
+      kicker: 'Neumotórax a tensión',
+      title: 'El aire que entra y no puede salir',
       nodes: [
-        { id: 'lac', col: 0, row: 2, k: 'start', t: 'Laceración traqueobronquial o pulmonar', s: 'Trauma torácico cerrado o penetrante con rotura pleural' },
-        { id: 'val', col: 1, row: 1, k: 'mech', t: 'Efecto de válvula unidireccional', s: 'El aire entra a cavidad pleural pero no puede salir' },
-        { id: 'pre', col: 2, row: 0, k: 'alert', t: 'Hipertensión intrapleural progresiva', s: 'Colapso pulmonar ipsilateral completo bajo presión' },
-        { id: 'med', col: 2, row: 2, k: 'risk', t: 'Desviación mediastínica contralateral', s: 'Compresión y angulación de venas cavas' },
-        { id: 'sho', col: 3, row: 1, k: 'trap', t: 'Shock obstructivo extracardíaco', s: 'Caída crítica del retorno venoso y gasto cardíaco' },
-        { id: 'des', col: 4, row: 2, k: 'good', t: 'Descompresión pleural inmediata', s: 'Catéter o toracostomía con tubo restaura retorno venoso' },
+        { id: 'val', col: 0, row: 1, k: 'cause', t: 'Válvula unidireccional', s: 'En el pulmón o la pared' },
+        { id: 'atr', col: 1, row: 1, k: 'mech', t: 'El aire se atrapa', s: 'Entra al respirar, no sale al espirar' },
+        { id: 'med', col: 2, row: 1, k: 'risk', t: 'El mediastino se desplaza', s: 'Colapsa el retorno venoso' },
+        { id: 'shk', col: 3, row: 0, k: 'risk', t: 'Shock obstructivo', s: 'Hipotensión severa' },
+        { id: 'cli', col: 3, row: 2, k: 'effect', t: 'Timpanismo e ingurgitación yugular', s: 'Con desviación de la tráquea' },
       ],
       edges: [
-        { from: 'lac', to: 'val', label: 'fuga aérea continua' },
-        { from: 'val', to: 'pre', label: 'acumulación a tensión' },
-        { from: 'pre', to: 'med', label: 'desplazamiento visceral' },
-        { from: 'med', to: 'sho', label: 'obstrucción de cavas' },
-        { from: 'sho', to: 'des', label: 'salvataje clínico' },
+        { from: 'val', to: 'atr' }, { from: 'atr', to: 'med' },
+        { from: 'med', to: 'shk' }, { from: 'med', to: 'cli' },
       ],
       steps: [
-        {
-          show: ['lac', 'val'],
-          note: 'Mecanismo de válvula unidireccional',
-          say: 'El neumotórax a tensión se produce por una laceración del parénquima pulmonar o del árbol traqueobronquial que crea un mecanismo de válvula unidireccional. Con cada inspiración, el aire ingresa al espacio pleural, pero durante la espiración el orificio se sella impidiendo su salida.',
-        },
-        {
-          show: ['pre', 'med'],
-          note: 'Hipertensión y desplazamiento del mediastino',
-          say: 'La presión dentro del hemitórax afectado supera la presión atmosférica, colapsando el pulmón ipsilateral por completo y empujando el mediastino, el corazón y la tráquea hacia el lado contralateral.',
-        },
-        {
-          show: ['sho'],
-          note: 'Colapso del retorno venoso y shock obstructivo',
-          say: 'Este desplazamiento acoda y comprime las venas cavas superior e inferior. Como la sangre no puede retornar al ventrículo derecho, el gasto cardíaco cae en picada, desencadenando un shock obstructivo severo con hipotensión extrema, taquicardia refleja e ingurgitación yugular.',
-        },
-        {
-          show: ['des'],
-          note: 'Resolución inmediata sin imágenes',
-          say: 'La descompresión pleural inmediata alivia la presión intratorácica, reexpande las cavas y restablece el retorno venoso en segundos. Si esperas una radiografía para confirmar la sospecha, el paciente entra en paro por actividad eléctrica sin pulso.',
-        },
+        { show: ['val'], note: 'Una laceración que actúa como válvula',
+          say: 'Empecemos por la lesión que más rápido mata. Una laceración en el pulmón o en la pared torácica arma una válvula que solo deja pasar el aire en un sentido.' },
+        { show: ['atr'], note: 'Entra y se queda adentro',
+          say: 'El aire entra a la pleura cuando el paciente inspira, pero no puede salir cuando espira. Con cada respiración se acumula más presión adentro del tórax.' },
+        { show: ['med'], note: 'La vena cava se comprime',
+          say: 'Esa presión termina desplazando todo el mediastino hacia el lado sano, y comprime la vena cava. El corazón deja de recibir sangre de vuelta.' },
+        { show: ['shk'], note: 'Un shock que no es por sangrado',
+          say: 'Y eso produce un shock obstructivo: la presión arterial cae, no porque el paciente esté sangrando, sino porque el corazón no se puede llenar.' },
+        { show: ['cli'], note: 'Los cuatro signos que se preguntan juntos',
+          say: 'Al examen encuentras el murmullo pulmonar abolido de ese lado, timpanismo al percutir, las venas del cuello ingurgitadas, y la tráquea desviada hacia el lado contrario. Con estos cuatro signos juntos, el diagnóstico es clínico. Nunca esperes una radiografía para descomprimir: eso solo demora una emergencia que se mide en segundos.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Diagnóstico y descompresión',
-      title: 'Neumotórax a tensión y neumotórax abierto',
+      kicker: 'Neumotórax a tensión',
+      title: 'Tratamiento y el neumotórax abierto',
       cards: [
-        {
-          title: 'Neumotórax a tensión',
-          tag: 'Emergencia clínica pura',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Tetraedro clínico diagnóstico',
-              d: 'Shock, timpanismo ipsilateral, abolición de murmullo y tráquea desviada',
-              say: 'El diagnóstico es estrictamente clínico: hipotensión arterial, ausencia de murmullo vesicular, timpanismo marcado a la percusión e ingurgitación yugular con tráquea desplazada hacia el lado sano.',
-            },
-            {
-              t: 'Descompresión inicial con aguja gruesa',
-              d: 'Catéter catorce gauge en segundo espacio línea medioclavicular',
-              say: 'La primera maniobra de salvataje es la toracostomía con aguja: un catéter catorce o dieciséis gauge largo insertado en el segundo espacio intercostal sobre la línea medioclavicular o en el quinto espacio sobre la línea axilar anterior.',
-            },
-            {
-              t: 'Tubo de pleurostomía definitivo',
-              d: 'Drenaje torácico veintiocho a treinta y dos French con sello de agua',
-              say: 'La punción con aguja solo compra tiempo. Debe seguirse de inmediato por la instalación de un tubo de pleurostomía grueso conectado a una trampa de agua o trampa de tres frascos.',
-            },
-          ],
-        },
-        {
-          title: 'Neumotórax abierto',
-          tag: 'Herida torácica succionante',
-          kind: 'key',
-          items: [
-            {
-              t: 'Fisiopatología del defecto parietal',
-              d: 'Herida mayor a dos tercios del diámetro de la tráquea',
-              say: 'Cuando el orificio en la pared torácica supera dos tercios del diámetro traqueal, el aire entra preferentemente por la herida produciendo hipoxemia grave e hipoventilación.',
-            },
-            {
-              t: 'Parche oclusivo de tres puntas',
-              d: 'Gasa vaselinada fijada en tres lados para permitir salida de aire',
-              say: 'El manejo inmediato en el sitio del suceso es colocar un parche oclusivo rectangular sellado solo en tres lados. Funciona como válvula: se abre al espirar para liberar aire y se pega al inspirar.',
-            },
-            {
-              t: 'Pleurostomía alejada de la herida',
-              d: 'Instalación de tubo de drenaje en sitio anatómico distante',
-              say: 'Nunca instales el tubo pleural a través de la misma herida traumática. Se coloca una pleurostomía formal en el quinto espacio intercostal línea axilar media por tejido sano.',
-            },
-          ],
-        },
+        { title: 'Descompresión', tag: 'Antes que cualquier examen', kind: 'alert', items: [
+          { t: 'Aguja gruesa', d: 'Segundo espacio intercostal, línea medioclavicular',
+            say: 'El tratamiento es descomprimir ya, con una aguja gruesa en el segundo espacio intercostal, en la línea media de la clavícula.' },
+          { t: 'Tubo pleural después', d: 'Deja el drenaje definitivo instalado',
+            say: 'La aguja es solo el primer paso: después va un tubo pleural, en el quinto espacio intercostal, para dejar el drenaje definitivo.' },
+        ] },
+        { title: 'Neumotórax abierto', tag: 'Herida que silba', kind: 'criteria', items: [
+          { t: 'Parche pegado en tres lados', d: 'Deja un lado libre, como una válvula',
+            say: 'Distinto es el neumotórax abierto, cuando la herida de la pared es tan grande que el aire prefiere entrar por ahí. Ahí pones un parche oclusivo, pero pegado solo en tres de sus cuatro lados.' },
+          { t: 'Nunca los cuatro lados', d: 'Sin tubo pleural antes, se ahoga en su propio aire',
+            say: 'Ese lado libre deja escapar el aire al espirar. Si lo pegas por los cuatro lados sin haber puesto antes un tubo pleural, conviertes esa herida en un neumotórax a tensión.' },
+        ] },
+        { title: 'Dónde va el tubo', tag: 'El triángulo de seguridad', kind: 'normal', items: [
+          { t: 'Quinto espacio intercostal', d: 'Entre la línea axilar anterior y la media',
+            say: 'Y un detalle técnico que se pregunta: el tubo pleural se instala en el quinto espacio intercostal, entre la línea axilar anterior y la media, lo que se llama el triángulo de seguridad.' },
+          { t: 'Por el borde superior de la costilla', d: 'Ahí no está el paquete vascular',
+            say: 'Y siempre pasando por el borde superior de la costilla inferior, nunca por el borde inferior, porque ahí es donde corre el paquete vascular intercostal.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Hemotórax y tórax volante',
+      title: 'Cuando el tórax se llena de sangre, o pierde su marco',
+      nodes: [
+        { id: 'vas', col: 0, row: 0, k: 'cause', t: 'Vaso roto en el tórax', s: 'Mamaria, intercostal o hilio' },
+        { id: 'hem', col: 1, row: 0, k: 'risk', t: 'Hemotórax masivo', s: 'Más de 1.500 mililitros' },
+        { id: 'mat', col: 2, row: 0, k: 'effect', t: 'Matidez y yugulares colapsadas', s: 'Al revés que en el neumotórax' },
+        { id: 'cos', col: 0, row: 2, k: 'cause', t: '3 o más costillas rotas', s: 'En dos segmentos cada una' },
+        { id: 'vol', col: 1, row: 2, k: 'risk', t: 'Tórax volante', s: 'Movimiento paradójico de la pared' },
+        { id: 'con', col: 2, row: 2, k: 'alert', t: 'Contusión pulmonar', s: 'La verdadera causa de la hipoxia' },
+      ],
+      edges: [
+        { from: 'vas', to: 'hem' }, { from: 'hem', to: 'mat' },
+        { from: 'cos', to: 'vol' }, { from: 'vol', to: 'con' },
+      ],
+      steps: [
+        { show: ['vas'], note: 'Vasos de alta presión',
+          say: 'Ahora, cuando lo que se rompe es un vaso, mamaria, intercostal o del hilio pulmonar, la sangre se acumula en la cavidad pleural.' },
+        { show: ['hem'], note: 'Más de 1.500 mililitros de entrada',
+          say: 'Si esa acumulación pasa de mil quinientos mililitros, o sigue drenando más de doscientos por hora durante varias horas, es un hemotórax masivo.' },
+        { show: ['mat'], note: 'El contraste que más se pregunta',
+          say: 'Y aquí está el contraste que el examen adora: a diferencia del neumotórax a tensión, aquí la percusión da matidez, no timpanismo, y las venas del cuello están planas, colapsadas por la hipovolemia, no ingurgitadas.' },
+        { show: ['cos'], note: 'Un segmento que ya no tiene marco óseo',
+          say: 'El otro escenario es distinto: tres o más costillas rotas, cada una en dos puntos. Ese segmento pierde su marco óseo y queda flotando, separado del resto de la pared.' },
+        { show: ['vol'], note: 'Se mete al inspirar, sale al espirar',
+          say: 'Por eso se mueve al revés que el resto del tórax: se hunde cuando el paciente inspira, y se abomba cuando espira. Eso es el tórax volante.' },
+        { show: ['con'], note: 'El dato que más se pregunta de este tema',
+          say: 'Pero fíjate en el dato que más se pregunta: la hipoxia grave de este paciente no la explica el movimiento paradójico. La explica la contusión pulmonar que va por debajo, con sangre y edema llenando los alvéolos.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Hemorragia intratorácica',
-      title: 'Hemotórax masivo: criterios diagnósticos y toracotomía de urgencia',
+      kicker: 'Tratamiento y taponamiento',
+      title: 'Cómo tratar cada una, y la tríada de Beck',
       cards: [
-        {
-          title: 'Fisiopatología y semiología',
-          tag: 'Matidez y shock hipovolémico',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Diferencia semiológica cardinal con neumotórax',
-              d: 'Matidez a la percusión y venas yugulares colapsadas',
-              say: 'Al igual que el neumotórax, el hemotórax tiene murmullo vesicular abolido. Pero a la percusión presenta matidez franca, y las venas del cuello suelen estar planas por hipovolemia masiva.',
-            },
-            {
-              t: 'Vasos causantes de sangrado masivo',
-              d: 'Rotura de arterias intercostales, mamaria interna o grandes vasos',
-              say: 'El parénquima pulmonar suele coagular por ser de baja presión. El hemotórax masivo traduce casi siempre rotura de arterias sistémicas de alta presión como las mamarias internas o intercostales.',
-            },
-          ],
-        },
-        {
-          title: 'Criterios de toracotomía de urgencia',
-          tag: 'Pregunta fija de examen',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Drenaje inicial inmediato',
-              d: 'Volumen mayor o igual a mil quinientos mililitros tras instalar tubo',
-              say: 'La primera indicación formal de toracotomía en pabellón es la salida inmediata de mil quinientos mililitros o más de sangre fresca al colocar el tubo de pleurostomía.',
-            },
-            {
-              t: 'Débito continuo horario persistente',
-              d: 'Más de doscientos mililitros por hora durante dos a cuatro horas',
-              say: 'La segunda indicación es un débito persistente mayor a doscientos o doscientos cincuenta mililitros por hora durante dos a cuatro horas consecutivas, o la necesidad continua de transfusión.',
-            },
-            {
-              t: 'Pleurostomía de gran calibre',
-              d: 'Tubo treinta y dos a treinta y seis French para evitar coagulación',
-              say: 'El drenaje del hemotórax requiere tubos gruesos de calibre treinta y dos a treinta y seis French para evacuar coágulos y evitar el hemotórax retenido y fibroencapsulado.',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      type: 'points',
-      kicker: 'Técnica quirúrgica básica',
-      title: 'Técnica de pleurostomía y triángulo de seguridad de Ward',
-      cards: [
-        {
-          title: 'Anatomía del triángulo de seguridad',
-          tag: 'Zona segura',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Límites anatómicos estrictos',
-              d: 'Pectoral mayor adelante, dorsal ancho atrás y quinto espacio abajo',
-              say: 'El tubo de drenaje pleural debe insertarse siempre dentro del triángulo de seguridad de Ward: delimitado por el borde lateral del pectoral mayor hacia anterior, el borde anterior del dorsal ancho hacia posterior y una línea horizontal a nivel del quinto espacio intercostal.',
-            },
-            {
-              t: 'Incisión sobre el borde superior costal',
-              d: 'Protección estricta del paquete vasculonervioso subcostal',
-              say: 'La incisión y la disección con pinza se realizan inmediatamente por encima del borde superior de la costilla inferior. Si entras por el borde inferior de la costilla, desgarras la arteria, vena y nervio intercostales causando hemorragia masiva iatrogénica.',
-            },
-          ],
-        },
-        {
-          title: 'Manejo del sistema de drenaje',
-          tag: 'Sello de agua',
-          kind: 'key',
-          items: [
-            {
-              t: 'Trampa de agua y cámara colectora',
-              d: 'Frasco con varilla sumergida dos centímetros bajo agua estéril',
-              say: 'El tubo se conecta a un sistema de sello de agua de uno o tres frascos. La varilla bajo agua permite que el aire y la sangre salgan durante la espiración pero impide que el aire reingrese al tórax.',
-            },
-            {
-              t: 'Criterios de retiro del tubo pleural',
-              d: 'Pulmón completamente reexpandido, sin fuga aérea y débito menor',
-              say: 'El tubo se retira cuando la radiografía muestra expansión pulmonar completa, la columna de agua ya no oscila con la respiración ni burbujea, y el débito seroso es menor a cien o ciento cincuenta mililitros en veinticuatro horas.',
-            },
-          ],
-        },
-      ],
-    },
-
-
-    {
-      type: 'points',
-      kicker: 'Mecánica respiratoria alterada',
-      title: 'Tórax volante, volet costal y contusión pulmonar',
-      cards: [
-        {
-          title: 'Tórax inestable o volet costal',
-          tag: 'Respiración paradójica',
-          kind: 'key',
-          items: [
-            {
-              t: 'Definición anatómica estricta',
-              d: 'Fractura de tres o más costillas consecutivas en dos sitios distintos',
-              say: 'El tórax volante se produce cuando tres o más costillas consecutivas se fracturan en dos o más puntos, dejando un segmento de pared torácica desconectado del resto de la reja costal.',
-            },
-            {
-              t: 'Movimiento paradójico del segmento',
-              d: 'Se hunde en la inspiración y protruye durante la espiración',
-              say: 'Por efecto de las presiones intratorácicas, el segmento suelto se mueve al revés: durante la inspiración se deprime hacia el pulmón y durante la espiración se abomba hacia afuera.',
-            },
-            {
-              t: 'Analgesia regional y fijación interna',
-              d: 'Bloqueo paravertebral o peridural; osteosíntesis si hay falla de retiro',
-              say: 'El tratamiento fundamental del dolor es la analgesia regional peridural torácica o paravertebral. En fracturas con deformidad severa se realiza fijación quirúrgica costal con placas.',
-            },
-          ],
-        },
-        {
-          title: 'Contusión pulmonar subyacente',
-          tag: 'Verdadera causa de hipoxemia',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Laceración microvascular alveolar',
-              d: 'Edema y hemorragia intraalveolar con efecto shunt intrapulmonar',
-              say: 'La mortalidad del tórax volante no la causa el hueso roto, sino la contusión pulmonar subyacente. El parénquima sufre microhemorragia y edema alveolar masivo, provocando una hipoxemia refractaria.',
-            },
-            {
-              t: 'Evolución radiológica insidiosa',
-              d: 'Radiografía inicial puede ser normal; opacidades a las veinticuatro horas',
-              say: 'La radiografía tomada al ingreso suele subestimar el daño. Los infiltrados alveolares parcheados aparecen entre las veinticuatro y cuarenta y ocho horas posteriores al traumatismo.',
-            },
-            {
-              t: 'Restricción hídrica y soporte ventilatorio',
-              d: 'Fluidos restringidos para no inundar el pulmón contundido',
-              say: 'En el manejo médico se debe evitar la sobrehidratación, manteniendo al paciente euvolémico pero seco. Si la presión de oxígeno cae por debajo de sesenta, se conecta a ventilación mecánica.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Emergencia cardiovascular en trauma',
-      title: 'Taponamiento cardíaco: Tríada de Beck y ventana subxifoidea',
-      cards: [
-        {
-          title: 'Fisiopatología del taponamiento agudo',
-          tag: 'Restricción diastólica',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Pequeño volumen bajo presión inextensible',
-              d: 'Cien a doscientos mililitros bastan para colapsar las cavidades derechas',
-              say: 'El pericardio fibroso es inextensible. Una acumulación aguda de apenas cien a doscientos mililitros de sangre comprime las cavidades derechas, impidiendo el llenado diastólico del corazón.',
-            },
-            {
-              t: 'Área precordial peligrosa de Ziedler',
-              d: 'Heridas entre clavículas, reborde costal inferior y líneas medioclaviculares',
-              say: 'Toda herida penetrante en la caja torácica anterior entre ambas clavículas, los pezones y el epigastrio debe considerarse una lesión cardíaca potencialmente taponante.',
-            },
-          ],
-        },
-        {
-          title: 'Diagnóstico y resolución de emergencia',
-          tag: 'Tríada de Beck y Eco-FAST',
-          kind: 'key',
-          items: [
-            {
-              t: 'Tríada clásica de Beck',
-              d: 'Hipotensión arterial, ruidos cardíacos apagados e ingurgitación yugular',
-              say: 'La tríada de Beck reúne hipotensión arterial sistémica, ingurgitación venosa yugular y ruidos cardíacos apagados a la auscultación, asociada a pulso paradójico.',
-            },
-            {
-              t: 'Ventana subxifoidea en Eco-FAST',
-              d: 'Visualización directa de líquido en el saco pericárdico',
-              say: 'El método diagnóstico de elección en la sala de urgencias es la ventana subxifoidea del Eco-FAST, que detecta la lámina pericárdica anecogénica en menos de un minuto.',
-            },
-            {
-              t: 'Pericardiocentesis versus toracotomía',
-              d: 'Punción subxifoidea descompresiva de rescate y cirugía definitiva',
-              say: 'Extraer apenas quince a veinte mililitros mediante pericardiocentesis guiada por ecografía alivia el colapso. El tratamiento definitivo es la esternotomía media o toracotomía para reparar la herida cardíaca.',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      type: 'points',
-      kicker: 'Reanimación in extremis',
-      title: 'Toracotomía de reanimación en el box de urgencias',
-      cards: [
-        {
-          title: 'Indicaciones estrictas en trauma penetrante',
-          tag: 'Criterios de rescate',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Paro cardíaco presenciado en box o traslado breve',
-              d: 'Pérdida de pulso con menos de quince minutos de maniobras en penetrante',
-              say: 'La toracotomía de reanimación en la camilla del box está indicada casi exclusivamente en trauma penetrante de tórax que entra en paro cardiorrespiratorio presenciado o con menos de diez a quince minutos de reanimación cardiopulmonar.',
-            },
-            {
-              t: 'Trauma cerrado con resultado desalentador',
-              d: 'Sobrevida menor al uno por ciento; solo con menos de cinco minutos de paro',
-              say: 'En el trauma torácico cerrado la sobrevida es menor al uno por ciento. Solo se intenta si el paro ocurre directamente en presencia del equipo médico con signos de vida previos documentados.',
-            },
-          ],
-        },
-        {
-          title: 'Objetivos quirúrgicos inmediatos',
-          tag: 'Maniobras salvavidas',
-          kind: 'key',
-          items: [
-            {
-              t: 'Toracotomía anterolateral izquierda amplia',
-              d: 'Incisión en quinto espacio intercostal desde esternón hasta línea axilar',
-              say: 'Se realiza una incisión amplia en el quinto espacio intercostal izquierdo, se coloca el separador de Finochietto y se abre el pericardio longitudinalmente por delante del nervio frénico para descomprimir el taponamiento.',
-            },
-            {
-              t: 'Clampaje de la aorta descendente y masaje interno',
-              d: 'Ocluir aorta supracelíaca para redistribuir flujo a cerebro y corazón',
-              say: 'Se clampa la aorta torácica descendente justo por encima del diafragma para redirigir toda la volemia hacia la circulación coronaria y cerebral, iniciando masaje cardíaco interno bimanual directo.',
-            },
-          ],
-        },
-      ],
-    },
-
-
-    {
-      type: 'table',
-      kicker: 'Diagnóstico diferencial de shock torácico',
-      title: 'Neumotórax a tensión versus hemotórax masivo versus taponamiento',
-      head: ['Parámetro clínico', 'Neumotórax a tensión', 'Hemotórax masivo', 'Taponamiento cardíaco'],
-      rows: [
-        {
-          cells: ['Percusión torácica', 'Hipersonoro o timpánico', 'Mate o submate franco', 'Sonoridad pulmonar normal'],
-          say: 'La percusión diferencia de inmediato las patologías: timpanismo en el neumotórax, matidez en el hemotórax y resonancia pulmonar normal bilateral en el taponamiento cardíaco.',
-        },
-        {
-          cells: ['Murmullo vesicular', 'Abolido ipsilateral', 'Abolido o muy disminuido', 'Conservado bilateralmente'],
-          say: 'El murmullo vesicular se pierde en el hemitórax comprometido en el neumotórax y el hemotórax. En el taponamiento cardíaco puro, ambos campos pulmonares ventilan con normalidad.',
-        },
-        {
-          cells: ['Posición de la tráquea', 'Desviada hacia lado contralateral', 'Línea media o contralateral', 'Centrada en la línea media'],
-          say: 'La desviación palpable de la tráquea hacia el lado sano es clásica del neumotórax a tensión con hipertensión intratorácica.',
-        },
-        {
-          cells: ['Ingurgitación yugular', 'Presente y muy marcada', 'Ausente o venas colapsadas', 'Presente y muy ingurgitada'],
-          say: 'Las venas del cuello están pletóricas en el neumotórax a tensión y en el taponamiento por congestión venosa retrógrada, pero están colapsadas en el hemotórax por pérdida sanguínea.',
-        },
-        {
-          cells: ['Tratamiento inicial', 'Punción y pleurostomía con tubo', 'Pleurostomía con tubo grueso', 'Pericardiocentesis o ventana'],
-          say: 'El tratamiento inicial es punción con aguja en el neumotórax, tubo de gran calibre en el hemotórax y descompresión pericárdica en el taponamiento.',
-        },
+        { title: 'Hemotórax masivo', tag: 'Tubo grueso y sangre', kind: 'pharma', items: [
+          { t: 'Tubo pleural grueso', d: 'Con transfusión de hemoderivados en paralelo',
+            say: 'El hemotórax se trata con un tubo pleural grueso, y en paralelo, transfusión de hemoderivados.' },
+          { t: 'Toracotomía si no para', d: 'Débito inicial alto o sangrado que persiste',
+            say: 'Si al ponerlo sale mucha sangre de entrada, o sigue drenando sin parar, ahí ya no basta el tubo: va a toracotomía para controlar el vaso.' },
+        ] },
+        { title: 'Tórax volante', tag: 'Analgesia y cuidado con el suero', kind: 'criteria', items: [
+          { t: 'Analgesia potente', d: 'Para que el paciente respire hondo sin dolor',
+            say: 'El tórax volante se trata con analgesia potente, para que el paciente pueda respirar hondo sin tanto dolor, y así prevenir que el pulmón se colapse por debajo.' },
+          { t: 'Restringir el suero', d: 'La sobrecarga inunda el pulmón contundido',
+            say: 'Y con el suero hay que ser prudente: pasar mucho volumen inunda el pulmón ya contundido y empeora la hipoxia.' },
+        ] },
+        { title: 'Taponamiento cardíaco', tag: 'Tríada de Beck', kind: 'alert', items: [
+          { t: 'Hipotensión, yugulares altas, ruidos apagados', d: 'Con murmullo pulmonar normal',
+            say: 'Y el último cuadro es el taponamiento: sangre en el saco pericárdico que no deja llenarse al corazón. La tríada de Beck es hipotensión, yugulares ingurgitadas y ruidos cardíacos apagados, con el murmullo pulmonar completamente normal.' },
+          { t: 'Eco-FAST subxifoideo', d: 'Confirma en segundos, y decide el pabellón',
+            say: 'Esa última parte es la clave para no confundirlo con el neumotórax a tensión. El Eco-FAST subxifoideo lo confirma en segundos, y el destino es pabellón para abrir el pericardio.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Árbol de decisión clínica',
-      title: 'Algoritmo de enfrentamiento en trauma torácico grave',
-      say: 'Analicemos el árbol de decisiones frente a un paciente con trauma torácico e inestabilidad hemodinámica o respiratoria grave.',
+      intro: 'Ahora juntemos las tres emergencias torácicas en un solo árbol de decisión.',
     },
 
     {
       type: 'table',
-      kicker: 'Trampas del EUNACOM',
-      title: 'Errores frecuentes en trauma torácico de urgencia',
-      head: ['Escenario clínico', 'Conducta médica estándar', 'Error fatal o trampa'],
+      kicker: 'Trampas EUNACOM',
+      title: 'Lo que se confunde: percusión y venas del cuello',
+      head: ['Signo clave', 'Neumotórax a tensión', 'Hemotórax masivo', 'Taponamiento cardíaco'],
       rows: [
-        {
-          cells: [
-            'Neumotórax a tensión con shock',
-            'Punción inmediata sin radiografía previa',
-            'Solicitar placa de tórax portátil para confirmar',
-          ],
-          say: 'Esperar una radiografía en un paciente con neumotórax a tensión y colapso circulatorio produce un paro cardiorrespiratorio evitable.',
-        },
-        {
-          cells: [
-            'Herida soplante en tórax penetrante',
-            'Parche oclusivo sellado en tres lados',
-            'Sellar completamente los cuatro bordes del parche',
-          ],
-          say: 'Sellar los cuatro bordes de un parche en una herida abierta convierte el neumotórax abierto en un neumotórax a tensión mortal.',
-        },
-        {
-          cells: [
-            'Hemotórax con mil seiscientos mililitros de salida',
-            'Traslado inmediato a pabellón para toracotomía',
-            'Mantener en observación para cuantificar débito horario',
-          ],
-          say: 'Si el débito inicial del tubo supera mil quinientos mililitros, el paciente requiere toracotomía de urgencia en quirófano de inmediato.',
-        },
-        {
-          cells: [
-            'Herida penetrante precordial con shock y pulmones limpios',
-            'Eco-FAST ventana pericárdica y pericardiocentesis',
-            'Atribuir la hipotensión a shock hipovolémico y pasar litros de suero',
-          ],
-          say: 'En el área cardíaca con hipotensión y pulmones limpios, pasar líquidos a ciegas no resuelve la compresión pericárdica.',
-        },
+        { cells: ['Percusión torácica', 'Timpanismo', 'Matidez', 'Sonoridad normal'],
+          say: 'Repasemos con una tabla. En la percusión: el neumotórax a tensión da timpanismo, el hemotórax da matidez, y el taponamiento tiene el tórax completamente normal.' },
+        { cells: ['Venas del cuello', 'Ingurgitadas', 'Colapsadas', 'Ingurgitadas'],
+          say: 'En las venas del cuello: ingurgitadas en el neumotórax a tensión, colapsadas en el hemotórax por la hipovolemia, e ingurgitadas otra vez en el taponamiento.' },
+        { cells: ['Murmullo pulmonar', 'Abolido de un lado', 'Abolido de un lado', 'Normal, sin cambios'],
+          say: 'Y el murmullo pulmonar es el que separa al taponamiento de los otros dos: en el taponamiento está completamente normal, porque el problema nunca fue el pulmón.' },
+        { cells: ['Ante la duda diagnóstica', 'Descomprimir sin esperar radiografía', 'Tubo pleural grueso', 'Eco-FAST subxifoideo'],
+          say: 'Y ante la duda, el error más caro es esperar una radiografía en el neumotórax a tensión. Ahí se descomprime primero y se piensa después.' },
       ],
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Oficial',
-      title: 'EUNACOM Diciembre 2025 · Pregunta 123',
-      recTag: 'EUNACOM Diciembre 2025 · Pregunta 123',
-      stem: 'Un paciente de 32 años sufre accidente de tránsito, golpeándose el pecho contra el pavimento. Minutos después evoluciona con dificultad respiratoria severa, malestar general y compromiso de conciencia. Se constata FC 140 lpm, PA 86/50 mmHg, FR 45 rpm y SatO2 82% a aire ambiental. En el examen segmentario se observa ingurgitación yugular con desviación traqueal, y se ausculta disminución del murmullo pulmonar derecho y ruidos cardíacos apagados. ¿Cuál es el diagnóstico más probable?',
-      question: '¿Cuál es el diagnóstico más probable?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 27 años recibe una patada en el hemitórax izquierdo durante una riña. Llega con disnea marcada, pálido y sudoroso. Presión arterial de 78/44, frecuencia cardíaca de 128. Al examen, el murmullo pulmonar está abolido a izquierda, con timpanismo a la percusión, ingurgitación yugular y la tráquea desviada hacia la derecha.',
+      question: '¿Cuál es la conducta inmediata más adecuada?',
       options: [
-        { letter: 'A', text: 'Contusión pulmonar aislada' },
-        { letter: 'B', text: 'Taponamiento cardíaco' },
-        { letter: 'C', text: 'Disección aórtica traumática' },
-        { letter: 'D', text: 'Neumotórax hipertensivo o a tensión' },
-        { letter: 'E', text: 'Hemotórax masivo' },
+        { letter: 'A', text: 'Solicitar radiografía de tórax portátil antes de actuar' },
+        { letter: 'B', text: 'Descomprimir con aguja gruesa en el segundo espacio intercostal izquierdo' },
+        { letter: 'C', text: 'Realizar ventana pericárdica subxifoidea' },
+        { letter: 'D', text: 'Iniciar transfusión de hemoderivados y observar' },
+        { letter: 'E', text: 'Solicitar TAC de tórax con contraste' },
       ],
-      correct: 'D',
-      explanation: 'La asociación de insuficiencia respiratoria severa, shock obstructivo, ingurgitación yugular, murmullo vesicular disminuido y desviación de la tráquea hacia el lado contralateral es patognomónica de neumotórax a tensión (hipertensivo). El taponamiento cardíaco no produce desviación traqueal ni abolición del murmullo.',
+      correct: 'B',
+      explanation: 'Timpanismo, murmullo abolido, ingurgitación yugular y desviación traqueal contralateral son el cuadro clínico completo del neumotórax a tensión. El diagnóstico es clínico y la conducta es descomprimir de inmediato, sin esperar ninguna imagen.',
       say: {
-        stem: 'Revisemos esta pregunta reciente de diciembre de dos mil veinticinco. Un paciente tras accidente presenta disnea severa, shock con ochenta y seis con cincuenta de presión, ingurgitación yugular, desviación traqueal y ausencia de murmullo derecho.',
-        question: '¿Cuál es el diagnóstico más probable?',
-        options: 'Las alternativas plantean: contusión pulmonar aislada, taponamiento cardíaco, disección aórtica, neumotórax hipertensivo o hemotórax masivo. Piénsalo.',
-        answer: 'La respuesta correcta es la D, neumotórax hipertensivo. Aunque el taponamiento cardíaco de la alternativa B también cursa con taquicardia, hipotensión e ingurgitación yugular, no produce desviación de la tráquea ni asimetría del murmullo pulmonar. La desviación traqueal confirma la hipertensión intrapleural que desplaza el mediastino.',
+        stem: 'Vamos con un caso. Hombre de veintisiete años, recibe una patada en el hemitórax izquierdo durante una pelea. Llega con disnea marcada, pálido y sudoroso. Su presión arterial es de setenta y ocho sobre cuarenta y cuatro, con frecuencia cardíaca de ciento veintiocho. El murmullo pulmonar está abolido a izquierda, con timpanismo a la percusión, las venas del cuello ingurgitadas, y la tráquea desviada hacia la derecha.',
+        question: '¿Cuál es la conducta inmediata más adecuada?',
+        options: 'Tienes cinco opciones: pedir una radiografía portátil antes de actuar, descomprimir con aguja en el segundo espacio intercostal, hacer una ventana pericárdica, transfundir hemoderivados y observar, o pedir un TAC de tórax. Piénsalo.',
+        answer: 'Es la B. Tienes los cuatro signos completos del neumotórax a tensión: timpanismo, murmullo abolido, yugulares ingurgitadas y tráquea desviada al lado contrario. Con este cuadro, el diagnóstico ya está hecho, y pedir una radiografía o un TAC antes de actuar solo demora una descompresión que se necesita en segundos.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Oficial',
+      kicker: 'Pregunta real EUNACOM',
       title: 'EUNACOM Julio 2025 · Pregunta 71',
-      recTag: 'EUNACOM Julio 2025 · Pregunta 71',
-      stem: 'Un paciente de 25 años tras accidente de tránsito ingresa con timpanismo a la percusión del hemitórax derecho, ausencia de murmullo vesicular derecho, disnea severa y desviación traqueal hacia la izquierda. ¿Cuál es el diagnóstico y la conducta inmediata?',
+      stem: 'Paciente de 25 años, tras un accidente de tránsito, llega con timpanismo a la percusión del hemitórax derecho, ausencia de murmullo vesicular derecho, disnea severa y desviación traqueal hacia la izquierda.',
       question: '¿Cuál es el diagnóstico y la conducta inmediata?',
       options: [
-        { letter: 'A', text: 'Neumotórax a tensión: descompresión inmediata con aguja en segundo espacio intercostal' },
-        { letter: 'B', text: 'Hemotórax masivo: drenaje pleural con tubo' },
+        { letter: 'A', text: 'Neumotórax a tensión: descompresión con aguja en el 2° espacio intercostal' },
+        { letter: 'B', text: 'Hemotórax masivo: drenaje pleural' },
         { letter: 'C', text: 'Contusión pulmonar: oxígeno y observación' },
-        { letter: 'D', text: 'Fractura de costillas: analgesia endovenosa' },
+        { letter: 'D', text: 'Fractura de costillas: analgesia' },
         { letter: 'E', text: 'Taponamiento cardíaco: pericardiocentesis' },
       ],
       correct: 'A',
-      explanation: 'Timpanismo + ausencia de murmullo vesicular + desviación traqueal contralateral configuran un neumotórax a tensión. Constituye una emergencia con riesgo vital que requiere descompresión inmediata con aguja en el segundo espacio intercostal línea medioclavicular sin esperar radiografía.',
+      explanation: 'Timpanismo con ausencia del murmullo vesicular y desviación traqueal contralateral son el cuadro clínico del neumotórax a tensión. La emergencia se resuelve con descompresión inmediata con aguja, sin esperar radiografía.',
       say: {
-        stem: 'Analicemos esta pregunta de julio de dos mil veinticinco. Un paciente joven politraumatizado ingresa con timpanismo derecho, abolición del murmullo vesicular derecho, disnea extrema y desviación de la tráquea hacia la izquierda.',
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de veinticinco años, tras un accidente de tránsito, con timpanismo a la percusión del hemitórax derecho, ausencia de murmullo vesicular derecho, disnea severa, y la tráquea desviada hacia la izquierda.',
         question: '¿Cuál es el diagnóstico y la conducta inmediata?',
-        options: 'Las opciones son: neumotórax a tensión con punción descompresiva inmediata, hemotórax masivo, contusión pulmonar, fractura costal con analgesia o taponamiento cardíaco con pericardiocentesis. Piénsalo.',
-        answer: 'La respuesta correcta es la A. La combinación de timpanismo, abolición del murmullo y tráquea desplazada al lado opuesto es el cuadro de neumotórax a tensión. La conducta inmediata es la descompresión con aguja gruesa en el segundo espacio intercostal línea medioclavicular antes de cualquier otro procedimiento o traslado.',
+        options: 'Las opciones son: neumotórax a tensión con descompresión en el segundo espacio intercostal, hemotórax masivo con drenaje pleural, contusión pulmonar con oxígeno, fractura de costillas con analgesia, o taponamiento con pericardiocentesis. Piénsalo.',
+        answer: 'Es la A. Timpanismo, murmullo abolido y tráquea desviada hacia el lado sano son la firma del neumotórax a tensión. Es exactamente el mismo cuadro del caso anterior, solo que ahora del lado derecho, y la conducta es la misma: descompresión inmediata con aguja, sin exámenes de por medio.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Oficial',
-      title: 'EUNACOM Julio 2024 · Pregunta 102',
-      recTag: 'EUNACOM Julio 2024 · Pregunta 102',
-      stem: 'Una paciente de 56 años ingresa tras sufrir un accidente automovilístico de alta energía. Presenta múltiples lesiones, taquicardia, hipotensión arterial e inestabilidad hemodinámica. La tomografía cerebral informa hematoma subdural izquierdo con desviación de línea media de 11 mm; la tomografía torácica revela múltiples fracturas costales y neumotórax izquierdo con desplazamiento traqueal hacia la derecha; la tomografía abdominopélvica muestra fractura desplazada de pelvis. ¿Cuál de las siguientes medidas terapéuticas es la más urgente?',
-      question: '¿Cuál es el procedimiento terapéutico prioritario?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2015 · Pregunta 32',
+      stem: 'Paciente de 28 años sufre una puñalada en el tórax, lado derecho. Al examen físico está en buenas condiciones, con dolor torácico y presenta disminución del murmullo pulmonar, asociado a hipersonoridad a la percusión en el hemitórax derecho.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Intubación orotraqueal electiva' },
-        { letter: 'B', text: 'Laparotomía exploradora de urgencia' },
-        { letter: 'C', text: 'Evacuación neuroquirúrgica del hematoma subdural' },
-        { letter: 'D', text: 'Pleurostomía izquierda urgente' },
-        { letter: 'E', text: 'Estabilización de pelvis con dispositivo de compresión neumática' },
+        { letter: 'A', text: 'Pedir radiografía de tórax' },
+        { letter: 'B', text: 'Pedir resonancia magnética de tórax' },
+        { letter: 'C', text: 'Instalar un tubo pleural de inmediato' },
+        { letter: 'D', text: 'Solicitar TAC de tórax' },
+        { letter: 'E', text: 'Realizar videotoracoscopía' },
+      ],
+      correct: 'A',
+      explanation: 'Hay un neumotórax traumático, pero sin los signos de tensión: el paciente está en buenas condiciones, sin hipotensión ni desviación traqueal. Sin esa urgencia, sí corresponde pedir primero la radiografía, para ver el grado del neumotórax y descartar un hemotórax asociado.',
+      say: {
+        stem: 'Y una última pregunta real, del EUNACOM de julio de dos mil quince. Paciente de veintiocho años, con una puñalada en el tórax derecho. Está en buenas condiciones generales, con dolor torácico, murmullo pulmonar disminuido e hipersonoridad a la percusión del lado derecho.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Las opciones son: pedir radiografía de tórax, pedir resonancia magnética, instalar un tubo pleural de inmediato, pedir TAC de tórax, o hacer una videotoracoscopía. Piénsalo.',
+        answer: 'Es la A. Y este caso es justo el contraste que tienes que aprender a distinguir: hay un neumotórax, pero el paciente está en buenas condiciones, sin hipotensión ni desviación de la tráquea. Sin esos signos de tensión, sí tiene sentido pedir primero la radiografía, para ver cuánto pulmón está colapsado y descartar un hemotórax al mismo tiempo.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 102',
+      stem: 'Mujer de 56 años ingresa tras un accidente automovilístico de alta energía, con hemorragia masiva e inestabilidad hemodinámica. Las imágenes muestran un hematoma subdural con desplazamiento de 11 mm, múltiples fracturas costales con neumotórax izquierdo y desviación traqueal hacia la derecha, y una fractura de pelvis desplazada.',
+      question: '¿Cuál de las siguientes medidas terapéuticas es la más urgente?',
+      options: [
+        { letter: 'A', text: 'Intubación orotraqueal' },
+        { letter: 'B', text: 'Laparotomía exploradora' },
+        { letter: 'C', text: 'Evacuación quirúrgica del hematoma subdural' },
+        { letter: 'D', text: 'Pleurostomía izquierda' },
+        { letter: 'E', text: 'Estabilización de la fractura de pelvis' },
       ],
       correct: 'D',
-      explanation: 'Aunque la paciente tiene múltiples lesiones graves con riesgo vital, el neumotórax con desviación traqueal e inestabilidad hemodinámica representa un neumotórax a tensión (paso B del protocolo ATLS). La descompresión torácica mediante pleurostomía precede a la cirugía neuroquirúrgica y pélvica.',
+      explanation: 'De todas las lesiones, la que mata primero es el neumotórax a tensión, evidenciado por la desviación traqueal. El hematoma subdural y la fractura de pelvis son graves, pero no matan en el mismo minuto: se tratan una vez resuelta la lesión torácica.',
       say: {
-        stem: 'Revisemos esta excelente pregunta de julio de dos mil veinticuatro sobre jerarquía de prioridades. Una paciente politraumatizada grave tiene un hematoma subdural con desviación de once milímetros, un neumotórax con desviación de tráquea e hipotensión, y una fractura de pelvis desplazada.',
-        question: '¿Cuál es la intervención terapéutica más urgente entre todas las descritas?',
-        options: 'Las alternativas son: intubación electiva, laparotomía exploradora, evacuación del hematoma cerebral, pleurostomía izquierda o compresión pélvica. Piénsalo.',
-        answer: 'La respuesta correcta es la D, pleurostomía izquierda. Según el principio del ATLS, se trata primero lo que mata más rápido. El neumotórax con desviación de tráquea e inestabilidad hemodinámica compromete la ventilación y la perfusión sistémica de forma inminente. Debe descomprimirse el tórax antes de trasladar a pabellón neuroquirúrgico para evacuar el hematoma.',
+        stem: 'Y una última pregunta real, del EUNACOM de julio de dos mil veinticuatro, que conecta con lo que viste la clase pasada. Mujer de cincuenta y seis años, tras un accidente de alta energía, con hemorragia masiva e inestabilidad hemodinámica. Las imágenes muestran, a la vez, un hematoma subdural, múltiples fracturas costales con neumotórax izquierdo y desviación traqueal, y una fractura de pelvis desplazada.',
+        question: '¿Cuál de las siguientes medidas terapéuticas es la más urgente?',
+        options: 'Las opciones son: intubación orotraqueal, laparotomía exploradora, evacuar el hematoma subdural, pleurostomía izquierda, o estabilizar la fractura de pelvis. Piénsalo.',
+        answer: 'Es la D. Aquí hay varias lesiones graves a la vez, y por eso este caso es perfecto para recordar la regla de la clase anterior: se trata primero lo que mata primero. La desviación traqueal te dice que hay un neumotórax a tensión, y eso mata en minutos. El hematoma subdural y la fractura de pelvis son urgentes, pero no tan urgentes como para saltarse el paso B.',
       },
     },
-
-    {
-      type: 'quiz',
-      kicker: 'EUNACOM Oficial',
-      title: 'EUNACOM Julio 2015 · Pregunta 32',
-      recTag: 'EUNACOM Julio 2015 · Pregunta 32',
-      stem: 'Un paciente de 28 años sufre una puñalada en el tórax en el lado derecho. Al examen físico está en buenas condiciones generales, con dolor torácico, disminución del murmullo pulmonar e hipersonoridad a la percusión en el hemitórax derecho, sin signos de inestabilidad hemodinámica. ¿Cuál es la conducta más adecuada?',
-      question: '¿Cuál es la conducta inicial más adecuada?',
-      options: [
-        { letter: 'A', text: 'Solicitar radiografía de tórax' },
-        { letter: 'B', text: 'Solicitar resonancia magnética de tórax' },
-        { letter: 'C', text: 'Instalar de inmediato un tubo pleural a ciegas' },
-        { letter: 'D', text: 'Solicitar tomografía computarizada torácica' },
-        { letter: 'E', text: 'Realizar videotoracoscopía de urgencia' },
-      ],
-      correct: 'A',
-      explanation: 'El paciente presenta una herida penetrante con sospecha de neumotórax traumático simple, pero se encuentra hemodinámicamente estable y en buenas condiciones generales (no es a tensión). En esta situación está indicado solicitar una radiografía de tórax para cuantificar el neumotórax y descartar hemotórax asociado.',
-      say: {
-        stem: 'Veamos este contraste fundamental de julio de dos mil quince. Un paciente joven recibe una puñalada en el hemitórax derecho. Tiene dolor, disminución del murmullo e hipersonoridad, pero está en buenas condiciones y hemodinámicamente estable.',
-        question: '¿Cuál es la conducta inicial correcta?',
-        options: 'Las alternativas proponen: pedir radiografía de tórax, resonancia magnética, tubo pleural inmediato, tomografía computarizada o videotoracoscopía. Piénsalo.',
-        answer: 'La respuesta correcta es la A, pedir radiografía de tórax. Ojo con esta trampa: el paciente tiene un neumotórax traumático, pero no tiene criterios de neumotórax a tensión porque está hemodinámicamente estable y en buenas condiciones. Por lo tanto, no se punciona a ciegas; primero se confirma con una radiografía de tórax para cuantificar su volumen y descartar hemotórax.',
-      },
-    },
-    {
-      type: 'quiz',
-      kicker: 'EUNACOM Oficial',
-      title: 'EUNACOM Diciembre 2024 · Pregunta 33',
-      recTag: 'EUNACOM Diciembre 2024 · Pregunta 33',
-      stem: 'Un hombre politraumatizado ingresa a urgencias. Tras la evaluación inicial se realiza tomografía computarizada que informa hematoma epidural intracraneal, neumotórax con desviación de la tráquea y un derrame pericárdico extenso. Al volver de la sala de tomografía presenta deterioro hemodinámico súbito con hipotensión marcada y pulso paradójico. ¿Cuál es la conducta inicial prioritaria?',
-      question: '¿Cuál es la conducta terapéutica prioritaria?',
-      options: [
-        { letter: 'A', text: 'Pericardiocentesis o ventana pericárdica descompresiva' },
-        { letter: 'B', text: 'Craniotomía descompresiva inmediata para evacuar hematoma' },
-        { letter: 'C', text: 'Laparotomía exploradora de urgencia' },
-        { letter: 'D', text: 'Administración exclusiva de cristaloides endovenosos' },
-        { letter: 'E', text: 'Manejo médico conservador en unidad de paciente crítico' },
-      ],
-      correct: 'A',
-      explanation: 'El paciente presenta un taponamiento cardíaco descompensado evidenciado por el colapso hemodinámico súbito y el derrame pericárdico extenso informado en la tomografía. La descompresión del saco pericárdico mediante pericardiocentesis evacuadora o ventana subxifoidea es la prioridad hemodinámica antes de cualquier intervención neuroquirúrgica.',
-      say: {
-        stem: 'Analicemos esta pregunta oficial de diciembre de dos mil veinticuatro. Un politraumatizado grave tiene un hematoma epidural, un neumotórax y un derrame pericárdico extenso en la tomografía, pero regresa del escáner con colapso circulatorio agudo y pulso paradójico.',
-        question: '¿Cuál es la conducta inicial prioritaria?',
-        options: 'Las opciones son: pericardiocentesis o descompresión pericárdica, craniotomía descompresiva inmediata, laparotomía exploradora, suero exclusivo o manejo conservador en cuidados intensivos. Piénsalo.',
-        answer: 'La respuesta correcta es la A, pericardiocentesis o descompresión pericárdica. Cuando un paciente con trauma tiene un derrame pericárdico extenso y cae en colapso circulatorio con pulso paradójico, la causa inmediata de muerte es el taponamiento cardíaco por restricción diastólica aguda. Debe descomprimirse el saco pericárdico de urgencia para restaurar el gasto cardíaco antes de proceder con la craniotomía.',
-      },
-    },
-
 
     {
       type: 'points',
-      kicker: 'Conceptos indispensables',
-      title: 'Reglas de oro en trauma torácico mayor',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Emergencias clínicas inmediatas',
-          tag: 'Decisiones en segundos',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Neumotórax a tensión nunca espera radiografía',
-              d: 'Punción con catéter catorce gauge y pleurostomía inmediata',
-              say: 'El neumotórax a tensión es un diagnóstico clínico puro: si hay shock y timpanismo, descomprime de inmediato.',
-            },
-            {
-              t: 'Parche de tres lados en herida abierta',
-              d: 'Permite escape unidireccional de aire sin convertir en tensión',
-              say: 'En el neumotórax abierto sella tres bordes con plástico o gasa vaselinada, dejando el cuarto lado libre.',
-            },
-          ],
-        },
-        {
-          title: 'Criterios quirúrgicos y soporte',
-          tag: 'Toracotomía y analgesia',
-          kind: 'key',
-          items: [
-            {
-              t: 'Criterios de toracotomía en hemotórax',
-              d: 'Mil quinientos mililitros de entrada o más de doscientos por hora',
-              say: 'El hemotórax masivo va a pabellón si drena mil quinientos mililitros iniciales o más de doscientos por hora continuos.',
-            },
-            {
-              t: 'Tórax volante mata por contusión',
-              d: 'Analgesia regional peridural y restricción cuidadosa de fluidos',
-              say: 'Si te llevas una sola idea de hoy: en el tórax inestable o volante, la causa real de hipoxemia refractaria es la contusión pulmonar subyacente. Maneja el dolor precozmente con analgesia regional peridural, cuida no sobrehidratar para evitar inundar los alvéolos y descomprime siempre las lesiones pleurales de riesgo vital. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'El signo que decide todo', tag: 'Percusión y yugulares', kind: 'key', items: [
+          { t: 'Timpanismo con yugulares altas', d: 'Neumotórax a tensión: descomprime ya',
+            say: 'Cerremos con las reglas de oro. Timpanismo con yugulares ingurgitadas es neumotórax a tensión: descomprimes de inmediato, sin radiografía.' },
+          { t: 'Matidez con yugulares planas', d: 'Hemotórax masivo: tubo pleural grueso',
+            say: 'Matidez con yugulares planas es hemotórax masivo: tubo pleural grueso, con transfusión en paralelo.' },
+        ] },
+        { title: 'Lo que no es el pulmón', tag: 'Tórax volante y taponamiento', kind: 'alert', items: [
+          { t: 'Tórax volante', d: 'La hipoxia es por la contusión, no por el movimiento',
+            say: 'En el tórax volante, la hipoxia grave la explica la contusión pulmonar, no el movimiento paradójico de la pared.' },
+          { t: 'Taponamiento', d: 'Murmullo pulmonar normal, más tríada de Beck',
+            say: 'Y el taponamiento se reconoce porque el pulmón está completamente normal, con la tríada de Beck instalada. Si te llevas una sola idea de hoy: la percusión y las venas del cuello te dicen, en segundos, cuál de estas tres emergencias tienes enfrente. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo de Toma de Decisiones en Trauma Torácico Grave',
-    root: N(
-      'start',
-      'Paciente con trauma torácico e inestabilidad cardiopulmonar',
-      'Evaluación primaria B y C del protocolo ATLS',
-      'Iniciamos el enfrentamiento semiológico evaluando la percusión, auscultación y estado hemodinámico.',
-      [
-        'Timpanismo y ausencia de murmullo con shock',
-        N(
-          'alert',
-          'Neumotórax a tensión',
-          'Ingurgitación yugular y desviación de tráquea',
-          'Sospechamos neumotórax a tensión frente a hipersonoridad, colapso circulatorio y tráquea desviada.',
-          [
-            'Conducta inmediata',
-            N(
-              'do',
-              'Descompresión inmediata con aguja',
-              'Segundo espacio medioclavicular o quinto axilar',
-              'Puncionamos de inmediato con aguja gruesa catorce gauge sin esperar ninguna radiografía previa.',
-              [
-                'Tratamiento definitivo',
-                N(
-                  'ok',
-                  'Instalación de tubo de pleurostomía',
-                  'Tubo veintiocho a treinta y dos French con trampa de agua',
-                  'Se coloca de inmediato un tubo pleural conectado a sello de agua para reexpansión pulmonar completa.'
-                )
-              ]
-            )
-          ]
-        )
-      ],
-      [
-        'Matidez y ausencia de murmullo con shock',
-        N(
-          'alert',
-          'Hemotórax masivo',
-          'Pérdida hemática aguda con venas del cuello colapsadas',
-          'La matidez a la percusión con shock hipovolémico indica hemotórax masivo por rotura vascular intratorácica.',
-          [
-            'Drenaje inicial',
-            N(
-              'do',
-              'Pleurostomía con tubo de grueso calibre',
-              'Tubo treinta y dos a treinta y seis French',
-              'Instalamos un tubo pleural grueso para evacuar sangre, medir volumen y evitar la coagulación del espacio pleural.',
-              [
-                'Mayor a mil quinientos ml o más de doscientos ml por hora',
-                N(
-                  'alert',
-                  'Toracotomía de urgencia en pabellón',
-                  'Hemostasia quirúrgica directa de grandes vasos',
-                  'Si el débito inicial supera mil quinientos mililitros o persiste alto, se traslada de urgencia a quirófano.'
-                )
-              ]
-            )
-          ]
-        )
-      ],
-      [
-        'Ruidos apagados y pulmones limpios con shock',
-        N(
-          'alert',
-          'Taponamiento cardíaco',
-          'Tríada de Beck e ingurgitación yugular sin neumotórax',
-          'En herida precordial con hipotensión y campos pulmonares normales sospechamos taponamiento pericárdico.',
-          [
-            'Confirmación rápida',
-            N(
-              'do',
-              'Eco-FAST ventana subxifoidea',
-              'Detección de hemopericardio en menos de un minuto',
-              'Confirmamos la presencia de derrame pericárdico con la ventana subxifoidea del ecógrafo en box.',
-              [
-                'Resolución de urgencia',
-                N(
-                  'do',
-                  'Pericardiocentesis o ventana pericárdica',
-                  'Evacuación descompresiva y reparación quirúrgica',
-                  'Realizamos punción descompresiva de rescate y traslado inmediato a pabellón para cardiorrafia.'
-                )
-              ]
-            )
-          ]
-        )
-      ]
-    ),
+    title: 'Trauma torácico mayor: qué lesión es, según percusión y yugulares',
+    root: N('start', 'Trauma torácico con dificultad respiratoria', 'Evaluación rápida en el paso B',
+      'Un paciente con trauma torácico y dificultad respiratoria. Percute el tórax y mira las venas del cuello: eso separa las tres emergencias.',
+      ['Timpanismo, yugulares ingurgitadas, tráquea desviada', N('alert', 'Neumotórax a tensión', 'Descompresión con aguja, sin esperar radiografía',
+        'Con estos cuatro signos, el diagnóstico es clínico: descomprimes con aguja en el segundo espacio intercostal, y después dejas un tubo pleural.')],
+      ['Matidez, yugulares colapsadas, hipovolemia', N('do', 'Hemotórax masivo', 'Tubo pleural grueso y hemoderivados',
+        'Con matidez y yugulares planas por la pérdida de sangre, instalas un tubo pleural grueso y transfundes en paralelo.',
+        ['¿Débito inicial mayor a 1.500 mL o sangrado persistente?', N('alert', 'Toracotomía', 'Control quirúrgico del vaso sangrante',
+          'Si el sangrado por el tubo es masivo de entrada o no se detiene, el destino es la toracotomía para controlar el vaso.')])],
+      ['Murmullo pulmonar normal, tríada de Beck', N('do', 'Taponamiento cardíaco', 'Eco-FAST subxifoideo y pabellón',
+        'Con el pulmón normal pero hipotensión, yugulares altas y ruidos apagados, el Eco-FAST confirma el derrame pericárdico y el destino es pabellón.')],
+      ['3 o más costillas rotas, movimiento paradójico', N('ok', 'Tórax volante', 'Analgesia potente y suero restringido',
+        'Con el segmento costal flotando, la clave es la analgesia para que respire bien, y restringir el suero para no inundar el pulmón contundido.')]),
   },
 };
