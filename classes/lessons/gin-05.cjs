@@ -1,4 +1,4 @@
-// Clase 20.5 — guion docente escrito a mano (estándar Módulo 3 · Ginecología).
+// Clase 20.5 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
 // Fuente clínica: books/scripts/dataset_ginecologia.cjs (gin-05).
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
@@ -9,563 +9,311 @@ module.exports = {
   slides: [
     {
       type: 'cover',
-      subtitle: 'Endometriosis y adenomiosis: fisiopatología, tríada cardinal, imagenología en vidrio esmerilado y manejo médico escalonado',
-      say: 'Bienvenidos a la clase sobre endometriosis y adenomiosis, dos de las patologías ginecológicas inflamatorias más prevalentes y discapacitantes en la mujer en edad fértil. En esta sesión aprenderemos a reconocer la tríada cardinal de dismenorrea, dispareunia e infertilidad, interpretaremos la ecografía con el clásico endometrioma en vidrio esmerilado, dominaremos el uso de dienogest continuo para el dolor pélvico entendiendo por qué las hormonas no mejoran la fertilidad, y contrastaremos la endometriosis con la adenomiosis. Comencemos.',
+      subtitle: 'La tríada que la sospecha, la biopsia que decide, la displasia que nunca es',
+      say: 'Bienvenida. Hoy vemos endometriosis y adenomiosis, dos enfermedades que suenan parecidas pero que tienes que aprender a separar bien, porque el examen las pone una al lado de la otra todo el tiempo. En la endometriosis el tejido endometrial se escapa del útero; en la adenomiosis se mete dentro del músculo uterino. Vamos paso a paso.',
     },
 
     {
       type: 'flow',
-      kicker: 'Mecanismo biológico',
-      title: 'Fisiopatología de la Endometriosis: de la menstruación retrógrada al implante',
+      kicker: 'Fisiopatología',
+      title: '¿Por qué el endometrio termina fuera del útero?',
       nodes: [
-        { id: 'ret', col: 0, row: 1, k: 'start', t: 'Menstruación retrógrada (Sampson)', s: 'Flujo menstrual transtubárico con células endometriales viables hacia el peritoneo' },
-        { id: 'adh', col: 1, row: 1, k: 'mech', t: 'Adhesión e invasión peritoneal', s: 'Falla del aclaramiento inmune local mediado por macrófagos y natural killer' },
-        { id: 'est', col: 2, row: 1, k: 'risk', t: 'Microambiente estrógeno-dependiente', s: 'Aromatasa local produce estradiol estimulando cicloxigenasa dos y prostaglandinas' },
-        { id: 'fib', col: 3, row: 0, k: 'trap', t: 'Fibrosis, adherencias y dolor', s: 'Hemorragia cíclica microcitaria con adherencias densas y distorsión anatómica' },
-        { id: 'qui', col: 3, row: 2, k: 'trap', t: 'Endometrioma ovárico de chocolate', s: 'Invaginación de la corteza ovárica con acumulación de sangre degradada' },
+        { id: 'retro', col: 0, row: 1, k: 'cause', t: 'Menstruación retrógrada', s: 'Teoría de Sampson' },
+        { id: 'implant', col: 1, row: 1, k: 'mech', t: 'Se implanta en el peritoneo', s: 'Con inflamación crónica' },
+        { id: 'ova', col: 2, row: 0, k: 'risk', t: 'Ovario', s: 'El lugar más frecuente' },
+        { id: 'dou', col: 2, row: 1, k: 'risk', t: 'Fondo de saco de Douglas', s: 'Y ligamentos uterosacros' },
+        { id: 'rec', col: 2, row: 2, k: 'risk', t: 'Tabique rectovaginal', s: 'Duele al defecar' },
+        { id: 'vej', col: 2, row: 3, k: 'risk', t: 'Vejiga y uréteres', s: 'Duele al orinar' },
+        { id: 'rar', col: 3, row: 2, k: 'trap', t: 'Pleura y cicatriz de cesárea', s: 'Localizaciones raras' },
       ],
       edges: [
-        { from: 'ret', to: 'adh', label: 'reflujo tubárico' },
-        { from: 'adh', to: 'est', label: 'implantación' },
-        { from: 'est', to: 'fib', label: 'inflamación crónica' },
-        { from: 'est', to: 'qui', label: 'afectación ovárica' },
+        { from: 'retro', to: 'implant' },
+        { from: 'implant', to: 'ova' }, { from: 'implant', to: 'dou' },
+        { from: 'implant', to: 'rec' }, { from: 'implant', to: 'vej' },
+        { from: 'rec', to: 'rar' },
       ],
       steps: [
-        {
-          show: ['ret', 'adh'],
-          note: 'Teoría de Sampson y escape inmune',
-          say: 'La teoría más aceptada es la de Sampson o de la menstruación retrógrada: durante la menstruación, tejido endometrial viable refluye por las trompas hacia la cavidad peritoneal. En mujeres susceptibles existe un defecto inmune que impide a los macrófagos eliminar estas células, permitiendo su adhesión al peritoneo.',
-        },
-        {
-          show: ['est', 'fib', 'qui'],
-          note: 'Estrógeno-dependencia, fibrosis y endometriomas',
-          say: 'Los implantes ectópicos expresan aromatasa y sintetizan su propio estradiol, retroalimentando una cascada inflamatoria crónica de prostaglandinas. Con cada ciclo menstrual sangran internamente provocando fibrosis severa, adherencias pélvicas densas y quistes achocolatados en los ovarios conocidos como endometriomas.',
-        },
+        { show: ['retro'], note: 'Fragmentos de endometrio suben por las trompas',
+          say: 'Empecemos por el mecanismo. La teoría más aceptada es la de Sampson: durante la regla, fragmentos de endometrio refluyen por las trompas hacia la cavidad peritoneal, en vez de salir por la vagina.' },
+        { show: ['implant'], note: 'Se prenden y generan inflamación crónica',
+          say: 'Esos fragmentos logran implantarse porque el ambiente peritoneal se los permite, y ahí generan una inflamación crónica que depende del estrógeno. Guarda esta idea, porque explica por qué duele siempre en relación con la regla.' },
+        { show: ['ova'], note: 'El endometrioma se forma aquí',
+          say: 'El lugar donde más se implanta es el ovario, formando el clásico quiste de chocolate, que ahora vamos a ver en la ecografía.' },
+        { show: ['dou'], note: 'Nódulos dolorosos al tacto',
+          say: 'También se implanta en el fondo de saco de Douglas y en los ligamentos uterosacros, dejando al útero fijo y esos nódulos dolorosos que vas a sentir al tacto.' },
+        { show: ['rec'], note: 'Disquecia: dolor al defecar con la regla',
+          say: 'Si llega al tabique rectovaginal o al recto, aparece la disquecia: dolor al defecar, que empeora justo con la menstruación.' },
+        { show: ['vej'], note: 'Disuria catamenial',
+          say: 'Y si toca la vejiga o el uréter, vas a ver disuria que se repite cada mes, junto con la regla. Fíjate en el patrón: todo lo que aparece o empeora con la menstruación, en esta paciente, es sospechoso.' },
+        { show: ['rar'], note: 'Casos raros que igual se preguntan',
+          say: 'Y hay localizaciones raras que a veces aparecen en el examen: en la pleura o el diafragma, dando un neumotórax que coincide con la regla, o en la cicatriz de una cesárea previa, como un nódulo doloroso que crece cada mes.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Mapeo anatómico',
-      title: 'Localizaciones Anatómicas Típicas y Atípicas de la Endometriosis',
+      kicker: 'Clínica',
+      title: 'La tríada que tienes que reconocer de memoria',
       cards: [
-        {
-          title: 'Localizaciones Pélvicas Más Frecuentes',
-          tag: 'Compromiso ginecológico directo',
-          kind: 'key',
-          items: [
-            {
-              t: 'Ovarios (sesenta a setenta por ciento)',
-              d: 'Principal sitio de implante formando endometriomas ováricos uni o bilaterales',
-              say: 'El ovario es la localización anatómica más común en más del sesenta al setenta por ciento de las pacientes. Allí el tejido ectópico penetra la corteza formando los clásicos endometriomas ováricos o quistes de chocolate rellenos de hemosiderina espesa.',
-            },
-            {
-              t: 'Fondo de saco de Douglas y ligamentos uterosacros',
-              d: 'Generan nódulos dolorosos palpables y traccionan el útero en retroversión fija',
-              say: 'La implantación en el fondo de saco de Douglas y en ambos ligamentos uterosacros genera una intensa reacción desmoplásica y cicatrizal. Esto retrae el fondo uterino hacia atrás, fijándolo en retroversoflexión rígida y provocando dolor exquisito a la movilización cervical.',
-            },
-            {
-              t: 'Tabique rectovaginal y colon recto-sigmoides',
-              d: 'Infiltración profunda de la pared muscular intestinal que ocasiona disquecia cíclica',
-              say: 'La invasión del tabique rectovaginal y de la pared muscular anterior del recto genera disquecia cíclica, definida como un dolor punzante e invalidante al defecar que coincide exclusivamente con los días del sangrado menstrual.',
-            },
-          ],
-        },
-        {
-          title: 'Localizaciones Atípicas y Extrapélvicas',
-          tag: 'Manifestaciones catameniales raras',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Vejiga y uréteres pelvianos',
-              d: 'Originan disuria cíclica, tenesmo vesical y hematuria macroscópica catamenial',
-              say: 'El compromiso de la vejiga y uréteres pelvianos produce disuria dolorosa, tenesmo y hematuria macroscópica que coincide exactamente con la menstruación, debiendo sospecharse ante mujeres con síntomas urinarios recurrentes y urocultivos repetidamente negativos.',
-            },
-            {
-              t: 'Pleura y diafragma (neumotórax catamenial)',
-              d: 'Implantes torácicos que sangran y se perforan provocando colapso pulmonar cíclico',
-              say: 'La presencia de implantes endometriósicos en el hemidiafragma o en la pleura visceral puede erosionar el tejido durante el sangrado catamenial, originando un neumotórax catamenial recurrente que colapsa el pulmón de forma sincrónica con la regla.',
-            },
-          ],
-        },
+        { title: 'Tríada cardinal', tag: 'Pregunta fija', kind: 'key', items: [
+          { t: 'Dismenorrea progresiva', d: 'No cede con antiinflamatorios comunes',
+            say: 'Esta tríada la vas a ver una y otra vez. Primero, dismenorrea que empeora año tras año y que ya no responde a los antiinflamatorios que antes le servían.' },
+          { t: 'Dispareunia profunda', d: 'Duele con la penetración',
+            say: 'Segundo, dispareunia profunda: duele con la penetración, porque tracciona justo los ligamentos uterosacros comprometidos.' },
+          { t: 'Infertilidad', d: 'Hasta la mitad de las pacientes',
+            say: 'Y tercero, infertilidad, en hasta la mitad de los casos, por las adherencias y la inflamación que alteran la trompa y el ovocito.' },
+        ] },
+        { title: 'Al examinarla', tag: 'Lo que vas a palpar', kind: 'normal', items: [
+          { t: 'Útero fijo en retroversión', d: 'No se moviliza al tacto',
+            say: 'Al examinarla, el útero está fijo en retroversión: no se mueve cuando lo intentas movilizar.' },
+          { t: 'Nódulos en el Douglas', d: 'Firmes y dolorosos',
+            say: 'Y vas a palpar nódulos firmes y dolorosos en el fondo de saco posterior y en los ligamentos uterosacros. Con esta clínica, ya deberías estar pensando en endometriosis.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Semiología de consulta',
-      title: 'La Tríada Cardinal de Síntomas de la Endometriosis',
+      kicker: 'Diagnóstico',
+      title: '¿Con qué confirmas lo que sospechas?',
       cards: [
-        {
-          title: 'Los Tres Síntomas Cardinales (Pregunta Fija EUNACOM)',
-          tag: 'Sospecha clínica inmediata',
-          kind: 'key',
-          items: [
-            {
-              t: 'Dismenorrea secundaria progresiva severa',
-              d: 'Dolor cólico pélvico que empeora con los años y no cede a analgésicos comunes',
-              say: 'La dismenorrea secundaria progresiva es el síntoma cardinal más frecuente de la endometriosis. Se trata de un dolor cólico pelviano intenso que se agrava año tras año y que no responde adecuadamente a los antiinflamatorios no esteroidales habituales.',
-            },
-            {
-              t: 'Dispareunia profunda',
-              d: 'Dolor severo con la penetración sexual profunda por estiramiento de ligamentos uterosacros',
-              say: 'La dispareunia profunda se caracteriza por dolor lacerante agudo durante las relaciones sexuales con la penetración profunda, desencadenado por la tracción mecánica de los implantes nodulares situados en los ligamentos uterosacros y el fondo de saco.',
-            },
-            {
-              t: 'Infertilidad o esterilidad primaria y secundaria',
-              d: 'Presente en el treinta al cincuenta por ciento de las pacientes con endometriosis',
-              say: 'La infertilidad afecta a entre un treinta y cincuenta por ciento de las mujeres con endometriosis. Se origina tanto por barreras mecánicas obstructivas tubáricas como por la presencia de un líquido peritoneal altamente inflamatorio que altera la fecundación.',
-            },
-          ],
-        },
-        {
-          title: 'Signos al Examen Físico Ginecológico',
-          tag: 'Hallazgos semiológicos al tacto',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Útero en retroversoflexión fija',
-              d: 'Pérdida de la movilidad fisiológica del cuerpo uterino por adherencias densas',
-              say: 'Al tacto bimanual llama la atención la inmovilidad del útero, encontrándose fijado hacia posterior por bridas adherenciales densas en la pelvis menor.',
-            },
-            {
-              t: 'Nódulos exquisitamente sensibles en fórnix posterior',
-              d: 'Palpación de pequeños nódulos azulados o indurados en los ligamentos uterosacros',
-              say: 'La palpación del fondo de saco posterior y de los ligamentos uterosacros revela nódulos indurados sumamente dolorosos al menor roce digital.',
-            },
-          ],
-        },
+        { title: 'Ecografía transvaginal', tag: 'Primer examen', kind: 'key', items: [
+          { t: 'Vidrio esmerilado', d: 'Ecos finos y homogéneos',
+            say: 'Pide primero una ecografía transvaginal. El endometrioma se ve como un quiste con ecos finos y homogéneos, la clásica imagen en vidrio esmerilado.' },
+          { t: 'Sin papilas ni Doppler', d: 'Eso descarta cáncer',
+            say: 'Fíjate en algo importante: sin papilas sólidas ni vascularización al Doppler. Eso es lo que te permite descartarte del cáncer de ovario.' },
+        ] },
+        { title: 'Cuando la eco no basta', tag: 'Enfermedad profunda', kind: 'alert', items: [
+          { t: 'Resonancia magnética pélvica', d: 'Mapea uterosacros y tabique',
+            say: 'Si sospechas endometriosis profunda infiltrante, la resonancia magnética es tu siguiente paso: mapea los uterosacros, el tabique rectovaginal, la vejiga o el colon.' },
+          { t: 'Laparoscopía con biopsia', d: 'El estándar de oro definitivo',
+            say: 'Y el diagnóstico definitivo, el estándar de oro, es la laparoscopía con biopsia, donde vas a ver esas lesiones que parecen quemaduras de pólvora.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Adenomiosis',
+      title: 'Ahora el otro lado: cuando es todo el útero',
+      cards: [
+        { title: 'Quién la tiene', tag: 'El perfil que cambia todo', kind: 'key', items: [
+          { t: 'Multípara de treinta y cinco a cincuenta', d: 'No la joven nuligesta',
+            say: 'Cambiemos de enfermedad. La adenomiosis aparece en la mujer multípara, entre los treinta y cinco y los cincuenta años. Ese perfil ya es distinto al de la endometriosis, que ves en la joven nuligesta.' },
+          { t: 'Hipermenorrea + dismenorrea tardía', d: 'El sangrado abundante manda',
+            say: 'Y el síntoma que manda cambia también: aquí lo que más te va a contar es hipermenorrea, sangrado abundante, con una dismenorrea que aparece más tarde en la vida.' },
+        ] },
+        { title: 'Examen y ecografía', tag: 'Útero difuso, no nodular', kind: 'normal', items: [
+          { t: 'Útero grande, blando, globoso', d: 'Duele parejo, no en un punto',
+            say: 'Al examinarla, el útero está aumentado de tamaño de forma difusa, blando y globuloso, y duele parejo, no en un nódulo puntual como en la endometriosis.' },
+          { t: 'Miometrio en rayos de sol', d: 'Heterogéneo y asimétrico',
+            say: 'La ecografía muestra un miometrio heterogéneo, con esas estriaciones que se describen como rayos de sol, y una asimetría entre ambas paredes.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Médico primero', kind: 'pharma', items: [
+          { t: 'DIU con levonorgestrel', d: 'Primera opción médica',
+            say: 'El tratamiento médico de primera línea es el DIU con levonorgestrel, junto con antiinflamatorios y ácido tranexámico para el sangrado.' },
+          { t: 'Histerectomía', d: 'Curativa con la paridad cumplida',
+            say: 'Y si ya cumplió su paridad y el tratamiento médico falla, la histerectomía es curativa. Guarda este contraste: en la endometriosis operas focos y quistes; en la adenomiosis, si operas, sacas el útero completo.' },
+        ] },
       ],
     },
 
     {
       type: 'table',
-      kicker: 'Estudio de imágenes y confirmación',
-      title: 'Herramientas Diagnósticas en Endometriosis: de la Ecografía a la Biopsia',
-      head: ['Método diagnóstico', 'Hallazgo patológico característico', 'Rol y utilidad clínica'],
+      kicker: 'La diferencia que más se pregunta',
+      title: 'Endometriosis versus adenomiosis',
+      head: ['Parámetro', 'Endometriosis', 'Adenomiosis'],
       rows: [
-        {
-          cells: ['Ecografía transvaginal especializada', 'Quiste ovárico de pared fina con ecos homogéneos de bajo nivel en vidrio esmerilado', 'Estudio inicial de elección para diagnosticar endometriomas ováricos'],
-          say: 'La ecografía transvaginal es el examen inicial de primera línea para diagnosticar endometriomas ováricos, caracterizados típicamente por una masa quística de pared fina con ecos internos homogéneos de bajo nivel en vidrio esmerilado y ausencia de vascularización interna.',
-        },
-        {
-          cells: ['Resonancia magnética de pelvis', 'Mapeo detallado de nódulos infiltrantes en tabique rectovaginal vejiga y ligamentos', 'Estándar de oro en imágenes para planificación de endometriosis profunda'],
-          say: 'La resonancia magnética pélvica de alta resolución constituye el mejor estudio por imágenes no invasivo para mapear con precisión anatómica milimétrica los nódulos de endometriosis profunda que infiltran los ligamentos uterosacros, el tabique rectovaginal y la pared intestinal.',
-        },
-        {
-          cells: ['Laparoscopía quirúrgica con biopsia', 'Visualización directa de lesiones en quemadura de pólvora o vesículas rojas con histología', 'Estándar de oro diagnóstico definitivo formal'],
-          say: 'La laparoscopía quirúrgica con toma de biopsia para confirmación histológica de glándulas y estroma endometrial ectópico constituye el estándar de oro diagnóstico definitivo, permitiendo resecar o vaporizar los implantes y liberar adherencias en el mismo tiempo quirúrgico.',
-        },
-      ],
-    },
-
-    {
-      type: 'flow',
-      kicker: 'Bifurcación de conducta',
-      title: 'Algoritmo Terapéutico: ¿Dolor Pélvico o Deseo de Fertilidad?',
-      nodes: [
-        { id: 'dia', col: 0, row: 1, k: 'start', t: 'Diagnóstico de Endometriosis', s: 'Clínica sugerente con o sin confirmación imagenológica o quirúrgica' },
-        { id: 'dol', col: 1, row: 0, k: 'alert', t: 'Objetivo principal: Dolor Pélvico', s: 'Paciente sin deseo reproductivo en el momento actual' },
-        { id: 'far', col: 2, row: 0, k: 'good', t: 'Tratamiento médico hormonal', s: 'Dienogest continuo, progestágenos o análogos de la GnRH' },
-        { id: 'fer', col: 1, row: 2, k: 'alert', t: 'Objetivo principal: Fertilidad', s: 'Pareja que busca embarazo activo de forma inmediata' },
-        { id: 'qui', col: 2, row: 2, k: 'good', t: 'Cirugía conservadora o FIV', s: '¡Prohibido dar hormonas! Quistectomía conservadora o fertilización in vitro' },
-      ],
-      edges: [
-        { from: 'dia', to: 'dol', label: 'síntoma: dolor' },
-        { from: 'dol', to: 'far', label: 'supresión estrogénica' },
-        { from: 'dia', to: 'fer', label: 'deseo: embarazo' },
-        { from: 'fer', to: 'qui', label: 'no dar anticonceptivos' },
-      ],
-      steps: [
-        {
-          show: ['dia', 'dol', 'far'],
-          note: 'Manejo del dolor pélvico en mujer sin deseo reproductivo',
-          say: 'Si el motivo principal de consulta es el dolor y la paciente no busca embarazo inmediato, el tratamiento de elección es médico hormonal. Buscamos inducir amenorrea e hipoestrogenismo para atrofiar los implantes mediante progestágenos continuos.',
-        },
-        {
-          show: ['dia', 'fer', 'qui'],
-          note: 'Manejo de la infertilidad: ¡prohibido dar anticonceptivos!',
-          say: 'Si la paciente consulta por infertilidad, está formalmente contraindicado prescribir anticonceptivos o progestágenos, ya que no curan las adherencias, frenan la ovulación y solo retrasan el embarazo. La conducta es la cirugía laparoscópica conservadora o la fertilización in vitro.',
-        },
+        { cells: ['Dónde está el endometrio ectópico', 'Fuera del útero: ovario, peritoneo', 'Dentro del miometrio'],
+          say: 'Pongamos todo en una tabla. La diferencia de fondo es esta: en la endometriosis el endometrio está fuera del útero; en la adenomiosis, dentro del miometrio.' },
+        { cells: ['Edad típica', 'Joven, veinte a treinta y cinco años', 'Multípara, treinta y cinco a cincuenta'],
+          say: 'La edad también cambia: joven en la endometriosis, multípara y más grande en la adenomiosis.' },
+        { cells: ['Síntoma que manda', 'Dismenorrea, dispareunia, infertilidad', 'Hipermenorrea con dismenorrea tardía'],
+          say: 'Y el síntoma que manda: dolor y dispareunia en una, sangrado abundante en la otra.' },
+        { cells: ['Examen físico', 'Útero fijo, nódulos en el Douglas', 'Útero grande, blando y difuso'],
+          say: 'Al examen, un útero fijo y nodular en la endometriosis; un útero grande y difuso, sin nódulos, en la adenomiosis.' },
+        { cells: ['Tratamiento quirúrgico', 'Cistectomía o escisión de focos', 'Histerectomía con la paridad cumplida'],
+          say: 'Y si llega a cirugía, en la endometriosis conservas el útero y sacas los focos; en la adenomiosis, con la paridad cumplida, el útero completo se va.' },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Manejo médico del dolor',
-      title: 'Tratamiento Farmacológico Escalonado del Dolor en Endometriosis',
+      kicker: 'Tratamiento de la endometriosis',
+      title: '¿Busca embarazo ahora, o no?',
       cards: [
-        {
-          title: 'Primera Línea: Progestágenos Continuos',
-          tag: 'Dienogest 2 mg al día',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Dienogest dos miligramos al día vía oral',
-              d: 'Progestágeno de cuarta generación con potente actividad antiinflamatoria y antiangiogénica',
-              say: 'El progestágeno de cuarta generación dienogest en dosis de dos miligramos al día por vía oral continua es el fármaco de primera línea de elección, inhibiendo la secreción de citocinas inflamatorias y atrofiando los implantes con alivio sintomático duradero.',
-            },
-            {
-              t: 'Dispositivo intrauterino liberador de levonorgestrel',
-              d: 'Excelente opción para dismenorrea severa y endometriosis peritoneal superficial',
-              say: 'El dispositivo intrauterino liberador de levonorgestrel es una alternativa sobresaliente para el manejo del dolor pélvico y la dismenorrea, ejerciendo una potente acción antiproliferativa local sobre el endometrio con mínimas concentraciones hormonales sistémicas.',
-            },
-          ],
-        },
-        {
-          title: 'Segunda Línea: Análogos de GnRH',
-          tag: 'Menopausia médica temporal',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Agonistas de la GnRH (Leuprolide o Goserelina)',
-              d: 'Desensibilización de receptores hipofisarios induciendo hipogonadismo hipogonadótropo profundo',
-              say: 'Los agonistas de la hormona liberadora de gonadotropinas como el acetato de leuprolide bloquean el eje reproductor induciendo una menopausia química transitoria, utilizándose como segunda línea en dolores severos rebeldes a los progestágenos.',
-            },
-            {
-              t: 'Add-back therapy obligatoria',
-              d: 'Adición de dosis bajas de estrógenos y progestágenos para proteger el hueso y reducir bochornos',
-              say: 'Cuando se prescribe un tratamiento con agonistas de GnRH prolongado por más de tres meses es mandatorio agregar terapia add-back con dosis muy bajas de estrógenos y progestágenos para neutralizar los bochornos y proteger la densidad mineral ósea.',
-            },
-          ],
-        },
+        { title: 'Si NO busca embarazo', tag: 'Dolor pélvico', kind: 'pharma', items: [
+          { t: 'Dienogest continuo', d: 'Dos miligramos al día, sin pausas',
+            say: 'Volvamos a la endometriosis, para el tratamiento. Si tu paciente no busca embarazo ahora, la primera línea es el dienogest continuo, dos miligramos al día, sin descansos.' },
+          { t: 'DIU-LNG o ACOs continuos', d: 'Buenas alternativas de primera línea',
+            say: 'Como alternativas igual de válidas en primera línea, tienes el DIU con levonorgestrel, o anticonceptivos combinados en pauta continua, sin la semana de descanso.' },
+          { t: 'Análogos de GnRH', d: 'Máximo seis meses',
+            say: 'Si nada de eso responde, subes a análogos de GnRH, pero solo por seis meses, porque desmineralizan el hueso.' },
+        ] },
+        { title: 'Si SÍ busca embarazo', tag: 'Ojo con la trampa', kind: 'alert', items: [
+          { t: 'Las hormonas no ayudan aquí', d: 'Solo retrasan la búsqueda',
+            say: 'Pero si busca embarazo, cambia todo: ninguna de esas hormonas mejora la fertilidad. Dárselas solo le hace perder tiempo reproductivo.' },
+          { t: 'Cirugía conservadora o FIV', d: 'Según el tamaño del endometrioma',
+            say: 'Lo que corresponde es cirugía laparoscópica conservadora, o derivar directo a fertilización in vitro. Y eso depende del tamaño del endometrioma, que vamos a ver ahora en el árbol de decisión.' },
+        ] },
       ],
     },
 
     {
       type: 'points',
-      kicker: 'Regla de oro de fertilidad',
-      title: 'Infertilidad y Endometriosis: por qué las hormonas no sirven',
+      kicker: 'Cirugía',
+      title: '¿Cuándo operas a la que no busca embarazo?',
       cards: [
-        {
-          title: 'Incompatibilidad de Hormonas con la Fertilidad',
-          tag: 'Concepto clave EUNACOM',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Las hormonas no mejoran las tasas de embarazo',
-              d: 'Los anticonceptivos combinados o progestágenos suspenden la ovulación sin resolver adherencias',
-              say: 'La evidencia científica ha demostrado de forma contundente que la supresión médica ovárica con anticonceptivos orales o progestágenos no mejora en absoluto las tasas de embarazo ni de nacidos vivos tras suspender la medicación.',
-            },
-            {
-              t: 'Pérdida de tiempo reproductivo valioso',
-              d: 'Retrasa innecesariamente el tratamiento de fertilidad en mujeres con reserva ovárica decreciente',
-              say: 'Indicar tratamiento hormonal a una paciente con endometriosis y deseo de fertilidad constituye un error grave: bloquea la ovulación sin resolver las adherencias pélvicas y retrasa el acceso oportuno a técnicas de reproducción asistida.',
-            },
-          ],
-        },
-        {
-          title: 'Conducta Correcta ante Infertilidad',
-          tag: 'Cirugía conservadora y reproducción asistida',
-          kind: 'key',
-          items: [
-            {
-              t: 'Cistectomía ovárica laparoscópica conservadora',
-              d: 'Extirpación de la cápsula del endometrioma preservando el tejido ovárico sano circundante',
-              say: 'En presencia de endometriomas ováricos de más de tres a cuatro centímetros la conducta indicada es la cistectomía laparoscópica meticulosa, disecando la pared del quiste con preservación máxima del estroma ovárico sano y liberando las adherencias tubáricas.',
-            },
-            {
-              t: 'Fertilización In Vitro (FIV)',
-              d: 'Técnica de reproducción asistida de alta complejidad de primera elección en daño tubárico severo',
-              say: 'En pacientes con distorsión pélvica anatómica severa, daño tubárico bilateral irreversible o reserva ovárica disminuida, la fertilización in vitro es la técnica de reproducción asistida de alta complejidad con mayor efectividad demostrada.',
-            },
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'flow',
-      kicker: 'Patología miometrial',
-      title: 'Adenomiosis Uterina: invasión endometrial ectópica en el miometrio',
-      nodes: [
-        { id: 'uni', col: 0, row: 1, k: 'start', t: 'Ruptura de la unión endometrio-miometrio', s: 'Trauma mecánico por partos múltiples legrados o cesáreas previas' },
-        { id: 'inv', col: 1, row: 1, k: 'mech', t: 'Migración glandular al espesor muscular', s: 'Glándulas y estroma endometrial penetran más de dos punto cinco milímetros' },
-        { id: 'hip', col: 2, row: 1, k: 'effect', t: 'Hipertrofia miometrial concéntrica', s: 'El miometrio reacciona engrosándose difusamente dando aspecto globuloso' },
-        { id: 'san', col: 3, row: 0, k: 'trap', t: 'Hipermenorrea y dismenorrea severa', s: 'Falla en la contracción hemostática miometrial durante la menstruación' },
-        { id: 'ute', col: 3, row: 2, k: 'alert', t: 'Útero aumentado simétrico y blando', s: 'Hallazgo semiológico clásico de útero aumentado difusamente a 10 a 12 semanas' },
-      ],
-      edges: [
-        { from: 'uni', to: 'inv', label: 'microtrauma' },
-        { from: 'inv', to: 'hip', label: 'infiltración' },
-        { from: 'hip', to: 'san', label: 'disfunción vascular' },
-        { from: 'hip', to: 'ute', label: 'crecimiento difuso' },
-      ],
-      steps: [
-        {
-          show: ['uni', 'inv', 'hip'],
-          note: 'Invasión profunda de la unión endometrial-miometrial',
-          say: 'La adenomiosis se origina cuando la barrera de la zona de unión endometrio-miometrial se rompe, habitualmente por legrados, cesáreas o multiparidad. Las glándulas y estroma endometrial invaden el espesor del miometrio, induciendo una hipertrofia muscular reactiva compensatoria.',
-        },
-        {
-          show: ['san', 'ute'],
-          note: 'Trastorno hemorrágico y semiología del útero adenomiósico',
-          say: 'Este miometrio infiltrado y desorganizado pierde su capacidad de contracción fisiológica hemostática, manifestándose típicamente por sangrado uterino abundante o hipermenorrea y dismenorrea en multíparas de más de cuarenta años con un útero difusamente aumentado y blando.',
-        },
-      ],
-    },
-
-    {
-      type: 'table',
-      kicker: 'Contraste nosológico',
-      title: 'Contraste Clínico y Anatomopatológico: Endometriosis vs Adenomiosis',
-      head: ['Parámetro de comparación', 'Endometriosis Externa', 'Adenomiosis Uterina'],
-      rows: [
-        {
-          cells: ['Localización anatómica', 'Fuera del útero: ovarios, peritoneo pelviano, ligamentos uterosacros y tabique', 'Dentro del espesor del miometrio uterino con hipertrofia muscular'],
-          say: 'La endometriosis se localiza fuera del útero en peritoneo y ovarios; la adenomiosis se confina exclusivamente al interior del espesor de la pared muscular uterina.',
-        },
-        {
-          cells: ['Perfil epidemiológico típico', 'Mujeres jóvenes de 20 a 35 años, nulíparas con dolor severo e infertilidad', 'Multíparas de 40 a 50 años con partos previos y antecedentes de legrados'],
-          say: 'La endometriosis afecta típicamente a mujeres jóvenes en busca de fertilidad; la adenomiosis se presenta clásicamente en multíparas mayores de cuarenta años.',
-        },
-        {
-          cells: ['Signo semiológico cardinal', 'Útero en retroversoflexión fija con nódulos dolorosos en fondo de saco', 'Útero uniformemente aumentado de tamaño de 10 a 12 semanas, globuloso y blando'],
-          say: 'La endometriosis fija el útero en retroversión dolorosa con nódulos pelvianos; la adenomiosis genera un útero globuloso, blando y simétricamente aumentado de volumen.',
-        },
-        {
-          cells: ['Tratamiento definitivo', 'Laparoscopía quirúrgica y técnicas de reproducción asistida', 'Histerectomía total en paridad cumplida o dispositivo intrauterino liberador de levonorgestrel'],
-          say: 'La endometriosis requiere cirugía conservadora o fertilización in vitro; la adenomiosis refractaria se cura de forma definitiva mediante histerectomía total.',
-        },
-      ],
-    },
-
-    {
-      type: 'points',
-      kicker: 'Estudio y tratamiento',
-      title: 'Diagnóstico Ecográfico y Manejo Terapéutico de la Adenomiosis',
-      cards: [
-        {
-          title: 'Signos Ecográficos Transvaginales',
-          tag: 'Criterios MUSA',
-          kind: 'criteria',
-          items: [
-            {
-              t: 'Asimetría de paredes miometriales',
-              d: 'Engrosamiento marcado de la pared posterior con aspecto heterogéneo y globuloso',
-              say: 'La ecografía ginecológica transvaginal revela una asimetría miometrial característica, evidenciando un engrosamiento heterogéneo prominente de la pared miometrial posterior respecto a la pared anterior, con pérdida de la definición neta de la interfase endometrial.',
-            },
-            {
-              t: 'Estriaciones lineales y microquistes miometriales',
-              d: 'Presencia de lagunas anecoicas subendometriales de uno a cinco milímetros con sombras en abanico',
-              say: 'El parénquima miometrial muestra múltiples microquistes anecoicos de uno a cinco milímetros rodeados de halos hiperecogénicos, acompañados de estriaciones lineales subendometriales divergentes y sombras acústicas en abanico típicas de la adenomiosis.',
-            },
-          ],
-        },
-        {
-          title: 'Estrategia Terapéutica Escalonada',
-          tag: 'Médico vs Quirúrgico',
-          kind: 'pharma',
-          items: [
-            {
-              t: 'Dispositivo intrauterino con Levonorgestrel',
-              d: 'Tratamiento médico de primera línea que reduce el sangrado y el dolor en más del 80%',
-              say: 'El dispositivo intrauterino con levonorgestrel es el tratamiento médico de primera línea de elección para la adenomiosis, logrando atrofia endometrial y disminuyendo el sangrado.',
-            },
-            {
-              t: 'Histerectomía total en paridad cumplida',
-              d: 'Único tratamiento curativo definitivo para mujeres con síntomas severos refractarios',
-              say: 'En mujeres con paridad cumplida y síntomas severos refractarios al tratamiento médico, la histerectomía total constituye el único tratamiento curativo definitivo.',
-            },
-          ],
-        },
+        { title: 'Indicaciones quirúrgicas', tag: 'No es la primera opción', kind: 'criteria', items: [
+          { t: 'Endometrioma grande', d: 'Cuatro centímetros o más',
+            say: 'Aunque no busque embarazo, hay indicaciones para operar. La primera es un endometrioma de cuatro centímetros o más, o que duele a pesar del tratamiento.' },
+          { t: 'Dolor refractario', d: 'Tras al menos dos líneas médicas',
+            say: 'La segunda es el dolor que no cede después de probar al menos dos líneas de tratamiento hormonal.' },
+          { t: 'Compromiso de uréter o intestino', d: 'Enfermedad profunda infiltrante',
+            say: 'Y la tercera, cuando la enfermedad profunda comprime el uréter o el intestino: ahí la cirugía deja de ser electiva y se vuelve necesaria.' },
+        ] },
       ],
     },
 
     {
       type: 'pathway',
-      kicker: 'Algoritmo de decisión clínica',
-      title: 'Algoritmo Clínico de Manejo Escalonado de la Sospecha de Endometriosis',
-      say: 'Revisemos el algoritmo estructurado para el diagnóstico y tratamiento de la paciente con dolor pélvico cíclico o infertilidad.',
+      intro: 'Juntemos endometriosis y adenomiosis en un solo árbol de decisión.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Lo que más se confunde en el examen',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Dolor típico, sin deseo de embarazo', 'Dienogest continuo', 'Pedir laparoscopía de entrada'],
+          say: 'Repasemos las trampas. Dolor típico, sin deseo de embarazo: dienogest continuo. El error es saltar directo a la laparoscopía.' },
+        { cells: ['Quiste en vidrio esmerilado, sin papilas', 'Es un endometrioma benigno', 'Pensar en cáncer y operar de urgencia'],
+          say: 'Un quiste en vidrio esmerilado, sin papilas: es un endometrioma benigno. El error es asustarse y pensar en cáncer.' },
+        { cells: ['Útero grande, blando y difuso', 'Sospechar adenomiosis', 'Confundirlo con miomatosis'],
+          say: 'Útero grande, blando y difuso, sin nódulos: sospecha adenomiosis. El error clásico es llamarlo miomatosis.' },
+        { cells: ['Busca embarazo con endometrioma grande', 'Cirugía conservadora o FIV', 'Dar solo tratamiento hormonal'],
+          say: 'Si busca embarazo y el endometrioma es grande: cirugía conservando el ovario, o FIV. El error es dar solo hormonas y hacerla esperar.' },
+        { cells: ['Adenomiosis con paridad cumplida', 'Histerectomía si falla el DIU', 'Insistir en tratamiento médico indefinido'],
+          say: 'Y adenomiosis con la paridad ya cumplida: si falla el DIU, histerectomía. El error es seguir insistiendo con fármacos para siempre.' },
+      ],
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Endometriosis y Dolor Pélvico · Tratamiento Farmacológico',
-      stem: 'Una paciente de 26 años consulta por dismenorrea secundaria severa que le impide asistir al trabajo durante sus menstruaciones, dispareunia profunda y dispareunia al defecar (disquecia) durante los días de sangrado. Al tacto bimanual se palpa el útero en retroversoflexión fija con gran sensibilidad en los ligamentos uterosacros. La ecografía ginecológica muestra un quiste ovárico derecho de 3.5 cm con ecos internos homogéneos de bajo nivel en vidrio esmerilado. La paciente no desea embarazo en la actualidad.',
-      question: '¿Cuál es el tratamiento farmacológico oral de primera línea de elección para el control de sus síntomas dolorosos?',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Mujer de 27 años, nuligesta, consulta por dismenorrea intensa de 3 años que ha empeorado progresivamente y no cede con ibuprofeno. Además tiene dispareunia profunda y lleva 18 meses buscando embarazo sin éxito. Al examen: útero en retroversión fija, con nódulos dolorosos en el fondo de saco de Douglas. La ecografía muestra en el ovario izquierdo un quiste de 4,2 cm con contenido homogéneo en vidrio esmerilado, sin papilas ni Doppler.',
+      question: '¿Cuál es la conducta más adecuada?',
       options: [
-        { letter: 'A', text: 'Paracetamol 500 mg cada 12 horas solo durante el sangrado' },
-        { letter: 'B', text: 'Dienogest 2 mg al día por vía oral de forma continua' },
-        { letter: 'C', text: 'Metotrexato intramuscular a dosis única' },
-        { letter: 'D', text: 'Citrato de Clomifeno oral por 5 días cada mes' },
-        { letter: 'E', text: 'Terapia de reemplazo hormonal con estrógenos equinos solos' },
+        { letter: 'A', text: 'Iniciar dienogest 2 mg al día en forma continua' },
+        { letter: 'B', text: 'Derivar a cirugía laparoscópica conservadora o a fertilización in vitro' },
+        { letter: 'C', text: 'Indicar análogos de GnRH por 6 meses y reevaluar' },
+        { letter: 'D', text: 'Iniciar anticonceptivos orales combinados en forma continua' },
+        { letter: 'E', text: 'Controlar con ecografía en 6 meses, sin tratamiento' },
       ],
       correct: 'B',
-      explanation: 'La paciente presenta una endometriosis sintomática clásica con endometrioma ovárico y compromiso del tabique/ligamentos uterosacros (tríada: dismenorrea secundaria severa, dispareunia profunda y disquecia catamenial). Al no existir deseo de embarazo inmediato, el tratamiento médico de primera línea para el control del dolor y la supresión de los implantes endometriósicos es el uso continuo de progestágenos orales de cuarta generación, siendo DIENOGEST 2 mg al día por vía oral el fármaco de elección con mayor respaldo de eficacia y tolerabilidad clínica.',
+      explanation: 'El cuadro es endometriosis con endometrioma mayor a 4 cm, y la paciente busca embarazo desde hace 18 meses. El tratamiento hormonal no mejora la fertilidad y solo retrasa la búsqueda; la conducta es cirugía conservadora o derivación a técnicas de reproducción asistida.',
       say: {
-        stem: 'Una paciente de veintiséis años presenta dismenorrea severa incapacitante, dispareunia profunda, disquecia y ecografía con quiste ovárico en vidrio esmerilado sin deseo reproductivo.',
-        question: '¿Cuál es el tratamiento farmacológico oral de primera línea de elección para sus síntomas dolorosos?',
-        options: 'La opción A propone paracetamol solo en la menstruación. La B dienogest dos miligramos al día por vía oral de forma continua. La C metotrexato. La D citrato de clomifeno. La E estrógenos solos. Piénsalo.',
-        answer: 'La respuesta correcta es la B. En una paciente con endometriosis y dolor sin deseo gestacional, el dienogest dos miligramos al día continuo es el tratamiento oral de primera línea de elección.',
+        stem: 'Vamos con el caso. Mujer de veintisiete años, nuligesta, con dismenorrea intensa de tres años que ha empeorado y no cede con ibuprofeno. Además tiene dispareunia profunda y lleva dieciocho meses buscando embarazo sin éxito. Al examen, útero fijo en retroversión, con nódulos dolorosos en el Douglas. La ecografía muestra en el ovario izquierdo un quiste de cuatro coma dos centímetros, homogéneo, en vidrio esmerilado, sin papilas ni Doppler.',
+        question: '¿Cuál es la conducta más adecuada?',
+        options: 'Tienes cinco opciones: iniciar dienogest continuo, derivar a cirugía conservadora o a fertilización in vitro, indicar análogos de GnRH por seis meses, iniciar anticonceptivos combinados continuos, o solo controlar con ecografía. Piénsalo.',
+        answer: 'Es la B. Fíjate en el dato que cambia todo: lleva dieciocho meses buscando embarazo. Con endometrioma mayor a cuatro centímetros y deseo de fertilidad, ninguna hormona ayuda: dienogest, GnRH y anticonceptivos combinados quedan descartados porque solo retrasan la búsqueda. Lo que corresponde es cirugía conservadora del ovario, o derivación directa a reproducción asistida.',
       },
     },
 
     {
       type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Diagnóstico Ecográfico de Endometrioma Ovárico',
-      stem: 'Una mujer de 30 años, con antecedente de dolor pélvico crónico e infertilidad primaria de 2 años, se somete a una ecografía transvaginal que revela un quiste ovárico de 5 cm de diámetro de pared delgada, regular, con ecogenicidad interna difusa y homogénea de bajo nivel (aspecto en vidrio esmerilado), sin flujo Doppler al interior y sin excrecencias papilares.',
-      question: '¿Cuál es el diagnóstico más probable de esta lesión ovárica?',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2025 · Pregunta 54',
+      stem: 'Mujer de 38 años con dismenorrea severa, dispareunia profunda y menometrorragia. La ecografía transvaginal muestra un útero aumentado de tamaño con ecotextura heterogénea, sin miomas definidos.',
+      question: '¿Cuál es el diagnóstico más probable?',
       options: [
-        { letter: 'A', text: 'Cistoadenocarcinoma seroso de ovario' },
+        { letter: 'A', text: 'Endometriosis' },
+        { letter: 'B', text: 'Pólipo endometrial' },
+        { letter: 'C', text: 'Hiperplasia endometrial' },
+        { letter: 'D', text: 'Mioma uterino intramural' },
+        { letter: 'E', text: 'Adenomiosis' },
+      ],
+      correct: 'E',
+      explanation: 'El útero aumentado de tamaño de forma difusa, con ecotextura heterogénea y sin miomas definidos, junto con menometrorragia y dismenorrea, es el cuadro clásico de adenomiosis: endometrio ectópico dentro del miometrio.',
+      say: {
+        stem: 'Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y ocho años con dismenorrea severa, dispareunia profunda y sangrado menstrual abundante e irregular. La ecografía transvaginal muestra un útero aumentado de tamaño, con la textura heterogénea, y sin ningún mioma definido.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones son: endometriosis, pólipo endometrial, hiperplasia endometrial, mioma intramural, o adenomiosis.',
+        answer: 'La respuesta es la E, adenomiosis. Fíjate en la trampa: la dispareunia y la dismenorrea te tientan a marcar endometriosis, pero el hallazgo clave es el útero aumentado de tamaño de forma difusa y heterogénea, sin masa focal. Eso es adenomiosis, no endometriosis: en esta última, el útero al examen suele ser de tamaño normal.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 10',
+      stem: 'Mujer de 32 años consulta por dismenorrea de 2 años, progresiva. Al examen ginecológico se palpa un tumor anexial derecho. La ecografía transvaginal muestra un tumor ovárico derecho de 6,5 cm, quístico, en vidrio esmerilado. Su Ca-125 resulta 86 UI/L (normal menor a 35).',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Carcinoma epitelial de ovario' },
         { letter: 'B', text: 'Endometrioma ovárico' },
-        { letter: 'C', text: 'Teratoma quístico maduro (quiste dermoide)' },
-        { letter: 'D', text: 'Quiste folicular simple funcional' },
-        { letter: 'E', text: 'Absceso tubo-ovárico roto' },
+        { letter: 'C', text: 'Teratoma maduro' },
+        { letter: 'D', text: 'Disgerminoma ovárico' },
+        { letter: 'E', text: 'Quiste folicular' },
       ],
       correct: 'B',
-      explanation: 'El patrón ecográfico descrito (quiste de pared regular y delgada, con contenido interno homogéneo difuso de baja ecogenicidad conocido clásicamente como patrón en vidrio esmerilado, en ausencia de papilas sólidas y sin vascularización interna al Doppler) en una mujer joven con clínica de dolor pélvico e infertilidad es PATOGNOMÓNICO de un Endometrioma Ovárico (quiste de chocolate). Los tumores malignos presentan vegetaciones y septos vascularizados, el teratoma ecos hiperecogénicos densos con sombra acústica y el quiste folicular es anecoico puro.',
+      explanation: 'La imagen en vidrio esmerilado, en una mujer joven con dismenorrea progresiva, corresponde a un endometrioma ovárico. El Ca-125 elevado no descarta esto: también se eleva en procesos peritoneales benignos como la endometriosis, no solo en el cáncer.',
       say: {
-        stem: 'Una mujer de treinta años con dolor pélvico crónico presenta ecografía transvaginal con quiste ovárico de cinco centímetros y contenido homogéneo en vidrio esmerilado sin flujo Doppler.',
-        question: '¿Cuál es el diagnóstico más probable de esta lesión ovárica?',
-        options: 'La opción A plantea cistoadenocarcinoma seroso. La B endometrioma ovárico. La C teratoma quístico maduro dermoide. La D quiste folicular simple. La E absceso tubo-ovárico. Piénsalo.',
-        answer: 'La respuesta correcta es la B. La presencia de ecos homogéneos de bajo nivel en vidrio esmerilado sin vascularización interna es la imagen ecográfica patognomónica del endometrioma ovárico.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Endometriosis e Infertilidad · Prohibición Hormonal',
-      stem: '¿Por qué razón farmacológica el tratamiento médico hormonal con anticonceptivos orales combinados o progestágenos continuos NO está indicado como tratamiento de la infertilidad en una paciente con endometriosis que busca activamente un embarazo?',
-      question: 'Seleccione el fundamento clínico correcto:',
-      options: [
-        { letter: 'A', text: 'Porque son teratogénicos irreversibles para cualquier ovocito futuro' },
-        { letter: 'B', text: 'Porque suprimen la ovulación y no mejoran fertilidad ni nacidos vivos tras suspenderlos' },
-        { letter: 'C', text: 'Porque causan oclusión tubárica bilateral irreversible por fibrosis' },
-        { letter: 'D', text: 'Porque aumentan la incidencia de embarazo molar recurrente' },
-        { letter: 'E', text: 'Porque aceleran la apoptosis de la reserva folicular ovárica' },
-      ],
-      correct: 'B',
-      explanation: 'La evidencia científica y las guías clínicas de reproducción humana (ESHRE / ASRM) han establecido categóricamente que la supresión médica hormonal ovárica (con anticonceptivos, progestágenos, dienogest o agonistas de GnRH) NO erradica las adherencias anatómicas ni mejora las tasas de gestación ni de recién nacidos vivos una vez suspendidos los fármacos. Además, al suprimir la ovulación actúan como anticonceptivos, retrasando innecesariamente la fertilidad en mujeres cuya reserva ovárica disminuye progresivamente. Ante infertilidad la indicación es la cirugía conservadora o la fertilización in vitro.',
-      say: {
-        stem: 'Se pregunta por qué razón farmacológica el tratamiento médico hormonal con anticonceptivos o progestágenos no está indicado ante infertilidad en una paciente con endometriosis.',
-        question: '¿Cuál es el fundamento clínico correcto?',
-        options: 'La opción A afirma que son teratogénicos. La B que suprimen la ovulación sin mejorar las tasas de embarazo ni nacidos vivos retrasando la búsqueda. La C que ocluyen trompas. La D mola. La E apoptosis ovárica. Piénsalo.',
-        answer: 'La respuesta correcta es la B. Los tratamientos hormonales bloquean la ovulación y no mejoran la fertilidad tras suspenderlos, haciendo perder tiempo reproductivo valioso.',
-      },
-    },
-
-    {
-      type: 'quiz',
-      kicker: 'EUNACOM Módulo 3',
-      title: 'Adenomiosis Uterina · Diagnóstico Histopatológico',
-      stem: 'Una paciente de 42 años, multípara de 3, consulta por hipermenorrea severa y dismenorrea secundaria progresiva. Al examen físico se palpa un útero aumentado de tamaño difusamente de 11 semanas, simétrico, reblandecido y difusamente doloroso al tacto bimanual. La ecografía transvaginal muestra engrosamiento asimétrico del miometrio posterior con estriaciones lineales y microquistes miometriales. La biopsia endometrial es benigna. Tras fallar el tratamiento médico, se decide una histerectomía total.',
-      question: '¿Qué hallazgo anatomopatológico confirmará el diagnóstico definitivo?',
-      options: [
-        { letter: 'A', text: 'Glándulas y estroma endometrial ectópicos en el espesor del miometrio' },
-        { letter: 'B', text: 'Proliferación clonal de células fusiformes de músculo liso miometrial' },
-        { letter: 'C', text: 'Infiltración estromal por células mesenquimatosas malignas con atipias' },
-        { letter: 'D', text: 'Pólipo vascular fibroepitelial endocervical' },
-        { letter: 'E', text: 'Tejido decidual ectópico confinado exclusivamente a la serosa peritoneal' },
-      ],
-      correct: 'A',
-      explanation: 'El cuadro clínico (mujer multípara de más de 40 años con hipermenorrea severa, dismenorrea progresiva y un útero globuloso, aumentado simétricamente de tamaño y blando a la palpación) sumado a los signos ecográficos (asimetría miometrial con microquistes y estriaciones lineales) es diagnóstico inequívoco de Adenomiosis Uterina. La confirmación histopatológica definitiva se establece al demostrar la presencia de glándulas y estroma endometrial benignos ectópicos embebidos dentro del espesor del miometrio, acompañados de hipertrofia concéntrica de las fibras musculares lisas adyacentes.',
-      say: {
-        stem: 'Una multípara de cuarenta y dos años presenta hipermenorrea, dismenorrea y útero difusamente aumentado y blando con microquistes ecográficos tras histerectomía.',
-        question: '¿Qué hallazgo anatomopatológico confirmará el diagnóstico definitivo?',
-        options: 'La opción A propone glándulas y estroma endometrial ectópicos en el espesor del miometrio. La B leiomioma con células fusiformes. La C leiomiosarcoma. La D pólipo fibroepitelial. La E tejido en la serosa. Piénsalo.',
-        answer: 'La respuesta correcta es la A. La presencia de glándulas y estroma endometrial ectópico en el espesor del miometrio define anatomopatológicamente la adenomiosis.',
+        stem: 'Y otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de treinta y dos años con dismenorrea progresiva de dos años. Al examen se palpa un tumor anexial derecho, y la ecografía muestra un quiste ovárico derecho de seis coma cinco centímetros, en vidrio esmerilado. Su Ca ciento veinticinco sale en ochenta y seis, sobre el valor normal.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: carcinoma epitelial, endometrioma ovárico, teratoma maduro, disgerminoma, o quiste folicular.',
+        answer: 'Es la B, endometrioma ovárico. Y aquí está la trampa: el Ca ciento veinticinco elevado te tienta hacia el cáncer, pero ese marcador también sube en la endometriosis, porque es un proceso inflamatorio peritoneal. La imagen manda: vidrio esmerilado, sin papilas, en una mujer joven con dismenorrea progresiva, es endometrioma.',
       },
     },
 
     {
       type: 'points',
-      kicker: 'Reglas de oro EUNACOM',
-      title: 'Conceptos Clave de Endometriosis y Adenomiosis para el EUNACOM',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
       cards: [
-        {
-          title: 'Endometriosis: Tríada y Manejo',
-          tag: 'Dienogest vs Fertilidad',
-          kind: 'key',
-          items: [
-            {
-              t: 'Tríada de dismenorrea, dispareunia e infertilidad',
-              d: 'Asociada a útero en retroversión fija y quistes ováricos en vidrio esmerilado',
-              say: 'La tríada clásica de dismenorrea secundaria severa, dispareunia profunda e infertilidad orienta de inmediato a endometriosis, sustentándose en el hallazgo ecográfico patognomónico de endometrioma en vidrio esmerilado sin flujo Doppler.',
-            },
-            {
-              t: 'Dienogest para dolor; hormonas prohibidas en fertilidad',
-              d: 'El tratamiento hormonal atrofia implantes pero suspende la ovulación',
-              say: 'El manejo del dolor pélvico se basa en dienogest dos miligramos al día continuo; por el contrario, ante infertilidad las terapias hormonales están contraindicadas debiendo plantearse cistectomía laparoscópica o fertilización in vitro.',
-            },
-          ],
-        },
-        {
-          title: 'Adenomiosis: Perfil y Tratamiento',
-          tag: 'Multípara mayor de 40 años',
-          kind: 'alert',
-          items: [
-            {
-              t: 'Útero aumentado simétrico, blando y doloroso',
-              d: 'Invasión miometrial con microquistes ecográficos en multíparas con hipermenorrea',
-              say: 'La adenomiosis se presenta clásicamente en multíparas mayores de cuarenta años con hipermenorrea severa y útero aumentado de tamaño en forma simétrica, globuloso y reblandecido al examen físico bimanual.',
-            },
-            {
-              t: 'DIU con Levonorgestrel o histerectomía',
-              d: 'Manejo médico de elección con DIU-LNG o extirpación uterina curativa definitiva',
-              say: 'El dispositivo con levonorgestrel es el tratamiento médico de primera línea en adenomiosis. Si te llevas una sola idea de hoy: ante útero globuloso doloroso y sangrado abundante, el dispositivo intrauterino con levonorgestrel es la mejor opción médica y la histerectomía la solución definitiva. Nos vemos en la próxima clase.',
-            },
-          ],
-        },
+        { title: 'Diferéncialas', tag: 'Dónde está el endometrio', kind: 'key', items: [
+          { t: 'Fuera del útero: endometriosis', d: 'Joven, dolor y nódulos fijos',
+            say: 'Cerremos. Si el endometrio está fuera del útero, es endometriosis: mujer joven, dolor, útero fijo y nodular.' },
+          { t: 'Dentro del miometrio: adenomiosis', d: 'Multípara, sangrado y útero difuso',
+            say: 'Si está dentro del miometrio, es adenomiosis: multípara, sangrado abundante y útero grande sin nódulos.' },
+        ] },
+        { title: 'Tratamiento', tag: 'La pregunta que decide todo', kind: 'pharma', items: [
+          { t: '¿Busca embarazo ahora?', d: 'Cambia toda la conducta',
+            say: 'En la endometriosis, la pregunta que decide el tratamiento es si busca embarazo ahora. Las hormonas tratan el dolor, nunca la infertilidad.' },
+          { t: 'Adenomiosis: DIU, luego histerectomía', d: 'Curativa con paridad cumplida',
+            say: 'Y en la adenomiosis, empiezas con el DIU medicado, y si falla, con paridad cumplida, la histerectomía es curativa.' },
+        ] },
+        { title: 'Última idea', tag: 'Para el examen', kind: 'alert', items: [
+          { t: 'Vidrio esmerilado no es cáncer', d: 'Aunque suba el Ca-125',
+            say: 'Si te llevas una sola idea de hoy: un quiste en vidrio esmerilado, sin papilas, es endometrioma, aunque el Ca ciento veinticinco esté alto. Nos vemos en la próxima clase.' },
+        ] },
       ],
     },
   ],
 
   pathway: {
-    title: 'Algoritmo Clínico de Manejo Escalonado de la Sospecha de Endometriosis',
-    root: N(
-      'start',
-      'Sospecha Clínica de Endometriosis',
-      'Dismenorrea secundaria progresiva, dispareunia profunda, dolor pélvico crónico o infertilidad',
-      'Evaluamos a la paciente con sospecha de endometriosis identificando su motivo principal de consulta.',
-      [
-        'Examen ginecológico y Ecografía Transvaginal Especializada',
-        N(
-          'q',
-          'Hallazgos Imagenológicos y Clínicos',
-          'Presencia de endometriomas en vidrio esmerilado o nódulos dolorosos en fondo de saco',
-          'Realizamos ecografía transvaginal para evaluar la presencia de endometriomas ováricos en vidrio esmerilado.',
-          [
-            'Motivo principal: Dolor Pélvico (Sin deseo gestacional actual)',
-            N(
-              'do',
-              'Tratamiento Médico Hormonal de Primera Línea',
-              'Dienogest 2 mg al día vía oral continuo o DIU liberador de levonorgestrel',
-              'Si el objetivo es controlar el dolor iniciamos dienogest dos miligramos al día en pauta continua.',
-              [
-                'Persistencia de dolor severo refractario a progestágenos',
-                N(
-                  'alert',
-                  'Laparoscopía Quirúrgica y Análogos de GnRH',
-                  'Resección quirúrgica de implantes o análogos de GnRH con terapia add-back',
-                  'Ante refractariedad pasamos a análogos de la GnRH con terapia protectora o laparoscopía.',
-                ),
-              ],
-            ),
-          ],
-          [
-            'Motivo principal: Búsqueda Activa de Embarazo (Infertilidad)',
-            N(
-              'alert',
-              '¡Prohibido Tratamiento Médico Hormonal!',
-              'No utilizar anticonceptivos orales ni progestágenos · derivar a medicina reproductiva',
-              'Si la paciente busca fertilidad las hormonas están contraindicadas porque suprimen la ovulación.',
-              [
-                'Endometrioma mayor a tres centímetros o distorsión tubárica',
-                N(
-                  'do',
-                  'Laparoscopía Quirúrgica Conservadora o FIV',
-                  'Cistectomía respetando la corteza ovárica sana o Fertilización In Vitro de alta complejidad',
-                  'Procedemos a quistectomía laparoscópica conservadora o fertilización in vitro de alta complejidad.',
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
+    title: 'Endometriosis y adenomiosis: qué decide la conducta',
+    root: N('start', 'Sospecha por la clínica', 'Dismenorrea, dispareunia, sangrado o infertilidad',
+      'Partamos de la sospecha clínica. Lo primero es decidir qué enfermedad es más probable, según lo que cuenta la paciente.',
+      ['', N('q', '¿El útero está fijo y nodular, o grande y difuso?', 'Eso separa las dos enfermedades',
+        'La pregunta que ordena todo: ¿el útero está fijo, con nódulos dolorosos, o está aumentado de tamaño de forma difusa y blanda?',
+        ['Fijo y nodular, joven', N('q', '¿Busca embarazo ahora?', 'Endometriosis',
+          'Si es fijo y nodular, en una mujer joven, piensa en endometriosis. Y aquí la pregunta clave es si busca embarazo ahora.',
+          ['No busca embarazo', N('do', 'Dienogest continuo', 'Luego análogos de GnRH si no responde',
+            'Si no busca embarazo, dienogest continuo, dos miligramos al día. Si no responde, análogos de GnRH por máximo seis meses.')],
+          ['Sí busca embarazo', N('q', '¿Endometrioma mayor a cuatro centímetros?', 'Nunca uses hormonas para la fertilidad',
+            'Si busca embarazo, olvida las hormonas: no mejoran la fertilidad. Pregúntate el tamaño del endometrioma.',
+            ['Sí, mayor a cuatro', N('do', 'Cistectomía laparoscópica conservando la corteza', 'O derivar a FIV',
+              'Con un endometrioma grande, cistectomía laparoscópica conservando la corteza sana, o derivación directa a fertilización in vitro.')],
+            ['No, o sin endometrioma', N('do', 'Deriva a técnicas de reproducción asistida', 'Sin retrasar más el tiempo reproductivo',
+              'Sin endometrioma grande, deriva igual a técnicas de reproducción asistida: no hay tiempo que perder.')])] )],
+        ['Grande y difuso, multípara', N('q', '¿Ya cumplió su paridad?', 'Adenomiosis',
+          'Si el útero está aumentado de tamaño de forma difusa y blanda, en una multípara con sangrado abundante, es adenomiosis. Pregúntate si ya cumplió su paridad.',
+          ['No la ha cumplido', N('do', 'DIU con levonorgestrel', 'Más antiinflamatorios y ácido tranexámico',
+            'Si aún no cumple su paridad, DIU con levonorgestrel, antiinflamatorios y ácido tranexámico para el sangrado.')],
+          ['Sí, y falla el tratamiento médico', N('ok', 'Histerectomía', 'Curativa y definitiva',
+            'Si ya cumplió su paridad y el tratamiento médico falla, la histerectomía es curativa y definitiva.')])])]),
   },
 };
