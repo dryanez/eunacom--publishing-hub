@@ -41,7 +41,7 @@ module.exports = {
       title: 'La ventana de oportunidad',
       nodes: [
         { id: 'sint', col: 0, row: 1, k: 'start', t: 'Síntomas climatéricos', s: 'Que afectan la calidad de vida' },
-        { id: 'vent', col: 1, row: 1, k: 'q', t: '¿Está en la ventana?', s: 'Menos de 60 años o menos de 10 desde la menopausia' },
+        { id: 'vent', col: 1, row: 1, k: 'q', t: '¿Está en la ventana?', s: 'Menos de 60 años, o menos de 10 postmenopausia' },
         { id: 'si', col: 2, row: 0, k: 'good', t: 'Beneficio claro', s: 'Cardiovascular y óseo' },
         { id: 'no', col: 2, row: 2, k: 'alert', t: 'Riesgo aumenta', s: 'Más eventos coronarios y ACV' },
       ],

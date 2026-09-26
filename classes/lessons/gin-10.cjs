@@ -19,7 +19,7 @@ module.exports = {
       title: 'Quiste: una masa que no duele',
       cards: [
         { title: 'Mecanismo y clínica', tag: 'Estéril, sin inflamación', kind: 'criteria', items: [
-          { t: 'A las 4 u 8 del reloj', d: 'Tercio posterior del labio mayor',
+          { t: 'A las 4 u 8', d: 'Tercio posterior del labio mayor',
             say: 'Empecemos por el quiste. La glándula de Bartolino está a los dos lados del introito, en las posiciones de las cuatro y las ocho del reloj. Si su conducto se tapa, se acumula moco estéril, y eso es el quiste.' },
           { t: 'Masa redondeada, indolora', d: 'Sin eritema ni calor',
             say: 'Al examinarla, es una masa redonda, móvil, y completamente indolora, sin ningún signo de infección.' },
@@ -76,7 +76,7 @@ module.exports = {
             say: 'Al examinarla, ves placas blancas, atróficas, como papel de cigarrillo, que rodean la vulva y el ano en forma de ocho.' },
         ] },
         { title: 'Riesgo y tratamiento', tag: 'Biopsia si hay duda', kind: 'alert', items: [
-          { t: 'Riesgo de tres a cinco por ciento', d: 'De cáncer epidermoide de vulva',
+          { t: 'Riesgo de cáncer: 3 a 5%', d: 'Cáncer epidermoide de vulva',
             say: 'Y el dato que más se pregunta: tiene un riesgo de tres a cinco por ciento de terminar en un cáncer epidermoide de vulva.' },
           { t: 'Biopsia si hay lesión sospechosa', d: 'Engrosada, ulcerada o sobreelevada',
             say: 'Por eso, cualquier zona que se vea engrosada, ulcerada o sobreelevada, se biopsia. No se asume que todo es liquen.' },

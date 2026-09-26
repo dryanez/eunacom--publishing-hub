@@ -277,7 +277,7 @@ module.exports = {
         { title: 'Tres datos que separan todo', tag: 'pH, aminas, microscopía', kind: 'key', items: [
           { t: 'pH normal: candidiasis', d: 'Es el único que no lo altera',
             say: 'Cerremos con las reglas de oro. Si el pH es normal, piensa en candidiasis: es el único cuadro que no lo altera.' },
-          { t: 'pH alto y aminas: vaginosis o tricomoniasis', d: 'La microscopía las separa',
+          { t: 'pH alto y aminas positivas', d: 'La microscopía separa vaginosis de tricomoniasis',
             say: 'Si el pH está alto y las aminas son positivas, es vaginosis o tricomoniasis, y ahí la microscopía decide: clue cells o protozoo móvil.' },
         ] },
         { title: 'Tratamiento', tag: 'Quién trata a la pareja', kind: 'pharma', items: [
