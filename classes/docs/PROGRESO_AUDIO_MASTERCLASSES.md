@@ -2,7 +2,7 @@
 
 Registro oficial y sincronizado del avance de generación de audio continuo con voz de estudio (`Alejandro_original_long.wav`) y fundidos cero-artefactos de 45 ms.
 
-**Última actualización:** 2026-09-26 04:20
+**Última actualización:** 2026-09-26 05:31
 
 ---
 
@@ -13,7 +13,7 @@ Registro oficial y sincronizado del avance de generación de audio continuo con 
 | **Gastroenterología** | 26 | 26 | 100% | ✅ Completo |
 | **Neumología (Respiratorio)** | 24 | 24 | 100% | ✅ Completo |
 | **Diabetes** | 24 | 24 | 100% | ✅ Completo |
-| **Nefrología** | 22 | 14 | 63.6% | 🔄 En generación activa |
+| **Nefrología** | 22 | 15 | 68.2% | 🔄 En generación activa |
 | **Total Global** | **96** | **83** | **86.5%** | **~21 horas de audio** |
 
 ---
@@ -36,7 +36,7 @@ Registro oficial y sincronizado del avance de generación de audio continuo con 
 | **Nefro 1.12** | `Nefro_1.12_Alejandro_v2.mp3` | 12.6 min | 12.14 MB | ✅ Lista |
 | **Nefro 1.13** | `Nefro_1.13_Alejandro_v2.mp3` | 19.8 min | 18.99 MB | ✅ Lista |
 | **Nefro 1.14** | `Nefro_1.14_Alejandro_v2.mp3` | 12.9 min | 12.41 MB | ✅ Lista |
-| **Nefro 1.15** | `Nefro_1.15_Alejandro_v2.mp3` | ~12 min | ~12 MB | ⏳ En cola |
+| **Nefro 1.15** | `Nefro_1.15_Alejandro_v2.mp3` | 11.9 min | 11.38 MB | ✅ Lista |
 | **Nefro 1.16** | `Nefro_1.16_Alejandro_v2.mp3` | ~16 min | ~15 MB | ⏳ En cola |
 | **Nefro 1.17** | `Nefro_1.17_Alejandro_v2.mp3` | ~13 min | ~12 MB | ⏳ En cola |
 | **Nefro 1.18** | `Nefro_1.18_Alejandro_v2.mp3` | ~18 min | ~17 MB | ⏳ En cola |
