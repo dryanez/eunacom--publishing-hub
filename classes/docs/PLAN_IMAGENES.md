@@ -489,6 +489,45 @@ diab-21 y oftal-12, invaginación en gastro-25 y ped-12). Se consiguen una vez y
 sus figuras a un curso que se vende. Lo mismo aplica a las fotos enlazadas dentro del banco de preguntas
 (accesspediatrics, radiopaedia, blogs). Ver preguntas abajo.
 
+## Libros y fuentes a buscar en el servidor
+
+En el repositorio no hay ningún libro con imágenes clínicas: solo nuestros propios tomos (que no tienen fotos)
+y los recortes de cardiología en `books/figuras/`. Todo lo de abajo hay que buscarlo en el servidor
+(192.168.18.16) o conseguirlo. Marca la última columna con lo que encuentres.
+
+| Libro del curso | Imágenes que faltan | Libros que las tienen | ¿En el servidor? |
+|---|---|---|---|
+| Dermatología | Las 16 clases: lesiones elementales, acné, psoriasis, melanoma, CBC/CEC, ampollares, micosis | Fitzpatrick *Atlas de Dermatología Clínica*; CTO Dermatología; Dermatología Pontificia U. Católica (apuntes) | |
+| Oftalmología | Fondo de ojo (glaucoma, oclusiones, RD, HTA, DMAE, edema de papila), ojo rojo, párpados, trauma | Kanski *Oftalmología Clínica*; CTO Oftalmología | |
+| Neumología | RX tórax (NAC, derrame, neumotórax, absceso, TBC, cáncer), TAC (panal, NPS, bronquiectasias), curvas de espirometría | Felson / Herring *Radiología Básica*; CTO Neumología; Guía GES NAC/TBC MINSAL | |
+| Reumatología | Manos AR/artrosis, alas de mariposa, Gottron, esclerodermia, Raynaud, cristales, RX sacroilitis/caña de bambú | CTO Reumatología; *Atlas de Reumatología* (Hochberg) | |
+| Infectología | Exantemas, sífilis, ITS, varicela/zóster, Kaposi, hidatidosis, ántrax, erisipela | CTO Infecciosas; *Red Book* (atlas); Guía ITS MINSAL | |
+| Pediatría | Exantemas, Capurro, RX neonatal (EMH/TTRN/SAM), croup, DDC (Ortolani/Barlow), curvas OMS, Bhutani | Meneghello *Pediatría*; Nelson; CTO Pediatría; Norma técnica de supervisión de salud infantil MINSAL (curvas OMS) | |
+| Obstetricia | CTG/RBNE, Doppler (RCF), ecografía (TN, mola, ectópico), mecanismo del parto, helecho | Guía Perinatal MINSAL 2015; Pérez Sánchez *Obstetricia*; Williams; CTO Obstetricia | |
+| Ginecología | Mamografía BI-RADS, colposcopía, frotis vaginal (células clave), Bartolino, ECO SOP/masa anexial | Pérez Sánchez *Ginecología*; CTO Ginecología; Guía GES Cáncer de mama/CCU | |
+| Neurología | TAC (ACV, HIC, HSA), RM (EM), EEG ausencias, parálisis facial, ptosis miasténica | CTO Neurología; *Neurología* de Micheli; Netter | |
+| Cirugía | RX obstrucción/neumoperitoneo, TAC epidural vs subdural, quemaduras, FAST, hernias | Manual ATLS; Schwartz / Sabiston; CTO Cirugía General | |
+| Hematología | Frotis: esquistocitos, blastos/Auer, megaloblástica, esferocitos, drepanocitos, Reed-Sternberg; RX mieloma | Carr & Rodak *Atlas de Hematología Clínica*; CTO Hematología | |
+| Endocrinología | Cushing, Graves (oftalmopatía), acromegalia, Addison, Trousseau/Chvostek, ECO tiroides TI-RADS | CTO Endocrinología; Williams *Endocrinología* | |
+| Gastroenterología | ECO vesícula, RX neumoperitoneo, cuerpo extraño (pila), cirugía pediátrica (doble burbuja, neumatosis), endoscopía | CTO Digestivo; Atlas de endoscopía | |
+| Nefrología / Diabetes | ECG hiperkalemia e hipokalemia, pie diabético (Wagner), fondo de ojo diabético, xantomas | CTO Nefrología / Endocrino; Dubin *Interpretación del ECG* | |
+| Salud Pública | Formulario de certificado de defunción | Formulario oficial del Registro Civil / DEIS MINSAL | |
+
+Los ECG, CTG, curvas y esquemas (unas 90 clases) se pueden dibujar en SVG sin depender de ningún libro.
+
+## Cómo revisar el servidor
+
+El servidor (192.168.18.16) está en la red local: una sesión en la nube no lo alcanza. Hay que correr la
+extracción en un computador de esa red:
+
+```bash
+pip install pymupdf
+python classes/scripts/extract_pdf_images.py "\\192.168.18.16\<carpeta>" --out classes/media/_candidatas
+```
+
+Genera `inventario_pdfs.csv` (qué libros hay), `index.json` (cada imagen con página y pie de figura) y
+`matches.csv` (las 5 mejores candidatas por clase del plan). Los resultados se revisan a mano antes de usarse.
+
 ## Plan propuesto
 
 1. **Reproductor:** agregar un tipo de diapositiva `image`. Foto o radiografía a pantalla completa, con flechas y
