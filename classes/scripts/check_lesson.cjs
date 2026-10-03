@@ -62,6 +62,16 @@ function check(id) {
       if ((s.options || []).length !== 5) errors.push(`${w}: debe tener 5 alternativas`);
       if (!(s.options || []).some(o => o.letter === s.correct)) errors.push(`${w}: correct "${s.correct}" no está en las alternativas`);
       ['stem', 'question', 'options', 'answer'].forEach(k => say(`${w} say.${k}`, s.say?.[k]));
+      if (s.image && !fs.existsSync(path.join(ROOT, 'classes', 'media', s.image.src || ''))) errors.push(`${w}: falta la imagen classes/media/${s.image.src}`);
+    } else if (s.type === 'image') {
+      const MEDIA = path.join(ROOT, 'classes', 'media');
+      (s.images || []).forEach(im => { if (!fs.existsSync(path.join(MEDIA, im.src || ''))) errors.push(`${w}: falta la imagen classes/media/${im.src}`); if (!im.credit) warns.push(`${w}: imagen sin crédito (${im.src})`); });
+      if (!(s.images || []).length) errors.push(`${w}: sin imágenes`);
+      if (s.layout === 'gallery' && (s.steps || []).length !== (s.images || []).length) errors.push(`${w}: en galería, un paso por imagen`);
+      (s.steps || []).forEach((st, j) => {
+        (st.marks || []).forEach(m => { if ([m.x, m.y, m.w, m.h].some(v => typeof v !== 'number' || v < 0 || v > 100) || m.x + m.w > 100.5 || m.y + m.h > 100.5) errors.push(`${w} paso ${j + 1}: marca fuera de la imagen`); });
+        say(`${w} paso ${j + 1}`, st.say);
+      });
     } else errors.push(`${w}: tipo desconocido`);
   });
   if (pathways > 1) errors.push('más de una diapositiva pathway');

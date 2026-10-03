@@ -653,7 +653,34 @@ const LESSONS = fs.existsSync(LESSONS_DIR)
     }))
   : {};
 
-const LESSON_CHAPTER = { cover: 0, flow: 1, points: 1, pathway: 2, table: 2, quiz: 3 };
+
+// Imágenes de las clases: classes/media/<ruta>. Se incrustan en el reproductor (data URI) con su proporción,
+// para que las marcas (en % del ancho/alto) caigan exactamente sobre el hallazgo.
+const MEDIA_DIR = path.join(ROOT, 'classes', 'media');
+function imageSize(buf, ext) {
+  if (ext === '.svg') {
+    const m = buf.toString('utf8').match(/viewBox="([^"]+)"/);
+    const v = m ? m[1].trim().split(/[\s,]+/).map(Number) : [];
+    return v.length === 4 ? [v[2], v[3]] : [16, 9];
+  }
+  if (ext === '.png') return [buf.readUInt32BE(16), buf.readUInt32BE(20)];
+  for (let i = 2; i < buf.length;) {            // JPEG: buscar el marcador SOF
+    const marker = buf[i + 1], len = buf.readUInt16BE(i + 2);
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) return [buf.readUInt16BE(i + 7), buf.readUInt16BE(i + 5)];
+    i += 2 + len;
+  }
+  return [16, 9];
+}
+function loadImage(img) {
+  const file = path.join(MEDIA_DIR, img.src);
+  const ext = path.extname(file).toLowerCase();
+  const buf = fs.readFileSync(file);
+  const [w, h] = imageSize(buf, ext);
+  const mime = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml' }[ext];
+  return { ...img, src: `data:${mime};base64,${buf.toString('base64')}`, ar: +(w / h).toFixed(4) };
+}
+
+const LESSON_CHAPTER = { cover: 0, flow: 1, points: 1, image: 1, pathway: 2, table: 2, quiz: 3 };
 
 function buildLesson(lesson, deck, specialtyName) {
   const base = adaptDeckToSwiss(deck, specialtyName);
@@ -682,6 +709,12 @@ function buildLesson(lesson, deck, specialtyName) {
       }) }));
       return { ch, type: 'points', title: s.title, kicker: s.kicker, cards, segments, notes: [segments.map(g => g.text).join(' ')] };
     }
+    if (s.type === 'image') {
+      const segments = s.steps.map((st, i) => seg(i, st.say));
+      return { ch, type: 'image', layout: s.layout || 'focus', light: !!s.light, panelTag: s.panelTag, title: s.title, kicker: s.kicker,
+        images: s.images.map(loadImage), steps: s.steps.map(st => ({ note: st.note || '', marks: st.marks || [] })),
+        segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
     if (s.type === 'pathway') {
       const pw = lesson.pathway || PATHWAYS[lesson.id];
       if (!pw) throw new Error(`Falta el árbol de decisión de ${lesson.id}`);
@@ -699,6 +732,7 @@ function buildLesson(lesson, deck, specialtyName) {
       const segments = [seg(0, s.say.stem), seg(1, s.say.question), seg(2, s.say.options), seg(3, s.say.answer)];
       return { ch, type: 'quiz', title: s.title, kicker: s.kicker, stem: s.stem, question: s.question,
         options: s.options, correct: s.correct, explanation: s.explanation, ref: s.ref || 'Perfil V3 ASOFAMECh · Guías MINSAL',
+        image: s.image ? loadImage(s.image) : undefined,
         segments, notes: [segments.map(g => g.text).join(' ')] };
     }
     throw new Error(`Tipo de diapositiva desconocido en ${lesson.id}: ${s.type}`);

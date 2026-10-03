@@ -255,6 +255,45 @@
   .pt-item.pt-done { opacity:0.8; }
   .pt-t { font-size:19px; font-weight:800; letter-spacing:-0.01em; line-height:1.25; color:#111111; }
   .pt-d { font-size:15px; line-height:1.4; color:#57534E; margin-top:4px; }
+
+  /* Imagen clínica (foto, radiografía, ECG, registro) con hallazgos que se marcan a medida que se explican */
+  .im-wrap { flex:1; min-height:0; display:flex; gap:22px; }
+  .im-stage { position:relative; flex:1; min-width:0; min-height:0; background:#0E1116; border-radius:8px; display:flex; align-items:center; justify-content:center; padding:14px; container-type:size; }
+  .im-stage.im-light { background:#FFFFFF; border:1px solid #DCD8CE; }
+  .im-frame { position:relative; width:min(100cqw, calc(100cqh * var(--ar))); aspect-ratio:var(--ar); }
+  .im-frame img { display:block; width:100%; height:100%; object-fit:contain; border-radius:3px; }
+  .im-mark { position:absolute; border:3px solid var(--mc, #FBBF24); border-radius:var(--mr, 50%); box-shadow:0 0 0 2px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(0,0,0,0.25);
+    transition: opacity 0.45s ease, scale 0.55s var(--spring-curve); pointer-events:none; }
+  .im-mark.im-off { opacity:0; scale:1.35; }
+  .im-mark.im-active { animation: imPulse 1.6s ease-out 0.5s infinite; }
+  @keyframes imPulse { 0% { box-shadow:0 0 0 2px rgba(0,0,0,0.35), 0 0 0 0 var(--mc, #FBBF24); } 100% { box-shadow:0 0 0 2px rgba(0,0,0,0.35), 0 0 0 14px transparent; } }
+  .im-mark .im-lab { position:absolute; left:50%; top:calc(100% + 6px); transform:translateX(-50%); white-space:nowrap; font-size:12px; font-weight:800; letter-spacing:0.04em;
+    color:#111111; background:var(--mc, #FBBF24); padding:2px 8px; border-radius:10px; }
+  .im-mark.im-lab-top .im-lab { top:auto; bottom:calc(100% + 6px); }
+  .im-credit { position:absolute; right:12px; bottom:8px; font-size:10.5px; color:rgba(255,255,255,0.72); background:rgba(0,0,0,0.45); padding:2px 8px; border-radius:3px; }
+  .im-stage.im-light .im-credit { color:#57534E; background:rgba(245,243,238,0.92); }
+  .im-panel { width:31%; min-width:290px; max-width:420px; flex-shrink:0; display:flex; flex-direction:column; gap:12px; }
+  .im-card { background:#EDEAE2; border:1px solid #DCD8CE; border-left:6px solid var(--book-acc); border-radius:8px; padding:20px 22px; display:flex; flex-direction:column; gap:8px; }
+  .im-card.im-in { animation: slideEnter 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+  .im-card .im-tag { font-size:10.5px; font-weight:800; letter-spacing:0.12em; text-transform:uppercase; color:var(--book-acc); }
+  .im-card .im-big { font-size:22px; font-weight:800; line-height:1.2; letter-spacing:-0.02em; color:#111111; }
+  .im-list { display:flex; flex-direction:column; gap:6px; }
+  .im-li { display:flex; gap:10px; align-items:baseline; font-size:14px; line-height:1.35; color:#57534E; padding:8px 12px; border-radius:6px; background:#FFFFFF; border:1px solid #DCD8CE; }
+  .im-li .im-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; background:var(--mc); transform:translateY(1px); }
+  .im-li.im-cur { color:#111111; font-weight:700; border-color:#111111; }
+  .im-li.im-hidden { display:none; }
+  .ig-grid { flex:1; min-height:0; display:grid; gap:16px; }
+  .ig-tile { min-height:0; display:flex; flex-direction:column; gap:8px; background:#EDEAE2; border:1px solid #DCD8CE; border-radius:10px; padding:10px; cursor:pointer;
+    transition: opacity 0.5s ease, transform 0.6s var(--spring-curve), box-shadow 0.35s ease, filter 0.5s ease; }
+  .ig-tile.ig-hidden { opacity:0.14; filter:grayscale(1) blur(2px); transform:translateY(10px); }
+  .ig-tile.ig-active { box-shadow:0 0 0 4px var(--book-acc), 0 14px 30px rgba(0,0,0,0.16); transform:scale(1.02); }
+  .ig-img { flex:1; min-height:0; background:#0E1116; border-radius:6px; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+  .ig-img img { width:100%; height:100%; object-fit:cover; }
+  .ig-name { font-size:19px; font-weight:800; letter-spacing:-0.01em; color:#111111; }
+  .ig-desc { font-size:13.5px; line-height:1.35; color:#57534E; }
+  .ig-credit { font-size:10px; color:#8A847B; }
+  .quiz-figure { margin:0; width:40%; max-width:520px; flex-shrink:0; display:flex; flex-direction:column; gap:6px; }
+  .quiz-figure .im-stage { flex:none; height:min(56vh, 520px); }
 </style>
 </head>
 <body class="select-none">
@@ -563,6 +602,7 @@
       if (sl.type === 'flow') return Math.max(1, (sl.steps || []).length);
       if (sl.type === 'points') return Math.max(1, (sl.cards || []).reduce((a, c) => a + c.items.length, 0));
       if (sl.type === 'table') return Math.max(1, (sl.rows || []).length);
+      if (sl.type === 'image') return Math.max(1, (sl.steps || []).length);
       if (sl.type === 'quiz') return 4;
       return 1;
     }
@@ -826,6 +866,8 @@
         flowReveal(currentStepIdx, animate);
       } else if (sl.type === 'points') {
         pointsReveal(currentStepIdx, animate);
+      } else if (sl.type === 'image') {
+        imageReveal(currentStepIdx, animate);
       } else if (sl.type === 'table') {
         const rows = document.querySelectorAll('.table-step-row');
         rows.forEach((row, ri) => {
@@ -1188,6 +1230,82 @@
           setTimeout(() => drawHandDrawnArrow(document.getElementById('pt-card-' + (ci - 1)), cardEl, '#B4322A'), 250);
         }
       });
+    }
+
+
+    // ---------------------------------------------------------------------
+    // IMAGEN CLÍNICA: 'focus' (una imagen con hallazgos marcados) o 'gallery'
+    // (varias fotos que aparecen a medida que se nombran)
+    // ---------------------------------------------------------------------
+    const IM_COLORS = ['#FBBF24', '#F87171', '#38BDF8', '#4ADE80', '#C084FC', '#FB923C'];
+
+    function imStage(img, marksHtml, light) {
+      return `<div class="im-stage ${light ? 'im-light' : ''}">
+          <div class="im-frame" style="--ar:${img.ar || 1.5}"><img src="${img.src}" alt="${(img.alt || '').replace(/"/g, '&quot;')}">${marksHtml}</div>
+          ${img.credit ? `<div class="im-credit">${img.credit}</div>` : ''}
+        </div>`;
+    }
+
+    function renderImageHtml(sl) {
+      if (sl.layout === 'gallery') {
+        const n = sl.images.length;
+        const cols = n <= 3 ? n : Math.ceil(n / 2);
+        const tiles = sl.images.map((im, i) => `
+          <div id="ig-tile-${i}" class="ig-tile ${revealMode === 'all' ? '' : 'ig-hidden'}" onclick="onCardClick(${i})">
+            <div class="ig-img"><img src="${im.src}" alt="${im.label}"></div>
+            <div class="ig-name">${im.label}</div>
+            ${im.desc ? `<div class="ig-desc">${im.desc}</div>` : ''}
+            ${im.credit ? `<div class="ig-credit">${im.credit}</div>` : ''}
+          </div>`).join('');
+        return `<div class="fl-wrap">
+            <div class="ig-grid" style="grid-template-columns:repeat(${cols}, 1fr)">${tiles}</div>
+            <div class="fl-note"><span class="fl-note-tag">Fíjate en</span><span id="im-note" class="fl-note-text"></span></div>
+          </div>`;
+      }
+      let mk = 0;
+      const marks = sl.steps.map((st, si) => (st.marks || []).map(m => {
+        const c = IM_COLORS[si % IM_COLORS.length];
+        return `<div id="im-mark-${mk++}" data-step="${si}" class="im-mark im-off ${m.labelTop ? 'im-lab-top' : ''}" style="left:${m.x}%;top:${m.y}%;width:${m.w}%;height:${m.h}%;--mc:${c};--mr:${m.shape === 'box' ? '6px' : '50%'}">${m.label ? `<span class="im-lab">${m.label}</span>` : ''}</div>`;
+      }).join('')).join('');
+      const list = sl.steps.map((st, si) => `<div id="im-li-${si}" class="im-li im-hidden" style="--mc:${IM_COLORS[si % IM_COLORS.length]}" onclick="onCardClick(${si})"><span class="im-dot"></span><span>${st.note}</span></div>`).join('');
+      return `<div class="im-wrap">
+          ${imStage(sl.images[0], marks, sl.light)}
+          <div class="im-panel">
+            <div id="im-card" class="im-card"><div class="im-tag">${sl.panelTag || 'Lo que tienes que ver'}</div><div id="im-big" class="im-big"></div></div>
+            <div class="im-list">${list}</div>
+          </div>
+        </div>`;
+    }
+
+    function imageReveal(active, animate) {
+      const sl = currentSlide();
+      const all = revealMode === 'all';
+      if (sl.layout === 'gallery') {
+        sl.images.forEach((_, i) => {
+          const el = document.getElementById('ig-tile-' + i);
+          if (!el) return;
+          el.classList.toggle('ig-hidden', !all && i > active);
+          el.classList.toggle('ig-active', !all && i === active);
+        });
+        const note = document.getElementById('im-note');
+        if (note) { note.textContent = (sl.steps[active] || {}).note || ''; note.classList.remove('fl-in'); void note.offsetWidth; note.classList.add('fl-in'); }
+        return;
+      }
+      document.querySelectorAll('.im-mark').forEach(el => {
+        const st = +el.dataset.step;
+        el.classList.toggle('im-off', !all && st > active);
+        el.classList.toggle('im-active', !all && st === active);
+      });
+      sl.steps.forEach((_, si) => {
+        const li = document.getElementById('im-li-' + si);
+        if (!li) return;
+        li.classList.toggle('im-hidden', !all && si > active);
+        li.classList.toggle('im-cur', !all && si === active);
+      });
+      const big = document.getElementById('im-big');
+      if (big) big.textContent = (sl.steps[active] || {}).note || '';
+      const card = document.getElementById('im-card');
+      if (card && animate) { card.classList.remove('im-in'); void card.offsetWidth; card.classList.add('im-in'); }
     }
 
     // Segmentos de locución: cada uno pertenece a un paso visual de la diapositiva.
@@ -1978,7 +2096,9 @@
           .replace(/(varón|mujer|\d+\s+años|shock|dolor|vómitos|ictericia|fiebre|hematemesis|melena|anuria|oliguria|creatinina|fena)/gi, '<mark class="clinical-mark mark-alert" data-step="0">$&</mark>');
 
         contentHtml = `
-          <div style="flex:1;min-height:0;display:flex;flex-direction:column;gap:10px;overflow:auto;">
+          <div style="flex:1;min-height:0;display:flex;gap:22px;">
+          ${sl.image ? `<figure class="quiz-figure">${imStage(sl.image, '', false)}${sl.image.caption ? `<figcaption class="mono" style="font-size:11px;color:#777069">${sl.image.caption}</figcaption>` : ''}</figure>` : ''}
+          <div style="flex:1;min-width:0;min-height:0;display:flex;flex-direction:column;gap:10px;overflow:auto;">
             <div id="quiz-stem" class="step-card step-active" style="background:#EDEAE2;border-left:4px solid var(--book-acc);padding:12px 18px;font-size:14px;line-height:1.5;color:#111111;border-radius:3px;">
               ${stemHighlighted}
             </div>
@@ -1988,6 +2108,7 @@
             </div>
             ${feedbackHtml || `<div id="quiz-answer" style="padding:12px 16px;border:1px solid #2F6B3F;border-radius:4px;background:#E7EDE6"><div style="font-size:11.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#2F6B3F;margin-bottom:4px">La respuesta correcta es ${sl.correct}</div><div style="font-size:14px;line-height:1.5;color:#111111">${sl.explanation}</div></div>`}
           </div>
+          </div>
         `;
       } else if (sl.type === 'pathway') {
         contentHtml = renderPathwayHtml(sl);
@@ -1995,6 +2116,8 @@
         contentHtml = renderFlowHtml(sl);
       } else if (sl.type === 'points') {
         contentHtml = renderPointsHtml(sl);
+      } else if (sl.type === 'image') {
+        contentHtml = renderImageHtml(sl);
       } else if (sl.type === 'figure') {
         // Pasos de decisión en barra horizontal superior con soporte paso a paso
         const stepsHtml = (sl.steps || []).map((st, si) => `

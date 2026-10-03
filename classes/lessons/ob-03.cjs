@@ -70,6 +70,31 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Un registro basal reactivo',
+      images: [{ src: 'ob-03/rbne_reactivo.svg', credit: 'Esquema EUNACOM 2026 · 20 minutos de registro', alt: 'Registro basal no estresante reactivo' }],
+      steps: [
+        { note: 'Basal en 140, dentro de 110 a 160',
+          marks: [{ x: 10.5, y: 25.6, w: 12.3, h: 6.9, shape: 'box', label: 'Basal 140' }],
+          say: 'Así se ve un registro de veinte minutos. Arriba la frecuencia cardíaca fetal, abajo la dinámica uterina. Primero la basal: anda cerca de ciento cuarenta, dentro de la franja normal de ciento diez a ciento sesenta.' },
+        { note: 'Variabilidad entre 6 y 25 latidos',
+          marks: [{ x: 59.8, y: 24.9, w: 15.4, h: 8.2, shape: 'box', label: 'Variabilidad' }],
+          say: 'Mira el serrucho del trazado: sube y baja entre diez y quince latidos. Esa es la variabilidad, y está en rango normal. Un trazado plano sería la alarma.' },
+        { note: 'Tres aceleraciones de 15 × 15',
+          marks: [{ x: 23.6, y: 18.1, w: 4.6, h: 12.7, label: '15 × 15', labelTop: true }, { x: 51.3, y: 18.1, w: 5.0, h: 12.7, label: '15 × 15', labelTop: true }, { x: 79.1, y: 18.1, w: 4.5, h: 12.7, label: '15 × 15', labelTop: true }],
+          say: 'Y lo más importante: las aceleraciones. Aquí hay tres. Cada una sube más de quince latidos y dura más de quince segundos. Con dos en veinte minutos ya es reactivo.' },
+        { note: 'Cada aceleración sigue a un movimiento',
+          marks: [{ x: 24.4, y: 61.5, w: 3, h: 6 }, { x: 52.3, y: 61.5, w: 3, h: 6 }, { x: 79.8, y: 61.5, w: 3, h: 6 }],
+          say: 'Los triangulitos son los movimientos fetales que marca la madre. Fíjate que cada aceleración viene con un movimiento: el feto se mueve y su corazón responde. Eso es un feto bien oxigenado.' },
+        { note: 'Contracción sin caída de la FCF',
+          marks: [{ x: 36.7, y: 82.7, w: 7.7, h: 9.3, label: 'Contracción', labelTop: true }, { x: 36.7, y: 22, w: 7.7, h: 15, shape: 'box' }],
+          say: 'Abajo hay una contracción leve. Mira justo arriba: la frecuencia no cae. No hay desaceleraciones. Basal normal, buena variabilidad, aceleraciones y sin caídas: registro reactivo.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Perfil biofísico de Manning',
       title: 'Cinco variables, dos puntos cada una',

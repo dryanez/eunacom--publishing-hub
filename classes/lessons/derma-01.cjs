@@ -70,6 +70,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ven',
+      title: 'Vesícula, ampolla y pústula en la piel real',
+      images: [
+        { src: 'derma-01/vesicula.jpg', label: 'Vesícula', desc: 'Menor a 0,5 cm, agrupadas', credit: 'Herpes simple · Manual AMIR Dermatología' },
+        { src: 'derma-01/ampolla.jpg', label: 'Ampolla', desc: 'Sobre 0,5 a 1 cm, tensa', credit: 'Penfigoide ampolloso · Manual AMIR Dermatología' },
+        { src: 'derma-01/pustula.jpg', label: 'Pústula', desc: 'Contenido purulento', credit: 'Pustulosis palmar · Manual AMIR Dermatología' },
+      ],
+      steps: [
+        { note: 'Vesículas pequeñas y agrupadas',
+          say: 'Pongámosle cara a cada lesión. Esto son vesículas: elevaciones con líquido claro, menores de medio centímetro, agrupadas sobre una base roja. Es el herpes simple, el ejemplo clásico.' },
+        { note: 'Ampolla: grande, tensa, líquido claro',
+          say: 'Ahora mira la diferencia de tamaño. Estas son ampollas: miden más de medio centímetro, algunas varios centímetros, y se ven tensas, llenas de líquido. Es un penfigoide ampolloso.' },
+        { note: 'Pústula: amarillenta desde el inicio',
+          say: 'Y esto son pústulas: el contenido es amarillento, purulento, desde que aparecen. Aquí en la palma de la mano, en una psoriasis pustulosa. Fíjate que no son vesículas que se infectaron: nacen así.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Lesiones sólidas',
       title: 'Pápula, placa, nódulo y habón',
@@ -86,6 +106,26 @@ module.exports = {
           { t: 'Habón o roncha: evanescente', d: 'Dura menos de 24 horas',
             say: 'Y el habón, o roncha, es una placa edematosa por edema dérmico. Su característica patognomónica es que es evanescente: dura menos de un día y desaparece sin dejar ninguna marca. Es la lesión de la urticaria.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ven',
+      title: 'Pápula, placa y habón en la piel real',
+      images: [
+        { src: 'derma-01/papula.jpg', label: 'Pápula', desc: 'Sólida, menor a 1 cm', credit: 'Molusco contagioso · Manual AMIR Dermatología' },
+        { src: 'derma-01/placa.jpg', label: 'Placa', desc: 'Mayor a 1 cm, en meseta', credit: 'Psoriasis en placas · Manual AMIR Dermatología' },
+        { src: 'derma-01/habon.jpg', label: 'Habón', desc: 'Edema rosado que desaparece', credit: 'Urticaria · Manual AMIR Dermatología' },
+      ],
+      steps: [
+        { note: 'Pápula: sólida y pequeña',
+          say: 'Pasemos a las sólidas. Esto son pápulas: elevaciones sólidas de menos de un centímetro, sin líquido adentro. Estas en particular tienen una depresión central: es un molusco contagioso.' },
+        { note: 'Placa: grande y plana por arriba',
+          say: 'Cuando la lesión supera el centímetro y es plana por arriba, como una meseta, es una placa. La psoriasis es el ejemplo de manual: placas rojas cubiertas de escama blanca, en codos y rodillas.' },
+        { note: 'Habón: rosado, plano, dura horas',
+          say: 'Y esto es un habón: una elevación rosada, edematosa, de bordes geográficos. La clave no se ve en la foto: dura menos de veinticuatro horas y cambia de lugar. Eso es urticaria.' },
       ],
     },
 
@@ -139,6 +179,26 @@ module.exports = {
           { t: 'Liquenificación', d: 'Engrosamiento por rascado crónico',
             say: 'Y la liquenificación es el engrosamiento de la piel con los pliegues acentuados, por el rascado crónico y repetitivo. Con esto ya tienes todas las lesiones elementales que arma el examen.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ven',
+      title: 'Erosión, úlcera y liquenificación',
+      images: [
+        { src: 'derma-01/erosion.jpg', label: 'Erosión', desc: 'Solo epidermis, cura sin cicatriz', credit: 'Pénfigo vulgar · Manual AMIR Dermatología' },
+        { src: 'derma-01/ulcera.jpg', label: 'Úlcera y escara', desc: 'Llega a la dermis, deja cicatriz', credit: 'Calcifilaxis · Manual AMIR Dermatología' },
+        { src: 'derma-01/liquenificacion.jpg', label: 'Liquenificación', desc: 'Piel gruesa por rascado', credit: 'Manual CTO Dermatología, 14.ª ed.' },
+      ],
+      steps: [
+        { note: 'Erosión: superficial, cura sin cicatriz',
+          say: 'Ahora las secundarias. Estas son erosiones: zonas rojas, húmedas, donde se perdió solo la epidermis, después de que se rompieron las ampollas de un pénfigo. Como el daño es superficial, curan sin cicatriz.' },
+        { note: 'Úlcera profunda con escara negra',
+          say: 'Compara con esto. Aquí el daño llega a la dermis y más abajo: es una úlcera, y en el centro tiene una escara, tejido necrótico negro y bien delimitado. Esta sí va a dejar cicatriz.' },
+        { note: 'Liquenificación: surcos marcados',
+          say: 'Y por último la liquenificación: la piel se engruesa y los surcos normales se marcan, como un cuero. Es la huella del rascado crónico, típica de la dermatitis atópica en los pliegues.' },
       ],
     },
 

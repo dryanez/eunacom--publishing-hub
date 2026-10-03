@@ -2,7 +2,7 @@
   "id": "derma-01",
   "title": "Dermatologia 16.1: Lesiones Elementales Primarias y Secundarias de la Piel",
   "specialty": "Dermatología",
-  "chars": 10094,
+  "chars": 11767,
   "segments": [
     {
       "file": "s00_g00",
@@ -50,214 +50,250 @@
     },
     {
       "file": "s03_g00",
-      "text": "Las sólidas parten con la pápula, menor a un centímetro, en la epidermis o la dermis superficial: verruga plana, liquen plano, molusco contagioso."
+      "text": "Pongámosle cara a cada lesión. Esto son vesículas: elevaciones con líquido claro, menores de medio centímetro, agrupadas sobre una base roja. Es el herpes simple, el ejemplo clásico."
     },
     {
       "file": "s03_g01",
-      "text": "Cuando muchas pápulas confluyen y forman una meseta de más de un centímetro, se llama placa. El ejemplo clásico es la psoriasis vulgar."
+      "text": "Ahora mira la diferencia de tamaño. Estas son ampollas: miden más de medio centímetro, algunas varios centímetros, y se ven tensas, llenas de líquido. Es un penfigoide ampolloso."
     },
     {
       "file": "s03_g02",
-      "text": "El nódulo es distinto: está en la dermis profunda o en la hipodermis, y la regla que se pregunta es que se palpa más de lo que se ve. El eritema nudoso es el ejemplo típico."
-    },
-    {
-      "file": "s03_g03",
-      "text": "Y el habón, o roncha, es una placa edematosa por edema dérmico. Su característica patognomónica es que es evanescente: dura menos de un día y desaparece sin dejar ninguna marca. Es la lesión de la urticaria."
+      "text": "Y esto son pústulas: el contenido es amarillento, purulento, desde que aparecen. Aquí en la palma de la mano, en una psoriasis pustulosa. Fíjate que no son vesículas que se infectaron: nacen así."
     },
     {
       "file": "s04_g00",
-      "text": "Las lesiones secundarias nacen de la evolución de una primaria, por ejemplo cuando se rompe una ampolla o el paciente se rasca. Y aquí está la pregunta que más se repite del tema."
+      "text": "Las sólidas parten con la pápula, menor a un centímetro, en la epidermis o la dermis superficial: verruga plana, liquen plano, molusco contagioso."
     },
     {
       "file": "s04_g01",
-      "text": "¿Hasta dónde llega esa pérdida de piel? Si se queda solo en la epidermis, respetando la membrana basal, es una erosión, también llamada excoriación."
+      "text": "Cuando muchas pápulas confluyen y forman una meseta de más de un centímetro, se llama placa. El ejemplo clásico es la psoriasis vulgar."
     },
     {
       "file": "s04_g02",
-      "text": "Y como la capa basal de queratinocitos puede regenerar por mitosis, la erosión cura sin dejar ninguna cicatriz. Piensa en una ampolla desnudada, o en el rascado de la sarna."
+      "text": "El nódulo es distinto: está en la dermis profunda o en la hipodermis, y la regla que se pregunta es que se palpa más de lo que se ve. El eritema nudoso es el ejemplo típico."
     },
     {
       "file": "s04_g03",
-      "text": "Pero si el daño destruye la membrana basal y llega a la dermis, o incluso a la hipodermis, ya no es una erosión: es una úlcera."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Y como la dermis no se regenera por mitosis, la reparación se hace con tejido de granulación y colágeno, y eso siempre deja cicatriz. Guarda esta idea, porque es justo la pregunta que vas a ver en el caso de hoy."
+      "text": "Y el habón, o roncha, es una placa edematosa por edema dérmico. Su característica patognomónica es que es evanescente: dura menos de un día y desaparece sin dejar ninguna marca. Es la lesión de la urticaria."
     },
     {
       "file": "s05_g00",
-      "text": "Hay una tercera lesión por pérdida de sustancia que no es ni erosión ni úlcera: la fisura, un desgarro lineal y doloroso, sin pérdida neta de piel. Se ve en la queilitis angular o en la tiña interdigital."
+      "text": "Pasemos a las sólidas. Esto son pápulas: elevaciones sólidas de menos de un centímetro, sin líquido adentro. Estas en particular tienen una depresión central: es un molusco contagioso."
     },
     {
       "file": "s05_g01",
-      "text": "Por el otro lado están las lesiones por acumulación. La escama son laminillas córneas desprendidas en exceso, como en la psoriasis o en la ictiosis."
+      "text": "Cuando la lesión supera el centímetro y es plana por arriba, como una meseta, es una placa. La psoriasis es el ejemplo de manual: placas rojas cubiertas de escama blanca, en codos y rodillas."
     },
     {
       "file": "s05_g02",
-      "text": "La costra es la desecación de un exudado: amarillenta si es seroso, rojiza si es sangre, y melicérica, como la miel, si es pus, como en el impétigo."
-    },
-    {
-      "file": "s05_g03",
-      "text": "La escara es tejido necrótico, negro y seco, bien delimitado de la piel sana: el loxoscelismo cutáneo, las úlceras por presión."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Y la liquenificación es el engrosamiento de la piel con los pliegues acentuados, por el rascado crónico y repetitivo. Con esto ya tienes todas las lesiones elementales que arma el examen."
+      "text": "Y esto es un habón: una elevación rosada, edematosa, de bordes geográficos. La clave no se ve en la foto: dura menos de veinticuatro horas y cambia de lugar. Eso es urticaria."
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Frente a cualquier lesión de la piel, antes de pensar en el diagnóstico tienes que describirla con el nombre semiológico correcto. Ese nombre, casi siempre, ya te deja a un paso de la respuesta."
+      "text": "Las lesiones secundarias nacen de la evolución de una primaria, por ejemplo cuando se rompe una ampolla o el paciente se rasca. Y aquí está la pregunta que más se repite del tema."
     },
     {
       "file": "s06_g01",
-      "text": "Primero pregúntate si nace sobre piel antes sana, y entonces es primaria, o si evolucionó de una lesión previa por rotura, rascado o infección, y entonces es secundaria."
+      "text": "¿Hasta dónde llega esa pérdida de piel? Si se queda solo en la epidermis, respetando la membrana basal, es una erosión, también llamada excoriación."
     },
     {
       "file": "s06_g02",
-      "text": "Si es plana, sin relieve a la palpación, el corte es de un centímetro."
+      "text": "Y como la capa basal de queratinocitos puede regenerar por mitosis, la erosión cura sin dejar ninguna cicatriz. Piensa en una ampolla desnudada, o en el rascado de la sarna."
     },
     {
       "file": "s06_g03",
-      "text": "Menos de un centímetro y plana: mácula."
+      "text": "Pero si el daño destruye la membrana basal y llega a la dermis, o incluso a la hipodermis, ya no es una erosión: es una úlcera."
     },
     {
       "file": "s06_g04",
-      "text": "Más de un centímetro y plana: mancha."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si tiene contenido líquido, primero revisa el tamaño, y aparte revisa si el contenido es purulento desde el inicio."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Menos de medio centímetro y contenido seroso: vesícula."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Más de medio centímetro y contenido seroso: ampolla o flictena."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Contenido purulento desde el origen, sin importar el tamaño: pústula."
-    },
-    {
-      "file": "s06_g09",
-      "text": "Si es una elevación sólida, pregúntate si crece en superficie, si se palpa más de lo que se ve, o si dura menos de un día."
-    },
-    {
-      "file": "s06_g10",
-      "text": "Sólida y menor a un centímetro: pápula."
-    },
-    {
-      "file": "s06_g11",
-      "text": "Sólida, en meseta, mayor a un centímetro, por confluencia de pápulas: placa."
-    },
-    {
-      "file": "s06_g12",
-      "text": "Dermis profunda o hipodermis, se palpa más de lo que se ve: nódulo."
-    },
-    {
-      "file": "s06_g13",
-      "text": "Evanescente, dura menos de veinticuatro horas: habón o roncha."
-    },
-    {
-      "file": "s06_g14",
-      "text": "Si es secundaria y hay pérdida de sustancia, lo que decide el nombre es la profundidad."
-    },
-    {
-      "file": "s06_g15",
-      "text": "Compromete solo la epidermis, respeta la membrana basal, y cura sin cicatriz: erosión o excoriación."
-    },
-    {
-      "file": "s06_g16",
-      "text": "Destruye la membrana basal y llega a la dermis o la hipodermis: úlcera. Siempre deja cicatriz."
+      "text": "Y como la dermis no se regenera por mitosis, la reparación se hace con tejido de granulación y colágeno, y eso siempre deja cicatriz. Guarda esta idea, porque es justo la pregunta que vas a ver en el caso de hoy."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos los pares que más se confunden. Mácula versus mancha: el corte es un centímetro, y las dos son planas. El error es llamar mácula a cualquier mancha grande."
+      "text": "Hay una tercera lesión por pérdida de sustancia que no es ni erosión ni úlcera: la fisura, un desgarro lineal y doloroso, sin pérdida neta de piel. Se ve en la queilitis angular o en la tiña interdigital."
     },
     {
       "file": "s07_g01",
-      "text": "Vesícula versus ampolla: el corte es medio centímetro, y las dos tienen líquido. El error es pensar que el tamaño indica gravedad, cuando solo indica el nombre."
+      "text": "Por el otro lado están las lesiones por acumulación. La escama son laminillas córneas desprendidas en exceso, como en la psoriasis o en la ictiosis."
     },
     {
       "file": "s07_g02",
-      "text": "Pápula versus placa: el corte es un centímetro, y la placa es una meseta que suele nacer de pápulas que confluyen. El error es llamar placa a una sola pápula."
+      "text": "La costra es la desecación de un exudado: amarillenta si es seroso, rojiza si es sangre, y melicérica, como la miel, si es pus, como en el impétigo."
     },
     {
       "file": "s07_g03",
-      "text": "El nódulo no compite por tamaño con la pápula: compite por profundidad. Se palpa más de lo que se ve. El error es tratarlo como una pápula grande."
+      "text": "La escara es tejido necrótico, negro y seco, bien delimitado de la piel sana: el loxoscelismo cutáneo, las úlceras por presión."
     },
     {
       "file": "s07_g04",
-      "text": "El habón se reconoce por el tiempo, no por la forma: dura menos de veinticuatro horas. El error clásico es no preguntar cuánto duró la lesión antes de nombrarla."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Y la más importante: erosión versus úlcera. La erosión solo llega a la epidermis y no deja cicatriz; la úlcera llega a la dermis y siempre deja cicatriz. El error es llamar úlcera a cualquier lesión que sangra o duele, sin fijarse en la profundidad."
+      "text": "Y la liquenificación es el engrosamiento de la piel con los pliegues acentuados, por el rascado crónico y repetitivo. Con esto ya tienes todas las lesiones elementales que arma el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de treinta y dos años que consulta por lesiones que le pican en los codos. Al examen se ven lesiones sólidas y sobreelevadas, de color rojo, que miden entre tres y cinco centímetros, con la superficie aplanada, en meseta, y cubiertas de abundantes escamas de color plateado que confluyen formando zonas extensas."
+      "text": "Ahora las secundarias. Estas son erosiones: zonas rojas, húmedas, donde se perdió solo la epidermis, después de que se rompieron las ampollas de un pénfigo. Como el daño es superficial, curan sin cicatriz."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el nombre semiológico correcto de esta lesión elemental?"
+      "text": "Compara con esto. Aquí el daño llega a la dermis y más abajo: es una úlcera, y en el centro tiene una escara, tejido necrótico negro y bien delimitado. Esta sí va a dejar cicatriz."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: mancha, pápula, placa, nódulo, o habón. Piénsalo."
-    },
-    {
-      "file": "s08_g03",
-      "text": "La respuesta es la C, placa. Aplica la regla que vimos: es sólida, mide más de un centímetro, y en vez de crecer hacia arriba se extiende en meseta, por confluencia de lesiones más pequeñas. La mancha es la trampa fácil de descartar, porque es plana y esto se palpa. Y fíjate: esta combinación, placa eritematosa con escamas plateadas en los codos, es la presentación clásica de la psoriasis, que veremos en una próxima clase."
+      "text": "Y por último la liquenificación: la piel se engruesa y los surcos normales se marcan, como un cuero. Es la huella del rascado crónico, típica de la dermatitis atópica en los pliegues."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con una pregunta del banco. Mujer de veinticinco años con una erupción diseminada. El médico describe lesiones con contenido líquido claro, de dos a tres milímetros, agrupadas en racimo sobre una base roja, en el labio superior."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Frente a cualquier lesión de la piel, antes de pensar en el diagnóstico tienes que describirla con el nombre semiológico correcto. Ese nombre, casi siempre, ya te deja a un paso de la respuesta."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el nombre semiológico exacto de esta lesión elemental primaria?"
+      "text": "Primero pregúntate si nace sobre piel antes sana, y entonces es primaria, o si evolucionó de una lesión previa por rotura, rascado o infección, y entonces es secundaria."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: pústula, vesícula, ampolla, pápula, o erosión. Piénsalo."
+      "text": "Si es plana, sin relieve a la palpación, el corte es de un centímetro."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, vesícula. Aplica la regla de tamaño: líquida y menor a medio centímetro es vesícula, no ampolla. La pústula queda descartada porque el enunciado dice líquido claro, no pus. La pápula es sólida, y la erosión es una lesión secundaria, no primaria. Este patrón, vesículas agrupadas en racimo sobre base roja en el labio, es además la forma típica del herpes simple."
+      "text": "Menos de un centímetro y plana: mácula."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Más de un centímetro y plana: mancha."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si tiene contenido líquido, primero revisa el tamaño, y aparte revisa si el contenido es purulento desde el inicio."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Menos de medio centímetro y contenido seroso: vesícula."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Más de medio centímetro y contenido seroso: ampolla o flictena."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Contenido purulento desde el origen, sin importar el tamaño: pústula."
+    },
+    {
+      "file": "s09_g09",
+      "text": "Si es una elevación sólida, pregúntate si crece en superficie, si se palpa más de lo que se ve, o si dura menos de un día."
+    },
+    {
+      "file": "s09_g10",
+      "text": "Sólida y menor a un centímetro: pápula."
+    },
+    {
+      "file": "s09_g11",
+      "text": "Sólida, en meseta, mayor a un centímetro, por confluencia de pápulas: placa."
+    },
+    {
+      "file": "s09_g12",
+      "text": "Dermis profunda o hipodermis, se palpa más de lo que se ve: nódulo."
+    },
+    {
+      "file": "s09_g13",
+      "text": "Evanescente, dura menos de veinticuatro horas: habón o roncha."
+    },
+    {
+      "file": "s09_g14",
+      "text": "Si es secundaria y hay pérdida de sustancia, lo que decide el nombre es la profundidad."
+    },
+    {
+      "file": "s09_g15",
+      "text": "Compromete solo la epidermis, respeta la membrana basal, y cura sin cicatriz: erosión o excoriación."
+    },
+    {
+      "file": "s09_g16",
+      "text": "Destruye la membrana basal y llega a la dermis o la hipodermis: úlcera. Siempre deja cicatriz."
     },
     {
       "file": "s10_g00",
-      "text": "Otra del banco. Un residente pregunta cuál es la diferencia semiológica e histológica fundamental entre una erosión y una úlcera."
+      "text": "Repasemos los pares que más se confunden. Mácula versus mancha: el corte es un centímetro, y las dos son planas. El error es llamar mácula a cualquier mancha grande."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la diferencia correcta?"
+      "text": "Vesícula versus ampolla: el corte es medio centímetro, y las dos tienen líquido. El error es pensar que el tamaño indica gravedad, cuando solo indica el nombre."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones hablan de profundidad y cicatriz, de origen infeccioso versus autoinmune, de si son primaria o terciaria, de dolor, y de tamaño. Piénsalo con lo que ya vimos. Piénsalo."
+      "text": "Pápula versus placa: el corte es un centímetro, y la placa es una meseta que suele nacer de pápulas que confluyen. El error es llamar placa a una sola pápula."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A, lo que repasamos en el flujo: la erosión solo llega a la epidermis y cura sin cicatriz, porque la capa basal regenera por mitosis; la úlcera llega a la dermis o la hipodermis y siempre deja cicatriz, con tejido de granulación y colágeno. Ninguna otra alternativa tiene relación con el mecanismo real: ni el origen infeccioso, ni la categoría, ni el dolor, ni el tamaño definen esta diferencia."
+      "text": "El nódulo no compite por tamaño con la pápula: compite por profundidad. Se palpa más de lo que se ve. El error es tratarlo como una pápula grande."
+    },
+    {
+      "file": "s10_g04",
+      "text": "El habón se reconoce por el tiempo, no por la forma: dura menos de veinticuatro horas. El error clásico es no preguntar cuánto duró la lesión antes de nombrarla."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y la más importante: erosión versus úlcera. La erosión solo llega a la epidermis y no deja cicatriz; la úlcera llega a la dermis y siempre deja cicatriz. El error es llamar úlcera a cualquier lesión que sangra o duele, sin fijarse en la profundidad."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. En las lesiones planas y líquidas, el corte es de un centímetro entre mácula y mancha, y de medio centímetro entre vesícula y ampolla."
+      "text": "Vamos con un caso. Hombre de treinta y dos años que consulta por lesiones que le pican en los codos. Al examen se ven lesiones sólidas y sobreelevadas, de color rojo, que miden entre tres y cinco centímetros, con la superficie aplanada, en meseta, y cubiertas de abundantes escamas de color plateado que confluyen formando zonas extensas."
     },
     {
       "file": "s11_g01",
-      "text": "En las sólidas, la placa es una pápula que superó el centímetro y se extendió en meseta. El nódulo se define por profundidad, no por tamaño. Y el habón se define por el tiempo: menos de veinticuatro horas."
+      "text": "¿Cuál es el nombre semiológico correcto de esta lesión elemental?"
     },
     {
       "file": "s11_g02",
-      "text": "Y la distinción más preguntada de todas: la erosión solo compromete la epidermis y no deja cicatriz."
+      "text": "Tienes cinco opciones: mancha, pápula, placa, nódulo, o habón. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "La respuesta es la C, placa. Aplica la regla que vimos: es sólida, mide más de un centímetro, y en vez de crecer hacia arriba se extiende en meseta, por confluencia de lesiones más pequeñas. La mancha es la trampa fácil de descartar, porque es plana y esto se palpa. Y fíjate: esta combinación, placa eritematosa con escamas plateadas en los codos, es la presentación clásica de la psoriasis, que veremos en una próxima clase."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos con una pregunta del banco. Mujer de veinticinco años con una erupción diseminada. El médico describe lesiones con contenido líquido claro, de dos a tres milímetros, agrupadas en racimo sobre una base roja, en el labio superior."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el nombre semiológico exacto de esta lesión elemental primaria?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: pústula, vesícula, ampolla, pápula, o erosión. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, vesícula. Aplica la regla de tamaño: líquida y menor a medio centímetro es vesícula, no ampolla. La pústula queda descartada porque el enunciado dice líquido claro, no pus. La pápula es sólida, y la erosión es una lesión secundaria, no primaria. Este patrón, vesículas agrupadas en racimo sobre base roja en el labio, es además la forma típica del herpes simple."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Otra del banco. Un residente pregunta cuál es la diferencia semiológica e histológica fundamental entre una erosión y una úlcera."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la diferencia correcta?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones hablan de profundidad y cicatriz, de origen infeccioso versus autoinmune, de si son primaria o terciaria, de dolor, y de tamaño. Piénsalo con lo que ya vimos. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A, lo que repasamos en el flujo: la erosión solo llega a la epidermis y cura sin cicatriz, porque la capa basal regenera por mitosis; la úlcera llega a la dermis o la hipodermis y siempre deja cicatriz, con tejido de granulación y colágeno. Ninguna otra alternativa tiene relación con el mecanismo real: ni el origen infeccioso, ni la categoría, ni el dolor, ni el tamaño definen esta diferencia."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. En las lesiones planas y líquidas, el corte es de un centímetro entre mácula y mancha, y de medio centímetro entre vesícula y ampolla."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En las sólidas, la placa es una pápula que superó el centímetro y se extendió en meseta. El nódulo se define por profundidad, no por tamaño. Y el habón se define por el tiempo: menos de veinticuatro horas."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Y la distinción más preguntada de todas: la erosión solo compromete la epidermis y no deja cicatriz."
+    },
+    {
+      "file": "s14_g03",
       "text": "La úlcera compromete la dermis o la hipodermis, y siempre deja cicatriz. Si te llevas una sola idea de hoy: antes de pensar en el diagnóstico, nombra bien la lesión. Nos vemos en la próxima clase."
     }
   ]

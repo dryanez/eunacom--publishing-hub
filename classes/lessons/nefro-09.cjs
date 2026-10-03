@@ -71,6 +71,28 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'ECG real',
+      title: 'La progresión en un paciente',
+      images: [{ src: 'nefro-09/ecg_hiperk.jpg', credit: 'Manual CTO Nefrología, 14.ª ed.', alt: 'ECG con hiperpotasemia a 6,8 y 9,1 y tras diálisis' }],
+      steps: [
+        { note: 'K 6,8: T alta y picuda',
+          marks: [{ x: 13, y: 29, w: 9, h: 13, label: 'T picuda' }],
+          say: 'Veamos el mismo paciente en tres momentos. Primero, con potasio de seis coma ocho. Mira la derivación V tres: la onda T es alta, picuda, de base angosta. Es el primer signo.' },
+        { note: 'K 9,1: T gigante',
+          marks: [{ x: 41, y: 35, w: 11, h: 17, label: 'T gigante' }],
+          say: 'Ahora con potasio de nueve coma uno. La T se volvió gigante, más alta que el propio QRS.' },
+        { note: 'K 9,1: QRS ancho, sin P',
+          marks: [{ x: 41, y: 63, w: 10, h: 20, label: 'QRS ancho', labelTop: true }],
+          say: 'Y el QRS se ensanchó tanto que empieza a fusionarse con la T. Ya no ves onda P. Este trazado está a un paso de la onda sinusoidal y del paro: es calcio endovenoso ahora.' },
+        { note: 'Tras diálisis: vuelve a la normalidad',
+          marks: [{ x: 68, y: 4, w: 31, h: 92, shape: 'box', label: 'Tras diálisis' }],
+          say: 'Y este es el mismo paciente después de la diálisis. QRS angosto, T normal. Todo lo que viste era reversible: por eso el electrocardiograma decide la urgencia.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Clínica',
       title: '¿Cómo llega el paciente con hiperkalemia grave?',
