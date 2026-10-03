@@ -41,7 +41,8 @@ node classes/scripts/build_swiss_player.cjs  # rebuilds the player, lists classe
 - **Cardiología** (21 classes) — excluded on purpose until the user asks for it.
 - **Otorrino, Traumatología, Urología, Psiquiatría** — never started.
 - Audio (TTS) and video renders for the full set.
-- Images (photos, X-rays, ECG, fundus): none yet — plan in `classes/docs/PLAN_IMAGENES.md`.
+- Images (photos, X-rays, ECG, fundus): not in the slides yet. Plan in `classes/docs/PLAN_IMAGENES.md`; figures already
+  picked from the CTO/AMIR manuals for 184 of 251 classes in `classes/docs/IMAGENES_ENCONTRADAS.md`.
 - Human review of the B-notes in `classes/docs/REVISION_CONTENIDO.md`.
 
 Detailed handoff for the next session: `classes/docs/HANDOFF_SIGUIENTE_SESION.md`.

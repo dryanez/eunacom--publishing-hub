@@ -1,6 +1,9 @@
 # Plan de imágenes para las clases Suizas
 
 > Estado: **borrador para revisar con el usuario** (2026-10-03). Nada de esto está implementado todavía.
+>
+> **Actualización:** las imágenes ya se buscaron en los 62 manuales CTO/AMIR del bucket R2: 184 de las 251 clases que
+> necesitan imagen tienen al menos una figura elegida. Ver [`IMAGENES_ENCONTRADAS.md`](IMAGENES_ENCONTRADAS.md).
 
 ## Por qué
 
