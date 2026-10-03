@@ -6,6 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { accentForSpecialty } = require('./specialty_colors.cjs');
 
 const ROOT = path.join(__dirname, '..', '..');
 const SPECIALTIES = [
@@ -634,6 +635,7 @@ function adaptDeckToSwiss(deck, specialtyName) {
   return {
     id: deck.id,
     specialty: specialtyName,
+    accent: accentForSpecialty(specialtyName),
     title: stripEmojis(deck.title),
     code: 'ASOFAMECh · ' + code + ' · Perfil V3',
     badge: tierName,
@@ -737,3 +739,8 @@ const outPath = path.join(ROOT, 'classes', 'decks', 'Reproductor_Suiza_Oficial.h
 fs.writeFileSync(outPath, htmlContent, 'utf8');
 console.log(`✔ Reproductor Suizo Oficial generado exitosamente en: ${outPath}`);
 
+
+// Copia sincronizada usada por algunos enlaces/entornos como player.html
+const playerCopyPath = path.join(ROOT, 'classes', 'decks', 'player.html');
+fs.writeFileSync(playerCopyPath, htmlContent, 'utf8');
+console.log(`✔ Copia sincronizada generada en: ${playerCopyPath}`);

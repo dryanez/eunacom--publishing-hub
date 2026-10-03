@@ -1,3 +1,5 @@
+> **Current status: see [STATUS.md](STATUS.md) — 340/340 classes done.**
+
 # EUNACOM 2026 Masterclass & Publishing Engine — Comprehensive AI Handoff
 
 > **Document Version:** 1.0.0  
@@ -190,7 +192,7 @@ When taking over, focus on these three user requirements:
 ## 8. Essential Commands Cheat Sheet
 
 ```bash
-# 1. Compile the master Swiss Player (all 49 classes):
+# 1. Compile the master Swiss Player (341 classes — see STATUS.md):
 node classes/scripts/build_swiss_player.cjs
 
 # 2. Run automated visual audit & screenshots (Puppeteer headless):

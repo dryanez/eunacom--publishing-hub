@@ -1,3 +1,5 @@
+> **Current project status (classes 340/340, what's left): see [STATUS.md](STATUS.md).**
+
 # 🎯 START HERE - Your New Presentation System
 
 > **What:** Beautiful, animated medical presentations  
