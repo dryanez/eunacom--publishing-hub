@@ -1,0 +1,200 @@
+{
+  "id": "ob-18",
+  "title": "Obstetricia 19.18: Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+  "specialty": "Obstetricia",
+  "chars": 7510,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la hemorragia postparto, la primera causa de muerte materna evitable en el mundo. Es la emergencia obstétrica que más rinde en el examen, y se ordena con una regla muy simple: las cuatro T. Vas a aprender a diagnosticar cuál de las cuatro tienes delante, y a subir la escalera de tratamiento sin saltarte pasos. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la definición. Hablas de hemorragia postparto cuando la pérdida acumulada llega a un litro de sangre, o antes, si aparecen signos de hipovolemia, dentro de las primeras veinticuatro horas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Ahí activas el código rojo: pides ayuda, pones dos vías periféricas de grueso calibre, y tomas exámenes y pruebas cruzadas de inmediato. No esperas a que la paciente se ponga mal para moverte."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La regla que ordena todo esto son las cuatro T. La primera, y la más frecuente, es el tono: la atonía uterina. Tu útero no se contrae, y las arterias que deberían quedar comprimidas siguen sangrando. Explica siete de cada diez casos."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La segunda es el trauma: desgarros del cuello, la vagina o el periné, o una inversión uterina. Aquí tu útero está bien contraído, pero el sangrado sigue por otra parte del canal."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La tercera es el tejido: un resto de placenta que no salió completo. Revisas la placenta y te falta un cotiledón o una membrana."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y la cuarta, la más rara, es la trombina: una coagulopatía, previa o adquirida, en que la sangre simplemente no coagula."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Cualquiera de las cuatro te lleva al mismo lugar, una hemorragia postparto. Y saber cuál de las cuatro tienes delante es lo que decide todo lo que viene."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Con atonía confirmada, subes una escalera de tratamiento, sin saltarte peldaños. El primer paso, siempre, es el masaje uterino bimanual: una mano adentro, en la vagina, y la otra comprimiendo el fondo desde afuera."
+    },
+    {
+      "file": "s03_g01",
+      "text": "En paralelo, la oxitocina endovenosa es tu primera línea farmacológica. Y súmale siempre el ácido tranexámico, un gramo endovenoso, dentro de las primeras tres horas de sangrado: baja la mortalidad materna, y es obligatorio en toda hemorragia postparto."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si el sangrado persiste, pasas a la segunda línea: ergometrina, o misoprostol si tu paciente es hipertensa. Guarda esa diferencia, porque el examen la pregunta seguido."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si aun así sigue sangrando, viene el balón de Bakri: lo inflas dentro del útero y comprime el sangrado desde adentro, antes de abrir el abdomen."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si nada de esto funciona, cirugía: suturas de compresión, ligar las arterias, y como último recurso, histerectomía, para salvar la vida de tu paciente."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Presta mucha atención aquí. La ergometrina está formalmente contraindicada en la preeclampsia y en cualquier paciente hipertensa: le produces una vasoconstricción tan fuerte que puedes desencadenar una crisis hipertensiva o un accidente cerebrovascular."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y el carboprost está prohibido en el asma bronquial, porque provoca un broncoespasmo severo. Si tu paciente es hipertensa o asmática, el fármaco seguro que te queda es el misoprostol."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Un cuadro raro, pero letal: la inversión uterina. Ocurre cuando alguien tracciona el cordón con fuerza, mientras tu útero todavía está relajado y la placenta sigue pegada."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El útero se da vuelta como un guante, y su fondo protruye o sale por la vulva. Al palpar el abdomen, el útero simplemente no está."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Lo que te avisa que es esto, y no otra causa de sangrado, es un shock neurogénico: hipotensión con bradicardia, por la tracción de los nervios peritoneales. Es al revés de lo que esperarías en una hemorragia."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La conducta es suspender de inmediato cualquier uterotónico, relajar el útero, y hacer la reposición manual con la maniobra de Johnson, empujando el fondo hacia arriba. Solo después de reponerlo das oxitocina, para que se quede contraído."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora pongamos las cuatro T en un solo árbol de decisión. Tu paciente sangra más de lo esperado tras el parto. Activas el código rojo: ayuda, dos vías gruesas, y exámenes de inmediato. Ahora hay que encontrar cuál de las cuatro T tienes delante."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La pregunta que ordena todo: ¿el útero está blando, o está bien contraído?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Un útero blando que no se retrae es atonía, la causa más frecuente."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Masaje bimanual, oxitocina y ácido tranexámico de inmediato."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si persiste, ergometrina, salvo que sea hipertensa, donde usas misoprostol."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si aun así sangra, balón de Bakri, y si no cede, cirugía o histerectomía."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si el útero está duro y sigue sangrando, revisa si la placenta salió completa."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Con placenta completa y útero duro, busca desgarros del canal y sutúralos."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Con placenta incompleta, revisas la cavidad uterina para sacar los restos."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos en una tabla. Si el útero está blando y no se retrae, es tono: masaje, oxitocina y ácido tranexámico."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Si el útero está duro y contraído, pero el sangrado sigue, es trauma: revisas el canal con valvas y suturas los desgarros."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si la placenta salió incompleta, es tejido: revisión manual o instrumental de la cavidad."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y si la sangre no coagula en ningún lado, es trombina: plasma, crioprecipitados y plaquetas."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Una puérpera de un embarazo gemelar, con un trabajo de parto prolongado, presenta sangrado masivo diez minutos después del alumbramiento. El útero está blando, a cuatro centímetros sobre el ombligo, sin ningún tono. Tiene antecedente de preeclampsia, con presión habitual de ciento cincuenta sobre noventa y cinco."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: masaje uterino con oxitocina y ácido tranexámico evitando la ergometrina, dar ergometrina de inmediato, hacer histerectomía como primera medida, revisar el canal buscando desgarros, o dar heparina. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A. El embarazo gemelar y el trabajo de parto prolongado sobredistendieron el útero, y eso explica la atonía. El manejo inicial es masaje, oxitocina y ácido tranexámico. La trampa es la B: con este antecedente hipertensivo, la ergometrina está formalmente contraindicada por el riesgo de una crisis hipertensiva."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciocho. Una paciente de veinticuatro años presenta una metrorragia importante en el puerperio inmediato, con sangre roja abundante. El fondo uterino se palpa por sobre el ombligo."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la medida inicial más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: metilergonovina, misoprostol, masaje uterino, carbetocina, u oxitocina. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, masaje uterino. Es siempre lo primero, con las dos manos, y en paralelo empiezas los fármacos uterotónicos, partiendo por la oxitocina. Los otros fármacos vienen después, si el masaje y la oxitocina no bastan."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y esta es del EUNACOM de diciembre de dos mil diecisiete. Una puérpera con una hemorragia postparto importante tiene un hematocrito de veintiocho por ciento, plaquetas en ochenta mil, con los tiempos de coagulación alargados y un fibrinógeno de noventa."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la mejor indicación transfusional?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: crioprecipitado, glóbulos rojos, plaquetas, sangre fresca, o plasma fresco congelado. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la E. Los tiempos alargados junto con un fibrinógeno bajo te dicen que esto ya no es solo tono ni trauma: es la T de trombina, una coagulación intravascular diseminada. El plasma fresco congelado repone los factores de coagulación que se están consumiendo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El tono, con el útero blando, es la causa más frecuente, de lejos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Si el útero está duro y aun así sangra, piensa en trauma."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El masaje siempre va primero, junto con oxitocina y ácido tranexámico."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Y nunca dés ergometrina a una hipertensa, ni carboprost a una asmática. Si te llevas una sola idea de hoy: primero identifica cuál de las cuatro T tienes, y después sube la escalera sin saltarte pasos. Nos vemos en la próxima clase."
+    }
+  ]
+}

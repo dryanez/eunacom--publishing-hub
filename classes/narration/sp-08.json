@@ -1,0 +1,204 @@
+{
+  "id": "sp-08",
+  "title": "Saludpublica 21.8: Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
+  "specialty": "Salud Pública",
+  "chars": 11131,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos el rendimiento de las pruebas diagnósticas: sensibilidad, especificidad, valores predictivos y curvas ROC. Es uno de los temas de máxima rentabilidad del EUNACOM, porque casi siempre trae una pregunta sobre el efecto de la prevalencia en los valores predictivos. Vamos a partir de la misma tabla de siempre, y a ver por qué esa distinción es la que decide toda la clase."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Toda esta clase sale de comparar un test contra el patrón de oro. Si el test da positivo en alguien que de verdad está enfermo, es un verdadero positivo. Si da positivo en alguien sano, es un falso positivo, un error."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si el test da negativo en alguien enfermo, es un falso negativo, el error más grave en un tamizaje, porque deja a un enfermo sin diagnóstico. Y si da negativo en alguien sano, es un verdadero negativo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Suma la columna de los enfermos y tienes verdaderos positivos más falsos negativos. Suma la columna de los sanos y tienes falsos positivos más verdaderos negativos. Con estas cuatro letras armamos todo lo que sigue."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La sensibilidad es la probabilidad de que el test dé positivo en alguien realmente enfermo: verdaderos positivos, dividido en el total de enfermos. Una prueba muy sensible tiene muy pocos falsos negativos."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y eso te da una regla poderosa: si una prueba muy sensible te da negativa, puedes descartar la enfermedad con bastante tranquilidad, porque casi no se le escapan enfermos. Por eso las pruebas muy sensibles, como el ELISA para VIH o el dímero D, se usan para tamizaje inicial."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La especificidad es la probabilidad de que el test dé negativo en alguien realmente sano: verdaderos negativos, dividido en el total de sanos. Una prueba muy específica tiene muy pocos falsos positivos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si una prueba muy específica te da positiva, confirma la enfermedad con bastante certeza, porque casi no da positivos falsos. Por eso las pruebas muy específicas, como el Western Blot o una biopsia, se usan para confirmar antes de un tratamiento invasivo o tóxico. Y algo clave: ni la sensibilidad ni la especificidad cambian aunque cambie la prevalencia de la enfermedad en la población."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la parte que más se pregunta. El valor predictivo positivo responde la pregunta que realmente le importa al paciente: si mi test salió positivo, ¿qué probabilidad tengo de estar enfermo? Y el valor predictivo negativo: si salió negativo, ¿qué probabilidad tengo de estar sano? Y a diferencia de sensibilidad y especificidad, estos dos sí cambian con la prevalencia."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si aplicas el test en una población con prevalencia alta, como una consulta de especialidad o un brote activo, el valor predictivo positivo sube: como hay muchos enfermos reales, la mayoría de los positivos son verdaderos. Pero el valor predictivo negativo baja: un resultado negativo ya no descarta tan bien, porque hay más enfermos que se te pueden escapar."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y si aplicas el mismo test en una población con prevalencia baja, como un tamizaje masivo en gente sana, ocurre lo contrario: el valor predictivo positivo baja mucho, porque la mayoría de los positivos terminan siendo falsos positivos. Pero el valor predictivo negativo sube, y un resultado negativo es casi garantía de estar sano. Fíjate: el mismo test, con la misma sensibilidad y especificidad, cambia completamente su utilidad clínica según dónde lo apliques."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La razón de verosimilitud positiva es la sensibilidad dividida en uno menos la especificidad. Cuanto más alta, más aumenta la probabilidad de enfermedad tras un resultado positivo, y un valor mayor a diez ya confiere una certeza diagnóstica alta."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La razón de verosimilitud negativa es uno menos la sensibilidad, dividido en la especificidad. Cuanto más baja, más reduce la probabilidad de enfermedad tras un resultado negativo, y un valor menor a cero coma uno prácticamente descarta la enfermedad."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y una ventaja de las razones de verosimilitud frente a los valores predictivos: no dependen de la prevalencia de la población, así que se pueden aplicar al paciente individual que tienes al frente, ajustando su propia probabilidad de estar enfermo antes del examen."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La curva ROC sirve para pruebas que entregan un número continuo, como una glicemia o un antígeno. Grafica la sensibilidad contra uno menos la especificidad, probando distintos puntos de corte, y el punto de corte óptimo es el que queda más cerca de la esquina superior izquierda del gráfico."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El área bajo la curva mide la exactitud global del test. Un área de cero coma cinco es una prueba inútil, equivalente a tirar una moneda. Entre cero coma ochenta y cero coma noventa es una prueba buena, sobre cero coma noventa es excelente, y uno coma cero sería la prueba perfecta, sin errores."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y la curva ROC también sirve para comparar dos pruebas distintas para el mismo diagnóstico: la que tenga mayor área bajo la curva es, en promedio, la más exacta, independiente del punto de corte que finalmente elijas para usarla en la práctica."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Un último hilo que conecta toda la clase: ningún test se interpreta en el vacío. Antes de pedirlo, la historia clínica y el examen físico ya te dan una probabilidad pretest de que el paciente tenga la enfermedad."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El resultado del test, multiplicado por su razón de verosimilitud, mueve esa probabilidad hacia arriba o hacia abajo, y así obtienes la probabilidad postest. Por eso el mismo resultado positivo significa algo distinto en un paciente con alta sospecha clínica que en uno sin ningún síntoma: la prevalencia y la sospecha clínica previa son, en el fondo, la misma idea aplicada a una población o a un solo paciente."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen. La primera decisión es si te preguntan por una propiedad del test en sí, o por lo que significa un resultado en un paciente concreto."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Ambas son intrínsecas al test y no varían aunque cambie la prevalencia de la enfermedad."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Alta sensibilidad y resultado negativo permiten descartar la enfermedad con confianza."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Alta especificidad y resultado positivo permiten confirmar la enfermedad con confianza."
+    },
+    {
+      "file": "s07_g04",
+      "text": "A diferencia de sensibilidad y especificidad, los valores predictivos cambian según dónde se aplique el test."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con muchos enfermos en la muestra, la mayoría de los positivos son verdaderos positivos."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Con pocos enfermos en la muestra, la mayoría de los positivos terminan siendo falsos positivos, y un negativo casi garantiza estar sano."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos con la tabla final. En un tamizaje poblacional masivo, la prevalencia es baja: el valor predictivo positivo baja mucho, con muchos falsos positivos, y el valor predictivo negativo sube, cerca del cien por ciento."
+    },
+    {
+      "file": "s08_g01",
+      "text": "En una consulta de especialidad, donde ya llegan pacientes derivados con sospecha alta, la prevalencia es alta: el valor predictivo positivo sube fuerte, con pocos falsos positivos, y el valor predictivo negativo baja."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y la trampa que se repite siempre: en ambos escenarios, la sensibilidad y la especificidad del test son exactamente las mismas, porque son propiedades intrínsecas de la prueba. Lo único que cambia es cuánto puedes confiar en un resultado positivo o negativo, y eso depende de dónde lo aplicaste."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Se evalúa un nuevo test rápido para antígeno de dengue, comparado con la reacción de polimerasa en cadena, en quinientos pacientes con fiebre en zona endémica. De cien pacientes con reacción de polimerasa positiva, el test rápido fue positivo en noventa y dos y negativo en ocho. De cuatrocientos pacientes con reacción negativa, el test fue negativo en trescientos sesenta y positivo en cuarenta."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la Sensibilidad del nuevo test?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: noventa y dos por ciento, noventa por ciento, ochenta y ocho por ciento, sesenta y nueve coma siete por ciento, u ocho por ciento. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A, noventa y dos por ciento. La sensibilidad se calcula solo en la columna de los verdaderamente enfermos: noventa y dos verdaderos positivos, dividido en los cien enfermos totales. El noventa por ciento es la especificidad, que se calcula en la otra columna, la de los sanos: trescientos sesenta dividido en cuatrocientos. No mezcles las columnas."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis, va directo a lo esencial. Se busca determinar la utilidad de una prueba diagnóstica."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Qué técnica es la más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: elaborar curvas de ROC, determinar sensibilidad y especificidad, determinar sensibilidad y prevalencia, determinar especificidad y valor predictivo negativo, o determinar el número necesario a tratar."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Calcular sensibilidad y especificidad es la forma clásica y directa de conocer el rendimiento de una prueba. Las curvas de ROC también sirven, pero son para pruebas cuantitativas y, de hecho, necesitan calcular sensibilidad y especificidad en cada punto de corte antes de poder dibujarse."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho, sobre la característica obligatoria de una prueba de tamizaje."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Una prueba de tamizaje obligatoriamente debe tener:"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: alta especificidad sin importar la sensibilidad, alta sensibilidad independiente de la especificidad, alto valor predictivo positivo y facilidad de aplicación, bajo valor predictivo negativo y reproductibilidad, o bajo costo y baja sensibilidad."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Un tamizaje tiene que detectar al máximo posible de enfermos, así que exige alta sensibilidad, aunque la especificidad no sea tan alta. Los falsos positivos que eso genera no son un problema grave, porque después se confirman con una prueba más específica. Lo que no te puedes permitir en un tamizaje es un falso negativo, un enfermo que se va a casa creyendo que está sano."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y esta pregunta real, del EUNACOM de julio de dos mil diecinueve, aplica la misma idea a un examen muy conocido. Preguntan qué característica del ELISA permite detectar a los pacientes con infección por VIH en la población asintomática."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál de las siguientes características del ELISA permite detectar a los pacientes con infección por el VIH en la población asintomática?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: alta sensibilidad, baja especificidad, alta especificidad, alto valor predictivo positivo, o alto valor predictivo negativo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, alta sensibilidad. El ELISA es el test de tamizaje para VIH, y como tal necesita una sensibilidad muy alta para no dejar pasar a nadie infectado, aunque tolere una especificidad intermedia. Los positivos del ELISA nunca se dan por confirmados solos: se confirman con el Western Blot, que ahí sí exige una especificidad muy alta."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La sensibilidad y la especificidad son propiedades del test, y no cambian aunque cambie la población donde lo apliques."
+    },
+    {
+      "file": "s13_g01",
+      "text": "El valor predictivo positivo y el negativo sí dependen de la prevalencia: a mayor prevalencia, mayor valor predictivo positivo y menor valor predictivo negativo; a menor prevalencia, ocurre lo contrario."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Para tamizaje, escoge un test de alta sensibilidad: un resultado negativo te permite descartar con confianza."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Para confirmar un diagnóstico, escoge un test de alta especificidad: un resultado positivo te permite confirmar con confianza. Si te llevas una sola idea de hoy: sensibilidad y especificidad son del test, valores predictivos son de la población donde lo aplicas. Nos vemos en la próxima clase."
+    }
+  ]
+}

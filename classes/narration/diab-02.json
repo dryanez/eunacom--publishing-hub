@@ -1,0 +1,308 @@
+{
+  "id": "diab-02",
+  "title": "Diabetes 1.2: Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 13627,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos qué tipo de diabetes tiene el paciente; hoy vamos un paso antes: cómo se diagnostica. Es de los temas más preguntados del examen, y casi todo se juega en números: ciento veintiséis, doscientos, seis coma cinco, cien, ciento cuarenta. Al final vas a saber qué hacer con cada valor: si confirma, si hay que repetir, o si hay que pedir otro examen."
+    },
+    {
+      "file": "s01_g00",
+      "text": "En el adulto no embarazado, basta cumplir cualquiera de cuatro criterios. El primero, la glicemia de ayuno igual o mayor a ciento veintiséis, en plasma venoso y con al menos ocho horas de ayuno."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo, la prueba de tolerancia a la glucosa oral: se dan setenta y cinco gramos de glucosa, y si a las dos horas la glicemia es igual o mayor a doscientos, es diabetes."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El tercero, la hemoglobina glicosilada igual o mayor a seis coma cinco por ciento, medida en un laboratorio estandarizado."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y el cuarto, una glicemia tomada a cualquier hora, igual o mayor a doscientos, pero con síntomas: las cuatro P, polidipsia, poliuria, polifagia y pérdida de peso. Fíjate en el detalle: doscientos al azar sin síntomas no es este criterio."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora la regla que más se pregunta. Tienes un valor en rango de diabetes. Lo que decide si confirmas o repites es una sola pregunta: ¿el paciente tiene síntomas?"
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si tiene síntomas clásicos y una glicemia igual o mayor a doscientos, la hiperglicemia es inequívoca. El diagnóstico está hecho con ese solo examen, y se inicia el tratamiento."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y ojo con la trampa: la alternativa que dice pedir una glicemia de ayuno la próxima semana para confirmar suena prudente, pero es incorrecta. Solo retrasa el tratamiento de un paciente que ya está descompensado."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si en cambio está asintomático, una sola glicemia de ayuno sobre ciento veintiséis, o una sola hemoglobina glicosilada sobre seis coma cinco, no basta. Hay que repetir en un día diferente. Un solo examen alterado en un paciente sin síntomas es sospecha, no diagnóstico."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Entre lo normal y la diabetes hay una zona gris: la prediabetes. No es un detalle, porque identifica a pacientes con riesgo cardiovascular alto y con gran probabilidad de llegar a ser diabéticos. La primera forma es la glicemia de ayuno alterada: entre cien y ciento veinticinco."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La segunda es la intolerancia a la glucosa oral: en la prueba de tolerancia, el valor a las dos horas queda entre ciento cuarenta y ciento noventa y nueve."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y la tercera, una hemoglobina glicosilada entre cinco coma siete y seis coma cuatro por ciento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Aparte está la resistencia a la insulina, que se mide con el índice HOMA: glicemia de ayuno por insulina de ayuno, dividido por cuatrocientos cinco. En adultos chilenos, un valor sobre dos coma seis certifica resistencia a la insulina. Pero no es un criterio de diabetes ni de prediabetes: es el mecanismo de la tipo dos que vimos la clase pasada, medido en un número."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos al tamizaje en atención primaria. ¿A quién? A todo adulto con sobrepeso u obesidad, es decir, índice de masa corporal de veinticinco o más, que tenga además un factor de riesgo: sedentarismo, hipertensión, dislipidemia o un familiar de primer grado diabético. Y a toda persona mayor de cuarenta y cinco años."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El examen con que se parte es la glicemia de ayuno. Y según el resultado, hay tres caminos."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si es menor a cien, es normal, y se repite en tres años."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si está entre cien y ciento veinticinco, es una glicemia de ayuno alterada, y el paso siguiente es la prueba de tolerancia a la glucosa oral. ¿Por qué? Porque la curva puede destapar una intolerancia o incluso una diabetes que la glicemia de ayuno no mostraba."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y aquí está la trampa más repetida del tema: repetir la glicemia de ayuno. No sirve, porque ya sabemos que está en rango de prediabetes. Entre cien y ciento veinticinco, la respuesta es la PTGO."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si es ciento veintiséis o más en un paciente asintomático, ahora sí se repite la glicemia de ayuno, en otro día. Fíjate que es exactamente la regla de oro que acabamos de ver."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Veamos cómo se resuelve. Si la segunda glicemia de ayuno vuelve a dar ciento veintiséis o más, dos valores en días distintos: diabetes confirmada."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pero si la segunda sale bajo ciento veintiséis, tienes dos resultados discordantes. Y aquí el examen pone dos trampas opuestas: confirmar la diabetes por la primera, o descartarla por la segunda. Ninguna es correcta."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Lo que corresponde es desempatar con la prueba de tolerancia a la glucosa oral. Y la lectura de la curva es siempre la misma: lo que manda es el valor a las dos horas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Bajo ciento cuarenta, es normal; y si la basal estaba entre cien y ciento veinticinco, queda como glicemia de ayuno alterada. Entre ciento cuarenta y ciento noventa y nueve, intolerancia a la glucosa oral."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y doscientos o más a las dos horas es diabetes. En el algoritmo de atención primaria del libro, una PTGO en ese rango no se repite: confirma."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Un escenario que el examen adora: el paciente hospitalizado. Una sepsis, un infarto, un politrauma, una neumonía grave, o un tratamiento con corticoides, liberan cortisol y catecolaminas, que son hormonas que suben la glicemia."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Por eso estos pacientes tienen hiperglicemia, sobre ciento ochenta o doscientos, aunque no sean diabéticos. Es la hiperglicemia de estrés."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Entonces, en este contexto, la glicemia no sirve para diagnosticar diabetes de base, y la prueba de tolerancia tampoco, porque el mismo estrés la altera. Esa es la trampa."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El examen de elección es la hemoglobina glicosilada. Como refleja el promedio de los dos a tres meses previos, no se deja engañar por el estrés de hoy. Si es seis coma cinco o más, el paciente ya era diabético antes de ingresar."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Para entender cuándo falla la hemoglobina glicosilada, recuerda qué mide: la glucosa pegada a la hemoglobina durante la vida del glóbulo rojo, es decir, el promedio de los últimos dos a tres meses. Si la vida del glóbulo rojo cambia, el resultado cambia."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Sale falsamente baja cuando los glóbulos rojos viven menos o son reemplazados por glóbulos nuevos: en las anemias hemolíticas, en las pérdidas agudas de sangre y en la hemodiálisis. Hubo menos tiempo para que la glucosa se pegara."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y sale falsamente alta cuando los glóbulos rojos viven más de la cuenta: en la anemia ferropénica severa y prolongada, y después de una esplenectomía, porque falta el bazo que los retira."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Una vez confirmado el diagnóstico, se notifica al paciente la garantía GES de diabetes mellitus tipo dos, que cubre a personas de quince años y más."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La garantía asegura la confirmación diagnóstica y la evaluación integral inicial en menos de cuarenta y cinco días."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El acceso a los fármacos de primera línea: metformina, sulfonilureas e insulina, con sus insumos."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y los exámenes de control: hemoglobina glicosilada cada tres a seis meses, creatinina, y una vez al año la albuminuria, el fondo de ojo y la evaluación de los pies."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el diagnóstico ya orienta el manejo. En la prediabetes, cambios de estilo de vida, y en la intolerancia a la glucosa se puede sumar metformina si el índice de masa corporal supera treinta y cinco."
+    },
+    {
+      "file": "s08_g05",
+      "text": "En la diabetes, metformina más dieta y ejercicio; y si la hemoglobina glicosilada está en nueve o más, terapia combinada precoz. El detalle del tratamiento lo vemos en el bloque siguiente."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen. Adulto no embarazado, con una glicemia alterada o en tamizaje. Lo primero no es el número, sino el contexto."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Tiene síntomas clásicos, está asintomático, o está hospitalizado con una enfermedad aguda?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Síntomas clásicos con una glicemia al azar de doscientos o más: diagnóstico confirmado. No se repite, se trata y se ingresa a GES."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Hospitalizado con una enfermedad aguda o con corticoides: la glicemia no sirve. Se pide hemoglobina glicosilada; seis coma cinco o más indica diabetes previa."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Asintomático: todo parte de la glicemia de ayuno. ¿En qué rango está?"
+    },
+    {
+      "file": "s09_g05",
+      "text": "Menor a cien: normal. Se repite el tamizaje en tres años."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Entre cien y ciento veinticinco: curva de tolerancia. Entre ciento cuarenta y ciento noventa y nueve a las dos horas es intolerancia; doscientos o más, diabetes."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Ciento veintiséis o más: se repite en otro día. Si se confirma, es diabetes; si la segunda sale menor, desempata la curva de tolerancia."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Repasemos las trampas. Síntomas con glicemia al azar de doscientos o más: diagnóstico confirmado, y se trata. El error es pedir una glicemia de ayuno para confirmar."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Asintomático con un ayuno de ciento veintiséis o más: se repite en otro día. El error es diagnosticar con un solo valor."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Ayuno entre cien y ciento veinticinco: prueba de tolerancia a la glucosa. El error es repetir la glicemia de ayuno."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Primera glicemia sobre ciento veintiséis y segunda bajo ciento veintiséis: desempata la PTGO. El error es confirmar por la primera, o descartar por la segunda."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Paciente hospitalizado, con una enfermedad aguda o con corticoides: hemoglobina glicosilada. El error es pedir glicemia o PTGO, que salen alteradas por el estrés."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y un HOMA alto con glicemia normal es resistencia a la insulina. No es diabetes ni prediabetes, y se maneja con estilo de vida."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos con un caso. Hombre de cuarenta y nueve años, transportista, obeso, hipertenso y sin síntomas. En un examen preventivo laboral le sale una glicemia de ayuno de ciento treinta y dos. Niega sed y baja de peso."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las alternativas: confirmar diabetes e iniciar metformina, repetir la glicemia de ayuno en otro día, pedir una prueba de tolerancia a la glucosa, pedir péptido C y anticuerpos, o controlar en tres años. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Paciente asintomático, un solo valor sobre ciento veintiséis: es sospecha, y se repite en otro día. El distractor más tentador es la A, porque el paciente tiene todo el perfil de tipo dos, pero el perfil no reemplaza la confirmación. Y la PTGO sería la respuesta si la glicemia hubiera estado entre cien y ciento veinticinco."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Mujer asintomática de cuarenta y seis años, de peso normal, con antecedente de diabetes gestacional en su último embarazo. Su glicemia de ayuno es ciento doce."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: repetir la glicemia en ayunas, pedir hemoglobina glicosilada, indicar metformina, controlar en seis meses, o pedir una curva de tolerancia a la glucosa. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la E. Ciento doce está entre cien y ciento veinticinco: glicemia de ayuno alterada, y el paso siguiente es la curva. El distractor clásico es repetir la glicemia, que no aporta nada. Y un detalle: esta mujer ya no está embarazada, así que se usan los cortes del adulto. En el embarazo los cortes cambian, como veremos en la próxima clase."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y nueve años, obeso, con una prueba de tolerancia a la glucosa que muestra una basal de ciento diecisiete y, a las dos horas, ciento treinta y seis."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: normal, diabetes tipo dos, intolerancia a la glucosa oral, diabetes tipo uno, o prediabetes. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la E, prediabetes. Lee los dos valores por separado. La basal de ciento diecisiete está entre cien y ciento veinticinco: glicemia de ayuno alterada. La de las dos horas, ciento treinta y seis, está bajo ciento cuarenta: no hay intolerancia. El distractor es justamente la intolerancia a la glucosa, que exigiría ciento cuarenta o más a las dos horas. Glicemia de ayuno alterada sola es prediabetes."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta reciente, del EUNACOM de diciembre de dos mil veinticinco. Paciente de treinta y cinco años, obeso y con resistencia a la insulina, hospitalizado por una reacción alérgica severa, en tratamiento con corticoides sistémicos. Sus glicemias se mantienen en torno a ciento ochenta."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: péptido C, test de tolerancia a la glucosa, hemoglobina glicosilada, índice HOMA, o insulinemia postcarga. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C, hemoglobina glicosilada. Hay dos factores de estrés: la reacción alérgica y los corticoides, y ambos suben la glicemia. En ese contexto, la curva de tolerancia es el distractor tentador, pero sale alterada por el mismo estrés. La hemoglobina glicosilada mira los meses previos y responde lo que importa: si era diabético antes de hospitalizarse."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Y la última, del EUNACOM de julio de dos mil quince. Adolescente de dieciséis años, obeso, con glicemia de ayuno de noventa y seis e insulina basal de veintitrés."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: iniciar insulina, dieta y ejercicio, metformina, pedir una curva de tolerancia, o metformina más glibenclamida. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B. Calcula el HOMA: noventa y seis por veintitrés, dividido por cuatrocientos cinco, da cerca de cinco coma cinco. Está sobre dos coma seis, así que hay resistencia a la insulina. Pero con glicemia bajo cien no hay diabetes ni glicemia alterada, y la curva no está indicada. Corresponde dieta y ejercicio. Los fármacos son el distractor: tratan un diagnóstico que el paciente no tiene."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Los cuatro criterios: ayuno de ciento veintiséis, curva de doscientos a las dos horas, hemoglobina glicosilada de seis coma cinco, o glicemia al azar de doscientos con síntomas."
+    },
+    {
+      "file": "s16_g01",
+      "text": "En el asintomático, el valor alterado se confirma en otro día. Con síntomas y doscientos, no se repite nada: se trata."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Entre cien y ciento veinticinco, curva de tolerancia, no otra glicemia. Y si dos glicemias no concuerdan, también desempata la curva."
+    },
+    {
+      "file": "s16_g03",
+      "text": "En el hospitalizado o con corticoides, hemoglobina glicosilada. Si te llevas una sola idea de hoy: antes de mirar el número, mira al paciente; si tiene síntomas, si está asintomático o si está hospitalizado, porque eso decide qué hacer con el valor. Nos vemos en la próxima clase."
+    }
+  ]
+}

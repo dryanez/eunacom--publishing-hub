@@ -1,0 +1,220 @@
+{
+  "id": "nefro-15",
+  "title": "Nefrologia 4.3: Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+  "specialty": "Nefrología",
+  "chars": 9548,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En las dos clases anteriores vimos el síndrome nefrótico, donde el glomérulo deja escapar proteínas sin inflamarse. Hoy cambiamos de lado: el síndrome nefrítico, donde el glomérulo se inflama y deja pasar sangre. Y lo vamos a estudiar con su prototipo, la glomerulonefritis postestreptocócica, un caso clínico clásico del EUNACOM que se resuelve con dos datos: cuánto tiempo pasó desde la infección y cómo está el C tres."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. Todo comienza con una infección por Streptococcus pyogenes, el estreptococo beta hemolítico del grupo A. No cualquier cepa: solo las nefritogénicas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Y aquí está la clave cronológica. El riñón no se enferma durante la infección, sino después. Hay un período de latencia sin síntomas, en que el sistema inmune forma inmunocomplejos que se depositan en el glomérulo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Esos inmunocomplejos activan el complemento y lo consumen. Por eso el C tres baja. Guarda este dato, porque es el que decide el diagnóstico."
+    },
+    {
+      "file": "s01_g03",
+      "text": "En el glomérulo se produce una inflamación que rompe la membrana basal. Por esa brecha pasan glóbulos rojos que se deforman al atravesarla, y por eso la hematuria es dismórfica, con acantocitos y cilindros hemáticos."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Además, el glomérulo inflamado filtra menos. El riñón retiene sodio y agua, el volumen se expande, y aparecen la hipertensión y el edema. Fíjate en esto, porque explica el tratamiento: el problema que hay que resolver es el volumen."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo llega el paciente, y lo primero que tienes que buscar en la historia es la latencia. Si la infección fue una faringoamigdalitis, los síntomas renales aparecen una a dos semanas después."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si fue una infección de la piel, un impétigo o una piodermitis, la latencia es más larga: tres a seis semanas."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Luego aparece el síndrome nefrítico. Orina oscura, color té o coca-cola, porque es sangre de origen glomerular."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Edema de los párpados en la mañana y de los tobillos, por la sal y el agua retenidas."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y la hipertensión, con grados variables de oliguria. Hematuria, hipertensión y edema: esa es la tríada del síndrome nefrítico."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El laboratorio confirma lo que la clínica sugiere. En el sedimento está el sello del glomérulo: más de setenta a ochenta por ciento de glóbulos rojos dismórficos, acantocitos y cilindros hemáticos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La proteinuria existe, pero es subnefrótica, bajo uno a dos gramos al día. Eso lo separa del nefrótico que vimos antes."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y el complemento: el C tres está marcadamente bajo, con un C cuatro normal o apenas disminuido, en más del noventa por ciento de los pacientes."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Ese C tres bajo es transitorio: vuelve a lo normal solo, entre las seis y las ocho semanas."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Para demostrar la infección previa, se piden anticuerpos. La antiestreptolisina O, si el foco fue faríngeo."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y la anti DNAsa B, que es la más sensible cuando la infección fue en la piel."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ese carácter transitorio del C tres tiene una consecuencia práctica, y se pregunta. Al paciente con sospecha de postestreptocócica se le vuelve a medir el complemento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si a las seis a ocho semanas el C tres volvió a lo normal, el cuadro se comportó como debía, y eso confirma el diagnóstico."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Pero si sigue bajo después de ocho a doce semanas, ya no es una postestreptocócica. Hay otra enfermedad que está consumiendo complemento de forma sostenida."
+    },
+    {
+      "file": "s04_g03",
+      "text": "En ese caso se hace biopsia renal, sospechando un lupus o una glomerulonefritis membranoproliferativa. Nota que la postestreptocócica típica no se biopsia: se biopsia cuando no se comporta como tal."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Pasemos al tratamiento. La postestreptocócica es autolimitada en más del noventa y cinco por ciento de los pacientes: la falla renal y la hipertensión se resuelven en una a tres semanas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Por eso no requiere corticoides ni inmunosupresores. Esta es la trampa más clásica del tema: aunque sea una enfermedad inmune, no se inmunosuprime."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Recuerda el mecanismo: el problema es el volumen. Entonces se trata el volumen, con reposo y restricción estricta de sodio y de líquidos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y con un diurético de asa, la furosemida, que elimina sodio, revierte el edema y controla la presión."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si el paciente llega con una crisis hipertensiva o con edema pulmonar, el rescate es la furosemida en bolo intravenoso. En el examen, cuando ves un joven con nefrítico, presión alta y crépitos, la respuesta es furosemida endovenosa."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos todo en un árbol de decisión, partiendo de un paciente con orina oscura. Paciente con orina oscura, edema e hipertensión, y un sedimento con hematuria dismórfica y cilindros hemáticos, que viene de una infección. Es un síndrome nefrítico, y la primera pregunta es la latencia: cuánto tiempo pasó entre la infección y la orina oscura."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si la hematuria apareció junto con la infección respiratoria, en veinticuatro a cuarenta y ocho horas, y el complemento es normal, piensa en nefropatía por IgA. Control de presión con IECA o ARA dos."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si hubo una latencia de una a dos semanas tras una faringitis, o tres a seis tras una infección de piel, con C tres bajo y C cuatro normal: postestreptocócica. Restricción de sodio y líquidos y furosemida, sin corticoides. Si hay edema pulmonar o crisis hipertensiva, furosemida en bolo intravenoso."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Después, controla el complemento. ¿Volvió a lo normal a las seis a ocho semanas?"
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si se normalizó, se confirma la postestreptocócica, que se resolvió sola."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si sigue bajo después de ocho a doce semanas, ya no es postestreptocócica: se biopsia pensando en lupus o membranoproliferativa."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora, la diferencia que más se pregunta. Frente a una hematuria después de una faringitis, tienes que separar la postestreptocócica de la nefropatía por IgA, o enfermedad de Berger. Lo primero es la latencia: en la postestreptocócica hay una a dos semanas; en la IgA, la hematuria aparece a las veinticuatro a cuarenta y ocho horas, junto con la infección. Por eso se llama sinfaringítica."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Lo segundo es el complemento: bajo en la postestreptocócica, completamente normal en la IgA."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La edad: la postestreptocócica es típica entre los cinco y los quince años; la IgA, del adulto joven, en la segunda y tercera década."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La postestreptocócica es un episodio único; la IgA, en cambio, hace brotes con cada infección respiratoria."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y el tratamiento: soporte con furosemida y sal para la postestreptocócica; control de presión con IECA o ARA dos para la IgA, y corticoides si la proteinuria pasa de un gramo al día."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos al caso. Hombre de veintidós años con tres días de cefalea, cara hinchada y orina color café. Hace doce días tuvo una faringoamigdalitis que trató solo tres días. Presión de ciento setenta y cinco con ciento cinco, edema de párpados y tobillos, creatinina uno coma nueve, hematuria con ochenta y cinco por ciento de dismorfia y cilindros hemáticos. C tres muy bajo y C cuatro normal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el tratamiento inicial de elección?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: prednisona, restricción de sodio y furosemida, completar la amoxicilina para tratar el riñón, pulsos de ciclofosfamida, o biopsia renal antes de todo. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La respuesta es la B. Doce días de latencia después de una faringitis, nefrítico, y C tres bajo con C cuatro normal: postestreptocócica. Es autolimitada y el problema es el volumen, así que se trata con sal restringida y furosemida. La prednisona es la trampa: es inmune, pero no se inmunosuprime. Y el antibiótico no repara un daño glomerular que ya está instalado."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de veintidós años que tuvo una amigdalitis bacteriana hace dos semanas, con tratamiento incompleto. Ahora tiene cefalea, edema de piernas y presión de ciento ochenta con ciento diez. Creatinina dos, hematuria con ochenta por ciento de dismorfia, proteinuria de novecientos miligramos, y complemento bajo."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: diuréticos, antiinflamatorios, antibióticos, inmunosupresores, o corticoides. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A, diuréticos. Latencia de dos semanas, nefrítico y complemento bajo: postestreptocócica clásica, y se trata el volumen. Fíjate en el distractor de los antibióticos: el dato del tratamiento incompleto está puesto para tentarte, pero el daño renal es inmunológico y ya está hecho. Y los corticoides no se usan en la forma típica."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y ahora la contracara, del EUNACOM de julio de dos mil quince. Paciente de treinta y dos años con dos días de odinofagia, fiebre y mialgias, al que se agrega hematuria. Creatinina normal, proteinuria de quinientos miligramos al día, y C tres y C cuatro normales."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: nefropatía mesangiocapilar, lupus, glomerulonefritis postestreptocócica, nefropatía por IgA, o vasculitis de vaso pequeño. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, nefropatía por IgA. Aplica los dos datos de la tabla: la hematuria apareció a los dos días, junto con la faringitis, y el complemento es normal. La postestreptocócica tienta porque hay faringitis, pero le falta la latencia y le falta el C tres bajo. Y la lúpica y la mesangiocapilar también consumen complemento."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El síndrome nefrítico es hematuria dismórfica con cilindros hemáticos, hipertensión y edema."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Latencia de una a dos semanas y C tres bajo: postestreptocócica. Hematuria junto con la faringitis y complemento normal: IgA."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si el C tres sigue bajo después de ocho a doce semanas, ya no es postestreptocócica: se biopsia."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Y se trata el volumen: sal restringida y furosemida, sin corticoides. Si te llevas una sola idea de hoy: en la postestreptocócica, el tiempo y el C tres hacen el diagnóstico, y el volumen decide el tratamiento. En la próxima clase vemos qué pasa cuando el nefrítico no se detiene y destruye el riñón en semanas. Nos vemos en la próxima clase."
+    }
+  ]
+}

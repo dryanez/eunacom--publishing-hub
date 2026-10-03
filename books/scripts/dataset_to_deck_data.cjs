@@ -24,7 +24,22 @@ const ACCENTS = {
   endocrinologia: '#7c3aed',
   cardiologia: '#e11d48',
   infectologia: '#0284c7',
+  neumologia: '#0f766e',
+  diabetes: '#0891b2',
+  hematologia: '#be123c',
+  nefrologia: '#a16207',
 };
+
+const DISPLAY_NAMES = {
+  neumologia: 'Neumología',
+  diabetes: 'Diabetes',
+  endocrinologia: 'Endocrinología',
+  hematologia: 'Hematología',
+};
+
+function displayName(specialtyKey) {
+  return DISPLAY_NAMES[specialtyKey] || `${specialtyKey[0].toUpperCase()}${specialtyKey.slice(1)}`;
+}
 
 function stripHtml(s) {
   return String(s || '').replace(/<[^>]+>/g, '');
@@ -35,6 +50,24 @@ function stripHtml(s) {
 function notesFromParagraphs(paragraphs, opts = {}) {
   const lead = opts.lead ? opts.lead + ' ' : '';
   return lead + (paragraphs || []).map(stripHtml).join(' ');
+}
+
+function decodeEntities(s) {
+  return s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+}
+
+// Resume los nodos en negrita del SVG del libro en 3 etapas: entrada, decisión y conducta final.
+function stepsFromSvg(svg) {
+  const nodes = [...String(svg).matchAll(/<text[^>]*font-weight="(?:bold|600|700|800|900)"[^>]*>([^<]+)</g)]
+    .map(m => decodeEntities(m[1]).trim())
+    .filter(Boolean);
+  if (nodes.length < 3) return null;
+  const tail = nodes.slice(2);
+  return [
+    `1. ${nodes[0]}`,
+    `2. ${nodes[1]}`,
+    `3. ${tail.slice(0, 3).join(' · ')}`,
+  ];
 }
 
 function reconArray(reconstrucciones) {
@@ -162,6 +195,7 @@ function convertClass(cls, specialtyKey, examPatterns) {
       notes: `[SLIDE ${n}] ${cls.algoTitle || 'Algoritmo de decisión clínica oficial.'}`,
       title: cls.diagram.title || cls.algoTitle,
       svg: cls.diagram.svg,
+      ...(stepsFromSvg(cls.diagram.svg) ? { steps: stepsFromSvg(cls.diagram.svg) } : {}),
     });
     n++;
   }
@@ -230,7 +264,7 @@ function convertClass(cls, specialtyKey, examPatterns) {
   return {
     id: cls.classId,
     topicLabel: cls.topicLabel,
-    title: `${specialtyKey[0].toUpperCase()}${specialtyKey.slice(1)} ${cls.topicLabel}: ${cls.title}`,
+    title: `${displayName(specialtyKey)} ${cls.topicLabel}: ${cls.title}`,
     perfilCodes: [cls.perfilCode].filter(Boolean),
     tier: cls.tier,
     realQuestionCount: realQuestions.length,

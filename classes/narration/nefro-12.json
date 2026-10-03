@@ -1,0 +1,228 @@
+{
+  "id": "nefro-12",
+  "title": "Nefrologia 3.4: Alcalosis Metabólica y Trastornos Ácido-Base Mixtos",
+  "specialty": "Nefrología",
+  "chars": 10207,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos la acidosis metabólica; hoy vamos al trastorno opuesto, la alcalosis metabólica, y cerramos con los trastornos mixtos. Toda la clase gira en torno a un examen barato, el cloro urinario, que te dice si la alcalosis se cura con suero fisiológico o si hay un exceso de aldosterona detrás."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La alcalosis metabólica es el espejo de lo que vimos la clase pasada: pH sobre siete coma cuarenta y cinco y bicarbonato sobre veintiocho miliequivalentes por litro."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Para que exista necesitas dos cosas. Primero, un factor generador: se pierden protones, como en el vómito, o se gana bicarbonato."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Pero un riñón sano botaría ese exceso de bicarbonato en horas. Por eso se necesita un segundo factor, de mantención: depleción de volumen, hipocloremia o hipokalemia, que impiden al riñón excretar el bicarbonato. Y esta idea es la clave del tratamiento: si corriges la mantención, el riñón cura la alcalosis solo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El pulmón compensa al revés que en la acidosis: hipoventila para retener CO dos. La presión de CO dos sube cero coma siete por cada miliequivalente que sube el bicarbonato."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Pero esa compensación tiene techo: rara vez supera los cincuenta y cinco milímetros de mercurio, porque si el paciente hipoventila demasiado se pone hipoxémico, y la hipoxemia vuelve a estimular la respiración."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos la clínica. Al subir el pH, la albúmina captura más calcio, y baja el calcio ionizado aunque el calcio total esté normal. El paciente tiene parestesias, sobre todo periorales, e irritabilidad neuromuscular."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y puede llegar a los signos de Chvostek y Trousseau, y a la tetania con espasmo carpopedal. Es el mismo mecanismo que vimos como riesgo del bicarbonato en la clase anterior."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Además, la alcalosis mete potasio a la célula, así que se acompaña de hipokalemia, con debilidad y riesgo de arritmias. Es la redistribución que vimos en la clase de hipokalemia."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, el examen clave. Frente a una alcalosis metabólica, pides el cloro urinario. Te dice si el riñón está ávido de cloro y volumen, o si lo está botando."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si el cloro urinario es menor de veinte miliequivalentes por litro, el riñón está reteniendo todo el cloro que puede: hay depleción de volumen e hipocloremia. Es la alcalosis sensible a cloro, o salino responsiva."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La causa estelar es la pérdida gástrica de ácido clorhídrico: vómitos repetidos, una estenosis pilórica, o una sonda nasogástrica abierta. También los diuréticos tiazídicos o de asa, una vez que se suspenden."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si el cloro urinario es mayor de veinte, el volumen está normal o expandido. Es la alcalosis resistente a cloro: aquí el suero fisiológico no la va a corregir."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y la presión arterial vuelve a separar, igual que en la hipokalemia. Con hipertensión, piensa en exceso de mineralocorticoides: hiperaldosteronismo primario o síndrome de Conn, Cushing, o estenosis de la arteria renal."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Con presión normal, las tubulopatías genéticas: el síndrome de Bartter, que afecta el asa, y el de Gitelman, que afecta el túbulo distal."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El tratamiento sigue la misma división. En la alcalosis sensible a cloro, suero fisiológico al cero coma nueve por ciento con cloruro de potasio. Fíjate en la palabra cloro: sin aportar cloro, la alcalosis no se cura."
+    },
+    {
+      "file": "s04_g01",
+      "text": "¿Por qué el cloro? Porque en el túbulo colector, el transportador llamado pendrina intercambia bicarbonato por cloro. Si le das cloro, el riñón puede botar bicarbonato en la orina y el pH se normaliza."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la resistente con hipertensión, el problema es la aldosterona: se usa espironolactona, o se corrige la causa, como la cirugía del adenoma suprarrenal."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y en Bartter y Gitelman, suplementos de potasio y magnesio."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Veamos el ejemplo más preguntado, el paciente que vomita. Pierde ácido clorhídrico, y el bicarbonato que el estómago generó queda en la sangre sin amortiguar."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Además pierde volumen y cloro. La aldosterona se activa y el riñón reabsorbe sodio a toda costa, pero a cambio secreta protones y potasio en la orina. Por eso la orina puede ser ácida en plena alcalosis: es la aciduria paradójica."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El resultado es una alcalosis hipoclorémica e hipokalémica, que el riñón mantiene porque está priorizando el volumen sobre el pH."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y la salida es devolver lo que falta: volumen, cloro y potasio. Suero fisiológico con cloruro de potasio. Apenas el riñón recupera volumen y cloro, deja de retener bicarbonato."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Cerremos el bloque con los trastornos mixtos. La herramienta es siempre la misma: calcular cuánto debería compensar el pulmón. En la acidosis usas Winter; en la alcalosis, la regla del cero coma siete."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si la presión de CO dos medida no calza con la esperada, hay un segundo trastorno respiratorio. Si está más alta de lo esperado, se agrega una acidosis respiratoria; si está más baja, una alcalosis respiratoria."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y una pista que se pregunta: un pH normal no descarta un trastorno. Si tienes un bicarbonato muy alterado con pH normal, probablemente hay dos trastornos que se están anulando. Lo vas a ver en la pregunta real que viene."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El ejemplo clásico que vimos en la clase anterior es la intoxicación por salicilatos: acidosis metabólica con una alcalosis respiratoria precoz."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora juntemos todo en un árbol de decisión para la alcalosis metabólica. Tienes un pH alto con bicarbonato alto: alcalosis metabólica. Revisa la compensación y pide el examen clave."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La pregunta es una sola: ¿el cloro urinario está bajo veinte?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si está bajo veinte, es sensible a cloro: vómitos, sonda nasogástrica o diuréticos suspendidos. Suero fisiológico con cloruro de potasio."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si está sobre veinte, es resistente a cloro, y el suero no la va a corregir. ¿El paciente es hipertenso?"
+    },
+    {
+      "file": "s07_g04",
+      "text": "Con hipertensión, busca un exceso de mineralocorticoides: Conn, Cushing o estenosis de la arteria renal. Espironolactona o corrección quirúrgica."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con presión normal, piensa en Bartter o Gitelman, y suplementa potasio y magnesio."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Vómitos con cloro urinario bajo veinte: suero fisiológico con cloruro de potasio. Las alternativas exóticas, como acetazolamida o ácido clorhídrico, son distractores."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Si la alcalosis es sensible a cloro, necesita cloro. Un suero glucosado no trae cloro y no la corrige."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Hipertensión, hipokalemia y cloro urinario alto: hiperaldosteronismo primario. Los vómitos ocultos darían cloro urinario bajo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Cloro urinario alto con presión normal: Bartter o Gitelman."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y las parestesias o el Trousseau en una alcalosis se explican por el calcio iónico bajo, aunque el calcio total esté normal."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Por último, un pH normal con bicarbonato muy alterado es un trastorno mixto, no unos gases normales."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos al caso. Hombre de treinta y ocho años con una úlcera duodenal estenosante y cinco días de vómitos profusos después de cada comida. Tiene debilidad y calambres periorales. Está hipotenso, con ortostatismo, taquicárdico y muy deshidratado. pH siete coma cincuenta y cuatro, bicarbonato cuarenta y dos, cloro ochenta y dos, potasio dos coma seis, y cloro urinario de ocho."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta prioritaria?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: espironolactona, suero fisiológico con cloruro de potasio, suero glucosado, acetazolamida, o pedir aldosterona y renina. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Es una alcalosis hipoclorémica e hipokalémica por un síndrome pilórico, y el cloro urinario de ocho confirma que es sensible a cloro. Suero fisiológico con cloruro de potasio. Los calambres periorales son el calcio iónico bajo por la alcalosis. El distractor es la espironolactona, o pedir aldosterona: eso es para la alcalosis resistente con hipertensión, y este paciente está hipotenso con el cloro urinario bajo."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de setenta y ocho años, hipertensa, usuaria de hidroclorotiazida, con diarrea y vómitos, que llega en sopor profundo, con presión de ochenta cincuenta y frecuencia de ciento veinte. Sodio ciento cincuenta y seis, cloro ciento catorce, potasio tres coma uno, pH siete coma cuarenta, bicarbonato catorce y CO dos de veinte."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál de los siguientes fluidos se debe administrar en primer lugar?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: suero glucosado, suero fisiológico, bicarbonato dos tercios molar, agua por sonda, o sales de rehidratación oral. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, suero fisiológico. La paciente está en shock, y en el shock primero se repone la volemia con un cristaloide; la natremia se corrige después. El glucosado tienta por el sodio alto, pero no sostiene la presión. Y fíjate en los gases: un pH normal con bicarbonato de catorce. Winter predice una presión de CO dos de veintisiete a treinta y uno, y es veinte. Es un trastorno mixto, y el bicarbonato no está indicado."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real del mismo examen, julio de dos mil dieciséis. Paciente de setenta años, diabético e hipertenso, con metformina, losartán e hidroclorotiazida, que tiene cuatro días de vómitos y diarrea, con menos orina. Está bradipsíquico, con presión de cien cincuenta y taquicárdico. Creatinina de dos, nitrógeno ureico de setenta y ocho, fracción excretada de sodio de cero coma cinco por ciento, sodio ciento treinta, potasio dos y cloro ciento diez."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Qué fluido debe administrarse inicialmente?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: glucosado, Ringer lactato, albúmina, glucosalino isotónico, o bicarbonato. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, Ringer lactato. Está hipovolémico, con una falla prerrenal, y lo primero es el volumen con un cristaloide isotónico. El suero fisiológico no está entre las opciones, y el Ringer además trae algo de potasio. El potasio de dos se repone en paralelo, y recuerda la clase anterior: nunca con glucosa como vehículo. El bicarbonato no tiene indicación."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Cloro urinario bajo veinte es una alcalosis sensible a cloro: vómitos, sonda nasogástrica o diuréticos ya suspendidos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Cloro urinario sobre veinte con hipertensión es un exceso de aldosterona como el Conn; con presión normal, Bartter o Gitelman."
+    },
+    {
+      "file": "s12_g02",
+      "text": "La sensible a cloro se trata con suero fisiológico y cloruro de potasio, y la resistente con hipertensión, con espironolactona o cirugía."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Y en todo gas, calcula la compensación esperada: si no calza, hay dos trastornos, aunque el pH sea normal. Con esto cerramos el bloque de potasio y ácido base; en la próxima clase entramos a las glomerulopatías. Si te llevas una sola idea de hoy: en la alcalosis metabólica, el cloro urinario decide si basta el suero fisiológico. Nos vemos en la próxima clase."
+    }
+  ]
+}

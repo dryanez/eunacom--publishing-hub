@@ -1,0 +1,184 @@
+{
+  "id": "nefro-04",
+  "title": "Nefrologia 1.4: Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+  "specialty": "Nefrología",
+  "chars": 7855,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque de injuria renal aguda con dos riñones que fallan por culpa de otro órgano: el corazón y el hígado. En los dos casos el riñón está estructuralmente sano, pero por razones opuestas. Entender esa diferencia es lo que te permite no equivocarte con el diurético ni con el volumen."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El síndrome cardiorrenal es la disfunción en ambos sentidos: la falla de uno de estos órganos daña al otro. Se describen cinco tipos. El que más importa es el tipo uno: una insuficiencia cardíaca aguda descompensada que gatilla una injuria renal aguda."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Durante décadas se enseñó que el riñón fallaba porque el corazón no bombeaba suficiente sangre hacia adelante. Eso existe, pero no es lo principal."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El culpable principal es la congestión venosa, que viene de atrás. Sube la presión en la aurícula derecha, se transmite a la vena cava inferior y a las venas renales, y aumenta la presión dentro del espacio de Bowman."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Con presión alta a la salida, el gradiente de filtración a través del glomérulo colapsa, y la filtración cae. El riñón no está seco: está ahogado."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y de ahí sale la conclusión que se pregunta: descongestionar con furosemida endovenosa suele mejorar la función renal, aunque parezca paradójico darle un diurético a un riñón que está fallando."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En la cirrosis ocurre casi lo opuesto. En un paciente con cirrosis avanzada, hipertensión portal y ascitis, el óxido nítrico produce una vasodilatación arterial extrema en el territorio esplácnico, el de los intestinos."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Ese territorio dilatado secuestra el flujo arterial. El organismo interpreta que le falta volumen, y activa con fuerza el sistema simpático y el eje renina angiotensina aldosterona."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El resultado es una vasoconstricción intensa de las arterias renales. Es el síndrome hepatorrenal: una falla renal funcional y oligúrica, en un riñón que estructuralmente está sano."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y como el túbulo está sano, se comporta como en la prerrenal que vimos en la primera clase: retiene sodio con avidez. El sodio urinario sale muy bajo, y el sedimento, normal."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El tratamiento médico de elección combina un vasoconstrictor esplácnico con un expansor. Terlipresina, un análogo de la vasopresina, en bolos endovenosos de uno a dos miligramos cada cuatro a seis horas, junto con albúmina al veinte por ciento, veinte a cuarenta gramos al día."
+    },
+    {
+      "file": "s03_g01",
+      "text": "En la unidad de paciente crítico, una alternativa es la noradrenalina endovenosa, también con albúmina."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La lógica es la del mecanismo: la terlipresina cierra el territorio esplácnico dilatado, y el flujo vuelve a redistribuirse hacia el riñón."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Pero ojo: la terapia definitiva y curativa del síndrome hepatorrenal es el trasplante hepático. Mientras el hígado siga enfermo, la vasodilatación sigue ahí."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión. Paciente con insuficiencia cardíaca o cirrosis que sube su creatinina. El órgano enfermo te orienta, pero la conducta depende del mecanismo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "¿Es un paciente con insuficiencia cardíaca descompensada, o un cirrótico con ascitis?"
+    },
+    {
+      "file": "s04_g02",
+      "text": "Insuficiencia cardíaca descompensada con congestión: cardiorrenal tipo uno. Se descongestiona con furosemida endovenosa, y la creatinina suele mejorar."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Cirrosis con ascitis: primero descarta shock, nefrotóxicos y daño parenquimatoso. Luego suspende los diuréticos y da albúmina, un gramo por kilo al día, por cuarenta y ocho horas."
+    },
+    {
+      "file": "s04_g04",
+      "text": "¿La creatinina mejora a las cuarenta y ocho horas?"
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si mejora, era una injuria prerrenal, por ejemplo por exceso de diuréticos, y no un hepatorrenal."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Si no mejora, es un síndrome hepatorrenal. Terlipresina con albúmina, o noradrenalina con albúmina en la unidad crítica."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Y se deriva para trasplante hepático, la única terapia curativa."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El síndrome hepatorrenal es un diagnóstico de exclusión, según el Club Internacional de Ascitis. Primero, cirrosis con ascitis."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Segundo, una injuria renal aguda: creatinina que sube cero coma tres o más en cuarenta y ocho horas, o un cincuenta por ciento sobre la basal."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Tercero, el criterio más preguntado: suspender los diuréticos y expandir con albúmina, un gramo por kilo al día, máximo cien gramos, durante cuarenta y ocho horas, sin que la creatinina mejore. Si mejora, era prerrenal, no hepatorrenal."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Cuarto, que no haya shock, ni séptico ni cardiogénico."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Quinto, que no haya recibido nefrotóxicos recientes: AINE, aminoglucósidos o contraste yodado."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Y sexto, que el riñón no tenga daño estructural: proteinuria bajo quinientos miligramos al día y sin hematuria. Si hay sedimento activo, piensa en otra causa."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos al caso. Hombre de cincuenta y ocho años con cirrosis alcohólica y ascitis, usuario de espironolactona y furosemida. Consulta por astenia y oliguria. La creatinina subió de cero coma nueve a dos coma cuatro, el sodio urinario es ocho y el sedimento es normal. Se suspenden los diuréticos, se da albúmina por cuarenta y ocho horas, y la creatinina sube a dos coma siete."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es el tratamiento de elección en este momento?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las alternativas: terlipresina con albúmina, reiniciar furosemida en dosis altas, hemodiálisis de urgencia, dos litros de suero fisiológico, o una paracentesis de ocho litros sin reposición. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la A. Cumple todo: cirrosis con ascitis, alza aguda de creatinina, sedimento normal, sodio urinario bajo y, lo más importante, no respondió a la albúmina tras suspender los diuréticos. Es un hepatorrenal, y se trata con terlipresina y albúmina. La furosemida es la trampa: aquí el riñón no está congestionado como en el cardiorrenal, está sin flujo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de setenta y cinco años, hipertenso y diabético sin tratamiento, con edema marcado de extremidades inferiores, hígado palpable y algunos crépitos basales. La creatinina es dos coma dos y el potasio cinco coma tres."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Qué diurético es de elección para el manejo del edema en este paciente?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: clortalidona, hidroclorotiazida, furosemida, indapamida, o espironolactona. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la C, furosemida. Hay congestión y el riñón ya filtra poco, y en ese escenario el diurético que funciona es el de asa. Tres de las opciones son tiazidas o parecidas, y pierden eficacia cuando la filtración cae. La espironolactona es el distractor: con un potasio de cinco coma tres, arriesgas una hiperkalemia. Es la misma lógica del cardiorrenal: descongestionar protege al riñón."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y una pregunta del banco EUNACOM, un caso representativo. Hombre de cincuenta y dos años con cirrosis avanzada y ascitis refractaria, hospitalizado por una hemorragia variceal ya resuelta. A las setenta y dos horas se pone oligúrico y la creatinina sube de cero coma ocho a dos coma seis. Se suspenden los diuréticos, se da albúmina por cuarenta y ocho horas, y no mejora. El sedimento es normal y el sodio urinario, seis."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el tratamiento de primera línea?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: hemodiálisis trisemanal, terlipresina con albúmina, dopamina en dosis renales, un bolo de furosemida, o una paracentesis de ocho litros sin reposición. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, terlipresina con albúmina. Pasó la prueba de albúmina sin mejorar, así que es hepatorrenal. La dopamina en dosis renales es un distractor clásico que no tiene lugar aquí. Y la paracentesis masiva sin reponer albúmina empeora justamente la hipovolemia efectiva que causa el problema."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. En el cardiorrenal tipo uno, el riñón falla sobre todo por congestión venosa, no solo por bajo gasto."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Por eso descongestionar con furosemida endovenosa suele mejorar la función renal."
+    },
+    {
+      "file": "s09_g02",
+      "text": "El hepatorrenal es un diagnóstico de exclusión, y exige suspender los diuréticos y dar albúmina por cuarenta y ocho horas sin mejoría."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Se trata con terlipresina y albúmina, y se cura con el trasplante hepático. Si te llevas una sola idea de hoy: al riñón del cardiorrenal le sobra presión venosa y se descongestiona; al riñón del hepatorrenal le falta flujo arterial y se le devuelve con vasoconstrictor y albúmina. Nos vemos en la próxima clase."
+    }
+  ]
+}

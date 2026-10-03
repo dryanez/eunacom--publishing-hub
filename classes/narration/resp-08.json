@@ -1,0 +1,256 @@
+{
+  "id": "resp-08",
+  "title": "Neumología 2.3: Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+  "specialty": "Neumología",
+  "chars": 11824,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En las dos clases anteriores armamos la neumonía típica: el neumococo, el CURB sesenta y cinco y un antibiótico para cada lugar. Hoy vemos las tres neumonías en que ese esquema falla: la atípica, la aspirativa y la intrahospitalaria. Cada una tiene un paciente típico, un germen distinto y un antibiótico propio, y el examen pregunta justamente eso: reconocer cuál es y no darle amoxicilina a quien no le sirve."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos con el mapa. En estas tres neumonías, el diagnóstico no lo da la radiografía sola: lo da el paciente. Hay una pista en el enunciado que te dice cuál es."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Un joven con un cuadro arrastrado, tos seca y poco que auscultar es una neumonía atípica, y se trata con macrólido o doxiciclina."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Un paciente con la conciencia o la deglución alteradas, por alcohol, un accidente cerebrovascular o demencia, hace una neumonía aspirativa, y se trata con ampicilina con sulbactam."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y un paciente que lleva más de cuarenta y ocho horas hospitalizado y hace una neumonía en su cama tiene una neumonía intrahospitalaria, que necesita cobertura antipseudomónica. Veamos cada una."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La neumonía atípica se reconoce por cómo empieza: en forma insidiosa, con tos seca persistente y muy molesta, cefalea, mialgias y febrícula. Nada del inicio brusco con fiebre alta y expectoración herrumbrosa del neumococo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El paciente típico es joven y vive en comunidad, en cuarteles o como estudiante. Los gérmenes son Mycoplasma pneumoniae, el más clásico, y Chlamydophila."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y ahora la clave. Al examen, el paciente está en buen estado general y la auscultación es pobre, casi normal."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Pero la radiografía muestra infiltrados intersticiales o reticulonodulares bilaterales y difusos, mucho más de lo que esperabas. Esa diferencia entre un examen pobre y una radiografía llamativa es la disociación clínico-radiológica, y es la pista más preguntada de la neumonía atípica."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora el porqué del tratamiento. Mycoplasma no tiene pared celular de peptidoglicano."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y Chlamydophila y Legionella son intracelulares: viven dentro de las células del huésped."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Los betalactámicos actúan sobre la pared de la bacteria. Si no hay pared, o si la bacteria está escondida dentro de la célula, no tienen dónde actuar. Por eso estos gérmenes tienen resistencia intrínseca a todas las penicilinas y cefalosporinas: la amoxicilina y la ceftriaxona no les hacen nada."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El tratamiento de elección es un macrólido, azitromicina quinientos miligramos al día por cinco días, o claritromicina, o bien doxiciclina cien miligramos cada doce horas. Esto explica lo que vimos la clase pasada: en la sala se suma azitromicina a la ceftriaxona cuando sospechas un atípico."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Dentro de los atípicos hay uno que se pregunta aparte: Legionella pneumophila. El antecedente típico es un viajero, o la exposición a torres de enfriamiento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y lo que la distingue son las pistas fuera del pulmón. Una neumonía con diarrea tiene que hacerte pensar en Legionella."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Sumale hiponatremia y pruebas hepáticas alteradas, y el cuadro está completo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Como es intracelular, tampoco responde a betalactámicos. Se trata con levofloxacino setecientos cincuenta miligramos al día, o con azitromicina endovenosa."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La segunda neumonía especial es la aspirativa. Ocurre cuando el paciente aspira contenido de la boca o del estómago porque no protege su vía aérea: alcoholismo agudo, convulsiones, accidente cerebrovascular, demencia o anestesia general. El enunciado clásico es un coma etílico."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La flora es mixta: anaerobios de la boca, como Peptostreptococcus, Fusobacterium y Prevotella, más estreptococos orales. Un esputo de olor fétido es la huella de los anaerobios."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La ubicación sigue a la gravedad. En el paciente en decúbito supino, el material cae al segmento apical del lóbulo inferior derecho o al segmento posterior del lóbulo superior. Son los segmentos declives, sobre todo derechos."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El tratamiento tiene que cubrir anaerobios: ampicilina con sulbactam, uno coma cinco a tres gramos cada seis horas endovenosa, o amoxicilina con ácido clavulánico. Si esta neumonía no se trata a tiempo, puede terminar en un absceso pulmonar, que es la próxima clase."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La tercera es la neumonía intrahospitalaria: la que se manifiesta después de cuarenta y ocho horas del ingreso, y que no se estaba incubando cuando el paciente llegó. Es el espejo de la definición de NAC, que incluye las primeras cuarenta y ocho horas."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El cambio importante es el germen. Ya no es el neumococo de la comunidad, sino bacilos gramnegativos del hospital: Pseudomonas aeruginosa, Klebsiella pneumoniae productora de betalactamasas de espectro extendido, y Acinetobacter."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y Staphylococcus aureus resistente a meticilina."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Por eso el esquema empírico necesita un betalactámico antipseudomónico: piperacilina con tazobactam, cuatro coma cinco gramos cada seis horas, o cefepime, dos gramos cada ocho horas, endovenosos, después de tomar los cultivos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y se suma vancomicina si se sospecha estafilococo resistente. La trampa del examen es tratar una neumonía intrahospitalaria con el esquema de la comunidad, como ceftriaxona o amoxicilina."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora el árbol que te dice, frente a una neumonía, si sirve el esquema habitual o necesitas otro. Tienes una neumonía confirmada. Antes de elegir el antibiótico de la comunidad, revisa si es una de las tres especiales."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La primera pregunta es dónde se enfermó: ¿lleva más de cuarenta y ocho horas hospitalizado?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si es así, es intrahospitalaria: cultivos y piperacilina con tazobactam o cefepime, más vancomicina si sospechas estafilococo resistente."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si viene de la comunidad, pregunta si pudo aspirar: alcohol, convulsiones, accidente cerebrovascular, demencia o anestesia."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si aspiró, es aspirativa, y se cubren anaerobios con ampicilina con sulbactam o amoxicilina con clavulánico."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si no, ¿el cuadro es insidioso, con tos seca y disociación entre un examen pobre y una radiografía llamativa?"
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si es así, es una atípica: macrólido o doxiciclina. Y si hay diarrea e hiponatremia, piensa en Legionella y usa levofloxacino o azitromicina."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si no es ninguna de las tres, es la NAC típica, y se trata con el esquema según el lugar, como vimos la clase pasada."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos en una tabla. Atípica: el joven de cuartel o estudiante, con Mycoplasma o Chlamydophila, y macrólido o doxiciclina. La trampa es la amoxicilina, que no sirve porque no hay pared."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Aspirativa: el alcohólico, la secuela de accidente cerebrovascular o la demencia, con flora anaerobia mixta, y ampicilina con sulbactam o amoxicilina con clavulánico. La trampa es tratarla como si fuera una atípica, con un macrólido."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Intrahospitalaria: el hospitalizado por más de cuarenta y ocho horas, con gérmenes del hospital, y piperacilina con tazobactam o cefepime, más vancomicina si hay sospecha de estafilococo resistente."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y Legionella: el viajero con neumonía, diarrea e hiponatremia, con levofloxacino o azitromicina."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Hombre de sesenta y dos años, con etilismo crónico severo, que perdió la conciencia después de una ingesta alcohólica importante. Tres días después consulta por fiebre, tos con expectoración purulenta de olor fétido y dolor torácico derecho. La radiografía muestra una condensación en el segmento apical del lóbulo inferior derecho."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tratamiento antibiótico empírico más adecuado?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: azitromicina oral, ampicilina con sulbactam endovenosa, ciprofloxacino, amikacina, o amoxicilina sola. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. El enunciado te da las tres pistas de la aspirativa: la pérdida de conciencia por alcohol, el esputo fétido de los anaerobios, y el segmento declive del lóbulo inferior derecho. Necesitas cubrir anaerobios, y eso lo hace la ampicilina con sulbactam. La E tienta porque es un betalactámico, pero el esquema de elección para esta flora mixta lleva el inhibidor: sulbactam o clavulánico. Y la azitromicina es para el atípico, no para el alcohólico que aspiró."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Paciente de veintitrés años, sano, con dos semanas de rinorrea y coriza, que en los últimos dos días suma compromiso del estado general, sensación febril, tos y disnea. Signos vitales normales, crepitaciones en la base derecha, y la radiografía muestra un infiltrado intersticial."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: claritromicina, amoxicilina con clavulánico, clindamicina, ceftriaxona o moxifloxacino. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A, claritromicina. Un joven con un cuadro arrastrado de dos semanas y un infiltrado intersticial es un Mycoplasma hasta que se demuestre lo contrario, y los macrólidos son de elección. La B y la D son la trampa: son betalactámicos, y Mycoplasma no tiene pared. El moxifloxacino sí lo cubre, pero es un espectro innecesariamente amplio para un joven sano."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno. Adolescente de diecisiete años con cinco días de tos con expectoración mucosa y febrícula de treinta y siete coma seis. Está en buenas condiciones, satura noventa y cinco, y tiene crepitaciones y sibilancias bilaterales."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el agente etiológico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: neumococo, Mycoplasma pneumoniae, Chlamydia trachomatis, virus influenza o Pneumocystis. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, Mycoplasma. Es un joven en buenas condiciones, con febrícula, y con un compromiso bilateral y difuso en vez de un foco. Todo eso dibuja una neumonía atípica, aunque lleve solo cinco días. El neumococo es el distractor, porque es el germen más frecuente en general, pero este no es su cuadro típico."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una más, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta y cuatro años con cinco semanas de tos irritativa que empeora y disnea de medianos esfuerzos. Está enflaquecido, respira a veintisiete por minuto, satura noventa y dos, y tiene crepitaciones y sibilancias bilaterales."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: fibrosis pulmonar, asma, neumonitis viral, neumonía por Mycoplasma, o neumonía por Pneumocystis jirovecii. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la E, Pneumocystis. Es una pregunta difícil, porque se parece mucho a un Mycoplasma. Lo que la separa es el tiempo y el peso: cinco semanas y un paciente enflaquecido. Con un cuadro más corto y sin baja de peso, la respuesta habría sido Mycoplasma. La fibrosis y el asma son cuadros crónicos con otra radiografía, y la neumonitis viral es aguda."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Para la intrahospitalaria, un caso representativo del banco EUNACOM. Hombre de setenta y cuatro años hospitalizado por una hemorragia digestiva alta. Al quinto día inicia fiebre, taquipnea, desaturación y crepitaciones, y la radiografía muestra infiltrados nuevos en la base izquierda."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta diagnóstica y terapéutica más apropiada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: NAC atípica con eritromicina, neumonía intrahospitalaria con hemocultivos y piperacilina con tazobactam, embolia grasa, bronquitis viral, o edema pulmonar con amoxicilina. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. El dato que decide es el día: al quinto día de hospitalización ya pasaron las cuarenta y ocho horas, así que es una neumonía intrahospitalaria, con gérmenes del hospital. Se toman cultivos y se parte con un antipseudomónico. La A es la trampa, porque trata al paciente como si hubiera llegado de la comunidad."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. La neumonía atípica se reconoce por la disociación clínico-radiológica, y como el germen no tiene pared, se trata con macrólido o doxiciclina, nunca con betalactámicos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Si además hay diarrea e hiponatremia, piensa en Legionella, con levofloxacino o azitromicina."
+    },
+    {
+      "file": "s14_g02",
+      "text": "La aspirativa es del que no protege su vía aérea, cae en los segmentos declives derechos, y se trata con ampicilina con sulbactam."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Y la intrahospitalaria aparece después de cuarenta y ocho horas del ingreso, y necesita cobertura antipseudomónica. En la próxima clase seguimos con lo que pasa cuando la aspirativa se complica: el absceso pulmonar. Si te llevas una sola idea de hoy: antes de elegir el antibiótico, pregunta quién es el paciente y dónde se enfermó. Nos vemos en la próxima clase."
+    }
+  ]
+}

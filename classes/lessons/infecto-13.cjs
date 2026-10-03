@@ -1,0 +1,408 @@
+// Clase 3.5 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_infectologia.cjs (inf-13).
+
+const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+module.exports = {
+  id: 'infecto-13',
+  tier: 2,
+  slides: [
+    {
+      type: 'cover',
+      subtitle: 'Doble cobertura en toda uretritis, el dolor que separa las úlceras y las dos caras del virus papiloma',
+      say: 'Bienvenidos. En la clase anterior vimos la sífilis; hoy completamos las infecciones de transmisión sexual con tres síndromes: la descarga uretral, las úlceras genitales y el virus papiloma. Es un tema clásico de atención primaria, y el EUNACOM lo pregunta con reglas muy simples: cómo se trata toda uretritis, qué úlcera duele y cuál no, y qué virus papiloma da verrugas y cuál da cáncer. Partamos.',
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Descarga uretral',
+      title: 'Dos uretritis, un mismo síndrome',
+      nodes: [
+        { id: 'sin', col: 0, row: 2, k: 'start', t: 'Uretritis', s: 'Disuria, prurito meatal, secreción' },
+        { id: 'ug', col: 1, row: 0, k: 'cause', t: 'Gonocócica', s: 'Neisseria gonorrhoeae' },
+        { id: 'ugc', col: 2, row: 0, k: 'effect', t: 'Purulenta y abundante', s: 'Amarilloverdosa · incubación 2–7 días' },
+        { id: 'ugg', col: 3, row: 0, k: 'good', t: 'Gram: diplococos Gram (−)', s: 'Intracelulares en PMN · S > 95 %' },
+        { id: 'ung', col: 1, row: 4, k: 'cause', t: 'No gonocócica', s: 'Chlamydia 40–50 % · Mycoplasma · Trichomonas' },
+        { id: 'ungc', col: 2, row: 4, k: 'effect', t: 'Escasa y serosa', s: '"Gota matinal" · incubación 1–3 semanas' },
+        { id: 'ungg', col: 3, row: 4, k: 'mech', t: 'Gram: solo PMN', s: 'Sin bacterias visibles' },
+        { id: 'coi', col: 3, row: 2, k: 'alert', t: 'Coinfección 20–40 %', s: 'Gonococo + clamidia' },
+      ],
+      edges: [
+        { from: 'sin', to: 'ug' }, { from: 'ug', to: 'ugc' }, { from: 'ugc', to: 'ugg' },
+        { from: 'sin', to: 'ung' }, { from: 'ung', to: 'ungc' }, { from: 'ungc', to: 'ungg' },
+        { from: 'ugg', to: 'coi' }, { from: 'ungg', to: 'coi' },
+      ],
+      steps: [
+        { show: ['sin'], note: 'Disuria, prurito en el meato y secreción',
+          say: 'Partamos por la descarga uretral. El paciente llega con disuria, prurito en el meato y secreción por la uretra. Eso es una uretritis, y detrás hay dos grandes grupos de gérmenes.' },
+        { show: ['ug', 'ugc'], note: 'Incubación corta, secreción purulenta',
+          say: 'El primero es el gonococo, la Neisseria gonorrhoeae. Da una uretritis ruidosa: incubación corta, de dos a siete días, y una secreción abundante, espesa, purulenta y amarilloverdosa.' },
+        { show: ['ugg'], note: 'El dato que confirma el gonococo',
+          say: 'Y el Gram de esa secreción es muy rendidor: muestra diplococos Gram negativos dentro de los polimorfonucleares, con una sensibilidad sobre el noventa y cinco por ciento en hombres. Si el enunciado te da ese Gram, el germen es el gonococo.' },
+        { show: ['ung', 'ungc'], note: 'Incubación larga, secreción escasa',
+          say: 'El segundo grupo es la uretritis no gonocócica. Su principal agente es la Chlamydia trachomatis, que explica cerca de la mitad de los casos, seguida del Mycoplasma genitalium y la Trichomonas. Es más silenciosa: incubación de una a tres semanas, y una secreción escasa, serosa, a veces solo una gota en la mañana.' },
+        { show: ['ungg'], note: 'La clamidia no se ve en el Gram',
+          say: 'Y en el Gram solo se ven polimorfonucleares, sin bacterias, porque la clamidia es intracelular y no se tiñe.' },
+        { show: ['coi'], note: 'Por eso no se trata un solo germen',
+          say: 'Ahora, la conexión que ordena el tratamiento: el gonococo y la clamidia viajan juntos en el veinte a cuarenta por ciento de los casos. Aunque el Gram te muestre gonococo, la clamidia puede estar escondida al lado. Y eso explica la regla que viene.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tratamiento',
+      title: 'Toda uretritis: doble cobertura',
+      cards: [
+        { title: 'Esquema de elección', tag: 'Manejo sindrómico', kind: 'pharma', items: [
+          { t: 'Ceftriaxona 500 mg IM', d: 'Dosis única · cubre el gonococo',
+            say: 'La regla de oro: toda uretritis, y también la cervicitis mucopurulenta, se trata con doble cobertura. Para el gonococo, ceftriaxona quinientos miligramos intramuscular, en dosis única.' },
+          { t: '+ Doxiciclina 100 mg c/12 h × 7 días', d: 'O azitromicina 1 g oral dosis única · cubre la clamidia',
+            say: 'Y para la clamidia, doxiciclina cien miligramos cada doce horas por siete días, o azitromicina un gramo oral en dosis única. Las dos, siempre juntas, aunque el Gram ya haya confirmado el gonococo.' },
+        ] },
+        { title: 'Lo que cae', tag: 'Distractor', kind: 'alert', items: [
+          { t: 'Ciprofloxacino: no', d: 'Resistencia del gonococo en Chile > 50 %',
+            say: 'Ojo con el ciprofloxacino, que aparece mucho como alternativa. No se usa: la resistencia del gonococo en Chile supera el cincuenta por ciento.' },
+          { t: 'Monoterapia: incompleta', d: 'Deja sin tratar la coinfección',
+            say: 'Y la ceftriaxona sola, o la doxiciclina sola, dejan sin tratar la coinfección que acabamos de ver.' },
+        ] },
+        { title: 'Los contactos', tag: 'Siempre', kind: 'key', items: [
+          { t: 'Tratar a las parejas', d: 'Contactos de los últimos 60 días',
+            say: 'El tratamiento no termina en el paciente. Se trata a sus parejas sexuales recientes, los contactos de los últimos sesenta días.' },
+          { t: 'Abstinencia por 7 días', d: 'Y descartar otras ITS',
+            say: 'Y se indica abstinencia sexual por siete días. Recuerda también lo que vimos con la sífilis: una infección de transmisión sexual es el principal factor de riesgo para tener otra.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Úlceras genitales',
+      title: 'La pregunta que las separa: ¿duele?',
+      nodes: [
+        { id: 'ulc', col: 0, row: 2, k: 'start', t: 'Úlcera genital', s: 'Tres causas clásicas' },
+        { id: 'q', col: 1, row: 2, k: 'q', t: '¿Duele?', s: 'El primer dato' },
+        { id: 'sif', col: 2, row: 0, k: 'effect', t: 'Indolora: chancro duro', s: 'Única, indurada, fondo limpio' },
+        { id: 'her', col: 3, row: 2, k: 'effect', t: 'Vesículas en racimo', s: 'Úlceras superficiales: herpes' },
+        { id: 'cha', col: 3, row: 4, k: 'risk', t: 'Fondo sucio + bubón', s: 'Chancroide: H. ducreyi' },
+      ],
+      edges: [
+        { from: 'ulc', to: 'q' },
+        { from: 'q', to: 'sif', label: 'no' },
+        { from: 'q', to: 'her', label: 'sí' },
+        { from: 'q', to: 'cha', label: 'sí' },
+      ],
+      steps: [
+        { show: ['ulc'], note: 'Herpes, sífilis y chancroide',
+          say: 'Pasemos a las úlceras genitales, un pilar del examen. Son tres causas clásicas: el herpes, la sífilis y el chancroide. Y hay un solo dato que las ordena.' },
+        { show: ['q'], note: 'El dolor manda',
+          say: 'Ese dato es el dolor. Antes de mirar el fondo o contar las lesiones, pregúntate si la úlcera duele.' },
+        { show: ['sif'], note: 'Lo vimos en la clase anterior',
+          say: 'Si no duele, es el chancro duro de la sífilis primaria: úlcera única, de base indurada, fondo limpio, con adenopatía también indolora. Es lo que vimos en la clase anterior.' },
+        { show: ['her'], note: 'La causa más frecuente',
+          say: 'Si duele, hay dos opciones. La más frecuente de todas las úlceras genitales es el herpes: vesículas agrupadas en racimo sobre una base eritematosa, que se rompen y dejan úlceras superficiales muy dolorosas.' },
+        { show: ['cha'], note: 'Duele, está sucia y fistuliza',
+          say: 'La otra úlcera dolorosa es el chancroide, o chancro blando, por Haemophilus ducreyi. Aquí la úlcera es sucia, con exudado necrótico y bordes deshilachados, y se acompaña de un bubón inguinal doloroso que tiende a fistulizar. Duro e indoloro, sífilis; blando, sucio y doloroso, chancroide.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Herpes y chancroide',
+      title: 'Las dos úlceras que duelen',
+      cards: [
+        { title: 'Herpes genital', tag: 'VHS-2 > VHS-1', kind: 'key', items: [
+          { t: 'Recurrente, con pródromo', d: 'Ardor o parestesias antes de las lesiones',
+            say: 'Profundicemos en el herpes, casi siempre por virus herpes simple tipo dos, y menos por el tipo uno. Es típicamente recurrente, y cada episodio viene precedido de un pródromo de ardor o parestesias en la zona.' },
+          { t: 'Aciclovir 400 mg c/8 h × 7–10 días', d: 'Acorta síntomas y excreción viral',
+            say: 'El tratamiento es aciclovir oral, cuatrocientos miligramos cada ocho horas, por siete a diez días. Acorta los días de síntomas y la excreción del virus.' },
+          { t: 'No erradica el virus', d: 'Latente en el ganglio sensitivo sacro',
+            say: 'Pero no lo erradica: el virus queda latente en los ganglios sensitivos sacros, y desde ahí reactiva. Por eso recurre, y por eso no hay que prometerle al paciente que se va a curar.' },
+        ] },
+        { title: 'Chancroide', tag: 'Haemophilus ducreyi', kind: 'alert', items: [
+          { t: 'Múltiple y autoinoculable', d: 'Bordes deshilachados, muy dolorosa',
+            say: 'El chancroide suele dar varias úlceras, porque se autoinocula, y son intensamente dolorosas.' },
+          { t: 'Azitromicina 1 g oral', d: 'O ceftriaxona 250 mg IM · dosis única',
+            say: 'Se trata con azitromicina un gramo oral en dosis única, o ceftriaxona doscientos cincuenta miligramos intramuscular.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'La tabla que se pregunta',
+      title: 'Diagnóstico diferencial de las úlceras genitales',
+      head: ['Característica', 'Herpes', 'Sífilis primaria', 'Chancroide'],
+      rows: [
+        { cells: ['Etiología', 'Herpes simplex tipo 2 (o 1)', 'Treponema pallidum', 'Haemophilus ducreyi'],
+          say: 'Ahora pongamos las tres úlceras lado a lado. Tres gérmenes distintos: el virus herpes simple, el Treponema pallidum y el Haemophilus ducreyi.' },
+        { cells: ['Número', 'Vesículas agrupadas en racimo', 'Habitualmente única', 'Múltiples (autoinoculables)'],
+          say: 'El número: el herpes da vesículas agrupadas en racimo, la sífilis una úlcera habitualmente única, y el chancroide varias, porque se autoinocula.' },
+        { cells: ['Dolor', 'Muy dolorosas', 'Completamente indolora', 'Intensamente dolorosa'],
+          say: 'El dolor, que es la fila más importante: el herpes y el chancroide duelen, la sífilis no duele.' },
+        { cells: ['Fondo', 'Eritematoso, limpio', 'Limpio, base indurada', 'Sucio, purulento, necrótico'],
+          say: 'El fondo: limpio en el herpes y en la sífilis, que además tiene la base dura; sucio y necrótico en el chancroide.' },
+        { cells: ['Adenopatía', 'Sensible, bilateral', 'Indolora y firme', 'Dolorosa, fistuliza (bubón)'],
+          say: 'La adenopatía sigue la misma lógica que la úlcera: sensible en el herpes, indolora y firme en la sífilis, y dolorosa, con tendencia a fistulizar, en el chancroide.' },
+        { cells: ['Tratamiento', 'Aciclovir 400 mg c/8 h × 7–10 d', 'Penicilina benzatina 2,4 MU IM × 1', 'Azitromicina 1 g o ceftriaxona 250 mg IM'],
+          say: 'Y el tratamiento: aciclovir para el herpes, penicilina benzatina dos millones cuatrocientas mil unidades en dosis única para la sífilis primaria, y azitromicina o ceftriaxona para el chancroide.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Virus papiloma humano',
+      title: 'VPH: verrugas o cáncer',
+      cards: [
+        { title: 'Bajo riesgo', tag: 'Genotipos 6 y 11', kind: 'normal', items: [
+          { t: 'Condilomas acuminados', d: 'Verrugas exofíticas "en cresta de gallo"',
+            say: 'El último síndrome es el virus papiloma humano, que tiene dos caras. Los genotipos de bajo riesgo, el seis y el once, dan los condilomas acuminados: verrugas exofíticas en cresta de gallo, en el glande, la vulva o la zona perianal.' },
+          { t: 'Podofilotoxina 0,5 % · imiquimod 5 %', d: 'O crioterapia',
+            say: 'Se tratan con podofilotoxina tópica, imiquimod o crioterapia. Y no los confundas con los condilomas planos de la sífilis secundaria: esos son planos, y estos son exofíticos.' },
+        ] },
+        { title: 'Alto riesgo', tag: 'Genotipos 16 y 18', kind: 'alert', items: [
+          { t: '70 % del cáncer cervical', d: 'Displasia intraepitelial asintomática',
+            say: 'La otra cara son los genotipos de alto riesgo, sobre todo el dieciséis y el dieciocho, que causan el setenta por ciento del cáncer cervicouterino. No dan verrugas: dan una displasia intraepitelial que no produce síntomas.' },
+        ] },
+        { title: 'Tamizaje GES', tag: 'Cáncer cervicouterino', kind: 'criteria', items: [
+          { t: 'PAP cada 3 años', d: 'Entre los 25 y 64 años',
+            say: 'Y como no da síntomas, hay que buscarla. El tamizaje GES en Chile es el Papanicolau cada tres años, entre los veinticinco y los sesenta y cuatro años.' },
+          { t: 'O test de ADN-VPH cada 5 años', d: 'Test molecular',
+            say: 'O el test molecular de ADN del virus papiloma, cada cinco años. Lo que sigue a un tamizaje alterado lo verás en ginecología.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'pathway',
+      intro: 'Ahora juntemos los tres síndromes en un solo árbol de decisión.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Las decisiones que más se preguntan',
+      head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
+      rows: [
+        { cells: ['Gram con diplococos Gram (−)', 'Ceftriaxona + doxiciclina', 'Tratar solo el gonococo'],
+          say: 'Repasemos las trampas. Gram con diplococos Gram negativos: ceftriaxona más doxiciclina. El error es tratar solo el gonococo, olvidando la clamidia escondida.' },
+        { cells: ['Uretritis escasa, Gram sin bacterias', 'Pensar en Chlamydia · mismo esquema doble', 'Descartar ITS por el Gram'],
+          say: 'Secreción escasa y un Gram sin bacterias: es una uretritis no gonocócica, casi siempre clamidia, y el tratamiento es el mismo esquema doble. El error es pensar que un Gram sin bacterias descarta la infección.' },
+        { cells: ['Uretritis gonocócica', 'Ceftriaxona IM', 'Ciprofloxacino'],
+          say: 'El ciprofloxacino para el gonococo es un error: la resistencia en Chile supera el cincuenta por ciento.' },
+        { cells: ['Úlcera indolora e indurada', 'Sífilis: penicilina benzatina', 'Aciclovir'],
+          say: 'Úlcera indolora e indurada es sífilis, y va penicilina benzatina. Dar aciclovir es confundirla con el herpes.' },
+        { cells: ['Úlcera sucia con bubón doloroso', 'Chancroide: azitromicina', 'Tratarla como sífilis'],
+          say: 'Úlcera sucia con bubón doloroso es chancroide, y se trata con azitromicina o ceftriaxona. El error es pensar en sífilis solo porque es una úlcera genital.' },
+        { cells: ['Condilomas acuminados', 'Descartar otras ITS + tratamiento local', 'Solo tratar la verruga'],
+          say: 'Y ante unos condilomas acuminados, además del tratamiento local, siempre se buscan las otras infecciones de transmisión sexual. Esa es justamente una de las preguntas reales que viene.' },
+      ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Hombre de 22 años, sexualmente activo, con 4 días de disuria intensa y abundante secreción uretral purulenta amarillenta. El Gram de la secreción muestra abundantes polimorfonucleares con diplococos Gram negativos intracelulares.',
+      question: '¿Cuál es el tratamiento más adecuado?',
+      options: [
+        { letter: 'A', text: 'Ceftriaxona 500 mg IM en dosis única' },
+        { letter: 'B', text: 'Ceftriaxona 500 mg IM dosis única + doxiciclina 100 mg c/12 h oral por 7 días' },
+        { letter: 'C', text: 'Ciprofloxacino 500 mg oral en dosis única' },
+        { letter: 'D', text: 'Doxiciclina 100 mg c/12 h oral por 7 días' },
+        { letter: 'E', text: 'Penicilina benzatina 2.400.000 UI IM en dosis única' },
+      ],
+      correct: 'B',
+      explanation: 'Diplococos Gram negativos intracelulares confirman la uretritis gonocócica, pero por la coinfección con Chlamydia (hasta 40 %) se trata siempre con doble cobertura: ceftriaxona 500 mg IM + doxiciclina 100 mg c/12 h por 7 días (o azitromicina 1 g). Tratar a los contactos de los últimos 60 días y abstinencia por 7 días.',
+      say: {
+        stem: 'Vamos con un caso. Hombre de veintidós años, sexualmente activo, con cuatro días de disuria intensa y abundante secreción uretral purulenta y amarillenta. El Gram muestra polimorfonucleares con diplococos Gram negativos intracelulares.',
+        question: '¿Cuál es el tratamiento más adecuado?',
+        options: 'Las opciones: ceftriaxona sola; ceftriaxona más doxiciclina por siete días; ciprofloxacino; doxiciclina sola; o penicilina benzatina. Piénsalo.',
+        answer: 'Es la B. El Gram confirma el gonococo, y eso hace muy tentadora la A, la ceftriaxona sola. Pero la clamidia acompaña al gonococo hasta en el cuarenta por ciento de los casos, así que toda uretritis lleva doble cobertura. El ciprofloxacino cae por resistencia, y la penicilina benzatina es para la sífilis. Y no olvides a los contactos de los últimos sesenta días.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2025 · Pregunta 36',
+      stem: 'Hombre de 25 años con secreción uretral purulenta y disuria de 4 días de evolución. Tinción de Gram: diplococos gram negativos intracelulares.',
+      question: '¿Cuál es el tratamiento de elección?',
+      options: [
+        { letter: 'A', text: 'Azitromicina 1 g oral dosis única' },
+        { letter: 'B', text: 'Doxiciclina 100 mg c/12h por 7 días' },
+        { letter: 'C', text: 'Ciprofloxacino 500 mg oral dosis única' },
+        { letter: 'D', text: 'Amoxicilina 3 g oral dosis única' },
+        { letter: 'E', text: 'Ceftriaxona 500 mg IM dosis única' },
+      ],
+      correct: 'E',
+      explanation: 'Gonorrea uretral: ceftriaxona 500 mg IM en dosis única es el tratamiento de elección del gonococo. Ciprofloxacino y amoxicilina tienen alta resistencia. A la ceftriaxona se agrega doxiciclina o azitromicina para cubrir la Chlamydia concomitante.',
+      say: {
+        stem: 'Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil veinticinco. Hombre de veinticinco años con secreción uretral purulenta y disuria de cuatro días. El Gram muestra diplococos Gram negativos intracelulares.',
+        question: '¿Cuál es el tratamiento de elección?',
+        options: 'Las opciones: azitromicina; doxiciclina; ciprofloxacino; amoxicilina; o ceftriaxona quinientos miligramos intramuscular. Piénsalo.',
+        answer: 'Es la E. Aquí no está el esquema doble entre las alternativas, así que te preguntan por el fármaco del gonococo, y ese es la ceftriaxona. El ciprofloxacino y la amoxicilina caen por resistencia. La azitromicina y la doxiciclina cubren la clamidia, que igual se agrega, pero solas no son el tratamiento del gonococo.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2019 · Pregunta 100',
+      stem: 'Un paciente de 24 años mantiene relación sexual casual hace 7 días, con penetración vaginal, sin protección evolucionando con disuria, sin otros síntomas. Al examen físico y genital, no hay alteraciones.',
+      question: '¿Cuál es el agente etiológico más probable?',
+      options: [
+        { letter: 'A', text: 'Mycoplasma genitalium' },
+        { letter: 'B', text: 'Ureaplasma urealyticum' },
+        { letter: 'C', text: 'Chlamydia trachomatis' },
+        { letter: 'D', text: 'Trichomona vaginalis' },
+        { letter: 'E', text: 'Escherichia coli' },
+      ],
+      correct: 'C',
+      explanation: 'Uretritis poco sintomática, sin secreción purulenta: uretritis no gonocócica, cuyo agente más frecuente es Chlamydia trachomatis. Mycoplasma, Ureaplasma y Trichomonas pueden darla, pero son menos frecuentes.',
+      say: {
+        stem: 'La segunda es del EUNACOM de diciembre de dos mil diecinueve. Hombre de veinticuatro años con una relación sexual casual sin protección hace siete días, que ahora tiene solo disuria. El examen genital es normal.',
+        question: '¿Cuál es el agente etiológico más probable?',
+        options: 'Las opciones: Mycoplasma genitalium; Ureaplasma; Chlamydia trachomatis; Trichomonas; o Escherichia coli. Piénsalo.',
+        answer: 'Es la C. Un cuadro silencioso, sin secreción purulenta, es una uretritis no gonocócica, y su agente más frecuente es la clamidia. El Mycoplasma y la Trichomonas también pueden darla, y por eso son distractores tentadores, pero son menos frecuentes. Esta pregunta se ha repetido casi igual en otros exámenes.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2019 · Pregunta 86',
+      stem: 'Una mujer de 26 años, sexualmente activa y alérgica a la penicilina, consulta por disuria y molestias genitales, de 4 días de evolución, asociada a leucorrea. Al examen físico, se observan signos inflamatorios en el cuello uterino, con escasa leucorrea. El cultivo de Thayer Martin es positivo y prueba de aminas, negativa.',
+      question: 'El tratamiento de elección es:',
+      options: [
+        { letter: 'A', text: 'Ciprofloxacino' },
+        { letter: 'B', text: 'Ceftriaxona' },
+        { letter: 'C', text: 'Azitromicina' },
+        { letter: 'D', text: 'Doxiciclina' },
+        { letter: 'E', text: 'Penicilina benzatina' },
+      ],
+      correct: 'B',
+      explanation: 'Cervicitis gonocócica (Thayer Martin es el medio de cultivo del gonococo). El tratamiento de elección del gonococo es la ceftriaxona, y se agrega cobertura para Chlamydia. La prueba de aminas negativa descarta vaginosis bacteriana.',
+      say: {
+        stem: 'La tercera es del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, alérgica a la penicilina, con disuria, molestias genitales y leucorrea de cuatro días. El cuello uterino está inflamado, el cultivo de Thayer Martin es positivo, y la prueba de aminas es negativa.',
+        question: '¿Cuál es el tratamiento de elección?',
+        options: 'Las opciones: ciprofloxacino; ceftriaxona; azitromicina; doxiciclina; o penicilina benzatina. Piénsalo.',
+        answer: 'Es la B. El Thayer Martin es el medio de cultivo del gonococo, así que es una cervicitis gonocócica, y el fármaco de elección es la ceftriaxona, al que igual se suma la cobertura de clamidia. La alergia a la penicilina está puesta para asustarte, pero no cambia la elección. Y el ciprofloxacino cae otra vez por resistencia.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2025 · Pregunta 37',
+      stem: 'Hombre de 30 años consulta por úlcera indolora en glande de 5 días de evolución, bordes indurados, fondo limpio. Sin adenopatías inguinales dolorosas.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Sífilis primaria (chancro sifilítico)' },
+        { letter: 'B', text: 'Herpes genital' },
+        { letter: 'C', text: 'Chancroide (Haemophilus ducreyi)' },
+        { letter: 'D', text: 'Linfogranuloma venéreo' },
+        { letter: 'E', text: 'Carcinoma espinocelular de pene' },
+      ],
+      correct: 'A',
+      explanation: 'Úlcera genital indolora, de bordes indurados y fondo limpio: chancro sifilítico (sífilis primaria). El herpes es doloroso y vesicular; el chancroide es doloroso y de fondo sucio.',
+      say: {
+        stem: 'La cuarta es del EUNACOM de julio de dos mil veinticinco. Hombre de treinta años con una úlcera indolora en el glande de cinco días, de bordes indurados y fondo limpio, sin adenopatías dolorosas.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: sífilis primaria; herpes genital; chancroide; linfogranuloma venéreo; o carcinoma de pene. Piénsalo.',
+        answer: 'Es la A, un chancro sifilítico. Aplica la primera pregunta de la tabla: no duele. Con eso ya caen el herpes y el chancroide, que son dolorosos. Indurada y de fondo limpio completa el cuadro.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2018 · Pregunta 169',
+      stem: 'Una paciente de 19 años consulta por disuria dolorosa y lesiones vulvares, de 48 horas de evolución. Refiere relaciones sexuales sin protección. Al examen genital, tiene 3 úlceras de fondo amarillento y halo eritematoso.',
+      question: '¿Cuál es el diagnóstico más probable?',
+      options: [
+        { letter: 'A', text: 'Molusco contagioso' },
+        { letter: 'B', text: 'Infección por Chlamydia trachomatis' },
+        { letter: 'C', text: 'Herpes genital' },
+        { letter: 'D', text: 'Chancro sifilítico' },
+        { letter: 'E', text: 'Condiloma acuminado' },
+      ],
+      correct: 'C',
+      explanation: 'Varias úlceras superficiales, dolorosas, sobre halo eritematoso y de inicio agudo: herpes genital. El chancro sifilítico es único e indoloro; la Chlamydia no produce úlceras y el condiloma es una verruga.',
+      say: {
+        stem: 'La quinta es del EUNACOM de diciembre de dos mil dieciocho. Mujer de diecinueve años, con relaciones sin protección, que consulta por disuria dolorosa y lesiones vulvares de cuarenta y ocho horas. Tiene tres úlceras de fondo amarillento con un halo eritematoso.',
+        question: '¿Cuál es el diagnóstico más probable?',
+        options: 'Las opciones: molusco contagioso; clamidia; herpes genital; chancro sifilítico; o condiloma acuminado. Piénsalo.',
+        answer: 'Es la C, herpes genital. Varias úlceras, dolorosas, sobre una base eritematosa y de inicio brusco: son las vesículas ya rotas. El chancro sifilítico es el distractor, pero es único e indoloro. La clamidia no da úlceras, y el condiloma es una verruga, no una úlcera.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2015 · Pregunta 91',
+      stem: '¿Cuál es la conducta más adecuada ante un hombre joven, que presenta múltiples condilomas acuminados perianales?',
+      question: 'Elige la alternativa correcta.',
+      options: [
+        { letter: 'A', text: 'Descartar otras enfermedades de transmisión sexual' },
+        { letter: 'B', text: 'Determinar el genotipo del virus papiloma' },
+        { letter: 'C', text: 'Realizar rectosigmoidoscopía' },
+        { letter: 'D', text: 'Realizar tratamiento con podofilino' },
+        { letter: 'E', text: 'Indicar aciclovir oral' },
+      ],
+      correct: 'A',
+      explanation: 'Ante toda ITS, lo prioritario es descartar las demás (VIH, sífilis, hepatitis B). Los condilomas por VPH de bajo riesgo no tienen mayores complicaciones y su tratamiento local puede esperar; genotipificar no cambia la conducta.',
+      say: {
+        stem: 'Y la última, del EUNACOM de julio de dos mil quince. ¿Cuál es la conducta más adecuada ante un hombre joven con múltiples condilomas acuminados perianales?',
+        question: '¿Qué harías primero?',
+        options: 'Las opciones: descartar otras infecciones de transmisión sexual; genotipificar el virus papiloma; rectosigmoidoscopía; tratamiento con podofilino; o aciclovir. Piénsalo.',
+        answer: 'Es la A. Los condilomas son de genotipos de bajo riesgo y no tienen mayores complicaciones; lo importante es que una infección de transmisión sexual es la puerta para buscar las otras, como el VIH y la sífilis. El podofilino es el distractor tentador, porque sí es un tratamiento válido, pero no es lo más importante. Y el aciclovir es para el herpes.',
+      },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
+      cards: [
+        { title: 'Uretritis', tag: 'Doble cobertura', kind: 'pharma', items: [
+          { t: 'Gram (−) intracelular = gonococo', d: 'Gram sin bacterias = clamidia',
+            say: 'Cerremos con las reglas de oro. Diplococos Gram negativos intracelulares es gonococo; un Gram con solo polimorfonucleares y secreción escasa es clamidia.' },
+          { t: 'Ceftriaxona + doxiciclina', d: 'Siempre juntas · tratar parejas',
+            say: 'Y toda uretritis se trata con ceftriaxona más doxiciclina, siempre juntas, tratando a las parejas. El ciprofloxacino no.' },
+        ] },
+        { title: 'Úlceras', tag: '¿Duele?', kind: 'key', items: [
+          { t: 'Indolora e indurada = sífilis', d: 'Vesículas en racimo = herpes',
+            say: 'En las úlceras, la primera pregunta es el dolor. Indolora e indurada, sífilis; vesículas en racimo dolorosas, herpes, con aciclovir.' },
+          { t: 'Sucia con bubón = chancroide', d: 'Azitromicina o ceftriaxona',
+            say: 'Dolorosa, sucia y con bubón, chancroide, con azitromicina.' },
+        ] },
+        { title: 'VPH', tag: 'Dos caras', kind: 'alert', items: [
+          { t: '6 y 11: condilomas', d: '16 y 18: cáncer cervical',
+            say: 'Del virus papiloma, el seis y el once dan verrugas; el dieciséis y el dieciocho, cáncer cervicouterino, que se tamiza con Papanicolau cada tres años entre los veinticinco y los sesenta y cuatro.' },
+          { t: 'Toda ITS: buscar las otras', d: 'VIH, sífilis, hepatitis B',
+            say: 'Si te llevas una sola idea de hoy: toda uretritis lleva doble cobertura, toda úlcera se ordena por el dolor, y toda infección de transmisión sexual obliga a buscar las otras. En la próxima clase cambiamos de bloque y entramos al hantavirus. Nos vemos en la próxima clase.' },
+        ] },
+      ],
+    },
+  ],
+
+  pathway: {
+    title: 'ITS: del síndrome a la conducta',
+    root: N('start', 'Consulta por síntoma genital', 'Tras contacto sexual no protegido',
+      'Paciente que consulta por un síntoma genital después de un contacto sexual sin protección. Lo primero es ubicarlo en uno de tres síndromes.',
+      ['', N('q', '¿Qué síndrome es?', 'Secreción · úlcera · verruga',
+        '¿Tiene secreción uretral o cervical, una úlcera, o verrugas?',
+        ['Secreción', N('do', 'Ceftriaxona 500 mg IM + doxiciclina × 7 d', 'Doble cobertura siempre',
+          'Si es una secreción, es una uretritis o cervicitis: ceftriaxona quinientos miligramos intramuscular más doxiciclina por siete días, sea cual sea el Gram. Se tratan las parejas y se indica abstinencia por siete días.')],
+        ['Úlcera', N('q', '¿Duele?', 'El dato que las separa',
+          'Si es una úlcera, la pregunta es si duele.',
+          ['NO', N('do', 'Sífilis primaria', 'Penicilina benzatina 2,4 MU IM × 1',
+            'Si no duele, es indurada y de fondo limpio: chancro sifilítico. Penicilina benzatina en dosis única.')],
+          ['SÍ, vesículas', N('do', 'Herpes genital', 'Aciclovir 400 mg c/8 h × 7–10 d',
+            'Si duele y son vesículas en racimo o úlceras superficiales: herpes genital. Aciclovir oral por siete a diez días.')],
+          ['SÍ, fondo sucio', N('alert', 'Chancroide', 'Azitromicina 1 g o ceftriaxona 250 mg IM',
+            'Si duele, tiene fondo sucio y un bubón que fistuliza: chancroide. Azitromicina un gramo o ceftriaxona doscientos cincuenta miligramos.')])],
+        ['Verrugas', N('ok', 'Condiloma acuminado', 'Tratamiento local + descartar otras ITS',
+          'Si son verrugas en cresta de gallo, es un condiloma acuminado por virus papiloma de bajo riesgo. Tratamiento local, y siempre descartar las otras infecciones de transmisión sexual.')])]),
+  },
+};

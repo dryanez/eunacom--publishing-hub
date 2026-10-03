@@ -1,0 +1,360 @@
+{
+  "id": "resp-19",
+  "title": "Neumología 4.4: Tromboembolismo Pulmonar (TEP) Agudo: Wells, Ginebra y Estratificación",
+  "specialty": "Neumología",
+  "chars": 15936,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos tromboembolismo pulmonar agudo, una de las urgencias más preguntadas del EUNACOM. Casi todas las preguntas se responden con dos decisiones en orden: primero, si el paciente está estable o en shock; segundo, cuánta probabilidad clínica tiene. De esas dos respuestas sale el examen que pides y el tratamiento que das. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el origen, porque te va a servir para reconocer al paciente del enunciado. El trombo nace de la tríada de Virchow. El primer vértice es la estasis venosa: inmovilización, reposo en cama de más de tres días, o un vuelo de más de seis a ocho horas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo es la lesión endotelial: la cirugía traumatológica mayor de cadera o rodilla, las fracturas y los catéteres venosos. Por eso el postoperado de cadera es el paciente favorito del examen."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el tercero es la hipercoagulabilidad: cáncer activo con quimioterapia, trombofilias como el factor cinco Leiden, el síndrome antifosfolípido, y los estrógenos, incluidos los anticonceptivos orales combinados."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Con esos factores se forma una trombosis venosa profunda, en más del noventa por ciento de los casos en las venas ilíacas, femorales o poplíteas."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El trombo se suelta, viaja por el corazón derecho y ocluye mecánicamente las arterias pulmonares. Eso es el tromboembolismo pulmonar."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y si la obstrucción es grande, el ventrículo derecho no logra vaciarse contra esa resistencia y falla. Ahí aparecen el síncope, la hipotensión y el shock. Guarda esta idea: toda la estratificación de riesgo gira en torno a ese ventrículo derecho."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La presentación cardinal es la disnea súbita e inexplicable, en más del ochenta por ciento. La palabra clave es súbita: un paciente que estaba bien, o que venía estable, y de pronto se ahoga."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Suele acompañarse de dolor pleurítico punzante, por infarto de ramas periféricas, taquipnea, tos seca, y a veces hemoptisis escasa."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y si aparece síncope o hipotensión, estás frente a un TEP masivo, con falla de bomba del ventrículo derecho."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Ahora un dato muy preguntado: el electrocardiograma. El hallazgo más frecuente no es ningún patrón exótico, es la taquicardia sinusal aislada, en el cuarenta a cincuenta por ciento."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El famoso S uno, Q tres, T tres de McGinn-White, y el bloqueo completo de rama derecha, son muy específicos de sobrecarga del ventrículo derecho, pero aparecen en menos del quince a veinte por ciento. Si te preguntan lo más frecuente, la respuesta es taquicardia sinusal."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Si el paciente está estable, lo siguiente es estimar la probabilidad clínica, con el score de Wells o el de Ginebra. Wells tiene dos criterios que valen tres puntos cada uno. El primero, signos clínicos de trombosis venosa profunda, como una pantorrilla aumentada de volumen y dolorosa."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El segundo es que el diagnóstico alternativo sea menos probable que un TEP. Es decir, tu propio juicio clínico suma tres puntos."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Luego vienen tres criterios de uno y medio: frecuencia cardíaca sobre cien,"
+    },
+    {
+      "file": "s03_g03",
+      "text": "inmovilización o cirugía mayor en las cuatro semanas previas,"
+    },
+    {
+      "file": "s03_g04",
+      "text": "y antecedente de TEP o trombosis venosa previa."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y dos criterios de un punto: hemoptisis y cáncer activo. El corte que usa el libro es cuatro: cuatro o menos es probabilidad baja o intermedia; más de cuatro, probabilidad alta."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Con Wells calculado, el examen se elige solo. Fíjate que esto es para el paciente estable; al inestable lo vemos enseguida."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si Wells da cuatro o menos, la probabilidad es baja o intermedia, y el primer examen es el dímero D ultrasensible."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si sale negativo, bajo quinientos, o bajo la edad por diez en los mayores de cincuenta, descarta el TEP con un valor predictivo negativo sobre noventa y nueve por ciento. Te ahorras radiación y contraste."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si sale positivo, no confirma nada, porque sube en muchas situaciones: pasas al angioTAC de arterias pulmonares, que es el estándar en la práctica clínica."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y aquí está la trampa. Si Wells da más de cuatro, pedir dímero D está contraindicado, porque un resultado negativo no tiene fuerza suficiente para descartar en ese grupo. Se va directo al angioTAC. El postoperado de cadera con pantorrilla hinchada no necesita dímero D."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora la estratificación. Y la primera pregunta, antes incluso de Wells, es la hemodinamia: ¿el paciente está en shock, o con presión sistólica bajo noventa por más de quince minutos, sin otra causa como hipovolemia o sepsis?"
+    },
+    {
+      "file": "s05_g01",
+      "text": "Si la respuesta es sí, es un TEP de alto riesgo, o masivo, con una mortalidad temprana de quince a treinta por ciento. Fíjate que se define exclusivamente por la inestabilidad hemodinámica, no por el tamaño del trombo en la imagen."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si está estable, se aplica el índice de severidad simplificado, el sPESI. Suma un punto por cada uno de estos: edad sobre ochenta, cáncer activo, insuficiencia cardíaca o EPOC, frecuencia de ciento diez o más, presión sistólica bajo cien, y saturación bajo noventa por ciento."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Con sPESI cero, el riesgo es bajo, con mortalidad a treinta días bajo uno por ciento. Es candidato a hospitalización muy breve o a manejo ambulatorio precoz con anticoagulantes orales directos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Con sPESI de uno o más, el riesgo es intermedio, y aquí vuelve el ventrículo derecho: se busca disfunción en el ecocardiograma o en el angioTAC, y se miden troponinas o péptido natriurético."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Si ambos son positivos, es intermedio-alto: el paciente va a monitoreo en unidad de cuidados intensivos o intermedios, porque se puede descompensar. Si solo uno o ninguno es positivo, es intermedio-bajo, y se anticoagula en sala."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Veamos el tratamiento, empezando por el paciente en shock. Aquí la anticoagulación sola no alcanza: hay que destapar la arteria. La primera línea es la trombólisis sistémica con activador tisular del plasminógeno recombinante, alteplasa, cien miligramos endovenosos en dos horas. Es el tratamiento que reduce la mortalidad."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si el paro es inminente, se da en bolo rápido, cero coma seis miligramos por kilo en quince minutos."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La trombólisis tiene contraindicaciones absolutas: ACV hemorrágico previo, ACV isquémico en los últimos seis meses, hemorragia digestiva activa grave, o un traumatismo encefalocraneano mayor reciente."
+    },
+    {
+      "file": "s06_g03",
+      "text": "En ese caso, la alternativa es mecánica: embolectomía quirúrgica de rescate, o trombectomía percutánea por catéter."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y una trampa: el shock del TEP es obstructivo. El volumen se da con cautela, porque sobrecargar un ventrículo derecho que ya está fallando lo empeora."
+    },
+    {
+      "file": "s07_g00",
+      "text": "En el paciente estable, la anticoagulación es la piedra angular: detiene la propagación del trombo y deja que el cuerpo lo disuelva. La primera línea son los anticoagulantes orales directos, sin necesidad de heparina previa. Rivaroxabán quince miligramos cada doce horas por veintiún días, y luego veinte miligramos al día."
+    },
+    {
+      "file": "s07_g01",
+      "text": "O apixabán, diez miligramos cada doce horas por siete días, y luego cinco cada doce horas. No requieren control de INR."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La alternativa es la heparina de bajo peso molecular, enoxaparina un miligramo por kilo cada doce horas subcutánea. El libro la deja como elección en la embarazada y en el paciente con cáncer activo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si se usa, se puede traslapar a un antagonista de vitamina K, acenocumarol o warfarina, con meta de INR entre dos y tres."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La duración: en un primer TEP provocado por un factor transitorio, como una cirugía o un yeso, mínimo tres meses, y hasta seis. En el no provocado recurrente o con cáncer, se prolonga en forma indefinida."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y si el paciente no se puede anticoagular, por ejemplo por una hemorragia activa mayor, se instala un filtro recuperable de vena cava inferior, para evitar nuevos émbolos."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con disnea súbita, dolor pleurítico y taquicardia, con algún factor de Virchow. La primera pregunta no es qué examen pedir, sino la hemodinamia: ¿está en shock, o con sistólica bajo noventa?"
+    },
+    {
+      "file": "s08_g01",
+      "text": "Es un TEP de alto riesgo. Se confirma con angioTAC urgente, o con ecocardiograma en la cama si no puede trasladarse."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Se tromboliza con alteplasa, cien miligramos en dos horas. Si está contraindicada, embolectomía quirúrgica o trombectomía por catéter."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si está estable, calculas Wells."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Con cuatro o menos, pides dímero D."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si es negativo, el TEP queda descartado."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si es positivo, angioTAC."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Con más de cuatro, angioTAC directo. Confirmado el TEP, estratificas con sPESI y el ventrículo derecho, y anticoagulas: anticoagulantes orales directos, o enoxaparina en cáncer o embarazo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las decisiones que más se preguntan. Paciente estable con Wells de cuatro o menos: dímero D. El error es irradiar de entrada."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Estable con Wells sobre cuatro: angioTAC directo. Pedir dímero D es el error clásico."
+    },
+    {
+      "file": "s09_g02",
+      "text": "TEP con shock o presión sistólica bajo noventa: alto riesgo y trombólisis con alteplasa. Quedarse solo con heparina es quedarse corto."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Normotenso, pero con ventrículo derecho dilatado y troponinas elevadas: intermedio-alto. Anticoagulación plena y monitoreo en unidad intensiva, no trombólisis de entrada."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Normotenso con sPESI cero: bajo riesgo, anticoagulante oral directo y alta precoz."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y si hay una hemorragia activa mayor que impide anticoagular: filtro de vena cava inferior."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos a un caso. Mujer de cincuenta y cuatro años, con una prótesis total de cadera hace diez días, que de pronto presenta disnea intensa, dolor punzante en el lado derecho y taquicardia. Frecuencia cardíaca ciento doce, presión ciento veinticinco ochenta, satura noventa y uno. La pantorrilla derecha está hinchada y dolorosa."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: dímero D y angioTAC si sale positivo, angioTAC directo, trombólisis sin estudio, electrocardiograma buscando S uno Q tres T tres, o radiografía y control. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Primero la presión: está estable, así que calculamos Wells. Signos de trombosis, tres; TEP como diagnóstico más probable, tres; taquicardia, uno y medio; cirugía reciente, uno y medio: nueve puntos, probabilidad alta. Y con Wells alto, el dímero D está contraindicado, así que la A es la trampa. La C tampoco: con presión normal no se tromboliza."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de diciembre de dos mil dieciocho. Hombre de sesenta años, en quimioterapia por cáncer de colon, que hace un síncope al levantarse, con disnea y dolor torácico. Frecuencia ciento veinte, presión noventa cincuenta, y el electrocardiograma muestra un bloqueo completo de rama derecha."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el examen de elección para continuar el estudio?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: radiografía de tórax, TAC de tórax, dímero D, ecocardiograma, o angioTAC. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D. Cáncer, síncope, taquicardia, presión en el límite y bloqueo de rama derecha: un TEP con compromiso hemodinámico. En este paciente, el ecocardiograma en la cama muestra el ventrículo derecho fallando sin sacarlo de la sala. El angioTAC, la E, es la trampa: es el examen del TEP estable. Y el dímero D no tiene ningún papel en un paciente así."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Esta es del EUNACOM de agosto de dos mil veintiuno. Hombre de setenta y dos años, operado de una fractura de cadera, que al quinto día pierde el conocimiento al ponerse de pie y se recupera en minutos. Luego repite lipotimias. Frecuencia ciento veinte, presión cien cincuenta."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: TAC de cerebro, ecocardiograma, resonancia de cerebro, electrocardiograma, o angioTAC de tórax. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la E. Postoperado de cadera con síncope y taquicardia es un TEP, no un problema del cerebro. Compárala con la anterior: aquí la sistólica es cien, sobre noventa, así que puede ir al angioTAC, que es el examen que confirma. El ecocardiograma es el distractor: se reserva para el paciente que está demasiado inestable para trasladarlo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una muy reciente, del EUNACOM de diciembre de dos mil veinticinco. Hombre de sesenta años, con una trombosis venosa hace diez años, que empeora bruscamente y hace un síncope. Presión setenta cuarenta, frecuencia ciento cincuenta, satura ochenta y seis, con yugulares ingurgitadas y desorientado. El angioTAC muestra trombos en ambas arterias pulmonares."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: trombólisis con tenecteplase, trombólisis con estreptoquinasa, heparina endovenosa, trombectomía quirúrgica, o trombectomía por catéter. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A. Presión de setenta con compromiso de conciencia es un TEP de alto riesgo, y el tratamiento es la trombólisis sistémica. En el libro el fármaco es la alteplasa; aquí la opción correcta es otro trombolítico moderno de la misma familia, el tenecteplase. La heparina, la C, se queda corta en el shock. Y las trombectomías son el rescate cuando la trombólisis está contraindicada, que no es el caso."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Esta es del EUNACOM de julio de dos mil veinticuatro. Una paciente con dos horas de disnea, que viene llegando en avión desde Europa y usa anticonceptivos orales. Presión ciento diez setenta, satura noventa, el examen es normal, y el electrocardiograma muestra taquicardia sinusal a ciento veinte."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el examen de elección para continuar el estudio?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: dímero D, ecocardiograma, angioTAC, péptido natriurético, o Holter. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C. Está estable, así que calcula Wells: TEP como diagnóstico más probable, tres puntos, más taquicardia, uno y medio. Cuatro y medio: más de cuatro, probabilidad alta. El dímero D es la trampa, porque la paciente parece sana; pero con Wells alto no descarta y se va directo al angioTAC. Fíjate que el avión y los anticonceptivos no suman en Wells, pero sí hacen que el TEP sea lo más probable."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Esta es del EUNACOM de diciembre de dos mil diecinueve, y casi igual a una de julio de dos mil quince. Hombre de cincuenta y seis años, hospitalizado por un síndrome nefrótico, que al quinto día presenta disnea y dolor torácico. Tiene un derrame pleural derecho, y al puncionarlo sale un líquido hemorrágico, con LDH de seiscientos cincuenta."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: derrame paraneumónico, trasudado por hipoalbuminemia, empiema, tromboembolismo pulmonar, o derrame canceroso. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la D. Piensa en Virchow: el síndrome nefrótico es un estado de hipercoagulabilidad, y además está hospitalizado. Disnea y dolor torácico de inicio agudo con un derrame hemorrágico sugieren un infarto pulmonar por TEP. El trasudado por hipoalbuminemia es la trampa, porque el nefrótico lo hace esperable; pero una LDH de seiscientos cincuenta y un líquido con sangre no son un trasudado."
+    },
+    {
+      "file": "s16_g00",
+      "text": "La última real, del EUNACOM de diciembre de dos mil veinticinco. Hombre de setenta y cinco años, con EPOC e insuficiencia cardíaca, que lleva cinco días en reposo en cama por una disnea mayor que la habitual. Hoy empeora de golpe, pierde el conocimiento unos segundos y queda con disnea de reposo. El electrocardiograma muestra solo taquicardia sinusal, y la radiografía no tiene opacidades."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: infarto, disección aórtica, taponamiento, neumonía, o tromboembolismo pulmonar. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la E. La palabra clave es súbita, en un paciente que llevaba días en cama: estasis de Virchow. Y fíjate que el electrocardiograma solo muestra taquicardia sinusal, que es justamente el hallazgo más frecuente del TEP, y la radiografía no tiene nada nuevo. La trampa es atribuirlo a su EPOC o a su insuficiencia cardíaca; pero un síncope con empeoramiento brusco en un paciente encamado es TEP hasta demostrar lo contrario."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Primero la presión: shock o sistólica bajo noventa es un TEP de alto riesgo, y se tromboliza con alteplasa, cien miligramos en dos horas."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Si está demasiado inestable para ir a imágenes, el ecocardiograma en la cama muestra el ventrículo derecho."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Si está estable, calcula Wells. Cuatro o menos, dímero D, y si es negativo descarta."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Más de cuatro, angioTAC directo, sin dímero D."
+    },
+    {
+      "file": "s17_g04",
+      "text": "El estable se anticoagula, de primera línea con rivaroxabán o apixabán, y con enoxaparina en el cáncer activo o el embarazo."
+    },
+    {
+      "file": "s17_g05",
+      "text": "Mínimo tres meses si fue provocado. Y recuerda que el hallazgo más frecuente del electrocardiograma es la taquicardia sinusal. Si te llevas una sola idea de hoy: primero la presión arterial, después Wells. Nos vemos en la próxima clase."
+    }
+  ]
+}

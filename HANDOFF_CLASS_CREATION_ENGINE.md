@@ -218,3 +218,11 @@ cd books && npm run build:gastro
    In `player_template.html`, replaced `justify-content: space-around;` with `justify-content: center; gap: 12px;`, keeping cards vertically centered with zero awkward dead space.
 4. **Zero-Emoji Compliance (CERTIFIED):**  
    All decks, labels, and SVGs are certified 100% emoji-free for a high-end Swiss medical editorial aesthetic.
+
+---
+
+## 10. Animated Decision Trees & Step-Synced Narration (Gastro, v2)
+
+- **Pathways:** `classes/pathways/gastro_pathways.cjs` holds one decision tree per gastro class (26), built only from `books/scripts/dataset_gastroenterologia.cjs`. Each node has a short label (`t`), a one-line detail (`s`) and a spoken explanation (`say`, also shown in the reasoning panel). Node kinds: `start`, `q` (question), `do` (exam/action), `ok` (manage), `refer` (refer), `alert` (emergency). `build_swiss_player.cjs` replaces the old static SVG algorithm with this `pathway` slide.
+- **Narration:** every slide gets `segments: [{ step, text }]`, one per visual step (card, table row, tree node, quiz stage). The player speaks segment by segment and reveals that exact step as it starts, so everything on screen is said. `speakable()` in the builder expands symbols and abbreviations for the voice.
+- **To add a pathway for another specialty:** create `classes/pathways/<specialty>_pathways.cjs` with the same shape and load it in `build_swiss_player.cjs`.

@@ -1,0 +1,248 @@
+{
+  "id": "diab-13",
+  "title": "Diabetes 3.3: Manejo de la Hiperglicemia en el Paciente Hospitalizado",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 11394,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos al paciente diabético que se hospitaliza, por una neumonía, una cirugía o una sepsis. Venimos de aprender los esquemas de insulina, y ahora los llevamos a la sala. El examen pregunta tres cosas, casi siempre las mismas: qué meta de glicemia se busca, qué fármacos orales se suspenden al ingreso, y con qué esquema de insulina se reemplazan. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Primero, la definición. Hiperglicemia hospitalaria es cualquier glicemia sobre ciento cuarenta en un paciente internado, tenga o no diagnóstico previo de diabetes. Fíjate en eso: no hace falta ser diabético para tenerla."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Y no es un número inocente. La hiperglicemia de estrés se asocia a más mortalidad, más infecciones de la herida operatoria, estadías más largas y falla multiorgánica. Por eso se trata, y no se deja para el alta."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La meta es una sola, y se pregunta: mantener la glicemia entre ciento cuarenta y ciento ochenta, tanto en la unidad de cuidados intensivos como en la sala de medicina o cirugía."
+    },
+    {
+      "file": "s01_g03",
+      "text": "¿Y por qué no apuntar más bajo, a menos de ciento diez? Porque se probó, en el ensayo NICE-SUGAR, y aumentó las hipoglicemias severas y la mortalidad. En el hospitalizado, apretar demasiado mata más que la hiperglicemia moderada. Si una alternativa te ofrece normalizar la glicemia en todo momento, es la trampa."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora, lo primero que haces cuando ingresa el paciente. La regla es simple: se suspenden todos los hipoglucemiantes orales. Pero el examen quiere que sepas el porqué de cada uno, así que vamos fármaco por fármaco."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La metformina se suspende siempre ante sepsis, hipoperfusión, inestabilidad hemodinámica, insuficiencia renal aguda, hipoxemia, o si se va a usar medio de contraste yodado. Fíjate que todas son situaciones en que el tejido recibe poco oxígeno o el riñón no elimina bien el fármaco."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el riesgo es la acidosis láctica asociada a metformina, que puede ser letal. Por eso es una de las reglas de más jerarquía del tema: paciente séptico o con falla renal aguda, metformina fuera."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Las sulfonilureas, como la glibenclamida, se suspenden de inmediato. El hospitalizado come de forma irregular o queda en régimen cero, pero el fármaco sigue estimulando la insulina. El resultado son hipoglicemias prolongadas, que vemos en detalle la próxima clase."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y los inhibidores de SGLT dos, como la dapagliflozina, se suspenden ante cirugía mayor o infección, por el riesgo de cetoacidosis diabética euglicémica y deshidratación. Guarda esta idea para las clases de cetoacidosis."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Tres fármacos, tres riesgos distintos, y un solo reemplazo: la insulina programada. La pregunta siguiente es cómo se indica esa insulina."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Uno de los errores más castigados en el examen es indicar un esquema móvil de insulina cristalina según hemoglucotest, y nada más. En inglés se llama sliding scale. Como terapia única está proscrito. Veamos por qué, porque el mecanismo te lo deja claro."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Primero, es reactivo. Esperas a que la glicemia suba, y recién entonces pones insulina. No previene la hiperglicemia: la persigue, siempre un paso atrás."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Segundo, no aporta cobertura basal. Entre una dosis y la siguiente, el paciente no tiene insulina de fondo, justo cuando el estrés de la enfermedad la está pidiendo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El resultado es una montaña rusa glicémica: picos de hiperglicemia seguidos de correcciones que a veces se pasan y terminan en hipoglicemia. Ineficaz y riesgoso a la vez."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Lo correcto es un esquema programado: una insulina basal que cubre el fondo, más dosis de corrección. Ojo con el matiz: la escala de corrección sí se usa, pero siempre encima de una basal, nunca sola."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Entonces, ¿qué esquema indicas? La primera pregunta es si el paciente es crítico: está en la unidad de cuidados intensivos o hemodinámicamente inestable."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si es crítico, la vía de elección es la infusión endovenosa continua de insulina cristalina, en bomba, con controles de glicemia capilar cada una a dos horas. Sin ese control horario, la infusión se transforma en riesgo de hipoglicemia."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si no es crítico, está en una sala básica o quirúrgica, y la vía es subcutánea. Aquí lo que decide el esquema es si el paciente come o no."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si está en ayunas, esquema basal-corrección: la insulina basal más dosis de corrección según la glicemia. No tiene sentido un bolo para una comida que no va a llegar."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si tolera alimentación oral, esquema basal-bolo-corrección: la basal, un bolo de insulina rápida con cada comida, y la escala de corrección encima. Es lo mismo que aprendiste en la clase de esquemas, adaptado al hospital."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Veamos los números. Se calcula una dosis total diaria de cero coma dos a cero coma cuatro unidades por kilo al día."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La mitad va como insulina basal: NPH cada doce horas, o glargina una vez al día."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La otra mitad se reparte en bolos de insulina rápida antes de cada comida. Por ejemplo, un paciente de setenta kilos a cero coma dos recibe catorce unidades al día: siete de basal y siete repartidas en las comidas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y encima se agrega la escala de corrección antes de cada comida, según la glicemia capilar. Esa escala es la parte móvil del esquema: bien usada, corrige; usada sola, persigue."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y todo esto con la meta de ciento cuarenta a ciento ochenta. El esquema no busca una glicemia perfecta: busca sacar al paciente de la hiperglicemia sin llevarlo a la hipoglicemia."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora juntemos todo en el árbol que vas a razonar frente al diabético que se hospitaliza. Ingresa un paciente con glicemia sobre ciento cuarenta, tenga o no diabetes previa. El primer paso es suspender todos los orales: la metformina por la acidosis láctica, las sulfonilureas por la hipoglicemia, y los inhibidores de SGLT dos por la cetoacidosis euglicémica."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿El paciente es crítico, en intensivo o hemodinámicamente inestable? Eso define la vía de la insulina."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si es crítico, infusión endovenosa continua de insulina cristalina, con controles de glicemia cada una a dos horas, y meta de ciento cuarenta a ciento ochenta."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si no es crítico, la vía es subcutánea, y el esquema depende de si el paciente come."
+    },
+    {
+      "file": "s06_g04",
+      "text": "En ayunas, insulina basal más dosis de corrección según glicemia capilar."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si come, basal-bolo-corrección: cero coma dos a cero coma cuatro unidades por kilo al día, la mitad como basal y la mitad en bolos prandiales, más la escala de corrección."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Y lo que nunca se indica como terapia única es el esquema móvil de insulina cristalina según hemoglucotest: persigue la glicemia y produce hiper e hipoglicemias."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos en una tabla. Metformina: se suspende, por la acidosis láctica ante sepsis, hipoxemia o contraste. La trampa es mantenerla a media dosis porque la función renal todavía parece aceptable."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Glibenclamida: se suspende, por la hipoglicemia prolongada en quien come poco o nada. Nunca se agrega para bajar la glicemia del hospitalizado."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Inhibidores de SGLT dos: se suspenden ante cirugía o infección, por la cetoacidosis euglicémica y la deshidratación."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El esquema móvil aislado: proscrito como terapia única. Es la alternativa más tentadora del tema, porque suena prudente, y es incorrecta."
+    },
+    {
+      "file": "s07_g04",
+      "text": "En el paciente crítico, insulina cristalina endovenosa en bomba, con control cada una a dos horas."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y la meta, en todos: ciento cuarenta a ciento ochenta. Bajar a menos de ciento diez aumenta la mortalidad por hipoglicemia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Hombre de sesenta y cuatro años, diabético tipo dos, que usa glibenclamida cinco miligramos cada doce horas. Está en el segundo día después de una colecistectomía, estable, comiendo régimen completo, con glicemias capilares entre doscientos veinte y doscientos sesenta. Pesa ochenta kilos y su función renal es normal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el manejo más adecuado de su diabetes durante la hospitalización?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las alternativas: reiniciar la glibenclamida, insulina cristalina según hemoglucotest como única terapia, insulina basal con bolos prandiales y corrección, infusión endovenosa de insulina, u observar hasta que pase de trescientos. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. No es crítico, así que la vía es subcutánea, y come, así que el esquema es basal-bolo-corrección. La B es el distractor más tentador: el esquema móvil solo persigue la glicemia y está proscrito. La glibenclamida se suspende en el hospital, la infusión endovenosa es para el paciente crítico, y esperar a trescientos ignora la meta de ciento cuarenta a ciento ochenta."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente hospitalizada, recibiendo hidrocortisona endovenosa, con glicemias elevadas persistentes."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen para el diagnóstico?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: glicemia en ayunas, test de tolerancia oral a la glucosa, insulinemia basal, hemoglobina glicosilada, o péptido C. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D, la hemoglobina glicosilada. Recuerda la definición: hiperglicemia hospitalaria, con o sin diabetes previa. Con corticoides y estrés, la glicemia está alta por la enfermedad y no te dice si había diabetes antes. La hemoglobina glicosilada refleja los últimos dos a tres meses: si es seis coma cinco o más, ya era diabética. La glicemia de ayuno y el test de tolerancia caen por lo mismo: los contamina el corticoide."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con una pregunta del banco EUNACOM. Paciente de setenta y dos años, diabético tipo dos con metformina ochocientos cincuenta cada ocho horas, que ingresa con una sepsis urinaria, presión de ochenta y ocho cincuenta y cinco, taquicardia de ciento doce, creatinina de dos coma dos y glicemia de doscientos sesenta."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la indicación más apropiada para su diabetes durante la hospitalización?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: seguir con metformina y agregar glibenclamida, suspender metformina y dejar un esquema móvil aislado, suspender metformina e iniciar insulina basal con correcciones, mantener media dosis de metformina con bicarbonato, o solo hidratar hasta que pase de trescientos. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Sepsis, hipotensión y falla renal aguda: la metformina se suspende ya, por la acidosis láctica. Y fíjate en la B, que es la trampa fina: suspende bien la metformina, pero la reemplaza con un esquema móvil aislado, que está proscrito. Solo la C combina las dos reglas: suspender la metformina e indicar insulina basal con corrección."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una más del banco, directa. ¿Cuál es el rango de glicemia recomendado como meta en la gran mayoría de los adultos diabéticos, no embarazadas, hospitalizados en medicina interna?"
+    },
+    {
+      "file": "s11_g01",
+      "text": "Elige el rango correcto."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: setenta a cien, ochenta a ciento treinta, ciento cuarenta a ciento ochenta, ciento ochenta a doscientos cincuenta, o menos de ciento diez en todo momento. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C, ciento cuarenta a ciento ochenta. La B es tentadora porque es la meta de glicemia de ayuno del paciente ambulatorio, pero en el hospital la meta es otra. Y la E es la trampa clásica: menos de ciento diez en todo momento fue lo que el ensayo NICE-SUGAR mostró que aumenta las hipoglicemias y la mortalidad."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La meta en todo hospitalizado es ciento cuarenta a ciento ochenta. Apretar a menos de ciento diez aumenta la mortalidad."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Al ingreso se suspenden todos los orales. La metformina, por la acidosis láctica ante sepsis, falla renal aguda, hipoxemia o contraste."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las sulfonilureas, por la hipoglicemia prolongada; y los inhibidores de SGLT dos, por la cetoacidosis euglicémica."
+    },
+    {
+      "file": "s12_g03",
+      "text": "En sala, insulina subcutánea programada: basal-corrección si está en ayunas, basal-bolo-corrección si come. Nunca el esquema móvil solo."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y en el paciente crítico, insulina cristalina endovenosa con control horario. Si te llevas una sola idea de hoy: en el hospital la insulina se programa, no se persigue. Nos vemos en la próxima clase."
+    }
+  ]
+}

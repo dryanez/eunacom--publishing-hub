@@ -1,0 +1,324 @@
+{
+  "id": "hem-07",
+  "title": "Hematología 8.7: Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
+  "specialty": "Hematología",
+  "chars": 15252,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos una anemia con LDH y bilirrubina altas pero con reticulocitos bajos. Hoy vemos el caso contrario: una médula sana que produce a toda máquina, pero cuyos glóbulos rojos son destruidos por el propio sistema inmune. Es la anemia hemolítica autoinmune. El examen pregunta tres cosas: reconocer la hemólisis, confirmarla con el test de Coombs, y saber que el anticuerpo caliente responde a corticoides y el frío no."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por reconocer la hemólisis, porque tiene cuatro pilares. El primero: los reticulocitos. El índice reticulocitario corregido está sobre dos por ciento, porque la médula está sana y responde a la anemia. Esa es la diferencia con la megaloblástica de la clase anterior: allá la médula no podía; aquí, sí puede."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo: la LDH sube, porque sale del glóbulo rojo cuando se rompe."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El tercero: la bilirrubina de predominio indirecto, habitualmente entre dos y cinco, que viene de degradar el grupo hemo de todos esos glóbulos destruidos."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y el cuarto: la haptoglobina colapsa, bajo diez. La haptoglobina es una proteína del hígado que atrapa la hemoglobina libre y se elimina con ella. Si hay mucha hemoglobina que atrapar, la haptoglobina se agota. Es el marcador más sensible de hemólisis."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y un detalle que confunde en el examen: en la hemólisis el VCM puede subir un poco, porque los reticulocitos son más grandes que el glóbulo rojo maduro. No te lleva a pensar en B doce si los reticulocitos están altos."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora el mecanismo, que se divide según la temperatura a la que funciona el anticuerpo. La forma más frecuente, del ochenta al noventa por ciento, es la de anticuerpos calientes. Es una IgG que se une al glóbulo rojo con máxima afinidad a la temperatura del cuerpo, treinta y siete grados, principalmente contra antígenos del sistema Rh."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La IgG cubre al glóbulo rojo, a veces junto con la fracción C tres d del complemento. Pero fíjate: la IgG sola no rompe el glóbulo dentro del vaso. Solo lo marca."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Esa marca la reconocen los macrófagos del bazo, que tienen receptores para la IgG. Cuando el glóbulo pasa por los cordones de la pulpa roja, los macrófagos le arrancan pedazos de membrana."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El glóbulo pierde superficie, pero conserva su volumen, así que deja de ser un disco y se transforma en una esfera densa y rígida: el microesferocito. Por eso en el frotis de estos pacientes ves microesferocitos abundantes."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y ese esferocito rígido ya no pasa por el bazo y queda atrapado ahí. Es una hemólisis extravascular, esplénica. Guarda este dato, porque explica por qué la esplenectomía sirve en esta forma."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Puede ser idiopática, o secundaria. Las causas que tienes que buscar son el lupus eritematoso sistémico, la leucemia linfática crónica y fármacos como la metildopa, la penicilina y las cefalosporinas."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La otra forma es la enfermedad por crioaglutininas, del diez al quince por ciento. Aquí el anticuerpo es una IgM, una molécula grande, que se une al glóbulo rojo a temperaturas muy bajas, de cero a cuatro grados. ¿Dónde se enfría la sangre? En las acras: dedos, orejas y nariz."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La IgM fija con mucha fuerza el complemento y activa la vía clásica. Ese es el verdadero agresor en esta forma."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Cuando la sangre vuelve a las vísceras, a treinta y siete grados, la IgM se suelta del glóbulo. Pero el complemento que dejó pegado, el C tres b, se queda. Este detalle explica el resultado del Coombs, que vemos en un momento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Ese complemento destruye el glóbulo de dos formas: dentro del vaso, por el complejo de ataque a membrana, o en el hígado, por las células de Kupffer. Fíjate que el bazo casi no participa, y por eso la esplenectomía no sirve aquí."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y las asociaciones clásicas: la neumonía por Mycoplasma pneumoniae, la mononucleosis por virus de Epstein-Barr y los linfomas de bajo grado. Si el caso es un paciente con neumonía atípica que se pone ictérico y anémico, piensa en crioaglutininas."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Con la hemólisis reconocida, ¿cómo confirmas que es autoinmune? Con la prueba de Coombs directa, también llamada prueba de antiglobulina directa. Se toman los glóbulos rojos del paciente, se lavan, y se mezclan con el suero de Coombs, que trae anticuerpos contra la IgG humana y contra el C tres d."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si los glóbulos aglutinan, significa que ya venían cubiertos de anticuerpo o de complemento desde el cuerpo del paciente. Eso confirma la anemia hemolítica autoinmune."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la forma caliente, el Coombs directo es positivo para IgG, y en la mitad de los casos también para C tres d."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y en las crioaglutininas, es positivo solo para C tres d, con IgG negativa. ¿Por qué? Porque la IgM ya se soltó a treinta y siete grados, y lo único que queda pegado es el complemento. El mecanismo te dice el resultado del examen."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Veamos la clínica. La forma caliente puede iniciarse de manera brusca, con astenia intensa, taquicardia y dolor lumbar o abdominal."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El paciente está pálido y amarillo a la vez. Es la ictericia flavínica, un amarillo pálido, propio de la bilirrubina indirecta."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En la mitad de los casos se palpa una esplenomegalia leve a moderada. Tiene lógica: el bazo es donde se destruyen los glóbulos, y está trabajando de más."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La orina puede oscurecerse por el exceso de urobilinógeno, pero no hay coluria verdadera, porque la bilirrubina indirecta va unida a la albúmina y no se filtra en el glomérulo."
+    },
+    {
+      "file": "s05_g04",
+      "text": "En las crioaglutininas, la clave son los síntomas acrales con el frío: acrocianosis dolorosa, livedo reticularis y fenómeno de Raynaud en los dedos, las orejas y la punta de la nariz. Son los glóbulos aglutinándose en la microcirculación fría."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Y un nombre que se pregunta: el síndrome de Evans. Es la combinación de una anemia hemolítica autoinmune con una trombocitopenia inmune primaria. Hemólisis más púrpura, en una enfermedad autoinmune grave."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Antes de tratar, hay que medir la gravedad. Con hemoglobina entre nueve coma cinco y once, asintomático en reposo, se trata con prednisona oral a un miligramo por kilo, ácido fólico cinco miligramos al día, y control semanal en policlínico."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Con hemoglobina entre siete coma cinco y nueve coma cuatro, con astenia y taquicardia de esfuerzo, se sube a uno coma cinco miligramos por kilo, y se busca una infección o una neoplasia que lo haya gatillado."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La forma grave tiene hemoglobina bajo siete, disnea de reposo, dolor torácico, o una LDH sobre mil quinientos."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Se hospitaliza de inmediato, con pulsos de metilprednisolona endovenosa de un gramo al día y monitoreo hemodinámico continuo."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si hay riesgo vital inminente, con shock, compromiso de conciencia o isquemia miocárdica, recién ahí se suma la transfusión, con las precauciones que veremos."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El pilar de la forma caliente es el corticoide: prednisona oral, uno a uno coma cinco miligramos por kilo al día. Frena la producción de anticuerpos y apaga los receptores de los macrófagos del bazo. Responde el setenta a ochenta por ciento de los pacientes, en siete a catorce días."
+    },
+    {
+      "file": "s07_g01",
+      "text": "En la crisis hemolítica con descompensación, se usan pulsos de metilprednisolona endovenosa, un gramo al día por tres días."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Cuando la hemoglobina se estabiliza y los reticulocitos bajan, el corticoide se reduce de forma muy lenta, a lo largo de tres a seis meses. Bajarlo rápido gatilla recaídas graves. Y siempre con calcio, vitamina D y protección gástrica."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Además, ácido fólico cinco miligramos al día mientras dure la hemólisis. Conecta con la clase anterior: una médula que trabaja a toda máquina consume folato, y puede caer en una crisis megaloblástica."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La gran diferencia: las crioaglutininas no responden a corticoides ni a esplenectomía. Recuerda el mecanismo: la destrucción ocurre en los vasos y en el hígado, no en el bazo."
+    },
+    {
+      "file": "s07_g05",
+      "text": "El manejo es evitar estrictamente el frío, mantener al paciente temperado con mantas y líquidos tibios, y en los casos graves o refractarios, rituximab."
+    },
+    {
+      "file": "s08_g00",
+      "text": "¿Cuándo se pasa a segunda línea en la forma caliente? Cuando el paciente es corticorrefractario, es decir, no responde a las tres semanas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Cuando es corticodependiente, y recae cada vez que la prednisona baja de quince a veinte miligramos al día. O cuando tiene una contraindicación mayor a los esteroides."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La primera opción es el rituximab, un anticuerpo monoclonal anti CD veinte que elimina los linfocitos B, en dosis de trescientos setenta y cinco miligramos por metro cuadrado, semanal por cuatro semanas. Por su eficacia y seguridad, ha desplazado a la cirugía."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La otra es la esplenectomía, que saca el sitio donde se destruyen los glóbulos. Exige vacunar contra neumococo, meningococo y Haemophilus influenzae tipo b, al menos dos semanas antes de la cirugía."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Y ahora la advertencia que más se pregunta. El autoanticuerpo IgG va dirigido contra antígenos que tienen casi todos los glóbulos rojos, del sistema Rh. Eso significa que también va a atacar a los glóbulos del donante."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Por eso, en el banco de sangre, la prueba cruzada sale incompatible con absolutamente todas las unidades. No existe sangre compatible para este paciente."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si transfundes solo porque la hemoglobina está baja, arriesgas una hemólisis masiva y empeorar al paciente. Por eso la regla es evitar la transfusión siempre que se pueda."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Solo se transfunde ante compromiso vital inminente: shock refractario, ángor inestable o compromiso de conciencia. Y en ese caso se usa la unidad menos incompatible, infundida lento, bajo monitoreo estrecho y después de haber dado corticoides endovenosos."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Juntemos todo en un árbol, partiendo de una anemia con signos de hemólisis. Tienes una anemia con reticulocitos altos, LDH y bilirrubina indirecta altas, y haptoglobina baja. Es una hemólisis. Ahora hay que saber si es autoinmune."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Pide el Coombs directo. Es el examen que confirma la causa autoinmune."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si es negativo, el problema no es un anticuerpo: piensa en defectos del propio glóbulo, como la esferocitosis hereditaria o el déficit de G seis PD, que vemos en la próxima clase."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si es positivo solo para complemento, son crioaglutininas. Busca Mycoplasma, Epstein-Barr o linfoma, evita el frío y usa rituximab si es grave. Nada de corticoides ni esplenectomía."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si es positivo para IgG, es una hemolítica caliente. La siguiente pregunta es la gravedad."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si no es grave, prednisona oral de uno a uno coma cinco miligramos por kilo, ácido fólico, y un descenso muy lento en tres a seis meses. Si no responde en tres semanas o recae al bajar, rituximab o esplenectomía."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si es grave, se hospitaliza con pulsos de metilprednisolona endovenosa. Solo si hay shock, ángor o compromiso de conciencia, se transfunde la unidad menos incompatible, lento y con monitoreo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Comparemos las dos formas. La caliente es la gran mayoría, ochenta a noventa por ciento; la fría, diez a quince."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El anticuerpo: IgG a temperatura corporal en la caliente; IgM que se une en el frío en la otra."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Dónde se destruye el glóbulo: en el bazo en la caliente; en los vasos y en el hígado en la fría."
+    },
+    {
+      "file": "s11_g03",
+      "text": "El frotis: microesferocitos en la caliente, glóbulos aglutinados en la fría."
+    },
+    {
+      "file": "s11_g04",
+      "text": "El Coombs: IgG positivo en la caliente; solo complemento en la fría."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Las asociaciones: lupus, leucemia linfática crónica y fármacos en la caliente; Mycoplasma, Epstein-Barr y linfoma en la fría."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Y el tratamiento: prednisona en la caliente; evitar el frío y rituximab en la fría. La trampa clásica es indicar corticoides o esplenectomía en las crioaglutininas."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Y la última trampa, que aplica sobre todo a la caliente: no se transfunde por la cifra. Solo con riesgo vital, porque todas las pruebas cruzadas salen incompatibles."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Vamos con un caso. Mujer de treinta y un años, con lupus recién diagnosticado, que consulta por disnea de reposo, astenia intensa, orinas oscuras e ictericia de dos días. Presión de cien con sesenta, taquicárdica, lúcida y sin dolor torácico. Está muy pálida, ictérica y con el bazo palpable. Hemoglobina cinco coma ocho, reticulocitos de nueve por ciento, bilirrubina indirecta y LDH altas, haptoglobina indetectable, y microesferocitos en el frotis."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: transfundir de inmediato, Coombs y metilprednisolona endovenosa evitando transfundir, esplenectomía de urgencia, evitar el frío con rituximab, o vitamina B doce con ácido fólico. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. Tiene los cuatro pilares de hemólisis, microesferocitos y lupus: es una hemolítica autoinmune caliente, y grave. Se confirma con Coombs, se hospitaliza con metilprednisolona endovenosa y ácido fólico. El distractor tentador es la A, porque la hemoglobina está bajo seis, pero está lúcida, sin shock ni dolor torácico, y todas las pruebas cruzadas saldrán incompatibles. La D es el manejo del anticuerpo frío, y la esplenectomía es segunda línea."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Ahora preguntas reales. La primera, del EUNACOM de diciembre de dos mil veinticinco. Hombre de veintinueve años con ictericia, disnea y compromiso del estado general. Hemoglobina cuatro coma uno, VCM ciento tres, plaquetas y leucocitos normales, y microesferocitos en el frotis. La bilirrubina total es cuatro coma uno, con la directa en cero coma cinco, la LDH está alta y las transaminasas casi normales."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la C, hemólisis, probablemente autoinmune. La bilirrubina es casi toda indirecta y las transaminasas están casi normales, así que no es una hepatitis. Y los microesferocitos son la huella del bazo mordiendo la membrana. El distractor tentador es la B doce, por el VCM de ciento tres, pero ese VCM viene de los reticulocitos, y las otras series están normales. El paso siguiente sería el Coombs directo."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La segunda, del EUNACOM de diciembre de dos mil diecisiete. Mujer de cuarenta años con astenia y disnea progresivas desde hace una semana. Hemoglobina ocho, VCM elevado, leucocitos y plaquetas normales, y en el frotis macrocitosis y policromasia."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: prueba de Coombs, niveles de B doce, LDH y bilirrubina directa, recuento de reticulocitos, o biopsia de médula ósea. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la A, la prueba de Coombs. La policromasia en el frotis son reticulocitos jóvenes, y una anemia que se instala en una semana con reticulocitos altos es una hemólisis. La que confirma que es autoinmune es el Coombs directo. El distractor tentador es la B doce, por la macrocitosis, pero con leucocitos y plaquetas normales y policromasia, la macrocitosis la ponen los reticulocitos. Los reticulocitos y la LDH apoyan la hemólisis, pero no confirman la causa."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Hemólisis son cuatro pilares: reticulocitos altos, LDH alta, bilirrubina indirecta alta y haptoglobina colapsada."
+    },
+    {
+      "file": "s15_g01",
+      "text": "El Coombs directo confirma que es autoinmune: IgG positivo en la caliente, solo complemento en la fría."
+    },
+    {
+      "file": "s15_g02",
+      "text": "La caliente se trata con prednisona, con descenso lento, y en segunda línea rituximab o esplenectomía."
+    },
+    {
+      "file": "s15_g03",
+      "text": "La fría no responde a corticoides ni a esplenectomía: se evita el frío y se usa rituximab."
+    },
+    {
+      "file": "s15_g04",
+      "text": "Y no se transfunde por la cifra: las pruebas cruzadas siempre son incompatibles, y solo se transfunde con riesgo vital."
+    },
+    {
+      "file": "s15_g05",
+      "text": "En la próxima clase vemos las hemólisis en que el Coombs es negativo, porque el problema está en el propio glóbulo: la esferocitosis hereditaria, el déficit de G seis PD y la hemoglobinuria paroxística nocturna. Si te llevas una sola idea de hoy: hemólisis con Coombs IgG positivo se trata con corticoides, y la sangre no se da por la cifra. Nos vemos en la próxima clase."
+    }
+  ]
+}

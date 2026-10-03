@@ -1,0 +1,196 @@
+{
+  "id": "ped-13",
+  "title": "Pediatria 18.13: Infección del Tracto Urinario (ITU) en Pediatría: ITU Febril, Estudio por Imágenes & Profilaxis",
+  "specialty": "Pediatría",
+  "chars": 8097,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido a la clase de infección del tracto urinario en pediatría. Hoy vas a aprender a distinguirla de otras causas de fiebre en el lactante, a elegir bien cómo tomar la muestra de orina, y a saber cuándo pedir imágenes después del episodio. Es un tema de alta frecuencia en el examen, con varias preguntas reales que vamos a revisar. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la causa. La bacteria que casi siempre está detrás de una infección urinaria en el niño es la Escherichia coli, responsable de más del ochenta por ciento de los casos."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Hay factores que facilitan que esa bacteria suba: la fimosis en el niño, el reflujo vesicoureteral y el mal vaciamiento de la vejiga. Acuérdate del reflujo, porque vuelve más adelante en la clase."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y por ahí sube: la bacteria entra por la uretra y coloniza la vía urinaria. Ese ascenso es lo que explica todo lo que viene."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Fíjate en cómo se presenta según la edad. En el lactante que todavía no tiene palabras para contarte que le duele, la infección se disfraza de fiebre sin foco, con vómitos, decaimiento e irritabilidad."
+    },
+    {
+      "file": "s01_g04",
+      "text": "En el preescolar que ya controla esfínteres, en cambio, te va a contar los síntomas clásicos: disuria, polaquiuria, y a veces una enuresis que antes no tenía."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y si esa bacteria sigue subiendo y llega al riñón, ya no es una simple cistitis: es una pielonefritis, con fiebre alta y compromiso del estado general. Esa diferencia decide todo el tratamiento, y la vemos ahora."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Si tu paciente no controla esfínteres, el método de elección es el sondeo vesical estéril: seguro, y positivo desde diez mil unidades formadoras de colonias por mililitro."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La punción suprapúbica es el estándar de oro, y la prefieres en el recién nacido o si hay una fimosis muy cerrada. Ahí basta una sola colonia para considerarlo positivo."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y aquí viene la trampa que más se repite en el examen: la bolsa recolectora tiene hasta un ochenta y cinco por ciento de falsos positivos, por contaminación de la piel. Nunca inicies un tratamiento con un urocultivo tomado de bolsa."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Su único valor es al revés: si el sedimento de la bolsa sale completamente normal, ahí sí puedes usarla para descartar la infección. Esa regla es justo lo que preguntan."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Si el niño ya controla esfínteres, tomas la muestra por segundo chorro miccional limpio, con aseo genital previo con agua, y aquí subes la exigencia a cien mil colonias o más."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Si es una cistitis, sin fiebre, el antibiótico de elección es el cefadroxilo oral, por tres a cinco días."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La nitrofurantoína también sirve, pero solo en esta forma baja. Acuérdate de esto para el examen: la nitrofurantoína nunca se usa en la ITU febril, porque no alcanza el parénquima renal."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si hay fiebre, es una pielonefritis, y el tratamiento cambia. Si el niño tiene más de tres meses, tolera la vía oral y se ve con buen estado general, tratas ambulatorio con el mismo cefadroxilo, pero esta vez por siete a diez días."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Pero si es menor de tres meses, vomita todo, o se ve tóxico, ahí lo hospitalizas y usas cefotaxima o ceftriaxona endovenosa."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora, ¿qué haces después del primer episodio? A todo niño con una infección urinaria febril comprobada le pides una ecografía renal y vesical."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y esa ecografía te hace una pregunta: ¿salió alterada, o el cuadro fue atípico o recurrente?"
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si la respuesta es sí, el siguiente paso es la uretrocistografía miccional, el examen que busca y clasifica el reflujo vesicoureteral, la malformación que más se asocia a este cuadro."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y en paralelo, a los seis meses del episodio agudo, pides un cintigrama renal con DMSA, que muestra si quedó una cicatriz permanente en el riñón."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora pongamos toda la decisión clínica en un solo árbol. Tienes un niño con sospecha de infección urinaria confirmada. La pregunta que decide todo el manejo es una sola: ¿hay fiebre?"
+    },
+    {
+      "file": "s05_g01",
+      "text": "Sin fiebre, es una cistitis: tratas con cefadroxilo o nitrofurantoína oral, por tres a cinco días. No necesitas más estudio que ese."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con fiebre, es una pielonefritis. Ahora preguntas si el niño tolera la vía oral, se ve con buen estado general, y tiene más de tres meses."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si tolera y tiene más de tres meses, tratas ambulatorio con cefadroxilo oral, por siete a diez días."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si es menor de tres meses, vomita todo o se ve tóxico, lo hospitalizas y usas cefotaxima o ceftriaxona endovenosa."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. Bolsa recolectora alterada: confirmas con sondeo o punción. El error es tratar directo con ese resultado."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Cistitis sin fiebre: cefadroxilo o nitrofurantoína oral. El error es usar la nitrofurantoína también en la forma febril."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Pielonefritis con buen estado y más de tres meses: cefadroxilo oral ambulatorio. El error es hospitalizar a todos por igual."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Primer episodio de ITU febril: ecografía a todos. El error es pedirla solo si aparecen síntomas nuevos."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y si la ecografía sale alterada o el cuadro fue atípico: uretrocistografía. El error es saltarse el estudio del reflujo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Lactante de siete meses, sin antecedentes, con fiebre de hasta treinta y nueve grados desde hace dos días, decaimiento e inapetencia, sin síntomas respiratorios ni digestivos. Está reactiva, salvo por la fiebre. Le instalan una bolsa recolectora perineal, y el sedimento muestra leucocitos y bacterias abundantes."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada antes de iniciar el tratamiento antibiótico?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Tienes cinco opciones: tratar directo con el resultado de la bolsa, hacer un sondeo vesical para confirmar, esperar cuarenta y ocho horas sin tratar, pedir un cintigrama DMSA de urgencia, o dar de alta asumiendo que la bolsa siempre contamina. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. La bolsa recolectora nunca confirma ni descarta cuando sale alterada: tienes que confirmar con una muestra fidedigna, por sondeo vesical o punción suprapúbica, antes de tratar. Tratar directo con la bolsa es la trampa más clásica del tema, y esperar sin hacer nada solo retrasa el diagnóstico en una lactante febril."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niña de ocho meses con fiebre hasta treinta y nueve coma dos, sin otros síntomas ni hallazgos al examen. El urocultivo, tomado por bolsa recolectora, sale positivo para Escherichia coli, con cuarenta y cinco mil colonias por mililitro."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: tratar con cefadroxilo, tratar con nitrofurantoína, tratar con amoxicilina, pedir hemograma y reactantes, o repetir el urocultivo por sondeo vesical."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la E. El corte para que un urocultivo de bolsa recolectora cuente como positivo es cien mil colonias o más. Con cuarenta y cinco mil, ese resultado no alcanza el umbral, y la única opción aceptable es repetirlo con una técnica que no se contamine: el sondeo vesical."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Una segunda pregunta real, del EUNACOM de julio de dos mil veinticuatro. Niño de tres años, con fimosis, con fiebre hasta treinta y nueve coma cinco desde hace cuarenta y ocho horas, con vómitos y malestar general, y examen cardiopulmonar y abdominal normales. El sedimento de orina muestra cincuenta glóbulos blancos por campo, y el hemograma sale con catorce mil leucocitos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: balanopostitis, neumonía, influenza, síndrome hemolítico urémico, o pielonefritis aguda."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la E, pielonefritis aguda. La fimosis te puede hacer dudar entre una balanopostitis y una pielonefritis, pero la balanopostitis da alteraciones visibles en el prepucio y no fiebre alta como esta. Aquí la leucocituria tan elevada, junto con la fiebre y el compromiso del estado general, apunta directo al riñón."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. La bolsa recolectora solo sirve para descartar si sale normal; nunca para confirmar ni tratar."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Para confirmar, usas sondeo vesical o punción suprapúbica en el que no controla esfínteres, y segundo chorro limpio en el que sí controla."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Sin fiebre, cefadroxilo o nitrofurantoína por tres a cinco días."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Con fiebre, el mismo cefadroxilo pero por siete a diez días, salvo que sea menor de tres meses o se vea grave: ahí hospitalizas."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y después de todo episodio febril, ecografía renal a todos, y uretrocistografía si sale alterada o el cuadro fue atípico. Si te llevas una sola idea de hoy: la bolsa recolectora nunca confirma una infección urinaria. Nos vemos en la próxima clase."
+    }
+  ]
+}

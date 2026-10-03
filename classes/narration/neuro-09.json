@@ -1,0 +1,316 @@
+{
+  "id": "neuro-09",
+  "title": "Neurologia 10.9: Status Epiléptico Convulsivo: Protocolo Escalonado de Rescate y Neurointensivo",
+  "specialty": "Neurología y Geriatría",
+  "chars": 14517,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase pasada vimos la epilepsia crónica y cómo elegir el antiepiléptico. Hoy vemos su emergencia: el estatus epiléptico convulsivo, cuando la crisis no se detiene. Es una urgencia vital que depende del tiempo, y toda la clase se ordena con un reloj: cinco minutos y treinta minutos. Si sabes qué pasa en cada punto del reloj, sabes qué fármaco dar. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por lo normal. Una crisis tónico-clónica generalizada se apaga sola antes de los dos minutos. Las sinapsis se agotan y los circuitos inhibitorios, los del GABA, recuperan el control."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El estatus epiléptico aparece cuando esos mecanismos de término fracasan. La crisis no se apaga, y cada minuto que pasa se vuelve más difícil de detener."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La Liga Internacional contra la Epilepsia definió dos puntos en el reloj. El primero, t uno, son cinco minutos. Desde ahí es muy poco probable que la crisis ceda sola, y hay que iniciar el tratamiento de rescate de inmediato. No se espera más."
+    },
+    {
+      "file": "s01_g03",
+      "text": "¿Y por qué tanta prisa? Porque desde los cinco minutos los receptores GABA-A se internalizan: la neurona los mete hacia dentro de la célula. Y como las benzodiacepinas actúan sobre ese receptor, cada minuto de espera les quita efecto. Por eso la benzodiacepina funciona mejor cuanto antes se da."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El segundo punto, t dos, son treinta minutos. Desde ahí la actividad eléctrica continua produce daño neuronal permanente."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El mecanismo es la excitotoxicidad: exceso de glutamato, entrada masiva de calcio y necrosis, sobre todo en la corteza, el hipocampo y el tálamo. Y no es solo el cerebro: la contracción muscular sostenida trae rabdomiolisis y falla multiorgánica. Guarda esto, porque lo retomamos al final."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Con esto, la definición operativa. Estatus epiléptico convulsivo es una crisis de cinco minutos o más, o crisis repetidas sin que el paciente recupere la conciencia entre ellas. Esa segunda parte se olvida y se pregunta."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Su reloj es el que vimos: cinco minutos para tratar, treinta minutos para el daño irreversible."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Los otros tipos tienen relojes más largos. El estatus focal con alteración de conciencia se trata a los diez minutos, y su daño aparece después de sesenta, con riesgo de secuelas cognitivas y lesión del hipocampo."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el estatus de ausencia: un estado crepuscular continuo, con punta-onda a tres por segundo en el electroencefalograma. Se trata a los diez a quince minutos con benzodiacepinas, pero no se ha demostrado que produzca necrosis neuronal."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Pasemos a la conducta. Como en toda urgencia, primero el ABC: posicionar la vía aérea, aspirar secreciones y dar oxígeno al cien por ciento con mascarilla de reservorio. Y un hemoglucotest, porque una hipoglicemia se corrige de inmediato."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La fase uno va de los cero a los diez minutos, y su objetivo es cortar la crisis con una benzodiacepina. La primera pregunta práctica es: ¿el paciente tiene una vía venosa?"
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si la tiene, el fármaco de elección en el hospital es el lorazepam, cuatro miligramos endovenosos en bolo lento, en dos minutos. Tiene alta afinidad por el receptor y es menos liposoluble que el diazepam, así que se queda en el cerebro y su efecto dura de doce a veinticuatro horas."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si no hay vía venosa, no se pierde tiempo buscándola: midazolam diez miligramos intramuscular en el adulto, o cinco si pesa menos de cuarenta kilos. El estudio RAMPART mostró que, puesto por paramédicos, es tan eficaz o mejor que el lorazepam endovenoso, justamente porque ahorra el tiempo de la vía. También sirve por vía nasal o bucal."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Si a los cinco minutos la crisis sigue, se repite la benzodiacepina, pero una sola vez, vigilando siempre la depresión respiratoria."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y si después de eso la crisis persiste, se pasa de inmediato a la fase dos."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El diazepam es la alternativa endovenosa estándar: diez miligramos, a una velocidad de dos a cinco miligramos por minuto, repetible a los cinco minutos, con un máximo de veinte."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Tiene una ventaja: es tan liposoluble que cruza al cerebro en segundos."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Pero esa misma liposolubilidad es su problema. En quince a treinta minutos se redistribuye al tejido graso, los niveles en el cerebro caen, y las crisis vuelven. Por eso el lorazepam, que se queda más tiempo en el cerebro, es el de elección."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y lo que el examen pregunta una y otra vez: el primer fármaco del estatus siempre es una benzodiacepina. La fenitoína o el valproato de entrada son la trampa. Vienen después, en la fase dos."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Si la crisis sigue pasados diez minutos pese a una benzodiacepina bien dada, estamos en la fase dos, de los diez a los treinta minutos. Se da un antiepiléptico endovenoso en dosis de carga plena. La primera elección moderna es el levetiracetam: sesenta miligramos por kilo, con un máximo de cuatro mil quinientos, en diez minutos."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El estudio ESETT, de dos mil diecinueve, mostró que levetiracetam, fenitoína y valproato cortan el estatus en cerca de la mitad de los casos. La eficacia es la misma; lo que cambia es la seguridad, y el levetiracetam no da hipotensión ni arritmias."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La alternativa clásica es la fenitoína, veinte miligramos por kilo, en el adulto entre mil doscientos cincuenta y mil quinientos miligramos. Y tiene tres reglas de oro que se preguntan."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Primera: se diluye solo en suero fisiológico. En suero glucosado cristaliza y precipita en la vía."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Segunda y tercera: nunca más de cincuenta miligramos por minuto, y siempre con monitor de electrocardiograma y presión. La fenitoína y su vehículo, el propilenglicol, pueden dar hipotensión, bloqueo auriculoventricular y asistolia."
+    },
+    {
+      "file": "s05_g05",
+      "text": "La tercera opción es el ácido valproico, cuarenta miligramos por kilo, con un máximo de tres mil, en diez minutos."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Es muy buena opción si el paciente ya tiene una epilepsia generalizada o mioclónica, que conecta con la clase pasada. Y se evita si sospechas daño hepático."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Si la crisis sigue pese a la benzodiacepina de la fase uno y al antiepiléptico en dosis plena de la fase dos, ya pasados los treinta minutos, hablamos de estatus epiléptico refractario. Y ojo: cuenta tanto la crisis clínica como la eléctrica."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La conducta es intubación orotraqueal con secuencia rápida, ventilación mecánica, traslado a la unidad de cuidados intensivos y anestesia general continua."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El propofol se da en bolo de dos miligramos por kilo y luego infusión de dos a diez miligramos por kilo por hora. Se despierta rápido al suspenderlo, pero sobre cinco miligramos por kilo por hora por más de cuarenta y ocho horas da el síndrome de infusión de propofol: acidosis, rabdomiolisis, hiperkalemia y colapso cardiovascular."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La alternativa es el midazolam en infusión continua, con bolo de cero coma dos miligramos por kilo. Da más estabilidad hemodinámica que el propofol."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y los barbitúricos, tiopental o pentobarbital, quedan para el super-refractario, porque deprimen el corazón y dilatan los vasos."
+    },
+    {
+      "file": "s06_g05",
+      "text": "El electroencefalograma continuo es obligatorio. La meta no es solo que el paciente deje de moverse: es un patrón de supresión de brotes, con silencios eléctricos de diez a quince segundos, mantenido veinticuatro a cuarenta y ocho horas antes de bajar la anestesia muy lento."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si las crisis siguen o vuelven tras veinticuatro horas de anestesia, o al bajarla, es un estatus super-refractario. Ahí se agregan corticoides o inmunoglobulinas, dieta cetogénica, ketamina o hipotermia controlada."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Retomemos lo que dejamos pendiente. El estatus prolongado no es solo un problema del cerebro: es un síndrome hipermetabólico de todo el cuerpo, y todo parte del músculo contrayéndose sin parar."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La contracción violenta y sostenida rompe la membrana de la fibra muscular. Salen mioglobina, potasio y creatina quinasa, con valores habitualmente sobre diez mil. Eso es la rabdomiolisis."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La mioglobina precipita en los túbulos del riñón, los obstruye y los daña. Resultado: una necrosis tubular aguda oligúrica, con alza de creatinina y riesgo de hiperkalemia. Si en el examen un paciente queda oligúrico horas después de un estatus, piensa en rabdomiolisis."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El tratamiento es hidratación vigorosa con suero fisiológico, buscando diuresis sobre doscientos a trescientos mililitros por hora, y alcalinizar la orina con bicarbonato. Y se controla la CPK y la creatinina seriadas."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La glicólisis anaeróbica del músculo, más la hipoxemia, dan una acidosis láctica importante, con pH bajo siete coma uno. Pero fíjate: revierte sola en pocas horas cuando cesan las convulsiones. No necesita bicarbonato de rutina."
+    },
+    {
+      "file": "s07_g05",
+      "text": "El trabajo muscular también sube la temperatura, sobre cuarenta grados, y el calor acelera la muerte neuronal y el edema cerebral. Se enfría de forma activa e inmediata."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Y la trampa final. Tras treinta a cuarenta y cinco minutos, el músculo se agota y los movimientos se apagan. El paciente queda en coma, a veces con pequeñas mioclonías en los párpados o los dedos, pero la corteza sigue en estatus. Es el estatus no convulsivo, y solo lo ve el electroencefalograma."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos todo el reloj en un solo árbol de decisión, tal como lo vas a razonar en la urgencia. Paciente convulsionando. Primero el ABC: vía aérea, oxígeno al cien por ciento, y hemoglucotest."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿La crisis ya dura cinco minutos, o son crisis repetidas sin recuperar la conciencia entre ellas?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Es estatus y empieza la fase uno. ¿Hay una vía venosa disponible?"
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si hay vía, lorazepam cuatro miligramos endovenoso, repetible una sola vez a los cinco minutos."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si persiste pasados los diez minutos, fase dos: levetiracetam, o fenitoína en suero fisiológico con monitor, o valproato."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si cede, se busca la causa y las complicaciones: CPK y creatinina por la rabdomiolisis, y electroencefalograma si no despierta."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si persiste pese a las dos fases, es refractario: intubación, coma anestésico con propofol o midazolam, y electroencefalograma continuo en la UCI, con meta de supresión de brotes."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si no hay vía, midazolam diez miligramos intramuscular, sin perder tiempo buscando la vía. Si persiste, sigue el mismo camino a la fase dos."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si la crisis dura menos de cinco minutos, se protege al paciente y se observa: una crisis habitual se apaga sola antes de dos minutos."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Crisis activa de cinco minutos o más: benzodiacepina de inmediato. Esperar a que ceda sola es el error, porque cada minuto le quita efecto al fármaco."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Estatus sin vía venosa: midazolam intramuscular. El error es perder minutos buscando una vía."
+    },
+    {
+      "file": "s09_g02",
+      "text": "El primer fármaco siempre es una benzodiacepina. La fenitoína de entrada es la alternativa trampa."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La fenitoína va en suero fisiológico, a no más de cincuenta miligramos por minuto y con monitor. Diluirla en glucosado es el error clásico."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si persiste tras la fase uno y la fase dos: intubar, coma anestésico y electroencefalograma continuo en la UCI. No se sigue probando antiepilépticos en la sala."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Coma sin movimientos después de un estatus: electroencefalograma continuo. Asumir que la crisis terminó porque dejó de moverse es la trampa."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y oliguria con alza de creatinina después del estatus: rabdomiolisis, y se hidrata con fuerza. No es toxicidad del lorazepam ni de la fenitoína."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Hombre de cuarenta y cuatro años con epilepsia por un traumatismo encéfalo craneano antiguo, que dejó sus antiepilépticos hace cinco días. Llega en ambulancia con una crisis tónico-clónica continua de veinticinco minutos: inconsciente, con clonías bilaterales, trismus, sialorrea y cianosis. Frecuencia de ciento treinta y ocho, saturación de ochenta y seis por ciento, temperatura de treinta y ocho coma seis, y hemoglucotest de ciento doce. Tiene vía venosa."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Tras asegurar la vía aérea y dar oxígeno, ¿cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: fenitoína en suero glucosado, lorazepam cuatro miligramos endovenoso, observar cinco minutos más, suero glucosado al treinta por ciento, o un TAC antes de dar fármacos. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, lorazepam. Lleva veinticinco minutos: pasó hace rato los cinco minutos y está a punto de llegar a los treinta. Tras el ABC, lo primero es una benzodiacepina, y si no cede, la fase dos. La A tienta porque la fenitoína es un fármaco del estatus, pero no es el primero, y además en glucosado cristaliza. Esperar es perder neuronas, la glucosa no corresponde con un hemoglucotest normal, y el TAC nunca va antes de cortar la crisis."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil diecisiete. Un lactante de dieciocho meses presenta una convulsión tónico-clónica de tres minutos. Está afebril y su examen segmentario es normal."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el tratamiento de la crisis?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: diazepam, ácido valproico, fenitoína, carbamazepina o topiramato. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, diazepam. La pregunta es cómo se corta la crisis, y una crisis se corta con una benzodiacepina. La de elección sería el lorazepam, pero no está, así que queda su alternativa. La fenitoína y el valproato tientan, pero son la fase dos, después de la benzodiacepina. Y la carbamazepina y el topiramato son fármacos de mantención: no cortan una crisis activa."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La segunda es una excepción que hay que conocer, del EUNACOM de julio de dos mil veinticinco. Una embarazada de treinta y cuatro semanas es encontrada convulsionando en la calle. Antes tenía una presión de ciento sesenta y cinco con ciento diez. En la urgencia sigue convulsionando."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: fenitoína, sulfato de magnesio, diazepam, nifedipino o labetalol. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, sulfato de magnesio. Una embarazada hipertensa que convulsiona tiene una eclampsia, y ahí el anticonvulsivante de elección es el magnesio. El diazepam es el distractor que esta clase te hace elegir, y por eso esta pregunta es valiosa: antes de aplicar el protocolo, mira quién es el paciente. Después viene controlar la presión y evaluar la interrupción del embarazo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. A los cinco minutos de crisis, o con crisis repetidas sin recuperar la conciencia, es estatus y se trata de inmediato."
+    },
+    {
+      "file": "s13_g01",
+      "text": "A los treinta minutos empieza el daño irreversible, en el cerebro y en el cuerpo."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Fase uno, benzodiacepina: lorazepam endovenoso, o midazolam intramuscular si no hay vía, repetible una vez."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Fase dos, antiepiléptico endovenoso: levetiracetam, fenitoína en suero fisiológico con monitor, o valproato."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Fase tres, refractario: intubar, coma anestésico con propofol o midazolam, y electroencefalograma continuo en la UCI."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Si queda oligúrico, piensa en rabdomiolisis y se hidrata con fuerza."
+    },
+    {
+      "file": "s13_g06",
+      "text": "Y si queda en coma sin moverse, pide un electroencefalograma, porque puede seguir en estatus. Si te llevas una sola idea de hoy: en el estatus manda el reloj, y el primer fármaco siempre es una benzodiacepina. En la próxima clase vemos el paciente que llega después de su primera crisis, y cómo separarla de un síncope. Nos vemos en la próxima clase."
+    }
+  ]
+}

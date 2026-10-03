@@ -1,0 +1,280 @@
+{
+  "id": "neuro-02",
+  "title": "Neurologia 10.2: Ataque Isquémico Transitorio (AIT): Score ABCD2, Estratificación de Riesgo Precoz y Prevención Secundaria",
+  "specialty": "Neurología y Geriatría",
+  "chars": 11388,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos el infarto cerebral instalado. Hoy vemos su aviso: el ataque isquémico transitorio. El error clásico es mandar a la casa al paciente porque llegó sin déficit. Hoy vas a aprender por qué eso es peligroso, cómo medir el riesgo con el score ABCD dos, y qué prevención le corresponde según la causa. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. El ataque isquémico transitorio, el AIT, es el mismo problema que vimos en el infarto: una arteria que se tapa. La diferencia es que se destapa antes de que el tejido muera."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Por eso el déficit se resuelve solo, y el paciente llega a urgencias con un examen neurológico normal. Esa normalidad es justamente lo que engaña."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si la imagen no muestra infarto, es un AIT. Vamos a volver a esa definición en un momento."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero aquí está lo importante. El AIT no es un episodio benigno: entre el diez y el quince por ciento de estos pacientes va a tener un infarto cerebral mayor en los siguientes noventa días."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y la mitad de ese riesgo se concentra en las primeras cuarenta y ocho horas. Por eso el AIT es una urgencia médica absoluta: el momento de actuar es ahora, no en un control ambulatorio en un mes."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos la definición, porque cambió. Antes se definía por el tiempo: un déficit focal que se resolvía en menos de veinticuatro horas."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Hoy se define por el tejido: un episodio transitorio de disfunción neurológica por isquemia focal del encéfalo, la médula o la retina, sin evidencia de infarto agudo en la neuroimagen."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La gran mayoría de los AIT verdaderos duran menos de una hora, típicamente entre cinco y veinte minutos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y fíjate en esto: si el paciente se recuperó por completo, pero la resonancia muestra una lesión en la secuencia de difusión, ya no es un AIT. Se reclasifica como un infarto cerebral con resolución clínica transitoria, y tiene todavía más riesgo de repetir."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Hay un AIT que se pregunta aparte: la amaurosis fugaz. Es una pérdida de visión de un solo ojo, indolora, que el paciente describe como una cortina negra que baja y luego sube."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Se debe a microémbolos hacia la arteria oftálmica o la central de la retina, que vienen de una placa en la carótida del mismo lado. Por eso tiene tanto valor: te está señalando la carótida."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Antes de etiquetar un AIT, piensa en lo que lo imita. La migraña con aura es el más clásico. La diferencia está en el tipo de síntoma: el aura da síntomas visuales positivos, que avanzan lentamente en minutos, y después viene la cefalea pulsátil. El AIT, en cambio, quita función de golpe."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La crisis epiléptica focal puede dejar una paresia transitoria después de la crisis: la parálisis de Todd."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La hipoglicemia aguda puede dar un déficit focal. Por eso siempre se mide la glicemia."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El síncope y la lipotimia son una falla global, no un déficit focal."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y el vértigo periférico posicional y la amnesia global transitoria completan la lista."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora, la herramienta central de la clase: el score ABCD dos, que predice el riesgo de infarto a las cuarenta y ocho horas y a los siete días. Cada letra es un factor. La A es la edad: sesenta años o más suma un punto."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La B es la presión: ciento cuarenta sobre noventa o más en la primera evaluación suma un punto."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La C es la clínica, y es la que más pesa. Una debilidad unilateral suma dos puntos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La alteración del habla sin debilidad suma uno, y los otros síntomas, cero."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La primera D es la duración: una hora o más suma dos puntos, de diez a cincuenta y nueve minutos, uno, y menos de diez, cero."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y la segunda D es la diabetes, que suma uno. El máximo es siete. Fíjate que la clínica y la duración valen el doble: eso es lo que más se equivoca al calcular."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Con el puntaje, el paciente cae en una de tres categorías, y cada una tiene una conducta."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Seis a siete puntos es alto riesgo: ocho coma uno por ciento de infarto a las cuarenta y ocho horas, y once coma siete a los siete días. Hospitalización inmediata obligatoria."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Cuatro a cinco puntos es riesgo moderado: cuatro coma uno por ciento a las cuarenta y ocho horas. También se hospitaliza, en observación o en una unidad de ataque cerebral."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Así que la regla práctica es una sola: con cuatro puntos o más, se hospitaliza."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Con cero a tres puntos, el riesgo a cuarenta y ocho horas es de uno por ciento. Ese paciente puede estudiarse en forma ambulatoria, pero expedita, en menos de cuarenta y ocho horas."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Pero ojo, porque hay criterios que hospitalizan aunque el puntaje sea bajo. El AIT en crescendo, con dos o más episodios en siete días. La sospecha de cardioembolia, como una fibrilación auricular conocida. Una estenosis carotídea sintomática sobre cincuenta por ciento. O una lesión aguda en la imagen. Cualquiera de ellos pesa más que el número."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Todo AIT se estudia en las primeras veinticuatro a cuarenta y ocho horas, y el estudio tiene tres partes. La primera es la neuroimagen: de preferencia una resonancia con difusión, para buscar un infarto silente. Si no está disponible, un TAC sin contraste."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La segunda son los vasos del cuello: eco-Doppler carotídeo y vertebral, o una AngioTAC. Busca la placa que manda émbolos. Si además escuchas un soplo carotídeo, o hubo una amaurosis fugaz, este es el examen que más te importa."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y la tercera es el corazón: electrocardiograma de doce derivaciones y monitoreo continuo, con Holter o telemetría, para pillar una fibrilación auricular paroxística que en el electrocardiograma aislado no aparece."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Más un ecocardiograma, transtorácico o transesofágico. Es importante porque la causa va a decidir el tratamiento, y eso es lo que viene."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pasemos al tratamiento. La prevención se decide según la causa que encontró el estudio."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Si el AIT no es cardioembólico y el ABCD dos es de cuatro o más, va doble antiagregación iniciada en menos de veinticuatro horas: aspirina cien miligramos al día, más clopidogrel con carga de trescientos y luego setenta y cinco al día. Así lo demostraron los ensayos CHANCE y POINT."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y la duración se pregunta: exactamente veintiún días. Prolongarla más allá de tres semanas no agrega beneficio y duplica el riesgo de hemorragia digestiva e intracraneal. Al día veintidós se sigue con un solo antiagregante, en forma indefinida."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si la causa es una fibrilación auricular, no se antiagrega: se anticoagula, con un anticoagulante oral directo, como apixabán, rivaroxabán, dabigatrán o edoxabán. Y se parte precoz, desde el primer día, porque en el AIT no hay tejido necrótico que pueda transformarse en hemorragia."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si el Doppler muestra una estenosis carotídea del mismo lado, severa, de setenta a noventa y nueve por ciento, o moderada, de cincuenta a sesenta y nueve en hombres, va endarterectomía carotídea dentro de las primeras dos semanas, idealmente en los primeros siete días."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y a todos, atorvastatina ochenta miligramos al día, a permanencia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos todo en un solo árbol, desde el paciente que llega sin déficit hasta la prevención que le corresponde. Paciente que tuvo un déficit focal súbito y llega con el examen normal. No es un paciente sano: es un infarto que avisó."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Primero la imagen. ¿Hay una lesión aguda en la difusión?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si hay lesión, no es un AIT: es un infarto con resolución clínica transitoria, con más riesgo de repetir. Se hospitaliza."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si no hay lesión, es un AIT. Calcula el ABCD dos y busca los criterios que hospitalizan por sí solos: crescendo, fibrilación auricular o estenosis carotídea."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Con cero a tres puntos y sin criterios directos, el estudio puede ser ambulatorio, pero en menos de cuarenta y ocho horas."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Con cuatro o más, o con un criterio directo, se hospitaliza y se estudia la causa: vasos del cuello y corazón."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no es cardioembólico, aspirina más clopidogrel por veintiún días, y atorvastatina ochenta."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si hay fibrilación auricular, anticoagulante oral directo desde el primer día."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si hay una estenosis carotídea significativa del mismo lado, se deriva a endarterectomía dentro de las dos primeras semanas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Paciente con AIT que llega sin déficit: se calcula el ABCD dos y se estudia en menos de cuarenta y ocho horas. El error es darlo de alta con un control lejano."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Con cuatro puntos o más, se hospitaliza."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Y con un puntaje bajo, pero con AIT en crescendo, fibrilación auricular o estenosis carotídea, también se hospitaliza. El número no manda sobre esos criterios."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Síntomas resueltos con una lesión en la difusión: eso es un infarto, no un AIT."
+    },
+    {
+      "file": "s09_g04",
+      "text": "AIT no cardioembólico de alto riesgo: aspirina más clopidogrel por veintiún días, no para siempre."
+    },
+    {
+      "file": "s09_g05",
+      "text": "AIT con fibrilación auricular: anticoagulación oral precoz, sin semanas de espera. Antiagregar es la respuesta incorrecta."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y la estenosis carotídea severa del mismo lado: endarterectomía en las primeras dos semanas."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Hombre de sesenta y cuatro años, hipertenso y fumador, no diabético. Hace dos horas tuvo debilidad súbita de la mano y la pierna derechas, con dificultad para articular palabras, que se resolvió por completo en unos cuarenta y cinco minutos. Su presión es de ciento cincuenta y cinco sobre noventa y cinco, el pulso regular, el examen neurológico normal, y el TAC no muestra sangre ni lesiones."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: alta con aspirina y control en un mes, trombolisis, hospitalizar con estudio y doble antiagregación por veintiún días, hospitalizar y anticoagular, u hospitalizar con doble antiagregación indefinida. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Calcula el ABCD dos: edad, un punto; presión, uno; debilidad unilateral, dos; cuarenta y cinco minutos, uno. Total cinco: se hospitaliza. La A es la trampa clásica, porque el paciente se ve bien. La trombolisis no corresponde, porque ya no hay déficit que tratar. La anticoagulación es para la fibrilación auricular, y este pulso es regular. Y la doble antiagregación va por veintiún días, no para siempre."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de sesenta y siete años con una hemiparesia faciobraquiocrural derecha autolimitada hace siete días, ya manejada en el hospital. Hoy tiene un examen neurológico normal, pero se ausculta un soplo cervical izquierdo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el examen más adecuado para el estudio etiológico?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: ecocardiograma, angiografía, resonancia de cerebro, eco-Doppler de carótidas, o TAC de cerebro. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, el eco-Doppler de carótidas. Fíjate en el lado: la hemiparesia es derecha, así que la isquemia fue en el hemisferio izquierdo, y el soplo está justamente en la carótida izquierda. Esa placa es la sospechosa. El ecocardiograma tienta, porque también es parte del estudio, pero el soplo te dirige a la carótida. Y si la estenosis es significativa, la endarterectomía debe hacerse dentro de las dos semanas, y ya van siete días."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. El AIT se define por el tejido: sin infarto en la imagen. Si la difusión muestra lesión, es un infarto, aunque los síntomas se hayan ido."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La mitad del riesgo de infarto está en las primeras cuarenta y ocho horas, así que el estudio se hace ya: imagen, vasos del cuello y corazón."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Con ABCD dos de cuatro o más, se hospitaliza, y también con AIT en crescendo, fibrilación auricular o estenosis carotídea, aunque el puntaje sea bajo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si no es cardioembólico, aspirina más clopidogrel por exactamente veintiún días."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Si hay fibrilación auricular, anticoagulante oral desde el primer día; y si hay estenosis carotídea severa, endarterectomía en menos de dos semanas. Si te llevas una sola idea de hoy: un déficit que se fue no es un paciente sano, es un infarto que avisó. Nos vemos en la próxima clase."
+    }
+  ]
+}

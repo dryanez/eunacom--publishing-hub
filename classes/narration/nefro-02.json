@@ -1,0 +1,244 @@
+{
+  "id": "nefro-02",
+  "title": "Nefrologia 1.2: Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+  "specialty": "Nefrología",
+  "chars": 11090,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior llegamos a una bifurcación: si la injuria renal no es obstructiva ni prerrenal, el daño está dentro del riñón. Hoy vemos las dos causas intrínsecas más comunes en el hospital: la necrosis tubular aguda y la nefritis intersticial aguda. Una es un daño directo del túbulo; la otra, una alergia del intersticio. Y el tratamiento de cada una es distinto."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la necrosis tubular aguda, que explica el ochenta y cinco por ciento de las injurias intrínsecas en pacientes hospitalizados. La primera causa es la isquemia: un shock séptico, cardiogénico o hipovolémico que se prolonga. Es la continuación de lo que vimos la clase pasada: una prerrenal que no se corrigió a tiempo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La segunda son los nefrotóxicos, casi todos de uso hospitalario: los aminoglucósidos, como la gentamicina y la amikacina, el medio de contraste yodado, la vancomicina y la anfotericina B."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y la tercera son los pigmentos que produce el propio cuerpo: la mioglobina en la rabdomiólisis y la hemoglobina en una hemólisis intravascular masiva."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Por cualquiera de estas vías, el epitelio tubular muere y se desprende. Y eso se ve en la orina: cilindros granulosos pardos, una FeNa sobre dos por ciento y una orina isostenúrica, tal como lo vimos en la clase anterior."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La rabdomiólisis merece un aparte, porque es muy preguntada. El paciente típico viene de un ejercicio extremo, de un golpe de calor o de un trauma, con mialgias intensas y una orina oscura, color té o coca cola."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El examen que la confirma es la creatinquinasa, la CPK, que típicamente supera los cinco mil a diez mil."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el dato clave es una discordancia. La tira reactiva marca sangre positiva, porque reacciona con el grupo hemo de la mioglobina."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Pero al microscopio no hay glóbulos rojos. Tira positiva sin hematíes es mioglobinuria hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El pilar del tratamiento es la hidratación intravenosa agresiva con cristaloides isotónicos, para mantener una diuresis alta y evitar que la mioglobina precipite en los túbulos. Es la excepción a lo que dijimos de la necrosis tubular: aquí el volumen previene el daño, no lo agrava."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la otra causa. La nefritis intersticial aguda es provocada por fármacos en más del setenta y cinco por ciento de los casos. Los antibióticos, como penicilinas, cefalosporinas, sulfas y ciprofloxacino; los AINE; y los inhibidores de la bomba de protones, como el omeprazol, hoy una causa frecuente en el adulto mayor."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Fíjate en la diferencia con la necrosis tubular. Aquí el fármaco no intoxica el túbulo: el sistema inmune reacciona contra él dentro del intersticio renal. Es una hipersensibilidad."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Por eso puede dar una tríada alérgica clásica: fiebre, exantema maculopapular y eosinofilia. Pero ojo, que es la trampa: solo aparece en el diez a quince por ciento de los casos. Si esperas la tríada completa, se te pasa la mayoría."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Lo más constante está en la orina: piuria estéril, es decir, leucocitos en la orina con urocultivo negativo, además de cilindros leucocitarios y microhematuria."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y la eosinofiluria, con la tinción de Hansel, es sugerente, pero no es específica. Suma, pero no hace el diagnóstico por sí sola."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El tratamiento es distinto en cada una. En la necrosis tubular no hay antídoto: el epitelio tarda de una a tres semanas en regenerarse, y hay que acompañarlo. Suspender el tóxico, ajustar todos los fármacos a la función renal y mantener un balance neutro de agua y electrolitos."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y ojo con la fase de recuperación. El túbulo recién regenerado todavía no sabe concentrar la orina, así que el paciente entra en una fase poliúrica. Ahí el riesgo cambia: deshidratación e hipokalemia."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la nefritis intersticial, en cambio, la medida obligatoria y curativa es suspender de inmediato el fármaco responsable. La mayoría de los pacientes se recupera solo con eso."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si después de cinco a siete días sin el fármaco la función renal no mejora, o si el compromiso es severo, con creatinina sobre tres o cuatro, se indica prednisona oral, un miligramo por kilo al día, por dos a cuatro semanas, para evitar la fibrosis intersticial irreversible. En la necrosis tubular, en cambio, los corticoides no tienen ningún rol."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión. Paciente hospitalizado con injuria renal que no es obstructiva ni prerrenal. El daño está en el riñón. ¿Túbulo o intersticio?"
+    },
+    {
+      "file": "s05_g01",
+      "text": "La primera pregunta es el sedimento, porque es lo que más discrimina."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Cilindros granulosos pardos: necrosis tubular. Ahora, ¿la tira reactiva marca sangre sin glóbulos rojos en el microscopio?"
+    },
+    {
+      "file": "s05_g03",
+      "text": "Tira positiva sin hematíes es mioglobinuria. Se confirma con la CPK y se trata con hidratación agresiva con cristaloides."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si no, es una necrosis isquémica o por nefrotóxicos. Suspender el tóxico, ajustar fármacos y balance neutro, vigilando la fase poliúrica."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Piuria estéril y cilindros leucocitarios, con un fármaco nuevo: nefritis intersticial. Lo primero es suspender el fármaco."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Después se espera. ¿La función renal mejora en cinco a siete días sin el fármaco?"
+    },
+    {
+      "file": "s05_g07",
+      "text": "Si mejora, no se necesita nada más. La mayoría se recupera solo con retirar el fármaco."
+    },
+    {
+      "file": "s05_g08",
+      "text": "Si no mejora, o el compromiso es severo, prednisona un miligramo por kilo al día por dos a cuatro semanas, para evitar la fibrosis."
+    },
+    {
+      "file": "s05_g09",
+      "text": "Cilindros hemáticos y hematíes dismórficos: no es túbulo ni intersticio, es glomérulo. Se deriva a nefrología."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos lado a lado. El mecanismo: la necrosis tubular es isquemia o toxicidad directa; la nefritis intersticial es una reacción de hipersensibilidad."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Los fármacos típicos: aminoglucósidos, contraste y vancomicina para la necrosis; betalactámicos, AINE, omeprazol y sulfas para la nefritis."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La necrosis tubular no tiene clínica propia fuera del riñón, solo la del shock o la sepsis. La nefritis intersticial puede dar fiebre, exantema, artralgias y eosinofilia."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El sedimento es lo que más discrimina: cilindros granulosos pardos en la necrosis, piuria estéril y cilindros leucocitarios en la nefritis."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y los corticoides: nunca en la necrosis tubular; en la nefritis intersticial, solo si no revierte tras suspender el fármaco. El error clásico es darlos de entrada, antes de retirar el fármaco culpable."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Hombre de cincuenta y cuatro años, hospitalizado hace diez días por una osteomielitis, con cefazolina endovenosa. Empieza con febrícula y un exantema pruriginoso en el tronco. La creatinina sube de uno a dos coma seis, tiene nueve por ciento de eosinófilos, y el sedimento muestra muchos leucocitos y cilindros leucocitarios, con urocultivo negativo."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la primera conducta?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las alternativas: suspender la cefazolina y cambiar de familia antibiótica, prednisona manteniendo la cefazolina, agregar ciprofloxacino, hidratación agresiva, o hemodiálisis de urgencia. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la A. Este paciente tiene todo: un betalactámico, fiebre, exantema, eosinofilia y piuria estéril con cilindros leucocitarios. Es una nefritis intersticial, y lo primero es retirar el fármaco. La B es la trampa: los corticoides no reemplazan la suspensión, y se reservan si no mejora en una semana. Y el urocultivo negativo descarta la infección urinaria."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora preguntas reales. La primera, del EUNACOM de julio de dos mil dieciséis. Hombre de treinta y dos años con dolor muscular y oliguria, veinticuatro horas después de un ejercicio intenso. La creatinina está en cinco y el potasio en cinco coma cuatro."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Qué examen debe pedirse a continuación?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: creatinquinasa, proteinuria de veinticuatro horas, hemograma, sedimento de orina, o clearance de creatinina. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A, la creatinquinasa. Ejercicio intenso, dolor muscular y falla renal oligúrica: es una rabdomiólisis hasta que se demuestre lo contrario, y la CPK la confirma. El sedimento es el distractor tentador, porque ayuda, pero lo que certifica el daño muscular es la CPK."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La siguiente, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veintisiete años con una placa eritematosa en la pierna, que se trata con cloxacilina. Al quinto día la piel mejora, pero aparece fiebre, un exantema generalizado, veinte por ciento de eosinófilos, leucocitos y glóbulos rojos en la orina, y una creatinina de dos."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: glomerulonefritis postestreptocócica, púrpura trombocitopénico trombótico, vasculitis, injuria prerrenal, o nefritis intersticial. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la E, nefritis intersticial. Aquí aparece la tríada completa: fiebre, exantema y eosinofilia, después de un betalactámico. La glomerulonefritis postestreptocócica es el distractor, porque hubo una infección de piel, pero esa aparece semanas después, no al quinto día de un antibiótico, y no da eosinofilia."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y una variante del mismo examen de julio de dos mil dieciséis. Paciente de treinta y seis años con una placa eritematosa en la pierna que responde a cloxacilina. Al quinto día tiene náuseas y vómitos, con diuresis conservada, diez por ciento de eosinófilos, leucocituria, hematuria microscópica y creatinina de tres. Esta vez no hay exantema."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Identificar el posible diagnóstico."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: glomerulonefritis postestreptocócica, vasculitis, injuria prerrenal, endocarditis, o nefritis intersticial. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "De nuevo es la E, nefritis intersticial. Y esta pregunta enseña algo distinto: no hay exantema y la diuresis está conservada, pero basta el betalactámico, la eosinofilia y la leucocituria. No esperes la tríada completa. La prerrenal cae porque no hay hipovolemia y el sedimento está alterado."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La última, del EUNACOM de julio de dos mil diecisiete, y es perfecta para cerrar. Paciente con una endocarditis, tratado con penicilina y gentamicina, que presenta hematuria. El sedimento muestra glóbulos rojos con noventa y cinco por ciento de dismorfia y cilindros hemáticos, la creatinina es dos coma cuatro y el complemento C tres está bajo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: embolias renales, nefritis intersticial por penicilina, necrosis tubular por gentamicina, glomerulonefritis por complejos inmunes, o síndrome hemolítico urémico. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D. El enunciado te pone dos fármacos tentadores, una penicilina y un aminoglucósido, para que caigas en la B o en la C. Pero el sedimento manda: cilindros hemáticos y hematíes dismórficos son glomerulares. La nefritis intersticial daría cilindros leucocitarios, y la gentamicina, cilindros granulosos. El complemento bajo apunta a complejos inmunes de la endocarditis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La necrosis tubular viene de la isquemia, los nefrotóxicos o los pigmentos, y deja cilindros granulosos pardos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Si la tira marca sangre y el microscopio no ve glóbulos rojos, piensa en mioglobina: pide la CPK e hidrata agresivamente."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Se trata con soporte, y en la recuperación ojo con la fase poliúrica."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La nefritis intersticial se sospecha por un fármaco nuevo y piuria estéril con cilindros leucocitarios; la tríada alérgica es la excepción."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Primero se suspende el fármaco, y solo si no mejora en cinco a siete días, prednisona. Si te llevas una sola idea de hoy: en la necrosis tubular se espera al túbulo, y en la nefritis intersticial se retira el fármaco; y el sedimento es el que te dice cuál es cuál. Nos vemos en la próxima clase."
+    }
+  ]
+}

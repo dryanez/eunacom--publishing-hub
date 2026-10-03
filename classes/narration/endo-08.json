@@ -1,0 +1,364 @@
+{
+  "id": "endo-08",
+  "title": "Endocrinología 7.8: Tormenta Tiroidea y Urgencias Tirotóxicas",
+  "specialty": "Endocrinología",
+  "chars": 14223,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos la tormenta tiroidea, la máxima descompensación del hipertiroidismo, con una mortalidad del diez al treinta por ciento si no se trata a tiempo. Todo lo que vimos en las dos clases anteriores, el propiltiouracilo, el Lugol y el betabloqueo, se junta aquí. Y el examen pregunta tres cosas: cómo se diagnostica, en qué orden van los fármacos, y qué antipirético está prohibido. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos con la idea más importante de la clase. La tormenta tiroidea no se define por tener la T cuatro libre más alta. Un paciente en tormenta puede tener hormonas iguales a las de un hipertiroidismo no complicado. La diferencia está en cómo responde el organismo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Casi siempre hay un gatillo: una infección, una cirugía, el abandono del tratamiento. Guarda esta idea, porque buscar ese gatillo es parte del tratamiento."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El gatillo cambia tres cosas. Primero, bajan las proteínas que transportan la hormona, y entonces aumenta la fracción libre, la que actúa."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Segundo, aumenta la cantidad y la sensibilidad de los receptores beta adrenérgicos en los tejidos. El corazón responde mucho más a la misma señal."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y tercero, se dispara una respuesta inflamatoria sistémica mediada por citoquinas."
+    },
+    {
+      "file": "s01_g05",
+      "text": "El resultado es un colapso de varios sistemas a la vez: fiebre, compromiso de conciencia, falla cardíaca, alteraciones digestivas e ictericia. Eso, la falla de órganos, es lo que define la tormenta."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Estos son los gatillos que tienes que buscar en el enunciado. El primero y más frecuente: una infección aguda, como una neumonía, una infección urinaria o una sepsis."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo: una cirugía en un paciente tirotóxico no compensado, sea de la tiroides o de cualquier otro órgano. Es exactamente lo que evitamos con la preparación con tiamazol y Lugol de la clase pasada."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El tercero: el paciente que deja de golpe su tiamazol."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Otros gatillos: un medio de contraste yodado o una dosis de radioyodo sin cobertura previa, porque el yodo es combustible para una glándula hiperactiva."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y cualquier estrés mayor: un trauma grave, una cetoacidosis diabética, una hipoglicemia severa o el trabajo de parto."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Vamos al diagnóstico. Es completamente clínico, y no se retrasa esperando exámenes. Como la T cuatro libre no separa la tormenta del hipertiroidismo común, esperarla no aporta nada y cuesta tiempo."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Para objetivarla se usa la escala de Burch-Wartofsky, que suma puntos según la disfunción de cada sistema."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y los cortes que tienes que memorizar: cuarenta y cinco puntos o más, tormenta altamente probable, con indicación de tratamiento inmediato en la UCI."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Entre veinticinco y cuarenta y cuatro, tormenta inminente."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y bajo veinticinco, improbable."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Veamos qué suma. La temperatura da de cinco puntos, desde treinta y siete coma dos grados, hasta treinta puntos, con cuarenta grados o más."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El sistema nervioso: agitación leve, diez; delirio, psicosis o letargia extrema, veinte; y coma o convulsiones, treinta."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Lo digestivo: náuseas, vómitos, diarrea o dolor abdominal, diez; e ictericia sin otra causa, veinte. Fíjate en la ictericia: vale el doble."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La frecuencia cardíaca: cinco puntos entre cien y ciento nueve latidos, hasta veinticinco puntos con ciento cuarenta o más."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La fibrilación auricular suma diez, y la insuficiencia cardíaca de cinco, si es leve, a quince, con edema pulmonar franco."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y el desencadenante identificado suma diez puntos más. Por eso un paciente febril, taquicárdico y agitado, con una neumonía, supera los cuarenta y cinco con facilidad."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Pasemos al tratamiento, que es lo que más se pregunta. Con cuarenta y cinco puntos o más, el paciente va a la UCI y se inicia un tratamiento multimodal. No es un fármaco: son cuatro pilares, y cada uno ataca un paso distinto."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pilar uno, el betabloqueo, para frenar el efecto adrenérgico sobre el corazón. Es la primera acción para controlar las taquiarritmias que pueden colapsar al paciente."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Pilar dos, el propiltiouracilo, que bloquea la síntesis de hormona nueva. Es cerrar la fábrica."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Pilar tres, el yodo inorgánico, la solución de Lugol, que bloquea la liberación de la hormona que ya estaba fabricada. Es cerrar la puerta de salida. Y fíjate en la flecha: va al menos una hora después del PTU. Ese orden es la pregunta estrella del tema."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Pilar cuatro, la hidrocortisona endovenosa, cien miligramos cada ocho horas, que protege al paciente del agotamiento suprarrenal."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Y alrededor de los cuatro pilares, el soporte: bajar la fiebre, reponer fluidos, y tratar el desencadenante. Veamos cada pieza en detalle."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El propranolol va en dosis altas: sesenta a ochenta miligramos cada cuatro a seis horas por boca o por sonda, o uno a dos miligramos endovenosos lentos cada diez a quince minutos, con monitor."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Y tiene un efecto extra: sobre ciento sesenta miligramos al día también frena la conversión periférica de T cuatro a T tres."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si el paciente tiene un broncoespasmo severo que contraindica un betabloqueador no selectivo, se usa esmolol en infusión o diltiazem."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El propiltiouracilo se da con una carga de quinientos a mil miligramos, por boca o por sonda, y luego doscientos a doscientos cincuenta miligramos cada cuatro horas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "¿Por qué PTU y no tiamazol, si en todo lo demás preferimos el tiamazol? Porque además de bloquear la síntesis, el PTU frena la conversión de T cuatro a la forma más activa, la T tres. En la tormenta, eso es justamente lo que necesitas."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Esta es la regla temporal que el examen pregunta una y otra vez. ¿Por qué el yodo tiene que ir después del PTU?"
+    },
+    {
+      "file": "s07_g01",
+      "text": "Piensa en qué pasa si lo das primero. La glándula en tormenta está hiperactiva y capta con avidez todo el yodo que le llega. Si la fábrica sigue abierta, ese yodo se convierte en materia prima para fabricar todavía más hormona. Es el fenómeno de Jod-Basedow, el mismo de la amiodarona tipo uno."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El resultado es un agravamiento catastrófico de la tormenta. Dar el yodo antes o al mismo tiempo que el PTU es echarle combustible al fuego."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Por eso el orden es al revés. Primero el PTU, que bloquea la peroxidasa tiroidea: la fábrica ya no puede usar el yodo."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y al menos una hora después, el yodo: solución de Lugol, ocho a diez gotas cada ocho horas, o solución saturada de yoduro de potasio, cinco gotas cada seis horas. Ahora el yodo en dosis alta produce el efecto Wolff-Chaikoff."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y frena la liberación de la hormona que ya estaba guardada, sin aportar materia prima nueva. En una frase: el PTU cierra la fábrica, y una hora después el yodo cierra la puerta."
+    },
+    {
+      "file": "s08_g00",
+      "text": "El cuarto pilar es el corticoide: hidrocortisona cien miligramos endovenosos cada ocho horas, o dexametasona dos miligramos cada seis horas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Por qué? Porque el hipermetabolismo acelera la degradación del cortisol, y la suprarrenal no alcanza a reponerlo. Es una insuficiencia suprarrenal relativa, y sin corticoide el paciente puede caer en un colapso hemodinámico."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Además, estabiliza el endotelio y bloquea con fuerza la conversión periférica de T cuatro a T tres. Fíjate que tres de los cuatro pilares frenan esa conversión: el propranolol en dosis altas, el PTU y el corticoide."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos al soporte. La fiebre se controla con medidas físicas activas, como compresas frías o mantas enfriadoras."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Y el antipirético de elección es el paracetamol, un gramo cada seis horas, por boca o endovenoso."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Y aquí está la contraindicación que se pregunta: nunca aspirina ni otros salicilatos. La aspirina compite con la hormona tiroidea por sus proteínas transportadoras, la TBG y la prealbúmina, y la desplaza."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Resultado: sube de golpe la fracción libre, la que actúa, y eso puede precipitar un colapso hemodinámico letal. Conecta con lo que vimos al principio: la tormenta ya tiene más hormona libre; la aspirina le suma todavía más."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Por último, fluidos: suero glucosado al cinco por ciento con suero fisiológico, para reponer lo que se pierde por sudor, taquipnea y diarrea, y el glucógeno hepático que el hipermetabolismo agotó."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Toda tormenta obliga a buscar activamente una infección: hemocultivos, urocultivo, radiografía de tórax y PCR."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Y si se sospecha un foco, antibióticos empíricos de inmediato. Si no tratas el gatillo, la tormenta no cede."
+    },
+    {
+      "file": "s10_g02",
+      "text": "En la UCI las metas son una presión arterial media de sesenta y cinco o más y una frecuencia cardíaca bajo cien, con cristaloides y norepinefrina si hay vasodilatación. Si hay edema pulmonar, ventilación no invasiva o intubación según corresponda."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y si a las veinticuatro a cuarenta y ocho horas no responde, o el PTU produjo falla hepática, se recurre a la plasmaféresis, que remueve la hormona unida a proteínas."
+    },
+    {
+      "file": "s10_g04",
+      "text": "O, en la urgencia extrema, a una tiroidectomía de salvataje."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Juntemos todo en el árbol de rescate, en el orden en que lo vas a hacer. Paciente hipertiroideo con fiebre, compromiso de conciencia, taquicardia o falla cardíaca. Lo primero es calcular la escala, sin esperar exámenes."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuántos puntos suma en la escala de Burch-Wartofsky?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Bajo veinticinco, la tormenta es improbable: se maneja como un hipertiroidismo no complicado."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Entre veinticinco y cuarenta y cuatro, la tormenta es inminente: vigilancia estrecha y tratamiento, porque puede progresar."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Con cuarenta y cinco o más, tormenta altamente probable: UCI e inicio inmediato del tratamiento, en este orden."
+    },
+    {
+      "file": "s11_g05",
+      "text": "De inmediato: propranolol en dosis altas, propiltiouracilo con dosis de carga, e hidrocortisona endovenosa."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Al menos una hora después del PTU, la solución de Lugol, para frenar la liberación."
+    },
+    {
+      "file": "s11_g07",
+      "text": "En paralelo: paracetamol y enfriamiento físico, nunca aspirina; fluidos con glucosa; y búsqueda y tratamiento del gatillo."
+    },
+    {
+      "file": "s11_g08",
+      "text": "Si no responde en veinticuatro a cuarenta y ocho horas, o hay falla hepática por el PTU: plasmaféresis o tiroidectomía de salvataje."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Repasemos las trampas. Sospecha clínica con cuarenta y cinco puntos o más: se trata de inmediato en la UCI. El error es esperar la T cuatro libre."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La tionamida de elección es el propiltiouracilo, porque además frena la conversión periférica. El tiamazol es el distractor."
+    },
+    {
+      "file": "s12_g02",
+      "text": "El Lugol va al menos una hora después del PTU. Darlo antes o junto al PTU alimenta la tormenta."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Para la fiebre: paracetamol y enfriamiento físico. La aspirina está prohibida."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Hidrocortisona siempre, por la insuficiencia suprarrenal relativa. Omitirla es un error."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y el desencadenante se busca y se trata. Tratar solo la tiroides deja encendido el gatillo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Vamos al caso. Mujer de cuarenta y seis años, hipertiroidea, que toma el tiamazol de forma irregular, con tres días de tos productiva. Llega soporosa, sudorosa, con treinta y nueve coma ocho grados, hipotensa, con fibrilación auricular a ciento cincuenta y dos. Tiene bocio con soplo, crepitaciones en las bases e ictericia leve. La escala de Burch-Wartofsky da setenta y cinco puntos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las alternativas: pedir hormonas y esperar el resultado, trasladar a UCI con tratamiento multimodal y antibióticos, pedir un cintigrama, subir el tiamazol y controlar en sala, o radioyodo. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Setenta y cinco puntos es muy por encima de cuarenta y cinco: es una tormenta, y el gatillo es la neumonía. El distractor más tentador es la A, pedir hormonas y esperar, pero el diagnóstico es clínico, y la T cuatro libre no separa la tormenta de un hipertiroidismo común. Se trata ya, en la UCI, con los cuatro pilares, y con antibióticos para la neumonía, porque sin tratar el gatillo la tormenta no cede."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Ahora preguntas del banco EUNACOM, porque este tema no tiene preguntas reales fechadas en el banco. La primera: mujer de cincuenta años con Graves no controlado, con fiebre de treinta y nueve y medio, agitación, vómitos profusos y taquicardia de ciento cuarenta y cinco. Burch-Wartofsky de sesenta puntos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Qué secuencia de fármacos es la correcta?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: aspirina seguida de tiamazol, los cuatro pilares con el Lugol una hora después del PTU, Lugol en bolo con levotiroxina, tiroidectomía inmediata sin fármacos, o radioyodo. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B, los cuatro pilares con el orden correcto. Mira cómo caen las demás: la A tiene aspirina, que está prohibida; la C da el yodo primero, y encima levotiroxina, que es echar más hormona; la D opera a un paciente tirotóxico sin preparar, que es justamente un gatillo de tormenta; y el radioyodo no tiene papel en la urgencia."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La siguiente. Paciente en tormenta tiroidea, en la UCI, con cuarenta coma dos grados y compromiso de conciencia. El residente quiere indicar un antipirético."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál está formalmente contraindicado por el riesgo de subir la hormona libre?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: paracetamol, metamizol, aspirina, ibuprofeno, o ketorolaco. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la C, la aspirina. Desplaza a la hormona tiroidea de sus proteínas transportadoras y sube de golpe la fracción libre, justo lo que la tormenta ya tiene de más. El paracetamol, en cambio, es el antipirético de elección, junto al enfriamiento físico. Esta pregunta se responde en segundos si recuerdas una sola palabra: aspirina, nunca."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Y la última. Hombre de cuarenta y cinco años con Graves, que abandonó el tratamiento, llega en shock, agitado, sudoroso, ictérico y con fibrilación auricular a ciento sesenta. Burch-Wartofsky de sesenta y cinco."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el fundamento principal para dar hidrocortisona endovenosa?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: tratar la insuficiencia suprarrenal relativa y frenar la conversión de T cuatro a T tres, inmunosuprimir los anticuerpos, subir la TSH, favorecer la captación de yodo, o evitar la hipoglicemia del PTU. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la A. El hipermetabolismo consume el cortisol más rápido de lo que la suprarrenal lo fabrica, y este paciente en shock es exactamente el que colapsa sin corticoide. Además, frena la conversión a T tres. La B suena lógica porque Graves es autoinmune, pero el corticoide no apaga los anticuerpos en dos horas; su papel en la urgencia es otro."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. La tormenta es un diagnóstico clínico: con cuarenta y cinco puntos o más, se trata sin esperar exámenes."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Lo que la define es la falla de órganos, no el nivel de T cuatro libre."
+    },
+    {
+      "file": "s17_g02",
+      "text": "El tratamiento son cuatro pilares: propranolol, propiltiouracilo, Lugol e hidrocortisona, más soporte y el tratamiento del gatillo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "El Lugol va al menos una hora después del PTU."
+    },
+    {
+      "file": "s17_g04",
+      "text": "Y la fiebre se baja con paracetamol, nunca con aspirina. Si te llevas una sola idea de hoy: primero se cierra la fábrica con el PTU, y una hora después se cierra la puerta con el yodo. Con esto cerramos el bloque de hipertiroidismo; en la próxima clase entramos al nódulo tiroideo. Nos vemos en la próxima clase."
+    }
+  ]
+}

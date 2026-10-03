@@ -1,0 +1,204 @@
+{
+  "id": "cirugia-14",
+  "title": "Cirugia 11.14: Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
+  "specialty": "Cirugía General",
+  "chars": 8334,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Terminado el trauma, entramos al bloque del perioperatorio. Hoy vemos la evaluación preoperatoria: cómo clasificas el riesgo de un paciente antes de operarlo, y qué haces con los fármacos que toma todos los días. Este es de los temas más transversales del examen, porque aparece detrás de cualquier cirugía electiva. Empecemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Antes de operar a nadie, lo primero es clasificar qué tan enfermo está en términos globales, con la escala ASA. El ASA uno es el paciente sano, sin ninguna enfermedad de fondo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El ASA dos ya tiene una enfermedad, pero leve y controlada: hipertenso o diabético bien manejado, fumador, o con obesidad moderada. No le limita la vida diaria."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El ASA tres tiene una enfermedad sistémica grave que ya lo limita bastante, pero no amenaza su vida en este momento: un infarto de hace más de tres meses, o una diálisis programada."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El ASA cuatro es una amenaza constante para la vida: un infarto reciente, o una angina inestable. Y ojo con la letra E: se agrega a cualquier categoría cuando la cirugía es de urgencia. Guarda esta idea, porque la retomamos con el riesgo cardíaco."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ya sabes qué tan enfermo está en general, pero falta algo específico: ¿aguanta su corazón el estrés de la cirugía? Empieza con la pregunta más simple: ¿puede subir dos pisos de escaleras cargando peso, sin que le falte el aire ni le duela el pecho?"
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si la respuesta es sí, tiene una capacidad funcional de cuatro equivalentes metabólicos o más, y con eso te basta: operas sin pedir ningún estudio cardíaco adicional."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si no puede, o la respuesta es dudosa, usas el score de Lee. Son seis factores que suman un punto cada uno: cirugía de alto riesgo, cardiopatía isquémica, insuficiencia cardíaca, antecedente de accidente cerebrovascular, diabetes con insulina, y una creatinina mayor a dos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Con ninguno de estos factores, o solo uno, el riesgo es bajo: operas directo."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Pero con tres factores o más, el riesgo ya es alto, y antes de programar la cirugía pides una evaluación cardiológica formal. Retoma la idea de la letra E: si la cirugía es de urgencia, no esperas ese estudio, la haces igual y optimizas en paralelo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, el fármaco de siempre. Y hay un grupo que nunca se suspende: los betabloqueadores. Si los quitas de golpe, el corazón se acelera de rebote y puede isquemiarse justo en la cirugía."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Lo mismo con las estatinas y con la levotiroxina: se toman igual, la mañana de la cirugía, con un sorbo de agua."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y aquí viene un matiz que se pregunta seguido: la aspirina, cuando el paciente la toma por un infarto previo o un stent, se mantiene en casi toda cirugía general. Solo se suspende antes de una neurocirugía o de cirugía ocular."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Piensa en la lógica: si sacas la aspirina, el riesgo de que ese stent se trombose es mucho más grave que el sangrado extra de la cirugía."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Y en el otro extremo, tres fármacos que sí se suspenden, cada uno por una razón distinta. El primero: los inhibidores de la enzima convertidora y los ARA dos se suspenden veinticuatro horas antes, omitiendo solo la dosis de la mañana de pabellón."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Si lo mantienes, la anestesia general le baja tanto la presión que se vuelve refractaria a los fármacos que normalmente la suben."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El segundo es la metformina, que se suspende de veinticuatro a cuarenta y ocho horas antes, sobre todo si va a recibir contraste yodado."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si el riñón se hipoperfunde durante la cirugía, la metformina se acumula y puede llevar a una acidosis láctica grave."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y el tercero es el clopidogrel, que se suspende de cinco a siete días antes. Aquí sí se suspende, a diferencia de la aspirina, porque la inhibición plaquetaria que produce es irreversible."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si lo mantienes, el riesgo de un sangrado quirúrgico importante es mayor que el beneficio de seguir antiagregado justo en esos días."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Juntemos todo esto en el árbol de decisión de la evaluación preoperatoria. Antes de cualquier fármaco, resuelve primero si el corazón aguanta la cirugía."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Si sube dos pisos cargando peso sin que le falte el aire, con eso te basta para operar."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Cuentas cirugía de alto riesgo, cardiopatía isquémica, insuficiencia cardíaca, ataque cerebrovascular, diabetes con insulina y creatinina alta."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Con tres factores o más del score de Lee, pides una evaluación cardiológica formal antes de fijar fecha, salvo que la cirugía sea de urgencia."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Con ninguno o solo un factor de Lee, el riesgo es bajo y operas sin pedir más estudio."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Estos se toman igual la mañana de la cirugía, con un sorbo de agua, porque suspenderlos es más riesgoso que mantenerlos."
+    },
+    {
+      "file": "s05_g06",
+      "text": "El IECA se suspende veinticuatro horas antes, la metformina veinticuatro a cuarenta y ocho, y el clopidogrel cinco a siete días antes."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. El betabloqueador crónico se mantiene hasta la mañana de pabellón. Suspenderlo por prudencia es justo lo que provoca la taquicardia de rebote."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La aspirina por un stent coronario se mantiene en cirugía general. Suspenderla igual que el clopidogrel es un error clásico: no todos los antiagregantes se tratan igual."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El IECA se omite justo la mañana de la cirugía. Darlo igual que siempre expone al paciente a una hipotensión que cuesta mucho revertir en pabellón."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y si el paciente sube dos pisos sin problema, operas sin más estudio cardíaco. Pedir el score de Lee de todas formas solo retrasa una cirugía que ya estaba autorizada."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Hombre de cincuenta y ocho años, con un infarto hace cuatro años y un stent coronario, hipertenso con enalapril y bisoprolol, programado para una colecistectomía laparoscópica. Camina cuarenta minutos diarios en subida sin angina ni ahogo. Toma aspirina cien miligramos al día."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la indicación más adecuada para el día de la cirugía?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Tienes cinco opciones: suspender aspirina y bisoprolol, mantener bisoprolol y aspirina y omitir el enalapril, suspender los tres fármacos, pedir cardiología antes de decidir, o mantener los tres igual que siempre. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Primero, camina cuarenta minutos en subida sin síntomas: tiene buena capacidad funcional, así que no necesita cardiología antes de operar. El bisoprolol nunca se suspende. La aspirina, por el stent, se mantiene en cirugía general. Y el enalapril se suspende, pero solo omitiendo la dosis de esa mañana, para evitar la hipotensión refractaria de la inducción."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Esta pregunta viene del banco de estudio del EUNACOM, no tiene fecha de examen real. Paciente de sesenta y dos años, hipertenso con enalapril y amlodipino, y con una cardiopatía coronaria en tratamiento con bisoprolol y atorvastatina, programado para una hernioplastia inguinal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la indicación más apropiada para el día de la intervención?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: suspender todo cuarenta y ocho horas antes, suspender el enalapril y mantener bisoprolol y atorvastatina, suspender el bisoprolol y dar el enalapril, mantener todo igual, o reemplazar todo por nitroprusiato. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, exactamente la misma lógica que ya viste: el enalapril se suspende, omitiendo solo la dosis de esa mañana, y el betabloqueador junto con la estatina se mantienen, con un sorbo de agua, para no perder su efecto protector justo el día de la cirugía."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta del banco de estudio, también sin fecha de examen real. Se te pide identificar al paciente ASA tres."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál de los siguientes pacientes corresponde a esa categoría?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: una mujer sana para biopsia mamaria, un hombre hipertenso bien controlado, un hombre con infarto antiguo y angina estable, una mujer con infarto reciente y angina inestable, y un politraumatizado en shock. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. El infarto de hace un año, ya estable, con angina solo a esfuerzos moderados, es justo la definición de ASA tres: una enfermedad grave que limita, pero que en este momento no amenaza la vida. La mujer sana es ASA uno, el hipertenso controlado es ASA dos, y la mujer con infarto reciente e inestable ya es ASA cuatro."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Si sube dos pisos sin síntomas, no necesitas más estudio cardíaco."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Con un score de Lee de tres o más, cardiología antes de operar."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Los betabloqueadores y las estatinas nunca se suspenden."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y la aspirina por un stent se mantiene, salvo antes de una neurocirugía."
+    },
+    {
+      "file": "s10_g04",
+      "text": "El IECA se suspende veinticuatro horas antes."
+    },
+    {
+      "file": "s10_g05",
+      "text": "La metformina y el clopidogrel también se suspenden, cada uno por su propio riesgo. Si te llevas una sola idea de hoy: pregúntate primero si el corazón aguanta la cirugía, y después decide fármaco por fármaco, nunca todos igual. Nos vemos en la próxima clase."
+    }
+  ]
+}

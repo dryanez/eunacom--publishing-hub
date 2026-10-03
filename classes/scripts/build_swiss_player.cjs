@@ -8,11 +8,148 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..', '..');
-const GASTRO_PATH = path.join(ROOT, 'classes', 'curriculum', 'gastroenterologia_decks_data.json');
-const NEFRO_PATH = path.join(ROOT, 'classes', 'curriculum', 'nefrologia_decks_data.json');
+const SPECIALTIES = [
+  { key: 'gastroenterologia', name: 'Gastroenterología' },
+  { key: 'neumologia', name: 'Neumología' },
+  { key: 'nefrologia', name: 'Nefrología' },
+  { key: 'diabetes', name: 'Diabetes y Dislipidemias' },
+  { key: 'endocrinologia', name: 'Endocrinología' },
+  { key: 'hematologia', name: 'Hematología' },
+  { key: 'infectologia', name: 'Infectología' },
+  { key: 'reumatologia', name: 'Reumatología' },
+  { key: 'neurologia', name: 'Neurología y Geriatría' },
+  { key: 'cirugia', name: 'Cirugía General' },
+  { key: 'dermatologia', name: 'Dermatología' },
+  { key: 'oftalmologia', name: 'Oftalmología' },
+  { key: 'ginecologia', name: 'Ginecología' },
+  { key: 'obstetricia', name: 'Obstetricia' },
+  { key: 'pediatria', name: 'Pediatría' },
+  { key: 'saludpublica', name: 'Salud Pública' },
+];
 
-const gastroDecks = fs.existsSync(GASTRO_PATH) ? JSON.parse(fs.readFileSync(GASTRO_PATH, 'utf8')) : {};
-const nefroDecks = fs.existsSync(NEFRO_PATH) ? JSON.parse(fs.readFileSync(NEFRO_PATH, 'utf8')) : {};
+// Árboles de decisión: classes/pathways/*_pathways.cjs; una clase con guion propio puede traer el suyo en `pathway`.
+const PATHWAYS_DIR = path.join(ROOT, 'classes', 'pathways');
+const PATHWAYS = Object.assign({}, ...fs.readdirSync(PATHWAYS_DIR)
+  .filter(f => f.endsWith('_pathways.cjs'))
+  .map(f => require(path.join(PATHWAYS_DIR, f))));
+
+function flattenPathway(root) {
+  const nodes = [];
+  (function walk(n, parent, edge, depth) {
+    const id = nodes.length;
+    nodes.push({ id, parent, edge, depth, k: n.k, t: n.t, s: n.s || '', say: n.say || '' });
+    (n.kids || []).forEach(([label, child]) => walk(child, id, label, depth + 1));
+  })(root, -1, '', 0);
+  return nodes;
+}
+
+// Convierte texto de pantalla en texto locutable: símbolos y abreviaturas que la voz lee mal.
+function speakable(text) {
+  return String(text || '')
+    .replace(/<\/?(strong|em|b|i|br|span|mark)\b[^>]*>/gi, '')
+    .replace(/H\.\s*pylori/g, 'Helicobacter pylori')
+    .replace(/(\d)\s*[–-]\s*(\d)/g, '$1 a $2')
+    .replace(/mg\/dL/g, ' miligramos por decilitro')
+    .replace(/mL\/kg\/h(ora)?/g, ' mililitros por kilo por hora')
+    .replace(/mL\/kg/g, ' mililitros por kilo')
+    .replace(/g\/dL/g, ' gramos por decilitro')
+    .replace(/\/mm³/g, ' por milímetro cúbico')
+    .replace(/(\d)\s*mg\b/g, '$1 miligramos')
+    .replace(/(\d)\s*mL\b/g, '$1 mililitros')
+    .replace(/(\d)\s*cm\b/g, '$1 centímetros')
+    .replace(/(\d)\s*mm\b/g, '$1 milímetros')
+    .replace(/(\d)\s*h\b/g, '$1 horas')
+    .replace(/(\d)\s*sem\b/g, '$1 semanas')
+    .replace(/(\d)\s*×/g, '$1 veces')
+    .replace(/≥/g, ' mayor o igual a ')
+    .replace(/≤/g, ' menor o igual a ')
+    .replace(/(^|[\s(])>\s?/g, '$1más de ')
+    .replace(/(^|[\s(])<\s?/g, '$1menos de ')
+    .replace(/→/g, ', luego, ')
+    .replace(/±/g, ' con o sin ')
+    .replace(/(\d)\s*%/g, '$1 por ciento')
+    .replace(/\(\+\)/g, ' positivo')
+    .replace(/\((−|-)\)/g, ' negativo')
+    .replace(/\bATB\b/g, 'antibióticos')
+    .replace(/\bEDA\b/g, 'endoscopía digestiva alta')
+    .replace(/\bRx\b/g, 'radiografía')
+    .replace(/\bRM\b/g, 'resonancia')
+    .replace(/\bEV\b/g, 'endovenoso')
+    .replace(/\bc\/(\d)/g, 'cada $1')
+    .replace(/\s·\s/g, ', ')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+function sentence(s) {
+  const t = String(s || '').trim();
+  if (!t) return '';
+  return /[.!?:]$/.test(t) ? t : t + '.';
+}
+
+// Divide el cuerpo de una tarjeta exactamente como lo muestra el reproductor.
+function cardItems(body) {
+  const raw = String(body || '').trim();
+  if (raw.includes('•')) return raw.split(/•\s*/).map(s => s.trim()).filter(Boolean);
+  if (raw.includes('\n')) return raw.split(/\n+/).map(s => s.trim()).filter(Boolean);
+  const sents = raw.split(/(?<=[.!?])\s+/).filter(Boolean);
+  return sents.length > 1 ? sents : [raw];
+}
+
+const CARD_LEADS = ['', 'Ahora, ', 'Además, ', 'Por último, '];
+
+// Un segmento de locución por paso visual: lo que se revela es exactamente lo que se dice.
+function buildSegments(slide, introText) {
+  const seg = (step, text) => ({ step, text: speakable(text) });
+  if (slide.type === 'cover') return [seg(0, introText)];
+
+  if (slide.type === 'bento') {
+    return (slide.cards || []).map((c, ci) => {
+      const items = cardItems(c.body).map(it => {
+        const m = it.match(/^([^:]{3,35}):\s*(.*)$/);
+        return sentence(m ? `${m[1]}: ${m[2]}` : it);
+      });
+      const lead = ci === 0 ? sentence(slide.title.replace(/^\d+\.\s*/, '')) + ' ' : CARD_LEADS[Math.min(ci, CARD_LEADS.length - 1)];
+      return seg(ci, `${lead}${sentence(c.title)} ${items.join(' ')}`);
+    });
+  }
+
+  if (slide.type === 'table') {
+    const head = slide.head || [];
+    return (slide.rows || []).map((r, ri) => {
+      const cells = r.cells || [];
+      const parts = cells.slice(1).map((c, i) => (i === 0 ? c : `${head[i + 1] || ''}: ${c}`)).filter(Boolean);
+      const lead = ri === 0 ? sentence(slide.title) + ' ' : '';
+      return seg(ri, `${lead}${cells[0] || ''}: ${parts.join('. ')}`);
+    });
+  }
+
+  if (slide.type === 'quiz') {
+    const correct = (slide.options || []).find(o => o.letter === slide.correct);
+    return [
+      seg(0, `Caso clínico. ${slide.stem}`),
+      seg(1, slide.question),
+      seg(2, 'Las alternativas son: ' + (slide.options || []).map(o => `${o.letter}, ${sentence(o.text)}`).join(' ') + ' Piensa tu respuesta.'),
+      seg(3, `La respuesta correcta es la ${slide.correct}: ${sentence(correct ? correct.text : '')} ${slide.explanation || ''}`),
+    ];
+  }
+
+  if (slide.type === 'pathway') {
+    return slide.nodes.map((n, i) => seg(i, n.say || sentence(n.t)));
+  }
+
+  if (slide.type === 'figure') {
+    const steps = slide.steps || [];
+    return steps.map((st, si) => seg(si, `${si === 0 ? 'Revisemos el algoritmo: ' + sentence(slide.title) + ' ' : ''}${sentence(st.replace(/^[\d.]+\s*/, ''))}`));
+  }
+
+  return [seg(0, introText || slide.title)];
+}
+
+function loadDecks(key) {
+  const p = path.join(ROOT, 'classes', 'curriculum', `${key}_decks_data.json`);
+  return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : {};
+}
 
 function stripEmojis(text) {
   if (typeof text !== 'string') return text;
@@ -234,8 +371,19 @@ function adaptDeckToSwiss(deck, specialtyName) {
   let txCount = 0;
   let qCount = 0;
 
+  const pathway = PATHWAYS[deck.id];
+  if (pathway) {
+    deck = { ...deck, slides: deck.slides.filter(s => s.type !== 'figura' && s.type !== 'figure') };
+    const insertAt = deck.slides.findIndex((s, i) => i > 0 && (s.type === 'table' || s.type === 'question'));
+    deck.slides.splice(insertAt > 0 ? insertAt : deck.slides.length - 1, 0, {
+      type: 'pathway',
+      title: pathway.title,
+      nodes: flattenPathway(pathway.root),
+    });
+  }
+
   // Inyectar algoritmo oficial de HDA en la clase correspondiente si no tiene figura
-  const hasFig = deck.slides.some(s => s.type === 'figura' || s.type === 'figure');
+  const hasFig = deck.slides.some(s => s.type === 'figura' || s.type === 'figure' || s.type === 'pathway');
   if (!hasFig && /hemorragia digestiva|hda/i.test(deck.title || '')) {
     const hdaSvgPath = path.join(ROOT, 'books', 'svg_diagrams', 'algo_hda.svg');
     if (fs.existsSync(hdaSvgPath)) {
@@ -267,6 +415,9 @@ function adaptDeckToSwiss(deck, specialtyName) {
     let ch = 1;
     if (s.type === 'cover' || idx === 0) {
       ch = 0;
+    } else if (s.type === 'pathway') {
+      ch = 2;
+      txCount++;
     } else if (s.type === 'question') {
       ch = 3;
       qCount++;
@@ -388,6 +539,14 @@ function adaptDeckToSwiss(deck, specialtyName) {
         explanation: stripEmojis(s.explanation || 'Justificación oficial según Perfil de Conocimientos ASOFAMECh.'),
         ref: stripEmojis(s.ref || 'Guías Clínicas GES / MINSAL 2026')
       };
+    } else if (s.type === 'pathway') {
+      slideObj = {
+        ch: 2,
+        type: 'pathway',
+        title: stripEmojis(s.title),
+        kicker: 'ÁRBOL DE DECISIÓN CLÍNICA',
+        nodes: s.nodes,
+      };
     } else if (s.type === 'figura' || s.type === 'figure') {
       let rawSvg = s.svg || '';
       if (!rawSvg && s.svgFile) {
@@ -462,7 +621,8 @@ function adaptDeckToSwiss(deck, specialtyName) {
 
     // Inyectar el guion pedagógico explicativo docente de Masterclass completa (250-400 palabras)
     const teachingScript = generateClinicalTeachingScript(slideObj, deck, specialtyName, idx, s);
-    slideObj.notes = [teachingScript];
+    slideObj.segments = buildSegments(slideObj, teachingScript);
+    slideObj.notes = [slideObj.segments.map(g => g.text).join(' ')];
 
     return slideObj;
   });
@@ -482,6 +642,71 @@ function adaptDeckToSwiss(deck, specialtyName) {
   };
 }
 
+// Clases con guion docente escrito a mano (classes/lessons/<id>.cjs)
+const LESSONS_DIR = path.join(ROOT, 'classes', 'lessons');
+const LESSONS = fs.existsSync(LESSONS_DIR)
+  ? Object.fromEntries(fs.readdirSync(LESSONS_DIR).filter(f => f.endsWith('.cjs')).map(f => {
+      const l = require(path.join(LESSONS_DIR, f));
+      return [l.id, l];
+    }))
+  : {};
+
+const LESSON_CHAPTER = { cover: 0, flow: 1, points: 1, pathway: 2, table: 2, quiz: 3 };
+
+function buildLesson(lesson, deck, specialtyName) {
+  const base = adaptDeckToSwiss(deck, specialtyName);
+  const seg = (step, text) => ({ step, text: speakable(text) });
+  const lastIdx = lesson.slides.length - 1;
+
+  const slides = lesson.slides.map((s, idx) => {
+    let ch = LESSON_CHAPTER[s.type] ?? 1;
+    if (s.type === 'points' && idx === lastIdx) ch = 3;
+    if (s.type === 'points' && /tratamiento/i.test(s.kicker || '')) ch = 2;
+
+    if (s.type === 'cover') {
+      const cover = { ...base.slides[0], subtitle: s.subtitle || base.slides[0].subtitle };
+      return { ...cover, segments: [seg(0, s.say)], notes: [s.say] };
+    }
+    if (s.type === 'flow') {
+      const segments = s.steps.map((st, i) => seg(i, st.say));
+      return { ch, type: 'flow', title: s.title, kicker: s.kicker, nodes: s.nodes, edges: s.edges,
+        steps: s.steps.map(st => ({ show: st.show, note: st.note || '' })), segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'points') {
+      const segments = [];
+      const cards = s.cards.map(c => ({ ...c, items: c.items.map(it => {
+        segments.push(seg(segments.length, it.say));
+        return { t: it.t, d: it.d || '' };
+      }) }));
+      return { ch, type: 'points', title: s.title, kicker: s.kicker, cards, segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'pathway') {
+      const pw = lesson.pathway || PATHWAYS[lesson.id];
+      if (!pw) throw new Error(`Falta el árbol de decisión de ${lesson.id}`);
+      const nodes = flattenPathway(pw.root);
+      const segments = nodes.map((n, i) => seg(i, (i === 0 && s.intro ? s.intro + ' ' : '') + n.say));
+      return { ch, type: 'pathway', title: pw.title, kicker: 'ÁRBOL DE DECISIÓN CLÍNICA', nodes, segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'table') {
+      const segments = s.rows.map((r, i) => seg(i, r.say));
+      return { ch, type: 'table', title: s.title, kicker: s.kicker, note: s.note || '',
+        cols: s.head.map((_, i) => (i === 0 ? '1.3fr' : '1fr')), head: s.head,
+        rows: s.rows.map(r => ({ cells: r.cells, hi: false, alert: false })), segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    if (s.type === 'quiz') {
+      const segments = [seg(0, s.say.stem), seg(1, s.say.question), seg(2, s.say.options), seg(3, s.say.answer)];
+      return { ch, type: 'quiz', title: s.title, kicker: s.kicker, stem: s.stem, question: s.question,
+        options: s.options, correct: s.correct, explanation: s.explanation, ref: s.ref || 'Perfil V3 ASOFAMECh · Guías MINSAL',
+        segments, notes: [segments.map(g => g.text).join(' ')] };
+    }
+    throw new Error(`Tipo de diapositiva desconocido en ${lesson.id}: ${s.type}`);
+  });
+
+  const count = c => slides.filter(sl => sl.ch === c).length;
+  const chapters = base.chapters.map((c, i) => ({ ...c, meta: i === 3 ? count(3) + ' slides' : count(i) + ' slides' }));
+  return { ...base, chapters, slides };
+}
+
 // Adaptar todas las clases
 const ALL_CLASSES = [];
 
@@ -492,14 +717,10 @@ if (fs.existsSync(introDeckPath)) {
   ALL_CLASSES.push(adaptDeckToSwiss(introDeck, 'Inducción Oficial'));
 }
 
-// Clases de Gastroenterología
-Object.values(gastroDecks).forEach(d => {
-  ALL_CLASSES.push(adaptDeckToSwiss(d, 'Gastroenterología'));
-});
-
-// Clases de Nefrología
-Object.values(nefroDecks).forEach(d => {
-  ALL_CLASSES.push(adaptDeckToSwiss(d, 'Nefrología'));
+SPECIALTIES.forEach(({ key, name }) => {
+  const decks = Object.values(loadDecks(key));
+  decks.forEach(d => ALL_CLASSES.push(LESSONS[d.id] ? buildLesson(LESSONS[d.id], d, name) : adaptDeckToSwiss(d, name)));
+  console.log(`  ${name}: ${decks.length} clases`);
 });
 
 console.log(`Total clases adaptadas al estándar Suizo: ${ALL_CLASSES.length}`);
@@ -515,10 +736,4 @@ htmlContent = htmlContent.replace('Catálogo Oficial de Clases EUNACOM', `Catál
 const outPath = path.join(ROOT, 'classes', 'decks', 'Reproductor_Suiza_Oficial.html');
 fs.writeFileSync(outPath, htmlContent, 'utf8');
 console.log(`✔ Reproductor Suizo Oficial generado exitosamente en: ${outPath}`);
-
-const artifactPath = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c/reproductor_suizo.html';
-fs.writeFileSync(artifactPath, htmlContent, 'utf8');
-const artifactPath2 = 'C:/Users/PC/.gemini/antigravity/brain/1d7a0239-d155-4cb9-9422-60adf8cd5e8c/reproductor_suizo_oficial.html';
-fs.writeFileSync(artifactPath2, htmlContent, 'utf8');
-console.log(`✔ Artefactos Antigravity generados exitosamente.`);
 

@@ -1,0 +1,232 @@
+{
+  "id": "nefro-10",
+  "title": "Nefrologia 3.2: Hipokalemia y Reposición Segura de Potasio",
+  "specialty": "Nefrología",
+  "chars": 10400,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos el potasio alto; hoy vamos al otro extremo, la hipokalemia. El examen pregunta tres cosas: reconocer la onda U en el electrocardiograma, saber cuánto potasio puedes pasar por una vena periférica, y acordarte del magnesio cuando el potasio no sube. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Hablamos de hipokalemia con potasio bajo tres coma cinco miliequivalentes por litro. El potasio es clave para la repolarización y la contracción muscular, así que la clínica es muscular. Lo típico es una debilidad simétrica y ascendente, que parte en las piernas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Se suman calambres, mialgias y reflejos osteotendíneos disminuidos. Fíjate que la debilidad se parece a la de la hiperkalemia: por eso el contexto y el electrocardiograma son los que separan."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El músculo liso también se afecta: constipación y, en los casos graves, íleo paralítico."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y bajo dos miliequivalentes puede aparecer rabdomiolisis, e hipoventilación por parálisis del diafragma. Ahí la hipokalemia ya compromete la vida."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En el electrocardiograma, el potasio bajo altera la repolarización. Lo primero es una onda T que se aplana o se invierte, y luego un infradesnivel del segmento ST."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y aparece el signo que el examen quiere que reconozcas: la onda U, una pequeña deflexión positiva que sigue a la T, más visible entre V dos y V cuatro."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Cuando la T se aplana y la U crece, parece que el QT se alarga. En realidad estás midiendo un intervalo QU."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el riesgo es arrítmico: extrasístoles ventriculares, taquicardia ventricular polimorfa como la torsades de pointes, y fibrilación ventricular, sobre todo si hay una cardiopatía de base."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Ojo con el usuario de digoxina. El potasio y la digoxina compiten por el mismo sitio en la bomba de sodio y potasio. Si el potasio baja, la digoxina se une más y aparece la intoxicación digitálica con arritmias graves. Por eso en estos pacientes el potasio se mantiene sobre cuatro."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora, ¿de dónde sale el potasio? La pregunta la responde la orina. Si mides el potasio urinario de veinticuatro horas, sabes si el riñón está ahorrando o perdiendo."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si es menor de veinte miliequivalentes al día, el riñón está ahorrando bien, y la pérdida es extrarrenal: diarrea profusa, fístulas entéricas o abuso de laxantes. Suele acompañarse de acidosis metabólica, y se trata con cloruro de potasio y cristaloides."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si es mayor de veinte, el riñón está perdiendo potasio. Y ahí la presión arterial separa. Con hipertensión, piensa en exceso de mineralocorticoides: el hiperaldosteronismo primario o síndrome de Conn, la estenosis de la arteria renal o el Cushing. El tratamiento es la espironolactona o la cirugía del adenoma."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Con presión normal: los diuréticos, los vómitos repetidos, y los síndromes de Bartter y Gitelman. Y de todos, los diuréticos tiazídicos y de asa son la causa más frecuente de hipokalemia en el paciente ambulatorio. Se suspende el diurético y se aporta potasio y magnesio."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Por último, la redistribución: el potasio no se perdió, entró a la célula. Pasa con la alcalosis metabólica, los agonistas beta dos y el exceso de insulina. Es justo el mecanismo que usamos a propósito para tratar la hiperkalemia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos al tratamiento. Siempre que el paciente tolere la vía digestiva, la vía oral es la de elección, con gluconato de potasio o comprimidos de cloruro de potasio retard. La absorción enteral es más lenta y previene la hiperkalemia de rebote."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Es la opción cuando el potasio está sobre dos coma cinco a tres y el paciente no tiene síntomas."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El cloruro de potasio endovenoso queda para la hipokalemia severa, bajo dos coma cinco, cuando hay cambios en el electrocardiograma, o cuando el paciente no tolera la vía oral. Y ahí hay reglas estrictas, que son las que se preguntan."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Por vena periférica, la concentración máxima es cuarenta miliequivalentes por litro de solución. Para que te ubiques: dos ampollas de diez mililitros de cloruro de potasio al diez por ciento aportan veintiséis coma ocho miliequivalentes. Más concentrado, produce flebitis química dolorosa y esclerosis de la vena."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Y la velocidad máxima es de diez a veinte miliequivalentes por hora. Cuarenta por litro y diez a veinte por hora: esas dos cifras son la pregunta."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si necesitas más, concentraciones de sesenta a ochenta por litro, o velocidades de veinte a cuarenta por hora en un paro o una arritmia ventricular grave, la vía central es obligatoria."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y siempre con bomba de infusión continua y monitorización electrocardiográfica. Nunca en bolo."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Por último, el vehículo: el potasio se diluye en suero fisiológico, nunca en suero glucosado. ¿Por qué? Porque la glucosa estimula la insulina, la insulina mete potasio a la célula, y empeoras la hipokalemia justo mientras intentas corregirla."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Y la regla que más se olvida. La hipomagnesemia es la causa más común de que una hipokalemia no responda al tratamiento."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El mecanismo es elegante. El magnesio dentro de la célula actúa como un freno sobre el canal ROMK, el canal que secreta potasio en el túbulo colector. Si el magnesio cae, se pierde ese freno y el canal queda abierto."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Con el canal abierto, hay una fuga renal continua de potasio. Es como llenar un balde con un agujero: todo el cloruro de potasio que pasas se va por la orina, y la kalemia no sube."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Por eso, frente a toda hipokalemia refractaria a un aporte adecuado de cloruro de potasio, la conducta es medir y reponer magnesio con sulfato de magnesio endovenoso. Si no tapas el agujero, el potasio no se va a quedar."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora juntemos todo en un árbol de decisión para la hipokalemia. Paciente con potasio bajo tres coma cinco. Primero evalúa los síntomas y toma un electrocardiograma."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La pregunta que define la vía: ¿el potasio está bajo dos coma cinco, hay cambios en el electrocardiograma, o el paciente no tolera la vía oral?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si no, la vía oral es la de elección, con sales de potasio."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si hay que ir por vena, ¿hay un paro o una arritmia ventricular grave que obligue a pasar más rápido?"
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si no, cloruro de potasio periférico en suero fisiológico, máximo cuarenta por litro y diez a veinte por hora."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si hay arritmia grave, vía central, con bomba de infusión y monitor continuo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Y si en cualquier camino el potasio no sube pese a un aporte adecuado, mide y repone magnesio."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Si el paciente tolera la vía oral y no tiene síntomas, sales de potasio por boca. El error es ir directo a la vía venosa."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Por vena periférica, máximo cuarenta por litro y diez a veinte por hora. El error es concentrar o acelerar para corregir más rápido."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Se diluye en suero fisiológico. El glucosado empeora la hipokalemia."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si el potasio no sube, repones magnesio. Seguir subiendo el cloruro de potasio es llenar el balde con el agujero abierto."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y una hipokalemia con hipertensión, sin diuréticos que la expliquen, es un hiperaldosteronismo primario hasta demostrar lo contrario."
+    },
+    {
+      "file": "s08_g05",
+      "text": "En el usuario de digoxina, la hipokalemia precipita la intoxicación digitálica: el potasio se mantiene sobre cuatro."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos al caso. Mujer de cincuenta y seis años, hipertensa, que cambió la hidroclorotiazida por clortalidona en dosis plenas. Consulta por astenia, calambres y palpitaciones. Su electrocardiograma muestra ondas T aplanadas, ondas U y extrasístoles aisladas. Potasio de dos coma ocho y magnesio de uno coma cuatro, bajo lo normal. Se pasa cloruro de potasio periférico a diez por hora, y a las veinticuatro horas el potasio sigue en dos coma nueve."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: aumentar el cloruro de potasio a cuarenta por hora, sulfato de magnesio endovenoso, cambiar el vehículo a suero glucosado, agregar furosemida, o suspender y controlar. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Tiene una hipokalemia por tiazida que no sube con un aporte correcto, y el magnesio está bajo: es el balde con el agujero. Se repone magnesio. El distractor tentador es la A, subir la velocidad, pero cuarenta por hora por una vena periférica supera el límite de seguridad y no arregla la fuga. El glucosado la empeora y la furosemida pierde aún más potasio."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de setenta y ocho años, diabético, hipertenso y dislipidémico, que toma metformina, glibenclamida, enalapril, hidroclorotiazida, aspirina y atorvastatina. En sus exámenes tiene sodio de ciento treinta, potasio de tres coma cuatro y creatinina de uno coma uno."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la causa más probable de sus alteraciones?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: nefroesclerosis hipertensiva, hidroclorotiazida, nefropatía diabética, enalapril, o aspirina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, la hidroclorotiazida. Es la causa más frecuente de hipokalemia en el paciente ambulatorio, y además explica la hiponatremia. El distractor es el enalapril, pero piensa en el mecanismo: el enalapril baja la aldosterona, así que retiene potasio, no lo pierde. Y la creatinina normal descarta que el riñón sea el problema."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Hombre de treinta y siete años con hipertensión que no se controla pese a enalapril, atenolol e hidroclorotiazida, con tomas sobre ciento sesenta ciento diez. Tiene astenia, debilidad de las piernas y cefalea. Potasio de tres coma uno, creatinina de uno coma dos, y un scanner que muestra un tumor suprarrenal derecho de dos centímetros, sólido y homogéneo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: feocromocitoma, hipertensión esencial, hipertensión renovascular, hipertensión por insuficiencia renal, o hiperaldosteronismo primario. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E, hiperaldosteronismo primario. Es la fila de la fuga renal con hipertensión: un paciente joven, con hipertensión resistente, hipokalemia sintomática y un adenoma suprarrenal. El distractor es el feocromocitoma, que también es un tumor suprarrenal, pero da crisis paroxísticas, no hipokalemia. Y no te confundas con la tiazida: puede sumar, pero no explica el tumor ni la resistencia."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. El electrocardiograma de la hipokalemia es la T aplanada, el ST infradesnivelado y la onda U."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La causa ambulatoria más frecuente son los diuréticos; y con hipertensión sin diuréticos, piensa en Conn."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Si tolera, por boca. Por vena periférica, cuarenta por litro y diez a veinte por hora, diluido en suero fisiológico."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Y si el potasio no sube, mide y repone magnesio. En la próxima clase entramos al equilibrio ácido base con la acidosis metabólica, donde el potasio va a volver a aparecer. Si te llevas una sola idea de hoy: la hipokalemia que no responde es una hipomagnesemia hasta demostrar lo contrario. Nos vemos en la próxima clase."
+    }
+  ]
+}

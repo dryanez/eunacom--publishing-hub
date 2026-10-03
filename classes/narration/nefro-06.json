@@ -1,0 +1,220 @@
+{
+  "id": "nefro-06",
+  "title": "Nefrologia 2.2: SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+  "specialty": "Nefrología",
+  "chars": 9874,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos que la hiponatremia euvolémica te hace pensar en el SIADH. Hoy lo miramos de cerca, y lo comparamos con dos cuadros que se le parecen: el síndrome perdedor de sal cerebral y la polidipsia primaria. La diferencia importa mucho, porque uno se trata restringiendo agua y otro dando suero. Si te equivocas de lado, el paciente se puede morir. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el nombre, que ya explica el mecanismo. Síndrome de secreción inapropiada de hormona antidiurética. Inapropiada, porque se secreta aunque el plasma esté diluido y el volumen esté normal: no hay ningún motivo fisiológico para que esté ahí."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Esa hormona hace que el túbulo colector reabsorba agua libre. El paciente retiene agua, y como vimos la clase pasada, el problema de la hiponatremia es de agua, no de sodio."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El resultado es una hiponatremia hipotónica, pero con un paciente que se ve euvolémico: no tiene edema ni signos de deshidratación. Esa euvolemia es la clave del diagnóstico."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y la orina lo delata. Con un plasma diluido, el riñón debería eliminar orina diluida. En el SIADH pasa lo contrario: la orina está concentrada, sobre cien miliosmoles, y el sodio urinario está alto, sobre cuarenta, con una ingesta normal de sal."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Los criterios de Schwartz y Bartter ordenan el diagnóstico. Primero, hiponatremia hipotónica: sodio bajo ciento treinta y cinco y osmolaridad plasmática bajo doscientos setenta y cinco."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Segundo, orina inapropiadamente concentrada: osmolaridad urinaria sobre cien, y muchas veces sobre trescientos."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Tercero, sodio urinario sobre cuarenta, con una ingesta normal de sal."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y cuarto, euvolemia clínica: sin edema y sin signos de deshidratación."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El quinto criterio es el que más se olvida: la función tiroidea, suprarrenal y renal tienen que ser normales. El hipotiroidismo y la insuficiencia suprarrenal dan un cuadro idéntico."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y no puede haber uso reciente de diuréticos, porque la tiazida también deja el sodio urinario alto. Por eso el SIADH es un diagnóstico de exclusión."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Las causas se agrupan en cuatro familias. La primera, las neoplasias, y el ejemplo clásico es el cáncer pulmonar de células pequeñas, que fabrica hormona antidiurética de manera ectópica."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La segunda, los fármacos: los inhibidores selectivos de la recaptura de serotonina, como el citalopram y la sertralina, la carbamazepina, los antipsicóticos y la ciclofosfamida. En el examen, si hay un fármaco de estos en la lista, casi siempre es la respuesta."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La tercera, la patología del sistema nervioso central: meningitis, encefalitis, accidente cerebrovascular y tumores."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y la cuarta, la patología pulmonar infecciosa, como la neumonía. Ojo con la tercera familia, porque el paciente neurológico es justamente el que te obliga a pensar en el diagnóstico diferencial que viene."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora, la diferencia que más se pregunta. Imagina un paciente con hemorragia subaracnoidea o un traumatismo encefalocraneano, con sodio bajo y sodio urinario alto. Puede ser un SIADH, o puede ser un síndrome perdedor de sal cerebral. En el laboratorio se ven casi iguales."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Lo que los separa es una sola cosa: la volemia. Por eso el examen siempre te da la presión, la frecuencia cardíaca, la presión venosa central o el balance hídrico."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si el paciente está euvolémico, es un SIADH: le sobra agua. Se trata con restricción de líquidos libres, ochocientos a mil mililitros al día, y suplementos de sal."
+    },
+    {
+      "file": "s04_g03",
+      "text": "En el perdedor de sal, en cambio, el cerebro libera péptido natriurético y el riñón pierde sodio de verdad. El paciente queda hipovolémico: hipotenso, taquicárdico, con presión venosa central baja, balance negativo, pérdida de peso, hemoconcentración, y una relación nitrógeno ureico sobre creatinina mayor de veinte."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y su tratamiento es el opuesto: expansión enérgica de volumen con suero fisiológico al cero coma nueve por ciento, o hipertónico al tres por ciento si es severo, más un mineralocorticoide, la fludrocortisona."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y aquí está la trampa que puede costar una vida. Si al perdedor de sal lo tratas como SIADH y le restringes el agua, lo llevas al shock hipovolémico. En un paciente con hemorragia subaracnoidea, eso favorece el vasoespasmo y el infarto cerebral. La restricción hídrica en el perdedor de sal es fatal."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El tercer cuadro es la polidipsia primaria, o psicógena. Aquí no hay hormona antidiurética inapropiada: el paciente simplemente toma más agua de la que el riñón alcanza a eliminar. Y el riñón hace todo bien: diluye la orina al máximo, bajo cien miliosmoles."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Por eso el sodio urinario está bajo veinte, y el paciente está euvolémico o con una hipervolemia leve."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Fíjate en el contraste: los dos son euvolémicos con sodio bajo, pero en el SIADH la orina está concentrada, y en la polidipsia está diluida. La orina decide."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Su tratamiento es restringir la ingesta de agua. Y como el riñón funciona bien, cuando el paciente deja de beber en exceso, la orina se concentra y el sodio se normaliza. Esa respuesta la vas a ver en una pregunta real."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con hiponatremia hipotónica confirmada. Para separar estos tres cuadros, mira la orina y la volemia."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La primera pregunta es la orina: ¿está diluida o concentrada?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Orina máximamente diluida, bajo cien, con sodio urinario bajo veinte: polidipsia primaria. Se restringe la ingesta de agua."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Orina concentrada con sodio urinario sobre cuarenta. Ahora la pregunta que decide: ¿cómo está la volemia?"
+    },
+    {
+      "file": "s06_g04",
+      "text": "Euvolémico: si la tiroides, la suprarrenal y el riñón son normales y no hay diuréticos, es un SIADH. Restricción hídrica de ochocientos a mil mililitros al día, suplementos de sal, y suspender el fármaco que lo causa."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Hipovolémico, en contexto neuroquirúrgico: perdedor de sal cerebral. Suero fisiológico y fludrocortisona. Restringir agua aquí es fatal."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos los tres cuadros lado a lado. La volemia: el SIADH es euvolémico, el perdedor de sal es hipovolémico, y la polidipsia es euvolémica o levemente hipervolémica."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La osmolaridad urinaria: concentrada en el SIADH y en el perdedor de sal, y máximamente diluida en la polidipsia."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El sodio urinario: alto en los dos primeros, y bajo en la polidipsia."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El ácido úrico suele estar bajo en el SIADH, bajo cuatro, pero no te ayuda mucho a separarlo del perdedor de sal."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y el tratamiento, que es lo que se pregunta: restricción hídrica en el SIADH, suero fisiológico y fludrocortisona en el perdedor de sal, y restringir el agua en la polidipsia. El error clásico es restringir agua en el perdedor de sal."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Hombre de cincuenta y dos años, a los cinco días del clipaje de un aneurisma por una hemorragia subaracnoidea. Está taquicárdico, con presión de noventa sobre sesenta, presión venosa central de dos, orina cuatro litros y medio al día y tiene un balance negativo. Su sodio bajó de ciento treinta y ocho a ciento veintiséis, con sodio urinario de ochenta y ocho y orina concentrada."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las alternativas: restricción hídrica, suero fisiológico, furosemida con sal oral, desmopresina, o suero glucosado. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, suero fisiológico. El laboratorio se parece a un SIADH, pero mira la volemia: hipotensión, taquicardia, presión venosa central colapsada y balance negativo. Eso es un perdedor de sal cerebral, y se trata reponiendo volumen y sodio. El distractor tentador es la restricción hídrica: es la respuesta del SIADH, y aquí llevaría al paciente al shock y al vasoespasmo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de sesenta años, con hipotiroidismo, hipertensión y depresión, que toma levotiroxina, enalapril y citalopram. En un control tiene sodio de ciento veintisiete, potasio normal, creatinina normal y sodio urinario de sesenta."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la causa más probable de su hiponatremia?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: el enalapril, el citalopram, un síndrome paraneoplásico, insuficiencia suprarrenal, o hipotiroidismo descompensado. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B, el citalopram. Hiponatremia con sodio urinario alto en una paciente sin diuréticos: SIADH, y el fármaco de la lista que lo produce es el ISRS. El distractor tentador es el hipotiroidismo, porque está en el antecedente, pero está en tratamiento con levotiroxina y el caso no da ningún dato de que esté descompensado."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Adolescente de dieciséis años con polidipsia y poliuria de tres semanas, sin otros síntomas. La osmolaridad plasmática está disminuida, y en el test de la sed se normalizan la diuresis y la osmolaridad."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: polidipsia psicógena, diabetes insípida nefrogénica, diabetes insípida central, hipercalcemia, o diabetes mellitus tipo uno. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A, polidipsia psicógena. La clave es la osmolaridad plasmática baja: el plasma está diluido porque entra demasiada agua. Y cuando se le quita el agua, todo se normaliza, porque el riñón y la hormona antidiurética funcionan bien. El distractor es la diabetes insípida: ahí el paciente pierde agua, la osmolaridad plasmática tiende a subir, y la poliuria sigue aunque no beba. Eso lo vemos en la próxima clase."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. SIADH: hiponatremia hipotónica en un paciente euvolémico, con orina concentrada y sodio urinario sobre cuarenta."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Antes de decirlo, descarta hipotiroidismo, insuficiencia suprarrenal y diuréticos, y busca la causa: un ISRS, la carbamazepina o un cáncer pulmonar de células pequeñas."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si el paciente neuroquirúrgico está hipovolémico, es un perdedor de sal: suero fisiológico y fludrocortisona."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Y nunca le restrinjas el agua, porque lo llevas al shock y al vasoespasmo."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y la polidipsia primaria tiene la orina diluida, y se corrige al dejar de beber. Si te llevas una sola idea de hoy: con sodio bajo y sodio urinario alto, la volemia decide si restringes agua o das suero. En la próxima clase damos vuelta el problema: la hipernatremia y la diabetes insípida. Nos vemos en la próxima clase."
+    }
+  ]
+}

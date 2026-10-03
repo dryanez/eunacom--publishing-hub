@@ -1,0 +1,232 @@
+{
+  "id": "diab-19",
+  "title": "Diabetes 4.5: Complicaciones Agudas del Tratamiento: Edema Cerebral e Hipofosfemia",
+  "specialty": "Diabetes y Dislipidemias",
+  "chars": 10335,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En las clases anteriores aprendimos a tratar la cetoacidosis diabética. Hoy vemos lo que puede salir mal durante ese tratamiento: el edema cerebral, que es la complicación más grave, y la hipofosfemia, que es la más olvidada. Casi todo lo que se pregunta se resume en una escena: el paciente empeora justo cuando los exámenes estaban mejorando. Vamos a entender por qué pasa y qué hacer en el minuto uno."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. Durante la cetoacidosis, el plasma está hiperosmolar, concentrado. Ese plasma tiende a sacarle agua a las células del cerebro."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Para no deshidratarse, las células cerebrales se defienden fabricando sus propios osmoles, los osmoles endógenos. Así igualan la concentración de afuera y retienen su agua. Es una adaptación útil, pero lenta de revertir."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Ahora llega el tratamiento. Si se pasa un exceso de fluidos hipotónicos, o la glicemia cae demasiado rápido, sobre cien por hora, la osmolaridad del plasma cae bruscamente."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero los osmoles que fabricó el cerebro se van con lentitud. Afuera la concentración ya bajó, adentro sigue alta. Es un gradiente osmótico al revés."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y el agua va hacia donde hay más osmoles: entra a los astrocitos y a las neuronas. Eso es el edema cerebral difuso, con hipertensión intracraneana."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Si no se trata, el cerebro hinchado se hernia, uncal o amigdalina. Por eso es la principal causa de muerte en niños con cetoacidosis: entre el sesenta y el noventa por ciento de esas muertes. Y por eso, en la clase de insulina, insistimos en que la glicemia baje despacio."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos a quién le pasa. El factor de riesgo más fuerte es la edad: menores de cinco años. Y el debut de una diabetes tipo uno, que suele llegar con una cetoacidosis más grave."
+    },
+    {
+      "file": "s02_g01",
+      "text": "También la severidad de la acidosis al ingreso: un pH bajo siete coma diez, o un bicarbonato muy bajo."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Otros dependen de nosotros. La infusión masiva de fluidos en las primeras cuatro horas, sobre cuatro litros por metro cuadrado de superficie corporal."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y que el sodio corregido no suba como se espera durante el tratamiento, lo que habla de que el plasma se está diluyendo demasiado."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y el momento es típico: entre las cuatro y las doce horas de iniciado el tratamiento, justo cuando la glicemia y la acidosis parecen estar mejorando. Esa discordancia es la pista del enunciado."
+    },
+    {
+      "file": "s03_g00",
+      "text": "¿Cómo se ve? El paciente, que iba mejorando, se queja de una cefalea intensa de inicio súbito, y vuelve a vomitar, con vómitos explosivos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Luego aparece agitación o irritabilidad sin explicación, seguida de somnolencia progresiva. Puede haber incontinencia urinaria."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y el monitor te da la clave: la tríada de Cushing. Primero, una bradicardia inexplicada. Fíjate que un paciente deshidratado venía taquicárdico; que baje la frecuencia no es buena noticia."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Segundo, la presión arterial sube. Y tercero, el patrón respiratorio se vuelve irregular. Es el cerebro comprimido pidiendo más presión para perfundirse."
+    },
+    {
+      "file": "s03_g04",
+      "text": "El marcador clínico más sensible es el deterioro en la escala de coma de Glasgow. Por eso, a estos pacientes se les controla el Glasgow de forma seriada."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la conducta, que es lo que más se pregunta. El diagnóstico es clínico: con la cefalea, los vómitos y la tríada de Cushing en un paciente en tratamiento por cetoacidosis, ya sabes lo que es."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y aquí está la trampa. La alternativa que dice trasladar a tomografía de cerebro para confirmar suena rigurosa, pero es incorrecta. Mientras el paciente va y vuelve del escáner, el cerebro se puede herniar."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El tratamiento hiperosmolar se inicia de inmediato, al lado de la cama. Manitol al veinte por ciento, cero coma cinco a un gramo por kilo, endovenoso en veinte minutos, y se repite a las dos horas si no hay respuesta."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La alternativa, también de primera línea, es la solución salina hipertónica al tres por ciento, cinco mililitros por kilo en diez a quince minutos. Ambas hacen lo mismo: vuelven a subir la osmolaridad de afuera para sacar el agua del cerebro."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y junto con eso, se reduce la velocidad de los fluidos a la mitad, se eleva la cabecera a treinta grados, y se asegura la vía aérea, con intubación si hay coma severo."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La segunda complicación es la hipofosfemia, y su mecanismo ya lo conoces por el potasio. El paciente perdió fósforo por la orina durante días, y cuando llega la insulina, mete el fósforo que queda al interior de las células."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La hipofosfemia leve es asintomática y no requiere tratamiento. Eso también se pregunta: no se repone fósforo de rutina."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Pero si cae bajo uno coma cero miligramos por decilitro, sin fósforo no hay energía para el músculo. Aparece debilidad muscular extrema, y lo grave es el diafragma: falla ventilatoria aguda, o un paciente que no se puede desconectar del ventilador."
+    },
+    {
+      "file": "s05_g03",
+      "text": "También puede producir anemia hemolítica y rabdomiólisis."
+    },
+    {
+      "file": "s05_g04",
+      "text": "En esos casos se suplementa fosfato de potasio endovenoso, veinte a treinta milimoles diluidos en los fluidos."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos las complicaciones en un árbol: el paciente en tratamiento que se deteriora. Paciente en tratamiento por cetoacidosis que, de pronto, se deteriora. La pregunta es qué complicación del tratamiento tienes al frente."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Lo primero es ordenar: ¿predomina el compromiso neurológico, o la debilidad muscular?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si es neurológico, mira el monitor y el hemoglucotest. ¿Hay bradicardia con hipertensión?"
+    },
+    {
+      "file": "s06_g03",
+      "text": "Con tríada de Cushing, es edema cerebral: manitol al veinte por ciento o salino al tres por ciento de inmediato, fluidos a la mitad, cabecera a treinta grados. Sin esperar la tomografía."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si no hay Cushing, el paciente suda, tiembla y la glicemia está baja, es una hipoglicemia: glucosa al treinta por ciento en bolo, y suero glucosado al cinco por ciento."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si predomina la debilidad, lo primero es el potasio."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Bajo tres coma tres: suspender la insulina y pasar cloruro de potasio a veinte a treinta miliequivalentes por hora."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Con potasio normal y falla ventilatoria, mide el fósforo. Bajo uno, es una hipofosfemia severa: fosfato de potasio endovenoso, veinte a treinta milimoles."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos las cuatro complicaciones del tratamiento, porque el examen las mezcla. Edema cerebral: por exceso de hipotónicos o caída rápida de la glicemia. Cefalea, vómitos, bradicardia, hipertensión y sopor. Manitol o salino hipertónico, al lado de la cama."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Hipokalemia severa: por dar insulina sin mirar el potasio o sin reponerlo. Debilidad, parálisis flácida, onda U y arritmias. Se suspende la insulina y se pasa cloruro de potasio."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Hipofosfemia crítica: debilidad, pero con potasio normal y fósforo bajo uno. Falla ventilatoria y rabdomiólisis. Fosfato de potasio endovenoso."
+    },
+    {
+      "file": "s07_g03",
+      "text": "E hipoglicemia severa: por mantener la insulina sin agregar suero glucosado al llegar a doscientos. Sudoración, temblor y convulsiones. Glucosa al treinta por ciento en bolo, veinte a cincuenta mililitros, y se agrega suero glucosado."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos a un caso, para practicar la diferencia. Mujer de veinte años en tratamiento por cetoacidosis, con insulina y suero fisiológico. A las siete horas se pone confusa, sudorosa y temblorosa. Presión ciento dieciocho sobre setenta y dos, frecuencia ciento doce, y el hemoglucotest marca cuarenta y ocho. Nunca se agregó suero glucosado."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: manitol, tomografía de cerebro, glucosa al treinta por ciento más suero glucosado, fosfato de potasio, o bicarbonato. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. Está confusa en el horario del edema cerebral, y por eso el manitol tienta. Pero mira el monitor: no hay tríada de Cushing, la frecuencia está alta y la presión normal. Y el hemoglucotest de cuarenta y ocho, con sudoración y temblor, es una hipoglicemia, por mantener la insulina sin agregar suero glucosado. Glucosa al treinta por ciento en bolo, y suero glucosado al cinco por ciento."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora un caso representativo del banco EUNACOM. Adolescente de trece años, en la unidad de cuidados intensivos por una cetoacidosis severa. A las seis horas de tratamiento, cefalea intensa, dos vómitos explosivos, y se va poniendo somnoliento. La presión sube de ciento cinco a ciento cuarenta, y la frecuencia cae de ciento dos a cincuenta y cuatro."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones son: tomografía de cerebro para confirmar, manitol o salino hipertónico y reducir los fluidos, aumentar el suero fisiológico, atropina para la bradicardia, o suspender la insulina y dar glucosa. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Es la escena de la clase: horario típico, cefalea, vómitos, deterioro de conciencia y tríada de Cushing. Edema cerebral. Manitol al veinte por ciento o salino al tres por ciento de inmediato, y menos fluidos. La A es el distractor más tentador, pero pedir una tomografía antes de tratar puede costar la herniación. Y la atropina trata el número, no la causa: la bradicardia es por el cerebro comprimido."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otro caso representativo del banco. Paciente de veintiocho años, a las dieciocho horas de tratamiento por cetoacidosis, con debilidad muscular profunda y una insuficiencia ventilatoria: no logra sostener el esfuerzo para inspirar. La cetoacidosis ya está resuelta, el potasio es cuatro coma dos, el calcio es normal, y el fósforo es cero coma ocho."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento específico indicado?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: gluconato de calcio, sulfato de magnesio, fosfato de potasio, subir la insulina, o bicarbonato. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C, fosfato de potasio endovenoso. La clave es descartar lo que primero se te viene a la cabeza ante un paciente débil en cetoacidosis: el potasio. Aquí el potasio y el calcio son normales, y el fósforo está bajo uno. Sin fósforo no hay energía para el diafragma. Por eso se repone fósforo, y solo en este escenario de hipofosfemia severa."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El edema cerebral aparece entre las cuatro y las doce horas, cuando los exámenes mejoran, y sobre todo en niños y en el debut."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Se sospecha con cefalea, vómitos, deterioro de conciencia y la tríada de Cushing."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y se trata con manitol o salino hipertónico al lado de la cama, sin esperar la tomografía."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Se previene bajando la glicemia despacio, no más de setenta y cinco a cien por hora, y sin exceso de fluidos hipotónicos."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y la hipofosfemia solo se trata si es severa, bajo uno, con fosfato de potasio. Con esto cerramos las urgencias; en la próxima clase pasamos a las complicaciones crónicas, partiendo por el riñón. Si te llevas una sola idea de hoy: si el paciente empeora mientras los exámenes mejoran, piensa en el cerebro y trata de inmediato, sin esperar la tomografía. Nos vemos en la próxima clase."
+    }
+  ]
+}

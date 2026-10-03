@@ -1,0 +1,324 @@
+{
+  "id": "endo-24",
+  "title": "Endocrinología 7.24: Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+  "specialty": "Endocrinología",
+  "chars": 14081,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque de hipófisis con su parte posterior y con la hormona que maneja el agua: la hormona antidiurética. Cuando falta, tenemos diabetes insípida; cuando sobra, el síndrome de secreción inadecuada de ADH. Y al final vemos las neoplasias endocrinas múltiples. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la fisiología, porque con ella se deducen las dos enfermedades. La hormona antidiurética, o vasopresina, se fabrica en el hipotálamo y actúa en el riñón, sobre los receptores V dos del túbulo colector."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Su función es una sola: abrir la puerta para que el túbulo recupere agua libre. Con ADH, la orina sale concentrada y el agua se queda en el cuerpo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si la ADH falta, o el riñón no le hace caso, el agua se pierde: litros de orina diluida. Eso es la diabetes insípida."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y si hay ADH de sobra, sin que el cuerpo la pida, se retiene agua y el sodio se diluye. Eso es el síndrome de secreción inadecuada de ADH, o SIADH. Una hormona, dos caras opuestas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La diabetes insípida se reconoce por la poliuria masiva: más de tres a cinco litros al día, y puede llegar a quince o veinte. Con sed intensa y el paciente levantándose toda la noche a orinar."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La orina es diluida: osmolaridad urinaria bajo doscientos a trescientos miliosmoles por kilo y densidad menor de uno coma cero cero cinco."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y un detalle fino: si el paciente tiene la sed intacta y acceso al agua, compensa tomando, y el sodio queda normal alto. Pero si le restringes el agua, o tiene compromiso de conciencia, se deshidrata y cae en una hipernatremia severa."
+    },
+    {
+      "file": "s02_g03",
+      "text": "¿Por qué ocurre? En la diabetes insípida central no se fabrica o no se libera ADH, por daño del hipotálamo o del tallo: traumatismo encéfalo craneano, neurocirugía transesfenoidal, histiocitosis, sarcoidosis, o idiopática. La causa típica del examen es el postoperatorio de una cirugía de la silla turca."
+    },
+    {
+      "file": "s02_g04",
+      "text": "En la nefrogénica, la ADH está, pero el túbulo no responde. La causa farmacológica número uno es el carbonato de litio, y las metabólicas, la hipercalcemia severa y la hipokalemia crónica. Paciente bipolar con poliuria: piensa en litio."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Para confirmar y distinguir las dos, se usa el test de deprivación hídrica y desmopresina, o test de Miller. Primero se restringe el agua. Una persona sana concentraría la orina; en la diabetes insípida la osmolaridad urinaria no sube de trescientos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Luego se administra desmopresina, que es ADH sintética: dos a cuatro microgramos subcutáneos, o veinte microgramos nasales. Y aquí está la pregunta clave: ¿el riñón responde a la hormona que le das?"
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si la osmolaridad urinaria sube más de cincuenta a cien por ciento y el volumen de orina cae, el riñón funcionaba bien; lo que faltaba era la hormona. Es diabetes insípida central."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si la osmolaridad casi no sube, menos de cincuenta por ciento, el riñón no escucha a la ADH aunque se la des. Es diabetes insípida nefrogénica."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y el tratamiento sale solo. La central se trata reponiendo la hormona: desmopresina nasal u oral. La nefrogénica no responde a la desmopresina, así que se usan hidroclorotiazida más amilorida, y se retira la causa, como el litio si es posible."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la otra cara. En el SIADH se secreta ADH de forma autónoma, sin que la osmolaridad esté alta y sin hipovolemia. Es decir, sin ningún motivo. Y el túbulo colector obedece: retiene agua libre."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Esa agua de más diluye el sodio, y aparece una hiponatremia hipotónica."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Pero el cuerpo se defiende. La leve expansión de volumen libera péptidos natriuréticos, que obligan al riñón a botar sodio por la orina. Por eso el sodio urinario sale alto, a pesar de que el sodio en sangre está bajo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El resultado es un paciente con volemia clínicamente normal: sin edema, sin yugulares ingurgitadas, sin signos de deshidratación. Hiponatremia euvolémica: esa es la firma del SIADH."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Para diagnosticarlo se exigen cinco criterios. Uno: hiponatremia hipotónica, con sodio bajo ciento treinta y cinco y osmolaridad plasmática bajo doscientos setenta y cinco."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Dos: una orina inapropiadamente concentrada, con osmolaridad urinaria sobre cien, y a menudo sobre trescientos. Con el sodio tan bajo, el riñón debería estar botando agua, y no lo hace."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Tres: sodio urinario elevado, sobre treinta a cuarenta, pese a la hiponatremia."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Cuatro: euvolemia clínica estricta. Y cinco: función renal, tiroidea y suprarrenal normales. Esto conecta con la clase anterior: el hipotiroidismo y el déficit de cortisol también dan hiponatremia, y hay que descartarlos antes."
+    },
+    {
+      "file": "s05_g04",
+      "text": "La causa que más se pregunta es el cáncer pulmonar de células pequeñas, u oat cell, que secreta ADH ectópica. Fumador con hiponatremia: piensa en él."
+    },
+    {
+      "file": "s05_g05",
+      "text": "También la patología pulmonar benigna, como neumonía o tuberculosis, y la del sistema nervioso central: meningitis, traumatismo o accidente cerebrovascular."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Y los fármacos: los inhibidores selectivos de la recaptación de serotonina, la carbamazepina y la ciclofosfamida."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El tratamiento depende de una pregunta: ¿el paciente tiene síntomas neurológicos graves, como convulsiones o coma?"
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si no los tiene, la lógica es simple: el problema es agua de más, así que se restringe el agua. Restricción hídrica estricta, quinientos a mil mililitros al día de líquidos totales. Ese es el tratamiento inicial de elección."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si tiene convulsiones o coma, se usa suero salino hipertónico al tres por ciento, en infusión lenta y controlada."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y aquí está la trampa de seguridad. La corrección no puede superar los ocho a diez miliequivalentes por litro en las primeras veinticuatro horas. Si subes el sodio demasiado rápido, provocas el síndrome de desmielinización osmótica, la mielinólisis pontina central. Por eso el sodio se monitorea de forma estricta."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Cambiamos de tema: las neoplasias endocrinas múltiples, trastornos hereditarios autosómicos dominantes con tumores en varias glándulas. La tipo uno, o síndrome de Wermer, se debe al gen MEN uno, que codifica la menina, y se recuerda con las tres P."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Primera P, paratiroides: hiperparatiroidismo primario por hiperplasia de las cuatro glándulas, en el noventa y cinco a cien por ciento, y es lo primero que aparece. Por eso se opera con paratiroidectomía subtotal."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Segunda P, páncreas: tumores neuroendocrinos, sobre todo gastrinomas con síndrome de Zollinger Ellison, en el sesenta por ciento, e insulinomas. Tercera P, pituitaria: adenomas, sobre todo prolactinomas, en el sesenta por ciento."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La tipo dos se debe al protooncogén RET. En la dos A, o síndrome de Sipple, el carcinoma medular de tiroides aparece en el cien por ciento, multicéntrico y bilateral."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Se suman el feocromocitoma, en la mitad de los casos y bilateral, y el hiperparatiroidismo primario en el veinte a treinta por ciento. Y la regla quirúrgica: antes de operar el tiroides se descarta y se opera el feocromocitoma. Si no, la crisis de catecolaminas en la anestesia puede ser fatal."
+    },
+    {
+      "file": "s07_g05",
+      "text": "En la dos B, o síndrome de Gorlin, el carcinoma medular es muy precoz y agresivo, con feocromocitoma en el cincuenta por ciento, neuromas mucosos en lengua, labios y conjuntivas, hábito marfanoide y ganglioneuromatosis intestinal."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Y la diferencia que se pregunta: la dos B no tiene hiperparatiroidismo. Por lo agresivo del cáncer, se indica tiroidectomía profiláctica en el primer año de vida."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos la parte del agua en un árbol de decisión. Ante un trastorno del agua, se evalúa la volemia clínica y se miden la osmolaridad plasmática y la urinaria."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Si hay poliuria de orina diluida, pensamos en diabetes insípida, y se hace el test de restricción hídrica con desmopresina."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si la osmolaridad urinaria sube más de cincuenta por ciento con desmopresina, es central, y se trata con desmopresina."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si no responde, es nefrogénica: se busca el litio, la hipercalcemia o la hipokalemia, y se trata con hidroclorotiazida y amilorida."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si hay hiponatremia euvolémica con orina concentrada y sodio urinario alto, y la tiroides, el cortisol y el riñón están normales, es un SIADH."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Sin síntomas graves, se restringe el agua a quinientos a mil mililitros al día y se busca la causa."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Con convulsiones o coma, salino hipertónico al tres por ciento, sin superar ocho a diez miliequivalentes en veinticuatro horas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Poliuria con hipernatremia después de una cirugía de la silla turca: diabetes insípida central. El SIADH da lo contrario, hiponatremia."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Paciente con litio y poliuria: diabetes insípida nefrogénica. No lo atribuyas a su enfermedad psiquiátrica."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si no responde a la desmopresina, es nefrogénica, y se trata con tiazida y amilorida. Subir la desmopresina no sirve."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Hiponatremia euvolémica con sodio urinario alto: SIADH, y se restringe el agua. Dar suero fisiológico es el error, porque el problema es el agua, no la falta de sal."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Con convulsiones, salino hipertónico, pero sin pasar de ocho a diez miliequivalentes en veinticuatro horas."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y en la NEM dos A, primero el feocromocitoma y después el tiroides."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Hombre de sesenta y dos años con cáncer pulmonar de células pequeñas, que llega con astenia, náuseas, marcha inestable y confusión. No tiene edema, las mucosas están húmedas y las yugulares normales. El sodio es ciento dieciocho, la osmolaridad plasmática baja, la urinaria de cuatrocientos ochenta, y el sodio urinario de cincuenta y cuatro. Riñón, TSH y cortisol normales. No ha convulsionado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la base del tratamiento?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las alternativas: suero fisiológico a chorro, restricción hídrica, desmopresina, furosemida con albúmina, o corregir el sodio a ciento treinta y cinco en veinticuatro horas. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, restricción hídrica. Cumple todos los criterios de SIADH y tiene la causa clásica, el oat cell. La A es la trampa: el problema es agua de más, y el suero fisiológico no corrige la hiponatremia. La desmopresina empeoraría todo, porque es más ADH. Y la E es peligrosa: subir diecisiete puntos en un día arriesga una mielinólisis pontina."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés. Un niño operado de una cirugía cerebral que luego presenta hipernatremia y poliuria."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: SIADH, diabetes mellitus tipo uno, hiperaldosteronismo secundario, diabetes insípida central, o polidipsia psicogénica. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, diabetes insípida central. Neurocirugía, más poliuria, más hipernatremia: el daño del hipotálamo o del tallo dejó al paciente sin ADH. El SIADH es la trampa, porque también aparece después de cirugías cerebrales, pero da lo contrario: retiene agua e hiponatremia. Y la polidipsia psicogénica tendría el sodio bajo, no alto."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La siguiente, del mismo examen de enero de dos mil veintitrés. Paciente que usa lamotrigina, ácido valproico y litio, con una diuresis de doce mil seiscientos mililitros al día, deshidratación e hipernatremia."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la causa más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las alternativas: ácido valproico, carbonato de litio, lamotrigina, polidipsia psicogénica, o hiperglicemia osmótica. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, el litio, que causa diabetes insípida nefrogénica. El distractor es la polidipsia psicogénica, que suena lógica en un paciente psiquiátrico. Pero el que toma agua de más diluye el sodio; aquí el sodio está alto y el paciente deshidratado. Eso es pérdida de agua por el riñón, no exceso de ingesta."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una del EUNACOM de julio de dos mil veinticuatro. Paciente de setenta y dos años, fumador de cuarenta paquetes año, con cáncer pulmonar de células pequeñas sin tratamiento, que lleva siete días con cefalea y tendencia a la desorientación. El sodio es ciento veintiuno, sin focalidad neurológica."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: SIADH, metástasis cerebrales, síndrome carcinoide, accidente vascular, o hipercalcemia. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A, SIADH. Cáncer de células pequeñas más hiponatremia es la asociación que tienes que tener automática. Las metástasis cerebrales son el distractor tentador, porque también dan cefalea y confusión, pero no explican el sodio de ciento veintiuno. Y el enunciado ya te dice que no hay focalidad neurológica."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La última del banco, del EUNACOM de diciembre de dos mil diecisiete. Paciente de sesenta años con hipotiroidismo, hipertensión y depresión, que toma levotiroxina, enalapril y citalopram. En su control tiene sodio de ciento veintisiete, potasio y creatinina normales, y sodio urinario de sesenta."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la causa más probable de su hiponatremia?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las alternativas: enalapril, citalopram, síndrome paraneoplásico, insuficiencia suprarrenal, o hipotiroidismo descompensado. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B, el citalopram. Hiponatremia con sodio urinario alto sugiere SIADH, y los inhibidores de la recaptación de serotonina están en la lista de fármacos que lo causan. El hipotiroidismo es el distractor, porque también da hiponatremia, pero está tratado con levotiroxina; por eso mismo se exige función tiroidea normal para diagnosticar SIADH."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Para las neoplasias endocrinas múltiples, un caso representativo del banco. Paciente de treinta y dos años que pide consejo genético. Su madre tuvo hiperparatiroidismo por compromiso de varias paratiroides, y a su hermano le sacaron un prolactinoma y un gastrinoma pancreático."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Qué gen es el responsable más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: protooncogén RET, gen MEN uno, gen VHL, gen NF uno, o gen del receptor de TSH. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B, el gen MEN uno. Cuenta las P: paratiroides, páncreas con el gastrinoma, y pituitaria con el prolactinoma. Es una NEM uno. El RET es el distractor, porque también es un síndrome de neoplasia endocrina múltiple, pero causa la tipo dos, que se reconoce por el carcinoma medular de tiroides y el feocromocitoma."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Diabetes insípida: poliuria diluida, con hipernatremia si falta el agua. Si responde a desmopresina es central; si no, nefrogénica."
+    },
+    {
+      "file": "s16_g01",
+      "text": "La neurocirugía da la central, y el litio, la nefrogénica."
+    },
+    {
+      "file": "s16_g02",
+      "text": "SIADH: hiponatremia euvolémica con orina concentrada y sodio urinario alto; piensa en el oat cell. Se trata con restricción de agua."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Y nunca corrijas más de ocho a diez miliequivalentes en veinticuatro horas."
+    },
+    {
+      "file": "s16_g04",
+      "text": "NEM uno son las tres P; NEM dos, carcinoma medular y feocromocitoma, y el feocromocitoma se opera primero. Si te llevas una sola idea de hoy: la ADH guarda agua; si falta, se pierde agua y sube el sodio; si sobra, se retiene agua y el sodio baja. Nos vemos en la próxima clase."
+    }
+  ]
+}

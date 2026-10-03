@@ -1,0 +1,188 @@
+{
+  "id": "cirugia-18",
+  "title": "Cirugia 11.18: Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+  "specialty": "Cirugía General",
+  "chars": 7608,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido a la última clase de cirugía. Terminamos con las heridas traumáticas y las mordeduras, un tema que se pregunta casi siempre con el mismo formato: te dan una herida y un estado de vacunación, y tienes que decidir vacuna, inmunoglobulina, o las dos. Aquí no hay que memorizar mil casos, hay dos preguntas que ordenan todo, y hoy te las voy a dejar bien claras, junto con lo que cambia cuando la herida es una mordedura."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Antes de decidir la profilaxis, tienes que reconocer qué herida es tetanígena, porque de ahí sale la mitad de la decisión. Lo es la que está contaminada con tierra, heces o saliva, ya que ahí es donde vive la bacteria del tétanos."
+    },
+    {
+      "file": "s01_g01",
+      "text": "También la herida punzante y profunda, con el clavo oxidado como el ejemplo que siempre usa el examen, porque ese ambiente sin oxígeno es justo el que la bacteria necesita para multiplicarse."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y la que tiene aplastamiento, tejido desvitalizado, o más de seis horas desde que ocurrió. Cualquiera de estas la hace tetanígena."
+    },
+    {
+      "file": "s01_g03",
+      "text": "En cambio, la herida limpia es superficial, reciente, y sin ninguno de esos elementos contaminantes. Piensa por ejemplo en un corte limpio con un cuchillo de cocina, recién ocurrido."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Toda la profilaxis antitetánica se decide con dos preguntas: cuántas dosis de vacuna tiene el paciente, y si la herida es limpia o tetanígena."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si el esquema está completo, con tres dosis o más, el paciente ya tiene memoria inmunológica."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Con herida limpia, solo necesita un refuerzo si pasaron más de diez años. Con herida sucia, el corte baja a cinco años. Y en ninguno de los dos casos necesita inmunoglobulina, porque su memoria responde sola."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Pero si el esquema es incompleto, con menos de tres dosis, o simplemente no lo sabes, el paciente no tiene esa memoria protectora."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Con herida limpia, se da vacuna siempre, para partir o completar el esquema."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y con herida sucia, aquí está la combinación clave: vacuna e inmunoglobulina juntas, en dos sitios distintos del cuerpo, y con jeringas distintas. La vacuna genera la protección a largo plazo, y la inmunoglobulina, doscientas cincuenta unidades por vía intramuscular, cubre de inmediato mientras esa protección todavía no aparece. Esta es la pareja que el examen pregunta una y otra vez."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Las mordeduras cambian según quién muerde, y eso llega a tener hasta la mitad de riesgo de infección de una a otra. El gato tiene colmillos finos que actúan como agujas, e inoculan la Pasteurella muy profundo, en tendones y hueso: es la que más se infecta de las tres."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El perro produce más desgarro y aplastamiento del tejido, con gérmenes distintos, pero se infecta un poco menos que la del gato, porque sus colmillos no penetran tan profundo."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y la mordedura humana es la más agresiva de todas, por su flora oral rica en Eikenella y anaerobios, sobre todo cuando es en la mano, con el puño cerrado contra un diente."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Pero el manejo inicial es el mismo para las tres: irrigar con suero fisiológico a presión, que es lo que más reduce la carga bacteriana."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y la regla que más se pregunta: no suturas una mordedura de entrada. Se deja cicatrizar por segunda intención, o se cierra diferido a las cuarenta y ocho horas, porque cerrarla de inmediato atrapa la infección adentro."
+    },
+    {
+      "file": "s03_g05",
+      "text": "El antibiótico de elección para las tres es amoxicilina con ácido clavulánico, porque cubre bien la Pasteurella y la Eikenella."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Dijimos que la mordedura no se sutura, pero hay una excepción: la herida facial extensa, donde el resultado estético importa mucho."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Ahí se puede cerrar en forma laxa, pero solo después de un lavado quirúrgico masivo, y con cobertura antibiótica estricta desde el inicio."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y sobre la rabia: si el perro que muerde se puede observar por diez días y se mantiene sano, no necesitas vacunar."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Pero si es un animal silvestre, un murciélago, o simplemente no lo puedes ubicar para observarlo, vacunas de inmediato, sin esperar ningún plazo."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora armemos el árbol completo, desde la herida hasta la decisión final. Paciente con una herida traumática que llega a urgencia. Toda la decisión de profilaxis se arma con dos preguntas: cuántas dosis de vacuna tiene, y qué tan sucia es la herida."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Con esquema completo ya hay memoria inmunológica; sin él, no."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con memoria inmunológica ya formada, la inmunoglobulina prácticamente nunca se necesita."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Herida limpia con esquema completo: solo se refuerza si la última dosis fue hace más de diez años, y nunca lleva inmunoglobulina."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Herida sucia con esquema completo: el corte para el refuerzo baja a cinco años, y tampoco lleva inmunoglobulina, porque la memoria inmunológica responde sola."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Sin memoria inmunológica previa, la herida sucia obliga a sumar inmunoglobulina."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Herida limpia con esquema incompleto: se da vacuna para iniciar o completar el esquema, sin inmunoglobulina."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Herida sucia con esquema incompleto o desconocido: se administran vacuna e inmunoglobulina a la vez, en dos sitios distintos, y esta es la combinación que más se pregunta."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos en la tabla. Con vacunación incierta o menos de tres dosis: en herida limpia, solo vacuna; en herida sucia, vacuna e inmunoglobulina juntas."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Con esquema completo y la última dosis hace menos de cinco años: no necesita nada, en ninguna de las dos heridas."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Entre cinco y diez años desde la última dosis: en herida limpia, nada; en herida sucia, un refuerzo de vacuna."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y con más de diez años desde la última dosis: refuerzo de vacuna en ambos tipos de herida. En estos tres últimos casos nunca hay inmunoglobulina, porque el paciente ya tiene memoria inmunológica."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos al caso. Mujer de cincuenta y ocho años sufre una herida cortante de cuatro centímetros en la pierna izquierda con una lata oxidada, visiblemente sucia con tierra. Cuenta que su esquema de vacunación está al día, y que su última dosis de refuerzo fue hace siete años."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la indicación correcta respecto a la profilaxis antitetánica?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: no hacer nada porque fue hace menos de diez años, dar solo un refuerzo de vacuna, dar solo inmunoglobulina, dar vacuna e inmunoglobulina juntas, o indicar penicilina benzatina en su lugar. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La respuesta es la B. Aquí está la trampa: el corte de diez años es para la herida limpia, pero esta es una herida sucia, y ahí el corte baja a cinco años. Como pasaron siete, corresponde el refuerzo. Y no necesita inmunoglobulina, porque su esquema previo completo ya le dio memoria inmunológica."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Niño de siete años es mordido por un perro callejero en el brazo derecho."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Además del manejo de la herida, la pregunta es cuál es la conducta más adecuada respecto a la profilaxis de la rabia."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: observarlo por diez días, vacunarlo solo si el perro tiene síntomas, darle la vacuna antirrábica, vacunarlo solo si el perro muere, o darle inmunoglobulina antirrábica. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La respuesta es la C, vacunarlo ahora. La observación de diez días solo sirve cuando el animal es identificable y se le puede seguir. Un perro callejero no es observable, así que la conducta es vacunar de inmediato, sin esperar nada del animal."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. Todo se decide con dos preguntas: cuántas dosis previas tiene, y si la herida es limpia o sucia."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La inmunoglobulina solo entra si el esquema es incompleto y además la herida es sucia. Con esquema completo, nunca la necesitas."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Y en las mordeduras: lavado a presión, sin suturar de entrada, y amoxicilina con ácido clavulánico como antibiótico de elección."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si te llevas una sola idea de hoy: la herida sucia y el esquema incompleto son los que más piden inmunoglobulina, y un animal que no puedes observar se vacuna de inmediato. Con esto cerramos cirugía completa. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "ped-15",
+  "title": "Pediatria 18.15: Atención Inmediata del Recién Nacido & Reanimación Neonatal: Algoritmo AAP/AHA, Minuto de Oro y Test de APGAR",
+  "specialty": "Pediatría",
+  "chars": 9463,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido a la clase de atención inmediata del recién nacido y reanimación neonatal, uno de los temas de mayor rentabilidad del examen. Vas a aprender el algoritmo completo: qué preguntas te haces al nacer, cuándo empiezas a ventilar, cuándo agregas masaje cardíaco, y qué significa realmente el puntaje de Apgar. Todo se decide en el primer minuto de vida, así que prepárate para pensar rápido. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Al momento de nacer, te haces tres preguntas al mismo tiempo: ¿es una gestación de término? ¿tiene buen tono muscular? ¿respira o llora con fuerza?"
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si las tres respuestas son sí, el recién nacido no se separa de la madre: contacto piel a piel de inmediato, se seca, se abriga, y ahí mismo empieza la lactancia."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Pero si cualquiera de las tres respuestas es no, el niño va de inmediato a la cuna de calor radiante."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Ahí parten los pasos iniciales, y los haces en menos de treinta segundos: das calor, pones la cabeza en posición de olfateo, despejas la vía aérea solo si hay secreciones que obstruyen, secas retirando el paño húmedo, y estimulas la espalda o las plantas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Al minuto de vida evalúas dos parámetros. El primero es la frecuencia cardíaca: la auscultas durante seis segundos y multiplicas por diez."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo es el esfuerzo respiratorio. Si el niño está en apnea, o solo boquea, eso tampoco te sirve."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si la frecuencia cardíaca está bajo cien, o hay apnea, o boqueadas, inicias de inmediato la ventilación a presión positiva. No esperas nada más."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y aquí viene un detalle que se pregunta mucho: si el niño tiene treinta y cinco semanas o más, partes con aire ambiental, oxígeno al veintiuno por ciento. Jamás partas con oxígeno al cien por ciento en un recién nacido de término: el exceso daña por radicales libres."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Si es menor de treinta y cinco semanas, partes un poco más alto, entre veintiuno y treinta por ciento, y vas ajustando según la saturación preductal."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La ventilación se da con bolsa autoinflable o con reanimador en T, a una frecuencia de cuarenta a sesenta ventilaciones por minuto."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y pones el oxímetro de pulso en la mano o muñeca derecha, porque ahí mides la saturación preductal, la misma que le llega al cerebro y al corazón."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si a los quince segundos la frecuencia no sube y el tórax no se mueve, corriges en orden: ajustas la máscara, reposicionas la cabeza, succionas secreciones, abres la boca, y solo después subes la presión o buscas una vía aérea alternativa."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ya estás ventilando de forma efectiva por treinta segundos, con el tórax expandiéndose bien. Reevalúas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y la pregunta es: ¿la frecuencia cardíaca sigue bajo sesenta, a pesar de esa ventilación?"
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si la respuesta es sí, recién ahí agregas el masaje cardíaco, con la técnica de los dos pulgares en el tercio inferior del esternón, en una relación de tres compresiones por una ventilación."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y en ese momento subes la concentración de oxígeno al cien por ciento, algo que antes del masaje estaba prohibido."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si después de sesenta segundos de masaje coordinado con ventilación la frecuencia sigue bajo sesenta, recién ahí das adrenalina, por la vena umbilical."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Si nace con líquido con meconio, pero está vigoroso, con buen tono y respira, se queda con la madre en apego, igual que cualquier recién nacido sano."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Si en cambio nace deprimido, sin tono ni esfuerzo respiratorio, va a la cuna radiante e inicias la ventilación a presión positiva de inmediato. La norma cambió: ya no se intuba para aspirar la tráquea antes de ventilar, ese paso se sacó de la guía."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El Apgar evalúa cinco cosas, cada una de cero a dos puntos: el color, el pulso, la respuesta a estímulos, el tono muscular, y el esfuerzo respiratorio."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se calcula al minuto uno y a los cinco minutos de vida, y si a los cinco sigue bajo siete, se repite cada cinco minutos hasta los veinte."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y aquí está el dato que más se pregunta: el Apgar no decide cuándo empezar la reanimación. Esa decisión ya la tomaste al minuto de oro, con la frecuencia cardíaca y la respiración. El Apgar de los cinco minutos es el que tiene valor pronóstico."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora arma todo el algoritmo en un solo árbol de decisión. Tienes un recién nacido que no cumplió las tres preguntas iniciales, y ya está en la cuna de calor radiante."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Al minuto de vida te preguntas: ¿la frecuencia cardíaca está bajo cien, o está en apnea?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si ninguna de las dos cosas pasa, sigue con cuidados de rutina, junto a la madre."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si la respuesta es sí, inicias la ventilación a presión positiva, con aire ambiental si es de término."
+    },
+    {
+      "file": "s07_g04",
+      "text": "A los treinta segundos de una ventilación ya efectiva, reevalúas: ¿la frecuencia sigue bajo sesenta?"
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si no, sigues solo con la ventilación, reevaluando hasta que respire y la frecuencia suba."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si la respuesta es sí, agregas masaje cardíaco y subes el oxígeno al cien por ciento; si aun así persiste bajo sesenta, das adrenalina por la vena umbilical."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Recién nacido de término con frecuencia bajo cien al minuto: ventilación con aire ambiental. El error es partir con oxígeno al cien por ciento."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Frecuencia bajo sesenta, pero con una ventilación mal aplicada: corriges la técnica primero. El error es saltar directo al masaje."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Frecuencia bajo sesenta tras treinta segundos de ventilación efectiva: recién ahí masaje cardíaco. El error es seguir solo con ventilación varios minutos más."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Meconio con un recién nacido vigoroso: apego con la madre, sin aspirar. El error, ya superado, es aspirar la tráquea igual."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y un Apgar bajo a los cinco minutos tiene valor pronóstico, pero no inicia nada. El error es esperar el puntaje para decidir si reanimas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos al caso. Parto vaginal de una primigesta de treinta y nueve semanas. El recién nacido nace con llanto débil y tono flácido. Lo llevan a la cuna de calor radiante, lo secan, lo posicionan y lo estimulan. Al minuto de vida sigue en apnea, no llora, y la frecuencia cardíaca es de setenta y dos latidos por minuto."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta inmediata?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Tienes cinco opciones: compresiones torácicas, ventilación a presión positiva con aire ambiental, adrenalina por vena umbilical, oxígeno libre continuo al cien por ciento, o esperar al minuto cinco para calcular el Apgar. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Al minuto de vida, apnea y una frecuencia bajo cien te obligan a iniciar la ventilación a presión positiva ya, y como es un recién nacido de término, partes con aire ambiental. El masaje todavía no tiene espacio, porque no le has dado los treinta segundos de ventilación efectiva. Y esperar el Apgar es exactamente lo que nunca debes hacer."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Recién nacido de término, por parto vaginal, con líquido amniótico claro. Al nacer llora de inmediato, con una frecuencia de ciento cuarenta y cinco latidos por minuto, buen tono muscular y piel rosada."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la primera maniobra que realizas?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: aspiración rutinaria, contacto piel a piel, vitamina K intramuscular, profilaxis ocular, u oxígeno suplementario."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Las tres preguntas iniciales están en sí: es de término, tiene buen tono y llora fuerte. Con eso, no se aspira de rutina y no se separa de la madre: la primera prioridad es el apego precoz, piel a piel. La vitamina K y la profilaxis ocular vienen después."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una segunda pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Recién nacido de término que nace deprimido, con apnea y una frecuencia de cuarenta latidos por minuto. Lo estimulan, le dan oxígeno e inician ventilación a presión positiva. A los treinta segundos, la frecuencia se mantiene igual."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: adrenalina endovenosa, intubación orotraqueal, continuar solo con la ventilación, aumentar la presión de ventilación, o iniciar compresiones torácicas."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E. Ya se cumplieron los treinta segundos de ventilación a presión positiva y la frecuencia sigue bajo sesenta: ese es exactamente el momento de agregar el masaje cardíaco, coordinado con la ventilación. Seguir solo ventilando, como dicen la C y la D, ya no corresponde."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y una tercera pregunta real, del EUNACOM de agosto de dos mil veintiuno. Recién nacido por cesárea de urgencia, por hipoxia en el registro fetal. Está cianótico, hipotónico y sin esfuerzo respiratorio; lo secan y lo ponen bajo calor radiante, con oxígeno. A los cincuenta segundos sigue en apnea, con un pulso de treinta latidos por minuto."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada en este momento?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: ventilación mecánica, bicarbonato endovenoso, adrenalina orotraqueal, ventilación a presión positiva con mascarilla, o masaje cardíaco."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D. Aunque la frecuencia esté muy baja, el paso que corresponde ahora, después de la estimulación, es la ventilación a presión positiva con mascarilla. El masaje cardíaco, como en la pregunta anterior, solo se agrega si la frecuencia sigue bajo sesenta después de darle esa ventilación efectiva. Saltarse ese paso es la trampa de esta pregunta."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Al minuto de vida, frecuencia menor a cien o apnea: inicias ventilación a presión positiva de inmediato."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Y en el recién nacido de término, siempre con aire ambiental, nunca con oxígeno al cien por ciento de partida."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El masaje cardíaco solo entra si la frecuencia sigue bajo sesenta, después de treinta segundos de ventilación ya efectiva."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Y la adrenalina, por vena umbilical, queda para el final, si el masaje coordinado con la ventilación no basta."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Y el Apgar nunca decide si reanimas: eso ya lo decidiste con la frecuencia y la respiración. Si te llevas una sola idea de hoy: el orden es ventilar, después masajear, y adrenalina al final. Nos vemos en la próxima clase."
+    }
+  ]
+}

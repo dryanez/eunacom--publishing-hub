@@ -1,0 +1,244 @@
+{
+  "id": "ped-11",
+  "title": "Pediatria 18.11: Diarrea Aguda Infantil y Planes de Rehidratación Oral OMS (Plan A, B, C) y Síndrome Hemolítico Urémico",
+  "specialty": "Pediatría",
+  "chars": 10412,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la diarrea aguda del niño, la deshidratación y los planes de rehidratación de la Organización Mundial de la Salud. Es un tema que se pregunta muchísimo, porque no necesitas ningún examen de laboratorio para resolverlo: todo lo decides con la clínica. Vas a aprender a mirar a un niño y saber, sin exámenes, qué plan le corresponde, y también vas a aprender a reconocer una complicación grave que no te puedes perder. Empecemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Antes de ver los planes, aprende a mirar bien. La Organización Mundial de la Salud te da cuatro signos que resumen todo el examen, y el primero es la conciencia: alerta y despierto, o inquieto e irritable, o en el extremo, letárgico y difícil de despertar."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo son los ojos y las lágrimas: pueden estar normales, hundidos con pocas lágrimas, o muy hundidos y completamente secos."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El tercero es la boca y la sed: húmeda con sed normal, seca con sed ávida, o tan seca que ya no puede beber."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y el cuarto, el más conocido, es el signo del pliegue: tomas la piel del abdomen y ves qué tan rápido vuelve a su lugar. Rápido está bien, lento es sospechoso, y muy lento es grave."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Suma estos cuatro signos y clasificas el grado. Fíjate que no pediste ningún examen: todo esto lo defines con la clínica, al lado de la cama, en menos de un minuto de observación."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Si todo está normal, no hay deshidratación, y eso corresponde a menos del cinco por ciento del peso corporal perdido en líquidos."
+    },
+    {
+      "file": "s01_g06",
+      "text": "Si tiene al menos dos signos alterados, como estar inquieto, con ojos hundidos y que bebe con avidez, es una deshidratación moderada, entre el cinco y el diez por ciento."
+    },
+    {
+      "file": "s01_g07",
+      "text": "Y si está letárgico, con los ojos muy hundidos y no puede beber, es una deshidratación grave, más del diez por ciento, o incluso en shock. Cada uno de estos tres grados tiene su propio plan, y eso viene ahora."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Empecemos con el plan A, para el niño sin deshidratación. La primera regla es dar más líquido de lo habitual: sales de rehidratación oral después de cada deposición líquida."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La segunda regla es que sigas alimentando al niño con su dieta habitual, incluida la lactancia materna. El ayuno no ayuda: empeora la recuperación del intestino."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y la tercera regla es darle a la familia señales claras para volver: fiebre alta, sangre en las deposiciones, o vómitos tan repetidos que ya no puede beber nada."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y si lo notan con sed intensa, o si empieza a decaer, esos signos ya te están hablando de un grado mayor de deshidratación, y ahí no corresponde el plan A."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Antes de seguir con los planes, fíjate en la causa. En el lactante, el agente más frecuente es el rotavirus, sobre todo si no está vacunado."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y también compiten el norovirus, el adenovirus, y bacterias como el Campylobacter, la Salmonella y la Shigella. Pero para elegir el plan, lo que importa no es el agente: es el grado de hidratación que acabas de medir."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El plan B es para la deshidratación moderada, y este niño ya no se va a la casa: se queda en observación en el box."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La dosis es de sales de rehidratación oral, entre cincuenta y cien mililitros por kilo, repartidos en cuatro horas."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la técnica importa: se da con cucharita o jeringa, cada uno o dos minutos, en cantidades pequeñas para que el estómago lo tolere y no se dispare un nuevo vómito."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Ahora, ¿qué haces si vomita mucho, más de tres veces en una hora, y no logra tolerar nada por la boca?"
+    },
+    {
+      "file": "s04_g04",
+      "text": "Antes de puncionar una vena, instalas una sonda nasogástrica y pasas las mismas sales por gastroclisis, a veinte mililitros por kilo cada hora. Es un paso que muchos se saltan, y que el examen te pregunta."
+    },
+    {
+      "file": "s04_g05",
+      "text": "A las cuatro horas, reevalúas: si se hidrató, pasa a plan A y se va a la casa; si sigue igual, repites el plan B; y si empeora, sube al plan C."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El plan C es para la deshidratación grave o el shock, y aquí la vía es endovenosa de inmediato: Ringer lactato o suero fisiológico, cien mililitros por kilo en total."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Si el niño está en shock descompensado, primero pasas un bolo de veinte mililitros por kilo en diez a quince minutos, y reevalúas el pulso antes de seguir."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y el reparto del volumen cambia con la edad. En el lactante menor de un año, va treinta mililitros por kilo en la primera hora, y el resto en las cinco horas siguientes."
+    },
+    {
+      "file": "s05_g03",
+      "text": "En el niño de un año o más, el mismo treinta va en solo media hora, y el resto en dos horas y media. Apenas pueda beber, lo pasas a plan B."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Un dato que también se pregunta: las sales de rehidratación oral que usas hoy son de osmolaridad reducida, no la fórmula antigua y más concentrada."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Esa fórmula más diluida reduce el volumen de las deposiciones en cerca de un tercio, y además da menos vómitos que la fórmula antigua. Por eso es la que recomienda la Organización Mundial de la Salud."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Dos reglas de seguridad antes de cerrar. La primera: la loperamida y los antidiarreicos están prohibidos en niños, aunque la familia te la pida para que pare más rápido."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La razón es que frenan el tránsito intestinal y favorecen el íleo paralítico y el megacolon tóxico, además de dejar la toxina atrapada adentro en vez de eliminarla."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La segunda regla, más grave: si un niño tiene diarrea con sangre, típicamente tras comer carne molida mal cocida, sospecha la E. coli productora de toxina Shiga."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Esa infección puede evolucionar al síndrome hemolítico urémico: anemia hemolítica con esquistocitos, plaquetas bajas, y falla renal aguda con poca orina. En Chile, es la primera causa de injuria renal aguda en niños pequeños."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y aquí está la regla más preguntada de toda la clase: jamás des antibióticos en esta diarrea con sangre. Al matar a la bacteria, liberas de golpe toda la toxina Shiga a la sangre, y multiplicas el riesgo de que aparezca el síndrome hemolítico urémico. Tampoco transfundas plaquetas sin que haya un sangrado grave, porque alimentan los pequeños trombos que ya están dañando el riñón."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos los tres planes y la alerta del síndrome hemolítico urémico en un solo árbol. Tienes un niño con diarrea. Antes de cualquier examen, revisa cuatro signos: conciencia, ojos, boca y el pliegue cutáneo."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Súmalos y clasifica: sin deshidratación, moderada, o grave."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En la casa: más líquido de lo habitual, seguir con la alimentación de siempre, y pautas de alarma para volver."
+    },
+    {
+      "file": "s08_g03",
+      "text": "En el box, fraccionado con cucharita o jeringa. Si vomita mucho, sonda nasogástrica para gastroclisis antes de ir a la vena."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Cien mililitros por kilo, repartidos según la edad. Si hay shock, primero un bolo de veinte mililitros por kilo."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Anemia con esquistocitos, plaquetas bajas y poca orina tras una diarrea disentérica, casi siempre por carne mal cocida. Los antibióticos liberan más toxina y empeoran la falla renal."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos las trampas. Con deshidratación moderada: plan B, sales orales en cuatro horas. El error es saltarse directo a la vena."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si los vómitos son incoercibles en pleno plan B: sonda nasogástrica para gastroclisis. El error es ir directo a la vena sin probar este paso intermedio."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Diarrea con sangre y compromiso renal: sospecha síndrome hemolítico urémico. El error grave es dar antibióticos, porque empeora todo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y en cualquier diarrea aguda: sales de rehidratación y seguir alimentando. La loperamida es la trampa que nunca se marca como correcta."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Lactante de nueve meses, ocho kilos, con diarrea acuosa y vómitos desde hace doce horas. Al examen está irritable, con los ojos hundidos, la boca seca, y bebe agua con muchas ganas cuando se le ofrece. El pliegue cutáneo desaparece en un segundo y medio."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: plan A en la casa, plan B en el box, plan C con suero endovenoso, loperamida con control en cuarenta y ocho horas, o régimen cero por doce horas. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Cuenta los signos: irritable, ojos hundidos, sed intensa y pliegue lento. Con al menos dos de estos, ya es una deshidratación moderada, y el plan es el B: sales de rehidratación oral en el box, entre cincuenta y cien mililitros por kilo en cuatro horas. No está en shock ni letárgico, así que el plan C sería exagerado; y la loperamida y el ayuno son errores clásicos."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Niño de dos años con gastroenteritis aguda de veinticuatro horas, con vómitos y diarrea. Sin fiebre alta, sin sangre en las deposiciones, con las mucosas hidratadas, el llenado capilar normal, y orina presente."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el manejo más adecuado?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: hospitalización con suero endovenoso, sales de rehidratación oral fraccionadas en el domicilio, ayuno absoluto por seis horas, antibióticos orales empíricos, o loperamida. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Este niño no tiene ningún signo de deshidratación: mucosas húmedas, buen llenado capilar y sigue orinando. Le corresponde el plan A, en la casa, con sales de rehidratación oral fraccionadas. La loperamida está prohibida en menores de dos años, y el ayuno solo empeora la recuperación del intestino."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de dos años con diarrea con sangre desde hace cuatro días, tras comer una hamburguesa casera. Hoy está pálido, decaído, y orina muy poco. Los exámenes muestran hemoglobina de seis coma cinco, plaquetas de cuarenta y dos mil, creatinina de dos coma ocho, y esquistocitos abundantes en el frotis."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la sospecha diagnóstica, y qué tratamiento está contraindicado?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: invaginación intestinal con la ecografía contraindicada, síndrome hemolítico urémico con los antibióticos contraindicados, púrpura trombocitopénico con los corticoides contraindicados, apendicitis perforada con la laparotomía contraindicada, o sepsis bacteriana con la hidratación contraindicada. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. La combinación de diarrea con sangre, anemia con esquistocitos, plaquetas bajas y falla renal es exactamente el síndrome hemolítico urémico, gatillado por la toxina Shiga. Y lo que no puedes hacer nunca es dar antibióticos: matarías a la bacteria de golpe y liberarías más toxina a la circulación, empeorando la falla renal."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Sin deshidratación, plan A, en la casa, sin dejar de alimentar al niño."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Con deshidratación moderada, plan B, sales orales en cuatro horas, en el box."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Y con deshidratación grave o shock, plan C, endovenoso de inmediato."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Nunca loperamida en niños."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Y nunca antibióticos si sospechas síndrome hemolítico urémico, aunque la familia insista en que la diarrea con sangre necesita un antibiótico cuanto antes. Si te llevas una sola idea de hoy: la clínica te dice el grado, sin ningún examen, y el grado te dice el plan. Nos vemos en la próxima clase."
+    }
+  ]
+}

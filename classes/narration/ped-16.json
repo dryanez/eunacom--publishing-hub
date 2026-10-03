@@ -1,0 +1,152 @@
+{
+  "id": "ped-16",
+  "title": "Pediatria 18.16: Evaluación de la Edad Gestacional (Capurro/Ballard) & Clasificación Ponderal Neonatal",
+  "specialty": "Pediatría",
+  "chars": 5384,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido a la clase de evaluación de la edad gestacional y clasificación ponderal del recién nacido. Hoy vas a aprender a clasificarlo por su edad gestacional, a estimarla con el examen físico cuando no tienes una fecha confiable, y a cruzarla con el peso para anticipar sus complicaciones. Es la continuación natural de la clase anterior: ahí decidiste cómo nace; aquí decides qué vigilar después. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la edad gestacional. Pretérmino es nacer antes de las treinta y siete semanas. El extremo, antes de las veintiocho, es el de mayor riesgo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Y fíjate en el prematuro tardío, entre las treinta y cuatro y las treinta y seis semanas: es el más frecuente, cerca del setenta por ciento de los prematuros, y aun así tiene más riesgo que uno de término."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Término es entre las treinta y siete semanas y las cuarenta y uno más seis días. Es el rango de menor riesgo."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y postérmino es desde las cuarenta y dos semanas, con el riesgo de una placenta que ya no alcanza, líquido con meconio, y a veces macrosomía."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Cuando no tienes una fecha de última regla confiable ni una ecografía precoz, estimas la edad con el examen físico. El test de Capurro, desde las veintinueve semanas, evalúa cinco signos: la oreja, la mama, el pezón, la piel y los pliegues plantares."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y el test de Ballard, que además de lo físico suma signos neuromusculares como la postura o el ángulo poplíteo, lo usas de preferencia en el prematuro extremo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora cruzas el peso con la edad gestacional. Pequeño para la edad gestacional es estar bajo el percentil diez, y su riesgo cardinal es la hipoglicemia, porque el hígado se queda sin reserva de glucógeno."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Además tiene poca grasa parda, así que se enfría con facilidad, y suele tener poliglobulia, por la hipoxia crónica que vivió dentro del útero."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Adecuado para la edad gestacional es estar entre el percentil diez y el noventa: es donde está la mayoría, y el riesgo neonatal es bajo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y grande para la edad gestacional es estar sobre el percentil noventa. Aquí la hipoglicemia también es el riesgo cardinal, pero por otro mecanismo: hiperinsulinismo, típico del hijo de madre diabética."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y además tiene riesgo de trauma obstétrico: distocia de hombros, parálisis braquial, o fractura de clavícula."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora crucemos la edad gestacional con el peso en un solo árbol. Tienes un recién nacido recién examinado, con su edad gestacional y su peso de nacimiento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Primero ubicas la edad gestacional en su rango."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si es pretérmino, ahora ubicas el percentil de peso para esa edad."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Pretérmino y bajo el percentil diez es la combinación de mayor riesgo: hipoglicemia grave, hipotermia y enterocolitis."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Pretérmino pero sobre el percentil noventa te hace pensar en un hijo de madre diabética, con hipoglicemia por hiperinsulinismo."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si es de término o más, también ubicas el percentil de peso."
+    },
+    {
+      "file": "s04_g06",
+      "text": "De término pero bajo el percentil diez: vigilas hipoglicemia por falta de depósitos, aunque haya nacido a tiempo."
+    },
+    {
+      "file": "s04_g07",
+      "text": "De término y sobre el percentil noventa: vigilas trauma obstétrico, como la distocia de hombros, y también hipoglicemia por hiperinsulinismo."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos la matriz. Pretérmino y pequeño para la edad: el riesgo más alto de todos, hipoglicemia grave e hipotermia."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pretérmino adecuado: el riesgo principal es la dificultad respiratoria y la ictericia, por la sola inmadurez."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Término pero pequeño: hipoglicemia, aunque nazca a tiempo, porque los depósitos igual le faltaron."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Término y grande: el riesgo cambia a trauma del parto y a la hipoglicemia por hiperinsulinismo."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y el postérmino, sea cual sea su peso, tiene riesgo de aspiración meconial y de una piel ya descamada por el tiempo de más dentro del útero."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Recién nacido, parto vaginal a las treinta y cinco semanas, con un peso de dos mil ochocientos cincuenta gramos. Ese peso corresponde al percentil noventa y dos para su edad gestacional."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la clasificación correcta de este paciente?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Tienes cinco opciones: término pequeño, término adecuado, pretérmino grande, pretérmino adecuado, o postérmino grande. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la C. Treinta y cinco semanas es pretérmino, no término: ya puedes descartar dos opciones. Y un percentil noventa y dos está sobre el noventa, así que es grande para la edad gestacional, no adecuado. La clasificación cruzada correcta es pretérmino, grande para la edad gestacional."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Y una pregunta real, del EUNACOM de enero de dos mil veintitrés. Recién nacido pequeño para la edad gestacional, con un peso de dos mil quinientos gramos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Qué conducta tomas respecto de la alimentación?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: fórmula hipercalórica, sonda nasogástrica, ayuno de seis horas y luego fórmula de prematuro, pecho materno precoz con control de glicemia, o suero glucosado endovenoso."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la D. Ya sabes que el riesgo cardinal del pequeño para la edad gestacional es la hipoglicemia por falta de reservas. La conducta no es el ayuno ni la sonda: es alimentarlo precozmente al pecho materno y controlar la glicemia a las dos horas de vida."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Cerremos con las reglas de oro. Término es entre treinta y siete y cuarenta y uno más seis días; antes es pretérmino, después es postérmino."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Pequeño para la edad es bajo el percentil diez, grande es sobre el noventa, y adecuado queda entre esos dos."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El pequeño hace hipoglicemia por falta de reservas; el grande, por hiperinsulinismo. Si te llevas una sola idea de hoy: siempre cruzas la edad gestacional con el peso antes de decidir qué vigilar. Nos vemos en la próxima clase."
+    }
+  ]
+}

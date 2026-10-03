@@ -1,0 +1,312 @@
+{
+  "id": "gastro-14",
+  "title": "Gastroenterologia 3.2: Hepatitis Aguda y Crónica",
+  "specialty": "Gastroenterología",
+  "chars": 13827,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos hepatitis aguda y crónica, un tema de alta rentabilidad. Toda la clase gira en torno a un contraste: la hepatitis aguda mata rápido, la crónica mata lento. Y hay una tabla, la serología de la hepatitis B, que se pregunta literal en casi todos los exámenes. Al final la vas a saber leer sin memorizarla."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por la definición. Hepatitis es la elevación de las transaminasas por inflamación del hepatocito. Y el manejo universal, sea cual sea la causa, tiene tres pasos: identificarla, tratarla y dar soporte."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La primera pregunta es cuánto tiempo lleva, porque la división en seis meses no es académica: define el riesgo. La aguda dura menos de seis meses, y sus causas son los virus A, B y E, los herpesvirus, el alcohol, los fármacos y tóxicos como la Amanita phalloides."
+    },
+    {
+      "file": "s01_g02",
+      "text": "¿Y de qué muere el paciente con una hepatitis aguda? De hepatitis fulminante: encefalopatía, con desorientación, asterixis y sopor, que aparece dentro de las ocho semanas de iniciada la ictericia, en un hígado que antes estaba sano."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y aquí está el dato clave. Lo que se vigila es el tiempo de protrombina, o el INR. No la bilirrubina, y no el nivel de transaminasas. La protrombina es el marcador pronóstico, y también el criterio para derivar a trasplante. Esa trampa se pregunta."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La hepatitis crónica, en cambio, dura más de seis meses. Sus causas son la esteatohepatitis metabólica, los virus B y C, y la hepatitis autoinmune. No mata rápido: mata lento, por cirrosis, que es el tema de la próxima clase."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Por eso se evalúa distinto: con elastografía hepática o biopsia. Estas separan dos cosas: el grado de inflamación, que dice qué tan rápido avanza, y el estadio de fibrosis, que dice cuánto daño ya está hecho."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos a los virus, partiendo por la hepatitis A. Se transmite por vía fecal oral: agua y alimentos contaminados, contactos en jardines infantiles, o práctica sexual oro anal. En Chile es endémica, con brotes, y es de notificación obligatoria inmediata a la SEREMI de Salud."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La clínica es un pródromo de fiebre y malestar, y después ictericia, coluria y acolia. En los niños suele pasar sin ictericia."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El diagnóstico es la IgM anti hepatitis A, y es el primer examen que pides ante toda hepatitis aguda. Ojo: la IgG aislada solo indica infección pasada o vacunación."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Tiene formas atípicas: la colestásica, donde predominan la fosfatasa alcalina y la GGT; la recurrente, que recae a las cuatro a ocho semanas por un mecanismo inmune; y la fulminante, que es rara, cerca del cero coma uno por ciento."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Los contactos se manejan distinto según la cercanía. El contacto fuera de la casa recibe vacuna; el conviviente, inmunoglobulina más vacuna. Y desde dos mil dieciocho la vacuna está en el programa nacional, a los dieciocho meses."
+    },
+    {
+      "file": "s02_g05",
+      "text": "La hepatitis E se comporta igual que la A, con una excepción que se pregunta: en la embarazada, la falla hepática aguda tiene una letalidad de hasta un veinte por ciento."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La hepatitis B se transmite por vía sexual, que es la principal en el adulto, parenteral y vertical. En un accidente cortopunzante con una fuente positiva, el riesgo de contagio es cercano al treinta por ciento."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y fíjate en la historia natural, porque es exactamente al revés según la edad. El adulto sano cura en el noventa por ciento y cronifica solo en el diez. El recién nacido, en cambio, cronifica en más del noventa por ciento."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y el riesgo de fulminante es cercano al uno por ciento, diez veces el de la hepatitis A."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El brote agudo se maneja con soporte y vigilando la protrombina. La crónica tiene garantía GES: se deriva para carga viral, antígeno e, elastografía y antivirales, como tenofovir o entecavir."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Los contactos se vacunan, y si la exposición fue reciente, inmunoglobulina anti hepatitis B más vacuna."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y el recién nacido de madre con antígeno positivo recibe vacuna más inmunoglobulina en las primeras doce horas. La lactancia no se contraindica. Esa es otra trampa frecuente."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la serología, y la vamos a leer con solo dos preguntas. El antígeno de superficie responde si hay virus. La IgM anti core responde si es agudo. Con eso sale toda la tabla."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Antígeno de superficie positivo: hay virus. Si además la IgM anti core es positiva, es agudo. Eso es una hepatitis B aguda."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Antígeno positivo con IgM anti core negativa: hay virus, pero no es agudo. Eso es una hepatitis B crónica."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y la trampa: antígeno negativo, pero IgM anti core positiva. Es agudo, pero el antígeno ya se negativizó y los anticuerpos protectores todavía no aparecen. Es el período de ventana, y sigue siendo una infección aguda."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si el antígeno es negativo y hay anti superficie más anti core IgG, el paciente se infectó y se curó: infección resuelta."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y si solo tiene anti superficie, sin anti core, está inmune por vacuna. ¿Por qué? Porque la vacuna solo trae el antígeno de superficie. Si ves cualquier anticuerpo anti core, ese paciente estuvo infectado, no vacunado."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La hepatitis C se transmite por vía parenteral: drogas endovenosas, transfusiones anteriores a mil novecientos noventa y seis, y tatuajes o pírsines sin control."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Y al revés de la B en el adulto, rara vez da un cuadro agudo reconocible, y cronifica entre el ochenta y el noventa por ciento. Por eso casi siempre la encuentras como una hepatitis crónica."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El diagnóstico es en dos pasos. Primero, anticuerpos anti hepatitis C como tamizaje. Después, confirmación con ARN viral por PCR."
+    },
+    {
+      "file": "s05_g03",
+      "text": "¿Por qué hace falta el segundo paso? Porque un anticuerpo positivo con una PCR negativa es una infección pasada, ya resuelta. El anticuerpo solo no te dice si hay virus."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El tratamiento son los antivirales de acción directa, por ocho a doce semanas, con más de un noventa y cinco por ciento de curación. El interferón quedó obsoleto, y en Chile el tratamiento está garantizado, con meta de eliminación."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Pero ojo: si el paciente ya tenía cirrosis, la vigilancia de hepatocarcinoma con ecografía cada seis meses se mantiene, aunque el virus se haya erradicado. Curar el virus no borra la cirrosis."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Pasemos a las causas no virales de hepatitis aguda. La alcohólica se presenta con ictericia y hepatomegalia dolorosa en un bebedor."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Y su sello es de laboratorio: la relación AST sobre ALT mayor de dos, con ambas habitualmente bajo trescientos o cuatrocientos. Las virales o tóxicas, en cambio, pasan de mil. Se suman la GGT y el volumen corpuscular medio elevados."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La gravedad se estima con la función discriminante de Maddrey, que usa protrombina y bilirrubina. Si es grave o hay encefalopatía, se agregan corticoides, prednisolona, a la abstinencia y el soporte nutricional."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La hepatitis por fármacos la puede dar cualquier fármaco. El clásico es el paracetamol, que es dosis dependiente y tiene antídoto: la N acetilcisteína, útil incluso si se da de forma tardía."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Los antituberculosos, isoniazida, pirazinamida y rifampicina: se suspenden todos y se deriva. Otros clásicos son amoxicilina con clavulánico, estatinas, isotretinoína, antiepilépticos y nitrofurantoína."
+    },
+    {
+      "file": "s06_g05",
+      "text": "El diagnóstico es por descarte y por la relación temporal con el inicio del fármaco. Y la conducta es siempre la misma: suspenderlo de inmediato."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Y cerramos con las crónicas no virales. La esteatohepatitis metabólica, o NASH, es hoy la causa más frecuente de hepatopatía crónica. Aparece con resistencia a la insulina: obesidad, diabetes tipo dos, dislipidemia y síndrome metabólico."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La ecografía muestra un hígado brillante, y las transaminasas están levemente altas, con la relación AST sobre ALT menor de uno, al revés que en el alcohol. Es un diagnóstico de exclusión, y se trata con baja de peso de al menos siete a diez por ciento, ejercicio y control metabólico."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las autoinmunes se reconocen por el perfil. La hepatitis autoinmune: mujer con otra enfermedad autoinmune, como tiroiditis de Hashimoto, hipergammaglobulinemia y anticuerpos ANA, anti músculo liso o anti LKM uno. Se trata con corticoides y azatioprina."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La cirrosis biliar primaria: mujer de cuarenta a sesenta años con prurito y colestasia, es decir, fosfatasa alcalina y GGT altas con transaminasas normales, y anticuerpos antimitocondriales positivos. Se trata con ácido ursodesoxicólico."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y la colangitis esclerosante primaria: hombre joven con colitis ulcerosa y p ANCA, con una colangio resonancia que muestra la vía biliar en rosario, y riesgo de colangiocarcinoma."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Transaminasas elevadas. El eje que ordena toda la clase es si la hepatitis es aguda o crónica."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Lleva menos de seis meses de evolución?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "En la hepatitis aguda pedimos IgM anti hepatitis A, antígeno de superficie e IgM anti core de hepatitis B, y buscamos alcohol y fármacos."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El riesgo es la hepatitis fulminante. ¿Hay encefalopatía, o el tiempo de protrombina está alterado?"
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si la protrombina cae, se hospitaliza para vigilar. Y si además hay encefalopatía, es una hepatitis fulminante: derivación a centro de trasplante."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si no, soporte y tratar la causa: suspender el fármaco sospechoso, y en el paracetamol dar N acetilcisteína."
+    },
+    {
+      "file": "s08_g06",
+      "text": "La hepatitis crónica mata por cirrosis. Buscamos virus B y C, esteatohepatitis y autoinmunes. Las hepatitis B y C crónicas tienen garantía GES: derivar para carga viral, elastografía y antivirales."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos la serología en una tabla. Antígeno positivo e IgM anti core positiva: hepatitis B aguda, y se vigila con la protrombina."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Antígeno positivo e IgM negativa: hepatitis B crónica, que se deriva por GES."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Antígeno negativo con IgM positiva: período de ventana. No te confundas por el antígeno negativo: sigue siendo una infección aguda."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Anti superficie con anti core IgG: infección resuelta. Estuvo infectado y se curó."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y anti superficie aislado: inmune por vacuna. La vacuna nunca genera anti core."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Hombre de cincuenta y dos años, bebedor habitual, con ictericia y dolor en el hipocondrio derecho. Tiene una hepatomegalia dolorosa. En el laboratorio, AST de doscientos sesenta y ALT de cien, GGT muy elevada y volumen corpuscular medio de ciento cuatro. La IgM anti hepatitis A y el antígeno de superficie B son negativos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las alternativas: hepatitis A aguda, hepatitis alcohólica, esteatohepatitis metabólica, hepatitis autoinmune, o hepatitis B en período de ventana. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Haz la división: doscientos sesenta sobre cien, la relación es mayor de dos, con transaminasas bajo trescientos, y GGT y volumen corpuscular elevados. Es el sello del alcohol. La NASH tienta porque también es un hígado graso, pero ahí la relación es menor de uno. Y para hablar de ventana necesitas una IgM anti core positiva, que aquí no está."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y ahora preguntas reales. Esta es del EUNACOM de julio de dos mil quince. Una paciente se hace exámenes porque su pareja fue diagnosticada de hepatitis B. Tiene antígeno de superficie negativo y anticuerpos anti superficie positivos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: vacunada, hepatitis B aguda, hepatitis B crónica, período de ventana, o infección asintomática. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La respuesta es la A, vacunada. Aplica las dos preguntas: el antígeno negativo dice que no hay virus, y el anti superficie dice que está inmune. Como no hay anti core, esa inmunidad viene de la vacuna. El período de ventana tienta por el antígeno negativo, pero exige una IgM anti core positiva."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Esta es del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta años con diez días de astenia, fiebre y dolor epigástrico, que hace dos días se puso ictérica. Está lúcida, sin signos peritoneales. Transaminasas sobre dos mil, bilirrubina de nueve, protrombinemia de cincuenta y dos por ciento, e IgM anti hepatitis A positiva."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: reposo en domicilio, hospitalizar, ecografía y control ambulatorio, colangio resonancia, o N acetilcisteína. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, hospitalizar. Es una hepatitis A, y la tentación es mandarla a la casa porque la A se resuelve sola. Pero mira la protrombina: cincuenta y dos por ciento. Todavía no hay encefalopatía, así que no es fulminante, pero el tiempo de protrombina es justamente el marcador que vigilamos, y está cayendo. Ni las transaminasas sobre dos mil ni la bilirrubina deciden aquí: decide la protrombina."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y la última, del EUNACOM de diciembre de dos mil diecinueve. Mujer de veinte años que hace diez días toma isotretinoína por acné, y consulta por dolor abdominal, astenia e ictericia. Transaminasas de trescientos a cuatrocientos, protrombina normal. En la serología: IgG anti hepatitis A positiva con IgM negativa, antígeno de superficie negativo y anti core totales positivos. Hepatitis C y autoinmunidad, pendientes."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: hepatitis A, hepatitis B, hepatitis C, hepatitis por fármacos, o hepatitis autoinmune. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D, hepatitis por fármacos. Esta pregunta está armada con serologías que distraen. La IgG de la A solo dice contacto pasado. El anti core positivo tienta hacia la B, pero sin antígeno de superficie no hay virus: es una exposición antigua. Descartados los virus, queda la relación temporal con un fármaco hepatotóxico conocido. Y la conducta, suspenderlo de inmediato."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. La hepatitis aguda mata por fulminante, y se vigila con el tiempo de protrombina."
+    },
+    {
+      "file": "s14_g01",
+      "text": "La crónica mata por cirrosis, se evalúa con elastografía o biopsia, y las hepatitis B y C crónicas tienen garantía GES."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En la serología B, el antígeno de superficie dice que hay virus, y la IgM anti core dice que es agudo. Antígeno positivo con IgM negativa, crónica."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Cualquier anti core significa que estuvo infectado; el anti superficie aislado, que está vacunado."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Relación AST sobre ALT mayor de dos: alcohol. Paracetamol: N acetilcisteína. Y ante cualquier fármaco sospechoso, suspenderlo."
+    },
+    {
+      "file": "s14_g05",
+      "text": "La hepatitis C se confirma con PCR y hoy se cura. Si te llevas una sola idea de hoy: en la aguda manda la protrombina, y en la serología B, el antígeno dice si hay virus y la IgM dice si es agudo. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "ped-20",
+  "title": "Pediatria 18.20: Hipoglicemia Neonatal, Hipocalcemia & Trastornos Metabólicos del Neonato",
+  "specialty": "Pediatría",
+  "chars": 7768,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la hipoglicemia neonatal y, junto a ella, la hipocalcemia del recién nacido. Es un tema que se pregunta seguido, y se ordena con una sola pregunta: tiene síntomas o no. Esa pregunta te va a decidir todo lo que viene. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el mecanismo, porque te va a explicar a quién le pides el examen. Hay dos caminos para llegar a la hipoglicemia. El primero es tener casi nada guardado: eso pasa en el prematuro, en el niño pequeño para su edad gestacional, y en el que sufrió asfixia al nacer."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo camino es al revés: el hijo de madre diabética trae la insulina muy alta, porque se acostumbró a la glucosa extra que le llegaba de su mamá. Al cortar el cordón, esa insulina se queda circulando y le consume la glucosa mucho más rápido de lo normal."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y aquí está la clave que explica por qué esto es urgente: el cerebro del recién nacido no fabrica ni guarda su propia glucosa. Vive del azúcar que circula en ese momento. Si se le acaba, no tiene ningún plan B."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Por eso se fija un corte: hablamos de hipoglicemia cuando la glicemia baja de cuarenta y cinco miligramos por decilitro. Fíjate en un detalle que se pregunta: en las primeras cuatro horas de vida el corte es un poco más bajo, cuarenta, porque toda guagua tiene una caída fisiológica al nacer."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Ahora, ¿cómo se te presenta? Con temblores finos, succión débil, decaimiento, o episodios de apnea. Pero acuérdate de esto: la mayoría de los recién nacidos de riesgo no tiene ningún síntoma. Por eso a estos grupos les tomas el examen aunque se vean perfectos."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y si esa glicemia baja se mantiene o se repite, el riesgo ya no es un temblor: son convulsiones, y un daño en el cerebro que después no se revierte. Por eso no se trata de esperar a ver qué pasa."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos al manejo, escalón por escalón. Si el recién nacido está sin síntomas y la glicemia está entre treinta y cinco y cuarenta y cuatro, tu primer paso no es el suero: es alimentarlo de inmediato, al pecho o con fórmula."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y controlas la glicemia entre treinta y sesenta minutos después. Si se normaliza, sigues con tomas frecuentes y controles antes de cada una."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Pero si tiene síntomas, o la glicemia ya está bajo treinta y cinco, aquí no hay tiempo para esperar que coma: es un bolo endovenoso de suero glucosado al diez por ciento, dos mililitros por kilo, pasado lento en cinco minutos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y ese bolo siempre va seguido de una infusión continua, para no dejarlo caer de nuevo apenas se le pase el efecto."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y una trampa clásica: nunca le pases un bolo de suero glucosado al veinte o al cincuenta. Suena más potente, pero le dispara la insulina de rebote y lo deja peor. El bolo siempre es al diez."
+    },
+    {
+      "file": "s03_g00",
+      "text": "De la mano con la glicemia va el calcio. Hablamos de hipocalcemia con un calcio bajo siete en el prematuro, o bajo ocho en el recién nacido de término."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La forma precoz aparece en las primeras setenta y dos horas, y fíjate que comparte exactamente los mismos grupos de riesgo: el prematuro, el asfixiado, y el hijo de madre diabética."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si le da temblores, o el electrocardiograma muestra el intervalo prolongado, el tratamiento es gluconato de calcio al diez por ciento, uno a dos mililitros por kilo, endovenoso lento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y nunca lo pases sin monitor: si se lo das rápido, le puede provocar una bradicardia severa. Este dato del monitor es justo lo que más te van a preguntar aquí."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora ordenemos todo esto en un solo árbol de decisión. Recién nacido de un grupo de riesgo, con hemoglucotest bajo el corte. La pregunta que decide todo es si tiene síntomas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Primero preguntas si hay síntomas neurológicos. La respuesta te separa en dos caminos completamente distintos."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Sin síntomas y con una glicemia entre treinta y cinco y cuarenta y cuatro: alimentas de inmediato, y controlas en treinta a sesenta minutos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si tras alimentar la glicemia sigue baja, cambias de camino."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Si se corrigió, mantienes tomas frecuentes con controles preprandiales."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si persiste baja, ya no insistes con la vía oral: pasas a la vía endovenosa."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Con síntomas, o una glicemia bajo treinta y cinco, es una urgencia: bolo endovenoso de suero glucosado al diez por ciento."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Y siempre sigue con una infusión continua, para sostener la glicemia sobre el corte de seguridad."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos con una tabla. Riesgo, sin síntomas, glicemia entre treinta y cinco y cuarenta y cuatro: alimentas y controlas. El error es saltarte ese paso y pasar suero de entrada."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Con síntomas, o glicemia bajo treinta y cinco: bolo de suero glucosado al diez y luego infusión. El error contrario es intentar solo alimentarlo y esperar."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En cualquier bolo, siempre al diez por ciento. Usar uno al veinte o al cincuenta es el error que más se repite en este tema."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y en la hipocalcemia con síntomas: gluconato de calcio, siempre con monitor cardíaco. Pasarlo rápido y sin vigilancia es lo que causa la bradicardia."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con el caso. Recién nacido de treinta y nueve semanas, hijo de madre con diabetes gestacional en tratamiento con insulina, nacido por cesárea con cuatro mil trescientos cincuenta gramos. A las dos horas de vida tiene temblores finos, succión débil y algo de hipotonía. El hemoglucotest marca treinta y dos, confirmado con glicemia venosa en treinta."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Tienes cinco opciones: pecho materno y control en dos horas, bolo de suero glucosado al diez con infusión, bolo rápido de suero al cincuenta, solo observar porque es esperable, o hidrocortisona de entrada. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la B. Este paciente ya tiene síntomas y una glicemia bien baja: no es momento de esperar a ver si come. Va bolo de suero glucosado al diez, dos mililitros por kilo en cinco minutos, y de inmediato la infusión continua. El suero al cincuenta es la trampa: parece más potente, pero dispara la insulina de rebote. Y observar sin tratar, con temblores y succión débil, es dejarlo avanzar hacia el daño que veníamos explicando."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Recién nacido pequeño para la edad gestacional, con dos mil quinientos gramos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Qué conducta tomar en relación a la alimentación?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: fórmula hipercalórica, sonda nasogástrica, ayuno de seis horas y fórmula de prematuro, pecho materno precoz con control en dos horas, o suero glucosado endovenoso de entrada."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la D. Fíjate que este recién nacido no tiene ningún síntoma: solo tiene el factor de riesgo, el bajo peso. Y ese es justo el escenario del primer escalón que vimos: no partes con suero, partes alimentando precoz y controlando la glicemia a las dos horas. El suero endovenoso de entrada es la trampa, porque se salta un paso que aquí es innecesario."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Recién nacido de término, hijo de madre con preeclampsia, que pesa dos mil seiscientos gramos al nacer."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la complicación más frecuente durante las primeras horas de vida?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: hipoglicemia, sepsis, hiperbilirrubinemia, anemia, o distrés respiratorio."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A. Con la preeclampsia de la madre, este recién nacido nació chico para su edad gestacional, y ya sabes lo que eso significa: reservas casi en cero. La trampa aquí es la anemia. El pequeño para la edad gestacional no se pone anémico, se pone policitémico, así que la anemia queda descartada, y la respuesta es la hipoglicemia."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. La pregunta que ordena todo es si hay síntomas. Sin síntomas y entre treinta y cinco y cuarenta y cuatro: alimentas y controlas."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Con síntomas, o bajo treinta y cinco: bolo de suero glucosado al diez, y de inmediato la infusión continua."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Nunca uses suero al veinte o al cincuenta en bolo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y nunca pases el gluconato de calcio sin monitor cardíaco."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si te llevas una sola idea de hoy: hipoglicemia e hipocalcemia comparten los mismos grupos de riesgo, y en los dos casos, el síntoma es lo que te obliga a actuar rápido. Nos vemos en la próxima clase."
+    }
+  ]
+}

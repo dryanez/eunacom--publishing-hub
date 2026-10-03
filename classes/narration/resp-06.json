@@ -1,0 +1,276 @@
+{
+  "id": "resp-06",
+  "title": "Neumología 2.1: Neumonía Adquirida en la Comunidad (NAC): Diagnóstico y Severidad CURB-65",
+  "specialty": "Neumología",
+  "chars": 12108,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Abrimos el bloque de infecciones respiratorias bajas con la neumonía adquirida en la comunidad, un tema central de medicina interna que aparece en todos los exámenes. Esta clase responde dos preguntas: cómo se confirma el diagnóstico y dónde se trata al paciente, en su casa, en una sala o en intensivo. El antibiótico lo vemos en detalle en la próxima clase, pero ya vas a ver que depende de lo que decidamos hoy."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La neumonía adquirida en la comunidad, o NAC, es una infección aguda del parénquima pulmonar adquirida fuera del hospital."
+    },
+    {
+      "file": "s01_g01",
+      "text": "También cuenta la que se manifiesta en las primeras cuarenta y ocho horas del ingreso, porque ya venía incubándose desde la casa. Pasadas las cuarenta y ocho horas es otra enfermedad, la neumonía intrahospitalaria, con otros gérmenes. La veremos en dos clases más."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Es la principal causa de muerte por enfermedad infecciosa en los adultos mayores en Chile. Por eso el Estado la garantiza."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La NAC en personas de sesenta y cinco años y más es patología GES. Ante la sospecha, el paciente tiene derecho a la confirmación con radiografía."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y a iniciar el antibiótico en menos de veinticuatro horas desde el ingreso. El corte de sesenta y cinco años y las veinticuatro horas se preguntan."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El germen más frecuente, en todas las edades y en todas las gravedades, es el neumococo, Streptococcus pneumoniae. Explica más de la mitad de las neumonías bacterianas identificadas. Si te preguntan el agente más probable y no hay ninguna pista especial, es el neumococo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Después, el paciente te da pistas. En el adulto joven y sano destacan Mycoplasma pneumoniae y los virus respiratorios: influenza, virus respiratorio sincicial y SARS coronavirus dos."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En el adulto mayor, el fumador o el paciente con EPOC, se suman Haemophilus influenzae y Moraxella catarrhalis. Son los mismos gérmenes de la exacerbación de EPOC que vimos la clase pasada."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y en el paciente con demencia o trastornos de la deglución, hay que sospechar una neumonía aspirativa, por anaerobios de la boca y bacilos gramnegativos entéricos."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El paciente típico consulta por fiebre y tos con expectoración, a veces herrumbrosa, con dolor en puntada de costado. Al examen hay crépitos localizados, y en la condensación franca, matidez y aumento de la transmisión de las vibraciones vocales."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Pero la clínica solo hace sospechar. La confirmación exige siempre una radiografía de tórax, idealmente en proyección frontal y lateral."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Lo que confirma la neumonía es algo nuevo en la imagen: una condensación alveolar, un broncograma aéreo o un infiltrado intersticial. Con eso, la NAC está confirmada, y la siguiente pregunta es dónde tratarla."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Ojo con los distractores. La proteína C reactiva y la procalcitonina apoyan, el cultivo de expectoración no es imprescindible para partir el tratamiento ambulatorio, y la TAC no es el examen de entrada. El examen indispensable es la radiografía."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Para decidir dónde se trata se usa el CURB sesenta y cinco, de la Sociedad Británica del Tórax. Son cinco criterios, y cada uno suma un punto. La C es confusión: desorientación en tiempo y espacio de inicio agudo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La U es la urea: sobre cuarenta y dos miligramos por decilitro, o un nitrógeno ureico en sangre sobre diecinueve."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La R es la frecuencia respiratoria de treinta o más por minuto."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La B, de presión arterial en inglés, es una sistólica bajo noventa o una diastólica de sesenta o menos."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y el sesenta y cinco es la edad, de sesenta y cinco años o más. Fíjate en un detalle que después te va a servir: es el único criterio que no mide la gravedad del cuadro, sino el terreno."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El puntaje predice la mortalidad a treinta días, y con eso decide el lugar de tratamiento."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Con cero o un punto, el riesgo es bajo, con una mortalidad cercana al uno o dos por ciento, y el manejo es ambulatorio. Y aquí vuelve el detalle de la edad: si el único punto es tener sesenta y cinco años o más, el paciente puede irse a su casa, siempre que no tenga hipoxemia ni riesgo social. Esa es la pregunta más clásica del tema."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con dos puntos, el riesgo es moderado, la mortalidad sube a cerca de nueve por ciento, y se hospitaliza en una sala general, o en una unidad de corta estancia supervisada."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Con tres o más, es una neumonía grave. Con tres puntos se hospitaliza en sala o en intermedio, evaluando los criterios de ingreso a intensivo. Y con cuatro o cinco, donde la mortalidad llega al cuarenta por ciento, el ingreso a la unidad de cuidados intensivos es inmediato."
+    },
+    {
+      "file": "s06_g00",
+      "text": "En atención primaria muchas veces no tienes el laboratorio a mano. Por eso existe el CRB sesenta y cinco: el mismo puntaje, pero sin la urea. Solo clínica, que puedes medir en el box."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Con cero puntos, el manejo ambulatorio es seguro."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Con uno o dos puntos, se sugiere derivar para una evaluación en el hospital, donde se completa el puntaje y el juicio clínico."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y con tres o más, la hospitalización es urgente."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El CURB sesenta y cinco predice mortalidad, pero no reemplaza el juicio clínico para decidir intensivo. Para eso están los criterios de las sociedades americanas del tórax y de infectología. Hay dos criterios mayores, y basta uno para ingresar directo a la unidad de cuidados intensivos. El primero, shock séptico que necesita vasopresores."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El segundo, insuficiencia respiratoria que necesita intubación y ventilación mecánica invasiva."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Los menores se suman, y se necesitan tres. Frecuencia respiratoria de treinta o más, una relación entre la presión arterial de oxígeno y la fracción inspirada de doscientos cincuenta o menos, infiltrados multilobares y confusión."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Además, nitrógeno ureico de veinte o más, leucopenia bajo cuatro mil, plaquetas bajo cien mil, hipotermia bajo treinta y seis grados, e hipotensión que necesita reanimación agresiva con fluidos."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La trampa típica es tomar uno de estos como si fuera mayor. Una frecuencia respiratoria de treinta y cinco, sola, no manda a intensivo: los mayores son solo el shock con vasopresores y la necesidad de intubar."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Última pieza: el seguimiento. Un paciente con antibiótico adecuado debería estar sin fiebre a las setenta y dos horas. Si la fiebre persiste, algo se complicó."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La conducta obligatoria es repetir la radiografía o pedir una TAC de tórax. Cambiar el antibiótico a ciegas, sin buscar la causa, es el error."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Lo que se busca, antes que nada, es un derrame paraneumónico complicado o un empiema. También un absceso pulmonar o una infección por gérmenes resistentes. Esas supuraciones son tema de las próximas clases."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y un dato concreto: todo derrame paraneumónico de más de diez milímetros de espesor en la radiografía en decúbito lateral tiene indicación de toracocentesis diagnóstica precoz."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Juntemos todo en el árbol que vas a recorrer frente a cada paciente con sospecha de neumonía. Paciente con fiebre, tos con expectoración y crépitos localizados. Primero se confirma, después se decide el lugar."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La radiografía de tórax es obligatoria. ¿Muestra una condensación o un infiltrado nuevo?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si no hay infiltrado nuevo, no es una neumonía, y hay que buscar otro diagnóstico."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Con la neumonía confirmada, lo primero es descartar lo más grave: ¿tiene shock con vasopresores o necesita intubación?"
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si tiene un criterio mayor, va directo a intensivo, sin importar el puntaje."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si no, se suma el CURB sesenta y cinco: confusión, urea, frecuencia respiratoria, presión y edad."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Cero o un punto, incluido el punto por edad en un paciente estable: tratamiento ambulatorio y control a las cuarenta y ocho horas."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Dos puntos: hospitalización en sala general."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Tres o más: evaluar intensivo con los criterios menores; con cuatro o cinco, ingreso inmediato a la unidad de cuidados intensivos."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Repasemos la tabla del CURB sesenta y cinco. Cero puntos: mortalidad bajo el uno por ciento, manejo ambulatorio."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Un punto: mortalidad de dos por ciento, ambulatorio. La trampa es hospitalizar a un paciente estable solo por tener sesenta y cinco años."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Dos puntos: la mortalidad sube a nueve por ciento, y se hospitaliza en sala general."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Tres puntos: sala o intermedio, evaluando los criterios americanos para intensivo."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Cuatro o cinco puntos: cuatro de cada diez mueren, y el ingreso a intensivo es inmediato. Y recuerda que un solo criterio mayor, shock con vasopresores o necesidad de intubar, manda a intensivo con cualquier puntaje."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos al caso. Mujer de setenta y dos años que consulta en el CESFAM por dos días de fiebre y tos con expectoración herrumbrosa. Está orientada, con frecuencia respiratoria de veinticuatro, presión de ciento treinta con ochenta y saturación de noventa y cinco por ciento. Tiene crépitos en la base derecha, un nitrógeno ureico de catorce, y la radiografía muestra una condensación del lóbulo inferior derecho. Tiene buena red de apoyo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es su puntaje CURB sesenta y cinco y la conducta?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: cero puntos y sin antibiótico, un punto y manejo ambulatorio con control en cuarenta y ocho horas, dos puntos y sala, un punto pero hospitalizar por la edad, o tres puntos e intensivo. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Cuenta criterio por criterio: está orientada, el nitrógeno ureico es normal, respira a veinticuatro, que no llega a treinta, y la presión es normal. El único punto es la edad. La D es el distractor tentador, pero el punto por edad, en una paciente estable, sin hipoxemia y con apoyo, no obliga a hospitalizar. Se trata en su casa, con amoxicilina y ácido clavulánico por GES, y control a las cuarenta y ocho horas."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Paciente con EPOC, fumador, con tres días de más disnea, expectoración y sensación febril, y desde hace un día, dolor en puntada de costado. Tiene treinta y ocho coma uno de temperatura, y al examen, crepitaciones en la cara lateral del hemitórax derecho con matidez. Se pide una radiografía."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: tuberculosis, derrame pleural, neumonía, tromboembolismo pulmonar o cáncer bronquial. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, neumonía. Fiebre aguda, puntada de costado, crepitaciones localizadas y matidez es la condensación clásica, y la radiografía la confirma. El distractor es el derrame, por la matidez; pero la fiebre aguda con crepitaciones localizadas habla de condensación. Y fíjate en la trampa del antecedente: un EPOC con más disnea no siempre es una exacerbación. El foco localizado con fiebre obliga a pensar en neumonía."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de sesenta años con fiebre, tos y expectoración mucopurulenta, que llega a la urgencia con dificultad respiratoria. Frecuencia respiratoria de treinta y tres, presión de cien con sesenta, condensación de los lóbulos medio e inferior derechos, y una saturación de ochenta y tres que solo sube a noventa con mascarilla."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el tratamiento antibiótico de elección?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: cefepime más amikacina, ceftriaxona más clindamicina, cloxacilina más metronidazol, cefotaximo más moxifloxacino, o piperacilina con tazobactam. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D. Primero la gravedad: frecuencia sobre treinta, diastólica de sesenta, dos lóbulos y una insuficiencia respiratoria que casi no responde al oxígeno. Es una NAC de intensivo. Y en intensivo se da una cefalosporina de tercera generación, cefotaximo o ceftriaxona, más una quinolona respiratoria o un macrólido. La E tienta porque es de amplio espectro, pero la cobertura antipseudomónica es para la neumonía intrahospitalaria."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. La NAC se confirma siempre con radiografía de tórax: un infiltrado nuevo. Y el germen más frecuente es el neumococo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En sesenta y cinco años y más es GES, con antibiótico en menos de veinticuatro horas."
+    },
+    {
+      "file": "s14_g02",
+      "text": "CURB sesenta y cinco: cero o uno, a la casa; dos, a sala; tres o más, evaluar intensivo. Y si el único punto es la edad, en un paciente estable, se trata ambulatorio."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Un solo criterio mayor de los americanos, shock con vasopresores o necesidad de intubar, manda directo a intensivo."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Y si a las setenta y dos horas sigue con fiebre, nueva imagen para buscar un derrame complicado o un empiema. En la próxima clase vemos qué antibiótico va en cada uno de estos lugares. Si te llevas una sola idea de hoy: la radiografía confirma la neumonía, y el CURB sesenta y cinco decide dónde se trata. Nos vemos en la próxima clase."
+    }
+  ]
+}

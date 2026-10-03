@@ -1,0 +1,200 @@
+{
+  "id": "ob-19",
+  "title": "Obstetricia 19.19: Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso)",
+  "specialty": "Obstetricia",
+  "chars": 7459,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la fiebre puerperal, y son en realidad dos temas que conviene separar: la endometritis, que es la causa más frecuente de fiebre después del parto, y la patología de la mama, que confunde mucho porque tiene tres caras distintas. Vas a salir sabiendo tratar cada una, y con una regla de oro que se te va a quedar grabada. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por lo básico. Tienes fiebre puerperal cuando tu paciente marca treinta y ocho grados o más, en dos tomas separadas por varias horas, después del primer día postparto. Lo primero que haces es buscar el foco."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si el útero está doloroso y subinvolucionado, con loquios de mal olor, tu foco está en el útero: es una endometritis."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y si en cambio hay una mama roja, caliente y dolorosa, el foco es mamario. Aquí tienes que distinguir tres cuadros distintos, y eso es justo lo que viene ahora."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Vamos con la endometritis. El factor de riesgo más importante, con diferencia, es la cesárea, sobre todo la de urgencia. Súmale el trabajo de parto prolongado y la rotura de membranas de muchas horas."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Aparece típicamente entre el segundo y el cuarto día. Tu paciente tiene fiebre con calofríos, y el útero le duele al palparlo."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El útero está más blando y más grande de lo esperado, y salen loquios turbios, achocolatados, con un olor muy fétido. Esa combinación es la que te confirma el diagnóstico."
+    },
+    {
+      "file": "s03_g00",
+      "text": "No se maneja en la casa: hospitalizas siempre, por el riesgo de que se complique con una sepsis. El esquema de elección es clindamicina más gentamicina, endovenosas, que juntas cubren la flora polimicrobiana de este cuadro."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Mantienes el esquema hasta que tu paciente lleve cuarenta y ocho horas sin fiebre. Y fíjate en un detalle que se pregunta: si respondió bien, no necesitas mandarla a la casa con antibióticos orales."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la mama, con tres cuadros que tienes que separar. El primero, la congestión, aparece con la bajada de leche, en los primeros días. Las dos mamas están duras y tensas, pero sin fiebre significativa ni enrojecimiento focal."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Se maneja sin ningún antibiótico: vaciamiento frecuente, calor local, y seguir dando pecho a libre demanda. Es fisiológico, no una infección."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La mastitis infecciosa aparece más tarde, entre la segunda y la cuarta semana, y solo en una mama. Ves una placa roja, caliente y muy dolorosa, casi siempre en el cuadrante superior externo, con fiebre alta y calofríos."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se trata con antibióticos orales contra el estafilococo dorado, como cloxacilina o cefadroxilo, por diez a catorce días."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y aquí está la regla de oro que más se pregunta: jamás suspendas la lactancia. Al contrario, tienes que mantener el amamantamiento y el vaciamiento completo, porque la leche estancada es justo lo que forma un absceso."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Y el tercer cuadro es su complicación: el absceso mamario, cuando la mastitis no se trató a tiempo o no respondió."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se palpa una masa que fluctúa, y la ecografía mamaria confirma la colección líquida."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El tratamiento es drenarlo, junto con antibióticos. Hoy se prefiere la punción guiada por ecografía, salvo que haya compromiso de la piel, donde vas directo al drenaje quirúrgico con incisión."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora pongamos la fiebre puerperal en un solo árbol de decisión. Tu paciente tiene fiebre después del parto. Antes de tratar nada, buscas dónde está el foco."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿El dolor está en el útero, o en una mama?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Útero doloroso, subinvolucionado, con loquios fétidos: es endometritis."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Hospitalizas siempre, con clindamicina más gentamicina hasta cuarenta y ocho horas afebril."
+    },
+    {
+      "file": "s07_g04",
+      "text": "¿Es una sola mama con fiebre alta, o ambas mamas sin fiebre significativa?"
+    },
+    {
+      "file": "s07_g05",
+      "text": "Ambas mamas duras, sin fiebre: es congestión, se trata sin antibióticos."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Con una mama roja y fiebre, revisa si hay una masa que fluctúa."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Sin masa fluctuante, es mastitis: cloxacilina, y nunca suspendes la lactancia."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Con masa fluctuante, es un absceso: lo confirmas con ecografía y lo drenas."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos en una tabla. La congestión aparece en los primeros días, en ambas mamas, y se trata sin antibióticos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La mastitis infecciosa aparece más tarde, en una sola mama, y se trata con cloxacilina, manteniendo siempre la lactancia."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y el absceso es una mastitis que no respondió: se confirma con ecografía y se drena."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Una puérpera de tres días, después de una cesárea de urgencia por rotura de membranas prolongada, tiene fiebre de treinta y ocho coma siete, dolor abdominal bajo, y un útero doloroso y subinvolucionado, con loquios achocolatados y de mal olor."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: manejo ambulatorio con amoxicilina, hospitalizar con clindamicina y gentamicina, dar ciprofloxacino en la casa, suspender la lactancia mientras se estudia, o pedir una ecografía mamaria antes de decidir. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Todo apunta a una endometritis puerperal: fiebre, útero doloroso y subinvolucionado, y loquios fétidos, con el antecedente de cesárea de urgencia. Se hospitaliza siempre, y el esquema de elección es clindamicina más gentamicina. La ecografía mamaria no tiene nada que ver aquí: el foco es uterino, no mamario."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Una puérpera de siete días, con antecedente de hemorragia puerperal, presenta ahora más sangrado, fiebre hasta treinta y ocho coma cinco, y dolor abdominal bajo."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: inercia uterina, neoplasia trofoblástica gestacional, endometritis, restos ovulares, o miometritis. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Fiebre, dolor bajo y más sangrado en el puerperio son el cuadro clásico de endometritis. Fíjate que restos ovulares también podría estar detrás de este cuadro, pero el diagnóstico que engloba la fiebre y el dolor es la endometritis, y por eso es la respuesta más completa."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y esta es del EUNACOM de agosto de dos mil veintiuno. Una puérpera de quince días, dando lactancia, tiene dolor en la mama derecha de tres días, con enrojecimiento y malestar general. La mama tiene los cuadrantes superiores dolorosos, indurados y calientes."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: drenaje mamario quirúrgico, suspender la lactancia, iniciar antibióticos, dar analgésicos, o alternar frío y calor local. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C. Sin masa que fluctúe, esto es una mastitis, no un absceso: se trata con antibióticos que cubran el estafilococo. La trampa es la B: nunca suspendes la lactancia, al contrario, mejoras la técnica y mantienes el vaciamiento."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Una puérpera de diez días tiene dolor y aumento de volumen en la mama derecha, con enrojecimiento, una masa que fluctúa de seis centímetros, compromiso de la piel y salida de pus al comprimir."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: antibióticos orales de amplio espectro, drenaje quirúrgico, drenaje por punción, extracción láctea, o calor local con antiinflamatorios. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. Es un absceso mamario, y hoy en general se prefiere drenarlo por punción guiada con ecografía. Pero aquí la piel ya está comprometida, con pus saliendo por una lesión cutánea, y eso te obliga a elegir el drenaje quirúrgico en vez de la punción."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La cesárea es el factor de riesgo mayor de endometritis, y la clínica es fiebre con útero doloroso y loquios fétidos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Se hospitaliza siempre, con clindamicina más gentamicina."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Y en la mama, la mastitis nunca suspende la lactancia, y el absceso se confirma con ecografía y se drena. Si te llevas una sola idea de hoy: la fiebre te dice dónde mirar, el útero o la mama, y de ahí sale todo lo demás. Nos vemos en la próxima clase."
+    }
+  ]
+}

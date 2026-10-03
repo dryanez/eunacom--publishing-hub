@@ -1,0 +1,216 @@
+{
+  "id": "resp-03",
+  "title": "Neumología 1.3: Asma Bronquial Crónica y Manejo GINA/GES",
+  "specialty": "Neumología",
+  "chars": 9196,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior dijimos que una crisis es la señal de que el asma de base no está controlada. Hoy vemos justamente eso: el asma crónica, un problema GES para personas de quince años y más. El examen pregunta cómo se confirma, cómo se mide el control y cómo se sube de escalón. Y ojo con el cambio de paradigma: el salbutamol solo ya no es tratamiento. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El asma es una enfermedad inflamatoria crónica de la vía aérea. Su sello es la variabilidad: síntomas que van y vienen, como sibilancias, disnea, opresión torácica y tos, junto con una limitación del flujo aéreo que también varía."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Por eso el diagnóstico exige las dos cosas: clínica compatible y la demostración de esa variabilidad en el flujo. El primer examen es la espirometría con broncodilatador, que ya sabes leer."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si el VEF uno sube más de doce por ciento y más de doscientos mililitros después del broncodilatador, el asma está confirmada."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero ojo: el asmático que consulta sin síntomas ese día puede tener una espirometría perfectamente normal. Eso no descarta el asma."
+    },
+    {
+      "file": "s01_g04",
+      "text": "En ese caso, la variabilidad se demuestra de otra forma: con una variabilidad diurna del PEF de más de diez por ciento, o con el test de metacolina, en que el VEF uno cae más de veinte por ciento. La metacolina provoca el broncoespasmo que el bronquio sano no hace. Esa situación, espirometría normal y metacolina, se pregunta mucho."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Con el diagnóstico hecho, en cada control se mide el control del asma, preguntando por las últimas cuatro semanas. Son cuatro preguntas. Primera: ¿síntomas de día más de dos veces por semana?"
+    },
+    {
+      "file": "s02_g01",
+      "text": "Segunda: ¿algún despertar nocturno por asma? Basta uno solo."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Tercera: ¿usó el inhalador de alivio más de dos veces por semana?"
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y cuarta: ¿tuvo cualquier limitación de su actividad física habitual? Fíjate que el umbral de las dos primeras preguntas de frecuencia es el mismo: más de dos veces por semana."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora cuentas los criterios. Si no cumple ninguno, el asma está bien controlada."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si cumple uno o dos, está parcialmente controlada."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y si cumple tres o cuatro, no está controlada. Esa cuenta se pregunta tal cual, así que en el caso clínico cuenta con calma cada criterio."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y aquí viene la conducta que más se pregunta. Antes de subir el tratamiento, es obligatorio revisar la técnica del inhalador y la adherencia. Muchas veces el paciente no está mal controlado porque el remedio no le sirva, sino porque no lo usa o lo usa mal."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Solo si la técnica y la adherencia están bien, se sube un escalón. Veamos cuáles son."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Antes de los escalones, el cambio de paradigma. El salbutamol, que es un beta dos agonista de acción corta, un SABA, alivia el síntoma, pero no trata la inflamación. Usado solo, aumenta el riesgo de exacerbaciones graves y de muerte por asma. Por eso hoy la monoterapia con SABA está formalmente proscrita."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La consecuencia es simple: todo paciente asmático recibe un corticoide inhalado, desde el primer escalón. El corticoide inhalado es la piedra angular, porque ataca la inflamación, que es la base de la enfermedad."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la forma preferida de darlo es combinado con formoterol, un broncodilatador de acción rápida y larga. Así, cada vez que el paciente busca alivio, recibe también su dosis de antiinflamatorio."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Veamos los escalones de la vía preferida. En los escalones uno y dos, corticoide inhalado en dosis baja con formoterol, solo a demanda. Por ejemplo, ciento sesenta microgramos de budesonida con cuatro coma cinco de formoterol, un puff cuando hay síntomas."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En el escalón tres, la misma combinación en dosis baja pasa a ser diaria, y además se usa como rescate. Eso se llama estrategia MART, de mantención y rescate, y reduce significativamente las exacerbaciones."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En el escalón cuatro, corticoide inhalado en dosis media con el beta agonista de acción larga, el LABA, manteniendo el rescate MART."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y en el escalón cinco, el asma grave, se agrega tiotropio, que es un antimuscarínico de acción larga, o un biológico anti IgE o anti interleucina cinco, previa derivación al especialista."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Existe una vía alternativa, que es la clásica: corticoide inhalado diario, al que se suma un LABA en los escalones siguientes, con salbutamol de rescate. Es aceptable, porque el salbutamol va acompañado de un corticoide de base; lo que nunca es aceptable es el salbutamol solo."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora juntemos diagnóstico, control y escalones en un solo árbol, como lo vas a razonar en el control del CESFAM. Paciente con síntomas respiratorios variables. Lo primero es confirmar el asma demostrando variabilidad del flujo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿La espirometría muestra una respuesta broncodilatadora positiva?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si es normal, no se descarta: se busca la variabilidad con metacolina o con la variabilidad diurna del PEF."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Con el asma confirmada, en cada control se cuentan los cuatro criterios de las últimas cuatro semanas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Sin criterios, está bien controlada y se mantiene el escalón."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Con uno o más criterios, parcial o no controlada, primero se revisa la técnica inhalatoria y la adherencia. Solo si están bien, se sube un escalón: de CI con formoterol a demanda, a MART, a dosis media."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Y si ya es un asma grave refractaria, se deriva para tiotropio o biológicos."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos las trampas. Síntomas típicos con espirometría normal: test de metacolina. El error es descartar el asma porque la espirometría salió bien."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Asmático tratado solo con salbutamol: hay que agregar el corticoide inhalado. Mantener el salbutamol solo es la respuesta incorrecta más clásica del tema."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Asma parcial o no controlada: primero técnica y adherencia. El error es subir el escalón sin revisar."
+    },
+    {
+      "file": "s07_g03",
+      "text": "No controlada con buena técnica y adherencia: se sube un escalón, por ejemplo corticoide con LABA. Los corticoides orales prolongados no son el camino."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y el asma grave refractaria, en el escalón cinco, se deriva para tiotropio o biológicos."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Mujer de treinta y dos años, asmática, que usa solo salbutamol a demanda. En el último mes tuvo síntomas de día cuatro días a la semana, despertó dos veces por tos y usa salbutamol casi todos los días. No refiere limitación de su actividad. La espirometría muestra respuesta broncodilatadora positiva."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: mantener el salbutamol a demanda, salbutamol en horario, corticoide inhalado con LABA o budesonida con formoterol, prednisona oral por un mes, o derivar para un biológico. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. Cuenta los criterios: síntomas de día, despertar nocturno y uso de rescate frecuente. Son tres: asma no controlada. Y el problema de fondo es que está solo con salbutamol, que hoy está proscrito. La conducta es iniciar el antiinflamatorio de mantención. La B es la trampa: dar el salbutamol en horario es más de lo mismo, sin corticoide. Y la prednisona por un mes o el biológico se saltan todos los escalones."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de diecinueve años con disnea, tos y sibilancias ocasionales, peores de noche y desde que adoptó un gato. Examen normal, radiografía normal, y una espirometría basal y post broncodilatador dentro de rangos normales."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: IgE sérica total, TAC de tórax, provocación bronquial con metacolina, prueba cutánea para alérgenos, o serología para Mycoplasma. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, la metacolina. La clínica es típica, pero la espirometría es normal, y eso no descarta el asma. La variabilidad se demuestra provocando el broncoespasmo: si el VEF uno cae más de veinte por ciento, se confirma. El distractor tentador es la prueba cutánea, por el gato; pero esa prueba demuestra alergia, no asma."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente con rinitis alérgica y asma, con disnea, sibilancias y tos frecuentes, que aparecen con alérgenos, de noche, con infecciones y con el ejercicio. Está estable, satura noventa y seis por ciento, y tiene sibilancias espiratorias."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada con ella?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: evitar alérgenos por tres meses, salmeterol, salbutamol cada seis horas, fluticasona cada doce horas, o desensibilización. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D, el corticoide inhalado. Tiene síntomas frecuentes y nocturnos, y lo que le falta es el antiinflamatorio de base. Lo ideal sería con un broncodilatador de rescate, pero de las opciones, la piedra angular es la fluticasona. El salbutamol en horario es la trampa del SABA solo. Y el salmeterol solo tampoco sirve: un LABA en asma siempre va con corticoide."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. El asma se confirma demostrando variabilidad, y una espirometría normal no la descarta: ahí va la metacolina."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El control se mide con cuatro criterios de las últimas cuatro semanas: cero es bien controlada, uno o dos parcial, tres o cuatro no controlada."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y antes de subir un escalón, siempre revisar la técnica y la adherencia."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Todo asmático lleva corticoide inhalado, y la vía preferida es la combinación con formoterol, a demanda al principio y como MART después."
+    },
+    {
+      "file": "s11_g04",
+      "text": "El escalón cinco se deriva. En la próxima clase vamos a ver la otra enfermedad obstructiva, la EPOC, donde la lógica se invierte: allá mandan los broncodilatadores y el corticoide inhalado queda restringido. Si te llevas una sola idea de hoy: en el asma, el salbutamol nunca va solo. Nos vemos en la próxima clase."
+    }
+  ]
+}

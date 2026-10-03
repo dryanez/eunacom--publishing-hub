@@ -1,0 +1,196 @@
+{
+  "id": "sp-07",
+  "title": "Saludpublica 21.7: Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
+  "specialty": "Salud Pública",
+  "chars": 10679,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos las medidas de frecuencia, de asociación y de impacto, el tema de bioestadística que casi siempre trae un ejercicio matemático obligatorio en el EUNACOM. No te asustes con las fórmulas: son simples, y cada una responde una pregunta clínica distinta. Vamos a armarlas paso a paso, con números, para que en el examen no dudes cuál usar."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la base: la prevalencia es la proporción de personas que tienen la enfermedad en un momento determinado. Es una fotografía, y refleja la carga total de la enfermedad en la población. Sube si la gente vive más tiempo enferma, y baja si se cura rápido o si la enfermedad mata rápido."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La incidencia acumulada es distinta: es la proporción de personas inicialmente sanas que desarrollan la enfermedad durante un período de seguimiento. Necesita, por definición, tiempo y seguimiento."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y la densidad de incidencia agrega un detalle: mide la velocidad de aparición de casos, dividiendo por el tiempo-persona real que cada sujeto aportó a la observación, útil en cohortes donde la gente entra y sale en momentos distintos."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Toda fórmula de esta clase sale de la misma tabla de cuatro casillas, así que grábatela. La casilla a son los expuestos que enfermaron; la casilla b, los expuestos que no enfermaron."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La casilla c son los no expuestos que enfermaron, y la casilla d, los no expuestos sanos. Con estas cuatro letras armamos absolutamente todo lo que viene."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Con la tabla lista, la pregunta que decide todo es qué diseño generó esos datos. Y esto es clave: la fórmula no la eliges tú a gusto, la impone el diseño del estudio."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si los datos vienen de una cohorte o de un ensayo clínico, calculas el Riesgo Relativo: la incidencia en los expuestos, dividida en la incidencia en los no expuestos. Un Riesgo Relativo de uno significa que no hay asociación; mayor que uno, factor de riesgo; menor que uno, factor protector."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Si los datos vienen de casos y controles, calculas el Odds Ratio, con el producto cruzado: a por d, dividido en b por c. ¿Por qué no el Riesgo Relativo? Porque en casos y controles tú decidiste cuántos enfermos y cuántos sanos reclutar, así que no existe una incidencia real que calcular. Y un detalle que se pregunta: si la enfermedad es rara, el Odds Ratio se acerca mucho al Riesgo Relativo."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Vamos con un ejemplo concreto, con números redondos. En un ensayo clínico, el riesgo de morir con placebo es de diez pacientes de cada cien. Con el fármaco nuevo, baja a seis de cada cien."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La reducción absoluta del riesgo es la resta simple: diez menos seis, cuatro puntos porcentuales. Esa cifra es el beneficio real y neto que aporta el fármaco."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La reducción relativa del riesgo divide esos mismos cuatro puntos por el riesgo del grupo control: cuatro dividido en diez, cuarenta por ciento. Fíjate que el número suena mucho más impresionante, y por eso la industria farmacéutica prefiere anunciar la reducción relativa: cuarenta por ciento suena mejor que cuatro puntos."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el número necesario a tratar es uno dividido en la reducción absoluta: uno dividido en cero coma cero cuatro, veinticinco. Eso significa que hay que tratar a veinticinco pacientes con este fármaco para evitar exactamente una muerte adicional. Regla de oro: el número necesario a tratar siempre se redondea hacia arriba, nunca hacia abajo, porque no puedes salvar una fracción de paciente."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La misma lógica del número necesario a tratar sirve para medir el daño. El número necesario para dañar, o NND, es el número de pacientes que hay que exponer al tratamiento para que ocurra un evento adverso grave adicional, y se calcula igual: uno dividido en la diferencia de riesgo de daño entre el grupo tratado y el control."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Aquí la lectura se invierte respecto al número necesario a tratar: mientras más alto es el número necesario para dañar, más seguro es el fármaco, porque hace falta exponer a muchísimos pacientes para que aparezca un daño adicional. Un fármaco ideal tiene un número necesario a tratar bajo, y un número necesario para dañar alto."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Un último ingrediente antes de los casos: cómo leer el intervalo de confianza. Para el Riesgo Relativo y el Odds Ratio, el valor nulo es uno coma cero. Es significativo solo cuando el intervalo de confianza no incluye ese uno."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Para la reducción absoluta del riesgo, el valor nulo es cero, no uno. Es significativa solo cuando el intervalo no cruza el cero."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y la trampa más repetida del examen: si el intervalo de confianza cruza el valor nulo, sea uno o cero, no puedes afirmar que existe una asociación demostrada, aunque el número puntual se vea llamativo. Hay que decir que no alcanzó significancia estadística, y que el resultado podría deberse al azar."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora ordenemos el razonamiento completo, tal como se arma en el examen. El diseño del estudio, no tu preferencia, decide qué fórmula corresponde calcular."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Uno significa sin asociación, mayor a uno factor de riesgo, menor a uno factor protector."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La reducción absoluta es la resta de riesgos; el número necesario a tratar es uno dividido en esa resta, redondeado hacia arriba."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Se aproxima al Riesgo Relativo cuando la enfermedad es rara; es la única medida calculable en este diseño."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si el intervalo incluye el valor nulo, el resultado no es estadísticamente significativo, sin importar cuán llamativo se vea el número puntual."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos con una tabla final. Si te preguntan cuántas veces más riesgo hay, y los datos vienen de una cohorte o un ensayo, la medida correcta es el Riesgo Relativo. El error clásico es usar el Odds Ratio cuando el diseño no es casos y controles."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Si el estudio es de casos y controles, la medida es el Odds Ratio. El error clásico es leer un Odds Ratio de uno coma tres como si fuera un treinta por ciento más de riesgo real: es una razón de momios, no una incidencia."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si te preguntan por el beneficio real de un tratamiento, la medida es la reducción absoluta y el número necesario a tratar. El error clásico es quedarse solo con la reducción relativa, que siempre parece más grande e impresionante."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y si te preguntan si un resultado es significativo, revisa si el intervalo de confianza incluye el valor nulo. El error clásico es mirar solo el número puntual, como uno coma tres, e ignorar que su intervalo pasa por el uno."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Un ensayo clínico aleatorizado compara un nuevo antiagregante plaquetario contra aspirina, para prevenir un accidente cerebrovascular isquémico recurrente a dos años. La incidencia acumulada de accidente cerebrovascular fue de doce por ciento con aspirina, y de ocho por ciento con el nuevo fármaco."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el número necesario a tratar con el nuevo fármaco para evitar un accidente cerebrovascular?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: veinticinco pacientes, ocho pacientes, doce pacientes, treinta y tres pacientes, o cuatro pacientes. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A, veinticinco. Primero la reducción absoluta: doce menos ocho, cuatro puntos porcentuales, es decir cero coma cero cuatro. Y el número necesario a tratar es uno dividido en esa reducción absoluta: uno dividido en cero coma cero cuatro, veinticinco. La trampa es confundir el cuatro por ciento de reducción absoluta con el número necesario a tratar: son cosas distintas, y hay que invertir la fracción."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Un estudio de casos y controles busca la asociación entre distintos factores y el cáncer de tiroides, entregando el Odds Ratio y su intervalo de confianza de cada uno: antecedentes familiares, edad, sexo masculino, exposición a radiación, y tiroiditis de Hashimoto."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Qué factor es más importante en esta asociación?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Cada opción trae su Odds Ratio y su intervalo de confianza: antecedentes familiares con uno coma ochenta y ocho, edad con dos coma seis, sexo masculino con cero coma cincuenta y seis, exposición a radiación con uno coma cincuenta y dos, y tiroiditis de Hashimoto con cuatro coma seis. Revisa con calma cada intervalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C, sexo masculino. La trampa es dejarte deslumbrar por el Odds Ratio más alto, la tiroiditis de Hashimoto con cuatro coma seis, pero su intervalo va de cero coma siete a seis coma dos y cruza el uno: no es significativo, igual que los otros tres. Solo el sexo masculino tiene un intervalo que no cruza el uno y es menor a uno en ambos extremos, así que es un factor protector real y significativo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Buscan la medida de asociación más adecuada para establecer cuántas veces aumentan los casos de asma en la población fumadora, comparada con la no fumadora."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál de las siguientes medidas de asociación es la más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: riesgo relativo, riesgo atribuible, razón de prevalencias, tasa de incidencia, o riesgo atribuible porcentual."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, riesgo relativo. La palabra clave es cuántas veces más: eso es exactamente lo que expresa una razón, como el Riesgo Relativo, la incidencia en expuestos dividida en la incidencia en no expuestos. El riesgo atribuible y su versión porcentual son medidas de impacto poblacional, no de cuántas veces más frecuente es el evento."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y esta pregunta real, del EUNACOM de diciembre de dos mil diecinueve, repite la misma lección con otro ejemplo. Un estudio de cohortes busca la asociación entre la exposición a estrógenos y el cáncer de ovario, y obtiene un Odds Ratio de uno coma tres, con un intervalo de confianza que va de cero coma ochenta y seis a dos coma uno."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál de las siguientes afirmaciones es correcta con estos resultados?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: que tienen uno coma tres veces más riesgo, que tienen treinta por ciento más riesgo, que existe asociación pero no es significativa, que las que tienen cáncer estuvieron más expuestas, o que la asociación se probó pero no es extrapolable."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C. El punto estimado de uno coma tres parece sugerir más riesgo, pero su intervalo de confianza va de cero coma ochenta y seis a dos coma uno, y ese intervalo incluye el uno. Eso significa que no se puede descartar que el resultado se deba solamente al azar. Las opciones A y B caen en la misma trampa: afirman el riesgo como si fuera un hecho probado, ignorando que el intervalo cruza el valor nulo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. En cohorte o ensayo clínico, la medida es el Riesgo Relativo."
+    },
+    {
+      "file": "s13_g01",
+      "text": "En casos y controles, es el Odds Ratio."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Y para el beneficio real de un tratamiento, son la reducción absoluta del riesgo y el número necesario a tratar, siempre redondeado hacia arriba."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Antes de afirmar cualquier asociación, revisa si su intervalo de confianza cruza el valor nulo: el uno para el Riesgo Relativo y el Odds Ratio, el cero para la reducción absoluta. Si te llevas una sola idea de hoy: el diseño te dice qué fórmula usar, y el intervalo de confianza te dice si esa fórmula significa algo de verdad. Nos vemos en la próxima clase."
+    }
+  ]
+}

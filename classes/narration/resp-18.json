@@ -1,0 +1,224 @@
+{
+  "id": "resp-18",
+  "title": "Neumología 4.3: Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+  "specialty": "Neumología",
+  "chars": 9467,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos las enfermedades pulmonares intersticiales difusas, y en especial la fibrosis pulmonar idiopática. Si en la clase anterior el enemigo era una masa, hoy es todo el pulmón que se va endureciendo de a poco. El examen pregunta tres cosas: reconocer la clínica, leer el patrón del scanner y no caer en la trampa de los corticoides. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por cómo consulta. El síntoma cardinal es una disnea de esfuerzo que se instala de forma insidiosa y avanza lento, a lo largo de meses o años. El paciente de a poco deja de subir escaleras o de cargar peso, y muchas veces no se da cuenta hasta que ya está limitado."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Se acompaña de tos seca e irritativa. Fíjate que es seca: el intersticio que se engrosa no produce secreción. Eso ya la separa de la bronquitis crónica o de las bronquiectasias."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el examen físico tiene dos signos que el EUNACOM ama. El primero son los crépitos secos tipo velcro: al final de la inspiración, en ambas bases, suenan como cuando despegas un velcro. Están en más del ochenta a noventa por ciento de los pacientes con fibrosis."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El segundo es la acropaquia, los dedos en palillo de tambor con uñas en vidrio de reloj, presente en cerca de la mitad de las fibrosis pulmonares idiopáticas. Disnea progresiva, tos seca, crépitos en velcro y acropaquia: esa es la foto del examen."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Con esa clínica, sospechas una enfermedad intersticial. Pero la clínica no te dice cuál. Para eso necesitas ver el pulmón por dentro."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El examen de elección es la tomografía computarizada de alta resolución, la TACAR, sin contraste. No buscamos vasos, buscamos el dibujo del intersticio, y ese dibujo tiene nombre."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si el dibujo es de neumonía intersticial usual, el patrón NIU, con panal de abejas en las bases y bajo la pleura, estás frente al sello de la fibrosis pulmonar idiopática."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y aquí viene un dato muy preguntado: si la TACAR muestra un patrón NIU definitivo en un paciente de más de sesenta años, sin otra causa, el diagnóstico está hecho. No se requiere biopsia pulmonar."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Si en cambio predomina el vidrio esmerilado, el patrón es de neumonía intersticial no específica, la NINE. Ese patrón te obliga a buscar una causa secundaria, sobre todo una enfermedad del tejido conectivo, o un fármaco."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Veamos cómo se define el patrón NIU, porque tiene cuatro componentes. El primero son opacidades reticulares, bajo la pleura y en las bases, en ambos pulmones."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El segundo, y el más importante, es el panal de abejas: pequeños quistes apilados bajo la pleura. Es pulmón destruido y cicatrizado."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El tercero son bronquiectasias y bronquiolectasias por tracción: la fibrosis se retrae y tira de los bronquios, que se dilatan."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y el cuarto es lo que no aparece: no hay nódulos difusos, ni condensaciones, ni vidrio esmerilado extenso. Si aparecen, ya no es un NIU típico."
+    },
+    {
+      "file": "s03_g04",
+      "text": "La NINE es otra cosa: predomina el vidrio esmerilado subpleural bilateral, y típicamente respeta la franja inmediatamente bajo la pleura. Es el patrón de la esclerodermia, el lupus y la artritis reumatoide."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Idiopática significa que no encontraste causa, así que primero hay que buscarla. Y la más preguntada es un fármaco: la amiodarona. Es la causa más frecuente de toxicidad pulmonar en cardiología, porque se acumula en el pulmón. Paciente con fibrilación auricular, en amiodarona, que empieza con disnea y tos seca: ahí está tu respuesta."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Otros tres fármacos que debes reconocer son el metotrexato, la bleomicina y la nitrofurantoína en uso crónico. Cuando el culpable es un fármaco, el primer paso es suspenderlo."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La segunda gran familia son las enfermedades del tejido conectivo, las que dan el patrón NINE: esclerosis sistémica, lupus y artritis reumatoide."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el algoritmo del libro agrega la neumonitis por hipersensibilidad como otra causa secundaria a considerar cuando el patrón no es un NIU típico."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora el tratamiento, que es donde el examen pone su trampa más clásica. Tienes una fibrosis pulmonar idiopática con patrón NIU."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La intuición dice: es una enfermedad del pulmón, démosle corticoides. Y durante años se usó la combinación de corticoides con azatioprina."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Pero el estudio PANTHER mostró que esa combinación aumentaba la mortalidad. Por eso, en la fibrosis pulmonar idiopática, los corticoides están contraindicados. Si ves prednisona como respuesta en una FPI, descártala."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El tratamiento actual son los antifibróticos: pirfenidona o nintedanib."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Ojo con lo que hacen: no revierten la fibrosis, la frenan. Enlentecen la caída de la capacidad vital forzada y reducen las exacerbaciones agudas."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Y el contraste: la NINE de las conectivopatías sí responde a los corticoides y a inmunosupresores como el micofenolato o la azatioprina. El mismo fármaco sirve en un patrón y daña en el otro. Por eso el patrón manda."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con disnea de esfuerzo que avanza en meses, tos seca, crépitos tipo velcro en las bases y acropaquia. Sospechas una enfermedad intersticial."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Antes de llamarla idiopática, pregunta por fármacos que dañan el intersticio."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si usa amiodarona u otro fármaco tóxico para el pulmón, lo primero es suspenderlo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si no hay causa evidente, la TACAR sin contraste define el patrón."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Panal de abejas subpleural basal con bronquiectasias por tracción: patrón NIU, fibrosis pulmonar idiopática, sin biopsia en el mayor de sesenta. Se trata con pirfenidona o nintedanib; los corticoides están contraindicados."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Vidrio esmerilado que respeta la zona subpleural: patrón NINE. Busca una conectivopatía; aquí sí responden los corticoides e inmunosupresores."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos con la tabla. El paciente con NIU suele ser un hombre mayor de sesenta a sesenta y cinco años, fumador. El de la NINE, una mujer más joven, no fumadora."
+    },
+    {
+      "file": "s07_g01",
+      "text": "En el scanner, el NIU es panal de abejas con bronquiectasias por tracción; la NINE, vidrio esmerilado."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El NIU compromete justo bajo la pleura; la NINE típicamente la respeta."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y lo más preguntado: en el NIU los corticoides están contraindicados; en la NINE, responden bien."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Por eso el NIU se trata con antifibróticos, y la NINE con inmunosupresión."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y una trampa de conducta: con un NIU definitivo en un mayor de sesenta, pedir biopsia pulmonar es innecesario."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos a un caso. Hombre de sesenta y ocho años, con un año de disnea de esfuerzo que avanza lento, y tos seca. Satura noventa y uno, tiene acropaquia y crépitos secos en ambas bases, como un velcro. La TACAR muestra reticulación subpleural y quistes en panal de abejas en las bases, sin vidrio esmerilado."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: biopsia quirúrgica, prednisona sola, prednisona con azatioprina, un antifibrótico, o broncodilatadores. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la D. La clínica y el patrón NIU definitivo en un mayor de sesenta hacen el diagnóstico de fibrosis pulmonar idiopática, sin biopsia; por eso cae la A. Y la B y la C son la trampa de siempre: los corticoides, solos o con azatioprina, aumentan la mortalidad en la FPI. Lo que corresponde es pirfenidona o nintedanib."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de cincuenta y ocho años, hipertensa, con dos años de disnea que avanza hasta ser de pequeños esfuerzos, y algo de expectoración matinal. Fumó apenas cuatro cigarrillos al día. Satura noventa y tres, tiene crepitaciones bilaterales e hipocratismo digital. La radiografía original no la tenemos, pero la clínica basta."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: asma alérgica, EPOC, bronquitis crónica por cigarrillo, fibrosis pulmonar idiopática, o insuficiencia cardíaca. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D. Disnea progresiva de años, crepitaciones bilaterales y acropaquia es la foto de la fibrosis. El distractor es la bronquitis crónica, porque el enunciado mete expectoración y tabaco a propósito; pero cuatro cigarrillos al día no alcanzan para un EPOC, y ni el EPOC ni la bronquitis dan acropaquia. Cuando veas acropaquia con crépitos, piensa en el intersticio."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otra real, del EUNACOM de diciembre de dos mil veintidós. Mujer de sesenta y ocho años, hipertensa, con fibrilación auricular en tratamiento con amiodarona y rivaroxabán. Lleva meses con disnea progresiva, ya de medianos esfuerzos, y tos seca. Tiene crepitaciones bilaterales, pero el corazón, el abdomen y las extremidades están normales. La radiografía tampoco la tenemos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: salbutamol, agregar espironolactona, suspender el rivaroxabán, suspender la amiodarona, o agregar furosemida. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la D. Disnea progresiva con tos seca y crepitaciones en una usuaria de amiodarona es toxicidad pulmonar por amiodarona, y lo primero es suspenderla. El distractor tentador es la furosemida, porque es cardiópata y tiene crépitos; pero no hay edema ni otros signos de congestión, y la tos seca de meses apunta al intersticio."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Disnea de esfuerzo progresiva, tos seca, crépitos tipo velcro en las bases y acropaquia: enfermedad intersticial, y en el mayor de sesenta, fibrosis pulmonar idiopática."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El examen de elección es la TACAR. Panal de abejas subpleural basal es patrón NIU, y si es definitivo en un mayor de sesenta, no hace falta biopsia."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En la FPI los corticoides están contraindicados, porque aumentan la mortalidad."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Se trata con pirfenidona o nintedanib, que frenan la caída de la capacidad vital forzada."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y antes de decir idiopática, busca la causa: si el paciente usa amiodarona, suspéndela. Si te llevas una sola idea de hoy: el patrón de la TACAR manda, y en el NIU los corticoides no se usan. Nos vemos en la próxima clase."
+    }
+  ]
+}

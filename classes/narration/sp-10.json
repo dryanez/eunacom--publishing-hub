@@ -1,0 +1,180 @@
+{
+  "id": "sp-10",
+  "title": "Saludpublica 21.10: Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
+  "specialty": "Salud Pública",
+  "chars": 8893,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos el tamizaje poblacional: los criterios de Wilson y Jungner que justifican un programa de cribado, y los sesgos que hacen parecer útil un tamizaje que en realidad no salva vidas. Este tema se conecta directo con lo que vimos en pruebas diagnósticas: ahora la pregunta ya no es si el test funciona, sino si conviene aplicarlo a toda una población sana. Partamos por la idea central."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El tamizaje no busca diagnosticar de forma definitiva. Busca clasificar a personas sin síntomas en dos grupos: los que tienen alta probabilidad de tener la enfermedad, que van a un examen confirmatorio, y los que tienen baja probabilidad."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El tamizaje de masa se aplica a toda una cohorte demográfica sin seleccionar por riesgo individual, como el Papanicolaou a todas las mujeres de veinticinco a sesenta y cuatro años, o la fenilcetonuria a todos los recién nacidos."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el tamizaje oportunista se hace cuando la persona consulta espontáneamente por otra razón, como tomar la presión arterial en cada control médico, aunque el paciente haya venido por algo completamente distinto."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La OMS adoptó diez criterios de Wilson y Jungner para justificar un tamizaje. Los primeros son sobre la enfermedad: tiene que ser un problema de salud importante, con alta prevalencia o morbimortalidad, y su historia natural tiene que estar bien conocida."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y tiene que existir una fase presintomática, latente, lo bastante prolongada como para detectarla antes de que aparezcan los síntomas. Sin esa ventana, no hay nada que buscar de forma anticipada."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Los siguientes criterios son sobre el examen: tiene que ser simple, seguro, aceptable para la población, no invasivo, y de alta sensibilidad."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el criterio que más se pregunta: tiene que existir un tratamiento eficaz disponible, y ese tratamiento tiene que dar más beneficio aplicado en la fase precoz que en la fase sintomática. Si no hay ningún beneficio en adelantar el diagnóstico, tamizar solo genera angustia sin ningún provecho."
+    },
+    {
+      "file": "s02_g04",
+      "text": "A esto se suma que el costo de encontrar cada caso sea razonable frente al gasto total en salud, y que la búsqueda sea un proceso continuo y regular, no una campaña de una sola vez."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la parte que más se pregunta: cómo saber si un tamizaje realmente funciona. Y aquí hay dos sesgos clásicos que hacen parecer útil un programa que en realidad no cambia nada."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El sesgo de adelanto, o lead time bias, ocurre porque el tamizaje detecta la enfermedad varios años antes de lo que se habría diagnosticado por síntomas. La sobrevida calculada desde el diagnóstico parece más larga, pero el paciente no vive más tiempo en total: solo vivió más tiempo sabiendo que estaba enfermo. La fecha de la muerte no cambió en absoluto."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El sesgo de duración, o length time bias, ocurre porque las pruebas periódicas tienen mucha más probabilidad de detectar tumores de crecimiento lento e indolente, que pasan mucho tiempo en fase preclínica. Los tumores agresivos, en cambio, aparecen y progresan entre una ronda de tamizaje y la siguiente, y se escapan. Entonces el grupo tamizado termina lleno de casos de buen pronóstico, y eso sobreestima falsamente el beneficio del test."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Por eso, el único indicador que no se deja engañar por ninguno de estos dos sesgos es la reducción de la mortalidad específica por la enfermedad, demostrada en un ensayo clínico aleatorizado. Nunca la sobrevida a cinco años desde el diagnóstico."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen. Antes de implementar cualquier cribado masivo hay que revisar la enfermedad, el test y el tratamiento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Sin una fase presintomática prolongada y detectable, no hay nada que tamizar de forma anticipada."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La enfermedad es lo bastante frecuente y su historia natural lo permite."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Sin fase preclínica detectable, cualquier programa de tamizaje sería inútil."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Un test excelente no sirve de nada si tratar antes no cambia el pronóstico."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Cumple los criterios de Wilson y Jungner: se evalúa después con la mortalidad, nunca con la sobrevida."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Diagnosticar antes a alguien sano, sin que eso cambie su pronóstico, solo genera daño y angustia."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos los programas chilenos que más se preguntan. Cáncer cervicouterino: mujeres de veinticinco a sesenta y cuatro años, con Papanicolaou cada tres años, o test de virus papiloma cada cinco."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Cáncer de mama: mujeres de cincuenta a sesenta y nueve años, con mamografía bilateral cada dos años."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Hipotiroidismo congénito y fenilcetonuria: a todo recién nacido vivo, con una gota de sangre en papel filtro, de forma universal al nacer."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y displasia del desarrollo de caderas: a los lactantes, con radiografía de pelvis a los tres meses. Fíjate que todos cumplen los mismos criterios: enfermedad prevalente, fase preclínica detectable, y tratamiento que funciona mejor si se aplica temprano."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Un hospital tamiza cáncer pulmonar con tomografía de baja dosis en fumadores. Los pacientes con cáncer detectado por tamizaje tienen una sobrevida a cinco años de sesenta por ciento, contra solo veinte por ciento en los diagnosticados por síntomas. Pero al revisar las defunciones, la mortalidad es idéntica entre tamizados y no tamizados a los diez años."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es el sesgo metodológico que explica este fenómeno?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las opciones: sesgo de adelanto diagnóstico, sesgo de duración, factor de confusión no controlado, sesgo de selección de Berkson, o que no existe ningún sesgo. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la A, sesgo de adelanto diagnóstico. La sobrevida calculada desde el diagnóstico sube solo porque se adelantó el momento en que el paciente supo que tenía cáncer, pero la fecha de la muerte no cambió, y eso se confirma porque la mortalidad es idéntica en ambos grupos. Si fuera sesgo de duración, la pista habría sido que el tamizaje detecta tumores más indolentes, no una sobrevida calculada más larga con la misma mortalidad final."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno, va directo al punto que acabamos de ver. Preguntan cuál es el mejor indicador para determinar si un programa de tamizaje del cáncer de mama es efectivo."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es el mejor indicador para determinar si un programa de tamizaje del cáncer de mama es efectivo?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: tasa de incidencia, tasa de prevalencia, tasa de letalidad, tasa de mortalidad, o tasa de positividad de las pruebas."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la D, la tasa de mortalidad. El tamizaje no reduce la incidencia, porque no evita que el cáncer aparezca, solo lo encuentra antes. Y ni la letalidad ni la sobrevida son indicadores confiables, porque el sesgo de adelanto y el de duración las pueden inflar sin que haya ningún beneficio real. Solo la caída en la mortalidad demuestra que el programa de verdad salva vidas."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Preguntan a qué tipo de medida corresponde el tamizaje de fenilcetonuria que se hace a todos los recién nacidos en Chile."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿A qué tipo de medida corresponde este tamizaje?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: promoción de la salud, protección de la salud, prevención primaria, prevención secundaria, o prevención terciaria."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la D, prevención secundaria. El tamizaje siempre es prevención secundaria: la enfermedad ya existe, solo que todavía no da síntomas, y lo que haces es encontrarla antes para tratarla a tiempo. Si evitara que la enfermedad apareciera, sería prevención primaria; y si tratara secuelas ya instaladas, sería terciaria."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Y esta pregunta real, del EUNACOM de julio de dos mil veinticuatro. Preguntan cuál es la mejor estrategia para la detección temprana del cáncer testicular en la población en riesgo."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la mejor estrategia para la detección temprana del cáncer testicular?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: alfafetoproteína en sangre, consultorios especializados para dolor testicular, campañas de autoexamen testicular, ecografías testiculares como prueba de detección, o gonadotropina coriónica humana en sangre."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, las campañas de autoexamen testicular. Recuerda los criterios de Wilson y Jungner: el test de tamizaje tiene que ser simple, no invasivo y aceptable para toda la población en riesgo. La ecografía y los marcadores tumorales sirven para confirmar un hallazgo sospechoso, pero no se piden de rutina a toda la población asintomática, porque no cumplen esos criterios de un test de tamizaje."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Para justificar un tamizaje necesitas una enfermedad con fase preclínica detectable, y un tratamiento que de verdad funcione mejor aplicado temprano que aplicado tarde."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Y al evaluar si un tamizaje funciona, desconfía siempre de la sobrevida a cinco años, porque el sesgo de adelanto y el de duración la pueden inflar sin ningún beneficio real."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Solo la reducción de la mortalidad específica, demostrada en un ensayo clínico aleatorizado, confirma que el tamizaje realmente sirve. Si te llevas una sola idea de hoy: un buen test no basta, tiene que existir un tratamiento que gane con el tiempo, y el que decide si funcionó es la mortalidad, nunca la sobrevida. Nos vemos en la próxima clase."
+    }
+  ]
+}

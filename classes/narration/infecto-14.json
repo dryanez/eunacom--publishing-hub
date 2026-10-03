@@ -1,0 +1,248 @@
+{
+  "id": "infecto-14",
+  "title": "Infectologia 4.1: Síndrome Pulmonar por Hantavirus (SCPH)",
+  "specialty": "Infectología",
+  "chars": 11067,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Abrimos el bloque de zoonosis y vectores con el síndrome cardiopulmonar por hantavirus, una enfermedad muy chilena y muy grave: mata a cerca de un tercio de los pacientes. El EUNACOM la pregunta con tres ideas: reconocer la tríada del hemograma, notificarla de inmediato, y una regla terapéutica que va exactamente al revés de lo que aprendiste en sepsis. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el origen. En Chile el agente es el virus Andes, y su reservorio es un roedor silvestre, el Oligoryzomys longicaudatus, el ratón colilargo. Vive desde Coquimbo hasta Aysén, así que el antecedente que buscas es rural."
+    },
+    {
+      "file": "s01_g01",
+      "text": "¿Cómo llega al humano? No por mordedura, sino por inhalación. El ratón deja orina y heces que se secan, y cuando alguien barre o limpia un recinto cerrado, como una cabaña, una bodega o una leñera, levanta aerosoles con el virus y los respira. Por eso el enunciado típico habla de alguien que limpió una bodega abandonada."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Una vez inhalado, el virus infecta el endotelio de los capilares pulmonares. Y de ese blanco sale toda la enfermedad."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El endotelio dañado se vuelve permeable, y hay una fuga capilar masiva: el plasma sale de los vasos y llena los alvéolos. Es un edema pulmonar no cardiogénico. Guarda esta idea, porque explica tanto el hemograma como la regla de oro del tratamiento."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El segundo golpe es el corazón. El virus produce una depresión miocárdica intrínseca y severa, por eso hablamos de síndrome cardiopulmonar, y no solo pulmonar."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Pulmón inundado y corazón que no bombea: la combinación explica una letalidad de treinta a treinta y cinco por ciento. Por eso cada decisión que veremos está pensada para ganar tiempo."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ahora, cómo llega el paciente. La enfermedad tiene dos fases. La primera es la prodrómica, que dura tres a seis días: fiebre alta y cefalea. Hasta aquí parece cualquier virosis."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Pero hay un dato que la distingue: mialgias muy intensas, con predilección por los muslos y la región lumbar. Si el enunciado insiste en el dolor de muslos y espalda, piensa en hanta."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y fíjate en lo que falta: no hay coriza ni tos al inicio. Eso la separa de una influenza o de un resfrío, que parten con síntomas respiratorios altos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Luego viene la fase cardiopulmonar. Es la fuga capilar que vimos, ahora clínica: tos seca y una disnea que progresa rápidamente, en horas."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y al fallar el miocardio, el paciente cae en un shock cardiogénico fulminante. La ventana para actuar está justo al comienzo de la disnea, y por eso la sospecha tiene que ser precoz."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El examen que más ayuda es un hemograma, y lo que buscas es una tríada. Primero, trombocitopenia marcada, con plaquetas bajo cien mil."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Segundo, hemoconcentración, con un hematocrito sobre cuarenta y cinco a cincuenta por ciento."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y tercero, inmunoblastos, que son linfocitos atípicos, sobre el diez por ciento en el frotis."
+    },
+    {
+      "file": "s03_g03",
+      "text": "El hematocrito alto no es un detalle: es la fuga capilar medida en un tubo. El plasma se escapa hacia los alvéolos y los glóbulos rojos quedan concentrados en el vaso."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y esa es la diferencia con una neumonía bacteriana o una sepsis, donde el hematocrito es normal y lo que domina es la neutrofilia. Un paciente febril y disneico con hematocrito alto y plaquetas bajas debe hacerte pensar en hanta."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Comparemos con los dos cuadros con que se confunde. El antecedente: en el hanta, ruralidad y un recinto cerrado; en la neumonía grave, un brote comunitario de invierno; en el shock séptico clásico, un foco evidente, como la piel o la orina."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Las mialgias: intensas y localizadas en muslos y zona lumbar en el hanta; leves y generalizadas en la neumonía; y variables en la sepsis."
+    },
+    {
+      "file": "s04_g02",
+      "text": "El hemograma, que es la fila que decide: la tríada en el hanta; neutrofilia con hematocrito normal en la neumonía; y neutrofilia con desviación a izquierda en la sepsis."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y la fila más importante, los fluidos. En el shock séptico, como vimos al inicio del curso, se carga volumen de forma agresiva, treinta mililitros por kilo. En el hanta es exactamente al revés: restricción estricta. Esa inversión es la que el examen busca."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El diagnóstico se confirma con la IgM específica para hantavirus, que puede hacerse con un test rápido o con el ELISA del Instituto de Salud Pública."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pero ojo: con una letalidad de un tercio y un shock que se instala en horas, no esperas el resultado para actuar. La sospecha clínica, con el antecedente y el hemograma, ya pone en marcha todo el manejo."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y es una enfermedad de notificación obligatoria de carácter inmediato. No se notifica al final de la semana: se avisa a la autoridad sanitaria ante la sola sospecha."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Esa notificación permite a la autoridad estudiar el lugar donde ocurrió la exposición, porque otras personas pudieron respirar los mismos aerosoles."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos al tratamiento. Con la sospecha armada, el manejo se ordena en tres reglas de oro, y las tres salen directo del mecanismo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La primera, y la que más se pregunta: restricción hídrica estricta. Recuerda que los capilares del pulmón están rotos."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si le pasas bolos de cristaloides a este paciente, todo ese volumen se escapa hacia los alvéolos, los inunda, y el paciente muere asfixiado. Es la trampa clásica: el paciente está hipotenso, y el reflejo aprendido en sepsis es cargar volumen. Aquí eso lo mata."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Entonces, ¿cómo se sostiene la presión? Con fármacos, no con agua. La segunda regla es el vasopresor precoz, la noradrenalina. Y junto con eso, oxígeno suplementario y monitorización estricta."
+    },
+    {
+      "file": "s06_g04",
+      "text": "La tercera regla es la derivación precoz a un centro con ECMO, la oxigenación por membrana extracorpórea, en su modalidad veno-arterial, que reemplaza a la vez al pulmón y al corazón. Y fíjate en la palabra precoz: se deriva en la fase inicial de la disnea, no cuando el paciente ya está en shock."
+    },
+    {
+      "file": "s06_g05",
+      "text": "El traslado se hace en ambulancia medicalizada hacia un centro de alta complejidad. Si el hospital donde estás no tiene ECMO, tu trabajo es sospechar, restringir fluidos, notificar y trasladar a tiempo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora juntemos la sospecha y el manejo en un solo árbol de decisión. Paciente con fiebre, cefalea y mialgias intensas, con un antecedente rural o de haber limpiado un recinto cerrado. Lo primero es pedir un hemograma."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿El hemograma muestra la tríada: plaquetas bajo cien mil, hematocrito alto e inmunoblastos sobre el diez por ciento?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si no está la tríada, y el hematocrito es normal con neutrofilia, piensa en otra causa, como una neumonía o una sepsis bacteriana, y maneja según corresponda."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si está la tríada, es una sospecha de hanta. Se notifica de inmediato y se toma la IgM, pero no se espera el resultado para actuar."
+    },
+    {
+      "file": "s07_g04",
+      "text": "¿El paciente ya tiene disnea, o hipotensión? Es decir, ¿entró en la fase cardiopulmonar?"
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si todavía está en la fase prodrómica, se hospitaliza con restricción hídrica y vigilancia estrecha, coordinando desde ya el traslado, porque la disnea puede aparecer en horas."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si ya tiene disnea o hipotensión, oxígeno, noradrenalina precoz sin bolos de volumen, y traslado inmediato en ambulancia medicalizada a un centro con ECMO veno-arterial."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Paciente con sospecha de hanta e hipotensión: noradrenalina precoz. El error es el bolo de treinta mililitros por kilo que usarías en la sepsis."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Fiebre, mialgias, hematocrito alto y plaquetas bajas: sospecha de hanta. El error es quedarse en neumonía bacteriana, que tiene hematocrito normal."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Al inicio de la disnea se deriva a un centro con ECMO. Esperar a que aparezca el shock es llegar tarde."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La notificación es inmediata, ante la sospecha. Esperar la IgM para notificar es un error."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el contagio es por inhalación de excretas secas del colilargo, no por mordedura ni por un mosquito. Los mosquitos los vemos en dos clases más."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Hombre de treinta y ocho años, trabajador agrícola del Maule, con cuatro días de fiebre, cefalea y mialgias intensas en la espalda y los muslos. Hace seis horas agregó tos seca y disnea. Hace dos semanas limpió una bodega deshabitada. Está hipotenso, taquicárdico, con saturación de ochenta y nueve por ciento e infiltrados bilaterales sin cardiomegalia. Hematocrito cincuenta y cuatro, catorce por ciento de inmunoblastos y cuarenta y dos mil plaquetas."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: bolo de cristaloides y ceftriaxona; notificar, oxígeno, restringir fluidos y trasladar a ECMO; oseltamivir y sala básica; esperar la IgM; o transfundir plaquetas con furosemida. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Tienes todo: la bodega cerrada, las mialgias de muslos y espalda, y la tríada completa. Es un hanta que acaba de entrar en fase cardiopulmonar, justo el momento de derivar. La A es el distractor tentador, porque el paciente está hipotenso y parece una sepsis, pero la carga de volumen lo ahoga. Y esperar la IgM, la D, es perder la ventana."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de veintiocho años con fiebre alta, cefalea intensa, mialgias, compromiso respiratorio progresivo, y antecedente de trabajo rural en el sur de Chile. El hemograma muestra leucopenia y trombocitopenia."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el agente causal más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: hantavirus; Leptospira; Rickettsia; Yersinia pestis; o Francisella tularensis. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A, hantavirus. La alternativa lo llama virus Sin Nombre, pero en Chile el agente es el virus Andes; lo que te piden es reconocer un hanta. La leptospirosis es el distractor más tentador, porque también es rural y da mialgias; pero la suma de sur de Chile, compromiso respiratorio que progresa y plaquetas bajas es la de un hanta. La leptospirosis la vemos en unas clases más."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerramos con un caso representativo del banco, sobre la regla más importante. Trabajador forestal de treinta y dos años, en un hospital de baja complejidad, con tres días de fiebre, dolor muscular severo en los muslos y falta de aire. Hematocrito cincuenta y dos, doce por ciento de inmunoblastos y cuarenta y ocho mil plaquetas."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Qué medida está contraindicada o debe evitarse?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: carga de cristaloides de treinta mililitros por kilo; oxígeno con mascarilla de no reinhalación; diuresis horaria; traslado en ambulancia avanzada; o serología IgM. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. Fíjate que la pregunta está invertida: te pide lo que no se hace. Con la tríada completa, esto es un hanta, y la carga de volumen de la sepsis inunda los alvéolos. Todas las demás son correctas: oxígeno, monitorizar la diuresis, trasladar en ambulancia avanzada y tomar la IgM."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La sospecha parte del antecedente: un recinto cerrado en zona rural, donde se inhalaron excretas secas del ratón colilargo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Luego la clínica: fiebre con mialgias intensas de muslos y zona lumbar, sin coriza, seguida de tos seca y disnea progresiva."
+    },
+    {
+      "file": "s12_g02",
+      "text": "La tríada: plaquetas bajo cien mil, hematocrito alto por la fuga capilar, e inmunoblastos sobre el diez por ciento."
+    },
+    {
+      "file": "s12_g03",
+      "text": "El manejo va al revés que la sepsis: restricción hídrica estricta y noradrenalina precoz, nunca bolos de volumen."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Se notifica de inmediato y se traslada a un centro con ECMO al inicio de la disnea. Si te llevas una sola idea de hoy: en el hanta, el agua que salva al séptico ahoga al paciente. En la próxima clase seguimos con otra enfermedad muy chilena, la enfermedad de Chagas. Nos vemos en la próxima clase."
+    }
+  ]
+}

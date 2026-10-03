@@ -1,0 +1,576 @@
+# Revisión médica pendiente · guiones docentes
+
+Solo lo que un médico tiene que decidir. Se corrige en el libro (`books/scripts/dataset_*.cjs`) y en el guion
+(`classes/lessons/<id>.cjs`). Explicar con otras palabras lo mismo que dice el libro no es una discrepancia y no se anota.
+
+- **A · Posible error del libro:** un dato que parece médicamente incorrecto.
+- **B · El libro se contradice:** dos partes del libro dicen cosas distintas.
+- **C · Falta información en el libro.**
+
+## ⚠️ Problema general: fechas de preguntas en el libro
+
+Las preguntas que trae cada tema del libro (`questions`) y la lista `reconstrucciones` citan exámenes con fecha y número
+(p. ej. "EUNACOM Julio 2017 · Reconstrucción oficial", "Dic 2019 Q#82"). Al compararlas con el banco real
+(`books/data/real_questions_by_code.json`), esos números corresponden a preguntas de otros temas (neumonía pediátrica,
+estrabismo, criterios de Bradford-Hill) o no existen (Julio 2022 Q18, Dic 2021 Q77, Julio 2018 Q12, Dic 2020 Q95).
+**Las fechas y números del libro parecen inventados.** Detectado en nefro-01 a nefro-04; probablemente afecta a todos los libros
+(y a los PDF publicados). Confirmado también en Neumología (resp-02, resp-14): p. ej. "Dic 2018 Q#42" es una pregunta de dímero D, y el banco no tiene exámenes de Julio 2021 ni Diciembre 2023.
+
+Además, los códigos Perfil V3 de varios temas del libro (Diabetes, algunos de Neumología) apuntan a preguntas de otros temas en el banco; los agentes encontraron las preguntas reales buscando por tema. En las clases solo se usan fechas del banco real; las preguntas del libro van como "Caso representativo" sin fecha.
+
+## Gastroenterología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| gastro-09 | "Linfoma T asociado a enteropatía, también llamado linfoma MALT intestinal" (y la alternativa de la pregunta). | Son dos linfomas distintos: el EATL es de células T y el MALT es de células B. | Sigue el libro. **Corregir en ambos.** |
+| gastro-07 | La explicación de la pregunta Dic 2018 #41 cuenta "edad mayor de 50" como signo de alarma. | El paciente de esa pregunta tiene 48 años. | Solo cuenta los cuatro signos que sí aplican. |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| gastro-14 | keyPoint: contacto intradomiciliario de hepatitis A → inmunoglobulina | Texto: convivientes → inmunoglobulina **más vacuna** | El texto |
+| gastro-22 | `contexto`: radiografía de control "cada dos semanas" | Resto del tema: "cada 1 a 2 semanas" | 1 a 2 semanas |
+| gastro-21 | "Regla del 10 %" como cifra exacta | "Cerca del 10 %" | "Cerca del diez por ciento" |
+| gastro-11 | keyPoint: el CEA no sirve "ni para el pronóstico" | El texto solo dice que es para seguimiento postoperatorio | Seguimiento postoperatorio, no diagnóstico ni tamizaje |
+| gastro-03 | Texto: los bloqueadores de calcio relajan el esfínter (y causan reflujo) | keyPoint: "útiles en acalasia inicial" | Ambas cosas |
+| gastro-25 | Viñeta: signo de la "diana" | Texto: signo de la "dona" | Ambos nombres (son el mismo signo ecográfico) |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| gastro-18 | `reconstrucciones` nombra 4 preguntas (Q#66, Q#121, Q#54, Q#101) pero `questions` trae solo 2. Q#66 sí es real (Julio 2013 · Pregunta 66) y ya se agregó al guion. Q#101 (Dic 2019) no se encontró en el banco real — sigue sin resolver. El Q#54 que cita el libro ("Julio 2016") no es real para este tema (la pregunta real de esa fecha/número es sobre cetoacidosis diabética); el guion usa esa pregunta como "Caso representativo" sin fecha. |
+| gastro-15 | Dosis de albúmina en la peritonitis bacteriana espontánea (solo dice "día 1 y día 3"). |
+| gastro-21 | "Ligadura en las primeras 12 horas" solo aparece en la explicación de la viñeta, no en el texto. |
+| gastro-06, gastro-12, gastro-25 | El tema no tiene código Perfil V3 en el libro, así que no se le pueden asignar preguntas reales del banco. |
+| gastro-12 | `reconstrucciones` dice "Sin preguntas en exámenes 2013-2025" para patología perianal, pero sí existen preguntas reales del banco (Julio 2025 #27, Julio 2017 #54); no aparecen buscando por código Perfil porque el tema no tiene `perfilCode` asignado, solo por texto. Se agregaron ambas al guion. |
+
+## Nefrología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| nefro-20 | La angioplastía en displasia fibromuscular "cura por completo la HTA en más del 70 %". | Las cifras de curación completa citadas suelen ser menores; el 70 % parece curación o mejoría. | Atribuye la cifra al libro. |
+| nefro-21 | Los cilindros leucocitarios son "patognomónicos" de pielonefritis. | Indican origen renal, pero también aparecen en la nefritis intersticial. | Los presenta como prueba de origen renal. |
+| nefro-22 | TFG < 30 equivale a creatinina "> 2,0 en mujeres o > 2,5 en hombres". | No coincide con los cortes clásicos de creatinina para metformina (~1,4 y 1,5). | Atribuye el dato al libro. |
+| nefro-22 | Suspender IECA/ARA-II 48 h antes del contraste como prevención. | Evidencia discutida. | Sigue el libro. |
+| nefro-01 | La explicación del caso dice FeNa = 0,52 %. | Con los datos del caso da 0,33 % (sigue siendo < 1 %, prerrenal). | Caso propio con FeNa 0,3 %. |
+| nefro-08 | Las tiazidas "pierden su eficacia con TFG bajo 30". | Enseñanza clásica (sirve para el examen), pero el estudio CLICK (2021) mostró que la clortalidona sí baja la presión en ERC etapa 4. | Sigue el libro. Prioridad baja. |
+| nefro-16 | Plasmaféresis "primera línea obligatoria" en vasculitis ANCA con creatinina > 5,7. | El estudio PEXIVAS (2020) no mostró beneficio; KDIGO actual la considera caso a caso. | La voz dice "el libro la indica". |
+| nefro-16 | El campo GES dice "Garantía Explícita en Salud de Urgencia Vital (Ley de Urgencias)". | La Ley de Urgencia no es una garantía GES. | No se menciona. |
+| nefro-09 | Patrón prearresto "morfología bifásica sinusal (sine-wave)". | Es "sinusoidal"; "sinusal" es ritmo sinusal. | — |
+| nefro-12 | Síndrome pilórico con "vómitos alimentarios y biliosos". | La bilis no sube si la obstrucción es pilórica. | Omite "biliosos". |
+| nefro-12 | "Estenosis de arteria renal" como exceso autónomo de mineralocorticoides. | Es hiperaldosteronismo secundario, dependiente de renina. | Solo como causa de Clu > 20 con HTA. |
+| nefro-11 | Pregunta 2 del libro: pH 7,10 con HCO3 7 y pCO2 18. | Esos gases dan pH ~7,21; no calzan. | No usa la pregunta. |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| nefro-20 | Doppler: velocidad sistólica "> 180–200 cm/s" (texto) | "> 200" (keyPoints y diagrama) | El texto |
+| nefro-20 | Displasia fibromuscular: "15 a 35 años", "dos tercios distales" (texto y tabla) | "< 30 años", "tercio medio y distal" (keyPoints y diagrama) | El texto |
+| nefro-20 | Ateroesclerosis: "> 60 años" (texto) | "> 55–60" (tabla) | El texto |
+| nefro-21 | Sin respuesta al tratamiento: "ecografía o TAC" (keyPoints) | "TAC con contraste de elección" (explicación de pregunta) | TAC preferido, ecografía alternativa |
+| nefro-18 | Metformina: "suspender si TFG < 30" (keyPoints) | "Suspender o ajustar si TFG < 45" (tabla de tratamiento) | Ajustar bajo 45, suspender bajo 30 |
+| nefro-05 | Déficit por mielinolisis: "cuadriplejía flácida" (contexto, keyPoints) | "Tetraparesia espástica" (explicación de pregunta 3) | "Cuadriparesia" |
+| nefro-05 | Ascenso inicial de 4–6 mEq/L "en 1–2 horas" (tabla) | "En las primeras 2 a 4 horas" (keyPoint 3) | No da ventana (el texto no la da) |
+| nefro-13 | Síndrome nefrótico: proteinuria > 3,5 g y albúmina < 3,0 (edema acompaña) (texto) | Tríada que incluye edema (keyPoints y diagrama) | El texto |
+| nefro-14 | Membranosa: depósitos granulares "gruesos" (texto) | "Finos" (viñeta) | "Granular" |
+| nefro-16 | Metilprednisolona 500–1.000 mg/día (texto) | 1.000 mg/día (tabla) | Ambos |
+| nefro-09 | El desplazamiento baja el K 0,5–1,2 mEq/L (texto) | 0,5–1,0 (tabla) | El texto |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| nefro-20 | El título es "Hipertensión secundaria" pero no cubre hiperaldosteronismo ni feocromocitoma, que el examen contrasta. |
+| nefro-21 | No dice qué drenaje usar en la pielonefritis obstructiva (doble J o nefrostomía). |
+| nefro-22 | El caso (TFG 22, potasio 5,2, con losartán e hidroclorotiazida) no dice qué hacer con el ARA-II ni la tiazida. |
+| nefro-19 | El título incluye "Acidosis" pero ninguna sección la cubre; no da tratamiento de la acidosis metabólica crónica (bicarbonato oral, meta). Se usó lo que dice nefro-11. |
+| nefro-19 | El banco real no tiene preguntas de anemia renal ni de cuándo usar eritropoyetina (se enseña solo con el caso clínico). |
+| nefro-04 | El banco real no tiene preguntas de síndrome hepatorrenal ni de tipos de síndrome cardiorrenal. |
+| nefro-07 | Recomienda hidroclorotiazida más amilorida en la DI nefrogénica por litio, sin advertir que las tiazidas suben el litio (hay que monitorizarlo). |
+| nefro-10 | No da dosis de sulfato de magnesio EV ni de KCl o gluconato de potasio oral. |
+| nefro-11 | Promete "cuatro pasos lógicos" y lista tres. |
+| nefro-12 | El título incluye "Trastornos mixtos" pero no da método para detectarlos (solo la fórmula de compensación). |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Julio 2015 · Pregunta 18 | Su respuesta suspende hipoglicemiantes orales con clearance de 50; el libro mantiene metformina con TFG 45–59. |
+| EUNACOM Julio 2013 · Pregunta 78 | Indica insulina "por creatinina 1,5", bajo el corte del libro. |
+| EUNACOM Enero 2023 · Pregunta 84 | Prefiere enalapril sobre losartán; el libro los trata como equivalentes. |
+| EUNACOM Julio 2019 · Pregunta 150 | Clave: gluconato de calcio con K 5,8 sin cambios en ECG; contra el libro (calcio si K > 6,5 con cambios) y la práctica actual. |
+| EUNACOM Diciembre 2022 · Pregunta 120 | Clave: suero fisiológico y no hemodiálisis con litio 2,2 y compromiso de conciencia; los criterios actuales favorecen diálisis. |
+| EUNACOM Diciembre 2022 · Pregunta 94 | Litio, poliuria de 12 L/día, Na 154: la clave dice SIADH; es DI nefrogénica (la respuesta debería ser C). |
+| EUNACOM Diciembre 2024 · Preguntas 41, 80 y 164 | Entradas corruptas (alternativas que no corresponden al tema). |
+| EUNACOM Diciembre 2022 · Pregunta 104 | K 8,2, FC 30, PA 70/36: la clave dice suero fisiológico; el libro pone gluconato de calcio primero. |
+| EUNACOM Diciembre 2017 · Pregunta 50 | K 3,5 (no es hipokalemia); clave "restringir sal", discutible. |
+
+| EUNACOM Diciembre 2022 · Pregunta 54 | Su clave da hidroclorotiazida como fármaco de elección en diabético con albuminuria; el libro indica IECA o ARA-II. |
+
+## Neumología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| resp-24 | Llama "efecto Haldane negativo" a la desviación de la curva a la izquierda por CO. | El efecto Haldane se refiere al transporte de CO2; la etiqueta es incorrecta. | Solo menciona la desviación a la izquierda. |
+| resp-22 | Bloqueo neuromuscular precoz con cisatracurio en las primeras 48 h en todo SDRA severo. | El estudio ROSE (2019) no confirmó beneficio; ya no es rutina. | Se mantuvo, atribuido al libro. |
+| resp-21 | Gradiente alvéolo-arterial: la viñeta (PaCO2 68, PaO2 52) da 11 y la pregunta 1 (PaCO2 65, PaO2 55) da 12. | Los cálculos dan 13 y ~14 (siguen siendo normales). | Caso propio con números correctos. |
+| resp-01 | La explicación de la pregunta 1 dice que el VEF1 subió "16 % absoluto" (de 68 % a 84 %). | Son 16 puntos porcentuales, ~23,5 % relativo al basal. | No usa esa pregunta. |
+| resp-14 | La tabla de gravedad llama al taponamiento "shock cardiogénico por restricción diastólica". | Se clasifica como shock obstructivo. | Evita la etiqueta. |
+| resp-14 | Tórax volante = "segmento de ≥ 2 costillas rotas". | Incompleto: son ≥ 2 costillas adyacentes rotas en ≥ 2 puntos cada una. | — |
+| resp-14 | Sitio alternativo de punción: 5° espacio, línea axilar anterior. | ATLS 10 usa 4°–5° espacio, línea axilar media (igual que la explicación de Dic 2025 P134). | Sigue el libro. |
+| resp-16 | "TAC de tórax de cortes finos con contraste" para caracterizar el nódulo. | La evaluación del nódulo (Fleischner) es con cortes finos sin contraste. | Omite "con contraste". |
+| resp-19 | Llama a su Wells "versión original / simplificada de 3 niveles". | El corte que usa (≤ 4 vs > 4) es el de la versión de 2 niveles. | Usa el corte ≤ 4 / > 4. |
+| resp-18 | Corticoides contraindicados en la FPI sin excepción. | Las guías aún los permiten en la exacerbación aguda de FPI. | — |
+| resp-18 | La NIU "afecta la pleura visceral inmediata". | Afecta el pulmón subpleural, no la pleura. | — |
+| resp-08 | NIH por Klebsiella BLEE con esquema piperacilina/tazobactam o cefepime. | Esos esquemas no cubren BLEE de forma confiable; suele requerir carbapenémico. | — |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| resp-22 | Prono: "SDRA moderado a severo con PaFi < 150" (texto) | "SDRA severo (PaFi < 150)" (diagrama) y solo en fila Severo (tabla); severo "< 100" vs "≤ 100" | El texto |
+| resp-02 | FC en crisis leve-moderada "100–120 lpm" (texto) | "< 100–110" (tabla) y "100–110" (tabla de gravedad) | El texto |
+| resp-03 | La explicación de la pregunta 1 cuenta 2 criterios ("parcialmente controlada") | El enunciado cumple 3 criterios ("no controlada" según el texto) | El texto (0 / 1–2 / 3–4) |
+| resp-04 | Tres medidas mejoran la sobrevida (tabaco, O2 domiciliario, cirugía de reducción o trasplante) | keyPoints dice solo dos | El texto |
+| resp-04 | Corticoide inhalado: eosinófilos ≥ 300 o ≥ 100 con asma o ≥ 2 exacerbaciones (texto) | Solo ≥ 300 (keyPoints y tabla) | El texto |
+| resp-13 | Neumotórax primario: 15–34 años (texto) | 20–30 años (tabla) | El texto |
+| resp-18 | Antifibróticos frenan la caída de la "CVF" (texto) | "VEF1" (diagrama) | El texto |
+| resp-19 | Bajo riesgo = sPESI 0 (texto) | Eco y troponinas negativas (tabla) | El texto |
+| resp-20 | Tubo endotraqueal "8,0–8,5 mm" (texto) | "≥ 8,0 Fr" (diagrama) | El texto |
+| resp-10 | Fase de continuación diaria, 4 meses / 100 dosis (texto) | "Bisemanal o trisemanal" (diagrama) | El texto |
+| resp-12 | Tubo si glucosa pleural < 40 (sección 3) | Complicado < 40–60 (secciones 1–2, tabla); tubo obligatorio en categoría 3 con 40–60 (tabla de gravedad) | < 40 |
+| resp-09 | "Ampicilina/sulbactam oral/EV 4–6 sem" (tabla) | Ampicilina/sulbactam EV y luego amoxicilina/clavulánico oral (texto) | El texto |
+| resp-05 | Broncodilatador cada 2–4 h tras las primeras 2 h; prednisona "exactamente 5 días" (texto) | "c/4–6 h" (tabla); "no más de 5 a 7 días" (keyPoint) | El texto |
+| resp-06 | GES: atención integral de la NAC en ≥ 65 años, Rx y antibiótico en < 24 h (texto) | "NAC de manejo ambulatorio en ≥ 65" (campo GES) | El texto |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| resp-24 | El título incluye "Inhalación de humo" pero no trata cianuro, quemadura de vía aérea ni cuándo intubar. |
+| resp-22 | El banco real no tiene preguntas de SDRA (se usaron los casos representativos del libro). |
+| resp-15 | No menciona el asbesto como causa de mesotelioma (Dic 2017 P20) ni el criterio de colesterol en líquido pleural para exudado (Jul 2019 P116). |
+| resp-16 | La regla "estable 2 años = benigno" es solo para nódulos sólidos; no da seguimiento de nódulos subsólidos. |
+| resp-17 | No trata el síndrome de vena cava superior (Jul 2024 P66 y P67) ni dice que el estudio parte con TAC de tórax (Jul 2024 P165). |
+| resp-19 | No describe el puntaje de Ginebra (está en el título); no cubre síndrome nefrótico con derrame hemorrágico como TEP (Jul 2015 P63, Dic 2019 P121) ni el tenecteplase (Dic 2025 P8). |
+| resp-20 | No dice cómo estudiar la causa de las bronquiectasias (test del sudor: Jul 2019 P57, Dic 2019 P143). No hay preguntas reales de hemoptisis masiva. |
+| resp-14 | No hay preguntas reales de hemotórax masivo. |
+| resp-10 | Quimioprofilaxis solo obligatoria en menores de 5 y VIH; el banco pregunta adultos y embarazadas con PPD (+) (Jul 2017 P21, Dic 2017 P16). Falta seguimiento mensual con BK y fracaso vs recaída (Jul 2024 P140, Jul 2016 P118). El corte de transaminasas para suspender solo está en una explicación. |
+| resp-12 | No tiene el criterio de lactato pleural (Jul 2024 P156: drenaje por lactato > 5 con pH 7,26). |
+| resp-05 | La tabla de gravedad deja el pH 7,25–7,29 sin categoría; no dice que el antibiótico se indica en toda exacerbación con soporte ventilatorio (GOLD). |
+| resp-08 | No cubre Pneumocystis jirovecii (Dic 2019 P38) y nombra la NAV sin contenido. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2022 · Pregunta 13 | EPOC con pH 7,26 y PaCO2 62: la clave dice O2 por mascarilla al 50 %; el libro indica VMNI. |
+| EUNACOM Julio 2015 · Pregunta 140 | NAC con IR tipo 1: la clave dice ventilación invasiva; el libro dice O2 titulado y luego CNAF. |
+| EUNACOM Diciembre 2022 · Pregunta 99 | Intoxicación por CO: la clave dice TAC de cerebro; el libro dice carboxihemoglobina. |
+| EUNACOM Julio 2017 · Pregunta 17 | Clave: salbutamol solo como tratamiento inicial del asma; el libro lo prohíbe. |
+| EUNACOM Diciembre 2025 · Pregunta 127 | Clave: subir la fluticasona; el libro sube a CI+LABA o MART (la propia explicación la llama discutible). |
+| EUNACOM Julio 2024 · Preguntas 66 y 67 | Síndrome de vena cava superior: clave "radioterapia de urgencia", que su propia explicación dice que ya no se recomienda. |
+| EUNACOM Diciembre 2022 · Pregunta 109 | Clave "fibrosis pulmonar" con espirometría obstructiva (VEF1/CVF 52 %). |
+| EUNACOM Diciembre 2024 · Pregunta 33 | Entrada corrupta (dos alternativas C; la clave es un comentario de alumno). |
+| EUNACOM Diciembre 2022 · Pregunta 81 | VIH con cultivo MGIT positivo: clave "profilaxis"; un cultivo positivo es TBC activa y se trata. |
+| EUNACOM Julio 2024 · Pregunta 156 | Drenaje por lactato > 5, criterio que el libro no tiene. |
+| EUNACOM Diciembre 2024 · Pregunta 132 | Entrada corrupta (alternativas de otra pregunta). |
+
+## Diabetes
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| diab-17 | Cortes de potasio en CAD: no insulina bajo 3,3; no potasio sobre 5,2 (ADA 2009). | El consenso ADA/EASD 2024 los movió a 3,5 y 5,0. | Sigue el libro (3,3 / 5,2). |
+| diab-17 | La tabla de potasio dice "prevenir paro cardíaco en diástole" para la hipokalemia. | El paro en diástole es típico de la hiperkalemia. | No usa esa frase. |
+| diab-18 | Criterios de resolución de CAD mezclan versiones (glucosa < 200 + 2 de 3 con bicarbonato ≥ 18); la tabla pide pH > 7,30 y bicarbonato > 18 para resolver el SHH, que no tiene acidosis. | Mezcla de guías; criterio sin sentido para SHH. | Sigue el libro. |
+| diab-19 | "Osmolitos idiopáticos". | Debería ser "idiogénicos". | Dice "osmoles endógenos". |
+| diab-19 | En coma por edema cerebral: intubar "con hiperventilación leve protectora". | La guía pediátrica actual (ISPAD) aconseja evitar la hiperventilación. | Solo menciona asegurar la vía aérea. |
+| diab-01 | La tabla llama "patognomónico" de LADA al anti-GAD. | El anti-GAD también es positivo en la DM1 clásica. | No usa esa palabra. |
+| diab-02 | "Notificación oficial GES N° 2" para la DM2. | En la lista GES la DM2 es el problema N° 7 (el N° 2 es cardiopatías congénitas operables). | No dice el número. |
+| diab-03 | Glibenclamida "contraindicada" en el embarazo. | MINSAL y guías internacionales aceptan metformina (y en algunas, glibenclamida) como alternativas a la insulina; "contraindicada" es demasiado fuerte. | Sigue el libro. |
+| diab-04 | ACCORD mostró que el exceso de muertes se debió a "arritmias secundarias a hipoglicemias". | ACCORD no demostró esa causa. | Dice "que el libro atribuye". |
+| diab-11 | Glargina U300 y degludec "> 24 a 42 horas" (tabla); "24 hasta 42 h" para glargina U100/U300 y degludec (texto). | Las 42 horas son solo de la degludec. | "Veinticuatro horas o más; la degludec llega a cuarenta y dos". |
+| diab-06 | GES N° 2 para la DM2 y rango "15 años y más". | La DM2 es el problema GES N° 7; la edad no se pudo confirmar. | Omite número y edad. |
+| diab-07 | Suspender metformina "48 horas antes" del contraste yodado EV. | La guía actual suele suspenderla al momento del examen y reiniciar a las 48 h, según TFG. | Sigue el libro. |
+| diab-24 | Llama "lipemia retinalis" al suero lechoso. | Ese término es un hallazgo de la retina, no del suero. | No usa el término. |
+| diab-21, diab-22 | El campo GES dice "GES N° 2" para retinopatía y pie diabético. | La retinopatía diabética tiene su propio problema GES y la DM2 es otro número. | — |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| diab-20 | Confirmación de albuminuria: 2 de 3 muestras en 3 a 6 meses (texto) | La viñeta confirma a las 6 semanas y una pregunta a los 2 meses | El texto |
+| diab-01 | Edad de inicio del LADA: 25–45 años (texto) | 25–50 años (tabla) | El texto |
+| diab-02 | Sección 1: los criterios 1–3 (incluida la PTGO ≥ 200) necesitan confirmación | Sección 3 y tabla: PTGO ≥ 200 confirma sin repetir | La sección 3 |
+| diab-04 | Meta de HbA1c en adulto mayor frágil: "< 8,0–8,5 %" (sección 2 y tabla) | "7,5–8,5 %" (viñeta) y "7,5–8,0 % óptima" (contexto) | La sección 2 |
+| diab-09 | Insulina si CA fetal ≥ p75–90 (texto, keyPoints) | "Sobre p90" (contexto) | El texto |
+| diab-10 | Biterapia si PA "> 20/10 sobre la meta (≥ 140/90)"; con meta 130/80 eso da 150/90 | ≥ 140/90 (keyPoints y diagrama) | ≥ 140/90 |
+| diab-11 | Peak de análogos ultrarrápidos "a la hora" (texto) | "1–2 horas" (tabla) | ~1 h en la voz, rango en pantalla |
+| diab-12 | Meta de ayuno 80–130 (sección 3) | 70–130 (tabla de titulación) | 70–130 |
+| diab-06 | HbA1c ≥ 9 % asintomático → biterapia oral (tabla) | HbA1c 9–10 % al debut → insulina inmediata (sección 4) | La sección 4 (y Ene 2023 P151) |
+| diab-07 | Glibenclamida "contraindicada en adultos mayores" (keyPoints) | "Desaconsejada / evitar (Beers)" (tabla) | La tabla |
+| diab-08 | GLP-1 baja "5 a 15 % del peso" (texto) | "Baja 5 a 15 kg" (tabla) | El texto |
+| diab-23 | Meta LDL muy alto riesgo < 55 (o < 70 MINSAL), alto < 70 (o < 100) (texto) | Al revés en keyPoints y explicación | El texto |
+| diab-23 | Miositis: CK 3–10 veces lo normal (texto) | "5 a 10 veces" (explicación de pregunta) | El texto |
+| diab-22 | Test de sonda a hueso: VPP > 90 % (texto) | "Especificidad > 90 %" (keyPoints) y "sensibilidad y especificidad > 90 %" (pregunta) | El texto |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| diab-20 | No dice si los agonistas GLP-1 se pueden usar con clearance de 12 ni si la vildagliptina se contraindica o solo se ajusta (necesario para explicar EUNACOM Dic 2025 P37). |
+| diab-18, diab-19 | El banco real no tiene preguntas de resolución de CAD/SHH ni de edema cerebral o hipofosfemia. |
+| diab-02 | No da edad de inicio ni frecuencia del tamizaje en personas con factores de riesgo (solo "cada 3 años" si es normal). |
+| diab-09 | No menciona la metformina en el embarazo, que el banco pregunta (Jul 2025 P166, Jul 2016 P133). |
+| diab-05 | El título promete "Prevención cardiovascular" y ninguna sección la trata. |
+| diab-08 | No da corte de TFG para iniciar iSGLT2 (solo "VFG 20–60" en una tabla de diab-06). |
+| diab-23 | El título promete la clasificación de Fredrickson y no hay contenido; tampoco efectos hepáticos de estatinas; la categoría "riesgo bajo" solo está en la tabla. |
+| diab-21 | El plazo GES de derivación "30–60 días" solo está en la tabla, sin decir a qué garantía corresponde. |
+| diab-24 | Gemfibrozilo 600 mg cada 12 h; las preguntas reales usan 900 mg/día. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2022 · Pregunta 105 | Diabético con albuminuria e HTA: la clave dice atenolol; el libro dice IECA/ARA-II. |
+| EUNACOM Diciembre 2024 · Pregunta 101 | Entrada corrupta: el enunciado no calza con las alternativas. |
+| EUNACOM Diciembre 2022 · Pregunta 95 | Hospitalizado con hidrocortisona y adrenalina: la clave dice PTGO; el libro (y Dic 2025 P93, Ene 2023 P169) dice HbA1c. |
+| EUNACOM Julio 2025 · Pregunta 166 | Diabetes gestacional con metformina sin metas: la clave dice pioglitazona; el libro dice insulina y la pioglitazona no se usa en el embarazo. |
+| EUNACOM Diciembre 2024 · Pregunta 108 | PTGO 200 a las 24 semanas: la clave dice iniciar insulina de inmediato; el libro parte con dieta 1–2 semanas. |
+| EUNACOM Diciembre 2022 · Pregunta 162 | Debut catabólico con glicemia 318: clave "dieta y metformina"; contradice los criterios de insulina del libro y Dic 2018 P17. |
+| EUNACOM Julio 2013 · Pregunta 143 | Úlcera hasta tendones con pus sin hueso (Wagner 2, ambulatorio según el libro): la clave dice antibiótico EV y aseo quirúrgico. |
+| EUNACOM Julio 2024 · Pregunta 77 | Triglicéridos 1.000: la clave dice "dieta estricta" y marca el fibrato como incorrecto; el libro indica fibrato inmediato. |
+
+## Endocrinología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| endo-04 | La hCG "comparte la subunidad beta con la TSH". | Comparten la subunidad alfa; las beta solo se parecen. | Dice que la hCG "se parece a la TSH". |
+| endo-04 | En el embarazo "todo hipotiroidismo con TSH > 2,5 debe ser tratado". | Más estricto que la guía ATA actual (depende de anti-TPO y rangos del embarazo). | Sigue el libro. |
+| endo-03 | Carga de levotiroxina EV 300–500 mcg en el coma mixedematoso. | Las guías actuales usan 200–400 mcg y menos en ancianos o cardiópatas. | Sigue el libro. |
+| endo-16 | La PTH causa "hipofosfaturia/hipofosfatemia". | La PTH causa hiperfosfaturia (bloquea la reabsorción de fósforo). | "El fósforo se va por la orina". |
+| endo-14 | La adrenalectomía "normaliza la kalemia en el 100 %". | Exagerado. | Solo dice que normaliza el potasio. |
+| endo-10 | "GES N° 33" para el cáncer de tiroides. | El número parece incorrecto (el problema es "Cáncer de tiroides diferenciado y medular en personas de 15 años y más"). | Omite el número. |
+| endo-12 | Campo GES menciona "Ley Ricarte Soto para bombas o fármacos especializados". | No aplica a la insuficiencia suprarrenal. | Se omite. |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| endo-01 | Límite superior de TSH 4,0 (viñeta); TSH "inapropiadamente normal" 1,0–3,5 (endo-01) | "4,0–4,5" (texto); 1,0–3,0 (tabla de endo-02) | El texto de endo-01 |
+| endo-02 | Dosis baja desde "> 60–65 años"; coronarios 25–50 mcg (12,5 en graves); TSH ≥ 10 se trata en "todo paciente" (texto) | "> 65 años"; 12,5–25 mcg; "no anciano" (tablas) | El texto |
+| endo-03 | Tríada: hipotermia + compromiso de conciencia + compromiso cardiovascular/respiratorio (texto) | Hipotermia + hiponatremia + sopor (keyPoints) | El texto |
+| endo-04 | Aumento de dosis al confirmar embarazo 20–30 % (texto); ectopia 50–60 % | 25–30 % (tabla) y 20–50 % (explicación); ectopia 60 % | El texto |
+| endo-22 | Macroadenoma en > 75 % (texto y tabla) | "Macroadenoma en 98 %" (contexto y keyPoints) | El texto: 98 % es adenoma secretor de GH y > 75 % de ellos son macro |
+| endo-24 | Osmolalidad urinaria en DI "< 200–300" (texto) | "< 300" (dx y keyPoints) | Ambos |
+| endo-19 | Mantención de vitamina D 1.000–2.000 UI/día; calcio 1.000 mg/día (texto) | 800–1.200 UI/día en adultos mayores (algoritmo); calcio 1.000–1.200 (preguntas) | El texto |
+| endo-20 | Resonancia urgente en la apoplejía (texto) | TAC (pregunta del libro) | El texto |
+| endo-15 | Betabloqueo tras 2–4 días de alfabloqueo adecuado (texto) | Solo tras los 10–14 días de alfabloqueo (campo tx) | El texto |
+| endo-10 | Carcinoma medular 3–5 % (texto y tabla) | 5–7 % (diagrama) | 3–5 % |
+| endo-11 | Enfermedad de Cushing = 70–75 % del Cushing endógeno (texto y tabla) | 80 % (contexto) y 70–80 % (keyPoints) | 70–75 % |
+| endo-12 | ACTH en Addison "> 60 a 100 pg/mL" (texto) | "> 100 pg/mL" (tabla) | El texto |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2018 · Pregunta 105 | 84 años con TSH 8,4 y 9,2: clave "iniciar levotiroxina"; el libro observa en mayores de 70–80 asintomáticos con TSH 4,5–9,9. |
+| EUNACOM Diciembre 2022 · Pregunta 6 | Clave "cetoacidosis diabética" en un cuadro de coma mixedematoso sin datos de acidosis (TSH 100, T4L 0,1, hipotermia, bradicardia). La clave parece errónea. |
+| EUNACOM Diciembre 2022 · Pregunta 48 | Hipogonadismo con defecto de campo temporal: clave "TSH"; el libro dice que la TSH no sirve en falla central (y Dic 2018 P111 responde resonancia de silla turca). |
+| EUNACOM Julio 2024 · Pregunta 121 | Clave "denosumab endovenoso" (es subcutáneo) y recomienda anabólicos antes que bifosfonatos con fractura, contra el libro. |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| endo-22 | El título incluye gigantismo pero solo hay un keyPoint. |
+| endo-24 | El tratamiento de la DI solo está en el campo tx, sin dosis. El banco real no tiene preguntas de NEM. |
+| endo-18 | El campo GES cita "GES 16 (adulto mayor con artrosis / fracturas)" sin decir la garantía (número dudoso). No da conducta para la osteopenia bajo el umbral FRAX. |
+| endo-19 | "Raquitismo" está en el título sin contenido (clínica, profilaxis en lactantes). La contraindicación de bifosfonatos en osteomalacia solo está en una explicación. |
+| endo-14 | No dice que la mayoría de los hiperaldosteronismos tienen potasio normal (Dic 2025 P171) ni que se agrega espironolactona como 4° fármaco en HTA resistente mientras se estudia (Dic 2022 P51, Ago 2021 P136, Ene 2023 P81). |
+| endo-15 | No diferencia feocromocitoma de adenoma de Conn u otras masas suprarrenales (Ene 2023 P82). |
+| endo-10 | No cubre las complicaciones de la tiroidectomía (hipoparatiroidismo, hipocalcemia), que el banco pregunta (Jul 2024 P82, Ene 2023 P110, Dic 2018 P25). |
+
+## Hematología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| hem-03 | Campo GES: "GES: prevención y tratamiento integral en niños y gestantes" para anemia ferropriva. | No existe una garantía GES para la anemia ferropriva. | No menciona GES. |
+| hem-08 | CHCM > 36 "patognomónica" de esferocitosis. | También sube en la AHAI con esferocitos (Dic 2025 P21); es característica, no patognomónica. | "La pista más sugerente", atribuyendo el término al libro. |
+| hem-06 | El ácido fólico solo "agota los residuos de cobalamina en la vía de la metilmalonil-CoA". | Mecanismo no establecido; lo aceptado es que corrige la anemia y enmascara el déficit mientras progresa el daño neurológico. | Explica ambas ideas sin profundizar. |
+| hem-07 | Frotis en crioaglutininas: hematíes "en pilas (rouleaux)". | Las crioaglutininas producen aglutinación irregular; el rouleaux es típico del mieloma. | "Glóbulos aglutinados". |
+| hem-13 | Llama "GES N° 32" a la hemofilia. | El número parece incorrecto (no se pudo confirmar). | "Cubierta por el GES", sin número. |
+| hem-12 | La tabla de gravedad asocia los grados OMS de sangrado a rangos de plaquetas; el grado 1 es incoherente (rango 20.000–30.000, conducta "si > 30.000 observar"). | La escala OMS se basa en el sangrado, no en el recuento. | No usa la tabla; sigue el texto. |
+| hem-16 | "GES N° 37" para leucemia en personas de 15 años y más. | El GES 37 sería el ACV isquémico; la leucemia del adulto sería el GES 45 (confirmar). | "Cubiertas por el GES", sin número. |
+| hem-18 | Llama "transformación de Richter" a la del linfoma folicular a linfoma agresivo. | El síndrome de Richter es la transformación de la LLC. | "Transformación a linfoma difuso agresivo". |
+| hem-17, hem-18 | Sombras de Gümprecht y signo de Hoster "patognomónicos". | Son característicos, no patognomónicos. | "Clásicas" / "orientan a Hodgkin". |
+| hem-20 | "Anomalía de Pelger-Huët" en la mielodisplasia. | En la mielodisplasia es adquirida: pseudo-Pelger-Huët. | — |
+| hem-21 | La mortalidad sube 10 % por cada hora de retraso del antibiótico. | Cifra exagerada o sin fuente. | Solo dice que cada hora de retraso aumenta la mortalidad. |
+| hem-21 | Campo GES: "GES: urgencia vital en paciente oncológico". | No existe un GES con ese nombre. | No se menciona. |
+| hem-22 | Ventana de Cairo-Bishop "24 h previas o 7 días posteriores"; lisis clínica con creatinina 1,5 veces la basal. | La definición estándar es 3 días antes a 7 después, y creatinina 1,5 veces el límite superior normal. | No da la ventana; sigue el libro en la creatinina. |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| hem-03 | Hb sube "1 a 2 g/dL cada 2 a 3 semanas" (texto) | "Al menos 1,5 a 2,0 g/dL" a las 3–4 semanas (tabla) | La tabla |
+| hem-02 | Anemia de enfermedad crónica con saturación "15–25 %" (tabla) | La viñeta tiene saturación 14 % con el mismo diagnóstico | "Baja o normal", con corte de ferritina 100 |
+| hem-08 | Medir G6PD 2–3 meses después de la crisis (texto) | "Varias semanas" (keyPoints) | El texto |
+| hem-10 | TP/TTPK "estrictamente normales" en el SHU (libro) | Dic 2025 P61: SHU neumocócico con TP 16,2 s | El libro |
+| hem-05 | Más del 75 % de las aplasias son idiopáticas (texto) | 50–75 % (explicación de pregunta 2) | El texto |
+| hem-12 | Viñeta con 9.000 plaquetas y sangrado mucoso: corticoides e inmunoglobulina solo si no cede (explicación) | Sección 4 y tabla: < 10.000 → inmunoglobulina EV | Caso propio sin ambigüedad |
+| hem-14 | Vitamina K oral con INR > 10: 2,5–5 mg (texto, tabla, keyPoints) | 1–2,5 mg (diagrama) | El texto |
+| hem-14 | Complejo protrombínico 25–50 UI/kg (texto y tabla) | 50 UI/kg en bolo (explicación) | El texto |
+| hem-18 | Primer peak de Hodgkin 15–35 años (texto) | 20–30 años (tabla y keyPoints) | El texto |
+| hem-21 | Monoterapia sin aminoglucósido de rutina (texto) | "Doble cobertura" ceftazidima + amikacina (pregunta 2 del libro) | El texto |
+| hem-21 | Vancomicina cada 8–12 h (texto) | Cada 12 h (tabla) | No da dosis |
+| hem-23 | ACOD "formalmente contraindicados" solo en SAF triple positivo (sección 3) | Contraindicados en todo SAF trombótico (contexto y keyPoints) | La sección 3 |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| hem-01 a hem-03 | Las preguntas del libro son "Banco oficial AEE" sin fecha; la primera de hem-01 tiene el enunciado cortado y la alternativa E corrupta. |
+| hem-10 | Solo nombra E. coli O157:H7 y Shigella como causas de SHU (no el neumocócico, Dic 2025 P61) y no dice si evitar antibióticos o antidiarreicos en la diarrea por STEC. |
+| hem-06 | Solo da el esquema de B12 intramuscular para malabsorción; no da tratamiento del déficit dietario (vegano), que según Dic 2025 P133 es oral. |
+| hem-05, hem-07 | Preguntas del libro con texto corrupto ("Radioterapiay­oncologia/ 1/8", "Haptoglobina bajay­oncologia/ 1/6"). El banco real no tiene preguntas de aplasia medular. |
+| hem-11 | El fibrinógeno está en el título sin rango normal ni interpretación. |
+| hem-12 | No trata la trombocitopenia inducida por heparina (Jul 2025 P131). El título dice "Terapia GES" pero el campo GES dice "No GES directo". |
+| hem-13 | La pregunta 2 del libro tiene el campo de respuesta correcta vacío. |
+| hem-14 | No dice que los anticoagulantes orales directos están contraindicados con válvulas mecánicas (Dic 2025 P150). |
+| hem-15 | No dice qué dar primero con TP y TTPK prolongados y fibrinógeno < 100 (Dic 2017 P54: plasma); no menciona el feto muerto retenido como causa de CID ni que el dímero D sube en el embarazo (Jul 2019 P54). |
+| hem-19 | No explica el corte de 60 % de plasmocitos ni los biomarcadores de mieloma activo sin CRAB (≥ 60 % plasmocitos, razón de cadenas livianas ≥ 100, > 1 lesión focal en RM). |
+| hem-22 | Las preguntas del libro son de tratamiento de LLA, no del tema; no dice qué hipouricemiante usar con déficit de G6PD; no dice que la PTH está suprimida en la hipercalcemia maligna. |
+| hem-23 | No dice que los anticuerpos antifosfolípidos dan VDRL falso positivo (Dic 2019 P54) ni el manejo del SAF obstétrico. |
+| hem-24 | No cubre la compatibilidad Rh ni el uso de sangre Rh+ en Rh− en emergencia (Jul 2024 P14); nombra el shock anafiláctico sin contenido; la compatibilidad ABO solo está en las preguntas. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2019 · Pregunta 18 | Clave: transfundir a un paciente estable con Hb 7,8; el libro decide por clínica, no por cifra (la propia explicación la llama muy discutible). |
+| EUNACOM Julio 2025 · Pregunta 53 | Clave: hierro elemental 200 mg/día; el libro da 40–100 mg/día o en días alternos. |
+| EUNACOM Julio 2017 · Pregunta 5 | Embarazada con clave "HELLP"; la propia explicación duda y el caso calza igual o mejor con PTT. |
+| EUNACOM Julio 2013 · Pregunta 87 | Clave: hemograma con reticulocitos para el diagnóstico etiológico de la hemólisis; el libro dice Coombs directo. |
+| EUNACOM Diciembre 2025 · Pregunta 22 | Adulto con 15.000 plaquetas sin sangrado grave: clave dexametasona EV + inmunoglobulina EV; el libro indica corticoide oral (la propia explicación lo admite). |
+| EUNACOM Julio 2025 · Pregunta 142 | INR 7,8 sin sangrado: clave vitamina K oral; el libro solo suspende 1–2 dosis. |
+| EUNACOM Diciembre 2022 · Pregunta 67 | Clave LMA en un cuadro típico de anemia megaloblástica (VCM 126, LDH 1.012). |
+| EUNACOM Diciembre 2022 · Pregunta 85 | Clave leucemia aguda en lactante de madre vegana estricta con pancitopenia y regresión (déficit de B12). |
+| EUNACOM Diciembre 2022 · Pregunta 134 | Clave quimioterapia con lisis tumoral establecida (K 6,3, ácido úrico 12,2, fósforo 7,1), que se trata primero. |
+| EUNACOM Diciembre 2022 · Pregunta 7 | Fiebre post quimioterapia: clave urocultivo como primer examen; el libro pide hemograma con RAN y luego hemocultivos. |
+| EUNACOM Julio 2024 · Pregunta 164 | Neutropenia febril: clave ceftriaxona, que no cubre Pseudomonas; el libro exige monoterapia antipseudomónica. |
+| EUNACOM Julio 2013 · Pregunta 109 | Clave ceftazidima + amikacina; el libro ya no agrega aminoglucósido de rutina. |
+| EUNACOM Enero 2023 · Pregunta 106 | LLA con hiperuricemia: clave suero + alopurinol; el libro indica rasburicasa en alto riesgo. |
+| EUNACOM Diciembre 2017 · Pregunta 54 | Hemorragia postparto con fibrinógeno 90: clave plasma; el libro indica crioprecipitado con fibrinógeno < 100–150. **Ojo: hem-15 sí la usa (con la clave del banco); revisar esa clase.** |
+
+## Reumatología
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2017 · Pregunta 47 | Su explicación sugiere suspender la colchicina (solo en crisis); el libro indica colchicina profiláctica 0,5 mg/día por 3–6 meses al iniciar o titular alopurinol. |
+
+## Infectología
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| infecto-01, infecto-02 | Campos GES: "Manejo integral del paciente crítico en UCI" e "Infecciones del SNC en adultos y pediatría". | No parecen ser problemas GES reales. | No se menciona GES. |
+| infecto-03 | VHS-1 causa "> 90 % de los casos" de encefalitis viral esporádica. | El > 90 % es la proporción de encefalitis herpética del adulto por tipo 1, no de todas las encefalitis. | "Causa más frecuente", sin cifra. |
+| infecto-04 | Campo GES: "Infecciones graves de cabeza, cuello y partes blandas". | No parece un problema GES real. | No se menciona. |
+| infecto-06 | Rabia: vacunar de inmediato si el animal es "desconocido, vagabundo o provocado". | "Provocado" parece invertido: la mordedura no provocada es la de mayor riesgo. | Omite la palabra. |
+| infecto-06 | Inmunoglobulina antirrábica solo en contacto con murciélago. | Las exposiciones graves por otros animales suelen recibirla también. | Sigue el libro. **Revisar.** |
+| infecto-08 | Cólera: "azitromicina 1 g dosis única en niños y embarazadas". | 1 g es la dosis de adulto; en niños es por peso (~20 mg/kg, máx. 1 g). | "Azitromicina en dosis única", sin cifra. |
+| infecto-11 | La TBC ganglionar (escrófula) es la forma extrapulmonar más frecuente. | Según datos del programa chileno la pleural sería la primera (no verificado). | Sigue el libro. **Revisar.** |
+| infecto-19 | Ántrax cutáneo: ciprofloxacino o doxiciclina por 60 días. | Los 60 días son para exposición inhalatoria o bioterrorismo; el ántrax cutáneo localizado se trata ~7–10 días. | Sigue el libro ("según el libro"). |
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| infecto-02 | Tríada: fiebre, cefalea y rigidez de nuca (texto) | Fiebre, rigidez de nuca y compromiso de conciencia (keyPoints) | El texto |
+| infecto-02 | Ampicilina en > 50 años, embarazadas e inmunosuprimidos (texto) | > 50 años, alcohólicos y embarazadas (keyPoints) | El texto |
+| infecto-03 | Absceso post otitis con neurocirugía previa: ceftriaxona + metronidazol (pregunta 2 del libro) | Agregar vancomicina si hubo trauma o cirugía (texto) | El texto; no usa la pregunta |
+| infecto-05 | Coqueluche: azitromicina a toda embarazada (texto) | Solo en tercer trimestre (keyPoints) | El texto |
+| infecto-05 | Profilaxis post exposición VIH 28 días (texto) | "28 días a 6 semanas" (alternativa de pregunta) | 28 días |
+| infecto-10 | Cotrimoxazol con CD4 < 200 protege de Pneumocystis y Toxoplasma (keyPoint) | Toxoplasma: CD4 < 100 con IgG positiva (tabla) | La tabla |
+| infecto-14 | Plaquetas < 100.000 y hematocrito > 45–50 % (texto) | Plaquetas < 50.000 (explicación); hematocrito > 50 % (tabla y explicación) | El texto |
+| infecto-20 | Erisipela: cefadroxilo, cefalexina o flucloxacilina (texto) | Además penicilina oral, V y G sódica EV (tabla y explicación) | El texto, con penicilina oral como alternativa |
+| infecto-21 | Exantema post amoxicilina pruriginoso, 90–100 % (texto) | No pruriginoso (viñeta); 95 % (tabla), > 90 % (keyPoints) | El texto (90–100 %), sin afirmar prurito |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| infecto-01 | No da esquema antibiótico empírico según foco en la sepsis ni dosis inicial de noradrenalina. El banco real no tiene preguntas de sepsis del adulto. |
+| infecto-04 | Cita el "score LRINEC > 8" sin dar sus criterios; solo explica por qué va clindamicina, no meropenem ni vancomicina. |
+| infecto-05 | No dice cómo estudiar al contacto de TBC antes de la quimioprofilaxis (radiografía y baciloscopías). No hay preguntas reales de accidente cortopunzante. |
+| infecto-06 | No hay preguntas reales de contacto con murciélago ni de profilaxis antitetánica. |
+| infecto-07 | No menciona el departamento de control de infecciones (Jul 2025 P107). No hay preguntas reales de aislamiento ni infección de catéter. |
+| infecto-08 | No dice dónde se notifican los brotes (Seremi) ni el tipo de vigilancia (activa); no da tratamiento de Campylobacter (azitromicina). No hay preguntas reales de botulismo. |
+| infecto-09 | No cubre VIH y embarazo (transmisión vertical: TARV inmediata, zidovudina al RN, no amamantar), muy preguntado en el banco. |
+| infecto-10 | No cubre mucormicosis, aspergilosis ni vacunas en VIH (vacunas vivas), que el banco pregunta. No hay preguntas reales de toxoplasmosis cerebral. |
+| infecto-11 | El título promete "manejo MDR" sin contenido; falta TBC resistente, fracaso, seguimiento con baciloscopías (Jul 2016 P118) e imagen en el mal de Pott (RM). |
+| infecto-12 | Menciona la neurosífilis sin tratamiento; nombra el GES 35 sin el calendario de VDRL prenatal (28–30 semanas). |
+| infecto-14 | No da el recuento de leucocitos (la viñeta tiene leucocitosis; Jul 2025 P7 dice leucopenia y nombra el virus "Sin Nombre", cuando en Chile es el virus Andes). |
+| infecto-15 | "Se trata a la madre post-parto y lactancia" es ambiguo. El banco real no tiene preguntas de Chagas (solo como distractor). |
+| infecto-13 | La sección de VPH no incluye la vacuna. Contactos a tratar: "recientes" (texto) y "últimos 60 días" (explicación). |
+| infecto-18 | No describe el hemograma de la fiebre tifoidea (leucopenia, aneosinofilia; Dic 2025 P57) ni dosis de doxiciclina en leptospirosis leve o de penicilina G en el síndrome de Weil. |
+| infecto-19 | Sin duración para la doxiciclina ni dosis de la triple terapia EV. No hay preguntas reales de ántrax. |
+| infecto-20 | Solo da tratamiento tópico para la foliculitis; no dice cuándo requiere antibiótico oral (Dic 2025 P55 espera flucloxacilina). |
+| infecto-21 | No dice cómo confirmar la infección aguda por VIH con anticuerpos negativos (carga viral / PCR; Jul 2024 P62). |
+| infecto-22 | **No cubre el exantema súbito (roséola, herpes 6), con al menos 5 preguntas reales** (Dic 2018 P70, Jul 2025 P13, Jul 2024 P52, Ago 2021 P35, Jul 2013 P131), ni la enfermedad mano-pie-boca. No menciona la GN post estreptocócica tras escarlatina; sarampión solo clínica y notificación. |
+| infecto-23 | No cubre el tratamiento sintomático de la varicela ni a quién dar aciclovir (> 13 años, segundo caso intradomiciliario, grave o inmunosuprimido); no cubre la embarazada expuesta (serología, inmunoglobulina hiperinmune; Dic 2018 P89, Dic 2022 P119). Corticoides en Ramsay-Hunt solo en la tabla. |
+| infecto-24 | El título incluye "Fiebre sin foco" sin contenido (ni fiebre de origen desconocido); no trae los ítems del score MASCC. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Diciembre 2022 · Pregunta 55 | Diarrea febril por Campylobacter de 7 días: clave "probióticos"; contra la práctica actual y Ene 2023 P76 (azitromicina). |
+| EUNACOM Agosto 2021 · Pregunta 27 y Julio 2016 · Pregunta 37 | Embarazada alérgica a penicilina con sífilis: clave eritromicina; el libro exige desensibilización y penicilina (el macrólido no cruza bien la placenta). |
+| EUNACOM Diciembre 2022 · Pregunta 86 | Clave coprocultivo en un cuadro de mononucleosis (debería ser anticuerpos heterófilos). |
+| **EUNACOM Diciembre 2024 · Pregunta 6 (usada en infecto-18)** | **Texto del banco corrupto: el agente conservó el enunciado y la respuesta (A, brucelosis) pero reconstruyó las alternativas. Revisar o quitar esa diapositiva.** |
+| EUNACOM Diciembre 2022 · Pregunta 43 | Lactante de 11 meses con 3 días de fiebre y luego exantema: clave Epstein-Barr; es roséola (herpes 6). |
+| EUNACOM Enero 2023 · Pregunta 116 | Famciclovir 500 mg c/8 h por 7 días también es correcto: dos respuestas válidas. |
+| **EUNACOM Julio 2013 · Pregunta 109 (usada en infecto-24)** | **Clave ceftazidima + amikacina; el libro hoy indica cefepime solo (en hem-21 se descartó). La voz lo aclara; revisar si se deja.** |
+
+## Neurología y Geriatría
+
+### B · El libro se contradice
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| neuro-02 | Endarterectomía con estenosis 70–99 %, o 50–69 % en hombres (texto) | ≥ 70 % (keyPoints); > 50 % (criterios de hospitalización directa) | El texto |
+| neuro-08 | Valproato es el más eficaz en crisis generalizadas idiopáticas, incluidas ausencias (texto) | Etosuximida de elección en ausencias puras (tabla) | Ambos |
+| neuro-06 | Profilaxis con "3 o más crisis al mes" (texto) | "≥ 3–4 crisis mensuales" (keyPoints) | 3 o más |
+| neuro-07 | Fenitoína EV en crisis trigeminal refractaria y predominio femenino 2:1 (tabla) | No aparecen en el texto | Usa el predominio; omite fenitoína |
+| neuro-11 | Discinesias: bajar dosis unitaria y aumentar la frecuencia (texto) | Bajar dosis unitaria y mantener la frecuencia (tabla de gravedad) | El texto |
+| neuro-14 | MMSE patológico < 24 (texto) | Normal ≥ 27 y DCL 24–27 (tabla A); normal 27–30, leve 20–23, sin categoría para 24–26 (tabla B) | El texto (MoCA < 26) |
+| neuro-17 | Rocuronio o vecuronio a un décimo de la dosis (texto y tabla) | Curarizantes "contraindicados absolutos" (keyPoints) | El texto |
+| neuro-17 | Anti-MuSK en 30–40 % de los seronegativos (texto) | 35–40 % (tabla) | 30–40 % |
+| neuro-19 | Prednisona 60 mg/día por 7 días y descenso en 3–5 días (texto y tabla) | "7 a 10 días" (keyPoints); descenso de 5 días (viñeta) | El texto |
+| neuro-20 | Crisis de Ménière 20 min a 12 h; neuronitis recupera en 2–4 semanas (texto) | 20 min a 12–24 h; cede en 3 semanas (tabla) | El texto |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| neuro-01 | La clasificación TOAST solo nombra trombosis venosa cerebral y disección arterial, sin clínica; el banco las pregunta (Dic 2019 P1; Ago 2021 P76, síndrome de Horner). |
+| neuro-03, neuro-05 | Las preguntas del libro son de otros temas (meningitis, neumonía, falla prerrenal, TEP con factor V Leiden, monitoreo de heparina). |
+| neuro-06 | No da tratamiento agudo de la cefalea tensional. No hay preguntas reales de cefalea en racimos. |
+| neuro-09 | No cubre las convulsiones en el embarazo ni la eclampsia (sulfato de magnesio; Jul 2025 P40). |
+| neuro-10 | No menciona la neurocisticercosis como causa de primera crisis (Dic 2019 P144, única pregunta real del código). |
+| neuro-13 | No da alternativa a biperideno/difenhidramina en la distonía aguda (el banco usa lorazepam, Dic 2019 P8); no cubre acatisia ni discinesia tardía (Dic 2018 P36, Ago 2021 P13). Preguntas del libro de otros temas o corruptas en neuro-12 y neuro-13. |
+
+### Preguntas del banco real descartadas
+| Pregunta | Motivo |
+|---|---|
+| EUNACOM Julio 2025 · Pregunta 66 | Clave aspirina a las 5 h; el libro da ventana de trombectomía de 0–6 h en oclusión de gran vaso (alternativa C). |
+| EUNACOM Diciembre 2022 · Pregunta 97 | Hemiparesia pura sin afasia: clave arteria cerebral media; el libro la clasifica como lacunar. |
+| EUNACOM Diciembre 2022 · Pregunta 93 | Ptosis y miosis tras dolor cervical súbito: clave "parálisis del III par"; es un síndrome de Horner por disección carotídea. |
+| EUNACOM Julio 2016 · Pregunta 94 | Neuralgia del trigémino típica: clave "paracetamol y AINE"; el libro (y la propia explicación) dicen carbamazepina. |
+| EUNACOM Diciembre 2018 · Pregunta 173 | Migraña menstrual con aura: clave anticonceptivos combinados; los estrógenos están contraindicados en migraña con aura. |
+| EUNACOM Enero 2023 · Pregunta 127 y Diciembre 2022 · Pregunta 65 | Delirium en Parkinson: claves risperidona y alprazolam; se prefiere quetiapina y el libro proscribe antipsicóticos bloqueadores. |
+| EUNACOM Diciembre 2024 · Pregunta 40 | Corrupta (comentario del transcriptor en la alternativa A) y la clave no calza con el caso (parkinsonismo por cinarizina). |
+| EUNACOM Diciembre 2022 · Pregunta 78 | Flufenazina con fiebre y rigidez generalizada: clave "distonía aguda"; es síndrome neuroléptico maligno. |
+| EUNACOM Diciembre 2022 · Pregunta 9 | Alzheimer con agitación: clave diazepam; el libro contraindica benzodiacepinas en demencia. |
+| EUNACOM Diciembre 2025 · Pregunta 24 | La clave (haloperidol) no coincide con su propia explicación (risperidona). |
+| **EUNACOM Diciembre 2025 · Pregunta 29 (usada en neuro-03)** | **Vértigo central: clave "TAC de cerebro"; el libro dice que el TAC detecta < 15–20 % de los infartos de fosa posterior y pide angio-RM urgente. neuro-20 la descartó; revisar neuro-03.** |
+| EUNACOM Diciembre 2017 · Pregunta 58 y Agosto 2021 · Pregunta 102 | Casi el mismo caso con claves distintas (atrapamiento cubital vs túnel carpiano); el propio banco las califica de malas. |
+
+### A · Posible error del libro
+| Clase | Qué dice el libro | Por qué parece un error | Qué dice hoy el guion |
+|---|---|---|---|
+| neuro-03 | "Hipertermia maligna" en la hemorragia pontina. | Ese término es la reacción anestésica; aquí es hipertermia central. | "Hipertermia". |
+| neuro-03 | Nitroprusiato e hidralazina "contraindicados". | Las guías aconsejan evitarlos, no los contraindican formalmente (confirmar). | "No se usa / evitar". |
+| neuro-05 | "Proptosis ocular pulsátil" en la trombosis del seno cavernoso. | La proptosis pulsátil es típica de la fístula carótido-cavernosa. | "Proptosis". |
+| neuro-08 | Las crisis de inicio generalizado "cursan siempre con compromiso de conciencia desde el inicio". | Las mioclonías (p. ej. epilepsia mioclónica juvenil) suelen conservar la conciencia. | No lo afirma para las mioclonías. |
+| neuro-08 | Plazo GES "EEG y confirmación en ≤ 30 días" (epilepsia no refractaria ≥ 15 años). | Verificar contra el decreto GES vigente. | Sigue el libro. |
+| neuro-09 | "Hipertermia maligna secundaria" en el status. | Ese término es la reacción a anestésicos. | "Hipertermia". |
+| neuro-11 | Criterios "MDS 2026"; GES de Parkinson "N° 67"; plazos GES de 60 y 20 días y DBS cubierta por GES. | Los criterios MDS son de 2015; Parkinson sería el GES N° 62 (el 67 es esclerosis múltiple); verificar plazos y cobertura. | Omite el número GES. |
+| neuro-10 | "Crisis durante el sueño" y "déficit focal permanente" dan por sí solos riesgo de recurrencia > 60 %. | En la definición ILAE 2014 aumentan el riesgo, pero no se definen como > 60 % por sí solos. | "El libro agrega". |
+| neuro-12 | Flunarizina y cinarizina: "bloqueadores de canales de calcio con acción dopaminérgica". | Causan parkinsonismo por bloqueo D2: son antidopaminérgicas. | "Bloquean los receptores de dopamina". |
+| neuro-12 | Respuesta a levodopa en parkinsonismo por fármacos "nula / contraindicada". | "Contraindicada" no tiene sustento; la conducta es suspender el fármaco causal. | No dar levodopa y suspender el fármaco. |
+| neuro-15 | "Trazodona o sertralina" como ISRS en la demencia frontotemporal. | La trazodona no es un ISRS. | "Serotoninérgicos". |
+| neuro-16 | "PImáx < −30 cmH2O (o más positiva que −20)" como criterio de riesgo. | El signo está mal: el riesgo es no alcanzar −30. keyPoints además dice "< 30". | "No alcanza menos treinta". |
+| neuro-16 | Arreflexia "patognomónica"; corticoides "formalmente contraindicados". | La arreflexia es necesaria, no patognomónica; los corticoides no sirven, pero no hay contraindicación formal. | Sigue el libro en corticoides. |
+| neuro-17 | Respuesta a succinilcolina "errática". | En la miastenia hay resistencia a la succinilcolina. | Se omite. |
+| neuro-18 | Los anti-CD20 "degranulan" linfocitos B; bandas oligoclonales ausentes en "suero materno/sanguíneo". | Los anti-CD20 depletan linfocitos B; "materno" no corresponde en el adulto. | Términos corregidos. |
+| neuro-20 | "Conarizina" como sedante vestibular. | Es cinarizina. | "Cinarizina". |
+
+## Dermatología
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| derma-03, derma-06, derma-07, derma-08, derma-10 | El código Perfil V3 del tema, buscado en `class_questions.cjs <id>`, devuelve preguntas reales de un tema vecino distinto (no del tema de la clase): derma-03 (rosácea, código 6.01.1.003) recibe preguntas de cáncer de piel; derma-08 (urticaria, código 6.01.1.002) recibe una pregunta de alopecia areata (la misma que sí es correcta para derma-04, que comparte ese código); derma-10 (DRESS, código 6.01.2.003) recibe una pregunta de celulitis/erisipela. Mismo patrón ya documentado en otros libros (Diabetes, Neumología — ver nota general arriba). Los agentes buscaron por tema (`--search`) en vez de por código y usaron solo las preguntas que de verdad corresponden; las mal asignadas no se usaron. |
+| derma-12 | Ni el código ni la búsqueda por tema ("eritema multiforme", "lesión en diana", "escarapela") encontraron una pregunta real que sea realmente de eritema multiforme: todos los resultados son en realidad casos de Stevens-Johnson (diana de 2 anillos + compromiso mucoso, respuesta correcta explícitamente "Steven Johnson"). Se usó "Caso representativo" del libro en su lugar. |
+| derma-13, derma-15 | El banco real sí tiene preguntas reales de melanoma y queratosis actínica, pero todas dependen de una foto ("se observa lo siguiente en la imagen") que no está disponible en el guion — no es un error de tema, es que la pregunta no se puede usar sin la imagen. Se usó "Caso representativo" del libro en ambas clases. |
+| derma-16 | Búsqueda por "pitiriasis" en el banco real devuelve preguntas de pitiriasis rosada (Julio 2019 #121) y pitiriasis alba (Julio 2016 #82) — ninguna es pitiriasis versicolor, el tema real de esta clase. No se usaron. |
+
+## Oftalmología
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| oftal-03, oftal-04 | Mismo patrón de código/tema mal asignado: `class_questions.cjs oftal-04` (código 6.02.1.006, queratitis herpética) devuelve una pregunta real que en realidad es de conjuntivitis bacteriana crónica/blefaritis (tema de oftal-03); a la inversa, el código de oftal-03 devuelve "EUNACOM Julio 2017 · Pregunta 163", cuyo contenido real (aciclovir para úlcera dendrítica) es el tema de oftal-04. Ninguna se usó en la clase equivocada. Esa misma pregunta #163 además depende de una foto ("se muestra en la siguiente foto: INSERTAR FOTO") sin hallazgos en el texto, así que tampoco es usable en oftal-04. |
+| — (banco, no libro) | Preguntas del banco real con datos corruptos, no un problema de tema: "EUNACOM Diciembre 2022 · Pregunta 46" (glaucoma agudo) tiene una explicación incoherente con su propio enunciado; "EUNACOM Diciembre 2024 · Pregunta 114" (glaucoma crónico) da como respuesta correcta "Midriasis arrefléctica", que contradice el contenido de la clase, y su lista de alternativas trae un ítem con signo de interrogación ("Reflejo ?/"); "EUNACOM Julio 2025 · Pregunta 124" (código 1.02.1.015, diabetes) tiene enunciado informal/abreviado y explicación incoherente ("subir metformina??"); "EUNACOM Diciembre 2024 · Pregunta 1" (código 6.02.2.007) trae la justificación de la respuesta dentro del propio enunciado y a la alternativa A le falta texto mientras la letra C está duplicada. Ninguna se usó; anotado para que otros agentes no las reutilicen si vuelven a aparecer en una búsqueda. |
+| oftal-10, oftal-11 | El banco real no tiene ninguna pregunta donde desprendimiento de retina u oclusión vascular retinal (OACR/OVCR) sea la respuesta correcta — solo aparecen como distractores descartados en preguntas de otro diagnóstico. Se usaron "Caso representativo" del libro en ambas clases. |
+
+## Ginecología
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| gin-04 | El título del libro dice "Miomatosis Uterina y Adenomiosis", pero ninguna sección de contenido, tabla, viñeta ni pregunta de esta clase desarrolla adenomiosis — el tema completo está en gin-05 ("Endometriosis y Adenomiosis"). El guion agrega una tarjeta breve con la única frase descriptiva que sí trae el libro y remite a gin-05 para el resto, en vez de inventar criterios diagnósticos que el libro no da. |
+| gin-05 | El título de esta clase es "Endometriosis y Adenomiosis", pero `contentSections` solo desarrolla endometriosis — la adenomiosis solo aparece en la tabla comparativa y en la explicación de una pregunta del propio libro. Se armó con eso una tarjeta completa (epidemiología, clínica, examen, ecografía, tratamiento), pero es contenido más delgado que el resto de la clase. |
+| gin-08 | "EUNACOM Enero 2023 · Pregunta 44" (PAE a las 96 horas) marca correcta un esquema de levonorgestrel en dos tomas de 0,75 mg, que contradice el esquema único de 1,5 mg que indica el libro y el MINSAL actual. No se usó. |
+| — (banco, no libro) | Durante la búsqueda por tema para gin-05..08 aparecieron 4 preguntas reales con la explicación pegada a un tema totalmente distinto (ginecología en el enunciado, pero la `explicacion` y/o alternativa correcta habla de amoxicilina, alprazolam/diazepam o plasmaféresis): "EUNACOM Diciembre 2024 · Pregunta 136", "Pregunta 112", "EUNACOM Diciembre 2022 · Pregunta 65" y "Pregunta 9". No pertenecen a ninguna clase de gin-05..08; no se usaron. |
+| — (banco, no libro) | Dos más, encontradas en gin-09..12: "EUNACOM Diciembre 2025 · Pregunta 95" (EIP) tiene el enunciado y las alternativas con errores de OCR ("8vidad", "u8liza", "Pelviperitoni8s"); "EUNACOM Diciembre 2024 · Pregunta 9" (TRH) tiene alternativas incoherentes ("Resto opciones tenian estradiol", etiquetas sin sentido). Ninguna se usó. |
+| — (banco, no libro) | Dos preguntas más del banco real con datos corruptos: "EUNACOM Diciembre 2025 · Pregunta 113" (amenorrea primaria/agenesia vaginal) tiene texto con errores de OCR ("Fsico", "8ene", "magné2ca", "an2concep2vos"); "EUNACOM Diciembre 2024 · Pregunta 124" (SUA) trae comentarios de reconstrucción metidos dentro de una alternativa ("(segun yo tmbn x4, obs pólipo endometrial)"). Ninguna se usó. |
+
+## Salud Pública
+
+### B · El libro se contradice (o discrepa del banco real)
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| sp-10 | Libro: el único indicador válido de efectividad de un tamizaje es la reducción de la **tasa de mortalidad**, nunca la sobrevida/letalidad. | "EUNACOM Julio 2017 · Pregunta 141" (banco real) da como respuesta correcta "disminución de la **letalidad**"; su propia explicación está autodudada ("C? El tamizaje no baja la incidencia..."). | El libro — no se usó esa pregunta; se usó "EUNACOM Agosto 2021 · Pregunta 6" (misma pregunta conceptual, responde "tasa de mortalidad", coincide con el libro). Queda para que un humano arbitre si el banco tiene ambos enfoques en años distintos. |
+
+### C · Falta información en el libro
+| Clase | Qué falta |
+|---|---|
+| — (banco, no libro) | "EUNACOM Enero 2023 · Pregunta 166" (estructura del sistema de salud) tiene una explicación genérica de tipo "cuadro clínico" que no corresponde a la pregunta (no es un caso clínico). "EUNACOM Diciembre 2017 · Pregunta 66" da como respuesta correcta que la Subsecretaría de Redes Asistenciales delega en la SEREMI, lo que contradice la estructura que trae el libro (SEREMI depende de la Subsecretaría de Salud Pública, no de la de Redes). "EUNACOM Diciembre 2018 · Pregunta 47" (diseños de estudios) está marcada por el propio banco como "[Pregunta disputada]" (enunciado ambiguo, sin un diseño correcto único). "EUNACOM Diciembre 2024 · Pregunta 75" (sesgos) trae un comentario de evaluador filtrado dentro del texto de la alternativa B. Ninguna de las cuatro se usó. |
+| sp-11 | El código Perfil V3 de la clase (bioética clínica) solo tiene 2 preguntas reales en el banco y ninguna es del tema (Código Sanitario, imprudencia médica en pabellón). Búsquedas por tema (Jehová, rechazo de tratamiento, autonomía, doble efecto, comité de ética, sedación paliativa, voluntad anticipada) no encontraron ninguna pregunta real de bioética/consentimiento. Se usaron las 2 preguntas del libro como "Caso representativo". |
+| sp-12, sp-14 | sp-12: no hay ninguna otra pregunta real sobre acceso/confidencialidad de la ficha clínica más allá de la única que usa la clase; el caso clínico (empleador pidiendo la ficha) sale de la viñeta del libro. sp-14: no existe pregunta real sobre "objeción de conciencia" (IVE); el caso clínico también sale de la viñeta del libro. |
+
+### B · El libro se contradice (o discrepa del banco real)
+| Clase | Parte 1 | Parte 2 | Qué usa el guion |
+|---|---|---|---|
+| sp-13 | Libro: la causa inmediata en el certificado de defunción debe ser la última enfermedad diagnosticable real antes de morir (no una descripción fisiológica). | "EUNACOM Diciembre 2022 · Pregunta 145" (TEP con insuficiencia respiratoria y colapso circulatorio) marca "Tromboembolismo pulmonar" como causa inmediata — inconsistente con ese criterio (debería ser la insuficiencia respiratoria o el colapso, con el TEP como causa intermedia), y su explicación en el banco es genérica. | No se usó; se usó "EUNACOM Enero 2023 · Pregunta 4" (limpia, consistente con el libro) en su lugar. Queda para que un humano revise si la Pregunta 145 es corrupta. |
+
+## Pediatría
+
+Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en pantalla), no de una revisión de contenido médico —
+las notas A/B/C que aparezcan acá son las que fueron surgiendo durante esa reescritura.
+
+### C · Falta información en el libro / banco
+| Clase | Qué falta |
+|---|---|
+| ped-17 | "EUNACOM Julio 2018 · Pregunta 176" da como correcta una respuesta que contradice el propio criterio del libro para colestasis (corte de 20% de bilirrubina directa; el caso de la pregunta lo supera y aun así la respuesta no la clasifica como colestasis). No se usó. |
+| ped-18 | El banco real no tiene ninguna pregunta que sea genuinamente de membrana hialina (EMH) ni de síndrome aspirativo meconial (SAM) como diagnóstico — solo de TTRN. Se usó "Caso representativo" del libro para EMH. |
+| ped-19 | "EUNACOM Julio 2025 · Pregunta 25" (sepsis neonatal) tiene una explicación que se contradice con su propia respuesta y menciona "PIP" sin relación con el enunciado — parece corrupta, no se usó. |
+
+## Obstetricia
+
+Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en pantalla), no de una revisión de contenido médico.
+
+### C · Falta información en el libro / banco
+| Clase | Qué falta |
+|---|---|
+| — (banco, no libro) | "EUNACOM Diciembre 2024 · Pregunta 95" (código 3.01.3.001): el enunciado es de ácido fólico pero la explicación/respuesta correcta es "Interrupción del embarazo" — completamente descalzado. "EUNACOM Diciembre 2024 · Pregunta 17" (glucosuria) y "Pregunta 58" (movimientos fetales) tienen explicaciones con texto de plantilla genérico ("Según los consensos... Perfil V3 ASOFAMECh", una con "****" literal). "EUNACOM Diciembre 2025 · Pregunta 50" (translucencia nucal/hueso nasal) tiene errores de OCR ("Gene" por "tiene", "uGliza" por "utiliza"). Ninguna se usó. |
+| — (banco, no libro) | Más encontradas en ob-05..08: "EUNACOM Diciembre 2018 · Pregunta 85" (colestasia) marca "Fosfatasas alcalinas" como examen de elección, contradiciendo al libro (ácidos biliares totales es el estándar de oro) y su propia explicación es inconsistente; "EUNACOM Diciembre 2024 · Pregunta 153" tiene el enunciado mezclado con un fragmento de otra pregunta (lupus/síndrome nefrótico); "EUNACOM Julio 2025 · Pregunta 23" (diabetes gestacional) usa el corte OMS/ADA (2h≥153) en vez del corte MINSAL que enseña el libro (2h≥140) — usarla enseñaría lo contrario de la clase; "EUNACOM Julio 2025 · Pregunta 28" reconoce en su propia explicación que la respuesta está "en discusión" entre HELLP e hígado graso agudo. Ninguna se usó. |
+| ob-05 | El libro no menciona la aspirina profiláctica para prevenir preeclampsia recurrente; se incluyó igual porque es práctica estándar y hay una pregunta real del banco sobre el tema (Diciembre 2017 · Pregunta 155). |
+| — (banco, no libro) | "EUNACOM Julio 2018 · Pregunta 61" (código 3.01.1.001, aborto): el enunciado está truncado/mezclado y su explicación habla de fracturas de fémur/pierna/tobillo, sin relación con el tema. No se usó. |
+| — (banco, no libro) | Más encontradas en ob-17..20: "EUNACOM Diciembre 2024 · Pregunta 97" (código 3.01.1.009) tiene enunciado truncado y una explicación de plantilla sin relación con sus alternativas; "EUNACOM Diciembre 2024 · Pregunta 73" (código 3.01.2.020, mastitis/absceso) tiene letras de alternativa duplicadas y distractores de otro tema (psoriasis, dermatitis atópica). Ninguna se usó. |
+| ob-17, ob-18, ob-20 | El código Perfil V3 propio de estas tres clases apunta en el banco real a un diagnóstico completamente distinto: ob-17 (distocia de hombros, código 3.01.1.008) devuelve preguntas de mola hidatiforme; ob-18 (hemorragia posparto, código 3.01.1.009) devuelve preguntas de macrosomía/vía de parto; ob-20 (aloinmunización Rh, código 3.01.1.012) devuelve preguntas de amenorrea. Se ignoraron esos resultados por código y se armó cada set buscando por tema (`--search`). Vale la pena que alguien revise si esos códigos están mal asignados en el dataset del libro. |
+| ob-20 | El libro no menciona la variante D-u (weak D); se incluyó igual porque hay una pregunta real EUNACOM sobre el tema (Agosto 2021 · Pregunta 74) y es un hecho médicamente correcto, explicado solo dentro de esa pregunta. |
+
+## Cirugía General
+
+Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en pantalla + preguntas reales), no de una revisión de contenido médico.
+
+### C · Falta información en el libro / banco
+| Clase | Qué falta |
+|---|---|
+| — (banco, no libro) | "EUNACOM Diciembre 2025 · Pregunta 110" (diverticulitis) tiene errores de OCR ("diagnós8co", "diver2culi2s"). No se usó. |
+| — (banco, no libro) | "EUNACOM Diciembre 2025 · Pregunta 87" (perfil 4.01.2.024, hernias): las alternativas marcan correcta la D (cuerpo extraño), pero la explicación describe un hematoma inguinal posoperatorio (opción B) — inconsistente consigo misma. No se usó. |
+| cirugia-15 | La cuarta pregunta propia del libro (LAST + modificación ACLS, dosis de adrenalina) no trae `correcta` ni `explicacion` en el dataset — dato incompleto. Se usaron las otras 3 preguntas del libro en su lugar. |
+| — (banco, no libro) | "EUNACOM Julio 2017 · Pregunta 68" (seroma) y "EUNACOM Enero 2023 · Pregunta 77" (quemadura pediátrica) tienen la explicación completamente desligada del enunciado (texto de plantilla o de otro tema). "EUNACOM Julio 2016 · Pregunta 11" y "EUNACOM Diciembre 2018 · Pregunta 148" están autoetiquetadas por el banco como "capciosa"/"[Pregunta disputada]". Ninguna se usó. |

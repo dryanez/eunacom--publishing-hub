@@ -1,0 +1,268 @@
+{
+  "id": "gin-14",
+  "title": "Ginecologia 20.14: Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+  "specialty": "Ginecología",
+  "chars": 11356,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido a la clase de hoy. El cáncer de mama es la primera causa de muerte por cáncer en mujeres en Chile, y hoy vas a aprender a leer un informe mamográfico con el sistema BI-RADS, a diferenciar los nódulos benignos que más se preguntan, y a entender por qué el subtipo molecular del tumor cambia todo el tratamiento. Partamos por el tamizaje."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el tamizaje, porque es lo único que ha demostrado bajar la mortalidad. En Chile, la mamografía bilateral se garantiza cada dos años, entre los cincuenta y los sesenta y nueve años."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si hay riesgo genético familiar importante, el tamizaje parte antes, entre los treinta y los treinta y cinco años, o diez años antes de la edad del familiar más joven diagnosticado."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el factor de riesgo más potente es genético: las mutaciones BRCA uno y BRCA dos, que llevan el riesgo acumulado de cáncer de mama hasta ochenta de cada cien mujeres portadoras."
+    },
+    {
+      "file": "s01_g03",
+      "text": "También pesa mucho el antecedente familiar directo, en especial si el cáncer fue bilateral, o apareció antes de los cuarenta años."
+    },
+    {
+      "file": "s01_g04",
+      "text": "También suma la radioterapia en el tórax durante la juventud, como la que se usa para tratar un linfoma de Hodgkin."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y una biopsia previa con hiperplasia ductal atípica, o con carcinoma lobulillar in situ, también marca mayor riesgo a futuro."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El sistema BI-RADS ordena toda la conducta. Si el informe dice BI-RADS cero, es que el estudio quedó incompleto, y el paso es pedir una ecografía complementaria."
+    },
+    {
+      "file": "s02_g01",
+      "text": "BI-RADS uno o dos son hallazgos normales o claramente benignos, con cero riesgo de cáncer. Ahí sigues con el control habitual, cada dos años."
+    },
+    {
+      "file": "s02_g02",
+      "text": "BI-RADS tres es distinto: probablemente benigno, con un riesgo menor a dos de cada cien. No se biopsia todavía, pero tampoco se espera dos años: se controla a los seis meses."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y BI-RADS cuatro o cinco es sospechoso o muy sospechoso, con un riesgo que va de dos hasta más de noventa y cinco de cada cien."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Ahí la conducta es una sola: biopsia con aguja gruesa. Y ojo, no cualquier biopsia sirve: la punción con aguja fina solo saca células sueltas, y no te permite diferenciar un carcinoma in situ de uno invasor. Para eso necesitas el cilindro de tejido que da la aguja gruesa, porque además es el que te entrega el panel completo de receptores hormonales, HER2 y Ki-67."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y un dato final del sistema: BI-RADS seis ya no es una categoría de sospecha, es malignidad confirmada por una biopsia previa. Ahí lo que sigue es planificar el tratamiento, no seguir estudiando."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El nódulo benigno más frecuente es el fibroadenoma, en mujeres jóvenes, entre quince y treinta y cinco años. Al tacto es firme, móvil e indoloro, con bordes bien definidos. En la ecografía se ve más ancho que alto, con el eje mayor paralelo a la piel."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Si es pequeño, de menos de dos a tres centímetros, y estable, se observa. Si crece, o genera dudas, se extirpa."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La segunda es la condición fibroquística, la más frecuente entre los treinta y los cincuenta años: mastalgia cíclica, bilateral, con una nodularidad difusa que muchos describen como bolsa de perdigones, antes de la menstruación. El manejo es sintomático, con sostén y antiinflamatorios."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y la tercera es la causa más frecuente de telorrea con sangre que sale por un solo poro del pezón, de forma espontánea: el papiloma intraductal. Se estudia con ecografía y se reseca el conducto, para descartar un carcinoma papilar detrás."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Con el diagnóstico hecho, lo que decide el tratamiento sistémico es el subtipo molecular. El Luminal A tiene receptores de estrógeno y progesterona positivos, y HER2 negativo. Se trata con hormonoterapia, y rara vez necesita quimioterapia."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El HER2 enriquecido tiene los receptores hormonales negativos, pero sobreexpresa la proteína HER2. Por eso se trata con quimioterapia más un anticuerpo dirigido, el trastuzumab."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Entre esos dos extremos está el Luminal B: también tiene receptores hormonales positivos, pero con un Ki-67 alto o con HER2 positivo. Por eso combina quimioterapia con hormonoterapia, a diferencia del Luminal A."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y el triple negativo tiene los tres marcadores negativos: no responde ni a la hormonoterapia ni al trastuzumab. Es más frecuente en mujeres jóvenes con mutación BRCA1, y se trata con quimioterapia citotóxica intensiva."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Cuando el tumor tiene receptores hormonales positivos, se agrega hormonoterapia. En la premenopáusica se usa el tamoxifeno, un modulador selectivo que bloquea el estrógeno en la mama."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Pero fíjate en el costo: el tamoxifeno actúa como estrógeno en el endometrio, y eso sube el riesgo de cáncer endometrial y de trombosis venosa. Por eso toda paciente con tamoxifeno y metrorragia se biopsia."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En la postmenopáusica se prefieren los inhibidores de aromatasa, como el anastrozol, que bloquean la conversión de andrógenos a estrógeno en la grasa periférica."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Su costo es distinto: aceleran la osteoporosis y dan artralgias, así que requieren densitometría ósea y suplemento de calcio y vitamina D."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Para la cirugía, la regla es simple. Con un tumor pequeño, unifocal, y una buena relación entre el tamaño de la mama y el tumor, se hace cirugía conservadora: tumorectomía o cuadrantectomía. Tiene la misma sobrevida que la mastectomía."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Pero fíjate en esto, porque se pregunta mucho: la cirugía conservadora exige siempre radioterapia sobre la mama restante. Sin ella, la recidiva local sube muchísimo."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si el tumor es multicéntrico, tiene microcalcificaciones difusas muy extensas, la relación con la mama es mala, o hay una contraindicación para la radioterapia, se hace mastectomía total, con posibilidad de reconstrucción inmediata."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y en cualquiera de los dos casos, si la axila está clínicamente negativa, se hace biopsia del ganglio centinela: se inyecta un radioisótopo o un tinte azul junto al tumor, y se extirpa solo el primer ganglio que lo capta. Si sale negativo, te ahorras el vaciamiento axilar completo, y con eso reduces el linfedema del brazo en más de noventa de cada cien casos."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora pongamos el informe BI-RADS y la conducta en un solo árbol de decisión. Paciente con una mamografía o ecografía mamaria ya realizada. El número BI-RADS es lo primero que hay que leer."
+    },
+    {
+      "file": "s07_g01",
+      "text": "BI-RADS cero significa que el estudio no alcanzó a concluir: se completa con ecografía."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Normal o claramente benigno: sigue el control habitual, cada dos años."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Probablemente benigno, con menos de dos de cada cien de riesgo. Aquí no se biopsia todavía."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Sin factores de riesgo agregados, control estricto a los seis meses."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con riesgo genético importante, se puede adelantar la biopsia, evaluando el caso con el equipo de mama."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Sospechoso o muy sospechoso: biopsia con aguja gruesa siempre, porque permite diferenciar in situ de invasor y medir los receptores."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. BI-RADS tres: control en seis meses. Biopsiar de entrada es un exceso, porque el riesgo es menor a dos de cada cien."
+    },
+    {
+      "file": "s08_g01",
+      "text": "BI-RADS cuatro o cinco: biopsia con aguja gruesa siempre. La PAAF no sirve aquí, y controlar sin biopsiar retrasa el diagnóstico."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Un nódulo típico de fibroadenoma, con BI-RADS dos, se observa o se controla. Operar de inmediato es tratar de más algo benigno."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y telorrea con sangre por un solo poro: se estudia y se reseca el conducto. Atribuirla a la mastopatía fibroquística es el error clásico, porque esa da secreción, pero no hemática ni por un solo poro."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y la cirugía conservadora siempre lleva radioterapia. Omitirla, aunque el margen haya quedado libre, es la trampa más repetida del tratamiento quirúrgico."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y si el tumor tiene receptores positivos pero un Ki-67 alto, es Luminal B, no Luminal A: necesita quimioterapia además de la hormonoterapia. Tratarlo solo con hormonas es quedarse corto."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Mujer de cincuenta y ocho años, sin antecedentes, en control de tamizaje GES. Su mamografía muestra un nódulo espiculado de doce milímetros en la mama izquierda, con microcalcificaciones agrupadas, clasificado como BI-RADS cinco. Está asintomática y pregunta qué examen sigue."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: control en seis meses, punción con aguja fina, biopsia con aguja gruesa guiada por imagen, mastectomía sin confirmación, o resonancia de control. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. BI-RADS cinco tiene más de noventa y cinco de cada cien de probabilidad de ser cáncer, y eso exige biopsia con aguja gruesa. El control a seis meses es para el BI-RADS tres, no para este. La punción con aguja fina no alcanza para diferenciar in situ de invasor. Y operar sin biopsia previa, directamente, es mala práctica."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y un años, con un nódulo de dos centímetros que se autopalpó hace dos meses, de consistencia dura e irregular. Su mamografía informa BI-RADS cuatro."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: controlar en un año, pedir ecografía mamaria, pedir resonancia, hacer biopsia con aguja gruesa, o hacer biopsia estereotáxica. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la E. Con BI-RADS cuatro, la biopsia es obligatoria, sin excepción. Tanto la aguja gruesa como la estereotáxica son aceptables, pero acá se prefiere la estereotáxica. Lo que no es aceptable es controlar, pedir más imágenes sin biopsiar, o dejarlo pasar un año."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una más, del EUNACOM de julio de dos mil diecinueve. Paciente de veinticuatro años que se autopalpa un nódulo de dos centímetros, indoloro, no adherido a la piel. La ecografía muestra una lesión bien delimitada, de veinticinco milímetros, homogénea, con una pared fina alrededor."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: quiste mamario, fibroadenoma, cáncer de mama, papiloma mamario, o tumor filoides. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Todo calza con el fibroadenoma: mujer joven, nódulo bien delimitado, homogéneo, con pared fina. El quiste se ve anecoico, no homogéneo sólido; el cáncer se ve irregular; y el papiloma da telorrea, que aquí no aparece."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una pregunta real más, del EUNACOM de julio de dos mil diecinueve. Mujer de cuarenta y cinco años, cuya mamografía muestra microcalcificaciones agrupadas y espiculadas, de dos centímetros, en el cuadrante superior externo. Su examen mamario es normal, y tiene una mamografía de hace dos años informada como BI-RADS dos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: pedir ecografía mamaria, biopsia con aguja gruesa, biopsia estereotáxica, resonancia mamaria, o control en un año. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C. Ojo con la trampa: el BI-RADS dos es de hace dos años, la imagen de hoy ya es otra, con microcalcificaciones espiculadas que la hacen BI-RADS cuatro a cinco. Y como el examen físico es normal, la lesión no se palpa, así que se biopsia guiada por estereotaxia, no con aguja gruesa a mano alzada."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La mamografía se hace cada dos años, entre los cincuenta y los sesenta y nueve."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Y BI-RADS cuatro o cinco es biopsia con aguja gruesa, sin excepción; la PAAF no sirve para esto."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La cirugía conservadora exige radioterapia siempre, sin excepción."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Y el subtipo molecular decide el fármaco: hormonoterapia en el Luminal A, quimioterapia más hormonoterapia en el Luminal B, trastuzumab en el HER2 enriquecido, y quimioterapia intensiva en el triple negativo."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Y con el ganglio centinela negativo, te ahorras el vaciamiento axilar y su linfedema."
+    },
+    {
+      "file": "s13_g05",
+      "text": "El fibroadenoma es el nódulo típico de la mujer joven: firme, móvil e indoloro."
+    },
+    {
+      "file": "s13_g06",
+      "text": "Y el papiloma intraductal es la causa benigna más frecuente de telorrea hemática por un solo poro. Si te llevas una sola idea de hoy: el número BI-RADS manda la conducta, y solo el cuatro y el cinco biopsian. Nos vemos en la próxima clase."
+    }
+  ]
+}

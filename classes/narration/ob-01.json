@@ -1,0 +1,204 @@
+{
+  "id": "ob-01",
+  "title": "Obstetricia 19.1: Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
+  "specialty": "Obstetricia",
+  "chars": 8524,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido a la primera clase de obstetricia. Vas a ver el control prenatal de bajo riesgo: el calendario de visitas, cuánto ácido fólico, calcio y hierro le indicas a tu paciente, y qué examen toca en cada trimestre. Suena administrativo, pero es de las clases más rentables del examen, porque casi todo se pregunta con una fecha o una dosis exacta. Empecemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Antes de pedir cualquier examen, tienes que saber en qué semana está tu paciente, porque de eso depende todo lo demás. Si su fecha de última regla es confiable y su ciclo era regular, partes de ahí."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Con esa fecha aplicas la regla de Naegele: le sumas siete días y le restas tres meses. Ahí tienes la fecha probable de parto."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Pero fíjate en algo importante: la ecografía del primer trimestre, entre las siete y las catorce semanas, mide la longitud céfalo-nalgas, y es más precisa que la fecha que te da la paciente."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Entonces comparas las dos. ¿Y si no coinciden?"
+    },
+    {
+      "file": "s01_g04",
+      "text": "Si la diferencia es mayor a cinco o siete días, la ecografía gana: se vuelve la fecha oficial, y ya no se mueve más."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Si la diferencia es menor, te quedas con la fecha de última regla. Esa diferencia se pregunta seguido, así que guárdala."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Pasemos a lo que le vas a recetar. En una paciente sin antecedentes, el ácido fólico va de cero coma cuatro a un miligramo al día."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Pero si hay un hijo previo con defecto del tubo neural, si es diabética, o si toma anticonvulsivantes, la dosis sube diez veces: cuatro a cinco miligramos al día. Y en los dos casos, empiezas tres meses antes de buscar el embarazo, y mantienes hasta que se cierra el tubo neural, a las doce semanas."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El calcio arranca después, entre las doce y las dieciséis semanas, con mil a mil quinientos miligramos al día. Fíjate en el porqué: baja el riesgo de preeclampsia en más de la mitad."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El hierro se suma desde las dieciséis a veinte semanas, si la hemoglobina o la ferritina están justo en el límite. Y acuérdate de la meta: hemoglobina de once o más en el primer y tercer trimestre, y diez coma cinco en el segundo, porque ahí el plasma se diluye más."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora los exámenes. En el primer trimestre pides grupo y Rh con Coombs indirecto, hemograma, VDRL, test de VIH, glicemia de ayunas, orina con urocultivo, y en zonas con riesgo, serología de Chagas."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Ojo con la glicemia de ayunas. Si te sale entre cien y ciento veinticinco, no corras a pedir la prueba de tolerancia: repites la glicemia. Si se repite alterada, ya es diabetes gestacional precoz. Si sale ciento veintiséis o más, es una diabetes pregestacional que recién se manifiesta."
+    },
+    {
+      "file": "s03_g02",
+      "text": "A las veinticuatro a veintiocho semanas le pides la prueba de tolerancia a la glucosa con setenta y cinco gramos, a todas tus pacientes, no solo a las de riesgo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si a las dos horas la glicemia es ciento cuarenta o más, ya tienes el diagnóstico de diabetes gestacional."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y entre las treinta y cinco y las treinta y siete semanas tomas el cultivo vaginorrectal, buscando el Streptococcus agalactiae, el estreptococo del grupo B."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Si sale positivo, tú no tratas antes del parto: la bacteria vuelve en pocos días. Lo que haces es dejarlo anotado, y ella recibe penicilina G endovenosa apenas entre en trabajo de parto."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Juntemos las dos preguntas del control prenatal en un solo árbol. Aquí tienes a tu paciente en su primer control. Antes de recetar nada, hazte dos preguntas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La otra pregunta te la haces desde el primer control: ¿tiene algún antecedente de riesgo para el tubo neural?"
+    },
+    {
+      "file": "s04_g02",
+      "text": "Si tiene un hijo previo con defecto del tubo neural, es diabética, o toma anticonvulsivantes, le indicas cuatro a cinco miligramos al día."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si no tiene esos antecedentes, con cero coma cuatro a un miligramo al día te alcanza."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Lo primero que te preguntas es en qué semana está tu paciente, porque eso decide qué examen toca."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Antes de las doce semanas pides la batería completa: grupo y Rh, Coombs indirecto, VDRL, test de VIH, glicemia de ayunas, orina y urocultivo."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Entre las veinticuatro y las veintiocho semanas, la prueba de tolerancia a la glucosa con setenta y cinco gramos va para todas tus pacientes, no solo para las de riesgo."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Y aquí viene la pregunta donde más se equivocan: ¿el cultivo salió positivo?"
+    },
+    {
+      "file": "s04_g08",
+      "text": "Si el cultivo sale positivo, no la tratas antes. Anotas el resultado en su carné, y ella recibe penicilina G endovenosa apenas entre en trabajo de parto, o se le rompan las membranas."
+    },
+    {
+      "file": "s04_g09",
+      "text": "Si el cultivo sale negativo, sigue con el control habitual, sin ninguna profilaxis."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos las trampas. Alto riesgo de defecto del tubo neural: ácido fólico cuatro a cinco miligramos, desde tres meses antes. El error es dejarla con la dosis de bajo riesgo."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Si la fecha de última regla y la ecografía difieren más de cinco a siete días, corriges por la ecografía. El error es aferrarse a la fecha que dio la paciente."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Glicemia de ayuno entre cien y ciento veinticinco: repites la glicemia. El error es saltarte ese paso y pedir la prueba de tolerancia de una vez."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Con la prueba de tolerancia, si a las dos horas sale ciento cuarenta o más, el diagnóstico ya está hecho. El error es pedir una segunda prueba, como si hiciera falta confirmar."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y con el cultivo positivo para estreptococo, la respuesta es penicilina en el parto, no antes. Ese antibiótico oral previo es la trampa más repetida de todo el tema."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Primigesta de nueve semanas, por una fecha de regla confiable, sin antecedentes, que llega a su primer control prenatal. Te pregunta qué tiene que empezar a tomar y qué exámenes le vas a pedir."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Cuál es la indicación correcta para este control?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Tienes cinco opciones: ácido fólico en dosis baja más la batería del primer trimestre, ácido fólico en dosis alta solo por ser su primer embarazo, iniciar calcio desde ya, pedir la prueba de tolerancia a la glucosa ahora mismo, o iniciar hierro desde ya. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la A. No tiene ningún antecedente de riesgo, así que el ácido fólico va en dosis baja, y a las nueve semanas corresponde justo la batería del primer trimestre. El resto son trampas de tiempo: el calcio parte a las doce a dieciséis semanas, la prueba de tolerancia a las veinticuatro a veintiocho, y el hierro desde las dieciséis a veinte. Ninguno de esos tres toca todavía."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de treinta y cinco años, con embarazo de quince semanas, sin síntomas. Su VDRL es negativo, su hemoglobina es once coma cinco, y su glicemia de ayuno sale en ciento ocho. El examen físico es normal."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta más adecuada en este caso?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones son: pedir la prueba de tolerancia a la glucosa, indicar dieta y seguir el control habitual, pedir hemoglobina glicosilada, indicar insulina, o pedir una nueva glicemia de ayunas. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la E. Fíjate que ciento ocho cae justo entre cien y ciento veinticinco, y eso no te manda directo a la prueba de tolerancia: primero repites la glicemia de ayunas. Si vuelve a salir alterada, ahí sí es diabetes gestacional precoz. Pedir la prueba de tolerancia de entrada, o tratarla con insulina, es adelantarse al paso que corresponde."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Y una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veinticinco años, vegana estricta, con un parto hace seis meses de un hijo con mielomeningocele, que consulta porque quiere planificar un nuevo embarazo."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el suplemento que se indica de manera prioritaria?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: vitamina B doce, ácido fólico, calcio, hierro, o ácidos grasos omega tres. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. La pregunta te tienta con la vitamina B doce, porque la dieta vegana sí se asocia a ese déficit. Pero el antecedente que manda aquí es el hijo previo con defecto del tubo neural: eso te obliga al ácido fólico en dosis alta, cuatro miligramos al día, empezando idealmente tres meses antes del embarazo y hasta la semana doce. La vitamina B doce importa, pero no es la prioridad de esta paciente."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. Si la fecha de última regla y la ecografía precoz difieren más de cinco a siete días, corriges por la ecografía."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Y con antecedente de defecto del tubo neural, diabetes o anticonvulsivantes, el ácido fólico va en dosis alta, no en la dosis de bajo riesgo."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Una glicemia de ayuno entre cien y ciento veinticinco se repite, no se trata todavía."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y la prueba de tolerancia va a las veinticuatro a veintiocho semanas, con ciento cuarenta a las dos horas como corte diagnóstico."
+    },
+    {
+      "file": "s09_g04",
+      "text": "El cultivo positivo para estreptococo del grupo B no se trata antes: se anota, y se da penicilina G durante el parto. Si te llevas una sola idea de hoy: en el control prenatal, cada dato tiene su semana exacta, y esa semana es justamente lo que se pregunta. Nos vemos en la próxima clase."
+    }
+  ]
+}

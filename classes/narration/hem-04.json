@@ -1,0 +1,268 @@
+{
+  "id": "hem-04",
+  "title": "Hematología 8.4: Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
+  "specialty": "Hematología",
+  "chars": 13655,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. En la clase anterior vimos la anemia a la que le falta hierro. Hoy vemos dos anemias que no se arreglan dando hierro a ciegas: la anemia de las enfermedades crónicas, que es la más frecuente en el paciente hospitalizado, y la anemia de la enfermedad renal crónica. La primera se entiende con la hepcidina; la segunda, con la eritropoyetina. Y el examen insiste en una cifra: la meta de hemoglobina en el paciente renal."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por quién tiene esta anemia. Pacientes con una inflamación que dura: infecciones prolongadas como la tuberculosis, la osteomielitis o la endocarditis subaguda; neoplasias sólidas o hematológicas; y enfermedades autoinmunes activas, como la artritis reumatoide, el lupus o las vasculitis."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En todos ellos hay un denominador común: citocinas proinflamatorias. La interleucina seis y el interferón gamma circulan en exceso, y le mandan una orden al hígado."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La orden es fabricar hepcidina. La hepcidina es el freno central del metabolismo del hierro, y en la inflamación el hígado la produce en grandes cantidades."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y aquí está el mecanismo que se pregunta. La hepcidina se une a la ferroportina, que es la única puerta de salida del hierro desde las células, y la destruye. Sin esa puerta, el hierro queda atrapado dentro de los macrófagos y del hígado, y el enterocito tampoco lo deja pasar. Hay hierro en el cuerpo, pero la médula no lo recibe."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Pero la hepcidina no es lo único. El factor de necrosis tumoral y el interferón frenan directamente a los progenitores eritroides de la médula, y los macrófagos hiperactivos acortan la vida del glóbulo rojo, de ciento veinte días a unos ochenta o noventa."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y encima, el riñón responde con menos eritropoyetina de la esperada frente a la anemia. Tres golpes a la vez: hierro bloqueado, médula frenada y eritropoyetina débil. El resultado es una anemia hipoproliferativa, con reticulocitos bajos, como la que ordenamos en la primera clase del bloque."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos el hemograma. Al principio, la anemia de las enfermedades crónicas es normocítica y normocrómica, con un VCM entre ochenta y noventa y cinco."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Pero si la falta de hierro disponible se mantiene por meses, la síntesis de hemo se resiente y aparece una microcitosis leve, con un VCM de setenta y dos a setenta y nueve, y casi nunca bajo setenta. Ojo con esto: una microcitosis no es sinónimo de ferropenia, y el examen lo usa para confundirte."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La hemoglobina suele moverse entre ocho coma cinco y once coma cinco. Es una anemia leve a moderada, que acompaña a la enfermedad de base."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Por eso, si la hemoglobina cae bajo ocho, no te quedes tranquilo con el diagnóstico de enfermedad crónica. Busca un sangrado concomitante u otra causa sobreagregada."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El perfil de hierro es el que decide, y ya lo conoces de la clase del perfil. La ferritina está alta, sobre cien a trescientos, porque es un reactante de fase aguda positivo y porque los depósitos están llenos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La transferrina y la TIBC están bajas, porque son reactantes de fase aguda negativos. Esa es la gran diferencia con la ferropenia, donde la transferrina sube."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La ferremia está baja, porque el hierro está encerrado en los macrófagos, y la saturación de transferrina queda normal o levemente baja, entre quince y veinticinco por ciento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Si se hiciera un mielograma, la tinción de azul de Prusia muestra abundante hierro en los macrófagos, pero nada en los sideroblastos. Es la imagen perfecta del secuestro: el hierro está guardado, pero no llega al glóbulo rojo en formación."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y en el paciente difícil, por ejemplo con artritis reumatoide o insuficiencia cardíaca y una anemia mixta, el receptor soluble de transferrina y su índice con la ferritina aclaran el cuadro. Si el receptor soluble está elevado, además de inflamación hay ferropenia verdadera."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos a la segunda anemia de la clase. En la enfermedad renal crónica, la anemia aparece cuando la filtración glomerular baja de cuarenta y cinco a sesenta mililitros por minuto, es decir, desde la etapa tres en adelante."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La causa principal está en la corteza renal. Ahí hay unas células intersticiales peritubulares que miden el oxígeno de los tejidos y fabrican eritropoyetina. A medida que el riñón se fibrosa, esas células desaparecen, y el paciente ya no es capaz de producir eritropoyetina aunque esté anémico. Ese es el mecanismo central de la anemia renal."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Además, la uremia hace lo suyo. Las toxinas urémicas dañan la médula y la membrana del glóbulo rojo, y mantienen un estado de microinflamación permanente."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Eso significa menos precursores eritroides, glóbulos rojos que viven menos, y una hepcidina elevada. Fíjate en la conexión: la misma hepcidina de la enfermedad crónica también aparece en el paciente renal."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Por eso la anemia renal es un modelo mixto: falta eritropoyetina y además el hierro está funcionalmente bloqueado. Es una anemia normocítica, normocrómica y arregenerativa. Y esas dos causas explican el tratamiento: habrá que dar eritropoyetina, pero también hierro."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Vamos al tratamiento. En Chile, el manejo de la anemia en la insuficiencia renal crónica terminal está cubierto por el GES de esa enfermedad. Y la regla número uno, antes de cualquier agente estimulante de la eritropoyesis, es mirar los depósitos de hierro."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La pregunta es: ¿la ferritina está sobre doscientos, en el paciente en hemodiálisis, y la saturación de transferrina sobre veinte por ciento? Si no se cumplen esas dos condiciones, todavía no se inicia la eritropoyetina."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Primero se repone hierro, y en diálisis se da por vía endovenosa: hierro sacarato o carboximaltosa, cien miligramos en cada sesión, hasta completar unos mil. En el paciente dializado esto es rutinario y obligatorio."
+    },
+    {
+      "file": "s05_g03",
+      "text": "¿Y por qué tanto énfasis? Porque si inicias o subes la eritropoyetina con los depósitos vacíos, la médula consume de inmediato el poco hierro disponible, y la hemoglobina no sube. Eso se llama resistencia funcional a la eritropoyetina. Es la trampa típica del caso clínico."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Con los depósitos llenos, ahora sí: eritropoyetina recombinante humana, cincuenta a cien unidades por kilo, dos a tres veces por semana. Se prefiere la vía subcutánea en prediálisis, por su mejor biodisponibilidad, y en diálisis también puede ir endovenosa."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Una alternativa es la darbepoetina alfa, una eritropoyetina hiperglicosilada con una vida media más larga, que permite inyectarla una vez a la semana o cada dos semanas."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Y lo esperable es una subida suave, de uno a dos gramos por decilitro al mes. No buscamos una subida rápida, y en la próxima diapositiva vas a entender por qué."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Esta es la cifra que el examen pregunta con más insistencia. En el paciente renal tratado con eritropoyetina, la meta de hemoglobina es de diez a once coma cinco, con un techo de seguridad de doce."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Ese rango reduce las transfusiones, alivia la astenia y mejora la hipertrofia del ventrículo izquierdo que produce la anemia crónica. Es suficiente para que el paciente esté bien."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Lo que no se hace es normalizar la hemoglobina. Tres grandes ensayos, CHOIR, CREATE y TREAT, mostraron que llevarla sobre trece con dosis altas de eritropoyetina aumenta el accidente cerebrovascular isquémico, la trombosis de la fístula de hemodiálisis, la hipertensión grave y la mortalidad cardiovascular."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Por eso, si la hemoglobina supera once coma cinco a doce, la conducta es reducir la dosis de eritropoyetina entre un veinticinco y un cincuenta por ciento. Y si pasa de doce a trece, se suspende transitoriamente hasta que baje de once coma cinco."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y el efecto adverso cardiovascular más común de la eritropoyetina es la hipertensión arterial, que aparece en un veinte a treinta por ciento de los pacientes. Por eso se controla la presión cada semana al iniciarla, y se trata con los antihipertensivos habituales."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Volvamos a la anemia de las enfermedades crónicas, porque su tratamiento es distinto. Si el problema es la hepcidina, la solución es apagar la inflamación que la mantiene alta. Cuando se controla la artritis, la infección o el cáncer, la hepcidina baja, la ferroportina vuelve y el hierro sale de los macrófagos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La anemia de la inflamación no se trata con hierro empírico. Piénsalo con el mecanismo: el hierro que le das también queda bloqueado por la hepcidina. El error clásico es ver la ferremia baja y recetar sulfato ferroso."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La excepción es cuando hay una ferropenia verdadera sumada a la inflamación, que en la clase del perfil vimos que se sospecha con una ferritina bajo cien y la PCR alta. Ahí sí hay hierro que reponer."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos las dos anemias en un solo árbol, empezando por la anemia normocítica que no regenera. Tienes una anemia normocítica con reticulocitos bajos. Las dos preguntas son si hay inflamación y cómo está la función renal."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Pide la PCR, el perfil de hierro y estima la filtración glomerular. Eso te dice cuál de los dos mecanismos domina."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si domina la inflamación, mira la ferritina junto con la PCR, para no pasar por alto una ferropenia asociada."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Ferritina alta y transferrina baja: anemia de enfermedad crónica pura. Se trata la enfermedad de base, sin hierro empírico."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Ferritina bajo cien con PCR alta: además de la inflamación falta hierro, y ese hierro sí se repone."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si el problema es el riñón, antes de la eritropoyetina revisa los depósitos: ferritina sobre doscientos y saturación sobre veinte por ciento."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no se cumplen, primero hierro endovenoso. Iniciar o subir la eritropoyetina así solo produce resistencia."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Con depósitos llenos, se inicia la eritropoyetina, con meta de hemoglobina de diez a once coma cinco."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si la hemoglobina pasa de once coma cinco a doce, se reduce la dosis entre un veinticinco y un cincuenta por ciento, o se suspende transitoriamente si pasa de doce a trece."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Comparemos las tres anemias lado a lado. El VCM: la ferropénica es francamente microcítica. La de enfermedad crónica es normocítica y solo con el tiempo se vuelve levemente microcítica. Y la renal es normocítica pura."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La ferritina: baja en la ferropenia, alta en la inflamación, y normal o alta en el paciente renal, según cuánta inflamación tenga."
+    },
+    {
+      "file": "s09_g02",
+      "text": "La transferrina: alta en la ferropenia y baja en la inflamación. Esa es la diferencia que más se pregunta, y la que resuelve la pregunta real que viene."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La saturación: muy baja en la ferropenia, normal o algo baja en la inflamación, y en el renal hay que mirarla con cuidado, porque una saturación baja indica ferropenia funcional."
+    },
+    {
+      "file": "s09_g04",
+      "text": "El mecanismo: en la ferropénica falta hierro, en la crónica el hierro está secuestrado por la hepcidina, y en la renal falta eritropoyetina."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y el tratamiento sigue al mecanismo: hierro en la ferropénica, tratar la enfermedad de base en la crónica, y en la renal primero hierro endovenoso y después eritropoyetina, con meta de diez a once coma cinco."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Mujer de sesenta y cuatro años con nefropatía diabética, en hemodiálisis tres veces por semana, que ya recibe eritropoyetina. En su control tiene hemoglobina ocho coma siete, VCM ochenta y ocho, ferritina ciento diez y saturación de transferrina de catorce por ciento. Está asintomática y con presión normal. La enfermera propone duplicar la dosis de eritropoyetina."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: subir la eritropoyetina, hierro sacarato endovenoso en cada sesión, transfundir, suspender la eritropoyetina, o sulfato ferroso oral. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Aplica la regla de los depósitos: ferritina bajo doscientos y saturación bajo veinte. Hay ferropenia funcional, y por eso la eritropoyetina no está funcionando. El distractor tentador es la A, porque la hemoglobina está bajo la meta, pero subir la dosis sin hierro es exactamente la resistencia de la que hablamos: más costo, más toxicidad y la hemoglobina no sube. Y en diálisis el hierro va endovenoso, no oral."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Mujer de cincuenta y dos años con artritis reumatoide, tratada con antiinflamatorios, prednisona y metotrexato, que consulta por astenia y disnea de esfuerzo. Tiene creatinina uno coma seis, hemoglobina nueve coma siete, microcitosis en el frotis, ferremia baja y transferrina baja."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: anemia por enfermedades crónicas, mielodisplasia, anemia por insuficiencia renal crónica, hipoplasia medular, o mieloma múltiple. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, anemia por enfermedades crónicas. Hay una inflamación activa, la artritis, y el perfil lo confirma: ferremia baja con transferrina baja, que es la huella de la hepcidina. El distractor tentador es la anemia renal, por la creatinina. Pero la anemia renal es normocítica, y el dato que el examen te muestra es la transferrina baja en una paciente con artritis. La microcitosis leve calza con una inflamación de larga data."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. En la anemia de las enfermedades crónicas, la interleucina seis sube la hepcidina, la hepcidina destruye la ferroportina y el hierro queda atrapado en los macrófagos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El perfil es ferritina alta con transferrina baja, y se trata la enfermedad de base, no con hierro empírico."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En la anemia renal falta eritropoyetina, desde filtraciones bajo cuarenta y cinco a sesenta, y la anemia es normocítica y arregenerativa."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Antes de la eritropoyetina, primero hierro: ferritina sobre doscientos y saturación sobre veinte por ciento. Sin hierro, la eritropoyetina fracasa."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y la meta de hemoglobina es de diez a once coma cinco; llevarla sobre doce o trece aumenta el accidente cerebrovascular, la trombosis de la fístula y la mortalidad."
+    },
+    {
+      "file": "s12_g05",
+      "text": "En la próxima clase vemos una médula que no falla por falta de hierro ni de eritropoyetina, sino porque se vacía: la aplasia medular. Si te llevas una sola idea de hoy: en la inflamación se trata la causa, y en el riñón se da hierro primero y eritropoyetina después, sin pasar de once coma cinco. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+// Clase 2.4 — guion docente escrito a mano (ver gastro-01.cjs para el formato).
+// Fuente clínica: books/scripts/dataset_infectologia.cjs (inf-08).
+
+const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
+
+module.exports = {
+  id: 'infecto-08',
+  tier: 1,
+  slides: [
+    {
+      type: 'cover',
+      subtitle: 'El reloj de la incubación, el agua de arroz y la parálisis que baja',
+      say: 'Bienvenidos. Cerramos el bloque de salud pública con las enfermedades que llegan por la comida y el agua: la intoxicación alimentaria, el cólera y el botulismo. Aquí el examen es casi matemático. Te cuentan qué comieron y cuántas horas pasaron, y con eso sabes el germen. Y en el botulismo, te describen una parálisis que baja desde los ojos. Partamos.',
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Incubación',
+      title: 'Las horas desde la comida delatan el mecanismo',
+      nodes: [
+        { id: 'com', col: 0, row: 2, k: 'start', t: 'Comida sospechosa', s: '¿Cuántas horas pasaron?' },
+        { id: 'pre', col: 1, row: 0, k: 'mech', t: '< 6 horas', s: 'Toxina preformada en el alimento' },
+        { id: 'viv', col: 1, row: 2, k: 'mech', t: '8 a 16 horas', s: 'Toxina producida en el intestino' },
+        { id: 'inv', col: 1, row: 4, k: 'mech', t: '> 16 a 48 horas', s: 'Invasión bacteriana' },
+        { id: 'vom', col: 2, row: 0, k: 'effect', t: 'Vómitos incoercibles', s: 'Sin fiebre' },
+        { id: 'dia', col: 2, row: 2, k: 'effect', t: 'Cólicos y diarrea acuosa', s: 'Predomina la diarrea' },
+        { id: 'fie', col: 2, row: 4, k: 'effect', t: 'Fiebre y dolor inflamatorio', s: 'A veces disentería' },
+        { id: 'sa', col: 3, row: 0, k: 'cause', t: 'S. aureus · B. cereus emético', s: 'Mayonesa casera · arroz recalentado' },
+        { id: 'cp', col: 3, row: 2, k: 'cause', t: 'C. perfringens · B. cereus diarreico', s: 'Carnes y guisos recalentados' },
+        { id: 'sal', col: 3, row: 4, k: 'cause', t: 'Salmonella · Campylobacter · ECET', s: 'Huevos, pollo, leche cruda, viajero' },
+      ],
+      edges: [
+        { from: 'com', to: 'pre' }, { from: 'com', to: 'viv' }, { from: 'com', to: 'inv' },
+        { from: 'pre', to: 'vom' }, { from: 'viv', to: 'dia' }, { from: 'inv', to: 'fie' },
+        { from: 'vom', to: 'sa' }, { from: 'dia', to: 'cp' }, { from: 'fie', to: 'sal' },
+      ],
+      steps: [
+        { show: ['com'], note: 'La primera pregunta: cuántas horas',
+          say: 'Partamos por la idea que ordena todo el tema. Frente a un brote después de una comida, la primera pregunta es cuántas horas pasaron entre la comida y los síntomas. Ese tiempo te dice el mecanismo, y el mecanismo te dice el germen.' },
+        { show: ['pre', 'vom'], note: 'Menos de seis horas: la toxina ya venía en la comida',
+          say: 'Si pasaron menos de seis horas, la bacteria ya había fabricado su toxina en la comida antes de que el paciente la comiera. No hay nada que incubar. El cuadro son náuseas intensas y vómitos incoercibles, y sin fiebre, porque no hay infección, hay intoxicación.' },
+        { show: ['sa'], note: 'Mayonesa: aureus · arroz: cereus',
+          say: 'Los dos prototipos se reconocen por el alimento. Staphylococcus aureus, con mayonesas caseras, pasteles con crema, jamón o ensalada de papas. Y Bacillus cereus en su variedad emética, con el arroz frito o recalentado.' },
+        { show: ['viv', 'dia'], note: 'Ocho a dieciséis horas: la toxina se fabrica adentro',
+          say: 'Entre ocho y dieciséis horas, lo que se comió fue la bacteria viva o sus esporas. Colonizan el intestino delgado y ahí secretan la toxina. Por eso ahora predominan los cólicos intensos y la diarrea acuosa profusa.' },
+        { show: ['cp'], note: 'Guisos recalentados',
+          say: 'El prototipo es el Clostridium perfringens, con carnes, guisos y estofados recalentados. También el Bacillus cereus en su variedad diarreica.' },
+        { show: ['inv', 'fie'], note: 'Más de dieciséis horas: invasión y fiebre',
+          say: 'Y si pasaron más de dieciséis y hasta cuarenta y ocho horas, la bacteria invade la mucosa. Aparece lo que faltaba en los otros dos: fiebre, dolor abdominal inflamatorio y a veces disentería.' },
+        { show: ['sal'], note: 'Huevos, pollo y el viajero',
+          say: 'Aquí están Salmonella enteritidis, con huevos crudos y aves; Campylobacter jejuni, con pollo crudo y leche no pasteurizada; y Escherichia coli enterotoxigénica, la diarrea del viajero. En resumen: vómitos sin fiebre es toxina preformada, y fiebre es invasión.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Cólera',
+      title: 'Cólera: una toxina que abre el grifo del intestino',
+      nodes: [
+        { id: 'agu', col: 0, row: 1, k: 'cause', t: 'Agua o mariscos contaminados', s: 'V. cholerae O1 y O139' },
+        { id: 'tox', col: 1, row: 1, k: 'mech', t: 'Toxina colérica', s: 'Se une al gangliósido GM1' },
+        { id: 'amp', col: 2, row: 1, k: 'mech', t: 'AMP cíclico muy alto', s: 'Adenilato ciclasa activada' },
+        { id: 'cft', col: 3, row: 1, k: 'mech', t: 'CFTR abierto', s: 'Sale cloruro, no entra sodio' },
+        { id: 'arr', col: 3, row: 3, k: 'effect', t: 'Diarrea en agua de arroz', s: 'Sin sangre, sin mal olor' },
+        { id: 'sho', col: 2, row: 3, k: 'alert', t: 'Shock hipovolémico', s: 'Hasta 1 L por hora' },
+      ],
+      edges: [
+        { from: 'agu', to: 'tox' }, { from: 'tox', to: 'amp' }, { from: 'amp', to: 'cft' },
+        { from: 'cft', to: 'arr' }, { from: 'arr', to: 'sho' },
+      ],
+      steps: [
+        { show: ['agu'], note: 'Transmisión fecal por agua y mariscos',
+          say: 'Pasemos al cólera. El Vibrio cholerae, de los serogrupos O uno y O ciento treinta y nueve, se transmite por agua o mariscos bivalvos contaminados con heces humanas.' },
+        { show: ['tox', 'amp'], note: 'La toxina activa la adenilato ciclasa',
+          say: 'La bacteria no invade: todo lo hace su toxina. La toxina colérica se une al gangliósido GM uno del enterocito y deja activada de forma irreversible la adenilato ciclasa. El resultado es un AMP cíclico altísimo dentro de la célula.' },
+        { show: ['cft'], note: 'Secreción de cloruro y agua',
+          say: 'Ese AMP cíclico abre los canales CFTR de cloruro y bloquea la absorción de sodio. El cloruro sale al lumen y el agua lo sigue. Es como abrir un grifo en la pared del intestino.' },
+        { show: ['arr'], note: 'La diarrea que se reconoce a simple vista',
+          say: 'Por eso la diarrea es acuosa, blanquecina, sin sangre y sin olor fétido: la clásica diarrea en agua de arroz. Y fíjate que no hay dolor importante ni fiebre, porque no hay inflamación.' },
+        { show: ['sho'], note: 'Mata por deshidratación, en horas',
+          say: 'Lo grave es el volumen. Las pérdidas pueden llegar a un litro por hora, y sin rehidratación el paciente cae en shock hipovolémico y muere en menos de doce horas.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cólera · tratamiento',
+      title: 'Primero el agua, después el antibiótico',
+      cards: [
+        { title: 'Rehidratación', tag: 'Prioridad absoluta', kind: 'key', items: [
+          { t: 'SRO OMS si tolera', d: 'Sales de rehidratación oral',
+            say: 'El tratamiento sale directo del mecanismo. Si el problema es agua que se pierde, la prioridad absoluta es reponerla: sales de rehidratación oral de la Organización Mundial de la Salud, si el paciente tolera la vía oral.' },
+          { t: 'Ringer lactato EV masivo', d: 'Si está en shock',
+            say: 'Y si está en shock, Ringer lactato endovenoso, en volúmenes masivos. Esto es lo que salva la vida.' },
+        ] },
+        { title: 'Antibiótico', tag: 'Moderado a severo', kind: 'pharma', items: [
+          { t: 'Doxiciclina 300 mg dosis única', d: 'Acorta la duración',
+            say: 'En los casos moderados a severos se agrega un antibiótico, que acorta la duración del cuadro: doxiciclina oral, trescientos miligramos en dosis única.' },
+          { t: 'Niños y embarazadas: azitromicina', d: 'Dosis única',
+            say: 'En niños y embarazadas, donde se evita la doxiciclina, se usa azitromicina en dosis única. Pero ojo con el orden: el antibiótico acompaña, la rehidratación es lo que no puede faltar.' },
+        ] },
+        { title: 'Salud pública', tag: 'ENO inmediata', kind: 'alert', items: [
+          { t: 'Notificación obligatoria inmediata', d: 'Cólera y botulismo',
+            say: 'Y un dato de salud pública: el cólera es una enfermedad de notificación obligatoria inmediata, igual que el botulismo que vemos ahora.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Botulismo',
+      title: 'Botulismo: sin acetilcolina, todo se paraliza',
+      nodes: [
+        { id: 'con', col: 0, row: 1, k: 'cause', t: 'Conserva casera', s: 'Mal esterilizada, en frasco' },
+        { id: 'tox', col: 1, row: 1, k: 'mech', t: 'Toxina botulínica', s: 'La sustancia más letal conocida' },
+        { id: 'snr', col: 2, row: 1, k: 'mech', t: 'Destruye SNARE (SNAP-25)', s: 'No se libera acetilcolina' },
+        { id: 'par', col: 3, row: 0, k: 'effect', t: 'Pares craneanos', s: 'Diplopía, ptosis, disfagia, disartria' },
+        { id: 'des', col: 3, row: 1, k: 'alert', t: 'Parálisis flácida descendente', s: 'Simétrica, sin compromiso sensitivo' },
+        { id: 'aut', col: 3, row: 2, k: 'effect', t: 'Disautonomía', s: 'Midriasis arreactiva, boca seca, íleo' },
+      ],
+      edges: [
+        { from: 'con', to: 'tox' }, { from: 'tox', to: 'snr' },
+        { from: 'snr', to: 'par' }, { from: 'snr', to: 'des' }, { from: 'snr', to: 'aut' },
+      ],
+      steps: [
+        { show: ['con'], note: 'La pista es el frasco casero',
+          say: 'Ahora el botulismo. El Clostridium botulinum es un bacilo anaerobio, y sus esporas contaminan las conservas caseras mal esterilizadas: vegetales, pescados o embutidos en frascos de vidrio. Cuando en un caso aparece una conserva casera, piensa en botulismo.' },
+        { show: ['tox', 'snr'], note: 'Bloqueo presináptico de la acetilcolina',
+          say: 'La toxina botulínica es la sustancia más letal conocida. Se absorbe en el intestino, viaja por la sangre y destruye las proteínas SNARE en la terminación nerviosa colinérgica. Sin ellas, la acetilcolina no se libera, ni en la placa motora ni en el sistema autónomo.' },
+        { show: ['par'], note: 'Empieza por los ojos y la boca',
+          say: 'De ahí sale una tríada. Primero, los pares craneanos: visión borrosa, diplopía, ptosis, disfagia y disartria. El paciente llega viendo doble y sin poder tragar.' },
+        { show: ['des'], note: 'Baja: de la cabeza a las extremidades',
+          say: 'Segundo, una parálisis flácida, simétrica y descendente: parte en la cabeza y baja hacia las extremidades, sin compromiso sensitivo. Esa palabra, descendente, es la que se pregunta, porque la separa del Guillain-Barré, que sube desde las piernas.' },
+        { show: ['aut'], note: 'Falla también el autónomo',
+          say: 'Y tercero, la disautonomía, porque el sistema autónomo también usa acetilcolina: midriasis arreactiva, boca seca, constipación e íleo paralítico. La pupila dilatada es la otra pista que lo separa de la miastenia.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Botulismo · manejo',
+      title: 'UCI, ventilación y antitoxina precoz',
+      cards: [
+        { title: 'Soporte', tag: 'Riesgo de paro respiratorio', kind: 'alert', items: [
+          { t: 'Hospitalizar en UCI', d: 'La parálisis puede llegar al diafragma',
+            say: '¿Cómo se maneja? Si la parálisis baja, en algún momento llega a los músculos respiratorios. Por eso el paciente se hospitaliza de inmediato en la unidad de cuidados intensivos.' },
+          { t: 'Ventilación mecánica', d: 'Según la mecánica ventilatoria',
+            say: 'Se vigila la mecánica ventilatoria y se da soporte con ventilación mecánica cuando hace falta.' },
+        ] },
+        { title: 'Antitoxina botulínica', tag: 'Lo antes posible', kind: 'pharma', items: [
+          { t: 'Equina trivalente o heptavalente', d: 'Administración precoz',
+            say: 'Y el tratamiento específico es la antitoxina botulínica equina, trivalente o heptavalente, administrada lo antes posible.' },
+          { t: 'Neutraliza la toxina libre', d: 'No revierte la parálisis establecida',
+            say: '¿Por qué tan precoz? Porque la antitoxina solo neutraliza la toxina que todavía circula libre. La que ya se unió a la terminación nerviosa no se revierte. Por eso no se espera a confirmar: se sospecha y se administra.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'pathway',
+      intro: 'Juntemos todo en un árbol de decisión para el paciente que consulta después de una comida.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trampas EUNACOM',
+      title: 'Germen según alimento y horas de incubación',
+      head: ['Germen', 'Incubación', 'Alimento', 'Pista clínica'],
+      rows: [
+        { cells: ['S. aureus', '1–6 h', 'Mayonesa casera, cremas, pasteles', 'Vómitos incoercibles, sin fiebre'],
+          say: 'Repasemos con la tabla. Staphylococcus aureus: una a seis horas, mayonesa casera o pasteles con crema, vómitos incoercibles sin fiebre.' },
+        { cells: ['B. cereus emético', '1–5 h', 'Arroz frito o recalentado', 'Náuseas y vómitos explosivos'],
+          say: 'Bacillus cereus emético: una a cinco horas, arroz frito o recalentado, vómitos explosivos. El alimento es lo que lo separa del aureus.' },
+        { cells: ['C. perfringens', '8–16 h', 'Carnes y guisos recalentados', 'Cólico intenso y diarrea, sin vómitos'],
+          say: 'Clostridium perfringens: ocho a dieciséis horas, guisos recalentados, cólicos y diarrea, sin vómitos.' },
+        { cells: ['Salmonella no tifoidea', '12–48 h', 'Huevos crudos, mayonesa, pollo', 'Fiebre alta, vómitos, diarrea con estrías'],
+          say: 'Salmonella no tifoidea: doce a cuarenta y ocho horas, huevos crudos o pollo, y aquí sí hay fiebre alta. Ojo, que la mayonesa aparece en las dos: el reloj y la fiebre deciden.' },
+        { cells: ['V. cholerae', '12–72 h', 'Agua contaminada, mariscos crudos', 'Diarrea profusa en agua de arroz, sin dolor'],
+          say: 'Vibrio cholerae: doce a setenta y dos horas, agua o mariscos, diarrea profusa en agua de arroz sin dolor.' },
+        { cells: ['C. botulinum', '12–36 h', 'Conservas caseras', 'Parálisis flácida descendente + diplopía'],
+          say: 'Y Clostridium botulinum: doce a treinta y seis horas, conservas caseras, diplopía y parálisis descendente.' },
+      ],
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Caso clínico',
+      title: 'Caso clínico',
+      stem: 'Cuatro miembros de una familia consultan en urgencias por náuseas y vómitos profusos de inicio explosivo hace 3 horas. Almorzaron hace 4 horas pastel de choclo y ensalada rusa con mayonesa casera preparada la noche anterior. Ninguno tiene fiebre ni diarrea. Examen: deshidratación leve y dolor epigástrico por los esfuerzos de vómito.',
+      question: '¿Cuál es el agente más probable y la conducta adecuada?',
+      options: [
+        { letter: 'A', text: 'Salmonella enteritidis; ciprofloxacino por 5 días' },
+        { letter: 'B', text: 'Staphylococcus aureus; rehidratación y antieméticos, sin antibióticos' },
+        { letter: 'C', text: 'Clostridium perfringens; metronidazol oral' },
+        { letter: 'D', text: 'Staphylococcus aureus; cloxacilina oral por 7 días' },
+        { letter: 'E', text: 'Vibrio cholerae; doxiciclina 300 mg en dosis única' },
+      ],
+      correct: 'B',
+      explanation: 'Incubación de 1 hora, vómitos predominantes, sin fiebre y mayonesa casera: enterotoxina preformada de S. aureus. Tratamiento de soporte (rehidratación oral fraccionada o cristaloides EV y ondansetrón). No se usan antibióticos: el cuadro lo causa una toxina ya formada y cede en 24 horas.',
+      say: {
+        stem: 'Vamos con un caso. Cuatro miembros de una familia llegan a urgencias con náuseas y vómitos explosivos que empezaron hace tres horas. Almorzaron hace cuatro horas pastel de choclo y ensalada rusa con mayonesa casera, preparada la noche anterior. Nadie tiene fiebre ni diarrea.',
+        question: '¿Cuál es el agente más probable, y qué haces?',
+        options: 'Las opciones son: Salmonella con ciprofloxacino; aureus con rehidratación y antieméticos, sin antibióticos; perfringens con metronidazol; aureus con cloxacilina; o cólera con doxiciclina. Piénsalo.',
+        answer: 'Es la B. Una hora de incubación, vómitos sin fiebre y mayonesa casera: toxina preformada del aureus. La D es el distractor más tentador, porque acierta el germen, pero el antibiótico no sirve contra una toxina que ya estaba en la comida. Se rehidrata, se da ondansetrón, y el cuadro cede en un día. La Salmonella tardaría más y daría fiebre.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Julio 2024 · Pregunta 60',
+      stem: 'Usted atiende a 5 pacientes que consultan por vómitos y diarrea de inicio agudo en el mismo servicio de urgencia. Todos ellos son compañeros de trabajo, que almuerzan en el mismo comedor, por lo que se sospecha una intoxicación alimentaria. Además del manejo específico de los síntomas y patología de cada uno de ellos, la medida más adecuada es:',
+      question: 'Seleccione la alternativa correcta:',
+      options: [
+        { letter: 'A', text: 'Notificar al encargado de epidemiología del Hospital' },
+        { letter: 'B', text: 'Realizar un interrogatorio detallado a cada uno de los pacientes, para identificar el agente causal' },
+        { letter: 'C', text: 'Notificar a la Seremi de Salud' },
+        { letter: 'D', text: 'Notificar al Director del Hospital' },
+        { letter: 'E', text: 'Notificar a la Superintendencia de Salud' },
+      ],
+      correct: 'C',
+      explanation: 'La sospecha de un brote de intoxicación alimentaria es de notificación obligatoria, y en Chile la notificación se hace a la Seremi de Salud ante la sola sospecha, para que la autoridad sanitaria tome medidas y contenga el brote.',
+      say: {
+        stem: 'Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil veinticuatro. Atiendes a cinco compañeros de trabajo que almuerzan en el mismo comedor, todos con vómitos y diarrea de inicio agudo. Sospechas una intoxicación alimentaria.',
+        question: 'Además de tratar a cada uno, ¿cuál es la medida más adecuada?',
+        options: 'Las opciones son: notificar al encargado de epidemiología del hospital; interrogar a cada paciente para identificar el agente; notificar a la Seremi de Salud; notificar al director del hospital; o notificar a la Superintendencia. Piénsalo.',
+        answer: 'Es la C, la Seremi de Salud. Un brote de intoxicación alimentaria se notifica a la autoridad sanitaria regional ante la sola sospecha, porque es ella la que puede ir al comedor y cortar la fuente. La A es el distractor: el encargado de epidemiología del hospital participa, pero no reemplaza la notificación a la Seremi. Y la Superintendencia no tiene ningún rol aquí.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Diciembre 2025 · Pregunta 98',
+      stem: '¿Mediante qué estrategia epidemiológica se debe enfrentar la sospecha de un brote de intoxicación alimentaria para su adecuada identificación y control?',
+      question: 'Seleccione la alternativa correcta:',
+      options: [
+        { letter: 'A', text: 'Vigilancia activa' },
+        { letter: 'B', text: 'Estudio experimental' },
+        { letter: 'C', text: 'Vigilancia centinela' },
+        { letter: 'D', text: 'Estudio analítico' },
+        { letter: 'E', text: 'Vigilancia pasiva' },
+      ],
+      correct: 'A',
+      explanation: 'Las intoxicaciones alimentarias se manejan con vigilancia activa, es decir, con notificación obligatoria ante la sola sospecha. La vigilancia centinela se usa en infecciones frecuentes y poco graves (solo informan algunos centros), y la pasiva en infecciones leves o poco transmisibles.',
+      say: {
+        stem: 'La segunda es del EUNACOM de diciembre de dos mil veinticinco, y sigue la misma lógica. ¿Con qué estrategia epidemiológica se enfrenta la sospecha de un brote de intoxicación alimentaria?',
+        question: 'Elige la alternativa correcta.',
+        options: 'Las opciones son: vigilancia activa; estudio experimental; vigilancia centinela; estudio analítico; o vigilancia pasiva. Piénsalo.',
+        answer: 'Es la A, vigilancia activa, que en la práctica es la notificación obligatoria ante la sola sospecha, lo mismo que vimos en la pregunta anterior. La C es el distractor: la vigilancia centinela, donde solo informan algunos centros, se usa en infecciones frecuentes y poco graves. Un brote no puede esperar a que lo detecte un centro centinela.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta real EUNACOM',
+      title: 'EUNACOM Enero 2023 · Pregunta 76',
+      stem: 'Paciente con diarrea disentérica aguda y panel gastrointestinal positivo para Campylobacter.',
+      question: '¿Cuál es el tratamiento más adecuado?',
+      options: [
+        { letter: 'A', text: 'Ciprofloxacino oral por 3 días' },
+        { letter: 'B', text: 'Metronidazol oral por 7 días' },
+        { letter: 'C', text: 'Cotrimoxazol oral por 5 días' },
+        { letter: 'D', text: 'Amoxicilina oral por 7 días' },
+        { letter: 'E', text: 'Azitromicina vía oral' },
+      ],
+      correct: 'E',
+      explanation: 'Campylobacter es un germen invasor: la disentería justifica antibiótico, y el de elección es la azitromicina oral. Las quinolonas tienen alta resistencia en Campylobacter.',
+      say: {
+        stem: 'La tercera es del EUNACOM de enero de dos mil veintitrés, y nos lleva al grupo invasor. Paciente con diarrea disentérica aguda, y el panel gastrointestinal sale positivo para Campylobacter.',
+        question: '¿Cuál es el tratamiento más adecuado?',
+        options: 'Las opciones son: ciprofloxacino; metronidazol; cotrimoxazol; amoxicilina; o azitromicina. Piénsalo.',
+        answer: 'Es la E, azitromicina. Campylobacter es de los gérmenes que invaden la mucosa, y cuando hay disentería se trata. El distractor es el ciprofloxacino, que se usa en muchas diarreas bacterianas, pero en Campylobacter la resistencia a las quinolonas es alta, y el de elección es el macrólido.',
+      },
+    },
+
+    {
+      type: 'quiz',
+      kicker: 'Pregunta del banco EUNACOM',
+      title: 'Banco EUNACOM · Caso representativo',
+      stem: 'Mujer de 52 años con diplopía, ptosis y disfagia de inicio progresivo hace 24 horas, a lo que se agrega debilidad de extremidades superiores. Comió conservas caseras de espárragos el día anterior. Examen: ptosis bilateral, midriasis arreactiva y tetraparesia flácida simétrica con reflejos disminuidos. Sensibilidad normal, afebril.',
+      question: '¿Cuál es la conducta terapéutica inmediata?',
+      options: [
+        { letter: 'A', text: 'Iniciar plasmaféresis por sospecha de síndrome de Guillain-Barré' },
+        { letter: 'B', text: 'Hospitalizar en UCI, monitorizar mecánica ventilatoria y administrar antitoxina botulínica' },
+        { letter: 'C', text: 'Administrar ceftriaxona 2 g EV por sospecha de meningitis bacteriana' },
+        { letter: 'D', text: 'Indicar piridostigmina oral por probable crisis miasténica' },
+        { letter: 'E', text: 'Administrar bolo de metilprednisolona EV por sospecha de esclerosis múltiple' },
+      ],
+      correct: 'B',
+      explanation: 'Conserva casera + pares craneanos + midriasis + parálisis flácida descendente sin compromiso sensitivo: botulismo. UCI por riesgo de falla ventilatoria y antitoxina botulínica precoz. El Guillain-Barré asciende y la miastenia no da midriasis ni disautonomía.',
+      say: {
+        stem: 'El botulismo no tiene preguntas reales fechadas en el banco, así que cerramos con un caso representativo. Mujer de cincuenta y dos años que comió conservas caseras de espárragos. Al día siguiente ve doble, se le caen los párpados y no puede tragar, y luego se debilitan los brazos. Tiene midriasis arreactiva, sensibilidad normal, y está afebril.',
+        question: '¿Cuál es la conducta inmediata?',
+        options: 'Las opciones son: plasmaféresis por Guillain-Barré; unidad de cuidados intensivos, vigilar la ventilación y antitoxina botulínica; ceftriaxona por meningitis; piridostigmina por miastenia; o metilprednisolona por esclerosis múltiple. Piénsalo.',
+        answer: 'Es la B. Conserva casera, pares craneanos, pupilas dilatadas y una parálisis que baja: botulismo. El distractor más tentador es la A, pero el Guillain-Barré sube desde las piernas y no da midriasis. La miastenia tampoco dilata la pupila. Y la antitoxina va de inmediato, porque solo neutraliza la toxina que aún circula.',
+      },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cierre',
+      title: 'Reglas de oro para el examen',
+      cards: [
+        { title: 'Intoxicación alimentaria', tag: 'El reloj decide', kind: 'key', items: [
+          { t: '< 6 h, vómitos sin fiebre', d: 'Toxina preformada: aureus o cereus',
+            say: 'Cerremos con las reglas de oro. Menos de seis horas, vómitos sin fiebre: toxina preformada, aureus con mayonesa o cereus con arroz. No lleva antibióticos.' },
+          { t: 'Fiebre: invasión', d: 'Salmonella, Campylobacter',
+            say: 'Si hay fiebre, es invasión: Salmonella o Campylobacter. Y ante un brote, se notifica a la Seremi.' },
+        ] },
+        { title: 'Cólera', tag: 'Agua de arroz', kind: 'pharma', items: [
+          { t: 'Rehidratación primero', d: 'Doxiciclina 300 mg dosis única',
+            say: 'En el cólera, la vida la salva la rehidratación; la doxiciclina en dosis única solo acorta el cuadro.' },
+        ] },
+        { title: 'Botulismo', tag: 'Parálisis descendente', kind: 'alert', items: [
+          { t: 'Conserva casera + diplopía + midriasis', d: 'Baja desde la cabeza, sin déficit sensitivo',
+            say: 'Y en el botulismo, conserva casera, diplopía, midriasis y una parálisis que baja.' },
+          { t: 'UCI + antitoxina precoz', d: 'No revierte lo ya paralizado',
+            say: 'Unidad de cuidados intensivos y antitoxina precoz. Si te llevas una sola idea de hoy: en la intoxicación alimentaria, el reloj de la incubación te da el germen, y en el botulismo, la parálisis baja. La próxima clase empezamos el bloque de VIH. Nos vemos en la próxima clase.' },
+        ] },
+      ],
+    },
+  ],
+
+  pathway: {
+    title: 'Paciente que enferma después de una comida',
+    root: N('start', 'Síntomas tras una comida', 'Brote o caso aislado',
+      'Llega un paciente, o un grupo, que enfermó después de comer. Lo primero es mirar qué predomina: el tubo digestivo o el sistema nervioso.',
+      ['Neurológico', N('alert', 'Botulismo', 'UCI + antitoxina precoz',
+        'Si hay diplopía, ptosis, disfagia y una parálisis flácida que baja, con midriasis, es botulismo: unidad de cuidados intensivos, soporte ventilatorio y antitoxina precoz.')],
+      ['Digestivo', N('q', '¿Diarrea en agua de arroz masiva?', 'Agua o mariscos',
+        'Si es digestivo, busca primero la urgencia hídrica: ¿es una diarrea acuosa masiva, en agua de arroz, después de agua o mariscos?',
+        ['SÍ', N('alert', 'Cólera', 'Rehidratación masiva + doxiciclina',
+          'Eso es cólera: rehidratación vigorosa, oral o con Ringer lactato si hay shock, más doxiciclina en dosis única en los casos moderados a severos.')],
+        ['NO', N('q', '¿Cuántas horas pasaron?', 'Incubación',
+          'Si no, la pregunta es cuántas horas pasaron desde la comida.',
+          ['< 6 h', N('ok', 'Toxina preformada', 'Soporte, sin antibióticos',
+            'Menos de seis horas, con vómitos sin fiebre: toxina preformada de aureus o cereus. Solo soporte, sin antibióticos.')],
+          ['8–16 h', N('ok', 'C. perfringens', 'Soporte',
+            'De ocho a dieciséis horas, con cólicos y diarrea: Clostridium perfringens o cereus diarreico. Soporte.')],
+          ['> 16 h + fiebre', N('do', 'Invasión bacteriana', 'Salmonella, Campylobacter',
+            'Más de dieciséis horas con fiebre: invasión, como Salmonella o Campylobacter. Si hay disentería por Campylobacter, azitromicina.')])])],
+      ['Brote', N('refer', 'Notificar a la Seremi', 'Ante la sola sospecha',
+        'Y en paralelo, si es un brote, se notifica a la Seremi de Salud ante la sola sospecha.')]),
+  },
+};

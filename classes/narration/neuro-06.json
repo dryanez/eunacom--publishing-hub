@@ -1,0 +1,360 @@
+{
+  "id": "neuro-06",
+  "title": "Neurologia 10.6: Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+  "specialty": "Neurología y Geriatría",
+  "chars": 17458,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque cerebrovascular y abrimos el de cefaleas y epilepsia. Hoy vemos migraña y cefalea tensional, que juntas explican más del noventa por ciento de las consultas por dolor de cabeza en atención primaria. En el examen se juegan tres decisiones: descartar primero una cefalea secundaria que puede matar, elegir bien el tratamiento de la crisis, y saber cuándo indicar profilaxis. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. La migraña no es un simple espasmo de los vasos. Es una disfunción neurovascular primaria: hay una predisposición genética a que la corteza y el tronco encefálico sean hiperexcitables."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El aura se explica por la depresión cortical propagada: una onda de despolarización que avanza lento, dos a seis milímetros por minuto, típicamente desde el lóbulo occipital hacia adelante. Por eso el aura es sobre todo visual, con escotomas centellantes y el espectro de fortificación, y por eso se va extendiendo en minutos."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El dolor tiene otro origen: el sistema trigéminovascular. Las neuronas del ganglio de Gasser que inervan las meninges liberan neuropéptidos, y el principal es el CGRP, el péptido relacionado con el gen de la calcitonina."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El CGRP dilata intensamente las arterias meníngeas y produce una inflamación neurógena estéril alrededor de los vasos."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Esa señal sube por el trigémino hasta el tálamo y la corteza, y sensibiliza la vía. Primero la sensibilización periférica: el dolor es pulsátil y empeora con el esfuerzo o la tos. Luego la central: la alodinia, donde duele peinarse o usar anteojos."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y aquí entran los triptanes. Son agonistas de receptores de serotonina: el uno B contrae los vasos meníngeos dilatados, y el uno D y uno F bloquean la liberación de CGRP. Recuerda el efecto vasoconstrictor, porque de ahí salen sus contraindicaciones."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos los criterios de la Sociedad Internacional de Cefaleas. La migraña sin aura necesita al menos cinco crisis, y cada una dura entre cuatro y setenta y dos horas, sin tratamiento o tratada sin éxito."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El dolor cumple al menos dos de cuatro características: unilateral, pulsátil, de intensidad moderada a severa, y que empeora con la actividad física rutinaria, como caminar o subir escaleras."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y al menos un síntoma asociado: náuseas o vómitos, o fotofobia y fonofobia juntas. Fíjate en esa letra ye, porque es justamente lo que la separa de la tensional."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La migraña con aura necesita al menos dos crisis con síntomas neurológicos focales totalmente reversibles. Más del noventa por ciento son visuales: escotomas centellantes, líneas en zigzag o pérdida visual parcial."
+    },
+    {
+      "file": "s02_g04",
+      "text": "También pueden ser sensitivos, con parestesias que avanzan de la mano al brazo y a la boca, la marcha cheiro-oral, o trastornos del lenguaje."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Cada síntoma se va extendiendo en cinco minutos o más, dura entre cinco y sesenta minutos, y la cefalea aparece dentro de los sesenta minutos siguientes. Un déficit que se instala de golpe, en cambio, te hace pensar en un ACV."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La cefalea tensional es la más frecuente en la población. El paciente la describe como un casco, una banda o un peso apretado sobre la cabeza. Es opresiva, no pulsátil, y bilateral, holocránea u occipitofrontal."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Es de intensidad leve a moderada: molesta, pero deja seguir trabajando. Y dura de treinta minutos a siete días."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Ahora, lo que la separa de la migraña. La tensional no empeora con la actividad física rutinaria. La migrañosa, en cambio, busca el reposo a oscuras."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y el diferenciador crítico: la tensional no tiene náuseas ni vómitos. Puede tener fotofobia o fonofobia aisladas, pero nunca las dos juntas. Si ves náuseas, o luz y ruido a la vez, piensa en migraña."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y en las dos, el diagnóstico es clínico. Si el examen neurológico es normal y no hay banderas rojas, la neuroimagen de rutina no está indicada. Justamente, esas banderas rojas son lo que vemos ahora."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El error más grave en urgencia es asumir que una cefalea intensa es primaria sin antes buscar una causa secundaria. Para eso existe la regla SNOOP diez. Vamos letra por letra, y a cada letra le asociamos su conducta."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La S es de síntomas sistémicos: fiebre, baja de peso, sudoración nocturna, o un paciente con cáncer o inmunosuprimido, por ejemplo con VIH. Pensamos en meningitis, encefalitis, absceso, metástasis o toxoplasmosis, y pedimos neuroimagen con contraste seguida de punción lumbar."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La N es de signos neurológicos: una paresia, una afasia, diplopía, papiledema, un Babinski, compromiso de conciencia o una convulsión. Aquí va un TAC de encéfalo sin contraste, de inmediato."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La primera O es de onset, el inicio: la cefalea en trueno, que llega a su máximo en menos de un minuto. Es la hemorragia subaracnoidea hasta demostrar lo contrario, como vimos en la clase de hemorragia subaracnoidea. TAC sin contraste, y si es normal y se tomó en las primeras horas, la punción lumbar es obligatoria, buscando xantocromía."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La segunda O es de older, mayor: una cefalea nueva después de los cincuenta años, sin historia previa de migraña. Lo primero que descartas es la arteritis de células gigantes, pidiendo de inmediato velocidad de sedimentación y proteína C reactiva. También se buscan tumores y el hematoma subdural crónico."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y la P agrupa varias cosas: el cambio de patrón, la cefalea progresiva que despierta de noche, la que empeora al acostarse o al toser, que sugiere hipertensión endocraneana, la que empeora de pie y alivia acostado, que es la hipotensión de líquido cefalorraquídeo, y el papiledema. Aquí el fondo de ojo es obligado y se pide resonancia."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Pasemos al tratamiento de la crisis. Tiene que ser precoz, idealmente en la primera hora de dolor. Y no durante el aura, porque ahí los vasoconstrictores no sirven y podrían agravar la isquemia focal."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En la crisis leve a moderada, la primera línea son los antiinflamatorios no esteroidales: ibuprofeno cuatrocientos a ochocientos miligramos, naproxeno quinientos a quinientos cincuenta, o aspirina mil miligramos."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y se asocia un procinético, metoclopramida o domperidona, diez miligramos. ¿Por qué? Porque en la crisis hay gastroparesia: el estómago se vacía lento y el analgésico no se absorbe. El procinético acelera la absorción y además quita las náuseas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si la crisis es moderada a severa, o el AINE falló, el tratamiento de elección son los triptanes. El de referencia es el sumatriptán oral, cincuenta a cien miligramos, o subcutáneo, seis miligramos, que actúa en diez a quince minutos."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si el dolor vuelve después de mejorar, se puede repetir una segunda dosis, separada al menos por dos horas, sin pasar de doscientos miligramos al día por boca o doce subcutáneos. Otras opciones son el zolmitriptán y el eletriptán."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Volvamos al mecanismo: el triptán contrae los vasos a través del receptor uno B, y no solo los meníngeos, también los coronarios y los cerebrales. Por eso está contraindicado en el infarto previo, la cardiopatía coronaria, la angina de Prinzmetal, y el ACV o la isquemia transitoria previa."
+    },
+    {
+      "file": "s06_g01",
+      "text": "También en la hipertensión severa o no controlada, la enfermedad arterial periférica, y en subtipos raros como la migraña hemipléjica y la basilar."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El otro riesgo es la cefalea por abuso de medicación. Aparece cuando el paciente usa analgésicos más de diez a quince días al mes por más de tres meses, y entra en un círculo de cefalea diaria de rebote."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Para prevenirla, instruye al paciente: los AINE menos de quince días al mes, y los triptanes o los combinados con ergotamina o cafeína, menos de diez días al mes. Y si el paciente se está pasando de ese límite, es una razón para empezar profilaxis."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La profilaxis no busca eliminar todas las crisis. Busca bajar su frecuencia, intensidad y duración al menos a la mitad, mejorar la respuesta al tratamiento agudo, y evitar que la migraña se haga crónica o que aparezca el abuso de analgésicos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Se indica si hay tres o más crisis al mes, o más de seis a ocho días de cefalea al mes. Este es el criterio que más se pregunta."
+    },
+    {
+      "file": "s07_g02",
+      "text": "También si las crisis afectan mucho el trabajo o los estudios, a pesar de un tratamiento agudo bien hecho."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si el tratamiento de rescate falla o está contraindicado, si hay riesgo de abuso de analgésicos, y en subtipos con riesgo neurológico, como la migraña hemipléjica o con aura de tronco."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La profilaxis se elige mirando al paciente. El propranolol, cuarenta a ciento sesenta miligramos al día, es la primera línea general, ideal en el joven ansioso, con temblor esencial o hipertenso. Pero está contraindicado en el asma, la EPOC severa, la bradicardia y los bloqueos auriculoventriculares."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La amitriptilina, diez a cincuenta miligramos en la noche, es la elección si hay insomnio, depresión, ansiedad, fibromialgia o una cefalea mixta con componente tensional. Ojo con sus efectos anticolinérgicos: boca seca, constipación, retención urinaria y QT largo."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La flunarizina, cinco a diez miligramos en la noche, es muy útil si hay vértigo migrañoso. Pero da somnolencia, aumento de peso, y en el adulto mayor puede dar parkinsonismo y depresión."
+    },
+    {
+      "file": "s08_g03",
+      "text": "El topiramato, veinticinco a cien miligramos, es de elección en el paciente con obesidad, porque baja de peso. Sus efectos adversos: parestesias, lentitud cognitiva, litiasis renal, glaucoma de ángulo cerrado, y es teratogénico. Guarda el glaucoma para una de las preguntas reales."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el ácido valproico es muy eficaz, pero está proscrito en la mujer en edad fértil, por los defectos del tubo neural y el ovario poliquístico."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Juntemos todo en un árbol: primero las banderas rojas, después el tipo de cefalea, la crisis y la profilaxis. Frente a cualquier cefalea, lo primero no es el analgésico: es buscar banderas rojas."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Recorre la regla SNOOP diez: síntomas sistémicos, signos neurológicos, inicio en trueno, cefalea nueva después de los cincuenta, y cambio de patrón o relación con la posición."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si hay una, estudias la causa secundaria según la letra: TAC y punción lumbar en el trueno, velocidad de sedimentación en el mayor de cincuenta, fondo de ojo y resonancia si hay hipertensión endocraneana."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Si no hay banderas rojas, el diagnóstico es clínico y no se pide imagen. ¿Migraña o tensional?"
+    },
+    {
+      "file": "s09_g04",
+      "text": "Opresiva, bilateral, leve a moderada, sin náuseas y sin empeorar con la actividad: cefalea tensional."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Pulsátil, unilateral, con náuseas o fotofobia y fonofobia: migraña. La crisis se trata en la primera hora, según su intensidad."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Leve a moderada: AINE en dosis plena con metoclopramida."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Severa o con falla del AINE: triptán, siempre que no haya enfermedad coronaria, ACV previo ni hipertensión no controlada."
+    },
+    {
+      "file": "s09_g08",
+      "text": "¿Tiene tres o más crisis al mes, discapacidad, o riesgo de abuso de analgésicos?"
+    },
+    {
+      "file": "s09_g09",
+      "text": "Entonces agregas profilaxis según el paciente: propranolol, amitriptilina, flunarizina o topiramato, y nunca valproato en la mujer en edad fértil."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Repasemos las trampas. Cefalea típica, examen normal y sin banderas rojas: el diagnóstico es clínico. Pedir un TAC de rutina es el error."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Bilateral, opresiva, sin náuseas y que no empeora al caminar: cefalea tensional. Si tiene fotofobia y fonofobia juntas, o náuseas, ya no es tensional."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Cefalea en trueno con TAC normal en las primeras horas: punción lumbar. Dar de alta por un TAC normal es la trampa clásica."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Cefalea nueva después de los cincuenta: velocidad de sedimentación y proteína C reactiva, pensando en la arteritis de la temporal."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Migrañoso con cardiopatía coronaria o ACV previo: no se usa triptán, por su efecto vasoconstrictor."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Tres o más crisis al mes: se agrega profilaxis. Aumentar los analgésicos solo lleva al rebote."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Y profilaxis en la mujer en edad fértil: nunca ácido valproico. Y recuerda que el sumatriptán trata la crisis, no la previene."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Vamos con un caso. Mujer de veintiocho años, abogada, sana. Hace tres años tiene cuatro a cinco crisis al mes de cefalea derecha, pulsátil, que empeora al caminar, con fotofobia, fonofobia y náuseas, y que dura un día o más. El paracetamol y el ketorolaco la alivian a medias, y ha faltado al trabajo. El examen neurológico y el fondo de ojo son normales."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: pedir un TAC con contraste; sumatriptán diario como preventivo; sumatriptán con antiemético en las crisis y propranolol como profilaxis; ketorolaco diario por tres meses; o ácido valproico como profilaxis con paracetamol en las crisis. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C. Primero, cumple los criterios de migraña sin aura y no tiene banderas rojas, así que no hay que pedir imagen. Segundo, el analgésico común falló: pasamos al triptán con antiemético. Y tercero, con cuatro a cinco crisis al mes, tiene indicación de profilaxis, y el propranolol es la primera línea si no tiene asma. La E es la trampa: el valproato previene, pero está proscrito en una mujer en edad fértil."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de diciembre de dos mil diecisiete. Hombre de cuarenta años con cefalea holocránea, mayor en la zona occipital, que se irradia al cuello. Empieza a mediodía y llega a su máximo cuando vuelve del trabajo. El examen neurológico no tiene signos focales ni meníngeos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: cefalea tensional, migraña, cefalea en racimos, cefalea por hipertensión endocraneana, o neuralgia de Arnold. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, cefalea tensional. Holocránea, occipital, hacia el cuello, que crece durante la jornada, y sin náuseas ni signos focales. La migraña no calza: sería unilateral, pulsátil y con náuseas o luz y ruido molestos. Y la hipertensión endocraneana es al revés: predomina en la mañana."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La segunda, del EUNACOM de julio de dos mil trece. Un niño de doce años ve destellos, y una hora después aparece una cefalea frontotemporal intensa y pulsátil, con fotofobia y fonofobia. Tiene cuadros parecidos desde los cinco años, cinco en el último año."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: migraña clásica, cefalea en racimos, cefalea tensional, migraña complicada, o tumor cerebral. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A. Migraña clásica es el nombre antiguo de la migraña con aura: destellos visuales, y después una cefalea pulsátil con fotofobia y fonofobia juntas. El tumor asusta, pero son crisis repetidas por años, sin progresión ni déficit. Y la migraña complicada implica un déficit que no revierte, que aquí no hay."
+    },
+    {
+      "file": "s14_g00",
+      "text": "La tercera, del EUNACOM de diciembre de dos mil veinticinco. Mujer de cuarenta y cinco años, hipertensa, migrañosa, tratada con antiinflamatorios y ergotamínicos. Hace dos meses tiene una cefalea más intensa de lo habitual, al principio mayor en la mañana, que ha ido aumentando, con náuseas y vómitos explosivos. Y no responde a pesar del uso frecuente de analgésicos y ergotamínicos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: síndrome de hipertensión endocraneana, hemorragia subaracnoidea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la A, síndrome de hipertensión endocraneana. Es una migrañosa que cambió de patrón: cefalea progresiva, de predominio matinal, con vómitos explosivos. Esa es la letra P de SNOOP diez, y obliga a fondo de ojo y neuroimagen. La E tienta porque usa ergotamínicos seguido, pero el abuso de medicación no da vómitos explosivos. Y el tumor puede ser la causa, pero lo que describe el cuadro es el síndrome."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La cuarta, también del EUNACOM de diciembre de dos mil diecisiete. Paciente de setenta y cinco años con dos semanas de cefalea holocránea, intensa y en aumento. Le duele el cuero cabelludo al tocarlo y tiene un derrame en la rodilla derecha. La velocidad de sedimentación es de setenta y seis."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: artritis seronegativa, arteritis de células gigantes, artritis reactiva, lupus, o endocarditis aguda. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B, arteritis de células gigantes. Es la segunda O de SNOOP diez: una cefalea nueva después de los cincuenta años. Súmale el dolor al tocar el cuero cabelludo y una sedimentación muy alta, y tienes la arteritis de la temporal. La rodilla distrae hacia las artritis, pero lo que manda es la cefalea nueva del adulto mayor."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Y la última, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y cuatro años, migrañosa, en profilaxis con topiramato. Hace dos horas tiene una cefalea intensa alrededor del ojo, con náuseas y vómitos. Al examen, el ojo está rojo y la pupila fija, en semimidriasis."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: manitol endovenoso, clorpromazina endovenosa, ketorolaco endovenoso, oxígeno con eletriptán, o carbamazepina oral. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la A, manitol. Esto no es una crisis de migraña: ojo rojo con pupila fija en semimidriasis es un glaucoma agudo de ángulo cerrado. Y el dato que lo conecta con la clase es el topiramato, que puede producirlo. El ketorolaco y el oxígeno con triptán son la trampa: tratan una cefalea primaria, y esta paciente tiene una causa secundaria que amenaza el ojo."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Antes de llamar primaria a una cefalea, recorre SNOOP diez: trueno, signos focales, fiebre o inmunosupresión, cefalea nueva después de los cincuenta y cambio de patrón."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Sin banderas rojas, el diagnóstico es clínico. Náuseas, o luz y ruido a la vez, y dolor que empeora al caminar: migraña. Opresiva, bilateral, sin náuseas: tensional."
+    },
+    {
+      "file": "s17_g02",
+      "text": "En la crisis, AINE con metoclopramida, y si es severa o falla, triptán, nunca en un paciente coronario o con ACV previo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Y limita los días de analgésicos para evitar el rebote."
+    },
+    {
+      "file": "s17_g04",
+      "text": "Con tres o más crisis al mes, profilaxis elegida según el paciente, y nunca valproato en la mujer en edad fértil. Si te llevas una sola idea de hoy: la cefalea primaria es un diagnóstico que se gana descartando las banderas rojas. Lo que sigue son la cefalea en racimos y la neuralgia del trigémino. Nos vemos en la próxima clase."
+    }
+  ]
+}

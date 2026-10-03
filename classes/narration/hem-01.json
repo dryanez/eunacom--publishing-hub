@@ -1,0 +1,240 @@
+{
+  "id": "hem-01",
+  "title": "Hematología 8.1: Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
+  "specialty": "Hematología",
+  "chars": 12730,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos al bloque de hematología. Partimos por la base de todo: el síndrome anémico. Hoy vas a aprender a leer un hemograma con dos preguntas. Primero, ¿de qué tamaño son los glóbulos rojos? Y segundo, ¿la médula está respondiendo o no? Con esas dos respuestas ordenas casi cualquier anemia del examen, y todas las clases que vienen después se cuelgan de este esquema."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por la definición. La anemia es la disminución de la masa de glóbulos rojos, y en la práctica la medimos con la hemoglobina. Los cortes de la Organización Mundial de la Salud se preguntan: menos de trece gramos por decilitro en el hombre adulto, y menos de doce en la mujer adulta no embarazada."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En la embarazada el corte baja a once, en el primer y tercer trimestre. ¿Y por qué en el segundo trimestre baja todavía más, a diez coma cinco? Porque el volumen plasmático crece más rápido que los glóbulos rojos: es una hemodilución fisiológica, no una anemia real."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El hematocrito se relaciona con la hemoglobina en una proporción aproximada de tres a uno. Una hemoglobina de diez corresponde, más o menos, a un hematocrito de treinta. Te sirve para detectar rápido un examen que no cuadra."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero si los dos valores no coinciden, manda la hemoglobina. El hematocrito depende mucho del agua del plasma: en la deshidratación se sobrestima y puede esconder una anemia. Ojo con eso en el adulto mayor deshidratado."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Ya confirmaste la anemia. La primera pregunta es el tamaño del glóbulo rojo, el volumen corpuscular medio, o VCM. Lo normal va de ochenta a cien fentolitros. Y el tamaño no es un dato suelto: te cuenta qué falló cuando la médula fabricó ese glóbulo."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si el glóbulo es chico, bajo ochenta, es una anemia microcítica. Lo que falló es la hemoglobina: o faltó el grupo hemo, que es la ferropenia, o faltaron las cadenas de globina, que es la talasemia. Esas dos son el diferencial clásico de la microcitosis."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Si el tamaño es normal, entre ochenta y cien, piensa en la inflamación crónica, en la insuficiencia renal, o en un cuadro mixto o inicial, por ejemplo una ferropenia que todavía no alcanza a achicar los glóbulos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si el glóbulo es grande, sobre cien, es macrocítica. La causa clásica es una falla en la síntesis de ADN, por déficit de vitamina B doce o de folato. El núcleo no alcanza a dividirse y la célula queda grande."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Pero hay otra vía a la macrocitosis: la alteración de la membrana. La ves en la hepatopatía, en el consumo de alcohol y en el hipotiroidismo. Cuando el examen te muestra un VCM alto, antes de pensar solo en la B doce, mira si hay alcohol, daño hepático o tiroides."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El tamaño no es el único índice. La hemoglobina corpuscular media, o HCM, mide cuánta hemoglobina lleva cada glóbulo, y lo normal va de veintisiete a treinta y tres picogramos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y la concentración de hemoglobina corpuscular media, entre treinta y dos y treinta y seis. Entre las dos definen si el glóbulo es normocrómico o hipocrómico, es decir, si está bien pintado o pálido. La microcitosis casi siempre viene con hipocromía."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El RDW, la amplitud de distribución eritrocitaria, mide cuán distintos entre sí son los glóbulos rojos. Lo normal va de once coma cinco a catorce coma cinco por ciento."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y aquí está su utilidad en el examen. En la ferropenia conviven glóbulos viejos normales con glóbulos nuevos chicos, entonces el RDW sube sobre quince. En la talasemia todos los glóbulos son chicos por igual, y el RDW suele ser normal. Microcitosis con RDW alto, piensa en hierro."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora la segunda pregunta, que es la que más ordena el diagnóstico: ¿la médula está respondiendo? Para saberlo miramos los reticulocitos, los glóbulos rojos recién salidos de la médula. Si hay anemia y la médula está sana, debería estar fabricando más."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El problema es que el porcentaje de reticulocitos engaña. Si hay pocos glóbulos rojos, cualquier cantidad de reticulocitos parece un porcentaje alto. Por eso se corrige: se multiplica el porcentaje por el hematocrito del paciente dividido por cuarenta y cinco, que es el hematocrito normal."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y después se divide por un factor de maduración, porque en la anemia grave los reticulocitos salen antes y duran más en la sangre. El factor es uno con hematocrito de treinta y seis o más, uno coma cinco entre veintiséis y treinta y cinco, dos entre dieciséis y veinticinco, y dos coma cinco bajo quince. El resultado es el índice reticulocitario corregido."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Si ese índice es mayor a dos por ciento, la anemia es regenerativa. La médula está sana y respondiendo, así que el problema está afuera: los glóbulos se están perdiendo o destruyendo en la periferia."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Las causas son dos: la hemólisis, sea autoinmune, por hiperesplenismo o por microangiopatía, y la hemorragia aguda, una vez que la volemia se ha reexpandido. Ahí se piden LDH, bilirrubina y frotis."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Si el índice es menor a dos por ciento, la anemia es arregenerativa o hipoproliferativa. Hay anemia, pero la médula no está respondiendo como debería. El problema está adentro, en la fábrica."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Y la fábrica puede fallar por tres razones. Falta materia prima: hierro, B doce o folato. La médula está dañada: aplasia, leucemia o mielodisplasia. O la frenan las citocinas: la anemia de enfermedades crónicas y la uremia. Casi todo el resto del bloque de anemias cabe en este casillero."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Ahora, tres trampas. La primera: si sangrar es perder glóbulos en la periferia, ¿por qué la hemorragia digestiva crónica es arregenerativa? Porque con cada gota se va también hierro. Con el tiempo se agotan los depósitos, y la médula ya no tiene con qué responder."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La segunda: la hemorragia aguda sí es regenerativa, pero una vez que la volemia se ha reexpandido. La médula no responde en el mismo minuto del sangrado."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y la tercera, que confunde a muchos. En una hemólisis intensa, la médula lanza tantos reticulocitos, que son más grandes que un glóbulo maduro, que el VCM medido sube. Puedes ver una anemia macrocítica que no es por B doce, sino una crisis hemolítica. La diferencia está en los reticulocitos altos. Esto sale en una pregunta real que viene."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos las dos preguntas en un solo árbol, en el orden en que lo vas a razonar frente al hemograma. Partimos con una hemoglobina baja, confirmada con los cortes de la Organización Mundial de la Salud. Antes de clasificar, evalúa si el paciente está estable y descarta un sangrado agudo activo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La primera bifurcación es la médula: calcula el índice reticulocitario corregido. ¿Está sobre o bajo dos por ciento?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Sobre dos por ciento, la médula responde y el problema está en la periferia: hemólisis o hemorragia aguda reciente."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Pide LDH, bilirrubina y frotis. Los esquistocitos orientan a microangiopatía, y los esferocitos a hemólisis autoinmune."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Bajo dos por ciento, la médula no responde. Ahora el VCM te dice dónde buscar."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si es microcítica, pide el perfil de hierro con ferritina. Ferropenia o talasemia; y en el adulto, la ferropenia obliga a buscar sangrado digestivo."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si es normocítica, pide función renal y busca inflamación crónica, sin olvidar el mieloma y la aplasia."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Si es macrocítica, mide vitamina B doce y folato, y busca alcohol, daño hepático e hipotiroidismo."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos con la tabla completa. Microcítica y arregenerativa: ferropenia, rasgo talasémico o anemia sideroblástica. La pista para separar la ferropenia es el RDW alto."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Normocítica y arregenerativa: enfermedad crónica o inflamatoria, enfermedad renal crónica, mieloma múltiple o aplasia. Si en el frotis ves glóbulos apilados como monedas, el rouleaux, piensa en mieloma. Y en la inflamación la ferritina está alta, que es justo lo que vemos en la próxima clase."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Normocítica y regenerativa: hemólisis aguda o hemorragia aguda reciente. El frotis orienta: esquistocitos, que son glóbulos rotos, en la microangiopatía, y esferocitos en la anemia hemolítica autoinmune."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Macrocítica y arregenerativa: déficit de B doce o folato, alcohol o hipotiroidismo. Si el frotis muestra neutrófilos hipersegmentados y macroovalocitos, es megaloblástica."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y macrocítica pero regenerativa: la crisis hemolítica intensa, donde los reticulocitos grandes suben el VCM. El error es tratarla como un déficit de B doce."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Hombre de setenta y dos años, autovalente, consulta en el CESFAM por astenia y palidez progresiva de tres meses. Niega melena o hematuria. Hemoglobina ocho coma ocho, hematocrito veintisiete, VCM setenta y cuatro, HCM veinticuatro, plaquetas cuatrocientas veinte mil y reticulocitos cero coma seis por ciento. Tiene un soplo sistólico suave, sin taquicardia ni insuficiencia cardíaca."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la interpretación y la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: anemia regenerativa con estudio de hemólisis, anemia microcítica arregenerativa con perfil de hierro y endoscopías, sulfato ferroso y control en tres meses, biopsia de médula, o transfusión. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. Aplica las dos preguntas. El VCM de setenta y cuatro dice microcítica. Y si corriges los reticulocitos, cero coma seis por veintisiete cuarenta y cincoavos, dividido por uno coma cinco, da cerca de cero coma dos: arregenerativa. Las plaquetas altas son la trombocitosis reactiva de la ferropenia. En un hombre mayor, eso es sangrado digestivo oculto hasta demostrar lo contrario. El distractor tentador es dar hierro y controlar: trata el número y deja pasar un cáncer."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de cuarenta y seis años, sin antecedentes, con dos semanas de disnea y palidez, coluria e ictericia. Al examen, mucosas pálidas y esplenomegalia."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: haptoglobina, LDH, Coombs, hemograma con reticulocitos, o bilirrubina total e indirecta. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La respuesta es la D, hemograma con reticulocitos. Palidez, ictericia y bazo grande te hacen pensar en hemólisis, pero el primer paso sigue siendo el mismo de toda anemia: confirmarla y preguntarle a la médula si responde. Si los reticulocitos están altos, es regenerativa y la hemólisis se confirma. El Coombs es el distractor tentador, pero viene después, cuando ya sabes que hay hemólisis y buscas si es autoinmune."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La segunda es del mismo examen, julio de dos mil trece. Mujer de veintinueve años con disnea progresiva y fatigabilidad, mucosas pálidas. Hemoglobina ocho coma tres, hematocrito veintiséis, VCM ciento diez, reticulocitos cero coma tres por ciento, y leucocitos y plaquetas normales."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: anemia falciforme, anemia perniciosa, anemia ferropénica, anemia por enfermedades crónicas, o déficit de vitamina B seis. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, anemia perniciosa. Aplica las dos preguntas: VCM de ciento diez es macrocítica, y reticulocitos de cero coma tres es arregenerativa. Macrocítica arregenerativa es falla del ADN, y la causa clásica de déficit de B doce es la anemia perniciosa, que vemos en detalle más adelante. La ferropénica cae por el tamaño: es microcítica. Y la de enfermedades crónicas suele ser normocítica."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticinco. Hombre de veintinueve años con ictericia, disnea y gran compromiso del estado general. Hematocrito doce, hemoglobina cuatro coma uno, VCM ciento tres, y microesferocitos en el frotis. La bilirrubina total es cuatro coma uno con la directa en cero coma cinco, y la LDH está en novecientos sesenta."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C, hemólisis. La bilirrubina es casi toda indirecta, la LDH está alta y hay microesferocitos: los glóbulos se están destruyendo. Y aquí está la trampa que vimos: el VCM de ciento tres empuja a marcar déficit de B doce. Pero ese VCM alto lo ponen los reticulocitos, que son grandes. Una anemia macrocítica con signos de hemólisis es una crisis hemolítica hasta demostrar lo contrario."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Anemia es hemoglobina bajo trece en el hombre y bajo doce en la mujer no embarazada, y ante cualquier discrepancia manda la hemoglobina, no el hematocrito."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La primera pregunta es el VCM: la microcitosis es hierro o globina, la normocitosis es inflamación o riñón, y la macrocitosis es ADN o membrana."
+    },
+    {
+      "file": "s12_g02",
+      "text": "La segunda pregunta es el índice reticulocitario corregido. Sobre dos, la médula responde y el problema está afuera: hemólisis o hemorragia aguda. Bajo dos, el problema está en la médula: falta sustrato, está dañada o la frenan."
+    },
+    {
+      "file": "s12_g03",
+      "text": "La hemorragia crónica es arregenerativa porque se agota el hierro, y la hemólisis intensa puede dar un VCM alto por los reticulocitos."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y frente a una microcitosis, el siguiente paso es el perfil de hierro, que es justamente la próxima clase. Si te llevas una sola idea de hoy: todo hemograma se lee con dos preguntas, de qué tamaño es el glóbulo rojo y si la médula está respondiendo. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "neuro-05",
+  "title": "Neurologia 10.5: Trombosis Venosa Cerebral: Factores Protrombóticos, Sospecha Clínica, Neuroimagen y Anticoagulación Plena",
+  "specialty": "Neurología y Geriatría",
+  "chars": 12519,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Cerramos el bloque de enfermedad cerebrovascular con la trombosis venosa cerebral. Es menos frecuente que el infarto arterial y las hemorragias que ya vimos, pero engaña mucho, porque no se presenta como un ACV típico. Y tiene una regla de oro que el examen pregunta una y otra vez: se anticoagula, incluso si la imagen muestra sangre. Hoy vas a entender por qué. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo, porque aquí está la clave de toda la clase. En el infarto arterial, la sangre no llega. En la trombosis venosa, la sangre llega, pero no puede salir. Un trombo ocluye un seno dural: el sagital superior en el sesenta por ciento, o el transverso y el sigmoideo en el cuarenta."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Si la salida está tapada, la presión se devuelve hacia atrás, a las venas y los capilares. Es una hipertensión venosa retrógrada, que baja la perfusión del tejido."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El resultado es edema, y luego un infarto venoso. Y como depende de la vena y no de una arteria, ese infarto no respeta los territorios arteriales que conocemos: puede ser bilateral y parasagital."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Además, esa presión tan alta rompe las vénulas, y el infarto se transforma en hemorragia con mucha frecuencia. Fíjate bien: esa sangre no viene de un vaso frágil, viene de un drenaje tapado. Esa idea es la que justifica el tratamiento."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y hay un segundo mecanismo. El seno sagital superior es donde las granulaciones de Pacchioni devuelven el líquido cefalorraquídeo a la sangre. Si está trombosado, el líquido no se reabsorbe, y aparece una hipertensión endocraneana, sin ventrículos dilatados, parecida a un pseudotumor cerebral."
+    },
+    {
+      "file": "s02_g00",
+      "text": "A diferencia del infarto arterial, que es del adulto mayor con aterosclerosis, más del setenta y cinco por ciento de estas pacientes son mujeres de veinte a cuarenta y cinco años."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y la razón son los estados hormonales protrombóticos. Los anticonceptivos orales combinados, o la terapia de reemplazo hormonal, multiplican el riesgo por seis a diez."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El embarazo, y sobre todo el puerperio, con el máximo riesgo en las primeras seis semanas después del parto. Una puérpera con cefalea que no cede es una trombosis venosa hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Luego las trombofilias: el factor cinco Leiden, la mutación de la protrombina, los déficits de proteína C, S o antitrombina, la hiperhomocisteinemia, y el síndrome antifosfolípidos."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y enfermedades sistémicas: lupus, Behçet, neoplasias hematológicas, hemoglobinuria paroxística nocturna, anemia falciforme y policitemia vera."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Y la trombosis séptica, por una infección vecina. La otitis media o la mastoiditis complicada trombosan el seno transverso y el sigmoideo."
+    },
+    {
+      "file": "s02_g06",
+      "text": "Y la celulitis facial, el forúnculo nasal o la sinusitis etmoidal o esfenoidal complicada, trombosan el seno cavernoso."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Veamos la clínica, que es subaguda y variada. El síntoma casi constante, en más del noventa por ciento, es la cefalea: holocránea, opresiva, que va aumentando en días y no responde a los analgésicos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y tiene el sello de la presión alta: empeora al acostarse, en la madrugada y al toser o pujar. Solo en un diez por ciento es una cefalea en trueno, que se confunde con la subaracnoidea de la clase pasada."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Se suma el síndrome de hipertensión endocraneana: náuseas, vómitos explosivos de predominio matinal, oscurecimientos visuales transitorios, y el dato que tienes que buscar: papiledema bilateral en el fondo de ojo."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y lo que la distingue: las convulsiones, en el treinta y cinco a cuarenta por ciento, focales o generalizadas. Son mucho más frecuentes que en el infarto arterial, porque la estasis venosa y las microhemorragias irritan la corteza."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Puede haber un déficit focal que fluctúa, afasia, o compromiso de conciencia. Y si el infarto es parasagital bilateral, por trombosis del seno sagital superior, una paraparesia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La trombosis del seno cavernoso merece una mención aparte, porque su clínica es distinta. Por dentro del seno pasan los nervios que mueven el ojo, y por eso da una oftalmoplejia dolorosa, con parálisis del tercer, cuarto y sexto par."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Además hay quemosis conjuntival marcada, proptosis, dolor alrededor de la órbita, y parestesias en las dos primeras ramas del trigémino, que también pasan por ahí."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y el contexto que la delata es una infección de la cara: el forúnculo nasal, una celulitis facial, o una sinusitis esfenoidal o etmoidal complicada."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Vamos al diagnóstico. El TAC sin contraste es el primer examen en urgencia, pero es normal en el veinticinco a treinta por ciento de los casos. Un TAC normal no descarta la trombosis."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Cuando es positivo, puede mostrar el signo de la cuerda, un trombo fresco hiperdenso dentro de una vena cortical o del seno, o infartos con edema y hemorragias petequiales que no calzan con ningún territorio arterial."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con contraste aparece el signo clásico: el delta vacío. En el tercio posterior del seno sagital superior se ve un triángulo oscuro, que es el trombo, rodeado por las paredes del seno, que sí captan contraste."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Pero el examen de elección es la angiorresonancia venosa, o la AngioTAC en fase venosa. Muestran que no hay flujo en el seno trombosado y permiten ver el trombo directamente. La idea es simple: si sospechas un problema de las venas, tienes que pedir un examen que mire las venas."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Y llegamos a la regla de oro. El tratamiento de la trombosis venosa cerebral es la anticoagulación plena inmediata, y el fármaco de primera línea es la heparina de bajo peso molecular: enoxaparina, un miligramo por kilo cada doce horas, subcutánea, en dosis terapéutica completa."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Y si la imagen muestra un infarto hemorrágico? Se anticoagula igual. Vuelve al mecanismo: esa sangre salió por la presión de un drenaje tapado. Al anticoagular, el seno se recanaliza, la presión retrógrada baja, y se frena tanto la isquemia como la propia hemorragia."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Por eso, suspender o postergar la heparina por miedo a la hemorragia es un grave error. En el examen, la alternativa que dice no anticoagular porque hay sangre en el TAC es la trampa."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La heparina de bajo peso molecular fue superior a la no fraccionada, con menos sangrado. La no fraccionada se reserva si se anticipa una cirugía descompresiva urgente, o si hay falla renal severa, con un clearance menor de treinta."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pasada la fase aguda, se cambia a anticoagulación oral: acenocumarol o warfarina con meta de INR dos a tres, o un anticoagulante directo, como dabigatrán o rivaroxabán."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La duración depende de la causa. Si el gatillo fue transitorio y reversible, como los anticonceptivos, el embarazo o el puerperio, tres a seis meses."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si fue idiopática o hay una trombofilia leve, seis a doce meses. Y si hay una trombofilia mayor, como el síndrome antifosfolípidos, o eventos recurrentes, indefinida."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Si la paciente convulsionó, aunque sea una vez, se indica un anticonvulsivante, como levetiracetam. Si nunca convulsionó, no se da profilaxis."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y si la hipertensión endocraneana es severa y refractaria: acetazolamida, punción lumbar evacuadora, o una craniectomía descompresiva de rescate en infartos venosos masivos."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora juntemos todo en un solo árbol, desde la sospecha hasta la duración del tratamiento. Mujer joven, con anticonceptivos, embarazo o puerperio, y una cefalea que avanza en días y no cede con analgésicos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Busca los signos que la delatan: papiledema y vómitos matinales, convulsiones, o un déficit focal que fluctúa."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Primero el TAC sin contraste, sabiendo que puede ser normal en uno de cada cuatro casos."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Luego el examen de elección, que mira las venas: angiorresonancia o AngioTAC en fase venosa. ¿Hay un seno sin flujo?"
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si los senos están permeables, buscas otra causa, como la hipertensión intracraneal idiopática."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si hay trombosis, enoxaparina en dosis plena de inmediato, aunque haya sangre en la imagen. Y levetiracetam si convulsionó."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Después, anticoagulación oral: tres a seis meses si el factor fue transitorio, seis a doce si fue idiopática, e indefinida en trombofilias mayores."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos con el diagnóstico diferencial que más se pregunta. La trombosis venosa es de la mujer joven con un factor protrombótico; el infarto arterial, del mayor de sesenta con factores de riesgo vascular; y la hipertensión intracraneal idiopática, de la mujer joven con obesidad."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La instalación: la trombosis avanza en días; el infarto es súbito; y el pseudotumor, crónico, de semanas a meses."
+    },
+    {
+      "file": "s09_g02",
+      "text": "La clínica: la trombosis junta cefalea, papiledema y convulsiones; el infarto da un déficit que calza con una arteria; y el pseudotumor, cefalea con papiledema, sin déficit focal, salvo una paresia del sexto par."
+    },
+    {
+      "file": "s09_g03",
+      "text": "La imagen: en la trombosis, el delta vacío y la falta de flujo en la angiorresonancia; en el pseudotumor, los senos están permeables. Por eso, antes de diagnosticar un pseudotumor, siempre hay que mirar las venas."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y el tratamiento: anticoagulación plena en la trombosis, aunque haya sangre; reperfusión o antiagregación en el infarto; y punción evacuadora, acetazolamida y baja de peso en el pseudotumor."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos con un caso. Mujer de veintinueve años, en su cuarto día de puerperio, usuaria de anticonceptivos hasta el embarazo. Tiene cuatro días de cefalea progresiva, que empeora al acostarse y al toser, con vómitos matinales. En las últimas doce horas, tres crisis focales del brazo derecho que se generalizaron. Está somnolienta, con papiledema y una leve paresia del brazo derecho. El TAC muestra una lesión temporoparietal izquierda con focos de sangre, que no respeta ningún territorio arterial."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: evitar anticoagular por la sangre y dar levetiracetam; trombolisis; enoxaparina plena con levetiracetam e ingreso a la unidad crítica; punción evacuadora y acetazolamida; o aspirina y control. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Puerperio, anticonceptivos, cefalea de días con signos de hipertensión endocraneana, convulsiones, y un infarto hemorrágico que no calza con una arteria: es una trombosis venosa cerebral. La A es la trampa: la sangre viene de la presión venosa, y anticoagular es justamente lo que la frena. Y como convulsionó, se agrega levetiracetam. La trombolisis y la aspirina son tratamientos del infarto arterial."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de diciembre de dos mil diecisiete. Mujer de cuarenta años, usuaria de anticonceptivos orales, con cinco días de cefalea holocránea muy intensa, vómitos de predominio matinal, y sin respuesta a los analgésicos. No tiene signos focales."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: trombosis de un seno venoso encefálico, hemorragia subaracnoidea, infarto lacunar, hematoma intraparenquimatoso, o crisis de migraña. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A, trombosis de un seno venoso. Anticonceptivos, cefalea que avanza en días, no cede con analgésicos y trae vómitos matinales: hipertensión endocraneana en una mujer con un factor protrombótico. La migraña es el distractor tentador, pero una cefalea con signos de alarma no es una migraña. Y la subaracnoidea empieza en trueno, no se arrastra por cinco días."
+    },
+    {
+      "file": "s12_g00",
+      "text": "La segunda, del EUNACOM de diciembre de dos mil diecinueve, y quizás la recuerdes de la primera clase del bloque. Es la misma paciente de cuarenta años con anticonceptivos, cinco días de cefalea y vómitos matinales. Pero hoy convulsionó, y está soporosa, con paresia de las extremidades derechas."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: migraña por anticonceptivos, infarto cerebral extenso, infarto lacunar, epilepsia con parálisis de Todd, o trombosis venosa cerebral. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la E. Fíjate que es la pregunta anterior, pero completa: a la cefalea con hipertensión endocraneana se suman la convulsión, el compromiso de conciencia y el déficit focal. Ese es el cuadro completo de la trombosis venosa. El infarto extenso tienta por la paresia, pero se instala de golpe. Y la parálisis de Todd explica la paresia, pero no cinco días de cefalea que va en aumento."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Mujer joven con anticonceptivos, embarazo o puerperio, y una cefalea que avanza en días, con signos de hipertensión endocraneana y convulsiones: piensa en trombosis venosa cerebral."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Un infarto que no calza con ninguna arteria, y que sangra, refuerza la sospecha."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El TAC puede ser normal; el examen de elección es la angiorresonancia o la AngioTAC en fase venosa. Y el delta vacío es el signo clásico."
+    },
+    {
+      "file": "s13_g03",
+      "text": "El tratamiento es la anticoagulación plena con enoxaparina, aunque haya hemorragia, y luego anticoagulación oral según la causa."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Tres a seis meses si el factor fue transitorio, e indefinida si hay una trombofilia mayor. Si te llevas una sola idea de hoy: en la trombosis venosa, la sangre no contraindica la heparina, porque la heparina trata la causa de esa sangre. Nos vemos en la próxima clase."
+    }
+  ]
+}

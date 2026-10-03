@@ -1,0 +1,248 @@
+{
+  "id": "ob-10",
+  "title": "Obstetricia 19.10: Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+  "specialty": "Obstetricia",
+  "chars": 10062,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenida. Hoy vemos el aborto espontáneo, sus formas clínicas, el aborto séptico, y la ley que regula la interrupción voluntaria del embarazo en Chile. Es un tema denso, con hasta cinco cuadros parecidos entre sí. Pero se ordena con solo dos preguntas: ¿el cuello está abierto o cerrado?, y ¿qué muestra la ecografía? Con esas dos respuestas, vas a saber exactamente qué hacer."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Toda esta clase parte del mismo síntoma: metrorragia en el primer trimestre, con o sin dolor cólico. Y como el síntoma no distingue nada, tu primer movimiento tiene que ser otro."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Con el tacto vaginal preguntas una sola cosa: ¿el orificio cervical interno está cerrado o abierto? Esa respuesta ya te divide el problema en dos mitades."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Si está cerrado, la cavidad no se está vaciando en este momento. Pero eso no basta: puede ser un embarazo que sigue, uno que ya murió, o uno que ya se vació por completo. Ahí es donde entra la ecografía."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Si la ecografía muestra un embrión con latidos, es una amenaza de aborto: el embarazo sigue vivo."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Si el embrión no tiene latidos, o hay un saco sin ningún embrión adentro, y la cavidad no está vacía, es un aborto retenido: el embarazo ya murió, pero el cuerpo todavía no lo expulsó."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Y si la cavidad está vacía, con un endometrio fino y regular, es un aborto completo: ya se expulsó todo, y el cuello volvió a cerrarse."
+    },
+    {
+      "file": "s01_g06",
+      "text": "Ahora, si el orificio está abierto, la cavidad se está vaciando en este momento, o ya perdió su contenido de forma incompleta."
+    },
+    {
+      "file": "s01_g07",
+      "text": "Con restos ovulares todavía dentro del útero, es un aborto incompleto. Y si además hay fiebre y mal olor, guarda esa alarma, porque volvemos a ella enseguida."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Para el aborto retenido o incompleto, si la paciente está estable y con menos de doce semanas, tu primera opción es el misoprostol: ochocientos microgramos, vaginal o sublingual, dosis única, repetible a las veinticuatro horas."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Si necesitas cirugía, la aspiración manual endouterina es mejor que el legrado con cureta: perfora menos y deja menos cicatrices dentro del útero."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y algo que se te puede escapar: si la paciente es Rh negativo y no está sensibilizada, le das inmunoglobulina anti D dentro de las primeras setenta y dos horas, sea cual sea el tipo de aborto."
+    },
+    {
+      "file": "s03_g00",
+      "text": "El cuadro más grave de esta clase es el aborto séptico. Fiebre, flujo vaginal de olor fétido, y un útero blando y exquisitamente doloroso. Piensa en él como un absceso dentro del útero, y trátalo igual que cualquier absceso."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Lo primero, siempre, es el antibiótico endovenoso de amplio espectro, triple asociación: ampicilina, gentamicina y metronidazol. Nunca evacúas antes de cubrir la infección."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Esperas de dos a cuatro horas, con el antibiótico ya circulando en la sangre."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y recién ahí evacúas el útero, con aspiración manual o un legrado suave. Evacuar antes, sin cobertura antibiótica, empuja bacterias a la sangre y puede desencadenar un shock séptico."
+    },
+    {
+      "file": "s03_g04",
+      "text": "La histerectomía queda solo para cuando no responde, hay necrosis del útero, o el shock no cede. No es el primer paso: es el último."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Antes de cerrar, revisemos las complicaciones que te pueden llegar a urgencias. La primera es el shock hipovolémico, por un sangrado masivo: la presión cae, el pulso se acelera, y ves coágulos grandes."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Ahí instalas vías gruesas, repones con cristaloides y hemoderivados si hace falta, y evacúas el útero de urgencia: eso es lo que detiene el sangrado."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y dentro del aborto séptico hay una forma todavía más grave: la infección por Clostridium, que destruye los glóbulos rojos en masa y deja a la paciente ictérica, con la orina oscura y el riñón fallando."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y si el legrado es muy enérgico, puedes perforar el útero: lo notas porque la cureta pierde resistencia de golpe. Ahí detienes todo y evalúas quirúrgicamente."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y más adelante, ese mismo legrado agresivo puede dejar cicatrices dentro del útero, el síndrome de Asherman, que se nota porque la paciente deja de menstruar con normalidad. Por eso siempre preferimos el AMEU sobre el legrado con cureta."
+    },
+    {
+      "file": "s05_g00",
+      "text": "En Chile, la interrupción del embarazo está despenalizada en tres causales. La primera es el riesgo vital de la madre. No tiene límite de semanas, y no necesitas ningún comité: basta tu diagnóstico como médico tratante."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La segunda es la inviabilidad fetal letal, una patología incompatible con la vida fuera del útero. Aquí sí necesitas que un segundo ginecobstetra la confirme."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y la tercera es la violación, con un plazo de doce semanas, o de catorce si la paciente tiene menos de catorce años. Fíjate en algo que se pregunta seguido: no se exige denuncia ni condena previa, solo la evaluación de un equipo psicosocial."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El equipo puede objetar conciencia, pero no puede negarse si la paciente está en riesgo vital inmediato y no hay otro médico disponible."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos las cinco formas clínicas en un solo árbol de decisión. Paciente con sangrado en el primer trimestre. No memorices cinco cuadros por separado: el cuello y la ecografía te llevan directo al diagnóstico."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿El orificio cervical interno está cerrado o abierto al tacto?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Con el cuello cerrado, la ecografía te separa en tres."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El embarazo sigue viable: reposo relativo y control ambulatorio."
+    },
+    {
+      "file": "s06_g04",
+      "text": "El embarazo ya no es viable, pero el cuerpo no lo ha expulsado: ofreces misoprostol o AMEU."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Ya se expulsó todo: solo observación."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Con el cuello abierto y restos dentro del útero, pregúntate si hay fiebre y flujo fétido."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Restos dentro del útero, sin infección: evacúas con AMEU o misoprostol."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Fiebre y mal olor con restos retenidos: antibiótico triple endovenoso primero, evacuación uterina después. La histerectomía queda solo si no responde."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos en la tabla. Amenaza de aborto: cuello cerrado, embrión con latidos. Reposo relativo y control."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Aborto retenido: cuello cerrado, sin latidos, o un saco sin embrión adentro. Misoprostol o AMEU."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Aborto completo: cuello ya cerrado, cavidad vacía. Solo observación."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Aborto incompleto: cuello abierto, con restos dentro. AMEU o misoprostol."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y el séptico: cuello generalmente abierto, con fiebre y mal olor. Antibiótico primero, evacuación después. Ese orden es justo la trampa que más se repite."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos al caso. Mujer de veintiséis años, con ocho semanas por fecha de última regla, consulta por metrorragia escasa de dos días y dolor cólico leve. El orificio cervical interno está cerrado, y la ecografía transvaginal muestra un embrión de nueve milímetros, sin latidos cardíacos visibles."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico y la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Tus opciones: amenaza de aborto con reposo, aborto retenido con misoprostol o AMEU, aborto incompleto con AMEU de urgencia, embarazo ectópico con beta-hCG, o aborto completo con observación. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. El embrión mide nueve milímetros, por encima del corte de siete, y no tiene latidos: eso confirma la muerte embrionaria. Y como el cuello sigue cerrado, el cuerpo todavía no lo ha expulsado. Es un aborto retenido, y ahí ofreces misoprostol o AMEU, según lo que prefiera la paciente. No es incompleto, porque el cuello está cerrado; y no es ectópico, porque el saco está dentro del útero."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintiún años consulta por fiebre hasta treinta y ocho coma nueve, dolor hipogástrico intenso y sangrado de mal olor, de cuarenta y ocho horas. Tiene frecuencia cardíaca de ciento veinte y presión de noventa sobre sesenta. Se ven restos ovulares de mal olor, con el útero muy doloroso. La ecografía muestra contenido uterino irregular."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: histerectomía, laparoscopía exploradora, antibióticos endovenosos más evacuación uterina, metotrexato, o misoprostol para conducir el aborto. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. Fiebre, taquicardia, mal olor y útero muy doloroso, con restos retenidos: es un aborto séptico. Y el orden importa: primero antibióticos endovenosos de amplio espectro, y luego evacúas la cavidad. Ni la histerectomía ni la laparoscopía son el primer paso, y evacuar de entrada con misoprostol, sin cubrir la infección, es justo la trampa."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y una tercera pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y dos años, con seis semanas por amenorrea, consulta por metrorragia de un día. Se ve sangre saliendo del cuello. La ecografía muestra un saco gestacional colapsado, a la altura del istmo, y la beta-hCG resulta cinco mil quinientas."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: aborto retenido, amenaza de aborto, aborto incompleto, embarazo ectópico, o mola hidatiforme. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C, aborto incompleto. El saco está dentro del útero, así que el ectópico queda descartado de inmediato. Y un saco colapsado, camino a salir por el cuello, es exactamente lo que ves cuando el aborto ya está en curso y todavía quedan restos por expulsar."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y para cerrar las preguntas reales, esta es del EUNACOM de julio de dos mil veinticinco, sobre la ley. Paciente de veintidós años, con un embarazo de dieciocho semanas, acude a urgencias solicitando la interrupción del embarazo, sin cumplir ninguna de las tres causales legales."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta médica correcta?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: informar que no procede y derivar a consejería, realizar la interrupción por su sola solicitud, derivar a matrona, hospitalizar para observación, o referir a un comité de ética. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. La ley chilena solo despenaliza tres causales, y ninguna está presente aquí. No procede la interrupción, y tu rol es informarle esto con claridad, orientarla, y derivarla a apoyo psicosocial. No hay comité que pueda autorizar una cuarta causal que la ley no contempla."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Frente a una metrorragia del primer trimestre, primero miras el cuello: cerrado o abierto."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Y después la ecografía te dice si hay latidos, si hay restos, o si la cavidad está vacía. Con esas dos respuestas tienes el diagnóstico."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En el séptico, el antibiótico va siempre antes de evacuar. Invertir ese orden es la trampa más clásica del tema."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Y en la ley, solo tres causales despenalizan el aborto: riesgo vital, inviabilidad fetal letal, y violación. Si te llevas una sola idea de hoy: el cuello y la ecografía te dan el diagnóstico, y en el séptico, primero el antibiótico. Nos vemos en la próxima clase."
+    }
+  ]
+}

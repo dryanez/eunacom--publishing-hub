@@ -1,0 +1,224 @@
+{
+  "id": "cirugia-02",
+  "title": "Cirugia 11.2: Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
+  "specialty": "Cirugía General",
+  "chars": 10650,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido de nuevo. Seguimos en el abdomen agudo con colecistitis aguda, la segunda causa más frecuente después de la apendicitis, y un tema con mucha historia en Chile: acá tenemos una de las tasas más altas del mundo de cáncer de vesícula. Hoy vas a aprender a confirmarla con las Guías de Tokio, y sobre todo, cuándo operar antes de setenta y dos horas y cuándo, en el paciente grave, solo drenar. Partamos por el mecanismo."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Todo parte igual que en el cólico biliar: un cálculo se enclava en el cuello de la vesícula o en el cístico. La diferencia con el cólico simple es que aquí el cálculo no se suelta solo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Con la salida tapada, la bilis se estanca adentro y la vesícula se distiende."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Esa bilis concentrada, sin poder salir, inflama la pared por un mecanismo químico, antes de que exista cualquier infección."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y recién después se suma la sobreinfección bacteriana, típicamente por enterobacterias como la Escherichia coli."
+    },
+    {
+      "file": "s01_g04",
+      "text": "El resultado es el cuadro que ves en la consulta: dolor continuo en el hipocondrio derecho de más de seis horas, con fiebre y el signo de Murphy positivo. Fíjate en el \"más de seis horas\": eso es justo lo que lo separa del cólico biliar, que cede solo antes de esas seis horas. También puede irradiarse a la escápula derecha, y en un tercio de los pacientes se llega a palpar la vesícula distendida como una masa dolorosa."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Las Guías de Tokio ordenan el diagnóstico en tres pilares que se suman. El primero es la inflamación local: Murphy clínico positivo, o una masa dolorosa en el hipocondrio derecho."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo pilar es la inflamación sistémica: fiebre sobre treinta y ocho grados, leucocitosis sobre diez mil, o PCR elevada. Con estos dos primeros ya tienes un diagnóstico de sospecha."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y el tercer pilar es la imagen: la ecografía, que busca el Murphy ecográfico, dolor al comprimir la vesícula con el transductor. Es el hallazgo más específico de todos."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Junto con eso, la pared engrosada, sobre cuatro milímetros, y líquido alrededor de la vesícula. Con los tres pilares juntos, ya tienes el diagnóstico definitivo."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Una vez que confirmaste el diagnóstico, todavía falta un paso: clasificar la severidad, porque de eso depende si operas o solo drenas."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Grado uno, leve: el paciente está sano, sin falla de ningún órgano, y la inflamación está confinada a la vesícula."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Grado dos, moderado: cuando se suma algún factor de riesgo local, como más de setenta y dos horas de evolución, leucocitos sobre dieciocho mil, o una masa dolorosa palpable."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Y grado tres, grave: cuando ya hay falla de algún órgano, como shock que necesita drogas vasoactivas, falla renal o compromiso de conciencia."
+    },
+    {
+      "file": "s03_g04",
+      "text": "En grado uno y dos, la conducta es la misma: colecistectomía laparoscópica precoz, dentro de las primeras setenta y dos horas. En el grado dos, eso sí, mejor que la haga un cirujano con experiencia, porque la disección va a ser más difícil."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Pero en grado tres, con falla de órganos o un riesgo anestésico prohibitivo, no operas de entrada. La conducta es la colecistostomía percutánea: un drenaje guiado por ecografía o TAC, con antibióticos, y dejas la cirugía definitiva para después de que el paciente se recupere."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Antes de seguir, fíjate en dos formas complicadas que se preguntan. La colecistitis gangrenosa es cuando la pared ya se necrosó por mala irrigación, y el riesgo de perforación es alto."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Y la enfisematosa es una variante donde el Clostridium produce gas dentro de la pared vesicular. Es más frecuente en diabéticos, y también tiene alto riesgo de perforación temprana: acá el TAC es el que la detecta mejor que la ecografía, y la cirugía no debería esperar las setenta y dos horas completas."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y el síndrome de Mirizzi es cuando un cálculo grande, enclavado en el bacinete, comprime desde afuera el conducto hepático común. Da ictericia, pero no es porque el cálculo esté dentro del colédoco, sino porque lo aplasta desde el lado de la vesícula. Reconocerlo antes de operar evita una lesión de la vía biliar durante la disección, porque el hepático común queda pegado y deformado justo donde el cirujano espera encontrar el cístico."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La ecografía es tu primera línea, pero hay veces que necesitas más. El TAC de abdomen se reserva para cuando sospechas una complicación: colecistitis gangrenosa, perforación, o la forma enfisematosa, con gas dentro de la pared por Clostridium."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Y si la ecografía queda dudosa pero la sospecha clínica sigue siendo alta, la cintigrafía con HIDA es el examen más sensible y específico de todos: muestra que la vesícula no se llena, porque el cístico está obstruido. Se reserva para esos casos límite, no para el estudio de rutina."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Durante la cirugía laparoscópica hay una regla que nunca te puedes saltar: la visión crítica de seguridad de Strasberg. Antes de cortar cualquier estructura, tienes que ver con certeza solo dos elementos entrando a la vesícula: el conducto cístico y la arteria cística. Para llegar a esa visión, primero liberas de grasa el triángulo hepatocístico y despegas el tercio inferior de la vesícula del hígado."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Y si la inflamación es tan intensa que no logras esa visión, el triángulo está congelado, la conducta segura no es seguir cortando a ciegas. Es hacer una colecistectomía subtotal, dejando el muñón cerrado o un drenaje, o convertir a cirugía abierta. Cortar la estructura más gruesa \"presumiendo\" que es el cístico es exactamente el error que provoca la lesión de la vía biliar."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora ordenemos todo en un solo árbol de decisión. Llega un paciente con dolor continuo en el hipocondrio derecho de más de seis horas y Murphy positivo. Antes de decidir nada, confirma el diagnóstico con los tres pilares de Tokio."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Necesitas inflamación local, inflamación sistémica, y la imagen que lo confirme."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Con el diagnóstico confirmado, clasifica la severidad antes de decidir si operas o drenas."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Sin falla de órganos, la colecistectomía laparoscópica precoz es la conducta, idealmente antes de las setenta y dos horas."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Con falla de algún órgano o riesgo anestésico prohibitivo, drenas primero y difieres la cirugía definitiva."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si no se cumplen los tres pilares, replantea el diagnóstico: puede ser un cólico biliar simple u otra causa de dolor en el hipocondrio derecho."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si además hay ictericia franca, no la atribuyas a la colecistitis: busca una causa en la vía biliar."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Una bilirrubina así de alta obliga a evaluar el colédoco antes de ir a pabellón, para no encontrarte una sorpresa en plena cirugía."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Repasemos las trampas. Grado uno o dos, estable: colecistectomía antes de setenta y dos horas. El error es diferirla semanas, como si fuera una colelitiasis simple."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Grado tres o riesgo anestésico prohibitivo: colecistostomía percutánea. El error es operar igual, exponiendo al paciente a una mortalidad quirúrgica altísima."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y si la bilirrubina sube por sobre cuatro, esa ictericia no es de la colecistitis sola: tienes que sospechar una coledocolitiasis asociada, o un síndrome de Mirizzi."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Un diabético con dolor en el hipocondrio derecho y gas visible en la pared vesicular: eso es una colecistitis enfisematosa. Tratarla como si fuera una simple, sin apurar la cirugía, es el error, porque perfora rápido."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y en pabellón, con el triángulo congelado: subtotal o conversión a cirugía abierta. Seccionar la estructura más gruesa asumiendo que es el cístico es el error que lesiona la vía biliar."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y si la ecografía no confirma pero la sospecha sigue alta, el siguiente paso es la cintigrafía HIDA, no repetir la misma ecografía esperando que esta vez sí muestre algo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Vamos con un caso. Mujer de cincuenta años, con dieciocho horas de dolor continuo en el hipocondrio derecho, fiebre de treinta y ocho coma dos y Murphy positivo. Trece mil doscientos leucocitos. La ecografía muestra un cálculo enclavado en el bacinete, pared de cinco milímetros y líquido perivesicular. No tiene falla de ningún órgano."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Tienes cinco opciones: hospitalizar con antibióticos y operar antes de setenta y dos horas, dar analgesia oral y cirugía en tres meses, hacer una colecistostomía de urgencia, pedir una CPRE antes de operar, o dar ácido ursodesoxicólico. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A. Cumple los tres pilares de Tokio: Murphy positivo, fiebre con leucocitosis, y la ecografía confirmatoria. Sin falla de órganos, es Grado uno: hospitalizas, das antibióticos, y operas antes de setenta y dos horas. La colecistostomía es para el paciente grave que no puedes operar, y aquí no hay ictericia que justifique pensar en una CPRE ni en un síndrome de Mirizzi."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de cincuenta y cinco años, con colecistitis aguda de cuarenta y ocho horas de evolución. Está estable, con fiebre de treinta y ocho grados y catorce mil leucocitos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el manejo quirúrgico más adecuado?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones son: colecistectomía laparoscópica precoz antes de setenta y dos horas, cirugía electiva en seis semanas, drenaje percutáneo con cirugía diferida, solo antibióticos y observación, o colecistostomía abierta de urgencia. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A. Está estable y sin falla de órganos, así que no hay ningún motivo para diferir ni para drenar. La colecistectomía precoz, antes de las setenta y dos horas, es mejor que esperar: menos complicaciones y menos conversión a cirugía abierta que si la dejas enfriar."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y cinco años, con dolor epigástrico recurrente. La ecografía muestra múltiples cálculos en la vesícula, y se decide una colecistectomía laparoscópica electiva."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál esquema antibiótico es de elección como profilaxis de la herida operatoria?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones son: amoxicilina con ácido clavulánico, ceftriaxona, clindamicina, cloxacilina, o cefazolina. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E, cefazolina. Es el estándar para profilaxis en cirugía limpia-contaminada como esta: cubre bien la piel y las enterobacterias que puede traer la bilis, sin la cobertura de más que sí necesitarías si ya hubiera una colecistitis complicada. Fíjate que esta pregunta no es sobre tratamiento de una infección, sino sobre profilaxis en una cirugía electiva sin infección activa: por eso el antibiótico de amplio espectro sobra."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Murphy positivo, fiebre o leucocitosis, y ecografía confirmatoria: los tres juntos dan el diagnóstico definitivo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Grado uno y dos: colecistectomía laparoscópica antes de setenta y dos horas."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Grado tres, con falla de órganos: colecistostomía percutánea, y difieres la cirugía definitiva."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Y en pabellón, nunca cortes sin la visión crítica de Strasberg."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Si te llevas una sola idea de hoy: el grado de Tokio, no solo el diagnóstico, es lo que decide si operas o si drenas, y una ictericia marcada nunca es solo de la vesícula. Nos vemos en la próxima clase."
+    }
+  ]
+}

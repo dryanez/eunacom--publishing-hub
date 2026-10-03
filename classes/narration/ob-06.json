@@ -1,0 +1,200 @@
+{
+  "id": "ob-06",
+  "title": "Obstetricia 19.6: Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
+  "specialty": "Obstetricia",
+  "chars": 8063,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenida a la continuación directa de la clase anterior. Ahí vimos la preeclampsia sin severidad; hoy vemos qué pasa cuando se complica: preeclampsia severa, eclampsia y síndrome HELLP. Este es un tema de máxima rentabilidad, y la buena noticia es que casi todo se resuelve con una sola idea: hay un orden fijo de acción, y ese orden empieza siempre con el sulfato de magnesio. Vamos a verlo."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por los criterios de severidad. Basta que aparezca uno solo para que tu paciente pase de leve a severa. El primero: presión ciento sesenta sobre ciento diez o más, confirmada en dos tomas con quince minutos de diferencia."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El segundo grupo es de laboratorio: plaquetas bajo cien mil, o transaminasas al doble de lo normal, o creatinina sobre uno coma uno."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el tercer grupo es neurológico y visceral: cefalea intensa que no cede, escotomas centellantes, o un dolor en el epigastrio que tampoco cede. Fíjate en algo: ese dolor epigástrico no es casualidad, viene de la cápsula del hígado estirándose, y lo vamos a ver de nuevo en el HELLP."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Desde esta preeclampsia severa, hay dos caminos que se pueden disparar, y ambos son urgencias."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El primero es la eclampsia: convulsiones tónico-clónicas generalizadas, sin que haya otra causa neurológica de por medio."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y su complicación más temida es la hemorragia cerebral, que es la causa más frecuente de muerte materna en la eclampsia. Justamente por eso el sulfato de magnesio es tan importante: previene la siguiente convulsión."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El segundo camino es el síndrome HELLP: hemólisis, con esquistocitos y LDH sobre seiscientos; enzimas hepáticas elevadas; y plaquetas bajo cien mil."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Su complicación catastrófica es la rotura hepática, con un dolor en puñalada y shock hipovolémico súbito. Ese dolor epigástrico intenso que no cede es la alarma que no puedes dejar pasar."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Vamos al tratamiento, en el orden en que se hace. Primero, siempre, el sulfato de magnesio: una carga de cuatro a cinco gramos endovenosos en veinte minutos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y después, una mantención de uno a dos gramos por hora, que se mantiene veinticuatro horas después del parto."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Mientras la pasas, vigilas tres cosas cada hora. La primera: que el reflejo rotuliano siga presente. Su ausencia es la primera señal de que hay demasiado magnesio."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La segunda, que la frecuencia respiratoria esté bien. Y la tercera, que la diuresis se mantenga, porque el magnesio se elimina solo por el riñón."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y si algo de esto falla, el antídoto es el gluconato de calcio, un gramo endovenoso, que tiene que estar disponible al lado de la cama."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Con el magnesio ya puesto, controlas la presión con labetalol endovenoso en bolos crecientes, buscando una meta de ciento cuarenta a ciento cincuenta sobre noventa a cien. No más abajo: bajarla de más le corta la circulación a la placenta."
+    },
+    {
+      "file": "s03_g06",
+      "text": "Y si tu paciente no puede recibir labetalol, por ejemplo por bradicardia o por asma, la hidralazina endovenosa es la alternativa."
+    },
+    {
+      "file": "s03_g07",
+      "text": "Y una vez que la madre está estable, interrumpes el embarazo. En la eclampsia y en el HELLP, esa interrupción es la única cura, y no espera a que avance la edad gestacional."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Veamos esto con más detalle, porque se pregunta seguido. Entre cuatro y siete miliequivalentes por litro estás en el rango que buscas: los reflejos están conservados y la diuresis es normal. Ahí mantienes la infusión tal como está."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Entre ocho y diez, el primer signo aparece: se abole el reflejo rotuliano. Ahí suspendes la infusión de inmediato, antes de que avance más."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Entre diez y doce, ya hay depresión respiratoria, con menos de doce respiraciones por minuto. Ahí no basta con suspender: agregas el gluconato de calcio."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y sobre quince, el magnesio bloquea la conducción del corazón y puede llevar al paro. Ahí es gluconato de calcio más intubación, sin demora."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Pongamos el orden completo en un solo árbol de decisión. Aquí tienes la emergencia. Actúas en un orden fijo: primero el magnesio, después todo lo demás."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La primera pregunta ante una preeclampsia con criterio de severidad es simple: ¿ya convulsionó?"
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si convulsionó, es eclampsia, sin importar si ya le habías bajado la presión."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si no ha convulsionado todavía, igual está en riesgo de hacerlo, así que recibe el sulfato de magnesio de todas formas, como prevención."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Lo primero, siempre, es el sulfato de magnesio: no el antihipertensivo, no la cesárea. Primero esto."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Después de estabilizarla, pregúntate si tiene hemólisis, transaminasas elevadas y plaquetas bajas."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Si los tres están presentes, es síndrome HELLP, y la interrupción es inmediata, sin importar cuántas semanas tenga."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Si no cumple los tres criterios, igual interrumpes, pero apenas la madre esté estable."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Repasemos las trampas. Preeclampsia severa que todavía no convulsiona: el sulfato de magnesio se da igual, como prevención. El error es esperar la convulsión para recién indicarlo."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Convulsión en una embarazada con preeclampsia, aunque tenga antecedente de epilepsia: sigue siendo eclampsia, y el tratamiento es sulfato de magnesio, no fenobarbital ni diazepam."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Si ya le controlaste la presión y aun así convulsiona, sigue siendo el sulfato de magnesio lo que corresponde, no un segundo antihipertensivo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y si el reflejo rotuliano desaparece durante la infusión, suspendes el magnesio y das gluconato de calcio. El error más peligroso es aumentar la dosis pensando que hace falta más."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Vamos con un caso. Embarazada de treinta y cinco semanas, traída tras una convulsión tónico-clónica de dos minutos en su casa. Llega en período postictal, con presión ciento setenta y cuatro sobre ciento catorce, e hiperreflexia con clonus bilateral."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la primera medida terapéutica?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Tienes cinco opciones: labetalol endovenoso, sulfato de magnesio endovenoso, cesárea de urgencia sin más estudio, diazepam endovenoso, o una tomografía de cerebro. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Convulsionó, así que ya es eclampsia. Y en eclampsia, antes que la presión, antes que decidir cómo nace el bebé, va el sulfato de magnesio: es lo que evita la siguiente convulsión. El diazepam queda descartado, porque el magnesio le gana en eficacia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Primigesta de treinta y dos semanas, con cefalea intensa y presión ciento setenta sobre ciento diez. Le dan labetalol endovenoso y baja a ciento cuarenta sobre noventa. Pero dos horas después, convulsiona por dos minutos."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: lorazepam endovenoso, labetalol endovenoso, sulfato de magnesio endovenoso, tocolíticos endovenosos, o maduración pulmonar. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. Fíjate en la trampa: ya le habían controlado bien la presión, y aun así convulsionó. Eso te confirma que controlar la presión no basta para prevenir la eclampsia. Ahora que convulsionó, el paso que corresponde es el sulfato de magnesio, sin importar que el labetalol ya haya funcionado."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veintidós. Embarazada de treinta y dos semanas, con dolor epigástrico y en el hipocondrio derecho de dos días. Sus plaquetas están en ochenta mil, la bilirrubina en dos, y las transaminasas muy elevadas. La ecografía muestra litiasis vesicular."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: pancreatitis aguda, hepatitis viral, colecistitis aguda, colestasia intrahepática, o síndrome de HELLP. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la E. Junta las tres letras: plaquetas bajas, transaminasas muy altas, y la bilirrubina elevada te habla de hemólisis. Eso es HELLP. La litiasis vesicular es la trampa: aparece en la ecografía, pero es un hallazgo incidental frecuente en el embarazo, no la causa de este cuadro."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Ante cualquier severidad, lo primero es siempre el sulfato de magnesio, antes que tratar la presión o decidir el parto."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Vigilas el reflejo rotuliano, la respiración y la diuresis cada hora, con el gluconato de calcio listo si aparece toxicidad."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Y en eclampsia y en HELLP, la interrupción no espera la edad gestacional: se hace apenas la madre está estable. Si te llevas una sola idea de hoy: en la emergencia hipertensiva, el orden es magnesio primero, siempre. Nos vemos en la próxima clase, donde vemos la diabetes en el embarazo."
+    }
+  ]
+}

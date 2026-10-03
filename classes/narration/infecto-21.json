@@ -1,0 +1,364 @@
+{
+  "id": "infecto-21",
+  "title": "Infectologia 5.2: Síndrome Mononucleósico y Complejo TORCH",
+  "specialty": "Infectología",
+  "chars": 14759,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos. Hoy vemos el síndrome mononucleósico y el complejo TORCH. Son dos temas que el examen pregunta con casos muy reconocibles: el joven con faringitis, ganglios y bazo grande al que le dieron amoxicilina, y el recién nacido con microcefalia y calcificaciones. Si aprendes a leer las pistas, las preguntas salen casi solas. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. El virus de Epstein-Barr es el herpesvirus tipo cuatro, y se transmite por la saliva. Por eso le dicen la enfermedad del beso, y por eso la ves en adolescentes y adultos jóvenes."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En la orofaringe, el virus entra a los linfocitos B a través de un receptor llamado CD veintiuno."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Y el linfocito B infectado empieza a proliferar sin control. Todo el tejido linfoide crece: las amígdalas, los ganglios y el bazo. Eso ya te explica la clínica."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El organismo responde con un ejército de linfocitos T citotóxicos, los CD ocho. Esa respuesta es la que produce la fiebre, la faringe inflamada y los ganglios dolorosos."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y esos linfocitos T reactivos son los que aparecen en el hemograma como linfocitos atípicos, o de Downey, sobre el diez por ciento del frotis. Fíjate: el linfocito atípico no es el infectado, es el que lo está atacando."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos cómo llega. La tríada es fiebre, faringitis y adenopatías. La fiebre es alta y prolongada: de una a tres semanas, mucho más de lo que dura una faringitis común."
+    },
+    {
+      "file": "s02_g01",
+      "text": "La faringoamigdalitis es exudativa, con placas blanquecinas en ambas amígdalas. Y aquí está el problema: clínicamente es indistinguible de la estreptocócica. Mirando la garganta no las separas."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Lo que sí las separa son los ganglios. En la mononucleosis son cervicales posteriores, simétricos y dolorosos. En el estreptococo, en cambio, se compromete la cadena anterior, submandibular."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y la pista de oro es el bazo. Hay esplenomegalia en la mitad o más de los pacientes. Una faringitis con bazo palpable no es una amigdalitis estreptocócica: es una mononucleosis."
+    },
+    {
+      "file": "s02_g04",
+      "text": "También puede haber hepatomegalia con una elevación leve de las transaminasas. No te confundas con una hepatitis: es parte del mismo cuadro."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la trampa más preguntada del tema. Como la faringitis se ve igual que la estreptocócica, muchas veces el paciente sale de la consulta con un antibiótico."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y ese antibiótico suele ser una aminopenicilina: amoxicilina o ampicilina."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Cinco a siete días después, entre el noventa y el cien por ciento de los pacientes con mononucleosis hace un exantema maculopapular eritematoso difuso. Casi todos. Por eso, en el examen, faringitis más amoxicilina más exantema es mononucleosis hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s03_g03",
+      "text": "¿Y es alergia? No. Es una reacción transitoria mediada por inmunocomplejos, propia de la infección por el virus. No constituye una alergia verdadera a los betalactámicos."
+    },
+    {
+      "file": "s03_g04",
+      "text": "La conducta es suspender la amoxicilina y estudiar el virus de Epstein-Barr. Y la trampa es rotular al paciente como alérgico a la penicilina para toda la vida."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Pasemos al diagnóstico. El primer examen es el hemograma: leucocitosis con predominio mononuclear, y linfocitos atípicos sobre el diez por ciento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Luego se buscan los anticuerpos heterófilos, con la reacción de Paul-Bunnell o el Monotest. Si son positivos, es virus de Epstein-Barr."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la serología específica es la IgM contra la cápside viral, la IgM VCA. Si la IgM está positiva y la IgG todavía negativa, es una infección aguda. Esa lectura se pregunta."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El manejo es de soporte, porque es un virus. Si recibió amoxicilina, se suspende."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y la indicación que no puede faltar: reposo relativo por tres a cuatro semanas, sin deportes de contacto. El bazo está grande y frágil, y un golpe puede romperlo. Esa rotura esplénica traumática es la complicación con riesgo vital."
+    },
+    {
+      "file": "s05_g00",
+      "text": "No todo síndrome mononucleósico es Epstein-Barr. La causa número uno con anticuerpos heterófilos negativos es el citomegalovirus. Se presenta como un síndrome febril prolongado aislado, casi tifoídeo, en un adulto joven."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La diferencia está en la garganta: en el citomegalovirus la faringitis es escasa o no existe, y las adenopatías son mínimas."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La toxoplasmosis aguda da sobre todo ganglios cervicales indoloros y aislados, en alguien expuesto a gatos o que come carne cruda."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y el que no puedes dejar pasar: el síndrome retroviral agudo, la primoinfección por el virus de inmunodeficiencia humana. Aparece dos a cuatro semanas después de una exposición sexual de riesgo, con fiebre, faringitis y adenopatías."
+    },
+    {
+      "file": "s05_g04",
+      "text": "La pista distintiva son las úlceras mucocutáneas muy dolorosas, orales o genitales. Y ojo, en ese momento la serología puede salir todavía negativa, porque está en período de ventana."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Cambiamos al recién nacido. TORCH es un acrónimo de infecciones congénitas. La T es Toxoplasma."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La O es otros: sífilis, Chagas, varicela y parvovirus B diecinueve."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La R es rubéola, la C es citomegalovirus, y la H es herpes simple. Fíjate que el citomegalovirus aparece de nuevo: el mismo virus del síndrome mononucleósico del adulto."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Todas comparten una clínica neonatal. El niño es pequeño: restricción del crecimiento intrauterino, y muchas veces microcefalia."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Tiene hepatoesplenomegalia e ictericia a predominio directo."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y púrpura por trombocitopenia, con ese aspecto de muffin de arándanos. Si ves un recién nacido pequeño, con hígado grande, ictericia y púrpura, piensa TORCH. Después las huellas te dicen cuál."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Ahora las huellas. El citomegalovirus congénito da calcificaciones periventriculares, alrededor de los ventrículos, con microcefalia."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Y es la primera causa de hipoacusia neurosensorial congénita no hereditaria. Periventricular y sordera: citomegalovirus."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La toxoplasmosis congénita da la tétrada de Sabin. Las calcificaciones son intracraneales difusas, no periventriculares, y hay hidrocefalia: la cabeza crece en vez de quedarse chica."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Se completa con coriorretinitis y convulsiones."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y la rubéola congénita da la tríada de Gregg. Primero, catarata congénita: la pupila blanca, sin rojo pupilar."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Luego hipoacusia neurosensorial y cardiopatía congénita, típicamente el ductus arterioso persistente. Ojo, pupila blanca con soplo es rubéola."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Juntemos el síndrome mononucleósico en un árbol de decisión. Adolescente o adulto joven con fiebre, dolor de garganta y ganglios cervicales. Antes de dar un antibiótico, busca las pistas de mononucleosis."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Mira los ganglios y palpa el bazo. ¿Son cervicales posteriores? ¿Hay esplenomegalia? ¿Apareció un exantema después de la amoxicilina?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Si los ganglios son anteriores y no hay bazo palpable, el cuadro se maneja como una faringoamigdalitis común."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Si hay pistas, pide hemograma buscando linfocitos atípicos sobre el diez por ciento, y anticuerpos heterófilos."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Heterófilos positivos o IgM VCA positiva: mononucleosis por Epstein-Barr. Suspender la amoxicilina, y reposo relativo sin deportes de contacto por tres a cuatro semanas."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Con heterófilos negativos, busca la pista que acompaña."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Fiebre prolongada aislada con poca faringitis: citomegalovirus, la primera causa."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Adenopatía cervical indolora en alguien expuesto a gatos o carne cruda: toxoplasmosis."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Úlceras mucosas dolorosas tras una exposición sexual de riesgo: primoinfección por VIH. La serología puede ser negativa en la ventana, así que se pide carga viral."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Repasemos. Epstein-Barr: heterófilos positivos, faringitis exudativa con ganglios posteriores, y el exantema después de la amoxicilina."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Citomegalovirus: heterófilos negativos, casi sin faringitis, y es la primera causa de mononucleosis con heterófilos negativos."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Toxoplasma: heterófilos negativos, ganglios cervicales que no duelen, y el antecedente de gatos o carne cruda."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y la primoinfección por VIH: heterófilos negativos, faringitis moderada, y úlceras orales dolorosas con exantema. Si hay una exposición de riesgo, no la olvides."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Vamos al caso. Joven de diecinueve años con seis días de fiebre, dolor de garganta intenso y cansancio. Hace tres días le diagnosticaron una amigdalitis y le dieron amoxicilina. Tras la cuarta dosis aparece un exantema maculopapular en el tronco y las extremidades. Tiene grandes exudados en las amígdalas, ganglios cervicales posteriores sensibles y el bazo palpable a tres centímetros del reborde."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: cambiar a azitromicina y rotularlo alérgico, suspender la amoxicilina con hemograma, Monotest y reposo sin deportes de contacto, subir la dosis de amoxicilina, hospitalizar para penicilina endovenosa, o pedir una tomografía de cuello. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Ganglios posteriores, bazo grande y exantema después de la amoxicilina: mononucleosis por Epstein-Barr. Se suspende la amoxicilina, se confirma con hemograma y anticuerpos heterófilos, y se indica reposo sin deportes de contacto por el riesgo de rotura del bazo. La A es la trampa: el exantema no es una alergia verdadera, y rotularlo alérgico le quita la penicilina de por vida."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de diecisiete años con siete días de fiebre, malestar y odinofagia. Tiene lesiones blanquecinas en las amígdalas, adenopatías cervicales, y se palpa el bazo aumentado de tamaño."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el agente causal más probable?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: adenovirus, influenza, virus de Epstein-Barr, citomegalovirus, o estreptococo del grupo A. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la C, Epstein-Barr. La clave es el bazo: una faringitis exudativa con esplenomegalia es una mononucleosis. El estreptococo tienta por las placas blancas, pero no agranda el bazo. Y el citomegalovirus casi no da faringitis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra real, del EUNACOM de julio de dos mil trece. Paciente de dieciocho años con tres días de compromiso del estado general, fiebre, coriza y odinofagia, con amígdalas con exudado blanquecino, adenopatías cervicales y hepatoesplenomegalia. La serología muestra IgM VCA positiva, IgG VCA negativa, IgM para citomegalovirus negativa, IgG para citomegalovirus positiva, y ELISA para VIH negativo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: primoinfección por VIH, mononucleosis por citomegalovirus, mononucleosis por Epstein-Barr, síndrome mononucleósico por estreptococo, o por leucemia aguda. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C. La IgM contra la cápside viral está positiva y la IgG todavía no aparece: infección aguda por Epstein-Barr. El distractor es el citomegalovirus, porque tiene un anticuerpo positivo, pero es la IgG: eso habla de una infección antigua, no de la actual. La IgM manda lo agudo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una real más, del EUNACOM de julio de dos mil diecinueve. Niño de tres años con fiebre alta, malestar y odinofagia intensa. Se inicia amoxicilina, y a las cuarenta y ocho horas aparece un exantema. Está decaído, con adenopatías cervicales dolorosas y amígdalas con exudado blanco."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: escarlatina, mononucleosis infecciosa, alergia a la penicilina, enfermedad de Kawasaki, o sarampión. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B, mononucleosis. Faringitis exudativa con adenopatías, y un exantema que aparece después de la amoxicilina: es la trampa clásica. El distractor más tentador es la alergia a la penicilina, y justamente eso es lo que el examen quiere que descartes: es una reacción del virus, no una alergia verdadera. La escarlatina la vemos en la próxima clase."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Ahora una real sobre el diferencial, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y siete años con dos días de fiebre, malestar y odinofagia. Tiene úlceras orales, adenopatías cervicales bilaterales y un exantema maculopapular en el tronco. Además está algo confuso, con rigidez de nuca esbozada. La serología para VIH y para Epstein-Barr es negativa, y el líquido cefalorraquídeo muestra pleocitosis mononuclear con glucosa normal."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: primoinfección por VIH, meningoencefalitis por citomegalovirus, meningitis bacteriana, neurosífilis, o mononucleosis infecciosa. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la A, primoinfección por VIH. Síndrome mononucleósico con úlceras orales y exantema es la pista del síndrome retroviral agudo, y puede complicarse con una meningitis aséptica. ¿Y la serología negativa? Es el período de ventana: todavía no hay anticuerpos, por eso se confirma con carga viral. La mononucleosis tienta, pero el Epstein-Barr salió negativo y no explica las úlceras."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Pasamos al TORCH, con una real del EUNACOM de julio de dos mil veinticinco. Recién nacido con microcefalia, calcificaciones periventriculares y coriorretinitis. La madre tiene IgG e IgM positivas para citomegalovirus."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el agente causante de la infección congénita?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: citomegalovirus, Toxoplasma, herpes simple tipo dos, Treponema pallidum, o rubéola. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la A, citomegalovirus. Calcificaciones periventriculares con microcefalia es su huella. El Toxoplasma tienta por la coriorretinitis, pero sus calcificaciones son difusas y la cabeza crece por hidrocefalia, no se queda chica."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Otra real, del EUNACOM de julio de dos mil diecinueve. Recién nacido de treinta y ocho semanas, hipotónico, que succiona mal, con circunferencia craneana de veintiséis centímetros. No tiene rojo pupilar y ambas pupilas se ven blanquecinas. Además tiene un soplo sistólico eyectivo paraesternal."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el agente más probable?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: rubéola, parvovirus, citomegalovirus, Toxoplasma, o herpes simple. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la A, rubéola. Pupila blanca por catarata congénita más soplo por cardiopatía: tríada de Gregg. El citomegalovirus tienta por la microcefalia, pero no explica ni la catarata ni el soplo."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Y la última real, del EUNACOM de julio de dos mil quince. Recién nacido con hepatoesplenomegalia, ictericia, calcificaciones cerebrales y microcefalia, que evoluciona con coriorretinitis y un aumento progresivo del perímetro craneano."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: infección por VIH, Streptococcus agalactiae, rubéola congénita, toxoplasmosis congénita, o sífilis congénita. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la D, toxoplasmosis congénita. La pista está al final: la cabeza que crece progresivamente es hidrocefalia, y con coriorretinitis y calcificaciones arma la tétrada de Sabin. La rubéola tienta como TORCH conocido, pero su huella es catarata, sordera y ductus."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. Faringitis exudativa con ganglios cervicales posteriores y bazo grande es mononucleosis, no estreptococo."
+    },
+    {
+      "file": "s18_g01",
+      "text": "El exantema después de la amoxicilina aparece en casi todos, y no es una alergia verdadera."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Y siempre, reposo relativo sin deportes de contacto por tres a cuatro semanas, por el riesgo de rotura del bazo."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Con heterófilos negativos, piensa primero en citomegalovirus. Y si hay úlceras orales dolorosas con una exposición de riesgo, en la primoinfección por VIH."
+    },
+    {
+      "file": "s18_g04",
+      "text": "En el TORCH, citomegalovirus es periventricular con sordera; toxoplasma, calcificaciones difusas, hidrocefalia y coriorretinitis."
+    },
+    {
+      "file": "s18_g05",
+      "text": "Y rubéola, catarata, sordera y ductus. Si te llevas una sola idea de hoy: faringitis con bazo grande es Epstein-Barr, y ese paciente no necesita amoxicilina sino reposo. Nos vemos en la próxima clase."
+    }
+  ]
+}

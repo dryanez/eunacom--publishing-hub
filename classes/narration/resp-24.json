@@ -1,0 +1,228 @@
+{
+  "id": "resp-24",
+  "title": "Neumología 5.4: Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+  "specialty": "Neumología",
+  "chars": 10575,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenidos a la última clase del bloque. Hoy vemos la intoxicación por monóxido de carbono, una de las intoxicaciones letales más frecuentes del invierno en Chile, por braseros y calefones defectuosos. El examen la pregunta casi siempre con la misma trampa: un paciente con cefalea y una saturación de noventa y nueve por ciento. Vamos a entender por qué ese número no sirve, cómo se confirma y cuándo se deriva a cámara hiperbárica."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Partamos por el mecanismo. El monóxido de carbono se produce por la combustión incompleta: un brasero en una pieza cerrada, un calefón defectuoso en el baño, un incendio. Es inodoro, incoloro, insípido y no irritante. El paciente no se da cuenta de que lo está respirando."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El primer golpe es sobre la hemoglobina. El monóxido se une a ella con una afinidad doscientas a doscientas cincuenta veces mayor que el oxígeno, y forma carboxihemoglobina. Esa hemoglobina ya no puede transportar oxígeno."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Además, desplaza la curva de disociación hacia la izquierda: la hemoglobina que sí lleva oxígeno se aferra a él y no lo entrega a los tejidos. Es un doble problema de transporte."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El segundo golpe es en la mitocondria. El monóxido bloquea el complejo cuatro de la cadena respiratoria, la citocromo c oxidasa. La célula no puede usar oxígeno aunque le llegue, y aparece la acidosis láctica. Por eso es una hipoxia celular, no una hipoxemia: y eso explica la trampa que viene."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Veamos la clínica. El síntoma más precoz es la cefalea holocraneana pulsátil. Súmale náuseas, vómitos, mareos y debilidad muscular."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Y la clave para sospecharla está en el contexto: invierno, un espacio cerrado con combustión, y muchas veces varias personas de la misma casa con los mismos síntomas. Una familia entera con cefalea es monóxido hasta demostrar lo contrario."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En los casos graves aparece el compromiso neurológico y cardíaco: ataxia, síncope, convulsiones, coma y arritmias. El cerebro y el corazón son los que más sufren la hipoxia celular."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y ojo con la piel rojo cereza. Es el signo clásico de los libros, pero se ve en menos del cinco por ciento y es tardío. Si esperas verlo para sospechar, vas a llegar tarde."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la trampa. Llega el paciente con cefalea desde una casa con brasero, le pones el saturómetro de dedo, y marca noventa y nueve por ciento. La tentación es tranquilizarse. No lo hagas."
+    },
+    {
+      "file": "s03_g01",
+      "text": "El oxímetro de pulso estándar mide solo dos longitudes de onda de luz, y con eso no puede distinguir la oxihemoglobina de la carboxihemoglobina. Lee la carboxihemoglobina como si fuera hemoglobina llena de oxígeno, y marca una saturación falsamente normal, incluso con niveles letales."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Entonces, ¿cómo se confirma? Midiendo directamente la carboxihemoglobina en sangre, con co-oximetría, en gases arteriales o venosos. Ese es el examen de elección. Y fíjate que los gases convencionales tampoco sirven: la presión de oxígeno suele ser normal, porque el problema no es el oxígeno disuelto."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Los niveles diagnósticos son una carboxihemoglobina sobre tres a cinco por ciento en el no fumador, o sobre diez por ciento en el fumador habitual, que ya parte con un nivel basal más alto."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El tratamiento inmediato, para todos los pacientes, es oxígeno al cien por ciento por mascarilla con bolsa de no reinhalación, con reservorio, a quince litros por minuto y sin interrupciones por al menos seis horas. No se espera el resultado de la co-oximetría para empezar."
+    },
+    {
+      "file": "s04_g01",
+      "text": "¿Por qué con reservorio y no con naricera? Porque el oxígeno compite con el monóxido por la hemoglobina, y para ganar esa competencia necesitas la fracción inspirada más alta posible."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y la competencia se mide en vida media. Respirando aire ambiental, la carboxihemoglobina tarda trescientos veinte minutos en bajar a la mitad, unas cinco horas y media."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Con oxígeno al cien por ciento en la urgencia, baja a ochenta minutos. Eso es lo que hace el tratamiento: acelerar la salida del monóxido."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y en la cámara hiperbárica, a dos coma cinco a tres atmósferas, baja a veinte o veinticinco minutos. Pero la cámara no es para todos, como vemos ahora."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Las indicaciones de oxígeno hiperbárico son estrictas, y se preguntan. La primera es por el nivel: carboxihemoglobina sobre veinticinco por ciento, en cualquier paciente."
+    },
+    {
+      "file": "s05_g01",
+      "text": "En la embarazada el corte es más bajo: sobre quince por ciento. La hemoglobina fetal concentra más monóxido que la materna, y el feto puede sufrir hipoxia grave con una madre que se ve relativamente bien."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Y por la clínica, aunque el nivel sea menor: la pérdida de conciencia o el síncope, el coma o las convulsiones."
+    },
+    {
+      "file": "s05_g03",
+      "text": "También el compromiso neurológico persistente o un déficit focal."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y la isquemia miocárdica, con angina o troponinas elevadas, o una acidosis metabólica severa y refractaria, con pH bajo siete coma quince. Fuera de estas indicaciones, el tratamiento es oxígeno normobárico."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Juntemos todo en un árbol, desde la sospecha hasta la cámara. Paciente con cefalea, náuseas o mareo, que estuvo en un espacio cerrado con un brasero, un calefón o un incendio."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Aunque el saturómetro marque noventa y nueve, se inicia oxígeno al cien por ciento con reservorio y se pide carboxihemoglobina por co-oximetría."
+    },
+    {
+      "file": "s06_g02",
+      "text": "¿La carboxihemoglobina está elevada? Sobre tres a cinco en el no fumador, o sobre diez en el fumador."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si no está elevada, busca otra causa para los síntomas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Confirmada la intoxicación, ¿tiene alguna indicación de cámara? Carboxihemoglobina sobre veinticinco, embarazada sobre quince, pérdida de conciencia, coma, convulsiones, déficit neurológico, isquemia o acidosis severa."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si no tiene ninguna, sigue con oxígeno normobárico al cien por ciento por al menos seis horas."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si tiene alguna, se deriva a oxígeno hiperbárico, sin suspender el oxígeno mientras tanto."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Repasemos las trampas. Cefalea con brasero y saturación de noventa y nueve: oxígeno al cien por ciento y co-oximetría. El error es dar el alta porque el saturómetro está normal."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Para confirmar, carboxihemoglobina. Los gases convencionales suelen salir normales, y el TAC de cerebro no diagnostica la intoxicación."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Carboxihemoglobina de doce por ciento, sin síntomas graves: oxígeno normobárico. Mandar a cámara a todos es un error."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Embarazada con dieciocho por ciento: cámara hiperbárica, porque su corte es quince. Aplicarle el corte de veinticinco es la trampa."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y si hubo síncope o pérdida de conciencia, el oxígeno parte de inmediato, y hay indicación de hiperbárico aunque el nivel no llegue a veinticinco."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Vamos con un caso. Mujer de veintinueve años, embarazada de veintiséis semanas, traída desde su casa, donde tenía un brasero encendido en el dormitorio. Tiene cefalea intensa, náuseas y mareo, está consciente y sin focalidad. El saturómetro marca noventa y nueve por ciento, y la co-oximetría muestra una carboxihemoglobina de diecisiete por ciento."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las alternativas: alta con paracetamol, naricera y control en veinticuatro horas, oxígeno al cien por ciento con reservorio y derivar a cámara hiperbárica, oxígeno normobárico solamente porque no llega a veinticinco, o TAC de cerebro antes del oxígeno. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C. La intoxicación está confirmada, y el saturómetro normal no significa nada. El detalle que decide es el embarazo: su corte para cámara hiperbárica es quince por ciento, no veinticinco, porque la hemoglobina fetal concentra más monóxido. La D es la trampa: sería correcta en un adulto no embarazado, pero aquí deja al feto sin la protección que necesita."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintisiete años con cefalea, malestar, disnea y opresión precordial, tres horas después de estar expuesto al humo de un incendio en su casa. Frecuencia respiratoria de treinta y cinco, saturación de noventa y seis, sin cianosis, y examen cardiopulmonar normal."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Qué examen es el más adecuado para confirmar la sospecha diagnóstica?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: radiografía de tórax, TAC de tórax, carboxihemoglobina, gases arteriales, o monitoreo transcutáneo de CO dos. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. Humo de incendio más cefalea, con una saturación normal: la sospecha es monóxido, y se confirma con carboxihemoglobina. Los gases arteriales son el distractor más tentador, porque suenan completos, pero los convencionales miden la presión de oxígeno, que suele salir normal. Lo que necesitas es la co-oximetría. Y la opresión precordial te obliga además a buscar isquemia, que sería indicación de cámara."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de veinticinco años encontrada inconsciente en el baño de su casa. En la urgencia ya está con Glasgow quince, frecuencia cardíaca de ciento quince y saturación de noventa y ocho. La glicemia es normal, y la carboxihemoglobina es de veinte por ciento."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: naricera de alto flujo, TAC de cerebro, terapia hiperbárica, broncodilatadores, u oxígeno por mascarilla de no recirculación. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la E. Fíjate en la palabra inicial. Lo primero, en todo paciente con monóxido, es oxígeno al cien por ciento por mascarilla de no recirculación. La hiperbárica es el distractor tentador, y no por error: la pérdida de conciencia es una indicación de cámara. Pero la cámara viene después; lo que no puede esperar ni un minuto es el oxígeno. La naricera se queda corta."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La última, del EUNACOM de diciembre de dos mil veinticuatro, con un enunciado muy corto. Paciente encontrada en el baño, con una carboxihemoglobina de doce por ciento."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: oxígeno por mascarilla, cámara hiperbárica, ninguna, todas, o información insuficiente. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. Doce por ciento está lejos del corte de veinticinco, y el enunciado no describe pérdida de conciencia, embarazo ni isquemia. Entonces el tratamiento es oxígeno al cien por ciento por mascarilla. La cámara es el distractor para quien cree que todo monóxido va a cámara hiperbárica."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La saturación normal no descarta la intoxicación: el oxímetro de pulso confunde la carboxihemoglobina con oxígeno."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Lo que confirma es la carboxihemoglobina por co-oximetría, no los gases convencionales ni el TAC."
+    },
+    {
+      "file": "s12_g02",
+      "text": "El tratamiento para todos es oxígeno al cien por ciento con reservorio por al menos seis horas, que baja la vida media de trescientos veinte a ochenta minutos."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Y la cámara hiperbárica, solo con carboxihemoglobina sobre veinticinco, embarazada sobre quince, pérdida de conciencia, compromiso neurológico, isquemia miocárdica o acidosis severa. Si te llevas una sola idea de hoy: frente a cefalea en invierno con brasero, el saturómetro miente; das oxígeno al cien por ciento y mides la carboxihemoglobina. Nos vemos en la próxima clase."
+    }
+  ]
+}

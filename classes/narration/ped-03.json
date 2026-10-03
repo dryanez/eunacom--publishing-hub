@@ -1,0 +1,204 @@
+{
+  "id": "ped-03",
+  "title": "Pediatria 18.3: Programa Nacional de Inmunizaciones (PNI Chile): Calendario de Vacunación Obligatorio 2026",
+  "specialty": "Pediatría",
+  "chars": 7786,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos el Programa Nacional de Inmunizaciones, el calendario de vacunas de Chile. Es el tema pediátrico más preguntado del examen, así que vale la pena que le dediques atención. Vas a aprender el calendario completo, edad por edad, y sobre todo vas a aprender a distinguir las contraindicaciones reales de las falsas, que es justo donde el examen te tiende la trampa. Empecemos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Empecemos por el principio. En la maternidad, el recién nacido recibe dos vacunas: la BCG, que protege de las formas graves de tuberculosis, y la Hepatitis B, en las primeras horas de vida."
+    },
+    {
+      "file": "s01_g01",
+      "text": "A los dos y a los cuatro meses, se dan dos vacunas juntas: la hexavalente, que junta difteria, tétanos, tos convulsiva, Haemophilus, hepatitis B y polio inactivada en una sola inyección, y la neumocócica conjugada."
+    },
+    {
+      "file": "s01_g02",
+      "text": "A los seis meses va la tercera dosis de hexavalente, completando la serie de base."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Al año aparecen tres vacunas nuevas: la tresvírica, contra sarampión, rubéola y paperas, la meningocócica que cubre los serogrupos A, C, W ciento treinta y cinco, e Y, y un refuerzo de la neumocócica."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Y a los dieciocho meses, el cuarto refuerzo de hexavalente, más hepatitis A, más la primera dosis de varicela. Con esto termina el calendario del lactante, y lo que sigue son las dosis escolares."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Fíjate en cuáles vacunas son de microorganismo vivo, porque de ahí salen las contraindicaciones reales: la BCG, la tresvírica y la varicela. Están prohibidas en embarazo y en inmunosupresión grave."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Todas las demás, la hexavalente, la neumocócica, la meningocócica, la hepatitis A, son inactivadas o de fragmentos. No tienen microorganismo capaz de replicarse, así que son seguras incluso en un paciente inmunosuprimido."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y un dato de actualidad que se pregunta cada vez más: el nirsevimab. No es una vacuna, es un anticuerpo monoclonal contra el virus respiratorio sincicial, que se da a todo recién nacido y lactante menor de seis meses antes de su primer invierno."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ahora la parte que más se presta para confusión. Un resfrío común, una diarrea leve, o fiebre baja, bajo treinta y ocho coma cinco, no contraindican ninguna vacuna. Y estar tomando antibióticos tampoco."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La alergia al huevo tampoco contraindica la tresvírica ni la influenza actual: se puede vacunar sin pruebas previas."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y la prematurez: se vacuna según la edad cronológica, la misma que ya cumplió, nunca según la edad gestacional corregida. Ojo, porque esto es al revés de lo que aprendiste en la clase de desarrollo psicomotor."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En los cuatro casos, la conducta es la misma: se vacuna sin cambios."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Las contraindicaciones reales son solo dos: el embarazo y la inmunosupresión grave, como una quimioterapia o corticoides en dosis altas por más de dos semanas."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Y en esos dos casos, lo que se suspende son las vacunas vivas: la tresvírica, la varicela y la BCG. Las inactivadas se mantienen igual."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Ahora ordenemos todo el calendario en un solo árbol de decisión. Un niño llega a vacunarse. Antes de mirar el calendario, pregúntate si hay algo que realmente contraindique la vacuna."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Solo dos cosas contraindican de verdad: el embarazo y la inmunosupresión grave, como quimioterapia o corticoides en dosis alta."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Se suspenden únicamente las vacunas de virus vivo: BCG, tresvírica y varicela. Las inactivadas se mantienen igual."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Ninguna de estas condiciones cambia nada: se vacuna según lo que corresponda a su edad cronológica."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Sin ninguna condición especial, sigues directo el calendario según su edad."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Las dos primeras vacunas de la vida, en la maternidad."
+    },
+    {
+      "file": "s04_g06",
+      "text": "Hexavalente en las tres dosis, y neumocócica a los dos y cuatro meses."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Aparecen las vacunas vivas: tresvírica y meningocócica, más el refuerzo de neumocócica."
+    },
+    {
+      "file": "s04_g08",
+      "text": "El cuarto refuerzo de hexavalente, hepatitis A, y la primera dosis de varicela."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Repasemos las trampas. Un prematuro de dos meses se vacuna igual que cualquier niño de dos meses. El error es ajustar la edad, como si fuera desarrollo psicomotor."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La alergia al huevo no cambia nada. El error es pedir un test cutáneo antes de vacunar."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Un resfrío o fiebre baja no posponen nada. El error es citar a otro día."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Con corticoides en dosis alta, solo se suspenden las vivas. El error es suspender el calendario completo, incluidas las inactivadas."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y si hay fiebre después de vacunar, la trivírica la da tarde, entre siete y diez días después, por ser un virus vivo. Las inactivadas, como la pertusis, dan fiebre casi de inmediato."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Vamos con un caso. Lactante de dieciocho meses, nacido prematuro, en tratamiento con corticoides por un cuadro bronquial obstructivo severo. Su última vacuna fue la BCG, al nacer, y su calendario está atrasado desde entonces. La madre quiere ponerlo al día."
+    },
+    {
+      "file": "s06_g01",
+      "text": "¿Qué vacuna está contraindicada mientras el niño reciba corticoides?"
+    },
+    {
+      "file": "s06_g02",
+      "text": "Las opciones: antineumocócica, antimeningocócica, tresvírica, hepatitis A, o hexavalente. Piénsalo."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Es la C, la tresvírica. Recuerda la regla que vimos: con corticoides en dosis inmunosupresoras, lo único que se suspende son las vacunas vivas, y la tresvírica es la única viva entre las opciones. Todas las demás, hexavalente, neumocócica, meningocócica y hepatitis A, son inactivadas y se pueden poner de inmediato, junto con las que le faltan por su edad."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Niño de dos meses, que nació a las treinta y cuatro semanas de gestación, llega a control."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿En qué momento debe administrarse la vacuna antineumocócica conjugada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: en este momento, en cuatro semanas más, en seis semanas más, a los doce meses, o que no debe administrarse."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la A. El calendario de vacunas se guía por la edad cronológica, no por la edad corregida: esta es exactamente la trampa que ya te advertí. La única vacuna que sí se ajusta es la BCG, que espera a que el niño llegue a los dos kilos de peso. Como este niño ya tiene dos meses de edad cronológica, le corresponde su vacuna hoy mismo."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Niño de nueve meses, que debe vacunarse por primera vez contra la influenza. Tiene el antecedente de un rash cuando probó huevo, en dos ocasiones."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es la conducta más adecuada para su vacunación?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: vacunar sin cambios, prohibir la vacuna para siempre, esperar la reacción a la trivírica antes de decidir, postergar hasta los veinticuatro meses, o hacer un test cutáneo primero. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la A. La alergia al huevo es una falsa contraindicación, tanto para la influenza como para la tresvírica: se vacuna sin cambios, sin pruebas previas y sin postergar nada. Fíjate que ninguna de las otras opciones tiene sustento, y todas nacen del mismo mito, que ya deberías tener identificado."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niño de doce meses, que recibe sus vacunas del Plan Nacional, más una dosis atrasada de pentavalente. Diez días después, hace fiebre hasta treinta y ocho grados."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Qué vacuna es la responsable de la fiebre, con mayor probabilidad?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: antimeningocócica, antineumocócica, trivírica, pertusis, o anti-Haemophilus."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, la trivírica. Este es el detalle fino que vimos en la tabla: las vacunas inactivadas, como la pertusis, dan fiebre casi de inmediato. La trivírica, por ser de virus vivo, se demora entre siete y diez días en dar fiebre, porque necesita que el virus se replique primero. Diez días después calza justo con ese patrón."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. BCG y hepatitis B al nacer; hexavalente a los dos, cuatro, seis y dieciocho meses."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Tresvírica al año; varicela y hepatitis A a los dieciocho meses."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Un resfrío, fiebre baja, antibióticos y la alergia al huevo no contraindican nada."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y las únicas contraindicaciones reales son el embarazo y la inmunosupresión grave, y solo afectan a las vacunas vivas. Si te llevas una sola idea de hoy: en vacunas, la edad siempre es la cronológica, nunca la corregida. Nos vemos en la próxima clase."
+    }
+  ]
+}
