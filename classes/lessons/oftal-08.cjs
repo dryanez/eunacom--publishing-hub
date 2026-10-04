@@ -102,19 +102,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-08/01_catarata_2__amir-oftalmo_p40.jpg', label: 'Catarata 2', credit: 'Manual AMIR Oftalmología, p. 40' },
-      ],
-      steps: [
-        { note: 'Catarata 2',
-          say: 'Mira esta imagen: catarata dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -194,14 +194,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_2__cto-gyo_p121.jpg', label: 'Doppler arteria umbilical 2', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' },
-        { src: 'biblioteca/14_obstetricia/ob-04/02_ondas-doppler-patologicas-tabla__amir-gyo_p23.jpg', label: 'Ondas doppler patológicas', credit: 'Manual AMIR Ginecología y Obstetricia, p. 23' },
+        { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_2__cto-gyo_p121.jpg', label: 'Doppler de arteria umbilical', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' },
+        { src: 'biblioteca/14_obstetricia/ob-04/02_ondas-doppler-patologicas-tabla__amir-gyo_p23.jpg', label: 'Onda Doppler patológica', credit: 'Manual AMIR Ginecología y Obstetricia, p. 23' },
       ],
       steps: [
-        { note: 'Doppler arteria umbilical 2',
-          say: 'Mira esta imagen: doppler arteria umbilical dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Ondas doppler patológicas',
-          say: 'Mira esta imagen: ondas Doppler patológicas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Doppler de arteria umbilical',
+          say: 'Doppler de la arteria umbilical con sus índices de resistencia.' },
+        { note: 'Onda Doppler patológica',
+          say: 'Onda Doppler alterada: las flechas marcan el flujo al final de la diástole.' },
       ],
     },
 

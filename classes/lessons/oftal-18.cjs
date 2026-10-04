@@ -162,14 +162,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg', label: 'Pupila de adie', credit: 'Manual AMIR Oftalmología, p. 23' },
-        { src: 'biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg', label: 'Marcus gunn', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg', label: 'Pupila de Adie', credit: 'Manual AMIR Oftalmología, p. 23' },
+        { src: 'biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg', label: 'Pupila de Marcus Gunn', credit: 'Dibujo propio (esquema)' },
       ],
       steps: [
-        { note: 'Pupila de adie',
-          say: 'Mira esta imagen: pupila de Adie. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Marcus gunn',
-          say: 'Mira esta imagen: marcus gunn. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Pupila de Adie',
+          say: 'Pupila de Adie: una pupila más grande que reacciona poco a la luz.' },
+        { note: 'Pupila de Marcus Gunn',
+          say: 'Defecto pupilar aferente: al pasar la luz al ojo enfermo, ambas pupilas se dilatan.' },
       ],
     },
 

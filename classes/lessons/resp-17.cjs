@@ -182,14 +182,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg', label: 'Adenocarcinoma y epidermoide', credit: 'Manual CTO Neumología 14.ª ed., p. 125' },
-        { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg', label: 'Adenocarcinoma epidermoide histologia 2', credit: 'Manual CTO Neumología 14.ª ed., p. 125' },
+        { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg', label: 'Adenocarcinoma (histología)', credit: 'Manual CTO Neumología 14.ª ed., p. 125' },
+        { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg', label: 'Carcinoma epidermoide (histología)', credit: 'Manual CTO Neumología 14.ª ed., p. 125' },
       ],
       steps: [
-        { note: 'Adenocarcinoma y epidermoide',
-          say: 'Mira esta imagen: adenocarcinoma y epidermoide. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Adenocarcinoma epidermoide histologia 2',
-          say: 'Mira esta imagen: adenocarcinoma epidermoide histologia dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Adenocarcinoma (histología)',
+          say: 'Adenocarcinoma de pulmón: las células forman glándulas.' },
+        { note: 'Carcinoma epidermoide (histología)',
+          say: 'Carcinoma epidermoide de pulmón: nidos sólidos de células escamosas.' },
       ],
     },
 

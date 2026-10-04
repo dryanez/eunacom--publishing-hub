@@ -125,13 +125,13 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis-aguda__cto-oftalmo_p33.jpg', label: 'Conjuntivitis aguda', credit: 'Manual CTO Oftalmología 14.ª ed., p. 33' },
-        { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis-alergica-vernal-papilar-gi__cto-oftalmo_p35.jpg', label: 'Conjuntivitis alérgica', credit: 'Manual CTO Oftalmología 14.ª ed., p. 35' },
+        { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis-alergica-vernal-papilar-gi__cto-oftalmo_p35.jpg', label: 'Papilas gigantes (conjuntivitis vernal)', credit: 'Manual CTO Oftalmología 14.ª ed., p. 35' },
       ],
       steps: [
         { note: 'Conjuntivitis aguda',
           say: 'Mira esta imagen: conjuntivitis aguda. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Conjuntivitis alérgica',
-          say: 'Mira esta imagen: conjuntivitis alérgica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Papilas gigantes (conjuntivitis vernal)',
+          say: 'Conjuntivitis vernal: papilas gigantes en la conjuntiva tarsal superior.' },
       ],
     },
 

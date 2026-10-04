@@ -141,11 +141,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Rctg normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' },
+        { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Registro cardiotocográfico normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' },
       ],
       steps: [
-        { note: 'Rctg normal',
-          say: 'Mira esta imagen: RCTG normal. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Registro cardiotocográfico normal',
+          say: 'Registro cardiotocográfico normal y reactivo.' },
       ],
     },
 

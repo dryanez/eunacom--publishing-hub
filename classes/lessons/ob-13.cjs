@@ -175,11 +175,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg', label: 'Abruptio placentae', credit: 'Manual AMIR Ginecología y Obstetricia, p. 38' },
+        { src: 'biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg', label: 'Coágulo retroplacentario', credit: 'Manual AMIR Ginecología y Obstetricia, p. 38' },
       ],
       steps: [
-        { note: 'Abruptio placentae',
-          say: 'Mira esta imagen: abruptio placentae. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Coágulo retroplacentario',
+          say: 'Desprendimiento de placenta: coágulo adherido a la cara materna de la placenta.' },
       ],
     },
 

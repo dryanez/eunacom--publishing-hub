@@ -155,11 +155,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_2__cto-gyo_p102.jpg', label: 'Absceso tubarico eco 2', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
+        { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_2__cto-gyo_p102.jpg', label: 'Absceso tuboovárico (visión quirúrgica)', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
       ],
       steps: [
-        { note: 'Absceso tubarico eco 2',
-          say: 'Mira esta imagen: absceso tubarico eco dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Absceso tuboovárico (visión quirúrgica)',
+          say: 'Absceso tuboovárico visto en la cirugía: anexo inflamado con salida de pus.' },
       ],
     },
 

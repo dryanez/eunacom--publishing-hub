@@ -140,11 +140,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Androgenética', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' },
+        { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Alopecia androgenética (escala de Hamilton)', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' },
       ],
       steps: [
-        { note: 'Androgenética',
-          say: 'Mira esta imagen: androgenética. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Alopecia androgenética (escala de Hamilton)',
+          say: 'Alopecia androgenética masculina: retroceso frontotemporal y luego del vértice, como la gradúa la escala de Hamilton.' },
       ],
     },
 

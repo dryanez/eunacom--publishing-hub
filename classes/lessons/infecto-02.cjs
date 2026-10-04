@@ -186,11 +186,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-02/02_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Tinta china', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' },
+        { src: 'biblioteca/07_infectologia/infecto-02/02_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Criptococo con tinta china', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' },
       ],
       steps: [
-        { note: 'Tinta china',
-          say: 'Mira esta imagen: tinta china. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Criptococo con tinta china',
+          say: 'Tinción con tinta china: levaduras con una cápsula clara alrededor. Es el criptococo.' },
       ],
     },
 

@@ -283,14 +283,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/06_hematologia/hem-18/03_ann-arbor__cto-hemato_p70.jpg', label: 'Ann arbor', credit: 'Manual CTO Hematología 14.ª ed., p. 70' },
-        { src: 'biblioteca/06_hematologia/hem-18/04_pet-en-hodgkin__amir-hemato_p80.jpg', label: 'Pet en hodgkin', credit: 'Manual AMIR Hematología, p. 80' },
+        { src: 'biblioteca/06_hematologia/hem-18/03_ann-arbor__cto-hemato_p70.jpg', label: 'Estadificación de Ann Arbor', credit: 'Manual CTO Hematología 14.ª ed., p. 70' },
+        { src: 'biblioteca/06_hematologia/hem-18/04_pet-en-hodgkin__amir-hemato_p80.jpg', label: 'PET en el linfoma de Hodgkin', credit: 'Manual AMIR Hematología, p. 80' },
       ],
       steps: [
-        { note: 'Ann arbor',
-          say: 'Mira esta imagen: Ann Arbor. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Pet en hodgkin',
-          say: 'Mira esta imagen: PET en Hodgkin. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Estadificación de Ann Arbor',
+          say: 'Estadificación de Ann Arbor: el diafragma separa la enfermedad de uno o de ambos lados.' },
+        { note: 'PET en el linfoma de Hodgkin',
+          say: 'PET en el linfoma de Hodgkin: las flechas marcan los ganglios captantes.' },
       ],
     },
 

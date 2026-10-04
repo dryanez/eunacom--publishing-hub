@@ -162,11 +162,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg', label: 'Espiral arquimedes', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg', label: 'Espiral de Arquímedes', credit: 'Dibujo propio (esquema)' },
       ],
       steps: [
-        { note: 'Espiral arquimedes',
-          say: 'Mira esta imagen: espiral arquimedes. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Espiral de Arquímedes',
+          say: 'La espiral de Arquímedes se usa para registrar y comparar el temblor.' },
       ],
     },
 

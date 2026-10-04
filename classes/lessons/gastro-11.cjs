@@ -205,13 +205,13 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg', label: 'Pólipo pediculado', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_2__cto-digestivo_p119.jpg', label: 'Polipo pediculado 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_2__cto-digestivo_p119.jpg', label: 'Pólipo de colon (endoscopia)', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
       ],
       steps: [
         { note: 'Pólipo pediculado',
           say: 'Mira esta imagen: pólipo pediculado. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Polipo pediculado 2',
-          say: 'Mira esta imagen: polipo pediculado dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Pólipo de colon (endoscopia)',
+          say: 'Otro pólipo de colon visto en la colonoscopía.' },
       ],
     },
 

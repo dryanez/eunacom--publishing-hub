@@ -175,17 +175,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_2__cto-reuma_p64.jpg', label: 'Heberden y bouchard 2', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
-        { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_3__cto-reuma_p64.jpg', label: 'Heberden y bouchard 3', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
-        { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_2__amir-reuma_p124.jpg', label: 'Artrosis de rodilla rx 2', credit: 'Manual AMIR Reumatología, p. 124' },
+        { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_2__cto-reuma_p64.jpg', label: 'Artrosis de cadera (Rx de pelvis)', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
+        { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_2__amir-reuma_p124.jpg', label: 'Artrosis de cadera (Rx)', credit: 'Manual AMIR Reumatología, p. 124' },
       ],
       steps: [
-        { note: 'Heberden y bouchard 2',
-          say: 'Mira esta imagen: heberden y bouchard dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Heberden y bouchard 3',
-          say: 'Mira esta imagen: heberden y bouchard tres. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Artrosis de rodilla rx 2',
-          say: 'Mira esta imagen: artrosis de rodilla rx dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Artrosis de cadera (Rx de pelvis)',
+          say: 'Radiografía de pelvis con artrosis de cadera: pinzamiento del espacio articular, esclerosis y osteofitos.' },
+        { note: 'Artrosis de cadera (Rx)',
+          say: 'Otra artrosis de cadera: espacio articular estrecho y hueso subcondral esclerótico.' },
       ],
     },
 

@@ -177,11 +177,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg', label: 'Tbc miliar', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' },
+        { src: 'biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg', label: 'Tuberculosis miliar (Rx)', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' },
       ],
       steps: [
-        { note: 'Tbc miliar',
-          say: 'Mira esta imagen: TBC miliar. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Tuberculosis miliar (Rx)',
+          say: 'Tuberculosis miliar: innumerables nódulos finos en ambos pulmones.' },
       ],
     },
 

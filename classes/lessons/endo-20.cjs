@@ -214,11 +214,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg', label: 'Efecto masa adenoma', credit: 'Manual CTO Endocrinología 14.ª ed., p. 40' },
+        { src: 'biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg', label: 'Anatomía de la región selar', credit: 'Manual CTO Endocrinología 14.ª ed., p. 40' },
       ],
       steps: [
-        { note: 'Efecto masa adenoma',
-          say: 'Mira esta imagen: efecto masa adenoma. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Anatomía de la región selar',
+          say: 'Corte coronal de la región selar: la hipófisis tiene el quiasma óptico encima y los senos cavernosos a los lados. Por eso un macroadenoma comprime estas estructuras.' },
       ],
     },
 

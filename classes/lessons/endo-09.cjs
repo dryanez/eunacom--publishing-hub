@@ -217,12 +217,12 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_2__amir-endocrino_p40.jpg', label: 'Bocio multinodular eco 2', credit: 'Manual AMIR Endocrinología, p. 40' },
+        { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_2__amir-endocrino_p40.jpg', label: 'Ecografía de bocio multinodular', credit: 'Manual AMIR Endocrinología, p. 40' },
         { src: 'biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-frio__amir-endocrino_p44.jpg', label: 'Gammagrafía nódulo frío', credit: 'Manual AMIR Endocrinología, p. 44' },
       ],
       steps: [
-        { note: 'Bocio multinodular eco 2',
-          say: 'Mira esta imagen: bocio multinodular eco dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Ecografía de bocio multinodular',
+          say: 'Ecografía de un bocio multinodular: glándula aumentada con nódulos de distinto aspecto.' },
         { note: 'Gammagrafía nódulo frío',
           say: 'Mira esta imagen: gammagrafía nódulo frío. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

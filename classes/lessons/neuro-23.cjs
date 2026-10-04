@@ -192,17 +192,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_2__cto-trauma_p25.jpg', label: 'Fracturas subcapitales garden 2', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' },
-        { src: 'biblioteca/09_neurologia/neuro-23/02_fractura-pertrocanterea_1__cto-trauma_p26.jpg', label: 'Fractura pertrocantérea', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
-        { src: 'biblioteca/09_neurologia/neuro-23/02_fractura-pertrocanterea_2__cto-trauma_p26.jpg', label: 'Fractura pertrocanterea 2', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
+        { src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_2__cto-trauma_p25.jpg', label: 'Fractura subcapital desplazada (esquema)', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' },
+        { src: 'biblioteca/09_neurologia/neuro-23/02_fractura-pertrocanterea_1__cto-trauma_p26.jpg', label: 'Osteosíntesis de fracturas de cadera', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
       ],
       steps: [
-        { note: 'Fracturas subcapitales garden 2',
-          say: 'Mira esta imagen: fracturas subcapitales garden dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Fractura pertrocantérea',
-          say: 'Mira esta imagen: fractura pertrocantérea. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Fractura pertrocanterea 2',
-          say: 'Mira esta imagen: fractura pertrocanterea dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Fractura subcapital desplazada (esquema)',
+          say: 'Fractura subcapital del cuello femoral con la cabeza desplazada.' },
+        { note: 'Osteosíntesis de fracturas de cadera',
+          say: 'Fracturas de cadera antes y después de la osteosíntesis con placa y tornillo deslizante o con tornillos.' },
       ],
     },
 

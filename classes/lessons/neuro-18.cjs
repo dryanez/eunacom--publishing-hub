@@ -245,11 +245,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_2__cto-radiologia_p74.jpg', label: 'Neuritis optica rm 2', credit: 'Manual CTO Radiología 14.ª ed., p. 74' },
+        { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_2__cto-radiologia_p74.jpg', label: 'RM con lesión desmielinizante', credit: 'Manual CTO Radiología 14.ª ed., p. 74' },
       ],
       steps: [
-        { note: 'Neuritis optica rm 2',
-          say: 'Mira esta imagen: neuritis optica rm dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'RM con lesión desmielinizante',
+          say: 'Resonancia con contraste: la flecha marca una lesión desmielinizante.' },
       ],
     },
 

@@ -150,11 +150,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-13/01_neumotorax__cto-neumo_p116.jpg', label: 'Neumotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
+        { src: 'biblioteca/02_neumologia/resp-13/01_neumotorax__cto-neumo_p116.jpg', label: 'Neumotórax derecho', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
       ],
       steps: [
-        { note: 'Neumotórax',
-          say: 'Mira esta imagen: neumotórax. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Neumotórax derecho',
+          say: 'Neumotórax derecho: el hemitórax se ve negro, sin trama vascular, y el pulmón colapsado queda como una masa junto al hilio.' },
       ],
     },
 

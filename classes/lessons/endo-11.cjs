@@ -290,14 +290,14 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_1__cto-endocrino_p77.jpg', label: 'Estrías violáceas', credit: 'Manual CTO Endocrinología 14.ª ed., p. 77' },
-        { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg', label: 'Estrias violaceas 2', credit: 'Manual CTO Endocrinología 14.ª ed., p. 77' },
+        { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg', label: 'Equimosis por fragilidad cutánea', credit: 'Manual CTO Endocrinología 14.ª ed., p. 77' },
         { src: 'biblioteca/05_endocrinologia/endo-11/02_fenotipo-cushingoide__cto-endocrino_p76.jpg', label: 'Fenotipo cushingoide', credit: 'Manual CTO Endocrinología 14.ª ed., p. 76' },
       ],
       steps: [
         { note: 'Estrías violáceas',
           say: 'Mira esta imagen: estrías violáceas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Estrias violaceas 2',
-          say: 'Mira esta imagen: estrias violaceas dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Equimosis por fragilidad cutánea',
+          say: 'En el Cushing la piel es delgada y frágil: aparecen equimosis extensas con traumas mínimos.' },
         { note: 'Fenotipo cushingoide',
           say: 'Mira esta imagen: fenotipo cushingoide. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

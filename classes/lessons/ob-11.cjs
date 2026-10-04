@@ -148,11 +148,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg', label: 'Diagnóstico de ectópico', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' },
+        { src: 'biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg', label: 'Útero vacío y beta hCG', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' },
       ],
       steps: [
-        { note: 'Diagnóstico de ectópico',
-          say: 'Mira esta imagen: diagnóstico de ectópico. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Útero vacío y beta hCG',
+          say: 'Algoritmo del útero vacío con metrorragia y dolor: se repite la beta hCG a las cuarenta y ocho horas.' },
       ],
     },
 

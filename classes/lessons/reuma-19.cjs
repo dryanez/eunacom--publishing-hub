@@ -174,11 +174,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg', label: 'Balanitis circinada queratodermia 2', credit: 'Manual AMIR Reumatología, p. 83' },
+        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg', label: 'Queratodermia blenorrágica', credit: 'Manual AMIR Reumatología, p. 83' },
       ],
       steps: [
-        { note: 'Balanitis circinada queratodermia 2',
-          say: 'Mira esta imagen: balanitis circinada queratodermia dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Queratodermia blenorrágica',
+          say: 'Queratodermia blenorrágica en las plantas, típica de la artritis reactiva.' },
       ],
     },
 

@@ -33,7 +33,7 @@ try {
   }
 }
 const matcher = require('./reconstruction_matcher.cjs');
-const { autoFigSpec } = require('./figspec_clases.cjs');
+const { autoFigSpec, withFigRefs } = require('./figspec_clases.cjs');
 
 const ROOT = path.join(__dirname, '..');
 const SVG_DIR = path.join(ROOT, 'svg_diagrams');
@@ -436,15 +436,9 @@ function coverPage(x) {
     photoDataUri = `data:image/jpeg;base64,${fs.readFileSync(photoPath).toString('base64')}`;
   }
 
-  const logoPath = path.join(__dirname, '..', 'assets', 'aee-logo-smooth.svg');
-  let logoSvg = '';
-  if (fs.existsSync(logoPath)) {
-    logoSvg = fs.readFileSync(logoPath, 'utf8')
-      .replace(/<\?xml[^>]*\?>/i, '')
-      .replace(/<metadata>[\s\S]*?<\/metadata>/i, '')
-      .replace(/width="188px"/i, 'width="120px"')
-      .replace(/height="142px"/i, 'height="90px" style="height:48px;width:auto;display:block"');
-  }
+  // logo AEE «7A» (emblema de esquina cortada, igual que el sitio); versión con texto claro para la portada oscura
+  const logoPath = path.join(__dirname, '..', 'assets', 'aee-logo-7a-dark.svg');
+  const logoSvg = fs.existsSync(logoPath) ? fs.readFileSync(logoPath, 'utf8') : '';
 
   const veil = meta.dense
     ? 'linear-gradient(180deg, rgba(11,20,32,0.86) 0%, rgba(11,20,32,0.62) 40%, rgba(11,20,32,0.92) 74%, rgba(11,20,32,0.98) 100%)'
@@ -475,8 +469,7 @@ function coverPage(x) {
         </div>
         <div class="cover-divider"></div>
         <div class="cover-footer-row">
-          <span class="foot-left">Academia Examen EUNACOM · ${spec.module || 'Módulo 2 · Cirugía y Especialidades'} · ${data.length} clases</span>
-          <span class="foot-right">Edición Oficial 2026</span>
+          <span class="foot-left">${spec.module || 'Módulo 2 · Cirugía y Especialidades'} · ${data.length} clases</span>
         </div>
       </div>
     </div>
@@ -638,8 +631,7 @@ function figureBlock(c, x, extra = '') {
     const src = x.figMap.get(it.file);
     if (!src) return '';
     const tag = spec.items.length > 1 ? `<b>${String.fromCharCode(65 + i)}.</b> ` : '';
-    const ref = it.src ? `<span class="fsrc">${it.src}</span>` : '';
-    return `<figure class="fx"><img src="${src}" alt=""><figcaption>${tag}${it.cap}${ref}</figcaption></figure>`;
+    return `<figure class="fx"><img src="${src}" alt=""><figcaption>${tag}${it.cap}</figcaption></figure>`;
   }).join('');
   if (!imgs) return '';
   return `<div class="figblock ${spec.mode || 'wide'} ${extra}"><div class="figrow">${imgs}</div><p class="figcap"><b>Imagen ${c.topicLabel}.</b> ${spec.desc}</p></div>`;
@@ -793,6 +785,7 @@ function topicPageTier3(c, b, x) {
 }
 
 function topicPage(c, b, x) {
+  c = { ...c, contentSections: withFigRefs(c, x.figSpec[c.topicLabel]) };
   const isT3 = c.tier === 3 && ((c.questions && c.questions.length >= 4) || c.treatmentTable || c.table2);
   if (isT3) {
     return topicPageTier3(c, b, x);
@@ -901,9 +894,9 @@ function buildHtml(x) {
   return `<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&family=Syne:wght@800&family=DM+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&family=Spectral:wght@400;600;700&family=Syne:wght@800&family=DM+Mono:wght@500&display=swap');
 :root{--acc:${t.acc};--acc-d:${t.accD};--acc-dp:${t.accDp};--acc-t:${t.accT};--acc-p:${t.accP};--acc-l:${t.accL};--acc-ink:${t.accInk}}
 *{box-sizing:border-box;margin:0;padding:0}
 @page{size:A4;margin:0}
@@ -911,6 +904,12 @@ html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10.2px;line-height:1.5;background:#fff}
 
 /* cada sección = una tabla; el <thead> (banda de color) se repite en cada página */
+.figref{font-weight:600;color:var(--accent,#334155);white-space:nowrap}
+.fte-intro{font:400 9px/1.5 'IBM Plex Sans',sans-serif;color:#475569;margin:6px 0 10px}
+.fte-list{column-count:2;column-gap:22px}
+.fte{break-inside:avoid;font:400 8px/1.35 'IBM Plex Sans',sans-serif;color:#334155;margin:0 0 5px}
+.fte b{color:#0f172a}
+.fte span{display:block;color:#64748b}
 .pgmk{position:absolute;font-size:2px;line-height:1;color:rgba(255,255,255,.01)}
 .secwrap{width:794px;border-collapse:collapse;table-layout:fixed;page-break-after:always}
 .secwrap:last-child{page-break-after:auto}
@@ -936,10 +935,10 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .cover-stripe{position:absolute;left:0;top:0;width:14px;height:100%}
 .cover-content{position:absolute;inset:0;padding:64px 68px 64px 76px;display:flex;flex-direction:column;justify-content:space-between}
 .cover-top-row{display:flex;justify-content:space-between;align-items:flex-start}
-.cover-logo svg{height:46px;width:auto;display:block}
-.cover-badge{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
-.cover-badge .ed{font:700 13px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;color:#0bd9e7}
-.cover-badge .subed{font:500 9.5px/1 'IBM Plex Mono',monospace;letter-spacing:.1em;color:#94a3b8}
+.cover-logo svg{height:111px;width:auto;display:block;margin-left:-43px}
+.cover-badge{display:flex;flex-direction:column;align-items:flex-end;gap:7px}
+.cover-badge .ed{font:800 18px/1 'JetBrains Mono',monospace;letter-spacing:.12em;color:#0bd9e7}
+.cover-badge .subed{font:700 13px/1 'JetBrains Mono',monospace;letter-spacing:.1em;color:#e2e8f0}
 .cover-bottom-box{display:flex;flex-direction:column;gap:18px}
 .cover-chip{display:inline-flex;align-self:flex-start;padding:6px 14px;border-radius:2px}
 .cover-chip span{font:700 12.5px/1 'IBM Plex Mono',monospace;letter-spacing:.16em;color:#ffffff}
@@ -1094,7 +1093,6 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .figblock.full .fx img{max-height:340px}
 .figblock.wide .fx img{max-height:250px}
 .figblock.compact .fx img{max-height:190px}
-.figrow .fx figcaption .fsrc{display:block;margin-top:2px;font:400 6.6px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:0;text-transform:none;color:#94a3b8}
 .figrow .fx figcaption{font:600 7.6px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.03em;text-transform:uppercase;color:#64748b;text-align:center;max-width:280px}
 .figrow .fx figcaption b{color:#1e3a8a}
 .figcap{margin-top:8px;font:400 8.8px/1.45 'IBM Plex Sans',sans-serif;color:#334155;text-align:justify}

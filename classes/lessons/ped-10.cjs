@@ -215,7 +215,7 @@ module.exports = {
         { src: 'biblioteca/15_pediatria/ped-10/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' },
         { src: 'biblioteca/15_pediatria/ped-10/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' },
         { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_1__cto-pediatria_p102.jpg', label: 'Escarlatina', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
-        { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_2__cto-pediatria_p102.jpg', label: 'Escarlatina 2', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+        { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_2__cto-pediatria_p102.jpg', label: 'Escarlatina: lengua saburral inicial', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
       ],
       steps: [
         { note: 'Sarampión',
@@ -224,8 +224,8 @@ module.exports = {
           say: 'Mira esta imagen: rubéola. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
         { note: 'Escarlatina',
           say: 'Mira esta imagen: escarlatina. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Escarlatina 2',
-          say: 'Mira esta imagen: escarlatina dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Escarlatina: lengua saburral inicial',
+          say: 'Escarlatina al inicio: lengua cubierta por una capa blanca con bordes rojos.' },
       ],
     },
 

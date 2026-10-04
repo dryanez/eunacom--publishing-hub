@@ -296,13 +296,13 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg', label: 'Ptosis miasténica antes y después de la ', credit: 'Wikimedia Commons «Myasthenia gravis ptosis reversal.jpg», CC BY 2.0, Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyana' },
-        { src: 'biblioteca/09_neurologia/neuro-17/02_emg-fibra-unica__cto-neuro_p103.jpg', label: 'Emg fibra única', credit: 'Manual CTO Neurología 14.ª ed., p. 103' },
+        { src: 'biblioteca/09_neurologia/neuro-17/02_emg-fibra-unica__cto-neuro_p103.jpg', label: 'EMG de fibra única', credit: 'Manual CTO Neurología 14.ª ed., p. 103' },
       ],
       steps: [
         { note: 'Ptosis miasténica antes y después de la ',
           say: 'Mira esta imagen: ptosis miasténica antes y después de la prueba. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Emg fibra única',
-          say: 'Mira esta imagen: EMG fibra única. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'EMG de fibra única',
+          say: 'Electromiografía de fibra única: mide la variabilidad de la transmisión neuromuscular, el jitter.' },
       ],
     },
 

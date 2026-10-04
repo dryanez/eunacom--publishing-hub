@@ -188,14 +188,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_2__cto-digestivo_p27.jpg', label: 'Esofago de barrett endoscopia 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_2__cto-digestivo_p27.jpg', label: 'Esófago de Barrett (endoscopia)', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis (endoscopia)', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
       ],
       steps: [
-        { note: 'Esofago de barrett endoscopia 2',
-          say: 'Mira esta imagen: esofago de barrett endoscopia dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Esofagitis 2',
-          say: 'Mira esta imagen: esofagitis dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Esófago de Barrett (endoscopia)',
+          say: 'Esófago de Barrett: la mucosa rojo salmón asciende por sobre la unión esofagogástrica.' },
+        { note: 'Esofagitis (endoscopia)',
+          say: 'Esofagitis por reflujo vista en la endoscopia.' },
       ],
     },
 

@@ -191,11 +191,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-20/02_celulitis_2__amir-infecto_p67.jpg', label: 'Celulitis 2', credit: 'Manual AMIR Infecciosas, p. 67' },
+        { src: 'biblioteca/07_infectologia/infecto-20/02_celulitis_2__amir-infecto_p67.jpg', label: 'Celulitis', credit: 'Manual AMIR Infecciosas, p. 67' },
       ],
       steps: [
-        { note: 'Celulitis 2',
-          say: 'Mira esta imagen: celulitis dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Celulitis',
+          say: 'Celulitis: placa roja, caliente y de bordes mal definidos.' },
       ],
     },
 

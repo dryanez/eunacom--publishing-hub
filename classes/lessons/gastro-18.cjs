@@ -267,12 +267,12 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_2__cto-digestivo_p258.jpg', label: 'Pancreatitis edematosa tc 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_2__cto-digestivo_p258.jpg', label: 'Colecciones líquidas pancreáticas (TC)', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
         { src: 'biblioteca/01_gastroenterologia/gastro-18/03_seudoquiste__cto-digestivo_p261.jpg', label: 'Seudoquiste', credit: 'Manual CTO Digestivo 14.ª ed., p. 261' },
       ],
       steps: [
-        { note: 'Pancreatitis edematosa tc 2',
-          say: 'Mira esta imagen: pancreatitis edematosa tc dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Colecciones líquidas pancreáticas (TC)',
+          say: 'Tomografía con grandes colecciones líquidas de pared fina junto al páncreas.' },
         { note: 'Seudoquiste',
           say: 'Mira esta imagen: seudoquiste. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

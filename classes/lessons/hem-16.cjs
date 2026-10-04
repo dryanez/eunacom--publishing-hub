@@ -245,11 +245,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg', label: 'Lal tipo burkitt', credit: 'Manual AMIR Hematología, p. 44' },
+        { src: 'biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg', label: 'Blastos tipo Burkitt', credit: 'Manual AMIR Hematología, p. 44' },
       ],
       steps: [
-        { note: 'Lal tipo burkitt',
-          say: 'Mira esta imagen: LAL tipo Burkitt. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Blastos tipo Burkitt',
+          say: 'Blastos tipo Burkitt: citoplasma basófilo con vacuolas.' },
       ],
     },
 
