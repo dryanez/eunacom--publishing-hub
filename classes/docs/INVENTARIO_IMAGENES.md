@@ -3,6 +3,10 @@
 Para volver a ponerlas en los libros. Cada clase corresponde al tema con el mismo `id` del libro (columna «Libro»).
 Rutas relativas a `classes/media/`. «En la clase» = ya aparece en una diapositiva.
 
+**En los libros:** automático. `books/scripts/figspec_clases.cjs` toma las imágenes de las diapositivas «Así se ve» de cada clase y las pone en el tema del libro con su referencia bajo cada imagen («Imagen N.N»). No usa «Más imágenes» (rótulos sin auditar).
+- `FIG_FUENTES=libres node books/scripts/build_book.cjs` (por defecto): solo Commons/CC/dominio público/dibujos propios.
+- `FIG_FUENTES=todas node books/scripts/build_book.cjs`: incluye láminas de manuales comerciales (CTO, AMIR, Harrison…) — revisar derechos antes de vender.
+
 Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la misma imagen).
 
 ## cirugia

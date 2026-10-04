@@ -33,6 +33,7 @@ try {
   }
 }
 const matcher = require('./reconstruction_matcher.cjs');
+const { autoFigSpec } = require('./figspec_clases.cjs');
 
 const ROOT = path.join(__dirname, '..');
 const SVG_DIR = path.join(ROOT, 'svg_diagrams');
@@ -630,17 +631,18 @@ function chapterOpener(b, x) {
     + sec(x, `Bloque ${CN(b.bn)} — ${b.name}`, page2, { flush: true, dark: true });
 }
 
-function figureBlock(c, x) {
+function figureBlock(c, x, extra = '') {
   const spec = x.figSpec[c.topicLabel];
   if (!spec) return '';
   const imgs = spec.items.map((it, i) => {
     const src = x.figMap.get(it.file);
     if (!src) return '';
     const tag = spec.items.length > 1 ? `<b>${String.fromCharCode(65 + i)}.</b> ` : '';
-    return `<figure class="fx"><img src="${src}" alt=""><figcaption>${tag}${it.cap}</figcaption></figure>`;
+    const ref = it.src ? `<span class="fsrc">${it.src}</span>` : '';
+    return `<figure class="fx"><img src="${src}" alt=""><figcaption>${tag}${it.cap}${ref}</figcaption></figure>`;
   }).join('');
   if (!imgs) return '';
-  return `<div class="figblock ${spec.mode || 'wide'}"><div class="figrow">${imgs}</div><p class="figcap"><b>Figura ${c.topicLabel}.</b> ${spec.desc}</p></div>`;
+  return `<div class="figblock ${spec.mode || 'wide'} ${extra}"><div class="figrow">${imgs}</div><p class="figcap"><b>Imagen ${c.topicLabel}.</b> ${spec.desc}</p></div>`;
 }
 
 function topicPageStandard(c, b, x) {
@@ -736,6 +738,7 @@ function topicPageTier3(c, b, x) {
       <h2>${c.topicLabel}. ${c.title} — Enfrentamiento Diagnóstico</h2><div class="rule"></div>
     </div>
     ${secPart2 ? `<div class="prose" style="column-count:1;margin-bottom:10px">${secPart2}</div>` : ''}
+    ${figureBlock(c, x, 'compact')}
     ${algoCard}
     ${tbl2}
   `;
@@ -882,12 +885,17 @@ function solucionarioPages(x) {
 
 /* ───────────────────────────── document ───────────────────────────── */
 
+// marcador invisible en la primera página de cada sección: permite leer del PDF la página real
+function mark(html, id) {
+  return html.replace(/(<td class="secbody[^"]*">)/, `$1<span class="pgmk">@@${id}@@</span>`);
+}
+
 function buildHtml(x) {
   const t = themeVars(x.spec.accent);
   const body = [
     coverPage(x), indexPage(x),
-    ...x.blocks.flatMap(b => [chapterOpener(b, x), ...b.classes.map(c => topicPage(c, b, x)), synthesisPage(b, x)]),
-    solucionarioPages(x),
+    ...x.blocks.flatMap(b => [mark(chapterOpener(b, x), `B${b.bn}`), ...b.classes.map(c => mark(topicPage(c, b, x), `T${c.topicLabel}`)), synthesisPage(b, x)]),
+    mark(solucionarioPages(x), 'SOL'),
   ].join('\n');
 
   return `<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
@@ -903,6 +911,7 @@ html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10.2px;line-height:1.5;background:#fff}
 
 /* cada sección = una tabla; el <thead> (banda de color) se repite en cada página */
+.pgmk{position:absolute;font-size:2px;line-height:1;color:rgba(255,255,255,.01)}
 .secwrap{width:794px;border-collapse:collapse;table-layout:fixed;page-break-after:always}
 .secwrap:last-child{page-break-after:auto}
 .secwrap thead{display:table-header-group}
@@ -1084,6 +1093,8 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .figrow .fx img{display:block;width:auto;height:auto;max-width:100%;border:1px solid #e2e8f0;border-radius:3px;background:#fff}
 .figblock.full .fx img{max-height:340px}
 .figblock.wide .fx img{max-height:250px}
+.figblock.compact .fx img{max-height:190px}
+.figrow .fx figcaption .fsrc{display:block;margin-top:2px;font:400 6.6px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:0;text-transform:none;color:#94a3b8}
 .figrow .fx figcaption{font:600 7.6px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.03em;text-transform:uppercase;color:#64748b;text-align:center;max-width:280px}
 .figrow .fx figcaption b{color:#1e3a8a}
 .figcap{margin-top:8px;font:400 8.8px/1.45 'IBM Plex Sans',sans-serif;color:#334155;text-align:justify}
@@ -1201,25 +1212,15 @@ async function compressImage(browser, file, crop, maxW = 1180) {
 function figJobs(figSpec, figDir) {
   const jobs = [];
   Object.values(figSpec).forEach(spec => spec.items.forEach(it => {
-    const p = path.join(figDir, it.file);
+    const p = it.path || path.join(figDir || '', it.file);
     if (fs.existsSync(p)) jobs.push({ key: it.file, path: p, crop: it.crop || spec.crop || null });
   }));
   return jobs;
 }
 
-async function buildBook(spec, browser) {
-  const t = themeVars(spec.accent);
-  const data = spec.dataset();
-  const figSpec = spec.figSpec || {};
-  const meta = prepare(data, figSpec);
-  const x = { spec: { ...spec, accent: spec.accent }, data, figSpec, figMap: new Map(), ...meta };
-
-  const jobs = figSpec && spec.figDir ? figJobs(figSpec, spec.figDir) : [];
-  for (const j of jobs) x.figMap.set(j.key, await compressImage(browser, j.path, j.crop));
-
+async function renderPdf(browser, x, spec) {
   const html = buildHtml(x);
   fs.writeFileSync(path.join(__dirname, `temp_maqueta_${spec.key}.html`), html);
-
   const page = await browser.newPage();
   await page.setContent(html, { waitUntil: 'networkidle0', timeout: 90000 });
   await page.evaluateHandle('document.fonts.ready');
@@ -1230,6 +1231,42 @@ async function buildBook(spec, browser) {
     margin: { top: '0', bottom: '0', left: '0', right: '0' },
   });
   await page.close();
+  return pdf;
+}
+
+// requiere python3 + PyMuPDF; si no están, se deja el índice estimado
+function readMarkers(pdf) {
+  const tmp = path.join(require('os').tmpdir(), `eunacom_${process.pid}.pdf`);
+  try {
+    fs.writeFileSync(tmp, pdf);
+    const r = require('child_process').spawnSync('python3', [path.join(__dirname, 'page_markers.py'), tmp], { encoding: 'utf8' });
+    return r.status === 0 ? JSON.parse(r.stdout) : null;
+  } catch (e) { return null; } finally { try { fs.unlinkSync(tmp); } catch (e) {} }
+}
+
+async function buildBook(spec, browser) {
+  const t = themeVars(spec.accent);
+  const data = spec.dataset();
+  const figSpec = autoFigSpec(data, spec.figSpec || {});
+  const meta = prepare(data, figSpec);
+  const x = { spec: { ...spec, accent: spec.accent }, data, figSpec, figMap: new Map(), ...meta };
+
+  const jobs = figJobs(figSpec, spec.figDir);
+  for (const j of jobs) x.figMap.set(j.key, await compressImage(browser, j.path, j.crop));
+
+  let pdf = await renderPdf(browser, x, spec);
+  // 2.ª pasada: el texto puede desbordar el presupuesto de páginas → leer la página real de cada tema
+  for (let pass = 0; pass < 2; pass++) {
+    const real = readMarkers(pdf);
+    if (!real) break;
+    let moved = 0;
+    const fix = (o, k, id) => { if (real[id] && o[k] !== real[id]) { o[k] = real[id]; moved++; } };
+    x.blocks.forEach(b => { fix(b, 'startPage', `B${b.bn}`); b.classes.forEach(c => fix(c, 'startPage', `T${c.topicLabel}`)); });
+    fix(x, 'solPage', 'SOL');
+    if (!moved) break;
+    console.log(`     ↻ índice corregido (${moved} números de página)`);
+    pdf = await renderPdf(browser, x, spec);
+  }
 
   const outMain = spec.moduleDir
     ? path.join(DIST_DIR, spec.moduleDir, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`)
@@ -1264,7 +1301,7 @@ async function main() {
     .filter(s => !arg || s.key === arg);
 
   console.log('▶ MANUAL EUNACOM · compilador multi-especialidad (Maqueta 1b)\n');
-  const chromePath = ['C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'].find(p => fs.existsSync(p));
+  const chromePath = ['C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => fs.existsSync(p));
   const launchOpts = { headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] };
   if (chromePath) launchOpts.executablePath = chromePath;
   const browser = await puppeteer.launch(launchOpts);
