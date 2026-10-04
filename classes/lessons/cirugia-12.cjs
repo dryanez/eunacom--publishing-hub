@@ -133,6 +133,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Epidural o subdural',
+      images: [
+        { src: 'animaciones/cirugia-12/A1_epidural.mp4', label: 'Epidural', credit: 'Animación propia' },
+        { src: 'animaciones/cirugia-12/A2_subdural.mp4', label: 'Subdural', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Lente, rápido, intervalo lúcido',
+          say: 'El hematoma epidural viene de la arteria meníngea media: crece rápido, tiene forma de lente, y el paciente puede tener un intervalo lúcido antes de deteriorarse.' },
+        { note: 'Media luna, lento',
+          say: 'El subdural viene de las venas puente: crece lento, en media luna, y el compromiso de conciencia avanza en días. Es típico del adulto mayor o el alcohólico.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Trauma craneano',

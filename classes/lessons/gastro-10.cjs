@@ -212,6 +212,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_2__cto-digestivo_p103.jpg', label: 'Colitis ulcerosa endoscopia 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 103' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_2__cto-radiologia_p40.jpg', label: 'Crohn ileal tc signo de la cuerda 2', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-10/04_cu-enema-colon-sin-haustras__cto-radiologia_p40.jpg', label: 'Cu enema', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
+      ],
+      steps: [
+        { note: 'Colitis ulcerosa endoscopia 2',
+          say: 'Mira esta imagen: colitis ulcerosa endoscopia dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Crohn ileal tc signo de la cuerda 2',
+          say: 'Mira esta imagen: crohn ileal tc signo de la cuerda dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Cu enema',
+          say: 'Mira esta imagen: CU enema. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

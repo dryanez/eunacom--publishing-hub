@@ -2,7 +2,7 @@
   "id": "hem-09",
   "title": "Hematología 8.9: Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
   "specialty": "Hematología",
-  "chars": 11695,
+  "chars": 11888,
   "segments": [
     {
       "file": "s00_g00",
@@ -142,95 +142,87 @@
     },
     {
       "file": "s10_g00",
-      "text": "Ahora juntemos todo en el árbol que usarás frente a una microcitosis. Tienes un hemograma con microcitosis. Antes de indicar hierro, hay que decidir si realmente falta hierro."
+      "text": "Mira esta imagen: drepanocitos dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s10_g01",
-      "text": "Mira la ferritina, el recuento de glóbulos rojos, el RDW y el índice de Mentzer."
-    },
-    {
-      "file": "s10_g02",
-      "text": "Ferritina baja, pocos glóbulos, RDW alto y Mentzer sobre trece: ferropenia."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Hierro oral y buscar la causa del sangrado, como vimos en la clase de ferropenia."
-    },
-    {
-      "file": "s10_g04",
-      "text": "Ferritina normal, glóbulos altos, RDW normal y Mentzer bajo trece: sospecha de rasgo talasémico. Pides electroforesis de hemoglobina."
-    },
-    {
-      "file": "s10_g05",
-      "text": "Hemoglobina A dos sobre tres coma cinco: rasgo talasémico beta. Se suspende el hierro y se da asesoría genética."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Si en cambio es un lactante con anemia grave desde el primer año, hepatoesplenomegalia y facies de ardilla, piensa en talasemia mayor: transfusiones crónicas y quelantes, con hematología."
+      "text": "Mira esta imagen: cuerpos de Hb H. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s11_g00",
-      "text": "Repasemos la comparación que más se pregunta. En la ferropenia, el volumen corpuscular baja en proporción a la anemia. En el rasgo, baja mucho más de lo que la anemia justifica."
+      "text": "Ahora juntemos todo en el árbol que usarás frente a una microcitosis. Tienes un hemograma con microcitosis. Antes de indicar hierro, hay que decidir si realmente falta hierro."
     },
     {
       "file": "s11_g01",
-      "text": "Los glóbulos rojos: bajos en la ferropenia, normales o altos en el rasgo."
+      "text": "Mira la ferritina, el recuento de glóbulos rojos, el RDW y el índice de Mentzer."
     },
     {
       "file": "s11_g02",
-      "text": "El índice de Mentzer: sobre trece orienta a ferropenia, bajo trece a talasemia."
+      "text": "Ferritina baja, pocos glóbulos, RDW alto y Mentzer sobre trece: ferropenia."
     },
     {
       "file": "s11_g03",
-      "text": "El RDW: alto en la ferropenia, sobre quince por ciento, y normal en el rasgo."
+      "text": "Hierro oral y buscar la causa del sangrado, como vimos en la clase de ferropenia."
     },
     {
       "file": "s11_g04",
-      "text": "La ferritina: baja en la ferropenia, bajo treinta, y normal en el rasgo."
+      "text": "Ferritina normal, glóbulos altos, RDW normal y Mentzer bajo trece: sospecha de rasgo talasémico. Pides electroforesis de hemoglobina."
     },
     {
       "file": "s11_g05",
-      "text": "La electroforesis: normal en la ferropenia, y con hemoglobina A dos sobre tres coma cinco en el rasgo."
+      "text": "Hemoglobina A dos sobre tres coma cinco: rasgo talasémico beta. Se suspende el hierro y se da asesoría genética."
     },
     {
       "file": "s11_g06",
-      "text": "Y la conducta: en la ferropenia, hierro oral y buscar la causa del sangrado. En el rasgo, asesoría genética y nada de hierro. Esa es la respuesta que el examen busca."
+      "text": "Si en cambio es un lactante con anemia grave desde el primer año, hepatoesplenomegalia y facies de ardilla, piensa en talasemia mayor: transfusiones crónicas y quelantes, con hematología."
     },
     {
       "file": "s12_g00",
-      "text": "Vamos con un caso. Hombre de veintiséis años, asintomático, de ascendencia italiana, en un examen preventivo. Hemoglobina de once coma ocho, volumen corpuscular de sesenta y cuatro, glóbulos rojos de cinco coma ocho millones, y RDW normal. Otro médico le dio sulfato ferroso por tres meses, y el hemograma quedó idéntico. Hoy la ferritina es ciento cuarenta, normal, con saturación de transferrina de treinta y dos por ciento."
+      "text": "Repasemos la comparación que más se pregunta. En la ferropenia, el volumen corpuscular baja en proporción a la anemia. En el rasgo, baja mucho más de lo que la anemia justifica."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Los glóbulos rojos: bajos en la ferropenia, normales o altos en el rasgo."
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: pasar a hierro endovenoso, suspender el hierro y pedir electroforesis, estudiar sangrado con endoscopía y colonoscopía, duplicar el sulfato ferroso, o biopsia de médula. Piénsalo."
+      "text": "El índice de Mentzer: sobre trece orienta a ferropenia, bajo trece a talasemia."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B. Mira la desproporción: un volumen de sesenta y cuatro con hemoglobina casi normal, glóbulos rojos altos, y un Mentzer de sesenta y cuatro dividido por cinco coma ocho, que da once, bajo trece. RDW y ferritina normales: es un rasgo talasémico. Se suspende el hierro y se pide electroforesis buscando la hemoglobina A dos alta. El hierro endovenoso tienta porque el oral no funcionó, pero no funcionó porque nunca faltó hierro."
+      "text": "El RDW: alto en la ferropenia, sobre quince por ciento, y normal en el rasgo."
+    },
+    {
+      "file": "s12_g04",
+      "text": "La ferritina: baja en la ferropenia, bajo treinta, y normal en el rasgo."
+    },
+    {
+      "file": "s12_g05",
+      "text": "La electroforesis: normal en la ferropenia, y con hemoglobina A dos sobre tres coma cinco en el rasgo."
+    },
+    {
+      "file": "s12_g06",
+      "text": "Y la conducta: en la ferropenia, hierro oral y buscar la causa del sangrado. En el rasgo, asesoría genética y nada de hierro. Esa es la respuesta que el examen busca."
     },
     {
       "file": "s13_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niño de nueve meses con palidez. Su hemograma muestra hemoglobina de nueve, volumen corpuscular de sesenta y ocho, blancos normales y plaquetas de cuatrocientas cincuenta mil."
+      "text": "Vamos con un caso. Hombre de veintiséis años, asintomático, de ascendencia italiana, en un examen preventivo. Hemoglobina de once coma ocho, volumen corpuscular de sesenta y cuatro, glóbulos rojos de cinco coma ocho millones, y RDW normal. Otro médico le dio sulfato ferroso por tres meses, y el hemograma quedó idéntico. Hoy la ferritina es ciento cuarenta, normal, con saturación de transferrina de treinta y dos por ciento."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: anemia ferropriva, anemia de enfermedades crónicas, trombocitosis esencial, hemoglobinopatía, o microesferocitosis familiar. Piénsalo."
+      "text": "Las opciones son: pasar a hierro endovenoso, suspender el hierro y pedir electroforesis, estudiar sangrado con endoscopía y colonoscopía, duplicar el sulfato ferroso, o biopsia de médula. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la A, anemia ferropriva. A los nueve meses, las reservas de hierro del nacimiento se agotan, y la microcitosis con plaquetas en el límite alto es la ferropenia clásica del lactante. La hemoglobinopatía es el distractor tentador después de esta clase, pero es mucho menos frecuente, y aquí no tienes ningún dato que la sugiera: ni glóbulos rojos altos, ni RDW normal, ni ferritina normal. Lo frecuente primero."
+      "text": "Es la B. Mira la desproporción: un volumen de sesenta y cuatro con hemoglobina casi normal, glóbulos rojos altos, y un Mentzer de sesenta y cuatro dividido por cinco coma ocho, que da once, bajo trece. RDW y ferritina normales: es un rasgo talasémico. Se suspende el hierro y se pide electroforesis buscando la hemoglobina A dos alta. El hierro endovenoso tienta porque el oral no funcionó, pero no funcionó porque nunca faltó hierro."
     },
     {
       "file": "s14_g00",
-      "text": "Ahora un caso representativo del banco EUNACOM. Paciente de cuarenta y cinco años a quien le dijeron que tenía anemia. Tiene hemoglobina de once, volumen corpuscular de setenta, blancos y plaquetas normales. El frotis muestra isocitosis, con índice de dispersión eritrocitaria normal, y el perfil de hierro es normal."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niño de nueve meses con palidez. Su hemograma muestra hemoglobina de nueve, volumen corpuscular de sesenta y ocho, blancos normales y plaquetas de cuatrocientas cincuenta mil."
     },
     {
       "file": "s14_g01",
@@ -238,34 +230,50 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones son: talasemia, anemia ferropénica, anemia de enfermedades crónicas, anemia hemolítica crónica, o hemocromatosis. Piénsalo."
+      "text": "Las opciones son: anemia ferropriva, anemia de enfermedades crónicas, trombocitosis esencial, hemoglobinopatía, o microesferocitosis familiar. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la A, talasemia. Microcitosis con anemia leve, todos los glóbulos del mismo tamaño y hierro normal: es el rasgo talasémico. La ferropenia es la trampa, porque es la microcitosis más frecuente, pero tendría el RDW alto y el hierro bajo. Fíjate que la pregunta te da justo los dos datos que las separan."
+      "text": "Es la A, anemia ferropriva. A los nueve meses, las reservas de hierro del nacimiento se agotan, y la microcitosis con plaquetas en el límite alto es la ferropenia clásica del lactante. La hemoglobinopatía es el distractor tentador después de esta clase, pero es mucho menos frecuente, y aquí no tienes ningún dato que la sugiera: ni glóbulos rojos altos, ni RDW normal, ni ferritina normal. Lo frecuente primero."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Microcitosis marcada con poca anemia, glóbulos rojos altos, RDW normal y ferritina normal: rasgo talasémico, con Mentzer bajo trece."
+      "text": "Ahora un caso representativo del banco EUNACOM. Paciente de cuarenta y cinco años a quien le dijeron que tenía anemia. Tiene hemoglobina de once, volumen corpuscular de setenta, blancos y plaquetas normales. El frotis muestra isocitosis, con índice de dispersión eritrocitaria normal, y el perfil de hierro es normal."
     },
     {
       "file": "s15_g01",
-      "text": "Se confirma con electroforesis, buscando la hemoglobina A dos sobre tres coma cinco por ciento."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s15_g02",
-      "text": "Y nunca le des hierro: no le falta, y lo sobrecargas."
+      "text": "Las opciones son: talasemia, anemia ferropénica, anemia de enfermedades crónicas, anemia hemolítica crónica, o hemocromatosis. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la A, talasemia. Microcitosis con anemia leve, todos los glóbulos del mismo tamaño y hierro normal: es el rasgo talasémico. La ferropenia es la trampa, porque es la microcitosis más frecuente, pero tendría el RDW alto y el hierro bajo. Fíjate que la pregunta te da justo los dos datos que las separan."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Microcitosis marcada con poca anemia, glóbulos rojos altos, RDW normal y ferritina normal: rasgo talasémico, con Mentzer bajo trece."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Se confirma con electroforesis, buscando la hemoglobina A dos sobre tres coma cinco por ciento."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Y nunca le des hierro: no le falta, y lo sobrecargas."
+    },
+    {
+      "file": "s16_g03",
       "text": "La talasemia mayor debuta en el primer año con anemia grave, depende de transfusiones y necesita quelantes de hierro."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "En la crisis falciforme: volumen, opioides, oxígeno si la saturación está bajo noventa y dos, y ceftriaxona si hay infección."
     },
     {
-      "file": "s15_g05",
+      "file": "s16_g05",
       "text": "A largo plazo, hidroxiurea. Si te llevas una sola idea de hoy: frente a una microcitosis, mira los glóbulos rojos y la ferritina antes de dar hierro. En la próxima clase cerramos las hemolíticas con las microangiopatías trombóticas. Nos vemos en la próxima clase."
     }
   ]

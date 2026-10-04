@@ -149,6 +149,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-17/04_chvostek_puntos__commons.jpg', label: 'Puntos de percusión del signo de chvoste', credit: 'Wikimedia Commons «Segno di Chvostek Punti.JPG», CC BY-SA 3.0, MarcoMutMut' },
+      ],
+      steps: [
+        { note: 'Puntos de percusión del signo de chvoste',
+          say: 'Mira esta imagen: puntos de percusión del signo de Chvostek. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, como lo vas a razonar en el examen.',
     },

@@ -281,6 +281,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-03/02_sideroblasto-en-anillo__amir-hemato_p19.jpg', label: 'Sideroblasto en anillo', credit: 'Manual AMIR Hematología, p. 19' },
+      ],
+      steps: [
+        { note: 'Sideroblasto en anillo',
+          say: 'Mira esta imagen: sideroblasto en anillo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el estudio y el tratamiento en un solo árbol de decisión.',
     },

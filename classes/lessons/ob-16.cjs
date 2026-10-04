@@ -156,6 +156,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-16/01_planos-de-hodge-presentaciones__cto-gyo_p178.jpg', label: 'Planos de hodge y presentaciones', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 178' },
+      ],
+      steps: [
+        { note: 'Planos de hodge y presentaciones',
+          say: 'Mira esta imagen: planos de Hodge y presentaciones. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos el score de Bishop y el alumbramiento en un solo árbol.',
     },

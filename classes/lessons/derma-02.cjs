@@ -159,6 +159,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-02/01_acne-papulo-pustular__cto-derma_p59.jpg', label: 'Acné pápulo-pustular', credit: 'Manual CTO Dermatología 14.ª ed., p. 59' },
+        { src: 'biblioteca/11_dermatologia/derma-02/02_reaccion-acneiforme__cto-derma_p53.jpg', label: 'Reacción acneiforme', credit: 'Manual CTO Dermatología 14.ª ed., p. 53' },
+      ],
+      steps: [
+        { note: 'Acné pápulo-pustular',
+          say: 'Mira esta imagen: acné pápulo-pustular. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Reacción acneiforme',
+          say: 'Mira esta imagen: reacción acneiforme. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo el escalonamiento en un solo árbol de decisión.',
     },

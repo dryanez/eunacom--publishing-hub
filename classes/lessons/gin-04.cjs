@@ -151,6 +151,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_1__cto-radiologia_p138.jpg', label: 'Leiomiomas', credit: 'Manual CTO Radiología 14.ª ed., p. 138' },
+        { src: 'biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_2__cto-radiologia_p138.jpg', label: 'Leiomiomas tc 2', credit: 'Manual CTO Radiología 14.ª ed., p. 138' },
+      ],
+      steps: [
+        { note: 'Leiomiomas',
+          say: 'Mira esta imagen: leiomiomas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Leiomiomas tc 2',
+          say: 'Mira esta imagen: leiomiomas tc dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos síntomas y fertilidad en un solo árbol de decisión.',
     },

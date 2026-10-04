@@ -132,6 +132,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg', label: 'Histerosalpingografia normal 2', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' },
+      ],
+      steps: [
+        { note: 'Histerosalpingografia normal 2',
+          say: 'Mira esta imagen: histerosalpingografia normal dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

@@ -143,6 +143,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-22/01_lineas-radiologicas-ddc_1__cto-trauma_p79.jpg', label: 'Líneas radiológicas ddc', credit: 'Manual CTO Traumatología 14.ª ed., p. 79' },
+        { src: 'biblioteca/15_pediatria/ped-22/01_lineas-radiologicas-ddc_2__cto-trauma_p79.jpg', label: 'Lineas radiologicas ddc 2', credit: 'Manual CTO Traumatología 14.ª ed., p. 79' },
+        { src: 'biblioteca/15_pediatria/ped-22/02_yeso-pelvipedico-tratamiento__cto-trauma_p80.jpg', label: 'Yeso pelvipédico y tratamiento', credit: 'Manual CTO Traumatología 14.ª ed., p. 80' },
+        { src: 'biblioteca/15_pediatria/ped-22/04_barlow_foto__bates_p873.jpg', label: 'Maniobra de barlow', credit: 'Bates 12.ª ed., Fig. 18-33' },
+      ],
+      steps: [
+        { note: 'Líneas radiológicas ddc',
+          say: 'Mira esta imagen: líneas radiológicas DDC. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Lineas radiologicas ddc 2',
+          say: 'Mira esta imagen: lineas radiologicas ddc dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Yeso pelvipédico y tratamiento',
+          say: 'Mira esta imagen: yeso pelvipédico y tratamiento. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Maniobra de barlow',
+          say: 'Mira esta imagen: maniobra de Barlow. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos el examen y la imagen en un solo árbol de decisión.',
     },

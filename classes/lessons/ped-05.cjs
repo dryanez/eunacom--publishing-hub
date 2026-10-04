@@ -150,6 +150,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El bronquiolo',
+      images: [
+        { src: 'animaciones/ped-05/A1_bronquiolo.mp4', label: 'Bronquiolitis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Edema y moco',
+          say: 'En el lactante, el bronquiolo es muy pequeño. El edema y el moco lo tapan: el aire entra pero no sale, y aparecen sibilancias y retracciones.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Bronquiolitis',

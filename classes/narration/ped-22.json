@@ -2,7 +2,7 @@
   "id": "ped-22",
   "title": "Pediatria 18.22: Displasia del Desarrollo de la Cadera (DDC GES N° 23): Maniobras de Ortolani y Barlow, Radiografía a los 3 Meses y Correas de Pavlik",
   "specialty": "Pediatría",
-  "chars": 9306,
+  "chars": 9728,
   "segments": [
     {
       "file": "s00_g00",
@@ -98,115 +98,115 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora ordenemos el examen y la imagen en un solo árbol de decisión. Todo lactante se examina la cadera en su control sano. Pero cómo lo examinas, y qué imagen le pides, depende de la edad."
+      "text": "Mira esta imagen: líneas radiológicas DDC. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s06_g01",
-      "text": "Bajo los tres meses, tus maniobras son Ortolani y Barlow."
+      "text": "Mira esta imagen: lineas radiologicas ddc dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s06_g02",
-      "text": "Si alguna sale positiva, derivas de inmediato y pides ecografía de caderas, sin esperar la radiografía universal."
+      "text": "Mira esta imagen: yeso pelvipédico y tratamiento. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s06_g03",
-      "text": "Si el examen es normal, igual continúa hacia la radiografía de los tres meses, porque es universal y no depende del examen físico."
-    },
-    {
-      "file": "s06_g04",
-      "text": "A los tres meses, la radiografía de pelvis con las líneas de Hilgenreiner y Perkin te da el índice acetabular."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Treinta grados o menos, con el núcleo en el cuadrante correcto: cadera normal, sigues con los controles habituales."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Sobre treinta grados, con el núcleo desplazado: displasia confirmada. Si el lactante tiene menos de seis meses, el tratamiento es el arnés de Pavlik."
+      "text": "Mira esta imagen: maniobra de Barlow. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos con una tabla. Menor de tres meses, con Ortolani positivo: derivas y pides ecografía de caderas. El error es esperar a la radiografía de los tres meses."
+      "text": "Ahora ordenemos el examen y la imagen en un solo árbol de decisión. Todo lactante se examina la cadera en su control sano. Pero cómo lo examinas, y qué imagen le pides, depende de la edad."
     },
     {
       "file": "s07_g01",
-      "text": "A los tres meses, aunque no tenga ningún factor de riesgo: igual se toma la radiografía de pelvis. Es un error saltársela porque el examen físico salió normal."
+      "text": "Bajo los tres meses, tus maniobras son Ortolani y Barlow."
     },
     {
       "file": "s07_g02",
-      "text": "Ángulo acetabular de treinta o menos: sigues con los controles habituales. Indicar arnés igual, sin displasia, es un error."
+      "text": "Si alguna sale positiva, derivas de inmediato y pides ecografía de caderas, sin esperar la radiografía universal."
     },
     {
       "file": "s07_g03",
-      "text": "Con la displasia confirmada, en menor de seis meses: arnés de Pavlik. El doble pañal es la trampa clásica que suena razonable pero no corrige nada."
+      "text": "Si el examen es normal, igual continúa hacia la radiografía de los tres meses, porque es universal y no depende del examen físico."
+    },
+    {
+      "file": "s07_g04",
+      "text": "A los tres meses, la radiografía de pelvis con las líneas de Hilgenreiner y Perkin te da el índice acetabular."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Treinta grados o menos, con el núcleo en el cuadrante correcto: cadera normal, sigues con los controles habituales."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Sobre treinta grados, con el núcleo desplazado: displasia confirmada. Si el lactante tiene menos de seis meses, el tratamiento es el arnés de Pavlik."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Lactante mujer de tres meses, nacida de término en presentación podálica. En el control sano, la cadera se examina estable, sin ningún resalto. Pero por la garantía GES le toman la radiografía de pelvis: la cadera derecha sale con el núcleo bien ubicado y un ángulo de veintiséis grados; la izquierda, con el núcleo corrido al cuadrante de arriba y afuera, un ángulo de treinta y ocho grados, y el arco de Shenton roto."
+      "text": "Repasemos con una tabla. Menor de tres meses, con Ortolani positivo: derivas y pides ecografía de caderas. El error es esperar a la radiografía de los tres meses."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "A los tres meses, aunque no tenga ningún factor de riesgo: igual se toma la radiografía de pelvis. Es un error saltársela porque el examen físico salió normal."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: mantener controles porque el examen físico es normal, derivar e instalar correas de Pavlik, doble pañal con control ecográfico, resonancia magnética antes de decidir, u osteotomía de urgencia. Piénsalo."
+      "text": "Ángulo acetabular de treinta o menos: sigues con los controles habituales. Indicar arnés igual, sin displasia, es un error."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Este caso está armado justo para mostrarte por qué se toma la radiografía a todos: el examen físico ya no alcanza a detectar esta displasia a los tres meses, pero la imagen la muestra clarísima en la cadera izquierda. Con esos hallazgos, se deriva y se instala el arnés de Pavlik de inmediato. Pedir otra imagen, o esperar, solo retrasa un tratamiento que funciona mejor mientras antes empiece."
+      "text": "Con la displasia confirmada, en menor de seis meses: arnés de Pavlik. El doble pañal es la trampa clásica que suena razonable pero no corrige nada."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niño diagnosticado de displasia de cadera a los seis meses, con una radiografía que muestra la cabeza femoral izquierda luxada."
+      "text": "Vamos al caso. Lactante mujer de tres meses, nacida de término en presentación podálica. En el control sano, la cadera se examina estable, sin ningún resalto. Pero por la garantía GES le toman la radiografía de pelvis: la cadera derecha sale con el núcleo bien ubicado y un ángulo de veintiséis grados; la izquierda, con el núcleo corrido al cuadrante de arriba y afuera, un ángulo de treinta y ocho grados, y el arco de Shenton roto."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
-    },
-    {
-      "file": "s09_g02",
-      "text": "Las opciones: doble pañal, correas de Pavlik, yeso con fijador, osteotomía periacetabular, o reducción abierta con osteosíntesis."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Es la B, correas de Pavlik. A los seis meses todavía estás dentro de la ventana en la que el arnés funciona como primera línea. La cirugía y la osteotomía se reservan para cuando el arnés fracasa o el niño ya es mayor, y el doble pañal, ya lo vimos, no corrige nada."
-    },
-    {
-      "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil quince. Niño de tres meses, con una radiografía de pelvis que muestra displasia de cadera izquierda, con un índice acetabular de treinta y seis grados."
-    },
-    {
-      "file": "s10_g01",
-      "text": "¿Cuál es la indicación más adecuada?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "Las opciones: ejercicios de rotación y compresión, bota larga de yeso con yugo, yeso pelvipédico, doble pañal, o arnés de Pavlik."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Es la E. Treinta y seis grados está claramente sobre el corte normal de treinta, así que hay displasia confirmada. A los tres meses, la respuesta es arnés de Pavlik. El yeso pelvipédico es para cuando el arnés no funciona o el niño es mayor, y esa es la trampa que quiere hacerte confundir edades y tratamientos."
-    },
-    {
-      "file": "s11_g00",
-      "text": "Una tercera pregunta real, del EUNACOM de agosto de dos mil veintiuno. Niño de tres meses, con la radiografía de tamizaje para displasia de cadera: ángulo acetabular de veintiséis grados a la derecha, y veintiocho a la izquierda."
-    },
-    {
-      "file": "s11_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s09_g02",
+      "text": "Las opciones: mantener controles porque el examen físico es normal, derivar e instalar correas de Pavlik, doble pañal con control ecográfico, resonancia magnética antes de decidir, u osteotomía de urgencia. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Este caso está armado justo para mostrarte por qué se toma la radiografía a todos: el examen físico ya no alcanza a detectar esta displasia a los tres meses, pero la imagen la muestra clarísima en la cadera izquierda. Con esos hallazgos, se deriva y se instala el arnés de Pavlik de inmediato. Pedir otra imagen, o esperar, solo retrasa un tratamiento que funciona mejor mientras antes empiece."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niño diagnosticado de displasia de cadera a los seis meses, con una radiografía que muestra la cabeza femoral izquierda luxada."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: doble pañal, correas de Pavlik, yeso con fijador, osteotomía periacetabular, o reducción abierta con osteosíntesis."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B, correas de Pavlik. A los seis meses todavía estás dentro de la ventana en la que el arnés funciona como primera línea. La cirugía y la osteotomía se reservan para cuando el arnés fracasa o el niño ya es mayor, y el doble pañal, ya lo vimos, no corrige nada."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil quince. Niño de tres meses, con una radiografía de pelvis que muestra displasia de cadera izquierda, con un índice acetabular de treinta y seis grados."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la indicación más adecuada?"
+    },
+    {
       "file": "s11_g02",
-      "text": "Las opciones: derivar a traumatología infantil, doble pañal, arnés de Pavlik, ecografía de cadera, o mantener los controles habituales."
+      "text": "Las opciones: ejercicios de rotación y compresión, bota larga de yeso con yugo, yeso pelvipédico, doble pañal, o arnés de Pavlik."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. Y esta pregunta es el espejo de la anterior: aquí los dos ángulos están bajo treinta, así que la cadera es normal para esta edad. Derivar, poner un arnés o pedir otra imagen sería sobretratar a un niño sano. El ángulo normal es el que decide, no la sospecha por sí sola."
+      "text": "Es la E. Treinta y seis grados está claramente sobre el corte normal de treinta, así que hay displasia confirmada. A los tres meses, la respuesta es arnés de Pavlik. El yeso pelvipédico es para cuando el arnés no funciona o el niño es mayor, y esa es la trampa que quiere hacerte confundir edades y tratamientos."
     },
     {
       "file": "s12_g00",
-      "text": "Y la última pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Lactante de dos meses, con lactancia materna exclusiva y buen aumento de peso, en quien el examen muestra Ortolani positivo y una abducción limitada de la cadera derecha, sin antecedentes familiares."
+      "text": "Una tercera pregunta real, del EUNACOM de agosto de dos mil veintiuno. Niño de tres meses, con la radiografía de tamizaje para displasia de cadera: ángulo acetabular de veintiséis grados a la derecha, y veintiocho a la izquierda."
     },
     {
       "file": "s12_g01",
@@ -214,30 +214,46 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: ecografía de caderas, resonancia magnética, doble pañal con control en un mes, esperar la radiografía de rutina de los tres meses, o cirugía."
+      "text": "Las opciones: derivar a traumatología infantil, doble pañal, arnés de Pavlik, ecografía de cadera, o mantener los controles habituales."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A. Tiene solo dos meses y ya tiene un examen físico positivo, así que no esperas a la radiografía universal de los tres meses: ese examen es para el que no tiene hallazgos. Aquí ya hay una sospecha clínica clara, y bajo los tres meses el examen de elección es la ecografía de caderas, porque a esa edad la radiografía todavía no muestra el núcleo óseo."
+      "text": "Es la E. Y esta pregunta es el espejo de la anterior: aquí los dos ángulos están bajo treinta, así que la cadera es normal para esta edad. Derivar, poner un arnés o pedir otra imagen sería sobretratar a un niño sano. El ángulo normal es el que decide, no la sospecha por sí sola."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Bajo los tres meses, el examen es Ortolani y Barlow: uno reduce, el otro luxa."
+      "text": "Y la última pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Lactante de dos meses, con lactancia materna exclusiva y buen aumento de peso, en quien el examen muestra Ortolani positivo y una abducción limitada de la cadera derecha, sin antecedentes familiares."
     },
     {
       "file": "s13_g01",
-      "text": "Sobre los tres meses, el signo más confiable es la abducción limitada, junto con el signo de Galeazzi."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Bajo los tres meses, ecografía. A los tres meses, radiografía de pelvis a todo lactante, sea o no de riesgo."
+      "text": "Las opciones: ecografía de caderas, resonancia magnética, doble pañal con control en un mes, esperar la radiografía de rutina de los tres meses, o cirugía."
     },
     {
       "file": "s13_g03",
+      "text": "Es la A. Tiene solo dos meses y ya tiene un examen físico positivo, así que no esperas a la radiografía universal de los tres meses: ese examen es para el que no tiene hallazgos. Aquí ya hay una sospecha clínica clara, y bajo los tres meses el examen de elección es la ecografía de caderas, porque a esa edad la radiografía todavía no muestra el núcleo óseo."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Bajo los tres meses, el examen es Ortolani y Barlow: uno reduce, el otro luxa."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Sobre los tres meses, el signo más confiable es la abducción limitada, junto con el signo de Galeazzi."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Bajo los tres meses, ecografía. A los tres meses, radiografía de pelvis a todo lactante, sea o no de riesgo."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y un índice acetabular sobre treinta confirma la displasia."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Menor de seis meses, arnés de Pavlik, sin forzar la abducción. Si te llevas una sola idea de hoy: el examen cambia con la edad, y cuanto antes trates, menos cirugía necesita este niño. Con esto cerramos pediatría completa. Nos vemos en la próxima clase."
     }
   ]

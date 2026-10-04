@@ -132,6 +132,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda__cto-oftalmo_p73.jpg', label: 'Dmae húmeda', credit: 'Manual CTO Oftalmología 14.ª ed., p. 73' },
+        { src: 'biblioteca/12_oftalmologia/oftal-14/S1_rejilla-amsler__propio.svg', label: 'Rejilla amsler', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Dmae húmeda',
+          say: 'Mira esta imagen: DMAE húmeda. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Rejilla amsler',
+          say: 'Mira esta imagen: rejilla amsler. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

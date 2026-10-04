@@ -207,6 +207,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El bronquio en la crisis',
+      images: [
+        { src: 'animaciones/resp-02/A1_crisis_asmatica.mp4', label: 'Crisis asmática', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cuidado con el CO dos normal',
+          say: 'El bronquio se cierra por broncoespasmo, edema y moco. Al principio el paciente hiperventila y el CO dos baja. Si sube a lo normal, el paciente se está agotando: es una alarma.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde que el paciente entra a la urgencia hasta que se va.',
     },

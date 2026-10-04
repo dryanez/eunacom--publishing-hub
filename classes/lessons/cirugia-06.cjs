@@ -159,6 +159,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Indirecta o directa',
+      images: [
+        { src: 'animaciones/cirugia-06/A1_hernias.mp4', label: 'Hernias', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Los vasos epigástricos separan',
+          say: 'La indirecta sale lateral a los vasos epigástricos, por el anillo profundo, y puede bajar al escroto. La directa sale medial, por el triángulo de Hesselbach.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',
@@ -172,6 +186,19 @@ module.exports = {
           say: 'La hernia directa sale por el triángulo de Hesselbach, medial a los vasos epigástricos. La indirecta sale lateral, por el anillo profundo.' },
         { note: 'No se reduce',
           say: 'Y esta hernia umbilical está incarcerada: no se reduce y duele. Es urgencia.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-06/01_hernia-inguinal-bilateral-gigante__cto-cirugia_p56.jpg', label: 'Hernia inguinal bilateral gigante', credit: 'Manual CTO Cirugía 14.ª ed., p. 56' },
+      ],
+      steps: [
+        { note: 'Hernia inguinal bilateral gigante',
+          say: 'Mira esta imagen: hernia inguinal bilateral gigante. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 

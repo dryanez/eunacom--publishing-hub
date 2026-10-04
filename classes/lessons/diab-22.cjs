@@ -233,6 +233,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg', label: 'Ulcera necrosis pie diabetico 2', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
+      ],
+      steps: [
+        { note: 'Ulcera necrosis pie diabetico 2',
+          say: 'Mira esta imagen: ulcera necrosis pie diabetico dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, tal como lo razonas frente a un pie diabético.',
     },

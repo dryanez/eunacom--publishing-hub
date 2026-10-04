@@ -121,6 +121,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-06/01_dermatitis-atopica__amir-derma_p91.jpg', label: 'Dermatitis atópica', credit: 'Manual AMIR Dermatología, p. 91' },
+      ],
+      steps: [
+        { note: 'Dermatitis atópica',
+          say: 'Mira esta imagen: dermatitis atópica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: del lactante con eccema hasta la complicación que no se puede pasar por alto.',
     },

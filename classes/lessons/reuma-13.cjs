@@ -249,6 +249,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg', label: 'Heliotropo', credit: 'Manual CTO Dermatología 14.ª ed., p. 119' },
+      ],
+      steps: [
+        { note: 'Heliotropo',
+          say: 'Mira esta imagen: heliotropo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

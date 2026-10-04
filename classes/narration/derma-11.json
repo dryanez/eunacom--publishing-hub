@@ -2,7 +2,7 @@
   "id": "derma-11",
   "title": "Dermatologia 16.11: Pénfigo Vulgar (Intraepidérmico) vs Penfigoide Ampollar (Subepidérmico)",
   "specialty": "Dermatología",
-  "chars": 11237,
+  "chars": 11386,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,114 +90,118 @@
     },
     {
       "file": "s07_g00",
-      "text": "El pénfigo da ampollas flácidas que se rompen, y compromete mucosas."
-    },
-    {
-      "file": "s07_g01",
-      "text": "El penfigoide, en el adulto mayor, da ampollas tensas que no se rompen fácilmente."
+      "text": "En el pénfigo la separación ocurre dentro de la epidermis, y la ampolla es flácida. En el penfigoide ocurre bajo la epidermis, y la ampolla es tensa."
     },
     {
       "file": "s08_g00",
-      "text": "Armemos el árbol de decisión: de la morfología de la ampolla al tratamiento de cada enfermedad. Frente a una ampolla de origen no farmacológico, la morfología de la lesión es el primer dato que orienta el diagnóstico."
+      "text": "El pénfigo da ampollas flácidas que se rompen, y compromete mucosas."
     },
     {
       "file": "s08_g01",
-      "text": "La morfología de la ampolla y el signo de Nikolsky separan de entrada el nivel de la lesión."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Confirmada la ampolla flácida con Nikolsky positivo, el compromiso oral inaugural apoya el diagnóstico de pénfigo vulgar."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Úlceras orales dolorosas como debut, ampolla flácida y Nikolsky positivo: pénfigo vulgar. Tratamiento inicial con corticoides sistémicos en dosis altas, asociando rituximab o azatioprina."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Sin compromiso oral pero con Nikolsky positivo, considera pénfigo foliáceo: mismo mecanismo de acantolisis, pero más superficial y sin afectar mucosas."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Confirmada la ampolla tensa con Nikolsky negativo, el prurito prodrómico en un paciente mayor apoya el penfigoide ampollar."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Anciano con prurito intenso prodrómico, ampolla tensa, Nikolsky negativo y boca respetada: penfigoide ampollar. Tratamiento inicial con corticoide tópico de muy alta potencia en todo el cuerpo."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Si el cuadro no encaja del todo, la biopsia con inmunofluorescencia directa distingue entre penfigoide, dermatitis herpetiforme y otras ampollares subepidérmicas."
+      "text": "El penfigoide, en el adulto mayor, da ampollas tensas que no se rompen fácilmente."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos con la tabla. La edad: cuarenta a sesenta años en el pénfigo; más de setenta u ochenta en el penfigoide."
+      "text": "Armemos el árbol de decisión: de la morfología de la ampolla al tratamiento de cada enfermedad. Frente a una ampolla de origen no farmacológico, la morfología de la lesión es el primer dato que orienta el diagnóstico."
     },
     {
       "file": "s09_g01",
-      "text": "La morfología: ampolla flácida en el pénfigo; tensa y resistente en el penfigoide."
+      "text": "La morfología de la ampolla y el signo de Nikolsky separan de entrada el nivel de la lesión."
     },
     {
       "file": "s09_g02",
-      "text": "El signo de Nikolsky: positivo en el pénfigo, negativo en el penfigoide. Esta es la pregunta más directa del tema."
+      "text": "Confirmada la ampolla flácida con Nikolsky positivo, el compromiso oral inaugural apoya el diagnóstico de pénfigo vulgar."
     },
     {
       "file": "s09_g03",
-      "text": "La mucosa oral: comprometida en la gran mayoría de los pénfigos, y casi siempre respetada en el penfigoide."
+      "text": "Úlceras orales dolorosas como debut, ampolla flácida y Nikolsky positivo: pénfigo vulgar. Tratamiento inicial con corticoides sistémicos en dosis altas, asociando rituximab o azatioprina."
     },
     {
       "file": "s09_g04",
-      "text": "Y el síntoma que predomina: dolor en el pénfigo, por las erosiones; prurito intenso en el penfigoide, antes incluso de que aparezcan las ampollas."
+      "text": "Sin compromiso oral pero con Nikolsky positivo, considera pénfigo foliáceo: mismo mecanismo de acantolisis, pero más superficial y sin afectar mucosas."
     },
     {
       "file": "s09_g05",
-      "text": "La inmunofluorescencia directa: depósito entre las células, en red de pescar, en el pénfigo; depósito lineal continuo en la membrana basal, en el penfigoide."
+      "text": "Confirmada la ampolla tensa con Nikolsky negativo, el prurito prodrómico en un paciente mayor apoya el penfigoide ampollar."
     },
     {
       "file": "s09_g06",
-      "text": "Y el tratamiento inicial: corticoide sistémico en dosis altas en el pénfigo; corticoide tópico potente en el penfigoide. Confundir estas dos indicaciones es el error más grave de todo el tema, porque en el anciano frágil, la prednisona oral en dosis altas aumenta el riesgo de mortalidad por otras causas."
+      "text": "Anciano con prurito intenso prodrómico, ampolla tensa, Nikolsky negativo y boca respetada: penfigoide ampollar. Tratamiento inicial con corticoide tópico de muy alta potencia en todo el cuerpo."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Si el cuadro no encaja del todo, la biopsia con inmunofluorescencia directa distingue entre penfigoide, dermatitis herpetiforme y otras ampollares subepidérmicas."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Mujer de cincuenta y dos años, con erosiones dolorosas en la mucosa de la boca y las encías desde hace dos meses, sin respuesta a antimicóticos. Hace diez días notó ampollas de pared muy delgada en el tronco, que se rompen con el roce de la ropa. Al frotar suavemente la piel sana cerca de una lesión, la epidermis se desprende con facilidad."
+      "text": "Repasemos con la tabla. La edad: cuarenta a sesenta años en el pénfigo; más de setenta u ochenta en el penfigoide."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable y el tratamiento inicial?"
+      "text": "La morfología: ampolla flácida en el pénfigo; tensa y resistente en el penfigoide."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: penfigoide ampollar con clobetasol tópico, pénfigo vulgar con prednisona oral en dosis altas, dermatitis herpetiforme con dapsona, necrólisis epidérmica tóxica con traslado a quemados, o eritema multiforme major con aciclovir. Piénsalo."
+      "text": "El signo de Nikolsky: positivo en el pénfigo, negativo en el penfigoide. Esta es la pregunta más directa del tema."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Las úlceras orales como primer síntoma, la ampolla flácida y el Nikolsky positivo, en una mujer de mediana edad, arman el cuadro clásico del pénfigo vulgar. El tratamiento inicial correcto es prednisona oral en dosis altas. El penfigoide es Nikolsky negativo y respeta la boca. Y no hay ni el antecedente farmacológico ni la fiebre que necesitarías para pensar en necrólisis epidérmica tóxica."
+      "text": "La mucosa oral: comprometida en la gran mayoría de los pénfigos, y casi siempre respetada en el penfigoide."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y el síntoma que predomina: dolor en el pénfigo, por las erosiones; prurito intenso en el penfigoide, antes incluso de que aparezcan las ampollas."
+    },
+    {
+      "file": "s10_g05",
+      "text": "La inmunofluorescencia directa: depósito entre las células, en red de pescar, en el pénfigo; depósito lineal continuo en la membrana basal, en el penfigoide."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Y el tratamiento inicial: corticoide sistémico en dosis altas en el pénfigo; corticoide tópico potente en el penfigoide. Confundir estas dos indicaciones es el error más grave de todo el tema, porque en el anciano frágil, la prednisona oral en dosis altas aumenta el riesgo de mortalidad por otras causas."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con una pregunta del banco. Un hombre de setenta y seis años, con Parkinson, consulta por dos meses de prurito generalizado severo, al que se agregan ampollas de gran tamaño en el abdomen, las ingles y la cara interna de los muslos. Las ampollas tienen contenido claro, paredes gruesas y muy tensas, sobre placas rojas. La mucosa oral está indemne. Al frotar con fuerza moderada la piel sana cercana, la epidermis no se despega."
+      "text": "Vamos con un caso. Mujer de cincuenta y dos años, con erosiones dolorosas en la mucosa de la boca y las encías desde hace dos meses, sin respuesta a antimicóticos. Hace diez días notó ampollas de pared muy delgada en el tronco, que se rompen con el roce de la ropa. Al frotar suavemente la piel sana cerca de una lesión, la epidermis se desprende con facilidad."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el diagnóstico más probable y el tratamiento inicial?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: pénfigo vulgar, penfigoide ampollar, necrólisis epidérmica tóxica, dermatitis herpetiforme, o epidermólisis bullosa simple. Piénsalo."
+      "text": "Las opciones: penfigoide ampollar con clobetasol tópico, pénfigo vulgar con prednisona oral en dosis altas, dermatitis herpetiforme con dapsona, necrólisis epidérmica tóxica con traslado a quemados, o eritema multiforme major con aciclovir. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B, penfigoide ampollar. Todo calza con lo que vimos hoy: edad avanzada con antecedente neurológico, prurito intenso antes de las ampollas, ampollas tensas y resistentes, Nikolsky negativo, y boca respetada. El pénfigo se ve en pacientes más jóvenes, con ampollas flácidas, Nikolsky positivo, y casi siempre compromiso oral desde el inicio."
+      "text": "Es la B. Las úlceras orales como primer síntoma, la ampolla flácida y el Nikolsky positivo, en una mujer de mediana edad, arman el cuadro clásico del pénfigo vulgar. El tratamiento inicial correcto es prednisona oral en dosis altas. El penfigoide es Nikolsky negativo y respeta la boca. Y no hay ni el antecedente farmacológico ni la fiebre que necesitarías para pensar en necrólisis epidérmica tóxica."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Ampolla flácida con Nikolsky positivo es pénfigo vulgar. Ampolla tensa con Nikolsky negativo es penfigoide ampollar."
+      "text": "Vamos con una pregunta del banco. Un hombre de setenta y seis años, con Parkinson, consulta por dos meses de prurito generalizado severo, al que se agregan ampollas de gran tamaño en el abdomen, las ingles y la cara interna de los muslos. Las ampollas tienen contenido claro, paredes gruesas y muy tensas, sobre placas rojas. La mucosa oral está indemne. Al frotar con fuerza moderada la piel sana cercana, la epidermis no se despega."
     },
     {
       "file": "s12_g01",
-      "text": "La mucosa oral casi siempre está comprometida, y suele ser el primer síntoma, en el pénfigo; en el penfigoide, casi siempre se respeta. Y de paso, recuerda que existen primos cercanos de estas dos enfermedades: el pénfigo foliáceo, más superficial y que nunca afecta mucosas, y la dermatitis herpetiforme, siempre asociada a celiaquía y tratada con dapsona, que verás en otras clases del bloque."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
+      "text": "Las opciones: pénfigo vulgar, penfigoide ampollar, necrólisis epidérmica tóxica, dermatitis herpetiforme, o epidermólisis bullosa simple. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B, penfigoide ampollar. Todo calza con lo que vimos hoy: edad avanzada con antecedente neurológico, prurito intenso antes de las ampollas, ampollas tensas y resistentes, Nikolsky negativo, y boca respetada. El pénfigo se ve en pacientes más jóvenes, con ampollas flácidas, Nikolsky positivo, y casi siempre compromiso oral desde el inicio."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Ampolla flácida con Nikolsky positivo es pénfigo vulgar. Ampolla tensa con Nikolsky negativo es penfigoide ampollar."
+    },
+    {
+      "file": "s13_g01",
+      "text": "La mucosa oral casi siempre está comprometida, y suele ser el primer síntoma, en el pénfigo; en el penfigoide, casi siempre se respeta. Y de paso, recuerda que existen primos cercanos de estas dos enfermedades: el pénfigo foliáceo, más superficial y que nunca afecta mucosas, y la dermatitis herpetiforme, siempre asociada a celiaquía y tratada con dapsona, que verás en otras clases del bloque."
+    },
+    {
+      "file": "s13_g02",
       "text": "Y el tratamiento no se intercambia: el pénfigo necesita corticoides sistémicos en dosis altas desde el principio; el penfigoide responde mejor, y de forma más segura en el anciano, a un corticoide tópico potente. Si te llevas una sola idea de hoy: mira la ampolla y haz el Nikolsky, y vas a saber cuál es cuál. Nos vemos en la próxima clase."
     }
   ]

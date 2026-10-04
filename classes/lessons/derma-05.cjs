@@ -163,6 +163,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg', label: 'Koebner', credit: 'Manual CTO Dermatología 14.ª ed., p. 10' },
+      ],
+      steps: [
+        { note: 'Koebner',
+          say: 'Mira esta imagen: Koebner. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo esto en un árbol de decisión, desde la placa hasta el escalón terapéutico.',
     },

@@ -277,6 +277,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-18/03_ann-arbor__cto-hemato_p70.jpg', label: 'Ann arbor', credit: 'Manual CTO Hematología 14.ª ed., p. 70' },
+        { src: 'biblioteca/06_hematologia/hem-18/04_pet-en-hodgkin__amir-hemato_p80.jpg', label: 'Pet en hodgkin', credit: 'Manual AMIR Hematología, p. 80' },
+      ],
+      steps: [
+        { note: 'Ann arbor',
+          say: 'Mira esta imagen: Ann Arbor. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Pet en hodgkin',
+          say: 'Mira esta imagen: PET en Hodgkin. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del ganglio que no se va.',
     },

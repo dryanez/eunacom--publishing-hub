@@ -297,6 +297,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal__cto-nefro_p23.jpg', label: 'Ecg hiperpotasemia', credit: 'Manual CTO Nefrología 14.ª ed., p. 23' },
+      ],
+      steps: [
+        { note: 'Ecg hiperpotasemia',
+          say: 'Mira esta imagen: ECG hiperpotasemia. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar frente a una kalemia alta.',
     },

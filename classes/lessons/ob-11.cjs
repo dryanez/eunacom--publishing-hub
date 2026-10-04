@@ -143,6 +143,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg', label: 'Diagnóstico de ectópico', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' },
+      ],
+      steps: [
+        { note: 'Diagnóstico de ectópico',
+          say: 'Mira esta imagen: diagnóstico de ectópico. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

@@ -2,7 +2,7 @@
   "id": "resp-17",
   "title": "Neumología 4.2: Cáncer Pulmonar: Tipos Histológicos, Clínica y Manejo Inicial",
   "specialty": "Neumología",
-  "chars": 11972,
+  "chars": 12203,
   "segments": [
     {
       "file": "s00_g00",
@@ -126,91 +126,83 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora juntemos todo en un solo árbol, tal como lo vas a razonar en el examen. Fumador mayor con tos, hemoptisis o baja de peso, y una masa en la imagen. La sospecha es cáncer pulmonar, y lo primero es saber qué tipo es."
+      "text": "Mira esta imagen: adenocarcinoma y epidermoide. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g01",
-      "text": "La biopsia responde la única pregunta que cambia todo: ¿son células pequeñas o no?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Microcítico: se considera diseminado desde el diagnóstico. Busca su firma: SIADH, Cushing ectópico o Lambert-Eaton."
-    },
-    {
-      "file": "s07_g03",
-      "text": "No se opera. Quimioterapia con cisplatino y etopósido, radioterapia torácica y radioterapia holocraneal profiláctica."
-    },
-    {
-      "file": "s07_g04",
-      "text": "No microcítico: antes de decidir, se etapifica con PET-CT y resonancia de cerebro. ¿Está en etapa uno o dos?"
-    },
-    {
-      "file": "s07_g05",
-      "text": "En etapas uno y dos, la opción curativa es la lobectomía con linfadenectomía mediastínica."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si no es resecable, se deriva al equipo oncológico. Recuerda que es patología GES."
+      "text": "Mira esta imagen: adenocarcinoma epidermoide histologia dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos con la tabla. Adenocarcinoma: periférico, el más frecuente, y el de la mujer no fumadora. Su firma es la acropaquia con osteoartropatía."
+      "text": "Ahora juntemos todo en un solo árbol, tal como lo vas a razonar en el examen. Fumador mayor con tos, hemoptisis o baja de peso, y una masa en la imagen. La sospecha es cáncer pulmonar, y lo primero es saber qué tipo es."
     },
     {
       "file": "s08_g01",
-      "text": "Epidermoide: central, cavita, y da hipercalcemia con PTH suprimida. La trampa es pensar en metástasis óseas: aquí no las hay."
+      "text": "La biopsia responde la única pregunta que cambia todo: ¿son células pequeñas o no?"
     },
     {
       "file": "s08_g02",
-      "text": "Microcítico: central, de fumador pesado, con SIADH, Cushing ectópico y Lambert-Eaton."
+      "text": "Microcítico: se considera diseminado desde el diagnóstico. Busca su firma: SIADH, Cushing ectópico o Lambert-Eaton."
     },
     {
       "file": "s08_g03",
-      "text": "Células grandes: periférico, con ginecomastia."
+      "text": "No se opera. Quimioterapia con cisplatino y etopósido, radioterapia torácica y radioterapia holocraneal profiláctica."
     },
     {
       "file": "s08_g04",
-      "text": "Y la trampa de conducta: el microcítico no se opera de entrada, aunque parezca localizado. Quimioterapia y radioterapia."
+      "text": "No microcítico: antes de decidir, se etapifica con PET-CT y resonancia de cerebro. ¿Está en etapa uno o dos?"
     },
     {
       "file": "s08_g05",
-      "text": "Al revés, el no microcítico en etapas uno o dos se opera. Dejarlo solo con quimioterapia es quedarse corto."
+      "text": "En etapas uno y dos, la opción curativa es la lobectomía con linfadenectomía mediastínica."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no es resecable, se deriva al equipo oncológico. Recuerda que es patología GES."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos a un caso. Hombre de sesenta y siete años, fumador de cuarenta y cinco paquetes al año, con astenia, náuseas, constipación y confusión que va y viene. La radiografía muestra una masa central perihiliar derecha de cinco centímetros. El calcio está en trece coma ocho, la PTH suprimida y el péptido relacionado con la PTH muy elevado."
+      "text": "Repasemos con la tabla. Adenocarcinoma: periférico, el más frecuente, y el de la mujer no fumadora. Su firma es la acropaquia con osteoartropatía."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tipo histológico más probable?"
+      "text": "Epidermoide: central, cavita, y da hipercalcemia con PTH suprimida. La trampa es pensar en metástasis óseas: aquí no las hay."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: adenocarcinoma periférico, epidermoide, microcítico, células grandes, o metástasis óseas de un adenocarcinoma. Piénsalo."
+      "text": "Microcítico: central, de fumador pesado, con SIADH, Cushing ectópico y Lambert-Eaton."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, el epidermoide. La constipación, las náuseas y la confusión son la clínica de la hipercalcemia; la PTH suprimida con su péptido relacionado elevado dice que el tumor la fabrica. El distractor tentador es el microcítico, porque la masa es central, pero su firma es el SIADH, no el calcio. El manejo inmediato es hidratar con suero fisiológico, dar ácido zoledrónico, y confirmar con fibrobroncoscopía y biopsia."
+      "text": "Células grandes: periférico, con ginecomastia."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y la trampa de conducta: el microcítico no se opera de entrada, aunque parezca localizado. Quimioterapia y radioterapia."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Al revés, el no microcítico en etapas uno o dos se opera. Dejarlo solo con quimioterapia es quedarse corto."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Hombre de sesenta y dos años, fumador, cuya radiografía muestra una masa hiliar derecha irregular con atelectasia del lóbulo superior derecho."
+      "text": "Vamos a un caso. Hombre de sesenta y siete años, fumador de cuarenta y cinco paquetes al año, con astenia, náuseas, constipación y confusión que va y viene. La radiografía muestra una masa central perihiliar derecha de cinco centímetros. El calcio está en trece coma ocho, la PTH suprimida y el péptido relacionado con la PTH muy elevado."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el tipo histológico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: carcinoma epidermoide, derrame pleural, neumotórax, neumonía aspirativa, o adenocarcinoma periférico. Piénsalo."
+      "text": "Las opciones: adenocarcinoma periférico, epidermoide, microcítico, células grandes, o metástasis óseas de un adenocarcinoma. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A, epidermoide. La palabra clave es hiliar: un tumor central crece dentro del bronquio, lo tapa, y el lóbulo que queda detrás se colapsa. La E es el distractor lógico, porque también es cáncer, pero el propio enunciado te dice que el adenocarcinoma es periférico. Ubicación primero, y la histología sale sola."
+      "text": "Es la B, el epidermoide. La constipación, las náuseas y la confusión son la clínica de la hipercalcemia; la PTH suprimida con su péptido relacionado elevado dice que el tumor la fabrica. El distractor tentador es el microcítico, porque la masa es central, pero su firma es el SIADH, no el calcio. El manejo inmediato es hidratar con suero fisiológico, dar ácido zoledrónico, y confirmar con fibrobroncoscopía y biopsia."
     },
     {
       "file": "s11_g00",
-      "text": "Otra, del EUNACOM de julio de dos mil veinticuatro. Paciente de setenta y dos años, fumador de cuarenta paquetes al año, con un cáncer de células pequeñas sin tratamiento. Lleva siete días con cefalea y tendencia a desorientarse, y el sodio está en ciento veintiuno, sin focalidad neurológica."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Hombre de sesenta y dos años, fumador, cuya radiografía muestra una masa hiliar derecha irregular con atelectasia del lóbulo superior derecho."
     },
     {
       "file": "s11_g01",
@@ -218,66 +210,82 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: SIADH, metástasis cerebrales, síndrome carcinoide, accidente vascular, o hipercalcemia. Piénsalo."
+      "text": "Las opciones: carcinoma epidermoide, derrame pleural, neumotórax, neumonía aspirativa, o adenocarcinoma periférico. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. Microcítico más hiponatremia es SIADH, y la confusión se explica por el sodio bajo. Las metástasis cerebrales tientan, porque el microcítico las da, pero no explican el sodio y además no hay focalidad. Y la hipercalcemia está puesta para ver si confundes las firmas: esa es del epidermoide."
+      "text": "Es la A, epidermoide. La palabra clave es hiliar: un tumor central crece dentro del bronquio, lo tapa, y el lóbulo que queda detrás se colapsa. La E es el distractor lógico, porque también es cáncer, pero el propio enunciado te dice que el adenocarcinoma es periférico. Ubicación primero, y la histología sale sola."
     },
     {
       "file": "s12_g00",
-      "text": "Una más del EUNACOM de julio de dos mil veinticuatro. Paciente de sesenta y siete años, fumador de cuarenta paquetes al año, con cuatro meses de tos, a veces con sangre, y cinco kilos de baja de peso. Tiene hipocratismo digital y menos murmullo en el lado derecho, con crépitos."
+      "text": "Otra, del EUNACOM de julio de dos mil veinticuatro. Paciente de setenta y dos años, fumador de cuarenta paquetes al año, con un cáncer de células pequeñas sin tratamiento. Lleva siete días con cefalea y tendencia a desorientarse, y el sodio está en ciento veintiuno, sin focalidad neurológica."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el examen más adecuado para comenzar el manejo?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: PET-CT, estudio de tuberculosis, fibrobroncoscopía con lavado, TAC de tórax, o resonancia de tórax. Piénsalo."
+      "text": "Las opciones: SIADH, metástasis cerebrales, síndrome carcinoide, accidente vascular, o hipercalcemia. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D. Es la sospecha clásica de cáncer, y el estudio parte por la imagen, que localiza la masa y te dice por dónde biopsiar. El distractor es el PET-CT: suena más moderno, pero en el algoritmo del libro se usa para etapificar un no microcítico ya confirmado, no para empezar."
+      "text": "Es la A. Microcítico más hiponatremia es SIADH, y la confusión se explica por el sodio bajo. Las metástasis cerebrales tientan, porque el microcítico las da, pero no explican el sodio y además no hay focalidad. Y la hipercalcemia está puesta para ver si confundes las firmas: esa es del epidermoide."
     },
     {
       "file": "s13_g00",
-      "text": "Cerramos las preguntas con un caso representativo del banco EUNACOM. Paciente de cincuenta y nueve años, fumador, con dolor intenso del hombro derecho y de la cara interna del antebrazo, el párpado derecho caído, y sin sudor en la mitad derecha de la cara. La radiografía muestra una opacidad en el vértice derecho."
+      "text": "Una más del EUNACOM de julio de dos mil veinticuatro. Paciente de sesenta y siete años, fumador de cuarenta paquetes al año, con cuatro meses de tos, a veces con sangre, y cinco kilos de baja de peso. Tiene hipocratismo digital y menos murmullo en el lado derecho, con crépitos."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cómo se llama este cuadro y cuál es su sustrato anatómico?"
+      "text": "¿Cuál es el examen más adecuado para comenzar el manejo?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: Kartagener, Pancoast con Horner, vena cava superior, miopatía tiroidea, o neuralgia postherpética. Piénsalo."
+      "text": "Las opciones: PET-CT, estudio de tuberculosis, fibrobroncoscopía con lavado, TAC de tórax, o resonancia de tórax. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. Vértice pulmonar, dolor en el territorio del plexo braquial inferior y un Horner del mismo lado: tumor de Pancoast que invade el ganglio estrellado. La C tienta porque también es invasión local, pero el síndrome de vena cava da edema y cianosis de la cara, no dolor del brazo ni ptosis."
+      "text": "Es la D. Es la sospecha clásica de cáncer, y el estudio parte por la imagen, que localiza la masa y te dice por dónde biopsiar. El distractor es el PET-CT: suena más moderno, pero en el algoritmo del libro se usa para etapificar un no microcítico ya confirmado, no para empezar."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. La primera: la biopsia separa dos universos. El microcítico es sistémico desde el inicio y no se opera; se trata con cisplatino, etopósido y radioterapia."
+      "text": "Cerramos las preguntas con un caso representativo del banco EUNACOM. Paciente de cincuenta y nueve años, fumador, con dolor intenso del hombro derecho y de la cara interna del antebrazo, el párpado derecho caído, y sin sudor en la mitad derecha de la cara. La radiografía muestra una opacidad en el vértice derecho."
     },
     {
       "file": "s14_g01",
-      "text": "El no microcítico en etapas uno y dos se opera con lobectomía, después de etapificar."
+      "text": "¿Cómo se llama este cuadro y cuál es su sustrato anatómico?"
     },
     {
       "file": "s14_g02",
-      "text": "Las firmas: el microcítico da SIADH, Cushing ectópico y Lambert-Eaton."
+      "text": "Las opciones: Kartagener, Pancoast con Horner, vena cava superior, miopatía tiroidea, o neuralgia postherpética. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la B. Vértice pulmonar, dolor en el territorio del plexo braquial inferior y un Horner del mismo lado: tumor de Pancoast que invade el ganglio estrellado. La C tienta porque también es invasión local, pero el síndrome de vena cava da edema y cianosis de la cara, no dolor del brazo ni ptosis."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. La primera: la biopsia separa dos universos. El microcítico es sistémico desde el inicio y no se opera; se trata con cisplatino, etopósido y radioterapia."
+    },
+    {
+      "file": "s15_g01",
+      "text": "El no microcítico en etapas uno y dos se opera con lobectomía, después de etapificar."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las firmas: el microcítico da SIADH, Cushing ectópico y Lambert-Eaton."
+    },
+    {
+      "file": "s15_g03",
       "text": "El epidermoide, hipercalcemia con PTH suprimida."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Y el adenocarcinoma, periférico y el más frecuente, da acropaquia."
     },
     {
-      "file": "s14_g05",
+      "file": "s15_g05",
       "text": "Pancoast es dolor del brazo con Horner, y la vena cava superior es edema en esclavina por un tumor central. Si te llevas una sola idea de hoy: primero la ubicación y la histología; de ellas salen el síndrome y la conducta. Nos vemos en la próxima clase."
     }
   ]

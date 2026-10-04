@@ -11,7 +11,7 @@ from mathutils import Vector, Matrix
 
 ASSETS = os.path.expanduser('~/Documents/Archive/Apps/assets3d')
 OBJ_DIR = os.path.join(ASSETS, 'bp3d', 'partof_BP3D_4.0_obj_99')
-argv = sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else []
+argv = sys.argv[sys.argv.index('--') + 1:] if ('--' in sys.argv and __name__ == '__main__') else []
 SCENE = argv[0] if argv else 'resp14_tension'
 OUT = argv[1] if len(argv) > 1 else '/tmp/a3d'
 FRAMES = int(argv[2]) if len(argv) > 2 else 120
@@ -506,14 +506,15 @@ SCENES = {
     'ob16_parto': parto,
 }
 
-bpy.ops.wm.read_factory_settings(use_empty=True)
-SCENES[SCENE]()
-if os.environ.get('A3D_PREVIEW'):
-    scn = bpy.context.scene
-    os.makedirs(OUT, exist_ok=True)
-    for i, fr in enumerate((0.05, 0.5, 0.97)):
-        scn.frame_set(max(1, int(FRAMES * fr)))
-        scn.render.filepath = os.path.join(OUT, f'f_{i + 1:04d}.png')
-        bpy.ops.render.render(write_still=True)
-else:
-    bpy.ops.render.render(animation=True)
+if __name__ == '__main__':
+  bpy.ops.wm.read_factory_settings(use_empty=True)
+  SCENES[SCENE]()
+  if os.environ.get('A3D_PREVIEW'):
+      scn = bpy.context.scene
+      os.makedirs(OUT, exist_ok=True)
+      for i, fr in enumerate((0.05, 0.5, 0.97)):
+          scn.frame_set(max(1, int(FRAMES * fr)))
+          scn.render.filepath = os.path.join(OUT, f'f_{i + 1:04d}.png')
+          bpy.ops.render.render(write_still=True)
+  else:
+      bpy.ops.render.render(animation=True)

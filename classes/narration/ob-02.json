@@ -2,7 +2,7 @@
   "id": "ob-02",
   "title": "Obstetricia 19.2: Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
   "specialty": "Obstetricia",
-  "chars": 8326,
+  "chars": 8420,
   "segments": [
     {
       "file": "s00_g00",
@@ -78,118 +78,122 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora ordenemos las dos ecografías y sus tratamientos en un solo árbol. Tu paciente llega a una de las dos ecografías universales del embarazo. Lo primero es saber en cuál está, porque cada una busca algo completamente distinto."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Si tu paciente está entre las once y las catorce semanas, la ecografía busca dos cosas a la vez: la translucencia nucal, y el Doppler de las arterias uterinas."
-    },
-    {
-      "file": "s05_g02",
-      "text": "En esta ecografía hay dos marcadores distintos, y cada uno te manda por un camino distinto: ¿cuál de los dos salió alterado?"
-    },
-    {
-      "file": "s05_g03",
-      "text": "Con un riesgo alto en la primera ecografía, ya no basta con seguir mirando: pides un estudio invasivo. Entre las once y las catorce semanas, biopsia de vellosidad corial; desde las quince o dieciséis, amniocentesis."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Con el Doppler de uterinas alterado, indicas aspirina, ciento cincuenta miligramos, tomada en la noche, y la partida antes de la semana dieciséis es lo que hace la diferencia."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Si en cambio está entre las veinte y las veinticuatro semanas, la ecografía revisa la anatomía completa del feto, y además mide el cuello por vía transvaginal."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Y aquí la pregunta es sobre el cuello: ¿mide menos de veinticinco milímetros?"
-    },
-    {
-      "file": "s05_g07",
-      "text": "Con un cuello menor a veinticinco milímetros, indicas progesterona natural micronizada, doscientos miligramos cada noche, hasta la semana treinta y seis."
-    },
-    {
-      "file": "s05_g08",
-      "text": "Si el cuello mide veinticinco milímetros o más, sigue con su control habitual, sin progesterona."
+      "text": "Mira esta imagen: cervicometría. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos las trampas. Translucencia nucal aumentada: vas al estudio genético invasivo. El error es solo repetir la ecografía más adelante."
+      "text": "Ahora ordenemos las dos ecografías y sus tratamientos en un solo árbol. Tu paciente llega a una de las dos ecografías universales del embarazo. Lo primero es saber en cuál está, porque cada una busca algo completamente distinto."
     },
     {
       "file": "s06_g01",
-      "text": "Doppler de uterinas alterado: aspirina antes de la semana dieciséis. El error clásico es partir tarde, después de la semana veinte, cuando ya perdió gran parte de su efecto."
+      "text": "Si tu paciente está entre las once y las catorce semanas, la ecografía busca dos cosas a la vez: la translucencia nucal, y el Doppler de las arterias uterinas."
     },
     {
       "file": "s06_g02",
-      "text": "Cuello menor a veinticinco milímetros, sin antecedente de parto prematuro: progesterona vaginal. El cerclaje de entrada es la trampa, porque se reserva para otro escenario."
+      "text": "En esta ecografía hay dos marcadores distintos, y cada uno te manda por un camino distinto: ¿cuál de los dos salió alterado?"
     },
     {
       "file": "s06_g03",
-      "text": "Y si la translucencia es normal pero el Doppler de uterinas está alterado, el riesgo es de preeclampsia, no de trisomía. Pedir un cariograma aquí es confundir a qué paciente pertenece cada marcador."
+      "text": "Con un riesgo alto en la primera ecografía, ya no basta con seguir mirando: pides un estudio invasivo. Entre las once y las catorce semanas, biopsia de vellosidad corial; desde las quince o dieciséis, amniocentesis."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Con el Doppler de uterinas alterado, indicas aspirina, ciento cincuenta miligramos, tomada en la noche, y la partida antes de la semana dieciséis es lo que hace la diferencia."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si en cambio está entre las veinte y las veinticuatro semanas, la ecografía revisa la anatomía completa del feto, y además mide el cuello por vía transvaginal."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Y aquí la pregunta es sobre el cuello: ¿mide menos de veinticinco milímetros?"
+    },
+    {
+      "file": "s06_g07",
+      "text": "Con un cuello menor a veinticinco milímetros, indicas progesterona natural micronizada, doscientos miligramos cada noche, hasta la semana treinta y seis."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Si el cuello mide veinticinco milímetros o más, sigue con su control habitual, sin progesterona."
     },
     {
       "file": "s07_g00",
-      "text": "Un caso. Secundigesta de trece semanas, con antecedente de preeclampsia severa en su primer embarazo. En la ecografía de once a catorce semanas, la translucencia nucal sale en uno coma ocho milímetros, con hueso nasal presente, pero el Doppler de arterias uterinas muestra un índice de pulsatilidad sobre el percentil noventa y cinco."
+      "text": "Repasemos las trampas. Translucencia nucal aumentada: vas al estudio genético invasivo. El error es solo repetir la ecografía más adelante."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada en este control?"
+      "text": "Doppler de uterinas alterado: aspirina antes de la semana dieciséis. El error clásico es partir tarde, después de la semana veinte, cuando ya perdió gran parte de su efecto."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: indicar aspirina en la noche, pedir biopsia de vellosidad corial, indicar progesterona vaginal, pedir amniocentesis a las dieciséis semanas, o mantener el control sin intervenir. Piénsalo."
+      "text": "Cuello menor a veinticinco milímetros, sin antecedente de parto prematuro: progesterona vaginal. El cerclaje de entrada es la trampa, porque se reserva para otro escenario."
     },
     {
       "file": "s07_g03",
-      "text": "Es la A. Fíjate que la translucencia y el hueso nasal están completamente normales, así que el estudio genético no tiene ningún lugar aquí. Lo que está alterado es el Doppler de uterinas, y con el antecedente de preeclampsia previa, el riesgo de preeclampsia precoz es alto. La conducta con más evidencia es la aspirina, y tiene que partir antes de la semana dieciséis. La progesterona no aplica: eso es para el cuello corto, y aquí no se ha medido."
+      "text": "Y si la translucencia es normal pero el Doppler de uterinas está alterado, el riesgo es de preeclampsia, no de trisomía. Pedir un cariograma aquí es confundir a qué paciente pertenece cada marcador."
     },
     {
       "file": "s08_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Embarazada de doce semanas, con translucencia nucal aumentada en la ecografía."
+      "text": "Un caso. Secundigesta de trece semanas, con antecedente de preeclampsia severa en su primer embarazo. En la ecografía de once a catorce semanas, la translucencia nucal sale en uno coma ocho milímetros, con hueso nasal presente, pero el Doppler de arterias uterinas muestra un índice de pulsatilidad sobre el percentil noventa y cinco."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el examen definitivo para confirmar una trisomía veintiuno?"
+      "text": "¿Cuál es la conducta más adecuada en este control?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: biopsia de vellosidades coriales, amniocentesis, ADN fetal en sangre materna, fetoscopía, o marcadores séricos maternos. Piénsalo."
+      "text": "Las opciones: indicar aspirina en la noche, pedir biopsia de vellosidad corial, indicar progesterona vaginal, pedir amniocentesis a las dieciséis semanas, o mantener el control sin intervenir. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A. A las doce semanas estás justo en la ventana de la biopsia de vellosidades coriales, que va de las diez a las catorce semanas. La amniocentesis suena parecida, pero recién se hace desde las quince semanas en adelante: a las doce todavía no toca."
+      "text": "Es la A. Fíjate que la translucencia y el hueso nasal están completamente normales, así que el estudio genético no tiene ningún lugar aquí. Lo que está alterado es el Doppler de uterinas, y con el antecedente de preeclampsia previa, el riesgo de preeclampsia precoz es alto. La conducta con más evidencia es la aspirina, y tiene que partir antes de la semana dieciséis. La progesterona no aplica: eso es para el cuello corto, y aquí no se ha medido."
     },
     {
       "file": "s09_g00",
-      "text": "Y otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Primigesta de veintitrés años, con un embarazo de veinte semanas, a la que una ecografía transvaginal le muestra un cuello de veinte milímetros de longitud, sin otras alteraciones."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Embarazada de doce semanas, con translucencia nucal aumentada en la ecografía."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el examen definitivo para confirmar una trisomía veintiuno?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: indicar pesario cervical, iniciar progesterona vaginal, hacer cerclaje, dar corticoides sistémicos, u observar sin intervenir. Piénsalo."
+      "text": "Las opciones: biopsia de vellosidades coriales, amniocentesis, ADN fetal en sangre materna, fetoscopía, o marcadores séricos maternos. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. El cuello está bajo veinticinco milímetros, así que algo hay que hacer, y como es primigesta, sin antecedente de parto prematuro ni de incompetencia cervical, la conducta es la progesterona vaginal. El cerclaje sería la respuesta si además tuviera ese antecedente, y no es el caso."
+      "text": "Es la A. A las doce semanas estás justo en la ventana de la biopsia de vellosidades coriales, que va de las diez a las catorce semanas. La amniocentesis suena parecida, pero recién se hace desde las quince semanas en adelante: a las doce todavía no toca."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. La translucencia nucal alterada es riesgo del feto, y te lleva al estudio genético."
+      "text": "Y otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Primigesta de veintitrés años, con un embarazo de veinte semanas, a la que una ecografía transvaginal le muestra un cuello de veinte milímetros de longitud, sin otras alteraciones."
     },
     {
       "file": "s10_g01",
-      "text": "El Doppler de uterinas alterado es riesgo de la placenta, y te lleva a la aspirina, siempre antes de la semana dieciséis."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Y en la segunda ecografía, un cuello menor a veinticinco milímetros te lleva a la progesterona vaginal, hasta la semana treinta y seis."
+      "text": "Las opciones: indicar pesario cervical, iniciar progesterona vaginal, hacer cerclaje, dar corticoides sistémicos, u observar sin intervenir. Piénsalo."
     },
     {
       "file": "s10_g03",
+      "text": "Es la B. El cuello está bajo veinticinco milímetros, así que algo hay que hacer, y como es primigesta, sin antecedente de parto prematuro ni de incompetencia cervical, la conducta es la progesterona vaginal. El cerclaje sería la respuesta si además tuviera ese antecedente, y no es el caso."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. La translucencia nucal alterada es riesgo del feto, y te lleva al estudio genético."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El Doppler de uterinas alterado es riesgo de la placenta, y te lleva a la aspirina, siempre antes de la semana dieciséis."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y en la segunda ecografía, un cuello menor a veinticinco milímetros te lleva a la progesterona vaginal, hasta la semana treinta y seis."
+    },
+    {
+      "file": "s11_g03",
       "text": "Si te llevas una sola idea de hoy: la aspirina es para el Doppler de la placenta, y la progesterona es para el cuello corto. No se reemplazan entre sí. Nos vemos en la próxima clase."
     }
   ]

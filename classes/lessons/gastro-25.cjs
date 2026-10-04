@@ -254,6 +254,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_1__cto-pediatria_p68.jpg', label: 'Hirschsprung', credit: 'Manual CTO Pediatría 14.ª ed., p. 68' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_2__cto-pediatria_p68.jpg', label: 'Hirschsprung 2', credit: 'Manual CTO Pediatría 14.ª ed., p. 68' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/05_hernia-diafragmatica-congenita__cto-radiologia_p153.jpg', label: 'Hernia diafragmática congénita', credit: 'Manual CTO Radiología 14.ª ed., p. 153' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/06_malrotacion-y-volvulo__cto-radiologia_p149.jpg', label: 'Malrotación y vólvulo', credit: 'Manual CTO Radiología 14.ª ed., p. 149' },
+      ],
+      steps: [
+        { note: 'Hirschsprung',
+          say: 'Mira esta imagen: Hirschsprung. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Hirschsprung 2',
+          say: 'Mira esta imagen: hirschsprung dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Hernia diafragmática congénita',
+          say: 'Mira esta imagen: hernia diafragmática congénita. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Malrotación y vólvulo',
+          say: 'Mira esta imagen: malrotación y vólvulo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

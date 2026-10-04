@@ -270,6 +270,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_2__cto-digestivo_p216.jpg', label: 'Cabeza de medusa 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 216' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-15/04_eco-cirrosis__cto-radiologia_p42.jpg', label: 'Eco cirrosis', credit: 'Manual CTO Radiología 14.ª ed., p. 42' },
+      ],
+      steps: [
+        { note: 'Cabeza de medusa 2',
+          say: 'Mira esta imagen: cabeza de medusa dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Eco cirrosis',
+          say: 'Mira esta imagen: ECO cirrosis. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

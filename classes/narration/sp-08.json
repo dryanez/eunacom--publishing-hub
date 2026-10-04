@@ -2,7 +2,7 @@
   "id": "sp-08",
   "title": "Saludpublica 21.8: Pruebas Diagnósticas: Sensibilidad, Especificidad, VPP, VPN y Curvas ROC",
   "specialty": "Salud Pública",
-  "chars": 11499,
+  "chars": 11709,
   "segments": [
     {
       "file": "s00_g00",
@@ -83,6 +83,10 @@
     {
       "file": "s07_g00",
       "text": "Fíjate en la línea blanca: es el punto de corte. Si la corres hacia la izquierda, detectas a casi todos los enfermos, pero también marcas a muchos sanos. Si la corres a la derecha, pasa lo contrario. Cada posición es un punto en la curva ROC."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Con la misma prueba, en una población con poca enfermedad la mayoría de los positivos son falsos. En una consulta con síntomas, la mayoría son verdaderos. El valor predictivo positivo depende de la prevalencia."
     },
     {
       "file": "s08_g00",

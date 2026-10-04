@@ -146,6 +146,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-10/01_exantema-morbiliforme-dress__cto-derma_p9.jpg', label: 'Exantema morbiliforme', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
+      ],
+      steps: [
+        { note: 'Exantema morbiliforme',
+          say: 'Mira esta imagen: exantema morbiliforme. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: desde la sospecha por latencia hasta el plan de corticoides.',
     },

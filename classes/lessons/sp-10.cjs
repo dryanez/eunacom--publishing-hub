@@ -84,6 +84,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El sesgo de adelanto',
+      images: [
+        { src: 'animaciones/sp-10/A1_sesgo_adelanto.mp4', label: 'Adelanto', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La sobrevida engaña',
+          say: 'El tamizaje adelanta el diagnóstico, y la sobrevida parece más larga, aunque el paciente muera el mismo día. Por eso se mira la mortalidad.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
     },

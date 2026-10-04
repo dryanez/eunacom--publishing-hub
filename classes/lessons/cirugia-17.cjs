@@ -104,6 +104,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-17/01_fascitis-necrotizante-postoperatoria__cto-cirugia_p26.jpg', label: 'Fascitis necrotizante postoperatoria', credit: 'Manual CTO Cirugía 14.ª ed., p. 26' },
+        { src: 'biblioteca/10_cirugia/cirugia-17/02_evisceracion_etapas__usuario.jpg', label: 'Etapas de dehiscencia a evisceración', credit: 'Aportada por el usuario (enfermerabuenosaires.com, licencia por verificar)' },
+        { src: 'biblioteca/10_cirugia/cirugia-17/02_hematoma-de-herida_1__cto-cirugia_p25.jpg', label: 'Hematoma de herida', credit: 'Manual CTO Cirugía 14.ª ed., p. 25' },
+        { src: 'biblioteca/10_cirugia/cirugia-17/02_hematoma-de-herida_2__cto-cirugia_p25.jpg', label: 'Hematoma de herida 2', credit: 'Manual CTO Cirugía 14.ª ed., p. 25' },
+      ],
+      steps: [
+        { note: 'Fascitis necrotizante postoperatoria',
+          say: 'Mira esta imagen: fascitis necrotizante postoperatoria. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Etapas de dehiscencia a evisceración',
+          say: 'Mira esta imagen: etapas de dehiscencia a evisceración. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Hematoma de herida',
+          say: 'Mira esta imagen: hematoma de herida. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Hematoma de herida 2',
+          say: 'Mira esta imagen: hematoma de herida dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la herida infectada hasta la evisceración.',
     },

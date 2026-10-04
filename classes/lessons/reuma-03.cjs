@@ -230,6 +230,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales-de-urato__amir-reuma_p20.jpg', label: 'Cristales de urato', credit: 'Manual AMIR Reumatología, p. 20' },
+      ],
+      steps: [
+        { note: 'Cristales de urato',
+          say: 'Mira esta imagen: cristales de urato. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Integremos todo el enfrentamiento de las artropatías microcristalinas en un árbol de decisión.',
     },

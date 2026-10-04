@@ -150,6 +150,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-08/01_cuerpo-extrano-bronquial-rx__cto-pediatria_p59.jpg', label: 'Cuerpo extraño bronquial', credit: 'Manual CTO Pediatría 14.ª ed., p. 59' },
+      ],
+      steps: [
+        { note: 'Cuerpo extraño bronquial',
+          say: 'Mira esta imagen: cuerpo extraño bronquial. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo, desde el momento agudo hasta la fase tardía, en un solo árbol.',
     },

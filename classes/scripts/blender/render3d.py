@@ -11,9 +11,13 @@ OUT = os.path.join(HERE, '..', '..', 'media', 'animaciones')
 BLENDER = '/Applications/Blender.app/Contents/MacOS/Blender'
 FONT = '/System/Library/Fonts/Helvetica.ttc'
 CREDIT = 'Modelo 3D: BodyParts3D (DBCLS, CC BY 4.0)'
+ZCREDIT = 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D'
+SCRIPTS = {'z_parkinson': 'z_parkinson.py'}
 
 # escena: (destino, cuadros, título, subtítulo, color, [(texto, desde_s, hasta_s, x, y, color)])
 JOBS = {
+    'z_parkinson': ('neuro-11/A1_nigroestriada_3d', 144, 'Parkinson: la vía nigroestriada', 'La sustancia nigra envía dopamina al estriado; al perder sus neuronas se despigmenta', 'B388FF',
+                    [('Sustancia nigra', 0.4, 3.0, 120, 600, 'FFFFFF'), ('Estriado (caudado y putamen)', 0.4, 3.0, 700, 160, '4FA3FF'), ('Se pierden las neuronas: falta dopamina', 3.6, 6, 120, 600, 'FF5A4E')]),
     'resp14_tension': ('resp-14/A1_tension_3d', 120, 'Neumotórax a tensión', 'El aire atrapado colapsa el pulmón y empuja el mediastino al otro lado', 'FF5A4E',
                        [('Pulmón derecho colapsado', 3.2, 5, 140, 560, 'FF5A4E'), ('Mediastino desplazado', 3.2, 5, 820, 560, 'FFC247')]),
     'resp14_puncion': ('resp-14/A2_puncion_3d', 120, 'Descompresión con aguja', '2.º espacio intercostal, línea medioclavicular, sin esperar la radiografía', '3DDC84',
@@ -65,11 +69,14 @@ def render(scene, preview=False):
     have = len([f for f in os.listdir(tmp) if f.endswith('.png')]) if os.path.isdir(tmp) else 0
     if have != frames:
         shutil.rmtree(tmp, ignore_errors=True)
-        r = subprocess.run([BLENDER, '-b', '-P', os.path.join(HERE, 'anatomia3d.py'), '--', scene, tmp, str(frames)], capture_output=True, text=True)
+        if scene in SCRIPTS:
+            r = subprocess.run([BLENDER, '-b', '-P', os.path.join(HERE, SCRIPTS[scene]), '--', tmp, str(frames)], capture_output=True, text=True)
+        else:
+            r = subprocess.run([BLENDER, '-b', '-P', os.path.join(HERE, 'anatomia3d.py'), '--', scene, tmp, str(frames)], capture_output=True, text=True)
         if not os.path.isdir(tmp) or not os.listdir(tmp):
             print('FAIL', scene, r.stdout[-1200:], r.stderr[-800:]); return
     base = f'/tmp/a3d_{scene}_title.png'
-    overlay_png(base, [(title, 36, 26, 38, col, False), (sub, 36, 76, 22, '9AA0A6', False), (CREDIT, 'right', 690, 15, '6E6E73', False)])
+    overlay_png(base, [(title, 36, 26, 38, col, False), (sub, 36, 76, 22, '9AA0A6', False), (ZCREDIT if scene in SCRIPTS else CREDIT, 'right', 690, 15, '6E6E73', False)])
     inputs = ['-framerate', '24', '-i', os.path.join(tmp, 'f_%04d.png'), '-i', base]
     chain = '[0:v][1:v]overlay=0:0[v1]'
     for i, (txt, a, b, x, y, c) in enumerate(labels):

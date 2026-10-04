@@ -300,6 +300,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-06/02_glositis_ferropenia__commons.jpg', label: 'Glositis en anemia ferropénica', credit: 'Wikimedia Commons «Glossitis in Iron-deficiency Anaemia, a Thai female patient (2025).jpg», CC BY 4.0, Chainwit.' },
+      ],
+      steps: [
+        { note: 'Glositis en anemia ferropénica',
+          say: 'Mira esta imagen: glositis en anemia ferropénica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo de una anemia macrocítica.',
     },

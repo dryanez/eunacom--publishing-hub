@@ -188,6 +188,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg', label: 'Patrones rx por germen 2', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_3__cto-infecto_p56.jpg', label: 'Patrones rx por germen 3', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg', label: 'Patrones rx por germen 4', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+      ],
+      steps: [
+        { note: 'Patrones rx por germen 2',
+          say: 'Mira esta imagen: patrones rx por germen dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Patrones rx por germen 3',
+          say: 'Mira esta imagen: patrones rx por germen tres. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Patrones rx por germen 4',
+          say: 'Mira esta imagen: patrones rx por germen cuatro. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora el árbol que te dice, frente a una neumonía, si sirve el esquema habitual o necesitas otro.',
     },

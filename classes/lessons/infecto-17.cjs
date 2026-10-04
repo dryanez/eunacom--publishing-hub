@@ -167,6 +167,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_2__amir-infecto_p189.jpg', label: 'Quiste hidatidico 2', credit: 'Manual AMIR Infecciosas, p. 189' },
+      ],
+      steps: [
+        { note: 'Quiste hidatidico 2',
+          say: 'Mira esta imagen: quiste hidatidico dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos zoonosis en un árbol de decisión.',
     },

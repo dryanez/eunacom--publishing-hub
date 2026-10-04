@@ -2,7 +2,7 @@
   "id": "cirugia-12",
   "title": "Cirugia 11.12: Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
   "specialty": "Cirugía General",
-  "chars": 10567,
+  "chars": 10884,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,79 +110,71 @@
     },
     {
       "file": "s05_g00",
-      "text": "El hematoma epidural tiene forma de lente; el subdural, de media luna."
+      "text": "El hematoma epidural viene de la arteria meníngea media: crece rápido, tiene forma de lente, y el paciente puede tener un intervalo lúcido antes de deteriorarse."
     },
     {
       "file": "s05_g01",
-      "text": "Los ojos de mapache sugieren fractura de la base del cráneo anterior."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Y el signo de Battle, equimosis detrás de la oreja, sugiere fractura del hueso temporal."
+      "text": "El subdural viene de las venas puente: crece lento, en media luna, y el compromiso de conciencia avanza en días. Es típico del adulto mayor o el alcohólico."
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en el árbol de decisión del TEC. Llega un paciente tras un golpe en la cabeza. Lo primero es calcular el Glasgow, ya reanimado, porque de ahí sale todo el resto del razonamiento."
+      "text": "El hematoma epidural tiene forma de lente; el subdural, de media luna."
     },
     {
       "file": "s06_g01",
-      "text": "Con Glasgow de ocho o menos, intubas de inmediato y pides el TAC sin ninguna demora, manteniendo la presión arterial y evitando la hiperventilación."
+      "text": "Los ojos de mapache sugieren fractura de la base del cráneo anterior."
     },
     {
       "file": "s06_g02",
-      "text": "Con Glasgow quince, la decisión depende de si aparece alguna de las banderas rojas del TEC leve."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con cualquiera de estos factores, pides el TAC de urgencia, aunque el paciente parezca estar perfectamente bien."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Sin ningún factor de riesgo, observas unas horas y das de alta con indicaciones claras de cuándo volver."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Con un intervalo lúcido de horas seguido de un colapso brusco y una pupila dilatada, sospechas un hematoma epidural y vas a craneotomía urgente para evacuarlo."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Con un deterioro lento a lo largo de días en un adulto mayor, sospechas un hematoma subdural, que se opera si es grueso o desplaza mucho la línea media."
+      "text": "Y el signo de Battle, equimosis detrás de la oreja, sugiere fractura del hueso temporal."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Glasgow quince, pero mayor de sesenta y cinco años o anticoagulado: TAC de urgencia igual. Darlo de alta solo porque se ve bien es el error más caro de este tema."
+      "text": "Ahora juntemos todo en el árbol de decisión del TEC. Llega un paciente tras un golpe en la cabeza. Lo primero es calcular el Glasgow, ya reanimado, porque de ahí sale todo el resto del razonamiento."
     },
     {
       "file": "s07_g01",
-      "text": "Intervalo lúcido y después coma con una pupila dilatada: hematoma epidural, craneotomía urgente. Atribuir ese deterioro a la embriaguez o a un sedante es la trampa clásica."
+      "text": "Con Glasgow de ocho o menos, intubas de inmediato y pides el TAC sin ninguna demora, manteniendo la presión arterial y evitando la hiperventilación."
     },
     {
       "file": "s07_g02",
-      "text": "Anciano que empeora en varios días, a veces sin recordar el golpe: sospecha hematoma subdural. Buscar solo una causa metabólica o infecciosa hace perder tiempo valioso."
+      "text": "Con Glasgow quince, la decisión depende de si aparece alguna de las banderas rojas del TEC leve."
     },
     {
       "file": "s07_g03",
-      "text": "Y en el TEC grave con la presión baja, si hay herniación usas suero hipertónico. Dar manitol en ese momento empeora la hipotensión que ya tenías."
+      "text": "Con cualquiera de estos factores, pides el TAC de urgencia, aunque el paciente parezca estar perfectamente bien."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Sin ningún factor de riesgo, observas unas horas y das de alta con indicaciones claras de cuándo volver."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con un intervalo lúcido de horas seguido de un colapso brusco y una pupila dilatada, sospechas un hematoma epidural y vas a craneotomía urgente para evacuarlo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Con un deterioro lento a lo largo de días en un adulto mayor, sospechas un hematoma subdural, que se opera si es grueso o desplaza mucho la línea media."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de diecinueve años, golpeado con un palo en la sien izquierda durante un asalto. Pierde el conocimiento por un minuto, se recupera por completo, y va conversando normal en la ambulancia. Una hora y media después, en urgencias, le da una cefalea intensa, vomita, y en minutos queda en coma, con la pupila izquierda dilatada y sin reacción a la luz."
+      "text": "Repasemos las trampas. Glasgow quince, pero mayor de sesenta y cinco años o anticoagulado: TAC de urgencia igual. Darlo de alta solo porque se ve bien es el error más caro de este tema."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "Intervalo lúcido y después coma con una pupila dilatada: hematoma epidural, craneotomía urgente. Atribuir ese deterioro a la embriaguez o a un sedante es la trampa clásica."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: hemorragia subaracnoidea, hematoma epidural agudo, hematoma subdural crónico, contusión cerebral, o trombosis del seno venoso. Piénsalo."
+      "text": "Anciano que empeora en varios días, a veces sin recordar el golpe: sospecha hematoma subdural. Buscar solo una causa metabólica o infecciosa hace perder tiempo valioso."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Este caso tiene los tres tiempos exactos del hematoma epidural: pérdida de conciencia breve, un intervalo lúcido de más de una hora en el que parece estar perfecto, y después el colapso brusco con la pupila dilatada del mismo lado del golpe. El golpe en la sien es la pista que confirma la fractura temporal y la arteria meníngea media rota debajo, y esa combinación no aparece en ninguna de las otras opciones."
+      "text": "Y en el TEC grave con la presión baja, si hay herniación usas suero hipertónico. Dar manitol en ese momento empeora la hipotensión que ya tenías."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Adolescente de diecisiete años, tras un golpe en la cabeza andando en bicicleta. Al principio está sin ningún signo neurológico, con Glasgow quince. La radiografía muestra una fractura de la escama temporal. A las dos horas, le da cefalea intensa y vómitos, y luego compromiso de conciencia, con la pupila derecha dilatada y sin reacción."
+      "text": "Vamos con un caso. Hombre de diecinueve años, golpeado con un palo en la sien izquierda durante un asalto. Pierde el conocimiento por un minuto, se recupera por completo, y va conversando normal en la ambulancia. Una hora y media después, en urgencias, le da una cefalea intensa, vomita, y en minutos queda en coma, con la pupila izquierda dilatada y sin reacción a la luz."
     },
     {
       "file": "s09_g01",
@@ -190,15 +182,15 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: hematoma subdural derecho, hematoma epidural derecho, hemorragia subaracnoidea, contusión frontal, o contusión temporal. Piénsalo."
+      "text": "Tienes cinco opciones: hemorragia subaracnoidea, hematoma epidural agudo, hematoma subdural crónico, contusión cerebral, o trombosis del seno venoso. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, hematoma epidural derecho. Es exactamente el mismo patrón que ya viste: fractura temporal, un intervalo lúcido de un par de horas en que parece estar bien, y después el deterioro brusco con la pupila dilatada del mismo lado. Ese es el sello del epidural, y por eso no dudas entre las otras opciones."
+      "text": "Es la B. Este caso tiene los tres tiempos exactos del hematoma epidural: pérdida de conciencia breve, un intervalo lúcido de más de una hora en el que parece estar perfecto, y después el colapso brusco con la pupila dilatada del mismo lado del golpe. El golpe en la sien es la pista que confirma la fractura temporal y la arteria meníngea media rota debajo, y esa combinación no aparece en ninguna de las otras opciones."
     },
     {
       "file": "s10_g00",
-      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de setenta y dos años, tras una caída en bicicleta. Al principio está en buenas condiciones, sin ningún signo neurológico, y es dado de alta con indicación de reposo. Tres días después le da una cefalea progresiva, y al día siguiente se agregan vómitos y dificultad para mover el lado derecho."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Adolescente de diecisiete años, tras un golpe en la cabeza andando en bicicleta. Al principio está sin ningún signo neurológico, con Glasgow quince. La radiografía muestra una fractura de la escama temporal. A las dos horas, le da cefalea intensa y vómitos, y luego compromiso de conciencia, con la pupila derecha dilatada y sin reacción."
     },
     {
       "file": "s10_g01",
@@ -206,22 +198,38 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: hematoma epidural, hemorragia subaracnoidea, hematoma intraparenquimatoso, trombosis del seno cavernoso, o hematoma subdural. Piénsalo."
+      "text": "Las opciones son: hematoma subdural derecho, hematoma epidural derecho, hemorragia subaracnoidea, contusión frontal, o contusión temporal. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E. Fíjate en el contraste con los dos casos anteriores: aquí no hay ningún intervalo lúcido de horas, sino un deterioro que se arma en varios días, después de un golpe que al principio ni parecía grave. Ese ritmo lento, sumado a la edad avanzada, es la firma del hematoma subdural: un sangrado venoso que se acumula despacio, típico del adulto mayor con el cerebro más atrofiado."
+      "text": "Es la B, hematoma epidural derecho. Es exactamente el mismo patrón que ya viste: fractura temporal, un intervalo lúcido de un par de horas en que parece estar bien, y después el deterioro brusco con la pupila dilatada del mismo lado. Ese es el sello del epidural, y por eso no dudas entre las otras opciones."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Con fractura de base de cráneo, sesenta y cinco años o más, anticoagulado, vómitos repetidos o mecanismo de alta energía, pides el TAC igual, aunque el Glasgow sea quince."
+      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de setenta y dos años, tras una caída en bicicleta. Al principio está en buenas condiciones, sin ningún signo neurológico, y es dado de alta con indicación de reposo. Tres días después le da una cefalea progresiva, y al día siguiente se agregan vómitos y dificultad para mover el lado derecho."
     },
     {
       "file": "s11_g01",
-      "text": "El epidural avisa con un intervalo lúcido y colapsa en pocas horas; en el TAC se ve como una lente que no cruza las suturas."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
+      "text": "Las opciones son: hematoma epidural, hemorragia subaracnoidea, hematoma intraparenquimatoso, trombosis del seno cavernoso, o hematoma subdural. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E. Fíjate en el contraste con los dos casos anteriores: aquí no hay ningún intervalo lúcido de horas, sino un deterioro que se arma en varios días, después de un golpe que al principio ni parecía grave. Ese ritmo lento, sumado a la edad avanzada, es la firma del hematoma subdural: un sangrado venoso que se acumula despacio, típico del adulto mayor con el cerebro más atrofiado."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Con fractura de base de cráneo, sesenta y cinco años o más, anticoagulado, vómitos repetidos o mecanismo de alta energía, pides el TAC igual, aunque el Glasgow sea quince."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El epidural avisa con un intervalo lúcido y colapsa en pocas horas; en el TAC se ve como una lente que no cruza las suturas."
+    },
+    {
+      "file": "s12_g02",
       "text": "El subdural se demora varios días, típico del anciano; en el TAC es una semiluna que sí cruza las suturas. Si te llevas una sola idea de hoy: el ritmo del deterioro es el que te dice cuál de los dos hematomas tienes enfrente. Nos vemos en la próxima clase."
     }
   ]

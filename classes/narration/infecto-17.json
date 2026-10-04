@@ -2,7 +2,7 @@
   "id": "infecto-17",
   "title": "Infectologia 4.4: Zoonosis Chilenas Endémicas: Hidatidosis y Triquinosis",
   "specialty": "Infectología",
-  "chars": 11897,
+  "chars": 11999,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,158 +114,162 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos las dos zoonosis en un árbol de decisión. Paciente de zona rural o ganadera. La anamnesis y el primer hallazgo te dicen si estás frente a un quiste o frente a un músculo invadido."
-    },
-    {
-      "file": "s07_g01",
-      "text": "¿Encuentras un quiste en la imagen, o un cuadro agudo con edema palpebral, mialgias y fiebre?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Un quiste con camalote o vesículas hijas es hidatidosis. La pregunta que decide la urgencia es si se rompió."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Quiste intacto: albendazol de diez a quince miligramos por kilo al día, asociado a PAIR con escolicida o a una periquistectomía."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Quiste roto: el líquido hidatídico produce un shock anafiláctico grave y siembra el peritoneo. Es una emergencia vital."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Edema bipalpebral bilateral, mialgias, fiebre, eosinofilia masiva y CPK alta: triquinosis. Se notifica de inmediato, y se define si es severa."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Sin gravedad: albendazol cuatrocientos miligramos cada doce horas por diez a catorce días, o mebendazol, con analgésicos."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Con miocarditis o toxicidad sistémica: al albendazol se agregan corticoides, como la prednisona."
+      "text": "Mira esta imagen: quiste hidatidico dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Comparemos las dos, porque el examen las pone como distractor una de la otra. El contagio: la hidatidosis viene de las heces del perro; la triquinosis, del cerdo o las cecinas caseras crudas."
+      "text": "Juntemos las dos zoonosis en un árbol de decisión. Paciente de zona rural o ganadera. La anamnesis y el primer hallazgo te dicen si estás frente a un quiste o frente a un músculo invadido."
     },
     {
       "file": "s08_g01",
-      "text": "El órgano blanco: en la hidatidosis, el hígado y luego el pulmón; en la triquinosis, el músculo estriado."
+      "text": "¿Encuentras un quiste en la imagen, o un cuadro agudo con edema palpebral, mialgias y fiebre?"
     },
     {
       "file": "s08_g02",
-      "text": "La hidatidosis suele ser un quiste indoloro; la triquinosis es un cuadro agudo con la tríada."
+      "text": "Un quiste con camalote o vesículas hijas es hidatidosis. La pregunta que decide la urgencia es si se rompió."
     },
     {
       "file": "s08_g03",
-      "text": "La clave diagnóstica de la hidatidosis está en la imagen, el camalote; la de la triquinosis, en el hemograma, con la eosinofilia masiva y la CPK alta."
+      "text": "Quiste intacto: albendazol de diez a quince miligramos por kilo al día, asociado a PAIR con escolicida o a una periquistectomía."
     },
     {
       "file": "s08_g04",
-      "text": "La complicación que más se teme: en la hidatidosis, la rotura con shock anafiláctico; en la triquinosis, la miocarditis o la encefalitis por migración de larvas."
+      "text": "Quiste roto: el líquido hidatídico produce un shock anafiláctico grave y siembra el peritoneo. Es una emergencia vital."
     },
     {
       "file": "s08_g05",
-      "text": "Y el tratamiento en ambas parte con albendazol. En la hidatidosis se suma un procedimiento; en la triquinosis grave, corticoides."
+      "text": "Edema bipalpebral bilateral, mialgias, fiebre, eosinofilia masiva y CPK alta: triquinosis. Se notifica de inmediato, y se define si es severa."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Sin gravedad: albendazol cuatrocientos miligramos cada doce horas por diez a catorce días, o mebendazol, con analgésicos."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Con miocarditis o toxicidad sistémica: al albendazol se agregan corticoides, como la prednisona."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de cuarenta y cuatro años, con cuatro días de fiebre, mialgias tan severas que le cuesta caminar y masticar, y los ojos hinchados. Hace diez días comió carne de cerdo y longanizas faenadas en el campo. Tiene edema bipalpebral bilateral, dolor a la palpación muscular, cuarenta y dos por ciento de eosinófilos y la CPK elevada."
+      "text": "Comparemos las dos, porque el examen las pone como distractor una de la otra. El contagio: la hidatidosis viene de las heces del perro; la triquinosis, del cerdo o las cecinas caseras crudas."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "El órgano blanco: en la hidatidosis, el hígado y luego el pulmón; en la triquinosis, el músculo estriado."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: notificar e iniciar albendazol, pedir ecografía y serología para hidatidosis, tratar un Chagas agudo, tratar una fiebre tifoidea, o solo analgesia. Piénsalo."
+      "text": "La hidatidosis suele ser un quiste indoloro; la triquinosis es un cuadro agudo con la tríada."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la A. Cecinas caseras sin inspección, la tríada completa, y una eosinofilia masiva con la CPK alta: es una triquinosis. Se notifica de inmediato para cortar el brote y se trata con albendazol por diez a catorce días. El distractor tentador es el Chagas, porque también hay edema palpebral, pero el Chagas agudo da un edema unilateral, y aquí es bilateral."
+      "text": "La clave diagnóstica de la hidatidosis está en la imagen, el camalote; la de la triquinosis, en el hemograma, con la eosinofilia masiva y la CPK alta."
+    },
+    {
+      "file": "s09_g04",
+      "text": "La complicación que más se teme: en la hidatidosis, la rotura con shock anafiláctico; en la triquinosis, la miocarditis o la encefalitis por migración de larvas."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y el tratamiento en ambas parte con albendazol. En la hidatidosis se suma un procedimiento; en la triquinosis grave, corticoides."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Un paciente de veinticinco años, de zona rural, con siete días de cefalea, mialgias intensas y sensación febril. Está taquicárdico. Tiene cuarenta por ciento de eosinófilos, una CK de dos mil quinientos, y la ecocardiografía es compatible con una miocarditis aguda."
+      "text": "Vamos con un caso. Hombre de cuarenta y cuatro años, con cuatro días de fiebre, mialgias tan severas que le cuesta caminar y masticar, y los ojos hinchados. Hace diez días comió carne de cerdo y longanizas faenadas en el campo. Tiene edema bipalpebral bilateral, dolor a la palpación muscular, cuarenta y dos por ciento de eosinófilos y la CPK elevada."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: fasciolasis hepática, neurocisticercosis, hidatidosis, infección por Trichinella spiralis, o virus Coxsackie. Piénsalo."
+      "text": "Las opciones son: notificar e iniciar albendazol, pedir ecografía y serología para hidatidosis, tratar un Chagas agudo, tratar una fiebre tifoidea, o solo analgesia. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D, triquinosis. Mialgias, eosinofilia masiva y una CK muy alta es la combinación clásica, y aquí la larva llegó al corazón. El distractor tentador es el Coxsackie, porque es la causa típica de miocarditis viral, pero no explica cuarenta por ciento de eosinófilos. Y recuerda la conducta: por la miocarditis, al albendazol se le agregan corticoides."
+      "text": "La respuesta es la A. Cecinas caseras sin inspección, la tríada completa, y una eosinofilia masiva con la CPK alta: es una triquinosis. Se notifica de inmediato para cortar el brote y se trata con albendazol por diez a catorce días. El distractor tentador es el Chagas, porque también hay edema palpebral, pero el Chagas agudo da un edema unilateral, y aquí es bilateral."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de cuarenta años con tres meses de dolor abdominal leve e intermitente. La ecografía muestra una lesión quística en el hígado, de ocho centímetros, con paredes gruesas. Los eosinófilos están normales, en tres por ciento."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Un paciente de veinticinco años, de zona rural, con siete días de cefalea, mialgias intensas y sensación febril. Está taquicárdico. Tiene cuarenta por ciento de eosinófilos, una CK de dos mil quinientos, y la ecocardiografía es compatible con una miocarditis aguda."
     },
     {
       "file": "s11_g01",
-      "text": "¿Qué examen es el más adecuado para confirmar el diagnóstico?"
-    },
-    {
-      "file": "s11_g02",
-      "text": "Las opciones son: IgG para toxoplasma, serología para hidatidosis, serología para triquinosis, IgG para Fasciola hepática, o parasitológico seriado de deposiciones. Piénsalo."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Es la B, la serología para hidatidosis. Un quiste hepático con pared gruesa en la ecografía es un quiste hidatídico, y la serología es el examen de apoyo que lo confirma. Fíjate en el distractor escondido: los eosinófilos normales te pueden empujar a descartar un parásito, pero el quiste intacto no tiene por qué dar eosinofilia. La eosinofilia masiva es de la triquinosis."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Ahora el pulmón, con una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años con tos que se volvió productiva, con una secreción de sabor salado. Tiene matidez y menos murmullo en la base derecha, y diez por ciento de eosinófilos."
-    },
-    {
-      "file": "s12_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s11_g02",
+      "text": "Las opciones son: fasciolasis hepática, neurocisticercosis, hidatidosis, infección por Trichinella spiralis, o virus Coxsackie. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, triquinosis. Mialgias, eosinofilia masiva y una CK muy alta es la combinación clásica, y aquí la larva llegó al corazón. El distractor tentador es el Coxsackie, porque es la causa típica de miocarditis viral, pero no explica cuarenta por ciento de eosinófilos. Y recuerda la conducta: por la miocarditis, al albendazol se le agregan corticoides."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de cuarenta años con tres meses de dolor abdominal leve e intermitente. La ecografía muestra una lesión quística en el hígado, de ocho centímetros, con paredes gruesas. Los eosinófilos están normales, en tres por ciento."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Qué examen es el más adecuado para confirmar el diagnóstico?"
+    },
+    {
       "file": "s12_g02",
-      "text": "Las opciones son: derrame pleural tuberculoso, hidatidosis pulmonar, absceso pulmonar, neumonía o carcinoma broncogénico. Piénsalo."
+      "text": "Las opciones son: IgG para toxoplasma, serología para hidatidosis, serología para triquinosis, IgG para Fasciola hepática, o parasitológico seriado de deposiciones. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B, hidatidosis pulmonar. Esa expectoración de sabor salado se llama vómica: es el líquido de un quiste hidatídico que se rompió hacia un bronquio. Y calza con lo que vimos: base pulmonar, y eosinofilia. El absceso pulmonar es el distractor, pero su expectoración es purulenta y fétida, no salada."
+      "text": "Es la B, la serología para hidatidosis. Un quiste hepático con pared gruesa en la ecografía es un quiste hidatídico, y la serología es el examen de apoyo que lo confirma. Fíjate en el distractor escondido: los eosinófilos normales te pueden empujar a descartar un parásito, pero el quiste intacto no tiene por qué dar eosinofilia. La eosinofilia masiva es de la triquinosis."
     },
     {
       "file": "s13_g00",
-      "text": "Y una última pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de treinta y cuatro años con un episodio de tos intensa, con salida de abundante líquido salobre, membranas blanquecinas y restos de sangre. Su examen físico es normal."
+      "text": "Ahora el pulmón, con una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años con tos que se volvió productiva, con una secreción de sabor salado. Tiene matidez y menos murmullo en la base derecha, y diez por ciento de eosinófilos."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el examen más adecuado para iniciar el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: TAC de tórax y abdomen, parasitológico de deposiciones, radiografía de tórax, ecografía abdominal o colonoscopía. Piénsalo."
+      "text": "Las opciones son: derrame pleural tuberculoso, hidatidosis pulmonar, absceso pulmonar, neumonía o carcinoma broncogénico. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la C, la radiografía de tórax. De nuevo es una vómica, ahora con las membranas del quiste: hidatidosis pulmonar. Y aquí la pregunta no es el diagnóstico, sino el primer examen. Se parte siempre por la radiografía de tórax. La TAC es el distractor, porque es mejor examen, pero va después, igual que la ecografía abdominal para buscar un quiste en el hígado."
+      "text": "Es la B, hidatidosis pulmonar. Esa expectoración de sabor salado se llama vómica: es el líquido de un quiste hidatídico que se rompió hacia un bronquio. Y calza con lo que vimos: base pulmonar, y eosinofilia. El absceso pulmonar es el distractor, pero su expectoración es purulenta y fétida, no salada."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. La hidatidosis se contagia por los huevos de las heces del perro, y forma quistes en el hígado y luego en el pulmón."
+      "text": "Y una última pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de treinta y cuatro años con un episodio de tos intensa, con salida de abundante líquido salobre, membranas blanquecinas y restos de sangre. Su examen físico es normal."
     },
     {
       "file": "s14_g01",
-      "text": "En el hígado, el diagnóstico es ecográfico, con el signo del camalote, y la serología apoya. En el pulmón, la vómica salada y la radiografía de tórax como primer examen."
+      "text": "¿Cuál es el examen más adecuado para iniciar el estudio?"
     },
     {
       "file": "s14_g02",
-      "text": "La complicación más temida es la rotura con shock anafiláctico, y el tratamiento es albendazol más PAIR o cirugía."
+      "text": "Las opciones son: TAC de tórax y abdomen, parasitológico de deposiciones, radiografía de tórax, ecografía abdominal o colonoscopía. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la C, la radiografía de tórax. De nuevo es una vómica, ahora con las membranas del quiste: hidatidosis pulmonar. Y aquí la pregunta no es el diagnóstico, sino el primer examen. Se parte siempre por la radiografía de tórax. La TAC es el distractor, porque es mejor examen, pero va después, igual que la ecografía abdominal para buscar un quiste en el hígado."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. La hidatidosis se contagia por los huevos de las heces del perro, y forma quistes en el hígado y luego en el pulmón."
+    },
+    {
+      "file": "s15_g01",
+      "text": "En el hígado, el diagnóstico es ecográfico, con el signo del camalote, y la serología apoya. En el pulmón, la vómica salada y la radiografía de tórax como primer examen."
+    },
+    {
+      "file": "s15_g02",
+      "text": "La complicación más temida es la rotura con shock anafiláctico, y el tratamiento es albendazol más PAIR o cirugía."
+    },
+    {
+      "file": "s15_g03",
       "text": "La triquinosis viene de cecinas o cerdo sin inspección, y da la tríada: edema bipalpebral bilateral, mialgias y fiebre."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Si te llevas una sola idea de hoy: quiste con camalote es hidatidosis y su riesgo es la anafilaxia; mialgias con eosinofilia masiva es triquinosis, y ambas se tratan con albendazol. En la próxima clase seguimos con las bacteriosis zoonóticas: brucelosis, leptospirosis y fiebre tifoidea. Nos vemos en la próxima clase."
     }
   ]

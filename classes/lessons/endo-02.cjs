@@ -223,6 +223,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-02/01_clinica-del-hipotiroidismo__cto-endocrino_p55.jpg', label: 'Clínica del hipotiroidismo', credit: 'Manual CTO Endocrinología 14.ª ed., p. 55' },
+      ],
+      steps: [
+        { note: 'Clínica del hipotiroidismo',
+          say: 'Mira esta imagen: clínica del hipotiroidismo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y el tratamiento en un solo árbol.',
     },

@@ -119,6 +119,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El alvéolo inundado',
+      images: [
+        { src: 'animaciones/resp-22/A1_distres.mp4', label: 'Distrés', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Ventilación protectora',
+          say: 'En el distrés, el alvéolo se llena de líquido rico en proteínas. Se ventila con volumen corriente bajo, presión meseta bajo treinta, y PEEP alta.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Distrés respiratorio agudo',
       images: [

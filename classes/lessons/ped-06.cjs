@@ -153,6 +153,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-06/01_epiglotitis-rojo-cereza-diagnostico-dife__cto-pediatria_p50.jpg', label: 'Epiglotitis "rojo cereza"', credit: 'Manual CTO Pediatría 14.ª ed., p. 50' },
+      ],
+      steps: [
+        { note: 'Epiglotitis "rojo cereza"',
+          say: 'Mira esta imagen: epiglotitis "rojo cereza". Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el grado y el tratamiento en un solo árbol de decisión.',
     },

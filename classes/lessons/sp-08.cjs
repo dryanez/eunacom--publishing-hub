@@ -130,13 +130,16 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'El punto de corte en movimiento',
+      title: 'El punto de corte y la prevalencia',
       images: [
         { src: 'animaciones/sp-08/A1_roc_corte.mp4', label: 'Mover el corte', credit: 'Animación propia' },
+        { src: 'animaciones/sp-08/A2_vpp_prevalencia.mp4', label: 'Prevalencia', credit: 'Animación propia' },
       ],
       steps: [
         { note: 'Sensibilidad contra especificidad',
           say: 'Fíjate en la línea blanca: es el punto de corte. Si la corres hacia la izquierda, detectas a casi todos los enfermos, pero también marcas a muchos sanos. Si la corres a la derecha, pasa lo contrario. Cada posición es un punto en la curva ROC.' },
+        { note: 'El VPP cambia con la prevalencia',
+          say: 'Con la misma prueba, en una población con poca enfermedad la mayoría de los positivos son falsos. En una consulta con síntomas, la mayoría son verdaderos. El valor predictivo positivo depende de la prevalencia.' },
       ],
     },
 

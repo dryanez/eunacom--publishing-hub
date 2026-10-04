@@ -2,7 +2,7 @@
   "id": "oftal-03",
   "title": "Oftalmologia 15.3: Patología Palpebral: Orzuelo, Chalazión, Blefaritis y Dacriocistitis",
   "specialty": "Oftalmología",
-  "chars": 8680,
+  "chars": 8771,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,63 +90,51 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos los cuatro cuadros en un solo árbol: localización, dolor, y qué hacer. Paciente con un hallazgo en el párpado o cerca del canto interno. Lo primero es la localización."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Si está en el párpado, la siguiente pregunta es si duele o no. Si está en el canto interno, casi siempre es la vía lagrimal."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Nódulo agudo, eritematoso y muy doloroso en el borde palpebral: orzuelo. Compresas tibias y ungüento oftálmico antibiótico; no se punciona precozmente."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Nódulo firme, indoloro, en el espesor del tarso: chalazión. Calor local y masaje; curetaje o triamcinolona si persiste más de dos meses."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Inflamación crónica del borde palpebral, con escamas o secreción espesa en las glándulas de Meibomio: blefaritis. Higiene diaria con champú neutro, y doxiciclina oral si hay rosácea."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Masa eritematosa y dolorosa en el canto interno, con epífora y reflujo de pus: dacriocistitis aguda. Antibiótico oral sistémico y calor local; el sondaje de la vía lagrimal está contraindicado mientras dure la infección."
+      "text": "Mira esta imagen: blefaritis. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Nódulo agudo, eritematoso y muy doloroso: orzuelo, con calor local y pomada antibiótica. La trampa es puncionarlo de inmediato, en vez de esperar el drenaje espontáneo."
+      "text": "Juntemos los cuatro cuadros en un solo árbol: localización, dolor, y qué hacer. Paciente con un hallazgo en el párpado o cerca del canto interno. Lo primero es la localización."
     },
     {
       "file": "s07_g01",
-      "text": "Nódulo firme e indoloro, de semanas de evolución: chalazión. La trampa es saltarse el calor local e ir directo al curetaje, cuando lleva menos de dos meses."
+      "text": "Si está en el párpado, la siguiente pregunta es si duele o no. Si está en el canto interno, casi siempre es la vía lagrimal."
     },
     {
       "file": "s07_g02",
-      "text": "Escamas en la base de las pestañas, con ardor crónico del borde palpebral: blefaritis. La trampa es indicar solo un colirio antibiótico y olvidar que el pilar es la higiene diaria."
+      "text": "Nódulo agudo, eritematoso y muy doloroso en el borde palpebral: orzuelo. Compresas tibias y ungüento oftálmico antibiótico; no se punciona precozmente."
     },
     {
       "file": "s07_g03",
-      "text": "Y masa roja y dolorosa en el canto interno, con reflujo de pus: dacriocistitis aguda, con antibiótico oral. La trampa más peligrosa de esta clase es sondar la vía lagrimal de urgencia, pensando en destaparla de inmediato."
+      "text": "Nódulo firme, indoloro, en el espesor del tarso: chalazión. Calor local y masaje; curetaje o triamcinolona si persiste más de dos meses."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Inflamación crónica del borde palpebral, con escamas o secreción espesa en las glándulas de Meibomio: blefaritis. Higiene diaria con champú neutro, y doxiciclina oral si hay rosácea."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Masa eritematosa y dolorosa en el canto interno, con epífora y reflujo de pus: dacriocistitis aguda. Antibiótico oral sistémico y calor local; el sondaje de la vía lagrimal está contraindicado mientras dure la infección."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Mujer de treinta años, con un nódulo doloroso y eritematoso de tres días, en el párpado superior derecho, en la base de una pestaña. Sin fiebre ni baja de visión. Al examen: una pústula pequeña y sensible en el borde palpebral, sin compromiso de la conjuntiva tarsal."
+      "text": "Repasemos las trampas. Nódulo agudo, eritematoso y muy doloroso: orzuelo, con calor local y pomada antibiótica. La trampa es puncionarlo de inmediato, en vez de esperar el drenaje espontáneo."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Nódulo firme e indoloro, de semanas de evolución: chalazión. La trampa es saltarse el calor local e ir directo al curetaje, cuando lleva menos de dos meses."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: punción y drenaje inmediato, compresas tibias con ungüento antibiótico, curetaje quirúrgico, triamcinolona intralesional, o colirio de corticoide. Piénsalo."
+      "text": "Escamas en la base de las pestañas, con ardor crónico del borde palpebral: blefaritis. La trampa es indicar solo un colirio antibiótico y olvidar que el pilar es la higiene diaria."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Agudo, eritematoso y muy doloroso, en la base de una pestaña: es un orzuelo. Compresas tibias para favorecer el drenaje, más un ungüento antibiótico. Ni el curetaje ni la triamcinolona corresponden aquí, porque son manejo del chalazión, un cuadro crónico e indoloro. Y la punción precoz solo agrega otra puerta de entrada a la infección."
+      "text": "Y masa roja y dolorosa en el canto interno, con reflujo de pus: dacriocistitis aguda, con antibiótico oral. La trampa más peligrosa de esta clase es sondar la vía lagrimal de urgencia, pensando en destaparla de inmediato."
     },
     {
       "file": "s09_g00",
-      "text": "Pregunta real, del EUNACOM de julio de dos mil quince. Una paciente de sesenta años, que ya estaba en espera de cirugía por obstrucción crónica del conducto nasolagrimal, presenta ahora aumento de volumen en la zona medial del ojo derecho, con dolor, eritema y lagrimeo continuo."
+      "text": "Vamos al caso. Mujer de treinta años, con un nódulo doloroso y eritematoso de tres días, en el párpado superior derecho, en la base de una pestaña. Sin fiebre ni baja de visión. Al examen: una pústula pequeña y sensible en el borde palpebral, sin compromiso de la conjuntiva tarsal."
     },
     {
       "file": "s09_g01",
@@ -154,38 +142,54 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: antibióticos orales, masajes y compresiones locales, corticoides tópicos, antibióticos en colirio, o resolver quirúrgicamente. Piénsalo."
+      "text": "Las opciones son: punción y drenaje inmediato, compresas tibias con ungüento antibiótico, curetaje quirúrgico, triamcinolona intralesional, o colirio de corticoide. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, antibióticos orales. Fíjate cómo se arma la pregunta: te dice que ya tenía una obstrucción crónica, y ahora se agrega dolor y eritema, es decir, se infectó. Eso es justamente la dacriocistitis aguda sobre una dacrioestenosis previa. Y como vimos, en fase aguda no se opera ni se sonda: primero el antibiótico oral, y la cirugía definitiva queda para después, con el paciente ya sin infección activa."
+      "text": "Es la B. Agudo, eritematoso y muy doloroso, en la base de una pestaña: es un orzuelo. Compresas tibias para favorecer el drenaje, más un ungüento antibiótico. Ni el curetaje ni la triamcinolona corresponden aquí, porque son manejo del chalazión, un cuadro crónico e indoloro. Y la punción precoz solo agrega otra puerta de entrada a la infección."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con un caso representativo del banco. Un hombre de cuarenta y dos años consulta por un nódulo firme en el párpado superior derecho, de seis semanas de evolución. Hace dos meses tuvo un cuadro inflamatorio doloroso que se resolvió solo, y le quedó esta lesión que no le duele nada. Al examen: un nódulo subcutáneo redondeado de cinco milímetros en el tarso superior, no adherido a la piel, e indoloro."
+      "text": "Pregunta real, del EUNACOM de julio de dos mil quince. Una paciente de sesenta años, que ya estaba en espera de cirugía por obstrucción crónica del conducto nasolagrimal, presenta ahora aumento de volumen en la zona medial del ojo derecho, con dolor, eritema y lagrimeo continuo."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: orzuelo interno agudo, chalazión, carcinoma sebáceo de párpado, dacriocistitis crónica, o quiste de inclusión epidérmica. Piénsalo."
+      "text": "Las opciones: antibióticos orales, masajes y compresiones locales, corticoides tópicos, antibióticos en colirio, o resolver quirúrgicamente. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es chalazión. Fíjate en el patrón completo: un orzuelo previo que se resolvió, y ahora un nódulo firme, crónico e indoloro. Es exactamente la secuencia que vimos al principio de la clase: la infección aguda deja atrás una obstrucción glandular que se convierte en granuloma. El carcinoma sebáceo sería la trampa solo si este paciente fuera mayor y el chalazión recidivara varias veces con pérdida de pestañas, algo que aquí no ocurre."
+      "text": "Es la A, antibióticos orales. Fíjate cómo se arma la pregunta: te dice que ya tenía una obstrucción crónica, y ahora se agrega dolor y eritema, es decir, se infectó. Eso es justamente la dacriocistitis aguda sobre una dacrioestenosis previa. Y como vimos, en fase aguda no se opera ni se sonda: primero el antibiótico oral, y la cirugía definitiva queda para después, con el paciente ya sin infección activa."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Un nódulo palpebral agudo y doloroso es orzuelo; crónico e indoloro es chalazión. Es la misma glándula, pero infección activa o retención sin infección."
+      "text": "Cerremos con un caso representativo del banco. Un hombre de cuarenta y dos años consulta por un nódulo firme en el párpado superior derecho, de seis semanas de evolución. Hace dos meses tuvo un cuadro inflamatorio doloroso que se resolvió solo, y le quedó esta lesión que no le duele nada. Al examen: un nódulo subcutáneo redondeado de cinco milímetros en el tarso superior, no adherido a la piel, e indoloro."
     },
     {
       "file": "s11_g01",
-      "text": "En la blefaritis, la higiene palpebral diaria con champú neutro va antes que cualquier colirio antibiótico."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
+      "text": "Las opciones: orzuelo interno agudo, chalazión, carcinoma sebáceo de párpado, dacriocistitis crónica, o quiste de inclusión epidérmica. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es chalazión. Fíjate en el patrón completo: un orzuelo previo que se resolvió, y ahora un nódulo firme, crónico e indoloro. Es exactamente la secuencia que vimos al principio de la clase: la infección aguda deja atrás una obstrucción glandular que se convierte en granuloma. El carcinoma sebáceo sería la trampa solo si este paciente fuera mayor y el chalazión recidivara varias veces con pérdida de pestañas, algo que aquí no ocurre."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Un nódulo palpebral agudo y doloroso es orzuelo; crónico e indoloro es chalazión. Es la misma glándula, pero infección activa o retención sin infección."
+    },
+    {
+      "file": "s12_g01",
+      "text": "En la blefaritis, la higiene palpebral diaria con champú neutro va antes que cualquier colirio antibiótico."
+    },
+    {
+      "file": "s12_g02",
       "text": "Y si te llevas una sola idea de hoy: una masa roja y dolorosa en el canto interno, con lagrimeo, es dacriocistitis aguda, se trata con antibiótico oral, y jamás se sonda la vía lagrimal mientras esté activa la infección. Nos vemos en la próxima clase, donde vamos a la córnea."
     }
   ]

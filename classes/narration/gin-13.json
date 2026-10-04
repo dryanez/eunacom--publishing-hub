@@ -2,7 +2,7 @@
   "id": "gin-13",
   "title": "Ginecologia 20.13: Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
   "specialty": "Ginecología",
-  "chars": 11513,
+  "chars": 11721,
   "segments": [
     {
       "file": "s00_g00",
@@ -134,87 +134,75 @@
     },
     {
       "file": "s08_g00",
-      "text": "Tras el ácido acético, la lesión de bajo grado se ve blanca brillante, de bordes irregulares."
-    },
-    {
-      "file": "s08_g01",
-      "text": "La de alto grado es blanca opaca, con vasos gruesos. Se biopsia."
+      "text": "La infección por VPH suele eliminarse. Si persiste, aparece una lesión de bajo grado, luego de alto grado, y finalmente un cáncer que atraviesa la membrana basal. El PAP detecta las lesiones antes del cáncer."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora juntemos todo el razonamiento, desde el PAP alterado hasta la decisión final, en un solo árbol. Paciente con un Papanicolau alterado. La categoría de Bethesda es lo que abre el árbol de decisión completo."
+      "text": "Tras el ácido acético, la lesión de bajo grado se ve blanca brillante, de bordes irregulares."
     },
     {
       "file": "s09_g01",
-      "text": "Con ASC-US o lesión de bajo grado, el paso es buscar el virus. Pero solo el dieciséis y el dieciocho, positivos, adelantan la colposcopía."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Si el test es negativo, o es otro genotipo de alto riesgo con Papanicolau normal, controlas en seis a doce meses."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Con dieciséis o dieciocho positivo, colposcopía y biopsia."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Con lesión de alto grado, ASC-H, o células glandulares atípicas, te saltas el test de virus: la colposcopía es inmediata, con plazo GES de menos de treinta días."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Si la biopsia confirma NIE dos o NIE tres, el tratamiento es la conización, con asa eléctrica o con bisturí."
-    },
-    {
-      "file": "s09_g06",
-      "text": "Si la biopsia ya muestra cáncer invasor, todo depende de si el tumor tocó el parametrio."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Sin invasión del parametrio, cirugía radical: histerectomía con linfadenectomía pélvica."
-    },
-    {
-      "file": "s09_g08",
-      "text": "Con el parametrio invadido, quimiorradioterapia con cisplatino, radioterapia y braquiterapia. Operar ahí es la trampa clásica del tema."
+      "text": "La de alto grado es blanca opaca, con vasos gruesos. Se biopsia."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas. ASC-US en una mayor de treinta: se pide el test de VPH, no una colposcopía de entrada."
+      "text": "Ahora juntemos todo el razonamiento, desde el PAP alterado hasta la decisión final, en un solo árbol. Paciente con un Papanicolau alterado. La categoría de Bethesda es lo que abre el árbol de decisión completo."
     },
     {
       "file": "s10_g01",
-      "text": "Si el VPH es positivo pero no es dieciséis ni dieciocho, y el Papanicolau es normal, se controla, no se deriva de inmediato."
+      "text": "Con ASC-US o lesión de bajo grado, el paso es buscar el virus. Pero solo el dieciséis y el dieciocho, positivos, adelantan la colposcopía."
     },
     {
       "file": "s10_g02",
-      "text": "Con lesión de alto grado, ASC-H, o células glandulares atípicas, la colposcopía es inmediata. Repetir el PAP solo retrasa el diagnóstico."
+      "text": "Si el test es negativo, o es otro genotipo de alto riesgo con Papanicolau normal, controlas en seis a doce meses."
     },
     {
       "file": "s10_g03",
-      "text": "NIE dos o NIE tres se trata con conización. Ir directo a una histerectomía es un exceso terapéutico."
+      "text": "Con dieciséis o dieciocho positivo, colposcopía y biopsia."
     },
     {
       "file": "s10_g04",
-      "text": "Y desde el estadio dos B en adelante, quimiorradioterapia. Operar ahí es la trampa más clásica de todo el tema."
+      "text": "Con lesión de alto grado, ASC-H, o células glandulares atípicas, te saltas el test de virus: la colposcopía es inmediata, con plazo GES de menos de treinta días."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si la biopsia confirma NIE dos o NIE tres, el tratamiento es la conización, con asa eléctrica o con bisturí."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si la biopsia ya muestra cáncer invasor, todo depende de si el tumor tocó el parametrio."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Sin invasión del parametrio, cirugía radical: histerectomía con linfadenectomía pélvica."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Con el parametrio invadido, quimiorradioterapia con cisplatino, radioterapia y braquiterapia. Operar ahí es la trampa clásica del tema."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Mujer de cuarenta y seis años, en control de salud sexual, que cuenta un sangrado escaso después de las relaciones sexuales desde hace dos meses. Su último Papanicolau, hace ocho meses, fue normal. Al examen con espéculo se ve una lesión que sangra fácil al tocarla, de un centímetro y medio, en el labio anterior del cuello uterino."
+      "text": "Repasemos las trampas. ASC-US en una mayor de treinta: se pide el test de VPH, no una colposcopía de entrada."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Si el VPH es positivo pero no es dieciséis ni dieciocho, y el Papanicolau es normal, se controla, no se deriva de inmediato."
     },
     {
       "file": "s11_g02",
-      "text": "Tienes cinco opciones: repetir el Papanicolau ahora, hacer colposcopía con biopsia dirigida, pedir la tipificación del virus papiloma humano, dar antibióticos y controlar en un mes, o programar una histerectomía sin biopsia previa. Piénsalo."
+      "text": "Con lesión de alto grado, ASC-H, o células glandulares atípicas, la colposcopía es inmediata. Repetir el PAP solo retrasa el diagnóstico."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Fíjate que aquí ya hay una lesión visible, así que el Papanicolau ya no aporta nada: cuando ves la lesión, biopsias directo, en la misma colposcopía. La tipificación de virus no cambia nada frente a una lesión que ya se ve. Y operar sin biopsia previa, sin saber si es invasor o qué tan invasor, es un error grave."
+      "text": "NIE dos o NIE tres se trata con conización. Ir directo a una histerectomía es un exceso terapéutico."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y desde el estadio dos B en adelante, quimiorradioterapia. Operar ahí es la trampa más clásica de todo el tema."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Mujer de treinta y cuatro años, con la vacuna contra el VPH completa, se realiza un Papanicolau, que sale normal, sin atipías, y una prueba de VPH que resulta positiva para un serotipo de alto riesgo, el cincuenta y seis."
+      "text": "Vamos con un caso. Mujer de cuarenta y seis años, en control de salud sexual, que cuenta un sangrado escaso después de las relaciones sexuales desde hace dos meses. Su último Papanicolau, hace ocho meses, fue normal. Al examen con espéculo se ve una lesión que sangra fácil al tocarla, de un centímetro y medio, en el labio anterior del cuello uterino."
     },
     {
       "file": "s12_g01",
@@ -222,15 +210,15 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: reforzar la vacuna, controlar el PAP en un año, hacer colposcopía, repetir el PAP ahora mismo, o hacer una conización cervical. Piénsalo."
+      "text": "Tienes cinco opciones: repetir el Papanicolau ahora, hacer colposcopía con biopsia dirigida, pedir la tipificación del virus papiloma humano, dar antibióticos y controlar en un mes, o programar una histerectomía sin biopsia previa. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B. Este es justo el matiz que vimos: el dieciséis y el dieciocho van directo a colposcopía si salen positivos, pero el cincuenta y seis es otro genotipo de alto riesgo, y con el Papanicolau normal, la conducta es controlar en un año, no derivar de inmediato."
+      "text": "Es la B. Fíjate que aquí ya hay una lesión visible, así que el Papanicolau ya no aporta nada: cuando ves la lesión, biopsias directo, en la misma colposcopía. La tipificación de virus no cambia nada frente a una lesión que ya se ve. Y operar sin biopsia previa, sin saber si es invasor o qué tan invasor, es un error grave."
     },
     {
       "file": "s13_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y cinco años, con un hijo, se hace un Papanicolau de control que informa atipia escamosa de significado indeterminado, un ASC-US. Su especuloscopía es normal."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Mujer de treinta y cuatro años, con la vacuna contra el VPH completa, se realiza un Papanicolau, que sale normal, sin atipías, y una prueba de VPH que resulta positiva para un serotipo de alto riesgo, el cincuenta y seis."
     },
     {
       "file": "s13_g01",
@@ -238,15 +226,15 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: colposcopía y biopsia, pedir la prueba de VPH, hacer diatermocoagulación, hacer histerectomía, o biopsiar el endometrio. Piénsalo."
+      "text": "Las opciones: reforzar la vacuna, controlar el PAP en un año, hacer colposcopía, repetir el PAP ahora mismo, o hacer una conización cervical. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. Con un ASC-US, el paso siguiente es buscar el virus, no ir directo a colposcopía. Si el test sale positivo para un genotipo de alto riesgo, ahí recién se deriva a colposcopía y biopsia. Sin esa prueba de por medio, todas las demás opciones se adelantan al paso que corresponde."
+      "text": "Es la B. Este es justo el matiz que vimos: el dieciséis y el dieciocho van directo a colposcopía si salen positivos, pero el cincuenta y seis es otro genotipo de alto riesgo, y con el Papanicolau normal, la conducta es controlar en un año, no derivar de inmediato."
     },
     {
       "file": "s14_g00",
-      "text": "Una más, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veinticinco años, con inicio sexual a los catorce años y múltiples parejas sin métodos de barrera, se hace un Papanicolau que informa lesión de alto grado. Además, la tipificación del virus muestra un serotipo de bajo grado."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta y cinco años, con un hijo, se hace un Papanicolau de control que informa atipia escamosa de significado indeterminado, un ASC-US. Su especuloscopía es normal."
     },
     {
       "file": "s14_g01",
@@ -254,30 +242,46 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: repetir el PAP en seis meses, repetirlo en seis años, hacer colposcopía y eventual biopsia, hacer conización, o hacer histerectomía. Piénsalo."
+      "text": "Las opciones: colposcopía y biopsia, pedir la prueba de VPH, hacer diatermocoagulación, hacer histerectomía, o biopsiar el endometrio. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C. Fíjate en la trampa: el resultado del virus es de bajo grado, pero eso no importa aquí, porque el Papanicolau ya viene como lesión de alto grado. Y un Papanicolau de alto grado siempre va a colposcopía y biopsia, sin que la tipificación del virus cambie nada."
+      "text": "Es la B. Con un ASC-US, el paso siguiente es buscar el virus, no ir directo a colposcopía. Si el test sale positivo para un genotipo de alto riesgo, ahí recién se deriva a colposcopía y biopsia. Sin esa prueba de por medio, todas las demás opciones se adelantan al paso que corresponde."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. El Papanicolau se hace cada tres años, entre los veinticinco y los sesenta y cuatro."
+      "text": "Una más, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veinticinco años, con inicio sexual a los catorce años y múltiples parejas sin métodos de barrera, se hace un Papanicolau que informa lesión de alto grado. Además, la tipificación del virus muestra un serotipo de bajo grado."
     },
     {
       "file": "s15_g01",
-      "text": "Y solo el dieciséis y el dieciocho, con Papanicolau alterado, van directo a colposcopía. Los demás genotipos, con Papanicolau normal, se controlan."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s15_g02",
-      "text": "El NIE dos y el NIE tres se tratan con conización, y los márgenes libres son los que confirman la cura."
+      "text": "Las opciones: repetir el PAP en seis meses, repetirlo en seis años, hacer colposcopía y eventual biopsia, hacer conización, o hacer histerectomía. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la C. Fíjate en la trampa: el resultado del virus es de bajo grado, pero eso no importa aquí, porque el Papanicolau ya viene como lesión de alto grado. Y un Papanicolau de alto grado siempre va a colposcopía y biopsia, sin que la tipificación del virus cambie nada."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. El Papanicolau se hace cada tres años, entre los veinticinco y los sesenta y cuatro."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Y solo el dieciséis y el dieciocho, con Papanicolau alterado, van directo a colposcopía. Los demás genotipos, con Papanicolau normal, se controlan."
+    },
+    {
+      "file": "s16_g02",
+      "text": "El NIE dos y el NIE tres se tratan con conización, y los márgenes libres son los que confirman la cura."
+    },
+    {
+      "file": "s16_g03",
       "text": "Sin invasión del parametrio, cirugía radical."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "Con parametrio invadido, quimiorradioterapia, y la cirugía queda contraindicada. Si te llevas una sola idea de hoy: el parametrio es la frontera entre operar y no operar. Nos vemos en la próxima clase."
     }
   ]

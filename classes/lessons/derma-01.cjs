@@ -203,6 +203,83 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-01/01_papula-purpura-palpable__cto-derma_p8.jpg', label: 'Pápula y púrpura palpable', credit: 'Manual CTO Dermatología 14.ª ed., p. 8' },
+        { src: 'biblioteca/11_dermatologia/derma-01/02_liquenificacion__cto-derma_p9.jpg', label: 'Liquenificación', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
+        { src: 'biblioteca/11_dermatologia/derma-01/03_exantema-maculopapular__cto-derma_p9.jpg', label: 'Exantema maculopapular', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
+        { src: 'biblioteca/11_dermatologia/derma-01/04_vesicula__cto-derma_p16.jpg', label: 'Vesícula', credit: 'Manual CTO Dermatología 14.ª ed., p. 16' },
+      ],
+      steps: [
+        { note: 'Pápula y púrpura palpable',
+          say: 'Mira esta imagen: pápula y púrpura palpable. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Liquenificación',
+          say: 'Mira esta imagen: liquenificación. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Exantema maculopapular',
+          say: 'Mira esta imagen: exantema maculopapular. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Vesícula',
+          say: 'Mira esta imagen: vesícula. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-01/05_ampolla__cto-derma_p72.jpg', label: 'Ampolla', credit: 'Manual CTO Dermatología 14.ª ed., p. 72' },
+        { src: 'biblioteca/11_dermatologia/derma-01/06_pustula__amir-derma_p40.jpg', label: 'Pústula', credit: 'Manual AMIR Dermatología, p. 40' },
+        { src: 'biblioteca/11_dermatologia/derma-01/07_habon__cto-derma_p49.jpg', label: 'Habón', credit: 'Manual CTO Dermatología 14.ª ed., p. 49' },
+        { src: 'biblioteca/11_dermatologia/derma-01/08_erosion__amir-derma_p56.jpg', label: 'Erosión', credit: 'Manual AMIR Dermatología, p. 56' },
+      ],
+      steps: [
+        { note: 'Ampolla',
+          say: 'Mira esta imagen: ampolla. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Pústula',
+          say: 'Mira esta imagen: pústula. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Habón',
+          say: 'Mira esta imagen: habón. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Erosión',
+          say: 'Mira esta imagen: erosión. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-01/09_ulcera__amir-derma_p21.jpg', label: 'Úlcera', credit: 'Manual AMIR Dermatología, p. 21' },
+        { src: 'biblioteca/11_dermatologia/derma-01/10_papula-umbilicada__amir-derma_p61.jpg', label: 'Pápula umbilicada', credit: 'Manual AMIR Dermatología, p. 61' },
+      ],
+      steps: [
+        { note: 'Úlcera',
+          say: 'Mira esta imagen: úlcera. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Pápula umbilicada',
+          say: 'Mira esta imagen: pápula umbilicada. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde está cada lesión',
+      images: [
+        { src: 'animaciones/derma-01/A1_lesiones_capas.mp4', label: 'Lesiones elementales', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Profundidad y contenido',
+          say: 'La mácula es plana. La pápula es sólida y pequeña. La vesícula y la ampolla tienen líquido, y se separan por el tamaño. La pústula tiene pus.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -132,6 +132,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La placentación',
+      images: [
+        { src: 'animaciones/ob-05/A1_placentacion.mp4', label: 'Arterias espirales', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Anchas o estrechas',
+          say: 'En el embarazo normal, las arterias espirales se ensanchan y la placenta recibe mucha sangre. En la preeclampsia no se remodelan, quedan estrechas, y la placenta isquémica daña el endotelio materno.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las tres categorías en un solo árbol de decisión.',
     },

@@ -173,6 +173,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg', label: 'Tbc miliar', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' },
+      ],
+      steps: [
+        { note: 'Tbc miliar',
+          say: 'Mira esta imagen: TBC miliar. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos el diagnóstico y el tratamiento en un solo árbol.',
     },

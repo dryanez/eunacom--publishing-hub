@@ -170,6 +170,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-11/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' },
+      ],
+      steps: [
+        { note: 'Rotura esplénica',
+          say: 'Mira esta imagen: rotura esplénica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de decisión del trauma abdominal.',
     },

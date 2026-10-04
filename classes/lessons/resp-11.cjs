@@ -150,6 +150,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Trasudado o exudado',
+      images: [
+        { src: 'animaciones/resp-11/A1_trasudado_exudado.mp4', label: 'Light', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Presión o permeabilidad',
+          say: 'En el trasudado pasa solo agua, por presión, como en la insuficiencia cardíaca. En el exudado la pleura está dañada y pasan también proteínas. Con un solo criterio de Light, es exudado.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Derrame pleural',
       images: [

@@ -199,6 +199,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg', label: 'Pólipo pediculado', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_2__cto-digestivo_p119.jpg', label: 'Polipo pediculado 2', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
+      ],
+      steps: [
+        { note: 'Pólipo pediculado',
+          say: 'Mira esta imagen: pólipo pediculado. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Polipo pediculado 2',
+          say: 'Mira esta imagen: polipo pediculado dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

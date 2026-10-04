@@ -2,7 +2,7 @@
   "id": "sp-07",
   "title": "Saludpublica 21.7: Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
   "specialty": "Salud Pública",
-  "chars": 10679,
+  "chars": 10849,
   "segments": [
     {
       "file": "s00_g00",
@@ -78,118 +78,122 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora ordenemos el razonamiento completo, tal como se arma en el examen. El diseño del estudio, no tu preferencia, decide qué fórmula corresponde calcular."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Uno significa sin asociación, mayor a uno factor de riesgo, menor a uno factor protector."
-    },
-    {
-      "file": "s07_g02",
-      "text": "La reducción absoluta es la resta de riesgos; el número necesario a tratar es uno dividido en esa resta, redondeado hacia arriba."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Se aproxima al Riesgo Relativo cuando la enfermedad es rara; es la única medida calculable en este diseño."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si el intervalo incluye el valor nulo, el resultado no es estadísticamente significativo, sin importar cuán llamativo se vea el número puntual."
+      "text": "Con la tabla se calcula el riesgo en cada grupo, el riesgo relativo, la reducción absoluta, y el número necesario a tratar, que es uno dividido por la reducción absoluta."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos con una tabla final. Si te preguntan cuántas veces más riesgo hay, y los datos vienen de una cohorte o un ensayo, la medida correcta es el Riesgo Relativo. El error clásico es usar el Odds Ratio cuando el diseño no es casos y controles."
+      "text": "Ahora ordenemos el razonamiento completo, tal como se arma en el examen. El diseño del estudio, no tu preferencia, decide qué fórmula corresponde calcular."
     },
     {
       "file": "s08_g01",
-      "text": "Si el estudio es de casos y controles, la medida es el Odds Ratio. El error clásico es leer un Odds Ratio de uno coma tres como si fuera un treinta por ciento más de riesgo real: es una razón de momios, no una incidencia."
+      "text": "Uno significa sin asociación, mayor a uno factor de riesgo, menor a uno factor protector."
     },
     {
       "file": "s08_g02",
-      "text": "Si te preguntan por el beneficio real de un tratamiento, la medida es la reducción absoluta y el número necesario a tratar. El error clásico es quedarse solo con la reducción relativa, que siempre parece más grande e impresionante."
+      "text": "La reducción absoluta es la resta de riesgos; el número necesario a tratar es uno dividido en esa resta, redondeado hacia arriba."
     },
     {
       "file": "s08_g03",
-      "text": "Y si te preguntan si un resultado es significativo, revisa si el intervalo de confianza incluye el valor nulo. El error clásico es mirar solo el número puntual, como uno coma tres, e ignorar que su intervalo pasa por el uno."
+      "text": "Se aproxima al Riesgo Relativo cuando la enfermedad es rara; es la única medida calculable en este diseño."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si el intervalo incluye el valor nulo, el resultado no es estadísticamente significativo, sin importar cuán llamativo se vea el número puntual."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Un ensayo clínico aleatorizado compara un nuevo antiagregante plaquetario contra aspirina, para prevenir un accidente cerebrovascular isquémico recurrente a dos años. La incidencia acumulada de accidente cerebrovascular fue de doce por ciento con aspirina, y de ocho por ciento con el nuevo fármaco."
+      "text": "Repasemos con una tabla final. Si te preguntan cuántas veces más riesgo hay, y los datos vienen de una cohorte o un ensayo, la medida correcta es el Riesgo Relativo. El error clásico es usar el Odds Ratio cuando el diseño no es casos y controles."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el número necesario a tratar con el nuevo fármaco para evitar un accidente cerebrovascular?"
+      "text": "Si el estudio es de casos y controles, la medida es el Odds Ratio. El error clásico es leer un Odds Ratio de uno coma tres como si fuera un treinta por ciento más de riesgo real: es una razón de momios, no una incidencia."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: veinticinco pacientes, ocho pacientes, doce pacientes, treinta y tres pacientes, o cuatro pacientes. Piénsalo."
+      "text": "Si te preguntan por el beneficio real de un tratamiento, la medida es la reducción absoluta y el número necesario a tratar. El error clásico es quedarse solo con la reducción relativa, que siempre parece más grande e impresionante."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, veinticinco. Primero la reducción absoluta: doce menos ocho, cuatro puntos porcentuales, es decir cero coma cero cuatro. Y el número necesario a tratar es uno dividido en esa reducción absoluta: uno dividido en cero coma cero cuatro, veinticinco. La trampa es confundir el cuatro por ciento de reducción absoluta con el número necesario a tratar: son cosas distintas, y hay que invertir la fracción."
+      "text": "Y si te preguntan si un resultado es significativo, revisa si el intervalo de confianza incluye el valor nulo. El error clásico es mirar solo el número puntual, como uno coma tres, e ignorar que su intervalo pasa por el uno."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Un estudio de casos y controles busca la asociación entre distintos factores y el cáncer de tiroides, entregando el Odds Ratio y su intervalo de confianza de cada uno: antecedentes familiares, edad, sexo masculino, exposición a radiación, y tiroiditis de Hashimoto."
+      "text": "Vamos con un caso. Un ensayo clínico aleatorizado compara un nuevo antiagregante plaquetario contra aspirina, para prevenir un accidente cerebrovascular isquémico recurrente a dos años. La incidencia acumulada de accidente cerebrovascular fue de doce por ciento con aspirina, y de ocho por ciento con el nuevo fármaco."
     },
     {
       "file": "s10_g01",
-      "text": "¿Qué factor es más importante en esta asociación?"
+      "text": "¿Cuál es el número necesario a tratar con el nuevo fármaco para evitar un accidente cerebrovascular?"
     },
     {
       "file": "s10_g02",
-      "text": "Cada opción trae su Odds Ratio y su intervalo de confianza: antecedentes familiares con uno coma ochenta y ocho, edad con dos coma seis, sexo masculino con cero coma cincuenta y seis, exposición a radiación con uno coma cincuenta y dos, y tiroiditis de Hashimoto con cuatro coma seis. Revisa con calma cada intervalo."
+      "text": "Las opciones: veinticinco pacientes, ocho pacientes, doce pacientes, treinta y tres pacientes, o cuatro pacientes. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, sexo masculino. La trampa es dejarte deslumbrar por el Odds Ratio más alto, la tiroiditis de Hashimoto con cuatro coma seis, pero su intervalo va de cero coma siete a seis coma dos y cruza el uno: no es significativo, igual que los otros tres. Solo el sexo masculino tiene un intervalo que no cruza el uno y es menor a uno en ambos extremos, así que es un factor protector real y significativo."
+      "text": "Es la A, veinticinco. Primero la reducción absoluta: doce menos ocho, cuatro puntos porcentuales, es decir cero coma cero cuatro. Y el número necesario a tratar es uno dividido en esa reducción absoluta: uno dividido en cero coma cero cuatro, veinticinco. La trampa es confundir el cuatro por ciento de reducción absoluta con el número necesario a tratar: son cosas distintas, y hay que invertir la fracción."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Buscan la medida de asociación más adecuada para establecer cuántas veces aumentan los casos de asma en la población fumadora, comparada con la no fumadora."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Un estudio de casos y controles busca la asociación entre distintos factores y el cáncer de tiroides, entregando el Odds Ratio y su intervalo de confianza de cada uno: antecedentes familiares, edad, sexo masculino, exposición a radiación, y tiroiditis de Hashimoto."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál de las siguientes medidas de asociación es la más adecuada?"
+      "text": "¿Qué factor es más importante en esta asociación?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: riesgo relativo, riesgo atribuible, razón de prevalencias, tasa de incidencia, o riesgo atribuible porcentual."
+      "text": "Cada opción trae su Odds Ratio y su intervalo de confianza: antecedentes familiares con uno coma ochenta y ocho, edad con dos coma seis, sexo masculino con cero coma cincuenta y seis, exposición a radiación con uno coma cincuenta y dos, y tiroiditis de Hashimoto con cuatro coma seis. Revisa con calma cada intervalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, riesgo relativo. La palabra clave es cuántas veces más: eso es exactamente lo que expresa una razón, como el Riesgo Relativo, la incidencia en expuestos dividida en la incidencia en no expuestos. El riesgo atribuible y su versión porcentual son medidas de impacto poblacional, no de cuántas veces más frecuente es el evento."
+      "text": "Es la C, sexo masculino. La trampa es dejarte deslumbrar por el Odds Ratio más alto, la tiroiditis de Hashimoto con cuatro coma seis, pero su intervalo va de cero coma siete a seis coma dos y cruza el uno: no es significativo, igual que los otros tres. Solo el sexo masculino tiene un intervalo que no cruza el uno y es menor a uno en ambos extremos, así que es un factor protector real y significativo."
     },
     {
       "file": "s12_g00",
-      "text": "Y esta pregunta real, del EUNACOM de diciembre de dos mil diecinueve, repite la misma lección con otro ejemplo. Un estudio de cohortes busca la asociación entre la exposición a estrógenos y el cáncer de ovario, y obtiene un Odds Ratio de uno coma tres, con un intervalo de confianza que va de cero coma ochenta y seis a dos coma uno."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Buscan la medida de asociación más adecuada para establecer cuántas veces aumentan los casos de asma en la población fumadora, comparada con la no fumadora."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál de las siguientes afirmaciones es correcta con estos resultados?"
+      "text": "¿Cuál de las siguientes medidas de asociación es la más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: que tienen uno coma tres veces más riesgo, que tienen treinta por ciento más riesgo, que existe asociación pero no es significativa, que las que tienen cáncer estuvieron más expuestas, o que la asociación se probó pero no es extrapolable."
+      "text": "Las opciones: riesgo relativo, riesgo atribuible, razón de prevalencias, tasa de incidencia, o riesgo atribuible porcentual."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C. El punto estimado de uno coma tres parece sugerir más riesgo, pero su intervalo de confianza va de cero coma ochenta y seis a dos coma uno, y ese intervalo incluye el uno. Eso significa que no se puede descartar que el resultado se deba solamente al azar. Las opciones A y B caen en la misma trampa: afirman el riesgo como si fuera un hecho probado, ignorando que el intervalo cruza el valor nulo."
+      "text": "Es la A, riesgo relativo. La palabra clave es cuántas veces más: eso es exactamente lo que expresa una razón, como el Riesgo Relativo, la incidencia en expuestos dividida en la incidencia en no expuestos. El riesgo atribuible y su versión porcentual son medidas de impacto poblacional, no de cuántas veces más frecuente es el evento."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. En cohorte o ensayo clínico, la medida es el Riesgo Relativo."
+      "text": "Y esta pregunta real, del EUNACOM de diciembre de dos mil diecinueve, repite la misma lección con otro ejemplo. Un estudio de cohortes busca la asociación entre la exposición a estrógenos y el cáncer de ovario, y obtiene un Odds Ratio de uno coma tres, con un intervalo de confianza que va de cero coma ochenta y seis a dos coma uno."
     },
     {
       "file": "s13_g01",
-      "text": "En casos y controles, es el Odds Ratio."
+      "text": "¿Cuál de las siguientes afirmaciones es correcta con estos resultados?"
     },
     {
       "file": "s13_g02",
-      "text": "Y para el beneficio real de un tratamiento, son la reducción absoluta del riesgo y el número necesario a tratar, siempre redondeado hacia arriba."
+      "text": "Las opciones: que tienen uno coma tres veces más riesgo, que tienen treinta por ciento más riesgo, que existe asociación pero no es significativa, que las que tienen cáncer estuvieron más expuestas, o que la asociación se probó pero no es extrapolable."
     },
     {
       "file": "s13_g03",
+      "text": "Es la C. El punto estimado de uno coma tres parece sugerir más riesgo, pero su intervalo de confianza va de cero coma ochenta y seis a dos coma uno, y ese intervalo incluye el uno. Eso significa que no se puede descartar que el resultado se deba solamente al azar. Las opciones A y B caen en la misma trampa: afirman el riesgo como si fuera un hecho probado, ignorando que el intervalo cruza el valor nulo."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. En cohorte o ensayo clínico, la medida es el Riesgo Relativo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En casos y controles, es el Odds Ratio."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Y para el beneficio real de un tratamiento, son la reducción absoluta del riesgo y el número necesario a tratar, siempre redondeado hacia arriba."
+    },
+    {
+      "file": "s14_g03",
       "text": "Antes de afirmar cualquier asociación, revisa si su intervalo de confianza cruza el valor nulo: el uno para el Riesgo Relativo y el Odds Ratio, el cero para la reducción absoluta. Si te llevas una sola idea de hoy: el diseño te dice qué fórmula usar, y el intervalo de confianza te dice si esa fórmula significa algo de verdad. Nos vemos en la próxima clase."
     }
   ]

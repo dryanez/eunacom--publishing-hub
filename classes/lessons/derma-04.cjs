@@ -135,6 +135,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Androgenética', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' },
+      ],
+      steps: [
+        { note: 'Androgenética',
+          say: 'Mira esta imagen: androgenética. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las tres causas no cicatriciales en un solo árbol de decisión.',
     },

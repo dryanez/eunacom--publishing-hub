@@ -153,6 +153,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El enfisema',
+      images: [
+        { src: 'animaciones/resp-04/A1_enfisema.mp4', label: 'Enfisema', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Alvéolos que se rompen',
+          say: 'En el enfisema se rompen los tabiques entre los alvéolos: quedan espacios grandes, con menos superficie de intercambio, y el pulmón atrapa aire.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'EPOC en la radiografía',

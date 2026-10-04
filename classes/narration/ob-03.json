@@ -2,7 +2,7 @@
   "id": "ob-03",
   "title": "Obstetricia 19.3: Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
   "specialty": "Obstetricia",
-  "chars": 8600,
+  "chars": 8848,
   "segments": [
     {
       "file": "s00_g00",
@@ -34,135 +34,111 @@
     },
     {
       "file": "s02_g00",
-      "text": "Así se ve un registro de veinte minutos. Arriba la frecuencia cardíaca fetal, abajo la dinámica uterina. Primero la basal: anda cerca de ciento cuarenta, dentro de la franja normal de ciento diez a ciento sesenta."
-    },
-    {
-      "file": "s02_g01",
-      "text": "Mira el serrucho del trazado: sube y baja entre diez y quince latidos. Esa es la variabilidad, y está en rango normal. Un trazado plano sería la alarma."
-    },
-    {
-      "file": "s02_g02",
-      "text": "Y lo más importante: las aceleraciones. Aquí hay tres. Cada una sube más de quince latidos y dura más de quince segundos. Con dos en veinte minutos ya es reactivo."
-    },
-    {
-      "file": "s02_g03",
-      "text": "Los triangulitos son los movimientos fetales que marca la madre. Fíjate que cada aceleración viene con un movimiento: el feto se mueve y su corazón responde. Eso es un feto bien oxigenado."
-    },
-    {
-      "file": "s02_g04",
-      "text": "Abajo hay una contracción leve. Mira justo arriba: la frecuencia no cae. No hay desaceleraciones. Basal normal, buena variabilidad, aceleraciones y sin caídas: registro reactivo."
+      "text": "Cada vez que el feto se mueve, la frecuencia cardíaca sube quince latidos por quince segundos. Dos o más aceleraciones en veinte minutos: registro reactivo."
     },
     {
       "file": "s03_g00",
-      "text": "Cuando el registro no reactivo persiste, subes de nivel: el perfil biofísico de Manning. Combina el mismo registro cardíaco con cuatro variables ecográficas: movimientos respiratorios, movimientos corporales, tono fetal, y el volumen de líquido amniótico."
+      "text": "Así se ve un registro de veinte minutos. Arriba la frecuencia cardíaca fetal, abajo la dinámica uterina. Primero la basal: anda cerca de ciento cuarenta, dentro de la franja normal de ciento diez a ciento sesenta."
     },
     {
       "file": "s03_g01",
-      "text": "Los movimientos respiratorios puntúan si ves al menos un episodio continuo de treinta segundos."
+      "text": "Mira el serrucho del trazado: sube y baja entre diez y quince latidos. Esa es la variabilidad, y está en rango normal. Un trazado plano sería la alarma."
     },
     {
       "file": "s03_g02",
-      "text": "Los movimientos corporales necesitan al menos tres, ya sea de todo el cuerpo o de las extremidades."
+      "text": "Y lo más importante: las aceleraciones. Aquí hay tres. Cada una sube más de quince latidos y dura más de quince segundos. Con dos en veinte minutos ya es reactivo."
     },
     {
       "file": "s03_g03",
-      "text": "Y el tono fetal puntúa con al menos un episodio de extensión que vuelve a la flexión, como abrir y cerrar la mano. Es el parámetro más resistente: es el último que se pierde cuando avanza la hipoxia."
+      "text": "Los triangulitos son los movimientos fetales que marca la madre. Fíjate que cada aceleración viene con un movimiento: el feto se mueve y su corazón responde. Eso es un feto bien oxigenado."
     },
     {
       "file": "s03_g04",
-      "text": "Cada una de las cinco variables te da dos puntos si es normal, y cero si no lo es. El máximo es diez."
-    },
-    {
-      "file": "s03_g05",
-      "text": "Con diez, o con ocho y el líquido amniótico normal, el feto está sano y sigues con manejo conservador."
-    },
-    {
-      "file": "s03_g06",
-      "text": "Pero si el ocho viene con oligohidramnios, cambia todo: eso ya es un marcador de hipoxia crónica, y si el embarazo está de término, consideras interrumpir."
-    },
-    {
-      "file": "s03_g07",
-      "text": "Con seis, sospechas asfixia: si es de término, interrumpes; si es prematuro, repites el examen en veinticuatro horas o complementas con Doppler. Y con cuatro o menos, la probabilidad de asfixia grave es tan alta que la interrupción es inmediata, sin esperar nada más."
+      "text": "Abajo hay una contracción leve. Mira justo arriba: la frecuencia no cae. No hay desaceleraciones. Basal normal, buena variabilidad, aceleraciones y sin caídas: registro reactivo."
     },
     {
       "file": "s04_g00",
-      "text": "Vamos a recorrer, paso a paso, cómo se lee un RBNE hasta llegar al perfil biofísico. Le acabas de poner el monitor a tu paciente, y tienes un registro basal no estresante de veinte minutos delante. Ahora tienes que interpretarlo."
+      "text": "Cuando el registro no reactivo persiste, subes de nivel: el perfil biofísico de Manning. Combina el mismo registro cardíaco con cuatro variables ecográficas: movimientos respiratorios, movimientos corporales, tono fetal, y el volumen de líquido amniótico."
     },
     {
       "file": "s04_g01",
-      "text": "Miras el trazado de los primeros veinte minutos: ¿tiene dos o más aceleraciones de al menos quince latidos, que duren al menos quince segundos?"
+      "text": "Los movimientos respiratorios puntúan si ves al menos un episodio continuo de treinta segundos."
     },
     {
       "file": "s04_g02",
-      "text": "Con dos o más aceleraciones así, el feto está bien oxigenado, y no necesitas ningún estudio adicional por ahora."
+      "text": "Los movimientos corporales necesitan al menos tres, ya sea de todo el cuerpo o de las extremidades."
     },
     {
       "file": "s04_g03",
-      "text": "Extiendes el registro hasta completar los cuarenta minutos, y le das un estímulo vibroacústico o táctil para despertarlo, por si está en su ciclo de sueño."
+      "text": "Y el tono fetal puntúa con al menos un episodio de extensión que vuelve a la flexión, como abrir y cerrar la mano. Es el parámetro más resistente: es el último que se pierde cuando avanza la hipoxia."
     },
     {
       "file": "s04_g04",
-      "text": "Estimulaste al feto y esperaste los cuarenta minutos completos. ¿Sigue sin aceleraciones?"
+      "text": "Cada una de las cinco variables te da dos puntos si es normal, y cero si no lo es. El máximo es diez."
     },
     {
       "file": "s04_g05",
-      "text": "Con el RBNE que sigue sin reactividad, das el siguiente paso: el perfil biofísico, que combina ese mismo registro con la ecografía en tiempo real, hasta por treinta minutos."
+      "text": "Con diez, o con ocho y el líquido amniótico normal, el feto está sano y sigues con manejo conservador."
     },
     {
       "file": "s04_g06",
-      "text": "Si con el estímulo empieza a acelerar, era justamente el ciclo de sueño. Con eso ya tienes tu RBNE reactivo, y no necesitas nada más."
+      "text": "Pero si el ocho viene con oligohidramnios, cambia todo: eso ya es un marcador de hipoxia crónica, y si el embarazo está de término, consideras interrumpir."
+    },
+    {
+      "file": "s04_g07",
+      "text": "Con seis, sospechas asfixia: si es de término, interrumpes; si es prematuro, repites el examen en veinticuatro horas o complementas con Doppler. Y con cuatro o menos, la probabilidad de asfixia grave es tan alta que la interrupción es inmediata, sin esperar nada más."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos las trampas. Un RBNE sin aceleraciones a los veinte minutos no es sufrimiento fetal: primero prolongas y estimulas hasta los cuarenta minutos. Concluir sufrimiento de entrada es el error más repetido."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Si sigue no reactivo después de los cuarenta minutos, ahí sí subes a un perfil biofísico o a un Doppler, no directo a interrumpir."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Un ocho sobre diez con oligohidramnios sigue siendo preocupante. El error es fijarse solo en el número final e ignorar que el líquido está bajo."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Y con cuatro o menos, la conducta es interrumpir ahora. Esperar a repetir el examen en unos días puede costarle la vida al feto."
+      "text": "Mira esta imagen: RCTG normal. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s06_g00",
-      "text": "Un caso. Embarazada de treinta y cuatro semanas, sin ninguna patología, que consulta por disminución de los movimientos fetales de seis horas de evolución. Le instalas el monitor: en los primeros veinte minutos, la frecuencia basal es de ciento cuarenta, la variabilidad es de diez, no hay desaceleraciones, pero tampoco hay ninguna aceleración."
+      "text": "Vamos a recorrer, paso a paso, cómo se lee un RBNE hasta llegar al perfil biofísico. Le acabas de poner el monitor a tu paciente, y tienes un registro basal no estresante de veinte minutos delante. Ahora tienes que interpretarlo."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Miras el trazado de los primeros veinte minutos: ¿tiene dos o más aceleraciones de al menos quince latidos, que duren al menos quince segundos?"
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: indicar cesárea por sufrimiento fetal agudo, prolongar el registro con estímulo vibroacústico, dar el alta como examen normal, pedir amniocentesis para madurez pulmonar, o dar corticoides de inmediato. Piénsalo."
+      "text": "Con dos o más aceleraciones así, el feto está bien oxigenado, y no necesitas ningún estudio adicional por ahora."
     },
     {
       "file": "s06_g03",
-      "text": "Es la B. Fíjate que la basal y la variabilidad están perfectas: lo único que falta son las aceleraciones, y a los veinte minutos. Antes de asumir que algo anda mal, prolongas a cuarenta minutos y estimulas al feto, porque lo más probable es que esté dormido. Ni la cesárea ni los corticoides tienen lugar todavía, y el alta sería precipitada: el examen aún no cumple los criterios de reactivo."
+      "text": "Extiendes el registro hasta completar los cuarenta minutos, y le das un estímulo vibroacústico o táctil para despertarlo, por si está en su ciclo de sueño."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Estimulaste al feto y esperaste los cuarenta minutos completos. ¿Sigue sin aceleraciones?"
+    },
+    {
+      "file": "s06_g05",
+      "text": "Con el RBNE que sigue sin reactividad, das el siguiente paso: el perfil biofísico, que combina ese mismo registro con la ecografía en tiempo real, hasta por treinta minutos."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si con el estímulo empieza a acelerar, era justamente el ciclo de sueño. Con eso ya tienes tu RBNE reactivo, y no necesitas nada más."
     },
     {
       "file": "s07_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintiocho años, con embarazo de treinta semanas, que consulta angustiada porque no siente movimientos fetales, sin otro síntoma. Su examen físico es normal, y se le hace un registro basal no estresante de veinte minutos."
+      "text": "Repasemos las trampas. Un RBNE sin aceleraciones a los veinte minutos no es sufrimiento fetal: primero prolongas y estimulas hasta los cuarenta minutos. Concluir sufrimiento de entrada es el error más repetido."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada en este caso?"
+      "text": "Si sigue no reactivo después de los cuarenta minutos, ahí sí subes a un perfil biofísico o a un Doppler, no directo a interrumpir."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: tranquilizarla y mantener el control habitual, pedir perfil biofísico, pedir ecografía obstétrica, repetir el registro veinte minutos más, o hacer un test de tolerancia a las contracciones. Piénsalo."
+      "text": "Un ocho sobre diez con oligohidramnios sigue siendo preocupante. El error es fijarse solo en el número final e ignorar que el líquido está bajo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la D. El trazado sale no reactivo, y lo primero que corresponde no es subir al perfil biofísico ni pedir otra ecografía: es alargar el mismo registro veinte minutos más, hasta completar los cuarenta, para dar tiempo a que termine un posible ciclo de sueño fetal."
+      "text": "Y con cuatro o menos, la conducta es interrumpir ahora. Esperar a repetir el examen en unos días puede costarle la vida al feto."
     },
     {
       "file": "s08_g00",
-      "text": "Y una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con un embarazo de cuarenta semanas, que consulta por ausencia de movimientos fetales. Se le hace un perfil biofísico, que resulta ocho sobre diez, con oligoamnios."
+      "text": "Un caso. Embarazada de treinta y cuatro semanas, sin ninguna patología, que consulta por disminución de los movimientos fetales de seis horas de evolución. Le instalas el monitor: en los primeros veinte minutos, la frecuencia basal es de ciento cuarenta, la variabilidad es de diez, no hay desaceleraciones, pero tampoco hay ninguna aceleración."
     },
     {
       "file": "s08_g01",
@@ -170,26 +146,58 @@
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: dejar a evolución espontánea, interrumpir ahora por cesárea, inducir el parto ahora, hacer cesárea al inicio del trabajo de parto, o inducir a las cuarenta y una semanas. Piénsalo."
+      "text": "Las opciones: indicar cesárea por sufrimiento fetal agudo, prolongar el registro con estímulo vibroacústico, dar el alta como examen normal, pedir amniocentesis para madurez pulmonar, o dar corticoides de inmediato. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C. El ocho sobre diez con oligoamnios, en un embarazo ya de cuarenta semanas, te dice que hay que interrumpir, porque esperar más solo suma riesgo. Pero no es un puntaje crítico como para exigir cesárea: puedes inducir el parto en este momento. Esperar hasta la semana cuarenta y uno, con el líquido ya bajo, es la trampa de este caso."
+      "text": "Es la B. Fíjate que la basal y la variabilidad están perfectas: lo único que falta son las aceleraciones, y a los veinte minutos. Antes de asumir que algo anda mal, prolongas a cuarenta minutos y estimulas al feto, porque lo más probable es que esté dormido. Ni la cesárea ni los corticoides tienen lugar todavía, y el alta sería precipitada: el examen aún no cumple los criterios de reactivo."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. Dos aceleraciones de quince latidos por quince segundos, en veinte minutos, es tu registro reactivo."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintiocho años, con embarazo de treinta semanas, que consulta angustiada porque no siente movimientos fetales, sin otro síntoma. Su examen físico es normal, y se le hace un registro basal no estresante de veinte minutos."
     },
     {
       "file": "s09_g01",
-      "text": "Si no las ves a los veinte minutos, prolongas y estimulas hasta los cuarenta, antes de asumir que algo anda mal."
+      "text": "¿Cuál es la conducta más adecuada en este caso?"
     },
     {
       "file": "s09_g02",
-      "text": "Y en el perfil biofísico, un ocho sobre diez con oligohidramnios no es tranquilizador: es un marcador de hipoxia crónica."
+      "text": "Las opciones: tranquilizarla y mantener el control habitual, pedir perfil biofísico, pedir ecografía obstétrica, repetir el registro veinte minutos más, o hacer un test de tolerancia a las contracciones. Piénsalo."
     },
     {
       "file": "s09_g03",
+      "text": "Es la D. El trazado sale no reactivo, y lo primero que corresponde no es subir al perfil biofísico ni pedir otra ecografía: es alargar el mismo registro veinte minutos más, hasta completar los cuarenta, para dar tiempo a que termine un posible ciclo de sueño fetal."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Y una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con un embarazo de cuarenta semanas, que consulta por ausencia de movimientos fetales. Se le hace un perfil biofísico, que resulta ocho sobre diez, con oligoamnios."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: dejar a evolución espontánea, interrumpir ahora por cesárea, inducir el parto ahora, hacer cesárea al inicio del trabajo de parto, o inducir a las cuarenta y una semanas. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. El ocho sobre diez con oligoamnios, en un embarazo ya de cuarenta semanas, te dice que hay que interrumpir, porque esperar más solo suma riesgo. Pero no es un puntaje crítico como para exigir cesárea: puedes inducir el parto en este momento. Esperar hasta la semana cuarenta y uno, con el líquido ya bajo, es la trampa de este caso."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Dos aceleraciones de quince latidos por quince segundos, en veinte minutos, es tu registro reactivo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Si no las ves a los veinte minutos, prolongas y estimulas hasta los cuarenta, antes de asumir que algo anda mal."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Y en el perfil biofísico, un ocho sobre diez con oligohidramnios no es tranquilizador: es un marcador de hipoxia crónica."
+    },
+    {
+      "file": "s11_g03",
       "text": "Un puntaje de cuatro o menos es asfixia fetal grave, e interrumpes de inmediato. Si te llevas una sola idea de hoy: el registro no reactivo casi siempre es sueño, pero el líquido amniótico bajo nunca es un hallazgo menor. Nos vemos en la próxima clase."
     }
   ]

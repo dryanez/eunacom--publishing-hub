@@ -2,7 +2,7 @@
   "id": "hem-18",
   "title": "Hematología 8.18: Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
   "specialty": "Hematología",
-  "chars": 17278,
+  "chars": 17463,
   "segments": [
     {
       "file": "s00_g00",
@@ -222,91 +222,83 @@
     },
     {
       "file": "s12_g00",
-      "text": "Juntemos todo en un árbol de decisión, partiendo del ganglio que no se va. Paciente con una adenopatía indolora, gomosa, de más de dos centímetros, que lleva más de cuatro a seis semanas sin infección que la explique. El primer paso es la biopsia escisional del ganglio completo, o con aguja gruesa si es inaccesible. Nunca punción aspirativa."
+      "text": "Mira esta imagen: Ann Arbor. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s12_g01",
-      "text": "¿La histología muestra células de Reed-Sternberg?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Si las hay, es un linfoma de Hodgkin. Se deriva con garantía GES, se etapifica con Ann Arbor y se trata con ABVD, con radioterapia según el estadio."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Si no, es un no Hodgkin. La pregunta ahora es su comportamiento."
-    },
-    {
-      "file": "s12_g04",
-      "text": "Si es un difuso de células B grandes, agresivo: R-CHOP, con intención curativa."
-    },
-    {
-      "file": "s12_g05",
-      "text": "Si es un folicular asintomático: observar, con controles periódicos por el riesgo de transformación."
-    },
-    {
-      "file": "s12_g06",
-      "text": "Y si es un MALT gástrico temprano: erradicar el Helicobacter pylori."
+      "text": "Mira esta imagen: PET en Hodgkin. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s13_g00",
-      "text": "Repasemos las trampas. Adenopatía sospechosa de linfoma: biopsia escisional del ganglio completo. La punción aspirativa es el error más clásico del tema."
+      "text": "Juntemos todo en un árbol de decisión, partiendo del ganglio que no se va. Paciente con una adenopatía indolora, gomosa, de más de dos centímetros, que lleva más de cuatro a seis semanas sin infección que la explique. El primer paso es la biopsia escisional del ganglio completo, o con aguja gruesa si es inaccesible. Nunca punción aspirativa."
     },
     {
       "file": "s13_g01",
-      "text": "Adulto joven con adenopatías persistentes y síntomas B: linfoma, probablemente Hodgkin. No te distraigas con la tuberculosis o la mononucleosis: el cuadro de adenopatía persistente con síntomas B es linfoma, y lo aclara la biopsia."
+      "text": "¿La histología muestra células de Reed-Sternberg?"
     },
     {
       "file": "s13_g02",
-      "text": "Síntomas B son fiebre sobre treinta y ocho, sudoración nocturna profusa y baja de peso de más del diez por ciento en seis meses. El prurito y el dolor con alcohol orientan, pero no son síntomas B."
+      "text": "Si las hay, es un linfoma de Hodgkin. Se deriva con garantía GES, se etapifica con Ann Arbor y se trata con ABVD, con radioterapia según el estadio."
     },
     {
       "file": "s13_g03",
-      "text": "Ganglios a ambos lados del diafragma es estadio tres. El cuatro requiere órganos extralinfáticos como médula, hígado o pulmón."
+      "text": "Si no, es un no Hodgkin. La pregunta ahora es su comportamiento."
     },
     {
       "file": "s13_g04",
-      "text": "Folicular asintomático: se observa. La quimioterapia de entrada no lo cura."
+      "text": "Si es un difuso de células B grandes, agresivo: R-CHOP, con intención curativa."
     },
     {
       "file": "s13_g05",
-      "text": "Y MALT gástrico temprano: erradicación del Helicobacter, no quimioterapia ni cirugía."
+      "text": "Si es un folicular asintomático: observar, con controles periódicos por el riesgo de transformación."
+    },
+    {
+      "file": "s13_g06",
+      "text": "Y si es un MALT gástrico temprano: erradicar el Helicobacter pylori."
     },
     {
       "file": "s14_g00",
-      "text": "Vamos con un caso. Hombre de veinticinco años con un aumento de volumen cervical izquierdo de dos meses, indoloro y que va creciendo. En el último mes suda en la noche hasta empapar la camiseta y bajó siete kilos, desde un peso de sesenta y ocho. Tiene un conglomerado supraclavicular y cervical izquierdo de cuatro centímetros, gomoso e indoloro. El médico sospecha tuberculosis y pide una punción aspirativa."
+      "text": "Repasemos las trampas. Adenopatía sospechosa de linfoma: biopsia escisional del ganglio completo. La punción aspirativa es el error más clásico del tema."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Adulto joven con adenopatías persistentes y síntomas B: linfoma, probablemente Hodgkin. No te distraigas con la tuberculosis o la mononucleosis: el cuadro de adenopatía persistente con síntomas B es linfoma, y lo aclara la biopsia."
     },
     {
       "file": "s14_g02",
-      "text": "Tienes cinco opciones: hacer la punción y esperar la citología, tratamiento antituberculoso empírico, suspender la punción y derivar para biopsia escisional, antibióticos por dos semanas, o iniciar ABVD. Piénsalo."
+      "text": "Síntomas B son fiebre sobre treinta y ocho, sudoración nocturna profusa y baja de peso de más del diez por ciento en seis meses. El prurito y el dolor con alcohol orientan, pero no son síntomas B."
     },
     {
       "file": "s14_g03",
-      "text": "La respuesta es la C. Es un joven con adenopatía supraclavicular gomosa y síntomas B: siete kilos de sesenta y ocho es más del diez por ciento. Hay que pensar en Hodgkin, y el diagnóstico exige el ganglio completo. La punción es la trampa: no muestra la arquitectura y puede dar un falso negativo. Y el ABVD, aunque sea el tratamiento del Hodgkin, no se inicia sin confirmación histológica."
+      "text": "Ganglios a ambos lados del diafragma es estadio tres. El cuatro requiere órganos extralinfáticos como médula, hígado o pulmón."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Folicular asintomático: se observa. La quimioterapia de entrada no lo cura."
+    },
+    {
+      "file": "s14_g05",
+      "text": "Y MALT gástrico temprano: erradicación del Helicobacter, no quimioterapia ni cirugía."
     },
     {
       "file": "s15_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil veinticuatro. Mujer de veinte años con dos meses de aumento de volumen en el cuello, malestar, fiebre ocasional y sudoración nocturna. Tiene adenopatías submandibulares y cervicales bilaterales de consistencia aumentada."
+      "text": "Vamos con un caso. Hombre de veinticinco años con un aumento de volumen cervical izquierdo de dos meses, indoloro y que va creciendo. En el último mes suda en la noche hasta empapar la camiseta y bajó siete kilos, desde un peso de sesenta y ocho. Tiene un conglomerado supraclavicular y cervical izquierdo de cuatro centímetros, gomoso e indoloro. El médico sospecha tuberculosis y pide una punción aspirativa."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones son: tuberculosis ganglionar, linfoma, infección por VIH, sarcoidosis, o mononucleosis infecciosa. Piénsalo."
+      "text": "Tienes cinco opciones: hacer la punción y esperar la citología, tratamiento antituberculoso empírico, suspender la punción y derivar para biopsia escisional, antibióticos por dos semanas, o iniciar ABVD. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la B, linfoma. Adenopatías duras que llevan dos meses, en una mujer joven, con fiebre y sudoración nocturna: por la edad, probablemente Hodgkin. El distractor más tentador es la tuberculosis ganglionar, que también da fiebre y sudoración. Pero el cuadro clásico de adenopatía persistente con síntomas B en una joven es linfoma, y en cualquier caso la biopsia es la que decide."
+      "text": "La respuesta es la C. Es un joven con adenopatía supraclavicular gomosa y síntomas B: siete kilos de sesenta y ocho es más del diez por ciento. Hay que pensar en Hodgkin, y el diagnóstico exige el ganglio completo. La punción es la trampa: no muestra la arquitectura y puede dar un falso negativo. Y el ABVD, aunque sea el tratamiento del Hodgkin, no se inicia sin confirmación histológica."
     },
     {
       "file": "s16_g00",
-      "text": "La segunda es del EUNACOM de julio de dos mil dieciséis. Mujer de veintidós años con fiebre nocturna, baja de peso de tres meses y astenia, y un aumento de volumen cervical. Tiene una masa de seis centímetros en el cuello, y la radiografía de tórax muestra el mediastino ensanchado."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil veinticuatro. Mujer de veinte años con dos meses de aumento de volumen en el cuello, malestar, fiebre ocasional y sudoración nocturna. Tiene adenopatías submandibulares y cervicales bilaterales de consistencia aumentada."
     },
     {
       "file": "s16_g01",
@@ -314,15 +306,15 @@
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones son: leucemia linfática crónica, VIH, tuberculosis ganglionar, linfoma de Hodgkin, o linfoma no Hodgkin. Piénsalo."
+      "text": "Las opciones son: tuberculosis ganglionar, linfoma, infección por VIH, sarcoidosis, o mononucleosis infecciosa. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la D, linfoma de Hodgkin. Esta pregunta te pide un paso más: no solo linfoma, sino cuál. Mujer joven, síntomas B y mediastino ensanchado es el retrato de la esclerosis nodular. El no Hodgkin es el distractor, porque también da adenopatías y síntomas B, pero la edad joven y el mediastino inclinan al Hodgkin. Y la linfática crónica es del anciano."
+      "text": "Es la B, linfoma. Adenopatías duras que llevan dos meses, en una mujer joven, con fiebre y sudoración nocturna: por la edad, probablemente Hodgkin. El distractor más tentador es la tuberculosis ganglionar, que también da fiebre y sudoración. Pero el cuadro clásico de adenopatía persistente con síntomas B en una joven es linfoma, y en cualquier caso la biopsia es la que decide."
     },
     {
       "file": "s17_g00",
-      "text": "La tercera es del EUNACOM de diciembre de dos mil veinticinco. Adolescente de quince años con una semana de tos, cefalea y malestar, que empeora con dificultad respiratoria y edema de la cara. Tiene eritema facial, edema de párpados, la lengua aumentada, yugulares visibles y adenopatías cervicales múltiples. La radiografía muestra una masa mediastínica."
+      "text": "La segunda es del EUNACOM de julio de dos mil dieciséis. Mujer de veintidós años con fiebre nocturna, baja de peso de tres meses y astenia, y un aumento de volumen cervical. Tiene una masa de seis centímetros en el cuello, y la radiografía de tórax muestra el mediastino ensanchado."
     },
     {
       "file": "s17_g01",
@@ -330,54 +322,70 @@
     },
     {
       "file": "s17_g02",
-      "text": "Las opciones son: linfoma de Hodgkin, carcinoma broncogénico, cáncer de tiroides, tuberculosis, o timoma. Piénsalo."
+      "text": "Las opciones son: leucemia linfática crónica, VIH, tuberculosis ganglionar, linfoma de Hodgkin, o linfoma no Hodgkin. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la A, linfoma de Hodgkin. Lo nuevo aquí es la complicación: edema de la cara con yugulares ingurgitadas es un síndrome de vena cava superior, porque la masa del mediastino comprime la vena. En un adolescente con adenopatías, la causa es el Hodgkin, que compromete mucho el mediastino. El carcinoma broncogénico es el distractor: sería la respuesta en un adulto mayor fumador."
+      "text": "Es la D, linfoma de Hodgkin. Esta pregunta te pide un paso más: no solo linfoma, sino cuál. Mujer joven, síntomas B y mediastino ensanchado es el retrato de la esclerosis nodular. El no Hodgkin es el distractor, porque también da adenopatías y síntomas B, pero la edad joven y el mediastino inclinan al Hodgkin. Y la linfática crónica es del anciano."
     },
     {
       "file": "s18_g00",
-      "text": "Y la última, también de diciembre de dos mil veinticinco. Hombre de cincuenta y cinco años con tres meses de astenia, baja de cinco kilos, sudoración nocturna y fiebre hasta treinta y ocho y medio. Tiene adenopatías cervicales gomosas bilaterales, el hemograma es casi normal, y las imágenes muestran adenopatías en el mediastino y en el retroperitoneo."
+      "text": "La tercera es del EUNACOM de diciembre de dos mil veinticinco. Adolescente de quince años con una semana de tos, cefalea y malestar, que empeora con dificultad respiratoria y edema de la cara. Tiene eritema facial, edema de párpados, la lengua aumentada, yugulares visibles y adenopatías cervicales múltiples. La radiografía muestra una masa mediastínica."
     },
     {
       "file": "s18_g01",
-      "text": "¿Cuál es el examen de elección para determinar el diagnóstico?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s18_g02",
-      "text": "Las opciones son: biopsia de médula ósea, serologías virales, biopsia aspirativa de la adenopatía, biopsia ganglionar excisional, o hemocultivos. Piénsalo."
+      "text": "Las opciones son: linfoma de Hodgkin, carcinoma broncogénico, cáncer de tiroides, tuberculosis, o timoma. Piénsalo."
     },
     {
       "file": "s18_g03",
-      "text": "Es la D, la biopsia ganglionar excisional. Por la edad, probablemente es un no Hodgkin, pero eso lo decide el patólogo con el ganglio entero. El distractor está puesto a propósito: la biopsia aspirativa. Suena a biopsia, pero es la punción con aguja fina y no muestra la arquitectura. Y fíjate: el hemograma normal no descarta un linfoma."
+      "text": "Es la A, linfoma de Hodgkin. Lo nuevo aquí es la complicación: edema de la cara con yugulares ingurgitadas es un síndrome de vena cava superior, porque la masa del mediastino comprime la vena. En un adolescente con adenopatías, la causa es el Hodgkin, que compromete mucho el mediastino. El carcinoma broncogénico es el distractor: sería la respuesta en un adulto mayor fumador."
     },
     {
       "file": "s19_g00",
-      "text": "Cerremos con las reglas de oro. Una adenopatía indolora, gomosa, de más de dos centímetros, que lleva más de un mes sin infección que la explique, es un linfoma hasta demostrar lo contrario."
+      "text": "Y la última, también de diciembre de dos mil veinticinco. Hombre de cincuenta y cinco años con tres meses de astenia, baja de cinco kilos, sudoración nocturna y fiebre hasta treinta y ocho y medio. Tiene adenopatías cervicales gomosas bilaterales, el hemograma es casi normal, y las imágenes muestran adenopatías en el mediastino y en el retroperitoneo."
     },
     {
       "file": "s19_g01",
-      "text": "Se confirma con biopsia escisional del ganglio completo. Nunca con punción aspirativa."
+      "text": "¿Cuál es el examen de elección para determinar el diagnóstico?"
     },
     {
       "file": "s19_g02",
-      "text": "Los síntomas B son fiebre sobre treinta y ocho, sudoración nocturna profusa y baja de peso de más del diez por ciento en seis meses."
+      "text": "Las opciones son: biopsia de médula ósea, serologías virales, biopsia aspirativa de la adenopatía, biopsia ganglionar excisional, o hemocultivos. Piénsalo."
     },
     {
       "file": "s19_g03",
+      "text": "Es la D, la biopsia ganglionar excisional. Por la edad, probablemente es un no Hodgkin, pero eso lo decide el patólogo con el ganglio entero. El distractor está puesto a propósito: la biopsia aspirativa. Suena a biopsia, pero es la punción con aguja fina y no muestra la arquitectura. Y fíjate: el hemograma normal no descarta un linfoma."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Cerremos con las reglas de oro. Una adenopatía indolora, gomosa, de más de dos centímetros, que lleva más de un mes sin infección que la explique, es un linfoma hasta demostrar lo contrario."
+    },
+    {
+      "file": "s20_g01",
+      "text": "Se confirma con biopsia escisional del ganglio completo. Nunca con punción aspirativa."
+    },
+    {
+      "file": "s20_g02",
+      "text": "Los síntomas B son fiebre sobre treinta y ocho, sudoración nocturna profusa y baja de peso de más del diez por ciento en seis meses."
+    },
+    {
+      "file": "s20_g03",
       "text": "El Hodgkin tiene Reed-Sternberg, predomina la esclerosis nodular en mujeres jóvenes con masa mediastínica, y se disemina por contigüidad."
     },
     {
-      "file": "s19_g04",
+      "file": "s20_g04",
       "text": "Se trata con ABVD, y se cura en más del ochenta y cinco por ciento."
     },
     {
-      "file": "s19_g05",
+      "file": "s20_g05",
       "text": "En el no Hodgkin, el difuso de células grandes es agresivo pero curable con R-CHOP; el folicular es indolente, incurable, y se observa si está asintomático."
     },
     {
-      "file": "s19_g06",
+      "file": "s20_g06",
       "text": "Si te llevas una sola idea de hoy: el linfoma se diagnostica con el ganglio completo, y la punción aspirativa siempre es la trampa. En la próxima clase veremos el mieloma múltiple, la neoplasia de la célula plasmática. Nos vemos en la próxima clase."
     }
   ]

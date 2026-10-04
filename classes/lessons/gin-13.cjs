@@ -184,6 +184,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del virus al cáncer',
+      images: [
+        { src: 'animaciones/gin-13/A1_vph_cancer.mp4', label: 'VPH', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Lesiones que progresan',
+          say: 'La infección por VPH suele eliminarse. Si persiste, aparece una lesión de bajo grado, luego de alto grado, y finalmente un cáncer que atraviesa la membrana basal. El PAP detecta las lesiones antes del cáncer.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Colposcopía',

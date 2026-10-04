@@ -2,7 +2,7 @@
   "id": "ped-08",
   "title": "Pediatria 18.8: Cuerpo Extraño en Vía Aérea: Maniobras de Desobstrucción según Edad & Broncoscopía",
   "specialty": "Pediatría",
-  "chars": 7930,
+  "chars": 8035,
   "segments": [
     {
       "file": "s00_g00",
@@ -86,114 +86,118 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos todo, desde el momento agudo hasta la fase tardía, en un solo árbol. Tienes un niño que se atora de golpe. Antes de tocarlo, pregúntate si su tos todavía funciona."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Si tose fuerte y llora, la obstrucción es parcial; si no, es completa."
-    },
-    {
-      "file": "s08_g02",
-      "text": "No intervengas: su propia tos es lo más efectivo para sacar el objeto."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Con obstrucción completa, la edad es lo que decide qué maniobra usar."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Cinco golpes interescapulares y cinco compresiones torácicas, repitiendo la secuencia. Nunca Heimlich a esta edad, por el riesgo de dañar el hígado o el bazo."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Maniobra de Heimlich, con compresiones abdominales hacia adentro y hacia arriba."
+      "text": "Mira esta imagen: cuerpo extraño bronquial. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos con la tabla. Si tose con fuerza y todavía llora, lo dejas toser sin tocarlo. El error es golpearlo, pensando que ayuda."
+      "text": "Ahora juntemos todo, desde el momento agudo hasta la fase tardía, en un solo árbol. Tienes un niño que se atora de golpe. Antes de tocarlo, pregúntate si su tos todavía funciona."
     },
     {
       "file": "s09_g01",
-      "text": "Obstrucción completa en el menor de un año: golpes en la espalda y compresiones torácicas. El error, que puede ser grave, es hacer Heimlich a esa edad."
+      "text": "Si tose fuerte y llora, la obstrucción es parcial; si no, es completa."
     },
     {
       "file": "s09_g02",
-      "text": "Obstrucción completa en el mayor de un año: Heimlich. Ahí el error es quedarse solo con los golpes en la espalda."
+      "text": "No intervengas: su propia tos es lo más efectivo para sacar el objeto."
     },
     {
       "file": "s09_g03",
-      "text": "Si el objeto no se ve directamente, no metes el dedo a buscarlo. El error clásico es el barrido a ciegas, que puede empeorar todo."
+      "text": "Con obstrucción completa, la edad es lo que decide qué maniobra usar."
     },
     {
       "file": "s09_g04",
-      "text": "Y sibilancias unilaterales que aparecen semanas después de un atragantamiento: sospechas cuerpo extraño y vas a broncoscopía. El error es tratarlo como asma y repetir el salbutamol sin parar."
+      "text": "Cinco golpes interescapulares y cinco compresiones torácicas, repitiendo la secuencia. Nunca Heimlich a esta edad, por el riesgo de dañar el hígado o el bazo."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Maniobra de Heimlich, con compresiones abdominales hacia adentro y hacia arriba."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Lactante de siete meses, en brazos de su madre comiendo puré, comienza de golpe con tos intensa. A los pocos segundos deja de toser, no llora, no emite ningún sonido, y aparece cianosis progresiva con tiraje generalizado."
+      "text": "Repasemos con la tabla. Si tose con fuerza y todavía llora, lo dejas toser sin tocarlo. El error es golpearlo, pensando que ayuda."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la maniobra indicada en este momento?"
+      "text": "Obstrucción completa en el menor de un año: golpes en la espalda y compresiones torácicas. El error, que puede ser grave, es hacer Heimlich a esa edad."
     },
     {
       "file": "s10_g02",
-      "text": "Tienes cinco opciones: maniobra de Heimlich, cinco golpes en la espalda seguidos de cinco compresiones torácicas, barrido digital a ciegas, ventilaciones boca a boca de inmediato, u observar y esperar. Piénsalo."
+      "text": "Obstrucción completa en el mayor de un año: Heimlich. Ahí el error es quedarse solo con los golpes en la espalda."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Este lactante tiene una obstrucción completa: no tose, no llora, no respira bien. Como es menor de un año, la maniobra de Heimlich queda descartada por el riesgo de dañarle el hígado o el bazo. Y el barrido a ciegas está prohibido siempre, porque puede empujar el objeto más adentro."
+      "text": "Si el objeto no se ve directamente, no metes el dedo a buscarlo. El error clásico es el barrido a ciegas, que puede empeorar todo."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y sibilancias unilaterales que aparecen semanas después de un atragantamiento: sospechas cuerpo extraño y vas a broncoscopía. El error es tratarlo como asma y repetir el salbutamol sin parar."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Lactante de diez meses, sin antecedentes, que mientras come su almuerzo comienza de golpe con tos, junto con menos esfuerzo respiratorio e hipotonía."
+      "text": "Vamos con un caso. Lactante de siete meses, en brazos de su madre comiendo puré, comienza de golpe con tos intensa. A los pocos segundos deja de toser, no llora, no emite ningún sonido, y aparece cianosis progresiva con tiraje generalizado."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada en este caso?"
+      "text": "¿Cuál es la maniobra indicada en este momento?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: iniciar reanimación cardiopulmonar, explorar la boca con el dedo, hacer presión digital en el epigastrio, dar golpes en la espalda, o ventilaciones boca a boca."
+      "text": "Tienes cinco opciones: maniobra de Heimlich, cinco golpes en la espalda seguidos de cinco compresiones torácicas, barrido digital a ciegas, ventilaciones boca a boca de inmediato, u observar y esperar. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D. El inicio súbito mientras comía, con tos y luego menos esfuerzo respiratorio, es cuerpo extraño laríngeo obstructivo, y este lactante tiene menos de un año. Empiezas con los golpes en la espalda; si no resulta, sigues con las compresiones torácicas, y repites la secuencia hasta que salga el objeto. La presión digital en el epigastrio, que es básicamente Heimlich, se guarda para después del año."
+      "text": "Es la B. Este lactante tiene una obstrucción completa: no tose, no llora, no respira bien. Como es menor de un año, la maniobra de Heimlich queda descartada por el riesgo de dañarle el hígado o el bazo. Y el barrido a ciegas está prohibido siempre, porque puede empujar el objeto más adentro."
     },
     {
       "file": "s12_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niña de tres años con tos persistente desde hace siete días, que no respondió a la amoxicilina. Al examen: estridor, tiraje, y sibilancias solo en el lado derecho. La radiografía muestra atelectasia del lóbulo medio."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Lactante de diez meses, sin antecedentes, que mientras come su almuerzo comienza de golpe con tos, junto con menos esfuerzo respiratorio e hipotonía."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada en este caso?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: laringitis viral, bronquiolitis aguda, neumonía atípica, cuerpo extraño bronquial, o traqueítis bacteriana."
+      "text": "Las opciones: iniciar reanimación cardiopulmonar, explorar la boca con el dedo, hacer presión digital en el epigastrio, dar golpes en la espalda, o ventilaciones boca a boca."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, cuerpo extraño bronquial. Fíjate en las tres pistas juntas: no respondió al antibiótico, las sibilancias son de un solo lado, y hay atelectasia justo en el lóbulo medio derecho, la localización clásica. Ese conjunto no es asma ni infección: es un objeto tapando el bronquio, y la conducta es la broncoscopía rígida."
+      "text": "Es la D. El inicio súbito mientras comía, con tos y luego menos esfuerzo respiratorio, es cuerpo extraño laríngeo obstructivo, y este lactante tiene menos de un año. Empiezas con los golpes en la espalda; si no resulta, sigues con las compresiones torácicas, y repites la secuencia hasta que salga el objeto. La presión digital en el epigastrio, que es básicamente Heimlich, se guarda para después del año."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. En el menor de un año: golpes en la espalda y compresiones torácicas, nunca Heimlich."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niña de tres años con tos persistente desde hace siete días, que no respondió a la amoxicilina. Al examen: estridor, tiraje, y sibilancias solo en el lado derecho. La radiografía muestra atelectasia del lóbulo medio."
     },
     {
       "file": "s13_g01",
-      "text": "En el mayor de un año, ya sí corresponde la maniobra de Heimlich."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Si la tos es efectiva, no la interrumpas, déjala trabajar."
+      "text": "Las opciones: laringitis viral, bronquiolitis aguda, neumonía atípica, cuerpo extraño bronquial, o traqueítis bacteriana."
     },
     {
       "file": "s13_g03",
+      "text": "Es la D, cuerpo extraño bronquial. Fíjate en las tres pistas juntas: no respondió al antibiótico, las sibilancias son de un solo lado, y hay atelectasia justo en el lóbulo medio derecho, la localización clásica. Ese conjunto no es asma ni infección: es un objeto tapando el bronquio, y la conducta es la broncoscopía rígida."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. En el menor de un año: golpes en la espalda y compresiones torácicas, nunca Heimlich."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En el mayor de un año, ya sí corresponde la maniobra de Heimlich."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Si la tos es efectiva, no la interrumpas, déjala trabajar."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y nunca metas el dedo a ciegas: solo retiras el objeto si lo ves."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y si semanas después aparecen sibilancias de un solo lado que no ceden con broncodilatador, piensa en cuerpo extraño y ve a la broncoscopía. Si te llevas una sola idea de hoy: la edad manda la maniobra, y nunca el dedo a ciegas. Nos vemos en la próxima clase."
     }
   ]

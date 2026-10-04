@@ -217,6 +217,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-04/03_volvulo-de-ciego__cto-radiologia_p26.jpg', label: 'Vólvulo de ciego', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
+        { src: 'biblioteca/10_cirugia/cirugia-04/04_obstruccion-de-colon__cto-radiologia_p26.jpg', label: 'Obstrucción de colon', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
+      ],
+      steps: [
+        { note: 'Vólvulo de ciego',
+          say: 'Mira esta imagen: vólvulo de ciego. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Obstrucción de colon',
+          say: 'Mira esta imagen: obstrucción de colon. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

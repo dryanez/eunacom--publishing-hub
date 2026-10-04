@@ -184,6 +184,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg', label: 'Derrame encapsulado 2', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+      ],
+      steps: [
+        { note: 'Derrame encapsulado 2',
+          say: 'Mira esta imagen: derrame encapsulado dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol, desde la neumonía con derrame hasta la decorticación.',
     },

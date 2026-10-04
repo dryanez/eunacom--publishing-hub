@@ -148,6 +148,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La dirección del estudio',
+      images: [
+        { src: 'animaciones/sp-06/A1_cohorte_casos.mp4', label: 'Diseños', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Hacia adelante o hacia atrás',
+          say: 'La cohorte parte de la exposición y sigue hacia adelante para ver quién enferma. Casos y controles parte de la enfermedad y mira hacia atrás buscando la exposición.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Diseños de estudio',

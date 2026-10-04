@@ -2,7 +2,7 @@
   "id": "sp-06",
   "title": "Saludpublica 21.6: Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
   "specialty": "Salud Pública",
-  "chars": 11473,
+  "chars": 11637,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,138 +106,142 @@
     },
     {
       "file": "s08_g00",
-      "text": "Si el investigador asigna la exposición, es experimental. Si no, es observacional, y se divide según haya grupo de comparación."
+      "text": "La cohorte parte de la exposición y sigue hacia adelante para ver quién enferma. Casos y controles parte de la enfermedad y mira hacia atrás buscando la exposición."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora juntemos todo en el árbol de decisión completo, tal como lo vas a razonar en el examen. Frente a cualquier viñeta metodológica, la primera pregunta es si el investigador controló o no la exposición."
-    },
-    {
-      "file": "s09_g01",
-      "text": "La aleatorización distribuye por igual los factores de confusión conocidos y desconocidos entre los grupos, y es el estándar de oro para probar causalidad."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Si la unidad de análisis son países o comunas completas, ya es un estudio ecológico; si son personas, sigue la pregunta siguiente."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Correlaciona variables medidas a nivel de grupo; su trampa es atribuir esa asociación grupal a cada individuo."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Si se seleccionó a sujetos sanos según su exposición, es cohortes; si se seleccionó a enfermos y sanos y se miró hacia atrás, es casos y controles."
-    },
-    {
-      "file": "s09_g05",
-      "text": "De elección para exposiciones infrecuentes; su riesgo principal son las pérdidas de seguimiento."
-    },
-    {
-      "file": "s09_g06",
-      "text": "De elección para enfermedades raras o de larga latencia; su riesgo principal es el sesgo de memoria."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Rápido y útil para planificar recursos, pero con ambigüedad temporal: no permite saber si la causa precedió al efecto."
+      "text": "Si el investigador asigna la exposición, es experimental. Si no, es observacional, y se divide según haya grupo de comparación."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas del examen con una tabla. Frente a una enfermedad muy rara, el diseño óptimo es casos y controles, porque permite reunir suficientes enfermos sin esperar décadas. Su riesgo principal es el sesgo de memoria."
+      "text": "Ahora juntemos todo en el árbol de decisión completo, tal como lo vas a razonar en el examen. Frente a cualquier viñeta metodológica, la primera pregunta es si el investigador controló o no la exposición."
     },
     {
       "file": "s10_g01",
-      "text": "Frente a una exposición infrecuente, como un tóxico laboral, el diseño óptimo es cohortes, que garantiza seguir a los expuestos y ver múltiples desenlaces. Su riesgo principal son las pérdidas de seguimiento."
+      "text": "La aleatorización distribuye por igual los factores de confusión conocidos y desconocidos entre los grupos, y es el estándar de oro para probar causalidad."
     },
     {
       "file": "s10_g02",
-      "text": "Frente a la eficacia de un fármaco nuevo, el diseño óptimo es el ensayo clínico aleatorizado doble ciego, porque la aleatorización neutraliza los factores de confusión. Su riesgo es perder validez externa si los criterios de inclusión son demasiado estrictos."
+      "text": "Si la unidad de análisis son países o comunas completas, ya es un estudio ecológico; si son personas, sigue la pregunta siguiente."
     },
     {
       "file": "s10_g03",
-      "text": "Y frente a la pregunta de cuánta gente tiene diabetes en Chile hoy, el diseño óptimo es el estudio transversal poblacional, con la ambigüedad temporal como su límite: no establece causa, solo retrata un momento."
+      "text": "Correlaciona variables medidas a nivel de grupo; su trampa es atribuir esa asociación grupal a cada individuo."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Si se seleccionó a sujetos sanos según su exposición, es cohortes; si se seleccionó a enfermos y sanos y se miró hacia atrás, es casos y controles."
+    },
+    {
+      "file": "s10_g05",
+      "text": "De elección para exposiciones infrecuentes; su riesgo principal son las pérdidas de seguimiento."
+    },
+    {
+      "file": "s10_g06",
+      "text": "De elección para enfermedades raras o de larga latencia; su riesgo principal es el sesgo de memoria."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Rápido y útil para planificar recursos, pero con ambigüedad temporal: no permite saber si la causa precedió al efecto."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Un equipo de salud pública quiere estudiar si la exposición laboral al plomo se asocia con insuficiencia renal crónica. Reclutan a cuatrocientos trabajadores de fundiciones, sin enfermedad renal al ingresar, los clasifican según su nivel de exposición al plomo, y los siguen todos los años durante doce años, midiendo su función renal."
+      "text": "Repasemos las trampas del examen con una tabla. Frente a una enfermedad muy rara, el diseño óptimo es casos y controles, porque permite reunir suficientes enfermos sin esperar décadas. Su riesgo principal es el sesgo de memoria."
     },
     {
       "file": "s11_g01",
-      "text": "¿A qué diseño de estudio corresponde esta investigación?"
+      "text": "Frente a una exposición infrecuente, como un tóxico laboral, el diseño óptimo es cohortes, que garantiza seguir a los expuestos y ver múltiples desenlaces. Su riesgo principal son las pérdidas de seguimiento."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: estudio de cohortes prospectivo, estudio de casos y controles, estudio transversal, ensayo clínico aleatorizado, o estudio ecológico. Piénsalo."
+      "text": "Frente a la eficacia de un fármaco nuevo, el diseño óptimo es el ensayo clínico aleatorizado doble ciego, porque la aleatorización neutraliza los factores de confusión. Su riesgo es perder validez externa si los criterios de inclusión son demasiado estrictos."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, cohortes prospectivo. Los trabajadores se seleccionaron sanos al inicio, según su exposición al plomo, y se les siguió en el tiempo para ver quién desarrolla la enfermedad. Esa es la firma de un estudio de cohortes: selección por exposición y seguimiento longitudinal. Y es justo el diseño de elección aquí, porque la exposición al plomo es infrecuente en la población general."
+      "text": "Y frente a la pregunta de cuánta gente tiene diabetes en Chile hoy, el diseño óptimo es el estudio transversal poblacional, con la ambigüedad temporal como su límite: no establece causa, solo retrata un momento."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Un estudio analiza la tasa de infarto al miocardio en distintos países, según el consumo de grasas saturadas de cada país, sin seguir a ningún individuo en el tiempo."
+      "text": "Vamos con un caso. Un equipo de salud pública quiere estudiar si la exposición laboral al plomo se asocia con insuficiencia renal crónica. Reclutan a cuatrocientos trabajadores de fundiciones, sin enfermedad renal al ingresar, los clasifican según su nivel de exposición al plomo, y los siguen todos los años durante doce años, midiendo su función renal."
     },
     {
       "file": "s12_g01",
-      "text": "¿Qué tipo de diseño epidemiológico corresponde?"
+      "text": "¿A qué diseño de estudio corresponde esta investigación?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: estudio ecológico, estudio de cohorte, estudio de casos y controles, ensayo clínico aleatorizado, o estudio transversal."
+      "text": "Las opciones: estudio de cohortes prospectivo, estudio de casos y controles, estudio transversal, ensayo clínico aleatorizado, o estudio ecológico. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A, estudio ecológico. La unidad de análisis son países completos, no personas: se comparan tasas agregadas, y nadie sigue a ningún individuo. Ese es el sello del estudio ecológico, y su límite es justamente el que vimos: la falacia ecológica, porque esa asociación entre países no prueba nada sobre una persona en particular."
+      "text": "Es la A, cohortes prospectivo. Los trabajadores se seleccionaron sanos al inicio, según su exposición al plomo, y se les siguió en el tiempo para ver quién desarrolla la enfermedad. Esa es la firma de un estudio de cohortes: selección por exposición y seguimiento longitudinal. Y es justo el diseño de elección aquí, porque la exposición al plomo es infrecuente en la población general."
     },
     {
       "file": "s13_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve, va directo al punto: cuál es el diseño de estudio más adecuado para estudiar enfermedades muy infrecuentes."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Un estudio analiza la tasa de infarto al miocardio en distintos países, según el consumo de grasas saturadas de cada país, sin seguir a ningún individuo en el tiempo."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diseño de estudio más adecuado para estudiar enfermedades muy infrecuentes?"
+      "text": "¿Qué tipo de diseño epidemiológico corresponde?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: cohortes prospectivas, caso control, de prevalencia, ensayo clínico, o cohortes retrospectiva."
+      "text": "Las opciones: estudio ecológico, estudio de cohorte, estudio de casos y controles, ensayo clínico aleatorizado, o estudio transversal."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B, casos y controles. Con una enfermedad rara, reunir suficientes enfermos por cohorte tomaría años y una población enorme; casos y controles va directo a buscar a los pocos que ya están enfermos, y por eso es más eficiente y más barato."
+      "text": "Es la A, estudio ecológico. La unidad de análisis son países completos, no personas: se comparan tasas agregadas, y nadie sigue a ningún individuo. Ese es el sello del estudio ecológico, y su límite es justamente el que vimos: la falacia ecológica, porque esa asociación entre países no prueba nada sobre una persona en particular."
     },
     {
       "file": "s14_g00",
-      "text": "Y esta pregunta real, del EUNACOM de julio de dos mil dieciséis, prueba si entiendes qué se puede calcular con los datos que realmente tienes. En un estudio de cohortes sobre tabaco y cáncer de pulmón, después de veinte años, sesenta y cinco de dos mil pacientes fumadores desarrollaron cáncer."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve, va directo al punto: cuál es el diseño de estudio más adecuado para estudiar enfermedades muy infrecuentes."
     },
     {
       "file": "s14_g01",
-      "text": "¿Qué medida es posible calcular con esta información?"
+      "text": "¿Cuál es el diseño de estudio más adecuado para estudiar enfermedades muy infrecuentes?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: incidencia acumulada en los fumadores, prevalencia en los fumadores, riesgo relativo, odds ratio, o tasa de ataque en los fumadores."
+      "text": "Las opciones: cohortes prospectivas, caso control, de prevalencia, ensayo clínico, o cohortes retrospectiva."
     },
     {
       "file": "s14_g03",
-      "text": "Es la A. Solo tienes datos del grupo de fumadores, así que lo único calculable es su incidencia acumulada: sesenta y cinco dividido en dos mil. Para calcular el riesgo relativo o el odds ratio necesitarías también el dato de los no fumadores, que esta pregunta no te da. Fíjate en la trampa: el estudio es de cohortes, pero eso no significa que siempre puedas calcular el Riesgo Relativo si te falta la mitad de la tabla."
+      "text": "Es la B, casos y controles. Con una enfermedad rara, reunir suficientes enfermos por cohorte tomaría años y una población enorme; casos y controles va directo a buscar a los pocos que ya están enfermos, y por eso es más eficiente y más barato."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Si seleccionaron a los sujetos por su exposición, estando sanos al inicio, es cohortes."
+      "text": "Y esta pregunta real, del EUNACOM de julio de dos mil dieciséis, prueba si entiendes qué se puede calcular con los datos que realmente tienes. En un estudio de cohortes sobre tabaco y cáncer de pulmón, después de veinte años, sesenta y cinco de dos mil pacientes fumadores desarrollaron cáncer."
     },
     {
       "file": "s15_g01",
-      "text": "Si los seleccionaron por tener o no la enfermedad, y miraron hacia atrás, es casos y controles."
+      "text": "¿Qué medida es posible calcular con esta información?"
     },
     {
       "file": "s15_g02",
-      "text": "Si midieron todo junto, en un solo momento, es transversal."
+      "text": "Las opciones: incidencia acumulada en los fumadores, prevalencia en los fumadores, riesgo relativo, odds ratio, o tasa de ataque en los fumadores."
     },
     {
       "file": "s15_g03",
+      "text": "Es la A. Solo tienes datos del grupo de fumadores, así que lo único calculable es su incidencia acumulada: sesenta y cinco dividido en dos mil. Para calcular el riesgo relativo o el odds ratio necesitarías también el dato de los no fumadores, que esta pregunta no te da. Fíjate en la trampa: el estudio es de cohortes, pero eso no significa que siempre puedas calcular el Riesgo Relativo si te falta la mitad de la tabla."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Si seleccionaron a los sujetos por su exposición, estando sanos al inicio, es cohortes."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Si los seleccionaron por tener o no la enfermedad, y miraron hacia atrás, es casos y controles."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Si midieron todo junto, en un solo momento, es transversal."
+    },
+    {
+      "file": "s16_g03",
       "text": "Si el investigador asignó la exposición de forma activa, es experimental, un ensayo clínico."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "Y si la unidad de análisis son países o comunas enteras, es ecológico, con su riesgo de falacia ecológica. Si te llevas una sola idea de hoy: antes de mirar cualquier otro detalle de la viñeta, pregúntate cómo se seleccionó a los sujetos. Esa respuesta casi siempre resuelve el diseño completo. Nos vemos en la próxima clase."
     }
   ]

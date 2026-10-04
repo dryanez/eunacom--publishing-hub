@@ -2,7 +2,7 @@
   "id": "gin-11",
   "title": "Ginecologia 20.11: Enfermedad Pélvica Inflamatoria (EIP / PIP): Criterios de Hager, Clasificación de Monif y Esquemas Terapéuticos",
   "specialty": "Ginecología",
-  "chars": 7469,
+  "chars": 7574,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,79 +106,67 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión. Partamos de la sospecha. Lo primero es aplicar los criterios de Hager."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Necesitas los tres presentes para diagnosticar."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Sin los tres criterios mayores, no puedes llamarlo enfermedad pélvica inflamatoria: busca otra causa del dolor."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Con el diagnóstico confirmado, revisa si hay algún criterio de hospitalización."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Sin criterios de gravedad, tratamiento ambulatorio con los tres antibióticos, y control en cuarenta y ocho a setenta y dos horas."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Con algún criterio de gravedad, hospitalizas y usas la vía endovenosa, vigilando si el absceso necesita drenaje quirúrgico."
+      "text": "Mira esta imagen: absceso tubarico eco dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las trampas. Con los tres criterios mayores de Hager, ya puedes diagnosticar. El error es demorar el tratamiento pidiendo estudios de imagen primero."
+      "text": "Ahora juntemos todo en un solo árbol de decisión. Partamos de la sospecha. Lo primero es aplicar los criterios de Hager."
     },
     {
       "file": "s08_g01",
-      "text": "Absceso tubo-ovárico visto en la ecografía: hospitalización obligatoria. El error es tratarlo de forma ambulatoria porque la paciente luce bien."
+      "text": "Necesitas los tres presentes para diagnosticar."
     },
     {
       "file": "s08_g02",
-      "text": "Dolor en el hipocondrio derecho junto con una EIP: piensa en Fitz-Hugh-Curtis. El error es enfocarse solo en la vesícula."
+      "text": "Sin los tres criterios mayores, no puedes llamarlo enfermedad pélvica inflamatoria: busca otra causa del dolor."
     },
     {
       "file": "s08_g03",
-      "text": "Y un DIU instalado hace un año: ya no es factor de riesgo. El error es retirarlo sin necesidad, cuando el riesgo real solo dura las primeras semanas."
+      "text": "Con el diagnóstico confirmado, revisa si hay algún criterio de hospitalización."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Sin criterios de gravedad, tratamiento ambulatorio con los tres antibióticos, y control en cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Con algún criterio de gravedad, hospitalizas y usas la vía endovenosa, vigilando si el absceso necesita drenaje quirúrgico."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso. Mujer de veintitrés años, sexualmente activa, con dolor en el hipogastrio de tres días, fiebre de treinta y ocho coma seis, y flujo purulento. Al tacto bimanual, dolor al mover el cuello uterino y dolor anexial de los dos lados, sin masas. La ecografía no muestra colecciones, y el test de embarazo es negativo."
+      "text": "Repasemos las trampas. Con los tres criterios mayores de Hager, ya puedes diagnosticar. El error es demorar el tratamiento pidiendo estudios de imagen primero."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Absceso tubo-ovárico visto en la ecografía: hospitalización obligatoria. El error es tratarlo de forma ambulatoria porque la paciente luce bien."
     },
     {
       "file": "s09_g02",
-      "text": "Tienes cinco opciones: hospitalizar para tratamiento endovenoso, laparoscopía de urgencia, ceftriaxona más doxiciclina y metronidazol orales por catorce días, solo doxiciclina por siete días, o retirar el DIU y esperar. Piénsalo."
+      "text": "Dolor en el hipocondrio derecho junto con una EIP: piensa en Fitz-Hugh-Curtis. El error es enfocarse solo en la vesícula."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C. Cumple los tres criterios mayores de Hager, y la fiebre suma como criterio menor: es una enfermedad pélvica inflamatoria. Sin masas ni signos de gravedad, no hay motivo para hospitalizar. El esquema ambulatorio completo, con los tres antibióticos, es lo que corresponde."
+      "text": "Y un DIU instalado hace un año: ya no es factor de riesgo. El error es retirarlo sin necesidad, cuando el riesgo real solo dura las primeras semanas."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de veinticinco años, sexualmente activa, sin métodos de barrera, con fiebre, dolor abdominal, disuria, y leucorrea. Temperatura de treinta y ocho grados, dolor abdominal mayor en la fosa ilíaca derecha, y dolor a la palpación bimanual."
+      "text": "Vamos al caso. Mujer de veintitrés años, sexualmente activa, con dolor en el hipogastrio de tres días, fiebre de treinta y ocho coma seis, y flujo purulento. Al tacto bimanual, dolor al mover el cuello uterino y dolor anexial de los dos lados, sin masas. La ecografía no muestra colecciones, y el test de embarazo es negativo."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: Escherichia coli, Gardnerella vaginalis, Trichomona vaginalis, estreptococo grupo A, o gonococo. Piénsalo."
+      "text": "Tienes cinco opciones: hospitalizar para tratamiento endovenoso, laparoscopía de urgencia, ceftriaxona más doxiciclina y metronidazol orales por catorce días, solo doxiciclina por siete días, o retirar el DIU y esperar. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E, gonococo. El cuadro es una enfermedad pélvica inflamatoria clásica, y el gonococo, junto con la Chlamydia, son los agentes que inician casi todos estos cuadros. La Gardnerella y la Trichomona dan flujo vaginal, no esta clínica de dolor pélvico con fiebre."
+      "text": "Es la C. Cumple los tres criterios mayores de Hager, y la fiebre suma como criterio menor: es una enfermedad pélvica inflamatoria. Sin masas ni signos de gravedad, no hay motivo para hospitalizar. El esquema ambulatorio completo, con los tres antibióticos, es lo que corresponde."
     },
     {
       "file": "s11_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, sexualmente activa, con disuria y dolor abdominal bajo que se extiende al hipocondrio derecho, con leucorrea sin mal olor."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de veinticinco años, sexualmente activa, sin métodos de barrera, con fiebre, dolor abdominal, disuria, y leucorrea. Temperatura de treinta y ocho grados, dolor abdominal mayor en la fosa ilíaca derecha, y dolor a la palpación bimanual."
     },
     {
       "file": "s11_g01",
@@ -186,30 +174,46 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: Enterococcus faecalis, Ureaplasma urealyticum, Chlamydia trachomatis, Treponema pallidum, o Mycoplasma genitalium. Piénsalo."
+      "text": "Las opciones: Escherichia coli, Gardnerella vaginalis, Trichomona vaginalis, estreptococo grupo A, o gonococo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, Chlamydia trachomatis. El dolor que sube hasta el hipocondrio derecho es el síndrome de Fitz-Hugh-Curtis, la perihepatitis que acompaña a la enfermedad pélvica inflamatoria, y su causa habitual es justamente la Chlamydia, o el gonococo."
+      "text": "Es la E, gonococo. El cuadro es una enfermedad pélvica inflamatoria clásica, y el gonococo, junto con la Chlamydia, son los agentes que inician casi todos estos cuadros. La Gardnerella y la Trichomona dan flujo vaginal, no esta clínica de dolor pélvico con fiebre."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Los tres criterios mayores de Hager: dolor en el hipogastrio, al mover el cuello, y en los anexos."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, sexualmente activa, con disuria y dolor abdominal bajo que se extiende al hipocondrio derecho, con leucorrea sin mal olor."
     },
     {
       "file": "s12_g01",
-      "text": "Y un criterio menor lo refuerza: fiebre, leucorrea, o el laboratorio alterado."
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "El absceso tubo-ovárico siempre se hospitaliza."
+      "text": "Las opciones: Enterococcus faecalis, Ureaplasma urealyticum, Chlamydia trachomatis, Treponema pallidum, o Mycoplasma genitalium. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C, Chlamydia trachomatis. El dolor que sube hasta el hipocondrio derecho es el síndrome de Fitz-Hugh-Curtis, la perihepatitis que acompaña a la enfermedad pélvica inflamatoria, y su causa habitual es justamente la Chlamydia, o el gonococo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Los tres criterios mayores de Hager: dolor en el hipogastrio, al mover el cuello, y en los anexos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Y un criterio menor lo refuerza: fiebre, leucorrea, o el laboratorio alterado."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El absceso tubo-ovárico siempre se hospitaliza."
+    },
+    {
+      "file": "s13_g03",
       "text": "Sin absceso, sin embarazo y sin peritonitis difusa, el esquema ambulatorio de catorce días funciona bien."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Si te llevas una sola idea de hoy: ante dolor en el hipocondrio derecho en una mujer joven con antecedente pélvico, piensa en Fitz-Hugh-Curtis antes que en la vesícula. Nos vemos en la próxima clase."
     }
   ]

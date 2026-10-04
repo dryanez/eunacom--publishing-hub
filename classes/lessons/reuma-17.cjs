@@ -215,6 +215,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_2__amir-reuma_p79.jpg', label: 'Columna en ea sindesmofitos bambu 2', credit: 'Manual AMIR Reumatología, p. 79' },
+      ],
+      steps: [
+        { note: 'Columna en ea sindesmofitos bambu 2',
+          say: 'Mira esta imagen: columna en ea sindesmofitos bambu dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

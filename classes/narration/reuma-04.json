@@ -2,7 +2,7 @@
   "id": "reuma-04",
   "title": "Reumatologia 9.4: Artrosis / Osteoartritis: Diagnóstico Clínico, Radiología y Terapia Escalonada",
   "specialty": "Reumatología",
-  "chars": 10794,
+  "chars": 11110,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,138 +110,150 @@
     },
     {
       "file": "s07_g00",
-      "text": "Veamos el algoritmo diagnóstico y terapéutico completo de la artrosis. Paciente con dolor articular que empeora al caminar o cargar peso, con rigidez matinal menor a treinta minutos y crepitación ósea."
+      "text": "Mira esta imagen: heberden y bouchard dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g01",
-      "text": "Se solicita radiografía en carga. Confirma disminución asimétrica del espacio, esclerosis subcondral y osteofitos, sin erosiones."
+      "text": "Mira esta imagen: heberden y bouchard tres. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g02",
-      "text": "Si la radiografía de rodilla es normal, recuerda examinar la cadera en busca de patología coxofemoral o evaluar bursitis periarticular."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Toda artrosis requiere educación, reducción de peso, fortalecimiento muscular del cuádriceps y asistencia de marcha con bastón contralateral."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Se inicia analgesia con paracetamol en dosis de hasta un gramo cada ocho horas."
-    },
-    {
-      "file": "s07_g05",
-      "text": "El dolor se controla adecuadamente. Se mantiene paracetamol a demanda y se continúa con el programa kinesiológico de mantención."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si el paracetamol es insuficiente y no hay contraindicaciones, se indican antiinflamatorios tópicos o ciclos cortos de antiinflamatorios orales."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Si el paciente tiene insuficiencia cardíaca, daño renal crónico o hipertensión descompensada, los AINEs orales están prohibidos: se indica tramadol oral o infiltración con corticoides."
-    },
-    {
-      "file": "s07_g08",
-      "text": "En dolor refractario e impotencia funcional invalidante se deriva a traumatología para reemplazo protésico total de cadera o rodilla. En Chile la endoprótesis de cadera está garantizada por el GES desde los sesenta y cinco años."
+      "text": "Mira esta imagen: artrosis de rodilla rx dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos la tabla comparativa. El ritmo del dolor en la artrosis es puramente mecánico: empeora al caminar y cede al sentarse. En la artritis reumatoide es inflamatorio: despierta de noche y mejora con la actividad."
+      "text": "Veamos el algoritmo diagnóstico y terapéutico completo de la artrosis. Paciente con dolor articular que empeora al caminar o cargar peso, con rigidez matinal menor a treinta minutos y crepitación ósea."
     },
     {
       "file": "s08_g01",
-      "text": "En las manos la artrosis afecta las interfalángicas distales con nódulos de Heberden y la base del pulgar. La artritis reumatoide compromete metacarpofalángicas y muñecas, respetando siempre las distales."
+      "text": "Se solicita radiografía en carga. Confirma disminución asimétrica del espacio, esclerosis subcondral y osteofitos, sin erosiones."
     },
     {
       "file": "s08_g02",
-      "text": "En la radiografía la artrosis muestra pinzamiento asimétrico, esclerosis y osteofitos sin osteopenia. La artritis reumatoide muestra erosiones marginales y osteopenia periarticular."
+      "text": "Si la radiografía de rodilla es normal, recuerda examinar la cadera en busca de patología coxofemoral o evaluar bursitis periarticular."
     },
     {
       "file": "s08_g03",
-      "text": "Y en el tratamiento, la artrosis parte con paracetamol y baja de peso; la artritis reumatoide requiere fármacos modificadores como metotrexato desde el primer día."
+      "text": "Toda artrosis requiere educación, reducción de peso, fortalecimiento muscular del cuádriceps y asistencia de marcha con bastón contralateral."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Se inicia analgesia con paracetamol en dosis de hasta un gramo cada ocho horas."
+    },
+    {
+      "file": "s08_g05",
+      "text": "El dolor se controla adecuadamente. Se mantiene paracetamol a demanda y se continúa con el programa kinesiológico de mantención."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si el paracetamol es insuficiente y no hay contraindicaciones, se indican antiinflamatorios tópicos o ciclos cortos de antiinflamatorios orales."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si el paciente tiene insuficiencia cardíaca, daño renal crónico o hipertensión descompensada, los AINEs orales están prohibidos: se indica tramadol oral o infiltración con corticoides."
+    },
+    {
+      "file": "s08_g08",
+      "text": "En dolor refractario e impotencia funcional invalidante se deriva a traumatología para reemplazo protésico total de cadera o rodilla. En Chile la endoprótesis de cadera está garantizada por el GES desde los sesenta y cinco años."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso clínico. Mujer de sesenta y cuatro años que consulta por dolor mecánico en ambas rodillas de ocho meses, con crepitación articular, nódulos duros en articulaciones interfalángicas distales y radiografía con pinzamiento asimétrico y osteofitos."
+      "text": "Repasemos la tabla comparativa. El ritmo del dolor en la artrosis es puramente mecánico: empeora al caminar y cede al sentarse. En la artritis reumatoide es inflamatorio: despierta de noche y mejora con la actividad."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la primera medida farmacológica más adecuada para iniciar su tratamiento?"
+      "text": "En las manos la artrosis afecta las interfalángicas distales con nódulos de Heberden y la base del pulgar. La artritis reumatoide compromete metacarpofalángicas y muñecas, respetando siempre las distales."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: prednisona oral, paracetamol un gramo cada ocho horas, metotrexato semanal, infiltración con ácido hialurónico, o celecoxib permanente. Piénsalo."
+      "text": "En la radiografía la artrosis muestra pinzamiento asimétrico, esclerosis y osteofitos sin osteopenia. La artritis reumatoide muestra erosiones marginales y osteopenia periarticular."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta correcta es la B. Es una artrosis de rodillas y manos de libro. La primera línea farmacológica recomendada es el paracetamol en dosis de un gramo cada ocho horas. Los corticoides orales y el metotrexato son para artritis inflamatorias como la artritis reumatoide, y los antiinflamatorios orales se reservan para cuando el paracetamol falla o hay brotes agudos dolorosos."
+      "text": "Y en el tratamiento, la artrosis parte con paracetamol y baja de peso; la artritis reumatoide requiere fármacos modificadores como metotrexato desde el primer día."
     },
     {
       "file": "s10_g00",
-      "text": "Pregunta real del EUNACOM de julio de dos mil diecisiete, pregunta ciento veintiuno. Paciente de sesenta y cuatro años con dolor en manos, caderas y rodillas, con nódulos de Heberden en interfalángicas, crepitación articular sin signos inflamatorios y limitación motora."
+      "text": "Vamos al caso clínico. Mujer de sesenta y cuatro años que consulta por dolor mecánico en ambas rodillas de ocho meses, con crepitación articular, nódulos duros en articulaciones interfalángicas distales y radiografía con pinzamiento asimétrico y osteofitos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento inicial más adecuado?"
+      "text": "¿Cuál es la primera medida farmacológica más adecuada para iniciar su tratamiento?"
     },
     {
       "file": "s10_g02",
-      "text": "Las alternativas: prednisona, paracetamol, metotrexato, bifosfonatos, o ibuprofeno. Piénsalo."
+      "text": "Las opciones: prednisona oral, paracetamol un gramo cada ocho horas, metotrexato semanal, infiltración con ácido hialurónico, o celecoxib permanente. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Nódulos de Heberden con crepitación sin signos inflamatorios es artrosis. El tratamiento inicial de elección es el paracetamol. El ibuprofeno es de segunda línea y tiene mayor toxicidad gástrica y renal, y fármacos como metotrexato o prednisona no tienen ningún rol en el manejo de la artrosis."
+      "text": "La respuesta correcta es la B. Es una artrosis de rodillas y manos de libro. La primera línea farmacológica recomendada es el paracetamol en dosis de un gramo cada ocho horas. Los corticoides orales y el metotrexato son para artritis inflamatorias como la artritis reumatoide, y los antiinflamatorios orales se reservan para cuando el paracetamol falla o hay brotes agudos dolorosos."
     },
     {
       "file": "s11_g00",
-      "text": "Examen de julio de dos mil dieciséis, pregunta ciento dos. Paciente de sesenta y un años con dolor y aumento de volumen en articulaciones interfalángicas proximales y distales. La radiografía muestra disminución del espacio articular en interfalángicas, compromiso de la primera carpometacarpiana y quistes subcondrales. Los anticuerpos antinucleares y el factor reumatoide resultan positivos."
+      "text": "Pregunta real del EUNACOM de julio de dos mil diecisiete, pregunta ciento veintiuno. Paciente de sesenta y cuatro años con dolor en manos, caderas y rodillas, con nódulos de Heberden en interfalángicas, crepitación articular sin signos inflamatorios y limitación motora."
     },
     {
       "file": "s11_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "¿Cuál es el tratamiento inicial más adecuado?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: artritis psoriásica, artritis reumatoide, artritis reactiva, condrocalcinosis, o artrosis. Piénsalo."
+      "text": "Las alternativas: prednisona, paracetamol, metotrexato, bifosfonatos, o ibuprofeno. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta correcta es la E. Esta pregunta es una de las trampas más elegantes del banco: te ponen anticuerpos antinucleares y factor reumatoide positivos para tentarte con artritis reumatoide. Pero mira la clínica: hay compromiso de interfalángicas distales y de la primera carpometacarpiana con quistes subcondrales, lo que es característico de artrosis. La artritis reumatoide jamás compromete las interfalángicas distales."
+      "text": "Es la B. Nódulos de Heberden con crepitación sin signos inflamatorios es artrosis. El tratamiento inicial de elección es el paracetamol. El ibuprofeno es de segunda línea y tiene mayor toxicidad gástrica y renal, y fármacos como metotrexato o prednisona no tienen ningún rol en el manejo de la artrosis."
     },
     {
       "file": "s12_g00",
-      "text": "Pregunta real de julio de dos mil dieciséis, pregunta nueve. Paciente de ochenta años con artrosis en tratamiento con paracetamol un gramo cada ocho horas con alivio parcial. Tiene hipertensión arterial e insuficiencia cardíaca congestiva en capacidad funcional tres."
+      "text": "Examen de julio de dos mil dieciséis, pregunta ciento dos. Paciente de sesenta y un años con dolor y aumento de volumen en articulaciones interfalángicas proximales y distales. La radiografía muestra disminución del espacio articular en interfalángicas, compromiso de la primera carpometacarpiana y quistes subcondrales. Los anticuerpos antinucleares y el factor reumatoide resultan positivos."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el mejor fármaco a agregar para continuar el manejo del dolor?"
+      "text": "El diagnóstico más probable es:"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: ibuprofeno oral, pregabalina oral, ketorolaco oral, lidocaína en parches, o tramadol oral. Piénsalo."
+      "text": "Las opciones: artritis psoriásica, artritis reumatoide, artritis reactiva, condrocalcinosis, o artrosis. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la E. Si bien los antiinflamatorios no esteroidales son la segunda línea analgésica tradicional, en un paciente con insuficiencia cardíaca en capacidad funcional tres están absolutamente contraindicados porque retienen sodio, elevan la presión y desencadenan edema pulmonar o falla renal. Por eso, el escalón correcto en este paciente frágil es un opioide débil como el tramadol."
+      "text": "La respuesta correcta es la E. Esta pregunta es una de las trampas más elegantes del banco: te ponen anticuerpos antinucleares y factor reumatoide positivos para tentarte con artritis reumatoide. Pero mira la clínica: hay compromiso de interfalángicas distales y de la primera carpometacarpiana con quistes subcondrales, lo que es característico de artrosis. La artritis reumatoide jamás compromete las interfalángicas distales."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las tres reglas de oro. El dolor de la artrosis es mecánico y cede al descansar, con rigidez matinal breve de menos de quince a treinta minutos."
+      "text": "Pregunta real de julio de dos mil dieciséis, pregunta nueve. Paciente de ochenta años con artrosis en tratamiento con paracetamol un gramo cada ocho horas con alivio parcial. Tiene hipertensión arterial e insuficiencia cardíaca congestiva en capacidad funcional tres."
     },
     {
       "file": "s13_g01",
-      "text": "En las manos compromete las interfalángicas distales con nódulos de Heberden y la primera carpometacarpiana, respetando las muñecas."
+      "text": "¿Cuál es el mejor fármaco a agregar para continuar el manejo del dolor?"
     },
     {
       "file": "s13_g02",
-      "text": "En la radiografía busca pinzamiento asimétrico, esclerosis, osteofitos y geodas. Nunca hay osteopenia periarticular ni erosiones."
+      "text": "Las opciones: ibuprofeno oral, pregabalina oral, ketorolaco oral, lidocaína en parches, o tramadol oral. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la E. Si bien los antiinflamatorios no esteroidales son la segunda línea analgésica tradicional, en un paciente con insuficiencia cardíaca en capacidad funcional tres están absolutamente contraindicados porque retienen sodio, elevan la presión y desencadenan edema pulmonar o falla renal. Por eso, el escalón correcto en este paciente frágil es un opioide débil como el tramadol."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las tres reglas de oro. El dolor de la artrosis es mecánico y cede al descansar, con rigidez matinal breve de menos de quince a treinta minutos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En las manos compromete las interfalángicas distales con nódulos de Heberden y la primera carpometacarpiana, respetando las muñecas."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En la radiografía busca pinzamiento asimétrico, esclerosis, osteofitos y geodas. Nunca hay osteopenia periarticular ni erosiones."
+    },
+    {
+      "file": "s14_g03",
       "text": "La primera línea farmacológica es siempre el paracetamol, junto con la baja de peso y el ejercicio."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y jamás indiques antiinflamatorios orales a pacientes con insuficiencia cardíaca o daño renal: escala directamente a tramadol. Si te llevas una sola idea de hoy: la artrosis ataca las interfalángicas distales con dolor mecánico y osteofitos, y se trata primero con paracetamol y bastón. Nos vemos en la próxima clase."
     }
   ]

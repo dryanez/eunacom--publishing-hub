@@ -2,7 +2,7 @@
   "id": "endo-09",
   "title": "Endocrinología 7.9: Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
   "specialty": "Endocrinología",
-  "chars": 12647,
+  "chars": 12858,
   "segments": [
     {
       "file": "s00_g00",
@@ -162,87 +162,79 @@
     },
     {
       "file": "s08_g00",
-      "text": "Juntemos todo en un árbol de decisión, desde el nódulo recién encontrado hasta la conducta final. Llega un paciente con un nódulo de un centímetro o más, o con algo sospechoso. El primer examen, siempre, es la TSH."
+      "text": "Mira esta imagen: bocio multinodular eco dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g01",
-      "text": "Si la TSH está suprimida, pide un cintigrama para saber si el nódulo capta más que el resto de la glándula."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Si es caliente, es autónomo y casi nunca maligno: no se punciona y se trata el hipertiroidismo."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Si la TSH es normal o alta, pide una ecografía, clasifica el nódulo con TI-RADS y compara su tamaño con el umbral de su categoría."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Si no alcanza el umbral, o es TR uno o dos, no se punciona: se vigila con ecografía cuando corresponde."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si lo supera, PAAF guiada por ecografía, y la conducta la define la categoría Bethesda."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Bethesda uno o tres: se repite la punción, y en el tres también sirven los paneles moleculares."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Bethesda dos: benigno, control ecográfico en doce a veinticuatro meses."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Bethesda cuatro: hemitiroidectomía diagnóstica, porque la cápsula solo se ve en la pieza completa."
-    },
-    {
-      "file": "s08_g09",
-      "text": "Bethesda cinco o seis: cirugía, con derivación por el GES de cáncer de tiroides."
+      "text": "Mira esta imagen: gammagrafía nódulo frío. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Nódulo con TSH suprimida: cintigrama. El error es puncionar de entrada, porque si es caliente, no se punciona."
+      "text": "Juntemos todo en un árbol de decisión, desde el nódulo recién encontrado hasta la conducta final. Llega un paciente con un nódulo de un centímetro o más, o con algo sospechoso. El primer examen, siempre, es la TSH."
     },
     {
       "file": "s09_g01",
-      "text": "Nódulo con TSH normal o elevada: ecografía. El error es pedir cintigrama."
+      "text": "Si la TSH está suprimida, pide un cintigrama para saber si el nódulo capta más que el resto de la glándula."
     },
     {
       "file": "s09_g02",
-      "text": "Un TR cinco de uno coma cuatro centímetros supera el umbral: PAAF guiada por ecografía. Controlar sin puncionar retrasa el diagnóstico."
+      "text": "Si es caliente, es autónomo y casi nunca maligno: no se punciona y se trata el hipertiroidismo."
     },
     {
       "file": "s09_g03",
-      "text": "Un TR cinco de siete milímetros, sin adenopatías: seguimiento ecográfico a los seis a doce meses. Aquí el error es el contrario, puncionar solo porque se ve feo."
+      "text": "Si la TSH es normal o alta, pide una ecografía, clasifica el nódulo con TI-RADS y compara su tamaño con el umbral de su categoría."
     },
     {
       "file": "s09_g04",
-      "text": "Bethesda dos: control ecográfico. No se opera."
+      "text": "Si no alcanza el umbral, o es TR uno o dos, no se punciona: se vigila con ecografía cuando corresponde."
     },
     {
       "file": "s09_g05",
-      "text": "Y Bethesda cuatro: hemitiroidectomía diagnóstica. Repetir la punción no sirve, porque ninguna aguja va a mostrarte la cápsula."
+      "text": "Si lo supera, PAAF guiada por ecografía, y la conducta la define la categoría Bethesda."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Bethesda uno o tres: se repite la punción, y en el tres también sirven los paneles moleculares."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Bethesda dos: benigno, control ecográfico en doce a veinticuatro meses."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Bethesda cuatro: hemitiroidectomía diagnóstica, porque la cápsula solo se ve en la pieza completa."
+    },
+    {
+      "file": "s09_g09",
+      "text": "Bethesda cinco o seis: cirugía, con derivación por el GES de cáncer de tiroides."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos a un caso. Hombre de treinta y nueve años, sin antecedentes familiares ni de radiación. Tiene un nódulo de dos centímetros, TSH normal, clasificado como TI-RADS cuatro. Se le hace una PAAF guiada, y el informe dice Bethesda cuatro, neoplasia folicular."
+      "text": "Repasemos las trampas. Nódulo con TSH suprimida: cintigrama. El error es puncionar de entrada, porque si es caliente, no se punciona."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Nódulo con TSH normal o elevada: ecografía. El error es pedir cintigrama."
     },
     {
       "file": "s10_g02",
-      "text": "Las alternativas: control ecográfico en seis meses, hemitiroidectomía diagnóstica, tiroidectomía total con vaciamiento, radioyodo, o repetir la PAAF con una aguja más gruesa. Piénsalo."
+      "text": "Un TR cinco de uno coma cuatro centímetros supera el umbral: PAAF guiada por ecografía. Controlar sin puncionar retrasa el diagnóstico."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, hemitiroidectomía diagnóstica. La citología vio células foliculares, pero la diferencia entre adenoma y carcinoma está en la cápsula y en los vasos, y eso solo lo muestra la pieza completa. El distractor tentador es repetir la punción: da lo mismo el calibre de la aguja, nunca vas a ver la cápsula. Y la tiroidectomía total con vaciamiento se adelanta a un cáncer que todavía no está demostrado."
+      "text": "Un TR cinco de siete milímetros, sin adenopatías: seguimiento ecográfico a los seis a doce meses. Aquí el error es el contrario, puncionar solo porque se ve feo."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Bethesda dos: control ecográfico. No se opera."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y Bethesda cuatro: hemitiroidectomía diagnóstica. Repetir la punción no sirve, porque ninguna aguja va a mostrarte la cápsula."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora, preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta años con un nódulo tiroideo elástico, indoloro, sin adenopatías. La TSH está en cero coma dos, bajo el rango normal, con T cuatro y T tres normales. La ecografía muestra un nódulo sólido, homogéneo, sin microcalcificaciones, de tres centímetros."
+      "text": "Vamos a un caso. Hombre de treinta y nueve años, sin antecedentes familiares ni de radiación. Tiene un nódulo de dos centímetros, TSH normal, clasificado como TI-RADS cuatro. Se le hace una PAAF guiada, y el informe dice Bethesda cuatro, neoplasia folicular."
     },
     {
       "file": "s11_g01",
@@ -250,62 +242,78 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: cintigrafía tiroidea, punción con aguja fina, controlar pruebas tiroideas en seis meses, tiroglobulina, o cirugía. Piénsalo."
+      "text": "Las alternativas: control ecográfico en seis meses, hemitiroidectomía diagnóstica, tiroidectomía total con vaciamiento, radioyodo, o repetir la PAAF con una aguja más gruesa. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, la cintigrafía. El detalle que decide todo es la TSH baja, aunque las hormonas sean normales. Con TSH suprimida, primero hay que saber si el nódulo es caliente. El distractor tentador es la punción, porque el nódulo mide tres centímetros; pero si es caliente, puncionarlo no tiene sentido. Y la tiroglobulina no sirve para estudiar un nódulo."
+      "text": "Es la B, hemitiroidectomía diagnóstica. La citología vio células foliculares, pero la diferencia entre adenoma y carcinoma está en la cápsula y en los vasos, y eso solo lo muestra la pieza completa. El distractor tentador es repetir la punción: da lo mismo el calibre de la aguja, nunca vas a ver la cápsula. Y la tiroidectomía total con vaciamiento se adelanta a un cáncer que todavía no está demostrado."
     },
     {
       "file": "s12_g00",
-      "text": "La segunda es del EUNACOM de julio de dos mil veinticuatro. Paciente de cincuenta años que nota un aumento de volumen en el cuello. Se palpa un nódulo duro de dos centímetros, y la TSH está en seis coma dos, elevada."
+      "text": "Ahora, preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta años con un nódulo tiroideo elástico, indoloro, sin adenopatías. La TSH está en cero coma dos, bajo el rango normal, con T cuatro y T tres normales. La ecografía muestra un nódulo sólido, homogéneo, sin microcalcificaciones, de tres centímetros."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el examen más adecuado para proseguir con el estudio?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones: T cuatro libre, ecografía cervical, cintigrafía, punción para citología, o anticuerpos antitiroideos. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Es la B, la ecografía. Aquí la TSH está alta, y eso te puede despistar hacia el hipotiroidismo. Pero recuerda la regla: TSH normal o elevada lleva a la ecografía. El distractor tentador es la punción directa, porque el nódulo es duro y mide dos centímetros; pero sin ecografía no sabes su categoría ni su umbral. Y el cintigrama queda solo para la TSH suprimida."
-    },
-    {
-      "file": "s13_g00",
-      "text": "La tercera es del EUNACOM de diciembre de dos mil diecisiete. Una ecografía de cuello muestra un nódulo sólido, redondeado, en el istmo, de cuatro milímetros, sin adenopatías. La TSH y la T cuatro libre son normales."
-    },
-    {
-      "file": "s13_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las opciones: cintigrafía tiroidea, punción con aguja fina, controlar pruebas tiroideas en seis meses, tiroglobulina, o cirugía. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, la cintigrafía. El detalle que decide todo es la TSH baja, aunque las hormonas sean normales. Con TSH suprimida, primero hay que saber si el nódulo es caliente. El distractor tentador es la punción, porque el nódulo mide tres centímetros; pero si es caliente, puncionarlo no tiene sentido. Y la tiroglobulina no sirve para estudiar un nódulo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La segunda es del EUNACOM de julio de dos mil veinticuatro. Paciente de cincuenta años que nota un aumento de volumen en el cuello. Se palpa un nódulo duro de dos centímetros, y la TSH está en seis coma dos, elevada."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el examen más adecuado para proseguir con el estudio?"
+    },
+    {
       "file": "s13_g02",
-      "text": "Las opciones: levotiroxina, levotiroxina en dosis de supresión, punción con aguja fina, cintigrafía, o seguimiento ecográfico. Piénsalo."
+      "text": "Las opciones: T cuatro libre, ecografía cervical, cintigrafía, punción para citología, o anticuerpos antitiroideos. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la E, seguimiento ecográfico. Cuatro milímetros, sin adenopatías: no llega a ningún umbral de punción, ni siquiera el del TR cinco. El distractor más tentador es la levotiroxina supresora, que suena a tratamiento, pero está en desuso. Y el cintigrama sobra, porque la TSH es normal."
+      "text": "Es la B, la ecografía. Aquí la TSH está alta, y eso te puede despistar hacia el hipotiroidismo. Pero recuerda la regla: TSH normal o elevada lleva a la ecografía. El distractor tentador es la punción directa, porque el nódulo es duro y mide dos centímetros; pero sin ecografía no sabes su categoría ni su umbral. Y el cintigrama queda solo para la TSH suprimida."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Ante un nódulo, primero TSH. Si está suprimida, cintigrama, y el nódulo caliente no se punciona."
+      "text": "La tercera es del EUNACOM de diciembre de dos mil diecisiete. Una ecografía de cuello muestra un nódulo sólido, redondeado, en el istmo, de cuatro milímetros, sin adenopatías. La TSH y la T cuatro libre son normales."
     },
     {
       "file": "s14_g01",
-      "text": "Si la TSH es normal o alta, ecografía con TI-RADS, y nunca cintigrama."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s14_g02",
-      "text": "La punción depende de la sospecha y el tamaño: TR cinco desde un centímetro, TR cuatro desde uno coma cinco, TR tres desde dos coma cinco, y los TR uno y dos nunca."
+      "text": "Las opciones: levotiroxina, levotiroxina en dosis de supresión, punción con aguja fina, cintigrafía, o seguimiento ecográfico. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la E, seguimiento ecográfico. Cuatro milímetros, sin adenopatías: no llega a ningún umbral de punción, ni siquiera el del TR cinco. El distractor más tentador es la levotiroxina supresora, que suena a tratamiento, pero está en desuso. Y el cintigrama sobra, porque la TSH es normal."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Ante un nódulo, primero TSH. Si está suprimida, cintigrama, y el nódulo caliente no se punciona."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Si la TSH es normal o alta, ecografía con TI-RADS, y nunca cintigrama."
+    },
+    {
+      "file": "s15_g02",
+      "text": "La punción depende de la sospecha y el tamaño: TR cinco desde un centímetro, TR cuatro desde uno coma cinco, TR tres desde dos coma cinco, y los TR uno y dos nunca."
+    },
+    {
+      "file": "s15_g03",
       "text": "Y bajo un centímetro, sin adenopatías ni antecedentes, se vigila aunque se vea sospechoso."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Bethesda dos se controla, Bethesda cuatro va a hemitiroidectomía diagnóstica, y cinco y seis van a cirugía por el GES. Si te llevas una sola idea de hoy: ante un nódulo, la primera pregunta no es si es cáncer, sino cómo está la TSH. En la próxima clase vemos qué pasa cuando la citología confirma el cáncer. Nos vemos en la próxima clase."
     }
   ]

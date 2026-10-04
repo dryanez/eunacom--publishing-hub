@@ -2,7 +2,7 @@
   "id": "endo-17",
   "title": "Endocrinología 7.17: Hipocalcemia Aguda y Crónica: Diagnóstico y Manejo de Emergencia",
   "specialty": "Endocrinología",
-  "chars": 10883,
+  "chars": 11005,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,99 +114,87 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en un árbol de decisión, como lo vas a razonar en el examen. Paciente con calcio corregido bajo, típicamente después de una tiroidectomía. La primera pregunta no es la cifra: es si tiene síntomas."
-    },
-    {
-      "file": "s06_g01",
-      "text": "¿Hay tetania, laringoespasmo o un QT prolongado en el electrocardiograma? Eso separa la emergencia del manejo ambulatorio."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si hay síntomas, es una emergencia: gluconato de calcio al diez por ciento, una a dos ampollas en diez a veinte minutos con monitor, y luego infusión continua."
-    },
-    {
-      "file": "s06_g03",
-      "text": "¿El calcio sube y los síntomas ceden? Si no responde a bolos repetidos, la pregunta es el magnesio."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si el magnesio está bajo, sulfato de magnesio endovenoso, uno a dos gramos en veinte minutos. Sin eso, la hipocalcemia es refractaria."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si responde, se mantiene la infusión hasta estabilizar y luego se pasa a la vía oral."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si es crónica y asintomática, manejo oral: carbonato de calcio con calcitriol, con meta en el límite bajo de lo normal para evitar la hipercalciuria."
+      "text": "Mira esta imagen: puntos de percusión del signo de Chvostek. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos en una tabla. Hipocalcemia aguda grave: Trousseau positivo, laringoespasmo o QT largo. Gluconato de calcio endovenoso lento, con monitor, y cuidando que no se extravase."
+      "text": "Juntemos todo en un árbol de decisión, como lo vas a razonar en el examen. Paciente con calcio corregido bajo, típicamente después de una tiroidectomía. La primera pregunta no es la cifra: es si tiene síntomas."
     },
     {
       "file": "s07_g01",
-      "text": "Hipocalcemia crónica estable: suele ser asintomática, y a largo plazo da cataratas y calcificación de los ganglios basales. Se trata por boca, con carbonato de calcio y calcitriol, y meta en ocho a ocho coma cinco."
+      "text": "¿Hay tetania, laringoespasmo o un QT prolongado en el electrocardiograma? Eso separa la emergencia del manejo ambulatorio."
     },
     {
       "file": "s07_g02",
-      "text": "Y la hipocalcemia por hipomagnesemia: la que no responde a bolos repetidos de calcio. La conducta es sulfato de magnesio endovenoso. La regla es medir siempre el magnesio antes de decir que el calcio falló."
+      "text": "Si hay síntomas, es una emergencia: gluconato de calcio al diez por ciento, una a dos ampollas en diez a veinte minutos con monitor, y luego infusión continua."
     },
     {
       "file": "s07_g03",
-      "text": "Una más, que viene directo de las preguntas reales. El paciente hipoparatiroideo que ya toma calcio oral y ahora tiene Chvostek o convulsiona: calcio endovenoso. El error es solo aumentar la dosis oral."
+      "text": "¿El calcio sube y los síntomas ceden? Si no responde a bolos repetidos, la pregunta es el magnesio."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si el magnesio está bajo, sulfato de magnesio endovenoso, uno a dos gramos en veinte minutos. Sin eso, la hipocalcemia es refractaria."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si responde, se mantiene la infusión hasta estabilizar y luego se pasa a la vía oral."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si es crónica y asintomática, manejo oral: carbonato de calcio con calcitriol, con meta en el límite bajo de lo normal para evitar la hipercalciuria."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de cincuenta y cuatro años, alcohólico crónico y desnutrido, que ingresa con tetania y parestesias. El calcio está en seis coma ocho. Le dan dos bolos de gluconato de calcio, y sigue tetánico, con el calcio en seis coma nueve."
+      "text": "Repasemos en una tabla. Hipocalcemia aguda grave: Trousseau positivo, laringoespasmo o QT largo. Gluconato de calcio endovenoso lento, con monitor, y cuidando que no se extravase."
     },
     {
       "file": "s08_g01",
-      "text": "¿Qué examen pides de inmediato?"
+      "text": "Hipocalcemia crónica estable: suele ser asintomática, y a largo plazo da cataratas y calcificación de los ganglios basales. Se trata por boca, con carbonato de calcio y calcitriol, y meta en ocho a ocho coma cinco."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: magnesemia, calcitonina, TSH, ácido fólico o plombemia. Piénsalo."
+      "text": "Y la hipocalcemia por hipomagnesemia: la que no responde a bolos repetidos de calcio. La conducta es sulfato de magnesio endovenoso. La regla es medir siempre el magnesio antes de decir que el calcio falló."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A, la magnesemia. Fíjate en las dos pistas: es alcohólico y desnutrido, y la hipocalcemia no responde al calcio. Eso es hipomagnesemia hasta demostrar lo contrario, porque sin magnesio no hay paratohormona. La calcitonina es el distractor más tentador porque también regula el calcio, pero no explica la refractariedad. Con sulfato de magnesio, recién ahí el calcio va a subir."
+      "text": "Una más, que viene directo de las preguntas reales. El paciente hipoparatiroideo que ya toma calcio oral y ahora tiene Chvostek o convulsiona: calcio endovenoso. El error es solo aumentar la dosis oral."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora las preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés. Paciente con tiroidectomía total e hipoparatiroidismo, que presenta debilidad, parestesias y signo de Chvostek positivo."
+      "text": "Vamos con un caso. Hombre de cincuenta y cuatro años, alcohólico crónico y desnutrido, que ingresa con tetania y parestesias. El calcio está en seis coma ocho. Le dan dos bolos de gluconato de calcio, y sigue tetánico, con el calcio en seis coma nueve."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento inicial?"
+      "text": "¿Qué examen pides de inmediato?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: calcitriol más calcio oral, gluconato de calcio endovenoso, carbonato de calcio oral, paratohormona recombinante, o terlipresina. Piénsalo."
+      "text": "Las opciones: magnesemia, calcitonina, TSH, ácido fólico o plombemia. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, gluconato de calcio endovenoso. Tiene síntomas y un signo de tetania latente, así que es una hipocalcemia sintomática. La trampa es la A: calcio oral con calcitriol es exactamente lo que va a necesitar después, pero es la mantención. La palabra clave del enunciado es inicial."
+      "text": "Es la A, la magnesemia. Fíjate en las dos pistas: es alcohólico y desnutrido, y la hipocalcemia no responde al calcio. Eso es hipomagnesemia hasta demostrar lo contrario, porque sin magnesio no hay paratohormona. La calcitonina es el distractor más tentador porque también regula el calcio, pero no explica la refractariedad. Con sulfato de magnesio, recién ahí el calcio va a subir."
     },
     {
       "file": "s10_g00",
-      "text": "La siguiente es del EUNACOM de diciembre de dos mil dieciocho. Paciente con tiroidectomía total e hipoparatiroidismo, que toma levotiroxina, calcio y vitamina D por boca. Hace dos días tiene una diarrea abundante, y ahora está débil, con calambres, reflejos vivos y Chvostek positivo."
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés. Paciente con tiroidectomía total e hipoparatiroidismo, que presenta debilidad, parestesias y signo de Chvostek positivo."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "¿Cuál es el tratamiento inicial?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: suero fisiológico, gluconato de calcio, suero glucosado con potasio, Ringer, o hidrocortisona, todos endovenosos. Piénsalo."
+      "text": "Las opciones: calcitriol más calcio oral, gluconato de calcio endovenoso, carbonato de calcio oral, paratohormona recombinante, o terlipresina. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Este paciente vive del calcio que absorbe por el intestino, y con la diarrea dejó de absorberlo. Los calambres, la hiperreflexia y el Chvostek son tetania. El distractor tentador es el suero, porque hay diarrea, pero la hidratación no corrige el calcio. Primero el gluconato de calcio endovenoso."
+      "text": "Es la B, gluconato de calcio endovenoso. Tiene síntomas y un signo de tetania latente, así que es una hipocalcemia sintomática. La trampa es la A: calcio oral con calcitriol es exactamente lo que va a necesitar después, pero es la mantención. La palabra clave del enunciado es inicial."
     },
     {
       "file": "s11_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro. Mujer de veintinueve años, operada del tiroides por un cáncer hace cinco meses, con una semana de astenia, nerviosismo y palpitaciones, que hoy convulsionó una vez. Está lúcida y sin focalidad. En los exámenes destaca un calcio de seis coma tres, con albúmina normal y fósforo alto."
+      "text": "La siguiente es del EUNACOM de diciembre de dos mil dieciocho. Paciente con tiroidectomía total e hipoparatiroidismo, que toma levotiroxina, calcio y vitamina D por boca. Hace dos días tiene una diarrea abundante, y ahora está débil, con calambres, reflejos vivos y Chvostek positivo."
     },
     {
       "file": "s11_g01",
@@ -214,30 +202,46 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: suero fisiológico, TAC de cerebro, calcio endovenoso, lorazepam endovenoso, o calcitonina. Piénsalo."
+      "text": "Las opciones: suero fisiológico, gluconato de calcio, suero glucosado con potasio, Ringer, o hidrocortisona, todos endovenosos. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, calcio endovenoso. Fíjate en la pista del fósforo: calcio bajo con fósforo alto es la firma de la falta de paratohormona, y el antecedente de tiroidectomía cierra el diagnóstico. La convulsión es una forma grave de hipocalcemia. El TAC y el lorazepam tientan porque convulsionó, pero no tratan la causa. Y la calcitonina es el error más grave: baja todavía más el calcio."
+      "text": "Es la B. Este paciente vive del calcio que absorbe por el intestino, y con la diarrea dejó de absorberlo. Los calambres, la hiperreflexia y el Chvostek son tetania. El distractor tentador es el suero, porque hay diarrea, pero la hidratación no corrige el calcio. Primero el gluconato de calcio endovenoso."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Hormigueo en la boca uno a tres días después de una tiroidectomía: hipoparatiroidismo postquirúrgico hasta demostrar lo contrario."
+      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro. Mujer de veintinueve años, operada del tiroides por un cáncer hace cinco meses, con una semana de astenia, nerviosismo y palpitaciones, que hoy convulsionó una vez. Está lúcida y sin focalidad. En los exámenes destaca un calcio de seis coma tres, con albúmina normal y fósforo alto."
     },
     {
       "file": "s12_g01",
-      "text": "El Trousseau es más sensible y específico que el Chvostek, y el electrocardiograma muestra un QT prolongado."
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Si tiene síntomas, gluconato de calcio endovenoso lento con monitor. La vía oral es la mantención, no el rescate."
+      "text": "Las opciones: suero fisiológico, TAC de cerebro, calcio endovenoso, lorazepam endovenoso, o calcitonina. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C, calcio endovenoso. Fíjate en la pista del fósforo: calcio bajo con fósforo alto es la firma de la falta de paratohormona, y el antecedente de tiroidectomía cierra el diagnóstico. La convulsión es una forma grave de hipocalcemia. El TAC y el lorazepam tientan porque convulsionó, pero no tratan la causa. Y la calcitonina es el error más grave: baja todavía más el calcio."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Hormigueo en la boca uno a tres días después de una tiroidectomía: hipoparatiroidismo postquirúrgico hasta demostrar lo contrario."
+    },
+    {
+      "file": "s13_g01",
+      "text": "El Trousseau es más sensible y específico que el Chvostek, y el electrocardiograma muestra un QT prolongado."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Si tiene síntomas, gluconato de calcio endovenoso lento con monitor. La vía oral es la mantención, no el rescate."
+    },
+    {
+      "file": "s13_g03",
       "text": "Si no responde, mide el magnesio y corrígelo."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y en el hipoparatiroidismo permanente, calcio oral con calcitriol, apuntando al límite bajo de lo normal. Si te llevas una sola idea de hoy: la hipocalcemia con síntomas se rescata con gluconato de calcio endovenoso, y la que no responde es un problema de magnesio. En la próxima clase pasamos del calcio al hueso, con la osteoporosis. Nos vemos en la próxima clase."
     }
   ]

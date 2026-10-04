@@ -97,6 +97,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-12/01_eritema-multiforme__amir-derma_p106.jpg', label: 'Eritema multiforme', credit: 'Manual AMIR Dermatología, p. 106' },
+      ],
+      steps: [
+        { note: 'Eritema multiforme',
+          say: 'Mira esta imagen: eritema multiforme. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la diana al tratamiento, y sin perder de vista a Stevens-Johnson.',
     },

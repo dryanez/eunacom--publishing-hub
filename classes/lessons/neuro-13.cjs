@@ -157,6 +157,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg', label: 'Espiral arquimedes', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Espiral arquimedes',
+          say: 'Mira esta imagen: espiral arquimedes. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: qué temblor es, y qué hacer si lo que ves no es un temblor, sino una distonía.',
     },

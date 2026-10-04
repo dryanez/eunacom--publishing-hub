@@ -159,6 +159,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El Doppler en la restricción',
+      images: [
+        { src: 'animaciones/ob-04/A1_redistribucion.mp4', label: 'Redistribución', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El feto protege su cerebro',
+          say: 'En la restricción, la placenta ofrece más resistencia: el flujo diastólico umbilical cae, puede desaparecer o invertirse. Mientras, la cerebral media recibe más flujo: el feto protege su cerebro.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Doppler en la restricción de crecimiento',
@@ -171,6 +185,23 @@ module.exports = {
           say: 'El Doppler de la arteria umbilical progresa: diástole presente, luego ausente, luego reversa. Cuanto peor, más urgente la interrupción.' },
         { note: 'Arteria umbilical',
           say: 'Y así se ve el Doppler de la arteria umbilical en la ecografía.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_2__cto-gyo_p121.jpg', label: 'Doppler arteria umbilical 2', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' },
+        { src: 'biblioteca/14_obstetricia/ob-04/02_ondas-doppler-patologicas-tabla__amir-gyo_p23.jpg', label: 'Ondas doppler patológicas', credit: 'Manual AMIR Ginecología y Obstetricia, p. 23' },
+      ],
+      steps: [
+        { note: 'Doppler arteria umbilical 2',
+          say: 'Mira esta imagen: doppler arteria umbilical dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Ondas doppler patológicas',
+          say: 'Mira esta imagen: ondas Doppler patológicas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 

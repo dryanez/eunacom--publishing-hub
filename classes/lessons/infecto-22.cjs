@@ -190,6 +190,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-22/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' },
+        { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_2__cto-pediatria_p102.jpg', label: 'Escarlatina lengua pastia 2', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+      ],
+      steps: [
+        { note: 'Rubéola',
+          say: 'Mira esta imagen: rubéola. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Escarlatina lengua pastia 2',
+          say: 'Mira esta imagen: escarlatina lengua pastia dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos los exantemas en un árbol de decisión.',
     },

@@ -131,6 +131,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg', label: 'Blefaritis', credit: 'Manual AMIR Oftalmología, p. 57' },
+      ],
+      steps: [
+        { note: 'Blefaritis',
+          say: 'Mira esta imagen: blefaritis. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos los cuatro cuadros en un solo árbol: localización, dolor, y qué hacer.',
     },

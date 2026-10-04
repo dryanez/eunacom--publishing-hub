@@ -187,6 +187,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-14/02_nodulo-maligno-vs-benigno-eco-mama__cto-gyo_p9.jpg', label: 'Nódulo maligno vs benigno', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 9' },
+        { src: 'biblioteca/13_ginecologia/gin-14/03_fibroadenoma-mamografia__cto-radiologia_p132.jpg', label: 'Fibroadenoma', credit: 'Manual CTO Radiología 14.ª ed., p. 132' },
+        { src: 'biblioteca/13_ginecologia/gin-14/04_carcinoma-inflamatorio__cto-gyo_p20.jpg', label: 'Carcinoma inflamatorio', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 20' },
+      ],
+      steps: [
+        { note: 'Nódulo maligno vs benigno',
+          say: 'Mira esta imagen: nódulo maligno vs benigno. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Fibroadenoma',
+          say: 'Mira esta imagen: fibroadenoma. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Carcinoma inflamatorio',
+          say: 'Mira esta imagen: carcinoma inflamatorio. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el informe BI-RADS y la conducta en un solo árbol de decisión.',
     },

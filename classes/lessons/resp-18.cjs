@@ -156,6 +156,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-18/02_patrones-intersticiales_1__cto-neumo_p80.jpg', label: 'Patrones intersticiales', credit: 'Manual CTO Neumología 14.ª ed., p. 80' },
+        { src: 'biblioteca/02_neumologia/resp-18/02_patrones-intersticiales_2__cto-neumo_p80.jpg', label: 'Patrones intersticiales 2', credit: 'Manual CTO Neumología 14.ª ed., p. 80' },
+      ],
+      steps: [
+        { note: 'Patrones intersticiales',
+          say: 'Mira esta imagen: patrones intersticiales. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Patrones intersticiales 2',
+          say: 'Mira esta imagen: patrones intersticiales dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

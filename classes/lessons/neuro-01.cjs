@@ -317,6 +317,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_2__cto-radiologia_p62.jpg', label: 'Signos precoces tc acm hiperdensa 2', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
+        { src: 'biblioteca/09_neurologia/neuro-01/04_territorios-vasculares__cto-neuro_p35.jpg', label: 'Territorios vasculares', credit: 'Manual CTO Neurología 14.ª ed., p. 35' },
+      ],
+      steps: [
+        { note: 'Signos precoces tc acm hiperdensa 2',
+          say: 'Mira esta imagen: signos precoces tc acm hiperdensa dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Territorios vasculares',
+          say: 'Mira esta imagen: territorios vasculares. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en urgencias y en el examen.',
     },

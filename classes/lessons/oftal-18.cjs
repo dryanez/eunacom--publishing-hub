@@ -127,6 +127,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La linterna oscilante',
+      images: [
+        { src: 'animaciones/oftal-18/A1_linterna_oscilante.mp4', label: 'Marcus Gunn', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Pupila que se dilata',
+          say: 'Al iluminar el ojo sano, ambas pupilas se contraen. Al pasar la luz al ojo enfermo, ambas se dilatan, porque ese nervio óptico conduce menos luz. Es el defecto pupilar aferente.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'La pupila y el nervio óptico',
@@ -139,6 +153,23 @@ module.exports = {
           say: 'Al pasar la linterna al ojo enfermo, la pupila se dilata: es el defecto pupilar aferente.' },
         { note: 'Papila hinchada',
           say: 'Y el papiledema, la papila hinchada por hipertensión intracraneana.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg', label: 'Pupila de adie', credit: 'Manual AMIR Oftalmología, p. 23' },
+        { src: 'biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg', label: 'Marcus gunn', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Pupila de adie',
+          say: 'Mira esta imagen: pupila de Adie. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Marcus gunn',
+          say: 'Mira esta imagen: marcus gunn. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 

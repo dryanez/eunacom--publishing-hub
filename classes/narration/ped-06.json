@@ -2,7 +2,7 @@
   "id": "ped-06",
   "title": "Pediatria 18.6: Laringitis Aguda Obstructiva / Croup: Score de Taussig, Adrenalina Racémica y Dexametasona",
   "specialty": "Pediatría",
-  "chars": 10391,
+  "chars": 10497,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,114 +102,118 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora pongamos el grado y el tratamiento en un solo árbol de decisión. Tienes un niño con disfonía, tos perruna y estridor. Antes de tratarlo, define el grado."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Pregúntate si el estridor aparece solo con el llanto, si ya está en reposo, o si además aparece al espirar."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Solo con el llanto es grado uno. Dexametasona oral en dosis única, y se va a la casa."
-    },
-    {
-      "file": "s07_g03",
-      "text": "En reposo pero sin mucha disnea es grado dos leve. Dexametasona oral, y observas antes de decidir el alta."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Con disnea marcada, sea grado dos sintomático o grado tres, sumas adrenalina racémica nebulizada a la dexametasona."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si mejora, igual se queda en observación al menos dos horas, porque el efecto de la adrenalina se acaba y el edema puede volver."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si no mejora y el niño se agota, con estridor que se apaga, es grado cuatro: hospitaliza y considera asegurar la vía aérea."
+      "text": "Mira esta imagen: epiglotitis \"rojo cereza\". Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos con la tabla. Estridor solo con el llanto: dexametasona oral y a la casa. El error es no tratarlo por parecer demasiado leve."
+      "text": "Ahora pongamos el grado y el tratamiento en un solo árbol de decisión. Tienes un niño con disfonía, tos perruna y estridor. Antes de tratarlo, define el grado."
     },
     {
       "file": "s08_g01",
-      "text": "Estridor en reposo con disnea: adrenalina nebulizada más dexametasona. El error es dar solo la dexametasona y esperar a que actúe sola."
+      "text": "Pregúntate si el estridor aparece solo con el llanto, si ya está en reposo, o si además aparece al espirar."
     },
     {
       "file": "s08_g02",
-      "text": "Si recibió adrenalina y mejoró rápido, igual se observa al menos dos horas. El error clásico es dar el alta apenas mejora, sin esperar el rebote."
+      "text": "Solo con el llanto es grado uno. Dexametasona oral en dosis única, y se va a la casa."
     },
     {
       "file": "s08_g03",
-      "text": "Sialorrea, sin tos perruna, aspecto tóxico: sospechas epiglotitis y vas a pabellón. El error que puede matar es examinar la garganta con el bajalenguas."
+      "text": "En reposo pero sin mucha disnea es grado dos leve. Dexametasona oral, y observas antes de decidir el alta."
     },
     {
       "file": "s08_g04",
-      "text": "Y si el estridor se apaga en un niño que se ve grave, pálido y decaído, es agotamiento, y hay que actuar de inmediato. El error clásico es leerlo como una mejoría y bajar la guardia."
+      "text": "Con disnea marcada, sea grado dos sintomático o grado tres, sumas adrenalina racémica nebulizada a la dexametasona."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si mejora, igual se queda en observación al menos dos horas, porque el efecto de la adrenalina se acaba y el edema puede volver."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no mejora y el niño se agota, con estridor que se apaga, es grado cuatro: hospitaliza y considera asegurar la vía aérea."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Niño de dos años, con dos días de coriza, que esta noche presenta disfonía, tos perruna y estridor inspiratorio audible en reposo. Tiraje subcostal leve. Está sin fiebre, sin sialorrea, y se ve en buenas condiciones entre los episodios de tos."
+      "text": "Repasemos con la tabla. Estridor solo con el llanto: dexametasona oral y a la casa. El error es no tratarlo por parecer demasiado leve."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Estridor en reposo con disnea: adrenalina nebulizada más dexametasona. El error es dar solo la dexametasona y esperar a que actúe sola."
     },
     {
       "file": "s09_g02",
-      "text": "Tienes cinco opciones: dexametasona oral en dosis única con observación breve, solo observación sin fármacos, adrenalina racémica y hospitalización directa, amoxicilina oral, o intubación preventiva. Piénsalo."
+      "text": "Si recibió adrenalina y mejoró rápido, igual se observa al menos dos horas. El error clásico es dar el alta apenas mejora, sin esperar el rebote."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. El estridor en reposo con tiraje leve es un grado dos moderado, y en todos los grados va la dexametasona oral. La adrenalina la reservas para más disnea de la que tiene este niño, así que sería exagerada, y sin adrenalina tampoco necesita las dos horas de observación por rebote. Y fíjate que está afebril y sin sialorrea, justo lo contrario de la epiglotitis."
+      "text": "Sialorrea, sin tos perruna, aspecto tóxico: sospechas epiglotitis y vas a pabellón. El error que puede matar es examinar la garganta con el bajalenguas."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y si el estridor se apaga en un niño que se ve grave, pálido y decaído, es agotamiento, y hay que actuar de inmediato. El error clásico es leerlo como una mejoría y bajar la guardia."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Lactante de doce meses, con tos, rinorrea y fiebre hasta treinta y ocho con ocho, de un día de evolución, al que hoy se le agregó dificultad respiratoria. Al examen: estridor inspiratorio que aumenta con el llanto, y tiraje intercostal moderado. Satura noventa y cuatro, y el murmullo pulmonar está conservado en ambos lados, con transmisión de ruidos desde arriba."
+      "text": "Vamos con un caso. Niño de dos años, con dos días de coriza, que esta noche presenta disfonía, tos perruna y estridor inspiratorio audible en reposo. Tiraje subcostal leve. Está sin fiebre, sin sialorrea, y se ve en buenas condiciones entre los episodios de tos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: laringitis aguda obstructiva, neumonía atípica, neumonía bilateral, asma del lactante, o neumonitis viral."
+      "text": "Tienes cinco opciones: dexametasona oral en dosis única con observación breve, solo observación sin fármacos, adrenalina racémica y hospitalización directa, amoxicilina oral, o intubación preventiva. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A, laringitis aguda obstructiva. El dato clave que descarta las neumonías es que el murmullo pulmonar está conservado: el ruido que escuchas viene de arriba, de la vía aérea superior, y se transmite hacia abajo. Si el problema estuviera en el pulmón, esperarías crépitos o murmullo disminuido, no un pulmón limpio."
+      "text": "Es la A. El estridor en reposo con tiraje leve es un grado dos moderado, y en todos los grados va la dexametasona oral. La adrenalina la reservas para más disnea de la que tiene este niño, así que sería exagerada, y sin adrenalina tampoco necesita las dos horas de observación por rebote. Y fíjate que está afebril y sin sialorrea, justo lo contrario de la epiglotitis."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niña de tres años, previamente sana, con dos días de rinorrea y fiebre de treinta y nueve, con tos disfónica, a la que se agrega dificultad respiratoria hace una hora. Al examen: frecuencia respiratoria de cuarenta y ocho, estridor tanto al inspirar como al espirar, y tiraje subcostal y supraesternal."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Lactante de doce meses, con tos, rinorrea y fiebre hasta treinta y ocho con ocho, de un día de evolución, al que hoy se le agregó dificultad respiratoria. Al examen: estridor inspiratorio que aumenta con el llanto, y tiraje intercostal moderado. Satura noventa y cuatro, y el murmullo pulmonar está conservado en ambos lados, con transmisión de ruidos desde arriba."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: adrenalina subcutánea, nebulizar con salbutamol, intubación orotraqueal, nebulizar con bromuro de ipratropio, o nebulizar con adrenalina racémica."
+      "text": "Las opciones: laringitis aguda obstructiva, neumonía atípica, neumonía bilateral, asma del lactante, o neumonitis viral."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. El estridor en ambos tiempos respiratorios con tiraje intenso te ubica en un grado tres grave, y ahí la adrenalina racémica nebulizada es lo que corresponde, junto con oxígeno y dexametasona. El salbutamol y el ipratropio actúan en el bronquio, no en la subglotis, así que aquí no tienen ningún rol."
+      "text": "Es la A, laringitis aguda obstructiva. El dato clave que descarta las neumonías es que el murmullo pulmonar está conservado: el ruido que escuchas viene de arriba, de la vía aérea superior, y se transmite hacia abajo. Si el problema estuviera en el pulmón, esperarías crépitos o murmullo disminuido, no un pulmón limpio."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Disfonía, tos perruna y estridor: eso es croup, y la dexametasona oral va en todos los grados, sin excepción, incluso en el más leve de todos."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niña de tres años, previamente sana, con dos días de rinorrea y fiebre de treinta y nueve, con tos disfónica, a la que se agrega dificultad respiratoria hace una hora. Al examen: frecuencia respiratoria de cuarenta y ocho, estridor tanto al inspirar como al espirar, y tiraje subcostal y supraesternal."
     },
     {
       "file": "s12_g01",
-      "text": "Sumas adrenalina nebulizada cuando el estridor ya está en reposo con dificultad respiratoria clara, no solo por tener estridor en reposo sin más."
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Y si la usaste, dos horas de observación, sin excepción, por el efecto rebote que puede devolver la obstrucción."
+      "text": "Las opciones: adrenalina subcutánea, nebulizar con salbutamol, intubación orotraqueal, nebulizar con bromuro de ipratropio, o nebulizar con adrenalina racémica."
     },
     {
       "file": "s12_g03",
+      "text": "Es la E. El estridor en ambos tiempos respiratorios con tiraje intenso te ubica en un grado tres grave, y ahí la adrenalina racémica nebulizada es lo que corresponde, junto con oxígeno y dexametasona. El salbutamol y el ipratropio actúan en el bronquio, no en la subglotis, así que aquí no tienen ningún rol."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Disfonía, tos perruna y estridor: eso es croup, y la dexametasona oral va en todos los grados, sin excepción, incluso en el más leve de todos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Sumas adrenalina nebulizada cuando el estridor ya está en reposo con dificultad respiratoria clara, no solo por tener estridor en reposo sin más."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Y si la usaste, dos horas de observación, sin excepción, por el efecto rebote que puede devolver la obstrucción."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y si el niño se ve tóxico, con sialorrea y sin tos perruna, sospecha epiglotitis y jamás uses el bajalenguas. Si te llevas una sola idea de hoy: la dexametasona oral es para todos, la adrenalina es para el que tiene disnea, y después de la adrenalina, siempre se observa. Nos vemos en la próxima clase."
     }
   ]

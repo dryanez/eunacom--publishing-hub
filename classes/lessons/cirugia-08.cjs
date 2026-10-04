@@ -119,6 +119,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-08/01_hidradenitis-supurativa__cto-derma_p61.jpg', label: 'Hidradenitis supurativa', credit: 'Manual CTO Dermatología 14.ª ed., p. 61' },
+      ],
+      steps: [
+        { note: 'Hidradenitis supurativa',
+          say: 'Mira esta imagen: hidradenitis supurativa. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo esto en un solo árbol de decisión.',
     },

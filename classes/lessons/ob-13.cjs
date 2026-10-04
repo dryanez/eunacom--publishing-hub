@@ -170,6 +170,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg', label: 'Abruptio placentae', credit: 'Manual AMIR Ginecología y Obstetricia, p. 38' },
+      ],
+      steps: [
+        { note: 'Abruptio placentae',
+          say: 'Mira esta imagen: abruptio placentae. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los cuatro cuadros en un solo árbol de decisión.',
     },

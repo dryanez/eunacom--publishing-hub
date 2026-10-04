@@ -211,6 +211,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg', label: 'Adenocarcinoma de ovario', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
+        { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_2__cto-radiologia_p141.jpg', label: 'Adenocarcinoma de ovario tc rm 2', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
+        { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg', label: 'Endometrio engrosado y histeroscopia', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' },
+      ],
+      steps: [
+        { note: 'Adenocarcinoma de ovario',
+          say: 'Mira esta imagen: adenocarcinoma de ovario. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Adenocarcinoma de ovario tc rm 2',
+          say: 'Mira esta imagen: adenocarcinoma de ovario tc rm dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Endometrio engrosado y histeroscopia',
+          say: 'Mira esta imagen: endometrio engrosado y histeroscopia. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el sangrado postmenopáusico y la masa anexial en un solo árbol de decisión.',
     },

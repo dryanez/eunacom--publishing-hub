@@ -2,7 +2,7 @@
   "id": "oftal-18",
   "title": "Oftalmologia 15.18: Neuroftalmología: Neuritis Óptica, Edema de Papila y Defecto Pupilar de Marcus Gunn",
   "specialty": "Oftalmología",
-  "chars": 11457,
+  "chars": 11821,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,115 +90,95 @@
     },
     {
       "file": "s05_g00",
-      "text": "Al pasar la linterna al ojo enfermo, la pupila se dilata: es el defecto pupilar aferente."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Y el papiledema, la papila hinchada por hipertensión intracraneana."
+      "text": "Al iluminar el ojo sano, ambas pupilas se contraen. Al pasar la luz al ojo enfermo, ambas se dilatan, porque ese nervio óptico conduce menos luz. Es el defecto pupilar aferente."
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Ante un paciente con pérdida de visión o cefalea con síntomas visuales, examina primero las pupilas con la linterna oscilante, antes de fijarte en el fondo de ojo."
+      "text": "Al pasar la linterna al ojo enfermo, la pupila se dilata: es el defecto pupilar aferente."
     },
     {
       "file": "s06_g01",
-      "text": "Haz la prueba de la linterna oscilante: mira si ambas pupilas se dilatan al pasar la luz al ojo afectado."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Sospecha neuritis óptica: es unilateral, duele al mover el ojo, y suele haber discromatopsia para el rojo."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Pide resonancia de encéfalo y órbitas con gadolinio, buscando otras placas desmielinizantes que definan el riesgo de esclerosis múltiple."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Inicia pulsos de metilprednisolona endovenosa, un gramo al día por tres a cinco días. Nunca prednisona oral sola: duplica las recurrencias."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Sospecha papiledema: es bilateral, sin dolor ocular, con visión conservada al inicio y cefalea que empeora en la mañana."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Pide neuroimagen urgente antes que cualquier otra cosa: si hay una masa y punzas primero, el riesgo es una hernia cerebral."
+      "text": "Y el papiledema, la papila hinchada por hipertensión intracraneana."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. La neuritis es típicamente unilateral; el papiledema, casi siempre bilateral."
+      "text": "Mira esta imagen: pupila de Adie. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g01",
-      "text": "El dolor con los movimientos está en la neuritis; en el papiledema no hay dolor ocular, sino cefalea que empeora en la mañana."
-    },
-    {
-      "file": "s07_g02",
-      "text": "La agudeza visual cae bruscamente en la neuritis; en el papiledema se conserva al comienzo."
-    },
-    {
-      "file": "s07_g03",
-      "text": "El fondo de ojo es normal en la mayoría de las neuritis; en el papiledema el edema es evidente y bilateral."
-    },
-    {
-      "file": "s07_g04",
-      "text": "El defecto pupilar aferente está presente en la neuritis; en el papiledema las pupilas son normales."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Y las trampas: descartar la neuritis porque el fondo de ojo se ve normal es el error más común; y puncionar al paciente con papiledema antes de la neuroimagen es el error que puede herniar el cerebro."
+      "text": "Mira esta imagen: marcus gunn. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de veintisiete años, con disminución progresiva de la visión en su ojo derecho desde hace tres días, con dolor sordo detrás del ojo que aumenta al mover la mirada, y que ve los objetos rojos descoloridos con ese ojo. Con la linterna oscilante, al iluminar el ojo derecho ambas pupilas se dilatan de forma paradójica. El fondo de ojo no muestra alteraciones."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Ante un paciente con pérdida de visión o cefalea con síntomas visuales, examina primero las pupilas con la linterna oscilante, antes de fijarte en el fondo de ojo."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Haz la prueba de la linterna oscilante: mira si ambas pupilas se dilatan al pasar la luz al ojo afectado."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: tranquilizarla porque el fondo de ojo es normal, pedir resonancia magnética con gadolinio e iniciar pulsos de metilprednisolona endovenosa, indicar prednisona oral a dosis bajas, hacer una punción lumbar de inmediato, o pedir tomografía de órbita por sospecha de celulitis orbitaria. Piénsalo."
+      "text": "Sospecha neuritis óptica: es unilateral, duele al mover el ojo, y suele haber discromatopsia para el rojo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Tiene la tríada completa: baja visual subaguda, dolor con los movimientos, discromatopsia para el rojo, y el defecto pupilar aferente confirma que el nervio óptico está comprometido. El fondo de ojo normal no descarta nada, porque la mayoría de las neuritis son retrobulbares. Se pide resonancia con gadolinio y se inicia metilprednisolona endovenosa, nunca prednisona oral sola."
+      "text": "Pide resonancia de encéfalo y órbitas con gadolinio, buscando otras placas desmielinizantes que definan el riesgo de esclerosis múltiple."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Inicia pulsos de metilprednisolona endovenosa, un gramo al día por tres a cinco días. Nunca prednisona oral sola: duplica las recurrencias."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Sospecha papiledema: es bilateral, sin dolor ocular, con visión conservada al inicio y cefalea que empeora en la mañana."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Pide neuroimagen urgente antes que cualquier otra cosa: si hay una masa y punzas primero, el riesgo es una hernia cerebral."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Una paciente de veintiséis años, con antecedente de esclerosis múltiple, consulta por disminución de la agudeza visual del ojo derecho, de dos días de evolución, con dolor retroocular leve que aumenta con los movimientos. Al examen tiene defecto pupilar aferente en el ojo derecho y un escotoma en ese mismo ojo."
+      "text": "Repasemos las trampas. La neuritis es típicamente unilateral; el papiledema, casi siempre bilateral."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "El dolor con los movimientos está en la neuritis; en el papiledema no hay dolor ocular, sino cefalea que empeora en la mañana."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: desprendimiento de retina, trombosis de la vena central de la retina, trombosis de arteria central de la retina, neuritis óptica, o absceso orbitario. Piénsalo."
+      "text": "La agudeza visual cae bruscamente en la neuritis; en el papiledema se conserva al comienzo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D. La combinación de baja visual subaguda, dolor con los movimientos oculares y defecto pupilar aferente ya arma el cuadro, y el antecedente de esclerosis múltiple lo confirma. Las trombosis vasculares de retina no dan este dolor con la motilidad, y el absceso orbitario daría proptosis y fiebre, que aquí no aparecen."
+      "text": "El fondo de ojo es normal en la mayoría de las neuritis; en el papiledema el edema es evidente y bilateral."
+    },
+    {
+      "file": "s09_g04",
+      "text": "El defecto pupilar aferente está presente en la neuritis; en el papiledema las pupilas son normales."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y las trampas: descartar la neuritis porque el fondo de ojo se ve normal es el error más común; y puncionar al paciente con papiledema antes de la neuroimagen es el error que puede herniar el cerebro."
     },
     {
       "file": "s10_g00",
-      "text": "Y una segunda pregunta real, del EUNACOM de diciembre de dos mil diecisiete, que insiste en el mismo tema con un ángulo distinto. Una paciente con antecedente de esclerosis múltiple consulta por dolor ocular derecho, de dos días de evolución, con visión borrosa agregada. Su agudeza visual es de nueve décimos en el ojo derecho y de diez décimos en el izquierdo, y en el ojo derecho está muy afectada la visión de colores."
+      "text": "Vamos con un caso. Mujer de veintisiete años, con disminución progresiva de la visión en su ojo derecho desde hace tres días, con dolor sordo detrás del ojo que aumenta al mover la mirada, y que ve los objetos rojos descoloridos con ese ojo. Con la linterna oscilante, al iluminar el ojo derecho ambas pupilas se dilatan de forma paradójica. El fondo de ojo no muestra alteraciones."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: discromatopsia, retinitis pigmentosa, coriorretinitis, desprendimiento de retina, o neuritis óptica. Piénsalo."
+      "text": "Las opciones son: tranquilizarla porque el fondo de ojo es normal, pedir resonancia magnética con gadolinio e iniciar pulsos de metilprednisolona endovenosa, indicar prednisona oral a dosis bajas, hacer una punción lumbar de inmediato, o pedir tomografía de órbita por sospecha de celulitis orbitaria. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E. Fíjate en el detalle que hace especial esta pregunta: la agudeza visual apenas está alterada, casi normal, y aun así la respuesta es neuritis óptica, porque la discromatopsia puede adelantarse a la caída franca de la visión. La opción discromatopsia es la trampa, porque nombra el hallazgo, pero no es un diagnóstico: es un síntoma de la neuritis, en el contexto de esclerosis múltiple y dolor ocular reciente."
+      "text": "Es la B. Tiene la tríada completa: baja visual subaguda, dolor con los movimientos, discromatopsia para el rojo, y el defecto pupilar aferente confirma que el nervio óptico está comprometido. El fondo de ojo normal no descarta nada, porque la mayoría de las neuritis son retrobulbares. Se pide resonancia con gadolinio y se inicia metilprednisolona endovenosa, nunca prednisona oral sola."
     },
     {
       "file": "s11_g00",
-      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veinticinco, que cambia de tema dentro de la misma clase, hacia el papiledema. Una paciente de cuarenta y cinco años, con hipertensión arterial y migraña, consulta por una cefalea más intensa de lo habitual, desde hace dos meses, que empezó predominando en la mañana y ahora dura todo el día, con náuseas y vómitos explosivos. No ha respondido a analgésicos ni a ergotamínicos."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Una paciente de veintiséis años, con antecedente de esclerosis múltiple, consulta por disminución de la agudeza visual del ojo derecho, de dos días de evolución, con dolor retroocular leve que aumenta con los movimientos. Al examen tiene defecto pupilar aferente en el ojo derecho y un escotoma en ese mismo ojo."
     },
     {
       "file": "s11_g01",
@@ -206,26 +186,58 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: síndrome de hipertensión endocraneana, hemorragia subaracnoidea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos. Piénsalo."
+      "text": "Las opciones son: desprendimiento de retina, trombosis de la vena central de la retina, trombosis de arteria central de la retina, neuritis óptica, o absceso orbitario. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. La cefalea de predominio matinal, junto con náuseas y vómitos, arma dos de los tres elementos del síndrome de hipertensión endocraneana; el tercero, el edema de papila, se confirma con el fondo de ojo. El tumor cerebral podría ser la causa de fondo, pero el diagnóstico sindromático que responde la pregunta es la hipertensión endocraneana, y lo siguiente es fondo de ojo más neuroimagen, nunca punción lumbar primero."
+      "text": "Es la D. La combinación de baja visual subaguda, dolor con los movimientos oculares y defecto pupilar aferente ya arma el cuadro, y el antecedente de esclerosis múltiple lo confirma. Las trombosis vasculares de retina no dan este dolor con la motilidad, y el absceso orbitario daría proptosis y fiebre, que aquí no aparecen."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. El defecto pupilar aferente relativo, la pupila de Marcus Gunn, es el signo más sensible de una lesión asimétrica del nervio óptico, y se busca con la linterna oscilante."
+      "text": "Y una segunda pregunta real, del EUNACOM de diciembre de dos mil diecisiete, que insiste en el mismo tema con un ángulo distinto. Una paciente con antecedente de esclerosis múltiple consulta por dolor ocular derecho, de dos días de evolución, con visión borrosa agregada. Su agudeza visual es de nueve décimos en el ojo derecho y de diez décimos en el izquierdo, y en el ojo derecho está muy afectada la visión de colores."
     },
     {
       "file": "s12_g01",
-      "text": "La neuritis óptica es baja visual monocular subaguda, con dolor al mover el ojo y discromatopsia. El fondo de ojo normal en la mayoría de los casos no descarta el diagnóstico."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Y su vínculo con la esclerosis múltiple exige resonancia con gadolinio, y tratamiento con pulsos de metilprednisolona endovenosa, nunca prednisona oral sola."
+      "text": "Las opciones son: discromatopsia, retinitis pigmentosa, coriorretinitis, desprendimiento de retina, o neuritis óptica. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la E. Fíjate en el detalle que hace especial esta pregunta: la agudeza visual apenas está alterada, casi normal, y aun así la respuesta es neuritis óptica, porque la discromatopsia puede adelantarse a la caída franca de la visión. La opción discromatopsia es la trampa, porque nombra el hallazgo, pero no es un diagnóstico: es un síntoma de la neuritis, en el contexto de esclerosis múltiple y dolor ocular reciente."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veinticinco, que cambia de tema dentro de la misma clase, hacia el papiledema. Una paciente de cuarenta y cinco años, con hipertensión arterial y migraña, consulta por una cefalea más intensa de lo habitual, desde hace dos meses, que empezó predominando en la mañana y ahora dura todo el día, con náuseas y vómitos explosivos. No ha respondido a analgésicos ni a ergotamínicos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: síndrome de hipertensión endocraneana, hemorragia subaracnoidea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A. La cefalea de predominio matinal, junto con náuseas y vómitos, arma dos de los tres elementos del síndrome de hipertensión endocraneana; el tercero, el edema de papila, se confirma con el fondo de ojo. El tumor cerebral podría ser la causa de fondo, pero el diagnóstico sindromático que responde la pregunta es la hipertensión endocraneana, y lo siguiente es fondo de ojo más neuroimagen, nunca punción lumbar primero."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. El defecto pupilar aferente relativo, la pupila de Marcus Gunn, es el signo más sensible de una lesión asimétrica del nervio óptico, y se busca con la linterna oscilante."
+    },
+    {
+      "file": "s14_g01",
+      "text": "La neuritis óptica es baja visual monocular subaguda, con dolor al mover el ojo y discromatopsia. El fondo de ojo normal en la mayoría de los casos no descarta el diagnóstico."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Y su vínculo con la esclerosis múltiple exige resonancia con gadolinio, y tratamiento con pulsos de metilprednisolona endovenosa, nunca prednisona oral sola."
+    },
+    {
+      "file": "s14_g03",
       "text": "Si te llevas una sola idea de hoy: la neuritis es unilateral, dolorosa y con defecto pupilar; el papiledema es bilateral, sin dolor, y antes de puncionar siempre va la neuroimagen. Nos vemos en la próxima clase."
     }
   ]

@@ -211,6 +211,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-21/02_faringoamigdalitis-estreptococica__cto-infecto_p51.jpg', label: 'Faringoamigdalitis estreptocócica', credit: 'Manual CTO Infecciosas 14.ª ed., p. 51' },
+      ],
+      steps: [
+        { note: 'Faringoamigdalitis estreptocócica',
+          say: 'Mira esta imagen: faringoamigdalitis estreptocócica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el síndrome mononucleósico en un árbol de decisión.',
     },

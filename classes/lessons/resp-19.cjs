@@ -229,6 +229,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-19/02_arteriografia-pulmonar__cto-neumo_p104.jpg', label: 'Arteriografía pulmonar', credit: 'Manual CTO Neumología 14.ª ed., p. 104' },
+      ],
+      steps: [
+        { note: 'Arteriografía pulmonar',
+          say: 'Mira esta imagen: arteriografía pulmonar. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -216,6 +216,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg', label: 'Patogenia esferocitosis', credit: 'Manual CTO Hematología 14.ª ed., p. 30' },
+        { src: 'biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_2__cto-hemato_p30.jpg', label: 'Patogenia esferocitosis 2', credit: 'Manual CTO Hematología 14.ª ed., p. 30' },
+      ],
+      steps: [
+        { note: 'Patogenia esferocitosis',
+          say: 'Mira esta imagen: patogenia esferocitosis. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Patogenia esferocitosis 2',
+          say: 'Mira esta imagen: patogenia esferocitosis dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres en un solo árbol, partiendo desde el Coombs.',
     },

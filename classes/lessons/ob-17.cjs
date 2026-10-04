@@ -188,6 +188,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_2__cto-gyo_p172.jpg', label: 'Deceleraciones tardias variables precoce', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 172' },
+        { src: 'biblioteca/14_obstetricia/ob-17/02_rctg-normal__cto-gyo_p171.jpg', label: 'Rctg normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' },
+      ],
+      steps: [
+        { note: 'Deceleraciones tardias variables precoce',
+          say: 'Mira esta imagen: deceleraciones tardias variables precoce dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Rctg normal',
+          say: 'Mira esta imagen: RCTG normal. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las dos urgencias de hoy en un solo árbol de decisión.',
     },

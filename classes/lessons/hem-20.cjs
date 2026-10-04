@@ -214,6 +214,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-20/02_medula-mielodisplasica__amir-hemato_p50.jpg', label: 'Médula mielodisplásica', credit: 'Manual AMIR Hematología, p. 50' },
+      ],
+      steps: [
+        { note: 'Médula mielodisplásica',
+          say: 'Mira esta imagen: médula mielodisplásica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del hemograma alterado.',
     },

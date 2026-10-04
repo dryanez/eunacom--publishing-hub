@@ -71,6 +71,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El registro reactivo',
+      images: [
+        { src: 'animaciones/ob-03/A1_registro_reactivo.mp4', label: 'Reactivo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Aceleraciones con los movimientos',
+          say: 'Cada vez que el feto se mueve, la frecuencia cardíaca sube quince latidos por quince segundos. Dos o más aceleraciones en veinte minutos: registro reactivo.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Un registro basal reactivo',
@@ -119,6 +133,19 @@ module.exports = {
           { t: '6, o 4 o menos', d: 'Sospecha de asfixia, hasta asfixia grave',
             say: 'Con seis, sospechas asfixia: si es de término, interrumpes; si es prematuro, repites el examen en veinticuatro horas o complementas con Doppler. Y con cuatro o menos, la probabilidad de asfixia grave es tan alta que la interrupción es inmediata, sin esperar nada más.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Rctg normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' },
+      ],
+      steps: [
+        { note: 'Rctg normal',
+          say: 'Mira esta imagen: RCTG normal. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 

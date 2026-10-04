@@ -260,6 +260,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-16/01_ecg-reusar__cto-cardio_p19.jpg', label: 'Ecg', credit: 'Manual CTO Cardiología 14.ª ed., p. 19' },
+      ],
+      steps: [
+        { note: 'Ecg',
+          say: 'Mira esta imagen: ECG. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

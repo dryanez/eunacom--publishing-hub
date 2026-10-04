@@ -2,7 +2,7 @@
   "id": "cirugia-10",
   "title": "Cirugia 11.10: Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
   "specialty": "Cirugía General",
-  "chars": 11083,
+  "chars": 11174,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,122 +114,126 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos las tres emergencias torácicas en un solo árbol de decisión. Un paciente con trauma torácico y dificultad respiratoria. Percute el tórax y mira las venas del cuello: eso separa las tres emergencias."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Con estos cuatro signos, el diagnóstico es clínico: descomprimes con aguja en el segundo espacio intercostal, y después dejas instalado un tubo pleural definitivo en el quinto espacio."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Con matidez y yugulares planas por la pérdida de sangre, instalas un tubo pleural grueso y transfundes en paralelo."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si el sangrado por el tubo es masivo de entrada o no se detiene, el destino es la toracotomía para controlar el vaso."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Con el pulmón normal pero hipotensión, yugulares altas y ruidos apagados, el Eco-FAST confirma el derrame pericárdico y el destino es pabellón."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Con el segmento costal flotando, la clave es la analgesia para que respire bien, y restringir el suero para no inundar el pulmón contundido."
+      "text": "Mira esta imagen: neumotórax. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos con una tabla. En la percusión: el neumotórax a tensión da timpanismo, el hemotórax da matidez, y el taponamiento tiene el tórax completamente normal."
+      "text": "Ahora juntemos las tres emergencias torácicas en un solo árbol de decisión. Un paciente con trauma torácico y dificultad respiratoria. Percute el tórax y mira las venas del cuello: eso separa las tres emergencias."
     },
     {
       "file": "s07_g01",
-      "text": "En las venas del cuello: ingurgitadas en el neumotórax a tensión, colapsadas en el hemotórax por la hipovolemia, e ingurgitadas otra vez en el taponamiento."
+      "text": "Con estos cuatro signos, el diagnóstico es clínico: descomprimes con aguja en el segundo espacio intercostal, y después dejas instalado un tubo pleural definitivo en el quinto espacio."
     },
     {
       "file": "s07_g02",
-      "text": "Y el murmullo pulmonar es el que separa al taponamiento de los otros dos: en el taponamiento está completamente normal, porque el problema nunca fue el pulmón, sino el saco que envuelve al corazón."
+      "text": "Con matidez y yugulares planas por la pérdida de sangre, instalas un tubo pleural grueso y transfundes en paralelo."
     },
     {
       "file": "s07_g03",
-      "text": "Y ante la duda, el error más caro es esperar una radiografía en el neumotórax a tensión. Ahí se descomprime primero y se piensa después, porque cada minuto que pasa el mediastino se desplaza un poco más."
+      "text": "Si el sangrado por el tubo es masivo de entrada o no se detiene, el destino es la toracotomía para controlar el vaso."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Con el pulmón normal pero hipotensión, yugulares altas y ruidos apagados, el Eco-FAST confirma el derrame pericárdico y el destino es pabellón."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con el segmento costal flotando, la clave es la analgesia para que respire bien, y restringir el suero para no inundar el pulmón contundido."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de veintisiete años, recibe una patada en el hemitórax izquierdo durante una pelea. Llega con disnea marcada, pálido y sudoroso. Su presión arterial es de setenta y ocho sobre cuarenta y cuatro, con frecuencia cardíaca de ciento veintiocho. El murmullo pulmonar está abolido a izquierda, con timpanismo a la percusión, las venas del cuello ingurgitadas, y la tráquea desviada hacia la derecha."
+      "text": "Repasemos con una tabla. En la percusión: el neumotórax a tensión da timpanismo, el hemotórax da matidez, y el taponamiento tiene el tórax completamente normal."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "En las venas del cuello: ingurgitadas en el neumotórax a tensión, colapsadas en el hemotórax por la hipovolemia, e ingurgitadas otra vez en el taponamiento."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: pedir una radiografía portátil antes de actuar, descomprimir con aguja en el segundo espacio intercostal, hacer una ventana pericárdica, transfundir hemoderivados y observar, o pedir un TAC de tórax. Piénsalo."
+      "text": "Y el murmullo pulmonar es el que separa al taponamiento de los otros dos: en el taponamiento está completamente normal, porque el problema nunca fue el pulmón, sino el saco que envuelve al corazón."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Tienes los cuatro signos completos del neumotórax a tensión: timpanismo, murmullo abolido, yugulares ingurgitadas y tráquea desviada al lado contrario. Con este cuadro, el diagnóstico ya está hecho, y pedir una radiografía o un TAC antes de actuar solo demora una descompresión que se necesita en segundos."
+      "text": "Y ante la duda, el error más caro es esperar una radiografía en el neumotórax a tensión. Ahí se descomprime primero y se piensa después, porque cada minuto que pasa el mediastino se desplaza un poco más."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de veinticinco años, tras un accidente de tránsito, con timpanismo a la percusión del hemitórax derecho, ausencia de murmullo vesicular derecho, disnea severa, y la tráquea desviada hacia la izquierda."
+      "text": "Vamos con un caso. Hombre de veintisiete años, recibe una patada en el hemitórax izquierdo durante una pelea. Llega con disnea marcada, pálido y sudoroso. Su presión arterial es de setenta y ocho sobre cuarenta y cuatro, con frecuencia cardíaca de ciento veintiocho. El murmullo pulmonar está abolido a izquierda, con timpanismo a la percusión, las venas del cuello ingurgitadas, y la tráquea desviada hacia la derecha."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico y la conducta inmediata?"
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: neumotórax a tensión con descompresión en el segundo espacio intercostal, hemotórax masivo con drenaje pleural, contusión pulmonar con oxígeno, fractura de costillas con analgesia, o taponamiento con pericardiocentesis. Piénsalo."
+      "text": "Tienes cinco opciones: pedir una radiografía portátil antes de actuar, descomprimir con aguja en el segundo espacio intercostal, hacer una ventana pericárdica, transfundir hemoderivados y observar, o pedir un TAC de tórax. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Timpanismo, murmullo abolido y tráquea desviada hacia el lado sano son la firma del neumotórax a tensión. Es exactamente el mismo cuadro del caso anterior, solo que ahora del lado derecho, y la conducta es la misma: descompresión inmediata con aguja, sin exámenes de por medio."
+      "text": "Es la B. Tienes los cuatro signos completos del neumotórax a tensión: timpanismo, murmullo abolido, yugulares ingurgitadas y tráquea desviada al lado contrario. Con este cuadro, el diagnóstico ya está hecho, y pedir una radiografía o un TAC antes de actuar solo demora una descompresión que se necesita en segundos."
     },
     {
       "file": "s10_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil quince. Paciente de veintiocho años, con una puñalada en el tórax derecho. Está en buenas condiciones generales, con dolor torácico, murmullo pulmonar disminuido e hipersonoridad a la percusión del lado derecho."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Paciente de veinticinco años, tras un accidente de tránsito, con timpanismo a la percusión del hemitórax derecho, ausencia de murmullo vesicular derecho, disnea severa, y la tráquea desviada hacia la izquierda."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico y la conducta inmediata?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: pedir radiografía de tórax, pedir resonancia magnética, instalar un tubo pleural de inmediato, pedir TAC de tórax, o hacer una videotoracoscopía. Piénsalo."
+      "text": "Las opciones son: neumotórax a tensión con descompresión en el segundo espacio intercostal, hemotórax masivo con drenaje pleural, contusión pulmonar con oxígeno, fractura de costillas con analgesia, o taponamiento con pericardiocentesis. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Y este caso es justo el contraste que tienes que aprender a distinguir: hay un neumotórax, pero el paciente está en buenas condiciones, sin hipotensión ni desviación de la tráquea. Sin esos signos de tensión, sí tiene sentido pedir primero la radiografía, para ver cuánto pulmón está colapsado y descartar un hemotórax al mismo tiempo."
+      "text": "Es la A. Timpanismo, murmullo abolido y tráquea desviada hacia el lado sano son la firma del neumotórax a tensión. Es exactamente el mismo cuadro del caso anterior, solo que ahora del lado derecho, y la conducta es la misma: descompresión inmediata con aguja, sin exámenes de por medio."
     },
     {
       "file": "s11_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil veinticuatro, que conecta con lo que viste la clase pasada. Mujer de cincuenta y seis años, tras un accidente de alta energía, con hemorragia masiva e inestabilidad hemodinámica. Las imágenes muestran, a la vez, un hematoma subdural, múltiples fracturas costales con neumotórax izquierdo y desviación traqueal, y una fractura de pelvis desplazada."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil quince. Paciente de veintiocho años, con una puñalada en el tórax derecho. Está en buenas condiciones generales, con dolor torácico, murmullo pulmonar disminuido e hipersonoridad a la percusión del lado derecho."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál de las siguientes medidas terapéuticas es la más urgente?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: intubación orotraqueal, laparotomía exploradora, evacuar el hematoma subdural, pleurostomía izquierda, o estabilizar la fractura de pelvis. Piénsalo."
+      "text": "Las opciones son: pedir radiografía de tórax, pedir resonancia magnética, instalar un tubo pleural de inmediato, pedir TAC de tórax, o hacer una videotoracoscopía. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D. Aquí hay varias lesiones graves a la vez, y por eso este caso es perfecto para recordar la regla de la clase anterior: se trata primero lo que mata primero. La desviación traqueal te dice que hay un neumotórax a tensión, y eso mata en minutos. El hematoma subdural y la fractura de pelvis son urgentes, pero no tan urgentes como para saltarse el paso B."
+      "text": "Es la A. Y este caso es justo el contraste que tienes que aprender a distinguir: hay un neumotórax, pero el paciente está en buenas condiciones, sin hipotensión ni desviación de la tráquea. Sin esos signos de tensión, sí tiene sentido pedir primero la radiografía, para ver cuánto pulmón está colapsado y descartar un hemotórax al mismo tiempo."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Timpanismo con yugulares ingurgitadas es neumotórax a tensión: descomprimes de inmediato, sin radiografía, porque cada minuto de espera empeora el colapso del retorno venoso."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil veinticuatro, que conecta con lo que viste la clase pasada. Mujer de cincuenta y seis años, tras un accidente de alta energía, con hemorragia masiva e inestabilidad hemodinámica. Las imágenes muestran, a la vez, un hematoma subdural, múltiples fracturas costales con neumotórax izquierdo y desviación traqueal, y una fractura de pelvis desplazada."
     },
     {
       "file": "s12_g01",
-      "text": "Matidez con yugulares planas es hemotórax masivo: tubo pleural grueso, con transfusión en paralelo, y toracotomía si el débito no cede."
+      "text": "¿Cuál de las siguientes medidas terapéuticas es la más urgente?"
     },
     {
       "file": "s12_g02",
-      "text": "En el tórax volante, la hipoxia grave la explica la contusión pulmonar, no el movimiento paradójico de la pared."
+      "text": "Las opciones son: intubación orotraqueal, laparotomía exploradora, evacuar el hematoma subdural, pleurostomía izquierda, o estabilizar la fractura de pelvis. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la D. Aquí hay varias lesiones graves a la vez, y por eso este caso es perfecto para recordar la regla de la clase anterior: se trata primero lo que mata primero. La desviación traqueal te dice que hay un neumotórax a tensión, y eso mata en minutos. El hematoma subdural y la fractura de pelvis son urgentes, pero no tan urgentes como para saltarse el paso B."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Timpanismo con yugulares ingurgitadas es neumotórax a tensión: descomprimes de inmediato, sin radiografía, porque cada minuto de espera empeora el colapso del retorno venoso."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Matidez con yugulares planas es hemotórax masivo: tubo pleural grueso, con transfusión en paralelo, y toracotomía si el débito no cede."
+    },
+    {
+      "file": "s13_g02",
+      "text": "En el tórax volante, la hipoxia grave la explica la contusión pulmonar, no el movimiento paradójico de la pared."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y el taponamiento se reconoce porque el pulmón está completamente normal, con la tríada de Beck instalada. Si te llevas una sola idea de hoy: la percusión y las venas del cuello te dicen, en segundos, cuál de estas tres emergencias tienes enfrente. Nos vemos en la próxima clase."
     }
   ]

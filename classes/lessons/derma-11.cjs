@@ -142,6 +142,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde se separa la piel',
+      images: [
+        { src: 'animaciones/derma-11/A1_penfigo_penfigoide.mp4', label: 'Pénfigo o penfigoide', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Flácida o tensa',
+          say: 'En el pénfigo la separación ocurre dentro de la epidermis, y la ampolla es flácida. En el penfigoide ocurre bajo la epidermis, y la ampolla es tensa.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Enfermedades ampollares',

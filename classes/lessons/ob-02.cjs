@@ -152,6 +152,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-02/03_cervicometria__cto-gyo_p159.jpg', label: 'Cervicometría', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159' },
+      ],
+      steps: [
+        { note: 'Cervicometría',
+          say: 'Mira esta imagen: cervicometría. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos las dos ecografías y sus tratamientos en un solo árbol.',
     },

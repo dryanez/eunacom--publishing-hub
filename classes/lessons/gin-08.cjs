@@ -169,6 +169,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-08/01_diu-normoinserto-eco__cto-gyo_p45.jpg', label: 'Diu normoinserto', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 45' },
+      ],
+      steps: [
+        { note: 'Diu normoinserto',
+          say: 'Mira esta imagen: DIU normoinserto. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos decisiones en un solo árbol.',
     },

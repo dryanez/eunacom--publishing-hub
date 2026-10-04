@@ -2,7 +2,7 @@
   "id": "ob-05",
   "title": "Obstetricia 19.5: Trastornos Hipertensivos del Embarazo: HTA Crónica, HTA Gestacional y Preeclampsia sin Criterios de Severidad",
   "specialty": "Obstetricia",
-  "chars": 9113,
+  "chars": 9311,
   "segments": [
     {
       "file": "s00_g00",
@@ -74,126 +74,130 @@
     },
     {
       "file": "s05_g00",
-      "text": "Juntemos las tres categorías en un solo árbol de decisión. Tienes a tu paciente con la presión alta, ya confirmada. La primera pregunta que te haces es en qué semana empezó."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Si ya la tenía antes de las veinte semanas, es hipertensión crónica. Lo primero que haces es cambiar su fármaco a uno seguro para el embarazo: labetalol o metildopa. Nunca un inhibidor de la enzima convertidora ni un antagonista de la angiotensina."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Ahora, si empezó después de la semana veinte, hazte la segunda pregunta: ¿hay proteinuria significativa, o algún signo de daño de órgano?"
-    },
-    {
-      "file": "s05_g03",
-      "text": "Si no hay proteinuria ni daño de órgano, es hipertensión gestacional. Tiene buen pronóstico: la sigues de cerca y planificas el parto entre las treinta y ocho y treinta y nueve semanas."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Si hay proteinuria significativa, o daño de órgano aunque no haya proteinuria, es preeclampsia. Sin criterios de severidad, la derivas a la unidad de alto riesgo obstétrico y programas la interrupción a las treinta y siete semanas."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Y si aparece un solo criterio de severidad, ya no estás en esta clase: pasaste a la emergencia hipertensiva, y eso lo vemos en la próxima."
+      "text": "En el embarazo normal, las arterias espirales se ensanchan y la placenta recibe mucha sangre. En la preeclampsia no se remodelan, quedan estrechas, y la placenta isquémica daña el endotelio materno."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos las trampas. Presión alta con proteinuria justo bajo trescientos: tratas con antihipertensivo oral, pero no la llamas preeclampsia todavía. El error es etiquetarla como preeclampsia solo porque la presión asusta."
+      "text": "Juntemos las tres categorías en un solo árbol de decisión. Tienes a tu paciente con la presión alta, ya confirmada. La primera pregunta que te haces es en qué semana empezó."
     },
     {
       "file": "s06_g01",
-      "text": "Hipertensión crónica que ya venía con un inhibidor de la enzima convertidora: lo suspendes y cambias a labetalol o metildopa. El error es dejarla con el mismo fármaco porque ya lo toleraba bien antes del embarazo."
+      "text": "Si ya la tenía antes de las veinte semanas, es hipertensión crónica. Lo primero que haces es cambiar su fármaco a uno seguro para el embarazo: labetalol o metildopa. Nunca un inhibidor de la enzima convertidora ni un antagonista de la angiotensina."
     },
     {
       "file": "s06_g02",
-      "text": "Preeclampsia sin severidad y paciente estable: interrumpes a las treinta y siete semanas igual. El error es esperar a que se ponga sintomática para recién actuar."
+      "text": "Ahora, si empezó después de la semana veinte, hazte la segunda pregunta: ¿hay proteinuria significativa, o algún signo de daño de órgano?"
     },
     {
       "file": "s06_g03",
-      "text": "Y la hipertensión gestacional, sin proteinuria: el parto va a las treinta y ocho a treinta y nueve semanas, un poco más tarde que la preeclampsia. El error es adelantarla como si tuviera el mismo riesgo."
+      "text": "Si no hay proteinuria ni daño de órgano, es hipertensión gestacional. Tiene buen pronóstico: la sigues de cerca y planificas el parto entre las treinta y ocho y treinta y nueve semanas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si hay proteinuria significativa, o daño de órgano aunque no haya proteinuria, es preeclampsia. Sin criterios de severidad, la derivas a la unidad de alto riesgo obstétrico y programas la interrupción a las treinta y siete semanas."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y si aparece un solo criterio de severidad, ya no estás en esta clase: pasaste a la emergencia hipertensiva, y eso lo vemos en la próxima."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos con un caso. Secundigesta de treinta y cuatro semanas, con hipertensión crónica tratada con enalapril desde hace tres años, que llega por primera vez a control en este embarazo. Su presión es ciento cuarenta y cuatro sobre noventa y dos, confirmada a los quince minutos. Está asintomática, con altura uterina acorde y latidos fetales presentes."
+      "text": "Repasemos las trampas. Presión alta con proteinuria justo bajo trescientos: tratas con antihipertensivo oral, pero no la llamas preeclampsia todavía. El error es etiquetarla como preeclampsia solo porque la presión asusta."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "Hipertensión crónica que ya venía con un inhibidor de la enzima convertidora: lo suspendes y cambias a labetalol o metildopa. El error es dejarla con el mismo fármaco porque ya lo toleraba bien antes del embarazo."
     },
     {
       "file": "s07_g02",
-      "text": "Tienes cinco opciones: mantener el enalapril y pedir proteinuria, suspenderlo e iniciar labetalol o metildopa, subir la dosis de enalapril, dar sulfato de magnesio profiláctico, o interrumpir de inmediato. Piénsalo."
+      "text": "Preeclampsia sin severidad y paciente estable: interrumpes a las treinta y siete semanas igual. El error es esperar a que se ponga sintomática para recién actuar."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B. No importa que lleve tres años tomándolo bien: el enalapril nunca se mantiene en el embarazo, por el daño renal que le hace al feto. Lo primero, siempre, es suspenderlo y cambiar a un fármaco seguro. Después completas el estudio para descartar una preeclampsia sobreagregada, pero ese primer paso no espera."
+      "text": "Y la hipertensión gestacional, sin proteinuria: el parto va a las treinta y ocho a treinta y nueve semanas, un poco más tarde que la preeclampsia. El error es adelantarla como si tuviera el mismo riesgo."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veinticinco años, en su primer embarazo de treinta y siete semanas. Tiene un edema leve en las piernas, presión ciento cuarenta sobre noventa, y los latidos fetales están en ciento veinticinco. Está asintomática."
+      "text": "Vamos con un caso. Secundigesta de treinta y cuatro semanas, con hipertensión crónica tratada con enalapril desde hace tres años, que llega por primera vez a control en este embarazo. Su presión es ciento cuarenta y cuatro sobre noventa y dos, confirmada a los quince minutos. Está asintomática, con altura uterina acorde y latidos fetales presentes."
     },
     {
       "file": "s08_g01",
-      "text": "¿Qué examen es más adecuado para precisar el diagnóstico?"
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: monitoreo ambulatorio de presión de veinticuatro horas, ecografía Doppler renal, ecografía obstétrica con Doppler fetal, proteinuria de veinticuatro horas, o test de tolerancia a las contracciones. Piénsalo."
+      "text": "Tienes cinco opciones: mantener el enalapril y pedir proteinuria, suspenderlo e iniciar labetalol o metildopa, subir la dosis de enalapril, dar sulfato de magnesio profiláctico, o interrumpir de inmediato. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la D. Ya tiene el criterio de presión para hipertensión del embarazo, y ahora la pregunta es cuál de las dos categorías. El edema te hace sospechar, pero lo que realmente separa hipertensión gestacional de preeclampsia es la proteinuria, y por eso es el examen que falta pedir."
+      "text": "Es la B. No importa que lleve tres años tomándolo bien: el enalapril nunca se mantiene en el embarazo, por el daño renal que le hace al feto. Lo primero, siempre, es suspenderlo y cambiar a un fármaco seguro. Después completas el estudio para descartar una preeclampsia sobreagregada, pero ese primer paso no espera."
     },
     {
       "file": "s09_g00",
-      "text": "Y una pregunta real, del EUNACOM de julio de dos mil dieciocho. Paciente de cuarenta y un años, embarazada de veinticuatro semanas, con presión ciento cincuenta y cinco sobre cien. Su proteinuria de veinticuatro horas sale en doscientos ochenta miligramos, y el examen físico es normal, sin edema ni signos de severidad."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veinticinco años, en su primer embarazo de treinta y siete semanas. Tiene un edema leve en las piernas, presión ciento cuarenta sobre noventa, y los latidos fetales están en ciento veinticinco. Está asintomática."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento más apropiado?"
+      "text": "¿Qué examen es más adecuado para precisar el diagnóstico?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: iniciar metildopa oral, hidralazina endovenosa, solo observar y controlar en una semana, nifedipino de acción prolongada, o sulfato de magnesio endovenoso. Piénsalo."
+      "text": "Las opciones: monitoreo ambulatorio de presión de veinticuatro horas, ecografía Doppler renal, ecografía obstétrica con Doppler fetal, proteinuria de veinticuatro horas, o test de tolerancia a las contracciones. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Fíjate en el número: doscientos ochenta queda justo bajo los trescientos miligramos, así que técnicamente todavía no es preeclampsia. Pero eso no significa no hacer nada: con esta presión, empiezas tratamiento oral, y la metildopa es la elección clásica aquí. Solo observar la dejaría con la presión alta sin motivo."
+      "text": "Es la D. Ya tiene el criterio de presión para hipertensión del embarazo, y ahora la pregunta es cuál de las dos categorías. El edema te hace sospechar, pero lo que realmente separa hipertensión gestacional de preeclampsia es la proteinuria, y por eso es el examen que falta pedir."
     },
     {
       "file": "s10_g00",
-      "text": "Última pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y tres años, con trece semanas de embarazo, que tuvo una cesárea de urgencia en su embarazo anterior, a las treinta y una semanas, por una preeclampsia severa."
+      "text": "Y una pregunta real, del EUNACOM de julio de dos mil dieciocho. Paciente de cuarenta y un años, embarazada de veinticuatro semanas, con presión ciento cincuenta y cinco sobre cien. Su proteinuria de veinticuatro horas sale en doscientos ochenta miligramos, y el examen físico es normal, sin edema ni signos de severidad."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el tratamiento más apropiado?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: indicar aspirina, heparina, L-arginina, ácidos grasos omega tres, o dexametasona. Piénsalo."
+      "text": "Las opciones: iniciar metildopa oral, hidralazina endovenosa, solo observar y controlar en una semana, nifedipino de acción prolongada, o sulfato de magnesio endovenoso. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Esta paciente ya demostró que hace preeclampsia severa, y eso la pone en alto riesgo de que se repita. La aspirina en dosis baja, partiendo antes de las dieciséis semanas, es la medida que reduce ese riesgo. Ninguna de las otras alternativas tiene ese rol en este contexto."
+      "text": "Es la A. Fíjate en el número: doscientos ochenta queda justo bajo los trescientos miligramos, así que técnicamente todavía no es preeclampsia. Pero eso no significa no hacer nada: con esta presión, empiezas tratamiento oral, y la metildopa es la elección clásica aquí. Solo observar la dejaría con la presión alta sin motivo."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Si empezó antes de la semana veinte, es hipertensión crónica."
+      "text": "Última pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y tres años, con trece semanas de embarazo, que tuvo una cesárea de urgencia en su embarazo anterior, a las treinta y una semanas, por una preeclampsia severa."
     },
     {
       "file": "s11_g01",
-      "text": "Si empezó después, con proteinuria o daño de órgano, es preeclampsia."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Tratas con labetalol, metildopa o nifedipino: los tres son seguros."
+      "text": "Las opciones: indicar aspirina, heparina, L-arginina, ácidos grasos omega tres, o dexametasona. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la A. Esta paciente ya demostró que hace preeclampsia severa, y eso la pone en alto riesgo de que se repita. La aspirina en dosis baja, partiendo antes de las dieciséis semanas, es la medida que reduce ese riesgo. Ninguna de las otras alternativas tiene ese rol en este contexto."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Si empezó antes de la semana veinte, es hipertensión crónica."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Si empezó después, con proteinuria o daño de órgano, es preeclampsia."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Tratas con labetalol, metildopa o nifedipino: los tres son seguros."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y el enalapril y el losartán están prohibidos en cualquier trimestre."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Y la preeclampsia sin severidad se interrumpe a las treinta y siete semanas, sin esperar que se complique. Si te llevas una sola idea de hoy: la semana veinte y la proteinuria son las dos preguntas que clasifican todo este tema. Nos vemos en la próxima clase, donde vemos qué hacer cuando esto se convierte en una emergencia."
     }
   ]

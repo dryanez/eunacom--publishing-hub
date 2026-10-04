@@ -193,6 +193,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-13/03_molusco-contagioso__amir-derma_p61.jpg', label: 'Molusco contagioso', credit: 'Manual AMIR Dermatología, p. 61' },
+      ],
+      steps: [
+        { note: 'Molusco contagioso',
+          say: 'Mira esta imagen: molusco contagioso. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los tres síndromes en un solo árbol de decisión.',
     },

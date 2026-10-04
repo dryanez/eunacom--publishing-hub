@@ -166,6 +166,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo crece el melanoma',
+      images: [
+        { src: 'animaciones/derma-13/A1_breslow.mp4', label: 'Breslow', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Radial y luego vertical',
+          say: 'El melanoma primero crece en superficie, en fase radial. Después invade la dermis, en fase vertical. El Breslow mide esa profundidad y decide el margen y el ganglio centinela.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Melanoma',

@@ -2,7 +2,7 @@
   "id": "endo-06",
   "title": "Endocrinología 7.6: Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
   "specialty": "Endocrinología",
-  "chars": 14358,
+  "chars": 14769,
   "segments": [
     {
       "file": "s00_g00",
@@ -226,126 +226,142 @@
     },
     {
       "file": "s13_g00",
-      "text": "Juntemos todo en un árbol de decisión, desde la TSH suprimida hasta el tratamiento. Paciente con TSH suprimida y T cuatro libre alta. Mientras defines la causa, si tiene síntomas adrenérgicos, ya puedes iniciar betabloqueo."
+      "text": "Mira esta imagen: graves bocio difuso dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s13_g01",
-      "text": "La primera pregunta: ¿tiene orbitopatía, mixedema pretibial o TRAb positivos?"
+      "text": "Mira esta imagen: graves bocio difuso tres. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s13_g02",
-      "text": "Si los tiene, es Graves. Antes de elegir el fármaco, pregunta por embarazo."
+      "text": "Mira esta imagen: ECO doppler Graves. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s13_g03",
-      "text": "Si no está embarazada: tiamazol en una toma diaria por doce a dieciocho meses, con la instrucción de suspenderlo ante fiebre u odinofagia."
-    },
-    {
-      "file": "s13_g04",
-      "text": "Si cursa el primer trimestre: propiltiouracilo, y vuelta al tiamazol desde el segundo trimestre."
-    },
-    {
-      "file": "s13_g05",
-      "text": "Si no hay pistas, pide un cintigrama y lee el patrón."
-    },
-    {
-      "file": "s13_g06",
-      "text": "Captación difusa y homogénea: Graves, y se trata con tiamazol."
-    },
-    {
-      "file": "s13_g07",
-      "text": "Un nódulo caliente o varias áreas calientes y frías: adenoma tóxico o bocio multinodular tóxico. No remiten con fármacos: radioyodo o cirugía."
-    },
-    {
-      "file": "s13_g08",
-      "text": "Captación nula: tiroiditis o hormona exógena, y la tiroglobulina las separa. Aquí no se usa tiamazol."
+      "text": "Mira esta imagen: eco doppler graves dos. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s14_g00",
-      "text": "Repasemos las trampas. Tirotoxicosis con captación nula: es una tiroiditis o hormona exógena. El error es iniciar tiamazol."
+      "text": "Juntemos todo en un árbol de decisión, desde la TSH suprimida hasta el tratamiento. Paciente con TSH suprimida y T cuatro libre alta. Mientras defines la causa, si tiene síntomas adrenérgicos, ya puedes iniciar betabloqueo."
     },
     {
       "file": "s14_g01",
-      "text": "Graves con TRAb positivos u orbitopatía: el diagnóstico está hecho, el cintigrama sobra."
+      "text": "La primera pregunta: ¿tiene orbitopatía, mixedema pretibial o TRAb positivos?"
     },
     {
       "file": "s14_g02",
-      "text": "TSH suprimida con T cuatro libre normal: mide la T tres libre antes de llamarlo subclínico."
+      "text": "Si los tiene, es Graves. Antes de elegir el fármaco, pregunta por embarazo."
     },
     {
       "file": "s14_g03",
-      "text": "Fiebre u odinofagia con tiamazol: suspender y hemograma urgente. Nunca antibiótico y seguir, y nunca cambiar a PTU."
+      "text": "Si no está embarazada: tiamazol en una toma diaria por doce a dieciocho meses, con la instrucción de suspenderlo ante fiebre u odinofagia."
     },
     {
       "file": "s14_g04",
-      "text": "Graves en el primer trimestre: propiltiouracilo, y de vuelta a tiamazol en el segundo trimestre."
+      "text": "Si cursa el primer trimestre: propiltiouracilo, y vuelta al tiamazol desde el segundo trimestre."
     },
     {
       "file": "s14_g05",
-      "text": "Y el adulto mayor con fibrilación auricular nueva o insuficiencia cardíaca refractaria: pide TSH, porque puede ser un hipertiroidismo apático."
+      "text": "Si no hay pistas, pide un cintigrama y lee el patrón."
+    },
+    {
+      "file": "s14_g06",
+      "text": "Captación difusa y homogénea: Graves, y se trata con tiamazol."
+    },
+    {
+      "file": "s14_g07",
+      "text": "Un nódulo caliente o varias áreas calientes y frías: adenoma tóxico o bocio multinodular tóxico. No remiten con fármacos: radioyodo o cirugía."
+    },
+    {
+      "file": "s14_g08",
+      "text": "Captación nula: tiroiditis o hormona exógena, y la tiroglobulina las separa. Aquí no se usa tiamazol."
     },
     {
       "file": "s15_g00",
-      "text": "Vamos al caso. Mujer de treinta años con Graves, en tratamiento con tiamazol y propranolol hace cinco semanas. Llega a urgencia con un día de fiebre de treinta y nueve grados y dolor de garganta intenso. Tiene exudado amigdalino y está taquicárdica."
+      "text": "Repasemos las trampas. Tirotoxicosis con captación nula: es una tiroiditis o hormona exógena. El error es iniciar tiamazol."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "Graves con TRAb positivos u orbitopatía: el diagnóstico está hecho, el cintigrama sobra."
     },
     {
       "file": "s15_g02",
-      "text": "Las alternativas: amoxicilina y seguir con el tiamazol, cambiar a propiltiouracilo, suspender el tiamazol y pedir hemograma urgente, subir el tiamazol, o paracetamol sin cambios. Piénsalo."
+      "text": "TSH suprimida con T cuatro libre normal: mide la T tres libre antes de llamarlo subclínico."
     },
     {
       "file": "s15_g03",
-      "text": "Es la C. El enunciado está armado para que veas una amigdalitis común y des amoxicilina. Pero es una paciente con tiamazol, dentro de los primeros noventa días, con fiebre y odinofagia: es agranulocitosis hasta demostrar lo contrario. Se suspende y se pide el hemograma de urgencia. El otro distractor peligroso es cambiar a PTU: la reactividad cruzada es alta, así que tampoco."
+      "text": "Fiebre u odinofagia con tiamazol: suspender y hemograma urgente. Nunca antibiótico y seguir, y nunca cambiar a PTU."
+    },
+    {
+      "file": "s15_g04",
+      "text": "Graves en el primer trimestre: propiltiouracilo, y de vuelta a tiamazol en el segundo trimestre."
+    },
+    {
+      "file": "s15_g05",
+      "text": "Y el adulto mayor con fibrilación auricular nueva o insuficiencia cardíaca refractaria: pide TSH, porque puede ser un hipertiroidismo apático."
     },
     {
       "file": "s16_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con exoftalmo bilateral, palpitaciones, baja de peso y temblor fino. TSH suprimida, T cuatro libre alta, y bocio difuso."
+      "text": "Vamos al caso. Mujer de treinta años con Graves, en tratamiento con tiamazol y propranolol hace cinco semanas. Llega a urgencia con un día de fiebre de treinta y nueve grados y dolor de garganta intenso. Tiene exudado amigdalino y está taquicárdica."
     },
     {
       "file": "s16_g01",
-      "text": "¿Cuál es el diagnóstico?"
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones: Graves-Basedow, Hashimoto, bocio multinodular tóxico, adenoma tóxico, o De Quervain. Piénsalo."
+      "text": "Las alternativas: amoxicilina y seguir con el tiamazol, cambiar a propiltiouracilo, suspender el tiamazol y pedir hemograma urgente, subir el tiamazol, o paracetamol sin cambios. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la A, Graves. Hay hipertiroidismo, y hay una pista que ninguna otra alternativa tiene: el exoftalmo, que es patognomónico. Súmale el bocio difuso en una mujer joven. El multinodular y el adenoma tóxico son de mayores de sesenta y casi nunca dan orbitopatía, y De Quervain duele."
+      "text": "Es la C. El enunciado está armado para que veas una amigdalitis común y des amoxicilina. Pero es una paciente con tiamazol, dentro de los primeros noventa días, con fiebre y odinofagia: es agranulocitosis hasta demostrar lo contrario. Se suspende y se pide el hemograma de urgencia. El otro distractor peligroso es cambiar a PTU: la reactividad cruzada es alta, así que tampoco."
     },
     {
       "file": "s17_g00",
-      "text": "La segunda es del EUNACOM de diciembre de dos mil diecisiete. Paciente con dos meses de sensación de calor y sudoración. La tiroides es de tamaño normal y no tiene exoftalmo. TSH suprimida y T cuatro libre alta."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con exoftalmo bilateral, palpitaciones, baja de peso y temblor fino. TSH suprimida, T cuatro libre alta, y bocio difuso."
     },
     {
       "file": "s17_g01",
-      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
+      "text": "¿Cuál es el diagnóstico?"
     },
     {
       "file": "s17_g02",
-      "text": "Las opciones: captación de yodo, ecografía tiroidea, punción con aguja fina, cintigrafía tiroidea, o anticuerpos antitiroglobulina. Piénsalo."
+      "text": "Las opciones: Graves-Basedow, Hashimoto, bocio multinodular tóxico, adenoma tóxico, o De Quervain. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la D, la cintigrafía. Compárala con la pregunta anterior: allá el exoftalmo daba el diagnóstico solo; aquí no hay bocio ni orbitopatía, así que la clínica no te dice la causa. El cintigrama sí, por su patrón. El distractor tentador es la captación de yodo, que te dice cuánto capta pero no dónde, y no distingue un Graves de un nódulo caliente."
+      "text": "Es la A, Graves. Hay hipertiroidismo, y hay una pista que ninguna otra alternativa tiene: el exoftalmo, que es patognomónico. Súmale el bocio difuso en una mujer joven. El multinodular y el adenoma tóxico son de mayores de sesenta y casi nunca dan orbitopatía, y De Quervain duele."
     },
     {
       "file": "s18_g00",
-      "text": "Cerremos con las reglas de oro. La captación separa lo que fabrica de lo que se vacía, y solo lo que fabrica se bloquea."
+      "text": "La segunda es del EUNACOM de diciembre de dos mil diecisiete. Paciente con dos meses de sensación de calor y sudoración. La tiroides es de tamaño normal y no tiene exoftalmo. TSH suprimida y T cuatro libre alta."
     },
     {
       "file": "s18_g01",
-      "text": "Orbitopatía o mixedema pretibial significan Graves. Los TRAb lo confirman, y el cintigrama queda para cuando la clínica no alcanza."
+      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
     },
     {
       "file": "s18_g02",
-      "text": "El tiamazol es el de elección, y el PTU queda para el primer trimestre del embarazo y la tormenta tiroidea."
+      "text": "Las opciones: captación de yodo, ecografía tiroidea, punción con aguja fina, cintigrafía tiroidea, o anticuerpos antitiroglobulina. Piénsalo."
     },
     {
       "file": "s18_g03",
+      "text": "Es la D, la cintigrafía. Compárala con la pregunta anterior: allá el exoftalmo daba el diagnóstico solo; aquí no hay bocio ni orbitopatía, así que la clínica no te dice la causa. El cintigrama sí, por su patrón. El distractor tentador es la captación de yodo, que te dice cuánto capta pero no dónde, y no distingue un Graves de un nódulo caliente."
+    },
+    {
+      "file": "s19_g00",
+      "text": "Cerremos con las reglas de oro. La captación separa lo que fabrica de lo que se vacía, y solo lo que fabrica se bloquea."
+    },
+    {
+      "file": "s19_g01",
+      "text": "Orbitopatía o mixedema pretibial significan Graves. Los TRAb lo confirman, y el cintigrama queda para cuando la clínica no alcanza."
+    },
+    {
+      "file": "s19_g02",
+      "text": "El tiamazol es el de elección, y el PTU queda para el primer trimestre del embarazo y la tormenta tiroidea."
+    },
+    {
+      "file": "s19_g03",
       "text": "Y ante fiebre u odinofagia con tionamidas, suspender y hemograma urgente. Si te llevas una sola idea de hoy: en un paciente con tiamazol, una amigdalitis no es una amigdalitis hasta ver los neutrófilos. En la próxima clase comparamos a fondo fármacos, radioyodo y cirugía. Nos vemos en la próxima clase."
     }
   ]

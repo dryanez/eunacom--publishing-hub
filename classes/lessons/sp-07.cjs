@@ -127,6 +127,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La tabla dos por dos',
+      images: [
+        { src: 'animaciones/sp-07/A1_tabla_2x2.mp4', label: 'Cálculo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Riesgo, RR y NNT',
+          say: 'Con la tabla se calcula el riesgo en cada grupo, el riesgo relativo, la reducción absoluta, y el número necesario a tratar, que es uno dividido por la reducción absoluta.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos el razonamiento completo, tal como se arma en el examen.',
     },

@@ -209,6 +209,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg', label: 'Efecto masa adenoma', credit: 'Manual CTO Endocrinología 14.ª ed., p. 40' },
+      ],
+      steps: [
+        { note: 'Efecto masa adenoma',
+          say: 'Mira esta imagen: efecto masa adenoma. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },

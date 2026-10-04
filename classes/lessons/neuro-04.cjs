@@ -293,6 +293,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-04/01_hsa-de-la-convexidad-tc_1__cto-neuro_p176.jpg', label: 'Hsa de la convexidad', credit: 'Manual CTO Neurología 14.ª ed., p. 176' },
+        { src: 'biblioteca/09_neurologia/neuro-04/01_hsa-de-la-convexidad-tc_2__cto-neuro_p176.jpg', label: 'Hsa de la convexidad tc 2', credit: 'Manual CTO Neurología 14.ª ed., p. 176' },
+        { src: 'biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg', label: 'Localización de aneurismas', credit: 'Manual CTO Neurología 14.ª ed., p. 43' },
+      ],
+      steps: [
+        { note: 'Hsa de la convexidad',
+          say: 'Mira esta imagen: HSA de la convexidad. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Hsa de la convexidad tc 2',
+          say: 'Mira esta imagen: hsa de la convexidad tc dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Localización de aneurismas',
+          say: 'Mira esta imagen: localización de aneurismas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde la cefalea en trueno hasta el manejo en la unidad crítica.',
     },

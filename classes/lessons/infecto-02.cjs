@@ -182,6 +182,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-02/02_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Tinta china', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' },
+      ],
+      steps: [
+        { note: 'Tinta china',
+          say: 'Mira esta imagen: tinta china. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en la urgencia.',
     },

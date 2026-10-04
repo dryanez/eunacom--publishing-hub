@@ -2,7 +2,7 @@
   "id": "endo-16",
   "title": "Endocrinología 7.16: Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
   "specialty": "Endocrinología",
-  "chars": 17665,
+  "chars": 17749,
   "segments": [
     {
       "file": "s00_g00",
@@ -202,95 +202,83 @@
     },
     {
       "file": "s11_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Tienes un calcio alto. Antes de todo, lo corriges por la albúmina para confirmar que la hipercalcemia es real."
-    },
-    {
-      "file": "s11_g01",
-      "text": "¿Es una crisis? Calcio de catorce o más, o un paciente deshidratado, con compromiso de conciencia o arritmias."
-    },
-    {
-      "file": "s11_g02",
-      "text": "Si es crisis, primero suero fisiológico, doscientos a trescientos mililitros por hora, luego zoledronato, con calcitonina de puente, y corticoides si es un linfoma, un mieloma o una sarcoidosis. Una vez estable, estudias la causa con PTH."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Si no es crisis, o una vez estabilizado, mides la PTH intacta. ¿Está alta, normal o suprimida?"
-    },
-    {
-      "file": "s11_g04",
-      "text": "Suprimida: la causa está fuera de la paratiroides. Buscas una neoplasia, por PTHrP u osteólisis, o un exceso de vitamina D por linfoma, granulomas o ingesta."
-    },
-    {
-      "file": "s11_g05",
-      "text": "Alta o inapropiadamente normal: es PTH dependiente. Antes de operar, mira la calciuria: ¿es muy baja?"
-    },
-    {
-      "file": "s11_g06",
-      "text": "Si es muy baja, con excreción fraccionada bajo uno por ciento, es la hipercalcemia hipocalciúrica familiar, y no se opera."
-    },
-    {
-      "file": "s11_g07",
-      "text": "Si no, es hiperparatiroidismo primario. Paratiroidectomía, previa localización con sestamibi y ecografía, si es sintomático o cumple algún criterio; si no, control."
+      "text": "Mira esta imagen: ECG. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s12_g00",
-      "text": "Repasemos las trampas. Calcio aparentemente normal con albúmina baja: corriges, y muchas veces aparece la hipercalcemia."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Tienes un calcio alto. Antes de todo, lo corriges por la albúmina para confirmar que la hipercalcemia es real."
     },
     {
       "file": "s12_g01",
-      "text": "Toda hipercalcemia se estudia primero con PTH, aunque el paciente tenga un cáncer o metástasis a la vista. El error es partir por la cintigrafía o la vitamina D."
+      "text": "¿Es una crisis? Calcio de catorce o más, o un paciente deshidratado, con compromiso de conciencia o arritmias."
     },
     {
       "file": "s12_g02",
-      "text": "Crisis hipercalcémica: suero fisiológico primero. La furosemida, el zoledronato o la calcitonina como primera medida son los distractores clásicos."
+      "text": "Si es crisis, primero suero fisiológico, doscientos a trescientos mililitros por hora, luego zoledronato, con calcitonina de puente, y corticoides si es un linfoma, un mieloma o una sarcoidosis. Una vez estable, estudias la causa con PTH."
     },
     {
       "file": "s12_g03",
-      "text": "Si la crisis es de un hiperparatiroidismo, igual se hidrata primero. La cirugía y el cintigrama vienen después, de forma electiva."
+      "text": "Si no es crisis, o una vez estabilizado, mides la PTH intacta. ¿Está alta, normal o suprimida?"
     },
     {
       "file": "s12_g04",
-      "text": "PTH normal con calciuria muy baja: hipercalcemia hipocalciúrica familiar, y no se opera."
+      "text": "Suprimida: la causa está fuera de la paratiroides. Buscas una neoplasia, por PTHrP u osteólisis, o un exceso de vitamina D por linfoma, granulomas o ingesta."
     },
     {
       "file": "s12_g05",
-      "text": "Y los corticoides son para el exceso de calcitriol: linfoma, mieloma y sarcoidosis, no para cualquier hipercalcemia."
+      "text": "Alta o inapropiadamente normal: es PTH dependiente. Antes de operar, mira la calciuria: ¿es muy baja?"
+    },
+    {
+      "file": "s12_g06",
+      "text": "Si es muy baja, con excreción fraccionada bajo uno por ciento, es la hipercalcemia hipocalciúrica familiar, y no se opera."
+    },
+    {
+      "file": "s12_g07",
+      "text": "Si no, es hiperparatiroidismo primario. Paratiroidectomía, previa localización con sestamibi y ecografía, si es sintomático o cumple algún criterio; si no, control."
     },
     {
       "file": "s13_g00",
-      "text": "Vamos con un caso. Mujer de cincuenta y seis años con astenia, constipación, dolores óseos y dos cólicos renales en dos años. Está lúcida e hidratada. Calcio once coma seis con albúmina de cuatro, fósforo dos coma uno, creatinina normal y PTH de ciento cuarenta y cinco, sobre el máximo de sesenta y cinco. La ecografía muestra microlitiasis bilateral."
+      "text": "Repasemos las trampas. Calcio aparentemente normal con albúmina baja: corriges, y muchas veces aparece la hipercalcemia."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Toda hipercalcemia se estudia primero con PTH, aunque el paciente tenga un cáncer o metástasis a la vista. El error es partir por la cintigrafía o la vitamina D."
     },
     {
       "file": "s13_g02",
-      "text": "Las alternativas: ácido zoledrónico, control anual, localizar con sestamibi y ecografía y operar, furosemida con restricción de lácteos, o electroforesis de proteínas. Piénsalo."
+      "text": "Crisis hipercalcémica: suero fisiológico primero. La furosemida, el zoledronato o la calcitonina como primera medida son los distractores clásicos."
     },
     {
       "file": "s13_g03",
-      "text": "Es la C. Calcio alto, fósforo bajo y PTH alta: la tríada del hiperparatiroidismo primario. Y no es asintomática: tiene litiasis a repetición, así que la cirugía es mandatoria, previa localización. El distractor tentador es el control anual, pero eso solo cabe en el asintomático sin criterios. El zoledronato es de la crisis, y el mieloma daría PTH suprimida."
+      "text": "Si la crisis es de un hiperparatiroidismo, igual se hidrata primero. La cirugía y el cintigrama vienen después, de forma electiva."
+    },
+    {
+      "file": "s13_g04",
+      "text": "PTH normal con calciuria muy baja: hipercalcemia hipocalciúrica familiar, y no se opera."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Y los corticoides son para el exceso de calcitriol: linfoma, mieloma y sarcoidosis, no para cualquier hipercalcemia."
     },
     {
       "file": "s14_g00",
-      "text": "Vamos a las preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y dos años con litiasis renal a repetición. Calcio nueve coma ocho, albúmina tres, creatinina normal, PTH noventa, sobre el máximo de cincuenta y cinco, y calciuria de doscientos miligramos al día, elevada."
+      "text": "Vamos con un caso. Mujer de cincuenta y seis años con astenia, constipación, dolores óseos y dos cólicos renales en dos años. Está lúcida e hidratada. Calcio once coma seis con albúmina de cuatro, fósforo dos coma uno, creatinina normal y PTH de ciento cuarenta y cinco, sobre el máximo de sesenta y cinco. La ecografía muestra microlitiasis bilateral."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: hiperparatiroidismo primario, secundario o terciario, hipercalciuria primaria, o hipercalciuria familiar. Piénsalo."
+      "text": "Las alternativas: ácido zoledrónico, control anual, localizar con sestamibi y ecografía y operar, furosemida con restricción de lácteos, o electroforesis de proteínas. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la A. La clave es corregir: nueve coma ocho más cero coma ocho da diez coma seis. Hay hipercalcemia con PTH alta: hiperparatiroidismo primario, y la hipercalciuria explica los cálculos. El distractor tentador es el secundario, porque si no corriges el calcio parece normal; pero el secundario tiene calcio bajo o normal, típicamente por insuficiencia renal, y aquí la creatinina es normal."
+      "text": "Es la C. Calcio alto, fósforo bajo y PTH alta: la tríada del hiperparatiroidismo primario. Y no es asintomática: tiene litiasis a repetición, así que la cirugía es mandatoria, previa localización. El distractor tentador es el control anual, pero eso solo cabe en el asintomático sin criterios. El zoledronato es de la crisis, y el mieloma daría PTH suprimida."
     },
     {
       "file": "s15_g00",
-      "text": "Del EUNACOM de julio de dos mil veinticinco. Hombre de cincuenta y cinco años, asintomático, con calcio once coma dos, fósforo bajo de dos coma uno y PTH elevada de ciento cuarenta y cinco."
+      "text": "Vamos a las preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y dos años con litiasis renal a repetición. Calcio nueve coma ocho, albúmina tres, creatinina normal, PTH noventa, sobre el máximo de cincuenta y cinco, y calciuria de doscientos miligramos al día, elevada."
     },
     {
       "file": "s15_g01",
@@ -298,82 +286,98 @@
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: hiperparatiroidismo primario, hipercalcemia hipocalciúrica familiar, hipercalcemia maligna, intoxicación por vitamina D o sarcoidosis. Piénsalo."
+      "text": "Las opciones: hiperparatiroidismo primario, secundario o terciario, hipercalciuria primaria, o hipercalciuria familiar. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la A. Es la tríada completa, calcio alto, fósforo bajo y PTH alta, en un paciente ambulatorio. Malignidad, vitamina D y sarcoidosis caen de inmediato, porque tienen la PTH suprimida. El distractor más fino es la hipocalciúrica familiar, que también tiene PTH normal o alta; para elegirla necesitarías una calciuria muy baja, y aquí no te la dan."
+      "text": "Es la A. La clave es corregir: nueve coma ocho más cero coma ocho da diez coma seis. Hay hipercalcemia con PTH alta: hiperparatiroidismo primario, y la hipercalciuria explica los cálculos. El distractor tentador es el secundario, porque si no corriges el calcio parece normal; pero el secundario tiene calcio bajo o normal, típicamente por insuficiencia renal, y aquí la creatinina es normal."
     },
     {
       "file": "s16_g00",
-      "text": "Del EUNACOM de agosto de dos mil veintiuno. Paciente de sesenta y siete años con dolores óseos en múltiples zonas, calcio corregido de catorce coma cuatro, función renal normal, y radiografías que sugieren metástasis óseas."
+      "text": "Del EUNACOM de julio de dos mil veinticinco. Hombre de cincuenta y cinco años, asintomático, con calcio once coma dos, fósforo bajo de dos coma uno y PTH elevada de ciento cuarenta y cinco."
     },
     {
       "file": "s16_g01",
-      "text": "¿Cuál es la conducta más adecuada para proseguir el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones: calciuria de veinticuatro horas, vitamina D, paratohormona, cintigrafía ósea, o calcio iónico. Piénsalo."
+      "text": "Las opciones: hiperparatiroidismo primario, hipercalcemia hipocalciúrica familiar, hipercalcemia maligna, intoxicación por vitamina D o sarcoidosis. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la C. Aunque las metástasis parezcan evidentes, la hipercalcemia se estudia siempre con PTH, porque el hiperparatiroidismo también da lesiones óseas, los tumores pardos. Si la PTH está suprimida, apoya el cáncer; si está alta, es un hiperparatiroidismo. El distractor es la cintigrafía, que es inespecífica y busca lesiones que aquí ya se vieron. En la práctica, con catorce de calcio, además hidratas mientras estudias."
+      "text": "Es la A. Es la tríada completa, calcio alto, fósforo bajo y PTH alta, en un paciente ambulatorio. Malignidad, vitamina D y sarcoidosis caen de inmediato, porque tienen la PTH suprimida. El distractor más fino es la hipocalciúrica familiar, que también tiene PTH normal o alta; para elegirla necesitarías una calciuria muy baja, y aquí no te la dan."
     },
     {
       "file": "s17_g00",
-      "text": "Del EUNACOM de diciembre de dos mil veintidós. Hombre de setenta y seis años con cáncer de próstata avanzado, dos días de debilidad y luego sopor profundo, sin focalidad. Sodio ciento cuarenta y ocho, calcio catorce coma ocho, creatinina uno coma cuatro, y antígeno prostático de doscientos."
+      "text": "Del EUNACOM de agosto de dos mil veintiuno. Paciente de sesenta y siete años con dolores óseos en múltiples zonas, calcio corregido de catorce coma cuatro, función renal normal, y radiografías que sugieren metástasis óseas."
     },
     {
       "file": "s17_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "¿Cuál es la conducta más adecuada para proseguir el estudio?"
     },
     {
       "file": "s17_g02",
-      "text": "Las opciones: calcitonina, hemodiálisis de urgencia, ácido zoledrónico, gluconato de calcio, o suero fisiológico. Piénsalo."
+      "text": "Las opciones: calciuria de veinticuatro horas, vitamina D, paratohormona, cintigrafía ósea, o calcio iónico. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la E, suero fisiológico. Calcio sobre catorce con compromiso de conciencia es una crisis hipercalcémica, y el primer paso siempre es el volumen. El distractor tentador es el zoledrónico, porque es el fármaco que controla el calcio, pero demora dos a tres días y necesita al paciente hidratado. La hemodiálisis es para la falla renal anúrica, y el gluconato de calcio es de la hipocalcemia, la clase que viene."
+      "text": "Es la C. Aunque las metástasis parezcan evidentes, la hipercalcemia se estudia siempre con PTH, porque el hiperparatiroidismo también da lesiones óseas, los tumores pardos. Si la PTH está suprimida, apoya el cáncer; si está alta, es un hiperparatiroidismo. El distractor es la cintigrafía, que es inespecífica y busca lesiones que aquí ya se vieron. En la práctica, con catorce de calcio, además hidratas mientras estudias."
     },
     {
       "file": "s18_g00",
-      "text": "La última, del EUNACOM de julio de dos mil veinticinco. Hombre de cincuenta y cinco años con calcio de trece coma cinco, náuseas, poliuria, confusión y deshidratación. La PTH está elevada."
+      "text": "Del EUNACOM de diciembre de dos mil veintidós. Hombre de setenta y seis años con cáncer de próstata avanzado, dos días de debilidad y luego sopor profundo, sin focalidad. Sodio ciento cuarenta y ocho, calcio catorce coma ocho, creatinina uno coma cuatro, y antígeno prostático de doscientos."
     },
     {
       "file": "s18_g01",
-      "text": "¿Cuál es el tratamiento inicial de urgencia?"
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s18_g02",
-      "text": "Las opciones: resonancia magnética, cintigrafía con sestamibi, hidratación con suero fisiológico, paratiroidectomía de urgencia, o carbonato de calcio. Piénsalo."
+      "text": "Las opciones: calcitonina, hemodiálisis de urgencia, ácido zoledrónico, gluconato de calcio, o suero fisiológico. Piénsalo."
     },
     {
       "file": "s18_g03",
-      "text": "Es la C. Esta pregunta enseña algo distinto a la anterior: aunque la PTH alta ya te diga que es un hiperparatiroidismo, la urgencia es la misma, hidratar con suero fisiológico. El distractor es el sestamibi, o la cirugía, porque tratan la causa; pero la localización y la paratiroidectomía son electivas, una vez que el paciente está estable."
+      "text": "Es la E, suero fisiológico. Calcio sobre catorce con compromiso de conciencia es una crisis hipercalcémica, y el primer paso siempre es el volumen. El distractor tentador es el zoledrónico, porque es el fármaco que controla el calcio, pero demora dos a tres días y necesita al paciente hidratado. La hemodiálisis es para la falla renal anúrica, y el gluconato de calcio es de la hipocalcemia, la clase que viene."
     },
     {
       "file": "s19_g00",
-      "text": "Cerremos con las reglas de oro. Primero, corrige siempre el calcio por la albúmina."
+      "text": "La última, del EUNACOM de julio de dos mil veinticinco. Hombre de cincuenta y cinco años con calcio de trece coma cinco, náuseas, poliuria, confusión y deshidratación. La PTH está elevada."
     },
     {
       "file": "s19_g01",
-      "text": "Segundo, la PTH intacta divide el camino: alta o inapropiadamente normal es hiperparatiroidismo primario; suprimida es neoplasia o vitamina D."
+      "text": "¿Cuál es el tratamiento inicial de urgencia?"
     },
     {
       "file": "s19_g02",
-      "text": "Y la tríada del hiperparatiroidismo primario es calcio alto, fósforo bajo y PTH alta."
+      "text": "Las opciones: resonancia magnética, cintigrafía con sestamibi, hidratación con suero fisiológico, paratiroidectomía de urgencia, o carbonato de calcio. Piénsalo."
     },
     {
       "file": "s19_g03",
+      "text": "Es la C. Esta pregunta enseña algo distinto a la anterior: aunque la PTH alta ya te diga que es un hiperparatiroidismo, la urgencia es la misma, hidratar con suero fisiológico. El distractor es el sestamibi, o la cirugía, porque tratan la causa; pero la localización y la paratiroidectomía son electivas, una vez que el paciente está estable."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Cerremos con las reglas de oro. Primero, corrige siempre el calcio por la albúmina."
+    },
+    {
+      "file": "s20_g01",
+      "text": "Segundo, la PTH intacta divide el camino: alta o inapropiadamente normal es hiperparatiroidismo primario; suprimida es neoplasia o vitamina D."
+    },
+    {
+      "file": "s20_g02",
+      "text": "Y la tríada del hiperparatiroidismo primario es calcio alto, fósforo bajo y PTH alta."
+    },
+    {
+      "file": "s20_g03",
       "text": "En la crisis, suero fisiológico primero, luego zoledronato, con calcitonina de puente. La furosemida solo si ya está hidratado y sobrecargado."
     },
     {
-      "file": "s19_g04",
+      "file": "s20_g04",
       "text": "La paratiroidectomía es mandatoria en el sintomático, y en el asintomático con cualquier criterio: menor de cincuenta años, calcio más de uno sobre el límite, compromiso óseo o renal. Y vigila el hueso hambriento después."
     },
     {
-      "file": "s19_g05",
+      "file": "s20_g05",
       "text": "Con calciuria muy baja, piensa en la hipocalciúrica familiar, que no se opera. Si te llevas una sola idea de hoy: ante una hipercalcemia, corrige y pide PTH; ante una crisis, suero fisiológico antes que todo. Nos vemos en la próxima clase."
     }
   ]

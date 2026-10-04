@@ -176,6 +176,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-19/03_celulas-plasmaticas-en-medula__cto-hemato_p82.jpg', label: 'Células plasmáticas en médula', credit: 'Manual CTO Hematología 14.ª ed., p. 82' },
+        { src: 'biblioteca/06_hematologia/hem-19/S1_electroforesis-pico-m__propio.svg', label: 'Electroforesis pico m', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Células plasmáticas en médula',
+          say: 'Mira esta imagen: células plasmáticas en médula. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Electroforesis pico m',
+          say: 'Mira esta imagen: electroforesis pico m. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del adulto mayor con dolor óseo y VHS alta.',
     },

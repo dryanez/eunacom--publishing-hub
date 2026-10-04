@@ -147,6 +147,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-10/01_neumotorax-rx__cto-neumo_p116.jpg', label: 'Neumotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
+      ],
+      steps: [
+        { note: 'Neumotórax',
+          say: 'Mira esta imagen: neumotórax. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres emergencias torácicas en un solo árbol de decisión.',
     },

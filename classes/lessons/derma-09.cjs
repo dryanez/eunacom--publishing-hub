@@ -166,6 +166,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg', label: 'Stevens-johnson por mycoplasma', credit: 'Fitzpatrick 7.ª ed., p. 685 (figura completa, ~480 px)' },
+      ],
+      steps: [
+        { note: 'Stevens-johnson por mycoplasma',
+          say: 'Mira esta imagen: Stevens-Johnson por Mycoplasma. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión completo, desde la sospecha inicial hasta el destino de hospitalización.',
     },

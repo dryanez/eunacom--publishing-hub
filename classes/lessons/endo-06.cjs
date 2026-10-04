@@ -317,6 +317,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_2__cto-endocrino_p57.jpg', label: 'Graves bocio difuso 2', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+        { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_3__cto-endocrino_p57.jpg', label: 'Graves bocio difuso 3', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+        { src: 'biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_1__amir-endocrino_p38.jpg', label: 'Eco doppler graves', credit: 'Manual AMIR Endocrinología, p. 38' },
+        { src: 'biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_2__amir-endocrino_p38.jpg', label: 'Eco doppler graves 2', credit: 'Manual AMIR Endocrinología, p. 38' },
+      ],
+      steps: [
+        { note: 'Graves bocio difuso 2',
+          say: 'Mira esta imagen: graves bocio difuso dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Graves bocio difuso 3',
+          say: 'Mira esta imagen: graves bocio difuso tres. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Eco doppler graves',
+          say: 'Mira esta imagen: ECO doppler Graves. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Eco doppler graves 2',
+          say: 'Mira esta imagen: eco doppler graves dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la TSH suprimida hasta el tratamiento.',
     },

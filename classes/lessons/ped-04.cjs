@@ -122,6 +122,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-04/02_tetina_succion__minsal-lactancia-2010.jpg', label: 'Esquema de succión efectiva', credit: 'Manual Lactancia Materna MINSAL 2010, p. 141' },
+      ],
+      steps: [
+        { note: 'Esquema de succión efectiva',
+          say: 'Mira esta imagen: esquema de succión efectiva. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos toda la suplementación en un solo árbol de decisión.',
     },

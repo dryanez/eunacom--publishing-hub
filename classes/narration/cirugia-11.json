@@ -2,7 +2,7 @@
   "id": "cirugia-11",
   "title": "Cirugia 11.11: Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
   "specialty": "Cirugía General",
-  "chars": 10670,
+  "chars": 10767,
   "segments": [
     {
       "file": "s00_g00",
@@ -130,94 +130,98 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora juntemos todo en el árbol de decisión del trauma abdominal. Llega un paciente con trauma abdominal, cerrado o penetrante. Haces el Eco-FAST al mismo tiempo que el ABC, buscando solo una cosa: líquido libre en los espacios que revisas."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Con estos signos, no esperas ningún examen: vas directo a pabellón para la laparotomía exploradora."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si el paciente no responde a los fluidos y el Eco-FAST muestra líquido libre, la decisión ya está tomada."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Prohibido llevarlo al tomógrafo: el riesgo de morir durante el examen es demasiado alto. Va directo a pabellón, con reanimación continua en el trayecto."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si responde a la reanimación, tienes tiempo para el TAC, que gradúa la lesión y guía la siguiente decisión."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Sin inestabilidad, el TAC con contraste es el examen de elección para decidir el manejo."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Sin peritonitis ni sospecha de víscera hueca, la mayoría de estas lesiones se tratan sin cirugía, con vigilancia estrecha y hematocrito seriado hasta confirmar que todo se mantiene estable."
+      "text": "Mira esta imagen: rotura esplénica. Fíjate en cómo se ve, porque así puede aparecer en el examen."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las trampas. Inestable con Eco-FAST positivo: laparotomía urgente, directo a pabellón. Enviarlo al escáner es el error que más cuesta caro."
+      "text": "Ahora juntemos todo en el árbol de decisión del trauma abdominal. Llega un paciente con trauma abdominal, cerrado o penetrante. Haces el Eco-FAST al mismo tiempo que el ABC, buscando solo una cosa: líquido libre en los espacios que revisas."
     },
     {
       "file": "s08_g01",
-      "text": "Estable, con una lesión esplénica de grado bajo: manejo no operatorio con vigilancia. Operar de entrada le quita al paciente un bazo que se podía salvar."
+      "text": "Con estos signos, no esperas ningún examen: vas directo a pabellón para la laparotomía exploradora."
     },
     {
       "file": "s08_g02",
-      "text": "Herida penetrante en el hipocondrio izquierdo, estable, con TAC normal: laparoscopía diagnóstica, porque la rotura diafragmática puede ser silenciosa incluso en las imágenes. Dar de alta sin buscarla deja pasar una hernia que se estrangula meses después."
+      "text": "Si el paciente no responde a los fluidos y el Eco-FAST muestra líquido libre, la decisión ya está tomada."
     },
     {
       "file": "s08_g03",
-      "text": "Y la equimosis del cinturón de seguridad obliga a sospechar una rotura de intestino delgado, no a asumir que es solo un moretón de la pared."
+      "text": "Prohibido llevarlo al tomógrafo: el riesgo de morir durante el examen es demasiado alto. Va directo a pabellón, con reanimación continua en el trayecto."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si responde a la reanimación, tienes tiempo para el TAC, que gradúa la lesión y guía la siguiente decisión."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Sin inestabilidad, el TAC con contraste es el examen de elección para decidir el manejo."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Sin peritonitis ni sospecha de víscera hueca, la mayoría de estas lesiones se tratan sin cirugía, con vigilancia estrecha y hematocrito seriado hasta confirmar que todo se mantiene estable."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Mujer de veintiséis años, tras un vuelco en automóvil, con cinturón de seguridad puesto. Llega pálida, con presión arterial de ochenta y cuatro sobre cincuenta y frecuencia cardíaca de ciento veinticuatro. Se le pasa un litro de suero, y la presión apenas sube. El Eco-FAST muestra líquido libre en el espacio de Morrison y en la pelvis."
+      "text": "Repasemos las trampas. Inestable con Eco-FAST positivo: laparotomía urgente, directo a pabellón. Enviarlo al escáner es el error que más cuesta caro."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "Estable, con una lesión esplénica de grado bajo: manejo no operatorio con vigilancia. Operar de entrada le quita al paciente un bazo que se podía salvar."
     },
     {
       "file": "s09_g02",
-      "text": "Tienes cinco opciones: pedir un TAC de abdomen, trasladar a pabellón para laparotomía, repetir el Eco-FAST en media hora, dar dos litros más de suero frío, o pedir una angiografía. Piénsalo."
+      "text": "Herida penetrante en el hipocondrio izquierdo, estable, con TAC normal: laparoscopía diagnóstica, porque la rotura diafragmática puede ser silenciosa incluso en las imágenes. Dar de alta sin buscarla deja pasar una hernia que se estrangula meses después."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Esta paciente no respondió a la reanimación inicial, sigue inestable, y el Eco-FAST ya te confirmó el hemoperitoneo, seguramente por una rotura de bazo o hígado. Con esos dos datos juntos, la conducta obligatoria es la laparotomía de urgencia. Pedir un TAC aquí es la trampa: llevarla al escáner en ese estado puede costarle la vida antes de que termine el examen."
+      "text": "Y la equimosis del cinturón de seguridad obliga a sospechar una rotura de intestino delgado, no a asumir que es solo un moretón de la pared."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Paciente con una herida por arma blanca en el abdomen, hace ocho horas. Está en buenas condiciones, con signos vitales normales y sin irritación peritoneal. Al explorar la herida bajo anestesia local, se confirma que la hoja penetró el peritoneo."
+      "text": "Vamos con un caso. Mujer de veintiséis años, tras un vuelco en automóvil, con cinturón de seguridad puesto. Llega pálida, con presión arterial de ochenta y cuatro sobre cincuenta y frecuencia cardíaca de ciento veinticuatro. Se le pasa un litro de suero, y la presión apenas sube. El Eco-FAST muestra líquido libre en el espacio de Morrison y en la pelvis."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: lavado peritoneal diagnóstico, ecografía FAST, suturar la herida, pedir un TAC abdominal, o laparoscopía exploradora. Piénsalo."
+      "text": "Tienes cinco opciones: pedir un TAC de abdomen, trasladar a pabellón para laparotomía, repetir el Eco-FAST en media hora, dar dos litros más de suero frío, o pedir una angiografía. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E. Una vez que confirmas que la herida atravesó el peritoneo, en un paciente estable la conducta es explorar la cavidad, y hoy eso se hace por laparoscopía: te deja ver si hay una lesión visceral, con una agresión mucho menor que abrir el abdomen entero de par en par. Suturar la piel sin mirar adentro es la trampa clásica: dejarías pasar una perforación intestinal silenciosa que se manifiesta horas después como una peritonitis."
+      "text": "Es la B. Esta paciente no respondió a la reanimación inicial, sigue inestable, y el Eco-FAST ya te confirmó el hemoperitoneo, seguramente por una rotura de bazo o hígado. Con esos dos datos juntos, la conducta obligatoria es la laparotomía de urgencia. Pedir un TAC aquí es la trampa: llevarla al escáner en ese estado puede costarle la vida antes de que termine el examen."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Inestable con Eco-FAST positivo es pabellón directo, nunca el TAC."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Paciente con una herida por arma blanca en el abdomen, hace ocho horas. Está en buenas condiciones, con signos vitales normales y sin irritación peritoneal. Al explorar la herida bajo anestesia local, se confirma que la hoja penetró el peritoneo."
     },
     {
       "file": "s11_g01",
-      "text": "Estable es TAC con contraste, y muchas veces manejo no operatorio con vigilancia estrecha."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "En el trauma cerrado, el bazo es el primer sospechoso. En el penetrante por arma blanca, es el hígado."
+      "text": "Las opciones son: lavado peritoneal diagnóstico, ecografía FAST, suturar la herida, pedir un TAC abdominal, o laparoscopía exploradora. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la E. Una vez que confirmas que la herida atravesó el peritoneo, en un paciente estable la conducta es explorar la cavidad, y hoy eso se hace por laparoscopía: te deja ver si hay una lesión visceral, con una agresión mucho menor que abrir el abdomen entero de par en par. Suturar la piel sin mirar adentro es la trampa clásica: dejarías pasar una perforación intestinal silenciosa que se manifiesta horas después como una peritonitis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Inestable con Eco-FAST positivo es pabellón directo, nunca el TAC."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Estable es TAC con contraste, y muchas veces manejo no operatorio con vigilancia estrecha."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En el trauma cerrado, el bazo es el primer sospechoso. En el penetrante por arma blanca, es el hígado."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y peritonitis, evisceración o neumoperitoneo van directo a cirugía, sin ninguna imagen de por medio. Si te llevas una sola idea de hoy: antes de pensar en qué órgano se rompió, pregúntate primero si el paciente está estable, porque de esa sola respuesta depende si va a pabellón o al TAC. Nos vemos en la próxima clase."
     }
   ]

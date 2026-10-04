@@ -89,6 +89,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El glaucoma silencioso',
+      images: [
+        { src: 'animaciones/oftal-07/A1_excavacion.mp4', label: 'Excavación', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El campo se cierra',
+          say: 'La excavación de la papila crece lentamente, y el campo visual se pierde desde la periferia, sin que el paciente lo note hasta muy tarde.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Glaucoma crónico',

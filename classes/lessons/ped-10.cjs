@@ -174,6 +174,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Fiebre y exantema',
+      images: [
+        { src: 'animaciones/ped-10/A1_fiebre_exantema.mp4', label: 'En el tiempo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La relación da el diagnóstico',
+          say: 'En el exantema súbito, el exantema aparece cuando cae la fiebre. En el sarampión, en el peak de la fiebre. En la escarlatina, casi juntos. Y en Kawasaki, la fiebre dura cinco días o más.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Exantemas virales',
@@ -189,6 +203,46 @@ module.exports = {
           say: 'El exantema súbito aparece justo cuando baja la fiebre.' },
         { note: 'Vesículas en palmas y boca',
           say: 'Y la enfermedad mano pie boca da vesículas en esas zonas.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-10/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' },
+        { src: 'biblioteca/15_pediatria/ped-10/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' },
+        { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_1__cto-pediatria_p102.jpg', label: 'Escarlatina', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+        { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_2__cto-pediatria_p102.jpg', label: 'Escarlatina 2', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+      ],
+      steps: [
+        { note: 'Sarampión',
+          say: 'Mira esta imagen: sarampión. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Rubéola',
+          say: 'Mira esta imagen: rubéola. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Escarlatina',
+          say: 'Mira esta imagen: escarlatina. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Escarlatina 2',
+          say: 'Mira esta imagen: escarlatina dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-10/06_kawasaki__cto-pediatria_p103.jpg', label: 'Kawasaki', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' },
+        { src: 'biblioteca/15_pediatria/ped-10/07_varicela__cto-derma_p16.jpg', label: 'Varicela', credit: 'Manual CTO Dermatología 14.ª ed., p. 16' },
+      ],
+      steps: [
+        { note: 'Kawasaki',
+          say: 'Mira esta imagen: Kawasaki. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Varicela',
+          say: 'Mira esta imagen: varicela. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 

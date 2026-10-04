@@ -217,6 +217,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-09/01_drepanocitos_2__amir-hemato_p38.jpg', label: 'Drepanocitos 2', credit: 'Manual AMIR Hematología, p. 38' },
+        { src: 'biblioteca/06_hematologia/hem-09/02_cuerpos-de-hb-h-alfa-talasemia__amir-hemato_p37.jpg', label: 'Cuerpos de hb h', credit: 'Manual AMIR Hematología, p. 37' },
+      ],
+      steps: [
+        { note: 'Drepanocitos 2',
+          say: 'Mira esta imagen: drepanocitos dos. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Cuerpos de hb h',
+          say: 'Mira esta imagen: cuerpos de Hb H. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol que usarás frente a una microcitosis.',
     },
