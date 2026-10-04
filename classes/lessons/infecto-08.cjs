@@ -157,6 +157,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El reloj de la incubación',
+      images: [
+        { src: 'animaciones/infecto-08/A1_reloj_incubacion.mp4', label: 'Horas', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El tiempo delata el mecanismo',
+          say: 'Menos de seis horas: toxina ya formada en el alimento, con vómitos. De ocho a dieciséis horas: toxina producida en el intestino, con diarrea. Más de dieciséis: invasión, a veces con fiebre.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión para el paciente que consulta después de una comida.',
     },

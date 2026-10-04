@@ -165,6 +165,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La fascitis por dentro',
+      images: [
+        { src: 'animaciones/infecto-04/A1_fascitis.mp4', label: 'Fascitis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Dolor desproporcionado',
+          say: 'La infección avanza rápido por la fascia, mientras la piel todavía se ve casi normal. Por eso la clave es un dolor desproporcionado a lo que se ve. El tratamiento es pabellón urgente.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Infecciones graves de partes blandas',

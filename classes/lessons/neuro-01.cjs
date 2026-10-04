@@ -284,6 +284,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tiempo es cerebro',
+      images: [
+        { src: 'animaciones/neuro-01/A1_penumbra.mp4', label: 'Núcleo y penumbra', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La penumbra se pierde',
+          say: 'Alrededor del núcleo muerto hay una penumbra que todavía se puede salvar. Con cada minuto, el núcleo crece y se come la penumbra. Por eso la trombólisis tiene ventana de cuatro horas y media.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Accidente cerebrovascular isquémico',

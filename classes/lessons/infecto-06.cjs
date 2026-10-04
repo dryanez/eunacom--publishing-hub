@@ -170,6 +170,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dos neurotoxinas',
+      images: [
+        { src: 'animaciones/infecto-06/A1_rabia.mp4', label: 'Rabia', credit: 'Animación propia' },
+        { src: 'animaciones/infecto-06/A2_tetanos.mp4', label: 'Tétanos', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El virus sube por el nervio',
+          say: 'El virus rábico viaja desde la mordedura por los nervios hasta el sistema nervioso central. Ese viaje toma semanas, y es la ventana para que la vacuna y la inmunoglobulina lleguen antes.' },
+        { note: 'Quita el freno',
+          say: 'La toxina tetánica también sube por el nervio, y bloquea las interneuronas que frenan la contracción. Sin freno, aparecen el trismus, la risa sardónica y el opistótonos.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Tétanos',

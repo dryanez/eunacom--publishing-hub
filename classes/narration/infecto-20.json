@@ -2,7 +2,7 @@
   "id": "infecto-20",
   "title": "Infectologia 5.1: Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
   "specialty": "Infectología",
-  "chars": 11014,
+  "chars": 11200,
   "segments": [
     {
       "file": "s00_g00",
@@ -126,154 +126,158 @@
     },
     {
       "file": "s06_g00",
-      "text": "La erisipela tiene un borde nítido y elevado: es superficial, por estreptococo."
-    },
-    {
-      "file": "s06_g01",
-      "text": "La celulitis tiene borde difuso, porque es más profunda."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Y el impétigo, costras color miel, típico de los niños."
+      "text": "El impétigo queda en la epidermis; la erisipela, en la dermis superficial, con borde nítido; la celulitis, más profunda, con borde difuso; y la fascitis necrotizante corre por la fascia."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora pongamos todo en un árbol de decisión. Paciente con una zona roja, caliente y dolorosa en la piel. Primero descarta lo grave, después mira el borde."
+      "text": "La erisipela tiene un borde nítido y elevado: es superficial, por estreptococo."
     },
     {
       "file": "s07_g01",
-      "text": "La primera pregunta es de gravedad: toxicidad sistémica, progresión pese a cuarenta y ocho horas de antibiótico oral, comorbilidad descompensada o celulitis facial."
+      "text": "La celulitis tiene borde difuso, porque es más profunda."
     },
     {
       "file": "s07_g02",
-      "text": "Si hay cualquiera de ellos, se hospitaliza y se usa cefazolina o cloxacilina endovenosa."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Sin criterios de gravedad, se trata en forma ambulatoria. Marca el borde con lápiz y mira cómo es."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Borde neto y sobreelevado, con fiebre de inicio brusco: erisipela por Streptococcus pyogenes."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Cefadroxilo o flucloxacilina oral, o penicilina oral, por siete a diez días, con control del borde a las cuarenta y ocho horas."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Borde difuso y progresión en uno a dos días: celulitis. Busca y trata la puerta de entrada."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Cefadroxilo, cefalexina o flucloxacilina oral por siete a diez días. En alérgicos, clindamicina; si sospechas estafilococo resistente comunitario, cotrimoxazol."
+      "text": "Y el impétigo, costras color miel, típico de los niños."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos lado a lado. La erisipela es superficial, en la dermis y los linfáticos; la celulitis es profunda, en la dermis profunda y el subcutáneo."
+      "text": "Ahora pongamos todo en un árbol de decisión. Paciente con una zona roja, caliente y dolorosa en la piel. Primero descarta lo grave, después mira el borde."
     },
     {
       "file": "s08_g01",
-      "text": "La erisipela es casi siempre estreptococo; la celulitis, estafilococo y estreptococo."
+      "text": "La primera pregunta es de gravedad: toxicidad sistémica, progresión pese a cuarenta y ocho horas de antibiótico oral, comorbilidad descompensada o celulitis facial."
     },
     {
       "file": "s08_g02",
-      "text": "Y el dato que más se pregunta: bordes netos y sobreelevados en la erisipela, difusos en la celulitis."
+      "text": "Si hay cualquiera de ellos, se hospitaliza y se usa cefazolina o cloxacilina endovenosa."
     },
     {
       "file": "s08_g03",
-      "text": "La erisipela empieza de golpe con fiebre alta; la celulitis progresa en uno o dos días."
+      "text": "Sin criterios de gravedad, se trata en forma ambulatoria. Marca el borde con lápiz y mira cómo es."
     },
     {
       "file": "s08_g04",
-      "text": "En la erisipela la puerta de entrada a menudo no se ve; en la celulitis suele ser visible: la tinea pedis, una úlcera o una herida."
+      "text": "Borde neto y sobreelevado, con fiebre de inicio brusco: erisipela por Streptococcus pyogenes."
     },
     {
       "file": "s08_g05",
-      "text": "Y el tratamiento se superpone: en la erisipela también sirve la penicilina oral, pero el cefadroxilo o la flucloxacilina cubren a las dos. La trampa es la amoxicilina en una celulitis, porque no cubre bien al estafilococo."
+      "text": "Cefadroxilo o flucloxacilina oral, o penicilina oral, por siete a diez días, con control del borde a las cuarenta y ocho horas."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Borde difuso y progresión en uno a dos días: celulitis. Busca y trata la puerta de entrada."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Cefadroxilo, cefalexina o flucloxacilina oral por siete a diez días. En alérgicos, clindamicina; si sospechas estafilococo resistente comunitario, cotrimoxazol."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso. Mujer de cincuenta y ocho años con linfedema crónico de la pierna derecha después de una safenectomía. Hace doce horas empieza con calofríos intensos, fiebre de treinta y nueve y dolor ardiente en esa pierna. Tiene una placa roja brillante, indurada y dolorosa, con bordes nítidos y sobreelevados, sin colecciones."
+      "text": "Repasemos lado a lado. La erisipela es superficial, en la dermis y los linfáticos; la celulitis es profunda, en la dermis profunda y el subcutáneo."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
+      "text": "La erisipela es casi siempre estreptococo; la celulitis, estafilococo y estreptococo."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: estafilococo resistente a meticilina, Streptococcus pyogenes, Pseudomonas, Staphylococcus epidermidis, o Escherichia coli. Piénsalo."
+      "text": "Y el dato que más se pregunta: bordes netos y sobreelevados en la erisipela, difusos en la celulitis."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, Streptococcus pyogenes. Inicio de golpe con fiebre alta, bordes netos y sobreelevados, y un linfedema de base: es una erisipela, y la erisipela es estreptocócica en más del noventa por ciento. El estafilococo tienta porque es el agente de la piel que más recordamos, pero da celulitis de bordes difusos, abscesos y forúnculos. Conducta: marcar el borde, elevar la pierna y cefadroxilo oral."
+      "text": "La erisipela empieza de golpe con fiebre alta; la celulitis progresa en uno o dos días."
+    },
+    {
+      "file": "s09_g04",
+      "text": "En la erisipela la puerta de entrada a menudo no se ve; en la celulitis suele ser visible: la tinea pedis, una úlcera o una herida."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y el tratamiento se superpone: en la erisipela también sirve la penicilina oral, pero el cefadroxilo o la flucloxacilina cubren a las dos. La trampa es la amoxicilina en una celulitis, porque no cubre bien al estafilococo."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de sesenta y dos años que se cae y se erosiona la rodilla. Tres días después tiene una lesión eritematosa alrededor de la herida, de diez centímetros, con bordes difusos y calor local."
+      "text": "Vamos al caso. Mujer de cincuenta y ocho años con linfedema crónico de la pierna derecha después de una safenectomía. Hace doce horas empieza con calofríos intensos, fiebre de treinta y nueve y dolor ardiente en esa pierna. Tiene una placa roja brillante, indurada y dolorosa, con bordes nítidos y sobreelevados, sin colecciones."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta de elección?"
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: mupirocina tópica, curación con suero y control, curaciones con povidona yodada, amoxicilina oral por siete días, o cefadroxilo oral por siete días. Piénsalo."
+      "text": "Las opciones: estafilococo resistente a meticilina, Streptococcus pyogenes, Pseudomonas, Staphylococcus epidermidis, o Escherichia coli. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E, cefadroxilo oral. La erosión es la puerta de entrada y los bordes difusos te dicen celulitis, así que hay que cubrir al estafilococo. La amoxicilina es el distractor más tentador, pero no cubre bien al Staphylococcus aureus. Y las curaciones o la mupirocina no alcanzan una infección que ya está en el subcutáneo."
+      "text": "Es la B, Streptococcus pyogenes. Inicio de golpe con fiebre alta, bordes netos y sobreelevados, y un linfedema de base: es una erisipela, y la erisipela es estreptocócica en más del noventa por ciento. El estafilococo tienta porque es el agente de la piel que más recordamos, pero da celulitis de bordes difusos, abscesos y forúnculos. Conducta: marcar el borde, elevar la pierna y cefadroxilo oral."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintiún años con seis días de pápulas y pústulas en la zona glútea, en estrecha relación con los folículos pilosos."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de sesenta y dos años que se cae y se erosiona la rodilla. Tres días después tiene una lesión eritematosa alrededor de la herida, de diez centímetros, con bordes difusos y calor local."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "¿Cuál es la conducta de elección?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: flucloxacilina, ceftriaxona, doxiciclina, amoxicilina, o azitromicina. Piénsalo."
+      "text": "Las opciones: mupirocina tópica, curación con suero y control, curaciones con povidona yodada, amoxicilina oral por siete días, o cefadroxilo oral por siete días. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, flucloxacilina. Pústulas centradas en el folículo son una foliculitis, y el agente es el Staphylococcus aureus, así que la respuesta es el antiestafilocócico. Recuerda que en una foliculitis leve y acotada basta el aseo con clorhexidina o la mupirocina, pero aquí no hay opción tópica. La amoxicilina vuelve a ser la trampa: no cubre bien al estafilococo. Y la ceftriaxona es endovenosa, excesiva para este cuadro."
+      "text": "Es la E, cefadroxilo oral. La erosión es la puerta de entrada y los bordes difusos te dicen celulitis, así que hay que cubrir al estafilococo. La amoxicilina es el distractor más tentador, pero no cubre bien al Staphylococcus aureus. Y las curaciones o la mupirocina no alcanzan una infección que ya está en el subcutáneo."
     },
     {
       "file": "s12_g00",
-      "text": "Y una última pregunta real, del EUNACOM de agosto de dos mil veintiuno, para marcar el límite de esta clase. Diabético mal controlado de cincuenta y tres años, con una lesión en la pierna que en dos días creció hasta veinte centímetros, con fiebre de treinta y nueve, frecuencia cardíaca de ciento quince y presión de noventa sesenta. La lesión tiene zonas violáceas y bulas."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintiún años con seis días de pápulas y pústulas en la zona glútea, en estrecha relación con los folículos pilosos."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: erisipela, herpes zóster, pioderma gangrenoso, fasceítis necrotizante, o celulitis bacteriana. Piénsalo."
+      "text": "Las opciones: flucloxacilina, ceftriaxona, doxiciclina, amoxicilina, o azitromicina. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, fasceítis necrotizante. Al principio podía parecer una erisipela o una celulitis, pero las zonas violáceas, las bulas, la progresión rápida y la hipotensión en un diabético son banderas rojas de una infección necrotizante, que vimos en la clase de partes blandas. La celulitis es el distractor tentador, pero no explica el shock. Esto ya no es un antibiótico oral: es una urgencia quirúrgica."
+      "text": "Es la A, flucloxacilina. Pústulas centradas en el folículo son una foliculitis, y el agente es el Staphylococcus aureus, así que la respuesta es el antiestafilocócico. Recuerda que en una foliculitis leve y acotada basta el aseo con clorhexidina o la mupirocina, pero aquí no hay opción tópica. La amoxicilina vuelve a ser la trampa: no cubre bien al estafilococo. Y la ceftriaxona es endovenosa, excesiva para este cuadro."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Bordes netos y sobreelevados, con fiebre de inicio brusco: erisipela, por Streptococcus pyogenes."
+      "text": "Y una última pregunta real, del EUNACOM de agosto de dos mil veintiuno, para marcar el límite de esta clase. Diabético mal controlado de cincuenta y tres años, con una lesión en la pierna que en dos días creció hasta veinte centímetros, con fiebre de treinta y nueve, frecuencia cardíaca de ciento quince y presión de noventa sesenta. La lesión tiene zonas violáceas y bulas."
     },
     {
       "file": "s13_g01",
-      "text": "Bordes difusos: celulitis, por estafilococo y estreptococo. Y siempre busca la puerta de entrada, sobre todo la tinea pedis."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Marca el borde con lápiz para controlar a las veinticuatro y cuarenta y ocho horas."
+      "text": "Las opciones: erisipela, herpes zóster, pioderma gangrenoso, fasceítis necrotizante, o celulitis bacteriana. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la D, fasceítis necrotizante. Al principio podía parecer una erisipela o una celulitis, pero las zonas violáceas, las bulas, la progresión rápida y la hipotensión en un diabético son banderas rojas de una infección necrotizante, que vimos en la clase de partes blandas. La celulitis es el distractor tentador, pero no explica el shock. Esto ya no es un antibiótico oral: es una urgencia quirúrgica."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Bordes netos y sobreelevados, con fiebre de inicio brusco: erisipela, por Streptococcus pyogenes."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Bordes difusos: celulitis, por estafilococo y estreptococo. Y siempre busca la puerta de entrada, sobre todo la tinea pedis."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Marca el borde con lápiz para controlar a las veinticuatro y cuarenta y ocho horas."
+    },
+    {
+      "file": "s14_g03",
       "text": "El tratamiento oral es cefadroxilo, cefalexina o flucloxacilina por siete a diez días. La amoxicilina sola no cubre bien al estafilococo."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Se hospitaliza con sepsis, progresión a las cuarenta y ocho horas, comorbilidad descompensada o celulitis facial, y se pasa a cefazolina o cloxacilina endovenosa. Si te llevas una sola idea de hoy: el borde te dice la profundidad y el agente, y un betalactámico antiestafilocócico cubre a los dos. Nos vemos en la próxima clase."
     }
   ]

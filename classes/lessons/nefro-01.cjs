@@ -208,6 +208,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El riñón se defiende',
+      images: [
+        { src: 'animaciones/nefro-01/A1_autorregulacion.mp4', label: 'Autorregulación', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Aferente abierta, eferente cerrada',
+          say: 'Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios y los IECA pueden precipitar la falla en un paciente con poco volumen.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'La hematuria glomerular',
       images: [

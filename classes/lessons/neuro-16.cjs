@@ -210,6 +210,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La debilidad que sube',
+      images: [
+        { src: 'animaciones/neuro-16/A1_guillain_barre.mp4', label: 'Guillain-Barré', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Vigila la capacidad vital',
+          say: 'La debilidad parte en las piernas y sube. Lo peligroso es el diafragma: la capacidad vital cae. Bajo veinte mililitros por kilo va a UCI, y bajo quince se intuba.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en la urgencia.',
     },

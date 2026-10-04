@@ -230,6 +230,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo se propaga una crisis',
+      images: [
+        { src: 'animaciones/neuro-08/A1_crisis_propagacion.mp4', label: 'Focal a bilateral', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Se extiende',
+          say: 'La crisis empieza en un foco y da síntomas de esa zona. Si se propaga a todo el hemisferio y al otro, se vuelve bilateral tónico clónica y el paciente pierde la conciencia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Ausencias en el EEG',

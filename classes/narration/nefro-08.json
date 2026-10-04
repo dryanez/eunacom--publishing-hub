@@ -2,7 +2,7 @@
   "id": "nefro-08",
   "title": "Nefrologia 2.4: Fluidoterapia y Terapia Diurética en la Práctica Clínica",
   "specialty": "Nefrología",
-  "chars": 7503,
+  "chars": 7824,
   "segments": [
     {
       "file": "s00_g00",
@@ -78,114 +78,122 @@
     },
     {
       "file": "s04_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Frente a un paciente con un problema de volumen, la primera pregunta es simple: ¿le falta volumen o le sobra?"
+      "text": "Del suero fisiológico, un cuarto queda en el vaso y el resto va al intersticio, sin entrar a la célula. El suero glucosado es agua libre: dos tercios entran a las células."
     },
     {
       "file": "s04_g01",
-      "text": "Si le falta volumen, ¿está inestable?"
-    },
-    {
-      "file": "s04_g02",
-      "text": "Si está en shock, cristaloide isotónico, suero fisiológico o Ringer lactato, sin importar el sodio. En el shock séptico, Ringer lactato."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Si está estable y el problema es un sodio alto, se repone agua libre con suero glucosado o por vía enteral, lento."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Si le sobra volumen, con edema, el diurético se elige según la filtración glomerular."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Con filtración bajo treinta, furosemida: es la que sigue funcionando."
-    },
-    {
-      "file": "s04_g06",
-      "text": "Con filtración conservada, en el hipertenso, la tiazida es de primera línea, vigilando el sodio y el potasio."
+      "text": "La acetazolamida actúa en el túbulo proximal, la furosemida en el asa de Henle, las tiazidas en el túbulo distal, y la espironolactona en el colector."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos las trampas. Shock con sodio alto: primero cristaloide isotónico. El error es el suero glucosado, que no se queda en los vasos."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Frente a un paciente con un problema de volumen, la primera pregunta es simple: ¿le falta volumen o le sobra?"
     },
     {
       "file": "s05_g01",
-      "text": "Shock séptico o deshidratación severa: Ringer lactato. Pasar solo suero fisiológico en grandes volúmenes arriesga la acidosis hiperclorémica."
+      "text": "Si le falta volumen, ¿está inestable?"
     },
     {
       "file": "s05_g02",
-      "text": "Edema con filtración bajo treinta: furosemida. La tiazida ya no funciona ahí."
+      "text": "Si está en shock, cristaloide isotónico, suero fisiológico o Ringer lactato, sin importar el sodio. En el shock séptico, Ringer lactato."
     },
     {
       "file": "s05_g03",
-      "text": "Y la hiponatremia en un usuario de diurético: la culpable clásica es la tiazida, no la furosemida."
+      "text": "Si está estable y el problema es un sodio alto, se repone agua libre con suero glucosado o por vía enteral, lento."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si le sobra volumen, con edema, el diurético se elige según la filtración glomerular."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Con filtración bajo treinta, furosemida: es la que sigue funcionando."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Con filtración conservada, en el hipertenso, la tiazida es de primera línea, vigilando el sodio y el potasio."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos con un caso. Hombre de cuarenta y cinco años con una deshidratación severa, reanimado solo con seis litros de suero fisiológico en un día. Ahora está estable, pero tiene cloro de ciento dieciocho y bicarbonato de dieciséis, con lactato y cetonas normales."
+      "text": "Repasemos las trampas. Shock con sodio alto: primero cristaloide isotónico. El error es el suero glucosado, que no se queda en los vasos."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la causa más probable de su alteración ácido base?"
+      "text": "Shock séptico o deshidratación severa: Ringer lactato. Pasar solo suero fisiológico en grandes volúmenes arriesga la acidosis hiperclorémica."
     },
     {
       "file": "s06_g02",
-      "text": "Las alternativas: acidosis hiperclorémica por el suero, acidosis láctica, cetoacidosis, alcalosis por contracción, o acidosis urémica. Piénsalo."
+      "text": "Edema con filtración bajo treinta: furosemida. La tiazida ya no funciona ahí."
     },
     {
       "file": "s06_g03",
-      "text": "Es la A. Calcula el anion gap: ciento cuarenta y dos menos la suma de ciento dieciocho y dieciséis, da ocho. Es normal. Acidosis con anion gap normal y cloro alto, después de seis litros de un suero que trae ciento cincuenta y cuatro de cloro: la causa es el propio suero. El distractor tentador es la acidosis láctica, pero el lactato es normal y esa acidosis subiría el anion gap."
+      "text": "Y la hiponatremia en un usuario de diurético: la culpable clásica es la tiazida, no la furosemida."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de setenta años, diabético e hipertenso, que toma losartán e hidroclorotiazida, con cuatro días de vómitos y diarrea. Está bradipsíquico, con presión de cien sobre cincuenta y frecuencia de ciento diez. Tiene creatinina de dos, fracción excretada de sodio de cero coma cinco, sodio de ciento treinta y potasio de dos."
+      "text": "Vamos con un caso. Hombre de cuarenta y cinco años con una deshidratación severa, reanimado solo con seis litros de suero fisiológico en un día. Ahora está estable, pero tiene cloro de ciento dieciocho y bicarbonato de dieciséis, con lactato y cetonas normales."
     },
     {
       "file": "s07_g01",
-      "text": "¿Qué fluido debe administrarse inicialmente?"
+      "text": "¿Cuál es la causa más probable de su alteración ácido base?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: suero glucosado, Ringer lactato, albúmina, solución glucosalina, o bicarbonato. Piénsalo."
+      "text": "Las alternativas: acidosis hiperclorémica por el suero, acidosis láctica, cetoacidosis, alcalosis por contracción, o acidosis urémica. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B, Ringer lactato. El paciente está hipovolémico, con una injuria renal prerrenal, y la fracción excretada de sodio baja lo confirma, como vimos en la clase de injuria renal. Lo primero es el volumen con un cristaloide isotónico, y el Ringer además trae algo de potasio. El distractor es el suero glucosado, que no sirve para reanimar."
+      "text": "Es la A. Calcula el anion gap: ciento cuarenta y dos menos la suma de ciento dieciocho y dieciséis, da ocho. Es normal. Acidosis con anion gap normal y cloro alto, después de seis litros de un suero que trae ciento cincuenta y cuatro de cloro: la causa es el propio suero. El distractor tentador es la acidosis láctica, pero el lactato es normal y esa acidosis subiría el anion gap."
     },
     {
       "file": "s08_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Hombre de setenta y cinco años, hipertenso y diabético sin tratamiento, con edema marcado de las piernas, hígado palpable y escasos crépitos. Tiene creatinina de dos coma dos y potasio de cinco coma tres."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de setenta años, diabético e hipertenso, que toma losartán e hidroclorotiazida, con cuatro días de vómitos y diarrea. Está bradipsíquico, con presión de cien sobre cincuenta y frecuencia de ciento diez. Tiene creatinina de dos, fracción excretada de sodio de cero coma cinco, sodio de ciento treinta y potasio de dos."
     },
     {
       "file": "s08_g01",
-      "text": "¿Qué diurético es de elección para el manejo del edema?"
+      "text": "¿Qué fluido debe administrarse inicialmente?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: clortalidona, hidroclorotiazida, furosemida, indapamida, o espironolactona. Piénsalo."
+      "text": "Las opciones: suero glucosado, Ringer lactato, albúmina, solución glucosalina, o bicarbonato. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C, furosemida. Hay edema con la función renal disminuida, y ahí el diurético de asa sigue funcionando, mientras que las tiazidas pierden su efecto. Fíjate que tres alternativas son tiazidas o parecidas, y se descartan juntas. Y la espironolactona es el distractor peligroso: con un potasio de cinco coma tres, lo subiría todavía más."
+      "text": "Es la B, Ringer lactato. El paciente está hipovolémico, con una injuria renal prerrenal, y la fracción excretada de sodio baja lo confirma, como vimos en la clase de injuria renal. Lo primero es el volumen con un cristaloide isotónico, y el Ringer además trae algo de potasio. El distractor es el suero glucosado, que no sirve para reanimar."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. En el shock o la deshidratación grave, primero un cristaloide isotónico, sin importar el sodio."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Hombre de setenta y cinco años, hipertenso y diabético sin tratamiento, con edema marcado de las piernas, hígado palpable y escasos crépitos. Tiene creatinina de dos coma dos y potasio de cinco coma tres."
     },
     {
       "file": "s09_g01",
-      "text": "El suero glucosado no reanima: casi todo se va dentro de las células."
+      "text": "¿Qué diurético es de elección para el manejo del edema?"
     },
     {
       "file": "s09_g02",
-      "text": "Mucho suero fisiológico da acidosis hiperclorémica; el Ringer lactato es la elección en el shock séptico."
+      "text": "Las opciones: clortalidona, hidroclorotiazida, furosemida, indapamida, o espironolactona. Piénsalo."
     },
     {
       "file": "s09_g03",
+      "text": "Es la C, furosemida. Hay edema con la función renal disminuida, y ahí el diurético de asa sigue funcionando, mientras que las tiazidas pierden su efecto. Fíjate que tres alternativas son tiazidas o parecidas, y se descartan juntas. Y la espironolactona es el distractor peligroso: con un potasio de cinco coma tres, lo subiría todavía más."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. En el shock o la deshidratación grave, primero un cristaloide isotónico, sin importar el sodio."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El suero glucosado no reanima: casi todo se va dentro de las células."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Mucho suero fisiológico da acidosis hiperclorémica; el Ringer lactato es la elección en el shock séptico."
+    },
+    {
+      "file": "s10_g03",
       "text": "Para el edema con filtración bajo treinta, furosemida, porque la tiazida pierde su efecto."
     },
     {
-      "file": "s09_g04",
+      "file": "s10_g04",
       "text": "Y la tiazida es la causa clásica de hiponatremia e hipokalemia. Si te llevas una sola idea de hoy: el suero se elige por dónde se queda, y el diurético por cuánto filtra el riñón. En el próximo bloque entramos al potasio, partiendo por la hiperkalemia grave. Nos vemos en la próxima clase."
     }
   ]

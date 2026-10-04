@@ -2,7 +2,7 @@
   "id": "nefro-01",
   "title": "Nefrologia 1.1: Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
   "specialty": "Nefrología",
-  "chars": 14883,
+  "chars": 15140,
   "segments": [
     {
       "file": "s00_g00",
@@ -166,154 +166,158 @@
     },
     {
       "file": "s08_g00",
-      "text": "En el sedimento de una hematuria glomerular los glóbulos rojos están deformados, dismórficos, porque pasaron por el glomérulo dañado. Si son normales, la sangre viene de la vía urinaria."
+      "text": "Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios y los IECA pueden precipitar la falla en un paciente con poco volumen."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. La creatinina subió cero coma tres o más en cuarenta y ocho horas, o una vez y media la basal, o cayó la diuresis. Es una injuria renal aguda por KDIGO. Ahora, el orden."
-    },
-    {
-      "file": "s09_g01",
-      "text": "Lo primero, siempre: ¿hay obstrucción? Ecografía renal y vesical, o buscar el globo vesical."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Hidronefrosis o globo vesical: es postrenal. Se descomprime de inmediato, con sonda Foley, cistostomía o descompresión de la vía alta."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Sin obstrucción, se le pregunta al túbulo. ¿La FeNa es menor de uno por ciento y el sodio urinario menor de veinte? Si usa diuréticos, mira la FeUrea."
-    },
-    {
-      "file": "s09_g04",
-      "text": "El túbulo retiene sodio: es prerrenal. Cristaloides isotónicos y suspender AINE, IECA, ARA dos y diuréticos. Nunca furosemida para forzar la diuresis."
-    },
-    {
-      "file": "s09_g05",
-      "text": "El túbulo pierde sodio: el daño es intrínseco. El sedimento te dice dónde está."
-    },
-    {
-      "file": "s09_g06",
-      "text": "Cilindros granulosos pardos y células tubulares: necrosis tubular aguda. Soporte con balance neutro, ajuste de fármacos y vigilancia de los criterios de diálisis."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Cilindros hemáticos y hematíes dismórficos: el daño está en el glomérulo. Es una glomerulonefritis, y se deriva a nefrología."
-    },
-    {
-      "file": "s09_g08",
-      "text": "Cilindros leucocitarios con piuria estéril: nefritis intersticial aguda. Lo primero es suspender el fármaco culpable, como veremos en la próxima clase."
+      "text": "En el sedimento de una hematuria glomerular los glóbulos rojos están deformados, dismórficos, porque pasaron por el glomérulo dañado. Si son normales, la sangre viene de la vía urinaria."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos la tabla que más se pregunta. La FeNa: bajo uno por ciento en lo prerrenal, sobre dos en la necrosis tubular."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. La creatinina subió cero coma tres o más en cuarenta y ocho horas, o una vez y media la basal, o cayó la diuresis. Es una injuria renal aguda por KDIGO. Ahora, el orden."
     },
     {
       "file": "s10_g01",
-      "text": "Si el paciente usa diuréticos, cambias a la FeUrea: bajo treinta y cinco es prerrenal, sobre cincuenta es necrosis tubular. El error es confiar en la FeNa de un paciente con furosemida."
+      "text": "Lo primero, siempre: ¿hay obstrucción? Ecografía renal y vesical, o buscar el globo vesical."
     },
     {
       "file": "s10_g02",
-      "text": "El sodio urinario: bajo veinte en lo prerrenal, sobre cuarenta en la necrosis tubular."
+      "text": "Hidronefrosis o globo vesical: es postrenal. Se descomprime de inmediato, con sonda Foley, cistostomía o descompresión de la vía alta."
     },
     {
       "file": "s10_g03",
-      "text": "La relación nitrógeno ureico sobre creatinina: mayor de veinte en lo prerrenal, menor de quince en la necrosis."
+      "text": "Sin obstrucción, se le pregunta al túbulo. ¿La FeNa es menor de uno por ciento y el sodio urinario menor de veinte? Si usa diuréticos, mira la FeUrea."
     },
     {
       "file": "s10_g04",
-      "text": "La orina prerrenal está concentrada: osmolaridad sobre quinientos y densidad sobre uno coma cero veinte. La necrótica es isostenúrica, con densidad de uno coma cero diez."
+      "text": "El túbulo retiene sodio: es prerrenal. Cristaloides isotónicos y suspender AINE, IECA, ARA dos y diuréticos. Nunca furosemida para forzar la diuresis."
     },
     {
       "file": "s10_g05",
-      "text": "Y el sedimento: cilindros hialinos en lo prerrenal; cilindros granulosos pardos y células tubulares en la necrosis tubular."
+      "text": "El túbulo pierde sodio: el daño es intrínseco. El sedimento te dice dónde está."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Cilindros granulosos pardos y células tubulares: necrosis tubular aguda. Soporte con balance neutro, ajuste de fármacos y vigilancia de los criterios de diálisis."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Cilindros hemáticos y hematíes dismórficos: el daño está en el glomérulo. Es una glomerulonefritis, y se deriva a nefrología."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Cilindros leucocitarios con piuria estéril: nefritis intersticial aguda. Lo primero es suspender el fármaco culpable, como veremos en la próxima clase."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Hombre de sesenta y ocho años, hipertenso y diabético, que toma enalapril e hidroclorotiazida. Lleva cuatro días con diarrea profusa y vómitos. Llega somnoliento, con presión de ochenta y cinco cincuenta, taquicárdico y con mucosas secas. La creatinina es tres coma cuatro, cuando hace un mes era uno. El sodio urinario es doce, la FeNa sale bajo uno por ciento, y el sedimento tiene cilindros hialinos."
+      "text": "Repasemos la tabla que más se pregunta. La FeNa: bajo uno por ciento en lo prerrenal, sobre dos en la necrosis tubular."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Si el paciente usa diuréticos, cambias a la FeUrea: bajo treinta y cinco es prerrenal, sobre cincuenta es necrosis tubular. El error es confiar en la FeNa de un paciente con furosemida."
     },
     {
       "file": "s11_g02",
-      "text": "Las alternativas: furosemida para restablecer la diuresis, suspender los fármacos e hidratar con suero fisiológico, restringir el aporte de agua, hemodiálisis de urgencia por la creatinina, o biopsia renal. Piénsalo."
+      "text": "El sodio urinario: bajo veinte en lo prerrenal, sobre cuarenta en la necrosis tubular."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. La creatinina subió más de tres veces, así que es estadio tres, y todo dice prerrenal: FeNa baja, sodio urinario bajo y cilindros hialinos. Además tiene la combinación que desarma la autorregulación: deshidratación, IECA y diurético. Se suspenden y se hidrata. La trampa es la furosemida, que agravaría el shock. Y la restricción hídrica es el manejo de la necrosis tubular, no de este paciente."
+      "text": "La relación nitrógeno ureico sobre creatinina: mayor de veinte en lo prerrenal, menor de quince en la necrosis."
+    },
+    {
+      "file": "s11_g04",
+      "text": "La orina prerrenal está concentrada: osmolaridad sobre quinientos y densidad sobre uno coma cero veinte. La necrótica es isostenúrica, con densidad de uno coma cero diez."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Y el sedimento: cilindros hialinos en lo prerrenal; cilindros granulosos pardos y células tubulares en la necrosis tubular."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años, diabético e hipertenso, con metformina, losartán e hidroclorotiazida. Cuatro días de vómitos y diarrea, con menos orina. Está bradipsíquico, con presión de cien cincuenta y taquicardia. Creatinina dos, nitrógeno ureico setenta y ocho, FeNa cero coma cinco por ciento, y un potasio muy bajo, de dos."
+      "text": "Vamos con un caso. Hombre de sesenta y ocho años, hipertenso y diabético, que toma enalapril e hidroclorotiazida. Lleva cuatro días con diarrea profusa y vómitos. Llega somnoliento, con presión de ochenta y cinco cincuenta, taquicárdico y con mucosas secas. La creatinina es tres coma cuatro, cuando hace un mes era uno. El sodio urinario es doce, la FeNa sale bajo uno por ciento, y el sedimento tiene cilindros hialinos."
     },
     {
       "file": "s12_g01",
-      "text": "¿Qué fluido debe administrarse inicialmente?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: suero glucosado al cinco por ciento, Ringer lactato, albúmina al cinco por ciento, suero glucosalino, o bicarbonato. Piénsalo."
+      "text": "Las alternativas: furosemida para restablecer la diuresis, suspender los fármacos e hidratar con suero fisiológico, restringir el aporte de agua, hemodiálisis de urgencia por la creatinina, o biopsia renal. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B, Ringer lactato. Fíjate que es casi el mismo paciente del caso anterior: deshidratado, con un ARA dos y una tiazida, y una FeNa bajo uno. Es prerrenal, y lo primero es reponer la volemia con un cristaloide isotónico. El suero fisiológico no aparecía, así que el Ringer es la respuesta. El suero glucosado es el distractor: el agua libre no se queda en el intravascular y no corrige el shock."
+      "text": "Es la B. La creatinina subió más de tres veces, así que es estadio tres, y todo dice prerrenal: FeNa baja, sodio urinario bajo y cilindros hialinos. Además tiene la combinación que desarma la autorregulación: deshidratación, IECA y diurético. Se suspenden y se hidrata. La trampa es la furosemida, que agravaría el shock. Y la restricción hídrica es el manejo de la necrosis tubular, no de este paciente."
     },
     {
       "file": "s13_g00",
-      "text": "Otra pregunta real del mismo examen, julio de dos mil dieciséis. Paciente de setenta y ocho años, hipertensa, con hidroclorotiazida. Tras diarrea y vómitos está en sopor profundo, con presión de ochenta cincuenta, taquicárdica y con mucosas secas. Y aquí el detalle: el sodio está alto, en ciento cincuenta y seis."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años, diabético e hipertenso, con metformina, losartán e hidroclorotiazida. Cuatro días de vómitos y diarrea, con menos orina. Está bradipsíquico, con presión de cien cincuenta y taquicardia. Creatinina dos, nitrógeno ureico setenta y ocho, FeNa cero coma cinco por ciento, y un potasio muy bajo, de dos."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál de los siguientes fluidos se debe administrar en primer lugar?"
+      "text": "¿Qué fluido debe administrarse inicialmente?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: suero glucosado, suero fisiológico, bicarbonato, agua por sonda nasogástrica, o sales de rehidratación oral. Piénsalo."
+      "text": "Las opciones: suero glucosado al cinco por ciento, Ringer lactato, albúmina al cinco por ciento, suero glucosalino, o bicarbonato. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B, suero fisiológico. La hipernatremia te tienta a elegir el suero glucosado, porque es hipotónico. Pero la paciente está en shock, y la regla es primero la volemia y después los electrolitos. El suero glucosado no se queda en los vasos y no saca a nadie del shock. Y la vía oral o por sonda no corresponde en un paciente en sopor. La hipernatremia se corrige después, en su propia clase."
+      "text": "Es la B, Ringer lactato. Fíjate que es casi el mismo paciente del caso anterior: deshidratado, con un ARA dos y una tiazida, y una FeNa bajo uno. Es prerrenal, y lo primero es reponer la volemia con un cristaloide isotónico. El suero fisiológico no aparecía, así que el Ringer es la respuesta. El suero glucosado es el distractor: el agua libre no se queda en el intravascular y no corrige el shock."
     },
     {
       "file": "s14_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil veinticinco, sobre la causa que siempre se descarta primero. Paciente monorreno, porque le sacaron el riñón derecho, con una hidronefrosis izquierda severa por un cálculo. No tiene infección activa."
+      "text": "Otra pregunta real del mismo examen, julio de dos mil dieciséis. Paciente de setenta y ocho años, hipertensa, con hidroclorotiazida. Tras diarrea y vómitos está en sopor profundo, con presión de ochenta cincuenta, taquicárdica y con mucosas secas. Y aquí el detalle: el sodio está alto, en ciento cincuenta y seis."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el manejo más adecuado?"
+      "text": "¿Cuál de los siguientes fluidos se debe administrar en primer lugar?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: catéter doble J, nefrectomía izquierda, nefrostomía percutánea de urgencia, litotricia sin derivación, o solo analgesia y observar. Piénsalo."
+      "text": "Las opciones: suero glucosado, suero fisiológico, bicarbonato, agua por sonda nasogástrica, o sales de rehidratación oral. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la A, catéter doble J. Es una injuria postrenal en un riñón único, y la conducta es descomprimir la vía urinaria para preservar la función. Sacar su único riñón no tiene sentido, y observar o romper el cálculo sin derivar lo deja obstruido. La nefrostomía también descomprime, pero sin infección el doble J es la opción que se eligió en este examen."
+      "text": "Es la B, suero fisiológico. La hipernatremia te tienta a elegir el suero glucosado, porque es hipotónico. Pero la paciente está en shock, y la regla es primero la volemia y después los electrolitos. El suero glucosado no se queda en los vasos y no saca a nadie del shock. Y la vía oral o por sonda no corresponde en un paciente en sopor. La hipernatremia se corrige después, en su propia clase."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Frente a una injuria renal aguda, lo primero es descartar la obstrucción, con ecografía o buscando el globo vesical."
+      "text": "Y la última, del EUNACOM de julio de dos mil veinticinco, sobre la causa que siempre se descarta primero. Paciente monorreno, porque le sacaron el riñón derecho, con una hidronefrosis izquierda severa por un cálculo. No tiene infección activa."
     },
     {
       "file": "s15_g01",
-      "text": "Después se le pregunta al túbulo: FeNa bajo uno es prerrenal, y si el paciente usa diuréticos, se mira la FeUrea, bajo treinta y cinco."
+      "text": "¿Cuál es el manejo más adecuado?"
     },
     {
       "file": "s15_g02",
-      "text": "Y el sedimento lo confirma: cilindros hialinos en lo prerrenal, granulosos pardos en la necrosis tubular."
+      "text": "Las opciones: catéter doble J, nefrectomía izquierda, nefrostomía percutánea de urgencia, litotricia sin derivación, o solo analgesia y observar. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la A, catéter doble J. Es una injuria postrenal en un riñón único, y la conducta es descomprimir la vía urinaria para preservar la función. Sacar su único riñón no tiene sentido, y observar o romper el cálculo sin derivar lo deja obstruido. La nefrostomía también descomprime, pero sin infección el doble J es la opción que se eligió en este examen."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Frente a una injuria renal aguda, lo primero es descartar la obstrucción, con ecografía o buscando el globo vesical."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Después se le pregunta al túbulo: FeNa bajo uno es prerrenal, y si el paciente usa diuréticos, se mira la FeUrea, bajo treinta y cinco."
+    },
+    {
+      "file": "s16_g02",
+      "text": "Y el sedimento lo confirma: cilindros hialinos en lo prerrenal, granulosos pardos en la necrosis tubular."
+    },
+    {
+      "file": "s16_g03",
       "text": "Recuerda la combinación peligrosa: AINE que cierran la entrada, IECA o ARA dos que abren la salida, en un paciente deshidratado."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "La prerrenal se trata con cristaloides isotónicos y suspendiendo nefrotóxicos, nunca con furosemida."
     },
     {
-      "file": "s15_g05",
+      "file": "s16_g05",
       "text": "La necrosis tubular establecida se trata con balance neutro, porque el volumen ya no la revierte. Si te llevas una sola idea de hoy: el túbulo sano pide volumen, y el túbulo dañado lo rechaza; por eso primero hay que saber cuál tienes. Nos vemos en la próxima clase."
     }
   ]

@@ -263,6 +263,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La rotura del aneurisma',
+      images: [
+        { src: 'animaciones/neuro-04/A1_aneurisma.mp4', label: 'Hemorragia subaracnoidea', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cefalea en trueno',
+          say: 'Un aneurisma del polígono de Willis crece y se rompe, y la sangre llena las cisternas. El paciente siente la peor cefalea de su vida, de golpe.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hemorragia subaracnoidea',

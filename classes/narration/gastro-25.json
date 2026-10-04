@@ -2,7 +2,7 @@
   "id": "gastro-25",
   "title": "Gastroenterologia 6.3: Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
   "specialty": "Gastroenterología",
-  "chars": 15750,
+  "chars": 15917,
   "segments": [
     {
       "file": "s00_g00",
@@ -154,135 +154,123 @@
     },
     {
       "file": "s08_g00",
-      "text": "Dos burbujas de aire, el estómago y el duodeno, y nada de aire más abajo: es la doble burbuja de la atresia duodenal."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Aire dentro de la pared del intestino, en un prematuro que se distiende: es la enterocolitis necrotizante."
-    },
-    {
-      "file": "s08_g02",
-      "text": "En la ecografía, un píloro engrosado y alargado en un lactante con vómitos explosivos: estenosis hipertrófica del píloro."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Y la imagen en diana, como capas de cebolla, es la invaginación intestinal."
+      "text": "El íleon se mete dentro del colon, como un telescopio. En la ecografía se ve como una diana. El lactante tiene dolor intermitente y deposiciones con jalea de grosella."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos de un niño con una urgencia digestiva. Lo primero que miramos es la edad, porque cada etapa tiene sus propios diagnósticos."
+      "text": "Dos burbujas de aire, el estómago y el duodeno, y nada de aire más abajo: es la doble burbuja de la atresia duodenal."
     },
     {
       "file": "s09_g01",
-      "text": "¿Es un recién nacido de días, o un lactante o niño mayor?"
+      "text": "Aire dentro de la pared del intestino, en un prematuro que se distiende: es la enterocolitis necrotizante."
     },
     {
       "file": "s09_g02",
-      "text": "En el recién nacido, preguntamos qué predomina: distensión con sangre, vómito bilioso, o meconio que no sale."
+      "text": "En la ecografía, un píloro engrosado y alargado en un lactante con vómitos explosivos: estenosis hipertrófica del píloro."
     },
     {
       "file": "s09_g03",
-      "text": "Prematuro con distensión, retención gástrica y hematoquecia: radiografía de abdomen buscando neumatosis. Es enterocolitis necrotizante: régimen cero, nutrición parenteral y antibióticos, y cirugía si hay neumoperitoneo."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Vómitos biliosos desde el primer día con doble burbuja en la radiografía: atresia duodenal, asociada a síndrome de Down. Se deriva a cirugía."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Si el meconio no sale en cuarenta y ocho horas, pensamos en Hirschsprung. Se confirma con biopsia rectal, sin células ganglionares, y se reseca el segmento agangliónico."
-    },
-    {
-      "file": "s09_g06",
-      "text": "En el lactante o el niño que sangra, la pregunta es si le duele."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Lactante de seis a doce meses con crisis de llanto y mermelada de grosella: ecografía con signo de la dona."
-    },
-    {
-      "file": "s09_g08",
-      "text": "La primera línea es la reducción neumática o hidrostática guiada por imagen. La cirugía queda para el fracaso, la perforación o una causa anatómica."
-    },
-    {
-      "file": "s09_g09",
-      "text": "Sangrado abundante e indoloro en un niño pequeño: divertículo de Meckel. El examen es la cintigrafía con pertecnetato de tecnecio, y el tratamiento, la resección."
+      "text": "Y la imagen en diana, como capas de cebolla, es la invaginación intestinal."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos en una tabla. Enterocolitis necrotizante: prematuro con neumatosis en la radiografía. Régimen cero, nutrición parenteral y antibióticos, y cirugía solo si perfora."
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos de un niño con una urgencia digestiva. Lo primero que miramos es la edad, porque cada etapa tiene sus propios diagnósticos."
     },
     {
       "file": "s10_g01",
-      "text": "Invaginación: lactante de seis a doce meses, mermelada de grosella y signo de la dona. Reducción neumática, y cirugía solo si falla."
+      "text": "¿Es un recién nacido de días, o un lactante o niño mayor?"
     },
     {
       "file": "s10_g02",
-      "text": "Divertículo de Meckel: sangrado indoloro y abundante en un niño pequeño. Cintigrafía con tecnecio, y luego resección."
+      "text": "En el recién nacido, preguntamos qué predomina: distensión con sangre, vómito bilioso, o meconio que no sale."
     },
     {
       "file": "s10_g03",
-      "text": "Atresia duodenal: vómito bilioso desde el primer día y doble burbuja. Cirugía."
+      "text": "Prematuro con distensión, retención gástrica y hematoquecia: radiografía de abdomen buscando neumatosis. Es enterocolitis necrotizante: régimen cero, nutrición parenteral y antibióticos, y cirugía si hay neumoperitoneo."
     },
     {
       "file": "s10_g04",
-      "text": "Hirschsprung: meconio que no sale en cuarenta y ocho horas y constipación. Biopsia rectal, y resección."
+      "text": "Vómitos biliosos desde el primer día con doble burbuja en la radiografía: atresia duodenal, asociada a síndrome de Down. Se deriva a cirugía."
     },
     {
       "file": "s10_g05",
-      "text": "Y la hernia diafragmática congénita: distrés respiratorio con abdomen excavado. Primero intubar y ventilar; la cirugía, después."
+      "text": "Si el meconio no sale en cuarenta y ocho horas, pensamos en Hirschsprung. Se confirma con biopsia rectal, sin células ganglionares, y se reseca el segmento agangliónico."
+    },
+    {
+      "file": "s10_g06",
+      "text": "En el lactante o el niño que sangra, la pregunta es si le duele."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Lactante de seis a doce meses con crisis de llanto y mermelada de grosella: ecografía con signo de la dona."
+    },
+    {
+      "file": "s10_g08",
+      "text": "La primera línea es la reducción neumática o hidrostática guiada por imagen. La cirugía queda para el fracaso, la perforación o una causa anatómica."
+    },
+    {
+      "file": "s10_g09",
+      "text": "Sangrado abundante e indoloro en un niño pequeño: divertículo de Meckel. El examen es la cintigrafía con pertecnetato de tecnecio, y el tratamiento, la resección."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos al caso. Lactante de nueve meses, previamente sano, con episodios de llanto inconsolable y flexión de las piernas cada quince a veinte minutos, decaído entre las crisis. En el pañal hay deposiciones con sangre y moco, y la ecografía muestra el signo de la dona. Está estable y sin signos peritoneales."
+      "text": "Repasemos en una tabla. Enterocolitis necrotizante: prematuro con neumatosis en la radiografía. Régimen cero, nutrición parenteral y antibióticos, y cirugía solo si perfora."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el tratamiento de primera línea?"
+      "text": "Invaginación: lactante de seis a doce meses, mermelada de grosella y signo de la dona. Reducción neumática, y cirugía solo si falla."
     },
     {
       "file": "s11_g02",
-      "text": "Las alternativas: laparotomía de urgencia, reducción neumática guiada por imagen, colonoscopía con polipectomía, régimen cero con nutrición parenteral y antibióticos, o cintigrafía con tecnecio. Piénsalo."
+      "text": "Divertículo de Meckel: sangrado indoloro y abundante en un niño pequeño. Cintigrafía con tecnecio, y luego resección."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. La edad, las crisis de llanto, la mermelada de grosella y la dona te dan la invaginación sin ninguna duda. Y la primera línea es la reducción neumática. El distractor tentador es la laparotomía, porque suena a urgencia quirúrgica, pero en un lactante estable y sin peritonitis la cirugía es la última opción. Las demás alternativas son el tratamiento de otras entidades de esta clase."
+      "text": "Atresia duodenal: vómito bilioso desde el primer día y doble burbuja. Cirugía."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Hirschsprung: meconio que no sale en cuarenta y ocho horas y constipación. Biopsia rectal, y resección."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Y la hernia diafragmática congénita: distrés respiratorio con abdomen excavado. Primero intubar y ventilar; la cirugía, después."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real del examen, de diciembre de dos mil veinticinco. Recién nacido de diez días, que nació prematuro a las veintisiete semanas, alimentado por sonda nasogástrica. Hace dos días tiene distensión abdominal y le aumentó la retención de la leche en la sonda. La radiografía de abdomen muestra asas dilatadas, con zonas de la pared engrosadas y burbujas de aire en algunos segmentos."
+      "text": "Vamos al caso. Lactante de nueve meses, previamente sano, con episodios de llanto inconsolable y flexión de las piernas cada quince a veinte minutos, decaído entre las crisis. En el pañal hay deposiciones con sangre y moco, y la ecografía muestra el signo de la dona. Está estable y sin signos peritoneales."
     },
     {
       "file": "s12_g01",
-      "text": "Además de suspender la fórmula láctea y asegurar hidratación endovenosa, ¿cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el tratamiento de primera línea?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: cirugía inmediata, alimentar con fórmula hidrolizada por sonda, antibióticos de amplio espectro endovenosos, endoscopía digestiva alta, o suero glucosado por boca. Piénsalo."
+      "text": "Las alternativas: laparotomía de urgencia, reducción neumática guiada por imagen, colonoscopía con polipectomía, régimen cero con nutrición parenteral y antibióticos, o cintigrafía con tecnecio. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C. El cuadro completo, el prematuro, la distensión, y la imagen clave, aire en la pared intestinal, es la enterocolitis necrotizante. Ya suspendieron la alimentación y están hidratando, así que lo que falta es agregar antibióticos de amplio espectro. Nada de alimentar, por ninguna vía, y la cirugía se reserva para cuando el tratamiento médico falla o hay perforación."
+      "text": "Es la B. La edad, las crisis de llanto, la mermelada de grosella y la dona te dan la invaginación sin ninguna duda. Y la primera línea es la reducción neumática. El distractor tentador es la laparotomía, porque suena a urgencia quirúrgica, pero en un lactante estable y sin peritonitis la cirugía es la última opción. Las demás alternativas son el tratamiento de otras entidades de esta clase."
     },
     {
       "file": "s13_g00",
-      "text": "Otra pregunta real, de diciembre de dos mil veintidós. Paciente de diecinueve años con rectorragia de dos días, que hoy se volvió mucho más abundante. Está taquicárdico, con la presión baja y pálido. Antes había tenido varios episodios de dolor periumbilical urente que cedían solos. La colonoscopía de urgencia muestra sangre en todo el colon, que además fluye desde la válvula ileocecal."
+      "text": "Ahora una pregunta real del examen, de diciembre de dos mil veinticinco. Recién nacido de diez días, que nació prematuro a las veintisiete semanas, alimentado por sonda nasogástrica. Hace dos días tiene distensión abdominal y le aumentó la retención de la leche en la sonda. La radiografía de abdomen muestra asas dilatadas, con zonas de la pared engrosadas y burbujas de aire en algunos segmentos."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "Además de suspender la fórmula láctea y asegurar hidratación endovenosa, ¿cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: enfermedad de Crohn, pólipo juvenil, infección por Shigella, divertículo de Meckel, o adenitis mesentérica. Piénsalo."
+      "text": "Las opciones: cirugía inmediata, alimentar con fórmula hidrolizada por sonda, antibióticos de amplio espectro endovenosos, endoscopía digestiva alta, o suero glucosado por boca. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D. La sangre entra al colon desde la válvula ileocecal, es decir, viene del íleon, que es justo donde está el Meckel. Y los episodios previos de dolor periumbilical que cedían solos son esos brotes de diverticulitis que imitan una apendicitis leve. El diagnóstico se confirmaría con la cintigrafía con tecnecio, que aquí ni siquiera hizo falta pedir porque la colonoscopía ya dio la pista."
+      "text": "Es la C. El cuadro completo, el prematuro, la distensión, y la imagen clave, aire en la pared intestinal, es la enterocolitis necrotizante. Ya suspendieron la alimentación y están hidratando, así que lo que falta es agregar antibióticos de amplio espectro. Nada de alimentar, por ninguna vía, y la cirugía se reserva para cuando el tratamiento médico falla o hay perforación."
     },
     {
       "file": "s14_g00",
-      "text": "Y una pregunta real más, de agosto de dos mil veintiuno. Niño de cuarenta y ocho horas de vida, con síndrome de Down, con vómitos explosivos, irritable y decaído. El abdomen está blando, doloroso, con distensión en el epigastrio que desaparece después de vomitar."
+      "text": "Otra pregunta real, de diciembre de dos mil veintidós. Paciente de diecinueve años con rectorragia de dos días, que hoy se volvió mucho más abundante. Está taquicárdico, con la presión baja y pálido. Antes había tenido varios episodios de dolor periumbilical urente que cedían solos. La colonoscopía de urgencia muestra sangre en todo el colon, que además fluye desde la válvula ileocecal."
     },
     {
       "file": "s14_g01",
@@ -290,66 +278,82 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: atresia esofágica, hiperplasia suprarrenal congénita, enterocolitis necrotizante, atresia duodenal, o estenosis hipertrófica del píloro. Piénsalo."
+      "text": "Las opciones: enfermedad de Crohn, pólipo juvenil, infección por Shigella, divertículo de Meckel, o adenitis mesentérica. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la D. Vómito bilioso explosivo desde las primeras horas de vida, con síndrome de Down: atresia duodenal. La trampa es la estenosis del píloro, porque también da vómitos explosivos, pero esa aparece entre la segunda y la sexta semana, no a las cuarenta y ocho horas."
+      "text": "Es la D. La sangre entra al colon desde la válvula ileocecal, es decir, viene del íleon, que es justo donde está el Meckel. Y los episodios previos de dolor periumbilical que cedían solos son esos brotes de diverticulitis que imitan una apendicitis leve. El diagnóstico se confirmaría con la cintigrafía con tecnecio, que aquí ni siquiera hizo falta pedir porque la colonoscopía ya dio la pista."
     },
     {
       "file": "s15_g00",
-      "text": "Y otra pregunta real, de julio de dos mil diecinueve. Recién nacido con dificultad respiratoria marcada. Al examen no se escucha el murmullo pulmonar del lado izquierdo, y los ruidos del corazón están desplazados hacia el lado derecho. El abdomen está excavado."
+      "text": "Y una pregunta real más, de agosto de dos mil veintiuno. Niño de cuarenta y ocho horas de vida, con síndrome de Down, con vómitos explosivos, irritable y decaído. El abdomen está blando, doloroso, con distensión en el epigastrio que desaparece después de vomitar."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es la conducta inicial?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: cirugía de urgencia, intubación orotraqueal, toracostomía de urgencia, prostaglandinas con oxígeno al cien por ciento, o ventilación a presión positiva por mascarilla. Piénsalo."
+      "text": "Las opciones: atresia esofágica, hiperplasia suprarrenal congénita, enterocolitis necrotizante, atresia duodenal, o estenosis hipertrófica del píloro. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la B. Abdomen excavado, con el pulmón y el corazón desplazados: hernia diafragmática congénita. Lo urgente es asegurar la vía aérea, intubando; la cirugía viene después, con el niño estabilizado. Y ojo con la mascarilla con presión positiva: mete aire al intestino que está en el tórax, y empeora todo."
+      "text": "Es la D. Vómito bilioso explosivo desde las primeras horas de vida, con síndrome de Down: atresia duodenal. La trampa es la estenosis del píloro, porque también da vómitos explosivos, pero esa aparece entre la segunda y la sexta semana, no a las cuarenta y ocho horas."
     },
     {
       "file": "s16_g00",
-      "text": "Y la última pregunta real de esta clase, de julio de dos mil trece. Niño de seis años, sin antecedentes, con sangrado rectal fresco en gotas al final de las deposiciones, sin dolor ni ningún otro síntoma. El examen físico es completamente normal."
+      "text": "Y otra pregunta real, de julio de dos mil diecinueve. Recién nacido con dificultad respiratoria marcada. Al examen no se escucha el murmullo pulmonar del lado izquierdo, y los ruidos del corazón están desplazados hacia el lado derecho. El abdomen está excavado."
     },
     {
       "file": "s16_g01",
-      "text": "¿Cuál es el diagnóstico más probable en este caso?"
+      "text": "¿Cuál es la conducta inicial?"
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones: úlcera rectal solitaria, hemorroides, divertículo de Meckel, pólipo juvenil, o fisura anal. Piénsalo."
+      "text": "Las opciones: cirugía de urgencia, intubación orotraqueal, toracostomía de urgencia, prostaglandinas con oxígeno al cien por ciento, o ventilación a presión positiva por mascarilla. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la D. Escolar sano, con un sangrado escaso e intermitente, sin dolor: es el pólipo juvenil. La fisura anal duele, y el divertículo de Meckel sangra mucho más y en niños más pequeños. Se confirma y se trata con colonoscopía y polipectomía, en el mismo procedimiento."
+      "text": "Es la B. Abdomen excavado, con el pulmón y el corazón desplazados: hernia diafragmática congénita. Lo urgente es asegurar la vía aérea, intubando; la cirugía viene después, con el niño estabilizado. Y ojo con la mascarilla con presión positiva: mete aire al intestino que está en el tórax, y empeora todo."
     },
     {
       "file": "s17_g00",
-      "text": "Cerremos con las reglas de oro. Prematuro con neumatosis es enterocolitis necrotizante: tratamiento médico, y cirugía si perfora."
+      "text": "Y la última pregunta real de esta clase, de julio de dos mil trece. Niño de seis años, sin antecedentes, con sangrado rectal fresco en gotas al final de las deposiciones, sin dolor ni ningún otro síntoma. El examen físico es completamente normal."
     },
     {
       "file": "s17_g01",
-      "text": "Vómito bilioso desde el primer día con doble burbuja es atresia duodenal."
+      "text": "¿Cuál es el diagnóstico más probable en este caso?"
     },
     {
       "file": "s17_g02",
-      "text": "Meconio que no sale en cuarenta y ocho horas es Hirschsprung, y se confirma con biopsia rectal."
+      "text": "Las opciones: úlcera rectal solitaria, hemorroides, divertículo de Meckel, pólipo juvenil, o fisura anal. Piénsalo."
     },
     {
       "file": "s17_g03",
+      "text": "Es la D. Escolar sano, con un sangrado escaso e intermitente, sin dolor: es el pólipo juvenil. La fisura anal duele, y el divertículo de Meckel sangra mucho más y en niños más pequeños. Se confirma y se trata con colonoscopía y polipectomía, en el mismo procedimiento."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. Prematuro con neumatosis es enterocolitis necrotizante: tratamiento médico, y cirugía si perfora."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Vómito bilioso desde el primer día con doble burbuja es atresia duodenal."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Meconio que no sale en cuarenta y ocho horas es Hirschsprung, y se confirma con biopsia rectal."
+    },
+    {
+      "file": "s18_g03",
       "text": "Y en la hernia diafragmática congénita, primero intubar y ventilar."
     },
     {
-      "file": "s17_g04",
+      "file": "s18_g04",
       "text": "Lactante con crisis de llanto y mermelada de grosella es invaginación, y la primera línea es la reducción neumática, no la cirugía."
     },
     {
-      "file": "s17_g05",
+      "file": "s18_g05",
       "text": "Sangrado abundante y sin dolor en un niño pequeño es Meckel, y se busca con cintigrafía. Si te llevas una sola idea de hoy: en cirugía pediátrica, cada diagnóstico tiene su imagen clave, y la edad del niño te dice cuál buscar. Nos vemos en la próxima clase."
     }
   ]

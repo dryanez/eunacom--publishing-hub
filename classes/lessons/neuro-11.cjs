@@ -251,6 +251,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La vía nigroestriada',
+      images: [
+        { src: 'animaciones/neuro-11/A1_nigroestriada.mp4', label: 'Dopamina', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Se pierde y se repone',
+          say: 'Las neuronas de la sustancia nigra envían dopamina al estriado. En el Parkinson se pierden, y los síntomas aparecen cuando ya falta más de la mitad. La levodopa repone la dopamina y el movimiento mejora.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',

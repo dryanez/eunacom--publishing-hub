@@ -2,7 +2,7 @@
   "id": "infecto-08",
   "title": "Infectologia 2.4: Intoxicación Alimentaria, Botulismo y Cólera",
   "specialty": "Infectología",
-  "chars": 11939,
+  "chars": 12128,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,162 +114,166 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en un árbol de decisión para el paciente que consulta después de una comida. Llega un paciente, o un grupo, que enfermó después de comer. Lo primero es mirar qué predomina: el tubo digestivo o el sistema nervioso."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Si hay diplopía, ptosis, disfagia y una parálisis flácida que baja, con midriasis, es botulismo: unidad de cuidados intensivos, soporte ventilatorio y antitoxina precoz."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si es digestivo, busca primero la urgencia hídrica: ¿es una diarrea acuosa masiva, en agua de arroz, después de agua o mariscos?"
-    },
-    {
-      "file": "s06_g03",
-      "text": "Eso es cólera: rehidratación vigorosa, oral o con Ringer lactato si hay shock, más doxiciclina en dosis única en los casos moderados a severos."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si no, la pregunta es cuántas horas pasaron desde la comida."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Menos de seis horas, con vómitos sin fiebre: toxina preformada de aureus o cereus. Solo soporte, sin antibióticos."
-    },
-    {
-      "file": "s06_g06",
-      "text": "De ocho a dieciséis horas, con cólicos y diarrea: Clostridium perfringens o cereus diarreico. Soporte."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Más de dieciséis horas con fiebre: invasión, como Salmonella o Campylobacter. Si hay disentería por Campylobacter, azitromicina."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Y en paralelo, si es un brote, se notifica a la Seremi de Salud ante la sola sospecha."
+      "text": "Menos de seis horas: toxina ya formada en el alimento, con vómitos. De ocho a dieciséis horas: toxina producida en el intestino, con diarrea. Más de dieciséis: invasión, a veces con fiebre."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos con la tabla. Staphylococcus aureus: una a seis horas, mayonesa casera o pasteles con crema, vómitos incoercibles sin fiebre."
+      "text": "Juntemos todo en un árbol de decisión para el paciente que consulta después de una comida. Llega un paciente, o un grupo, que enfermó después de comer. Lo primero es mirar qué predomina: el tubo digestivo o el sistema nervioso."
     },
     {
       "file": "s07_g01",
-      "text": "Bacillus cereus emético: una a cinco horas, arroz frito o recalentado, vómitos explosivos. El alimento es lo que lo separa del aureus."
+      "text": "Si hay diplopía, ptosis, disfagia y una parálisis flácida que baja, con midriasis, es botulismo: unidad de cuidados intensivos, soporte ventilatorio y antitoxina precoz."
     },
     {
       "file": "s07_g02",
-      "text": "Clostridium perfringens: ocho a dieciséis horas, guisos recalentados, cólicos y diarrea, sin vómitos."
+      "text": "Si es digestivo, busca primero la urgencia hídrica: ¿es una diarrea acuosa masiva, en agua de arroz, después de agua o mariscos?"
     },
     {
       "file": "s07_g03",
-      "text": "Salmonella no tifoidea: doce a cuarenta y ocho horas, huevos crudos o pollo, y aquí sí hay fiebre alta. Ojo, que la mayonesa aparece en las dos: el reloj y la fiebre deciden."
+      "text": "Eso es cólera: rehidratación vigorosa, oral o con Ringer lactato si hay shock, más doxiciclina en dosis única en los casos moderados a severos."
     },
     {
       "file": "s07_g04",
-      "text": "Vibrio cholerae: doce a setenta y dos horas, agua o mariscos, diarrea profusa en agua de arroz sin dolor."
+      "text": "Si no, la pregunta es cuántas horas pasaron desde la comida."
     },
     {
       "file": "s07_g05",
-      "text": "Y Clostridium botulinum: doce a treinta y seis horas, conservas caseras, diplopía y parálisis descendente."
+      "text": "Menos de seis horas, con vómitos sin fiebre: toxina preformada de aureus o cereus. Solo soporte, sin antibióticos."
+    },
+    {
+      "file": "s07_g06",
+      "text": "De ocho a dieciséis horas, con cólicos y diarrea: Clostridium perfringens o cereus diarreico. Soporte."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Más de dieciséis horas con fiebre: invasión, como Salmonella o Campylobacter. Si hay disentería por Campylobacter, azitromicina."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Y en paralelo, si es un brote, se notifica a la Seremi de Salud ante la sola sospecha."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Cuatro miembros de una familia llegan a urgencias con náuseas y vómitos explosivos que empezaron hace tres horas. Almorzaron hace cuatro horas pastel de choclo y ensalada rusa con mayonesa casera, preparada la noche anterior. Nadie tiene fiebre ni diarrea."
+      "text": "Repasemos con la tabla. Staphylococcus aureus: una a seis horas, mayonesa casera o pasteles con crema, vómitos incoercibles sin fiebre."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el agente más probable, y qué haces?"
+      "text": "Bacillus cereus emético: una a cinco horas, arroz frito o recalentado, vómitos explosivos. El alimento es lo que lo separa del aureus."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: Salmonella con ciprofloxacino; aureus con rehidratación y antieméticos, sin antibióticos; perfringens con metronidazol; aureus con cloxacilina; o cólera con doxiciclina. Piénsalo."
+      "text": "Clostridium perfringens: ocho a dieciséis horas, guisos recalentados, cólicos y diarrea, sin vómitos."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Una hora de incubación, vómitos sin fiebre y mayonesa casera: toxina preformada del aureus. La D es el distractor más tentador, porque acierta el germen, pero el antibiótico no sirve contra una toxina que ya estaba en la comida. Se rehidrata, se da ondansetrón, y el cuadro cede en un día. La Salmonella tardaría más y daría fiebre."
+      "text": "Salmonella no tifoidea: doce a cuarenta y ocho horas, huevos crudos o pollo, y aquí sí hay fiebre alta. Ojo, que la mayonesa aparece en las dos: el reloj y la fiebre deciden."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Vibrio cholerae: doce a setenta y dos horas, agua o mariscos, diarrea profusa en agua de arroz sin dolor."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y Clostridium botulinum: doce a treinta y seis horas, conservas caseras, diplopía y parálisis descendente."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil veinticuatro. Atiendes a cinco compañeros de trabajo que almuerzan en el mismo comedor, todos con vómitos y diarrea de inicio agudo. Sospechas una intoxicación alimentaria."
+      "text": "Vamos con un caso. Cuatro miembros de una familia llegan a urgencias con náuseas y vómitos explosivos que empezaron hace tres horas. Almorzaron hace cuatro horas pastel de choclo y ensalada rusa con mayonesa casera, preparada la noche anterior. Nadie tiene fiebre ni diarrea."
     },
     {
       "file": "s09_g01",
-      "text": "Además de tratar a cada uno, ¿cuál es la medida más adecuada?"
+      "text": "¿Cuál es el agente más probable, y qué haces?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: notificar al encargado de epidemiología del hospital; interrogar a cada paciente para identificar el agente; notificar a la Seremi de Salud; notificar al director del hospital; o notificar a la Superintendencia. Piénsalo."
+      "text": "Las opciones son: Salmonella con ciprofloxacino; aureus con rehidratación y antieméticos, sin antibióticos; perfringens con metronidazol; aureus con cloxacilina; o cólera con doxiciclina. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C, la Seremi de Salud. Un brote de intoxicación alimentaria se notifica a la autoridad sanitaria regional ante la sola sospecha, porque es ella la que puede ir al comedor y cortar la fuente. La A es el distractor: el encargado de epidemiología del hospital participa, pero no reemplaza la notificación a la Seremi. Y la Superintendencia no tiene ningún rol aquí."
+      "text": "Es la B. Una hora de incubación, vómitos sin fiebre y mayonesa casera: toxina preformada del aureus. La D es el distractor más tentador, porque acierta el germen, pero el antibiótico no sirve contra una toxina que ya estaba en la comida. Se rehidrata, se da ondansetrón, y el cuadro cede en un día. La Salmonella tardaría más y daría fiebre."
     },
     {
       "file": "s10_g00",
-      "text": "La segunda es del EUNACOM de diciembre de dos mil veinticinco, y sigue la misma lógica. ¿Con qué estrategia epidemiológica se enfrenta la sospecha de un brote de intoxicación alimentaria?"
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil veinticuatro. Atiendes a cinco compañeros de trabajo que almuerzan en el mismo comedor, todos con vómitos y diarrea de inicio agudo. Sospechas una intoxicación alimentaria."
     },
     {
       "file": "s10_g01",
-      "text": "Elige la alternativa correcta."
+      "text": "Además de tratar a cada uno, ¿cuál es la medida más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: vigilancia activa; estudio experimental; vigilancia centinela; estudio analítico; o vigilancia pasiva. Piénsalo."
+      "text": "Las opciones son: notificar al encargado de epidemiología del hospital; interrogar a cada paciente para identificar el agente; notificar a la Seremi de Salud; notificar al director del hospital; o notificar a la Superintendencia. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A, vigilancia activa, que en la práctica es la notificación obligatoria ante la sola sospecha, lo mismo que vimos en la pregunta anterior. La C es el distractor: la vigilancia centinela, donde solo informan algunos centros, se usa en infecciones frecuentes y poco graves. Un brote no puede esperar a que lo detecte un centro centinela."
+      "text": "Es la C, la Seremi de Salud. Un brote de intoxicación alimentaria se notifica a la autoridad sanitaria regional ante la sola sospecha, porque es ella la que puede ir al comedor y cortar la fuente. La A es el distractor: el encargado de epidemiología del hospital participa, pero no reemplaza la notificación a la Seremi. Y la Superintendencia no tiene ningún rol aquí."
     },
     {
       "file": "s11_g00",
-      "text": "La tercera es del EUNACOM de enero de dos mil veintitrés, y nos lleva al grupo invasor. Paciente con diarrea disentérica aguda, y el panel gastrointestinal sale positivo para Campylobacter."
+      "text": "La segunda es del EUNACOM de diciembre de dos mil veinticinco, y sigue la misma lógica. ¿Con qué estrategia epidemiológica se enfrenta la sospecha de un brote de intoxicación alimentaria?"
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el tratamiento más adecuado?"
+      "text": "Elige la alternativa correcta."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: ciprofloxacino; metronidazol; cotrimoxazol; amoxicilina; o azitromicina. Piénsalo."
+      "text": "Las opciones son: vigilancia activa; estudio experimental; vigilancia centinela; estudio analítico; o vigilancia pasiva. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E, azitromicina. Campylobacter es de los gérmenes que invaden la mucosa, y cuando hay disentería se trata. El distractor es el ciprofloxacino, que se usa en muchas diarreas bacterianas, pero en Campylobacter la resistencia a las quinolonas es alta, y el de elección es el macrólido."
+      "text": "Es la A, vigilancia activa, que en la práctica es la notificación obligatoria ante la sola sospecha, lo mismo que vimos en la pregunta anterior. La C es el distractor: la vigilancia centinela, donde solo informan algunos centros, se usa en infecciones frecuentes y poco graves. Un brote no puede esperar a que lo detecte un centro centinela."
     },
     {
       "file": "s12_g00",
-      "text": "El botulismo no tiene preguntas reales fechadas en el banco, así que cerramos con un caso representativo. Mujer de cincuenta y dos años que comió conservas caseras de espárragos. Al día siguiente ve doble, se le caen los párpados y no puede tragar, y luego se debilitan los brazos. Tiene midriasis arreactiva, sensibilidad normal, y está afebril."
+      "text": "La tercera es del EUNACOM de enero de dos mil veintitrés, y nos lleva al grupo invasor. Paciente con diarrea disentérica aguda, y el panel gastrointestinal sale positivo para Campylobacter."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta inmediata?"
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: plasmaféresis por Guillain-Barré; unidad de cuidados intensivos, vigilar la ventilación y antitoxina botulínica; ceftriaxona por meningitis; piridostigmina por miastenia; o metilprednisolona por esclerosis múltiple. Piénsalo."
+      "text": "Las opciones son: ciprofloxacino; metronidazol; cotrimoxazol; amoxicilina; o azitromicina. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B. Conserva casera, pares craneanos, pupilas dilatadas y una parálisis que baja: botulismo. El distractor más tentador es la A, pero el Guillain-Barré sube desde las piernas y no da midriasis. La miastenia tampoco dilata la pupila. Y la antitoxina va de inmediato, porque solo neutraliza la toxina que aún circula."
+      "text": "Es la E, azitromicina. Campylobacter es de los gérmenes que invaden la mucosa, y cuando hay disentería se trata. El distractor es el ciprofloxacino, que se usa en muchas diarreas bacterianas, pero en Campylobacter la resistencia a las quinolonas es alta, y el de elección es el macrólido."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Menos de seis horas, vómitos sin fiebre: toxina preformada, aureus con mayonesa o cereus con arroz. No lleva antibióticos."
+      "text": "El botulismo no tiene preguntas reales fechadas en el banco, así que cerramos con un caso representativo. Mujer de cincuenta y dos años que comió conservas caseras de espárragos. Al día siguiente ve doble, se le caen los párpados y no puede tragar, y luego se debilitan los brazos. Tiene midriasis arreactiva, sensibilidad normal, y está afebril."
     },
     {
       "file": "s13_g01",
-      "text": "Si hay fiebre, es invasión: Salmonella o Campylobacter. Y ante un brote, se notifica a la Seremi."
+      "text": "¿Cuál es la conducta inmediata?"
     },
     {
       "file": "s13_g02",
-      "text": "En el cólera, la vida la salva la rehidratación; la doxiciclina en dosis única solo acorta el cuadro."
+      "text": "Las opciones son: plasmaféresis por Guillain-Barré; unidad de cuidados intensivos, vigilar la ventilación y antitoxina botulínica; ceftriaxona por meningitis; piridostigmina por miastenia; o metilprednisolona por esclerosis múltiple. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la B. Conserva casera, pares craneanos, pupilas dilatadas y una parálisis que baja: botulismo. El distractor más tentador es la A, pero el Guillain-Barré sube desde las piernas y no da midriasis. La miastenia tampoco dilata la pupila. Y la antitoxina va de inmediato, porque solo neutraliza la toxina que aún circula."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Menos de seis horas, vómitos sin fiebre: toxina preformada, aureus con mayonesa o cereus con arroz. No lleva antibióticos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Si hay fiebre, es invasión: Salmonella o Campylobacter. Y ante un brote, se notifica a la Seremi."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En el cólera, la vida la salva la rehidratación; la doxiciclina en dosis única solo acorta el cuadro."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y en el botulismo, conserva casera, diplopía, midriasis y una parálisis que baja."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Unidad de cuidados intensivos y antitoxina precoz. Si te llevas una sola idea de hoy: en la intoxicación alimentaria, el reloj de la incubación te da el germen, y en el botulismo, la parálisis baja. La próxima clase empezamos el bloque de VIH. Nos vemos en la próxima clase."
     }
   ]

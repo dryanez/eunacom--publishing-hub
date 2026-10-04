@@ -206,6 +206,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El podocito',
+      images: [
+        { src: 'animaciones/nefro-13/A1_podocito.mp4', label: 'Síndrome nefrótico', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Las proteínas escapan',
+          say: 'Cuando se dañan los pies de los podocitos, la barrera deja pasar la albúmina a la orina. La albúmina en sangre cae, aparece el edema, y sube el colesterol.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'El edema del síndrome nefrótico',
       images: [

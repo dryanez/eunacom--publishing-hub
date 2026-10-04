@@ -2,7 +2,7 @@
   "id": "infecto-23",
   "title": "Infectologia 5.4: Varicela No Complicada vs Complicada y Herpes Zóster",
   "specialty": "Infectología",
-  "chars": 12037,
+  "chars": 12216,
   "segments": [
     {
       "file": "s00_g00",
@@ -134,178 +134,182 @@
     },
     {
       "file": "s07_g00",
-      "text": "La varicela muestra lesiones en distintas etapas a la vez: máculas, vesículas y costras."
-    },
-    {
-      "file": "s07_g01",
-      "text": "El zóster sigue un dermatoma y no cruza la línea media."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Y el zóster oftálmico obliga a evaluar el ojo."
+      "text": "Después de la varicela, el virus queda dormido en un ganglio sensitivo. Años después reactiva, viaja por ese nervio y aparecen vesículas en una franja que no cruza la línea media."
     },
     {
       "file": "s08_g00",
-      "text": "Juntemos todo en un árbol de decisión. Paciente con lesiones vesiculares. La primera pregunta es si están por todo el cuerpo o en una sola franja."
+      "text": "La varicela muestra lesiones en distintas etapas a la vez: máculas, vesículas y costras."
     },
     {
       "file": "s08_g01",
-      "text": "Si el exantema es generalizado y polimorfo, es varicela. Si está en un solo dermatoma, unilateral, es herpes zóster."
+      "text": "El zóster sigue un dermatoma y no cruza la línea media."
     },
     {
       "file": "s08_g02",
-      "text": "En la varicela, lo que decide la conducta es quién es el paciente y si tiene una complicación."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Niño sano sin complicaciones: tratamiento sintomático, antihistamínico para el prurito, y nunca aspirina."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Adolescente o adulto sin complicaciones: aciclovir oral, y atento a la respiración."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si aparece disnea con infiltrados nodulares: neumonitis varicelosa. Aciclovir endovenoso, diez miligramos por kilo cada ocho horas, en cuidados intensivos."
-    },
-    {
-      "file": "s08_g06",
-      "text": "En el zóster, mira la punta de la nariz y la oreja."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Zóster sin compromiso especial: aciclovir ochocientos miligramos cinco veces al día o valaciclovir, por siete días, idealmente antes de setenta y dos horas."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Vesícula en la punta de la nariz: zóster oftálmico. Aciclovir sistémico y derivación urgente a oftalmología."
-    },
-    {
-      "file": "s08_g09",
-      "text": "Parálisis facial periférica con vesículas en el conducto auditivo: Ramsay-Hunt. Aciclovir en dosis altas más corticoides."
+      "text": "Y el zóster oftálmico obliga a evaluar el ojo."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos. Neumonitis: adulto, embarazada o fumador, con disnea e infiltrados nodulares. Aciclovir endovenoso y cuidados intensivos."
+      "text": "Juntemos todo en un árbol de decisión. Paciente con lesiones vesiculares. La primera pregunta es si están por todo el cuerpo o en una sola franja."
     },
     {
       "file": "s09_g01",
-      "text": "Ataxia cerebelosa: el niño que camina inestable semanas después de la varicela. Manejo conservador, porque se resuelve sola."
+      "text": "Si el exantema es generalizado y polimorfo, es varicela. Si está en un solo dermatoma, unilateral, es herpes zóster."
     },
     {
       "file": "s09_g02",
-      "text": "Sobreinfección bacteriana: niño que se rasca. Cefazolina o cloxacilina, y aseo quirúrgico si es una fasceítis."
+      "text": "En la varicela, lo que decide la conducta es quién es el paciente y si tiene una complicación."
     },
     {
       "file": "s09_g03",
-      "text": "Zóster oftálmico: vesícula en la punta de la nariz. Aciclovir y oftalmología urgente."
+      "text": "Niño sano sin complicaciones: tratamiento sintomático, antihistamínico para el prurito, y nunca aspirina."
     },
     {
       "file": "s09_g04",
-      "text": "Y Ramsay-Hunt: parálisis facial con vesículas en el oído. Aciclovir en dosis altas más corticoides. La trampa es llamarla parálisis de Bell sin mirar la oreja."
+      "text": "Adolescente o adulto sin complicaciones: aciclovir oral, y atento a la respiración."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si aparece disnea con infiltrados nodulares: neumonitis varicelosa. Aciclovir endovenoso, diez miligramos por kilo cada ocho horas, en cuidados intensivos."
+    },
+    {
+      "file": "s09_g06",
+      "text": "En el zóster, mira la punta de la nariz y la oreja."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Zóster sin compromiso especial: aciclovir ochocientos miligramos cinco veces al día o valaciclovir, por siete días, idealmente antes de setenta y dos horas."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Vesícula en la punta de la nariz: zóster oftálmico. Aciclovir sistémico y derivación urgente a oftalmología."
+    },
+    {
+      "file": "s09_g09",
+      "text": "Parálisis facial periférica con vesículas en el conducto auditivo: Ramsay-Hunt. Aciclovir en dosis altas más corticoides."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos al caso. Hombre de treinta y dos años, sano y no vacunado, con cuatro días de fiebre y un exantema vesicular con lesiones en distintos estadios. Hace doce horas agrega tos seca, disnea de reposo que progresa rápido y dolor pleurítico. Está taquicárdico, con frecuencia respiratoria de treinta y dos y saturación de ochenta y ocho por ciento. La radiografía muestra infiltrados micronodulares difusos en ambos pulmones."
+      "text": "Repasemos. Neumonitis: adulto, embarazada o fumador, con disnea e infiltrados nodulares. Aciclovir endovenoso y cuidados intensivos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Ataxia cerebelosa: el niño que camina inestable semanas después de la varicela. Manejo conservador, porque se resuelve sola."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: aciclovir oral y control, hospitalizar en intensivo con oxígeno y aciclovir endovenoso, ceftriaxona más claritromicina, inmunoglobulina antivaricela, o pulsos de metilprednisolona. Piénsalo."
+      "text": "Sobreinfección bacteriana: niño que se rasca. Cefazolina o cloxacilina, y aseo quirúrgico si es una fasceítis."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Un adulto con varicela e insuficiencia respiratoria con infiltrados nodulares tiene una neumonitis varicelosa, y su mortalidad es alta. Aciclovir endovenoso, diez miligramos por kilo cada ocho horas, en cuidados intensivos. La A es la trampa: el aciclovir es el fármaco correcto, pero la vía oral no alcanza niveles a tiempo. Y la inmunoglobulina sirve para prevenir después de una exposición, no para tratar la enfermedad instalada."
+      "text": "Zóster oftálmico: vesícula en la punta de la nariz. Aciclovir y oftalmología urgente."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y Ramsay-Hunt: parálisis facial con vesículas en el oído. Aciclovir en dosis altas más corticoides. La trampa es llamarla parálisis de Bell sin mirar la oreja."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecinueve. Niño de cinco años con cuatro días de un exantema pruriginoso, generalizado y pleomorfo, con máculas, pápulas y vesículas, que partió en el cuero cabelludo y bajó al tronco y las extremidades."
+      "text": "Vamos al caso. Hombre de treinta y dos años, sano y no vacunado, con cuatro días de fiebre y un exantema vesicular con lesiones en distintos estadios. Hace doce horas agrega tos seca, disnea de reposo que progresa rápido y dolor pleurítico. Está taquicárdico, con frecuencia respiratoria de treinta y dos y saturación de ochenta y ocho por ciento. La radiografía muestra infiltrados micronodulares difusos en ambos pulmones."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el tratamiento más adecuado?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: aciclovir, valaciclovir, prednisona, clorfenamina, o talco mentolado. Piénsalo."
+      "text": "Las opciones: aciclovir oral y control, hospitalizar en intensivo con oxígeno y aciclovir endovenoso, ceftriaxona más claritromicina, inmunoglobulina antivaricela, o pulsos de metilprednisolona. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D, clorfenamina. Es una varicela clásica en un niño sano y sin complicaciones, así que el tratamiento es sintomático: un antihistamínico para el prurito. El aciclovir es el distractor tentador, pero en un niño sano no está indicado. Y fíjate en lo que falta en la lista: la aspirina."
+      "text": "Es la B. Un adulto con varicela e insuficiencia respiratoria con infiltrados nodulares tiene una neumonitis varicelosa, y su mortalidad es alta. Aciclovir endovenoso, diez miligramos por kilo cada ocho horas, en cuidados intensivos. La A es la trampa: el aciclovir es el fármaco correcto, pero la vía oral no alcanza niveles a tiempo. Y la inmunoglobulina sirve para prevenir después de una exposición, no para tratar la enfermedad instalada."
     },
     {
       "file": "s12_g00",
-      "text": "Y ahora la pregunta espejo, del EUNACOM de julio de dos mil trece. Hombre de dieciocho años con tres días de malestar, fiebre, tos y coriza, y desde ayer prurito generalizado, con pápulas y vesículas muy pruriginosas en el tronco y las extremidades."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecinueve. Niño de cinco años con cuatro días de un exantema pruriginoso, generalizado y pleomorfo, con máculas, pápulas y vesículas, que partió en el cuero cabelludo y bajó al tronco y las extremidades."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones: clorfenamina, aspirina, aciclovir oral, vacuna contra el herpes tres, o inmunoglobulina no específica. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Es la C, aciclovir oral. La misma varicela, pero ahora en un paciente de dieciocho años, y sobre los trece años se indica antiviral, porque el adolescente y el adulto se complican más, como vimos con la neumonitis. La clorfenamina, que fue correcta en el niño, aquí se queda corta. Compara las dos preguntas: lo que cambia la respuesta es la edad."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Pasemos al zóster, con una real del EUNACOM de julio de dos mil diecinueve. Paciente de setenta y seis años, diabética, con tres días de una lesión eritematosa en el tronco con dolor urente."
-    },
-    {
-      "file": "s13_g01",
       "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las opciones: aciclovir, valaciclovir, prednisona, clorfenamina, o talco mentolado. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, clorfenamina. Es una varicela clásica en un niño sano y sin complicaciones, así que el tratamiento es sintomático: un antihistamínico para el prurito. El aciclovir es el distractor tentador, pero en un niño sano no está indicado. Y fíjate en lo que falta en la lista: la aspirina."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Y ahora la pregunta espejo, del EUNACOM de julio de dos mil trece. Hombre de dieciocho años con tres días de malestar, fiebre, tos y coriza, y desde ayer prurito generalizado, con pápulas y vesículas muy pruriginosas en el tronco y las extremidades."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
       "file": "s13_g02",
-      "text": "Las opciones: aciclovir cuatrocientos miligramos cada ocho horas, valaciclovir un gramo cada ocho horas por siete días, aciclovir tópico, loratadina, o flucloxacilina. Piénsalo."
+      "text": "Las opciones: clorfenamina, aspirina, aciclovir oral, vacuna contra el herpes tres, o inmunoglobulina no específica. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B, valaciclovir un gramo cada ocho horas por siete días. Dolor urente en una franja del tronco en una adulta mayor es un herpes zóster, y está dentro de las setenta y dos horas. La A tienta porque es aciclovir, pero la dosis es de herpes simple: para el zóster son ochocientos miligramos cinco veces al día. El tópico no sirve."
+      "text": "Es la C, aciclovir oral. La misma varicela, pero ahora en un paciente de dieciocho años, y sobre los trece años se indica antiviral, porque el adolescente y el adulto se complican más, como vimos con la neumonitis. La clorfenamina, que fue correcta en el niño, aquí se queda corta. Compara las dos preguntas: lo que cambia la respuesta es la edad."
     },
     {
       "file": "s14_g00",
-      "text": "Y un caso representativo del banco sobre el zóster oftálmico. Mujer de sesenta y ocho años con tres días de dolor urente en la hemicara izquierda, y desde ayer vesículas en racimo en la frente, el párpado superior y la punta de la nariz."
+      "text": "Pasemos al zóster, con una real del EUNACOM de julio de dos mil diecinueve. Paciente de setenta y seis años, diabética, con tres días de una lesión eritematosa en el tronco con dolor urente."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: aciclovir oral en dosis plenas con evaluación urgente por oftalmología, carbamazepina y paracetamol, corticoide tópico, vacuna contra el zóster, o desbridamiento de las vesículas. Piénsalo."
+      "text": "Las opciones: aciclovir cuatrocientos miligramos cada ocho horas, valaciclovir un gramo cada ocho horas por siete días, aciclovir tópico, loratadina, o flucloxacilina. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la A. Vesículas en la punta de la nariz son el signo de Hutchinson: el nervio nasociliar está comprometido y el ojo está en riesgo. Aciclovir en dosis plenas y oftalmología urgente. La carbamazepina tienta porque el dolor es facial, como en una neuralgia del trigémino, pero aquí hay vesículas: es el virus, y el ojo no puede esperar."
+      "text": "Es la B, valaciclovir un gramo cada ocho horas por siete días. Dolor urente en una franja del tronco en una adulta mayor es un herpes zóster, y está dentro de las setenta y dos horas. La A tienta porque es aciclovir, pero la dosis es de herpes simple: para el zóster son ochocientos miligramos cinco veces al día. El tópico no sirve."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Varicela: lesiones en distintos estadios, de distribución centrípeta, y contagia hasta que todas son costra."
+      "text": "Y un caso representativo del banco sobre el zóster oftálmico. Mujer de sesenta y ocho años con tres días de dolor urente en la hemicara izquierda, y desde ayer vesículas en racimo en la frente, el párpado superior y la punta de la nariz."
     },
     {
       "file": "s15_g01",
-      "text": "En el niño sano, tratamiento sintomático, y nunca aspirina, por el síndrome de Reye. En el mayor de trece años, aciclovir oral."
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s15_g02",
-      "text": "En el niño, la complicación más frecuente es la sobreinfección bacteriana, y la neurológica, la ataxia cerebelosa, que es benigna."
+      "text": "Las opciones: aciclovir oral en dosis plenas con evaluación urgente por oftalmología, carbamazepina y paracetamol, corticoide tópico, vacuna contra el zóster, o desbridamiento de las vesículas. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la A. Vesículas en la punta de la nariz son el signo de Hutchinson: el nervio nasociliar está comprometido y el ojo está en riesgo. Aciclovir en dosis plenas y oftalmología urgente. La carbamazepina tienta porque el dolor es facial, como en una neuralgia del trigémino, pero aquí hay vesículas: es el virus, y el ojo no puede esperar."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Varicela: lesiones en distintos estadios, de distribución centrípeta, y contagia hasta que todas son costra."
+    },
+    {
+      "file": "s16_g01",
+      "text": "En el niño sano, tratamiento sintomático, y nunca aspirina, por el síndrome de Reye. En el mayor de trece años, aciclovir oral."
+    },
+    {
+      "file": "s16_g02",
+      "text": "En el niño, la complicación más frecuente es la sobreinfección bacteriana, y la neurológica, la ataxia cerebelosa, que es benigna."
+    },
+    {
+      "file": "s16_g03",
       "text": "En el adulto, la embarazada y el fumador, la neumonitis, con aciclovir endovenoso."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "El zóster se trata con aciclovir ochocientos miligramos cinco veces al día, o valaciclovir un gramo cada ocho horas, por siete días."
     },
     {
-      "file": "s15_g05",
+      "file": "s16_g05",
       "text": "Con signo de Hutchinson, oftalmología urgente, y ante una parálisis facial, mira la oreja. Si te llevas una sola idea de hoy: la misma varicela que en el niño se trata con un antihistamínico, en el adulto puede ahogarlo, y ahí el aciclovir va a la vena. Nos vemos en la próxima clase."
     }
   ]

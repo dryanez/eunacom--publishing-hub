@@ -244,6 +244,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde se enclava el cálculo',
+      images: [
+        { src: 'animaciones/gastro-17/A1_calculo_cuatro_cuadros.mp4', label: 'Cuatro cuadros', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La ubicación decide',
+          say: 'Si el cálculo obstruye un rato el bacinete, es un cólico biliar. Si se enclava en el cístico, colecistitis. Si baja al colédoco, coledocolitiasis y colangitis. Y si se atasca en la ampolla, tapa el conducto pancreático: pancreatitis biliar.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Litiasis biliar en la ecografía',

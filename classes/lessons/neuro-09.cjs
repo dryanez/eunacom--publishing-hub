@@ -211,6 +211,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El reloj del estatus',
+      images: [
+        { src: 'animaciones/neuro-09/A1_reloj_estatus.mp4', label: 'Cinco y treinta minutos', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Un fármaco por fase',
+          say: 'A los cinco minutos se trata como estatus: primero una benzodiacepina. Si sigue, un antiepiléptico endovenoso. Si no responde, coma inducido. A los treinta minutos empieza el daño neuronal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo el reloj en un solo árbol de decisión, tal como lo vas a razonar en la urgencia.',
     },

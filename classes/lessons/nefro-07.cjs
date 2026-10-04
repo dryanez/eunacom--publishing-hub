@@ -138,6 +138,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La prueba de privación de agua',
+      images: [
+        { src: 'animaciones/nefro-07/A1_privacion_agua.mp4', label: 'Tres poliurias', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Qué hace la orina',
+          say: 'Al restringir el agua, el que tiene polidipsia primaria concentra la orina. En la diabetes insípida la orina sigue diluida. Al dar desmopresina, la central se concentra y la nefrogénica no.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

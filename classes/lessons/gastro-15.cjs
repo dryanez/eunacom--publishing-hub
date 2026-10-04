@@ -234,6 +234,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La hipertensión portal',
+      images: [
+        { src: 'animaciones/gastro-15/A1_hipertension_portal.mp4', label: 'Colaterales y ascitis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La sangre busca otro camino',
+          say: 'El hígado cirrótico frena el paso de la sangre portal y la presión sube. La sangre busca colaterales: várices esofágicas y cabeza de medusa. Y el líquido se filtra al abdomen: ascitis.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El paciente cirrótico',

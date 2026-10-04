@@ -154,6 +154,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La profundidad',
+      images: [
+        { src: 'animaciones/infecto-20/A1_profundidad_piel.mp4', label: 'Cuatro niveles', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Del impétigo a la fascitis',
+          say: 'El impétigo queda en la epidermis; la erisipela, en la dermis superficial, con borde nítido; la celulitis, más profunda, con borde difuso; y la fascitis necrotizante corre por la fascia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Infecciones de la piel',
