@@ -133,6 +133,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El potasio y la insulina',
+      images: [
+        { src: 'animaciones/diab-17/A1_insulina_potasio.mp4', label: 'La insulina mete potasio', credit: 'Animación propia' },
+        { src: 'animaciones/diab-17/A2_umbral_potasio.mp4', label: 'Por qué esperar', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El potasio del plasma cae',
+          say: 'La insulina activa la bomba sodio potasio y mete el potasio dentro de la célula. Mira cómo baja la barra del potasio plasmático.' },
+        { note: 'Bajo tres coma tres, no hay insulina',
+          say: 'Si el paciente ya parte con el potasio bajo y le das insulina, el potasio cae todavía más, y aparece la arritmia. Por eso, bajo tres coma tres, primero potasio y después insulina.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'El potasio bajo en el ECG',

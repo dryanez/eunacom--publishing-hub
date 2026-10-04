@@ -2,7 +2,7 @@
   "id": "diab-11",
   "title": "Diabetes 3.1: Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
   "specialty": "Diabetes y Dislipidemias",
-  "chars": 11964,
+  "chars": 12332,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,99 +114,91 @@
     },
     {
       "file": "s07_g00",
-      "text": "Resumamos las indicaciones de inicio en un árbol de decisión. Paciente con diabetes tipo dos en control. La pregunta es si sigue con orales o si ya es momento de insulina."
+      "text": "La NPH tiene un peak entre las cuatro y diez horas: puesta al acostarse, cubre la madrugada, pero ese peak puede dar hipoglicemia. La glargina es casi plana durante todo el día."
     },
     {
       "file": "s07_g01",
-      "text": "¿Tiene síntomas catabólicos, glicemias de ayuno sobre doscientos cincuenta a trescientos, o hemoglobina glicosilada de nueve a diez o más?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si la respuesta es sí, insulina de entrada, sin probar otra pastilla, aunque el paciente sea obeso o recién diagnosticado."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si no hay catabolismo, ¿sigue sobre su meta tras tres meses con dos o tres orales a dosis óptimas, o tiene los orales contraindicados, como una filtración bajo treinta?"
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si es así, se inicia NPH al acostarse, diez unidades o cero coma uno a cero coma dos por kilo, manteniendo la metformina si no está contraindicada."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si no, se continúa con el tratamiento oral escalonado. Pero recuerda: el embarazo y la hospitalización aguda también son indicación de insulina."
+      "text": "Las prandiales dan un pulso con cada comida. La cristalina se pone media hora antes y su peak llega a las dos o tres horas; los análogos rápidos se ponen al comer y su peak llega en una hora."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos los perfiles en una tabla. Ultrarrápida: parte en diez a quince minutos y dura de tres a cinco horas. Se inyecta justo antes de comer."
+      "text": "Resumamos las indicaciones de inicio en un árbol de decisión. Paciente con diabetes tipo dos en control. La pregunta es si sigue con orales o si ya es momento de insulina."
     },
     {
       "file": "s08_g01",
-      "text": "Cristalina: parte en media hora a una hora y dura de seis a ocho. Treinta minutos antes de comer, y es la única endovenosa."
+      "text": "¿Tiene síntomas catabólicos, glicemias de ayuno sobre doscientos cincuenta a trescientos, o hemoglobina glicosilada de nueve a diez o más?"
     },
     {
       "file": "s08_g02",
-      "text": "NPH: peak de cuatro a diez horas. Al acostarse, o cada doce horas. El error es ponerla con la cena."
+      "text": "Si la respuesta es sí, insulina de entrada, sin probar otra pastilla, aunque el paciente sea obeso o recién diagnosticado."
     },
     {
       "file": "s08_g03",
-      "text": "Glargina: sin peak, una vez al día, siempre a la misma hora."
+      "text": "Si no hay catabolismo, ¿sigue sobre su meta tras tres meses con dos o tres orales a dosis óptimas, o tiene los orales contraindicados, como una filtración bajo treinta?"
     },
     {
       "file": "s08_g04",
-      "text": "Y degludec: sin peak, más de veinticuatro horas, con mayor flexibilidad de horario."
+      "text": "Si es así, se inicia NPH al acostarse, diez unidades o cero coma uno a cero coma dos por kilo, manteniendo la metformina si no está contraindicada."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si no, se continúa con el tratamiento oral escalonado. Pero recuerda: el embarazo y la hospitalización aguda también son indicación de insulina."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de cincuenta y seis años, diabético de ocho años, con metformina y glibenclamida a dosis altas y buena adherencia. Consulta por cansancio, baja de cinco kilos en dos meses y nicturia. Tiene una glicemia de ayuno de doscientos sesenta y cuatro, hemoglobina glicosilada de diez coma cuatro, creatinina normal y orina sin cetonas."
+      "text": "Repasemos los perfiles en una tabla. Ultrarrápida: parte en diez a quince minutos y dura de tres a cinco horas. Se inyecta justo antes de comer."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Cristalina: parte en media hora a una hora y dura de seis a ocho. Treinta minutos antes de comer, y es la única endovenosa."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: agregar sitagliptina, NPH al acostarse manteniendo la metformina, subir la glibenclamida, insulina cristalina endovenosa, o NPH con la cena suspendiendo la metformina. Piénsalo."
+      "text": "NPH: peak de cuatro a diez horas. Al acostarse, o cada doce horas. El error es ponerla con la cena."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Tiene dos indicaciones a la vez: falla secundaria a dos orales, y síntomas catabólicos con hemoglobina glicosilada sobre diez. Agregar otra pastilla es la trampa más tentadora, pero no alcanza. Se inicia NPH al acostarse y se mantiene la metformina. La E falla dos veces: la NPH con la cena da hipoglicemia de madrugada, y la metformina no se suspende. La cristalina endovenosa es para el hospitalizado grave, no para este paciente."
+      "text": "Glargina: sin peak, una vez al día, siempre a la misma hora."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y degludec: sin peak, más de veinticuatro horas, con mayor flexibilidad de horario."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Hombre de treinta y tres años, obeso, que consulta por polidipsia y baja de seis kilos en dos meses. Tiene una glicemia de ayuno de doscientos cuarenta y cinco y una hemoglobina glicosilada de nueve coma dos."
+      "text": "Vamos con un caso. Hombre de cincuenta y seis años, diabético de ocho años, con metformina y glibenclamida a dosis altas y buena adherencia. Consulta por cansancio, baja de cinco kilos en dos meses y nicturia. Tiene una glicemia de ayuno de doscientos sesenta y cuatro, hemoglobina glicosilada de diez coma cuatro, creatinina normal y orina sin cetonas."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento inicial más adecuado?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "Las opciones: metformina, sitagliptina, insulina, liraglutide o glibenclamida. Piénsalo."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Es la C, insulina. Tiene síntomas catabólicos, polidipsia y baja de peso, y una hemoglobina glicosilada sobre nueve. Eso es déficit de insulina, y se trata con insulina desde el inicio. La metformina es la trampa: el paciente es obeso y joven, y suena a diabetes tipo dos típica que parte con metformina. Pero la baja de peso te está diciendo que al páncreas ya no le alcanza."
-    },
-    {
-      "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cincuenta y cinco años, diabético e hipertenso, con metformina dos gramos al día, glibenclamida quince miligramos y enalapril. Está asintomático, con glicemia de ayuno de ciento ochenta y hemoglobina glicosilada de ocho coma ocho."
-    },
-    {
-      "file": "s11_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s10_g02",
+      "text": "Las opciones: agregar sitagliptina, NPH al acostarse manteniendo la metformina, subir la glibenclamida, insulina cristalina endovenosa, o NPH con la cena suspendiendo la metformina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Tiene dos indicaciones a la vez: falla secundaria a dos orales, y síntomas catabólicos con hemoglobina glicosilada sobre diez. Agregar otra pastilla es la trampa más tentadora, pero no alcanza. Se inicia NPH al acostarse y se mantiene la metformina. La E falla dos veces: la NPH con la cena da hipoglicemia de madrugada, y la metformina no se suspende. La cristalina endovenosa es para el hospitalizado grave, no para este paciente."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Hombre de treinta y tres años, obeso, que consulta por polidipsia y baja de seis kilos en dos meses. Tiene una glicemia de ayuno de doscientos cuarenta y cinco y una hemoglobina glicosilada de nueve coma dos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el tratamiento inicial más adecuado?"
+    },
+    {
       "file": "s11_g02",
-      "text": "Las opciones: subir la glibenclamida, subir la metformina, iniciar insulina, cambiar la metformina por rosiglitazona, o cambiar la glibenclamida por sitagliptina. Piénsalo."
+      "text": "Las opciones: metformina, sitagliptina, insulina, liraglutide o glibenclamida. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, iniciar insulina. Aquí no hay síntomas catabólicos: la indicación es la falla secundaria. Ya usa dos orales en dosis altas y sigue lejos de la meta. Subir un poco la glibenclamida o la metformina es tentador, porque todavía queda margen, pero el efecto sería pequeño para una hemoglobina glicosilada de ocho coma ocho."
+      "text": "Es la C, insulina. Tiene síntomas catabólicos, polidipsia y baja de peso, y una hemoglobina glicosilada sobre nueve. Eso es déficit de insulina, y se trata con insulina desde el inicio. La metformina es la trampa: el paciente es obeso y joven, y suena a diabetes tipo dos típica que parte con metformina. Pero la baja de peso te está diciendo que al páncreas ya no le alcanza."
     },
     {
       "file": "s12_g00",
-      "text": "Una más, del EUNACOM de diciembre de dos mil veintidós. Paciente de ochenta y dos años, diabético tipo dos, con metformina y dieta, que llega con una glicemia de ayuno de trescientos cincuenta y cinco y una hemoglobina glicosilada de nueve coma cinco."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cincuenta y cinco años, diabético e hipertenso, con metformina dos gramos al día, glibenclamida quince miligramos y enalapril. Está asintomático, con glicemia de ayuno de ciento ochenta y hemoglobina glicosilada de ocho coma ocho."
     },
     {
       "file": "s12_g01",
@@ -214,46 +206,62 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: agregar glibenclamida, agregar sitagliptina, iniciar NPH, iniciar glargina, o iniciar liraglutide. Piénsalo."
+      "text": "Las opciones: subir la glibenclamida, subir la metformina, iniciar insulina, cambiar la metformina por rosiglitazona, o cambiar la glibenclamida por sitagliptina. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, insulina NPH. Una glicemia de ayuno sobre trescientos con hemoglobina glicosilada sobre nueve es indicación de insulina, sin importar la edad. La duda es entre la C y la D, y la clave es el escenario: en atención primaria, la insulina basal con la que se parte es la NPH al acostarse. La glargina es la alternativa si se dispone de ella."
+      "text": "Es la C, iniciar insulina. Aquí no hay síntomas catabólicos: la indicación es la falla secundaria. Ya usa dos orales en dosis altas y sigue lejos de la meta. Subir un poco la glibenclamida o la metformina es tentador, porque todavía queda margen, pero el efecto sería pequeño para una hemoglobina glicosilada de ocho coma ocho."
     },
     {
       "file": "s13_g00",
-      "text": "La última, del EUNACOM de julio de dos mil veinticinco. Mujer de cincuenta y cinco años, diabética con metformina, que necesita prednisona cuarenta miligramos al día por una enfermedad pulmonar. Sus ayunos eran de ciento treinta, y ahora las glicemias después de comer suben a doscientos ochenta."
+      "text": "Una más, del EUNACOM de diciembre de dos mil veintidós. Paciente de ochenta y dos años, diabético tipo dos, con metformina y dieta, que llega con una glicemia de ayuno de trescientos cincuenta y cinco y una hemoglobina glicosilada de nueve coma cinco."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el ajuste más adecuado?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: iniciar insulina, más metformina, pioglitazona, glibenclamida o sitagliptina. Piénsalo."
+      "text": "Las opciones: agregar glibenclamida, agregar sitagliptina, iniciar NPH, iniciar glargina, o iniciar liraglutide. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la A, iniciar insulina. Los corticoides en dosis altas están en la lista de indicaciones de insulina, y la insulina permite ajustar rápido mientras dura el tratamiento. Fíjate que el ayuno casi no cambió: lo que se dispara es el postprandial, y eso lo controla una insulina prandial. Agregar otra pastilla es el distractor, pero no da el control que se necesita."
+      "text": "Es la C, insulina NPH. Una glicemia de ayuno sobre trescientos con hemoglobina glicosilada sobre nueve es indicación de insulina, sin importar la edad. La duda es entre la C y la D, y la clave es el escenario: en atención primaria, la insulina basal con la que se parte es la NPH al acostarse. La glargina es la alternativa si se dispone de ella."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. La NPH tiene un peak de cuatro a diez horas: con la cena da hipoglicemia de madrugada, y por eso va al acostarse."
+      "text": "La última, del EUNACOM de julio de dos mil veinticinco. Mujer de cincuenta y cinco años, diabética con metformina, que necesita prednisona cuarenta miligramos al día por una enfermedad pulmonar. Sus ayunos eran de ciento treinta, y ahora las glicemias después de comer suben a doscientos ochenta."
     },
     {
       "file": "s14_g01",
-      "text": "La cristalina se pone treinta minutos antes de comer; la ultrarrápida, justo antes. Y la cristalina es la única endovenosa."
+      "text": "¿Cuál es el ajuste más adecuado?"
     },
     {
       "file": "s14_g02",
-      "text": "Se inicia insulina ante una descompensación catabólica o hemoglobina glicosilada de nueve a diez o más, aunque el paciente sea obeso."
+      "text": "Las opciones: iniciar insulina, más metformina, pioglitazona, glibenclamida o sitagliptina. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la A, iniciar insulina. Los corticoides en dosis altas están en la lista de indicaciones de insulina, y la insulina permite ajustar rápido mientras dura el tratamiento. Fíjate que el ayuno casi no cambió: lo que se dispara es el postprandial, y eso lo controla una insulina prandial. Agregar otra pastilla es el distractor, pero no da el control que se necesita."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. La NPH tiene un peak de cuatro a diez horas: con la cena da hipoglicemia de madrugada, y por eso va al acostarse."
+    },
+    {
+      "file": "s15_g01",
+      "text": "La cristalina se pone treinta minutos antes de comer; la ultrarrápida, justo antes. Y la cristalina es la única endovenosa."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Se inicia insulina ante una descompensación catabólica o hemoglobina glicosilada de nueve a diez o más, aunque el paciente sea obeso."
+    },
+    {
+      "file": "s15_g03",
       "text": "También ante la falla de dos o tres orales, la filtración bajo treinta, el embarazo y la hospitalización aguda."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Y se parte con NPH al acostarse más metformina. Si te llevas una sola idea de hoy: cuando el paciente baja de peso o las pastillas ya no alcanzan, la respuesta es insulina, y la NPH va al acostarse. En la próxima clase aprendemos a ajustarla. Nos vemos en la próxima clase."
     }
   ]

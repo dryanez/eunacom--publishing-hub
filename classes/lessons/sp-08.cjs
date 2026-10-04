@@ -128,6 +128,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El punto de corte en movimiento',
+      images: [
+        { src: 'animaciones/sp-08/A1_roc_corte.mp4', label: 'Mover el corte', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Sensibilidad contra especificidad',
+          say: 'Fíjate en la línea blanca: es el punto de corte. Si la corres hacia la izquierda, detectas a casi todos los enfermos, pero también marcas a muchos sanos. Si la corres a la derecha, pasa lo contrario. Cada posición es un punto en la curva ROC.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Curva ROC',

@@ -256,6 +256,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El agua y la neurona',
+      images: [
+        { src: 'animaciones/nefro-05/A1_neurona_aguda.mp4', label: 'Hiponatremia aguda', credit: 'Animación propia' },
+        { src: 'animaciones/nefro-05/A2_neurona_adaptacion.mp4', label: 'Hiponatremia crónica', credit: 'Animación propia' },
+        { src: 'animaciones/nefro-05/A3_neurona_correccion.mp4', label: 'Corregir muy rápido', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El agua entra, el cerebro se hincha',
+          say: 'Cuando el plasma se vuelve hipotónico, el agua entra a la neurona y el cerebro se hincha dentro de un cráneo que no se expande. Eso es el edema cerebral de la hiponatremia aguda.' },
+        { note: 'El cerebro se adapta',
+          say: 'Si la hiponatremia lleva más de cuarenta y ocho horas, la neurona expulsa osmolitos y recupera su tamaño. El paciente tiene pocos síntomas.' },
+        { note: 'Desmielinización osmótica',
+          say: 'Pero esa neurona adaptada es frágil. Si subes el sodio muy rápido, el agua sale de golpe y se daña la mielina. Por eso el máximo es de ocho a diez en veinticuatro horas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

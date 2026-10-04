@@ -179,6 +179,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El ciclo, sincronizado',
+      images: [
+        { src: 'animaciones/gin-01/A1_ciclo_menstrual.mp4', label: 'Veintiocho días', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Hormonas, folículo y endometrio',
+          say: 'Mientras el folículo crece, sube el estradiol y el endometrio prolifera. El peak de LH dispara la ovulación el día catorce. Después el cuerpo lúteo fabrica progesterona y el endometrio se vuelve secretor.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'El ciclo menstrual',

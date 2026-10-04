@@ -2,7 +2,7 @@
   "id": "cirugia-09",
   "title": "Cirugia 11.9: Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
   "specialty": "Cirugía General",
-  "chars": 10751,
+  "chars": 10935,
   "segments": [
     {
       "file": "s00_g00",
@@ -98,130 +98,134 @@
     },
     {
       "file": "s05_g00",
-      "text": "La evaluación del politraumatizado sigue un orden fijo: vía aérea con columna cervical, ventilación, circulación, déficit neurológico y exposición. No se pasa a la siguiente sin resolver la anterior."
+      "text": "La evaluación primaria va letra por letra: vía aérea con columna cervical, ventilación, circulación, déficit neurológico y exposición. No pasas a la siguiente sin resolver la anterior."
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo el protocolo en un solo árbol de decisión. Llega un politraumatizado grave. Antes de examinar nada más, sigue el orden fijo del ATLS: se trata primero la lesión que mata primero."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Si la vía aérea está comprometida o el Glasgow es de ocho o menos, intubas de inmediato, manteniendo el cuello alineado con las dos manos."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si hay timpanismo, ausencia de murmullo pulmonar y desviación traqueal, descomprimes ya, sin esperar ninguna radiografía."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si hay signos de lesión uretral, no instalas la sonda Foley: pides una uretrografía o instalas directamente una cistostomía."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Sin contraindicación, controlas la hemorragia externa e inicias la reposición con hemoderivados y ácido tranexámico antes de las tres horas."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si el paciente cae en hipotermia, acidosis y coagulopatía mientras operas, la prioridad deja de ser terminar la cirugía."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Empaquetas, cierras de forma temporal y trasladas a la unidad de paciente crítico para recalentar y corregir antes de reoperar."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Sin tríada letal, completas la reconstrucción definitiva en la misma cirugía."
+      "text": "La evaluación del politraumatizado sigue un orden fijo: vía aérea con columna cervical, ventilación, circulación, déficit neurológico y exposición. No se pasa a la siguiente sin resolver la anterior."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Con Glasgow de ocho o menos, intubas con control cervical. El error es hiperextender el cuello, o esperar a ver si mejora."
+      "text": "Ahora juntemos todo el protocolo en un solo árbol de decisión. Llega un politraumatizado grave. Antes de examinar nada más, sigue el orden fijo del ATLS: se trata primero la lesión que mata primero."
     },
     {
       "file": "s07_g01",
-      "text": "Con sospecha de neumotórax a tensión, descompresión inmediata. Pedir la radiografía antes de actuar solo demora una emergencia de segundos."
+      "text": "Si la vía aérea está comprometida o el Glasgow es de ocho o menos, intubas de inmediato, manteniendo el cuello alineado con las dos manos."
     },
     {
       "file": "s07_g02",
-      "text": "Con una hemorragia externa mayor, presión, torniquete y ácido tranexámico antes de las tres horas. Pasar más de un litro de suero fisiológico diluye la coagulación."
+      "text": "Si hay timpanismo, ausencia de murmullo pulmonar y desviación traqueal, descomprimes ya, sin esperar ninguna radiografía."
     },
     {
       "file": "s07_g03",
-      "text": "Con uretrorragia o próstata flotante, cistostomía o uretrografía. Instalar la sonda Foley a ciegas puede completar la rotura de la uretra."
+      "text": "Si hay signos de lesión uretral, no instalas la sonda Foley: pides una uretrografía o instalas directamente una cistostomía."
     },
     {
       "file": "s07_g04",
-      "text": "Con fractura de base de cráneo, la sonda va por la boca. Ponerla por la nariz es el error que más se repite en esta pregunta."
+      "text": "Sin contraindicación, controlas la hemorragia externa e inicias la reposición con hemoderivados y ácido tranexámico antes de las tres horas."
     },
     {
       "file": "s07_g05",
-      "text": "Y con la tríada letal ya instalada en pabellón, cirugía de control de daños. Seguir con la cirugía definitiva termina en la muerte del paciente en la mesa."
+      "text": "Si el paciente cae en hipotermia, acidosis y coagulopatía mientras operas, la prioridad deja de ser terminar la cirugía."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Empaquetas, cierras de forma temporal y trasladas a la unidad de paciente crítico para recalentar y corregir antes de reoperar."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Sin tríada letal, completas la reconstrucción definitiva en la misma cirugía."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de treinta y cuatro años, motociclista, tras una colisión de alta energía. Lleva una hora de cirugía por una laceración hepática, y el anestesista informa una temperatura de treinta y cuatro coma dos grados, un pH de siete coma quince, y sangrado difuso en napa desde toda la herida, sin que haya ningún vaso puntual sangrando."
+      "text": "Repasemos las trampas. Con Glasgow de ocho o menos, intubas con control cervical. El error es hiperextender el cuello, o esperar a ver si mejora."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta quirúrgica más adecuada en este momento?"
+      "text": "Con sospecha de neumotórax a tensión, descompresión inmediata. Pedir la radiografía antes de actuar solo demora una emergencia de segundos."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: continuar la reconstrucción hepática hasta terminarla, empaquetar y trasladar a la unidad de paciente crítico, dar bicarbonato y seguir operando, hacer un bypass vascular y cerrar, o esperar en pabellón a que la temperatura mejore sola. Piénsalo."
+      "text": "Con una hemorragia externa mayor, presión, torniquete y ácido tranexámico antes de las tres horas. Pasar más de un litro de suero fisiológico diluye la coagulación."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Fíjate que aquí están las tres piezas juntas: hipotermia, acidosis, y coagulopatía con sangrado difuso. Esa es la tríada letal, y una vez que aparece, seguir operando de forma definitiva mata al paciente en la mesa. La conducta es la cirugía de control de daños: empaquetas con compresas, cierras de forma temporal, y trasladas a la unidad de paciente crítico para recalentar y corregir."
+      "text": "Con uretrorragia o próstata flotante, cistostomía o uretrografía. Instalar la sonda Foley a ciegas puede completar la rotura de la uretra."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Con fractura de base de cráneo, la sonda va por la boca. Ponerla por la nariz es el error que más se repite en esta pregunta."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y con la tríada letal ya instalada en pabellón, cirugía de control de daños. Seguir con la cirugía definitiva termina en la muerte del paciente en la mesa."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de treinta años, tras una caída desde quince metros de altura. Está orientado, con signos vitales estables, pero con mucho dolor al comprimir la pelvis, mayor hacia el lado izquierdo. La radiografía confirma una fractura de pelvis."
+      "text": "Vamos con un caso. Hombre de treinta y cuatro años, motociclista, tras una colisión de alta energía. Lleva una hora de cirugía por una laceración hepática, y el anestesista informa una temperatura de treinta y cuatro coma dos grados, un pH de siete coma quince, y sangrado difuso en napa desde toda la herida, sin que haya ningún vaso puntual sangrando."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "¿Cuál es la conducta quirúrgica más adecuada en este momento?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: pasar una sonda Foley, indicar reposo con hamaca o sábana pélvica, dar antibióticos, operar de inmediato, o pedir una ecografía de abdomen. Piénsalo."
+      "text": "Tienes cinco opciones: continuar la reconstrucción hepática hasta terminarla, empaquetar y trasladar a la unidad de paciente crítico, dar bicarbonato y seguir operando, hacer un bypass vascular y cerrar, o esperar en pabellón a que la temperatura mejore sola. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la B. Con una fractura de pelvis, lo primero es reducir el volumen pélvico por fuera, con una sábana o hamaca pélvica, porque ahí se puede esconder una hemorragia venosa enorme. Y fíjate en el distractor: la sonda Foley suena razonable, pero en toda fractura de pelvis primero descartas una lesión uretral, así que se pospone hasta tenerlo claro."
+      "text": "Es la B. Fíjate que aquí están las tres piezas juntas: hipotermia, acidosis, y coagulopatía con sangrado difuso. Esa es la tríada letal, y una vez que aparece, seguir operando de forma definitiva mata al paciente en la mesa. La conducta es la cirugía de control de daños: empaquetas con compresas, cierras de forma temporal, y trasladas a la unidad de paciente crítico para recalentar y corregir."
     },
     {
       "file": "s10_g00",
-      "text": "Y otra pregunta real, del EUNACOM de julio de dos mil quince. Paciente de cuarenta y seis años, con una fractura de pelvis. Tiene dolor y sale sangre fresca por la uretra, la próstata se palpa ascendida al tacto rectal, y no ha podido orinar."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de treinta años, tras una caída desde quince metros de altura. Está orientado, con signos vitales estables, pero con mucho dolor al comprimir la pelvis, mayor hacia el lado izquierdo. La radiografía confirma una fractura de pelvis."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: pedir un TAC de abdomen y pelvis, pedir una resonancia magnética, hacer una cistoscopía, instalar sonda Foley, o instalar una cistostomía. Piénsalo."
+      "text": "Las opciones son: pasar una sonda Foley, indicar reposo con hamaca o sábana pélvica, dar antibióticos, operar de inmediato, o pedir una ecografía de abdomen. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E. Este caso junta los tres signos que ya vimos: sangre en el meato, próstata que se siente flotando, y ahora además retención urinaria. Es una sección uretral, y ahí la sonda Foley está prohibida. La conducta es la cistostomía suprapúbica, para vaciar la vejiga sin tocar la uretra rota, y recién después se estudia con una uretrografía."
+      "text": "La respuesta es la B. Con una fractura de pelvis, lo primero es reducir el volumen pélvico por fuera, con una sábana o hamaca pélvica, porque ahí se puede esconder una hemorragia venosa enorme. Y fíjate en el distractor: la sonda Foley suena razonable, pero en toda fractura de pelvis primero descartas una lesión uretral, así que se pospone hasta tenerlo claro."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. En todo politraumatizado, el orden es siempre el mismo: se trata primero la lesión que mata primero."
+      "text": "Y otra pregunta real, del EUNACOM de julio de dos mil quince. Paciente de cuarenta y seis años, con una fractura de pelvis. Tiene dolor y sale sangre fresca por la uretra, la próstata se palpa ascendida al tacto rectal, y no ha podido orinar."
     },
     {
       "file": "s11_g01",
-      "text": "Con Glasgow de ocho o menos, intubas con control cervical, sin discutirlo."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Con uretrorragia o próstata flotante, nunca instales la sonda Foley: va cistostomía."
+      "text": "Las opciones son: pedir un TAC de abdomen y pelvis, pedir una resonancia magnética, hacer una cistoscopía, instalar sonda Foley, o instalar una cistostomía. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la E. Este caso junta los tres signos que ya vimos: sangre en el meato, próstata que se siente flotando, y ahora además retención urinaria. Es una sección uretral, y ahí la sonda Foley está prohibida. La conducta es la cistostomía suprapúbica, para vaciar la vejiga sin tocar la uretra rota, y recién después se estudia con una uretrografía."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. En todo politraumatizado, el orden es siempre el mismo: se trata primero la lesión que mata primero."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Con Glasgow de ocho o menos, intubas con control cervical, sin discutirlo."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Con uretrorragia o próstata flotante, nunca instales la sonda Foley: va cistostomía."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y con fractura de base de cráneo, la sonda gástrica se pasa por la boca, nunca por la nariz."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Y si aparece la tríada letal en pabellón, hipotermia, acidosis y coagulopatía, detienes la cirugía definitiva. Si te llevas una sola idea de hoy: en trauma, el orden decide la vida, y ese orden nunca se salta. Nos vemos en la próxima clase."
     }
   ]

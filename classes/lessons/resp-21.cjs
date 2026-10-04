@@ -197,6 +197,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Pulmón sano o pulmón dañado',
+      images: [
+        { src: 'animaciones/resp-21/A1_hipoventilacion.mp4', label: 'Hipoventilación', credit: 'Animación propia' },
+        { src: 'animaciones/resp-21/A2_shunt.mp4', label: 'Shunt', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Gradiente normal',
+          say: 'En la hipoventilación se acumula CO dos y baja el oxígeno alveolar; el arterial baja lo mismo. El gradiente es normal: el pulmón está sano.' },
+        { note: 'Gradiente alto',
+          say: 'En el shunt el alvéolo está lleno de líquido: aunque tenga oxígeno, la sangre pasa sin oxigenarse. El gradiente sube, y darle oxígeno al cien por ciento casi no mejora la saturación.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde los gases hasta el soporte.',
     },

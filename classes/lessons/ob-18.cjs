@@ -128,6 +128,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La primera T',
+      images: [
+        { src: 'animaciones/ob-18/A1_atonia.mp4', label: 'Atonía', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Masaje y oxitocina',
+          say: 'El útero atónico queda blando y grande, y sangra. Con masaje y oxitocina se contrae, y el sangrado se detiene. El tono explica la mayoría de las hemorragias postparto.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hemorragia postparto',

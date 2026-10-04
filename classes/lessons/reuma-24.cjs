@@ -179,6 +179,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/reuma-24/A1_aplastamiento_3d.mp4', label: 'Aplastamiento vertebral', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Cuña anterior',
+          say: 'Mira la primera vértebra lumbar: su parte anterior se aplasta y queda en cuña. La columna pierde altura y se encorva hacia adelante.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Osteoporosis',
       images: [

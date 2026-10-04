@@ -2,7 +2,7 @@
   "id": "ob-18",
   "title": "Obstetricia 19.18: Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
   "specialty": "Obstetricia",
-  "chars": 7675,
+  "chars": 7842,
   "segments": [
     {
       "file": "s00_g00",
@@ -82,126 +82,130 @@
     },
     {
       "file": "s06_g00",
-      "text": "Si el masaje y los uterotónicos fallan, se usa el balón de Bakri o la sutura de B Lynch antes de la histerectomía."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Este es el balón de Bakri inflado dentro del útero."
+      "text": "El útero atónico queda blando y grande, y sangra. Con masaje y oxitocina se contrae, y el sangrado se detiene. El tono explica la mayoría de las hemorragias postparto."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora pongamos las cuatro T en un solo árbol de decisión. Tu paciente sangra más de lo esperado tras el parto. Activas el código rojo: ayuda, dos vías gruesas, y exámenes de inmediato. Ahora hay que encontrar cuál de las cuatro T tienes delante."
+      "text": "Si el masaje y los uterotónicos fallan, se usa el balón de Bakri o la sutura de B Lynch antes de la histerectomía."
     },
     {
       "file": "s07_g01",
-      "text": "La pregunta que ordena todo: ¿el útero está blando, o está bien contraído?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Un útero blando que no se retrae es atonía, la causa más frecuente."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Masaje bimanual, oxitocina y ácido tranexámico de inmediato."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si persiste, ergometrina, salvo que sea hipertensa, donde usas misoprostol."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si aun así sangra, balón de Bakri, y si no cede, cirugía o histerectomía."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si el útero está duro y sigue sangrando, revisa si la placenta salió completa."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Con placenta completa y útero duro, busca desgarros del canal y sutúralos."
-    },
-    {
-      "file": "s07_g08",
-      "text": "Con placenta incompleta, revisas la cavidad uterina para sacar los restos."
+      "text": "Este es el balón de Bakri inflado dentro del útero."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos en una tabla. Si el útero está blando y no se retrae, es tono: masaje, oxitocina y ácido tranexámico."
+      "text": "Ahora pongamos las cuatro T en un solo árbol de decisión. Tu paciente sangra más de lo esperado tras el parto. Activas el código rojo: ayuda, dos vías gruesas, y exámenes de inmediato. Ahora hay que encontrar cuál de las cuatro T tienes delante."
     },
     {
       "file": "s08_g01",
-      "text": "Si el útero está duro y contraído, pero el sangrado sigue, es trauma: revisas el canal con valvas y suturas los desgarros."
+      "text": "La pregunta que ordena todo: ¿el útero está blando, o está bien contraído?"
     },
     {
       "file": "s08_g02",
-      "text": "Si la placenta salió incompleta, es tejido: revisión manual o instrumental de la cavidad."
+      "text": "Un útero blando que no se retrae es atonía, la causa más frecuente."
     },
     {
       "file": "s08_g03",
-      "text": "Y si la sangre no coagula en ningún lado, es trombina: plasma, crioprecipitados y plaquetas."
+      "text": "Masaje bimanual, oxitocina y ácido tranexámico de inmediato."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si persiste, ergometrina, salvo que sea hipertensa, donde usas misoprostol."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si aun así sangra, balón de Bakri, y si no cede, cirugía o histerectomía."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si el útero está duro y sigue sangrando, revisa si la placenta salió completa."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Con placenta completa y útero duro, busca desgarros del canal y sutúralos."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Con placenta incompleta, revisas la cavidad uterina para sacar los restos."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Una puérpera de un embarazo gemelar, con un trabajo de parto prolongado, presenta sangrado masivo diez minutos después del alumbramiento. El útero está blando, a cuatro centímetros sobre el ombligo, sin ningún tono. Tiene antecedente de preeclampsia, con presión habitual de ciento cincuenta sobre noventa y cinco."
+      "text": "Repasemos en una tabla. Si el útero está blando y no se retrae, es tono: masaje, oxitocina y ácido tranexámico."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Si el útero está duro y contraído, pero el sangrado sigue, es trauma: revisas el canal con valvas y suturas los desgarros."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: masaje uterino con oxitocina y ácido tranexámico evitando la ergometrina, dar ergometrina de inmediato, hacer histerectomía como primera medida, revisar el canal buscando desgarros, o dar heparina. Piénsalo."
+      "text": "Si la placenta salió incompleta, es tejido: revisión manual o instrumental de la cavidad."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. El embarazo gemelar y el trabajo de parto prolongado sobredistendieron el útero, y eso explica la atonía. El manejo inicial es masaje, oxitocina y ácido tranexámico. La trampa es la B: con este antecedente hipertensivo, la ergometrina está formalmente contraindicada por el riesgo de una crisis hipertensiva."
+      "text": "Y si la sangre no coagula en ningún lado, es trombina: plasma, crioprecipitados y plaquetas."
     },
     {
       "file": "s10_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciocho. Una paciente de veinticuatro años presenta una metrorragia importante en el puerperio inmediato, con sangre roja abundante. El fondo uterino se palpa por sobre el ombligo."
+      "text": "Vamos con un caso. Una puérpera de un embarazo gemelar, con un trabajo de parto prolongado, presenta sangrado masivo diez minutos después del alumbramiento. El útero está blando, a cuatro centímetros sobre el ombligo, sin ningún tono. Tiene antecedente de preeclampsia, con presión habitual de ciento cincuenta sobre noventa y cinco."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la medida inicial más adecuada?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: metilergonovina, misoprostol, masaje uterino, carbetocina, u oxitocina. Piénsalo."
+      "text": "Las opciones: masaje uterino con oxitocina y ácido tranexámico evitando la ergometrina, dar ergometrina de inmediato, hacer histerectomía como primera medida, revisar el canal buscando desgarros, o dar heparina. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, masaje uterino. Es siempre lo primero, con las dos manos, y en paralelo empiezas los fármacos uterotónicos, partiendo por la oxitocina. Los otros fármacos vienen después, si el masaje y la oxitocina no bastan."
+      "text": "Es la A. El embarazo gemelar y el trabajo de parto prolongado sobredistendieron el útero, y eso explica la atonía. El manejo inicial es masaje, oxitocina y ácido tranexámico. La trampa es la B: con este antecedente hipertensivo, la ergometrina está formalmente contraindicada por el riesgo de una crisis hipertensiva."
     },
     {
       "file": "s11_g00",
-      "text": "Y esta es del EUNACOM de diciembre de dos mil diecisiete. Una puérpera con una hemorragia postparto importante tiene un hematocrito de veintiocho por ciento, plaquetas en ochenta mil, con los tiempos de coagulación alargados y un fibrinógeno de noventa."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciocho. Una paciente de veinticuatro años presenta una metrorragia importante en el puerperio inmediato, con sangre roja abundante. El fondo uterino se palpa por sobre el ombligo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la mejor indicación transfusional?"
+      "text": "¿Cuál es la medida inicial más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: crioprecipitado, glóbulos rojos, plaquetas, sangre fresca, o plasma fresco congelado. Piénsalo."
+      "text": "Las opciones: metilergonovina, misoprostol, masaje uterino, carbetocina, u oxitocina. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. Los tiempos alargados junto con un fibrinógeno bajo te dicen que esto ya no es solo tono ni trauma: es la T de trombina, una coagulación intravascular diseminada. El plasma fresco congelado repone los factores de coagulación que se están consumiendo."
+      "text": "Es la C, masaje uterino. Es siempre lo primero, con las dos manos, y en paralelo empiezas los fármacos uterotónicos, partiendo por la oxitocina. Los otros fármacos vienen después, si el masaje y la oxitocina no bastan."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. El tono, con el útero blando, es la causa más frecuente, de lejos."
+      "text": "Y esta es del EUNACOM de diciembre de dos mil diecisiete. Una puérpera con una hemorragia postparto importante tiene un hematocrito de veintiocho por ciento, plaquetas en ochenta mil, con los tiempos de coagulación alargados y un fibrinógeno de noventa."
     },
     {
       "file": "s12_g01",
-      "text": "Si el útero está duro y aun así sangra, piensa en trauma."
+      "text": "¿Cuál es la mejor indicación transfusional?"
     },
     {
       "file": "s12_g02",
-      "text": "El masaje siempre va primero, junto con oxitocina y ácido tranexámico."
+      "text": "Las opciones: crioprecipitado, glóbulos rojos, plaquetas, sangre fresca, o plasma fresco congelado. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la E. Los tiempos alargados junto con un fibrinógeno bajo te dicen que esto ya no es solo tono ni trauma: es la T de trombina, una coagulación intravascular diseminada. El plasma fresco congelado repone los factores de coagulación que se están consumiendo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. El tono, con el útero blando, es la causa más frecuente, de lejos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Si el útero está duro y aun así sangra, piensa en trauma."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El masaje siempre va primero, junto con oxitocina y ácido tranexámico."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y nunca dés ergometrina a una hipertensa, ni carboprost a una asmática. Si te llevas una sola idea de hoy: primero identifica cuál de las cuatro T tienes, y después sube la escalera sin saltarte pasos. Nos vemos en la próxima clase."
     }
   ]

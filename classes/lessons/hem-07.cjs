@@ -249,6 +249,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo funciona el Coombs',
+      images: [
+        { src: 'animaciones/hem-07/A1_coombs_directo.mp4', label: 'Directo', credit: 'Animación propia' },
+        { src: 'animaciones/hem-07/A2_coombs_indirecto.mp4', label: 'Indirecto', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Anticuerpos ya pegados',
+          say: 'En el Coombs directo se usan los glóbulos del paciente. Si ya traen anticuerpos pegados, el suero de Coombs los une entre sí y se aglutinan: la hemólisis es inmune.' },
+        { note: 'Anticuerpos libres en el suero',
+          say: 'En el indirecto se busca en el suero: se mezcla con glóbulos de prueba, los anticuerpos libres se pegan, y el suero de Coombs los aglutina. Es el que se pide a la embarazada.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Anemia hemolítica autoinmune',

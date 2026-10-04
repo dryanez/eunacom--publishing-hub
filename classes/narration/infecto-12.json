@@ -2,7 +2,7 @@
   "id": "infecto-12",
   "title": "Infectologia 3.4: Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
   "specialty": "Infectología",
-  "chars": 12697,
+  "chars": 12883,
   "segments": [
     {
       "file": "s00_g00",
@@ -118,103 +118,91 @@
     },
     {
       "file": "s07_g00",
-      "text": "El chancro de la sífilis primaria es una úlcera indolora, de base limpia e indurada."
-    },
-    {
-      "file": "s07_g01",
-      "text": "La secundaria da lesiones en palmas y plantas."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Y los condilomas planos, placas húmedas en zonas de roce, muy contagiosas."
+      "text": "La prueba treponémica se hace positiva y queda así de por vida. El VDRL sigue la actividad: sube en la secundaria y cae tras la penicilina. La curación se define cuando cae cuatro veces."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora pongamos la serología y el tratamiento en un solo árbol. Paciente con sospecha de sífilis: una úlcera indolora, un exantema palmoplantar, o un tamizaje, por ejemplo en el embarazo. Se piden las dos familias de pruebas."
+      "text": "El chancro de la sífilis primaria es una úlcera indolora, de base limpia e indurada."
     },
     {
       "file": "s08_g01",
-      "text": "¿Qué dicen el VDRL y la prueba treponémica, leídos juntos?"
+      "text": "La secundaria da lesiones en palmas y plantas."
     },
     {
       "file": "s08_g02",
-      "text": "Si las dos son reactivas, es una sífilis activa. Ahora la pregunta es el tiempo de evolución: ¿menos de un año?"
-    },
-    {
-      "file": "s08_g03",
-      "text": "Si es precoz, penicilina benzatina dos millones cuatrocientas mil unidades intramuscular, en dosis única."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Si es tardía o no se sabe, la misma dosis semanal por tres semanas. Y si es una embarazada alérgica, se desensibiliza primero."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si solo el VDRL es reactivo, con treponémica negativa, es un falso positivo biológico. No se trata."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Si solo la treponémica es reactiva, lo más probable es una cicatriz serológica. Si ya fue tratado, se observa."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Si las dos son negativas pero hay un chancro sospechoso, es el período de ventana: se repite la serología en tres semanas."
+      "text": "Y los condilomas planos, placas húmedas en zonas de roce, muy contagiosas."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. La sífilis secundaria es precoz: dosis única. El error es indicar tres dosis porque el cuadro parece más grave que un chancro."
+      "text": "Ahora pongamos la serología y el tratamiento en un solo árbol. Paciente con sospecha de sífilis: una úlcera indolora, un exantema palmoplantar, o un tamizaje, por ejemplo en el embarazo. Se piden las dos familias de pruebas."
     },
     {
       "file": "s09_g01",
-      "text": "La latente de duración desconocida se trata como tardía, con tres dosis semanales. El error es la dosis única."
+      "text": "¿Qué dicen el VDRL y la prueba treponémica, leídos juntos?"
     },
     {
       "file": "s09_g02",
-      "text": "El control después del tratamiento se hace con VDRL cuantitativo. El error es pedir una treponémica, que va a seguir positiva de por vida."
+      "text": "Si las dos son reactivas, es una sífilis activa. Ahora la pregunta es el tiempo de evolución: ¿menos de un año?"
     },
     {
       "file": "s09_g03",
-      "text": "VDRL en título bajo con treponémica negativa: falso positivo. El error es tratar."
+      "text": "Si es precoz, penicilina benzatina dos millones cuatrocientas mil unidades intramuscular, en dosis única."
     },
     {
       "file": "s09_g04",
-      "text": "Y la embarazada alérgica: desensibilizar y tratar con penicilina. El error es cambiar a doxiciclina, que está contraindicada, o a otro antibiótico."
+      "text": "Si es tardía o no se sabe, la misma dosis semanal por tres semanas. Y si es una embarazada alérgica, se desensibiliza primero."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si solo el VDRL es reactivo, con treponémica negativa, es un falso positivo biológico. No se trata."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Si solo la treponémica es reactiva, lo más probable es una cicatriz serológica. Si ya fue tratado, se observa."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Si las dos son negativas pero hay un chancro sospechoso, es el período de ventana: se repite la serología en tres semanas."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Hombre de veintiséis años con una úlcera en el glande de diez días. Mide un centímetro y medio, tiene bordes sobreelevados, base limpia e indurada, y no duele. Hay una adenopatía inguinal derecha, también indolora. El VDRL es reactivo en dilución uno en treinta y dos."
+      "text": "Repasemos las trampas. La sífilis secundaria es precoz: dosis única. El error es indicar tres dosis porque el cuadro parece más grave que un chancro."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "La latente de duración desconocida se trata como tardía, con tres dosis semanales. El error es la dosis única."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: penicilina benzatina en dosis única; penicilina benzatina semanal por tres semanas; aciclovir; esperar el FTA ABS; o doxiciclina por veintiocho días. Piénsalo."
+      "text": "El control después del tratamiento se hace con VDRL cuantitativo. El error es pedir una treponémica, que va a seguir positiva de por vida."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Úlcera única, indurada e indolora, con adenopatía indolora: es un chancro, una sífilis primaria, y por lo tanto precoz. Dosis única. La B es el distractor, porque el esquema de tres dosis es para la tardía. Y no termina ahí: se pide serología para VIH y hepatitis B, se estudian y tratan los contactos sexuales de los últimos noventa días, y se controla con VDRL a los seis y doce meses."
+      "text": "VDRL en título bajo con treponémica negativa: falso positivo. El error es tratar."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y la embarazada alérgica: desensibilizar y tratar con penicilina. El error es cambiar a doxiciclina, que está contraindicada, o a otro antibiótico."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecinueve. Paciente con una úlcera en el glande de tres días, de un centímetro, indurada, de fondo limpio, con una adenopatía inguinal indolora. El VDRL y el FTA ABS salen los dos negativos."
+      "text": "Vamos con un caso. Hombre de veintiséis años con una úlcera en el glande de diez días. Mide un centímetro y medio, tiene bordes sobreelevados, base limpia e indurada, y no duele. Hay una adenopatía inguinal derecha, también indolora. El VDRL es reactivo en dilución uno en treinta y dos."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: sífilis primaria; chancroide; enfermedad de Behçet; virus papiloma; o linfogranuloma venéreo. Piénsalo."
+      "text": "Las opciones son: penicilina benzatina en dosis única; penicilina benzatina semanal por tres semanas; aciclovir; esperar el FTA ABS; o doxiciclina por veintiocho días. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. La clínica es un chancro de libro, y la trampa está en la serología. A los tres días de la úlcera, las dos pruebas todavía pueden estar negativas: es el período de ventana que vimos en la tabla. La serología negativa no descarta un chancro; se repite. El chancroide es el distractor, pero su úlcera duele."
+      "text": "Es la A. Úlcera única, indurada e indolora, con adenopatía indolora: es un chancro, una sífilis primaria, y por lo tanto precoz. Dosis única. La B es el distractor, porque el esquema de tres dosis es para la tardía. Y no termina ahí: se pide serología para VIH y hepatitis B, se estudian y tratan los contactos sexuales de los últimos noventa días, y se controla con VDRL a los seis y doce meses."
     },
     {
       "file": "s12_g00",
-      "text": "La segunda es del EUNACOM de diciembre de dos mil diecisiete. Paciente con VIH diagnosticado hace tres meses, ya en triterapia, que consulta por placas en el tronco, lesiones similares en las palmas y las plantas, y una lesión en la mucosa de la mejilla."
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecinueve. Paciente con una úlcera en el glande de tres días, de un centímetro, indurada, de fondo limpio, con una adenopatía inguinal indolora. El VDRL y el FTA ABS salen los dos negativos."
     },
     {
       "file": "s12_g01",
@@ -222,31 +210,31 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: pitiriasis rosada; pitiriasis versicolor; síndrome pie mano boca; sífilis secundaria; o reacción adversa a la triterapia. Piénsalo."
+      "text": "Las opciones son: sífilis primaria; chancroide; enfermedad de Behçet; virus papiloma; o linfogranuloma venéreo. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, sífilis secundaria. Exantema en el tronco que toca las palmas y las plantas es la roséola sifilítica. Y fíjate en el contexto: una infección de transmisión sexual es el principal factor de riesgo para tener otra, así que en un paciente con VIH siempre buscas sífilis. La reacción a la triterapia es el distractor, porque el paciente recién la inició, pero no explica el compromiso palmoplantar."
+      "text": "Es la A. La clínica es un chancro de libro, y la trampa está en la serología. A los tres días de la úlcera, las dos pruebas todavía pueden estar negativas: es el período de ventana que vimos en la tabla. La serología negativa no descarta un chancro; se repite. El chancroide es el distractor, pero su úlcera duele."
     },
     {
       "file": "s13_g00",
-      "text": "La tercera es del EUNACOM de julio de dos mil veinticuatro. Embarazada de doce semanas, con un VDRL no reactivo y un MHA TP reactivo."
+      "text": "La segunda es del EUNACOM de diciembre de dos mil diecisiete. Paciente con VIH diagnosticado hace tres meses, ya en triterapia, que consulta por placas en el tronco, lesiones similares en las palmas y las plantas, y una lesión en la mucosa de la mejilla."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: penicilina benzatina de inmediato; VDRL mensual el resto del embarazo; control con VDRL a las treinta semanas; pedir un FTA ABS; o doxiciclina. Piénsalo."
+      "text": "Las opciones son: pitiriasis rosada; pitiriasis versicolor; síndrome pie mano boca; sífilis secundaria; o reacción adversa a la triterapia. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la C. VDRL no reactivo con treponémica reactiva es la cicatriz serológica: la paciente tuvo sífilis y se trató. No hay actividad, así que no se trata, y sigue su control prenatal habitual con el VDRL de las treinta semanas. La D es el distractor: un FTA ABS es otra treponémica, y va a salir positivo de por vida, así que no agrega nada."
+      "text": "Es la D, sífilis secundaria. Exantema en el tronco que toca las palmas y las plantas es la roséola sifilítica. Y fíjate en el contexto: una infección de transmisión sexual es el principal factor de riesgo para tener otra, así que en un paciente con VIH siempre buscas sífilis. La reacción a la triterapia es el distractor, porque el paciente recién la inició, pero no explica el compromiso palmoplantar."
     },
     {
       "file": "s14_g00",
-      "text": "Y la cuarta es la contracara de la anterior, del EUNACOM de julio de dos mil diecinueve. Paciente con sífilis tratada hace un año, embarazada de ocho semanas, con un VDRL positivo en dilución uno en dieciséis."
+      "text": "La tercera es del EUNACOM de julio de dos mil veinticuatro. Embarazada de doce semanas, con un VDRL no reactivo y un MHA TP reactivo."
     },
     {
       "file": "s14_g01",
@@ -254,46 +242,62 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones son: pedir FTA ABS; controlar con VDRL seriado; pedir RPR; ceftriaxona; o penicilina benzatina. Piénsalo."
+      "text": "Las opciones son: penicilina benzatina de inmediato; VDRL mensual el resto del embarazo; control con VDRL a las treinta semanas; pedir un FTA ABS; o doxiciclina. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la E, penicilina benzatina. Esta paciente ya tuvo sífilis, así que su treponémica va a estar positiva de por vida: pedirla, que es la A, no sirve para nada. Lo que indica una sífilis activa, o una reinfección, es el VDRL, y aquí está en uno en dieciséis. Y en el embarazo no se espera: se trata con penicilina."
+      "text": "Es la C. VDRL no reactivo con treponémica reactiva es la cicatriz serológica: la paciente tuvo sífilis y se trató. No hay actividad, así que no se trata, y sigue su control prenatal habitual con el VDRL de las treinta semanas. La D es el distractor: un FTA ABS es otra treponémica, y va a salir positivo de por vida, así que no agrega nada."
     },
     {
       "file": "s15_g00",
-      "text": "Cerramos con un caso representativo del banco, sobre la regla más preguntada. Embarazada de catorce semanas con VDRL uno en dieciséis, confirmado con FTA ABS. Tiene alergia confirmada a la penicilina, con un shock anafiláctico previo."
+      "text": "Y la cuarta es la contracara de la anterior, del EUNACOM de julio de dos mil diecinueve. Paciente con sífilis tratada hace un año, embarazada de ocho semanas, con un VDRL positivo en dilución uno en dieciséis."
     },
     {
       "file": "s15_g01",
-      "text": "¿Qué conducta previene la sífilis congénita?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones son: doxiciclina; hospitalizar para desensibilizar y luego penicilina benzatina; eritromicina; diferir el tratamiento hasta el parto; o ceftriaxona. Piénsalo."
+      "text": "Las opciones son: pedir FTA ABS; controlar con VDRL seriado; pedir RPR; ceftriaxona; o penicilina benzatina. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la B. La penicilina es el único antibiótico con eficacia demostrada para tratar a la madre y al feto a la vez. Por eso, aunque haya tenido un shock anafiláctico, se desensibiliza y se trata con penicilina. La eritromicina es el distractor más tentador, porque parece la alternativa segura, pero los macrólidos no cruzan bien la placenta y dejan al feto sin tratar. Y la doxiciclina está contraindicada."
+      "text": "Es la E, penicilina benzatina. Esta paciente ya tuvo sífilis, así que su treponémica va a estar positiva de por vida: pedirla, que es la A, no sirve para nada. Lo que indica una sífilis activa, o una reinfección, es el VDRL, y aquí está en uno en dieciséis. Y en el embarazo no se espera: se trata con penicilina."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Úlcera genital única, indurada e indolora es un chancro; exantema que toca palmas y plantas es sífilis secundaria."
+      "text": "Cerramos con un caso representativo del banco, sobre la regla más preguntada. Embarazada de catorce semanas con VDRL uno en dieciséis, confirmado con FTA ABS. Tiene alergia confirmada a la penicilina, con un shock anafiláctico previo."
     },
     {
       "file": "s16_g01",
-      "text": "El VDRL mide actividad y respuesta, y la curación es una caída de cuatro veces en los títulos."
+      "text": "¿Qué conducta previene la sífilis congénita?"
     },
     {
       "file": "s16_g02",
-      "text": "La treponémica confirma, pero queda positiva de por vida, así que no sirve para controlar ni para diagnosticar reinfección."
+      "text": "Las opciones son: doxiciclina; hospitalizar para desensibilizar y luego penicilina benzatina; eritromicina; diferir el tratamiento hasta el parto; o ceftriaxona. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la B. La penicilina es el único antibiótico con eficacia demostrada para tratar a la madre y al feto a la vez. Por eso, aunque haya tenido un shock anafiláctico, se desensibiliza y se trata con penicilina. La eritromicina es el distractor más tentador, porque parece la alternativa segura, pero los macrólidos no cruzan bien la placenta y dejan al feto sin tratar. Y la doxiciclina está contraindicada."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Úlcera genital única, indurada e indolora es un chancro; exantema que toca palmas y plantas es sífilis secundaria."
+    },
+    {
+      "file": "s17_g01",
+      "text": "El VDRL mide actividad y respuesta, y la curación es una caída de cuatro veces en los títulos."
+    },
+    {
+      "file": "s17_g02",
+      "text": "La treponémica confirma, pero queda positiva de por vida, así que no sirve para controlar ni para diagnosticar reinfección."
+    },
+    {
+      "file": "s17_g03",
       "text": "Precoz, dosis única de dos millones cuatrocientas mil unidades; tardía o de duración desconocida, la misma dosis semanal por tres semanas."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Y la embarazada alérgica se desensibiliza y recibe penicilina. Si te llevas una sola idea de hoy: el tiempo de evolución decide la dosis, y el VDRL decide si hay actividad. En la próxima clase seguimos con las uretritis, las otras úlceras genitales y el virus papiloma. Nos vemos en la próxima clase."
     }
   ]

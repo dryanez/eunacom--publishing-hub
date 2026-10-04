@@ -168,6 +168,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las insulinas en el tiempo',
+      images: [
+        { src: 'animaciones/diab-11/A1_basales.mp4', label: 'Basales', credit: 'Animación propia' },
+        { src: 'animaciones/diab-11/A2_prandiales.mp4', label: 'Prandiales', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'NPH con peak, glargina plana',
+          say: 'La NPH tiene un peak entre las cuatro y diez horas: puesta al acostarse, cubre la madrugada, pero ese peak puede dar hipoglicemia. La glargina es casi plana durante todo el día.' },
+        { note: 'Un pulso por comida',
+          say: 'Las prandiales dan un pulso con cada comida. La cristalina se pone media hora antes y su peak llega a las dos o tres horas; los análogos rápidos se ponen al comer y su peak llega en una hora.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Resumamos las indicaciones de inicio en un árbol de decisión.',
     },

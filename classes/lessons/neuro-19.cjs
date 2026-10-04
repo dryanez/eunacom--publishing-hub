@@ -172,6 +172,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Central o periférica',
+      images: [
+        { src: 'animaciones/neuro-19/A1_facial_central.mp4', label: 'Central', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-19/A2_facial_periferica.mp4', label: 'Periférica', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La frente se salva',
+          say: 'En la lesión central, la frente sigue moviéndose porque su núcleo recibe fibras de ambos hemisferios. Solo cae la mitad inferior de la cara, al lado contrario.' },
+        { note: 'Cae toda la hemicara',
+          say: 'En la lesión del nervio, se pierde todo: la frente, el cierre del ojo y la boca, del mismo lado.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',

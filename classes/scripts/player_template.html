@@ -263,7 +263,7 @@
   .im-stage { position:relative; flex:1; min-width:0; min-height:0; background:#0E1116; border-radius:8px; display:flex; align-items:center; justify-content:center; padding:14px; container-type:size; }
   .im-stage.im-light { background:#FFFFFF; border:1px solid #DCD8CE; }
   .im-frame { position:relative; width:min(100cqw, calc(100cqh * var(--ar))); aspect-ratio:var(--ar); }
-  .im-frame img { display:block; width:100%; height:100%; object-fit:contain; border-radius:3px; }
+  .im-frame img, .im-frame video { display:block; width:100%; height:100%; object-fit:contain; border-radius:3px; }
   .im-mark { position:absolute; border:3px solid var(--mc, #FBBF24); border-radius:var(--mr, 50%); box-shadow:0 0 0 2px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(0,0,0,0.25);
     transition: opacity 0.45s ease, scale 0.55s var(--spring-curve); pointer-events:none; }
   .im-mark.im-off { opacity:0; scale:1.35; }
@@ -290,7 +290,7 @@
   .ig-tile.ig-hidden { opacity:0.14; filter:grayscale(1) blur(2px); transform:translateY(10px); }
   .ig-tile.ig-active { box-shadow:0 0 0 4px var(--book-acc), 0 14px 30px rgba(0,0,0,0.16); transform:scale(1.02); }
   .ig-img { flex:1; min-height:0; background:#0E1116; border-radius:6px; overflow:hidden; display:flex; align-items:center; justify-content:center; }
-  .ig-img img { width:100%; height:100%; object-fit:cover; }
+  .ig-img img, .ig-img video { width:100%; height:100%; object-fit:cover; }
   .ig-name { font-size:19px; font-weight:800; letter-spacing:-0.01em; color:#111111; }
   .ig-desc { font-size:13.5px; line-height:1.35; color:#57534E; }
   .ig-credit { font-size:10px; color:#8A847B; }
@@ -1243,14 +1243,14 @@
 
     function imStage(img, marksHtml, light) {
       return `<div class="im-stage ${light ? 'im-light' : ''}">
-          <div class="im-frame" style="--ar:${img.ar || 1.5}"><img src="${img.src}" alt="${(img.alt || '').replace(/"/g, '&quot;')}">${marksHtml}</div>
+          <div class="im-frame" style="--ar:${img.ar || 1.5}">${img.video ? `<video src="${img.src}" ${img.lazy ? '' : 'autoplay'} muted loop playsinline preload="auto"></video>` : `<img src="${img.src}" alt="${(img.alt || '').replace(/"/g, '&quot;')}">`}${marksHtml}</div>
           ${img.credit ? `<div class="im-credit">${img.credit}</div>` : ''}
         </div>`;
     }
 
     function renderImageHtml(sl) {
       if (sl.layout === 'sequence') {   // una imagen grande que cambia en cada paso (animaciones, antes/después)
-        const stages = sl.images.map((im, i) => `<div id="iq-${i}" class="iq-step" style="display:${i === 0 ? 'flex' : 'none'}">${imStage(im, '', sl.light)}</div>`).join('');
+        const stages = sl.images.map((im, i) => `<div id="iq-${i}" class="iq-step" style="display:${i === 0 ? 'flex' : 'none'}">${imStage(i === 0 ? im : { ...im, lazy: true }, '', sl.light)}</div>`).join('');
         const list = sl.steps.map((st, si) => `<div id="im-li-${si}" class="im-li im-hidden" style="--mc:${IM_COLORS[si % IM_COLORS.length]}" onclick="onCardClick(${si})"><span class="im-dot"></span><span><b>${sl.images[si] ? sl.images[si].label || '' : ''}</b>${sl.images[si] && sl.images[si].label ? ' · ' : ''}${st.note}</span></div>`).join('');
         return `<div class="im-wrap">
             <div class="iq-stages">${stages}</div>
@@ -1265,7 +1265,7 @@
         const cols = n <= 3 ? n : Math.ceil(n / 2);
         const tiles = sl.images.map((im, i) => `
           <div id="ig-tile-${i}" class="ig-tile ${revealMode === 'all' ? '' : 'ig-hidden'}" onclick="onCardClick(${i})">
-            <div class="ig-img"><img src="${im.src}" alt="${im.label}"></div>
+            <div class="ig-img">${im.video ? `<video src="${im.src}" autoplay muted loop playsinline></video>` : `<img src="${im.src}" alt="${im.label}">`}</div>
             <div class="ig-name">${im.label}</div>
             ${im.desc ? `<div class="ig-desc">${im.desc}</div>` : ''}
             ${im.credit ? `<div class="ig-credit">${im.credit}</div>` : ''}
@@ -1314,6 +1314,11 @@
             if (img) img.src = img.src.split('#')[0] + '#t' + Date.now();
           }
           el.style.display = show ? 'flex' : 'none';
+          const vid = el.querySelector('video');
+          if (vid) {
+            if (show) { if (vid.paused) { vid.currentTime = 0; vid.play().catch(() => {}); } }
+            else { vid.pause(); }
+          }
         });
       }
       document.querySelectorAll('.im-mark').forEach(el => {

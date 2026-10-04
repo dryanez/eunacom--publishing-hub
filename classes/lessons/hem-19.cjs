@@ -143,6 +143,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Un solo clon',
+      images: [
+        { src: 'animaciones/hem-19/A1_clon_pico_m.mp4', label: 'Pico monoclonal', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Todas fabrican lo mismo',
+          say: 'Una célula plasmática se multiplica y llena la médula de copias idénticas. Todas fabrican la misma inmunoglobulina, y en la electroforesis aparece un pico alto y angosto: el pico M.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Mieloma múltiple',

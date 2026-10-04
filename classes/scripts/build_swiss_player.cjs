@@ -674,9 +674,21 @@ function imageSize(buf, ext) {
   }
   return [16, 9];
 }
+function videoSize(file) {
+  try {
+    const out = require('child_process').execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0',
+      '-show_entries', 'stream=width,height', '-of', 'csv=p=0', file]).toString().trim();
+    const [w, h] = out.split(',').map(Number);
+    return w && h ? [w, h] : [16, 9];
+  } catch (e) { return [16, 9]; }
+}
 function loadImage(img) {
   const file = path.join(MEDIA_DIR, img.src);
   const ext = path.extname(file).toLowerCase();
+  if (['.mp4', '.webm'].includes(ext)) {        // animaciones renderizadas (Blender / Manim): siempre por ruta
+    const [w, h] = videoSize(file);
+    return { ...img, src: '../media/' + img.src.split(path.sep).join('/'), ar: +(w / h).toFixed(4), video: true };
+  }
   const buf = fs.readFileSync(file);
   const [w, h] = imageSize(buf, ext);
   const ar = +(w / h).toFixed(4);

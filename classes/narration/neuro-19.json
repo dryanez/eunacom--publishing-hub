@@ -2,7 +2,7 @@
   "id": "neuro-19",
   "title": "Neurologia 10.19: Parálisis Facial Periférica (Bell) vs Central y Neuropatías por Atrapamiento",
   "specialty": "Neurología y Geriatría",
-  "chars": 14174,
+  "chars": 14429,
   "segments": [
     {
       "file": "s00_g00",
@@ -134,202 +134,210 @@
     },
     {
       "file": "s07_g00",
-      "text": "En la parálisis periférica se paraliza toda la hemicara, incluida la frente."
+      "text": "En la lesión central, la frente sigue moviéndose porque su núcleo recibe fibras de ambos hemisferios. Solo cae la mitad inferior de la cara, al lado contrario."
     },
     {
       "file": "s07_g01",
-      "text": "Y en la central la frente se respeta, porque recibe inervación de ambos hemisferios."
+      "text": "En la lesión del nervio, se pierde todo: la frente, el cierre del ojo y la boca, del mismo lado."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente que consulta por una parálisis facial aguda. La primera pregunta es anatómica."
+      "text": "En la parálisis periférica se paraliza toda la hemicara, incluida la frente."
     },
     {
       "file": "s08_g01",
-      "text": "Pídele que arrugue la frente y que cierre los ojos con fuerza."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Si arruga la frente y cierra el ojo, la lesión es central. Busca hemiparesia y pide una TAC de encéfalo urgente: es un ACV hasta demostrar lo contrario."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Si la frente está tomada, es periférica. Ahora mira el oído y busca signos atípicos."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Vesículas en el oído con otalgia: Ramsay Hunt, con prednisona más valaciclovir."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si es bilateral, toca otros pares o hay una masa parotídea, derivas al especialista."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Si no hay nada más, es una parálisis de Bell: prednisona antes de las setenta y dos horas y protección ocular. Si no mejora en tres semanas, derivas."
+      "text": "Y en la central la frente se respeta, porque recibe inervación de ambos hemisferios."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Parálisis facial que respeta la frente: es central, y va una TAC urgente. El error es tratarla como Bell y mandarla a la casa."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente que consulta por una parálisis facial aguda. La primera pregunta es anatómica."
     },
     {
       "file": "s09_g01",
-      "text": "Toda la hemicara, sin nada más: parálisis de Bell, prednisona antes de las setenta y dos horas y protección ocular. El error es indicar aciclovir de rutina."
+      "text": "Pídele que arrugue la frente y que cierre los ojos con fuerza."
     },
     {
       "file": "s09_g02",
-      "text": "Parálisis con otalgia y vesículas en el oído: Ramsay Hunt, y aquí sí va el antiviral."
+      "text": "Si arruga la frente y cierra el ojo, la lesión es central. Busca hemiparesia y pide una TAC de encéfalo urgente: es un ACV hasta demostrar lo contrario."
     },
     {
       "file": "s09_g03",
-      "text": "Parálisis facial bilateral: no es Bell. Deriva y piensa en un Guillain-Barré, sobre todo si hay arreflexia."
+      "text": "Si la frente está tomada, es periférica. Ahora mira el oído y busca signos atípicos."
     },
     {
       "file": "s09_g04",
-      "text": "Mano dormida en la noche que se alivia al sacudirla: túnel carpiano. La polineuropatía diabética parte por los pies."
+      "text": "Vesículas en el oído con otalgia: Ramsay Hunt, con prednisona más valaciclovir."
     },
     {
       "file": "s09_g05",
-      "text": "Túnel carpiano con atrofia tenar: cirugía, previa electromiografía. Seguir solo con férula es quedarse corto."
+      "text": "Si es bilateral, toca otros pares o hay una masa parotídea, derivas al especialista."
     },
     {
       "file": "s09_g06",
-      "text": "Y pie caído en alguien que pasó horas con las piernas cruzadas: atrapamiento del peroneo común en la fíbula."
+      "text": "Si no hay nada más, es una parálisis de Bell: prednisona antes de las setenta y dos horas y protección ocular. Si no mejora en tres semanas, derivas."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Hombre de veintidós años, sano, que despierta con la cara chueca. Ayer tuvo una molestia detrás de la oreja derecha. No puede levantar la ceja ni arrugar la frente a derecha, el ojo derecho queda entreabierto al cerrarlo con fuerza y el globo sube mostrando la esclerótica. La comisura se desvía a la izquierda. Todo lo demás es normal, y el oído no tiene vesículas."
+      "text": "Repasemos las trampas. Parálisis facial que respeta la frente: es central, y va una TAC urgente. El error es tratarla como Bell y mandarla a la casa."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Toda la hemicara, sin nada más: parálisis de Bell, prednisona antes de las setenta y dos horas y protección ocular. El error es indicar aciclovir de rutina."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: TAC urgente con protocolo de ACV, prednisona por siete días con protección ocular, aciclovir solo, prednisona con valaciclovir, u observar. Piénsalo."
+      "text": "Parálisis con otalgia y vesículas en el oído: Ramsay Hunt, y aquí sí va el antiviral."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. La frente está tomada, así que es periférica; no hay vesículas ni otros signos, así que es una parálisis de Bell. Prednisona precoz y protección del ojo. La TAC tienta porque asusta una cara chueca, pero la frente paralizada te dice que no es central. Y observar no basta: el corticoide mejora la recuperación y el ojo necesita protección."
+      "text": "Parálisis facial bilateral: no es Bell. Deriva y piensa en un Guillain-Barré, sobre todo si hay arreflexia."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Mano dormida en la noche que se alivia al sacudirla: túnel carpiano. La polineuropatía diabética parte por los pies."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Túnel carpiano con atrofia tenar: cirugía, previa electromiografía. Seguir solo con férula es quedarse corto."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Y pie caído en alguien que pasó horas con las piernas cruzadas: atrapamiento del peroneo común en la fíbula."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Paciente de diecinueve años con tres horas de imposibilidad de mover la mitad izquierda de la cara. No puede sonreír, fruncir el ceño ni arrugar la frente, y no cierra completamente el ojo. Conserva la masticación, la motilidad ocular y la sensibilidad, y el resto del examen es normal."
+      "text": "Vamos con un caso. Hombre de veintidós años, sano, que despierta con la cara chueca. Ayer tuvo una molestia detrás de la oreja derecha. No puede levantar la ceja ni arrugar la frente a derecha, el ojo derecho queda entreabierto al cerrarlo con fuerza y el globo sube mostrando la esclerótica. La comisura se desvía a la izquierda. Todo lo demás es normal, y el oído no tiene vesículas."
     },
     {
       "file": "s11_g01",
-      "text": "Además de la protección ocular, ¿cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: carbamazepina, clorpromazina, amitriptilina, aciclovir, o prednisona. Piénsalo."
+      "text": "Las opciones: TAC urgente con protocolo de ACV, prednisona por siete días con protección ocular, aciclovir solo, prednisona con valaciclovir, u observar. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E, prednisona. Es una parálisis periférica típica, con la frente tomada, y lleva apenas tres horas: estás justo en la ventana para el corticoide. El aciclovir es el distractor, porque se habla del virus herpes, pero no ha demostrado beneficio en la parálisis de Bell aislada. La carbamazepina es para la neuralgia del trigémino."
+      "text": "Es la B. La frente está tomada, así que es periférica; no hay vesículas ni otros signos, así que es una parálisis de Bell. Prednisona precoz y protección del ojo. La TAC tienta porque asusta una cara chueca, pero la frente paralizada te dice que no es central. Y observar no basta: el corticoide mejora la recuperación y el ojo necesita protección."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil dieciséis. Paciente de cuarenta y cinco años con paresia facial bilateral que se instala en dos semanas, y luego se agrega una parálisis del sexto par. Tiene hipotonía simétrica de las cuatro extremidades y reflejos abolidos."
+      "text": "Ahora una pregunta del banco EUNACOM. Paciente de diecinueve años con tres horas de imposibilidad de mover la mitad izquierda de la cara. No puede sonreír, fruncir el ceño ni arrugar la frente, y no cierra completamente el ojo. Conserva la masticación, la motilidad ocular y la sensibilidad, y el resto del examen es normal."
     },
     {
       "file": "s12_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "Además de la protección ocular, ¿cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: accidente vascular de tronco, miastenia gravis, Guillain-Barré, botulismo, o hemorragia intracraneana. Piénsalo."
+      "text": "Las opciones: carbamazepina, clorpromazina, amitriptilina, aciclovir, o prednisona. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, Guillain-Barré. Por eso la parálisis facial bilateral es un criterio de derivación: no es una parálisis de Bell. Súmale los reflejos abolidos y la debilidad simétrica, y es el Guillain-Barré que vimos hace unas clases. La miastenia tienta por los pares craneales, pero conserva los reflejos."
+      "text": "Es la E, prednisona. Es una parálisis periférica típica, con la frente tomada, y lleva apenas tres horas: estás justo en la ventana para el corticoide. El aciclovir es el distractor, porque se habla del virus herpes, pero no ha demostrado beneficio en la parálisis de Bell aislada. La carbamazepina es para la neuralgia del trigémino."
     },
     {
       "file": "s13_g00",
-      "text": "Pasemos al túnel carpiano, que el examen pregunta mucho. Esta es del EUNACOM de enero de dos mil veintitrés, y es cortita: paciente con parestesias nocturnas en una mano, que ceden al sacudirla."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil dieciséis. Paciente de cuarenta y cinco años con paresia facial bilateral que se instala en dos semanas, y luego se agrega una parálisis del sexto par. Tiene hipotonía simétrica de las cuatro extremidades y reflejos abolidos."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "Las opciones: neuropatía cubital, síndrome de Raynaud, túnel carpiano, radiculopatía C seis, o polineuropatía diabética. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "Es la C, túnel carpiano. Parestesias nocturnas que se alivian sacudiendo la mano son el signo de Flick. El Raynaud tienta porque también afecta las manos, pero es un cambio de color con el frío, no parestesias nocturnas."
-    },
-    {
-      "file": "s14_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil trece. Embarazada de veintiséis semanas con una semana de hormigueo nocturno en ambas manos, mayor a derecha. Al mantener las muñecas flexionadas por veinte segundos, aparecen las parestesias."
-    },
-    {
-      "file": "s14_g01",
       "text": "El diagnóstico más probable es:"
     },
     {
-      "file": "s14_g02",
-      "text": "Las opciones: mielopatía cervical, polimiositis, miastenia gravis, atrapamiento del cubital, o atrapamiento del mediano. Piénsalo."
+      "file": "s13_g02",
+      "text": "Las opciones: accidente vascular de tronco, miastenia gravis, Guillain-Barré, botulismo, o hemorragia intracraneana. Piénsalo."
     },
     {
-      "file": "s14_g03",
-      "text": "Es la E, atrapamiento del nervio mediano, o sea, túnel carpiano. El embarazo es un factor predisponente, los síntomas son nocturnos, y la maniobra descrita es el signo de Phalen. El cubital tienta porque también es un atrapamiento, pero el Phalen comprime el túnel carpiano, por donde pasa el mediano."
+      "file": "s13_g03",
+      "text": "Es la C, Guillain-Barré. Por eso la parálisis facial bilateral es un criterio de derivación: no es una parálisis de Bell. Súmale los reflejos abolidos y la debilidad simétrica, y es el Guillain-Barré que vimos hace unas clases. La miastenia tienta por los pares craneales, pero conserva los reflejos."
     },
     {
-      "file": "s15_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil veinticuatro. Diabético de cincuenta y cinco años, mal controlado, con disestesias y sensación de hinchazón en ambas manos, de predominio nocturno, que ceden con el movimiento y al iniciar el día. Tiene una leve atrofia de la eminencia tenar."
+      "file": "s14_g00",
+      "text": "Pasemos al túnel carpiano, que el examen pregunta mucho. Esta es del EUNACOM de enero de dos mil veintitrés, y es cortita: paciente con parestesias nocturnas en una mano, que ceden al sacudirla."
     },
     {
-      "file": "s15_g01",
+      "file": "s14_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s14_g02",
+      "text": "Las opciones: neuropatía cubital, síndrome de Raynaud, túnel carpiano, radiculopatía C seis, o polineuropatía diabética. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C, túnel carpiano. Parestesias nocturnas que se alivian sacudiendo la mano son el signo de Flick. El Raynaud tienta porque también afecta las manos, pero es un cambio de color con el frío, no parestesias nocturnas."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La siguiente es del EUNACOM de julio de dos mil trece. Embarazada de veintiséis semanas con una semana de hormigueo nocturno en ambas manos, mayor a derecha. Al mantener las muñecas flexionadas por veinte segundos, aparecen las parestesias."
+    },
+    {
+      "file": "s15_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
       "file": "s15_g02",
-      "text": "Las opciones: neuropatía diabética sensitiva, contractura de Dupuytren, atrapamiento de los flexores, artritis reumatoide, o túnel carpiano. Piénsalo."
+      "text": "Las opciones: mielopatía cervical, polimiositis, miastenia gravis, atrapamiento del cubital, o atrapamiento del mediano. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la E, túnel carpiano. Síntomas nocturnos que se alivian moviendo la mano, y atrofia tenar. La trampa es la neuropatía diabética, porque el paciente es diabético. Pero la diabetes también predispone al túnel carpiano, y la neuropatía diabética empieza por los pies, en calcetín, no en la eminencia tenar."
+      "text": "Es la E, atrapamiento del nervio mediano, o sea, túnel carpiano. El embarazo es un factor predisponente, los síntomas son nocturnos, y la maniobra descrita es el signo de Phalen. El cubital tienta porque también es un atrapamiento, pero el Phalen comprime el túnel carpiano, por donde pasa el mediano."
     },
     {
       "file": "s16_g00",
-      "text": "La última es del EUNACOM de diciembre de dos mil veinticinco. Embarazada de veintiocho semanas con parestesias en el primer, segundo y tercer dedo de la mano derecha, que empeoran en la tarde y la noche, con sensación de debilidad en esos dedos."
+      "text": "La siguiente es del EUNACOM de julio de dos mil veinticuatro. Diabético de cincuenta y cinco años, mal controlado, con disestesias y sensación de hinchazón en ambas manos, de predominio nocturno, que ceden con el movimiento y al iniciar el día. Tiene una leve atrofia de la eminencia tenar."
     },
     {
       "file": "s16_g01",
-      "text": "¿Cuál es el examen más adecuado para confirmar la sospecha diagnóstica?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones: resonancia de cuello, ecografía de muñecas, electromiografía, radiografía de mano, o factor reumatoideo. Piénsalo."
+      "text": "Las opciones: neuropatía diabética sensitiva, contractura de Dupuytren, atrapamiento de los flexores, artritis reumatoide, o túnel carpiano. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la C, electromiografía. El diagnóstico es clínico, pero cuando hay que confirmarlo, sobre todo antes de operar, el examen es la electromiografía. La resonancia de cuello tienta si piensas en una radiculopatía, pero los dedos afectados calzan exactamente con el mediano."
+      "text": "Es la E, túnel carpiano. Síntomas nocturnos que se alivian moviendo la mano, y atrofia tenar. La trampa es la neuropatía diabética, porque el paciente es diabético. Pero la diabetes también predispone al túnel carpiano, y la neuropatía diabética empieza por los pies, en calcetín, no en la eminencia tenar."
     },
     {
       "file": "s17_g00",
-      "text": "Cerremos con las reglas de oro. Si la frente está tomada, la parálisis es periférica y afecta toda la hemicara del mismo lado."
+      "text": "La última es del EUNACOM de diciembre de dos mil veinticinco. Embarazada de veintiocho semanas con parestesias en el primer, segundo y tercer dedo de la mano derecha, que empeoran en la tarde y la noche, con sensación de debilidad en esos dedos."
     },
     {
       "file": "s17_g01",
-      "text": "Si la frente está respetada, es central: un ACV hasta demostrar lo contrario, con TAC urgente."
+      "text": "¿Cuál es el examen más adecuado para confirmar la sospecha diagnóstica?"
     },
     {
       "file": "s17_g02",
-      "text": "La parálisis de Bell se trata con prednisona antes de las setenta y dos horas, y el ojo siempre se protege. El antiviral queda para el Ramsay Hunt."
+      "text": "Las opciones: resonancia de cuello, ecografía de muñecas, electromiografía, radiografía de mano, o factor reumatoideo. Piénsalo."
     },
     {
       "file": "s17_g03",
+      "text": "Es la C, electromiografía. El diagnóstico es clínico, pero cuando hay que confirmarlo, sobre todo antes de operar, el examen es la electromiografía. La resonancia de cuello tienta si piensas en una radiculopatía, pero los dedos afectados calzan exactamente con el mediano."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. Si la frente está tomada, la parálisis es periférica y afecta toda la hemicara del mismo lado."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Si la frente está respetada, es central: un ACV hasta demostrar lo contrario, con TAC urgente."
+    },
+    {
+      "file": "s18_g02",
+      "text": "La parálisis de Bell se trata con prednisona antes de las setenta y dos horas, y el ojo siempre se protege. El antiviral queda para el Ramsay Hunt."
+    },
+    {
+      "file": "s18_g03",
       "text": "Y si es bilateral, no mejora en tres semanas o toca otros pares, derivas."
     },
     {
-      "file": "s17_g04",
+      "file": "s18_g04",
       "text": "En la mano, parestesias nocturnas del pulgar a la mitad del anular son túnel carpiano; se confirma con electromiografía, y la atrofia tenar lleva a cirugía."
     },
     {
-      "file": "s17_g05",
+      "file": "s18_g05",
       "text": "Y el pie caído tras cruzar las piernas es el peroneo común. Si te llevas una sola idea de hoy: en la cara mira la frente, y en la mano mira los dedos. En la próxima clase vemos el síndrome vertiginoso. Nos vemos en la próxima clase."
     }
   ]

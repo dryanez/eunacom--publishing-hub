@@ -232,6 +232,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/gastro-19/A1_apendicitis_3d.mp4', label: 'Apendicitis', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Se distiende y se inflama',
+          say: 'El apéndice obstruido se llena, se distiende y se inflama. Si no se opera a tiempo, se perfora.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Apendicitis y diverticulitis',

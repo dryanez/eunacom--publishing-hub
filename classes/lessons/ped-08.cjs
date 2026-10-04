@@ -119,6 +119,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/ped-08/A1_bronquio_derecho_3d.mp4', label: 'El bronquio derecho', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Más vertical y más ancho',
+          say: 'Sigue el objeto: baja por la tráquea y, al llegar a la carina, sigue casi en línea recta hacia el bronquio derecho, que es más ancho y más vertical.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',

@@ -176,6 +176,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/resp-14/A1_tension_3d.mp4', label: 'Neumotórax a tensión', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+        { src: 'animaciones/resp-14/A2_puncion_3d.mp4', label: 'Descompresión', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'El mediastino se desplaza',
+          say: 'Mira el pulmón derecho: el aire atrapado en la pleura lo colapsa, y la presión empuja el corazón y la tráquea hacia el otro lado. Eso es la tensión.' },
+        { note: 'Segundo espacio, línea medioclavicular',
+          say: 'La aguja entra en el segundo espacio intercostal, en la línea medioclavicular. El aire sale, el pulmón se reexpande y el mediastino vuelve al centro.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Neumotórax a tensión',
       images: [

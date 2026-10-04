@@ -108,6 +108,26 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde enfoca el ojo',
+      images: [
+        { src: 'animaciones/oftal-09/A1_emetrope.mp4', label: 'Normal', credit: 'Animación propia' },
+        { src: 'animaciones/oftal-09/A2_miopia.mp4', label: 'Miopía', credit: 'Animación propia' },
+        { src: 'animaciones/oftal-09/A3_hipermetropia.mp4', label: 'Hipermetropía', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Enfoca en la retina',
+          say: 'En el ojo normal, los rayos se juntan exactamente en la retina.' },
+        { note: 'Delante de la retina',
+          say: 'En la miopía se juntan delante de la retina, y el paciente ve mal de lejos. Una lente divergente los separa y el foco vuelve a la retina.' },
+        { note: 'Detrás de la retina',
+          say: 'En la hipermetropía se juntan detrás de la retina. Una lente convergente adelanta el foco.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Refracción y estrabismo',

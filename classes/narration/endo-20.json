@@ -2,7 +2,7 @@
   "id": "endo-20",
   "title": "Endocrinología 7.20: Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
   "specialty": "Endocrinología",
-  "chars": 12399,
+  "chars": 12571,
   "segments": [
     {
       "file": "s00_g00",
@@ -138,170 +138,174 @@
     },
     {
       "file": "s07_g00",
-      "text": "El macroadenoma comprime el quiasma y el paciente pierde los dos campos temporales: hemianopsia bitemporal."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Y si el adenoma sangra, aparece la apoplejía: cefalea brusca y caída de la visión. La hidrocortisona va primero."
+      "text": "El adenoma crece hacia arriba desde la silla turca hasta tocar el quiasma óptico. Las fibras que se cruzan en el centro son las primeras en dañarse: hemianopsia bitemporal."
     },
     {
       "file": "s08_g00",
-      "text": "Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen. Paciente con una masa selar, descubierta por casualidad, por cefalea o por un defecto visual. La primera pregunta es si es una urgencia."
+      "text": "El macroadenoma comprime el quiasma y el paciente pierde los dos campos temporales: hemianopsia bitemporal."
     },
     {
       "file": "s08_g01",
-      "text": "¿Tiene cefalea en trueno, pérdida visual súbita, oftalmoplejía o colapso hemodinámico?"
-    },
-    {
-      "file": "s08_g02",
-      "text": "Si la tiene, es una apoplejía: hidrocortisona cien miligramos endovenosa de inmediato, resonancia urgente, y descompresión si la visión o la conciencia se deterioran."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Si está estable, haces el estudio triple: resonancia, campimetría y perfil hormonal completo."
-    },
-    {
-      "file": "s08_g04",
-      "text": "¿El perfil muestra que es un prolactinoma?"
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si lo es, cabergolina, aunque haya compresión del quiasma."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Si no lo es, ¿comprime el quiasma o secreta hormona de crecimiento o ACTH?"
-    },
-    {
-      "file": "s08_g07",
-      "text": "Entonces va a cirugía transesfenoidal, por neurocirugía."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Si es un incidentaloma no funcionante, bajo diez milímetros y sin síntomas, se observa con resonancia a los doce meses."
+      "text": "Y si el adenoma sangra, aparece la apoplejía: cefalea brusca y caída de la visión. La hidrocortisona va primero."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Hemianopsia bitemporal es quiasma, y en el adulto, macroadenoma. Una lesión occipital da hemianopsia homónima, no bitemporal."
+      "text": "Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen. Paciente con una masa selar, descubierta por casualidad, por cefalea o por un defecto visual. La primera pregunta es si es una urgencia."
     },
     {
       "file": "s09_g01",
-      "text": "La imagen de elección es la resonancia de silla turca. La radiografía de silla turca es la alternativa anticuada que aparece como distractor."
+      "text": "¿Tiene cefalea en trueno, pérdida visual súbita, oftalmoplejía o colapso hemodinámico?"
     },
     {
       "file": "s09_g02",
-      "text": "Prolactinoma, aunque comprima el quiasma: cabergolina. Operar de entrada es el error."
+      "text": "Si la tiene, es una apoplejía: hidrocortisona cien miligramos endovenosa de inmediato, resonancia urgente, y descompresión si la visión o la conciencia se deterioran."
     },
     {
       "file": "s09_g03",
-      "text": "Macroadenoma no funcionante que comprime: cirugía transesfenoidal. Ni cabergolina, ni observación."
+      "text": "Si está estable, haces el estudio triple: resonancia, campimetría y perfil hormonal completo."
     },
     {
       "file": "s09_g04",
-      "text": "Microadenoma incidental no funcionante y sin síntomas: resonancia de control. No se opera."
+      "text": "¿El perfil muestra que es un prolactinoma?"
     },
     {
       "file": "s09_g05",
-      "text": "Y cefalea en trueno con tercer par e hipotensión: apoplejía. Lo primero es hidrocortisona. El manitol o correr a pabellón sin corticoide es la trampa."
+      "text": "Si lo es, cabergolina, aunque haya compresión del quiasma."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Si no lo es, ¿comprime el quiasma o secreta hormona de crecimiento o ACTH?"
+    },
+    {
+      "file": "s09_g07",
+      "text": "Entonces va a cirugía transesfenoidal, por neurocirugía."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Si es un incidentaloma no funcionante, bajo diez milímetros y sin síntomas, se observa con resonancia a los doce meses."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Hombre de cuarenta y cinco años con cefalea súbita en estallido hace tres horas, vómitos, ptosis derecha, diplopía y somnolencia. Presión de ochenta y cinco sobre cincuenta. Tiene el tercer par derecho paralizado, con midriasis, y un defecto bitemporal. La TAC muestra una masa selar con sangrado agudo."
+      "text": "Repasemos las trampas. Hemianopsia bitemporal es quiasma, y en el adulto, macroadenoma. Una lesión occipital da hemianopsia homónima, no bitemporal."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la medida inicial de máxima prioridad?"
+      "text": "La imagen de elección es la resonancia de silla turca. La radiografía de silla turca es la alternativa anticuada que aparece como distractor."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: manitol, hidrocortisona endovenosa, cabergolina por sonda, heparina, o somatostatina. Piénsalo."
+      "text": "Prolactinoma, aunque comprima el quiasma: cabergolina. Operar de entrada es el error."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la B. Es una apoplejía hipofisaria, y la hipotensión te dice que ya cayó el cortisol. Lo primero es hidrocortisona cien miligramos endovenosa. El manitol tienta porque hay una masa y compromiso de conciencia, pero no trata lo que lo está matando. Después vendrá la descompresión, porque está perdiendo la visión."
+      "text": "Macroadenoma no funcionante que comprime: cirugía transesfenoidal. Ni cabergolina, ni observación."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Microadenoma incidental no funcionante y sin síntomas: resonancia de control. No se opera."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y cefalea en trueno con tercer par e hipotensión: apoplejía. Lo primero es hidrocortisona. El manitol o correr a pabellón sin corticoide es la trampa."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora las preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecinueve. Paciente con cefalea de cuatro semanas, peor en las mañanas, con vómitos y alteraciones visuales. Fuerza y sensibilidad normales, y en el campo visual, hemianopsia bitemporal."
+      "text": "Vamos con un caso. Hombre de cuarenta y cinco años con cefalea súbita en estallido hace tres horas, vómitos, ptosis derecha, diplopía y somnolencia. Presión de ochenta y cinco sobre cincuenta. Tiene el tercer par derecho paralizado, con midriasis, y un defecto bitemporal. La TAC muestra una masa selar con sangrado agudo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la medida inicial de máxima prioridad?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: tumor pineal, glioma del nervio óptico, tumor de la base del lóbulo frontal, hiperprolactinemia, o macroadenoma hipofisario. Piénsalo."
+      "text": "Las opciones: manitol, hidrocortisona endovenosa, cabergolina por sonda, heparina, o somatostatina. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E, macroadenoma hipofisario. La palabra clave es bitemporal: eso es el centro del quiasma, y lo que lo comprime desde abajo es una masa de la silla turca. El glioma del nervio óptico tienta, pero dañaría un solo ojo. Y la hiperprolactinemia es un laboratorio, no un tumor que comprime."
+      "text": "La respuesta es la B. Es una apoplejía hipofisaria, y la hipotensión te dice que ya cayó el cortisol. Lo primero es hidrocortisona cien miligramos endovenosa. El manitol tienta porque hay una masa y compromiso de conciencia, pero no trata lo que lo está matando. Después vendrá la descompresión, porque está perdiendo la visión."
     },
     {
       "file": "s12_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil veinticuatro. Mujer de cincuenta y cinco años con cefalea progresiva y alteraciones visuales. Al examen, hemianopsia heterónima, sin alteraciones motoras ni sensitivas."
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecinueve. Paciente con cefalea de cuatro semanas, peor en las mañanas, con vómitos y alteraciones visuales. Fuerza y sensibilidad normales, y en el campo visual, hemianopsia bitemporal."
     },
     {
       "file": "s12_g01",
-      "text": "¿Dónde está la lesión?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones: las retinas, ambos nervios ópticos, el lóbulo occipital, la radiación óptica, o el quiasma. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Es la E, el quiasma óptico. Aquí te cambian la palabra: heterónima significa que se pierden lados opuestos en cada ojo, y la bitemporal es la heterónima clásica. Solo el quiasma, donde cruzan las fibras nasales, produce eso. El lóbulo occipital y la radiación óptica dan hemianopsia homónima, el mismo lado en ambos ojos."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente con menos deseo sexual y menos erecciones, astenia y debilidad progresivas, y que chocó con un mueble porque no lo vio. Está pálido, con menos vello corporal, edema de piernas, y pérdida de la visión temporal."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "Las opciones: radiografía de silla turca, prolactinemia, resonancia de silla turca, fondo de ojo, o TAC de cerebro. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "Es la C, resonancia magnética de silla turca. Fíjate que el caso junta las dos caras del macroadenoma: el efecto de masa sobre el quiasma, que lo hace chocar con el mueble, y la hipófisis sana aplastada, que explica la baja libido y la pérdida de vello. La radiografía de silla turca es el distractor anticuado."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y dos años con seis meses de amenorrea y galactorrea bilateral, y una cefalea matinal que ha ido aumentando. Al examen, hemianopsia bitemporal."
-    },
-    {
-      "file": "s14_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las opciones: tumor pineal, glioma del nervio óptico, tumor de la base del lóbulo frontal, hiperprolactinemia, o macroadenoma hipofisario. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la E, macroadenoma hipofisario. La palabra clave es bitemporal: eso es el centro del quiasma, y lo que lo comprime desde abajo es una masa de la silla turca. El glioma del nervio óptico tienta, pero dañaría un solo ojo. Y la hiperprolactinemia es un laboratorio, no un tumor que comprime."
+    },
+    {
+      "file": "s13_g00",
+      "text": "La siguiente es del EUNACOM de julio de dos mil veinticuatro. Mujer de cincuenta y cinco años con cefalea progresiva y alteraciones visuales. Al examen, hemianopsia heterónima, sin alteraciones motoras ni sensitivas."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Dónde está la lesión?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: las retinas, ambos nervios ópticos, el lóbulo occipital, la radiación óptica, o el quiasma. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la E, el quiasma óptico. Aquí te cambian la palabra: heterónima significa que se pierden lados opuestos en cada ojo, y la bitemporal es la heterónima clásica. Solo el quiasma, donde cruzan las fibras nasales, produce eso. El lóbulo occipital y la radiación óptica dan hemianopsia homónima, el mismo lado en ambos ojos."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente con menos deseo sexual y menos erecciones, astenia y debilidad progresivas, y que chocó con un mueble porque no lo vio. Está pálido, con menos vello corporal, edema de piernas, y pérdida de la visión temporal."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
+    },
+    {
       "file": "s14_g02",
-      "text": "Las opciones: craneofaringioma, macroadenoma hipofisario, glioma, apoplejía hipofisaria, o accidente vascular. Piénsalo."
+      "text": "Las opciones: radiografía de silla turca, prolactinemia, resonancia de silla turca, fondo de ojo, o TAC de cerebro. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la B, macroadenoma hipofisario. Amenorrea con galactorrea habla de prolactina alta, y la hemianopsia bitemporal, de un tumor grande que comprime el quiasma. La apoplejía tienta, pero es súbita, con cefalea en trueno; esto lleva semanas. Y el craneofaringioma es más propio de niños y mayores de cincuenta. Este cuadro es justo el puente a la próxima clase."
+      "text": "Es la C, resonancia magnética de silla turca. Fíjate que el caso junta las dos caras del macroadenoma: el efecto de masa sobre el quiasma, que lo hace chocar con el mueble, y la hipófisis sana aplastada, que explica la baja libido y la pérdida de vello. La radiografía de silla turca es el distractor anticuado."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Hemianopsia bitemporal significa quiasma, y en el adulto, macroadenoma hasta demostrar lo contrario."
+      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y dos años con seis meses de amenorrea y galactorrea bilateral, y una cefalea matinal que ha ido aumentando. Al examen, hemianopsia bitemporal."
     },
     {
       "file": "s15_g01",
-      "text": "Toda masa selar lleva el estudio triple: resonancia, campimetría y perfil hormonal completo."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s15_g02",
-      "text": "El prolactinoma se trata con cabergolina, aunque comprima el quiasma."
+      "text": "Las opciones: craneofaringioma, macroadenoma hipofisario, glioma, apoplejía hipofisaria, o accidente vascular. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la B, macroadenoma hipofisario. Amenorrea con galactorrea habla de prolactina alta, y la hemianopsia bitemporal, de un tumor grande que comprime el quiasma. La apoplejía tienta, pero es súbita, con cefalea en trueno; esto lleva semanas. Y el craneofaringioma es más propio de niños y mayores de cincuenta. Este cuadro es justo el puente a la próxima clase."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Hemianopsia bitemporal significa quiasma, y en el adulto, macroadenoma hasta demostrar lo contrario."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Toda masa selar lleva el estudio triple: resonancia, campimetría y perfil hormonal completo."
+    },
+    {
+      "file": "s16_g02",
+      "text": "El prolactinoma se trata con cabergolina, aunque comprima el quiasma."
+    },
+    {
+      "file": "s16_g03",
       "text": "El no funcionante que comprime se opera por vía transesfenoidal; el incidentaloma pequeño se controla."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "Y en la apoplejía, primero hidrocortisona endovenosa, después la cirugía. Si te llevas una sola idea de hoy: la hemianopsia bitemporal es quiasma, y en la apoplejía lo que mata es la falta de cortisol. En la próxima clase vemos el adenoma más frecuente, el prolactinoma. Nos vemos en la próxima clase."
     }
   ]

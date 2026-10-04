@@ -187,6 +187,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué se dilata el intestino',
+      images: [
+        { src: 'animaciones/cirugia-04/A1_obstruccion.mp4', label: 'Obstrucción', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Gas y líquido antes del obstáculo',
+          say: 'Antes del obstáculo se acumulan gas y líquido, y las asas se dilatan: eso son los niveles hidroaéreos. Después del obstáculo, el intestino queda colapsado.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Obstrucción intestinal',

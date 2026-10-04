@@ -2,7 +2,7 @@
   "id": "infecto-10",
   "title": "Infectologia 3.2: Infecciones Oportunistas Mayores en VIH/SIDA",
   "specialty": "Infectología",
-  "chars": 17230,
+  "chars": 17408,
   "segments": [
     {
       "file": "s00_g00",
@@ -166,175 +166,163 @@
     },
     {
       "file": "s09_g00",
-      "text": "El sarcoma de Kaposi da lesiones violáceas en la piel y mucosas."
-    },
-    {
-      "file": "s09_g01",
-      "text": "La toxoplasmosis cerebral da varias lesiones con anillo, con CD cuatro bajo cien."
-    },
-    {
-      "file": "s09_g02",
-      "text": "El muguet son placas blancas que se desprenden con la paleta."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Y la neumonía por Pneumocystis da un infiltrado intersticial bilateral, con CD cuatro bajo doscientos."
+      "text": "Sin tratamiento, los CD cuatro caen año a año. Bajo doscientos aparece el Pneumocystis; bajo cien, toxoplasma y criptococo; bajo cincuenta, Mycobacterium avium y citomegalovirus."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora juntemos todo en un solo árbol: el órgano comprometido te dice qué buscar. Paciente con VIH avanzado, sin tratamiento o con abandono de la terapia, que consulta con síntomas. Lo primero es preguntarte qué órgano está comprometido, y cuántos CD cuatro tiene."
+      "text": "El sarcoma de Kaposi da lesiones violáceas en la piel y mucosas."
     },
     {
       "file": "s10_g01",
-      "text": "¿El cuadro es pulmonar, es un déficit neurológico focal, o es una cefalea insidiosa de tipo meníngeo?"
+      "text": "La toxoplasmosis cerebral da varias lesiones con anillo, con CD cuatro bajo cien."
     },
     {
       "file": "s10_g02",
-      "text": "Tos seca y disnea de semanas, infiltrado bilateral y LDH alta: Pneumocystis. Se piden gases arteriales. ¿La presión de oxígeno está bajo setenta, o el gradiente es de treinta y cinco o más?"
+      "text": "El muguet son placas blancas que se desprenden con la paleta."
     },
     {
       "file": "s10_g03",
-      "text": "Si cumple, cotrimoxazol endovenoso en dosis altas por veintiún días, con corticoides antes o junto con el antibiótico."
-    },
-    {
-      "file": "s10_g04",
-      "text": "Si no cumple, basta el cotrimoxazol en dosis altas por veintiún días."
-    },
-    {
-      "file": "s10_g05",
-      "text": "Déficit focal con lesiones en anillo en los ganglios basales: se asume toxoplasmosis y se inicia sulfadiazina, pirimetamina y ácido folínico por diez a catorce días."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Si las lesiones se reducen, el diagnóstico queda confirmado."
-    },
-    {
-      "file": "s10_g07",
-      "text": "Si no hay respuesta, se sospecha un linfoma primario del sistema nervioso central y se indica biopsia estereotáxica."
-    },
-    {
-      "file": "s10_g08",
-      "text": "Cefalea insidiosa con poca rigidez de nuca: punción lumbar con presión de apertura alta, tinta china y antígeno criptocócico. Inducción con anfotericina B liposomal y flucitosina por dos semanas, y luego fluconazol."
+      "text": "Y la neumonía por Pneumocystis da un infiltrado intersticial bilateral, con CD cuatro bajo doscientos."
     },
     {
       "file": "s11_g00",
-      "text": "Repasemos las trampas. Pneumocystis con presión de oxígeno bajo setenta o gradiente de treinta y cinco o más: cotrimoxazol con corticoides, antes o junto. El error es omitir el corticoide, o darlo tarde."
+      "text": "Ahora juntemos todo en un solo árbol: el órgano comprometido te dice qué buscar. Paciente con VIH avanzado, sin tratamiento o con abandono de la terapia, que consulta con síntomas. Lo primero es preguntarte qué órgano está comprometido, y cuántos CD cuatro tiene."
     },
     {
       "file": "s11_g01",
-      "text": "Lesiones en anillo en los ganglios basales: prueba terapéutica contra toxoplasma. El error es biopsiar o irradiar de entrada pensando en linfoma."
+      "text": "¿El cuadro es pulmonar, es un déficit neurológico focal, o es una cefalea insidiosa de tipo meníngeo?"
     },
     {
       "file": "s11_g02",
-      "text": "Si a los catorce días no hay respuesta, ahora sí biopsia, por sospecha de linfoma primario. El error es insistir con el mismo tratamiento."
+      "text": "Tos seca y disnea de semanas, infiltrado bilateral y LDH alta: Pneumocystis. Se piden gases arteriales. ¿La presión de oxígeno está bajo setenta, o el gradiente es de treinta y cinco o más?"
     },
     {
       "file": "s11_g03",
-      "text": "Cefalea insidiosa con poca rigidez de nuca en un VIH avanzado: punción lumbar con tinta china y antígeno criptocócico. El error es descartar la meningitis porque el cuello está blando."
+      "text": "Si cumple, cotrimoxazol endovenoso en dosis altas por veintiún días, con corticoides antes o junto con el antibiótico."
     },
     {
       "file": "s11_g04",
-      "text": "Y con CD cuatro bajo doscientos, profilaxis con cotrimoxazol, aunque el paciente esté asintomático. El error es esperar a que aparezca la neumonía."
+      "text": "Si no cumple, basta el cotrimoxazol en dosis altas por veintiún días."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Déficit focal con lesiones en anillo en los ganglios basales: se asume toxoplasmosis y se inicia sulfadiazina, pirimetamina y ácido folínico por diez a catorce días."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Si las lesiones se reducen, el diagnóstico queda confirmado."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Si no hay respuesta, se sospecha un linfoma primario del sistema nervioso central y se indica biopsia estereotáxica."
+    },
+    {
+      "file": "s11_g08",
+      "text": "Cefalea insidiosa con poca rigidez de nuca: punción lumbar con presión de apertura alta, tinta china y antígeno criptocócico. Inducción con anfotericina B liposomal y flucitosina por dos semanas, y luego fluconazol."
     },
     {
       "file": "s12_g00",
-      "text": "Vamos con un caso. Hombre de treinta y cuatro años, con VIH hace cuatro años, que abandonó la terapia. Tres semanas de tos seca, disnea que hoy aparece con mínimos esfuerzos, y fiebre vespertina. Satura ochenta y seis por ciento al aire ambiente, y la radiografía muestra infiltrados intersticiales bilaterales perihiliares. Los gases muestran una presión de oxígeno de cincuenta y cuatro y un gradiente alvéolo arterial de cincuenta y dos. Tiene sesenta y ocho CD cuatro."
+      "text": "Repasemos las trampas. Pneumocystis con presión de oxígeno bajo setenta o gradiente de treinta y cinco o más: cotrimoxazol con corticoides, antes o junto. El error es omitir el corticoide, o darlo tarde."
     },
     {
       "file": "s12_g01",
-      "text": "Además del cotrimoxazol en dosis altas, ¿qué medida es indispensable?"
+      "text": "Lesiones en anillo en los ganglios basales: prueba terapéutica contra toxoplasma. El error es biopsiar o irradiar de entrada pensando en linfoma."
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: corticoides antes o junto con el cotrimoxazol; azitromicina para atípicos; corticoides solo si empeora a las setenta y dos horas; ganciclovir; o diuréticos. Piénsalo."
+      "text": "Si a los catorce días no hay respuesta, ahora sí biopsia, por sospecha de linfoma primario. El error es insistir con el mismo tratamiento."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A. Es un Pneumocystis típico: semanas de evolución, tos seca, infiltrado bilateral y CD cuatro bajo doscientos. Y cumple los dos cortes: presión de oxígeno bajo setenta y gradiente sobre treinta y cinco. Entonces van corticoides, antes o junto con el cotrimoxazol. La C es el distractor más tentador, porque suena prudente, pero esperar a que empeore es justamente lo que aumenta la mortalidad."
+      "text": "Cefalea insidiosa con poca rigidez de nuca en un VIH avanzado: punción lumbar con tinta china y antígeno criptocócico. El error es descartar la meningitis porque el cuello está blando."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y con CD cuatro bajo doscientos, profilaxis con cotrimoxazol, aunque el paciente esté asintomático. El error es esperar a que aparezca la neumonía."
     },
     {
       "file": "s13_g00",
-      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y seis años con un mes de tos, primero irritativa y luego con expectoración, fiebre y malestar. Está enflaquecido, satura noventa y tres por ciento, tiene crépitos difusos en ambos campos pulmonares, y la radiografía muestra un patrón alveolointersticial bilateral difuso."
+      "text": "Vamos con un caso. Hombre de treinta y cuatro años, con VIH hace cuatro años, que abandonó la terapia. Tres semanas de tos seca, disnea que hoy aparece con mínimos esfuerzos, y fiebre vespertina. Satura ochenta y seis por ciento al aire ambiente, y la radiografía muestra infiltrados intersticiales bilaterales perihiliares. Los gases muestran una presión de oxígeno de cincuenta y cuatro y un gradiente alvéolo arterial de cincuenta y dos. Tiene sesenta y ocho CD cuatro."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
+      "text": "Además del cotrimoxazol en dosis altas, ¿qué medida es indispensable?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: neumococo; Mycobacterium tuberculosis; Staphylococcus aureus; Mycoplasma; o Pneumocystis jirovecii. Piénsalo."
+      "text": "Las opciones son: corticoides antes o junto con el cotrimoxazol; azitromicina para atípicos; corticoides solo si empeora a las setenta y dos horas; ganciclovir; o diuréticos. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la E, Pneumocystis. Fíjate que el enunciado nunca dice VIH. Te da las pistas: un mes de evolución, un paciente enflaquecido y un compromiso bilateral difuso. Eso es un VIH que debuta con Pneumocystis. El neumococo daría un cuadro agudo con condensación, y el Mycoplasma es el distractor, pero no explica el enflaquecimiento."
+      "text": "Es la A. Es un Pneumocystis típico: semanas de evolución, tos seca, infiltrado bilateral y CD cuatro bajo doscientos. Y cumple los dos cortes: presión de oxígeno bajo setenta y gradiente sobre treinta y cinco. Entonces van corticoides, antes o junto con el cotrimoxazol. La C es el distractor más tentador, porque suena prudente, pero esperar a que empeore es justamente lo que aumenta la mortalidad."
     },
     {
       "file": "s14_g00",
-      "text": "La segunda es del EUNACOM de julio de dos mil dieciséis, y es más difícil. Hombre de veintinueve años con cinco semanas de tos seca, a la que se agregan disnea y malestar. Tiene una frecuencia respiratoria de treinta, pero el examen cardiopulmonar y la radiografía de tórax son normales."
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecisiete. Paciente de treinta y seis años con un mes de tos, primero irritativa y luego con expectoración, fiebre y malestar. Está enflaquecido, satura noventa y tres por ciento, tiene crépitos difusos en ambos campos pulmonares, y la radiografía muestra un patrón alveolointersticial bilateral difuso."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "Las opciones son: adenovirus; influenza; Bordetella pertussis; Pneumocystis jirovecii; o tuberculosis. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "Es la D. Tos seca y disnea de cinco semanas, con taquipnea, es la historia subaguda del Pneumocystis. El adenovirus y la influenza son cuadros agudos, de días. ¿Y la radiografía normal? Es la trampa: en un paciente muy inmunosuprimido el Pneumocystis puede no alcanzar a verse en la radiografía, así que una placa normal no lo descarta."
-    },
-    {
-      "file": "s15_g00",
-      "text": "La toxoplasmosis cerebral no tiene preguntas reales fechadas en el banco, así que vamos con un caso representativo. Hombre de treinta y un años con VIH, que abandonó la terapia, con cefalea y hemiparesia derecha de cinco días. Tiene cuarenta y cinco CD cuatro, y la resonancia muestra tres lesiones con captación en anillo y edema, en el tálamo y los ganglios basales izquierdos."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "Las opciones son: biopsia estereotáxica urgente; radioterapia por sospecha de linfoma; tratamiento empírico con sulfadiazina y pirimetamina, evaluando a los diez a catorce días; anfotericina B; o tratamiento antituberculoso. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "Es la C. CD cuatro bajo cien, múltiples anillos en los ganglios basales: se asume toxoplasmosis y se inicia la prueba terapéutica. La A es la trampa: la biopsia solo va si a las dos semanas no hay respuesta. Y la anfotericina es el tratamiento del criptococo, que da meningitis, no lesiones en anillo."
-    },
-    {
-      "file": "s16_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil veinticuatro, y cambia de ángulo: la prevención con vacunas. Lactante de doce meses con VIH, en tratamiento antirretroviral, pero con cargas virales detectables, que viene a control."
-    },
-    {
-      "file": "s16_g01",
-      "text": "¿Qué vacuna está contraindicada?"
-    },
-    {
-      "file": "s16_g02",
-      "text": "Las opciones son: meningocócica conjugada; neumocócica conjugada; influenza; tres vírica; o la vacuna contra el SARS CoV dos. Piénsalo."
-    },
-    {
-      "file": "s16_g03",
-      "text": "Es la D, la tres vírica. La lógica es la misma de toda la clase: la inmunidad celular está caída, y la tres vírica es la única de la lista con virus vivos atenuados. En el VIH se decide según el grado de inmunosupresión, que se mide con los CD cuatro, y con un virus que no está controlado, no se pone. Las otras son inactivadas o conjugadas, y justamente este paciente las necesita."
-    },
-    {
-      "file": "s17_g00",
-      "text": "Las dos últimas amplían el concepto de oportunista más allá del VIH. Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y un años, diabético tipo uno, con fiebre, rinorrea purulenta y eritema de la mejilla y la nariz, con una zona necrótica en el ala nasal."
-    },
-    {
-      "file": "s17_g01",
       "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
+      "file": "s14_g02",
+      "text": "Las opciones son: neumococo; Mycobacterium tuberculosis; Staphylococcus aureus; Mycoplasma; o Pneumocystis jirovecii. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E, Pneumocystis. Fíjate que el enunciado nunca dice VIH. Te da las pistas: un mes de evolución, un paciente enflaquecido y un compromiso bilateral difuso. Eso es un VIH que debuta con Pneumocystis. El neumococo daría un cuadro agudo con condensación, y el Mycoplasma es el distractor, pero no explica el enflaquecimiento."
+    },
+    {
+      "file": "s15_g00",
+      "text": "La segunda es del EUNACOM de julio de dos mil dieciséis, y es más difícil. Hombre de veintinueve años con cinco semanas de tos seca, a la que se agregan disnea y malestar. Tiene una frecuencia respiratoria de treinta, pero el examen cardiopulmonar y la radiografía de tórax son normales."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones son: adenovirus; influenza; Bordetella pertussis; Pneumocystis jirovecii; o tuberculosis. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la D. Tos seca y disnea de cinco semanas, con taquipnea, es la historia subaguda del Pneumocystis. El adenovirus y la influenza son cuadros agudos, de días. ¿Y la radiografía normal? Es la trampa: en un paciente muy inmunosuprimido el Pneumocystis puede no alcanzar a verse en la radiografía, así que una placa normal no lo descarta."
+    },
+    {
+      "file": "s16_g00",
+      "text": "La toxoplasmosis cerebral no tiene preguntas reales fechadas en el banco, así que vamos con un caso representativo. Hombre de treinta y un años con VIH, que abandonó la terapia, con cefalea y hemiparesia derecha de cinco días. Tiene cuarenta y cinco CD cuatro, y la resonancia muestra tres lesiones con captación en anillo y edema, en el tálamo y los ganglios basales izquierdos."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones son: biopsia estereotáxica urgente; radioterapia por sospecha de linfoma; tratamiento empírico con sulfadiazina y pirimetamina, evaluando a los diez a catorce días; anfotericina B; o tratamiento antituberculoso. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la C. CD cuatro bajo cien, múltiples anillos en los ganglios basales: se asume toxoplasmosis y se inicia la prueba terapéutica. La A es la trampa: la biopsia solo va si a las dos semanas no hay respuesta. Y la anfotericina es el tratamiento del criptococo, que da meningitis, no lesiones en anillo."
+    },
+    {
+      "file": "s17_g00",
+      "text": "La siguiente es del EUNACOM de julio de dos mil veinticuatro, y cambia de ángulo: la prevención con vacunas. Lactante de doce meses con VIH, en tratamiento antirretroviral, pero con cargas virales detectables, que viene a control."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Qué vacuna está contraindicada?"
+    },
+    {
       "file": "s17_g02",
-      "text": "Las opciones son: Staphylococcus aureus; Candida albicans; Streptococcus pyogenes; Mucor; o Pseudomonas aeruginosa. Piénsalo."
+      "text": "Las opciones son: meningocócica conjugada; neumocócica conjugada; influenza; tres vírica; o la vacuna contra el SARS CoV dos. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la D, Mucor: una mucormicosis clásica. La clave es la combinación de diabetes con necrosis en la nariz. Una celulitis por estafilococo o estreptococo enrojece la piel, pero no produce esa necrosis en un diabético con sinusitis. Recuerda que el huésped inmunocomprometido no es solo el paciente con VIH."
+      "text": "Es la D, la tres vírica. La lógica es la misma de toda la clase: la inmunidad celular está caída, y la tres vírica es la única de la lista con virus vivos atenuados. En el VIH se decide según el grado de inmunosupresión, que se mide con los CD cuatro, y con un virus que no está controlado, no se pone. Las otras son inactivadas o conjugadas, y justamente este paciente las necesita."
     },
     {
       "file": "s18_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil diecinueve. Paciente con leucemia mieloide crónica, en quimioterapia hace dos semanas, con tos purulenta con estrías de sangre, fiebre y malestar. La velocidad de sedimentación está en noventa, y la tomografía de tórax muestra una tumoración densa rodeada de un halo."
+      "text": "Las dos últimas amplían el concepto de oportunista más allá del VIH. Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y un años, diabético tipo uno, con fiebre, rinorrea purulenta y eritema de la mejilla y la nariz, con una zona necrótica en el ala nasal."
     },
     {
       "file": "s18_g01",
@@ -342,30 +330,46 @@
     },
     {
       "file": "s18_g02",
-      "text": "Las opciones son: Pseudomonas; Aspergillus; Staphylococcus aureus; Candida; o Mycobacterium tuberculosis. Piénsalo."
+      "text": "Las opciones son: Staphylococcus aureus; Candida albicans; Streptococcus pyogenes; Mucor; o Pseudomonas aeruginosa. Piénsalo."
     },
     {
       "file": "s18_g03",
-      "text": "Es la B, Aspergillus. Paciente inmunosuprimido por quimioterapia, con una masa densa rodeada de un halo en la tomografía: es la aspergilosis pulmonar clásica. La tuberculosis es el distractor, porque también da hemoptisis, pero la imagen de una masa con halo en un paciente en quimioterapia apunta al hongo."
+      "text": "Es la D, Mucor: una mucormicosis clásica. La clave es la combinación de diabetes con necrosis en la nariz. Una celulitis por estafilococo o estreptococo enrojece la piel, pero no produce esa necrosis en un diabético con sinusitis. Recuerda que el huésped inmunocomprometido no es solo el paciente con VIH."
     },
     {
       "file": "s19_g00",
-      "text": "Cerremos con las reglas de oro. Los CD cuatro son un reloj: bajo doscientos, Pneumocystis; bajo cien, toxoplasma y criptococo; bajo cincuenta, Mycobacterium avium complex."
+      "text": "Y la última, del EUNACOM de julio de dos mil diecinueve. Paciente con leucemia mieloide crónica, en quimioterapia hace dos semanas, con tos purulenta con estrías de sangre, fiebre y malestar. La velocidad de sedimentación está en noventa, y la tomografía de tórax muestra una tumoración densa rodeada de un halo."
     },
     {
       "file": "s19_g01",
-      "text": "Y la profilaxis usa los mismos cortes: cotrimoxazol forte diario con menos de doscientos, que cubre Pneumocystis y toxoplasma, y azitromicina semanal con menos de cincuenta."
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s19_g02",
-      "text": "En el Pneumocystis, cotrimoxazol en dosis altas por veintiún días, y corticoides antes o junto con el antibiótico si la presión de oxígeno está bajo setenta o el gradiente llega a treinta y cinco."
+      "text": "Las opciones son: Pseudomonas; Aspergillus; Staphylococcus aureus; Candida; o Mycobacterium tuberculosis. Piénsalo."
     },
     {
       "file": "s19_g03",
+      "text": "Es la B, Aspergillus. Paciente inmunosuprimido por quimioterapia, con una masa densa rodeada de un halo en la tomografía: es la aspergilosis pulmonar clásica. La tuberculosis es el distractor, porque también da hemoptisis, pero la imagen de una masa con halo en un paciente en quimioterapia apunta al hongo."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Cerremos con las reglas de oro. Los CD cuatro son un reloj: bajo doscientos, Pneumocystis; bajo cien, toxoplasma y criptococo; bajo cincuenta, Mycobacterium avium complex."
+    },
+    {
+      "file": "s20_g01",
+      "text": "Y la profilaxis usa los mismos cortes: cotrimoxazol forte diario con menos de doscientos, que cubre Pneumocystis y toxoplasma, y azitromicina semanal con menos de cincuenta."
+    },
+    {
+      "file": "s20_g02",
+      "text": "En el Pneumocystis, cotrimoxazol en dosis altas por veintiún días, y corticoides antes o junto con el antibiótico si la presión de oxígeno está bajo setenta o el gradiente llega a treinta y cinco."
+    },
+    {
+      "file": "s20_g03",
       "text": "Lesiones en anillo en un VIH avanzado: prueba terapéutica contra toxoplasma, y biopsia solo si no hay respuesta a los catorce días."
     },
     {
-      "file": "s19_g04",
+      "file": "s20_g04",
       "text": "Y tinta china positiva es criptococo: anfotericina más flucitosina, y luego fluconazol. Si te llevas una sola idea de hoy: mira los CD cuatro, porque te dicen qué infección buscar y cuándo prevenirla. En la próxima clase seguimos con la tuberculosis. Nos vemos en la próxima clase."
     }
   ]

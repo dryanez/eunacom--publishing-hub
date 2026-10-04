@@ -179,6 +179,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/endo-20/A1_macroadenoma_3d.mp4', label: 'Macroadenoma', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Comprime el quiasma',
+          say: 'El adenoma crece hacia arriba desde la silla turca hasta tocar el quiasma óptico. Las fibras que se cruzan en el centro son las primeras en dañarse: hemianopsia bitemporal.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El macroadenoma hipofisario',

@@ -2,7 +2,7 @@
   "id": "hem-11",
   "title": "Hematología 8.11: Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
   "specialty": "Hematología",
-  "chars": 11756,
+  "chars": 11954,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,91 +102,83 @@
     },
     {
       "file": "s06_g00",
-      "text": "El TP mide la vía extrínseca, el factor siete; el TTPA mide la intrínseca. Ambos comparten la vía común. La warfarina prolonga el TP y la heparina, el TTPA."
+      "text": "El TP recorre el factor siete y la vía común. Por eso lo prolonga la warfarina y el daño hepático."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El TTPA recorre la vía intrínseca y la común. Lo prolonga la heparina no fraccionada y la hemofilia."
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol: frente a un paciente que sangra, o frente a un preoperatorio alterado, así se razona. Paciente que sangra, o un preoperatorio alterado. Pides siempre los cuatro exámenes básicos: plaquetas, tiempo de protrombina, TTPK y fibrinógeno."
-    },
-    {
-      "file": "s07_g01",
-      "text": "La pregunta es qué está alterado. Cada patrón te lleva a una vía distinta, y cada vía a un grupo de causas."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Plaquetas bajas con tiempos normales: falla solo la hemostasia primaria. Primero el frotis, para descartar la pseudotrombocitopenia, y luego piensas en trombocitopenia inmune, hiperesplenismo o toxicidad medular."
-    },
-    {
-      "file": "s07_g03",
-      "text": "TP largo con TTPK normal: factor siete. Revisa si toma acenocumarol, piensa en déficit inicial de vitamina K o en el hígado, y da vitamina K si sangra."
-    },
-    {
-      "file": "s07_g04",
-      "text": "TTPK largo con TP normal: vía intrínseca. Descarta la heparina y haz la prueba de mezcla con plasma normal."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si corrige, falta un factor. Dosificas ocho, nueve y once para buscar una hemofilia."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si no corrige, hay un inhibidor: anticoagulante lúpico, que trombosa, o un anticuerpo contra el factor ocho, que sangra."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Los dos largos: daño hepático grave, coagulación intravascular diseminada, déficit masivo de vitamina K o anticoagulantes orales directos. Pide fibrinógeno, plaquetas y dímero D para descartar la coagulación intravascular."
+      "text": "El TP mide la vía extrínseca, el factor siete; el TTPA mide la intrínseca. Ambos comparten la vía común. La warfarina prolonga el TP y la heparina, el TTPA."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos los cuatro patrones. TP largo con TTPK normal: vía extrínseca, factor siete. Piensa en cumarínicos, déficit inicial de vitamina K o hepatopatía leve. Revisa los fármacos y da vitamina K si sangra."
+      "text": "Juntemos todo en un árbol: frente a un paciente que sangra, o frente a un preoperatorio alterado, así se razona. Paciente que sangra, o un preoperatorio alterado. Pides siempre los cuatro exámenes básicos: plaquetas, tiempo de protrombina, TTPK y fibrinógeno."
     },
     {
       "file": "s08_g01",
-      "text": "TTPK largo con TP normal: vía intrínseca. Hemofilias, von Willebrand, heparina o anticoagulante lúpico. La conducta es la prueba de mezcla, y si corrige, dosificar los factores ocho y nueve."
+      "text": "La pregunta es qué está alterado. Cada patrón te lleva a una vía distinta, y cada vía a un grupo de causas."
     },
     {
       "file": "s08_g02",
-      "text": "Los dos largos: vía común o varias vías a la vez. Daño hepático grave, coagulación intravascular diseminada, déficit masivo de vitamina K, o exceso de anticoagulantes orales directos como el rivaroxabán. Pide fibrinógeno, plaquetas y dímero D para descartar la coagulación intravascular."
+      "text": "Plaquetas bajas con tiempos normales: falla solo la hemostasia primaria. Primero el frotis, para descartar la pseudotrombocitopenia, y luego piensas en trombocitopenia inmune, hiperesplenismo o toxicidad medular."
     },
     {
       "file": "s08_g03",
-      "text": "Y plaquetas bajas con tiempos normales: solo falla la hemostasia primaria. Trombocitopenia inmune, hiperesplenismo o toxicidad de la médula. Pero antes de etiquetar, mira el frotis, porque el anticoagulante del tubo puede agrupar las plaquetas y dar un recuento falsamente bajo. Eso es la pseudotrombocitopenia."
+      "text": "TP largo con TTPK normal: factor siete. Revisa si toma acenocumarol, piensa en déficit inicial de vitamina K o en el hígado, y da vitamina K si sangra."
+    },
+    {
+      "file": "s08_g04",
+      "text": "TTPK largo con TP normal: vía intrínseca. Descarta la heparina y haz la prueba de mezcla con plasma normal."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si corrige, falta un factor. Dosificas ocho, nueve y once para buscar una hemofilia."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si no corrige, hay un inhibidor: anticoagulante lúpico, que trombosa, o un anticuerpo contra el factor ocho, que sangra."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Los dos largos: daño hepático grave, coagulación intravascular diseminada, déficit masivo de vitamina K o anticoagulantes orales directos. Pide fibrinógeno, plaquetas y dímero D para descartar la coagulación intravascular."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de veintidós años, sano, sin sangrados ni cirugías previas, programado para una cirugía electiva. Hemoglobina y plaquetas normales, TP normal, con INR de uno coma cero cinco. Pero el TTPK es de cincuenta y ocho segundos, con un control de treinta. Y la mezcla con plasma normal lo corrige a treinta y uno."
+      "text": "Repasemos los cuatro patrones. TP largo con TTPK normal: vía extrínseca, factor siete. Piensa en cumarínicos, déficit inicial de vitamina K o hepatopatía leve. Revisa los fármacos y da vitamina K si sangra."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "TTPK largo con TP normal: vía intrínseca. Hemofilias, von Willebrand, heparina o anticoagulante lúpico. La conducta es la prueba de mezcla, y si corrige, dosificar los factores ocho y nueve."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: operar igual porque nunca ha sangrado, pedir anticoagulante lúpico, diferir la cirugía y dosificar los factores ocho, nueve y once, dar vitamina K, o transfundir plaquetas. Piénsalo."
+      "text": "Los dos largos: vía común o varias vías a la vez. Daño hepático grave, coagulación intravascular diseminada, déficit masivo de vitamina K, o exceso de anticoagulantes orales directos como el rivaroxabán. Pide fibrinógeno, plaquetas y dímero D para descartar la coagulación intravascular."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la C. El TTPK está largo y solo, y la mezcla lo corrige: le falta un factor de la vía intrínseca. Se difiere la cirugía, que no es urgente, y se dosifican los factores para buscar una hemofilia leve que nunca se había manifestado. El distractor tentador es el anticoagulante lúpico, pero un inhibidor no corrige con la mezcla. Y la vitamina K arregla el TP, que aquí es normal."
+      "text": "Y plaquetas bajas con tiempos normales: solo falla la hemostasia primaria. Trombocitopenia inmune, hiperesplenismo o toxicidad de la médula. Pero antes de etiquetar, mira el frotis, porque el anticoagulante del tubo puede agrupar las plaquetas y dar un recuento falsamente bajo. Eso es la pseudotrombocitopenia."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Niño de dos años que sangra con facilidad y tiene múltiples equimosis en las piernas, algunas grandes y en distintas etapas de resolución. Plaquetas normales, TP normal y TTPA alargado."
+      "text": "Vamos con un caso. Hombre de veintidós años, sano, sin sangrados ni cirugías previas, programado para una cirugía electiva. Hemoglobina y plaquetas normales, TP normal, con INR de uno coma cero cinco. Pero el TTPK es de cincuenta y ocho segundos, con un control de treinta. Y la mezcla con plasma normal lo corrige a treinta y uno."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: trombocitopenia inmune, hemofilia, enfermedad de von Willebrand, enfermedad de Glanzmann, o púrpura trombocitopénico trombótico. Piénsalo."
+      "text": "Las opciones son: operar igual porque nunca ha sangrado, pedir anticoagulante lúpico, diferir la cirugía y dosificar los factores ocho, nueve y once, dar vitamina K, o transfundir plaquetas. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, hemofilia. Lee el patrón: plaquetas normales descartan la trombocitopenia inmune y el púrpura trombótico. TP normal con TTPA largo es vía intrínseca, factores ocho o nueve. El distractor es el von Willebrand, que también puede alargar el TTPA; pero da un sangrado más leve, de mucosas, y aquí tienes un niño pequeño con equimosis grandes. Eso es hemofilia."
+      "text": "La respuesta es la C. El TTPK está largo y solo, y la mezcla lo corrige: le falta un factor de la vía intrínseca. Se difiere la cirugía, que no es urgente, y se dosifican los factores para buscar una hemofilia leve que nunca se había manifestado. El distractor tentador es el anticoagulante lúpico, pero un inhibidor no corrige con la mezcla. Y la vitamina K arregla el TP, que aquí es normal."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, también de diciembre de dos mil diecinueve. Joven de dieciocho años con dolor y aumento de volumen de la pantorrilla después de un golpe pequeño. El Doppler muestra alteración del drenaje venoso profundo. Plaquetas en ciento cuarenta y cinco mil, protrombina de ochenta y cinco por ciento, y TTPA de cincuenta y cuatro segundos."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Niño de dos años que sangra con facilidad y tiene múltiples equimosis en las piernas, algunas grandes y en distintas etapas de resolución. Plaquetas normales, TP normal y TTPA alargado."
     },
     {
       "file": "s11_g01",
@@ -194,46 +186,62 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: déficit de antitrombina, hemofilia A, trombofilia por anticoagulante lúpico, hemofilia B, o enfermedad de von Willebrand. Piénsalo."
+      "text": "Las opciones son: trombocitopenia inmune, hemofilia, enfermedad de von Willebrand, enfermedad de Glanzmann, o púrpura trombocitopénico trombótico. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C. La clave está en el Doppler: esto no es un hematoma, es una trombosis venosa profunda. Y una trombosis con TTPA largo es la paradoja que vimos en la prueba de mezcla: el anticoagulante lúpico alarga el tiempo en el tubo, pero coagula en el paciente. El distractor es la hemofilia, porque el TTPA largo y el golpe en la pierna te empujan a pensar en un hematoma; pero la hemofilia sangra, no trombosa."
+      "text": "Es la B, hemofilia. Lee el patrón: plaquetas normales descartan la trombocitopenia inmune y el púrpura trombótico. TP normal con TTPA largo es vía intrínseca, factores ocho o nueve. El distractor es el von Willebrand, que también puede alargar el TTPA; pero da un sangrado más leve, de mucosas, y aquí tienes un niño pequeño con equimosis grandes. Eso es hemofilia."
     },
     {
       "file": "s12_g00",
-      "text": "Una más, del EUNACOM de julio de dos mil diecinueve. Niña de quince años con reglas muy abundantes y prolongadas desde hace tiempo. Tiene anemia, con hemoglobina de nueve, plaquetas normales, y una ecografía ginecológica normal."
+      "text": "Otra pregunta real, también de diciembre de dos mil diecinueve. Joven de dieciocho años con dolor y aumento de volumen de la pantorrilla después de un golpe pequeño. El Doppler muestra alteración del drenaje venoso profundo. Plaquetas en ciento cuarenta y cinco mil, protrombina de ochenta y cinco por ciento, y TTPA de cincuenta y cuatro segundos."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cómo sigues el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: resonancia de pelvis, prueba de progesterona, biopsia de endometrio, estudio de trombofilias, o estudio de hemostasia. Piénsalo."
+      "text": "Las opciones son: déficit de antitrombina, hemofilia A, trombofilia por anticoagulante lúpico, hemofilia B, o enfermedad de von Willebrand. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la E, estudio de hemostasia. El sangrado de mucosas, como la metrorragia, es hemostasia primaria, y en una adolescente con ecografía normal hay que buscar un trastorno de la coagulación, sobre todo el von Willebrand. El distractor es el estudio de trombofilias: suena parecido, pero la trombofilia se estudia en quien hace trombosis, no en quien sangra. Y la biopsia de endometrio no tiene sentido a los quince años."
+      "text": "Es la C. La clave está en el Doppler: esto no es un hematoma, es una trombosis venosa profunda. Y una trombosis con TTPA largo es la paradoja que vimos en la prueba de mezcla: el anticoagulante lúpico alarga el tiempo en el tubo, pero coagula en el paciente. El distractor es la hemofilia, porque el TTPA largo y el golpe en la pierna te empujan a pensar en un hematoma; pero la hemofilia sangra, no trombosa."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Petequias, epistaxis y sangrado de mucosas apuntan a la hemostasia primaria: plaquetas o von Willebrand."
+      "text": "Una más, del EUNACOM de julio de dos mil diecinueve. Niña de quince años con reglas muy abundantes y prolongadas desde hace tiempo. Tiene anemia, con hemoglobina de nueve, plaquetas normales, y una ecografía ginecológica normal."
     },
     {
       "file": "s13_g01",
-      "text": "Hemartrosis, hematomas musculares y sangrado tardío apuntan a los factores de la coagulación."
+      "text": "¿Cómo sigues el estudio?"
     },
     {
       "file": "s13_g02",
-      "text": "TP largo aislado es factor siete: cumarínicos, déficit de vitamina K o hígado."
+      "text": "Las opciones son: resonancia de pelvis, prueba de progesterona, biopsia de endometrio, estudio de trombofilias, o estudio de hemostasia. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la E, estudio de hemostasia. El sangrado de mucosas, como la metrorragia, es hemostasia primaria, y en una adolescente con ecografía normal hay que buscar un trastorno de la coagulación, sobre todo el von Willebrand. El distractor es el estudio de trombofilias: suena parecido, pero la trombofilia se estudia en quien hace trombosis, no en quien sangra. Y la biopsia de endometrio no tiene sentido a los quince años."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Petequias, epistaxis y sangrado de mucosas apuntan a la hemostasia primaria: plaquetas o von Willebrand."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Hemartrosis, hematomas musculares y sangrado tardío apuntan a los factores de la coagulación."
+    },
+    {
+      "file": "s14_g02",
+      "text": "TP largo aislado es factor siete: cumarínicos, déficit de vitamina K o hígado."
+    },
+    {
+      "file": "s14_g03",
       "text": "TTPK largo aislado es vía intrínseca: hemofilias, von Willebrand, heparina, o el anticoagulante lúpico."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y la prueba de mezcla decide: si corrige, falta un factor; si no corrige, hay un inhibidor. Si te llevas una sola idea de hoy: mira cómo sangra el paciente, lee qué tiempo está largo, y deja que la mezcla te diga si falta algo o si algo sobra. En la próxima clase usamos todo esto en la trombocitopenia inmune. Nos vemos en la próxima clase."
     }
   ]

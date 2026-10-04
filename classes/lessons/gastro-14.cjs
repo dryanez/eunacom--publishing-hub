@@ -207,6 +207,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los marcadores de la hepatitis B',
+      images: [
+        { src: 'animaciones/gastro-14/A1_vhb_marcadores.mp4', label: 'Hepatitis aguda resuelta', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Atento a la ventana',
+          say: 'Primero aparece el antígeno de superficie, luego el anti core IgM. Cuando el antígeno desaparece y todavía no llega el anti superficie, queda un período de ventana donde solo el anti core IgM es positivo. El anti core total queda para siempre.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Serología de la hepatitis B',

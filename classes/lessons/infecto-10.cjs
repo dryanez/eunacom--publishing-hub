@@ -229,6 +229,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los CD4 como reloj',
+      images: [
+        { src: 'animaciones/infecto-10/A1_cd4_reloj.mp4', label: 'Umbrales', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Doscientos, cien y cincuenta',
+          say: 'Sin tratamiento, los CD cuatro caen año a año. Bajo doscientos aparece el Pneumocystis; bajo cien, toxoplasma y criptococo; bajo cincuenta, Mycobacterium avium y citomegalovirus.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Infecciones oportunistas en el VIH',

@@ -149,6 +149,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El minuto de oro',
+      images: [
+        { src: 'animaciones/ped-15/A1_reanimacion.mp4', label: 'Paso a paso', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cada paso con la frecuencia',
+          say: 'Al nacer: secar, estimular y posicionar. Si a los treinta segundos hay apnea o la frecuencia es menor de cien, ventilación. Si tras treinta segundos de ventilación sigue bajo sesenta, masaje tres a uno. Y si persiste, adrenalina.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Reanimación neonatal',
       images: [

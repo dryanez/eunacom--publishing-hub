@@ -122,6 +122,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El orden ABCDE',
+      images: [
+        { src: 'animaciones/cirugia-09/A1_abcde.mp4', label: 'Una letra a la vez', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'No avanzar sin resolver',
+          say: 'La evaluación primaria va letra por letra: vía aérea con columna cervical, ventilación, circulación, déficit neurológico y exposición. No pasas a la siguiente sin resolver la anterior.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'La evaluación primaria',

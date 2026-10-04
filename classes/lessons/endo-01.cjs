@@ -176,6 +176,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El eje en cuatro escenarios',
+      images: [
+        { src: 'animaciones/endo-01/A1_eje_normal.mp4', label: 'Normal', credit: 'Animación propia' },
+        { src: 'animaciones/endo-01/A2_eje_primario.mp4', label: 'Hipotiroidismo primario', credit: 'Animación propia' },
+        { src: 'animaciones/endo-01/A3_eje_hiper.mp4', label: 'Hipertiroidismo', credit: 'Animación propia' },
+        { src: 'animaciones/endo-01/A4_eje_central.mp4', label: 'Hipotiroidismo central', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La T cuatro libre frena la TSH',
+          say: 'En el eje normal el hipotálamo estimula a la hipófisis, la hipófisis a la tiroides, y la T cuatro libre vuelve a frenar a la hipófisis. Ambas quedan en rango.' },
+        { note: 'TSH alta, T cuatro libre baja',
+          say: 'Si falla la tiroides, la T cuatro libre cae y ya no frena: la TSH sube. Es la forma más frecuente.' },
+        { note: 'TSH suprimida',
+          say: 'Si la tiroides produce de más, la T cuatro libre alta frena por completo a la hipófisis: la TSH queda suprimida.' },
+        { note: 'Ambas bajas',
+          say: 'Y si falla la hipófisis, la T cuatro libre está baja pero la TSH no sube. Por eso nunca se mira la TSH sola.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo en un solo árbol, tal como vas a leer un perfil tiroideo en el examen.',
     },

@@ -218,6 +218,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las fases del dengue',
+      images: [
+        { src: 'animaciones/infecto-16/A1_dengue_fases.mp4', label: 'Cuando cae la fiebre', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Empieza la fase crítica',
+          say: 'Mira las tres curvas. Cuando la fiebre cae, hacia el tercer día, empieza la fase crítica: el hematocrito sube por la fuga de plasma y las plaquetas llegan a su punto más bajo. Ese es el momento de buscar signos de alarma.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Malaria y dengue',

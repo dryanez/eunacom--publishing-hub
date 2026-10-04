@@ -115,6 +115,26 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La sensibilización Rh en tres pasos',
+      images: [
+        { src: 'animaciones/ob-20/A1_rh_sensibilizacion.mp4', label: 'Primer embarazo', credit: 'Animación propia' },
+        { src: 'animaciones/ob-20/A2_rh_segundo.mp4', label: 'Siguiente embarazo', credit: 'Animación propia' },
+        { src: 'animaciones/ob-20/A3_rh_antid.mp4', label: 'Anti D', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La madre fabrica memoria',
+          say: 'En el parto, glóbulos fetales Rh positivos pasan a la madre Rh negativa, y ella fabrica anticuerpos de memoria. Ese primer hijo no alcanza a dañarse.' },
+        { note: 'La IgG cruza y hemoliza',
+          say: 'En el siguiente embarazo, esos anticuerpos cruzan la placenta y destruyen los glóbulos del feto: anemia, y en lo grave, hidrops.' },
+        { note: 'No se forma memoria',
+          say: 'La inmunoglobulina anti D elimina los glóbulos fetales antes de que la madre los reconozca. No se forma memoria, y por eso se da a las veintiocho semanas y tras el parto.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Doppler en la aloinmunización',

@@ -2,7 +2,7 @@
   "id": "hem-07",
   "title": "Hematología 8.7: Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
   "specialty": "Hematología",
-  "chars": 15459,
+  "chars": 15797,
   "segments": [
     {
       "file": "s00_g00",
@@ -190,142 +190,150 @@
     },
     {
       "file": "s10_g00",
-      "text": "En el frotis aparecen esferocitos: glóbulos pequeños, redondos, sin la palidez central."
+      "text": "En el Coombs directo se usan los glóbulos del paciente. Si ya traen anticuerpos pegados, el suero de Coombs los une entre sí y se aglutinan: la hemólisis es inmune."
     },
     {
       "file": "s10_g01",
-      "text": "Y el Coombs directo busca anticuerpos pegados a los glóbulos rojos del paciente. Si es positivo, la hemólisis es inmune."
+      "text": "En el indirecto se busca en el suero: se mezcla con glóbulos de prueba, los anticuerpos libres se pegan, y el suero de Coombs los aglutina. Es el que se pide a la embarazada."
     },
     {
       "file": "s11_g00",
-      "text": "Juntemos todo en un árbol, partiendo de una anemia con signos de hemólisis. Tienes una anemia con reticulocitos altos, LDH y bilirrubina indirecta altas, y haptoglobina baja. Es una hemólisis. Ahora hay que saber si es autoinmune."
+      "text": "En el frotis aparecen esferocitos: glóbulos pequeños, redondos, sin la palidez central."
     },
     {
       "file": "s11_g01",
-      "text": "Pide el Coombs directo. Es el examen que confirma la causa autoinmune."
-    },
-    {
-      "file": "s11_g02",
-      "text": "Si es negativo, el problema no es un anticuerpo: piensa en defectos del propio glóbulo, como la esferocitosis hereditaria o el déficit de G seis PD, que vemos en la próxima clase."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Si es positivo solo para complemento, son crioaglutininas. Busca Mycoplasma, Epstein-Barr o linfoma, evita el frío y usa rituximab si es grave. Nada de corticoides ni esplenectomía."
-    },
-    {
-      "file": "s11_g04",
-      "text": "Si es positivo para IgG, es una hemolítica caliente. La siguiente pregunta es la gravedad."
-    },
-    {
-      "file": "s11_g05",
-      "text": "Si no es grave, prednisona oral de uno a uno coma cinco miligramos por kilo, ácido fólico, y un descenso muy lento en tres a seis meses. Si no responde en tres semanas o recae al bajar, rituximab o esplenectomía."
-    },
-    {
-      "file": "s11_g06",
-      "text": "Si es grave, se hospitaliza con pulsos de metilprednisolona endovenosa. Solo si hay shock, ángor o compromiso de conciencia, se transfunde la unidad menos incompatible, lento y con monitoreo."
+      "text": "Y el Coombs directo busca anticuerpos pegados a los glóbulos rojos del paciente. Si es positivo, la hemólisis es inmune."
     },
     {
       "file": "s12_g00",
-      "text": "Comparemos las dos formas. La caliente es la gran mayoría, ochenta a noventa por ciento; la fría, diez a quince."
+      "text": "Juntemos todo en un árbol, partiendo de una anemia con signos de hemólisis. Tienes una anemia con reticulocitos altos, LDH y bilirrubina indirecta altas, y haptoglobina baja. Es una hemólisis. Ahora hay que saber si es autoinmune."
     },
     {
       "file": "s12_g01",
-      "text": "El anticuerpo: IgG a temperatura corporal en la caliente; IgM que se une en el frío en la otra."
+      "text": "Pide el Coombs directo. Es el examen que confirma la causa autoinmune."
     },
     {
       "file": "s12_g02",
-      "text": "Dónde se destruye el glóbulo: en el bazo en la caliente; en los vasos y en el hígado en la fría."
+      "text": "Si es negativo, el problema no es un anticuerpo: piensa en defectos del propio glóbulo, como la esferocitosis hereditaria o el déficit de G seis PD, que vemos en la próxima clase."
     },
     {
       "file": "s12_g03",
-      "text": "El frotis: microesferocitos en la caliente, glóbulos aglutinados en la fría."
+      "text": "Si es positivo solo para complemento, son crioaglutininas. Busca Mycoplasma, Epstein-Barr o linfoma, evita el frío y usa rituximab si es grave. Nada de corticoides ni esplenectomía."
     },
     {
       "file": "s12_g04",
-      "text": "El Coombs: IgG positivo en la caliente; solo complemento en la fría."
+      "text": "Si es positivo para IgG, es una hemolítica caliente. La siguiente pregunta es la gravedad."
     },
     {
       "file": "s12_g05",
-      "text": "Las asociaciones: lupus, leucemia linfática crónica y fármacos en la caliente; Mycoplasma, Epstein-Barr y linfoma en la fría."
+      "text": "Si no es grave, prednisona oral de uno a uno coma cinco miligramos por kilo, ácido fólico, y un descenso muy lento en tres a seis meses. Si no responde en tres semanas o recae al bajar, rituximab o esplenectomía."
     },
     {
       "file": "s12_g06",
-      "text": "Y el tratamiento: prednisona en la caliente; evitar el frío y rituximab en la fría. La trampa clásica es indicar corticoides o esplenectomía en las crioaglutininas."
-    },
-    {
-      "file": "s12_g07",
-      "text": "Y la última trampa, que aplica sobre todo a la caliente: no se transfunde por la cifra. Solo con riesgo vital, porque todas las pruebas cruzadas salen incompatibles."
+      "text": "Si es grave, se hospitaliza con pulsos de metilprednisolona endovenosa. Solo si hay shock, ángor o compromiso de conciencia, se transfunde la unidad menos incompatible, lento y con monitoreo."
     },
     {
       "file": "s13_g00",
-      "text": "Vamos con un caso. Mujer de treinta y un años, con lupus recién diagnosticado, que consulta por disnea de reposo, astenia intensa, orinas oscuras e ictericia de dos días. Presión de cien con sesenta, taquicárdica, lúcida y sin dolor torácico. Está muy pálida, ictérica y con el bazo palpable. Hemoglobina cinco coma ocho, reticulocitos de nueve por ciento, bilirrubina indirecta y LDH altas, haptoglobina indetectable, y microesferocitos en el frotis."
+      "text": "Comparemos las dos formas. La caliente es la gran mayoría, ochenta a noventa por ciento; la fría, diez a quince."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "El anticuerpo: IgG a temperatura corporal en la caliente; IgM que se une en el frío en la otra."
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: transfundir de inmediato, Coombs y metilprednisolona endovenosa evitando transfundir, esplenectomía de urgencia, evitar el frío con rituximab, o vitamina B doce con ácido fólico. Piénsalo."
+      "text": "Dónde se destruye el glóbulo: en el bazo en la caliente; en los vasos y en el hígado en la fría."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. Tiene los cuatro pilares de hemólisis, microesferocitos y lupus: es una hemolítica autoinmune caliente, y grave. Se confirma con Coombs, se hospitaliza con metilprednisolona endovenosa y ácido fólico. El distractor tentador es la A, porque la hemoglobina está bajo seis, pero está lúcida, sin shock ni dolor torácico, y todas las pruebas cruzadas saldrán incompatibles. La D es el manejo del anticuerpo frío, y la esplenectomía es segunda línea."
+      "text": "El frotis: microesferocitos en la caliente, glóbulos aglutinados en la fría."
+    },
+    {
+      "file": "s13_g04",
+      "text": "El Coombs: IgG positivo en la caliente; solo complemento en la fría."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Las asociaciones: lupus, leucemia linfática crónica y fármacos en la caliente; Mycoplasma, Epstein-Barr y linfoma en la fría."
+    },
+    {
+      "file": "s13_g06",
+      "text": "Y el tratamiento: prednisona en la caliente; evitar el frío y rituximab en la fría. La trampa clásica es indicar corticoides o esplenectomía en las crioaglutininas."
+    },
+    {
+      "file": "s13_g07",
+      "text": "Y la última trampa, que aplica sobre todo a la caliente: no se transfunde por la cifra. Solo con riesgo vital, porque todas las pruebas cruzadas salen incompatibles."
     },
     {
       "file": "s14_g00",
-      "text": "Ahora preguntas reales. La primera, del EUNACOM de diciembre de dos mil veinticinco. Hombre de veintinueve años con ictericia, disnea y compromiso del estado general. Hemoglobina cuatro coma uno, VCM ciento tres, plaquetas y leucocitos normales, y microesferocitos en el frotis. La bilirrubina total es cuatro coma uno, con la directa en cero coma cinco, la LDH está alta y las transaminasas casi normales."
+      "text": "Vamos con un caso. Mujer de treinta y un años, con lupus recién diagnosticado, que consulta por disnea de reposo, astenia intensa, orinas oscuras e ictericia de dos días. Presión de cien con sesenta, taquicárdica, lúcida y sin dolor torácico. Está muy pálida, ictérica y con el bazo palpable. Hemoglobina cinco coma ocho, reticulocitos de nueve por ciento, bilirrubina indirecta y LDH altas, haptoglobina indetectable, y microesferocitos en el frotis."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo."
+      "text": "Las opciones: transfundir de inmediato, Coombs y metilprednisolona endovenosa evitando transfundir, esplenectomía de urgencia, evitar el frío con rituximab, o vitamina B doce con ácido fólico. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C, hemólisis, probablemente autoinmune. La bilirrubina es casi toda indirecta y las transaminasas están casi normales, así que no es una hepatitis. Y los microesferocitos son la huella del bazo mordiendo la membrana. El distractor tentador es la B doce, por el VCM de ciento tres, pero ese VCM viene de los reticulocitos, y las otras series están normales. El paso siguiente sería el Coombs directo."
+      "text": "Es la B. Tiene los cuatro pilares de hemólisis, microesferocitos y lupus: es una hemolítica autoinmune caliente, y grave. Se confirma con Coombs, se hospitaliza con metilprednisolona endovenosa y ácido fólico. El distractor tentador es la A, porque la hemoglobina está bajo seis, pero está lúcida, sin shock ni dolor torácico, y todas las pruebas cruzadas saldrán incompatibles. La D es el manejo del anticuerpo frío, y la esplenectomía es segunda línea."
     },
     {
       "file": "s15_g00",
-      "text": "La segunda, del EUNACOM de diciembre de dos mil diecisiete. Mujer de cuarenta años con astenia y disnea progresivas desde hace una semana. Hemoglobina ocho, VCM elevado, leucocitos y plaquetas normales, y en el frotis macrocitosis y policromasia."
+      "text": "Ahora preguntas reales. La primera, del EUNACOM de diciembre de dos mil veinticinco. Hombre de veintinueve años con ictericia, disnea y compromiso del estado general. Hemoglobina cuatro coma uno, VCM ciento tres, plaquetas y leucocitos normales, y microesferocitos en el frotis. La bilirrubina total es cuatro coma uno, con la directa en cero coma cinco, la LDH está alta y las transaminasas casi normales."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: prueba de Coombs, niveles de B doce, LDH y bilirrubina directa, recuento de reticulocitos, o biopsia de médula ósea. Piénsalo."
+      "text": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la A, la prueba de Coombs. La policromasia en el frotis son reticulocitos jóvenes, y una anemia que se instala en una semana con reticulocitos altos es una hemólisis. La que confirma que es autoinmune es el Coombs directo. El distractor tentador es la B doce, por la macrocitosis, pero con leucocitos y plaquetas normales y policromasia, la macrocitosis la ponen los reticulocitos. Los reticulocitos y la LDH apoyan la hemólisis, pero no confirman la causa."
+      "text": "Es la C, hemólisis, probablemente autoinmune. La bilirrubina es casi toda indirecta y las transaminasas están casi normales, así que no es una hepatitis. Y los microesferocitos son la huella del bazo mordiendo la membrana. El distractor tentador es la B doce, por el VCM de ciento tres, pero ese VCM viene de los reticulocitos, y las otras series están normales. El paso siguiente sería el Coombs directo."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Hemólisis son cuatro pilares: reticulocitos altos, LDH alta, bilirrubina indirecta alta y haptoglobina colapsada."
+      "text": "La segunda, del EUNACOM de diciembre de dos mil diecisiete. Mujer de cuarenta años con astenia y disnea progresivas desde hace una semana. Hemoglobina ocho, VCM elevado, leucocitos y plaquetas normales, y en el frotis macrocitosis y policromasia."
     },
     {
       "file": "s16_g01",
-      "text": "El Coombs directo confirma que es autoinmune: IgG positivo en la caliente, solo complemento en la fría."
+      "text": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?"
     },
     {
       "file": "s16_g02",
-      "text": "La caliente se trata con prednisona, con descenso lento, y en segunda línea rituximab o esplenectomía."
+      "text": "Las opciones: prueba de Coombs, niveles de B doce, LDH y bilirrubina directa, recuento de reticulocitos, o biopsia de médula ósea. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la A, la prueba de Coombs. La policromasia en el frotis son reticulocitos jóvenes, y una anemia que se instala en una semana con reticulocitos altos es una hemólisis. La que confirma que es autoinmune es el Coombs directo. El distractor tentador es la B doce, por la macrocitosis, pero con leucocitos y plaquetas normales y policromasia, la macrocitosis la ponen los reticulocitos. Los reticulocitos y la LDH apoyan la hemólisis, pero no confirman la causa."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Hemólisis son cuatro pilares: reticulocitos altos, LDH alta, bilirrubina indirecta alta y haptoglobina colapsada."
+    },
+    {
+      "file": "s17_g01",
+      "text": "El Coombs directo confirma que es autoinmune: IgG positivo en la caliente, solo complemento en la fría."
+    },
+    {
+      "file": "s17_g02",
+      "text": "La caliente se trata con prednisona, con descenso lento, y en segunda línea rituximab o esplenectomía."
+    },
+    {
+      "file": "s17_g03",
       "text": "La fría no responde a corticoides ni a esplenectomía: se evita el frío y se usa rituximab."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Y no se transfunde por la cifra: las pruebas cruzadas siempre son incompatibles, y solo se transfunde con riesgo vital."
     },
     {
-      "file": "s16_g05",
+      "file": "s17_g05",
       "text": "En la próxima clase vemos las hemólisis en que el Coombs es negativo, porque el problema está en el propio glóbulo: la esferocitosis hereditaria, el déficit de G seis PD y la hemoglobinuria paroxística nocturna. Si te llevas una sola idea de hoy: hemólisis con Coombs IgG positivo se trata con corticoides, y la sangre no se da por la cifra. Nos vemos en la próxima clase."
     }
   ]

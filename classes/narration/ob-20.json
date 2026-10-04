@@ -2,7 +2,7 @@
   "id": "ob-20",
   "title": "Obstetricia 19.20: Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada",
   "specialty": "Obstetricia",
-  "chars": 6981,
+  "chars": 7428,
   "segments": [
     {
       "file": "s00_g00",
@@ -70,75 +70,71 @@
     },
     {
       "file": "s06_g00",
-      "text": "En la aloinmunización, la velocidad alta en la arteria cerebral media indica anemia fetal."
+      "text": "En el parto, glóbulos fetales Rh positivos pasan a la madre Rh negativa, y ella fabrica anticuerpos de memoria. Ese primer hijo no alcanza a dañarse."
+    },
+    {
+      "file": "s06_g01",
+      "text": "En el siguiente embarazo, esos anticuerpos cruzan la placenta y destruyen los glóbulos del feto: anemia, y en lo grave, hidrops."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La inmunoglobulina anti D elimina los glóbulos fetales antes de que la madre los reconozca. No se forma memoria, y por eso se da a las veintiocho semanas y tras el parto."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora pongamos la profilaxis y el seguimiento en un solo árbol de decisión. Tu paciente es Rh negativa. Antes de decidir nada, pides el Coombs indirecto."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Todo depende de un solo resultado: ¿está o no sensibilizada?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "No sensibilizada: aquí la inmunoglobulina anti-D previene el problema."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Trescientos microgramos a las veintiocho semanas, y otra dosis tras el parto si el hijo es Rh positivo."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Ante un aborto, un ectópico o un procedimiento invasivo, la misma dosis dentro de setenta y dos horas."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Ya sensibilizada: la anti-D no tiene ningún efecto, ahora hay que vigilar al feto."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Titulas los anticuerpos de forma periódica."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Si supera el título crítico, Doppler de arteria cerebral media, y cordocentesis con transfusión si la anemia es grave."
+      "text": "En la aloinmunización, la velocidad alta en la arteria cerebral media indica anemia fetal."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos en una tabla. A las veintiocho semanas, con el Coombs negativo, das la anti-D preventiva."
+      "text": "Ahora pongamos la profilaxis y el seguimiento en un solo árbol de decisión. Tu paciente es Rh negativa. Antes de decidir nada, pides el Coombs indirecto."
     },
     {
       "file": "s08_g01",
-      "text": "Después del parto, si sigue negativo y el hijo es Rh positivo, va la segunda dosis, antes de setenta y dos horas."
+      "text": "Todo depende de un solo resultado: ¿está o no sensibilizada?"
     },
     {
       "file": "s08_g02",
-      "text": "Tras un aborto o un procedimiento invasivo, con el Coombs negativo, la dosis va dentro de las setenta y dos horas."
+      "text": "No sensibilizada: aquí la inmunoglobulina anti-D previene el problema."
     },
     {
       "file": "s08_g03",
-      "text": "Y con el Coombs positivo, nunca des la anti-D. Ahí sigues con títulos de anticuerpos y Doppler de la arteria cerebral media."
+      "text": "Trescientos microgramos a las veintiocho semanas, y otra dosis tras el parto si el hijo es Rh positivo."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Ante un aborto, un ectópico o un procedimiento invasivo, la misma dosis dentro de setenta y dos horas."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Ya sensibilizada: la anti-D no tiene ningún efecto, ahora hay que vigilar al feto."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Titulas los anticuerpos de forma periódica."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si supera el título crítico, Doppler de arteria cerebral media, y cordocentesis con transfusión si la anemia es grave."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Una primigesta de veintiocho semanas, Rh negativa, tiene el Coombs indirecto negativo en este control. Su pareja es Rh positiva."
+      "text": "Repasemos en una tabla. A las veintiocho semanas, con el Coombs negativo, das la anti-D preventiva."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Después del parto, si sigue negativo y el hijo es Rh positivo, va la segunda dosis, antes de setenta y dos horas."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: dar la inmunoglobulina anti-D, iniciar titulación de anticuerpos porque ya estaría sensibilizada, pedir un Doppler de arteria cerebral media de inmediato, no indicar nada hasta el parto, o hacer una cordocentesis diagnóstica. Piénsalo."
+      "text": "Tras un aborto o un procedimiento invasivo, con el Coombs negativo, la dosis va dentro de las setenta y dos horas."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Coombs indirecto negativo a las veintiocho semanas es justo el momento de la dosis antenatal de rutina. La B es la trampa: negativo significa que no está sensibilizada, todo lo contrario de lo que dice esa opción. El Doppler y la cordocentesis son para la paciente ya sensibilizada, y no dar nada la deja sin protección."
+      "text": "Y con el Coombs positivo, nunca des la anti-D. Ahí sigues con títulos de anticuerpos y Doppler de la arteria cerebral media."
     },
     {
       "file": "s10_g00",
-      "text": "Una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Una primigesta de trece semanas tiene su grupo sanguíneo informado como AB, Rh negativo, con D-u positivo."
+      "text": "Vamos con un caso. Una primigesta de veintiocho semanas, Rh negativa, tiene el Coombs indirecto negativo en este control. Su pareja es Rh positiva."
     },
     {
       "file": "s10_g01",
@@ -146,38 +142,54 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: pedir Doppler de arteria cerebral media, pedir Coombs indirecto a las dieciocho semanas, dar Rhogam a las veintiocho semanas, determinar el grupo y Rh del padre, o mantener el control habitual del embarazo. Piénsalo."
+      "text": "Las opciones: dar la inmunoglobulina anti-D, iniciar titulación de anticuerpos porque ya estaría sensibilizada, pedir un Doppler de arteria cerebral media de inmediato, no indicar nada hasta el parto, o hacer una cordocentesis diagnóstica. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E. El detalle que decide todo es el D-u positivo: significa que en realidad esta paciente expresa el antígeno D, aunque de forma débil, y por eso se maneja como Rh positiva, sin necesidad de Coombs seriado ni de anti-D. Es un dato que no está en los libros clásicos, pero que el banco real sí pregunta."
+      "text": "Es la A. Coombs indirecto negativo a las veintiocho semanas es justo el momento de la dosis antenatal de rutina. La B es la trampa: negativo significa que no está sensibilizada, todo lo contrario de lo que dice esa opción. El Doppler y la cordocentesis son para la paciente ya sensibilizada, y no dar nada la deja sin protección."
     },
     {
       "file": "s11_g00",
-      "text": "Y esta es del EUNACOM de diciembre de dos mil diecisiete. Un recién nacido de dieciocho horas de vida tiene ictericia hasta los muslos, con bilirrubina de quince coma tres, de predominio indirecto. La madre es de grupo O, Rh positiva; el niño es de grupo B, Rh negativo."
+      "text": "Una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Una primigesta de trece semanas tiene su grupo sanguíneo informado como AB, Rh negativo, con D-u positivo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: incompatibilidad de grupo clásico, incompatibilidad Rh, ictericia fisiológica, hepatitis neonatal, o ictericia por lactancia materna. Piénsalo."
+      "text": "Las opciones: pedir Doppler de arteria cerebral media, pedir Coombs indirecto a las dieciocho semanas, dar Rhogam a las veintiocho semanas, determinar el grupo y Rh del padre, o mantener el control habitual del embarazo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. Fíjate bien en los grupos: la incompatibilidad Rh solo existe si la madre es Rh negativa y el hijo Rh positivo, y aquí es exactamente al revés. Lo que sí puede hemolizar es la incompatibilidad de grupo clásico, porque una madre de grupo O forma anticuerpos contra los hijos de grupo A o B."
+      "text": "Es la E. El detalle que decide todo es el D-u positivo: significa que en realidad esta paciente expresa el antígeno D, aunque de forma débil, y por eso se maneja como Rh positiva, sin necesidad de Coombs seriado ni de anti-D. Es un dato que no está en los libros clásicos, pero que el banco real sí pregunta."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Con Coombs indirecto negativo, das la anti-D a las veintiocho semanas y otra vez tras el parto."
+      "text": "Y esta es del EUNACOM de diciembre de dos mil diecisiete. Un recién nacido de dieciocho horas de vida tiene ictericia hasta los muslos, con bilirrubina de quince coma tres, de predominio indirecto. La madre es de grupo O, Rh positiva; el niño es de grupo B, Rh negativo."
     },
     {
       "file": "s12_g01",
-      "text": "Con el Coombs positivo, nunca des la anti-D: ya está sensibilizada, y no sirve de nada."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
+      "text": "Las opciones: incompatibilidad de grupo clásico, incompatibilidad Rh, ictericia fisiológica, hepatitis neonatal, o ictericia por lactancia materna. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A. Fíjate bien en los grupos: la incompatibilidad Rh solo existe si la madre es Rh negativa y el hijo Rh positivo, y aquí es exactamente al revés. Lo que sí puede hemolizar es la incompatibilidad de grupo clásico, porque una madre de grupo O forma anticuerpos contra los hijos de grupo A o B."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Con Coombs indirecto negativo, das la anti-D a las veintiocho semanas y otra vez tras el parto."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Con el Coombs positivo, nunca des la anti-D: ya está sensibilizada, y no sirve de nada."
+    },
+    {
+      "file": "s13_g02",
       "text": "Y a la paciente sensibilizada la sigues con títulos de anticuerpos y Doppler de arteria cerebral media, con cordocentesis si la anemia es grave. Si te llevas una sola idea de hoy: el Coombs indirecto es el que decide todo, prevenir si es negativo, vigilar si es positivo. Nos vemos en la próxima clase."
     }
   ]

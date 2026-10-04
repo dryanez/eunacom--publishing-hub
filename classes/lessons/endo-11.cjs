@@ -251,6 +251,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La prueba de supresión',
+      images: [
+        { src: 'animaciones/endo-11/A1_supresion_dexa.mp4', label: 'Dexametasona', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Sano suprime, Cushing no',
+          say: 'Se da un miligramo de dexametasona a las once de la noche. En el sano, el cortisol de la mañana cae bajo uno coma ocho. En el Cushing no se suprime: esa barra roja que se mantiene alta es el diagnóstico.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El síndrome de Cushing',

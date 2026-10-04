@@ -2,7 +2,7 @@
   "id": "cirugia-04",
   "title": "Cirugia 11.4: Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
   "specialty": "Cirugía General",
-  "chars": 10692,
+  "chars": 10847,
   "segments": [
     {
       "file": "s00_g00",
@@ -130,99 +130,87 @@
     },
     {
       "file": "s08_g00",
-      "text": "La radiografía de pie muestra asas dilatadas con niveles hidroaéreos."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Y el vólvulo de sigmoides forma una gran asa en grano de café."
+      "text": "Antes del obstáculo se acumulan gas y líquido, y las asas se dilatan: eso son los niveles hidroaéreos. Después del obstáculo, el intestino queda colapsado."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora ordenemos todo en un solo árbol de decisión. Llega un paciente con el tetraedro clásico. Antes de pensar en la causa, revisa si hay algún signo de estrangulación."
+      "text": "La radiografía de pie muestra asas dilatadas con niveles hidroaéreos."
     },
     {
       "file": "s09_g01",
-      "text": "Cualquiera de estos signos cambia la conducta de inmediato, sin importar la causa."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Con signos de estrangulación, operas de inmediato: el asa ya está perdiendo su irrigación."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Sin estrangulación, ahora sí decides según dónde está el problema."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Sin estrangulación, el manejo de las bridas es conservador: sonda nasogástrica e hidratación, con vigilancia estricta."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Un vólvulo de sigmoides sin necrosis se resuelve endoscópicamente primero, dejando la sigmoidectomía para después."
-    },
-    {
-      "file": "s09_g06",
-      "text": "Antes de cerrar el diagnóstico en bridas, confirma que no se te escapó una hernia externa."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Una hernia inguinal, crural o umbilical atascada necesita cirugía urgente, con especial cuidado en la crural por su alto riesgo de necrosis."
+      "text": "Y el vólvulo de sigmoides forma una gran asa en grano de café."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas. Bridas sin estrangulación: sonda nasogástrica e hidratación, veinticuatro a cuarenta y ocho horas. Operar de inmediato, sin darle esa ventana, es intervencionismo de más."
+      "text": "Ahora ordenemos todo en un solo árbol de decisión. Llega un paciente con el tetraedro clásico. Antes de pensar en la causa, revisa si hay algún signo de estrangulación."
     },
     {
       "file": "s10_g01",
-      "text": "Vólvulo no complicado: desvolvulación endoscópica primero. Ir directo a cirugía, sin intentarlo, te suma una colostomía que se pudo evitar."
+      "text": "Cualquiera de estos signos cambia la conducta de inmediato, sin importar la causa."
     },
     {
       "file": "s10_g02",
-      "text": "Dolor continuo con fiebre y lactato alto: laparotomía urgente, sin demora. Seguir con sonda y suero cuando ya hay estrangulación es el error más grave de todo el tema."
+      "text": "Con signos de estrangulación, operas de inmediato: el asa ya está perdiendo su irrigación."
     },
     {
       "file": "s10_g03",
-      "text": "Y en una mujer mayor, sin cirugías previas, no asumas bridas: busca una hernia crural, que es más frecuente en mujeres y tiene alto riesgo de estrangularse."
+      "text": "Sin estrangulación, ahora sí decides según dónde está el problema."
     },
     {
       "file": "s10_g04",
-      "text": "Y con el ciego sobre diez a doce centímetros por un cáncer obstructivo: cirugía urgente o stent como puente. Esperar a que aparezca peritonitis para actuar es esperar a que ya haya perforado."
+      "text": "Sin estrangulación, el manejo de las bridas es conservador: sonda nasogástrica e hidratación, con vigilancia estricta."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Un vólvulo de sigmoides sin necrosis se resuelve endoscópicamente primero, dejando la sigmoidectomía para después."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Antes de cerrar el diagnóstico en bridas, confirma que no se te escapó una hernia externa."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Una hernia inguinal, crural o umbilical atascada necesita cirugía urgente, con especial cuidado en la crural por su alto riesgo de necrosis."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Hombre de sesenta y ocho años, operado del abdomen hace quince años, con dolor cólico, distensión y vómitos biliosos de veinte horas de evolución, sin eliminar gases ni deposiciones. Está afebril y estable, con ruidos hidroaéreos metálicos aumentados, sin signos de irritación peritoneal."
+      "text": "Repasemos las trampas. Bridas sin estrangulación: sonda nasogástrica e hidratación, veinticuatro a cuarenta y ocho horas. Operar de inmediato, sin darle esa ventana, es intervencionismo de más."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "Vólvulo no complicado: desvolvulación endoscópica primero. Ir directo a cirugía, sin intentarlo, te suma una colostomía que se pudo evitar."
     },
     {
       "file": "s11_g02",
-      "text": "Tienes cinco opciones: laparotomía de urgencia, sonda nasogástrica con hidratación y observación, colonoscopía descompresiva, enemas y laxantes, o antibióticos con alta ambulatoria. Piénsalo."
+      "text": "Dolor continuo con fiebre y lactato alto: laparotomía urgente, sin demora. Seguir con sonda y suero cuando ya hay estrangulación es el error más grave de todo el tema."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. El antecedente de cirugía abdominal apunta a bridas, y no hay ningún signo de estrangulación: está afebril, estable y sin peritonismo. El manejo inicial es conservador, con sonda nasogástrica e hidratación, dándole veinticuatro a cuarenta y ocho horas antes de pensar en cirugía. La colonoscopía no tiene ningún rol aquí, porque el problema está en el intestino delgado, no en el colon."
+      "text": "Y en una mujer mayor, sin cirugías previas, no asumas bridas: busca una hernia crural, que es más frecuente en mujeres y tiene alto riesgo de estrangularse."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y con el ciego sobre diez a doce centímetros por un cáncer obstructivo: cirugía urgente o stent como puente. Esperar a que aparezca peritonitis para actuar es esperar a que ya haya perforado."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Un paciente de sesenta años, operado hace tres años de una colecistectomía con exploración de la vía biliar, consulta por dolor cólico intenso y vómitos alimentarios, sin eliminar gases. Al examen, dolor difuso, ruidos hidroaéreos aumentados en intensidad y tono, con Blumberg presente."
+      "text": "Vamos con un caso. Hombre de sesenta y ocho años, operado del abdomen hace quince años, con dolor cólico, distensión y vómitos biliosos de veinte horas de evolución, sin eliminar gases ni deposiciones. Está afebril y estable, con ruidos hidroaéreos metálicos aumentados, sin signos de irritación peritoneal."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: obstrucción intestinal, trombosis venosa mesentérica, embolia mesentérica, pancreatitis, o diverticulitis. Piénsalo."
+      "text": "Tienes cinco opciones: laparotomía de urgencia, sonda nasogástrica con hidratación y observación, colonoscopía descompresiva, enemas y laxantes, o antibióticos con alta ambulatoria. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A. El antecedente de cirugía abdominal previa es la pista central: eso te lleva directo a pensar en bridas. Sumado al dolor cólico, los vómitos y la detención de gases, el cuadro es una obstrucción intestinal clásica, mucho más frecuente que cualquiera de los diagnósticos vasculares de las otras opciones. La trombosis y la embolia mesentérica suelen dar un dolor desproporcionado al examen, no este patrón de ruidos de lucha aumentados."
+      "text": "Es la B. El antecedente de cirugía abdominal apunta a bridas, y no hay ningún signo de estrangulación: está afebril, estable y sin peritonismo. El manejo inicial es conservador, con sonda nasogástrica e hidratación, dándole veinticuatro a cuarenta y ocho horas antes de pensar en cirugía. La colonoscopía no tiene ningún rol aquí, porque el problema está en el intestino delgado, no en el colon."
     },
     {
       "file": "s13_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de sesenta años, con un aumento de volumen en la cara anterior del muslo, a veces doloroso, junto con náuseas y dolor abdominal. Al examen, ese aumento de volumen está por debajo del ligamento inguinal."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Un paciente de sesenta años, operado hace tres años de una colecistectomía con exploración de la vía biliar, consulta por dolor cólico intenso y vómitos alimentarios, sin eliminar gases. Al examen, dolor difuso, ruidos hidroaéreos aumentados en intensidad y tono, con Blumberg presente."
     },
     {
       "file": "s13_g01",
@@ -230,22 +218,38 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: linfoma, hernia inguinal, adenopatía metastásica, hernia femoral, o sarcoma de partes blandas. Piénsalo."
+      "text": "Las opciones son: obstrucción intestinal, trombosis venosa mesentérica, embolia mesentérica, pancreatitis, o diverticulitis. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D, hernia femoral. La ubicación es la clave: por debajo del ligamento inguinal, no sobre él como la inguinal. Súmale que es mujer y que tiene síntomas de obstrucción, y el diagnóstico queda prácticamente cerrado. Acuérdate de esta hernia: es la que tiene más riesgo de estrangularse de todas."
+      "text": "Es la A. El antecedente de cirugía abdominal previa es la pista central: eso te lleva directo a pensar en bridas. Sumado al dolor cólico, los vómitos y la detención de gases, el cuadro es una obstrucción intestinal clásica, mucho más frecuente que cualquiera de los diagnósticos vasculares de las otras opciones. La trombosis y la embolia mesentérica suelen dar un dolor desproporcionado al examen, no este patrón de ruidos de lucha aumentados."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. En el intestino delgado, piensa primero en bridas, y luego en hernias. En el colon, piensa primero en cáncer, y luego en vólvulo."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de sesenta años, con un aumento de volumen en la cara anterior del muslo, a veces doloroso, junto con náuseas y dolor abdominal. Al examen, ese aumento de volumen está por debajo del ligamento inguinal."
     },
     {
       "file": "s14_g01",
-      "text": "Bridas sin estrangulación: sonda nasogástrica y sueros. Vólvulo sin necrosis: desvolvulación endoscópica primero."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
+      "text": "Las opciones son: linfoma, hernia inguinal, adenopatía metastásica, hernia femoral, o sarcoma de partes blandas. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la D, hernia femoral. La ubicación es la clave: por debajo del ligamento inguinal, no sobre él como la inguinal. Súmale que es mujer y que tiene síntomas de obstrucción, y el diagnóstico queda prácticamente cerrado. Acuérdate de esta hernia: es la que tiene más riesgo de estrangularse de todas."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. En el intestino delgado, piensa primero en bridas, y luego en hernias. En el colon, piensa primero en cáncer, y luego en vólvulo."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Bridas sin estrangulación: sonda nasogástrica y sueros. Vólvulo sin necrosis: desvolvulación endoscópica primero."
+    },
+    {
+      "file": "s15_g02",
       "text": "Y ante dolor continuo, fiebre, peritonismo o lactato alto, no hay plazo que valga: laparotomía de urgencia. Si te llevas una sola idea de hoy: el tiempo es tu aliado sin estrangulación, y tu enemigo apenas aparece. Nos vemos en la próxima clase."
     }
   ]

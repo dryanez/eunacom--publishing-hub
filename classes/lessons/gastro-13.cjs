@@ -156,6 +156,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El camino de la bilirrubina',
+      images: [
+        { src: 'animaciones/gastro-13/A1_camino_bilirrubina.mp4', label: 'Dónde se corta', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Tres tipos de ictericia',
+          say: 'La bilirrubina viaja del glóbulo rojo a la sangre, el hígado la conjuga y sale por la bilis al intestino. Si el problema es antes del hígado, sube la indirecta; si es en el hígado, suben ambas; y si se obstruye la vía biliar, sube la directa, con coluria y acolia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Colédoco dilatado',
       images: [

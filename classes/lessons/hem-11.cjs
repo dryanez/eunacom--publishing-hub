@@ -138,6 +138,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Qué mide cada examen',
+      images: [
+        { src: 'animaciones/hem-11/A1_cascada_tp.mp4', label: 'TP', credit: 'Animación propia' },
+        { src: 'animaciones/hem-11/A2_cascada_ttpa.mp4', label: 'TTPA', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Vía extrínseca y común',
+          say: 'El TP recorre el factor siete y la vía común. Por eso lo prolonga la warfarina y el daño hepático.' },
+        { note: 'Vía intrínseca y común',
+          say: 'El TTPA recorre la vía intrínseca y la común. Lo prolonga la heparina no fraccionada y la hemofilia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Cascada de la coagulación',

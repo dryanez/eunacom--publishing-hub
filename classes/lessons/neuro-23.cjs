@@ -157,6 +157,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/neuro-23/A1_fractura_cadera_3d.mp4', label: 'Fractura de cadera', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Acortada y en rotación externa',
+          say: 'Al fracturarse el cuello femoral, los músculos tiran del fémur hacia arriba y lo rotan: la pierna queda más corta y el pie mira hacia afuera.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Fractura de cadera',

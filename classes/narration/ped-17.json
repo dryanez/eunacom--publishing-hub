@@ -2,7 +2,7 @@
   "id": "ped-17",
   "title": "Pediatria 18.17: Ictericia Neonatal: Fisiológica vs Patológica (< 24 h), Incompatibilidad ABO/Rh, Curvas Bhutani y Fototerapia",
   "specialty": "Pediatría",
-  "chars": 13121,
+  "chars": 13383,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,95 +110,87 @@
     },
     {
       "file": "s07_g00",
-      "text": "El nomograma de Bhutani ubica la bilirrubina según las horas de vida. Toda ictericia antes de las veinticuatro horas es patológica."
+      "text": "La ictericia fisiológica aparece después de las veinticuatro horas, sube lento y se queda en la zona de bajo riesgo."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La patológica aparece antes de las veinticuatro horas y sube rápido, cruzando a la zona de alto riesgo. Obliga a fototerapia y a buscar hemólisis."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aquí tienes el recién nacido con ictericia visible. Evalúas la zona de Kramer y las horas de vida, y eso te lleva a la pregunta que ordena todo el tema."
-    },
-    {
-      "file": "s08_g01",
-      "text": "La pregunta es cuándo empezó. Antes de las veinticuatro horas, entre el segundo y el décimo día, o después de las dos semanas: cada momento te lleva a un lugar distinto."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Antes de las veinticuatro horas es patológica y hemolítica hasta que la descartes. Pides Coombs directo, hemograma y bilirrubina de urgencia, y casi siempre entra directo a fototerapia."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Entre el segundo y el décimo día, lo esperable es que sea fisiológica. Para decidir si necesita tratamiento, ubicas la bilirrubina en el nomograma de Bhutani, cruzando el valor con las horas de vida exactas."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Si cae en la zona de bajo riesgo, no hay nada que hacer más que reforzar la lactancia y controlar de forma ambulatoria."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si cae en la zona de alto riesgo, inicias fototerapia con luz azul de forma continua, y controlas la respuesta con bilirrubinas seriadas."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Y si la fototerapia falla, o el paciente muestra un signo precoz de encefalopatía aguda como el llanto agudo o el opistótonos, la conducta es la exanguinotransfusión, recambiando dos volemias completas."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Y la última rama, la que más se te puede pasar: si la ictericia se mantiene después de las dos semanas, con bilirrubina directa alta, acolia y coluria, ya no piensas en fisiológico. Piensas en atresia de vías biliares y derivas para cirugía."
+      "text": "El nomograma de Bhutani ubica la bilirrubina según las horas de vida. Toda ictericia antes de las veinticuatro horas es patológica."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas que más se repiten. Ictericia antes de las veinticuatro horas: hospitalizas y estudias hemólisis de inmediato. El error es esperar a ver si se comporta como fisiológica."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aquí tienes el recién nacido con ictericia visible. Evalúas la zona de Kramer y las horas de vida, y eso te lleva a la pregunta que ordena todo el tema."
     },
     {
       "file": "s09_g01",
-      "text": "Madre Rh positiva e hijo Rh negativo: ahí no hay incompatibilidad Rh, porque quien se sensibiliza es siempre la madre Rh negativa frente a un hijo Rh positivo."
+      "text": "La pregunta es cuándo empezó. Antes de las veinticuatro horas, entre el segundo y el décimo día, o después de las dos semanas: cada momento te lleva a un lugar distinto."
     },
     {
       "file": "s09_g02",
-      "text": "Ictericia fisiológica en un bebé sano y activo: refuerzas la lactancia y controlas de forma ambulatoria. Pedir un estudio completo de hemólisis, sin ningún signo de alarma, solo retrasa el alta."
+      "text": "Antes de las veinticuatro horas es patológica y hemolítica hasta que la descartes. Pides Coombs directo, hemograma y bilirrubina de urgencia, y casi siempre entra directo a fototerapia."
     },
     {
       "file": "s09_g03",
-      "text": "Ictericia por leche materna, con el bebé subiendo de peso: tranquilizas a los padres y mantienes la lactancia. Suspender el pecho es la respuesta incorrecta más clásica de esta parte."
+      "text": "Entre el segundo y el décimo día, lo esperable es que sea fisiológica. Para decidir si necesita tratamiento, ubicas la bilirrubina en el nomograma de Bhutani, cruzando el valor con las horas de vida exactas."
     },
     {
       "file": "s09_g04",
-      "text": "Y la última: acolia y coluria. Derivas urgente para estudio de vía biliar y eventual cirugía de Kasai. Confundirla con ictericia por leche materna, solo porque el bebé se ve bien, es el error que más cuesta caro en este tema."
+      "text": "Si cae en la zona de bajo riesgo, no hay nada que hacer más que reforzar la lactancia y controlar de forma ambulatoria."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si cae en la zona de alto riesgo, inicias fototerapia con luz azul de forma continua, y controlas la respuesta con bilirrubinas seriadas."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y si la fototerapia falla, o el paciente muestra un signo precoz de encefalopatía aguda como el llanto agudo o el opistótonos, la conducta es la exanguinotransfusión, recambiando dos volemias completas."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Y la última rama, la que más se te puede pasar: si la ictericia se mantiene después de las dos semanas, con bilirrubina directa alta, acolia y coluria, ya no piensas en fisiológico. Piensas en atresia de vías biliares y derivas para cirugía."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Recién nacido de dieciséis horas de vida, de término, vigoroso, con ictericia marcada en la cara, el tronco y el abdomen. La madre es primeriza, grupo O Rh positivo; el recién nacido es grupo A Rh positivo. La bilirrubina total es de nueve coma dos, con bilirrubina directa de cero coma cuatro. El hematocrito es cuarenta y cuatro por ciento."
+      "text": "Repasemos las trampas que más se repiten. Ictericia antes de las veinticuatro horas: hospitalizas y estudias hemólisis de inmediato. El error es esperar a ver si se comporta como fisiológica."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Madre Rh positiva e hijo Rh negativo: ahí no hay incompatibilidad Rh, porque quien se sensibiliza es siempre la madre Rh negativa frente a un hijo Rh positivo."
     },
     {
       "file": "s10_g02",
-      "text": "Tienes cinco opciones: dar de alta con control en siete días, hospitalizar con fototerapia y Coombs directo, suspender la lactancia por cuarenta y ocho horas, pedir una ecografía abdominal, o indicar fenobarbital. Tómate unos segundos."
+      "text": "Ictericia fisiológica en un bebé sano y activo: refuerzas la lactancia y controlas de forma ambulatoria. Pedir un estudio completo de hemólisis, sin ningún signo de alarma, solo retrasa el alta."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la B. Dieciséis horas de vida es antes de las veinticuatro: patológica hasta que la descartes. Y la combinación madre O con hijo A apunta a incompatibilidad ABO. A esa hora de vida, ese valor de bilirrubina ya está en zona de alto riesgo. Hospitalizas, inicias fototerapia y pides el Coombs directo. Dar de alta ignora la regla de las veinticuatro horas, y ni la ecografía ni el fenobarbital tienen espacio aquí."
+      "text": "Ictericia por leche materna, con el bebé subiendo de peso: tranquilizas a los padres y mantienes la lactancia. Suspender el pecho es la respuesta incorrecta más clásica de esta parte."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y la última: acolia y coluria. Derivas urgente para estudio de vía biliar y eventual cirugía de Kasai. Confundirla con ictericia por leche materna, solo porque el bebé se ve bien, es el error que más cuesta caro en este tema."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Recién nacido de dieciocho horas de vida, con ictericia hasta los muslos. La bilirrubina total es quince coma tres, casi toda indirecta. La madre es grupo O Rh positivo, y el niño es grupo B Rh negativo."
+      "text": "Vamos con un caso. Recién nacido de dieciséis horas de vida, de término, vigoroso, con ictericia marcada en la cara, el tronco y el abdomen. La madre es primeriza, grupo O Rh positivo; el recién nacido es grupo A Rh positivo. La bilirrubina total es de nueve coma dos, con bilirrubina directa de cero coma cuatro. El hematocrito es cuarenta y cuatro por ciento."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: incompatibilidad de grupo clásico, incompatibilidad Rh, ictericia fisiológica, hepatitis neonatal, o síndrome de Gilbert."
+      "text": "Tienes cinco opciones: dar de alta con control en siete días, hospitalizar con fototerapia y Coombs directo, suspender la lactancia por cuarenta y ocho horas, pedir una ecografía abdominal, o indicar fenobarbital. Tómate unos segundos."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. Dieciocho horas de vida ya es patológica, y madre O con hijo B calza exacto con incompatibilidad ABO. Fíjate en el distractor: para que exista incompatibilidad Rh, la madre tiene que ser Rh negativo y el hijo Rh positivo. Aquí es justo al revés, la madre es Rh positivo y el hijo Rh negativo, así que esa opción queda descartada solo por los grupos, sin necesitar ningún otro dato."
+      "text": "La respuesta es la B. Dieciséis horas de vida es antes de las veinticuatro: patológica hasta que la descartes. Y la combinación madre O con hijo A apunta a incompatibilidad ABO. A esa hora de vida, ese valor de bilirrubina ya está en zona de alto riesgo. Hospitalizas, inicias fototerapia y pides el Coombs directo. Dar de alta ignora la regla de las veinticuatro horas, y ni la ecografía ni el fenobarbital tienen espacio aquí."
     },
     {
       "file": "s12_g00",
-      "text": "Esta es del EUNACOM de julio de dos mil diecisiete. Lactante de cinco días de vida, con lactancia materna exclusiva, que presenta ictericia en la cara y el tronco desde hace dos días. La bilirrubina total es diez, casi toda indirecta, y el hematocrito es cincuenta y seis por ciento."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Recién nacido de dieciocho horas de vida, con ictericia hasta los muslos. La bilirrubina total es quince coma tres, casi toda indirecta. La madre es grupo O Rh positivo, y el niño es grupo B Rh negativo."
     },
     {
       "file": "s12_g01",
@@ -206,15 +198,15 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: hepatitis neonatal, atresia biliar primaria, ictericia fisiológica, ictericia hemolítica, o ictericia por leche materna. Piénsalo."
+      "text": "Las opciones: incompatibilidad de grupo clásico, incompatibilidad Rh, ictericia fisiológica, hepatitis neonatal, o síndrome de Gilbert."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, ictericia fisiológica. La ictericia empezó al tercer día, con bilirrubina indirecta moderada y directa normal: ese es el patrón esperado. El hematocrito alto puede sonar alarmante, pero es parte normal del recién nacido, no un signo de hemólisis por sí solo. Y para que fuera atresia biliar necesitarías bilirrubina directa alta, que aquí no existe."
+      "text": "Es la A. Dieciocho horas de vida ya es patológica, y madre O con hijo B calza exacto con incompatibilidad ABO. Fíjate en el distractor: para que exista incompatibilidad Rh, la madre tiene que ser Rh negativo y el hijo Rh positivo. Aquí es justo al revés, la madre es Rh positivo y el hijo Rh negativo, así que esa opción queda descartada solo por los grupos, sin necesitar ningún otro dato."
     },
     {
       "file": "s13_g00",
-      "text": "Ahora una del EUNACOM de diciembre de dos mil dieciocho. Niño de seis semanas de vida, con ictericia desde hace dos semanas, y deposiciones claras en el pañal, sin ningún otro hallazgo."
+      "text": "Esta es del EUNACOM de julio de dos mil diecisiete. Lactante de cinco días de vida, con lactancia materna exclusiva, que presenta ictericia en la cara y el tronco desde hace dos días. La bilirrubina total es diez, casi toda indirecta, y el hematocrito es cincuenta y seis por ciento."
     },
     {
       "file": "s13_g01",
@@ -222,50 +214,66 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: estenosis hipertrófica del píloro, atresia biliar primaria, hepatitis viral, síndrome de Crigler Najjar, o hipotiroidismo congénito. Piénsalo."
+      "text": "Las opciones: hepatitis neonatal, atresia biliar primaria, ictericia fisiológica, ictericia hemolítica, o ictericia por leche materna. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. La palabra clave del enunciado es una sola: deposiciones claras, que es la acolia. Ninguna otra opción explica que la bilis no esté llegando al intestino. Con ictericia tardía y acolia, la sospecha obligatoria es atresia de vías biliares, y necesita estudio y cirugía urgente."
+      "text": "Es la C, ictericia fisiológica. La ictericia empezó al tercer día, con bilirrubina indirecta moderada y directa normal: ese es el patrón esperado. El hematocrito alto puede sonar alarmante, pero es parte normal del recién nacido, no un signo de hemólisis por sí solo. Y para que fuera atresia biliar necesitarías bilirrubina directa alta, que aquí no existe."
     },
     {
       "file": "s14_g00",
-      "text": "Una pregunta que se trata sobre el orden de los exámenes, del EUNACOM de julio de dos mil trece. Lactante de un mes, sin antecedentes, con ictericia hasta los muslos, con desarrollo, crecimiento y alimentación normales. Al preguntar directamente, la madre cuenta que también ha notado orinas oscuras."
+      "text": "Ahora una del EUNACOM de diciembre de dos mil dieciocho. Niño de seis semanas de vida, con ictericia desde hace dos semanas, y deposiciones claras en el pañal, sin ningún otro hallazgo."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el examen de elección frente a este paciente?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: ecografía abdominal, hormona estimulante de la tiroides, resonancia magnética abdominal, test de Coombs, o bilirrubinemia diferenciada. Piénsalo."
+      "text": "Las opciones: estenosis hipertrófica del píloro, atresia biliar primaria, hepatitis viral, síndrome de Crigler Najjar, o hipotiroidismo congénito. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la E. Las orinas oscuras te hacen sospechar colestasia, igual que en los casos anteriores. Pero fíjate en el orden: antes de pedir una imagen, el primer paso siempre es confirmar con el laboratorio que el componente directo está elevado. Recién con la bilirrubina diferenciada alterada, avanzas a la ecografía. Pedir la ecografía de entrada es saltarse un paso."
+      "text": "Es la B. La palabra clave del enunciado es una sola: deposiciones claras, que es la acolia. Ninguna otra opción explica que la bilis no esté llegando al intestino. Con ictericia tardía y acolia, la sospecha obligatoria es atresia de vías biliares, y necesita estudio y cirugía urgente."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. Antes de las veinticuatro horas, es patológica y hemolítica hasta que la descartes."
+      "text": "Una pregunta que se trata sobre el orden de los exámenes, del EUNACOM de julio de dos mil trece. Lactante de un mes, sin antecedentes, con ictericia hasta los muslos, con desarrollo, crecimiento y alimentación normales. Al preguntar directamente, la madre cuenta que también ha notado orinas oscuras."
     },
     {
       "file": "s15_g01",
-      "text": "Después de las veinticuatro horas, y con el bebé de buen aspecto, es fisiológica."
+      "text": "¿Cuál es el examen de elección frente a este paciente?"
     },
     {
       "file": "s15_g02",
-      "text": "La incompatibilidad ABO es la más frecuente, puede darse desde el primer hijo, y suele ser leve."
+      "text": "Las opciones: ecografía abdominal, hormona estimulante de la tiroides, resonancia magnética abdominal, test de Coombs, o bilirrubinemia diferenciada. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la E. Las orinas oscuras te hacen sospechar colestasia, igual que en los casos anteriores. Pero fíjate en el orden: antes de pedir una imagen, el primer paso siempre es confirmar con el laboratorio que el componente directo está elevado. Recién con la bilirrubina diferenciada alterada, avanzas a la ecografía. Pedir la ecografía de entrada es saltarse un paso."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Antes de las veinticuatro horas, es patológica y hemolítica hasta que la descartes."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Después de las veinticuatro horas, y con el bebé de buen aspecto, es fisiológica."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La incompatibilidad ABO es la más frecuente, puede darse desde el primer hijo, y suele ser leve."
+    },
+    {
+      "file": "s16_g03",
       "text": "La incompatibilidad Rh necesita un embarazo previo que sensibilice a la madre, y cuando aparece es grave."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "El nomograma de Bhutani, cruzando el valor con la hora de vida, es lo que decide si vas a fototerapia."
     },
     {
-      "file": "s15_g05",
+      "file": "s16_g05",
       "text": "Y si ves acolia y coluria, olvídate de causas benignas: sospecha atresia de vías biliares y deriva rápido. Si te llevas una sola idea de hoy: antes de las veinticuatro horas es hemólisis, después de las dos semanas con acolia es atresia biliar, y todo lo del medio se decide con Bhutani. Nos vemos en la próxima clase."
     }
   ]

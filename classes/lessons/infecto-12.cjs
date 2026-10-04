@@ -166,6 +166,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las etapas y la serología',
+      images: [
+        { src: 'animaciones/infecto-12/A1_sifilis_serologia.mp4', label: 'VDRL y treponémicas', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Una cae, la otra queda',
+          say: 'La prueba treponémica se hace positiva y queda así de por vida. El VDRL sigue la actividad: sube en la secundaria y cae tras la penicilina. La curación se define cuando cae cuatro veces.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Sífilis',

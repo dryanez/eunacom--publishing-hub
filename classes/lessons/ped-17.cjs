@@ -195,6 +195,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La bilirrubina en el nomograma',
+      images: [
+        { src: 'animaciones/ped-17/A1_bhutani_fisiologica.mp4', label: 'Fisiológica', credit: 'Animación propia' },
+        { src: 'animaciones/ped-17/A2_bhutani_patologica.mp4', label: 'Patológica', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Después de las veinticuatro horas',
+          say: 'La ictericia fisiológica aparece después de las veinticuatro horas, sube lento y se queda en la zona de bajo riesgo.' },
+        { note: 'Antes de las veinticuatro horas',
+          say: 'La patológica aparece antes de las veinticuatro horas y sube rápido, cruzando a la zona de alto riesgo. Obliga a fototerapia y a buscar hemólisis.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Ictericia neonatal',

@@ -125,6 +125,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/ob-16/A1_mecanismo_parto_3d.mp4', label: 'Mecanismo del parto', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Seis movimientos',
+          say: 'La cabeza se encaja en transversa, desciende y se flecta, rota hasta quedar con el occipucio adelante, se extiende bajo el pubis y, una vez afuera, rota de nuevo para alinearse con los hombros.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',

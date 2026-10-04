@@ -134,6 +134,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo se cierra el ángulo',
+      images: [
+        { src: 'animaciones/oftal-06/A1_cierre_angulo.mp4', label: 'Cierre angular', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La presión sube en horas',
+          say: 'El iris se abomba hacia adelante y tapa la malla trabecular. El humor acuoso ya no drena, y la presión sube en horas: dolor, ojo rojo y pupila media fija.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Glaucoma agudo',
       images: [

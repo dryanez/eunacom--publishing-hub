@@ -167,6 +167,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Coagula en todo, sangra en todo',
+      images: [
+        { src: 'animaciones/hem-15/A1_cid.mp4', label: 'Consumo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Plaquetas y fibrinógeno caen',
+          say: 'Mira cómo se forman microtrombos en los vasos pequeños. Para hacerlos se gastan las plaquetas y el fibrinógeno, y cuando se acaban, el paciente empieza a sangrar por todas partes.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Coagulación intravascular diseminada',
       images: [

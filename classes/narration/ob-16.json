@@ -2,7 +2,7 @@
   "id": "ob-16",
   "title": "Obstetricia 19.16: Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
   "specialty": "Obstetricia",
-  "chars": 8479,
+  "chars": 8672,
   "segments": [
     {
       "file": "s00_g00",
@@ -98,67 +98,55 @@
     },
     {
       "file": "s05_g00",
-      "text": "La variedad de posición se determina palpando las fontanelas."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Y el partograma registra la dilatación. Si cruza la línea de alerta, el parto se está prolongando."
+      "text": "La cabeza se encaja en transversa, desciende y se flecta, rota hasta quedar con el occipucio adelante, se extiende bajo el pubis y, una vez afuera, rota de nuevo para alinearse con los hombros."
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos el score de Bishop y el alumbramiento en un solo árbol. Antes de cualquier inducción, evalúas el cuello con el score de Bishop, porque de eso depende el fármaco."
+      "text": "La variedad de posición se determina palpando las fontanelas."
     },
     {
       "file": "s06_g01",
-      "text": "Con un cuello inmaduro, Bishop de seis o menos, primero maduras con misoprostol vaginal o un balón cervical. Recién después pasas a la oxitocina."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Con un cuello ya maduro, Bishop mayor a seis, vas directo con oxitocina en infusión continua."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Y en cualquiera de los dos caminos, al nacer el niño, el manejo activo del alumbramiento es obligatorio: oxitocina tras el hombro anterior, tracción controlada del cordón, y masaje uterino cada quince minutos."
+      "text": "Y el partograma registra la dilatación. Si cruza la línea de alerta, el parto se está prolongando."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos el score de Bishop, parámetro por parámetro. Dilatación: cerrado es cero, tres a cuatro centímetros son dos puntos, cinco o más son tres puntos."
+      "text": "Ahora juntemos el score de Bishop y el alumbramiento en un solo árbol. Antes de cualquier inducción, evalúas el cuello con el score de Bishop, porque de eso depende el fármaco."
     },
     {
       "file": "s07_g01",
-      "text": "Borramiento: bajo treinta por ciento es cero, sesenta a setenta son dos puntos, ochenta o más son tres."
+      "text": "Con un cuello inmaduro, Bishop de seis o menos, primero maduras con misoprostol vaginal o un balón cervical. Recién después pasas a la oxitocina."
     },
     {
       "file": "s07_g02",
-      "text": "Altura de la presentación: móvil y alta es cero, encajada son dos puntos, muy descendida son tres."
+      "text": "Con un cuello ya maduro, Bishop mayor a seis, vas directo con oxitocina en infusión continua."
     },
     {
       "file": "s07_g03",
-      "text": "Consistencia: firme es cero, blanda son dos puntos. Este parámetro no llega a tres."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Y posición: posterior es cero, anterior son dos puntos. Suma los cinco, y ese total te dice si induces directo o maduras primero."
+      "text": "Y en cualquiera de los dos caminos, al nacer el niño, el manejo activo del alumbramiento es obligatorio: oxitocina tras el hombro anterior, tracción controlada del cordón, y masaje uterino cada quince minutos."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Primigesta de cuarenta y una semanas, que ingresa para interrupción programada. El feto pesa un estimado de tres mil cuatrocientos gramos y está reactivo. Al tacto vaginal, el cuello está posterior, firme, sin ningún borramiento, cerrado, y la cabeza fetal todavía está móvil, sin encajar. El score de Bishop da cero puntos, y el interno sugiere partir de inmediato con oxitocina."
+      "text": "Repasemos el score de Bishop, parámetro por parámetro. Dilatación: cerrado es cero, tres a cuatro centímetros son dos puntos, cinco o más son tres puntos."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Borramiento: bajo treinta por ciento es cero, sesenta a setenta son dos puntos, ochenta o más son tres."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: iniciar oxitocina como propone el interno, madurar el cuello con misoprostol o un balón, hacer amniotomía antes de cualquier fármaco, indicar cesárea electiva sin intentar la inducción, o dar tocolíticos y reevaluar en una semana. Piénsalo."
+      "text": "Altura de la presentación: móvil y alta es cero, encajada son dos puntos, muy descendida son tres."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Con un Bishop de cero, el cuello está completamente inmaduro, y la sugerencia del interno es exactamente el error del examen: inducir directo con oxitocina fracasaría en la gran mayoría de los casos y terminaría en una cesárea evitable. Primero maduras el cuello con misoprostol o un balón cervical, y solo cuando el Bishop suba sobre seis, recién ahí pasas a la oxitocina."
+      "text": "Consistencia: firme es cero, blanda son dos puntos. Este parámetro no llega a tres."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y posición: posterior es cero, anterior son dos puntos. Suma los cinco, y ese total te dice si induces directo o maduras primero."
     },
     {
       "file": "s09_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de treinta y cuatro años, con su primer embarazo de treinta y seis semanas, con salida de líquido por los genitales. La especuloscopía no muestra salida por el cuello, y al tacto el cuello está posterior, duro, cerrado y sin borramiento. La ecografía muestra oligoamnios."
+      "text": "Vamos con un caso. Primigesta de cuarenta y una semanas, que ingresa para interrupción programada. El feto pesa un estimado de tres mil cuatrocientos gramos y está reactivo. Al tacto vaginal, el cuello está posterior, firme, sin ningún borramiento, cerrado, y la cabeza fetal todavía está móvil, sin encajar. El score de Bishop da cero puntos, y el interno sugiere partir de inmediato con oxitocina."
     },
     {
       "file": "s09_g01",
@@ -166,15 +154,15 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: antibióticos con conducta expectante, inducir con misoprostol, hacer una cesárea, inducir con oxitocina, o pedir un perfil biofísico. Piénsalo."
+      "text": "Las opciones: iniciar oxitocina como propone el interno, madurar el cuello con misoprostol o un balón, hacer amniotomía antes de cualquier fármaco, indicar cesárea electiva sin intentar la inducción, o dar tocolíticos y reevaluar en una semana. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Es una rotura de membranas de treinta y seis semanas, que ya se debe interrumpir, pero el cuello posterior, duro y sin dilatación te da un Bishop bajo. Con ese cuello malo, la oxitocina sola no sirve, así que se induce con misoprostol, que madura el cuello y desencadena el parto al mismo tiempo."
+      "text": "Es la B. Con un Bishop de cero, el cuello está completamente inmaduro, y la sugerencia del interno es exactamente el error del examen: inducir directo con oxitocina fracasaría en la gran mayoría de los casos y terminaría en una cesárea evitable. Primero maduras el cuello con misoprostol o un balón cervical, y solo cuando el Bishop suba sobre seis, recién ahí pasas a la oxitocina."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticinco. Embarazada de treinta y nueve semanas, en fase activa desde hace cuatro horas, con la dilatación detenida en cinco centímetros, con dinámica uterina regular y la presentación ya encajada."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de treinta y cuatro años, con su primer embarazo de treinta y seis semanas, con salida de líquido por los genitales. La especuloscopía no muestra salida por el cuello, y al tacto el cuello está posterior, duro, cerrado y sin borramiento. La ecografía muestra oligoamnios."
     },
     {
       "file": "s10_g01",
@@ -182,38 +170,54 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: fórceps, conducción con oxitocina, esperar dos horas más en observación, cesárea de urgencia, o vacuum extractor. Piénsalo."
+      "text": "Las opciones: antibióticos con conducta expectante, inducir con misoprostol, hacer una cesárea, inducir con oxitocina, o pedir un perfil biofísico. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, conducción con oxitocina. La fase activa se detuvo, pero la dinámica uterina todavía no es suficiente, y no hay sufrimiento fetal ni desproporción evidente. Antes de saltar a una cesárea, se intenta primero mejorar las contracciones con oxitocina en goteo."
+      "text": "Es la B. Es una rotura de membranas de treinta y seis semanas, que ya se debe interrumpir, pero el cuello posterior, duro y sin dilatación te da un Bishop bajo. Con ese cuello malo, la oxitocina sola no sirve, así que se induce con misoprostol, que madura el cuello y desencadena el parto al mismo tiempo."
     },
     {
       "file": "s11_g00",
-      "text": "Una última pregunta, del banco EUNACOM. Durante un parto vaginal normal, se produce el desprendimiento del hombro anterior del feto."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticinco. Embarazada de treinta y nueve semanas, en fase activa desde hace cuatro horas, con la dilatación detenida en cinco centímetros, con dinámica uterina regular y la presentación ya encajada."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el paso inicial del manejo activo del alumbramiento?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: metilergonovina tras la placenta completa, oxitocina intramuscular de inmediato, traccionar el cordón antes de que el útero se contraiga, esperar la salida espontánea, o misoprostol rectal antes del expulsivo. Piénsalo."
+      "text": "Las opciones: fórceps, conducción con oxitocina, esperar dos horas más en observación, cesárea de urgencia, o vacuum extractor. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. El primer paso del manejo activo es la oxitocina intramuscular, justo tras la salida del hombro anterior. Traccionar el cordón sin que el útero esté contraído es peligroso, porque puede provocar una inversión uterina, y esperar sin hacer nada es el manejo expectante, que no se recomienda."
+      "text": "Es la B, conducción con oxitocina. La fase activa se detuvo, pero la dinámica uterina todavía no es suficiente, y no hay sufrimiento fetal ni desproporción evidente. Antes de saltar a una cesárea, se intenta primero mejorar las contracciones con oxitocina en goteo."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. La fase activa empieza a los cinco centímetros, con un avance de al menos un centímetro por hora."
+      "text": "Una última pregunta, del banco EUNACOM. Durante un parto vaginal normal, se produce el desprendimiento del hombro anterior del feto."
     },
     {
       "file": "s12_g01",
-      "text": "Con Bishop de seis o menos, primero maduras el cuello. Con Bishop mayor a seis, vas directo con oxitocina."
+      "text": "¿Cuál es el paso inicial del manejo activo del alumbramiento?"
     },
     {
       "file": "s12_g02",
+      "text": "Las opciones: metilergonovina tras la placenta completa, oxitocina intramuscular de inmediato, traccionar el cordón antes de que el útero se contraiga, esperar la salida espontánea, o misoprostol rectal antes del expulsivo. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. El primer paso del manejo activo es la oxitocina intramuscular, justo tras la salida del hombro anterior. Traccionar el cordón sin que el útero esté contraído es peligroso, porque puede provocar una inversión uterina, y esperar sin hacer nada es el manejo expectante, que no se recomienda."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La fase activa empieza a los cinco centímetros, con un avance de al menos un centímetro por hora."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Con Bishop de seis o menos, primero maduras el cuello. Con Bishop mayor a seis, vas directo con oxitocina."
+    },
+    {
+      "file": "s13_g02",
       "text": "Y el manejo activo del alumbramiento, con oxitocina, tracción controlada y masaje, es obligatorio en todo parto. Si te llevas una sola idea de hoy: el cuello decide cómo induces, y el manejo activo del alumbramiento nunca es opcional. Nos vemos en la próxima clase."
     }
   ]

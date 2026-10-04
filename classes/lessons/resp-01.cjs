@@ -120,6 +120,26 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las tres curvas, dibujándose',
+      images: [
+        { src: 'animaciones/resp-01/A1_fv_normal.mp4', label: 'Normal', credit: 'Animación propia' },
+        { src: 'animaciones/resp-01/A2_fv_obstructiva.mp4', label: 'Obstructiva', credit: 'Animación propia' },
+        { src: 'animaciones/resp-01/A3_fv_restrictiva.mp4', label: 'Restrictiva', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Pico rápido y bajada recta',
+          say: 'Mira cómo se dibuja la curva normal: el flujo sube muy rápido a un pico, y después baja en línea recta hasta vaciar el pulmón. Abajo, la inspiración forma un semicírculo.' },
+        { note: 'La bajada se excava',
+          say: 'En la obstrucción el pico es más bajo y la rama de bajada se hunde hacia adentro, como una cuchara. Esa concavidad es la vía aérea que se cierra antes de tiempo.' },
+        { note: 'Forma normal, más pequeña',
+          say: 'En la restricción la forma se conserva, pero toda la curva es más pequeña: el pulmón no se llena. La capacidad vital forzada está baja.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Las curvas flujo-volumen',

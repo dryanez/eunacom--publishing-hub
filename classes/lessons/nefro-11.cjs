@@ -229,6 +229,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los gases, paso a paso',
+      images: [
+        { src: 'animaciones/nefro-11/A1_gases_pasos.mp4', label: 'Cuatro pasos', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'pH, bicarbonato, Winter, anión gap',
+          say: 'Primero el pH: siete veinticinco es acidemia. El bicarbonato bajo dice que es metabólica. La fórmula de Winter predice una pCO dos de veintiuno a veinticinco, y está en veintitrés: compensada. Y el anión gap de veinticinco es alto.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, como vas a leer cualquier gas con acidosis metabólica.',
     },

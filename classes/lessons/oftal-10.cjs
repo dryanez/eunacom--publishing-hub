@@ -122,6 +122,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Lo que ve el paciente',
+      images: [
+        { src: 'animaciones/oftal-10/A1_campo_visual.mp4', label: 'La secuencia', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Moscas, destellos, cortina',
+          say: 'Primero aparecen moscas volantes, después destellos de luz, y luego una cortina oscura que avanza desde un borde. Esa secuencia es un desprendimiento de retina: se deriva el mismo día.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Desprendimiento de retina',

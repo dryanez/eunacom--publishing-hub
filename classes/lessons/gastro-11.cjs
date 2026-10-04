@@ -166,6 +166,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De adenoma a cáncer',
+      images: [
+        { src: 'animaciones/gastro-11/A1_adenoma_carcinoma.mp4', label: 'Unos diez años', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Por eso se tamiza',
+          say: 'Mira cómo la mucosa normal forma un adenoma que crece, se vuelve velloso, adquiere displasia y finalmente invade la pared. Ese camino tarda cerca de diez años, y por eso la colonoscopía saca el pólipo antes.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Pólipos de colon',

@@ -158,6 +158,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'En tres dimensiones',
+      images: [
+        { src: 'animaciones/resp-08/A1_aspiracion_3d.mp4', label: 'Aspiración', credit: 'Animación 3D propia · modelo BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Cae al lóbulo inferior derecho',
+          say: 'Lo aspirado baja por la tráquea, toma el bronquio derecho y cae por gravedad a los segmentos más bajos. Por eso la neumonía aspirativa aparece en el lóbulo inferior derecho.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Neumonías que no son del neumococo',
