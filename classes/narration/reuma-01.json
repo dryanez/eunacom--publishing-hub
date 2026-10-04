@@ -2,7 +2,7 @@
   "id": "reuma-01",
   "title": "Reumatologia 9.1: Monoartritis Aguda: Enfrentamiento Clínico y Estudio de Líquido Sinovial",
   "specialty": "Reumatología",
-  "chars": 12651,
+  "chars": 12836,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,142 +114,146 @@
     },
     {
       "file": "s06_g00",
-      "text": "Integremos todo el algoritmo diagnóstico y terapéutico de la monoartritis aguda en un árbol de decisión. Paciente con dolor, aumento de volumen y limitación funcional de una sola articulación de menos de cuatro a seis semanas. Toda monoartritis aguda se asume séptica hasta demostrar lo contrario."
-    },
-    {
-      "file": "s06_g01",
-      "text": "El primer paso del examen físico: verificar si existe una infección cutánea activa directamente sobre el trayecto por donde entraría la aguja."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si hay celulitis activa sobre el sitio de punción, no se debe entrar por esa zona para no inocular gérmenes a la articulación. Se busca un abordaje anatómico alternativo no comprometido o se inicia tratamiento dermatológico urgente."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Sin celulitis local, la artrocentesis es mandatoria e inmediata. Se extrae líquido sinovial para recuento celular con diferencial, glucosa, tinción de Gram, cultivo y microscopía con luz polarizada, siempre antes de cualquier antibiótico."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Se analizan los resultados del líquido sinovial aspirado para definir la conducta."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Líquido purulento con más de cincuenta mil leucocitos por milímetro cúbico, más de noventa por ciento de neutrófilos, glucosa menor a la mitad de la glicemia o Gram positivo. Conducta: hospitalizar, tomar dos hemocultivos, iniciar antibióticos endovenosos de inmediato y coordinar drenaje articular urgente."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Líquido turbio con recuento entre dos mil y cincuenta mil leucocitos. Se evalúa bajo microscopio de luz polarizada compensada."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Cristales en aguja con birrefringencia intensamente negativa: crisis de gota aguda. Manejo agudo con antiinflamatorios no esteroidales o colchicina en dosis bajas. Jamás iniciar alopurinol durante la crisis."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Cristales romboidales con birrefringencia débilmente positiva: condrocalcinosis o pseudogota. Reposo y antiinflamatorios no esteroidales."
-    },
-    {
-      "file": "s06_g09",
-      "text": "Líquido inflamatorio sin cristales ni bacterias: sospechar debut monoarticular de artritis reumatoide o espondiloartritis. Iniciar analgesia y derivar a reumatología."
-    },
-    {
-      "file": "s06_g10",
-      "text": "Líquido claro con menos de dos mil leucocitos y menos de veinticinco por ciento de neutrófilos: artrosis o meniscopatía. Analgesia con paracetamol o antiinflamatorios y manejo kinesiológico."
-    },
-    {
-      "file": "s06_g11",
-      "text": "Líquido rojo oscuro e incoagulable: hemartrosis. Evaluar rotura de ligamentos cruzados, fractura intraarticular o coagulopatías como hemofilia."
+      "text": "En la gota, el líquido articular muestra cristales en aguja, con birrefringencia negativa en luz polarizada. Pero recuerda: toda monoartritis aguda se cultiva, porque puede ser séptica."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos la tabla de los cuatro tipos de líquido. Líquido normal: menos de doscientos leucocitos por milímetro cúbico, menos de veinticinco por ciento de polimorfonucleares y glucosa igual a la glicemia. No requiere tratamiento."
+      "text": "Integremos todo el algoritmo diagnóstico y terapéutico de la monoartritis aguda en un árbol de decisión. Paciente con dolor, aumento de volumen y limitación funcional de una sola articulación de menos de cuatro a seis semanas. Toda monoartritis aguda se asume séptica hasta demostrar lo contrario."
     },
     {
       "file": "s07_g01",
-      "text": "Tipo uno o no inflamatorio: de doscientos a dos mil leucocitos, menos de veinticinco por ciento de neutrófilos, glucosa normal. Es típico de artrosis o daño meniscal; se maneja con analgesia y estudio biomecánico."
+      "text": "El primer paso del examen físico: verificar si existe una infección cutánea activa directamente sobre el trayecto por donde entraría la aguja."
     },
     {
       "file": "s07_g02",
-      "text": "Tipo dos o inflamatorio: de dos mil a cincuenta mil leucocitos con más de cincuenta por ciento de polimorfonucleares y glucosa levemente disminuida. Apunta a gota, pseudogota o artritis reumatoide; se trata con antiinflamatorios según el cristal."
+      "text": "Si hay celulitis activa sobre el sitio de punción, no se debe entrar por esa zona para no inocular gérmenes a la articulación. Se busca un abordaje anatómico alternativo no comprometido o se inicia tratamiento dermatológico urgente."
     },
     {
       "file": "s07_g03",
-      "text": "Tipo tres o séptico: más de cincuenta mil leucocitos, más de noventa por ciento de neutrófilos, glucosa bajo el cincuenta por ciento de la glicemia y aspecto purulento. Conducta: hospitalizar, antibióticos endovenosos y drenaje urgente."
+      "text": "Sin celulitis local, la artrocentesis es mandatoria e inmediata. Se extrae líquido sinovial para recuento celular con diferencial, glucosa, tinción de Gram, cultivo y microscopía con luz polarizada, siempre antes de cualquier antibiótico."
     },
     {
       "file": "s07_g04",
-      "text": "Y tipo cuatro o hemorrágico: líquido sanguinolento incoagulable. Requiere descartar rotura de ligamentos cruzados, fractura intraarticular si hay gotas de grasa, o coagulopatía de base."
+      "text": "Se analizan los resultados del líquido sinovial aspirado para definir la conducta."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Líquido purulento con más de cincuenta mil leucocitos por milímetro cúbico, más de noventa por ciento de neutrófilos, glucosa menor a la mitad de la glicemia o Gram positivo. Conducta: hospitalizar, tomar dos hemocultivos, iniciar antibióticos endovenosos de inmediato y coordinar drenaje articular urgente."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Líquido turbio con recuento entre dos mil y cincuenta mil leucocitos. Se evalúa bajo microscopio de luz polarizada compensada."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Cristales en aguja con birrefringencia intensamente negativa: crisis de gota aguda. Manejo agudo con antiinflamatorios no esteroidales o colchicina en dosis bajas. Jamás iniciar alopurinol durante la crisis."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Cristales romboidales con birrefringencia débilmente positiva: condrocalcinosis o pseudogota. Reposo y antiinflamatorios no esteroidales."
+    },
+    {
+      "file": "s07_g09",
+      "text": "Líquido inflamatorio sin cristales ni bacterias: sospechar debut monoarticular de artritis reumatoide o espondiloartritis. Iniciar analgesia y derivar a reumatología."
+    },
+    {
+      "file": "s07_g10",
+      "text": "Líquido claro con menos de dos mil leucocitos y menos de veinticinco por ciento de neutrófilos: artrosis o meniscopatía. Analgesia con paracetamol o antiinflamatorios y manejo kinesiológico."
+    },
+    {
+      "file": "s07_g11",
+      "text": "Líquido rojo oscuro e incoagulable: hemartrosis. Evaluar rotura de ligamentos cruzados, fractura intraarticular o coagulopatías como hemofilia."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso clínico. Hombre de cuarenta y dos años sin antecedentes que consulta en urgencias por catorce horas de dolor intenso, calor y tumefacción en la rodilla derecha, con impotencia funcional absoluta. Está febril con treinta y ocho coma tres grados, y tiene derrame a tensión con dolor exquisito a la flexión activa y pasiva."
+      "text": "Repasemos la tabla de los cuatro tipos de líquido. Líquido normal: menos de doscientos leucocitos por milímetro cúbico, menos de veinticinco por ciento de polimorfonucleares y glucosa igual a la glicemia. No requiere tratamiento."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada e inaplazable?"
+      "text": "Tipo uno o no inflamatorio: de doscientos a dos mil leucocitos, menos de veinticinco por ciento de neutrófilos, glucosa normal. Es típico de artrosis o daño meniscal; se maneja con analgesia y estudio biomecánico."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: iniciar cloxacilina endovenosa y pedir radiografía, realizar artrocentesis diagnóstica completa, administrar ketorolaco y dar el alta con reposo, iniciar alopurinol y pedir uricemia, o pedir resonancia magnética. Piénsalo."
+      "text": "Tipo dos o inflamatorio: de dos mil a cincuenta mil leucocitos con más de cincuenta por ciento de polimorfonucleares y glucosa levemente disminuida. Apunta a gota, pseudogota o artritis reumatoide; se trata con antiinflamatorios según el cristal."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta correcta es la B. Toda monoartritis aguda febril es una artritis séptica mientras no se demuestre lo contrario. La artrocentesis diagnóstica es mandatoria e inaplazable, y debe realizarse siempre antes del primer antibiótico. La alternativa A es la trampa clásica: dar antibióticos antes de puncionar negativiza los cultivos y retrasa el diagnóstico certero. Y la D es doble error: no sabemos si es gota, y el alopurinol jamás se parte en agudo."
+      "text": "Tipo tres o séptico: más de cincuenta mil leucocitos, más de noventa por ciento de neutrófilos, glucosa bajo el cincuenta por ciento de la glicemia y aspecto purulento. Conducta: hospitalizar, antibióticos endovenosos y drenaje urgente."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y tipo cuatro o hemorrágico: líquido sanguinolento incoagulable. Requiere descartar rotura de ligamentos cruzados, fractura intraarticular si hay gotas de grasa, o coagulopatía de base."
     },
     {
       "file": "s09_g00",
-      "text": "Pregunta real del EUNACOM de diciembre de dos mil diecinueve, pregunta sesenta y nueve. Paciente de setenta y ocho años que consulta por gonalgia derecha intensa que impide caminar, con edema, eritema, calor local y signos de derrame articular."
+      "text": "Vamos al caso clínico. Hombre de cuarenta y dos años sin antecedentes que consulta en urgencias por catorce horas de dolor intenso, calor y tumefacción en la rodilla derecha, con impotencia funcional absoluta. Está febril con treinta y ocho coma tres grados, y tiene derrame a tensión con dolor exquisito a la flexión activa y pasiva."
     },
     {
       "file": "s09_g01",
-      "text": "La conducta más adecuada es:"
+      "text": "¿Cuál es la conducta inicial más adecuada e inaplazable?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: iniciar antibióticos endovenosos, solicitar factor reumatoide, anticuerpos antinucleares y ácido úrico, iniciar antiinflamatorios no esteroidales, realizar artrocentesis diagnóstica, o pedir resonancia magnética. Piénsalo."
+      "text": "Las opciones: iniciar cloxacilina endovenosa y pedir radiografía, realizar artrocentesis diagnóstica completa, administrar ketorolaco y dar el alta con reposo, iniciar alopurinol y pedir uricemia, o pedir resonancia magnética. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D. En el adulto mayor, una monoartritis aguda de rodilla suele deberse a condrocalcinosis, pero la artritis séptica es el diagnóstico más grave que no puedes dejar pasar. Por eso la conducta prioritaria e inaplazable es la artrocentesis diagnóstica. Fíjate cómo la alternativa A tienta a iniciar antibióticos a ciegas, pero sin analizar el líquido no puedes confirmar ni dirigir la terapia."
+      "text": "La respuesta correcta es la B. Toda monoartritis aguda febril es una artritis séptica mientras no se demuestre lo contrario. La artrocentesis diagnóstica es mandatoria e inaplazable, y debe realizarse siempre antes del primer antibiótico. La alternativa A es la trampa clásica: dar antibióticos antes de puncionar negativiza los cultivos y retrasa el diagnóstico certero. Y la D es doble error: no sabemos si es gota, y el alopurinol jamás se parte en agudo."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta del examen de agosto de dos mil veintiuno, pregunta noventa y cinco. Paciente de sesenta y ocho años con monoartritis de rodilla izquierda de cuarenta y ocho horas. Se realiza punción articular y se obtiene un líquido poco filante, con cincuenta mil glóbulos blancos por milímetro cúbico, sin cristales."
+      "text": "Pregunta real del EUNACOM de diciembre de dos mil diecinueve, pregunta sesenta y nueve. Paciente de setenta y ocho años que consulta por gonalgia derecha intensa que impide caminar, con edema, eritema, calor local y signos de derrame articular."
     },
     {
       "file": "s10_g01",
-      "text": "Lo más probable es que se trate de una artritis:"
+      "text": "La conducta más adecuada es:"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: reactiva, seronegativa, reumatoide, séptica, o psoriática. Piénsalo."
+      "text": "Las opciones: iniciar antibióticos endovenosos, solicitar factor reumatoide, anticuerpos antinucleares y ácido úrico, iniciar antiinflamatorios no esteroidales, realizar artrocentesis diagnóstica, o pedir resonancia magnética. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la D. Cincuenta mil leucocitos por milímetro cúbico es la cifra de corte que separa el líquido inflamatorio del séptico. Aunque las artritis inflamatorias pueden alcanzar cifras altas, ante un recuento de cincuenta mil sin cristales y sin foco alternativo, el paciente se maneja como una artritis séptica. En el EUNACOM el umbral de cincuenta mil siempre enciende la alarma infecciosa."
+      "text": "Es la D. En el adulto mayor, una monoartritis aguda de rodilla suele deberse a condrocalcinosis, pero la artritis séptica es el diagnóstico más grave que no puedes dejar pasar. Por eso la conducta prioritaria e inaplazable es la artrocentesis diagnóstica. Fíjate cómo la alternativa A tienta a iniciar antibióticos a ciegas, pero sin analizar el líquido no puedes confirmar ni dirigir la terapia."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las tres reglas de oro. La primera: toda monoartritis aguda es una artritis séptica hasta que la punción y el laboratorio demuestren lo contrario."
+      "text": "Ahora una pregunta del examen de agosto de dos mil veintiuno, pregunta noventa y cinco. Paciente de sesenta y ocho años con monoartritis de rodilla izquierda de cuarenta y ocho horas. Se realiza punción articular y se obtiene un líquido poco filante, con cincuenta mil glóbulos blancos por milímetro cúbico, sin cristales."
     },
     {
       "file": "s11_g01",
-      "text": "La artrocentesis diagnóstica es prioritaria y debe realizarse siempre antes de administrar la primera dosis de antibiótico."
+      "text": "Lo más probable es que se trate de una artritis:"
     },
     {
       "file": "s11_g02",
-      "text": "Líquido con más de cincuenta mil leucocitos por milímetro cúbico, más de noventa por ciento de neutrófilos o glucosa bajo la mitad de la glicemia define un líquido séptico."
+      "text": "Las opciones: reactiva, seronegativa, reumatoide, séptica, o psoriática. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "La respuesta correcta es la D. Cincuenta mil leucocitos por milímetro cúbico es la cifra de corte que separa el líquido inflamatorio del séptico. Aunque las artritis inflamatorias pueden alcanzar cifras altas, ante un recuento de cincuenta mil sin cristales y sin foco alternativo, el paciente se maneja como una artritis séptica. En el EUNACOM el umbral de cincuenta mil siempre enciende la alarma infecciosa."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las tres reglas de oro. La primera: toda monoartritis aguda es una artritis séptica hasta que la punción y el laboratorio demuestren lo contrario."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La artrocentesis diagnóstica es prioritaria y debe realizarse siempre antes de administrar la primera dosis de antibiótico."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Líquido con más de cincuenta mil leucocitos por milímetro cúbico, más de noventa por ciento de neutrófilos o glucosa bajo la mitad de la glicemia define un líquido séptico."
+    },
+    {
+      "file": "s12_g03",
       "text": "Entre dos mil y cincuenta mil leucocitos es líquido inflamatorio: busca cristales de urato o pirofosfato con luz polarizada."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "La única contraindicación absoluta de artrocentesis es la infección cutánea activa sobre el trayecto de punción."
     },
     {
-      "file": "s11_g05",
+      "file": "s12_g05",
       "text": "Y recuerda que la presencia de cristales no descarta una infección concomitante, ya que coexisten en un cinco por ciento de los casos. Si te llevas una sola idea de hoy: toda monoartritis aguda es séptica hasta que la artrocentesis demuestre lo contrario, y se punciona siempre antes del primer antibiótico. Nos vemos en la próxima clase."
     }
   ]

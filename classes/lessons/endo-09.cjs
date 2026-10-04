@@ -195,6 +195,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El nódulo tiroideo en la ecografía',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-09/01_nodulo-con-criterios-de-malignidad-eco-d__amir-endocrino_p46.jpg', label: 'Nódulo sospechoso', credit: 'Manual AMIR Endocrinología, p. 46' },
+        { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_1__amir-endocrino_p40.jpg', label: 'Bocio multinodular', credit: 'Manual AMIR Endocrinología, p. 40' },
+      ],
+      steps: [
+        { note: 'Hipoecogénico, bordes irregulares',
+          say: 'Este nódulo es sospechoso: hipoecogénico, de bordes irregulares, más alto que ancho y con microcalcificaciones. Esos criterios deciden la punción.' },
+        { note: 'Varios nódulos',
+          say: 'Y este es un bocio multinodular: varios nódulos en ambos lóbulos. Se evalúa cada uno por sus características, no solo el más grande.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde el nódulo recién encontrado hasta la conducta final.',
     },

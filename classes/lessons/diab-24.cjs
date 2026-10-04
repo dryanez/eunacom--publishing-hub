@@ -124,6 +124,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'La hipertrigliceridemia severa',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg', label: 'Plasma lechoso', credit: 'Wikimedia Commons «Lipemic plasma.jpg», CC BY-SA 3.0, DiverDave' },
+        { src: 'biblioteca/04_diabetes/diab-24/01_xantomas-eruptivos__amir-derma_p26.jpg', label: 'Xantomas eruptivos', credit: 'Manual AMIR Dermatología, p. 26' },
+      ],
+      steps: [
+        { note: 'El plasma parece leche',
+          say: 'Con triglicéridos muy altos el plasma se ve lechoso, como en estas bolsas. Ese paciente está en riesgo de pancreatitis.' },
+        { note: 'Pápulas amarillas de base roja',
+          say: 'Y estos son xantomas eruptivos: pápulas amarillentas con halo rojo que aparecen de golpe. Indican triglicéridos muy elevados.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos situaciones en un árbol que parte por el perfil lipídico.',
     },

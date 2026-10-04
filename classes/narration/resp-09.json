@@ -2,7 +2,7 @@
   "id": "resp-09",
   "title": "Neumología 2.4: Absceso Pulmonar y Supuraciones Pleuropulmonares",
   "specialty": "Neumología",
-  "chars": 10163,
+  "chars": 10334,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,110 +106,114 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol, desde la sospecha hasta la cirugía. Paciente con semanas de fiebre, baja de peso y tos con expectoración fétida. Lo primero es confirmar con la imagen."
-    },
-    {
-      "file": "s07_g01",
-      "text": "La radiografía y la TAC buscan una cavidad de pared gruesa con nivel hidroaéreo. Si la encuentras, la siguiente pregunta es si hay riesgo de cáncer."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si es un absceso primario por aspiración, tratamiento médico: ampicilina sulbactam endovenosa y luego amoxicilina con clavulánico oral, hasta completar cuatro a seis semanas."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si responde, se completa el esquema. Así termina la gran mayoría, sin ningún procedimiento."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si falla tras siete a diez días, si mide más de seis centímetros o hay hemoptisis masiva, se evalúa cirugía o drenaje percutáneo."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si es mayor de cincuenta años, fumador, o la cavidad no responde, la fibrobroncoscopía es obligatoria para descartar un carcinoma broncogénico o un cuerpo extraño."
+      "text": "Esto es un absceso pulmonar: una cavidad de pared gruesa con un nivel hidroaéreo adentro, la línea recta entre el líquido y el aire. Se trata con antibióticos por semanas."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las cuatro cavidades que el examen mezcla. El absceso: pared gruesa pero regular por dentro, nivel hidroaéreo evidente, en segmentos dependientes. Tratamiento médico de cuatro a seis semanas."
+      "text": "Juntemos todo en un árbol, desde la sospecha hasta la cirugía. Paciente con semanas de fiebre, baja de peso y tos con expectoración fétida. Lo primero es confirmar con la imagen."
     },
     {
       "file": "s08_g01",
-      "text": "El cáncer cavitado, típicamente epidermoide de lóbulos superiores: pared de más de quince milímetros, nodular por dentro, y el nivel es ocasional o no está. La conducta es biopsia y etapificación."
+      "text": "La radiografía y la TAC buscan una cavidad de pared gruesa con nivel hidroaéreo. Si la encuentras, la siguiente pregunta es si hay riesgo de cáncer."
     },
     {
       "file": "s08_g02",
-      "text": "La tuberculosis cavitada: pared fina a moderada, casi nunca con nivel, en los segmentos apicales y posteriores superiores. Se trata con el esquema de cuatro drogas, que es justamente la próxima clase."
+      "text": "Si es un absceso primario por aspiración, tratamiento médico: ampicilina sulbactam endovenosa y luego amoxicilina con clavulánico oral, hasta completar cuatro a seis semanas."
     },
     {
       "file": "s08_g03",
-      "text": "Y el quiste hidatídico complicado: pared fina con la membrana desprendida flotando, el signo del camalote, más frecuente en la base derecha. Se trata con albendazol y cirugía. Esta última te va a servir en una de las preguntas reales."
+      "text": "Si responde, se completa el esquema. Así termina la gran mayoría, sin ningún procedimiento."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si falla tras siete a diez días, si mide más de seis centímetros o hay hemoptisis masiva, se evalúa cirugía o drenaje percutáneo."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si es mayor de cincuenta años, fumador, o la cavidad no responde, la fibrobroncoscopía es obligatoria para descartar un carcinoma broncogénico o un cuerpo extraño."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de cuarenta y cinco años, bebedor excesivo y con mala dentadura, con tres semanas de fiebre nocturna, baja de cuatro kilos y tos con expectoración abundante, verde oscura y de olor pestilente. La radiografía muestra una cavidad de cuatro coma cinco centímetros con nivel hidroaéreo, en el segmento posterior del lóbulo superior derecho. Está estable."
+      "text": "Repasemos las cuatro cavidades que el examen mezcla. El absceso: pared gruesa pero regular por dentro, nivel hidroaéreo evidente, en segmentos dependientes. Tratamiento médico de cuatro a seis semanas."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "El cáncer cavitado, típicamente epidermoide de lóbulos superiores: pared de más de quince milímetros, nodular por dentro, y el nivel es ocasional o no está. La conducta es biopsia y etapificación."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: lobectomía, ampicilina sulbactam seguida de amoxicilina con clavulánico por cuatro a seis semanas, drenaje percutáneo, ciprofloxacino por siete días, o el esquema antituberculoso. Piénsalo."
+      "text": "La tuberculosis cavitada: pared fina a moderada, casi nunca con nivel, en los segmentos apicales y posteriores superiores. Se trata con el esquema de cuatro drogas, que es justamente la próxima clase."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Todo calza con un absceso por aspiración: alcohol, boca séptica, esputo fétido y cavidad con nivel en un segmento dependiente. El tratamiento es médico, con cobertura anaerobia, por cuatro a seis semanas. La lobectomía y el drenaje son la trampa: quedan para la falla médica. Y el ciprofloxacino falla dos veces: no cubre anaerobios y siete días no alcanzan."
+      "text": "Y el quiste hidatídico complicado: pared fina con la membrana desprendida flotando, el signo del camalote, más frecuente en la base derecha. Se trata con albendazol y cirugía. Esta última te va a servir en una de las preguntas reales."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente alcohólico y fumador, con siete días de tos con expectoración purulenta y fiebre, que va empeorando. Está febril y con apremio respiratorio. En el examen original venía la radiografía, que mostraba un absceso pulmonar gigante."
+      "text": "Vamos con un caso. Hombre de cuarenta y cinco años, bebedor excesivo y con mala dentadura, con tres semanas de fiebre nocturna, baja de cuatro kilos y tos con expectoración abundante, verde oscura y de olor pestilente. La radiografía muestra una cavidad de cuatro coma cinco centímetros con nivel hidroaéreo, en el segmento posterior del lóbulo superior derecho. Está estable."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el examen más adecuado para proseguir el estudio?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: broncoscopía, videotoracoscopía, TAC de tórax, PET scan, o resonancia de tórax. Piénsalo."
+      "text": "Las opciones: lobectomía, ampicilina sulbactam seguida de amoxicilina con clavulánico por cuatro a seis semanas, drenaje percutáneo, ciprofloxacino por siete días, o el esquema antituberculoso. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, TAC de tórax. Es el examen que caracteriza mejor la cavidad y su pared, y ayuda a buscar un cáncer debajo, algo obligatorio en un fumador. La broncoscopía es el distractor tentador, porque este paciente la puede necesitar, pero viene después de la TAC. Y la videotoracoscopía es cirugía: no es un examen para seguir el estudio."
+      "text": "Es la B. Todo calza con un absceso por aspiración: alcohol, boca séptica, esputo fétido y cavidad con nivel en un segmento dependiente. El tratamiento es médico, con cobertura anaerobia, por cuatro a seis semanas. La lobectomía y el drenaje son la trampa: quedan para la falla médica. Y el ciprofloxacino falla dos veces: no cubre anaerobios y siete días no alcanzan."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años con tos seca de siete días, que hace tres se volvió productiva, con una secreción de sabor salado. Signos vitales normales, matidez y murmullo disminuido en la base derecha. En el hemograma, doce mil blancos con diez por ciento de eosinófilos."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente alcohólico y fumador, con siete días de tos con expectoración purulenta y fiebre, que va empeorando. Está febril y con apremio respiratorio. En el examen original venía la radiografía, que mostraba un absceso pulmonar gigante."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el examen más adecuado para proseguir el estudio?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: derrame pleural tuberculoso, hidatidosis pulmonar, absceso pulmonar, neumonía, o carcinoma broncogénico. Piénsalo."
+      "text": "Las opciones: broncoscopía, videotoracoscopía, TAC de tórax, PET scan, o resonancia de tórax. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B, hidatidosis pulmonar. Fíjate en tres pistas: una vómica de sabor salado, que es el líquido del quiste roto; la base derecha, que es donde predomina; y la eosinofilia, que es de parásito. El absceso es el distractor, porque también da vómica, pero la suya es purulenta y fétida, con fiebre y semanas de compromiso del estado general. Esa diferencia es la tabla que acabamos de ver."
+      "text": "Es la C, TAC de tórax. Es el examen que caracteriza mejor la cavidad y su pared, y ayuda a buscar un cáncer debajo, algo obligatorio en un fumador. La broncoscopía es el distractor tentador, porque este paciente la puede necesitar, pero viene después de la TAC. Y la videotoracoscopía es cirugía: no es un examen para seguir el estudio."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Alcohol, mala dentadura y esputo fétido: piensa en un absceso por anaerobios aspirados."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años con tos seca de siete días, que hace tres se volvió productiva, con una secreción de sabor salado. Signos vitales normales, matidez y murmullo disminuido en la base derecha. En el hemograma, doce mil blancos con diez por ciento de eosinófilos."
     },
     {
       "file": "s12_g01",
-      "text": "En la imagen, una cavidad de pared gruesa con nivel hidroaéreo en un segmento dependiente."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "El tratamiento es médico: ampicilina sulbactam y luego amoxicilina con clavulánico, cuatro a seis semanas. No se drena de rutina."
+      "text": "Las opciones: derrame pleural tuberculoso, hidatidosis pulmonar, absceso pulmonar, neumonía, o carcinoma broncogénico. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la B, hidatidosis pulmonar. Fíjate en tres pistas: una vómica de sabor salado, que es el líquido del quiste roto; la base derecha, que es donde predomina; y la eosinofilia, que es de parásito. El absceso es el distractor, porque también da vómica, pero la suya es purulenta y fétida, con fiebre y semanas de compromiso del estado general. Esa diferencia es la tabla que acabamos de ver."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Alcohol, mala dentadura y esputo fétido: piensa en un absceso por anaerobios aspirados."
+    },
+    {
+      "file": "s13_g01",
+      "text": "En la imagen, una cavidad de pared gruesa con nivel hidroaéreo en un segmento dependiente."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El tratamiento es médico: ampicilina sulbactam y luego amoxicilina con clavulánico, cuatro a seis semanas. No se drena de rutina."
+    },
+    {
+      "file": "s13_g03",
       "text": "Si el paciente es mayor de cincuenta años y fumador, o la cavidad no responde, fibrobroncoscopía para descartar un carcinoma."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y la cirugía queda para la falla médica. Si te llevas una sola idea de hoy: el absceso se trata con antibióticos por semanas, pero en el fumador mayor siempre se busca el cáncer. En la próxima clase vemos la otra gran cavidad del pulmón, la tuberculosis. Nos vemos en la próxima clase."
     }
   ]

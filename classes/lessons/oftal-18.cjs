@@ -126,6 +126,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'La pupila y el nervio óptico',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg', label: 'Marcus Gunn', credit: 'Kanski 8.ª ed., Fig. 19.33' },
+        { src: 'biblioteca/12_oftalmologia/oftal-18/01_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' },
+      ],
+      steps: [
+        { note: 'La pupila se dilata con la luz',
+          say: 'Al pasar la linterna al ojo enfermo, la pupila se dilata: es el defecto pupilar aferente.' },
+        { note: 'Papila hinchada',
+          say: 'Y el papiledema, la papila hinchada por hipertensión intracraneana.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

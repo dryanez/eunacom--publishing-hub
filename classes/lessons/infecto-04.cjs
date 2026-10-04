@@ -164,6 +164,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Infecciones graves de partes blandas',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg', label: 'Fascitis necrotizante', credit: 'Manual CTO Infecciosas 14.ª ed., p. 84' },
+        { src: 'biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg', label: 'Angina de Ludwig', credit: 'Manual AMIR Otorrinolaringología, p. 55' },
+      ],
+      steps: [
+        { note: 'Necrosis y desbridamiento',
+          say: 'Esta es una fascitis necrotizante. La clave clínica es el dolor desproporcionado a lo que se ve en la piel. El tratamiento es cirugía urgente.' },
+        { note: 'Piso de la boca hinchado',
+          say: 'Y la angina de Ludwig: el piso de la boca y el cuello se hinchan. El riesgo es perder la vía aérea.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión: una infección de partes blandas y qué mirar para saber si es simple, necrotizante o una amenaza para la vía aérea.',
     },

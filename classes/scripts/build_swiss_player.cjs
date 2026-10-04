@@ -654,9 +654,12 @@ const LESSONS = fs.existsSync(LESSONS_DIR)
   : {};
 
 
-// Imágenes de las clases: classes/media/<ruta>. Se incrustan en el reproductor (data URI) con su proporción,
-// para que las marcas (en % del ancho/alto) caigan exactamente sobre el hallazgo.
+// Imágenes de las clases: classes/media/<ruta>. El reproductor (classes/decks/) las carga por ruta relativa
+// ../media/<ruta>, así el HTML no crece con cada imagen. Para publicar el Artifact, subir classes/media/ junto
+// al HTML o compilar con EMBED_IMAGES=1 (las incrusta como data URI; ojo con el límite de 16 MB).
+// Se guarda la proporción para que las marcas (en % del ancho/alto) caigan exactamente sobre el hallazgo.
 const MEDIA_DIR = path.join(ROOT, 'classes', 'media');
+const EMBED_IMAGES = process.env.EMBED_IMAGES === '1';
 function imageSize(buf, ext) {
   if (ext === '.svg') {
     const m = buf.toString('utf8').match(/viewBox="([^"]+)"/);
@@ -676,8 +679,12 @@ function loadImage(img) {
   const ext = path.extname(file).toLowerCase();
   const buf = fs.readFileSync(file);
   const [w, h] = imageSize(buf, ext);
-  const mime = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml' }[ext];
-  return { ...img, src: `data:${mime};base64,${buf.toString('base64')}`, ar: +(w / h).toFixed(4) };
+  const ar = +(w / h).toFixed(4);
+  if (EMBED_IMAGES) {
+    const mime = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml' }[ext];
+    return { ...img, src: `data:${mime};base64,${buf.toString('base64')}`, ar };
+  }
+  return { ...img, src: '../media/' + img.src.split(path.sep).join('/'), ar };
 }
 
 const LESSON_CHAPTER = { cover: 0, flow: 1, points: 1, image: 1, pathway: 2, table: 2, quiz: 3 };

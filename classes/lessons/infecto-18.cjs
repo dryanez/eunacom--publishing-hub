@@ -206,6 +206,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Fiebre tifoidea',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg', label: 'Roséola tífica', credit: 'CDC PHIL 2215 (CDC/Armed Forces Institute of Pathology), dominio público' },
+      ],
+      steps: [
+        { note: 'Máculas rosadas en el tronco',
+          say: 'La roséola tífica son máculas rosadas en el tronco, en la segunda semana.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres en un solo árbol, partiendo por la pregunta que las separa.',
     },

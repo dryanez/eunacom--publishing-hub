@@ -153,6 +153,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Artrosis',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_1__cto-reuma_p64.jpg', label: 'Heberden y Bouchard', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
+        { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_1__amir-reuma_p124.jpg', label: 'Radiografía', credit: 'Manual AMIR Reumatología, p. 124' },
+      ],
+      steps: [
+        { note: 'Nódulos en interfalángicas',
+          say: 'Los nódulos de Heberden en las interfalángicas distales y de Bouchard en las proximales son típicos de la artrosis.' },
+        { note: 'Pinzamiento, osteofitos, esclerosis',
+          say: 'Y en la radiografía: pinzamiento del espacio articular, osteofitos y esclerosis del hueso bajo el cartílago.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Veamos el algoritmo diagnóstico y terapéutico completo de la artrosis.',
     },

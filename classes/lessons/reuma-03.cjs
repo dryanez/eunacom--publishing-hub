@@ -210,6 +210,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Gota y pseudogota',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales_pirofosfato_polarizada__commons.jpg', label: 'Pirofosfato', credit: 'Wikimedia Commons «Birefringence microscopy of pseudogout, annotated.jpg», CC0, Mikael Häggström, M.D. Author info - Reusing images- Conflic' },
+        { src: 'biblioteca/08_reumatologia/reuma-03/03_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg', label: 'Condrocalcinosis', credit: 'Manual AMIR Reumatología, p. 23' },
+        { src: 'biblioteca/08_reumatologia/reuma-03/02_tofos-en-manos__amir-reuma_p19.jpg', label: 'Tofos', credit: 'Manual AMIR Reumatología, p. 19' },
+      ],
+      steps: [
+        { note: 'Romboidales, birrefringencia positiva',
+          say: 'Los cristales de pirofosfato son romboidales y con birrefringencia débil positiva. Es la pseudogota, típica de la rodilla del adulto mayor.' },
+        { note: 'Calcio en el cartílago',
+          say: 'En la radiografía, la pseudogota deja una línea de calcio dentro del cartílago: la condrocalcinosis.' },
+        { note: 'Depósitos de urato',
+          say: 'Y en la gota crónica aparecen tofos: depósitos de urato bajo la piel, aquí en las manos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Integremos todo el enfrentamiento de las artropatías microcristalinas en un árbol de decisión.',
     },

@@ -157,6 +157,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Artritis reactiva',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg', label: 'Lesiones mucocutáneas', credit: 'Manual AMIR Reumatología, p. 83' },
+      ],
+      steps: [
+        { note: 'Balanitis y queratodermia',
+          say: 'La artritis reactiva puede dar balanitis circinada y queratodermia en las plantas.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

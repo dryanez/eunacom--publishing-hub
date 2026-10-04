@@ -2,7 +2,7 @@
   "id": "hem-15",
   "title": "Hematología 8.15: Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
   "specialty": "Hematología",
-  "chars": 10354,
+  "chars": 10460,
   "segments": [
     {
       "file": "s00_g00",
@@ -138,118 +138,122 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol de decisión para el paciente grave que sangra por todos lados. Paciente crítico, séptico, obstétrico o politraumatizado, que sangra por las punciones, las mucosas o las heridas. Piensa en CID y pide el perfil completo."
-    },
-    {
-      "file": "s07_g01",
-      "text": "Con plaquetas, dímero D, TP y fibrinógeno calculas el score ISTH. ¿Suma cinco o más?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Bajo cinco puntos es una CID no manifiesta o una fase inicial: se repite el perfil cada doce a veinticuatro horas y se trata la causa."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Cinco o más puntos: CID manifiesta. El pilar es tratar la causa de inmediato. Y para el soporte, pregunta: ¿sangra activamente o necesita un procedimiento invasivo?"
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si no sangra, no se corrigen números: solo se transfunden plaquetas si bajan de veinte mil."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si sangra: crioprecipitado si el fibrinógeno está bajo cien a ciento cincuenta, plasma si el TP o el TTPK superan una vez y media lo normal, y plaquetas con meta sobre cincuenta mil. Sin heparina."
+      "text": "En la coagulación intravascular hay esquistocitos, plaquetas bajas y tiempos prolongados: se consume todo."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos los contrastes que se preguntan. La CID tiene todo alterado a la vez: plaquetas, TP, TTPK, fibrinógeno y dímero D."
+      "text": "Juntemos todo en un árbol de decisión para el paciente grave que sangra por todos lados. Paciente crítico, séptico, obstétrico o politraumatizado, que sangra por las punciones, las mucosas o las heridas. Piensa en CID y pide el perfil completo."
     },
     {
       "file": "s08_g01",
-      "text": "En el púrpura trombocitopénico inmune solo caen las plaquetas; la coagulación está normal."
+      "text": "Con plaquetas, dímero D, TP y fibrinógeno calculas el score ISTH. ¿Suma cinco o más?"
     },
     {
       "file": "s08_g02",
-      "text": "En las microangiopatías, el PTT y el síndrome hemolítico urémico, también hay plaquetas bajas y esquistocitos, pero el TP y el TTPK son normales. Esa es la diferencia con la CID, que también puede tener algunos esquistocitos."
+      "text": "Bajo cinco puntos es una CID no manifiesta o una fase inicial: se repite el perfil cada doce a veinticuatro horas y se trata la causa."
     },
     {
       "file": "s08_g03",
-      "text": "Y en el déficit de vitamina K, que vimos en la clase anterior, se alarga el TP, pero las plaquetas y el fibrinógeno están normales."
+      "text": "Cinco o más puntos: CID manifiesta. El pilar es tratar la causa de inmediato. Y para el soporte, pregunta: ¿sangra activamente o necesita un procedimiento invasivo?"
     },
     {
       "file": "s08_g04",
-      "text": "En la conducta, el error clásico es la heparina en la CID que sangra."
+      "text": "Si no sangra, no se corrigen números: solo se transfunden plaquetas si bajan de veinte mil."
     },
     {
       "file": "s08_g05",
-      "text": "Y el error opuesto es transfundir para corregir números en un paciente estable que no sangra."
+      "text": "Si sangra: crioprecipitado si el fibrinógeno está bajo cien a ciento cincuenta, plasma si el TP o el TTPK superan una vez y media lo normal, y plaquetas con meta sobre cincuenta mil. Sin heparina."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Mujer de cuarenta y ocho años en la UCI por un shock séptico urinario por una Escherichia coli productora de betalactamasas de espectro extendido. Al segundo día sangra por las punciones, tiene equimosis espontáneas y hematuria. Plaquetas de veintiocho mil, que antes eran ciento ochenta mil, INR de dos coma cuatro, TTPK de sesenta y ocho segundos, fibrinógeno de setenta, dímero D sobre veinte mil, y algunos esquistocitos."
+      "text": "Repasemos los contrastes que se preguntan. La CID tiene todo alterado a la vez: plaquetas, TP, TTPK, fibrinógeno y dímero D."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "En el púrpura trombocitopénico inmune solo caen las plaquetas; la coagulación está normal."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: heparina en infusión, plasmaféresis, mantener antibióticos y soporte con crioprecipitado, plasma y plaquetas, vitamina K sola, o suspender hemocomponentes y controlar. Piénsalo."
+      "text": "En las microangiopatías, el PTT y el síndrome hemolítico urémico, también hay plaquetas bajas y esquistocitos, pero el TP y el TTPK son normales. Esa es la diferencia con la CID, que también puede tener algunos esquistocitos."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la C. Tiene todo alterado a la vez, con un score ISTH de ocho puntos, y está sangrando. Entonces se sigue tratando la sepsis, y se da soporte dirigido: crioprecipitado por el fibrinógeno bajo cien, plasma por el TP y el TTPK, y plaquetas. La heparina es el distractor tentador, pero con sangrado está contraindicada. Y los esquistocitos no te deben llevar a la plasmaféresis: en el PTT la coagulación es normal."
+      "text": "Y en el déficit de vitamina K, que vimos en la clase anterior, se alarga el TP, pero las plaquetas y el fibrinógeno están normales."
+    },
+    {
+      "file": "s09_g04",
+      "text": "En la conducta, el error clásico es la heparina en la CID que sangra."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y el error opuesto es transfundir para corregir números en un paciente estable que no sangra."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Una puérpera con hemorragia posparto importante. Hemoglobina de nueve coma tres, plaquetas de ochenta mil, TP y TTPA alargados, y fibrinógeno de noventa."
+      "text": "Vamos con un caso. Mujer de cuarenta y ocho años en la UCI por un shock séptico urinario por una Escherichia coli productora de betalactamasas de espectro extendido. Al segundo día sangra por las punciones, tiene equimosis espontáneas y hematuria. Plaquetas de veintiocho mil, que antes eran ciento ochenta mil, INR de dos coma cuatro, TTPK de sesenta y ocho segundos, fibrinógeno de setenta, dímero D sobre veinte mil, y algunos esquistocitos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la mejor indicación transfusional?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "Las opciones son: crioprecipitado, glóbulos rojos, plaquetas, sangre fresca, o plasma fresco congelado. Piénsalo."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Es la E, plasma fresco congelado. Es una CID obstétrica, y lo que falta no es una sola cosa: faltan todos los factores, por eso están alargados el TP y el TTPA. El plasma los trae todos, incluido el fibrinógeno. El crioprecipitado es el distractor tentador por el fibrinógeno de noventa, pero solo repone fibrinógeno y no corrige el resto de los factores."
-    },
-    {
-      "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Embarazada de treinta y cuatro años, con un embarazo gemelar bicorial biamniótico de veintiséis semanas. La ecografía muestra que un gemelo murió, y el otro está bien."
-    },
-    {
-      "file": "s11_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s10_g02",
+      "text": "Las opciones son: heparina en infusión, plasmaféresis, mantener antibióticos y soporte con crioprecipitado, plasma y plaquetas, vitamina K sola, o suspender hemocomponentes y controlar. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "La respuesta es la C. Tiene todo alterado a la vez, con un score ISTH de ocho puntos, y está sangrando. Entonces se sigue tratando la sepsis, y se da soporte dirigido: crioprecipitado por el fibrinógeno bajo cien, plasma por el TP y el TTPK, y plaquetas. La heparina es el distractor tentador, pero con sangrado está contraindicada. Y los esquistocitos no te deben llevar a la plasmaféresis: en el PTT la coagulación es normal."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Una puérpera con hemorragia posparto importante. Hemoglobina de nueve coma tres, plaquetas de ochenta mil, TP y TTPA alargados, y fibrinógeno de noventa."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la mejor indicación transfusional?"
+    },
+    {
       "file": "s11_g02",
-      "text": "Las opciones son: extraer el feto muerto, controles con dímero D, interrumpir el embarazo, cesárea a las treinta y siete semanas, o controles con pruebas de coagulación. Piénsalo."
+      "text": "Las opciones son: crioprecipitado, glóbulos rojos, plaquetas, sangre fresca, o plasma fresco congelado. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. Como es bicorial y el gemelo vivo está bien, se puede esperar, pero el feto muerto retenido es otro gatillo obstétrico de CID, así que hay que vigilarla. El distractor es el dímero D: en el embarazo sube de forma normal, así que no te sirve. Lo que se controla son las pruebas de coagulación, que se alargan si aparece la CID."
+      "text": "Es la E, plasma fresco congelado. Es una CID obstétrica, y lo que falta no es una sola cosa: faltan todos los factores, por eso están alargados el TP y el TTPA. El plasma los trae todos, incluido el fibrinógeno. El crioprecipitado es el distractor tentador por el fibrinógeno de noventa, pero solo repone fibrinógeno y no corrige el resto de los factores."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. La CID siempre es secundaria: busca la sepsis, la complicación obstétrica, el trauma grave o la leucemia promielocítica."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Embarazada de treinta y cuatro años, con un embarazo gemelar bicorial biamniótico de veintiséis semanas. La ecografía muestra que un gemelo murió, y el otro está bien."
     },
     {
       "file": "s12_g01",
-      "text": "El laboratorio está todo alterado a la vez: plaquetas bajas, TP y TTPK largos, fibrinógeno bajo y dímero D muy alto. Con cinco puntos ISTH, es una CID manifiesta."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "El tratamiento es tratar la causa."
+      "text": "Las opciones son: extraer el feto muerto, controles con dímero D, interrumpir el embarazo, cesárea a las treinta y siete semanas, o controles con pruebas de coagulación. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la E. Como es bicorial y el gemelo vivo está bien, se puede esperar, pero el feto muerto retenido es otro gatillo obstétrico de CID, así que hay que vigilarla. El distractor es el dímero D: en el embarazo sube de forma normal, así que no te sirve. Lo que se controla son las pruebas de coagulación, que se alargan si aparece la CID."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La CID siempre es secundaria: busca la sepsis, la complicación obstétrica, el trauma grave o la leucemia promielocítica."
+    },
+    {
+      "file": "s13_g01",
+      "text": "El laboratorio está todo alterado a la vez: plaquetas bajas, TP y TTPK largos, fibrinógeno bajo y dímero D muy alto. Con cinco puntos ISTH, es una CID manifiesta."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El tratamiento es tratar la causa."
+    },
+    {
+      "file": "s13_g03",
       "text": "Los hemocomponentes, solo si sangra o va a un procedimiento: crioprecipitado para el fibrinógeno, plasma para los factores y plaquetas según la meta."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Si te llevas una sola idea de hoy: en la CID el paciente sangra porque coagula en todas partes, y la salida es apagar la causa, no la heparina. En la próxima clase veremos las leucemias agudas, incluida la promielocítica que debuta con CID. Nos vemos en la próxima clase."
     }
   ]

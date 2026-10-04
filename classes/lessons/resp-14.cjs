@@ -175,6 +175,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Neumotórax a tensión',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' },
+      ],
+      steps: [
+        { note: 'Mediastino desplazado al otro lado',
+          say: 'Aquí el neumotórax empuja el mediastino hacia el lado contrario. Esa desviación es la tensión. Pero ojo: en la vida real no se espera esta imagen, el diagnóstico es clínico y se descomprime de inmediato.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar frente al paciente.',
     },

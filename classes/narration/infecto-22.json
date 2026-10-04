@@ -2,7 +2,7 @@
   "id": "infecto-22",
   "title": "Infectologia 5.3: Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
   "specialty": "Infectología",
-  "chars": 13055,
+  "chars": 13369,
   "segments": [
     {
       "file": "s00_g00",
@@ -142,182 +142,198 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos los exantemas en un árbol de decisión. Niño con fiebre y exantema. Antes de mirar la piel, cuenta los días de fiebre, y después busca la firma en la boca, la cara y el cuello."
+      "text": "Las manchas de Koplik, puntos blancos en la mucosa de la mejilla, aparecen antes del exantema del sarampión."
     },
     {
       "file": "s07_g01",
-      "text": "La primera pregunta es la que no puedes perder: ¿lleva cinco días o más de fiebre, con cuatro de cinco criterios de Kawasaki?"
+      "text": "El exantema del sarampión parte en la cara y baja."
     },
     {
       "file": "s07_g02",
-      "text": "Si los cumple, es Kawasaki: ecocardiograma, inmunoglobulina endovenosa dos gramos por kilo y aspirina, antes del décimo día de fiebre."
+      "text": "La escarlatina da lengua aframbuesada y piel áspera como lija."
     },
     {
       "file": "s07_g03",
-      "text": "Si no, busca la firma de cada exantema."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Manchas de Koplik con pródromo intenso es sarampión; ganglios retroauriculares con exantema de tres días, rubéola. Ambos se notifican de inmediato."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Faringitis con piel de lija, Pastia y Filatov: escarlatina. Amoxicilina por diez días completos."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Bofetada y exantema en encaje: parvovirus B diecinueve. Manejo sintomático, atento a la crisis aplásica en la anemia hemolítica y al hidrops en la embarazada."
+      "text": "Y en Kawasaki, conjuntivitis sin secreción y descamación de los dedos. Lo grave es el corazón."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las firmas. Sarampión: manchas de Koplik y exantema confluente que baja lento. Se da vitamina A y soporte, y se notifica de inmediato."
+      "text": "Juntemos los exantemas en un árbol de decisión. Niño con fiebre y exantema. Antes de mirar la piel, cuenta los días de fiebre, y después busca la firma en la boca, la cara y el cuello."
     },
     {
       "file": "s08_g01",
-      "text": "Rubéola: ganglios retroauriculares y un exantema rosado que dura tres días. Soporte, y también se notifica."
+      "text": "La primera pregunta es la que no puedes perder: ¿lleva cinco días o más de fiebre, con cuatro de cinco criterios de Kawasaki?"
     },
     {
       "file": "s08_g02",
-      "text": "Escarlatina: Pastia, Filatov y piel de lija. Es la única bacteriana de la tabla, así que es la única que lleva antibiótico: amoxicilina por diez días."
+      "text": "Si los cumple, es Kawasaki: ecocardiograma, inmunoglobulina endovenosa dos gramos por kilo y aspirina, antes del décimo día de fiebre."
     },
     {
       "file": "s08_g03",
-      "text": "Eritema infeccioso: bofetada y encaje, con manejo sintomático, pero atento a la crisis aplásica."
+      "text": "Si no, busca la firma de cada exantema."
     },
     {
       "file": "s08_g04",
-      "text": "Y Kawasaki: labios fisurados, ojo rojo seco y fiebre de cinco días. Inmunoglobulina endovenosa y aspirina. La trampa es tratarlo como escarlatina porque tiene lengua en frambuesa."
+      "text": "Manchas de Koplik con pródromo intenso es sarampión; ganglios retroauriculares con exantema de tres días, rubéola. Ambos se notifican de inmediato."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Faringitis con piel de lija, Pastia y Filatov: escarlatina. Amoxicilina por diez días completos."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Bofetada y exantema en encaje: parvovirus B diecinueve. Manejo sintomático, atento a la crisis aplásica en la anemia hemolítica y al hidrops en la embarazada."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso. Niño de tres años con seis días de fiebre de treinta y nueve y medio que no cede con paracetamol ni ibuprofeno. Tiene los ojos muy rojos sin secreción, labios secos con fisuras que sangran, lengua aframbuesada, exantema en el tronco y edema duro en palmas y plantas. Hay un ganglio cervical derecho de dos centímetros. El ecocardiograma inicial es normal."
+      "text": "Repasemos las firmas. Sarampión: manchas de Koplik y exantema confluente que baja lento. Se da vitamina A y soporte, y se notifica de inmediato."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta terapéutica inmediata?"
+      "text": "Rubéola: ganglios retroauriculares y un exantema rosado que dura tres días. Soporte, y también se notifica."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: amoxicilina por diez días, inmunoglobulina endovenosa más aspirina, corticoides orales, observar porque el ecocardiograma es normal, o vitamina A y notificar. Piénsalo."
+      "text": "Escarlatina: Pastia, Filatov y piel de lija. Es la única bacteriana de la tabla, así que es la única que lleva antibiótico: amoxicilina por diez días."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Fiebre de seis días con los cinco criterios: Kawasaki. Inmunoglobulina endovenosa, dos gramos por kilo, más aspirina, para prevenir los aneurismas. La D es la trampa: el ecocardiograma normal no te da permiso para esperar, porque los aneurismas aparecen en la fase subaguda y el tratamiento sirve justamente para evitarlos. La amoxicilina tienta por la lengua en frambuesa, pero no es escarlatina."
+      "text": "Eritema infeccioso: bofetada y encaje, con manejo sintomático, pero atento a la crisis aplásica."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y Kawasaki: labios fisurados, ojo rojo seco y fiebre de cinco días. Inmunoglobulina endovenosa y aspirina. La trampa es tratarlo como escarlatina porque tiene lengua en frambuesa."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Lactante de diez meses con eritema en la cara que al día siguiente se generaliza. Tiene un exantema rosado macular tenue, con adenopatías retroauriculares y cervicales posteriores."
+      "text": "Vamos al caso. Niño de tres años con seis días de fiebre de treinta y nueve y medio que no cede con paracetamol ni ibuprofeno. Tiene los ojos muy rojos sin secreción, labios secos con fisuras que sangran, lengua aframbuesada, exantema en el tronco y edema duro en palmas y plantas. Hay un ganglio cervical derecho de dos centímetros. El ecocardiograma inicial es normal."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta terapéutica inmediata?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: eritema infeccioso, rubéola, exantema por citomegalovirus, sarampión, o exantema súbito. Piénsalo."
+      "text": "Las opciones: amoxicilina por diez días, inmunoglobulina endovenosa más aspirina, corticoides orales, observar porque el ecocardiograma es normal, o vitamina A y notificar. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, rubéola. Exantema rosado tenue que baja rápido, con ganglios retroauriculares: esa es su firma. El sarampión tienta porque también es céfalo-caudal, pero es confluente, con un pródromo intenso y manchas de Koplik. Y con diez meses, este niño todavía no ha recibido la vacuna."
+      "text": "Es la B. Fiebre de seis días con los cinco criterios: Kawasaki. Inmunoglobulina endovenosa, dos gramos por kilo, más aspirina, para prevenir los aneurismas. La D es la trampa: el ecocardiograma normal no te da permiso para esperar, porque los aneurismas aparecen en la fase subaguda y el tratamiento sirve justamente para evitarlos. La amoxicilina tienta por la lengua en frambuesa, pero no es escarlatina."
     },
     {
       "file": "s11_g00",
-      "text": "Otra real, del EUNACOM de diciembre de dos mil diecisiete. Preescolar de cuatro años con fiebre hasta treinta y ocho y eritema en las mejillas, que aumenta con la fiebre y el calor. Luego aparece un exantema reticular en el tronco."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Lactante de diez meses con eritema en la cara que al día siguiente se generaliza. Tiene un exantema rosado macular tenue, con adenopatías retroauriculares y cervicales posteriores."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
-    },
-    {
-      "file": "s11_g02",
-      "text": "Las opciones: rubéola, Coxsackie, parvovirus B diecinueve, Streptococcus pyogenes, o herpes seis. Piénsalo."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Es la C, parvovirus B diecinueve. Mejillas rojas como una bofetada, que se acentúan con el calor, y después un exantema reticulado: eritema infeccioso. El estreptococo tienta por las mejillas rojas de la facies de Filatov, pero la escarlatina viene con faringitis y piel de lija, no con un patrón en encaje."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Una real sobre escarlatina, del EUNACOM de diciembre de dos mil dieciocho. Niño de siete años con fiebre, malestar y dolor de garganta, al que se le agrega un exantema. Tiene adenopatías cervicales anteriores sensibles y un rash generalizado, más marcado en los pliegues de los codos y las axilas. La piel se palpa áspera."
-    },
-    {
-      "file": "s12_g01",
-      "text": "¿Cuál es el agente más probable?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones: Epstein-Barr, sarampión, estreptococo betahemolítico del grupo A, rubéola, o Staphylococcus aureus. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Es la C, estreptococo del grupo A. Faringitis, piel áspera como lija y exantema más marcado en los pliegues, que son las líneas de Pastia: escarlatina. El Epstein-Barr tienta por la faringitis, pero recuerda la clase anterior: sus ganglios son posteriores y su exantema aparece tras la amoxicilina."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Ahora Kawasaki, con una real del EUNACOM de julio de dos mil veinticinco. Niño de ocho años con siete días de fiebre de treinta y nueve, exantema polimorfo, adenopatías cervicales, conjuntivitis bilateral sin secreción y lengua en fresa."
-    },
-    {
-      "file": "s13_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s11_g02",
+      "text": "Las opciones: eritema infeccioso, rubéola, exantema por citomegalovirus, sarampión, o exantema súbito. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, rubéola. Exantema rosado tenue que baja rápido, con ganglios retroauriculares: esa es su firma. El sarampión tienta porque también es céfalo-caudal, pero es confluente, con un pródromo intenso y manchas de Koplik. Y con diez meses, este niño todavía no ha recibido la vacuna."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Otra real, del EUNACOM de diciembre de dos mil diecisiete. Preescolar de cuatro años con fiebre hasta treinta y ocho y eritema en las mejillas, que aumenta con la fiebre y el calor. Luego aparece un exantema reticular en el tronco."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es el agente etiológico más probable?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: rubéola, Coxsackie, parvovirus B diecinueve, Streptococcus pyogenes, o herpes seis. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C, parvovirus B diecinueve. Mejillas rojas como una bofetada, que se acentúan con el calor, y después un exantema reticulado: eritema infeccioso. El estreptococo tienta por las mejillas rojas de la facies de Filatov, pero la escarlatina viene con faringitis y piel de lija, no con un patrón en encaje."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una real sobre escarlatina, del EUNACOM de diciembre de dos mil dieciocho. Niño de siete años con fiebre, malestar y dolor de garganta, al que se le agrega un exantema. Tiene adenopatías cervicales anteriores sensibles y un rash generalizado, más marcado en los pliegues de los codos y las axilas. La piel se palpa áspera."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el agente más probable?"
+    },
+    {
       "file": "s13_g02",
-      "text": "Las opciones: enfermedad de Kawasaki, mononucleosis, escarlatina, artritis idiopática juvenil, o sarampión. Piénsalo."
+      "text": "Las opciones: Epstein-Barr, sarampión, estreptococo betahemolítico del grupo A, rubéola, o Staphylococcus aureus. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la A, Kawasaki. Fiebre de más de cinco días con cuatro criterios: exantema, ganglio cervical, conjuntivitis seca y lengua en fresa. La escarlatina tienta por la lengua, pero no explica la fiebre tan larga ni la conjuntivitis. Fíjate además que tiene ocho años: la edad típica es bajo los cinco, pero los criterios mandan."
+      "text": "Es la C, estreptococo del grupo A. Faringitis, piel áspera como lija y exantema más marcado en los pliegues, que son las líneas de Pastia: escarlatina. El Epstein-Barr tienta por la faringitis, pero recuerda la clase anterior: sus ganglios son posteriores y su exantema aparece tras la amoxicilina."
     },
     {
       "file": "s14_g00",
-      "text": "Otra real, del EUNACOM de julio de dos mil veinticuatro. Niño de tres años con seis días de fiebre hasta treinta y nueve, rash en el tronco y las extremidades, adenopatías cervicales anteriores, e induración de la cicatriz de la vacuna BCG."
+      "text": "Ahora Kawasaki, con una real del EUNACOM de julio de dos mil veinticinco. Niño de ocho años con siete días de fiebre de treinta y nueve, exantema polimorfo, adenopatías cervicales, conjuntivitis bilateral sin secreción y lengua en fresa."
     },
     {
       "file": "s14_g01",
-      "text": "Además del hemograma, la VHS y la proteína C reactiva, ¿cuál es el examen de elección para continuar el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: antiestreptolisina O, procalcitonina, PCR para tuberculosis, ecocardiograma, o serología para Epstein-Barr. Piénsalo."
+      "text": "Las opciones: enfermedad de Kawasaki, mononucleosis, escarlatina, artritis idiopática juvenil, o sarampión. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la D, ecocardiograma. Fiebre larga, exantema y ganglio cervical en un preescolar te hacen sospechar Kawasaki, y lo que define el pronóstico son las coronarias. La PCR para tuberculosis tienta por la cicatriz BCG, pero el cuadro completo, fiebre larga con exantema y ganglio, es de Kawasaki, y lo urgente es mirar las coronarias."
+      "text": "Es la A, Kawasaki. Fiebre de más de cinco días con cuatro criterios: exantema, ganglio cervical, conjuntivitis seca y lengua en fresa. La escarlatina tienta por la lengua, pero no explica la fiebre tan larga ni la conjuntivitis. Fíjate además que tiene ocho años: la edad típica es bajo los cinco, pero los criterios mandan."
     },
     {
       "file": "s15_g00",
-      "text": "Y la última real, del EUNACOM de julio de dos mil diecisiete. Niño de dos años con siete días de fiebre, ojos rojos, boca roja con labios partidos, exantema generalizado, adenopatías cervicales y descamación gruesa de los dedos de las cuatro extremidades. Está hospitalizado y recibiendo el tratamiento adecuado."
+      "text": "Otra real, del EUNACOM de julio de dos mil veinticuatro. Niño de tres años con seis días de fiebre hasta treinta y nueve, rash en el tronco y las extremidades, adenopatías cervicales anteriores, e induración de la cicatriz de la vacuna BCG."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es la evolución más probable?"
+      "text": "Además del hemograma, la VHS y la proteína C reactiva, ¿cuál es el examen de elección para continuar el estudio?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: daño coronario permanente, recurrencia esporádica, resolución completa sin secuelas, daño vascular periférico, o daño valvular. Piénsalo."
+      "text": "Las opciones: antiestreptolisina O, procalcitonina, PCR para tuberculosis, ecocardiograma, o serología para Epstein-Barr. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la C, resolución completa. Es un Kawasaki, y con inmunoglobulina y aspirina el riesgo de aneurismas cae a menos del tres a cinco por ciento. La A es la trampa: el daño coronario es la complicación temida, pero es lo que ocurre sin tratamiento, no lo más probable con él."
+      "text": "Es la D, ecocardiograma. Fiebre larga, exantema y ganglio cervical en un preescolar te hacen sospechar Kawasaki, y lo que define el pronóstico son las coronarias. La PCR para tuberculosis tienta por la cicatriz BCG, pero el cuadro completo, fiebre larga con exantema y ganglio, es de Kawasaki, y lo urgente es mirar las coronarias."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Manchas de Koplik: sarampión. Ganglios retroauriculares con exantema de tres días: rubéola. Y los dos se notifican de inmediato."
+      "text": "Y la última real, del EUNACOM de julio de dos mil diecisiete. Niño de dos años con siete días de fiebre, ojos rojos, boca roja con labios partidos, exantema generalizado, adenopatías cervicales y descamación gruesa de los dedos de las cuatro extremidades. Está hospitalizado y recibiendo el tratamiento adecuado."
     },
     {
       "file": "s16_g01",
-      "text": "Bofetada y encaje: parvovirus B diecinueve, con riesgo de crisis aplásica en la anemia hemolítica."
+      "text": "¿Cuál es la evolución más probable?"
     },
     {
       "file": "s16_g02",
-      "text": "Piel de lija, Pastia y Filatov: escarlatina, y amoxicilina por diez días completos para prevenir la fiebre reumática."
+      "text": "Las opciones: daño coronario permanente, recurrencia esporádica, resolución completa sin secuelas, daño vascular periférico, o daño valvular. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la C, resolución completa. Es un Kawasaki, y con inmunoglobulina y aspirina el riesgo de aneurismas cae a menos del tres a cinco por ciento. La A es la trampa: el daño coronario es la complicación temida, pero es lo que ocurre sin tratamiento, no lo más probable con él."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Manchas de Koplik: sarampión. Ganglios retroauriculares con exantema de tres días: rubéola. Y los dos se notifican de inmediato."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Bofetada y encaje: parvovirus B diecinueve, con riesgo de crisis aplásica en la anemia hemolítica."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Piel de lija, Pastia y Filatov: escarlatina, y amoxicilina por diez días completos para prevenir la fiebre reumática."
+    },
+    {
+      "file": "s17_g03",
       "text": "Fiebre de cinco días o más con cuatro de cinco criterios: Kawasaki."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Inmunoglobulina endovenosa y aspirina antes del décimo día. Si te llevas una sola idea de hoy: un niño con fiebre de cinco días y labios fisurados es un Kawasaki hasta que se demuestre lo contrario, y sus coronarias no esperan. Nos vemos en la próxima clase."
     }
   ]

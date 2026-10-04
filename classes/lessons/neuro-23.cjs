@@ -156,6 +156,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Fractura de cadera',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cuello femoral', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
+        { src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_1__cto-trauma_p25.jpg', label: 'Clasificación de Garden', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' },
+      ],
+      steps: [
+        { note: 'La flecha marca la fractura',
+          say: 'Esta es una fractura del cuello femoral en un adulto mayor que se cayó. La pierna queda acortada y en rotación externa.' },
+        { note: 'Desplazada o no',
+          say: 'Las fracturas subcapitales se clasifican según su desplazamiento, y eso decide entre fijación o prótesis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, desde el adulto mayor que se cae hasta el pabellón.',
     },

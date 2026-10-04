@@ -152,6 +152,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'EPOC en la radiografía',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg', label: 'Hiperinsuflación', credit: 'The Chest X-Ray: A Survival Guide, Fig. 22.2' },
+        { src: 'biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg', label: 'Tipos de enfisema', credit: 'Manual CTO Neumología 14.ª ed., p. 43' },
+      ],
+      steps: [
+        { note: 'Diafragmas aplanados, pulmón negro',
+          say: 'En la EPOC la radiografía muestra pulmones hiperinsuflados: los diafragmas bajos y aplanados, más espacios intercostales, y un corazón largo y estrecho. Pero recuerda: el diagnóstico es con espirometría, no con la radiografía.' },
+        { note: 'Centrolobulillar vs panacinar',
+          say: 'Y este esquema muestra los tipos de enfisema. El centrolobulillar, del fumador, destruye el centro del lobulillo en los lóbulos superiores; el panacinar, del déficit de alfa uno antitripsina, destruye todo el acino en las bases.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, tal como lo vas a razonar frente a un paciente con EPOC en el policlínico.',
     },

@@ -2,7 +2,7 @@
   "id": "cirugia-01",
   "title": "Cirugia 11.1: Apendicitis Aguda: Score de Alvarado, Diagnóstico Clínico & Apendicectomía",
   "specialty": "Cirugía General",
-  "chars": 10613,
+  "chars": 10821,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,99 +102,91 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo esto en un solo árbol, tal como lo vas a razonar en el examen. Un paciente llega con dolor que migró del epigastrio a la fosa ilíaca derecha. Antes de examinar más, arma el score de Alvarado: ahí está la decisión completa."
+      "text": "El punto de McBurney está en la unión del tercio externo con los dos tercios internos entre la espina ilíaca y el ombligo."
     },
     {
       "file": "s06_g01",
-      "text": "Suma migración, anorexia, náuseas, dolor y rebote en la fosa ilíaca derecha, fiebre, leucocitosis y neutrofilia."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Con un score bajo, la apendicitis es poco probable: observas y piensas en otra causa del dolor."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con score intermedio necesitas una imagen antes de decidir, y el examen elegido cambia según el paciente."
-    },
-    {
-      "file": "s06_g04",
-      "text": "En el adulto que no está embarazada, el TAC con contraste es el estándar de oro para confirmar o descartar."
-    },
-    {
-      "file": "s06_g05",
-      "text": "En niños, mujeres en edad fértil y embarazadas, empiezas con ecografía para no exponer a radiación de más."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Con score alto y clínica típica, no pierdes tiempo: profilaxis antibiótica en dosis única y apendicectomía directa."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Si el paciente lleva varios días de evolución, antes de pensar en cirugía de urgencia pregúntate si ya se formó una masa."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Con un plastrón flemoso, sin colección líquida, tratas con antibióticos y difieres la cirugía ocho a doce semanas."
-    },
-    {
-      "file": "s06_g09",
-      "text": "Si ya hay un absceso organizado, el drenaje percutáneo guiado por imagen resuelve el foco sin necesidad de laparotomía."
+      "text": "Y estas son las imágenes: el apéndice engrosado en la ecografía y la pieza operatoria."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Hombre joven con Alvarado alto: apendicectomía directa. El error es pedir un TAC que solo retrasa la cirugía."
+      "text": "Juntemos todo esto en un solo árbol, tal como lo vas a razonar en el examen. Un paciente llega con dolor que migró del epigastrio a la fosa ilíaca derecha. Antes de examinar más, arma el score de Alvarado: ahí está la decisión completa."
     },
     {
       "file": "s07_g01",
-      "text": "En mujeres jóvenes o niños, la ecografía va primero. El error es saltarse ese paso y pedir TAC de entrada, exponiendo a radiación innecesaria."
+      "text": "Suma migración, anorexia, náuseas, dolor y rebote en la fosa ilíaca derecha, fiebre, leucocitosis y neutrofilia."
     },
     {
       "file": "s07_g02",
-      "text": "Plastrón sin colección líquida: antibióticos y cirugía diferida. Operar de urgencia aquí es la respuesta incorrecta más clásica."
+      "text": "Con un score bajo, la apendicitis es poco probable: observas y piensas en otra causa del dolor."
     },
     {
       "file": "s07_g03",
-      "text": "Y en la apendicitis no perforada, el antibiótico es una sola dosis antes de la cirugía. Mantenerlo varios días después no cambia nada y es un error que se pregunta seguido."
+      "text": "Con score intermedio necesitas una imagen antes de decidir, y el examen elegido cambia según el paciente."
     },
     {
       "file": "s07_g04",
-      "text": "Y una última que ya viste en el caso de la mujer joven: si hay duda con la fosa ilíaca derecha en una mujer, la ecografía ginecológica va primero. Operar directo sin mirar los anexos te puede hacer perder una torsión ovárica que también corre contra el tiempo."
+      "text": "En el adulto que no está embarazada, el TAC con contraste es el estándar de oro para confirmar o descartar."
+    },
+    {
+      "file": "s07_g05",
+      "text": "En niños, mujeres en edad fértil y embarazadas, empiezas con ecografía para no exponer a radiación de más."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Con score alto y clínica típica, no pierdes tiempo: profilaxis antibiótica en dosis única y apendicectomía directa."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si el paciente lleva varios días de evolución, antes de pensar en cirugía de urgencia pregúntate si ya se formó una masa."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Con un plastrón flemoso, sin colección líquida, tratas con antibióticos y difieres la cirugía ocho a doce semanas."
+    },
+    {
+      "file": "s07_g09",
+      "text": "Si ya hay un absceso organizado, el drenaje percutáneo guiado por imagen resuelve el foco sin necesidad de laparotomía."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de veintidós años, con dolor que empezó hace catorce horas en el epigastrio y hace cuatro horas se trasladó a la fosa ilíaca derecha. Tiene anorexia y una náusea. Temperatura de treinta y siete coma seis, dolor exquisito en McBurney con Blumberg positivo, y doce mil quinientos leucocitos con setenta y ocho por ciento de neutrófilos."
+      "text": "Repasemos las trampas. Hombre joven con Alvarado alto: apendicectomía directa. El error es pedir un TAC que solo retrasa la cirugía."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "En mujeres jóvenes o niños, la ecografía va primero. El error es saltarse ese paso y pedir TAC de entrada, exponiendo a radiación innecesaria."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: pedir un TAC antes de decidir, dar profilaxis antibiótica y operar directo, pedir una ecografía urgente, dar antibióticos orales y observar, o pedir una radiografía simple. Piénsalo."
+      "text": "Plastrón sin colección líquida: antibióticos y cirugía diferida. Operar de urgencia aquí es la respuesta incorrecta más clásica."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Súmale los puntos: migración, anorexia, náuseas, dos por el dolor en la fosa ilíaca derecha, rebote, dos por la leucocitosis y uno por la neutrofilia. Da ocho puntos, alta probabilidad. En un hombre joven con este cuadro, no necesitas ninguna imagen: profilaxis antibiótica y apendicectomía directa. Pedir TAC o ecografía aquí solo demora una cirugía que ya está indicada, y encima expone al paciente a radiación o a un examen que no va a cambiar tu conducta."
+      "text": "Y en la apendicitis no perforada, el antibiótico es una sola dosis antes de la cirugía. Mantenerlo varios días después no cambia nada y es un error que se pregunta seguido."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y una última que ya viste en el caso de la mujer joven: si hay duda con la fosa ilíaca derecha en una mujer, la ecografía ginecológica va primero. Operar directo sin mirar los anexos te puede hacer perder una torsión ovárica que también corre contra el tiempo."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Niña de siete años, con doce horas de fiebre y dolor en el hipogastrio. Temperatura de treinta y ocho coma siete, frecuencia cardíaca de cien, dolor a la palpación con Blumberg positivo y resistencia de la pared. Dieciocho mil leucocitos, y el sedimento de orina muestra veinte leucocitos por campo."
+      "text": "Vamos con un caso. Hombre de veintidós años, con dolor que empezó hace catorce horas en el epigastrio y hace cuatro horas se trasladó a la fosa ilíaca derecha. Tiene anorexia y una náusea. Temperatura de treinta y siete coma seis, dolor exquisito en McBurney con Blumberg positivo, y doce mil quinientos leucocitos con setenta y ocho por ciento de neutrófilos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: pielonefritis aguda, apendicitis aguda, infección urinaria baja, torsión ovárica, o plastrón apendicular. Piénsalo."
+      "text": "Tienes cinco opciones: pedir un TAC antes de decidir, dar profilaxis antibiótica y operar directo, pedir una ecografía urgente, dar antibióticos orales y observar, o pedir una radiografía simple. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, apendicitis aguda. Fíjate en el distractor: los leucocitos en la orina tientan a pensar en una infección urinaria, pero un apéndice inflamado que toca la vejiga puede irritarla y dar ese mismo hallazgo, sin que exista infección urinaria real. Lo que manda acá es el Blumberg positivo con resistencia muscular: eso es irritación peritoneal, no una simple cistitis."
+      "text": "Es la B. Súmale los puntos: migración, anorexia, náuseas, dos por el dolor en la fosa ilíaca derecha, rebote, dos por la leucocitosis y uno por la neutrofilia. Da ocho puntos, alta probabilidad. En un hombre joven con este cuadro, no necesitas ninguna imagen: profilaxis antibiótica y apendicectomía directa. Pedir TAC o ecografía aquí solo demora una cirugía que ya está indicada, y encima expone al paciente a radiación o a un examen que no va a cambiar tu conducta."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Mujer de veinticinco años, con dolor abdominal intenso en la fosa ilíaca derecha y el hipogastrio. Dos horas después de llegar a urgencias, se descompensa: la frecuencia cardíaca sube a ciento veinte y la presión baja a ochenta sobre cuarenta."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Niña de siete años, con doce horas de fiebre y dolor en el hipogastrio. Temperatura de treinta y ocho coma siete, frecuencia cardíaca de cien, dolor a la palpación con Blumberg positivo y resistencia de la pared. Dieciocho mil leucocitos, y el sedimento de orina muestra veinte leucocitos por campo."
     },
     {
       "file": "s10_g01",
@@ -202,30 +194,46 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: apendicitis aguda, perforación intestinal, torsión ovárica, absceso tubo-ovárico roto, o embarazo ectópico roto. Piénsalo."
+      "text": "Las opciones son: pielonefritis aguda, apendicitis aguda, infección urinaria baja, torsión ovárica, o plastrón apendicular. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la A. El punto clave es la velocidad del deterioro: en dos horas pasa de un dolor abdominal a un shock franco. Eso habla de una apendicitis que ya se perforó y está generando una peritonitis séptica. Los diagnósticos ginecológicos son tentadores por ser mujer joven, pero ninguno explica tan bien ese colapso hemodinámico tan rápido sobre un dolor que ya afectaba ambas fosas ilíacas."
+      "text": "Es la B, apendicitis aguda. Fíjate en el distractor: los leucocitos en la orina tientan a pensar en una infección urinaria, pero un apéndice inflamado que toca la vejiga puede irritarla y dar ese mismo hallazgo, sin que exista infección urinaria real. Lo que manda acá es el Blumberg positivo con resistencia muscular: eso es irritación peritoneal, no una simple cistitis."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Con Alvarado alto en un cuadro típico, vas directo a pabellón."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Mujer de veinticinco años, con dolor abdominal intenso en la fosa ilíaca derecha y el hipogastrio. Dos horas después de llegar a urgencias, se descompensa: la frecuencia cardíaca sube a ciento veinte y la presión baja a ochenta sobre cuarenta."
     },
     {
       "file": "s11_g01",
-      "text": "Con score intermedio, pides imagen: TAC en el adulto, ecografía si es niño, mujer joven o embarazada."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "En apendicitis no perforada, el antibiótico es dosis única antes de operar. Nada más."
+      "text": "Las opciones son: apendicitis aguda, perforación intestinal, torsión ovárica, absceso tubo-ovárico roto, o embarazo ectópico roto. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "La respuesta es la A. El punto clave es la velocidad del deterioro: en dos horas pasa de un dolor abdominal a un shock franco. Eso habla de una apendicitis que ya se perforó y está generando una peritonitis séptica. Los diagnósticos ginecológicos son tentadores por ser mujer joven, pero ninguno explica tan bien ese colapso hemodinámico tan rápido sobre un dolor que ya afectaba ambas fosas ilíacas."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Con Alvarado alto en un cuadro típico, vas directo a pabellón."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Con score intermedio, pides imagen: TAC en el adulto, ecografía si es niño, mujer joven o embarazada."
+    },
+    {
+      "file": "s12_g02",
+      "text": "En apendicitis no perforada, el antibiótico es dosis única antes de operar. Nada más."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y si el paciente llega con un plastrón, no operas de entrada: antibióticos, y cirugía electiva más adelante, cuando la inflamación ya bajó y disecar es seguro."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Si te llevas una sola idea de hoy: el score de Alvarado te dice cuándo operar sin pensarlo, y cuándo detenerte a mirar una imagen, sobre todo en mujeres jóvenes, niños y embarazadas. Nos vemos en la próxima clase."
     }
   ]

@@ -119,6 +119,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Histerosalpingografía',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg', label: 'Normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' },
+      ],
+      steps: [
+        { note: 'Contraste que sale por las trompas',
+          say: 'En una histerosalpingografía normal el contraste llena el útero, recorre las trompas y sale al peritoneo. Si no sale, la trompa está obstruida.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

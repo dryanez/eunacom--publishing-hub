@@ -212,6 +212,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Tromboembolismo pulmonar',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-19/01_angiotc-tep__cto-neumo_p103.jpg', label: 'AngioTC', credit: 'Manual CTO Neumología 14.ª ed., p. 103' },
+        { src: 'biblioteca/02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg', label: 'ECG en TEP', credit: 'ECG from Basics to Essentials, p. 195' },
+      ],
+      steps: [
+        { note: 'Defecto de llenado en la arteria',
+          say: 'En la angiotomografía el contraste llena las arterias pulmonares de blanco, y el trombo se ve como un defecto oscuro dentro de ellas. Es el examen de elección si el paciente está estable.' },
+        { note: 'S en uno, Q y T negativa en tres',
+          say: 'Y este es el electrocardiograma: taquicardia, S profunda en primera derivada, Q y T negativa en tercera. Es el patrón S uno Q tres T tres. Recuerda que es poco sensible: lo más frecuente es solo la taquicardia sinusal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

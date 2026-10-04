@@ -97,6 +97,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Escleritis y epiescleritis',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg', label: 'Escleritis', credit: 'Manual CTO Oftalmología 14.ª ed., p. 42' },
+        { src: 'biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg', label: 'Epiescleritis', credit: 'Manual AMIR Oftalmología, p. 47' },
+      ],
+      steps: [
+        { note: 'Dolorosa, violácea',
+          say: 'La escleritis es dolorosa y violácea, y se asocia a enfermedades sistémicas.' },
+        { note: 'Leve, blanquea con fenilefrina',
+          say: 'La epiescleritis es leve y blanquea con fenilefrina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

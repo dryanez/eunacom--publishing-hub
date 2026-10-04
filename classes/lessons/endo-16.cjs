@@ -242,6 +242,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El calcio en el ECG',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg', label: 'QT y calcio', credit: 'ECG from Basics to Essentials, p. 331' },
+        { src: 'biblioteca/05_endocrinologia/endo-16/02_ecg_hipercalcemia_qt_corto__ecg-basics_p331.jpg', label: 'ECG de hipercalcemia', credit: 'ECG from Basics to Essentials, p. 331' },
+      ],
+      steps: [
+        { note: 'Hipercalcemia acorta, hipocalcemia alarga',
+          say: 'El calcio cambia el QT. La hipercalcemia lo acorta; la hipocalcemia lo alarga.' },
+        { note: 'QT corto',
+          say: 'Este es un electrocardiograma de hipercalcemia: el QT es corto, la T aparece casi pegada al QRS.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

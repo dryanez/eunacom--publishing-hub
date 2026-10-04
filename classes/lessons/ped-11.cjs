@@ -180,6 +180,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Deshidratación',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-11/01_pliegue_persistente__commons.jpg', label: 'Pliegue persistente', credit: 'Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert' },
+      ],
+      steps: [
+        { note: 'Turgor disminuido',
+          say: 'El pliegue que no vuelve es un signo de deshidratación moderada a grave.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los tres planes y la alerta del síndrome hemolítico urémico en un solo árbol.',
     },

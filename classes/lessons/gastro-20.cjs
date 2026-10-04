@@ -209,6 +209,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Isquemia mesentérica',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-20/01_tc_isquemia_mesenterica__commons.jpg', label: 'Isquemia intestinal', credit: 'Wikimedia Commons «Ischemicbowel.PNG», CC BY-SA 3.0, James Heilman, MD' },
+      ],
+      steps: [
+        { note: 'Asas dilatadas y engrosadas',
+          say: 'En esta tomografía las asas de intestino están dilatadas y con pared engrosada, por una trombosis mesentérica. Recuerda que el examen físico suele ser casi normal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las tres entidades en un solo árbol de decisión.',
     },

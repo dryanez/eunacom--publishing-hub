@@ -216,6 +216,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El pie diabético',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_1__cto-endocrino_p114.jpg', label: 'Úlcera y necrosis', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
+        { src: 'biblioteca/04_diabetes/diab-22/02_clasificacion-de-wagner__cto-endocrino_p113.jpg', label: 'Clasificación de Wagner', credit: 'Manual CTO Endocrinología 14.ª ed., p. 113' },
+      ],
+      steps: [
+        { note: 'Lesión en punto de apoyo',
+          say: 'Esta úlcera con necrosis está en un punto de apoyo del pie. Es la consecuencia de la neuropatía: el paciente no siente la herida.' },
+        { note: 'Profundidad e infección',
+          say: 'Y esta es la clasificación de Wagner: de la úlcera superficial a la gangrena. Si el estilete toca hueso, hay que pensar en osteomielitis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, tal como lo razonas frente a un pie diabético.',
     },

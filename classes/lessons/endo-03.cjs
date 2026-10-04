@@ -203,6 +203,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'El coma mixedematoso',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg', label: 'Mixedema grave', credit: 'Wikimedia Commons «Myxedema face.png», CC BY 2.5, Herbert L. Fred, MD and Hendrik A. van Dijk' },
+      ],
+      steps: [
+        { note: 'Facies infiltrada, apatía',
+          say: 'En el mixedema grave la cara está infiltrada y el paciente apático. Si además hay hipotermia y compromiso de conciencia, es un coma mixedematoso: corticoide primero, después la levotiroxina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos el rescate completo en un árbol, en el orden en que lo harías en la urgencia.',
     },

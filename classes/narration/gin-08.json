@@ -2,7 +2,7 @@
   "id": "gin-08",
   "title": "Ginecologia 20.8: Anticoncepción y Planificación Familiar: Criterios Médicos de Elegibilidad OMS y Píldora de Emergencia",
   "specialty": "Ginecología",
-  "chars": 9340,
+  "chars": 9526,
   "segments": [
     {
       "file": "s00_g00",
@@ -122,130 +122,142 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos las dos decisiones en un solo árbol. Partamos de la consulta. Primero define si es una asesoría de rutina, o si viene por una anticoncepción de emergencia."
+      "text": "Estos son el DIU de cobre y el DIU con levonorgestrel."
     },
     {
       "file": "s07_g01",
-      "text": "Si es rutina, la pregunta clave es si tiene alguna condición categoría cuatro para el estrógeno."
+      "text": "Y el implante subdérmico de etonogestrel, una varilla que dura tres años."
     },
     {
       "file": "s07_g02",
-      "text": "Si tiene alguna, nunca uses estrógeno: ni combinado oral, ni parche, ni anillo."
-    },
-    {
-      "file": "s07_g03",
-      "text": "La alternativa es un método solo progestágeno, o el DIU de cobre, según lo que ella prefiera."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si no tiene ninguna condición categoría cuatro, puede elegir libremente entre un combinado o un DIU."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si consulta por emergencia, pregúntale cuántas horas pasaron desde la relación sin protección."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Dentro de las ciento veinte horas, levonorgestrel un punto cinco miligramos en dosis única es la opción estándar. Si buscas la máxima eficacia, el DIU de cobre."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Y si vomitó antes de las dos horas de tomarla, repite la dosis completa: se asume que no alcanzó a absorberse."
+      "text": "Se coloca y se retira por una pequeña incisión en el brazo."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos en una tabla. Fumadora de treinta y cinco o más: prohibido el combinado, pero sin restricción el solo progestágeno o el cobre."
+      "text": "Juntemos las dos decisiones en un solo árbol. Partamos de la consulta. Primero define si es una asesoría de rutina, o si viene por una anticoncepción de emergencia."
     },
     {
       "file": "s08_g01",
-      "text": "Migraña con aura: mismo patrón, prohibido el combinado, seguro todo lo demás."
+      "text": "Si es rutina, la pregunta clave es si tiene alguna condición categoría cuatro para el estrógeno."
     },
     {
       "file": "s08_g02",
-      "text": "Trombosis venosa previa: igual, el combinado queda fuera."
+      "text": "Si tiene alguna, nunca uses estrógeno: ni combinado oral, ni parche, ni anillo."
     },
     {
       "file": "s08_g03",
-      "text": "Pero fíjate en esta fila, que es distinta: con cáncer de mama actual, también se prohíbe el solo progestágeno, porque el tumor es hormonodependiente. Solo el DIU de cobre queda disponible."
+      "text": "La alternativa es un método solo progestágeno, o el DIU de cobre, según lo que ella prefiera."
     },
     {
       "file": "s08_g04",
-      "text": "Y esta fila se invierte del todo: con infección pélvica activa, lo prohibido es justamente el DIU de cobre, por el riesgo de diseminar la infección."
+      "text": "Si no tiene ninguna condición categoría cuatro, puede elegir libremente entre un combinado o un DIU."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si consulta por emergencia, pregúntale cuántas horas pasaron desde la relación sin protección."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Dentro de las ciento veinte horas, levonorgestrel un punto cinco miligramos en dosis única es la opción estándar. Si buscas la máxima eficacia, el DIU de cobre."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Y si vomitó antes de las dos horas de tomarla, repite la dosis completa: se asume que no alcanzó a absorberse."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso. Mujer de treinta y siete años, fumadora de veinte cigarrillos al día desde los dieciocho años, solicita el mismo anticonceptivo combinado de etinilestradiol con drospirenona que usa su amiga. No tiene otros antecedentes, y su presión arterial es ciento veinticinco sobre ochenta."
+      "text": "Repasemos en una tabla. Fumadora de treinta y cinco o más: prohibido el combinado, pero sin restricción el solo progestágeno o el cobre."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Migraña con aura: mismo patrón, prohibido el combinado, seguro todo lo demás."
     },
     {
       "file": "s09_g02",
-      "text": "Tienes cinco opciones: indicar el combinado solicitado, denegarlo y ofrecer solo progestágeno o DIU de cobre, indicarlo en dosis reducida, indicarlo en parche, o indicarlo en anillo vaginal. Piénsalo."
+      "text": "Trombosis venosa previa: igual, el combinado queda fuera."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Y fíjate en la trampa: no importa si cambias la vía a parche o anillo, o si bajas la dosis. Ser fumadora de treinta y cinco años o más, con veinte cigarrillos al día, es categoría cuatro para cualquier estrógeno, por cualquier vía. Lo correcto es explicarle el riesgo y ofrecerle un método solo progestágeno o el DIU de cobre."
+      "text": "Pero fíjate en esta fila, que es distinta: con cáncer de mama actual, también se prohíbe el solo progestágeno, porque el tumor es hormonodependiente. Solo el DIU de cobre queda disponible."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y esta fila se invierte del todo: con infección pélvica activa, lo prohibido es justamente el DIU de cobre, por el riesgo de diseminar la infección."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintidós años, nulípara, con migrañas a repetición y un episodio de amaurosis fugax, quiere iniciar un método anticonceptivo. Su examen físico es normal."
+      "text": "Vamos al caso. Mujer de treinta y siete años, fumadora de veinte cigarrillos al día desde los dieciocho años, solicita el mismo anticonceptivo combinado de etinilestradiol con drospirenona que usa su amiga. No tiene otros antecedentes, y su presión arterial es ciento veinticinco sobre ochenta."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál de los siguientes métodos anticonceptivos indicaría a esta paciente?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: combinado oral, combinado transdérmico, salpingoligadura, DIU con progestágeno, o combinado inyectable. Piénsalo."
+      "text": "Tienes cinco opciones: indicar el combinado solicitado, denegarlo y ofrecer solo progestágeno o DIU de cobre, indicarlo en dosis reducida, indicarlo en parche, o indicarlo en anillo vaginal. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la D. La amaurosis fugax es una forma de aura visual: eso hace que cualquier estrógeno, por cualquier vía, sea categoría cuatro para ella. La salpingoligadura queda fuera por ser irreversible en una paciente joven y nulípara. El DIU con progestágeno es la opción segura, aunque la nuliparidad sea apenas una contraindicación relativa y menor."
+      "text": "Es la B. Y fíjate en la trampa: no importa si cambias la vía a parche o anillo, o si bajas la dosis. Ser fumadora de treinta y cinco años o más, con veinte cigarrillos al día, es categoría cuatro para cualquier estrógeno, por cualquier vía. Lo correcto es explicarle el riesgo y ofrecerle un método solo progestágeno o el DIU de cobre."
     },
     {
       "file": "s11_g00",
-      "text": "Y otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Mujer de veinte años, nuligesta, tuvo relaciones sexuales sin protección hace setenta y dos horas y consulta por anticoncepción de emergencia."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintidós años, nulípara, con migrañas a repetición y un episodio de amaurosis fugax, quiere iniciar un método anticonceptivo. Su examen físico es normal."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la más efectiva?"
+      "text": "¿Cuál de los siguientes métodos anticonceptivos indicaría a esta paciente?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: levonorgestrel en dosis única, levonorgestrel en dos dosis separadas, método de Yuzpe, anillo vaginal, o DIU de cobre. Piénsalo."
+      "text": "Las opciones: combinado oral, combinado transdérmico, salpingoligadura, DIU con progestágeno, o combinado inyectable. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. Aunque el levonorgestrel es el que más usas en la práctica, si te preguntan por el método más eficaz, la respuesta es el DIU de cobre: por encima del noventa y nueve por ciento, muy superior a cualquier pastilla, y además le queda anticoncepción para los próximos diez años."
+      "text": "La respuesta es la D. La amaurosis fugax es una forma de aura visual: eso hace que cualquier estrógeno, por cualquier vía, sea categoría cuatro para ella. La salpingoligadura queda fuera por ser irreversible en una paciente joven y nulípara. El DIU con progestágeno es la opción segura, aunque la nuliparidad sea apenas una contraindicación relativa y menor."
     },
     {
       "file": "s12_g00",
-      "text": "Y la última pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con un hijo de ocho meses, aún en lactancia materna, consulta por el método anticonceptivo más adecuado."
+      "text": "Y otra pregunta real, del EUNACOM de diciembre de dos mil veintidós. Mujer de veinte años, nuligesta, tuvo relaciones sexuales sin protección hace setenta y dos horas y consulta por anticoncepción de emergencia."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el método anticonceptivo más adecuado?"
+      "text": "¿Cuál es la más efectiva?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: combinado oral, DIU con levonorgestrel, anillo vaginal, parche transdérmico, o implante de etonogestrel. Piénsalo."
+      "text": "Las opciones: levonorgestrel en dosis única, levonorgestrel en dos dosis separadas, método de Yuzpe, anillo vaginal, o DIU de cobre. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta es la B. A los ocho meses ya pasaron las primeras seis semanas postparto, así que la lactancia por sí sola ya no prohíbe el estrógeno, pero el DIU con levonorgestrel sigue siendo la mejor opción: no tiene estrógeno, no afecta la leche, y le da protección de larga duración sin que tenga que acordarse de nada."
+      "text": "Es la E. Aunque el levonorgestrel es el que más usas en la práctica, si te preguntan por el método más eficaz, la respuesta es el DIU de cobre: por encima del noventa y nueve por ciento, muy superior a cualquier pastilla, y además le queda anticoncepción para los próximos diez años."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos. Fumadora de treinta y cinco o más, migraña con aura, trombosis venosa o hipertensión severa: nunca estrógeno."
+      "text": "Y la última pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con un hijo de ocho meses, aún en lactancia materna, consulta por el método anticonceptivo más adecuado."
     },
     {
       "file": "s13_g01",
-      "text": "En esas pacientes, solo progestágeno o DIU de cobre: ninguno sube el riesgo de trombosis."
+      "text": "¿Cuál es el método anticonceptivo más adecuado?"
     },
     {
       "file": "s13_g02",
+      "text": "Las opciones: combinado oral, DIU con levonorgestrel, anillo vaginal, parche transdérmico, o implante de etonogestrel. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta es la B. A los ocho meses ya pasaron las primeras seis semanas postparto, así que la lactancia por sí sola ya no prohíbe el estrógeno, pero el DIU con levonorgestrel sigue siendo la mejor opción: no tiene estrógeno, no afecta la leche, y le da protección de larga duración sin que tenga que acordarse de nada."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos. Fumadora de treinta y cinco o más, migraña con aura, trombosis venosa o hipertensión severa: nunca estrógeno."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En esas pacientes, solo progestágeno o DIU de cobre: ninguno sube el riesgo de trombosis."
+    },
+    {
+      "file": "s14_g02",
       "text": "Si te llevas una sola idea de hoy: levonorgestrel en dosis única para la emergencia, y el DIU de cobre cuando lo que buscas es la máxima eficacia. Nos vemos en la próxima clase."
     }
   ]

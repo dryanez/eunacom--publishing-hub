@@ -178,6 +178,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Compresión medular',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg', label: 'Compresión medular', credit: 'Harrison 21.ª ed., p. 3489' },
+      ],
+      steps: [
+        { note: 'La metástasis comprime la médula',
+          say: 'En esta resonancia una metástasis comprime la médula. Dolor de espalda en un paciente con cáncer obliga a pedirla, antes de que aparezca la debilidad.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las tres urgencias en un árbol de decisión, partiendo del paciente oncológico que se descompensa.',
     },

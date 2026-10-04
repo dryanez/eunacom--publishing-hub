@@ -116,6 +116,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Retinopatía diabética',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Retinopatía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
+      ],
+      steps: [
+        { note: 'Hemorragias y exudados',
+          say: 'La retinopatía diabética da microaneurismas, hemorragias y exudados.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

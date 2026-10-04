@@ -131,6 +131,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Tamizaje neonatal',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg', label: 'Punción del talón', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 3' },
+        { src: 'biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg', label: 'Tarjeta de papel filtro', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 2' },
+        { src: 'biblioteca/15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg', label: 'Calidad de la muestra', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, p. 26' },
+      ],
+      steps: [
+        { note: 'Bordes laterales',
+          say: 'Se punciona el borde lateral del talón.' },
+        { note: 'Una gota por círculo',
+          say: 'Una gota llena cada círculo de la tarjeta.' },
+        { note: 'Satisfactoria o no',
+          say: 'Y estas son las muestras que se rechazan.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo el flujo del tamizaje en un solo árbol.',
     },

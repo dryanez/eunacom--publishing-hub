@@ -2,7 +2,7 @@
   "id": "infecto-03",
   "title": "Infectologia 1.3: Encefalitis Aguda por VHS y Absceso Cerebral",
   "specialty": "Infectología",
-  "chars": 13138,
+  "chars": 13350,
   "segments": [
     {
       "file": "s00_g00",
@@ -138,87 +138,79 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol de decisión: fiebre con compromiso neurológico, y qué mirar para saber si es meninge, cerebro o absceso. Paciente con fiebre y síntomas neurológicos. Para saber si el problema está en la meninge, en el cerebro o en un absceso, mira qué es lo que falla."
+      "text": "La encefalitis herpética compromete el lóbulo temporal. Fiebre, compromiso de conciencia y alteración conductual: aciclovir sin esperar el examen."
     },
     {
       "file": "s07_g01",
-      "text": "La pregunta es qué domina: los signos meníngeos, la función cerebral superior, o un déficit focal que progresa."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si dominan la rigidez de nuca y los signos meníngeos con la conciencia relativamente conservada, estás frente a una meningitis, y aplicas lo de la clase anterior."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si domina la conducta alterada, la afasia o las crisis focales, sospechas encefalitis herpética e inicias aciclovir endovenoso de inmediato."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Después confirmas con resonancia, que muestra el lóbulo temporal, y con la PCR para herpes en el líquido. El tratamiento sigue catorce a veintiún días."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si domina un déficit focal con cefalea persistente, pides imagen con contraste, sin puncionar, buscando una lesión en anillo."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si la hay, es un absceso: ceftriaxona más metronidazol, vancomicina si hubo trauma o cirugía, y drenaje quirúrgico si mide más de dos coma cinco centímetros."
+      "text": "Y el absceso se ve como una lesión con anillo que capta contraste."
     },
     {
       "file": "s08_g00",
-      "text": "Comparemos los tres cuadros, porque el examen los pone como alternativas unos de otros. En la meningitis la función cerebral está conservada o hay solo somnolencia. En la encefalitis está marcadamente alterada. Y en el absceso lo que domina es una focalidad que progresa."
+      "text": "Juntemos todo en un árbol de decisión: fiebre con compromiso neurológico, y qué mirar para saber si es meninge, cerebro o absceso. Paciente con fiebre y síntomas neurológicos. Para saber si el problema está en la meninge, en el cerebro o en un absceso, mira qué es lo que falla."
     },
     {
       "file": "s08_g01",
-      "text": "Los signos meníngeos son marcados en la meningitis, ausentes o leves en la encefalitis, y raros en el absceso, salvo que se rompa hacia el ventrículo."
+      "text": "La pregunta es qué domina: los signos meníngeos, la función cerebral superior, o un déficit focal que progresa."
     },
     {
       "file": "s08_g02",
-      "text": "En la imagen: la meningitis suele tener una imagen normal; la encefalitis, la hiperintensidad temporal en la resonancia; y el absceso, la lesión en anillo."
+      "text": "Si dominan la rigidez de nuca y los signos meníngeos con la conciencia relativamente conservada, estás frente a una meningitis, y aplicas lo de la clase anterior."
     },
     {
       "file": "s08_g03",
-      "text": "En el líquido: neutrófilos y glucosa baja en la meningitis bacteriana; linfocitos con glóbulos rojos y PCR positiva en la encefalitis herpética; y en el absceso no se puncionan, por el riesgo de herniación."
+      "text": "Si domina la conducta alterada, la afasia o las crisis focales, sospechas encefalitis herpética e inicias aciclovir endovenoso de inmediato."
     },
     {
       "file": "s08_g04",
-      "text": "Y el tratamiento: ceftriaxona y vancomicina, con ampicilina según el riesgo de Listeria, para la meningitis; aciclovir para la encefalitis; y ceftriaxona con metronidazol, más cirugía si corresponde, para el absceso."
+      "text": "Después confirmas con resonancia, que muestra el lóbulo temporal, y con la PCR para herpes en el líquido. El tratamiento sigue catorce a veintiún días."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si domina un déficit focal con cefalea persistente, pides imagen con contraste, sin puncionar, buscando una lesión en anillo."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si la hay, es un absceso: ceftriaxona más metronidazol, vancomicina si hubo trauma o cirugía, y drenaje quirúrgico si mide más de dos coma cinco centímetros."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de cuarenta y dos años, sano, con tres días de fiebre leve, cefalea y una conducta cada vez más inapropiada y desinhibida. La esposa cuenta que no entiende lo que le dicen y que dice palabras incoherentes. Durante la evaluación hace una convulsión focal del brazo y la cara del lado derecho. No tiene rigidez de nuca franca, y tiene una afasia sensitiva evidente."
+      "text": "Comparemos los tres cuadros, porque el examen los pone como alternativas unos de otros. En la meningitis la función cerebral está conservada o hay solo somnolencia. En la encefalitis está marcadamente alterada. Y en el absceso lo que domina es una focalidad que progresa."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "Los signos meníngeos son marcados en la meningitis, ausentes o leves en la encefalitis, y raros en el absceso, salvo que se rompa hacia el ventrículo."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: aciclovir endovenoso; esperar la PCR antes del antiviral; ceftriaxona con metronidazol; pedir una resonancia y decidir según el resultado; o ceftriaxona con vancomicina como único tratamiento. Piénsalo."
+      "text": "En la imagen: la meningitis suele tener una imagen normal; la encefalitis, la hiperintensidad temporal en la resonancia; y el absceso, la lesión en anillo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la A. Fiebre, conducta alterada, afasia de comprensión y convulsión focal: todo apunta al lóbulo temporal izquierdo, y eso es encefalitis herpética. El aciclovir va de inmediato. La D es el distractor más tentador, porque la resonancia es el examen de elección, pero sirve para confirmar, no para decidir si tratas. Y los antibióticos solos no cubren un virus."
+      "text": "En el líquido: neutrófilos y glucosa baja en la meningitis bacteriana; linfocitos con glóbulos rojos y PCR positiva en la encefalitis herpética; y en el absceso no se puncionan, por el riesgo de herniación."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y el tratamiento: ceftriaxona y vancomicina, con ampicilina según el riesgo de Listeria, para la meningitis; aciclovir para la encefalitis; y ceftriaxona con metronidazol, más cirugía si corresponde, para el absceso."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de cuarenta y tres años con cuatro días de fiebre y cefalea, al que hoy se agrega desorientación y confusión, y convulsiona dos veces. La TAC muestra una zona alterada en el lóbulo temporal izquierdo. La punción muestra ciento treinta células con predominio mononuclear, glucosa de setenta y cinco con una glicemia de noventa, y proteínas de cien, sin bacterias en el Gram."
+      "text": "Vamos con un caso. Hombre de cuarenta y dos años, sano, con tres días de fiebre leve, cefalea y una conducta cada vez más inapropiada y desinhibida. La esposa cuenta que no entiende lo que le dicen y que dice palabras incoherentes. Durante la evaluación hace una convulsión focal del brazo y la cara del lado derecho. No tiene rigidez de nuca franca, y tiene una afasia sensitiva evidente."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: meningitis bacteriana aguda, meningitis tuberculosa, meningoencefalitis herpética, meningitis por enterovirus, o meningitis por VIH. Piénsalo."
+      "text": "Las opciones son: aciclovir endovenoso; esperar la PCR antes del antiviral; ceftriaxona con metronidazol; pedir una resonancia y decidir según el resultado; o ceftriaxona con vancomicina como único tratamiento. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, meningoencefalitis herpética. Tienes las tres piezas: compromiso de la función cerebral con convulsiones, una lesión en el lóbulo temporal, y un líquido viral, con mononucleares y glucosa normal. El enterovirus es el distractor, porque también da un líquido viral, pero produce una meningitis sin compromiso del cerebro ni lesión temporal."
+      "text": "La respuesta es la A. Fiebre, conducta alterada, afasia de comprensión y convulsión focal: todo apunta al lóbulo temporal izquierdo, y eso es encefalitis herpética. El aciclovir va de inmediato. La D es el distractor más tentador, porque la resonancia es el examen de elección, pero sirve para confirmar, no para decidir si tratas. Y los antibióticos solos no cubren un virus."
     },
     {
       "file": "s11_g00",
-      "text": "La siguiente es del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta años con tres días de cefalea, al que se agrega desorientación, confusión y algunas convulsiones. El líquido tiene cien células con noventa por ciento de mononucleares, quince glóbulos rojos, glucosa de ochenta con una glicemia de cien, y proteínas de cuarenta."
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de cuarenta y tres años con cuatro días de fiebre y cefalea, al que hoy se agrega desorientación y confusión, y convulsiona dos veces. La TAC muestra una zona alterada en el lóbulo temporal izquierdo. La punción muestra ciento treinta células con predominio mononuclear, glucosa de setenta y cinco con una glicemia de noventa, y proteínas de cien, sin bacterias en el Gram."
     },
     {
       "file": "s11_g01",
@@ -226,46 +218,62 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: toxoplasmosis cerebral, meningoencefalitis herpética, tumor cerebral, meningitis viral, o meningitis bacteriana. Piénsalo."
+      "text": "Las opciones son: meningitis bacteriana aguda, meningitis tuberculosa, meningoencefalitis herpética, meningitis por enterovirus, o meningitis por VIH. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Fíjate que aquí no te dan imagen: tienes que llegar con la clínica y el líquido. Confusión y convulsiones indican que el cerebro está comprometido, y el líquido es viral, pero con glóbulos rojos, que reflejan la necrosis hemorrágica. La meningitis viral es el distractor: el líquido se parece, pero no explica las convulsiones ni la confusión."
+      "text": "Es la C, meningoencefalitis herpética. Tienes las tres piezas: compromiso de la función cerebral con convulsiones, una lesión en el lóbulo temporal, y un líquido viral, con mononucleares y glucosa normal. El enterovirus es el distractor, porque también da un líquido viral, pero produce una meningitis sin compromiso del cerebro ni lesión temporal."
     },
     {
       "file": "s12_g00",
-      "text": "Y la última, del EUNACOM de diciembre de dos mil diecinueve, que ahora pregunta el tratamiento. Niño de ocho años con dos días de cefalea y fiebre, al que se agrega conducta agresiva, desorientación y varias convulsiones. La TAC descarta hipertensión endocraneana, y el líquido tiene cien glóbulos rojos, veinte blancos con predominio mononuclear, proteínas de ochenta y glucosa de sesenta."
+      "text": "La siguiente es del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta años con tres días de cefalea, al que se agrega desorientación, confusión y algunas convulsiones. El líquido tiene cien células con noventa por ciento de mononucleares, quince glóbulos rojos, glucosa de ochenta con una glicemia de cien, y proteínas de cuarenta."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento inicial?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: oseltamivir, vancomicina, ceftriaxona, aciclovir, o ampicilina. Piénsalo."
+      "text": "Las opciones son: toxoplasmosis cerebral, meningoencefalitis herpética, tumor cerebral, meningitis viral, o meningitis bacteriana. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, aciclovir endovenoso. Conducta alterada y convulsiones con un líquido viral y hemorrágico: encefalitis herpética, también en niños. La ceftriaxona es la tentación de quien piensa en meningitis bacteriana, pero la glucosa normal y los mononucleares no apoyan una bacteria. Y fíjate que se hizo la TAC antes de puncionar, por las convulsiones: la misma bandera roja de la clase anterior."
+      "text": "Es la B. Fíjate que aquí no te dan imagen: tienes que llegar con la clínica y el líquido. Confusión y convulsiones indican que el cerebro está comprometido, y el líquido es viral, pero con glóbulos rojos, que reflejan la necrosis hemorrágica. La meningitis viral es el distractor: el líquido se parece, pero no explica las convulsiones ni la confusión."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Fiebre con alteración de la función cerebral, es decir, conducta bizarra, afasia o crisis focales, es encefalitis, y la causa más frecuente es el herpes simple tipo uno."
+      "text": "Y la última, del EUNACOM de diciembre de dos mil diecinueve, que ahora pregunta el tratamiento. Niño de ocho años con dos días de cefalea y fiebre, al que se agrega conducta agresiva, desorientación y varias convulsiones. La TAC descarta hipertensión endocraneana, y el líquido tiene cien glóbulos rojos, veinte blancos con predominio mononuclear, proteínas de ochenta y glucosa de sesenta."
     },
     {
       "file": "s13_g01",
-      "text": "El líquido es viral pero con glóbulos rojos, la resonancia muestra el lóbulo temporal, y la PCR confirma."
+      "text": "¿Cuál es el tratamiento inicial?"
     },
     {
       "file": "s13_g02",
-      "text": "El aciclovir endovenoso se inicia ante la sospecha, sin esperar la PCR ni la resonancia."
+      "text": "Las opciones son: oseltamivir, vancomicina, ceftriaxona, aciclovir, o ampicilina. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la D, aciclovir endovenoso. Conducta alterada y convulsiones con un líquido viral y hemorrágico: encefalitis herpética, también en niños. La ceftriaxona es la tentación de quien piensa en meningitis bacteriana, pero la glucosa normal y los mononucleares no apoyan una bacteria. Y fíjate que se hizo la TAC antes de puncionar, por las convulsiones: la misma bandera roja de la clase anterior."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Fiebre con alteración de la función cerebral, es decir, conducta bizarra, afasia o crisis focales, es encefalitis, y la causa más frecuente es el herpes simple tipo uno."
+    },
+    {
+      "file": "s14_g01",
+      "text": "El líquido es viral pero con glóbulos rojos, la resonancia muestra el lóbulo temporal, y la PCR confirma."
+    },
+    {
+      "file": "s14_g02",
+      "text": "El aciclovir endovenoso se inicia ante la sospecha, sin esperar la PCR ni la resonancia."
+    },
+    {
+      "file": "s14_g03",
       "text": "En el absceso: cefalea, fiebre y déficit focal, lesión en anillo en la imagen, y la punción lumbar está contraindicada."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Se trata con ceftriaxona más metronidazol, y cirugía si mide más de dos coma cinco centímetros. Si te llevas una sola idea de hoy: cuando falla la función del cerebro ya no es solo una meningitis, y el aciclovir no espera a ningún examen. La próxima clase cerramos las urgencias con las infecciones graves de partes blandas y la angina de Ludwig. Nos vemos en la próxima clase."
     }
   ]

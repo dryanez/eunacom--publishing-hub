@@ -201,6 +201,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Trauma abdominal',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg', label: 'FAST positivo', credit: 'ATLS 10.ª ed., p. 144' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' },
+      ],
+      steps: [
+        { note: 'Líquido libre en Morrison',
+          say: 'En la ecografía FAST, la línea negra entre el hígado y el riñón es líquido libre en el espacio de Morrison. En un paciente inestable, eso significa pabellón.' },
+        { note: 'Bazo lacerado en la TC',
+          say: 'Y en un paciente estable, la tomografía muestra la lesión: aquí, una rotura del bazo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

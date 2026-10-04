@@ -2,7 +2,7 @@
   "id": "cirugia-05",
   "title": "Cirugia 11.5: Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
   "specialty": "Cirugía General",
-  "chars": 9123,
+  "chars": 9173,
   "segments": [
     {
       "file": "s00_g00",
@@ -66,87 +66,75 @@
     },
     {
       "file": "s04_g00",
-      "text": "Ahora juntemos las dos peritonitis en un solo árbol de decisión. Un paciente llega con dolor abdominal y signos de irritación peritoneal. Antes de pensar en pabellón, pregúntate una cosa: ¿hay algo que se haya roto, o es un cirrótico con ascitis infectada?"
-    },
-    {
-      "file": "s04_g01",
-      "text": "La pregunta que separa todo el tema."
-    },
-    {
-      "file": "s04_g02",
-      "text": "Con sospecha de peritonitis primaria, la paracentesis diagnóstica te da la respuesta."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Con PMN elevados, es PBE: manejo médico exclusivo con cefotaxima o ceftriaxona. Operar aquí es un error grave."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Sin PMN elevados, no es PBE: sigue buscando la causa de la descompensación."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Con sospecha de perforación, el estudio empieza por el examen más rápido."
-    },
-    {
-      "file": "s04_g06",
-      "text": "Con neumoperitoneo confirmado, vas directo a laparotomía o laparoscopía urgente: lavado profuso y cierre de la perforación con parche de epiplón."
-    },
-    {
-      "file": "s04_g07",
-      "text": "Si la radiografía no es concluyente pero la sospecha sigue firme, el TAC confirma el aire libre y ubica el sitio de la perforación."
+      "text": "Aire bajo el diafragma: hay una víscera perforada."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos las trampas. Cirrótico con ascitis y más de doscientos cincuenta polimorfonucleares: cefotaxima, sin cirugía. Operarlo es el error grave que más se repite."
+      "text": "Ahora juntemos las dos peritonitis en un solo árbol de decisión. Un paciente llega con dolor abdominal y signos de irritación peritoneal. Antes de pensar en pabellón, pregúntate una cosa: ¿hay algo que se haya roto, o es un cirrótico con ascitis infectada?"
     },
     {
       "file": "s05_g01",
-      "text": "Dolor en puñalada con abdomen en tabla: tu primer examen es la radiografía de tórax de pie. Pedir una endoscopía aquí solo empeora la perforación."
+      "text": "La pregunta que separa todo el tema."
     },
     {
       "file": "s05_g02",
-      "text": "Con neumoperitoneo confirmado, vas a laparotomía urgente con parche de Graham. Tratar solo con antibióticos, sin operar, deja el foco sin controlar."
+      "text": "Con sospecha de peritonitis primaria, la paracentesis diagnóstica te da la respuesta."
     },
     {
       "file": "s05_g03",
-      "text": "Y si el paciente sigue con fiebre cuarenta y ocho horas después de una peritonitis secundaria ya operada, sospecha una peritonitis terciaria, con gérmenes distintos."
+      "text": "Con PMN elevados, es PBE: manejo médico exclusivo con cefotaxima o ceftriaxona. Operar aquí es un error grave."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Sin PMN elevados, no es PBE: sigue buscando la causa de la descompensación."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Con sospecha de perforación, el estudio empieza por el examen más rápido."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Con neumoperitoneo confirmado, vas directo a laparotomía o laparoscopía urgente: lavado profuso y cierre de la perforación con parche de epiplón."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Si la radiografía no es concluyente pero la sospecha sigue firme, el TAC confirma el aire libre y ubica el sitio de la perforación."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos con un caso. Hombre de cuarenta y cuatro años, usuario crónico de diclofenaco por lumbago, con dolor epigástrico que empezó de golpe hace tres horas, como una puñalada, y que se generalizó a todo el abdomen. Está pálido, sudoroso, con la presión baja y el pulso acelerado. El abdomen no se mueve al respirar, está rígido en los cuatro cuadrantes, y al percutir desaparece la matidez del hígado."
+      "text": "Repasemos las trampas. Cirrótico con ascitis y más de doscientos cincuenta polimorfonucleares: cefotaxima, sin cirugía. Operarlo es el error grave que más se repite."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "Dolor en puñalada con abdomen en tabla: tu primer examen es la radiografía de tórax de pie. Pedir una endoscopía aquí solo empeora la perforación."
     },
     {
       "file": "s06_g02",
-      "text": "Tienes cinco opciones: pedir una endoscopía de urgencia, pedir una radiografía de tórax de pie, pedir amilasa y lipasa, dar cefotaxima y observar, o pedir una colonoscopía. Piénsalo."
+      "text": "Con neumoperitoneo confirmado, vas a laparotomía urgente con parche de Graham. Tratar solo con antibióticos, sin operar, deja el foco sin controlar."
     },
     {
       "file": "s06_g03",
-      "text": "Es la B. Este cuadro es el arquetipo de la úlcera perforada: dolor en puñalada, abdomen en tabla, y el signo de Jobert que te acaba de confirmar el neumoperitoneo. El examen más rápido para verlo es la radiografía de tórax de pie. La endoscopía la descartas de plano, porque empeora la perforación. Y la cefotaxima sola sería la respuesta si esto fuera una peritonitis primaria, pero aquí hay un foco que se rompió: eso necesita cirugía, no solo antibióticos."
+      "text": "Y si el paciente sigue con fiebre cuarenta y ocho horas después de una peritonitis secundaria ya operada, sospecha una peritonitis terciaria, con gérmenes distintos."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y tres años, multípara, con dolor abdominal difuso e intenso, vómitos y mucha distensión. Frecuencia cardíaca de ciento diez y presión de cien sobre sesenta. Tiene cicatriz de cesárea, el abdomen está muy doloroso, distendido, con pérdida de la matidez hepática y sin ruidos hidroaéreos."
+      "text": "Vamos con un caso. Hombre de cuarenta y cuatro años, usuario crónico de diclofenaco por lumbago, con dolor epigástrico que empezó de golpe hace tres horas, como una puñalada, y que se generalizó a todo el abdomen. Está pálido, sudoroso, con la presión baja y el pulso acelerado. El abdomen no se mueve al respirar, está rígido en los cuatro cuadrantes, y al percutir desaparece la matidez del hígado."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones son: obstrucción intestinal, pancreatitis aguda, perforación intestinal, megacolon, o embolia mesentérica. Piénsalo."
+      "text": "Tienes cinco opciones: pedir una endoscopía de urgencia, pedir una radiografía de tórax de pie, pedir amilasa y lipasa, dar cefotaxima y observar, o pedir una colonoscopía. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la C, perforación intestinal. La pieza clave es la misma que en el caso anterior: la pérdida de la matidez hepática. Eso es neumoperitoneo, y con ruidos hidroaéreos abolidos por el íleo que genera la peritonitis, el cuadro completo apunta a una víscera que se rompió, no a una obstrucción simple."
+      "text": "Es la B. Este cuadro es el arquetipo de la úlcera perforada: dolor en puñalada, abdomen en tabla, y el signo de Jobert que te acaba de confirmar el neumoperitoneo. El examen más rápido para verlo es la radiografía de tórax de pie. La endoscopía la descartas de plano, porque empeora la perforación. Y la cefotaxima sola sería la respuesta si esto fuera una peritonitis primaria, pero aquí hay un foco que se rompió: eso necesita cirugía, no solo antibióticos."
     },
     {
       "file": "s08_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de cuarenta y tres años con un mes de dolor epigástrico urente. Hace veinticuatro horas deja de eliminar gases, y el dolor se vuelve difuso y persistente, con distensión. Frecuencia cardíaca de ciento diez, presión de ciento diez sobre setenta, abdomen distendido, con pérdida de la matidez hepática y sin ruidos hidroaéreos."
+      "text": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y tres años, multípara, con dolor abdominal difuso e intenso, vómitos y mucha distensión. Frecuencia cardíaca de ciento diez y presión de cien sobre sesenta. Tiene cicatriz de cesárea, el abdomen está muy doloroso, distendido, con pérdida de la matidez hepática y sin ruidos hidroaéreos."
     },
     {
       "file": "s08_g01",
@@ -154,46 +142,62 @@
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: obstrucción intestinal, pancreatitis aguda, perforación de úlcera péptica, plastrón vesicular, o cáncer de vesícula. Piénsalo."
+      "text": "Las opciones son: obstrucción intestinal, pancreatitis aguda, perforación intestinal, megacolon, o embolia mesentérica. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C. Fíjate en la historia completa: un mes de epigastralgia urente es la úlcera activa que ya conoces de la clase de gastroenterología. Y el cambio brusco a dolor difuso con signos de neumoperitoneo es esa misma úlcera perforándose. No es una obstrucción simple, porque ahí no esperarías perder la matidez hepática."
+      "text": "Es la C, perforación intestinal. La pieza clave es la misma que en el caso anterior: la pérdida de la matidez hepática. Eso es neumoperitoneo, y con ruidos hidroaéreos abolidos por el íleo que genera la peritonitis, el cuadro completo apunta a una víscera que se rompió, no a una obstrucción simple."
     },
     {
       "file": "s09_g00",
-      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veintidós, para el otro lado de la clase. Paciente de sesenta y siete años, cirrótico por alcohol, con deterioro y compromiso de conciencia. Está en sopor, con fetor hepático, algo de fiebre, y el abdomen muestra ascitis a tensión, con asterixis."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de cuarenta y tres años con un mes de dolor epigástrico urente. Hace veinticuatro horas deja de eliminar gases, y el dolor se vuelve difuso y persistente, con distensión. Frecuencia cardíaca de ciento diez, presión de ciento diez sobre setenta, abdomen distendido, con pérdida de la matidez hepática y sin ruidos hidroaéreos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: hemocultivos, hemograma, estudio de líquido ascítico, TAC de abdomen, o ecografía abdominal. Piénsalo."
+      "text": "Las opciones son: obstrucción intestinal, pancreatitis aguda, perforación de úlcera péptica, plastrón vesicular, o cáncer de vesícula. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C. Todo cirrótico con ascitis que se descompensa tiene que estudiarse primero por peritonitis bacteriana espontánea, y eso se hace con una paracentesis diagnóstica, contando los polimorfonucleares del líquido ascítico. Si pasa de doscientos cincuenta, tratas con cefotaxima, sin necesidad de ningún TAC ni de cirugía."
+      "text": "Es la C. Fíjate en la historia completa: un mes de epigastralgia urente es la úlcera activa que ya conoces de la clase de gastroenterología. Y el cambio brusco a dolor difuso con signos de neumoperitoneo es esa misma úlcera perforándose. No es una obstrucción simple, porque ahí no esperarías perder la matidez hepática."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Si es un cirrótico con ascitis y PMN elevados, es peritonitis primaria: cefotaxima, y nunca cirugía."
+      "text": "Y una última pregunta real, del EUNACOM de diciembre de dos mil veintidós, para el otro lado de la clase. Paciente de sesenta y siete años, cirrótico por alcohol, con deterioro y compromiso de conciencia. Está en sopor, con fetor hepático, algo de fiebre, y el abdomen muestra ascitis a tensión, con asterixis."
     },
     {
       "file": "s10_g01",
-      "text": "Si hay una víscera perforada, es peritonitis secundaria: laparotomía urgente, siempre."
+      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
     },
     {
       "file": "s10_g02",
-      "text": "El dolor en puñalada con abdomen en tabla te tiene que hacer pensar en úlcera perforada."
+      "text": "Las opciones son: hemocultivos, hemograma, estudio de líquido ascítico, TAC de abdomen, o ecografía abdominal. Piénsalo."
     },
     {
       "file": "s10_g03",
+      "text": "Es la C. Todo cirrótico con ascitis que se descompensa tiene que estudiarse primero por peritonitis bacteriana espontánea, y eso se hace con una paracentesis diagnóstica, contando los polimorfonucleares del líquido ascítico. Si pasa de doscientos cincuenta, tratas con cefotaxima, sin necesidad de ningún TAC ni de cirugía."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Si es un cirrótico con ascitis y PMN elevados, es peritonitis primaria: cefotaxima, y nunca cirugía."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Si hay una víscera perforada, es peritonitis secundaria: laparotomía urgente, siempre."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El dolor en puñalada con abdomen en tabla te tiene que hacer pensar en úlcera perforada."
+    },
+    {
+      "file": "s11_g03",
       "text": "Y el examen inicial es la radiografía de tórax de pie, nunca la endoscopía."
     },
     {
-      "file": "s10_g04",
+      "file": "s11_g04",
       "text": "Y el tratamiento quirúrgico es lavado de toda la cavidad y parche de epiplón para cerrar la perforación. Si te llevas una sola idea de hoy: primero decide si es primaria o secundaria, porque de eso depende si operas o no. Nos vemos en la próxima clase."
     }
   ]

@@ -217,6 +217,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Una imagen por diagnóstico',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/01_doble_burbuja__bailey_p155.jpg', label: 'Doble burbuja', credit: 'Bailey & Love 27.ª ed., Fig. 9.24' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/01_neumatosis-ecn__cto-pediatria_p24.jpg', label: 'Neumatosis intestinal', credit: 'Manual CTO Pediatría 14.ª ed., p. 24' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/02_eco-piloro-ehp__cto-pediatria_p65.jpg', label: 'Estenosis hipertrófica del píloro', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco__cto-pediatria_p70.jpg', label: 'Invaginación', credit: 'Manual CTO Pediatría 14.ª ed., p. 70' },
+      ],
+      steps: [
+        { note: 'Atresia duodenal',
+          say: 'Dos burbujas de aire, el estómago y el duodeno, y nada de aire más abajo: es la doble burbuja de la atresia duodenal.' },
+        { note: 'Aire en la pared del intestino',
+          say: 'Aire dentro de la pared del intestino, en un prematuro que se distiende: es la enterocolitis necrotizante.' },
+        { note: 'Píloro engrosado y largo',
+          say: 'En la ecografía, un píloro engrosado y alargado en un lactante con vómitos explosivos: estenosis hipertrófica del píloro.' },
+        { note: 'Imagen en diana',
+          say: 'Y la imagen en diana, como capas de cebolla, es la invaginación intestinal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

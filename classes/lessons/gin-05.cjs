@@ -176,6 +176,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Endometriosis',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg', label: 'Endometrioma', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 74' },
+        { src: 'biblioteca/13_ginecologia/gin-05/02_endometriosis-laparoscopia__cto-gyo_p75.jpg', label: 'Laparoscopía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 75' },
+      ],
+      steps: [
+        { note: 'Quiste en vidrio esmerilado',
+          say: 'El endometrioma es un quiste de contenido homogéneo, en vidrio esmerilado, el quiste de chocolate.' },
+        { note: 'Implantes en el peritoneo',
+          say: 'Y la laparoscopía muestra los implantes, que confirman el diagnóstico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos endometriosis y adenomiosis en un solo árbol de decisión.',
     },

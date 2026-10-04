@@ -141,6 +141,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Enfermedades ampollares',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-11/01_penfigo-vulgar__amir-derma_p49.jpg', label: 'Pénfigo vulgar', credit: 'Manual AMIR Dermatología, p. 49' },
+        { src: 'biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas__cto-derma_p72.jpg', label: 'Penfigoide ampolloso', credit: 'Manual CTO Dermatología 14.ª ed., p. 72' },
+      ],
+      steps: [
+        { note: 'Ampollas flácidas y erosiones',
+          say: 'El pénfigo da ampollas flácidas que se rompen, y compromete mucosas.' },
+        { note: 'Ampollas tensas',
+          say: 'El penfigoide, en el adulto mayor, da ampollas tensas que no se rompen fácilmente.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la morfología de la ampolla al tratamiento de cada enfermedad.',
     },

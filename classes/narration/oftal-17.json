@@ -2,7 +2,7 @@
   "id": "oftal-17",
   "title": "Oftalmologia 15.17: Celulitis Preseptal vs Orbitaria (Postseptal): Oftalmoplejía, Proptosis y TAC",
   "specialty": "Oftalmología",
-  "chars": 11208,
+  "chars": 11365,
   "segments": [
     {
       "file": "s00_g00",
@@ -86,127 +86,119 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Ante un párpado rojo, hinchado y caliente, revisa primero la motilidad ocular, la proptosis y la agudeza visual, antes de pensar en cualquier antibiótico."
+      "text": "En la preseptal el párpado está hinchado pero la visión y los movimientos son normales."
     },
     {
       "file": "s05_g01",
-      "text": "Busca los tres signos cardinales: dolor al mover el ojo, proptosis, o caída de la visión con defecto pupilar aferente. Basta uno solo."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Con al menos uno de los tres signos presentes, sospecha celulitis orbitaria y revisa si ya se bilateralizó."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Pregúntate si los signos empiezan a aparecer también en el ojo contrario."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Sospecha trombosis del seno cavernoso: la infección cruzó por las venas oftálmicas sin válvulas hacia el cráneo."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Deriva de inmediato a una unidad crítica: la trombosis del seno cavernoso necesita antibióticos endovenosos en dosis altas y evaluación neuroquirúrgica."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Pide de urgencia una tomografía de órbita, senos paranasales y encéfalo con contraste, para confirmar la sinusitis de origen y buscar un absceso."
-    },
-    {
-      "file": "s05_g07",
-      "text": "Hospitaliza de inmediato e inicia ceftriaxona más vancomicina endovenosas."
-    },
-    {
-      "file": "s05_g08",
-      "text": "Si el absceso subperióstico mide más de un centímetro, la visión cae, o no mejora en cuarenta y ocho horas, se evalúa drenaje quirúrgico con otorrinolaringología."
-    },
-    {
-      "file": "s05_g09",
-      "text": "Con motilidad normal e indolora, sin proptosis y con visión normal, sospecha celulitis preseptal."
-    },
-    {
-      "file": "s05_g10",
-      "text": "Indica amoxicilina con ácido clavulánico oral por siete a diez días, y agenda un control clínico obligatorio en veinticuatro horas."
+      "text": "En la orbitaria hay proptosis y dolor al mover el ojo. Se hospitaliza."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos las trampas. El origen: preseptal viene de una herida o picadura; orbitaria, casi siempre de una sinusitis etmoidal."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Ante un párpado rojo, hinchado y caliente, revisa primero la motilidad ocular, la proptosis y la agudeza visual, antes de pensar en cualquier antibiótico."
     },
     {
       "file": "s06_g01",
-      "text": "La motilidad ocular es normal e indolora en la preseptal; dolorosa y limitada en la orbitaria."
+      "text": "Busca los tres signos cardinales: dolor al mover el ojo, proptosis, o caída de la visión con defecto pupilar aferente. Basta uno solo."
     },
     {
       "file": "s06_g02",
-      "text": "La proptosis está ausente en la preseptal y presente en la orbitaria."
+      "text": "Con al menos uno de los tres signos presentes, sospecha celulitis orbitaria y revisa si ya se bilateralizó."
     },
     {
       "file": "s06_g03",
-      "text": "La visión es normal en la preseptal; en la orbitaria puede caer, con defecto pupilar aferente."
+      "text": "Pregúntate si los signos empiezan a aparecer también en el ojo contrario."
     },
     {
       "file": "s06_g04",
-      "text": "La imagen no es necesaria si el cuadro preseptal es claro; en la orbitaria, la tomografía es obligatoria."
+      "text": "Sospecha trombosis del seno cavernoso: la infección cruzó por las venas oftálmicas sin válvulas hacia el cráneo."
     },
     {
       "file": "s06_g05",
-      "text": "Y las trampas clásicas: hospitalizar y pedir tomografía a una preseptal simple es exceso; mandar a la casa con antibiótico oral a una orbitaria es el error que puede costarle la visión o la vida al paciente."
+      "text": "Deriva de inmediato a una unidad crítica: la trombosis del seno cavernoso necesita antibióticos endovenosos en dosis altas y evaluación neuroquirúrgica."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Pide de urgencia una tomografía de órbita, senos paranasales y encéfalo con contraste, para confirmar la sinusitis de origen y buscar un absceso."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Hospitaliza de inmediato e inicia ceftriaxona más vancomicina endovenosas."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Si el absceso subperióstico mide más de un centímetro, la visión cae, o no mejora en cuarenta y ocho horas, se evalúa drenaje quirúrgico con otorrinolaringología."
+    },
+    {
+      "file": "s06_g09",
+      "text": "Con motilidad normal e indolora, sin proptosis y con visión normal, sospecha celulitis preseptal."
+    },
+    {
+      "file": "s06_g10",
+      "text": "Indica amoxicilina con ácido clavulánico oral por siete a diez días, y agenda un control clínico obligatorio en veinticuatro horas."
     },
     {
       "file": "s07_g00",
-      "text": "La clasificación de Chandler ordena esto en cinco escalones, y ayuda a no perderse. El primero es la celulitis preseptal: edema sin invadir la órbita, tratamiento oral ambulatorio."
+      "text": "Repasemos las trampas. El origen: preseptal viene de una herida o picadura; orbitaria, casi siempre de una sinusitis etmoidal."
     },
     {
       "file": "s07_g01",
-      "text": "El segundo es la celulitis orbitaria propiamente tal: infiltración difusa de la grasa orbitaria, sin colección todavía. Ya requiere hospitalización con antibióticos endovenosos."
+      "text": "La motilidad ocular es normal e indolora en la preseptal; dolorosa y limitada en la orbitaria."
     },
     {
       "file": "s07_g02",
-      "text": "El tercero es el absceso subperióstico: el pus ya se acumuló entre el hueso y la periórbita, desplazando el globo ocular. Ahí se pide tomografía con contraste y se evalúa drenaje quirúrgico."
+      "text": "La proptosis está ausente en la preseptal y presente en la orbitaria."
     },
     {
       "file": "s07_g03",
-      "text": "El cuarto es el absceso orbitario, ya dentro de la grasa orbitaria, con oftalmoplejía total y riesgo real de ceguera: drenaje quirúrgico de urgencia."
+      "text": "La visión es normal en la preseptal; en la orbitaria puede caer, con defecto pupilar aferente."
     },
     {
       "file": "s07_g04",
-      "text": "Y el quinto escalón es la trombosis del seno cavernoso, con la bilateralización que ya vimos: unidad crítica y antibióticos endovenosos en dosis altas, evaluando anticoagulación."
+      "text": "La imagen no es necesaria si el cuadro preseptal es claro; en la orbitaria, la tomografía es obligatoria."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y las trampas clásicas: hospitalizar y pedir tomografía a una preseptal simple es exceso; mandar a la casa con antibiótico oral a una orbitaria es el error que puede costarle la visión o la vida al paciente."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Un niño de seis años, con una picadura de insecto en el párpado hace dos días, consulta por edema y eritema palpebral derecho, con fiebre de treinta y ocho coma dos grados. Los movimientos oculares están conservados, sin dolor al moverlos, no hay proptosis y la agudeza visual es normal en ambos ojos."
+      "text": "La clasificación de Chandler ordena esto en cinco escalones, y ayuda a no perderse. El primero es la celulitis preseptal: edema sin invadir la órbita, tratamiento oral ambulatorio."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "El segundo es la celulitis orbitaria propiamente tal: infiltración difusa de la grasa orbitaria, sin colección todavía. Ya requiere hospitalización con antibióticos endovenosos."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: hospitalizar e iniciar ceftriaxona más vancomicina, pedir tomografía antes de decidir, iniciar amoxicilina con ácido clavulánico oral en forma ambulatoria con control en veinticuatro horas, indicar corticoides orales en dosis altas, o derivar de urgencia por trombosis del seno cavernoso. Piénsalo."
+      "text": "El tercero es el absceso subperióstico: el pus ya se acumuló entre el hueso y la periórbita, desplazando el globo ocular. Ahí se pide tomografía con contraste y se evalúa drenaje quirúrgico."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C. Repasa los tres signos que buscamos: motilidad normal e indolora, sin proptosis, visión normal. Ninguno está presente, así que esto es una celulitis preseptal por la picadura, no orbitaria. Se trata en la casa con amoxicilina y ácido clavulánico, y control a las veinticuatro horas. La hospitalización, la tomografía y la sospecha de trombosis son todas para el cuadro orbitario, que aquí no existe."
+      "text": "El cuarto es el absceso orbitario, ya dentro de la grasa orbitaria, con oftalmoplejía total y riesgo real de ceguera: drenaje quirúrgico de urgencia."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el quinto escalón es la trombosis del seno cavernoso, con la bilateralización que ya vimos: unidad crítica y antibióticos endovenosos en dosis altas, evaluando anticoagulación."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Una niña de cuatro años presenta un cuadro catarral, con abundante secreción nasal. Evoluciona con enrojecimiento y dolor alrededor del ojo derecho, junto con proptosis."
+      "text": "Vamos con un caso. Un niño de seis años, con una picadura de insecto en el párpado hace dos días, consulta por edema y eritema palpebral derecho, con fiebre de treinta y ocho coma dos grados. Los movimientos oculares están conservados, sin dolor al moverlos, no hay proptosis y la agudeza visual es normal en ambos ojos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: celulitis preorbitaria, celulitis orbitaria, orbitopatía distiroidea, pseudotumor orbitario, o etmoiditis aguda. Piénsalo."
+      "text": "Las opciones son: hospitalizar e iniciar ceftriaxona más vancomicina, pedir tomografía antes de decidir, iniciar amoxicilina con ácido clavulánico oral en forma ambulatoria con control en veinticuatro horas, indicar corticoides orales en dosis altas, o derivar de urgencia por trombosis del seno cavernoso. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. La palabra que resuelve la pregunta es proptosis: eso solo aparece cuando la infección ya cruzó el septum orbitario. Además, el cuadro catarral previo apunta al origen más frecuente, la sinusitis etmoidal. La celulitis preorbitaria es la trampa más tentadora, porque también da un párpado inflamado, pero por definición nunca da proptosis."
+      "text": "Es la C. Repasa los tres signos que buscamos: motilidad normal e indolora, sin proptosis, visión normal. Ninguno está presente, así que esto es una celulitis preseptal por la picadura, no orbitaria. Se trata en la casa con amoxicilina y ácido clavulánico, y control a las veinticuatro horas. La hospitalización, la tomografía y la sospecha de trombosis son todas para el cuadro orbitario, que aquí no existe."
     },
     {
       "file": "s10_g00",
-      "text": "Una última pregunta real, del EUNACOM de julio de dos mil trece, con otro punto de entrada. Un paciente de treinta y cinco años, con ojo rojo y secreción mucopurulenta desde hace un día, tratado con colirio de cloranfenicol cada ocho horas, evoluciona con más enrojecimiento, edema palpebral y quemosis."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Una niña de cuatro años presenta un cuadro catarral, con abundante secreción nasal. Evoluciona con enrojecimiento y dolor alrededor del ojo derecho, junto con proptosis."
     },
     {
       "file": "s10_g01",
@@ -214,26 +206,42 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal. Piénsalo."
+      "text": "Las opciones son: celulitis preorbitaria, celulitis orbitaria, orbitopatía distiroidea, pseudotumor orbitario, o etmoiditis aguda. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Esto empezó como una conjuntivitis bacteriana simple, pero en vez de mejorar con el tratamiento, empeora con más edema y quemosis, la señal de que la infección atravesó el septum y se volvió celulitis orbitaria. La alergia al cloranfenicol es la trampa, pero es mucho menos frecuente y no explica esa progresión tan agresiva."
+      "text": "Es la B. La palabra que resuelve la pregunta es proptosis: eso solo aparece cuando la infección ya cruzó el septum orbitario. Además, el cuadro catarral previo apunta al origen más frecuente, la sinusitis etmoidal. La celulitis preorbitaria es la trampa más tentadora, porque también da un párpado inflamado, pero por definición nunca da proptosis."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Oftalmoplejía dolorosa, proptosis, o baja de visión con defecto pupilar aferente: basta que aparezca uno solo para que ya no sea preseptal, sino orbitaria."
+      "text": "Una última pregunta real, del EUNACOM de julio de dos mil trece, con otro punto de entrada. Un paciente de treinta y cinco años, con ojo rojo y secreción mucopurulenta desde hace un día, tratado con colirio de cloranfenicol cada ocho horas, evoluciona con más enrojecimiento, edema palpebral y quemosis."
     },
     {
       "file": "s11_g01",
-      "text": "La preseptal se trata en la casa, con amoxicilina y ácido clavulánico oral, y control a las veinticuatro horas."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "La orbitaria exige tomografía de órbita con contraste y hospitalización, con ceftriaxona más vancomicina endovenosas."
+      "text": "Las opciones son: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la B. Esto empezó como una conjuntivitis bacteriana simple, pero en vez de mejorar con el tratamiento, empeora con más edema y quemosis, la señal de que la infección atravesó el septum y se volvió celulitis orbitaria. La alergia al cloranfenicol es la trampa, pero es mucho menos frecuente y no explica esa progresión tan agresiva."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Oftalmoplejía dolorosa, proptosis, o baja de visión con defecto pupilar aferente: basta que aparezca uno solo para que ya no sea preseptal, sino orbitaria."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La preseptal se trata en la casa, con amoxicilina y ácido clavulánico oral, y control a las veinticuatro horas."
+    },
+    {
+      "file": "s12_g02",
+      "text": "La orbitaria exige tomografía de órbita con contraste y hospitalización, con ceftriaxona más vancomicina endovenosas."
+    },
+    {
+      "file": "s12_g03",
       "text": "Si te llevas una sola idea de hoy: la proptosis y la oftalmoplejía dolorosa son las que separan preseptal de orbitaria, y si esos signos se bilateralizan, piensa de inmediato en trombosis del seno cavernoso. Nos vemos en la próxima clase."
     }
   ]

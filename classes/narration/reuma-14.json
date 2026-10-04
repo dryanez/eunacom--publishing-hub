@@ -2,7 +2,7 @@
   "id": "reuma-14",
   "title": "Reumatologia 9.14: Fenómeno de Raynaud Primario vs Secundario y Capilaroscopía Periungueal",
   "specialty": "Reumatología",
-  "chars": 9218,
+  "chars": 9436,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,82 +106,90 @@
     },
     {
       "file": "s08_g00",
-      "text": "Caso clínico. Paciente de veintiún años con episodios simétricos de palidez, cianosis y rubor en ambas manos con el frío, sin úlceras digitales, con anticuerpos negativos y capilaroscopía periungueal normal."
+      "text": "En el Raynaud los dedos se ponen blancos, luego azules y luego rojos con el frío."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico clínico más probable y cuál es la indicación inicial de elección?"
-    },
-    {
-      "file": "s08_g02",
-      "text": "Las alternativas: Raynaud primario con medidas de abrigo, esclerosis sistémica con prednisona, tromboangeítis con simpatectomía, lupus con hidroxicloroquina, o Raynaud secundario con anticoagulación oral. Piénsalo."
-    },
-    {
-      "file": "s08_g03",
-      "text": "La respuesta correcta es la A. Es un Raynaud primario o funcional típico por su edad, simetría, ausencia de úlceras, anticuerpos antinucleares negativos y capilaroscopía normal. El manejo inicial consiste en medidas de abrigo y protección frente al frío."
+      "text": "La capilaroscopía separa: capilares normales en el primario, dilatados o perdidos en el secundario a una enfermedad del tejido conectivo."
     },
     {
       "file": "s09_g00",
-      "text": "EUNACOM dos mil dieciocho, pregunta treinta y tres. Mujer de treinta y ocho años con Raynaud, úlcera digital dolorosa en pulpejo y anticuerpos antinucleares positivos en dilución uno en trescientos veinte."
+      "text": "Caso clínico. Paciente de veintiún años con episodios simétricos de palidez, cianosis y rubor en ambas manos con el frío, sin úlceras digitales, con anticuerpos negativos y capilaroscopía periungueal normal."
     },
     {
       "file": "s09_g01",
-      "text": "¿Qué examen no invasivo permite evaluar la microcirculación periungueal para confirmar conectivopatía?"
+      "text": "¿Cuál es el diagnóstico clínico más probable y cuál es la indicación inicial de elección?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: capilaroscopía periungueal, angiografía por sustracción digital, resonancia magnética con contraste, ecografía Doppler carotídea, o pletismografía arterial. Piénsalo."
+      "text": "Las alternativas: Raynaud primario con medidas de abrigo, esclerosis sistémica con prednisona, tromboangeítis con simpatectomía, lupus con hidroxicloroquina, o Raynaud secundario con anticoagulación oral. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. La capilaroscopía periungueal es el examen de elección en el consultorio. Permite observar las asas capilares del lecho ungueal e identificar de inmediato el patrón esclerodérmico con megacapilares y zonas avasculares."
+      "text": "La respuesta correcta es la A. Es un Raynaud primario o funcional típico por su edad, simetría, ausencia de úlceras, anticuerpos antinucleares negativos y capilaroscopía normal. El manejo inicial consiste en medidas de abrigo y protección frente al frío."
     },
     {
       "file": "s10_g00",
-      "text": "EUNACOM dos mil veinte, pregunta cuarenta y siete. Se indaga el tratamiento farmacológico inicial del fenómeno de Raynaud."
+      "text": "EUNACOM dos mil dieciocho, pregunta treinta y tres. Mujer de treinta y ocho años con Raynaud, úlcera digital dolorosa en pulpejo y anticuerpos antinucleares positivos en dilución uno en trescientos veinte."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el fármaco de primera línea de elección para el fenómeno de Raynaud sintomático recurrente tras medidas de abrigo?"
+      "text": "¿Qué examen no invasivo permite evaluar la microcirculación periungueal para confirmar conectivopatía?"
     },
     {
       "file": "s10_g02",
-      "text": "Las alternativas: propranolol oral, bloqueadores de canales de calcio dihidropiridínicos como nifedipino, ergotamina con cafeína, prednisona oral, o metotrexato subcutáneo. Piénsalo."
+      "text": "Las opciones: capilaroscopía periungueal, angiografía por sustracción digital, resonancia magnética con contraste, ecografía Doppler carotídea, o pletismografía arterial. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la B. Los calcioantagonistas dihidropiridínicos como el nifedipino oral son el tratamiento farmacológico de primera línea por su potente efecto vasodilatador sobre las arteriolas digitales."
+      "text": "Es la A. La capilaroscopía periungueal es el examen de elección en el consultorio. Permite observar las asas capilares del lecho ungueal e identificar de inmediato el patrón esclerodérmico con megacapilares y zonas avasculares."
     },
     {
       "file": "s11_g00",
-      "text": "Pregunta del EUNACOM dos mil veintitrés, pregunta dieciocho. Se evalúan contraindicaciones farmacológicas en patología vascular periférica."
+      "text": "EUNACOM dos mil veinte, pregunta cuarenta y siete. Se indaga el tratamiento farmacológico inicial del fenómeno de Raynaud."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál de los siguientes fármacos antihipertensivos se encuentra contraindicado en un paciente con fenómeno de Raynaud por riesgo de vasoespasmo severo?"
+      "text": "¿Cuál es el fármaco de primera línea de elección para el fenómeno de Raynaud sintomático recurrente tras medidas de abrigo?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: losartán, enalapril, amlodipino, propranolol, o hidroclorotiazida. Piénsalo."
+      "text": "Las alternativas: propranolol oral, bloqueadores de canales de calcio dihidropiridínicos como nifedipino, ergotamina con cafeína, prednisona oral, o metotrexato subcutáneo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D. Los betabloqueadores no selectivos como el propranolol están contraindicados en el fenómeno de Raynaud porque dejan sin oposición los receptores alfa vasoconstrictores periféricos, agravando la isquemia tisular."
+      "text": "La respuesta correcta es la B. Los calcioantagonistas dihidropiridínicos como el nifedipino oral son el tratamiento farmacológico de primera línea por su potente efecto vasodilatador sobre las arteriolas digitales."
     },
     {
       "file": "s12_g00",
-      "text": "Repasemos las tres reglas de oro. Primero: el fenómeno de Raynaud es una respuesta vascular trifásica con palidez isquémica, cianosis por estasis desoxigenada y rubor por hiperemia reactiva de reperfusión."
+      "text": "Pregunta del EUNACOM dos mil veintitrés, pregunta dieciocho. Se evalúan contraindicaciones farmacológicas en patología vascular periférica."
     },
     {
       "file": "s12_g01",
-      "text": "Segundo: el Raynaud primario es de mujeres jóvenes, simétrico, sin úlceras, con anticuerpos negativos y capilaroscopía normal. Si hay una sola úlcera en un pulpejo o anticuerpos positivos, es secundario a conectivopatía."
+      "text": "¿Cuál de los siguientes fármacos antihipertensivos se encuentra contraindicado en un paciente con fenómeno de Raynaud por riesgo de vasoespasmo severo?"
     },
     {
       "file": "s12_g02",
-      "text": "La capilaroscopía periungueal identifica precozmente el patrón esclerodérmico con megacapilares y áreas avasculares mucho antes de que aparezcan las manifestaciones cutáneas mayores."
+      "text": "Las opciones: losartán, enalapril, amlodipino, propranolol, o hidroclorotiazida. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la D. Los betabloqueadores no selectivos como el propranolol están contraindicados en el fenómeno de Raynaud porque dejan sin oposición los receptores alfa vasoconstrictores periféricos, agravando la isquemia tisular."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Repasemos las tres reglas de oro. Primero: el fenómeno de Raynaud es una respuesta vascular trifásica con palidez isquémica, cianosis por estasis desoxigenada y rubor por hiperemia reactiva de reperfusión."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Segundo: el Raynaud primario es de mujeres jóvenes, simétrico, sin úlceras, con anticuerpos negativos y capilaroscopía normal. Si hay una sola úlcera en un pulpejo o anticuerpos positivos, es secundario a conectivopatía."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La capilaroscopía periungueal identifica precozmente el patrón esclerodérmico con megacapilares y áreas avasculares mucho antes de que aparezcan las manifestaciones cutáneas mayores."
+    },
+    {
+      "file": "s13_g03",
       "text": "Tercero: el fármaco de primera línea es el nifedipino oral y los betabloqueadores están formalmente contraindicados. Si te llevas una sola idea de hoy: mujer joven simétrica y sin úlceras es primario con abrigo; si hay una úlcera o anticuerpos positivos, capilaroscopía urgente y descarta esclerodermia. Nos vemos en la próxima clase."
     }
   ]

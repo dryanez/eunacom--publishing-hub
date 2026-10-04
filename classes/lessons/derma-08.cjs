@@ -91,6 +91,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Urticaria y angioedema',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-08/01_habones__cto-derma_p49.jpg', label: 'Habones', credit: 'Manual CTO Dermatología 14.ª ed., p. 49' },
+        { src: 'biblioteca/11_dermatologia/derma-08/02_angioedema__cto-derma_p50.jpg', label: 'Angioedema', credit: 'Manual CTO Dermatología 14.ª ed., p. 50' },
+      ],
+      steps: [
+        { note: 'Duran menos de un día',
+          say: 'Los habones son elevaciones rosadas que duran menos de veinticuatro horas.' },
+        { note: 'Edema profundo',
+          say: 'Y el angioedema es más profundo: hincha labios y párpados. Si compromete la vía aérea, adrenalina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la evaluación de urgencia hasta el escalonamiento crónico.',
     },

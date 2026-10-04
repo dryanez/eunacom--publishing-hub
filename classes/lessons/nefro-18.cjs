@@ -237,6 +237,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Clasificación KDIGO',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-18/S1_kdigo__propio.svg', label: 'Filtrado y albuminuria', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Dos números, un color de riesgo',
+          say: 'La enfermedad renal crónica se etapifica con dos números: el filtrado, de G uno a G cinco, y la albuminuria, de A uno a A tres. El cruce da un color de riesgo, y ese color decide la frecuencia de control y la derivación.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: dos preguntas deciden el manejo.',
     },

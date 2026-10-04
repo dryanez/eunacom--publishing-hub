@@ -166,6 +166,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El esófago en la endoscopía',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_1__cto-digestivo_p27.jpg', label: 'Esófago de Barrett', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg', label: 'Esofagitis erosiva', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
+      ],
+      steps: [
+        { note: 'Mucosa salmón que sube',
+          say: 'Esto es un esófago de Barrett: la mucosa rosada y pálida del esófago se reemplaza por lengüetas color salmón que suben desde la unión. Ese cambio de color es la metaplasia, y por eso se biopsia.' },
+        { note: 'Erosiones lineales sobre la unión',
+          say: 'Y esto es una esofagitis erosiva: erosiones lineales, rojas, justo sobre la unión con el estómago. Es el daño directo del ácido, y su extensión es la que clasifica la gravedad.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

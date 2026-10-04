@@ -117,6 +117,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Síndrome de ovario poliquístico',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg', label: 'Ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 35' },
+        { src: 'biblioteca/13_ginecologia/gin-02/02_acantosis-nigricans__amir-derma_p30.jpg', label: 'Acantosis nigricans', credit: 'Manual AMIR Dermatología, p. 30' },
+      ],
+      steps: [
+        { note: 'Muchos folículos periféricos',
+          say: 'En la ecografía, el ovario tiene muchos folículos pequeños en la periferia, como un collar de perlas.' },
+        { note: 'Resistencia a la insulina',
+          say: 'Y la acantosis nigricans refleja la resistencia a la insulina que acompaña al síndrome.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y el tratamiento en un solo árbol de decisión.',
     },

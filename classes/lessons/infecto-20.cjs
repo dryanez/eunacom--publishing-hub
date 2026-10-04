@@ -153,6 +153,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Infecciones de la piel',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-20/01_erisipela__cto-derma_p25.jpg', label: 'Erisipela', credit: 'Manual CTO Dermatología 14.ª ed., p. 25' },
+        { src: 'biblioteca/07_infectologia/infecto-20/02_celulitis_1__amir-infecto_p67.jpg', label: 'Celulitis', credit: 'Manual AMIR Infecciosas, p. 67' },
+        { src: 'biblioteca/07_infectologia/infecto-20/03_impetigo__cto-derma_p25.jpg', label: 'Impétigo', credit: 'Manual CTO Dermatología 14.ª ed., p. 25' },
+      ],
+      steps: [
+        { note: 'Borde nítido y elevado',
+          say: 'La erisipela tiene un borde nítido y elevado: es superficial, por estreptococo.' },
+        { note: 'Borde difuso',
+          say: 'La celulitis tiene borde difuso, porque es más profunda.' },
+        { note: 'Costras color miel',
+          say: 'Y el impétigo, costras color miel, típico de los niños.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un árbol de decisión.',
     },

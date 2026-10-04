@@ -127,6 +127,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Cáncer gástrico avanzado: Borrmann',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg', label: 'Borrmann I a IV', credit: 'Bailey & Love 27.ª ed., Fig. 63.29' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-05/S1_borrmann__propio.svg', label: 'Esquema de Borrmann', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Polipoide, ulcerado, infiltrante, difuso',
+          say: 'Estas son las cuatro formas de Borrmann en la endoscopía real. El tipo uno es una masa polipoide; el dos, una úlcera de bordes bien definidos; el tres, una úlcera que infiltra; y el cuatro, la linitis plástica, que endurece toda la pared.' },
+        { note: 'Corte de la pared gástrica',
+          say: 'Y aquí el mismo concepto en un corte de la pared. Fíjate que el tipo cuatro casi no se ve desde adentro: infiltra por debajo de la mucosa, y por eso se diagnostica tarde.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

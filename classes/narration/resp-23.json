@@ -2,7 +2,7 @@
   "id": "resp-23",
   "title": "Neumología 5.3: Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
   "specialty": "Neumología",
-  "chars": 10510,
+  "chars": 10837,
   "segments": [
     {
       "file": "s00_g00",
@@ -94,146 +94,154 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora pongamos todo en un solo árbol, desde el ronquido hasta el CPAP. Paciente obeso, de cuello ancho, que ronca, tiene pausas respiratorias que ve su pareja, y se duerme de día."
+      "text": "Esta es una polisomnografía real. Fíjate en las pausas repetidas del flujo de aire, mientras el tórax sigue haciendo esfuerzo, y la saturación que cae después de cada una."
     },
     {
       "file": "s05_g01",
-      "text": "Un Epworth sobre diez confirma que la somnolencia es anormal, pero el diagnóstico lo da la polisomnografía nocturna, que entrega el índice de apnea hipopnea."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Bajo cinco eventos por hora es normal: medidas higiénicas de sueño."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Entre cinco y catorce es leve. ¿Tiene somnolencia marcada, hipertensión refractaria o una profesión de riesgo?"
-    },
-    {
-      "file": "s05_g04",
-      "text": "Si no, medidas generales: baja de peso, sin alcohol ni benzodiacepinas, terapia postural y avance mandibular."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Si tiene alguna, CPAP nocturno, más las medidas generales."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Quince o más es moderado o severo: CPAP nasal nocturno, siempre con baja de peso y sin sedantes."
+      "text": "Y este esquema lo simplifica: en la apnea obstructiva el flujo se detiene pero el esfuerzo continúa. Si también se detiene el esfuerzo, la apnea es central."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos la tabla de severidad con su conducta. Índice bajo cinco: normal, solo medidas higiénicas de sueño."
+      "text": "Ahora pongamos todo en un solo árbol, desde el ronquido hasta el CPAP. Paciente obeso, de cuello ancho, que ronca, tiene pausas respiratorias que ve su pareja, y se duerme de día."
     },
     {
       "file": "s06_g01",
-      "text": "Leve, de cinco a catorce: baja de peso, sin alcohol ni benzodiacepinas, y dispositivo de avance mandibular. Pero CPAP si hay somnolencia marcada, hipertensión refractaria o una profesión de riesgo."
+      "text": "Un Epworth sobre diez confirma que la somnolencia es anormal, pero el diagnóstico lo da la polisomnografía nocturna, que entrega el índice de apnea hipopnea."
     },
     {
       "file": "s06_g02",
-      "text": "Moderado, de quince a veintinueve: CPAP nocturno, que es la primera línea."
+      "text": "Bajo cinco eventos por hora es normal: medidas higiénicas de sueño."
     },
     {
       "file": "s06_g03",
-      "text": "Y severo, treinta o más: CPAP obligatorio, con control de la presión arterial. Las trampas del examen en este punto son el oxígeno nocturno, la cirugía de la faringe y los hipnóticos. Ninguno reemplaza al CPAP, y las benzodiacepinas empeoran el colapso."
+      "text": "Entre cinco y catorce es leve. ¿Tiene somnolencia marcada, hipertensión refractaria o una profesión de riesgo?"
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si no, medidas generales: baja de peso, sin alcohol ni benzodiacepinas, terapia postural y avance mandibular."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si tiene alguna, CPAP nocturno, más las medidas generales."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Quince o más es moderado o severo: CPAP nasal nocturno, siempre con baja de peso y sin sedantes."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos con un caso. Hombre de cincuenta años, conductor de camiones, con índice de masa corporal de treinta y seis y cuello de cuarenta y seis centímetros, hipertenso mal controlado con tres fármacos. Su esposa cuenta ronquidos intensos y pausas respiratorias. Epworth de quince. La polisomnografía muestra un índice de cuarenta y dos eventos por hora, de predominio obstructivo."
+      "text": "Repasemos la tabla de severidad con su conducta. Índice bajo cinco: normal, solo medidas higiénicas de sueño."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "Leve, de cinco a catorce: baja de peso, sin alcohol ni benzodiacepinas, y dispositivo de avance mandibular. Pero CPAP si hay somnolencia marcada, hipertensión refractaria o una profesión de riesgo."
     },
     {
       "file": "s07_g02",
-      "text": "Las alternativas: oxígeno nocturno, zopiclona para dormir mejor, CPAP nasal más baja de peso, solo baja de peso y control, o modafinilo de día. Piénsalo."
+      "text": "Moderado, de quince a veintinueve: CPAP nocturno, que es la primera línea."
     },
     {
       "file": "s07_g03",
-      "text": "Es la C. Con un índice de cuarenta y dos es un SAHOS severo, y además tiene hipertensión refractaria y maneja camiones. CPAP, acompañado siempre de baja de peso. La D es la trampa tentadora: bajar de peso ayuda, pero en un severo no basta, y este paciente no puede esperar seis meses al volante. Y el hipnótico empeoraría el colapso de la faringe."
+      "text": "Y severo, treinta o más: CPAP obligatorio, con control de la presión arterial. Las trampas del examen en este punto son el oxígeno nocturno, la cirugía de la faringe y los hipnóticos. Ninguno reemplaza al CPAP, y las benzodiacepinas empeoran el colapso."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Paciente de cuarenta y tres años, obeso mórbido, con cansancio y somnolencia de día. Ronca en la noche y se queda dormido en la luz roja del semáforo. Presión de ciento cuarenta noventa, y faringe normal."
+      "text": "Vamos con un caso. Hombre de cincuenta años, conductor de camiones, con índice de masa corporal de treinta y seis y cuello de cuarenta y seis centímetros, hipertenso mal controlado con tres fármacos. Su esposa cuenta ronquidos intensos y pausas respiratorias. Epworth de quince. La polisomnografía muestra un índice de cuarenta y dos eventos por hora, de predominio obstructivo."
     },
     {
       "file": "s08_g01",
-      "text": "¿Qué examen es el más adecuado para proseguir el estudio?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: poligrafía nocturna, polisomnografía, saturación durante el sueño, monitoreo de presión de veinticuatro horas, o nasofibroscopía. Piénsalo."
+      "text": "Las alternativas: oxígeno nocturno, zopiclona para dormir mejor, CPAP nasal más baja de peso, solo baja de peso y control, o modafinilo de día. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Obeso, ronca y se duerme en el semáforo: es la sospecha típica de SAHOS, y el estándar de oro es la polisomnografía. La poligrafía es el distractor más fino, porque también sirve, pero es la alternativa ambulatoria, no el examen de elección. Y la faringe normal no descarta nada: el colapso ocurre al dormir."
+      "text": "Es la C. Con un índice de cuarenta y dos es un SAHOS severo, y además tiene hipertensión refractaria y maneja camiones. CPAP, acompañado siempre de baja de peso. La D es la trampa tentadora: bajar de peso ayuda, pero en un severo no basta, y este paciente no puede esperar seis meses al volante. Y el hipnótico empeoraría el colapso de la faringe."
     },
     {
       "file": "s09_g00",
-      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno, que también apareció casi igual en diciembre de dos mil diecinueve. Paciente de setenta y ocho años, con sobrepeso, con alteraciones de memoria y de concentración que progresan desde hace dos años, asociadas a hipersomnia y cansancio."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Paciente de cuarenta y tres años, obeso mórbido, con cansancio y somnolencia de día. Ronca en la noche y se queda dormido en la luz roja del semáforo. Presión de ciento cuarenta noventa, y faringe normal."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
+      "text": "¿Qué examen es el más adecuado para proseguir el estudio?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: electrocardiograma, ecocardiograma, polisomnografía, resonancia de cerebro, o TAC de cerebro. Piénsalo."
+      "text": "Las opciones: poligrafía nocturna, polisomnografía, saturación durante el sueño, monitoreo de presión de veinticuatro horas, o nasofibroscopía. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C. La pista es la hipersomnia en un paciente con sobrepeso. El sueño fragmentado por las apneas explica la falla de memoria y de concentración, y el examen es la polisomnografía. El distractor tentador son las imágenes de cerebro, porque la edad y la memoria hacen pensar en demencia. Pero la hipersomnia te dice que busques primero lo que pasa de noche."
+      "text": "Es la B. Obeso, ronca y se duerme en el semáforo: es la sospecha típica de SAHOS, y el estándar de oro es la polisomnografía. La poligrafía es el distractor más fino, porque también sirve, pero es la alternativa ambulatoria, no el examen de elección. Y la faringe normal no descarta nada: el colapso ocurre al dormir."
     },
     {
       "file": "s10_g00",
-      "text": "Una más, del EUNACOM de julio de dos mil dieciséis. Paciente de cincuenta y dos años, con ronquidos de larga data, somnolencia diurna y deterioro cognitivo. Presión de ciento cuarenta cien, e índice de masa corporal de treinta y cinco. La polisomnografía muestra cincuenta eventos por hora, de predominio obstructivo."
+      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno, que también apareció casi igual en diciembre de dos mil diecinueve. Paciente de setenta y ocho años, con sobrepeso, con alteraciones de memoria y de concentración que progresan desde hace dos años, asociadas a hipersomnia y cansancio."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: oxígeno nocturno, CPAP nocturno, cirugía bariátrica, uvulopalatoplastía, o dispositivo orofaríngeo. Piénsalo."
+      "text": "Las opciones: electrocardiograma, ecocardiograma, polisomnografía, resonancia de cerebro, o TAC de cerebro. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Cincuenta eventos por hora es un SAHOS severo, y el tratamiento de elección es el CPAP. El oxígeno nocturno es el distractor: corrige la desaturación, pero no abre la faringe, así que las apneas y los microdespertares siguen igual. La cirugía y los dispositivos no son la primera línea en un severo."
+      "text": "Es la C. La pista es la hipersomnia en un paciente con sobrepeso. El sueño fragmentado por las apneas explica la falla de memoria y de concentración, y el examen es la polisomnografía. El distractor tentador son las imágenes de cerebro, porque la edad y la memoria hacen pensar en demencia. Pero la hipersomnia te dice que busques primero lo que pasa de noche."
     },
     {
       "file": "s11_g00",
-      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticuatro, con un enunciado muy breve. Paciente con apnea del sueño, polisomnografía con sesenta y cinco eventos por hora, e hipertrofia de cornetes."
+      "text": "Una más, del EUNACOM de julio de dos mil dieciséis. Paciente de cincuenta y dos años, con ronquidos de larga data, somnolencia diurna y deterioro cognitivo. Presión de ciento cuarenta cien, e índice de masa corporal de treinta y cinco. La polisomnografía muestra cincuenta eventos por hora, de predominio obstructivo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: CPAP, cirugía de cornetes, laparotomía, cirugía laparoscópica, o manejo conservador. Piénsalo."
+      "text": "Las opciones: oxígeno nocturno, CPAP nocturno, cirugía bariátrica, uvulopalatoplastía, o dispositivo orofaríngeo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. Sesenta y cinco eventos por hora es severo, y el severo va a CPAP. La cirugía de cornetes es la trampa: el enunciado te pone un hallazgo anatómico para que lo operes, pero el problema es el colapso de la faringe al dormir, y los cornetes no lo resuelven. Y el manejo conservador se queda corto en un severo."
+      "text": "Es la B. Cincuenta eventos por hora es un SAHOS severo, y el tratamiento de elección es el CPAP. El oxígeno nocturno es el distractor: corrige la desaturación, pero no abre la faringe, así que las apneas y los microdespertares siguen igual. La cirugía y los dispositivos no son la primera línea en un severo."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. La sospecha es la tríada: ronquido, apneas presenciadas y somnolencia diurna, en un paciente obeso de cuello ancho."
+      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticuatro, con un enunciado muy breve. Paciente con apnea del sueño, polisomnografía con sesenta y cinco eventos por hora, e hipertrofia de cornetes."
     },
     {
       "file": "s12_g01",
-      "text": "Un Epworth sobre diez indica estudiar, pero no confirma."
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s12_g02",
-      "text": "Lo que confirma es la polisomnografía, que da el índice de apnea hipopnea, con cortes en cinco, quince y treinta."
+      "text": "Las opciones: CPAP, cirugía de cornetes, laparotomía, cirugía laparoscópica, o manejo conservador. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la A. Sesenta y cinco eventos por hora es severo, y el severo va a CPAP. La cirugía de cornetes es la trampa: el enunciado te pone un hallazgo anatómico para que lo operes, pero el problema es el colapso de la faringe al dormir, y los cornetes no lo resuelven. Y el manejo conservador se queda corto en un severo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La sospecha es la tríada: ronquido, apneas presenciadas y somnolencia diurna, en un paciente obeso de cuello ancho."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Un Epworth sobre diez indica estudiar, pero no confirma."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Lo que confirma es la polisomnografía, que da el índice de apnea hipopnea, con cortes en cinco, quince y treinta."
+    },
+    {
+      "file": "s13_g03",
       "text": "Desde quince, CPAP nasal nocturno, y también en el leve con somnolencia marcada, hipertensión refractaria o profesión de riesgo."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y siempre, bajar de peso y suspender el alcohol y los sedantes. Si te llevas una sola idea de hoy: el que ronca y se duerme de día va a polisomnografía, y desde un índice de quince, a CPAP. Nos vemos en la próxima clase."
     }
   ]

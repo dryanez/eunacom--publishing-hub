@@ -2,7 +2,7 @@
   "id": "hem-19",
   "title": "Hematología 8.19: Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
   "specialty": "Hematología",
-  "chars": 12566,
+  "chars": 12783,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,83 +106,79 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en un árbol de decisión, partiendo del adulto mayor con dolor óseo y VHS alta. Adulto mayor con dolor óseo, anemia, VHS sobre cien o falla renal. Sospecha mieloma múltiple."
+      "text": "En el mieloma, el cráneo muestra lesiones líticas en sacabocado."
     },
     {
       "file": "s06_g01",
-      "text": "Pide una electroforesis de proteínas. ¿Aparece un pico monoclonal en la zona gamma?"
+      "text": "Y la electroforesis muestra un pico alto y angosto en gamma: es la proteína monoclonal."
     },
     {
       "file": "s06_g02",
-      "text": "Si no aparece y la sospecha sigue, no descartes: busca un mieloma de cadenas ligeras, con cadenas ligeras libres en suero y electroforesis de orina de veinticuatro horas."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si hay pico, la pregunta que decide todo: ¿hay algún criterio CRAB?"
-    },
-    {
-      "file": "s06_g04",
-      "text": "Sin CRAB, es una GMSI si el pico es menor de tres y los plasmocitos menos de diez por ciento, y se controla una vez al año. Si los supera, es un mieloma quiescente, con controles cada tres a seis meses. Ninguno se trata con quimioterapia."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Con al menos un criterio CRAB, es un mieloma activo. Hidrata con suero fisiológico, suspende los antiinflamatorios, y deriva urgente a hematología con garantía GES, para confirmar en la médula e iniciar inducción con bortezomib, lenalidomida y dexametasona."
+      "text": "En el frotis, los glóbulos se apilan como monedas: es el rouleaux."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Adulto mayor con dolor óseo, anemia, falla renal y VHS sobre cien: mieloma múltiple. No te vayas al cáncer de próstata o renal metastásico: la suma de anemia, riñón y hueso es CRAB."
+      "text": "Juntemos todo en un árbol de decisión, partiendo del adulto mayor con dolor óseo y VHS alta. Adulto mayor con dolor óseo, anemia, VHS sobre cien o falla renal. Sospecha mieloma múltiple."
     },
     {
       "file": "s07_g01",
-      "text": "Pico menor de tres, plasmocitos bajo diez por ciento y sin CRAB: GMSI. Se observa una vez al año. Dar quimioterapia es el error."
+      "text": "Pide una electroforesis de proteínas. ¿Aparece un pico monoclonal en la zona gamma?"
     },
     {
       "file": "s07_g02",
-      "text": "En cambio, con un solo criterio CRAB, el mieloma es activo y se trata de inmediato."
+      "text": "Si no aparece y la sospecha sigue, no descartes: busca un mieloma de cadenas ligeras, con cadenas ligeras libres en suero y electroforesis de orina de veinticuatro horas."
     },
     {
       "file": "s07_g03",
-      "text": "Sospecha alta con electroforesis normal: cadenas ligeras libres y orina de veinticuatro horas. Descartar el mieloma es el error."
+      "text": "Si hay pico, la pregunta que decide todo: ¿hay algún criterio CRAB?"
     },
     {
       "file": "s07_g04",
-      "text": "Y mieloma con hipercalcemia y falla renal: suero fisiológico endovenoso y suspender los antiinflamatorios. Mantenerlos para el dolor empeora el riñón."
+      "text": "Sin CRAB, es una GMSI si el pico es menor de tres y los plasmocitos menos de diez por ciento, y se controla una vez al año. Si los supera, es un mieloma quiescente, con controles cada tres a seis meses. Ninguno se trata con quimioterapia."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Con al menos un criterio CRAB, es un mieloma activo. Hidrata con suero fisiológico, suspende los antiinflamatorios, y deriva urgente a hematología con garantía GES, para confirmar en la médula e iniciar inducción con bortezomib, lenalidomida y dexametasona."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de sesenta y ocho años con tres meses de dolor lumbar que no cede con paracetamol ni antiinflamatorios, y astenia. Está pálido y le duele la columna lumbar a la palpación. Hemoglobina ocho coma nueve, VHS ciento veinticinco, creatinina dos coma seis y calcio once coma ocho. Hay Rouleaux en el frotis, y la radiografía de cráneo muestra múltiples lesiones líticas redondas, de bordes nítidos."
+      "text": "Repasemos las trampas. Adulto mayor con dolor óseo, anemia, falla renal y VHS sobre cien: mieloma múltiple. No te vayas al cáncer de próstata o renal metastásico: la suma de anemia, riñón y hueso es CRAB."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Pico menor de tres, plasmocitos bajo diez por ciento y sin CRAB: GMSI. Se observa una vez al año. Dar quimioterapia es el error."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones. Control anual con electroforesis. Hospitalizar, hidratar, suspender los antiinflamatorios y derivar urgente. Subir los antiinflamatorios y pedir una resonancia. Pedir antígeno prostático y cintigrafía. O iniciar hierro endovenoso. Piénsalo."
+      "text": "En cambio, con un solo criterio CRAB, el mieloma es activo y se trata de inmediato."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta es la B. Este paciente tiene las cuatro letras: calcio sobre once, creatinina sobre dos, hemoglobina bajo diez y lesiones en sacabocado. Es un mieloma activo con hipercalcemia y falla renal, así que se hidrata con suero fisiológico, se suspenden los antiinflamatorios y se deriva urgente. El distractor tentador es el control anual: esa es la conducta de la GMSI, que por definición no tiene CRAB."
+      "text": "Sospecha alta con electroforesis normal: cadenas ligeras libres y orina de veinticuatro horas. Descartar el mieloma es el error."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y mieloma con hipercalcemia y falla renal: suero fisiológico endovenoso y suspender los antiinflamatorios. Mantenerlos para el dolor empeora el riñón."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Hombre de sesenta y cinco años con tres meses de compromiso del estado general, nicturia y, en las últimas semanas, dolor lumbar. Está enflaquecido y pálido. Tiene proteinuria, creatinina uno coma ocho, un antígeno prostático de cinco coma cinco, y dos quistes renales simples en la ecografía."
+      "text": "Vamos con un caso. Hombre de sesenta y ocho años con tres meses de dolor lumbar que no cede con paracetamol ni antiinflamatorios, y astenia. Está pálido y le duele la columna lumbar a la palpación. Hemoglobina ocho coma nueve, VHS ciento veinticinco, creatinina dos coma seis y calcio once coma ocho. Hay Rouleaux en el frotis, y la radiografía de cráneo muestra múltiples lesiones líticas redondas, de bordes nítidos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: mieloma múltiple, cáncer prostático metastásico, cáncer renal metastásico, espondilodiscitis crónica, o espondilolistesis. Piénsalo."
+      "text": "Tienes cinco opciones. Control anual con electroforesis. Hospitalizar, hidratar, suspender los antiinflamatorios y derivar urgente. Subir los antiinflamatorios y pedir una resonancia. Pedir antígeno prostático y cintigrafía. O iniciar hierro endovenoso. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, mieloma múltiple. Suma las letras: palidez por anemia, proteinuria con falla renal, y dolor óseo. El distractor más tentador es el cáncer de próstata, porque el antígeno está algo elevado y hay dolor lumbar. Pero eso no explica el riñón ni la proteinuria. Y los quistes renales simples no son un cáncer renal."
+      "text": "La respuesta es la B. Este paciente tiene las cuatro letras: calcio sobre once, creatinina sobre dos, hemoglobina bajo diez y lesiones en sacabocado. Es un mieloma activo con hipercalcemia y falla renal, así que se hidrata con suero fisiológico, se suspenden los antiinflamatorios y se deriva urgente. El distractor tentador es el control anual: esa es la conducta de la GMSI, que por definición no tiene CRAB."
     },
     {
       "file": "s10_g00",
-      "text": "La segunda es del EUNACOM de julio de dos mil dieciocho. Hombre de sesenta y cuatro años con dolores óseos. Hemoglobina ocho, VCM normal, plaquetas y blancos normales, y VHS noventa. Tiene hipogammaglobulinemia, y en las proteínas séricas hay una elevación monoclonal en la zona kappa."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Hombre de sesenta y cinco años con tres meses de compromiso del estado general, nicturia y, en las últimas semanas, dolor lumbar. Está enflaquecido y pálido. Tiene proteinuria, creatinina uno coma ocho, un antígeno prostático de cinco coma cinco, y dos quistes renales simples en la ecografía."
     },
     {
       "file": "s10_g01",
@@ -190,62 +186,78 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: macroglobulinemia de Waldenström, gammapatía monoclonal incierta, mieloma múltiple, amiloidosis, o enfermedad por cadenas pesadas. Piénsalo."
+      "text": "Las opciones son: mieloma múltiple, cáncer prostático metastásico, cáncer renal metastásico, espondilodiscitis crónica, o espondilolistesis. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, mieloma múltiple, en este caso de cadenas ligeras kappa. Por eso el resto de las inmunoglobulinas está bajo: el clon fabrica solo cadenas ligeras. El distractor más tentador es la gammapatía monoclonal incierta, porque también tiene un componente monoclonal. Pero la GMSI no tiene CRAB, y aquí hay anemia bajo diez y dolor óseo."
+      "text": "Es la A, mieloma múltiple. Suma las letras: palidez por anemia, proteinuria con falla renal, y dolor óseo. El distractor más tentador es el cáncer de próstata, porque el antígeno está algo elevado y hay dolor lumbar. Pero eso no explica el riñón ni la proteinuria. Y los quistes renales simples no son un cáncer renal."
     },
     {
       "file": "s11_g00",
-      "text": "La tercera es del EUNACOM de julio de dos mil diecinueve. Hombre de ochenta años con dolor costal intenso que aumenta al palparlo. Hematocrito veintisiete, VHS noventa, creatinina dos coma uno, calcio diez coma ocho, y proteínas totales de nueve coma uno con albúmina de solo tres. Los riñones son de tamaño normal."
+      "text": "La segunda es del EUNACOM de julio de dos mil dieciocho. Hombre de sesenta y cuatro años con dolores óseos. Hemoglobina ocho, VCM normal, plaquetas y blancos normales, y VHS noventa. Tiene hipogammaglobulinemia, y en las proteínas séricas hay una elevación monoclonal en la zona kappa."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el examen de elección para la confirmación diagnóstica?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: beta dos microglobulina, resonancia de columna, radiografía de parrilla costal, mielograma, o biopsia renal. Piénsalo."
+      "text": "Las opciones son: macroglobulinemia de Waldenström, gammapatía monoclonal incierta, mieloma múltiple, amiloidosis, o enfermedad por cadenas pesadas. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D, el mielograma. Mira la pista escondida: proteínas totales altas con albúmina baja significa que sobran globulinas. Con anemia, falla renal y un dolor costal que sugiere una fractura, es un mieloma. Y se confirma en la médula, contando diez por ciento o más de plasmocitos. La radiografía costal es el distractor: mostraría la lesión, pero no confirma el mieloma."
+      "text": "Es la C, mieloma múltiple, en este caso de cadenas ligeras kappa. Por eso el resto de las inmunoglobulinas está bajo: el clon fabrica solo cadenas ligeras. El distractor más tentador es la gammapatía monoclonal incierta, porque también tiene un componente monoclonal. Pero la GMSI no tiene CRAB, y aquí hay anemia bajo diez y dolor óseo."
     },
     {
       "file": "s12_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil dieciséis. Paciente de sesenta y cuatro años, tratado antes por un mieloma, que ahora consulta por astenia, constipación y orina abundante, y luego se desorienta. Está soporoso y pálido, y el calcio es de catorce coma tres."
+      "text": "La tercera es del EUNACOM de julio de dos mil diecinueve. Hombre de ochenta años con dolor costal intenso que aumenta al palparlo. Hematocrito veintisiete, VHS noventa, creatinina dos coma uno, calcio diez coma ocho, y proteínas totales de nueve coma uno con albúmina de solo tres. Los riñones son de tamaño normal."
     },
     {
       "file": "s12_g01",
-      "text": "En este momento, ¿qué debe recibir?"
+      "text": "¿Cuál es el examen de elección para la confirmación diagnóstica?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: calcitonina, solución salina al cero coma nueve por ciento, vitamina D, bifosfonatos, o corticoides. Piénsalo."
+      "text": "Las opciones son: beta dos microglobulina, resonancia de columna, radiografía de parrilla costal, mielograma, o biopsia renal. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B, suero fisiológico. Constipación, poliuria y compromiso de conciencia con calcio sobre catorce es una hipercalcemia grave, la C del CRAB. Y como vimos, lo primero es hidratar en forma vigorosa. El distractor tentador son los bifosfonatos, porque son parte del tratamiento del mieloma. Pero la pregunta dice en este momento, y lo primero es el volumen."
+      "text": "Es la D, el mielograma. Mira la pista escondida: proteínas totales altas con albúmina baja significa que sobran globulinas. Con anemia, falla renal y un dolor costal que sugiere una fractura, es un mieloma. Y se confirma en la médula, contando diez por ciento o más de plasmocitos. La radiografía costal es el distractor: mostraría la lesión, pero no confirma el mieloma."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. CRAB: calcio sobre once, creatinina sobre dos, hemoglobina bajo diez y lesiones líticas en sacabocado."
+      "text": "Y la última, del EUNACOM de julio de dos mil dieciséis. Paciente de sesenta y cuatro años, tratado antes por un mieloma, que ahora consulta por astenia, constipación y orina abundante, y luego se desorienta. Está soporoso y pálido, y el calcio es de catorce coma tres."
     },
     {
       "file": "s13_g01",
-      "text": "Un adulto mayor con dolor óseo, anemia y una VHS sobre cien, con Rouleaux, es un mieloma hasta demostrar lo contrario."
+      "text": "En este momento, ¿qué debe recibir?"
     },
     {
       "file": "s13_g02",
-      "text": "La electroforesis muestra el pico monoclonal en la zona gamma. Si es normal y la sospecha sigue, se buscan las cadenas ligeras."
+      "text": "Las opciones son: calcitonina, solución salina al cero coma nueve por ciento, vitamina D, bifosfonatos, o corticoides. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la B, suero fisiológico. Constipación, poliuria y compromiso de conciencia con calcio sobre catorce es una hipercalcemia grave, la C del CRAB. Y como vimos, lo primero es hidratar en forma vigorosa. El distractor tentador son los bifosfonatos, porque son parte del tratamiento del mieloma. Pero la pregunta dice en este momento, y lo primero es el volumen."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. CRAB: calcio sobre once, creatinina sobre dos, hemoglobina bajo diez y lesiones líticas en sacabocado."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Un adulto mayor con dolor óseo, anemia y una VHS sobre cien, con Rouleaux, es un mieloma hasta demostrar lo contrario."
+    },
+    {
+      "file": "s14_g02",
+      "text": "La electroforesis muestra el pico monoclonal en la zona gamma. Si es normal y la sospecha sigue, se buscan las cadenas ligeras."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y la médula ósea confirma, con diez por ciento o más de plasmocitos."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Si te llevas una sola idea de hoy: el pico monoclonal solo no basta, lo que decide es el CRAB. Sin CRAB, es una GMSI y se observa; con un solo criterio, es un mieloma activo y se trata de inmediato. En la próxima clase veremos las neoplasias mieloproliferativas y la mielodisplasia. Nos vemos en la próxima clase."
     }
   ]

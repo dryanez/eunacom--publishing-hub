@@ -2,7 +2,7 @@
   "id": "cirugia-06",
   "title": "Cirugia 11.6: Hernias de Pared Abdominal: Inguinal Directa/Indirecta, Crural & Complicaciones",
   "specialty": "Cirugía General",
-  "chars": 10405,
+  "chars": 10619,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,114 +114,122 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora pongamos todo esto en un solo árbol de decisión. Un paciente llega con una masa que aparece o crece al pujar. Antes de pensar en cirugía, resuelve dos preguntas en orden: primero dónde está exactamente el defecto, y después si ya se complicó."
+      "text": "La hernia directa sale por el triángulo de Hesselbach, medial a los vasos epigástricos. La indirecta sale lateral, por el anillo profundo."
     },
     {
       "file": "s07_g01",
-      "text": "Pide la maniobra de Valsalva y ubica el defecto respecto al ligamento inguinal y a los vasos epigástricos inferiores. Esa relación anatómica, no el tamaño ni el dolor, es lo que clasifica la hernia."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Lateral a los vasos epigástricos y por el anillo inguinal profundo: hernia indirecta, la más común de todas, típica de jóvenes y niños, y la que suele descender hasta el escroto."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Medial a los vasos epigástricos, en el triángulo de Hesselbach: hernia directa, por debilidad adquirida de la fascia transversalis, más propia del adulto mayor."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Es una hernia crural. Por lo rígido y estrecho de ese anillo, revisa siempre si ya se complicó antes de decidir el momento de la cirugía."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Sin complicación todavía, igual se opera pronto, y no se espera a que dé síntomas, por el alto riesgo de que termine estrangulándose."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Con signos de estrangulación, vas directo a cirugía de urgencia: nunca intentes reducirla con la mano, porque puedes devolver al abdomen un asa que ya se está necrosando."
+      "text": "Y esta hernia umbilical está incarcerada: no se reduce y duele. Es urgencia."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos en la tabla. Indirecta, lateral a los vasos epigástricos: hernioplastia electiva con malla."
+      "text": "Ahora pongamos todo esto en un solo árbol de decisión. Un paciente llega con una masa que aparece o crece al pujar. Antes de pensar en cirugía, resuelve dos preguntas en orden: primero dónde está exactamente el defecto, y después si ya se complicó."
     },
     {
       "file": "s08_g01",
-      "text": "Directa, medial a esos mismos vasos: la conducta electiva es igual, la diferencia es solo anatómica."
+      "text": "Pide la maniobra de Valsalva y ubica el defecto respecto al ligamento inguinal y a los vasos epigástricos inferiores. Esa relación anatómica, no el tamaño ni el dolor, es lo que clasifica la hernia."
     },
     {
       "file": "s08_g02",
-      "text": "Crural, bajo el ligamento inguinal y medial a la vena femoral: se opera pronto, aunque esté asintomática, por el riesgo de estrangularse."
+      "text": "Lateral a los vasos epigástricos y por el anillo inguinal profundo: hernia indirecta, la más común de todas, típica de jóvenes y niños, y la que suele descender hasta el escroto."
     },
     {
       "file": "s08_g03",
-      "text": "Estrangulada, con piel roja, caliente y dolor intenso: cirugía urgente, y el error clásico y más castigado en el examen es intentar reducirla con la mano antes de operar."
+      "text": "Medial a los vasos epigástricos, en el triángulo de Hesselbach: hernia directa, por debilidad adquirida de la fascia transversalis, más propia del adulto mayor."
     },
     {
       "file": "s08_g04",
-      "text": "Y en el niño, herniotomía simple sin malla. Ponerle una malla a un niño es la respuesta incorrecta más clásica de esta parte."
+      "text": "Es una hernia crural. Por lo rígido y estrecho de ese anillo, revisa siempre si ya se complicó antes de decidir el momento de la cirugía."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Sin complicación todavía, igual se opera pronto, y no se espera a que dé síntomas, por el alto riesgo de que termine estrangulándose."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Con signos de estrangulación, vas directo a cirugía de urgencia: nunca intentes reducirla con la mano, porque puedes devolver al abdomen un asa que ya se está necrosando."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso. Mujer de sesenta y ocho años, con cinco partos, y diez horas de dolor intenso en una masa de dos centímetros en la ingle derecha, por debajo del ligamento inguinal y medial al pulso femoral. Es irreductible, con la piel algo enrojecida, náuseas, y el abdomen distendido con ruidos aumentados."
+      "text": "Repasemos en la tabla. Indirecta, lateral a los vasos epigástricos: hernioplastia electiva con malla."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Directa, medial a esos mismos vasos: la conducta electiva es igual, la diferencia es solo anatómica."
     },
     {
       "file": "s09_g02",
-      "text": "Tienes cinco opciones: intentar el taxis en urgencia, cirugía de urgencia sin reducirla, analgesia y control en cuarenta y ocho horas, braguero y observación, o programar cirugía electiva en seis semanas. Piénsalo."
+      "text": "Crural, bajo el ligamento inguinal y medial a la vena femoral: se opera pronto, aunque esté asintomática, por el riesgo de estrangularse."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. La ubicación, bajo el ligamento inguinal y medial a la vena femoral, es la hernia crural, la de mayor riesgo de estrangularse. Y aquí tienes el enrojecimiento y la obstrucción que confirman que ya se está estrangulando. Intentar el taxis, la opción A, es la trampa: está prohibido, porque devuelve al abdomen un asa que ya se está necrosando, y así cambias una hernia por una peritonitis fecaloidea mucho más grave."
+      "text": "Estrangulada, con piel roja, caliente y dolor intenso: cirugía urgente, y el error clásico y más castigado en el examen es intentar reducirla con la mano antes de operar."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y en el niño, herniotomía simple sin malla. Ponerle una malla a un niño es la respuesta incorrecta más clásica de esta parte."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta años, con un aumento de volumen en la cara anterior del muslo, que a veces duele y se acompaña de náuseas y dolor abdominal. Al examen está por debajo del ligamento inguinal."
+      "text": "Vamos al caso. Mujer de sesenta y ocho años, con cinco partos, y diez horas de dolor intenso en una masa de dos centímetros en la ingle derecha, por debajo del ligamento inguinal y medial al pulso femoral. Es irreductible, con la piel algo enrojecida, náuseas, y el abdomen distendido con ruidos aumentados."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "Las opciones son: linfoma, hernia inguinal, adenopatía metastásica, hernia femoral, o sarcoma de partes blandas. Piénsalo."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Es la D. La palabra clave es \"por debajo del ligamento inguinal\": esa es justamente la ubicación de la hernia femoral o crural, no de la inguinal. Y que se acompañe de náuseas y dolor abdominal te avisa que ya está dando síntomas de obstrucción, así que a esta paciente hay que operarla pronto."
-    },
-    {
-      "file": "s11_g00",
-      "text": "Y una pregunta real más, del EUNACOM de julio de dos mil veinticinco, sobre otra hernia que conviene conocer. Recién nacido de tres días, con una protuberancia blanda en la línea media del abdomen, de un centímetro, reductible, sin ningún signo inflamatorio."
-    },
-    {
-      "file": "s11_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s10_g02",
+      "text": "Tienes cinco opciones: intentar el taxis en urgencia, cirugía de urgencia sin reducirla, analgesia y control en cuarenta y ocho horas, braguero y observación, o programar cirugía electiva en seis semanas. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. La ubicación, bajo el ligamento inguinal y medial a la vena femoral, es la hernia crural, la de mayor riesgo de estrangularse. Y aquí tienes el enrojecimiento y la obstrucción que confirman que ya se está estrangulando. Intentar el taxis, la opción A, es la trampa: está prohibido, porque devuelve al abdomen un asa que ya se está necrosando, y así cambias una hernia por una peritonitis fecaloidea mucho más grave."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta años, con un aumento de volumen en la cara anterior del muslo, que a veces duele y se acompaña de náuseas y dolor abdominal. Al examen está por debajo del ligamento inguinal."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
       "file": "s11_g02",
-      "text": "Las opciones son: cirugía electiva inmediata, cirugía de urgencia, derivación urgente a cirugía pediátrica, antibióticos profilácticos, u observación porque la mayoría se cierra sola antes de los cuatro años. Piénsalo."
+      "text": "Las opciones son: linfoma, hernia inguinal, adenopatía metastásica, hernia femoral, o sarcoma de partes blandas. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. La hernia umbilical del recién nacido es distinta a todo lo que vimos hoy: es fisiológica, por un anillo umbilical que todavía no termina de cerrar, y en la enorme mayoría de los casos se cierra solo antes de los cuatro años. Aquí no hay ninguna urgencia: nada de cirugía ni de antibióticos mientras siga reductible y sin inflamación."
+      "text": "Es la D. La palabra clave es \"por debajo del ligamento inguinal\": esa es justamente la ubicación de la hernia femoral o crural, no de la inguinal. Y que se acompañe de náuseas y dolor abdominal te avisa que ya está dando síntomas de obstrucción, así que a esta paciente hay que operarla pronto."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Indirecta, lateral a los vasos epigástricos; directa, medial a esos mismos vasos."
+      "text": "Y una pregunta real más, del EUNACOM de julio de dos mil veinticinco, sobre otra hernia que conviene conocer. Recién nacido de tres días, con una protuberancia blanda en la línea media del abdomen, de un centímetro, reductible, sin ningún signo inflamatorio."
     },
     {
       "file": "s12_g01",
-      "text": "Y la crural, bajo el ligamento inguinal, es la que más se estrangula, así que se opera pronto aunque no te esté dando ningún síntoma todavía."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Si está estrangulada, nunca intentes reducirla con la mano: cirugía de urgencia, ya. Reducir un asa necrosada la manda de vuelta al abdomen, y ahí sí que tienes un problema mucho más grave que la hernia misma."
+      "text": "Las opciones son: cirugía electiva inmediata, cirugía de urgencia, derivación urgente a cirugía pediátrica, antibióticos profilácticos, u observación porque la mayoría se cierra sola antes de los cuatro años. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la E. La hernia umbilical del recién nacido es distinta a todo lo que vimos hoy: es fisiológica, por un anillo umbilical que todavía no termina de cerrar, y en la enorme mayoría de los casos se cierra solo antes de los cuatro años. Aquí no hay ninguna urgencia: nada de cirugía ni de antibióticos mientras siga reductible y sin inflamación."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Indirecta, lateral a los vasos epigástricos; directa, medial a esos mismos vasos."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Y la crural, bajo el ligamento inguinal, es la que más se estrangula, así que se opera pronto aunque no te esté dando ningún síntoma todavía."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Si está estrangulada, nunca intentes reducirla con la mano: cirugía de urgencia, ya. Reducir un asa necrosada la manda de vuelta al abdomen, y ahí sí que tienes un problema mucho más grave que la hernia misma."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y en tratamiento, el adulto va con malla, técnica de Lichtenstein, y el niño va sin malla, con herniotomía simple. Si te llevas una sola idea de hoy: la ubicación te dice el tipo de hernia, y los signos inflamatorios te dicen si puedes esperar o si el paciente necesita pabellón ahora mismo. Nos vemos en la próxima clase."
     }
   ]

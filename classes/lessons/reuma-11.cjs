@@ -216,6 +216,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Síndrome antifosfolípido',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg', label: 'Livedo reticularis', credit: 'Manual AMIR Reumatología, p. 39' },
+      ],
+      steps: [
+        { note: 'Red violácea en la piel',
+          say: 'La livedo reticularis, una red violácea en la piel, es un signo asociado al síndrome antifosfolípido.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

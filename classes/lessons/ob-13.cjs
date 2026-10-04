@@ -135,6 +135,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Metrorragia de la segunda mitad',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-13/S1_placenta-previa-dppni__propio.svg', label: 'Placenta previa vs DPPNI', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa__cto-gyo_p133.jpg', label: 'Tipos de placenta previa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 133' },
+      ],
+      steps: [
+        { note: 'Dónde está la placenta',
+          say: 'En la placenta previa la placenta cubre el orificio: sangrado indoloro. En el desprendimiento, la placenta normoinserta se despega: dolor y útero duro. Nunca tacto vaginal sin descartar placenta previa.' },
+        { note: 'Oclusiva, marginal, baja',
+          say: 'Y estos son los tipos de placenta previa según su relación con el orificio.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los cuatro cuadros en un solo árbol de decisión.',
     },

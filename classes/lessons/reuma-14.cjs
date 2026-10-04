@@ -164,6 +164,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Fenómeno de Raynaud',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg', label: 'Raynaud', credit: 'Manual AMIR Reumatología, p. 98' },
+        { src: 'biblioteca/08_reumatologia/reuma-14/02_capilaroscopia__amir-reuma_p100.jpg', label: 'Capilaroscopía', credit: 'Manual AMIR Reumatología, p. 100' },
+      ],
+      steps: [
+        { note: 'Palidez, cianosis y rubor',
+          say: 'En el Raynaud los dedos se ponen blancos, luego azules y luego rojos con el frío.' },
+        { note: 'Capilares alterados = secundario',
+          say: 'La capilaroscopía separa: capilares normales en el primario, dilatados o perdidos en el secundario a una enfermedad del tejido conectivo.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

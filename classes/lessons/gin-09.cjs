@@ -131,6 +131,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El flujo vaginal en el microscopio',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg', label: 'Células clave', credit: 'CDC PHIL 3720 (CDC/M. Rein), dominio público' },
+        { src: 'biblioteca/13_ginecologia/gin-09/02_tricomonas__cdc.jpg', label: 'Tricomonas', credit: 'CDC (Wikimedia Commons "Trichomonas vaginalis 01"), dominio público' },
+        { src: 'biblioteca/13_ginecologia/gin-09/03_microscopia_candida__fitzpatrick_p80.jpg', label: 'Candida', credit: 'Fitzpatrick 7.ª ed., Fig. 5-2B' },
+      ],
+      steps: [
+        { note: 'Vaginosis bacteriana',
+          say: 'Las células clave, cubiertas de bacterias, son la vaginosis bacteriana.' },
+        { note: 'Parásito con flagelos',
+          say: 'Las tricomonas son parásitos que se mueven en la muestra fresca. Se trata a la pareja.' },
+        { note: 'Levaduras e hifas',
+          say: 'Y las levaduras de Candida, con flujo blanco grumoso y prurito.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las cuatro entidades en un solo árbol de decisión.',
     },

@@ -120,6 +120,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Reflujo vesicoureteral',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-13/S1_grados-rvu__propio.svg', label: 'Grados', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/15_pediatria/ped-13/02_cistouretrografia_rvu__harrison_p2402.jpg', label: 'Cistouretrografía', credit: 'Harrison 21.ª ed., Fig. 316-4A' },
+      ],
+      steps: [
+        { note: 'De uno a cinco',
+          say: 'El reflujo se gradúa de uno a cinco según cuánto sube el contraste y cuánto dilata.' },
+        { note: 'Reflujo de alto grado',
+          say: 'Y esta cistouretrografía muestra un reflujo bilateral de alto grado.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos toda la decisión clínica en un solo árbol.',
     },

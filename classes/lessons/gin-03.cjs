@@ -149,6 +149,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Clasificación PALM-COEIN',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-03/S1_palm-coein__propio.svg', label: 'PALM-COEIN', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Estructurales y no estructurales',
+          say: 'PALM agrupa las causas estructurales, que se ven en la ecografía o la biopsia: pólipo, adenomiosis, leiomioma y malignidad. COEIN, las no estructurales: coagulopatía, ovulatoria, endometrial, iatrogénica y no clasificada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos en un solo árbol la decisión que más se pregunta: cuándo biopsiar.',
     },

@@ -2,7 +2,7 @@
   "id": "nefro-13",
   "title": "Nefrologia 4.1: Síndrome Nefrótico y Complicaciones Trombóticas",
   "specialty": "Nefrología",
-  "chars": 15797,
+  "chars": 15960,
   "segments": [
     {
       "file": "s00_g00",
@@ -166,139 +166,127 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos todo en un árbol de decisión, tal como lo vas a razonar frente a un adulto con edema y orina espumosa. Adulto que consulta por edema y orina espumosa. Lo primero es confirmar el síndrome: proteinuria sobre tres y medio gramos al día y albúmina bajo tres, con un sedimento sin hematuria dismórfica."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Si hay hematuria dismórfica, cilindros hemáticos o hipertensión, ya no es un nefrótico puro: piensa en un síndrome nefrítico, que tiene su propia clase."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Confirmado el nefrótico, la pregunta es si cae en alguna de las dos excepciones: diabetes de larga data con retinopatía concordante, o amiloidosis ya demostrada por otra biopsia."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Si cae en una de ellas, no se biopsia y se trata la causa conocida."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Si no cae en ninguna, que es lo habitual, se hace biopsia renal percutánea. En el adulto es obligatoria. Y mientras tanto, mira la albúmina, porque define el riesgo de trombosis."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si la albúmina está bajo dos a dos y medio, especialmente en una membranosa, se indica anticoagulación profiláctica con heparina de bajo peso molecular o antagonistas de la vitamina K."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Y en todos, tratamiento de soporte: IECA o ARA dos, restricción de sal, furosemida y estatinas, más vacuna antineumocócica antes de inmunosuprimir."
+      "text": "Este es un edema con fóvea: al presionar, la huella queda marcada. En el nefrótico el edema parte en los párpados en la mañana y baja a las piernas durante el día."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Edema, proteinuria masiva y albúmina baja, sin hematuria: síndrome nefrótico puro. El error es confundirlo con un cuadro nefrítico, que exige hematuria dismórfica e hipertensión."
+      "text": "Ahora juntemos todo en un árbol de decisión, tal como lo vas a razonar frente a un adulto con edema y orina espumosa. Adulto que consulta por edema y orina espumosa. Lo primero es confirmar el síndrome: proteinuria sobre tres y medio gramos al día y albúmina bajo tres, con un sedimento sin hematuria dismórfica."
     },
     {
       "file": "s09_g01",
-      "text": "Adulto con nefrótico primario: biopsia renal. La trampa es tratarlo como a un niño, con prednisona empírica."
+      "text": "Si hay hematuria dismórfica, cilindros hemáticos o hipertensión, ya no es un nefrótico puro: piensa en un síndrome nefrítico, que tiene su propia clase."
     },
     {
       "file": "s09_g02",
-      "text": "Diabética joven con mal control y un nefrótico: también biopsia. La excepción es solo el diabético de larga data con retinopatía concordante, no cualquier diabético."
+      "text": "Confirmado el nefrótico, la pregunta es si cae en alguna de las dos excepciones: diabetes de larga data con retinopatía concordante, o amiloidosis ya demostrada por otra biopsia."
     },
     {
       "file": "s09_g03",
-      "text": "Nefrótico que hace disnea y dolor torácico súbitos: tromboembolismo pulmonar, hasta demostrar lo contrario."
+      "text": "Si cae en una de ellas, no se biopsia y se trata la causa conocida."
     },
     {
       "file": "s09_g04",
-      "text": "Varicocele izquierdo nuevo que no se reduce al acostarse: trombosis de la vena renal izquierda."
+      "text": "Si no cae en ninguna, que es lo habitual, se hace biopsia renal percutánea. En el adulto es obligatoria. Y mientras tanto, mira la albúmina, porque define el riesgo de trombosis."
     },
     {
       "file": "s09_g05",
-      "text": "Membranosa con albúmina bajo dos a dos y medio: anticoagulación profiláctica, antes de que aparezca la trombosis."
+      "text": "Si la albúmina está bajo dos a dos y medio, especialmente en una membranosa, se indica anticoagulación profiláctica con heparina de bajo peso molecular o antagonistas de la vitamina K."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y en todos, tratamiento de soporte: IECA o ARA dos, restricción de sal, furosemida y estatinas, más vacuna antineumocócica antes de inmunosuprimir."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos al caso. Hombre de sesenta y cuatro años, fumador, con tres semanas de edema hasta los muslos, orina espumosa y seis kilos de alza de peso. Presión normal. Albúmina dos coma uno, colesterol cuatrocientos veinte, creatinina normal, proteinuria de ocho coma seis gramos al día, y en el sedimento, cuerpos ovales grasos con cruces de Malta. No es diabético."
+      "text": "Repasemos las trampas. Edema, proteinuria masiva y albúmina baja, sin hematuria: síndrome nefrótico puro. El error es confundirlo con un cuadro nefrítico, que exige hematuria dismórfica e hipertensión."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
+      "text": "Adulto con nefrótico primario: biopsia renal. La trampa es tratarlo como a un niño, con prednisona empírica."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: prednisona empírica, biopsia renal, pedir ANCA y anti membrana basal, losartán y control en seis meses, o cistoscopía. Piénsalo."
+      "text": "Diabética joven con mal control y un nefrótico: también biopsia. La excepción es solo el diabético de larga data con retinopatía concordante, no cualquier diabético."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la B, biopsia renal. Es un síndrome nefrótico puro en un adulto, y no cumple ninguna de las dos excepciones: no es diabético ni tiene amiloidosis demostrada. A esta edad lo más probable es una membranosa, y con una albúmina de dos coma uno, además hay que pensar en anticoagular. La prednisona empírica es la trampa: esa conducta es del niño, no del adulto."
+      "text": "Nefrótico que hace disnea y dolor torácico súbitos: tromboembolismo pulmonar, hasta demostrar lo contrario."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Varicocele izquierdo nuevo que no se reduce al acostarse: trombosis de la vena renal izquierda."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Membranosa con albúmina bajo dos a dos y medio: anticoagulación profiláctica, antes de que aparezca la trombosis."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con las preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Hombre de treinta y cinco años con edema facial al despertar, orina espumosa y cinco kilos de alza en dos semanas. Proteinuria de ocho gramos al día, albúmina de dos, y sin hematuria."
+      "text": "Vamos al caso. Hombre de sesenta y cuatro años, fumador, con tres semanas de edema hasta los muslos, orina espumosa y seis kilos de alza de peso. Presión normal. Albúmina dos coma uno, colesterol cuatrocientos veinte, creatinina normal, proteinuria de ocho coma seis gramos al día, y en el sedimento, cuerpos ovales grasos con cruces de Malta. No es diabético."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: síndrome nefrótico puro, síndrome nefrítico agudo, glomerulonefritis membranoproliferativa, nefropatía por IgA, o pielonefritis crónica. Piénsalo."
+      "text": "Las opciones son: prednisona empírica, biopsia renal, pedir ANCA y anti membrana basal, losartán y control en seis meses, o cistoscopía. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, síndrome nefrótico puro. Proteinuria sobre tres y medio, albúmina bajo tres y edema: cumple todo. Y la palabra clave es sin hematuria. El nefrítico, la membranoproliferativa y la IgA son glomerulonefritis, y todas tienen hematuria. Fíjate que te piden el diagnóstico sindromático, no la histología."
+      "text": "La respuesta es la B, biopsia renal. Es un síndrome nefrótico puro en un adulto, y no cumple ninguna de las dos excepciones: no es diabético ni tiene amiloidosis demostrada. A esta edad lo más probable es una membranosa, y con una albúmina de dos coma uno, además hay que pensar en anticoagular. La prednisona empírica es la trampa: esa conducta es del niño, no del adulto."
     },
     {
       "file": "s12_g00",
-      "text": "Una pregunta del EUNACOM de agosto de dos mil veintiuno, que en diciembre de dos mil diecinueve apareció casi igual. Mujer de veintisiete años, diabética tipo uno con mal control, con edema palpebral y de piernas, orina espumosa, cuerpos ovales grasos, casi sin glóbulos rojos, y nueve gramos de proteinuria al día."
+      "text": "Vamos con las preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Hombre de treinta y cinco años con edema facial al despertar, orina espumosa y cinco kilos de alza en dos semanas. Proteinuria de ocho gramos al día, albúmina de dos, y sin hematuria."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta de elección para proseguir el manejo?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones son: electroforesis de proteínas en sangre, biopsia renal, inmunofijación en orina, prednisona oral, o pedir ANCA y complemento C tres y C cuatro. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "La respuesta es la B, biopsia renal. Es un nefrótico en una adulta, y la diabetes no la exime: la excepción es el diabético de larga data con retinopatía concordante, y esta paciente tiene veintisiete años. La prednisona es la trampa pediátrica. Y los ANCA sobran, porque las vasculitis dan cuadros nefríticos, no nefróticos."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Ahora una del EUNACOM de julio de dos mil trece. Paciente de sesenta y cinco años, diabético, hospitalizado por edema generalizado en estudio. Hace un dolor torácico súbito con sudoración, y satura ochenta y nueve por ciento. Tiene cinco gramos de proteinuria, albúmina de dos, y triglicéridos altos."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Cuál es la causa más probable de su dolor torácico?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "Las opciones son: neumonía aguda, tromboembolismo pulmonar, infarto agudo al miocardio, pericarditis aguda, o disección aórtica. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "Es la B, tromboembolismo pulmonar. Detrás del edema generalizado hay un síndrome nefrótico, con una albúmina de dos, justo en la zona de alto riesgo trombótico. Dolor súbito con desaturación en ese contexto es TEP. El infarto tienta porque es diabético, pero la pregunta te está mostrando la proteinuria por una razón."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Otra variante de la misma idea, del EUNACOM de diciembre de dos mil diecinueve. Paciente de cincuenta y seis años, hospitalizado hace cinco días por un síndrome nefrótico, que hace disnea y dolor torácico. Tiene un derrame pleural derecho, y la punción muestra un líquido hemorrágico, con LDH de seiscientos cincuenta y predominio de polimorfonucleares."
-    },
-    {
-      "file": "s14_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las opciones son: síndrome nefrótico puro, síndrome nefrítico agudo, glomerulonefritis membranoproliferativa, nefropatía por IgA, o pielonefritis crónica. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A, síndrome nefrótico puro. Proteinuria sobre tres y medio, albúmina bajo tres y edema: cumple todo. Y la palabra clave es sin hematuria. El nefrítico, la membranoproliferativa y la IgA son glomerulonefritis, y todas tienen hematuria. Fíjate que te piden el diagnóstico sindromático, no la histología."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una pregunta del EUNACOM de agosto de dos mil veintiuno, que en diciembre de dos mil diecinueve apareció casi igual. Mujer de veintisiete años, diabética tipo uno con mal control, con edema palpebral y de piernas, orina espumosa, cuerpos ovales grasos, casi sin glóbulos rojos, y nueve gramos de proteinuria al día."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta de elección para proseguir el manejo?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: electroforesis de proteínas en sangre, biopsia renal, inmunofijación en orina, prednisona oral, o pedir ANCA y complemento C tres y C cuatro. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "La respuesta es la B, biopsia renal. Es un nefrótico en una adulta, y la diabetes no la exime: la excepción es el diabético de larga data con retinopatía concordante, y esta paciente tiene veintisiete años. La prednisona es la trampa pediátrica. Y los ANCA sobran, porque las vasculitis dan cuadros nefríticos, no nefróticos."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Ahora una del EUNACOM de julio de dos mil trece. Paciente de sesenta y cinco años, diabético, hospitalizado por edema generalizado en estudio. Hace un dolor torácico súbito con sudoración, y satura ochenta y nueve por ciento. Tiene cinco gramos de proteinuria, albúmina de dos, y triglicéridos altos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la causa más probable de su dolor torácico?"
+    },
+    {
       "file": "s14_g02",
-      "text": "Las opciones son: derrame paraneumónico, trasudado por hipoalbuminemia, empiema, tromboembolismo pulmonar, o derrame canceroso. Piénsalo."
+      "text": "Las opciones son: neumonía aguda, tromboembolismo pulmonar, infarto agudo al miocardio, pericarditis aguda, o disección aórtica. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la D, tromboembolismo pulmonar. Nefrótico hospitalizado con disnea y dolor torácico: el TEP va primero. Y el derrame del TEP suele ser un exudado hemorrágico, como este. El distractor más tentador es el trasudado por hipoalbuminemia, porque el paciente sí tiene la albúmina baja, pero un trasudado no es hemorrágico ni tiene una LDH tan alta."
+      "text": "Es la B, tromboembolismo pulmonar. Detrás del edema generalizado hay un síndrome nefrótico, con una albúmina de dos, justo en la zona de alto riesgo trombótico. Dolor súbito con desaturación en ese contexto es TEP. El infarto tienta porque es diabético, pero la pregunta te está mostrando la proteinuria por una razón."
     },
     {
       "file": "s15_g00",
-      "text": "La última, del EUNACOM de diciembre de dos mil diecisiete. Paciente de ochenta años con equimosis alrededor de los ojos sin trauma, astenia y edema de piernas. Creatinina dos coma seis, proteinuria de ocho coma cuatro gramos al día, albúmina de uno coma cuatro, y una VHS de noventa y seis."
+      "text": "Otra variante de la misma idea, del EUNACOM de diciembre de dos mil diecinueve. Paciente de cincuenta y seis años, hospitalizado hace cinco días por un síndrome nefrótico, que hace disnea y dolor torácico. Tiene un derrame pleural derecho, y la punción muestra un líquido hemorrágico, con LDH de seiscientos cincuenta y predominio de polimorfonucleares."
     },
     {
       "file": "s15_g01",
@@ -306,30 +294,46 @@
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones son: nefrosis lipoidea, nefropatía diabética, amiloidosis primaria, enfermedad de Berger, o arteritis de la temporal. Piénsalo."
+      "text": "Las opciones son: derrame paraneumónico, trasudado por hipoalbuminemia, empiema, tromboembolismo pulmonar, o derrame canceroso. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la C, amiloidosis primaria. Tiene un síndrome nefrótico, tiene ochenta años, y hay dos pistas más: la VHS muy alta, que hace pensar en una gammapatía, y las equimosis periorbitarias espontáneas, clásicas del amiloide en los vasos. La nefrosis lipoidea, que es el otro nombre de cambios mínimos, es la causa típica del niño, no de un paciente de ochenta años."
+      "text": "Es la D, tromboembolismo pulmonar. Nefrótico hospitalizado con disnea y dolor torácico: el TEP va primero. Y el derrame del TEP suele ser un exudado hemorrágico, como este. El distractor más tentador es el trasudado por hipoalbuminemia, porque el paciente sí tiene la albúmina baja, pero un trasudado no es hemorrágico ni tiene una LDH tan alta."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. El síndrome nefrótico es proteinuria sobre tres y medio gramos y albúmina bajo tres, acompañadas de edema, dislipidemia y lipiduria con cruz de Malta."
+      "text": "La última, del EUNACOM de diciembre de dos mil diecisiete. Paciente de ochenta años con equimosis alrededor de los ojos sin trauma, astenia y edema de piernas. Creatinina dos coma seis, proteinuria de ocho coma cuatro gramos al día, albúmina de uno coma cuatro, y una VHS de noventa y seis."
     },
     {
       "file": "s16_g01",
-      "text": "En el adulto, la biopsia es obligatoria; en el niño, se tratan los cambios mínimos sin biopsiar."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s16_g02",
-      "text": "Se pierde antitrombina tres: trombosis de vena renal y TEP. Se anticoagula si la albúmina cae bajo dos a dos y medio en la membranosa."
+      "text": "Las opciones son: nefrosis lipoidea, nefropatía diabética, amiloidosis primaria, enfermedad de Berger, o arteritis de la temporal. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la C, amiloidosis primaria. Tiene un síndrome nefrótico, tiene ochenta años, y hay dos pistas más: la VHS muy alta, que hace pensar en una gammapatía, y las equimosis periorbitarias espontáneas, clásicas del amiloide en los vasos. La nefrosis lipoidea, que es el otro nombre de cambios mínimos, es la causa típica del niño, no de un paciente de ochenta años."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. El síndrome nefrótico es proteinuria sobre tres y medio gramos y albúmina bajo tres, acompañadas de edema, dislipidemia y lipiduria con cruz de Malta."
+    },
+    {
+      "file": "s17_g01",
+      "text": "En el adulto, la biopsia es obligatoria; en el niño, se tratan los cambios mínimos sin biopsiar."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Se pierde antitrombina tres: trombosis de vena renal y TEP. Se anticoagula si la albúmina cae bajo dos a dos y medio en la membranosa."
+    },
+    {
+      "file": "s17_g03",
       "text": "Se pierde inmunoglobulina G: infecciones por neumococo, como la peritonitis bacteriana espontánea."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Y a todos, IECA o ARA dos, menos sal, furosemida y estatinas. Si te llevas una sola idea de hoy: en el síndrome nefrótico, cada proteína que se escapa explica una complicación, y en el adulto, la causa la dice la biopsia. En la próxima clase vemos justamente qué encuentra esa biopsia. Nos vemos en la próxima clase."
     }
   ]

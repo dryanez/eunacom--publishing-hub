@@ -129,6 +129,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'DRESS',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-10/02_dress_fenitoina_b__fitzpatrick_p395.jpg', label: 'Edema facial', credit: 'Fitzpatrick 7.ª ed., Fig. 40-3' },
+        { src: 'biblioteca/11_dermatologia/derma-10/01_dress_fenitoina_a__fitzpatrick_p395.jpg', label: 'Exantema', credit: 'Fitzpatrick 7.ª ed., Fig. 40-2' },
+      ],
+      steps: [
+        { note: 'Cara hinchada con pústulas',
+          say: 'El DRESS da edema facial, que lo distingue de un exantema común.' },
+        { note: 'Confluente, con fiebre y eosinofilia',
+          say: 'Y un exantema extenso con fiebre, adenopatías, eosinofilia y daño hepático, semanas después de un anticonvulsivante.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: desde la sospecha por latencia hasta el plan de corticoides.',
     },

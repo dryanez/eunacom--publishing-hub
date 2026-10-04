@@ -219,6 +219,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Neoplasia endocrina múltiple',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg', label: 'MEN dos A', credit: 'Manual AMIR Endocrinología, p. 126' },
+      ],
+      steps: [
+        { note: 'Feocromocitoma bilateral',
+          say: 'En el MEN dos A se asocian carcinoma medular de tiroides, feocromocitoma, a menudo bilateral, e hiperparatiroidismo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos la parte del agua en un árbol de decisión.',
     },

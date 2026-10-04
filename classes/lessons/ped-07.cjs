@@ -170,6 +170,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Neumonía redonda',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-07/01_neumonia_redonda__cxr_p208.jpg', label: 'Neumonía redonda', credit: 'The Chest X-Ray: A Survival Guide, Fig. 14.12' },
+      ],
+      steps: [
+        { note: 'Imita una masa',
+          say: 'En los niños la neumonía puede verse redonda, como una masa. Es una neumonía, no un tumor.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos todo el razonamiento en un solo árbol de decisión.',
     },

@@ -163,6 +163,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Cristales en el líquido articular',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada__cto-reuma_p49.jpg', label: 'Cristales de urato', credit: 'Manual CTO Reumatología 14.ª ed., p. 49' },
+      ],
+      steps: [
+        { note: 'Agujas con birrefringencia negativa',
+          say: 'En la gota, el líquido articular muestra cristales en aguja, con birrefringencia negativa en luz polarizada. Pero recuerda: toda monoartritis aguda se cultiva, porque puede ser séptica.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Integremos todo el algoritmo diagnóstico y terapéutico de la monoartritis aguda en un árbol de decisión.',
     },

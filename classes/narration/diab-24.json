@@ -2,7 +2,7 @@
   "id": "diab-24",
   "title": "Diabetes 5.5: Dislipidemias Severas y Genéticas: Hipertrigliceridemia y Pancreatitis",
   "specialty": "Diabetes y Dislipidemias",
-  "chars": 9829,
+  "chars": 10073,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,134 +90,142 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos las dos situaciones en un árbol que parte por el perfil lipídico. Frente a un perfil lipídico muy alterado, la primera mirada va a los triglicéridos, porque ellos deciden la prioridad."
+      "text": "Con triglicéridos muy altos el plasma se ve lechoso, como en estas bolsas. Ese paciente está en riesgo de pancreatitis."
     },
     {
       "file": "s06_g01",
-      "text": "¿Los triglicéridos superan quinientos?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si superan quinientos, y sobre todo mil, el riesgo es la pancreatitis: fibrato inmediato, prohibición del alcohol y dieta estricta sin azúcares simples."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si además usa una estatina, el gemfibrozilo no se combina: se reemplaza la estatina, o se usa fenofibrato."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si están bajo quinientos, el objetivo es el LDL. ¿Es un LDL sobre ciento noventa con xantomas tendinosos, arco corneal precoz o infartos jóvenes en la familia?"
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si es así, es una hipercolesterolemia familiar: estatina de alta potencia a dosis máxima, ezetimiba y, si hace falta, un inhibidor de PCSK nueve, de por vida."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si no, se maneja como en la clase anterior: estatina según el riesgo cardiovascular y su meta de LDL."
+      "text": "Y estos son xantomas eruptivos: pápulas amarillentas con halo rojo que aparecen de golpe. Indican triglicéridos muy elevados."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Triglicéridos sobre quinientos, aunque el paciente esté asintomático: fibrato, cero alcohol y dieta. Elegir una estatina para prevenir el infarto es el error, porque el riesgo inmediato es la pancreatitis."
+      "text": "Juntemos las dos situaciones en un árbol que parte por el perfil lipídico. Frente a un perfil lipídico muy alterado, la primera mirada va a los triglicéridos, porque ellos deciden la prioridad."
     },
     {
       "file": "s07_g01",
-      "text": "Al revés, con triglicéridos bajo quinientos y LDL alto, la prioridad vuelve a ser el LDL: estatina, no fibrato."
+      "text": "¿Los triglicéridos superan quinientos?"
     },
     {
       "file": "s07_g02",
-      "text": "Si ya toma una estatina y los triglicéridos se disparan, nunca se le agrega gemfibrozilo. Si hay que combinar, se usa fenofibrato."
+      "text": "Si superan quinientos, y sobre todo mil, el riesgo es la pancreatitis: fibrato inmediato, prohibición del alcohol y dieta estricta sin azúcares simples."
     },
     {
       "file": "s07_g03",
-      "text": "LDL sobre ciento noventa, xantomas en el Aquiles y un padre con infarto joven: hipercolesterolemia familiar, con triglicéridos normales."
+      "text": "Si además usa una estatina, el gemfibrozilo no se combina: se reemplaza la estatina, o se usa fenofibrato."
     },
     {
       "file": "s07_g04",
-      "text": "Y su tratamiento es estatina a dosis máxima, ezetimiba y, si hace falta, un inhibidor de PCSK nueve. La dieta sola no alcanza para un problema genético."
+      "text": "Si están bajo quinientos, el objetivo es el LDL. ¿Es un LDL sobre ciento noventa con xantomas tendinosos, arco corneal precoz o infartos jóvenes en la familia?"
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si es así, es una hipercolesterolemia familiar: estatina de alta potencia a dosis máxima, ezetimiba y, si hace falta, un inhibidor de PCSK nueve, de por vida."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si no, se maneja como en la clase anterior: estatina según el riesgo cardiovascular y su meta de LDL."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de treinta y cuatro años que consulta por nódulos indoloros y firmes sobre ambos tendones de Aquiles. Su padre murió de un infarto a los cuarenta y un años. El LDL es doscientos sesenta y seis, y los triglicéridos, ciento treinta."
+      "text": "Repasemos las trampas. Triglicéridos sobre quinientos, aunque el paciente esté asintomático: fibrato, cero alcohol y dieta. Elegir una estatina para prevenir el infarto es el error, porque el riesgo inmediato es la pancreatitis."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "Al revés, con triglicéridos bajo quinientos y LDL alto, la prioridad vuelve a ser el LDL: estatina, no fibrato."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: hipercolesterolemia familiar heterocigota, hipertrigliceridemia familiar, disbetalipoproteinemia tipo tres, hiperlipidemia familiar combinada, o xantomatosis cerebrotendinosa. Piénsalo."
+      "text": "Si ya toma una estatina y los triglicéridos se disparan, nunca se le agrega gemfibrozilo. Si hay que combinar, se usa fenofibrato."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta es la A. Están los tres pilares: LDL muy sobre ciento noventa con triglicéridos normales, xantomas en el Aquiles, que son patognomónicos, y un padre con infarto antes de los cincuenta y cinco. La hiperlipidemia combinada es el distractor tentador porque también es familiar, pero ahí suben los triglicéridos, y aquí están normales."
+      "text": "LDL sobre ciento noventa, xantomas en el Aquiles y un padre con infarto joven: hipercolesterolemia familiar, con triglicéridos normales."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y su tratamiento es estatina a dosis máxima, ezetimiba y, si hace falta, un inhibidor de PCSK nueve. La dieta sola no alcanza para un problema genético."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecisiete. Un paciente dislipidémico, en tratamiento con atorvastatina diez, trae un control con triglicéridos de ochocientos sesenta."
+      "text": "Vamos con un caso. Hombre de treinta y cuatro años que consulta por nódulos indoloros y firmes sobre ambos tendones de Aquiles. Su padre murió de un infarto a los cuarenta y un años. El LDL es doscientos sesenta y seis, y los triglicéridos, ciento treinta."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: subir la atorvastatina a cuarenta, cambiarla por rosuvastatina, agregar gemfibrozilo, agregar ezetimiba, o reemplazar la atorvastatina por gemfibrozilo. Piénsalo."
+      "text": "Las opciones son: hipercolesterolemia familiar heterocigota, hipertrigliceridemia familiar, disbetalipoproteinemia tipo tres, hiperlipidemia familiar combinada, o xantomatosis cerebrotendinosa. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la E. Con triglicéridos sobre quinientos, la prioridad es el páncreas, así que el fármaco es un fibrato. Y aquí está la trampa: la C, agregar gemfibrozilo a la estatina, parece más completa, pero esa combinación dispara el riesgo de rabdomiólisis. Por eso se reemplaza. Si hubiera que combinar, sería con fenofibrato."
+      "text": "La respuesta es la A. Están los tres pilares: LDL muy sobre ciento noventa con triglicéridos normales, xantomas en el Aquiles, que son patognomónicos, y un padre con infarto antes de los cincuenta y cinco. La hiperlipidemia combinada es el distractor tentador porque también es familiar, pero ahí suben los triglicéridos, y aquí están normales."
     },
     {
       "file": "s10_g00",
-      "text": "La pregunta espejo, del EUNACOM de enero de dos mil veintitrés. Diabético bien controlado, con LDL de ciento treinta y cinco y triglicéridos de trescientos treinta."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil diecisiete. Un paciente dislipidémico, en tratamiento con atorvastatina diez, trae un control con triglicéridos de ochocientos sesenta."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento inicial más adecuado?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: fenofibrato, gemfibrozilo, atorvastatina, omega tres, o ezetimiba. Piénsalo."
+      "text": "Las opciones son: subir la atorvastatina a cuarenta, cambiarla por rosuvastatina, agregar gemfibrozilo, agregar ezetimiba, o reemplazar la atorvastatina por gemfibrozilo. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, atorvastatina. Los triglicéridos están elevados, pero bajo quinientos, así que no hay riesgo inminente de pancreatitis y la prioridad vuelve a ser el LDL. Los dos fibratos son el distractor. Compárala con la anterior: el corte de quinientos cambia la respuesta."
+      "text": "Es la E. Con triglicéridos sobre quinientos, la prioridad es el páncreas, así que el fármaco es un fibrato. Y aquí está la trampa: la C, agregar gemfibrozilo a la estatina, parece más completa, pero esa combinación dispara el riesgo de rabdomiólisis. Por eso se reemplaza. Si hubiera que combinar, sería con fenofibrato."
     },
     {
       "file": "s11_g00",
-      "text": "Y la última, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta y cinco años con hipercolesterolemia, cuyo padre tuvo un infarto a los cuarenta. Tomaba atorvastatina, pero la suspendió por su cuenta por mialgias. Ahora su LDL es doscientos cuarenta y cuatro, los triglicéridos ciento noventa y ocho, y la CK doscientos cincuenta y cuatro."
+      "text": "La pregunta espejo, del EUNACOM de enero de dos mil veintitrés. Diabético bien controlado, con LDL de ciento treinta y cinco y triglicéridos de trescientos treinta."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el tratamiento más adecuado?"
+      "text": "¿Cuál es el tratamiento inicial más adecuado?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: colestiramina, dieta estricta, rosuvastatina, ezetimiba, o fenofibrato. Piénsalo."
+      "text": "Las opciones son: fenofibrato, gemfibrozilo, atorvastatina, omega tres, o ezetimiba. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, rosuvastatina. Junta las piezas: joven, LDL sobre doscientos, padre infartado a los cuarenta. Es el perfil de una hipercolesterolemia familiar, y necesita estatina sí o sí. La CK está prácticamente normal, así que fue una mialgia simple: se cambia a rosuvastatina en vez de abandonar. La ezetimiba sola o la dieta no alcanzan para un LDL de origen genético."
+      "text": "Es la C, atorvastatina. Los triglicéridos están elevados, pero bajo quinientos, así que no hay riesgo inminente de pancreatitis y la prioridad vuelve a ser el LDL. Los dos fibratos son el distractor. Compárala con la anterior: el corte de quinientos cambia la respuesta."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Con triglicéridos sobre quinientos a mil, la prioridad es evitar la pancreatitis, no el infarto."
+      "text": "Y la última, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta y cinco años con hipercolesterolemia, cuyo padre tuvo un infarto a los cuarenta. Tomaba atorvastatina, pero la suspendió por su cuenta por mialgias. Ahora su LDL es doscientos cuarenta y cuatro, los triglicéridos ciento noventa y ocho, y la CK doscientos cincuenta y cuatro."
     },
     {
       "file": "s12_g01",
-      "text": "Se trata con fibrato, cero alcohol y dieta estricta. Bajo quinientos, el objetivo vuelve a ser el LDL."
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s12_g02",
-      "text": "Y el gemfibrozilo nunca se combina con una estatina; si hay que combinar, fenofibrato."
+      "text": "Las opciones son: colestiramina, dieta estricta, rosuvastatina, ezetimiba, o fenofibrato. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C, rosuvastatina. Junta las piezas: joven, LDL sobre doscientos, padre infartado a los cuarenta. Es el perfil de una hipercolesterolemia familiar, y necesita estatina sí o sí. La CK está prácticamente normal, así que fue una mialgia simple: se cambia a rosuvastatina en vez de abandonar. La ezetimiba sola o la dieta no alcanzan para un LDL de origen genético."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Con triglicéridos sobre quinientos a mil, la prioridad es evitar la pancreatitis, no el infarto."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Se trata con fibrato, cero alcohol y dieta estricta. Bajo quinientos, el objetivo vuelve a ser el LDL."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Y el gemfibrozilo nunca se combina con una estatina; si hay que combinar, fenofibrato."
+    },
+    {
+      "file": "s13_g03",
       "text": "La hipercolesterolemia familiar se reconoce por un LDL sobre ciento noventa con triglicéridos normales, xantomas en el Aquiles e infartos precoces en la familia."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Si te llevas una sola idea de hoy: primero mira los triglicéridos, porque sobre quinientos mandan el fibrato y el páncreas; y si el LDL es altísimo con xantomas en el Aquiles, piensa en una enfermedad genética que se trata al máximo y de por vida. Con esto cerramos el bloque de complicaciones crónicas y dislipidemias. Nos vemos en la próxima clase."
     }
   ]

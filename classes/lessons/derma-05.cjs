@@ -143,6 +143,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Psoriasis',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-05/01_psoriasis-en-placas__amir-derma_p39.jpg', label: 'Placas', credit: 'Manual AMIR Dermatología, p. 39' },
+        { src: 'biblioteca/11_dermatologia/derma-05/02_guttata__amir-derma_p40.jpg', label: 'Guttata', credit: 'Manual AMIR Dermatología, p. 40' },
+        { src: 'biblioteca/11_dermatologia/derma-05/03_pitting-ungueal__amir-derma_p40.jpg', label: 'Pitting ungueal', credit: 'Manual AMIR Dermatología, p. 40' },
+      ],
+      steps: [
+        { note: 'Rojas con escama blanca',
+          say: 'La psoriasis forma placas rojas con escama blanca, en codos y rodillas.' },
+        { note: 'Gotas tras una faringitis',
+          say: 'La guttata aparece como gotas después de una faringitis estreptocócica.' },
+        { note: 'Pequeñas depresiones en la uña',
+          say: 'Y el pitting: pequeñas depresiones en las uñas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo esto en un árbol de decisión, desde la placa hasta el escalón terapéutico.',
     },

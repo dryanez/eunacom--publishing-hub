@@ -248,6 +248,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Anemia hemolítica autoinmune',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-07/01_esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
+        { src: 'biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg', label: 'Prueba de Coombs', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Glóbulos pequeños, sin centro claro',
+          say: 'En el frotis aparecen esferocitos: glóbulos pequeños, redondos, sin la palidez central.' },
+        { note: 'Directo e indirecto',
+          say: 'Y el Coombs directo busca anticuerpos pegados a los glóbulos rojos del paciente. Si es positivo, la hemólisis es inmune.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, partiendo de una anemia con signos de hemólisis.',
     },

@@ -127,6 +127,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Trauma de tórax',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-10/01_torax_volante__atls_p127.jpg', label: 'Tórax volante', credit: 'ATLS 10.ª ed., p. 127' },
+        { src: 'biblioteca/10_cirugia/cirugia-10/03_neumotorax-a-tension__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' },
+        { src: 'biblioteca/10_cirugia/cirugia-10/02_hemotorax-derrame-rx__cto-neumo_p111.jpg', label: 'Hemotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+      ],
+      steps: [
+        { note: 'Movimiento paradójico',
+          say: 'En el tórax volante, un segmento de la pared se hunde al inspirar y sale al espirar.' },
+        { note: 'Mediastino desplazado',
+          say: 'El neumotórax a tensión desplaza el mediastino. Se descomprime sin esperar la radiografía.' },
+        { note: 'Opacidad del hemitórax',
+          say: 'Y el hemotórax da opacidad del hemitórax. Si drena mucho, va a pabellón.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres emergencias torácicas en un solo árbol de decisión.',
     },

@@ -171,6 +171,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Derrame complicado',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg', label: 'Derrame encapsulado', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+      ],
+      steps: [
+        { note: 'No se desplaza, forma tabiques',
+          say: 'Este derrame no forma la curva habitual: está encapsulado, atrapado por tabiques de fibrina. Un derrame paraneumónico así necesita tubo pleural.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol, desde la neumonía con derrame hasta la decorticación.',
     },

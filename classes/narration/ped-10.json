@@ -2,7 +2,7 @@
   "id": "ped-10",
   "title": "Pediatria 18.10: Exantemas Infantiles: Diagnóstico Diferencial (Eritema Infeccioso, Exantema Súbito, Escarlatina, Varicela y Kawasaki)",
   "specialty": "Pediatría",
-  "chars": 10660,
+  "chars": 10830,
   "segments": [
     {
       "file": "s00_g00",
@@ -134,71 +134,67 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos los cinco cuadros en un solo árbol, usando la relación entre la fiebre y el exantema. Tienes un niño con fiebre y un exantema. La pregunta que lo ordena todo es una sola: ¿qué está haciendo la fiebre cuando aparece el exantema?"
+      "text": "El eritema infeccioso da mejillas rojas, como abofeteadas."
     },
     {
       "file": "s08_g01",
-      "text": "Fíjate si la fiebre ya cedió, si sigue alta junto al exantema, o si lleva cinco días o más."
+      "text": "El exantema súbito aparece justo cuando baja la fiebre."
     },
     {
       "file": "s08_g02",
-      "text": "Lactante de seis a dieciocho meses, con fiebre alta que cae de golpe y da paso al exantema. Solo observación, se resuelve solo."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Escolar con eritema malar, la bofetada, y luego un exantema en encaje. Ojo si hay anemia hemolítica de base o si la madre está embarazada."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Faringoamigdalitis con exantema áspero al tacto. Tratas con amoxicilina o penicilina diez días, para prevenir la fiebre reumática."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Exantema en cielo estrellado, con mácula, pápula, vesícula y costra conviviendo a la vez. El antipirético seguro es el paracetamol."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Ojos rojos sin secreción, labios fisurados, exantema polimorfo, edema en manos y pies, y adenopatía cervical. Con cuatro de cinco, confirmas el diagnóstico."
+      "text": "Y la enfermedad mano pie boca da vesículas en esas zonas."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. En el exantema súbito, la fiebre cae y recién ahí sale el exantema. La trampa clásica es confundirlo con una alergia, porque muchos padres ya habían dado amoxicilina."
+      "text": "Ahora juntemos los cinco cuadros en un solo árbol, usando la relación entre la fiebre y el exantema. Tienes un niño con fiebre y un exantema. La pregunta que lo ordena todo es una sola: ¿qué está haciendo la fiebre cuando aparece el exantema?"
     },
     {
       "file": "s09_g01",
-      "text": "En el eritema infeccioso, hay poca fiebre, la bofetada y el encaje. El error es pedir un estudio de sarampión, que además tiene tos y conjuntivitis intensas."
+      "text": "Fíjate si la fiebre ya cedió, si sigue alta junto al exantema, o si lleva cinco días o más."
     },
     {
       "file": "s09_g02",
-      "text": "En la escarlatina, la fiebre es alta junto con el exantema. El error es no dar antibiótico pensando que es viral, cuando el objetivo es prevenir la fiebre reumática."
+      "text": "Lactante de seis a dieciocho meses, con fiebre alta que cae de golpe y da paso al exantema. Solo observación, se resuelve solo."
     },
     {
       "file": "s09_g03",
-      "text": "En la varicela, la fiebre es moderada y manda la piel. El error grave, que no puedes cometer nunca, es indicar aspirina."
+      "text": "Escolar con eritema malar, la bofetada, y luego un exantema en encaje. Ojo si hay anemia hemolítica de base o si la madre está embarazada."
     },
     {
       "file": "s09_g04",
-      "text": "Y en Kawasaki, la fiebre tiene que llegar a cinco días. Diagnosticarlo antes, aunque tenga varios de los otros signos, es el error que el examen te pone para ver si conoces la regla."
+      "text": "Faringoamigdalitis con exantema áspero al tacto. Tratas con amoxicilina o penicilina diez días, para prevenir la fiebre reumática."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Exantema en cielo estrellado, con mácula, pápula, vesícula y costra conviviendo a la vez. El antipirético seguro es el paracetamol."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Ojos rojos sin secreción, labios fisurados, exantema polimorfo, edema en manos y pies, y adenopatía cervical. Con cuatro de cinco, confirmas el diagnóstico."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Niña de tres años, con fiebre de treinta y nueve coma cinco durante seis días, decaída. Al examen tiene los ojos rojos sin secreción, los labios agrietados y sangrantes, la lengua roja con papilas marcadas, un exantema polimorfo en el tronco, y edema doloroso de manos y pies. No se palpan adenopatías."
+      "text": "Repasemos las trampas. En el exantema súbito, la fiebre cae y recién ahí sale el exantema. La trampa clásica es confundirlo con una alergia, porque muchos padres ya habían dado amoxicilina."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "En el eritema infeccioso, hay poca fiebre, la bofetada y el encaje. El error es pedir un estudio de sarampión, que además tiene tos y conjuntivitis intensas."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: amoxicilina por escarlatina, inmunoglobulina más aspirina y ecocardiograma, observación porque falta la adenopatía, aciclovir por varicela atípica, o antihistamínicos por alergia. Piénsalo."
+      "text": "En la escarlatina, la fiebre es alta junto con el exantema. El error es no dar antibiótico pensando que es viral, cuando el objetivo es prevenir la fiebre reumática."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Cuenta los criterios: fiebre de seis días, más los ojos, la boca, el exantema y las extremidades. Son cuatro de cinco, y eso ya te alcanza para el diagnóstico, aunque falte la adenopatía. No necesitas los cinco criterios completos. El tratamiento urgente es inmunoglobulina endovenosa más aspirina, con ecocardiograma para vigilar las coronarias."
+      "text": "En la varicela, la fiebre es moderada y manda la piel. El error grave, que no puedes cometer nunca, es indicar aspirina."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y en Kawasaki, la fiebre tiene que llegar a cinco días. Diagnosticarlo antes, aunque tenga varios de los otros signos, es el error que el examen te pone para ver si conoces la regla."
     },
     {
       "file": "s11_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Lactante de ocho meses con fiebre de treinta y nueve coma cinco durante cinco días. Al sexto día la fiebre cede y aparece un exantema rosado generalizado, sin picazón. El niño está en buen estado general."
+      "text": "Vamos con un caso. Niña de tres años, con fiebre de treinta y nueve coma cinco durante seis días, decaída. Al examen tiene los ojos rojos sin secreción, los labios agrietados y sangrantes, la lengua roja con papilas marcadas, un exantema polimorfo en el tronco, y edema doloroso de manos y pies. No se palpan adenopatías."
     },
     {
       "file": "s11_g01",
@@ -206,58 +202,74 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: control sano habitual por exantema súbito, derivar a especialista, hospitalizar para estudio, aciclovir oral, o serología viral urgente. Piénsalo."
+      "text": "Las opciones: amoxicilina por escarlatina, inmunoglobulina más aspirina y ecocardiograma, observación porque falta la adenopatía, aciclovir por varicela atípica, o antihistamínicos por alergia. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. La secuencia es exactamente la que vimos: fiebre alta que cae de golpe, y ahí sale el exantema rosado, en un lactante que se ve bien. Es exantema súbito, diagnóstico clínico, y no necesita ni estudio ni antiviral: solo control habitual."
+      "text": "Es la B. Cuenta los criterios: fiebre de seis días, más los ojos, la boca, el exantema y las extremidades. Son cuatro de cinco, y eso ya te alcanza para el diagnóstico, aunque falte la adenopatía. No necesitas los cinco criterios completos. El tratamiento urgente es inmunoglobulina endovenosa más aspirina, con ecocardiograma para vigilar las coronarias."
     },
     {
       "file": "s12_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Niño de cinco años con fiebre baja, hasta treinta y siete coma cinco, y eritema en las mejillas. Dos días después se agrega un exantema en el tronco y las extremidades, con un cuadro que dura diez días en total."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Lactante de ocho meses con fiebre de treinta y nueve coma cinco durante cinco días. Al sexto día la fiebre cede y aparece un exantema rosado generalizado, sin picazón. El niño está en buen estado general."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: estreptococo pyogenes, parvovirus B diecinueve, virus de Epstein-Barr, herpesvirus humano seis, o rubéola. Piénsalo."
+      "text": "Las opciones: control sano habitual por exantema súbito, derivar a especialista, hospitalizar para estudio, aciclovir oral, o serología viral urgente. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B. El eritema malar, la bofetada, con fiebre baja y un exantema que se prolonga por días, es el cuadro clásico del eritema infeccioso, y el culpable es el parvovirus B diecinueve. El herpesvirus seis daría fiebre alta que cae bruscamente, no esta fiebre baja y prolongada."
+      "text": "Es la A. La secuencia es exactamente la que vimos: fiebre alta que cae de golpe, y ahí sale el exantema rosado, en un lactante que se ve bien. Es exantema súbito, diagnóstico clínico, y no necesita ni estudio ni antiviral: solo control habitual."
     },
     {
       "file": "s13_g00",
-      "text": "Una pregunta real más, del EUNACOM de julio de dos mil dieciocho. Niño de seis años con odinofagia intensa, fiebre y decaimiento. Luego aparece un exantema generalizado, más marcado en los pliegues de la ingle y las axilas. Está febril, con la faringe roja, adenopatías cervicales sensibles, y la piel áspera al tacto."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Niño de cinco años con fiebre baja, hasta treinta y siete coma cinco, y eritema en las mejillas. Dos días después se agrega un exantema en el tronco y las extremidades, con un cuadro que dura diez días en total."
     },
     {
       "file": "s13_g01",
-      "text": "¿Qué complicación puede desarrollar este paciente?"
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: aneurismas coronarios, meningitis, fascitis necrotizante, glomerulonefritis, o miocarditis. Piénsalo."
+      "text": "Las opciones: estreptococo pyogenes, parvovirus B diecinueve, virus de Epstein-Barr, herpesvirus humano seis, o rubéola. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D. El cuadro es una escarlatina: piel áspera, más marcada en los pliegues, con faringitis y fiebre. Y aquí está el dato que se pregunta: la glomerulonefritis postestreptocócica puede aparecer aunque hayas dado el antibiótico a tiempo. El antibiótico previene la fiebre reumática, no esta complicación."
+      "text": "Es la B. El eritema malar, la bofetada, con fiebre baja y un exantema que se prolonga por días, es el cuadro clásico del eritema infeccioso, y el culpable es el parvovirus B diecinueve. El herpesvirus seis daría fiebre alta que cae bruscamente, no esta fiebre baja y prolongada."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Si la fiebre cae y ahí sale el exantema, piensa en exantema súbito."
+      "text": "Una pregunta real más, del EUNACOM de julio de dos mil dieciocho. Niño de seis años con odinofagia intensa, fiebre y decaimiento. Luego aparece un exantema generalizado, más marcado en los pliegues de la ingle y las axilas. Está febril, con la faringe roja, adenopatías cervicales sensibles, y la piel áspera al tacto."
     },
     {
       "file": "s14_g01",
-      "text": "Si la fiebre alta viene junto con el exantema, piensa en escarlatina."
+      "text": "¿Qué complicación puede desarrollar este paciente?"
     },
     {
       "file": "s14_g02",
-      "text": "Kawasaki exige cinco días de fiebre, más cuatro de cinco criterios, y se trata con inmunoglobulina y aspirina antes del día diez."
+      "text": "Las opciones: aneurismas coronarios, meningitis, fascitis necrotizante, glomerulonefritis, o miocarditis. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la D. El cuadro es una escarlatina: piel áspera, más marcada en los pliegues, con faringitis y fiebre. Y aquí está el dato que se pregunta: la glomerulonefritis postestreptocócica puede aparecer aunque hayas dado el antibiótico a tiempo. El antibiótico previene la fiebre reumática, no esta complicación."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Si la fiebre cae y ahí sale el exantema, piensa en exantema súbito."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Si la fiebre alta viene junto con el exantema, piensa en escarlatina."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Kawasaki exige cinco días de fiebre, más cuatro de cinco criterios, y se trata con inmunoglobulina y aspirina antes del día diez."
+    },
+    {
+      "file": "s15_g03",
       "text": "Y en varicela, nunca aspirina, por el síndrome de Reye. Si te llevas una sola idea de hoy: mira qué hace la fiebre cuando sale el exantema, y ya tienes la mitad de la respuesta. Nos vemos en la próxima clase."
     }
   ]

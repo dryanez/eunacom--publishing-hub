@@ -158,6 +158,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Hernias de la pared abdominal',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-06/S1_hesselbach__propio.svg', label: 'Triángulo de Hesselbach', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/10_cirugia/cirugia-06/02_hernia-umbilical-incarcerada__cto-cirugia_p56.jpg', label: 'Hernia incarcerada', credit: 'Manual CTO Cirugía 14.ª ed., p. 56' },
+      ],
+      steps: [
+        { note: 'Directa vs indirecta',
+          say: 'La hernia directa sale por el triángulo de Hesselbach, medial a los vasos epigástricos. La indirecta sale lateral, por el anillo profundo.' },
+        { note: 'No se reduce',
+          say: 'Y esta hernia umbilical está incarcerada: no se reduce y duele. Es urgencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo esto en un solo árbol de decisión.',
     },

@@ -137,6 +137,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Cascada de la coagulación',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg', label: 'Vías y exámenes', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'TP y TTPA',
+          say: 'El TP mide la vía extrínseca, el factor siete; el TTPA mide la intrínseca. Ambos comparten la vía común. La warfarina prolonga el TP y la heparina, el TTPA.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: frente a un paciente que sangra, o frente a un preoperatorio alterado, así se razona.',
     },

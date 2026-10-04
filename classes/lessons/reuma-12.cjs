@@ -229,6 +229,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Esclerodermia',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-12/01_esclerodactilia__amir-reuma_p99.jpg', label: 'Esclerodactilia', credit: 'Manual AMIR Reumatología, p. 99' },
+      ],
+      steps: [
+        { note: 'Dedos rígidos y afilados',
+          say: 'En la esclerodermia la piel de los dedos se engruesa y endurece: es la esclerodactilia.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

@@ -283,6 +283,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Enfermedad de Graves',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg', label: 'Bocio difuso', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+        { src: 'biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg', label: 'Oftalmopatía', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+        { src: 'biblioteca/05_endocrinologia/endo-06/01_dermopatia_tiroidea_pretibial__fitzpatrick_p1510.jpg', label: 'Mixedema pretibial', credit: 'Fitzpatrick 7.ª ed., p. 1510 (figura completa, ~480 px)' },
+      ],
+      steps: [
+        { note: 'Aumento simétrico de la tiroides',
+          say: 'Graves produce un bocio difuso, simétrico, a veces con soplo.' },
+        { note: 'Exoftalmos y retracción palpebral',
+          say: 'La oftalmopatía, con ojos saltones y retracción del párpado, es exclusiva de Graves. No la produce el nódulo tóxico.' },
+        { note: 'Placas infiltradas en las piernas',
+          say: 'Y el mixedema pretibial: placas infiltradas, anaranjadas, en la cara anterior de las piernas. También es exclusivo de Graves.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la TSH suprimida hasta el tratamiento.',
     },

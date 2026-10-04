@@ -180,6 +180,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Horner en la cefalea en racimos',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg', label: 'Síndrome de Horner', credit: 'Kanski 8.ª ed., Fig. 19.35A' },
+      ],
+      steps: [
+        { note: 'Ptosis y miosis',
+          say: 'Durante una crisis de cefalea en racimos puede aparecer ptosis y miosis del lado del dolor.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: la duración y el cortejo separan los cuadros, y cada uno tiene su fármaco.',
     },

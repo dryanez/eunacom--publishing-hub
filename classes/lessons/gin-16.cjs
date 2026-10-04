@@ -134,6 +134,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Torsión anexial',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg', label: 'Ovario aumentado', credit: 'Nelson 22.ª ed., Fig. 590.4' },
+        { src: 'biblioteca/13_ginecologia/gin-16/02_torsion_ovarica_doppler__nelson_p4303.jpg', label: 'Doppler', credit: 'Nelson 22.ª ed., Fig. 590.4' },
+      ],
+      steps: [
+        { note: 'Ecografía',
+          say: 'En la torsión, el ovario está aumentado de tamaño y edematoso.' },
+        { note: 'Sin flujo central',
+          say: 'El Doppler puede mostrar ausencia de flujo, pero un Doppler normal no la descarta. La sospecha clínica lleva a laparoscopía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las dos urgencias, una al lado de la otra, en un solo árbol de decisión.',
     },

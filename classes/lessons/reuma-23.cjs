@@ -140,6 +140,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Fibromialgia y polimialgia',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg', label: 'Fibromialgia', credit: 'Wikimedia Commons «Puntos-sensibles-fibromialg.jpg», CC BY-SA 3.0, Wikimedia commons - own work' },
+        { src: 'biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg', label: 'Polimialgia reumática', credit: 'Wikimedia Commons «Polymyalgia rheumatica.png», Public domain, openAi' },
+      ],
+      steps: [
+        { note: 'Puntos sensibles',
+          say: 'La fibromialgia da dolor difuso con puntos sensibles y exámenes normales.' },
+        { note: 'Dolor en las cinturas',
+          say: 'La polimialgia da dolor y rigidez en hombros y caderas, en un mayor de cincuenta, con VHS alta. Responde a dosis bajas de prednisona.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

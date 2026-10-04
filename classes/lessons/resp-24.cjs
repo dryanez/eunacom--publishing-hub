@@ -133,6 +133,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El monóxido de carbono y la hemoglobina',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-24/S1_co-curva-disociacion__propio.svg', label: 'Curva de disociación', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'La curva se desplaza a la izquierda',
+          say: 'El monóxido ocupa la hemoglobina y además desplaza la curva a la izquierda: la hemoglobina suelta menos oxígeno a los tejidos. Y el saturómetro no lo detecta, porque confunde la carboxihemoglobina con oxihemoglobina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, desde la sospecha hasta la cámara.',
     },

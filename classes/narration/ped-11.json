@@ -2,7 +2,7 @@
   "id": "ped-11",
   "title": "Pediatria 18.11: Diarrea Aguda Infantil y Planes de Rehidratación Oral OMS (Plan A, B, C) y Síndrome Hemolítico Urémico",
   "specialty": "Pediatría",
-  "chars": 10412,
+  "chars": 10484,
   "segments": [
     {
       "file": "s00_g00",
@@ -134,110 +134,114 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos los tres planes y la alerta del síndrome hemolítico urémico en un solo árbol. Tienes un niño con diarrea. Antes de cualquier examen, revisa cuatro signos: conciencia, ojos, boca y el pliegue cutáneo."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Súmalos y clasifica: sin deshidratación, moderada, o grave."
-    },
-    {
-      "file": "s08_g02",
-      "text": "En la casa: más líquido de lo habitual, seguir con la alimentación de siempre, y pautas de alarma para volver."
-    },
-    {
-      "file": "s08_g03",
-      "text": "En el box, fraccionado con cucharita o jeringa. Si vomita mucho, sonda nasogástrica para gastroclisis antes de ir a la vena."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Cien mililitros por kilo, repartidos según la edad. Si hay shock, primero un bolo de veinte mililitros por kilo."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Anemia con esquistocitos, plaquetas bajas y poca orina tras una diarrea disentérica, casi siempre por carne mal cocida. Los antibióticos liberan más toxina y empeoran la falla renal."
+      "text": "El pliegue que no vuelve es un signo de deshidratación moderada a grave."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Con deshidratación moderada: plan B, sales orales en cuatro horas. El error es saltarse directo a la vena."
+      "text": "Ahora juntemos los tres planes y la alerta del síndrome hemolítico urémico en un solo árbol. Tienes un niño con diarrea. Antes de cualquier examen, revisa cuatro signos: conciencia, ojos, boca y el pliegue cutáneo."
     },
     {
       "file": "s09_g01",
-      "text": "Si los vómitos son incoercibles en pleno plan B: sonda nasogástrica para gastroclisis. El error es ir directo a la vena sin probar este paso intermedio."
+      "text": "Súmalos y clasifica: sin deshidratación, moderada, o grave."
     },
     {
       "file": "s09_g02",
-      "text": "Diarrea con sangre y compromiso renal: sospecha síndrome hemolítico urémico. El error grave es dar antibióticos, porque empeora todo."
+      "text": "En la casa: más líquido de lo habitual, seguir con la alimentación de siempre, y pautas de alarma para volver."
     },
     {
       "file": "s09_g03",
-      "text": "Y en cualquier diarrea aguda: sales de rehidratación y seguir alimentando. La loperamida es la trampa que nunca se marca como correcta."
+      "text": "En el box, fraccionado con cucharita o jeringa. Si vomita mucho, sonda nasogástrica para gastroclisis antes de ir a la vena."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Cien mililitros por kilo, repartidos según la edad. Si hay shock, primero un bolo de veinte mililitros por kilo."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Anemia con esquistocitos, plaquetas bajas y poca orina tras una diarrea disentérica, casi siempre por carne mal cocida. Los antibióticos liberan más toxina y empeoran la falla renal."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Lactante de nueve meses, ocho kilos, con diarrea acuosa y vómitos desde hace doce horas. Al examen está irritable, con los ojos hundidos, la boca seca, y bebe agua con muchas ganas cuando se le ofrece. El pliegue cutáneo desaparece en un segundo y medio."
+      "text": "Repasemos las trampas. Con deshidratación moderada: plan B, sales orales en cuatro horas. El error es saltarse directo a la vena."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Si los vómitos son incoercibles en pleno plan B: sonda nasogástrica para gastroclisis. El error es ir directo a la vena sin probar este paso intermedio."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: plan A en la casa, plan B en el box, plan C con suero endovenoso, loperamida con control en cuarenta y ocho horas, o régimen cero por doce horas. Piénsalo."
+      "text": "Diarrea con sangre y compromiso renal: sospecha síndrome hemolítico urémico. El error grave es dar antibióticos, porque empeora todo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Cuenta los signos: irritable, ojos hundidos, sed intensa y pliegue lento. Con al menos dos de estos, ya es una deshidratación moderada, y el plan es el B: sales de rehidratación oral en el box, entre cincuenta y cien mililitros por kilo en cuatro horas. No está en shock ni letárgico, así que el plan C sería exagerado; y la loperamida y el ayuno son errores clásicos."
+      "text": "Y en cualquier diarrea aguda: sales de rehidratación y seguir alimentando. La loperamida es la trampa que nunca se marca como correcta."
     },
     {
       "file": "s11_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Niño de dos años con gastroenteritis aguda de veinticuatro horas, con vómitos y diarrea. Sin fiebre alta, sin sangre en las deposiciones, con las mucosas hidratadas, el llenado capilar normal, y orina presente."
+      "text": "Vamos con un caso. Lactante de nueve meses, ocho kilos, con diarrea acuosa y vómitos desde hace doce horas. Al examen está irritable, con los ojos hundidos, la boca seca, y bebe agua con muchas ganas cuando se le ofrece. El pliegue cutáneo desaparece en un segundo y medio."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el manejo más adecuado?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: hospitalización con suero endovenoso, sales de rehidratación oral fraccionadas en el domicilio, ayuno absoluto por seis horas, antibióticos orales empíricos, o loperamida. Piénsalo."
+      "text": "Las opciones: plan A en la casa, plan B en el box, plan C con suero endovenoso, loperamida con control en cuarenta y ocho horas, o régimen cero por doce horas. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Este niño no tiene ningún signo de deshidratación: mucosas húmedas, buen llenado capilar y sigue orinando. Le corresponde el plan A, en la casa, con sales de rehidratación oral fraccionadas. La loperamida está prohibida en menores de dos años, y el ayuno solo empeora la recuperación del intestino."
+      "text": "Es la B. Cuenta los signos: irritable, ojos hundidos, sed intensa y pliegue lento. Con al menos dos de estos, ya es una deshidratación moderada, y el plan es el B: sales de rehidratación oral en el box, entre cincuenta y cien mililitros por kilo en cuatro horas. No está en shock ni letárgico, así que el plan C sería exagerado; y la loperamida y el ayuno son errores clásicos."
     },
     {
       "file": "s12_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de dos años con diarrea con sangre desde hace cuatro días, tras comer una hamburguesa casera. Hoy está pálido, decaído, y orina muy poco. Los exámenes muestran hemoglobina de seis coma cinco, plaquetas de cuarenta y dos mil, creatinina de dos coma ocho, y esquistocitos abundantes en el frotis."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil veinticinco. Niño de dos años con gastroenteritis aguda de veinticuatro horas, con vómitos y diarrea. Sin fiebre alta, sin sangre en las deposiciones, con las mucosas hidratadas, el llenado capilar normal, y orina presente."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la sospecha diagnóstica, y qué tratamiento está contraindicado?"
+      "text": "¿Cuál es el manejo más adecuado?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: invaginación intestinal con la ecografía contraindicada, síndrome hemolítico urémico con los antibióticos contraindicados, púrpura trombocitopénico con los corticoides contraindicados, apendicitis perforada con la laparotomía contraindicada, o sepsis bacteriana con la hidratación contraindicada. Piénsalo."
+      "text": "Las opciones: hospitalización con suero endovenoso, sales de rehidratación oral fraccionadas en el domicilio, ayuno absoluto por seis horas, antibióticos orales empíricos, o loperamida. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B. La combinación de diarrea con sangre, anemia con esquistocitos, plaquetas bajas y falla renal es exactamente el síndrome hemolítico urémico, gatillado por la toxina Shiga. Y lo que no puedes hacer nunca es dar antibióticos: matarías a la bacteria de golpe y liberarías más toxina a la circulación, empeorando la falla renal."
+      "text": "Es la B. Este niño no tiene ningún signo de deshidratación: mucosas húmedas, buen llenado capilar y sigue orinando. Le corresponde el plan A, en la casa, con sales de rehidratación oral fraccionadas. La loperamida está prohibida en menores de dos años, y el ayuno solo empeora la recuperación del intestino."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Sin deshidratación, plan A, en la casa, sin dejar de alimentar al niño."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de dos años con diarrea con sangre desde hace cuatro días, tras comer una hamburguesa casera. Hoy está pálido, decaído, y orina muy poco. Los exámenes muestran hemoglobina de seis coma cinco, plaquetas de cuarenta y dos mil, creatinina de dos coma ocho, y esquistocitos abundantes en el frotis."
     },
     {
       "file": "s13_g01",
-      "text": "Con deshidratación moderada, plan B, sales orales en cuatro horas, en el box."
+      "text": "¿Cuál es la sospecha diagnóstica, y qué tratamiento está contraindicado?"
     },
     {
       "file": "s13_g02",
-      "text": "Y con deshidratación grave o shock, plan C, endovenoso de inmediato."
+      "text": "Las opciones: invaginación intestinal con la ecografía contraindicada, síndrome hemolítico urémico con los antibióticos contraindicados, púrpura trombocitopénico con los corticoides contraindicados, apendicitis perforada con la laparotomía contraindicada, o sepsis bacteriana con la hidratación contraindicada. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la B. La combinación de diarrea con sangre, anemia con esquistocitos, plaquetas bajas y falla renal es exactamente el síndrome hemolítico urémico, gatillado por la toxina Shiga. Y lo que no puedes hacer nunca es dar antibióticos: matarías a la bacteria de golpe y liberarías más toxina a la circulación, empeorando la falla renal."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Sin deshidratación, plan A, en la casa, sin dejar de alimentar al niño."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Con deshidratación moderada, plan B, sales orales en cuatro horas, en el box."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Y con deshidratación grave o shock, plan C, endovenoso de inmediato."
+    },
+    {
+      "file": "s14_g03",
       "text": "Nunca loperamida en niños."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y nunca antibióticos si sospechas síndrome hemolítico urémico, aunque la familia insista en que la diarrea con sangre necesita un antibiótico cuanto antes. Si te llevas una sola idea de hoy: la clínica te dice el grado, sin ningún examen, y el grado te dice el plan. Nos vemos en la próxima clase."
     }
   ]

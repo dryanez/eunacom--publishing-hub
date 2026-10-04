@@ -206,6 +206,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Serología de la hepatitis B',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-14/S1_serologia-vhb__propio.svg', label: 'Marcadores en el tiempo', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Esquema aproximado',
+          say: 'Primero aparece el antígeno de superficie, después el anti core IgM. El anti core total queda para siempre. Cuando desaparece el antígeno y aparece el anti superficie, la infección se resolvió. Entre ambos queda un período de ventana donde solo el anti core IgM está positivo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

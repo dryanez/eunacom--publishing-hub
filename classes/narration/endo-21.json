@@ -2,7 +2,7 @@
   "id": "endo-21",
   "title": "Endocrinología 7.21: Hiperprolactinemia y Prolactinomas: Diagnóstico y Terapia Médica",
   "specialty": "Endocrinología",
-  "chars": 12407,
+  "chars": 12526,
   "segments": [
     {
       "file": "s00_g00",
@@ -122,154 +122,158 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en el árbol que vas a recorrer en el examen: descartar, medir, y recién ahí tratar. Mujer con amenorrea y galactorrea, o un varón con disfunción eréctil y baja de la libido. Antes de pensar en la hipófisis, hay tres preguntas que hacer."
-    },
-    {
-      "file": "s06_g01",
-      "text": "La primera es el embarazo. En toda mujer en edad fértil, beta-hCG antes que cualquier otro examen."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si es positiva, es un embarazo, y la prolactina alta es fisiológica. No hay nada más que estudiar."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si es negativa, se mide la TSH y se revisan los fármacos: antipsicóticos, metoclopramida, domperidona."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si la TSH está alta, se trata el hipotiroidismo con levotiroxina y la prolactina baja sola."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si toma un bloqueador de dopamina y la prolactina está entre treinta y cien, la causa es el fármaco, y no hace falta resonancia."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si no hay embarazo, ni hipotiroidismo, ni fármaco, y la prolactina sigue alta, se pide resonancia de silla turca con gadolinio."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Si muestra un prolactinoma, cualquiera sea su tamaño, el tratamiento es cabergolina. Si hay macroadenoma, se agrega campimetría."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Y solo si hay resistencia a dosis máximas, o intolerancia severa, se deriva a cirugía transesfenoidal."
+      "text": "Este es un prolactinoma gigante en la resonancia. Aunque sea grande, el tratamiento es con cabergolina, no con cirugía."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Amenorrea con galactorrea: primero la beta-hCG, después prolactina y TSH. El error es pedir una resonancia de entrada."
+      "text": "Juntemos todo en el árbol que vas a recorrer en el examen: descartar, medir, y recién ahí tratar. Mujer con amenorrea y galactorrea, o un varón con disfunción eréctil y baja de la libido. Antes de pensar en la hipófisis, hay tres preguntas que hacer."
     },
     {
       "file": "s07_g01",
-      "text": "Paciente con risperidona y prolactina de cincuenta y ocho: es el fármaco. El valor bajo cien y el antipsicótico lo explican."
+      "text": "La primera es el embarazo. En toda mujer en edad fértil, beta-hCG antes que cualquier otro examen."
     },
     {
       "file": "s07_g02",
-      "text": "Prolactina alta con TSH alta: se trata el hipotiroidismo con levotiroxina, y la prolactina baja sola."
+      "text": "Si es positiva, es un embarazo, y la prolactina alta es fisiológica. No hay nada más que estudiar."
     },
     {
       "file": "s07_g03",
-      "text": "Prolactinoma, sea micro o macro: cabergolina. La cirugía de entrada es la respuesta incorrecta más clásica del tema."
+      "text": "Si es negativa, se mide la TSH y se revisan los fármacos: antipsicóticos, metoclopramida, domperidona."
     },
     {
       "file": "s07_g04",
-      "text": "Y el hombre con disfunción eréctil y alteración del campo visual temporal: resonancia de silla turca. No es un problema testicular, es un macroadenoma."
+      "text": "Si la TSH está alta, se trata el hipotiroidismo con levotiroxina y la prolactina baja sola."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si toma un bloqueador de dopamina y la prolactina está entre treinta y cien, la causa es el fármaco, y no hace falta resonancia."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si no hay embarazo, ni hipotiroidismo, ni fármaco, y la prolactina sigue alta, se pide resonancia de silla turca con gadolinio."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si muestra un prolactinoma, cualquiera sea su tamaño, el tratamiento es cabergolina. Si hay macroadenoma, se agrega campimetría."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Y solo si hay resistencia a dosis máximas, o intolerancia severa, se deriva a cirugía transesfenoidal."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Mujer de veintiséis años, nulípara, con ocho meses de amenorrea y galactorrea bilateral desde hace cuatro. No usa fármacos y el campo visual es normal. La beta-hCG es negativa, la TSH es normal, y la prolactina en reposo es ciento sesenta y cinco. La resonancia muestra una lesión de siete milímetros, un microadenoma."
+      "text": "Repasemos las trampas. Amenorrea con galactorrea: primero la beta-hCG, después prolactina y TSH. El error es pedir una resonancia de entrada."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "Paciente con risperidona y prolactina de cincuenta y ocho: es el fármaco. El valor bajo cien y el antipsicótico lo explican."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: cirugía transesfenoidal, cabergolina oral, anticonceptivos combinados, levotiroxina, o radiocirugía. Piénsalo."
+      "text": "Prolactina alta con TSH alta: se trata el hipotiroidismo con levotiroxina, y la prolactina baja sola."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B, cabergolina. Fíjate que el enunciado hizo todo el descarte por ti: sin embarazo, TSH normal y sin fármacos. Con un microprolactinoma, el tratamiento es médico. La cirugía es la trampa, porque es lo que se hace con los otros adenomas, pero el prolactinoma es la excepción. Y los anticonceptivos harían sangrar, pero no tratan el tumor ni devuelven la fertilidad."
+      "text": "Prolactinoma, sea micro o macro: cabergolina. La cirugía de entrada es la respuesta incorrecta más clásica del tema."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el hombre con disfunción eréctil y alteración del campo visual temporal: resonancia de silla turca. No es un problema testicular, es un macroadenoma."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora las preguntas reales. Esta es del EUNACOM de julio de dos mil veinticuatro. Paciente de veinticinco años con mastalgia bilateral de cinco días y galactorrea bilateral al comprimir los pezones. Su última regla fue hace doce días y no toma medicamentos."
+      "text": "Vamos al caso. Mujer de veintiséis años, nulípara, con ocho meses de amenorrea y galactorrea bilateral desde hace cuatro. No usa fármacos y el campo visual es normal. La beta-hCG es negativa, la TSH es normal, y la prolactina en reposo es ciento sesenta y cinco. La resonancia muestra una lesión de siete milímetros, un microadenoma."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el examen más adecuado para iniciar el estudio?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: beta-hCG en plasma, prolactinemia, resonancia de silla turca, ecografía mamaria, o mamografía. Piénsalo."
+      "text": "Las alternativas: cirugía transesfenoidal, cabergolina oral, anticonceptivos combinados, levotiroxina, o radiocirugía. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, la beta-hCG. Es la regla del descarte previo aplicada al pie de la letra: ante una galactorrea, lo primero es descartar el embarazo, aunque la regla haya sido hace doce días. La prolactinemia es el distractor tentador, y es el paso siguiente, pero no el primero. Y la resonancia está dos pasos más allá."
+      "text": "Es la B, cabergolina. Fíjate que el enunciado hizo todo el descarte por ti: sin embarazo, TSH normal y sin fármacos. Con un microprolactinoma, el tratamiento es médico. La cirugía es la trampa, porque es lo que se hace con los otros adenomas, pero el prolactinoma es la excepción. Y los anticonceptivos harían sangrar, pero no tratan el tumor ni devuelven la fertilidad."
     },
     {
       "file": "s10_g00",
-      "text": "Una del EUNACOM de julio de dos mil trece. Paciente de veintiséis años con tres meses de amenorrea y galactorrea, con dos pruebas de embarazo en orina negativas. Examen físico normal e índice de masa corporal de veinte."
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de julio de dos mil veinticuatro. Paciente de veinticinco años con mastalgia bilateral de cinco días y galactorrea bilateral al comprimir los pezones. Su última regla fue hace doce días y no toma medicamentos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
+      "text": "¿Cuál es el examen más adecuado para iniciar el estudio?"
     },
     {
       "file": "s10_g02",
-      "text": "Las alternativas: TSH, prueba de progesterona, ecografía transvaginal, prolactina, o prueba de estrógeno más progesterona. Piénsalo."
+      "text": "Las opciones: beta-hCG en plasma, prolactinemia, resonancia de silla turca, ecografía mamaria, o mamografía. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D, prolactina. Compárala con la anterior: aquí el embarazo ya está descartado dos veces, así que el paso siguiente es medir la prolactina. Amenorrea con galactorrea sin embarazo es hiperprolactinemia. La TSH también se pide, pero la galactorrea te lleva primero a la prolactina. Y las pruebas de progesterona son para la amenorrea sin galactorrea."
+      "text": "Es la A, la beta-hCG. Es la regla del descarte previo aplicada al pie de la letra: ante una galactorrea, lo primero es descartar el embarazo, aunque la regla haya sido hace doce días. La prolactinemia es el distractor tentador, y es el paso siguiente, pero no el primero. Y la resonancia está dos pasos más allá."
     },
     {
       "file": "s11_g00",
-      "text": "Otra del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y dos años con seis meses de amenorrea y secreción mamaria bilateral, y una cefalea matinal que ha ido aumentando. Al examen hay escasa galactorrea y una hemianopsia bitemporal."
+      "text": "Una del EUNACOM de julio de dos mil trece. Paciente de veintiséis años con tres meses de amenorrea y galactorrea, con dos pruebas de embarazo en orina negativas. Examen físico normal e índice de masa corporal de veinte."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: craneofaringioma, macroadenoma hipofisario, glioma, apoplejía hipofisaria, o accidente vascular. Piénsalo."
+      "text": "Las alternativas: TSH, prueba de progesterona, ecografía transvaginal, prolactina, o prueba de estrógeno más progesterona. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B, macroadenoma hipofisario. La amenorrea con galactorrea te dice prolactina alta, y la hemianopsia bitemporal te dice que algo comprime el quiasma: un tumor de más de diez milímetros. La apoplejía es el distractor, pero sería una cefalea brusca e intensa, no progresiva en semanas. Y recuerda la conducta: aunque haya hemianopsia, si es un prolactinoma se parte con cabergolina."
+      "text": "Es la D, prolactina. Compárala con la anterior: aquí el embarazo ya está descartado dos veces, así que el paso siguiente es medir la prolactina. Amenorrea con galactorrea sin embarazo es hiperprolactinemia. La TSH también se pide, pero la galactorrea te lleva primero a la prolactina. Y las pruebas de progesterona son para la amenorrea sin galactorrea."
     },
     {
       "file": "s12_g00",
-      "text": "La última, del EUNACOM de enero de dos mil veintitrés. Paciente con astenia, baja de la libido, disfunción eréctil progresiva y alteración de la visión en las zonas temporales."
+      "text": "Otra del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y dos años con seis meses de amenorrea y secreción mamaria bilateral, y una cefalea matinal que ha ido aumentando. Al examen hay escasa galactorrea y una hemianopsia bitemporal."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el examen de elección?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Las alternativas: resonancia de silla turca, campo visual computarizado, TAC de cerebro con contraste, testosterona con FSH y LH, o ecografía testicular. Piénsalo."
+      "text": "Las opciones: craneofaringioma, macroadenoma hipofisario, glioma, apoplejía hipofisaria, o accidente vascular. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A, resonancia de silla turca. Es el varón que describimos en la clínica: hipogonadismo que se ignoró por años y que llega con un macroadenoma que ya toca el quiasma. La ecografía testicular es la trampa, porque el problema no está en el testículo. Y el campo visual confirma el defecto, pero no muestra la causa."
+      "text": "Es la B, macroadenoma hipofisario. La amenorrea con galactorrea te dice prolactina alta, y la hemianopsia bitemporal te dice que algo comprime el quiasma: un tumor de más de diez milímetros. La apoplejía es el distractor, pero sería una cefalea brusca e intensa, no progresiva en semanas. Y recuerda la conducta: aunque haya hemianopsia, si es un prolactinoma se parte con cabergolina."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Ante una prolactina alta, primero se descarta lo que no es tumor: embarazo con beta-hCG, hipotiroidismo con TSH, y los fármacos, sobre todo risperidona, haloperidol y metoclopramida."
+      "text": "La última, del EUNACOM de enero de dos mil veintitrés. Paciente con astenia, baja de la libido, disfunción eréctil progresiva y alteración de la visión en las zonas temporales."
     },
     {
       "file": "s13_g01",
-      "text": "Un valor sobre cien a doscientos es casi siempre un prolactinoma, y se confirma con resonancia de silla turca."
+      "text": "¿Cuál es el examen de elección?"
     },
     {
       "file": "s13_g02",
-      "text": "El prolactinoma, sea micro o macro, se trata con cabergolina, incluso con hemianopsia. Es el único adenoma que no se opera de entrada."
+      "text": "Las alternativas: resonancia de silla turca, campo visual computarizado, TAC de cerebro con contraste, testosterona con FSH y LH, o ecografía testicular. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la A, resonancia de silla turca. Es el varón que describimos en la clínica: hipogonadismo que se ignoró por años y que llega con un macroadenoma que ya toca el quiasma. La ecografía testicular es la trampa, porque el problema no está en el testículo. Y el campo visual confirma el defecto, pero no muestra la causa."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Ante una prolactina alta, primero se descarta lo que no es tumor: embarazo con beta-hCG, hipotiroidismo con TSH, y los fármacos, sobre todo risperidona, haloperidol y metoclopramida."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Un valor sobre cien a doscientos es casi siempre un prolactinoma, y se confirma con resonancia de silla turca."
+    },
+    {
+      "file": "s14_g02",
+      "text": "El prolactinoma, sea micro o macro, se trata con cabergolina, incluso con hemianopsia. Es el único adenoma que no se opera de entrada."
+    },
+    {
+      "file": "s14_g03",
       "text": "La cirugía transesfenoidal queda para la resistencia o la intolerancia. Si te llevas una sola idea de hoy: antes de buscar el tumor, descarta embarazo, tiroides y fármacos; y si es prolactinoma, se trata con pastillas, no con bisturí. Nos vemos en la próxima clase."
     }
   ]

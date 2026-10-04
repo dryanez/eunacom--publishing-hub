@@ -90,6 +90,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Lesiones premalignas',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-15/01_queratosis-actinica__cto-derma_p96.jpg', label: 'Queratosis actínica', credit: 'Manual CTO Dermatología 14.ª ed., p. 96' },
+        { src: 'biblioteca/11_dermatologia/derma-15/01_cuerno_cutaneo__fitzpatrick_p66.jpg', label: 'Cuerno cutáneo', credit: 'Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px)' },
+      ],
+      steps: [
+        { note: 'Áspera en zonas expuestas',
+          say: 'La queratosis actínica es una lesión áspera en zonas expuestas al sol.' },
+        { note: 'Se biopsia la base',
+          say: 'Y el cuerno cutáneo: se biopsia la base, porque puede esconder un espinocelular.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la piel áspera al tratamiento correcto.',
     },

@@ -165,6 +165,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Melanoma',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-13/01_melanoma-abcde__amir-derma_p78.jpg', label: 'Melanoma', credit: 'Manual AMIR Dermatología, p. 78' },
+        { src: 'biblioteca/11_dermatologia/derma-13/02_nevus-melanocitico__amir-derma_p99.jpg', label: 'Nevus benigno', credit: 'Manual AMIR Dermatología, p. 99' },
+      ],
+      steps: [
+        { note: 'Asimétrico, bordes irregulares',
+          say: 'El melanoma es asimétrico, de bordes irregulares, varios colores, más de seis milímetros y cambia.' },
+        { note: 'Simétrico y homogéneo',
+          say: 'Compáralo con un nevus benigno: simétrico, de borde regular y color homogéneo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión: de la sospecha a la biopsia, y de la biopsia al margen definitivo.',
     },

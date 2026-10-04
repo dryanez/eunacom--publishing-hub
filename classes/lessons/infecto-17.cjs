@@ -154,6 +154,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Hidatidosis',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg', label: 'Quiste hidatídico', credit: 'Manual AMIR Infecciosas, p. 189' },
+      ],
+      steps: [
+        { note: 'Quiste con membranas',
+          say: 'El quiste hidatídico tiene membranas y vesículas hijas en su interior.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos zoonosis en un árbol de decisión.',
     },

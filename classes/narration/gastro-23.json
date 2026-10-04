@@ -2,7 +2,7 @@
   "id": "gastro-23",
   "title": "Gastroenterologia 6.1: Diarrea Aguda y Crónica en el Niño",
   "specialty": "Gastroenterología",
-  "chars": 11167,
+  "chars": 11339,
   "segments": [
     {
       "file": "s00_g00",
@@ -118,158 +118,166 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos de un niño con diarrea. Lo primero es definir si es un cuadro agudo o crónico, porque la lógica es completamente distinta."
+      "text": "El signo del pliegue se busca tomando la piel entre dos dedos y soltándola."
     },
     {
       "file": "s06_g01",
-      "text": "¿Es aguda o crónica?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "En la aguda, mayoritariamente viral, el pilar es hidratar según el grado de deshidratación. Los antidiarreicos están contraindicados, y el antibiótico queda solo para la disentería."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Sin deshidratación: plan A, sales de rehidratación oral cien a doscientos mililitros tras cada deposición, en casa."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Deshidratación moderada: plan B, sales de rehidratación cincuenta a cien mililitros por kilo en cuatro a seis horas, fraccionadas si vomita."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Deshidratación grave, shock o compromiso de conciencia: plan C, suero fisiológico veinte mililitros por kilo en bolo, por vía intraósea si no hay acceso venoso."
-    },
-    {
-      "file": "s06_g06",
-      "text": "En la crónica, la primera pregunta es si el niño está sano y crece bien."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Si está sano, es la diarrea crónica inespecífica por jugos: se suspenden los jugos."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Si no, se busca la causa por su pista: parasitológico seriado para la Giardia, anti transglutaminasa para la celíaca, test del sudor para la fibrosis quística, o prueba terapéutica para la alergia a la proteína de leche. Y antes de diagnosticar celíaca, siempre se descarta la Giardia."
+      "text": "Si la piel queda levantada unos segundos y no vuelve, el pliegue es positivo: hay deshidratación."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos la diarrea crónica en una tabla. Niño sano que crece bien y toma muchos jugos: diarrea crónica inespecífica, se suspenden los jugos."
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Partimos de un niño con diarrea. Lo primero es definir si es un cuadro agudo o crónico, porque la lógica es completamente distinta."
     },
     {
       "file": "s07_g01",
-      "text": "Zona rural, flatulencia y la familia completa con síntomas: giardiasis, parasitológico seriado y tinidazol."
+      "text": "¿Es aguda o crónica?"
     },
     {
       "file": "s07_g02",
-      "text": "Malabsorción con anemia ferropénica desde el año de vida: celíaca, anti transglutaminasa y biopsia duodenal."
+      "text": "En la aguda, mayoritariamente viral, el pilar es hidratar según el grado de deshidratación. Los antidiarreicos están contraindicados, y el antibiótico queda solo para la disentería."
     },
     {
       "file": "s07_g03",
-      "text": "Esteatorrea con neumonías recurrentes: fibrosis quística, test del sudor."
+      "text": "Sin deshidratación: plan A, sales de rehidratación oral cien a doscientos mililitros tras cada deposición, en casa."
     },
     {
       "file": "s07_g04",
-      "text": "Y síntomas digestivos más alérgicos en un lactante: alergia a la proteína de leche de vaca, prueba terapéutica con fórmula hidrolizada. Fíjate que cada causa tiene su propia pista y su propio examen."
+      "text": "Deshidratación moderada: plan B, sales de rehidratación cincuenta a cien mililitros por kilo en cuatro a seis horas, fraccionadas si vomita."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Deshidratación grave, shock o compromiso de conciencia: plan C, suero fisiológico veinte mililitros por kilo en bolo, por vía intraósea si no hay acceso venoso."
+    },
+    {
+      "file": "s07_g06",
+      "text": "En la crónica, la primera pregunta es si el niño está sano y crece bien."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si está sano, es la diarrea crónica inespecífica por jugos: se suspenden los jugos."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Si no, se busca la causa por su pista: parasitológico seriado para la Giardia, anti transglutaminasa para la celíaca, test del sudor para la fibrosis quística, o prueba terapéutica para la alergia a la proteína de leche. Y antes de diagnosticar celíaca, siempre se descarta la Giardia."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Lactante de diez meses con diarrea acuosa de tres días, sin sangre. Está irritable, llora sin lágrimas, tiene las mucosas secas y los ojos hundidos, y ha perdido el siete por ciento de su peso. Bebe con avidez los líquidos que se le ofrecen."
+      "text": "Repasemos la diarrea crónica en una tabla. Niño sano que crece bien y toma muchos jugos: diarrea crónica inespecífica, se suspenden los jugos."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el manejo más adecuado?"
+      "text": "Zona rural, flatulencia y la familia completa con síntomas: giardiasis, parasitológico seriado y tinidazol."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: plan A en casa, plan B con sales de rehidratación en cuatro a seis horas, plan C con suero en bolo, sales más loperamida, o sales más ciprofloxacino. Piénsalo."
+      "text": "Malabsorción con anemia ferropénica desde el año de vida: celíaca, anti transglutaminasa y biopsia duodenal."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Siete por ciento de pérdida, mucosas secas, ojos hundidos y llanto sin lágrimas: deshidratación moderada, plan B. El distractor tentador es el plan C, porque el niño se ve deshidratado, pero no está en shock, no tiene compromiso de conciencia, y lo más importante, bebe con avidez: la vía oral funciona. La loperamida está contraindicada, y sin disentería no hay antibiótico."
+      "text": "Esteatorrea con neumonías recurrentes: fibrosis quística, test del sudor."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y síntomas digestivos más alérgicos en un lactante: alergia a la proteína de leche de vaca, prueba terapéutica con fórmula hidrolizada. Fíjate que cada causa tiene su propia pista y su propio examen."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Preescolar de cuatro años, de zona rural, con diarrea crónica de dos meses, mucha flatulencia y dolor tipo cólico. Dos hermanos tienen síntomas parecidos. Crece en un percentil bajo, pero estable."
+      "text": "Vamos al caso. Lactante de diez meses con diarrea acuosa de tres días, sin sangre. Está irritable, llora sin lágrimas, tiene las mucosas secas y los ojos hundidos, y ha perdido el siete por ciento de su peso. Bebe con avidez los líquidos que se le ofrecen."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable y su tratamiento?"
+      "text": "¿Cuál es el manejo más adecuado?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: diarrea crónica inespecífica, celíaca, giardiasis, fibrosis quística, o alergia a la proteína de leche de vaca, cada una con su tratamiento. Piénsalo."
+      "text": "Las alternativas: plan A en casa, plan B con sales de rehidratación en cuatro a seis horas, plan C con suero en bolo, sales más loperamida, o sales más ciprofloxacino. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la C, giardiasis, con tinidazol o metronidazol. Zona rural, flatulencia, dolor cólico y los hermanos con lo mismo: es la pista de libro. El distractor tentador es la celíaca, porque hay diarrea crónica y un crecimiento bajo. Pero la regla es descartar Giardia antes de diagnosticar celíaca, y aquí además el contagio familiar habla de un parásito."
+      "text": "Es la B. Siete por ciento de pérdida, mucosas secas, ojos hundidos y llanto sin lágrimas: deshidratación moderada, plan B. El distractor tentador es el plan C, porque el niño se ve deshidratado, pero no está en shock, no tiene compromiso de conciencia, y lo más importante, bebe con avidez: la vía oral funciona. La loperamida está contraindicada, y sin disentería no hay antibiótico."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real del examen, de julio de dos mil diecisiete. Niño de tres años con diarrea de tres meses, intermitente, generalmente acuosa, que a veces trae restos vegetales. Subió seiscientos gramos en ese periodo y mide noventa centímetros. Está con signos vitales normales, hidratado, y el abdomen es blando y sin hallazgos."
+      "text": "Ahora una pregunta del banco EUNACOM. Preescolar de cuatro años, de zona rural, con diarrea crónica de dos meses, mucha flatulencia y dolor tipo cólico. Dos hermanos tienen síntomas parecidos. Crece en un percentil bajo, pero estable."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el diagnóstico más probable y su tratamiento?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: diarrea crónica inespecífica, enfermedad celíaca, enteropatía perdedora de proteínas, alergia a la proteína de leche de vaca, o intolerancia a los disacáridos. Piénsalo."
+      "text": "Las opciones: diarrea crónica inespecífica, celíaca, giardiasis, fibrosis quística, o alergia a la proteína de leche de vaca, cada una con su tratamiento. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. El niño está sano y sigue creciendo, sin anemia ni ningún signo de alarma: es la diarrea crónica inespecífica, por exceso de jugos. La celíaca y la alergia a la proteína de leche de vaca se acompañan de mal incremento de peso o de otros síntomas, y aquí no hay nada de eso."
+      "text": "La respuesta es la C, giardiasis, con tinidazol o metronidazol. Zona rural, flatulencia, dolor cólico y los hermanos con lo mismo: es la pista de libro. El distractor tentador es la celíaca, porque hay diarrea crónica y un crecimiento bajo. Pero la regla es descartar Giardia antes de diagnosticar celíaca, y aquí además el contagio familiar habla de un parásito."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, de julio de dos mil veinticinco. Lactante de cuatro meses con infecciones respiratorias a repetición, deposiciones grasas y malolientes, y retraso en el crecimiento. La madre cuenta que el sudor del niño sabe salado."
+      "text": "Ahora una pregunta real del examen, de julio de dos mil diecisiete. Niño de tres años con diarrea de tres meses, intermitente, generalmente acuosa, que a veces trae restos vegetales. Subió seiscientos gramos en ese periodo y mide noventa centímetros. Está con signos vitales normales, hidratado, y el abdomen es blando y sin hallazgos."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el examen diagnóstico de elección?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: broncoscopía, test del sudor, test de metacolina, TAC de tórax de alta resolución, o espirometría. Piénsalo."
+      "text": "Las opciones: diarrea crónica inespecífica, enfermedad celíaca, enteropatía perdedora de proteínas, alergia a la proteína de leche de vaca, o intolerancia a los disacáridos. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Diarrea grasa más neumonías recurrentes es la combinación que te lleva a fibrosis quística, y aquí además está el dato clásico del sudor salado, que es literalmente el examen que confirma: el test del sudor."
+      "text": "Es la A. El niño está sano y sigue creciendo, sin anemia ni ningún signo de alarma: es la diarrea crónica inespecífica, por exceso de jugos. La celíaca y la alergia a la proteína de leche de vaca se acompañan de mal incremento de peso o de otros síntomas, y aquí no hay nada de eso."
     },
     {
       "file": "s12_g00",
-      "text": "Y una pregunta más del banco real, también de julio de dos mil veinticinco. Lactante de dos meses con diarrea, vómitos y dermatitis alrededor de la boca y del ano, después de empezar con fórmula láctea. El test de parche da positivo para proteína de leche de vaca."
+      "text": "Otra pregunta real, de julio de dos mil veinticinco. Lactante de cuatro meses con infecciones respiratorias a repetición, deposiciones grasas y malolientes, y retraso en el crecimiento. La madre cuenta que el sudor del niño sabe salado."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el manejo?"
+      "text": "¿Cuál es el examen diagnóstico de elección?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: cambiar a fórmula extensamente hidrolizada o elemental, seguir con la fórmula habitual y dar antihistamínico, hospitalizar para estudio endoscópico, iniciar corticoides orales, o cambiar a leche de soja. Piénsalo."
+      "text": "Las opciones: broncoscopía, test del sudor, test de metacolina, TAC de tórax de alta resolución, o espirometría. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A. El diagnóstico ya está confirmado, así que el manejo es retirar la proteína de la leche de vaca con una fórmula extensamente hidrolizada. La trampa es la E, la leche de soja: no se recomienda en menores de seis meses, porque hay reactividad cruzada con la proteína de la leche de vaca."
+      "text": "Es la B. Diarrea grasa más neumonías recurrentes es la combinación que te lleva a fibrosis quística, y aquí además está el dato clásico del sudor salado, que es literalmente el examen que confirma: el test del sudor."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. En la diarrea aguda se hidrata según el grado: plan A en casa, plan B con sales en cuatro a seis horas, y plan C con suero en bolo."
+      "text": "Y una pregunta más del banco real, también de julio de dos mil veinticinco. Lactante de dos meses con diarrea, vómitos y dermatitis alrededor de la boca y del ano, después de empezar con fórmula láctea. El test de parche da positivo para proteína de leche de vaca."
     },
     {
       "file": "s13_g01",
-      "text": "Nunca antidiarreicos. Antibiótico solo en la disentería, con ciprofloxacino, y la Salmonella no tifoidea no complicada no se trata."
+      "text": "¿Cuál es el manejo?"
     },
     {
       "file": "s13_g02",
-      "text": "En la crónica, si el niño está sano y crece bien, suspende los jugos."
+      "text": "Las opciones: cambiar a fórmula extensamente hidrolizada o elemental, seguir con la fórmula habitual y dar antihistamínico, hospitalizar para estudio endoscópico, iniciar corticoides orales, o cambiar a leche de soja. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la A. El diagnóstico ya está confirmado, así que el manejo es retirar la proteína de la leche de vaca con una fórmula extensamente hidrolizada. La trampa es la E, la leche de soja: no se recomienda en menores de seis meses, porque hay reactividad cruzada con la proteína de la leche de vaca."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. En la diarrea aguda se hidrata según el grado: plan A en casa, plan B con sales en cuatro a seis horas, y plan C con suero en bolo."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Nunca antidiarreicos. Antibiótico solo en la disentería, con ciprofloxacino, y la Salmonella no tifoidea no complicada no se trata."
+    },
+    {
+      "file": "s14_g02",
+      "text": "En la crónica, si el niño está sano y crece bien, suspende los jugos."
+    },
+    {
+      "file": "s14_g03",
       "text": "Descarta siempre la Giardia antes de diagnosticar celíaca."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y la alergia a la proteína de leche de vaca se confirma retirando y reintroduciendo la leche, no con un examen. Si te llevas una sola idea de hoy: en la diarrea del niño, lo que salva es el agua, no el fármaco. Nos vemos en la próxima clase."
     }
   ]

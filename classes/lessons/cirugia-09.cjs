@@ -121,6 +121,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'La evaluación primaria',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-09/S1_abcde__propio.svg', label: 'ABCDE', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Un orden que no se cambia',
+          say: 'La evaluación del politraumatizado sigue un orden fijo: vía aérea con columna cervical, ventilación, circulación, déficit neurológico y exposición. No se pasa a la siguiente sin resolver la anterior.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo el protocolo en un solo árbol de decisión.',
     },

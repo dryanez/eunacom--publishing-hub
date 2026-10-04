@@ -107,6 +107,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Refracción y estrabismo',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-09/S1_vicios-refraccion__propio.svg', label: 'Vicios de refracción', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/12_oftalmologia/oftal-09/01_estrabismo-hirschberg__cto-oftalmo_p80.jpg', label: 'Hirschberg', credit: 'Manual CTO Oftalmología 14.ª ed., p. 80' },
+      ],
+      steps: [
+        { note: 'Dónde enfoca el ojo',
+          say: 'En la miopía la imagen enfoca delante de la retina; en la hipermetropía, detrás.' },
+        { note: 'El reflejo no está centrado',
+          say: 'Y en el estrabismo el reflejo de la luz no cae en el mismo lugar de ambas pupilas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

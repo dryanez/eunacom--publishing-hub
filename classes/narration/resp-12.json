@@ -2,7 +2,7 @@
   "id": "resp-12",
   "title": "Neumología 3.2: Derrame Paraneumónico y Empiema Pleural",
   "specialty": "Neumología",
-  "chars": 11229,
+  "chars": 11373,
   "segments": [
     {
       "file": "s00_g00",
@@ -130,79 +130,67 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora juntemos todo en un árbol, desde la neumonía con derrame hasta la decorticación. Paciente con neumonía y un derrame en la radiografía o la ecografía. Lo primero es medirlo."
-    },
-    {
-      "file": "s07_g01",
-      "text": "¿Mide más de diez milímetros?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si es muy pequeño, basta el antibiótico de la neumonía, sin puncionar."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si mide más, toracocentesis diagnóstica inmediata. ¿Hay pus, Gram positivo, pH bajo siete coma veinte, glucosa bajo cuarenta, o tabiques?"
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si no hay ninguno, es un derrame no complicado: antibióticos endovenosos y vigilancia."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si hay cualquiera, tubo de drenaje inmediato a trampa de agua, con antibióticos que cubran anaerobios."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Si queda tabicado y sigue con fiebre, fibrinolíticos intrapleurales, o VATS si la sepsis no cede en cuarenta y ocho a setenta y dos horas."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Y si ya hay una coraza pleural que atrapa el pulmón, toracotomía con decorticación."
+      "text": "Este derrame no forma la curva habitual: está encapsulado, atrapado por tabiques de fibrina. Un derrame paraneumónico así necesita tubo pleural."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos en una tabla. El aspecto: el no complicado es claro, el complicado turbio, y el empiema es pus franco. Pero ojo: el complicado puede no verse purulento, y por eso manda la bioquímica."
+      "text": "Ahora juntemos todo en un árbol, desde la neumonía con derrame hasta la decorticación. Paciente con neumonía y un derrame en la radiografía o la ecografía. Lo primero es medirlo."
     },
     {
       "file": "s08_g01",
-      "text": "El pH: sobre siete coma veinte, no complicado; bajo siete coma veinte, complicado. Es el corte que más se pregunta."
+      "text": "¿Mide más de diez milímetros?"
     },
     {
       "file": "s08_g02",
-      "text": "La glucosa: sobre sesenta en el no complicado, y cae a medida que las bacterias la consumen."
+      "text": "Si es muy pequeño, basta el antibiótico de la neumonía, sin puncionar."
     },
     {
       "file": "s08_g03",
-      "text": "La LDH: bajo mil en el no complicado, sobre mil en el complicado y el empiema."
+      "text": "Si mide más, toracocentesis diagnóstica inmediata. ¿Hay pus, Gram positivo, pH bajo siete coma veinte, glucosa bajo cuarenta, o tabiques?"
     },
     {
       "file": "s08_g04",
-      "text": "El Gram y el cultivo: negativos en el no complicado. Un Gram negativo no descarta un derrame complicado, si el pH está bajo."
+      "text": "Si no hay ninguno, es un derrame no complicado: antibióticos endovenosos y vigilancia."
     },
     {
       "file": "s08_g05",
-      "text": "Y la conducta, que es lo que te van a preguntar: no complicado, solo antibióticos; complicado o empiema, tubo de drenaje inmediato."
+      "text": "Si hay cualquiera, tubo de drenaje inmediato a trampa de agua, con antibióticos que cubran anaerobios."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Si queda tabicado y sigue con fiebre, fibrinolíticos intrapleurales, o VATS si la sepsis no cede en cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Y si ya hay una coraza pleural que atrapa el pulmón, toracotomía con decorticación."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de cincuenta y ocho años, fumador y con mala dentadura, hospitalizado por neumonía basal derecha con ceftriaxona. Al cuarto día sigue febril, con más dolor pleurítico y disnea. La radiografía muestra un derrame en el tercio inferior del hemitórax. La punción da un líquido turbio y espeso, con pH siete coma doce, glucosa de veintiocho, LDH de dos mil cuatrocientos cincuenta, y diplococos grampositivos en el Gram."
+      "text": "Repasemos en una tabla. El aspecto: el no complicado es claro, el complicado turbio, y el empiema es pus franco. Pero ojo: el complicado puede no verse purulento, y por eso manda la bioquímica."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "El pH: sobre siete coma veinte, no complicado; bajo siete coma veinte, complicado. Es el corte que más se pregunta."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: mantener la ceftriaxona y repetir la punción en cuarenta y ocho horas, tubo de drenaje con cobertura anaerobia, toracotomía con decorticación, ciprofloxacino ambulatorio, o fibrinolíticos sin tubo. Piénsalo."
+      "text": "La glucosa: sobre sesenta en el no complicado, y cae a medida que las bacterias la consumen."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Cumple todo: pH bajo siete coma veinte, glucosa bajo cuarenta, LDH sobre mil, y un Gram positivo, que ya lo define como empiema. Tubo de drenaje inmediato, y como es fumador con mala dentadura, se agrega cobertura anaerobia, con metronidazol o cambiando a ampicilina sulbactam. La A es la trampa clásica: esperar con antibióticos. Y la decorticación es para la fase organizada, no para empezar."
+      "text": "La LDH: bajo mil en el no complicado, sobre mil en el complicado y el empiema."
+    },
+    {
+      "file": "s09_g04",
+      "text": "El Gram y el cultivo: negativos en el no complicado. Un Gram negativo no descarta un derrame complicado, si el pH está bajo."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y la conducta, que es lo que te van a preguntar: no complicado, solo antibióticos; complicado o empiema, tubo de drenaje inmediato."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil veinticuatro. Hombre de cuarenta y tres años, fumador y bebedor excesivo, con cinco días de fiebre y tos con expectoración mucopurulenta, a veces hemoptoica. Está febril y taquicárdico, con crepitaciones bilaterales. En el examen original venía la radiografía, que mostraba un derrame pleural izquierdo."
+      "text": "Vamos con un caso. Hombre de cincuenta y ocho años, fumador y con mala dentadura, hospitalizado por neumonía basal derecha con ceftriaxona. Al cuarto día sigue febril, con más dolor pleurítico y disnea. La radiografía muestra un derrame en el tercio inferior del hemitórax. La punción da un líquido turbio y espeso, con pH siete coma doce, glucosa de veintiocho, LDH de dos mil cuatrocientos cincuenta, y diplococos grampositivos en el Gram."
     },
     {
       "file": "s10_g01",
@@ -210,46 +198,62 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: quantiferón, broncoscopía, test de VIH, toracocentesis diagnóstica y evacuadora, o TAC de tórax. Piénsalo."
+      "text": "Las opciones: mantener la ceftriaxona y repetir la punción en cuarenta y ocho horas, tubo de drenaje con cobertura anaerobia, toracotomía con decorticación, ciprofloxacino ambulatorio, o fibrinolíticos sin tubo. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D. Neumonía con derrame: el primer paso es puncionar. El líquido te dice si es paraneumónico simple, complicado, o incluso tuberculoso, y si necesita tubo. El quantiferón es la trampa, porque la hemoptisis hace pensar en tuberculosis; pero solo sirve para la infección latente, no para este paciente con síntomas. Y la TAC no reemplaza al análisis del líquido."
+      "text": "Es la B. Cumple todo: pH bajo siete coma veinte, glucosa bajo cuarenta, LDH sobre mil, y un Gram positivo, que ya lo define como empiema. Tubo de drenaje inmediato, y como es fumador con mala dentadura, se agrega cobertura anaerobia, con metronidazol o cambiando a ampicilina sulbactam. La A es la trampa clásica: esperar con antibióticos. Y la decorticación es para la fase organizada, no para empezar."
     },
     {
       "file": "s11_g00",
-      "text": "Una del EUNACOM de julio de dos mil quince. Paciente de cincuenta años con tos, expectoración mucopurulenta, fiebre y crepitaciones basales. La radiografía muestra una neumonía del lóbulo inferior izquierdo, con un pequeño derrame limitado al ángulo costofrénico. Se punciona: pH siete coma treinta y cuatro, trescientas cincuenta células, noventa por ciento polimorfonucleares."
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil veinticuatro. Hombre de cuarenta y tres años, fumador y bebedor excesivo, con cinco días de fiebre y tos con expectoración mucopurulenta, a veces hemoptoica. Está febril y taquicárdico, con crepitaciones bilaterales. En el examen original venía la radiografía, que mostraba un derrame pleural izquierdo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Qué antibiótico debe dejar?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: claritromicina, clindamicina, ceftriaxona, azitromicina, o amoxicilina. Piénsalo."
+      "text": "Las opciones: quantiferón, broncoscopía, test de VIH, toracocentesis diagnóstica y evacuadora, o TAC de tórax. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C. El pH sobre siete coma veinte y el derrame pequeño dicen que es un paraneumónico no complicado: no necesita tubo, basta el antibiótico. Y el antibiótico va endovenoso, como en la neumonía que requiere hospitalización: de las opciones, la ceftriaxona. La amoxicilina es la trampa: es oral, y aquí se necesita un antibiótico endovenoso."
+      "text": "Es la D. Neumonía con derrame: el primer paso es puncionar. El líquido te dice si es paraneumónico simple, complicado, o incluso tuberculoso, y si necesita tubo. El quantiferón es la trampa, porque la hemoptisis hace pensar en tuberculosis; pero solo sirve para la infección latente, no para este paciente con síntomas. Y la TAC no reemplaza al análisis del líquido."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Empiema es pus franco o bacterias en el Gram o el cultivo. Complicado es la bioquímica: pH bajo siete coma veinte, glucosa baja y LDH sobre mil."
+      "text": "Una del EUNACOM de julio de dos mil quince. Paciente de cincuenta años con tos, expectoración mucopurulenta, fiebre y crepitaciones basales. La radiografía muestra una neumonía del lóbulo inferior izquierdo, con un pequeño derrame limitado al ángulo costofrénico. Se punciona: pH siete coma treinta y cuatro, trescientas cincuenta células, noventa por ciento polimorfonucleares."
     },
     {
       "file": "s12_g01",
-      "text": "Y de todos, el mejor predictor es el pH, medido en jeringa de gases."
+      "text": "¿Qué antibiótico debe dejar?"
     },
     {
       "file": "s12_g02",
-      "text": "Complicado o empiema: tubo de drenaje inmediato, a trampa de agua. Nunca se espera la respuesta al antibiótico."
+      "text": "Las opciones: claritromicina, clindamicina, ceftriaxona, azitromicina, o amoxicilina. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C. El pH sobre siete coma veinte y el derrame pequeño dicen que es un paraneumónico no complicado: no necesita tubo, basta el antibiótico. Y el antibiótico va endovenoso, como en la neumonía que requiere hospitalización: de las opciones, la ceftriaxona. La amoxicilina es la trampa: es oral, y aquí se necesita un antibiótico endovenoso."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Empiema es pus franco o bacterias en el Gram o el cultivo. Complicado es la bioquímica: pH bajo siete coma veinte, glucosa baja y LDH sobre mil."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Y de todos, el mejor predictor es el pH, medido en jeringa de gases."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Complicado o empiema: tubo de drenaje inmediato, a trampa de agua. Nunca se espera la respuesta al antibiótico."
+    },
+    {
+      "file": "s13_g03",
       "text": "Si queda tabicado, fibrinolíticos o VATS; y la decorticación, solo con el pulmón atrapado."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y el antibiótico siempre cubre anaerobios, por dos a cuatro semanas. Si te llevas una sola idea de hoy: en la neumonía con derrame se punciona, y si el pH está bajo siete coma veinte, el tubo va ahora. En la próxima clase seguimos en la pleura, pero con aire: el neumotórax. Nos vemos en la próxima clase."
     }
   ]

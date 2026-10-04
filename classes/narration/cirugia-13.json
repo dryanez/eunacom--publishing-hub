@@ -2,7 +2,7 @@
   "id": "cirugia-13",
   "title": "Cirugia 11.13: Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
   "specialty": "Cirugía General",
-  "chars": 10739,
+  "chars": 10967,
   "segments": [
     {
       "file": "s00_g00",
@@ -122,130 +122,142 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora ordenemos todo el razonamiento del gran quemado en un solo árbol. Llega un paciente quemado. Primero detienes el proceso de la quemadura y enfrías con agua tibia, nunca fría, para no agregar hipotermia."
+      "text": "La quemadura de espesor parcial superficial tiene ampollas, duele y el lecho es húmedo y brillante."
     },
     {
       "file": "s06_g01",
-      "text": "Si hay vibrisas chamuscadas, esputo con hollín o disfonía, intubas antes de que el edema avance y ya no puedas."
+      "text": "La profunda es moteada, no blanquea y duele menos."
     },
     {
       "file": "s06_g02",
-      "text": "Con la regla de los nueve calculas el porcentaje exacto, sumando solo el segundo y el tercer grado."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con cualquiera de estos criterios, activas la garantía GES y trasladas antes de veinticuatro horas."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Calculas el volumen total, y pasas la mitad en las primeras ocho horas desde el accidente, y la otra mitad en las dieciséis horas siguientes."
-    },
-    {
-      "file": "s06_g05",
-      "text": "La escara actúa como un torniquete: cortas de inmediato, sin anestesia, porque el tercer grado ya no siente."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Sin ninguno de esos criterios, el manejo es ambulatorio, con buena analgesia y curaciones oclusivas estériles."
+      "text": "Y la regla de los nueve estima la superficie quemada para calcular los fluidos."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Al calcular la superficie, solo se suma el segundo y el tercer grado. Sumar el eritema de primer grado infla el cálculo y te hace pasar suero de más."
+      "text": "Ahora ordenemos todo el razonamiento del gran quemado en un solo árbol. Llega un paciente quemado. Primero detienes el proceso de la quemadura y enfrías con agua tibia, nunca fría, para no agregar hipotermia."
     },
     {
       "file": "s07_g01",
-      "text": "Las ocho horas de Parkland se cuentan desde el accidente, no desde el ingreso. Contarlas desde el ingreso deja al paciente sub reanimado justo cuando más lo necesita."
+      "text": "Si hay vibrisas chamuscadas, esputo con hollín o disfonía, intubas antes de que el edema avance y ya no puedas."
     },
     {
       "file": "s07_g02",
-      "text": "Un rescatado de incendio con saturación de noventa y ocho por ciento igual puede estar intoxicado con monóxido: pide carboxihemoglobina. Confiar en el saturómetro es el error que más cuesta."
+      "text": "Con la regla de los nueve calculas el porcentaje exacto, sumando solo el segundo y el tercer grado."
     },
     {
       "file": "s07_g03",
-      "text": "Y con una escara circular y pulsos que empiezan a perderse, la escarotomía se hace ya, sin esperar a un especialista que puede llegar tarde."
+      "text": "Con cualquiera de estos criterios, activas la garantía GES y trasladas antes de veinticuatro horas."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Calculas el volumen total, y pasas la mitad en las primeras ocho horas desde el accidente, y la otra mitad en las dieciséis horas siguientes."
+    },
+    {
+      "file": "s07_g05",
+      "text": "La escara actúa como un torniquete: cortas de inmediato, sin anestesia, porque el tercer grado ya no siente."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Sin ninguno de esos criterios, el manejo es ambulatorio, con buena analgesia y curaciones oclusivas estériles."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de veintiocho años con quemaduras por líquido caliente hace tres horas: flictenas húmedas, rosadas y muy dolorosas en todo el tronco anterior y en toda una pierna. Sin compromiso facial ni de la vía aérea, y pesa sesenta kilos."
+      "text": "Repasemos las trampas. Al calcular la superficie, solo se suma el segundo y el tercer grado. Sumar el eritema de primer grado infla el cálculo y te hace pasar suero de más."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Las ocho horas de Parkland se cuentan desde el accidente, no desde el ingreso. Contarlas desde el ingreso deja al paciente sub reanimado justo cuando más lo necesita."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: manejo ambulatorio, calcular Parkland con treinta y seis por ciento y derivar como gran quemada, calcular Parkland con dieciocho por ciento y derivar, dar antibióticos y controlar en dos días, o hacer una escarotomía profiláctica. Piénsalo."
+      "text": "Un rescatado de incendio con saturación de noventa y ocho por ciento igual puede estar intoxicado con monóxido: pide carboxihemoglobina. Confiar en el saturómetro es el error que más cuesta."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Suma la superficie: tronco anterior, dieciocho por ciento, más una pierna completa, otro dieciocho. Son treinta y seis por ciento, muy por encima del veinte que define gran quemado en un adulto. Con ese número calculas Parkland y activas el traslado GES. La escarotomía es la trampa: aquí no hay ninguna escara circular de tercer grado, así que no corresponde."
+      "text": "Y con una escara circular y pulsos que empiezan a perderse, la escarotomía se hace ya, sin esperar a un especialista que puede llegar tarde."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Un niño llega a urgencias con una quemadura en las palmas y los dedos, con eritema importante y ampollas, inquieto e irritable."
+      "text": "Vamos con un caso. Mujer de veintiocho años con quemaduras por líquido caliente hace tres horas: flictenas húmedas, rosadas y muy dolorosas en todo el tronco anterior y en toda una pierna. Sin compromiso facial ni de la vía aérea, y pesa sesenta kilos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta inicial?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: apósitos de plata y hospitalizar, enfriar con agua fría y cubrir, dar analgesia endovenosa, hospitalizar para manejo de quemaduras, o debridar bajo anestesia general de inmediato. Piénsalo."
+      "text": "Tienes cinco opciones: manejo ambulatorio, calcular Parkland con treinta y seis por ciento y derivar como gran quemada, calcular Parkland con dieciocho por ciento y derivar, dar antibióticos y controlar en dos días, o hacer una escarotomía profiláctica. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la C. Antes de medir superficie, antes de curar, lo primero siempre es tratar el dolor: analgesia endovenosa. Y fíjate en el distractor del agua fría: se enfría con agua tibia, nunca fría, porque el agua fría agrega hipotermia a un paciente que ya está perdiendo calor por la piel quemada."
+      "text": "Es la B. Suma la superficie: tronco anterior, dieciocho por ciento, más una pierna completa, otro dieciocho. Son treinta y seis por ciento, muy por encima del veinte que define gran quemado en un adulto. Con ese número calculas Parkland y activas el traslado GES. La escarotomía es la trampa: aquí no hay ninguna escara circular de tercer grado, así que no corresponde."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintisiete años con cefalea, malestar, dificultad para respirar y opresión en el pecho, tres horas después de estar expuesto a humo en un incendio en su casa. Su saturación es noventa y seis por ciento, sin cianosis, y el examen cardiopulmonar es normal."
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Un niño llega a urgencias con una quemadura en las palmas y los dedos, con eritema importante y ampollas, inquieto e irritable."
     },
     {
       "file": "s10_g01",
-      "text": "¿Qué examen confirma la sospecha diagnóstica?"
+      "text": "¿Cuál es la conducta inicial?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: radiografía de tórax, TAC de tórax, niveles de carboxihemoglobina, gases arteriales, o monitorización del anhídrido carbónico. Piénsalo."
+      "text": "Las opciones son: apósitos de plata y hospitalizar, enfriar con agua fría y cubrir, dar analgesia endovenosa, hospitalizar para manejo de quemaduras, o debridar bajo anestesia general de inmediato. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C. Fíjate en la trampa: la saturación sale casi normal, y por eso muchos alumnos descartan la intoxicación. Pero eso es justo lo que vimos: el saturómetro no distingue el monóxido del oxígeno. Los gases arteriales tampoco te sirven, porque la presión de oxígeno sigue normal. Lo único que confirma el diagnóstico es medir la carboxihemoglobina de forma directa."
+      "text": "La respuesta es la C. Antes de medir superficie, antes de curar, lo primero siempre es tratar el dolor: analgesia endovenosa. Y fíjate en el distractor del agua fría: se enfría con agua tibia, nunca fría, porque el agua fría agrega hipotermia a un paciente que ya está perdiendo calor por la piel quemada."
     },
     {
       "file": "s11_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de veinticinco años, encontrada inconsciente en su baño. Glasgow quince, signos vitales casi normales, y una carboxihemoglobina de veinte por ciento."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintisiete años con cefalea, malestar, dificultad para respirar y opresión en el pecho, tres horas después de estar expuesto a humo en un incendio en su casa. Su saturación es noventa y seis por ciento, sin cianosis, y el examen cardiopulmonar es normal."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "¿Qué examen confirma la sospecha diagnóstica?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: oxígeno por naricera de alto flujo, TAC de cerebro, terapia hiperbárica, broncodilatadores inhalados, u oxígeno por mascarilla de no recirculación. Piénsalo."
+      "text": "Las opciones son: radiografía de tórax, TAC de tórax, niveles de carboxihemoglobina, gases arteriales, o monitorización del anhídrido carbónico. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E. El tratamiento siempre parte con oxígeno al cien por ciento en mascarilla de no recirculación, que desplaza al monóxido de la hemoglobina mucho más rápido que el aire ambiental. La cámara hiperbárica es la trampa tentadora, pero se reserva para cuando la carboxihemoglobina pasa de veinticinco por ciento o hay compromiso de conciencia, y aquí no se cumple ninguno de los dos."
+      "text": "Es la C. Fíjate en la trampa: la saturación sale casi normal, y por eso muchos alumnos descartan la intoxicación. Pero eso es justo lo que vimos: el saturómetro no distingue el monóxido del oxígeno. Los gases arteriales tampoco te sirven, porque la presión de oxígeno sigue normal. Lo único que confirma el diagnóstico es medir la carboxihemoglobina de forma directa."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Calcula con Wallace, y nunca sumes el primer grado."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de veinticinco años, encontrada inconsciente en su baño. Glasgow quince, signos vitales casi normales, y una carboxihemoglobina de veinte por ciento."
     },
     {
       "file": "s12_g01",
-      "text": "Y es gran quemado con más de veinte por ciento de superficie, con zonas especiales comprometidas, o con sospecha de inhalación."
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "La mitad del volumen se pasa en las primeras ocho horas contadas desde el accidente."
+      "text": "Las opciones: oxígeno por naricera de alto flujo, TAC de cerebro, terapia hiperbárica, broncodilatadores inhalados, u oxígeno por mascarilla de no recirculación. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la E. El tratamiento siempre parte con oxígeno al cien por ciento en mascarilla de no recirculación, que desplaza al monóxido de la hemoglobina mucho más rápido que el aire ambiental. La cámara hiperbárica es la trampa tentadora, pero se reserva para cuando la carboxihemoglobina pasa de veinticinco por ciento o hay compromiso de conciencia, y aquí no se cumple ninguno de los dos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Calcula con Wallace, y nunca sumes el primer grado."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Y es gran quemado con más de veinte por ciento de superficie, con zonas especiales comprometidas, o con sospecha de inhalación."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La mitad del volumen se pasa en las primeras ocho horas contadas desde el accidente."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y por sobre la fórmula, siempre manda la diuresis horaria."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y no confíes en una saturación normal si hubo un incendio cerrado: pide carboxihemoglobina. Si te llevas una sola idea de hoy: primero calcula bien la superficie, porque de ese número dependen la reposición de volumen y la decisión de derivar. Nos vemos en la próxima clase."
     }
   ]

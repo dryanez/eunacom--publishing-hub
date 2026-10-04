@@ -118,6 +118,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Alopecias',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-04/01_alopecia-areata__cto-derma_p62.jpg', label: 'Alopecia areata', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' },
+        { src: 'biblioteca/11_dermatologia/derma-04/03_tina-capitis__amir-derma_p63.jpg', label: 'Tiña capitis', credit: 'Manual AMIR Dermatología, p. 63' },
+      ],
+      steps: [
+        { note: 'Placas redondas sin pelo',
+          say: 'La alopecia areata forma placas redondas, lisas, sin inflamación.' },
+        { note: 'Placa descamativa en un niño',
+          say: 'Y la tiña capitis, en un niño, deja una placa con descamación y pelos quebrados.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las tres causas no cicatriciales en un solo árbol de decisión.',
     },

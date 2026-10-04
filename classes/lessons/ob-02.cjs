@@ -135,6 +135,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Ecografía del primer trimestre',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-02/02_longitud-craneocaudal__cto-gyo_p117.jpg', label: 'Longitud céfalo-nalgas', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' },
+        { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg', label: 'Translucencia nucal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' },
+      ],
+      steps: [
+        { note: 'Fecha el embarazo',
+          say: 'La longitud céfalo nalgas es el mejor parámetro para fechar el embarazo.' },
+        { note: 'Normal vs aumentada',
+          say: 'Y la translucencia nucal aumentada eleva el riesgo de aneuploidía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos las dos ecografías y sus tratamientos en un solo árbol.',
     },

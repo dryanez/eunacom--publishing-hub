@@ -243,6 +243,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La rodilla con derrame',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-02/01_derrame_rodilla__commons.jpg', label: 'Derrame articular', credit: 'Wikimedia Commons «Knee Effusion.jpg», CC BY-SA 4.0, James Heilman, MD' },
+      ],
+      steps: [
+        { note: 'Rodilla aumentada de volumen',
+          say: 'Esta rodilla está aumentada de volumen por un derrame. Si además hay fiebre y dolor intenso, se punciona de inmediato para descartar una artritis séptica.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Veamos el algoritmo completo de decisiones frente a la sospecha de artritis séptica.',
     },

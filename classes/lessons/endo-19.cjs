@@ -190,6 +190,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Raquitismo',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg', label: 'Rosario raquítico', credit: 'Nelson 22.ª ed., p. 646' },
+        { src: 'biblioteca/05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg', label: 'Muñecas ensanchadas', credit: 'Nelson 22.ª ed., p. 646' },
+        { src: 'biblioteca/05_endocrinologia/endo-19/03_rx_muneca_raquitismo__nelson_p647.jpg', label: 'Radiografía', credit: 'Nelson 22.ª ed., p. 647' },
+      ],
+      steps: [
+        { note: 'Nódulos en las uniones costales',
+          say: 'Estos nódulos a lo largo de las costillas son el rosario raquítico: las uniones entre costilla y cartílago se ensanchan.' },
+        { note: 'Metáfisis anchas',
+          say: 'Las muñecas también se ensanchan.' },
+        { note: 'Metáfisis en copa y deshilachadas',
+          say: 'Y en la radiografía, a la derecha, las metáfisis están ensanchadas, en copa y deshilachadas, comparadas con la muñeca normal a la izquierda.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },

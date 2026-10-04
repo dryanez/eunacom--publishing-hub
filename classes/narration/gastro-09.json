@@ -2,7 +2,7 @@
   "id": "gastro-09",
   "title": "Gastroenterologia 2.3: Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
   "specialty": "Gastroenterología",
-  "chars": 10307,
+  "chars": 10638,
   "segments": [
     {
       "file": "s00_g00",
@@ -94,154 +94,162 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora pongamos todo en un solo árbol de decisión. Diarrea crónica con baja de peso a pesar de comer bien. Hay que confirmar la malabsorción y luego localizarla."
+      "text": "Esto es una dermatitis herpetiforme: pápulas y vesículas agrupadas, excoriadas, en los codos. Es la celíaca de la piel, y responde a la dieta sin gluten."
     },
     {
       "file": "s05_g01",
-      "text": "¿Las deposiciones son brillantes, flotan y huelen mal?"
-    },
-    {
-      "file": "s05_g02",
-      "text": "Diarrea osmótica tras los lácteos, sin esteatorrea: intolerancia a la lactosa. Se confirma con test de hidrógeno espirado y se reduce la lactosa."
-    },
-    {
-      "file": "s05_g03",
-      "text": "El test de Sudán confirma la esteatorrea. El test de D-xilosa nos dice dónde está el problema."
-    },
-    {
-      "file": "s05_g04",
-      "text": "¿La D-xilosa está alterada?"
-    },
-    {
-      "file": "s05_g05",
-      "text": "Alterada significa problema de la pared: pensamos en celíaca. Pedimos anti transglutaminasa IgA junto con IgA total, con el paciente comiendo gluten."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Se confirma con biopsia duodenal, y el único tratamiento es la dieta sin gluten estricta y de por vida."
-    },
-    {
-      "file": "s05_g07",
-      "text": "Normal significa que la pared absorbe bien: el problema es enzimático, pancreático, como la pancreatitis crónica o la fibrosis quística."
+      "text": "Y esta es la biopsia duodenal. A la izquierda, la mucosa plana, sin vellosidades; a la derecha, vellosidades normales para comparar. Esa atrofia es la que confirma la enfermedad."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos en una tabla. D-xilosa alterada, con baja excreción en la orina: el problema es la pared, como en la celíaca, el Crohn o el intestino corto."
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Diarrea crónica con baja de peso a pesar de comer bien. Hay que confirmar la malabsorción y luego localizarla."
     },
     {
       "file": "s06_g01",
-      "text": "D-xilosa normal: la pared absorbe, faltan enzimas. Pancreatitis crónica o fibrosis quística."
+      "text": "¿Las deposiciones son brillantes, flotan y huelen mal?"
     },
     {
       "file": "s06_g02",
-      "text": "Anticuerpos celíacos negativos, pero la clínica es muy sugerente: mira la IgA total, porque su déficit da falsos negativos."
+      "text": "Diarrea osmótica tras los lácteos, sin esteatorrea: intolerancia a la lactosa. Se confirma con test de hidrógeno espirado y se reduce la lactosa."
     },
     {
       "file": "s06_g03",
-      "text": "Intolerancia a la lactosa: diarrea osmótica sin esteatorrea, y aquí la leche sin lactosa sí sirve."
+      "text": "El test de Sudán confirma la esteatorrea. El test de D-xilosa nos dice dónde está el problema."
     },
     {
       "file": "s06_g04",
-      "text": "Y galactosemia: recién nacido con cataratas e ictericia. Fórmula de soya, y la leche sin lactosa, prohibida. Es la misma leche, pero en un cuadro sirve y en el otro está contraindicada."
+      "text": "¿La D-xilosa está alterada?"
+    },
+    {
+      "file": "s06_g05",
+      "text": "Alterada significa problema de la pared: pensamos en celíaca. Pedimos anti transglutaminasa IgA junto con IgA total, con el paciente comiendo gluten."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Se confirma con biopsia duodenal, y el único tratamiento es la dieta sin gluten estricta y de por vida."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Normal significa que la pared absorbe bien: el problema es enzimático, pancreático, como la pancreatitis crónica o la fibrosis quística."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos al caso. Mujer de treinta años con diarrea crónica, distensión y una baja de seis kilos en un año. Tiene una anemia ferropénica que no ha respondido a cuatro meses de hierro oral bien tolerado. El test de D-xilosa sale alterado."
+      "text": "Repasemos en una tabla. D-xilosa alterada, con baja excreción en la orina: el problema es la pared, como en la celíaca, el Crohn o el intestino corto."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el siguiente paso más adecuado?"
+      "text": "D-xilosa normal: la pared absorbe, faltan enzimas. Pancreatitis crónica o fibrosis quística."
     },
     {
       "file": "s07_g02",
-      "text": "Las alternativas: anticuerpos anti transglutaminasa con IgA total manteniendo el gluten, iniciar dieta sin gluten, buscar insuficiencia pancreática, test de hidrógeno espirado, o cambiar a hierro endovenoso. Piénsalo."
+      "text": "Anticuerpos celíacos negativos, pero la clínica es muy sugerente: mira la IgA total, porque su déficit da falsos negativos."
     },
     {
       "file": "s07_g03",
-      "text": "Es la A. D-xilosa alterada significa pared, y una anemia ferropénica que no responde al hierro oral te grita celíaca. Se piden los anticuerpos con la IgA total, y después la biopsia. La trampa es la B: si le quitas el gluten antes de estudiar, pierdes el diagnóstico. Y buscar el páncreas no tiene sentido con una D-xilosa alterada."
+      "text": "Intolerancia a la lactosa: diarrea osmótica sin esteatorrea, y aquí la leche sin lactosa sí sirve."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y galactosemia: recién nacido con cataratas e ictericia. Fórmula de soya, y la leche sin lactosa, prohibida. Es la misma leche, pero en un cuadro sirve y en el otro está contraindicada."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de veinticuatro años con amenorrea y baja de peso, con náuseas y dolor abdominal de varios meses. Tiene una hermana gemela con hipotiroidismo. Sus exámenes muestran anemia, con las transaminasas GOT y GPT levemente elevadas."
+      "text": "Vamos al caso. Mujer de treinta años con diarrea crónica, distensión y una baja de seis kilos en un año. Tiene una anemia ferropénica que no ha respondido a cuatro meses de hierro oral bien tolerado. El test de D-xilosa sale alterado."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
+      "text": "¿Cuál es el siguiente paso más adecuado?"
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: IgM para hepatitis A, biopsia hepática, colonoscopía, ecografía abdominal, o anticuerpos antitransglutaminasa. Piénsalo."
+      "text": "Las alternativas: anticuerpos anti transglutaminasa con IgA total manteniendo el gluten, iniciar dieta sin gluten, buscar insuficiencia pancreática, test de hidrógeno espirado, o cambiar a hierro endovenoso. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la E. Las transaminasas elevadas tientan hacia la hepatitis, pero no explican la amenorrea ni la baja de peso. Una mujer joven con antecedente familiar de una enfermedad autoinmune, como el hipotiroidismo de su hermana, y esta combinación de síntomas digestivos y carenciales, apunta a la enfermedad celíaca: se piden los anticuerpos antitransglutaminasa."
+      "text": "Es la A. D-xilosa alterada significa pared, y una anemia ferropénica que no responde al hierro oral te grita celíaca. Se piden los anticuerpos con la IgA total, y después la biopsia. La trampa es la B: si le quitas el gluten antes de estudiar, pierdes el diagnóstico. Y buscar el páncreas no tiene sentido con una D-xilosa alterada."
     },
     {
       "file": "s09_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de treinta años, con hipotiroidismo en tratamiento, con tres meses de diarrea sin sangre, baja de peso y dolor en las articulaciones. Al examen tiene lesiones que dan picazón y forman ampollas pequeñas, en el tronco y las extremidades."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Mujer de veinticuatro años con amenorrea y baja de peso, con náuseas y dolor abdominal de varios meses. Tiene una hermana gemela con hipotiroidismo. Sus exámenes muestran anemia, con las transaminasas GOT y GPT levemente elevadas."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las alternativas: colitis ulcerosa, enfermedad celíaca, enfermedad de Crohn, lupus, o trastorno digestivo funcional. Piénsalo."
+      "text": "Las alternativas: IgM para hepatitis A, biopsia hepática, colonoscopía, ecografía abdominal, o anticuerpos antitransglutaminasa. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, enfermedad celíaca. La diarrea con baja de peso podría ser cualquiera de las enfermedades inflamatorias intestinales, pero la lesión de piel es la clave: es una dermatitis herpetiforme, una erupción que da picazón y ampollas pequeñas, y que se asocia de forma específica a la celíaca. El Crohn y la colitis ulcerosa dan otras lesiones de piel, como el eritema nodoso."
+      "text": "Es la E. Las transaminasas elevadas tientan hacia la hepatitis, pero no explican la amenorrea ni la baja de peso. Una mujer joven con antecedente familiar de una enfermedad autoinmune, como el hipotiroidismo de su hermana, y esta combinación de síntomas digestivos y carenciales, apunta a la enfermedad celíaca: se piden los anticuerpos antitransglutaminasa."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Paciente celíaco que lleva un año con dieta sin gluten, que dice seguir de forma estricta, pero persiste con diarrea y baja de peso. Los anticuerpos anti transglutaminasa están negativos."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de treinta años, con hipotiroidismo en tratamiento, con tres meses de diarrea sin sangre, baja de peso y dolor en las articulaciones. Al examen tiene lesiones que dan picazón y forman ampollas pequeñas, en el tronco y las extremidades."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la sospecha diagnóstica?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: transgresión oculta de la dieta, linfoma T asociado a enteropatía, intolerancia a la lactosa secundaria, intestino irritable sobreagregado, o giardiasis crónica. Piénsalo."
+      "text": "Las alternativas: colitis ulcerosa, enfermedad celíaca, enfermedad de Crohn, lupus, o trastorno digestivo funcional. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la B. La A es la más tentadora, porque la transgresión es la causa más frecuente de falta de respuesta. Pero si transgrede, los anticuerpos siguen positivos. Aquí están negativos, o sea, cumple. Y un celíaco que cumple y sigue malabsorbiendo tiene un linfoma hasta demostrar lo contrario."
+      "text": "Es la B, enfermedad celíaca. La diarrea con baja de peso podría ser cualquiera de las enfermedades inflamatorias intestinales, pero la lesión de piel es la clave: es una dermatitis herpetiforme, una erupción que da picazón y ampollas pequeñas, y que se asocia de forma específica a la celíaca. El Crohn y la colitis ulcerosa dan otras lesiones de piel, como el eritema nodoso."
     },
     {
       "file": "s11_g00",
-      "text": "Y otra del mismo banco. Recién nacido de doce días con ictericia prolongada, hepatomegalia, mal incremento de peso y cataratas bilaterales."
+      "text": "Ahora una pregunta del banco EUNACOM. Paciente celíaco que lleva un año con dieta sin gluten, que dice seguir de forma estricta, pero persiste con diarrea y baja de peso. Los anticuerpos anti transglutaminasa están negativos."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el tratamiento nutricional indicado?"
+      "text": "¿Cuál es la sospecha diagnóstica?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: mantener la lactancia exclusiva, fórmula sin lactosa, fórmula de soya, fórmula extensamente hidrolizada, o lactasa oral con leche materna. Piénsalo."
+      "text": "Las opciones: transgresión oculta de la dieta, linfoma T asociado a enteropatía, intolerancia a la lactosa secundaria, intestino irritable sobreagregado, o giardiasis crónica. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, fórmula de soya. Cataratas e ictericia en un recién nacido es galactosemia, y hay que sacar toda la galactosa. La B es la trampa exacta que vimos: la fórmula sin lactosa trae la lactosa ya partida en glucosa y galactosa, así que igual le das galactosa. Lo mismo pasa con la lactasa de la E."
+      "text": "La respuesta es la B. La A es la más tentadora, porque la transgresión es la causa más frecuente de falta de respuesta. Pero si transgrede, los anticuerpos siguen positivos. Aquí están negativos, o sea, cumple. Y un celíaco que cumple y sigue malabsorbiendo tiene un linfoma hasta demostrar lo contrario."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. El Sudán confirma la esteatorrea, y la D-xilosa la localiza: alterada es pared, normal es páncreas."
+      "text": "Y otra del mismo banco. Recién nacido de doce días con ictericia prolongada, hepatomegalia, mal incremento de peso y cataratas bilaterales."
     },
     {
       "file": "s12_g01",
-      "text": "Anemia ferropénica que no responde al hierro oral: descarta celíaca."
+      "text": "¿Cuál es el tratamiento nutricional indicado?"
     },
     {
       "file": "s12_g02",
-      "text": "El estudio es anti transglutaminasa con IgA total y biopsia duodenal, con el paciente comiendo gluten. El tratamiento, dieta sin gluten de por vida."
+      "text": "Las opciones: mantener la lactancia exclusiva, fórmula sin lactosa, fórmula de soya, fórmula extensamente hidrolizada, o lactasa oral con leche materna. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C, fórmula de soya. Cataratas e ictericia en un recién nacido es galactosemia, y hay que sacar toda la galactosa. La B es la trampa exacta que vimos: la fórmula sin lactosa trae la lactosa ya partida en glucosa y galactosa, así que igual le das galactosa. Lo mismo pasa con la lactasa de la E."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. El Sudán confirma la esteatorrea, y la D-xilosa la localiza: alterada es pared, normal es páncreas."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Anemia ferropénica que no responde al hierro oral: descarta celíaca."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El estudio es anti transglutaminasa con IgA total y biopsia duodenal, con el paciente comiendo gluten. El tratamiento, dieta sin gluten de por vida."
+    },
+    {
+      "file": "s13_g03",
       "text": "Si no responde y los anticuerpos son negativos, piensa en linfoma."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y en la galactosemia, fórmula de soya, nunca leche sin lactosa. Si te llevas una sola idea de hoy: la D-xilosa te dice si el problema es la pared o el páncreas. Nos vemos en la próxima clase."
     }
   ]

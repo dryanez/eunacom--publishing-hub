@@ -2,7 +2,7 @@
   "id": "gin-03",
   "title": "Ginecologia 20.3: Sangrado Uterino Anormal (SUA): Clasificación FIGO PALM-COEIN, Estudio con Biopsia Endometrial y Manejo",
   "specialty": "Ginecología",
-  "chars": 11644,
+  "chars": 11865,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,99 +106,87 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora armemos en un solo árbol la decisión que más se pregunta: cuándo biopsiar. Descartado el embarazo y una causa cervical o vaginal, la pregunta central es una sola: ¿esta paciente necesita biopsia de endometrio antes de tratar?"
-    },
-    {
-      "file": "s07_g01",
-      "text": "La edad por sí sola ya decide gran parte de la conducta."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Antes de cualquier tratamiento hormonal, hay que descartar hiperplasia con atipias o cáncer de endometrio."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Sin cumplir la edad, hay que revisar los factores de riesgo de cáncer de endometrio."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Antes de cualquier tratamiento hormonal, hay que descartar hiperplasia con atipias o cáncer de endometrio."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Sin factores de riesgo y con ecografía tranquilizadora, se puede iniciar tratamiento médico y observar la respuesta."
+      "text": "PALM agrupa las causas estructurales, que se ven en la ecografía o la biopsia: pólipo, adenomiosis, leiomioma y malignidad. COEIN, las no estructurales: coagulopatía, ovulatoria, endometrial, iatrogénica y no clasificada."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las nueve letras de PALM-COEIN. P, pólipo endometrial, estructural."
+      "text": "Ahora armemos en un solo árbol la decisión que más se pregunta: cuándo biopsiar. Descartado el embarazo y una causa cervical o vaginal, la pregunta central es una sola: ¿esta paciente necesita biopsia de endometrio antes de tratar?"
     },
     {
       "file": "s08_g01",
-      "text": "A, adenomiosis, estructural."
+      "text": "La edad por sí sola ya decide gran parte de la conducta."
     },
     {
       "file": "s08_g02",
-      "text": "L, leiomioma, estructural."
+      "text": "Antes de cualquier tratamiento hormonal, hay que descartar hiperplasia con atipias o cáncer de endometrio."
     },
     {
       "file": "s08_g03",
-      "text": "M, malignidad e hiperplasia, la que siempre hay que descartar."
+      "text": "Sin cumplir la edad, hay que revisar los factores de riesgo de cáncer de endometrio."
     },
     {
       "file": "s08_g04",
-      "text": "C, coagulopatía, como el von Willebrand."
+      "text": "Antes de cualquier tratamiento hormonal, hay que descartar hiperplasia con atipias o cáncer de endometrio."
     },
     {
       "file": "s08_g05",
-      "text": "O, disfunción ovulatoria, como en el ovario poliquístico."
-    },
-    {
-      "file": "s08_g06",
-      "text": "E, causa endometrial, un diagnóstico de exclusión."
-    },
-    {
-      "file": "s08_g07",
-      "text": "I, iatrogénica, por dispositivos o fármacos."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Y N, no clasificada, para causas raras como una malformación arteriovenosa uterina."
+      "text": "Sin factores de riesgo y con ecografía tranquilizadora, se puede iniciar tratamiento médico y observar la respuesta."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Mujer de cuarenta y seis años, sin antecedentes, con cinco meses de menstruaciones abundantes y con coágulos, cada veintiuno a veinticinco días. Su hemoglobina es diez con uno. La especuloscopía es normal, y la ecografía muestra un útero normal, sin miomas, con un endometrio de nueve milímetros, regular."
+      "text": "Repasemos las nueve letras de PALM-COEIN. P, pólipo endometrial, estructural."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada antes de iniciar cualquier tratamiento hormonal?"
+      "text": "A, adenomiosis, estructural."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: instalar un DIU con levonorgestrel de inmediato, hacer una biopsia de endometrio con Pipelle, dar ácido tranexámico y controlar en un año, hacer una histerectomía, u observar con calendario menstrual. Piénsalo."
+      "text": "L, leiomioma, estructural."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Esta paciente tiene cuarenta y seis años, así que ya está en el grupo que se biopsia siempre, sin importar que la ecografía se vea tranquila. Instalar el DIU o dar un tratamiento hormonal sin ese paso previo podría retrasar el diagnóstico de una hiperplasia o un cáncer de endometrio. La observación y la histerectomía sin diagnóstico también quedan descartadas."
+      "text": "M, malignidad e hiperplasia, la que siempre hay que descartar."
+    },
+    {
+      "file": "s09_g04",
+      "text": "C, coagulopatía, como el von Willebrand."
+    },
+    {
+      "file": "s09_g05",
+      "text": "O, disfunción ovulatoria, como en el ovario poliquístico."
+    },
+    {
+      "file": "s09_g06",
+      "text": "E, causa endometrial, un diagnóstico de exclusión."
+    },
+    {
+      "file": "s09_g07",
+      "text": "I, iatrogénica, por dispositivos o fármacos."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Y N, no clasificada, para causas raras como una malformación arteriovenosa uterina."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil veintidós. Paciente de cuarenta y ocho años, con sangrado que no cesa desde hace dos semanas. La ecografía muestra un endometrio de diecinueve milímetros de grosor, sin otras alteraciones. Su PAP es normal, y el test de embarazo es negativo."
+      "text": "Vamos con un caso. Mujer de cuarenta y seis años, sin antecedentes, con cinco meses de menstruaciones abundantes y con coágulos, cada veintiuno a veinticinco días. Su hemoglobina es diez con uno. La especuloscopía es normal, y la ecografía muestra un útero normal, sin miomas, con un endometrio de nueve milímetros, regular."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta más adecuada antes de iniciar cualquier tratamiento hormonal?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: histerectomía, ácido tranexámico endovenoso, estrógenos inyectables, anticonceptivos combinados, o biopsia de endometrio. Piénsalo."
+      "text": "Las opciones: instalar un DIU con levonorgestrel de inmediato, hacer una biopsia de endometrio con Pipelle, dar ácido tranexámico y controlar en un año, hacer una histerectomía, u observar con calendario menstrual. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E. Dos razones apuntan al mismo lugar: la edad, sobre cuarenta y cinco años, y un endometrio muy engrosado en la ecografía. Antes de tratar el sangrado con cualquier hormona, hay que biopsiar. Los tratamientos hormonales sin ese paso son el error clásico de esta pregunta."
+      "text": "Es la B. Esta paciente tiene cuarenta y seis años, así que ya está en el grupo que se biopsia siempre, sin importar que la ecografía se vea tranquila. Instalar el DIU o dar un tratamiento hormonal sin ese paso previo podría retrasar el diagnóstico de una hiperplasia o un cáncer de endometrio. La observación y la histerectomía sin diagnóstico también quedan descartadas."
     },
     {
       "file": "s11_g00",
-      "text": "Esta es del EUNACOM de diciembre de dos mil veinticinco. Mujer de cincuenta y cinco años, con menopausia a los cincuenta y uno, que usa estrógenos en parche como terapia de reemplazo hormonal, y consulta por cinco días de sangrado genital. Sus signos vitales son normales, y la especuloscopía no muestra sangrado activo ni lesiones del cuello."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil veintidós. Paciente de cuarenta y ocho años, con sangrado que no cesa desde hace dos semanas. La ecografía muestra un endometrio de diecinueve milímetros de grosor, sin otras alteraciones. Su PAP es normal, y el test de embarazo es negativo."
     },
     {
       "file": "s11_g01",
@@ -206,15 +194,15 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: histerectomía, aumentar la dosis de estrógenos, iniciar anticonceptivos, pedir biopsia de endometrio, o dar ácido tranexámico oral. Piénsalo."
+      "text": "Las opciones: histerectomía, ácido tranexámico endovenoso, estrógenos inyectables, anticonceptivos combinados, o biopsia de endometrio. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D. Toda metrorragia en la postmenopausia se estudia, incluso en una paciente con terapia de reemplazo hormonal, donde el umbral ecográfico para biopsiar es un poco más alto que en quien no la usa. Pero el sangrado clínico igual obliga a la biopsia. Aumentar los estrógenos o dar anticonceptivos sin diagnóstico es exactamente el error que esta pregunta busca detectar."
+      "text": "Es la E. Dos razones apuntan al mismo lugar: la edad, sobre cuarenta y cinco años, y un endometrio muy engrosado en la ecografía. Antes de tratar el sangrado con cualquier hormona, hay que biopsiar. Los tratamientos hormonales sin ese paso son el error clásico de esta pregunta."
     },
     {
       "file": "s12_g00",
-      "text": "Y esta es del EUNACOM de julio de dos mil dieciséis. Adolescente de quince años, con hipermenorrea y sangrado entre reglas. La ecografía transvaginal no muestra lesiones ni alteraciones del útero ni de los ovarios, con un endometrio delgado. El hemograma muestra anemia leve, con blancos y plaquetas normales."
+      "text": "Esta es del EUNACOM de diciembre de dos mil veinticinco. Mujer de cincuenta y cinco años, con menopausia a los cincuenta y uno, que usa estrógenos en parche como terapia de reemplazo hormonal, y consulta por cinco días de sangrado genital. Sus signos vitales son normales, y la especuloscopía no muestra sangrado activo ni lesiones del cuello."
     },
     {
       "file": "s12_g01",
@@ -222,15 +210,15 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: biopsia de endometrio, estudio de hemostasia, estudio de trombofilias, resonancia de abdomen y pelvis, o endosonografía uterina. Piénsalo."
+      "text": "Las opciones: histerectomía, aumentar la dosis de estrógenos, iniciar anticonceptivos, pedir biopsia de endometrio, o dar ácido tranexámico oral. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B. A esta edad, con una ecografía sin causa estructural, toda adolescente con aumento del flujo menstrual se estudia con hemostasia, buscando una enfermedad de von Willebrand: es la letra C de coagulopatía en la clasificación de la FIGO. La biopsia de endometrio no tiene ningún rol aquí, porque el cáncer de endometrio es excepcional a esta edad, y el endometrio es delgado."
+      "text": "Es la D. Toda metrorragia en la postmenopausia se estudia, incluso en una paciente con terapia de reemplazo hormonal, donde el umbral ecográfico para biopsiar es un poco más alto que en quien no la usa. Pero el sangrado clínico igual obliga a la biopsia. Aumentar los estrógenos o dar anticonceptivos sin diagnóstico es exactamente el error que esta pregunta busca detectar."
     },
     {
       "file": "s13_g00",
-      "text": "Y la última, del EUNACOM de enero de dos mil veintitrés. Mujer con sangrado intermenstrual, en quien la ecografía muestra un pólipo endometrial de quince milímetros."
+      "text": "Y esta es del EUNACOM de julio de dos mil dieciséis. Adolescente de quince años, con hipermenorrea y sangrado entre reglas. La ecografía transvaginal no muestra lesiones ni alteraciones del útero ni de los ovarios, con un endometrio delgado. El hemograma muestra anemia leve, con blancos y plaquetas normales."
     },
     {
       "file": "s13_g01",
@@ -238,46 +226,62 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: legrado uterino, anticonceptivos orales, seguimiento ecográfico en seis meses, histeroscopía, o histerectomía. Piénsalo."
+      "text": "Las opciones: biopsia de endometrio, estudio de hemostasia, estudio de trombofilias, resonancia de abdomen y pelvis, o endosonografía uterina. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D. El pólipo es la P de PALM-COEIN, la causa estructural más frecuente de sangrado intermenstrual, y su tratamiento de elección es la resección guiada por histeroscopía, que extirpa el pólipo completo y lo manda a estudio histológico. El legrado a ciegas puede dejarlo sin resecar del todo, y las otras opciones no tratan la causa."
+      "text": "Es la B. A esta edad, con una ecografía sin causa estructural, toda adolescente con aumento del flujo menstrual se estudia con hemostasia, buscando una enfermedad de von Willebrand: es la letra C de coagulopatía en la clasificación de la FIGO. La biopsia de endometrio no tiene ningún rol aquí, porque el cáncer de endometrio es excepcional a esta edad, y el endometrio es delgado."
     },
     {
       "file": "s14_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil veinticinco, para cerrar con la urgencia. Mujer de cincuenta y cinco años, postmenopáusica, con miomas conocidos, que llega a urgencias con sangrado uterino severo, presión noventa sobre sesenta y frecuencia cardíaca de ciento dieciocho."
+      "text": "Y la última, del EUNACOM de enero de dos mil veintitrés. Mujer con sangrado intermenstrual, en quien la ecografía muestra un pólipo endometrial de quince milímetros."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el manejo inmediato?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: estabilizar más histerectomía de urgencia, ácido tranexámico y observar, progestágenos en dosis alta, embolización electiva, o solo transfundir y dar de alta. Piénsalo."
+      "text": "Las opciones: legrado uterino, anticonceptivos orales, seguimiento ecográfico en seis meses, histeroscopía, o histerectomía. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la A. Esta paciente ya no está en la fase de escalar tratamientos médicos: tiene hipotensión y taquicardia, signos de inestabilidad franca. La prioridad es estabilizar con volumen y transfusión, y el manejo definitivo es la histerectomía de urgencia. Observar, dar solo ácido tranexámico, o programar algo electivo, subestima la gravedad del cuadro."
+      "text": "Es la D. El pólipo es la P de PALM-COEIN, la causa estructural más frecuente de sangrado intermenstrual, y su tratamiento de elección es la resección guiada por histeroscopía, que extirpa el pólipo completo y lo manda a estudio histológico. El legrado a ciegas puede dejarlo sin resecar del todo, y las otras opciones no tratan la causa."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las reglas de oro. PALM son las causas estructurales, y COEIN las no estructurales."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil veinticinco, para cerrar con la urgencia. Mujer de cincuenta y cinco años, postmenopáusica, con miomas conocidos, que llega a urgencias con sangrado uterino severo, presión noventa sobre sesenta y frecuencia cardíaca de ciento dieciocho."
     },
     {
       "file": "s15_g01",
-      "text": "La M, de malignidad, es la letra que siempre hay que descartar en la mujer de mayor edad."
+      "text": "¿Cuál es el manejo inmediato?"
     },
     {
       "file": "s15_g02",
-      "text": "La biopsia de endometrio es obligatoria desde los cuarenta y cinco años, y en cualquier sangrado de la postmenopausia."
+      "text": "Las opciones: estabilizar más histerectomía de urgencia, ácido tranexámico y observar, progestágenos en dosis alta, embolización electiva, o solo transfundir y dar de alta. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la A. Esta paciente ya no está en la fase de escalar tratamientos médicos: tiene hipotensión y taquicardia, signos de inestabilidad franca. La prioridad es estabilizar con volumen y transfusión, y el manejo definitivo es la histerectomía de urgencia. Observar, dar solo ácido tranexámico, o programar algo electivo, subestima la gravedad del cuadro."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. PALM son las causas estructurales, y COEIN las no estructurales."
+    },
+    {
+      "file": "s16_g01",
+      "text": "La M, de malignidad, es la letra que siempre hay que descartar en la mujer de mayor edad."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La biopsia de endometrio es obligatoria desde los cuarenta y cinco años, y en cualquier sangrado de la postmenopausia."
+    },
+    {
+      "file": "s16_g03",
       "text": "Y también en la menor de cuarenta y cinco con factores de riesgo."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "Y el tratamiento médico más eficaz, una vez descartada la malignidad, es el DIU liberador de levonorgestrel. Si te llevas una sola idea de hoy: antes de tratar, pregúntate si esta paciente necesita biopsia. Nos vemos en la próxima clase, con la patología benigna del útero."
     }
   ]

@@ -111,6 +111,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Lesiones del párpado',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg', label: 'Chalazión', credit: 'Kanski, p. 16' },
+        { src: 'biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg', label: 'Orzuelo', credit: 'Manual AMIR Oftalmología, p. 57' },
+        { src: 'biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis__amir-oftalmo_p53.jpg', label: 'Dacriocistitis', credit: 'Manual AMIR Oftalmología, p. 53' },
+      ],
+      steps: [
+        { note: 'Nódulo indoloro',
+          say: 'El chalazión es un nódulo indoloro: un granuloma.' },
+        { note: 'Doloroso, infeccioso',
+          say: 'El orzuelo duele, porque es una infección.' },
+        { note: 'Saco lagrimal inflamado',
+          say: 'Y la dacriocistitis inflama el saco lagrimal, junto a la nariz.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos los cuatro cuadros en un solo árbol: localización, dolor, y qué hacer.',
     },

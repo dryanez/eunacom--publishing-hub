@@ -2,7 +2,7 @@
   "id": "hem-13",
   "title": "Hematología 8.13: Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
   "specialty": "Hematología",
-  "chars": 16428,
+  "chars": 16565,
   "segments": [
     {
       "file": "s00_g00",
@@ -194,111 +194,99 @@
     },
     {
       "file": "s12_g00",
-      "text": "Juntemos todo en un árbol: desde cómo sangra el paciente hasta qué le infundes. Paciente con una tendencia hereditaria al sangrado, con plaquetas y TP normales."
-    },
-    {
-      "file": "s12_g01",
-      "text": "La primera pregunta es clínica: ¿sangra en articulaciones y músculos, o en piel y mucosas?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Hemartrosis y hematomas profundos en un varón, con TTPK francamente largo que corrige con la mezcla: sospecha de hemofilia. Dosificas factores ocho y nueve."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Factor ocho bajo: hemofilia A. Ante un sangrado, concentrado de factor ocho de inmediato: treinta unidades por kilo en una hemartrosis, cincuenta si es del sistema nervioso central."
-    },
-    {
-      "file": "s12_g04",
-      "text": "Factor nueve bajo: hemofilia B. Concentrado de factor nueve, cuarenta a cincuenta unidades por kilo en una hemartrosis. El factor ocho no sirve."
-    },
-    {
-      "file": "s12_g05",
-      "text": "Epistaxis, menorragia y equimosis, en hombres o mujeres, con TTPK normal o levemente largo: pides el perfil de von Willebrand."
-    },
-    {
-      "file": "s12_g06",
-      "text": "Tipo uno, el más frecuente: desmopresina para procedimientos menores y sangrado de mucosas, con ácido tranexámico de apoyo."
-    },
-    {
-      "file": "s12_g07",
-      "text": "Sangrado grave, o tipos dos y tres: concentrado de factor ocho con von Willebrand. El tipo tres puede dar hemartrosis, como una hemofilia severa."
+      "text": "Este dibujo histórico muestra la rodilla de un hemofílico, destruida por sangrados repetidos. La hemartrosis es el sello de la hemofilia."
     },
     {
       "file": "s13_g00",
-      "text": "Repasemos lo que más se pregunta. Herencia: la hemofilia es recesiva ligada al X y afecta a varones; el von Willebrand es autosómico dominante y afecta a ambos sexos. Una mujer joven con sangrado de mucosas es von Willebrand hasta demostrar lo contrario."
+      "text": "Juntemos todo en un árbol: desde cómo sangra el paciente hasta qué le infundes. Paciente con una tendencia hereditaria al sangrado, con plaquetas y TP normales."
     },
     {
       "file": "s13_g01",
-      "text": "Cómo sangra: la hemofilia da hemartrosis y hematomas profundos; el von Willebrand, sangrado de mucosas."
+      "text": "La primera pregunta es clínica: ¿sangra en articulaciones y músculos, o en piel y mucosas?"
     },
     {
       "file": "s13_g02",
-      "text": "El TP y las plaquetas son normales en los dos. Por ahí no los vas a distinguir."
+      "text": "Hemartrosis y hematomas profundos en un varón, con TTPK francamente largo que corrige con la mezcla: sospecha de hemofilia. Dosificas factores ocho y nueve."
     },
     {
       "file": "s13_g03",
-      "text": "El TTPK: francamente largo en la hemofilia; normal o apenas largo en el von Willebrand. La palabra levemente en el enunciado te orienta al von Willebrand."
+      "text": "Factor ocho bajo: hemofilia A. Ante un sangrado, concentrado de factor ocho de inmediato: treinta unidades por kilo en una hemartrosis, cincuenta si es del sistema nervioso central."
     },
     {
       "file": "s13_g04",
-      "text": "El examen que confirma: factores ocho y nueve en la hemofilia; el perfil de von Willebrand en el von Willebrand."
+      "text": "Factor nueve bajo: hemofilia B. Concentrado de factor nueve, cuarenta a cincuenta unidades por kilo en una hemartrosis. El factor ocho no sirve."
     },
     {
       "file": "s13_g05",
-      "text": "Y el tratamiento: concentrado del factor que falta en la hemofilia, cubierto por el GES; desmopresina en el von Willebrand tipo uno."
+      "text": "Epistaxis, menorragia y equimosis, en hombres o mujeres, con TTPK normal o levemente largo: pides el perfil de von Willebrand."
+    },
+    {
+      "file": "s13_g06",
+      "text": "Tipo uno, el más frecuente: desmopresina para procedimientos menores y sangrado de mucosas, con ácido tranexámico de apoyo."
+    },
+    {
+      "file": "s13_g07",
+      "text": "Sangrado grave, o tipos dos y tres: concentrado de factor ocho con von Willebrand. El tipo tres puede dar hemartrosis, como una hemofilia severa."
     },
     {
       "file": "s14_g00",
-      "text": "Vamos con un caso. Niño de cinco años con dolor intenso y aumento de volumen de la rodilla derecha, seis horas después de una caída menor. La rodilla está caliente, a tensión y fija en flexión. Un tío materno murió joven por una enfermedad de la sangre. Plaquetas y TP normales, TTPK de sesenta y dos segundos, con un control de veintinueve. Y el médico de turno pide una jeringa para puncionar la rodilla."
+      "text": "Repasemos lo que más se pregunta. Herencia: la hemofilia es recesiva ligada al X y afecta a varones; el von Willebrand es autosómico dominante y afecta a ambos sexos. Una mujer joven con sangrado de mucosas es von Willebrand hasta demostrar lo contrario."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Cómo sangra: la hemofilia da hemartrosis y hematomas profundos; el von Willebrand, sangrado de mucosas."
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones son: puncionar la rodilla, ibuprofeno e inmovilizar, infundir factor ocho de inmediato, pedir una radiografía antes de decidir, o desmopresina. Piénsalo."
+      "text": "El TP y las plaquetas son normales en los dos. Por ahí no los vas a distinguir."
     },
     {
       "file": "s14_g03",
-      "text": "La respuesta es la C. Varón, tío materno, hemartrosis y TTPK largo aislado: es una hemofilia, y lo estadísticamente más probable es la A. Se infunde factor ocho de inmediato, cerca de treinta unidades por kilo para llevarlo al cincuenta por ciento, se inmoviliza y se aplica frío. El distractor es justamente lo que pidió el médico de turno: puncionar la rodilla aumenta el sangrado y la infecta. El ibuprofeno está prohibido, y no se espera la radiografía."
+      "text": "El TTPK: francamente largo en la hemofilia; normal o apenas largo en el von Willebrand. La palabra levemente en el enunciado te orienta al von Willebrand."
+    },
+    {
+      "file": "s14_g04",
+      "text": "El examen que confirma: factores ocho y nueve en la hemofilia; el perfil de von Willebrand en el von Willebrand."
+    },
+    {
+      "file": "s14_g05",
+      "text": "Y el tratamiento: concentrado del factor que falta en la hemofilia, cubierto por el GES; desmopresina en el von Willebrand tipo uno."
     },
     {
       "file": "s15_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés. Niño con equimosis frecuentes, TTPA prolongado al triple, y un hermano que murió por una hemorragia intracraneana."
+      "text": "Vamos con un caso. Niño de cinco años con dolor intenso y aumento de volumen de la rodilla derecha, seis horas después de una caída menor. La rodilla está caliente, a tensión y fija en flexión. Un tío materno murió joven por una enfermedad de la sangre. Plaquetas y TP normales, TTPK de sesenta y dos segundos, con un control de veintinueve. Y el médico de turno pide una jeringa para puncionar la rodilla."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es el examen para el diagnóstico?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones son: tiempo de sangría, recuento y función plaquetaria, factor de von Willebrand y cofactor de ristocetina, proteínas C y S, o factores ocho y nueve. Piénsalo."
+      "text": "Las opciones son: puncionar la rodilla, ibuprofeno e inmovilizar, infundir factor ocho de inmediato, pedir una radiografía antes de decidir, o desmopresina. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la E, factores ocho y nueve. Un varón, con un hermano muerto por hemorragia, y un TTPA al triple: eso es hemofilia hasta demostrar lo contrario. Y la hemofilia se confirma, y se distingue la A de la B, dosificando los factores. El distractor es el perfil de von Willebrand, que también está en el tema; pero el von Willebrand alarga el TTPA levemente, no al triple. Las proteínas C y S son de trombofilia."
+      "text": "La respuesta es la C. Varón, tío materno, hemartrosis y TTPK largo aislado: es una hemofilia, y lo estadísticamente más probable es la A. Se infunde factor ocho de inmediato, cerca de treinta unidades por kilo para llevarlo al cincuenta por ciento, se inmoviliza y se aplica frío. El distractor es justamente lo que pidió el médico de turno: puncionar la rodilla aumenta el sangrado y la infecta. El ibuprofeno está prohibido, y no se espera la radiografía."
     },
     {
       "file": "s16_g00",
-      "text": "Otra del mismo examen, enero de dos mil veintitrés. Paciente con epistaxis, equimosis y gingivorragias frecuentes. En la familia hay epistaxis y menorragias. Y el TTPA está levemente prolongado."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés. Niño con equimosis frecuentes, TTPA prolongado al triple, y un hermano que murió por una hemorragia intracraneana."
     },
     {
       "file": "s16_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el examen para el diagnóstico?"
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones son: trombocitopenia inmune, hemofilia A, déficit de factor once, enfermedad de von Willebrand, o coagulación intravascular diseminada. Piénsalo."
+      "text": "Las opciones son: tiempo de sangría, recuento y función plaquetaria, factor de von Willebrand y cofactor de ristocetina, proteínas C y S, o factores ocho y nueve. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la D, von Willebrand. Todo es sangrado de mucosas, y en la familia hay menorragias, es decir, mujeres afectadas: eso es herencia autosómica dominante. Y el TTPA levemente prolongado es el que baja un poco el factor ocho. El distractor es la hemofilia A, por el TTPA largo; pero la hemofilia no da menorragias en la familia, porque las mujeres son portadoras sanas, y sangra en articulaciones y músculos."
+      "text": "Es la E, factores ocho y nueve. Un varón, con un hermano muerto por hemorragia, y un TTPA al triple: eso es hemofilia hasta demostrar lo contrario. Y la hemofilia se confirma, y se distingue la A de la B, dosificando los factores. El distractor es el perfil de von Willebrand, que también está en el tema; pero el von Willebrand alarga el TTPA levemente, no al triple. Las proteínas C y S son de trombofilia."
     },
     {
       "file": "s17_g00",
-      "text": "Una del EUNACOM de diciembre de dos mil diecinueve. Joven de dieciocho años con equimosis frecuentes y petequias en las piernas. Tuvo un sangrado tardío después de sacarse una muela, y hace años un hematoma del muslo tras un golpe. Plaquetas en ciento sesenta mil, TP de cien por ciento, y TTPA de cuarenta y cinco segundos."
+      "text": "Otra del mismo examen, enero de dos mil veintitrés. Paciente con epistaxis, equimosis y gingivorragias frecuentes. En la familia hay epistaxis y menorragias. Y el TTPA está levemente prolongado."
     },
     {
       "file": "s17_g01",
@@ -306,46 +294,62 @@
     },
     {
       "file": "s17_g02",
-      "text": "Las opciones son: enfermedad de Glanzmann, enfermedad de von Willebrand, déficit de factor siete, hemofilia, o trombocitopenia inmune. Piénsalo."
+      "text": "Las opciones son: trombocitopenia inmune, hemofilia A, déficit de factor once, enfermedad de von Willebrand, o coagulación intravascular diseminada. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la B. Las petequias te dicen hemostasia primaria, pero las plaquetas son normales, así que es un problema de función, no de número. Y el TTPA está algo largo: eso junta las dos funciones del von Willebrand. El distractor es la hemofilia, por el hematoma del muslo; pero la hemofilia no da petequias, y tendría hemartrosis. El déficit de factor siete alarga el TP, y la trombocitopenia inmune tiene plaquetas bajas."
+      "text": "Es la D, von Willebrand. Todo es sangrado de mucosas, y en la familia hay menorragias, es decir, mujeres afectadas: eso es herencia autosómica dominante. Y el TTPA levemente prolongado es el que baja un poco el factor ocho. El distractor es la hemofilia A, por el TTPA largo; pero la hemofilia no da menorragias en la familia, porque las mujeres son portadoras sanas, y sangra en articulaciones y músculos."
     },
     {
       "file": "s18_g00",
-      "text": "Y la última, del EUNACOM de agosto de dos mil veintiuno. Mujer de diecisiete años con epistaxis frecuentes y equimosis fáciles desde los cinco años, y reglas abundantes desde la menarquia. Plaquetas normales, protrombinemia normal, TTPA normal, y un tiempo de sangría prolongado, de más de ocho minutos."
+      "text": "Una del EUNACOM de diciembre de dos mil diecinueve. Joven de dieciocho años con equimosis frecuentes y petequias en las piernas. Tuvo un sangrado tardío después de sacarse una muela, y hace años un hematoma del muslo tras un golpe. Plaquetas en ciento sesenta mil, TP de cien por ciento, y TTPA de cuarenta y cinco segundos."
     },
     {
       "file": "s18_g01",
-      "text": "¿Cuál es el examen de elección para seguir el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s18_g02",
-      "text": "Las opciones son: mielograma, citometría de flujo para la glicoproteína dos b tres a, estudio de von Willebrand, factores ocho y nueve, o electroforesis de proteínas. Piénsalo."
+      "text": "Las opciones son: enfermedad de Glanzmann, enfermedad de von Willebrand, déficit de factor siete, hemofilia, o trombocitopenia inmune. Piénsalo."
     },
     {
       "file": "s18_g03",
-      "text": "Es la C, el estudio de von Willebrand. Mujer, sangrado de mucosas desde niña y menorragia desde la menarquia: es el perfil exacto del tipo uno. El tiempo de sangría largo confirma que falla la hemostasia primaria, con plaquetas normales. El distractor son los factores ocho y nueve, pero eso es para la hemofilia, y aquí el TTPA es normal. Recuerda: un TTPA normal no descarta von Willebrand."
+      "text": "Es la B. Las petequias te dicen hemostasia primaria, pero las plaquetas son normales, así que es un problema de función, no de número. Y el TTPA está algo largo: eso junta las dos funciones del von Willebrand. El distractor es la hemofilia, por el hematoma del muslo; pero la hemofilia no da petequias, y tendría hemartrosis. El déficit de factor siete alarga el TP, y la trombocitopenia inmune tiene plaquetas bajas."
     },
     {
       "file": "s19_g00",
-      "text": "Cerremos con las reglas de oro. Hemofilia: varón, tío materno, hemartrosis y un TTPK francamente largo, con TP y plaquetas normales."
+      "text": "Y la última, del EUNACOM de agosto de dos mil veintiuno. Mujer de diecisiete años con epistaxis frecuentes y equimosis fáciles desde los cinco años, y reglas abundantes desde la menarquia. Plaquetas normales, protrombinemia normal, TTPA normal, y un tiempo de sangría prolongado, de más de ocho minutos."
     },
     {
       "file": "s19_g01",
-      "text": "Se confirma dosificando los factores ocho y nueve, que distinguen la A de la B."
+      "text": "¿Cuál es el examen de elección para seguir el estudio?"
     },
     {
       "file": "s19_g02",
-      "text": "Von Willebrand: ambos sexos, epistaxis y menorragia, con un TTPK normal o apenas largo. Se confirma con el perfil de von Willebrand, y se trata con desmopresina."
+      "text": "Las opciones son: mielograma, citometría de flujo para la glicoproteína dos b tres a, estudio de von Willebrand, factores ocho y nueve, o electroforesis de proteínas. Piénsalo."
     },
     {
       "file": "s19_g03",
+      "text": "Es la C, el estudio de von Willebrand. Mujer, sangrado de mucosas desde niña y menorragia desde la menarquia: es el perfil exacto del tipo uno. El tiempo de sangría largo confirma que falla la hemostasia primaria, con plaquetas normales. El distractor son los factores ocho y nueve, pero eso es para la hemofilia, y aquí el TTPA es normal. Recuerda: un TTPA normal no descarta von Willebrand."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Cerremos con las reglas de oro. Hemofilia: varón, tío materno, hemartrosis y un TTPK francamente largo, con TP y plaquetas normales."
+    },
+    {
+      "file": "s20_g01",
+      "text": "Se confirma dosificando los factores ocho y nueve, que distinguen la A de la B."
+    },
+    {
+      "file": "s20_g02",
+      "text": "Von Willebrand: ambos sexos, epistaxis y menorragia, con un TTPK normal o apenas largo. Se confirma con el perfil de von Willebrand, y se trata con desmopresina."
+    },
+    {
+      "file": "s20_g03",
       "text": "Ante un hemofílico que sangra, el factor va primero, sin esperar imágenes."
     },
     {
-      "file": "s19_g04",
+      "file": "s20_g04",
       "text": "Y nunca aspirina ni antiinflamatorios, nunca intramuscular, nunca puncionar la hemartrosis. Si te llevas una sola idea de hoy: la hemartrosis es hemofilia y se trata con factor, y el sangrado de mucosas con plaquetas normales es von Willebrand. En la próxima clase vemos las coagulopatías adquiridas: hígado, vitamina K y anticoagulantes. Nos vemos en la próxima clase."
     }
   ]

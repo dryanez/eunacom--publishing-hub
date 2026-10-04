@@ -76,6 +76,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Test de Capurro',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-16/01_test_capurro__usuario.jpg', label: 'Capurro', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' },
+      ],
+      steps: [
+        { note: 'Cinco criterios físicos',
+          say: 'El Capurro estima la edad gestacional con cinco criterios: oreja, glándula mamaria, pezón, textura de la piel y pliegues plantares.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora crucemos la edad gestacional con el peso en un solo árbol.',
     },

@@ -134,6 +134,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Prueba broncodilatadora positiva',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg', label: 'Antes y después del salbutamol', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'El VEF1 sube sobre el corte',
+          say: 'Aquí se superponen dos curvas, antes y después del broncodilatador. La segunda sube más: el volumen espirado en el primer segundo aumenta sobre el corte de reversibilidad. Eso apoya el asma.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos diagnóstico, control y escalones en un solo árbol, como lo vas a razonar en el control del CESFAM.',
     },

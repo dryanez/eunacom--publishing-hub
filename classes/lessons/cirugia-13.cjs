@@ -157,6 +157,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Quemaduras',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-13/01_quemadura_ab_superficial__atls_p230.jpg', label: 'Espesor parcial superficial', credit: 'ATLS 10.ª ed., Fig. 9-5' },
+        { src: 'biblioteca/10_cirugia/cirugia-13/02_quemadura_ab_profunda__atls_p230.jpg', label: 'Espesor parcial profundo', credit: 'ATLS 10.ª ed., Fig. 9-5' },
+        { src: 'biblioteca/10_cirugia/cirugia-13/04_regla_de_los_9__atls_p175.jpg', label: 'Regla de los nueve', credit: 'ATLS 10.ª ed., Fig. 9-4' },
+      ],
+      steps: [
+        { note: 'Ampollas, dolor, lecho brillante',
+          say: 'La quemadura de espesor parcial superficial tiene ampollas, duele y el lecho es húmedo y brillante.' },
+        { note: 'Moteado, menos dolor',
+          say: 'La profunda es moteada, no blanquea y duele menos.' },
+        { note: 'Superficie quemada',
+          say: 'Y la regla de los nueve estima la superficie quemada para calcular los fluidos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo el razonamiento del gran quemado en un solo árbol.',
     },

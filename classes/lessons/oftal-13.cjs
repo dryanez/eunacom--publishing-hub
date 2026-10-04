@@ -92,6 +92,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Retinopatía hipertensiva',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg', label: 'Retinopatía hipertensiva', credit: 'Manual CTO Oftalmología 14.ª ed., p. 69' },
+      ],
+      steps: [
+        { note: 'Vasos estrechos y cruces',
+          say: 'La hipertensión estrecha las arterias y produce cruces arteriovenosos. Con edema de papila, es una emergencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

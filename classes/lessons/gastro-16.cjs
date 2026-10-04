@@ -98,6 +98,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Lesiones focales del hígado',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg', label: 'Hepatocarcinoma', credit: 'Wikimedia Commons «Triphasic CT scan of hepatocellular carcinoma.jpg», CC BY 4.0, Zhenyu Pan, Guozi Yang, Tingting Yuan, Lihua Dong, Lihua Don' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-16/01_hemangioma-realce-periferico__cto-radiologia_p51.jpg', label: 'Hemangioma', credit: 'Manual CTO Radiología 14.ª ed., p. 51' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-16/02_quiste-hidatidico-hepatico__cto-radiologia_p43.jpg', label: 'Quiste hidatídico', credit: 'Manual CTO Radiología 14.ª ed., p. 43' },
+      ],
+      steps: [
+        { note: 'Capta en arterial, lava en portal',
+          say: 'Esta es una tomografía trifásica de un hepatocarcinoma: la lesión capta contraste en la fase arterial y lo pierde en la fase portal. Ese lavado, en un cirrótico, basta para el diagnóstico.' },
+        { note: 'Realce periférico en glóbulos',
+          say: 'El hemangioma, en cambio, se llena desde la periferia hacia el centro, en glóbulos. Es el tumor benigno más frecuente del hígado.' },
+        { note: 'Quiste con membranas',
+          say: 'Y este es un quiste hidatídico: una lesión quística con membranas en su interior. Ojo, nunca se punciona a ciegas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las lesiones del hígado en un solo árbol.',
     },

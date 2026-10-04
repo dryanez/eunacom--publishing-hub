@@ -2,7 +2,7 @@
   "id": "neuro-24",
   "title": "Neurologia 10.24: Polifarmacia, Criterios de Beers / STOPP-START e Incontinencia Urinaria en la Persona Mayor",
   "specialty": "Neurología y Geriatría",
-  "chars": 14704,
+  "chars": 14867,
   "segments": [
     {
       "file": "s00_g00",
@@ -130,194 +130,198 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ordenemos la incontinencia en un árbol, que es como la vas a razonar en el examen. Adulto mayor con pérdida involuntaria de orina. Antes de clasificarla, hay que buscar lo reversible."
-    },
-    {
-      "file": "s07_g01",
-      "text": "¿Hay una causa transitoria, como infección urinaria, delirium, fármacos, hiperglicemia o fecaloma?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si la hay, se corrige y la incontinencia suele resolverse."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si no, mide el residuo postmiccional. Esta es la bifurcación clave."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Residuo alto: rebose. Desobstruir con tamsulosina o resección si es la próstata, o cateterismo limpio intermitente si la vejiga no se contrae. Nunca anticolinérgicos."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Residuo normal: ¿cuándo pierde la orina?"
-    },
-    {
-      "file": "s07_g06",
-      "text": "Con un deseo súbito: urgencia. Entrenamiento vesical y Kegel, y luego oxibutinina, o mirabegrón si hay riesgo cognitivo."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Al toser o reír: esfuerzo. Kegel y estrógeno tópico, y cirugía si fracasa."
-    },
-    {
-      "file": "s07_g08",
-      "text": "Si no llega por movilidad o cognición: funcional. Orinal cerca y micciones programadas."
+      "text": "Un efecto adverso se confunde con un síntoma nuevo y se trata con otro fármaco, que a su vez da otro efecto. Antes de agregar, pregunta qué fármaco empezó primero."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las trampas. Anciano con glibenclamida y hemoglobina glicosilada normal: está sobretratado, y se suspende la glibenclamida."
+      "text": "Ordenemos la incontinencia en un árbol, que es como la vas a razonar en el examen. Adulto mayor con pérdida involuntaria de orina. Antes de clasificarla, hay que buscar lo reversible."
     },
     {
       "file": "s08_g01",
-      "text": "Donepecilo con incontinencia y diarrea: es un efecto colinérgico, se baja el donepecilo. Agregar oxibutinina es la cascada de prescripción."
+      "text": "¿Hay una causa transitoria, como infección urinaria, delirium, fármacos, hiperglicemia o fecaloma?"
     },
     {
       "file": "s08_g02",
-      "text": "Dolor artrósico en un hipertenso o con insuficiencia cardíaca: paracetamol y luego tramadol. El AINE es el error."
+      "text": "Si la hay, se corrige y la incontinencia suele resolverse."
     },
     {
       "file": "s08_g03",
-      "text": "Insomnio en el adulto mayor: higiene del sueño. Las benzodiacepinas y los hipnóticos Z se evitan."
+      "text": "Si no, mide el residuo postmiccional. Esta es la bifurcación clave."
     },
     {
       "file": "s08_g04",
-      "text": "Incontinencia con residuo postmiccional elevado: es rebose. Se desobstruye o se cateteriza, nunca un anticolinérgico."
+      "text": "Residuo alto: rebose. Desobstruir con tamsulosina o resección si es la próstata, o cateterismo limpio intermitente si la vejiga no se contrae. Nunca anticolinérgicos."
     },
     {
       "file": "s08_g05",
-      "text": "Y la incontinencia de urgencia en un paciente con deterioro cognitivo: mirabegrón, porque la oxibutinina puede gatillar un delirium."
+      "text": "Residuo normal: ¿cuándo pierde la orina?"
+    },
+    {
+      "file": "s08_g06",
+      "text": "Con un deseo súbito: urgencia. Entrenamiento vesical y Kegel, y luego oxibutinina, o mirabegrón si hay riesgo cognitivo."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Al toser o reír: esfuerzo. Kegel y estrógeno tópico, y cirugía si fracasa."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si no llega por movilidad o cognición: funcional. Orinal cerca y micciones programadas."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos al caso. Mujer de ochenta y dos años, hipertensa, con artrosis e insomnio. Toma losartán, clonazepam en la noche, paracetamol, ibuprofeno desde hace tres semanas, y clorfenamina para dormir. Su creatinina subió de cero coma nueve a uno coma seis, el potasio está alto y la presión está en ciento sesenta y cinco. Además, se ha caído dos veces en la noche, y pierde gotas de orina al toser o reírse."
+      "text": "Repasemos las trampas. Anciano con glibenclamida y hemoglobina glicosilada normal: está sobretratado, y se suspende la glibenclamida."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta prioritaria?"
+      "text": "Donepecilo con incontinencia y diarrea: es un efecto colinérgico, se baja el donepecilo. Agregar oxibutinina es la cascada de prescripción."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: agregar amlodipino y oxibutinina; suspender ibuprofeno y clorfenamina, retirar gradualmente el clonazepam y Kegel; cortar el clonazepam y dar zolpidem; cambiar a ketorolaco; o mantener todo y pedir una ecografía. Piénsalo."
+      "text": "Dolor artrósico en un hipertenso o con insuficiencia cardíaca: paracetamol y luego tramadol. El AINE es el error."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la B. El ibuprofeno le dañó el riñón, le subió el potasio y la presión. El clonazepam y la clorfenamina explican las caídas. Y la pérdida al toser es incontinencia de esfuerzo, que se trata con Kegel. La A es la cascada de prescripción perfecta: tratar con fármacos lo que causaron otros fármacos. Y la C cae porque la benzodiacepina se retira de forma gradual, y el zolpidem también se evita."
+      "text": "Insomnio en el adulto mayor: higiene del sueño. Las benzodiacepinas y los hipnóticos Z se evitan."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Incontinencia con residuo postmiccional elevado: es rebose. Se desobstruye o se cateteriza, nunca un anticolinérgico."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y la incontinencia de urgencia en un paciente con deterioro cognitivo: mirabegrón, porque la oxibutinina puede gatillar un delirium."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de ochenta y dos años, con muchas patologías y fármacos, con una TSH de tres coma ocho y una hemoglobina glicosilada de cinco coma dos por ciento."
+      "text": "Vamos al caso. Mujer de ochenta y dos años, hipertensa, con artrosis e insomnio. Toma losartán, clonazepam en la noche, paracetamol, ibuprofeno desde hace tres semanas, y clorfenamina para dormir. Su creatinina subió de cero coma nueve a uno coma seis, el potasio está alto y la presión está en ciento sesenta y cinco. Además, se ha caído dos veces en la noche, y pierde gotas de orina al toser o reírse."
     },
     {
       "file": "s10_g01",
-      "text": "¿Qué fármaco debe suspender?"
+      "text": "¿Cuál es la conducta prioritaria?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: vitamina D, glibenclamida, enalapril, levotiroxina o calcio. Piénsalo."
+      "text": "Las opciones son: agregar amlodipino y oxibutinina; suspender ibuprofeno y clorfenamina, retirar gradualmente el clonazepam y Kegel; cortar el clonazepam y dar zolpidem; cambiar a ketorolaco; o mantener todo y pedir una ecografía. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, glibenclamida. Una hemoglobina glicosilada de cinco coma dos en un paciente de ochenta y dos años es un sobretratamiento, y la glibenclamida lo expone a hipoglicemias graves. La levotiroxina es el distractor, pero una TSH de tres coma ocho está bien para su edad."
+      "text": "La respuesta es la B. El ibuprofeno le dañó el riñón, le subió el potasio y la presión. El clonazepam y la clorfenamina explican las caídas. Y la pérdida al toser es incontinencia de esfuerzo, que se trata con Kegel. La A es la cascada de prescripción perfecta: tratar con fármacos lo que causaron otros fármacos. Y la C cae porque la benzodiacepina se retira de forma gradual, y el zolpidem también se evita."
     },
     {
       "file": "s11_g00",
-      "text": "Segunda pregunta, del EUNACOM de diciembre de dos mil dieciocho. Paciente de ochenta años con Alzheimer, hipotiroidismo y artrosis, que toma donepecilo, levotiroxina y paracetamol. Presenta escapes frecuentes de orina y diarrea."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de ochenta y dos años, con muchas patologías y fármacos, con una TSH de tres coma ocho y una hemoglobina glicosilada de cinco coma dos por ciento."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Qué fármaco debe suspender?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: agregar memantina, bajar la levotiroxina, agregar oxibutinina, bajar el donepecilo, o subir la levotiroxina. Piénsalo."
+      "text": "Las opciones son: vitamina D, glibenclamida, enalapril, levotiroxina o calcio. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D, disminuir el donepecilo. La diarrea y la incontinencia son su efecto colinérgico. La trampa es la C, agregar oxibutinina: es exactamente la cascada de prescripción que vimos, y además un anticolinérgico en un paciente con demencia."
+      "text": "Es la B, glibenclamida. Una hemoglobina glicosilada de cinco coma dos en un paciente de ochenta y dos años es un sobretratamiento, y la glibenclamida lo expone a hipoglicemias graves. La levotiroxina es el distractor, pero una TSH de tres coma ocho está bien para su edad."
     },
     {
       "file": "s12_g00",
-      "text": "Tercera pregunta, del EUNACOM de julio de dos mil dieciséis. Mujer de ochenta años con artrosis, que toma paracetamol un gramo cada ocho horas con alivio parcial. Es hipertensa y tiene insuficiencia cardíaca en capacidad funcional tres."
+      "text": "Segunda pregunta, del EUNACOM de diciembre de dos mil dieciocho. Paciente de ochenta años con Alzheimer, hipotiroidismo y artrosis, que toma donepecilo, levotiroxina y paracetamol. Presenta escapes frecuentes de orina y diarrea."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el mejor fármaco a agregar para el dolor?"
-    },
-    {
-      "file": "s12_g02",
-      "text": "Las opciones son: ibuprofeno, pregabalina, ketorolaco, lidocaína en parches, o tramadol. Piénsalo."
-    },
-    {
-      "file": "s12_g03",
-      "text": "Es la E, tramadol. Con hipertensión e insuficiencia cardíaca, los AINE están contraindicados: retienen sodio y agua, dañan el riñón y descompensan el corazón. Por eso caen el ibuprofeno y el ketorolaco, que son los distractores tentadores. El siguiente escalón es un opioide débil."
-    },
-    {
-      "file": "s13_g00",
-      "text": "Cuarta pregunta, del EUNACOM de diciembre de dos mil veinticinco. Mujer de sesenta años con dos años de escapes de orina precedidos por una urgencia incontrolable. El examen es normal, y la ecografía muestra un residuo postmiccional de treinta centímetros cúbicos."
-    },
-    {
-      "file": "s13_g01",
-      "text": "¿Qué fármaco es más adecuado como primera línea?"
-    },
-    {
-      "file": "s13_g02",
-      "text": "Las opciones son: alfabloqueadores, betabloqueadores, agonistas adrenérgicos, anticolinérgicos muscarínicos, o estrógenos. Piénsalo."
-    },
-    {
-      "file": "s13_g03",
-      "text": "Es la D, anticolinérgicos muscarínicos. Es una incontinencia de urgencia, con residuo normal, y fíjate que la pregunta pide un fármaco: las medidas conductuales siguen siendo la base. El mirabegrón, un agonista beta tres, sería la opción en un paciente con deterioro cognitivo, pero esta paciente tiene sesenta años y está sana."
-    },
-    {
-      "file": "s14_g00",
-      "text": "Quinta pregunta, del EUNACOM de julio de dos mil dieciséis. Mujer de sesenta y cinco años, multípara de cuatro partos vaginales, posmenopáusica, que pierde pequeñas cantidades de orina al hacer esfuerzos, toser o reírse, sin urgencia."
-    },
-    {
-      "file": "s14_g01",
-      "text": "¿Cuál es el tratamiento de primera línea?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "Las opciones son: cirugía TVT, anticolinérgicos, alfa adrenérgicos, kinesioterapia del piso pélvico, o antibióticos. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "Es la D, kinesioterapia del piso pélvico. Es una incontinencia de esfuerzo típica: partos, menopausia y pérdida con la tos. La cirugía es tentadora porque es el tratamiento definitivo, pero va después, si fallan los ejercicios."
-    },
-    {
-      "file": "s15_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil quince. Mujer de sesenta y nueve años, diabética mal controlada, con escapes de orina e infecciones urinarias a repetición. La ecografía muestra una vejiga con novecientos treinta centímetros cúbicos y un residuo postmiccional de setecientos cincuenta."
-    },
-    {
-      "file": "s15_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s12_g02",
+      "text": "Las opciones son: agregar memantina, bajar la levotiroxina, agregar oxibutinina, bajar el donepecilo, o subir la levotiroxina. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D, disminuir el donepecilo. La diarrea y la incontinencia son su efecto colinérgico. La trampa es la C, agregar oxibutinina: es exactamente la cascada de prescripción que vimos, y además un anticolinérgico en un paciente con demencia."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Tercera pregunta, del EUNACOM de julio de dos mil dieciséis. Mujer de ochenta años con artrosis, que toma paracetamol un gramo cada ocho horas con alivio parcial. Es hipertensa y tiene insuficiencia cardíaca en capacidad funcional tres."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el mejor fármaco a agregar para el dolor?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones son: ibuprofeno, pregabalina, ketorolaco, lidocaína en parches, o tramadol. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la E, tramadol. Con hipertensión e insuficiencia cardíaca, los AINE están contraindicados: retienen sodio y agua, dañan el riñón y descompensan el corazón. Por eso caen el ibuprofeno y el ketorolaco, que son los distractores tentadores. El siguiente escalón es un opioide débil."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cuarta pregunta, del EUNACOM de diciembre de dos mil veinticinco. Mujer de sesenta años con dos años de escapes de orina precedidos por una urgencia incontrolable. El examen es normal, y la ecografía muestra un residuo postmiccional de treinta centímetros cúbicos."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Qué fármaco es más adecuado como primera línea?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones son: alfabloqueadores, betabloqueadores, agonistas adrenérgicos, anticolinérgicos muscarínicos, o estrógenos. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la D, anticolinérgicos muscarínicos. Es una incontinencia de urgencia, con residuo normal, y fíjate que la pregunta pide un fármaco: las medidas conductuales siguen siendo la base. El mirabegrón, un agonista beta tres, sería la opción en un paciente con deterioro cognitivo, pero esta paciente tiene sesenta años y está sana."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Quinta pregunta, del EUNACOM de julio de dos mil dieciséis. Mujer de sesenta y cinco años, multípara de cuatro partos vaginales, posmenopáusica, que pierde pequeñas cantidades de orina al hacer esfuerzos, toser o reírse, sin urgencia."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el tratamiento de primera línea?"
+    },
+    {
       "file": "s15_g02",
-      "text": "Las opciones son: cirugía, sonda Foley, cateterismo intermitente, anticolinérgicos, o colinérgicos. Piénsalo."
+      "text": "Las opciones son: cirugía TVT, anticolinérgicos, alfa adrenérgicos, kinesioterapia del piso pélvico, o antibióticos. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la C, cateterismo intermitente. Un residuo de setecientos cincuenta es rebose, y en una diabética mal controlada la causa es una vejiga que no se contrae por neuropatía. Se vacía con cateterismo limpio intermitente. La trampa es la D: los anticolinérgicos están prohibidos en el rebose, porque empeoran la retención."
+      "text": "Es la D, kinesioterapia del piso pélvico. Es una incontinencia de esfuerzo típica: partos, menopausia y pérdida con la tos. La cirugía es tentadora porque es el tratamiento definitivo, pero va después, si fallan los ejercicios."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos el bloque. En el anciano, una creatinina normal no descarta insuficiencia renal: calcula el clearance."
+      "text": "Y la última, del EUNACOM de julio de dos mil quince. Mujer de sesenta y nueve años, diabética mal controlada, con escapes de orina e infecciones urinarias a repetición. La ecografía muestra una vejiga con novecientos treinta centímetros cúbicos y un residuo postmiccional de setecientos cincuenta."
     },
     {
       "file": "s16_g01",
-      "text": "Si aparece un síntoma nuevo, primero pregunta si lo causó un fármaco, como el donepecilo con la incontinencia."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s16_g02",
-      "text": "Y evita benzodiacepinas, anticolinérgicos, AINE crónicos y glibenclamida."
+      "text": "Las opciones son: cirugía, sonda Foley, cateterismo intermitente, anticolinérgicos, o colinérgicos. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la C, cateterismo intermitente. Un residuo de setecientos cincuenta es rebose, y en una diabética mal controlada la causa es una vejiga que no se contrae por neuropatía. Se vacía con cateterismo limpio intermitente. La trampa es la D: los anticolinérgicos están prohibidos en el rebose, porque empeoran la retención."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos el bloque. En el anciano, una creatinina normal no descarta insuficiencia renal: calcula el clearance."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Si aparece un síntoma nuevo, primero pregunta si lo causó un fármaco, como el donepecilo con la incontinencia."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Y evita benzodiacepinas, anticolinérgicos, AINE crónicos y glibenclamida."
+    },
+    {
+      "file": "s17_g03",
       "text": "En la incontinencia, primero descarta las causas transitorias con DIAPPERS."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Si te llevas una sola idea de hoy: antes de agregar un fármaco, revisa los que ya toma; y en la incontinencia, mide el residuo, porque si está alto, el anticolinérgico está prohibido. Con esto cerramos geriatría. Nos vemos en la próxima clase."
     }
   ]

@@ -165,6 +165,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Hipokalemia en el ECG',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-10/01_ecg-hipopotasemia-ondas-u__cto-nefro_p22.jpg', label: 'Onda U', credit: 'Manual CTO Nefrología 14.ª ed., p. 22' },
+      ],
+      steps: [
+        { note: 'Onda después de la T',
+          say: 'En la hipokalemia la onda T se aplana y aparece una onda U, una pequeña onda después de la T. Si ves ondas U, mide el potasio y también el magnesio.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión para la hipokalemia.',
     },

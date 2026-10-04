@@ -203,6 +203,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Dificultad respiratoria del recién nacido',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-18/01_enfermedad-de-membrana-hialina-rx__cto-pediatria_p19.jpg', label: 'Membrana hialina', credit: 'Manual CTO Pediatría 14.ª ed., p. 19' },
+        { src: 'biblioteca/15_pediatria/ped-18/02_taquipnea-transitoria-rx__cto-pediatria_p18.jpg', label: 'Taquipnea transitoria', credit: 'Manual CTO Pediatría 14.ª ed., p. 18' },
+        { src: 'biblioteca/15_pediatria/ped-18/03_aspiracion-meconial-rx__cto-pediatria_p20.jpg', label: 'Aspiración meconial', credit: 'Manual CTO Pediatría 14.ª ed., p. 20' },
+      ],
+      steps: [
+        { note: 'Vidrio esmerilado',
+          say: 'La membrana hialina del prematuro da un patrón de vidrio esmerilado con broncograma.' },
+        { note: 'Líquido en cisuras',
+          say: 'La taquipnea transitoria, en la cesárea, muestra líquido en las cisuras.' },
+        { note: 'Infiltrados gruesos',
+          say: 'Y la aspiración meconial da infiltrados gruesos con hiperinsuflación.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos los tres cuadros en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

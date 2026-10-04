@@ -2,7 +2,7 @@
   "id": "derma-15",
   "title": "Dermatologia 16.15: Lesiones Cutáneas Premalignas: Queratosis Actínica, Cuerno Cutáneo y Nevos Displásicos",
   "specialty": "Dermatología",
-  "chars": 7550,
+  "chars": 7700,
   "segments": [
     {
       "file": "s00_g00",
@@ -58,90 +58,98 @@
     },
     {
       "file": "s04_g00",
-      "text": "Armemos el árbol de decisión: de la piel áspera al tratamiento correcto. Frente a una mácula áspera en piel fotoexpuesta, lo primero es confirmar si es una lesión o son varias."
+      "text": "La queratosis actínica es una lesión áspera en zonas expuestas al sol."
     },
     {
       "file": "s04_g01",
-      "text": "La induración y el número de lesiones son las dos preguntas que definen la conducta."
-    },
-    {
-      "file": "s04_g02",
-      "text": "Una lesión que se hace indurada o dolorosa ya no es una queratosis actínica típica: hay que biopsiarla."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Sin signos de alarma y con pocas lesiones, la crioterapia focal es suficiente."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Con múltiples lesiones en un campo de cancerización, se trata toda la zona, no solo lo visible, junto con fotoprotección estricta."
+      "text": "Y el cuerno cutáneo: se biopsia la base, porque puede esconder un espinocelular."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos con la tabla. Con una o dos lesiones aisladas, la conducta es crioterapia. El error es partir con Imiquimod, que es para tratar campo, no una lesión sola."
+      "text": "Armemos el árbol de decisión: de la piel áspera al tratamiento correcto. Frente a una mácula áspera en piel fotoexpuesta, lo primero es confirmar si es una lesión o son varias."
     },
     {
       "file": "s05_g01",
-      "text": "Con múltiples lesiones en una zona extensa, corresponde tratar el campo completo. El error es congelar solo lo visible, dejando el resto del campo sin tratar."
+      "text": "La induración y el número de lesiones son las dos preguntas que definen la conducta."
     },
     {
       "file": "s05_g02",
-      "text": "Y si una lesión tiene base indurada, o duele, o crece rápido, no es una queratosis actínica típica: hay que biopsiarla para descartar que ya progresó a un carcinoma espinocelular invasor."
+      "text": "Una lesión que se hace indurada o dolorosa ya no es una queratosis actínica típica: hay que biopsiarla."
     },
     {
       "file": "s05_g03",
-      "text": "Y el cuerno cutáneo se biopsia siempre. Asumir que es benigno solo por su forma es el error, porque en uno de cada cinco casos esconde un cáncer ya invasor."
+      "text": "Sin signos de alarma y con pocas lesiones, la crioterapia focal es suficiente."
     },
     {
       "file": "s05_g04",
-      "text": "Y un nevo displásico con atipia leve y estable en el tiempo se sigue con fotografías seriadas, no se biopsia de entrada. El error es querer sacar todos los nevos atípicos de una persona que tiene muchos: ahí lo que corresponde es vigilar y educar en autoexamen."
+      "text": "Con múltiples lesiones en un campo de cancerización, se trata toda la zona, no solo lo visible, junto con fotoprotección estricta."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos con un caso. Mujer de sesenta y ocho años, agricultora, con múltiples lesiones ásperas de tres a cinco milímetros en mejillas, nariz y dorso de ambas manos, que describe como escamas que no se despegan. Al tacto, la piel se siente rugosa, como papel de lija. Ninguna lesión tiene base indurada ni ha crecido rápido."
+      "text": "Repasemos con la tabla. Con una o dos lesiones aisladas, la conducta es crioterapia. El error es partir con Imiquimod, que es para tratar campo, no una lesión sola."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Con múltiples lesiones en una zona extensa, corresponde tratar el campo completo. El error es congelar solo lo visible, dejando el resto del campo sin tratar."
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: crioterapia focal lesión por lesión, combinar crioterapia con tratamiento de campo y fotoprotección, biopsiar todas las lesiones antes de decidir, observación sin tratamiento, o corticoide tópico de alta potencia. Piénsalo."
+      "text": "Y si una lesión tiene base indurada, o duele, o crece rápido, no es una queratosis actínica típica: hay que biopsiarla para descartar que ya progresó a un carcinoma espinocelular invasor."
     },
     {
       "file": "s06_g03",
-      "text": "Es la B. Múltiples lesiones en una zona fotoexpuesta extensa son un campo de cancerización, no lesiones aisladas. La conducta combina crioterapia en las más gruesas con tratamiento médico de todo el campo, Imiquimod o fluorouracilo, más fotoprotección estricta. No hay ningún signo de alarma que justifique biopsiar todo, y la observación sin tratamiento deja avanzar el riesgo de carcinoma espinocelular."
+      "text": "Y el cuerno cutáneo se biopsia siempre. Asumir que es benigno solo por su forma es el error, porque en uno de cada cinco casos esconde un cáncer ya invasor."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y un nevo displásico con atipia leve y estable en el tiempo se sigue con fotografías seriadas, no se biopsia de entrada. El error es querer sacar todos los nevos atípicos de una persona que tiene muchos: ahí lo que corresponde es vigilar y educar en autoexamen."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora una pregunta representativa del banco. Hombre de sesenta y cinco años, con varias máculas eritematosas milimétricas en la frente y el dorso de las manos, cubiertas por escamas ásperas muy adherentes, que al frotarlas con el dedo se sienten rugosas como lija. No hay induración ni signos inflamatorios profundos."
+      "text": "Vamos con un caso. Mujer de sesenta y ocho años, agricultora, con múltiples lesiones ásperas de tres a cinco milímetros en mejillas, nariz y dorso de ambas manos, que describe como escamas que no se despegan. Al tacto, la piel se siente rugosa, como papel de lija. Ninguna lesión tiene base indurada ni ha crecido rápido."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: queratosis actínicas, queratosis seborreicas, psoriasis vulgar, lupus eritematoso discoide, o linfoma cutáneo de células T. Piénsalo."
+      "text": "Las opciones: crioterapia focal lesión por lesión, combinar crioterapia con tratamiento de campo y fotoprotección, biopsiar todas las lesiones antes de decidir, observación sin tratamiento, o corticoide tópico de alta potencia. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la A. El signo de la lija, en máculas eritematosas mal delimitadas de zonas fotoexpuestas, sin induración, es la descripción textual de la queratosis actínica. La queratosis seborreica, en cambio, tiene un aspecto untuoso y \"pegado\", no áspero."
+      "text": "Es la B. Múltiples lesiones en una zona fotoexpuesta extensa son un campo de cancerización, no lesiones aisladas. La conducta combina crioterapia en las más gruesas con tratamiento médico de todo el campo, Imiquimod o fluorouracilo, más fotoprotección estricta. No hay ningún signo de alarma que justifique biopsiar todo, y la observación sin tratamiento deja avanzar el riesgo de carcinoma espinocelular."
     },
     {
       "file": "s08_g00",
-      "text": "Cerremos con las reglas de oro. La queratosis actínica se palpa antes de verse: si sientes aspereza en una zona con años de sol, piénsala primero."
+      "text": "Ahora una pregunta representativa del banco. Hombre de sesenta y cinco años, con varias máculas eritematosas milimétricas en la frente y el dorso de las manos, cubiertas por escamas ásperas muy adherentes, que al frotarlas con el dedo se sienten rugosas como lija. No hay induración ni signos inflamatorios profundos."
     },
     {
       "file": "s08_g01",
-      "text": "Si son pocas lesiones, crioterapia. Si son muchas en una misma zona, tienes que tratar el campo de cancerización completo, no lesión por lesión."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s08_g02",
-      "text": "Y si una lesión se hace indurada, o forma un cuerno cutáneo, ya no confíes en el ojo: biopsia, porque puede haber progresado a un carcinoma espinocelular invasor."
+      "text": "Las opciones: queratosis actínicas, queratosis seborreicas, psoriasis vulgar, lupus eritematoso discoide, o linfoma cutáneo de células T. Piénsalo."
     },
     {
       "file": "s08_g03",
+      "text": "Es la A. El signo de la lija, en máculas eritematosas mal delimitadas de zonas fotoexpuestas, sin induración, es la descripción textual de la queratosis actínica. La queratosis seborreica, en cambio, tiene un aspecto untuoso y \"pegado\", no áspero."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. La queratosis actínica se palpa antes de verse: si sientes aspereza en una zona con años de sol, piénsala primero."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si son pocas lesiones, crioterapia. Si son muchas en una misma zona, tienes que tratar el campo de cancerización completo, no lesión por lesión."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Y si una lesión se hace indurada, o forma un cuerno cutáneo, ya no confíes en el ojo: biopsia, porque puede haber progresado a un carcinoma espinocelular invasor."
+    },
+    {
+      "file": "s09_g03",
       "text": "Y no lo confundas con el nevo displásico: ese no se palpa como lija, es un nevo pigmentado con algún rasgo del ABCDE. Con atipia leve, se sigue con fotografías; con atipia severa, se biopsia igual que un melanoma. Si te llevas una sola idea de hoy: el tacto hace el diagnóstico de la queratosis actínica, y el número de lesiones decide su tratamiento. Nos vemos en la próxima clase."
     }
   ]

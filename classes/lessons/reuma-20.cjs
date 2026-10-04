@@ -137,6 +137,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Enfermedad de Behçet',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg', label: 'Aftas orales', credit: 'Manual AMIR Reumatología, p. 41' },
+        { src: 'biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg', label: 'Patergia', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' },
+      ],
+      steps: [
+        { note: 'Recurrentes y dolorosas',
+          say: 'Las aftas orales recurrentes son el criterio obligatorio de Behçet.' },
+        { note: 'Pústula tras el pinchazo',
+          say: 'Y la patergia: un pinchazo con aguja produce una pápula o pústula a las veinticuatro o cuarenta y ocho horas.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

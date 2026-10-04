@@ -123,6 +123,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Los cilindros urinarios',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros__cto-nefro_p34.jpg', label: 'Cilindros', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' },
+      ],
+      steps: [
+        { note: 'Cada cilindro cuenta su historia',
+          say: 'Los cilindros se forman dentro del túbulo. Los granulosos, color café, sugieren necrosis tubular aguda. Los leucocitarios, nefritis intersticial o pielonefritis. Los hemáticos, glomerulonefritis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión.',
     },

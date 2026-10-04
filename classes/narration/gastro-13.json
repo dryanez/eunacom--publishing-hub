@@ -2,7 +2,7 @@
   "id": "gastro-13",
   "title": "Gastroenterologia 3.1: Ictericia y Colestasia: Enfrentamiento Diagnóstico",
   "specialty": "Gastroenterología",
-  "chars": 9676,
+  "chars": 9822,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,146 +106,150 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos los dos pasos en un solo árbol. Partimos de un paciente con ictericia. Con dos preguntas de laboratorio, en orden, ordenamos casi todas las causas."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Primera pregunta: ¿predomina la bilirrubina indirecta o la directa?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "Indirecta con todo lo demás normal en un joven: síndrome de Gilbert, se observa. Si hay anemia, LDH alta y esquistocitos, es hemólisis y se trata la causa."
-    },
-    {
-      "file": "s06_g03",
-      "text": "La directa siempre es patológica. Segunda pregunta: ¿suben las transaminasas o las fosfatasas alcalinas con la GGT?"
-    },
-    {
-      "file": "s06_g04",
-      "text": "Transaminasas altas: hepatitis, lesión del hepatocito. Se estudia como vemos en la clase de hepatitis."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Fosfatasas y GGT altas: colestasia. El primer examen es siempre la ecografía abdominal."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Ahora miramos la clínica: ¿hay dolor, y hay fiebre?"
-    },
-    {
-      "file": "s06_g07",
-      "text": "Dolor e ictericia: coledocolitiasis. Colangiorresonancia para confirmar y luego CPRE para extraer el cálculo."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Dolor, ictericia y fiebre, la tríada de Charcot: colangitis. CPRE urgente y antibióticos."
-    },
-    {
-      "file": "s06_g09",
-      "text": "Ictericia silente en un adulto mayor con baja de peso: cáncer, sobre todo de páncreas. Colangiorresonancia, o TAC con contraste si se sospecha una masa pancreática."
+      "text": "En esta ecografía el colédoco está dilatado. Si la vía biliar está ancha, la ictericia es obstructiva, y hay que buscar la causa: cálculo o tumor."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos en una tabla. Bilirrubina indirecta aislada en un joven asintomático: Gilbert, se observa."
+      "text": "Ahora juntemos los dos pasos en un solo árbol. Partimos de un paciente con ictericia. Con dos preguntas de laboratorio, en orden, ordenamos casi todas las causas."
     },
     {
       "file": "s07_g01",
-      "text": "Indirecta con anemia, LDH alta y esquistocitos: hemólisis, se trata la causa."
+      "text": "Primera pregunta: ¿predomina la bilirrubina indirecta o la directa?"
     },
     {
       "file": "s07_g02",
-      "text": "Colestasia con dolor: coledocolitiasis. Ecografía, colangiorresonancia y luego la colangiopancreatografía retrógrada endoscópica, la CPRE, que extrae el cálculo."
+      "text": "Indirecta con todo lo demás normal en un joven: síndrome de Gilbert, se observa. Si hay anemia, LDH alta y esquistocitos, es hemólisis y se trata la causa."
     },
     {
       "file": "s07_g03",
-      "text": "Si se agrega fiebre: colangitis, con CPRE urgente y antibióticos."
+      "text": "La directa siempre es patológica. Segunda pregunta: ¿suben las transaminasas o las fosfatasas alcalinas con la GGT?"
     },
     {
       "file": "s07_g04",
-      "text": "Y colestasia sin dolor en un adulto mayor que baja de peso: cáncer. Ecografía, y después colangiorresonancia, o TAC si apunta al páncreas."
+      "text": "Transaminasas altas: hepatitis, lesión del hepatocito. Se estudia como vemos en la clase de hepatitis."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Fosfatasas y GGT altas: colestasia. El primer examen es siempre la ecografía abdominal."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Ahora miramos la clínica: ¿hay dolor, y hay fiebre?"
+    },
+    {
+      "file": "s07_g07",
+      "text": "Dolor e ictericia: coledocolitiasis. Colangiorresonancia para confirmar y luego CPRE para extraer el cálculo."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Dolor, ictericia y fiebre, la tríada de Charcot: colangitis. CPRE urgente y antibióticos."
+    },
+    {
+      "file": "s07_g09",
+      "text": "Ictericia silente en un adulto mayor con baja de peso: cáncer, sobre todo de páncreas. Colangiorresonancia, o TAC con contraste si se sospecha una masa pancreática."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Hombre de setenta años con ictericia que ha ido en aumento durante seis semanas, con prurito, coluria y baja de ocho kilos. No tiene dolor ni fiebre, y le diagnosticaron diabetes hace dos meses. Al examen, ictericia marcada y una vesícula palpable que no duele. El laboratorio es colestásico."
+      "text": "Repasemos en una tabla. Bilirrubina indirecta aislada en un joven asintomático: Gilbert, se observa."
     },
     {
       "file": "s08_g01",
-      "text": "La ecografía sugiere una masa en el páncreas. ¿Cuál es el examen de elección?"
+      "text": "Indirecta con anemia, LDH alta y esquistocitos: hemólisis, se trata la causa."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: una CPRE diagnóstica, un TAC de abdomen con contraste, una colangiorresonancia, una biopsia hepática, o anticuerpos antimitocondriales. Piénsalo."
+      "text": "Colestasia con dolor: coledocolitiasis. Ecografía, colangiorresonancia y luego la colangiopancreatografía retrógrada endoscópica, la CPRE, que extrae el cálculo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Junta las piezas: ictericia silente en un adulto mayor, baja de peso, diabetes nueva y vesícula palpable indolora, el signo de Courvoisier-Terrier. Es un cáncer de páncreas. El distractor tentador es la colangiorresonancia, que es de elección para la vía biliar; pero cuando la sospecha es una masa pancreática, el examen que la ve mejor es el TAC con contraste."
+      "text": "Si se agrega fiebre: colangitis, con CPRE urgente y antibióticos."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y colestasia sin dolor en un adulto mayor que baja de peso: cáncer. Ecografía, y después colangiorresonancia, o TAC si apunta al páncreas."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta del banco EUNACOM. Estudiante de veintidós años, asintomático, al que en un examen preventivo le encuentran una bilirrubina total de dos coma seis, a expensas de la indirecta. Transaminasas, fosfatasas alcalinas, GGT, hemograma y LDH, todo normal."
+      "text": "Vamos al caso. Hombre de setenta años con ictericia que ha ido en aumento durante seis semanas, con prurito, coluria y baja de ocho kilos. No tiene dolor ni fiebre, y le diagnosticaron diabetes hace dos meses. Al examen, ictericia marcada y una vesícula palpable que no duele. El laboratorio es colestásico."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable y la conducta?"
+      "text": "La ecografía sugiere una masa en el páncreas. ¿Cuál es el examen de elección?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: hepatitis viral aguda, anemia hemolítica, síndrome de Gilbert, coledocolitiasis, o cirrosis biliar primaria. Piénsalo."
+      "text": "Las alternativas: una CPRE diagnóstica, un TAC de abdomen con contraste, una colangiorresonancia, una biopsia hepática, o anticuerpos antimitocondriales. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la C, síndrome de Gilbert. Aplica el primer paso: la bilirrubina es indirecta, así que la hepatitis, el cálculo y la cirrosis biliar quedan fuera, porque esas dan bilirrubina directa. El distractor que queda es la hemólisis, pero con hemograma y LDH normales no hay hemólisis. Es un trastorno benigno de la conjugación: se tranquiliza y no se trata."
+      "text": "Es la B. Junta las piezas: ictericia silente en un adulto mayor, baja de peso, diabetes nueva y vesícula palpable indolora, el signo de Courvoisier-Terrier. Es un cáncer de páncreas. El distractor tentador es la colangiorresonancia, que es de elección para la vía biliar; pero cuando la sospecha es una masa pancreática, el examen que la ve mejor es el TAC con contraste."
     },
     {
       "file": "s10_g00",
-      "text": "Una más del banco. Mujer de cincuenta y cinco años con dolor cólico en el hipocondrio derecho e ictericia de dos días, sin fiebre. Bilirrubina de cuatro, de predominio directo, con fosfatasas y GGT elevadas. La ecografía muestra cálculos en la vesícula y una vía biliar de nueve milímetros, pero no ve cálculos en el colédoco."
+      "text": "Ahora una pregunta del banco EUNACOM. Estudiante de veintidós años, asintomático, al que en un examen preventivo le encuentran una bilirrubina total de dos coma seis, a expensas de la indirecta. Transaminasas, fosfatasas alcalinas, GGT, hemograma y LDH, todo normal."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el siguiente examen?"
+      "text": "¿Cuál es el diagnóstico más probable y la conducta?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: CPRE directa, colangiorresonancia, TAC de abdomen, biopsia hepática, o repetir la ecografía en dos días. Piénsalo."
+      "text": "Las opciones: hepatitis viral aguda, anemia hemolítica, síndrome de Gilbert, coledocolitiasis, o cirrosis biliar primaria. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, colangiorresonancia. Colestasia con dolor y sin fiebre es coledocolitiasis, pero la ecografía no vio el cálculo. Antes de someterla a una CPRE, que es invasiva y puede causar pancreatitis, se confirma con colangiorresonancia. La trampa es la CPRE directa: solo se va directo si hay colangitis, o si la ecografía ya vio el cálculo en el colédoco."
+      "text": "La respuesta es la C, síndrome de Gilbert. Aplica el primer paso: la bilirrubina es indirecta, así que la hepatitis, el cálculo y la cirrosis biliar quedan fuera, porque esas dan bilirrubina directa. El distractor que queda es la hemólisis, pero con hemograma y LDH normales no hay hemólisis. Es un trastorno benigno de la conjugación: se tranquiliza y no se trata."
     },
     {
       "file": "s11_g00",
-      "text": "Una pregunta real más, del EUNACOM de diciembre de dos mil dieciocho. Mujer de setenta años con dolor abdominal intenso de un día, fiebre hasta treinta y ocho coma cinco, mal estado general y vómitos repetidos. Al examen está hipotensa, taquicárdica, ictérica, con dolor difuso y resistencia muscular en el hemiabdomen superior. La bilirrubina está en seis coma ocho, de predominio directo, con fosfatasas, GGT y transaminasas todas elevadas."
+      "text": "Una más del banco. Mujer de cincuenta y cinco años con dolor cólico en el hipocondrio derecho e ictericia de dos días, sin fiebre. Bilirrubina de cuatro, de predominio directo, con fosfatasas y GGT elevadas. La ecografía muestra cálculos en la vesícula y una vía biliar de nueve milímetros, pero no ve cálculos en el colédoco."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el siguiente examen?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: colecistitis enfisematosa, plastrón vesicular, hepatitis aguda, colangitis aguda, o coledocolitiasis. Piénsalo."
+      "text": "Las opciones: CPRE directa, colangiorresonancia, TAC de abdomen, biopsia hepática, o repetir la ecografía en dos días. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D, colangitis aguda. Tiene la tríada de Charcot completa: dolor, ictericia y fiebre, y además está hipotensa y taquicárdica, con compromiso hemodinámico. Eso la separa de la coledocolitiasis simple, que da dolor e ictericia pero no fiebre ni shock. Es una urgencia: va a drenaje de la vía biliar más antibióticos."
+      "text": "Es la B, colangiorresonancia. Colestasia con dolor y sin fiebre es coledocolitiasis, pero la ecografía no vio el cálculo. Antes de someterla a una CPRE, que es invasiva y puede causar pancreatitis, se confirma con colangiorresonancia. La trampa es la CPRE directa: solo se va directo si hay colangitis, o si la ecografía ya vio el cálculo en el colédoco."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Primer paso: indirecta o directa. La indirecta aislada con todo lo demás normal es Gilbert, y se observa."
+      "text": "Una pregunta real más, del EUNACOM de diciembre de dos mil dieciocho. Mujer de setenta años con dolor abdominal intenso de un día, fiebre hasta treinta y ocho coma cinco, mal estado general y vómitos repetidos. Al examen está hipotensa, taquicárdica, ictérica, con dolor difuso y resistencia muscular en el hemiabdomen superior. La bilirrubina está en seis coma ocho, de predominio directo, con fosfatasas, GGT y transaminasas todas elevadas."
     },
     {
       "file": "s12_g01",
-      "text": "Segundo paso, en la directa: transaminasas es hepatitis; fosfatasas y GGT es colestasia."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "En la colestasia, el dolor manda. Con dolor es un cálculo, con dolor y fiebre es colangitis."
+      "text": "Las opciones: colecistitis enfisematosa, plastrón vesicular, hepatitis aguda, colangitis aguda, o coledocolitiasis. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la D, colangitis aguda. Tiene la tríada de Charcot completa: dolor, ictericia y fiebre, y además está hipotensa y taquicárdica, con compromiso hemodinámico. Eso la separa de la coledocolitiasis simple, que da dolor e ictericia pero no fiebre ni shock. Es una urgencia: va a drenaje de la vía biliar más antibióticos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Primer paso: indirecta o directa. La indirecta aislada con todo lo demás normal es Gilbert, y se observa."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Segundo paso, en la directa: transaminasas es hepatitis; fosfatasas y GGT es colestasia."
+    },
+    {
+      "file": "s13_g02",
+      "text": "En la colestasia, el dolor manda. Con dolor es un cálculo, con dolor y fiebre es colangitis."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y sin dolor en un adulto mayor, es cáncer, sobre todo de páncreas, con sus tres D y el signo de Courvoisier-Terrier."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Toda ictericia parte con ecografía; después colangiorresonancia, o TAC si se sospecha una masa pancreática. Si te llevas una sola idea de hoy: la ictericia que no duele en un adulto mayor es un cáncer hasta que se demuestre lo contrario. Nos vemos en la próxima clase."
     }
   ]

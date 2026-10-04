@@ -166,6 +166,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Coagulación intravascular diseminada',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-15/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
+      ],
+      steps: [
+        { note: 'Glóbulos rotos por microtrombos',
+          say: 'En la coagulación intravascular hay esquistocitos, plaquetas bajas y tiempos prolongados: se consume todo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión para el paciente grave que sangra por todos lados.',
     },

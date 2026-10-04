@@ -143,6 +143,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El temblor dibujado',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg', label: 'Espiral con temblor', credit: 'Wikimedia Commons «Spiral drawing - essential tremor.jpg», CC BY-SA 4.0, Undescribed' },
+      ],
+      steps: [
+        { note: 'Oscilación en todo el trazo',
+          say: 'La espiral de Arquímedes muestra el temblor de acción: el trazo oscila en todo el recorrido. Es el temblor esencial.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: qué temblor es, y qué hacer si lo que ves no es un temblor, sino una distonía.',
     },

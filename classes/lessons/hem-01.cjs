@@ -143,6 +143,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La forma del glóbulo rojo',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-01/01_morfologia-eritrocitaria-equinocitos-dia__cto-hemato_p9.jpg', label: 'Morfología eritrocitaria', credit: 'Manual CTO Hematología 14.ª ed., p. 9' },
+      ],
+      steps: [
+        { note: 'Cada forma orienta',
+          say: 'El frotis muestra la forma de los glóbulos rojos, y cada forma orienta a una causa.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos preguntas en un solo árbol, en el orden en que lo vas a razonar frente al hemograma.',
     },

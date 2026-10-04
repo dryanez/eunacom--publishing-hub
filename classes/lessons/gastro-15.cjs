@@ -233,6 +233,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El paciente cirrótico',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-15/02_ascitis_tension_foto__commons.jpg', label: 'Ascitis a tensión', credit: 'Wikimedia Commons «Hepaticfailure.jpg», CC BY-SA 3.0, James Heilman, MD' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-15/01_aranas-vasculares__cto-digestivo_p211.jpg', label: 'Arañas vasculares', credit: 'Manual CTO Digestivo 14.ª ed., p. 211' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-15/02_eritema-palmar__cto-digestivo_p212.jpg', label: 'Eritema palmar', credit: 'Manual CTO Digestivo 14.ª ed., p. 212' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_1__cto-digestivo_p216.jpg', label: 'Cabeza de medusa', credit: 'Manual CTO Digestivo 14.ª ed., p. 216' },
+      ],
+      steps: [
+        { note: 'Abdomen globoso y tenso',
+          say: 'Esto es una ascitis a tensión: el abdomen está globoso, tenso, con la piel brillante. Es la complicación más frecuente de la cirrosis.' },
+        { note: 'Punto central con ramas',
+          say: 'Esta es una araña vascular: un punto rojo central del que salen pequeñas ramas. Si la presionas, desaparece.' },
+        { note: 'Palmas rojas en las eminencias',
+          say: 'El eritema palmar es el enrojecimiento de las eminencias tenar e hipotenar. Junto con las arañas, refleja el exceso de estrógenos.' },
+        { note: 'Venas alrededor del ombligo',
+          say: 'Y estas venas dilatadas en la pared del abdomen son la circulación colateral de la hipertensión portal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

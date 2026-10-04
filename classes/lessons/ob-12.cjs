@@ -115,6 +115,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Mola hidatidiforme',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg', label: 'Tormenta de nieve', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 129' },
+        { src: 'biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg', label: 'Vesículas', credit: 'Manual AMIR Ginecología y Obstetricia, p. 33' },
+      ],
+      steps: [
+        { note: 'Ecografía',
+          say: 'La mola completa da una imagen en tormenta de nieve.' },
+        { note: 'Racimo de uvas',
+          say: 'Y el tejido son vesículas como un racimo de uvas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el diagnóstico y el seguimiento en un solo árbol de decisión.',
     },

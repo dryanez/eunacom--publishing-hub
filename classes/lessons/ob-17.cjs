@@ -149,6 +149,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Monitoreo y distocia de hombros',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_1__cto-gyo_p172.jpg', label: 'Deceleraciones', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 172' },
+        { src: 'biblioteca/14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg', label: 'McRoberts', credit: 'Williams Obstetricia (ed. en español), Fig. 20-14, p. 515' },
+      ],
+      steps: [
+        { note: 'Precoces, tardías y variables',
+          say: 'Las deceleraciones precoces coinciden con la contracción; las tardías empiezan después y sugieren hipoxia; las variables dependen del cordón.' },
+        { note: 'Flexión de muslos y presión suprapúbica',
+          say: 'Y en la distocia de hombros, la primera maniobra es McRoberts con presión suprapúbica.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las dos urgencias de hoy en un solo árbol de decisión.',
     },

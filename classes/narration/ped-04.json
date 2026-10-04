@@ -2,7 +2,7 @@
   "id": "ped-04",
   "title": "Pediatria 18.4: Lactancia Materna Exclusiva, Alimentación Complementaria & Suplementación (Vitamina D / Fierro)",
   "specialty": "Pediatría",
-  "chars": 6767,
+  "chars": 6956,
   "segments": [
     {
       "file": "s00_g00",
@@ -70,102 +70,114 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora ordenemos toda la suplementación en un solo árbol de decisión. Un recién nacido llega a su primer control. La vitamina D es igual para todos: cuatrocientas unidades al día, desde el mes de vida hasta el año. Para el hierro sí importa cómo nació."
+      "text": "En el acople correcto la boca está muy abierta y el labio inferior evertido."
     },
     {
       "file": "s05_g01",
-      "text": "Pregúntate si nació de término y con peso adecuado, o si fue prematuro, o con bajo peso al nacer."
+      "text": "Se ve poca areola bajo el mentón."
     },
     {
       "file": "s05_g02",
-      "text": "En el recién nacido de término, el hierro empieza a los cuatro meses, a un miligramo por kilo al día, hasta el año."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Y a los seis meses se introduce la primera comida, siempre con aceite vegetal agregado, y nunca con miel, sal ni azúcar."
-    },
-    {
-      "file": "s05_g04",
-      "text": "En el prematuro o el niño bajo dos mil quinientos gramos, el hierro empieza antes, a los dos meses, y a mayor dosis, por sus depósitos más bajos."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Y a los seis meses, igual que en el niño de término, se introduce la primera comida, con aceite vegetal, y nunca con miel, sal ni azúcar."
+      "text": "Y en el deficiente, el mentón queda lejos y se ve mucha areola. Produce grietas."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos en una tabla. La vitamina D es igual para todos: cuatrocientas unidades al día, desde el mes de vida."
+      "text": "Ahora ordenemos toda la suplementación en un solo árbol de decisión. Un recién nacido llega a su primer control. La vitamina D es igual para todos: cuatrocientas unidades al día, desde el mes de vida hasta el año. Para el hierro sí importa cómo nació."
     },
     {
       "file": "s06_g01",
-      "text": "El hierro sí cambia: en el de término, un miligramo por kilo desde los cuatro meses; en el prematuro, hasta tres veces esa dosis, y dos meses antes."
+      "text": "Pregúntate si nació de término y con peso adecuado, o si fue prematuro, o con bajo peso al nacer."
     },
     {
       "file": "s06_g02",
-      "text": "La primera comida se introduce a los seis meses en ambos casos, siempre con aceite vegetal agregado."
+      "text": "En el recién nacido de término, el hierro empieza a los cuatro meses, a un miligramo por kilo al día, hasta el año."
     },
     {
       "file": "s06_g03",
-      "text": "Y la miel, la sal y el azúcar están prohibidas en cualquier lactante durante todo el primer año, sin excepción por prematurez."
+      "text": "Y a los seis meses se introduce la primera comida, siempre con aceite vegetal agregado, y nunca con miel, sal ni azúcar."
+    },
+    {
+      "file": "s06_g04",
+      "text": "En el prematuro o el niño bajo dos mil quinientos gramos, el hierro empieza antes, a los dos meses, y a mayor dosis, por sus depósitos más bajos."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y a los seis meses, igual que en el niño de término, se introduce la primera comida, con aceite vegetal, y nunca con miel, sal ni azúcar."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos con un caso. Lactante de dos meses, nacido a las treinta y tres semanas, con mil novecientos cincuenta gramos al nacer. Está con lactancia materna exclusiva, y recibe vitamina D desde los treinta días de vida."
+      "text": "Repasemos en una tabla. La vitamina D es igual para todos: cuatrocientas unidades al día, desde el mes de vida."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la indicación de hierro más adecuada en este control?"
+      "text": "El hierro sí cambia: en el de término, un miligramo por kilo desde los cuatro meses; en el prematuro, hasta tres veces esa dosis, y dos meses antes."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: esperar hasta los seis meses, iniciar hierro a dos o tres miligramos por kilo desde hoy, iniciarlo a un miligramo por kilo a los cuatro meses, no suplementar si la madre come carnes rojas, o dar hierro dextrano mensual. Piénsalo."
+      "text": "La primera comida se introduce a los seis meses en ambos casos, siempre con aceite vegetal agregado."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B. Este lactante nació antes de las treinta y siete semanas y con menos de dos mil quinientos gramos, así que le corresponde el esquema del prematuro: empieza ahora, a los dos meses, y a la dosis más alta, entre dos y tres miligramos por kilo. Esperar a los cuatro meses, como haces con el niño de término, sería tarde para él."
+      "text": "Y la miel, la sal y el azúcar están prohibidas en cualquier lactante durante todo el primer año, sin excepción por prematurez."
     },
     {
       "file": "s08_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciséis. Lactante de tres meses, que pesa siete kilos, con lactancia materna exclusiva a libre demanda. Su peso para la edad está en más uno, y su peso para la talla en más dos."
+      "text": "Vamos con un caso. Lactante de dos meses, nacido a las treinta y tres semanas, con mil novecientos cincuenta gramos al nacer. Está con lactancia materna exclusiva, y recibe vitamina D desde los treinta días de vida."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la indicación de hierro más adecuada en este control?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: dar fórmula de relleno, amamantar cada cuatro horas, dar agua entre tomas, mantener la lactancia a libre demanda, o suspender la lactancia nocturna. Piénsalo."
+      "text": "Las opciones: esperar hasta los seis meses, iniciar hierro a dos o tres miligramos por kilo desde hoy, iniciarlo a un miligramo por kilo a los cuatro meses, no suplementar si la madre come carnes rojas, o dar hierro dextrano mensual. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la D. El peso para la talla en más dos marca obesidad, pero mientras el lactante esté en lactancia materna exclusiva, no se toca nada: ni horario, ni agua, ni fórmula. La lactancia a libre demanda se regula sola, y esa es siempre la respuesta antes de los seis meses."
+      "text": "Es la B. Este lactante nació antes de las treinta y siete semanas y con menos de dos mil quinientos gramos, así que le corresponde el esquema del prematuro: empieza ahora, a los dos meses, y a la dosis más alta, entre dos y tres miligramos por kilo. Esperar a los cuatro meses, como haces con el niño de término, sería tarde para él."
     },
     {
       "file": "s09_g00",
-      "text": "Una pregunta del banco EUNACOM. Una madre consulta en su centro de salud sobre la alimentación de su hijo de siete meses, que recibe almuerzo desde los seis meses. La abuela recomienda endulzar el puré de fruta con miel de abeja, y agregar sal a la sopa."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciséis. Lactante de tres meses, que pesa siete kilos, con lactancia materna exclusiva a libre demanda. Su peso para la edad está en más uno, y su peso para la talla en más dos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la recomendación médica correcta?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: permitir la miel y restringir la sal, permitir la sal y prohibir la miel, prohibir ambas por completo, autorizar las dos en poca cantidad, o diluir la miel en leche tibia. Piénsalo."
+      "text": "Las opciones: dar fórmula de relleno, amamantar cada cuatro horas, dar agua entre tomas, mantener la lactancia a libre demanda, o suspender la lactancia nocturna. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C. La miel está prohibida en todo menor de un año por el riesgo de botulismo del lactante, y ese riesgo no se elimina diluyéndola ni cocinándola. Y la sal y el azúcar tampoco se agregan durante el primer año, por el riñón todavía inmaduro del lactante. La abuela, con cariño, te está proponiendo justo lo que nunca debes autorizar."
+      "text": "Es la D. El peso para la talla en más dos marca obesidad, pero mientras el lactante esté en lactancia materna exclusiva, no se toca nada: ni horario, ni agua, ni fórmula. La lactancia a libre demanda se regula sola, y esa es siempre la respuesta antes de los seis meses."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Vitamina D: cuatrocientas unidades al día, desde el mes de vida hasta el año, igual para todos."
+      "text": "Una pregunta del banco EUNACOM. Una madre consulta en su centro de salud sobre la alimentación de su hijo de siete meses, que recibe almuerzo desde los seis meses. La abuela recomienda endulzar el puré de fruta con miel de abeja, y agregar sal a la sopa."
     },
     {
       "file": "s10_g01",
-      "text": "El hierro cambia con la prematurez: en el de término, un miligramo por kilo desde los cuatro meses; en el prematuro, más dosis y antes, desde los dos meses."
+      "text": "¿Cuál es la recomendación médica correcta?"
     },
     {
       "file": "s10_g02",
+      "text": "Las opciones: permitir la miel y restringir la sal, permitir la sal y prohibir la miel, prohibir ambas por completo, autorizar las dos en poca cantidad, o diluir la miel en leche tibia. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. La miel está prohibida en todo menor de un año por el riesgo de botulismo del lactante, y ese riesgo no se elimina diluyéndola ni cocinándola. Y la sal y el azúcar tampoco se agregan durante el primer año, por el riñón todavía inmaduro del lactante. La abuela, con cariño, te está proponiendo justo lo que nunca debes autorizar."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Vitamina D: cuatrocientas unidades al día, desde el mes de vida hasta el año, igual para todos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "El hierro cambia con la prematurez: en el de término, un miligramo por kilo desde los cuatro meses; en el prematuro, más dosis y antes, desde los dos meses."
+    },
+    {
+      "file": "s11_g02",
       "text": "Y nunca en el primer año: miel, sal, azúcar y leche de vaca entera. Si te llevas una sola idea de hoy: la vitamina D es igual para todos, pero el hierro depende de cómo nació el niño. Nos vemos en la próxima clase."
     }
   ]

@@ -107,6 +107,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Curvas de crecimiento',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-01/S1_peso-edad-oms-ninas__propio.svg', label: 'Peso para la edad', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Desviaciones estándar',
+          say: 'Las curvas de la OMS muestran el peso en desviaciones estándar. Más importante que un punto aislado es la tendencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol: qué indicador usar y qué hacer con cada resultado.',
     },

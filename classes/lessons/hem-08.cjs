@@ -203,6 +203,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Esferocitosis hereditaria',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-08/01_esferocitosis-hereditaria__amir-hemato_p34.jpg', label: 'Esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
+      ],
+      steps: [
+        { note: 'Sin palidez central',
+          say: 'Los esferocitos son pequeños, redondos y sin palidez central. Se rompen en el bazo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres en un solo árbol, partiendo desde el Coombs.',
     },

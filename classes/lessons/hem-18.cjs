@@ -260,6 +260,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Linfoma de Hodgkin',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-18/01_celula-de-reed-sternberg__cto-hemato_p69.jpg', label: 'Reed-Sternberg', credit: 'Manual CTO Hematología 14.ª ed., p. 69' },
+        { src: 'biblioteca/06_hematologia/hem-18/02_ensanchamiento-mediastinico-hodgkin__cto-hemato_p71.jpg', label: 'Masa mediastínica', credit: 'Manual CTO Hematología 14.ª ed., p. 71' },
+      ],
+      steps: [
+        { note: 'Célula con ojos de búho',
+          say: 'La célula de Reed Sternberg tiene dos núcleos con nucléolos grandes, como ojos de búho.' },
+        { note: 'Mediastino ensanchado',
+          say: 'Y el Hodgkin se presenta a menudo como una masa en el mediastino.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del ganglio que no se va.',
     },

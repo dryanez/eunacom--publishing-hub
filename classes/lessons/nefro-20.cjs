@@ -144,6 +144,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Estenosis de arteria renal',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-20/01_angiotc_arteria_renal_fmd__harrison_p2132.jpg', label: 'AngioTC renal', credit: 'Harrison 21.ª ed., p. 2132' },
+      ],
+      steps: [
+        { note: 'Un riñón que pierde flujo',
+          say: 'En esta angiotomografía, una enfermedad de la arteria renal deja sin flujo el polo superior del riñón derecho. En un joven, piensa en displasia fibromuscular; en un mayor, en ateroesclerosis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: de la sospecha al tratamiento, tal como lo razonas en el examen.',
     },

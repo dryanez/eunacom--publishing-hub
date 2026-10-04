@@ -104,6 +104,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Dermatitis atópica según la edad',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg', label: 'Lactante', credit: 'Fitzpatrick 7.ª ed., p. 189 (figura completa, ~480 px)' },
+        { src: 'biblioteca/11_dermatologia/derma-06/02_atopica_escolar__fitzpatrick_p189.jpg', label: 'Escolar', credit: 'Fitzpatrick 7.ª ed., p. 189 (figura completa, ~480 px)' },
+      ],
+      steps: [
+        { note: 'Mejillas y superficies extensoras',
+          say: 'En el lactante, la dermatitis atópica afecta las mejillas y las superficies extensoras.' },
+        { note: 'Pliegues',
+          say: 'En el escolar se va a los pliegues: codos y rodillas, con liquenificación.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: del lactante con eccema hasta la complicación que no se puede pasar por alto.',
     },

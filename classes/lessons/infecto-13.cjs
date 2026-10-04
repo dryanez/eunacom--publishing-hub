@@ -173,6 +173,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Úlceras genitales',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-13/01_chancroide__cdc-phil-3728.jpg', label: 'Chancroide', credit: 'CDC PHIL 3728 (CDC/Joe Miller), dominio público' },
+        { src: 'biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg', label: 'Herpes genital', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' },
+        { src: 'biblioteca/07_infectologia/infecto-13/02_condilomas-acuminados-verrugas-vph__cto-derma_p18.jpg', label: 'Condilomas acuminados', credit: 'Manual CTO Dermatología 14.ª ed., p. 18' },
+      ],
+      steps: [
+        { note: 'Úlcera dolorosa, sucia',
+          say: 'El chancroide es una úlcera dolorosa, de bordes irregulares y fondo sucio. El dolor la separa del chancro sifilítico.' },
+        { note: 'Vesículas y erosiones dolorosas',
+          say: 'El herpes genital da vesículas agrupadas que se rompen y dejan erosiones dolorosas.' },
+        { note: 'Verrugas por VPH',
+          say: 'Y los condilomas acuminados son verrugas por virus papiloma.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los tres síndromes en un solo árbol de decisión.',
     },

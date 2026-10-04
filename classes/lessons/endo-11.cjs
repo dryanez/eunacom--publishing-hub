@@ -250,6 +250,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El síndrome de Cushing',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg', label: 'Facies de luna llena', credit: 'Wikimedia Commons «CushingsFace.jpg», CC BY 2.5, Ozlem Celik, Mutlu Niyazoglu, Hikmet Soylu and Pinar Kadiogl' },
+        { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias_cushing__fitzpatrick_p1515.jpg', label: 'Estrías violáceas', credit: 'Fitzpatrick 7.ª ed., Fig. 152-15' },
+        { src: 'biblioteca/05_endocrinologia/endo-11/02_habito_cushing__bailey_p862.jpg', label: 'Obesidad central', credit: 'Bailey & Love 27.ª ed., Fig. 52.5' },
+      ],
+      steps: [
+        { note: 'Cara redonda y roja',
+          say: 'La cara redonda, roja, de luna llena. Esta paciente lo desarrolló por corticoides inhalados: el Cushing iatrogénico es el más frecuente.' },
+        { note: 'Anchas y violáceas',
+          say: 'Las estrías del Cushing son anchas, de más de un centímetro, y violáceas. Las estrías del embarazo o del aumento de peso son delgadas y blancas.' },
+        { note: 'Tronco grueso, extremidades delgadas',
+          say: 'Y la obesidad es central: tronco grueso con extremidades delgadas, por la pérdida de masa muscular.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la paciente cushingoide hasta el tratamiento.',
     },

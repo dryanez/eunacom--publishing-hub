@@ -2,7 +2,7 @@
   "id": "gastro-01",
   "title": "Gastroenterologia 1.1: Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
   "specialty": "Gastroenterología",
-  "chars": 10596,
+  "chars": 10966,
   "segments": [
     {
       "file": "s00_g00",
@@ -130,118 +130,126 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Partimos del paciente que consulta por pirosis y regurgitación ácida. Antes de indicar cualquier fármaco, la primera pregunta del examen es siempre la misma."
+      "text": "Esto es un esófago de Barrett: la mucosa rosada y pálida del esófago se reemplaza por lengüetas color salmón que suben desde la unión. Ese cambio de color es la metaplasia, y por eso se biopsia."
     },
     {
       "file": "s06_g01",
-      "text": "¿Tiene signos de alarma? Disfagia, odinofagia, baja de peso, anemia, hemorragia, síntomas que lo despiertan, inicio después de los cincuenta años o pirosis de más de cinco años. Cualquiera de ellos cambia la conducta."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si hay alarma, la conducta es endoscopía digestiva alta con biopsias. La trampa del examen es duplicar el omeprazol sin estudiar: eso retrasa el diagnóstico de un cáncer."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si la biopsia muestra metaplasia intestinal, es esófago de Barrett. Lo que decide la conducta no es la metaplasia, sino la displasia."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Barrett sin displasia: inhibidor de la bomba de protones continuo y endoscopía de vigilancia. Operar solo por la metaplasia es una respuesta incorrecta clásica."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Con displasia de bajo grado se indica ablación endoscópica; con displasia de alto grado, resección endoscópica o esofagectomía. Se deriva al especialista."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Sin alarma, miramos la presentación. ¿Es típica, con pirosis y regurgitación en un paciente joven, o atípica, con tos crónica, disfonía o dolor torácico?"
-    },
-    {
-      "file": "s06_g07",
-      "text": "Cuadro típico sin alarma: el diagnóstico es clínico. Indicamos omeprazol en ayunas, treinta a sesenta minutos antes del desayuno, por cuatro a ocho semanas, más medidas generales. La respuesta confirma el diagnóstico."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Si la clínica es atípica o hay duda diagnóstica, el patrón de referencia es la pH-metría esofágica de veinticuatro horas. También se usa antes de una cirugía antirreflujo."
+      "text": "Y esto es una esofagitis erosiva: erosiones lineales, rojas, justo sobre la unión con el estómago. Es el daño directo del ácido, y su extensión es la que clasifica la gravedad."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas que más se repiten. Pirosis típica, menor de cincuenta, sin alarma: prueba con IBP por cuatro a ocho semanas. El error es pedir una endoscopía de entrada."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Partimos del paciente que consulta por pirosis y regurgitación ácida. Antes de indicar cualquier fármaco, la primera pregunta del examen es siempre la misma."
     },
     {
       "file": "s07_g01",
-      "text": "En cambio, si a la pirosis se suma disfagia o baja de peso, ahora sí va la endoscopía. Y el error es el contrario: subir la dosis de IBP sin estudiar."
+      "text": "¿Tiene signos de alarma? Disfagia, odinofagia, baja de peso, anemia, hemorragia, síntomas que lo despiertan, inicio después de los cincuenta años o pirosis de más de cinco años. Cualquiera de ellos cambia la conducta."
     },
     {
       "file": "s07_g02",
-      "text": "Si hay duda diagnóstica o la clínica es atípica, la pH-metría de veinticuatro horas, en vez de dejar al paciente con tratamiento empírico para siempre."
+      "text": "Si hay alarma, la conducta es endoscopía digestiva alta con biopsias. La trampa del examen es duplicar el omeprazol sin estudiar: eso retrasa el diagnóstico de un cáncer."
     },
     {
       "file": "s07_g03",
-      "text": "Barrett sin displasia: IBP y vigilancia. Operar por la metaplasia es la respuesta incorrecta más clásica del tema."
+      "text": "Si la biopsia muestra metaplasia intestinal, es esófago de Barrett. Lo que decide la conducta no es la metaplasia, sino la displasia."
     },
     {
       "file": "s07_g04",
-      "text": "Barrett con displasia de alto grado: resección endoscópica o esofagectomía. Aquí la trampa es quedarse corto, solo subiendo el IBP."
+      "text": "Barrett sin displasia: inhibidor de la bomba de protones continuo y endoscopía de vigilancia. Operar solo por la metaplasia es una respuesta incorrecta clásica."
     },
     {
       "file": "s07_g05",
-      "text": "Y una última, que te va a servir en la pregunta real que viene. Si la endoscopía muestra la línea Z más de dos centímetros por encima de la impresión del diafragma, eso es una hernia hiatal por deslizamiento. No es Barrett: el Barrett solo lo diagnostica la biopsia."
+      "text": "Con displasia de bajo grado se indica ablación endoscópica; con displasia de alto grado, resección endoscópica o esofagectomía. Se deriva al especialista."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Sin alarma, miramos la presentación. ¿Es típica, con pirosis y regurgitación en un paciente joven, o atípica, con tos crónica, disfonía o dolor torácico?"
+    },
+    {
+      "file": "s07_g07",
+      "text": "Cuadro típico sin alarma: el diagnóstico es clínico. Indicamos omeprazol en ayunas, treinta a sesenta minutos antes del desayuno, por cuatro a ocho semanas, más medidas generales. La respuesta confirma el diagnóstico."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Si la clínica es atípica o hay duda diagnóstica, el patrón de referencia es la pH-metría esofágica de veinticuatro horas. También se usa antes de una cirugía antirreflujo."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de treinta y dos años, oficinista, con cuatro meses de ardor retroesternal que empeora después de almorzar y al acostarse, y regurgitación ácida. Niega disfagia, odinofagia, vómitos, baja de peso o anemia, y su examen es normal."
+      "text": "Repasemos las trampas que más se repiten. Pirosis típica, menor de cincuenta, sin alarma: prueba con IBP por cuatro a ocho semanas. El error es pedir una endoscopía de entrada."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "En cambio, si a la pirosis se suma disfagia o baja de peso, ahora sí va la endoscopía. Y el error es el contrario: subir la dosis de IBP sin estudiar."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: iniciar omeprazol por cuatro a ocho semanas, pedir una endoscopía con biopsias, pedir una pH-impedanciometría, indicar ranitidina, o pedir una radiografía con bario. Tómate unos segundos."
+      "text": "Si hay duda diagnóstica o la clínica es atípica, la pH-metría de veinticuatro horas, en vez de dejar al paciente con tratamiento empírico para siempre."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta es la A. Piensa en lo que acabamos de ver: es joven, el cuadro es típico, y buscamos alarma con cuidado: no hay ninguna. Entonces el diagnóstico es clínico y la conducta es la prueba con omeprazol en ayunas. La endoscopía es la trampa: sería correcta con alarma, o si los síntomas empezaran después de los cincuenta. La pH-metría es para la duda o la clínica atípica. Y la ranitidina, ya lo dijimos, está desplazada."
+      "text": "Barrett sin displasia: IBP y vigilancia. Operar por la metaplasia es la respuesta incorrecta más clásica del tema."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Barrett con displasia de alto grado: resección endoscópica o esofagectomía. Aquí la trampa es quedarse corto, solo subiendo el IBP."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y una última, que te va a servir en la pregunta real que viene. Si la endoscopía muestra la línea Z más de dos centímetros por encima de la impresión del diafragma, eso es una hernia hiatal por deslizamiento. No es Barrett: el Barrett solo lo diagnostica la biopsia."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con pirosis y regurgitación. La endoscopía muestra la línea Z a veinte centímetros de la arcada dentaria, y la impresión diafragmática a treinta."
+      "text": "Vamos con un caso. Hombre de treinta y dos años, oficinista, con cuatro meses de ardor retroesternal que empeora después de almorzar y al acostarse, y regurgitación ácida. Niega disfagia, odinofagia, vómitos, baja de peso o anemia, y su examen es normal."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: esófago de Barrett, hernia hiatal por deslizamiento, hernia paraesofágica, acalasia, o esofagitis erosiva."
+      "text": "Tienes cinco opciones: iniciar omeprazol por cuatro a ocho semanas, pedir una endoscopía con biopsias, pedir una pH-impedanciometría, indicar ranitidina, o pedir una radiografía con bario. Tómate unos segundos."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, hernia hiatal por deslizamiento. La línea Z, que marca la unión entre el esófago y el estómago, debería estar a la altura del diafragma. Aquí está diez centímetros más arriba: el cardias subió al tórax. Y fíjate en el distractor: Barrett suena tentador porque hay reflujo, pero el Barrett se diagnostica con biopsia, no con una regla."
+      "text": "La respuesta es la A. Piensa en lo que acabamos de ver: es joven, el cuadro es típico, y buscamos alarma con cuidado: no hay ninguna. Entonces el diagnóstico es clínico y la conducta es la prueba con omeprazol en ayunas. La endoscopía es la trampa: sería correcta con alarma, o si los síntomas empezaran después de los cincuenta. La pH-metría es para la duda o la clínica atípica. Y la ranitidina, ya lo dijimos, está desplazada."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Si el cuadro es típico, en un paciente joven y sin alarma, el diagnóstico es clínico y basta la prueba con IBP."
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con pirosis y regurgitación. La endoscopía muestra la línea Z a veinte centímetros de la arcada dentaria, y la impresión diafragmática a treinta."
     },
     {
       "file": "s10_g01",
-      "text": "Pero basta un solo signo de alarma para que la respuesta sea endoscopía con biopsias."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "El IBP se toma en ayunas, antes del desayuno."
+      "text": "Las opciones son: esófago de Barrett, hernia hiatal por deslizamiento, hernia paraesofágica, acalasia, o esofagitis erosiva."
     },
     {
       "file": "s10_g03",
+      "text": "Es la B, hernia hiatal por deslizamiento. La línea Z, que marca la unión entre el esófago y el estómago, debería estar a la altura del diafragma. Aquí está diez centímetros más arriba: el cardias subió al tórax. Y fíjate en el distractor: Barrett suena tentador porque hay reflujo, pero el Barrett se diagnostica con biopsia, no con una regla."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Si el cuadro es típico, en un paciente joven y sin alarma, el diagnóstico es clínico y basta la prueba con IBP."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Pero basta un solo signo de alarma para que la respuesta sea endoscopía con biopsias."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El IBP se toma en ayunas, antes del desayuno."
+    },
+    {
+      "file": "s11_g03",
       "text": "Y un dato que nos sirve de puente para la próxima clase: el Helicobacter pylori no se erradica por reflujo, porque no tienen relación. Donde sí es obligatorio erradicarlo es en la úlcera péptica, que es justamente lo que viene."
     },
     {
-      "file": "s10_g04",
+      "file": "s11_g04",
       "text": "El Barrett es un diagnóstico de biopsia, no de centímetros."
     },
     {
-      "file": "s10_g05",
+      "file": "s11_g05",
       "text": "Y lo que decide la conducta es la displasia. Si te llevas una sola idea de hoy: en el reflujo, la pregunta es si hay alarma; en el Barrett, si hay displasia. Nos vemos en la próxima clase."
     }
   ]

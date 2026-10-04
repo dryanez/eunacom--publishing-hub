@@ -94,6 +94,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Úlceras corneales',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg', label: 'Úlcera dendrítica', credit: 'Manual CTO Oftalmología 14.ª ed., p. 40' },
+        { src: 'biblioteca/12_oftalmologia/oftal-04/02_ulcera-corneal-con-hipopion__cto-oftalmo_p39.jpg', label: 'Úlcera con hipopion', credit: 'Manual CTO Oftalmología 14.ª ed., p. 39' },
+      ],
+      steps: [
+        { note: 'Herpes: nunca corticoides',
+          say: 'La úlcera dendrítica del herpes se tiñe con fluoresceína. Jamás corticoides.' },
+        { note: 'Pus en la cámara anterior',
+          say: 'Y una úlcera bacteriana con hipopion, pus en la cámara anterior, es una urgencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: el patrón de tinción decide el camino.',
     },

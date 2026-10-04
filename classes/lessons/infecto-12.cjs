@@ -165,6 +165,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Sífilis',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg', label: 'Chancro', credit: 'CDC PHIL 6803 (CDC/M. Rein), dominio público' },
+        { src: 'biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg', label: 'Sífilis secundaria', credit: 'Manual AMIR Infecciosas, p. 59' },
+        { src: 'biblioteca/07_infectologia/infecto-12/02_condilomas-planos__cto-infecto_p99.jpg', label: 'Condilomas planos', credit: 'Manual CTO Infecciosas 14.ª ed., p. 99' },
+      ],
+      steps: [
+        { note: 'Úlcera indolora, de base limpia',
+          say: 'El chancro de la sífilis primaria es una úlcera indolora, de base limpia e indurada.' },
+        { note: 'Lesiones en palmas y plantas',
+          say: 'La secundaria da lesiones en palmas y plantas.' },
+        { note: 'Placas húmedas',
+          say: 'Y los condilomas planos, placas húmedas en zonas de roce, muy contagiosas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos la serología y el tratamiento en un solo árbol.',
     },

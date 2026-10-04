@@ -217,6 +217,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Enfermedad de Chagas',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-15/01_signo_romana__cdc.jpg', label: 'Signo de Romaña', credit: 'CDC, CC0' },
+        { src: 'biblioteca/07_infectologia/infecto-15/02_megaesofago_chagas__commons.jpg', label: 'Megaesófago', credit: 'Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons' },
+        { src: 'biblioteca/07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg', label: 'ECG', credit: 'ECG from Basics to Essentials, p. 119' },
+      ],
+      steps: [
+        { note: 'Edema palpebral unilateral',
+          say: 'El signo de Romaña es el edema de un párpado en el sitio de la picadura. Es la fase aguda.' },
+        { note: 'Esófago muy dilatado',
+          say: 'En la fase crónica aparece el megaesófago.' },
+        { note: 'Bloqueo de rama derecha más hemibloqueo',
+          say: 'Y la miocardiopatía chagásica da bloqueo de rama derecha con hemibloqueo anterior izquierdo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión.',
     },

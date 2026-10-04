@@ -94,6 +94,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Patología anal',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-12/01_prolapso-hemorroidal-grado-iv__cto-digestivo_p149.jpg', label: 'Hemorroides grado cuatro', credit: 'Manual CTO Digestivo 14.ª ed., p. 149' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg', label: 'Fisura anal', credit: 'Wikimedia Commons «Anal fissure 1.jpg», Public domain, Bernardo Gui' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-12/02_fistulas-perianales__cto-digestivo_p150.jpg', label: 'Fístulas perianales', credit: 'Manual CTO Digestivo 14.ª ed., p. 150' },
+      ],
+      steps: [
+        { note: 'Prolapso que no se reduce',
+          say: 'Este es un prolapso hemorroidal grado cuatro: las hemorroides salen y no se pueden reducir. Ese grado ya es quirúrgico.' },
+        { note: 'Desgarro en la línea media posterior',
+          say: 'La flecha muestra una fisura anal: un desgarro lineal, casi siempre en la línea media posterior. Duele mucho al defecar, y eso la distingue de las hemorroides.' },
+        { note: 'Trayectos desde el canal anal',
+          say: 'Y este esquema muestra los trayectos de las fístulas perianales, que nacen de una glándula anal infectada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

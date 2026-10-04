@@ -155,6 +155,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Absceso pulmonar',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-09/01_absceso-pulmonar__cto-radiologia_p16.jpg', label: 'Absceso pulmonar', credit: 'Manual CTO Radiología 14.ª ed., p. 16' },
+      ],
+      steps: [
+        { note: 'Cavidad con nivel hidroaéreo',
+          say: 'Esto es un absceso pulmonar: una cavidad de pared gruesa con un nivel hidroaéreo adentro, la línea recta entre el líquido y el aire. Se trata con antibióticos por semanas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, desde la sospecha hasta la cirugía.',
     },

@@ -162,6 +162,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Acromegalia',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg', label: 'Fenotipo acromegálico', credit: 'Manual CTO Endocrinología 14.ª ed., p. 33' },
+      ],
+      steps: [
+        { note: 'Manos y rasgos grandes',
+          say: 'La acromegalia agranda manos, pies, nariz, mandíbula y lengua, lentamente, durante años. El paciente nota que le quedan chicos los anillos y los zapatos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol de decisión que vas a usar en el examen.',
     },

@@ -138,6 +138,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Absceso tuboovárico',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_1__cto-gyo_p102.jpg', label: 'Absceso tuboovárico', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
+      ],
+      steps: [
+        { note: 'Masa compleja anexial',
+          say: 'En la ecografía, el absceso tuboovárico es una masa compleja anexial. Requiere hospitalización.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión.',
     },

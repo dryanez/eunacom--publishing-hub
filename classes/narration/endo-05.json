@@ -2,7 +2,7 @@
   "id": "endo-05",
   "title": "Endocrinología 1.5: Tiroiditis: Hashimoto, De Quervain (Subaguda), Silente y Fármacos (Amiodarona, Litio)",
   "specialty": "Endocrinología",
-  "chars": 12881,
+  "chars": 13016,
   "segments": [
     {
       "file": "s00_g00",
@@ -138,91 +138,79 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol de decisión, con las dos preguntas de la clase: si duele, y si capta. Paciente con alteración tiroidea y sospecha de tiroiditis. La primera pregunta es si toma amiodarona o litio, porque cambia todo el razonamiento."
-    },
-    {
-      "file": "s07_g01",
-      "text": "¿Hay un fármaco de por medio?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si es litio, con bocio e hipotiroidismo: se mantiene el litio y se agrega levotiroxina."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si es amiodarona con tirotoxicosis, pregunta cómo estaba la tiroides antes, y mira el Doppler y la captación."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Con bocio previo, Doppler vascular y captación detectable: tipo uno, tiamazol a dosis altas."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Con tiroides previa normal, avascular y sin captación: tipo dos, prednisona."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Sin fármacos, la pregunta es si la tiroides duele."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Si duele con eritema, fluctuación y leucocitosis, es un absceso: drenaje y antibióticos endovenosos."
-    },
-    {
-      "file": "s07_g08",
-      "text": "Si duele después de un cuadro viral, con VHS alta y captación nula: De Quervain. AINE, prednisona si es refractaria, y propranolol para los síntomas."
-    },
-    {
-      "file": "s07_g09",
-      "text": "Si no duele: Hashimoto, con bocio y anticuerpos altos, que se trata con levotiroxina según la TSH; o la silente y postparto, que pasa por tres fases y se maneja con propranolol y levotiroxina transitoria."
+      "text": "En la ecografía, la tiroides de Hashimoto se ve heterogénea y oscura, con tractos fibrosos. Se confirma con anticuerpos antiperoxidasa."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos. De Quervain: dolor irradiado, VHS muy alta y captación en blanco. AINE, prednisona si no cede, y propranolol para los síntomas."
+      "text": "Juntemos todo en un árbol de decisión, con las dos preguntas de la clase: si duele, y si capta. Paciente con alteración tiroidea y sospecha de tiroiditis. La primera pregunta es si toma amiodarona o litio, porque cambia todo el razonamiento."
     },
     {
       "file": "s08_g01",
-      "text": "Hashimoto: bocio indoloro y antiperoxidasa muy positivos. Levotiroxina de por vida según la TSH."
+      "text": "¿Hay un fármaco de por medio?"
     },
     {
       "file": "s08_g02",
-      "text": "Silente o postparto: indolora, con las mismas tres fases. Propranolol y, si hace falta, levotiroxina transitoria."
+      "text": "Si es litio, con bocio e hipotiroidismo: se mantiene el litio y se agrega levotiroxina."
     },
     {
       "file": "s08_g03",
-      "text": "Amiodarona tipo uno: bocio previo y Doppler vascular. Tiamazol a dosis altas."
+      "text": "Si es amiodarona con tirotoxicosis, pregunta cómo estaba la tiroides antes, y mira el Doppler y la captación."
     },
     {
       "file": "s08_g04",
-      "text": "Amiodarona tipo dos: tiroides normal, destrucción y captación nula. Prednisona. Confundir estos dos tipos es el error más frecuente."
+      "text": "Con bocio previo, Doppler vascular y captación detectable: tipo uno, tiamazol a dosis altas."
     },
     {
       "file": "s08_g05",
-      "text": "Litio: bocio con TSH alta. Se mantiene el litio y se agrega levotiroxina."
+      "text": "Con tiroides previa normal, avascular y sin captación: tipo dos, prednisona."
     },
     {
       "file": "s08_g06",
-      "text": "Y la supurada: eritema, fluctuación y leucocitosis. Drenaje y antibióticos endovenosos."
+      "text": "Sin fármacos, la pregunta es si la tiroides duele."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Si duele con eritema, fluctuación y leucocitosis, es un absceso: drenaje y antibióticos endovenosos."
+    },
+    {
+      "file": "s08_g08",
+      "text": "Si duele después de un cuadro viral, con VHS alta y captación nula: De Quervain. AINE, prednisona si es refractaria, y propranolol para los síntomas."
+    },
+    {
+      "file": "s08_g09",
+      "text": "Si no duele: Hashimoto, con bocio y anticuerpos altos, que se trata con levotiroxina según la TSH; o la silente y postparto, que pasa por tres fases y se maneja con propranolol y levotiroxina transitoria."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos a un caso. Hombre de sesenta y ocho años con fibrilación auricular, que usa amiodarona hace dos años, sin bocio ni enfermedad tiroidea previa. Consulta por palpitaciones y baja de cuatro kilos. Tiene la TSH suprimida y la T cuatro libre alta. El Doppler muestra una tiroides de tamaño normal y sin vascularización, y la captación de yodo es nula."
+      "text": "Repasemos. De Quervain: dolor irradiado, VHS muy alta y captación en blanco. AINE, prednisona si no cede, y propranolol para los síntomas."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "Hashimoto: bocio indoloro y antiperoxidasa muy positivos. Levotiroxina de por vida según la TSH."
     },
     {
       "file": "s09_g02",
-      "text": "Las alternativas: tiamazol a dosis altas, prednisona, radioyodo, levotiroxina, o tiroidectomía de urgencia. Piénsalo."
+      "text": "Silente o postparto: indolora, con las mismas tres fases. Propranolol y, si hace falta, levotiroxina transitoria."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, prednisona. Busca las dos pistas: la tiroides era normal, y ahora está avascular y no capta. Eso es destrucción, la amiodarona tipo dos, y la destrucción se trata con corticoides. El distractor tentador es el tiamazol a dosis altas, que es correcto en el tipo uno, cuando hay bocio previo y la glándula está fabricando hormona. Aquí no hay nada que bloquear. Y el radioyodo no tiene sentido en una glándula que no capta."
+      "text": "Amiodarona tipo uno: bocio previo y Doppler vascular. Tiamazol a dosis altas."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Amiodarona tipo dos: tiroides normal, destrucción y captación nula. Prednisona. Confundir estos dos tipos es el error más frecuente."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Litio: bocio con TSH alta. Se mantiene el litio y se agrega levotiroxina."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y la supurada: eritema, fluctuación y leucocitosis. Drenaje y antibióticos endovenosos."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecinueve. Mujer de veintitrés años con una semana de malestar, sensación febril, artralgias y palpitaciones. La tiroides está del doble de su tamaño y muy dolorosa. TSH suprimida, T cuatro libre alta, y una captación de yodo de apenas dos por ciento."
+      "text": "Vamos a un caso. Hombre de sesenta y ocho años con fibrilación auricular, que usa amiodarona hace dos años, sin bocio ni enfermedad tiroidea previa. Consulta por palpitaciones y baja de cuatro kilos. Tiene la TSH suprimida y la T cuatro libre alta. El Doppler muestra una tiroides de tamaño normal y sin vascularización, y la captación de yodo es nula."
     },
     {
       "file": "s10_g01",
@@ -230,15 +218,15 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: tiamazol, antiinflamatorios no esteroidales, propiltiouracilo, betabloqueadores, o radioyodo. Piénsalo."
+      "text": "Las alternativas: tiamazol a dosis altas, prednisona, radioyodo, levotiroxina, o tiroidectomía de urgencia. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, los AINE. Dolor tiroideo, fiebre y captación casi nula: De Quervain. El tiamazol y el propiltiouracilo no sirven, porque no hay síntesis que bloquear, y el radioyodo no tiene dónde entrar. El distractor más fino es el betabloqueador: sí se usa, pero solo para los síntomas. El tratamiento de la enfermedad es el antiinflamatorio."
+      "text": "Es la B, prednisona. Busca las dos pistas: la tiroides era normal, y ahora está avascular y no capta. Eso es destrucción, la amiodarona tipo dos, y la destrucción se trata con corticoides. El distractor tentador es el tiamazol a dosis altas, que es correcto en el tipo uno, cuando hay bocio previo y la glándula está fabricando hormona. Aquí no hay nada que bloquear. Y el radioyodo no tiene sentido en una glándula que no capta."
     },
     {
       "file": "s11_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil diecisiete. Mujer de treinta y tres años con una semana de dolor cervical intenso y sensación febril. Tiroides del doble del tamaño normal, muy dolorosa. TSH baja, T cuatro libre alta, y captación de yodo de dos por ciento."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecinueve. Mujer de veintitrés años con una semana de malestar, sensación febril, artralgias y palpitaciones. La tiroides está del doble de su tamaño y muy dolorosa. TSH suprimida, T cuatro libre alta, y una captación de yodo de apenas dos por ciento."
     },
     {
       "file": "s11_g01",
@@ -246,15 +234,15 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: propiltiouracilo, ibuprofeno, prednisona, levotiroxina, o yodo radiactivo. Piénsalo."
+      "text": "Las opciones: tiamazol, antiinflamatorios no esteroidales, propiltiouracilo, betabloqueadores, o radioyodo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B, ibuprofeno. Es el mismo De Quervain de la pregunta anterior, pero ahora el distractor es la prednisona. Y aquí está la regla: el corticoide es el segundo escalón, para el dolor muy intenso o que no responde. De entrada, AINE. Esta pregunta se repite casi igual, así que el orden de los escalones vale puntos."
+      "text": "Es la B, los AINE. Dolor tiroideo, fiebre y captación casi nula: De Quervain. El tiamazol y el propiltiouracilo no sirven, porque no hay síntesis que bloquear, y el radioyodo no tiene dónde entrar. El distractor más fino es el betabloqueador: sí se usa, pero solo para los síntomas. El tratamiento de la enfermedad es el antiinflamatorio."
     },
     {
       "file": "s12_g00",
-      "text": "Una más, del EUNACOM de julio de dos mil trece. Mujer de treinta años, usuaria de anticonceptivos, con ocho días de sudoración, palpitaciones e insomnio, y en los últimos días dolor cervical anterior. Taquicárdica, con dolor a la palpación del cuello, T cuatro libre alta y TSH suprimida."
+      "text": "La siguiente es del EUNACOM de julio de dos mil diecisiete. Mujer de treinta y tres años con una semana de dolor cervical intenso y sensación febril. Tiroides del doble del tamaño normal, muy dolorosa. TSH baja, T cuatro libre alta, y captación de yodo de dos por ciento."
     },
     {
       "file": "s12_g01",
@@ -262,50 +250,66 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: propiltiouracilo, paracetamol, metimazol, ketoprofeno, o enalapril. Piénsalo."
+      "text": "Las opciones: propiltiouracilo, ibuprofeno, prednisona, levotiroxina, o yodo radiactivo. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, ketoprofeno, porque es un AINE. Tirotoxicosis más dolor cervical es De Quervain hasta que se demuestre lo contrario. Fíjate en el distractor nuevo: el paracetamol. Quita el dolor, pero no desinflama, y lo que se trata aquí es la inflamación. Y el metimazol, que es el mismo tiamazol, y el propiltiouracilo, otra vez no sirven."
+      "text": "Es la B, ibuprofeno. Es el mismo De Quervain de la pregunta anterior, pero ahora el distractor es la prednisona. Y aquí está la regla: el corticoide es el segundo escalón, para el dolor muy intenso o que no responde. De entrada, AINE. Esta pregunta se repite casi igual, así que el orden de los escalones vale puntos."
     },
     {
       "file": "s13_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro, que nos lleva a Hashimoto. Mujer usuaria de anticonceptivos, con familiares hipotiroideos, que consulta por aumento de volumen del cuello. Tiroides aumentada, sin nódulos. TSH normal, una T cuatro total alta, y anticuerpos antitiroglobulina y antiperoxidasa elevados, estos últimos muy altos."
+      "text": "Una más, del EUNACOM de julio de dos mil trece. Mujer de treinta años, usuaria de anticonceptivos, con ocho días de sudoración, palpitaciones e insomnio, y en los últimos días dolor cervical anterior. Taquicárdica, con dolor a la palpación del cuello, T cuatro libre alta y TSH suprimida."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: pedir T cuatro libre, ecografía tiroidea, cintigrafía, control de TSH y T cuatro en un año, o punción tiroidea. Piénsalo."
+      "text": "Las opciones: propiltiouracilo, paracetamol, metimazol, ketoprofeno, o enalapril. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D, control anual. Bocio indoloro con antiperoxidasa muy altos es Hashimoto, y con TSH normal está eutiroidea, así que hoy no hay nada que tratar: se controla para pescar a tiempo el hipotiroidismo. ¿Y la T cuatro total alta? Es la trampa: los anticonceptivos suben la proteína que transporta la hormona, y la total sube sin que el paciente esté hipertiroideo. La TSH normal manda."
+      "text": "Es la D, ketoprofeno, porque es un AINE. Tirotoxicosis más dolor cervical es De Quervain hasta que se demuestre lo contrario. Fíjate en el distractor nuevo: el paracetamol. Quita el dolor, pero no desinflama, y lo que se trata aquí es la inflamación. Y el metimazol, que es el mismo tiamazol, y el propiltiouracilo, otra vez no sirven."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Tiroides dolorosa, VHS muy alta y captación en blanco: De Quervain."
+      "text": "Y la última, del EUNACOM de julio de dos mil veinticuatro, que nos lleva a Hashimoto. Mujer usuaria de anticonceptivos, con familiares hipotiroideos, que consulta por aumento de volumen del cuello. Tiroides aumentada, sin nódulos. TSH normal, una T cuatro total alta, y anticuerpos antitiroglobulina y antiperoxidasa elevados, estos últimos muy altos."
     },
     {
       "file": "s14_g01",
-      "text": "La captación separa la destrucción del hipertiroidismo verdadero. Nula en las tiroiditis, alta en Graves, que es justamente la próxima clase."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s14_g02",
-      "text": "De Quervain se trata con AINE, y prednisona solo si no responde."
+      "text": "Las opciones: pedir T cuatro libre, ecografía tiroidea, cintigrafía, control de TSH y T cuatro en un año, o punción tiroidea. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la D, control anual. Bocio indoloro con antiperoxidasa muy altos es Hashimoto, y con TSH normal está eutiroidea, así que hoy no hay nada que tratar: se controla para pescar a tiempo el hipotiroidismo. ¿Y la T cuatro total alta? Es la trampa: los anticonceptivos suben la proteína que transporta la hormona, y la total sube sin que el paciente esté hipertiroideo. La TSH normal manda."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Tiroides dolorosa, VHS muy alta y captación en blanco: De Quervain."
+    },
+    {
+      "file": "s15_g01",
+      "text": "La captación separa la destrucción del hipertiroidismo verdadero. Nula en las tiroiditis, alta en Graves, que es justamente la próxima clase."
+    },
+    {
+      "file": "s15_g02",
+      "text": "De Quervain se trata con AINE, y prednisona solo si no responde."
+    },
+    {
+      "file": "s15_g03",
       "text": "Nunca antitiroideos en una tiroiditis destructiva. La única de este grupo que lleva tiamazol es la amiodarona tipo uno."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Amiodarona: tipo uno, tiamazol; tipo dos, corticoide."
     },
     {
-      "file": "s14_g05",
+      "file": "s15_g05",
       "text": "Y con el litio, no se suspende: se agrega levotiroxina. Si te llevas una sola idea de hoy: antes de bloquear la tiroides, pregúntate si está fabricando hormona o si se está rompiendo. Nos vemos en la próxima clase."
     }
   ]

@@ -2,7 +2,7 @@
   "id": "endo-23",
   "title": "Endocrinología 7.23: Hipopituitarismo, Síndrome de Sheehan y Panhipopituitarismo",
   "specialty": "Endocrinología",
-  "chars": 9847,
+  "chars": 9968,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,110 +106,114 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en un árbol de decisión, desde la sospecha hasta el reemplazo. Paciente con astenia intensa, palidez cérea, hipotensión y amenorrea, sobre todo si hubo una hemorragia en el parto y fracasó la lactancia."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Se miden cortisol, T cuatro libre y estradiol o testosterona, junto con sus tropinas. La pregunta es cómo responde la hipófisis."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si las tropinas están muy altas, la hipófisis funciona y la falla es de la glándula periférica: Addison, hipotiroidismo primario o falla ovárica."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si están bajas o inapropiadamente normales, la falla es central: hipopituitarismo."
-    },
-    {
-      "file": "s06_g04",
-      "text": "La resonancia muestra la causa: una masa que comprime, o la silla turca vacía en un Sheehan tardío."
-    },
-    {
-      "file": "s06_g05",
-      "text": "El reemplazo parte siempre con hidrocortisona oral, para no precipitar una crisis suprarrenal."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Veinticuatro a cuarenta y ocho horas después se agrega levotiroxina, ajustada con la T cuatro libre, y al final estrógenos o andrógenos según edad y fertilidad."
+      "text": "En esta resonancia la silla turca está llena de líquido y la hipófisis aplanada contra el fondo. Es la silla turca vacía."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos el contraste que más se pregunta. Eje tiroideo: en la falla primaria, T cuatro libre baja con TSH muy alta; en el hipopituitarismo, TSH baja o normal. Y la levotiroxina se titula con T cuatro libre."
+      "text": "Juntemos todo en un árbol de decisión, desde la sospecha hasta el reemplazo. Paciente con astenia intensa, palidez cérea, hipotensión y amenorrea, sobre todo si hubo una hemorragia en el parto y fracasó la lactancia."
     },
     {
       "file": "s07_g01",
-      "text": "Eje suprarrenal: el Addison tiene la ACTH muy alta y la piel pigmentada; el hipopituitarismo, ACTH baja y piel pálida. La hidrocortisona se ajusta por clínica."
+      "text": "Se miden cortisol, T cuatro libre y estradiol o testosterona, junto con sus tropinas. La pregunta es cómo responde la hipófisis."
     },
     {
       "file": "s07_g02",
-      "text": "Eje gonadal: en la falla ovárica, FSH y LH muy altas; en la falla central, bajas o normales. Aquí se controlan los síntomas y la fertilidad."
+      "text": "Si las tropinas están muy altas, la hipófisis funciona y la falla es de la glándula periférica: Addison, hipotiroidismo primario o falla ovárica."
     },
     {
       "file": "s07_g03",
-      "text": "Y el orden: en el hipopituitarismo, hidrocortisona primero. Partir por la levotiroxina es la respuesta incorrecta que precipita una crisis suprarrenal."
+      "text": "Si están bajas o inapropiadamente normales, la falla es central: hipopituitarismo."
+    },
+    {
+      "file": "s07_g04",
+      "text": "La resonancia muestra la causa: una masa que comprime, o la silla turca vacía en un Sheehan tardío."
+    },
+    {
+      "file": "s07_g05",
+      "text": "El reemplazo parte siempre con hidrocortisona oral, para no precipitar una crisis suprarrenal."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Veinticuatro a cuarenta y ocho horas después se agrega levotiroxina, ajustada con la T cuatro libre, y al final estrógenos o andrógenos según edad y fertilidad."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Mujer de treinta y seis años con astenia invalidante, intolerancia al frío y piel seca. Hace dos años tuvo un parto con hemorragia por atonía uterina, con transfusiones e histerectomía. Nunca pudo amamantar y no ha vuelto a menstruar. Está pálida, cérea, con presión de noventa sobre sesenta y sin vello axilar ni pubiano. T cuatro libre baja con TSH normal, cortisol bajo con ACTH baja, y FSH baja."
+      "text": "Repasemos el contraste que más se pregunta. Eje tiroideo: en la falla primaria, T cuatro libre baja con TSH muy alta; en el hipopituitarismo, TSH baja o normal. Y la levotiroxina se titula con T cuatro libre."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta terapéutica inicial más adecuada?"
+      "text": "Eje suprarrenal: el Addison tiene la ACTH muy alta y la piel pigmentada; el hipopituitarismo, ACTH baja y piel pálida. La hidrocortisona se ajusta por clínica."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: levotiroxina y controlar TSH, hidrocortisona y después levotiroxina, estrógenos y progestágenos, las dos hormonas el mismo día ajustando por TSH, o cabergolina. Piénsalo."
+      "text": "Eje gonadal: en la falla ovárica, FSH y LH muy altas; en la falla central, bajas o normales. Aquí se controlan los síntomas y la fertilidad."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Es un Sheehan de libro: hemorragia, agalactia, amenorrea y hormonas bajas con tropinas que no suben. La trampa es la A, que tiene dos errores: parte con levotiroxina, lo que puede precipitar una crisis suprarrenal, y controla con TSH, que en la falla central no sirve. La D también cae por la TSH."
+      "text": "Y el orden: en el hipopituitarismo, hidrocortisona primero. Partir por la levotiroxina es la respuesta incorrecta que precipita una crisis suprarrenal."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora las preguntas reales. Esta es del EUNACOM de julio de dos mil quince. Paciente de veintiocho años con histerectomía posparto por inercia uterina. Seis meses después no ha tenido lactancia y sigue en amenorrea. Tiene astenia, adinamia y debilidad, piel seca, pelo quebradizo, palidez, y presión de noventa sobre sesenta."
+      "text": "Vamos al caso. Mujer de treinta y seis años con astenia invalidante, intolerancia al frío y piel seca. Hace dos años tuvo un parto con hemorragia por atonía uterina, con transfusiones e histerectomía. Nunca pudo amamantar y no ha vuelto a menstruar. Está pálida, cérea, con presión de noventa sobre sesenta y sin vello axilar ni pubiano. T cuatro libre baja con TSH normal, cortisol bajo con ACTH baja, y FSH baja."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta terapéutica inicial más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: tiroiditis posparto, panhipopituitarismo, depresión posparto, insuficiencia ovárica, o hipotiroidismo. Piénsalo."
+      "text": "Las alternativas: levotiroxina y controlar TSH, hidrocortisona y después levotiroxina, estrógenos y progestágenos, las dos hormonas el mismo día ajustando por TSH, o cabergolina. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, panhipopituitarismo por síndrome de Sheehan. Una histerectomía por inercia uterina te dice hemorragia grave, y sin lactancia más amenorrea te dice hipófisis. El distractor tentador es el hipotiroidismo, porque la piel seca y el pelo quebradizo encajan, pero explica solo una parte: no explica la agalactia, la amenorrea ni la hipotensión. Aquí fallan todos los ejes."
+      "text": "Es la B. Es un Sheehan de libro: hemorragia, agalactia, amenorrea y hormonas bajas con tropinas que no suben. La trampa es la A, que tiene dos errores: parte con levotiroxina, lo que puede precipitar una crisis suprarrenal, y controla con TSH, que en la falla central no sirve. La D también cae por la TSH."
     },
     {
       "file": "s10_g00",
-      "text": "La segunda, del EUNACOM de diciembre de dos mil dieciocho. Un hombre con baja del deseo sexual y de las erecciones, astenia y debilidad de meses. Cuenta que chocó con un mueble porque no lo vio. Está pálido, con menos vello corporal, edema de piernas, y pérdida de la visión temporal."
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de julio de dos mil quince. Paciente de veintiocho años con histerectomía posparto por inercia uterina. Seis meses después no ha tenido lactancia y sigue en amenorrea. Tiene astenia, adinamia y debilidad, piel seca, pelo quebradizo, palidez, y presión de noventa sobre sesenta."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: radiografía de silla turca, prolactinemia, resonancia de silla turca, fondo de ojo, o TAC de cerebro. Piénsalo."
+      "text": "Las opciones: tiroiditis posparto, panhipopituitarismo, depresión posparto, insuficiencia ovárica, o hipotiroidismo. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, resonancia de silla turca. Aquí el hipopituitarismo no viene de un parto, sino de un tumor que comprime: hipogonadismo, astenia, palidez y pérdida de vello, más una hemianopsia que delata la masa sobre el quiasma. La prolactinemia es tentadora por la disfunción eréctil, pero con un defecto del campo visual lo que necesitas es ver la masa. Y la radiografía de silla turca ya no se usa."
+      "text": "Es la B, panhipopituitarismo por síndrome de Sheehan. Una histerectomía por inercia uterina te dice hemorragia grave, y sin lactancia más amenorrea te dice hipófisis. El distractor tentador es el hipotiroidismo, porque la piel seca y el pelo quebradizo encajan, pero explica solo una parte: no explica la agalactia, la amenorrea ni la hipotensión. Aquí fallan todos los ejes."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Hemorragia del parto seguida de fracaso de la lactancia y amenorrea: síndrome de Sheehan."
+      "text": "La segunda, del EUNACOM de diciembre de dos mil dieciocho. Un hombre con baja del deseo sexual y de las erecciones, astenia y debilidad de meses. Cuenta que chocó con un mueble porque no lo vio. Está pálido, con menos vello corporal, edema de piernas, y pérdida de la visión temporal."
     },
     {
       "file": "s11_g01",
-      "text": "El sello de laboratorio es la hormona periférica baja con una tropina baja o inapropiadamente normal. Si la tropina está muy alta, la falla es periférica."
+      "text": "¿Cuál es el examen de elección para iniciar el estudio?"
     },
     {
       "file": "s11_g02",
-      "text": "Siempre hidrocortisona primero, y la levotiroxina veinticuatro a cuarenta y ocho horas después."
+      "text": "Las opciones: radiografía de silla turca, prolactinemia, resonancia de silla turca, fondo de ojo, o TAC de cerebro. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la C, resonancia de silla turca. Aquí el hipopituitarismo no viene de un parto, sino de un tumor que comprime: hipogonadismo, astenia, palidez y pérdida de vello, más una hemianopsia que delata la masa sobre el quiasma. La prolactinemia es tentadora por la disfunción eréctil, pero con un defecto del campo visual lo que necesitas es ver la masa. Y la radiografía de silla turca ya no se usa."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Hemorragia del parto seguida de fracaso de la lactancia y amenorrea: síndrome de Sheehan."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El sello de laboratorio es la hormona periférica baja con una tropina baja o inapropiadamente normal. Si la tropina está muy alta, la falla es periférica."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Siempre hidrocortisona primero, y la levotiroxina veinticuatro a cuarenta y ocho horas después."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y la levotiroxina se ajusta con T cuatro libre, nunca con TSH. En la próxima clase terminamos la hipófisis con su parte posterior: diabetes insípida y SIADH. Si te llevas una sola idea de hoy: en el hipopituitarismo, cortisol antes que tiroides. Nos vemos en la próxima clase."
     }
   ]

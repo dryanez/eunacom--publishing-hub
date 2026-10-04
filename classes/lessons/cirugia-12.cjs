@@ -132,6 +132,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Trauma craneano',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc__cto-neuro_p142.jpg', label: 'Epidural vs subdural', credit: 'Manual CTO Neurología 14.ª ed., p. 142' },
+        { src: 'biblioteca/10_cirugia/cirugia-12/01_ojos_de_mapache__commons.jpg', label: 'Ojos de mapache', credit: 'Wikimedia Commons «Bilateral periorbital ecchymosis (raccoon eyes).jpg», Public domain, Marion County Sheriff\'s Office' },
+        { src: 'biblioteca/10_cirugia/cirugia-12/03_signo_de_battle__nelson_p5133.jpg', label: 'Signo de Battle', credit: 'Nelson 22.ª ed., Fig. 683.3A' },
+      ],
+      steps: [
+        { note: 'Lente vs media luna',
+          say: 'El hematoma epidural tiene forma de lente; el subdural, de media luna.' },
+        { note: 'Fractura de base de cráneo',
+          say: 'Los ojos de mapache sugieren fractura de la base del cráneo anterior.' },
+        { note: 'Equimosis retroauricular',
+          say: 'Y el signo de Battle, equimosis detrás de la oreja, sugiere fractura del hueso temporal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de decisión del TEC.',
     },

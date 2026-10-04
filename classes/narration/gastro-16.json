@@ -2,7 +2,7 @@
   "id": "gastro-16",
   "title": "Gastroenterologia 3.4: Lesiones Hepáticas Focales y Pólipos Vesiculares",
   "specialty": "Gastroenterología",
-  "chars": 8771,
+  "chars": 9202,
   "segments": [
     {
       "file": "s00_g00",
@@ -74,99 +74,95 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora pongamos las lesiones del hígado en un solo árbol. Aparece una lesión en el hígado en la ecografía. Su aspecto y el contexto del paciente orientan casi todo."
+      "text": "Esta es una tomografía trifásica de un hepatocarcinoma: la lesión capta contraste en la fase arterial y lo pierde en la fase portal. Ese lavado, en un cirrótico, basta para el diagnóstico."
     },
     {
       "file": "s05_g01",
-      "text": "¿Es quística, sólida y homogénea, o heterogénea?"
+      "text": "El hemangioma, en cambio, se llena desde la periferia hacia el centro, en glóbulos. Es el tumor benigno más frecuente del hígado."
     },
     {
       "file": "s05_g02",
-      "text": "¿Tiene tabiques, membrana o vesículas hijas?"
-    },
-    {
-      "file": "s05_g03",
-      "text": "Anecogénico y de pared fina, sin tabiques: quiste simple, se observa."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Con tabiques o membrana en un contexto rural: quiste hidatídico. Albendazol y cirugía, y nunca una punción libre, por riesgo de anafilaxia."
-    },
-    {
-      "file": "s05_g05",
-      "text": "¿Es hiperecogénica o hipoecogénica?"
-    },
-    {
-      "file": "s05_g06",
-      "text": "Hiperecogénica y homogénea: hemangioma, la lesión benigna más frecuente. Se observa."
-    },
-    {
-      "file": "s05_g07",
-      "text": "Hipoecogénica y única en una mujer con anticonceptivos: adenoma. Se suspenden los estrógenos y se reseca si mide más de cinco centímetros o da síntomas."
-    },
-    {
-      "file": "s05_g08",
-      "text": "Heterogénea e irregular en un cirrótico con alfafetoproteína alta: hepatocarcinoma, se confirma con TAC o resonancia trifásica. Si son varias lesiones hipoecogénicas, metástasis, y se busca el primario."
+      "text": "Y este es un quiste hidatídico: una lesión quística con membranas en su interior. Ojo, nunca se punciona a ciegas."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos todo en una tabla. Anecogénica, de pared fina y sin tabiques: quiste simple, se observa."
+      "text": "Ahora pongamos las lesiones del hígado en un solo árbol. Aparece una lesión en el hígado en la ecografía. Su aspecto y el contexto del paciente orientan casi todo."
     },
     {
       "file": "s06_g01",
-      "text": "Quística con membrana o tabiques, en contexto rural: quiste hidatídico, albendazol más cirugía, y nunca punción libre."
+      "text": "¿Es quística, sólida y homogénea, o heterogénea?"
     },
     {
       "file": "s06_g02",
-      "text": "Hiperecogénica y homogénea: hemangioma, se observa."
+      "text": "¿Tiene tabiques, membrana o vesículas hijas?"
     },
     {
       "file": "s06_g03",
-      "text": "Hipoecogénica, única y homogénea, en una mujer con anticonceptivos: adenoma. Suspender estrógenos y resecar si pasa de cinco centímetros."
+      "text": "Anecogénico y de pared fina, sin tabiques: quiste simple, se observa."
     },
     {
       "file": "s06_g04",
-      "text": "Heterogénea e irregular en un cirrótico con alfafetoproteína alta: hepatocarcinoma, se confirma con TAC o resonancia trifásica."
+      "text": "Con tabiques o membrana en un contexto rural: quiste hidatídico. Albendazol y cirugía, y nunca una punción libre, por riesgo de anafilaxia."
     },
     {
       "file": "s06_g05",
-      "text": "Y múltiples lesiones hipoecogénicas: metástasis, hay que buscar el primario."
+      "text": "¿Es hiperecogénica o hipoecogénica?"
+    },
+    {
+      "file": "s06_g06",
+      "text": "Hiperecogénica y homogénea: hemangioma, la lesión benigna más frecuente. Se observa."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Hipoecogénica y única en una mujer con anticonceptivos: adenoma. Se suspenden los estrógenos y se reseca si mide más de cinco centímetros o da síntomas."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Heterogénea e irregular en un cirrótico con alfafetoproteína alta: hepatocarcinoma, se confirma con TAC o resonancia trifásica. Si son varias lesiones hipoecogénicas, metástasis, y se busca el primario."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos al caso. Mujer de treinta y cuatro años, usuaria de anticonceptivos orales hace ocho años, con dolor vago en el hipocondrio derecho. La ecografía muestra una lesión hepática sólida, hipoecogénica, homogénea y única, de seis centímetros. No tiene daño hepático crónico y la alfafetoproteína es normal."
+      "text": "Repasemos todo en una tabla. Anecogénica, de pared fina y sin tabiques: quiste simple, se observa."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Quística con membrana o tabiques, en contexto rural: quiste hidatídico, albendazol más cirugía, y nunca punción libre."
     },
     {
       "file": "s07_g02",
-      "text": "Las alternativas: observar con ecografía anual, suspender los anticonceptivos y resecar, puncionar para biopsia, albendazol y cirugía, o evaluar trasplante. Piénsalo."
+      "text": "Hiperecogénica y homogénea: hemangioma, se observa."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B. Hipoecogénica, única y homogénea, en una mujer con anticonceptivos: es un adenoma. Y mide más de cinco centímetros, así que se suspenden los estrógenos y se reseca. El distractor tentador es observar, pero eso es para el hemangioma, que sería hiperecogénico. Y el trasplante es para el hepatocarcinoma, que exige un hígado dañado."
+      "text": "Hipoecogénica, única y homogénea, en una mujer con anticonceptivos: adenoma. Suspender estrógenos y resecar si pasa de cinco centímetros."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Heterogénea e irregular en un cirrótico con alfafetoproteína alta: hepatocarcinoma, se confirma con TAC o resonancia trifásica."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y múltiples lesiones hipoecogénicas: metástasis, hay que buscar el primario."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años, con cirrosis hepática, sin alcohol actual, con las serologías B y C negativas. La ecografía muestra una lesión sólida en el lóbulo hepático derecho, de tres coma cinco centímetros, hipoecogénica. La alfafetoproteína es de cinco coma tres, normal."
+      "text": "Vamos al caso. Mujer de treinta y cuatro años, usuaria de anticonceptivos orales hace ocho años, con dolor vago en el hipocondrio derecho. La ecografía muestra una lesión hepática sólida, hipoecogénica, homogénea y única, de seis centímetros. No tiene daño hepático crónico y la alfafetoproteína es normal."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: metástasis, adenoma hepático, carcinoma hepatocelular, quiste hepático, o hemangioma hepático. Piénsalo."
+      "text": "Las alternativas: observar con ecografía anual, suspender los anticonceptivos y resecar, puncionar para biopsia, albendazol y cirugía, o evaluar trasplante. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B, adenoma hepático. La trampa es que hay cirrosis, y uno salta de inmediato a hepatocarcinoma. Pero fíjate en la alfafetoproteína: está normal. Y la cirrosis también aumenta el riesgo de adenoma, no solo de cáncer. Hipoecogénica, única y homogénea, con alfafetoproteína normal, es adenoma. El hemangioma sería hiperecogénico, y las metástasis vendrían múltiples."
+      "text": "Es la B. Hipoecogénica, única y homogénea, en una mujer con anticonceptivos: es un adenoma. Y mide más de cinco centímetros, así que se suspenden los estrógenos y se reseca. El distractor tentador es observar, pero eso es para el hemangioma, que sería hiperecogénico. Y el trasplante es para el hepatocarcinoma, que exige un hígado dañado."
     },
     {
       "file": "s09_g00",
-      "text": "Esta es del EUNACOM de diciembre de dos mil diecisiete. Paciente con daño hepático crónico por alcohol, al que en un TAC de control le encuentran un tumor sólido en el lóbulo hepático derecho, de tres centímetros, hipervascular en la fase arterial."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años, con cirrosis hepática, sin alcohol actual, con las serologías B y C negativas. La ecografía muestra una lesión sólida en el lóbulo hepático derecho, de tres coma cinco centímetros, hipoecogénica. La alfafetoproteína es de cinco coma tres, normal."
     },
     {
       "file": "s09_g01",
@@ -174,58 +170,74 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: nódulo de regeneración, hepatocarcinoma, hemangioma hepático, hiperplasia nodular, o adenoma hepático. Piénsalo."
+      "text": "Las opciones: metástasis, adenoma hepático, carcinoma hepatocelular, quiste hepático, o hemangioma hepático. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, hepatocarcinoma. El daño hepático crónico también da adenoma, pero lo que decide aquí es el patrón vascular: hipervascular en fase arterial es justo el realce arterial que buscamos en el TAC o la resonancia trifásica para confirmar hepatocarcinoma."
+      "text": "Es la B, adenoma hepático. La trampa es que hay cirrosis, y uno salta de inmediato a hepatocarcinoma. Pero fíjate en la alfafetoproteína: está normal. Y la cirrosis también aumenta el riesgo de adenoma, no solo de cáncer. Hipoecogénica, única y homogénea, con alfafetoproteína normal, es adenoma. El hemangioma sería hiperecogénico, y las metástasis vendrían múltiples."
     },
     {
       "file": "s10_g00",
-      "text": "Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de treinta y nueve años, con obesidad, a quien una ecografía le muestra un hígado graso leve, un quiste hepático simple de un centímetro, y un pólipo vesicular de cero coma cinco centímetros."
+      "text": "Esta es del EUNACOM de diciembre de dos mil diecisiete. Paciente con daño hepático crónico por alcohol, al que en un TAC de control le encuentran un tumor sólido en el lóbulo hepático derecho, de tres centímetros, hipervascular en la fase arterial."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: biopsia del pólipo, control ecográfico en seis meses, laparotomía exploradora, colecistectomía laparoscópica, o punción del quiste. Piénsalo."
+      "text": "Las opciones: nódulo de regeneración, hepatocarcinoma, hemangioma hepático, hiperplasia nodular, o adenoma hepático. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, control ecográfico en seis meses. El pólipo mide menos de un centímetro, así que es colesterolínico y se sigue, no se opera. Y el quiste hepático simple, menor a un centímetro, tampoco necesita nada. El distractor es la colecistectomía, pero esa se reserva para el pólipo de un centímetro o más."
+      "text": "Es la B, hepatocarcinoma. El daño hepático crónico también da adenoma, pero lo que decide aquí es el patrón vascular: hipervascular en fase arterial es justo el realce arterial que buscamos en el TAC o la resonancia trifásica para confirmar hepatocarcinoma."
     },
     {
       "file": "s11_g00",
-      "text": "Y una última, del banco EUNACOM. En una ecografía pedida por dispepsia aparece una lesión hepática de tres centímetros, hiperecogénica, homogénea y de bordes bien definidos, en un paciente de cuarenta años sin antecedentes hepáticos ni baja de peso."
+      "text": "Esta es del EUNACOM de diciembre de dos mil dieciocho. Paciente de treinta y nueve años, con obesidad, a quien una ecografía le muestra un hígado graso leve, un quiste hepático simple de un centímetro, y un pólipo vesicular de cero coma cinco centímetros."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable y la conducta?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: metástasis, hemangioma, hepatocarcinoma, absceso, o quiste hidatídico. Piénsalo."
+      "text": "Las opciones: biopsia del pólipo, control ecográfico en seis meses, laparotomía exploradora, colecistectomía laparoscópica, o punción del quiste. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta es la B, hemangioma, y se observa. La palabra clave es hiperecogénica y homogénea, en un hígado sano. Las metástasis serían múltiples e hipoecogénicas, el hepatocarcinoma necesita un hígado cirrótico, y el absceso vendría con fiebre y dolor. Si hubiera dudas, se confirma con resonancia, pero no se opera."
+      "text": "Es la B, control ecográfico en seis meses. El pólipo mide menos de un centímetro, así que es colesterolínico y se sigue, no se opera. Y el quiste hepático simple, menor a un centímetro, tampoco necesita nada. El distractor es la colecistectomía, pero esa se reserva para el pólipo de un centímetro o más."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos. Anecogénica y lisa es un quiste simple; hiperecogénica y homogénea es un hemangioma. Los dos se observan."
+      "text": "Y una última, del banco EUNACOM. En una ecografía pedida por dispepsia aparece una lesión hepática de tres centímetros, hiperecogénica, homogénea y de bordes bien definidos, en un paciente de cuarenta años sin antecedentes hepáticos ni baja de peso."
     },
     {
       "file": "s12_g01",
-      "text": "Hipoecogénica única en una mujer con anticonceptivos es un adenoma: suspender estrógenos y resecar si pasa de cinco centímetros."
+      "text": "¿Cuál es el diagnóstico más probable y la conducta?"
     },
     {
       "file": "s12_g02",
-      "text": "Heterogénea en un cirrótico con alfafetoproteína alta es hepatocarcinoma, y si son múltiples, metástasis."
+      "text": "Las opciones: metástasis, hemangioma, hepatocarcinoma, absceso, o quiste hidatídico. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "La respuesta es la B, hemangioma, y se observa. La palabra clave es hiperecogénica y homogénea, en un hígado sano. Las metástasis serían múltiples e hipoecogénicas, el hepatocarcinoma necesita un hígado cirrótico, y el absceso vendría con fiebre y dolor. Si hubiera dudas, se confirma con resonancia, pero no se opera."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos. Anecogénica y lisa es un quiste simple; hiperecogénica y homogénea es un hemangioma. Los dos se observan."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Hipoecogénica única en una mujer con anticonceptivos es un adenoma: suspender estrógenos y resecar si pasa de cinco centímetros."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Heterogénea en un cirrótico con alfafetoproteína alta es hepatocarcinoma, y si son múltiples, metástasis."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y en la vesícula, el corte es un centímetro. Si te llevas una sola idea de hoy: la ecografía te da la palabra clave, pero el contexto del paciente es el que decide. Nos vemos en la próxima clase."
     }
   ]

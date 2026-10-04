@@ -201,6 +201,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Mielofibrosis',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-20/01_mielofibrosis-dacriocitos__amir-hemato_p58.jpg', label: 'Dacriocitos', credit: 'Manual AMIR Hematología, p. 58' },
+      ],
+      steps: [
+        { note: 'Glóbulos en lágrima',
+          say: 'Los dacriocitos, glóbulos en forma de lágrima, salen de una médula fibrosa. Junto a un bazo gigante, sugieren mielofibrosis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del hemograma alterado.',
     },

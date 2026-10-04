@@ -262,6 +262,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Hemorragia subaracnoidea',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-04/01_tc_hsa__harrison_p3325.jpg', label: 'HSA en cisternas', credit: 'Harrison 21.ª ed., p. 3325' },
+        { src: 'biblioteca/09_neurologia/neuro-04/02_aneurisma-sacular-arteriografia__cto-neuro_p45.jpg', label: 'Aneurisma', credit: 'Manual CTO Neurología 14.ª ed., p. 45' },
+      ],
+      steps: [
+        { note: 'Sangre en estrella en la base',
+          say: 'La sangre en las cisternas de la base forma una estrella blanca. Con cefalea en trueno, este es el diagnóstico.' },
+        { note: 'La causa más frecuente',
+          say: 'La causa más frecuente es la rotura de un aneurisma sacular, que se busca con angiografía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde la cefalea en trueno hasta el manejo en la unidad crítica.',
     },

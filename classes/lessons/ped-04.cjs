@@ -101,6 +101,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El acople en la lactancia',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-04/03_acople_incorrecto_vs_correcto__commons.jpg', label: 'Incorrecto vs correcto', credit: 'Wikimedia Commons «Breastfeeding - Incorrect vs Correct Latch-On.png», CC BY-SA 4.0, BruceBlaus' },
+        { src: 'biblioteca/15_pediatria/ped-04/01_acople_correcto__minsal-lactancia-2017.jpg', label: 'Acople correcto', credit: 'Manual Operativo Lactancia MINSAL 2017, p. 13' },
+        { src: 'biblioteca/15_pediatria/ped-04/04_acople_deficiente__commons.jpg', label: 'Acople deficiente', credit: 'Wikimedia Commons «Shallow Latch.jpg», CC BY-SA 4.0, Dr. Jack Newman' },
+      ],
+      steps: [
+        { note: 'Labio inferior hacia afuera',
+          say: 'En el acople correcto la boca está muy abierta y el labio inferior evertido.' },
+        { note: 'Poca areola visible abajo',
+          say: 'Se ve poca areola bajo el mentón.' },
+        { note: 'Mentón lejos del pecho',
+          say: 'Y en el deficiente, el mentón queda lejos y se ve mucha areola. Produce grietas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos toda la suplementación en un solo árbol de decisión.',
     },

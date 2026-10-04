@@ -227,6 +227,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Clasificación de Forrest',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic__cto-digestivo_p63.jpg', label: 'Forrest', credit: 'Manual CTO Digestivo 14.ª ed., p. 63' },
+      ],
+      steps: [
+        { note: 'Del sangrado activo al fondo limpio',
+          say: 'Estas son las lesiones de Forrest: desde el sangrado activo en chorro hasta la úlcera de fondo limpio. Las de arriba se tratan en la endoscopía; la de fondo limpio, no.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

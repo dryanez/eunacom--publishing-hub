@@ -122,6 +122,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Infección mamaria puerperal',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg', label: 'Absceso mamario', credit: 'Williams Gynecology 4.ª ed., Fig. 13-8' },
+        { src: 'biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg', label: 'Absceso', credit: 'Bailey & Love 27.ª ed., Fig. 53.13' },
+      ],
+      steps: [
+        { note: 'Clínica y ecografía',
+          say: 'El absceso mamario puerperal es una zona roja y fluctuante. La ecografía lo confirma.' },
+        { note: 'Se drena',
+          say: 'Se drena y se sigue con lactancia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos la fiebre puerperal en un solo árbol de decisión.',
     },

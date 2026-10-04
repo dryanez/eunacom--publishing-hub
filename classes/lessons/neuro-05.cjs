@@ -188,6 +188,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Trombosis de senos venosos',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta__cto-neuro_p41.jpg', label: 'Signo delta', credit: 'Manual CTO Neurología 14.ª ed., p. 41' },
+      ],
+      steps: [
+        { note: 'Seno con trombo',
+          say: 'El signo delta vacío: el seno venoso no se llena de contraste porque está trombosado.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde la sospecha hasta la duración del tratamiento.',
     },

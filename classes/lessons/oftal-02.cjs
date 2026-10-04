@@ -102,6 +102,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Conjuntivitis',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg', label: 'Bacteriana', credit: 'Kanski, p. 147' },
+        { src: 'biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis_viral__kanski_p155.jpg', label: 'Viral', credit: 'Kanski, p. 155' },
+      ],
+      steps: [
+        { note: 'Secreción purulenta',
+          say: 'La bacteriana da secreción purulenta que pega los párpados.' },
+        { note: 'Folículos y secreción acuosa',
+          say: 'La viral da folículos y secreción acuosa, con adenopatía preauricular.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos el árbol con los tres datos que separan las cuatro conjuntivitis.',
     },

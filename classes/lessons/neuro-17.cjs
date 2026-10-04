@@ -250,6 +250,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Miastenia gravis',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg', label: 'Ptosis', credit: 'Kanski 8.ª ed., Fig. 19.87A' },
+        { src: 'biblioteca/09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg', label: 'Test del hielo', credit: 'Kanski 8.ª ed., Fig. 19.87B' },
+        { src: 'biblioteca/09_neurologia/neuro-17/04_test_hielo_c_mejoria__kanski_p851.jpg', label: 'Mejoría', credit: 'Kanski 8.ª ed., Fig. 19.87C' },
+        { src: 'biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg', label: 'Timoma', credit: 'Manual CTO Radiología 14.ª ed., p. 22' },
+      ],
+      steps: [
+        { note: 'Asimétrica y fatigable',
+          say: 'La ptosis de la miastenia es asimétrica y empeora con el uso.' },
+        { note: 'Hielo sobre el párpado',
+          say: 'Se pone hielo sobre el párpado por dos minutos.' },
+        { note: 'La ptosis mejora',
+          say: 'Y la ptosis mejora. El frío mejora la transmisión neuromuscular.' },
+        { note: 'Buscar en el mediastino',
+          say: 'Siempre se busca un timoma con tomografía de tórax.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

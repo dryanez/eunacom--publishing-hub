@@ -2,7 +2,7 @@
   "id": "gin-06",
   "title": "Ginecologia 20.6: Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
   "specialty": "Ginecología",
-  "chars": 7600,
+  "chars": 7737,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,114 +90,118 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ordenemos todo en un solo árbol de decisión. Partamos con una mujer que consulta por escapes de orina. Antes de nada, descarta una infección urinaria con el sedimento y el urocultivo."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Con eso descartado, la pregunta clave es cómo se desencadena el escape."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Si el escape es con la tos o el esfuerzo, confírmalo con la prueba de esfuerzo: vejiga llena, y se le pide toser."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Confirmada la incontinencia de esfuerzo, empiezas con Kegel. ¿Responde?"
-    },
-    {
-      "file": "s05_g04",
-      "text": "Si responde, continúas con la kinesioterapia de piso pélvico, sin necesidad de operar."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Si no responde, el cabestrillo mediouretral, TOT o TVT, es la cirugía de elección."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Si el escape viene precedido de un deseo urgente, con polaquiuria y nicturia, es incontinencia de urgencia. Y aquí la cirugía nunca es la respuesta."
-    },
-    {
-      "file": "s05_g07",
-      "text": "El tratamiento es reeducación vesical, sumado a un anticolinérgico como la solifenacina o la oxibutinina, o mirabegrón si quieres evitar la boca seca."
+      "text": "El prolapso se mide en centímetros respecto del himen: negativo por encima, positivo por debajo. Eso define el estadio, de cero a cuatro."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos en una tabla. El gatillo: presión abdominal en una, deseo súbito en la otra."
+      "text": "Ordenemos todo en un solo árbol de decisión. Partamos con una mujer que consulta por escapes de orina. Antes de nada, descarta una infección urinaria con el sedimento y el urocultivo."
     },
     {
       "file": "s06_g01",
-      "text": "Los síntomas asociados: casi nunca hay polaquiuria en la de esfuerzo; casi siempre la hay en la de urgencia."
+      "text": "Con eso descartado, la pregunta clave es cómo se desencadena el escape."
     },
     {
       "file": "s06_g02",
-      "text": "El tratamiento inicial: Kegel en una, reeducación y fármacos en la otra."
+      "text": "Si el escape es con la tos o el esfuerzo, confírmalo con la prueba de esfuerzo: vejiga llena, y se le pide toser."
     },
     {
       "file": "s06_g03",
-      "text": "Y la cirugía: es el estándar de oro en la de esfuerzo, y está formalmente contraindicada en la de urgencia. Esta última fila es la que más se pregunta."
+      "text": "Confirmada la incontinencia de esfuerzo, empiezas con Kegel. ¿Responde?"
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si responde, continúas con la kinesioterapia de piso pélvico, sin necesidad de operar."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Si no responde, el cabestrillo mediouretral, TOT o TVT, es la cirugía de elección."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Si el escape viene precedido de un deseo urgente, con polaquiuria y nicturia, es incontinencia de urgencia. Y aquí la cirugía nunca es la respuesta."
+    },
+    {
+      "file": "s06_g07",
+      "text": "El tratamiento es reeducación vesical, sumado a un anticolinérgico como la solifenacina o la oxibutinina, o mirabegrón si quieres evitar la boca seca."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos al caso. Mujer de cincuenta y dos años, con tres partos vaginales de recién nacidos grandes, consulta por escapes de orina de dos años de evolución. Ocurren al toser fuerte, reírse o hacer ejercicio. Niega deseo urgente de orinar, no tiene polaquiuria y duerme sin levantarse en la noche. Al examen, con la vejiga llena, se le pide toser y se ve un chorro de escape sincrónico con la tos. El urocultivo es negativo."
+      "text": "Repasemos en una tabla. El gatillo: presión abdominal en una, deseo súbito en la otra."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Los síntomas asociados: casi nunca hay polaquiuria en la de esfuerzo; casi siempre la hay en la de urgencia."
     },
     {
       "file": "s07_g02",
-      "text": "Tienes cinco opciones: iniciar oxibutinina, indicar ejercicios de Kegel, realizar cistoscopía, instalar una sonda permanente, o ir directo al cabestrillo sin kinesioterapia previa. Piénsalo."
+      "text": "El tratamiento inicial: Kegel en una, reeducación y fármacos en la otra."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B. Todo el cuadro es incontinencia de esfuerzo: escape sincrónico con la tos, sin urgencia ni polaquiuria, y prueba de esfuerzo positiva. El manejo siempre empieza con Kegel. La oxibutinina es para la urgencia, y el cabestrillo se reserva para cuando la kinesioterapia ya falló, no para partir."
+      "text": "Y la cirugía: es el estándar de oro en la de esfuerzo, y está formalmente contraindicada en la de urgencia. Esta última fila es la que más se pregunta."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de cincuenta y seis años con escapes de orina en grandes cantidades, precedidos por deseos incontrolables de orinar, incluso en la noche. Al examen, la maniobra de Valsalva no provoca escape. El urocultivo es negativo y la ecografía muestra una vejiga normal."
+      "text": "Vamos al caso. Mujer de cincuenta y dos años, con tres partos vaginales de recién nacidos grandes, consulta por escapes de orina de dos años de evolución. Ocurren al toser fuerte, reírse o hacer ejercicio. Niega deseo urgente de orinar, no tiene polaquiuria y duerme sin levantarse en la noche. Al examen, con la vejiga llena, se le pide toser y se ve un chorro de escape sincrónico con la tos. El urocultivo es negativo."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el tratamiento más adecuado?"
-    },
-    {
-      "file": "s08_g02",
-      "text": "Las opciones: iniciar tamsulosina, iniciar oxibutinina, realizar cistoscopía, hacer una suspensión con cinta transvaginal, o indicar kinesioterapia pélvica. Piénsalo."
-    },
-    {
-      "file": "s08_g03",
-      "text": "La respuesta es la B, oxibutinina. Fíjate que la Valsalva salió negativa: esto descarta el componente de esfuerzo. El deseo urgente que precede al escape es la firma de la incontinencia de urgencia, y ahí el tratamiento es el anticolinérgico, nunca la cirugía."
-    },
-    {
-      "file": "s09_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y ocho años, multípara de cuatro, con sensación de peso vaginal y escapes de orina al inicio del deseo miccional. Al examen físico se confirma un prolapso genital."
-    },
-    {
-      "file": "s09_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s08_g02",
+      "text": "Tienes cinco opciones: iniciar oxibutinina, indicar ejercicios de Kegel, realizar cistoscopía, instalar una sonda permanente, o ir directo al cabestrillo sin kinesioterapia previa. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. Todo el cuadro es incontinencia de esfuerzo: escape sincrónico con la tos, sin urgencia ni polaquiuria, y prueba de esfuerzo positiva. El manejo siempre empieza con Kegel. La oxibutinina es para la urgencia, y el cabestrillo se reserva para cuando la kinesioterapia ya falló, no para partir."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Mujer de cincuenta y seis años con escapes de orina en grandes cantidades, precedidos por deseos incontrolables de orinar, incluso en la noche. Al examen, la maniobra de Valsalva no provoca escape. El urocultivo es negativo y la ecografía muestra una vejiga normal."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
       "file": "s09_g02",
-      "text": "Las opciones: iniciar oxibutinina, realizar la prueba de Q-tip, hacer la estadificación POP-Q, pedir una resonancia pelviana, o realizar histerectomía. Piénsalo."
+      "text": "Las opciones: iniciar tamsulosina, iniciar oxibutinina, realizar cistoscopía, hacer una suspensión con cinta transvaginal, o indicar kinesioterapia pélvica. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C. Confirmado el prolapso al examen, el paso que sigue es cuantificarlo con el sistema POP-Q, tomando el himen como plano cero. Recién con ese grado definido decides entre pesario u observación, o cirugía. Ir directo a la histerectomía, sin siquiera estadificar, es la trampa."
+      "text": "La respuesta es la B, oxibutinina. Fíjate que la Valsalva salió negativa: esto descarta el componente de esfuerzo. El deseo urgente que precede al escape es la firma de la incontinencia de urgencia, y ahí el tratamiento es el anticolinérgico, nunca la cirugía."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos. La primera pregunta siempre es cómo se desencadena el escape: con el esfuerzo, o con un deseo urgente."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y ocho años, multípara de cuatro, con sensación de peso vaginal y escapes de orina al inicio del deseo miccional. Al examen físico se confirma un prolapso genital."
     },
     {
       "file": "s10_g01",
-      "text": "En la de esfuerzo, Kegel primero, y si falla, cirugía con cabestrillo."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "En la de urgencia, reeducación vesical y anticolinérgicos o mirabegrón, y la cirugía nunca entra."
+      "text": "Las opciones: iniciar oxibutinina, realizar la prueba de Q-tip, hacer la estadificación POP-Q, pedir una resonancia pelviana, o realizar histerectomía. Piénsalo."
     },
     {
       "file": "s10_g03",
+      "text": "Es la C. Confirmado el prolapso al examen, el paso que sigue es cuantificarlo con el sistema POP-Q, tomando el himen como plano cero. Recién con ese grado definido decides entre pesario u observación, o cirugía. Ir directo a la histerectomía, sin siquiera estadificar, es la trampa."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos. La primera pregunta siempre es cómo se desencadena el escape: con el esfuerzo, o con un deseo urgente."
+    },
+    {
+      "file": "s11_g01",
+      "text": "En la de esfuerzo, Kegel primero, y si falla, cirugía con cabestrillo."
+    },
+    {
+      "file": "s11_g02",
+      "text": "En la de urgencia, reeducación vesical y anticolinérgicos o mirabegrón, y la cirugía nunca entra."
+    },
+    {
+      "file": "s11_g03",
       "text": "Si te llevas una sola idea de hoy: nunca operes una incontinencia de urgencia, y nunca trates un prolapso sin antes estadificarlo con POP-Q. Nos vemos en la próxima clase."
     }
   ]

@@ -183,6 +183,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Infecciones del cerebro',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg', label: 'Encefalitis herpética', credit: 'Harrison 21.ª ed., p. 1137' },
+        { src: 'biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg', label: 'Absceso cerebral', credit: 'Manual AMIR Infecciosas, p. 42' },
+      ],
+      steps: [
+        { note: 'Lóbulo temporal afectado',
+          say: 'La encefalitis herpética compromete el lóbulo temporal. Fiebre, compromiso de conciencia y alteración conductual: aciclovir sin esperar el examen.' },
+        { note: 'Lesión con anillo',
+          say: 'Y el absceso se ve como una lesión con anillo que capta contraste.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión: fiebre con compromiso neurológico, y qué mirar para saber si es meninge, cerebro o absceso.',
     },

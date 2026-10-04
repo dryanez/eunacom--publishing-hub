@@ -146,6 +146,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El signo del pliegue',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-23/01_examen_turgor__commons.jpg', label: 'Signo del pliegue', credit: 'Wikimedia Commons «SkinTurgorExamination.jpg», CC BY-SA 4.0, DRobert' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg', label: 'Pliegue persistente', credit: 'Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert' },
+      ],
+      steps: [
+        { note: 'Se toma la piel entre dos dedos',
+          say: 'El signo del pliegue se busca tomando la piel entre dos dedos y soltándola.' },
+        { note: 'La piel no vuelve',
+          say: 'Si la piel queda levantada unos segundos y no vuelve, el pliegue es positivo: hay deshidratación.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

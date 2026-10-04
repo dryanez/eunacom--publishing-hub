@@ -114,6 +114,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Doppler en la aloinmunización',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg', label: 'Arteria cerebral media', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Velocidad alta = anemia fetal',
+          say: 'En la aloinmunización, la velocidad alta en la arteria cerebral media indica anemia fetal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos la profilaxis y el seguimiento en un solo árbol de decisión.',
     },

@@ -169,6 +169,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Tétanos',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg', label: 'Risa sardónica', credit: 'CDC PHIL 2857, dominio público' },
+        { src: 'biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg', label: 'Opistótonos', credit: 'CDC PHIL (Commons "PHIL tetanus"), dominio público' },
+      ],
+      steps: [
+        { note: 'Trismus y contracción facial',
+          say: 'El tétanos produce trismus y la risa sardónica, una mueca fija por contracción de los músculos de la cara.' },
+        { note: 'El cuerpo se arquea',
+          say: 'Y el opistótonos: espasmo de los músculos de la espalda que arquea el cuerpo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión: un paciente con una herida, y las dos profilaxis que tienes que pensar.',
     },

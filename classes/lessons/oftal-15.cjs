@@ -125,6 +125,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Trauma ocular',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg', label: 'Hipema', credit: 'Kanski, p. 882' },
+        { src: 'biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg', label: 'Fractura del piso orbitario', credit: 'Manual CTO Oftalmología 14.ª ed., p. 94' },
+      ],
+      steps: [
+        { note: 'Sangre en la cámara anterior',
+          say: 'El hipema es sangre en la cámara anterior.' },
+        { note: 'TC',
+          say: 'Y la fractura del piso orbitario se ve en la tomografía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

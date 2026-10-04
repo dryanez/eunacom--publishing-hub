@@ -204,6 +204,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Estenosis carotídea',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg', label: 'Estenosis carotídea', credit: 'Manual CTO Neurología 14.ª ed., p. 36' },
+      ],
+      steps: [
+        { note: 'Estrechez en el origen de la carótida',
+          say: 'Después de una crisis isquémica transitoria se buscan las carótidas. Una estenosis significativa sintomática se opera.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde el paciente que llega sin déficit hasta la prevención que le corresponde.',
     },

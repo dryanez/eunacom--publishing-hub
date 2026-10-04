@@ -250,6 +250,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Enfermedad de Parkinson',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg', label: 'Postura parkinsoniana', credit: 'Manual CTO Neurología 14.ª ed., p. 54' },
+        { src: 'biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg', label: 'Micrografía', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Flexión del tronco',
+          say: 'El paciente con Parkinson camina flectado, con pasos cortos y sin braceo.' },
+        { note: 'La letra se achica',
+          say: 'Y la letra se va achicando a medida que escribe: es la micrografía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y el tratamiento en un solo árbol de decisión.',
     },

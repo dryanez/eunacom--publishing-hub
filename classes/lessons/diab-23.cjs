@@ -144,6 +144,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Depósitos de colesterol',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg', label: 'Xantelasma', credit: 'Manual AMIR Endocrinología, p. 120' },
+        { src: 'biblioteca/04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg', label: 'Xantomas tendinosos', credit: 'Fitzpatrick 7.ª ed., Fig. 135-4' },
+      ],
+      steps: [
+        { note: 'Placas amarillas en los párpados',
+          say: 'Los xantelasmas son placas amarillas en los párpados. Pueden verse con colesterol normal, pero obligan a medirlo.' },
+        { note: 'Engrosamiento del tendón de Aquiles',
+          say: 'Y estos son xantomas tendinosos en el tendón de Aquiles. Ellos sí son específicos: sugieren hipercolesterolemia familiar.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: del perfil lipídico a la estatina correcta.',
     },

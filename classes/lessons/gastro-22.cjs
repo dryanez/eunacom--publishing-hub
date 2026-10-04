@@ -144,6 +144,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Cuerpos extraños ingeridos',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg', label: 'Moneda en el esófago', credit: 'Nelson 22.ª ed., p. 2925' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg', label: 'Pila de botón', credit: 'Wikimedia Commons «ButtonBatteryIngestion.png», CC BY-SA 4.0, Doc James' },
+      ],
+      steps: [
+        { note: 'Disco de frente en la AP',
+          say: 'En la radiografía de frente, la moneda en el esófago se ve como un disco completo, y de perfil como una línea. Eso la ubica en el esófago y no en la tráquea.' },
+        { note: 'Urgencia aunque esté asintomático',
+          say: 'Y esto es una pila de botón ingerida. Es más peligrosa que una moneda: quema la mucosa en horas. Si está en el esófago, se saca de inmediato.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las dos preguntas en un solo árbol.',
     },

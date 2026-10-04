@@ -140,6 +140,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Croup',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-06/01_croup_campanario__nelson_p3220.jpg', label: 'Signo del campanario', credit: 'Nelson 22.ª ed., p. 3220' },
+      ],
+      steps: [
+        { note: 'Estrechez subglótica',
+          say: 'En la radiografía, la tráquea subglótica se estrecha en punta: el signo del campanario. Pero el diagnóstico es clínico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el grado y el tratamiento en un solo árbol de decisión.',
     },

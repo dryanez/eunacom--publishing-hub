@@ -169,6 +169,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Varicela y zóster',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg', label: 'Varicela', credit: 'Manual CTO Infecciosas 14.ª ed., p. 127' },
+        { src: 'biblioteca/07_infectologia/infecto-23/02_herpes-zoster__amir-infecto_p128.jpg', label: 'Herpes zóster', credit: 'Manual AMIR Infecciosas, p. 128' },
+        { src: 'biblioteca/07_infectologia/infecto-23/03_zoster-oftalmico__amir-infecto_p128.jpg', label: 'Zóster oftálmico', credit: 'Manual AMIR Infecciosas, p. 128' },
+      ],
+      steps: [
+        { note: 'Lesiones en distintas etapas',
+          say: 'La varicela muestra lesiones en distintas etapas a la vez: máculas, vesículas y costras.' },
+        { note: 'Siguiendo un dermatoma',
+          say: 'El zóster sigue un dermatoma y no cruza la línea media.' },
+        { note: 'Requiere evaluación ocular',
+          say: 'Y el zóster oftálmico obliga a evaluar el ojo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión.',
     },

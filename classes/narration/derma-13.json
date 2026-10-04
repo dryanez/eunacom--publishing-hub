@@ -2,7 +2,7 @@
   "id": "derma-13",
   "title": "Dermatologia 16.13: Melanoma Maligno: Regla ABCDE, Biopsia Excisional, Índice de Breslow y Márgenes Quirúrgicos",
   "specialty": "Dermatología",
-  "chars": 11268,
+  "chars": 11444,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,106 +110,114 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión: de la sospecha a la biopsia, y de la biopsia al margen definitivo. Frente a una lesión pigmentada que cumple ABCDE, sobre todo si cambió en el tiempo, el siguiente paso es la técnica de biopsia."
+      "text": "El melanoma es asimétrico, de bordes irregulares, varios colores, más de seis milímetros y cambia."
     },
     {
       "file": "s06_g01",
-      "text": "La técnica de biopsia decide si el diagnóstico va a ser confiable o no."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Esta técnica amputa la base de la lesión y falsea el espesor tumoral: hay que repetir con biopsia excisional."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con la biopsia correcta, el Breslow informado decide el margen de ampliación y si corresponde ganglio centinela."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Bajo el umbral de cero coma ocho milímetros y sin ulceración, el ganglio centinela no está indicado."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Sobre ese umbral, o con ulceración, la biopsia de ganglio centinela es obligatoria, además de la ampliación de márgenes."
+      "text": "Compáralo con un nevus benigno: simétrico, de borde regular y color homogéneo."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Ante una lesión con ABCDE positivo, la conducta es la biopsia excisional completa. El error clásico es elegir shave o punch para no dejar cicatriz."
+      "text": "Ahora juntemos todo en un solo árbol de decisión: de la sospecha a la biopsia, y de la biopsia al margen definitivo. Frente a una lesión pigmentada que cumple ABCDE, sobre todo si cambió en el tiempo, el siguiente paso es la técnica de biopsia."
     },
     {
       "file": "s07_g01",
-      "text": "Con un Breslow bajo, de cero coma seis milímetros y sin ulceración, el margen es de un centímetro y no corresponde pedir ganglio centinela. Pedirlo igual es el error, porque no está indicado bajo cero coma ocho milímetros sin ulceración."
+      "text": "La técnica de biopsia decide si el diagnóstico va a ser confiable o no."
     },
     {
       "file": "s07_g02",
-      "text": "Pasado ese umbral, el ganglio centinela es obligatorio. Y el error es omitirlo solo porque no se palpan adenopatías: la biopsia de ganglio centinela existe justamente para detectar lo que la mano no palpa."
+      "text": "Esta técnica amputa la base de la lesión y falsea el espesor tumoral: hay que repetir con biopsia excisional."
     },
     {
       "file": "s07_g03",
-      "text": "Una lesión en palma, planta o uña, en un paciente sin antecedente de exposición solar, igual debe hacer sospechar un melanoma lentiginoso acral. Descartarlo por falta de sol es el error, y en Chile es un error caro."
+      "text": "Con la biopsia correcta, el Breslow informado decide el margen de ampliación y si corresponde ganglio centinela."
     },
     {
       "file": "s07_g04",
-      "text": "Y un nódulo azul-negro de crecimiento rápido debe derivarse de inmediato, porque suele ser un melanoma nodular con Breslow ya alto. Esperar a ver cómo evoluciona es perder tiempo que el paciente no tiene."
+      "text": "Bajo el umbral de cero coma ocho milímetros y sin ulceración, el ganglio centinela no está indicado."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Sobre ese umbral, o con ulceración, la biopsia de ganglio centinela es obligatoria, además de la ampliación de márgenes."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de cuarenta y cinco años, con una lesión pigmentada en la pantorrilla izquierda, de cinco meses de evolución, que ha crecido y a veces le pica. Al examen: una mácula de ocho milímetros, asimétrica, de bordes irregulares, con café oscuro, negro y un área grisácea central. No se palpan adenopatías inguinales."
+      "text": "Repasemos las trampas. Ante una lesión con ABCDE positivo, la conducta es la biopsia excisional completa. El error clásico es elegir shave o punch para no dejar cicatriz."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
+      "text": "Con un Breslow bajo, de cero coma seis milímetros y sin ulceración, el margen es de un centímetro y no corresponde pedir ganglio centinela. Pedirlo igual es el error, porque no está indicado bajo cero coma ocho milímetros sin ulceración."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: biopsia excisional completa, biopsia por punch del área más pigmentada, crioterapia en la misma consulta, control fotográfico en seis meses, o biopsia por shave superficial. Piénsalo."
+      "text": "Pasado ese umbral, el ganglio centinela es obligatorio. Y el error es omitirlo solo porque no se palpan adenopatías: la biopsia de ganglio centinela existe justamente para detectar lo que la mano no palpa."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A. Cuenta los criterios: asimetría, bordes irregulares, color con tres tonos, diámetro sobre seis milímetros, y evolución de cinco meses. Con el ABCDE completo, la conducta obligatoria es la biopsia excisional con margen estrecho e hipodermis. El punch y el shave son la trampa clásica: parecen razonables, pero subestiman el Breslow. Y esperar seis meses, con esta sospecha, no es una opción."
+      "text": "Una lesión en palma, planta o uña, en un paciente sin antecedente de exposición solar, igual debe hacer sospechar un melanoma lentiginoso acral. Descartarlo por falta de sol es el error, y en Chile es un error caro."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y un nódulo azul-negro de crecimiento rápido debe derivarse de inmediato, porque suele ser un melanoma nodular con Breslow ya alto. Esperar a ver cómo evoluciona es perder tiempo que el paciente no tiene."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta representativa del banco. Hombre de cuarenta y seis años, con un nevo en la espalda que cambió de color y creció en los últimos cuatro meses. Al examen: una lesión asimétrica de ocho milímetros, bordes irregulares y tres colores distintos, café claro, negro y grisáceo."
+      "text": "Vamos con un caso. Mujer de cuarenta y cinco años, con una lesión pigmentada en la pantorrilla izquierda, de cinco meses de evolución, que ha crecido y a veces le pica. Al examen: una mácula de ocho milímetros, asimétrica, de bordes irregulares, con café oscuro, negro y un área grisácea central. No se palpan adenopatías inguinales."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta diagnóstica de elección?"
+      "text": "¿Cuál es la conducta diagnóstica más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: crioterapia en la consulta, biopsia excisional completa, biopsia por shave para no dejar cicatriz, biopsia por punch del centro más pigmentado, o control fotográfico cada tres meses. Piénsalo."
+      "text": "Las opciones: biopsia excisional completa, biopsia por punch del área más pigmentada, crioterapia en la misma consulta, control fotográfico en seis meses, o biopsia por shave superficial. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. Mismo razonamiento de siempre: sospecha de melanoma, biopsia excisional completa. El shave y el punch son la trampa que suena razonable, \"para no dejar cicatriz\" o \"sacar solo lo más sospechoso\", pero desestructuran la lesión y no permiten medir el Breslow."
+      "text": "Es la A. Cuenta los criterios: asimetría, bordes irregulares, color con tres tonos, diámetro sobre seis milímetros, y evolución de cinco meses. Con el ABCDE completo, la conducta obligatoria es la biopsia excisional con margen estrecho e hipodermis. El punch y el shave son la trampa clásica: parecen razonables, pero subestiman el Breslow. Y esperar seis meses, con esta sospecha, no es una opción."
     },
     {
       "file": "s10_g00",
-      "text": "Una pregunta más. El informe de una biopsia excisional en la pierna de una mujer de treinta y ocho años dice: melanoma de extensión superficial, espesor de Breslow de cero coma seis milímetros, sin ulceración, márgenes libres a un milímetro."
+      "text": "Ahora una pregunta representativa del banco. Hombre de cuarenta y seis años, con un nevo en la espalda que cambió de color y creció en los últimos cuatro meses. Al examen: una lesión asimétrica de ocho milímetros, bordes irregulares y tres colores distintos, café claro, negro y grisáceo."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta terapéutica definitiva más apropiada?"
+      "text": "¿Cuál es la conducta diagnóstica de elección?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: no hacer nada más porque los márgenes de la biopsia estaban libres, ampliar a un centímetro sin ganglio centinela, ampliar a dos centímetros más ganglio centinela obligatorio, quimioterapia con dacarbazina, o radioterapia sobre la cicatriz. Piénsalo."
+      "text": "Las opciones: crioterapia en la consulta, biopsia excisional completa, biopsia por shave para no dejar cicatriz, biopsia por punch del centro más pigmentado, o control fotográfico cada tres meses. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Aplica la tabla que aprendimos: Breslow de cero coma seis milímetros, menor a un milímetro, margen de un centímetro. Y como está bajo cero coma ocho milímetros y sin ulceración, no corresponde ganglio centinela. La trampa es la C, que suena más \"agresiva\" y por eso más segura, pero es un sobretratamiento para este Breslow."
+      "text": "Es la B. Mismo razonamiento de siempre: sospecha de melanoma, biopsia excisional completa. El shave y el punch son la trampa que suena razonable, \"para no dejar cicatriz\" o \"sacar solo lo más sospechoso\", pero desestructuran la lesión y no permiten medir el Breslow."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. En el ABCDE, la Evolución es el criterio más sensible: un cambio dinámico, o una lesión nueva en un adulto."
+      "text": "Una pregunta más. El informe de una biopsia excisional en la pierna de una mujer de treinta y ocho años dice: melanoma de extensión superficial, espesor de Breslow de cero coma seis milímetros, sin ulceración, márgenes libres a un milímetro."
     },
     {
       "file": "s11_g01",
-      "text": "La biopsia siempre es excisional completa, con margen estrecho e hipodermis. Nunca shave ni punch superficial: amputan el dato que más importa."
+      "text": "¿Cuál es la conducta terapéutica definitiva más apropiada?"
     },
     {
       "file": "s11_g02",
+      "text": "Las opciones: no hacer nada más porque los márgenes de la biopsia estaban libres, ampliar a un centímetro sin ganglio centinela, ampliar a dos centímetros más ganglio centinela obligatorio, quimioterapia con dacarbazina, o radioterapia sobre la cicatriz. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Aplica la tabla que aprendimos: Breslow de cero coma seis milímetros, menor a un milímetro, margen de un centímetro. Y como está bajo cero coma ocho milímetros y sin ulceración, no corresponde ganglio centinela. La trampa es la C, que suena más \"agresiva\" y por eso más segura, pero es un sobretratamiento para este Breslow."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. En el ABCDE, la Evolución es el criterio más sensible: un cambio dinámico, o una lesión nueva en un adulto."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La biopsia siempre es excisional completa, con margen estrecho e hipodermis. Nunca shave ni punch superficial: amputan el dato que más importa."
+    },
+    {
+      "file": "s12_g02",
       "text": "Y el Breslow es la brújula de todo lo que viene: el margen crece con el espesor, y cero coma ocho milímetros es el corte para el ganglio centinela. Si te llevas una sola idea de hoy: sospecha con el ABCDE, biopsia siempre excisional, y deja que el Breslow decida el resto. Nos vemos en la próxima clase."
     }
   ]

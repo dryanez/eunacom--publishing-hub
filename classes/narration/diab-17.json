@@ -2,7 +2,7 @@
   "id": "diab-17",
   "title": "Diabetes 4.3: Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
   "specialty": "Diabetes y Dislipidemias",
-  "chars": 9296,
+  "chars": 9448,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,106 +102,110 @@
     },
     {
       "file": "s05_g00",
-      "text": "Juntemos todo en el orden en que lo vas a razonar al lado de la cama. El paciente con cetoacidosis ya está recibiendo suero fisiológico. Antes de colgar la insulina, hay una sola pregunta que no puedes saltarte."
-    },
-    {
-      "file": "s05_g01",
-      "text": "¿Cuánto es el potasio? Recuerda que siempre hay déficit total, aunque la sangre diga otra cosa."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Bajo tres coma tres: la insulina se posterga o se suspende, y se pasa cloruro de potasio a veinte a treinta miliequivalentes por hora. Cuando el potasio supera tres coma tres, vuelves a esta misma pregunta."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Entre tres coma tres y cinco coma dos: insulina cristalina a cero coma uno unidades por kilo por hora, y veinte a treinta miliequivalentes de cloruro de potasio en cada litro. Si en la primera hora la glicemia no bajó cincuenta, se duplica la infusión."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Sobre cinco coma dos: insulina sin potasio, y control cada dos horas, porque la propia insulina lo va a bajar."
-    },
-    {
-      "file": "s05_g05",
-      "text": "En paralelo, mira el pH. Es lo único que decide el bicarbonato."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Bajo seis coma nueve: cien milimoles de bicarbonato de sodio en cuatrocientos mililitros de agua, con veinte miliequivalentes de potasio, en dos horas, hasta llegar a pH siete."
-    },
-    {
-      "file": "s05_g07",
-      "text": "Con pH de seis coma nueve o más, no hay bicarbonato, por muy bajo que esté el bicarbonato sérico."
+      "text": "Cuando la insulina mete el potasio a las células, puede aparecer hipokalemia: T aplanada y onda U. Por eso la insulina no parte si el potasio está bajo."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos las trampas. Potasio bajo tres coma tres: no hay insulina, se repone potasio a veinte a treinta por hora. El error es partir con la insulina pensando en reponer el potasio después."
+      "text": "Juntemos todo en el orden en que lo vas a razonar al lado de la cama. El paciente con cetoacidosis ya está recibiendo suero fisiológico. Antes de colgar la insulina, hay una sola pregunta que no puedes saltarte."
     },
     {
       "file": "s06_g01",
-      "text": "Potasio entre tres coma tres y cinco coma dos: insulina, y potasio en cada litro. El error es olvidar el potasio porque el número se ve normal."
+      "text": "¿Cuánto es el potasio? Recuerda que siempre hay déficit total, aunque la sangre diga otra cosa."
     },
     {
       "file": "s06_g02",
-      "text": "Potasio sobre cinco coma dos: insulina sin potasio, y control cada dos horas. No es una hiperkalemia para tratar con gluconato de calcio: la insulina misma la corrige."
+      "text": "Bajo tres coma tres: la insulina se posterga o se suspende, y se pasa cloruro de potasio a veinte a treinta miliequivalentes por hora. Cuando el potasio supera tres coma tres, vuelves a esta misma pregunta."
     },
     {
       "file": "s06_g03",
-      "text": "Si la glicemia no bajó cincuenta en la primera hora, se duplica la infusión."
+      "text": "Entre tres coma tres y cinco coma dos: insulina cristalina a cero coma uno unidades por kilo por hora, y veinte a treinta miliequivalentes de cloruro de potasio en cada litro. Si en la primera hora la glicemia no bajó cincuenta, se duplica la infusión."
     },
     {
       "file": "s06_g04",
-      "text": "Y un pH de siete coma cero ocho, aunque sea una acidosis severa y el paciente respire con Kussmaul: no lleva bicarbonato. El corte es seis coma nueve, y solo el pH decide."
+      "text": "Sobre cinco coma dos: insulina sin potasio, y control cada dos horas, porque la propia insulina lo va a bajar."
+    },
+    {
+      "file": "s06_g05",
+      "text": "En paralelo, mira el pH. Es lo único que decide el bicarbonato."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Bajo seis coma nueve: cien milimoles de bicarbonato de sodio en cuatrocientos mililitros de agua, con veinte miliequivalentes de potasio, en dos horas, hasta llegar a pH siete."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Con pH de seis coma nueve o más, no hay bicarbonato, por muy bajo que esté el bicarbonato sérico."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos a un caso. Mujer de dieciocho años con diabetes tipo uno, en cetoacidosis severa: glicemia de cuatrocientos sesenta y pH venoso de siete coma cero ocho. El potasio es de dos coma nueve. Ya recibió su primer litro de suero, y el interno prepara un bolo de diez unidades de insulina y una bomba a seis unidades por hora."
+      "text": "Repasemos las trampas. Potasio bajo tres coma tres: no hay insulina, se repone potasio a veinte a treinta por hora. El error es partir con la insulina pensando en reponer el potasio después."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Potasio entre tres coma tres y cinco coma dos: insulina, y potasio en cada litro. El error es olvidar el potasio porque el número se ve normal."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones son: aprobar la insulina y reponer potasio más tarde, postergar la insulina y pasar cloruro de potasio, dar bicarbonato primero, iniciar la bomba sin bolo pero con potasio, o cambiar a insulina NPH. Piénsalo."
+      "text": "Potasio sobre cinco coma dos: insulina sin potasio, y control cada dos horas. No es una hiperkalemia para tratar con gluconato de calcio: la insulina misma la corrige."
     },
     {
       "file": "s07_g03",
-      "text": "La respuesta es la B. El potasio es dos coma nueve, bajo tres coma tres: la insulina metería a la célula el poco potasio que queda, con riesgo de fibrilación ventricular. Primero cloruro de potasio, y la insulina cuando el potasio supere tres coma tres. La D es el distractor más tentador porque suena prudente, pero esa conducta es para un potasio entre tres coma tres y cinco coma dos. Y el pH no llega al corte del bicarbonato."
+      "text": "Si la glicemia no bajó cincuenta en la primera hora, se duplica la infusión."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y un pH de siete coma cero ocho, aunque sea una acidosis severa y el paciente respire con Kussmaul: no lleva bicarbonato. El corte es seis coma nueve, y solo el pH decide."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de once años con cuatro días de poliuria y polidipsia, que llega soporoso y taquicárdico. Glicemia de trescientos veinte, pH de siete coma once, bicarbonato de doce, cetonas positivas, y un potasio de cinco coma uno."
+      "text": "Vamos a un caso. Mujer de dieciocho años con diabetes tipo uno, en cetoacidosis severa: glicemia de cuatrocientos sesenta y pH venoso de siete coma cero ocho. El potasio es de dos coma nueve. Ya recibió su primer litro de suero, y el interno prepara un bolo de diez unidades de insulina y una bomba a seis unidades por hora."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la primera medida a administrar?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: suero fisiológico a veinte centímetros cúbicos por kilo, insulina endovenosa, adrenalina, cloruro de potasio, u oxígeno. Piénsalo."
+      "text": "Las opciones son: aprobar la insulina y reponer potasio más tarde, postergar la insulina y pasar cloruro de potasio, dar bicarbonato primero, iniciar la bomba sin bolo pero con potasio, o cambiar a insulina NPH. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A, el suero fisiológico: como vimos en la clase anterior, lo primero es siempre el volumen. Pero sigamos al paciente con lo de hoy. Su potasio es cinco coma uno, entre tres coma tres y cinco coma dos, así que después del suero va la insulina, con cloruro de potasio en los sueros. La insulina es el distractor tentador, pero no es lo primero. Y con pH de siete coma once, nada de bicarbonato."
+      "text": "La respuesta es la B. El potasio es dos coma nueve, bajo tres coma tres: la insulina metería a la célula el poco potasio que queda, con riesgo de fibrilación ventricular. Primero cloruro de potasio, y la insulina cuando el potasio supere tres coma tres. La D es el distractor más tentador porque suena prudente, pero esa conducta es para un potasio entre tres coma tres y cinco coma dos. Y el pH no llega al corte del bicarbonato."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. Todo paciente con cetoacidosis tiene déficit de potasio, aunque el examen lo muestre normal o alto."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de once años con cuatro días de poliuria y polidipsia, que llega soporoso y taquicárdico. Glicemia de trescientos veinte, pH de siete coma once, bicarbonato de doce, cetonas positivas, y un potasio de cinco coma uno."
     },
     {
       "file": "s09_g01",
-      "text": "Con potasio bajo tres coma tres, no hay insulina: primero potasio."
+      "text": "¿Cuál es la primera medida a administrar?"
     },
     {
       "file": "s09_g02",
-      "text": "Entre tres coma tres y cinco coma dos, insulina con potasio. Sobre cinco coma dos, insulina sola y control cada dos horas."
+      "text": "Las opciones son: suero fisiológico a veinte centímetros cúbicos por kilo, insulina endovenosa, adrenalina, cloruro de potasio, u oxígeno. Piénsalo."
     },
     {
       "file": "s09_g03",
+      "text": "Es la A, el suero fisiológico: como vimos en la clase anterior, lo primero es siempre el volumen. Pero sigamos al paciente con lo de hoy. Su potasio es cinco coma uno, entre tres coma tres y cinco coma dos, así que después del suero va la insulina, con cloruro de potasio en los sueros. La insulina es el distractor tentador, pero no es lo primero. Y con pH de siete coma once, nada de bicarbonato."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Todo paciente con cetoacidosis tiene déficit de potasio, aunque el examen lo muestre normal o alto."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Con potasio bajo tres coma tres, no hay insulina: primero potasio."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Entre tres coma tres y cinco coma dos, insulina con potasio. Sobre cinco coma dos, insulina sola y control cada dos horas."
+    },
+    {
+      "file": "s10_g03",
       "text": "La insulina es cristalina endovenosa a cero coma uno unidades por kilo por hora, buscando bajar cincuenta a setenta y cinco por hora, y se duplica si en la primera hora no bajó cincuenta."
     },
     {
-      "file": "s09_g04",
+      "file": "s10_g04",
       "text": "Y el bicarbonato, solo con pH bajo seis coma nueve. En la próxima clase vemos cuándo se considera resuelta la cetoacidosis y cómo se apaga la bomba sin que el paciente recaiga. Si te llevas una sola idea de hoy: antes de la insulina, mira el potasio; antes del bicarbonato, mira el pH. Nos vemos en la próxima clase."
     }
   ]

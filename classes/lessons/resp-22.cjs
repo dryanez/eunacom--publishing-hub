@@ -118,6 +118,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Distrés respiratorio agudo',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'SDRA', credit: 'Manual CTO Neumología 14.ª ed., p. 35' },
+      ],
+      steps: [
+        { note: 'Infiltrados bilaterales',
+          say: 'El distrés muestra infiltrados en ambos pulmones, con un corazón de tamaño normal. Ese es uno de los criterios de Berlín: no se explica por insuficiencia cardíaca.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y el manejo en un solo árbol.',
     },

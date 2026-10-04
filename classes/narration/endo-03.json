@@ -2,7 +2,7 @@
   "id": "endo-03",
   "title": "Endocrinología 1.3: Coma Mixedematoso y Urgencias Hipotiroideas",
   "specialty": "Endocrinología",
-  "chars": 11935,
+  "chars": 12125,
   "segments": [
     {
       "file": "s00_g00",
@@ -154,122 +154,126 @@
     },
     {
       "file": "s08_g00",
-      "text": "Pongamos el rescate completo en un árbol, en el orden en que lo harías en la urgencia. Paciente anciana, en invierno, con sopor, hipotermia y bradicardia, muchas veces con hipotiroidismo conocido o tratamiento abandonado. La sospecha es clínica, y el tratamiento parte antes de los resultados."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Lo primero es la vía aérea. ¿Está ventilando? La hipoventilación con hipercapnia es frecuente."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Si hipoventila, intubación y ventilación mecánica, y el paciente va a la unidad de paciente crítico."
-    },
-    {
-      "file": "s08_g03",
-      "text": "En todos, lo primero farmacológico es la hidrocortisona endovenosa, cien miligramos, sin esperar el cortisol sérico."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Después, o junto, la carga de levotiroxina endovenosa, y luego la mantención diaria."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Con el corticoide y la hormona en marcha, se corrige el resto."
-    },
-    {
-      "file": "s08_g06",
-      "text": "La hipotermia, con recalentamiento pasivo. Nunca baño caliente ni mantas eléctricas."
-    },
-    {
-      "file": "s08_g07",
-      "text": "La hiponatremia, con restricción hídrica, y solución hipertónica al tres por ciento solo si es grave y sintomática."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Y el gatillante: hemocultivos y antibióticos empíricos de amplio espectro, porque la infección es el desencadenante más frecuente."
+      "text": "En el mixedema grave la cara está infiltrada y el paciente apático. Si además hay hipotermia y compromiso de conciencia, es un coma mixedematoso: corticoide primero, después la levotiroxina."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas en el orden del rescate. Primero el corticoide: hidrocortisona cien miligramos endovenosa, antes o junto con la hormona. El error es dar levotiroxina sola, o esperar el cortisol sérico."
+      "text": "Pongamos el rescate completo en un árbol, en el orden en que lo harías en la urgencia. Paciente anciana, en invierno, con sopor, hipotermia y bradicardia, muchas veces con hipotiroidismo conocido o tratamiento abandonado. La sospecha es clínica, y el tratamiento parte antes de los resultados."
     },
     {
       "file": "s09_g01",
-      "text": "La hormona: carga de trescientos a quinientos microgramos endovenosa. El error es confiar en la vía oral con un intestino paralizado."
+      "text": "Lo primero es la vía aérea. ¿Está ventilando? La hipoventilación con hipercapnia es frecuente."
     },
     {
       "file": "s09_g02",
-      "text": "La temperatura: recalentamiento pasivo. El baño caliente o la manta eléctrica producen shock."
+      "text": "Si hipoventila, intubación y ventilación mecánica, y el paciente va a la unidad de paciente crítico."
     },
     {
       "file": "s09_g03",
-      "text": "El sodio: restricción hídrica, y suero hipertónico solo si es grave y sintomático. La hemodiálisis no tiene lugar aquí."
+      "text": "En todos, lo primero farmacológico es la hidrocortisona endovenosa, cien miligramos, sin esperar el cortisol sérico."
     },
     {
       "file": "s09_g04",
-      "text": "Y el gatillante: hemocultivos y antibióticos empíricos, porque la infección es el desencadenante más frecuente."
+      "text": "Después, o junto, la carga de levotiroxina endovenosa, y luego la mantención diaria."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Con el corticoide y la hormona en marcha, se corrige el resto."
+    },
+    {
+      "file": "s09_g06",
+      "text": "La hipotermia, con recalentamiento pasivo. Nunca baño caliente ni mantas eléctricas."
+    },
+    {
+      "file": "s09_g07",
+      "text": "La hiponatremia, con restricción hídrica, y solución hipertónica al tres por ciento solo si es grave y sintomática."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Y el gatillante: hemocultivos y antibióticos empíricos de amplio espectro, porque la infección es el desencadenante más frecuente."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos al caso. Mujer de setenta y ocho años, hipotiroidea que abandonó el tratamiento, encontrada inconsciente en su casa durante una ola de frío. Llega en coma, con la piel fría y engrosada, temperatura rectal de treinta y uno coma ocho, frecuencia de cuarenta y dos, presión de ochenta cincuenta y ocho respiraciones por minuto. Glicemia de cincuenta y cinco, sodio de ciento dieciocho, acidosis respiratoria, TSH sobre cien y T cuatro libre indetectable."
+      "text": "Repasemos las trampas en el orden del rescate. Primero el corticoide: hidrocortisona cien miligramos endovenosa, antes o junto con la hormona. El error es dar levotiroxina sola, o esperar el cortisol sérico."
     },
     {
       "file": "s10_g01",
-      "text": "Además de intubarla, ¿cuál es la conducta inmediata más adecuada?"
+      "text": "La hormona: carga de trescientos a quinientos microgramos endovenosa. El error es confiar en la vía oral con un intestino paralizado."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: levotiroxina endovenosa esperando el cortisol, hidrocortisona antes o junto con la levotiroxina endovenosa y recalentamiento pasivo, baño caliente con levotiroxina oral, hemodiálisis, o levotiroxina oral en dosis baja. Piénsalo."
+      "text": "La temperatura: recalentamiento pasivo. El baño caliente o la manta eléctrica producen shock."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Anciana, invierno, hipotermia, coma, bradicardia, hiponatremia: coma mixedematoso. Y fíjate en la hipoglicemia, que te avisa de la suprarrenal. La A es la trampa más peligrosa: la dosis de levotiroxina es correcta, pero esperar el cortisol puede desencadenar una crisis adisoniana. La C cae por el baño caliente, y la E, porque la dosis lenta es para el hipotiroidismo de la consulta, no para esta urgencia."
+      "text": "El sodio: restricción hídrica, y suero hipertónico solo si es grave y sintomático. La hemodiálisis no tiene lugar aquí."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y el gatillante: hemocultivos y antibióticos empíricos, porque la infección es el desencadenante más frecuente."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés, y es corta. Paciente con piel seca, bradicardia, hipotensión, compromiso de conciencia, TSH de cien y T cuatro libre muy baja."
+      "text": "Vamos al caso. Mujer de setenta y ocho años, hipotiroidea que abandonó el tratamiento, encontrada inconsciente en su casa durante una ola de frío. Llega en coma, con la piel fría y engrosada, temperatura rectal de treinta y uno coma ocho, frecuencia de cuarenta y dos, presión de ochenta cincuenta y ocho respiraciones por minuto. Glicemia de cincuenta y cinco, sodio de ciento dieciocho, acidosis respiratoria, TSH sobre cien y T cuatro libre indetectable."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico?"
+      "text": "Además de intubarla, ¿cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: coma mixedematoso, hipotiroidismo subclínico severo, insuficiencia suprarrenal aguda, encefalopatía hipoglicémica, o hipotiroidismo primario descompensado. Piénsalo."
+      "text": "Las opciones: levotiroxina endovenosa esperando el cortisol, hidrocortisona antes o junto con la levotiroxina endovenosa y recalentamiento pasivo, baño caliente con levotiroxina oral, hemodiálisis, o levotiroxina oral en dosis baja. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, coma mixedematoso. Hipotiroidismo grave más compromiso de conciencia, bradicardia e hipotensión: es la tríada. La E es la trampa, porque técnicamente es un hipotiroidismo descompensado; pero el compromiso de conciencia con inestabilidad hemodinámica tiene nombre propio, y ese nombre cambia la conducta. La B cae de inmediato: con la T cuatro libre baja, no es subclínico."
+      "text": "Es la B. Anciana, invierno, hipotermia, coma, bradicardia, hiponatremia: coma mixedematoso. Y fíjate en la hipoglicemia, que te avisa de la suprarrenal. La A es la trampa más peligrosa: la dosis de levotiroxina es correcta, pero esperar el cortisol puede desencadenar una crisis adisoniana. La C cae por el baño caliente, y la E, porque la dosis lenta es para el hipotiroidismo de la consulta, no para esta urgencia."
     },
     {
       "file": "s12_g00",
-      "text": "Y la más reciente, del EUNACOM de diciembre de dos mil veinticinco. Mujer de cuarenta y seis años con anemia perniciosa y vitíligo, con tres semanas de astenia, y ahora somnolencia y desorientación. Está soporosa, con presión de noventa sesenta, frecuencia de sesenta y dos, lengua grande, edema de piernas y relajación lenta de los reflejos. Tiene sodio de ciento treinta, anemia macrocítica, y un escáner cerebral normal."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de enero de dos mil veintitrés, y es corta. Paciente con piel seca, bradicardia, hipotensión, compromiso de conciencia, TSH de cien y T cuatro libre muy baja."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento inicial más adecuado?"
+      "text": "¿Cuál es el diagnóstico?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: suero hipertónico, suero fisiológico, levotiroxina endovenosa, corticoides endovenosos, o antibióticos. Piénsalo."
+      "text": "Las opciones: coma mixedematoso, hipotiroidismo subclínico severo, insuficiencia suprarrenal aguda, encefalopatía hipoglicémica, o hipotiroidismo primario descompensado. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, corticoides endovenosos. Es un coma mixedematoso, y fíjate en las pistas: vitíligo y anemia perniciosa te dicen autoinmunidad de varias glándulas, así que la suprarrenal puede estar fallando. Por eso primero el corticoide y después la levotiroxina. La C es la trampa perfecta: es el tratamiento correcto, pero en el orden equivocado. Y el suero hipertónico cae porque el sodio de ciento treinta no es grave."
+      "text": "Es la A, coma mixedematoso. Hipotiroidismo grave más compromiso de conciencia, bradicardia e hipotensión: es la tríada. La E es la trampa, porque técnicamente es un hipotiroidismo descompensado; pero el compromiso de conciencia con inestabilidad hemodinámica tiene nombre propio, y ese nombre cambia la conducta. La B cae de inmediato: con la T cuatro libre baja, no es subclínico."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Anciana en invierno, fría, soporosa y bradicárdica, con hiponatremia: coma mixedematoso. Y busca siempre el gatillante, sobre todo la infección."
+      "text": "Y la más reciente, del EUNACOM de diciembre de dos mil veinticinco. Mujer de cuarenta y seis años con anemia perniciosa y vitíligo, con tres semanas de astenia, y ahora somnolencia y desorientación. Está soporosa, con presión de noventa sesenta, frecuencia de sesenta y dos, lengua grande, edema de piernas y relajación lenta de los reflejos. Tiene sodio de ciento treinta, anemia macrocítica, y un escáner cerebral normal."
     },
     {
       "file": "s13_g01",
-      "text": "Primero hidrocortisona endovenosa, cien miligramos, antes o junto con la levotiroxina, sin esperar el cortisol."
+      "text": "¿Cuál es el tratamiento inicial más adecuado?"
     },
     {
       "file": "s13_g02",
-      "text": "Luego la levotiroxina endovenosa, con una carga de trescientos a quinientos microgramos."
+      "text": "Las opciones: suero hipertónico, suero fisiológico, levotiroxina endovenosa, corticoides endovenosos, o antibióticos. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la D, corticoides endovenosos. Es un coma mixedematoso, y fíjate en las pistas: vitíligo y anemia perniciosa te dicen autoinmunidad de varias glándulas, así que la suprarrenal puede estar fallando. Por eso primero el corticoide y después la levotiroxina. La C es la trampa perfecta: es el tratamiento correcto, pero en el orden equivocado. Y el suero hipertónico cae porque el sodio de ciento treinta no es grave."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Anciana en invierno, fría, soporosa y bradicárdica, con hiponatremia: coma mixedematoso. Y busca siempre el gatillante, sobre todo la infección."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Primero hidrocortisona endovenosa, cien miligramos, antes o junto con la levotiroxina, sin esperar el cortisol."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Luego la levotiroxina endovenosa, con una carga de trescientos a quinientos microgramos."
+    },
+    {
+      "file": "s14_g03",
       "text": "El recalentamiento es pasivo, con mantas. Ventilación si hipoventila, restricción hídrica, y suero hipertónico solo si el sodio está bajo ciento veinte con síntomas. Si te llevas una sola idea de hoy: en el coma mixedematoso, el corticoide va antes que la hormona, y el calor va despacio. En la próxima clase vemos el hipotiroidismo en el embarazo y en el recién nacido. Nos vemos en la próxima clase."
     }
   ]

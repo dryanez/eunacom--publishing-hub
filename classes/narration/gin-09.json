@@ -2,7 +2,7 @@
   "id": "gin-09",
   "title": "Ginecologia 20.9: Infecciones del Tracto Genital Inferior: Vulvovaginitis (Amsel) y Cervicitis",
   "specialty": "Ginecología",
-  "chars": 9204,
+  "chars": 9424,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,150 +106,162 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos las cuatro entidades en un solo árbol de decisión. Partamos de la sospecha. Lo primero que necesitas es el pH y el test de aminas."
+      "text": "Las células clave, cubiertas de bacterias, son la vaginosis bacteriana."
     },
     {
       "file": "s06_g01",
-      "text": "La pregunta que ordena todo: ¿el pH está normal, o está alto?"
+      "text": "Las tricomonas son parásitos que se mueven en la muestra fresca. Se trata a la pareja."
     },
     {
       "file": "s06_g02",
-      "text": "Con pH normal y prurito intenso, es candidiasis. Fluconazol en dosis única, o clotrimazol tópico si está embarazada."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con el pH alto, la microscopía decide entre las dos."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si ves clue cells, es vaginosis bacteriana. Metronidazol oral por siete días, y no necesitas tratar a la pareja."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si ves un protozoo flagelado moviéndose, es tricomoniasis. Metronidazol en dosis única, y esta vez sí, a la paciente y a su pareja."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Y si la secreción purulenta sale del cuello uterino y no de las paredes vaginales, es cervicitis: ceftriaxona más doxiciclina, cubriendo gonococo y Chlamydia juntos."
+      "text": "Y las levaduras de Candida, con flujo blanco grumoso y prurito."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Flujo gris sin dolor y pH alto: metronidazol solo a la paciente. El error es tratar a la pareja sin necesidad."
+      "text": "Juntemos las cuatro entidades en un solo árbol de decisión. Partamos de la sospecha. Lo primero que necesitas es el pH y el test de aminas."
     },
     {
       "file": "s07_g01",
-      "text": "Prurito con flujo en leche cortada y pH normal: fluconazol. El error es pensar que todo flujo anormal tiene el pH alto."
+      "text": "La pregunta que ordena todo: ¿el pH está normal, o está alto?"
     },
     {
       "file": "s07_g02",
-      "text": "Flujo espumoso con cuello en fresa: metronidazol a los dos, porque es una ITS. El error clásico es olvidar a la pareja."
+      "text": "Con pH normal y prurito intenso, es candidiasis. Fluconazol en dosis única, o clotrimazol tópico si está embarazada."
     },
     {
       "file": "s07_g03",
-      "text": "Secreción purulenta que sale del cuello: ceftriaxona más doxiciclina. El metronidazol no cubre ni gonococo ni Chlamydia."
+      "text": "Con el pH alto, la microscopía decide entre las dos."
     },
     {
       "file": "s07_g04",
-      "text": "Y candidiasis en el embarazo: siempre tópico. El fluconazol oral se evita en la gestante."
+      "text": "Si ves clue cells, es vaginosis bacteriana. Metronidazol oral por siete días, y no necesitas tratar a la pareja."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si ves un protozoo flagelado moviéndose, es tricomoniasis. Metronidazol en dosis única, y esta vez sí, a la paciente y a su pareja."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Y si la secreción purulenta sale del cuello uterino y no de las paredes vaginales, es cervicitis: ceftriaxona más doxiciclina, cubriendo gonococo y Chlamydia juntos."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Mujer de veinticuatro años, embarazada de doce semanas, con prurito vulvar intenso de una semana, y flujo blanco, espeso, en grumos, adherido a la pared vaginal. El pH vaginal es de cuatro, y el test de aminas es negativo."
+      "text": "Repasemos las trampas. Flujo gris sin dolor y pH alto: metronidazol solo a la paciente. El error es tratar a la pareja sin necesidad."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el tratamiento más adecuado?"
+      "text": "Prurito con flujo en leche cortada y pH normal: fluconazol. El error es pensar que todo flujo anormal tiene el pH alto."
     },
     {
       "file": "s08_g02",
-      "text": "Tienes cinco opciones: fluconazol oral en dosis única, clotrimazol en óvulos por siete días, metronidazol oral por siete días, metronidazol en dosis única para ella y su pareja, o ceftriaxona intramuscular. Piénsalo."
+      "text": "Flujo espumoso con cuello en fresa: metronidazol a los dos, porque es una ITS. El error clásico es olvidar a la pareja."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. El cuadro es una candidiasis clásica: prurito, leche cortada, y un pH que no sube. La trampa está en el embarazo: el fluconazol oral, que sería tu primera opción fuera del embarazo, aquí se evita, y usas clotrimazol tópico. El metronidazol es para vaginosis o tricomoniasis, y la ceftriaxona, para cervicitis."
+      "text": "Secreción purulenta que sale del cuello: ceftriaxona más doxiciclina. El metronidazol no cubre ni gonococo ni Chlamydia."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y candidiasis en el embarazo: siempre tópico. El fluconazol oral se evita en la gestante."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de veintiocho años con dispareunia y flujo vaginal gris homogéneo, con mal olor que empeora después de las relaciones. El pH vaginal es de cinco coma cinco, y el test de aminas con KOH resulta positivo."
+      "text": "Vamos al caso. Mujer de veinticuatro años, embarazada de doce semanas, con prurito vulvar intenso de una semana, y flujo blanco, espeso, en grumos, adherido a la pared vaginal. El pH vaginal es de cuatro, y el test de aminas es negativo."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico y tratamiento más adecuado?"
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: vaginosis bacteriana con metronidazol oral, candidiasis con fluconazol, tricomoniasis con metronidazol en dosis única, herpes genital con aciclovir, o cervicitis por Chlamydia con azitromicina. Piénsalo."
+      "text": "Tienes cinco opciones: fluconazol oral en dosis única, clotrimazol en óvulos por siete días, metronidazol oral por siete días, metronidazol en dosis única para ella y su pareja, o ceftriaxona intramuscular. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Flujo gris homogéneo, pH sobre cuatro coma cinco y aminas positivas: son tres de los criterios de Amsel, y con eso ya tienes vaginosis bacteriana. El tratamiento es metronidazol oral por siete días, sin necesidad de tratar a la pareja."
+      "text": "Es la B. El cuadro es una candidiasis clásica: prurito, leche cortada, y un pH que no sube. La trampa está en el embarazo: el fluconazol oral, que sería tu primera opción fuera del embarazo, aquí se evita, y usas clotrimazol tópico. El metronidazol es para vaginosis o tricomoniasis, y la ceftriaxona, para cervicitis."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintiséis años, sin antecedentes, con secreción vaginal y prurito. Al examen se ven marcas de rascado en la vulva, y en la especuloscopía, una leucorrea blanquecina."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Mujer de veintiocho años con dispareunia y flujo vaginal gris homogéneo, con mal olor que empeora después de las relaciones. El pH vaginal es de cinco coma cinco, y el test de aminas con KOH resulta positivo."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el fármaco de elección para el manejo de este caso?"
+      "text": "¿Cuál es el diagnóstico y tratamiento más adecuado?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: metronidazol, fluconazol, miconazol, doxiciclina, o ceftriaxona. Piénsalo."
+      "text": "Las opciones: vaginosis bacteriana con metronidazol oral, candidiasis con fluconazol, tricomoniasis con metronidazol en dosis única, herpes genital con aciclovir, o cervicitis por Chlamydia con azitromicina. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, fluconazol. El prurito intenso con las marcas de rascado te tiene que hacer pensar de inmediato en candidiasis. Y aunque el miconazol también es un antifúngico, la vía oral en dosis única con fluconazol es la respuesta que el examen busca como fármaco de elección."
+      "text": "Es la A. Flujo gris homogéneo, pH sobre cuatro coma cinco y aminas positivas: son tres de los criterios de Amsel, y con eso ya tienes vaginosis bacteriana. El tratamiento es metronidazol oral por siete días, sin necesidad de tratar a la pareja."
     },
     {
       "file": "s11_g00",
-      "text": "Una pregunta real más, del EUNACOM de julio de dos mil diecisiete. Mujer de treinta años con leucorrea y prurito. A la especuloscopía, un flujo abundante, amarillo y espumoso."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Mujer de veintiséis años, sin antecedentes, con secreción vaginal y prurito. Al examen se ven marcas de rascado en la vulva, y en la especuloscopía, una leucorrea blanquecina."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
+      "text": "¿Cuál es el fármaco de elección para el manejo de este caso?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: prueba de aminas, cultivo para Cándida, células clave, frotis fresco de la secreción, o PCR para Chlamydia. Piénsalo."
+      "text": "Las opciones: metronidazol, fluconazol, miconazol, doxiciclina, o ceftriaxona. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D, frotis fresco. El flujo amarillo y espumoso es tricomoniasis, y ahí el examen que la confirma en el momento es mirar la muestra fresca al microscopio: vas a ver al protozoo moviéndose. Las clue cells son para vaginosis, y las aminas apoyan pero no confirman por sí solas."
+      "text": "Es la B, fluconazol. El prurito intenso con las marcas de rascado te tiene que hacer pensar de inmediato en candidiasis. Y aunque el miconazol también es un antifúngico, la vía oral en dosis única con fluconazol es la respuesta que el examen busca como fármaco de elección."
     },
     {
       "file": "s12_g00",
-      "text": "Y la última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, alérgica a la penicilina, con disuria y molestias genitales de cuatro días, con leucorrea. El cultivo de Thayer Martin sale positivo, y la prueba de aminas, negativa."
+      "text": "Una pregunta real más, del EUNACOM de julio de dos mil diecisiete. Mujer de treinta años con leucorrea y prurito. A la especuloscopía, un flujo abundante, amarillo y espumoso."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento de elección?"
+      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: ciprofloxacino, ceftriaxona, azitromicina, doxiciclina, o penicilina benzatina. Piénsalo."
+      "text": "Las opciones: prueba de aminas, cultivo para Cándida, células clave, frotis fresco de la secreción, o PCR para Chlamydia. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B, ceftriaxona. El cultivo positivo confirma gonococo, y la ceftriaxona sigue siendo de elección aunque la paciente sea alérgica a la penicilina, porque son familias distintas de antibiótico. Ojo: en la práctica también cubrirías Chlamydia con doxiciclina, pero esta pregunta apunta específicamente al tratamiento del gonococo."
+      "text": "Es la D, frotis fresco. El flujo amarillo y espumoso es tricomoniasis, y ahí el examen que la confirma en el momento es mirar la muestra fresca al microscopio: vas a ver al protozoo moviéndose. Las clue cells son para vaginosis, y las aminas apoyan pero no confirman por sí solas."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Si el pH es normal, piensa en candidiasis: es el único cuadro que no lo altera."
+      "text": "Y la última pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de veintiséis años, alérgica a la penicilina, con disuria y molestias genitales de cuatro días, con leucorrea. El cultivo de Thayer Martin sale positivo, y la prueba de aminas, negativa."
     },
     {
       "file": "s13_g01",
-      "text": "Si el pH está alto y las aminas son positivas, es vaginosis o tricomoniasis, y ahí la microscopía decide: clue cells o protozoo móvil."
+      "text": "¿Cuál es el tratamiento de elección?"
     },
     {
       "file": "s13_g02",
-      "text": "De las tres, solo en la tricomoniasis tratas a la pareja, porque es la única de transmisión sexual."
+      "text": "Las opciones: ciprofloxacino, ceftriaxona, azitromicina, doxiciclina, o penicilina benzatina. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la B, ceftriaxona. El cultivo positivo confirma gonococo, y la ceftriaxona sigue siendo de elección aunque la paciente sea alérgica a la penicilina, porque son familias distintas de antibiótico. Ojo: en la práctica también cubrirías Chlamydia con doxiciclina, pero esta pregunta apunta específicamente al tratamiento del gonococo."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Si el pH es normal, piensa en candidiasis: es el único cuadro que no lo altera."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Si el pH está alto y las aminas son positivas, es vaginosis o tricomoniasis, y ahí la microscopía decide: clue cells o protozoo móvil."
+    },
+    {
+      "file": "s14_g02",
+      "text": "De las tres, solo en la tricomoniasis tratas a la pareja, porque es la única de transmisión sexual."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y en la cervicitis, siempre las dos: ceftriaxona y doxiciclina."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Si te llevas una sola idea de hoy: mira el pH antes de decidir el tratamiento, y recuerda que en la embarazada la candidiasis siempre se trata tópica. Nos vemos en la próxima clase."
     }
   ]

@@ -2,7 +2,7 @@
   "id": "ped-07",
   "title": "Pediatria 18.7: Neumonía Adquirida en la Comunidad (NAC) Pediátrica: Diagnóstico, Amoxicilina vs Ampicilina y Criterios de Hospitalización",
   "specialty": "Pediatría",
-  "chars": 10893,
+  "chars": 10983,
   "segments": [
     {
       "file": "s00_g00",
@@ -118,87 +118,75 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora armemos todo el razonamiento en un solo árbol de decisión. Tienes un niño con fiebre y tos. Lo primero, antes de pedir cualquier examen, es contar la frecuencia respiratoria según su edad."
-    },
-    {
-      "file": "s08_g01",
-      "text": "Si además hay un hallazgo focal al auscultar, ya tienes el diagnóstico de neumonía, sin necesidad de radiografía."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Sin criterios de hospitalización, revisa la edad para elegir el fármaco."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Entre los tres meses y los cinco años, amoxicilina oral en dosis alta por siete días, contra el neumococo."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Desde los cinco años, con clínica insidiosa e infiltrado intersticial, azitromicina, porque el mycoplasma no responde a los betalactámicos."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Si es menor de tres meses, satura bajo noventa y tres, no tolera la vía oral, o tiene un derrame en la radiografía, se hospitaliza y se trata con ampicilina endovenosa."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Y si un niño en tratamiento ambulatorio sigue febril a las cuarenta y ocho horas, sospecha un derrame pleural, hospitaliza y estudia el líquido con ecografía y punción."
+      "text": "En los niños la neumonía puede verse redonda, como una masa. Es una neumonía, no un tumor."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos con la tabla. Fiebre, tos y taquipnea típica: el diagnóstico es clínico, sin necesidad de radiografía. El error es pedirla siempre, como paso obligado."
+      "text": "Ahora armemos todo el razonamiento en un solo árbol de decisión. Tienes un niño con fiebre y tos. Lo primero, antes de pedir cualquier examen, es contar la frecuencia respiratoria según su edad."
     },
     {
       "file": "s09_g01",
-      "text": "Neumonía típica no complicada: amoxicilina oral en dosis alta. El error frecuente es sumarle ácido clavulánico, que aquí no aporta nada."
+      "text": "Si además hay un hallazgo focal al auscultar, ya tienes el diagnóstico de neumonía, sin necesidad de radiografía."
     },
     {
       "file": "s09_g02",
-      "text": "Escolar con clínica atípica e infiltrado intersticial: azitromicina. El error es insistir con amoxicilina, que no cubre al mycoplasma."
+      "text": "Sin criterios de hospitalización, revisa la edad para elegir el fármaco."
     },
     {
       "file": "s09_g03",
-      "text": "Menor de tres meses con neumonía: se hospitaliza siempre. El error es manejarlo de forma ambulatoria por verse con buen estado general."
+      "text": "Entre los tres meses y los cinco años, amoxicilina oral en dosis alta por siete días, contra el neumococo."
     },
     {
       "file": "s09_g04",
-      "text": "Y si la fiebre persiste a las cuarenta y ocho horas de tratamiento, sospechas derrame y hospitalizas. El error es simplemente esperar más, o repetir el mismo antibiótico oral."
+      "text": "Desde los cinco años, con clínica insidiosa e infiltrado intersticial, azitromicina, porque el mycoplasma no responde a los betalactámicos."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si es menor de tres meses, satura bajo noventa y tres, no tolera la vía oral, o tiene un derrame en la radiografía, se hospitaliza y se trata con ampicilina endovenosa."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Y si un niño en tratamiento ambulatorio sigue febril a las cuarenta y ocho horas, sospecha un derrame pleural, hospitaliza y estudia el líquido con ecografía y punción."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Lactante de nueve meses, previamente sano, con dos días de fiebre hasta treinta y ocho con nueve y tos. Al examen: frecuencia respiratoria de cincuenta y dos, saturando noventa y seis por ciento, en buen estado general, con crépitos localizados en la base pulmonar derecha. Tolera bien la alimentación."
+      "text": "Repasemos con la tabla. Fiebre, tos y taquipnea típica: el diagnóstico es clínico, sin necesidad de radiografía. El error es pedirla siempre, como paso obligado."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento de primera línea más adecuado?"
+      "text": "Neumonía típica no complicada: amoxicilina oral en dosis alta. El error frecuente es sumarle ácido clavulánico, que aquí no aporta nada."
     },
     {
       "file": "s10_g02",
-      "text": "Tienes cinco opciones: amoxicilina oral en dosis alta por siete días, azitromicina oral, ampicilina endovenosa hospitalizado, amoxicilina con ácido clavulánico, o solo control sin antibiótico. Piénsalo."
+      "text": "Escolar con clínica atípica e infiltrado intersticial: azitromicina. El error es insistir con amoxicilina, que no cubre al mycoplasma."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Este lactante cumple los criterios de neumonía: fiebre, tos, taquipnea para su edad y un foco auscultatorio. No tiene ningún criterio de hospitalización, así que no necesita la vía endovenosa. Y como el germen esperado es el neumococo, no el mycoplasma, la azitromicina no corresponde aquí; esa se reserva para el escolar con clínica atípica. La amoxicilina con ácido clavulánico tampoco aporta nada, porque la resistencia del neumococo no es por betalactamasas."
+      "text": "Menor de tres meses con neumonía: se hospitaliza siempre. El error es manejarlo de forma ambulatoria por verse con buen estado general."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y si la fiebre persiste a las cuarenta y ocho horas de tratamiento, sospechas derrame y hospitalizas. El error es simplemente esperar más, o repetir el mismo antibiótico oral."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niño de cuatro años, con fiebre hasta treinta y nueve y medio, tos con expectoración mucopurulenta de dos días, cefalea y malestar general marcado. Al examen: decaído, febril, con crepitaciones localizadas en una zona del pulmón."
+      "text": "Vamos con un caso. Lactante de nueve meses, previamente sano, con dos días de fiebre hasta treinta y ocho con nueve y tos. Al examen: frecuencia respiratoria de cincuenta y dos, saturando noventa y seis por ciento, en buen estado general, con crépitos localizados en la base pulmonar derecha. Tolera bien la alimentación."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
+      "text": "¿Cuál es el tratamiento de primera línea más adecuado?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: Mycoplasma pneumoniae, Chlamydia pneumoniae, Streptococcus pneumoniae, Haemophilus influenzae, o Staphylococcus aureus."
+      "text": "Tienes cinco opciones: amoxicilina oral en dosis alta por siete días, azitromicina oral, ampicilina endovenosa hospitalizado, amoxicilina con ácido clavulánico, o solo control sin antibiótico. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, Streptococcus pneumoniae. Fíjate en el patrón: inicio agudo, fiebre alta, y un foco bien localizado en la auscultación. Eso es la neumonía típica bacteriana, justo la que domina entre los tres meses y los cinco años, y el neumococo es su agente clásico."
+      "text": "Es la A. Este lactante cumple los criterios de neumonía: fiebre, tos, taquipnea para su edad y un foco auscultatorio. No tiene ningún criterio de hospitalización, así que no necesita la vía endovenosa. Y como el germen esperado es el neumococo, no el mycoplasma, la azitromicina no corresponde aquí; esa se reserva para el escolar con clínica atípica. La amoxicilina con ácido clavulánico tampoco aporta nada, porque la resistencia del neumococo no es por betalactamasas."
     },
     {
       "file": "s12_g00",
-      "text": "Y una última pregunta real, del EUNACOM de enero de dos mil veintitrés. Niña escolar con tos seca, crepitaciones en ambos pulmones, e infiltrados intersticiales en la radiografía de tórax."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Niño de cuatro años, con fiebre hasta treinta y nueve y medio, tos con expectoración mucopurulenta de dos días, cefalea y malestar general marcado. Al examen: decaído, febril, con crepitaciones localizadas en una zona del pulmón."
     },
     {
       "file": "s12_g01",
@@ -206,30 +194,46 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: Streptococcus pneumoniae, Mycoplasma pneumoniae, virus respiratorio sincicial, Haemophilus influenzae, o Chlamydia trachomatis."
+      "text": "Las opciones: Mycoplasma pneumoniae, Chlamydia pneumoniae, Streptococcus pneumoniae, Haemophilus influenzae, o Staphylococcus aureus."
     },
     {
       "file": "s12_g03",
-      "text": "Es la B, Mycoplasma pneumoniae. Compara esta pregunta con la anterior: ahí tenías un niño pequeño con foco localizado y expectoración purulenta, aquí tienes una escolar con tos seca y un infiltrado difuso e intersticial. Es exactamente la diferencia entre neumonía típica y atípica que vimos, y por eso el tratamiento tampoco es el mismo: aquí correspondería azitromicina, no amoxicilina."
+      "text": "Es la C, Streptococcus pneumoniae. Fíjate en el patrón: inicio agudo, fiebre alta, y un foco bien localizado en la auscultación. Eso es la neumonía típica bacteriana, justo la que domina entre los tres meses y los cinco años, y el neumococo es su agente clásico."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro de esta clase. Fiebre, tos y taquipnea para la edad: el diagnóstico es clínico, y no necesitas radiografía de rutina."
+      "text": "Y una última pregunta real, del EUNACOM de enero de dos mil veintitrés. Niña escolar con tos seca, crepitaciones en ambos pulmones, e infiltrados intersticiales en la radiografía de tórax."
     },
     {
       "file": "s13_g01",
-      "text": "Contra el neumococo, siempre amoxicilina oral en dosis alta."
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Contra el mycoplasma en el escolar, azitromicina, nunca amoxicilina."
+      "text": "Las opciones: Streptococcus pneumoniae, Mycoplasma pneumoniae, virus respiratorio sincicial, Haemophilus influenzae, o Chlamydia trachomatis."
     },
     {
       "file": "s13_g03",
+      "text": "Es la B, Mycoplasma pneumoniae. Compara esta pregunta con la anterior: ahí tenías un niño pequeño con foco localizado y expectoración purulenta, aquí tienes una escolar con tos seca y un infiltrado difuso e intersticial. Es exactamente la diferencia entre neumonía típica y atípica que vimos, y por eso el tratamiento tampoco es el mismo: aquí correspondería azitromicina, no amoxicilina."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro de esta clase. Fiebre, tos y taquipnea para la edad: el diagnóstico es clínico, y no necesitas radiografía de rutina."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Contra el neumococo, siempre amoxicilina oral en dosis alta."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Contra el mycoplasma en el escolar, azitromicina, nunca amoxicilina."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y menor de tres meses, siempre se hospitaliza."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Si la fiebre persiste a las cuarenta y ocho horas de tratamiento, piensa en derrame pleural. Si te llevas una sola idea de hoy: la taquipnea según la edad te hace el diagnóstico, y la edad del niño te elige el antibiótico. Nos vemos en la próxima clase."
     }
   ]

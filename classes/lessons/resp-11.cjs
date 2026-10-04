@@ -149,6 +149,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Derrame pleural',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+      ],
+      steps: [
+        { note: 'Opacidad con curva de Damoiseau',
+          say: 'Este es un derrame pleural: una opacidad en la base que borra el ángulo y sube por la pared formando una curva. Es la curva de Damoiseau. El siguiente paso es puncionarlo y aplicar los criterios de Light.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo en un árbol, desde el derrame hasta la causa.',
     },

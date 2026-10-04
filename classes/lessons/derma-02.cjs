@@ -142,6 +142,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Acné',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg', label: 'Comedones', credit: 'Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px)' },
+        { src: 'biblioteca/11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg', label: 'Acné nodular', credit: 'Fitzpatrick 7.ª ed., p. 732 (figura completa, ~480 px)' },
+      ],
+      steps: [
+        { note: 'Abiertos y cerrados',
+          say: 'El comedón es la lesión inicial del acné: abierto, el punto negro, o cerrado, el punto blanco.' },
+        { note: 'Nódulos que dejan cicatriz',
+          say: 'El acné nodular deja cicatrices y es indicación de isotretinoína.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo el escalonamiento en un solo árbol de decisión.',
     },

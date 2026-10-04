@@ -167,6 +167,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Exantemas de la infancia',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg', label: 'Manchas de Koplik', credit: 'CDC PHIL 6111, dominio público' },
+        { src: 'biblioteca/07_infectologia/infecto-22/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' },
+        { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_1__cto-pediatria_p102.jpg', label: 'Escarlatina', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+        { src: 'biblioteca/07_infectologia/infecto-22/04_kawasaki-conjuntivitis-descamacion__cto-pediatria_p103.jpg', label: 'Kawasaki', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' },
+      ],
+      steps: [
+        { note: 'Puntos blancos en la mucosa',
+          say: 'Las manchas de Koplik, puntos blancos en la mucosa de la mejilla, aparecen antes del exantema del sarampión.' },
+        { note: 'Exantema que baja desde la cara',
+          say: 'El exantema del sarampión parte en la cara y baja.' },
+        { note: 'Lengua aframbuesada',
+          say: 'La escarlatina da lengua aframbuesada y piel áspera como lija.' },
+        { note: 'Conjuntivitis y descamación',
+          say: 'Y en Kawasaki, conjuntivitis sin secreción y descamación de los dedos. Lo grave es el corazón.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos los exantemas en un árbol de decisión.',
     },

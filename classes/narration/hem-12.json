@@ -2,7 +2,7 @@
   "id": "hem-12",
   "title": "Hematología 8.12: Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
   "specialty": "Hematología",
-  "chars": 14948,
+  "chars": 15045,
   "segments": [
     {
       "file": "s00_g00",
@@ -182,103 +182,91 @@
     },
     {
       "file": "s10_g00",
-      "text": "Juntemos todo en un árbol, desde el hemograma alterado hasta la conducta. Hemograma con plaquetas bajas, el resto de las series normales, y tiempos de coagulación normales."
-    },
-    {
-      "file": "s10_g01",
-      "text": "Lo primero es el frotis, o repetir la muestra en citrato. ¿La trombocitopenia es real?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "Si el frotis muestra grumos de plaquetas, es una pseudotrombocitopenia por EDTA. El paciente está sano."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Si es real, examina al paciente. ¿Tiene solo púrpura, o además bazo palpable, adenopatías o fiebre?"
-    },
-    {
-      "file": "s10_g04",
-      "text": "Con esplenomegalia, adenopatías o fiebre no es una PTI primaria. Busca leucemia, linfoma, hiperesplenismo o cirrosis."
-    },
-    {
-      "file": "s10_g05",
-      "text": "Examen normal: es una PTI. En el adulto, descarta lupus, VIH, hepatitis C y Helicobacter. Ahora decide según el sangrado y el recuento."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Sin sangrado o con petequias aisladas y más de treinta mil plaquetas: observación y educación, sin corticoides. Es la conducta en la mayoría de los niños."
-    },
-    {
-      "file": "s10_g07",
-      "text": "Menos de veinte a treinta mil, o sangrado de mucosas: corticoides, dexametasona en pulsos o prednisona un miligramo por kilo. Si no responde, segunda línea."
-    },
-    {
-      "file": "s10_g08",
-      "text": "Sangrado grave o cirugía urgente: inmunoglobulina endovenosa. Si hay riesgo vital, como una hemorragia cerebral, se suma metilprednisolona y transfusión de plaquetas."
+      "text": "Las petequias son puntos rojos que no desaparecen al presionar. Indican un problema de plaquetas."
     },
     {
       "file": "s11_g00",
-      "text": "Repasemos las trampas. Trombocitopenia aislada en un hemograma: primero el frotis. El error es diagnosticar PTI sin descartar la pseudotrombocitopenia."
+      "text": "Juntemos todo en un árbol, desde el hemograma alterado hasta la conducta. Hemograma con plaquetas bajas, el resto de las series normales, y tiempos de coagulación normales."
     },
     {
       "file": "s11_g01",
-      "text": "Petequias con esplenomegalia, adenopatías o fiebre: busca una leucemia o un linfoma. El bazo palpable descarta la PTI primaria."
+      "text": "Lo primero es el frotis, o repetir la muestra en citrato. ¿La trombocitopenia es real?"
     },
     {
       "file": "s11_g02",
-      "text": "Niño después de una virosis, con petequias pero sin sangrado de mucosas: observar, porque más del ochenta por ciento remite solo. El error es tratar por el número."
+      "text": "Si el frotis muestra grumos de plaquetas, es una pseudotrombocitopenia por EDTA. El paciente está sano."
     },
     {
       "file": "s11_g03",
-      "text": "Adulto sin síntomas y con más de treinta mil plaquetas: observar y evitar antiinflamatorios. Tampoco lleva corticoides."
+      "text": "Si es real, examina al paciente. ¿Tiene solo púrpura, o además bazo palpable, adenopatías o fiebre?"
     },
     {
       "file": "s11_g04",
-      "text": "Adulto con menos de veinte a treinta mil plaquetas, sin sangrado grave: corticoides, prednisona o dexametasona. Transfundir plaquetas es el error clásico, porque se destruyen en minutos."
+      "text": "Con esplenomegalia, adenopatías o fiebre no es una PTI primaria. Busca leucemia, linfoma, hiperesplenismo o cirrosis."
     },
     {
       "file": "s11_g05",
-      "text": "Sangrado mucoso grave o cirugía urgente: inmunoglobulina endovenosa, que actúa en uno o dos días. Los corticoides solos tardan demasiado."
+      "text": "Examen normal: es una PTI. En el adulto, descarta lupus, VIH, hepatitis C y Helicobacter. Ahora decide según el sangrado y el recuento."
     },
     {
       "file": "s11_g06",
-      "text": "Y el refractario: agonistas de trombopoyetina, rituximab o esplenectomía. Pero la esplenectomía no antes de doce meses, y con vacunas previas."
+      "text": "Sin sangrado o con petequias aisladas y más de treinta mil plaquetas: observación y educación, sin corticoides. Es la conducta en la mayoría de los niños."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Menos de veinte a treinta mil, o sangrado de mucosas: corticoides, dexametasona en pulsos o prednisona un miligramo por kilo. Si no responde, segunda línea."
+    },
+    {
+      "file": "s11_g08",
+      "text": "Sangrado grave o cirugía urgente: inmunoglobulina endovenosa. Si hay riesgo vital, como una hemorragia cerebral, se suma metilprednisolona y transfusión de plaquetas."
     },
     {
       "file": "s12_g00",
-      "text": "Vamos con un caso. Mujer de veintiocho años, sana, con tres semanas de petequias y equimosis pequeñas en las piernas. No tiene epistaxis, gingivorragia ni metrorragia. No hay adenopatías y el bazo no se palpa. Hemoglobina y leucocitos normales, plaquetas en catorce mil, tiempos de coagulación normales, y el frotis confirma una trombocitopenia real, sin esquistocitos."
+      "text": "Repasemos las trampas. Trombocitopenia aislada en un hemograma: primero el frotis. El error es diagnosticar PTI sin descartar la pseudotrombocitopenia."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Petequias con esplenomegalia, adenopatías o fiebre: busca una leucemia o un linfoma. El bazo palpable descarta la PTI primaria."
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: observar y evitar antiinflamatorios, transfundir plaquetas, prednisona un miligramo por kilo, esplenectomía, o plasmaféresis urgente. Piénsalo."
+      "text": "Niño después de una virosis, con petequias pero sin sangrado de mucosas: observar, porque más del ochenta por ciento remite solo. El error es tratar por el número."
     },
     {
       "file": "s12_g03",
-      "text": "La respuesta es la C. Es una PTI del adulto, con un examen físico normal y un frotis sin esquistocitos. No sangra por mucosas, pero tiene catorce mil plaquetas, bajo el corte de veinte a treinta mil, así que se trata con corticoides. El distractor tentador es observar, pero eso es para quien tiene más de treinta mil. La transfusión es solo para el riesgo vital, la esplenectomía llega después de doce meses, y la plasmaféresis es del púrpura trombótico."
+      "text": "Adulto sin síntomas y con más de treinta mil plaquetas: observar y evitar antiinflamatorios. Tampoco lleva corticoides."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Adulto con menos de veinte a treinta mil plaquetas, sin sangrado grave: corticoides, prednisona o dexametasona. Transfundir plaquetas es el error clásico, porque se destruyen en minutos."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Sangrado mucoso grave o cirugía urgente: inmunoglobulina endovenosa, que actúa en uno o dos días. Los corticoides solos tardan demasiado."
+    },
+    {
+      "file": "s12_g06",
+      "text": "Y el refractario: agonistas de trombopoyetina, rituximab o esplenectomía. Pero la esplenectomía no antes de doce meses, y con vacunas previas."
     },
     {
       "file": "s13_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Niño de seis años, sano, sin medicamentos, con púrpura petequial generalizada de inicio súbito después de una infección viral. Plaquetas en diez mil, el resto del hemograma normal, y sin adenopatías ni visceromegalias."
+      "text": "Vamos con un caso. Mujer de veintiocho años, sana, con tres semanas de petequias y equimosis pequeñas en las piernas. No tiene epistaxis, gingivorragia ni metrorragia. No hay adenopatías y el bazo no se palpa. Hemoglobina y leucocitos normales, plaquetas en catorce mil, tiempos de coagulación normales, y el frotis confirma una trombocitopenia real, sin esquistocitos."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: trombocitopenia inmune, púrpura trombótico, síndrome hemolítico urémico, coagulación intravascular diseminada, o leucemia linfoblástica aguda. Piénsalo."
+      "text": "Las opciones son: observar y evitar antiinflamatorios, transfundir plaquetas, prednisona un miligramo por kilo, esplenectomía, o plasmaféresis urgente. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la A. Tiene todo el perfil del niño: inicio súbito, virosis previa, plaquetas aisladas muy bajas, y un examen físico normal. El distractor más tentador es la leucemia, porque también da petequias en un niño; pero la leucemia altera las otras series y suele dar visceromegalias o adenopatías, y aquí no hay nada de eso. El púrpura trombótico y el síndrome hemolítico tendrían anemia hemolítica y falla renal."
+      "text": "La respuesta es la C. Es una PTI del adulto, con un examen físico normal y un frotis sin esquistocitos. No sangra por mucosas, pero tiene catorce mil plaquetas, bajo el corte de veinte a treinta mil, así que se trata con corticoides. El distractor tentador es observar, pero eso es para quien tiene más de treinta mil. La transfusión es solo para el riesgo vital, la esplenectomía llega después de doce meses, y la plasmaféresis es del púrpura trombótico."
     },
     {
       "file": "s14_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de cinco años con un cuadro respiratorio alto de siete días, tratado con paracetamol e ibuprofeno. Aparecen petequias y equimosis en las extremidades y el abdomen, con algunas epistaxis. Hemoglobina normal, leucocitos normales, y plaquetas en sesenta mil."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticinco. Niño de seis años, sano, sin medicamentos, con púrpura petequial generalizada de inicio súbito después de una infección viral. Plaquetas en diez mil, el resto del hemograma normal, y sin adenopatías ni visceromegalias."
     },
     {
       "file": "s14_g01",
@@ -286,50 +274,66 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones son: leucemia linfoblástica aguda, meningococcemia, trombocitopenia inmune, alteración de la hemostasia por fármacos, o púrpura de Schönlein Henoch. Piénsalo."
+      "text": "Las opciones son: trombocitopenia inmune, púrpura trombótico, síndrome hemolítico urémico, coagulación intravascular diseminada, o leucemia linfoblástica aguda. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C. Otra vez: niño, virosis previa y trombocitopenia aislada. El distractor tentador es el ibuprofeno, porque altera la función plaquetaria; pero no baja el recuento, y aquí las plaquetas están en sesenta mil. El Schönlein Henoch también tiene plaquetas normales. Y los leucocitos y la hemoglobina normales alejan la leucemia."
+      "text": "Es la A. Tiene todo el perfil del niño: inicio súbito, virosis previa, plaquetas aisladas muy bajas, y un examen físico normal. El distractor más tentador es la leucemia, porque también da petequias en un niño; pero la leucemia altera las otras series y suele dar visceromegalias o adenopatías, y aquí no hay nada de eso. El púrpura trombótico y el síndrome hemolítico tendrían anemia hemolítica y falla renal."
     },
     {
       "file": "s15_g00",
-      "text": "Y una última, del EUNACOM de diciembre de dos mil veinticuatro. Es corta: adulto con PTI, sin sangrado grave, y plaquetas en cinco mil."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Niño de cinco años con un cuadro respiratorio alto de siete días, tratado con paracetamol e ibuprofeno. Aparecen petequias y equimosis en las extremidades y el abdomen, con algunas epistaxis. Hemoglobina normal, leucocitos normales, y plaquetas en sesenta mil."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones son: corticoides a un miligramo por kilo, transfusión de plaquetas, terapia biológica, amoxicilina, o ibuprofeno. Piénsalo."
+      "text": "Las opciones son: leucemia linfoblástica aguda, meningococcemia, trombocitopenia inmune, alteración de la hemostasia por fármacos, o púrpura de Schönlein Henoch. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la A, corticoides. Cinco mil plaquetas está muy bajo el corte, así que se trata, y la primera línea son los corticoides. El distractor es la transfusión de plaquetas, porque el número asusta; pero sin sangrado grave es inútil, ya que el bazo las destruye en minutos. La terapia biológica, como el rituximab, es de segunda línea. Y el ibuprofeno está contraindicado."
+      "text": "Es la C. Otra vez: niño, virosis previa y trombocitopenia aislada. El distractor tentador es el ibuprofeno, porque altera la función plaquetaria; pero no baja el recuento, y aquí las plaquetas están en sesenta mil. El Schönlein Henoch también tiene plaquetas normales. Y los leucocitos y la hemoglobina normales alejan la leucemia."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Ante una trombocitopenia aislada, primero el frotis."
+      "text": "Y una última, del EUNACOM de diciembre de dos mil veinticuatro. Es corta: adulto con PTI, sin sangrado grave, y plaquetas en cinco mil."
     },
     {
       "file": "s16_g01",
-      "text": "La PTI tiene un examen físico normal. Si hay bazo palpable, adenopatías o fiebre, busca otra cosa."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s16_g02",
-      "text": "El niño hace una PTI aguda, después de una virosis, que remite sola en más del ochenta por ciento: se observa."
+      "text": "Las opciones son: corticoides a un miligramo por kilo, transfusión de plaquetas, terapia biológica, amoxicilina, o ibuprofeno. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la A, corticoides. Cinco mil plaquetas está muy bajo el corte, así que se trata, y la primera línea son los corticoides. El distractor es la transfusión de plaquetas, porque el número asusta; pero sin sangrado grave es inútil, ya que el bazo las destruye en minutos. La terapia biológica, como el rituximab, es de segunda línea. Y el ibuprofeno está contraindicado."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Ante una trombocitopenia aislada, primero el frotis."
+    },
+    {
+      "file": "s17_g01",
+      "text": "La PTI tiene un examen físico normal. Si hay bazo palpable, adenopatías o fiebre, busca otra cosa."
+    },
+    {
+      "file": "s17_g02",
+      "text": "El niño hace una PTI aguda, después de una virosis, que remite sola en más del ochenta por ciento: se observa."
+    },
+    {
+      "file": "s17_g03",
       "text": "El adulto, sobre todo la mujer joven, hace una PTI insidiosa y crónica, y hay que buscar causas secundarias."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Se trata con corticoides si hay menos de veinte a treinta mil plaquetas o sangrado de mucosas. La inmunoglobulina es para la urgencia."
     },
     {
-      "file": "s16_g05",
+      "file": "s17_g05",
       "text": "Y las plaquetas se transfunden solo ante un sangrado con riesgo vital. Si te llevas una sola idea de hoy: la PTI es una trombocitopenia aislada en un paciente con examen físico normal, y se trata el sangrado, no el número. En la próxima clase pasamos de las plaquetas a los factores: hemofilia y von Willebrand. Nos vemos en la próxima clase."
     }
   ]

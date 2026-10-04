@@ -175,6 +175,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Feocromocitoma en la imagen',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg', label: 'Gammagrafía MIBG', credit: 'Manual AMIR Endocrinología, p. 59' },
+      ],
+      steps: [
+        { note: 'Capta la suprarrenal',
+          say: 'Después de confirmar con metanefrinas, se localiza el tumor. La gammagrafía con MIBG muestra la suprarrenal que capta.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

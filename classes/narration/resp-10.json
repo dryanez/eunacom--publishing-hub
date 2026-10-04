@@ -2,7 +2,7 @@
   "id": "resp-10",
   "title": "Neumología 2.5: Tuberculosis Pulmonar: Diagnóstico, Programa MINSAL y Tratamiento",
   "specialty": "Neumología",
-  "chars": 15564,
+  "chars": 15920,
   "segments": [
     {
       "file": "s00_g00",
@@ -178,71 +178,63 @@
     },
     {
       "file": "s10_g00",
-      "text": "Ahora juntemos todo en un solo árbol, desde la tos hasta los contactos. Todo parte con el sintomático respiratorio: tos con expectoración por quince días o más. Se estudia de inmediato."
+      "text": "La tuberculosis de reactivación cavita en los lóbulos superiores, como en estas imágenes. Una cavidad apical en un paciente con tos de más de dos semanas es tuberculosis hasta que se demuestre lo contrario."
     },
     {
       "file": "s10_g01",
-      "text": "Se pide GeneXpert, baciloscopía y cultivo. La pregunta es si alguna prueba confirmó el bacilo."
-    },
-    {
-      "file": "s10_g02",
-      "text": "Si todo es negativo pero la sospecha sigue alta, no se descarta: se espera el cultivo, y se complementa con TAC o broncoscopía."
-    },
-    {
-      "file": "s10_g03",
-      "text": "Si es positivo: notificación obligatoria, estudio de contactos e ingreso al programa."
-    },
-    {
-      "file": "s10_g04",
-      "text": "En la tuberculosis pulmonar, dos meses de RHZE y cuatro de RH, seis meses en total, con tratamiento directamente observado."
-    },
-    {
-      "file": "s10_g05",
-      "text": "En la meníngea o la osteoarticular, se alarga a doce meses, y se agregan corticoides."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Y en los contactos menores de cinco años o con VIH, asintomáticos y con radiografía normal, terapia preventiva con isoniazida por seis meses, sin esperar la tuberculina."
+      "text": "Y esta es la miliar: innumerables nódulos pequeños, como granos de mijo, en todo el pulmón. Es diseminación por la sangre, típica del inmunosuprimido."
     },
     {
       "file": "s11_g00",
-      "text": "Repasemos las trampas en una tabla. Isoniazida: neuropatía periférica y hepatitis. Se previene y se trata con piridoxina, sin suspender el esquema."
+      "text": "Ahora juntemos todo en un solo árbol, desde la tos hasta los contactos. Todo parte con el sintomático respiratorio: tos con expectoración por quince días o más. Se estudia de inmediato."
     },
     {
       "file": "s11_g01",
-      "text": "Rifampicina: orina y secreciones anaranjadas, que son benignas. Lo peligroso son sus interacciones, como la falla de los anticonceptivos orales."
+      "text": "Se pide GeneXpert, baciloscopía y cultivo. La pregunta es si alguna prueba confirmó el bacilo."
     },
     {
       "file": "s11_g02",
-      "text": "Pirazinamida: la más hepatotóxica, y la que sube el ácido úrico hasta gatillar una crisis de gota."
+      "text": "Si todo es negativo pero la sospecha sigue alta, no se descarta: se espera el cultivo, y se complementa con TAC o broncoscopía."
     },
     {
       "file": "s11_g03",
-      "text": "Etambutol: neuritis óptica, con pérdida precoz de la discriminación entre rojo y verde. Es la única de la tabla que obliga a suspender de inmediato."
+      "text": "Si es positivo: notificación obligatoria, estudio de contactos e ingreso al programa."
     },
     {
       "file": "s11_g04",
-      "text": "Y una fila que no es de fármacos, pero se pregunta igual: el contacto menor de cinco años o con VIH, asintomático y con radiografía normal, recibe terapia preventiva sin esperar la tuberculina."
+      "text": "En la tuberculosis pulmonar, dos meses de RHZE y cuatro de RH, seis meses en total, con tratamiento directamente observado."
+    },
+    {
+      "file": "s11_g05",
+      "text": "En la meníngea o la osteoarticular, se alarga a doce meses, y se agregan corticoides."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Y en los contactos menores de cinco años o con VIH, asintomáticos y con radiografía normal, terapia preventiva con isoniazida por seis meses, sin esperar la tuberculina."
     },
     {
       "file": "s12_g00",
-      "text": "Vamos con un caso. Mujer de treinta y ocho años con tuberculosis pulmonar bacilífera, sin resistencia a rifampicina en el GeneXpert, en tratamiento observado con RHZE. A las tres semanas consulta por dos cosas: orina de color anaranjado brillante, y parestesias dolorosas en los dedos de ambos pies. Sus pruebas hepáticas son normales."
+      "text": "Repasemos las trampas en una tabla. Isoniazida: neuropatía periférica y hepatitis. Se previene y se trata con piridoxina, sin suspender el esquema."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Rifampicina: orina y secreciones anaranjadas, que son benignas. Lo peligroso son sus interacciones, como la falla de los anticonceptivos orales."
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: suspender la rifampicina, suspender todo el esquema, agregar piridoxina y mantener el esquema, suspender el etambutol, o cambiar la isoniazida por ciprofloxacino. Piénsalo."
+      "text": "Pirazinamida: la más hepatotóxica, y la que sube el ácido úrico hasta gatillar una crisis de gota."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C. El enunciado mezcla dos efectos a propósito. La orina anaranjada es la rifampicina, y es benigna: no se suspende. Las parestesias son neuropatía por isoniazida, y se tratan con piridoxina, manteniendo el esquema. La A es la trampa más tentadora, porque asusta ver la orina de ese color. Y la D confunde fármacos: el etambutol da problemas en la vista, no en los pies."
+      "text": "Etambutol: neuritis óptica, con pérdida precoz de la discriminación entre rojo y verde. Es la única de la tabla que obliga a suspender de inmediato."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Y una fila que no es de fármacos, pero se pregunta igual: el contacto menor de cinco años o con VIH, asintomático y con radiografía normal, recibe terapia preventiva sin esperar la tuberculina."
     },
     {
       "file": "s13_g00",
-      "text": "Ahora las preguntas reales. La primera, del EUNACOM de agosto de dos mil veintiuno. Hombre de treinta y cinco años, en situación de calle, con seis meses de tos con expectoración, a veces hemoptoica, baja de peso y sensación febril. Está enflaquecido y pálido, con anemia y parámetros inflamatorios altos. VIH negativo, covid negativo, PPD de veinte milímetros, y baciloscopías negativas, en una muestra hemorrágica."
+      "text": "Vamos con un caso. Mujer de treinta y ocho años con tuberculosis pulmonar bacilífera, sin resistencia a rifampicina en el GeneXpert, en tratamiento observado con RHZE. A las tres semanas consulta por dos cosas: orina de color anaranjado brillante, y parestesias dolorosas en los dedos de ambos pies. Sus pruebas hepáticas son normales."
     },
     {
       "file": "s13_g01",
@@ -250,15 +242,15 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: TAC de tórax, cultivo en medio sólido, PCR para tuberculosis en expectoración, repetir la PCR de covid, o broncoscopía con lavado. Piénsalo."
+      "text": "Las opciones: suspender la rifampicina, suspender todo el esquema, agregar piridoxina y mantener el esquema, suspender el etambutol, o cambiar la isoniazida por ciprofloxacino. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la C. Es un sintomático respiratorio de libro, con todo el cuadro de tuberculosis, y una baciloscopía negativa no la descarta. La PCR, que es el GeneXpert, es el examen de elección: da resultado en menos de dos horas y además informa la resistencia a rifampicina. El cultivo es el distractor: es el estándar de oro y se pide igual, pero no es el paso para confirmar rápido."
+      "text": "Es la C. El enunciado mezcla dos efectos a propósito. La orina anaranjada es la rifampicina, y es benigna: no se suspende. Las parestesias son neuropatía por isoniazida, y se tratan con piridoxina, manteniendo el esquema. La A es la trampa más tentadora, porque asusta ver la orina de ese color. Y la D confunde fármacos: el etambutol da problemas en la vista, no en los pies."
     },
     {
       "file": "s14_g00",
-      "text": "Una del EUNACOM de diciembre de dos mil dieciocho. Hombre de cuarenta y dos años, con dos semanas de tos con expectoración a veces hemoptoica y fiebre ocasional. Las baciloscopías son negativas, pero el quantiferón es positivo y la PCR para Mycobacterium tuberculosis también es positiva."
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de agosto de dos mil veintiuno. Hombre de treinta y cinco años, en situación de calle, con seis meses de tos con expectoración, a veces hemoptoica, baja de peso y sensación febril. Está enflaquecido y pálido, con anemia y parámetros inflamatorios altos. VIH negativo, covid negativo, PPD de veinte milímetros, y baciloscopías negativas, en una muestra hemorrágica."
     },
     {
       "file": "s14_g01",
@@ -266,47 +258,47 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: profilaxis con isoniazida, rifampicina más isoniazida, tratamiento habitual para la tuberculosis, TAC de tórax, o esperar el cultivo. Piénsalo."
+      "text": "Las opciones: TAC de tórax, cultivo en medio sólido, PCR para tuberculosis en expectoración, repetir la PCR de covid, o broncoscopía con lavado. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C. La prueba molecular positiva confirma la enfermedad, aunque la baciloscopía sea negativa, y se inicia el esquema primario completo. La A es la trampa: la profilaxis es para el contacto sin enfermedad activa, no para un enfermo. La B se queda corta, porque dos fármacos es la fase de continuación. Y esperar el cultivo solo retrasa un tratamiento que ya está indicado."
+      "text": "Es la C. Es un sintomático respiratorio de libro, con todo el cuadro de tuberculosis, y una baciloscopía negativa no la descarta. La PCR, que es el GeneXpert, es el examen de elección: da resultado en menos de dos horas y además informa la resistencia a rifampicina. El cultivo es el distractor: es el estándar de oro y se pide igual, pero no es el paso para confirmar rápido."
     },
     {
       "file": "s15_g00",
-      "text": "Una reciente, del EUNACOM de julio de dos mil veinticinco. Paciente de treinta y cinco años con VIH, tos productiva de tres semanas, baja de peso y sudoración nocturna. Baciloscopía positiva."
+      "text": "Una del EUNACOM de diciembre de dos mil dieciocho. Hombre de cuarenta y dos años, con dos semanas de tos con expectoración a veces hemoptoica y fiebre ocasional. Las baciloscopías son negativas, pero el quantiferón es positivo y la PCR para Mycobacterium tuberculosis también es positiva."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es el tratamiento de primera línea?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "Las opciones: dos meses de cuatro fármacos y luego cuatro meses de isoniazida con rifampicina, claritromicina con etambutol, moxifloxacino con rifampicina, isoniazida sola, o cotrimoxazol. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "Es la A: dos RHZE más cuatro RH, seis meses. Fíjate en la trampa del enunciado: el VIH te invita a pensar en otra cosa, pero la tuberculosis pulmonar activa se trata con el mismo esquema primario. La D, isoniazida sola, es terapia preventiva, nunca tratamiento de enfermedad activa. Y la B es un esquema para micobacterias atípicas."
-    },
-    {
-      "file": "s16_g00",
-      "text": "Del EUNACOM de julio de dos mil diecinueve, una pregunta directa: ¿qué se hace con el contacto intradomiciliario de un paciente con tuberculosis pulmonar bacilífera?"
-    },
-    {
-      "file": "s16_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s15_g02",
+      "text": "Las opciones: profilaxis con isoniazida, rifampicina más isoniazida, tratamiento habitual para la tuberculosis, TAC de tórax, o esperar el cultivo. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la C. La prueba molecular positiva confirma la enfermedad, aunque la baciloscopía sea negativa, y se inicia el esquema primario completo. La A es la trampa: la profilaxis es para el contacto sin enfermedad activa, no para un enfermo. La B se queda corta, porque dos fármacos es la fase de continuación. Y esperar el cultivo solo retrasa un tratamiento que ya está indicado."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Una reciente, del EUNACOM de julio de dos mil veinticinco. Paciente de treinta y cinco años con VIH, tos productiva de tres semanas, baja de peso y sudoración nocturna. Baciloscopía positiva."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el tratamiento de primera línea?"
+    },
+    {
       "file": "s16_g02",
-      "text": "Las opciones: PPD y cultivo, radiografía de tórax y baciloscopías, control clínico por tres meses, profilaxis con isoniazida, o cultivo de Koch y broncoscopía. Piénsalo."
+      "text": "Las opciones: dos meses de cuatro fármacos y luego cuatro meses de isoniazida con rifampicina, claritromicina con etambutol, moxifloxacino con rifampicina, isoniazida sola, o cotrimoxazol. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la B. Con el contacto, lo primero es descartar enfermedad activa, y eso se hace con la radiografía de tórax y las baciloscopías. La D es la trampa: la profilaxis viene después, cuando ya descartaste la enfermedad; dar isoniazida sola a alguien con tuberculosis activa es tratarlo mal. Y controlar por tres meses deja pasar casos."
+      "text": "Es la A: dos RHZE más cuatro RH, seis meses. Fíjate en la trampa del enunciado: el VIH te invita a pensar en otra cosa, pero la tuberculosis pulmonar activa se trata con el mismo esquema primario. La D, isoniazida sola, es terapia preventiva, nunca tratamiento de enfermedad activa. Y la B es un esquema para micobacterias atípicas."
     },
     {
       "file": "s17_g00",
-      "text": "La última, del EUNACOM de julio de dos mil diecisiete. Paciente de treinta y dos años que lleva un año conviviendo con pacientes bacilíferos. Está asintomático, su radiografía de tórax es normal, y el PPD mide veintitrés milímetros."
+      "text": "Del EUNACOM de julio de dos mil diecinueve, una pregunta directa: ¿qué se hace con el contacto intradomiciliario de un paciente con tuberculosis pulmonar bacilífera?"
     },
     {
       "file": "s17_g01",
@@ -314,34 +306,50 @@
     },
     {
       "file": "s17_g02",
-      "text": "Las opciones: esquema de cuatro fármacos, repetir el PPD, dar de alta, PCR en lavado broncoalveolar, o isoniazida por seis meses. Piénsalo."
+      "text": "Las opciones: PPD y cultivo, radiografía de tórax y baciloscopías, control clínico por tres meses, profilaxis con isoniazida, o cultivo de Koch y broncoscopía. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la E. Asintomático y con radiografía normal: no tiene enfermedad activa. Pero el PPD muy positivo dice que está infectado, y por eso recibe terapia preventiva con isoniazida por seis meses. La A es la trampa: cuatro fármacos es para la enfermedad activa. Y dar de alta a alguien infectado, después de un año expuesto, es perder la oportunidad de prevenir."
+      "text": "Es la B. Con el contacto, lo primero es descartar enfermedad activa, y eso se hace con la radiografía de tórax y las baciloscopías. La D es la trampa: la profilaxis viene después, cuando ya descartaste la enfermedad; dar isoniazida sola a alguien con tuberculosis activa es tratarlo mal. Y controlar por tres meses deja pasar casos."
     },
     {
       "file": "s18_g00",
-      "text": "Cerremos con las reglas de oro. Tos con expectoración por quince días o más es un sintomático respiratorio, y se estudia de inmediato."
+      "text": "La última, del EUNACOM de julio de dos mil diecisiete. Paciente de treinta y dos años que lleva un año conviviendo con pacientes bacilíferos. Está asintomático, su radiografía de tórax es normal, y el PPD mide veintitrés milímetros."
     },
     {
       "file": "s18_g01",
-      "text": "El GeneXpert es el examen inicial, porque en menos de dos horas detecta el bacilo y la resistencia a rifampicina; el cultivo se pide siempre. Y una baciloscopía negativa no descarta la enfermedad."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s18_g02",
-      "text": "El esquema es dos RHZE más cuatro RH, seis meses, observado. La meníngea y la osteoarticular van a doce meses, y la meníngea con corticoides."
+      "text": "Las opciones: esquema de cuatro fármacos, repetir el PPD, dar de alta, PCR en lavado broncoalveolar, o isoniazida por seis meses. Piénsalo."
     },
     {
       "file": "s18_g03",
+      "text": "Es la E. Asintomático y con radiografía normal: no tiene enfermedad activa. Pero el PPD muy positivo dice que está infectado, y por eso recibe terapia preventiva con isoniazida por seis meses. La A es la trampa: cuatro fármacos es para la enfermedad activa. Y dar de alta a alguien infectado, después de un año expuesto, es perder la oportunidad de prevenir."
+    },
+    {
+      "file": "s19_g00",
+      "text": "Cerremos con las reglas de oro. Tos con expectoración por quince días o más es un sintomático respiratorio, y se estudia de inmediato."
+    },
+    {
+      "file": "s19_g01",
+      "text": "El GeneXpert es el examen inicial, porque en menos de dos horas detecta el bacilo y la resistencia a rifampicina; el cultivo se pide siempre. Y una baciloscopía negativa no descarta la enfermedad."
+    },
+    {
+      "file": "s19_g02",
+      "text": "El esquema es dos RHZE más cuatro RH, seis meses, observado. La meníngea y la osteoarticular van a doce meses, y la meníngea con corticoides."
+    },
+    {
+      "file": "s19_g03",
       "text": "Orina anaranjada, se sigue; parestesias, piridoxina; y si confunde el rojo con el verde, se suspende el etambutol."
     },
     {
-      "file": "s18_g04",
+      "file": "s19_g04",
       "text": "Con los contactos, primero se descarta la enfermedad activa con clínica y radiografía."
     },
     {
-      "file": "s18_g05",
+      "file": "s19_g05",
       "text": "Y en el menor de cinco años o con VIH, terapia preventiva sin esperar el PPD. Si te llevas una sola idea de hoy: la tuberculosis se maneja con la norma, y el examen premia saber quién se estudia, con qué esquema se trata y a quién se protege. En la próxima clase pasamos a la pleura. Nos vemos en la próxima clase."
     }
   ]

@@ -119,6 +119,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Las curvas flujo-volumen',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg', label: 'Normal, obstructiva y restrictiva', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'La forma de la curva diagnostica',
+          say: 'Esta es la curva flujo volumen. La normal sube rápido y baja en línea recta. En la obstructiva, la rama de bajada se excava, como una cuchara. En la restrictiva, la curva tiene forma normal pero es pequeña: el volumen está reducido.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los tres pasos en un solo árbol, en el orden en que vas a leer cualquier espirometría del examen.',
     },

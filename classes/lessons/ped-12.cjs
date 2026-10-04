@@ -140,6 +140,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Vómitos en el lactante',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-12/01_eco-piloro__cto-pediatria_p65.jpg', label: 'Estenosis del píloro', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
+        { src: 'biblioteca/15_pediatria/ped-12/02_invaginacion-eco__cto-pediatria_p70.jpg', label: 'Invaginación', credit: 'Manual CTO Pediatría 14.ª ed., p. 70' },
+      ],
+      steps: [
+        { note: 'Píloro engrosado',
+          say: 'Vómitos explosivos no biliosos a las tres semanas: píloro engrosado en la ecografía.' },
+        { note: 'Imagen en diana',
+          say: 'Y la invaginación da una imagen en diana.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres causas en un solo árbol, con la edad y el color del vómito como guía.',
     },

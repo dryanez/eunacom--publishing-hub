@@ -269,6 +269,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Anemia megaloblástica',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg', label: 'Frotis', credit: 'Manual AMIR Hematología, p. 29' },
+        { src: 'biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg', label: 'Glositis atrófica', credit: 'Wikimedia Commons «Tongue of person with pernicious anemia two weeks following vitamin B12 supplementation.jpg», CC BY 4.0, Emmanuel Jojo Aryee and Helen Agyei-Yeboah' },
+      ],
+      steps: [
+        { note: 'Macroovalocitos y neutrófilo hipersegmentado',
+          say: 'En la megaloblástica los glóbulos rojos son grandes y ovalados, y los neutrófilos tienen seis o más lóbulos. Ese neutrófilo hipersegmentado es la pista.' },
+        { note: 'Lengua lisa y roja',
+          say: 'Y la lengua se vuelve lisa y roja, sin papilas: glositis atrófica, por falta de vitamina B doce.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo de una anemia macrocítica.',
     },

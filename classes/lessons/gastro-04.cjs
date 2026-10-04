@@ -249,6 +249,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Aire libre bajo el diafragma',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-04/01_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
+      ],
+      steps: [
+        { note: 'Media luna de aire bajo el diafragma',
+          say: 'Mira bajo las cúpulas diafragmáticas: hay una media luna negra de aire. Eso es neumoperitoneo, y en un dolor abdominal agudo significa perforación hasta que se demuestre lo contrario.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las tres urgencias en un solo árbol: el contexto clínico decide el examen.',
     },

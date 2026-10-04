@@ -191,6 +191,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Mononucleosis',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-21/01_amigdalitis-mononucleosica__cto-orl_p71.jpg', label: 'Amigdalitis', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 71' },
+        { src: 'biblioteca/07_infectologia/infecto-21/03_exantema-por-amoxicilina-mononucleosis__cto-derma_p53.jpg', label: 'Exantema por amoxicilina', credit: 'Manual CTO Dermatología 14.ª ed., p. 53' },
+        { src: 'biblioteca/07_infectologia/infecto-21/01_coriorretinitis_toxoplasma__kanski_p441.jpg', label: 'Coriorretinitis', credit: 'Kanski, p. 441' },
+      ],
+      steps: [
+        { note: 'Amígdalas con exudado',
+          say: 'La mononucleosis da una amigdalitis con exudado, que se confunde con la estreptocócica.' },
+        { note: 'Erupción tras el antibiótico',
+          say: 'Si se le da amoxicilina, aparece este exantema. Es casi diagnóstico de mononucleosis.' },
+        { note: 'Toxoplasma en la retina',
+          say: 'Y esta es una coriorretinitis por toxoplasma: una lesión blanca activa junto a una cicatriz.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el síndrome mononucleósico en un árbol de decisión.',
     },

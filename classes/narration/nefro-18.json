@@ -2,7 +2,7 @@
   "id": "nefro-18",
   "title": "Nefrologia 5.1: Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
   "specialty": "Nefrología",
-  "chars": 15315,
+  "chars": 15535,
   "segments": [
     {
       "file": "s00_g00",
@@ -182,95 +182,83 @@
     },
     {
       "file": "s10_g00",
-      "text": "Juntemos todo en un árbol: dos preguntas deciden el manejo. Paciente con enfermedad renal crónica confirmada: filtración bajo sesenta o un marcador de daño, por más de tres meses. Dos preguntas deciden el manejo."
-    },
-    {
-      "file": "s10_g01",
-      "text": "La primera pregunta: ¿tiene albuminuria moderada o severa, una razón albúmina creatinina de treinta o más?"
-    },
-    {
-      "file": "s10_g02",
-      "text": "Si la tiene, bloqueo del sistema renina angiotensina con IECA o ARA dos, más un inhibidor del cotransportador sodio glucosa, con meta de presión bajo ciento treinta con ochenta."
-    },
-    {
-      "file": "s10_g03",
-      "text": "La segunda pregunta es la filtración: ¿bajó de treinta?"
-    },
-    {
-      "file": "s10_g04",
-      "text": "Si no, sigue en atención primaria, controlando filtración y albuminuria cada seis a doce meses, y ajustando fármacos como la metformina."
-    },
-    {
-      "file": "s10_g05",
-      "text": "Si bajó de treinta, se notifica GES y se deriva al nefrólogo en treinta días, con preparación de la fístula y vacuna contra la hepatitis B."
-    },
-    {
-      "file": "s10_g06",
-      "text": "Si la albuminuria es A uno, lo central es el control metabólico y cardiovascular: glicemia, estatinas, sodio bajo dos gramos y nada de antiinflamatorios. Y la misma segunda pregunta: si la filtración baja de treinta, entra el GES."
-    },
-    {
-      "file": "s10_g07",
-      "text": "Filtración bajo treinta: notificar GES y derivar al nefrólogo, igual que en la otra rama."
+      "text": "La enfermedad renal crónica se etapifica con dos números: el filtrado, de G uno a G cinco, y la albuminuria, de A uno a A tres. El cruce da un color de riesgo, y ese color decide la frecuencia de control y la derivación."
     },
     {
       "file": "s11_g00",
-      "text": "Repasemos las trampas. Diabético con proteinuria, aunque su presión esté casi normal: IECA o ARA dos. El error es mantener el tratamiento porque la presión no parece tan alta."
+      "text": "Juntemos todo en un árbol: dos preguntas deciden el manejo. Paciente con enfermedad renal crónica confirmada: filtración bajo sesenta o un marcador de daño, por más de tres meses. Dos preguntas deciden el manejo."
     },
     {
       "file": "s11_g01",
-      "text": "Creatinina que sube menos de un treinta por ciento después del IECA, con potasio normal: se mantiene y se controla. Suspenderlo es la trampa."
+      "text": "La primera pregunta: ¿tiene albuminuria moderada o severa, una razón albúmina creatinina de treinta o más?"
     },
     {
       "file": "s11_g02",
-      "text": "Si sube más de un treinta por ciento, o el potasio pasa de cinco coma cinco, ahí sí se ajusta o se pausa."
+      "text": "Si la tiene, bloqueo del sistema renina angiotensina con IECA o ARA dos, más un inhibidor del cotransportador sodio glucosa, con meta de presión bajo ciento treinta con ochenta."
     },
     {
       "file": "s11_g03",
-      "text": "Filtración bajo treinta en atención primaria: notificar GES y derivar al nefrólogo, que atiende en treinta días. Ni esperar un año, ni dializar de inmediato a un paciente sin síntomas urémicos."
+      "text": "La segunda pregunta es la filtración: ¿bajó de treinta?"
     },
     {
       "file": "s11_g04",
-      "text": "Etapa cuatro que va hacia la diálisis: fístula al menos seis meses antes. Esperar hasta necesitar un catéter central es el error."
+      "text": "Si no, sigue en atención primaria, controlando filtración y albuminuria cada seis a doce meses, y ajustando fármacos como la metformina."
     },
     {
       "file": "s11_g05",
-      "text": "Y metformina con filtración bajo treinta: se suspende, por la acidosis láctica."
+      "text": "Si bajó de treinta, se notifica GES y se deriva al nefrólogo en treinta días, con preparación de la fístula y vacuna contra la hepatitis B."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Si la albuminuria es A uno, lo central es el control metabólico y cardiovascular: glicemia, estatinas, sodio bajo dos gramos y nada de antiinflamatorios. Y la misma segunda pregunta: si la filtración baja de treinta, entra el GES."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Filtración bajo treinta: notificar GES y derivar al nefrólogo, igual que en la otra rama."
     },
     {
       "file": "s12_g00",
-      "text": "Vamos al caso. Hombre de cincuenta y cuatro años, diabético hace catorce años e hipertenso, con metformina y amlodipino. Está asintomático. Presión de ciento cuarenta y dos con ochenta y ocho, y retinopatía diabética. La filtración estimada es de cincuenta y dos, el potasio es normal, y la razón albúmina creatinina es de ciento ochenta, confirmada en dos muestras."
+      "text": "Repasemos las trampas. Diabético con proteinuria, aunque su presión esté casi normal: IECA o ARA dos. El error es mantener el tratamiento porque la presión no parece tan alta."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es la conducta más adecuada para proteger su riñón?"
+      "text": "Creatinina que sube menos de un treinta por ciento después del IECA, con potasio normal: se mantiene y se controla. Suspenderlo es la trampa."
     },
     {
       "file": "s12_g02",
-      "text": "Las alternativas: suspender la metformina e iniciar insulina, agregar hidroclorotiazida, iniciar IECA o ARA dos más un inhibidor del cotransportador sodio glucosa, derivar por GES para fístula, o mantener y repetir en un año. Piénsalo."
+      "text": "Si sube más de un treinta por ciento, o el potasio pasa de cinco coma cinco, ahí sí se ajusta o se pausa."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C. Primero etapifica: filtración de cincuenta y dos es G tres a, y albuminuria de ciento ochenta es A dos. Esa albuminuria es la indicación de IECA o ARA dos, más el inhibidor del cotransportador. La A es la trampa: con cincuenta y dos de filtración la metformina se mantiene; se ajusta bajo cuarenta y cinco y se suspende bajo treinta. Y la D llega antes de tiempo: el GES empieza bajo treinta."
+      "text": "Filtración bajo treinta en atención primaria: notificar GES y derivar al nefrólogo, que atiende en treinta días. Ni esperar un año, ni dializar de inmediato a un paciente sin síntomas urémicos."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Etapa cuatro que va hacia la diálisis: fístula al menos seis meses antes. Esperar hasta necesitar un catéter central es el error."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y metformina con filtración bajo treinta: se suspende, por la acidosis láctica."
     },
     {
       "file": "s13_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cuarenta y seis años, diabético, con metformina, asintomático. Presión de ciento treinta y ocho con ochenta y tres. Hemoglobina glicosilada de seis coma nueve, índice proteinuria creatininuria de cero coma tres, y creatinina normal."
+      "text": "Vamos al caso. Hombre de cincuenta y cuatro años, diabético hace catorce años e hipertenso, con metformina y amlodipino. Está asintomático. Presión de ciento cuarenta y dos con ochenta y ocho, y retinopatía diabética. La filtración estimada es de cincuenta y dos, el potasio es normal, y la razón albúmina creatinina es de ciento ochenta, confirmada en dos muestras."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta más adecuada para proteger su riñón?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: aumentar la metformina, iniciar hidroclorotiazida, iniciar enalapril, cambiar a insulina, o mantener y reforzar dieta y ejercicio. Piénsalo."
+      "text": "Las alternativas: suspender la metformina e iniciar insulina, agregar hidroclorotiazida, iniciar IECA o ARA dos más un inhibidor del cotransportador sodio glucosa, derivar por GES para fístula, o mantener y repetir en un año. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la C, enalapril. El número que decide es el índice de cero coma tres: desde cero coma dos es proteinuria, un marcador de daño renal, y eso indica IECA aunque la presión esté casi en meta. La E es la trampa, porque la glicemia está bien controlada y todo parece en orden. Pero la pregunta no es por el azúcar, es por el riñón."
+      "text": "Es la C. Primero etapifica: filtración de cincuenta y dos es G tres a, y albuminuria de ciento ochenta es A dos. Esa albuminuria es la indicación de IECA o ARA dos, más el inhibidor del cotransportador. La A es la trampa: con cincuenta y dos de filtración la metformina se mantiene; se ajusta bajo cuarenta y cinco y se suspende bajo treinta. Y la D llega antes de tiempo: el GES empieza bajo treinta."
     },
     {
       "file": "s14_g00",
-      "text": "Otra real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta y dos años, diabético e hipertenso, con metformina, hidroclorotiazida y atenolol. Su presión es de ciento cuarenta y seis con cien. Tiene un clearence de cuarenta y ocho y proteinuria."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cuarenta y seis años, diabético, con metformina, asintomático. Presión de ciento treinta y ocho con ochenta y tres. Hemoglobina glicosilada de seis coma nueve, índice proteinuria creatininuria de cero coma tres, y creatinina normal."
     },
     {
       "file": "s14_g01",
@@ -278,15 +266,15 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: agregar amlodipino, agregar doxazosina, agregar enalapril, mantener, o cambiar la tiazida por furosemida. Piénsalo."
+      "text": "Las opciones: aumentar la metformina, iniciar hidroclorotiazida, iniciar enalapril, cambiar a insulina, o mantener y reforzar dieta y ejercicio. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C, agregar enalapril. Está fuera de meta, que es bajo ciento treinta con ochenta, así que hay que sumar un fármaco. Y el que se suma es el que además protege el riñón: tiene proteinuria y ya toma dos antihipertensivos, pero ninguno es un IECA. El amlodipino es el distractor tentador, porque también bajaría la presión, pero no reduce la proteinuria."
+      "text": "Es la C, enalapril. El número que decide es el índice de cero coma tres: desde cero coma dos es proteinuria, un marcador de daño renal, y eso indica IECA aunque la presión esté casi en meta. La E es la trampa, porque la glicemia está bien controlada y todo parece en orden. Pero la pregunta no es por el azúcar, es por el riñón."
     },
     {
       "file": "s15_g00",
-      "text": "Y una reciente, del EUNACOM de diciembre de dos mil veinticinco. Paciente de setenta y ocho años, diabético e hipertenso, sin controles hace cinco años, que toma enalapril, hidroclorotiazida, amlodipino y metformina. Presión de ciento cincuenta y dos con noventa y seis. Hemoglobina glicosilada de seis, creatinina de tres coma ocho, y potasio de cuatro coma ocho."
+      "text": "Otra real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta y dos años, diabético e hipertenso, con metformina, hidroclorotiazida y atenolol. Su presión es de ciento cuarenta y seis con cien. Tiene un clearence de cuarenta y ocho y proteinuria."
     },
     {
       "file": "s15_g01",
@@ -294,42 +282,58 @@
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: mantener todo, suspender la metformina, suspender el diurético, suspender el enalapril, o suspender el amlodipino. Piénsalo."
+      "text": "Las opciones: agregar amlodipino, agregar doxazosina, agregar enalapril, mantener, o cambiar la tiazida por furosemida. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la B. Con una creatinina de tres coma ocho a los setenta y ocho años, la filtración está muy por debajo de treinta, y ahí la metformina se suspende por el riesgo de acidosis láctica. La D es la trampa: el enalapril asusta con esa creatinina, pero el potasio es normal y la presión sigue alta, así que se mantiene. Además, una glicosilada de seis a esa edad ya habla de sobretratamiento."
+      "text": "Es la C, agregar enalapril. Está fuera de meta, que es bajo ciento treinta con ochenta, así que hay que sumar un fármaco. Y el que se suma es el que además protege el riñón: tiene proteinuria y ya toma dos antihipertensivos, pero ninguno es un IECA. El amlodipino es el distractor tentador, porque también bajaría la presión, pero no reduce la proteinuria."
     },
     {
       "file": "s16_g00",
-      "text": "Terminemos con una pregunta del banco EUNACOM sobre el GES. Mujer de sesenta y dos años, diabética e hipertensa, en control en el Cesfam. Tiene una filtración estimada de veinticuatro, confirmada con un examen similar de hace cuatro meses. No tiene síntomas urémicos."
+      "text": "Y una reciente, del EUNACOM de diciembre de dos mil veinticinco. Paciente de setenta y ocho años, diabético e hipertenso, sin controles hace cinco años, que toma enalapril, hidroclorotiazida, amlodipino y metformina. Presión de ciento cincuenta y dos con noventa y seis. Hemoglobina glicosilada de seis, creatinina de tres coma ocho, y potasio de cuatro coma ocho."
     },
     {
       "file": "s16_g01",
-      "text": "Según la normativa GES, ¿qué debe hacer el médico tratante?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s16_g02",
-      "text": "Las opciones: notificar GES y derivar a nefrología en menos de treinta días, instalar un catéter para hemodiálisis, controlar en un año, iniciar peritoneodiálisis inmediata, o restricción hídrica estricta. Piénsalo."
+      "text": "Las opciones: mantener todo, suspender la metformina, suspender el diurético, suspender el enalapril, o suspender el amlodipino. Piénsalo."
     },
     {
       "file": "s16_g03",
-      "text": "Es la A. Filtración de veinticuatro, confirmada por más de tres meses, es una etapa cuatro, y la etapa cuatro es GES: se notifica y se deriva al nefrólogo, que tiene treinta días para verla. La C es el error por omisión: no se espera un año. Y la B y la D son el error por exceso: sin síntomas urémicos no hay diálisis de urgencia; lo que se prepara es la fístula."
+      "text": "Es la B. Con una creatinina de tres coma ocho a los setenta y ocho años, la filtración está muy por debajo de treinta, y ahí la metformina se suspende por el riesgo de acidosis láctica. La D es la trampa: el enalapril asusta con esa creatinina, pero el potasio es normal y la presión sigue alta, así que se mantiene. Además, una glicosilada de seis a esa edad ya habla de sobretratamiento."
     },
     {
       "file": "s17_g00",
-      "text": "Cerremos con las reglas de oro. Enfermedad renal crónica es filtración bajo sesenta, o un marcador de daño, por más de tres meses. Y se describe con dos letras: G y A."
+      "text": "Terminemos con una pregunta del banco EUNACOM sobre el GES. Mujer de sesenta y dos años, diabética e hipertensa, en control en el Cesfam. Tiene una filtración estimada de veinticuatro, confirmada con un examen similar de hace cuatro meses. No tiene síntomas urémicos."
     },
     {
       "file": "s17_g01",
-      "text": "Toda albuminuria A dos o A tres, o un índice proteinuria creatininuria desde cero coma dos, lleva IECA o ARA dos, más un inhibidor del cotransportador sodio glucosa."
+      "text": "Según la normativa GES, ¿qué debe hacer el médico tratante?"
     },
     {
       "file": "s17_g02",
-      "text": "Y si la creatinina sube menos de un treinta por ciento, el IECA se mantiene."
+      "text": "Las opciones: notificar GES y derivar a nefrología en menos de treinta días, instalar un catéter para hemodiálisis, controlar en un año, iniciar peritoneodiálisis inmediata, o restricción hídrica estricta. Piénsalo."
     },
     {
       "file": "s17_g03",
+      "text": "Es la A. Filtración de veinticuatro, confirmada por más de tres meses, es una etapa cuatro, y la etapa cuatro es GES: se notifica y se deriva al nefrólogo, que tiene treinta días para verla. La C es el error por omisión: no se espera un año. Y la B y la D son el error por exceso: sin síntomas urémicos no hay diálisis de urgencia; lo que se prepara es la fístula."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. Enfermedad renal crónica es filtración bajo sesenta, o un marcador de daño, por más de tres meses. Y se describe con dos letras: G y A."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Toda albuminuria A dos o A tres, o un índice proteinuria creatininuria desde cero coma dos, lleva IECA o ARA dos, más un inhibidor del cotransportador sodio glucosa."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Y si la creatinina sube menos de un treinta por ciento, el IECA se mantiene."
+    },
+    {
+      "file": "s18_g03",
       "text": "Bajo treinta de filtración entra el GES: nefrólogo en treinta días y fístula seis meses antes de dializar. Si te llevas una sola idea de hoy: la albuminuria indica el IECA, y el treinta de filtración abre el GES. Nos vemos en la próxima clase."
     }
   ]

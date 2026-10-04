@@ -2,7 +2,7 @@
   "id": "reuma-20",
   "title": "Reumatologia 9.20: Enfermedad de Behçet: Aftosis Orogenital Recurrente, Fenómeno de Patergia y Panuveítis",
   "specialty": "Reumatología",
-  "chars": 8327,
+  "chars": 8503,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,82 +90,90 @@
     },
     {
       "file": "s07_g00",
-      "text": "Caso clínico. Varón de treinta y un años con dolor ocular y fotofobia con nivel de hipopión en cámara anterior, antecedente de aftas orales recurrentes, úlceras en escroto con cicatrices residuales y eritema nodoso en piernas."
+      "text": "Las aftas orales recurrentes son el criterio obligatorio de Behçet."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el diagnóstico clínico más probable y cuál es la conducta terapéutica inmediata?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Las alternativas: enfermedad de Behçet con corticoides sistémicos y terapia biológica anti-TNF, endoftalmitis bacteriana con vitrectomía, lupus con hidroxicloroquina, artritis reactiva con ciprofloxacino, o síndrome de Sjögren. Piénsalo."
-    },
-    {
-      "file": "s07_g03",
-      "text": "La respuesta correcta es la A. Cumple criterios de Behçet con hipopión ocular estéril y cicatrices escrotales. La uveítis con hipopión es una urgencia oftalmológica que exige hospitalización inmediata, corticoides en dosis altas y agentes anti-TNF."
+      "text": "Y la patergia: un pinchazo con aguja produce una pápula o pústula a las veinticuatro o cuarenta y ocho horas."
     },
     {
       "file": "s08_g00",
-      "text": "EUNACOM dos mil diecinueve, pregunta once. Paciente con sospecha de enfermedad de Behçet al que se le realiza una punción cutánea con aguja estéril en el antebrazo, observándose a las treinta y seis horas una pústula estéril."
+      "text": "Caso clínico. Varón de treinta y un años con dolor ocular y fotofobia con nivel de hipopión en cámara anterior, antecedente de aftas orales recurrentes, úlceras en escroto con cicatrices residuales y eritema nodoso en piernas."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cómo se denomina esta prueba cutánea diagnóstica característica?"
+      "text": "¿Cuál es el diagnóstico clínico más probable y cuál es la conducta terapéutica inmediata?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: prueba de Mitsuda, fenómeno de patergia, signo de Darier, prueba de Kveim, o signo de Nikolsky. Piénsalo."
+      "text": "Las alternativas: enfermedad de Behçet con corticoides sistémicos y terapia biológica anti-TNF, endoftalmitis bacteriana con vitrectomía, lupus con hidroxicloroquina, artritis reactiva con ciprofloxacino, o síndrome de Sjögren. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. El fenómeno de patergia consiste en la aparición de una pápula o pústula estéril tras un pinchazo con aguja en la piel, reflejando la hiperreactividad neutrofílica típica de la enfermedad de Behçet."
+      "text": "La respuesta correcta es la A. Cumple criterios de Behçet con hipopión ocular estéril y cicatrices escrotales. La uveítis con hipopión es una urgencia oftalmológica que exige hospitalización inmediata, corticoides en dosis altas y agentes anti-TNF."
     },
     {
       "file": "s09_g00",
-      "text": "EUNACOM dos mil veintidós, pregunta cuarenta y cuatro. Se evalúan las diferencias clínicas entre las aftas orales y genitales en la enfermedad de Behçet."
+      "text": "EUNACOM dos mil diecinueve, pregunta once. Paciente con sospecha de enfermedad de Behçet al que se le realiza una punción cutánea con aguja estéril en el antebrazo, observándose a las treinta y seis horas una pústula estéril."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál de las siguientes afirmaciones respecto a las úlceras orales y genitales en Behçet es correcta?"
+      "text": "¿Cómo se denomina esta prueba cutánea diagnóstica característica?"
     },
     {
       "file": "s09_g02",
-      "text": "Las alternativas: las orales son indoloras, las genitales curan dejando cicatriz atrófica mientras las orales curan sin cicatriz, se acompañan de adenopatías supurativas, las orales se ven en menos del veinte por ciento, o responden a aciclovir. Piénsalo."
+      "text": "Las opciones: prueba de Mitsuda, fenómeno de patergia, signo de Darier, prueba de Kveim, o signo de Nikolsky. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta correcta es la B. Las aftas genitales curan dejando una cicatriz atrófica indeleble muy característica, mientras que las aftas orales curan de forma completa sin dejar cicatriz."
+      "text": "Es la B. El fenómeno de patergia consiste en la aparición de una pápula o pústula estéril tras un pinchazo con aguja en la piel, reflejando la hiperreactividad neutrofílica típica de la enfermedad de Behçet."
     },
     {
       "file": "s10_g00",
-      "text": "EUNACOM dos mil veinticuatro, pregunta doce. Paciente con enfermedad de Behçet que presenta brotes recurrentes de aftas orales y genitales sin compromiso ocular ni orgánico mayor."
+      "text": "EUNACOM dos mil veintidós, pregunta cuarenta y cuatro. Se evalúan las diferencias clínicas entre las aftas orales y genitales en la enfermedad de Behçet."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el fármaco de primera línea para prevenir y tratar estas manifestaciones mucocutáneas?"
+      "text": "¿Cuál de las siguientes afirmaciones respecto a las úlceras orales y genitales en Behçet es correcta?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: ciclofosfamida endovenosa, colchicina oral continua, infliximab endovenoso, acenocumarol, o metotrexato semanal. Piénsalo."
+      "text": "Las alternativas: las orales son indoloras, las genitales curan dejando cicatriz atrófica mientras las orales curan sin cicatriz, se acompañan de adenopatías supurativas, las orales se ven en menos del veinte por ciento, o responden a aciclovir. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. La colchicina oral continua es el fármaco de primera elección para el manejo de las aftas orales y genitales en Behçet gracias a su capacidad de frenar la quimiotaxis neutrofílica."
+      "text": "La respuesta correcta es la B. Las aftas genitales curan dejando una cicatriz atrófica indeleble muy característica, mientras que las aftas orales curan de forma completa sin dejar cicatriz."
     },
     {
       "file": "s11_g00",
-      "text": "Revisemos las tres reglas de oro. Primero: las aftas orales son recurrentes y curan sin cicatriz, mientras que las aftas genitales en escroto o vulva curan dejando siempre una cicatriz atrófica permanente."
+      "text": "EUNACOM dos mil veinticuatro, pregunta doce. Paciente con enfermedad de Behçet que presenta brotes recurrentes de aftas orales y genitales sin compromiso ocular ni orgánico mayor."
     },
     {
       "file": "s11_g01",
-      "text": "Segundo: el fenómeno de patergia consiste en la aparición de una pústula estéril tras un pinchazo con aguja en el antebrazo, reflejando la hiperreactividad neutrofílica ligada al antígeno HLA-B cincuenta y uno."
+      "text": "¿Cuál es el fármaco de primera línea para prevenir y tratar estas manifestaciones mucocutáneas?"
     },
     {
       "file": "s11_g02",
-      "text": "Tercero: la uveítis anterior con hipopión estéril es la gran complicación visual que amenaza la visión del paciente y requiere corticoides con biológicos anti-TNF."
+      "text": "Las opciones: ciclofosfamida endovenosa, colchicina oral continua, infliximab endovenoso, acenocumarol, o metotrexato semanal. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la B. La colchicina oral continua es el fármaco de primera elección para el manejo de las aftas orales y genitales en Behçet gracias a su capacidad de frenar la quimiotaxis neutrofílica."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Revisemos las tres reglas de oro. Primero: las aftas orales son recurrentes y curan sin cicatriz, mientras que las aftas genitales en escroto o vulva curan dejando siempre una cicatriz atrófica permanente."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Segundo: el fenómeno de patergia consiste en la aparición de una pústula estéril tras un pinchazo con aguja en el antebrazo, reflejando la hiperreactividad neutrofílica ligada al antígeno HLA-B cincuenta y uno."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Tercero: la uveítis anterior con hipopión estéril es la gran complicación visual que amenaza la visión del paciente y requiere corticoides con biológicos anti-TNF."
+    },
+    {
+      "file": "s12_g03",
       "text": "El tratamiento parte con colchicina oral para las aftas mucosas y la piel. Si te llevas una sola idea de hoy: aftas orales más aftas genitales con cicatriz y uveítis con hipopión es Behçet; trátalo con colchicina para las mucosas y biológicos anti-TNF si los ojos están en peligro. Nos vemos en la próxima clase."
     }
   ]

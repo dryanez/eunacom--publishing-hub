@@ -241,6 +241,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Vasculitis de grandes vasos',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg', label: 'Signo del halo', credit: 'Manual CTO Reumatología 14.ª ed., p. 72' },
+        { src: 'biblioteca/08_reumatologia/reuma-21/02_angiografia-takayasu__cto-reuma_p73.jpg', label: 'Takayasu', credit: 'Manual CTO Reumatología 14.ª ed., p. 73' },
+      ],
+      steps: [
+        { note: 'Pared temporal engrosada',
+          say: 'En la arteritis de la temporal, la ecografía muestra un halo oscuro alrededor de la arteria.' },
+        { note: 'Estenosis de grandes arterias',
+          say: 'Y en Takayasu, la angiografía muestra estenosis de la aorta y sus ramas, en una mujer joven.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

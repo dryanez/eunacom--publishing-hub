@@ -187,6 +187,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Tiroiditis de Hashimoto en la ecografía',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg', label: 'Hashimoto', credit: 'Manual CTO Endocrinología 14.ª ed., p. 55' },
+      ],
+      steps: [
+        { note: 'Tiroides heterogénea e hipoecogénica',
+          say: 'En la ecografía, la tiroides de Hashimoto se ve heterogénea y oscura, con tractos fibrosos. Se confirma con anticuerpos antiperoxidasa.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, con las dos preguntas de la clase: si duele, y si capta.',
     },

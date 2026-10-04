@@ -228,6 +228,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Infecciones oportunistas en el VIH',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-10/01_sarcoma-de-kaposi__amir-infecto_p157.jpg', label: 'Sarcoma de Kaposi', credit: 'Manual AMIR Infecciosas, p. 157' },
+        { src: 'biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc__cto-infecto_p144.jpg', label: 'Toxoplasmosis cerebral', credit: 'Manual CTO Infecciosas 14.ª ed., p. 144' },
+        { src: 'biblioteca/07_infectologia/infecto-10/05_muguet-candidiasis-oral_1__amir-derma_p65.jpg', label: 'Candidiasis oral', credit: 'Manual AMIR Dermatología, p. 65' },
+        { src: 'biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg', label: 'Pneumocystis', credit: 'Manual AMIR Infecciosas, p. 152' },
+      ],
+      steps: [
+        { note: 'Lesiones violáceas',
+          say: 'El sarcoma de Kaposi da lesiones violáceas en la piel y mucosas.' },
+        { note: 'Lesiones con anillo',
+          say: 'La toxoplasmosis cerebral da varias lesiones con anillo, con CD cuatro bajo cien.' },
+        { note: 'Placas blancas que se desprenden',
+          say: 'El muguet son placas blancas que se desprenden con la paleta.' },
+        { note: 'Infiltrado intersticial bilateral',
+          say: 'Y la neumonía por Pneumocystis da un infiltrado intersticial bilateral, con CD cuatro bajo doscientos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol: el órgano comprometido te dice qué buscar.',
     },

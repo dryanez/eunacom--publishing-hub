@@ -130,6 +130,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Embarazo ectópico',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-11/01_ectopico-ampular-eco__cto-gyo_p126.jpg', label: 'Ectópico', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' },
+      ],
+      steps: [
+        { note: 'Masa anexial con útero vacío',
+          say: 'Útero vacío con una masa anexial y beta sobre la zona discriminatoria: embarazo ectópico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

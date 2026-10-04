@@ -142,6 +142,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Mieloma múltiple',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-19/01_lesiones-liticas-en-craneo__cto-hemato_p81.jpg', label: 'Lesiones líticas', credit: 'Manual CTO Hematología 14.ª ed., p. 81' },
+        { src: 'biblioteca/06_hematologia/hem-19/02_pico_m_real__commons.jpg', label: 'Pico monoclonal', credit: 'Wikimedia Commons «Monoclonal gammopathy Multiple Myeloma.png», CC BY-SA 3.0, Steven Fruitsmaak' },
+        { src: 'biblioteca/06_hematologia/hem-19/02_rouleaux__amir-hemato_p74.jpg', label: 'Rouleaux', credit: 'Manual AMIR Hematología, p. 74' },
+      ],
+      steps: [
+        { note: 'Cráneo en sacabocado',
+          say: 'En el mieloma, el cráneo muestra lesiones líticas en sacabocado.' },
+        { note: 'Una banda alta y angosta',
+          say: 'Y la electroforesis muestra un pico alto y angosto en gamma: es la proteína monoclonal.' },
+        { note: 'Glóbulos en pila de monedas',
+          say: 'En el frotis, los glóbulos se apilan como monedas: es el rouleaux.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del adulto mayor con dolor óseo y VHS alta.',
     },

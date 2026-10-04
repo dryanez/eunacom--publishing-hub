@@ -159,6 +159,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Prolactinoma',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-21/01_prolactinoma-gigante-rm__amir-endocrino_p24.jpg', label: 'Prolactinoma gigante', credit: 'Manual AMIR Endocrinología, p. 24' },
+      ],
+      steps: [
+        { note: 'Se trata con cabergolina',
+          say: 'Este es un prolactinoma gigante en la resonancia. Aunque sea grande, el tratamiento es con cabergolina, no con cirugía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol que vas a recorrer en el examen: descartar, medir, y recién ahí tratar.',
     },

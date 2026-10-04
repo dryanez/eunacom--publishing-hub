@@ -144,6 +144,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El síndrome nefrítico',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg', label: 'Cilindro hemático', credit: 'Manual AMIR Nefrología 17.ª ed., p. 46' },
+        { src: 'biblioteca/03_nefrologia/nefro-15/02_tira-de-orina-hematuria-proteinuria__cto-pediatria_p81.jpg', label: 'Tira de orina', credit: 'Manual CTO Pediatría 14.ª ed., p. 81' },
+        { src: 'biblioteca/03_nefrologia/nefro-15/01_edema_facial_nino_nefrosis__cdc-phil-3894.jpg', label: 'Edema facial', credit: 'Wikimedia Commons «Plasmodium falciparum nephrosis edema PHIL 3894 lores.jpg», Public domain, ver autor en Commons' },
+      ],
+      steps: [
+        { note: 'Glóbulos rojos dentro del cilindro',
+          say: 'Este es un cilindro hemático: glóbulos rojos atrapados dentro de un molde del túbulo. Es el hallazgo que confirma que la hematuria es glomerular.' },
+        { note: 'Sangre y proteínas',
+          say: 'La tira de orina muestra sangre y proteínas. En el nefrítico predomina la hematuria; en el nefrótico, la proteinuria masiva.' },
+        { note: 'Párpados y cara hinchados',
+          say: 'Y el edema de la cara y los párpados es común a los dos síndromes. Este niño tiene un síndrome nefrótico; en la glomerulonefritis postestreptocócica el edema es más leve y se acompaña de hipertensión.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo de un paciente con orina oscura.',
     },

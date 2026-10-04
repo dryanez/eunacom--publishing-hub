@@ -133,6 +133,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Glaucoma agudo',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg', label: 'Glaucoma agudo', credit: 'Manual AMIR Oftalmología, p. 36' },
+      ],
+      steps: [
+        { note: 'Pupila media fija, córnea turbia',
+          say: 'El glaucoma agudo da ojo rojo, córnea turbia y pupila media fija, con dolor intenso y vómitos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -148,6 +148,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Reanimación neonatal',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-15/01_algoritmo-reanimacion-neonatal__cto-pediatria_p8.jpg', label: 'Algoritmo', credit: 'Manual CTO Pediatría 14.ª ed., p. 8' },
+      ],
+      steps: [
+        { note: 'El minuto de oro',
+          say: 'En el primer minuto: secar, estimular, posicionar y, si no respira, ventilar.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora arma todo el algoritmo en un solo árbol de decisión.',
     },

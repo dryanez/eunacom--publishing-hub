@@ -2,7 +2,7 @@
   "id": "neuro-18",
   "title": "Neurologia 10.18: Esclerosis Múltiple: Criterios de McDonald, Bandas Oligoclonales y Terapia Modificadora de Enfermedad",
   "specialty": "Neurología y Geriatría",
-  "chars": 17055,
+  "chars": 17255,
   "segments": [
     {
       "file": "s00_g00",
@@ -178,115 +178,107 @@
     },
     {
       "file": "s09_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Adulto joven con un déficit neurológico focal que dura más de veinticuatro horas: una neuritis óptica, una mielitis parcial o un síndrome de tronco."
+      "text": "En la resonancia aparecen placas blancas alrededor de los ventrículos, separadas en el espacio y en el tiempo."
     },
     {
       "file": "s09_g01",
-      "text": "Lo primero es preguntarse si hay fiebre, calor o infección, porque eso cambia todo."
-    },
-    {
-      "file": "s09_g02",
-      "text": "Si el empeoramiento se explica por calor o fiebre, es un fenómeno de Uhthoff, no un brote. Se trata la causa y no se dan corticoides."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Si no hay fiebre, es un brote, y se trata con metilprednisolona endovenosa, un gramo al día por tres a cinco días."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Si el brote es grave y no responde en dos semanas, plasmaféresis."
-    },
-    {
-      "file": "s09_g05",
-      "text": "En paralelo se estudia con resonancia con gadolinio y punción lumbar, buscando diseminación en el espacio y en el tiempo, o bandas oligoclonales."
-    },
-    {
-      "file": "s09_g06",
-      "text": "Si cumple McDonald, es esclerosis múltiple: se deriva a neurología por GES para iniciar terapia modificadora."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Si la mielitis ocupa tres o más vértebras o la neuritis es bilateral y grave, sospecha neuromielitis óptica y no indiques interferón ni natalizumab."
+      "text": "Y la neuritis óptica es un debut frecuente: pérdida de visión dolorosa en un adulto joven."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas. Adulto joven con déficits focales distintos, en momentos distintos, que se recuperan: esclerosis múltiple. El error es pensar en un Guillain-Barré, que es periférico y simétrico."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Adulto joven con un déficit neurológico focal que dura más de veinticuatro horas: una neuritis óptica, una mielitis parcial o un síndrome de tronco."
     },
     {
       "file": "s10_g01",
-      "text": "Pérdida visual en horas a días, con dolor al mover el ojo y defecto pupilar aferente: neuritis óptica. Si fuera súbita en un paciente vascular, sería isquémica."
+      "text": "Lo primero es preguntarse si hay fiebre, calor o infección, porque eso cambia todo."
     },
     {
       "file": "s10_g02",
-      "text": "Síntomas que empeoran con el calor: fenómeno de Uhthoff. No es un brote y no lleva corticoides."
+      "text": "Si el empeoramiento se explica por calor o fiebre, es un fenómeno de Uhthoff, no un brote. Se trata la causa y no se dan corticoides."
     },
     {
       "file": "s10_g03",
-      "text": "Primer brote, diseminación en el espacio y bandas oligoclonales positivas: ya es esclerosis múltiple. Esperar un segundo brote es el error."
+      "text": "Si no hay fiebre, es un brote, y se trata con metilprednisolona endovenosa, un gramo al día por tres a cinco días."
     },
     {
       "file": "s10_g04",
-      "text": "Brote agudo: metilprednisolona endovenosa, un gramo al día por tres a cinco días, sin descenso oral."
+      "text": "Si el brote es grave y no responde en dos semanas, plasmaféresis."
     },
     {
       "file": "s10_g05",
-      "text": "Mielitis larga, de tres o más vértebras, con neuritis bilateral: neuromielitis óptica. Indicar interferón o natalizumab la empeora."
+      "text": "En paralelo se estudia con resonancia con gadolinio y punción lumbar, buscando diseminación en el espacio y en el tiempo, o bandas oligoclonales."
     },
     {
       "file": "s10_g06",
-      "text": "Y en el paciente con natalizumab, la complicación que siempre buscas es la leucoencefalopatía multifocal progresiva por virus JC."
+      "text": "Si cumple McDonald, es esclerosis múltiple: se deriva a neurología por GES para iniciar terapia modificadora."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Si la mielitis ocupa tres o más vértebras o la neuritis es bilateral y grave, sospecha neuromielitis óptica y no indiques interferón ni natalizumab."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Mujer de veintiséis años, profesora, con tres días de baja de visión del ojo derecho y dolor que empeora al moverlo; ve los rojos deslavados. Hace un año tuvo parestesias en una pierna que cedieron solas. Tiene defecto pupilar aferente derecho y fondo de ojo normal. La resonancia muestra lesiones periventriculares y una yuxtacortical, y dos captan gadolinio. El líquido tiene cuatro bandas oligoclonales ausentes en el suero."
+      "text": "Repasemos las trampas. Adulto joven con déficits focales distintos, en momentos distintos, que se recuperan: esclerosis múltiple. El error es pensar en un Guillain-Barré, que es periférico y simétrico."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "Pérdida visual en horas a días, con dolor al mover el ojo y defecto pupilar aferente: neuritis óptica. Si fuera súbita en un paciente vascular, sería isquémica."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: prednisona oral con descenso, metilprednisolona endovenosa por tres a cinco días con derivación a neurología, natalizumab de entrada, observar y repetir la resonancia en seis meses, o plasmaféresis inmediata. Piénsalo."
+      "text": "Síntomas que empeoran con el calor: fenómeno de Uhthoff. No es un brote y no lleva corticoides."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Es una neuritis óptica retrobulbar, y la paciente ya cumple McDonald: lesiones en dos zonas, lesiones que captan junto a otras que no, y además bandas positivas. El brote se trata con metilprednisolona endovenosa y se deriva por GES para la terapia modificadora. El distractor tentador es esperar otra resonancia, pero la diseminación en el tiempo ya está demostrada. Y la plasmaféresis es el rescate si el corticoide falla."
+      "text": "Primer brote, diseminación en el espacio y bandas oligoclonales positivas: ya es esclerosis múltiple. Esperar un segundo brote es el error."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Brote agudo: metilprednisolona endovenosa, un gramo al día por tres a cinco días, sin descenso oral."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Mielitis larga, de tres o más vértebras, con neuritis bilateral: neuromielitis óptica. Indicar interferón o natalizumab la empeora."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Y en el paciente con natalizumab, la complicación que siempre buscas es la leucoencefalopatía multifocal progresiva por virus JC."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta años con un mes de neuralgia de la primera rama del trigémino. Hace una semana se agrega disminución de la sensibilidad del muslo derecho, con dificultad para caminar. Hace un año tuvo un trastorno del equilibrio que se resolvió solo."
+      "text": "Vamos con un caso. Mujer de veintiséis años, profesora, con tres días de baja de visión del ojo derecho y dolor que empeora al moverlo; ve los rojos deslavados. Hace un año tuvo parestesias en una pierna que cedieron solas. Tiene defecto pupilar aferente derecho y fondo de ojo normal. La resonancia muestra lesiones periventriculares y una yuxtacortical, y dos captan gadolinio. El líquido tiene cuatro bandas oligoclonales ausentes en el suero."
     },
     {
       "file": "s12_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: polineuropatía por déficit de vitamina B doce, Guillain-Barré atípico, infarto talámico, esclerosis múltiple, o neurinoma que comprime el tronco. Piénsalo."
+      "text": "Las opciones: prednisona oral con descenso, metilprednisolona endovenosa por tres a cinco días con derivación a neurología, natalizumab de entrada, observar y repetir la resonancia en seis meses, o plasmaféresis inmediata. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, esclerosis múltiple. Cuenta los territorios: trigémino, muslo y equilibrio, es decir, lesiones en distintos lugares. Y en distintos momentos, con un episodio que remitió solo. Eso es diseminación en el espacio y en el tiempo. El infarto talámico tienta por la alteración sensitiva, pero no explica un cuadro repartido en el tiempo que se recupera. Y el Guillain-Barré sería simétrico y ascendente."
+      "text": "Es la B. Es una neuritis óptica retrobulbar, y la paciente ya cumple McDonald: lesiones en dos zonas, lesiones que captan junto a otras que no, y además bandas positivas. El brote se trata con metilprednisolona endovenosa y se deriva por GES para la terapia modificadora. El distractor tentador es esperar otra resonancia, pero la diseminación en el tiempo ya está demostrada. Y la plasmaféresis es el rescate si el corticoide falla."
     },
     {
       "file": "s13_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil dieciséis. Paciente de veintiséis años con esclerosis múltiple, con dos días de baja de visión derecha y leve dolor detrás del ojo, que aumenta con los movimientos. Tiene rojo pupilar y motilidad normales, defecto pupilar aferente derecho y un escotoma."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta años con un mes de neuralgia de la primera rama del trigémino. Hace una semana se agrega disminución de la sensibilidad del muslo derecho, con dificultad para caminar. Hace un año tuvo un trastorno del equilibrio que se resolvió solo."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "El diagnóstico más probable es:"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: desprendimiento de retina, trombosis de la vena central, trombosis de la arteria central, neuritis óptica, o absceso orbitario. Piénsalo."
+      "text": "Las opciones: polineuropatía por déficit de vitamina B doce, Guillain-Barré atípico, infarto talámico, esclerosis múltiple, o neurinoma que comprime el tronco. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D, neuritis óptica. Tiene los tres elementos: baja visual que se instala en días, dolor al mover el ojo y defecto pupilar aferente, en una paciente con esclerosis múltiple. Las oclusiones vasculares de la retina son súbitas e indoloras. Y el absceso orbitario tentaría por el dolor, pero daría fiebre, edema palpebral y alteración de la motilidad, que aquí es normal."
+      "text": "Es la D, esclerosis múltiple. Cuenta los territorios: trigémino, muslo y equilibrio, es decir, lesiones en distintos lugares. Y en distintos momentos, con un episodio que remitió solo. Eso es diseminación en el espacio y en el tiempo. El infarto talámico tienta por la alteración sensitiva, pero no explica un cuadro repartido en el tiempo que se recupera. Y el Guillain-Barré sería simétrico y ascendente."
     },
     {
       "file": "s14_g00",
-      "text": "Otra variante, del EUNACOM de diciembre de dos mil diecisiete. Paciente con esclerosis múltiple, con dos días de dolor ocular derecho y visión borrosa. La agudeza visual es casi normal, cero coma nueve, y no cambia con el agujero estenopeico. Pero la visión de colores del ojo derecho está muy afectada."
+      "text": "La siguiente es del EUNACOM de julio de dos mil dieciséis. Paciente de veintiséis años con esclerosis múltiple, con dos días de baja de visión derecha y leve dolor detrás del ojo, que aumenta con los movimientos. Tiene rojo pupilar y motilidad normales, defecto pupilar aferente derecho y un escotoma."
     },
     {
       "file": "s14_g01",
@@ -294,50 +286,66 @@
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: discromatopsia, retinitis pigmentosa, coriorretinitis, desprendimiento de retina, o neuritis óptica. Piénsalo."
+      "text": "Las opciones: desprendimiento de retina, trombosis de la vena central, trombosis de la arteria central, neuritis óptica, o absceso orbitario. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la E, neuritis óptica. Lo que enseña esta pregunta es que la agudeza visual puede estar casi normal, y aun así la visión de colores se pierde precozmente. La trampa es la alternativa discromatopsia: es verdad que la tiene, pero es un signo, no el diagnóstico. La retinitis pigmentosa es crónica y el desprendimiento no duele."
+      "text": "Es la D, neuritis óptica. Tiene los tres elementos: baja visual que se instala en días, dolor al mover el ojo y defecto pupilar aferente, en una paciente con esclerosis múltiple. Las oclusiones vasculares de la retina son súbitas e indoloras. Y el absceso orbitario tentaría por el dolor, pero daría fiebre, edema palpebral y alteración de la motilidad, que aquí es normal."
     },
     {
       "file": "s15_g00",
-      "text": "La última es del EUNACOM de julio de dos mil diecinueve. Paciente de catorce años con dos días de baja de visión del ojo izquierdo, con agudeza de veinte sobre doscientos en ese ojo. Tiene el antecedente de una hemiparesia braquial. En el fondo de ojo hay papilitis izquierda, y la resonancia muestra lesiones desmielinizantes cerebrales."
+      "text": "Otra variante, del EUNACOM de diciembre de dos mil diecisiete. Paciente con esclerosis múltiple, con dos días de dolor ocular derecho y visión borrosa. La agudeza visual es casi normal, cero coma nueve, y no cambia con el agujero estenopeico. Pero la visión de colores del ojo derecho está muy afectada."
     },
     {
       "file": "s15_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: desprendimiento de retina, neuritis óptica, neuropatía óptica isquémica, degeneración macular, o hipertensión endocraneana. Piénsalo."
+      "text": "Las opciones: discromatopsia, retinitis pigmentosa, coriorretinitis, desprendimiento de retina, o neuritis óptica. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la B, neuritis óptica. Esta pregunta rompe una idea fija: el fondo de ojo no siempre es normal. En un tercio de los casos hay edema de papila, y aquí es de un solo ojo. El distractor es la hipertensión endocraneana, pero esa da edema de papila bilateral. Y la neuropatía isquémica sería súbita, en un adulto con factores de riesgo vascular."
+      "text": "Es la E, neuritis óptica. Lo que enseña esta pregunta es que la agudeza visual puede estar casi normal, y aun así la visión de colores se pierde precozmente. La trampa es la alternativa discromatopsia: es verdad que la tiene, pero es un signo, no el diagnóstico. La retinitis pigmentosa es crónica y el desprendimiento no duele."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Mujer joven con déficits focales en distintos lugares y en distintos momentos, que se recuperan: piensa en esclerosis múltiple."
+      "text": "La última es del EUNACOM de julio de dos mil diecinueve. Paciente de catorce años con dos días de baja de visión del ojo izquierdo, con agudeza de veinte sobre doscientos en ese ojo. Tiene el antecedente de una hemiparesia braquial. En el fondo de ojo hay papilitis izquierda, y la resonancia muestra lesiones desmielinizantes cerebrales."
     },
     {
       "file": "s16_g01",
-      "text": "Los debuts clásicos son la neuritis óptica, la mielitis parcial y la oftalmoplejía internuclear, y los signos que se preguntan son el Uhthoff con el calor y el Lhermitte al flectar el cuello."
+      "text": "El diagnóstico más probable es:"
     },
     {
       "file": "s16_g02",
-      "text": "El diagnóstico exige diseminación en el espacio y en el tiempo, y las bandas oligoclonales reemplazan a la diseminación en el tiempo."
+      "text": "Las opciones: desprendimiento de retina, neuritis óptica, neuropatía óptica isquémica, degeneración macular, o hipertensión endocraneana. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la B, neuritis óptica. Esta pregunta rompe una idea fija: el fondo de ojo no siempre es normal. En un tercio de los casos hay edema de papila, y aquí es de un solo ojo. El distractor es la hipertensión endocraneana, pero esa da edema de papila bilateral. Y la neuropatía isquémica sería súbita, en un adulto con factores de riesgo vascular."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Mujer joven con déficits focales en distintos lugares y en distintos momentos, que se recuperan: piensa en esclerosis múltiple."
+    },
+    {
+      "file": "s17_g01",
+      "text": "Los debuts clásicos son la neuritis óptica, la mielitis parcial y la oftalmoplejía internuclear, y los signos que se preguntan son el Uhthoff con el calor y el Lhermitte al flectar el cuello."
+    },
+    {
+      "file": "s17_g02",
+      "text": "El diagnóstico exige diseminación en el espacio y en el tiempo, y las bandas oligoclonales reemplazan a la diseminación en el tiempo."
+    },
+    {
+      "file": "s17_g03",
       "text": "Y siempre descarta la neuromielitis óptica, porque los fármacos de la esclerosis múltiple la empeoran."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "El brote se trata con metilprednisolona endovenosa, un gramo al día por tres a cinco días, y la plasmaféresis es el rescate."
     },
     {
-      "file": "s16_g05",
+      "file": "s17_g05",
       "text": "Y a largo plazo, terapia modificadora por GES, recordando que el natalizumab expone a la leucoencefalopatía por virus JC. Si te llevas una sola idea de hoy: la esclerosis múltiple es inflamación del sistema nervioso central diseminada en el espacio y en el tiempo, y las bandas oligoclonales pueden reemplazar al tiempo. En la próxima clase vemos la parálisis facial. Nos vemos en la próxima clase."
     }
   ]

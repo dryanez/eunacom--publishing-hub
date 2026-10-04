@@ -2,7 +2,7 @@
   "id": "cirugia-03",
   "title": "Cirugia 11.3: Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
   "specialty": "Cirugía General",
-  "chars": 10513,
+  "chars": 10630,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,122 +110,126 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora ordenemos todo en un solo árbol de decisión. Llega un paciente con dolor en la fosa ilíaca izquierda y fiebre. Antes de pensar en endoscopía, pide un TAC de abdomen y pelvis con contraste."
-    },
-    {
-      "file": "s08_g01",
-      "text": "El TAC te dice si hay solo inflamación, un absceso, o una peritonitis ya establecida."
-    },
-    {
-      "file": "s08_g02",
-      "text": "Sin absceso ni peritonitis, el tratamiento es médico: antibióticos, y la gran mayoría resuelve sin cirugía."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Un absceso pequeño puede resolver solo con antibióticos; uno grande necesita drenaje."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Los abscesos pequeños responden bien a antibióticos solos, sin necesidad de intervencionismo."
-    },
-    {
-      "file": "s08_g05",
-      "text": "El drenaje percutáneo controla el foco y permite operar después, de forma electiva y sin colostomía."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Con peritonitis purulenta o fecaloidea generalizada, la cirugía de urgencia ya no se puede posponer."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Una vez resuelto el cuadro, todavía falta descartar lo que puede estar escondido detrás."
-    },
-    {
-      "file": "s08_g08",
-      "text": "La colonoscopía diferida es obligatoria: hasta un cinco por ciento de los cuadros iniciales resultan ser un cáncer de colon."
+      "text": "La tomografía muestra el sigmoides engrosado con inflamación de la grasa. Si hay absceso o aire libre, es complicada."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Ante la sospecha, el examen es el TAC. El error más grave es pedir una colonoscopía para \"confirmar\": eso es justo lo que no se hace en agudo."
+      "text": "Ahora ordenemos todo en un solo árbol de decisión. Llega un paciente con dolor en la fosa ilíaca izquierda y fiebre. Antes de pensar en endoscopía, pide un TAC de abdomen y pelvis con contraste."
     },
     {
       "file": "s09_g01",
-      "text": "Un absceso menor a cuatro centímetros responde solo con antibióticos. Drenar cualquier colección, por chica que sea, es intervencionismo de más."
+      "text": "El TAC te dice si hay solo inflamación, un absceso, o una peritonitis ya establecida."
     },
     {
       "file": "s09_g02",
-      "text": "Con cuatro centímetros o más, el drenaje percutáneo es lo indicado. Operar de urgencia igual, cuando el drenaje pudo evitarlo, te deja con una colostomía innecesaria."
+      "text": "Sin absceso ni peritonitis, el tratamiento es médico: antibióticos, y la gran mayoría resuelve sin cirugía."
     },
     {
       "file": "s09_g03",
-      "text": "Con peritonitis generalizada, la cirugía no espera. Insistir en manejo médico aquí solo empeora la sepsis."
+      "text": "Un absceso pequeño puede resolver solo con antibióticos; uno grande necesita drenaje."
     },
     {
       "file": "s09_g04",
-      "text": "Y al alta, siempre programas la colonoscopía diferida. No estudiar más el colon, pensando que el TAC ya lo dijo todo, deja pasar un cáncer."
+      "text": "Los abscesos pequeños responden bien a antibióticos solos, sin necesidad de intervencionismo."
     },
     {
       "file": "s09_g05",
-      "text": "Y en el inmunosuprimido, el umbral para hospitalizar y para operar es bajo. Confiar en que está bien porque no tiene fiebre es la trampa: puede tener una perforación seria y no mostrar ningún signo inflamatorio clásico."
+      "text": "El drenaje percutáneo controla el foco y permite operar después, de forma electiva y sin colostomía."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Con peritonitis purulenta o fecaloidea generalizada, la cirugía de urgencia ya no se puede posponer."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Una vez resuelto el cuadro, todavía falta descartar lo que puede estar escondido detrás."
+    },
+    {
+      "file": "s09_g08",
+      "text": "La colonoscopía diferida es obligatoria: hasta un cinco por ciento de los cuadros iniciales resultan ser un cáncer de colon."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Mujer de sesenta y ocho años, con tres días de dolor progresivo en la fosa ilíaca izquierda, fiebre de treinta y ocho grados y constipación. Al examen, resistencia muscular localizada en esa zona, sin masa palpable. Catorce mil ochocientos leucocitos."
+      "text": "Repasemos las trampas. Ante la sospecha, el examen es el TAC. El error más grave es pedir una colonoscopía para \"confirmar\": eso es justo lo que no se hace en agudo."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el examen más adecuado para continuar el estudio?"
+      "text": "Un absceso menor a cuatro centímetros responde solo con antibióticos. Drenar cualquier colección, por chica que sea, es intervencionismo de más."
     },
     {
       "file": "s10_g02",
-      "text": "Tienes cinco opciones: colonoscopía para ver el colon directamente, TAC de abdomen y pelvis con contraste, enema baritado, radiografía simple de abdomen, o ecografía transvaginal. Piénsalo."
+      "text": "Con cuatro centímetros o más, el drenaje percutáneo es lo indicado. Operar de urgencia igual, cuando el drenaje pudo evitarlo, te deja con una colostomía innecesaria."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. El cuadro es una diverticulitis aguda clásica, y el examen de elección para confirmarla y etapificarla es el TAC. La colonoscopía y el enema baritado son justamente los que están contraindicados en esta fase: el riesgo de perforar una microperforación ya existente es demasiado alto. La ecografía transvaginal solo tendría sentido si la clínica ginecológica fuera más sugerente, y aquí no lo es."
+      "text": "Con peritonitis generalizada, la cirugía no espera. Insistir en manejo médico aquí solo empeora la sepsis."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y al alta, siempre programas la colonoscopía diferida. No estudiar más el colon, pensando que el TAC ya lo dijo todo, deja pasar un cáncer."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y en el inmunosuprimido, el umbral para hospitalizar y para operar es bajo. Confiar en que está bien porque no tiene fiebre es la trampa: puede tener una perforación seria y no mostrar ningún signo inflamatorio clásico."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Un paciente se hace una colonoscopía para resecar unos pólipos. Algunas horas después, tiene dolor abdominal bajo, con algo de sangre en las deposiciones y malestar general. Al examen, duele la fosa ilíaca izquierda."
+      "text": "Vamos con un caso. Mujer de sesenta y ocho años, con tres días de dolor progresivo en la fosa ilíaca izquierda, fiebre de treinta y ocho grados y constipación. Al examen, resistencia muscular localizada en esa zona, sin masa palpable. Catorce mil ochocientos leucocitos."
     },
     {
       "file": "s11_g01",
-      "text": "¿Qué examen es el más adecuado para proseguir con el estudio en este paciente?"
+      "text": "¿Cuál es el examen más adecuado para continuar el estudio?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: resonancia magnética de abdomen y pelvis, ecografía abdominal y pélvica, colonoscopía, radiografía de abdomen y pelvis, o TAC de abdomen y pelvis. Piénsalo."
+      "text": "Tienes cinco opciones: colonoscopía para ver el colon directamente, TAC de abdomen y pelvis con contraste, enema baritado, radiografía simple de abdomen, o ecografía transvaginal. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E, TAC. Esta pregunta pone a prueba justo la regla de oro del tema: nunca repites la colonoscopía cuando sospechas una diverticulitis aguda, así sea que la sospecha nació de la colonoscopía misma. Volver a insuflar aire ahí es el error más peligroso que puedes cometer."
+      "text": "Es la B. El cuadro es una diverticulitis aguda clásica, y el examen de elección para confirmarla y etapificarla es el TAC. La colonoscopía y el enema baritado son justamente los que están contraindicados en esta fase: el riesgo de perforar una microperforación ya existente es demasiado alto. La ecografía transvaginal solo tendría sentido si la clínica ginecológica fuera más sugerente, y aquí no lo es."
     },
     {
       "file": "s12_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de sesenta y ocho años, con dolor abdominal bajo y fiebre, mayor en el cuadrante inferior izquierdo. Temperatura de treinta y siete coma siete, abdomen doloroso con resistencia muscular marcada en la fosa ilíaca izquierda y ruidos hidroaéreos disminuidos."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil quince. Un paciente se hace una colonoscopía para resecar unos pólipos. Algunas horas después, tiene dolor abdominal bajo, con algo de sangre en las deposiciones y malestar general. Al examen, duele la fosa ilíaca izquierda."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Qué examen es el más adecuado para proseguir con el estudio en este paciente?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: diverticulitis aguda, colitis isquémica, apendicitis aguda, vólvulo de sigmoides, o cáncer de colon complicado. Piénsalo."
+      "text": "Las opciones son: resonancia magnética de abdomen y pelvis, ecografía abdominal y pélvica, colonoscopía, radiografía de abdomen y pelvis, o TAC de abdomen y pelvis. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A. La localización en la fosa ilíaca izquierda ya casi cierra el diagnóstico: es exactamente lo que llamamos la apendicitis izquierda. La colitis isquémica suele doler más difuso y en pacientes con enfermedad vascular; el vólvulo da distensión masiva, no este dolor focal con resistencia; y el cáncer de colon complicado no suele debutar con fiebre tan marcada desde el inicio."
+      "text": "Es la E, TAC. Esta pregunta pone a prueba justo la regla de oro del tema: nunca repites la colonoscopía cuando sospechas una diverticulitis aguda, así sea que la sospecha nació de la colonoscopía misma. Volver a insuflar aire ahí es el error más peligroso que puedes cometer."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Ante la sospecha, siempre TAC con contraste, y ahí etapificas con Hinchey."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de sesenta y ocho años, con dolor abdominal bajo y fiebre, mayor en el cuadrante inferior izquierdo. Temperatura de treinta y siete coma siete, abdomen doloroso con resistencia muscular marcada en la fosa ilíaca izquierda y ruidos hidroaéreos disminuidos."
     },
     {
       "file": "s13_g01",
-      "text": "Sin absceso, antibióticos y nada más. Con absceso de cuatro centímetros o más, drenaje percutáneo. Y con peritonitis generalizada, Hartmann de urgencia."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
+      "text": "Las opciones son: diverticulitis aguda, colitis isquémica, apendicitis aguda, vólvulo de sigmoides, o cáncer de colon complicado. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la A. La localización en la fosa ilíaca izquierda ya casi cierra el diagnóstico: es exactamente lo que llamamos la apendicitis izquierda. La colitis isquémica suele doler más difuso y en pacientes con enfermedad vascular; el vólvulo da distensión masiva, no este dolor focal con resistencia; y el cáncer de colon complicado no suele debutar con fiebre tan marcada desde el inicio."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Ante la sospecha, siempre TAC con contraste, y ahí etapificas con Hinchey."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Sin absceso, antibióticos y nada más. Con absceso de cuatro centímetros o más, drenaje percutáneo. Y con peritonitis generalizada, Hartmann de urgencia."
+    },
+    {
+      "file": "s14_g02",
       "text": "Y la colonoscopía: nunca en la fase aguda, y siempre a las seis u ocho semanas después. Si te llevas una sola idea de hoy: en diverticulitis, el TAC diagnostica y el tiempo decide cuándo mirar adentro con el endoscopio. Nos vemos en la próxima clase."
     }
   ]

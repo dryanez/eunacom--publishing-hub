@@ -138,6 +138,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Retinopatía diabética',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Retinopatía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
+        { src: 'biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg', label: 'Hemorragia', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' },
+      ],
+      steps: [
+        { note: 'Hemorragias, exudados y neovasos',
+          say: 'En el fondo de ojo diabético aparecen microaneurismas, hemorragias y exudados duros. Cuando aparecen neovasos, la retinopatía es proliferativa y requiere láser.' },
+        { note: 'Sangrado de los neovasos',
+          say: 'Y los neovasos sangran: esta hemorragia puede dejar al paciente ciego de un día para otro.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde el tamizaje hasta el tratamiento.',
     },

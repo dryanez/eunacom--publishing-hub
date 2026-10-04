@@ -149,6 +149,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Aborto en la ecografía',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg', label: 'Aborto', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 123' },
+      ],
+      steps: [
+        { note: 'Gestación detenida',
+          say: 'La ecografía diferencia el aborto en evolución, el incompleto y la gestación detenida.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las cinco formas clínicas en un solo árbol de decisión.',
     },

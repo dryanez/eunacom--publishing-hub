@@ -127,6 +127,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Curva ROC',
+      images: [
+        { src: 'biblioteca/16_salud_publica/sp-08/S1_curva-roc__propio.svg', label: 'Curva ROC', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Área bajo la curva',
+          say: 'La curva ROC grafica sensibilidad contra uno menos especificidad. Más cerca de la esquina superior izquierda, mejor el examen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
     },

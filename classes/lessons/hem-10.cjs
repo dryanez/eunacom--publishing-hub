@@ -175,6 +175,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Microangiopatía trombótica',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
+      ],
+      steps: [
+        { note: 'Glóbulos rojos fragmentados',
+          say: 'Los esquistocitos son glóbulos rojos rotos al pasar por vasos llenos de microtrombos. Con plaquetas bajas, es una emergencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de urgencia frente a una sospecha de microangiopatía.',
     },

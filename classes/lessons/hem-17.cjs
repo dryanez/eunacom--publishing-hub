@@ -178,6 +178,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Leucemias crónicas',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-17/01_frotis_llc__harrison_p875.jpg', label: 'LLC', credit: 'Harrison 21.ª ed., Fig. 107-1' },
+        { src: 'biblioteca/06_hematologia/hem-17/01_lmc-leucocitosis-con-desviacion-izquierd__cto-hemato_p53.jpg', label: 'LMC', credit: 'Manual CTO Hematología 14.ª ed., p. 53' },
+      ],
+      steps: [
+        { note: 'Linfocitos pequeños y sombras de Gumprecht',
+          say: 'En la linfática crónica hay muchos linfocitos pequeños y sombras de Gumprecht, linfocitos rotos al hacer el frotis.' },
+        { note: 'Leucocitosis con todas las formas',
+          say: 'En la mieloide crónica hay leucocitosis con todas las formas de la serie mieloide.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del hemograma de rutina que te sorprende.',
     },

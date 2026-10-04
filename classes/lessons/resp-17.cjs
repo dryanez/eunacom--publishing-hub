@@ -154,6 +154,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Cáncer pulmonar',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-17/03_rx_tumor_apical_derecho__cxr_p152.jpg', label: 'Tumor apical', credit: 'The Chest X-Ray: A Survival Guide, Fig. 10.7' },
+        { src: 'biblioteca/02_neumologia/resp-17/02_sindrome_horner__kanski_p821.jpg', label: 'Síndrome de Horner', credit: 'Kanski 8.ª ed., Fig. 19.35A' },
+        { src: 'biblioteca/02_neumologia/resp-17/01_masa-pulmonar-tc__cto-neumo_p139.jpg', label: 'Masa en la TC', credit: 'Manual CTO Neumología 14.ª ed., p. 139' },
+        { src: 'biblioteca/02_neumologia/resp-17/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', credit: 'Manual AMIR Reumatología, p. 113' },
+      ],
+      steps: [
+        { note: 'Oculto detrás de las costillas',
+          say: 'Las flechas muestran una masa en el vértice derecho, escondida detrás de las costillas. Un tumor en el vértice puede invadir el plexo braquial y la cadena simpática: es el tumor de Pancoast.' },
+        { note: 'Ptosis y miosis del mismo lado',
+          say: 'Y este es el síndrome de Horner que produce: párpado caído y pupila pequeña en el mismo lado del tumor.' },
+        { note: 'La tomografía estadifica',
+          say: 'La tomografía muestra la masa y los ganglios del mediastino. Pero el tratamiento lo decide la biopsia: microcítico o no microcítico.' },
+        { note: 'Dedos en palillo de tambor',
+          say: 'Y estos son dedos en palillo de tambor, con uñas en vidrio de reloj. En un fumador, obligan a buscar un cáncer pulmonar.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
     },

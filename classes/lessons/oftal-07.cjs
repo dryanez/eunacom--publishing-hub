@@ -88,6 +88,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Glaucoma crónico',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg', label: 'Papila glaucomatosa', credit: 'Manual AMIR Oftalmología, p. 34' },
+        { src: 'biblioteca/12_oftalmologia/oftal-07/02_campimetria-papila-en-gcs__cto-oftalmo_p52.jpg', label: 'Campimetría', credit: 'Manual CTO Oftalmología 14.ª ed., p. 52' },
+      ],
+      steps: [
+        { note: 'Excavación aumentada',
+          say: 'La papila glaucomatosa tiene una excavación grande.' },
+        { note: 'Pérdida de campo periférico',
+          say: 'Y el campo visual se pierde desde la periferia, sin que el paciente lo note.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -171,6 +171,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Hantavirus en la radiografía',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg', label: 'Inicio', credit: 'Guía Clínica Hantavirus MINSAL 2009, Fig. 7' },
+        { src: 'biblioteca/07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg', label: 'Fase cardiopulmonar', credit: 'Guía Clínica Hantavirus MINSAL 2009 (Rev Chil Infect 26:68), Fig. 11' },
+      ],
+      steps: [
+        { note: 'Edema intersticial bilateral',
+          say: 'Al inicio de la fase cardiopulmonar aparece un edema intersticial bilateral.' },
+        { note: 'Edema con corazón normal',
+          say: 'Y en horas progresa a edema pulmonar extenso, con un corazón normal: es un edema no cardiogénico. Por eso se restringen los fluidos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos la sospecha y el manejo en un solo árbol de decisión.',
     },

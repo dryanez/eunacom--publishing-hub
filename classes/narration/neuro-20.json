@@ -2,7 +2,7 @@
   "id": "neuro-20",
   "title": "Neurologia 10.20: Síndrome Vertiginoso Periférico vs Central: VPPB, Maniobras de Epley y Protocolo HINTS",
   "specialty": "Neurología y Geriatría",
-  "chars": 12044,
+  "chars": 12313,
   "segments": [
     {
       "file": "s00_g00",
@@ -126,79 +126,71 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con vértigo verdadero, una sensación ilusoria de giro. La primera pregunta es cómo se comporta en el tiempo."
+      "text": "La maniobra de Dix Hallpike: se gira la cabeza cuarenta y cinco grados y se acuesta al paciente con la cabeza colgando. Si aparece vértigo y nistagmo, es un vértigo posicional."
     },
     {
       "file": "s06_g01",
-      "text": "¿Son crisis de segundos, gatilladas por la posición de la cabeza?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si son segundos con la posición, es un VPPB: Dix-Hallpike para confirmar y Epley para curar, sin imágenes ni fármacos."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si son crisis de horas con hipoacusia y tinnitus, piensa en Menière: audiometría, restricción de sal, diurético y betahistina."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si el vértigo es continuo, es un síndrome vestibular agudo, y haces el HINTS."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si todo es periférico, con impulso anormal, nistagmo unidireccional y sin skew, es una neuronitis vestibular: sedantes solo por cuarenta y ocho a setenta y dos horas."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si hay un solo signo central, activas el código ACV, hospitalizas en la unidad de ataque cerebrovascular y pides una angio resonancia urgente."
+      "text": "Y la maniobra de Epley lo trata: una secuencia de giros que devuelve los otolitos a su lugar."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Vértigo de segundos al girar en la cama: VPPB, se confirma con Dix-Hallpike y se trata con Epley. El error es la betahistina o la TAC."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con vértigo verdadero, una sensación ilusoria de giro. La primera pregunta es cómo se comporta en el tiempo."
     },
     {
       "file": "s07_g01",
-      "text": "Vértigo continuo de días, sin síntomas auditivos: neuronitis vestibular."
+      "text": "¿Son crisis de segundos, gatilladas por la posición de la cabeza?"
     },
     {
       "file": "s07_g02",
-      "text": "Crisis de horas con hipoacusia fluctuante y tinnitus: Menière."
+      "text": "Si son segundos con la posición, es un VPPB: Dix-Hallpike para confirmar y Epley para curar, sin imágenes ni fármacos."
     },
     {
       "file": "s07_g03",
-      "text": "En la neuronitis, sedantes vestibulares solo por cuarenta y ocho a setenta y dos horas. Mantenerlos retrasa la compensación."
+      "text": "Si son crisis de horas con hipoacusia y tinnitus, piensa en Menière: audiometría, restricción de sal, diurético y betahistina."
     },
     {
       "file": "s07_g04",
-      "text": "Vértigo continuo con impulso cefálico normal: sospecha un ACV. Es la paradoja: el test normal es el preocupante."
+      "text": "Si el vértigo es continuo, es un síndrome vestibular agudo, y haces el HINTS."
     },
     {
       "file": "s07_g05",
-      "text": "Nistagmo vertical o que cambia de dirección: central, y se activa el código ACV."
+      "text": "Si todo es periférico, con impulso anormal, nistagmo unidireccional y sin skew, es una neuronitis vestibular: sedantes solo por cuarenta y ocho a setenta y dos horas."
     },
     {
       "file": "s07_g06",
-      "text": "Y una TAC normal no descarta un infarto de fosa posterior. Si el HINTS es central, el paciente no se va a la casa."
+      "text": "Si hay un solo signo central, activas el código ACV, hospitalizas en la unidad de ataque cerebrovascular y pides una angio resonancia urgente."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de sesenta y ocho años, hipertenso y diabético, con diez horas de vértigo continuo, vómitos e inestabilidad; no puede estar de pie sin apoyo. No tiene hipoacusia. El impulso cefálico no muestra sacada correctiva, y el nistagmo bate a la derecha al mirar a la derecha y a la izquierda al mirar a la izquierda. La TAC sin contraste es normal."
+      "text": "Repasemos las trampas. Vértigo de segundos al girar en la cama: VPPB, se confirma con Dix-Hallpike y se trata con Epley. El error es la betahistina o la TAC."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Vértigo continuo de días, sin síntomas auditivos: neuronitis vestibular."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: dimenhidrinato y alta porque la TAC es normal, maniobra de Epley, activar el código ACV con hospitalización y angio resonancia, betahistina con restricción de sal, o sedantes por tres semanas. Piénsalo."
+      "text": "Crisis de horas con hipoacusia fluctuante y tinnitus: Menière."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C. Parece una neuronitis, pero el HINTS es central: el impulso cefálico es normal, y eso es la paradoja; el nistagmo cambia de dirección; y el paciente no puede pararse. El distractor tentador es la A, apoyada en la TAC normal, pero la TAC no ve bien la fosa posterior. Este paciente tiene un infarto de cerebelo o tronco hasta demostrar lo contrario."
+      "text": "En la neuronitis, sedantes vestibulares solo por cuarenta y ocho a setenta y dos horas. Mantenerlos retrasa la compensación."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Vértigo continuo con impulso cefálico normal: sospecha un ACV. Es la paradoja: el test normal es el preocupante."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Nistagmo vertical o que cambia de dirección: central, y se activa el código ACV."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Y una TAC normal no descarta un infarto de fosa posterior. Si el HINTS es central, el paciente no se va a la casa."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil veintidós. Paciente de treinta y cinco años que hace un mes se golpeó la cabeza en una caída. Desde entonces tiene episodios de vértigo intenso, de segundos, con algunos movimientos de la cabeza. Sin síntomas auditivos, con examen neurológico normal, y los síntomas se reproducen con el Dix-Hallpike."
+      "text": "Vamos con un caso. Hombre de sesenta y ocho años, hipertenso y diabético, con diez horas de vértigo continuo, vómitos e inestabilidad; no puede estar de pie sin apoyo. No tiene hipoacusia. El impulso cefálico no muestra sacada correctiva, y el nistagmo bate a la derecha al mirar a la derecha y a la izquierda al mirar a la izquierda. La TAC sin contraste es normal."
     },
     {
       "file": "s09_g01",
@@ -206,62 +198,78 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: difenidol por siete días, betahistina por un mes, prueba calórica, resonancia de tronco y cerebro, o maniobras de reposición vestibular. Piénsalo."
+      "text": "Las opciones: dimenhidrinato y alta porque la TAC es normal, maniobra de Epley, activar el código ACV con hospitalización y angio resonancia, betahistina con restricción de sal, o sedantes por tres semanas. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la E, maniobras de reposición. Segundos, gatillado por la posición, sin síntomas auditivos, y Dix-Hallpike positivo: es un VPPB. El golpe en la cabeza puede soltar los cristales. La resonancia tienta por el antecedente de trauma, pero el examen neurológico es normal y en el VPPB no se piden imágenes. Y ni el difenidol ni la betahistina mueven cristales."
+      "text": "Es la C. Parece una neuronitis, pero el HINTS es central: el impulso cefálico es normal, y eso es la paradoja; el nistagmo cambia de dirección; y el paciente no puede pararse. El distractor tentador es la A, apoyada en la TAC normal, pero la TAC no ve bien la fosa posterior. Este paciente tiene un infarto de cerebelo o tronco hasta demostrar lo contrario."
     },
     {
       "file": "s10_g00",
-      "text": "La siguiente es del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y tres años con cinco días de vértigo intenso y vómitos, que le limitan sus actividades. No tiene síntomas auditivos."
+      "text": "Ahora preguntas reales. Esta es del EUNACOM de diciembre de dos mil veintidós. Paciente de treinta y cinco años que hace un mes se golpeó la cabeza en una caída. Desde entonces tiene episodios de vértigo intenso, de segundos, con algunos movimientos de la cabeza. Sin síntomas auditivos, con examen neurológico normal, y los síntomas se reproducen con el Dix-Hallpike."
     },
     {
       "file": "s10_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: parálisis cocleovestibular, vértigo postural, hídrops endolinfático, neuronitis vestibular, o neurinoma del acústico. Piénsalo."
+      "text": "Las opciones: difenidol por siete días, betahistina por un mes, prueba calórica, resonancia de tronco y cerebro, o maniobras de reposición vestibular. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D, neuronitis vestibular. Usa la duración: días de vértigo continuo. Y usa la audición: sin síntomas auditivos. El hídrops endolinfático, que es la enfermedad de Menière, tienta porque también da vértigo intenso, pero dura horas y trae hipoacusia y tinnitus. El vértigo postural dura segundos."
+      "text": "Es la E, maniobras de reposición. Segundos, gatillado por la posición, sin síntomas auditivos, y Dix-Hallpike positivo: es un VPPB. El golpe en la cabeza puede soltar los cristales. La resonancia tienta por el antecedente de trauma, pero el examen neurológico es normal y en el VPPB no se piden imágenes. Y ni el difenidol ni la betahistina mueven cristales."
     },
     {
       "file": "s11_g00",
-      "text": "La última es del EUNACOM de julio de dos mil veinticinco. Paciente de cincuenta años con episodios de vértigo rotatorio, tinnitus fluctuante de un lado e hipoacusia neurosensorial del mismo lado. Los síntomas duran horas."
+      "text": "La siguiente es del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta y tres años con cinco días de vértigo intenso y vómitos, que le limitan sus actividades. No tiene síntomas auditivos."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "El diagnóstico más probable es:"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: enfermedad de Menière, VPPB, neuritis vestibular, ACV de fosa posterior, o schwannoma vestibular. Piénsalo."
+      "text": "Las opciones: parálisis cocleovestibular, vértigo postural, hídrops endolinfático, neuronitis vestibular, o neurinoma del acústico. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, enfermedad de Menière. Episodios de horas, con hipoacusia y tinnitus fluctuantes del mismo lado. El schwannoma vestibular tienta por la hipoacusia y el tinnitus unilaterales, pero es progresivo, no da crisis de vértigo de horas que van y vienen. Fíjate cómo en las tres preguntas la duración ordenó el diagnóstico: segundos, días y horas."
+      "text": "Es la D, neuronitis vestibular. Usa la duración: días de vértigo continuo. Y usa la audición: sin síntomas auditivos. El hídrops endolinfático, que es la enfermedad de Menière, tienta porque también da vértigo intenso, pero dura horas y trae hipoacusia y tinnitus. El vértigo postural dura segundos."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Segundos y gatillado por la posición: VPPB, que se confirma con Dix-Hallpike y se cura con Epley, sin fármacos ni imágenes."
+      "text": "La última es del EUNACOM de julio de dos mil veinticinco. Paciente de cincuenta años con episodios de vértigo rotatorio, tinnitus fluctuante de un lado e hipoacusia neurosensorial del mismo lado. Los síntomas duran horas."
     },
     {
       "file": "s12_g01",
-      "text": "Días de vértigo continuo sin síntomas auditivos: neuronitis vestibular, con sedantes solo por cuarenta y ocho a setenta y dos horas."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Horas, con hipoacusia fluctuante y tinnitus: Menière, con poca sal, diurético y betahistina."
+      "text": "Las opciones: enfermedad de Menière, VPPB, neuritis vestibular, ACV de fosa posterior, o schwannoma vestibular. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la A, enfermedad de Menière. Episodios de horas, con hipoacusia y tinnitus fluctuantes del mismo lado. El schwannoma vestibular tienta por la hipoacusia y el tinnitus unilaterales, pero es progresivo, no da crisis de vértigo de horas que van y vienen. Fíjate cómo en las tres preguntas la duración ordenó el diagnóstico: segundos, días y horas."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Segundos y gatillado por la posición: VPPB, que se confirma con Dix-Hallpike y se cura con Epley, sin fármacos ni imágenes."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Días de vértigo continuo sin síntomas auditivos: neuronitis vestibular, con sedantes solo por cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Horas, con hipoacusia fluctuante y tinnitus: Menière, con poca sal, diurético y betahistina."
+    },
+    {
+      "file": "s13_g03",
       "text": "En el vértigo continuo, busca el ACV con el HINTS: impulso cefálico normal, nistagmo que cambia de dirección o skew presente. Basta uno, o un paciente que no puede estar de pie, para activar el código ACV."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y recuerda que la TAC normal no descarta un infarto de fosa posterior. Si te llevas una sola idea de hoy: en el vértigo, la duración te dice qué periférico es, y el HINTS te dice si en realidad es un ACV. En la próxima clase vemos el delirium. Nos vemos en la próxima clase."
     }
   ]

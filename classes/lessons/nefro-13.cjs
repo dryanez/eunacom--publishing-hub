@@ -205,6 +205,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'El edema del síndrome nefrótico',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg', label: 'Edema con fóvea', credit: 'Bates 12.ª ed., Fig. 12-25' },
+      ],
+      steps: [
+        { note: 'La huella queda marcada',
+          say: 'Este es un edema con fóvea: al presionar, la huella queda marcada. En el nefrótico el edema parte en los párpados en la mañana y baja a las piernas durante el día.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión, tal como lo vas a razonar frente a un adulto con edema y orina espumosa.',
     },

@@ -116,6 +116,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Hitos del desarrollo',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-02/S1_hitos-dsm__propio.svg', label: 'Hitos', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Edad habitual y límite',
+          say: 'Cada hito tiene una edad habitual y una edad límite. Si se pasa el límite, se estudia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión, tal como se razona en el examen.',
     },

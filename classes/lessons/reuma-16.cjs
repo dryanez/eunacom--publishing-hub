@@ -165,6 +165,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Sacroilitis',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroilitis', credit: 'Manual AMIR Reumatología, p. 79' },
+      ],
+      steps: [
+        { note: 'Bordes borrosos y esclerosis',
+          say: 'En la radiografía, las sacroilíacas pierden su borde nítido y se esclerosan. Es el sello de las espondiloartritis.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

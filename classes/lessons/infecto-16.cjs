@@ -217,6 +217,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Malaria y dengue',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg', label: 'Anillos de falciparum', credit: 'CDC DPDx, dominio público' },
+        { src: 'biblioteca/07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg', label: 'Gametocitos', credit: 'CDC (Commons "Plasmodium falciparum 01"), dominio público' },
+        { src: 'biblioteca/07_infectologia/infecto-16/01_exantema-del-dengue__cto-infecto_p134.jpg', label: 'Exantema del dengue', credit: 'Manual CTO Infecciosas 14.ª ed., p. 134' },
+      ],
+      steps: [
+        { note: 'Varios parásitos por glóbulo',
+          say: 'En la gota gruesa de la malaria por falciparum aparecen anillos dentro de los glóbulos rojos.' },
+        { note: 'Forma de banana',
+          say: 'Y los gametocitos en forma de banana son exclusivos de falciparum, la especie grave.' },
+        { note: 'Islas blancas en mar rojo',
+          say: 'Y el exantema del dengue: islas de piel blanca en un mar rojo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las tres enfermedades en un solo árbol, partiendo del viajero que llega con fiebre.',
     },

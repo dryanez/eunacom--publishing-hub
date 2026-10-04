@@ -114,6 +114,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Hernia hiatal y compartimentos del mediastino',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-06/01_hernia-de-hiato-paraesofagica-rx__cto-digestivo_p35.jpg', label: 'Hernia paraesofágica', credit: 'Manual CTO Digestivo 14.ª ed., p. 35' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-06/S1_mediastino-compartimentos__propio.svg', label: 'Compartimentos', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Estómago detrás del corazón',
+          say: 'En esta radiografía hay una imagen redonda con aire detrás de la silueta cardíaca: es el estómago subido al tórax, una hernia paraesofágica.' },
+        { note: 'Anterior, medio y posterior',
+          say: 'Y este esquema divide el mediastino en sus tres compartimentos. Cada uno tiene sus propias masas, y esa ubicación orienta el diagnóstico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora todo en un árbol: la pregunta es siempre si esto se observa o se opera.',
     },

@@ -2,7 +2,7 @@
   "id": "reuma-10",
   "title": "Reumatologia 9.10: Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
   "specialty": "Reumatología",
-  "chars": 8789,
+  "chars": 8960,
   "segments": [
     {
       "file": "s00_g00",
@@ -118,74 +118,82 @@
     },
     {
       "file": "s08_g00",
-      "text": "Caso clínico. Paciente hipertenso de sesenta y ocho años que toma hidralazina y consulta por fiebre, artralgias y pleuropericarditis, con orina y creatinina normales, anticuerpos anti-histona positivos y anti-ADN negativo."
+      "text": "El lupus discoide deja placas con cicatriz y, en el cuero cabelludo, alopecia cicatricial."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico más probable y cuál es la conducta médica de elección inmediata?"
-    },
-    {
-      "file": "s08_g02",
-      "text": "Las alternativas: lupus inducido por drogas y suspender la hidralazina, lupus sistémico con ciclofosfamida, endocarditis bacteriana, artritis reumatoide, o pericarditis tuberculosa. Piénsalo."
-    },
-    {
-      "file": "s08_g03",
-      "text": "La respuesta correcta es la A. Es el cuadro clásico de lupus inducido por hidralazina, confirmado por anti-histona positivos, complemento normal y respeto renal absoluto. La conducta es suspender de inmediato el medicamento causante."
+      "text": "Y el subagudo da lesiones anulares en zonas expuestas al sol, asociado a anti Ro."
     },
     {
       "file": "s09_g00",
-      "text": "Pregunta real del EUNACOM dos mil dieciocho, pregunta treinta y nueve. Paciente en hidralazina que consulta por artralgias y pleuritis con anticuerpos anti-histona positivos y función renal normal."
+      "text": "Caso clínico. Paciente hipertenso de sesenta y ocho años que toma hidralazina y consulta por fiebre, artralgias y pleuropericarditis, con orina y creatinina normales, anticuerpos anti-histona positivos y anti-ADN negativo."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta terapéutica inicial más apropiada?"
+      "text": "¿Cuál es el diagnóstico más probable y cuál es la conducta médica de elección inmediata?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: pulsos de ciclofosfamida mensual, suspender de inmediato la hidralazina, prednisona alta dos años, biopsia renal urgente, o metotrexato subcutáneo. Piénsalo."
+      "text": "Las alternativas: lupus inducido por drogas y suspender la hidralazina, lupus sistémico con ciclofosfamida, endocarditis bacteriana, artritis reumatoide, o pericarditis tuberculosa. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta correcta es la B. El lupus farmacológico cura al retirar el agente causal. Suspender la hidralazina permite que la inflamación remita y los anticuerpos desaparezcan progresivamente sin necesidad de fármacos tóxicos."
+      "text": "La respuesta correcta es la A. Es el cuadro clásico de lupus inducido por hidralazina, confirmado por anti-histona positivos, complemento normal y respeto renal absoluto. La conducta es suspender de inmediato el medicamento causante."
     },
     {
       "file": "s10_g00",
-      "text": "Pregunta del EUNACOM dos mil veintiuno, pregunta catorce. Paciente embarazada de dieciocho semanas con lupus cutáneo subagudo y anticuerpos anti-Ro y anti-La fuertemente positivos."
+      "text": "Pregunta real del EUNACOM dos mil dieciocho, pregunta treinta y nueve. Paciente en hidralazina que consulta por artralgias y pleuritis con anticuerpos anti-histona positivos y función renal normal."
     },
     {
       "file": "s10_g01",
-      "text": "¿Qué complicación fetal congénita irreversible debe monitorizarse estrictamente mediante ecocardiografía fetal seriada?"
+      "text": "¿Cuál es la conducta terapéutica inicial más apropiada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: tetralogía de Fallot, bloqueo auriculoventricular congénito completo, agenesia renal, coartación aórtica, o transposición de grandes vasos. Piénsalo."
+      "text": "Las opciones: pulsos de ciclofosfamida mensual, suspender de inmediato la hidralazina, prednisona alta dos años, biopsia renal urgente, o metotrexato subcutáneo. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la B. Los anticuerpos anti-Ro de la madre dañan el tejido de conducción cardíaco del feto entre las semanas dieciséis y veinticuatro de gestación, produciendo bloqueo auriculoventricular completo irreversible."
+      "text": "La respuesta correcta es la B. El lupus farmacológico cura al retirar el agente causal. Suspender la hidralazina permite que la inflamación remita y los anticuerpos desaparezcan progresivamente sin necesidad de fármacos tóxicos."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las tres reglas de oro. Primero: el lupus discoide crónico destruye los folículos pilosos produciendo alopecia cicatricial irreversible, con ANA negativos en la gran mayoría y sin daño visceral."
+      "text": "Pregunta del EUNACOM dos mil veintiuno, pregunta catorce. Paciente embarazada de dieciocho semanas con lupus cutáneo subagudo y anticuerpos anti-Ro y anti-La fuertemente positivos."
     },
     {
       "file": "s11_g01",
-      "text": "Requiere fotoprotección estricta y corticoides tópicos o intralesionales potentes, recurriendo a hidroxicloroquina oral en formas extensas."
+      "text": "¿Qué complicación fetal congénita irreversible debe monitorizarse estrictamente mediante ecocardiografía fetal seriada?"
     },
     {
       "file": "s11_g02",
-      "text": "Segundo: el lupus cutáneo subagudo se manifiesta por lesiones anulares fotosensibles que no dejan cicatriz y se asocian en más del ochenta por ciento a anticuerpos anti-Ro."
+      "text": "Las opciones: tetralogía de Fallot, bloqueo auriculoventricular congénito completo, agenesia renal, coartación aórtica, o transposición de grandes vasos. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "La respuesta correcta es la B. Los anticuerpos anti-Ro de la madre dañan el tejido de conducción cardíaco del feto entre las semanas dieciséis y veinticuatro de gestación, produciendo bloqueo auriculoventricular completo irreversible."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las tres reglas de oro. Primero: el lupus discoide crónico destruye los folículos pilosos produciendo alopecia cicatricial irreversible, con ANA negativos en la gran mayoría y sin daño visceral."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Requiere fotoprotección estricta y corticoides tópicos o intralesionales potentes, recurriendo a hidroxicloroquina oral en formas extensas."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Segundo: el lupus cutáneo subagudo se manifiesta por lesiones anulares fotosensibles que no dejan cicatriz y se asocian en más del ochenta por ciento a anticuerpos anti-Ro."
+    },
+    {
+      "file": "s12_g03",
       "text": "En embarazadas con anti-Ro positivo es mandatorio el seguimiento ecocardiográfico fetal estricto por riesgo de bloqueo auriculoventricular completo irreversible."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Tercero: el lupus farmacológico presenta anticuerpos anti-histona en más del noventa y cinco por ciento de los casos y se caracteriza por el respeto absoluto de riñón y sistema nervioso central."
     },
     {
-      "file": "s11_g05",
+      "file": "s12_g05",
       "text": "La conducta de elección es retirar el fármaco causante. Si te llevas una sola idea de hoy: el discoide deja cicatriz y calvicie, el subagudo porta anti-Ro y amenaza el corazón del feto, y el farmacológico tiene anti-histonas y perdona el riñón. Nos vemos en la próxima clase."
     }
   ]

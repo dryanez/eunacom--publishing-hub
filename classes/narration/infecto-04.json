@@ -2,7 +2,7 @@
   "id": "infecto-04",
   "title": "Infectologia 1.4: Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
   "specialty": "Infectología",
-  "chars": 12203,
+  "chars": 12444,
   "segments": [
     {
       "file": "s00_g00",
@@ -118,87 +118,79 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en un árbol de decisión: una infección de partes blandas y qué mirar para saber si es simple, necrotizante o una amenaza para la vía aérea. Paciente con una infección de partes blandas. Lo primero es decidir si es una infección simple o una emergencia quirúrgica."
+      "text": "Esta es una fascitis necrotizante. La clave clínica es el dolor desproporcionado a lo que se ve en la piel. El tratamiento es cirugía urgente."
     },
     {
       "file": "s06_g01",
-      "text": "Si la infección está en el cuello, pregúntate si compromete el piso de la boca a ambos lados, con estridor o lengua protruida."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si es así, es una angina de Ludwig, y lo primero es asegurar la vía aérea con fibra óptica o traqueostomía."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con la vía aérea segura, siguen el aseo quirúrgico urgente y los antibióticos endovenosos."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si no, busca los signos duros: dolor desproporcionado, flictenas, crepitación, anestesia focal o shock."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si hay alguno, es una fascitis necrotizante: pabellón inmediato para desbridamiento, sin esperar imágenes, y en paralelo reanimación con meropenem, vancomicina y clindamicina."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si no hay ninguno, es una celulitis simple: cefazolina o cloxacilina endovenosa. Marcas el borde del eritema y reevalúas a las doce o veinticuatro horas; si avanza o aparece un signo duro, vuelves a pensar en fascitis."
+      "text": "Y la angina de Ludwig: el piso de la boca y el cuello se hinchan. El riesgo es perder la vía aérea."
     },
     {
       "file": "s07_g00",
-      "text": "Comparemos, porque el examen pone la celulitis como alternativa de la fascitis. En la celulitis el dolor es proporcional a lo que ves. En la fascitis es severo y desproporcionado al examen."
+      "text": "Juntemos todo en un árbol de decisión: una infección de partes blandas y qué mirar para saber si es simple, necrotizante o una amenaza para la vía aérea. Paciente con una infección de partes blandas. Lo primero es decidir si es una infección simple o una emergencia quirúrgica."
     },
     {
       "file": "s07_g01",
-      "text": "En lo local, la celulitis tiene calor, rubor y edema. La fascitis tiene los signos duros: flictenas hemorrágicas, crepitación y anestesia focal."
+      "text": "Si la infección está en el cuello, pregúntate si compromete el piso de la boca a ambos lados, con estridor o lengua protruida."
     },
     {
       "file": "s07_g02",
-      "text": "La celulitis da fiebre moderada con el paciente estable. La fascitis da shock séptico, lactato elevado y falla multiorgánica. Un paciente hipotenso con una lesión de piel ya no es una celulitis."
+      "text": "Si es así, es una angina de Ludwig, y lo primero es asegurar la vía aérea con fibra óptica o traqueostomía."
     },
     {
       "file": "s07_g03",
-      "text": "En los antibióticos, cefazolina o cloxacilina para la celulitis, y el esquema de tres fármacos con clindamicina para la fascitis."
+      "text": "Con la vía aérea segura, siguen el aseo quirúrgico urgente y los antibióticos endovenosos."
     },
     {
       "file": "s07_g04",
-      "text": "Y la conducta: la celulitis se trata con antibióticos en sala y se reevalúa el borde. La fascitis va a pabellón urgente para desbridamiento amplio, sin esperar ninguna imagen."
+      "text": "Si no, busca los signos duros: dolor desproporcionado, flictenas, crepitación, anestesia focal o shock."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si hay alguno, es una fascitis necrotizante: pabellón inmediato para desbridamiento, sin esperar imágenes, y en paralelo reanimación con meropenem, vancomicina y clindamicina."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si no hay ninguno, es una celulitis simple: cefazolina o cloxacilina endovenosa. Marcas el borde del eritema y reevalúas a las doce o veinticuatro horas; si avanza o aparece un signo duro, vuelves a pensar en fascitis."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de treinta y ocho años con dos días de aumento de volumen doloroso bajo la mandíbula, a ambos lados, que empezó después de que le sacaron el tercer molar inferior izquierdo. Tiene el piso de la boca elevado que empuja la lengua contra el paladar, trismus, voz engolada y estridor inspiratorio intermitente."
+      "text": "Comparemos, porque el examen pone la celulitis como alternativa de la fascitis. En la celulitis el dolor es proporcional a lo que ves. En la fascitis es severo y desproporcionado al examen."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la prioridad inmediata?"
+      "text": "En lo local, la celulitis tiene calor, rubor y edema. La fascitis tiene los signos duros: flictenas hemorrágicas, crepitación y anestesia focal."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones son: asegurar la vía aérea; pedir una TAC de cuello; amoxicilina con ácido clavulánico oral; tres antibióticos endovenosos y observar en sala; o nebulizar con adrenalina. Piénsalo."
+      "text": "La celulitis da fiebre moderada con el paciente estable. La fascitis da shock séptico, lactato elevado y falla multiorgánica. Un paciente hipotenso con una lesión de piel ya no es una celulitis."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta es la A. Origen dental, compromiso bilateral del piso de la boca y estridor: es una angina de Ludwig, y el estridor te dice que la vía aérea se está cerrando. La TAC es el distractor más tentador, porque sirve para planificar el drenaje, pero sacar a este paciente a una imagen sin vía aérea segura es arriesgar una asfixia. Y los antibióticos son necesarios, pero no son lo primero."
+      "text": "En los antibióticos, cefazolina o cloxacilina para la celulitis, y el esquema de tres fármacos con clindamicina para la fascitis."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y la conducta: la celulitis se trata con antibióticos en sala y se reevalúa el borde. La fascitis va a pabellón urgente para desbridamiento amplio, sin esperar ninguna imagen."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora las preguntas reales. La primera es del EUNACOM de agosto de dos mil veintiuno, y casi la misma salió en diciembre de dos mil diecinueve. Paciente de cincuenta y tres años, diabético mal controlado, con una lesión en la pierna que creció mucho en dos días, con fiebre. Tiene treinta y nueve grados, pulso de ciento quince y presión de noventa con sesenta. La lesión es eritematosa, de veinte centímetros, con zonas violáceas y bulas."
+      "text": "Vamos con un caso. Hombre de treinta y ocho años con dos días de aumento de volumen doloroso bajo la mandíbula, a ambos lados, que empezó después de que le sacaron el tercer molar inferior izquierdo. Tiene el piso de la boca elevado que empuja la lengua contra el paladar, trismus, voz engolada y estridor inspiratorio intermitente."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la prioridad inmediata?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones son: erisipela, herpes zóster, pioderma gangrenoso, fascitis necrotizante, o celulitis bacteriana. Piénsalo."
+      "text": "Las opciones son: asegurar la vía aérea; pedir una TAC de cuello; amoxicilina con ácido clavulánico oral; tres antibióticos endovenosos y observar en sala; o nebulizar con adrenalina. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D, fascitis necrotizante. Es un diabético, el paciente clásico del tipo uno, y tiene dos cosas que la celulitis no da: las zonas violáceas con bulas, que son los signos duros de necrosis, y la hipotensión con taquicardia, que es el shock. La celulitis es el distractor: el inicio se parece, pero una celulitis no deja a un paciente hipotenso ni forma bulas sobre piel violácea."
+      "text": "La respuesta es la A. Origen dental, compromiso bilateral del piso de la boca y estridor: es una angina de Ludwig, y el estridor te dice que la vía aérea se está cerrando. La TAC es el distractor más tentador, porque sirve para planificar el drenaje, pero sacar a este paciente a una imagen sin vía aérea segura es arriesgar una asfixia. Y los antibióticos son necesarios, pero no son lo primero."
     },
     {
       "file": "s10_g00",
-      "text": "La siguiente es del EUNACOM de julio de dos mil quince. Paciente alcohólico de cincuenta años, en situación de calle, con un dolor muy intenso en el antebrazo derecho. Tiene una lesión grande con áreas violáceas que crepita a la palpación, pulso de ciento ocho, presión de noventa con sesenta y leucocitosis de diecisiete mil."
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de agosto de dos mil veintiuno, y casi la misma salió en diciembre de dos mil diecinueve. Paciente de cincuenta y tres años, diabético mal controlado, con una lesión en la pierna que creció mucho en dos días, con fiebre. Tiene treinta y nueve grados, pulso de ciento quince y presión de noventa con sesenta. La lesión es eritematosa, de veinte centímetros, con zonas violáceas y bulas."
     },
     {
       "file": "s10_g01",
@@ -206,15 +198,15 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: loxocelismo cutáneo, celulitis, úlcera por presión, fascitis necrosante, o miositis necrosante. Piénsalo."
+      "text": "Las opciones son: erisipela, herpes zóster, pioderma gangrenoso, fascitis necrotizante, o celulitis bacteriana. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D. Aquí la pista es otra: la crepitación, que es gas en el tejido, sumada al dolor muy intenso, las áreas violáceas y el shock. Fíjate además que el paciente no es diabético: no esperes siempre al diabético para sospecharla. La miositis necrosante es el distractor, pero el cuadro que se describe con estos signos y que el examen espera es la fascitis. Y el loxocelismo da una lesión violácea, pero no crepita."
+      "text": "Es la D, fascitis necrotizante. Es un diabético, el paciente clásico del tipo uno, y tiene dos cosas que la celulitis no da: las zonas violáceas con bulas, que son los signos duros de necrosis, y la hipotensión con taquicardia, que es el shock. La celulitis es el distractor: el inicio se parece, pero una celulitis no deja a un paciente hipotenso ni forma bulas sobre piel violácea."
     },
     {
       "file": "s11_g00",
-      "text": "Y la última, del EUNACOM de julio de dos mil veinticinco, que usa la angina de Ludwig como distractor. Hombre de veinte años con odinofagia severa, fiebre de treinta y nueve grados, trismus y la úvula desviada hacia el lado contrario."
+      "text": "La siguiente es del EUNACOM de julio de dos mil quince. Paciente alcohólico de cincuenta años, en situación de calle, con un dolor muy intenso en el antebrazo derecho. Tiene una lesión grande con áreas violáceas que crepita a la palpación, pulso de ciento ocho, presión de noventa con sesenta y leucocitosis de diecisiete mil."
     },
     {
       "file": "s11_g01",
@@ -222,34 +214,50 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: angina de Ludwig, faringitis estreptocócica, absceso periamigdalino, mononucleosis infecciosa, o epiglotitis. Piénsalo."
+      "text": "Las opciones son: loxocelismo cutáneo, celulitis, úlcera por presión, fascitis necrosante, o miositis necrosante. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, absceso periamigdalino. El trismus aparece en los dos cuadros, por eso la angina de Ludwig tienta. Pero la úvula desviada te habla de una colección unilateral al lado de la amígdala. La angina de Ludwig es otra cosa: bilateral, del piso de la boca, de origen dental, con la lengua empujada hacia arriba y estridor."
+      "text": "Es la D. Aquí la pista es otra: la crepitación, que es gas en el tejido, sumada al dolor muy intenso, las áreas violáceas y el shock. Fíjate además que el paciente no es diabético: no esperes siempre al diabético para sospecharla. La miositis necrosante es el distractor, pero el cuadro que se describe con estos signos y que el examen espera es la fascitis. Y el loxocelismo da una lesión violácea, pero no crepita."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. El signo más precoz de la fascitis necrotizante es el dolor desproporcionado a lo que se ve en la piel."
+      "text": "Y la última, del EUNACOM de julio de dos mil veinticinco, que usa la angina de Ludwig como distractor. Hombre de veinte años con odinofagia severa, fiebre de treinta y nueve grados, trismus y la úvula desviada hacia el lado contrario."
     },
     {
       "file": "s12_g01",
-      "text": "Las flictenas hemorrágicas, la crepitación, la anestesia focal y el shock son los signos duros que confirman la necrosis."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "La conducta es el pabellón inmediato para desbridamiento. Nunca se difiere por una TAC ni por una resonancia."
+      "text": "Las opciones son: angina de Ludwig, faringitis estreptocócica, absceso periamigdalino, mononucleosis infecciosa, o epiglotitis. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C, absceso periamigdalino. El trismus aparece en los dos cuadros, por eso la angina de Ludwig tienta. Pero la úvula desviada te habla de una colección unilateral al lado de la amígdala. La angina de Ludwig es otra cosa: bilateral, del piso de la boca, de origen dental, con la lengua empujada hacia arriba y estridor."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. El signo más precoz de la fascitis necrotizante es el dolor desproporcionado a lo que se ve en la piel."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Las flictenas hemorrágicas, la crepitación, la anestesia focal y el shock son los signos duros que confirman la necrosis."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La conducta es el pabellón inmediato para desbridamiento. Nunca se difiere por una TAC ni por una resonancia."
+    },
+    {
+      "file": "s13_g03",
       "text": "Junto con reanimación y meropenem, vancomicina y clindamicina, que está ahí por las toxinas."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "La angina de Ludwig es una celulitis bilateral del piso de la boca, de origen dental."
     },
     {
-      "file": "s12_g05",
+      "file": "s13_g05",
       "text": "Y la prioridad es la vía aérea. Si te llevas una sola idea de hoy: un dolor que no calza con la piel es fascitis hasta demostrar lo contrario, y su tratamiento es el pabellón, no la imagen. La próxima clase abrimos el bloque de salud pública con el manejo de contactos y los accidentes cortopunzantes. Nos vemos en la próxima clase."
     }
   ]

@@ -191,6 +191,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Otras demencias',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg', label: 'Demencia frontotemporal', credit: 'Harrison 21.ª ed., p. 3420' },
+      ],
+      steps: [
+        { note: 'Atrofia frontal y temporal',
+          say: 'La demencia frontotemporal atrofia los lóbulos frontales y temporales, y debuta con cambios de conducta o lenguaje, no con memoria.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, tal como vas a razonar frente a una demencia en el examen.',
     },

@@ -2,7 +2,7 @@
   "id": "resp-04",
   "title": "Neumología 1.4: Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
   "specialty": "Neumología",
-  "chars": 10348,
+  "chars": 10802,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,107 +110,99 @@
     },
     {
       "file": "s07_g00",
-      "text": "Ahora juntemos todo en un solo árbol, tal como lo vas a razonar frente a un paciente con EPOC en el policlínico. Adulto fumador, o expuesto a biomasa, con tos, expectoración y disnea progresiva. Sospechas EPOC."
+      "text": "En la EPOC la radiografía muestra pulmones hiperinsuflados: los diafragmas bajos y aplanados, más espacios intercostales, y un corazón largo y estrecho. Pero recuerda: el diagnóstico es con espirometría, no con la radiografía."
     },
     {
       "file": "s07_g01",
-      "text": "La confirmación es solo espirométrica: ¿la relación queda bajo cero coma setenta después del broncodilatador?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si no, no es EPOC, aunque fume. Puede ser una bronquitis crónica u otra causa."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si hay obstrucción fija, es EPOC. Ahora clasificas por síntomas y exacerbaciones del último año."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Grupo A, pocos síntomas: un broncodilatador de larga acción."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Grupo B, muy sintomático: doble broncodilatación de inicio."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Grupo E, exacerbador: LAMA más LABA, y terapia triple con corticoide si los eosinófilos son de trescientos o más."
-    },
-    {
-      "file": "s07_g07",
-      "text": "Y en todos: dejar de fumar, y gases en reposo para evaluar oxígeno domiciliario. Son las medidas que alargan la vida."
+      "text": "Y este esquema muestra los tipos de enfisema. El centrolobulillar, del fumador, destruye el centro del lobulillo en los lóbulos superiores; el panacinar, del déficit de alfa uno antitripsina, destruye todo el acino en las bases."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos las trampas. Fumador con tos y espirometría normal: no es EPOC. El error es diagnosticarla por el tabaco."
+      "text": "Ahora juntemos todo en un solo árbol, tal como lo vas a razonar frente a un paciente con EPOC en el policlínico. Adulto fumador, o expuesto a biomasa, con tos, expectoración y disnea progresiva. Sospechas EPOC."
     },
     {
       "file": "s08_g01",
-      "text": "Grupo B, disneico y sin exacerbaciones: LAMA más LABA. El error es agregar corticoide inhalado."
+      "text": "La confirmación es solo espirométrica: ¿la relación queda bajo cero coma setenta después del broncodilatador?"
     },
     {
       "file": "s08_g02",
-      "text": "Exacerbador con eosinófilos de trescientos o más: terapia triple. El corticoide solo está contraindicado."
+      "text": "Si no, no es EPOC, aunque fume. Puede ser una bronquitis crónica u otra causa."
     },
     {
       "file": "s08_g03",
-      "text": "¿Qué alarga la vida? Dejar de fumar y el oxígeno domiciliario. Los broncodilatadores y los corticoides son el distractor."
+      "text": "Si hay obstrucción fija, es EPOC. Ahora clasificas por síntomas y exacerbaciones del último año."
     },
     {
       "file": "s08_g04",
-      "text": "Presión de oxígeno de cincuenta y siete con poliglobulia: sí va oxígeno domiciliario. El error es esperar a que baje de cincuenta y cinco."
+      "text": "Grupo A, pocos síntomas: un broncodilatador de larga acción."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Grupo B, muy sintomático: doble broncodilatación de inicio."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Grupo E, exacerbador: LAMA más LABA, y terapia triple con corticoide si los eosinófilos son de trescientos o más."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Y en todos: dejar de fumar, y gases en reposo para evaluar oxígeno domiciliario. Son las medidas que alargan la vida."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Hombre de sesenta y seis años, fumador de treinta y cinco paquetes año, con EPOC GOLD tres. Camina más lento que la gente de su edad por la disnea, un mMRC dos. No tuvo exacerbaciones el último año. Sus eosinófilos son noventa, y su presión arterial de oxígeno es sesenta y cuatro."
+      "text": "Repasemos las trampas. Fumador con tos y espirometría normal: no es EPOC. El error es diagnosticarla por el tabaco."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento más adecuado?"
+      "text": "Grupo B, disneico y sin exacerbaciones: LAMA más LABA. El error es agregar corticoide inhalado."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: LAMA más LABA; terapia triple; fluticasona sola; LAMA más LABA con oxígeno domiciliario; o salbutamol a demanda. Piénsalo."
+      "text": "Exacerbador con eosinófilos de trescientos o más: terapia triple. El corticoide solo está contraindicado."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Clasifica al paciente, no a la curva: tiene mucha disnea y ninguna exacerbación, así que es grupo B, y el grupo B parte con doble broncodilatación. El GOLD tres es el distractor que invita a subir a triple, pero no es exacerbador y sus eosinófilos son bajos. Y el oxígeno no va, porque su presión de oxígeno es sesenta y cuatro, sobre cincuenta y nueve."
+      "text": "¿Qué alarga la vida? Dejar de fumar y el oxígeno domiciliario. Los broncodilatadores y los corticoides son el distractor."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Presión de oxígeno de cincuenta y siete con poliglobulia: sí va oxígeno domiciliario. El error es esperar a que baje de cincuenta y cinco."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Hombre de sesenta y cinco años, exfumador de cuarenta paquetes año, con disnea progresiva que le impide caminar más de tres cuadras. La espirometría muestra una relación de cincuenta y cinco que queda en cincuenta y siete después del broncodilatador, con un VEF uno de cincuenta por ciento."
+      "text": "Vamos con un caso. Hombre de sesenta y seis años, fumador de treinta y cinco paquetes año, con EPOC GOLD tres. Camina más lento que la gente de su edad por la disnea, un mMRC dos. No tuvo exacerbaciones el último año. Sus eosinófilos son noventa, y su presión arterial de oxígeno es sesenta y cuatro."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el tratamiento inicial?"
+      "text": "¿Cuál es el tratamiento más adecuado?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: salbutamol, budesonida, ipratropio, fluticasona o tiotropio. Piénsalo."
+      "text": "Las opciones: LAMA más LABA; terapia triple; fluticasona sola; LAMA más LABA con oxígeno domiciliario; o salbutamol a demanda. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E, tiotropio. La obstrucción no revierte: es EPOC. Y la base del tratamiento son los broncodilatadores de larga acción; el tiotropio es un LAMA. La budesonida y la fluticasona son la trampa del asma: en la EPOC, el corticoide inhalado solo está contraindicado. El salbutamol y el ipratropio son de acción corta, útiles como rescate, pero no como base."
+      "text": "Es la A. Clasifica al paciente, no a la curva: tiene mucha disnea y ninguna exacerbación, así que es grupo B, y el grupo B parte con doble broncodilatación. El GOLD tres es el distractor que invita a subir a triple, pero no es exacerbador y sus eosinófilos son bajos. Y el oxígeno no va, porque su presión de oxígeno es sesenta y cuatro, sobre cincuenta y nueve."
     },
     {
       "file": "s11_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de sesenta y seis años, fumador de cuarenta paquetes año, con cuatro años de tos y expectoración, mayor en la mañana, y dos infecciones respiratorias al año. La radiografía y la espirometría son normales."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Hombre de sesenta y cinco años, exfumador de cuarenta paquetes año, con disnea progresiva que le impide caminar más de tres cuadras. La espirometría muestra una relación de cincuenta y cinco que queda en cincuenta y siete después del broncodilatador, con un VEF uno de cincuenta por ciento."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el tratamiento inicial?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: cáncer de pulmón, tuberculosis, fibrosis pulmonar, EPOC o bronquitis crónica. Piénsalo."
+      "text": "Las opciones: salbutamol, budesonida, ipratropio, fluticasona o tiotropio. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la E, bronquitis crónica. El distractor evidente es la EPOC, porque el paciente es un gran fumador con tos y expectoración. Pero la EPOC se confirma exclusivamente con una espirometría obstructiva, y aquí es normal. Sin obstrucción, no hay EPOC."
+      "text": "Es la E, tiotropio. La obstrucción no revierte: es EPOC. Y la base del tratamiento son los broncodilatadores de larga acción; el tiotropio es un LAMA. La budesonida y la fluticasona son la trampa del asma: en la EPOC, el corticoide inhalado solo está contraindicado. El salbutamol y el ipratropio son de acción corta, útiles como rescate, pero no como base."
     },
     {
       "file": "s12_g00",
-      "text": "Una más, del EUNACOM de diciembre de dos mil veinticinco. Hombre de setenta y seis años, fumador de ochenta paquetes año, con EPOC severa. Hace una semana tiene más disnea y edema de piernas, con ingurgitación yugular. El ecocardiograma muestra el lado izquierdo con fracción de eyección conservada, y el lado derecho dilatado e hipertrófico, con una presión de arteria pulmonar de sesenta y ocho."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Hombre de sesenta y seis años, fumador de cuarenta paquetes año, con cuatro años de tos y expectoración, mayor en la mañana, y dos infecciones respiratorias al año. La radiografía y la espirometría son normales."
     },
     {
       "file": "s12_g01",
@@ -218,30 +210,46 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: hipertensión pulmonar primaria, insuficiencia cardíaca congestiva, exacerbación de EPOC, cor pulmonale descompensado, o tromboembolismo pulmonar. Piénsalo."
+      "text": "Las opciones: cáncer de pulmón, tuberculosis, fibrosis pulmonar, EPOC o bronquitis crónica. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la D, cor pulmonale. La hipoxemia crónica de la EPOC sube la presión pulmonar, y el ventrículo derecho termina fallando: edema e ingurgitación, con el izquierdo normal. La A cae porque la hipertensión pulmonar no es primaria, es secundaria a la EPOC. Y conéctalo con los criterios de oxígeno: el cor pulmonale es justamente lo que indica oxígeno domiciliario con una presión de oxígeno entre cincuenta y seis y cincuenta y nueve."
+      "text": "Es la E, bronquitis crónica. El distractor evidente es la EPOC, porque el paciente es un gran fumador con tos y expectoración. Pero la EPOC se confirma exclusivamente con una espirometría obstructiva, y aquí es normal. Sin obstrucción, no hay EPOC."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. La EPOC se confirma solo con la espirometría: relación bajo cero coma setenta post broncodilatador. Sin obstrucción, no hay EPOC."
+      "text": "Una más, del EUNACOM de diciembre de dos mil veinticinco. Hombre de setenta y seis años, fumador de ochenta paquetes año, con EPOC severa. Hace una semana tiene más disnea y edema de piernas, con ingurgitación yugular. El ecocardiograma muestra el lado izquierdo con fracción de eyección conservada, y el lado derecho dilatado e hipertrófico, con una presión de arteria pulmonar de sesenta y ocho."
     },
     {
       "file": "s13_g01",
-      "text": "El tratamiento lo decide el grupo: A, un broncodilatador de larga acción; B y E, LAMA más LABA."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "El corticoide inhalado nunca va solo, y entra en terapia triple en el exacerbador con eosinófilos altos."
+      "text": "Las opciones: hipertensión pulmonar primaria, insuficiencia cardíaca congestiva, exacerbación de EPOC, cor pulmonale descompensado, o tromboembolismo pulmonar. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la D, cor pulmonale. La hipoxemia crónica de la EPOC sube la presión pulmonar, y el ventrículo derecho termina fallando: edema e ingurgitación, con el izquierdo normal. La A cae porque la hipertensión pulmonar no es primaria, es secundaria a la EPOC. Y conéctalo con los criterios de oxígeno: el cor pulmonale es justamente lo que indica oxígeno domiciliario con una presión de oxígeno entre cincuenta y seis y cincuenta y nueve."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. La EPOC se confirma solo con la espirometría: relación bajo cero coma setenta post broncodilatador. Sin obstrucción, no hay EPOC."
+    },
+    {
+      "file": "s14_g01",
+      "text": "El tratamiento lo decide el grupo: A, un broncodilatador de larga acción; B y E, LAMA más LABA."
+    },
+    {
+      "file": "s14_g02",
+      "text": "El corticoide inhalado nunca va solo, y entra en terapia triple en el exacerbador con eosinófilos altos."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y lo que alarga la vida es dejar de fumar y el oxígeno domiciliario, con presión de oxígeno de cincuenta y cinco o menos, o de cincuenta y seis a cincuenta y nueve con cor pulmonale o poliglobulia."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "En la próxima clase vemos qué pasa cuando este paciente se descompensa: la exacerbación de la EPOC. Si te llevas una sola idea de hoy: en la EPOC mandan los broncodilatadores, pero la vida la alargan el tabaco que se deja y el oxígeno bien indicado. Nos vemos en la próxima clase."
     }
   ]

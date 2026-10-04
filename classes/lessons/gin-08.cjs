@@ -149,6 +149,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Anticoncepción de larga duración',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg', label: 'DIU', credit: 'Williams Gynecology 4.ª ed., Fig. 5-3' },
+        { src: 'biblioteca/13_ginecologia/gin-08/02_implante_subdermico__commons.jpg', label: 'Implante subdérmico', credit: 'Wikimedia Commons «Implanon 04.jpg», CC BY-SA 4.0, Vera de Kok' },
+        { src: 'biblioteca/13_ginecologia/gin-08/03_retiro_implante__commons.jpg', label: 'Retiro del implante', credit: 'Wikimedia Commons «Implanon 02.jpg», CC BY-SA 4.0, Vera de Kok' },
+      ],
+      steps: [
+        { note: 'Cobre y levonorgestrel',
+          say: 'Estos son el DIU de cobre y el DIU con levonorgestrel.' },
+        { note: 'Varilla de cuatro centímetros',
+          say: 'Y el implante subdérmico de etonogestrel, una varilla que dura tres años.' },
+        { note: 'Por una incisión pequeña',
+          say: 'Se coloca y se retira por una pequeña incisión en el brazo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos decisiones en un solo árbol.',
     },

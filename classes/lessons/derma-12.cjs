@@ -84,6 +84,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Eritema multiforme',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-12/02_lesiones-en-diana__cto-derma_p15.jpg', label: 'Lesiones en diana', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' },
+      ],
+      steps: [
+        { note: 'Tres anillos concéntricos',
+          say: 'Las lesiones en diana tienen tres zonas concéntricas. Su causa más frecuente es el herpes simple.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la diana al tratamiento, y sin perder de vista a Stevens-Johnson.',
     },

@@ -250,6 +250,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Anemia ferropénica',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-03/01_anemia-ferropenica-microcitica-frotis__amir-hemato_p16.jpg', label: 'Frotis', credit: 'Manual AMIR Hematología, p. 16' },
+        { src: 'biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg', label: 'Coiloniquia', credit: 'Wikimedia Commons «Koilonychia iron deficiency anemia.jpg», CC BY 2.0, CHeitz' },
+      ],
+      steps: [
+        { note: 'Glóbulos pequeños y pálidos',
+          say: 'En la ferropenia los glóbulos rojos son pequeños y pálidos, con el centro claro agrandado: microcitosis e hipocromía.' },
+        { note: 'Uñas en cuchara',
+          say: 'Y la coiloniquia: uñas cóncavas, en cuchara. Es un signo clásico de ferropenia de larga evolución.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el estudio y el tratamiento en un solo árbol de decisión.',
     },

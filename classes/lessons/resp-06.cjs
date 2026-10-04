@@ -206,6 +206,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'La neumonía en la radiografía',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg', label: 'Consolidación lobar', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
+        { src: 'biblioteca/02_neumologia/resp-06/02_broncograma-aereo__cto-radiologia_p10.jpg', label: 'Broncograma aéreo', credit: 'Manual CTO Radiología 14.ª ed., p. 10' },
+      ],
+      steps: [
+        { note: 'Opacidad que respeta la cisura',
+          say: 'Esta es una consolidación lobar: una opacidad homogénea que ocupa un lóbulo y se detiene en la cisura. Es el patrón típico del neumococo.' },
+        { note: 'Bronquios negros dentro de lo blanco',
+          say: 'Y aquí se ven bronquios negros dentro de la opacidad. Es el broncograma aéreo: el alvéolo está lleno, pero el bronquio sigue con aire. Eso confirma que la opacidad es del parénquima.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol que vas a recorrer frente a cada paciente con sospecha de neumonía.',
     },

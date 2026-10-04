@@ -2,7 +2,7 @@
   "id": "gastro-22",
   "title": "Gastroenterologia 5.4: Cuerpo Extraño Digestivo",
   "specialty": "Gastroenterología",
-  "chars": 8345,
+  "chars": 8643,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,83 +102,75 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora pongamos las dos preguntas en un solo árbol. Paciente con sospecha de haber tragado un cuerpo extraño."
+      "text": "En la radiografía de frente, la moneda en el esófago se ve como un disco completo, y de perfil como una línea. Eso la ubica en el esófago y no en la tráquea."
     },
     {
       "file": "s06_g01",
-      "text": "Lo primero es localizarlo, con radiografía de cuello, tórax y abdomen. Recuerda que los objetos radiolúcidos pueden no verse."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Primera pregunta: ¿está en el esófago, o ya pasó más allá?"
-    },
-    {
-      "file": "s06_g03",
-      "text": "¿Es una pila o un objeto afilado, hay obstrucción completa, o lleva más de veinticuatro horas?"
-    },
-    {
-      "file": "s06_g04",
-      "text": "Entonces la endoscopía es urgente. Y si es una pila de botón, extracción inmediata, porque quema la pared en horas."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Aunque no sea urgente, en el esófago siempre se retira por endoscopía, por el riesgo de perforación."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Segunda pregunta: ¿es una pila, dos o más imanes, un objeto afilado o de más de cinco centímetros, o bolitas absorbentes?"
-    },
-    {
-      "file": "s06_g07",
-      "text": "Esos se retiran siempre, estén donde estén."
-    },
-    {
-      "file": "s06_g08",
-      "text": "Objeto romo y pequeño en un paciente asintomático: se observa, con radiografía cada una a dos semanas hasta que se elimine."
+      "text": "Y esto es una pila de botón ingerida. Es más peligrosa que una moneda: quema la mucosa en horas. Si está en el esófago, se saca de inmediato."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos. Cualquier objeto en el esófago se retira por endoscopía, por el riesgo de perforación."
+      "text": "Ahora pongamos las dos preguntas en un solo árbol. Paciente con sospecha de haber tragado un cuerpo extraño."
     },
     {
       "file": "s07_g01",
-      "text": "Pila de botón en el esófago: extracción inmediata, porque la necrosis aparece en horas."
+      "text": "Lo primero es localizarlo, con radiografía de cuello, tórax y abdomen. Recuerda que los objetos radiolúcidos pueden no verse."
     },
     {
       "file": "s07_g02",
-      "text": "Objeto romo y pequeño que ya está en el estómago, sin síntomas: observar, con radiografía cada una a dos semanas."
+      "text": "Primera pregunta: ¿está en el esófago, o ya pasó más allá?"
     },
     {
       "file": "s07_g03",
-      "text": "Pilas, dos o más imanes, objetos afilados o de más de cinco centímetros, y bolitas absorbentes: se retiran siempre, estén donde estén."
+      "text": "¿Es una pila o un objeto afilado, hay obstrucción completa, o lleva más de veinticuatro horas?"
     },
     {
       "file": "s07_g04",
-      "text": "Comida impactada que tolera líquidos y sin dolor: se observa hasta veinticuatro horas."
+      "text": "Entonces la endoscopía es urgente. Y si es una pila de botón, extracción inmediata, porque quema la pared en horas."
     },
     {
       "file": "s07_g05",
-      "text": "Y comida impactada con dolor, o que no deja tragar: endoscopía para desimpactar."
+      "text": "Aunque no sea urgente, en el esófago siempre se retira por endoscopía, por el riesgo de perforación."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Segunda pregunta: ¿es una pila, dos o más imanes, un objeto afilado o de más de cinco centímetros, o bolitas absorbentes?"
+    },
+    {
+      "file": "s07_g07",
+      "text": "Esos se retiran siempre, estén donde estén."
+    },
+    {
+      "file": "s07_g08",
+      "text": "Objeto romo y pequeño en un paciente asintomático: se observa, con radiografía cada una a dos semanas hasta que se elimine."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Niño de dos años que llega a urgencias porque hace una hora se tragó la pila de botón del control remoto. Está asintomático. La radiografía de tórax muestra la pila en el esófago medio, con el signo del doble halo."
+      "text": "Repasemos. Cualquier objeto en el esófago se retira por endoscopía, por el riesgo de perforación."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta?"
+      "text": "Pila de botón en el esófago: extracción inmediata, porque la necrosis aparece en horas."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: observar y repetir la radiografía mañana, extracción endoscópica inmediata, observar con radiografías cada una a dos semanas, dar un laxante, o endoscopía solo si aparecen síntomas. Piénsalo."
+      "text": "Objeto romo y pequeño que ya está en el estómago, sin síntomas: observar, con radiografía cada una a dos semanas."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Pila de botón en el esófago es una emergencia: quema la pared en horas y puede perforarla. El distractor tentador es la E, porque el niño está asintomático. Pero con una pila, esperar a que aparezcan los síntomas es esperar a que ya haya necrosis. Y la observación con radiografías es para el objeto romo que ya está en el estómago, nunca para una pila."
+      "text": "Pilas, dos o más imanes, objetos afilados o de más de cinco centímetros, y bolitas absorbentes: se retiran siempre, estén donde estén."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Comida impactada que tolera líquidos y sin dolor: se observa hasta veinticuatro horas."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y comida impactada con dolor, o que no deja tragar: endoscopía para desimpactar."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con una pregunta real del examen, de diciembre de dos mil veinticuatro. Un paciente presenta disfagia a nivel del hueso del pecho después de comer pollo, y no logra pasar ni siquiera agua."
+      "text": "Vamos al caso. Niño de dos años que llega a urgencias porque hace una hora se tragó la pila de botón del control remoto. Está asintomático. La radiografía de tórax muestra la pila en el esófago medio, con el signo del doble halo."
     },
     {
       "file": "s09_g01",
@@ -186,46 +178,62 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: endoscopía digestiva alta, radiografía, nasolaringoscopia, manometría esofágica, o derrame pleural. Piénsalo."
+      "text": "Las alternativas: observar y repetir la radiografía mañana, extracción endoscópica inmediata, observar con radiografías cada una a dos semanas, dar un laxante, o endoscopía solo si aparecen síntomas. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la A. No tragar ni agua es obstrucción completa del esófago, probablemente por un hueso de pollo, y eso exige endoscopía digestiva alta para desimpactar, sin esperar. La radiografía puede pedirse antes, pero no reemplaza la endoscopía, que además es terapéutica."
+      "text": "Es la B. Pila de botón en el esófago es una emergencia: quema la pared en horas y puede perforarla. El distractor tentador es la E, porque el niño está asintomático. Pero con una pila, esperar a que aparezcan los síntomas es esperar a que ya haya necrosis. Y la observación con radiografías es para el objeto romo que ya está en el estómago, nunca para una pila."
     },
     {
       "file": "s10_g00",
-      "text": "Y otra pregunta real, de julio de dos mil veinticinco. Hombre de setenta años, desdentado, con disfagia alta para sólidos de inicio súbito después de comer. En la endoscopía se encontró un trozo de carne impactado en el esófago superior, y ya se hizo la endoscopía de extracción, con éxito."
+      "text": "Vamos con una pregunta real del examen, de diciembre de dos mil veinticuatro. Un paciente presenta disfagia a nivel del hueso del pecho después de comer pollo, y no logra pasar ni siquiera agua."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el estudio de seguimiento más importante?"
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: nueva endoscopía para ver la mucosa y descartar estenosis o tumor, radiografía de tórax de control, TAC de cuello y tórax, alta directa sin más estudio, o esofagografía con bario. Piénsalo."
+      "text": "Las opciones: endoscopía digestiva alta, radiografía, nasolaringoscopia, manometría esofágica, o derrame pleural. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Ya lo vimos: después de una impactación de alimento hay que estudiar el esófago, porque puede haber una causa de base, como una estenosis, un anillo o un tumor, sobre todo en un adulto mayor desdentado. Dar de alta sin estudiar sería dejar pasar la causa, y por eso la D es la trampa más peligrosa."
+      "text": "La respuesta es la A. No tragar ni agua es obstrucción completa del esófago, probablemente por un hueso de pollo, y eso exige endoscopía digestiva alta para desimpactar, sin esperar. La radiografía puede pedirse antes, pero no reemplaza la endoscopía, que además es terapéutica."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. En el esófago, todo se retira por endoscopía, y la pila de botón es una emergencia."
+      "text": "Y otra pregunta real, de julio de dos mil veinticinco. Hombre de setenta años, desdentado, con disfagia alta para sólidos de inicio súbito después de comer. En la endoscopía se encontró un trozo de carne impactado en el esófago superior, y ya se hizo la endoscopía de extracción, con éxito."
     },
     {
       "file": "s11_g01",
-      "text": "Con un cuerpo extraño esofágico, el dolor torácico es perforación hasta que se demuestre lo contrario."
+      "text": "¿Cuál es el estudio de seguimiento más importante?"
     },
     {
       "file": "s11_g02",
-      "text": "Pilas, dos o más imanes, objetos afilados o de más de cinco centímetros, y bolitas absorbentes: se retiran siempre, estén donde estén."
+      "text": "Las opciones: nueva endoscopía para ver la mucosa y descartar estenosis o tumor, radiografía de tórax de control, TAC de cuello y tórax, alta directa sin más estudio, o esofagografía con bario. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la A. Ya lo vimos: después de una impactación de alimento hay que estudiar el esófago, porque puede haber una causa de base, como una estenosis, un anillo o un tumor, sobre todo en un adulto mayor desdentado. Dar de alta sin estudiar sería dejar pasar la causa, y por eso la D es la trampa más peligrosa."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. En el esófago, todo se retira por endoscopía, y la pila de botón es una emergencia."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Con un cuerpo extraño esofágico, el dolor torácico es perforación hasta que se demuestre lo contrario."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Pilas, dos o más imanes, objetos afilados o de más de cinco centímetros, y bolitas absorbentes: se retiran siempre, estén donde estén."
+    },
+    {
+      "file": "s12_g03",
       "text": "El objeto romo en el estómago de un niño asintomático se observa con radiografías."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Y la comida impactada se endoscopia si no traga o duele; si tolera líquidos, se espera hasta veinticuatro horas. Si te llevas una sola idea de hoy: pregunta primero dónde está y después qué es, y recuerda que la pila se saca siempre. Nos vemos en la próxima clase."
     }
   ]

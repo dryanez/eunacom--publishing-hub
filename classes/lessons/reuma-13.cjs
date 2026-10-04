@@ -232,6 +232,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Dermatomiositis',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg', label: 'Pápulas de Gottron', credit: 'Manual AMIR Reumatología, p. 127' },
+        { src: 'biblioteca/08_reumatologia/reuma-13/02_heliotropo__cto-derma_p120.jpg', label: 'Heliotropo', credit: 'Manual CTO Dermatología 14.ª ed., p. 120' },
+      ],
+      steps: [
+        { note: 'Sobre los nudillos',
+          say: 'Las pápulas de Gottron, violáceas sobre los nudillos, son el signo más específico.' },
+        { note: 'Párpados violáceos',
+          say: 'Y el heliotropo: coloración violácea de los párpados, con edema.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

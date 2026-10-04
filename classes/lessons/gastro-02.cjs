@@ -164,6 +164,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Úlceras pépticas en la endoscopía',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-02/01_ulcera-gastrica-forrest-iic__cto-digestivo_p63.jpg', label: 'Úlcera gástrica', credit: 'Manual CTO Digestivo 14.ª ed., p. 63' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-02/01_ulcera_duodenal__harrison_p2430.jpg', label: 'Úlcera duodenal', credit: 'Harrison 21.ª ed., p. 2430' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-02/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg', label: 'Vaso visible', credit: 'Harrison 21.ª ed., p. 2430' },
+      ],
+      steps: [
+        { note: 'Fondo limpio, bordes regulares',
+          say: 'Esta es una úlcera gástrica: un cráter de bordes regulares con fondo blanquecino de fibrina. Recuerda que toda úlcera gástrica se biopsia, porque puede ser un cáncer.' },
+        { note: 'Mancha pigmentada en el fondo',
+          say: 'Ahora una úlcera duodenal con una mancha pigmentada en su base. Es un estigma de sangrado reciente, de bajo riesgo de resangrar.' },
+        { note: 'Alto riesgo de resangrado',
+          say: 'Y aquí la flecha muestra un vaso visible en el fondo de la úlcera. Ese hallazgo es de alto riesgo: se trata en la misma endoscopía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

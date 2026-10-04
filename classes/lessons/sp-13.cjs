@@ -137,6 +137,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Certificado de defunción',
+      images: [
+        { src: 'biblioteca/16_salud_publica/sp-13/01_formulario_cmd__manual-cmd.jpg', label: 'Formulario', credit: 'Manual correcto llenado CMD (ESP U. de Chile / Colegio Médico), Anexo 2' },
+        { src: 'biblioteca/16_salud_publica/sp-13/02_secuencia_causas__manual-cmd.jpg', label: 'Secuencia de causas', credit: 'Manual correcto llenado CMD, Fig. 2' },
+      ],
+      steps: [
+        { note: 'El certificado vigente',
+          say: 'Este es el certificado médico de defunción vigente en Chile.' },
+        { note: 'De la inmediata a la originaria',
+          say: 'Las causas se escriben de la inmediata, arriba, a la originaria, abajo. La originaria es la que se tabula.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos el árbol completo de decisión frente a un fallecido.',
     },

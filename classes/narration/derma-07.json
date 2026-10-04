@@ -2,7 +2,7 @@
   "id": "derma-07",
   "title": "Dermatologia 16.7: Dermatitis Seborreica vs Dermatitis de Contacto (Alérgica vs Irritativa)",
   "specialty": "Dermatología",
-  "chars": 8780,
+  "chars": 8940,
   "segments": [
     {
       "file": "s00_g00",
@@ -66,102 +66,110 @@
     },
     {
       "file": "s04_g00",
-      "text": "Armemos el árbol de decisión: de la zona afectada al diagnóstico y su confirmación. Frente a un eccema, la primera pregunta es dónde están las lesiones: en zonas seborreicas, o en una zona de contacto con algo externo."
+      "text": "El eccema de contacto aparece donde tocó el alérgeno, con bordes que lo delatan."
     },
     {
       "file": "s04_g01",
-      "text": "Las zonas seborreicas orientan a la Malassezia; una zona de contacto exacto orienta a un irritante o un alérgeno."
-    },
-    {
-      "file": "s04_g02",
-      "text": "Escamas grasosas y amarillentas en zonas seborreicas: champú antifúngico con ketoconazol, más corticoide tópico de baja potencia en ciclos cortos."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Con una lesión en zona de contacto, hay que preguntar si se queda exactamente donde tocó la sustancia, o si se extiende más allá."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Lesión confinada al área de contacto, con ardor más que prurito, y patch test negativo: dermatitis de contacto irritativa. Se evita el irritante y se usan cremas barrera."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Lesión que sobrepasa el área de contacto, con prurito intenso: dermatitis de contacto alérgica. Se confirma con la prueba del parche, con lectura a las cuarenta y ocho y a las noventa y seis horas, y se trata evitando el alérgeno más corticoide tópico."
+      "text": "La seborreica da escamas grasas en surcos nasogenianos, cejas y cuero cabelludo."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos con la tabla. La irritativa es un daño tóxico directo sin mecanismo inmune; la alérgica es una hipersensibilidad celular tipo cuatro; la seborreica es una respuesta anormal a la Malassezia."
+      "text": "Armemos el árbol de decisión: de la zona afectada al diagnóstico y su confirmación. Frente a un eccema, la primera pregunta es dónde están las lesiones: en zonas seborreicas, o en una zona de contacto con algo externo."
     },
     {
       "file": "s05_g01",
-      "text": "El síntoma cardinal: ardor y quemazón en la irritativa, prurito intenso en la alérgica, y prurito solo leve en la seborreica."
+      "text": "Las zonas seborreicas orientan a la Malassezia; una zona de contacto exacto orienta a un irritante o un alérgeno."
     },
     {
       "file": "s05_g02",
-      "text": "Los límites de la lesión: la irritativa queda confinada exactamente a la zona de contacto; la alérgica sobrepasa esos límites; y la seborreica se ubica en las zonas seborreicas típicas, como los surcos nasogenianos."
+      "text": "Escamas grasosas y amarillentas en zonas seborreicas: champú antifúngico con ketoconazol, más corticoide tópico de baja potencia en ciclos cortos."
     },
     {
       "file": "s05_g03",
-      "text": "Y la prueba del parche: negativa en la irritativa, positiva a las cuarenta y ocho y noventa y seis horas en la alérgica, y no indicada en la seborreica. El error clásico es pedir un patch test en la seborreica, que no lo necesita."
+      "text": "Con una lesión en zona de contacto, hay que preguntar si se queda exactamente donde tocó la sustancia, o si se extiende más allá."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Lesión confinada al área de contacto, con ardor más que prurito, y patch test negativo: dermatitis de contacto irritativa. Se evita el irritante y se usan cremas barrera."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Lesión que sobrepasa el área de contacto, con prurito intenso: dermatitis de contacto alérgica. Se confirma con la prueba del parche, con lectura a las cuarenta y ocho y a las noventa y seis horas, y se trata evitando el alérgeno más corticoide tópico."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos al caso. Mujer de veintiséis años que consulta por lesiones eccematosas muy pruriginosas en el abdomen inferior, de tres semanas de evolución. Al examen hay una placa eritematosa con pequeñas vesículas y excoriaciones, en la línea media periumbilical, coincidiendo exactamente con el roce de la hebilla metálica de sus pantalones. Además, cuenta que se le inflaman los lóbulos de las orejas cuando usa aretes de fantasía."
+      "text": "Repasemos con la tabla. La irritativa es un daño tóxico directo sin mecanismo inmune; la alérgica es una hipersensibilidad celular tipo cuatro; la seborreica es una respuesta anormal a la Malassezia."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la conducta diagnóstica de confirmación?"
+      "text": "El síntoma cardinal: ardor y quemazón en la irritativa, prurito intenso en la alérgica, y prurito solo leve en la seborreica."
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: biopsia cutánea urgente, pruebas epicutáneas del parche con lectura a cuarenta y ocho y noventa y seis horas, cultivo de secreción, examen directo con hidróxido de potasio, o inmunoglobulina E sérica total. Piénsalo."
+      "text": "Los límites de la lesión: la irritativa queda confinada exactamente a la zona de contacto; la alérgica sobrepasa esos límites; y la seborreica se ubica en las zonas seborreicas típicas, como los surcos nasogenianos."
     },
     {
       "file": "s06_g03",
-      "text": "Es la B. Una placa pruriginosa que sobrepasa la zona exacta de contacto con la hebilla, más el antecedente de reacción a la bisutería, es una dermatitis de contacto alérgica por níquel, el sensibilizante más frecuente del mundo. Como es una hipersensibilidad tipo cuatro, la confirmación de certeza es la prueba epicutánea del parche, con dos lecturas, a las cuarenta y ocho y a las noventa y seis horas."
+      "text": "Y la prueba del parche: negativa en la irritativa, positiva a las cuarenta y ocho y noventa y seis horas en la alérgica, y no indicada en la seborreica. El error clásico es pedir un patch test en la seborreica, que no lo necesita."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Una adolescente de quince años presenta lesiones en ambas orejas, que se extienden hasta el cuello. Tiene el antecedente de haberse hecho piercings hace una semana."
+      "text": "Vamos al caso. Mujer de veintiséis años que consulta por lesiones eccematosas muy pruriginosas en el abdomen inferior, de tres semanas de evolución. Al examen hay una placa eritematosa con pequeñas vesículas y excoriaciones, en la línea media periumbilical, coincidiendo exactamente con el roce de la hebilla metálica de sus pantalones. Además, cuenta que se le inflaman los lóbulos de las orejas cuando usa aretes de fantasía."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta diagnóstica de confirmación?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: celulitis, erisipela, dermatitis de contacto alérgica, dermatitis de contacto irritativa, o piodermitis superficial. Piénsalo."
+      "text": "Las opciones: biopsia cutánea urgente, pruebas epicutáneas del parche con lectura a cuarenta y ocho y noventa y seis horas, cultivo de secreción, examen directo con hidróxido de potasio, o inmunoglobulina E sérica total. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la C, dermatitis de contacto alérgica. La lesión aparece justo después de colocarse un piercing, y se extiende más allá del sitio del aro hacia el cuello, que es exactamente el signo que distingue a la alérgica de la irritativa: sobrepasar la zona de contacto. El alérgeno más probable es el níquel del piercing. La celulitis es poco probable, porque el pabellón auricular casi no tiene tejido celular subcutáneo."
+      "text": "Es la B. Una placa pruriginosa que sobrepasa la zona exacta de contacto con la hebilla, más el antecedente de reacción a la bisutería, es una dermatitis de contacto alérgica por níquel, el sensibilizante más frecuente del mundo. Como es una hipersensibilidad tipo cuatro, la confirmación de certeza es la prueba epicutánea del parche, con dos lecturas, a las cuarenta y ocho y a las noventa y seis horas."
     },
     {
       "file": "s08_g00",
-      "text": "Y una tercera pregunta real, también de julio de dos mil dieciséis. Un recién nacido de veinte días presenta lesiones eritematosas, con descamación en la cabeza y la zona interciliar, de aspecto amarillo y oleoso. Está de buen aspecto y ha subido de peso normalmente."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Una adolescente de quince años presenta lesiones en ambas orejas, que se extienden hasta el cuello. Tiene el antecedente de haberse hecho piercings hace una semana."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la indicación más adecuada?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: fórmula con proteína hidrolizada, crema de betametasona tópica, crema de clotrimazol tópico, vaselina tópica, o antibióticos tópicos. Piénsalo."
+      "text": "Las opciones: celulitis, erisipela, dermatitis de contacto alérgica, dermatitis de contacto irritativa, o piodermitis superficial. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la D, vaselina tópica. Es una dermatitis seborreica del lactante, la costra láctea, un cuadro benigno y autolimitado en un niño que además está sano y sube de peso. En los adultos, por ser causada por un hongo, se usan antimicóticos tópicos e incluso corticoides como segunda línea, pero en los niños se prefiere no hacer nada, o solo aplicar vaselina para ayudar a remover la descamación."
+      "text": "Es la C, dermatitis de contacto alérgica. La lesión aparece justo después de colocarse un piercing, y se extiende más allá del sitio del aro hacia el cuello, que es exactamente el signo que distingue a la alérgica de la irritativa: sobrepasar la zona de contacto. El alérgeno más probable es el níquel del piercing. La celulitis es poco probable, porque el pabellón auricular casi no tiene tejido celular subcutáneo."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. Si la lesión está en zonas seborreicas, piensa en la Malassezia. Si está donde hubo contacto con algo, piensa en irritante o en alérgeno."
+      "text": "Y una tercera pregunta real, también de julio de dos mil dieciséis. Un recién nacido de veinte días presenta lesiones eritematosas, con descamación en la cabeza y la zona interciliar, de aspecto amarillo y oleoso. Está de buen aspecto y ha subido de peso normalmente."
     },
     {
       "file": "s09_g01",
-      "text": "Entre las dos dermatitis de contacto, la irritativa queda confinada a la zona exacta y arde; la alérgica sobrepasa esa zona y pica intensamente, y se confirma con el patch test."
+      "text": "¿Cuál es la indicación más adecuada?"
     },
     {
       "file": "s09_g02",
+      "text": "Las opciones: fórmula con proteína hidrolizada, crema de betametasona tópica, crema de clotrimazol tópico, vaselina tópica, o antibióticos tópicos. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la D, vaselina tópica. Es una dermatitis seborreica del lactante, la costra láctea, un cuadro benigno y autolimitado en un niño que además está sano y sube de peso. En los adultos, por ser causada por un hongo, se usan antimicóticos tópicos e incluso corticoides como segunda línea, pero en los niños se prefiere no hacer nada, o solo aplicar vaselina para ayudar a remover la descamación."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Si la lesión está en zonas seborreicas, piensa en la Malassezia. Si está donde hubo contacto con algo, piensa en irritante o en alérgeno."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Entre las dos dermatitis de contacto, la irritativa queda confinada a la zona exacta y arde; la alérgica sobrepasa esa zona y pica intensamente, y se confirma con el patch test."
+    },
+    {
+      "file": "s10_g02",
       "text": "Y si ves una dermatitis seborreica severa, extensa y refractaria en un adulto joven, es una bandera roja para pedir el test de VIH. Si te llevas una sola idea de hoy: mira dónde está la lesión, y si sobrepasa el contacto, es alérgica. Nos vemos en la próxima clase."
     }
   ]

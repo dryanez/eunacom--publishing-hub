@@ -2,7 +2,7 @@
   "id": "resp-16",
   "title": "Neumología 4.1: Nódulo Pulmonar Solitario (NPS): Evaluación y Algoritmo Fleischner",
   "specialty": "Neumología",
-  "chars": 8211,
+  "chars": 8411,
   "segments": [
     {
       "file": "s00_g00",
@@ -78,79 +78,67 @@
     },
     {
       "file": "s04_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aparece un nódulo en una radiografía o una TAC. Antes de pedir nada, hay una pregunta que se responde con el archivo del paciente."
-    },
-    {
-      "file": "s04_g01",
-      "text": "¿Existen imágenes previas para comparar?"
-    },
-    {
-      "file": "s04_g02",
-      "text": "Si el nódulo está igual por dos años o más, es benigno, y no requiere más estudios."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Si no hay previas o el nódulo es nuevo, TAC de tórax de cortes finos. Ahora mandan el tamaño y el riesgo del paciente."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Menos de seis milímetros: sin seguimiento en bajo riesgo, y una TAC opcional a los doce meses en alto riesgo."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Entre seis y ocho milímetros: TAC de control a los seis a doce meses y a los dieciocho a veinticuatro, buscando crecimiento."
-    },
-    {
-      "file": "s04_g06",
-      "text": "Sobre ocho milímetros con probabilidad intermedia: PET-CT. Si capta con avidez, se va a biopsia."
-    },
-    {
-      "file": "s04_g07",
-      "text": "Sobre ocho milímetros con probabilidad alta: tejido. Biopsia percutánea guiada por TAC, broncoscópica, o resección por videotoracoscopía."
+      "text": "Este nódulo tiene bordes irregulares, con prolongaciones hacia el pulmón. Ese borde espiculado sugiere malignidad. Un nódulo liso, con calcificación central o en palomitas de maíz, sugiere benignidad."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos el contraste. Tamaño: menos de seis milímetros y estable por dos años es benigno; más de ocho a diez milímetros, o que crece en los controles, sugiere cáncer."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aparece un nódulo en una radiografía o una TAC. Antes de pedir nada, hay una pregunta que se responde con el archivo del paciente."
     },
     {
       "file": "s05_g01",
-      "text": "Bordes: lisos y netos en lo benigno; espiculados, como una corona, en lo maligno."
+      "text": "¿Existen imágenes previas para comparar?"
     },
     {
       "file": "s05_g02",
-      "text": "Calcificación: central, concéntrica o en popcorn es benigna. Ausente, excéntrica o punteada no tranquiliza."
+      "text": "Si el nódulo está igual por dos años o más, es benigno, y no requiere más estudios."
     },
     {
       "file": "s05_g03",
-      "text": "Densidad: sólida homogénea, o con grasa como en el hamartoma, en lo benigno; parcialmente sólida, en vidrio esmerilado, en lo maligno."
+      "text": "Si no hay previas o el nódulo es nuevo, TAC de tórax de cortes finos. Ahora mandan el tamaño y el riesgo del paciente."
     },
     {
       "file": "s05_g04",
-      "text": "Localización: lo benigno puede estar en cualquier parte; el cáncer predomina en los lóbulos superiores."
+      "text": "Menos de seis milímetros: sin seguimiento en bajo riesgo, y una TAC opcional a los doce meses en alto riesgo."
     },
     {
       "file": "s05_g05",
-      "text": "Y la conducta: comparar con previas y observar si todo es benigno; PET-CT, biopsia o resección por videotoracoscopía si sugiere cáncer."
+      "text": "Entre seis y ocho milímetros: TAC de control a los seis a doce meses y a los dieciocho a veinticuatro, buscando crecimiento."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Sobre ocho milímetros con probabilidad intermedia: PET-CT. Si capta con avidez, se va a biopsia."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Sobre ocho milímetros con probabilidad alta: tejido. Biopsia percutánea guiada por TAC, broncoscópica, o resección por videotoracoscopía."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos con un caso. Hombre de cincuenta y cinco años, fumador de veinticinco paquetes año, sin síntomas. Una TAC pedida por otro motivo muestra un nódulo sólido de siete milímetros en el lóbulo superior derecho, de bordes lisos y sin calcio. No hay imágenes previas."
+      "text": "Repasemos el contraste. Tamaño: menos de seis milímetros y estable por dos años es benigno; más de ocho a diez milímetros, o que crece en los controles, sugiere cáncer."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Bordes: lisos y netos en lo benigno; espiculados, como una corona, en lo maligno."
     },
     {
       "file": "s06_g02",
-      "text": "Las alternativas: no seguir, TAC de control a los seis a doce meses y luego a los dieciocho a veinticuatro, PET-CT, biopsia percutánea, o lobectomía. Piénsalo."
+      "text": "Calcificación: central, concéntrica o en popcorn es benigna. Ausente, excéntrica o punteada no tranquiliza."
     },
     {
       "file": "s06_g03",
-      "text": "Es la B. Como no hay previas con qué comparar, manda el tamaño: siete milímetros está en el rango de seis a ocho, y ese nódulo se vigila con TAC seriada. El distractor tentador es el PET, porque el paciente es fumador, pero el PET se reserva para nódulos de más de ocho milímetros. Y no seguirlo sería un error en un nódulo de ese tamaño."
+      "text": "Densidad: sólida homogénea, o con grasa como en el hamartoma, en lo benigno; parcialmente sólida, en vidrio esmerilado, en lo maligno."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Localización: lo benigno puede estar en cualquier parte; el cáncer predomina en los lóbulos superiores."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Y la conducta: comparar con previas y observar si todo es benigno; PET-CT, biopsia o resección por videotoracoscopía si sugiere cáncer."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de sesenta años, fumadora de treinta paquetes año, con compromiso del estado general y baja de peso. La radiografía mostraba un nódulo pulmonar solitario parahiliar derecho."
+      "text": "Vamos con un caso. Hombre de cincuenta y cinco años, fumador de veinticinco paquetes año, sin síntomas. Una TAC pedida por otro motivo muestra un nódulo sólido de siete milímetros en el lóbulo superior derecho, de bordes lisos y sin calcio. No hay imágenes previas."
     },
     {
       "file": "s07_g01",
@@ -158,46 +146,62 @@
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: TAC de tórax, punción transpleural, tubo pleural, toracocentesis, o broncoscopía rígida. Piénsalo."
+      "text": "Las alternativas: no seguir, TAC de control a los seis a doce meses y luego a los dieciocho a veinticuatro, PET-CT, biopsia percutánea, o lobectomía. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la A, TAC de tórax. No hay radiografías previas que comparar, así que el siguiente paso es caracterizar el nódulo con TAC. La biopsia vendrá después, según lo que muestre. Y fíjate en los distractores: el tubo pleural y la toracocentesis son para aire o líquido en la pleura, no para un nódulo."
+      "text": "Es la B. Como no hay previas con qué comparar, manda el tamaño: siete milímetros está en el rango de seis a ocho, y ese nódulo se vigila con TAC seriada. El distractor tentador es el PET, porque el paciente es fumador, pero el PET se reserva para nódulos de más de ocho milímetros. Y no seguirlo sería un error en un nódulo de ese tamaño."
     },
     {
       "file": "s08_g00",
-      "text": "La siguiente es del EUNACOM de diciembre de dos mil dieciocho. Paciente de setenta y seis años, exminero y fumador, con dos meses de tos, disnea y expectoración con estrías de sangre, baja de peso y astenia. La radiografía mostraba un nódulo pulmonar."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de sesenta años, fumadora de treinta paquetes año, con compromiso del estado general y baja de peso. La radiografía mostraba un nódulo pulmonar solitario parahiliar derecho."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el examen más adecuado para proseguir el estudio?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: TAC de tórax, broncoscopía, baciloscopías, PET, o resonancia magnética. Piénsalo."
+      "text": "Las opciones: TAC de tórax, punción transpleural, tubo pleural, toracocentesis, o broncoscopía rígida. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A, TAC de tórax. Aunque este paciente tiene mucha sospecha de cáncer, el orden no cambia: primero la TAC, que caracteriza el nódulo y lo etapifica. El PET es el distractor más tentador, y el mismo banco reconoce que es discutible, pero en el algoritmo va después de la TAC. Y la broncoscopía, para obtener tejido, viene al final."
+      "text": "Es la A, TAC de tórax. No hay radiografías previas que comparar, así que el siguiente paso es caracterizar el nódulo con TAC. La biopsia vendrá después, según lo que muestre. Y fíjate en los distractores: el tubo pleural y la toracocentesis son para aire o líquido en la pleura, no para un nódulo."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. Frente a un nódulo, lo primero es buscar imágenes previas. Si está igual por dos años o más, es benigno y no se estudia más."
+      "text": "La siguiente es del EUNACOM de diciembre de dos mil dieciocho. Paciente de setenta y seis años, exminero y fumador, con dos meses de tos, disnea y expectoración con estrías de sangre, baja de peso y astenia. La radiografía mostraba un nódulo pulmonar."
     },
     {
       "file": "s09_g01",
-      "text": "Si no hay previas, la TAC de tórax va antes que el PET o la biopsia."
+      "text": "¿Cuál es el examen más adecuado para proseguir el estudio?"
     },
     {
       "file": "s09_g02",
-      "text": "En la TAC, la calcificación en popcorn es patognomónica de hamartoma, y la central o concéntrica también tranquiliza."
+      "text": "Las alternativas: TAC de tórax, broncoscopía, baciloscopías, PET, o resonancia magnética. Piénsalo."
     },
     {
       "file": "s09_g03",
+      "text": "Es la A, TAC de tórax. Aunque este paciente tiene mucha sospecha de cáncer, el orden no cambia: primero la TAC, que caracteriza el nódulo y lo etapifica. El PET es el distractor más tentador, y el mismo banco reconoce que es discutible, pero en el algoritmo va después de la TAC. Y la broncoscopía, para obtener tejido, viene al final."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Frente a un nódulo, lo primero es buscar imágenes previas. Si está igual por dos años o más, es benigno y no se estudia más."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Si no hay previas, la TAC de tórax va antes que el PET o la biopsia."
+    },
+    {
+      "file": "s10_g02",
+      "text": "En la TAC, la calcificación en popcorn es patognomónica de hamartoma, y la central o concéntrica también tranquiliza."
+    },
+    {
+      "file": "s10_g03",
       "text": "Los bordes espiculados, el tamaño sobre ocho milímetros y el lóbulo superior hacen sospechar cáncer."
     },
     {
-      "file": "s09_g04",
+      "file": "s10_g04",
       "text": "Y el tamaño decide: de seis a ocho milímetros, TAC de control; sobre ocho, PET-CT si la probabilidad es intermedia, o biopsia si es alta. Si te llevas una sola idea de hoy: antes de pedir cualquier examen, busca la radiografía antigua. En la próxima clase seguimos con el cáncer pulmonar. Nos vemos en la próxima clase."
     }
   ]

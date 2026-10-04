@@ -112,6 +112,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Parto prematuro',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg', label: 'Cervicometría', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159' },
+      ],
+      steps: [
+        { note: 'Cuello corto',
+          say: 'Un cuello corto en la ecografía transvaginal predice parto prematuro.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos los cuatro pilares del manejo en un solo árbol.',
     },

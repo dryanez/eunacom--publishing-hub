@@ -99,6 +99,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Quemadura química',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg', label: 'Quemadura química', credit: 'Kanski, p. 895' },
+      ],
+      steps: [
+        { note: 'Isquemia del limbo',
+          say: 'La quemadura química se lava antes de cualquier examen. La isquemia del limbo marca la gravedad.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

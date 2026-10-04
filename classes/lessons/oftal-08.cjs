@@ -85,6 +85,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Catarata',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg', label: 'Catarata', credit: 'Manual AMIR Oftalmología, p. 40' },
+        { src: 'biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg', label: 'Leucocoria', credit: 'Manual AMIR Oftalmología, p. 55' },
+      ],
+      steps: [
+        { note: 'Cristalino opaco',
+          say: 'La catarata es la opacidad del cristalino. Se trata con cirugía.' },
+        { note: 'Pupila blanca en un niño',
+          say: 'Y la leucocoria, pupila blanca en un niño, obliga a descartar retinoblastoma.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

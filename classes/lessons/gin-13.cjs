@@ -183,6 +183,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Colposcopía',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg', label: 'Lesión de bajo grado', credit: 'Williams Gynecology 4.ª ed., Fig. 29-12' },
+        { src: 'biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg', label: 'Lesión de alto grado', credit: 'Williams Gynecology 4.ª ed., Fig. 29-13' },
+      ],
+      steps: [
+        { note: 'Blanco brillante tras ácido acético',
+          say: 'Tras el ácido acético, la lesión de bajo grado se ve blanca brillante, de bordes irregulares.' },
+        { note: 'Blanco opaco con vasos gruesos',
+          say: 'La de alto grado es blanca opaca, con vasos gruesos. Se biopsia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo el razonamiento, desde el PAP alterado hasta la decisión final, en un solo árbol.',
     },

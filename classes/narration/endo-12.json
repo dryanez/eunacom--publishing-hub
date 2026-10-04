@@ -2,7 +2,7 @@
   "id": "endo-12",
   "title": "Endocrinología 7.12: Insuficiencia Suprarrenal Crónica: Primaria (Addison) versus Secundaria",
   "specialty": "Endocrinología",
-  "chars": 12708,
+  "chars": 12963,
   "segments": [
     {
       "file": "s00_g00",
@@ -126,146 +126,154 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol de decisión, desde la sospecha hasta el tratamiento de cada tipo. Parte con un paciente con astenia progresiva, baja de peso, náuseas e hipotensión postural."
+      "text": "En el Addison la piel se oscurece, sobre todo en zonas expuestas, cicatrices y mucosas. Se debe al exceso de ACTH."
     },
     {
       "file": "s07_g01",
-      "text": "El primer examen es el cortisol plasmático de las ocho de la mañana."
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si está sobre quince a dieciocho, se descarta la insuficiencia suprarrenal."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Si está entre tres y quince, test de Synacthen: si el cortisol no llega a dieciocho, se confirma."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Si está bajo tres, la insuficiencia está confirmada, y la ACTH define el nivel del defecto."
-    },
-    {
-      "file": "s07_g05",
-      "text": "ACTH alta: Addison, con hiperpigmentación e hiperkalemia. Se trata con hidrocortisona más fludrocortisona."
-    },
-    {
-      "file": "s07_g06",
-      "text": "ACTH baja o normal: insuficiencia central, por corticoides suspendidos o daño hipofisario. Se trata solo con hidrocortisona."
+      "text": "Fíjate en los pliegues de las palmas, oscuros. Esa hiperpigmentación no aparece en la insuficiencia secundaria, porque ahí la ACTH está baja."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos lado a lado. La causa más frecuente: autoinmune en la primaria, y el retiro brusco de corticoides en la secundaria."
+      "text": "Juntemos todo en un árbol de decisión, desde la sospecha hasta el tratamiento de cada tipo. Parte con un paciente con astenia progresiva, baja de peso, náuseas e hipotensión postural."
     },
     {
       "file": "s08_g01",
-      "text": "La piel: oscura en el Addison, pálida en la secundaria."
+      "text": "El primer examen es el cortisol plasmático de las ocho de la mañana."
     },
     {
       "file": "s08_g02",
-      "text": "El potasio: alto en el Addison, normal en la secundaria. La trampa es pensar que toda insuficiencia suprarrenal da hiperkalemia."
+      "text": "Si está sobre quince a dieciocho, se descarta la insuficiencia suprarrenal."
     },
     {
       "file": "s08_g03",
-      "text": "El sodio puede estar bajo en ambas, por eso no discrimina."
+      "text": "Si está entre tres y quince, test de Synacthen: si el cortisol no llega a dieciocho, se confirma."
     },
     {
       "file": "s08_g04",
-      "text": "La ACTH: muy alta en el Addison, baja o normal en la secundaria."
+      "text": "Si está bajo tres, la insuficiencia está confirmada, y la ACTH define el nivel del defecto."
     },
     {
       "file": "s08_g05",
-      "text": "Y la fludrocortisona: obligatoria en el Addison, nunca en la secundaria."
+      "text": "ACTH alta: Addison, con hiperpigmentación e hiperkalemia. Se trata con hidrocortisona más fludrocortisona."
+    },
+    {
+      "file": "s08_g06",
+      "text": "ACTH baja o normal: insuficiencia central, por corticoides suspendidos o daño hipofisario. Se trata solo con hidrocortisona."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos a un caso. Mujer de cuarenta y cinco años con astenia de cuatro meses, cinco kilos menos y mareo al pararse. Presión de cien con sesenta y cinco, sin hiperpigmentación. Sodio de ciento treinta y cuatro, potasio normal. El cortisol de las ocho de la mañana es nueve."
+      "text": "Repasemos lado a lado. La causa más frecuente: autoinmune en la primaria, y el retiro brusco de corticoides en la secundaria."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el paso siguiente más adecuado?"
+      "text": "La piel: oscura en el Addison, pálida en la secundaria."
     },
     {
       "file": "s09_g02",
-      "text": "Las alternativas: descartar la insuficiencia porque el cortisol es normal, test de Synacthen, iniciar hidrocortisona con fludrocortisona, test de supresión con dexametasona, o tomografía de suprarrenales. Piénsalo."
+      "text": "El potasio: alto en el Addison, normal en la secundaria. La trampa es pensar que toda insuficiencia suprarrenal da hiperkalemia."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B, el test de Synacthen. Nueve está entre tres y quince: es la zona gris, que ni confirma ni descarta. El distractor tentador es la A, porque nueve parece un valor normal, pero bajo quince no puedes descartar. La dexametasona es para el Cushing, y la fludrocortisona se adelanta: sin hiperpigmentación y con potasio normal, esto huele a secundaria, que ni siquiera la necesitaría."
+      "text": "El sodio puede estar bajo en ambas, por eso no discrimina."
+    },
+    {
+      "file": "s09_g04",
+      "text": "La ACTH: muy alta en el Addison, baja o normal en la secundaria."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Y la fludrocortisona: obligatoria en el Addison, nunca en la secundaria."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora, preguntas reales. La primera es del EUNACOM de julio de dos mil quince. Paciente alcohólico, en situación de calle, tratado por tuberculosis hace dos años. Lleva meses con diarrea, baja de peso y malestar. Está muy delgado, con hiperpigmentación de los pliegues y manchas oscuras en la mucosa oral. El potasio es cinco coma cinco y el sodio ciento treinta y dos."
+      "text": "Vamos a un caso. Mujer de cuarenta y cinco años con astenia de cuatro meses, cinco kilos menos y mareo al pararse. Presión de cien con sesenta y cinco, sin hiperpigmentación. Sodio de ciento treinta y cuatro, potasio normal. El cortisol de las ocho de la mañana es nueve."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el paso siguiente más adecuado?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: síndrome paraneoplásico, desnutrición proteica, enfermedad de Addison, cáncer de sitio no precisado, o pancreatitis crónica. Piénsalo."
+      "text": "Las alternativas: descartar la insuficiencia porque el cortisol es normal, test de Synacthen, iniciar hidrocortisona con fludrocortisona, test de supresión con dexametasona, o tomografía de suprarrenales. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la C, enfermedad de Addison, probablemente por tuberculosis suprarrenal. La piel oscura con melanoplaquias y el potasio alto apuntan a la primaria. El distractor tentador es el síndrome paraneoplásico, porque un Cushing ectópico también oscurece la piel; pero, como vimos la clase pasada, ese da potasio bajo, no alto."
+      "text": "Es la B, el test de Synacthen. Nueve está entre tres y quince: es la zona gris, que ni confirma ni descarta. El distractor tentador es la A, porque nueve parece un valor normal, pero bajo quince no puedes descartar. La dexametasona es para el Cushing, y la fludrocortisona se adelanta: sin hiperpigmentación y con potasio normal, esto huele a secundaria, que ni siquiera la necesitaría."
     },
     {
       "file": "s11_g00",
-      "text": "La segunda es del EUNACOM de diciembre de dos mil diecinueve. Adolescente de catorce años con dolor abdominal y vómitos de tres días, tendiendo a la deshidratación. Hace dos meses lo hospitalizaron por lo mismo. Tiene glicemia de treinta y seis, sodio de ciento veintiséis, potasio de cinco coma ocho y acidosis metabólica."
+      "text": "Ahora, preguntas reales. La primera es del EUNACOM de julio de dos mil quince. Paciente alcohólico, en situación de calle, tratado por tuberculosis hace dos años. Lleva meses con diarrea, baja de peso y malestar. Está muy delgado, con hiperpigmentación de los pliegues y manchas oscuras en la mucosa oral. El potasio es cinco coma cinco y el sodio ciento treinta y dos."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: cortisol basal, curva de tolerancia a la glucosa con insulina, creatinina, amilasa, o endoscopía. Piénsalo."
+      "text": "Las opciones: síndrome paraneoplásico, desnutrición proteica, enfermedad de Addison, cáncer de sitio no precisado, o pancreatitis crónica. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A, el cortisol basal. Hipoglicemia, sodio bajo y potasio alto en un paciente que se descompensa una y otra vez con cuadros digestivos: es una insuficiencia suprarrenal. El distractor tentador es la curva de glucosa con insulina, por la hipoglicemia, pero no explica el potasio alto. Y recuerda que si el cortisol queda en la zona gris, se completa con el Synacthen."
+      "text": "Es la C, enfermedad de Addison, probablemente por tuberculosis suprarrenal. La piel oscura con melanoplaquias y el potasio alto apuntan a la primaria. El distractor tentador es el síndrome paraneoplásico, porque un Cushing ectópico también oscurece la piel; pero, como vimos la clase pasada, ese da potasio bajo, no alto."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora dos casos representativos del banco, sobre el tratamiento y la forma secundaria. El primero: hombre de cuarenta y dos años, débil, con náuseas, seis kilos menos e hipotenso. Tiene hiperpigmentación en los surcos de las manos, los codos y las encías. Sodio ciento veintinueve, potasio cinco coma ocho, cortisol de dos y ACTH de ciento ochenta."
+      "text": "La segunda es del EUNACOM de diciembre de dos mil diecinueve. Adolescente de catorce años con dolor abdominal y vómitos de tres días, tendiendo a la deshidratación. Hace dos meses lo hospitalizaron por lo mismo. Tiene glicemia de treinta y seis, sodio de ciento veintiséis, potasio de cinco coma ocho y acidosis metabólica."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el tratamiento sustitutivo crónico de elección?"
+      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: hidrocortisona sola, prednisona con espironolactona, hidrocortisona con fludrocortisona, dexametasona nocturna, o fludrocortisona sola. Piénsalo."
+      "text": "Las opciones: cortisol basal, curva de tolerancia a la glucosa con insulina, creatinina, amilasa, o endoscopía. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, hidrocortisona más fludrocortisona. Es un Addison: piel oscura, potasio alto, ACTH alta. Falta el cortisol y falta la aldosterona, así que se reemplazan las dos. El distractor tentador es la hidrocortisona sola, que sería lo correcto en una secundaria, pero aquí dejaría la hiperkalemia sin corregir. Y la espironolactona empeoraría el potasio."
+      "text": "Es la A, el cortisol basal. Hipoglicemia, sodio bajo y potasio alto en un paciente que se descompensa una y otra vez con cuadros digestivos: es una insuficiencia suprarrenal. El distractor tentador es la curva de glucosa con insulina, por la hipoglicemia, pero no explica el potasio alto. Y recuerda que si el cortisol queda en la zona gris, se completa con el Synacthen."
     },
     {
       "file": "s13_g00",
-      "text": "El segundo: mujer de cincuenta y ocho años con artritis reumatoide, que tomó quince miligramos de prednisona al día por dos años y la suspendió de golpe. Cinco días después está muy débil, con náuseas e hipotensión postural. Piel pálida, potasio normal, ACTH de cuatro y cortisol de dos coma uno."
+      "text": "Ahora dos casos representativos del banco, sobre el tratamiento y la forma secundaria. El primero: hombre de cuarenta y dos años, débil, con náuseas, seis kilos menos e hipotenso. Tiene hiperpigmentación en los surcos de las manos, los codos y las encías. Sodio ciento veintinueve, potasio cinco coma ocho, cortisol de dos y ACTH de ciento ochenta."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es el mecanismo principal que explica este cuadro?"
+      "text": "¿Cuál es el tratamiento sustitutivo crónico de elección?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: destrucción autoinmune, supresión del eje por el corticoide con aldosterona preservada, falla mineralocorticoide primaria, secreción ectópica de péptidos, o lisis suprarrenal por nefropatía. Piénsalo."
+      "text": "Las opciones: hidrocortisona sola, prednisona con espironolactona, hidrocortisona con fludrocortisona, dexametasona nocturna, o fludrocortisona sola. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. Dos años de prednisona frenaron la ACTH y atrofiaron la suprarrenal; al cortarla, falta cortisol. Pero la aldosterona depende del sistema renina angiotensina, así que sigue funcionando: por eso el potasio es normal y la piel pálida. El distractor tentador es la destrucción autoinmune, pero eso sería un Addison, con ACTH alta, piel oscura y potasio alto."
+      "text": "Es la C, hidrocortisona más fludrocortisona. Es un Addison: piel oscura, potasio alto, ACTH alta. Falta el cortisol y falta la aldosterona, así que se reemplazan las dos. El distractor tentador es la hidrocortisona sola, que sería lo correcto en una secundaria, pero aquí dejaría la hiperkalemia sin corregir. Y la espironolactona empeoraría el potasio."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Addison: piel oscura y potasio alto, porque la ACTH sube y falta la aldosterona. Secundaria: piel pálida y potasio normal, porque la aldosterona funciona."
+      "text": "El segundo: mujer de cincuenta y ocho años con artritis reumatoide, que tomó quince miligramos de prednisona al día por dos años y la suspendió de golpe. Cinco días después está muy débil, con náuseas e hipotensión postural. Piel pálida, potasio normal, ACTH de cuatro y cortisol de dos coma uno."
     },
     {
       "file": "s14_g01",
-      "text": "Para diagnosticar, cortisol de la mañana: bajo tres confirma, y entre tres y quince se hace el Synacthen, donde lo normal es subir a dieciocho o más. Después, la ACTH dice si es primaria o secundaria."
+      "text": "¿Cuál es el mecanismo principal que explica este cuadro?"
     },
     {
       "file": "s14_g02",
+      "text": "Las opciones: destrucción autoinmune, supresión del eje por el corticoide con aldosterona preservada, falla mineralocorticoide primaria, secreción ectópica de péptidos, o lisis suprarrenal por nefropatía. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B. Dos años de prednisona frenaron la ACTH y atrofiaron la suprarrenal; al cortarla, falta cortisol. Pero la aldosterona depende del sistema renina angiotensina, así que sigue funcionando: por eso el potasio es normal y la piel pálida. El distractor tentador es la destrucción autoinmune, pero eso sería un Addison, con ACTH alta, piel oscura y potasio alto."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Addison: piel oscura y potasio alto, porque la ACTH sube y falta la aldosterona. Secundaria: piel pálida y potasio normal, porque la aldosterona funciona."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Para diagnosticar, cortisol de la mañana: bajo tres confirma, y entre tres y quince se hace el Synacthen, donde lo normal es subir a dieciocho o más. Después, la ACTH dice si es primaria o secundaria."
+    },
+    {
+      "file": "s15_g02",
       "text": "Para tratar, reemplaza lo que falta: hidrocortisona en ambas, fludrocortisona solo en el Addison, y enseña a duplicar o triplicar la dosis ante el estrés. Si te llevas una sola idea de hoy: la aldosterona no depende de la ACTH, y eso explica la piel, el potasio y el tratamiento. En la próxima clase vemos qué pasa cuando este paciente se descompensa: la crisis suprarrenal. Nos vemos en la próxima clase."
     }
   ]

@@ -151,6 +151,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Vértigo posicional',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg', label: 'Dix-Hallpike', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' },
+        { src: 'biblioteca/09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg', label: 'Epley', credit: 'Harrison 21.ª ed., p. 202' },
+      ],
+      steps: [
+        { note: 'Diagnostica el VPPB',
+          say: 'La maniobra de Dix Hallpike: se gira la cabeza cuarenta y cinco grados y se acuesta al paciente con la cabeza colgando. Si aparece vértigo y nistagmo, es un vértigo posicional.' },
+        { note: 'Trata el VPPB',
+          say: 'Y la maniobra de Epley lo trata: una secuencia de giros que devuelve los otolitos a su lugar.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

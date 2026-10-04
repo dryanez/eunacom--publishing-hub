@@ -194,6 +194,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Masas anexiales',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-15/02_quiste-simple-de-ovario__cto-gyo_p80.jpg', label: 'Quiste simple', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' },
+        { src: 'biblioteca/13_ginecologia/gin-15/01_masa-anexial-sospechosa-eco__cto-gyo_p80.jpg', label: 'Masa sospechosa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' },
+      ],
+      steps: [
+        { note: 'Pared delgada, anecogénico',
+          say: 'El quiste simple, de pared delgada y contenido negro, es benigno.' },
+        { note: 'Sólida, tabiques, flujo',
+          say: 'La masa con partes sólidas, tabiques gruesos y flujo es sospechosa de cáncer de ovario.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el sangrado postmenopáusico y la masa anexial en un solo árbol de decisión.',
     },

@@ -2,7 +2,7 @@
   "id": "ob-14",
   "title": "Obstetricia 19.14: Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
   "specialty": "Obstetricia",
-  "chars": 9440,
+  "chars": 9536,
   "segments": [
     {
       "file": "s00_g00",
@@ -90,59 +90,47 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora pongamos la edad gestacional y la infección en un solo árbol de decisión. Con la rotura ya confirmada, dos preguntas ordenan todo: qué edad gestacional tiene, y si hay o no signos de infección."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Si cumple los criterios de Gibbs, es una corioamnionitis clínica. Esto invalida cualquier conducta expectante: se interrumpe de inmediato, con antibióticos endovenosos, sin importar la edad gestacional."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Sin infección y con treinta y cuatro semanas o más, el riesgo de esperar ya supera al de nacer. Se induce el parto, con profilaxis para el estreptococo si el cultivo es positivo o desconocido."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Bajo las treinta y cuatro semanas y sin infección, hospitalizas en ARO, das corticoides para el pulmón fetal y antibióticos de latencia. Si es menor a treinta y dos semanas, sumas sulfato de magnesio para proteger el cerebro fetal."
+      "text": "El líquido amniótico cristaliza en forma de helecho al secarse. Confirma la rotura de membranas."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos en una tabla. RPM de treinta y cuatro semanas o más: se induce el parto. El error es esperar a que empiece solo."
+      "text": "Ahora pongamos la edad gestacional y la infección en un solo árbol de decisión. Con la rotura ya confirmada, dos preguntas ordenan todo: qué edad gestacional tiene, y si hay o no signos de infección."
     },
     {
       "file": "s06_g01",
-      "text": "RPM entre veinticuatro y treinta y tres más seis: antibióticos de latencia, corticoides y vigilancia. El error es interrumpir antes de tiempo, sin que haga falta."
+      "text": "Si cumple los criterios de Gibbs, es una corioamnionitis clínica. Esto invalida cualquier conducta expectante: se interrumpe de inmediato, con antibióticos endovenosos, sin importar la edad gestacional."
     },
     {
       "file": "s06_g02",
-      "text": "Ante la duda diagnóstica: especuloscopía y el test de microglobulina. El error clásico es meter el dedo para confirmar."
+      "text": "Sin infección y con treinta y cuatro semanas o más, el riesgo de esperar ya supera al de nacer. Se induce el parto, con profilaxis para el estreptococo si el cultivo es positivo o desconocido."
     },
     {
       "file": "s06_g03",
-      "text": "Con corioamnionitis clínica, se interrumpe ya, con antibióticos endovenosos. El error grave es seguir dando corticoides o tocolíticos, pensando solo en la prematurez."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Y si el parto es inminente antes de las treinta y dos semanas, no olvides el sulfato de magnesio, porque protege el cerebro del feto."
+      "text": "Bajo las treinta y cuatro semanas y sin infección, hospitalizas en ARO, das corticoides para el pulmón fetal y antibióticos de latencia. Si es menor a treinta y dos semanas, sumas sulfato de magnesio para proteger el cerebro fetal."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos con un caso. Primigesta de treinta semanas, hospitalizada hace tres días por rotura prematura de membranas, en manejo conservador. Ahora tiene fiebre de treinta y ocho y medio, calofríos y taquicardia materna. El útero está hipertónico y muy sensible al tacto, sale líquido amniótico purulento y de mal olor, el feto está taquicárdico, y el hemograma muestra leucocitosis con desviación a la izquierda."
+      "text": "Repasemos en una tabla. RPM de treinta y cuatro semanas o más: se induce el parto. El error es esperar a que empiece solo."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "RPM entre veinticuatro y treinta y tres más seis: antibióticos de latencia, corticoides y vigilancia. El error es interrumpir antes de tiempo, sin que haga falta."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: antipiréticos y tocolíticos esperando a las treinta y cuatro semanas, ampicilina más gentamicina e interrumpir ya, un segundo ciclo de betametasona, una amniocentesis con espera del cultivo, o sulfato de magnesio con conducta expectante. Piénsalo."
+      "text": "Ante la duda diagnóstica: especuloscopía y el test de microglobulina. El error clásico es meter el dedo para confirmar."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B. Fiebre, taquicardia materna y fetal, dolor uterino, líquido purulento y leucocitosis: cumple de sobra los criterios de Gibbs. Con una corioamnionitis clínica confirmada, no hay conducta expectante que valga, ni corticoides, ni tocolíticos. Se dan antibióticos endovenosos de amplio espectro y se interrumpe el embarazo de inmediato."
+      "text": "Con corioamnionitis clínica, se interrumpe ya, con antibióticos endovenosos. El error grave es seguir dando corticoides o tocolíticos, pensando solo en la prematurez."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y si el parto es inminente antes de las treinta y dos semanas, no olvides el sulfato de magnesio, porque protege el cerebro del feto."
     },
     {
       "file": "s08_g00",
-      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente multípara, con un embarazo de treinta y seis semanas, con pérdida de líquido hace una hora, confirmada con la prueba de microglobulina placentaria. La ecografía muestra el líquido disminuido, con el feto en cefálica y bienestar conservado."
+      "text": "Vamos con un caso. Primigesta de treinta semanas, hospitalizada hace tres días por rotura prematura de membranas, en manejo conservador. Ahora tiene fiebre de treinta y ocho y medio, calofríos y taquicardia materna. El útero está hipertónico y muy sensible al tacto, sale líquido amniótico purulento y de mal olor, el feto está taquicárdico, y el hemograma muestra leucocitosis con desviación a la izquierda."
     },
     {
       "file": "s08_g01",
@@ -150,15 +138,15 @@
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: cesárea, dar corticoides, inducir el parto, esperar cuarenta y ocho horas, o dar antibióticos. Piénsalo."
+      "text": "Las opciones: antipiréticos y tocolíticos esperando a las treinta y cuatro semanas, ampicilina más gentamicina e interrumpir ya, un segundo ciclo de betametasona, una amniocentesis con espera del cultivo, o sulfato de magnesio con conducta expectante. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C, inducir el parto. Con treinta y seis semanas ya cumplidas, la rotura de membranas se interrumpe de inmediato si no hay ninguna contraindicación para el parto vaginal. Los corticoides y los antibióticos de latencia son para las gestaciones bajo las treinta y cuatro semanas, y aquí ya la pasó."
+      "text": "Es la B. Fiebre, taquicardia materna y fetal, dolor uterino, líquido purulento y leucocitosis: cumple de sobra los criterios de Gibbs. Con una corioamnionitis clínica confirmada, no hay conducta expectante que valga, ni corticoides, ni tocolíticos. Se dan antibióticos endovenosos de amplio espectro y se interrumpe el embarazo de inmediato."
     },
     {
       "file": "s09_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veintiocho años, con un embarazo de treinta y dos semanas, sin controles previos, con pérdida de líquido amniótico. Tiene fiebre de treinta y ocho y medio, y una frecuencia cardíaca de ciento diez. La especuloscopía confirma la salida de líquido, el feto está taquicárdico a ciento ochenta, y la ecografía muestra oligoamnios."
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente multípara, con un embarazo de treinta y seis semanas, con pérdida de líquido hace una hora, confirmada con la prueba de microglobulina placentaria. La ecografía muestra el líquido disminuido, con el feto en cefálica y bienestar conservado."
     },
     {
       "file": "s09_g01",
@@ -166,15 +154,15 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: interrumpir el embarazo, dar corticoides y antibióticos con conducta expectante, pedir un doppler materno fetal, hacer una amniocentesis, o hacer una amnioinfusión con surfactante. Piénsalo."
+      "text": "Las opciones: cesárea, dar corticoides, inducir el parto, esperar cuarenta y ocho horas, o dar antibióticos. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Fiebre materna con taquicardia materna y fetal en una rotura de membranas de pretérmino ya cumple los criterios de corioamnionitis clínica. Y la corioamnionitis gana por encima de la edad gestacional: se interrumpe, aunque tenga solo treinta y dos semanas. Dar corticoides y esperar sería un error grave frente a una infección activa."
+      "text": "Es la C, inducir el parto. Con treinta y seis semanas ya cumplidas, la rotura de membranas se interrumpe de inmediato si no hay ninguna contraindicación para el parto vaginal. Los corticoides y los antibióticos de latencia son para las gestaciones bajo las treinta y cuatro semanas, y aquí ya la pasó."
     },
     {
       "file": "s10_g00",
-      "text": "Una más del banco. Primigesta de treinta semanas, con pérdida repentina de líquido claro hace cuatro horas, con olor a lavandina, sin dolor ni contracciones. Está afebril, sus signos vitales son normales, y la especuloscopía confirma la salida de líquido al toser. El feto está reactivo, y no hay dinámica uterina."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de veintiocho años, con un embarazo de treinta y dos semanas, sin controles previos, con pérdida de líquido amniótico. Tiene fiebre de treinta y ocho y medio, y una frecuencia cardíaca de ciento diez. La especuloscopía confirma la salida de líquido, el feto está taquicárdico a ciento ochenta, y la ecografía muestra oligoamnios."
     },
     {
       "file": "s10_g01",
@@ -182,22 +170,38 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: hospitalizar en ARO con betametasona y antibióticos de latencia, reposo domiciliario, inducir con misoprostol de inmediato, cesárea en las próximas horas, o tocolisis de mantención por dos semanas. Piénsalo."
+      "text": "Las opciones: interrumpir el embarazo, dar corticoides y antibióticos con conducta expectante, pedir un doppler materno fetal, hacer una amniocentesis, o hacer una amnioinfusión con surfactante. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Es una RPM de pretérmino, sin fiebre ni signos de infección: manejo conservador, hospitalizada en una unidad de alto riesgo obstétrico, con betametasona para el pulmón fetal y antibióticos de latencia para ganar tiempo. El reposo en casa es peligroso, y la tocolisis de mantención no está indicada más allá de las cuarenta y ocho horas."
+      "text": "Es la A. Fiebre materna con taquicardia materna y fetal en una rotura de membranas de pretérmino ya cumple los criterios de corioamnionitis clínica. Y la corioamnionitis gana por encima de la edad gestacional: se interrumpe, aunque tenga solo treinta y dos semanas. Dar corticoides y esperar sería un error grave frente a una infección activa."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. El diagnóstico se confirma con especuloscopía, nunca con un tacto vaginal digital."
+      "text": "Una más del banco. Primigesta de treinta semanas, con pérdida repentina de líquido claro hace cuatro horas, con olor a lavandina, sin dolor ni contracciones. Está afebril, sus signos vitales son normales, y la especuloscopía confirma la salida de líquido al toser. El feto está reactivo, y no hay dinámica uterina."
     },
     {
       "file": "s11_g01",
-      "text": "Con treinta y cuatro semanas o más, se induce el parto. Antes de eso, corticoides, antibióticos de latencia, y sulfato de magnesio si es menor a treinta y dos."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
+      "text": "Las opciones: hospitalizar en ARO con betametasona y antibióticos de latencia, reposo domiciliario, inducir con misoprostol de inmediato, cesárea en las próximas horas, o tocolisis de mantención por dos semanas. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. Es una RPM de pretérmino, sin fiebre ni signos de infección: manejo conservador, hospitalizada en una unidad de alto riesgo obstétrico, con betametasona para el pulmón fetal y antibióticos de latencia para ganar tiempo. El reposo en casa es peligroso, y la tocolisis de mantención no está indicada más allá de las cuarenta y ocho horas."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. El diagnóstico se confirma con especuloscopía, nunca con un tacto vaginal digital."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Con treinta y cuatro semanas o más, se induce el parto. Antes de eso, corticoides, antibióticos de latencia, y sulfato de magnesio si es menor a treinta y dos."
+    },
+    {
+      "file": "s12_g02",
       "text": "Y si aparece fiebre con dos criterios de Gibbs, la corioamnionitis gana por encima de todo: se interrumpe de inmediato, con antibióticos endovenosos, sin importar la edad gestacional. Si te llevas una sola idea de hoy: la edad gestacional decide, salvo que haya infección, porque ahí la infección decide todo. Nos vemos en la próxima clase."
     }
   ]

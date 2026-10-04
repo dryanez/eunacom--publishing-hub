@@ -139,6 +139,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Fibrosis pulmonar idiopática',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg', label: 'Panal de abejas', credit: 'Manual CTO Neumología 14.ª ed., p. 73' },
+        { src: 'biblioteca/02_neumologia/resp-18/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', credit: 'Manual AMIR Reumatología, p. 113' },
+      ],
+      steps: [
+        { note: 'Quistes subpleurales en las bases',
+          say: 'En la fibrosis pulmonar idiopática la tomografía muestra quistes pequeños, apilados, en la periferia de las bases: el panal de abejas. Con ese patrón no se necesita biopsia.' },
+        { note: 'Frecuentes en la fibrosis',
+          say: 'Y las acropaquias aparecen en muchos de estos pacientes, junto con los crépitos en velcro.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

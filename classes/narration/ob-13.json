@@ -2,7 +2,7 @@
   "id": "ob-13",
   "title": "Obstetricia 19.13: Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
   "specialty": "Obstetricia",
-  "chars": 11111,
+  "chars": 11388,
   "segments": [
     {
       "file": "s00_g00",
@@ -110,79 +110,71 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora juntemos los cuatro cuadros en un solo árbol de decisión. Juntemos los cuatro cuadros en un árbol. Siempre parte igual: nunca metas el dedo antes de saber dónde está la placenta."
+      "text": "En la placenta previa la placenta cubre el orificio: sangrado indoloro. En el desprendimiento, la placenta normoinserta se despega: dolor y útero duro. Nunca tacto vaginal sin descartar placenta previa."
     },
     {
       "file": "s05_g01",
-      "text": "Sangre roja fresca, sin dolor, útero blando: placenta previa. Confirmas con ecografía transvaginal, y programas cesárea electiva a las treinta y siete semanas."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Dolor intenso, útero duro como madera, sangre oscura: desprendimiento de placenta. Cesárea de urgencia inmediata, y ojo, la eco normal no lo descarta."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Dolor desgarrador que cede junto con las contracciones, y la presentación fetal asciende, en una paciente con cesárea previa: rotura uterina. Laparotomía de urgencia."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Sangrado inmediato al romper membranas, con bradicardia fetal catastrófica y la madre estable: rotura de vasa previa. La sangre es del feto, y no hay minutos que perder: cesárea en minutos."
+      "text": "Y estos son los tipos de placenta previa según su relación con el orificio."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos en una tabla. Placenta previa: indolora, útero blando, sangre roja fresca. Eco transvaginal, y cesárea a las treinta y siete semanas."
+      "text": "Ahora juntemos los cuatro cuadros en un solo árbol de decisión. Juntemos los cuatro cuadros en un árbol. Siempre parte igual: nunca metas el dedo antes de saber dónde está la placenta."
     },
     {
       "file": "s06_g01",
-      "text": "Desprendimiento: dolor intenso, útero leñoso. Y ojo, una ecografía normal no lo descarta. Cesárea de urgencia."
+      "text": "Sangre roja fresca, sin dolor, útero blando: placenta previa. Confirmas con ecografía transvaginal, y programas cesárea electiva a las treinta y siete semanas."
     },
     {
       "file": "s06_g02",
-      "text": "Rotura uterina: el dolor y las contracciones cesan de golpe, y la presentación fetal asciende. Laparotomía inmediata."
+      "text": "Dolor intenso, útero duro como madera, sangre oscura: desprendimiento de placenta. Cesárea de urgencia inmediata, y ojo, la eco normal no lo descarta."
     },
     {
       "file": "s06_g03",
-      "text": "Vasa previa: indolora, madre estable, pero con una bradicardia fetal catastrófica. Cesárea en minutos."
+      "text": "Dolor desgarrador que cede junto con las contracciones, y la presentación fetal asciende, en una paciente con cesárea previa: rotura uterina. Laparotomía de urgencia."
     },
     {
       "file": "s06_g04",
-      "text": "Y el acretismo: placenta previa sobre una cicatriz de cesárea, con un riesgo que sube con cada cesárea nueva. Se opera con histerectomía programada, dejando la placenta puesta."
+      "text": "Sangrado inmediato al romper membranas, con bradicardia fetal catastrófica y la madre estable: rotura de vasa previa. La sangre es del feto, y no hay minutos que perder: cesárea en minutos."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos con un caso. Embarazada de treinta y cuatro semanas, con una cesárea anterior, con sangrado vaginal rojo fresco y abundante, que empezó de golpe hace una hora, sin dolor ni contracciones. Está con presión normal, afebril, y su abdomen es blando e indoloro. El monitor fetal está reactivo, y el interno se pone los guantes para hacer un tacto vaginal."
+      "text": "Repasemos en una tabla. Placenta previa: indolora, útero blando, sangre roja fresca. Eco transvaginal, y cesárea a las treinta y siete semanas."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta más adecuada en este momento?"
+      "text": "Desprendimiento: dolor intenso, útero leñoso. Y ojo, una ecografía normal no lo descarta. Cesárea de urgencia."
     },
     {
       "file": "s07_g02",
-      "text": "Tienes cinco opciones: dejar que haga el tacto vaginal, detenerlo y pedir una ecografía transvaginal, iniciar tocolíticos, pedir un TAC de abdomen, o dar el alta con control ambulatorio. Piénsalo."
+      "text": "Rotura uterina: el dolor y las contracciones cesan de golpe, y la presentación fetal asciende. Laparotomía inmediata."
     },
     {
       "file": "s07_g03",
-      "text": "Es la B. Todo en este caso apunta a placenta previa: sangre roja fresca, indolora, útero blando y feto bien. Antes de que ese tacto vaginal termine mal, tienes que detenerlo y confirmar la posición de la placenta con ecografía transvaginal. El tacto es justamente la trampa de esta pregunta, y los tocolíticos no tienen ningún rol si no hay contracciones."
+      "text": "Vasa previa: indolora, madre estable, pero con una bradicardia fetal catastrófica. Cesárea en minutos."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y el acretismo: placenta previa sobre una cicatriz de cesárea, con un riesgo que sube con cada cesárea nueva. Se opera con histerectomía programada, dejando la placenta puesta."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente multípara, con una cesárea anterior, cursando un nuevo embarazo de treinta y cinco semanas, con metrorragia moderada. La ecografía muestra una placenta posterior que cubre el orificio cervical interno, y el doppler materno fetal es normal."
+      "text": "Vamos con un caso. Embarazada de treinta y cuatro semanas, con una cesárea anterior, con sangrado vaginal rojo fresco y abundante, que empezó de golpe hace una hora, sin dolor ni contracciones. Está con presión normal, afebril, y su abdomen es blando e indoloro. El monitor fetal está reactivo, y el interno se pone los guantes para hacer un tacto vaginal."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es la conducta más adecuada en este momento?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: dar tocolíticos, inducir con misoprostol, dar corticoides, repetir la ecografía a las treinta y siete semanas, o hacer una cesárea. Piénsalo."
+      "text": "Tienes cinco opciones: dejar que haga el tacto vaginal, detenerlo y pedir una ecografía transvaginal, iniciar tocolíticos, pedir un TAC de abdomen, o dar el alta con control ambulatorio. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la E, cesárea. Es una placenta previa oclusiva, y con treinta y cinco semanas ya cumplidas el riesgo de la prematurez es bajo, así que no hay ninguna razón para esperar. Ni los tocolíticos ni los corticoides tienen sentido aquí, y esperar hasta las treinta y siete semanas solo prolonga el riesgo de un sangrado mayor."
+      "text": "Es la B. Todo en este caso apunta a placenta previa: sangre roja fresca, indolora, útero blando y feto bien. Antes de que ese tacto vaginal termine mal, tienes que detenerlo y confirmar la posición de la placenta con ecografía transvaginal. El tacto es justamente la trampa de esta pregunta, y los tocolíticos no tienen ningún rol si no hay contracciones."
     },
     {
       "file": "s09_g00",
-      "text": "Esta es del EUNACOM de diciembre de dos mil veinticinco. Paciente de treinta y tres años, con un embarazo de treinta y seis semanas, contracciones dolorosas y metrorragia. Al examen, el útero tiene el tono aumentado, con tres contracciones cada diez minutos, y la especuloscopía muestra sangre oscura, moderada, sin dilatación cervical. Los latidos fetales están en ciento treinta."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente multípara, con una cesárea anterior, cursando un nuevo embarazo de treinta y cinco semanas, con metrorragia moderada. La ecografía muestra una placenta posterior que cubre el orificio cervical interno, y el doppler materno fetal es normal."
     },
     {
       "file": "s09_g01",
@@ -190,15 +182,15 @@
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: cesárea de urgencia, maduración pulmonar con conducta expectante, inducir con misoprostol, pedir un doppler fetal, o dar tocolíticos. Piénsalo."
+      "text": "Las opciones: dar tocolíticos, inducir con misoprostol, dar corticoides, repetir la ecografía a las treinta y siete semanas, o hacer una cesárea. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Dolor, útero con tono aumentado y sangre oscura son un desprendimiento de placenta. Como no hay dilatación cervical, la vía más rápida para interrumpir de inmediato es la cesárea de urgencia. Los tocolíticos y la conducta expectante están contraindicados con un desprendimiento en curso."
+      "text": "Es la E, cesárea. Es una placenta previa oclusiva, y con treinta y cinco semanas ya cumplidas el riesgo de la prematurez es bajo, así que no hay ninguna razón para esperar. Ni los tocolíticos ni los corticoides tienen sentido aquí, y esperar hasta las treinta y siete semanas solo prolonga el riesgo de un sangrado mayor."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del mismo examen de diciembre de dos mil veinticinco. Paciente de treinta y ocho años, con un embarazo de treinta y ocho semanas, en trabajo de parto, con la cabeza fetal encajada. De pronto aparece metrorragia escasa, dolor abdominal, la presentación fetal asciende y las contracciones cesan. Tiene el antecedente de una cesárea previa, y el monitor fetal muestra los latidos bajando a noventa por minuto."
+      "text": "Esta es del EUNACOM de diciembre de dos mil veinticinco. Paciente de treinta y tres años, con un embarazo de treinta y seis semanas, contracciones dolorosas y metrorragia. Al examen, el útero tiene el tono aumentado, con tres contracciones cada diez minutos, y la especuloscopía muestra sangre oscura, moderada, sin dilatación cervical. Los latidos fetales están en ciento treinta."
     },
     {
       "file": "s10_g01",
@@ -206,46 +198,62 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: esperar evolución espontánea, cesárea de urgencia, reanimación fetal, tocolíticos endovenosos, o pedir un pH de cuero cabelludo. Piénsalo."
+      "text": "Las opciones: cesárea de urgencia, maduración pulmonar con conducta expectante, inducir con misoprostol, pedir un doppler fetal, o dar tocolíticos. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. El cese súbito de las contracciones, la presentación que asciende y la bradicardia, en una paciente con cesárea previa, son la rotura uterina de libro. Aquí no hay tiempo para exámenes intermedios: la conducta es cesárea de urgencia inmediata."
+      "text": "Es la A. Dolor, útero con tono aumentado y sangre oscura son un desprendimiento de placenta. Como no hay dilatación cervical, la vía más rápida para interrumpir de inmediato es la cesárea de urgencia. Los tocolíticos y la conducta expectante están contraindicados con un desprendimiento en curso."
     },
     {
       "file": "s11_g00",
-      "text": "La última pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de término, con contracciones intensas y cinco centímetros de dilatación. Justo al romperse las membranas, aparece una metrorragia moderada, seguida de bradicardia fetal."
+      "text": "Otra pregunta real, del mismo examen de diciembre de dos mil veinticinco. Paciente de treinta y ocho años, con un embarazo de treinta y ocho semanas, en trabajo de parto, con la cabeza fetal encajada. De pronto aparece metrorragia escasa, dolor abdominal, la presentación fetal asciende y las contracciones cesan. Tiene el antecedente de una cesárea previa, y el monitor fetal muestra los latidos bajando a noventa por minuto."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: rotura uterina, desprendimiento de placenta, placenta previa, rotura de vasa previa, o procidencia de cordón. Piénsalo."
+      "text": "Las opciones: esperar evolución espontánea, cesárea de urgencia, reanimación fetal, tocolíticos endovenosos, o pedir un pH de cuero cabelludo. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la D, rotura de vasa previa. Fíjate en la secuencia: la metrorragia aparece justo al romper las membranas, seguida de bradicardia fetal, sin dolor ni compromiso de la madre. Eso es exactamente lo que distingue a la vasa previa: la rotura uterina duele y frena las contracciones, y el desprendimiento viene con útero hipertónico. Aquí no hay ninguno de los dos."
+      "text": "Es la B. El cese súbito de las contracciones, la presentación que asciende y la bradicardia, en una paciente con cesárea previa, son la rotura uterina de libro. Aquí no hay tiempo para exámenes intermedios: la conducta es cesárea de urgencia inmediata."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Nunca hagas un tacto vaginal a ciegas: primero localiza la placenta con una ecografía transvaginal."
+      "text": "La última pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de término, con contracciones intensas y cinco centímetros de dilatación. Justo al romperse las membranas, aparece una metrorragia moderada, seguida de bradicardia fetal."
     },
     {
       "file": "s12_g01",
-      "text": "El dolor y el tono uterino separan casi todo: indolora y blanda es placenta previa, dolorosa y leñosa es desprendimiento."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Si el dolor y las contracciones cesan de golpe con antecedente de cesárea, piensa en rotura uterina: laparotomía inmediata."
+      "text": "Las opciones: rotura uterina, desprendimiento de placenta, placenta previa, rotura de vasa previa, o procidencia de cordón. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la D, rotura de vasa previa. Fíjate en la secuencia: la metrorragia aparece justo al romper las membranas, seguida de bradicardia fetal, sin dolor ni compromiso de la madre. Eso es exactamente lo que distingue a la vasa previa: la rotura uterina duele y frena las contracciones, y el desprendimiento viene con útero hipertónico. Aquí no hay ninguno de los dos."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Nunca hagas un tacto vaginal a ciegas: primero localiza la placenta con una ecografía transvaginal."
+    },
+    {
+      "file": "s13_g01",
+      "text": "El dolor y el tono uterino separan casi todo: indolora y blanda es placenta previa, dolorosa y leñosa es desprendimiento."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Si el dolor y las contracciones cesan de golpe con antecedente de cesárea, piensa en rotura uterina: laparotomía inmediata."
+    },
+    {
+      "file": "s13_g03",
       "text": "Y si el sangrado aparece justo al romper membranas, con la madre estable pero el feto en shock, es rotura de vasa previa: cesárea en minutos."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y no olvides el acretismo, cuando la placenta previa está sobre una cicatriz de cesárea. Si te llevas una sola idea de hoy: nunca toques antes de saber dónde está la placenta, y el dolor te dice todo lo demás. Nos vemos en la próxima clase."
     }
   ]

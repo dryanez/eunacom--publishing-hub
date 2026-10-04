@@ -2,7 +2,7 @@
   "id": "gastro-19",
   "title": "Gastroenterologia 5.1: Abdomen Agudo: Apendicitis y Diverticulitis",
   "specialty": "Gastroenterología",
-  "chars": 14437,
+  "chars": 14750,
   "segments": [
     {
       "file": "s00_g00",
@@ -182,99 +182,95 @@
     },
     {
       "file": "s09_g00",
-      "text": "Ahora juntemos la derecha y la izquierda en un solo árbol de decisión. Partimos de un abdomen agudo. Es un diagnóstico clínico, y no todos son quirúrgicos."
+      "text": "En la ecografía, el apéndice inflamado se ve engrosado y no se deja comprimir con el transductor."
     },
     {
       "file": "s09_g01",
-      "text": "Primera regla: en toda mujer en edad fértil con dolor abdominal bajo, test de embarazo y evaluación ginecológica antes que nada, para no perder un embarazo ectópico."
+      "text": "Esta es la pieza operatoria: un apéndice rojo, edematoso, con fibrina en su superficie."
     },
     {
       "file": "s09_g02",
-      "text": "Descartado lo ginecológico, ¿el dolor está en la fosa ilíaca derecha o en la izquierda?"
-    },
-    {
-      "file": "s09_g03",
-      "text": "Dolor que migró del ombligo a la fosa ilíaca derecha, con anorexia. ¿Se palpa una masa con varios días de evolución?"
-    },
-    {
-      "file": "s09_g04",
-      "text": "Sin masa: apendicitis aguda, apendicectomía laparoscópica. Si está perforada con peritonitis difusa, cirugía inmediata con lavado y antibióticos."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Con masa de varios días: plastrón apendicular. Primero antibióticos, y apendicectomía diferida a las seis a ocho semanas."
-    },
-    {
-      "file": "s09_g06",
-      "text": "Dolor en fosa ilíaca izquierda con fiebre en un mayor de cincuenta: diverticulitis. Se pide TAC de abdomen y pelvis con contraste, y la colonoscopía queda para las seis a ocho semanas. ¿El TAC muestra un absceso o una peritonitis?"
-    },
-    {
-      "file": "s09_g07",
-      "text": "Hinchey uno o dos, con absceso: antibióticos, y drenaje percutáneo guiado por TAC en el absceso pélvico o a distancia."
-    },
-    {
-      "file": "s09_g08",
-      "text": "Hinchey tres o cuatro, con peritonitis purulenta o fecal: cirugía de urgencia, operación de Hartmann."
+      "text": "Y esta tomografía muestra una diverticulitis del sigmoides: es el equivalente a la apendicitis, pero en la fosa ilíaca izquierda."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos en una tabla. Apendicitis aguda: dolor que migra a la fosa ilíaca derecha, con anorexia. Apendicectomía laparoscópica."
+      "text": "Ahora juntemos la derecha y la izquierda en un solo árbol de decisión. Partimos de un abdomen agudo. Es un diagnóstico clínico, y no todos son quirúrgicos."
     },
     {
       "file": "s10_g01",
-      "text": "Plastrón: una masa de varios días. Primero antibióticos, y la apendicectomía a las seis a ocho semanas."
+      "text": "Primera regla: en toda mujer en edad fértil con dolor abdominal bajo, test de embarazo y evaluación ginecológica antes que nada, para no perder un embarazo ectópico."
     },
     {
       "file": "s10_g02",
-      "text": "Apendicitis perforada con peritonitis difusa: cirugía inmediata, con lavado y antibióticos."
+      "text": "Descartado lo ginecológico, ¿el dolor está en la fosa ilíaca derecha o en la izquierda?"
     },
     {
       "file": "s10_g03",
-      "text": "Diverticulitis con absceso, Hinchey uno o dos: antibióticos, y drenaje percutáneo si el absceso es pélvico o a distancia."
+      "text": "Dolor que migró del ombligo a la fosa ilíaca derecha, con anorexia. ¿Se palpa una masa con varios días de evolución?"
     },
     {
       "file": "s10_g04",
-      "text": "Diverticulitis con peritonitis, Hinchey tres o cuatro: operación de Hartmann de urgencia."
+      "text": "Sin masa: apendicitis aguda, apendicectomía laparoscópica. Si está perforada con peritonitis difusa, cirugía inmediata con lavado y antibióticos."
     },
     {
       "file": "s10_g05",
-      "text": "Y después de cualquier diverticulitis, colonoscopía a las seis a ocho semanas. Nunca en el episodio agudo."
+      "text": "Con masa de varios días: plastrón apendicular. Primero antibióticos, y apendicectomía diferida a las seis a ocho semanas."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Dolor en fosa ilíaca izquierda con fiebre en un mayor de cincuenta: diverticulitis. Se pide TAC de abdomen y pelvis con contraste, y la colonoscopía queda para las seis a ocho semanas. ¿El TAC muestra un absceso o una peritonitis?"
+    },
+    {
+      "file": "s10_g07",
+      "text": "Hinchey uno o dos, con absceso: antibióticos, y drenaje percutáneo guiado por TAC en el absceso pélvico o a distancia."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Hinchey tres o cuatro, con peritonitis purulenta o fecal: cirugía de urgencia, operación de Hartmann."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos al caso. Hombre de treinta años con seis días de dolor en la fosa ilíaca derecha, que empezó alrededor del ombligo. Tiene treinta y ocho grados. Al examen se palpa una masa dolorosa en la fosa ilíaca derecha, sin signos peritoneales en el resto del abdomen, y la ecografía muestra un conglomerado inflamatorio que envuelve el apéndice."
+      "text": "Repasemos en una tabla. Apendicitis aguda: dolor que migra a la fosa ilíaca derecha, con anorexia. Apendicectomía laparoscópica."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Plastrón: una masa de varios días. Primero antibióticos, y la apendicectomía a las seis a ocho semanas."
     },
     {
       "file": "s11_g02",
-      "text": "Las alternativas: apendicectomía de urgencia, antibióticos con apendicectomía diferida, alta con analgésicos, colonoscopía, o laparotomía con lavado peritoneal. Piénsalo."
+      "text": "Apendicitis perforada con peritonitis difusa: cirugía inmediata, con lavado y antibióticos."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Seis días de evolución y una masa localizada, sin peritonitis difusa: es un plastrón apendicular. El epiplón ya contuvo el proceso, así que primero antibióticos, y la apendicectomía a las seis a ocho semanas. El distractor tentador es la apendicectomía de urgencia, porque es una apendicitis, pero eso corresponde a la apendicitis simple o a la perforada con peritonitis, no al plastrón."
+      "text": "Diverticulitis con absceso, Hinchey uno o dos: antibióticos, y drenaje percutáneo si el absceso es pélvico o a distancia."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Diverticulitis con peritonitis, Hinchey tres o cuatro: operación de Hartmann de urgencia."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Y después de cualquier diverticulitis, colonoscopía a las seis a ocho semanas. Nunca en el episodio agudo."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés, que muestra por qué la regla de la mujer en edad fértil existe. Mujer joven con dolor súbito en la fosa ilíaca derecha, que se hace hipotensa y taquicárdica de forma súbita, con dolor en ambas fosas ilíacas."
+      "text": "Vamos al caso. Hombre de treinta años con seis días de dolor en la fosa ilíaca derecha, que empezó alrededor del ombligo. Tiene treinta y ocho grados. Al examen se palpa una masa dolorosa en la fosa ilíaca derecha, sin signos peritoneales en el resto del abdomen, y la ecografía muestra un conglomerado inflamatorio que envuelve el apéndice."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: apendicitis aguda complicada, quiste ovárico torcido, embarazo ectópico roto, salpingitis con absceso tubo-ovárico, o rotura folicular hemorrágica. Piénsalo."
+      "text": "Las alternativas: apendicectomía de urgencia, antibióticos con apendicectomía diferida, alta con analgésicos, colonoscopía, o laparotomía con lavado peritoneal. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, embarazo ectópico roto. El dolor en ambas fosas ilíacas y el shock súbito son la clave: eso es sangre libre en el peritoneo, no una apendicitis. El distractor tentador es la apendicitis complicada, porque también da shock, pero de forma más gradual y con dolor localizado a la derecha. Esta es exactamente la paciente por la que primero se pide el test de embarazo."
+      "text": "Es la B. Seis días de evolución y una masa localizada, sin peritonitis difusa: es un plastrón apendicular. El epiplón ya contuvo el proceso, así que primero antibióticos, y la apendicectomía a las seis a ocho semanas. El distractor tentador es la apendicectomía de urgencia, porque es una apendicitis, pero eso corresponde a la apendicitis simple o a la perforada con peritonitis, no al plastrón."
     },
     {
       "file": "s13_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Niña de siete años, con doce horas de fiebre y dolor en el hipogastrio. Tiene treinta y ocho siete de temperatura, dolor a la palpación con Blumberg positivo y resistencia de la pared abdominal. Dieciocho mil leucocitos, veinte leucocitos por campo en la orina, y proteína C reactiva en quince."
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés, que muestra por qué la regla de la mujer en edad fértil existe. Mujer joven con dolor súbito en la fosa ilíaca derecha, que se hace hipotensa y taquicárdica de forma súbita, con dolor en ambas fosas ilíacas."
     },
     {
       "file": "s13_g01",
@@ -282,58 +278,74 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: pielonefritis aguda, apendicitis aguda, infección urinaria baja, torsión ovárica, o plastrón apendicular. Piénsalo."
+      "text": "Las opciones: apendicitis aguda complicada, quiste ovárico torcido, embarazo ectópico roto, salpingitis con absceso tubo-ovárico, o rotura folicular hemorrágica. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B, apendicitis aguda. El distractor tentador es la infección urinaria, por los leucocitos en la orina, pero eso es un hallazgo acompañante, no el diagnóstico: Blumberg positivo y resistencia muscular te dicen que el peritoneo está comprometido. Y todavía no hay masa palpable, así que tampoco es un plastrón."
+      "text": "Es la C, embarazo ectópico roto. El dolor en ambas fosas ilíacas y el shock súbito son la clave: eso es sangre libre en el peritoneo, no una apendicitis. El distractor tentador es la apendicitis complicada, porque también da shock, pero de forma más gradual y con dolor localizado a la derecha. Esta es exactamente la paciente por la que primero se pide el test de embarazo."
     },
     {
       "file": "s14_g00",
-      "text": "Y una tercera pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de setenta años que, al tercer día de una colonoscopía con resección de un pólipo, llega con dolor abdominal muy intenso en la fosa ilíaca izquierda, fiebre y una deposición con sangre. Al examen, dolor profundo y Blumberg en esa zona."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Niña de siete años, con doce horas de fiebre y dolor en el hipogastrio. Tiene treinta y ocho siete de temperatura, dolor a la palpación con Blumberg positivo y resistencia de la pared abdominal. Dieciocho mil leucocitos, veinte leucocitos por campo en la orina, y proteína C reactiva en quince."
     },
     {
       "file": "s14_g01",
-      "text": "¿Cuál es el examen más adecuado para proseguir con el estudio de esta paciente?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones: radiografía simple, ecografía abdominal, TAC de abdomen y pelvis, resonancia de abdomen y pelvis, o colonoscopía. Piénsalo."
+      "text": "Las opciones: pielonefritis aguda, apendicitis aguda, infección urinaria baja, torsión ovárica, o plastrón apendicular. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la C, el TAC de abdomen y pelvis. El distractor tentador es repetir la colonoscopía, porque acaba de tener una, pero justo por eso está contraindicada: el colon inflamado se puede perforar con el aire de la endoscopía. El TAC es el que clasifica el cuadro y decide si necesita solo antibióticos o una cirugía."
+      "text": "Es la B, apendicitis aguda. El distractor tentador es la infección urinaria, por los leucocitos en la orina, pero eso es un hallazgo acompañante, no el diagnóstico: Blumberg positivo y resistencia muscular te dicen que el peritoneo está comprometido. Y todavía no hay masa palpable, así que tampoco es un plastrón."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con un caso representativo del banco EUNACOM, para la situación más grave. Mujer de sesenta y tres años con diverticulitis aguda. El TAC muestra abundante líquido y aire libre en el peritoneo, con signos de peritonitis fecal difusa. Está febril, taquicárdica e hipotensa."
+      "text": "Y una tercera pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de setenta años que, al tercer día de una colonoscopía con resección de un pólipo, llega con dolor abdominal muy intenso en la fosa ilíaca izquierda, fiebre y una deposición con sangre. Al examen, dolor profundo y Blumberg en esa zona."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es la conducta?"
+      "text": "¿Cuál es el examen más adecuado para proseguir con el estudio de esta paciente?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones: antibióticos y reevaluar en cuarenta y ocho horas, drenaje percutáneo, operación de Hartmann de urgencia, colonoscopía para localizar la perforación, o resección laparoscópica diferida. Piénsalo."
+      "text": "Las opciones: radiografía simple, ecografía abdominal, TAC de abdomen y pelvis, resonancia de abdomen y pelvis, o colonoscopía. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la C. Aire libre y peritonitis fecal es un Hinchey cuatro, y la paciente ya está séptica. Con peritonitis, purulenta o fecal, el tratamiento es la operación de Hartmann de urgencia. El distractor tentador es el drenaje percutáneo, pero ese sirve para un absceso contenido, no para una peritonitis. Y la colonoscopía en el episodio agudo está contraindicada."
+      "text": "Es la C, el TAC de abdomen y pelvis. El distractor tentador es repetir la colonoscopía, porque acaba de tener una, pero justo por eso está contraindicada: el colon inflamado se puede perforar con el aire de la endoscopía. El TAC es el que clasifica el cuadro y decide si necesita solo antibióticos o una cirugía."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Mujer en edad fértil con dolor abdominal bajo: primero test de embarazo y evaluación ginecológica."
+      "text": "Cerremos con un caso representativo del banco EUNACOM, para la situación más grave. Mujer de sesenta y tres años con diverticulitis aguda. El TAC muestra abundante líquido y aire libre en el peritoneo, con signos de peritonitis fecal difusa. Está febril, taquicárdica e hipotensa."
     },
     {
       "file": "s16_g01",
-      "text": "La apendicitis es un diagnóstico clínico y se opera. El plastrón, en cambio, primero antibióticos y cirugía a las seis a ocho semanas."
+      "text": "¿Cuál es la conducta?"
     },
     {
       "file": "s16_g02",
-      "text": "La diverticulitis se estudia con TAC, y la colonoscopía nunca en el agudo, sino a las seis a ocho semanas."
+      "text": "Las opciones: antibióticos y reevaluar en cuarenta y ocho horas, drenaje percutáneo, operación de Hartmann de urgencia, colonoscopía para localizar la perforación, o resección laparoscópica diferida. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la C. Aire libre y peritonitis fecal es un Hinchey cuatro, y la paciente ya está séptica. Con peritonitis, purulenta o fecal, el tratamiento es la operación de Hartmann de urgencia. El distractor tentador es el drenaje percutáneo, pero ese sirve para un absceso contenido, no para una peritonitis. Y la colonoscopía en el episodio agudo está contraindicada."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Mujer en edad fértil con dolor abdominal bajo: primero test de embarazo y evaluación ginecológica."
+    },
+    {
+      "file": "s17_g01",
+      "text": "La apendicitis es un diagnóstico clínico y se opera. El plastrón, en cambio, primero antibióticos y cirugía a las seis a ocho semanas."
+    },
+    {
+      "file": "s17_g02",
+      "text": "La diverticulitis se estudia con TAC, y la colonoscopía nunca en el agudo, sino a las seis a ocho semanas."
+    },
+    {
+      "file": "s17_g03",
       "text": "Y Hinchey decide: absceso, antibióticos con o sin drenaje; peritonitis, operación de Hartmann. Si te llevas una sola idea de hoy: lo contenido se trata con antibióticos, y lo libre en el peritoneo se opera. Nos vemos en la próxima clase."
     }
   ]

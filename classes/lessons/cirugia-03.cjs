@@ -166,6 +166,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Diverticulitis',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-03/01_diverticulitis-tc__cto-digestivo_p142.jpg', label: 'Diverticulitis en TC', credit: 'Manual CTO Digestivo 14.ª ed., p. 142' },
+      ],
+      steps: [
+        { note: 'Sigmoides inflamado',
+          say: 'La tomografía muestra el sigmoides engrosado con inflamación de la grasa. Si hay absceso o aire libre, es complicada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

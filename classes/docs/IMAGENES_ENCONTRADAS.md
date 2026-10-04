@@ -466,3 +466,170 @@ Nombre de cada archivo: `NN_item[_altK][_panel]__libro_pPÁGINA.jpg`. `_alt1`, `
 
 | Clase | Imagen | Archivo principal | Libro, página |
 |---|---|---|---|
+| infecto-21 | coriorretinitis por toxoplasma | `07_infectologia/infecto-21/01_coriorretinitis_toxoplasma__kanski_p441.jpg` | Kanski, p. 441 |
+| oftal-03 | chalazión | `12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg` | Kanski, p. 16 |
+| oftal-15 | hipema | `12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg` | Kanski, p. 882 |
+| oftal-16 | quemadura química | `12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg` | Kanski, p. 895 |
+| oftal-17 | celulitis orbitaria + TC | `12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg` | Kanski, p. 100 |
+| oftal-02 | conjuntivitis bacteriana vs viral | `12_oftalmologia/oftal-02/01_conjuntivitis_viral__kanski_p155.jpg` | Kanski, p. 155 |
+| oftal-02 | conjuntivitis bacteriana | `12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg` | Kanski, p. 147 |
+| derma-02 | comedones abiertos y cerrados | `11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg` | Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px) |
+| derma-02 | acné nodular (pápulas y nódulos) | `11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg` | Fitzpatrick 7.ª ed., p. 732 (figura completa, ~480 px) |
+| derma-06 | dermatitis atópica del lactante (mejillas) | `11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg` | Fitzpatrick 7.ª ed., p. 189 (figura completa, ~480 px) |
+| derma-06 | dermatitis atópica infantil (pliegues antecubitales) | `11_dermatologia/derma-06/02_atopica_escolar__fitzpatrick_p189.jpg` | Fitzpatrick 7.ª ed., p. 189 (figura completa, ~480 px) |
+| derma-07 | dermatitis seborreica (surcos nasogenianos, cejas) | `11_dermatologia/derma-07/01_seborreica_cara__fitzpatrick_p260.jpg` | Fitzpatrick 7.ª ed., p. 260 (figura completa, ~480 px) |
+| derma-09 | SSJ/NET con erosiones de labio y mucosa oral | `11_dermatologia/derma-09/01_necrolisis_mucosa_oral__fitzpatrick_p390.jpg` | Fitzpatrick 7.ª ed., p. 390 (figura completa, ~480 px) |
+| derma-09 | Stevens-Johnson por Mycoplasma (labios) | `11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg` | Fitzpatrick 7.ª ed., p. 685 (figura completa, ~480 px) |
+| derma-15 | cuerno cutáneo | `11_dermatologia/derma-15/01_cuerno_cutaneo__fitzpatrick_p66.jpg` | Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px) |
+| endo-06 | mixedema pretibial (dermopatía tiroidea) | `05_endocrinologia/endo-06/01_dermopatia_tiroidea_pretibial__fitzpatrick_p1510.jpg` | Fitzpatrick 7.ª ed., p. 1510 (figura completa, ~480 px) |
+| endo-19 | raquitismo: rosario costal | `05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg` | Nelson 22.ª ed., p. 646 |
+| endo-19 | raquitismo: ensanchamiento de muñecas | `05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg` | Nelson 22.ª ed., p. 646 |
+| endo-19 | RX muñeca normal vs raquitismo (copa, deshilachado) | `05_endocrinologia/endo-19/03_rx_muneca_raquitismo__nelson_p647.jpg` | Nelson 22.ª ed., p. 647 |
+| endo-04 | hipotiroidismo congénito (facies, macroglosia) a los 6 meses | `05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg` | Nelson 22.ª ed., p. 4372 |
+| endo-04 | mismo lactante tras tratamiento | `05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg` | Nelson 22.ª ed., p. 4372 |
+| ped-10 | eritema infeccioso (mejillas abofeteadas) | `15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg` | Nelson 22.ª ed., p. 2548 |
+| ped-06 | croup: signo del campanario (RX AP cuello) | `15_pediatria/ped-06/01_croup_campanario__nelson_p3220.jpg` | Nelson 22.ª ed., p. 3220 |
+| ped-22 | maniobra de Ortolani (ilustración) | `15_pediatria/ped-22/01_ortolani__nelson_p5430.jpg` | Nelson 22.ª ed., p. 5430 |
+| ped-22 | pliegues de muslo asimétricos en DDC | `15_pediatria/ped-22/02_pliegues_asimetricos__nelson_p5430.jpg` | Nelson 22.ª ed., p. 5430 |
+| gastro-22 | RX moneda en esófago (AP y lateral) | `01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg` | Nelson 22.ª ed., p. 2925 |
+| cirugia-11 | FAST cuadrante superior derecho con líquido libre (Morrison) | `10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg` | ATLS 10.ª ed., p. 144 |
+| cirugia-11 | FAST: ubicación de las sondas | `10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg` | ATLS 10.ª ed., p. 144 |
+| gastro-26 | FAST con líquido libre en Morrison | `01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg` | ATLS 10.ª ed., p. 144 |
+| cirugia-10 | tórax volante: movimiento paradójico (ilustración) | `10_cirugia/cirugia-10/01_torax_volante__atls_p127.jpg` | ATLS 10.ª ed., p. 127 |
+| infecto-12 | chancro sifilítico (pene) | `07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg` | CDC PHIL 6803 (CDC/M. Rein), dominio público |
+| infecto-13 | chancroide (H. ducreyi) | `07_infectologia/infecto-13/01_chancroide__cdc-phil-3728.jpg` | CDC PHIL 3728 (CDC/Joe Miller), dominio público |
+| gin-09 | células clave (vaginosis bacteriana) | `13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg` | CDC PHIL 3720 (CDC/M. Rein), dominio público |
+| gin-09 | Trichomonas vaginalis (tinción) | `13_ginecologia/gin-09/02_tricomonas__cdc.jpg` | CDC (Wikimedia Commons "Trichomonas vaginalis 01"), dominio público |
+| infecto-22 | manchas de Koplik (baja resolución, 490 px) | `07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg` | CDC PHIL 6111, dominio público |
+| infecto-06 | tétanos: trismus y risa sardónica | `07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg` | CDC PHIL 2857, dominio público |
+| infecto-06 | tétanos: opistótonos | `07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg` | CDC PHIL (Commons "PHIL tetanus"), dominio público |
+| infecto-16 | P. falciparum: anillos en frotis delgado (300 px) | `07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg` | CDC DPDx, dominio público |
+| infecto-16 | P. falciparum: gametocitos en banana | `07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg` | CDC (Commons "Plasmodium falciparum 01"), dominio público |
+| infecto-15 | Chagas: signo de Romaña (baja resolución, 326 px) | `07_infectologia/infecto-15/01_signo_romana__cdc.jpg` | CDC, CC0 |
+| infecto-18 | roséola tífica en el tórax | `07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg` | CDC PHIL 2215 (CDC/Armed Forces Institute of Pathology), dominio público |
+| infecto-14 | RX SCPH fase cardiopulmonar: edema no cardiogénico, corazón normal | `07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg` | Guía Clínica Hantavirus MINSAL 2009 (Rev Chil Infect 26:68), Fig. 11 |
+| infecto-14 | RX SCPH inicio: edema intersticial bilateral | `07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg` | Guía Clínica Hantavirus MINSAL 2009, Fig. 7 |
+| ped-21 | tarjeta de papel filtro del tamizaje neonatal | `15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg` | Normas Pesquisa PKU/HC MINSAL 2007, Foto 2 |
+| ped-21 | sitio de punción en el talón | `15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg` | Normas Pesquisa PKU/HC MINSAL 2007, Foto 3 |
+| ped-21 | muestra satisfactoria vs insatisfactoria | `15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg` | Normas Pesquisa PKU/HC MINSAL 2007, p. 26 |
+| sp-13 | formulario del Certificado Médico de Defunción vigente | `16_salud_publica/sp-13/01_formulario_cmd__manual-cmd.jpg` | Manual correcto llenado CMD (ESP U. de Chile / Colegio Médico), Anexo 2 |
+| sp-13 | secuencia lógica de causas (inmediata → originaria) | `16_salud_publica/sp-13/02_secuencia_causas__manual-cmd.jpg` | Manual correcto llenado CMD, Fig. 2 |
+| ped-04 | acople correcto: boca abierta, poca areola visible bajo el mentón | `15_pediatria/ped-04/01_acople_correcto__minsal-lactancia-2017.jpg` | Manual Operativo Lactancia MINSAL 2017, p. 13 |
+| ped-04 | esquema de succión efectiva (tetina pezón + areola) | `15_pediatria/ped-04/02_tetina_succion__minsal-lactancia-2010.jpg` | Manual Lactancia Materna MINSAL 2010, p. 141 |
+| neuro-20 | maniobra de Epley modificada (VPPB derecho e izquierdo) | `09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg` | Harrison 21.ª ed., p. 202 |
+| gastro-09 | dermatitis herpetiforme en codos | `01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg` | Harrison 21.ª ed., p. 413 |
+| infecto-03 | RM FLAIR: hiperintensidad temporal derecha en encefalitis herpética | `07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg` | Harrison 21.ª ed., p. 1137 |
+| gastro-02 | úlcera duodenal con punto pigmentado | `01_gastroenterologia/gastro-02/01_ulcera_duodenal__harrison_p2430.jpg` | Harrison 21.ª ed., p. 2430 |
+| gastro-02 | úlcera duodenal con vaso visible | `01_gastroenterologia/gastro-02/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg` | Harrison 21.ª ed., p. 2430 |
+| gastro-11 | pólipo sésil de colon | `01_gastroenterologia/gastro-11/01_polipo_sesil__harrison_p2433.jpg` | Harrison 21.ª ed., p. 2433 |
+| gastro-11 | pólipo pediculado (comparación) | `01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg` | Harrison 21.ª ed., p. 2433 |
+| neuro-04 | TC sin contraste: HSA en cisternas basales | `09_neurologia/neuro-04/01_tc_hsa__harrison_p3325.jpg` | Harrison 21.ª ed., p. 3325 |
+| neuro-15 | RM coronal en las tres variantes de DFT | `09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg` | Harrison 21.ª ed., p. 3420 |
+| hem-22 | RM sagital: compresión medular epidural por metástasis | `06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg` | Harrison 21.ª ed., p. 3489 |
+| cirugia-12 | ojos de mapache (equimosis periorbitaria bilateral) | `10_cirugia/cirugia-12/01_ojos_de_mapache__commons.jpg` | Wikimedia Commons «Bilateral periorbital ecchymosis (raccoon eyes).jpg», Public domain, Marion County Sheriff's Office |
+| endo-17 | signo de Trousseau (mano de partero) | `05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg` | Wikimedia Commons «Trousseau's Sign of Latent Tetany.jpg», CC BY-SA 4.0, ver autor en Commons |
+| gastro-18 | signo de Grey Turner (flancos) | `01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg` | Wikimedia Commons «Hemorrhagic pancreatitis - Grey Turner's sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk |
+| gastro-18 | signo de Cullen (periumbilical) | `01_gastroenterologia/gastro-18/02_signo_cullen__commons.jpg` | Wikimedia Commons «Cullen's sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk |
+| hem-03 | coiloniquia por ferropenia | `06_hematologia/hem-03/01_coiloniquia__commons.jpg` | Wikimedia Commons «Koilonychia iron deficiency anemia.jpg», CC BY 2.0, CHeitz |
+| infecto-15 | megaesófago chagásico (esofagograma) | `07_infectologia/infecto-15/02_megaesofago_chagas__commons.jpg` | Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons |
+| neuro-17 | ptosis miasténica antes y después de la prueba | `09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg` | Wikimedia Commons «Myasthenia gravis ptosis reversal.jpg», CC BY 2.0, Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyana |
+| ob-14 | cristalización en helecho (líquido amniótico) | `14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg` | Wikimedia Commons «Positive Fern Test.jpg», CC BY-SA 2.0, ver autor en Commons |
+| reuma-22 | nariz en silla de montar | `08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg` | Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0, ver autor en Commons |
+| ob-17 | maniobra de McRoberts + presión suprapúbica (ilustración) | `14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg` | Williams Obstetricia (ed. en español), Fig. 20-14, p. 515 |
+| nefro-20 | angio-TC renal en displasia fibromuscular (pérdida de flujo polo superior derecho) | `03_nefrologia/nefro-20/01_angiotc_arteria_renal_fmd__harrison_p2132.jpg` | Harrison 21.ª ed., p. 2132 |
+| neuro-07 | síndrome de Horner derecho (ptosis + miosis) | `09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg` | Kanski 8.ª ed., Fig. 19.35A |
+| resp-17 | síndrome de Horner (en Pancoast) | `02_neumologia/resp-17/02_sindrome_horner__kanski_p821.jpg` | Kanski 8.ª ed., Fig. 19.35A |
+| neuro-17 | test del hielo A: ptosis asimétrica | `09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg` | Kanski 8.ª ed., Fig. 19.87A |
+| neuro-17 | test del hielo B: aplicación de hielo | `09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg` | Kanski 8.ª ed., Fig. 19.87B |
+| neuro-17 | test del hielo C: mejoría de la ptosis | `09_neurologia/neuro-17/04_test_hielo_c_mejoria__kanski_p851.jpg` | Kanski 8.ª ed., Fig. 19.87C |
+| gin-16 | torsión ovárica: ovario aumentado (ECO) | `13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg` | Nelson 22.ª ed., Fig. 590.4 |
+| gin-16 | torsión ovárica: Doppler sin flujo central | `13_ginecologia/gin-16/02_torsion_ovarica_doppler__nelson_p4303.jpg` | Nelson 22.ª ed., Fig. 590.4 |
+| endo-23 | RM sagital T1: silla turca parcialmente vacía | `05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg` | Nelson 22.ª ed., Fig. 645.5A |
+| cirugia-13 | quemadura de espesor parcial superficial (esquema) | `10_cirugia/cirugia-13/01_quemadura_ab_superficial__atls_p230.jpg` | ATLS 10.ª ed., Fig. 9-5 |
+| cirugia-13 | quemadura de espesor parcial profundo (esquema) | `10_cirugia/cirugia-13/02_quemadura_ab_profunda__atls_p230.jpg` | ATLS 10.ª ed., Fig. 9-5 |
+| cirugia-13 | quemadura: foto clínica de profundidad mixta | `10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg` | ATLS 10.ª ed., Fig. 9-5 |
+| hem-17 | frotis de LLC: linfocitos pequeños y sombras de Gumprecht | `06_hematologia/hem-17/01_frotis_llc__harrison_p875.jpg` | Harrison 21.ª ed., Fig. 107-1 |
+| cirugia-13 | regla de los 9 (adulto y pediátrica) | `10_cirugia/cirugia-13/04_regla_de_los_9__atls_p175.jpg` | ATLS 10.ª ed., Fig. 9-4 |
+| diab-23 | xantomas tendinosos (Aquiles) en HF heterocigota | `04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg` | Fitzpatrick 7.ª ed., Fig. 135-4 |
+| endo-12 | Addison: hiperpigmentación facial | `05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg` | Fitzpatrick 7.ª ed., Fig. 152-16A |
+| endo-12 | Addison: pliegues palmares hiperpigmentados | `05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg` | Fitzpatrick 7.ª ed., Fig. 152-16B |
+| endo-02 | facies hipotiroidea (mixedematosa) | `05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg` | Fitzpatrick 7.ª ed., Fig. 152-12 |
+| endo-11 | estrías violáceas en Cushing | `05_endocrinologia/endo-11/01_estrias_cushing__fitzpatrick_p1515.jpg` | Fitzpatrick 7.ª ed., Fig. 152-15 |
+| cirugia-08 | quiste epidermoide en mejilla | `10_cirugia/cirugia-08/01_quiste_epidermoide__fitzpatrick_p1102.jpg` | Fitzpatrick 7.ª ed., Fig. 118-18 |
+| gin-09 | levaduras en gemación de Candida (microscopía) | `13_ginecologia/gin-09/03_microscopia_candida__fitzpatrick_p80.jpg` | Fitzpatrick 7.ª ed., Fig. 5-2B |
+| derma-10 | síndrome de hipersensibilidad a fenitoína: exantema confluente | `11_dermatologia/derma-10/01_dress_fenitoina_a__fitzpatrick_p395.jpg` | Fitzpatrick 7.ª ed., Fig. 40-2 |
+| derma-10 | síndrome de hipersensibilidad: edema facial con pústulas | `11_dermatologia/derma-10/02_dress_fenitoina_b__fitzpatrick_p395.jpg` | Fitzpatrick 7.ª ed., Fig. 40-3 |
+| cirugia-08 | lipomas múltiples en antebrazos | `10_cirugia/cirugia-08/02_lipomas_multiples__fitzpatrick_p1228.jpg` | Fitzpatrick 7.ª ed., Fig. 129-1 |
+| infecto-02 | maniobra de Kernig | `07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg` | Bates 12.ª ed., Fig. 17-62 |
+| infecto-02 | evaluación de rigidez de nuca (signo de Brudzinski) | `07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg` | Bates 12.ª ed., Fig. 18-72 |
+| ped-22 | maniobra de Barlow (ilustración) | `15_pediatria/ped-22/03_barlow__bates_p874.jpg` | Bates 12.ª ed., Fig. 18-36 |
+| ped-22 | maniobra de Barlow (foto, vista superior) | `15_pediatria/ped-22/04_barlow_foto__bates_p873.jpg` | Bates 12.ª ed., Fig. 18-33 |
+| nefro-13 | edema con fóvea 3+ | `03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg` | Bates 12.ª ed., Fig. 12-25 |
+| cirugia-18 | mordedura de perro en niño | `10_cirugia/cirugia-18/01_mordedura_perro__bailey_p48.jpg` | Bailey & Love 27.ª ed., Fig. 3.4 |
+| gin-14 | mamografía con carcinoma (masa espiculada) | `13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg` | Bailey & Love 27.ª ed., Fig. 53.2 |
+| gin-14 | piel de naranja en cáncer de mama | `13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg` | Bailey & Love 27.ª ed., Fig. 53.24 |
+| ob-19 | absceso mamario | `14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg` | Bailey & Love 27.ª ed., Fig. 53.13 |
+| endo-11 | síndrome de Cushing: obesidad central | `05_endocrinologia/endo-11/02_habito_cushing__bailey_p862.jpg` | Bailey & Love 27.ª ed., Fig. 52.5 |
+| ped-07 | neumonía redonda (pseudotumor) en niño | `15_pediatria/ped-07/01_neumonia_redonda__cxr_p208.jpg` | The Chest X-Ray: A Survival Guide, Fig. 14.12 |
+| resp-04 | EPOC: hiperinsuflación, diafragmas aplanados | `02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg` | The Chest X-Ray: A Survival Guide, Fig. 22.2 |
+| resp-16 | nódulo pulmonar de borde irregular / espiculado | `02_neumologia/resp-16/01_nodulo_espiculado__cxr_p282.jpg` | The Chest X-Ray: A Survival Guide, Fig. 20.4 |
+| gin-10 | absceso del conducto de la glándula de Bartolino | `13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg` | Williams Gynecology 4.ª ed., Fig. 3-18 |
+| gin-08 | DIU de cobre y DIU liberador de levonorgestrel | `13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg` | Williams Gynecology 4.ª ed., Fig. 5-3 |
+| ob-19 | absceso mamario puerperal + ecografía | `14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg` | Williams Gynecology 4.ª ed., Fig. 13-8 |
+| gin-13 | colposcopía: LSIL acetoblanco tras ácido acético | `13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg` | Williams Gynecology 4.ª ed., Fig. 29-12 |
+| gin-13 | colposcopía: HSIL blanco opaco con vasos gruesos | `13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg` | Williams Gynecology 4.ª ed., Fig. 29-13 |
+| endo-10 | carcinoma papilar: núcleos "ojos de Annie" y cuerpos de psamoma | `05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg` | Pathoma, Fig. 15.5 |
+| gastro-09 | enfermedad celíaca: vellosidades aplanadas vs normales | `01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg` | Pathoma, Fig. 10.18 |
+| resp-19 | ECG de TEP agudo: S1Q3T3, BRD incompleto, T negativas V1-V2 | `02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg` | ECG from Basics to Essentials, p. 195 |
+| endo-17 | QT normal vs hipercalcemia (corto) vs hipocalcemia (largo) | `05_endocrinologia/endo-17/02_qt_calcio_esquema__ecg-basics_p331.jpg` | ECG from Basics to Essentials, p. 331 |
+| endo-16 | QT normal vs hipercalcemia (corto) vs hipocalcemia (largo) | `05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg` | ECG from Basics to Essentials, p. 331 |
+| endo-16 | ECG de hipercalcemia: QT corto (QTc 268 ms) | `05_endocrinologia/endo-16/02_ecg_hipercalcemia_qt_corto__ecg-basics_p331.jpg` | ECG from Basics to Essentials, p. 331 |
+| infecto-15 | ECG: BRD + hemibloqueo anterior izquierdo (bloqueo bifascicular) | `07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg` | ECG from Basics to Essentials, p. 119 |
+| resp-17 | RX: tumor apical derecho (carcinoma bronquial, oculto tras costillas) | `02_neumologia/resp-17/03_rx_tumor_apical_derecho__cxr_p152.jpg` | The Chest X-Ray: A Survival Guide, Fig. 10.7 |
+| cirugia-17 | infección mayor de herida con dehiscencia superficial | `10_cirugia/cirugia-17/01_dehiscencia_herida__bailey_p68.jpg` | Bailey & Love 27.ª ed., Fig. 5.7 |
+| diab-24 | plasma lipémico (lechoso) en hipertrigliceridemia | `04_diabetes/diab-24/01_plasma_lipemico__commons.jpg` | Wikimedia Commons «Lipemic plasma.jpg», CC BY-SA 3.0, DiverDave |
+| endo-03 | facies mixedematosa grave | `05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg` | Wikimedia Commons «Myxedema face.png», CC BY 2.5, Herbert L. Fred, MD and Hendrik A. van Dijk |
+| endo-17 | signo de Chvostek: espasmo facial al percutir el nervio facial | `05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg` | Wikimedia Commons «Facial spasm (Chvostek's symptom).jpg», Public domain, Alfred Loomis & William Thompson |
+| endo-17 | puntos de percusión del signo de Chvostek | `05_endocrinologia/endo-17/04_chvostek_puntos__commons.jpg` | Wikimedia Commons «Segno di Chvostek Punti.JPG», CC BY-SA 3.0, MarcoMutMut |
+| gastro-16 | TC trifásica de hepatocarcinoma: realce arterial y lavado | `01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg` | Wikimedia Commons «Triphasic CT scan of hepatocellular carcinoma.jpg», CC BY 4.0, Zhenyu Pan, Guozi Yang, Tingting Yuan, Lihua Dong, Lihua Don |
+| gastro-20 | TC de isquemia intestinal por trombosis mesentérica | `01_gastroenterologia/gastro-20/01_tc_isquemia_mesenterica__commons.jpg` | Wikimedia Commons «Ischemicbowel.PNG», CC BY-SA 3.0, James Heilman, MD |
+| gastro-22 | RX de pila de botón ingerida (lactante) | `01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg` | Wikimedia Commons «ButtonBatteryIngestion.png», CC BY-SA 4.0, Doc James |
+| gastro-23 | examen del signo del pliegue (turgor cutáneo) | `01_gastroenterologia/gastro-23/01_examen_turgor__commons.jpg` | Wikimedia Commons «SkinTurgorExamination.jpg», CC BY-SA 4.0, DRobert |
+| gastro-23 | pliegue cutáneo persistente (turgor disminuido) | `01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg` | Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert |
+| ped-11 | pliegue cutáneo persistente (deshidratación) | `15_pediatria/ped-11/01_pliegue_persistente__commons.jpg` | Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert |
+| gin-08 | implante subdérmico de etonogestrel (4 cm) | `13_ginecologia/gin-08/02_implante_subdermico__commons.jpg` | Wikimedia Commons «Implanon 04.jpg», CC BY-SA 4.0, Vera de Kok |
+| gin-08 | retiro de implante subdérmico del brazo | `13_ginecologia/gin-08/03_retiro_implante__commons.jpg` | Wikimedia Commons «Implanon 02.jpg», CC BY-SA 4.0, Vera de Kok |
+| hem-06 | glositis atrófica (lengua lisa y roja) en anemia perniciosa | `06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg` | Wikimedia Commons «Tongue of person with pernicious anemia two weeks following vitamin B12 supplementation.jpg», CC BY 4.0, Emmanuel Jojo Aryee and Helen Agyei-Yeboah |
+| hem-06 | glositis en anemia ferropénica | `06_hematologia/hem-06/02_glositis_ferropenia__commons.jpg` | Wikimedia Commons «Glossitis in Iron-deficiency Anaemia, a Thai female patient (2025).jpg», CC BY 4.0, Chainwit. |
+| ped-04 | acople incorrecto (labio inferior evertido hacia adentro) vs correcto | `15_pediatria/ped-04/03_acople_incorrecto_vs_correcto__commons.jpg` | Wikimedia Commons «Breastfeeding - Incorrect vs Correct Latch-On.png», CC BY-SA 4.0, BruceBlaus |
+| ped-04 | acople deficiente: areola visible, mentón lejos del pecho | `15_pediatria/ped-04/04_acople_deficiente__commons.jpg` | Wikimedia Commons «Shallow Latch.jpg», CC BY-SA 4.0, Dr. Jack Newman |
+| ped-08 | desobstrucción en lactante: golpes en la espalda y compresiones torácicas | `15_pediatria/ped-08/01_lactante_golpes_compresiones__commons.jpg` | Wikimedia Commons «Heimlich Infant.png», CC BY-SA 4.0, BruceBlaus |
+| ped-08 | maniobra de Heimlich en adulto y niño | `15_pediatria/ped-08/02_heimlich_adulto_nino__commons.jpg` | Wikimedia Commons «Heimlich Adult & Child.png», CC BY-SA 4.0, BruceBlaus |
+| resp-08 | RX: neumonía aspirativa en lóbulo inferior derecho | `02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg` | Wikimedia Commons «Aspiration pneumonia201711-3264.jpg», CC BY-SA 4.0, melvil |
+| reuma-03 | cristales de pirofosfato cálcico (romboidales, birrefringencia débil positiva) | `08_reumatologia/reuma-03/01_cristales_pirofosfato_polarizada__commons.jpg` | Wikimedia Commons «Birefringence microscopy of pseudogout, annotated.jpg», CC0, Mikael Häggström, M.D. Author info - Reusing images- Conflic |
+| reuma-23 | puntos sensibles de fibromialgia | `08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg` | Wikimedia Commons «Puntos-sensibles-fibromialg.jpg», CC BY-SA 3.0, Wikimedia commons - own work |
+| reuma-23 | distribución del dolor en polimialgia reumática (cinturas) | `08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg` | Wikimedia Commons «Polymyalgia rheumatica.png», Public domain, openAi |
+| endo-11 | facies de luna llena (Cushing iatrogénico por corticoide) | `05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg` | Wikimedia Commons «CushingsFace.jpg», CC BY 2.5, Ozlem Celik, Mutlu Niyazoglu, Hikmet Soylu and Pinar Kadiogl |
+| reuma-02 | rodilla con derrame articular (aumento de volumen) | `08_reumatologia/reuma-02/01_derrame_rodilla__commons.jpg` | Wikimedia Commons «Knee Effusion.jpg», CC BY-SA 4.0, James Heilman, MD |
+| neuro-23 | RX de fractura de cuello femoral | `09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg` | Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka |
+| hem-13 | articulación de rodilla de un hemofílico (artropatía, acuarela histórica) | `06_hematologia/hem-13/01_rodilla_hemofilico__commons-wellcome.jpg` | Wikimedia Commons «Knee joint of a haemophiliac Wellcome L0062595.jpg», CC BY 4.0, Godart, Thomas |
+| nefro-15 | niño con edema facial y generalizado por síndrome nefrótico | `03_nefrologia/nefro-15/01_edema_facial_nino_nefrosis__cdc-phil-3894.jpg` | Wikimedia Commons «Plasmodium falciparum nephrosis edema PHIL 3894 lores.jpg», Public domain, ver autor en Commons |
+| ped-16 | test de Capurro: oreja, mama, pezón, piel, pliegues plantares | `15_pediatria/ped-16/01_test_capurro__usuario.jpg` | Aportada por el usuario (fuente web, licencia por verificar) |
+| neuro-20 | maniobra de Dix-Hallpike (ilustración) | `09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg` | Aportada por el usuario (fuente web, licencia por verificar) |
+| reuma-20 | prueba de patergia: basal, 24 y 48 horas | `08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg` | Aportada por el usuario (fuente web, licencia por verificar) |
+| cirugia-17 | etapas de dehiscencia a evisceración (infografía) | `10_cirugia/cirugia-17/02_evisceracion_etapas__usuario.jpg` | Aportada por el usuario (enfermerabuenosaires.com, licencia por verificar) |
+| cirugia-17 | evisceración expuesta (recorte de la infografía) | `10_cirugia/cirugia-17/03_evisceracion_expuesta__usuario.jpg` | Aportada por el usuario (enfermerabuenosaires.com, licencia por verificar) |
+| cirugia-12 | signo de Battle: equimosis retroauricular en fractura de base de cráneo | `10_cirugia/cirugia-12/03_signo_de_battle__nelson_p5133.jpg` | Nelson 22.ª ed., Fig. 683.3A |
+| oftal-18 | prueba de la linterna oscilante: defecto pupilar aferente relativo derecho (Marcus Gunn) | `12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg` | Kanski 8.ª ed., Fig. 19.33 |
+| gastro-05 | cáncer gástrico avanzado en endoscopía: Borrmann I, II, III y IV (linitis) | `01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg` | Bailey & Love 27.ª ed., Fig. 63.29 |
+| ped-13 | cistouretrografía miccional: RVU bilateral de alto grado | `15_pediatria/ped-13/02_cistouretrografia_rvu__harrison_p2402.jpg` | Harrison 21.ª ed., Fig. 316-4A |
+| oftal-14 | registro de Amsler: metamorfopsia y escotoma | `12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg` | Kanski 8.ª ed., Fig. 14.12 |
+| gastro-25 | RX neonatal: doble burbuja de atresia duodenal | `01_gastroenterologia/gastro-25/01_doble_burbuja__bailey_p155.jpg` | Bailey & Love 27.ª ed., Fig. 9.24 |
+| cirugia-08 | sinus pilonidal: dos orificios en el surco interglúteo | `10_cirugia/cirugia-08/04_sinus_pilonidal_foto__commons.jpg` | Wikimedia Commons «Two pilonidal cysts in the natal cleft.jpg», Public domain, JerryTahl |
+| cirugia-08 | absceso pilonidal | `10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg` | Wikimedia Commons «Pilonidal abscess.jpg», CC BY-SA 4.0, Jonathanlund |
+| gastro-12 | fisura anal posterior (flecha) | `01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg` | Wikimedia Commons «Anal fissure 1.jpg», Public domain, Bernardo Gui |
+| gastro-15 | ascitis a tensión en daño hepático crónico | `01_gastroenterologia/gastro-15/02_ascitis_tension_foto__commons.jpg` | Wikimedia Commons «Hepaticfailure.jpg», CC BY-SA 3.0, James Heilman, MD |
+| hem-19 | electroforesis de proteínas: pico monoclonal en gamma (mieloma) | `06_hematologia/hem-19/02_pico_m_real__commons.jpg` | Wikimedia Commons «Monoclonal gammopathy Multiple Myeloma.png», CC BY-SA 3.0, Steven Fruitsmaak |
+| neuro-13 | espiral de Arquímedes dibujada por paciente con temblor esencial | `09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg` | Wikimedia Commons «Spiral drawing - essential tremor.jpg», CC BY-SA 4.0, Undescribed |
+| resp-23 | polisomnografía real: apneas obstructivas repetidas con desaturación | `02_neumologia/resp-23/02_polisomnografia_real__commons.jpg` | Wikimedia Commons «Polysomnographie-apnees-5min2.png», CC BY-SA 3.0, GAllegre |
+| ob-18 | balón de Bakri en cavidad uterina | `14_obstetricia/ob-18/01_balon_bakri__commons.jpg` | Wikimedia Commons «Bakri Balloon Hariadhi.svg», CC BY-SA 4.0, Hariadhi |

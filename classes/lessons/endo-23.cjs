@@ -157,6 +157,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Silla turca vacía',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg', label: 'Silla turca vacía', credit: 'Nelson 22.ª ed., Fig. 645.5A' },
+      ],
+      steps: [
+        { note: 'Hipófisis aplanada',
+          say: 'En esta resonancia la silla turca está llena de líquido y la hipófisis aplanada contra el fondo. Es la silla turca vacía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la sospecha hasta el reemplazo.',
     },

@@ -186,6 +186,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Obstrucción intestinal',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg', label: 'Niveles hidroaéreos', credit: 'Manual CTO Digestivo 14.ª ed., p. 163' },
+        { src: 'biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg', label: 'Vólvulo de sigmoides', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
+      ],
+      steps: [
+        { note: 'Asas dilatadas en escalera',
+          say: 'La radiografía de pie muestra asas dilatadas con niveles hidroaéreos.' },
+        { note: 'Grano de café',
+          say: 'Y el vólvulo de sigmoides forma una gran asa en grano de café.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

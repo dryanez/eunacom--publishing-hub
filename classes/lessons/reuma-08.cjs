@@ -231,6 +231,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Lupus eritematoso sistémico',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-08/01_eritema-malar__cto-reuma_p81.jpg', label: 'Eritema malar', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' },
+      ],
+      steps: [
+        { note: 'En alas de mariposa, respeta el surco',
+          say: 'El eritema malar cubre mejillas y nariz en alas de mariposa y respeta el surco nasogeniano.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

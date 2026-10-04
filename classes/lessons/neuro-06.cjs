@@ -221,6 +221,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El aura de la migraña',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg', label: 'Espectro de fortificación', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Crece en minutos',
+          say: 'El aura visual típica es un zigzag brillante que crece desde el centro hacia la periferia en unos veinte minutos. Si dura más de una hora, hay que pensar en otra cosa.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: primero las banderas rojas, después el tipo de cefalea, la crisis y la profilaxis.',
     },

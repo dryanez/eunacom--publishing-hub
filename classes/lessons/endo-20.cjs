@@ -178,6 +178,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'El macroadenoma hipofisario',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-20/01_hemianopsia-bitemporal-campimetria__cto-endocrino_p41.jpg', label: 'Hemianopsia bitemporal', credit: 'Manual CTO Endocrinología 14.ª ed., p. 41' },
+        { src: 'biblioteca/05_endocrinologia/endo-20/02_adenoma-con-sangrado-rm__cto-endocrino_p42.jpg', label: 'Apoplejía hipofisaria', credit: 'Manual CTO Endocrinología 14.ª ed., p. 42' },
+      ],
+      steps: [
+        { note: 'Pierde los campos externos',
+          say: 'El macroadenoma comprime el quiasma y el paciente pierde los dos campos temporales: hemianopsia bitemporal.' },
+        { note: 'Adenoma con sangrado',
+          say: 'Y si el adenoma sangra, aparece la apoplejía: cefalea brusca y caída de la visión. La hidrocortisona va primero.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },

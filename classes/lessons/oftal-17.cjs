@@ -127,6 +127,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Celulitis periocular',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg', label: 'Preseptal', credit: 'Manual AMIR Oftalmología, p. 43' },
+        { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg', label: 'Orbitaria', credit: 'Kanski, p. 100' },
+      ],
+      steps: [
+        { note: 'Párpado hinchado, ojo normal',
+          say: 'En la preseptal el párpado está hinchado pero la visión y los movimientos son normales.' },
+        { note: 'Proptosis, dolor al mover',
+          say: 'En la orbitaria hay proptosis y dolor al mover el ojo. Se hospitaliza.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

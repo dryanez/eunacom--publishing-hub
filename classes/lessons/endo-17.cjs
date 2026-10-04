@@ -128,6 +128,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Los signos de la tetania',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg', label: 'Trousseau', credit: 'Wikimedia Commons «Trousseau\'s Sign of Latent Tetany.jpg», CC BY-SA 4.0, ver autor en Commons' },
+        { src: 'biblioteca/05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg', label: 'Chvostek', credit: 'Wikimedia Commons «Facial spasm (Chvostek\'s symptom).jpg», Public domain, Alfred Loomis & William Thompson' },
+        { src: 'biblioteca/05_endocrinologia/endo-17/02_qt_calcio_esquema__ecg-basics_p331.jpg', label: 'QT largo', credit: 'ECG from Basics to Essentials, p. 331' },
+      ],
+      steps: [
+        { note: 'Mano de partero con el manguito',
+          say: 'Este es el signo de Trousseau: al inflar el manguito sobre la presión sistólica, la mano se contrae en mano de partero. Es el signo más específico de hipocalcemia.' },
+        { note: 'Espasmo facial al percutir',
+          say: 'Y este es el Chvostek: al percutir el nervio facial delante de la oreja, se contrae la comisura del mismo lado.' },
+        { note: 'La hipocalcemia alarga el QT',
+          say: 'Y en el electrocardiograma, la hipocalcemia alarga el QT.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, como lo vas a razonar en el examen.',
     },

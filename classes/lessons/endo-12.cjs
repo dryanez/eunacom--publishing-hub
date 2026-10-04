@@ -167,6 +167,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'La piel del Addison',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg', label: 'Hiperpigmentación', credit: 'Fitzpatrick 7.ª ed., Fig. 152-16A' },
+        { src: 'biblioteca/05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg', label: 'Pliegues palmares', credit: 'Fitzpatrick 7.ª ed., Fig. 152-16B' },
+      ],
+      steps: [
+        { note: 'Piel oscura, más en zonas expuestas',
+          say: 'En el Addison la piel se oscurece, sobre todo en zonas expuestas, cicatrices y mucosas. Se debe al exceso de ACTH.' },
+        { note: 'Los pliegues se oscurecen',
+          say: 'Fíjate en los pliegues de las palmas, oscuros. Esa hiperpigmentación no aparece en la insuficiencia secundaria, porque ahí la ACTH está baja.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la sospecha hasta el tratamiento de cada tipo.',
     },

@@ -105,6 +105,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Cáncer de piel no melanoma',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg', label: 'Basocelular', credit: 'Manual CTO Dermatología 14.ª ed., p. 99' },
+        { src: 'biblioteca/11_dermatologia/derma-14/02_cec__cto-derma_p100.jpg', label: 'Espinocelular', credit: 'Manual CTO Dermatología 14.ª ed., p. 100' },
+      ],
+      steps: [
+        { note: 'Nódulo perlado con telangiectasias',
+          say: 'El basocelular es un nódulo perlado con telangiectasias. Casi no da metástasis.' },
+        { note: 'Lesión queratósica que crece',
+          say: 'El espinocelular es una lesión costrosa o ulcerada que crece, y sí puede dar metástasis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la morfología de la lesión al tratamiento definitivo.',
     },

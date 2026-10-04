@@ -2,7 +2,7 @@
   "id": "infecto-16",
   "title": "Infectologia 4.3: Enfermedades Transmitidas por Mosquitos: Dengue, Malaria y Fiebre Amarilla",
   "specialty": "Infectología",
-  "chars": 13974,
+  "chars": 14213,
   "segments": [
     {
       "file": "s00_g00",
@@ -178,154 +178,166 @@
     },
     {
       "file": "s08_g00",
-      "text": "Juntemos las tres enfermedades en un solo árbol, partiendo del viajero que llega con fiebre. Paciente que vuelve de una zona tropical con fiebre. Lo primero es preguntar el viaje; lo segundo, mirar qué acompaña a la fiebre."
+      "text": "En la gota gruesa de la malaria por falciparum aparecen anillos dentro de los glóbulos rojos."
     },
     {
       "file": "s08_g01",
-      "text": "¿La fiebre viene con dolor retroorbitario y mialgias, con accesos y anemia, o con ictericia y hemorragia?"
+      "text": "Y los gametocitos en forma de banana son exclusivos de falciparum, la especie grave."
     },
     {
       "file": "s08_g02",
-      "text": "Dolor retroorbitario, mialgias y exantema con islas blancas: dengue. La pregunta que decide todo es si hay algún signo de alarma."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Sin alarma: se confirma con antígeno ene ese uno o IgM, manejo ambulatorio con hidratación oral y paracetamol, y educación de los signos de alarma. Nunca AINE ni aspirina."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Con un solo signo de alarma: hospitalizar de inmediato y reponer con cristaloides. Es la fuga plasmática del dengue grave."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Calofrío, fiebre y sudoración que se repiten, con anemia e ictericia: malaria. Gota gruesa y frotis con Giemsa, y el tratamiento depende de la especie."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Plasmodium falciparum, el más letal: terapia combinada con artemisininas, arteméter con lumefantrina."
-    },
-    {
-      "file": "s08_g07",
-      "text": "Vivax u ovale: cloroquina para la sangre y primaquina por catorce días para los hipnozoítos, verificando antes la enzima glucosa seis fosfato deshidrogenasa."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Fiebre con ictericia intensa, vómito negro y bradicardia relativa: fiebre amarilla. Soporte intensivo en la unidad de cuidados intensivos. Y las tres enfermedades se notifican de inmediato."
+      "text": "Y el exantema del dengue: islas de piel blanca en un mar rojo."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos las trampas. Dengue con mialgias intensas: paracetamol. El error es dar un AINE o aspirina, que están contraindicados por riesgo de hemorragia."
+      "text": "Juntemos las tres enfermedades en un solo árbol, partiendo del viajero que llega con fiebre. Paciente que vuelve de una zona tropical con fiebre. Lo primero es preguntar el viaje; lo segundo, mirar qué acompaña a la fiebre."
     },
     {
       "file": "s09_g01",
-      "text": "Dengue en que la fiebre acaba de caer: no es mejoría segura, es la entrada a la fase crítica. Hay que buscar signos de alarma y educar antes de cualquier alta."
+      "text": "¿La fiebre viene con dolor retroorbitario y mialgias, con accesos y anemia, o con ictericia y hemorragia?"
     },
     {
       "file": "s09_g02",
-      "text": "Hematocrito que sube con plaquetas bajo cien mil: es fuga plasmática, es un signo de alarma, y se hospitaliza con cristaloides. Seguir en forma ambulatoria es el error."
+      "text": "Dolor retroorbitario, mialgias y exantema con islas blancas: dengue. La pregunta que decide todo es si hay algún signo de alarma."
     },
     {
       "file": "s09_g03",
-      "text": "Fiebre con anemia en un viajero: piensa en malaria y pide gota gruesa. El dengue no explica una anemia marcada."
+      "text": "Sin alarma: se confirma con antígeno ene ese uno o IgM, manejo ambulatorio con hidratación oral y paracetamol, y educación de los signos de alarma. Nunca AINE ni aspirina."
     },
     {
       "file": "s09_g04",
-      "text": "Malaria por vivax tratada con cloroquina: falta la primaquina por catorce días. Sin ella, los hipnozoítos producen recaídas."
+      "text": "Con un solo signo de alarma: hospitalizar de inmediato y reponer con cristaloides. Es la fuga plasmática del dengue grave."
     },
     {
       "file": "s09_g05",
-      "text": "Y la embarazada que viaja a zona selvática: la vacuna antiamarílica está contraindicada, porque es de virus vivo."
+      "text": "Calofrío, fiebre y sudoración que se repiten, con anemia e ictericia: malaria. Gota gruesa y frotis con Giemsa, y el tratamiento depende de la especie."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Plasmodium falciparum, el más letal: terapia combinada con artemisininas, arteméter con lumefantrina."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Vivax u ovale: cloroquina para la sangre y primaquina por catorce días para los hipnozoítos, verificando antes la enzima glucosa seis fosfato deshidrogenasa."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Fiebre con ictericia intensa, vómito negro y bradicardia relativa: fiebre amarilla. Soporte intensivo en la unidad de cuidados intensivos. Y las tres enfermedades se notifican de inmediato."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Joven de veintiséis años, con cuatro días de fiebre hasta treinta y nueve y medio, dolor detrás de los ojos que empeora al moverlos, y mialgias y artralgias severas. Volvió hace cinco días del noreste de Brasil. Tiene un exantema en el tronco que respeta pequeñas zonas de piel sana. No tiene dolor abdominal ni sangrado."
+      "text": "Repasemos las trampas. Dengue con mialgias intensas: paracetamol. El error es dar un AINE o aspirina, que están contraindicados por riesgo de hemorragia."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Dengue en que la fiebre acaba de caer: no es mejoría segura, es la entrada a la fase crítica. Hay que buscar signos de alarma y educar antes de cualquier alta."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: confirmar y manejar en forma ambulatoria con hidratación oral y paracetamol, hospitalizar con cristaloides, indicar ketoprofeno, pedir gota gruesa y tratar malaria, o iniciar un antiviral. Piénsalo."
+      "text": "Hematocrito que sube con plaquetas bajo cien mil: es fuga plasmática, es un signo de alarma, y se hospitaliza con cristaloides. Seguir en forma ambulatoria es el error."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta es la A. Viaje al trópico, dolor retroorbitario, quebrantahuesos y las islas blancas: es un dengue. Y buscamos signos de alarma: no hay ninguno. Entonces se confirma con antígeno ene ese uno o IgM, se maneja en forma ambulatoria con hidratación oral y paracetamol, y se educa. La trampa es el ketoprofeno, que suena lógico para las mialgias, pero está contraindicado. Hospitalizar sería correcto solo con un signo de alarma."
+      "text": "Fiebre con anemia en un viajero: piensa en malaria y pide gota gruesa. El dengue no explica una anemia marcada."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Malaria por vivax tratada con cloroquina: falta la primaquina por catorce días. Sin ella, los hipnozoítos producen recaídas."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y la embarazada que viaja a zona selvática: la vacuna antiamarílica está contraindicada, porque es de virus vivo."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Una paciente vuelve de la selva amazónica y al cuarto día presenta fiebre de treinta y nueve, cefalea intensa, malestar general y mialgias. El hemograma muestra hematocrito de veinticuatro por ciento, hemoglobina de ocho, leucocitos de dieciséis mil y plaquetas de noventa y tres mil."
+      "text": "Vamos con un caso. Joven de veintiséis años, con cuatro días de fiebre hasta treinta y nueve y medio, dolor detrás de los ojos que empeora al moverlos, y mialgias y artralgias severas. Volvió hace cinco días del noreste de Brasil. Tiene un exantema en el tronco que respeta pequeñas zonas de piel sana. No tiene dolor abdominal ni sangrado."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el agente etiológico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: virus Zika, virus dengue, Plasmodium falciparum, Salmonella typhi, o virus de la fiebre amarilla. Piénsalo."
+      "text": "Las opciones son: confirmar y manejar en forma ambulatoria con hidratación oral y paracetamol, hospitalizar con cristaloides, indicar ketoprofeno, pedir gota gruesa y tratar malaria, o iniciar un antiviral. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, Plasmodium falciparum. La clínica y las plaquetas bajas son compatibles con dengue, y por eso el dengue es el distractor más tentador. Pero mira el hematocrito: en el dengue que se complica, la sangre se concentra y el hematocrito sube. Aquí está en veinticuatro, con hemoglobina de ocho: es una anemia marcada, y eso es hemólisis. El parásito que rompe glóbulos rojos es el Plasmodium. A la fiebre amarilla le faltaría la ictericia."
+      "text": "La respuesta es la A. Viaje al trópico, dolor retroorbitario, quebrantahuesos y las islas blancas: es un dengue. Y buscamos signos de alarma: no hay ninguno. Entonces se confirma con antígeno ene ese uno o IgM, se maneja en forma ambulatoria con hidratación oral y paracetamol, y se educa. La trampa es el ketoprofeno, que suena lógico para las mialgias, pero está contraindicado. Hospitalizar sería correcto solo con un signo de alarma."
     },
     {
       "file": "s12_g00",
-      "text": "Otra pregunta real, del EUNACOM de enero de dos mil veintitrés, que conecta con la vacuna. Un niño tuvo una reacción anafiláctica al huevo hace un mes."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Una paciente vuelve de la selva amazónica y al cuarto día presenta fiebre de treinta y nueve, cefalea intensa, malestar general y mialgias. El hemograma muestra hematocrito de veinticuatro por ciento, hemoglobina de ocho, leucocitos de dieciséis mil y plaquetas de noventa y tres mil."
     },
     {
       "file": "s12_g01",
-      "text": "¿Qué vacuna está contraindicada?"
+      "text": "¿Cuál es el agente etiológico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: triple viral, influenza inactivada, hepatitis A, varicela, o fiebre amarilla. Piénsalo."
+      "text": "Las opciones son: virus Zika, virus dengue, Plasmodium falciparum, Salmonella typhi, o virus de la fiebre amarilla. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la E, la vacuna contra la fiebre amarilla. Esta vacuna viva se produce en huevo embrionado, así que la anafilaxia al huevo la contraindica. Súmala a la lista que vimos: embarazo, menores de nueve meses, timoma e inmunosupresión severa. El distractor tentador es la triple viral, pero esa sí se puede administrar a un niño alérgico al huevo."
+      "text": "Es la C, Plasmodium falciparum. La clínica y las plaquetas bajas son compatibles con dengue, y por eso el dengue es el distractor más tentador. Pero mira el hematocrito: en el dengue que se complica, la sangre se concentra y el hematocrito sube. Aquí está en veinticuatro, con hemoglobina de ocho: es una anemia marcada, y eso es hemólisis. El parásito que rompe glóbulos rojos es el Plasmodium. A la fiebre amarilla le faltaría la ictericia."
     },
     {
       "file": "s13_g00",
-      "text": "Y una pregunta real reciente, del EUNACOM de diciembre de dos mil veinticinco, sobre epidemiología nacional."
+      "text": "Otra pregunta real, del EUNACOM de enero de dos mil veintitrés, que conecta con la vacuna. Un niño tuvo una reacción anafiláctica al huevo hace un mes."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál de las siguientes patologías no es autóctona de Chile?"
+      "text": "¿Qué vacuna está contraindicada?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: hantavirus, leptospirosis, influenza, dengue o malaria. Piénsalo."
+      "text": "Las opciones son: triple viral, influenza inactivada, hepatitis A, varicela, o fiebre amarilla. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la E, la malaria. En Chile no hay malaria autóctona: todos los casos que vemos son importados. El distractor es el dengue, porque también lo asociamos al viajero. Pero recuerda lo que vimos al inicio: el Aedes aegypti sí existe en Isla de Pascua, así que ahí el dengue se transmite localmente."
+      "text": "Es la E, la vacuna contra la fiebre amarilla. Esta vacuna viva se produce en huevo embrionado, así que la anafilaxia al huevo la contraindica. Súmala a la lista que vimos: embarazo, menores de nueve meses, timoma e inmunosupresión severa. El distractor tentador es la triple viral, pero esa sí se puede administrar a un niño alérgico al huevo."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Dolor retroorbitario, mialgias quebrantahuesos y exantema con islas blancas, en alguien que vuelve del trópico: dengue."
+      "text": "Y una pregunta real reciente, del EUNACOM de diciembre de dos mil veinticinco, sobre epidemiología nacional."
     },
     {
       "file": "s14_g01",
-      "text": "Un solo signo de alarma obliga a hospitalizar, y el peligro está cuando cae la fiebre."
+      "text": "¿Cuál de las siguientes patologías no es autóctona de Chile?"
     },
     {
       "file": "s14_g02",
-      "text": "Y la analgesia es solo con paracetamol: nunca AINE ni aspirina."
+      "text": "Las opciones son: hantavirus, leptospirosis, influenza, dengue o malaria. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la E, la malaria. En Chile no hay malaria autóctona: todos los casos que vemos son importados. El distractor es el dengue, porque también lo asociamos al viajero. Pero recuerda lo que vimos al inicio: el Aedes aegypti sí existe en Isla de Pascua, así que ahí el dengue se transmite localmente."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Dolor retroorbitario, mialgias quebrantahuesos y exantema con islas blancas, en alguien que vuelve del trópico: dengue."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Un solo signo de alarma obliga a hospitalizar, y el peligro está cuando cae la fiebre."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Y la analgesia es solo con paracetamol: nunca AINE ni aspirina."
+    },
+    {
+      "file": "s15_g03",
       "text": "Fiebre en accesos con anemia hemolítica: malaria, y el examen es la gota gruesa."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Si es vivax u ovale, cloroquina más primaquina por catorce días, verificando antes la glucosa seis fosfato deshidrogenasa."
     },
     {
-      "file": "s14_g05",
+      "file": "s15_g05",
       "text": "La vacuna antiamarílica es viva, de dosis única, y va al menos diez días antes del viaje. Nunca en embarazadas ni inmunosuprimidos."
     },
     {
-      "file": "s14_g06",
+      "file": "s15_g06",
       "text": "Si te llevas una sola idea de hoy: en el viajero con fiebre, el dengue se vigila por la fuga de plasma y se trata con paracetamol, y la malaria se busca por la anemia con una gota gruesa. En la próxima clase volvemos a las zoonosis chilenas: hidatidosis y triquinosis. Nos vemos en la próxima clase."
     }
   ]

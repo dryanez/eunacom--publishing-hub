@@ -118,6 +118,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Desobstrucción de la vía aérea',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-08/01_lactante_golpes_compresiones__commons.jpg', label: 'Lactante', credit: 'Wikimedia Commons «Heimlich Infant.png», CC BY-SA 4.0, BruceBlaus' },
+        { src: 'biblioteca/15_pediatria/ped-08/02_heimlich_adulto_nino__commons.jpg', label: 'Niño y adulto', credit: 'Wikimedia Commons «Heimlich Adult & Child.png», CC BY-SA 4.0, BruceBlaus' },
+      ],
+      steps: [
+        { note: 'Cinco golpes y cinco compresiones',
+          say: 'En el lactante: cinco golpes en la espalda y cinco compresiones torácicas.' },
+        { note: 'Heimlich',
+          say: 'Y en el niño mayor y el adulto, compresiones abdominales: la maniobra de Heimlich, que no se usa en lactantes.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo, desde el momento agudo hasta la fase tardía, en un solo árbol.',
     },

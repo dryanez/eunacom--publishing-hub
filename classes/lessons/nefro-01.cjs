@@ -207,6 +207,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La hematuria glomerular',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
+      ],
+      steps: [
+        { note: 'Glóbulos rojos deformados',
+          say: 'En el sedimento de una hematuria glomerular los glóbulos rojos están deformados, dismórficos, porque pasaron por el glomérulo dañado. Si son normales, la sangre viene de la vía urinaria.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

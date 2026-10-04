@@ -147,6 +147,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Diseños de estudio',
+      images: [
+        { src: 'biblioteca/16_salud_publica/sp-06/S1_disenos-estudio__propio.svg', label: 'Diseños', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Observacional o experimental',
+          say: 'Si el investigador asigna la exposición, es experimental. Si no, es observacional, y se divide según haya grupo de comparación.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de decisión completo, tal como lo vas a razonar en el examen.',
     },

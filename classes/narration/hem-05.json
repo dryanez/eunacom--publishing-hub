@@ -2,7 +2,7 @@
   "id": "hem-05",
   "title": "Hematología 8.5: Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
   "specialty": "Hematología",
-  "chars": 10792,
+  "chars": 10887,
   "segments": [
     {
       "file": "s00_g00",
@@ -138,110 +138,114 @@
     },
     {
       "file": "s07_g00",
-      "text": "Juntemos todo en un árbol de decisión, partiendo del hemograma con pancitopenia. Tienes un hemograma con las tres series bajas. Antes de nada, confirma en el frotis que la pancitopenia es real y descarta la seudotrombocitopenia por EDTA."
-    },
-    {
-      "file": "s07_g01",
-      "text": "La primera pregunta se responde con las manos: ¿se palpa el bazo, o hay adenopatías?"
-    },
-    {
-      "file": "s07_g02",
-      "text": "Si hay organomegalia, no es una aplasia primaria. Busca cirrosis con hipertensión portal, leucemia, mielofibrosis o linfoma."
-    },
-    {
-      "file": "s07_g03",
-      "text": "Sin organomegalia, la sospecha es aplasia medular. Lo primero es suspender cualquier fármaco mielotóxico: cloranfenicol, antitiroideos, carbamazepina."
-    },
-    {
-      "file": "s07_g04",
-      "text": "Luego pregunta si hay fiebre. Con los neutrófilos en el suelo, la fiebre es una urgencia."
-    },
-    {
-      "file": "s07_g05",
-      "text": "Si hay fiebre, se hospitaliza en aislamiento protector y se inicia de inmediato antibiótico endovenoso de amplio espectro."
-    },
-    {
-      "file": "s07_g06",
-      "text": "Sin fiebre, o una vez tratada la infección, se da soporte: transfusión restrictiva con productos desleucocitados e irradiados, sin inyecciones intramusculares, y derivación inmediata a hematología."
-    },
-    {
-      "file": "s07_g07",
-      "text": "El hematólogo confirma con la biopsia, celularidad bajo el veinticinco por ciento. En el joven con hermano HLA idéntico, trasplante alogénico; si es mayor o sin donante, globulina antitimocito, ciclosporina y eltrombopag."
+      "text": "A la izquierda una médula normal, llena de células; a la derecha, una aplasia: casi solo grasa."
     },
     {
       "file": "s08_g00",
-      "text": "Repasemos el diagnóstico diferencial de la pancitopenia. Aplasia medular: médula vacía, llena de grasa, sin bazo y sin blastos."
+      "text": "Juntemos todo en un árbol de decisión, partiendo del hemograma con pancitopenia. Tienes un hemograma con las tres series bajas. Antes de nada, confirma en el frotis que la pancitopenia es real y descarta la seudotrombocitopenia por EDTA."
     },
     {
       "file": "s08_g01",
-      "text": "Leucemia aguda: la médula está llena, pero de blastos, más del veinte por ciento. El bazo suele estar grande, sobre todo en la leucemia linfoblástica, y el frotis muestra blastos. Los bastones de Auer apuntan a la mieloide."
+      "text": "La primera pregunta se responde con las manos: ¿se palpa el bazo, o hay adenopatías?"
     },
     {
       "file": "s08_g02",
-      "text": "Síndrome mielodisplásico: médula normal o llena, pero con células displásicas, como los neutrófilos hipogranulares o de tipo Pelger. Piensa en el adulto mayor."
+      "text": "Si hay organomegalia, no es una aplasia primaria. Busca cirrosis con hipertensión portal, leucemia, mielofibrosis o linfoma."
     },
     {
       "file": "s08_g03",
-      "text": "Mielofibrosis primaria: la punción sale seca por la fibrosis, el bazo es gigante y el frotis muestra dacriocitos, los glóbulos rojos en forma de lágrima."
+      "text": "Sin organomegalia, la sospecha es aplasia medular. Lo primero es suspender cualquier fármaco mielotóxico: cloranfenicol, antitiroideos, carbamazepina."
     },
     {
       "file": "s08_g04",
-      "text": "Y cirrosis con hiperesplenismo: la médula es normal, el problema es el bazo grande por la hipertensión portal, con estigmas de daño hepático. La trampa del tema es llamar aplasia a una pancitopenia con bazo palpable."
+      "text": "Luego pregunta si hay fiebre. Con los neutrófilos en el suelo, la fiebre es una urgencia."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Si hay fiebre, se hospitaliza en aislamiento protector y se inicia de inmediato antibiótico endovenoso de amplio espectro."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Sin fiebre, o una vez tratada la infección, se da soporte: transfusión restrictiva con productos desleucocitados e irradiados, sin inyecciones intramusculares, y derivación inmediata a hematología."
+    },
+    {
+      "file": "s08_g07",
+      "text": "El hematólogo confirma con la biopsia, celularidad bajo el veinticinco por ciento. En el joven con hermano HLA idéntico, trasplante alogénico; si es mayor o sin donante, globulina antitimocito, ciclosporina y eltrombopag."
     },
     {
       "file": "s09_g00",
-      "text": "Vamos con un caso. Mujer de treinta y dos años con enfermedad de Graves, en tratamiento con tiamazol desde hace cinco semanas. Llega a urgencias con fiebre de treinta y ocho coma ocho, odinofagia con úlceras orales necróticas y petequias en las piernas. No hay bazo ni ganglios. Hemoglobina siete coma ocho, novecientos leucocitos con ciento veinte neutrófilos, catorce mil plaquetas y reticulocitos de cero coma dos por ciento."
+      "text": "Repasemos el diagnóstico diferencial de la pancitopenia. Aplasia medular: médula vacía, llena de grasa, sin bazo y sin blastos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Leucemia aguda: la médula está llena, pero de blastos, más del veinte por ciento. El bazo suele estar grande, sobre todo en la leucemia linfoblástica, y el frotis muestra blastos. Los bastones de Auer apuntan a la mieloide."
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: bajar la dosis de tiamazol, cambiarlo por propiltiouracilo con antibiótico oral, suspender el tiamazol y hospitalizar con antibióticos endovenosos y derivación, dar ácido fólico y hierro, o iniciar prednisona por un PTI. Piénsalo."
+      "text": "Síndrome mielodisplásico: médula normal o llena, pero con células displásicas, como los neutrófilos hipogranulares o de tipo Pelger. Piensa en el adulto mayor."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C. Es una aplasia medicamentosa por tiamazol, y además muy grave, con neutrófilos bajo doscientos, y con fiebre. Se suspende el fármaco, se hospitaliza en aislamiento, se inicia antibiótico endovenoso de amplio espectro, como ceftazidima o piperacilina con tazobactam, y se deriva a hematología. El distractor tentador es cambiar a propiltiouracilo, pero también es mielotóxico, y esta paciente no puede ir a su casa con antibiótico oral."
+      "text": "Mielofibrosis primaria: la punción sale seca por la fibrosis, el bazo es gigante y el frotis muestra dacriocitos, los glóbulos rojos en forma de lágrima."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y cirrosis con hiperesplenismo: la médula es normal, el problema es el bazo grande por la hipertensión portal, con estigmas de daño hepático. La trampa del tema es llamar aplasia a una pancitopenia con bazo palpable."
     },
     {
       "file": "s10_g00",
-      "text": "Ahora una pregunta representativa del banco EUNACOM, directa y sin caso clínico. El mejor tratamiento en la aplasia medular idiopática es..."
+      "text": "Vamos con un caso. Mujer de treinta y dos años con enfermedad de Graves, en tratamiento con tiamazol desde hace cinco semanas. Llega a urgencias con fiebre de treinta y ocho coma ocho, odinofagia con úlceras orales necróticas y petequias en las piernas. No hay bazo ni ganglios. Hemoglobina siete coma ocho, novecientos leucocitos con ciento veinte neutrófilos, catorce mil plaquetas y reticulocitos de cero coma dos por ciento."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál eliges?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: trasplante de médula ósea, quimioterapia combinada, radioterapia, cloranfenicol, o no tiene tratamiento. Piénsalo."
+      "text": "Las opciones: bajar la dosis de tiamazol, cambiarlo por propiltiouracilo con antibiótico oral, suspender el tiamazol y hospitalizar con antibióticos endovenosos y derivación, dar ácido fólico y hierro, o iniciar prednisona por un PTI. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A, el trasplante de médula ósea. Es el único tratamiento curativo, porque reemplaza la célula madre que se perdió, idealmente desde un hermano HLA idéntico. La quimioterapia y la radioterapia vaciarían todavía más la médula, y el cloranfenicol es justamente una de sus causas. Y cuidado con la E: la aplasia sí tiene tratamiento; si no hay donante, está la inmunosupresión con globulina antitimocito y ciclosporina."
+      "text": "Es la C. Es una aplasia medicamentosa por tiamazol, y además muy grave, con neutrófilos bajo doscientos, y con fiebre. Se suspende el fármaco, se hospitaliza en aislamiento, se inicia antibiótico endovenoso de amplio espectro, como ceftazidima o piperacilina con tazobactam, y se deriva a hematología. El distractor tentador es cambiar a propiltiouracilo, pero también es mielotóxico, y esta paciente no puede ir a su casa con antibiótico oral."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Pancitopenia sin esplenomegalia ni adenopatías: piensa en aplasia medular."
+      "text": "Ahora una pregunta representativa del banco EUNACOM, directa y sin caso clínico. El mejor tratamiento en la aplasia medular idiopática es..."
     },
     {
       "file": "s11_g01",
-      "text": "Si el bazo se palpa, la respuesta es otra: hiperesplenismo por cirrosis, leucemia o mielofibrosis."
+      "text": "¿Cuál eliges?"
     },
     {
       "file": "s11_g02",
-      "text": "La biopsia de médula ósea confirma, con una celularidad bajo el veinticinco por ciento y reemplazo graso."
+      "text": "Las opciones: trasplante de médula ósea, quimioterapia combinada, radioterapia, cloranfenicol, o no tiene tratamiento. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la A, el trasplante de médula ósea. Es el único tratamiento curativo, porque reemplaza la célula madre que se perdió, idealmente desde un hermano HLA idéntico. La quimioterapia y la radioterapia vaciarían todavía más la médula, y el cloranfenicol es justamente una de sus causas. Y cuidado con la E: la aplasia sí tiene tratamiento; si no hay donante, está la inmunosupresión con globulina antitimocito y ciclosporina."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Pancitopenia sin esplenomegalia ni adenopatías: piensa en aplasia medular."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Si el bazo se palpa, la respuesta es otra: hiperesplenismo por cirrosis, leucemia o mielofibrosis."
+    },
+    {
+      "file": "s12_g02",
+      "text": "La biopsia de médula ósea confirma, con una celularidad bajo el veinticinco por ciento y reemplazo graso."
+    },
+    {
+      "file": "s12_g03",
       "text": "Es grave con dos de tres: neutrófilos bajo quinientos, plaquetas bajo veinte mil, reticulocitos bajo veinte mil."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "Tu conducta: suspender el fármaco mielotóxico, aislar, transfundir productos irradiados y derivar. El trasplante es la cura en el joven con donante."
     },
     {
-      "file": "s11_g05",
+      "file": "s12_g05",
       "text": "En la próxima clase vemos otra causa de pancitopenia, pero con glóbulos rojos gigantes y compromiso neurológico: el déficit de vitamina B doce. Si te llevas una sola idea de hoy: pancitopenia sin bazo es aplasia, y lo primero es suspender el fármaco. Nos vemos en la próxima clase."
     }
   ]

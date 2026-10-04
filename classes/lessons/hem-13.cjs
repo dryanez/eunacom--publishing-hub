@@ -273,6 +273,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Hemofilia',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-13/01_rodilla_hemofilico__commons-wellcome.jpg', label: 'Artropatía hemofílica', credit: 'Wikimedia Commons «Knee joint of a haemophiliac Wellcome L0062595.jpg», CC BY 4.0, Godart, Thomas' },
+      ],
+      steps: [
+        { note: 'La articulación destruida',
+          say: 'Este dibujo histórico muestra la rodilla de un hemofílico, destruida por sangrados repetidos. La hemartrosis es el sello de la hemofilia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: desde cómo sangra el paciente hasta qué le infundes.',
     },

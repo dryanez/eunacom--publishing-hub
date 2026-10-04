@@ -240,6 +240,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Vasculitis de pequeño vaso',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-22/01_purpura-palpable__amir-reuma_p38.jpg', label: 'Púrpura palpable', credit: 'Manual AMIR Reumatología, p. 38' },
+        { src: 'biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg', label: 'Nariz en silla de montar', credit: 'Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0, ver autor en Commons' },
+      ],
+      steps: [
+        { note: 'Pápulas que no blanquean',
+          say: 'La púrpura palpable en las piernas es el signo de vasculitis de pequeño vaso.' },
+        { note: 'Destrucción del tabique',
+          say: 'Y la nariz en silla de montar, por destrucción del cartílago, sugiere granulomatosis con poliangeítis.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

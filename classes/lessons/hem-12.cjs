@@ -236,6 +236,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Trombocitopenia',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-12/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias', credit: 'Manual AMIR Hematología, p. 89' },
+      ],
+      steps: [
+        { note: 'Puntos rojos que no blanquean',
+          say: 'Las petequias son puntos rojos que no desaparecen al presionar. Indican un problema de plaquetas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, desde el hemograma alterado hasta la conducta.',
     },

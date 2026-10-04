@@ -145,6 +145,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Hipotiroidismo congénito',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg', label: 'Sin tratamiento', credit: 'Nelson 22.ª ed., p. 4372' },
+        { src: 'biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg', label: 'Con tratamiento', credit: 'Nelson 22.ª ed., p. 4372' },
+      ],
+      steps: [
+        { note: 'Macroglosia, facies tosca',
+          say: 'Este lactante de seis meses no fue tratado: lengua grande, facies tosca, piel infiltrada. Esto es lo que el tamizaje de talón previene.' },
+        { note: 'El mismo niño tras levotiroxina',
+          say: 'Y el mismo niño después del tratamiento. La facies se normaliza, pero el daño neurológico solo se evita si se trata en las primeras semanas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos a la madre y al recién nacido en un solo árbol.',
     },

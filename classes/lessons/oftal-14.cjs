@@ -115,6 +115,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Degeneración macular',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg', label: 'DMAE seca', credit: 'Manual CTO Oftalmología 14.ª ed., p. 72' },
+        { src: 'biblioteca/12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg', label: 'Amsler', credit: 'Kanski 8.ª ed., Fig. 14.12' },
+      ],
+      steps: [
+        { note: 'Drusas',
+          say: 'La forma seca muestra drusas, depósitos amarillos en la mácula.' },
+        { note: 'Líneas onduladas y escotoma',
+          say: 'Y el paciente ve las líneas de la rejilla de Amsler onduladas, con una mancha central.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

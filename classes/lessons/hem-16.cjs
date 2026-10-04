@@ -223,6 +223,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Leucemias agudas',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer__amir-hemato_p44.jpg', label: 'Bastones de Auer', credit: 'Manual AMIR Hematología, p. 44' },
+        { src: 'biblioteca/06_hematologia/hem-16/03_infiltracion-gingival__cto-hemato_p63.jpg', label: 'Infiltración gingival', credit: 'Manual CTO Hematología 14.ª ed., p. 63' },
+      ],
+      steps: [
+        { note: 'Leucemia promielocítica',
+          say: 'Estos blastos tienen bastones de Auer: es una leucemia mieloide, y si hay muchos, la promielocítica, que produce coagulación intravascular.' },
+        { note: 'Encías engrosadas',
+          say: 'Y la infiltración de las encías es típica de las leucemias monocíticas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde el paciente con insuficiencia medular hasta la conducta.',
     },

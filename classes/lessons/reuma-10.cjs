@@ -170,6 +170,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Lupus cutáneo',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-10/01_lupus-discoide__cto-reuma_p81.jpg', label: 'Lupus discoide', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' },
+        { src: 'biblioteca/08_reumatologia/reuma-10/02_lupus-subagudo-anular__cto-reuma_p81.jpg', label: 'Lupus subagudo', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' },
+      ],
+      steps: [
+        { note: 'Placas con cicatriz',
+          say: 'El lupus discoide deja placas con cicatriz y, en el cuero cabelludo, alopecia cicatricial.' },
+        { note: 'Lesiones anulares',
+          say: 'Y el subagudo da lesiones anulares en zonas expuestas al sol, asociado a anti Ro.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

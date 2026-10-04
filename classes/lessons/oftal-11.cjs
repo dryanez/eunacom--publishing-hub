@@ -114,6 +114,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Oclusiones vasculares de la retina',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg', label: 'Oclusión arterial', credit: 'Manual CTO Oftalmología 14.ª ed., p. 70' },
+        { src: 'biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg', label: 'Oclusión venosa', credit: 'Manual AMIR Oftalmología, p. 15' },
+      ],
+      steps: [
+        { note: 'Mancha rojo cereza',
+          say: 'La oclusión de la arteria central deja la retina pálida con una mancha rojo cereza en la mácula.' },
+        { note: 'Hemorragias en llama',
+          say: 'Y la oclusión venosa da hemorragias en llama por toda la retina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

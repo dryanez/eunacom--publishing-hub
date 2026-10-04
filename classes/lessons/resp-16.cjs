@@ -95,6 +95,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'El nódulo pulmonar sospechoso',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-16/01_nodulo_espiculado__cxr_p282.jpg', label: 'Nódulo espiculado', credit: 'The Chest X-Ray: A Survival Guide, Fig. 20.4' },
+      ],
+      steps: [
+        { note: 'Borde irregular, con espículas',
+          say: 'Este nódulo tiene bordes irregulares, con prolongaciones hacia el pulmón. Ese borde espiculado sugiere malignidad. Un nódulo liso, con calcificación central o en palomitas de maíz, sugiere benignidad.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -149,6 +149,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Bronquiolitis',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-05/01_distres-en-bronquiolitis__cto-pediatria_p52.jpg', label: 'Dificultad respiratoria', credit: 'Manual CTO Pediatría 14.ª ed., p. 52' },
+        { src: 'biblioteca/15_pediatria/ped-05/02_rx-bronquiolitis__cto-pediatria_p52.jpg', label: 'Radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 52' },
+      ],
+      steps: [
+        { note: 'Retracciones',
+          say: 'El lactante con bronquiolitis tiene retracciones y aleteo nasal.' },
+        { note: 'Hiperinsuflación',
+          say: 'La radiografía muestra hiperinsuflación, pero no se pide de rutina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo el razonamiento del score de Tal en un solo árbol de decisión.',
     },

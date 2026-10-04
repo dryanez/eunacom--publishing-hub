@@ -122,6 +122,27 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Displasia del desarrollo de la cadera',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-22/01_ortolani__nelson_p5430.jpg', label: 'Ortolani', credit: 'Nelson 22.ª ed., p. 5430' },
+        { src: 'biblioteca/15_pediatria/ped-22/03_barlow__bates_p874.jpg', label: 'Barlow', credit: 'Bates 12.ª ed., Fig. 18-36' },
+        { src: 'biblioteca/15_pediatria/ped-22/02_pliegues_asimetricos__nelson_p5430.jpg', label: 'Pliegues asimétricos', credit: 'Nelson 22.ª ed., p. 5430' },
+      ],
+      steps: [
+        { note: 'Reduce la cadera luxada',
+          say: 'El Ortolani reduce una cadera luxada con un clic al abducir.' },
+        { note: 'Luxa una cadera inestable',
+          say: 'El Barlow luxa una cadera inestable al aducir y empujar.' },
+        { note: 'Signo tardío',
+          say: 'Los pliegues asimétricos son un signo más tardío.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos el examen y la imagen en un solo árbol de decisión.',
     },

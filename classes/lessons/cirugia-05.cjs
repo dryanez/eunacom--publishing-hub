@@ -96,6 +96,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Perforación',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-05/01_neumoperitoneo__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
+      ],
+      steps: [
+        { note: 'Aire bajo el diafragma',
+          say: 'Aire bajo el diafragma: hay una víscera perforada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las dos peritonitis en un solo árbol de decisión.',
     },

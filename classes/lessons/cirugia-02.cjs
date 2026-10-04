@@ -150,6 +150,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Colecistitis en la ecografía',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg', label: 'Colecistitis', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
+      ],
+      steps: [
+        { note: 'Cálculo con sombra, pared gruesa',
+          say: 'La ecografía muestra cálculos con sombra acústica y una pared engrosada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

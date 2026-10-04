@@ -2,7 +2,7 @@
   "id": "oftal-06",
   "title": "Oftalmologia 15.6: Glaucoma Agudo de Ángulo Cerrado: Cefalea Ocular, Ojo Pétreo, Manitol/Acetazolamida",
   "specialty": "Oftalmología",
-  "chars": 11625,
+  "chars": 11719,
   "segments": [
     {
       "file": "s00_g00",
@@ -98,87 +98,75 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con cefalea intensa, náuseas y vómitos. Antes de pensar en causa neurológica o digestiva, examina el ojo."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Confirma los tres signos oculares: córnea en vidrio esmerilado, pupila en midriasis media fija, y ojo pétreo a la palpación comparativa."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Iniciar de inmediato manitol endovenoso, acetazolamida oral o endovenosa, y timolol tópico, para bajar la presión intraocular bajo treinta."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Una vez que la presión intraocular baja, la pilocarpina en colirio ayuda a traccionar la raíz del iris y despega el ángulo."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Con la córnea ya transparente, el tratamiento curativo es la iridotomía periférica con láser YAG, realizada siempre en ambos ojos, porque el ojo sano comparte la misma anatomía estrecha."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Y en paralelo, una regla que nunca se rompe: ningún midriático, como atropina o tropicamida, se administra en un ángulo estrecho sin iridotomía, porque dilata la pupila y puede dejar ciego al paciente."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si no hay midriasis media fija ni ojo pétreo, la cefalea probablemente no es ocular: evalúa causas neurológicas como migraña o accidente vascular."
+      "text": "El glaucoma agudo da ojo rojo, córnea turbia y pupila media fija, con dolor intenso y vómitos."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas comparando con la uveítis anterior, que ya conoces. En presión: muy elevada y pétrea en el glaucoma, normal o baja en la uveítis."
+      "text": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen. Paciente con cefalea intensa, náuseas y vómitos. Antes de pensar en causa neurológica o digestiva, examina el ojo."
     },
     {
       "file": "s07_g01",
-      "text": "En la pupila: midriasis media fija en el glaucoma, miosis en la uveítis. Es la diferencia que más se pregunta."
+      "text": "Confirma los tres signos oculares: córnea en vidrio esmerilado, pupila en midriasis media fija, y ojo pétreo a la palpación comparativa."
     },
     {
       "file": "s07_g02",
-      "text": "La córnea está edematosa y esmerilada en el glaucoma; transparente, con precipitados, en la uveítis."
+      "text": "Iniciar de inmediato manitol endovenoso, acetazolamida oral o endovenosa, y timolol tópico, para bajar la presión intraocular bajo treinta."
     },
     {
       "file": "s07_g03",
-      "text": "Y en síntomas sistémicos: náuseas y vómitos marcados en el glaucoma; fotofobia, sin vómitos, en la uveítis."
+      "text": "Una vez que la presión intraocular baja, la pilocarpina en colirio ayuda a traccionar la raíz del iris y despega el ángulo."
     },
     {
       "file": "s07_g04",
-      "text": "Y la trampa mayor: en el glaucoma se dan hipotensores, y la atropina está prohibida. En la uveítis, en cambio, la atropina sí se usa, como midriático para evitar sinequias. Mezclar estos dos manejos es el error más grave de todo el tema."
+      "text": "Con la córnea ya transparente, el tratamiento curativo es la iridotomía periférica con láser YAG, realizada siempre en ambos ojos, porque el ojo sano comparte la misma anatomía estrecha."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y en paralelo, una regla que nunca se rompe: ningún midriático, como atropina o tropicamida, se administra en un ángulo estrecho sin iridotomía, porque dilata la pupila y puede dejar ciego al paciente."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si no hay midriasis media fija ni ojo pétreo, la cefalea probablemente no es ocular: evalúa causas neurológicas como migraña o accidente vascular."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Hombre de cincuenta y ocho años, hipermétrope, consulta a las once de la noche por dolor ocular derecho intolerable, que empezó hace cuatro horas mientras veía una película en el cine. El dolor le irradia a la frente, con náuseas y dos vómitos. Al examen: córnea derecha turbia, sin brillo, pupila en midriasis media fija, y el ojo derecho se palpa mucho más duro que el izquierdo."
+      "text": "Repasemos las trampas comparando con la uveítis anterior, que ya conoces. En presión: muy elevada y pétrea en el glaucoma, normal o baja en la uveítis."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
+      "text": "En la pupila: midriasis media fija en el glaucoma, miosis en la uveítis. Es la diferencia que más se pregunta."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: colirio de atropina con corticoide, manitol endovenoso con acetazolamida y timolol, analgésicos orales con control en cuarenta y ocho horas, pilocarpina repetida cada cinco minutos, o tomografía cerebral de urgencia. Piénsalo."
+      "text": "La córnea está edematosa y esmerilada en el glaucoma; transparente, con precipitados, en la uveítis."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. La penumbra del cine gatilló la midriasis media en un ojo predispuesto por la hipermetropía, y el resultado es un glaucoma agudo clásico. El manejo inicial es la tríada hipotensora: manitol, acetazolamida y timolol. La atropina, en la A, es la trampa más grave, porque dilata aún más la pupila y empeora todo. Y la pilocarpina sola, en la D, no sirve todavía: con esta presión tan alta el esfínter está paralizado por isquemia."
+      "text": "Y en síntomas sistémicos: náuseas y vómitos marcados en el glaucoma; fotofobia, sin vómitos, en la uveítis."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y la trampa mayor: en el glaucoma se dan hipotensores, y la atropina está prohibida. En la uveítis, en cambio, la atropina sí se usa, como midriático para evitar sinequias. Mezclar estos dos manejos es el error más grave de todo el tema."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta años, hipermétrope, con cefalea muy intensa del lado derecho, asociada a náuseas. Al examen: ojo rojo profundo del lado derecho, con pupila en midriasis fija y arreactiva."
+      "text": "Vamos al caso. Hombre de cincuenta y ocho años, hipermétrope, consulta a las once de la noche por dolor ocular derecho intolerable, que empezó hace cuatro horas mientras veía una película en el cine. El dolor le irradia a la frente, con náuseas y dos vómitos. Al examen: córnea derecha turbia, sin brillo, pupila en midriasis media fija, y el ojo derecho se palpa mucho más duro que el izquierdo."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta inicial más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: glaucoma agudo, trombosis de la vena central de la retina, cefalea cluster, celulitis orbitaria, o accidente vascular encefálico. Piénsalo."
+      "text": "Las opciones: colirio de atropina con corticoide, manitol endovenoso con acetazolamida y timolol, analgésicos orales con control en cuarenta y ocho horas, pilocarpina repetida cada cinco minutos, o tomografía cerebral de urgencia. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, glaucoma agudo. Este caso está armado para tentarte con una cefalea cluster o un accidente vascular, porque el dolor es unilateral e intenso. Pero el ojo rojo profundo y, sobre todo, la midriasis fija arreactiva, son hallazgos oculares que ninguna de esas dos causas explica. Cuando la cefalea viene con un signo ocular así, el ojo manda."
+      "text": "Es la B. La penumbra del cine gatilló la midriasis media en un ojo predispuesto por la hipermetropía, y el resultado es un glaucoma agudo clásico. El manejo inicial es la tríada hipotensora: manitol, acetazolamida y timolol. La atropina, en la A, es la trampa más grave, porque dilata aún más la pupila y empeora todo. Y la pilocarpina sola, en la D, no sirve todavía: con esta presión tan alta el esfínter está paralizado por isquemia."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cincuenta años, con dolor ocular izquierdo de inicio agudo y visión borrosa. Al examen: ojo rojo periquerático y pupila midriática arreactiva, con la visión más baja en el ojo izquierdo."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de treinta años, hipermétrope, con cefalea muy intensa del lado derecho, asociada a náuseas. Al examen: ojo rojo profundo del lado derecho, con pupila en midriasis fija y arreactiva."
     },
     {
       "file": "s10_g01",
@@ -186,62 +174,78 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: uveítis aguda, endoftalmitis, queratitis aguda, escleritis, o glaucoma agudo. Piénsalo."
+      "text": "Las opciones: glaucoma agudo, trombosis de la vena central de la retina, cefalea cluster, celulitis orbitaria, o accidente vascular encefálico. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la E, glaucoma agudo. Esta pregunta junta a propósito cuatro diagnósticos de ojo rojo doloroso para que sepas separarlos por la pupila: la uveítis da miosis, no midriasis; la queratitis y la escleritis no cambian la pupila; solo el glaucoma agudo produce esa midriasis media fija y arreactiva. Ese dato, solo, ya resuelve la pregunta."
+      "text": "Es la A, glaucoma agudo. Este caso está armado para tentarte con una cefalea cluster o un accidente vascular, porque el dolor es unilateral e intenso. Pero el ojo rojo profundo y, sobre todo, la midriasis fija arreactiva, son hallazgos oculares que ninguna de esas dos causas explica. Cuando la cefalea viene con un signo ocular así, el ojo manda."
     },
     {
       "file": "s11_g00",
-      "text": "Una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de cincuenta y cuatro años, con antecedente de jaqueca, en tratamiento con topiramato, con más estrés de lo habitual. Hace dos horas empieza con cefalea intensa, periocular derecha, con náuseas y vómitos. Al examen: ojo derecho enrojecido, pupila fija, en semimidriasis."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cincuenta años, con dolor ocular izquierdo de inicio agudo y visión borrosa. Al examen: ojo rojo periquerático y pupila midriática arreactiva, con la visión más baja en el ojo izquierdo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta inicial más adecuada?"
-    },
-    {
-      "file": "s11_g02",
-      "text": "Las opciones: manitol endovenoso, clorpromazina endovenosa, ketorolaco endovenoso, oxígeno con eletriptán, o carbamazepina oral. Piénsalo."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Es la A, manitol endovenoso. Y aquí hay un dato nuevo que se suma a la lista de gatillos: el topiramato, un fármaco usado para la jaqueca, puede precipitar un glaucoma agudo. El enunciado te tienta con tratamientos de migraña, como el eletriptán, pero la pupila fija en semimidriasis es un signo ocular que ninguna migraña explica. Y frente a un glaucoma agudo, el manitol es siempre el primer paso."
-    },
-    {
-      "file": "s12_g00",
-      "text": "Una última pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y ocho años, hipermétrope, con dolor muy intenso en el ojo izquierdo, irradiado a la frente. Al examen: enrojecimiento periquerático izquierdo, pupila midriática arreactiva, y opacidad de la córnea. El ojo derecho ve normal; el izquierdo apenas alcanza a contar dedos."
-    },
-    {
-      "file": "s12_g01",
       "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
+      "file": "s11_g02",
+      "text": "Las opciones: uveítis aguda, endoftalmitis, queratitis aguda, escleritis, o glaucoma agudo. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la E, glaucoma agudo. Esta pregunta junta a propósito cuatro diagnósticos de ojo rojo doloroso para que sepas separarlos por la pupila: la uveítis da miosis, no midriasis; la queratitis y la escleritis no cambian la pupila; solo el glaucoma agudo produce esa midriasis media fija y arreactiva. Ese dato, solo, ya resuelve la pregunta."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una última pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de cincuenta y cuatro años, con antecedente de jaqueca, en tratamiento con topiramato, con más estrés de lo habitual. Hace dos horas empieza con cefalea intensa, periocular derecha, con náuseas y vómitos. Al examen: ojo derecho enrojecido, pupila fija, en semimidriasis."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
       "file": "s12_g02",
-      "text": "Las opciones: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo. Piénsalo."
+      "text": "Las opciones: manitol endovenoso, clorpromazina endovenosa, ketorolaco endovenoso, oxígeno con eletriptán, o carbamazepina oral. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la E, glaucoma agudo. Fíjate en la magnitud de la caída visual: contar dedos es una pérdida severa, coherente con una córnea edematosa y una presión disparada, no con una conjuntivitis ni con una queratitis, que casi nunca bajan tanto la visión. Y de nuevo, la hipermetropía y la midriasis fija son la firma de este diagnóstico."
+      "text": "Es la A, manitol endovenoso. Y aquí hay un dato nuevo que se suma a la lista de gatillos: el topiramato, un fármaco usado para la jaqueca, puede precipitar un glaucoma agudo. El enunciado te tienta con tratamientos de migraña, como el eletriptán, pero la pupila fija en semimidriasis es un signo ocular que ninguna migraña explica. Y frente a un glaucoma agudo, el manitol es siempre el primer paso."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Cefalea intensa con vómitos, halos de colores, y pupila en midriasis media fija: eso ya es glaucoma agudo, no migraña ni accidente vascular."
+      "text": "Una última pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Paciente de cuarenta y ocho años, hipermétrope, con dolor muy intenso en el ojo izquierdo, irradiado a la frente. Al examen: enrojecimiento periquerático izquierdo, pupila midriática arreactiva, y opacidad de la córnea. El ojo derecho ve normal; el izquierdo apenas alcanza a contar dedos."
     },
     {
       "file": "s13_g01",
-      "text": "Y al examen, el ojo pétreo comparado con el ojo sano confirma la sospecha."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "El rescate es manitol endovenoso, acetazolamida y timolol tópico. La pilocarpina se suma después, cuando la presión ya bajó, porque antes el esfínter está paralizado."
+      "text": "Las opciones: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la E, glaucoma agudo. Fíjate en la magnitud de la caída visual: contar dedos es una pérdida severa, coherente con una córnea edematosa y una presión disparada, no con una conjuntivitis ni con una queratitis, que casi nunca bajan tanto la visión. Y de nuevo, la hipermetropía y la midriasis fija son la firma de este diagnóstico."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Cefalea intensa con vómitos, halos de colores, y pupila en midriasis media fija: eso ya es glaucoma agudo, no migraña ni accidente vascular."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Y al examen, el ojo pétreo comparado con el ojo sano confirma la sospecha."
+    },
+    {
+      "file": "s14_g02",
+      "text": "El rescate es manitol endovenoso, acetazolamida y timolol tópico. La pilocarpina se suma después, cuando la presión ya bajó, porque antes el esfínter está paralizado."
+    },
+    {
+      "file": "s14_g03",
       "text": "La iridotomía con láser se hace siempre en los dos ojos, porque el sano comparte la misma anatomía estrecha."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Y si te llevas una sola idea de hoy: jamás uses un midriático, como atropina o tropicamida, en un ojo con ángulo estrecho no tratado. Nos vemos en la próxima clase."
     }
   ]

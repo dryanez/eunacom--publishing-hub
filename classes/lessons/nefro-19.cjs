@@ -193,6 +193,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Lo que el riñón deja de hacer',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-19/S1_complicaciones-erc__propio.svg', label: 'Complicaciones', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Anemia, hueso, ácido, potasio, presión',
+          say: 'Cuando cae el filtrado aparecen las complicaciones: anemia por falta de eritropoyetina, enfermedad ósea por falta de calcitriol, acidosis, hiperkalemia e hipertensión con edema.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las tres complicaciones en un solo árbol.',
     },

@@ -151,6 +151,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Enfermedad de Still',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-05/01_exantema-asalmonado-still__amir-reuma_p57.jpg', label: 'Exantema asalmonado', credit: 'Manual AMIR Reumatología, p. 57' },
+      ],
+      steps: [
+        { note: 'Aparece con la fiebre',
+          say: 'El exantema asalmonado, rosado y evanescente, aparece con los peaks de fiebre. Es un criterio de Yamaguchi.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Veamos el algoritmo diagnóstico y terapéutico completo para AIJ y Still.',
     },

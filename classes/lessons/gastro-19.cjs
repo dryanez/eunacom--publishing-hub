@@ -231,6 +231,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Apendicitis y diverticulitis',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-19/01_apendicitis-eco__cto-radiologia_p41.jpg', label: 'Apendicitis en ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-19/02_apendicitis-flemonosa-pieza__cto-digestivo_p157.jpg', label: 'Pieza operatoria', credit: 'Manual CTO Digestivo 14.ª ed., p. 157' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-19/03_diverticulitis-tc-hinchey__cto-digestivo_p142.jpg', label: 'Diverticulitis', credit: 'Manual CTO Digestivo 14.ª ed., p. 142' },
+      ],
+      steps: [
+        { note: 'Apéndice engrosado, no compresible',
+          say: 'En la ecografía, el apéndice inflamado se ve engrosado y no se deja comprimir con el transductor.' },
+        { note: 'Apéndice rojo y edematoso',
+          say: 'Esta es la pieza operatoria: un apéndice rojo, edematoso, con fibrina en su superficie.' },
+        { note: 'Sigmoides inflamado en la TC',
+          say: 'Y esta tomografía muestra una diverticulitis del sigmoides: es el equivalente a la apendicitis, pero en la fosa ilíaca izquierda.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos la derecha y la izquierda en un solo árbol de decisión.',
     },

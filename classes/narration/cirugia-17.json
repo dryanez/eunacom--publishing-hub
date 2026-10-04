@@ -2,7 +2,7 @@
   "id": "cirugia-17",
   "title": "Cirugia 11.17: Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
   "specialty": "Cirugía General",
-  "chars": 7112,
+  "chars": 7276,
   "segments": [
     {
       "file": "s00_g00",
@@ -66,110 +66,118 @@
     },
     {
       "file": "s04_g00",
-      "text": "Juntemos todo en un árbol de decisión, desde la herida infectada hasta la evisceración. Toda cirugía se clasifica antes de operar, porque de eso depende si se da profilaxis antibiótica, y esa misma herida es la que después puede complicarse."
+      "text": "La dehiscencia es la separación de los bordes de la herida."
     },
     {
       "file": "s04_g01",
-      "text": "Cuatro categorías según cuánto se contamina la herida durante la cirugía."
-    },
-    {
-      "file": "s04_g02",
-      "text": "Abre el tubo digestivo o la vía biliar de forma programada, como una colecistectomía: se da cefazolina entre treinta y sesenta minutos antes de la incisión."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Aunque sea limpia, si se instala una malla o una prótesis, también se da profilaxis, porque infectar ese material es una catástrofe."
-    },
-    {
-      "file": "s04_g04",
-      "text": "Con la infección ya instalada, el manejo depende de la profundidad que alcanza."
-    },
-    {
-      "file": "s04_g05",
-      "text": "Compromete piel y tejido subcutáneo: se abre esa zona, se drena y se cura abierta."
-    },
-    {
-      "file": "s04_g06",
-      "text": "Compromete fascia o la cavidad manipulada: se desbrida el tejido no viable, o se drena guiado por imágenes, sumando antibióticos si hay celulitis extensa o sepsis."
-    },
-    {
-      "file": "s04_g07",
-      "text": "Salida de líquido rosado abundante entre el día cinco y ocho: la fascia probablemente ya cedió por debajo, aunque la piel se vea intacta."
-    },
-    {
-      "file": "s04_g08",
-      "text": "Se cubren las asas con compresas estériles empapadas en suero tibio, nunca se reintroducen a la fuerza, y se traslada de inmediato a pabellón para el cierre definitivo."
+      "text": "Y la evisceración es la salida de vísceras por la herida. Se cubre con compresas húmedas y va a pabellón."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos las trampas. En una colecistectomía electiva, la cefazolina se da entre treinta y sesenta minutos antes de la incisión. El error es administrarla después de terminar la cirugía."
+      "text": "Juntemos todo en un árbol de decisión, desde la herida infectada hasta la evisceración. Toda cirugía se clasifica antes de operar, porque de eso depende si se da profilaxis antibiótica, y esa misma herida es la que después puede complicarse."
     },
     {
       "file": "s05_g01",
-      "text": "En una hernioplastía con malla sí se da profilaxis, aunque la herida sea limpia, porque hay un cuerpo extraño de por medio. El error es omitirla solo por la clasificación."
+      "text": "Cuatro categorías según cuánto se contamina la herida durante la cirugía."
     },
     {
       "file": "s05_g02",
-      "text": "Frente a una infección superficial de la herida, la conducta es abrir y drenar. Partir con antibióticos sin drenar retrasa la curación."
+      "text": "Abre el tubo digestivo o la vía biliar de forma programada, como una colecistectomía: se da cefazolina entre treinta y sesenta minutos antes de la incisión."
     },
     {
       "file": "s05_g03",
-      "text": "El líquido en agua de carne te obliga a sospechar una dehiscencia de fascia. El error es confundirlo con un seroma banal y no revisar la herida."
+      "text": "Aunque sea limpia, si se instala una malla o una prótesis, también se da profilaxis, porque infectar ese material es una catástrofe."
     },
     {
       "file": "s05_g04",
-      "text": "Y ante una evisceración: compresas húmedas tibias y pabellón urgente. El error, el más grave de esta clase, es reintroducir las asas en la cama del paciente."
+      "text": "Con la infección ya instalada, el manejo depende de la profundidad que alcanza."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Compromete piel y tejido subcutáneo: se abre esa zona, se drena y se cura abierta."
+    },
+    {
+      "file": "s05_g06",
+      "text": "Compromete fascia o la cavidad manipulada: se desbrida el tejido no viable, o se drena guiado por imágenes, sumando antibióticos si hay celulitis extensa o sepsis."
+    },
+    {
+      "file": "s05_g07",
+      "text": "Salida de líquido rosado abundante entre el día cinco y ocho: la fascia probablemente ya cedió por debajo, aunque la piel se vea intacta."
+    },
+    {
+      "file": "s05_g08",
+      "text": "Se cubren las asas con compresas estériles empapadas en suero tibio, nunca se reintroducen a la fuerza, y se traslada de inmediato a pabellón para el cierre definitivo."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos al caso. Hombre de sesenta y ocho años, obeso, con tos crónica por su EPOC, operado hace seis días de una laparotomía de urgencia por una peritonitis apendicular. Mientras tose con fuerza, siente un dolor agudo en el abdomen. Al revisar la herida, el apósito está empapado de un líquido rosado abundante, y se ven asas de intestino delgado saliendo por la herida, con la serosa enrojecida pero viable."
+      "text": "Repasemos las trampas. En una colecistectomía electiva, la cefazolina se da entre treinta y sesenta minutos antes de la incisión. El error es administrarla después de terminar la cirugía."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es la conducta inmediata más adecuada?"
+      "text": "En una hernioplastía con malla sí se da profilaxis, aunque la herida sea limpia, porque hay un cuerpo extraño de por medio. El error es omitirla solo por la clasificación."
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: reintroducir las asas y cerrar la piel, cubrirlas con compresas tibias y trasladar a pabellón, aplicar un vendaje seco y observar, instalar aspiración directa sobre las asas, o dar anticoagulante y pedir un escáner. Piénsalo."
+      "text": "Frente a una infección superficial de la herida, la conducta es abrir y drenar. Partir con antibióticos sin drenar retrasa la curación."
     },
     {
       "file": "s06_g03",
-      "text": "La respuesta es la B. Es una evisceración: la tos crónica subió tanto la presión dentro del abdomen que rompió la fascia ya debilitada por la peritonitis previa. Cubres las asas con compresas húmedas tibias, para que no se sequen ni se necrosen, y trasladas de inmediato a pabellón. Reintroducirlas tú mismo es la trampa más peligrosa de esta pregunta."
+      "text": "El líquido en agua de carne te obliga a sospechar una dehiscencia de fascia. El error es confundirlo con un seroma banal y no revisar la herida."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y ante una evisceración: compresas húmedas tibias y pabellón urgente. El error, el más grave de esta clase, es reintroducir las asas en la cama del paciente."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y cinco años consulta por dolor epigástrico recurrente. La ecografía muestra múltiples cálculos en la vesícula, y se decide una colecistectomía laparoscópica electiva."
+      "text": "Vamos al caso. Hombre de sesenta y ocho años, obeso, con tos crónica por su EPOC, operado hace seis días de una laparotomía de urgencia por una peritonitis apendicular. Mientras tose con fuerza, siente un dolor agudo en el abdomen. Al revisar la herida, el apósito está empapado de un líquido rosado abundante, y se ven asas de intestino delgado saliendo por la herida, con la serosa enrojecida pero viable."
     },
     {
       "file": "s07_g01",
-      "text": "La pregunta es cuál esquema antibiótico es de elección como profilaxis de la infección de la herida operatoria."
+      "text": "¿Cuál es la conducta inmediata más adecuada?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones son: amoxicilina con ácido clavulánico, ceftriaxona, clindamicina, cloxacilina, o cefazolina. Piénsalo."
+      "text": "Las opciones: reintroducir las asas y cerrar la piel, cubrirlas con compresas tibias y trasladar a pabellón, aplicar un vendaje seco y observar, instalar aspiración directa sobre las asas, o dar anticoagulante y pedir un escáner. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "La respuesta es la E, cefazolina. Esta cirugía es limpia contaminada, porque abre la vía biliar de forma programada, y ese es exactamente el grupo donde la profilaxis se indica. La cefazolina cubre bien la flora que importa aquí, y es la primera elección en la gran mayoría de las cirugías abdominales."
+      "text": "La respuesta es la B. Es una evisceración: la tos crónica subió tanto la presión dentro del abdomen que rompió la fascia ya debilitada por la peritonitis previa. Cubres las asas con compresas húmedas tibias, para que no se sequen ni se necrosen, y trasladas de inmediato a pabellón. Reintroducirlas tú mismo es la trampa más peligrosa de esta pregunta."
     },
     {
       "file": "s08_g00",
-      "text": "Cerremos con las reglas de oro. La cefazolina se da en la cirugía limpia contaminada, entre treinta y sesenta minutos antes de la incisión."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y cinco años consulta por dolor epigástrico recurrente. La ecografía muestra múltiples cálculos en la vesícula, y se decide una colecistectomía laparoscópica electiva."
     },
     {
       "file": "s08_g01",
-      "text": "Y aunque la herida sea limpia, si hay malla o prótesis, también lleva profilaxis."
+      "text": "La pregunta es cuál esquema antibiótico es de elección como profilaxis de la infección de la herida operatoria."
     },
     {
       "file": "s08_g02",
-      "text": "Frente a la herida infectada, el pilar es abrir y drenar; los antibióticos son un apoyo, no el tratamiento principal."
+      "text": "Las opciones son: amoxicilina con ácido clavulánico, ceftriaxona, clindamicina, cloxacilina, o cefazolina. Piénsalo."
     },
     {
       "file": "s08_g03",
+      "text": "La respuesta es la E, cefazolina. Esta cirugía es limpia contaminada, porque abre la vía biliar de forma programada, y ese es exactamente el grupo donde la profilaxis se indica. La cefazolina cubre bien la flora que importa aquí, y es la primera elección en la gran mayoría de las cirugías abdominales."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Cerremos con las reglas de oro. La cefazolina se da en la cirugía limpia contaminada, entre treinta y sesenta minutos antes de la incisión."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Y aunque la herida sea limpia, si hay malla o prótesis, también lleva profilaxis."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Frente a la herida infectada, el pilar es abrir y drenar; los antibióticos son un apoyo, no el tratamiento principal."
+    },
+    {
+      "file": "s09_g03",
       "text": "Y ante la evisceración: compresas húmedas tibias y traslado urgente a pabellón."
     },
     {
-      "file": "s08_g04",
+      "file": "s09_g04",
       "text": "Si te llevas una sola idea de hoy: nunca reintroduzcas las asas tú mismo, y nunca olvides que el agua de carne anuncia lo que viene. Nos vemos en la próxima clase."
     }
   ]

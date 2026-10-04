@@ -158,6 +158,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Doppler en la restricción de crecimiento',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-04/S1_doppler-umbilical-ductus__propio.svg', label: 'Arteria umbilical y ductus', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_1__cto-gyo_p121.jpg', label: 'Doppler real', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' },
+      ],
+      steps: [
+        { note: 'Del flujo diastólico al flujo reverso',
+          say: 'El Doppler de la arteria umbilical progresa: diástole presente, luego ausente, luego reversa. Cuanto peor, más urgente la interrupción.' },
+        { note: 'Arteria umbilical',
+          say: 'Y así se ve el Doppler de la arteria umbilical en la ecografía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo el razonamiento, desde el peso fetal hasta el momento exacto del parto.',
     },

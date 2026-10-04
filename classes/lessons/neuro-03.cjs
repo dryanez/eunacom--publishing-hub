@@ -260,6 +260,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Hemorragia intraparenquimatosa',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg', label: 'Hematoma', credit: 'Manual CTO Neurología 14.ª ed., p. 42' },
+      ],
+      steps: [
+        { note: 'Mancha blanca en el parénquima',
+          say: 'En la tomografía, la sangre aguda es blanca. Este hematoma profundo es típico de la hipertensión.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde el paciente con cefalea y déficit hasta la decisión quirúrgica.',
     },

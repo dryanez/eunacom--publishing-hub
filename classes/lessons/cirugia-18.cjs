@@ -112,6 +112,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Mordeduras',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-18/01_mordedura_perro__bailey_p48.jpg', label: 'Mordedura de perro', credit: 'Bailey & Love 27.ª ed., Fig. 3.4' },
+      ],
+      steps: [
+        { note: 'Lavar, evaluar profilaxis',
+          say: 'Esta mordedura de perro en la cara de un niño muestra lo grave que puede ser. Se lava con abundante agua y se evalúa la profilaxis antirrábica y antitetánica.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos el árbol completo, desde la herida hasta la decisión final.',
     },

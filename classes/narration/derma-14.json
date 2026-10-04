@@ -2,7 +2,7 @@
   "id": "derma-14",
   "title": "Dermatologia 16.14: Carcinomas Cutáneos No Melanoma: Carcinoma Basocelular (CBC) vs Carcinoma Espinocelular (CEC)",
   "specialty": "Dermatología",
-  "chars": 7931,
+  "chars": 8098,
   "segments": [
     {
       "file": "s00_g00",
@@ -70,79 +70,71 @@
     },
     {
       "file": "s04_g00",
-      "text": "Armemos el árbol de decisión: de la morfología de la lesión al tratamiento definitivo. Frente a un tumor cutáneo en una zona fotoexpuesta, primero hay que definir la morfología de la lesión."
+      "text": "El basocelular es un nódulo perlado con telangiectasias. Casi no da metástasis."
     },
     {
       "file": "s04_g01",
-      "text": "La morfología separa de entrada las dos posibilidades más frecuentes."
-    },
-    {
-      "file": "s04_g02",
-      "text": "La pápula perlada con telangiectasias es carcinoma basocelular: metástasis prácticamente nulas, pero destrucción local si no se trata."
-    },
-    {
-      "file": "s04_g03",
-      "text": "Confirmada la lesión como espinocelular, la localización decide qué tan agresivo hay que ser con el estudio ganglionar."
-    },
-    {
-      "file": "s04_g04",
-      "text": "En piel general, el riesgo de metástasis es bajo, de dos a cinco por ciento, y basta la extirpación con margen amplio."
-    },
-    {
-      "file": "s04_g05",
-      "text": "En el labio inferior o el pabellón auricular, el riesgo de metástasis sube hasta un quince o veinte por ciento, y se agrega evaluación de la cadena ganglionar regional."
+      "text": "El espinocelular es una lesión costrosa o ulcerada que crece, y sí puede dar metástasis."
     },
     {
       "file": "s05_g00",
-      "text": "Repasemos con la tabla. En frecuencia, el basocelular es el más común, con setenta y cinco a ochenta por ciento; el espinocelular es el quince a veinte por ciento restante."
+      "text": "Armemos el árbol de decisión: de la morfología de la lesión al tratamiento definitivo. Frente a un tumor cutáneo en una zona fotoexpuesta, primero hay que definir la morfología de la lesión."
     },
     {
       "file": "s05_g01",
-      "text": "El basocelular aparece de novo, sin lesión previa conocida. El espinocelular casi siempre nace sobre una queratosis actínica, o una queilitis actínica en el labio."
+      "text": "La morfología separa de entrada las dos posibilidades más frecuentes."
     },
     {
       "file": "s05_g02",
-      "text": "El aspecto: perlado y translúcido en el basocelular; costroso e indurado en el espinocelular."
+      "text": "La pápula perlada con telangiectasias es carcinoma basocelular: metástasis prácticamente nulas, pero destrucción local si no se trata."
     },
     {
       "file": "s05_g03",
-      "text": "Y la diferencia que más se pregunta: el basocelular casi nunca da metástasis; el espinocelular sí, sobre todo si nace en el labio o la oreja. Confundir esto es el error más caro del tema."
+      "text": "Confirmada la lesión como espinocelular, la localización decide qué tan agresivo hay que ser con el estudio ganglionar."
+    },
+    {
+      "file": "s05_g04",
+      "text": "En piel general, el riesgo de metástasis es bajo, de dos a cinco por ciento, y basta la extirpación con margen amplio."
+    },
+    {
+      "file": "s05_g05",
+      "text": "En el labio inferior o el pabellón auricular, el riesgo de metástasis sube hasta un quince o veinte por ciento, y se agrega evaluación de la cadena ganglionar regional."
     },
     {
       "file": "s06_g00",
-      "text": "Vamos con un caso. Hombre de setenta y cuatro años, jubilado, ex trabajador agrícola, con una lesión en el labio inferior de cuatro meses que no cicatriza. Al examen: una placa de un centímetro, base indurada, costra hiperqueratósica amarillenta adherente, que sangra al desprenderse. No se palpan adenopatías submentonianas."
+      "text": "Repasemos con la tabla. En frecuencia, el basocelular es el más común, con setenta y cinco a ochenta por ciento; el espinocelular es el quince a veinte por ciento restante."
     },
     {
       "file": "s06_g01",
-      "text": "¿Cuál es el diagnóstico más probable, y qué característica obliga a un seguimiento estricto?"
+      "text": "El basocelular aparece de novo, sin lesión previa conocida. El espinocelular casi siempre nace sobre una queratosis actínica, o una queilitis actínica en el labio."
     },
     {
       "file": "s06_g02",
-      "text": "Las opciones: carcinoma basocelular con riesgo de metástasis prácticamente nulo, carcinoma espinocelular con el labio inferior como zona de alto riesgo metastásico, queilitis actínica simple, herpes labial recidivante, o chancro sifilítico. Piénsalo."
+      "text": "El aspecto: perlado y translúcido en el basocelular; costroso e indurado en el espinocelular."
     },
     {
       "file": "s06_g03",
-      "text": "Es la B. La placa indurada, costrosa, que no cicatriza en cuatro meses, con antecedente de sol acumulado durante años de trabajo agrícola, es un carcinoma espinocelular. Y el labio inferior no es un dato menor: es justamente la localización de más riesgo de metástasis ganglionar, hasta un quince o veinte por ciento. Por eso, aunque hoy no se palpen adenopatías, este paciente necesita seguimiento estricto."
+      "text": "Y la diferencia que más se pregunta: el basocelular casi nunca da metástasis; el espinocelular sí, sobre todo si nace en el labio o la oreja. Confundir esto es el error más caro del tema."
     },
     {
       "file": "s07_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Hombre de setenta años, con una lesión en la mano derecha, aparecida hace seis meses, que ha crecido progresivamente, es dolorosa, y se ulcera y sangra con facilidad. Al examen: una lesión escamosa, ulcerada, de dos centímetros. Trabajó veinte años como minero en la región de Tarapacá."
+      "text": "Vamos con un caso. Hombre de setenta y cuatro años, jubilado, ex trabajador agrícola, con una lesión en el labio inferior de cuatro meses que no cicatriza. Al examen: una placa de un centímetro, base indurada, costra hiperqueratósica amarillenta adherente, que sangra al desprenderse. No se palpan adenopatías submentonianas."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el diagnóstico más probable, y qué característica obliga a un seguimiento estricto?"
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: carcinoma espinocelular, carcinoma basocelular, melanoma maligno, granuloma piógeno, o queratosis actínica. Piénsalo."
+      "text": "Las opciones: carcinoma basocelular con riesgo de metástasis prácticamente nulo, carcinoma espinocelular con el labio inferior como zona de alto riesgo metastásico, queilitis actínica simple, herpes labial recidivante, o chancro sifilítico. Piénsalo."
     },
     {
       "file": "s07_g03",
-      "text": "Es la A, carcinoma espinocelular. La lesión escamosa, ulcerada y dolorosa, sumada a veinte años de exposición solar como minero, arma el cuadro clásico. El granuloma piógeno es el distractor tentador porque también sangra fácil, pero se ve rojo y húmedo, no escamoso como este caso."
+      "text": "Es la B. La placa indurada, costrosa, que no cicatriza en cuatro meses, con antecedente de sol acumulado durante años de trabajo agrícola, es un carcinoma espinocelular. Y el labio inferior no es un dato menor: es justamente la localización de más riesgo de metástasis ganglionar, hasta un quince o veinte por ciento. Por eso, aunque hoy no se palpen adenopatías, este paciente necesita seguimiento estricto."
     },
     {
       "file": "s08_g00",
-      "text": "Y una pregunta real más, del EUNACOM de enero de dos mil veintitrés. Un adulto consulta por una lesión pruriginosa de tres meses en el párpado inferior, que ha ido aumentando de volumen."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Hombre de setenta años, con una lesión en la mano derecha, aparecida hace seis meses, que ha crecido progresivamente, es dolorosa, y se ulcera y sangra con facilidad. Al examen: una lesión escamosa, ulcerada, de dos centímetros. Trabajó veinte años como minero en la región de Tarapacá."
     },
     {
       "file": "s08_g01",
@@ -150,22 +142,38 @@
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: chalazión crónico, orzuelo interno, carcinoma basocelular, carcinoma espinocelular, o melanoma ocular. Piénsalo."
+      "text": "Las opciones: carcinoma espinocelular, carcinoma basocelular, melanoma maligno, granuloma piógeno, o queratosis actínica. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C, carcinoma basocelular. El párpado, sobre todo el inferior, es una de las localizaciones típicas del basocelular, y una lesión palpebral que crece durante meses, a diferencia de un chalazión o un orzuelo que resuelven en semanas, tiene que hacerte sospechar un cáncer basocelular, que es por lejos el tumor palpebral maligno más frecuente."
+      "text": "Es la A, carcinoma espinocelular. La lesión escamosa, ulcerada y dolorosa, sumada a veinte años de exposición solar como minero, arma el cuadro clásico. El granuloma piógeno es el distractor tentador porque también sangra fácil, pero se ve rojo y húmedo, no escamoso como este caso."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. Perlado y con telangiectasias es basocelular; costroso e indurado sobre una queratosis previa es espinocelular."
+      "text": "Y una pregunta real más, del EUNACOM de enero de dos mil veintitrés. Un adulto consulta por una lesión pruriginosa de tres meses en el párpado inferior, que ha ido aumentando de volumen."
     },
     {
       "file": "s09_g01",
-      "text": "El basocelular destruye localmente pero casi nunca metastiza. El espinocelular sí tiene riesgo real de metástasis, sobre todo si nace en el labio o el pabellón auricular."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s09_g02",
+      "text": "Las opciones: chalazión crónico, orzuelo interno, carcinoma basocelular, carcinoma espinocelular, o melanoma ocular. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C, carcinoma basocelular. El párpado, sobre todo el inferior, es una de las localizaciones típicas del basocelular, y una lesión palpebral que crece durante meses, a diferencia de un chalazión o un orzuelo que resuelven en semanas, tiene que hacerte sospechar un cáncer basocelular, que es por lejos el tumor palpebral maligno más frecuente."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. Perlado y con telangiectasias es basocelular; costroso e indurado sobre una queratosis previa es espinocelular."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El basocelular destruye localmente pero casi nunca metastiza. El espinocelular sí tiene riesgo real de metástasis, sobre todo si nace en el labio o el pabellón auricular."
+    },
+    {
+      "file": "s10_g02",
       "text": "El tratamiento de ambos es quirúrgico, con márgenes oncológicos de seguridad, y la cirugía micrográfica de Mohs se reserva para las zonas cosméticamente críticas de la cara o los bordes mal definidos. Si te llevas una sola idea de hoy: la morfología te dice cuál es, y la metástasis te dice qué tan urgente es. Nos vemos en la próxima clase."
     }
   ]

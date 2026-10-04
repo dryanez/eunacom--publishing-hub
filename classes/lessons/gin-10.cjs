@@ -87,6 +87,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Patología vulvar',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg', label: 'Absceso de Bartolino', credit: 'Williams Gynecology 4.ª ed., Fig. 3-18' },
+        { src: 'biblioteca/13_ginecologia/gin-10/01_liquen-escleroso__cto-gyo_p106.jpg', label: 'Liquen escleroso', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 106' },
+      ],
+      steps: [
+        { note: 'Masa dolorosa en el labio',
+          say: 'El absceso de Bartolino es una masa dolorosa en la parte posterior del labio mayor. Se drena y se marsupializa.' },
+        { note: 'Piel blanca y adelgazada',
+          say: 'Y el liquen escleroso deja la piel blanca y frágil; se controla porque aumenta el riesgo de cáncer.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos Bartolino y liquen escleroso en un solo árbol.',
     },

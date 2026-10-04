@@ -2,7 +2,7 @@
   "id": "ped-01",
   "title": "Pediatria 18.1: Evaluación del Crecimiento & Estado Nutricional en Pediatría: Curvas OMS (P/E, T/E, P/T)",
   "specialty": "Pediatría",
-  "chars": 8242,
+  "chars": 8358,
   "segments": [
     {
       "file": "s00_g00",
@@ -82,134 +82,138 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora ordenemos todo en un solo árbol: qué indicador usar y qué hacer con cada resultado. Un niño llega a su control de salud y necesitas clasificar su estado nutricional. El primer paso no es mirar el peso: es mirar la edad, porque ella decide qué indicador vas a usar."
-    },
-    {
-      "file": "s05_g01",
-      "text": "Pregúntate primero: ¿tiene menos de cinco años, o entre cinco y diecinueve?"
-    },
-    {
-      "file": "s05_g02",
-      "text": "En el menor de cinco años, calculas las desviaciones estándar del peso para la talla."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Bajo menos una desviación estándar hay riesgo de desnutrición, y bajo menos dos, desnutrición. Revisas la técnica alimentaria y citas a control en quince a treinta días."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Entre menos uno y más uno de desviación estándar, el niño está eutrófico: control de salud habitual."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Sobre más una desviación estándar hay sobrepeso, y sobre más dos, obesidad. Corriges hábitos, y si es menor de dos años, nunca con dieta restrictiva."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Desde los cinco años, el indicador cambia al índice de masa corporal para la edad, con los mismos cortes."
-    },
-    {
-      "file": "s05_g07",
-      "text": "Los mismos cortes de riesgo y desnutrición se aplican aquí, ahora sobre el IMC para la edad."
-    },
-    {
-      "file": "s05_g08",
-      "text": "Eutrófico, control de salud habitual."
-    },
-    {
-      "file": "s05_g09",
-      "text": "Sobrepeso u obesidad: mismo manejo de hábitos que en el menor de cinco años."
+      "text": "Las curvas de la OMS muestran el peso en desviaciones estándar. Más importante que un punto aislado es la tendencia."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos en una tabla. Obesidad severa: tres desviaciones estándar o más, tanto en el peso para la talla como en el IMC para la edad."
+      "text": "Ahora ordenemos todo en un solo árbol: qué indicador usar y qué hacer con cada resultado. Un niño llega a su control de salud y necesitas clasificar su estado nutricional. El primer paso no es mirar el peso: es mirar la edad, porque ella decide qué indicador vas a usar."
     },
     {
       "file": "s06_g01",
-      "text": "Obesidad: entre dos y dos coma nueve desviaciones estándar."
+      "text": "Pregúntate primero: ¿tiene menos de cinco años, o entre cinco y diecinueve?"
     },
     {
       "file": "s06_g02",
-      "text": "Sobrepeso: entre uno y uno coma nueve."
+      "text": "En el menor de cinco años, calculas las desviaciones estándar del peso para la talla."
     },
     {
       "file": "s06_g03",
-      "text": "Eutrófico: entre menos cero coma nueve y más cero coma nueve. Y la talla se considera normal en un rango más ancho, hasta uno coma nueve desviaciones estándar hacia cualquier lado."
+      "text": "Bajo menos una desviación estándar hay riesgo de desnutrición, y bajo menos dos, desnutrición. Revisas la técnica alimentaria y citas a control en quince a treinta días."
     },
     {
       "file": "s06_g04",
-      "text": "Riesgo de desnutrición: entre menos uno y menos uno coma nueve."
+      "text": "Entre menos uno y más uno de desviación estándar, el niño está eutrófico: control de salud habitual."
     },
     {
       "file": "s06_g05",
-      "text": "Y desnutrición, o talla baja si hablamos de la talla para la edad: menos dos desviaciones estándar o menos. Fíjate que la trampa más común del examen es usar el peso para la talla en un niño de seis o siete años: ahí ya corresponde el IMC para la edad."
+      "text": "Sobre más una desviación estándar hay sobrepeso, y sobre más dos, obesidad. Corriges hábitos, y si es menor de dos años, nunca con dieta restrictiva."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Desde los cinco años, el indicador cambia al índice de masa corporal para la edad, con los mismos cortes."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Los mismos cortes de riesgo y desnutrición se aplican aquí, ahora sobre el IMC para la edad."
+    },
+    {
+      "file": "s06_g08",
+      "text": "Eutrófico, control de salud habitual."
+    },
+    {
+      "file": "s06_g09",
+      "text": "Sobrepeso u obesidad: mismo manejo de hábitos que en el menor de cinco años."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos con un caso. Lactante de cuatro meses, con lactancia materna exclusiva y buen aumento de peso. Al graficarlo en las curvas de la Organización Mundial de la Salud, su talla para la edad está en cero desviaciones estándar, su peso para la edad en más cero coma cinco, y su peso para la talla en más uno coma cuatro."
+      "text": "Repasemos en una tabla. Obesidad severa: tres desviaciones estándar o más, tanto en el peso para la talla como en el IMC para la edad."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es su diagnóstico nutricional?"
+      "text": "Obesidad: entre dos y dos coma nueve desviaciones estándar."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: eutrófico, riesgo de desnutrición, sobrepeso, obesidad, o talla baja. Tómate unos segundos."
+      "text": "Sobrepeso: entre uno y uno coma nueve."
     },
     {
       "file": "s07_g03",
-      "text": "Es la C, sobrepeso. Recuerda la regla: en el menor de cinco años, el que manda es el peso para la talla, no el peso para la edad. Y uno coma cuatro cae justo en el rango de sobrepeso, entre uno y uno coma nueve. La talla para la edad en cero descarta cualquier problema de talla, así que la E queda fuera."
+      "text": "Eutrófico: entre menos cero coma nueve y más cero coma nueve. Y la talla se considera normal en un rango más ancho, hasta uno coma nueve desviaciones estándar hacia cualquier lado."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Riesgo de desnutrición: entre menos uno y menos uno coma nueve."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Y desnutrición, o talla baja si hablamos de la talla para la edad: menos dos desviaciones estándar o menos. Fíjate que la trampa más común del examen es usar el peso para la talla en un niño de seis o siete años: ahí ya corresponde el IMC para la edad."
     },
     {
       "file": "s08_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Lactante de cuatro meses, con lactancia materna exclusiva. Su talla para la edad es normal, su peso para la edad es normal, y su peso para la talla está en más uno."
+      "text": "Vamos con un caso. Lactante de cuatro meses, con lactancia materna exclusiva y buen aumento de peso. Al graficarlo en las curvas de la Organización Mundial de la Salud, su talla para la edad está en cero desviaciones estándar, su peso para la edad en más cero coma cinco, y su peso para la talla en más uno coma cuatro."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico nutricional según la Organización Mundial de la Salud y el MINSAL?"
+      "text": "¿Cuál es su diagnóstico nutricional?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: desnutrición, riesgo de desnutrición, eutrófico, riesgo de obesidad, u obesidad."
+      "text": "Las opciones: eutrófico, riesgo de desnutrición, sobrepeso, obesidad, o talla baja. Tómate unos segundos."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta oficial es la C, eutrófico. Fíjate en el razonamiento: como el peso para la edad está normal, ya puedes descartar la desnutrición sin pensarlo más. Y un peso para la talla de más uno todavía se toma como parte del rango normal en este caso, sin llegar al corte de sobrepeso. El mensaje que te tienes que llevar es que un solo número no basta: miras los tres indicadores juntos antes de cerrar el diagnóstico."
+      "text": "Es la C, sobrepeso. Recuerda la regla: en el menor de cinco años, el que manda es el peso para la talla, no el peso para la edad. Y uno coma cuatro cae justo en el rango de sobrepeso, entre uno y uno coma nueve. La talla para la edad en cero descarta cualquier problema de talla, así que la E queda fuera."
     },
     {
       "file": "s09_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Lactante de tres meses, que pesa siete kilos, con lactancia materna exclusiva a libre demanda. Su peso para la edad está en más uno, y su peso para la talla en más dos."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Lactante de cuatro meses, con lactancia materna exclusiva. Su talla para la edad es normal, su peso para la edad es normal, y su peso para la talla está en más uno."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico nutricional según la Organización Mundial de la Salud y el MINSAL?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: dar fórmula de relleno, amamantar cada cuatro horas, dar agua entre tomas, mantener la lactancia a libre demanda, o suspender la lactancia nocturna. Piénsalo."
+      "text": "Las opciones: desnutrición, riesgo de desnutrición, eutrófico, riesgo de obesidad, u obesidad."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D. Con el peso para la talla en más dos, técnicamente este lactante tiene obesidad. Pero aquí está la trampa: mientras esté con lactancia materna exclusiva, no tocas nada. No hay horarios, no hay agua, no hay fórmula. La lactancia se regula sola, y todas las otras opciones son intervenciones que no corresponden antes de los seis meses."
+      "text": "La respuesta oficial es la C, eutrófico. Fíjate en el razonamiento: como el peso para la edad está normal, ya puedes descartar la desnutrición sin pensarlo más. Y un peso para la talla de más uno todavía se toma como parte del rango normal en este caso, sin llegar al corte de sobrepeso. El mensaje que te tienes que llevar es que un solo número no basta: miras los tres indicadores juntos antes de cerrar el diagnóstico."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Antes de los cinco años, el que manda es el peso para la talla."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciséis. Lactante de tres meses, que pesa siete kilos, con lactancia materna exclusiva a libre demanda. Su peso para la edad está en más uno, y su peso para la talla en más dos."
     },
     {
       "file": "s10_g01",
-      "text": "Desde los cinco hasta los diecinueve, cambias al índice de masa corporal para la edad, con los mismos cortes."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s10_g02",
-      "text": "Eutrófico va de menos uno a más uno. Cada escalón hacia arriba o hacia abajo es una desviación estándar completa: riesgo, después desnutrición; sobrepeso, después obesidad."
+      "text": "Las opciones: dar fórmula de relleno, amamantar cada cuatro horas, dar agua entre tomas, mantener la lactancia a libre demanda, o suspender la lactancia nocturna. Piénsalo."
     },
     {
       "file": "s10_g03",
+      "text": "Es la D. Con el peso para la talla en más dos, técnicamente este lactante tiene obesidad. Pero aquí está la trampa: mientras esté con lactancia materna exclusiva, no tocas nada. No hay horarios, no hay agua, no hay fórmula. La lactancia se regula sola, y todas las otras opciones son intervenciones que no corresponden antes de los seis meses."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Antes de los cinco años, el que manda es el peso para la talla."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Desde los cinco hasta los diecinueve, cambias al índice de masa corporal para la edad, con los mismos cortes."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Eutrófico va de menos uno a más uno. Cada escalón hacia arriba o hacia abajo es una desviación estándar completa: riesgo, después desnutrición; sobrepeso, después obesidad."
+    },
+    {
+      "file": "s11_g03",
       "text": "La talla para la edad te habla de lo crónico, y su corte de talla baja es menos dos desviaciones estándar."
     },
     {
-      "file": "s10_g04",
+      "file": "s11_g04",
       "text": "Y en el menor de dos años, nunca indiques una dieta restrictiva. Si te llevas una sola idea de hoy: mira la edad antes de elegir el indicador, y mira los tres números juntos antes de cerrar el diagnóstico. Nos vemos en la próxima clase."
     }
   ]

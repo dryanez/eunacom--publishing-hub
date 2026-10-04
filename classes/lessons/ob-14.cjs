@@ -124,6 +124,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Rotura de membranas',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg', label: 'Test de helecho', credit: 'Wikimedia Commons «Positive Fern Test.jpg», CC BY-SA 2.0, ver autor en Commons' },
+      ],
+      steps: [
+        { note: 'Cristalización del líquido',
+          say: 'El líquido amniótico cristaliza en forma de helecho al secarse. Confirma la rotura de membranas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos la edad gestacional y la infección en un solo árbol de decisión.',
     },

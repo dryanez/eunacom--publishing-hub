@@ -165,6 +165,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Pólipos de colon',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg', label: 'Pólipo pediculado', credit: 'Harrison 21.ª ed., p. 2433' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo_sesil__harrison_p2433.jpg', label: 'Pólipo sésil', credit: 'Harrison 21.ª ed., p. 2433' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-11/02_tipos-de-polipos__cto-digestivo_p119.jpg', label: 'Otros pólipos', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
+      ],
+      steps: [
+        { note: 'Cabeza sobre un tallo',
+          say: 'Este es un pólipo pediculado: una cabeza sobre un tallo. Se reseca con asa en la misma colonoscopía.' },
+        { note: 'Base ancha, sin tallo',
+          say: 'Y este es sésil: se apoya sobre la pared con una base ancha, sin tallo. Es más difícil de resecar y tiene más riesgo de degenerar.' },
+        { note: 'Distintas formas y tamaños',
+          say: 'Recuerda la regla: mientras más grande, más velloso y más displásico, más riesgo de cáncer.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

@@ -2,7 +2,7 @@
   "id": "derma-02",
   "title": "Dermatologia 16.2: Acné Vulgar: Escalonamiento Tópico, Oral e Indicaciones de Isotretinoína",
   "specialty": "Dermatología",
-  "chars": 8301,
+  "chars": 8460,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,98 +102,106 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora pongamos todo el escalonamiento en un solo árbol de decisión. Frente a un paciente con acné, la conducta se decide con dos preguntas: cuánta inflamación hay, y si ya dejó cicatriz."
+      "text": "El comedón es la lesión inicial del acné: abierto, el punto negro, o cerrado, el punto blanco."
     },
     {
       "file": "s06_g01",
-      "text": "Clasifica primero la forma clínica: solo comedones, pápulas y pústulas, o nódulos y quistes con riesgo de cicatriz."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Acné comedoniano puro: retinoide tópico, como el adapaleno, aplicado en la noche. Puede asociarse peróxido de benzoilo."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Pápulo-pustuloso leve: peróxido de benzoilo más retinoide tópico. Si se agrega un antibiótico tópico, jamás en monoterapia."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Pápulo-pustuloso moderado a severo, o extenso en tronco: doxiciclina oral por ocho a doce semanas, junto con peróxido de benzoilo tópico."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Nódulo-quístico, cicatrizante o refractario a antibióticos orales: isotretinoína oral. Antes de indicarla, revisa el riesgo reproductivo."
-    },
-    {
-      "file": "s06_g06",
-      "text": "En mujer fértil, la isotretinoína exige doble método anticonceptivo un mes antes, durante y un mes después, con test de embarazo negativo antes y cada mes."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Sin riesgo reproductivo, igual se controla el perfil lipídico y las pruebas hepáticas, y se explica la queilitis esperable."
+      "text": "El acné nodular deja cicatrices y es indicación de isotretinoína."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Acné comedoniano: retinoide tópico. El error es partir de una vez con un antibiótico oral, que no le hace nada al comedón sin inflamación."
+      "text": "Ahora pongamos todo el escalonamiento en un solo árbol de decisión. Frente a un paciente con acné, la conducta se decide con dos preguntas: cuánta inflamación hay, y si ya dejó cicatriz."
     },
     {
       "file": "s07_g01",
-      "text": "Pápulo-pustuloso leve a moderado: peróxido de benzoilo más retinoide, y clindamicina si hace falta, pero nunca sola. Ese \"nunca sola\" es el error más preguntado del tema."
+      "text": "Clasifica primero la forma clínica: solo comedones, pápulas y pústulas, o nódulos y quistes con riesgo de cicatriz."
     },
     {
       "file": "s07_g02",
-      "text": "Pápulo-pustuloso moderado a severo: doxiciclina oral por ocho a doce semanas. El error es suspenderla antes, antes de completar el curso."
+      "text": "Acné comedoniano puro: retinoide tópico, como el adapaleno, aplicado en la noche. Puede asociarse peróxido de benzoilo."
     },
     {
       "file": "s07_g03",
-      "text": "Y el nódulo-quístico o refractario: isotretinoína oral. El error más grave de todos es indicarla en una mujer fértil sin la doble anticoncepción y los test de embarazo."
+      "text": "Pápulo-pustuloso leve: peróxido de benzoilo más retinoide tópico. Si se agrega un antibiótico tópico, jamás en monoterapia."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Pápulo-pustuloso moderado a severo, o extenso en tronco: doxiciclina oral por ocho a doce semanas, junto con peróxido de benzoilo tópico."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Nódulo-quístico, cicatrizante o refractario a antibióticos orales: isotretinoína oral. Antes de indicarla, revisa el riesgo reproductivo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "En mujer fértil, la isotretinoína exige doble método anticonceptivo un mes antes, durante y un mes después, con test de embarazo negativo antes y cada mes."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Sin riesgo reproductivo, igual se controla el perfil lipídico y las pruebas hepáticas, y se explica la queilitis esperable."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Joven de diecisiete años, con lesiones en la cara desde hace seis meses, que le generan mucha angustia. Al examen hay abundantes comedones abiertos y cerrados en la frente y las mejillas, con pocas pápulas rojas que no confluyen, y sin nódulos, quistes ni cicatrices."
+      "text": "Repasemos las trampas. Acné comedoniano: retinoide tópico. El error es partir de una vez con un antibiótico oral, que no le hace nada al comedón sin inflamación."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el tratamiento de primera línea más adecuado?"
+      "text": "Pápulo-pustuloso leve a moderado: peróxido de benzoilo más retinoide, y clindamicina si hace falta, pero nunca sola. Ese \"nunca sola\" es el error más preguntado del tema."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: adapaleno tópico en la noche, doxiciclina oral por ocho semanas, clindamicina tópica sola, isotretinoína en dosis bajas, o un corticoide tópico. Piénsalo."
+      "text": "Pápulo-pustuloso moderado a severo: doxiciclina oral por ocho a doce semanas. El error es suspenderla antes, antes de completar el curso."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A. El comedón manda en este cuadro: predominan los comedones, con pocas pápulas y ningún nódulo ni cicatriz, así que es un acné comedoniano leve. Ahí el retinoide tópico es de elección. La doxiciclina y la isotretinoína son escalones más altos que este paciente no necesita todavía, y la clindamicina sola es directamente un error, porque nunca se da en monoterapia."
+      "text": "Y el nódulo-quístico o refractario: isotretinoína oral. El error más grave de todos es indicarla en una mujer fértil sin la doble anticoncepción y los test de embarazo."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de diecisiete años con acné: comedones en cara, pecho y espalda, con pápulas y pústulas abundantes, y algunos quistes en esas mismas zonas con cicatrices atróficas."
+      "text": "Vamos al caso. Joven de diecisiete años, con lesiones en la cara desde hace seis meses, que le generan mucha angustia. Al examen hay abundantes comedones abiertos y cerrados en la frente y las mejillas, con pocas pápulas rojas que no confluyen, y sin nódulos, quistes ni cicatrices."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el tratamiento de elección para este paciente?"
+      "text": "¿Cuál es el tratamiento de primera línea más adecuado?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: peróxido de benzoilo tópico, clindamicina tópica, isotretinoína oral, doxiciclina oral, o adapaleno tópico. Piénsalo."
+      "text": "Las opciones: adapaleno tópico en la noche, doxiciclina oral por ocho semanas, clindamicina tópica sola, isotretinoína en dosis bajas, o un corticoide tópico. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la C, isotretinoína oral. La palabra clave del enunciado es quistes con cicatrices atróficas: eso ya es un acné nódulo-quístico, inflamatorio severo, y ese grado de gravedad, con cicatriz activa, es indicación directa de isotretinoína. Los tópicos, y hasta la doxiciclina oral, se quedan cortos para este nivel; son el escalón de un acné más leve que el de este paciente."
+      "text": "Es la A. El comedón manda en este cuadro: predominan los comedones, con pocas pápulas y ningún nódulo ni cicatriz, así que es un acné comedoniano leve. Ahí el retinoide tópico es de elección. La doxiciclina y la isotretinoína son escalones más altos que este paciente no necesita todavía, y la clindamicina sola es directamente un error, porque nunca se da en monoterapia."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Comedoniano: retinoide tópico. Leve a moderado: se suma peróxido de benzoilo, y antibiótico tópico si hace falta, nunca solo."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de diecisiete años con acné: comedones en cara, pecho y espalda, con pápulas y pústulas abundantes, y algunos quistes en esas mismas zonas con cicatrices atróficas."
     },
     {
       "file": "s10_g01",
-      "text": "Moderado a severo, o extenso: doxiciclina oral. Nódulo-quístico, cicatrizante o refractario: isotretinoína oral."
+      "text": "¿Cuál es el tratamiento de elección para este paciente?"
     },
     {
       "file": "s10_g02",
-      "text": "La isotretinoína exige doble anticoncepción y test de embarazo mensual en toda mujer fértil, sin excepción."
+      "text": "Las opciones: peróxido de benzoilo tópico, clindamicina tópica, isotretinoína oral, doxiciclina oral, o adapaleno tópico. Piénsalo."
     },
     {
       "file": "s10_g03",
+      "text": "Es la C, isotretinoína oral. La palabra clave del enunciado es quistes con cicatrices atróficas: eso ya es un acné nódulo-quístico, inflamatorio severo, y ese grado de gravedad, con cicatriz activa, es indicación directa de isotretinoína. Los tópicos, y hasta la doxiciclina oral, se quedan cortos para este nivel; son el escalón de un acné más leve que el de este paciente."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Comedoniano: retinoide tópico. Leve a moderado: se suma peróxido de benzoilo, y antibiótico tópico si hace falta, nunca solo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Moderado a severo, o extenso: doxiciclina oral. Nódulo-quístico, cicatrizante o refractario: isotretinoína oral."
+    },
+    {
+      "file": "s11_g02",
+      "text": "La isotretinoína exige doble anticoncepción y test de embarazo mensual en toda mujer fértil, sin excepción."
+    },
+    {
+      "file": "s11_g03",
       "text": "Se controla el perfil lipídico y hepático, y la queilitis descamativa es un efecto esperado, no una señal de alarma. Si te llevas una sola idea de hoy: nunca antibiótico tópico solo, y nunca isotretinoína sin el programa de prevención de embarazo. Nos vemos en la próxima clase."
     }
   ]

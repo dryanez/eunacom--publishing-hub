@@ -2,7 +2,7 @@
   "id": "hem-16",
   "title": "Hematología 8.16: Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
   "specialty": "Hematología",
-  "chars": 14106,
+  "chars": 14316,
   "segments": [
     {
       "file": "s00_g00",
@@ -182,87 +182,79 @@
     },
     {
       "file": "s09_g00",
-      "text": "Juntemos todo en un árbol de decisión, desde el paciente con insuficiencia medular hasta la conducta. Paciente con anemia, fiebre y sangrado instalados en semanas. Sospecha insuficiencia medular aguda."
+      "text": "Estos blastos tienen bastones de Auer: es una leucemia mieloide, y si hay muchos, la promielocítica, que produce coagulación intravascular."
     },
     {
       "file": "s09_g01",
-      "text": "El primer examen es el hemograma con frotis. ¿Hay blastos en la sangre periférica?"
-    },
-    {
-      "file": "s09_g02",
-      "text": "Si no hay blastos, estudia otras causas de citopenia, como el PTI, la aplasia o la anemia megaloblástica."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Si hay blastos, se deriva de urgencia. Pero antes, una pregunta que salva vidas: ¿hay bastones de Auer abundantes con sangrado y fibrinógeno bajo?"
-    },
-    {
-      "file": "s09_g04",
-      "text": "Sospecha de leucemia promielocítica: ATRA de inmediato, con crioprecipitado y plaquetas, sin esperar la genética."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Si no, derivación urgente a un centro terciario con garantía GES, mielograma para confirmar el veinte por ciento de blastos, y citometría para definir la estirpe. La mieloide va a inducción siete más tres, con trasplante si el riesgo es intermedio o alto; la linfoblástica, a protocolo con profilaxis intratecal."
+      "text": "Y la infiltración de las encías es típica de las leucemias monocíticas."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas. Anemia, fiebre y sangrado instalados en semanas: el primer examen es el hemograma con frotis. El error es quedarse en una infección."
+      "text": "Juntemos todo en un árbol de decisión, desde el paciente con insuficiencia medular hasta la conducta. Paciente con anemia, fiebre y sangrado instalados en semanas. Sospecha insuficiencia medular aguda."
     },
     {
       "file": "s10_g01",
-      "text": "Blastos en la sangre: derivación urgente y mielograma. Nunca se controla en unas semanas."
+      "text": "El primer examen es el hemograma con frotis. ¿Hay blastos en la sangre periférica?"
     },
     {
       "file": "s10_g02",
-      "text": "La confirmación es el mielograma, con veinte por ciento de blastos o más. El hemograma inicia el estudio, pero no confirma."
+      "text": "Si no hay blastos, estudia otras causas de citopenia, como el PTI, la aplasia o la anemia megaloblástica."
     },
     {
       "file": "s10_g03",
-      "text": "Bastones de Auer: siempre mieloide."
+      "text": "Si hay blastos, se deriva de urgencia. Pero antes, una pregunta que salva vidas: ¿hay bastones de Auer abundantes con sangrado y fibrinógeno bajo?"
     },
     {
       "file": "s10_g04",
-      "text": "Bastones de Auer abundantes, sangrado y fibrinógeno bajo: ATRA inmediato con soporte de la CID. El error que mata es esperar el PCR."
+      "text": "Sospecha de leucemia promielocítica: ATRA de inmediato, con crioprecipitado y plaquetas, sin esperar la genética."
     },
     {
       "file": "s10_g05",
-      "text": "Linfoblástica infantil: quimioterapia con profilaxis intratecal. Omitir la profilaxis deja a los blastos escondidos en las meninges."
+      "text": "Si no, derivación urgente a un centro terciario con garantía GES, mielograma para confirmar el veinte por ciento de blastos, y citometría para definir la estirpe. La mieloide va a inducción siete más tres, con trasplante si el riesgo es intermedio o alto; la linfoblástica, a protocolo con profilaxis intratecal."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Mujer de veinticuatro años con dos semanas de astenia severa, fiebre y gingivorragia profusa. Está pálida, con petequias, sin adenopatías. Hemoglobina de seis coma nueve, treinta y dos mil leucocitos con sesenta y cinco por ciento de blastos grandes, con gránulos y muchos bastones de Auer, y dieciséis mil plaquetas. INR de uno coma ocho, fibrinógeno de ochenta y cinco y dímero D sobre quince mil."
+      "text": "Repasemos las trampas. Anemia, fiebre y sangrado instalados en semanas: el primer examen es el hemograma con frotis. El error es quedarse en una infección."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Blastos en la sangre: derivación urgente y mielograma. Nunca se controla en unas semanas."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: esperar el PCR de la translocación, iniciar ATRA de inmediato con crioprecipitado y plaquetas, heparina, quimioterapia intratecal, o plasmaféresis. Piénsalo."
+      "text": "La confirmación es el mielograma, con veinte por ciento de blastos o más. El hemograma inicia el estudio, pero no confirma."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta es la B. Son blastos mieloides, por los bastones de Auer, y tiene una CID con fibrinógeno bajo: es una promielocítica hasta demostrar lo contrario. Se inicia ATRA ya, con crioprecipitado y plaquetas como soporte. El distractor tentador es esperar el PCR: suena riguroso, pero la paciente puede morir de una hemorragia cerebral mientras tanto. La heparina empeora el sangrado, y la intratecal es de la linfoblástica."
+      "text": "Bastones de Auer: siempre mieloide."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Bastones de Auer abundantes, sangrado y fibrinógeno bajo: ATRA inmediato con soporte de la CID. El error que mata es esperar el PCR."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Linfoblástica infantil: quimioterapia con profilaxis intratecal. Omitir la profilaxis deja a los blastos escondidos en las meninges."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil diecisiete. Paciente de veinticinco años con tres semanas de compromiso del estado general, fiebre de hasta treinta y ocho grados, astenia y equimosis ante traumatismos mínimos. Está pálida, con esplenomegalia, y abundantes petequias y equimosis."
+      "text": "Vamos con un caso. Mujer de veinticuatro años con dos semanas de astenia severa, fiebre y gingivorragia profusa. Está pálida, con petequias, sin adenopatías. Hemoglobina de seis coma nueve, treinta y dos mil leucocitos con sesenta y cinco por ciento de blastos grandes, con gránulos y muchos bastones de Auer, y dieciséis mil plaquetas. INR de uno coma ocho, fibrinógeno de ochenta y cinco y dímero D sobre quince mil."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: leucemia aguda, mononucleosis, linfoma, síndrome hemolítico urémico, o CID. Piénsalo."
+      "text": "Las opciones son: esperar el PCR de la translocación, iniciar ATRA de inmediato con crioprecipitado y plaquetas, heparina, quimioterapia intratecal, o plasmaféresis. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A, leucemia aguda. Suma los tres síndromes: palidez por anemia, fiebre por neutropenia y petequias por trombocitopenia, instalados en semanas. Eso es insuficiencia medular aguda. La mononucleosis es el distractor, porque da fiebre y bazo grande, pero no explica el sangrado."
+      "text": "La respuesta es la B. Son blastos mieloides, por los bastones de Auer, y tiene una CID con fibrinógeno bajo: es una promielocítica hasta demostrar lo contrario. Se inicia ATRA ya, con crioprecipitado y plaquetas como soporte. El distractor tentador es esperar el PCR: suena riguroso, pero la paciente puede morir de una hemorragia cerebral mientras tanto. La heparina empeora el sangrado, y la intratecal es de la linfoblástica."
     },
     {
       "file": "s13_g00",
-      "text": "La siguiente, del EUNACOM de julio de dos mil dieciséis. Adolescente de diecisiete años con dos meses de astenia, decaimiento, dolores óseos y baja de peso. Tiene múltiples adenopatías cervicales y axilares, y el bazo palpable."
+      "text": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil diecisiete. Paciente de veinticinco años con tres semanas de compromiso del estado general, fiebre de hasta treinta y ocho grados, astenia y equimosis ante traumatismos mínimos. Está pálida, con esplenomegalia, y abundantes petequias y equimosis."
     },
     {
       "file": "s13_g01",
@@ -270,66 +262,82 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones son: linfoma de Hodgkin, leucemia mieloide aguda, leucemia linfática aguda, síndrome mononucleósico, o leucemia linfática crónica. Piénsalo."
+      "text": "Las opciones son: leucemia aguda, mononucleosis, linfoma, síndrome hemolítico urémico, o CID. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la C, leucemia linfática aguda. Fíjate en las pistas de infiltración que vimos: dolor óseo, adenopatías y bazo, en una paciente joven. Todo eso orienta a la linfoblástica. La mieloide es el distractor, pero es la leucemia del adulto mayor y no suele dar tantas adenopatías."
+      "text": "Es la A, leucemia aguda. Suma los tres síndromes: palidez por anemia, fiebre por neutropenia y petequias por trombocitopenia, instalados en semanas. Eso es insuficiencia medular aguda. La mononucleosis es el distractor, porque da fiebre y bazo grande, pero no explica el sangrado."
     },
     {
       "file": "s14_g00",
-      "text": "Otra, del EUNACOM de julio de dos mil quince. Niño de once años con astenia y fiebre de algunas semanas. Está pálido y tiene esplenomegalia."
+      "text": "La siguiente, del EUNACOM de julio de dos mil dieciséis. Adolescente de diecisiete años con dos meses de astenia, decaimiento, dolores óseos y baja de peso. Tiene múltiples adenopatías cervicales y axilares, y el bazo palpable."
     },
     {
       "file": "s14_g01",
-      "text": "¿Qué examen es el más adecuado para continuar el estudio?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Las opciones son: IgM para Epstein Barr, hemograma con VHS, biopsia ganglionar, IgM para Bartonella, o tiempos de coagulación. Piénsalo."
+      "text": "Las opciones son: linfoma de Hodgkin, leucemia mieloide aguda, leucemia linfática aguda, síndrome mononucleósico, o leucemia linfática crónica. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la B, el hemograma. Ante la sospecha de leucemia aguda, el primer paso es el hemograma con frotis, que muestra las citopenias y los blastos. La serología para Epstein Barr es el distractor, porque la fiebre con bazo grande hace pensar en mononucleosis, pero la palidez te dice que hay que mirar la médula primero."
+      "text": "Es la C, leucemia linfática aguda. Fíjate en las pistas de infiltración que vimos: dolor óseo, adenopatías y bazo, en una paciente joven. Todo eso orienta a la linfoblástica. La mieloide es el distractor, pero es la leucemia del adulto mayor y no suele dar tantas adenopatías."
     },
     {
       "file": "s15_g00",
-      "text": "Y la última, del EUNACOM de agosto de dos mil veintiuno. Niño de ocho años con tres semanas de dolores óseos, malestar y fiebre. Tiene el bazo grande, adenopatías indoloras, y petequias y equimosis generalizadas."
+      "text": "Otra, del EUNACOM de julio de dos mil quince. Niño de once años con astenia y fiebre de algunas semanas. Está pálido y tiene esplenomegalia."
     },
     {
       "file": "s15_g01",
-      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
+      "text": "¿Qué examen es el más adecuado para continuar el estudio?"
     },
     {
       "file": "s15_g02",
-      "text": "Las opciones son: cintigrafía ósea, hemograma, biopsia esplénica, electroforesis de proteínas, o mielograma. Piénsalo."
+      "text": "Las opciones son: IgM para Epstein Barr, hemograma con VHS, biopsia ganglionar, IgM para Bartonella, o tiempos de coagulación. Piénsalo."
     },
     {
       "file": "s15_g03",
-      "text": "Es la E, el mielograma. Compárala con la pregunta anterior: allá pedían el examen para continuar el estudio, y era el hemograma. Aquí piden el que confirma, y es el mielograma, con veinte por ciento de blastos o más. El hemograma es el distractor: inicia el estudio, pero no confirma. Lee bien qué verbo usa la pregunta."
+      "text": "Es la B, el hemograma. Ante la sospecha de leucemia aguda, el primer paso es el hemograma con frotis, que muestra las citopenias y los blastos. La serología para Epstein Barr es el distractor, porque la fiebre con bazo grande hace pensar en mononucleosis, pero la palidez te dice que hay que mirar la médula primero."
     },
     {
       "file": "s16_g00",
-      "text": "Cerremos con las reglas de oro. Anemia, fiebre y sangrado en semanas es insuficiencia medular aguda hasta demostrar lo contrario."
+      "text": "Y la última, del EUNACOM de agosto de dos mil veintiuno. Niño de ocho años con tres semanas de dolores óseos, malestar y fiebre. Tiene el bazo grande, adenopatías indoloras, y petequias y equimosis generalizadas."
     },
     {
       "file": "s16_g01",
-      "text": "El hemograma inicia el estudio y el mielograma confirma, con veinte por ciento de blastos o más."
+      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
     },
     {
       "file": "s16_g02",
-      "text": "Los bastones de Auer son siempre mieloides. La mieloide es del adulto mayor; la linfoblástica, del niño."
+      "text": "Las opciones son: cintigrafía ósea, hemograma, biopsia esplénica, electroforesis de proteínas, o mielograma. Piénsalo."
     },
     {
       "file": "s16_g03",
+      "text": "Es la E, el mielograma. Compárala con la pregunta anterior: allá pedían el examen para continuar el estudio, y era el hemograma. Aquí piden el que confirma, y es el mielograma, con veinte por ciento de blastos o más. El hemograma es el distractor: inicia el estudio, pero no confirma. Lee bien qué verbo usa la pregunta."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Cerremos con las reglas de oro. Anemia, fiebre y sangrado en semanas es insuficiencia medular aguda hasta demostrar lo contrario."
+    },
+    {
+      "file": "s17_g01",
+      "text": "El hemograma inicia el estudio y el mielograma confirma, con veinte por ciento de blastos o más."
+    },
+    {
+      "file": "s17_g02",
+      "text": "Los bastones de Auer son siempre mieloides. La mieloide es del adulto mayor; la linfoblástica, del niño."
+    },
+    {
+      "file": "s17_g03",
       "text": "La linfoblástica siempre lleva profilaxis intratecal, por los santuarios."
     },
     {
-      "file": "s16_g04",
+      "file": "s17_g04",
       "text": "Y en la mieloide de riesgo alto, el trasplante alogénico es el tratamiento curativo."
     },
     {
-      "file": "s16_g05",
+      "file": "s17_g05",
       "text": "Si te llevas una sola idea de hoy: bastones de Auer con sangrado y fibrinógeno bajo es una promielocítica, y el ATRA se inicia de inmediato, sin esperar la genética. En la próxima clase veremos las leucemias crónicas, la mieloide y la linfática. Nos vemos en la próxima clase."
     }
   ]

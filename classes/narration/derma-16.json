@@ -2,7 +2,7 @@
   "id": "derma-16",
   "title": "Dermatologia 16.16: Infecciones Cutáneas Comunes: Micosis Superficiales (Dermatofitosis, Pitiriasis Versicolor), Escabiosis & Pediculosis",
   "specialty": "Dermatología",
-  "chars": 8741,
+  "chars": 8951,
   "segments": [
     {
       "file": "s00_g00",
@@ -78,106 +78,118 @@
     },
     {
       "file": "s06_g00",
-      "text": "Armemos el árbol de decisión: del patrón de la lesión al tratamiento correcto. Frente a una lesión cutánea pruriginosa o descamativa en atención primaria, primero hay que definir el patrón."
+      "text": "La tiña corporis es una placa con borde activo y centro claro."
     },
     {
       "file": "s06_g01",
-      "text": "El patrón clínico separa las micosis superficiales de las ectoparasitosis."
+      "text": "La pitiriasis versicolor da manchas claras u oscuras con descamación fina."
     },
     {
       "file": "s06_g02",
-      "text": "La localización decide si el tratamiento puede ser tópico o si obligatoriamente debe ser oral."
-    },
-    {
-      "file": "s06_g03",
-      "text": "En cuerpo, ingle o pie, el tratamiento tópico es suficiente."
-    },
-    {
-      "file": "s06_g04",
-      "text": "En el cuero cabelludo de un niño, el tratamiento siempre debe ser oral: el tópico no penetra hasta la raíz del folículo."
-    },
-    {
-      "file": "s06_g05",
-      "text": "El prurito nocturno con surcos acarianos es escabiosis, y el tratamiento debe incluir a todos los convivientes."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Las máculas descamativas con signo de la uñada positivo orientan a pitiriasis versicolor."
+      "text": "Y la escabiosis, el surco del ácaro entre los dedos, con prurito nocturno."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos con la tabla. Una placa anular de borde activo se trata con terbinafina tópica. El error es tratarla con corticoide pensando en un eccema: el corticoide empeora la tiña y la hace más difícil de reconocer."
+      "text": "Armemos el árbol de decisión: del patrón de la lesión al tratamiento correcto. Frente a una lesión cutánea pruriginosa o descamativa en atención primaria, primero hay que definir el patrón."
     },
     {
       "file": "s07_g01",
-      "text": "La placa alopécica con pelos rotos en un niño siempre se trata por vía oral. Tratarla solo con tópico es el error que más se repite, porque el antimicótico no llega a la raíz del folículo."
+      "text": "El patrón clínico separa las micosis superficiales de las ectoparasitosis."
     },
     {
       "file": "s07_g02",
-      "text": "El prurito nocturno con surcos interdigitales se trata con permetrina a todos los convivientes. Tratar solo a quien tiene síntomas es el error que perpetúa el contagio."
+      "text": "La localización decide si el tratamiento puede ser tópico o si obligatoriamente debe ser oral."
     },
     {
       "file": "s07_g03",
-      "text": "Y las máculas hipopigmentadas del tronco con signo de la uñada positivo son pitiriasis versicolor, que se trata con ketoconazol tópico. El error es confundirla con vitíligo, que no descama, o con otras dermatosis que se le parecen de lejos."
+      "text": "En cuerpo, ingle o pie, el tratamiento tópico es suficiente."
+    },
+    {
+      "file": "s07_g04",
+      "text": "En el cuero cabelludo de un niño, el tratamiento siempre debe ser oral: el tópico no penetra hasta la raíz del folículo."
+    },
+    {
+      "file": "s07_g05",
+      "text": "El prurito nocturno con surcos acarianos es escabiosis, y el tratamiento debe incluir a todos los convivientes."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Las máculas descamativas con signo de la uñada positivo orientan a pitiriasis versicolor."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Niña de nueve años, con prurito intenso de predominio nocturno, de tres semanas, que también afecta a su hermano menor. Al examen: pápulas con pequeños surcos lineales en los espacios interdigitales de ambas manos y en la cara anterior de las muñecas."
+      "text": "Repasemos con la tabla. Una placa anular de borde activo se trata con terbinafina tópica. El error es tratarla con corticoide pensando en un eccema: el corticoide empeora la tiña y la hace más difícil de reconocer."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta terapéutica más adecuada?"
+      "text": "La placa alopécica con pelos rotos en un niño siempre se trata por vía oral. Tratarla solo con tópico es el error que más se repite, porque el antimicótico no llega a la raíz del folículo."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: permetrina solo en la niña, dejando al hermano en observación; permetrina simultánea en toda la familia; corticoide tópico de alta potencia; antihistamínico oral exclusivo; o ivermectina solo si el acarotest es positivo. Piénsalo."
+      "text": "El prurito nocturno con surcos interdigitales se trata con permetrina a todos los convivientes. Tratar solo a quien tiene síntomas es el error que perpetúa el contagio."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. El prurito nocturno con surcos interdigitales que afecta a dos hermanos es escabiosis. Y la regla de oro es tratar a todos los convivientes al mismo tiempo, con o sin síntomas. Dejar al hermano en observación es la trampa: mientras uno queda sin tratar, la reinfección entre ambos sigue el ciclo."
+      "text": "Y las máculas hipopigmentadas del tronco con signo de la uñada positivo son pitiriasis versicolor, que se trata con ketoconazol tópico. El error es confundirla con vitíligo, que no descama, o con otras dermatosis que se le parecen de lejos."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Niño de ocho años, con lesiones papulosas en manos, pies, axilas y espacios interdigitales, muy pruriginosas, que empeoran de noche. También están afectados su hermano y su madre."
+      "text": "Vamos con un caso. Niña de nueve años, con prurito intenso de predominio nocturno, de tres semanas, que también afecta a su hermano menor. Al examen: pápulas con pequeños surcos lineales en los espacios interdigitales de ambas manos y en la cara anterior de las muñecas."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico y el tratamiento?"
+      "text": "¿Cuál es la conducta terapéutica más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: escabiosis con permetrina al cinco por ciento tópica y tratamiento a todos los contactos, dermatitis atópica, tinea pedis, erupción por contacto, o impétigo. Piénsalo."
+      "text": "Las opciones: permetrina solo en la niña, dejando al hermano en observación; permetrina simultánea en toda la familia; corticoide tópico de alta potencia; antihistamínico oral exclusivo; o ivermectina solo si el acarotest es positivo. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A. Prurito nocturno, distribución interdigital y axilar, y varios convivientes afectados: escabiosis. El tratamiento es permetrina al cinco por ciento en todo el cuerpo, tratando a todos los contactos al mismo tiempo, exactamente la misma regla que acabamos de repasar."
+      "text": "Es la B. El prurito nocturno con surcos interdigitales que afecta a dos hermanos es escabiosis. Y la regla de oro es tratar a todos los convivientes al mismo tiempo, con o sin síntomas. Dejar al hermano en observación es la trampa: mientras uno queda sin tratar, la reinfección entre ambos sigue el ciclo."
     },
     {
       "file": "s10_g00",
-      "text": "Una pregunta real más, del EUNACOM de diciembre de dos mil diecisiete. Una preescolar de cuatro años tiene prurito en la cabeza. Al examen se ven abundantes liendres, a menos de tres centímetros del cuero cabelludo, sin visualizar piojos."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticinco. Niño de ocho años, con lesiones papulosas en manos, pies, axilas y espacios interdigitales, muy pruriginosas, que empeoran de noche. También están afectados su hermano y su madre."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el diagnóstico y el tratamiento?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: ivermectina oral, permetrina tópica al uno por ciento, permetrina tópica al cinco por ciento, lindano tópico, o no tratar mientras no se vean piojos. Piénsalo."
+      "text": "Las opciones: escabiosis con permetrina al cinco por ciento tópica y tratamiento a todos los contactos, dermatitis atópica, tinea pedis, erupción por contacto, o impétigo. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B. Liendres tan cerca del cuero cabelludo significan que la infestación está activa, aunque no veas al piojo adulto. Y la trampa está en la concentración: la pediculosis se trata con permetrina al uno por ciento, no al cinco por ciento, que es la que usamos en la escabiosis."
+      "text": "Es la A. Prurito nocturno, distribución interdigital y axilar, y varios convivientes afectados: escabiosis. El tratamiento es permetrina al cinco por ciento en todo el cuerpo, tratando a todos los contactos al mismo tiempo, exactamente la misma regla que acabamos de repasar."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. La tiña de la cabeza siempre se trata por vía oral, porque el tópico no llega hasta la raíz del folículo."
+      "text": "Una pregunta real más, del EUNACOM de diciembre de dos mil diecisiete. Una preescolar de cuatro años tiene prurito en la cabeza. Al examen se ven abundantes liendres, a menos de tres centímetros del cuero cabelludo, sin visualizar piojos."
     },
     {
       "file": "s11_g01",
-      "text": "El prurito nocturno con surcos interdigitales es escabiosis, y se trata con permetrina al cinco por ciento a todos los convivientes, tengan o no síntomas."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
+      "text": "Las opciones: ivermectina oral, permetrina tópica al uno por ciento, permetrina tópica al cinco por ciento, lindano tópico, o no tratar mientras no se vean piojos. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Liendres tan cerca del cuero cabelludo significan que la infestación está activa, aunque no veas al piojo adulto. Y la trampa está en la concentración: la pediculosis se trata con permetrina al uno por ciento, no al cinco por ciento, que es la que usamos en la escabiosis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La tiña de la cabeza siempre se trata por vía oral, porque el tópico no llega hasta la raíz del folículo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El prurito nocturno con surcos interdigitales es escabiosis, y se trata con permetrina al cinco por ciento a todos los convivientes, tengan o no síntomas."
+    },
+    {
+      "file": "s12_g02",
       "text": "Y no confundas las concentraciones: la pediculosis se trata con permetrina al uno por ciento; la escabiosis, al cinco por ciento. Si te llevas una sola idea de hoy: el patrón de la lesión y el horario del prurito te dicen qué es, y la vía de administración correcta te asegura curar de verdad. Nos vemos en la próxima clase."
     }
   ]

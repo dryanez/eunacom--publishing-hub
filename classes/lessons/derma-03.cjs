@@ -122,6 +122,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Rosácea',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea__cto-derma_p60.jpg', label: 'Rosácea', credit: 'Manual CTO Dermatología 14.ª ed., p. 60' },
+        { src: 'biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg', label: 'Rinofima', credit: 'Manual AMIR Otorrinolaringología, p. 41' },
+      ],
+      steps: [
+        { note: 'Eritema y pápulas centrofaciales',
+          say: 'La rosácea da enrojecimiento y pápulas en el centro de la cara, sin comedones.' },
+        { note: 'Nariz engrosada',
+          say: 'Y el rinofima es la nariz engrosada de la rosácea avanzada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos el árbol completo de la rosácea, del diagnóstico al tratamiento.',
     },

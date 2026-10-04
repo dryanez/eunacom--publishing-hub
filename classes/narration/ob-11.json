@@ -2,7 +2,7 @@
   "id": "ob-11",
   "title": "Obstetricia 19.11: Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
   "specialty": "Obstetricia",
-  "chars": 8625,
+  "chars": 8714,
   "segments": [
     {
       "file": "s00_g00",
@@ -86,103 +86,91 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora ordenemos todo en un solo árbol de decisión. Paciente con dolor anexial, atraso menstrual y prueba de embarazo positiva. La primera decisión no es qué examen pedir: es si está roto o no."
-    },
-    {
-      "file": "s06_g01",
-      "text": "¿Hay hipotensión, taquicardia o dolor peritoneal generalizado?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "Reanimación con volumen y sangre, y traslado inmediato a pabellón para salpingectomía. No se espera ningún examen."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Con la paciente estable, mides beta-hCG y ecografía."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Puede ser un embarazo intrauterino muy precoz: repites la beta-hCG en cuarenta y ocho horas."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Ectópico confirmado. Revisa los tres criterios juntos."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Dosis única, con control de beta-hCG en el día cuatro y en el día siete: tiene que bajar al menos un quince por ciento entre esos días."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Falla algún criterio: salpingostomía si desea fertilidad y la otra trompa está dañada, o salpingectomía si la trompa está muy destruida o la paridad está cumplida."
+      "text": "Útero vacío con una masa anexial y beta sobre la zona discriminatoria: embarazo ectópico."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Paciente inestable, con dolor peritoneal: cirugía de urgencia. El error es pedir una ecografía o esperar un examen antes de operar."
+      "text": "Ahora ordenemos todo en un solo árbol de decisión. Paciente con dolor anexial, atraso menstrual y prueba de embarazo positiva. La primera decisión no es qué examen pedir: es si está roto o no."
     },
     {
       "file": "s07_g01",
-      "text": "Beta-hCG por sobre la zona discriminatoria y útero vacío: el diagnóstico ya está confirmado. El error es seguir esperando otra ecografía."
+      "text": "¿Hay hipotensión, taquicardia o dolor peritoneal generalizado?"
     },
     {
       "file": "s07_g02",
-      "text": "Si cumple los tres criterios, va con metotrexato. El error es operar de entrada, sin darle la opción médica."
+      "text": "Reanimación con volumen y sangre, y traslado inmediato a pabellón para salpingectomía. No se espera ningún examen."
     },
     {
       "file": "s07_g03",
-      "text": "Y si la masa supera los tres coma cinco centímetros, o hay latidos, va a cirugía. El error es insistir con el metotrexato aunque no cumpla los criterios."
+      "text": "Con la paciente estable, mides beta-hCG y ecografía."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Puede ser un embarazo intrauterino muy precoz: repites la beta-hCG en cuarenta y ocho horas."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Ectópico confirmado. Revisa los tres criterios juntos."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Dosis única, con control de beta-hCG en el día cuatro y en el día siete: tiene que bajar al menos un quince por ciento entre esos días."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Falla algún criterio: salpingostomía si desea fertilidad y la otra trompa está dañada, o salpingectomía si la trompa está muy destruida o la paridad está cumplida."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de veintinueve años, con siete semanas de amenorrea, consulta por dolor leve en la fosa ilíaca derecha. Está estable. La beta-hCG es tres mil doscientas, y la ecografía muestra el útero vacío, con una masa anexial derecha de dos coma cuatro centímetros, sin latidos y sin líquido libre."
+      "text": "Repasemos las trampas. Paciente inestable, con dolor peritoneal: cirugía de urgencia. El error es pedir una ecografía o esperar un examen antes de operar."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Beta-hCG por sobre la zona discriminatoria y útero vacío: el diagnóstico ya está confirmado. El error es seguir esperando otra ecografía."
     },
     {
       "file": "s08_g02",
-      "text": "Tus opciones: salpingectomía de urgencia, metotrexato a dosis única, manejo expectante sin control, laparotomía inmediata, o repetir la beta-hCG en cuatro semanas. Piénsalo."
+      "text": "Si cumple los tres criterios, va con metotrexato. El error es operar de entrada, sin darle la opción médica."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Repasa los tres criterios: beta-hCG bajo cinco mil, sí; masa bajo tres coma cinco centímetros, sí; sin latidos, sí. Cumple los tres, así que el metotrexato es tu primera opción, no la cirugía. Y el manejo expectante sin ningún control sería un error grave: aunque esté estable ahora, este embarazo puede romperse."
+      "text": "Y si la masa supera los tres coma cinco centímetros, o hay latidos, va a cirugía. El error es insistir con el metotrexato aunque no cumpla los criterios."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Mujer joven con dolor súbito en la fosa ilíaca derecha, con hipotensión y taquicardia que aparecen de golpe, y dolor en ambas fosas ilíacas."
+      "text": "Vamos con un caso. Mujer de veintinueve años, con siete semanas de amenorrea, consulta por dolor leve en la fosa ilíaca derecha. Está estable. La beta-hCG es tres mil doscientas, y la ecografía muestra el útero vacío, con una masa anexial derecha de dos coma cuatro centímetros, sin latidos y sin líquido libre."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
-    },
-    {
-      "file": "s09_g02",
-      "text": "Las opciones: apendicitis complicada, quiste ovárico torcido, embarazo ectópico roto, absceso tubo-ovárico, o rotura folicular hemorrágica. Piénsalo."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Es la C. Un dolor que aparece de golpe, con hipotensión y taquicardia también súbitas, en una mujer joven, es la firma del hemoperitoneo por rotura tubárica. Fíjate que el enunciado no menciona embarazo, y esa es la trampa: siempre tienes que pensar en el ectópico roto ante un cuadro así, y confirmarlo con un test de embarazo."
-    },
-    {
-      "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de veinticuatro años, con siete semanas de amenorrea y examen físico normal. La beta-hCG es cuatro mil, y la ecografía muestra una masa anexial derecha de tres centímetros, sin líquido libre."
-    },
-    {
-      "file": "s10_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s09_g02",
+      "text": "Tus opciones: salpingectomía de urgencia, metotrexato a dosis única, manejo expectante sin control, laparotomía inmediata, o repetir la beta-hCG en cuatro semanas. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Repasa los tres criterios: beta-hCG bajo cinco mil, sí; masa bajo tres coma cinco centímetros, sí; sin latidos, sí. Cumple los tres, así que el metotrexato es tu primera opción, no la cirugía. Y el manejo expectante sin ningún control sería un error grave: aunque esté estable ahora, este embarazo puede romperse."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de enero de dos mil veintitrés. Mujer joven con dolor súbito en la fosa ilíaca derecha, con hipotensión y taquicardia que aparecen de golpe, y dolor en ambas fosas ilíacas."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
       "file": "s10_g02",
-      "text": "Las opciones: repetir la hCG en cuarenta y ocho horas, salpingostomía por laparotomía, salpingectomía laparoscópica, metotrexato intramuscular, o control con ecografía en diez días. Piénsalo."
+      "text": "Las opciones: apendicitis complicada, quiste ovárico torcido, embarazo ectópico roto, absceso tubo-ovárico, o rotura folicular hemorrágica. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D. La beta-hCG ya supera la zona discriminatoria y el útero está vacío: el ectópico está confirmado, así que repetir la hCG no tiene sentido. Y revisando los tres criterios, todos se cumplen: menos de cinco mil, masa menor a tres coma cinco, sin latidos. Corresponde metotrexato, no cirugía."
+      "text": "Es la C. Un dolor que aparece de golpe, con hipotensión y taquicardia también súbitas, en una mujer joven, es la firma del hemoperitoneo por rotura tubárica. Fíjate que el enunciado no menciona embarazo, y esa es la trampa: siempre tienes que pensar en el ectópico roto ante un cuadro así, y confirmarlo con un test de embarazo."
     },
     {
       "file": "s11_g00",
-      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil dieciséis. Mujer de veinticinco años, con tres semanas de atraso y dolor abdominal de cinco días, mayor a la izquierda. La beta-hCG es cinco mil quinientas, y la ecografía muestra el útero sin embarazo dentro, con un tumor anexial izquierdo de cincuenta y tres milímetros, sin líquido libre."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de veinticuatro años, con siete semanas de amenorrea y examen físico normal. La beta-hCG es cuatro mil, y la ecografía muestra una masa anexial derecha de tres centímetros, sin líquido libre."
     },
     {
       "file": "s11_g01",
@@ -190,22 +178,38 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: laparoscopía exploradora, laparotomía exploradora, metotrexato, ecografía en siete días, o hCG y ecografía en cuarenta y ocho horas. Piénsalo."
+      "text": "Las opciones: repetir la hCG en cuarenta y ocho horas, salpingostomía por laparotomía, salpingectomía laparoscópica, metotrexato intramuscular, o control con ecografía en diez días. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la A. Aquí falla el criterio del tamaño: cincuenta y tres milímetros es mucho más de los treinta y cinco que permite el metotrexato, y la beta-hCG también está sobre el corte. No está roto, porque no hay líquido libre, así que no necesitas la laparotomía; te alcanza con la laparoscopía, que tiene menos riesgo."
+      "text": "Es la D. La beta-hCG ya supera la zona discriminatoria y el útero está vacío: el ectópico está confirmado, así que repetir la hCG no tiene sentido. Y revisando los tres criterios, todos se cumplen: menos de cinco mil, masa menor a tres coma cinco, sin latidos. Corresponde metotrexato, no cirugía."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Frente a un ectópico, tu primera pregunta es si está roto. Si está inestable, cirugía de urgencia, sin esperar ningún examen."
+      "text": "Y una última pregunta real, del EUNACOM de julio de dos mil dieciséis. Mujer de veinticinco años, con tres semanas de atraso y dolor abdominal de cinco días, mayor a la izquierda. La beta-hCG es cinco mil quinientas, y la ecografía muestra el útero sin embarazo dentro, con un tumor anexial izquierdo de cincuenta y tres milímetros, sin líquido libre."
     },
     {
       "file": "s12_g01",
-      "text": "Si está estable, la beta-hCG por sobre mil quinientas a dos mil, con el útero vacío, confirma el diagnóstico."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
+      "text": "Las opciones: laparoscopía exploradora, laparotomía exploradora, metotrexato, ecografía en siete días, o hCG y ecografía en cuarenta y ocho horas. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A. Aquí falla el criterio del tamaño: cincuenta y tres milímetros es mucho más de los treinta y cinco que permite el metotrexato, y la beta-hCG también está sobre el corte. No está roto, porque no hay líquido libre, así que no necesitas la laparotomía; te alcanza con la laparoscopía, que tiene menos riesgo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Frente a un ectópico, tu primera pregunta es si está roto. Si está inestable, cirugía de urgencia, sin esperar ningún examen."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Si está estable, la beta-hCG por sobre mil quinientas a dos mil, con el útero vacío, confirma el diagnóstico."
+    },
+    {
+      "file": "s13_g02",
       "text": "Y para el metotrexato, tienes que cumplir los tres a la vez: beta-hCG menor a cinco mil, masa menor a tres coma cinco centímetros, y sin latidos. Si te llevas una sola idea de hoy: primero decide si está roto, y si no lo está, son esos tres números los que deciden entre fármaco y cirugía. Nos vemos en la próxima clase."
     }
   ]

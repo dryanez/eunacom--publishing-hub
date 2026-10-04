@@ -2,7 +2,7 @@
   "id": "gin-16",
   "title": "Ginecologia 20.16: Urgencias Ginecológicas Quirúrgicas: Torsión Anexial y Rotura de Quiste Ovárico Hemorrágico",
   "specialty": "Ginecología",
-  "chars": 8109,
+  "chars": 8295,
   "segments": [
     {
       "file": "s00_g00",
@@ -94,83 +94,75 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora pongamos las dos urgencias, una al lado de la otra, en un solo árbol de decisión. Mujer en edad fértil, con test de embarazo negativo, y un dolor pélvico agudo unilateral. La ecografía Doppler separa los dos diagnósticos."
+      "text": "En la torsión, el ovario está aumentado de tamaño y edematoso."
     },
     {
       "file": "s06_g01",
-      "text": "Ovario edematoso, sin flujo, con vómitos profusos: torsión. Aunque el Doppler arterial esté presente, si la clínica es sospechosa, se opera igual."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Se opera de urgencia, y se desenrolla el pedículo. Aunque el ovario se vea violáceo, se conserva: la ooforectomía queda solo para la necrosis gangrenosa."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Quiste hemorrágico roto, típico de la fase lútea tardía tras la relación sexual."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Estable: observación, analgesia y control seriado. El sangrado casi siempre se autolimita."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Inestable: laparoscopía de urgencia para aspirar el hemoperitoneo y controlar el sangrado."
+      "text": "El Doppler puede mostrar ausencia de flujo, pero un Doppler normal no la descarta. La sospecha clínica lleva a laparoscopía."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas comparando las dos. Los vómitos profusos son de la torsión, no del quiste hemorrágico."
+      "text": "Ahora pongamos las dos urgencias, una al lado de la otra, en un solo árbol de decisión. Mujer en edad fértil, con test de embarazo negativo, y un dolor pélvico agudo unilateral. La ecografía Doppler separa los dos diagnósticos."
     },
     {
       "file": "s07_g01",
-      "text": "El gatillante también difiere: la torsión suele ser idiopática, sobre un quiste ya presente; el quiste hemorrágico se dispara con la relación sexual."
+      "text": "Ovario edematoso, sin flujo, con vómitos profusos: torsión. Aunque el Doppler arterial esté presente, si la clínica es sospechosa, se opera igual."
     },
     {
       "file": "s07_g02",
-      "text": "En el Doppler, la torsión compromete todo el ovario; el quiste hemorrágico solo no tiene flujo dentro del coágulo mismo."
+      "text": "Se opera de urgencia, y se desenrolla el pedículo. Aunque el ovario se vea violáceo, se conserva: la ooforectomía queda solo para la necrosis gangrenosa."
     },
     {
       "file": "s07_g03",
-      "text": "Y si en la cirugía el ovario se ve violáceo por la torsión, se conserva igual: sacarlo de entrada es la trampa más clásica de todo el tema."
+      "text": "Quiste hemorrágico roto, típico de la fase lútea tardía tras la relación sexual."
     },
     {
       "file": "s07_g04",
-      "text": "La conducta habitual es opuesta: la torsión es cirugía siempre; el quiste hemorrágico es manejo médico, salvo que la paciente se desestabilice."
+      "text": "Estable: observación, analgesia y control seriado. El sangrado casi siempre se autolimita."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Inestable: laparoscopía de urgencia para aspirar el hemoperitoneo y controlar el sangrado."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de veintiséis años, nulípara, con dolor súbito en la fosa ilíaca izquierda de tres horas, de intensidad nueve sobre diez, con tres episodios de vómitos. El test de embarazo es negativo. La ecografía Doppler muestra un ovario izquierdo de ocho centímetros, edematoso, con un quiste de seis centímetros compatible con teratoma, y ausencia de flujo venoso."
+      "text": "Repasemos las trampas comparando las dos. Los vómitos profusos son de la torsión, no del quiste hemorrágico."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "El gatillante también difiere: la torsión suele ser idiopática, sobre un quiste ya presente; el quiste hemorrágico se dispara con la relación sexual."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: analgesia y alta ambulatoria, laparoscopía de urgencia con detorsión conservadora, ooforectomía abierta sin destorcer, antibióticos por proceso inflamatorio pélvico, o punción ecoguiada del quiste. Piénsalo."
+      "text": "En el Doppler, la torsión compromete todo el ovario; el quiste hemorrágico solo no tiene flujo dentro del coágulo mismo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Todo calza con la torsión: dolor hiperagudo, vómitos profusos, un teratoma como factor de riesgo, y ausencia de flujo venoso. Se opera de urgencia, y se intenta destorcer y conservar el ovario, aunque se vea comprometido. Dar de alta, no operar, u operar sacando el ovario sin destorcer, son todos errores graves."
+      "text": "Y si en la cirugía el ovario se ve violáceo por la torsión, se conserva igual: sacarlo de entrada es la trampa más clásica de todo el tema."
+    },
+    {
+      "file": "s08_g04",
+      "text": "La conducta habitual es opuesta: la torsión es cirugía siempre; el quiste hemorrágico es manejo médico, salvo que la paciente se desestabilice."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta años, con dolor en la fosa ilíaca derecha y vómitos, de cuarenta y ocho horas de evolución. Al examen tiene la frecuencia cardíaca en ciento diez, con resistencia muscular involuntaria en la fosa ilíaca derecha. La ecografía muestra un tumor anexial derecho, quístico, multiloculado, de diez centímetros, sin flujo Doppler."
+      "text": "Vamos con un caso. Mujer de veintiséis años, nulípara, con dolor súbito en la fosa ilíaca izquierda de tres horas, de intensidad nueve sobre diez, con tres episodios de vómitos. El test de embarazo es negativo. La ecografía Doppler muestra un ovario izquierdo de ocho centímetros, edematoso, con un quiste de seis centímetros compatible con teratoma, y ausencia de flujo venoso."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: apendicitis aguda, embarazo ectópico, proceso inflamatorio pélvico, tumor anexial torcido, o cáncer de ovario. Piénsalo."
+      "text": "Las opciones: analgesia y alta ambulatoria, laparoscopía de urgencia con detorsión conservadora, ooforectomía abierta sin destorcer, antibióticos por proceso inflamatorio pélvico, o punción ecoguiada del quiste. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D. El cuadro se parece a una apendicitis, y esa es justo la trampa. Pero hay un tumor anexial de diez centímetros, que es un tamaño de alto riesgo, sin flujo Doppler: eso es una torsión. Y recuerda: aunque el Doppler hubiera sido normal, con esta clínica y este tamaño, igual se opera."
+      "text": "Es la B. Todo calza con la torsión: dolor hiperagudo, vómitos profusos, un teratoma como factor de riesgo, y ausencia de flujo venoso. Se opera de urgencia, y se intenta destorcer y conservar el ovario, aunque se vea comprometido. Dar de alta, no operar, u operar sacando el ovario sin destorcer, son todos errores graves."
     },
     {
       "file": "s10_g00",
-      "text": "Una pregunta real más, del EUNACOM de julio de dos mil diecisiete. Paciente de diecinueve años, con ciclos regulares, con dolor abdominal intenso en la fosa ilíaca izquierda. Su última regla fue hace veinte días. Al examen tiene dolor con signos peritoneales esbozados, el test de embarazo es negativo, y la ecografía muestra una lesión anexial mixta de ocho centímetros, con líquido libre en cantidad moderada."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de treinta años, con dolor en la fosa ilíaca derecha y vómitos, de cuarenta y ocho horas de evolución. Al examen tiene la frecuencia cardíaca en ciento diez, con resistencia muscular involuntaria en la fosa ilíaca derecha. La ecografía muestra un tumor anexial derecho, quístico, multiloculado, de diez centímetros, sin flujo Doppler."
     },
     {
       "file": "s10_g01",
@@ -178,26 +170,42 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: cuerpo lúteo hemorrágico, cuerpo lúteo roto, apendicitis aguda, torsión ovárica, o absceso tubo-ovárico. Piénsalo."
+      "text": "Las opciones: apendicitis aguda, embarazo ectópico, proceso inflamatorio pélvico, tumor anexial torcido, o cáncer de ovario. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Fíjate en el día del ciclo: el veinte cae justo en la fase lútea, cuando el cuerpo lúteo puede sangrar y crecer. La imagen mixta con líquido libre encaja con eso. No hay el cortejo vegetativo intenso de la torsión, y no hay compromiso hemodinámico como para hablar de un cuerpo lúteo ya roto e inestable."
+      "text": "Es la D. El cuadro se parece a una apendicitis, y esa es justo la trampa. Pero hay un tumor anexial de diez centímetros, que es un tamaño de alto riesgo, sin flujo Doppler: eso es una torsión. Y recuerda: aunque el Doppler hubiera sido normal, con esta clínica y este tamaño, igual se opera."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Dolor hiperagudo con vómitos profusos, sobre un quiste de riesgo: piensa en torsión."
+      "text": "Una pregunta real más, del EUNACOM de julio de dos mil diecisiete. Paciente de diecinueve años, con ciclos regulares, con dolor abdominal intenso en la fosa ilíaca izquierda. Su última regla fue hace veinte días. Al examen tiene dolor con signos peritoneales esbozados, el test de embarazo es negativo, y la ecografía muestra una lesión anexial mixta de ocho centímetros, con líquido libre en cantidad moderada."
     },
     {
       "file": "s11_g01",
-      "text": "Y la conducta es laparoscopía de urgencia, con detorsión conservadora, aunque el ovario se vea violáceo."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "El quiste hemorrágico aparece tras la relación sexual, en fase lútea tardía, con el patrón en red de pesca."
+      "text": "Las opciones: cuerpo lúteo hemorrágico, cuerpo lúteo roto, apendicitis aguda, torsión ovárica, o absceso tubo-ovárico. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la A. Fíjate en el día del ciclo: el veinte cae justo en la fase lútea, cuando el cuerpo lúteo puede sangrar y crecer. La imagen mixta con líquido libre encaja con eso. No hay el cortejo vegetativo intenso de la torsión, y no hay compromiso hemodinámico como para hablar de un cuerpo lúteo ya roto e inestable."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Dolor hiperagudo con vómitos profusos, sobre un quiste de riesgo: piensa en torsión."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Y la conducta es laparoscopía de urgencia, con detorsión conservadora, aunque el ovario se vea violáceo."
+    },
+    {
+      "file": "s12_g02",
+      "text": "El quiste hemorrágico aparece tras la relación sexual, en fase lútea tardía, con el patrón en red de pesca."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y se opera solo si la paciente se desestabiliza. Si te llevas una sola idea de hoy: la torsión siempre se opera, y el quiste hemorrágico casi nunca. Nos vemos en la próxima clase."
     }
   ]

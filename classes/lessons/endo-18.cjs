@@ -193,6 +193,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Cómo leer la densitometría',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-18/S1_dexa-t-score__propio.svg', label: 'T-score', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Menos dos coma cinco es osteoporosis',
+          say: 'El T-score compara con un adulto joven. Hasta menos uno es normal; entre menos uno y menos dos coma cinco, osteopenia; bajo menos dos coma cinco, osteoporosis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },

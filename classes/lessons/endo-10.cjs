@@ -198,6 +198,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Carcinoma papilar',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg', label: 'Histología', credit: 'Pathoma, Fig. 15.5' },
+      ],
+      steps: [
+        { note: 'Núcleos en ojos de Annie y psamomas',
+          say: 'En la histología del carcinoma papilar los núcleos se ven vacíos, como los ojos de la huerfanita Annie, y aparecen cuerpos de psamoma, calcificaciones en capas. Es el cáncer de tiroides más frecuente.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la citología maligna hasta el seguimiento.',
     },

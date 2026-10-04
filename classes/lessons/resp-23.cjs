@@ -123,6 +123,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Apnea obstructiva en la polisomnografía',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg', label: 'Polisomnografía real', credit: 'Wikimedia Commons «Polysomnographie-apnees-5min2.png», CC BY-SA 3.0, GAllegre' },
+        { src: 'biblioteca/02_neumologia/resp-23/S1_polisomnografia-apnea__propio.svg', label: 'Lo que se mira', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Pausas repetidas con desaturación',
+          say: 'Esta es una polisomnografía real. Fíjate en las pausas repetidas del flujo de aire, mientras el tórax sigue haciendo esfuerzo, y la saturación que cae después de cada una.' },
+        { note: 'El flujo se detiene, el esfuerzo sigue',
+          say: 'Y este esquema lo simplifica: en la apnea obstructiva el flujo se detiene pero el esfuerzo continúa. Si también se detiene el esfuerzo, la apnea es central.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol, desde el ronquido hasta el CPAP.',
     },

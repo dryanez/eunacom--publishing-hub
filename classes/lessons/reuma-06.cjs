@@ -224,6 +224,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Artritis reumatoide',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg', label: 'Desviación cubital', credit: 'Manual AMIR Reumatología, p. 48' },
+        { src: 'biblioteca/08_reumatologia/reuma-06/02_rx-manos-ar-erosiones__cto-reuma_p27.jpg', label: 'Erosiones', credit: 'Manual CTO Reumatología 14.ª ed., p. 27' },
+      ],
+      steps: [
+        { note: 'Manos deformadas',
+          say: 'En la artritis reumatoide avanzada los dedos se desvían hacia cubital.' },
+        { note: 'Erosiones marginales',
+          say: 'Y la radiografía muestra erosiones en los bordes de las articulaciones. Las erosiones son de mal pronóstico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Integremos todo el algoritmo diagnóstico de la artritis reumatoide.',
     },

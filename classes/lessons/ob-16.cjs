@@ -124,6 +124,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El trabajo de parto',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-16/S1_variedades-fontanelas__propio.svg', label: 'Variedades de posición', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/14_obstetricia/ob-16/S2_partograma__propio.svg', label: 'Partograma', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Fontanelas',
+          say: 'La variedad de posición se determina palpando las fontanelas.' },
+        { note: 'Líneas de alerta y acción',
+          say: 'Y el partograma registra la dilatación. Si cruza la línea de alerta, el parto se está prolongando.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos el score de Bishop y el alumbramiento en un solo árbol.',
     },

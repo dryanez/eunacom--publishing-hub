@@ -166,6 +166,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'La infección urinaria en el sedimento',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-21/01_sedimento-con-leucocituria__cto-nefro_p33.jpg', label: 'Leucocituria', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
+      ],
+      steps: [
+        { note: 'Muchos leucocitos',
+          say: 'El sedimento muestra abundantes leucocitos. Junto con la clínica orienta a infección urinaria, pero se confirma con urocultivo, que se toma antes del antibiótico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todas las decisiones en un solo árbol.',
     },

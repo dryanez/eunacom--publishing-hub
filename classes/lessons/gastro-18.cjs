@@ -239,6 +239,29 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Pancreatitis aguda',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_1__cto-digestivo_p258.jpg', label: 'Pancreatitis edematosa', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-18/02_pancreatitis-necrotizante-tc__cto-radiologia_p47.jpg', label: 'Necrotizante', credit: 'Manual CTO Radiología 14.ª ed., p. 47' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg', label: 'Grey Turner', credit: 'Wikimedia Commons «Hemorrhagic pancreatitis - Grey Turner\'s sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-18/02_signo_cullen__commons.jpg', label: 'Cullen', credit: 'Wikimedia Commons «Cullen\'s sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk' },
+      ],
+      steps: [
+        { note: 'Páncreas aumentado, sin necrosis',
+          say: 'Esta tomografía muestra un páncreas aumentado de tamaño, con inflamación alrededor, pero que capta contraste completo. Es la forma edematosa, la más frecuente.' },
+        { note: 'Zonas sin captación',
+          say: 'En la forma necrotizante, partes del páncreas no captan contraste: ese tejido murió. Es la que se complica.' },
+        { note: 'Equimosis en los flancos',
+          say: 'Y estos son signos de sangrado retroperitoneal: equimosis en los flancos, el signo de Grey Turner.' },
+        { note: 'Equimosis periumbilical',
+          say: 'Y la equimosis alrededor del ombligo es el signo de Cullen. Ambos son raros, pero se preguntan.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

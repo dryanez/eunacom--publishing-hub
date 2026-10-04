@@ -149,6 +149,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Stevens-Johnson y necrólisis',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-09/01_necrolisis_mucosa_oral__fitzpatrick_p390.jpg', label: 'Mucosas', credit: 'Fitzpatrick 7.ª ed., p. 390 (figura completa, ~480 px)' },
+        { src: 'biblioteca/11_dermatologia/derma-09/01_net__amir-derma_p105.jpg', label: 'Necrólisis epidérmica', credit: 'Manual AMIR Dermatología, p. 105' },
+      ],
+      steps: [
+        { note: 'Erosiones en labios y boca',
+          say: 'El Stevens Johnson compromete las mucosas: erosiones en labios y boca.' },
+        { note: 'La piel se desprende',
+          say: 'Y en la necrólisis la piel se desprende en láminas. Se suspende el fármaco y se trata en unidad de quemados.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión completo, desde la sospecha inicial hasta el destino de hospitalización.',
     },

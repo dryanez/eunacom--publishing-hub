@@ -178,6 +178,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El ciclo menstrual',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-01/S1_ciclo-menstrual__propio.svg', label: 'Ciclo de veintiocho días', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Hormonas, ovario y endometrio',
+          say: 'En la fase folicular sube el estradiol y prolifera el endometrio. El peak de LH desencadena la ovulación el día catorce. Después la progesterona del cuerpo lúteo transforma el endometrio en secretor, y la temperatura basal sube.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos el algoritmo completo de la amenorrea secundaria en un solo árbol, tal como lo vas a razonar en el examen.',
     },

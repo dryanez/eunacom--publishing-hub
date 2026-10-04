@@ -161,6 +161,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Síndrome de Sjögren',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg', label: 'Parótida aumentada', credit: 'Manual AMIR Reumatología, p. 121' },
+      ],
+      steps: [
+        { note: 'Crecimiento glandular',
+          say: 'El Sjögren puede agrandar las parótidas. Si el aumento es asimétrico y persistente, piensa en linfoma.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

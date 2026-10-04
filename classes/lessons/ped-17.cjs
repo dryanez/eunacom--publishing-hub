@@ -194,6 +194,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Ictericia neonatal',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-17/S1_bhutani-kramer__propio.svg', label: 'Bhutani y Kramer', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Riesgo según horas de vida',
+          say: 'El nomograma de Bhutani ubica la bilirrubina según las horas de vida. Toda ictericia antes de las veinticuatro horas es patológica.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

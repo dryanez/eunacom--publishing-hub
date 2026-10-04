@@ -111,6 +111,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Sistema POP-Q',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-06/S1_pop-q__propio.svg', label: 'POP-Q', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Puntos en centímetros respecto del himen',
+          say: 'El prolapso se mide en centímetros respecto del himen: negativo por encima, positivo por debajo. Eso define el estadio, de cero a cuatro.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ordenemos todo en un solo árbol de decisión.',
     },

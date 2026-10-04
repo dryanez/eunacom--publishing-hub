@@ -131,6 +131,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Celíaca: la piel y la biopsia',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg', label: 'Dermatitis herpetiforme', credit: 'Harrison 21.ª ed., p. 413' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg', label: 'Atrofia vellositaria', credit: 'Pathoma, Fig. 10.18' },
+      ],
+      steps: [
+        { note: 'Vesículas agrupadas en codos',
+          say: 'Esto es una dermatitis herpetiforme: pápulas y vesículas agrupadas, excoriadas, en los codos. Es la celíaca de la piel, y responde a la dieta sin gluten.' },
+        { note: 'Vellosidades planas vs normales',
+          say: 'Y esta es la biopsia duodenal. A la izquierda, la mucosa plana, sin vellosidades; a la derecha, vellosidades normales para comparar. Esa atrofia es la que confirma la enfermedad.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

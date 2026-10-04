@@ -83,6 +83,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Eccemas',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-07/01_eccema-de-contacto__cto-derma_p43.jpg', label: 'Eccema de contacto', credit: 'Manual CTO Dermatología 14.ª ed., p. 43' },
+        { src: 'biblioteca/11_dermatologia/derma-07/01_seborreica_cara__fitzpatrick_p260.jpg', label: 'Dermatitis seborreica', credit: 'Fitzpatrick 7.ª ed., p. 260 (figura completa, ~480 px)' },
+      ],
+      steps: [
+        { note: 'Donde tocó el alérgeno',
+          say: 'El eccema de contacto aparece donde tocó el alérgeno, con bordes que lo delatan.' },
+        { note: 'Surcos, cejas, cuero cabelludo',
+          say: 'La seborreica da escamas grasas en surcos nasogenianos, cejas y cuero cabelludo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión: de la zona afectada al diagnóstico y su confirmación.',
     },

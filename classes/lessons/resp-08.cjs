@@ -157,6 +157,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Neumonías que no son del neumococo',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg', label: 'Neumonía aspirativa', credit: 'Wikimedia Commons «Aspiration pneumonia201711-3264.jpg», CC BY-SA 4.0, melvil' },
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_1__cto-infecto_p56.jpg', label: 'Patrón por germen', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+      ],
+      steps: [
+        { note: 'Lóbulo inferior derecho',
+          say: 'Esta es una neumonía aspirativa en el lóbulo inferior derecho. El bronquio derecho es más vertical, por eso lo aspirado cae ahí. Piensa en el alcohólico, el paciente con convulsiones o con trastorno de deglución.' },
+        { note: 'Cada germen tiene su imagen',
+          say: 'Y estas radiografías muestran distintos patrones. No se trata el germen por la imagen, pero algunos patrones orientan, como la cavitación del estafilococo o el infiltrado intersticial de los atípicos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora el árbol que te dice, frente a una neumonía, si sirve el esquema habitual o necesitas otro.',
     },

@@ -2,7 +2,7 @@
   "id": "endo-22",
   "title": "Endocrinología 7.22: Acromegalia y Gigantismo: Diagnóstico Bioquímico y Manejo",
   "specialty": "Endocrinología",
-  "chars": 10874,
+  "chars": 11027,
   "segments": [
     {
       "file": "s00_g00",
@@ -126,122 +126,126 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos todo en el árbol de decisión que vas a usar en el examen. Paciente con manos y pies que crecen, prognatismo, apnea del sueño, hipertensión o diabetes. Lo primero es decidir qué examen pides."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Se pide IGF uno para edad y sexo. Nunca hormona de crecimiento basal."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Si es normal, la acromegalia queda prácticamente descartada y se busca otra causa de los rasgos toscos."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si está alta, se confirma con sobrecarga oral de glucosa, midiendo la hormona de crecimiento."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Si la hormona baja de uno coma cero, el eje funciona normal."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si no baja, la acromegalia está confirmada y se pide resonancia de silla turca con gadolinio."
-    },
-    {
-      "file": "s06_g06",
-      "text": "El tratamiento de primera línea es la cirugía transesfenoidal, y a todos se les hace colonoscopía y ecocardiograma."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Si la enfermedad persiste tras la cirugía, o no se puede operar, se agregan octreótido o lanreótido; como alternativas, pegvisomant o cabergolina."
+      "text": "La acromegalia agranda manos, pies, nariz, mandíbula y lengua, lentamente, durante años. El paciente nota que le quedan chicos los anillos y los zapatos."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Ante la sospecha, IGF uno. Pedir hormona de crecimiento basal es la respuesta incorrecta más frecuente del tema."
+      "text": "Juntemos todo en el árbol de decisión que vas a usar en el examen. Paciente con manos y pies que crecen, prognatismo, apnea del sueño, hipertensión o diabetes. Lo primero es decidir qué examen pides."
     },
     {
       "file": "s07_g01",
-      "text": "Con la IGF uno alta, se confirma con la sobrecarga oral de glucosa. Saltar directo a la resonancia es quemar una etapa."
+      "text": "Se pide IGF uno para edad y sexo. Nunca hormona de crecimiento basal."
     },
     {
       "file": "s07_g02",
-      "text": "Si la hormona de crecimiento no baja de uno coma cero tras la glucosa, está confirmada, y recién ahí se pide la resonancia."
+      "text": "Si es normal, la acromegalia queda prácticamente descartada y se busca otra causa de los rasgos toscos."
     },
     {
       "file": "s07_g03",
-      "text": "El tratamiento es la cirugía transesfenoidal. No confundas con el prolactinoma: allá cabergolina, aquí bisturí."
+      "text": "Si está alta, se confirma con sobrecarga oral de glucosa, midiendo la hormona de crecimiento."
     },
     {
       "file": "s07_g04",
-      "text": "Si la enfermedad persiste después de operar, análogos de la somatostatina: octreótido o lanreótido."
+      "text": "Si la hormona baja de uno coma cero, el eje funciona normal."
     },
     {
       "file": "s07_g05",
-      "text": "Y en todo paciente, colonoscopía y ecocardiograma. El colon es el detalle que más se olvida."
+      "text": "Si no baja, la acromegalia está confirmada y se pide resonancia de silla turca con gadolinio."
+    },
+    {
+      "file": "s07_g06",
+      "text": "El tratamiento de primera línea es la cirugía transesfenoidal, y a todos se les hace colonoscopía y ecocardiograma."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si la enfermedad persiste tras la cirugía, o no se puede operar, se agregan octreótido o lanreótido; como alternativas, pegvisomant o cabergolina."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Hombre de cuarenta y seis años con cinco años de cambio en los rasgos de la cara, dientes separados con mala mordida, y que pasó del número cuarenta y uno al cuarenta y cuatro de zapatos. Su señora dice que ronca con pausas. Al examen tiene macroglosia, nariz ancha, prognatismo, manos grandes y presión de ciento sesenta sobre noventa y cinco. La glicemia de ayuno es ciento cuarenta y dos."
+      "text": "Repasemos las trampas. Ante la sospecha, IGF uno. Pedir hormona de crecimiento basal es la respuesta incorrecta más frecuente del tema."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el primer examen que debe solicitarse?"
+      "text": "Con la IGF uno alta, se confirma con la sobrecarga oral de glucosa. Saltar directo a la resonancia es quemar una etapa."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: hormona de crecimiento basal, IGF uno sérica, resonancia de silla turca, prolactina, o radiografía de manos y pies. Piénsalo."
+      "text": "Si la hormona de crecimiento no baja de uno coma cero tras la glucosa, está confirmada, y recién ahí se pide la resonancia."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B, la IGF uno. El caso tiene todo: cambios acrales, apnea del sueño, hipertensión y diabetes. La trampa es la A, la hormona de crecimiento basal, que suena lógica pero es pulsátil y un valor aislado no sirve. Y la resonancia es tentadora, pero va después de confirmar con la sobrecarga de glucosa: primero bioquímica, después imagen."
+      "text": "El tratamiento es la cirugía transesfenoidal. No confundas con el prolactinoma: allá cabergolina, aquí bisturí."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Si la enfermedad persiste después de operar, análogos de la somatostatina: octreótido o lanreótido."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y en todo paciente, colonoscopía y ecocardiograma. El colon es el detalle que más se olvida."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora las preguntas reales. Esta es del EUNACOM de julio de dos mil quince. Un paciente con astenia, mandíbula que ha crecido con los dientes separados, y aumento de los pómulos, la nariz y las manos. También ha subido su número de zapatos."
+      "text": "Vamos al caso. Hombre de cuarenta y seis años con cinco años de cambio en los rasgos de la cara, dientes separados con mala mordida, y que pasó del número cuarenta y uno al cuarenta y cuatro de zapatos. Su señora dice que ronca con pausas. Al examen tiene macroglosia, nariz ancha, prognatismo, manos grandes y presión de ciento sesenta sobre noventa y cinco. La glicemia de ayuno es ciento cuarenta y dos."
     },
     {
       "file": "s09_g01",
-      "text": "¿Qué examen es más adecuado para continuar el estudio?"
+      "text": "¿Cuál es el primer examen que debe solicitarse?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: niveles de hormona de crecimiento, radiografías de pies y arcada dentaria, radiografía de manos, niveles de IGF uno, o resonancia de hipófisis. Piénsalo."
+      "text": "Las alternativas: hormona de crecimiento basal, IGF uno sérica, resonancia de silla turca, prolactina, o radiografía de manos y pies. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D, IGF uno. Somatomedina C e IGF uno son lo mismo, así que no te confundas si aparece con otro nombre. La A es el distractor clásico: la hormona de crecimiento es errática y no se pide. Las radiografías no aportan, y la resonancia va después de confirmar la bioquímica."
+      "text": "Es la B, la IGF uno. El caso tiene todo: cambios acrales, apnea del sueño, hipertensión y diabetes. La trampa es la A, la hormona de crecimiento basal, que suena lógica pero es pulsátil y un valor aislado no sirve. Y la resonancia es tentadora, pero va después de confirmar con la sobrecarga de glucosa: primero bioquímica, después imagen."
     },
     {
       "file": "s10_g00",
-      "text": "La última, del EUNACOM de diciembre de dos mil veinticinco. Paciente de treinta años con dos meses de astenia, malestar y sudoración nocturna. Frecuencia cardíaca de ochenta y nueve, presión de ciento treinta sobre noventa, prognatismo y dedos de las manos gruesos."
+      "text": "Ahora las preguntas reales. Esta es del EUNACOM de julio de dos mil quince. Un paciente con astenia, mandíbula que ha crecido con los dientes separados, y aumento de los pómulos, la nariz y las manos. También ha subido su número de zapatos."
     },
     {
       "file": "s10_g01",
-      "text": "¿Qué hormona estará elevada con mayor probabilidad?"
+      "text": "¿Qué examen es más adecuado para continuar el estudio?"
     },
     {
       "file": "s10_g02",
-      "text": "Las alternativas: tiroxina, IGF uno, FSH, TSH, o ACTH. Piénsalo."
+      "text": "Las opciones: niveles de hormona de crecimiento, radiografías de pies y arcada dentaria, radiografía de manos, niveles de IGF uno, o resonancia de hipófisis. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, IGF uno. Fíjate cómo el enunciado intenta despistarte: la sudoración y la frecuencia cardíaca algo alta hacen pensar en hipertiroidismo, y por eso aparece la tiroxina. Pero el prognatismo y los dedos gruesos son acromegalia, y la hormona que sube de forma estable es la IGF uno. La sudoración también es parte del cuadro."
+      "text": "Es la D, IGF uno. Somatomedina C e IGF uno son lo mismo, así que no te confundas si aparece con otro nombre. La A es el distractor clásico: la hormona de crecimiento es errática y no se pide. Las radiografías no aportan, y la resonancia va después de confirmar la bioquímica."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Nunca pidas hormona de crecimiento basal: el tamizaje es la IGF uno para edad y sexo."
+      "text": "La última, del EUNACOM de diciembre de dos mil veinticinco. Paciente de treinta años con dos meses de astenia, malestar y sudoración nocturna. Frecuencia cardíaca de ochenta y nueve, presión de ciento treinta sobre noventa, prognatismo y dedos de las manos gruesos."
     },
     {
       "file": "s11_g01",
-      "text": "Se confirma cuando la hormona de crecimiento no baja de uno coma cero tras setenta y cinco gramos de glucosa. Recién ahí, resonancia de silla turca."
+      "text": "¿Qué hormona estará elevada con mayor probabilidad?"
     },
     {
       "file": "s11_g02",
-      "text": "La acromegalia se opera por vía transesfenoidal; los análogos de somatostatina quedan si persiste o no se puede operar."
+      "text": "Las alternativas: tiroxina, IGF uno, FSH, TSH, o ACTH. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la B, IGF uno. Fíjate cómo el enunciado intenta despistarte: la sudoración y la frecuencia cardíaca algo alta hacen pensar en hipertiroidismo, y por eso aparece la tiroxina. Pero el prognatismo y los dedos gruesos son acromegalia, y la hormona que sube de forma estable es la IGF uno. La sudoración también es parte del cuadro."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Nunca pidas hormona de crecimiento basal: el tamizaje es la IGF uno para edad y sexo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Se confirma cuando la hormona de crecimiento no baja de uno coma cero tras setenta y cinco gramos de glucosa. Recién ahí, resonancia de silla turca."
+    },
+    {
+      "file": "s12_g02",
+      "text": "La acromegalia se opera por vía transesfenoidal; los análogos de somatostatina quedan si persiste o no se puede operar."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y en todo paciente, colonoscopía y ecocardiograma. En la próxima clase pasamos del exceso al déficit: el hipopituitarismo. Si te llevas una sola idea de hoy: se sospecha con IGF uno, se confirma con glucosa que no frena la hormona, y se trata con cirugía. Nos vemos en la próxima clase."
     }
   ]

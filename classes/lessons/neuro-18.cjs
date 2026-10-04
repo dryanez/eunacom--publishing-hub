@@ -224,6 +224,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Esclerosis múltiple',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-18/01_placas-em-rm__cto-radiologia_p73.jpg', label: 'Placas en la RM', credit: 'Manual CTO Radiología 14.ª ed., p. 73' },
+        { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_1__cto-radiologia_p74.jpg', label: 'Neuritis óptica', credit: 'Manual CTO Radiología 14.ª ed., p. 74' },
+      ],
+      steps: [
+        { note: 'Lesiones periventriculares',
+          say: 'En la resonancia aparecen placas blancas alrededor de los ventrículos, separadas en el espacio y en el tiempo.' },
+        { note: 'Nervio óptico inflamado',
+          say: 'Y la neuritis óptica es un debut frecuente: pérdida de visión dolorosa en un adulto joven.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -121,6 +121,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Desprendimiento de retina',
+      images: [
+        { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg', label: 'Fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 65' },
+        { src: 'biblioteca/12_oftalmologia/oftal-10/02_ecografia-dr__cto-oftalmo_p66.jpg', label: 'Ecografía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 66' },
+      ],
+      steps: [
+        { note: 'Retina desprendida',
+          say: 'La retina desprendida se ve gris y ondulada.' },
+        { note: 'Membrana flotante',
+          say: 'Y en la ecografía, una membrana que flota dentro del ojo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -186,6 +186,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Hemoglobinopatías',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-09/01_drepanocitos_1__amir-hemato_p38.jpg', label: 'Drepanocitos', credit: 'Manual AMIR Hematología, p. 38' },
+        { src: 'biblioteca/06_hematologia/hem-09/03_craneo-en-cepillo-talasemia__cto-hemato_p32.jpg', label: 'Cráneo en cepillo', credit: 'Manual CTO Hematología 14.ª ed., p. 32' },
+      ],
+      steps: [
+        { note: 'Glóbulos en forma de hoz',
+          say: 'Estos glóbulos en forma de hoz son drepanocitos, de la anemia falciforme.' },
+        { note: 'Médula expandida en la talasemia',
+          say: 'Y este cráneo en cepillo es de la talasemia mayor: la médula se expande para fabricar más glóbulos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol que usarás frente a una microcitosis.',
     },

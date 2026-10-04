@@ -283,6 +283,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Accidente cerebrovascular isquémico',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_1__cto-radiologia_p62.jpg', label: 'Signos precoces', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
+        { src: 'biblioteca/09_neurologia/neuro-01/02_infartos-establecidos-por-territorio-tc__cto-radiologia_p63.jpg', label: 'Infarto establecido', credit: 'Manual CTO Radiología 14.ª ed., p. 63' },
+        { src: 'biblioteca/09_neurologia/neuro-01/03_angio-tc-oclusion-acm__cto-radiologia_p65.jpg', label: 'AngioTC', credit: 'Manual CTO Radiología 14.ª ed., p. 65' },
+      ],
+      steps: [
+        { note: 'Arteria cerebral media hiperdensa',
+          say: 'La primera tomografía suele ser casi normal. Un signo precoz es la arteria cerebral media blanca: es el trombo dentro de ella.' },
+        { note: 'Zona oscura en un territorio',
+          say: 'Días después, el infarto se ve oscuro, en el territorio de la arteria ocluida.' },
+        { note: 'Oclusión de gran vaso',
+          say: 'Y la angiotomografía muestra la oclusión de un gran vaso: ese paciente es candidato a trombectomía.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en urgencias y en el examen.',
     },

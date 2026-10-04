@@ -2,7 +2,7 @@
   "id": "derma-03",
   "title": "Dermatologia 16.3: Rosácea: Subtipos Clínicos y Manejo Médico",
   "specialty": "Dermatología",
-  "chars": 7673,
+  "chars": 7810,
   "segments": [
     {
       "file": "s00_g00",
@@ -86,102 +86,110 @@
     },
     {
       "file": "s05_g00",
-      "text": "Ahora armemos el árbol completo de la rosácea, del diagnóstico al tratamiento. Ante un eritema centrofacial persistente, lo primero, antes de cualquier otra cosa, es buscar comedones."
+      "text": "La rosácea da enrojecimiento y pápulas en el centro de la cara, sin comedones."
     },
     {
       "file": "s05_g01",
-      "text": "Si hay comedones, es acné, no rosácea, y se maneja como tal. Si no hay comedones, seguimos por rosácea."
-    },
-    {
-      "file": "s05_g02",
-      "text": "Con comedones el diagnóstico es acné vulgar, y se trata con el escalonamiento que ya vimos, no con el de rosácea."
-    },
-    {
-      "file": "s05_g03",
-      "text": "Sin comedones, es rosácea. Ahora hay que ver qué subtipo domina el cuadro."
-    },
-    {
-      "file": "s05_g04",
-      "text": "Eritema fijo, flushing y telangiectasias: subtipo eritematotelangiectásico. Brimonidina tópica o láser vascular, y fotoprotección siempre."
-    },
-    {
-      "file": "s05_g05",
-      "text": "Pápulas y pústulas sobre el eritema, sin comedones: metronidazol o ivermectina tópica; doxiciclina oral si es moderado a severo."
-    },
-    {
-      "file": "s05_g06",
-      "text": "Hipertrofia sebácea y fibrosis nasal, el rinofima: no responde a fármacos, se trata con cirugía o láser."
-    },
-    {
-      "file": "s05_g07",
-      "text": "Blefaritis, ardor y chalazión recurrente: higiene de párpados, lágrimas artificiales y doxiciclina oral en dosis bajas. Y algo válido para los cuatro subtipos: nunca corticoide tópico, porque mejora al inicio por vasoconstricción y produce un rebote destructivo al suspenderlo."
+      "text": "Y el rinofima es la nariz engrosada de la rosácea avanzada."
     },
     {
       "file": "s06_g00",
-      "text": "Repasemos las trampas. Ante un eritema facial con pápulas, lo primero es buscar comedones. El error es diagnosticar acné del adulto sin haber revisado ese único dato."
+      "text": "Ahora armemos el árbol completo de la rosácea, del diagnóstico al tratamiento. Ante un eritema centrofacial persistente, lo primero, antes de cualquier otra cosa, es buscar comedones."
     },
     {
       "file": "s06_g01",
-      "text": "En la rosácea pápulo-pustulosa leve, metronidazol o ivermectina tópica. El error más grave es el corticoide tópico, que parece razonable y termina empeorando todo."
+      "text": "Si hay comedones, es acné, no rosácea, y se maneja como tal. Si no hay comedones, seguimos por rosácea."
     },
     {
       "file": "s06_g02",
-      "text": "El rinofima ya establecido, con fibrosis, se trata con cirugía o láser, no con más crema: el tejido fibroso no responde a fármacos."
+      "text": "Con comedones el diagnóstico es acné vulgar, y se trata con el escalonamiento que ya vimos, no con el de rosácea."
     },
     {
       "file": "s06_g03",
-      "text": "Y si un paciente con antecedente de rosácea tiene molestias oculares, piensa en la rosácea ocular: higiene de párpados y doxiciclina oral, no solo un colirio para conjuntivitis."
+      "text": "Sin comedones, es rosácea. Ahora hay que ver qué subtipo domina el cuadro."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Eritema fijo, flushing y telangiectasias: subtipo eritematotelangiectásico. Brimonidina tópica o láser vascular, y fotoprotección siempre."
+    },
+    {
+      "file": "s06_g05",
+      "text": "Pápulas y pústulas sobre el eritema, sin comedones: metronidazol o ivermectina tópica; doxiciclina oral si es moderado a severo."
+    },
+    {
+      "file": "s06_g06",
+      "text": "Hipertrofia sebácea y fibrosis nasal, el rinofima: no responde a fármacos, se trata con cirugía o láser."
+    },
+    {
+      "file": "s06_g07",
+      "text": "Blefaritis, ardor y chalazión recurrente: higiene de párpados, lágrimas artificiales y doxiciclina oral en dosis bajas. Y algo válido para los cuatro subtipos: nunca corticoide tópico, porque mejora al inicio por vasoconstricción y produce un rebote destructivo al suspenderlo."
     },
     {
       "file": "s07_g00",
-      "text": "Vamos al caso. Mujer de treinta y ocho años, de piel clara, con enrojecimiento persistente en mejillas y nariz desde hace un año, que empeora con el café caliente, el vino tinto o el sol. En el último mes aparecieron pápulas y pústulas pequeñas en las mejillas y el dorso nasal, con telangiectasias visibles. No hay comedones en ninguna parte de la cara."
+      "text": "Repasemos las trampas. Ante un eritema facial con pápulas, lo primero es buscar comedones. El error es diagnosticar acné del adulto sin haber revisado ese único dato."
     },
     {
       "file": "s07_g01",
-      "text": "¿Cuál es la conducta terapéutica más adecuada?"
+      "text": "En la rosácea pápulo-pustulosa leve, metronidazol o ivermectina tópica. El error más grave es el corticoide tópico, que parece razonable y termina empeorando todo."
     },
     {
       "file": "s07_g02",
-      "text": "Las opciones: clobetasol tópico, adapaleno tópico solo, fotoprotección con metronidazol tópico, doxiciclina indefinida, o isotretinoína. Piénsalo."
+      "text": "El rinofima ya establecido, con fibrosis, se trata con cirugía o láser, no con más crema: el tejido fibroso no responde a fármacos."
     },
     {
       "file": "s07_g03",
-      "text": "Es la C. Sin comedones, con eritema que empeora por calor, alcohol y sol, es una rosácea pápulo-pustulosa, y la primera línea es exactamente eso: fotoprotección, evitar los gatillantes, y metronidazol o ivermectina tópica. El clobetasol es la trampa grave que ya vimos. El adapaleno y la isotretinoína son para acné, y aquí no hay comedones. Y la doxiciclina indefinida no corresponde: se usa por semanas, en formas más severas."
+      "text": "Y si un paciente con antecedente de rosácea tiene molestias oculares, piensa en la rosácea ocular: higiene de párpados y doxiciclina oral, no solo un colirio para conjuntivitis."
     },
     {
       "file": "s08_g00",
-      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con eritema, pápulas y pústulas en ambas mejillas, de varios meses de evolución, que aumentan con la exposición al sol."
+      "text": "Vamos al caso. Mujer de treinta y ocho años, de piel clara, con enrojecimiento persistente en mejillas y nariz desde hace un año, que empeora con el café caliente, el vino tinto o el sol. En el último mes aparecieron pápulas y pústulas pequeñas en las mejillas y el dorso nasal, con telangiectasias visibles. No hay comedones en ninguna parte de la cara."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta terapéutica más adecuada?"
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: acné del adulto, rosácea, dermatomiositis, erupción polimorfa solar, o lupus cutáneo crónico. Piénsalo."
+      "text": "Las opciones: clobetasol tópico, adapaleno tópico solo, fotoprotección con metronidazol tópico, doxiciclina indefinida, o isotretinoína. Piénsalo."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B, rosácea. El enunciado no menciona comedones en ningún momento, y el empeoramiento claro con el sol calza con lo que vimos de los desencadenantes. El acné del adulto es la trampa más natural, pero exige comedones que aquí no aparecen. El lupus cutáneo crónico se ve como placas de curso lento, no como pústulas múltiples."
+      "text": "Es la C. Sin comedones, con eritema que empeora por calor, alcohol y sol, es una rosácea pápulo-pustulosa, y la primera línea es exactamente eso: fotoprotección, evitar los gatillantes, y metronidazol o ivermectina tópica. El clobetasol es la trampa grave que ya vimos. El adapaleno y la isotretinoína son para acné, y aquí no hay comedones. Y la doxiciclina indefinida no corresponde: se usa por semanas, en formas más severas."
     },
     {
       "file": "s09_g00",
-      "text": "Cerremos con las reglas de oro. La rosácea nunca tiene comedones: si los hay, es acné, no rosácea."
+      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años, con eritema, pápulas y pústulas en ambas mejillas, de varios meses de evolución, que aumentan con la exposición al sol."
     },
     {
       "file": "s09_g01",
-      "text": "El eritema y el flushing se tratan con brimonidina tópica o láser vascular. La forma pápulo-pustulosa, con metronidazol o ivermectina tópica."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s09_g02",
-      "text": "El rinofima ya establecido se trata con cirugía o láser, porque el tejido fibroso no responde a cremas ni pastillas."
+      "text": "Las opciones: acné del adulto, rosácea, dermatomiositis, erupción polimorfa solar, o lupus cutáneo crónico. Piénsalo."
     },
     {
       "file": "s09_g03",
+      "text": "Es la B, rosácea. El enunciado no menciona comedones en ningún momento, y el empeoramiento claro con el sol calza con lo que vimos de los desencadenantes. El acné del adulto es la trampa más natural, pero exige comedones que aquí no aparecen. El lupus cutáneo crónico se ve como placas de curso lento, no como pústulas múltiples."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con las reglas de oro. La rosácea nunca tiene comedones: si los hay, es acné, no rosácea."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El eritema y el flushing se tratan con brimonidina tópica o láser vascular. La forma pápulo-pustulosa, con metronidazol o ivermectina tópica."
+    },
+    {
+      "file": "s10_g02",
+      "text": "El rinofima ya establecido se trata con cirugía o láser, porque el tejido fibroso no responde a cremas ni pastillas."
+    },
+    {
+      "file": "s10_g03",
       "text": "Y jamás uses corticoide tópico en rosácea: mejora al principio, por vasoconstricción, y destruye después, con rebote y atrofia de la piel. Es un error que se ve incluso en la práctica real, no solo en el examen."
     },
     {
-      "file": "s09_g04",
+      "file": "s10_g04",
       "text": "Si te llevas una sola idea de hoy: sin comedones, piensa en rosácea, evita el corticoide, y no olvides que evitar los desencadenantes vale para los cuatro subtipos. Nos vemos en la próxima clase."
     }
   ]

@@ -171,6 +171,24 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Parálisis facial',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell__amir-orl_p29.jpg', label: 'Parálisis de Bell', credit: 'Manual AMIR Otorrinolaringología, p. 29' },
+        { src: 'biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg', label: 'Central vs periférica', credit: 'Manual CTO Neurología 14.ª ed., p. 14' },
+      ],
+      steps: [
+        { note: 'Toda la hemicara, incluida la frente',
+          say: 'En la parálisis periférica se paraliza toda la hemicara, incluida la frente.' },
+        { note: 'La frente decide',
+          say: 'Y en la central la frente se respeta, porque recibe inervación de ambos hemisferios.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

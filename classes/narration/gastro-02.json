@@ -2,7 +2,7 @@
   "id": "gastro-02",
   "title": "Gastroenterologia 1.2: Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
   "specialty": "Gastroenterología",
-  "chars": 9087,
+  "chars": 9512,
   "segments": [
     {
       "file": "s00_g00",
@@ -130,106 +130,118 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora pongamos todo en un solo árbol de decisión. Paciente con epigastralgia urente que alivia con la comida. Ojo: la misma clínica la dan la úlcera, el cáncer gástrico y la dispepsia funcional."
+      "text": "Esta es una úlcera gástrica: un cráter de bordes regulares con fondo blanquecino de fibrina. Recuerda que toda úlcera gástrica se biopsia, porque puede ser un cáncer."
     },
     {
       "file": "s06_g01",
-      "text": "¿Tiene signos de alarma o cuarenta años o más? Esa es la puerta de entrada a la endoscopía."
+      "text": "Ahora una úlcera duodenal con una mancha pigmentada en su base. Es un estigma de sangrado reciente, de bajo riesgo de resangrar."
     },
     {
       "file": "s06_g02",
-      "text": "Se solicita endoscopía digestiva alta con biopsias: confirma la úlcera y descarta un cáncer gástrico. En la biopsia además buscamos Helicobacter pylori con test de ureasa."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Ahora la pregunta clave: ¿la úlcera es duodenal o gástrica? De eso depende cómo erradicamos y cómo controlamos."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Toda úlcera duodenal se erradica, aunque el test salga negativo, porque los falsos negativos son frecuentes. Primera línea: IBP más amoxicilina y claritromicina por catorce días. Control a las cuatro semanas con antígeno fecal o test del aliento."
-    },
-    {
-      "file": "s06_g05",
-      "text": "En la úlcera gástrica se erradica si el Helicobacter es positivo, y siempre se controla con una nueva endoscopía para verificar cicatrización y descartar cáncer."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Sin alarma y bajo los cuarenta, buscamos las dos causas: Helicobacter pylori y los antiinflamatorios. Recuerda que la dispepsia funcional es un diagnóstico de exclusión que requiere una endoscopía normal."
+      "text": "Y aquí la flecha muestra un vaso visible en el fondo de la úlcera. Ese hallazgo es de alto riesgo: se trata en la misma endoscopía."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos en una tabla. Úlcera duodenal, cualquiera: se erradica siempre, aunque el test sea negativo, y se controla con antígeno fecal o test del aliento a las cuatro semanas."
+      "text": "Ahora pongamos todo en un solo árbol de decisión. Paciente con epigastralgia urente que alivia con la comida. Ojo: la misma clínica la dan la úlcera, el cáncer gástrico y la dispepsia funcional."
     },
     {
       "file": "s07_g01",
-      "text": "Úlcera gástrica con Helicobacter positivo: se erradica, y se controla con endoscopía, para ver la cicatrización y volver a biopsiar."
+      "text": "¿Tiene signos de alarma o cuarenta años o más? Esa es la puerta de entrada a la endoscopía."
     },
     {
       "file": "s07_g02",
-      "text": "Úlcera gástrica con Helicobacter negativo: no hay nada que erradicar, pero la endoscopía de control se mantiene. En la gástrica, lo que nunca cambia es el endoscopio."
+      "text": "Se solicita endoscopía digestiva alta con biopsias: confirma la úlcera y descarta un cáncer gástrico. En la biopsia además buscamos Helicobacter pylori con test de ureasa."
     },
     {
       "file": "s07_g03",
-      "text": "Reflujo con Helicobacter positivo: no se erradica."
+      "text": "Ahora la pregunta clave: ¿la úlcera es duodenal o gástrica? De eso depende cómo erradicamos y cómo controlamos."
     },
     {
       "file": "s07_g04",
-      "text": "Y el linfoma MALT: se erradica, porque ese es el tratamiento, y se controla con endoscopías seriadas."
+      "text": "Toda úlcera duodenal se erradica, aunque el test salga negativo, porque los falsos negativos son frecuentes. Primera línea: IBP más amoxicilina y claritromicina por catorce días. Control a las cuatro semanas con antígeno fecal o test del aliento."
+    },
+    {
+      "file": "s07_g05",
+      "text": "En la úlcera gástrica se erradica si el Helicobacter es positivo, y siempre se controla con una nueva endoscopía para verificar cicatrización y descartar cáncer."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Sin alarma y bajo los cuarenta, buscamos las dos causas: Helicobacter pylori y los antiinflamatorios. Recuerda que la dispepsia funcional es un diagnóstico de exclusión que requiere una endoscopía normal."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso. Hombre de veintisiete años, sin antecedentes y sin uso de antiinflamatorios, con tres meses de dolor epigástrico urente que aumenta con el ayuno y calma al comer. La endoscopía muestra una úlcera duodenal activa de un centímetro, y el test de ureasa sale negativo."
+      "text": "Repasemos en una tabla. Úlcera duodenal, cualquiera: se erradica siempre, aunque el test sea negativo, y se controla con antígeno fecal o test del aliento a las cuatro semanas."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Úlcera gástrica con Helicobacter positivo: se erradica, y se controla con endoscopía, para ver la cicatrización y volver a biopsiar."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: erradicar el Helicobacter por catorce días, dar solo omeprazol por ocho semanas, pedir un TAC de abdomen, repetir la endoscopía en cuatro semanas, o medir la gastrina. Piénsalo."
+      "text": "Úlcera gástrica con Helicobacter negativo: no hay nada que erradicar, pero la endoscopía de control se mantiene. En la gástrica, lo que nunca cambia es el endoscopio."
     },
     {
       "file": "s08_g03",
-      "text": "Es la A. Este caso está hecho para que caigas en la trampa del test negativo. Úlcera duodenal, sin antiinflamatorios: es Helicobacter hasta que se demuestre lo contrario, y se erradica siempre. Si solo das omeprazol, la úlcera cicatriza, pero vuelve en cerca del noventa por ciento de los casos. Y repetir la endoscopía o pedir un TAC solo retrasa el tratamiento."
+      "text": "Reflujo con Helicobacter positivo: no se erradica."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y el linfoma MALT: se erradica, porque ese es el tratamiento, y se controla con endoscopías seriadas."
     },
     {
       "file": "s09_g00",
-      "text": "Y ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Hombre de cuarenta y dos años con cinco días de dolor epigástrico intenso y fluctuante, con náuseas, que empeora con el ayuno y después de tomar antiinflamatorios. Signos vitales normales, dolor a la palpación epigástrica, sin signos peritoneales."
+      "text": "Vamos al caso. Hombre de veintisiete años, sin antecedentes y sin uso de antiinflamatorios, con tres meses de dolor epigástrico urente que aumenta con el ayuno y calma al comer. La endoscopía muestra una úlcera duodenal activa de un centímetro, y el test de ureasa sale negativo."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: gastritis erosiva, úlcera péptica, reflujo gastroesofágico, pancreatitis aguda leve, o colecistitis aguda."
+      "text": "Las alternativas: erradicar el Helicobacter por catorce días, dar solo omeprazol por ocho semanas, pedir un TAC de abdomen, repetir la endoscopía en cuatro semanas, o medir la gastrina. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la B, úlcera péptica. Fíjate cómo el enunciado va armando exactamente el mecanismo que vimos: un dolor que empeora en ayunas, y un gatillo claro, los antiinflamatorios. Sin dolor en faja ni signos peritoneales, no es pancreatitis. Sin dolor en el hipocondrio derecho, no es colecistitis. Y el reflujo daría pirosis y regurgitación, no epigastralgia."
+      "text": "Es la A. Este caso está hecho para que caigas en la trampa del test negativo. Úlcera duodenal, sin antiinflamatorios: es Helicobacter hasta que se demuestre lo contrario, y se erradica siempre. Si solo das omeprazol, la úlcera cicatriza, pero vuelve en cerca del noventa por ciento de los casos. Y repetir la endoscopía o pedir un TAC solo retrasa el tratamiento."
     },
     {
       "file": "s10_g00",
-      "text": "Cerremos con las reglas de oro. Signos de alarma, o cuarenta años o más: endoscopía con biopsias."
+      "text": "Y ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Hombre de cuarenta y dos años con cinco días de dolor epigástrico intenso y fluctuante, con náuseas, que empeora con el ayuno y después de tomar antiinflamatorios. Signos vitales normales, dolor a la palpación epigástrica, sin signos peritoneales."
     },
     {
       "file": "s10_g01",
-      "text": "La dispepsia funcional solo existe con una endoscopía normal."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s10_g02",
-      "text": "La úlcera duodenal se erradica siempre, aunque el test sea negativo."
+      "text": "Las opciones: gastritis erosiva, úlcera péptica, reflujo gastroesofágico, pancreatitis aguda leve, o colecistitis aguda."
     },
     {
       "file": "s10_g03",
+      "text": "La respuesta es la B, úlcera péptica. Fíjate cómo el enunciado va armando exactamente el mecanismo que vimos: un dolor que empeora en ayunas, y un gatillo claro, los antiinflamatorios. Sin dolor en faja ni signos peritoneales, no es pancreatitis. Sin dolor en el hipocondrio derecho, no es colecistitis. Y el reflujo daría pirosis y regurgitación, no epigastralgia."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Signos de alarma, o cuarenta años o más: endoscopía con biopsias."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La dispepsia funcional solo existe con una endoscopía normal."
+    },
+    {
+      "file": "s11_g02",
+      "text": "La úlcera duodenal se erradica siempre, aunque el test sea negativo."
+    },
+    {
+      "file": "s11_g03",
       "text": "La gástrica se biopsia y se controla con endoscopía, siempre."
     },
     {
-      "file": "s10_g04",
+      "file": "s11_g04",
       "text": "La triple terapia dura catorce días, y si falla, cuádruple con bismuto."
     },
     {
-      "file": "s10_g05",
+      "file": "s11_g05",
       "text": "Y en la perforación, radiografía y cirugía, nunca endoscopía. Si te llevas una sola idea de hoy: la duodenal se erradica siempre, y la gástrica se biopsia siempre. Nos vemos en la próxima clase."
     }
   ]

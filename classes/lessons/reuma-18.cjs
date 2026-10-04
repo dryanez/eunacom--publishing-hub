@@ -137,6 +137,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Artritis psoriásica',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Interfalángicas distales', credit: 'Manual AMIR Reumatología, p. 81' },
+        { src: 'biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg', label: 'Dactilitis', credit: 'Manual AMIR Reumatología, p. 81' },
+      ],
+      steps: [
+        { note: 'Uñas y articulación distal',
+          say: 'La artritis psoriásica afecta las interfalángicas distales, junto a las uñas.' },
+        { note: 'Dedo en salchicha',
+          say: 'Y la dactilitis: un dedo entero hinchado, como una salchicha.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

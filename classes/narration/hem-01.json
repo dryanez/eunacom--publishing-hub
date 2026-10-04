@@ -2,7 +2,7 @@
   "id": "hem-01",
   "title": "Hematología 8.1: Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
   "specialty": "Hematología",
-  "chars": 12730,
+  "chars": 12813,
   "segments": [
     {
       "file": "s00_g00",
@@ -102,107 +102,95 @@
     },
     {
       "file": "s06_g00",
-      "text": "Juntemos las dos preguntas en un solo árbol, en el orden en que lo vas a razonar frente al hemograma. Partimos con una hemoglobina baja, confirmada con los cortes de la Organización Mundial de la Salud. Antes de clasificar, evalúa si el paciente está estable y descarta un sangrado agudo activo."
-    },
-    {
-      "file": "s06_g01",
-      "text": "La primera bifurcación es la médula: calcula el índice reticulocitario corregido. ¿Está sobre o bajo dos por ciento?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "Sobre dos por ciento, la médula responde y el problema está en la periferia: hemólisis o hemorragia aguda reciente."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Pide LDH, bilirrubina y frotis. Los esquistocitos orientan a microangiopatía, y los esferocitos a hemólisis autoinmune."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Bajo dos por ciento, la médula no responde. Ahora el VCM te dice dónde buscar."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Si es microcítica, pide el perfil de hierro con ferritina. Ferropenia o talasemia; y en el adulto, la ferropenia obliga a buscar sangrado digestivo."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Si es normocítica, pide función renal y busca inflamación crónica, sin olvidar el mieloma y la aplasia."
-    },
-    {
-      "file": "s06_g07",
-      "text": "Si es macrocítica, mide vitamina B doce y folato, y busca alcohol, daño hepático e hipotiroidismo."
+      "text": "El frotis muestra la forma de los glóbulos rojos, y cada forma orienta a una causa."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos con la tabla completa. Microcítica y arregenerativa: ferropenia, rasgo talasémico o anemia sideroblástica. La pista para separar la ferropenia es el RDW alto."
+      "text": "Juntemos las dos preguntas en un solo árbol, en el orden en que lo vas a razonar frente al hemograma. Partimos con una hemoglobina baja, confirmada con los cortes de la Organización Mundial de la Salud. Antes de clasificar, evalúa si el paciente está estable y descarta un sangrado agudo activo."
     },
     {
       "file": "s07_g01",
-      "text": "Normocítica y arregenerativa: enfermedad crónica o inflamatoria, enfermedad renal crónica, mieloma múltiple o aplasia. Si en el frotis ves glóbulos apilados como monedas, el rouleaux, piensa en mieloma. Y en la inflamación la ferritina está alta, que es justo lo que vemos en la próxima clase."
+      "text": "La primera bifurcación es la médula: calcula el índice reticulocitario corregido. ¿Está sobre o bajo dos por ciento?"
     },
     {
       "file": "s07_g02",
-      "text": "Normocítica y regenerativa: hemólisis aguda o hemorragia aguda reciente. El frotis orienta: esquistocitos, que son glóbulos rotos, en la microangiopatía, y esferocitos en la anemia hemolítica autoinmune."
+      "text": "Sobre dos por ciento, la médula responde y el problema está en la periferia: hemólisis o hemorragia aguda reciente."
     },
     {
       "file": "s07_g03",
-      "text": "Macrocítica y arregenerativa: déficit de B doce o folato, alcohol o hipotiroidismo. Si el frotis muestra neutrófilos hipersegmentados y macroovalocitos, es megaloblástica."
+      "text": "Pide LDH, bilirrubina y frotis. Los esquistocitos orientan a microangiopatía, y los esferocitos a hemólisis autoinmune."
     },
     {
       "file": "s07_g04",
-      "text": "Y macrocítica pero regenerativa: la crisis hemolítica intensa, donde los reticulocitos grandes suben el VCM. El error es tratarla como un déficit de B doce."
+      "text": "Bajo dos por ciento, la médula no responde. Ahora el VCM te dice dónde buscar."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Si es microcítica, pide el perfil de hierro con ferritina. Ferropenia o talasemia; y en el adulto, la ferropenia obliga a buscar sangrado digestivo."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Si es normocítica, pide función renal y busca inflamación crónica, sin olvidar el mieloma y la aplasia."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Si es macrocítica, mide vitamina B doce y folato, y busca alcohol, daño hepático e hipotiroidismo."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Hombre de setenta y dos años, autovalente, consulta en el CESFAM por astenia y palidez progresiva de tres meses. Niega melena o hematuria. Hemoglobina ocho coma ocho, hematocrito veintisiete, VCM setenta y cuatro, HCM veinticuatro, plaquetas cuatrocientas veinte mil y reticulocitos cero coma seis por ciento. Tiene un soplo sistólico suave, sin taquicardia ni insuficiencia cardíaca."
+      "text": "Repasemos con la tabla completa. Microcítica y arregenerativa: ferropenia, rasgo talasémico o anemia sideroblástica. La pista para separar la ferropenia es el RDW alto."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la interpretación y la conducta más adecuada?"
+      "text": "Normocítica y arregenerativa: enfermedad crónica o inflamatoria, enfermedad renal crónica, mieloma múltiple o aplasia. Si en el frotis ves glóbulos apilados como monedas, el rouleaux, piensa en mieloma. Y en la inflamación la ferritina está alta, que es justo lo que vemos en la próxima clase."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: anemia regenerativa con estudio de hemólisis, anemia microcítica arregenerativa con perfil de hierro y endoscopías, sulfato ferroso y control en tres meses, biopsia de médula, o transfusión. Piénsalo."
+      "text": "Normocítica y regenerativa: hemólisis aguda o hemorragia aguda reciente. El frotis orienta: esquistocitos, que son glóbulos rotos, en la microangiopatía, y esferocitos en la anemia hemolítica autoinmune."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Aplica las dos preguntas. El VCM de setenta y cuatro dice microcítica. Y si corriges los reticulocitos, cero coma seis por veintisiete cuarenta y cincoavos, dividido por uno coma cinco, da cerca de cero coma dos: arregenerativa. Las plaquetas altas son la trombocitosis reactiva de la ferropenia. En un hombre mayor, eso es sangrado digestivo oculto hasta demostrar lo contrario. El distractor tentador es dar hierro y controlar: trata el número y deja pasar un cáncer."
+      "text": "Macrocítica y arregenerativa: déficit de B doce o folato, alcohol o hipotiroidismo. Si el frotis muestra neutrófilos hipersegmentados y macroovalocitos, es megaloblástica."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y macrocítica pero regenerativa: la crisis hemolítica intensa, donde los reticulocitos grandes suben el VCM. El error es tratarla como un déficit de B doce."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de cuarenta y seis años, sin antecedentes, con dos semanas de disnea y palidez, coluria e ictericia. Al examen, mucosas pálidas y esplenomegalia."
+      "text": "Vamos con un caso. Hombre de setenta y dos años, autovalente, consulta en el CESFAM por astenia y palidez progresiva de tres meses. Niega melena o hematuria. Hemoglobina ocho coma ocho, hematocrito veintisiete, VCM setenta y cuatro, HCM veinticuatro, plaquetas cuatrocientas veinte mil y reticulocitos cero coma seis por ciento. Tiene un soplo sistólico suave, sin taquicardia ni insuficiencia cardíaca."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
+      "text": "¿Cuál es la interpretación y la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: haptoglobina, LDH, Coombs, hemograma con reticulocitos, o bilirrubina total e indirecta. Piénsalo."
+      "text": "Las opciones: anemia regenerativa con estudio de hemólisis, anemia microcítica arregenerativa con perfil de hierro y endoscopías, sulfato ferroso y control en tres meses, biopsia de médula, o transfusión. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "La respuesta es la D, hemograma con reticulocitos. Palidez, ictericia y bazo grande te hacen pensar en hemólisis, pero el primer paso sigue siendo el mismo de toda anemia: confirmarla y preguntarle a la médula si responde. Si los reticulocitos están altos, es regenerativa y la hemólisis se confirma. El Coombs es el distractor tentador, pero viene después, cuando ya sabes que hay hemólisis y buscas si es autoinmune."
+      "text": "Es la B. Aplica las dos preguntas. El VCM de setenta y cuatro dice microcítica. Y si corriges los reticulocitos, cero coma seis por veintisiete cuarenta y cincoavos, dividido por uno coma cinco, da cerca de cero coma dos: arregenerativa. Las plaquetas altas son la trombocitosis reactiva de la ferropenia. En un hombre mayor, eso es sangrado digestivo oculto hasta demostrar lo contrario. El distractor tentador es dar hierro y controlar: trata el número y deja pasar un cáncer."
     },
     {
       "file": "s10_g00",
-      "text": "La segunda es del mismo examen, julio de dos mil trece. Mujer de veintinueve años con disnea progresiva y fatigabilidad, mucosas pálidas. Hemoglobina ocho coma tres, hematocrito veintiséis, VCM ciento diez, reticulocitos cero coma tres por ciento, y leucocitos y plaquetas normales."
+      "text": "Ahora preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de cuarenta y seis años, sin antecedentes, con dos semanas de disnea y palidez, coluria e ictericia. Al examen, mucosas pálidas y esplenomegalia."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el examen de elección para el diagnóstico etiológico?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: anemia falciforme, anemia perniciosa, anemia ferropénica, anemia por enfermedades crónicas, o déficit de vitamina B seis. Piénsalo."
+      "text": "Las opciones: haptoglobina, LDH, Coombs, hemograma con reticulocitos, o bilirrubina total e indirecta. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la B, anemia perniciosa. Aplica las dos preguntas: VCM de ciento diez es macrocítica, y reticulocitos de cero coma tres es arregenerativa. Macrocítica arregenerativa es falla del ADN, y la causa clásica de déficit de B doce es la anemia perniciosa, que vemos en detalle más adelante. La ferropénica cae por el tamaño: es microcítica. Y la de enfermedades crónicas suele ser normocítica."
+      "text": "La respuesta es la D, hemograma con reticulocitos. Palidez, ictericia y bazo grande te hacen pensar en hemólisis, pero el primer paso sigue siendo el mismo de toda anemia: confirmarla y preguntarle a la médula si responde. Si los reticulocitos están altos, es regenerativa y la hemólisis se confirma. El Coombs es el distractor tentador, pero viene después, cuando ya sabes que hay hemólisis y buscas si es autoinmune."
     },
     {
       "file": "s11_g00",
-      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticinco. Hombre de veintinueve años con ictericia, disnea y gran compromiso del estado general. Hematocrito doce, hemoglobina cuatro coma uno, VCM ciento tres, y microesferocitos en el frotis. La bilirrubina total es cuatro coma uno con la directa en cero coma cinco, y la LDH está en novecientos sesenta."
+      "text": "La segunda es del mismo examen, julio de dos mil trece. Mujer de veintinueve años con disnea progresiva y fatigabilidad, mucosas pálidas. Hemoglobina ocho coma tres, hematocrito veintiséis, VCM ciento diez, reticulocitos cero coma tres por ciento, y leucocitos y plaquetas normales."
     },
     {
       "file": "s11_g01",
@@ -210,30 +198,46 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo."
+      "text": "Las opciones: anemia falciforme, anemia perniciosa, anemia ferropénica, anemia por enfermedades crónicas, o déficit de vitamina B seis. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, hemólisis. La bilirrubina es casi toda indirecta, la LDH está alta y hay microesferocitos: los glóbulos se están destruyendo. Y aquí está la trampa que vimos: el VCM de ciento tres empuja a marcar déficit de B doce. Pero ese VCM alto lo ponen los reticulocitos, que son grandes. Una anemia macrocítica con signos de hemólisis es una crisis hemolítica hasta demostrar lo contrario."
+      "text": "Es la B, anemia perniciosa. Aplica las dos preguntas: VCM de ciento diez es macrocítica, y reticulocitos de cero coma tres es arregenerativa. Macrocítica arregenerativa es falla del ADN, y la causa clásica de déficit de B doce es la anemia perniciosa, que vemos en detalle más adelante. La ferropénica cae por el tamaño: es microcítica. Y la de enfermedades crónicas suele ser normocítica."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. Anemia es hemoglobina bajo trece en el hombre y bajo doce en la mujer no embarazada, y ante cualquier discrepancia manda la hemoglobina, no el hematocrito."
+      "text": "Y la última, del EUNACOM de diciembre de dos mil veinticinco. Hombre de veintinueve años con ictericia, disnea y gran compromiso del estado general. Hematocrito doce, hemoglobina cuatro coma uno, VCM ciento tres, y microesferocitos en el frotis. La bilirrubina total es cuatro coma uno con la directa en cero coma cinco, y la LDH está en novecientos sesenta."
     },
     {
       "file": "s12_g01",
-      "text": "La primera pregunta es el VCM: la microcitosis es hierro o globina, la normocitosis es inflamación o riñón, y la macrocitosis es ADN o membrana."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "La segunda pregunta es el índice reticulocitario corregido. Sobre dos, la médula responde y el problema está afuera: hemólisis o hemorragia aguda. Bajo dos, el problema está en la médula: falta sustrato, está dañada o la frenan."
+      "text": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la C, hemólisis. La bilirrubina es casi toda indirecta, la LDH está alta y hay microesferocitos: los glóbulos se están destruyendo. Y aquí está la trampa que vimos: el VCM de ciento tres empuja a marcar déficit de B doce. Pero ese VCM alto lo ponen los reticulocitos, que son grandes. Una anemia macrocítica con signos de hemólisis es una crisis hemolítica hasta demostrar lo contrario."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Anemia es hemoglobina bajo trece en el hombre y bajo doce en la mujer no embarazada, y ante cualquier discrepancia manda la hemoglobina, no el hematocrito."
+    },
+    {
+      "file": "s13_g01",
+      "text": "La primera pregunta es el VCM: la microcitosis es hierro o globina, la normocitosis es inflamación o riñón, y la macrocitosis es ADN o membrana."
+    },
+    {
+      "file": "s13_g02",
+      "text": "La segunda pregunta es el índice reticulocitario corregido. Sobre dos, la médula responde y el problema está afuera: hemólisis o hemorragia aguda. Bajo dos, el problema está en la médula: falta sustrato, está dañada o la frenan."
+    },
+    {
+      "file": "s13_g03",
       "text": "La hemorragia crónica es arregenerativa porque se agota el hierro, y la hemólisis intensa puede dar un VCM alto por los reticulocitos."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y frente a una microcitosis, el siguiente paso es el perfil de hierro, que es justamente la próxima clase. Si te llevas una sola idea de hoy: todo hemograma se lee con dos preguntas, de qué tamaño es el glóbulo rojo y si la médula está respondiendo. Nos vemos en la próxima clase."
     }
   ]

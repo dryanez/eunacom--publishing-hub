@@ -2,7 +2,7 @@
   "id": "hem-08",
   "title": "Hematología 8.8: Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
   "specialty": "Hematología",
-  "chars": 13336,
+  "chars": 13419,
   "segments": [
     {
       "file": "s00_g00",
@@ -146,99 +146,87 @@
     },
     {
       "file": "s08_g00",
-      "text": "Ahora juntemos las tres en un solo árbol, partiendo desde el Coombs. Paciente con anemia, reticulocitos altos, bilirrubina indirecta y LDH elevadas: hay hemólisis. El primer paso para ordenar la causa es el Coombs directo."
-    },
-    {
-      "file": "s08_g01",
-      "text": "¿El Coombs directo es positivo o negativo?"
-    },
-    {
-      "file": "s08_g02",
-      "text": "Si es positivo, hay anticuerpos: es una anemia hemolítica autoinmune, lo que vimos en la clase anterior."
-    },
-    {
-      "file": "s08_g03",
-      "text": "Si es negativo, el defecto está en el glóbulo. Ahora mira la historia y el frotis."
-    },
-    {
-      "file": "s08_g04",
-      "text": "Hemólisis crónica, familiar, con bazo grande, cálculos y microesferocitos: esferocitosis hereditaria. Se confirma con fragilidad osmótica."
-    },
-    {
-      "file": "s08_g05",
-      "text": "Vacunas contra encapsulados y esplenectomía electiva después de los cinco o seis años, con colecistectomía si hay cálculos."
-    },
-    {
-      "file": "s08_g06",
-      "text": "Crisis aguda en un hombre después de habas o un fármaco oxidante, con cuerpos de Heinz: déficit de G seis PD. Se suspende el gatillante y se da soporte."
-    },
-    {
-      "file": "s08_g07",
-      "text": "La enzima se mide dos a tres meses después, para no tener un falso normal por los reticulocitos."
-    },
-    {
-      "file": "s08_g08",
-      "text": "Hemólisis intravascular con trombosis en un sitio raro, o con falla medular: sospecha de hemoglobinuria paroxística nocturna."
-    },
-    {
-      "file": "s08_g09",
-      "text": "Se confirma con citometría de flujo sin CD cincuenta y cinco ni cincuenta y nueve, y hematología indica eculizumab en los casos graves."
+      "text": "Los esferocitos son pequeños, redondos y sin palidez central. Se rompen en el bazo."
     },
     {
       "file": "s09_g00",
-      "text": "Repasemos lo que se pregunta. La herencia: la esferocitosis es autosómica dominante, el déficit de G seis PD es ligado al X, y la HPN no se hereda, es adquirida."
+      "text": "Ahora juntemos las tres en un solo árbol, partiendo desde el Coombs. Paciente con anemia, reticulocitos altos, bilirrubina indirecta y LDH elevadas: hay hemólisis. El primer paso para ordenar la causa es el Coombs directo."
     },
     {
       "file": "s09_g01",
-      "text": "El frotis: microesferocitos en la esferocitosis, cuerpos de Heinz y células mordidas en el déficit enzimático, y en la HPN, nada característico."
+      "text": "¿El Coombs directo es positivo o negativo?"
     },
     {
       "file": "s09_g02",
-      "text": "La confirmación: fragilidad osmótica, medición de la enzima lejos de la crisis, y citometría de flujo. Medir la enzima en plena crisis es la trampa clásica."
+      "text": "Si es positivo, hay anticuerpos: es una anemia hemolítica autoinmune, lo que vimos en la clase anterior."
     },
     {
       "file": "s09_g03",
-      "text": "Las claves clínicas: colelitiasis en un joven con bazo grande y concentración de hemoglobina corpuscular alta; crisis después de habas, sulfas o primaquina; y hemólisis con trombosis en un sitio raro."
+      "text": "Si es negativo, el defecto está en el glóbulo. Ahora mira la historia y el frotis."
     },
     {
       "file": "s09_g04",
-      "text": "Y el tratamiento: esplenectomía previa vacunación, evitar oxidantes, y eculizumab. El error típico es esplenectomizar a quien no corresponde: el bazo solo se saca en la esferocitosis."
+      "text": "Hemólisis crónica, familiar, con bazo grande, cálculos y microesferocitos: esferocitosis hereditaria. Se confirma con fragilidad osmótica."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Vacunas contra encapsulados y esplenectomía electiva después de los cinco o seis años, con colecistectomía si hay cálculos."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Crisis aguda en un hombre después de habas o un fármaco oxidante, con cuerpos de Heinz: déficit de G seis PD. Se suspende el gatillante y se da soporte."
+    },
+    {
+      "file": "s09_g07",
+      "text": "La enzima se mide dos a tres meses después, para no tener un falso normal por los reticulocitos."
+    },
+    {
+      "file": "s09_g08",
+      "text": "Hemólisis intravascular con trombosis en un sitio raro, o con falla medular: sospecha de hemoglobinuria paroxística nocturna."
+    },
+    {
+      "file": "s09_g09",
+      "text": "Se confirma con citometría de flujo sin CD cincuenta y cinco ni cincuenta y nueve, y hematología indica eculizumab en los casos graves."
     },
     {
       "file": "s10_g00",
-      "text": "Vamos con un caso. Joven de diecisiete años con dolor cólico después de comer en el hipocondrio derecho, e ictericia que va y viene. La ecografía muestra cálculos múltiples y un bazo grande. Su padre fue operado de la vesícula a los veintidós años y también le sacaron el bazo. Tiene hemoglobina de diez punto dos, concentración de hemoglobina corpuscular de treinta y siete punto dos, reticulocitos altos, bilirrubina indirecta elevada, microesferocitos en el frotis y Coombs negativo."
+      "text": "Repasemos lo que se pregunta. La herencia: la esferocitosis es autosómica dominante, el déficit de G seis PD es ligado al X, y la HPN no se hereda, es adquirida."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es el examen que confirma el diagnóstico más probable?"
+      "text": "El frotis: microesferocitos en la esferocitosis, cuerpos de Heinz y células mordidas en el déficit enzimático, y en la HPN, nada característico."
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones son: fragilidad osmótica, dosificación de G seis PD, citometría para CD cincuenta y cinco y cincuenta y nueve, electroforesis de hemoglobina, o biopsia de médula. Piénsalo."
+      "text": "La confirmación: fragilidad osmótica, medición de la enzima lejos de la crisis, y citometría de flujo. Medir la enzima en plena crisis es la trampa clásica."
     },
     {
       "file": "s10_g03",
-      "text": "Es la A. Coombs negativo, microesferocitos, concentración de hemoglobina corpuscular sobre treinta y seis, colelitiasis a los diecisiete años, bazo grande y un padre con la misma historia: esferocitosis hereditaria, y se confirma con fragilidad osmótica. La citometría tienta porque también es un examen de hemólisis con Coombs negativo, pero la HPN no da esferocitos ni es familiar. Después vienen las vacunas, la esplenectomía y la colecistectomía."
+      "text": "Las claves clínicas: colelitiasis en un joven con bazo grande y concentración de hemoglobina corpuscular alta; crisis después de habas, sulfas o primaquina; y hemólisis con trombosis en un sitio raro."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y el tratamiento: esplenectomía previa vacunación, evitar oxidantes, y eculizumab. El error típico es esplenectomizar a quien no corresponde: el bazo solo se saca en la esferocitosis."
     },
     {
       "file": "s11_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintinueve años con ictericia, disnea y compromiso marcado del estado general, sin otros hallazgos al examen. Tiene hematocrito de doce y hemoglobina de cuatro punto uno, plaquetas y blancos normales, volumen corpuscular de ciento tres, y microesferocitos en el frotis. La bilirrubina total es cuatro punto uno, casi toda indirecta, y la LDH, novecientos sesenta."
+      "text": "Vamos con un caso. Joven de diecisiete años con dolor cólico después de comer en el hipocondrio derecho, e ictericia que va y viene. La ecografía muestra cálculos múltiples y un bazo grande. Su padre fue operado de la vesícula a los veintidós años y también le sacaron el bazo. Tiene hemoglobina de diez punto dos, concentración de hemoglobina corpuscular de treinta y siete punto dos, reticulocitos altos, bilirrubina indirecta elevada, microesferocitos en el frotis y Coombs negativo."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el examen que confirma el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones son: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica o mielodisplasia. Piénsalo."
+      "text": "Las opciones son: fragilidad osmótica, dosificación de G seis PD, citometría para CD cincuenta y cinco y cincuenta y nueve, electroforesis de hemoglobina, o biopsia de médula. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la C, hemólisis. Anemia grave con bilirrubina indirecta y LDH altas, y el volumen alto se explica por los reticulocitos, no por falta de B doce. Pero fíjate en el detalle que conecta con hoy: ver microesferocitos no significa esferocitosis hereditaria. También aparecen en la anemia autoinmune, y este cuadro agudo, grave y sin bazo grande apunta a eso. La esferocitosis es crónica, familiar y con esplenomegalia. El Coombs directo los separa."
+      "text": "Es la A. Coombs negativo, microesferocitos, concentración de hemoglobina corpuscular sobre treinta y seis, colelitiasis a los diecisiete años, bazo grande y un padre con la misma historia: esferocitosis hereditaria, y se confirma con fragilidad osmótica. La citometría tienta porque también es un examen de hemólisis con Coombs negativo, pero la HPN no da esferocitos ni es familiar. Después vienen las vacunas, la esplenectomía y la colecistectomía."
     },
     {
       "file": "s12_g00",
-      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno. Niño de cuatro años, con antecedente de ictericia neonatal que requirió fototerapia, consulta por dolor abdominal y náuseas de cuatro días. Tiene ictericia, palidez y el bazo tres centímetros bajo el reborde. Hemoglobina de seis punto nueve, diecisiete por ciento de reticulocitos, blancos y plaquetas normales, y bilirrubina de seis, con directa de cero punto nueve."
+      "text": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintinueve años con ictericia, disnea y compromiso marcado del estado general, sin otros hallazgos al examen. Tiene hematocrito de doce y hemoglobina de cuatro punto uno, plaquetas y blancos normales, volumen corpuscular de ciento tres, y microesferocitos en el frotis. La bilirrubina total es cuatro punto uno, casi toda indirecta, y la LDH, novecientos sesenta."
     },
     {
       "file": "s12_g01",
@@ -246,30 +234,46 @@
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones son: anemia hemolítica, leucemia aguda, anemia ferropénica, déficit de vitamina B doce, o anemia de Fanconi. Piénsalo."
+      "text": "Las opciones son: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica o mielodisplasia. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A, anemia hemolítica. Los reticulocitos muy altos dicen que la médula está respondiendo, y la bilirrubina es casi toda indirecta. La leucemia tienta por la esplenomegalia en un niño, pero los blancos y las plaquetas están normales. Y fíjate en la pista de fondo: ictericia neonatal más bazo grande en un niño es exactamente cómo se presenta una hemolítica congénita, como la esferocitosis hereditaria."
+      "text": "Es la C, hemólisis. Anemia grave con bilirrubina indirecta y LDH altas, y el volumen alto se explica por los reticulocitos, no por falta de B doce. Pero fíjate en el detalle que conecta con hoy: ver microesferocitos no significa esferocitosis hereditaria. También aparecen en la anemia autoinmune, y este cuadro agudo, grave y sin bazo grande apunta a eso. La esferocitosis es crónica, familiar y con esplenomegalia. El Coombs directo los separa."
     },
     {
       "file": "s13_g00",
-      "text": "Cerremos con las reglas de oro. Colelitiasis en un joven, con bazo grande, concentración de hemoglobina corpuscular alta y Coombs negativo: esferocitosis, y se confirma con fragilidad osmótica."
+      "text": "Otra pregunta real, del EUNACOM de agosto de dos mil veintiuno. Niño de cuatro años, con antecedente de ictericia neonatal que requirió fototerapia, consulta por dolor abdominal y náuseas de cuatro días. Tiene ictericia, palidez y el bazo tres centímetros bajo el reborde. Hemoglobina de seis punto nueve, diecisiete por ciento de reticulocitos, blancos y plaquetas normales, y bilirrubina de seis, con directa de cero punto nueve."
     },
     {
       "file": "s13_g01",
-      "text": "Se trata con esplenectomía después de los cinco o seis años, siempre vacunando antes contra encapsulados."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Un hombre que hace una crisis hemolítica después de habas, sulfas o primaquina, con cuerpos de Heinz y células mordidas: déficit de G seis PD."
+      "text": "Las opciones son: anemia hemolítica, leucemia aguda, anemia ferropénica, déficit de vitamina B doce, o anemia de Fanconi. Piénsalo."
     },
     {
       "file": "s13_g03",
+      "text": "Es la A, anemia hemolítica. Los reticulocitos muy altos dicen que la médula está respondiendo, y la bilirrubina es casi toda indirecta. La leucemia tienta por la esplenomegalia en un niño, pero los blancos y las plaquetas están normales. Y fíjate en la pista de fondo: ictericia neonatal más bazo grande en un niño es exactamente cómo se presenta una hemolítica congénita, como la esferocitosis hereditaria."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Colelitiasis en un joven, con bazo grande, concentración de hemoglobina corpuscular alta y Coombs negativo: esferocitosis, y se confirma con fragilidad osmótica."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Se trata con esplenectomía después de los cinco o seis años, siempre vacunando antes contra encapsulados."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Un hombre que hace una crisis hemolítica después de habas, sulfas o primaquina, con cuerpos de Heinz y células mordidas: déficit de G seis PD."
+    },
+    {
+      "file": "s14_g03",
       "text": "Y la enzima se mide dos a tres meses después, nunca en plena crisis."
     },
     {
-      "file": "s13_g04",
+      "file": "s14_g04",
       "text": "Hemólisis intravascular con trombosis en un sitio raro: HPN, citometría de flujo y eculizumab. Si te llevas una sola idea de hoy: con Coombs negativo, busca la clave de cada una, el bazo y los cálculos, el oxidante, o la trombosis rara. En la próxima clase seguimos con los defectos de la hemoglobina: talasemias y anemia falciforme. Nos vemos en la próxima clase."
     }
   ]

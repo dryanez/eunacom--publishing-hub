@@ -170,6 +170,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'La gammagrafía tiroidea',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg', label: 'Gammagrafía', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+      ],
+      steps: [
+        { note: 'Captación focal vs difusa',
+          say: 'La gammagrafía separa las causas de hipertiroidismo: captación difusa en Graves, un nódulo que capta y apaga al resto en el adenoma tóxico, varios nódulos en el bocio multinodular.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo en un árbol, como vas a razonar frente al enunciado.',
     },

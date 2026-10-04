@@ -153,6 +153,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Trauma abdominal: FAST',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg', label: 'Ventanas del FAST', credit: 'ATLS 10.ª ed., p. 144' },
+        { src: 'biblioteca/10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg', label: 'FAST positivo', credit: 'ATLS 10.ª ed., p. 144' },
+      ],
+      steps: [
+        { note: 'Cuatro lugares',
+          say: 'El FAST mira cuatro ventanas: pericardio, Morrison, espacio esplenorrenal y pelvis.' },
+        { note: 'Línea negra en Morrison',
+          say: 'Una línea negra entre hígado y riñón es sangre. En un inestable, es pabellón.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de decisión del trauma abdominal.',
     },

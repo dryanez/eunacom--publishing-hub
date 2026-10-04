@@ -173,6 +173,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Exantemas virales',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg', label: 'Eritema infeccioso', credit: 'Nelson 22.ª ed., p. 2548' },
+        { src: 'biblioteca/15_pediatria/ped-10/03_exantema-subito__cto-pediatria_p101.jpg', label: 'Exantema súbito', credit: 'Manual CTO Pediatría 14.ª ed., p. 101' },
+        { src: 'biblioteca/15_pediatria/ped-10/05_mano-pie-boca__cto-pediatria_p100.jpg', label: 'Mano, pie, boca', credit: 'Manual CTO Pediatría 14.ª ed., p. 100' },
+      ],
+      steps: [
+        { note: 'Mejillas abofeteadas',
+          say: 'El eritema infeccioso da mejillas rojas, como abofeteadas.' },
+        { note: 'Aparece cuando cae la fiebre',
+          say: 'El exantema súbito aparece justo cuando baja la fiebre.' },
+        { note: 'Vesículas en palmas y boca',
+          say: 'Y la enfermedad mano pie boca da vesículas en esas zonas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los cinco cuadros en un solo árbol, usando la relación entre la fiebre y el exantema.',
     },

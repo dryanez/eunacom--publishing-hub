@@ -2,7 +2,7 @@
   "id": "hem-03",
   "title": "Hematología 8.3: Anemia Ferropénica: Diagnóstico, Algoritmo Causal (Digestivo, Menstrual, Celíaco) y Terapia Oral vs Endovenosa",
   "specialty": "Hematología",
-  "chars": 18331,
+  "chars": 18546,
   "segments": [
     {
       "file": "s00_g00",
@@ -202,139 +202,131 @@
     },
     {
       "file": "s11_g00",
-      "text": "Juntemos el estudio y el tratamiento en un solo árbol de decisión. Tienes una anemia microcítica con ferritina baja: la ferropenia está confirmada. Ahora hay dos tareas en paralelo, buscar la causa y reponer el hierro."
+      "text": "En la ferropenia los glóbulos rojos son pequeños y pálidos, con el centro claro agrandado: microcitosis e hipocromía."
     },
     {
       "file": "s11_g01",
-      "text": "La primera pregunta es quién es el paciente, porque eso decide el estudio."
-    },
-    {
-      "file": "s11_g02",
-      "text": "Mujer en edad fértil con hipermenorrea y sin síntomas digestivos: causa ginecológica. Hierro oral y manejo del sangrado, sin endoscopía de rutina inmediata."
-    },
-    {
-      "file": "s11_g03",
-      "text": "Hombre de cualquier edad o mujer posmenopáusica: endoscopía digestiva alta y colonoscopía total, obligatorias, mientras se inicia el hierro oral."
-    },
-    {
-      "file": "s11_g04",
-      "text": "Si las dos endoscopías salen negativas y hay malabsorción o falla del hierro oral, descarta enfermedad celíaca con antitransglutaminasa y biopsia duodenal."
-    },
-    {
-      "file": "s11_g05",
-      "text": "Si hay malabsorción documentada, by-pass, intolerancia grave, diálisis o embarazo avanzado, se pasa a hierro endovenoso."
-    },
-    {
-      "file": "s11_g06",
-      "text": "Y si el paciente está inestable, con disnea de reposo o angina, se transfunde. Lo decide la clínica, no el valor de hemoglobina."
+      "text": "Y la coiloniquia: uñas cóncavas, en cuchara. Es un signo clásico de ferropenia de larga evolución."
     },
     {
       "file": "s12_g00",
-      "text": "Repasemos las trampas. Hombre o mujer posmenopáusica con ferropenia: endoscopía alta, colonoscopía y hierro oral. El error más grave del tema es solo recetar hierro."
+      "text": "Juntemos el estudio y el tratamiento en un solo árbol de decisión. Tienes una anemia microcítica con ferritina baja: la ferropenia está confirmada. Ahora hay dos tareas en paralelo, buscar la causa y reponer el hierro."
     },
     {
       "file": "s12_g01",
-      "text": "Mujer fértil con hipermenorrea y sin síntomas digestivos: hierro y manejo de la causa ginecológica. Aquí el error es el contrario, pedir endoscopías de rutina de entrada."
+      "text": "La primera pregunta es quién es el paciente, porque eso decide el estudio."
     },
     {
       "file": "s12_g02",
-      "text": "Endoscopías negativas y el hierro oral no funciona: busca celiaquía. Subir la dosis no sirve si la puerta está cerrada."
+      "text": "Mujer en edad fértil con hipermenorrea y sin síntomas digestivos: causa ginecológica. Hierro oral y manejo del sangrado, sin endoscopía de rutina inmediata."
     },
     {
       "file": "s12_g03",
-      "text": "By-pass gástrico o celiaquía activa: hierro endovenoso, porque el duodeno está saltado o dañado."
+      "text": "Hombre de cualquier edad o mujer posmenopáusica: endoscopía digestiva alta y colonoscopía total, obligatorias, mientras se inicia el hierro oral."
     },
     {
       "file": "s12_g04",
-      "text": "Hemoglobina normal a los dos meses: seguir tres a seis meses más. Suspender ahí es quedarse con los depósitos vacíos."
+      "text": "Si las dos endoscopías salen negativas y hay malabsorción o falla del hierro oral, descarta enfermedad celíaca con antitransglutaminasa y biopsia duodenal."
     },
     {
       "file": "s12_g05",
-      "text": "Hemoglobina baja en un paciente estable: hierro, sin transfundir. La transfusión la decide la clínica, no el número."
+      "text": "Si hay malabsorción documentada, by-pass, intolerancia grave, diálisis o embarazo avanzado, se pasa a hierro endovenoso."
+    },
+    {
+      "file": "s12_g06",
+      "text": "Y si el paciente está inestable, con disnea de reposo o angina, se transfunde. Lo decide la clínica, no el valor de hemoglobina."
     },
     {
       "file": "s13_g00",
-      "text": "Vamos con un caso. Hombre de cincuenta y ocho años, con dos meses de disnea de medianos esfuerzos y palpitaciones. No tiene dolor abdominal ni deposiciones oscuras. Está pálido, con frecuencia cardíaca de noventa y seis. Hemoglobina ocho coma uno, VCM sesenta y ocho, plaquetas quinientas diez mil, reticulocitos bajos. Ferritina ocho, TIBC alta y saturación de cuatro coma cinco por ciento. Y cuenta que desde hace cuatro meses evacua con menos frecuencia."
+      "text": "Repasemos las trampas. Hombre o mujer posmenopáusica con ferropenia: endoscopía alta, colonoscopía y hierro oral. El error más grave del tema es solo recetar hierro."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Mujer fértil con hipermenorrea y sin síntomas digestivos: hierro y manejo de la causa ginecológica. Aquí el error es el contrario, pedir endoscopías de rutina de entrada."
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: transfundir, hierro oral y control en tres meses, hierro oral con laxante, hierro oral más colonoscopía y endoscopía alta prioritarias, o hierro endovenoso con estudio de celiaquía. Piénsalo."
+      "text": "Endoscopías negativas y el hierro oral no funciona: busca celiaquía. Subir la dosis no sirve si la puerta está cerrada."
     },
     {
       "file": "s13_g03",
-      "text": "Es la D. Es una ferropenia clarísima, pero la pregunta es quién es el paciente: un hombre de cincuenta y ocho años. Eso ya obliga a estudiar arriba y abajo. Y el dato final lo empeora: la constipación empezó antes que cualquier hierro, así que no es efecto adverso, es un cáncer de colon hasta demostrar lo contrario. El laxante es la trampa. Y no se transfunde: está estable, sin angina ni hipotensión."
+      "text": "By-pass gástrico o celiaquía activa: hierro endovenoso, porque el duodeno está saltado o dañado."
+    },
+    {
+      "file": "s13_g04",
+      "text": "Hemoglobina normal a los dos meses: seguir tres a seis meses más. Suspender ahí es quedarse con los depósitos vacíos."
+    },
+    {
+      "file": "s13_g05",
+      "text": "Hemoglobina baja en un paciente estable: hierro, sin transfundir. La transfusión la decide la clínica, no el número."
     },
     {
       "file": "s14_g00",
-      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecisiete. Hombre de sesenta y cuatro años con un mes de dolor abdominal y cambio del hábito intestinal. Examen físico sin hallazgos, y un hemograma con anemia microcítica."
+      "text": "Vamos con un caso. Hombre de cincuenta y ocho años, con dos meses de disnea de medianos esfuerzos y palpitaciones. No tiene dolor abdominal ni deposiciones oscuras. Está pálido, con frecuencia cardíaca de noventa y seis. Hemoglobina ocho coma uno, VCM sesenta y ocho, plaquetas quinientas diez mil, reticulocitos bajos. Ferritina ocho, TIBC alta y saturación de cuatro coma cinco por ciento. Y cuenta que desde hace cuatro meses evacua con menos frecuencia."
     },
     {
       "file": "s14_g01",
-      "text": "¿Qué examen se debe solicitar?"
-    },
-    {
-      "file": "s14_g02",
-      "text": "Las opciones: colonoscopía, radiografía de abdomen, ecografía abdominal, TAC de abdomen y pelvis, o test de sangre oculta en deposiciones. Piénsalo."
-    },
-    {
-      "file": "s14_g03",
-      "text": "Es la A, colonoscopía. Hombre mayor, cambio del hábito intestinal y microcitosis: es el mismo paciente del caso que acabamos de ver, y la sospecha es un cáncer de colon. El distractor tentador es la sangre oculta, pero no aporta nada: la anemia microcítica ya te está diciendo que hay pérdida. Lo que falta es encontrar la lesión."
-    },
-    {
-      "file": "s15_g00",
-      "text": "La segunda, del EUNACOM de diciembre de dos mil veintidós. Mujer de sesenta y cinco años, con una úlcera duodenal tratada hace veinte años y un infarto hace uno, que toma aspirina. Por un esguince le indican diclofenaco, y en los días siguientes aparece malestar progresivo y disnea. Está pálida y taquicárdica. Hemoglobina siete coma cinco, VCM cincuenta y ocho y ferritina doce. El electrocardiograma no muestra isquemia."
-    },
-    {
-      "file": "s15_g01",
-      "text": "¿Cuál es el examen para proseguir el estudio etiológico?"
-    },
-    {
-      "file": "s15_g02",
-      "text": "Las opciones: antígeno de Helicobacter en deposiciones, vitamina B doce, biopsia de médula, endoscopía digestiva alta, o sangre oculta en deposiciones. Piénsalo."
-    },
-    {
-      "file": "s15_g03",
-      "text": "Es la D, endoscopía digestiva alta. La ferritina de doce y el VCM de cincuenta y ocho confirman ferropenia, y es una mujer posmenopáusica: hay que buscar el sangrado. Pero aquí la anamnesis ya apunta arriba: antecedente de úlcera, aspirina y un antiinflamatorio. El antígeno de Helicobacter es el distractor tentador, pero no te muestra la lesión que sangra; la endoscopía sí."
-    },
-    {
-      "file": "s16_g00",
-      "text": "La tercera es del EUNACOM de agosto de dos mil veintiuno. Mujer de veintitrés años, vegetariana estricta, con diarrea de meses y baja de peso. En sus exámenes destaca anemia microcítica e hipoalbuminemia."
-    },
-    {
-      "file": "s16_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
-    },
-    {
-      "file": "s16_g02",
-      "text": "Las opciones: parasitosis intestinal, enfermedad celíaca, colitis ulcerosa, enfermedad de Crohn, o enteropatía perdedora de proteínas. Piénsalo."
-    },
-    {
-      "file": "s16_g03",
-      "text": "Es la B, enfermedad celíaca. Diarrea, baja de peso y albúmina baja hablan de malabsorción, y la microcitosis te dice que no se está absorbiendo el hierro. Recuerda que el hierro entra por el duodeno, que es justo lo que daña la celiaquía. El dato de vegetariana es un distractor: haría pensar en falta de B doce, pero eso daría una anemia macrocítica."
-    },
-    {
-      "file": "s17_g00",
-      "text": "La cuarta es del EUNACOM de julio de dos mil veinticuatro. Mujer de diecinueve años, con reglas abundantes desde la menarquia y un by-pass gástrico hace un año, con disnea e intolerancia al ejercicio progresivas. Hemoglobina nueve coma uno, ferritina nueve y saturación de transferrina doce por ciento."
-    },
-    {
-      "file": "s17_g01",
       "text": "¿Cuál es la conducta más adecuada?"
     },
     {
+      "file": "s14_g02",
+      "text": "Las opciones: transfundir, hierro oral y control en tres meses, hierro oral con laxante, hierro oral más colonoscopía y endoscopía alta prioritarias, o hierro endovenoso con estudio de celiaquía. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la D. Es una ferropenia clarísima, pero la pregunta es quién es el paciente: un hombre de cincuenta y ocho años. Eso ya obliga a estudiar arriba y abajo. Y el dato final lo empeora: la constipación empezó antes que cualquier hierro, así que no es efecto adverso, es un cáncer de colon hasta demostrar lo contrario. El laxante es la trampa. Y no se transfunde: está estable, sin angina ni hipotensión."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Ahora las preguntas reales. La primera es del EUNACOM de diciembre de dos mil diecisiete. Hombre de sesenta y cuatro años con un mes de dolor abdominal y cambio del hábito intestinal. Examen físico sin hallazgos, y un hemograma con anemia microcítica."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Qué examen se debe solicitar?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: colonoscopía, radiografía de abdomen, ecografía abdominal, TAC de abdomen y pelvis, o test de sangre oculta en deposiciones. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la A, colonoscopía. Hombre mayor, cambio del hábito intestinal y microcitosis: es el mismo paciente del caso que acabamos de ver, y la sospecha es un cáncer de colon. El distractor tentador es la sangre oculta, pero no aporta nada: la anemia microcítica ya te está diciendo que hay pérdida. Lo que falta es encontrar la lesión."
+    },
+    {
+      "file": "s16_g00",
+      "text": "La segunda, del EUNACOM de diciembre de dos mil veintidós. Mujer de sesenta y cinco años, con una úlcera duodenal tratada hace veinte años y un infarto hace uno, que toma aspirina. Por un esguince le indican diclofenaco, y en los días siguientes aparece malestar progresivo y disnea. Está pálida y taquicárdica. Hemoglobina siete coma cinco, VCM cincuenta y ocho y ferritina doce. El electrocardiograma no muestra isquemia."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es el examen para proseguir el estudio etiológico?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: antígeno de Helicobacter en deposiciones, vitamina B doce, biopsia de médula, endoscopía digestiva alta, o sangre oculta en deposiciones. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la D, endoscopía digestiva alta. La ferritina de doce y el VCM de cincuenta y ocho confirman ferropenia, y es una mujer posmenopáusica: hay que buscar el sangrado. Pero aquí la anamnesis ya apunta arriba: antecedente de úlcera, aspirina y un antiinflamatorio. El antígeno de Helicobacter es el distractor tentador, pero no te muestra la lesión que sangra; la endoscopía sí."
+    },
+    {
+      "file": "s17_g00",
+      "text": "La tercera es del EUNACOM de agosto de dos mil veintiuno. Mujer de veintitrés años, vegetariana estricta, con diarrea de meses y baja de peso. En sus exámenes destaca anemia microcítica e hipoalbuminemia."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
       "file": "s17_g02",
-      "text": "Las opciones: hierro oral, hierro endovenoso, folatos orales, vitamina B doce intramuscular, o transfusión. Piénsalo."
+      "text": "Las opciones: parasitosis intestinal, enfermedad celíaca, colitis ulcerosa, enfermedad de Crohn, o enteropatía perdedora de proteínas. Piénsalo."
     },
     {
       "file": "s17_g03",
-      "text": "Es la B, hierro endovenoso. La ferropenia está confirmada, y en una mujer joven con hipermenorrea tiene una causa clara. El distractor tentador es el hierro oral, porque es la primera línea. Pero esta paciente tiene un by-pass, que salta el duodeno, la única puerta de entrada del hierro. Malabsorción documentada es indicación de hierro endovenoso."
+      "text": "Es la B, enfermedad celíaca. Diarrea, baja de peso y albúmina baja hablan de malabsorción, y la microcitosis te dice que no se está absorbiendo el hierro. Recuerda que el hierro entra por el duodeno, que es justo lo que daña la celiaquía. El dato de vegetariana es un distractor: haría pensar en falta de B doce, pero eso daría una anemia macrocítica."
     },
     {
       "file": "s18_g00",
-      "text": "Y la última, también de julio de dos mil veinticuatro. Mujer de veintiocho años, en su quinto día posparto, después de una atonía uterina que se manejó con fármacos. Está pálida, con hemoglobina ocho coma seis y hematocrito veinticinco."
+      "text": "La cuarta es del EUNACOM de julio de dos mil veinticuatro. Mujer de diecinueve años, con reglas abundantes desde la menarquia y un by-pass gástrico hace un año, con disnea e intolerancia al ejercicio progresivas. Hemoglobina nueve coma uno, ferritina nueve y saturación de transferrina doce por ciento."
     },
     {
       "file": "s18_g01",
@@ -342,34 +334,50 @@
     },
     {
       "file": "s18_g02",
-      "text": "Las opciones: hierro oral, hierro endovenoso, transfusión, un uterotónico, o ácido fólico con vitamina B doce. Piénsalo."
+      "text": "Las opciones: hierro oral, hierro endovenoso, folatos orales, vitamina B doce intramuscular, o transfusión. Piénsalo."
     },
     {
       "file": "s18_g03",
-      "text": "Es la A, hierro oral. Perdió sangre, y con ella hierro, así que hay que reponerlo. El sangrado ya se controló, y no hay inestabilidad, angina ni disnea de reposo: la transfusión no se decide por el número. Tampoco hay malabsorción ni intolerancia que justifique la vena. Entonces, primera línea: hierro oral."
+      "text": "Es la B, hierro endovenoso. La ferropenia está confirmada, y en una mujer joven con hipermenorrea tiene una causa clara. El distractor tentador es el hierro oral, porque es la primera línea. Pero esta paciente tiene un by-pass, que salta el duodeno, la única puerta de entrada del hierro. Malabsorción documentada es indicación de hierro endovenoso."
     },
     {
       "file": "s19_g00",
-      "text": "Cerremos con las reglas de oro. La ferropenia es un síntoma: el cuerpo no bota hierro, así que o sangra, o no absorbe."
+      "text": "Y la última, también de julio de dos mil veinticuatro. Mujer de veintiocho años, en su quinto día posparto, después de una atonía uterina que se manejó con fármacos. Está pálida, con hemoglobina ocho coma seis y hematocrito veinticinco."
     },
     {
       "file": "s19_g01",
-      "text": "En el hombre y en la mujer posmenopáusica, endoscopía alta y colonoscopía, siempre. En la mujer fértil con hipermenorrea sin síntomas digestivos, basta la causa ginecológica. Y con endoscopías negativas, busca celiaquía."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s19_g02",
-      "text": "El hierro oral va en dosis bajas, diarias o en días alternos, en ayunas con vitamina C, y siempre avisando que las deposiciones se ponen negras."
+      "text": "Las opciones: hierro oral, hierro endovenoso, transfusión, un uterotónico, o ácido fólico con vitamina B doce. Piénsalo."
     },
     {
       "file": "s19_g03",
+      "text": "Es la A, hierro oral. Perdió sangre, y con ella hierro, así que hay que reponerlo. El sangrado ya se controló, y no hay inestabilidad, angina ni disnea de reposo: la transfusión no se decide por el número. Tampoco hay malabsorción ni intolerancia que justifique la vena. Entonces, primera línea: hierro oral."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Cerremos con las reglas de oro. La ferropenia es un síntoma: el cuerpo no bota hierro, así que o sangra, o no absorbe."
+    },
+    {
+      "file": "s20_g01",
+      "text": "En el hombre y en la mujer posmenopáusica, endoscopía alta y colonoscopía, siempre. En la mujer fértil con hipermenorrea sin síntomas digestivos, basta la causa ginecológica. Y con endoscopías negativas, busca celiaquía."
+    },
+    {
+      "file": "s20_g02",
+      "text": "El hierro oral va en dosis bajas, diarias o en días alternos, en ayunas con vitamina C, y siempre avisando que las deposiciones se ponen negras."
+    },
+    {
+      "file": "s20_g03",
       "text": "Los reticulocitos suben a la semana, la hemoglobina se normaliza en uno a dos meses, y se sigue tres a seis meses más para llenar los depósitos."
     },
     {
-      "file": "s19_g04",
+      "file": "s20_g04",
       "text": "El hierro endovenoso se usa cuando el oral no puede funcionar: malabsorción, by-pass, intolerancia grave, diálisis o tercer trimestre."
     },
     {
-      "file": "s19_g05",
+      "file": "s20_g05",
       "text": "Se transfunde por la clínica, no por el número. Y la constipación que empezó antes del hierro es un cáncer de colon hasta demostrar lo contrario. Si te llevas una sola idea de hoy: frente a una anemia ferropénica, la pregunta no es solo cuánto hierro dar, sino por dónde se está perdiendo. Nos vemos en la próxima clase."
     }
   ]

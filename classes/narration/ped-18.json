@@ -2,7 +2,7 @@
   "id": "ped-18",
   "title": "Pediatria 18.18: Dificultad Respiratoria Neonatal: EMH (Déficit de Surfactante) vs TTNR (Pulmón Húmedo) vs SAM",
   "specialty": "Pediatría",
-  "chars": 11330,
+  "chars": 11555,
   "segments": [
     {
       "file": "s00_g00",
@@ -126,114 +126,126 @@
     },
     {
       "file": "s09_g00",
-      "text": "Ahora pongamos los tres cuadros en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aquí tienes al recién nacido con dificultad respiratoria. Lo primero es puntuar la gravedad con la escala de Silverman-Andersen, y después buscas el antecedente que te va a decir cuál de los tres cuadros es."
+      "text": "La membrana hialina del prematuro da un patrón de vidrio esmerilado con broncograma."
     },
     {
       "file": "s09_g01",
-      "text": "La pregunta que separa los tres cuadros es el antecedente: ¿nació prematuro sin corticoides, por cesárea sin trabajo de parto, o con meconio espeso en el líquido amniótico? Cada antecedente apunta a un diagnóstico distinto."
+      "text": "La taquipnea transitoria, en la cesárea, muestra líquido en las cisuras."
     },
     {
       "file": "s09_g02",
-      "text": "Si es un prematuro con dificultad respiratoria desde el nacimiento y quejido intenso, sospechas enfermedad de membrana hialina. Inicias CPAP nasal precoz y administras surfactante exógeno por vía endotraqueal."
-    },
-    {
-      "file": "s09_g03",
-      "text": "Si nació por cesárea electiva, sin trabajo de parto, y respira rápido pero sin gran esfuerzo, es taquipnea transitoria. Solo necesita oxígeno de soporte, y se resuelve sola en veinticuatro a setenta y dos horas."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Y si es de término o postérmino, con líquido amniótico con meconio espeso, piensas en síndrome de aspiración meconial. La radiografía muestra infiltrados en parches, y el riesgo mayor es la hipertensión pulmonar persistente."
+      "text": "Y la aspiración meconial da infiltrados gruesos con hiperinsuflación."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas. Prematuro sin corticoides, con pulmón hipoinsuflado en la radiografía: membrana hialina. El error es confundirla con taquipnea transitoria, que va justo al revés."
+      "text": "Ahora pongamos los tres cuadros en un solo árbol de decisión, tal como lo vas a razonar en el examen. Aquí tienes al recién nacido con dificultad respiratoria. Lo primero es puntuar la gravedad con la escala de Silverman-Andersen, y después buscas el antecedente que te va a decir cuál de los tres cuadros es."
     },
     {
       "file": "s10_g01",
-      "text": "Cesárea electiva, sin trabajo de parto, con pulmón hiperinsuflado: taquipnea transitoria. Darle surfactante a este bebé es un error, porque no le falta surfactante, solo tiene líquido de más."
+      "text": "La pregunta que separa los tres cuadros es el antecedente: ¿nació prematuro sin corticoides, por cesárea sin trabajo de parto, o con meconio espeso en el líquido amniótico? Cada antecedente apunta a un diagnóstico distinto."
     },
     {
       "file": "s10_g02",
-      "text": "Postérmino con meconio espeso en el líquido amniótico: aspiración meconial. El error es no vigilar la hipertensión pulmonar, que es lo que complica el pronóstico."
+      "text": "Si es un prematuro con dificultad respiratoria desde el nacimiento y quejido intenso, sospechas enfermedad de membrana hialina. Inicias CPAP nasal precoz y administras surfactante exógeno por vía endotraqueal."
     },
     {
       "file": "s10_g03",
-      "text": "Y un bebé taquipneico, pero contento, sin gran tiraje ni quejido: taquipnea transitoria. Tratarlo como si fuera membrana hialina es sobretratar un cuadro que se resuelve solo."
+      "text": "Si nació por cesárea electiva, sin trabajo de parto, y respira rápido pero sin gran esfuerzo, es taquipnea transitoria. Solo necesita oxígeno de soporte, y se resuelve sola en veinticuatro a setenta y dos horas."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Y si es de término o postérmino, con líquido amniótico con meconio espeso, piensas en síndrome de aspiración meconial. La radiografía muestra infiltrados en parches, y el riesgo mayor es la hipertensión pulmonar persistente."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Recién nacido de treinta y una semanas, por parto prematuro espontáneo, cuya madre no recibió corticoides prenatales. Desde el nacimiento tiene quejido audible a distancia, aleteo nasal y retracción marcada, con una saturación de ochenta y dos por ciento al aire ambiental. La radiografía muestra pulmones con poco volumen, vidrio esmerilado y broncograma aéreo."
+      "text": "Repasemos las trampas. Prematuro sin corticoides, con pulmón hipoinsuflado en la radiografía: membrana hialina. El error es confundirla con taquipnea transitoria, que va justo al revés."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Cesárea electiva, sin trabajo de parto, con pulmón hiperinsuflado: taquipnea transitoria. Darle surfactante a este bebé es un error, porque no le falta surfactante, solo tiene líquido de más."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: oxígeno por naricera y control en veinticuatro horas, CPAP más surfactante endotraqueal, ventilación mecánica sin surfactante, antibióticos de amplio espectro, u observación porque es autolimitado. Tómate unos segundos."
+      "text": "Postérmino con meconio espeso en el líquido amniótico: aspiración meconial. El error es no vigilar la hipertensión pulmonar, que es lo que complica el pronóstico."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. Prematuro, sin corticoides, dificultad desde el nacimiento, y una radiografía que es el retrato exacto de la membrana hialina: vidrio esmerilado con broncograma. El tratamiento estándar es CPAP nasal precoz más surfactante por vía endotraqueal. Observarlo como si fuera autolimitado es el error clásico: eso es taquipnea transitoria, no esto."
+      "text": "Y un bebé taquipneico, pero contento, sin gran tiraje ni quejido: taquipnea transitoria. Tratarlo como si fuera membrana hialina es sobretratar un cuadro que se resuelve solo."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Recién nacido de treinta y seis semanas, nacido por cesárea, con dificultad respiratoria luego de nacer: taquipnea, retracción subcostal y crepitantes en las bases. La radiografía muestra hiperinsuflación en ambos pulmones, refuerzo alrededor del hilio, diafragmas aplanados, y una silueta cardiaca normal."
+      "text": "Vamos con un caso. Recién nacido de treinta y una semanas, por parto prematuro espontáneo, cuya madre no recibió corticoides prenatales. Desde el nacimiento tiene quejido audible a distancia, aleteo nasal y retracción marcada, con una saturación de ochenta y dos por ciento al aire ambiental. La radiografía muestra pulmones con poco volumen, vidrio esmerilado y broncograma aéreo."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: neumomediastino, neumonía connatal, taquipnea transitoria, enfermedad de membrana hialina, o cardiopatía congénita. Piénsalo."
+      "text": "Las opciones: oxígeno por naricera y control en veinticuatro horas, CPAP más surfactante endotraqueal, ventilación mecánica sin surfactante, antibióticos de amplio espectro, u observación porque es autolimitado. Tómate unos segundos."
     },
     {
       "file": "s12_g03",
-      "text": "Es la C, taquipnea transitoria. El antecedente de cesárea, sin trabajo de parto, ya te orienta, y la radiografía lo confirma: hiperinsuflación, no el pulmón chico y colapsado que verías en la membrana hialina. La silueta cardiaca normal descarta la cardiopatía, y no hay antecedente de meconio ni de fiebre materna para pensar en las otras opciones."
+      "text": "Es la B. Prematuro, sin corticoides, dificultad desde el nacimiento, y una radiografía que es el retrato exacto de la membrana hialina: vidrio esmerilado con broncograma. El tratamiento estándar es CPAP nasal precoz más surfactante por vía endotraqueal. Observarlo como si fuera autolimitado es el error clásico: eso es taquipnea transitoria, no esto."
     },
     {
       "file": "s13_g00",
-      "text": "Una más del banco. Recién nacido de treinta semanas, con dificultad respiratoria grave desde el nacimiento: quejido constante, cianosis y retracción costal severa. La radiografía muestra pulmones poco expandidos, con un patrón reticulonodular difuso y broncograma aéreo visible."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Recién nacido de treinta y seis semanas, nacido por cesárea, con dificultad respiratoria luego de nacer: taquipnea, retracción subcostal y crepitantes en las bases. La radiografía muestra hiperinsuflación en ambos pulmones, refuerzo alrededor del hilio, diafragmas aplanados, y una silueta cardiaca normal."
     },
     {
       "file": "s13_g01",
-      "text": "¿Cuál es la etiología y el tratamiento de elección?"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: retardo en la reabsorción de líquido con naricera, déficit de surfactante con CPAP y surfactante exógeno, aspiración masiva de meconio con lavado traqueal, neumotórax con toracocentesis, o atresia esofágica con sonda. Piénsalo."
+      "text": "Las opciones: neumomediastino, neumonía connatal, taquipnea transitoria, enfermedad de membrana hialina, o cardiopatía congénita. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. Treinta semanas, distrés desde el nacimiento, y una radiografía que muestra exactamente el patrón hipoinsuflado con broncograma: es déficit de surfactante, la enfermedad de membrana hialina. El tratamiento de elección es CPAP nasal con surfactante exógeno endotraqueal. La aspiración de meconio no calza, porque el meconio casi nunca aparece en un prematuro tan chico."
+      "text": "Es la C, taquipnea transitoria. El antecedente de cesárea, sin trabajo de parto, ya te orienta, y la radiografía lo confirma: hiperinsuflación, no el pulmón chico y colapsado que verías en la membrana hialina. La silueta cardiaca normal descarta la cardiopatía, y no hay antecedente de meconio ni de fiebre materna para pensar en las otras opciones."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Prematuro sin corticoides, con dificultad desde el nacimiento: membrana hialina."
+      "text": "Una más del banco. Recién nacido de treinta semanas, con dificultad respiratoria grave desde el nacimiento: quejido constante, cianosis y retracción costal severa. La radiografía muestra pulmones poco expandidos, con un patrón reticulonodular difuso y broncograma aéreo visible."
     },
     {
       "file": "s14_g01",
-      "text": "Cesárea electiva en un recién nacido de término: taquipnea transitoria."
+      "text": "¿Cuál es la etiología y el tratamiento de elección?"
     },
     {
       "file": "s14_g02",
-      "text": "Y postérmino con meconio espeso: aspiración meconial."
+      "text": "Las opciones: retardo en la reabsorción de líquido con naricera, déficit de surfactante con CPAP y surfactante exógeno, aspiración masiva de meconio con lavado traqueal, neumotórax con toracocentesis, o atresia esofágica con sonda. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la B. Treinta semanas, distrés desde el nacimiento, y una radiografía que muestra exactamente el patrón hipoinsuflado con broncograma: es déficit de surfactante, la enfermedad de membrana hialina. El tratamiento de elección es CPAP nasal con surfactante exógeno endotraqueal. La aspiración de meconio no calza, porque el meconio casi nunca aparece en un prematuro tan chico."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Prematuro sin corticoides, con dificultad desde el nacimiento: membrana hialina."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Cesárea electiva en un recién nacido de término: taquipnea transitoria."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Y postérmino con meconio espeso: aspiración meconial."
+    },
+    {
+      "file": "s15_g03",
       "text": "Vidrio esmerilado con pulmón chico y broncograma: membrana hialina."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "Cisuritis con pulmón hiperinsuflado: taquipnea transitoria, benigna y autolimitada."
     },
     {
-      "file": "s14_g05",
+      "file": "s15_g05",
       "text": "Reserva el CPAP con surfactante para cuando de verdad falta surfactante, no para todo recién nacido taquipneico."
     },
     {
-      "file": "s14_g06",
+      "file": "s15_g06",
       "text": "Y si aparece fiebre materna, ya sabes que el sospechoso cambia a neumonía connatal. Si te llevas una sola idea de hoy: el antecedente obstétrico te dice el diagnóstico antes de mirar la radiografía, y la radiografía solo lo confirma. Nos vemos en la próxima clase."
     }
   ]

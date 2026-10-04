@@ -124,6 +124,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Carbunco',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-19/01_carbunco-cutaneo__cto-infecto_p105.jpg', label: 'Carbunco cutáneo', credit: 'Manual CTO Infecciosas 14.ª ed., p. 105' },
+      ],
+      steps: [
+        { note: 'Escara negra indolora',
+          say: 'El carbunco cutáneo deja una escara negra que no duele ni supura, rodeada de edema.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión, partiendo por la lesión.',
     },

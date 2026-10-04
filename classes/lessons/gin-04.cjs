@@ -134,6 +134,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Miomas uterinos',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-04/S1_figo-miomas__propio.svg', label: 'Clasificación FIGO', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples__cto-gyo_p63.jpg', label: 'Ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 63' },
+      ],
+      steps: [
+        { note: 'Según su relación con la cavidad',
+          say: 'Los miomas se clasifican por su relación con la cavidad. Los submucosos, cero a dos, son los que más sangran.' },
+        { note: 'Miomas múltiples',
+          say: 'Y en la ecografía se ven como nódulos sólidos que deforman el útero.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos síntomas y fertilidad en un solo árbol de decisión.',
     },

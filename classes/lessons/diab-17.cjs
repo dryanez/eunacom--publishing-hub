@@ -132,6 +132,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'El potasio bajo en el ECG',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-17/01_ecg-hipopotasemia__cto-nefro_p22.jpg', label: 'Onda U', credit: 'Manual CTO Nefrología 14.ª ed., p. 22' },
+      ],
+      steps: [
+        { note: 'T aplanada y onda U',
+          say: 'Cuando la insulina mete el potasio a las células, puede aparecer hipokalemia: T aplanada y onda U. Por eso la insulina no parte si el potasio está bajo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el orden en que lo vas a razonar al lado de la cama.',
     },

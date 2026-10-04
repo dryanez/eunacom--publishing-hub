@@ -179,6 +179,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Aplasia medular',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia__amir-hemato_p26.jpg', label: 'Médula normal vs aplasia', credit: 'Manual AMIR Hematología, p. 26' },
+      ],
+      steps: [
+        { note: 'La médula se vacía',
+          say: 'A la izquierda una médula normal, llena de células; a la derecha, una aplasia: casi solo grasa.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del hemograma con pancitopenia.',
     },

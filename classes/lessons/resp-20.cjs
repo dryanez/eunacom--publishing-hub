@@ -167,6 +167,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Bronquiectasias',
+      images: [
+        { src: 'biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg', label: 'Bronquiectasias', credit: 'Manual CTO Neumología 14.ª ed., p. 68' },
+      ],
+      steps: [
+        { note: 'Bronquios dilatados en la TC',
+          say: 'En la tomografía, los bronquios se ven más anchos que la arteria que los acompaña: eso es una bronquiectasia. Son causa frecuente de hemoptisis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

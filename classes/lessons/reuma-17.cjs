@@ -202,6 +202,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Espondilitis anquilosante',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_1__amir-reuma_p79.jpg', label: 'Columna en caña de bambú', credit: 'Manual AMIR Reumatología, p. 79' },
+      ],
+      steps: [
+        { note: 'Sindesmofitos que unen vértebras',
+          say: 'Los sindesmofitos unen las vértebras y la columna queda como una caña de bambú.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

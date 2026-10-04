@@ -167,6 +167,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'La cascada de prescripción',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-24/S1_cascada-prescripcion__propio.svg', label: 'Cascada de prescripción', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'Un fármaco trata el efecto de otro',
+          say: 'Un efecto adverso se confunde con un síntoma nuevo y se trata con otro fármaco, que a su vez da otro efecto. Antes de agregar, pregunta qué fármaco empezó primero.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ordenemos la incontinencia en un árbol, que es como la vas a razonar en el examen.',
     },

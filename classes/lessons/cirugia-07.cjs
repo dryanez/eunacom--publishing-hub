@@ -110,6 +110,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Hemorroides',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-07/01_prolapso-hemorroidal__cto-digestivo_p149.jpg', label: 'Prolapso hemorroidal', credit: 'Manual CTO Digestivo 14.ª ed., p. 149' },
+      ],
+      steps: [
+        { note: 'Hemorroides fuera del ano',
+          say: 'Este es un prolapso hemorroidal. El grado se define por si se reduce solo, con la mano o no se reduce.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos los cuatro cuadros en un solo árbol de decisión.',
     },

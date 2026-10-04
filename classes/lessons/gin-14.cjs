@@ -167,6 +167,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Cáncer de mama',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg', label: 'Mamografía', credit: 'Bailey & Love 27.ª ed., Fig. 53.2' },
+        { src: 'biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra__cto-radiologia_p134.jpg', label: 'Microcalcificaciones', credit: 'Manual CTO Radiología 14.ª ed., p. 134' },
+        { src: 'biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg', label: 'Piel de naranja', credit: 'Bailey & Love 27.ª ed., Fig. 53.24' },
+      ],
+      steps: [
+        { note: 'Masa espiculada',
+          say: 'En la mamografía, una masa espiculada es sospechosa de cáncer.' },
+        { note: 'Finas y agrupadas',
+          say: 'Las microcalcificaciones finas y agrupadas también son sospechosas.' },
+        { note: 'Edema de la piel',
+          say: 'Y la piel de naranja indica compromiso de los linfáticos de la piel.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos el informe BI-RADS y la conducta en un solo árbol de decisión.',
     },

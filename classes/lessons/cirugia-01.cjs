@@ -143,6 +143,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Apendicitis',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-01/S1_puntos-apendicitis__propio.svg', label: 'Puntos del examen', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg', label: 'Imágenes', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
+      ],
+      steps: [
+        { note: 'McBurney y signos',
+          say: 'El punto de McBurney está en la unión del tercio externo con los dos tercios internos entre la espina ilíaca y el ombligo.' },
+        { note: 'Ecografía, pieza y radiografía',
+          say: 'Y estas son las imágenes: el apéndice engrosado en la ecografía y la pieza operatoria.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo esto en un solo árbol, tal como lo vas a razonar en el examen.',
     },

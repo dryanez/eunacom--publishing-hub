@@ -156,6 +156,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Tuberculosis fuera del pulmón',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-11/01_mal-de-pott__cto-infecto_p69.jpg', label: 'Mal de Pott', credit: 'Manual CTO Infecciosas 14.ª ed., p. 69' },
+        { src: 'biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg', label: 'Escrófula', credit: 'Manual AMIR Infecciosas, p. 112' },
+      ],
+      steps: [
+        { note: 'Columna destruida',
+          say: 'El mal de Pott es la tuberculosis de la columna: destruye vértebras y discos.' },
+        { note: 'Adenitis cervical',
+          say: 'Y la escrófula es la adenitis tuberculosa del cuello, que puede fistulizar a la piel.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos el diagnóstico y el tratamiento en un solo árbol.',
     },

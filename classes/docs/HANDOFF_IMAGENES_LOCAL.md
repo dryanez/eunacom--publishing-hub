@@ -79,7 +79,12 @@ node classes/scripts/build_swiss_player.cjs           # recompila el reproductor
 node classes/scripts/export_narration.cjs             # actualiza los guiones de voz
 ```
 
-### Antes de escalar: tamaño del reproductor
+### Tamaño del reproductor (resuelto el 2026-10-04)
+
+Las imágenes ya no se incrustan: el reproductor las carga desde `../media/` (13,6 MB con 297 clases con imágenes).
+Para publicar el Artifact hay que subir `classes/media/` junto al HTML, o compilar con `EMBED_IMAGES=1`.
+
+### (Histórico) Antes de escalar: tamaño del reproductor
 
 Hoy las imágenes se incrustan dentro del HTML (data URI). El reproductor ya pesa 15,4 MB y el límite del Artifact
 es 16 MB. **Antes de agregar imágenes a más clases**, cambiar `loadImage()` en `build_swiss_player.cjs` para que

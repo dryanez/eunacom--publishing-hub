@@ -153,6 +153,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Acalasia: manometría y esofagograma',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg', label: 'Manometría', credit: 'Manual CTO Digestivo 14.ª ed., p. 18' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-03/02_esofagograma-acalasia-pico-de-pajaro__amir-cirugia_p162.jpg', label: 'Pico de pájaro', credit: 'Manual AMIR Cirugía, p. 162' },
+      ],
+      steps: [
+        { note: 'El estándar diagnóstico',
+          say: 'Esta es una manometría de alta resolución: muestra que el esfínter inferior no se relaja y que el cuerpo no tiene peristalsis. Es el examen que confirma la acalasia.' },
+        { note: 'Esófago dilatado que termina en punta',
+          say: 'Y este es el esofagograma clásico: un esófago dilatado que termina en una punta fina, como el pico de un pájaro. Esa imagen se pregunta.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: dos preguntas clínicas y ya sabes qué examen pedir.',
     },

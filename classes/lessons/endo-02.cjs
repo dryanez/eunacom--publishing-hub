@@ -210,6 +210,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La cara del hipotiroidismo',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg', label: 'Facies hipotiroidea', credit: 'Fitzpatrick 7.ª ed., Fig. 152-12' },
+      ],
+      steps: [
+        { note: 'Cara hinchada, piel seca, cejas ralas',
+          say: 'Esta es la facies del hipotiroidismo: cara abotagada, párpados hinchados, piel seca y pálida, y pérdida del tercio externo de las cejas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y el tratamiento en un solo árbol.',
     },

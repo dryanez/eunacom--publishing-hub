@@ -229,6 +229,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      light: true,
+      kicker: 'Así se ve',
+      title: 'Ausencias en el EEG',
+      images: [
+        { src: 'biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg', label: 'Punta onda a tres hertz', credit: 'Manual CTO Neurología 14.ª ed., p. 73' },
+      ],
+      steps: [
+        { note: 'Patrón de las ausencias',
+          say: 'Las ausencias muestran en el electroencefalograma descargas generalizadas de punta onda a tres por segundo. El fármaco es el etosuximida o el valproato.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: confirmar la epilepsia, clasificar la crisis y elegir el fármaco según el paciente.',
     },

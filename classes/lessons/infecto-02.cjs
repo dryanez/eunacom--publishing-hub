@@ -162,6 +162,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Meningitis',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg', label: 'Púrpura meningocócica', credit: 'Manual CTO Infecciosas 14.ª ed., p. 38' },
+        { src: 'biblioteca/07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg', label: 'Kernig', credit: 'Bates 12.ª ed., Fig. 17-62' },
+        { src: 'biblioteca/07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg', label: 'Rigidez de nuca', credit: 'Bates 12.ª ed., Fig. 18-72' },
+      ],
+      steps: [
+        { note: 'Lesiones que no blanquean',
+          say: 'Esta púrpura extensa es de la meningococcemia. Con este cuadro, el antibiótico va de inmediato, sin esperar nada.' },
+        { note: 'Dolor al extender la rodilla',
+          say: 'El signo de Kernig: con la cadera flectada, extender la rodilla produce dolor y resistencia.' },
+        { note: 'Resistencia a flectar el cuello',
+          say: 'Y la rigidez de nuca: al flectar el cuello hay resistencia. Si las rodillas se flectan solas, es el signo de Brudzinski.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en la urgencia.',
     },

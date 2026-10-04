@@ -2,7 +2,7 @@
   "id": "infecto-15",
   "title": "Infectologia 4.2: Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
   "specialty": "Infectología",
-  "chars": 12371,
+  "chars": 12595,
   "segments": [
     {
       "file": "s00_g00",
@@ -166,95 +166,91 @@
     },
     {
       "file": "s09_g00",
-      "text": "Ahora juntemos todo en un solo árbol de decisión. Paciente con sospecha de Chagas, ya sea por venir de una zona endémica, por un tamizaje prenatal, o por ser hijo de una madre positiva. La primera pregunta es quién es el paciente, porque eso define la fase y el examen."
+      "text": "El signo de Romaña es el edema de un párpado en el sitio de la picadura. Es la fase aguda."
     },
     {
       "file": "s09_g01",
-      "text": "¿Es un recién nacido de madre con Chagas, una embarazada, o un adulto con serología positiva?"
+      "text": "En la fase crónica aparece el megaesófago."
     },
     {
       "file": "s09_g02",
-      "text": "En el recién nacido se hace microhematocrito o PCR al nacer, nunca IgG. ¿Cuál es el resultado?"
-    },
-    {
-      "file": "s09_g03",
-      "text": "Si es positivo, se trata de inmediato con nifurtimox o benznidazol, con una curación sobre el noventa y cinco por ciento."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Si es negativo, se repite a los tres meses, o se pide IgG después de los nueve a doce meses, cuando ya no quedan anticuerpos maternos."
-    },
-    {
-      "file": "s09_g05",
-      "text": "En la embarazada de zona endémica se hace el tamizaje con IgG. Si es positiva, no se trata durante la gestación: se trata después del parto, y se estudia al recién nacido."
-    },
-    {
-      "file": "s09_g06",
-      "text": "En el adulto con dos serologías IgG positivas, la pregunta es si hay daño de órgano: ¿el electrocardiograma, las radiografías y la clínica son normales?"
-    },
-    {
-      "file": "s09_g07",
-      "text": "Si no hay daño, es una fase indeterminada, y se trata si tiene menos de cincuenta años, para prevenir la progresión."
-    },
-    {
-      "file": "s09_g08",
-      "text": "Si hay bloqueo de rama, insuficiencia cardíaca o un mega, es la fase determinada. Lo que manda es el manejo del órgano: insuficiencia cardíaca, marcapasos o cirugía."
+      "text": "Y la miocardiopatía chagásica da bloqueo de rama derecha con hemibloqueo anterior izquierdo."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos las trampas. Recién nacido de madre con Chagas: microhematocrito o PCR al nacer. El error es pedirle IgG, que solo refleja los anticuerpos de la madre."
+      "text": "Ahora juntemos todo en un solo árbol de decisión. Paciente con sospecha de Chagas, ya sea por venir de una zona endémica, por un tamizaje prenatal, o por ser hijo de una madre positiva. La primera pregunta es quién es el paciente, porque eso define la fase y el examen."
     },
     {
       "file": "s10_g01",
-      "text": "Adulto con sospecha de Chagas crónico: dos serologías IgG de técnicas distintas. El error es buscar el parásito, que en esta fase no se ve."
+      "text": "¿Es un recién nacido de madre con Chagas, una embarazada, o un adulto con serología positiva?"
     },
     {
       "file": "s10_g02",
-      "text": "Embarazada con IgG positiva: se trata después del parto y se estudia al recién nacido. Darle nifurtimox en el embarazo es un error."
+      "text": "En el recién nacido se hace microhematocrito o PCR al nacer, nunca IgG. ¿Cuál es el resultado?"
     },
     {
       "file": "s10_g03",
-      "text": "La vía de contagio más frecuente hoy en Chile es la congénita. Responder la vinchuca domiciliaria es quedarse en los libros antiguos."
+      "text": "Si es positivo, se trata de inmediato con nifurtimox o benznidazol, con una curación sobre el noventa y cinco por ciento."
     },
     {
       "file": "s10_g04",
-      "text": "Y un paciente del norte con megacolon y bloqueo de rama derecha tiene un Chagas crónico determinado. Pensar solo en un cáncer de colon es no ver el electrocardiograma."
+      "text": "Si es negativo, se repite a los tres meses, o se pide IgG después de los nueve a doce meses, cuando ya no quedan anticuerpos maternos."
+    },
+    {
+      "file": "s10_g05",
+      "text": "En la embarazada de zona endémica se hace el tamizaje con IgG. Si es positiva, no se trata durante la gestación: se trata después del parto, y se estudia al recién nacido."
+    },
+    {
+      "file": "s10_g06",
+      "text": "En el adulto con dos serologías IgG positivas, la pregunta es si hay daño de órgano: ¿el electrocardiograma, las radiografías y la clínica son normales?"
+    },
+    {
+      "file": "s10_g07",
+      "text": "Si no hay daño, es una fase indeterminada, y se trata si tiene menos de cincuenta años, para prevenir la progresión."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Si hay bloqueo de rama, insuficiencia cardíaca o un mega, es la fase determinada. Lo que manda es el manejo del órgano: insuficiencia cardíaca, marcapasos o cirugía."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos con un caso. Recién nacido de término, hijo de una madre de veintiocho años con Chagas crónico asintomático, detectado en el control prenatal. Nace vigoroso, afebril y con un examen físico completamente normal."
+      "text": "Repasemos las trampas. Recién nacido de madre con Chagas: microhematocrito o PCR al nacer. El error es pedirle IgG, que solo refleja los anticuerpos de la madre."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Adulto con sospecha de Chagas crónico: dos serologías IgG de técnicas distintas. El error es buscar el parásito, que en esta fase no se ve."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: serología IgG al recién nacido; microhematocrito o PCR al nacer; nifurtimox sin estudiar; alta sin estudio; o electrocardiograma y ecocardiograma. Piénsalo."
+      "text": "Embarazada con IgG positiva: se trata después del parto y se estudia al recién nacido. Darle nifurtimox en el embarazo es un error."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B. El recién nacido es como una fase aguda: si está infectado, tiene parásitos en la sangre, y se buscan directamente. La A es la trampa del tema: la IgG del recién nacido es la de su madre, así que va a salir positiva aunque no esté infectado. Y la D falla porque un examen normal no descarta un Chagas congénito."
+      "text": "La vía de contagio más frecuente hoy en Chile es la congénita. Responder la vinchuca domiciliaria es quedarse en los libros antiguos."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y un paciente del norte con megacolon y bloqueo de rama derecha tiene un Chagas crónico determinado. Pensar solo en un cáncer de colon es no ver el electrocardiograma."
     },
     {
       "file": "s12_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y seis años que vivió en Brasil hasta hace seis meses, con disfagia lógica y progresiva, baja de peso de seis kilos, y reflujo de larga data. El examen físico es normal."
+      "text": "Vamos con un caso. Recién nacido de término, hijo de una madre de veintiocho años con Chagas crónico asintomático, detectado en el control prenatal. Nace vigoroso, afebril y con un examen físico completamente normal."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: cáncer de esófago; estenosis péptica; esofagitis eosinofílica; acalasia; o cáncer gástrico. Piénsalo."
+      "text": "Las opciones: serología IgG al recién nacido; microhematocrito o PCR al nacer; nifurtimox sin estudiar; alta sin estudio; o electrocardiograma y ecocardiograma. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A, cáncer de esófago. El antecedente de Brasil está puesto para que pienses en un megaesófago chagásico, y por eso la acalasia es el distractor. Pero el megaesófago, como la acalasia, suele dar una disfagia ilógica, para sólidos y líquidos a la vez. Aquí es lógica, primero los sólidos, con baja de peso y reflujo antiguo. La epidemiología orienta, pero la clínica manda."
+      "text": "Es la B. El recién nacido es como una fase aguda: si está infectado, tiene parásitos en la sangre, y se buscan directamente. La A es la trampa del tema: la IgG del recién nacido es la de su madre, así que va a salir positiva aunque no esté infectado. Y la D falla porque un examen normal no descarta un Chagas congénito."
     },
     {
       "file": "s13_g00",
-      "text": "Cerramos con un caso representativo del banco. Hombre de sesenta años, de la Región de Coquimbo, con años de constipación pertinaz que ahora requiere enemas periódicos. El enema baritado muestra un sigmoides y un recto muy dilatados, y el electrocardiograma, un bloqueo completo de rama derecha."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Mujer de cincuenta y seis años que vivió en Brasil hasta hace seis meses, con disfagia lógica y progresiva, baja de peso de seis kilos, y reflujo de larga data. El examen físico es normal."
     },
     {
       "file": "s13_g01",
@@ -262,34 +258,50 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: cáncer de colon estenosante; Chagas crónico determinado; Hirschsprung del adulto; colitis ulcerosa; o colon irritable. Piénsalo."
+      "text": "Las opciones: cáncer de esófago; estenosis péptica; esofagitis eosinofílica; acalasia; o cáncer gástrico. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "Es la B. Junta las piezas: zona endémica, un mega del tubo digestivo, y un bloqueo de rama derecha. Un solo diagnóstico explica el colon y el corazón a la vez: el Chagas crónico determinado. El cáncer de colon es el distractor, pero no explica el electrocardiograma. Y se confirma con dos serologías IgG, porque es una fase crónica."
+      "text": "Es la A, cáncer de esófago. El antecedente de Brasil está puesto para que pienses en un megaesófago chagásico, y por eso la acalasia es el distractor. Pero el megaesófago, como la acalasia, suele dar una disfagia ilógica, para sólidos y líquidos a la vez. Aquí es lógica, primero los sólidos, con baja de peso y reflujo antiguo. La epidemiología orienta, pero la clínica manda."
     },
     {
       "file": "s14_g00",
-      "text": "Cerremos con las reglas de oro. Hoy en Chile la vía predominante es la congénita; la vinchuca domiciliaria está interrumpida desde mil novecientos noventa y nueve."
+      "text": "Cerramos con un caso representativo del banco. Hombre de sesenta años, de la Región de Coquimbo, con años de constipación pertinaz que ahora requiere enemas periódicos. El enema baritado muestra un sigmoides y un recto muy dilatados, y el electrocardiograma, un bloqueo completo de rama derecha."
     },
     {
       "file": "s14_g01",
-      "text": "Por eso se tamiza con IgG a toda embarazada de O’Higgins al norte y a las extranjeras de zonas endémicas."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "En la fase aguda y en el recién nacido se busca el parásito, con microhematocrito o PCR."
+      "text": "Las opciones: cáncer de colon estenosante; Chagas crónico determinado; Hirschsprung del adulto; colitis ulcerosa; o colon irritable. Piénsalo."
     },
     {
       "file": "s14_g03",
+      "text": "Es la B. Junta las piezas: zona endémica, un mega del tubo digestivo, y un bloqueo de rama derecha. Un solo diagnóstico explica el colon y el corazón a la vez: el Chagas crónico determinado. El cáncer de colon es el distractor, pero no explica el electrocardiograma. Y se confirma con dos serologías IgG, porque es una fase crónica."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Cerremos con las reglas de oro. Hoy en Chile la vía predominante es la congénita; la vinchuca domiciliaria está interrumpida desde mil novecientos noventa y nueve."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Por eso se tamiza con IgG a toda embarazada de O’Higgins al norte y a las extranjeras de zonas endémicas."
+    },
+    {
+      "file": "s15_g02",
+      "text": "En la fase aguda y en el recién nacido se busca el parásito, con microhematocrito o PCR."
+    },
+    {
+      "file": "s15_g03",
       "text": "En la fase crónica se buscan anticuerpos, con dos IgG de técnicas distintas."
     },
     {
-      "file": "s14_g04",
+      "file": "s15_g04",
       "text": "La fase determinada da bloqueo de rama derecha con hemibloqueo anterior izquierdo, megacolon y megaesófago."
     },
     {
-      "file": "s14_g05",
+      "file": "s15_g05",
       "text": "Y se trata con nifurtimox o benznidazol por sesenta días, nunca en el embarazo. Si te llevas una sola idea de hoy: en la fase aguda buscas el parásito, en la crónica buscas anticuerpos, y en el recién nacido la IgG es de la madre. En la próxima clase vemos las enfermedades transmitidas por mosquitos. Nos vemos en la próxima clase."
     }
   ]

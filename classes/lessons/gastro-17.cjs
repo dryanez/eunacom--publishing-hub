@@ -243,6 +243,26 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Litiasis biliar en la ecografía',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-17/01_colelitiasis-con-sombra-eco__cto-radiologia_p44.jpg', label: 'Colelitiasis', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco__cto-radiologia_p44.jpg', label: 'Colecistitis', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-17/03_coledocolitiasis-cpre__cto-digestivo_p246.jpg', label: 'Coledocolitiasis', credit: 'Manual CTO Digestivo 14.ª ed., p. 246' },
+      ],
+      steps: [
+        { note: 'Imagen blanca con sombra',
+          say: 'En la ecografía, el cálculo es una imagen blanca dentro de la vesícula que deja una sombra negra por detrás. Esa sombra acústica es la clave.' },
+        { note: 'Pared engrosada',
+          say: 'En la colecistitis, además del cálculo, la pared de la vesícula se engruesa y el paciente tiene Murphy ecográfico.' },
+        { note: 'Cálculo extraído por CPRE',
+          say: 'Y si el cálculo está en el colédoco, se saca por endoscopía, con una colangiopancreatografía retrógrada.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos la regla de sumar síntomas en un solo árbol.',
     },

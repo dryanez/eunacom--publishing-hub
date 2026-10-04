@@ -87,6 +87,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Complicaciones de la herida',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-17/01_dehiscencia_herida__bailey_p68.jpg', label: 'Dehiscencia', credit: 'Bailey & Love 27.ª ed., Fig. 5.7' },
+        { src: 'biblioteca/10_cirugia/cirugia-17/03_evisceracion_expuesta__usuario.jpg', label: 'Evisceración', credit: 'Aportada por el usuario (enfermerabuenosaires.com, licencia por verificar)' },
+      ],
+      steps: [
+        { note: 'Se separan los bordes',
+          say: 'La dehiscencia es la separación de los bordes de la herida.' },
+        { note: 'Salen las vísceras',
+          say: 'Y la evisceración es la salida de vísceras por la herida. Se cubre con compresas húmedas y va a pabellón.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la herida infectada hasta la evisceración.',
     },

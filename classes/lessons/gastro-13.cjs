@@ -155,6 +155,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Colédoco dilatado',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm__cto-radiologia_p45.jpg', label: 'Colédoco dilatado', credit: 'Manual CTO Radiología 14.ª ed., p. 45' },
+      ],
+      steps: [
+        { note: 'Vía biliar ancha en la ecografía',
+          say: 'En esta ecografía el colédoco está dilatado. Si la vía biliar está ancha, la ictericia es obstructiva, y hay que buscar la causa: cálculo o tumor.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos los dos pasos en un solo árbol.',
     },

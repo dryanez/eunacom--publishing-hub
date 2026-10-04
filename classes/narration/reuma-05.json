@@ -2,7 +2,7 @@
   "id": "reuma-05",
   "title": "Reumatologia 9.5: Artritis Idiopática Juvenil (AIJ) y Enfermedad de Still del Adulto",
   "specialty": "Reumatología",
-  "chars": 9486,
+  "chars": 9593,
   "segments": [
     {
       "file": "s00_g00",
@@ -98,118 +98,122 @@
     },
     {
       "file": "s06_g00",
-      "text": "Veamos el algoritmo diagnóstico y terapéutico completo para AIJ y Still. Paciente con artritis de más de seis semanas de evolución sin foco infeccioso ni traumático evidente."
-    },
-    {
-      "file": "s06_g01",
-      "text": "Se evalúa la presencia de compromiso sistémico con fiebre en agujas cotidiana y rash macular color salmón."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Cumple criterios de Still con hiperferritinemia extrema y autoanticuerpos negativos. Iniciar corticoides sistémicos a dosis altas y vigilar la aparición de citopenias o caída de fibrinógeno por síndrome de activación macrofágica."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Se clasifica según el número de articulaciones inflamadas durante los primeros seis meses."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Forma oligoarticular en niña pequeña. Solicitar anticuerpos antinucleares e interconsulta urgente a oftalmología para lámpara de hendidura cada tres meses. Iniciar AINEs orales."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Forma poliarticular con riesgo de erosiones. Iniciar AINEs y derivar oportunamente para inicio de metotrexato semanal bajo garantía GES."
+      "text": "El exantema asalmonado, rosado y evanescente, aparece con los peaks de fiebre. Es un criterio de Yamaguchi."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos la tabla de Yamaguchi. Fiebre alta de treinta y nueve grados o más en agujas por al menos una semana es el primer criterio mayor."
+      "text": "Veamos el algoritmo diagnóstico y terapéutico completo para AIJ y Still. Paciente con artritis de más de seis semanas de evolución sin foco infeccioso ni traumático evidente."
     },
     {
       "file": "s07_g01",
-      "text": "Artralgias o artritis persistente de al menos dos semanas de evolución es el segundo criterio mayor."
+      "text": "Se evalúa la presencia de compromiso sistémico con fiebre en agujas cotidiana y rash macular color salmón."
     },
     {
       "file": "s07_g02",
-      "text": "Rash macular color salmón que aparece solo durante los picos febriles y desaparece cuando cede la temperatura."
+      "text": "Cumple criterios de Still con hiperferritinemia extrema y autoanticuerpos negativos. Iniciar corticoides sistémicos a dosis altas y vigilar la aparición de citopenias o caída de fibrinógeno por síndrome de activación macrofágica."
     },
     {
       "file": "s07_g03",
-      "text": "Leucocitosis sobre diez mil con más de ochenta por ciento de neutrófilos, simulando una sepsis bacteriana."
+      "text": "Se clasifica según el número de articulaciones inflamadas durante los primeros seis meses."
     },
     {
       "file": "s07_g04",
-      "text": "Y entre los criterios menores: anticuerpos antinucleares y factor reumatoide estrictamente negativos, con ferritina sobre mil."
+      "text": "Forma oligoarticular en niña pequeña. Solicitar anticuerpos antinucleares e interconsulta urgente a oftalmología para lámpara de hendidura cada tres meses. Iniciar AINEs orales."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Forma poliarticular con riesgo de erosiones. Iniciar AINEs y derivar oportunamente para inicio de metotrexato semanal bajo garantía GES."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos al caso clínico. Niña de tres años con monoartritis de rodilla derecha de ocho semanas de evolución, afebril, sin trauma, con anticuerpos antinucleares positivos en título uno a trescientos veinte."
+      "text": "Repasemos la tabla de Yamaguchi. Fiebre alta de treinta y nueve grados o más en agujas por al menos una semana es el primer criterio mayor."
     },
     {
       "file": "s08_g01",
-      "text": "Además de iniciar antiinflamatorios, ¿cuál es la conducta más adecuada e indispensable?"
+      "text": "Artralgias o artritis persistente de al menos dos semanas de evolución es el segundo criterio mayor."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: antibióticos endovenosos, derivar a oftalmología para examen con lámpara de hendidura, pulsos de corticoides por Still, radiografía de tórax con factor reumatoide, o reposo estricto. Piénsalo."
+      "text": "Rash macular color salmón que aparece solo durante los picos febriles y desaparece cuando cede la temperatura."
     },
     {
       "file": "s08_g03",
-      "text": "La respuesta correcta es la B. Es una AIJ oligoarticular clásica: niña menor de seis años con monoartritis de más de seis semanas y anticuerpos antinucleares positivos. El riesgo número uno es la uveítis anterior crónica, que es completamente silente y asintomática. Por eso el examen periódico con lámpara de hendidura es la conducta mandatoria que salva la visión de la paciente."
+      "text": "Leucocitosis sobre diez mil con más de ochenta por ciento de neutrófilos, simulando una sepsis bacteriana."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y entre los criterios menores: anticuerpos antinucleares y factor reumatoide estrictamente negativos, con ferritina sobre mil."
     },
     {
       "file": "s09_g00",
-      "text": "Pregunta representativa del banco EUNACOM. Paciente de diecisiete años con fiebre intermitente de tres semanas, rash macular en tronco que desaparece al ceder la fiebre, artritis en tobillo y metacarpofalángicas, con ferritina plasmática marcadamente elevada."
+      "text": "Vamos al caso clínico. Niña de tres años con monoartritis de rodilla derecha de ocho semanas de evolución, afebril, sin trauma, con anticuerpos antinucleares positivos en título uno a trescientos veinte."
     },
     {
       "file": "s09_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "Además de iniciar antiinflamatorios, ¿cuál es la conducta más adecuada e indispensable?"
     },
     {
       "file": "s09_g02",
-      "text": "Las alternativas: lupus infantil, púrpura de Henoch-Schönlein, enfermedad de Kawasaki, artritis idiopática juvenil o enfermedad de Still, o poliangeítis microscópica. Piénsalo."
+      "text": "Las opciones: antibióticos endovenosos, derivar a oftalmología para examen con lámpara de hendidura, pulsos de corticoides por Still, radiografía de tórax con factor reumatoide, o reposo estricto. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la D. Fiebre en agujas prolongada, rash evanescente color salmón que coincide con la temperatura, artritis periférica y ferritina estratosférica configuran el cuadro clásico de la enfermedad de Still. El lupus tendría anticuerpos antinucleares positivos y manifestaciones mucocutáneas fijas, y Kawasaki se presenta en lactantes con compromiso coronario."
+      "text": "La respuesta correcta es la B. Es una AIJ oligoarticular clásica: niña menor de seis años con monoartritis de más de seis semanas y anticuerpos antinucleares positivos. El riesgo número uno es la uveítis anterior crónica, que es completamente silente y asintomática. Por eso el examen periódico con lámpara de hendidura es la conducta mandatoria que salva la visión de la paciente."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta representativa del banco. Niño de cinco años con dos meses de poliartritis en rodillas, muñecas y manos, fiebre ocasional, trombocitosis reactiva y ferritina elevada."
+      "text": "Pregunta representativa del banco EUNACOM. Paciente de diecisiete años con fiebre intermitente de tres semanas, rash macular en tronco que desaparece al ceder la fiebre, artritis en tobillo y metacarpofalángicas, con ferritina plasmática marcadamente elevada."
     },
     {
       "file": "s10_g01",
-      "text": "El tratamiento inicial de la patología descrita es:"
+      "text": "El diagnóstico más probable es:"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: corticoides orales, corticoides con ciclosporina, metotrexato semanal, inmunoglobulina endovenosa, o antiinflamatorios no esteroidales orales. Piénsalo."
+      "text": "Las alternativas: lupus infantil, púrpura de Henoch-Schönlein, enfermedad de Kawasaki, artritis idiopática juvenil o enfermedad de Still, o poliangeítis microscópica. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "La respuesta correcta es la E. Frente a una artritis idiopática juvenil, el primer escalón terapéutico para aliviar el dolor y la inflamación son los antiinflamatorios no esteroidales orales en dosis plenas. Los corticoides sistémicos y los fármacos modificadores como el metotrexato se reservan para cuando los antiinflamatorios fracasan o si existe compromiso sistémico grave amenazante."
+      "text": "Es la D. Fiebre en agujas prolongada, rash evanescente color salmón que coincide con la temperatura, artritis periférica y ferritina estratosférica configuran el cuadro clásico de la enfermedad de Still. El lupus tendría anticuerpos antinucleares positivos y manifestaciones mucocutáneas fijas, y Kawasaki se presenta en lactantes con compromiso coronario."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las tres reglas de oro. En AIJ oligoarticular con anticuerpos antinucleares positivos, el tamizaje con lámpara de hendidura cada tres meses es mandatorio para evitar la ceguera."
+      "text": "Otra pregunta representativa del banco. Niño de cinco años con dos meses de poliartritis en rodillas, muñecas y manos, fiebre ocasional, trombocitosis reactiva y ferritina elevada."
     },
     {
       "file": "s11_g01",
-      "text": "La AIJ exige más de seis semanas de evolución en menores de dieciséis años y es una patología cubierta por el GES."
+      "text": "El tratamiento inicial de la patología descrita es:"
     },
     {
       "file": "s11_g02",
-      "text": "Enfermedad de Still se reconoce por fiebre en agujas cotidiana, rash evanescente color salmón y ferritina estratosférica sobre mil."
+      "text": "Las opciones: corticoides orales, corticoides con ciclosporina, metotrexato semanal, inmunoglobulina endovenosa, o antiinflamatorios no esteroidales orales. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "La respuesta correcta es la E. Frente a una artritis idiopática juvenil, el primer escalón terapéutico para aliviar el dolor y la inflamación son los antiinflamatorios no esteroidales orales en dosis plenas. Los corticoides sistémicos y los fármacos modificadores como el metotrexato se reservan para cuando los antiinflamatorios fracasan o si existe compromiso sistémico grave amenazante."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las tres reglas de oro. En AIJ oligoarticular con anticuerpos antinucleares positivos, el tamizaje con lámpara de hendidura cada tres meses es mandatorio para evitar la ceguera."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La AIJ exige más de seis semanas de evolución en menores de dieciséis años y es una patología cubierta por el GES."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Enfermedad de Still se reconoce por fiebre en agujas cotidiana, rash evanescente color salmón y ferritina estratosférica sobre mil."
+    },
+    {
+      "file": "s12_g03",
       "text": "Los autoanticuerpos clásicos como factor reumatoide y anticuerpos antinucleares son estrictamente negativos."
     },
     {
-      "file": "s11_g04",
+      "file": "s12_g04",
       "text": "El tratamiento de entrada en AIJ son los antiinflamatorios no esteroidales, escalando a metotrexato si no hay respuesta."
     },
     {
-      "file": "s11_g05",
+      "file": "s12_g05",
       "text": "Y en Still, la caída paradójica de la velocidad de sedimentación con citopenias avisa un síndrome de activación macrofágica. Si te llevas una sola idea de hoy: en AIJ oligoarticular busca la uveítis silente con lámpara de hendidura, y en Still la ferritina extrema confirma el diagnóstico. Nos vemos en la próxima clase."
     }
   ]

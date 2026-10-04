@@ -2,7 +2,7 @@
   "id": "derma-09",
   "title": "Dermatologia 16.9: Reacciones Medicamentosas Graves: Stevens-Johnson (SSJ) y Necrólisis Epidérmica Tóxica (NET)",
   "specialty": "Dermatología",
-  "chars": 11612,
+  "chars": 11790,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,87 +106,79 @@
     },
     {
       "file": "s06_g00",
-      "text": "Armemos el árbol de decisión completo, desde la sospecha inicial hasta el destino de hospitalización. Frente a un paciente con este cuadro, el primer paso al examen físico es buscar el signo de Nikolsky sobre piel eritematosa perilesional."
+      "text": "El Stevens Johnson compromete las mucosas: erosiones en labios y boca."
     },
     {
       "file": "s06_g01",
-      "text": "El desprendimiento de la epidermis con la fricción suave confirma que hay necrosis epidérmica en curso."
-    },
-    {
-      "file": "s06_g02",
-      "text": "Sin Nikolsky, hay que reconsiderar: una diana de tres anillos sin desprendimiento sugiere eritema multiforme; un habón evanescente, urticaria."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Confirmado el Nikolsky, la superficie desprendida clasifica la gravedad y define el destino de hospitalización."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Con menos del diez por ciento de desprendimiento y compromiso de mucosas, es Stevens-Johnson: suspensión inmediata del fármaco y hospitalización con manejo de soporte."
-    },
-    {
-      "file": "s06_g05",
-      "text": "La zona intermedia tiene mortalidad relevante, entre diez y quince por ciento, y requiere Unidad de Cuidados Intensivos con reevaluación seriada de la extensión."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Sobre el treinta por ciento es NET: traslado inmediato a un Centro de Gran Quemado, con fluidoterapia agresiva, control térmico y protección ocular urgente."
+      "text": "Y en la necrólisis la piel se desprende en láminas. Se suspende el fármaco y se trata en unidad de quemados."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas que más se repiten. Con menos del diez por ciento de desprendimiento y dos mucosas comprometidas, la conducta es suspender el fármaco y hospitalizar. El error es tratarlo como una alergia leve con solo un antihistamínico."
+      "text": "Armemos el árbol de decisión completo, desde la sospecha inicial hasta el destino de hospitalización. Frente a un paciente con este cuadro, el primer paso al examen físico es buscar el signo de Nikolsky sobre piel eritematosa perilesional."
     },
     {
       "file": "s07_g01",
-      "text": "Con más del treinta por ciento, es NET, y el traslado a un Centro de Quemados es inmediato. El error es dejarlo en una sala común, sin el control térmico que necesita."
+      "text": "El desprendimiento de la epidermis con la fricción suave confirma que hay necrosis epidérmica en curso."
     },
     {
       "file": "s07_g02",
-      "text": "Frente a la piel desprendida, se cubre con gasas no adherentes o apósitos de plata. El error grave es desbridar quirúrgicamente, como si fuera una quemadura de tercer grado."
+      "text": "Sin Nikolsky, hay que reconsiderar: una diana de tres anillos sin desprendimiento sugiere eritema multiforme; un habón evanescente, urticaria."
     },
     {
       "file": "s07_g03",
-      "text": "Un bicarbonato de dieciséis suma un punto en el SCORTEN, porque el corte es bajo veinte. El error es mirar solo la piel y olvidar que el laboratorio también define el pronóstico."
+      "text": "Confirmado el Nikolsky, la superficie desprendida clasifica la gravedad y define el destino de hospitalización."
     },
     {
       "file": "s07_g04",
-      "text": "Y la última, que conecta con la próxima clase: una diana de solo dos anillos, con dolor intenso y desprendimiento, es SSJ o NET, no eritema multiforme. El eritema multiforme tiene tres anillos y nunca despega la piel."
+      "text": "Con menos del diez por ciento de desprendimiento y compromiso de mucosas, es Stevens-Johnson: suspensión inmediata del fármaco y hospitalización con manejo de soporte."
+    },
+    {
+      "file": "s07_g05",
+      "text": "La zona intermedia tiene mortalidad relevante, entre diez y quince por ciento, y requiere Unidad de Cuidados Intensivos con reevaluación seriada de la extensión."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Sobre el treinta por ciento es NET: traslado inmediato a un Centro de Gran Quemado, con fluidoterapia agresiva, control térmico y protección ocular urgente."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de cuarenta y cinco años, con antecedente de gota, que inició cotrimoxazol hace doce días. Consulta por tres días de fiebre, dolor faríngeo y ardor ocular, a lo que se agrega hoy una erupción dolorosa con máculas purpúricas de dos anillos y algunas flictenas. Tiene desprendimiento del seis por ciento de la piel, úlceras orales con costras hemáticas y conjuntivitis bilateral. Al frotar suavemente la piel eritematosa cercana, la epidermis se desprende con facilidad."
+      "text": "Repasemos las trampas que más se repiten. Con menos del diez por ciento de desprendimiento y dos mucosas comprometidas, la conducta es suspender el fármaco y hospitalizar. El error es tratarlo como una alergia leve con solo un antihistamínico."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el diagnóstico y la conducta inmediata más adecuada?"
+      "text": "Con más del treinta por ciento, es NET, y el traslado a un Centro de Quemados es inmediato. El error es dejarlo en una sala común, sin el control térmico que necesita."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: urticaria aguda con antihistamínico, eritema multiforme major en observación, Síndrome de Stevens-Johnson con suspensión del fármaco y hospitalización, necrólisis epidérmica tóxica con traslado a quemados, o penfigoide ampollar con clobetasol tópico. Piénsalo."
+      "text": "Frente a la piel desprendida, se cubre con gasas no adherentes o apósitos de plata. El error grave es desbridar quirúrgicamente, como si fuera una quemadura de tercer grado."
     },
     {
       "file": "s08_g03",
-      "text": "Es la C. Doce días de latencia con cotrimoxazol, pródromo pseudogripal, dianas atípicas, Nikolsky positivo, seis por ciento de desprendimiento y dos mucosas comprometidas: eso es Stevens-Johnson, no NET, porque el corte de NET es sobre treinta por ciento. El eritema multiforme no tiene Nikolsky positivo ni desprendimiento. Y el penfigoide es Nikolsky negativo, en un paciente mucho mayor, sin este pródromo febril."
+      "text": "Un bicarbonato de dieciséis suma un punto en el SCORTEN, porque el corte es bajo veinte. El error es mirar solo la piel y olvidar que el laboratorio también define el pronóstico."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y la última, que conecta con la próxima clase: una diana de solo dos anillos, con dolor intenso y desprendimiento, es SSJ o NET, no eritema multiforme. El eritema multiforme tiene tres anillos y nunca despega la piel."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Un paciente de veintinueve años, tratado con amoxicilina por una amigdalitis desde hace catorce días, presenta desde hace tres días ardor ocular, lesiones en la boca, malestar general y un rash cutáneo. Al examen tiene eritema conjuntival bilateral, úlceras orales, y un exantema con pápulas y placas eritematosas en el tronco y las extremidades."
+      "text": "Vamos con un caso. Mujer de cuarenta y cinco años, con antecedente de gota, que inició cotrimoxazol hace doce días. Consulta por tres días de fiebre, dolor faríngeo y ardor ocular, a lo que se agrega hoy una erupción dolorosa con máculas purpúricas de dos anillos y algunas flictenas. Tiene desprendimiento del seis por ciento de la piel, úlceras orales con costras hemáticas y conjuntivitis bilateral. Al frotar suavemente la piel eritematosa cercana, la epidermis se desprende con facilidad."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es el diagnóstico y la conducta inmediata más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: Síndrome de Stevens-Johnson, gingivoestomatitis herpética, necrólisis epidérmica tóxica, pénfigo, o escarlatina. Piénsalo."
+      "text": "Las opciones: urticaria aguda con antihistamínico, eritema multiforme major en observación, Síndrome de Stevens-Johnson con suspensión del fármaco y hospitalización, necrólisis epidérmica tóxica con traslado a quemados, o penfigoide ampollar con clobetasol tópico. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, Síndrome de Stevens-Johnson. Catorce días de latencia con un fármaco de riesgo, compromiso de dos mucosas y un exantema que ya vimos que corresponde al patrón típico. La gingivoestomatitis herpética no da compromiso ocular ni exantema en el tronco. Y para hablar de necrólisis epidérmica tóxica necesitaríamos un desprendimiento mucho mayor, que el enunciado no describe."
+      "text": "Es la C. Doce días de latencia con cotrimoxazol, pródromo pseudogripal, dianas atípicas, Nikolsky positivo, seis por ciento de desprendimiento y dos mucosas comprometidas: eso es Stevens-Johnson, no NET, porque el corte de NET es sobre treinta por ciento. El eritema multiforme no tiene Nikolsky positivo ni desprendimiento. Y el penfigoide es Nikolsky negativo, en un paciente mucho mayor, sin este pródromo febril."
     },
     {
       "file": "s10_g00",
-      "text": "Una segunda pregunta real, del EUNACOM de julio de dos mil dieciséis. Una paciente de veintiséis años se realiza una colecistectomía laparoscópica hace dos semanas. Evoluciona bien al principio, pero hace doce horas presenta fiebre y dolor cutáneo generalizado, con eritema de toda la piel y compromiso de las mucosas. Hace algunas horas empiezan a aparecer ampollas generalizadas."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Un paciente de veintinueve años, tratado con amoxicilina por una amigdalitis desde hace catorce días, presenta desde hace tres días ardor ocular, lesiones en la boca, malestar general y un rash cutáneo. Al examen tiene eritema conjuntival bilateral, úlceras orales, y un exantema con pápulas y placas eritematosas en el tronco y las extremidades."
     },
     {
       "file": "s10_g01",
@@ -194,22 +186,38 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: psoriasis eritrodérmica, escarlatina quirúrgica, pustulosis exantemática, necrólisis epidérmica tóxica, o pénfigo. Piénsalo."
+      "text": "Las opciones: Síndrome de Stevens-Johnson, gingivoestomatitis herpética, necrólisis epidérmica tóxica, pénfigo, o escarlatina. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D, Necrólisis Epidérmica Tóxica. La cirugía es la pista de los fármacos: antibióticos perioperatorios, con una latencia de dos semanas. El dolor cutáneo desproporcionado, el eritema generalizado, el compromiso de mucosas y las ampollas que se generalizan describen exactamente el cuadro que vimos hoy. El pénfigo da ampollas flácidas también, pero sin este pródromo febril agudo ni esta latencia farmacológica tan característica."
+      "text": "Es la A, Síndrome de Stevens-Johnson. Catorce días de latencia con un fármaco de riesgo, compromiso de dos mucosas y un exantema que ya vimos que corresponde al patrón típico. La gingivoestomatitis herpética no da compromiso ocular ni exantema en el tronco. Y para hablar de necrólisis epidérmica tóxica necesitaríamos un desprendimiento mucho mayor, que el enunciado no describe."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. El corte que decide todo es el porcentaje de superficie corporal desprendida: menos de diez por ciento, Stevens-Johnson; más de treinta, necrólisis epidérmica tóxica."
+      "text": "Una segunda pregunta real, del EUNACOM de julio de dos mil dieciséis. Una paciente de veintiséis años se realiza una colecistectomía laparoscópica hace dos semanas. Evoluciona bien al principio, pero hace doce horas presenta fiebre y dolor cutáneo generalizado, con eritema de toda la piel y compromiso de las mucosas. Hace algunas horas empiezan a aparecer ampollas generalizadas."
     },
     {
       "file": "s11_g01",
-      "text": "El signo de Nikolsky positivo confirma el diagnóstico al examen físico. Si es negativo, piensa en eritema multiforme o en penfigoide, que vemos más adelante."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s11_g02",
+      "text": "Las opciones: psoriasis eritrodérmica, escarlatina quirúrgica, pustulosis exantemática, necrólisis epidérmica tóxica, o pénfigo. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la D, Necrólisis Epidérmica Tóxica. La cirugía es la pista de los fármacos: antibióticos perioperatorios, con una latencia de dos semanas. El dolor cutáneo desproporcionado, el eritema generalizado, el compromiso de mucosas y las ampollas que se generalizan describen exactamente el cuadro que vimos hoy. El pénfigo da ampollas flácidas también, pero sin este pródromo febril agudo ni esta latencia farmacológica tan característica."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. El corte que decide todo es el porcentaje de superficie corporal desprendida: menos de diez por ciento, Stevens-Johnson; más de treinta, necrólisis epidérmica tóxica."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El signo de Nikolsky positivo confirma el diagnóstico al examen físico. Si es negativo, piensa en eritema multiforme o en penfigoide, que vemos más adelante."
+    },
+    {
+      "file": "s12_g02",
       "text": "Y lo que más salva la vida es suspender el fármaco de inmediato, sin esperar exámenes, y trasladar a un centro con capacidad de manejar a un gran quemado médico. Si te llevas una sola idea de hoy: mide el desprendimiento, confirma con Nikolsky, y suspende el fármaco ya. Nos vemos en la próxima clase."
     }
   ]

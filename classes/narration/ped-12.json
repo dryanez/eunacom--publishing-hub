@@ -2,7 +2,7 @@
   "id": "ped-12",
   "title": "Pediatria 18.12: Vómitos en el Lactante: RGE Fisiológico vs Estenosis Hipertrófica del Píloro (EHP) vs Invaginación Intestinal",
   "specialty": "Pediatría",
-  "chars": 8121,
+  "chars": 8246,
   "segments": [
     {
       "file": "s00_g00",
@@ -106,106 +106,114 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos las tres causas en un solo árbol, con la edad y el color del vómito como guía. Tienes un lactante que vomita. Lo primero, siempre, es fijarte en el color del vómito."
+      "text": "Vómitos explosivos no biliosos a las tres semanas: píloro engrosado en la ecografía."
     },
     {
       "file": "s06_g01",
-      "text": "Si es bilioso, es una urgencia quirúrgica hasta que la descartes. Si no lo es, la edad te da el diagnóstico."
-    },
-    {
-      "file": "s06_g02",
-      "text": "En el recién nacido, todo vómito bilioso es un vólvulo hasta que se demuestre lo contrario."
-    },
-    {
-      "file": "s06_g03",
-      "text": "El regurgitador feliz: buen peso, buen desarrollo. Se resuelve solo antes del año, sin inhibidores de bomba ni procinéticos."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Vómito en proyectil, niño hambriento, alcalosis metabólica hipoclorémica. Confirmas con ecografía, corriges antes de operar."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Crisis de dolor con encogimiento de piernas, y jalea de grosella como signo tardío. Reduces con enema guiado por ecografía antes de pensar en cirugía."
+      "text": "Y la invaginación da una imagen en diana."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos las trampas. Reflujo fisiológico: sin dolor, buen peso, menor de seis meses. La conducta son medidas posturales, sin fármacos."
+      "text": "Ahora juntemos las tres causas en un solo árbol, con la edad y el color del vómito como guía. Tienes un lactante que vomita. Lo primero, siempre, es fijarte en el color del vómito."
     },
     {
       "file": "s07_g01",
-      "text": "Estenosis del píloro: vómito en proyectil, niño hambriento, y alcalosis hipoclorémica. Primero corriges los electrolitos, y recién después la piloromiotomía."
+      "text": "Si es bilioso, es una urgencia quirúrgica hasta que la descartes. Si no lo es, la edad te da el diagnóstico."
     },
     {
       "file": "s07_g02",
-      "text": "Invaginación intestinal: dolor cólico en crisis, y jalea de grosella como signo tardío. Ecografía para confirmar, y reducción neumática para tratarla."
+      "text": "En el recién nacido, todo vómito bilioso es un vólvulo hasta que se demuestre lo contrario."
     },
     {
       "file": "s07_g03",
-      "text": "Y el vómito bilioso en el recién nacido: es un vólvulo por malrotación hasta que lo descartes, y va a cirugía de urgencia inmediata."
+      "text": "El regurgitador feliz: buen peso, buen desarrollo. Se resuelve solo antes del año, sin inhibidores de bomba ni procinéticos."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Vómito en proyectil, niño hambriento, alcalosis metabólica hipoclorémica. Confirmas con ecografía, corriges antes de operar."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Crisis de dolor con encogimiento de piernas, y jalea de grosella como signo tardío. Reduces con enema guiado por ecografía antes de pensar en cirugía."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Lactante varón de cuatro semanas, primogénito, con vómitos después de comer que han ido aumentando hasta salir con fuerza, en proyectil. El vómito es de leche cortada, sin color verde. Después de vomitar, llora buscando mamar de nuevo. Su peso está estancado desde que nació."
+      "text": "Repasemos las trampas. Reflujo fisiológico: sin dolor, buen peso, menor de seis meses. La conducta son medidas posturales, sin fármacos."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
+      "text": "Estenosis del píloro: vómito en proyectil, niño hambriento, y alcalosis hipoclorémica. Primero corriges los electrolitos, y recién después la piloromiotomía."
     },
     {
       "file": "s08_g02",
-      "text": "Las opciones: pH-metría esofágica, ecografía abdominal dirigida al píloro, enema baritado, endoscopía digestiva alta, o colonoscopía con biopsia. Piénsalo."
+      "text": "Invaginación intestinal: dolor cólico en crisis, y jalea de grosella como signo tardío. Ecografía para confirmar, y reducción neumática para tratarla."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Todo el cuadro apunta a la estenosis hipertrófica del píloro: vómito en proyectil sin bilis, hambre voraz, y peso estancado. El examen que confirma el diagnóstico, sin necesidad de nada invasivo, es la ecografía abdominal dirigida al píloro."
+      "text": "Y el vómito bilioso en el recién nacido: es un vólvulo por malrotación hasta que lo descartes, y va a cirugía de urgencia inmediata."
     },
     {
       "file": "s09_g00",
-      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niño de veintiocho días con vómitos después de comer, que empezaron hace una semana y han ido aumentando. La madre cuenta que llora después de comer y de vomitar, y se ve que no ha subido bien de peso, algo enflaquecido."
+      "text": "Vamos con un caso. Lactante varón de cuatro semanas, primogénito, con vómitos después de comer que han ido aumentando hasta salir con fuerza, en proyectil. El vómito es de leche cortada, sin color verde. Después de vomitar, llora buscando mamar de nuevo. Su peso está estancado desde que nació."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el examen de elección para iniciar el estudio en este paciente?"
+      "text": "¿Cuál es el examen de elección para confirmar el diagnóstico?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: radiografía baritada de esófago, estómago y duodeno, ecografía abdominal, endoscopía digestiva alta con biopsia, colonoscopía con biopsia, o radiografía simple toracoabdominal. Piénsalo."
+      "text": "Las opciones: pH-metría esofágica, ecografía abdominal dirigida al píloro, enema baritado, endoscopía digestiva alta, o colonoscopía con biopsia. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la B. El cuadro, con la edad, el vómito postprandial y el mal incremento de peso, apunta a una estenosis hipertrófica del píloro, y el examen de elección para estudiarla es la ecografía abdominal."
+      "text": "Es la B. Todo el cuadro apunta a la estenosis hipertrófica del píloro: vómito en proyectil sin bilis, hambre voraz, y peso estancado. El examen que confirma el diagnóstico, sin necesidad de nada invasivo, es la ecografía abdominal dirigida al píloro."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Recién nacido de cuatro semanas, con vómitos abundantes después de comer desde hace una semana, y detención del aumento de peso. La madre lo nota hambriento, y toma la leche con muchas ganas."
+      "text": "Una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niño de veintiocho días con vómitos después de comer, que empezaron hace una semana y han ido aumentando. La madre cuenta que llora después de comer y de vomitar, y se ve que no ha subido bien de peso, algo enflaquecido."
     },
     {
       "file": "s10_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "¿Cuál es el examen de elección para iniciar el estudio en este paciente?"
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: radiografía de abdomen simple, tratamiento endoscópico, observar la evolución, piloromiotomía de Ramstedt, o funduplicatura gástrica. Piénsalo."
+      "text": "Las opciones: radiografía baritada de esófago, estómago y duodeno, ecografía abdominal, endoscopía digestiva alta con biopsia, colonoscopía con biopsia, o radiografía simple toracoabdominal. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D. El cuadro es una estenosis hipertrófica del píloro clásica. Lo ideal sería pedir primero una ecografía para confirmar, pero de las alternativas que te dan, el tratamiento de elección es la piloromiotomía de Ramstedt, siempre corrigiendo antes la deshidratación y la alcalosis del paciente."
+      "text": "Es la B. El cuadro, con la edad, el vómito postprandial y el mal incremento de peso, apunta a una estenosis hipertrófica del píloro, y el examen de elección para estudiarla es la ecografía abdominal."
     },
     {
       "file": "s11_g00",
-      "text": "Cerremos con las reglas de oro. Todo vómito bilioso es una urgencia hasta que la descartes."
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Recién nacido de cuatro semanas, con vómitos abundantes después de comer desde hace una semana, y detención del aumento de peso. La madre lo nota hambriento, y toma la leche con muchas ganas."
     },
     {
       "file": "s11_g01",
-      "text": "Vómito en proyectil, con un lactante hambriento: piensa en la estenosis del píloro."
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s11_g02",
-      "text": "Y el dolor cólico que va y viene te lleva a la invaginación intestinal."
+      "text": "Las opciones: radiografía de abdomen simple, tratamiento endoscópico, observar la evolución, piloromiotomía de Ramstedt, o funduplicatura gástrica. Piénsalo."
     },
     {
       "file": "s11_g03",
+      "text": "Es la D. El cuadro es una estenosis hipertrófica del píloro clásica. Lo ideal sería pedir primero una ecografía para confirmar, pero de las alternativas que te dan, el tratamiento de elección es la piloromiotomía de Ramstedt, siempre corrigiendo antes la deshidratación y la alcalosis del paciente."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. Todo vómito bilioso es una urgencia hasta que la descartes."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Vómito en proyectil, con un lactante hambriento: piensa en la estenosis del píloro."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Y el dolor cólico que va y viene te lleva a la invaginación intestinal."
+    },
+    {
+      "file": "s12_g03",
       "text": "Y en la estenosis del píloro, primero corriges la alcalosis, y después operas, nunca al revés. Si te llevas una sola idea de hoy: mira el color del vómito y la edad del niño, y ya tienes casi todo el diagnóstico. Nos vemos en la próxima clase."
     }
   ]

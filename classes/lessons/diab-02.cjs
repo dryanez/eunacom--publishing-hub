@@ -216,6 +216,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La resistencia a la insulina en la piel',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg', label: 'Acantosis nigricans', credit: 'Manual AMIR Dermatología, p. 30' },
+      ],
+      steps: [
+        { note: 'Piel oscura y aterciopelada',
+          say: 'Esto es una acantosis nigricans: piel oscura, engrosada y aterciopelada en los pliegues, aquí en la axila. Es un marcador de resistencia a la insulina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },

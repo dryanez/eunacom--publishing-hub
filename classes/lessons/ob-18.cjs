@@ -127,6 +127,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Hemorragia postparto',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-18/S1_balon-b-lynch__propio.svg', label: 'Bakri y B-Lynch', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg', label: 'Balón de Bakri', credit: 'Wikimedia Commons «Bakri Balloon Hariadhi.svg», CC BY-SA 4.0, Hariadhi' },
+      ],
+      steps: [
+        { note: 'Tratamientos conservadores',
+          say: 'Si el masaje y los uterotónicos fallan, se usa el balón de Bakri o la sutura de B Lynch antes de la histerectomía.' },
+        { note: 'En la cavidad uterina',
+          say: 'Este es el balón de Bakri inflado dentro del útero.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las cuatro T en un solo árbol de decisión.',
     },

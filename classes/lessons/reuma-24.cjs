@@ -178,6 +178,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Osteoporosis',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales', credit: 'Manual AMIR Reumatología, p. 88' },
+      ],
+      steps: [
+        { note: 'Fracturas por fragilidad',
+          say: 'Estos aplastamientos vertebrales son fracturas por fragilidad. Con una fractura así, el diagnóstico es osteoporosis aunque la densitometría no llegue al corte.' },
+      ],
+    },
+
+    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",

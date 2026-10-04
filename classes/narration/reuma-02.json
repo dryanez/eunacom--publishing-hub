@@ -2,7 +2,7 @@
   "id": "reuma-02",
   "title": "Reumatologia 9.2: Artritis Séptica del Adulto y Protésica: Etiología, Drenaje Urgente y Antimicrobianos",
   "specialty": "Reumatología",
-  "chars": 15036,
+  "chars": 15190,
   "segments": [
     {
       "file": "s00_g00",
@@ -174,95 +174,83 @@
     },
     {
       "file": "s09_g00",
-      "text": "Veamos el algoritmo completo de decisiones frente a la sospecha de artritis séptica. Paciente con dolor articular agudo lancinante, limitación funcional e impotencia motora pasiva y activa. Se debe actuar con máxima urgencia."
-    },
-    {
-      "file": "s09_g01",
-      "text": "La anatomía articular determina el tipo de drenaje y el riesgo de secuelas vasculares graves."
-    },
-    {
-      "file": "s09_g02",
-      "text": "La cadera es una articulación profunda e inextensible. Las punciones cerradas están contraindicadas. Se programa de inmediato aseo quirúrgico formal en pabellón, ya sea por artrotomía o artroscopía, y se inician antibióticos endovenosos."
-    },
-    {
-      "file": "s09_g03",
-      "text": "En rodilla u otra articulación periférica accesible, se realiza artrocentesis diagnóstica y evacuadora inmediata antes de administrar antibióticos."
-    },
-    {
-      "file": "s09_g04",
-      "text": "Se revisa la tinción de Gram rápida y el perfil clínico del paciente para seleccionar el esquema empírico."
-    },
-    {
-      "file": "s09_g05",
-      "text": "Estafilococo áureo sensible de la comunidad. Esquema de elección: cefazolina dos gramos cada ocho horas endovenosa o cloxacilina dos gramos cada cuatro horas, asociado a punciones articulares evacuadoras diarias."
-    },
-    {
-      "file": "s09_g06",
-      "text": "Sospecha de estafilococo resistente por hemodiálisis crónica, catéteres vasculares o infección nosocomial. Se indica vancomicina endovenosa con niveles valle entre quince y veinte microgramos por mililitro."
-    },
-    {
-      "file": "s09_g07",
-      "text": "Adulto joven sexualmente activo con tenosinovitis o lesiones cutáneas: sospecha de infección gonocócica diseminada. Ceftriaxona endovenosa más azitromicina oral en monodosis."
-    },
-    {
-      "file": "s09_g08",
-      "text": "Infección sobre material protésico. Requiere evaluación traumatológica urgente para recambio o desbridamiento, asociando rifampicina oral una vez drenado el foco para erradicar el biofilm bacteriano."
+      "text": "Esta rodilla está aumentada de volumen por un derrame. Si además hay fiebre y dolor intenso, se punciona de inmediato para descartar una artritis séptica."
     },
     {
       "file": "s10_g00",
-      "text": "Repasemos la tabla de esquemas empíricos. Adulto sano comunitario con sospecha de estafilococo sensible: cefazolina dos gramos cada ocho horas endovenosa o cloxacilina dos gramos cada cuatro horas. Duración de tres a cuatro semanas."
+      "text": "Veamos el algoritmo completo de decisiones frente a la sospecha de artritis séptica. Paciente con dolor articular agudo lancinante, limitación funcional e impotencia motora pasiva y activa. Se debe actuar con máxima urgencia."
     },
     {
       "file": "s10_g01",
-      "text": "Riesgo de estafilococo resistente o paciente en hemodiálisis: vancomicina quince a veinte miligramos por kilo cada doce horas, ajustada por niveles plasmáticos valle. Duración de cuatro semanas."
+      "text": "La anatomía articular determina el tipo de drenaje y el riesgo de secuelas vasculares graves."
     },
     {
       "file": "s10_g02",
-      "text": "Adulto joven con sospecha gonocócica: ceftriaxona uno a dos gramos al día endovenosa más azitromicina oral en dosis única. Responde rápido; duración de siete a diez días."
+      "text": "La cadera es una articulación profunda e inextensible. Las punciones cerradas están contraindicadas. Se programa de inmediato aseo quirúrgico formal en pabellón, ya sea por artrotomía o artroscopía, y se inician antibióticos endovenosos."
     },
     {
       "file": "s10_g03",
-      "text": "Anciano frágil, antecedente de infección urinaria o drogas endovenosas: ceftriaxona dos gramos al día más cefazolina, o cefepime si hay sospecha de Pseudomonas. Duración de cuatro a seis semanas."
+      "text": "En rodilla u otra articulación periférica accesible, se realiza artrocentesis diagnóstica y evacuadora inmediata antes de administrar antibióticos."
     },
     {
       "file": "s10_g04",
-      "text": "Y en prótesis articular: antibiótico endovenoso dirigido más rifampicina trescientos a cuatrocientos cincuenta miligramos cada doce horas para erradicar el biofilm, con recambio quirúrgico y tratamiento por tres a seis meses."
+      "text": "Se revisa la tinción de Gram rápida y el perfil clínico del paciente para seleccionar el esquema empírico."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Estafilococo áureo sensible de la comunidad. Esquema de elección: cefazolina dos gramos cada ocho horas endovenosa o cloxacilina dos gramos cada cuatro horas, asociado a punciones articulares evacuadoras diarias."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Sospecha de estafilococo resistente por hemodiálisis crónica, catéteres vasculares o infección nosocomial. Se indica vancomicina endovenosa con niveles valle entre quince y veinte microgramos por mililitro."
+    },
+    {
+      "file": "s10_g07",
+      "text": "Adulto joven sexualmente activo con tenosinovitis o lesiones cutáneas: sospecha de infección gonocócica diseminada. Ceftriaxona endovenosa más azitromicina oral en monodosis."
+    },
+    {
+      "file": "s10_g08",
+      "text": "Infección sobre material protésico. Requiere evaluación traumatológica urgente para recambio o desbridamiento, asociando rifampicina oral una vez drenado el foco para erradicar el biofilm bacteriano."
     },
     {
       "file": "s11_g00",
-      "text": "Vamos al caso clínico de la clase. Paciente de treinta y tres años con dolor intenso y claudicación de cadera izquierda de veinticuatro horas, con fiebre de treinta y ocho coma ocho grados e impotencia funcional severa. La punción muestra líquido purulento y el Gram revela cocos grampositivos en racimo."
+      "text": "Repasemos la tabla de esquemas empíricos. Adulto sano comunitario con sospecha de estafilococo sensible: cefazolina dos gramos cada ocho horas endovenosa o cloxacilina dos gramos cada cuatro horas. Duración de tres a cuatro semanas."
     },
     {
       "file": "s11_g01",
-      "text": "¿Cuál es la conducta terapéutica de elección?"
+      "text": "Riesgo de estafilococo resistente o paciente en hemodiálisis: vancomicina quince a veinte miligramos por kilo cada doce horas, ajustada por niveles plasmáticos valle. Duración de cuatro semanas."
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: cloxacilina oral con reposo, ceftriaxona endovenosa con muletas, vancomicina endovenosa con punciones seriadas en sala, cefazolina endovenosa y aseo quirúrgico urgente en pabellón, o corticoides intraarticulares con opioides. Piénsalo."
+      "text": "Adulto joven con sospecha gonocócica: ceftriaxona uno a dos gramos al día endovenosa más azitromicina oral en dosis única. Responde rápido; duración de siete a diez días."
     },
     {
       "file": "s11_g03",
-      "text": "La respuesta correcta es la D. Los cocos grampositivos en racimo son estafilococo áureo, y el tratamiento bactericida de primera línea en la comunidad es cefazolina o cloxacilina endovenosa. Pero la clave del caso está en la articulación: la cadera es profunda y las punciones en sala no logran evacuar el pus a presión, arriesgando necrosis avascular de la cabeza femoral. El aseo quirúrgico en pabellón es mandatorio e inaplazable."
+      "text": "Anciano frágil, antecedente de infección urinaria o drogas endovenosas: ceftriaxona dos gramos al día más cefazolina, o cefepime si hay sospecha de Pseudomonas. Duración de cuatro a seis semanas."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Y en prótesis articular: antibiótico endovenoso dirigido más rifampicina trescientos a cuatrocientos cincuenta miligramos cada doce horas para erradicar el biofilm, con recambio quirúrgico y tratamiento por tres a seis meses."
     },
     {
       "file": "s12_g00",
-      "text": "Pregunta real del examen de julio de dos mil veinticinco, pregunta ciento veintiséis. Hombre de sesenta años con dolor, calor y aumento de volumen súbito en la rodilla derecha. La artrocentesis muestra líquido turbio con cincuenta mil glóbulos blancos, noventa por ciento de polimorfonucleares y el Gram muestra cocos grampositivos en racimo."
+      "text": "Vamos al caso clínico de la clase. Paciente de treinta y tres años con dolor intenso y claudicación de cadera izquierda de veinticuatro horas, con fiebre de treinta y ocho coma ocho grados e impotencia funcional severa. La punción muestra líquido purulento y el Gram revela cocos grampositivos en racimo."
     },
     {
       "file": "s12_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta terapéutica de elección?"
     },
     {
       "file": "s12_g02",
-      "text": "Las opciones: artritis séptica por estafilococo áureo, gota aguda, artritis reumatoide, pseudogota por pirofosfato, o artritis reactiva. Piénsalo."
+      "text": "Las opciones: cloxacilina oral con reposo, ceftriaxona endovenosa con muletas, vancomicina endovenosa con punciones seriadas en sala, cefazolina endovenosa y aseo quirúrgico urgente en pabellón, o corticoides intraarticulares con opioides. Piénsalo."
     },
     {
       "file": "s12_g03",
-      "text": "Es la A. Cincuenta mil leucocitos con noventa por ciento de polimorfonucleares es el punto de corte del líquido séptico, y la observación de cocos grampositivos en racimo entrega el diagnóstico etiológico inmediato de Staphylococcus aureus. Aunque la gota puede alcanzar cifras inflamatorias muy altas, la presencia bacteriana en el Gram descarta una causa puramente microcristalina."
+      "text": "La respuesta correcta es la D. Los cocos grampositivos en racimo son estafilococo áureo, y el tratamiento bactericida de primera línea en la comunidad es cefazolina o cloxacilina endovenosa. Pero la clave del caso está en la articulación: la cadera es profunda y las punciones en sala no logran evacuar el pus a presión, arriesgando necrosis avascular de la cabeza femoral. El aseo quirúrgico en pabellón es mandatorio e inaplazable."
     },
     {
       "file": "s13_g00",
-      "text": "Examen de julio de dos mil dieciséis, pregunta treinta y nueve. Paciente de sesenta y siete años con dolor e impotencia funcional en el codo derecho desde hace dos días, con fiebre de treinta y nueve grados, taquicardia y eritema local. Tanto la movilidad activa como la pasiva son intensamente dolorosas."
+      "text": "Pregunta real del examen de julio de dos mil veinticinco, pregunta ciento veintiséis. Hombre de sesenta años con dolor, calor y aumento de volumen súbito en la rodilla derecha. La artrocentesis muestra líquido turbio con cincuenta mil glóbulos blancos, noventa por ciento de polimorfonucleares y el Gram muestra cocos grampositivos en racimo."
     },
     {
       "file": "s13_g01",
@@ -270,50 +258,66 @@
     },
     {
       "file": "s13_g02",
-      "text": "Las opciones: artritis reactiva, artritis séptica, artritis gotosa, condrocalcinosis, o artritis reumatoide. Piénsalo."
+      "text": "Las opciones: artritis séptica por estafilococo áureo, gota aguda, artritis reumatoide, pseudogota por pirofosfato, o artritis reactiva. Piénsalo."
     },
     {
       "file": "s13_g03",
-      "text": "La respuesta correcta es la B. Fiebre alta de treinta y nueve grados, compromiso agudo del codo y dolor exquisito tanto a la movilidad activa como pasiva configuran una artritis séptica clásica. Fíjate cómo la pregunta destaca el dolor a la movilidad pasiva: eso confirma que la infección es intraarticular y no una simple bursitis olecraneana superficial."
+      "text": "Es la A. Cincuenta mil leucocitos con noventa por ciento de polimorfonucleares es el punto de corte del líquido séptico, y la observación de cocos grampositivos en racimo entrega el diagnóstico etiológico inmediato de Staphylococcus aureus. Aunque la gota puede alcanzar cifras inflamatorias muy altas, la presencia bacteriana en el Gram descarta una causa puramente microcristalina."
     },
     {
       "file": "s14_g00",
-      "text": "Pregunta real de julio de dos mil dieciséis, pregunta ciento tres. Paciente de sesenta y un años, diabética e hipertensa, que presenta tres días de dolor, aumento de volumen y rubor en el hombro derecho, con fiebre de treinta y ocho coma dos grados y limitación funcional que impide todo movimiento."
+      "text": "Examen de julio de dos mil dieciséis, pregunta treinta y nueve. Paciente de sesenta y siete años con dolor e impotencia funcional en el codo derecho desde hace dos días, con fiebre de treinta y nueve grados, taquicardia y eritema local. Tanto la movilidad activa como la pasiva son intensamente dolorosas."
     },
     {
       "file": "s14_g01",
-      "text": "El diagnóstico más probable es:"
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s14_g02",
-      "text": "Las alternativas: gota, condrocalcinosis, artritis reumatoide, artritis séptica, o artritis reactiva. Piénsalo."
+      "text": "Las opciones: artritis reactiva, artritis séptica, artritis gotosa, condrocalcinosis, o artritis reumatoide. Piénsalo."
     },
     {
       "file": "s14_g03",
-      "text": "Es la D. En una paciente diabética, con fiebre y monoartritis aguda de hombro, la artritis séptica es el diagnóstico obligado. La diabetes predispone a bacteriemias, y el hombro es una articulación típica de siembra hematógena. La gota y la condrocalcinosis afectan predominantemente el primer ortejo y la rodilla, y rara vez comprometen el hombro con fiebre."
+      "text": "La respuesta correcta es la B. Fiebre alta de treinta y nueve grados, compromiso agudo del codo y dolor exquisito tanto a la movilidad activa como pasiva configuran una artritis séptica clásica. Fíjate cómo la pregunta destaca el dolor a la movilidad pasiva: eso confirma que la infección es intraarticular y no una simple bursitis olecraneana superficial."
     },
     {
       "file": "s15_g00",
-      "text": "Cerremos con las tres reglas de oro. Estafilococo áureo es la causa más frecuente en todas las edades. En adultos jóvenes sexualmente activos sospecha gonococo con síndrome de artritis y dermatitis."
+      "text": "Pregunta real de julio de dos mil dieciséis, pregunta ciento tres. Paciente de sesenta y un años, diabética e hipertensa, que presenta tres días de dolor, aumento de volumen y rubor en el hombro derecho, con fiebre de treinta y ocho coma dos grados y limitación funcional que impide todo movimiento."
     },
     {
       "file": "s15_g01",
-      "text": "El esquema empírico inicial en la comunidad es cefazolina o cloxacilina endovenosa, reservando vancomicina para hemodiálisis o riesgo de resistencia."
+      "text": "El diagnóstico más probable es:"
     },
     {
       "file": "s15_g02",
-      "text": "El tratamiento descansa en dos pilares simultáneos: antibióticos bactericidas endovenosos y descompresión mecánica urgente."
+      "text": "Las alternativas: gota, condrocalcinosis, artritis reumatoide, artritis séptica, o artritis reactiva. Piénsalo."
     },
     {
       "file": "s15_g03",
+      "text": "Es la D. En una paciente diabética, con fiebre y monoartritis aguda de hombro, la artritis séptica es el diagnóstico obligado. La diabetes predispone a bacteriemias, y el hombro es una articulación típica de siembra hematógena. La gota y la condrocalcinosis afectan predominantemente el primer ortejo y la rodilla, y rara vez comprometen el hombro con fiebre."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las tres reglas de oro. Estafilococo áureo es la causa más frecuente en todas las edades. En adultos jóvenes sexualmente activos sospecha gonococo con síndrome de artritis y dermatitis."
+    },
+    {
+      "file": "s16_g01",
+      "text": "El esquema empírico inicial en la comunidad es cefazolina o cloxacilina endovenosa, reservando vancomicina para hemodiálisis o riesgo de resistencia."
+    },
+    {
+      "file": "s16_g02",
+      "text": "El tratamiento descansa en dos pilares simultáneos: antibióticos bactericidas endovenosos y descompresión mecánica urgente."
+    },
+    {
+      "file": "s16_g03",
       "text": "La rodilla puede drenarse con punciones seriadas o artroscopía, pero la cadera siempre requiere aseo quirúrgico urgente en pabellón para evitar necrosis avascular."
     },
     {
-      "file": "s15_g04",
+      "file": "s16_g04",
       "text": "En prótesis articulares por estafilococo es mandatorio asociar rifampicina oral para erradicar el biofilm."
     },
     {
-      "file": "s15_g05",
+      "file": "s16_g05",
       "text": "Y en el examen físico, el dolor intolerable a la movilidad pasiva confirma artritis séptica y descarta bursitis. Si te llevas una sola idea de hoy: en artritis séptica los antibióticos y el drenaje jamás se separan, y la cadera nunca puede esperar. Nos vemos en la próxima clase."
     }
   ]
