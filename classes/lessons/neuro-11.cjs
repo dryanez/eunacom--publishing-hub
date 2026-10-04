@@ -255,11 +255,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La vía nigroestriada',
       images: [
-        { src: 'animaciones/neuro-11/A1_nigroestriada.mp4', label: 'Dopamina', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-11/A1_nigroestriada_3d.mp4', label: 'Sustancia nigra y estriado', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
       ],
       steps: [
         { note: 'Se pierde y se repone',
-          say: 'Las neuronas de la sustancia nigra envían dopamina al estriado. En el Parkinson se pierden, y los síntomas aparecen cuando ya falta más de la mitad. La levodopa repone la dopamina y el movimiento mejora.' },
+          say: 'Las neuronas de la sustancia nigra, en el mesencéfalo, envían dopamina al estriado: el caudado y el putamen. En el Parkinson esas neuronas mueren y la nigra se despigmenta. Los síntomas aparecen cuando ya falta más de la mitad. La levodopa repone la dopamina y el movimiento mejora.' },
       ],
     },
 

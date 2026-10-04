@@ -1,0 +1,143 @@
+"""Lote 8: anatomía real. Ilustraciones Blausen (CC BY 3.0) limpias de rótulos, con movimiento y rótulos propios."""
+from estilo import *
+
+# ------------------------------------------------------------------ nefro-08: dónde actúa cada diurético
+NEFRONA = dict(IMG='Nephron Anatomy.png', CROP=(0.47, 0.245, 0.94, 0.93))
+# recorrido del filtrado (fracciones de la imagen original)
+TUBULO = [(0.585, 0.425), (0.63, 0.40), (0.68, 0.335), (0.73, 0.31), (0.735, 0.37), (0.70, 0.43), (0.675, 0.50),
+          (0.672, 0.65), (0.675, 0.80), (0.69, 0.875), (0.715, 0.82), (0.718, 0.65), (0.72, 0.50), (0.75, 0.44),
+          (0.80, 0.42), (0.84, 0.40), (0.865, 0.43), (0.865, 0.60), (0.862, 0.75), (0.86, 0.88)]
+
+
+class Nefro08Diureticos(BlausenScene):
+    IMG, CROP = NEFRONA['IMG'], NEFRONA['CROP']
+
+    def construct(self):
+        title(self, 'Dónde actúa cada diurético', 'Un segmento de la nefrona para cada fármaco', AMBER)
+        self.lamina(height=6.2, center=RIGHT * 3.0 + DOWN * 0.45)
+        tub = self.path(TUBULO)
+        dots, t = self.flow(tub, n=14, color=AMBER, r=0.055, run=3.0)
+        items = [
+            ('Acetazolamida', 'túbulo proximal', (0.71, 0.345), VIOLET, 0),
+            ('Furosemida', 'asa de Henle (rama gruesa)', (0.718, 0.62), RED_, 2),
+            ('Tiazidas', 'túbulo distal', (0.80, 0.42), BLUE_, 1),
+            ('Espironolactona', 'túbulo colector', (0.864, 0.66), GREEN_, 3),
+        ]
+        for name, seg, (fx, fy), col, slot in items:
+            y = 1.55 - 1.35 * slot
+            p = self.P(fx, fy)
+            lab = VGroup(T(name, 30, col, bold=True), T(seg, 21, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.08)
+            lab.move_to(LEFT * 4.3 + UP * y, aligned_edge=LEFT).shift(LEFT * 0.9)
+            ring = Circle(radius=0.28, color=col, stroke_width=6).move_to(p)
+            glow = Dot(p, radius=0.28, color=col).set_opacity(0.35)
+            ln = Line(lab.get_right() + RIGHT * 0.15, p + (lab.get_right() - p) / np.linalg.norm(lab.get_right() - p) * 0.3,
+                      color=col, stroke_width=3)
+            self.play(FadeIn(lab, shift=RIGHT * 0.2), Create(ln), GrowFromCenter(ring), FadeIn(glow),
+                      t.animate.increment_value(0.25), run_time=1.0, rate_func=linear)
+            self.play(glow.animate.scale(1.5).set_opacity(0.0), t.animate.increment_value(0.35), run_time=1.1, rate_func=linear)
+        self.play(t.animate.increment_value(1), run_time=3, rate_func=linear)
+
+
+# ------------------------------------------------------------------ diab-10: arteriola eferente e IECA
+AFERENTE = [(0.455, 0.535), (0.48, 0.50), (0.505, 0.465), (0.535, 0.435), (0.57, 0.425)]
+EFERENTE = [(0.565, 0.415), (0.535, 0.41), (0.508, 0.395), (0.495, 0.36), (0.50, 0.32), (0.525, 0.29), (0.565, 0.272),
+            (0.61, 0.272), (0.65, 0.285), (0.69, 0.30)]
+GLOM = (0.585, 0.43)
+
+
+class Diab10Eferente(BlausenScene):
+    IMG, CROP = 'Nephron Anatomy.png', (0.478, 0.25, 0.73, 0.56)
+
+    def construct(self):
+        title(self, 'La arteriola eferente', 'El IECA la dilata y baja la presión dentro del glomérulo', GREEN_)
+        self.lamina(height=5.9, center=RIGHT * 2.7 + DOWN * 0.45)
+        af, ef = self.path(AFERENTE), self.path(EFERENTE)
+        g = self.P(*GLOM)
+        la = tag('Aferente: entra', RED_, 22).move_to(self.P(0.47, 0.545) + LEFT * 2.3 + DOWN * 0.1)
+        le = tag('Eferente: sale', VIOLET, 22).move_to(self.P(0.565, 0.315))
+        lg = tag('Glomérulo', AMBER, 22).move_to(g + DOWN * 1.45 + RIGHT * 0.2)
+        # medidor de presión glomerular
+        frame = RoundedRectangle(corner_radius=0.1, width=0.55, height=2.6, stroke_color=MUTED, stroke_width=2).move_to(LEFT * 5.6 + DOWN * 1.75)
+        lvl = ValueTracker(0.45)
+        fill = always_redraw(lambda: Rectangle(width=0.43, height=2.46 * lvl.get_value(), fill_opacity=1, stroke_width=0,
+                                               fill_color=interpolate_color(ManimColor(GREEN_), ManimColor(RED_), lvl.get_value()))
+                             .align_to(frame, DOWN).shift(UP * 0.07).set_x(frame.get_x()))
+        gl = VGroup(T('Presión en', 20, MUTED), T('el glomérulo', 20, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(frame, RIGHT, buff=0.25)
+        glow = always_redraw(lambda: Dot(g, radius=0.45 + 0.5 * lvl.get_value(), color=RED_).set_opacity(0.15 + 0.35 * lvl.get_value()))
+        self.add(glow, frame, fill, gl)
+        self.play(FadeIn(la), FadeIn(le), FadeIn(lg), run_time=0.8)
+        blood = VGroup()
+        ta, te = ValueTracker(0), ValueTracker(0)
+        speed = {'e': 1.0}
+        for path, tr, n in ((af, ta, 7), (ef, te, 9)):
+            for i in range(n):
+                d = Dot(radius=0.07, color='#C0392B').set_stroke(WHITE, 1)
+                d.add_updater(lambda m, p=path, tr=tr, i=i, n=n: m.move_to(p.point_from_proportion((tr.get_value() + i / n) % 1)))
+                blood.add(d)
+        self.add(blood)
+        self.play(ta.animate.increment_value(1), te.animate.increment_value(1), run_time=2.5, rate_func=linear)
+        # angiotensina II contrae la eferente
+        pinch = self.P(0.497, 0.355)
+        arr = VGroup(Arrow(pinch + LEFT * 0.75, pinch + LEFT * 0.18, buff=0, color=RED_, stroke_width=6),
+                     Arrow(pinch + RIGHT * 0.75, pinch + RIGHT * 0.18, buff=0, color=RED_, stroke_width=6))
+        t1 = VGroup(T('Diabetes: la angiotensina II', 24, RED_, bold=True), T('contrae la eferente', 24, RED_, bold=True),
+                    T('hiperfiltración, se escapa albúmina', 20, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.08).to_edge(LEFT, buff=0.5).shift(UP * 0.9)
+        self.play(GrowArrow(arr[0]), GrowArrow(arr[1]), FadeIn(t1), lvl.animate.set_value(0.92),
+                  ta.animate.increment_value(0.6), te.animate.increment_value(0.3), run_time=2.0, rate_func=linear)
+        alb = VGroup(*[Dot(g + np.array([np.cos(a), np.sin(a), 0]) * 0.2, radius=0.05, color=AMBER) for a in np.linspace(0, 2 * PI, 7)])
+        self.play(*[d.animate.shift(np.array([0.9 + 0.3 * np.cos(i), -0.35 + 0.3 * np.sin(i), 0])).set_opacity(0) for i, d in enumerate(alb)],
+                  ta.animate.increment_value(0.6), te.animate.increment_value(0.3), run_time=1.6, rate_func=linear)
+        # IECA: la eferente se dilata
+        arr2 = VGroup(Arrow(pinch + LEFT * 0.18, pinch + LEFT * 0.75, buff=0, color=GREEN_, stroke_width=6),
+                      Arrow(pinch + RIGHT * 0.18, pinch + RIGHT * 0.75, buff=0, color=GREEN_, stroke_width=6))
+        t2 = VGroup(T('IECA o ARA II: la eferente', 24, GREEN_, bold=True), T('se dilata', 24, GREEN_, bold=True),
+                    T('baja la presión, menos albuminuria', 20, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.08).move_to(t1, aligned_edge=LEFT)
+        self.play(ReplacementTransform(arr, arr2), FadeOut(t1), FadeIn(t2), lvl.animate.set_value(0.45),
+                  ta.animate.increment_value(0.8), te.animate.increment_value(1.0), run_time=2.0, rate_func=linear)
+        self.play(ta.animate.increment_value(1.2), te.animate.increment_value(1.6), run_time=3.0, rate_func=linear)
+
+
+# ------------------------------------------------------------------ resp-04: enfisema y atrapamiento aéreo
+class Resp04Enfisema(BlausenScene):
+    IMG = 'Blausen 0343 Emphysema.png'
+
+    def construct(self):
+        title(self, 'Enfisema', 'Se rompen los tabiques: menos superficie y aire atrapado', BLUE_)
+        a = self.lamina(width=6.3, center=LEFT * 3.4 + DOWN * 0.55, crop=(0.02, 0.05, 0.52, 0.35))
+        b = self.lamina(width=6.3, center=RIGHT * 3.4 + DOWN * 0.55, crop=(0.02, 0.42, 0.52, 0.74), credit=False)
+        la = T('Alvéolos normales', 28, GREEN_, bold=True).next_to(a, UP, buff=0.3)
+        lb = T('Enfisema', 28, RED_, bold=True).next_to(b, UP, buff=0.3)
+        self.play(FadeIn(la), FadeIn(lb), run_time=0.6)
+        na = [(0.07, 0.20), (0.14, 0.13), (0.20, 0.20), (0.27, 0.15), (0.25, 0.26), (0.33, 0.19), (0.15, 0.26), (0.31, 0.29), (0.40, 0.16)]
+        nb = [(0.10, 0.60), (0.20, 0.58), (0.28, 0.61), (0.35, 0.58), (0.22, 0.66), (0.15, 0.53), (0.30, 0.68), (0.42, 0.56), (0.12, 0.66)]
+        ea, eb = self.P(0.50, 0.155, a), self.P(0.50, 0.545, b)
+        A = VGroup(*[Dot(ea, radius=0.09, color=BLUE_).set_stroke(WHITE, 1.5) for _ in na])
+        B = VGroup(*[Dot(eb, radius=0.09, color=BLUE_).set_stroke(WHITE, 1.5) for _ in nb])
+        self.add(A, B)
+        trapped = 0
+        cnt = T('', 22)
+        for cycle in range(3):
+            ins = T('Inspiración', 24, INK).to_edge(DOWN, buff=0.35)
+            self.play(FadeIn(ins, run_time=0.2),
+                      *[d.animate.move_to(self.P(*p, img=a)) for d, p in zip(A, na)],
+                      *[d.animate.move_to(self.P(*p, img=b)) for d, p in zip(B, nb) if d.get_center()[0] > self.P(0.45, 0.5, b)[0] or True],
+                      run_time=1.3)
+            exp = T('Espiración', 24, INK).to_edge(DOWN, buff=0.35)
+            keep = 3 * (cycle + 1)                      # en el enfisema una parte no sale
+            self.play(FadeOut(ins, run_time=0.2), FadeIn(exp, run_time=0.2),
+                      *[d.animate.move_to(ea) for d in A],
+                      *[d.animate.move_to(eb) for d in B[keep:]],
+                      run_time=1.3)
+            self.play(FadeOut(exp), run_time=0.2)
+            if cycle == 0:
+                # tabiques rotos
+                marks = VGroup(*[Cross(scale_factor=0.13, stroke_color=RED_, stroke_width=5).move_to(self.P(*p, img=b))
+                                 for p in ((0.115, 0.575), (0.185, 0.635), (0.245, 0.525), (0.30, 0.655))])
+                t1 = T('Tabiques rotos: espacios grandes', 22, RED_).next_to(b, DOWN, buff=0.2)
+                t0 = T('Muchos tabiques: gran superficie', 22, GREEN_).next_to(a, DOWN, buff=0.2)
+                self.play(LaggedStart(*[GrowFromCenter(m) for m in marks], lag_ratio=0.2), FadeIn(t0), FadeIn(t1), run_time=1.2)
+        for d in B[:9]:
+            d.set_color(AMBER)
+        t2 = tag('Aire atrapado: hiperinsuflación', AMBER, 24).move_to(b.get_center() + UP * 1.2)
+        self.play(FadeOut(marks), FadeIn(t2), *[Indicate(d, color=AMBER, scale_factor=1.4) for d in B[:9]], run_time=1.4)
+        self.wait(1.5)

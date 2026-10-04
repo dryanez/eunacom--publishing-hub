@@ -492,7 +492,82 @@ def parto():
     setup((-2.2, -6.4, 0.0), (cx, 0, lo.z + 0.45), lens=36)
 
 
+def acalasia(normal=False):
+    eso = load('FMA7131', 'esofago', (0.88, 0.55, 0.50), alpha=0.55)
+    sto = load('FMA7148', 'estomago', GUT, alpha=0.6 if normal else 1.0)
+    bpy.context.view_layer.objects.active = eso
+    m = eso.modifiers.new('sub', 'SUBSURF'); m.levels = 2; bpy.ops.object.modifier_apply(modifier='sub')
+    c, s = normalize([eso, sto], fit=2.3)
+    # línea central del esófago por cortes en z
+    vs = [v.co.copy() for v in eso.data.vertices]
+    zlo = min(v.z for v in vs); zhi = max(v.z for v in vs)
+    N = 40; cen = []
+    for i in range(N + 1):
+        z = zlo + (zhi - zlo) * i / N
+        sl = [v for v in vs if abs(v.z - z) < (zhi - zlo) / N]
+        if sl: cen.append(sum(sl, Vector()) / len(sl))
+    def at(z):
+        return min(cen, key=lambda p: abs(p.z - z))
+    z_les = zlo + 0.06 * (zhi - zlo)
+    # megaesófago: shape key que ensancha el tercio distal sobre el EEI (pico de pájaro abajo)
+    eso.shape_key_add(name='base')
+    sk = eso.shape_key_add(name='mega')
+    span = 0.55 * (zhi - zlo)
+    for i, v in enumerate(eso.data.vertices):
+        z = v.co.z
+        t = (z - z_les) / span
+        if 0 < t < 1:
+            w = ease(t / 0.3) * (1 - ease((t - 0.55) / 0.45))
+            ctr = at(z); d = v.co - ctr; d.z = 0
+            sk.data[i].co = v.co + d * (2.4 * w)
+    F = FRAMES
+    sk.value = 0; sk.keyframe_insert('value', frame=int(F * 0.45))
+    sk.value = 0 if normal else 1; sk.keyframe_insert('value', frame=int(F * 0.85))
+    ring = torus('eei', at(z_les), 0.075, 0.022, (0.95, 0.2, 0.15))
+    if normal:
+        slo, shi = bbox(sto); s_c = (slo + shi) / 2
+        GRN = (0.25, 0.85, 0.5)
+        for j in range(4):
+            b = sphere(f'bolo{j}', at(zhi - 0.05), 0.055, (0.95, 0.85, 0.55), emit=0.6)
+            t0 = int(F * (0.03 + 0.2 * j)); dur = int(F * 0.16)
+            key(b, 'scale', max(1, t0 - 1), Vector((0.001,) * 3)); key(b, 'scale', t0, Vector((1, 1, 1)))
+            zs = [zhi - 0.05 - k * 0.06 for k in range(60)]; zs = [z for z in zs if z > z_les] + [z_les]
+            for k, z in enumerate(zs):
+                key(b, 'location', t0 + int(dur * k / len(zs)), at(z))
+            tin = t0 + dur
+            key(b, 'location', tin + int(F * 0.06), s_c + Vector((0.05 * j - 0.08, 0, 0.05)))
+            key(b, 'scale', tin + int(F * 0.06), Vector((1, 1, 1))); key(b, 'scale', tin + int(F * 0.14), Vector((0.001,) * 3))
+            # el EEI se abre justo cuando llega el bolo
+            key(ring, 'scale', max(1, tin - int(F * 0.05)), Vector((1, 1, 1)))
+            key(ring, 'scale', tin - 1, Vector((1.7, 1.7, 1)))
+            key(ring, 'scale', tin + int(F * 0.05), Vector((1, 1, 1)))
+            color_key(ring, max(1, tin - int(F * 0.05)), (0.95, 0.2, 0.15), emit=0.4)
+            color_key(ring, tin - 1, GRN, emit=1.5)
+            color_key(ring, tin + int(F * 0.05), (0.95, 0.2, 0.15), emit=0.4)
+        look = at(z_les + 0.35 * (zhi - zlo)) * 0.6 + Vector((0.15, 0, z_les)) * 0.4
+        setup((look.x + 0.7, look.y - 4.6, look.z + 0.25), tuple(look), lens=40)
+        return
+    for f in range(int(F * 0.25), F, max(6, F // 14)):
+        color_key(ring, f, (0.95, 0.2, 0.15), emit=0.4)
+        color_key(ring, f + max(3, F // 28), (1.0, 0.35, 0.25), emit=2.5)
+    # bolos que bajan y se acumulan sobre el EEI
+    food = (0.95, 0.85, 0.55)
+    for j in range(5):
+        b = sphere(f'bolo{j}', at(zhi - 0.05), 0.055, food, emit=0.6)
+        t0 = int(F * (0.03 + 0.11 * j)); stop = z_les + 0.09 + j * 0.085
+        path = [z for z in [zhi - 0.05 - k * 0.06 for k in range(60)] if z > stop] + [stop]
+        n = len(path); dur = int(F * 0.22)
+        key(b, 'location', 1, at(path[0])); b.scale = (0.001,) * 3; b.keyframe_insert('scale', frame=max(1, t0 - 1))
+        key(b, 'scale', t0, Vector((1, 1, 1)))
+        for k, z in enumerate(path):
+            key(b, 'location', t0 + int(dur * k / max(1, n - 1)), at(z))
+    look = at(z_les + 0.35 * (zhi - zlo)) * 0.6 + Vector((0.15, 0, z_les)) * 0.4
+    setup((look.x + 0.7, look.y - 4.6, look.z + 0.25), tuple(look), lens=40)
+
+
 SCENES = {
+    'gastro03_acalasia': acalasia,
+    'gastro03_normal': lambda: acalasia(True),
     'resp14_tension': lambda: resp14(False),
     'resp14_puncion': lambda: resp14(True),
     'ped08_cuerpo': lambda: bronquio('cuerpo'),

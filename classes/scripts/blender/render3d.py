@@ -16,8 +16,16 @@ SCRIPTS = {'z_parkinson': 'z_parkinson.py'}
 
 # escena: (destino, cuadros, título, subtítulo, color, [(texto, desde_s, hasta_s, x, y, color)])
 JOBS = {
-    'z_parkinson': ('neuro-11/A1_nigroestriada_3d', 144, 'Parkinson: la vía nigroestriada', 'La sustancia nigra envía dopamina al estriado; al perder sus neuronas se despigmenta', 'B388FF',
-                    [('Sustancia nigra', 0.4, 3.0, 120, 600, 'FFFFFF'), ('Estriado (caudado y putamen)', 0.4, 3.0, 700, 160, '4FA3FF'), ('Se pierden las neuronas: falta dopamina', 3.6, 6, 120, 600, 'FF5A4E')]),
+    'z_parkinson': ('neuro-11/A1_nigroestriada_3d', 192, 'Parkinson: la vía nigroestriada', 'La sustancia nigra envía dopamina al estriado; al perder sus neuronas se despigmenta', 'B388FF',
+                    [('Sustancia nigra', 0.4, 4.0, 880, 430, 'FFFFFF', (700, 365)), ('Estriado (caudado y putamen)', 0.4, 4.0, 900, 150, '4FA3FF', (820, 190)),
+                     ('Dopamina', 1.0, 4.0, 900, 250, 'FFD34D', (705, 290)),
+                     ('La nigra se despigmenta', 4.6, 8, 880, 430, 'FF5A4E', (700, 365)), ('Falta dopamina en el estriado', 5.2, 8, 120, 620, 'FF5A4E')]),
+    'gastro03_normal': ('gastro-03/A1_deglucion_normal_3d', 168, 'Deglución normal', 'La onda peristáltica baja el bolo y el esfínter inferior se abre justo cuando llega', '3DDC84',
+                        [('Esfínter esofágico inferior', 0.3, 7, 800, 450, '3DDC84', (612, 467)), ('Se abre y deja pasar', 1.5, 7, 800, 500, 'FFFFFF')]),
+    'gastro03_acalasia': ('gastro-03/A1_acalasia_3d', 168, 'Acalasia', 'El esfínter esofágico inferior no se relaja: el alimento se retiene y el esófago se dilata', 'FFC247',
+                          [('Esfínter esofágico inferior', 0.3, 3.2, 800, 450, 'FF5A4E', (612, 467)), ('No se relaja al tragar', 1.2, 3.2, 800, 500, 'FFFFFF'),
+                           ('El alimento se retiene', 2.4, 4.4, 800, 360, 'FFD34D', (605, 390)),
+                           ('Megaesófago', 4.6, 7, 800, 260, 'FFC247', (655, 280)), ('Pico de pájaro', 4.6, 7, 800, 450, 'FF5A4E', (606, 462))]),
     'resp14_tension': ('resp-14/A1_tension_3d', 120, 'Neumotórax a tensión', 'El aire atrapado colapsa el pulmón y empuja el mediastino al otro lado', 'FF5A4E',
                        [('Pulmón derecho colapsado', 3.2, 5, 140, 560, 'FF5A4E'), ('Mediastino desplazado', 3.2, 5, 820, 560, 'FFC247')]),
     'resp14_puncion': ('resp-14/A2_puncion_3d', 120, 'Descompresión con aguja', '2.º espacio intercostal, línea medioclavicular, sin esperar la radiografía', '3DDC84',
@@ -48,15 +56,18 @@ def overlay_png(path, items):
     """items: [(texto, x, y, tamaño, color_hex, caja)] -> PNG transparente 1280x720."""
     from PIL import Image, ImageDraw, ImageFont
     im = Image.new('RGBA', (1280, 720), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    if any(sz >= 34 for _, _, _, sz, _, _ in items):              # franja oscura detrás del título
+    if any(sz >= 34 for _, _, _, sz, *_ in items):              # franja oscura detrás del título
         for yy in range(0, 130):
             a = int(215 * (1 - max(0, yy - 95) / 35)) if yy > 95 else 215
             d.line([(0, yy), (1280, yy)], fill=(14, 17, 22, a))
-    for txt, x, y, size, col, boxed in items:
+    for txt, x, y, size, col, boxed, *ptr in items:
         f = ImageFont.truetype(FONT, size, index=1 if size >= 34 else 0)
         w = d.textlength(txt, font=f)
         if x == 'right':
             x = 1280 - 24 - w
+        if ptr and ptr[0]:                                           # línea guía hasta la estructura
+            tx, ty = ptr[0]; sx = x - 10 if tx < x else x + w + 10; sy = y + size // 2 + 1
+            d.line([(sx, sy), (tx, ty)], fill='#' + col, width=3); d.ellipse([tx - 6, ty - 6, tx + 6, ty + 6], outline='#' + col, width=3)
         if boxed:
             d.rounded_rectangle([x - 10, y - 8, x + w + 10, y + size + 10], radius=8, fill=(14, 17, 22, 170))
         d.text((x, y), txt, font=f, fill='#' + col)
@@ -79,9 +90,9 @@ def render(scene, preview=False):
     overlay_png(base, [(title, 36, 26, 38, col, False), (sub, 36, 76, 22, '9AA0A6', False), (ZCREDIT if scene in SCRIPTS else CREDIT, 'right', 690, 15, '6E6E73', False)])
     inputs = ['-framerate', '24', '-i', os.path.join(tmp, 'f_%04d.png'), '-i', base]
     chain = '[0:v][1:v]overlay=0:0[v1]'
-    for i, (txt, a, b, x, y, c) in enumerate(labels):
+    for i, (txt, a, b, x, y, c, *ptr) in enumerate(labels):
         pth = f'/tmp/a3d_{scene}_lab{i}.png'
-        overlay_png(pth, [(txt, x, y, 28, c, True)])
+        overlay_png(pth, [(txt, x, y, 28, c, True, *ptr)])
         inputs += ['-i', pth]
         chain += f";[v{i + 1}][{i + 2}:v]overlay=0:0:enable='between(t,{a},{b})'[v{i + 2}]"
     last = f'[v{len(labels) + 1}]'

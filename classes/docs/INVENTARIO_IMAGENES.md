@@ -138,7 +138,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | diab-01 | dataset_diabetes.cjs (diab-01) | Animación | tipo1 | `animaciones/diab-01/A1_tipo1.mp4` | Animación propia (Manim) | sí |
 | diab-01 | dataset_diabetes.cjs (diab-01) | Animación | tipo2 | `animaciones/diab-01/A2_tipo2.mp4` | Animación propia (Manim) | sí |
 | diab-02 | dataset_diabetes.cjs (diab-02) | Imagen | acantosis nigricans | `biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg` | DERMA, p. 30 | sí |
-| diab-10 | dataset_diabetes.cjs (diab-10) | Animación | eferente | `animaciones/diab-10/A1_eferente.mp4` | Animación propia (Manim) | sí |
+| diab-10 | dataset_diabetes.cjs (diab-10) | Animación | eferente | `animaciones/diab-10/A1_eferente_real.mp4` | Animación propia (Manim) | sí |
 | diab-11 | dataset_diabetes.cjs (diab-11) | Animación | basales | `animaciones/diab-11/A1_basales.mp4` | Animación propia (Manim) | sí |
 | diab-11 | dataset_diabetes.cjs (diab-11) | Animación | prandiales | `animaciones/diab-11/A2_prandiales.mp4` | Animación propia (Manim) | sí |
 | diab-12 | dataset_diabetes.cjs (diab-12) | Animación | somogyi | `animaciones/diab-12/A1_somogyi.mp4` | Animación propia (Manim) | sí |
@@ -242,8 +242,8 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | gastro-02 | dataset_gastroenterologia.cjs (gastro-02) | Imagen | úlcera gástrica (Forrest IIc) | `biblioteca/01_gastroenterologia/gastro-02/01_ulcera-gastrica-forrest-iic__cto-digestivo_p63.jpg` | Digestivo, p. 63 | sí |
 | gastro-02 | dataset_gastroenterologia.cjs (gastro-02) | Imagen | úlcera duodenal con punto pigmentado | `biblioteca/01_gastroenterologia/gastro-02/01_ulcera_duodenal__harrison_p2430.jpg` | Harrison 21.ª ed., p. 2430 | sí |
 | gastro-02 | dataset_gastroenterologia.cjs (gastro-02) | Imagen | úlcera duodenal con vaso visible | `biblioteca/01_gastroenterologia/gastro-02/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg` | Harrison 21.ª ed., p. 2430 | sí |
-| gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Animación | deglucion normal | `animaciones/gastro-03/A1_deglucion_normal.mp4` | Animación propia (Manim) | sí |
-| gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Animación | acalasia | `animaciones/gastro-03/A2_acalasia.mp4` | Animación propia (Manim) | sí |
+| gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Animación | deglucion normal | `animaciones/gastro-03/A1_deglucion_normal_3d.mp4` | Animación propia (Manim) | sí |
+| gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Animación | acalasia | `animaciones/gastro-03/A1_acalasia_3d.mp4` | Animación propia (Manim) | sí |
 | gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Imagen | manometría de alta resolución acalasia I-III | `biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg` | Digestivo, p. 18 | sí |
 | gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Alternativa | manometria de alta resolucion acalasia i alt1 | `biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i_alt1__cto-digestivo_p19.jpg` | Manual CTO digestivo, p. 19 | no |
 | gastro-03 | dataset_gastroenterologia.cjs (gastro-03) | Alternativa | manometria de alta resolucion acalasia i alt2 | `biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i_alt2__cto-digestivo_p19.jpg` | Manual CTO digestivo, p. 19 | no |
@@ -556,7 +556,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | nefro-05 | dataset_nefrologia.cjs (nefro-05) | Animación | neurona correccion | `animaciones/nefro-05/A3_neurona_correccion.mp4` | Animación propia (Manim) | sí |
 | nefro-07 | dataset_nefrologia.cjs (nefro-07) | Animación | privacion agua | `animaciones/nefro-07/A1_privacion_agua.mp4` | Animación propia (Manim) | sí |
 | nefro-08 | dataset_nefrologia.cjs (nefro-08) | Animación | sueros | `animaciones/nefro-08/A1_sueros.mp4` | Animación propia (Manim) | sí |
-| nefro-08 | dataset_nefrologia.cjs (nefro-08) | Animación | diureticos | `animaciones/nefro-08/A2_diureticos.mp4` | Animación propia (Manim) | sí |
+| nefro-08 | dataset_nefrologia.cjs (nefro-08) | Animación | diureticos | `animaciones/nefro-08/A2_diureticos_real.mp4` | Animación propia (Manim) | sí |
 | nefro-09 | dataset_nefrologia.cjs (nefro-09, bloque 3) | Imagen | ECG hiperpotasemia (T picudas → sinusoidal) | `biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal__cto-nefro_p23.jpg` | Nefrologia, p. 23 | sí |
 | nefro-09 | dataset_nefrologia.cjs (nefro-09, bloque 3) | Alternativa | ecg hiperpotasemia t picudas sinusoidal alt1 | `biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg` | Manual CTO cardio, p. 19 | no |
 | nefro-09 | dataset_nefrologia.cjs (nefro-09, bloque 3) | Animación | ecg hiperkalemia normal | `biblioteca/03_nefrologia/nefro-09/A1_ecg_hiperkalemia_normal__animacion.svg` | Animación propia (SVG) | sí |
@@ -602,7 +602,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | neuro-08 | dataset_neurologia.cjs (neuro-08) | Animación | crisis propagacion | `animaciones/neuro-08/A1_crisis_propagacion.mp4` | Animación propia (Manim) | sí |
 | neuro-08 | dataset_neurologia.cjs (neuro-08) | Imagen | EEG punta-onda 3 Hz | `biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg` | Neurologia, p. 73 | sí |
 | neuro-09 | dataset_neurologia.cjs (neuro-09) | Animación | reloj estatus | `animaciones/neuro-09/A1_reloj_estatus.mp4` | Animación propia (Manim) | sí |
-| neuro-11 | dataset_neurologia.cjs (neuro-11) | Animación | nigroestriada | `animaciones/neuro-11/A1_nigroestriada.mp4` | Animación propia (Manim) | sí |
+| neuro-11 | dataset_neurologia.cjs (neuro-11) | Animación | nigroestriada | `animaciones/neuro-11/A1_nigroestriada_3d.mp4` | Animación propia (Manim) | sí |
 | neuro-11 | dataset_neurologia.cjs (neuro-11) | Imagen | postura parkinsoniana | `biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg` | Neurologia, p. 54 | sí |
 | neuro-11 | dataset_neurologia.cjs (neuro-11) | Dibujo propio | micrografia | `biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg` | Dibujo propio | sí |
 | neuro-13 | dataset_neurologia.cjs (neuro-13) | Imagen | espiral de Arquímedes dibujada por paciente con temblor esencial | `biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg` | Wikimedia Commons «Spiral drawing - essential tremor.jpg», CC BY-SA 4.0, Undescribed | sí |
@@ -834,7 +834,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | resp-01 | dataset_neumologia.cjs (resp-01, bloque 1) | Dibujo propio | flujo volumen | `biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg` | Dibujo propio | sí |
 | resp-02 | dataset_neumologia.cjs (resp-02, bloque 1) | Animación | crisis asmatica | `animaciones/resp-02/A1_crisis_asmatica.mp4` | Animación propia (Manim) | sí |
 | resp-03 | dataset_neumologia.cjs (resp-03, bloque 1) | Dibujo propio | prueba broncodilatadora | `biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg` | Dibujo propio | sí |
-| resp-04 | dataset_neumologia.cjs (resp-04, bloque 1) | Animación | enfisema | `animaciones/resp-04/A1_enfisema.mp4` | Animación propia (Manim) | sí |
+| resp-04 | dataset_neumologia.cjs (resp-04, bloque 1) | Animación | enfisema | `animaciones/resp-04/A1_enfisema_real.mp4` | Animación propia (Manim) | sí |
 | resp-04 | dataset_neumologia.cjs (resp-04, bloque 1) | Imagen | EPOC: hiperinsuflación, diafragmas aplanados | `biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg` | The Chest X-Ray: A Survival Guide, Fig. 22.2 | sí |
 | resp-04 | dataset_neumologia.cjs (resp-04, bloque 1) | Imagen | tipos de enfisema | `biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg` | Neumologia, p. 43 | sí |
 | resp-06 | dataset_neumologia.cjs (resp-06) | Imagen | consolidación lobar | `biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg` | Radiologia, p. 13 | sí |

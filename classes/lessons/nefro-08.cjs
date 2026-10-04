@@ -100,13 +100,13 @@ module.exports = {
       title: 'Sueros y diuréticos',
       images: [
         { src: 'animaciones/nefro-08/A1_sueros.mp4', label: 'Sueros', credit: 'Animación propia' },
-        { src: 'animaciones/nefro-08/A2_diureticos.mp4', label: 'Diuréticos', credit: 'Animación propia' },
+        { src: 'animaciones/nefro-08/A2_diureticos_real.mp4', label: 'Diuréticos', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Dónde se queda cada uno',
           say: 'Del suero fisiológico, un cuarto queda en el vaso y el resto va al intersticio, sin entrar a la célula. El suero glucosado es agua libre: dos tercios entran a las células.' },
         { note: 'Un segmento cada uno',
-          say: 'La acetazolamida actúa en el túbulo proximal, la furosemida en el asa de Henle, las tiazidas en el túbulo distal, y la espironolactona en el colector.' },
+          say: 'Sigamos el filtrado por la nefrona. La acetazolamida actúa en el túbulo proximal, la furosemida en la rama gruesa del asa de Henle, las tiazidas en el túbulo distal, y la espironolactona en el colector.' },
       ],
     },
 

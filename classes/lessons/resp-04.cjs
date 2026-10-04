@@ -155,13 +155,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'El enfisema',
+      title: 'Enfisema en movimiento',
       images: [
-        { src: 'animaciones/resp-04/A1_enfisema.mp4', label: 'Enfisema', credit: 'Animación propia' },
+        { src: 'animaciones/resp-04/A1_enfisema_real.mp4', label: 'Enfisema', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Alvéolos que se rompen',
-          say: 'En el enfisema se rompen los tabiques entre los alvéolos: quedan espacios grandes, con menos superficie de intercambio, y el pulmón atrapa aire.' },
+        { note: 'Tabiques rotos, aire atrapado',
+          say: 'En el enfisema se rompen los tabiques entre los alvéolos: quedan espacios grandes, con menos superficie de intercambio. En cada espiración una parte del aire no alcanza a salir, y el pulmón queda hiperinsuflado.' },
       ],
     },
 

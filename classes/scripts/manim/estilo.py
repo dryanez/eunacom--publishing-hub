@@ -64,3 +64,71 @@ def box(text, sub=None, color=BLUE_, w=3.2, h=1.1):
     else:
         t.move_to(r)
     return g
+
+
+# ------------------------------------------------------------------ ilustración real (Blausen) de fondo
+BLAUSEN_CREDIT = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'
+
+
+class BlausenScene(Scene):
+    """Escena con una ilustración Blausen limpia (sin rótulos en inglés) como fondo.
+    Definir IMG, CROP=(x0,y0,x1,y1) y ERASE=[...] en fracciones de la imagen ORIGINAL; luego self.lamina(...)
+    y self.P(fx, fy) devuelve el punto de la escena que corresponde a esa fracción de la imagen original."""
+    IMG = ''
+    CROP = (0, 0, 1, 1)
+    ERASE = ()
+
+    def lamina(self, height=6.0, center=DOWN * 0.35, card=True, crop=None, width=None, credit=True):
+        import hashlib, os, sys
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from blausen_clean import clean
+        crop = crop or self.CROP
+        key = hashlib.md5(repr((self.IMG, crop, self.ERASE)).encode()).hexdigest()[:10]
+        png = f'/tmp/blausen_{key}.png'
+        if not os.path.exists(png):
+            clean(self.IMG, png, crop, self.ERASE)
+        img = ImageMobject(png)
+        img.set(width=width) if width else img.set(height=height)
+        img.move_to(center)
+        img.crop_ = crop
+        self.img = img
+        if card:
+            bg = RoundedRectangle(corner_radius=0.2, width=img.width + 0.3, height=img.height + 0.3,
+                                  fill_color=WHITE, fill_opacity=1, stroke_width=0).move_to(img)
+            self.add(bg)
+        self.add(img)
+        if credit:
+            self.add(T(BLAUSEN_CREDIT, 13, MUTED).to_corner(DR, buff=0.15))
+        return img
+
+    def P(self, fx, fy, img=None):
+        img = img or self.img
+        x0, y0, x1, y1 = img.crop_
+        u, v = (fx - x0) / (x1 - x0), (fy - y0) / (y1 - y0)
+        return img.get_corner(UL) + RIGHT * u * img.width + DOWN * v * img.height
+
+    def path(self, pts, img=None):
+        return VMobject().set_points_smoothly([self.P(*p, img=img) for p in pts])
+
+    def flow(self, path, n=10, color=BLUE_, r=0.06, run=4.0, loops=1):
+        """Partículas que recorren `path` (VMobject) n a la vez, desfasadas."""
+        dots = VGroup(*[Dot(radius=r, color=color).set_stroke(WHITE, 1.2) for _ in range(n)])
+        t = ValueTracker(0)
+        def upd(g):
+            for i, d in enumerate(g):
+                a = (t.get_value() + i / n) % 1
+                d.move_to(path.point_from_proportion(a))
+        dots.add_updater(upd); upd(dots)
+        self.add(dots)
+        self.play(t.animate.set_value(loops), run_time=run, rate_func=linear)
+        return dots, t
+
+    def pin(self, fx, fy, text, color, side=LEFT, size=22, at=None):
+        """Rótulo con línea guía hasta un punto de la ilustración. Devuelve (grupo, punto)."""
+        p = self.P(fx, fy)
+        lab = tag(text, color, size)
+        lab.move_to(at if at is not None else p + side * 2.6)
+        a = lab.get_edge_center(-side) if at is None else lab.get_critical_point(np.sign(p - lab.get_center()) * np.array([1, 0, 0]))
+        ln = Line(a, p, color=color, stroke_width=3)
+        ring = Circle(radius=0.16, color=color, stroke_width=4).move_to(p)
+        return VGroup(ln, ring, lab), p

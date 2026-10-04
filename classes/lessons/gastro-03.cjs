@@ -158,14 +158,14 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La deglución en movimiento',
       images: [
-        { src: 'animaciones/gastro-03/A1_deglucion_normal.mp4', label: 'Normal', credit: 'Animación propia' },
-        { src: 'animaciones/gastro-03/A2_acalasia.mp4', label: 'Acalasia', credit: 'Animación propia' },
+        { src: 'animaciones/gastro-03/A1_deglucion_normal_3d.mp4', label: 'Normal', credit: 'Modelo 3D: BodyParts3D (DBCLS, CC BY 4.0)' },
+        { src: 'animaciones/gastro-03/A1_acalasia_3d.mp4', label: 'Acalasia', credit: 'Modelo 3D: BodyParts3D (DBCLS, CC BY 4.0)' },
       ],
       steps: [
         { note: 'Onda que baja, esfínter que se abre',
-          say: 'En la deglución normal, una onda peristáltica empuja el bolo hacia abajo, y justo cuando llega, el esfínter esofágico inferior se relaja y lo deja pasar.' },
+          say: 'En la deglución normal, una onda peristáltica empuja el bolo hacia abajo, y justo cuando llega, el esfínter esofágico inferior se relaja y lo deja pasar al estómago.' },
         { note: 'Sin onda, esfínter cerrado',
-          say: 'En la acalasia no hay peristalsis y el esfínter no se relaja: su presión se mantiene alta. El bolo se estanca y, con el tiempo, el esófago se dilata por encima: la imagen en pico de pájaro.' },
+          say: 'En la acalasia no hay peristalsis y el esfínter no se relaja: su presión se mantiene alta. El bolo se estanca y, con el tiempo, el esófago se dilata por encima. Abajo queda la imagen en pico de pájaro.' },
       ],
     },
 

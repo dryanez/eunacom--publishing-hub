@@ -113,3 +113,16 @@ izquierda de la pantalla), rótulos que se salen o se tapan, título encima del 
 4. Seguir el PLAN_ANIMACIONES.md (★★★ que faltan: cirugia-01/10, derma-01, gin-06/16, ob-11, oftal-01/17,
    ped-06/13/22, resp-19/23, reuma-03/04/06/14/17, neuro-20) — casi todas 3D.
 5. Commit + push a `main` el mismo día.
+
+## 7. Progreso 2026-10-05 (sesión 2)
+- Hecho con anatomía real: neuro-11 (3D Z-Anatomy, final), gastro-03 normal + acalasia (3D BP3D: esófago, estómago),
+  nefro-08 A2 diuréticos, diab-10 eferente, resp-04 enfisema (Blausen limpio). Videos abstractos reemplazados y borrados.
+- **Pipeline Blausen**: `classes/scripts/manim/blausen_clean.py` quita automáticamente los rótulos en inglés (texto y líneas
+  negras → inpainting OpenCV, instalado en el venv de manim) y recorta. `BlausenScene` en `estilo.py`: `lamina(crop=..., width=...)`
+  (admite varias láminas), `P(fx, fy, img)` = punto de la escena para una fracción de la imagen ORIGINAL, `path`, `flow`.
+  Escenas en `lote8.py`. Para ubicar puntos: limpiar la imagen y dibujarle una grilla de fracciones (ver historia de lote8).
+- `render3d.py`: los rótulos aceptan un 7.º elemento `(x, y)` → línea guía hasta la estructura.
+- `insert_anim.py` y `zexport.py` reescritos (no estaban en el repo). `zexport.py -- --list <regex>` lista nombres de Z-Anatomy.
+  Z-Anatomy NO tiene esófago como malla (usar BP3D FMA7131).
+- Blausen: 104 PNG siguen vacíos. upload.wikimedia.org devuelve 429 a esta IP; urllib de Python falla por SSL → usar curl
+  con pausas largas cuando se levante el bloqueo. Faltan, entre otros: Sickle Cell Anemia, Placenta Previa.

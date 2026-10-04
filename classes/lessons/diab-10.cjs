@@ -134,11 +134,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La arteriola eferente',
       images: [
-        { src: 'animaciones/diab-10/A1_eferente.mp4', label: 'IECA', credit: 'Animación propia' },
+        { src: 'animaciones/diab-10/A1_eferente_real.mp4', label: 'IECA', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Baja la presión del glomérulo',
-          say: 'El IECA dilata la arteriola de salida del glomérulo. Baja la presión dentro del glomérulo y se escapa menos albúmina. Por eso protege el riñón aunque la presión sea normal.' },
+          say: 'En la diabetes, la angiotensina dos contrae la arteriola de salida del glomérulo: sube la presión adentro y se escapa albúmina. El IECA o el ARA dos dilatan esa arteriola, baja la presión y se escapa menos albúmina. Por eso protegen el riñón aunque la presión arterial sea normal.' },
       ],
     },
 

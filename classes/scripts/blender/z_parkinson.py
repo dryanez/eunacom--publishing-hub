@@ -58,7 +58,7 @@ src = nig[0].location.copy()
 tl, th = obbox(P['putl']); put_c = (tl + th) / 2
 cl, ch = obbox(P['caul']); cau_c = (cl + ch) / 2
 for i in range(16):
-    p = sphere(f'da{i}', src, 0.04, (1.0, 0.82, 0.2), emit=2.5)
+    p = sphere(f'da{i}', src, 0.065, (1.0, 0.82, 0.2), emit=4.0)
     tgt = put_c if i % 2 else cau_c
     period = int(F * 0.22); t0 = 1 + (i % 8) * int(F * 0.03)
     k = t0
