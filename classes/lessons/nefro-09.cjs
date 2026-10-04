@@ -72,6 +72,33 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      light: true,
+      kicker: 'En movimiento',
+      title: 'Cómo cambia el ECG a medida que sube el potasio',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-09/A1_ecg_hiperkalemia_normal__animacion.svg', label: 'Normal', credit: 'Animación propia (esquema didáctico)' },
+        { src: 'biblioteca/03_nefrologia/nefro-09/A2_ecg_hiperkalemia_t__animacion.svg', label: 'T picuda', credit: 'Animación propia (esquema didáctico)' },
+        { src: 'biblioteca/03_nefrologia/nefro-09/A3_ecg_hiperkalemia_pr__animacion.svg', label: 'PR largo, P plana', credit: 'Animación propia (esquema didáctico)' },
+        { src: 'biblioteca/03_nefrologia/nefro-09/A4_ecg_hiperkalemia_qrs__animacion.svg', label: 'Sin P, QRS ancho', credit: 'Animación propia (esquema didáctico)' },
+        { src: 'biblioteca/03_nefrologia/nefro-09/A5_ecg_hiperkalemia_sin__animacion.svg', label: 'Onda sinusoidal', credit: 'Animación propia (esquema didáctico)' },
+      ],
+      steps: [
+        { note: 'P, QRS angosto, T de base ancha',
+          say: 'Partamos con un trazado normal: onda P, un QRS angosto y una T redondeada de base ancha. Ahora vamos a subir el potasio.' },
+        { note: 'Primer signo',
+          say: 'Con potasio entre cinco coma cinco y seis coma cinco, lo primero que cambia es la T: se vuelve alta, picuda, simétrica y de base angosta, como una carpa.' },
+        { note: 'Se afecta la aurícula',
+          say: 'Entre seis coma cinco y siete, la onda P se aplana y el PR se alarga: la aurícula es la primera en sufrir.' },
+        { note: 'Al borde del paro',
+          say: 'Entre siete y ocho, la P desaparece y el QRS se ensancha hasta fundirse con la T. Este corazón está al borde del paro: calcio endovenoso ya.' },
+        { note: 'El paso previo al paro',
+          say: 'Y si sigue subiendo, el QRS y la T se unen en una onda sinusoidal. El siguiente paso es la fibrilación ventricular o la asistolia. Por eso el electrocardiograma, y no la cifra, decide la urgencia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'ECG real',
       title: 'La progresión en un paciente',

@@ -258,6 +258,8 @@
 
   /* Imagen clínica (foto, radiografía, ECG, registro) con hallazgos que se marcan a medida que se explican */
   .im-wrap { flex:1; min-height:0; display:flex; gap:22px; }
+  .iq-stages { flex:1; min-width:0; min-height:0; display:flex; }
+  .iq-step { flex:1; min-width:0; min-height:0; }
   .im-stage { position:relative; flex:1; min-width:0; min-height:0; background:#0E1116; border-radius:8px; display:flex; align-items:center; justify-content:center; padding:14px; container-type:size; }
   .im-stage.im-light { background:#FFFFFF; border:1px solid #DCD8CE; }
   .im-frame { position:relative; width:min(100cqw, calc(100cqh * var(--ar))); aspect-ratio:var(--ar); }
@@ -1247,6 +1249,17 @@
     }
 
     function renderImageHtml(sl) {
+      if (sl.layout === 'sequence') {   // una imagen grande que cambia en cada paso (animaciones, antes/después)
+        const stages = sl.images.map((im, i) => `<div id="iq-${i}" class="iq-step" style="display:${i === 0 ? 'flex' : 'none'}">${imStage(im, '', sl.light)}</div>`).join('');
+        const list = sl.steps.map((st, si) => `<div id="im-li-${si}" class="im-li im-hidden" style="--mc:${IM_COLORS[si % IM_COLORS.length]}" onclick="onCardClick(${si})"><span class="im-dot"></span><span><b>${sl.images[si] ? sl.images[si].label || '' : ''}</b>${sl.images[si] && sl.images[si].label ? ' · ' : ''}${st.note}</span></div>`).join('');
+        return `<div class="im-wrap">
+            <div class="iq-stages">${stages}</div>
+            <div class="im-panel">
+              <div id="im-card" class="im-card"><div class="im-tag">${sl.panelTag || 'Lo que tienes que ver'}</div><div id="im-big" class="im-big"></div></div>
+              <div class="im-list">${list}</div>
+            </div>
+          </div>`;
+      }
       if (sl.layout === 'gallery') {
         const n = sl.images.length;
         const cols = n <= 3 ? n : Math.ceil(n / 2);
@@ -1290,6 +1303,18 @@
         const note = document.getElementById('im-note');
         if (note) { note.textContent = (sl.steps[active] || {}).note || ''; note.classList.remove('fl-in'); void note.offsetWidth; note.classList.add('fl-in'); }
         return;
+      }
+      if (sl.layout === 'sequence') {
+        sl.images.forEach((_, i) => {
+          const el = document.getElementById('iq-' + i);
+          if (!el) return;
+          const show = i === Math.min(active, sl.images.length - 1);
+          if (show && el.style.display === 'none') {   // reinicia la animación SVG al mostrarla
+            const img = el.querySelector('img');
+            if (img) img.src = img.src.split('#')[0] + '#t' + Date.now();
+          }
+          el.style.display = show ? 'flex' : 'none';
+        });
       }
       document.querySelectorAll('.im-mark').forEach(el => {
         const st = +el.dataset.step;

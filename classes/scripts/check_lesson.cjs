@@ -67,7 +67,7 @@ function check(id) {
       const MEDIA = path.join(ROOT, 'classes', 'media');
       (s.images || []).forEach(im => { if (!fs.existsSync(path.join(MEDIA, im.src || ''))) errors.push(`${w}: falta la imagen classes/media/${im.src}`); if (!im.credit) warns.push(`${w}: imagen sin crédito (${im.src})`); });
       if (!(s.images || []).length) errors.push(`${w}: sin imágenes`);
-      if (s.layout === 'gallery' && (s.steps || []).length !== (s.images || []).length) errors.push(`${w}: en galería, un paso por imagen`);
+      if (['gallery', 'sequence'].includes(s.layout) && (s.steps || []).length !== (s.images || []).length) errors.push(`${w}: en galería o secuencia, un paso por imagen`);
       (s.steps || []).forEach((st, j) => {
         (st.marks || []).forEach(m => { if ([m.x, m.y, m.w, m.h].some(v => typeof v !== 'number' || v < 0 || v > 100) || m.x + m.w > 100.5 || m.y + m.h > 100.5) errors.push(`${w} paso ${j + 1}: marca fuera de la imagen`); });
         say(`${w} paso ${j + 1}`, st.say);

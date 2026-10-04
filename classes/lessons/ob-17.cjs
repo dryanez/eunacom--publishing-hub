@@ -150,6 +150,27 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      light: true,
+      kicker: 'En movimiento',
+      title: 'Las tres desaceleraciones, en tiempo real',
+      images: [
+        { src: 'biblioteca/14_obstetricia/ob-17/A1_desaceleracion_precoz__animacion.svg', label: 'Precoz', credit: 'Animación propia (esquema didáctico)' },
+        { src: 'biblioteca/14_obstetricia/ob-17/A2_desaceleracion_tardia__animacion.svg', label: 'Tardía', credit: 'Animación propia (esquema didáctico)' },
+        { src: 'biblioteca/14_obstetricia/ob-17/A3_desaceleracion_variable__animacion.svg', label: 'Variable', credit: 'Animación propia (esquema didáctico)' },
+      ],
+      steps: [
+        { note: 'Espejo de la contracción',
+          say: 'Mira cómo se dibujan las dos curvas al mismo tiempo: arriba la frecuencia cardíaca fetal, abajo la contracción. En la precoz, la frecuencia baja justo cuando sube la contracción, y su punto más bajo cae exactamente en el acmé, la línea punteada. Es un espejo. Se debe a la compresión de la cabeza y es benigna.' },
+        { note: 'Empieza después del acmé',
+          say: 'Ahora la tardía. Fíjate en la línea punteada: la contracción ya llegó a su punto más alto y la frecuencia recién empieza a bajar. Su punto más bajo llega después, y se recupera lento, cuando la contracción ya terminó. Ese retraso es la placenta que no alcanza a oxigenar: hipoxia.' },
+        { note: 'Brusca, en V, sin relación fija',
+          say: 'Y la variable: caídas bruscas, en forma de uve, que aparecen antes, durante o después de la contracción, sin un patrón fijo. Es el cordón que se comprime. Es grave si dura más de un minuto o si la frecuencia baja mucho.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',
