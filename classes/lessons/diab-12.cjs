@@ -225,6 +225,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La glicemia de la madrugada',
+      images: [
+        { src: 'animaciones/diab-12/A1_somogyi.mp4', label: 'Somogyi', credit: 'Animación propia' },
+        { src: 'animaciones/diab-12/A2_alba.mp4', label: 'Alba', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Baja de madrugada, rebota al despertar',
+          say: 'En el Somogyi, la NPH nocturna produce hipoglicemia de madrugada, y las hormonas de rebote suben la glicemia al despertar. Si mides a las tres de la mañana, la encuentras baja: hay que bajar la NPH.' },
+        { note: 'Normal de madrugada, alta al despertar',
+          say: 'En el fenómeno del alba, la glicemia está normal a las tres de la mañana y sube al amanecer por las hormonas matinales. Ahí hay que subir la NPH o ponerla más tarde.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo el razonamiento del ajuste en un solo árbol.',
     },

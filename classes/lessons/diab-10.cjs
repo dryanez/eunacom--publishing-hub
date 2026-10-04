@@ -129,6 +129,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La arteriola eferente',
+      images: [
+        { src: 'animaciones/diab-10/A1_eferente.mp4', label: 'IECA', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Baja la presión del glomérulo',
+          say: 'El IECA dilata la arteriola de salida del glomérulo. Baja la presión dentro del glomérulo y se escapa menos albúmina. Por eso protege el riñón aunque la presión sea normal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Llevemos todo a un árbol de decisión, como lo vas a razonar en el examen.',
     },

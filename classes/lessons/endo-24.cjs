@@ -220,6 +220,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La ADH en el túbulo colector',
+      images: [
+        { src: 'animaciones/endo-24/A1_diabetes_insipida.mp4', label: 'Diabetes insípida', credit: 'Animación propia' },
+        { src: 'animaciones/endo-24/A2_siadh.mp4', label: 'SIADH', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Orina abundante y diluida',
+          say: 'Sin ADH, las acuaporinas no se insertan y el agua se va por la orina: mucha orina, muy diluida. Si la desmopresina la concentra, el problema es central.' },
+        { note: 'Retiene agua',
+          say: 'En el SIADH sobra ADH: el colector reabsorbe agua sin parar, la orina se concentra y el sodio plasmático se diluye. Se trata restringiendo agua.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Neoplasia endocrina múltiple',
       images: [

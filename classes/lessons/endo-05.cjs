@@ -188,6 +188,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las tres fases',
+      images: [
+        { src: 'animaciones/endo-05/A1_tres_fases.mp4', label: 'Tiroiditis destructiva', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Tóxica, hipo y recuperación',
+          say: 'La glándula inflamada se rompe y libera la hormona guardada: primero tirotoxicosis, con TSH baja. Después queda vacía: hipotiroidismo, con TSH alta. Y en meses se recupera.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Tiroiditis de Hashimoto en la ecografía',
       images: [

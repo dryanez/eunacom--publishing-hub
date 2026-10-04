@@ -270,6 +270,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El viaje de la B doce',
+      images: [
+        { src: 'animaciones/hem-06/A1_viaje_b12.mp4', label: 'B doce', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Estómago, factor intrínseco, íleon',
+          say: 'La B doce viene de alimentos animales, necesita el ácido y el factor intrínseco del estómago, y se absorbe en el íleon terminal. Una falla en cualquier punto produce déficit, años después, porque el hígado guarda reservas.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Anemia megaloblástica',

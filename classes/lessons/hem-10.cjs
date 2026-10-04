@@ -176,6 +176,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El von Willebrand gigante',
+      images: [
+        { src: 'animaciones/hem-10/A1_adamts13.mp4', label: 'PTT', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Sin ADAMTS trece',
+          say: 'Normalmente la ADAMTS trece corta el von Willebrand. Sin ella, quedan multímeros gigantes que atrapan plaquetas y rompen los glóbulos rojos que pasan: esquistocitos y plaquetas bajas.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Microangiopatía trombótica',
       images: [

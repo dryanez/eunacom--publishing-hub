@@ -187,6 +187,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La hemoglobina S',
+      images: [
+        { src: 'animaciones/hem-09/A1_falciforme.mp4', label: 'Falciforme', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Hoz que ocluye',
+          say: 'Con poco oxígeno, la hemoglobina S polimeriza y el glóbulo se deforma en hoz. Las hoces se atascan en el capilar, produciendo crisis de dolor e infartos, y se rompen, produciendo anemia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hemoglobinopatías',

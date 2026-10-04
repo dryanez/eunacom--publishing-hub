@@ -2,7 +2,7 @@
   "id": "diab-01",
   "title": "Diabetes 1.1: Tipos de Diabetes Mellitus: DM1, DM2, LADA y MODY",
   "specialty": "Diabetes y Dislipidemias",
-  "chars": 10913,
+  "chars": 11250,
   "segments": [
     {
       "file": "s00_g00",
@@ -114,83 +114,75 @@
     },
     {
       "file": "s06_g00",
-      "text": "Ahora juntemos todo en un árbol de decisión, tal como vas a razonar en el examen. Tienes un paciente con diabetes confirmada. Antes de tratar, mira cuatro cosas: la edad, el peso, cómo debutó y quiénes más son diabéticos en la familia."
+      "text": "En la diabetes tipo uno, linfocitos atacan las células beta del islote. Cuando se destruyen, la insulina cae a casi cero y la glicemia sube: necesita insulina desde el inicio."
     },
     {
       "file": "s06_g01",
-      "text": "¿Tiene el fenotipo clásico de resistencia a la insulina, o es joven, delgado o con un debut catabólico rápido?"
-    },
-    {
-      "file": "s06_g02",
-      "text": "Adulto obeso, con acantosis: diabetes tipo dos. Péptido C conservado, y parte con metformina y cambios de estilo de vida."
-    },
-    {
-      "file": "s06_g03",
-      "text": "Si es joven, delgado o debuta con catabolismo, sospecha una tipo uno, una LADA o una MODY, y apóyate en el péptido C y los anticuerpos."
-    },
-    {
-      "file": "s06_g04",
-      "text": "Niño o adolescente que debuta con baja de peso o cetoacidosis: tipo uno. Déficit absoluto, e insulina obligatoria."
-    },
-    {
-      "file": "s06_g05",
-      "text": "Adulto delgado, con otra autoinmunidad y que no responde a los orales: LADA. Anti GAD positivo, e insulina precoz."
-    },
-    {
-      "file": "s06_g06",
-      "text": "Joven delgado, anticuerpos negativos y tres generaciones afectadas: MODY. Se controla muy bien con dosis bajas de sulfonilureas."
+      "text": "En la tipo dos, la insulina no funciona bien en el músculo y el hígado. Las células beta compensan fabricando más, pero con los años se agotan y la glicemia sube."
     },
     {
       "file": "s07_g00",
-      "text": "Repasemos lado a lado. Tipo uno: menor de veinte años, flaco, con baja de peso o cetoacidosis. Péptido C ausente, anticuerpos positivos, y la insulina es obligatoria."
+      "text": "Ahora juntemos todo en un árbol de decisión, tal como vas a razonar en el examen. Tienes un paciente con diabetes confirmada. Antes de tratar, mira cuatro cosas: la edad, el peso, cómo debutó y quiénes más son diabéticos en la familia."
     },
     {
       "file": "s07_g01",
-      "text": "Tipo dos: adulto con obesidad y acantosis. Péptido C normal o alto, anticuerpos negativos, y parte con metformina y estilo de vida."
+      "text": "¿Tiene el fenotipo clásico de resistencia a la insulina, o es joven, delgado o con un debut catabólico rápido?"
     },
     {
       "file": "s07_g02",
-      "text": "LADA: adulto delgado con otra autoinmunidad. Anti GAD positivo, péptido C bajando, y el error es insistir con orales: va insulina precoz."
+      "text": "Adulto obeso, con acantosis: diabetes tipo dos. Péptido C conservado, y parte con metformina y cambios de estilo de vida."
     },
     {
       "file": "s07_g03",
-      "text": "MODY: joven delgado con tres generaciones afectadas. Anticuerpos negativos, péptido C detectable, y excelente respuesta a sulfonilureas. El error es pensar que todo joven con diabetes necesita insulina."
+      "text": "Si es joven, delgado o debuta con catabolismo, sospecha una tipo uno, una LADA o una MODY, y apóyate en el péptido C y los anticuerpos."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Niño o adolescente que debuta con baja de peso o cetoacidosis: tipo uno. Déficit absoluto, e insulina obligatoria."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Adulto delgado, con otra autoinmunidad y que no responde a los orales: LADA. Anti GAD positivo, e insulina precoz."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Joven delgado, anticuerpos negativos y tres generaciones afectadas: MODY. Se controla muy bien con dosis bajas de sulfonilureas."
     },
     {
       "file": "s08_g00",
-      "text": "Vamos con un caso. Mujer de veintiocho años con tiroiditis de Hashimoto en tratamiento, de peso normal. Consulta por sed, cansancio y cuatro kilos menos en dos meses. Glicemia de ayuno de doscientos ochenta y cinco, hemoglobina glicosilada de diez coma dos, sin cetonas en la orina. Le iniciaron metformina y, tras cuatro semanas subiendo la dosis, la glicemia no baja."
+      "text": "Repasemos lado a lado. Tipo uno: menor de veinte años, flaco, con baja de peso o cetoacidosis. Péptido C ausente, anticuerpos positivos, y la insulina es obligatoria."
     },
     {
       "file": "s08_g01",
-      "text": "¿Cuál es la conducta más adecuada?"
+      "text": "Tipo dos: adulto con obesidad y acantosis. Péptido C normal o alto, anticuerpos negativos, y parte con metformina y estilo de vida."
     },
     {
       "file": "s08_g02",
-      "text": "Las alternativas: agregar glibenclamida, pedir anti GAD y péptido C e iniciar insulina, pedir un estudio genético para MODY, pedir una prueba de tolerancia a la glucosa, o subir la metformina al máximo. Piénsalo."
+      "text": "LADA: adulto delgado con otra autoinmunidad. Anti GAD positivo, péptido C bajando, y el error es insistir con orales: va insulina precoz."
     },
     {
       "file": "s08_g03",
-      "text": "Es la B. Suma las pistas: adulta joven, delgada, con otra enfermedad autoinmune, y que no responde a metformina. Es una LADA. Se confirma con anti GAD y péptido C, pero la insulina no espera el resultado. El distractor tentador es agregar glibenclamida: es lo que harías en una tipo dos, y aquí solo retrasa lo inevitable. Y la MODY no calza, porque no hay herencia familiar y sí hay autoinmunidad."
+      "text": "MODY: joven delgado con tres generaciones afectadas. Anticuerpos negativos, péptido C detectable, y excelente respuesta a sulfonilureas. El error es pensar que todo joven con diabetes necesita insulina."
     },
     {
       "file": "s09_g00",
-      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y seis años, hipotiroidea y con vitiligo, diagnosticada de diabetes hace un año. Toma dos gramos de metformina y veinte miligramos de glibenclamida al día, más dieta. Su hemoglobina glicosilada es ocho coma cinco y su glicemia de ayuno, ciento noventa y seis."
+      "text": "Vamos con un caso. Mujer de veintiocho años con tiroiditis de Hashimoto en tratamiento, de peso normal. Consulta por sed, cansancio y cuatro kilos menos en dos meses. Glicemia de ayuno de doscientos ochenta y cinco, hemoglobina glicosilada de diez coma dos, sin cetonas en la orina. Le iniciaron metformina y, tras cuatro semanas subiendo la dosis, la glicemia no baja."
     },
     {
       "file": "s09_g01",
-      "text": "¿Cuál es el diagnóstico más probable?"
+      "text": "¿Cuál es la conducta más adecuada?"
     },
     {
       "file": "s09_g02",
-      "text": "Las opciones: diabetes tipo uno LADA, diabetes MODY, diabetes secundaria, diabetes tipo dos con tendencia a la cetosis, o diabetes controlada. Piénsalo."
+      "text": "Las alternativas: agregar glibenclamida, pedir anti GAD y péptido C e iniciar insulina, pedir un estudio genético para MODY, pedir una prueba de tolerancia a la glucosa, o subir la metformina al máximo. Piénsalo."
     },
     {
       "file": "s09_g03",
-      "text": "Es la A, LADA. Es el caso de la clase casi calcado: dos enfermedades autoinmunes y un mal control a pesar de dosis altas de dos orales. La MODY es el distractor, pero la MODY se controla con sulfonilureas, y esta paciente está tomando veinte miligramos de glibenclamida sin resultado. Y claramente no está controlada: su hemoglobina glicosilada está sobre ocho."
+      "text": "Es la B. Suma las pistas: adulta joven, delgada, con otra enfermedad autoinmune, y que no responde a metformina. Es una LADA. Se confirma con anti GAD y péptido C, pero la insulina no espera el resultado. El distractor tentador es agregar glibenclamida: es lo que harías en una tipo dos, y aquí solo retrasa lo inevitable. Y la MODY no calza, porque no hay herencia familiar y sí hay autoinmunidad."
     },
     {
       "file": "s10_g00",
-      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciocho. Paciente de treinta y dos años, normopeso, diabético desde los veinte. Su padre, su hermano y su abuelo son diabéticos."
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y seis años, hipotiroidea y con vitiligo, diagnosticada de diabetes hace un año. Toma dos gramos de metformina y veinte miligramos de glibenclamida al día, más dieta. Su hemoglobina glicosilada es ocho coma cinco y su glicemia de ayuno, ciento noventa y seis."
     },
     {
       "file": "s10_g01",
@@ -198,15 +190,15 @@
     },
     {
       "file": "s10_g02",
-      "text": "Las opciones: tipo uno, tipo dos, LADA, MODY, o diabetes mitocondrial. Piénsalo."
+      "text": "Las opciones: diabetes tipo uno LADA, diabetes MODY, diabetes secundaria, diabetes tipo dos con tendencia a la cetosis, o diabetes controlada. Piénsalo."
     },
     {
       "file": "s10_g03",
-      "text": "Es la D, MODY. Mira cómo el enunciado es solo dos datos: diabetes antes de los veinticinco en un paciente delgado, y un árbol familiar vertical de tres generaciones. Eso es herencia autosómica dominante. La mitocondrial es un distractor ingenioso, pero se hereda por la madre, y aquí la línea es paterna."
+      "text": "Es la A, LADA. Es el caso de la clase casi calcado: dos enfermedades autoinmunes y un mal control a pesar de dosis altas de dos orales. La MODY es el distractor, pero la MODY se controla con sulfonilureas, y esta paciente está tomando veinte miligramos de glibenclamida sin resultado. Y claramente no está controlada: su hemoglobina glicosilada está sobre ocho."
     },
     {
       "file": "s11_g00",
-      "text": "Y una tercera, del EUNACOM de julio de dos mil trece. Paciente de diecisiete años, obeso, con una glicemia de ayuno de ciento treinta, que al repetirla da ciento treinta y siete. No tiene síntomas. Al examen, acantosis nigricans en el cuello y acrocordones."
+      "text": "Otra pregunta real, del EUNACOM de julio de dos mil dieciocho. Paciente de treinta y dos años, normopeso, diabético desde los veinte. Su padre, su hermano y su abuelo son diabéticos."
     },
     {
       "file": "s11_g01",
@@ -214,30 +206,46 @@
     },
     {
       "file": "s11_g02",
-      "text": "Las opciones: tipo uno, tipo dos, diabetes autoinmune, intolerancia a la glucosa, o glicemia de ayuno alterada. Piénsalo."
+      "text": "Las opciones: tipo uno, tipo dos, LADA, MODY, o diabetes mitocondrial. Piénsalo."
     },
     {
       "file": "s11_g03",
-      "text": "Es la B, tipo dos. Diecisiete años hace pensar en tipo uno, pero el mecanismo dice otra cosa: obesidad, acantosis y acrocordones son resistencia a la insulina, y el cuadro es asintomático, sin catabolismo. Además, dos glicemias de ayuno sobre ciento veintiséis ya son diabetes, así que la intolerancia y la glicemia alterada quedan fuera. Ese corte lo vemos a fondo en la próxima clase."
+      "text": "Es la D, MODY. Mira cómo el enunciado es solo dos datos: diabetes antes de los veinticinco en un paciente delgado, y un árbol familiar vertical de tres generaciones. Eso es herencia autosómica dominante. La mitocondrial es un distractor ingenioso, pero se hereda por la madre, y aquí la línea es paterna."
     },
     {
       "file": "s12_g00",
-      "text": "Cerremos con las reglas de oro. La tipo uno es un déficit absoluto de insulina: joven, flaco, con cetosis, y la insulina es obligatoria."
+      "text": "Y una tercera, del EUNACOM de julio de dos mil trece. Paciente de diecisiete años, obeso, con una glicemia de ayuno de ciento treinta, que al repetirla da ciento treinta y siete. No tiene síntomas. Al examen, acantosis nigricans en el cuello y acrocordones."
     },
     {
       "file": "s12_g01",
-      "text": "La tipo dos es resistencia a la insulina: obesidad y acantosis, y parte con metformina, aunque el paciente sea adolescente."
+      "text": "¿Cuál es el diagnóstico más probable?"
     },
     {
       "file": "s12_g02",
-      "text": "LADA: adulto delgado, con otra autoinmunidad y falla a los orales. Anti GAD positivo e insulina precoz."
+      "text": "Las opciones: tipo uno, tipo dos, diabetes autoinmune, intolerancia a la glucosa, o glicemia de ayuno alterada. Piénsalo."
     },
     {
       "file": "s12_g03",
+      "text": "Es la B, tipo dos. Diecisiete años hace pensar en tipo uno, pero el mecanismo dice otra cosa: obesidad, acantosis y acrocordones son resistencia a la insulina, y el cuadro es asintomático, sin catabolismo. Además, dos glicemias de ayuno sobre ciento veintiséis ya son diabetes, así que la intolerancia y la glicemia alterada quedan fuera. Ese corte lo vemos a fondo en la próxima clase."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. La tipo uno es un déficit absoluto de insulina: joven, flaco, con cetosis, y la insulina es obligatoria."
+    },
+    {
+      "file": "s13_g01",
+      "text": "La tipo dos es resistencia a la insulina: obesidad y acantosis, y parte con metformina, aunque el paciente sea adolescente."
+    },
+    {
+      "file": "s13_g02",
+      "text": "LADA: adulto delgado, con otra autoinmunidad y falla a los orales. Anti GAD positivo e insulina precoz."
+    },
+    {
+      "file": "s13_g03",
       "text": "MODY: joven delgado con tres generaciones afectadas, anticuerpos negativos, y responde a sulfonilureas."
     },
     {
-      "file": "s12_g04",
+      "file": "s13_g04",
       "text": "Y si hay duda, el péptido C mide la insulina propia y los anticuerpos confirman la autoinmunidad. Si te llevas una sola idea de hoy: pregúntate siempre si al páncreas le queda insulina, porque esa respuesta decide el tratamiento. Nos vemos en la próxima clase."
     }
   ]

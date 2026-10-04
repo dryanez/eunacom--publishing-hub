@@ -173,6 +173,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Falta total o parcial de insulina',
+      images: [
+        { src: 'animaciones/diab-15/A1_cad.mp4', label: 'Cetoacidosis', credit: 'Animación propia' },
+        { src: 'animaciones/diab-15/A2_hiperosmolar.mp4', label: 'Hiperosmolar', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cetonas y acidosis',
+          say: 'Sin nada de insulina, el hígado fabrica glucosa y la grasa se quema: aparecen las cetonas y la acidosis.' },
+        { note: 'Sin cetosis, osmolaridad altísima',
+          say: 'En el hiperosmolar queda algo de insulina en el hígado, suficiente para frenar las cetonas. Pero la glicemia y la osmolaridad suben muchísimo, con deshidratación y compromiso de conciencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol que vas a usar frente a un diabético descompensado.',
     },

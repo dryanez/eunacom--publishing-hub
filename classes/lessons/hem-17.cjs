@@ -179,6 +179,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El cromosoma Filadelfia',
+      images: [
+        { src: 'animaciones/hem-17/A1_filadelfia.mp4', label: 'Translocación', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'BCR-ABL',
+          say: 'Un trozo del nueve con el gen ABL se pega al veintidós junto al gen BCR. Nace BCR-ABL, una enzima siempre encendida que hace proliferar la serie mieloide. El imatinib la bloquea.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Leucemias crónicas',

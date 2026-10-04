@@ -179,6 +179,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La lisis tumoral',
+      images: [
+        { src: 'animaciones/hem-22/A1_lisis_tumoral.mp4', label: 'Lisis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Suben potasio, fósforo y úrico',
+          say: 'Con la quimioterapia, los blastos se rompen de golpe y liberan potasio, fósforo y ácido úrico. El fósforo arrastra al calcio, que baja. El riesgo es la arritmia y la falla renal.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Compresión medular',
       images: [

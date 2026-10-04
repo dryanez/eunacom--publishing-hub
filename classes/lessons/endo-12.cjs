@@ -168,6 +168,23 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Primaria o secundaria',
+      images: [
+        { src: 'animaciones/endo-12/A1_addison.mp4', label: 'Addison', credit: 'Animación propia' },
+        { src: 'animaciones/endo-12/A2_secundaria.mp4', label: 'Secundaria', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'ACTH alta, potasio alto',
+          say: 'En el Addison falla la suprarrenal: el cortisol cae, la ACTH sube y oscurece la piel, y como falta la aldosterona, el potasio sube.' },
+        { note: 'ACTH baja, sin hiperkalemia',
+          say: 'En la secundaria falla la hipófisis: la ACTH está baja, no hay pigmento, y la aldosterona se conserva porque depende de la renina. No hay hiperkalemia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'La piel del Addison',

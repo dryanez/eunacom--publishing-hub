@@ -154,6 +154,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dos mecanismos opuestos',
+      images: [
+        { src: 'animaciones/diab-01/A1_tipo1.mp4', label: 'Tipo uno', credit: 'Animación propia' },
+        { src: 'animaciones/diab-01/A2_tipo2.mp4', label: 'Tipo dos', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Destrucción autoinmune',
+          say: 'En la diabetes tipo uno, linfocitos atacan las células beta del islote. Cuando se destruyen, la insulina cae a casi cero y la glicemia sube: necesita insulina desde el inicio.' },
+        { note: 'Resistencia y agotamiento',
+          say: 'En la tipo dos, la insulina no funciona bien en el músculo y el hígado. Las células beta compensan fabricando más, pero con los años se agotan y la glicemia sube.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión, tal como vas a razonar en el examen.',
     },

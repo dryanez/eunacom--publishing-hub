@@ -176,6 +176,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué alfa antes que beta',
+      images: [
+        { src: 'animaciones/endo-15/A1_alfa_beta.mp4', label: 'Bloqueo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Alfa primero',
+          say: 'Las catecolaminas contraen las arteriolas por los receptores alfa, y los beta dos ayudan a dilatarlas. Si bloqueas beta primero, el alfa queda sin oposición y la presión se dispara. Por eso, primero alfa.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Feocromocitoma en la imagen',
       images: [

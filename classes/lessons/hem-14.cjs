@@ -188,6 +188,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La vitamina K y la warfarina',
+      images: [
+        { src: 'animaciones/hem-14/A1_vitamina_k.mp4', label: 'Vitamina K', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Activa cuatro factores',
+          say: 'La vitamina K activa los factores dos, siete, nueve y diez. La warfarina impide reciclarla y los factores quedan inactivos. El siete se acaba primero, por eso el TP se alarga primero.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión para el paciente con cumarínico e INR alto.',
     },

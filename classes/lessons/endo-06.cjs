@@ -284,6 +284,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El anticuerpo de Graves',
+      images: [
+        { src: 'animaciones/endo-06/A1_graves.mp4', label: 'Graves', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Imita a la TSH',
+          say: 'Los anticuerpos se pegan al receptor de TSH y lo estimulan sin freno. La tiroides crece y fabrica hormona en exceso, y la T cuatro alta suprime la TSH real.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Enfermedad de Graves',

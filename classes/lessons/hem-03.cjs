@@ -251,6 +251,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las etapas de la ferropenia',
+      images: [
+        { src: 'animaciones/hem-03/A1_etapas_ferropenia.mp4', label: 'Etapas', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La ferritina cae primero',
+          say: 'Primero caen los depósitos: la ferritina baja. Después cae la saturación de transferrina. Y al final aparece la anemia, con glóbulos pequeños.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Anemia ferropénica',
