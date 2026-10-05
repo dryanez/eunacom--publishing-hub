@@ -123,11 +123,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'El alvéolo inundado',
       images: [
-        { src: 'animaciones/resp-22/A1_distres.mp4', label: 'Distrés', credit: 'Animación propia' },
+        { src: 'animaciones/resp-22/A1_distres_real.mp4', label: 'Distrés', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Ventilación protectora',
-          say: 'En el distrés, el alvéolo se llena de líquido rico en proteínas. Se ventila con volumen corriente bajo, presión meseta bajo treinta, y PEEP alta.' },
+        { note: 'Sin aire no hay intercambio',
+          say: 'En el distrés, los alvéolos se llenan de líquido rico en proteínas. El aire no entra, no hay intercambio, y la hipoxemia no mejora con oxígeno. Se ventila de forma protectora: volumen corriente bajo, presión meseta bajo treinta, y PEEP alta para mantener abiertos los alvéolos.' },
       ],
     },
 

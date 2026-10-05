@@ -729,3 +729,46 @@ class Resp11Derrame(BlausenScene):
                        T('basta uno para decir exudado', 19, AMBER)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(t2, DOWN, aligned_edge=LEFT, buff=0.3)
         self.play(FadeIn(light), run_time=0.8)
         self.wait(2)
+
+
+# ------------------------------------------------------------------ resp-22: el alvéolo inundado (distrés)
+class Resp22Distres(BlausenScene):
+    IMG = 'Blausen 0994 Pneumonia.png'
+
+    def construct(self):
+        title(self, 'Distrés respiratorio: el alvéolo inundado', 'Líquido rico en proteínas llena los alvéolos', RED_)
+        a = self.lamina(width=5.6, center=LEFT * 3.45 + UP * 0.12, crop=(0.05, 0.085, 0.47, 0.44), credit=False)
+        b = self.lamina(width=5.6, center=RIGHT * 3.45 + UP * 0.12, crop=(0.05, 0.565, 0.47, 0.92), credit=False)
+        self.add(T(BLAUSEN_CREDIT, 12, MUTED).to_corner(DR, buff=0.06))
+        P = self.P
+        la = T('Normal: alvéolos con aire', 22, GREEN_, bold=True).next_to(a, UP, buff=0.12)
+        lb = T('Distrés: alvéolos con líquido', 22, RED_, bold=True).next_to(b, UP, buff=0.12)
+        self.play(FadeIn(la), FadeIn(lb), run_time=0.6)
+        na = [(0.12, 0.25), (0.18, 0.32), (0.22, 0.24), (0.27, 0.22), (0.30, 0.32), (0.34, 0.26), (0.37, 0.22), (0.41, 0.22), (0.19, 0.16)]
+        nb = [(x, y + 0.48) for x, y in na]
+        ea, eb = P(0.47, 0.215, a), P(0.47, 0.695, b)
+        for cyc in range(2):
+            A = VGroup(*[Dot(ea, radius=0.08, color=BLUE_).set_stroke(WHITE, 1.2) for _ in na])
+            B = VGroup(*[Dot(eb, radius=0.08, color=BLUE_).set_stroke(WHITE, 1.2) for _ in nb])
+            self.add(A, B)
+            self.play(*[d.animate.move_to(P(*p, img=a)) for d, p in zip(A, na)],
+                      *[d.animate(rate_func=there_and_back).move_to(eb + LEFT * 0.7) for d in B], run_time=1.4)
+            o2 = VGroup(*[Dot(P(*p, img=a), radius=0.06, color=RED_) for p in na])
+            self.add(o2)
+            self.play(*[d.animate.move_to(P(p[0], 0.39 if p[1] > 0.24 else 0.115, img=a)).set_opacity(0) for d, p in zip(o2, na)],
+                      FadeOut(A), FadeOut(B), run_time=1.0)
+            if cyc == 0:
+                ca = T('El oxígeno pasa a la sangre', 20, GREEN_).next_to(a, DOWN, buff=0.12)
+                cb = T('El aire no entra: no hay intercambio', 20, RED_).next_to(b, DOWN, buff=0.12)
+                self.play(FadeIn(ca), FadeIn(cb), run_time=0.6)
+        hip = tag('Hipoxemia que no mejora con oxígeno', RED_, 20).next_to(cb, DOWN, buff=0.18)
+        self.play(FadeIn(hip), run_time=0.6)
+        self.wait(0.5)
+        vp = VGroup(T('Ventilación protectora', 24, INK, bold=True),
+                    T('Volumen corriente bajo: 6 ml/kg de peso ideal', 20, AMBER),
+                    T('Presión meseta bajo 30', 20, AMBER),
+                    T('PEEP alta: mantiene abiertos los alvéolos', 20, AMBER)).arrange(DOWN, aligned_edge=LEFT, buff=0.08)
+        vp.next_to(ca, DOWN, buff=0.18).align_to(a, LEFT)
+        for m in vp:
+            self.play(FadeIn(m, shift=RIGHT * 0.2), run_time=0.5)
+        self.wait(2)

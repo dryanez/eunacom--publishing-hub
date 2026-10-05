@@ -52,3 +52,9 @@ S['resp-11'] = {
     'steps': [{'note': 'Agua sola o con proteínas',
                'say': 'El líquido se junta en el espacio pleural, en la base. En el trasudado la pleura está sana y pasa solo agua, empujada por presión, como en la insuficiencia cardíaca, la cirrosis o la nefrosis: las proteínas se quedan en el capilar. En el exudado la pleura está dañada y pasan también proteínas, como en la neumonía, el cáncer o la tuberculosis. Con un solo criterio de Light, es exudado.'}],
 }
+S['resp-22'] = {
+    'title': 'El alvéolo inundado',
+    'images': [{'src': 'animaciones/resp-22/A1_distres_real.mp4', 'label': 'Distrés', 'credit': BL}],
+    'steps': [{'note': 'Sin aire no hay intercambio',
+               'say': 'En el distrés, los alvéolos se llenan de líquido rico en proteínas. El aire no entra, no hay intercambio, y la hipoxemia no mejora con oxígeno. Se ventila de forma protectora: volumen corriente bajo, presión meseta bajo treinta, y PEEP alta para mantener abiertos los alvéolos.'}],
+}
