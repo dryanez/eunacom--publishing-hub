@@ -820,3 +820,50 @@ class Ped05Bronquiolitis(BlausenScene):
         bg = BackgroundRectangle(res, color=BG, fill_opacity=0.85, buff=0.12, corner_radius=0.1)
         self.play(FadeIn(bg), FadeIn(res), *[Indicate(d, color=AMBER) for d in B[:trapped]], run_time=1.2)
         self.wait(1.8)
+
+
+# ------------------------------------------------------------------ cirugia-06: hernia inguinal indirecta vs directa
+class Cirugia06Hernias(BlausenScene):
+    IMG, CROP = 'Blausen 0560 InguinalHernia.png', (0.44, 0.30, 0.86, 0.75)
+    ERASE = [('dark', 0.40, 0.38, 0.56, 0.63, 175), ('dark', 0.40, 0.60, 0.51, 0.72), ('dark', 0.64, 0.38, 0.86, 0.57, 160)]
+
+    def construct(self):
+        title(self, 'Hernia inguinal: indirecta o directa', 'El punto de referencia son los vasos epigástricos inferiores', AMBER)
+        img = self.lamina(height=5.7, center=RIGHT * 3.0 + DOWN * 0.62)
+        P = self.P
+        ori = VGroup(tag('← medial', MUTED, 15).move_to(img.get_corner(DL) + RIGHT * 0.75 + UP * 0.3),
+                     tag('lateral →', MUTED, 15).move_to(img.get_corner(DR) + LEFT * 0.75 + UP * 0.3))
+        epi = self.path([(0.668, 0.565), (0.655, 0.50), (0.638, 0.44), (0.62, 0.38), (0.605, 0.32)])
+        epi.set_stroke(RED_, 7)
+        le = tag('Vasos epigástricos inferiores', RED_, 18).next_to(P(0.605, 0.33), RIGHT, buff=0.2)
+        self.play(FadeIn(ori), Create(epi), FadeIn(le), run_time=1.3)
+        self.wait(0.4)
+        col = VGroup(
+            VGroup(T('Indirecta', 28, AMBER, bold=True), T('lateral a los vasos', 20, INK), T('entra por el anillo profundo', 20, INK),
+                   T('recorre el canal y baja al escroto', 20, INK), T('la más frecuente, también en niños', 18, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.06),
+            VGroup(T('Directa', 28, BLUE_, bold=True), T('medial a los vasos', 20, INK), T('empuja la pared débil:', 20, INK),
+                   T('triángulo de Hesselbach', 20, INK), T('adulto mayor, rara vez al escroto', 18, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.06),
+        ).arrange(DOWN, aligned_edge=LEFT, buff=0.5).to_edge(LEFT, buff=0.45).shift(DOWN * 0.4)
+        # indirecta: el saco sigue el cordón desde el anillo profundo
+        ring = Circle(radius=0.28, color=AMBER, stroke_width=5).move_to(P(0.705, 0.465))
+        lr = T('anillo profundo', 17, AMBER).next_to(ring, RIGHT, buff=0.1)
+        self.play(FadeIn(col[0][0]), GrowFromCenter(ring), FadeIn(lr), run_time=0.9)
+        ind = self.path([(0.705, 0.465), (0.68, 0.50), (0.65, 0.535), (0.625, 0.565), (0.61, 0.62), (0.605, 0.69)])
+        ind.set_stroke(AMBER, 6)
+        tip = Triangle(fill_color=AMBER, fill_opacity=1, stroke_width=0).scale(0.14)
+        self.play(Create(ind), FadeIn(col[0][1:3]), run_time=1.6)
+        self.play(MoveAlongPath(tip, ind), FadeIn(col[0][3:]), run_time=1.4)
+        loop = Ellipse(width=1.55, height=3.6, color=AMBER, stroke_width=4).move_to(P(0.615, 0.60)).rotate(0.05)
+        self.play(Create(loop), FadeOut(tip), run_time=0.8)
+        self.play(loop.animate.set_stroke(opacity=0.3), ind.animate.set_stroke(opacity=0.35), ring.animate.set_stroke(opacity=0.35), FadeOut(lr), run_time=0.6)
+        # directa: el triángulo de Hesselbach, medial a los vasos
+        tri = Polygon(P(0.505, 0.40), P(0.633, 0.43), P(0.545, 0.585), color=BLUE_, stroke_width=4, fill_color=BLUE_, fill_opacity=0.12)
+        lt = tag('Hesselbach', BLUE_, 16).next_to(tri.get_vertices()[0], UP, buff=0.08).shift(RIGHT * 0.4)
+        self.play(FadeIn(col[1][0]), Create(tri), FadeIn(lt), run_time=1.0)
+        bulge = Circle(radius=0.05, color=BLUE_, fill_color=BLUE_, fill_opacity=0.45, stroke_width=4).move_to(P(0.56, 0.47))
+        self.add(bulge)
+        self.play(bulge.animate.scale(10), FadeIn(col[1][1:4]), run_time=1.6)
+        self.play(bulge.animate(rate_func=there_and_back).scale(0.85), FadeIn(col[1][4:]), run_time=0.9)
+        self.play(bulge.animate.scale(0.85), rate_func=there_and_back, run_time=0.9)
+        self.play(loop.animate.set_stroke(opacity=1), ind.animate.set_stroke(opacity=1), run_time=0.6)
+        self.wait(1.8)

@@ -32,9 +32,9 @@ def clean(src, dst, crop=None, erase=(), desat=()):
             dark = (v < 120).astype(np.uint8) * 255                 # solo el trazo oscuro, no lo que queda debajo
             mask |= cv2.dilate(band & dark, np.ones((5, 5), np.uint8), iterations=1)
             continue
-        if e[0] == 'dark':                                  # ('dark', x0, y0, x1, y1): solo píxeles oscuros de la caja
-            _, x0, y0, x1, y1 = e
-            sub = (v[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] < 120).astype(np.uint8) * 255
+        if e[0] == 'dark':                                  # ('dark', x0, y0, x1, y1[, umbral]): solo píxeles oscuros de la caja
+            _, x0, y0, x1, y1 = e[:5]; thr = e[5] if len(e) > 5 else 120
+            sub = (v[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] < thr).astype(np.uint8) * 255
             sub = cv2.dilate(sub, np.ones((5, 5), np.uint8), iterations=1)
             mask[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] |= sub
             continue

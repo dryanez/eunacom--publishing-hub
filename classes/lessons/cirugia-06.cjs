@@ -163,11 +163,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Indirecta o directa',
       images: [
-        { src: 'animaciones/cirugia-06/A1_hernias.mp4', label: 'Hernias', credit: 'Animación propia' },
+        { src: 'animaciones/cirugia-06/A1_hernias_real.mp4', label: 'Hernias', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Los vasos epigástricos separan',
-          say: 'La indirecta sale lateral a los vasos epigástricos, por el anillo profundo, y puede bajar al escroto. La directa sale medial, por el triángulo de Hesselbach.' },
+          say: 'El punto de referencia son los vasos epigástricos inferiores. La hernia indirecta sale lateral a ellos, por el anillo profundo, recorre el canal inguinal y puede bajar al escroto; es la más frecuente, también en niños. La directa sale medial, empujando la pared débil del triángulo de Hesselbach; es propia del adulto mayor y rara vez llega al escroto.' },
       ],
     },
 
