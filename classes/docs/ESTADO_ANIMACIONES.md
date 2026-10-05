@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **31**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **29**
+- ✅ Hechas con anatomía real (3D o Blausen): **32**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **28**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
 - ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (29)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (28)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -15,7 +15,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | M | ★★★ | A1_cad.mp4, A2_hiperosmolar.mp4 |
 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | M | ★★★ | A1_addison.mp4, A2_secundaria.mp4 |
 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | M | ★★★ | A1_alfa_beta.mp4 |
-| endo-24 | ADH en el túbulo colector: diabetes insípida vs SIADH | M | ★★★ | A1_diabetes_insipida.mp4, A2_siadh.mp4 |
 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | 3D | ★★★ | A1_colitis_ulcerosa.mp4, A2_crohn.mp4 |
 | gastro-25 | Invaginación: un segmento que entra en el siguiente | 3D | ★★★ | A1_invaginacion.mp4 |
 | gin-13 | Del VPH a la lesión de alto grado y el cáncer (zona de transformación) | M | ★★★ | A1_vph_cancer.mp4 |
@@ -216,7 +215,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (31)
+## ✅ Hechas con anatomía real (3D o Blausen) (32)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -225,6 +224,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | derma-01 | Corte de piel: dónde está cada lesión (mácula epidermis, pápula dermis, ampolla subepidérmica vs intraepidérmica) | 3Dp | ★★★ | A1_lesiones_real.mp4 |
 | diab-10 | Arteriola eferente: por qué el IECA baja la presión glomerular | M | ★★★ | A1_eferente_real.mp4 |
 | endo-06 | Anticuerpo que imita a la TSH (Graves) y estimula la tiroides | M | ★★★ | A1_graves_3d.mp4 |
+| endo-24 | ADH en el túbulo colector: diabetes insípida vs SIADH | M | ★★★ | A1_diabetes_insipida_real.mp4, A2_siadh_real.mp4 |
 | gastro-03 | Manometría animada: acalasia vs normal (peristalsis y esfínter) | M | ★★★ | A1_acalasia_3d.mp4, A1_deglucion_normal_3d.mp4 |
 | gastro-15 | Hipertensión portal: la sangre busca colaterales (várices, cabeza de medusa); ascitis | 3D | ★★★ | A1_hipertension_portal_3d.mp4 |
 | gastro-17 | Un cálculo, cuatro cuadros: según dónde se enclava (bacinete, colédoco, ampolla) | 3D | ★★★ | A1_calculo_real.mp4 |

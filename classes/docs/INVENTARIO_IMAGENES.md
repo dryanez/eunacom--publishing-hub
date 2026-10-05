@@ -227,8 +227,8 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | endo-21 | dataset_endocrinologia.cjs (endo-21) | Imagen | prolactinoma gigante (RM) | `biblioteca/05_endocrinologia/endo-21/01_prolactinoma-gigante-rm__amir-endocrino_p24.jpg` | ENDOCRINO (2), p. 24 | sí |
 | endo-22 | dataset_endocrinologia.cjs (endo-22) | Imagen | fenotipo acromegálico | `biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg` | Endocrinologia, p. 33 | sí |
 | endo-23 | dataset_endocrinologia.cjs (endo-23) | Imagen | RM sagital T1: silla turca parcialmente vacía | `biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg` | Nelson 22.ª ed., Fig. 645.5A | sí |
-| endo-24 | dataset_endocrinologia.cjs (endo-24) | Animación | diabetes insipida | `animaciones/endo-24/A1_diabetes_insipida.mp4` | Animación propia (Manim) | sí |
-| endo-24 | dataset_endocrinologia.cjs (endo-24) | Animación | siadh | `animaciones/endo-24/A2_siadh.mp4` | Animación propia (Manim) | sí |
+| endo-24 | dataset_endocrinologia.cjs (endo-24) | Animación | diabetes insipida | `animaciones/endo-24/A1_diabetes_insipida_real.mp4` | Animación propia (Manim) | sí |
+| endo-24 | dataset_endocrinologia.cjs (endo-24) | Animación | siadh | `animaciones/endo-24/A2_siadh_real.mp4` | Animación propia (Manim) | sí |
 | endo-24 | dataset_endocrinologia.cjs (endo-24) | Imagen | feocromocitoma MEN 2A | `biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg` | ENDOCRINO (2), p. 126 | sí |
 
 ## gastro

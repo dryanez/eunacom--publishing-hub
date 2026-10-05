@@ -926,3 +926,81 @@ class Nefro01Autorregulacion(BlausenScene):
                   ta.animate.increment_value(0.6), te.animate.increment_value(0.6), run_time=1.4, rate_func=linear)
         self.play(FadeIn(warn[2]), Indicate(frame, color=RED_), ta.animate.increment_value(0.6), te.animate.increment_value(0.6), run_time=1.4, rate_func=linear)
         self.wait(1.2)
+
+
+# ------------------------------------------------------------------ endo-24: ADH en el colector (diabetes insípida vs SIADH)
+COLECTOR = [(0.865, 0.43), (0.866, 0.52), (0.865, 0.60), (0.863, 0.70), (0.862, 0.79), (0.86, 0.88)]
+
+
+class _ADH(BlausenScene):
+    IMG, CROP = 'Nephron Anatomy.png', (0.47, 0.245, 0.94, 0.93)
+    SIADH = False
+
+    def construct(self):
+        if self.SIADH:
+            title(self, 'SIADH: sobra ADH', 'El colector reabsorbe agua sin parar', VIOLET)
+        else:
+            title(self, 'Diabetes insípida: falta ADH', 'El colector no puede reabsorber agua', BLUE_)
+        img = self.lamina(height=6.2, center=RIGHT * 3.0 + DOWN * 0.45)
+        P = self.P
+        duct = self.path(COLECTOR)
+        hl = duct.copy().set_stroke(AMBER, 12, opacity=0.35)
+        lc = tag('Túbulo colector', AMBER, 18).next_to(P(0.865, 0.62), RIGHT, buff=0.25)
+        self.play(Create(hl), FadeIn(lc), run_time=0.9)
+        # acuaporinas en la pared
+        aqp = VGroup(*[RoundedRectangle(corner_radius=0.04, width=0.13, height=0.07, fill_color=BLUE_, fill_opacity=1, stroke_width=0)
+                       .move_to(duct.point_from_proportion(0.15 + 0.12 * i) + LEFT * 0.17) for i in range(6)])
+        adh_lab = VGroup(T('ADH', 26, VIOLET, bold=True), T('inserta acuaporinas', 19, INK), T('en la pared del colector', 19, INK)).arrange(DOWN, aligned_edge=LEFT, buff=0.04)
+        adh_lab.to_edge(LEFT, buff=0.5).shift(UP * 1.6)
+        if self.SIADH:
+            hormone = VGroup(*[Dot(radius=0.06, color=VIOLET).move_to(P(0.80, 0.30 + 0.05 * i)) for i in range(8)])
+            self.play(FadeIn(adh_lab), FadeIn(hormone), run_time=0.8)
+            self.play(*[h.animate.move_to(a.get_center()).set_opacity(0) for h, a in zip(hormone, aqp)], FadeIn(aqp, lag_ratio=0.15), run_time=1.2)
+        else:
+            none = VGroup(T('Sin ADH', 26, BLUE_, bold=True), T('no hay acuaporinas', 19, INK), T('central: la hipófisis no la produce', 17, MUTED),
+                          T('nefrogénica: el riñón no responde', 17, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.04).move_to(adh_lab, aligned_edge=UL)
+            self.play(FadeIn(none), run_time=0.8)
+        # flujo de agua
+        t = ValueTracker(0)
+        n = 14
+        water = VGroup(*[Dot(radius=0.06, color=BLUE_).set_stroke(WHITE, 1) for _ in range(n)])
+        rng = np.random.default_rng(4)
+        exit_at = rng.uniform(0.2, 0.75, n)
+        def upd(g):
+            for i, d in enumerate(g):
+                f = (t.get_value() + i / n) % 1
+                if self.SIADH and f > exit_at[i]:
+                    base = duct.point_from_proportion(exit_at[i])
+                    d.move_to(base + LEFT * min(1.4, (f - exit_at[i]) * 4.0)).set_opacity(max(0, 1 - (f - exit_at[i]) * 2.2))
+                else:
+                    d.move_to(duct.point_from_proportion(f)).set_opacity(1)
+        water.add_updater(upd); upd(water)
+        self.add(water)
+        self.play(t.animate.set_value(1.5), run_time=3.0, rate_func=linear)
+        # resultados: orina y sodio
+        cup = RoundedRectangle(corner_radius=0.12, width=1.3, height=1.8, stroke_color=MUTED, stroke_width=3).to_edge(LEFT, buff=0.7).shift(DOWN * 1.9)
+        level = 0.92 if not self.SIADH else 0.22
+        col = '#CFE8FF' if not self.SIADH else '#E3A82B'
+        urine = Rectangle(width=1.16, height=0.01, fill_color=col, fill_opacity=0.95, stroke_width=0).align_to(cup, DOWN).shift(UP * 0.07).set_x(cup.get_x())
+        ul = VGroup(T('Orina', 20, INK, bold=True),
+                    T('mucha y diluida' if not self.SIADH else 'poca y concentrada', 18, BLUE_ if not self.SIADH else AMBER)).arrange(DOWN, aligned_edge=LEFT, buff=0.04).next_to(cup, RIGHT, buff=0.25).align_to(cup, UP)
+        na = VGroup(T('Sodio en sangre', 20, INK, bold=True),
+                    T('sube: hipernatremia, sed' if not self.SIADH else 'baja: hiponatremia dilucional', 18, RED_)).arrange(DOWN, aligned_edge=LEFT, buff=0.04).next_to(ul, DOWN, aligned_edge=LEFT, buff=0.3)
+        self.add(cup, urine)
+        self.play(FadeIn(ul), urine.animate.stretch_to_fit_height(1.66 * level).align_to(cup, DOWN).shift(UP * 0.07),
+                  t.animate.increment_value(1.0), run_time=2.0, rate_func=linear)
+        self.play(FadeIn(na), t.animate.increment_value(0.6), run_time=1.2, rate_func=linear)
+        if self.SIADH:
+            tx = T('Tratamiento: restringir agua', 20, GREEN_, bold=True).next_to(adh_lab, DOWN, aligned_edge=LEFT, buff=0.3)
+        else:
+            tx = VGroup(T('Prueba con desmopresina:', 20, GREEN_, bold=True), T('si la orina se concentra, es central', 18, INK)).arrange(DOWN, aligned_edge=LEFT, buff=0.04).next_to(adh_lab, DOWN, aligned_edge=LEFT, buff=0.55)
+        self.play(FadeIn(tx), t.animate.increment_value(0.8), run_time=1.4, rate_func=linear)
+        self.play(t.animate.increment_value(0.8), run_time=1.6, rate_func=linear)
+
+
+class Endo24Insipida(_ADH):
+    SIADH = False
+
+
+class Endo24Siadh(_ADH):
+    SIADH = True

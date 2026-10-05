@@ -76,3 +76,12 @@ S['nefro-01'] = {
     'steps': [{'note': 'Aferente abierta, eferente cerrada',
                'say': 'Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios, que bloquean las prostaglandinas, y los IECA, que bloquean la angiotensina, pueden precipitar la falla renal en un paciente con poco volumen.'}],
 }
+S['endo-24'] = {
+    'title': 'La ADH en el túbulo colector',
+    'images': [{'src': 'animaciones/endo-24/A1_diabetes_insipida_real.mp4', 'label': 'Diabetes insípida', 'credit': BL},
+               {'src': 'animaciones/endo-24/A2_siadh_real.mp4', 'label': 'SIADH', 'credit': BL}],
+    'steps': [{'note': 'Sin ADH, el agua se va',
+               'say': 'Sin ADH, las acuaporinas no se insertan en el colector y el agua se va por la orina: mucha orina, muy diluida, y el sodio sube. Si la desmopresina la concentra, el problema es central.'},
+              {'note': 'Con exceso de ADH, el agua se queda',
+               'say': 'En el SIADH sobra ADH: el colector reabsorbe agua sin parar, la orina sale poca y concentrada, y el sodio plasmático se diluye. Se trata restringiendo agua.'}],
+}
