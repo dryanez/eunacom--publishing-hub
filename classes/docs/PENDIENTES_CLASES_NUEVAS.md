@@ -8,7 +8,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
-| Traumatología (`trauma-XX`) | 15 | 6 | 4 |
+| Traumatología (`trauma-XX`) | 15 | 9 | 6 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
@@ -41,6 +41,9 @@ Cardiología sigue excluida a pedido del usuario.
 | trauma-04 | Luxación de rodilla + angio-TC con oclusión poplítea (Bailey Fig. 28.2, 221 px: buscar mejor); mano caída por lesión radial; esquema de Seddon | Manual CTO Traumatología / Apley |
 | trauma-05 | Rx de pelvis en libro abierto y en cizallamiento vertical (ATLS Fig. 5-8, p. 149, vectorial: renderizar); fractura de rama púbica; clasificación Tile / Young-Burgess | ATLS (renderizar), CTO |
 | trauma-06 | Rx de pseudoartrosis hipertrófica (pata de elefante), atrófica (punta de lápiz) y consolidación viciosa | Manual CTO Traumatología / Apley |
+| trauma-07 | Rx AP y lateral de fractura bimaleolar / trimaleolar (Weber), Maisonneuve y tibia diafisaria; puntos de palpación de Ottawa | Manual CTO Traumatología / Apley / Rockwood |
+| trauma-08 | Fotos de Lachman, McMurray y signo de la J; RM de rotura de menisco (asa de balde, doble LCP) | AMIR / CTO Traumatología |
+| trauma-09 | Maniobra de Thompson; ecografía o RM de rotura del Aquiles (gap); equimosis / hematoma; quiste de Baker o su ecografía | AMIR / CTO Traumatología, Netter |
 
 ## Animaciones por hacer
 
@@ -109,3 +112,11 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | trauma-05 | Escalera ABCDE: el neumotórax a tensión "salta" por delante de la pelvis | Prioridades |
 | trauma-06 | Hueso con tres destinos: retardo, pseudoartrosis hipertrófica (movimiento) y atrófica (sin callo) | Causa y tratamiento |
 | trauma-06 | Osteotomía correctora: hueso consolidado en ángulo, corte, realineación y placa | Consolidación viciosa |
+| trauma-07 | Árbol animado de la torcedura de tobillo: dolor óseo o no apoya → radiografía | Reglas de Ottawa |
+| trauma-07 | Puntos óseos a palpar (maléolos, base del 5.º metatarsiano, cabeza del peroné) resaltados sobre anatomía real | Ottawa |
+| trauma-08 | Cajón anterior y posterior sobre anatomía real de rodilla: la tibia se desplaza y el LCA o LCP se tensa o se corta | Exploración ligamentosa |
+| trauma-08 | Menisco atrapado: asa de menisco entre fémur y tibia; la rodilla se bloquea | Bloqueo articular |
+| trauma-08 | Subluxación rotuliana y rol del vasto medial | Dolor patelofemoral |
+| trauma-09 | Maniobra de Thompson: se comprime el gemelo y el pie hace o no flexión plantar (tendón sano vs roto) | Rotura del Aquiles |
+| trauma-09 | Quiste de Baker que se rompe y el líquido baja a la pantorrilla | Por qué simula una TVP |
+| trauma-09 | Los tres grados de esguince con la prueba del cajón en cada uno | Clasificación |
