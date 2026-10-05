@@ -34,3 +34,28 @@ Repo: /home/user/eunacom--publishing-hub. Your prompt names your book and your c
    - C · information missing in the book
 
    Rewording what the book says, or format decisions, are NOT review notes.
+
+## Pictures and animations (new books: ORL, Traumatología, Urología, Psiquiatría — from 2026-10-05)
+Classes now get real pictures while they are written. After a class passes the checker:
+1. **Search the already-extracted books** (do not extract PDFs again):
+   `python3 classes/scripts/buscar_figuras.py classes/media/_candidatas4 "" "term1|term2"` (Bailey & Love, Bates, Pathoma, CXR, ECG, Williams Gyn)
+   and `classes/media/_candidatas2` (Harrison, Bates, Schwartz, Williams Obstetricia). Search in English. Then
+   `python3 classes/scripts/hoja_contactos.py <same folder> /tmp/hoja_<id>.jpg <F numbers>` and **look at the sheet**:
+   the caption can belong to another image on the same page. Only real clinical images (photos, X-ray/CT/US, otoscopy,
+   histology, ECG) that show exactly what the class teaches; skip blurry (<500 px) or text-heavy figures.
+2. Copy the chosen ones (1–4 per class) to `classes/media/biblioteca/<NN_esp>/<id>/` as `NN_item-en-espanol__<libro>_p<página>.jpg`
+   (max 1600 px, JPEG quality 85). Folders: `17_otorrino`, `18_traumatologia`, `19_urologia`, `20_psiquiatria`.
+   Libro tags: `bailey-love`, `bates`, `pathoma`, `cxr`, `ecg`, `harrison`, `williams-gyn`, `williams-ob`, `schwartz`.
+3. Add ONE `type: 'image'` slide ("Así se ve") after the body section it illustrates, like `classes/lessons/reuma-03.cjs`
+   (layout `gallery`, `images[{src, label, credit}]`, one `steps` item per image with `note` and a teaching `say`
+   that says what to look at; `src` relative to `classes/media/`; `credit` like "Bailey & Love 27.ª ed., Fig. 46.16").
+   Labels in Spanish, describing exactly what is visible. Re-run the checker.
+4. Psiquiatría usually needs no pictures; don't force them.
+
+In the final report add, per class:
+- **Imágenes puestas:** file → what it shows.
+- **Imágenes que faltan:** what picture would help and which book probably has it (e.g. "Manual CTO Otorrino", "AMIR Urología"
+  — those manuals are not on this computer).
+- **Animaciones propuestas:** 0–3 short animations that would make the key point click (what moves, why it matters for the exam).
+  Must be possible with real anatomy (BodyParts3D/Z-Anatomy/Blausen) or clean diagrams — never abstract blobs for anatomy.
+You may create image files only inside your own classes' folders.

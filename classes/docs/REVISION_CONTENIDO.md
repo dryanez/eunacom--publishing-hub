@@ -574,3 +574,19 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 | — (banco, no libro) | "EUNACOM Diciembre 2025 · Pregunta 87" (perfil 4.01.2.024, hernias): las alternativas marcan correcta la D (cuerpo extraño), pero la explicación describe un hematoma inguinal posoperatorio (opción B) — inconsistente consigo misma. No se usó. |
 | cirugia-15 | La cuarta pregunta propia del libro (LAST + modificación ACLS, dosis de adrenalina) no trae `correcta` ni `explicacion` en el dataset — dato incompleto. Se usaron las otras 3 preguntas del libro en su lugar. |
 | — (banco, no libro) | "EUNACOM Julio 2017 · Pregunta 68" (seroma) y "EUNACOM Enero 2023 · Pregunta 77" (quemadura pediátrica) tienen la explicación completamente desligada del enunciado (texto de plantilla o de otro tema). "EUNACOM Julio 2016 · Pregunta 11" y "EUNACOM Diciembre 2018 · Pregunta 148" están autoetiquetadas por el banco como "capciosa"/"[Pregunta disputada]". Ninguna se usó. |
+
+## Otorrinolaringología
+
+**A · Posible error del libro**
+- orl-03: los estadios de la otitis externa maligna (I local, II ósea, III base de cráneo) con mortalidad 15–20 % y 30–50 % no parecen una clasificación publicada estándar. Se usaron tal como los da el libro ("el libro propone"). Revisar.
+
+**B · El libro se contradice / choca con el banco real**
+- orl-02: EUNACOM Julio 2025 · P153 dice "perforación timpánica central con colesteatoma"; el libro define el colesteatoma como marginal o ático. Se siguió el libro; la respuesta (cirugía) coincide con ambos.
+- orl-02: EUNACOM Julio 2025 · P35 (otorrea crónica serosa, perforación central → audiometría y derivación); el libro sugeriría aseo y ciprofloxacino ante otorrea activa. Se usó la clave del examen (escenario de oído seco con hipoacusia).
+- orl-03: EUNACOM Julio 2019 · P46 (ciprofloxacino vs neomicina tópica): su propia explicación dice que ambas sirven con tímpano íntegro. Se siguió el libro y la clave (ciprofloxacino).
+
+**C · Falta información en el libro**
+- orl-03: el libro no trata otomicosis ni forunculosis, pero el banco real las pregunta (Julio 2024 · P157, Diciembre 2025 · P160). Se tomó de las explicaciones de las preguntas.
+- orl-04: el libro no trata laberintitis aguda (Julio 2015 · P104, Julio 2013 · P84), petrositis, meningitis ni absceso cerebral por separado.
+- orl-04: la sección 4 enumera "(1) antibióticos… (2) miringotomía…" sin "(3)": parece faltar una medida. El dataset repite el código 4.02.4.017 (otitis externa) en esta clase, posible error de copia.
+- orl-04: sin dosis de clindamicina ni vancomicina; solo ceftriaxona 100 mg/kg/día.

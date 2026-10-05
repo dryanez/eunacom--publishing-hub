@@ -16,6 +16,7 @@ const BOOKS = [
   ['infectologia', 'Infectología'], ['neurologia', 'Neurología y Geriatría'], ['reumatologia', 'Reumatología'],
   ['dermatologia', 'Dermatología'], ['oftalmologia', 'Oftalmología'], ['cirugia', 'Cirugía General'],
   ['ginecologia', 'Ginecología'], ['obstetricia', 'Obstetricia'], ['pediatria', 'Pediatría'], ['saludpublica', 'Salud Pública'],
+  ['otorrino', 'Otorrinolaringología'], ['traumatologia', 'Traumatología'], ['urologia', 'Urología'], ['psiquiatria', 'Psiquiatría'],
 ];
 
 function passes(id) {
