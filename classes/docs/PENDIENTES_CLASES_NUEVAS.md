@@ -10,7 +10,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
 | Urología (`uro-XX`) | 15 | 15 ✅ | 11 |
-| Psiquiatría (`psiq-XX`) | 18 | 9 | 0 (no requiere) |
+| Psiquiatría (`psiq-XX`) | 18 | 12 | 0 (no requiere) |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
 
@@ -69,6 +69,8 @@ Cardiología sigue excluida a pedido del usuario.
 | psiq-02 | Línea de tiempo del ánimo con manía, hipomanía y depresión | Dibujo propio |
 | psiq-04 | Escala de Edimburgo (EPDS) en una página | Manual CTO Psiquiatría / formulario MINSAL |
 | psiq-06 | ECG de taquicardia sinusal vs ECG con supradesnivel (para contrastar) | Libro de ECG (`_candidatas4`, sin extraer) |
+| psiq-10 | Esquema limpio de las 4 vías dopaminérgicas y qué bloquea cada antipsicótico | Dibujo propio |
+| psiq-11 | Semáforo del RAN y plazos del hemograma | Dibujo propio |
 
 ## Animaciones por hacer
 
@@ -218,3 +220,8 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | psiq-08 | ISRS: dosis de depresión vs dosis alta en TOC, con espera de 8–12 semanas | Se pregunta |
 | psiq-09 | Línea de tiempo del trauma con cortes de 3 días, 1 mes, 3 meses y 6 meses | Estrés agudo vs TEPT |
 | psiq-09 | Amígdala hiperactiva y corteza prefrontal medial débil (diagrama) | Mecanismo |
+| psiq-10 | Las 4 vías dopaminérgicas: al bloquear D2 se apagan los positivos (mesolímbica), aparece parkinsonismo (nigroestriada) y sube la prolactina (tuberoinfundibular) | Efectos de los antipsicóticos |
+| psiq-10 | Primer episodio: debut, estudio, GES, remisión, mantención 1–2 años | Manejo |
+| psiq-11 | Semáforo del RAN con el hemograma semanal, quincenal, mensual; en rojo se retira la clozapina "nunca más" | Monitorización |
+| psiq-11 | Curva de agranulocitosis con pico en las primeras 18 semanas | Por qué el control es más estricto al inicio |
+| psiq-12 | Tres carriles de tiempo (breve, esquizofreniforme, esquizofrenia) y un panel de funcionamiento intacto o deteriorado | Diferenciar psicosis |
