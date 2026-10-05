@@ -475,7 +475,6 @@ async function main() {
   // 3. Unir los PDFs en el Gran Libro Gordo con pypdf
   console.log('>>> [3/3] Ensamblando el Gran Libro Gordo Completo (1.890 Preguntas)...');
   const outMegaPdf = path.join(DIST_DIR, 'El_Gran_Libro_Gordo_EUNACOM_1890Q.pdf');
-  const outMegaPdfAct = path.join(DIST_DIR, 'El_Gran_Libro_Gordo_EUNACOM_1890Q_Actualizado.pdf');
 
   const mergeScript = `
 import pypdf
@@ -493,25 +492,12 @@ for f in files:
     except Exception as e:
         print(f"Error procesando {f}: {e}", file=sys.stderr)
 
-out_act = "${outMegaPdfAct.replace(/\\/g, '/')}"
 out_canon = "${outMegaPdf.replace(/\\/g, '/')}"
 
-# Guardar en archivo actualizado garantizado
-with open(out_act, "wb") as out:
+# Un solo PDF: se sobrescribe siempre el mismo archivo (nada de _Actualizado).
+with open(out_canon, "wb") as out:
     writer.write(out)
-print("Archivo actualizado generado:", out_act)
-
-# Intentar actualizar el archivo canónico
-try:
-    subprocess.run(['taskkill', '/F', '/IM', 'prevhost.exe'], capture_output=True)
-except Exception:
-    pass
-
-try:
-    shutil.copyfile(out_act, out_canon)
-    print("Archivo canónico actualizado exitosamente:", out_canon)
-except Exception as e:
-    print(f"[AVISO] No se pudo sobrescribir directamente {out_canon} ({e}). El PDF actualizado está disponible en {out_act}")
+print("Gran Libro Gordo generado:", out_canon)
 `;
 
   const pyScriptPath = path.join(__dirname, 'temp_merge_gran_libro.py');
@@ -521,7 +507,7 @@ except Exception as e:
   if (fs.existsSync(pyScriptPath)) fs.unlinkSync(pyScriptPath);
   if (fs.existsSync(coverPdf)) fs.unlinkSync(coverPdf);
 
-  const finalPdf = fs.existsSync(outMegaPdf) ? outMegaPdf : outMegaPdfAct;
+  const finalPdf = outMegaPdf;
   const stats = fs.statSync(finalPdf);
   console.log('════════════════════════════════════════════════════════════════════');
   console.log(`🎉 ¡ÉXITO TOTAL! EL GRAN LIBRO GORDO EUNACOM GENERADO:`);

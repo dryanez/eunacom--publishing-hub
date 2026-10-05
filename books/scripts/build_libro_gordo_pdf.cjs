@@ -1103,35 +1103,21 @@ async function buildPdf(specKey) {
   await page.goto('file://' + tempHtmlPath, { waitUntil: 'networkidle0', timeout: 90000 });
   await page.evaluateHandle('document.fonts.ready');
 
-  let outPdf = path.join(DIST_DIR, spec.outFile);
-  let written = false;
-  const candidates = [
-    outPdf,
-    outPdf.replace(/\.pdf$/, '_v2.pdf'),
-    outPdf.replace(/\.pdf$/, '_v3.pdf'),
-    outPdf.replace(/\.pdf$/, `_${Date.now()}.pdf`)
-  ];
-
-  for (const candidate of candidates) {
-    try {
-      await page.pdf({
-        path: candidate,
-        format: 'A4',
-        printBackground: true,
-        margin: { top: 0, bottom: 0, left: 0, right: 0 }
-      });
-      outPdf = candidate;
-      written = true;
-      break;
-    } catch (err) {
-      if (err.code === 'EBUSY') {
-        console.warn(`[AVISO] Archivo bloqueado por visor (${path.basename(candidate)}). Probando alternativa...`);
-        continue;
-      }
-      throw err;
+  // Un solo PDF por libro: siempre se sobrescribe el mismo archivo (nada de _v2/_v3).
+  const outPdf = path.join(DIST_DIR, spec.outFile);
+  try {
+    await page.pdf({
+      path: outPdf,
+      format: 'A4',
+      printBackground: true,
+      margin: { top: 0, bottom: 0, left: 0, right: 0 }
+    });
+  } catch (err) {
+    if (err.code === 'EBUSY') {
+      throw new Error(`${path.basename(outPdf)} está abierto en el visor de PDF: ciérralo y vuelve a compilar.`);
     }
+    throw err;
   }
-  if (!written) throw new Error(`No se pudo escribir el archivo PDF para ${specKey}`);
 
   await browser.close();
   if (fs.existsSync(tempHtmlPath)) fs.unlinkSync(tempHtmlPath);

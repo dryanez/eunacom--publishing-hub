@@ -51,3 +51,10 @@ Detailed handoff for the next session: `classes/docs/HANDOFF_SIGUIENTE_SESION.md
 
 Work happens on `claude/*` branches. **Merge finished work into `main` the same day** — on 2026-10-03
 340 finished classes were sitting unmerged on a side branch and looked "missing" from `main`.
+
+## Books rule: one PDF per book in `books/dist/`
+
+Each book has exactly one PDF, with a fixed name. Rebuilding a book **overwrites** that file — the build scripts no
+longer write `_v2`, `_v3`, `_NEW` or `_Actualizado` copies (if the PDF is open in a viewer the build stops and asks you
+to close it). Never keep old versions next to the new one; git history keeps them.
+Cover previews (PNG): `books/previews/`.

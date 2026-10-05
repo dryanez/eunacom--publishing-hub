@@ -101,7 +101,7 @@ const SPECIALTIES = [
     dataset: () => require('./master_cardiology_23_full_dataset.cjs').master23ClassesFullData,
     figDir: FIG_DIR,
     figSpec: require('./figspec_cardiologia.cjs'),
-    out: 'Manual_EUNACOM_Cardiologia_Completo_2026.pdf',
+    out: 'Tomo_01_Cardiologia_Completo_2026.pdf',
   },
   {
     key: 'infectologia', ch: '02', title: 'Infectología',
@@ -109,7 +109,7 @@ const SPECIALTIES = [
     subtitle: 'Sepsis y shock séptico, infecciones del sistema nervioso central, profilaxis y manejo de contactos, VIH, tuberculosis, zoonosis y micosis.',
     dataset: () => require('./dataset_infectologia.cjs').infectologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Infectologia_Completo_2026.pdf',
+    out: 'Tomo_02_Infectologia_Completo_2026.pdf',
   },
   {
     key: 'gastroenterologia', ch: '03', title: 'Gastroenterología',
@@ -117,7 +117,7 @@ const SPECIALTIES = [
     subtitle: 'Esófago y estómago, intestino y colon, hígado e hipertensión portal, vía biliar y páncreas.',
     dataset: () => require('./dataset_gastroenterologia.cjs').gastroenterologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Gastroenterologia_Completo_2026.pdf',
+    out: 'Tomo_03_Gastroenterologia_Completo_2026.pdf',
   },
   {
     key: 'neumologia', ch: '04', title: 'Respiratorio',
@@ -125,7 +125,7 @@ const SPECIALTIES = [
     subtitle: 'Crisis asmática, EPOC, neumonía adquirida en la comunidad, tuberculosis pulmonar, tromboembolismo pulmonar, derrame pleural y neumotórax.',
     dataset: () => require('./dataset_neumologia.cjs').neumologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Respiratorio_Completo_2026.pdf',
+    out: 'Tomo_04_Respiratorio_Completo_2026.pdf',
   },
   {
     key: 'nefrologia', ch: '05', title: 'Nefrología',
@@ -133,7 +133,7 @@ const SPECIALTIES = [
     subtitle: 'Injuria renal aguda KDIGO, enfermedad renal crónica, trastornos de sodio y potasio, equilibrio ácido-base y glomerulopatías.',
     dataset: () => require('./dataset_nefrologia.cjs').nefrologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Nefrologia_Completo_2026.pdf',
+    out: 'Tomo_05_Nefrologia_Completo_2026.pdf',
   },
   {
     key: 'diabetes', ch: '06', title: 'Diabetes Mellitus & Dislipidemias',
@@ -141,7 +141,7 @@ const SPECIALTIES = [
     subtitle: 'Criterios diagnósticos, tratamiento escalonado DM2 GES, esquemas de insulinoterapia, cetoacidosis diabética, pie diabético y manejo de dislipidemias.',
     dataset: () => require('./dataset_diabetes.cjs').diabetesClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Diabetes_Completo_2026.pdf',
+    out: 'Tomo_06_Diabetes_Completo_2026.pdf',
   },
   {
     key: 'endocrinologia', ch: '07', title: 'Endocrinología & Metabolismo',
@@ -149,7 +149,7 @@ const SPECIALTIES = [
     subtitle: 'Patología tiroidea (hipo/hipertiroidismo, nódulo y cáncer), patología suprarrenal (Cushing, Addison, Conn, feocromocitoma), calcio e hipófisis.',
     dataset: () => require('./dataset_endocrinologia.cjs').endocrinologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Endocrinologia_Completo_2026.pdf',
+    out: 'Tomo_07_Endocrinologia_Completo_2026.pdf',
   },
   {
     key: 'hematologia', ch: '08', title: 'Hematología & Hemostasia',
@@ -157,7 +157,7 @@ const SPECIALTIES = [
     subtitle: 'Síndromes anémicos hipo y regenerativos, hemostasia y trombocitopenias, leucemias agudas y crónicas, linfomas, gammapatías monoclonales y medicina transfusional.',
     dataset: () => require('./dataset_hematologia.cjs').hematologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Hematologia_Completo_2026.pdf',
+    out: 'Tomo_08_Hematologia_Completo_2026.pdf',
   },
   {
     key: 'reumatologia', ch: '09', title: 'Reumatología',
@@ -165,7 +165,7 @@ const SPECIALTIES = [
     subtitle: 'Artritis reumatoide, lupus eritematoso sistémico, espondiloartritis, vasculitis, artropatías por cristales y fibromialgia.',
     dataset: () => require('./dataset_reumatologia.cjs').reumatologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Reumatologia_Completo_2026.pdf',
+    out: 'Tomo_09_Reumatologia_Completo_2026.pdf',
   },
   {
     key: 'neurologia', ch: '10', title: 'Neurología y Geriatría',
@@ -173,7 +173,7 @@ const SPECIALTIES = [
     subtitle: 'Enfermedad cerebrovascular GES, cefaleas y neuralgia del trigémino, epilepsia y status convulsivo, Parkinson y demencias, patología neuromuscular y grandes síndromes geriátricos.',
     dataset: () => require('./dataset_neurologia.cjs').neurologiaClasses,
     figSpec: {},
-    out: 'Manual_EUNACOM_Neurologia_Completo_2026.pdf',
+    out: 'Tomo_10_Neurologia_y_Geriatria_Completo_2026.pdf',
   },
 
   // ── MÓDULO 2: CIRUGÍA Y ESPECIALIDADES QUIRÚRGICAS (Tomos 11 al 17) ──
@@ -1235,25 +1235,13 @@ async function buildBook(spec, browser) {
     ? path.join(DIST_DIR, spec.moduleDir, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`)
     : path.join(DIST_DIR, spec.out || `Manual_EUNACOM_${spec.title.replace(/\s+/g, '_')}_Completo_2026.pdf`);
   fs.mkdirSync(path.dirname(outMain), { recursive: true });
-  let savedPath = null;
-  const candidates = [
-    outMain,
-    outMain.replace(/\.pdf$/, '_NEW.pdf'),
-    outMain.replace(/\.pdf$/, '_v2.pdf'),
-    outMain.replace(/\.pdf$/, `_${Date.now()}.pdf`),
-  ];
-  for (const cand of candidates) {
-    try {
-      fs.writeFileSync(cand, pdf);
-      savedPath = cand;
-      break;
-    } catch (err) {}
+  // Un solo PDF por libro: siempre se sobrescribe el mismo archivo (nada de _v2/_NEW).
+  try {
+    fs.writeFileSync(outMain, pdf);
+  } catch (err) {
+    throw new Error(`No se pudo escribir ${outMain}: ciérralo en el visor de PDF y vuelve a compilar. (${err.code})`);
   }
-  if (savedPath) {
-    console.log('     ✓', savedPath);
-  } else {
-    throw new Error('No se pudo escribir el PDF, todos los nombres posibles están bloqueados por el lector.');
-  }
+  console.log('     ✓', outMain);
   console.log(`     ${data.length} clases · ${meta.totalQuestions} preguntas · ${(pdf.length / 1e6).toFixed(1)} MB · color ${spec.accent}`);
 }
 
