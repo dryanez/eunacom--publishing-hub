@@ -583,3 +583,75 @@ class Resp02Asma(BlausenScene):
         self.play(v.animate.set_value(40), FadeOut(m1), FadeIn(m2), run_time=1.6)
         self.play(Indicate(m2, color=RED_, scale_factor=1.15), Indicate(panel, color=RED_), run_time=0.9)
         self.wait(1.5)
+
+
+# ------------------------------------------------------------------ cirugia-12: hematoma epidural vs subdural
+DURA = [(0.102, 0.276), (0.115, 0.215), (0.136, 0.178), (0.16, 0.158), (0.186, 0.147), (0.22, 0.141), (0.257, 0.140),
+        (0.285, 0.142), (0.312, 0.146), (0.338, 0.156), (0.362, 0.170), (0.387, 0.185), (0.409, 0.203), (0.425, 0.224),
+        (0.438, 0.248), (0.449, 0.275), (0.455, 0.304), (0.459, 0.338), (0.459, 0.371), (0.451, 0.427)]
+BRAIN_C = (0.275, 0.31)
+
+
+class Cirugia12Hematomas(BlausenScene):
+    IMG = 'Hematoma Comparison.png'
+    CROP = (0.05, 0.085, 0.485, 0.56)
+
+    def clot(self, img, seg, thick, tracker, color='#7A0E12', taper=True):
+        """Coágulo entre la tabla interna y la duramadre: borde externo = contorno; borde interno hacia el cerebro."""
+        def build():
+            k = tracker.get_value()
+            pts_o, pts_i = [], []
+            n = len(seg)
+            for j, (fx, fy) in enumerate(seg):
+                s = j / (n - 1)
+                prof = np.sin(PI * s) ** (1.2 if taper else 0.35)
+                o = self.P(fx, fy, img)
+                c = self.P(*BRAIN_C, img)
+                nrm = (c - o) / np.linalg.norm(c - o)
+                pts_o.append(o + nrm * 0.02)
+                pts_i.append(o + nrm * (0.02 + thick * k * prof))
+            return Polygon(*pts_o, *pts_i[::-1], fill_color=color, fill_opacity=0.92, stroke_color='#3A0306', stroke_width=1.5)
+        return always_redraw(build)
+
+    def curve(self, origin, w, h, pts, color):
+        ax = VGroup(Line(origin, origin + RIGHT * w, color=MUTED, stroke_width=2), Line(origin, origin + UP * h, color=MUTED, stroke_width=2))
+        lab = T('Conciencia', 16, MUTED).rotate(PI / 2).next_to(ax[1], LEFT, buff=0.08)
+        path = VMobject(color=color, stroke_width=5).set_points_as_corners([origin + RIGHT * w * x + UP * h * y for x, y in pts])
+        return VGroup(ax, lab), path
+
+    def construct(self):
+        title(self, 'Hematoma epidural o subdural', 'Mismo golpe, distinto espacio, distinta evolución', RED_)
+        A = self.lamina(width=5.1, center=LEFT * 3.45 + DOWN * 0.05, crop=self.CROP, credit=False)
+        B = self.lamina(width=5.1, center=RIGHT * 3.45 + DOWN * 0.05, crop=self.CROP, credit=False)
+        self.add(T(BLAUSEN_CREDIT, 12, MUTED).to_corner(DR, buff=0.06))
+        ta = T('Epidural', 26, RED_, bold=True).next_to(A, UP, buff=0.1)
+        tb = T('Subdural', 26, BLUE_, bold=True).next_to(B, UP, buff=0.1)
+        self.play(FadeIn(ta), FadeIn(tb), run_time=0.6)
+        art = Dot(self.P(0.30, 0.144, A), radius=0.09, color=RED_).set_stroke(WHITE, 1.5)
+        la = tag('Arteria meníngea media', RED_, 17).next_to(A, DOWN, buff=0.12).align_to(A, LEFT)
+        veins = VGroup(*[Line(self.P(fx, fy, B), self.P(fx, fy, B) + (self.P(*BRAIN_C, B) - self.P(fx, fy, B)) * 0.12, color=BLUE_, stroke_width=4)
+                         for fx, fy in DURA[3:16:3]])
+        lb = tag('Venas puente', BLUE_, 17).next_to(B, DOWN, buff=0.12).align_to(B, LEFT)
+        self.play(GrowFromCenter(art), FadeIn(la), Create(veins), FadeIn(lb), run_time=1.0)
+        ka, kb = ValueTracker(0), ValueTracker(0)
+        self.add(self.clot(A, DURA[6:14], 0.62, ka), self.clot(B, DURA[1:19], 0.17, kb, color='#5E1A2E', taper=False))
+        # curvas de conciencia (se dibujan con un rastreador de avance)
+        ga, pa = self.curve(A.get_corner(DL) + DOWN * 1.42 + RIGHT * 0.45, 4.4, 0.72,
+                            [(0, 1), (0.08, 1), (0.13, 0.45), (0.25, 0.95), (0.55, 0.95), (0.62, 0.5), (0.75, 0.08), (1, 0.05)], RED_)
+        gb, pb = self.curve(B.get_corner(DL) + DOWN * 1.42 + RIGHT * 0.45, 4.4, 0.72,
+                            [(0, 1), (0.08, 1), (0.13, 0.85), (0.3, 0.83), (0.6, 0.65), (1, 0.3)], BLUE_)
+        va, vb = ValueTracker(0.001), ValueTracker(0.001)
+        ca = always_redraw(lambda: pa.copy().pointwise_become_partial(pa, 0, va.get_value()))
+        cb = always_redraw(lambda: pb.copy().pointwise_become_partial(pb, 0, vb.get_value()))
+        self.play(FadeIn(ga), FadeIn(gb), run_time=0.5)
+        self.add(ca, cb)
+        self.play(Flash(art, color=RED_, line_length=0.25), va.animate.set_value(0.32), vb.animate.set_value(0.2), run_time=1.4)
+        ilu = T('intervalo lúcido', 16, AMBER).move_to(ga[0][0].get_start() + RIGHT * 4.4 * 0.4 + UP * 0.72 * 0.55)
+        self.play(FadeIn(ilu), va.animate.set_value(0.5), vb.animate.set_value(0.3), run_time=0.9)
+        self.play(ka.animate.set_value(1), kb.animate.set_value(0.4), va.animate.set_value(1), vb.animate.set_value(0.55),
+                  Flash(art, color=RED_, line_length=0.2, run_time=1.0), run_time=3.0)
+        da = T('Lente · crece en horas', 17, INK).next_to(la, RIGHT, buff=0.2)
+        self.play(FadeIn(da), kb.animate.set_value(0.7), vb.animate.set_value(0.75), run_time=1.5)
+        db = T('Media luna · crece en días', 17, INK).next_to(lb, RIGHT, buff=0.2)
+        self.play(FadeIn(db), kb.animate.set_value(1), vb.animate.set_value(1), run_time=1.8)
+        self.wait(2)

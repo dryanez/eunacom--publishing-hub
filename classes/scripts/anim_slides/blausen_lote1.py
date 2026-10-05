@@ -40,3 +40,11 @@ S['resp-02'] = {
     'steps': [{'note': 'Tres mecanismos y una alarma',
                'say': 'En la crisis, el bronquio se cierra por tres mecanismos: el músculo se contrae, la pared se engruesa por edema y el moco tapona la luz. El aire casi no pasa y aparecen las sibilancias. Al principio el paciente hiperventila y el CO dos baja. Si sube a lo normal, el paciente se está agotando: es una alarma.'}],
 }
+S['cirugia-12'] = {
+    'title': 'Epidural o subdural',
+    'images': [{'src': 'animaciones/cirugia-12/A1_hematomas_real.mp4', 'label': 'Epidural y subdural', 'credit': BL}],
+    'steps': [{'note': 'Arteria: lente, intervalo lúcido',
+               'say': 'El hematoma epidural viene de la arteria meníngea media y queda entre el hueso y la duramadre: crece rápido, tiene forma de lente porque no cruza las suturas, y el paciente puede tener un intervalo lúcido antes de deteriorarse.'},
+              {'note': 'Venas: media luna, días',
+               'say': 'El subdural viene de las venas puente y queda bajo la duramadre: se extiende en media luna siguiendo el cerebro, crece lento y el compromiso de conciencia avanza en días. Es típico del adulto mayor o el alcohólico.'}],
+}

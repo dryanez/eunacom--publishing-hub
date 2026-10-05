@@ -2,17 +2,16 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **25**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **35**
+- ✅ Hechas con anatomía real (3D o Blausen): **26**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **34**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
 - ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (35)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (34)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
 | cirugia-06 | Hernia indirecta por el anillo profundo vs directa por Hesselbach, con los vasos epigástricos | 3Dp | ★★★ | A1_hernias.mp4 |
-| cirugia-12 | Hematoma epidural (lente, arteria meníngea, intervalo lúcido) vs subdural (media luna, venas puente) creciendo | M | ★★★ | A1_epidural.mp4, A2_subdural.mp4 |
 | diab-01 | Tipo 1 (destrucción de células beta) vs tipo 2 (resistencia + agotamiento) en el islote | M | ★★★ | A1_tipo1.mp4, A2_tipo2.mp4 |
 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | M | ★★★ | A1_cad.mp4, A2_hiperosmolar.mp4 |
 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | M | ★★★ | A1_addison.mp4, A2_secundaria.mp4 |
@@ -222,10 +221,11 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (25)
+## ✅ Hechas con anatomía real (3D o Blausen) (26)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
+| cirugia-12 | Hematoma epidural (lente, arteria meníngea, intervalo lúcido) vs subdural (media luna, venas puente) creciendo | M | ★★★ | A1_hematomas_real.mp4 |
 | derma-01 | Corte de piel: dónde está cada lesión (mácula epidermis, pápula dermis, ampolla subepidérmica vs intraepidérmica) | 3Dp | ★★★ | A1_lesiones_real.mp4 |
 | diab-10 | Arteriola eferente: por qué el IECA baja la presión glomerular | M | ★★★ | A1_eferente_real.mp4 |
 | endo-06 | Anticuerpo que imita a la TSH (Graves) y estimula la tiroides | M | ★★★ | A1_graves_3d.mp4 |
