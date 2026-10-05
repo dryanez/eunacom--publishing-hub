@@ -10,7 +10,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
 | Urología (`uro-XX`) | 15 | 15 ✅ | 11 |
-| Psiquiatría (`psiq-XX`) | 18 | 3 | 0 (no requiere) |
+| Psiquiatría (`psiq-XX`) | 18 | 6 | 0 (no requiere) |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
 
@@ -67,6 +67,8 @@ Cardiología sigue excluida a pedido del usuario.
 | uro-15 | Microscopía de hematíes dismórficos y acantocitos; cilindro hemático; uro-TC con fase excretora | CTO / AMIR Nefrología |
 | psiq-01 | Escala PHQ-9 impresa | Manual CTO / AMIR Psiquiatría |
 | psiq-02 | Línea de tiempo del ánimo con manía, hipomanía y depresión | Dibujo propio |
+| psiq-04 | Escala de Edimburgo (EPDS) en una página | Manual CTO Psiquiatría / formulario MINSAL |
+| psiq-06 | ECG de taquicardia sinusal vs ECG con supradesnivel (para contrastar) | Libro de ECG (`_candidatas4`, sin extraer) |
 
 ## Animaciones por hacer
 
@@ -202,3 +204,10 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | psiq-03 | Árbol de triage del riesgo suicida: alto, moderado, bajo | Conducta |
 | psiq-03 | Entrevista escalonada: ideación pasiva → activa → plan → método → actos preparatorios | Evaluación |
 | psiq-03 | "Calma repentina" tras una crisis | Mejorar rápido no significa que pasó el riesgo |
+| psiq-04 | Curva hormonal y del ánimo tras el parto: caen estrógeno y progesterona; ventanas de blues (días 3–5), psicosis (semanas 1–2), depresión (semanas 2–6) | El tiempo separa los tres cuadros |
+| psiq-04 | Flujo de la EPDS: el ítem 10 se enciende y deriva a evaluación del riesgo suicida en el día | Seguridad |
+| psiq-05 | Barras de tiempo: adaptativo (estresor → síntomas < 3 meses → resolución < 6 meses), distimia (2 años continuos), depresión doble | Diferenciar |
+| psiq-05 | Clasificador por estresor, número de criterios y duración: adaptativo, distimia, depresión mayor o duelo | Diagnóstico diferencial |
+| psiq-06 | Círculo vicioso del pánico: sensación → pensamiento catastrófico → adrenalina → hiperventilación → más miedo; la exposición y la respiración lenta lo rompen | Mecanismo y tratamiento |
+| psiq-06 | Inicio del ISRS: la ansiedad sube los días 1–10 a dosis plena y se aplana a media dosis; puente de benzodiacepina semanas 0–4 | Cómo iniciar |
+| psiq-06 | Mapa de agorafobia: el radio de lugares evitados se achica y vuelve a crecer con la exposición gradual | Agorafobia |
