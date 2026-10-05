@@ -9,7 +9,7 @@ import numpy as np, cv2
 BL = os.path.expanduser('~/Documents/Archive/Apps/assets3d/blausen/img')
 
 
-def clean(src, dst, crop=None, erase=()):
+def clean(src, dst, crop=None, erase=(), desat=()):
     im = cv2.imread(src if os.path.isabs(src) else os.path.join(BL, src), cv2.IMREAD_COLOR)
     h, w = im.shape[:2]
     hsv = cv2.cvtColor(im, cv2.COLOR_BGR2HSV)
@@ -28,6 +28,14 @@ def clean(src, dst, crop=None, erase=()):
         x0, y0, x1, y1 = e
         mask[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] = 255
     out = cv2.inpaint(im, mask, 4, cv2.INPAINT_TELEA)
+    for x0, y0, x1, y1 in desat:                       # quitar resaltados rojos dibujados (inflamación) en una zona
+        ys, xs = slice(int(y0 * h), int(y1 * h)), slice(int(x0 * w), int(x1 * w))
+        hs = cv2.cvtColor(out[ys, xs], cv2.COLOR_BGR2HSV).astype(np.float32)
+        red = ((hs[..., 0] < 12) | (hs[..., 0] > 168)) & (hs[..., 1] > 90)
+        soft = cv2.GaussianBlur(red.astype(np.float32), (0, 0), 6)
+        hs[..., 1] *= 1 - 0.75 * soft
+        hs[..., 2] = np.minimum(255, hs[..., 2] + 40 * soft)
+        out[ys, xs] = cv2.cvtColor(hs.astype(np.uint8), cv2.COLOR_HSV2BGR)
     if crop:
         x0, y0, x1, y1 = crop
         out = out[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)]

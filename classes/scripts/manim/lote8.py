@@ -141,3 +141,63 @@ class Resp04Enfisema(BlausenScene):
         t2 = tag('Aire atrapado: hiperinsuflación', AMBER, 24).move_to(b.get_center() + UP * 1.2)
         self.play(FadeOut(marks), FadeIn(t2), *[Indicate(d, color=AMBER, scale_factor=1.4) for d in B[:9]], run_time=1.4)
         self.wait(1.5)
+
+
+# ------------------------------------------------------------------ gastro-17: un cálculo, cuatro cuadros
+class Gastro17Calculo(BlausenScene):
+    IMG, CROP = 'Gallstones.png', (0.12, 0.08, 0.80, 0.76)
+    ERASE = [(0.385, 0.29, 0.425, 0.335)]               # el cálculo dibujado en el colédoco
+    DESAT = [(0.30, 0.20, 0.52, 0.45)]                 # y su halo rojo
+
+    def construct(self):
+        title(self, 'Un cálculo, cuatro cuadros', 'Lo que importa es dónde se enclava', AMBER)
+        self.lamina(height=6.25, center=RIGHT * 3.05 + DOWN * 0.45)
+        P = self.P
+        GB, NECK, CYST = (0.20, 0.31), (0.355, 0.195), (0.402, 0.218)
+        CBD = [(0.43, 0.25), (0.41, 0.30), (0.395, 0.36), (0.385, 0.41), (0.37, 0.46), (0.345, 0.50), (0.315, 0.53)]
+        stone = VGroup(Dot(radius=0.13, color='#D9D2C2').set_stroke('#5A5345', 3), Dot(radius=0.05, color='#B8AE98').shift(UL * 0.03))
+        stone.move_to(P(*GB))
+        duct = self.path([(0.445, 0.235), (0.43, 0.26), (0.415, 0.29), (0.405, 0.32), (0.398, 0.35)])
+        duct.set_stroke('#4F5E2C', 11, opacity=0.9)
+        self.add(duct)
+        steps = [('Cólico biliar', 'obstruye el bacinete un rato', AMBER), ('Colecistitis', 'se enclava en el cístico', RED_),
+                 ('Coledocolitiasis y colangitis', 'baja al colédoco: ictericia, fiebre', VIOLET), ('Pancreatitis biliar', 'tapa la ampolla', BLUE_)]
+        labs = VGroup()
+        for i, (a, b, col) in enumerate(steps):
+            g = VGroup(T(a, 27, col, bold=True), T(b, 20, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.06)
+            labs.add(g)
+        labs.arrange(DOWN, aligned_edge=LEFT, buff=0.42).to_edge(LEFT, buff=0.5).shift(DOWN * 0.45)
+        for g in labs: g.set_opacity(0.25)
+        self.add(labs)
+        self.play(FadeIn(stone, scale=0.5), run_time=0.6)
+
+        def on(i):
+            return [labs[i].animate.set_opacity(1)] + [labs[j].animate.set_opacity(0.25) for j in range(4) if j != i]
+
+        def glow(pt, r, col):
+            return Dot(pt, radius=r, color=col).set_opacity(0)
+
+        # 1. cólico: sube al bacinete y vuelve
+        self.play(*on(0), stone.animate.move_to(P(*NECK)), run_time=1.2)
+        g1 = glow(P(0.33, 0.20), 0.45, AMBER); self.add(g1)
+        self.play(g1.animate.set_opacity(0.45), run_time=0.5); self.play(g1.animate.set_opacity(0), run_time=0.5)
+        self.play(stone.animate.move_to(P(*GB)), run_time=1.0)
+        # 2. colecistitis: se enclava en el cístico, la vesícula se inflama
+        self.play(*on(1), MoveAlongPath(stone, self.path([GB, (0.29, 0.20), NECK, CYST])), run_time=1.4)
+        g2 = glow(P(0.255, 0.255), 0.95, RED_).stretch(0.7, 1); self.add(g2)
+        self.play(g2.animate.set_opacity(0.38), run_time=1.0)
+        self.wait(0.6)
+        # 3. colédoco: la bilis se devuelve (ictericia) y se infecta
+        g3 = glow(P(0.465, 0.17), 0.55, '#C8D84A')
+        self.add(g3)
+        self.play(*on(2), g2.animate.set_opacity(0), MoveAlongPath(stone, self.path([CYST] + CBD[:4])), run_time=1.5)
+        bact = VGroup(*[Dot(P(0.43 + 0.02 * np.cos(k), 0.26 + 0.03 * np.sin(k)), radius=0.045, color=VIOLET) for k in range(8)])
+        self.play(g3.animate.set_opacity(0.4), FadeIn(bact, lag_ratio=0.15), run_time=1.2)
+        self.play(*[d.animate.shift(UP * 0.5 + RIGHT * 0.2 * np.cos(i)) for i, d in enumerate(bact)], run_time=1.0)
+        # 4. ampolla: tapa el conducto pancreático
+        self.play(*on(3), FadeOut(bact), g3.animate.set_opacity(0), MoveAlongPath(stone, self.path(CBD[3:])), run_time=1.4)
+        g4 = glow(P(0.60, 0.34), 1.55, RED_).stretch(0.42, 1).rotate(0.22)
+        g5 = glow(P(0.44, 0.50), 1.0, RED_)
+        self.add(g4, g5)
+        self.play(g4.animate.set_opacity(0.3), g5.animate.set_opacity(0.3), Flash(stone, color=RED_, line_length=0.25), run_time=1.3)
+        self.wait(1.5)

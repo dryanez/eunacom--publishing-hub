@@ -77,16 +77,17 @@ class BlausenScene(Scene):
     IMG = ''
     CROP = (0, 0, 1, 1)
     ERASE = ()
+    DESAT = ()
 
     def lamina(self, height=6.0, center=DOWN * 0.35, card=True, crop=None, width=None, credit=True):
         import hashlib, os, sys
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         from blausen_clean import clean
         crop = crop or self.CROP
-        key = hashlib.md5(repr((self.IMG, crop, self.ERASE)).encode()).hexdigest()[:10]
+        key = hashlib.md5(repr((self.IMG, crop, self.ERASE, self.DESAT)).encode()).hexdigest()[:10]
         png = f'/tmp/blausen_{key}.png'
         if not os.path.exists(png):
-            clean(self.IMG, png, crop, self.ERASE)
+            clean(self.IMG, png, crop, self.ERASE, self.DESAT)
         img = ImageMobject(png)
         img.set(width=width) if width else img.set(height=height)
         img.move_to(center)

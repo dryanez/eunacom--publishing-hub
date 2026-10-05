@@ -246,13 +246,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'Dónde se enclava el cálculo',
+      title: 'Un cálculo, cuatro cuadros',
       images: [
-        { src: 'animaciones/gastro-17/A1_calculo_cuatro_cuadros.mp4', label: 'Cuatro cuadros', credit: 'Animación propia' },
+        { src: 'animaciones/gastro-17/A1_calculo_real.mp4', label: 'Cuatro cuadros', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'La ubicación decide',
-          say: 'Si el cálculo obstruye un rato el bacinete, es un cólico biliar. Si se enclava en el cístico, colecistitis. Si baja al colédoco, coledocolitiasis y colangitis. Y si se atasca en la ampolla, tapa el conducto pancreático: pancreatitis biliar.' },
+          say: 'Sigamos el cálculo. Si obstruye un rato el bacinete y vuelve, es un cólico biliar. Si se enclava en el cístico, la vesícula se inflama: colecistitis. Si baja al colédoco, la bilis se devuelve y aparece la ictericia; si además se infecta, colangitis. Y si se atasca en la ampolla, tapa el conducto pancreático: pancreatitis biliar.' },
       ],
     },
 
