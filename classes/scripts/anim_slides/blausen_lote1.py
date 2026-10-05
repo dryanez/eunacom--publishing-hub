@@ -58,3 +58,9 @@ S['resp-22'] = {
     'steps': [{'note': 'Sin aire no hay intercambio',
                'say': 'En el distrés, los alvéolos se llenan de líquido rico en proteínas. El aire no entra, no hay intercambio, y la hipoxemia no mejora con oxígeno. Se ventila de forma protectora: volumen corriente bajo, presión meseta bajo treinta, y PEEP alta para mantener abiertos los alvéolos.'}],
 }
+S['ped-05'] = {
+    'title': 'El bronquiolo',
+    'images': [{'src': 'animaciones/ped-05/A1_bronquiolo_real.mp4', 'label': 'Bronquiolitis', 'credit': BL}],
+    'steps': [{'note': 'Entra pero no sale',
+               'say': 'En el lactante, el bronquiolo es muy pequeño. El edema y el moco lo estrechan, y al espirar se cierra todavía más: el aire entra pero no alcanza a salir y queda atrapado. Por eso aparecen sibilancias y retracciones.'}],
+}

@@ -154,11 +154,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'El bronquiolo',
       images: [
-        { src: 'animaciones/ped-05/A1_bronquiolo.mp4', label: 'Bronquiolitis', credit: 'Animación propia' },
+        { src: 'animaciones/ped-05/A1_bronquiolo_real.mp4', label: 'Bronquiolitis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Edema y moco',
-          say: 'En el lactante, el bronquiolo es muy pequeño. El edema y el moco lo tapan: el aire entra pero no sale, y aparecen sibilancias y retracciones.' },
+        { note: 'Entra pero no sale',
+          say: 'En el lactante, el bronquiolo es muy pequeño. El edema y el moco lo estrechan, y al espirar se cierra todavía más: el aire entra pero no alcanza a salir y queda atrapado. Por eso aparecen sibilancias y retracciones.' },
       ],
     },
 

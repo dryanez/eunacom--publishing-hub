@@ -772,3 +772,51 @@ class Resp22Distres(BlausenScene):
         for m in vp:
             self.play(FadeIn(m, shift=RIGHT * 0.2), run_time=0.5)
         self.wait(2)
+
+
+# ------------------------------------------------------------------ ped-05: bronquiolitis (aire que entra y no sale)
+class Ped05Bronquiolitis(BlausenScene):
+    IMG = 'Bronchitis.png'
+
+    def construct(self):
+        title(self, 'Bronquiolitis: aire que entra y no sale', 'En el lactante el bronquiolo es tan pequeño que el edema y el moco lo tapan', BLUE_)
+        a = self.lamina(width=5.3, center=LEFT * 3.4 + DOWN * 0.45, crop=(0.04, 0.085, 0.45, 0.48), credit=False)
+        b = self.lamina(width=5.3, center=RIGHT * 3.4 + DOWN * 0.45, crop=(0.04, 0.575, 0.45, 0.97), credit=False)
+        self.add(T(BLAUSEN_CREDIT, 12, MUTED).to_corner(DR, buff=0.06))
+        P = self.P
+        la = T('Bronquiolo sano', 24, GREEN_, bold=True).next_to(a, UP, buff=0.12)
+        lb = T('Bronquiolitis: edema y moco', 24, RED_, bold=True).next_to(b, UP, buff=0.12)
+        self.play(FadeIn(la), FadeIn(lb), run_time=0.6)
+        axA = [(0.075, 0.425), (0.14, 0.375), (0.21, 0.315), (0.28, 0.25), (0.34, 0.18), (0.375, 0.14)]
+        axB = [(x, y + 0.49) for x, y in axA]
+        pa, pb = self.path(axA, img=a), self.path(axB, img=b)
+        n = 7
+        A = VGroup(*[Dot(pa.get_start(), radius=0.075, color=BLUE_).set_stroke(WHITE, 1.2) for _ in range(n)])
+        B = VGroup(*[Dot(pb.get_start(), radius=0.075, color=BLUE_).set_stroke(WHITE, 1.2) for _ in range(n)])
+        self.add(A, B)
+        trapped = 0
+        phase = T('', 22)
+        for cyc in range(3):
+            ins = T('Inspiración', 22, INK).to_edge(DOWN, buff=0.25)
+            self.play(FadeIn(ins, run_time=0.2),
+                      *[d.animate.move_to(pa.point_from_proportion(0.55 + 0.4 * i / n)) for i, d in enumerate(A)],
+                      *[d.animate.move_to(pb.point_from_proportion(0.55 + 0.4 * i / n)) for i, d in enumerate(B)], run_time=1.5)
+            exp = T('Espiración', 22, INK).to_edge(DOWN, buff=0.25)
+            # en la espiración la vía se estrecha más: parte del aire queda atrapada
+            trapped = min(n, trapped + 2)
+            self.play(FadeOut(ins, run_time=0.2), FadeIn(exp, run_time=0.2),
+                      *[d.animate.move_to(pa.get_start()) for d in A],
+                      *[d.animate.move_to(pb.get_start()) for d in B[trapped:]],
+                      *[d.animate.move_to(pb.point_from_proportion(0.8 + 0.18 * i / n)).set_color(AMBER) for i, d in enumerate(B[:trapped])],
+                      run_time=1.5)
+            self.play(FadeOut(exp), run_time=0.2)
+            if cyc == 0:
+                plug = Circle(radius=0.35, color=AMBER, stroke_width=5).move_to(pb.point_from_proportion(0.45))
+                tp = tag('Edema y moco: la luz se cierra al espirar', AMBER, 18).next_to(b, DOWN, buff=0.1)
+                ta = T('El aire entra y sale', 20, GREEN_).next_to(a, DOWN, buff=0.12)
+                self.play(Create(plug), FadeIn(tp), FadeIn(ta), run_time=0.8)
+        res = VGroup(T('Aire atrapado', 22, AMBER, bold=True), T('sibilancias y retracciones', 20, INK)).arrange(DOWN, buff=0.05)
+        res.move_to(pb.point_from_proportion(0.92) + RIGHT * 0.2 + DOWN * 1.1)
+        bg = BackgroundRectangle(res, color=BG, fill_opacity=0.85, buff=0.12, corner_radius=0.1)
+        self.play(FadeIn(bg), FadeIn(res), *[Indicate(d, color=AMBER) for d in B[:trapped]], run_time=1.2)
+        self.wait(1.8)

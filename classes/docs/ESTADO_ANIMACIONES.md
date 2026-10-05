@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **28**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **32**
+- ✅ Hechas con anatomía real (3D o Blausen): **29**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **31**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
 - ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (32)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (31)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -30,7 +30,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-16 | Desmielinización ascendente del Guillain-Barré; capacidad vital que cae | M | ★★★ | A1_guillain_barre.mp4 |
 | ob-04 | Redistribución del flujo fetal (cerebro protegido) en la restricción | M | ★★★ | A1_redistribucion.mp4 |
 | ob-05 | Invasión trofoblástica defectuosa → arterias espirales estrechas → preeclampsia | M | ★★★ | A1_placentacion.mp4 |
-| ped-05 | Bronquiolitis: bronquiolo que se tapa con moco y aire atrapado | M | ★★★ | A1_bronquiolo.mp4 |
 | diab-17 | (animación existente, no estaba en el plan) |  |  | A1_insulina_potasio.mp4, A2_umbral_potasio.mp4 |
 | gastro-13 | (animación existente, no estaba en el plan) |  |  | A1_camino_bilirrubina.mp4 |
 | hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo.mp4, A2_coombs_indirecto.mp4 |
@@ -219,7 +218,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (28)
+## ✅ Hechas con anatomía real (3D o Blausen) (29)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -236,6 +235,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-04 | Aneurisma del polígono que se rompe y llena las cisternas | M | ★★★ | A1_aneurisma_3d.mp4 |
 | neuro-08 | Crisis focal que se generaliza (propagación por la corteza) | M | ★★★ | A1_crisis_propagacion_3d.mp4 |
 | neuro-11 | Vía nigroestriada: dopamina que falta y levodopa que la repone | M | ★★★ | A1_nigroestriada_3d.mp4 |
+| ped-05 | Bronquiolitis: bronquiolo que se tapa con moco y aire atrapado | M | ★★★ | A1_bronquiolo_real.mp4 |
 | resp-02 | Bronquio en la crisis asmática: contracción, edema, moco; el CO2 normal que alarma | M | ★★★ | A1_crisis_asmatica_real.mp4 |
 | resp-04 | Enfisema: alvéolos que se rompen y atrapan aire | M | ★★★ | A1_enfisema_real.mp4 |
 | resp-11 | Criterios de Light: trasudado vs exudado (presiones de Starling) | M | ★★★ | A1_trasudado_exudado_real.mp4 |
