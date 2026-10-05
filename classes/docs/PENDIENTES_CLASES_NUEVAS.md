@@ -9,7 +9,7 @@ Cardiología sigue excluida a pedido del usuario.
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
-| Urología (`uro-XX`) | 15 | 12 | 10 |
+| Urología (`uro-XX`) | 15 | 15 ✅ | 11 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
@@ -62,6 +62,9 @@ Cardiología sigue excluida a pedido del usuario.
 | uro-10 | Piezas de seminoma (Bailey Fig. 80.14, p. 1527) y teratoma (Fig. 80.17, p. 1528) — extraídas pequeñas; histología de seminoma y no seminomatoso | Bailey, Pathoma, AMIR |
 | uro-11 | TC con masa renal que capta contraste (fase simple y córtico-medular); histología de células claras | AMIR / CTO Urología, Pathoma |
 | uro-12 | RTU vesical en acto; cistectomía y conducto ileal de Bricker; histología urotelial; Bailey Fig. 75.12 (cistoscopía con tumores papilares, panel incierto) | AMIR / CTO Urología, Pathoma |
+| uro-13 | Ecografía transrectal de absceso prostático; esquema de Meares-Stamey | CTO / AMIR Urología, Campbell, Smith |
+| uro-14 | Paneles Bosniak II, III y IV (en `_candidatas4/Bailey_Love/p1412_2..4`, asignar cada uno); ecografía de quiste simple con refuerzo posterior; angio-RM con aneurisma de Berry | Bailey (asignar), AMIR |
+| uro-15 | Microscopía de hematíes dismórficos y acantocitos; cilindro hemático; uro-TC con fase excretora | CTO / AMIR Nefrología |
 
 ## Animaciones por hacer
 
@@ -182,3 +185,9 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | uro-11 | Nefrectomía parcial vs radical (BodyParts3D / Blausen, nunca Z-Anatomy) | Tratamiento según tamaño |
 | uro-12 | Capas de la pared vesical con Ta, T1 y T2 y qué trata cada una (BCG vs cistectomía) | Estadificación |
 | uro-12 | RTU que llega al detrusor: la muestra debe incluir músculo | Se pregunta |
+| uro-13 | Masaje sobre próstata infectada: bacterias a los plexos venosos y a la sangre | Por qué está contraindicado |
+| uro-13 | Barrera hematoprostática: el ciprofloxacino entra al acino, el betalactámico queda fuera | Elección del antibiótico |
+| uro-14 | Árbol: ecografía → Bosniak I, II, IIF, III/IV, resaltando el realce con contraste | Conducta ante un quiste |
+| uro-14 | Riñón normal que se llena de quistes con los años (BodyParts3D / Blausen) | Poliquistosis |
+| uro-15 | Glóbulo rojo que cruza el glomérulo y sale dismórfico vs uno que sangra de la vía urinaria y sale redondo con coágulo | Glomerular vs urológica |
+| uro-15 | Árbol animado por color, coágulos y sedimento | Estudio de la hematuria |
