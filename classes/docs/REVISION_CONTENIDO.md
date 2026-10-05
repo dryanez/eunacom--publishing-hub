@@ -654,3 +654,8 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - trauma-10 (C): las secciones de examen clínico y de clasificación están vacías: sin Garden, sin tratamiento intertrocantéreo en el texto, sin tromboprofilaxis ni rehabilitación. Tornillo dinámico y tornillos canulados vienen de las explicaciones de las preguntas del libro.
 - trauma-12 (C): análisis de líquido sinovial, clínica de la gota y artritis séptica son encabezados vacíos; se completaron solo con explicaciones del banco real y pies de figura de Harrison y Bailey.
 - trauma-11 (C): sin dosis de AINE, infiltración ni epicondilera.
+- trauma-13 (A): el libro llama al sarcoma de Ewing "de Yubin"; no se enseñó ese nombre.
+- trauma-15 (A): capsulitis adhesiva con corticoides (libro, igual que trauma-11) vs Julio 2015 · P126 (AINE + kinesioterapia, movilización precoz). Se enseñó el libro y se descartó P126.
+- trauma-14 (B): edad límite del arnés de Pavlik: libro < 10 meses, ped-22 < 6 meses, explicación del banco (Julio 2017 · P137) < 9 meses. La clase dice "lactante menor" y avisa que la fuente varía. Unificar con ped-22.
+- trauma-14: Julio 2025 · P130 (Perthes) y P76 (pie bot, Ponseti) tienen baja confianza de código en el banco (0,25 y 0,28); los enunciados son del tema y las respuestas correctas, pero conviene confirmar que son reales.
+- trauma-13 (C): sin condrosarcoma, metástasis óseas (la causa más común de tumor óseo maligno) ni triángulo de Codman. trauma-14 (C): sin sección propia de Perthes ni epifisiólisis; tratamiento de Perthes solo "reposo o cirugía"; sin datos de escoliosis. trauma-15 (C): faltan Neer, Hawkins, Jobe, Spurling, cauda equina, la lista de signos de alarma del lumbago y fibromialgia.

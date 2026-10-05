@@ -8,7 +8,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
-| Traumatología (`trauma-XX`) | 15 | 12 | 8 |
+| Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
@@ -47,6 +47,9 @@ Cardiología sigue excluida a pedido del usuario.
 | trauma-10 | Rx AP de pelvis con fractura de cuello femoral (Garden); fractura intertrocantérea con tornillo dinámico; hemiartroplastía; luxación posterior de cadera (Rx y foto de la pierna) (Bailey Fig. 35.6/35.8 solo ~187 px) | Bailey & Love (otra extracción), CTO / AMIR Traumatología |
 | trauma-11 | Hombro congelado; arco doloroso y Neer (van en trauma-15); epicondilitis; De Quervain con Finkelstein; cintilla iliotibial | CTO / AMIR Traumatología |
 | trauma-12 | Tofos gotosos; Rx de artrosis de rodilla y cadera con osteofitos; artritis séptica (Bailey Fig. 38.4 y 39.40 < 250 px); condrocalcinosis con meniscos calcificados | AMIR / CTO Reumatología |
+| trauma-13 | Osteosarcoma en "sol naciente" y triángulo de Codman; imágenes más grandes (las de Bailey miden ~190 px) | CTO / AMIR Traumatología, Pathoma |
+| trauma-14 | Pie bot con sus cuatro deformidades (Bailey Fig. 39.29, 189 px; Nelson Fig. 715.3); test de Adams y giba costal (Bailey Fig. 39.35, p. 602); epifisiólisis en proyección lateral ("helado caído") | Nelson, Bailey, CTO |
+| trauma-15 | Maniobras de Neer y Hawkins; RM lumbar con hernia o cauda equina; ecografía del supraespinoso (Bailey Fig. 14.23, p. 223, extraída sin usar) | CTO / AMIR Traumatología |
 
 ## Animaciones por hacer
 
@@ -131,3 +134,11 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | trauma-12 | Cartílago que se desgasta: estrecha el espacio y aparecen osteofitos | Artrosis |
 | trauma-12 | Escalera del líquido sinovial por leucocitos (< 2.000, 2.000–50.000, > 50.000) con el diagnóstico | Monoartritis |
 | trauma-12 | Polarización: urato en aguja (negativa) vs pirofosfato romboidal (débilmente positiva) | Gota vs pseudogota |
+| trauma-13 | Hueso largo: se ilumina el sitio típico de cada tumor (epífisis, metáfisis, diáfisis) según la edad | Localización por edad |
+| trauma-13 | Periostio levantado: reacción simple → telas de cebolla → sol naciente | Imágenes clásicas |
+| trauma-14 | Test de Adams: aparece la giba costal en la escoliosis estructural, no en la postural (anatomía real) | Tamizaje |
+| trauma-14 | Pie bot: varo, equino, cavo, aducto y su corrección con yesos de Ponseti | Tratamiento |
+| trauma-14 | Cabeza femoral en la epifisiólisis ("helado que cae") vs normal, vista lateral | Diagnóstico |
+| trauma-15 | Elevación del brazo: el supraespinoso pasa bajo el acromion; arco doloroso entre 60° y 120° (anatomía real) | Manguito rotador |
+| trauma-15 | Cauda equina: compresión de las raíces y anestesia en silla de montar | Urgencia quirúrgica |
+| trauma-15 | Movilidad pasiva vs activa: manguito (pasiva libre) vs capsulitis (pasiva bloqueada) | Diferenciar |
