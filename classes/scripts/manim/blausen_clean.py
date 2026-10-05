@@ -25,6 +25,19 @@ def clean(src, dst, crop=None, erase=(), desat=()):
             keep[lab == i] = 255
     mask = cv2.dilate(keep, np.ones((5, 5), np.uint8), iterations=1)
     for e in erase:
+        if e[0] == 'ring':                                  # ('ring', cx, cy, radio, grosor) en fracciones del ancho
+            _, cx, cy, r, th = e
+            band = np.zeros_like(mask)
+            cv2.circle(band, (int(cx * w), int(cy * h)), int(r * w), 255, max(1, int(th * w)))
+            dark = (v < 120).astype(np.uint8) * 255                 # solo el trazo oscuro, no lo que queda debajo
+            mask |= cv2.dilate(band & dark, np.ones((5, 5), np.uint8), iterations=1)
+            continue
+        if e[0] == 'dark':                                  # ('dark', x0, y0, x1, y1): solo píxeles oscuros de la caja
+            _, x0, y0, x1, y1 = e
+            sub = (v[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] < 120).astype(np.uint8) * 255
+            sub = cv2.dilate(sub, np.ones((5, 5), np.uint8), iterations=1)
+            mask[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] |= sub
+            continue
         x0, y0, x1, y1 = e
         mask[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)] = 255
     out = cv2.inpaint(im, mask, 4, cv2.INPAINT_TELEA)

@@ -502,3 +502,84 @@ class Infecto23Zoster(BlausenScene):
         lv = VGroup(T('Vesículas agrupadas', 17, BG, bold=True), T('sobre base roja', 17, BG, bold=True)).arrange(DOWN, buff=0.05).next_to(lens, DOWN, buff=0.1).shift(LEFT * 0.3)
         self.play(FadeIn(lens, scale=0.6), FadeIn(lv), run_time=1.0)
         self.wait(2.0)
+
+
+# ------------------------------------------------------------------ resp-02: el bronquio en la crisis asmática
+class Resp02Asma(BlausenScene):
+    IMG = 'Blausen 0620 Lungs NormalvsInflamedAirway.png'
+    ERASE = [('ring', 0.775, 0.468, 0.175, 0.03), ('dark', 0.605, 0.36, 0.70, 0.65), ('dark', 0.64, 0.27, 0.70, 0.36),
+             (0.58, 0.44, 0.63, 0.50), (0.68, 0.60, 0.72, 0.66), (0.78, 0.72, 0.84, 0.79)]
+
+    def air(self, center, r_lumen, n, run, blocked=False):
+        """Partículas de aire que entran a la luz (convergen al centro y se achican)."""
+        dots = VGroup()
+        anims = []
+        rng = np.random.default_rng(3 if blocked else 1)
+        for i in range(n):
+            a = rng.uniform(0, 2 * PI)
+            start = center + np.array([np.cos(a), np.sin(a), 0]) * rng.uniform(0.9, 1.5) + np.array([-0.4, -0.5, 0])
+            d = Dot(start, radius=0.07, color=BLUE_).set_stroke(WHITE, 1.2)
+            dots.add(d)
+            if blocked and i % 3:
+                anims.append(Succession(d.animate(run_time=run * 0.45).move_to(center + (start - center) * 0.45),
+                                        d.animate(run_time=run * 0.55).move_to(start).set_opacity(0)))
+            else:
+                anims.append(d.animate(run_time=run).move_to(center + rng.uniform(-0.3, 0.3, 3) * np.array([r_lumen, r_lumen, 0])).scale(0.2).set_opacity(0.2))
+        return dots, anims
+
+    def construct(self):
+        title(self, 'El bronquio en la crisis asmática', 'Broncoespasmo, edema y moco cierran la luz', BLUE_)
+        nor = self.lamina(height=4.5, center=LEFT * 4.35 + DOWN * 0.35, crop=(0.035, 0.27, 0.36, 0.72))
+        inf = self.lamina(height=4.5, center=RIGHT * 0.45 + DOWN * 0.35, crop=(0.62, 0.21, 0.975, 0.72), credit=False)
+        self.add(T(BLAUSEN_CREDIT, 13, MUTED).to_corner(DR, buff=0.15))
+        P = self.P
+        ln = T('Normal', 26, GREEN_, bold=True).next_to(nor, UP, buff=0.2)
+        li = T('En la crisis', 26, RED_, bold=True).next_to(inf, UP, buff=0.2)
+        self.play(FadeIn(ln), FadeIn(li), run_time=0.6)
+        cn, ci = P(0.13, 0.60, nor), P(0.868, 0.592, inf)
+        # el aire entra sin problema vs casi no pasa
+        for _ in range(2):
+            d1, a1 = self.air(cn, 0.5, 12, 1.4)
+            d2, a2 = self.air(ci, 0.18, 9, 1.4, blocked=True)
+            self.add(d1, d2)
+            self.play(*a1, *a2)
+            self.remove(d1, d2)
+        cap = VGroup(T('Luz amplia: el aire pasa', 20, GREEN_).next_to(nor, DOWN, buff=0.15),
+                     T('Luz estrecha: sibilancias', 20, RED_).next_to(inf, DOWN, buff=0.15))
+        self.play(FadeIn(cap), run_time=0.6)
+        # tres mecanismos sobre la pared real
+        mech = [('Broncoespasmo', 'el músculo se contrae', (0.80, 0.395), UP * 1.35 + RIGHT * 0.2),
+                ('Edema', 'la pared se engruesa', (0.95, 0.60), RIGHT * 1.15 + UP * 0.35),
+                ('Moco', 'tapona la luz', (0.842, 0.555), LEFT * 1.6 + DOWN * 0.15)]
+        pins = VGroup()
+        for name, sub, (fx, fy), off in mech:
+            p = P(fx, fy, inf)
+            lab = VGroup(T(name, 22, AMBER, bold=True), T(sub, 17, INK)).arrange(DOWN, buff=0.04)
+            box = BackgroundRectangle(lab, color=BG, fill_opacity=0.85, buff=0.1, corner_radius=0.08)
+            g = VGroup(box, lab).move_to(p + off)
+            ln_ = Line(g.get_critical_point(-np.sign(off) * np.array([1, 1, 0])), p, color=AMBER, stroke_width=3)
+            dot = Dot(p, radius=0.07, color=AMBER)
+            self.play(FadeIn(g), Create(ln_), FadeIn(dot), run_time=0.7)
+            pins.add(g, ln_, dot)
+            self.wait(0.5)
+        # comparación del calibre
+        ring_n = DashedVMobject(Circle(radius=0.48, color=GREEN_, stroke_width=4), num_dashes=24).move_to(cn)
+        self.play(Create(ring_n), run_time=0.6)
+        self.play(ring_n.animate.move_to(ci), run_time=1.0)
+        self.wait(0.6)
+        self.play(FadeOut(ring_n), run_time=0.3)
+        # CO2: baja al comienzo; si se normaliza, el paciente se agota
+        panel = RoundedRectangle(corner_radius=0.15, width=2.55, height=3.4, stroke_color=MUTED, stroke_width=2).move_to(RIGHT * 5.75 + DOWN * 0.35)
+        hdr = T('CO₂ en sangre', 22, INK, bold=True).next_to(panel.get_top(), DOWN, buff=0.25)
+        v = ValueTracker(40)
+        num = always_redraw(lambda: T(f'{int(round(v.get_value()))}', 56, GREEN_ if v.get_value() < 37 else (RED_ if v.get_value() > 38.5 else INK), bold=True).move_to(panel.get_center() + UP * 0.2))
+        unit = T('mmHg', 18, MUTED).next_to(panel.get_center() + DOWN * 0.35, DOWN, buff=0.05)
+        msg = T('', 18)
+        self.play(Create(panel), FadeIn(hdr), FadeIn(num), FadeIn(unit), run_time=0.7)
+        m1 = VGroup(T('Bajo: hiperventila', 19, GREEN_), T('(lo esperable)', 17, MUTED)).arrange(DOWN, buff=0.04).next_to(unit, DOWN, buff=0.25)
+        self.play(v.animate.set_value(30), FadeIn(m1), run_time=1.4)
+        self.wait(0.8)
+        m2 = VGroup(T('Normal = se agota', 19, RED_, bold=True), T('¡alarma!', 19, RED_, bold=True)).arrange(DOWN, buff=0.04).move_to(m1)
+        self.play(v.animate.set_value(40), FadeOut(m1), FadeIn(m2), run_time=1.6)
+        self.play(Indicate(m2, color=RED_, scale_factor=1.15), Indicate(panel, color=RED_), run_time=0.9)
+        self.wait(1.5)

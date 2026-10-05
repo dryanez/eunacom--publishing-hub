@@ -34,3 +34,9 @@ S['infecto-23'] = {
     'steps': [{'note': 'Dormido en el ganglio',
                'say': 'Después de la varicela, el virus queda dormido en un ganglio sensitivo. Años después, con la edad o la inmunosupresión, reactiva y viaja por ese nervio: primero hay dolor quemante y luego aparecen vesículas agrupadas sobre una base roja, en una franja que no cruza la línea media.'}],
 }
+S['resp-02'] = {
+    'title': 'El bronquio en la crisis',
+    'images': [{'src': 'animaciones/resp-02/A1_crisis_asmatica_real.mp4', 'label': 'Crisis asmática', 'credit': BL}],
+    'steps': [{'note': 'Tres mecanismos y una alarma',
+               'say': 'En la crisis, el bronquio se cierra por tres mecanismos: el músculo se contrae, la pared se engruesa por edema y el moco tapona la luz. El aire casi no pasa y aparecen las sibilancias. Al principio el paciente hiperventila y el CO dos baja. Si sube a lo normal, el paciente se está agotando: es una alarma.'}],
+}

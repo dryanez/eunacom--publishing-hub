@@ -212,11 +212,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'El bronquio en la crisis',
       images: [
-        { src: 'animaciones/resp-02/A1_crisis_asmatica.mp4', label: 'Crisis asmática', credit: 'Animación propia' },
+        { src: 'animaciones/resp-02/A1_crisis_asmatica_real.mp4', label: 'Crisis asmática', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cuidado con el CO dos normal',
-          say: 'El bronquio se cierra por broncoespasmo, edema y moco. Al principio el paciente hiperventila y el CO dos baja. Si sube a lo normal, el paciente se está agotando: es una alarma.' },
+        { note: 'Tres mecanismos y una alarma',
+          say: 'En la crisis, el bronquio se cierra por tres mecanismos: el músculo se contrae, la pared se engruesa por edema y el moco tapona la luz. El aire casi no pasa y aparecen las sibilancias. Al principio el paciente hiperventila y el CO dos baja. Si sube a lo normal, el paciente se está agotando: es una alarma.' },
       ],
     },
 

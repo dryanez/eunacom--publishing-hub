@@ -834,7 +834,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | resp-01 | dataset_neumologia.cjs (resp-01, bloque 1) | Animación | fv obstructiva | `animaciones/resp-01/A2_fv_obstructiva.mp4` | Animación propia (Manim) | sí |
 | resp-01 | dataset_neumologia.cjs (resp-01, bloque 1) | Animación | fv restrictiva | `animaciones/resp-01/A3_fv_restrictiva.mp4` | Animación propia (Manim) | sí |
 | resp-01 | dataset_neumologia.cjs (resp-01, bloque 1) | Dibujo propio | flujo volumen | `biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg` | Dibujo propio | sí |
-| resp-02 | dataset_neumologia.cjs (resp-02, bloque 1) | Animación | crisis asmatica | `animaciones/resp-02/A1_crisis_asmatica.mp4` | Animación propia (Manim) | sí |
+| resp-02 | dataset_neumologia.cjs (resp-02, bloque 1) | Animación | crisis asmatica | `animaciones/resp-02/A1_crisis_asmatica_real.mp4` | Animación propia (Manim) | sí |
 | resp-03 | dataset_neumologia.cjs (resp-03, bloque 1) | Dibujo propio | prueba broncodilatadora | `biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg` | Dibujo propio | sí |
 | resp-04 | dataset_neumologia.cjs (resp-04, bloque 1) | Animación | enfisema | `animaciones/resp-04/A1_enfisema_real.mp4` | Animación propia (Manim) | sí |
 | resp-04 | dataset_neumologia.cjs (resp-04, bloque 1) | Imagen | EPOC: hiperinsuflación, diafragmas aplanados | `biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg` | The Chest X-Ray: A Survival Guide, Fig. 22.2 | sí |
