@@ -10,7 +10,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
 | Urología (`uro-XX`) | 15 | 15 ✅ | 11 |
-| Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
+| Psiquiatría (`psiq-XX`) | 18 | 3 | 0 (no requiere) |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
 
@@ -65,6 +65,8 @@ Cardiología sigue excluida a pedido del usuario.
 | uro-13 | Ecografía transrectal de absceso prostático; esquema de Meares-Stamey | CTO / AMIR Urología, Campbell, Smith |
 | uro-14 | Paneles Bosniak II, III y IV (en `_candidatas4/Bailey_Love/p1412_2..4`, asignar cada uno); ecografía de quiste simple con refuerzo posterior; angio-RM con aneurisma de Berry | Bailey (asignar), AMIR |
 | uro-15 | Microscopía de hematíes dismórficos y acantocitos; cilindro hemático; uro-TC con fase excretora | CTO / AMIR Nefrología |
+| psiq-01 | Escala PHQ-9 impresa | Manual CTO / AMIR Psiquiatría |
+| psiq-02 | Línea de tiempo del ánimo con manía, hipomanía y depresión | Dibujo propio |
 
 ## Animaciones por hacer
 
@@ -191,3 +193,12 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | uro-14 | Riñón normal que se llena de quistes con los años (BodyParts3D / Blausen) | Poliquistosis |
 | uro-15 | Glóbulo rojo que cruza el glomérulo y sale dismórfico vs uno que sangra de la vía urinaria y sale redondo con coágulo | Glomerular vs urológica |
 | uro-15 | Árbol animado por color, coágulos y sedimento | Estudio de la hematuria |
+| psiq-01 | Sinapsis monoaminérgica con ISRS + latencia de 2 a 4 semanas | Por qué esperar antes de cambiar |
+| psiq-01 | Línea de tiempo: control a 2 semanas, reevaluación a 4–6, subir dosis, cambiar, remisión, mantención 6–12 meses | Manejo |
+| psiq-01 | Contador "5 de 9 síntomas por 2 semanas" con uno obligatorio (ánimo bajo o anhedonia) | Criterios DSM-5 |
+| psiq-02 | Línea de tiempo del ánimo: manía 7 días, hipomanía 4 días; la psicosis convierte el episodio en manía | Bipolar I vs II |
+| psiq-02 | Viraje: depresión con antidepresivo solo que salta a manía | Trampa de la monoterapia |
+| psiq-02 | Escalera de litemia por colores (0,6–1,0 / 1,5–2,0 / 2,0–2,5 / > 2,5) con la conducta de cada tramo | Intoxicación por litio |
+| psiq-03 | Árbol de triage del riesgo suicida: alto, moderado, bajo | Conducta |
+| psiq-03 | Entrevista escalonada: ideación pasiva → activa → plan → método → actos preparatorios | Evaluación |
+| psiq-03 | "Calma repentina" tras una crisis | Mejorar rápido no significa que pasó el riesgo |
