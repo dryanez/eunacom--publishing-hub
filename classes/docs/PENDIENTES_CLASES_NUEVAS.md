@@ -7,7 +7,7 @@ Cardiología sigue excluida a pedido del usuario.
 
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
-| Otorrinolaringología (`orl-XX`) | 20 | 10 | 9 |
+| Otorrinolaringología (`orl-XX`) | 20 | 13 | 12 |
 | Traumatología (`trauma-XX`) | 15 | 0 | 0 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
@@ -25,6 +25,9 @@ Cardiología sigue excluida a pedido del usuario.
 | orl-08 | Bell clara: no arruga la frente ni cierra el ojo, idealmente junto a una parálisis central con frente respetada; Ramsay Hunt con vesícula en el tímpano | Manual CTO Otorrino / AMIR Neurología |
 | orl-09 | Rinoscopía anterior: cornetes pálidos, azulados y edematosos; mucosa violácea de rinitis medicamentosa; pólipo nasal; pliegue de Dennie-Morgan | Manual CTO Otorrino / Harrison |
 | orl-10 | Celulitis orbitaria con proptosis y quemosis (para comparar con preseptal); endoscopía con pus en el meato medio | Manual CTO / AMIR Otorrino |
+| orl-11 | Sonda Foley / balón de taponamiento posterior colocado | Manual CTO / AMIR Otorrino |
+| orl-12 | Hematoma septal en rinoscopía (abombamiento violáceo); pólipos "uva pelada" en nasofibroscopía; TC de desviación septal; papiloma invertido | Manual CTO / AMIR Otorrino |
+| orl-13 | Exantema por amoxicilina en mononucleosis; escarlatina (lengua de fresa, exantema áspero); absceso periamigdalino con úvula desviada; petequias en el paladar | Manual CTO / AMIR Otorrino o Pediatría |
 
 ## Animaciones por hacer
 
@@ -57,3 +60,11 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | orl-09 | Cuadrícula ARIA: intermitente/persistente × leve/moderada-severa | Clasificación que se pregunta |
 | orl-10 | Corte coronal de órbita y etmoides: lámina papirácea, periostio y septum; dónde está la infección en cada grado de Chandler; globo desplazado abajo y afuera en el absceso subperióstico | Preseptal vs orbitaria |
 | orl-10 | Complejo osteomeatal: el edema viral bloquea el drenaje, el moco se retiene y crecen bacterias | Por qué la sinusitis bacteriana viene después de la viral |
+| orl-11 | Corte sagital de la fosa nasal: cuatro arterias que confluyen en Kiesselbach y la esfenopalatina atrás | Anterior vs posterior |
+| orl-11 | Colocación de la sonda Foley: punta en orofaringe, balón con 8–10 mL de agua, tracción hasta la coana, más tapón anterior | Taponamiento posterior |
+| orl-11 | Cauterización de ambas caras del tabique: el cartílago queda sin irrigación y se perfora | Por qué está prohibido |
+| orl-12 | Hematoma septal despega el pericondrio; sin nutrición el cartílago se necrosa en 24–48 h hasta la nariz en silla de montar | Drenaje urgente |
+| orl-12 | Drenaje por incisión y taponamiento bilateral compresivo | Conducta |
+| orl-13 | Escala de McIsaac como contador que suma los cinco ítems, con las ramas de conducta | Cuándo tratar |
+| orl-13 | Línea de tiempo: penicilina benzatina dosis única vs amoxicilina 10 días; con 5 días el germen persiste | Prevención de fiebre reumática |
+| orl-13 | Fiebre reumática prevenida vs glomerulonefritis no prevenida, con el mecanismo de inmunocomplejos | Se pregunta |
