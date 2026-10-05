@@ -681,3 +681,8 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - uro-09 (B): secuelas de prostatectomía: disfunción eréctil 30–80 % e incontinencia 5–15 % (texto) vs 30–70 % y 5–10 % (tabla); se siguió el texto. Un keyPoint dice "bajo riesgo con expectativa de vida limitada: vigilancia activa"; lo correcto ahí es observación. La clase enseña vigilancia activa en bajo riesgo y observación en el adulto mayor con tumor mínimo.
 - uro-07 (C): sin tamaño que distinga quiste de epidídimo de espermatocele (el banco dice > 2 cm); sin manejo del varicocele adolescente con atrofia.
 - uro-09 (C): sin duración de la deprivación en riesgo intermedio fuera de la tabla, ni manejo de compresión medular por metástasis (esa pregunta real ya está en hem-22).
+- uro-10 (A): el libro dice que el clampeo precoz del cordón evita la diseminación hematógena; lo que sustenta la vía inguinal es el drenaje linfático. La clase enseña la razón linfática.
+- Banco (A): Julio 2024 · P122 (autoexamen como mejor estrategia; usada en sp-10) contradice Diciembre 2025 · P124 (el autoexamen no tiene evidencia).
+- uro-11 (A): nefrectomía parcial en T1 ≤ 4 cm "idealmente hasta 7 cm" (libro) vs < 7 cm (Julio 2015 · P46, "antes era 4"). La clase: T1 hasta 7 cm, parcial si es posible.
+- uro-11 (B): células claras 80–85 % (texto) vs 75–80 % (tabla); se dijo "alrededor de 80 %".
+- uro-10 (C): sin corte de alto riesgo IGCCCG ni criterios de vigilancia en estadio I. uro-11 (C): no dice cuándo sí biopsiar una masa renal. uro-12 (C): sin criterios de alto riesgo, seguimiento cistoscópico ni dosis de BCG (solo "6 semanas y mantención 1–3 años").

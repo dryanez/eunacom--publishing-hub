@@ -9,7 +9,7 @@ Cardiología sigue excluida a pedido del usuario.
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
-| Urología (`uro-XX`) | 15 | 9 | 7 |
+| Urología (`uro-XX`) | 15 | 12 | 10 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
@@ -59,6 +59,9 @@ Cardiología sigue excluida a pedido del usuario.
 | uro-07 | Varicocele: foto (Bailey Fig. 80.7) y ecografía (Fig. 80.8), p. 1523, extraídas a ~200 px; transiluminación positiva del escroto | Bailey (mejor extracción), AMIR / CTO Urología |
 | uro-08 | Histología con patrones de Gleason; RM multiparamétrica clara (Bailey Fig. 75.25 es un mapa DCE poco claro) | Atlas de anatomía patológica, AMIR |
 | uro-09 | Rx o TC con metástasis blásticas (vértebras ebúrneas) | AMIR / CTO Urología |
+| uro-10 | Piezas de seminoma (Bailey Fig. 80.14, p. 1527) y teratoma (Fig. 80.17, p. 1528) — extraídas pequeñas; histología de seminoma y no seminomatoso | Bailey, Pathoma, AMIR |
+| uro-11 | TC con masa renal que capta contraste (fase simple y córtico-medular); histología de células claras | AMIR / CTO Urología, Pathoma |
+| uro-12 | RTU vesical en acto; cistectomía y conducto ileal de Bricker; histología urotelial; Bailey Fig. 75.12 (cistoscopía con tumores papilares, panel incierto) | AMIR / CTO Urología, Pathoma |
 
 ## Animaciones por hacer
 
@@ -173,3 +176,9 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | uro-09 | Eje hipotálamo–hipófisis–testículo: agonista de GnRH da brote de LH y testosterona, luego caída; la bicalutamida bloquea el receptor | Flare up |
 | uro-09 | Escalera de D'Amico: bajo, intermedio, alto riesgo y el tratamiento en cada peldaño | Tratamiento según riesgo |
 | uro-09 | Esfínter y bandeletas de Walsh alrededor de la próstata (anatomía real) | Por qué disfunción eréctil e incontinencia tras la cirugía |
+| uro-10 | Drenaje linfático: testículo → ganglios lumboaórticos vs piel del escroto → inguinales, con el trayecto de una punción escrotal | Por qué orquiectomía inguinal |
+| uro-10 | Marcadores AFP y beta-hCG según tipo de tumor y su vida media (5–7 días y 24–36 h) tras la orquiectomía | Seguimiento |
+| uro-11 | Realce del tumor entre fase simple y córtico-medular (umbral 15–20 UH) | Masa renal sólida |
+| uro-11 | Nefrectomía parcial vs radical (BodyParts3D / Blausen, nunca Z-Anatomy) | Tratamiento según tamaño |
+| uro-12 | Capas de la pared vesical con Ta, T1 y T2 y qué trata cada una (BCG vs cistectomía) | Estadificación |
+| uro-12 | RTU que llega al detrusor: la muestra debe incluir músculo | Se pregunta |
