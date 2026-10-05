@@ -10,7 +10,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
 | Urología (`uro-XX`) | 15 | 15 ✅ | 11 |
-| Psiquiatría (`psiq-XX`) | 18 | 6 | 0 (no requiere) |
+| Psiquiatría (`psiq-XX`) | 18 | 9 | 0 (no requiere) |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
 
@@ -211,3 +211,10 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | psiq-06 | Círculo vicioso del pánico: sensación → pensamiento catastrófico → adrenalina → hiperventilación → más miedo; la exposición y la respiración lenta lo rompen | Mecanismo y tratamiento |
 | psiq-06 | Inicio del ISRS: la ansiedad sube los días 1–10 a dosis plena y se aplana a media dosis; puente de benzodiacepina semanas 0–4 | Cómo iniciar |
 | psiq-06 | Mapa de agorafobia: el radio de lugares evitados se achica y vuelve a crecer con la exposición gradual | Agorafobia |
+| psiq-07 | TAG vs fobia social vs pánico: reloj de 6 meses, barra de exposición social y pico de 10 minutos | Diferenciar |
+| psiq-07 | Propranolol: temblor, taquicardia y rubor se apagan 30–60 min tras la dosis | Rescate del miedo escénico |
+| psiq-08 | Círculo obsesión → angustia → compulsión → alivio breve → refuerzo | Mecanismo |
+| psiq-08 | El mismo ciclo con exposición y prevención de respuesta: la angustia baja sola (habituación) | Tratamiento |
+| psiq-08 | ISRS: dosis de depresión vs dosis alta en TOC, con espera de 8–12 semanas | Se pregunta |
+| psiq-09 | Línea de tiempo del trauma con cortes de 3 días, 1 mes, 3 meses y 6 meses | Estrés agudo vs TEPT |
+| psiq-09 | Amígdala hiperactiva y corteza prefrontal medial débil (diagrama) | Mecanismo |
