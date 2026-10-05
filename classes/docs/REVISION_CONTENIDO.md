@@ -669,3 +669,10 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - uro-01 (C): sin estudio metabólico tras el primer episodio, sin relación litiasis recurrente–hiperparatiroidismo (Julio 2019 · P175, Diciembre 2017 · P33), sin pH ni hipercalciuria (Julio 2015 · P49).
 - uro-02 (C): sin volumen de residuo ni cuándo retirar la sonda tras la retención; sin número de intentos de sondaje antes de la cistostomía.
 - uro-03 (C): sin residuo postmiccional como indicación relativa (el banco usa 150 mL) ni valores de APE para biopsia (> 4 o velocidad > 0,75 según el banco).
+- uro-06 (A): la tabla da ceftriaxona + ciprofloxacino para hombres que tienen sexo con hombres; la propia explicación del libro dice que el ciprofloxacino no cubre bien Chlamydia. No se enseñó ese esquema; la clase dice cubrir gérmenes entéricos y de transmisión sexual.
+- uro-05 (A): el campo `ges` dice "Garantía de Urgencia Quirúrgica en sospecha de Torsión Testicular"; no se pudo verificar esa garantía GES y no se enseñó. La clase agrega que la detorsión manual es solo un puente y nunca retrasa la cirugía.
+- uro-04 (B): residuo postmiccional patológico > 100–200 mL (texto), > 200–400 (tabla), > 300–500 (viñeta), > 200 (keyPoints). Se enseñó > 200 mL y normal < 50 mL.
+- uro-06 (B): la tabla dice "coito anal receptivo" y los keyPoints "insertivo" para HSH; la clase no nombra la posición.
+- uro-04 (C): no menciona la contraindicación de tricíclicos en el adulto mayor, la preferencia por tolterodina o trospio, ni el riesgo de demencia de los anticolinérgicos; tampoco el cateterismo limpio intermitente. Se tomaron del banco real. Julio 2015 · P48 se repite en uro-04 y neuro-24 (única pregunta real de rebalse).
+- uro-05 (C): sin edad explícita del pico neonatal ni corte de edad hidátide vs torsión. uro-06 (C): sin dosis de ceftriaxona para HSH fuera de la tabla.
+- Banco: varias explicaciones de códigos de urología traen texto ajeno (p. ej. vejiga neurogénica pegado a preguntas de leucemia).

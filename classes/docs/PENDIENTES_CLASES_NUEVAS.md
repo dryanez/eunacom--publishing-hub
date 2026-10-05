@@ -9,7 +9,7 @@ Cardiología sigue excluida a pedido del usuario.
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
-| Urología (`uro-XX`) | 15 | 3 | 3 |
+| Urología (`uro-XX`) | 15 | 6 | 4 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
@@ -53,6 +53,9 @@ Cardiología sigue excluida a pedido del usuario.
 | uro-01 | TC con cálculo ureteral e hidronefrosis (flecha en el lito); fotos de cálculos por composición; estruvita coraliforme (Bailey Fig. 75.20b, p. 1409) | Harrison, AMIR / CTO Urología |
 | uro-02 | Técnica de sonda Foley (inflado del balón); cistostomía suprapúbica con globo vesical; Bailey Fig. 78.10 (retención de alta presión, p. 1482, no extraída) | AMIR / CTO Urología, Bailey |
 | uro-03 | Histología de hiperplasia nodular; ecografía de próstata con lóbulo medio y residuo; esquema de zonas de McNeal; ecografía transrectal (Bailey Fig. 75.17, p. 1408, sin usar) | Pathoma, CTO / AMIR Urología |
+| uro-04 | Incontinencia de esfuerzo / cistocele (imagen clínica) | AMIR / CTO Urología o Ginecología |
+| uro-05 | Torsión de hidátide con "punto azul"; Doppler de testículo torcido; foto de torsión (Bailey Fig. 80.5, p. 1520, vectorial) | AMIR / CTO Urología |
+| uro-06 | Doppler escrotal con hiperemia; foto de hemiescroto eritematoso y aumentado | Bailey / Campbell-Walsh, AMIR / CTO |
 
 ## Animaciones por hacer
 
@@ -152,3 +155,9 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | uro-03 | Corte sagital de próstata con zonas de McNeal: la transición crece y estrecha la uretra; la periférica, atrás, es la del cáncer y la del tacto | HPB vs cáncer |
 | uro-03 | Fármacos: tamsulosina relaja el cuello (rápido) vs finasteride reduce el volumen y baja el APE a la mitad (lento) | Tratamiento médico |
 | uro-03 | Irrigación en la RTUP: glicina hipotónica absorbida vs suero isotónico; el sodio cae | Síndrome de RTUP |
+| uro-04 | Tres vejigas: piso pélvico débil que se abre al toser, detrusor que se contrae al llenarse, vejiga sobredistendida que gotea | Esfuerzo, urgencia, rebalse |
+| uro-04 | Residuo postmiccional medido por ecografía | Separa el rebalse |
+| uro-05 | Torsión del cordón con badajo de campana: ocluye primero la vena, luego la arteria; reloj de salvataje (> 90 % < 6 h, ~0 % a 24 h) | Urgencia |
+| uro-05 | Signos: elevar el testículo alivia en la epididimitis (Prehn +) y no en la torsión; reflejo cremastérico presente / ausente | Diferenciar |
+| uro-05 | Detorsión manual "abrir el libro", solo como puente | Nunca retrasa la cirugía |
+| uro-06 | Ascenso retrógrado de la uretra por el deferente al epidídimo; germen según edad (< 35: Chlamydia y gonococo; > 35: E. coli) y antibiótico | Tratamiento según edad |
