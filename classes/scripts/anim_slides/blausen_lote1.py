@@ -22,3 +22,9 @@ S['hem-09'] = {
     'steps': [{'note': 'Hoz que ocluye',
                'say': 'El glóbulo normal es flexible y pasa por el capilar. Con poco oxígeno, la hemoglobina S polimeriza y el glóbulo se deforma en hoz rígida. Las hoces se atascan en el capilar: sin flujo hay isquemia, crisis de dolor e infartos. Y se rompen, produciendo hemólisis y anemia.'}],
 }
+S['derma-01'] = {
+    'title': 'Dónde está cada lesión',
+    'images': [{'src': 'animaciones/derma-01/A1_lesiones_real.mp4', 'label': 'Lesiones elementales', 'credit': BL}],
+    'steps': [{'note': 'Cada lesión, su capa',
+               'say': 'La mácula es plana: solo cambia el color. La pápula es sólida, elevada y menor de un centímetro. La vesícula y la ampolla tienen líquido, y se separan por el tamaño; la ampolla intraepidérmica es frágil, como en el pénfigo, y la subepidérmica es tensa, como en el penfigoide. La pústula tiene pus. El nódulo es profundo y se palpa más de lo que se ve.'}],
+}

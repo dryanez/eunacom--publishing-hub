@@ -325,3 +325,81 @@ class Hem09Falciforme(BlausenScene):
         self.play(*[d.animate.shift(np.array([np.cos(a), np.sin(a), 0]) * 0.6).set_opacity(0) for d, a in zip(frag, np.linspace(0, 2 * PI, 8))],
                   FadeIn(th), xs.animate.increment_value(0.4), run_time=1.2)
         self.play(xs.animate.increment_value(0.8), run_time=2.0, rate_func=linear)
+
+
+# ------------------------------------------------------------------ derma-01: lesiones elementales según profundidad
+class Derma01Lesiones(BlausenScene):
+    IMG, CROP = 'Blausen 0810 SkinAnatomy 01.png', (0.175, 0.25, 0.40, 0.565)
+    ERASE = [(0.565, 0.66, 0.59, 0.83)]
+
+    def construct(self):
+        title(self, 'Lesiones elementales', 'Qué capa de la piel compromete cada una', VIOLET)
+        img = self.lamina(height=6.25, center=RIGHT * 4.2 + DOWN * 0.5)
+        z = 1.35
+        P = self.P
+        # profundidades (fracciones de la imagen original, columna x≈0.20)
+        ys, yj, yd, yh = 0.293, 0.330, 0.47, 0.558
+        xb = img.get_left()[0] - 0.25
+        def bracket(y0, y1, txt, col):
+            a, b = P(0.2, y0)[1], P(0.2, y1)[1]
+            br = VGroup(Line([xb, a, 0], [xb, b, 0], color=col, stroke_width=4),
+                        Line([xb, a, 0], [xb + 0.15, a, 0], color=col, stroke_width=4),
+                        Line([xb, b, 0], [xb + 0.15, b, 0], color=col, stroke_width=4))
+            t = T(txt, 21, col, bold=True).next_to(br, LEFT, buff=0.15)
+            return VGroup(br, t)
+        br = VGroup(bracket(ys, yj, 'Epidermis', '#F4A6A0'), bracket(yj, yd, 'Dermis', '#E07A8C'), bracket(yd, yh, 'Hipodermis', AMBER))
+        self.play(LaggedStart(*[FadeIn(b, shift=RIGHT * 0.2) for b in br], lag_ratio=0.3), run_time=1.5)
+        X = 0.27                                     # lugar de la lesión
+        sy = P(X, ys)[1]; jy = P(X, yj)[1]
+        cx = P(X, ys)[0]
+        def dome(w, h, y_base, col, op, stroke=None):
+            pts = [np.array([cx + w / 2 * np.cos(a), y_base + h * np.sin(a), 0]) for a in np.linspace(0, PI, 40)]
+            d = Polygon(*pts, fill_color=col, fill_opacity=op, stroke_color=stroke or col, stroke_width=3)
+            return d
+        cap = VGroup()
+        items = [
+            ('Mácula', 'plana: solo cambia el color', 'mac'),
+            ('Pápula', 'sólida, elevada, menos de 1 cm', 'pap'),
+            ('Vesícula', 'líquido, menos de 1 cm', 'ves'),
+            ('Ampolla', 'líquido, más de 1 cm', 'amp'),
+            ('Pústula', 'contiene pus', 'pus'),
+            ('Nódulo', 'profundo, se palpa más que se ve', 'nod'),
+        ]
+        names = VGroup(*[T(a, 25, INK, bold=True) for a, _, _ in items]).arrange(DOWN, aligned_edge=LEFT, buff=0.32)
+        names.to_edge(LEFT, buff=0.5).shift(UP * 0.35)
+        names.set_opacity(0.3)
+        self.add(names)
+        sub = T('', 20)
+        cur = VGroup()
+        for i, (name, desc, k) in enumerate(items):
+            if k == 'mac':
+                g = VGroup(*[Ellipse(width=0.9 * z * f, height=abs(sy - jy) * 0.8 * f, stroke_width=0, fill_color='#6B3A1F', fill_opacity=0.16).move_to([cx, (sy + jy) / 2, 0]) for f in (1.0, 0.85, 0.7, 0.55)])
+            elif k == 'pap':
+                g = dome(0.75 * z, 0.32 * z, sy, '#E9A39A', 1.0, '#B5675E')
+            elif k == 'ves':
+                cav = Ellipse(width=0.42 * z, height=abs(sy - jy) * 0.6, fill_color='#BFE3FF', fill_opacity=0.9, stroke_color=BLUE_, stroke_width=2).move_to([cx, sy - abs(sy - jy) * 0.45 + 0.13 * z, 0])
+                g = VGroup(dome(0.5 * z, 0.18 * z, sy, '#F2B8AE', 1.0, '#B5675E'), cav)
+            elif k == 'amp':
+                roof = dome(1.3 * z, 0.42 * z, sy, '#F2B8AE', 1.0, '#B5675E')
+                cav = Polygon(*[np.array([cx + 0.6 * z * np.cos(a), jy + 0.02 + (sy - jy + 0.36 * z) * np.sin(a), 0]) for a in np.linspace(0, PI, 40)],
+                              fill_color='#BFE3FF', fill_opacity=0.9, stroke_color=BLUE_, stroke_width=2)
+                g = VGroup(roof, cav)
+            elif k == 'pus':
+                cav = Ellipse(width=0.48 * z, height=0.26 * z, fill_color='#F3D35B', fill_opacity=0.95, stroke_color=AMBER, stroke_width=2).move_to([cx, sy + 0.04 * z, 0])
+                g = VGroup(dome(0.6 * z, 0.24 * z, sy, '#F2B8AE', 1.0, '#B5675E'), cav)
+            else:
+                ny = P(X, 0.44)[1]
+                g = VGroup(dome(0.9 * z, 0.16 * z, sy, '#EBA59C', 1.0, '#B5675E'),
+                           Ellipse(width=0.95 * z, height=0.75 * z, fill_color='#C2566A', fill_opacity=0.85, stroke_color=RED_, stroke_width=3).move_to([cx, ny, 0]))
+            d = T(desc, 22, AMBER).next_to(names, DOWN, aligned_edge=LEFT, buff=0.45)
+            anims = [names[i].animate.set_opacity(1)] + ([names[i - 1].animate.set_opacity(0.3)] if i else [])
+            self.play(*anims, FadeOut(cur), FadeOut(sub), FadeIn(g, scale=0.6), FadeIn(d), run_time=0.9)
+            cur, sub = g, d
+            if k == 'amp':
+                n2 = VGroup(T('Intraepidérmica: pénfigo (frágil, se rompe)', 19, BLUE_),
+                            T('Subepidérmica: penfigoide (tensa)', 19, BLUE_)).arrange(DOWN, aligned_edge=LEFT, buff=0.06).next_to(d, DOWN, aligned_edge=LEFT, buff=0.12)
+                self.play(FadeIn(n2), run_time=0.6); self.wait(1.4); self.play(FadeOut(n2), run_time=0.3)
+            else:
+                self.wait(1.3)
+        self.play(names.animate.set_opacity(1), run_time=0.6)
+        self.wait(1)

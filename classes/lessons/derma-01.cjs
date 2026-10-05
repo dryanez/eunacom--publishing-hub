@@ -271,11 +271,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Dónde está cada lesión',
       images: [
-        { src: 'animaciones/derma-01/A1_lesiones_capas.mp4', label: 'Lesiones elementales', credit: 'Animación propia' },
+        { src: 'animaciones/derma-01/A1_lesiones_real.mp4', label: 'Lesiones elementales', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Profundidad y contenido',
-          say: 'La mácula es plana. La pápula es sólida y pequeña. La vesícula y la ampolla tienen líquido, y se separan por el tamaño. La pústula tiene pus.' },
+        { note: 'Cada lesión, su capa',
+          say: 'La mácula es plana: solo cambia el color. La pápula es sólida, elevada y menor de un centímetro. La vesícula y la ampolla tienen líquido, y se separan por el tamaño; la ampolla intraepidérmica es frágil, como en el pénfigo, y la subepidérmica es tensa, como en el penfigoide. La pústula tiene pus. El nódulo es profundo y se palpa más de lo que se ve.' },
       ],
     },
 

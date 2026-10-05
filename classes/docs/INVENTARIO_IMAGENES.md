@@ -69,7 +69,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 
 | Clase | Libro | Tipo | Descripción | Archivo | Fuente | En la clase |
 |---|---|---|---|---|---|---|
-| derma-01 | dataset_dermatologia_bloque_1.cjs (derma-01) | Animación | lesiones capas | `animaciones/derma-01/A1_lesiones_capas.mp4` | Animación propia (Manim) | sí |
+| derma-01 | dataset_dermatologia_bloque_1.cjs (derma-01) | Animación | lesiones capas | `animaciones/derma-01/A1_lesiones_real.mp4` | Animación propia (Manim) | sí |
 | derma-01 | dataset_dermatologia_bloque_1.cjs (derma-01) | Imagen | pápula / púrpura palpable | `biblioteca/11_dermatologia/derma-01/01_papula-purpura-palpable__cto-derma_p8.jpg` | Dermatologia, p. 8 | sí |
 | derma-01 | dataset_dermatologia_bloque_1.cjs (derma-01) | Imagen | liquenificación | `biblioteca/11_dermatologia/derma-01/02_liquenificacion__cto-derma_p9.jpg` | Dermatologia, p. 9 | sí |
 | derma-01 | dataset_dermatologia_bloque_1.cjs (derma-01) | Imagen | exantema maculopapular | `biblioteca/11_dermatologia/derma-01/03_exantema-maculopapular__cto-derma_p9.jpg` | Dermatologia, p. 9 | sí |
