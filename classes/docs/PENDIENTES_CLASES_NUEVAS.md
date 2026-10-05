@@ -9,7 +9,7 @@ Cardiología sigue excluida a pedido del usuario.
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
-| Urología (`uro-XX`) | 15 | 6 | 4 |
+| Urología (`uro-XX`) | 15 | 9 | 7 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
@@ -56,6 +56,9 @@ Cardiología sigue excluida a pedido del usuario.
 | uro-04 | Incontinencia de esfuerzo / cistocele (imagen clínica) | AMIR / CTO Urología o Ginecología |
 | uro-05 | Torsión de hidátide con "punto azul"; Doppler de testículo torcido; foto de torsión (Bailey Fig. 80.5, p. 1520, vectorial) | AMIR / CTO Urología |
 | uro-06 | Doppler escrotal con hiperemia; foto de hemiescroto eritematoso y aumentado | Bailey / Campbell-Walsh, AMIR / CTO |
+| uro-07 | Varicocele: foto (Bailey Fig. 80.7) y ecografía (Fig. 80.8), p. 1523, extraídas a ~200 px; transiluminación positiva del escroto | Bailey (mejor extracción), AMIR / CTO Urología |
+| uro-08 | Histología con patrones de Gleason; RM multiparamétrica clara (Bailey Fig. 75.25 es un mapa DCE poco claro) | Atlas de anatomía patológica, AMIR |
+| uro-09 | Rx o TC con metástasis blásticas (vértebras ebúrneas) | AMIR / CTO Urología |
 
 ## Animaciones por hacer
 
@@ -161,3 +164,12 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | uro-05 | Signos: elevar el testículo alivia en la epididimitis (Prehn +) y no en la torsión; reflejo cremastérico presente / ausente | Diferenciar |
 | uro-05 | Detorsión manual "abrir el libro", solo como puente | Nunca retrasa la cirugía |
 | uro-06 | Ascenso retrógrado de la uretra por el deferente al epidídimo; germen según edad (< 35: Chlamydia y gonococo; > 35: E. coli) y antibiótico | Tratamiento según edad |
+| uro-07 | Vena espermática izquierda en ángulo recto a la vena renal; la sangre se estanca en el plexo pampiniforme (BodyParts3D) | Por qué el varicocele es izquierdo |
+| uro-07 | Linterna sobre el escroto: se ilumina el hidrocele, no el tumor ni el varicocele | Transiluminación |
+| uro-07 | Varicocele que colapsa en decúbito vs uno que no (trombo en la vena renal derecha) | Signo de alarma |
+| uro-08 | Corte transversal de próstata: se ilumina la zona periférica posterior y el dedo del tacto llega a ella (BodyParts3D) | Por qué sirve el tacto |
+| uro-08 | Gráfico del APE: sube con prostatitis o eyaculación y baja al repetir a las 4–6 semanas | Repetir antes de biopsiar |
+| uro-08 | Gleason 3+4 vs 4+3: el patrón predominante va primero y cambia el grupo ISUP | Se pregunta |
+| uro-09 | Eje hipotálamo–hipófisis–testículo: agonista de GnRH da brote de LH y testosterona, luego caída; la bicalutamida bloquea el receptor | Flare up |
+| uro-09 | Escalera de D'Amico: bajo, intermedio, alto riesgo y el tratamiento en cada peldaño | Tratamiento según riesgo |
+| uro-09 | Esfínter y bandeletas de Walsh alrededor de la próstata (anatomía real) | Por qué disfunción eréctil e incontinencia tras la cirugía |
