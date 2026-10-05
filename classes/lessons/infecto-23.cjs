@@ -174,11 +174,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Del varicela al zóster',
       images: [
-        { src: 'animaciones/infecto-23/A1_zoster.mp4', label: 'Reactivación', credit: 'Animación propia' },
+        { src: 'animaciones/infecto-23/A1_zoster_real.mp4', label: 'Reactivación', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Sigue un dermatoma',
-          say: 'Después de la varicela, el virus queda dormido en un ganglio sensitivo. Años después reactiva, viaja por ese nervio y aparecen vesículas en una franja que no cruza la línea media.' },
+        { note: 'Dormido en el ganglio',
+          say: 'Después de la varicela, el virus queda dormido en un ganglio sensitivo. Años después, con la edad o la inmunosupresión, reactiva y viaja por ese nervio: primero hay dolor quemante y luego aparecen vesículas agrupadas sobre una base roja, en una franja que no cruza la línea media.' },
       ],
     },
 

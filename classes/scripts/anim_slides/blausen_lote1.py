@@ -28,3 +28,9 @@ S['derma-01'] = {
     'steps': [{'note': 'Cada lesión, su capa',
                'say': 'La mácula es plana: solo cambia el color. La pápula es sólida, elevada y menor de un centímetro. La vesícula y la ampolla tienen líquido, y se separan por el tamaño; la ampolla intraepidérmica es frágil, como en el pénfigo, y la subepidérmica es tensa, como en el penfigoide. La pústula tiene pus. El nódulo es profundo y se palpa más de lo que se ve.'}],
 }
+S['infecto-23'] = {
+    'title': 'Del varicela al zóster',
+    'images': [{'src': 'animaciones/infecto-23/A1_zoster_real.mp4', 'label': 'Reactivación', 'credit': BL}],
+    'steps': [{'note': 'Dormido en el ganglio',
+               'say': 'Después de la varicela, el virus queda dormido en un ganglio sensitivo. Años después, con la edad o la inmunosupresión, reactiva y viaja por ese nervio: primero hay dolor quemante y luego aparecen vesículas agrupadas sobre una base roja, en una franja que no cruza la línea media.'}],
+}

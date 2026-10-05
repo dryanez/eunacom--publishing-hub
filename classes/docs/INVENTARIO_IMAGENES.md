@@ -534,7 +534,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | infecto-22 | dataset_infectologia.cjs (inf-22) | Alternativa | escarlatina lengua pastia alt1 | `biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_alt1__cto-pediatria_p102.jpg` | Manual CTO pediatria, p. 102 | no |
 | infecto-22 | dataset_infectologia.cjs (inf-22) | Imagen | Kawasaki (conjuntivitis, descamación) | `biblioteca/07_infectologia/infecto-22/04_kawasaki-conjuntivitis-descamacion__cto-pediatria_p103.jpg` | Pediatria, p. 103 | sí |
 | infecto-22 | dataset_infectologia.cjs (inf-22) | Alternativa | kawasaki conjuntivitis descamacion alt1 | `biblioteca/07_infectologia/infecto-22/04_kawasaki-conjuntivitis-descamacion_alt1__cto-pediatria_p103.jpg` | Manual CTO pediatria, p. 103 | no |
-| infecto-23 | dataset_infectologia.cjs (inf-23) | Animación | zoster | `animaciones/infecto-23/A1_zoster.mp4` | Animación propia (Manim) | sí |
+| infecto-23 | dataset_infectologia.cjs (inf-23) | Animación | zoster | `animaciones/infecto-23/A1_zoster_real.mp4` | Animación propia (Manim) | sí |
 | infecto-23 | dataset_infectologia.cjs (inf-23) | Imagen | varicela | `biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg` | Enfermedades infecciosas, p. 127 | sí |
 | infecto-23 | dataset_infectologia.cjs (inf-23) | Alternativa | varicela alt1 1 | `biblioteca/07_infectologia/infecto-23/01_varicela_alt1_1__amir-infecto_p127.jpg` | Manual AMIR infecto, p. 127 | no |
 | infecto-23 | dataset_infectologia.cjs (inf-23) | Alternativa | varicela alt1 2 | `biblioteca/07_infectologia/infecto-23/01_varicela_alt1_2__amir-infecto_p127.jpg` | Manual AMIR infecto, p. 127 | no |

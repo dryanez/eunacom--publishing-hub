@@ -403,3 +403,102 @@ class Derma01Lesiones(BlausenScene):
                 self.wait(1.3)
         self.play(names.animate.set_opacity(1), run_time=0.6)
         self.wait(1)
+
+
+# ------------------------------------------------------------------ infecto-23: herpes zóster
+def _line_boxes(a, b, n=14, r=0.012):
+    return [(a[0] + (b[0] - a[0]) * t - r, a[1] + (b[1] - a[1]) * t - r, a[0] + (b[0] - a[0]) * t + r, a[1] + (b[1] - a[1]) * t + r)
+            for t in np.linspace(0, 1, n)]
+
+
+ZOSTER_LINE = _line_boxes((0.585, 0.43), (0.455, 0.705)) + [(0.775, 0.33, 0.82, 0.41)]
+
+
+def zoster_prep():
+    """/tmp/zoster_full.png (limpia, con erupción y lupa) y /tmp/zoster_base.png (sin erupción ni lupa)."""
+    import os, cv2
+    from blausen_clean import clean
+    full, base = '/tmp/zoster_full.png', '/tmp/zoster_base.png'
+    if os.path.exists(full) and os.path.exists(base):
+        return full, base
+    clean('Herpes Zoster Rash.png', full, None, ZOSTER_LINE)
+    im = cv2.imread(full); h, w = im.shape[:2]
+    ring = np.zeros((h, w), np.uint8)                   # el círculo negro sobre la erupción: borrar solo el anillo
+    cv2.circle(ring, (int(0.418 * w), int(0.710 * h)), int(0.0205 * w), 255, int(0.008 * w))
+    im = cv2.inpaint(im, ring, 5, cv2.INPAINT_TELEA); cv2.imwrite(full, im)
+    lab = cv2.cvtColor(im, cv2.COLOR_BGR2LAB).astype(np.float32)
+    box = np.zeros((h, w), bool); box[int(0.585 * h):int(0.885 * h), int(0.32 * w):int(0.56 * w)] = True
+    a_ref = np.percentile(lab[int(0.65 * h):int(0.80 * h), int(0.22 * w):int(0.30 * w), 1], 95)
+    bg = im.min(axis=2) > 232
+    bgd = cv2.dilate(bg.astype(np.uint8), np.ones((5, 5), np.uint8), 1).astype(bool)
+    m = (box & (lab[..., 1] > a_ref + 2) & ~bgd).astype(np.uint8) * 255
+    m = cv2.dilate(m, np.ones((9, 9), np.uint8), 2); m[bg] = 0
+    tmp = im.copy(); tmp[bg] = np.median(im[int(0.65 * h):int(0.80 * h), int(0.22 * w):int(0.30 * w)].reshape(-1, 3), axis=0)
+    out = cv2.inpaint(tmp, m, 12, cv2.INPAINT_TELEA).astype(np.float32)
+    mm = (cv2.GaussianBlur(m.astype(np.float32), (0, 0), 2) / 255.0)[..., None]
+    out = cv2.GaussianBlur(out, (0, 0), 3) * mm + out * (1 - mm)
+    out[bg] = im[bg]
+    out = out.astype(np.uint8)
+    out[int(0.305 * h):int(0.585 * h), int(0.695 * w):int(0.965 * w)] = 255     # sin lupa
+    cv2.imwrite(base, out)
+    return full, base
+
+
+class Infecto23Zoster(BlausenScene):
+    IMG, CROP = 'Herpes Zoster Rash.png', (0.02, 0.0, 0.98, 0.92)
+    RASH = (0.32, 0.585, 0.56, 0.885)
+    LENS = (0.695, 0.305, 0.965, 0.585)
+
+    def PREP(self):
+        return zoster_prep()[1]
+
+    def piece(self, box):
+        """Recorte de la ilustración completa (con erupción), ubicado exactamente en su lugar."""
+        import cv2, hashlib
+        full = zoster_prep()[0]
+        im = cv2.imread(full); h, w = im.shape[:2]
+        png = '/tmp/zoster_piece_' + hashlib.md5(repr(box).encode()).hexdigest()[:8] + '.png'
+        cv2.imwrite(png, im[int(box[1] * h):int(box[3] * h), int(box[0] * w):int(box[2] * w)])
+        x0, y0, x1, y1 = self.CROP
+        m = ImageMobject(png).set(width=(box[2] - box[0]) / (x1 - x0) * self.img.width)
+        return m.move_to(self.P((box[0] + box[2]) / 2, (box[1] + box[3]) / 2))
+
+    def construct(self):
+        title(self, 'Herpes zóster', 'El virus de la varicela despierta y baja por un nervio', VIOLET)
+        img = self.lamina(height=5.85, center=RIGHT * 2.75 + DOWN * 0.68)
+        P = self.P
+        mid = DashedLine(P(0.345, 0.30), P(0.345, 0.91), color=MUTED, stroke_width=3, dash_length=0.12)
+        lm = tag('Línea media', MUTED, 17).next_to(P(0.345, 0.88), LEFT, buff=0.12)
+        gang = Dot(P(0.352, 0.60), radius=0.13, color=AMBER).set_stroke(WHITE, 2)
+        col = VGroup(T('1. Varicela en la infancia', 23, INK, bold=True), T('el virus queda dormido en un', 20, MUTED),
+                     T('ganglio sensitivo', 20, AMBER),
+                     T('2. Años después reactiva', 23, INK, bold=True), T('(edad, inmunosupresión)', 20, MUTED),
+                     T('3. Baja por ese nervio', 23, INK, bold=True), T('dolor quemante, luego la erupción', 20, MUTED),
+                     T('4. Vesículas en un dermatoma', 23, INK, bold=True), T('no cruza la línea media', 20, RED_)
+                     ).arrange(DOWN, aligned_edge=LEFT, buff=0.1).to_edge(LEFT, buff=0.4).shift(DOWN * 0.3)
+        for i in (3, 5, 7):
+            col[i:].shift(DOWN * 0.18)
+        self.play(Create(mid), FadeIn(lm), GrowFromCenter(gang), FadeIn(col[0:3]), run_time=1.4)
+        virus = VGroup(*[Dot(gang.get_center() + 0.06 * np.array([np.cos(a), np.sin(a), 0]), radius=0.035, color=VIOLET) for a in np.linspace(0, 2 * PI, 6)])
+        self.play(FadeIn(virus), run_time=0.5)
+        self.play(gang.animate.scale(1.25), rate_func=there_and_back, run_time=0.8)
+        self.wait(0.4)
+        nerve = self.path([(0.352, 0.60), (0.40, 0.625), (0.45, 0.66), (0.49, 0.71), (0.515, 0.77), (0.525, 0.84)])
+        nerve.set_stroke(AMBER, 4)
+        self.play(FadeIn(col[3:5]), gang.animate.set_color(RED_), Flash(gang, color=RED_, line_length=0.2), run_time=1.0)
+        self.play(Create(nerve), FadeIn(col[5:7]), run_time=1.3)
+        t = ValueTracker(0)
+        vs = VGroup(*[Dot(radius=0.045, color=VIOLET).set_stroke(WHITE, 1) for _ in range(8)])
+        vs.add_updater(lambda g: [d.move_to(nerve.point_from_proportion(min(1, max(0, t.get_value() - i * 0.08)))) for i, d in enumerate(g)])
+        self.add(vs)
+        self.play(t.animate.set_value(1.6), run_time=2.0, rate_func=linear)
+        rash = self.piece(self.RASH)
+        self.remove(nerve, gang, virus); self.add(rash, nerve, gang, virus)
+        rash.set_opacity(0)
+        self.play(rash.animate.set_opacity(1), FadeOut(vs), FadeIn(col[7:9]), run_time=1.6)
+        lm2 = tag('No cruza la línea media', RED_, 17).move_to(lm, aligned_edge=RIGHT)
+        self.play(mid.animate.set_color(RED_).set_stroke(width=5), ReplacementTransform(lm, lm2), run_time=0.6)
+        lens = self.piece(self.LENS)
+        lv = VGroup(T('Vesículas agrupadas', 17, BG, bold=True), T('sobre base roja', 17, BG, bold=True)).arrange(DOWN, buff=0.05).next_to(lens, DOWN, buff=0.1).shift(LEFT * 0.3)
+        self.play(FadeIn(lens, scale=0.6), FadeIn(lv), run_time=1.0)
+        self.wait(2.0)

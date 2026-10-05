@@ -86,7 +86,12 @@ class BlausenScene(Scene):
         crop = crop or self.CROP
         key = hashlib.md5(repr((self.IMG, crop, self.ERASE, self.DESAT)).encode()).hexdigest()[:10]
         png = f'/tmp/blausen_{key}.png'
-        if not os.path.exists(png):
+        if getattr(self, 'PREP', None):                     # imagen ya preparada por la escena (sin recortar)
+            import cv2
+            src = self.PREP()
+            im = cv2.imread(src); h, w = im.shape[:2]
+            cv2.imwrite(png, im[int(crop[1] * h):int(crop[3] * h), int(crop[0] * w):int(crop[2] * w)])
+        elif not os.path.exists(png):
             clean(self.IMG, png, crop, self.ERASE, self.DESAT)
         img = ImageMobject(png)
         img.set(width=width) if width else img.set(height=height)
