@@ -659,3 +659,13 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - trauma-14 (B): edad límite del arnés de Pavlik: libro < 10 meses, ped-22 < 6 meses, explicación del banco (Julio 2017 · P137) < 9 meses. La clase dice "lactante menor" y avisa que la fuente varía. Unificar con ped-22.
 - trauma-14: Julio 2025 · P130 (Perthes) y P76 (pie bot, Ponseti) tienen baja confianza de código en el banco (0,25 y 0,28); los enunciados son del tema y las respuestas correctas, pero conviene confirmar que son reales.
 - trauma-13 (C): sin condrosarcoma, metástasis óseas (la causa más común de tumor óseo maligno) ni triángulo de Codman. trauma-14 (C): sin sección propia de Perthes ni epifisiólisis; tratamiento de Perthes solo "reposo o cirugía"; sin datos de escoliosis. trauma-15 (C): faltan Neer, Hawkins, Jobe, Spurling, cauda equina, la lista de signos de alarma del lumbago y fibromialgia.
+
+## Urología
+
+- uro-03 (A): el libro dice "GES N° 10" para HPB; ese número parece corresponder a otra patología. La clase dice solo "tiene garantía GES". Verificar.
+- uro-01 (A): tamsulosina como terapia expulsiva para cálculos de 5–10 mm (libro y Julio 2024 · P150); la evidencia reciente es discutida. Decidir si se mantiene.
+- Banco (A): Diciembre 2022 · P11 tiene la clave en Campylobacter jejuni para estruvita coraliforme (es Proteus) — descartada. Diciembre 2022 · P66 (ecografía pélvica) y Enero 2023 · P142 (uretrografía retrógrada) tienen el mismo escenario con claves distintas — P66 descartada. Julio 2013 · P104 marca RTUP sin indicación absoluta — descartada.
+- uro-03 (B, menor): tamsulosina "en 48 h" (contexto) vs "48–72 h" (sección y tabla); se usó 48–72. Terapia combinada "precoz" con IPSS 20–35 vs "preferir si la próstata > 40 cc"; se enseñaron ambas.
+- uro-01 (C): sin estudio metabólico tras el primer episodio, sin relación litiasis recurrente–hiperparatiroidismo (Julio 2019 · P175, Diciembre 2017 · P33), sin pH ni hipercalciuria (Julio 2015 · P49).
+- uro-02 (C): sin volumen de residuo ni cuándo retirar la sonda tras la retención; sin número de intentos de sondaje antes de la cistostomía.
+- uro-03 (C): sin residuo postmiccional como indicación relativa (el banco usa 150 mL) ni valores de APE para biopsia (> 4 o velocidad > 0,75 según el banco).

@@ -9,7 +9,7 @@ Cardiología sigue excluida a pedido del usuario.
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 15 ✅ | 11 |
-| Urología (`uro-XX`) | 15 | 0 | 0 |
+| Urología (`uro-XX`) | 15 | 3 | 3 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
 ## Imágenes que faltan (para buscar en los manuales CTO/AMIR del bucket R2 u otros libros)
@@ -50,6 +50,9 @@ Cardiología sigue excluida a pedido del usuario.
 | trauma-13 | Osteosarcoma en "sol naciente" y triángulo de Codman; imágenes más grandes (las de Bailey miden ~190 px) | CTO / AMIR Traumatología, Pathoma |
 | trauma-14 | Pie bot con sus cuatro deformidades (Bailey Fig. 39.29, 189 px; Nelson Fig. 715.3); test de Adams y giba costal (Bailey Fig. 39.35, p. 602); epifisiólisis en proyección lateral ("helado caído") | Nelson, Bailey, CTO |
 | trauma-15 | Maniobras de Neer y Hawkins; RM lumbar con hernia o cauda equina; ecografía del supraespinoso (Bailey Fig. 14.23, p. 223, extraída sin usar) | CTO / AMIR Traumatología |
+| uro-01 | TC con cálculo ureteral e hidronefrosis (flecha en el lito); fotos de cálculos por composición; estruvita coraliforme (Bailey Fig. 75.20b, p. 1409) | Harrison, AMIR / CTO Urología |
+| uro-02 | Técnica de sonda Foley (inflado del balón); cistostomía suprapúbica con globo vesical; Bailey Fig. 78.10 (retención de alta presión, p. 1482, no extraída) | AMIR / CTO Urología, Bailey |
+| uro-03 | Histología de hiperplasia nodular; ecografía de próstata con lóbulo medio y residuo; esquema de zonas de McNeal; ecografía transrectal (Bailey Fig. 75.17, p. 1408, sin usar) | Pathoma, CTO / AMIR Urología |
 
 ## Animaciones por hacer
 
@@ -142,3 +145,10 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | trauma-15 | Elevación del brazo: el supraespinoso pasa bajo el acromion; arco doloroso entre 60° y 120° (anatomía real) | Manguito rotador |
 | trauma-15 | Cauda equina: compresión de las raíces y anestesia en silla de montar | Urgencia quirúrgica |
 | trauma-15 | Movilidad pasiva vs activa: manguito (pasiva libre) vs capsulitis (pasiva bloqueada) | Diferenciar |
+| uro-01 | Cálculo bajando por el uréter y deteniéndose en los 3 estrechamientos, con la pelvis dilatándose (BodyParts3D / Blausen, nunca Z-Anatomy) | Dolor y localización |
+| uro-01 | Árbol por tamaño del cálculo (< 5, 5–10, > 10 mm) y sitio: LEOC alto vs ureteroscopía distal | Conducta |
+| uro-02 | Corte sagital pélvico masculino: Foley por la uretra vs trocar suprapúbico sobre el globo, según haya o no trauma (BodyParts3D) | Sondear o cistostomía |
+| uro-02 | Curva de diuresis postobstructiva: vaciado > 1.000 mL, luego poliuria y caída del potasio | Complicación |
+| uro-03 | Corte sagital de próstata con zonas de McNeal: la transición crece y estrecha la uretra; la periférica, atrás, es la del cáncer y la del tacto | HPB vs cáncer |
+| uro-03 | Fármacos: tamsulosina relaja el cuello (rápido) vs finasteride reduce el volumen y baja el APE a la mitad (lento) | Tratamiento médico |
+| uro-03 | Irrigación en la RTUP: glicina hipotónica absorbida vs suero isotónico; el sodio cae | Síndrome de RTUP |
