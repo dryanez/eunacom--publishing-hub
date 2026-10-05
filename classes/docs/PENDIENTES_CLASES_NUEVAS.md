@@ -8,7 +8,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
-| Traumatología (`trauma-XX`) | 15 | 0 | 0 |
+| Traumatología (`trauma-XX`) | 15 | 3 | 3 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
@@ -35,6 +35,9 @@ Cardiología sigue excluida a pedido del usuario.
 | orl-18 | Pila de botón en Rx con doble contorno (halo); pila de botón nasal con necrosis septal en rinoscopía | AMIR / CTO Otorrino |
 | orl-19 | Pus por la papila de Stenon en un adulto mayor; RM de adenoma pleomorfo; parálisis facial con masa parotídea | Manual CTO / AMIR Otorrino |
 | orl-20 | TC o ecografía de adenopatía metastásica nivel II; endoscopía de tumor de laringe o hipofaringe; carcinoma nasofaríngeo con otitis serosa unilateral | Manual CTO / AMIR Otorrino |
+| trauma-01 | Rx AP y lateral de una fractura con rasgo claro; esquema de las fases de consolidación (callo); pseudoartrosis y consolidación viciosa en Rx | Manual CTO / AMIR Traumatología |
+| trauma-02 | Fotos de Gustilo I, II, IIIA, IIIB y IIIC para comparar; fijador externo en tibia; colgajo | Manual CTO / AMIR Traumatología |
+| trauma-03 | Corte transversal de la pierna con 4 compartimentos (ATLS Fig. 8-7, p. 212, vectorial pequeño: renderizar); contractura de Volkmann / mano en garra; petequias de embolia grasa; osteoporosis moteada de Sudeck (¿Harrison Fig. 131-2, p. 1092?) | ATLS (renderizar), CTO / AMIR, Harrison |
 
 ## Animaciones por hacer
 
@@ -86,3 +89,12 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | orl-19 | Ramas del facial cruzando la parótida: parotidectomía superficial (nervio preservado) vs enucleación | Tratamiento del adenoma pleomorfo |
 | orl-20 | Otalgia refleja: tumor de base de lengua o hipofaringe; se iluminan el IX (Jacobson) y X (Arnold) hacia el oído | Se pregunta |
 | orl-20 | Masa cervical: las cuatro "80 %" encajadas hasta el carcinoma escamoso; luego nasofibroscopía → PAAF → TC, con la biopsia abierta tachada | Secuencia de estudio |
+| trauma-01 | Fémur que sangra: el volumen perdido sube hasta 1,5 L y la presión cae (el ABC va antes que el hueso) | Prioridad del ABC |
+| trauma-01 | Tipos de rasgo (conminuta, segmentaria, intraarticular) sobre un hueso real | Clasificación |
+| trauma-01 | Pseudoartrosis atrófica vs hipertrófica, y consolidación viciosa | Complicaciones de la consolidación |
+| trauma-02 | Gustilo I → III: la herida crece y la cobertura antibiótica se suma (gram +, luego gram −, luego anaerobios) | Antibiótico según grado |
+| trauma-02 | Línea de tiempo de la primera hora: contaminación → antibiótico → aseo quirúrgico | Urgencia |
+| trauma-02 | Yeso circular vs valva abierta: el edema se expande | Por qué valva |
+| trauma-03 | Compartimento que se llena: sube la presión, colapsa primero la vena y luego la arteria, con el pulso aún presente | El pulso es tardío |
+| trauma-03 | Estiramiento pasivo de los dedos con dolor que sube | Signo precoz |
+| trauma-03 | Línea de tiempo: horas (compartimental, embolia grasa), días (TEP), semanas-meses (distrofia, Volkmann) | Diferenciar complicaciones |

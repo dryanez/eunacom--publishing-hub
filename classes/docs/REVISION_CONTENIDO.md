@@ -623,3 +623,13 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - orl-18 (C): primeros auxilios del atoramiento del lactante (golpes en la espalda y compresiones torácicas < 1 año, Heimlich desde 1 año) no están en el libro; vienen de Julio 2013 · P35. Pila de botón ingerida en esófago mencionada pero sin manejo.
 - orl-19 (C): no trata parotiditis viral (paperas) ni parotiditis recurrente juvenil, aunque las usa como distractores. No explica PAAF vs biopsia por punción.
 - orl-20 (C): sin TNM ni modalidades de tratamiento; hipofaringe vs laringe en una sola línea, y el banco la pregunta.
+
+## Traumatología
+
+- trauma-02 (A): el libro da cefazolina + gentamicina para Gustilo II; la práctica actual (p. ej. ATLS) agrega cobertura gram negativa recién en grado III.
+- trauma-03 (A): el manejo inicial "leve" del síndrome compartimental dice "elevar la extremidad"; elevar baja la perfusión y se desaconseja, y EUNACOM Julio 2024 · P4 marca "elevar la extremidad" como incorrecta. **La clase NO enseña elevar**: dice que es una trampa y que lo que resuelve es retirar el yeso (corregido por quien integra).
+- trauma-02 (B): el texto usa gentamicina para grados II y III; las tres preguntas del libro usan amikacina. Se siguió el texto; la voz explica la equivalencia.
+- trauma-03 (B): la pregunta del libro "yeso circular a las 4 h" responde fasciotomía amplia; el texto dice retirar el yeso primero y operar si no mejora. Se siguió el texto (igual que Julio 2024 · P4); no se usó esa pregunta.
+- trauma-01 (C): el libro no da las fases de consolidación (hematoma, callo blando y duro, remodelación), aunque `frecuencia` dice que se preguntan.
+- trauma-02: sin preguntas reales de fractura expuesta; se usaron 3 casos del libro. Clase de tier 3 con 1580 palabras: el texto del libro es corto y está todo cubierto.
+- trauma-03 (C): el título promete "5P" y "presión intracompartimental", pero el texto no da las 5P completas ni umbrales en mmHg. Sin tratamiento de la distrofia simpático refleja. La sección "mano en garra / fractura supracondílea" no tiene título (se llamó Volkmann). TEP y embolia grasa parecen corresponder a trauma-04 o Neumología.
