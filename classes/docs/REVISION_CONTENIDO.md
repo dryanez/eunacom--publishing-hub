@@ -590,3 +590,10 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - orl-04: el libro no trata laberintitis aguda (Julio 2015 · P104, Julio 2013 · P84), petrositis, meningitis ni absceso cerebral por separado.
 - orl-04: la sección 4 enumera "(1) antibióticos… (2) miringotomía…" sin "(3)": parece faltar una medida. El dataset repite el código 4.02.4.017 (otitis externa) en esta clase, posible error de copia.
 - orl-04: sin dosis de clindamicina ni vancomicina; solo ceftriaxona 100 mg/kg/día.
+- orl-05 (C): el libro da gap ≥ 15 dB para conductiva y < 10 dB para sensorioneural (10–15 dB sin definir); menciona "reflejo estapedial / reclutamiento" sin explicarlo; no trata emisiones otoacústicas ni potenciales evocados, que el banco real pregunta.
+- orl-06 (B): el "contexto" dice iniciar corticoides en 7–14 días; los keyPoints dicen 48–72 h y el pronóstico, malo > 14 días. Se siguió contentSections/keyPoints (de inmediato), igual que el banco real (< 72 h).
+- orl-06 (B): prednisona 1 mg/kg por 10–14 días (texto) vs "x 14 días" (tabla) vs "x 10 días" (banco real). Se usó 10–14 días.
+- orl-06 (C): el libro no se pronuncia sobre antivirales (el banco usa aciclovir como distractor). Sin preguntas reales de presbiacusia, trauma acústico ni RM por neurinoma.
+- orl-07 (A/B): el libro dice que la RM descarta lo central y que HINTS supera a la RM precoz; EUNACOM Diciembre 2025 · P29 marca TAC de cerebro (más rápido, ventana de trombólisis) en un vértigo central agudo. Se siguió el banco real en esa pregunta y se explicó en la voz.
+- orl-07 (B): betahistina "16 a 24 mg cada 12 horas" (texto) vs "24 mg c/12 h" (tabla). Se usó 16–24 mg.
+- orl-07 (C): el libro no trata la laberintitis aguda secundaria a otitis crónica o colesteatoma (Julio 2015 · P104, Julio 2013 · P84) ni difenidol/tietilperazina (distractores del banco).
