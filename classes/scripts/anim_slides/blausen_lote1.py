@@ -43,8 +43,6 @@ S['resp-02'] = {
 S['cirugia-12'] = {
     'title': 'Epidural o subdural',
     'images': [{'src': 'animaciones/cirugia-12/A1_hematomas_real.mp4', 'label': 'Epidural y subdural', 'credit': BL}],
-    'steps': [{'note': 'Arteria: lente, intervalo lúcido',
-               'say': 'El hematoma epidural viene de la arteria meníngea media y queda entre el hueso y la duramadre: crece rápido, tiene forma de lente porque no cruza las suturas, y el paciente puede tener un intervalo lúcido antes de deteriorarse.'},
-              {'note': 'Venas: media luna, días',
-               'say': 'El subdural viene de las venas puente y queda bajo la duramadre: se extiende en media luna siguiendo el cerebro, crece lento y el compromiso de conciencia avanza en días. Es típico del adulto mayor o el alcohólico.'}],
+    'steps': [{'note': 'Lente en horas, media luna en días',
+               'say': 'El hematoma epidural viene de la arteria meníngea media y queda entre el hueso y la duramadre: crece rápido, tiene forma de lente porque no cruza las suturas, y el paciente puede tener un intervalo lúcido antes de deteriorarse. El subdural viene de las venas puente y queda bajo la duramadre: se extiende en media luna siguiendo el cerebro, crece lento y la conciencia empeora en días. Es típico del adulto mayor o el alcohólico.'}],
 }
