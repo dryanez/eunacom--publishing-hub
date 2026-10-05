@@ -14,7 +14,9 @@ const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+// Si hay proxy (p. ej. sesiones en la nube), Chromium lo necesita para bajar fotos y fuentes de la portada.
+const PROXY_ARGS = process.env.HTTPS_PROXY ? [`--proxy-server=${process.env.HTTPS_PROXY}`] : [];
 const DIST_DIR = path.join(__dirname, '..', 'dist');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
 
@@ -43,10 +45,15 @@ const TOMOS = [
 ];
 
 // Cargar Nuevo Logo AEE en SVG
+// Mismo logo AEE que las portadas de los tomos (build_book.cjs)
 let aeeLogoSvg = '';
-const newLogoPath = path.join(ASSETS_DIR, 'aee_logo_new.svg');
+const newLogoPath = path.join(ASSETS_DIR, 'aee-logo-smooth.svg');
 if (fs.existsSync(newLogoPath)) {
-  aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8');
+  aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8')
+    .replace(/<\?xml[^>]*\?>/i, '')
+    .replace(/<metadata>[\s\S]*?<\/metadata>/i, '')
+    .replace(/width="188px"/i, 'width="120px"')
+    .replace(/height="142px"/i, 'height="90px" style="height:48px;width:auto;display:block"');
 }
 
 async function renderMasterCoverAndIndex() {
@@ -96,20 +103,17 @@ async function renderMasterCoverAndIndex() {
       z-index: 3;
     }
     .mc-watermark {
-      position: absolute; right: -25px; top: 70px;
+      position: absolute; left: 0; right: 0; top: 70px; text-align: center;
       font-family: 'Archivo', sans-serif; font-size: 210pt; font-weight: 900; line-height: 0.8;
       color: rgba(255, 255, 255, 0.04); user-select: none; pointer-events: none; z-index: 3;
     }
     .mc-top {
-      display: flex; justify-content: space-between; align-items: center; z-index: 4;
+      display: flex; justify-content: space-between; align-items: flex-start; z-index: 4;
     }
-    .mc-logo svg { width: 250px; height: auto; display: block; }
-    .mc-edition-chip {
-      font-family: 'IBM Plex Mono', monospace; font-size: 9pt; font-weight: 700;
-      letter-spacing: 0.15em; color: #38bdf8;
-      border: 1px solid rgba(56,189,248,0.4); background: rgba(9,15,24,0.7);
-      padding: 6px 14px; border-radius: 4px;
-    }
+    .mc-logo svg { height: 46px; width: auto; display: block; }
+    .cover-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+    .cover-badge .ed { font: 700 13px/1 'IBM Plex Mono', monospace; letter-spacing: .14em; color: #0bd9e7; }
+    .cover-badge .subed { font: 500 9.5px/1 'IBM Plex Mono', monospace; letter-spacing: .1em; color: #94a3b8; }
     .mc-main {
       margin-top: auto; margin-bottom: 15mm; z-index: 4;
     }
@@ -304,7 +308,10 @@ async function renderMasterCoverAndIndex() {
     
     <div class="mc-top">
       <div class="mc-logo">${aeeLogoSvg}</div>
-      <div class="mc-edition-chip">PRIMERA EDICIÓN 2026</div>
+      <div class="cover-badge">
+        <span class="ed">1ª EDICIÓN · 2026</span>
+        <span class="subed">ASOFAMECh PERFIL V3</span>
+      </div>
     </div>
 
     <div class="mc-main">
@@ -435,7 +442,7 @@ async function renderMasterCoverAndIndex() {
   const browser = await puppeteer.launch({
     executablePath: CHROME_PATH,
     headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: [...PROXY_ARGS, '--no-sandbox', '--disable-setuid-sandbox']
   });
   const page = await browser.newPage();
   await page.goto('file:///' + tempHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0' });
@@ -516,7 +523,9 @@ print("Gran Libro Gordo generado:", out_canon)
   console.log('════════════════════════════════════════════════════════════════════');
 }
 
-main().catch(err => {
+if (require.main === module) main().catch(err => {
   console.error('Error fatal en compilador maestro:', err);
   process.exit(1);
 });
+
+module.exports = { renderMasterCoverAndIndex };
