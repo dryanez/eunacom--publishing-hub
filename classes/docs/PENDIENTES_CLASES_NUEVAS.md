@@ -7,7 +7,7 @@ Cardiología sigue excluida a pedido del usuario.
 
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
-| Otorrinolaringología (`orl-XX`) | 20 | 7 | 6 |
+| Otorrinolaringología (`orl-XX`) | 20 | 10 | 9 |
 | Traumatología (`trauma-XX`) | 15 | 0 | 0 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
@@ -22,6 +22,9 @@ Cardiología sigue excluida a pedido del usuario.
 | orl-05 | Audiograma real con gap aéreo-óseo; timpanogramas impresos A, As, Ad, B y C; otoesclerosis / estapedotomía | Manual CTO / AMIR Otorrino |
 | orl-06 | Audiogramas: hipoacusia súbita, presbiacusia en pendiente, muesca en 4000 Hz del trauma acústico; algoritmo de hipoacusia súbita | Manual CTO / AMIR Otorrino |
 | orl-07 | Registro o video de nistagmo (torsional en Dix-Hallpike, horizontal en neuronitis); figura de HINTS; audiograma de Ménière (graves); RM/TC de infarto cerebeloso | Manual CTO / AMIR Otorrino |
+| orl-08 | Bell clara: no arruga la frente ni cierra el ojo, idealmente junto a una parálisis central con frente respetada; Ramsay Hunt con vesícula en el tímpano | Manual CTO Otorrino / AMIR Neurología |
+| orl-09 | Rinoscopía anterior: cornetes pálidos, azulados y edematosos; mucosa violácea de rinitis medicamentosa; pólipo nasal; pliegue de Dennie-Morgan | Manual CTO Otorrino / Harrison |
+| orl-10 | Celulitis orbitaria con proptosis y quemosis (para comparar con preseptal); endoscopía con pus en el meato medio | Manual CTO / AMIR Otorrino |
 
 ## Animaciones por hacer
 
@@ -47,3 +50,10 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | orl-07 | Canalitiasis (BodyParts3D/Blausen): otoconias en el conducto posterior; la cabeza recorre Dix-Hallpike y Epley y la partícula vuelve al utrículo | Diagnóstico y tratamiento del VPPB |
 | orl-07 | Movimientos oculares del HINTS: impulso cefálico con y sin sacada, nistagmo unidireccional vs que cambia de dirección, skew | Periférico vs central |
 | orl-07 | Hidrops endolinfático: el laberinto membranoso se hincha; tríada en el tiempo (plenitud, vértigo, hipoacusia de graves fluctuante) | Ménière |
+| orl-08 | Núcleo del facial: la mitad superior recibe fibras de ambos hemisferios, la inferior solo del contralateral; la lesión en cada sitio hace caer la cara distinto (diagrama limpio o cerebro BodyParts3D) | Central respeta la frente; periférica toma toda la hemicara |
+| orl-08 | Trayecto del facial por el temporal hasta el ganglio geniculado: dónde se edematiza en Bell y dónde se reactiva el virus en Ramsay Hunt | Por qué puede afectarse el VIII par |
+| orl-09 | Mastocito con IgE y alérgeno libera histamina: edema, rinorrea, estornudos (diagrama) | Mecanismo de la rinitis alérgica |
+| orl-09 | Rebote de la oximetazolina: vasoconstricción, taquifilaxia, vasodilatación de rebote; se normaliza al suspender y usar corticoide nasal | Rinitis medicamentosa |
+| orl-09 | Cuadrícula ARIA: intermitente/persistente × leve/moderada-severa | Clasificación que se pregunta |
+| orl-10 | Corte coronal de órbita y etmoides: lámina papirácea, periostio y septum; dónde está la infección en cada grado de Chandler; globo desplazado abajo y afuera en el absceso subperióstico | Preseptal vs orbitaria |
+| orl-10 | Complejo osteomeatal: el edema viral bloquea el drenaje, el moco se retiene y crecen bacterias | Por qué la sinusitis bacteriana viene después de la viral |
