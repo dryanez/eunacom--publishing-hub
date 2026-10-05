@@ -7,7 +7,7 @@ Cardiología sigue excluida a pedido del usuario.
 
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
-| Otorrinolaringología (`orl-XX`) | 20 | 16 | 13 |
+| Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
 | Traumatología (`trauma-XX`) | 15 | 0 | 0 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
@@ -31,6 +31,10 @@ Cardiología sigue excluida a pedido del usuario.
 | orl-14 | Absceso periamigdalino con úvula desviada; Rx lateral de cuello con ensanchamiento prevertebral; TC de absceso retrofaríngeo | Manual CTO / AMIR Otorrino |
 | orl-15 | Amígdalas grado 4 de Brodsky; Rx de cavum con hipertrofia adenoidea | Manual CTO / AMIR Otorrino o Pediatría |
 | orl-16 | Edema de Reinke en laringoscopía | Manual CTO / AMIR Otorrino |
+| orl-17 | Rx lateral de cuello con signo del pulgar (epiglotitis); Rx AP con signo de la aguja / campanario (croup) | AMIR Pediatría / Otorrino, Manual CTO |
+| orl-18 | Pila de botón en Rx con doble contorno (halo); pila de botón nasal con necrosis septal en rinoscopía | AMIR / CTO Otorrino |
+| orl-19 | Pus por la papila de Stenon en un adulto mayor; RM de adenoma pleomorfo; parálisis facial con masa parotídea | Manual CTO / AMIR Otorrino |
+| orl-20 | TC o ecografía de adenopatía metastásica nivel II; endoscopía de tumor de laringe o hipofaringe; carcinoma nasofaríngeo con otitis serosa unilateral | Manual CTO / AMIR Otorrino |
 
 ## Animaciones por hacer
 
@@ -74,3 +78,11 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | orl-14 | Espacios fasciales del cuello en corte sagital y axial: se ilumina cada espacio (periamigdalino, parafaríngeo, retrofaríngeo con el danger space) y el pus del retrofaríngeo baja al mediastino | Por qué el retrofaríngeo es grave |
 | orl-15 | Corte sagital de la vía aérea de un niño con adenoides y amígdalas grado 1 a 4; al dormir se relaja el paladar y se cierra la luz | SAHOS infantil |
 | orl-16 | Cuerdas vocales desde arriba abriendo y cerrando: nódulos (cierre en reloj de arena), pólipo (cierre asimétrico), Reinke (abombamiento difuso) | Diferenciar las lesiones benignas |
+| orl-17 | Vía aérea subglótica bajo el anillo cricoides: el edema estrecha la luz (normal → croup → epiglotitis), nivel y calibre (Blausen o diagrama) | Croup vs epiglotitis |
+| orl-17 | Línea de tiempo: efecto de la adrenalina vs inicio de la dexametasona; ventana de rebote de 2 a 4 h | Por qué se observa al niño |
+| orl-18 | Electrólisis de una pila de botón húmeda: corriente → OH⁻ → quemadura alcalina → perforación septal | Urgencia de la pila de botón |
+| orl-18 | Bronquio derecho más vertical y ancho; atrapamiento aéreo en válvula en inspiración vs espiración (BodyParts3D/Blausen) | Cuerpo extraño bronquial |
+| orl-19 | Trayecto del conducto de Wharton sobre el milohioideo (curva cuesta arriba); el cálculo se enclava al estimular la saliva al comer | Sialolitiasis submandibular |
+| orl-19 | Ramas del facial cruzando la parótida: parotidectomía superficial (nervio preservado) vs enucleación | Tratamiento del adenoma pleomorfo |
+| orl-20 | Otalgia refleja: tumor de base de lengua o hipofaringe; se iluminan el IX (Jacobson) y X (Arnold) hacia el oído | Se pregunta |
+| orl-20 | Masa cervical: las cuatro "80 %" encajadas hasta el carcinoma escamoso; luego nasofibroscopía → PAAF → TC, con la biopsia abierta tachada | Secuencia de estudio |

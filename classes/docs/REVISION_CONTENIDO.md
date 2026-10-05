@@ -614,3 +614,12 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - orl-14 (C): dosis de ceftriaxona y clindamicina solo en la tabla, no en el texto.
 - orl-15 (C): el libro no cubre el manejo de la hipertrofia adenoidea sin SAHOS ni infecciones (observación o corticoide nasal), el estudio inicial con Rx de cavum y nasofibroscopía, ni la polisomnografía; el banco lo pregunta (Julio 2017 · P48, discutida; Diciembre 2025 · P23).
 - orl-16 (C): el libro no cubre la disfonía matinal por reflujo con prueba terapéutica con IBP, que el banco pregunta (Diciembre 2018 · P65, Diciembre 2019 · P145).
+- orl-17 (A): el libro dice que reducir 1 mm el diámetro subglótico del lactante baja el área 75 % y multiplica por 16 la resistencia: esas cifras corresponden a reducir el radio a la mitad, no 1 mm. La clase lo dice cualitativamente.
+- orl-20 (A): el campo `ges` dice "Garantía GES Colecistectomía / Alivio del dolor por cáncer avanzado…": la colecistectomía no corresponde a cáncer de cabeza y cuello. No se usó.
+- orl-17 (B): observación tras adrenalina "2 horas" (tablas, contexto) vs "mínimo estricto de 2 a 4 horas" (keyPoints, sección 3). Se usó 2–4 h. Dexametasona 0,6 mg/kg (viñeta) vs rango 0,15–0,6 mg/kg. Se dio el rango.
+- orl-19 (B): la viñeta tiene un cálculo de 4 mm en Wharton y elige sialolitotomía transoral; la sección 1 dice que solo los > 5 mm van a cirugía. Se siguió la sección.
+- orl-20 (B): la tabla dice PAAF si se sospecha linfoma en adulto joven; el banco real (Julio 2024 · P37, Diciembre 2025 · P102) dice biopsia excisional del ganglio. No se usaron esas preguntas; la clase enseña PAAF solo en el fumador > 40 años con sospecha de metástasis.
+- orl-17 (C): sin signos radiológicos (signo de la aguja, signo del pulgar) ni score de croup aparte de Taussig.
+- orl-18 (C): primeros auxilios del atoramiento del lactante (golpes en la espalda y compresiones torácicas < 1 año, Heimlich desde 1 año) no están en el libro; vienen de Julio 2013 · P35. Pila de botón ingerida en esófago mencionada pero sin manejo.
+- orl-19 (C): no trata parotiditis viral (paperas) ni parotiditis recurrente juvenil, aunque las usa como distractores. No explica PAAF vs biopsia por punción.
+- orl-20 (C): sin TNM ni modalidades de tratamiento; hipofaringe vs laringe en una sola línea, y el banco la pregunta.
