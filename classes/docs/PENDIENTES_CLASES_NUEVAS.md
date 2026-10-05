@@ -8,7 +8,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
-| Traumatología (`trauma-XX`) | 15 | 3 | 3 |
+| Traumatología (`trauma-XX`) | 15 | 6 | 4 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
@@ -38,6 +38,9 @@ Cardiología sigue excluida a pedido del usuario.
 | trauma-01 | Rx AP y lateral de una fractura con rasgo claro; esquema de las fases de consolidación (callo); pseudoartrosis y consolidación viciosa en Rx | Manual CTO / AMIR Traumatología |
 | trauma-02 | Fotos de Gustilo I, II, IIIA, IIIB y IIIC para comparar; fijador externo en tibia; colgajo | Manual CTO / AMIR Traumatología |
 | trauma-03 | Corte transversal de la pierna con 4 compartimentos (ATLS Fig. 8-7, p. 212, vectorial pequeño: renderizar); contractura de Volkmann / mano en garra; petequias de embolia grasa; osteoporosis moteada de Sudeck (¿Harrison Fig. 131-2, p. 1092?) | ATLS (renderizar), CTO / AMIR, Harrison |
+| trauma-04 | Luxación de rodilla + angio-TC con oclusión poplítea (Bailey Fig. 28.2, 221 px: buscar mejor); mano caída por lesión radial; esquema de Seddon | Manual CTO Traumatología / Apley |
+| trauma-05 | Rx de pelvis en libro abierto y en cizallamiento vertical (ATLS Fig. 5-8, p. 149, vectorial: renderizar); fractura de rama púbica; clasificación Tile / Young-Burgess | ATLS (renderizar), CTO |
+| trauma-06 | Rx de pseudoartrosis hipertrófica (pata de elefante), atrófica (punta de lápiz) y consolidación viciosa | Manual CTO Traumatología / Apley |
 
 ## Animaciones por hacer
 
@@ -98,3 +101,11 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | trauma-03 | Compartimento que se llena: sube la presión, colapsa primero la vena y luego la arteria, con el pulso aún presente | El pulso es tardío |
 | trauma-03 | Estiramiento pasivo de los dedos con dolor que sube | Signo precoz |
 | trauma-03 | Línea de tiempo: horas (compartimental, embolia grasa), días (TEP), semanas-meses (distrofia, Volkmann) | Diferenciar complicaciones |
+| trauma-04 | Húmero 3D con el nervio radial en el surco espiral; al fracturarse se estira y aparece la mano caída (BodyParts3D / Z-Anatomy) | Lesión del radial |
+| trauma-04 | Cadera luxada hacia atrás: el golpe de la rodilla contra el tablero empuja la cabeza femoral y comprime el ciático | Lesión del ciático |
+| trauma-04 | Sección de un nervio: neuroapraxia, axonotmesis, neurotmesis | "Parcial se observa, total se explora" |
+| trauma-05 | Pelvis 3D: el anillo se abre como libro y crece el volumen; la sábana sobre los trocánteres lo cierra (BodyParts3D) | Sábana pélvica |
+| trauma-05 | Corte sagital de pelvis masculina: desgarro de uretra membranosa, próstata alta, sonda Foley que hace falsa vía, cistostomía | No sondear |
+| trauma-05 | Escalera ABCDE: el neumotórax a tensión "salta" por delante de la pelvis | Prioridades |
+| trauma-06 | Hueso con tres destinos: retardo, pseudoartrosis hipertrófica (movimiento) y atrófica (sin callo) | Causa y tratamiento |
+| trauma-06 | Osteotomía correctora: hueso consolidado en ángulo, corte, realineación y placa | Consolidación viciosa |
