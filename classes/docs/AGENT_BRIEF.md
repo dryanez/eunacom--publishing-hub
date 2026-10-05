@@ -42,7 +42,7 @@ Classes now get real pictures while they are written. After a class passes the c
    and `classes/media/_candidatas2` (Harrison, Bates, Schwartz, Williams Obstetricia). Search in English. Then
    `python3 classes/scripts/hoja_contactos.py <same folder> /tmp/hoja_<id>.jpg <F numbers>` and **look at the sheet**:
    the caption can belong to another image on the same page. Only real clinical images (photos, X-ray/CT/US, otoscopy,
-   histology, ECG) that show exactly what the class teaches; skip blurry (<500 px) or text-heavy figures.
+   histology, ECG) that show exactly what the class teaches; skip text-heavy figures. Size: prefer ≥500 px, but a clear clinical photo of 250–500 px is fine (most Bates/Bailey photos are ~330 px); only skip it if it is blurry or tiny (<250 px).
 2. Copy the chosen ones (1–4 per class) to `classes/media/biblioteca/<NN_esp>/<id>/` as `NN_item-en-espanol__<libro>_p<página>.jpg`
    (max 1600 px, JPEG quality 85). Folders: `17_otorrino`, `18_traumatologia`, `19_urologia`, `20_psiquiatria`.
    Libro tags: `bailey-love`, `bates`, `pathoma`, `cxr`, `ecg`, `harrison`, `williams-gyn`, `williams-ob`, `schwartz`.

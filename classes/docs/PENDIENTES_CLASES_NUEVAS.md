@@ -7,7 +7,7 @@ Cardiología sigue excluida a pedido del usuario.
 
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
-| Otorrinolaringología (`orl-XX`) | 20 | 13 | 12 |
+| Otorrinolaringología (`orl-XX`) | 20 | 16 | 13 |
 | Traumatología (`trauma-XX`) | 15 | 0 | 0 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
@@ -28,6 +28,9 @@ Cardiología sigue excluida a pedido del usuario.
 | orl-11 | Sonda Foley / balón de taponamiento posterior colocado | Manual CTO / AMIR Otorrino |
 | orl-12 | Hematoma septal en rinoscopía (abombamiento violáceo); pólipos "uva pelada" en nasofibroscopía; TC de desviación septal; papiloma invertido | Manual CTO / AMIR Otorrino |
 | orl-13 | Exantema por amoxicilina en mononucleosis; escarlatina (lengua de fresa, exantema áspero); absceso periamigdalino con úvula desviada; petequias en el paladar | Manual CTO / AMIR Otorrino o Pediatría |
+| orl-14 | Absceso periamigdalino con úvula desviada; Rx lateral de cuello con ensanchamiento prevertebral; TC de absceso retrofaríngeo | Manual CTO / AMIR Otorrino |
+| orl-15 | Amígdalas grado 4 de Brodsky; Rx de cavum con hipertrofia adenoidea | Manual CTO / AMIR Otorrino o Pediatría |
+| orl-16 | Edema de Reinke en laringoscopía | Manual CTO / AMIR Otorrino |
 
 ## Animaciones por hacer
 
@@ -68,3 +71,6 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | orl-13 | Escala de McIsaac como contador que suma los cinco ítems, con las ramas de conducta | Cuándo tratar |
 | orl-13 | Línea de tiempo: penicilina benzatina dosis única vs amoxicilina 10 días; con 5 días el germen persiste | Prevención de fiebre reumática |
 | orl-13 | Fiebre reumática prevenida vs glomerulonefritis no prevenida, con el mecanismo de inmunocomplejos | Se pregunta |
+| orl-14 | Espacios fasciales del cuello en corte sagital y axial: se ilumina cada espacio (periamigdalino, parafaríngeo, retrofaríngeo con el danger space) y el pus del retrofaríngeo baja al mediastino | Por qué el retrofaríngeo es grave |
+| orl-15 | Corte sagital de la vía aérea de un niño con adenoides y amígdalas grado 1 a 4; al dormir se relaja el paladar y se cierra la luz | SAHOS infantil |
+| orl-16 | Cuerdas vocales desde arriba abriendo y cerrando: nódulos (cierre en reloj de arena), pólipo (cierre asimétrico), Reinke (abombamiento difuso) | Diferenciar las lesiones benignas |

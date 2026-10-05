@@ -609,3 +609,8 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - orl-13 (B): McIsaac: el texto dice 15–30 % con 2–3 puntos; la tabla da 10–17 % (2) y 25–35 % (3). Se siguió la tabla.
 - orl-13 (B): el libro pone la penicilina benzatina como primera opción, pero en todas las preguntas reales de tratamiento la correcta es amoxicilina (Diciembre 2017 · P143, Agosto 2021 · P28, Diciembre 2025 · P107). Se enseñaron ambos esquemas y la voz avisa que en el banco la respuesta es amoxicilina.
 - orl-13 (C): el libro no trae absceso periamigdalino (trismus, úvula desviada) ni escarlatina, que el banco pregunta. Diciembre 2025 · P107 trata un niño de 2 años con test positivo; el libro dice que en menores de 3 años el estreptococo es casi inexistente y no da conducta. No se usó.
+- orl-14 (B): penicilina sódica "2 a 4 millones UI c/4 h" (texto) vs "4 millones c/4 h" (tabla). Se siguió el texto; la voz no da la cifra.
+- orl-14 (B): el esquema del periamigdalino cambia: texto y tabla dan amoxicilina-clavulánico o penicilina + metronidazol; el diagrama agrega ceftriaxona + clindamicina. Se incluyeron las tres opciones.
+- orl-14 (C): dosis de ceftriaxona y clindamicina solo en la tabla, no en el texto.
+- orl-15 (C): el libro no cubre el manejo de la hipertrofia adenoidea sin SAHOS ni infecciones (observación o corticoide nasal), el estudio inicial con Rx de cavum y nasofibroscopía, ni la polisomnografía; el banco lo pregunta (Julio 2017 · P48, discutida; Diciembre 2025 · P23).
+- orl-16 (C): el libro no cubre la disfonía matinal por reflujo con prueba terapéutica con IBP, que el banco pregunta (Diciembre 2018 · P65, Diciembre 2019 · P145).
