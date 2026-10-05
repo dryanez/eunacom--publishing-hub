@@ -8,7 +8,7 @@ Cardiología sigue excluida a pedido del usuario.
 | Libro | Clases | Escritas | Con imágenes |
 |---|---|---|---|
 | Otorrinolaringología (`orl-XX`) | 20 | 20 ✅ | 16 |
-| Traumatología (`trauma-XX`) | 15 | 9 | 6 |
+| Traumatología (`trauma-XX`) | 15 | 12 | 8 |
 | Urología (`uro-XX`) | 15 | 0 | 0 |
 | Psiquiatría (`psiq-XX`) | 18 | 0 | 0 |
 
@@ -44,6 +44,9 @@ Cardiología sigue excluida a pedido del usuario.
 | trauma-07 | Rx AP y lateral de fractura bimaleolar / trimaleolar (Weber), Maisonneuve y tibia diafisaria; puntos de palpación de Ottawa | Manual CTO Traumatología / Apley / Rockwood |
 | trauma-08 | Fotos de Lachman, McMurray y signo de la J; RM de rotura de menisco (asa de balde, doble LCP) | AMIR / CTO Traumatología |
 | trauma-09 | Maniobra de Thompson; ecografía o RM de rotura del Aquiles (gap); equimosis / hematoma; quiste de Baker o su ecografía | AMIR / CTO Traumatología, Netter |
+| trauma-10 | Rx AP de pelvis con fractura de cuello femoral (Garden); fractura intertrocantérea con tornillo dinámico; hemiartroplastía; luxación posterior de cadera (Rx y foto de la pierna) (Bailey Fig. 35.6/35.8 solo ~187 px) | Bailey & Love (otra extracción), CTO / AMIR Traumatología |
+| trauma-11 | Hombro congelado; arco doloroso y Neer (van en trauma-15); epicondilitis; De Quervain con Finkelstein; cintilla iliotibial | CTO / AMIR Traumatología |
+| trauma-12 | Tofos gotosos; Rx de artrosis de rodilla y cadera con osteofitos; artritis séptica (Bailey Fig. 38.4 y 39.40 < 250 px); condrocalcinosis con meniscos calcificados | AMIR / CTO Reumatología |
 
 ## Animaciones por hacer
 
@@ -120,3 +123,11 @@ Anatomía real (BodyParts3D / Z-Anatomy / Blausen) o diagramas limpios; nunca fo
 | trauma-09 | Maniobra de Thompson: se comprime el gemelo y el pie hace o no flexión plantar (tendón sano vs roto) | Rotura del Aquiles |
 | trauma-09 | Quiste de Baker que se rompe y el líquido baja a la pantorrilla | Por qué simula una TVP |
 | trauma-09 | Los tres grados de esguince con la prueba del cajón en cada uno | Clasificación |
+| trauma-10 | Irrigación de la cabeza femoral: las circunflejas sobre el cuello; la fractura desplazada las corta y la cabeza se pone pálida (BodyParts3D / Z-Anatomy) | Por qué prótesis en el cuello desplazado |
+| trauma-10 | La misma pierna en rotación externa (fractura) vs interna (luxación posterior, posición púdica) | Se pregunta |
+| trauma-10 | Árbol: cuello desplazado > 65 → prótesis; intertrocantérea → tornillo dinámico; postrado → Girdlestone | Conducta |
+| trauma-11 | Hombro: movilidad activa vs pasiva en el manguito (pasiva libre) vs capsulitis (rígido en ambas) | Diferenciar |
+| trauma-11 | Lumbago mecánico vs inflamatorio a lo largo de 24 h | Diferenciar |
+| trauma-12 | Cartílago que se desgasta: estrecha el espacio y aparecen osteofitos | Artrosis |
+| trauma-12 | Escalera del líquido sinovial por leucocitos (< 2.000, 2.000–50.000, > 50.000) con el diagnóstico | Monoartritis |
+| trauma-12 | Polarización: urato en aguja (negativa) vs pirofosfato romboidal (débilmente positiva) | Gota vs pseudogota |
