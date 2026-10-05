@@ -46,3 +46,9 @@ S['cirugia-12'] = {
     'steps': [{'note': 'Lente en horas, media luna en días',
                'say': 'El hematoma epidural viene de la arteria meníngea media y queda entre el hueso y la duramadre: crece rápido, tiene forma de lente porque no cruza las suturas, y el paciente puede tener un intervalo lúcido antes de deteriorarse. El subdural viene de las venas puente y queda bajo la duramadre: se extiende en media luna siguiendo el cerebro, crece lento y la conciencia empeora en días. Es típico del adulto mayor o el alcohólico.'}],
 }
+S['resp-11'] = {
+    'title': 'Trasudado o exudado',
+    'images': [{'src': 'animaciones/resp-11/A1_trasudado_exudado_real.mp4', 'label': 'Light', 'credit': BL}],
+    'steps': [{'note': 'Agua sola o con proteínas',
+               'say': 'El líquido se junta en el espacio pleural, en la base. En el trasudado la pleura está sana y pasa solo agua, empujada por presión, como en la insuficiencia cardíaca, la cirrosis o la nefrosis: las proteínas se quedan en el capilar. En el exudado la pleura está dañada y pasan también proteínas, como en la neumonía, el cáncer o la tuberculosis. Con un solo criterio de Light, es exudado.'}],
+}

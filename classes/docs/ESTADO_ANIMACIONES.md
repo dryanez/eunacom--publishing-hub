@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **26**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **34**
+- ✅ Hechas con anatomía real (3D o Blausen): **27**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **33**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
 - ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (34)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (33)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -31,7 +31,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-04 | Redistribución del flujo fetal (cerebro protegido) en la restricción | M | ★★★ | A1_redistribucion.mp4 |
 | ob-05 | Invasión trofoblástica defectuosa → arterias espirales estrechas → preeclampsia | M | ★★★ | A1_placentacion.mp4 |
 | ped-05 | Bronquiolitis: bronquiolo que se tapa con moco y aire atrapado | M | ★★★ | A1_bronquiolo.mp4 |
-| resp-11 | Criterios de Light: trasudado vs exudado (presiones de Starling) | M | ★★★ | A1_trasudado_exudado.mp4 |
 | resp-22 | Alvéolo inundado del distrés; ventilación protectora | M | ★★★ | A1_distres.mp4 |
 | diab-17 | (animación existente, no estaba en el plan) |  |  | A1_insulina_potasio.mp4, A2_umbral_potasio.mp4 |
 | gastro-13 | (animación existente, no estaba en el plan) |  |  | A1_camino_bilirrubina.mp4 |
@@ -221,7 +220,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (26)
+## ✅ Hechas con anatomía real (3D o Blausen) (27)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -240,6 +239,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-11 | Vía nigroestriada: dopamina que falta y levodopa que la repone | M | ★★★ | A1_nigroestriada_3d.mp4 |
 | resp-02 | Bronquio en la crisis asmática: contracción, edema, moco; el CO2 normal que alarma | M | ★★★ | A1_crisis_asmatica_real.mp4 |
 | resp-04 | Enfisema: alvéolos que se rompen y atrapan aire | M | ★★★ | A1_enfisema_real.mp4 |
+| resp-11 | Criterios de Light: trasudado vs exudado (presiones de Starling) | M | ★★★ | A1_trasudado_exudado_real.mp4 |
 | resp-19 | Trombo que viaja de la pierna al pulmón | 3D | ★★★ | A1_tep_3d.mp4 |
 | cirugia-04 | (animación existente, no estaba en el plan) |  |  | A1_obstruccion_3d.mp4 |
 | endo-20 | (animación existente, no estaba en el plan) |  |  | A1_macroadenoma_3d.mp4 |

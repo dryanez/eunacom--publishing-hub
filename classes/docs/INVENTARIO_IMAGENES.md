@@ -852,7 +852,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | resp-10 | dataset_neumologia.cjs (resp-10) | Alternativa | tbc ghon cavitacion alt1 | `biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion_alt1__amir-infecto_p112.jpg` | Manual AMIR infecto, p. 112 | no |
 | resp-10 | dataset_neumologia.cjs (resp-10) | Imagen | TBC miliar | `biblioteca/02_neumologia/resp-10/02_tbc-miliar__cto-radiologia_p13.jpg` | Radiologia, p. 13 | sí |
 | resp-10 | dataset_neumologia.cjs (resp-10) | Alternativa | tbc miliar alt1 | `biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg` | Manual CTO infecto, p. 66 | no |
-| resp-11 | dataset_neumologia.cjs (resp-11) | Animación | trasudado exudado | `animaciones/resp-11/A1_trasudado_exudado.mp4` | Animación propia (Manim) | sí |
+| resp-11 | dataset_neumologia.cjs (resp-11) | Animación | trasudado exudado | `animaciones/resp-11/A1_trasudado_exudado_real.mp4` | Animación propia (Manim) | sí |
 | resp-11 | dataset_neumologia.cjs (resp-11) | Imagen | derrame pleural | `biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg` | Neumologia, p. 111 | sí |
 | resp-11 | dataset_neumologia.cjs (resp-11) | Alternativa | derrame pleural alt1 | `biblioteca/02_neumologia/resp-11/01_derrame-pleural_alt1__cto-neumo_p112.jpg` | Manual CTO neumo, p. 112 | no |
 | resp-12 | dataset_neumologia.cjs (resp-12) | Imagen | derrame encapsulado | `biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg` | Neumologia, p. 111 | sí |

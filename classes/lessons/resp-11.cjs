@@ -154,11 +154,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Trasudado o exudado',
       images: [
-        { src: 'animaciones/resp-11/A1_trasudado_exudado.mp4', label: 'Light', credit: 'Animación propia' },
+        { src: 'animaciones/resp-11/A1_trasudado_exudado_real.mp4', label: 'Light', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Presión o permeabilidad',
-          say: 'En el trasudado pasa solo agua, por presión, como en la insuficiencia cardíaca. En el exudado la pleura está dañada y pasan también proteínas. Con un solo criterio de Light, es exudado.' },
+        { note: 'Agua sola o con proteínas',
+          say: 'El líquido se junta en el espacio pleural, en la base. En el trasudado la pleura está sana y pasa solo agua, empujada por presión, como en la insuficiencia cardíaca, la cirrosis o la nefrosis: las proteínas se quedan en el capilar. En el exudado la pleura está dañada y pasan también proteínas, como en la neumonía, el cáncer o la tuberculosis. Con un solo criterio de Light, es exudado.' },
       ],
     },
 

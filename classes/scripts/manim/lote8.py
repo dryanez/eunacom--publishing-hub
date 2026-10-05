@@ -655,3 +655,77 @@ class Cirugia12Hematomas(BlausenScene):
         db = T('Media luna · crece en días', 17, INK).next_to(lb, RIGHT, buff=0.2)
         self.play(FadeIn(db), kb.animate.set_value(1), vb.animate.set_value(1), run_time=1.8)
         self.wait(2)
+
+
+# ------------------------------------------------------------------ resp-11: trasudado vs exudado
+class Resp11Derrame(BlausenScene):
+    IMG, CROP = 'Blausen 0993 PleuralEffusion.png', (0.20, 0.43, 0.80, 0.84)
+    ERASE = [(0.22, 0.0, 0.75, 0.08), (0.26, 0.38, 0.31, 0.44), (0.85, 0.42, 0.90, 0.48)]
+
+    def membrane(self, center, damaged):
+        w, h = 4.6, 2.3
+        frame = RoundedRectangle(corner_radius=0.15, width=w, height=h, stroke_color=MUTED, stroke_width=2).move_to(center)
+        vessel = Rectangle(width=w - 0.1, height=0.75, fill_color='#C0392B', fill_opacity=0.25, stroke_width=0).move_to(center + UP * 0.72)
+        vlab = T('capilar', 15, MUTED).move_to(vessel.get_corner(UR) + LEFT * 0.4 + DOWN * 0.15)
+        wall = VGroup()
+        n = 9
+        for i in range(n):
+            x = center[0] - w / 2 + 0.3 + i * (w - 0.6) / (n - 1)
+            gap = 0.08 if not damaged or i % 3 else 0.32
+            wall.add(Line([x - (w - 0.6) / (n - 1) / 2 + gap / 2, center[1] + 0.3, 0], [x + (w - 0.6) / (n - 1) / 2 - gap / 2, center[1] + 0.3, 0],
+                          color='#E8B4B8', stroke_width=9))
+        space = T('espacio pleural', 15, MUTED).move_to(center + DOWN * 0.85 + RIGHT * 1.4)
+        return VGroup(frame, vessel, vlab, wall, space)
+
+    def cross(self, center, damaged):
+        rng = np.random.default_rng(5 if damaged else 2)
+        anims, dots = [], VGroup()
+        if not damaged:
+            pass
+        for i in range(14):
+            x = center[0] + rng.uniform(-1.9, 1.9)
+            d = Dot([x, center[1] + 0.75 + rng.uniform(-0.2, 0.2), 0], radius=0.05, color=BLUE_)
+            dots.add(d); anims.append(d.animate.shift(DOWN * rng.uniform(1.1, 1.6)))
+        for i in range(5):
+            x = center[0] - 2.3 + 0.3 + (3 * i % 9) * (4.0 / 8)
+            p = Dot([x, center[1] + 0.75, 0], radius=0.1, color=AMBER).set_stroke(WHITE, 1)
+            dots.add(p)
+            if damaged:
+                anims.append(p.animate.shift(DOWN * rng.uniform(1.1, 1.5)))
+            else:                                           # la pleura sana retiene las proteínas
+                anims.append(p.animate(rate_func=there_and_back).shift(DOWN * 0.38))
+        return dots, anims
+
+    def construct(self):
+        title(self, 'Derrame pleural: trasudado o exudado', 'Qué cruza la pleura decide el tipo', BLUE_)
+        img = self.lamina(height=5.4, center=LEFT * 3.4 + DOWN * 0.55)
+        P = self.P
+        glow = Polygon(*[P(x, y) for x, y in [(0.555, 0.735), (0.62, 0.765), (0.68, 0.775), (0.725, 0.76), (0.73, 0.79), (0.70, 0.805), (0.60, 0.795), (0.555, 0.77)]],
+                       fill_color=BLUE_, fill_opacity=0.0, stroke_width=0)
+        lab = tag('Líquido en el espacio pleural', BLUE_, 18).next_to(img, DOWN, buff=0.1)
+        self.add(glow)
+        self.play(glow.animate.set_fill(opacity=0.55), FadeIn(lab), run_time=1.0)
+        self.play(glow.animate.set_fill(opacity=0.2), run_time=0.6)
+        self.play(glow.animate.set_fill(opacity=0.55), run_time=0.6)
+        # membrana: trasudado
+        c1 = RIGHT * 3.6 + UP * 1.0
+        m1 = self.membrane(c1, False)
+        t1 = VGroup(T('Trasudado', 24, BLUE_, bold=True), T('pleura sana · pasa solo agua, por presión', 17, INK),
+                    T('insuficiencia cardíaca, cirrosis, nefrosis', 16, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.04).next_to(m1, DOWN, aligned_edge=LEFT, buff=0.08)
+        self.play(FadeIn(m1), FadeIn(t1[0]), run_time=0.7)
+        d1, a1 = self.cross(c1, False)
+        self.add(d1)
+        self.play(*a1, FadeIn(t1[1:]), run_time=1.8)
+        self.play(FadeOut(m1), FadeOut(d1), FadeOut(t1), run_time=0.5)
+        # exudado
+        m2 = self.membrane(c1, True)
+        t2 = VGroup(T('Exudado', 24, AMBER, bold=True), T('pleura dañada · pasan agua y proteínas', 17, INK),
+                    T('neumonía, cáncer, tuberculosis', 16, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.04).next_to(m2, DOWN, aligned_edge=LEFT, buff=0.08)
+        self.play(FadeIn(m2), FadeIn(t2[0]), run_time=0.7)
+        d2, a2 = self.cross(c1, True)
+        self.add(d2)
+        self.play(*a2, FadeIn(t2[1:]), run_time=1.8)
+        light = VGroup(T('Criterios de Light', 22, INK, bold=True),
+                       T('basta uno para decir exudado', 19, AMBER)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(t2, DOWN, aligned_edge=LEFT, buff=0.3)
+        self.play(FadeIn(light), run_time=0.8)
+        self.wait(2)
