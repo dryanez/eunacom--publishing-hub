@@ -884,8 +884,8 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | resp-20 | dataset_neumologia.cjs (resp-20) | Imagen | bronquiectasias (TC) | `biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg` | Neumologia, p. 68 | sí |
 | resp-20 | dataset_neumologia.cjs (resp-20) | Alternativa | bronquiectasias tc alt1 1 | `biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc_alt1_1__cto-neumo_p86.jpg` | Manual CTO neumo, p. 86 | no |
 | resp-20 | dataset_neumologia.cjs (resp-20) | Alternativa | bronquiectasias tc alt1 2 | `biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc_alt1_2__cto-neumo_p86.jpg` | Manual CTO neumo, p. 86 | no |
-| resp-21 | dataset_neumologia.cjs (resp-21, en dataset_neumologia_bloque_5.cjs) | Animación | hipoventilacion | `animaciones/resp-21/A1_hipoventilacion.mp4` | Animación propia (Manim) | sí |
-| resp-21 | dataset_neumologia.cjs (resp-21, en dataset_neumologia_bloque_5.cjs) | Animación | shunt | `animaciones/resp-21/A2_shunt.mp4` | Animación propia (Manim) | sí |
+| resp-21 | dataset_neumologia.cjs (resp-21, en dataset_neumologia_bloque_5.cjs) | Animación | hipoventilacion | `animaciones/resp-21/A1_hipoventilacion_real.mp4` | Animación propia (Manim) | sí |
+| resp-21 | dataset_neumologia.cjs (resp-21, en dataset_neumologia_bloque_5.cjs) | Animación | shunt | `animaciones/resp-21/A2_shunt_real.mp4` | Animación propia (Manim) | sí |
 | resp-22 | dataset_neumologia.cjs (resp-22, en dataset_neumologia_bloque_5.cjs) | Animación | distres | `animaciones/resp-22/A1_distres_real.mp4` | Animación propia (Manim) | sí |
 | resp-22 | dataset_neumologia.cjs (resp-22, en dataset_neumologia_bloque_5.cjs) | Imagen | SDRA infiltrado bilateral | `biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg` | Neumologia, p. 35 | sí |
 | resp-23 | dataset_neumologia.cjs (resp-23, en dataset_neumologia_bloque_5.cjs) | Imagen | polisomnografía real: apneas obstructivas repetidas con desaturación | `biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg` | Wikimedia Commons «Polysomnographie-apnees-5min2.png», CC BY-SA 3.0, GAllegre | sí |

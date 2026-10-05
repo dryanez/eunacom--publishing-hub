@@ -110,3 +110,12 @@ S['neuro-17'] = {
               {'note': 'Receptores bloqueados, fuerza que cae',
                'say': 'En la miastenia, los anticuerpos bloquean parte de los receptores. Con cada contracción se libera menos acetilcolina, se activan menos receptores y la fuerza va cayendo. Eso es la debilidad fatigable: empeora con el uso y mejora con el reposo.'}],
 }
+S['resp-21'] = {
+    'title': 'Pulmón sano o pulmón dañado',
+    'images': [{'src': 'animaciones/resp-21/A1_hipoventilacion_real.mp4', 'label': 'Hipoventilación', 'credit': BL},
+               {'src': 'animaciones/resp-21/A2_shunt_real.mp4', 'label': 'Shunt', 'credit': BL}],
+    'steps': [{'note': 'Gradiente normal',
+               'say': 'En la hipoventilación el pulmón está sano, pero entra poco aire: se acumula CO dos y baja el oxígeno alveolar; el arterial baja lo mismo. El gradiente es normal.'},
+              {'note': 'Gradiente alto',
+               'say': 'En el shunt el alvéolo no recibe aire, porque está tapado, colapsado o lleno de líquido: la sangre pasa sin oxigenarse. El gradiente sube, y darle oxígeno al cien por ciento casi no mejora la saturación.'}],
+}

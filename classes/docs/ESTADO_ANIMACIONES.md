@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **35**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **25**
+- ✅ Hechas con anatomía real (3D o Blausen): **36**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **24**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
 - ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (25)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (24)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -35,7 +35,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-06 | (animación existente, no estaba en el plan) |  |  | A1_cierre_angulo.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
-| resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion.mp4, A2_shunt.mp4 |
 
 ## ⬜ Pendientes (aún sin video) (170)
 
@@ -212,7 +211,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (35)
+## ✅ Hechas con anatomía real (3D o Blausen) (36)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -250,6 +249,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-08 | (animación existente, no estaba en el plan) |  |  | A1_bronquio_derecho_3d.mp4 |
 | resp-08 | (animación existente, no estaba en el plan) |  |  | A1_aspiracion_3d.mp4 |
 | resp-14 | (animación existente, no estaba en el plan) |  |  | A1_tension_3d.mp4, A2_puncion_3d.mp4 |
+| resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
 ## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (37)

@@ -1214,3 +1214,99 @@ class Neuro17PlacaNormal(_Placa3):
 
 class Neuro17PlacaMiastenia(_Placa3):
     MG = True
+
+
+# ------------------------------------------------------------------ resp-21: hipoventilación vs shunt (gradiente A-a)
+class _Gradiente(BlausenScene):
+    IMG = 'Atelectasis.png'
+    SHUNT = False
+
+    def bars(self):
+        x0 = 2.3
+        base = np.array([x0, -2.7, 0])
+        ax = Line(base + LEFT * 0.3, base + RIGHT * 3.8, color=MUTED, stroke_width=2)
+        vA, va = ValueTracker(0.9), ValueTracker(0.82)
+        def mk(v, dx, col):
+            return always_redraw(lambda: Rectangle(width=1.1, height=max(0.01, 3.6 * v.get_value()), fill_color=col, fill_opacity=1, stroke_width=0)
+                                 .move_to(base + RIGHT * dx, aligned_edge=DOWN))
+        bA, ba = mk(vA, 0.6, BLUE_), mk(va, 2.6, RED_)
+        lA = VGroup(T('O₂ alveolar', 18, BLUE_, bold=True)).next_to(base + RIGHT * 0.6, DOWN, buff=0.15)
+        la = VGroup(T('O₂ arterial', 18, RED_, bold=True)).next_to(base + RIGHT * 2.6, DOWN, buff=0.15)
+        gap = always_redraw(lambda: DoubleArrow(base + RIGHT * 1.6 + UP * 3.6 * va.get_value(), base + RIGHT * 1.6 + UP * 3.6 * vA.get_value(),
+                                                buff=0, color=AMBER, stroke_width=4, tip_length=0.15)
+                            if vA.get_value() - va.get_value() > 0.06 else VGroup())
+        return VGroup(ax, lA, la), bA, ba, gap, vA, va
+
+    def construct(self):
+        if self.SHUNT:
+            title(self, 'Shunt: el alvéolo no recibe aire', 'La sangre pasa sin oxigenarse', RED_)
+            crop, dy = (0.035, 0.57, 0.47, 0.93), 0.48
+        else:
+            title(self, 'Hipoventilación: pulmón sano', 'Entra poco aire: sube el CO₂ y baja el oxígeno', BLUE_)
+            crop, dy = (0.035, 0.09, 0.47, 0.45), 0.0
+        img = self.lamina(width=6.6, center=LEFT * 3.15 + UP * 0.35, crop=crop)
+        P = lambda x, y: self.P(x, y + dy)
+        airway = self.path([(0.46, 0.165 if not self.SHUNT else 0.163), (0.38, 0.175), (0.30, 0.19), (0.22, 0.215), (0.15, 0.225), (0.09, 0.25)] if True else [],
+                           img=img) if False else VMobject().set_points_smoothly([P(*p) for p in [(0.46, 0.16), (0.38, 0.175), (0.30, 0.19), (0.22, 0.21), (0.15, 0.22), (0.085, 0.25)]])
+        alv = P(0.075, 0.26)
+        cap = VMobject().set_points_smoothly([P(*p) for p in [(0.20, 0.42), (0.14, 0.40), (0.09, 0.36), (0.05, 0.30), (0.05, 0.20), (0.09, 0.12), (0.16, 0.10)]])
+        cap.set_stroke('#8B1A1A', 7, opacity=0.8)
+        lc = tag('Capilar', RED_, 16).next_to(cap.get_start(), DOWN, buff=0.05)
+        self.play(Create(cap), FadeIn(lc), run_time=0.8)
+        g, bA, ba, gap, vA, va = self.bars()
+        self.play(FadeIn(g), FadeIn(bA), FadeIn(ba), run_time=0.6)
+        self.add(gap)
+        # sangre que pasa
+        tb = ValueTracker(0)
+        sat = ValueTracker(1.0)
+        n = 9
+        blood = VGroup(*[Dot(radius=0.075).set_stroke(WHITE, 1) for _ in range(n)])
+        def ub(gr):
+            for i, d in enumerate(gr):
+                f = (tb.get_value() + i / n) % 1
+                d.move_to(cap.point_from_proportion(f))
+                ox = sat.get_value() if f > 0.45 else 0.0
+                d.set_fill(interpolate_color(ManimColor('#3B4BA8'), ManimColor('#E53935'), ox), opacity=1)
+        blood.add_updater(ub); ub(blood)
+        self.add(blood)
+        ta = ValueTracker(0)
+        nair = 6
+        air = VGroup(*[Dot(radius=0.07, color=BLUE_).set_stroke(WHITE, 1) for _ in range(nair)])
+        stop = ValueTracker(1.0)
+        def ua(gr):
+            for i, d in enumerate(gr):
+                f = (ta.get_value() + i / nair) % 1
+                d.move_to(airway.point_from_proportion(min(f, stop.get_value())))
+                d.set_opacity(1 if f < stop.get_value() + 0.02 else 0.0)
+        air.add_updater(ua); ua(air)
+        self.add(air)
+        self.play(ta.animate.increment_value(1.0), tb.animate.increment_value(1.0), run_time=2.0, rate_func=linear)
+        if not self.SHUNT:
+            co2 = VGroup(*[Dot(alv + np.array([np.cos(a), np.sin(a), 0]) * r, radius=0.06, color=GRAY_B) for a, r in zip(np.linspace(0, 6, 10), [0.2, 0.35, 0.25, 0.4] * 3)])
+            lco2 = tag('CO₂ se acumula', GRAY_B, 17).next_to(alv, RIGHT, buff=0.9).shift(UP * 0.6)
+            self.play(ta.animate.increment_value(0.35), tb.animate.increment_value(1.0), FadeIn(co2, lag_ratio=0.15), FadeIn(lco2),
+                      vA.animate.set_value(0.6), va.animate.set_value(0.52), sat.animate.set_value(0.6), run_time=3.0, rate_func=linear)
+            msg = VGroup(T('Los dos bajan juntos', 22, INK, bold=True), T('gradiente normal: el pulmón está sano', 19, GREEN_),
+                         T('el oxígeno corrige; hay que ventilar', 18, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(img, DOWN, aligned_edge=LEFT, buff=0.25)
+            self.play(FadeIn(msg), ta.animate.increment_value(0.3), tb.animate.increment_value(0.8), run_time=1.4, rate_func=linear)
+        else:
+            plug = P(0.335, 0.225)
+            lp = tag('Tapón de moco', AMBER, 17).next_to(plug, UP, buff=0.35)
+            self.play(stop.animate.set_value(0.42), FadeIn(lp), ta.animate.increment_value(0.6), tb.animate.increment_value(0.6),
+                      sat.animate.set_value(0.0), va.animate.set_value(0.45), run_time=2.0, rate_func=linear)
+            la_ = tag('Alvéolo colapsado', RED_, 17).next_to(alv, RIGHT, buff=0.9).shift(UP * 0.5)
+            self.play(FadeIn(la_), ta.animate.increment_value(0.6), tb.animate.increment_value(1.0), run_time=1.6, rate_func=linear)
+            o2 = tag('Oxígeno al 100 %', BLUE_, 18).next_to(g, UP, buff=3.95).shift(LEFT * 0.4)
+            self.play(FadeIn(o2), vA.animate.set_value(0.97), va.animate.set_value(0.48), ta.animate.increment_value(0.6), tb.animate.increment_value(1.0), run_time=2.0, rate_func=linear)
+            msg = VGroup(T('Gradiente alto', 22, AMBER, bold=True), T('el oxígeno casi no mejora la saturación', 19, INK),
+                         T('distrés, neumonía, atelectasia', 18, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(img, DOWN, aligned_edge=LEFT, buff=0.25)
+            self.play(FadeIn(msg), ta.animate.increment_value(0.3), tb.animate.increment_value(0.8), run_time=1.4, rate_func=linear)
+        self.play(ta.animate.increment_value(0.4), tb.animate.increment_value(1.0), run_time=1.6, rate_func=linear)
+
+
+class Resp21Hipoventilacion(_Gradiente):
+    SHUNT = False
+
+
+class Resp21Shunt(_Gradiente):
+    SHUNT = True
