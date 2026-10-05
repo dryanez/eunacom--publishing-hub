@@ -12,14 +12,27 @@ BLENDER = '/Applications/Blender.app/Contents/MacOS/Blender'
 FONT = '/System/Library/Fonts/Helvetica.ttc'
 CREDIT = 'Modelo 3D: BodyParts3D (DBCLS, CC BY 4.0)'
 ZCREDIT = 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D'
-SCRIPTS = {'z_parkinson': 'z_parkinson.py'}
+SCRIPTS = {'z_parkinson': 'z_parkinson.py', 'z_portal': 'z_portal.py', 'z_aneurisma': 'z_aneurisma.py'}
 
 # escena: (destino, cuadros, título, subtítulo, color, [(texto, desde_s, hasta_s, x, y, color)])
 JOBS = {
-    'z_parkinson': ('neuro-11/A1_nigroestriada_3d', 192, 'Parkinson: la vía nigroestriada', 'La sustancia nigra envía dopamina al estriado; al perder sus neuronas se despigmenta', 'B388FF',
-                    [('Sustancia nigra', 0.4, 4.0, 880, 430, 'FFFFFF', (700, 365)), ('Estriado (caudado y putamen)', 0.4, 4.0, 900, 150, '4FA3FF', (820, 190)),
-                     ('Dopamina', 1.0, 4.0, 900, 250, 'FFD34D', (705, 290)),
-                     ('La nigra se despigmenta', 4.6, 8, 880, 430, 'FF5A4E', (700, 365)), ('Falta dopamina en el estriado', 5.2, 8, 120, 620, 'FF5A4E')]),
+    'z_parkinson': ('neuro-11/A1_nigroestriada_3d', 312, 'Parkinson: la vía nigroestriada', 'La sustancia nigra envía dopamina al estriado; al perder sus neuronas se despigmenta', 'B388FF',
+                    [('Cerebro completo', 0.3, 2.3, 120, 620, 'FFFFFF'), ('Retiramos la corteza y el cerebelo', 2.4, 4.9, 120, 620, 'FFFFFF'),
+                     ('Luego la sustancia blanca', 4.9, 6.5, 120, 620, 'FFFFFF'), ('Quedan los núcleos de la base y el mesencéfalo', 6.5, 7.6, 120, 620, 'FFFFFF'),
+                     ('Sustancia nigra', 7.6, 10.4, 880, 400, 'FFFFFF', (652, 350)), ('Estriado (caudado y putamen)', 7.6, 10.4, 900, 150, '4FA3FF', (820, 190)),
+                     ('Dopamina', 8.0, 10.4, 900, 250, 'FFD34D', (708, 268)),
+                     ('La nigra se despigmenta', 10.6, 13, 880, 400, 'FF5A4E', (652, 350)), ('Falta dopamina en el estriado', 11.2, 13, 120, 620, 'FF5A4E')]),
+    'z_aneurisma': ('neuro-04/A1_aneurisma_3d', 288, 'Hemorragia subaracnoidea', 'Un aneurisma del polígono de Willis se rompe y la sangre llena las cisternas', 'FF5A4E',
+                    [('Vista desde la base del cerebro', 1.0, 4.2, 40, 655, 'FFFFFF')]),
+    'z_portal': ('gastro-15/A1_hipertension_portal_3d', 336, 'Hipertensión portal', 'El hígado cirrótico frena la sangre portal: busca colaterales y se filtra líquido', 'FF5A4E',
+                 [('Normal: intestino y bazo drenan por la porta al hígado', 0.3, 3.0, 40, 655, 'FFFFFF'),
+                  ('Cirrosis: el hígado frena el paso', 3.1, 6.3, 60, 200, 'FFC247', (540, 220)),
+                  ('Sube la presión portal', 3.8, 6.3, 900, 330, 'FF5A4E', (650, 262)),
+                  ('Hígado cirrótico', 6.4, 14, 60, 200, 'FFC247', (540, 220)),
+                  ('Esplenomegalia', 4.8, 14, 900, 220, 'FF8FB1', (825, 245)),
+                  ('Várices esofágicas', 6.4, 14, 900, 140, 'B388FF', (642, 112)),
+                  ('Cabeza de medusa', 8.8, 14, 60, 440, 'B388FF', (500, 470)),
+                  ('Ascitis', 11.1, 14, 60, 560, '7FC8FF', (600, 610))]),
     'gastro03_normal': ('gastro-03/A1_deglucion_normal_3d', 168, 'Deglución normal', 'La onda peristáltica baja el bolo y el esfínter inferior se abre justo cuando llega', '3DDC84',
                         [('Esfínter esofágico inferior', 0.3, 7, 800, 450, '3DDC84', (612, 467)), ('Se abre y deja pasar', 1.5, 7, 800, 500, 'FFFFFF')]),
     'gastro03_acalasia': ('gastro-03/A1_acalasia_3d', 168, 'Acalasia', 'El esfínter esofágico inferior no se relaja: el alimento se retiene y el esófago se dilata', 'FFC247',

@@ -285,7 +285,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | gastro-13 | dataset_gastroenterologia.cjs (gastro-13) | Alternativa | coledoco dilatado eco colangio rm alt1 | `biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm_alt1__cto-radiologia_p45.jpg` | Manual CTO radiologia, p. 45 | no |
 | gastro-14 | dataset_gastroenterologia.cjs (gastro-14) | Animación | vhb marcadores | `animaciones/gastro-14/A1_vhb_marcadores.mp4` | Animación propia (Manim) | sí |
 | gastro-14 | dataset_gastroenterologia.cjs (gastro-14) | Dibujo propio | serologia vhb | `biblioteca/01_gastroenterologia/gastro-14/S1_serologia-vhb__propio.svg` | Dibujo propio | sí |
-| gastro-15 | dataset_gastroenterologia.cjs (gastro-15) | Animación | hipertension portal | `animaciones/gastro-15/A1_hipertension_portal.mp4` | Animación propia (Manim) | sí |
+| gastro-15 | dataset_gastroenterologia.cjs (gastro-15) | Animación | hipertension portal | `animaciones/gastro-15/A1_hipertension_portal_3d.mp4` | Animación propia (Manim) | sí |
 | gastro-15 | dataset_gastroenterologia.cjs (gastro-15) | Imagen | arañas vasculares | `biblioteca/01_gastroenterologia/gastro-15/01_aranas-vasculares__cto-digestivo_p211.jpg` | Digestivo, p. 211 | sí |
 | gastro-15 | dataset_gastroenterologia.cjs (gastro-15) | Imagen | ascitis a tensión en daño hepático crónico | `biblioteca/01_gastroenterologia/gastro-15/02_ascitis_tension_foto__commons.jpg` | Wikimedia Commons «Hepaticfailure.jpg», CC BY-SA 3.0, James Heilman, MD | sí |
 | gastro-15 | dataset_gastroenterologia.cjs (gastro-15) | Imagen | eritema palmar | `biblioteca/01_gastroenterologia/gastro-15/02_eritema-palmar__cto-digestivo_p212.jpg` | Digestivo, p. 212 | sí |
