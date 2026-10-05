@@ -12,7 +12,7 @@ BLENDER = '/Applications/Blender.app/Contents/MacOS/Blender'
 FONT = '/System/Library/Fonts/Helvetica.ttc'
 CREDIT = 'Modelo 3D: BodyParts3D (DBCLS, CC BY 4.0)'
 ZCREDIT = 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D'
-SCRIPTS = {'z_parkinson': 'z_parkinson.py', 'z_portal': 'z_portal.py', 'z_aneurisma': 'z_aneurisma.py'}
+SCRIPTS = {'z_parkinson': 'z_parkinson.py', 'z_portal': 'z_portal.py', 'z_aneurisma': 'z_aneurisma.py', 'z_crisis': 'z_crisis.py', 'z_graves': 'z_graves.py', 'z_obstruccion': 'z_obstruccion.py', 'z_tep': 'z_tep.py'}
 
 # escena: (destino, cuadros, título, subtítulo, color, [(texto, desde_s, hasta_s, x, y, color)])
 JOBS = {
@@ -23,7 +23,36 @@ JOBS = {
                      ('Dopamina', 8.0, 10.4, 900, 250, 'FFD34D', (708, 268)),
                      ('La nigra se despigmenta', 10.6, 13, 880, 400, 'FF5A4E', (652, 350)), ('Falta dopamina en el estriado', 11.2, 13, 120, 620, 'FF5A4E')]),
     'z_aneurisma': ('neuro-04/A1_aneurisma_3d', 288, 'Hemorragia subaracnoidea', 'Un aneurisma del polígono de Willis se rompe y la sangre llena las cisternas', 'FF5A4E',
-                    [('Vista desde la base del cerebro', 1.0, 4.2, 40, 655, 'FFFFFF')]),
+                    [('Giramos hasta ver la base del cerebro', 0.6, 3.5, 40, 655, 'FFFFFF'),
+                     ('Polígono de Willis', 3.6, 6.7, 110, 410, 'FF8A7A', (570, 430)),
+                     ('Aneurisma de la comunicante anterior', 4.8, 6.8, 760, 220, 'FFC247', (642, 294)),
+                     ('Se rompe', 6.85, 7.7, 40, 655, 'FFFFFF'),
+                     ('La sangre llena las cisternas de la base y las cisuras', 7.7, 12, 40, 610, 'FF5A4E'),
+                     ('Cefalea en trueno: la peor de su vida', 9.3, 12, 40, 660, 'FFFFFF')]),
+    'z_crisis': ('neuro-08/A1_crisis_propagacion_3d', 288, 'Cómo se propaga una crisis', 'De un foco en la corteza a todo el cerebro', 'FF9A3D',
+                 [('Foco en la corteza motora izquierda: sacude la mano derecha', 0.7, 3.6, 40, 655, 'FFB15C'),
+                  ('Se extiende por el hemisferio: marcha jacksoniana', 3.7, 6.8, 40, 655, 'FFB15C'),
+                  ('Pasa al otro hemisferio: crisis bilateral tónico-clónica', 6.9, 9.6, 40, 655, 'FF5A4E'),
+                  ('Toda la corteza: se pierde la conciencia', 9.7, 12, 40, 655, 'FF5A4E')]),
+    'z_graves': ('endo-06/A1_graves_3d', 288, 'Enfermedad de Graves', 'Anticuerpos que imitan a la TSH estimulan la tiroides sin freno', 'FF5A4E',
+                 [('Tiroides normal', 0.3, 1.4, 40, 655, 'FFFFFF'),
+                  ('Llegan anticuerpos contra el receptor de TSH (TRAb)', 1.5, 4.3, 40, 655, '5CE0A0'),
+                  ('La estimulan sin freno: crece (bocio difuso)', 4.4, 7.0, 40, 655, 'FF5A4E'),
+                  ('Exceso de T4 y T3 a la sangre; la TSH queda suprimida', 7.0, 12, 40, 655, 'FFD34D')]),
+    'z_obstruccion': ('cirugia-04/A1_obstruccion_3d', 288, 'Obstrucción intestinal', 'Una brida cierra el íleon: antes se dilata, después se colapsa', 'FFC247',
+                      [('Intestino normal', 0.3, 1.4, 40, 655, 'FFFFFF'),
+                       ('Una brida estrangula el íleon distal', 1.5, 3.3, 40, 655, 'FFE08A'),
+                       ('Las asas proximales luchan y se dilatan con gas y líquido', 3.4, 7.8, 40, 655, 'FF8A7A'),
+                       ('Brida', 7.9, 12, 160, 470, 'FFE08A', (480, 430)),
+                       ('Asas dilatadas', 7.9, 12, 900, 250, 'FF8A7A', (700, 300)),
+                       ('Colon colapsado', 7.9, 12, 900, 420, 'E0D8CC', (838, 400))]),
+    'z_tep': ('resp-19/A1_tep_3d', 336, 'Tromboembolismo pulmonar', 'Un trombo de la pierna viaja por la cava y el corazón derecho hasta el pulmón', '7FA8FF',
+              [('Trombosis venosa profunda en la pantorrilla', 0.4, 3.3, 40, 655, 'FF8A7A'),
+               ('Se suelta un émbolo', 3.4, 4.6, 40, 655, 'FF5A4E'),
+               ('Sube por la femoral, las ilíacas y la cava inferior', 4.7, 8.3, 40, 655, 'A8C4FF'),
+               ('Atraviesa el corazón derecho', 8.4, 10.3, 40, 655, 'C9A8FF'),
+               ('Se enclava en la arteria pulmonar: el pulmón queda sin perfusión', 10.4, 14, 40, 610, 'FF5A4E'),
+               ('El ventrículo derecho se sobrecarga y se dilata', 11.8, 14, 40, 660, 'FF8FB1')]),
     'z_portal': ('gastro-15/A1_hipertension_portal_3d', 336, 'Hipertensión portal', 'El hígado cirrótico frena la sangre portal: busca colaterales y se filtra líquido', 'FF5A4E',
                  [('Normal: intestino y bazo drenan por la porta al hígado', 0.3, 3.0, 40, 655, 'FFFFFF'),
                   ('Cirrosis: el hígado frena el paso', 3.1, 6.3, 60, 200, 'FFC247', (540, 220)),

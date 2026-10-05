@@ -234,11 +234,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Cómo se propaga una crisis',
       images: [
-        { src: 'animaciones/neuro-08/A1_crisis_propagacion.mp4', label: 'Focal a bilateral', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-08/A1_crisis_propagacion_3d.mp4', label: 'Focal a bilateral', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
       ],
       steps: [
         { note: 'Se extiende',
-          say: 'La crisis empieza en un foco y da síntomas de esa zona. Si se propaga a todo el hemisferio y al otro, se vuelve bilateral tónico clónica y el paciente pierde la conciencia.' },
+          say: 'La crisis empieza en un foco, por ejemplo en la corteza motora izquierda, y da síntomas de esa zona: sacudidas de la mano derecha. Si se propaga por el hemisferio avanza como una marcha. Y si pasa al otro hemisferio, se vuelve bilateral tónico clónica y el paciente pierde la conciencia.' },
       ],
     },
 

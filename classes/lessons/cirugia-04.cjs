@@ -191,11 +191,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Por qué se dilata el intestino',
       images: [
-        { src: 'animaciones/cirugia-04/A1_obstruccion.mp4', label: 'Obstrucción', credit: 'Animación propia' },
+        { src: 'animaciones/cirugia-04/A1_obstruccion_3d.mp4', label: 'Obstrucción', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
       ],
       steps: [
         { note: 'Gas y líquido antes del obstáculo',
-          say: 'Antes del obstáculo se acumulan gas y líquido, y las asas se dilatan: eso son los niveles hidroaéreos. Después del obstáculo, el intestino queda colapsado.' },
+          say: 'Una brida estrangula el íleon. Antes del obstáculo las asas luchan, se acumulan gas y líquido y se dilatan: eso son los niveles hidroaéreos. Después del obstáculo, el colon queda colapsado.' },
       ],
     },
 

@@ -213,6 +213,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del trombo al pulmón',
+      images: [
+        { src: 'animaciones/resp-19/A1_tep_3d.mp4', label: 'Tromboembolismo pulmonar', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'De la pierna a la arteria pulmonar',
+          say: 'Casi todo tromboembolismo pulmonar nace en las venas profundas de la pierna. El trombo se suelta, sube por la femoral, las ilíacas y la cava, atraviesa el corazón derecho y se enclava en la arteria pulmonar. El pulmón distal queda ventilado pero sin perfusión, y el ventrículo derecho se sobrecarga y se dilata.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Tromboembolismo pulmonar',

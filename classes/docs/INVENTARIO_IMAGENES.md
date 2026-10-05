@@ -18,7 +18,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | cirugia-02 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-02, classId cirugia-02) | Imagen | colelitiasis / colecistitis (ECO) | `biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg` | Radiologia, p. 44 | sí |
 | cirugia-02 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-02, classId cirugia-02) | Alternativa | colelitiasis colecistitis eco alt1 | `biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg` | Manual CTO radiologia, p. 44 | no |
 | cirugia-03 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-03, classId cirugia-03) | Imagen | diverticulitis (TC) | `biblioteca/10_cirugia/cirugia-03/01_diverticulitis-tc__cto-digestivo_p142.jpg` | Digestivo, p. 142 | sí |
-| cirugia-04 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-04, classId cirugia-04) | Animación | obstruccion | `animaciones/cirugia-04/A1_obstruccion.mp4` | Animación propia (Manim) | sí |
+| cirugia-04 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-04, classId cirugia-04) | Animación | obstruccion | `animaciones/cirugia-04/A1_obstruccion_3d.mp4` | Animación propia (Manim) | sí |
 | cirugia-04 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-04, classId cirugia-04) | Imagen | niveles hidroaéreos | `biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg` | Digestivo, p. 163 | sí |
 | cirugia-04 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-04, classId cirugia-04) | Alternativa | niveles hidroaereos alt1 | `biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos_alt1__cto-radiologia_p26.jpg` | Manual CTO radiologia, p. 26 | no |
 | cirugia-04 | dataset_cirugia.cjs / dataset_cirugia_bloque_1.cjs (cir-04, classId cirugia-04) | Imagen | vólvulo de sigma (grano de café) | `biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg` | Radiologia, p. 26 | sí |
@@ -176,7 +176,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | endo-04 | dataset_endocrinologia.cjs (endo-04) | Imagen | mismo lactante tras tratamiento | `biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg` | Nelson 22.ª ed., p. 4372 | sí |
 | endo-05 | dataset_endocrinologia.cjs (endo-05) | Animación | tres fases | `animaciones/endo-05/A1_tres_fases.mp4` | Animación propia (Manim) | sí |
 | endo-05 | dataset_endocrinologia.cjs (endo-05) | Imagen | ECO Hashimoto | `biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg` | Endocrinologia, p. 55 | sí |
-| endo-06 | dataset_endocrinologia.cjs (endo-06) | Animación | graves | `animaciones/endo-06/A1_graves.mp4` | Animación propia (Manim) | sí |
+| endo-06 | dataset_endocrinologia.cjs (endo-06) | Animación | graves | `animaciones/endo-06/A1_graves_3d.mp4` | Animación propia (Manim) | sí |
 | endo-06 | dataset_endocrinologia.cjs (endo-06) | Imagen | mixedema pretibial (dermopatía tiroidea) | `biblioteca/05_endocrinologia/endo-06/01_dermopatia_tiroidea_pretibial__fitzpatrick_p1510.jpg` | Fitzpatrick 7.ª ed., p. 1510 (figura completa, ~480 px) | sí |
 | endo-06 | dataset_endocrinologia.cjs (endo-06) | Imagen | Graves (bocio difuso) | `biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg` | Endocrinologia, p. 57 | sí |
 | endo-06 | dataset_endocrinologia.cjs (endo-06) | Imagen | graves bocio difuso 2 | `biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_2__cto-endocrino_p57.jpg` | Manual CTO endocrino, p. 57 | sí |
@@ -591,7 +591,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | neuro-02 | dataset_neurologia.cjs (neuro-02) | Imagen | estenosis carotídea (angiografía) | `biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg` | Neurologia, p. 36 | sí |
 | neuro-03 | dataset_neurologia.cjs (neuro-03) | Imagen | hematoma intraparenquimatoso (TC) | `biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg` | Neurologia, p. 42 | sí |
 | neuro-03 | dataset_neurologia.cjs (neuro-03) | Alternativa | hematoma intraparenquimatoso tc alt1 | `biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc_alt1__cto-radiologia_p67.jpg` | Manual CTO radiologia, p. 67 | no |
-| neuro-04 | dataset_neurologia.cjs (neuro-04) | Animación | aneurisma | `animaciones/neuro-04/A1_aneurisma.mp4` | Animación propia (Manim) | sí |
+| neuro-04 | dataset_neurologia.cjs (neuro-04) | Animación | aneurisma | `animaciones/neuro-04/A1_aneurisma_3d.mp4` | Animación propia (Manim) | sí |
 | neuro-04 | dataset_neurologia.cjs (neuro-04) | Imagen | HSA de la convexidad (TC) | `biblioteca/09_neurologia/neuro-04/01_hsa-de-la-convexidad-tc_1__cto-neuro_p176.jpg` | Neurologia, p. 176 | sí |
 | neuro-04 | dataset_neurologia.cjs (neuro-04) | Imagen | hsa de la convexidad tc 2 | `biblioteca/09_neurologia/neuro-04/01_hsa-de-la-convexidad-tc_2__cto-neuro_p176.jpg` | Manual CTO neuro, p. 176 | sí |
 | neuro-04 | dataset_neurologia.cjs (neuro-04) | Imagen | TC sin contraste: HSA en cisternas basales | `biblioteca/09_neurologia/neuro-04/01_tc_hsa__harrison_p3325.jpg` | Harrison 21.ª ed., p. 3325 | sí |
@@ -601,7 +601,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | neuro-05 | dataset_neurologia.cjs (neuro-05) | Alternativa | trombosis de seno signo delta alt1 | `biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg` | Manual CTO radiologia, p. 64 | no |
 | neuro-06 | dataset_neurologia.cjs (neuro-06) | Dibujo propio | aura fortificacion | `biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg` | Dibujo propio | sí |
 | neuro-07 | dataset_neurologia.cjs (neuro-07) | Imagen | síndrome de Horner derecho (ptosis + miosis) | `biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg` | Kanski 8.ª ed., Fig. 19.35A | sí |
-| neuro-08 | dataset_neurologia.cjs (neuro-08) | Animación | crisis propagacion | `animaciones/neuro-08/A1_crisis_propagacion.mp4` | Animación propia (Manim) | sí |
+| neuro-08 | dataset_neurologia.cjs (neuro-08) | Animación | crisis propagacion | `animaciones/neuro-08/A1_crisis_propagacion_3d.mp4` | Animación propia (Manim) | sí |
 | neuro-08 | dataset_neurologia.cjs (neuro-08) | Imagen | EEG punta-onda 3 Hz | `biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg` | Neurologia, p. 73 | sí |
 | neuro-09 | dataset_neurologia.cjs (neuro-09) | Animación | reloj estatus | `animaciones/neuro-09/A1_reloj_estatus.mp4` | Animación propia (Manim) | sí |
 | neuro-11 | dataset_neurologia.cjs (neuro-11) | Animación | nigroestriada | `animaciones/neuro-11/A1_nigroestriada_3d.mp4` | Animación propia (Manim) | sí |

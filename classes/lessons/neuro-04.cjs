@@ -267,11 +267,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La rotura del aneurisma',
       images: [
-        { src: 'animaciones/neuro-04/A1_aneurisma.mp4', label: 'Hemorragia subaracnoidea', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-04/A1_aneurisma_3d.mp4', label: 'Hemorragia subaracnoidea', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
       ],
       steps: [
         { note: 'Cefalea en trueno',
-          say: 'Un aneurisma del polígono de Willis crece y se rompe, y la sangre llena las cisternas. El paciente siente la peor cefalea de su vida, de golpe.' },
+          say: 'Miremos el cerebro desde abajo. En el polígono de Willis, un aneurisma de la comunicante anterior crece y se rompe. La sangre llena las cisternas de la base y las cisuras. El paciente siente la peor cefalea de su vida, de golpe.' },
       ],
     },
 
