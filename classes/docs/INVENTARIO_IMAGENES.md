@@ -547,7 +547,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 
 | Clase | Libro | Tipo | Descripción | Archivo | Fuente | En la clase |
 |---|---|---|---|---|---|---|
-| nefro-01 | dataset_nefrologia.cjs (nefro-01) | Animación | autorregulacion | `animaciones/nefro-01/A1_autorregulacion.mp4` | Animación propia (Manim) | sí |
+| nefro-01 | dataset_nefrologia.cjs (nefro-01) | Animación | autorregulacion | `animaciones/nefro-01/A1_autorregulacion_real.mp4` | Animación propia (Manim) | sí |
 | nefro-01 | dataset_nefrologia.cjs (nefro-01) | Imagen | sedimento: hematuria glomerular | `biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg` | Nefrologia, p. 33 | sí |
 | nefro-02 | dataset_nefrologia.cjs (nefro-02) | Imagen | tipos de cilindros | `biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros__cto-nefro_p34.jpg` | Nefrologia, p. 34 | sí |
 | nefro-02 | dataset_nefrologia.cjs (nefro-02) | Alternativa | tipos de cilindros alt1 1 | `biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_1__cto-nefro_p34.jpg` | Manual CTO nefro, p. 34 | no |

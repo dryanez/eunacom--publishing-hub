@@ -212,11 +212,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'El riñón se defiende',
       images: [
-        { src: 'animaciones/nefro-01/A1_autorregulacion.mp4', label: 'Autorregulación', credit: 'Animación propia' },
+        { src: 'animaciones/nefro-01/A1_autorregulacion_real.mp4', label: 'Autorregulación', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Aferente abierta, eferente cerrada',
-          say: 'Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios y los IECA pueden precipitar la falla en un paciente con poco volumen.' },
+          say: 'Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios, que bloquean las prostaglandinas, y los IECA, que bloquean la angiotensina, pueden precipitar la falla renal en un paciente con poco volumen.' },
       ],
     },
 

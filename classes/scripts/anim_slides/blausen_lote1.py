@@ -70,3 +70,9 @@ S['cirugia-06'] = {
     'steps': [{'note': 'Los vasos epigástricos separan',
                'say': 'El punto de referencia son los vasos epigástricos inferiores. La hernia indirecta sale lateral a ellos, por el anillo profundo, recorre el canal inguinal y puede bajar al escroto; es la más frecuente, también en niños. La directa sale medial, empujando la pared débil del triángulo de Hesselbach; es propia del adulto mayor y rara vez llega al escroto.'}],
 }
+S['nefro-01'] = {
+    'title': 'El riñón se defiende',
+    'images': [{'src': 'animaciones/nefro-01/A1_autorregulacion_real.mp4', 'label': 'Autorregulación', 'credit': BL}],
+    'steps': [{'note': 'Aferente abierta, eferente cerrada',
+               'say': 'Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios, que bloquean las prostaglandinas, y los IECA, que bloquean la angiotensina, pueden precipitar la falla renal en un paciente con poco volumen.'}],
+}

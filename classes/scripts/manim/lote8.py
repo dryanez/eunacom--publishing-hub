@@ -867,3 +867,62 @@ class Cirugia06Hernias(BlausenScene):
         self.play(bulge.animate.scale(0.85), rate_func=there_and_back, run_time=0.9)
         self.play(loop.animate.set_stroke(opacity=1), ind.animate.set_stroke(opacity=1), run_time=0.6)
         self.wait(1.8)
+
+
+# ------------------------------------------------------------------ nefro-01: autorregulación (prostaglandinas y angiotensina II)
+class Nefro01Autorregulacion(BlausenScene):
+    IMG, CROP = 'Nephron Anatomy.png', (0.478, 0.25, 0.73, 0.56)
+
+    def construct(self):
+        title(self, 'El riñón se defiende', 'Cuando cae la presión, mantiene la filtración ajustando sus dos arteriolas', BLUE_)
+        self.lamina(height=5.9, center=RIGHT * 2.9 + DOWN * 0.45)
+        P = self.P
+        af, ef = self.path(AFERENTE), self.path(EFERENTE)
+        g = P(*GLOM)
+        la = tag('Aferente: entra', RED_, 20).move_to(P(0.50, 0.545) + DOWN * 0.05)
+        le = tag('Eferente: sale', VIOLET, 20).move_to(P(0.565, 0.315))
+        self.play(FadeIn(la), FadeIn(le), run_time=0.6)
+        # medidor de filtración (TFG)
+        frame = RoundedRectangle(corner_radius=0.1, width=3.6, height=0.42, stroke_color=MUTED, stroke_width=2).move_to(LEFT * 4.55 + DOWN * 3.3)
+        lvl = ValueTracker(0.7)
+        fill = always_redraw(lambda: Rectangle(width=max(0.01, 3.46 * lvl.get_value()), height=0.3, fill_opacity=1, stroke_width=0,
+                                               fill_color=interpolate_color(ManimColor(RED_), ManimColor(GREEN_), lvl.get_value()))
+                             .align_to(frame, LEFT).shift(RIGHT * 0.07).set_y(frame.get_y()))
+        gl = T('Filtración glomerular', 19, MUTED).next_to(frame, UP, aligned_edge=LEFT, buff=0.08)
+        self.add(frame, fill, gl)
+        ta, te = ValueTracker(0), ValueTracker(0)
+        dens = ValueTracker(1.0)
+        blood = VGroup()
+        for path, tr, n in ((af, ta, 8), (ef, te, 9)):
+            for i in range(n):
+                d = Dot(radius=0.07, color='#C0392B').set_stroke(WHITE, 1)
+                d.add_updater(lambda m, p=path, tr=tr, i=i, n=n: m.move_to(p.point_from_proportion((tr.get_value() + i / n) % 1))
+                              .set_opacity(1 if i / n < dens.get_value() else 0))
+                blood.add(d)
+        self.add(blood)
+        self.play(ta.animate.increment_value(1), te.animate.increment_value(1), run_time=2.0, rate_func=linear)
+        # cae la presión
+        t0 = VGroup(T('Cae la presión', 24, RED_, bold=True), T('deshidratación, shock', 19, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).to_edge(LEFT, buff=0.5).shift(UP * 1.75)
+        self.play(FadeIn(t0), dens.animate.set_value(0.45), lvl.animate.set_value(0.3), ta.animate.increment_value(0.5), te.animate.increment_value(0.5), run_time=1.8, rate_func=linear)
+        # defensa 1: prostaglandinas dilatan la aferente
+        pa = P(0.505, 0.465)
+        dil = VGroup(Arrow(pa + UL * 0.15, pa + UL * 0.65, buff=0, color=GREEN_, stroke_width=6), Arrow(pa + DR * 0.15, pa + DR * 0.65, buff=0, color=GREEN_, stroke_width=6))
+        t1 = VGroup(T('Prostaglandinas', 23, GREEN_, bold=True), T('abren la aferente: entra más', 19, INK)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(t0, DOWN, aligned_edge=LEFT, buff=0.22)
+        self.play(GrowArrow(dil[0]), GrowArrow(dil[1]), FadeIn(t1), dens.animate.set_value(0.7), lvl.animate.set_value(0.5),
+                  ta.animate.increment_value(0.8), te.animate.increment_value(0.6), run_time=1.8, rate_func=linear)
+        # defensa 2: angiotensina II contrae la eferente
+        pe = P(0.497, 0.355)
+        con = VGroup(Arrow(pe + LEFT * 0.75, pe + LEFT * 0.18, buff=0, color=VIOLET, stroke_width=6), Arrow(pe + RIGHT * 0.75, pe + RIGHT * 0.18, buff=0, color=VIOLET, stroke_width=6))
+        t2 = VGroup(T('Angiotensina II', 23, VIOLET, bold=True), T('cierra la eferente: sube la presión', 19, INK), T('dentro del glomérulo', 19, INK)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(t1, DOWN, aligned_edge=LEFT, buff=0.22)
+        self.play(GrowArrow(con[0]), GrowArrow(con[1]), FadeIn(t2), lvl.animate.set_value(0.68),
+                  ta.animate.increment_value(0.8), te.animate.increment_value(0.4), run_time=1.8, rate_func=linear)
+        self.play(ta.animate.increment_value(0.8), te.animate.increment_value(0.4), run_time=1.2, rate_func=linear)
+        # AINE e IECA quitan las defensas
+        warn = VGroup(T('AINE bloquean las prostaglandinas', 20, RED_, bold=True), T('IECA bloquean la angiotensina II', 20, RED_, bold=True),
+                      T('con poco volumen: falla renal', 19, INK)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(t2, DOWN, aligned_edge=LEFT, buff=0.25)
+        self.play(FadeIn(warn[0]), dil.animate.set_opacity(0.15), dens.animate.set_value(0.5), lvl.animate.set_value(0.45),
+                  ta.animate.increment_value(0.6), te.animate.increment_value(0.4), run_time=1.4, rate_func=linear)
+        self.play(FadeIn(warn[1]), con.animate.set_opacity(0.15), lvl.animate.set_value(0.18),
+                  ta.animate.increment_value(0.6), te.animate.increment_value(0.6), run_time=1.4, rate_func=linear)
+        self.play(FadeIn(warn[2]), Indicate(frame, color=RED_), ta.animate.increment_value(0.6), te.animate.increment_value(0.6), run_time=1.4, rate_func=linear)
+        self.wait(1.2)
