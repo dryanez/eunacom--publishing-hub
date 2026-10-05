@@ -85,3 +85,12 @@ S['endo-24'] = {
               {'note': 'Con exceso de ADH, el agua se queda',
                'say': 'En el SIADH sobra ADH: el colector reabsorbe agua sin parar, la orina sale poca y concentrada, y el sodio plasmático se diluye. Se trata restringiendo agua.'}],
 }
+S['diab-01'] = {
+    'title': 'Dos mecanismos opuestos',
+    'images': [{'src': 'animaciones/diab-01/A1_tipo1_real.mp4', 'label': 'Tipo uno', 'credit': BL},
+               {'src': 'animaciones/diab-01/A2_tipo2_real.mp4', 'label': 'Tipo dos', 'credit': BL}],
+    'steps': [{'note': 'Destrucción autoinmune',
+               'say': 'En la diabetes tipo uno, linfocitos atacan las células beta del islote. Cuando se destruyen, la insulina cae a casi cero y la glicemia sube: necesita insulina desde el inicio.'},
+              {'note': 'Resistencia y agotamiento',
+               'say': 'En la tipo dos, la insulina no funciona bien en el músculo y el hígado. Las células beta compensan fabricando más, pero con los años se agotan, la insulina baja y la glicemia sube.'}],
+}

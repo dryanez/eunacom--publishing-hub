@@ -1004,3 +1004,83 @@ class Endo24Insipida(_ADH):
 
 class Endo24Siadh(_ADH):
     SIADH = True
+
+
+# ------------------------------------------------------------------ diab-01: tipo 1 vs tipo 2 en el islote real
+class _Islote(BlausenScene):
+    IMG, CROP = 'Blausen 0701 PancreaticTissue.png', (0.475, 0.515, 0.955, 0.855)
+    TIPO = 1
+
+    def gauge(self, x, label, color, start):
+        frame = RoundedRectangle(corner_radius=0.1, width=0.6, height=3.4, stroke_color=MUTED, stroke_width=2).move_to([x, -0.9, 0])
+        v = ValueTracker(start)
+        fill = always_redraw(lambda: Rectangle(width=0.46, height=max(0.01, 3.26 * v.get_value()), fill_color=color, fill_opacity=1, stroke_width=0)
+                             .align_to(frame, DOWN).shift(UP * 0.07).set_x(x))
+        lab = T(label, 20, color, bold=True).next_to(frame, UP, buff=0.15)
+        return VGroup(frame, lab), fill, v
+
+    def construct(self):
+        if self.TIPO == 1:
+            title(self, 'Diabetes tipo 1', 'Los linfocitos destruyen las células beta del islote', RED_)
+        else:
+            title(self, 'Diabetes tipo 2', 'Resistencia a la insulina; las células beta compensan y luego se agotan', AMBER)
+        img = self.lamina(width=7.0, center=LEFT * 2.6 + DOWN * 0.3)
+        P = self.P
+        isl = Ellipse(width=self.P(0.865, 0.6)[0] - self.P(0.60, 0.6)[0], height=self.P(0.7, 0.55)[1] - self.P(0.7, 0.76)[1],
+                      stroke_color=GREEN_, stroke_width=4).move_to(P(0.733, 0.655))
+        lb = tag('Islote: células beta', GREEN_, 18).next_to(isl, UP, buff=0.05)
+        g1, f1, ins = self.gauge(3.7, 'Insulina', GREEN_, 0.55)
+        g2, f2, glu = self.gauge(5.4, 'Glucosa', RED_, 0.3)
+        self.play(Create(isl), FadeIn(lb), FadeIn(g1), FadeIn(g2), FadeIn(f1), FadeIn(f2), run_time=1.0)
+        # gránulos de insulina que salen al capilar
+        rate = ValueTracker(1.0)
+        t = ValueTracker(0)
+        rng = np.random.default_rng(7)
+        starts = [P(0.733, 0.655) + np.array([rng.uniform(-1.0, 1.0), rng.uniform(-0.6, 0.6), 0]) for _ in range(16)]
+        def mk():
+            g = VGroup()
+            for i, s0 in enumerate(starts):
+                f = (t.get_value() + i / 16) % 1
+                if i / 16 < rate.get_value():
+                    g.add(Dot(s0 + DOWN * 2.2 * f, radius=0.05, color=GREEN_).set_opacity(1 - f))
+            return g
+        gran = always_redraw(mk)
+        self.add(gran)
+        self.play(t.animate.increment_value(1.2), run_time=2.0, rate_func=linear)
+        dark = Ellipse(width=isl.width * 0.95, height=isl.height * 0.95, fill_color='#2B2B33', fill_opacity=0, stroke_width=0).move_to(isl)
+        self.add(dark)
+        if self.TIPO == 1:
+            lym = VGroup(*[VGroup(Circle(radius=0.17, fill_color='#8E7CC3', fill_opacity=0.95, stroke_color=WHITE, stroke_width=1.5),
+                                  Dot(radius=0.1, color='#4B3B8A')) for _ in range(8)])
+            for i, l in enumerate(lym):
+                l.move_to(img.get_corner(DL) + RIGHT * (0.5 + 0.85 * i) + UP * 0.35)
+            ll = tag('Linfocitos T: autoinmunidad', VIOLET, 19).next_to(img, DOWN, aligned_edge=LEFT, buff=0.15)
+            self.play(FadeIn(lym, lag_ratio=0.1), FadeIn(ll), t.animate.increment_value(0.6), run_time=1.0, rate_func=linear)
+            self.play(*[l.animate.move_to(isl.get_center() + 0.85 * np.array([np.cos(a) * 1.2, np.sin(a) * 0.7, 0])) for l, a in zip(lym, np.linspace(0, 2 * PI, 9)[:-1])],
+                      t.animate.increment_value(1.0), run_time=1.8, rate_func=linear)
+            self.play(dark.animate.set_fill(opacity=0.62), lb.animate.set_opacity(0.3), rate.animate.set_value(0.08),
+                      ins.animate.set_value(0.04), glu.animate.set_value(0.92), isl.animate.set_stroke(RED_),
+                      t.animate.increment_value(2.0), run_time=3.5, rate_func=linear)
+            msg = VGroup(T('Sin células beta,', 21, RED_, bold=True), T('insulina casi cero', 21, RED_, bold=True),
+                         T('necesita insulina desde el inicio', 18, INK)).arrange(DOWN, buff=0.05).next_to(VGroup(g1, g2), DOWN, buff=0.25)
+            self.play(FadeIn(msg), t.animate.increment_value(0.8), run_time=1.2, rate_func=linear)
+        else:
+            res = tag('Músculo e hígado responden poco a la insulina', AMBER, 19).next_to(img, DOWN, aligned_edge=LEFT, buff=0.15)
+            self.play(FadeIn(res), glu.animate.set_value(0.45), t.animate.increment_value(0.8), run_time=1.2, rate_func=linear)
+            yrs = tag('Primeros años: compensa', GREEN_, 20).next_to(isl, DOWN, buff=0.08)
+            self.play(FadeIn(yrs), rate.animate.set_value(1.0), ins.animate.set_value(0.95), glu.animate.set_value(0.4),
+                      isl.animate.set_stroke(width=9), t.animate.increment_value(3.0), run_time=2.6, rate_func=linear)
+            yrs2 = tag('Años después: se agotan', RED_, 20).move_to(yrs)
+            self.play(ReplacementTransform(yrs, yrs2), dark.animate.set_fill(opacity=0.4), rate.animate.set_value(0.35), ins.animate.set_value(0.35),
+                      glu.animate.set_value(0.88), isl.animate.set_stroke(RED_, width=4), t.animate.increment_value(2.0), run_time=3.0, rate_func=linear)
+            msg = VGroup(T('Primero mucha insulina,', 20, INK, bold=True), T('luego poca: sube la glucosa', 20, RED_, bold=True)).arrange(DOWN, buff=0.05).next_to(VGroup(g1, g2), DOWN, buff=0.25)
+            self.play(FadeIn(msg), t.animate.increment_value(0.8), run_time=1.2, rate_func=linear)
+        self.play(t.animate.increment_value(1.0), run_time=1.5, rate_func=linear)
+
+
+class Diab01Tipo1(_Islote):
+    TIPO = 1
+
+
+class Diab01Tipo2(_Islote):
+    TIPO = 2

@@ -137,8 +137,8 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 
 | Clase | Libro | Tipo | Descripción | Archivo | Fuente | En la clase |
 |---|---|---|---|---|---|---|
-| diab-01 | dataset_diabetes.cjs (diab-01) | Animación | tipo1 | `animaciones/diab-01/A1_tipo1.mp4` | Animación propia (Manim) | sí |
-| diab-01 | dataset_diabetes.cjs (diab-01) | Animación | tipo2 | `animaciones/diab-01/A2_tipo2.mp4` | Animación propia (Manim) | sí |
+| diab-01 | dataset_diabetes.cjs (diab-01) | Animación | tipo1 | `animaciones/diab-01/A1_tipo1_real.mp4` | Animación propia (Manim) | sí |
+| diab-01 | dataset_diabetes.cjs (diab-01) | Animación | tipo2 | `animaciones/diab-01/A2_tipo2_real.mp4` | Animación propia (Manim) | sí |
 | diab-02 | dataset_diabetes.cjs (diab-02) | Imagen | acantosis nigricans | `biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg` | DERMA, p. 30 | sí |
 | diab-10 | dataset_diabetes.cjs (diab-10) | Animación | eferente | `animaciones/diab-10/A1_eferente_real.mp4` | Animación propia (Manim) | sí |
 | diab-11 | dataset_diabetes.cjs (diab-11) | Animación | basales | `animaciones/diab-11/A1_basales.mp4` | Animación propia (Manim) | sí |
