@@ -191,11 +191,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La hemoglobina S',
       images: [
-        { src: 'animaciones/hem-09/A1_falciforme.mp4', label: 'Falciforme', credit: 'Animación propia' },
+        { src: 'animaciones/hem-09/A1_falciforme_real.mp4', label: 'Falciforme', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Hoz que ocluye',
-          say: 'Con poco oxígeno, la hemoglobina S polimeriza y el glóbulo se deforma en hoz. Las hoces se atascan en el capilar, produciendo crisis de dolor e infartos, y se rompen, produciendo anemia.' },
+          say: 'El glóbulo normal es flexible y pasa por el capilar. Con poco oxígeno, la hemoglobina S polimeriza y el glóbulo se deforma en hoz rígida. Las hoces se atascan en el capilar: sin flujo hay isquemia, crisis de dolor e infartos. Y se rompen, produciendo hemólisis y anemia.' },
       ],
     },
 

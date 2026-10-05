@@ -201,3 +201,127 @@ class Gastro17Calculo(BlausenScene):
         self.add(g4, g5)
         self.play(g4.animate.set_opacity(0.3), g5.animate.set_opacity(0.3), Flash(stone, color=RED_, line_length=0.25), run_time=1.3)
         self.wait(1.5)
+
+
+# ------------------------------------------------------------------ ob-13: desprendimiento de placenta (DPPNI)
+class Ob13Desprendimiento(BlausenScene):
+    IMG, CROP = 'Blausen 0737 PlacentalAbruption.png', (0.0, 0.17, 1.0, 0.87)
+    ERASE = [(0.31, 0.05, 0.36, 0.14), (0.63, 0.04, 0.72, 0.205), (0.76, 0.04, 0.85, 0.205),
+             (0.43, 0.78, 0.50, 0.93), (0.57, 0.78, 0.62, 0.93), (0.40, 0.75, 0.44, 0.80), (0.50, 0.34, 0.55, 0.40)]
+
+    def construct(self):
+        title(self, 'Desprendimiento de placenta', 'Un hematoma crece detrás de la placenta normoinserta', RED_)
+        img = self.lamina(width=8.3, center=RIGHT * 2.5 + DOWN * 0.75)
+        P = self.P
+        la = T('Hemorragia externa', 22, RED_, bold=True).next_to(img, UP, buff=0.12).set_x(P(0.22, 0.5)[0])
+        lb = T('Hemorragia oculta', 22, RED_, bold=True).next_to(img, UP, buff=0.12).set_x(P(0.75, 0.5)[0])
+        self.play(FadeIn(la), FadeIn(lb), run_time=0.6)
+        ha = Ellipse(width=0.55, height=0.32, color=RED_, fill_opacity=0.0, stroke_width=0).move_to(P(0.385, 0.775)).rotate(-0.6)
+        hb = Ellipse(width=1.0, height=0.34, color=RED_, fill_opacity=0.0, stroke_width=0).move_to(P(0.565, 0.33)).rotate(1.15)
+        self.add(ha, hb)
+        self.play(ha.animate.set_fill(opacity=0.45).scale(1.25), hb.animate.set_fill(opacity=0.45).scale(1.25), run_time=1.5)
+        out = self.path([(0.40, 0.77), (0.425, 0.735), (0.455, 0.71), (0.49, 0.69), (0.52, 0.675)])
+        drops = VGroup(*[Dot(radius=0.055, color='#B3121B') for _ in range(9)])
+        t = ValueTracker(0)
+        drops.add_updater(lambda g: [d.move_to(out.point_from_proportion((t.get_value() + i / 9) % 1)) for i, d in enumerate(g)])
+        self.add(drops)
+        col = VGroup(
+            VGroup(T('Externa', 24, RED_, bold=True), T('sangre oscura por vagina', 20, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.05),
+            VGroup(T('Oculta', 24, RED_, bold=True), T('no sale: el útero se llena', 20, MUTED)).arrange(DOWN, aligned_edge=LEFT, buff=0.05),
+            T('Dolor intenso', 24, INK, bold=True),
+            T('Útero duro como madera', 24, AMBER, bold=True),
+            T('El feto sufre', 24, INK, bold=True),
+        ).arrange(DOWN, aligned_edge=LEFT, buff=0.3).to_edge(LEFT, buff=0.4).shift(DOWN * 0.35)
+        self.play(FadeIn(col[0]), t.animate.set_value(0.6), run_time=1.2, rate_func=linear)
+        self.play(FadeIn(col[1]), hb.animate.scale(1.08), t.animate.increment_value(0.6), run_time=1.2, rate_func=linear)
+        self.play(FadeIn(col[2]), FadeIn(col[3]), t.animate.increment_value(0.6), run_time=1.2, rate_func=linear)
+        heart = T('♥', 40, RED_).next_to(col[4], DOWN, aligned_edge=LEFT, buff=0.25)
+        fv = ValueTracker(140)
+        anchor = heart.get_right() + RIGHT * 0.25
+        fcf = always_redraw(lambda: T(str(int(round(fv.get_value()))), 34, RED_ if fv.get_value() < 110 else INK, bold=True)
+                            .move_to(anchor, aligned_edge=LEFT))
+        lpm = T('lpm', 18, MUTED).move_to(anchor + RIGHT * 1.0, aligned_edge=LEFT)
+        self.play(FadeIn(col[4]), FadeIn(heart), FadeIn(fcf), FadeIn(lpm), t.animate.increment_value(0.3), run_time=0.6, rate_func=linear)
+        for k, v in enumerate((130, 115, 100, 90, 80)):
+            self.play(heart.animate.scale(1.25), t.animate.increment_value(0.2), rate_func=there_and_back, run_time=0.35 + 0.1 * k)
+            self.play(fv.animate.set_value(v), t.animate.increment_value(0.2), run_time=0.3, rate_func=linear)
+        self.play(t.animate.increment_value(0.6), run_time=1.2, rate_func=linear)
+
+
+# ------------------------------------------------------------------ hem-09: drepanocitosis
+def sprite(img_name, box, key):
+    """Recorta una figura de una ilustración Blausen y vuelve transparente el fondo blanco."""
+    import os
+    from PIL import Image
+    from blausen_clean import clean
+    dst = f'/tmp/sprite_{key}.png'
+    if not os.path.exists(dst):
+        clean(img_name, f'/tmp/sprite_{key}_src.png')
+        im = Image.open(f'/tmp/sprite_{key}_src.png').convert('RGBA')
+        W, H = im.size
+        im = im.crop((int(box[0] * W), int(box[1] * H), int(box[2] * W), int(box[3] * H)))
+        px = im.load()
+        for y in range(im.size[1]):
+            for x in range(im.size[0]):
+                r, g, b, a = px[x, y]
+                m = min(r, g, b)
+                if m > 235: px[x, y] = (r, g, b, 0)
+                elif m > 200: px[x, y] = (r, g, b, int(255 * (235 - m) / 35))
+        im.save(dst)
+    return ImageMobject(dst)
+
+
+class Hem09Falciforme(BlausenScene):
+    IMG = 'Sickle Cell Anemia.png'
+    ERASE = [(0.30, 0.53, 0.66, 0.60), (0.28, 0.885, 0.72, 0.96), (0.50, 0.39, 0.845, 0.45)]
+
+    def construct(self):
+        title(self, 'Anemia de células falciformes', 'Con poco oxígeno la hemoglobina S polimeriza y el glóbulo se vuelve hoz', RED_)
+        top = self.lamina(width=10.2, center=UP * 0.45 + RIGHT * 1.45, crop=(0.04, 0.29, 0.97, 0.535))
+        bot = self.lamina(width=10.2, center=DOWN * 2.55 + RIGHT * 1.45, crop=(0.04, 0.645, 0.97, 0.895), credit=False)
+        P = self.P
+        lt = T('Normal', 26, GREEN_, bold=True).next_to(top, LEFT, buff=0.3).align_to(top, UP)
+        lb = T('Hemoglobina S', 26, RED_, bold=True).next_to(bot, LEFT, buff=0.3).align_to(bot, UP)
+        self.add(lt, lb)
+        IMGF = 'Sickle Cell Anemia.png'
+        # glóbulos normales que pasan por el capilar de arriba
+        y_top = P(0.5, 0.41, top)[1]
+        cells = Group(*[sprite(IMGF, (0.045, 0.02, 0.16, 0.11), 'rbc').set(height=1.0) for _ in range(3)])
+        xs = ValueTracker(0)
+        x0, x1 = top.get_left()[0] + 0.55, top.get_right()[0] - 0.55
+        def upd(g):
+            for i, c in enumerate(g):
+                f = (xs.get_value() + i / 3) % 1
+                c.move_to([x0 + (x1 - x0) * f, y_top + 0.06 * np.sin(6 * f + i), 0])
+                c.set_opacity(min(1, f / 0.08, (1 - f) / 0.08))
+        cells.add_updater(upd); upd(cells)
+        self.add(cells)
+        cap1 = VGroup(T('Flexibles:', 20, GREEN_), T('pasan por', 20, GREEN_), T('el capilar', 20, GREEN_)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(lt, DOWN, aligned_edge=LEFT, buff=0.15)
+        self.play(FadeIn(cap1), xs.animate.set_value(1), run_time=3, rate_func=linear)
+        # un glóbulo se transforma en hoz (abajo, a la entrada)
+        y_bot = P(0.5, 0.78, bot)[1]
+        n = sprite(IMGF, (0.045, 0.02, 0.16, 0.11), 'rbc').set(height=1.0).move_to([lb.get_center()[0], y_bot - 0.35, 0])
+        sk = sprite(IMGF, (0.05, 0.12, 0.16, 0.235), 'sickle').set(height=1.05).move_to(n)
+        o2 = T('Poco oxígeno', 20, BLUE_).next_to(lb, DOWN, aligned_edge=LEFT, buff=0.15)
+        self.play(FadeIn(n), FadeIn(o2), xs.animate.increment_value(0.4), run_time=0.8, rate_func=linear)
+        self.play(FadeTransform(n, sk), xs.animate.increment_value(0.5), run_time=1.2, rate_func=linear)
+        poly = VGroup(T('Polimeriza:', 20, RED_), T('hoz rígida', 20, RED_)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).next_to(lb, DOWN, aligned_edge=LEFT, buff=0.15)
+        self.play(ReplacementTransform(o2, poly), xs.animate.increment_value(0.4), run_time=0.8, rate_func=linear)
+        # la hoz entra y se atasca en el tapón
+        jam = P(0.50, 0.78, bot)
+        self.play(sk.animate.move_to(jam + LEFT * 0.2).rotate(-0.5).scale(0.9), FadeOut(poly), xs.animate.increment_value(0.5), run_time=1.4)
+        isq = Rectangle(width=bot.width * 0.38, height=bot.height * 0.8, stroke_width=0, fill_color=VIOLET, fill_opacity=0)
+        isq.move_to(P(0.78, 0.775, bot))
+        ti = tag('Sin flujo: isquemia, crisis de dolor', VIOLET, 20).move_to(P(0.78, 0.68, bot))
+        self.add(isq)
+        for _ in range(2):
+            self.play(isq.animate.set_fill(opacity=0.35), xs.animate.increment_value(0.3), run_time=0.7, rate_func=linear)
+            self.play(isq.animate.set_fill(opacity=0.1), xs.animate.increment_value(0.3), run_time=0.7, rate_func=linear)
+        self.play(FadeIn(ti), isq.animate.set_fill(opacity=0.3), run_time=0.6)
+        # hemólisis
+        frag = VGroup(*[Dot(sk.get_center() + np.array([np.cos(a), np.sin(a), 0]) * 0.1, radius=0.05, color=RED_) for a in np.linspace(0, 2 * PI, 8)])
+        th = tag('Se rompen: hemólisis y anemia', RED_, 20).move_to(P(0.78, 0.86, bot))
+        self.play(FadeOut(sk), FadeIn(frag), run_time=0.4)
+        self.play(*[d.animate.shift(np.array([np.cos(a), np.sin(a), 0]) * 0.6).set_opacity(0) for d, a in zip(frag, np.linspace(0, 2 * PI, 8))],
+                  FadeIn(th), xs.animate.increment_value(0.4), run_time=1.2)
+        self.play(xs.animate.increment_value(0.8), run_time=2.0, rate_func=linear)

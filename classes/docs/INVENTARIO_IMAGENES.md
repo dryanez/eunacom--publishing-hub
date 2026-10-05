@@ -416,7 +416,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | hem-08 | dataset_hematologia.cjs (hem-08) | Imagen | esferocitosis hereditaria | `biblioteca/06_hematologia/hem-08/01_esferocitosis-hereditaria__amir-hemato_p34.jpg` | HEMATO, p. 34 | sí |
 | hem-08 | dataset_hematologia.cjs (hem-08) | Imagen | patogenia esferocitosis | `biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg` | Hematologia, p. 30 | sí |
 | hem-08 | dataset_hematologia.cjs (hem-08) | Imagen | patogenia esferocitosis 2 | `biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_2__cto-hemato_p30.jpg` | Manual CTO hemato, p. 30 | sí |
-| hem-09 | dataset_hematologia.cjs (hem-09) | Animación | falciforme | `animaciones/hem-09/A1_falciforme.mp4` | Animación propia (Manim) | sí |
+| hem-09 | dataset_hematologia.cjs (hem-09) | Animación | falciforme | `animaciones/hem-09/A1_falciforme_real.mp4` | Animación propia (Manim) | sí |
 | hem-09 | dataset_hematologia.cjs (hem-09) | Imagen | drepanocitos | `biblioteca/06_hematologia/hem-09/01_drepanocitos_1__amir-hemato_p38.jpg` | HEMATO, p. 38 | sí |
 | hem-09 | dataset_hematologia.cjs (hem-09) | Imagen | drepanocitos 2 | `biblioteca/06_hematologia/hem-09/01_drepanocitos_2__amir-hemato_p38.jpg` | Manual AMIR hemato, p. 38 | sí |
 | hem-09 | dataset_hematologia.cjs (hem-09) | Imagen | cuerpos de Hb H (alfa-talasemia) | `biblioteca/06_hematologia/hem-09/02_cuerpos-de-hb-h-alfa-talasemia__amir-hemato_p37.jpg` | HEMATO, p. 37 | sí |
@@ -667,7 +667,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | ob-12 | dataset_obstetricia_bloque_3.cjs (ob-12) | Imagen | mola en "tormenta de nieve" (ECO) | `biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg` | Ginecologia y Obstetricia, p. 129 | sí |
 | ob-12 | dataset_obstetricia_bloque_3.cjs (ob-12) | Imagen | mola: vesículas | `biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg` | GIN OBS, p. 33 | sí |
 | ob-13 | dataset_obstetricia.cjs (ob-13) | Animación | placenta previa | `animaciones/ob-13/A1_placenta_previa.mp4` | Animación propia (Manim) | sí |
-| ob-13 | dataset_obstetricia.cjs (ob-13) | Animación | dppni | `animaciones/ob-13/A2_dppni.mp4` | Animación propia (Manim) | sí |
+| ob-13 | dataset_obstetricia.cjs (ob-13) | Animación | dppni | `animaciones/ob-13/A2_dppni_real.mp4` | Animación propia (Manim) | sí |
 | ob-13 | dataset_obstetricia.cjs (ob-13) | Imagen | tipos de placenta previa | `biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa__cto-gyo_p133.jpg` | Ginecologia y Obstetricia, p. 133 | sí |
 | ob-13 | dataset_obstetricia.cjs (ob-13) | Alternativa | tipos de placenta previa alt1 | `biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa_alt1__amir-gyo_p42.jpg` | Manual AMIR gyo, p. 42 | no |
 | ob-13 | dataset_obstetricia.cjs (ob-13) | Imagen | abruptio placentae | `biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg` | GIN OBS, p. 38 | sí |

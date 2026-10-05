@@ -141,13 +141,13 @@ module.exports = {
       title: 'Placenta previa o desprendimiento',
       images: [
         { src: 'animaciones/ob-13/A1_placenta_previa.mp4', label: 'Placenta previa', credit: 'Animación propia' },
-        { src: 'animaciones/ob-13/A2_dppni.mp4', label: 'Desprendimiento', credit: 'Animación propia' },
+        { src: 'animaciones/ob-13/A2_dppni_real.mp4', label: 'Desprendimiento', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Indolora, útero blando',
           say: 'En la placenta previa la placenta cubre el orificio. Sangra rojo y abundante, sin dolor, con el útero blando. Nunca hagas tacto vaginal.' },
         { note: 'Dolor, útero leñoso',
-          say: 'En el desprendimiento, un hematoma crece detrás de la placenta normoinserta. Hay dolor intenso, el útero se pone duro como madera y el feto sufre.' },
+          say: 'En el desprendimiento, un hematoma crece detrás de la placenta normoinserta. A veces la sangre sale por la vagina, oscura; otras veces queda oculta dentro del útero. Hay dolor intenso, el útero se pone duro como madera y los latidos del feto caen.' },
       ],
     },
 

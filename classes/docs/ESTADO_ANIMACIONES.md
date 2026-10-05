@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **14**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **45**
+- ✅ Hechas con anatomía real (3D o Blausen): **22**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **38**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
-- ⬜ Pendientes (aún sin video): **171**
+- ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (45)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (38)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -16,15 +16,12 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | derma-01 | Corte de piel: dónde está cada lesión (mácula epidermis, pápula dermis, ampolla subepidérmica vs intraepidérmica) | 3Dp | ★★★ | A1_lesiones_capas.mp4 |
 | diab-01 | Tipo 1 (destrucción de células beta) vs tipo 2 (resistencia + agotamiento) en el islote | M | ★★★ | A1_tipo1.mp4, A2_tipo2.mp4 |
 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | M | ★★★ | A1_cad.mp4, A2_hiperosmolar.mp4 |
-| endo-06 | Anticuerpo que imita a la TSH (Graves) y estimula la tiroides | M | ★★★ | A1_graves.mp4 |
 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | M | ★★★ | A1_addison.mp4, A2_secundaria.mp4 |
 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | M | ★★★ | A1_alfa_beta.mp4 |
 | endo-24 | ADH en el túbulo colector: diabetes insípida vs SIADH | M | ★★★ | A1_diabetes_insipida.mp4, A2_siadh.mp4 |
 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | 3D | ★★★ | A1_colitis_ulcerosa.mp4, A2_crohn.mp4 |
-| gastro-15 | Hipertensión portal: la sangre busca colaterales (várices, cabeza de medusa); ascitis | 3D | ★★★ | A1_hipertension_portal.mp4 |
 | gastro-25 | Invaginación: un segmento que entra en el siguiente | 3D | ★★★ | A1_invaginacion.mp4 |
 | gin-13 | Del VPH a la lesión de alto grado y el cáncer (zona de transformación) | M | ★★★ | A1_vph_cancer.mp4 |
-| hem-09 | Hemoglobina S que polimeriza y el glóbulo que se vuelve hoz y ocluye | M | ★★★ | A1_falciforme.mp4 |
 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | M | ★★★ | A1_adamts13.mp4 |
 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | M | ★★★ | A1_lisis_tumoral.mp4 |
 | infecto-04 | Fascitis: infección que corre por la fascia bajo piel sana | 3Dp | ★★★ | A1_fascitis.mp4 |
@@ -33,8 +30,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | nefro-01 | Autorregulación glomerular (aferente y eferente); prerrenal vs renal vs posrenal | M | ★★★ | A1_autorregulacion.mp4 |
 | nefro-13 | Podocito dañado y proteínas que escapan; edema | M | ★★★ | A1_podocito.mp4 |
 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | M | ★★★ | A1_penumbra.mp4 |
-| neuro-04 | Aneurisma del polígono que se rompe y llena las cisternas | M | ★★★ | A1_aneurisma.mp4 |
-| neuro-08 | Crisis focal que se generaliza (propagación por la corteza) | M | ★★★ | A1_crisis_propagacion.mp4 |
 | neuro-16 | Desmielinización ascendente del Guillain-Barré; capacidad vital que cae | M | ★★★ | A1_guillain_barre.mp4 |
 | ob-04 | Redistribución del flujo fetal (cerebro protegido) en la restricción | M | ★★★ | A1_redistribucion.mp4 |
 | ob-05 | Invasión trofoblástica defectuosa → arterias espirales estrechas → preeclampsia | M | ★★★ | A1_placentacion.mp4 |
@@ -42,7 +37,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-02 | Bronquio en la crisis asmática: contracción, edema, moco; el CO2 normal que alarma | M | ★★★ | A1_crisis_asmatica.mp4 |
 | resp-11 | Criterios de Light: trasudado vs exudado (presiones de Starling) | M | ★★★ | A1_trasudado_exudado.mp4 |
 | resp-22 | Alvéolo inundado del distrés; ventilación protectora | M | ★★★ | A1_distres.mp4 |
-| cirugia-04 | (animación existente, no estaba en el plan) |  |  | A1_obstruccion.mp4 |
 | diab-17 | (animación existente, no estaba en el plan) |  |  | A1_insulina_potasio.mp4, A2_umbral_potasio.mp4 |
 | gastro-13 | (animación existente, no estaba en el plan) |  |  | A1_camino_bilirrubina.mp4 |
 | hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo.mp4, A2_coombs_indirecto.mp4 |
@@ -50,14 +44,13 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | nefro-05 | (animación existente, no estaba en el plan) |  |  | A1_neurona_aguda.mp4, A2_neurona_adaptacion.mp4, A3_neurona_correccion.mp4 |
 | neuro-17 | (animación existente, no estaba en el plan) |  |  | A1_placa_normal.mp4, A2_placa_miastenia.mp4 |
 | neuro-19 | (animación existente, no estaba en el plan) |  |  | A1_facial_central.mp4, A2_facial_periferica.mp4 |
-| ob-13 | (animación existente, no estaba en el plan) |  |  | A1_placenta_previa.mp4, A2_dppni.mp4 |
 | ob-18 | (animación existente, no estaba en el plan) |  |  | A1_atonia.mp4 |
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-06 | (animación existente, no estaba en el plan) |  |  | A1_cierre_angulo.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion.mp4, A2_shunt.mp4 |
 
-## ⬜ Pendientes (aún sin video) (171)
+## ⬜ Pendientes (aún sin video) (170)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -72,7 +65,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-06 | Edema subglótico en la vía aérea pequeña (por qué un poco causa tanto) | 3D | ★★★ |  |
 | ped-13 | Reflujo vesicoureteral: orina que sube por el uréter al orinar | 3D | ★★★ |  |
 | ped-22 | Ortolani (cadera que entra) y Barlow (cadera que sale) en 3D | 3D | ★★★ |  |
-| resp-19 | Trombo que viaja de la pierna al pulmón | 3D | ★★★ |  |
 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | 3D | ★★★ |  |
 | reuma-03 | Cristales de urato que precipitan en la articulación fría (podagra) | 3D | ★★★ |  |
 | reuma-04 | Cartílago que se gasta; osteofitos que crecen | 3D | ★★★ |  |
@@ -233,19 +225,27 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (14)
+## ✅ Hechas con anatomía real (3D o Blausen) (22)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
 | diab-10 | Arteriola eferente: por qué el IECA baja la presión glomerular | M | ★★★ | A1_eferente_real.mp4 |
+| endo-06 | Anticuerpo que imita a la TSH (Graves) y estimula la tiroides | M | ★★★ | A1_graves_3d.mp4 |
 | gastro-03 | Manometría animada: acalasia vs normal (peristalsis y esfínter) | M | ★★★ | A1_acalasia_3d.mp4, A1_deglucion_normal_3d.mp4 |
+| gastro-15 | Hipertensión portal: la sangre busca colaterales (várices, cabeza de medusa); ascitis | 3D | ★★★ | A1_hipertension_portal_3d.mp4 |
 | gastro-17 | Un cálculo, cuatro cuadros: según dónde se enclava (bacinete, colédoco, ampolla) | 3D | ★★★ | A1_calculo_real.mp4 |
+| hem-09 | Hemoglobina S que polimeriza y el glóbulo que se vuelve hoz y ocluye | M | ★★★ | A1_falciforme_real.mp4 |
 | nefro-08 | Dónde se queda cada suero (intravascular, intersticial, intracelular); dónde actúa cada diurético en la nefrona | M | ★★★ | A1_sueros.mp4, A2_diureticos_real.mp4 |
+| neuro-04 | Aneurisma del polígono que se rompe y llena las cisternas | M | ★★★ | A1_aneurisma_3d.mp4 |
+| neuro-08 | Crisis focal que se generaliza (propagación por la corteza) | M | ★★★ | A1_crisis_propagacion_3d.mp4 |
 | neuro-11 | Vía nigroestriada: dopamina que falta y levodopa que la repone | M | ★★★ | A1_nigroestriada_3d.mp4 |
 | resp-04 | Enfisema: alvéolos que se rompen y atrapan aire | M | ★★★ | A1_enfisema_real.mp4 |
+| resp-19 | Trombo que viaja de la pierna al pulmón | 3D | ★★★ | A1_tep_3d.mp4 |
+| cirugia-04 | (animación existente, no estaba en el plan) |  |  | A1_obstruccion_3d.mp4 |
 | endo-20 | (animación existente, no estaba en el plan) |  |  | A1_macroadenoma_3d.mp4 |
 | gastro-19 | (animación existente, no estaba en el plan) |  |  | A1_apendicitis_3d.mp4 |
 | neuro-23 | (animación existente, no estaba en el plan) |  |  | A1_fractura_cadera_3d.mp4 |
+| ob-13 | (animación existente, no estaba en el plan) |  |  | A1_placenta_previa.mp4, A2_dppni_real.mp4 |
 | ob-16 | (animación existente, no estaba en el plan) |  |  | A1_mecanismo_parto_3d.mp4 |
 | ped-08 | (animación existente, no estaba en el plan) |  |  | A1_bronquio_derecho_3d.mp4 |
 | resp-08 | (animación existente, no estaba en el plan) |  |  | A1_aspiracion_3d.mp4 |

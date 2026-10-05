@@ -36,3 +36,25 @@ for k in ('redo', 'todo', 'real', 'ok'):
     L += [f'| {c} | {d} | {t} | {p} | {v} |' for c, d, t, p, v in items] + ['']
 open(os.path.join(ROOT, 'docs', 'ESTADO_ANIMACIONES.md'), 'w').write('\n'.join(L))
 print({k: len(v) for k, v in out.items()})
+
+# ------------------------------------------------------------------ galería HTML (classes/decks/galeria_animaciones.html)
+import html
+SEC = [('real', '✅ Con anatomía real (3D o Blausen)', '#3DDC84'), ('redo', '🔁 Anatomía abstracta: hay que rehacerlas', '#FF5A4E'),
+       ('ok', '🟢 Gráficos y esquemas en Manim (se quedan)', '#4FA3FF')]
+H = ['<!doctype html><meta charset="utf-8"><title>Galería de animaciones</title><style>',
+     'body{background:#0E1116;color:#F5F5F7;font:15px Helvetica,Arial,sans-serif;margin:24px}h1{margin:0 0 6px}',
+     'nav a{color:#9AA0A6;margin-right:18px}h2{margin:34px 0 12px;padding-bottom:6px;border-bottom:2px solid}',
+     '.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:18px}',
+     '.c{background:#181C23;border-radius:10px;padding:10px}.c video{width:100%;border-radius:6px;background:#000}',
+     '.k{font-weight:bold}.d{color:#9AA0A6;font-size:13px;margin-top:3px}</style>',
+     '<h1>Galería de animaciones</h1><nav>' + ''.join(f'<a href="#{k}">{t} ({sum(len(r[4].split(", ")) for r in out[k] if r[4])})</a>' for k, t, _ in SEC) + '</nav>']
+for k, t, col in SEC:
+    H.append(f'<h2 id="{k}" style="border-color:{col}">{t}</h2><div class="g">')
+    for c, d, tool, p, v in sorted(out[k]):
+        for f in [x for x in v.split(', ') if x]:
+            if k == 'real' and not f.endswith(('_3d.mp4', '_real.mp4')): continue
+            H.append(f'<div class="c"><video src="../media/animaciones/{c}/{f}" controls loop muted preload="metadata"></video>'
+                     f'<div class="k">{c} · {html.escape(f[:-4])}</div><div class="d">{html.escape(d)}</div></div>')
+    H.append('</div>')
+open(os.path.join(ROOT, 'decks', 'galeria_animaciones.html'), 'w').write('\n'.join(H))
+print('galería ok')
