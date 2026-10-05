@@ -255,14 +255,14 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La placa neuromuscular',
       images: [
-        { src: 'animaciones/neuro-17/A1_placa_normal.mp4', label: 'Normal', credit: 'Animación propia' },
-        { src: 'animaciones/neuro-17/A2_placa_miastenia.mp4', label: 'Miastenia', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-17/A1_placa_normal_real.mp4', label: 'Normal', credit: 'Ilustración: Doctor Jana, CC BY 4.0 (Wikimedia Commons) · rótulos y animación propios' },
+        { src: 'animaciones/neuro-17/A2_placa_miastenia_real.mp4', label: 'Miastenia', credit: 'Ilustración: Doctor Jana, CC BY 4.0 (Wikimedia Commons) · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'La fuerza se mantiene',
-          say: 'En la placa normal, la acetilcolina encuentra receptores libres en cada contracción, y la fuerza se mantiene igual.' },
-        { note: 'La fuerza cae con el uso',
-          say: 'En la miastenia, los anticuerpos bloquean parte de los receptores. Con cada contracción se libera menos acetilcolina, y la fuerza va cayendo. Eso es la debilidad fatigable.' },
+        { note: 'Receptores libres, fuerza estable',
+          say: 'En la placa normal, la terminal del nervio libera acetilcolina, que cruza la hendidura y encuentra receptores libres en el músculo en cada contracción. La fuerza se mantiene igual.' },
+        { note: 'Receptores bloqueados, fuerza que cae',
+          say: 'En la miastenia, los anticuerpos bloquean parte de los receptores. Con cada contracción se libera menos acetilcolina, se activan menos receptores y la fuerza va cayendo. Eso es la debilidad fatigable: empeora con el uso y mejora con el reposo.' },
       ],
     },
 

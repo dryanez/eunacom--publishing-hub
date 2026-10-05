@@ -100,3 +100,13 @@ S['infecto-04'] = {
     'steps': [{'note': 'Por dentro avanza, por fuera casi nada',
                'say': 'La infección avanza rápido por la fascia, bajo la grasa, mientras la piel todavía se ve casi normal. Por eso la clave es un dolor desproporcionado a lo que se ve; puede haber gas y crepitación, y la piel se oscurece tarde. El tratamiento es pabellón urgente para desbridar.'}],
 }
+NJ = 'Ilustración: Doctor Jana, CC BY 4.0 (Wikimedia Commons) · rótulos y animación propios'
+S['neuro-17'] = {
+    'title': 'La placa neuromuscular',
+    'images': [{'src': 'animaciones/neuro-17/A1_placa_normal_real.mp4', 'label': 'Normal', 'credit': NJ},
+               {'src': 'animaciones/neuro-17/A2_placa_miastenia_real.mp4', 'label': 'Miastenia', 'credit': NJ}],
+    'steps': [{'note': 'Receptores libres, fuerza estable',
+               'say': 'En la placa normal, la terminal del nervio libera acetilcolina, que cruza la hendidura y encuentra receptores libres en el músculo en cada contracción. La fuerza se mantiene igual.'},
+              {'note': 'Receptores bloqueados, fuerza que cae',
+               'say': 'En la miastenia, los anticuerpos bloquean parte de los receptores. Con cada contracción se libera menos acetilcolina, se activan menos receptores y la fuerza va cayendo. Eso es la debilidad fatigable: empeora con el uso y mejora con el reposo.'}],
+}

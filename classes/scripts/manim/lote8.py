@@ -1,5 +1,6 @@
 """Lote 8: anatomía real. Ilustraciones Blausen (CC BY 3.0) limpias de rótulos, con movimiento y rótulos propios."""
 from estilo import *
+import os
 
 # ------------------------------------------------------------------ nefro-08: dónde actúa cada diurético
 NEFRONA = dict(IMG='Nephron Anatomy.png', CROP=(0.47, 0.245, 0.94, 0.93))
@@ -1137,3 +1138,79 @@ class Infecto04Fascitis(BlausenScene):
         tx = tag('Pabellón urgente: desbridamiento', GREEN_, 20).next_to(gas, DOWN, aligned_edge=LEFT, buff=0.3)
         self.play(dusk.animate.set_fill(opacity=0.55), look.animate.set_value(0.45), FadeIn(tx), run_time=1.6)
         self.wait(2)
+
+
+# ------------------------------------------------------------------ neuro-17: placa neuromuscular (normal vs miastenia)
+NMJ_IMG = os.path.expanduser('~/Documents/Archive/Apps/assets3d/commons/nmj_doctorjana.jpg')
+NMJ_CREDIT = 'Ilustración: Doctor Jana, CC BY 4.0 (Wikimedia Commons) · rótulos y animación propios'
+HENDIDURA = [(0.27, 0.735), (0.33, 0.765), (0.40, 0.79), (0.47, 0.81), (0.54, 0.825), (0.61, 0.81), (0.67, 0.785), (0.715, 0.76)]
+
+
+class _Placa3(BlausenScene):
+    IMG, CROP = NMJ_IMG, (0.18, 0.12, 0.82, 0.98)
+    MG = False
+
+    def construct(self):
+        if self.MG:
+            title(self, 'Miastenia gravis', 'Anticuerpos bloquean los receptores: la fuerza cae con cada contracción', RED_)
+        else:
+            title(self, 'La placa neuromuscular', 'La acetilcolina cruza la hendidura y activa los receptores del músculo', GREEN_)
+        img = self.lamina(height=5.15, center=LEFT * 3.55 + DOWN * 0.55, credit=False)
+        self.add(T(NMJ_CREDIT, 12, MUTED).to_corner(DR, buff=0.06))
+        P = self.P
+        lt = tag('Terminal del nervio', AMBER, 17).move_to(P(0.43, 0.30))
+        lm = tag('Músculo', RED_, 17).move_to(P(0.30, 0.93))
+        cleft = self.path(HENDIDURA)
+        rec_pts = [cleft.point_from_proportion(0.06 + 0.88 * i / 9) + DOWN * 0.12 for i in range(10)]
+        recs = VGroup(*[VGroup(Line(p + DOWN * 0.12, p, color='#1F4E9E', stroke_width=5), Line(p, p + UL * 0.08, color='#1F4E9E', stroke_width=5),
+                               Line(p, p + UR * 0.08, color='#1F4E9E', stroke_width=5)) for p in rec_pts])
+        lr = tag('Receptores de acetilcolina', BLUE_, 16).next_to(img, DOWN, buff=0.08)
+        self.play(FadeIn(lt), FadeIn(lm), FadeIn(recs, lag_ratio=0.1), FadeIn(lr), run_time=1.0)
+        blocked = set()
+        if self.MG:
+            blocked = {0, 2, 3, 5, 7, 8}
+            abs_ = VGroup(*[VGroup(Line(rec_pts[i] + UP * 0.02, rec_pts[i] + UP * 0.2 + LEFT * 0.1, color=VIOLET, stroke_width=6),
+                                   Line(rec_pts[i] + UP * 0.02, rec_pts[i] + UP * 0.2 + RIGHT * 0.1, color=VIOLET, stroke_width=6),
+                                   Line(rec_pts[i] + UP * 0.2, rec_pts[i] + UP * 0.38, color=VIOLET, stroke_width=6)) for i in sorted(blocked)])
+            la = tag('Anticuerpos', VIOLET, 17).move_to(P(0.62, 0.60))
+            self.play(FadeIn(abs_, shift=DOWN * 0.3, lag_ratio=0.15), FadeIn(la), run_time=1.2)
+        # gráfico de fuerza
+        ax0 = np.array([1.35, -2.6, 0])
+        axes_ = VGroup(Line(ax0, ax0 + RIGHT * 5.0, color=MUTED, stroke_width=2), Line(ax0, ax0 + UP * 3.6, color=MUTED, stroke_width=2))
+        yl = T('Fuerza', 18, MUTED).next_to(axes_[1], UP, buff=0.1)
+        xl = T('contracciones repetidas', 17, MUTED).next_to(axes_[0], DOWN, buff=0.1)
+        self.play(FadeIn(axes_), FadeIn(yl), FadeIn(xl), run_time=0.5)
+        rng = np.random.default_rng(2)
+        released = [10, 10, 10, 10, 10] if not self.MG else [10, 8, 7, 6, 5]
+        for k, nrel in enumerate(released):
+            src = [P(rng.uniform(0.33, 0.66), rng.uniform(0.55, 0.70)) for _ in range(nrel)]
+            ach = VGroup(*[Dot(s, radius=0.06, color=GREEN_).set_stroke(WHITE, 1) for s in src])
+            free = [i for i in range(10) if i not in blocked]
+            targets = [rec_pts[free[j % len(free)]] + UP * 0.06 for j in range(nrel)]
+            hits = min(nrel, len(free)) if not self.MG else max(1, min(len(free), nrel - 3 - k // 2))
+            self.play(FadeIn(ach, run_time=0.25))
+            self.play(*[d.animate.move_to(t) for d, t in zip(ach, targets)], run_time=0.7)
+            frac = (hits / 10) if self.MG else 1.0
+            h = 3.3 * (0.95 if not self.MG else min(0.95, 0.3 + frac * 1.2))
+            bar = Rectangle(width=0.6, height=0.01, fill_color=GREEN_ if not self.MG else interpolate_color(ManimColor(GREEN_), ManimColor(RED_), k / 4),
+                            fill_opacity=1, stroke_width=0).move_to(ax0 + RIGHT * (0.6 + 0.95 * k) + UP * 0.005, aligned_edge=DOWN)
+            hit = [recs[free[j % len(free)]] for j in range(hits)]
+            self.add(bar)
+            self.play(bar.animate.stretch_to_fit_height(h, about_edge=DOWN), *[r.animate.set_color(GREEN_) for r in hit],
+                      FadeOut(ach), run_time=0.6)
+            self.play(*[r.animate.set_color('#1F4E9E') for r in hit], run_time=0.25)
+        if self.MG:
+            msg = VGroup(T('Debilidad fatigable', 24, RED_, bold=True), T('empeora con el uso, mejora con el reposo', 18, INK)).arrange(DOWN, buff=0.05)
+        else:
+            msg = VGroup(T('Fuerza constante', 24, GREEN_, bold=True), T('sobran receptores libres', 18, INK)).arrange(DOWN, buff=0.05)
+        msg.next_to(axes_, UP, buff=0.35).shift(RIGHT * 0.6)
+        self.play(FadeIn(msg), run_time=0.8)
+        self.wait(1.8)
+
+
+class Neuro17PlacaNormal(_Placa3):
+    MG = False
+
+
+class Neuro17PlacaMiastenia(_Placa3):
+    MG = True

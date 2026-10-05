@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **34**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **26**
+- ✅ Hechas con anatomía real (3D o Blausen): **35**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **25**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
 - ⬜ Pendientes (aún sin video): **170**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (26)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (25)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -30,7 +30,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo.mp4, A2_coombs_indirecto.mp4 |
 | hem-15 | (animación existente, no estaba en el plan) |  |  | A1_cid.mp4 |
 | nefro-05 | (animación existente, no estaba en el plan) |  |  | A1_neurona_aguda.mp4, A2_neurona_adaptacion.mp4, A3_neurona_correccion.mp4 |
-| neuro-17 | (animación existente, no estaba en el plan) |  |  | A1_placa_normal.mp4, A2_placa_miastenia.mp4 |
 | neuro-19 | (animación existente, no estaba en el plan) |  |  | A1_facial_central.mp4, A2_facial_periferica.mp4 |
 | ob-18 | (animación existente, no estaba en el plan) |  |  | A1_atonia.mp4 |
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
@@ -213,7 +212,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (34)
+## ✅ Hechas con anatomía real (3D o Blausen) (35)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -244,6 +243,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | cirugia-04 | (animación existente, no estaba en el plan) |  |  | A1_obstruccion_3d.mp4 |
 | endo-20 | (animación existente, no estaba en el plan) |  |  | A1_macroadenoma_3d.mp4 |
 | gastro-19 | (animación existente, no estaba en el plan) |  |  | A1_apendicitis_3d.mp4 |
+| neuro-17 | (animación existente, no estaba en el plan) |  |  | A1_placa_normal_real.mp4, A2_placa_miastenia_real.mp4 |
 | neuro-23 | (animación existente, no estaba en el plan) |  |  | A1_fractura_cadera_3d.mp4 |
 | ob-13 | (animación existente, no estaba en el plan) |  |  | A1_placenta_previa.mp4, A2_dppni_real.mp4 |
 | ob-16 | (animación existente, no estaba en el plan) |  |  | A1_mecanismo_parto_3d.mp4 |

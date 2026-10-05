@@ -613,8 +613,8 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | neuro-14 | dataset_neurologia.cjs (neuro-14) | Dibujo propio | test del reloj | `biblioteca/09_neurologia/neuro-14/S1_test-del-reloj__propio.svg` | Dibujo propio | sí |
 | neuro-15 | dataset_neurologia.cjs (neuro-15) | Imagen | RM coronal en las tres variantes de DFT | `biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg` | Harrison 21.ª ed., p. 3420 | sí |
 | neuro-16 | dataset_neurologia.cjs (neuro-16) | Animación | guillain barre | `animaciones/neuro-16/A1_guillain_barre.mp4` | Animación propia (Manim) | sí |
-| neuro-17 | dataset_neurologia.cjs (neuro-17) | Animación | placa normal | `animaciones/neuro-17/A1_placa_normal.mp4` | Animación propia (Manim) | sí |
-| neuro-17 | dataset_neurologia.cjs (neuro-17) | Animación | placa miastenia | `animaciones/neuro-17/A2_placa_miastenia.mp4` | Animación propia (Manim) | sí |
+| neuro-17 | dataset_neurologia.cjs (neuro-17) | Animación | placa normal | `animaciones/neuro-17/A1_placa_normal_real.mp4` | Animación propia (Manim) | sí |
+| neuro-17 | dataset_neurologia.cjs (neuro-17) | Animación | placa miastenia | `animaciones/neuro-17/A2_placa_miastenia_real.mp4` | Animación propia (Manim) | sí |
 | neuro-17 | dataset_neurologia.cjs (neuro-17) | Imagen | ptosis miasténica antes y después de la prueba | `biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg` | Wikimedia Commons «Myasthenia gravis ptosis reversal.jpg», CC BY 2.0, Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyana | sí |
 | neuro-17 | dataset_neurologia.cjs (neuro-17) | Imagen | timoma (TC mediastino) | `biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg` | Radiologia, p. 22 | sí |
 | neuro-17 | dataset_neurologia.cjs (neuro-17) | Imagen | EMG fibra única | `biblioteca/09_neurologia/neuro-17/02_emg-fibra-unica__cto-neuro_p103.jpg` | Neurologia, p. 103 | sí |
