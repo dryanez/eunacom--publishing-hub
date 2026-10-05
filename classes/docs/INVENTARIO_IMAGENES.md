@@ -467,7 +467,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | infecto-03 | dataset_infectologia.cjs (inf-03) | Imagen | abscesos cerebrales en anillo (TC/RM) | `biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg` | INFECCIOSAS, p. 42 | sí |
 | infecto-03 | dataset_infectologia.cjs (inf-03) | Alternativa | abscesos cerebrales en anillo tc rm alt1 | `biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm_alt1__cto-infecto_p93.jpg` | Manual CTO infecto, p. 93 | no |
 | infecto-03 | dataset_infectologia.cjs (inf-03) | Imagen | RM FLAIR: hiperintensidad temporal derecha en encefalitis herpética | `biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg` | Harrison 21.ª ed., p. 1137 | sí |
-| infecto-04 | dataset_infectologia.cjs (inf-04) | Animación | fascitis | `animaciones/infecto-04/A1_fascitis.mp4` | Animación propia (Manim) | sí |
+| infecto-04 | dataset_infectologia.cjs (inf-04) | Animación | fascitis | `animaciones/infecto-04/A1_fascitis_real.mp4` | Animación propia (Manim) | sí |
 | infecto-04 | dataset_infectologia.cjs (inf-04) | Imagen | fascitis necrotizante | `biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg` | Enfermedades infecciosas, p. 84 | sí |
 | infecto-04 | dataset_infectologia.cjs (inf-04) | Imagen | angina de Ludwig | `biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg` | OTORRINOLARINGOLOGÍA_17ª ED, p. 55 | sí |
 | infecto-04 | dataset_infectologia.cjs (inf-04) | Alternativa | angina de ludwig alt1 | `biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig_alt1__cto-orl_p60.jpg` | Manual CTO orl, p. 60 | no |

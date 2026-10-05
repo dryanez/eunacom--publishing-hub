@@ -1084,3 +1084,56 @@ class Diab01Tipo1(_Islote):
 
 class Diab01Tipo2(_Islote):
     TIPO = 2
+
+
+# ------------------------------------------------------------------ infecto-04: fascitis necrotizante
+FASCIA = [(0.212, 0.655), (0.27, 0.668), (0.33, 0.684), (0.40, 0.703), (0.47, 0.722), (0.55, 0.745), (0.62, 0.77), (0.69, 0.795)]
+
+
+class Infecto04Fascitis(BlausenScene):
+    IMG, CROP = 'Blausen 0810 SkinAnatomy 01.png', (0.17, 0.24, 0.86, 0.83)
+    ERASE = [('dark', 0.565, 0.66, 0.588, 0.85)]
+
+    def construct(self):
+        title(self, 'Fascitis necrotizante', 'La infección corre por la fascia mientras la piel se ve casi normal', RED_)
+        img = self.lamina(width=7.2, center=RIGHT * 2.75 + DOWN * 0.62)
+        P = self.P
+        fas = self.path(FASCIA).set_stroke('#F2F0E6', 9)
+        lf = tag('Fascia', MUTED, 18).next_to(P(0.212, 0.655), LEFT, buff=0.1)
+        lp = tag('Piel', MUTED, 18).next_to(P(0.21, 0.30), LEFT, buff=0.1)
+        self.play(Create(fas), FadeIn(lf), FadeIn(lp), run_time=1.0)
+        k = ValueTracker(0.0)
+        def front():
+            a = max(0.001, min(1, k.get_value()))
+            seg = fas.copy().pointwise_become_partial(fas, max(0, 0.45 - a * 0.45), min(1, 0.45 + a * 0.55))
+            return VGroup(seg.copy().set_stroke(RED_, 26, opacity=0.35), seg.copy().set_stroke('#7A0E12', 11, opacity=0.95))
+        inf = always_redraw(front)
+        self.add(inf)
+        rng = np.random.default_rng(11)
+        bub = VGroup(*[Circle(radius=rng.uniform(0.04, 0.08), color=WHITE, stroke_width=2).move_to(fas.point_from_proportion(p) + UP * rng.uniform(0.18, 0.45))
+                       for p in rng.uniform(0.05, 0.95, 14)])
+        for b in bub: b.set_opacity(0)
+        self.add(bub)
+        # panel: dolor vs lo que se ve
+        def meter(y, label, col):
+            fr = RoundedRectangle(corner_radius=0.08, width=3.4, height=0.34, stroke_color=MUTED, stroke_width=2).move_to([-4.8, y, 0])
+            v = ValueTracker(0.05)
+            f = always_redraw(lambda: Rectangle(width=max(0.01, 3.28 * v.get_value()), height=0.24, fill_color=col, fill_opacity=1, stroke_width=0)
+                              .align_to(fr, LEFT).shift(RIGHT * 0.06).set_y(y))
+            l = T(label, 19, INK).next_to(fr, UP, aligned_edge=LEFT, buff=0.06)
+            return VGroup(fr, l), f, v
+        m1, f1, pain = meter(0.9, 'Dolor', RED_)
+        m2, f2, look = meter(-0.3, 'Lo que se ve en la piel', AMBER)
+        self.play(FadeIn(m1), FadeIn(m2), FadeIn(f1), FadeIn(f2), run_time=0.6)
+        self.play(k.animate.set_value(0.45), pain.animate.set_value(0.75), look.animate.set_value(0.12), run_time=2.4, rate_func=linear)
+        self.play(k.animate.set_value(1.0), pain.animate.set_value(0.97), look.animate.set_value(0.2),
+                  *[b.animate.set_opacity(0.9) for b in bub], run_time=2.6, rate_func=linear)
+        key = VGroup(T('Dolor desproporcionado', 22, RED_, bold=True), T('a lo que se ve', 22, RED_, bold=True)).arrange(DOWN, aligned_edge=LEFT, buff=0.05).move_to([-4.8, -1.4, 0])
+        gas = T('Gas: crepitación', 19, INK).next_to(key, DOWN, aligned_edge=LEFT, buff=0.2)
+        self.play(FadeIn(key), FadeIn(gas), run_time=0.8)
+        # tarde: la piel se oscurece sobre la zona
+        dusk = Ellipse(width=1.6, height=0.35, fill_color='#5B2A4A', fill_opacity=0, stroke_width=0).move_to(P(0.33, 0.30)).rotate(-0.08)
+        self.add(dusk)
+        tx = tag('Pabellón urgente: desbridamiento', GREEN_, 20).next_to(gas, DOWN, aligned_edge=LEFT, buff=0.3)
+        self.play(dusk.animate.set_fill(opacity=0.55), look.animate.set_value(0.45), FadeIn(tx), run_time=1.6)
+        self.wait(2)

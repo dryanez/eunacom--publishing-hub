@@ -94,3 +94,9 @@ S['diab-01'] = {
               {'note': 'Resistencia y agotamiento',
                'say': 'En la tipo dos, la insulina no funciona bien en el músculo y el hígado. Las células beta compensan fabricando más, pero con los años se agotan, la insulina baja y la glicemia sube.'}],
 }
+S['infecto-04'] = {
+    'title': 'La fascitis por dentro',
+    'images': [{'src': 'animaciones/infecto-04/A1_fascitis_real.mp4', 'label': 'Fascitis', 'credit': BL}],
+    'steps': [{'note': 'Por dentro avanza, por fuera casi nada',
+               'say': 'La infección avanza rápido por la fascia, bajo la grasa, mientras la piel todavía se ve casi normal. Por eso la clave es un dolor desproporcionado a lo que se ve; puede haber gas y crepitación, y la piel se oscurece tarde. El tratamiento es pabellón urgente para desbridar.'}],
+}

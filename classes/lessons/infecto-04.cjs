@@ -169,11 +169,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La fascitis por dentro',
       images: [
-        { src: 'animaciones/infecto-04/A1_fascitis.mp4', label: 'Fascitis', credit: 'Animación propia' },
+        { src: 'animaciones/infecto-04/A1_fascitis_real.mp4', label: 'Fascitis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Dolor desproporcionado',
-          say: 'La infección avanza rápido por la fascia, mientras la piel todavía se ve casi normal. Por eso la clave es un dolor desproporcionado a lo que se ve. El tratamiento es pabellón urgente.' },
+        { note: 'Por dentro avanza, por fuera casi nada',
+          say: 'La infección avanza rápido por la fascia, bajo la grasa, mientras la piel todavía se ve casi normal. Por eso la clave es un dolor desproporcionado a lo que se ve; puede haber gas y crepitación, y la piel se oscurece tarde. El tratamiento es pabellón urgente para desbridar.' },
       ],
     },
 
