@@ -1,0 +1,210 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script>
+<script>
+// neuro-16 Guillain-Barré: la mielina del nervio periférico se pierde, la conducción se enlentece y la debilidad sube
+// hasta el diafragma; la capacidad vital cae (UCI bajo 20 mL/kg, intubar bajo 15).
+// Base: Blausen.com staff (2014) "Neural Tissue", CC BY 3.0, rótulos en inglés quitados.
+window.SCENE = { duration: 30, fps: 30 };
+const { ctx, C, ease, clamp, lerp, seg, text, tag, rrect, poly } = LIB(document.getElementById('c'));
+
+// lámina: imagen 1920x1260 en una tarjeta blanca
+const IMG = { x: 40, y: 150, w: 760 }; IMG.s = IMG.w / 1920; IMG.h = 1260 * IMG.s;
+const P = (x, y) => [IMG.x + x * IMG.s, IMG.y + y * IMG.s];
+// axón, desde el cuerpo neuronal (derecha) hasta los terminales (izquierda), en píxeles de la imagen
+const AXON = poly([[1250, 415], [1190, 383], [1120, 340], [1040, 296], [960, 262], [880, 238], [800, 229],
+                   [730, 240], [650, 280], [560, 336], [470, 372], [380, 397], [305, 410]].map(p => P(...p)));
+const N = 8, S0 = 0.04, S1 = 0.97, STEP = (S1 - S0) / N, GAP = 0.022;
+const SHEATHS = [...Array(N)].map((_, i) => ({ a: S0 + i * STEP + GAP / 2, b: S0 + (i + 1) * STEP - GAP / 2,
+  hit: 10.2 + [0.0, 1.6, 0.6, 2.2, 1.1, 2.7, 0.3, 1.9][i] }));               // cuándo lo alcanza el ataque
+const NODES = [S0, ...SHEATHS.map(s => s.b + GAP / 2)];
+
+function sheath(s, alpha, rag) {
+  ctx.save(); ctx.globalAlpha = alpha; ctx.lineCap = 'round';
+  if (rag) ctx.setLineDash([5 + 4 * rag, 3 + 9 * rag]);
+  AXON.stroke(ctx, s.a, s.b, 17, '#B8913A');
+  AXON.stroke(ctx, s.a, s.b, 12, '#F4E2A8');
+  ctx.setLineDash([]); ctx.globalAlpha = alpha * 0.8;
+  AXON.stroke(ctx, s.a + 0.004, s.b - 0.004, 3, '#FFF8E0', -3);
+  ctx.restore();
+}
+
+function antibody(x, y, rot, a) {
+  ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.globalAlpha = a;
+  ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(0, 14); ctx.lineTo(0, 0); ctx.lineTo(-9, -11); ctx.moveTo(0, 0); ctx.lineTo(9, -11); ctx.stroke();
+  ctx.restore();
+}
+
+function pulse(x, y, r, a, col) {
+  const g = ctx.createRadialGradient(x, y, 0, x, y, r);
+  g.addColorStop(0, `rgba(255,255,255,${a})`); g.addColorStop(0.3, col.replace('A', a)); g.addColorStop(1, col.replace('A', 0));
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill();
+}
+
+function speedBar(t, val, y) {
+  const x = 840, w = 380;
+  text('Velocidad de conducción', x, y, 20, C.MUTED);
+  rrect(x, y + 14, w, 18, 9, '#222833');
+  const col = val > 0.6 ? C.GREEN : val > 0.35 ? C.AMBER : C.RED;
+  rrect(x, y + 14, w * val, 18, 9, col);
+}
+
+// ---------- panel final: debilidad que sube + capacidad vital ----------
+const LEVELS = ['Pies', 'Piernas', 'Manos y brazos', 'Cara y deglución', 'Diafragma'];
+function ladder(t, a) {
+  const x = 150, y0 = 600, dy = 92;
+  ctx.save(); ctx.globalAlpha = a;
+  text('La debilidad sube', x, 175, 30, C.INK, 'bold');
+  for (let i = 0; i < LEVELS.length; i++) {
+    const on = clamp((t - (17.6 + i * 1.5)) / 0.6, 0, 1), y = y0 - i * dy;
+    const last = i === LEVELS.length - 1;
+    const col = last ? C.RED : C.AMBER;
+    rrect(x, y - 30, 420, 60, 14, '#1A1F27');
+    if (on > 0) { ctx.globalAlpha = a * on; rrect(x, y - 30, 420, 60, 14, last ? 'rgba(255,90,78,0.22)' : 'rgba(255,194,71,0.18)');
+      ctx.strokeStyle = col; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.roundRect(x, y - 30, 420, 60, 14); ctx.stroke(); ctx.globalAlpha = a; }
+    text(LEVELS[i], x + 26, y + 9, 26, on > 0.5 ? C.INK : C.MUTED, on > 0.5 ? 'bold' : '');
+    if (i < LEVELS.length - 1) {
+      ctx.globalAlpha = a * (0.35 + 0.65 * clamp((t - (18.2 + i * 1.5)) / 0.5, 0, 1));
+      ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.moveTo(x + 210, y - 44); ctx.lineTo(x + 200, y - 34); ctx.lineTo(x + 220, y - 34); ctx.fill();
+      ctx.fillRect(x + 207, y - 40, 6, 9); ctx.globalAlpha = a;
+    }
+  }
+  ctx.restore();
+}
+
+function vitalGauge(t, a) {
+  const x = 800, y = 200, w = 90, h = 400, max = 70;
+  const yv = v => y + h - (h * v) / max;
+  const k = ease(clamp((t - 18.5) / 8.5, 0, 1));
+  const v = lerp(65, 12, k);
+  ctx.save(); ctx.globalAlpha = a;
+  text('Capacidad vital', x - 10, 175, 30, C.INK, 'bold');
+  rrect(x, y, w, h, 16, '#1A1F27');
+  const col = v > 20 ? C.GREEN : v > 15 ? C.AMBER : C.RED;
+  ctx.save(); ctx.beginPath(); ctx.roundRect(x, y, w, h, 16); ctx.clip();
+  ctx.fillStyle = col; ctx.fillRect(x, yv(v), w, y + h - yv(v)); ctx.restore();
+  text(`${Math.round(v)} mL/kg`, x - 22, yv(v) + 9, 26, col, 'bold', 'right');
+  for (const [lim, lab, c, t0] of [[20, 'Bajo 20: UCI', C.AMBER, 24.15], [15, 'Bajo 15: intubar', C.RED, 24.95]]) {
+    ctx.strokeStyle = c; ctx.lineWidth = 3; ctx.setLineDash([10, 7]);
+    ctx.beginPath(); ctx.moveTo(x - 14, yv(lim)); ctx.lineTo(x + w + 14, yv(lim)); ctx.stroke(); ctx.setLineDash([]);
+    const on = clamp((t - t0) / 0.5, 0, 1);
+    text(lab, x + w + 20 + (1 - on) * 0, yv(lim) + (lim === 20 ? -6 : 30), 24, on > 0 ? c : C.MUTED, on > 0 ? 'bold' : '');
+    if (on > 0 && on < 1) { ctx.globalAlpha = a * (1 - on); ctx.strokeStyle = c; ctx.lineWidth = 6;
+      ctx.beginPath(); ctx.roundRect(x - 8 - 20 * on, yv(lim) - 8 - 20 * on, w + 16 + 40 * on, 16 + 40 * on, 10); ctx.stroke(); ctx.globalAlpha = a; }
+  }
+  ctx.restore();
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+
+  // títulos por tramo
+  const titles = [
+    [0, 'Guillain-Barré', 'Nervio periférico normal: la mielina deja saltar el impulso', C.BLUE],
+    [8.6, 'El ataque a la mielina', 'Tras una infección, los anticuerpos se confunden de blanco', C.AMBER],
+    [13.6, 'El impulso se frena', 'Conducción lenta o bloqueada: debilidad flácida, sin reflejos', C.RED],
+    [17, 'Lo peligroso es el diafragma', 'Mide la capacidad vital: la saturación cae tarde', C.RED],
+  ];
+  let cur = titles[0]; for (const ti of titles) if (t >= ti[0]) cur = ti;
+  const ta = clamp((t - cur[0]) / 0.5, 0, 1) * (t < 0.2 ? t / 0.2 : 1);
+  ctx.globalAlpha = ta; text(cur[1], 40, 78, 46, cur[3], 'bold'); text(cur[2], 40, 120, 26, C.MUTED); ctx.globalAlpha = 1;
+
+  // ---- tramo neurona (0–17.6 s) ----
+  const na = t < 17 ? clamp(t / 0.8, 0, 1) : 1 - clamp((t - 17) / 0.6, 0, 1);
+  if (na > 0) {
+    ctx.save(); ctx.globalAlpha = na;
+    rrect(IMG.x - 14, IMG.y - 14, IMG.w + 28, IMG.h + 28, 18, '#FFFFFF');
+    ctx.drawImage(window.IMGS.neuron, IMG.x, IMG.y, IMG.w, IMG.h);
+    // nombres en español
+    const lab = clamp((t - 1.2) / 0.5, 0, 1) * (1 - clamp((t - 3.4) / 0.5, 0, 1));
+    if (lab > 0) { ctx.globalAlpha = na * lab;
+      tag('Cuerpo neuronal', ...P(1420, 760), C.VIOLET); tag('Axón', ...P(700, 160), C.BLUE); ctx.globalAlpha = na; }
+
+    // vainas de mielina: aparecen (3–4.6 s), luego se dañan
+    SHEATHS.forEach((s, i) => {
+      const grow = clamp((t - 3 - i * 0.18) / 0.4, 0, 1);
+      if (grow <= 0) return;
+      const dmg = clamp((t - s.hit) / 1.4, 0, 1);
+      const part = { a: s.a, b: lerp(s.a, s.b, ease(grow)) };
+      sheath(part, (1 - 0.72 * dmg) * na, dmg);
+      if (dmg > 0) for (let k = 0; k < 4; k++) {                              // fragmentos que se desprenden
+        const [x, y] = AXON.at(lerp(s.a, s.b, (k + 0.5) / 4));
+        const d = ease(dmg) * (18 + 9 * k), ang = -1.9 + k * 0.9 + i;
+        ctx.globalAlpha = na * (1 - dmg) * 0.9; ctx.fillStyle = '#F4E2A8';
+        ctx.beginPath(); ctx.ellipse(x + Math.cos(ang) * d, y + Math.sin(ang) * d, 5, 3, ang, 0, 7); ctx.fill();
+      }
+      ctx.globalAlpha = na;
+      // anticuerpos que llegan y se pegan
+      const arr = clamp((t - (s.hit - 1.3)) / 1.2, 0, 1);
+      if (arr > 0) for (let k = 0; k < 2; k++) {
+        const [x, y] = AXON.at(lerp(s.a, s.b, 0.3 + 0.4 * k));
+        const sx = x + (k ? 55 : -45), sy = y + (k ? -75 : 85), e = ease(arr);
+        antibody(lerp(sx, x, e), lerp(sy, y + (k ? -16 : 16), e), (k ? Math.PI + 0.5 * (1 - e) : -0.4 * (1 - e)), na * Math.min(1, arr * 3) * (1 - 0.6 * clamp((t - s.hit - 1.6) / 1, 0, 1)));
+      }
+    });
+    if (t > 3.4 && t < 4.4) { ctx.globalAlpha = na * clamp((t - 3.4) / 0.3, 0, 1) * (1 - clamp((t - 4.1) / 0.3, 0, 1)); }
+    const myel = clamp((t - 4.6) / 0.5, 0, 1) * (1 - clamp((t - 8.4) / 0.5, 0, 1));
+    if (myel > 0) { ctx.globalAlpha = na * myel; tag('Mielina', ...AXON.at(0.62).map((v, j) => v + (j ? -48 : 0)), '#B8913A'); ctx.globalAlpha = na; }
+
+    // impulso normal: salta de nodo en nodo (5–8.6 s)
+    if (t >= 5 && t < 8.6) {
+      const per = 1.2, ph = ((t - 5) % per) / per, k = Math.min(NODES.length - 1, Math.floor(ph * NODES.length));
+      const f = (ph * NODES.length) % 1;
+      const [x, y] = AXON.at(NODES[k]);
+      pulse(x, y, 30 * (1 - 0.5 * f), 1 - 0.6 * f, 'rgba(79,163,255,A)');
+      if (k > 0) { const [px, py] = AXON.at(NODES[k - 1]); pulse(px, py, 14, 0.35 * (1 - f), 'rgba(79,163,255,A)'); }
+    }
+    // impulso con la mielina dañada: avanza lento y se apaga (13.6–17 s)
+    if (t >= 13.6 && t < 17) {
+      const u = (t - 13.6) / 3.4, s = 0.55 * ease(Math.min(1, u * 1.25));
+      const fade = 1 - clamp((u - 0.7) / 0.3, 0, 1);
+      const [x, y] = AXON.at(s);
+      ctx.globalAlpha = na; pulse(x, y, 22, 0.85 * fade, 'rgba(255,90,78,A)');
+      if (u > 0.78) { const [bx, by] = AXON.at(0.57); ctx.strokeStyle = C.RED; ctx.lineWidth = 5; ctx.globalAlpha = na * clamp((u - 0.78) / 0.1, 0, 1);
+        ctx.beginPath(); ctx.moveTo(bx - 12, by - 12); ctx.lineTo(bx + 12, by + 12); ctx.moveTo(bx + 12, by - 12); ctx.lineTo(bx - 12, by + 12); ctx.stroke(); }
+    }
+    ctx.restore();
+
+    // panel derecho
+    ctx.save(); ctx.globalAlpha = na;
+    const notes = [
+      [1.0, 'Los nervios periféricos van', 'envueltos en mielina.', C.INK],
+      [5.0, 'El impulso salta de nodo', 'en nodo: rápido.', C.BLUE],
+      [8.8, 'Después de una diarrea', '(Campylobacter) o un', 'cuadro respiratorio, los', 'anticuerpos atacan la mielina.', C.AMBER],
+      [13.6, 'El impulso avanza lento', 'y se apaga: debilidad', 'flácida y arreflexia.', C.RED],
+    ];
+    let nt = null; for (const n of notes) if (t >= n[0]) nt = n;
+    if (nt) { const a = clamp((t - nt[0]) / 0.5, 0, 1); ctx.globalAlpha = na * a;
+      const lines = nt.slice(1, -1), col = nt[nt.length - 1];
+      lines.forEach((l, i) => text(l, 840, 230 + i * 38 + (1 - a) * 10, 29, i === 0 ? col : C.INK, i === 0 ? 'bold' : '')); }
+    ctx.globalAlpha = na;
+    if (t > 4.6) {
+      let v = 0.95;
+      v -= 0.7 * ease(clamp((t - 10.2) / 5, 0, 1));
+      speedBar(t, v, 520);
+    }
+    ctx.restore();
+  }
+
+  // ---- tramo final: debilidad ascendente + capacidad vital (17.2–30 s) ----
+  const fa = clamp((t - 17.2) / 0.6, 0, 1);
+  if (fa > 0) { ladder(t, fa); vitalGauge(t, fa); }
+  if (t > 27.4) {
+    const a = clamp((t - 27.4) / 0.5, 0, 1);
+    ctx.globalAlpha = a; rrect(240, 640, 800, 52, 26, 'rgba(255,90,78,0.18)');
+    ctx.strokeStyle = C.RED; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(240, 640, 800, 52, 26); ctx.stroke();
+    text('Satura bien no significa que respire bien', 640, 675, 26, C.INK, 'bold', 'center'); ctx.globalAlpha = 1;
+  }
+
+  ctx.globalAlpha = 1;
+  text(t < 17.4 ? 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' : 'Animación propia',
+       1268, 712, 13, C.MUTED, '', 'right');
+};
+
+LOAD({ neuron: '../assets/blausen_neural_tissue.jpg' });
+</script>
+</body></html>

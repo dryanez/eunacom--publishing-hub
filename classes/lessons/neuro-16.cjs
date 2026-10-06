@@ -215,11 +215,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La debilidad que sube',
       images: [
-        { src: 'animaciones/neuro-16/A1_guillain_barre.mp4', label: 'Guillain-Barré', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-16/A1_guillain_barre_real.mp4', label: 'Guillain-Barré', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Vigila la capacidad vital',
-          say: 'La debilidad parte en las piernas y sube. Lo peligroso es el diafragma: la capacidad vital cae. Bajo veinte mililitros por kilo va a UCI, y bajo quince se intuba.' },
+          say: 'El nervio periférico va envuelto en mielina, y el impulso salta de nodo en nodo. Después de una diarrea o un cuadro respiratorio, los anticuerpos atacan esa mielina: el impulso se enlentece y se apaga. La debilidad parte en los pies y sube. Lo peligroso es el diafragma: la capacidad vital cae. Bajo veinte mililitros por kilo va a UCI, y bajo quince se intuba, aunque todavía sature bien.' },
       ],
     },
 
