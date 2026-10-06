@@ -719,7 +719,7 @@ Total: 881 archivos · 741 ya en las clases · 140 sin usar (alternativas de la 
 | oftal-04 | dataset_oftalmologia.cjs (oftal-04) | Imagen | úlcera corneal con hipopion | `biblioteca/12_oftalmologia/oftal-04/02_ulcera-corneal-con-hipopion__cto-oftalmo_p39.jpg` | Oftalmologia, p. 39 | sí |
 | oftal-05 | dataset_oftalmologia.cjs (oftal-05) | Imagen | escleritis | `biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg` | Oftalmologia, p. 42 | sí |
 | oftal-05 | dataset_oftalmologia.cjs (oftal-05) | Imagen | epiescleritis | `biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg` | OFTALMOLOGÍA_17ª ED, p. 47 | sí |
-| oftal-06 | dataset_oftalmologia.cjs (oftal-06) | Animación | cierre angulo | `animaciones/oftal-06/A1_cierre_angulo.mp4` | Animación propia (Manim) | sí |
+| oftal-06 | dataset_oftalmologia.cjs (oftal-06) | Animación | cierre angulo | `animaciones/oftal-06/A1_cierre_angulo_3d.mp4` | Animación propia (Manim) | sí |
 | oftal-06 | dataset_oftalmologia.cjs (oftal-06) | Imagen | glaucoma agudo (pupila media, edema corneal) | `biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg` | OFTALMOLOGÍA_17ª ED, p. 36 | sí |
 | oftal-07 | dataset_oftalmologia.cjs (oftal-07) | Animación | excavacion | `animaciones/oftal-07/A1_excavacion.mp4` | Animación propia (Manim) | sí |
 | oftal-07 | dataset_oftalmologia.cjs (oftal-07) | Imagen | papila glaucomatosa | `biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg` | OFTALMOLOGÍA_17ª ED, p. 34 | sí |

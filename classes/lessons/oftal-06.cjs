@@ -138,11 +138,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Cómo se cierra el ángulo',
       images: [
-        { src: 'animaciones/oftal-06/A1_cierre_angulo.mp4', label: 'Cierre angular', credit: 'Animación propia' },
+        { src: 'animaciones/oftal-06/A1_cierre_angulo_3d.mp4', label: 'Cierre angular', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
       ],
       steps: [
         { note: 'La presión sube en horas',
-          say: 'El iris se abomba hacia adelante y tapa la malla trabecular. El humor acuoso ya no drena, y la presión sube en horas: dolor, ojo rojo y pupila media fija.' },
+          say: 'Veamos el ojo cortado por la mitad. Normalmente el humor acuoso pasa por la pupila a la cámara anterior y drena por el ángulo. En el cierre angular el iris se abomba hacia delante y tapa la malla trabecular. El acuoso ya no drena, y la presión sube en horas: dolor, ojo rojo, córnea turbia y pupila media fija.' },
       ],
     },
 

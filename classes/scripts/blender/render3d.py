@@ -12,7 +12,7 @@ BLENDER = '/Applications/Blender.app/Contents/MacOS/Blender'
 FONT = '/System/Library/Fonts/Helvetica.ttc'
 CREDIT = 'Modelo 3D: BodyParts3D (DBCLS, CC BY 4.0)'
 ZCREDIT = 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D'
-SCRIPTS = {'z_parkinson': 'z_parkinson.py', 'z_portal': 'z_portal.py', 'z_aneurisma': 'z_aneurisma.py', 'z_crisis': 'z_crisis.py', 'z_graves': 'z_graves.py', 'z_obstruccion': 'z_obstruccion.py', 'z_tep': 'z_tep.py'}
+SCRIPTS = {'z_parkinson': 'z_parkinson.py', 'z_portal': 'z_portal.py', 'z_aneurisma': 'z_aneurisma.py', 'z_crisis': 'z_crisis.py', 'z_graves': 'z_graves.py', 'z_obstruccion': 'z_obstruccion.py', 'z_tep': 'z_tep.py', 'z_glaucoma': 'z_glaucoma.py', 'z_gota': 'z_gota.py', 'z_artrosis': 'z_artrosis.py'}
 
 # escena: (destino, cuadros, título, subtítulo, color, [(texto, desde_s, hasta_s, x, y, color)])
 JOBS = {
@@ -53,6 +53,23 @@ JOBS = {
                ('Atraviesa el corazón derecho', 8.4, 10.3, 40, 655, 'C9A8FF'),
                ('Se enclava en la arteria pulmonar: el pulmón queda sin perfusión', 10.4, 14, 40, 610, 'FF5A4E'),
                ('El ventrículo derecho se sobrecarga y se dilata', 11.8, 14, 40, 660, 'FF8FB1')]),
+    'z_glaucoma': ('oftal-06/A1_cierre_angulo_3d', 288, 'Glaucoma agudo por cierre angular', 'El iris se abomba, tapa el ángulo y el humor acuoso no drena', '4FA3FF',
+                   [('Ojo cortado por la mitad: córnea a la izquierda', 0.3, 2.0, 40, 655, 'FFFFFF'),
+                    ('Normal: el humor acuoso pasa por la pupila y drena por el ángulo', 2.1, 5.5, 40, 655, '7FC8FF'),
+                    ('El iris se abomba hacia delante y cierra el ángulo', 5.6, 7.8, 40, 655, 'FFC247'),
+                    ('El acuoso queda atrapado detrás del iris: la presión sube en horas', 7.9, 12, 40, 610, 'FF5A4E'),
+                    ('Dolor, ojo rojo, córnea turbia y pupila media fija', 9.0, 12, 40, 660, 'FFFFFF')]),
+    'z_gota': ('reuma-03/A1_podagra_3d', 288, 'Gota: la podagra', 'El urato precipita en la articulación fría y desata la inflamación', 'FFC247',
+               [('Podagra: primera articulación metatarsofalángica', 0.3, 2.5, 40, 655, 'FFFFFF'),
+                ('Ácido úrico alto: urato disuelto en la articulación', 2.6, 3.6, 40, 655, 'FFD34D'),
+                ('Es distal y fría: el urato precipita en cristales en aguja', 3.7, 6.5, 40, 655, '9FC8FF'),
+                ('Llegan neutrófilos y fagocitan los cristales', 6.6, 7.9, 40, 655, 'FFFFFF'),
+                ('Inflamación intensa: dolor, rubor, calor e hinchazón', 7.9, 12, 40, 655, 'FF5A4E')]),
+    'z_artrosis': ('reuma-04/A1_artrosis_3d', 288, 'Artrosis de rodilla', 'El cartílago se gasta y el hueso responde con osteofitos', 'FFC247',
+                   [('Rodilla sana: cartílago (azul) sobre los cóndilos y el platillo', 0.3, 2.4, 40, 655, '7FB2FF'),
+                    ('El cartílago se gasta, sobre todo en el compartimento medial', 2.5, 7.0, 40, 655, 'FFFFFF'),
+                    ('Se estrecha el espacio articular', 4.5, 7.0, 40, 605, 'FFC247'),
+                    ('Crecen osteofitos en los bordes; el hueso subcondral se esclerosa', 7.1, 12, 40, 655, 'FFC247')]),
     'z_portal': ('gastro-15/A1_hipertension_portal_3d', 336, 'Hipertensión portal', 'El hígado cirrótico frena la sangre portal: busca colaterales y se filtra líquido', 'FF5A4E',
                  [('Normal: intestino y bazo drenan por la porta al hígado', 0.3, 3.0, 40, 655, 'FFFFFF'),
                   ('Cirrosis: el hígado frena el paso', 3.1, 6.3, 60, 200, 'FFC247', (540, 220)),
