@@ -1,0 +1,450 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Inter;src:url(../assets/fonts/Inter-opsz_wght.ttf);font-weight:100 900}
+@font-face{font-family:Syne;src:url(../assets/fonts/Syne-wght.ttf);font-weight:400 800}
+@font-face{font-family:DMMono;src:url(../assets/fonts/DMMono-Medium.ttf)}
+html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}
+</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script>
+// Clase completa como video: lee out/<clase>/data.js (build_class.cjs) y dibuja el instante t.
+const CID = new URLSearchParams(location.search).get('c');
+document.write(`<script src="../out/${CID}/data.js"><\/script>`);
+</script>
+<script>
+const D = window.CLASS;
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const W = 1280, H = 720;
+const C = { BG: '#0E1116', CARD: '#161B22', CARD2: '#1C232D', LINE: '#2A313C', INK: '#F5F5F7', MUTED: '#9AA0A6',
+  RED: '#FF5A4E', BLUE: '#4FA3FF', GREEN: '#3DDC84', AMBER: '#FFC247', VIOLET: '#B388FF', CYAN: '#0BD9E7', NAVY: '#08365F' };
+const KIND = { cause: C.BLUE, mech: C.VIOLET, effect: C.AMBER, risk: C.RED, trap: C.RED, q: C.AMBER, alert: C.RED, start: C.CYAN,
+  good: C.GREEN, refer: C.VIOLET, do: C.BLUE, ok: C.GREEN, key: C.BLUE, criteria: C.VIOLET, pharma: C.GREEN, normal: C.CYAN };
+const kc = k => KIND[k] || C.CYAN;
+const F = (size, w = 400, fam = 'Inter') => `${w} ${size}px ${fam}`;
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v)), lerp = (a, b, k) => a + (b - a) * k;
+const ease = k => (k = clamp(k, 0, 1), k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2);
+const out = k => 1 - Math.pow(1 - clamp(k, 0, 1), 3);
+const seg = (t, a, d) => clamp((t - a) / d, 0, 1);
+
+// ---------- texto ----------
+const wrapCache = new Map();
+function wrap(s, maxW, font) {
+  const key = font + '|' + maxW + '|' + s; if (wrapCache.has(key)) return wrapCache.get(key);
+  ctx.font = font; const lines = []; let cur = '';
+  for (const w of String(s).split(/\s+/)) {
+    const tr = cur ? cur + ' ' + w : w;
+    if (ctx.measureText(tr).width > maxW && cur) { lines.push(cur); cur = w; } else cur = tr;
+  }
+  if (cur) lines.push(cur); wrapCache.set(key, lines); return lines;
+}
+function text(s, x, y, font, color, align = 'left', alpha = 1) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.font = font; ctx.fillStyle = color; ctx.textAlign = align; ctx.textBaseline = 'alphabetic';
+  ctx.fillText(s, x, y); ctx.restore();
+}
+function para(s, x, y, maxW, font, lh, color, align = 'left', alpha = 1) {
+  const L = wrap(s, maxW, font); L.forEach((l, i) => text(l, x, y + i * lh, font, color, align, alpha)); return L.length * lh;
+}
+function rr(x, y, w, h, r, fill, stroke, lw = 2) {
+  ctx.beginPath(); ctx.roundRect(x, y, w, h, Math.max(0, Math.min(r, w / 2, h / 2)));
+  if (fill) { ctx.fillStyle = fill; ctx.fill(); } if (stroke) { ctx.strokeStyle = stroke; ctx.lineWidth = lw; ctx.stroke(); }
+}
+function pill(s, x, y, color, font = F(16, 700), fg = C.BG, align = 'left') {
+  ctx.font = font; const w = ctx.measureText(s).width + 24, h = parseInt(font.split(' ')[1]) + 14;
+  const x0 = align === 'center' ? x - w / 2 : align === 'right' ? x - w : x;
+  rr(x0, y - h / 2, w, h, h / 2, color); text(s, x0 + w / 2, y + h * 0.18, font, fg, 'center'); return w;
+}
+function hexA(hex, a) { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; }
+
+// ---------- imágenes ----------
+const IMG = {};
+function loadImg(src) {
+  if (IMG[src]) return IMG[src].p;
+  const im = new Image(); const p = new Promise((ok, bad) => { im.onload = () => ok(im); im.onerror = () => bad(src); });
+  im.src = src; IMG[src] = { im, p }; return p;
+}
+
+// ---------- logo AEE (emblema de esquina cortada) ----------
+function emblem(cx, cy, s, k = 1, letters = 1, alpha = 1) {
+  const P = [[3, 3], [125, 3], [125, 52], [101, 77], [3, 77]].map(([x, y]) => [cx + (x - 64) * s, cy + (y - 40) * s]);
+  ctx.save(); ctx.globalAlpha *= alpha;
+  // contorno que se dibuja
+  const per = P.map((p, i) => Math.hypot(P[(i + 1) % 5][0] - p[0], P[(i + 1) % 5][1] - p[1])), tot = per.reduce((a, b) => a + b);
+  ctx.beginPath(); ctx.moveTo(...P[0]);
+  let left = tot * clamp(k, 0, 1);
+  for (let i = 0; i < 5 && left > 0; i++) {
+    const a = P[i], b = P[(i + 1) % 5], f = Math.min(1, left / per[i]);
+    ctx.lineTo(lerp(a[0], b[0], f), lerp(a[1], b[1], f)); left -= per[i];
+  }
+  const fill = seg(k, 0.75, 0.25);
+  if (fill > 0) { ctx.save(); ctx.globalAlpha *= fill; ctx.fillStyle = C.NAVY; ctx.beginPath(); P.forEach((p, i) => i ? ctx.lineTo(...p) : ctx.moveTo(...p)); ctx.closePath(); ctx.fill(); ctx.restore(); }
+  ctx.strokeStyle = C.CYAN; ctx.lineWidth = 3 * s / 1.0 > 7 ? 7 : 3 * s; ctx.lineJoin = 'round'; ctx.stroke();
+  // letras A E E
+  const L = [['A', '#FFFFFF'], ['E', C.CYAN], ['E', '#FFFFFF']];
+  ctx.font = `800 ${26 * s}px Syne`; const ws = L.map(l => ctx.measureText(l[0]).width), tw = ws.reduce((a, b) => a + b);
+  let x = cx - tw / 2;
+  L.forEach(([ch, col], i) => {
+    const a = seg(letters, i * 0.22, 0.45);
+    if (a > 0) text(ch, x, cy + (49 - 40) * s + (1 - out(a)) * 10 * s, `800 ${26 * s}px Syne`, col, 'left', a);
+    x += ws[i];
+  });
+  ctx.restore();
+}
+
+// ---------- línea de tiempo ----------
+const B = D.beats;
+const SLIDE_BEATS = {}; B.forEach((b, i) => (SLIDE_BEATS[b.slide] = SLIDE_BEATS[b.slide] || []).push(i));
+function beatAt(t) { let lo = 0, hi = B.length - 1; while (lo < hi) { const m = (lo + hi + 1) >> 1; if (B[m].t0 <= t) lo = m; else hi = m - 1; } return lo; }
+const sayT = b => b.t0 + (b.lead || 0);            // cuando empieza a hablar
+
+// ---------- marco común ----------
+function chrome(s, t, a) {
+  ctx.save(); ctx.globalAlpha = a;
+  if (s.kicker) pill(s.kicker.toUpperCase(), 40, 44, hexA(C.CYAN, 0.16), F(14, 700), C.CYAN);
+  const title = s.title || (s.type === 'pathway' && D.pathway ? D.pathway.title : '');
+  if (title) para(title, 40, 104, 1060, F(36, 800), 42, C.INK);
+  emblem(1205, 46, 0.42, 1, 1, 0.9);
+  ctx.restore();
+}
+function footer(t) {
+  const k = t / D.total;
+  ctx.fillStyle = '#1A1F27'; ctx.fillRect(0, 716, W, 4); ctx.fillStyle = C.CYAN; ctx.fillRect(0, 716, W * k, 4);
+  text(`AEE · ${D.spec} ${D.topic} · ${D.title}`, 40, 702, F(13, 500), C.MUTED, 'left', 0.8);
+}
+function caption(s, t0, t, color = C.CYAN) {
+  if (!s) return; const a = seg(t, t0, 0.4);
+  ctx.save(); ctx.globalAlpha *= a; ctx.font = F(20, 600);
+  const L = wrap(s, 980, F(20, 600)), w = Math.max(...L.map(l => ctx.measureText(l).width)) + 48, h = 22 + L.length * 26;
+  const y = 662 - h + (1 - out(a)) * 10;
+  rr(640 - w / 2, y, w, h, 14, 'rgba(14,17,22,0.92)', color, 2);
+  L.forEach((l, i) => text(l, 640, y + 33 + i * 26, F(20, 600), C.INK, 'center'));
+  ctx.restore();
+}
+
+// ---------- intro y cierre ----------
+function bgField(t, a) {
+  ctx.save(); ctx.globalAlpha = a * 0.5;
+  for (let i = 0; i < 46; i++) {
+    const r = (i * 9301 + 49297) % 233280 / 233280, q = (i * 4093 + 7) % 1000 / 1000;
+    const x = (r * W + t * (8 + 14 * q)) % W, y = (q * H + Math.sin(t * 0.6 + i) * 12 + H) % H;
+    ctx.fillStyle = hexA(C.CYAN, 0.15 + 0.35 * q); ctx.beginPath(); ctx.arc(x, y, 1 + 2 * q, 0, 7); ctx.fill();
+  }
+  ctx.restore();
+}
+function intro(t) {
+  const fade = 1 - seg(t, 4.6, 0.6);
+  bgField(t, fade);
+  ctx.save(); ctx.globalAlpha = fade;
+  const sc = 2.6 + 0.12 * ease(seg(t, 0, 5));
+  const g = ctx.createRadialGradient(640, 300, 0, 640, 300, 360); g.addColorStop(0, hexA(C.CYAN, 0.12 * seg(t, 0.6, 1))); g.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  emblem(640, 290, sc, ease(seg(t, 0.1, 1.4)), seg(t, 1.2, 1.0));
+  const name = 'ACADEMIA EXAMEN EUNACOM', n = Math.floor(name.length * seg(t, 2.0, 1.0));
+  text(name.slice(0, n), 640, 455, F(26, 500, 'DMMono'), '#FFFFFF', 'center');
+  const a = seg(t, 3.0, 0.6);
+  ctx.globalAlpha = fade * a;
+  ctx.fillStyle = C.CYAN; ctx.fillRect(640 - 160 * out(a), 482, 320 * out(a), 2);
+  text(`Masterclass · ${D.spec} ${D.topic}`, 640, 525, F(24, 600), C.MUTED, 'center');
+  ctx.restore();
+}
+function outro(t, a) {
+  bgField(t + 20, a);
+  ctx.save(); ctx.globalAlpha = a;
+  emblem(640, 250, 2.2, 1, 1);
+  text('ACADEMIA EXAMEN EUNACOM', 640, 395, F(22, 500, 'DMMono'), '#FFFFFF', 'center');
+  if (D.next) {
+    const b = seg(t, 0.5, 0.6);
+    text('Próxima clase', 640, 470, F(20, 600), C.MUTED, 'center', b);
+    const nx = D.next.charAt(0).toUpperCase() + D.next.slice(1);
+    text(nx, 640, 515, F(36, 800), C.CYAN, 'center', b);
+  }
+  text('Nos vemos en la próxima clase', 640, 600, F(20, 500), C.MUTED, 'center', seg(t, 1.2, 0.6));
+  ctx.restore();
+}
+
+// ---------- portada ----------
+function cover(s, t, lt, a) {
+  ctx.save(); ctx.globalAlpha = a;
+  const im = IMG['../assets/neurona_alpha.png'];
+  if (im && D.id.startsWith('neuro')) {
+    const k = ease(seg(lt, 0, 1.6)), z = 1 + 0.04 * seg(lt, 0, 30);
+    ctx.save(); ctx.globalAlpha = a * 0.85 * k; ctx.translate(900, 380); ctx.scale(z, z);
+    ctx.drawImage(im.im, -430 + (1 - k) * 60, -280, 860, 564); ctx.restore();
+    // impulso que recorre el axón de la ilustración
+    const AX = [[0.655, 0.335], [0.58, 0.27], [0.5, 0.215], [0.42, 0.19], [0.33, 0.215], [0.24, 0.275], [0.15, 0.32]];
+    const u = (lt * 0.35) % 1, i = Math.min(AX.length - 2, Math.floor(u * (AX.length - 1))), f = u * (AX.length - 1) - i;
+    const px = 900 - 430 * z + lerp(AX[i][0], AX[i + 1][0], f) * 860 * z, py = 380 - 280 * z + lerp(AX[i][1], AX[i + 1][1], f) * 564 * z;
+    const gg = ctx.createRadialGradient(px, py, 0, px, py, 26); gg.addColorStop(0, 'rgba(255,255,255,0.9)'); gg.addColorStop(0.3, hexA(C.CYAN, 0.7)); gg.addColorStop(1, hexA(C.CYAN, 0));
+    ctx.globalAlpha = a * k; ctx.fillStyle = gg; ctx.beginPath(); ctx.arc(px, py, 26, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = a;
+  const g = ctx.createLinearGradient(0, 0, 760, 0); g.addColorStop(0, 'rgba(14,17,22,0.95)'); g.addColorStop(1, 'rgba(14,17,22,0)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, 760, H);
+  emblem(96, 92, 0.75, 1, 1);
+  const k1 = seg(lt, 0.2, 0.6), k2 = seg(lt, 0.6, 0.7), k3 = seg(lt, 1.0, 0.7);
+  text(`${D.spec.toUpperCase()} · CLASE ${D.topic}`, 60, 300 + (1 - out(k1)) * 16, F(18, 700), C.CYAN, 'left', k1);
+  const L = wrap(D.title, 640, F(62, 800));
+  L.forEach((l, i) => text(l, 60, 372 + i * 70 + (1 - out(k2)) * 24, F(62, 800), C.INK, 'left', k2));
+  para(s.subtitle || '', 60, 380 + L.length * 70 + 10, 600, F(24, 400), 33, C.MUTED, 'left', k3);
+  ctx.restore();
+}
+
+// ---------- diagrama de flujo ----------
+function flow(s, idx, lt, a) {
+  const NW = 250, NH = 108;
+  const maxC = Math.max(1, ...s.nodes.map(n => n.col)), maxR = Math.max(1, ...s.nodes.map(n => n.row));
+  const pos = {}; s.nodes.forEach(n => (pos[n.id] = [40 + n.col * ((1200 - NW) / maxC), 160 + n.row * ((410 - NH) / maxR)]));
+  const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0;
+  const appear = {}, stepOf = {};
+  beats.forEach(b => (s.steps[b.step].show || []).forEach((id, j) => { if (appear[id] == null) { appear[id] = sayT(b) - t0 + j * 0.35; stepOf[id] = b.step; } }));
+  const cur = beats.filter(b => b.t0 - t0 <= lt).pop();
+  ctx.save(); ctx.globalAlpha = a;
+  // aristas
+  for (const e of s.edges) {
+    if (appear[e.from] == null || appear[e.to] == null) continue;
+    const k = ease(seg(lt, Math.max(appear[e.from], appear[e.to]) + 0.15, 0.6)); if (k <= 0) continue;
+    const [x1, y1] = pos[e.from], [x2, y2] = pos[e.to];
+    let A = [x1 + NW, y1 + NH / 2], Z = [x2, y2 + NH / 2];
+    if (Math.abs(x1 - x2) < 5) { A = [x1 + NW / 2, y1 + (y2 > y1 ? NH : 0)]; Z = [x2 + NW / 2, y2 + (y2 > y1 ? 0 : NH)]; }
+    const dx = (Z[0] - A[0]) / 2, c1 = [A[0] + dx, A[1]], c2 = [Z[0] - dx, Z[1]];
+    const bz = u => [0, 1].map(j => Math.pow(1 - u, 3) * A[j] + 3 * Math.pow(1 - u, 2) * u * c1[j] + 3 * (1 - u) * u * u * c2[j] + u * u * u * Z[j]);
+    ctx.strokeStyle = '#4A5563'; ctx.lineWidth = 3; ctx.beginPath();
+    for (let i = 0; i <= 40; i++) { const p = bz((i / 40) * k); i ? ctx.lineTo(...p) : ctx.moveTo(...p); } ctx.stroke();
+    if (k > 0.98) { const p = bz(1), q = bz(0.96), ang = Math.atan2(p[1] - q[1], p[0] - q[0]);
+      ctx.fillStyle = '#4A5563'; ctx.beginPath(); ctx.moveTo(...p); ctx.lineTo(p[0] - 12 * Math.cos(ang - 0.45), p[1] - 12 * Math.sin(ang - 0.45));
+      ctx.lineTo(p[0] - 12 * Math.cos(ang + 0.45), p[1] - 12 * Math.sin(ang + 0.45)); ctx.fill(); }
+    if (e.label && k > 0.5) { const m = bz(0.5); pill(e.label, m[0], m[1], C.CARD2, F(14, 600), C.MUTED, 'center'); }
+  }
+  // nodos
+  for (const n of s.nodes) {
+    if (appear[n.id] == null) continue;
+    const k = out(seg(lt, appear[n.id], 0.5)); if (k <= 0) continue;
+    const [x, y] = pos[n.id], col = kc(n.k), active = cur && stepOf[n.id] === cur.step;
+    ctx.save(); ctx.globalAlpha = a * k * (active ? 1 : 0.62);
+    ctx.translate(x + NW / 2, y + NH / 2); ctx.scale(0.92 + 0.08 * k, 0.92 + 0.08 * k); ctx.translate(-x - NW / 2, -y - NH / 2);
+    { const ga = ctx.globalAlpha; ctx.globalAlpha = a * k; rr(x, y, NW, NH, 16, C.BG); ctx.globalAlpha = ga; }
+    if (active) { ctx.shadowColor = hexA(col, 0.55); ctx.shadowBlur = 26; }
+    rr(x, y, NW, NH, 16, C.CARD, active ? col : C.LINE, active ? 2.5 : 1.5); ctx.shadowBlur = 0;
+    rr(x, y, 7, NH, 3, col);
+    const h1 = para(n.t, x + 22, y + 32, NW - 36, F(19, 700), 23, C.INK);
+    para(n.s || '', x + 22, y + 32 + h1 + 2, NW - 36, F(15, 400), 19, C.MUTED);
+    ctx.restore();
+  }
+  ctx.restore();
+  if (cur) caption(s.steps[cur.step].note, sayT(cur) - t0 + 0.3, lt);
+}
+
+// ---------- tarjetas ----------
+function points(s, idx, lt, a) {
+  const n = s.cards.length, gap = 22, cw = (1200 - gap * (n - 1)) / n, top = 150;
+  const need = c => 62 + wrap(c.title, cw - 44, F(24, 800)).length * 29 + (c.tag ? 34 : 0) + 8 + c.items.reduce((h, it) =>
+    h + wrap(it.t, cw - 70, F(21, 700)).length * 26 + wrap(it.d || '', cw - 70, F(17)).length * 22 + 22, 0) + 4;
+  const bot = Math.min(676, top + Math.max(300, ...s.cards.map(need)));
+  const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0;
+  const cur = beats.filter(b => b.t0 - t0 <= lt).pop();
+  const shown = (ci, ii) => { const b = beats.find(b => b.card === ci && b.item === ii); return b ? sayT(b) - t0 : 0; };
+  ctx.save(); ctx.globalAlpha = a;
+  s.cards.forEach((c, ci) => {
+    const x = 40 + ci * (cw + gap), col = kc(c.kind), activeCard = cur && cur.card === ci;
+    const ka = Math.max(0.28, out(seg(lt, shown(ci, 0) - 0.3, 0.5)));
+    ctx.save(); ctx.globalAlpha = a * ka;
+    const yy = top + (1 - ka) * 20;
+    rr(x, yy, cw, bot - top, 20, C.CARD, activeCard ? hexA(col, 0.9) : C.LINE, activeCard ? 2.5 : 1.5);
+    ctx.fillStyle = col; ctx.fillRect(x + 22, yy + 22, 36, 4);
+    let y = yy + 62;
+    y += para(c.title, x + 22, y, cw - 44, F(24, 800), 29, col);
+    if (c.tag) { pill(c.tag, x + 22, y + 8, hexA(col, 0.16), F(13, 700), col); y += 34; }
+    // escala para que quepa
+    let sc = 1; const fits = s2 => { let h = 0; c.items.forEach(it => { h += wrap(it.t, cw - 70, F(21 * s2, 700)).length * 26 * s2 + wrap(it.d || '', cw - 70, F(17 * s2)).length * 22 * s2 + 22; }); return h; };
+    while (fits(sc) > bot - y - 16 && sc > 0.7) sc -= 0.05;
+    y += 8;
+    c.items.forEach((it, ii) => {
+      const ki = out(seg(lt, shown(ci, ii), 0.45)), act = cur && cur.card === ci && cur.item === ii;
+      const h = wrap(it.t, cw - 70, F(21 * sc, 700)).length * 26 * sc + wrap(it.d || '', cw - 70, F(17 * sc)).length * 22 * sc;
+      ctx.save(); ctx.globalAlpha = a * ka * (ki > 0 ? ki * (act ? 1 : 0.6) : 0.18);
+      if (act) rr(x + 12, y - 24 * sc, cw - 24, h + 22 * sc, 12, hexA(col, 0.10));
+      rr(x + 22, y - 20 * sc, 5, h + 12 * sc, 2.5, ki > 0 ? col : C.LINE);
+      const h1 = para(it.t, x + 40 + (1 - ki) * 12, y, cw - 70, F(21 * sc, 700), 26 * sc, C.INK);
+      para(it.d || '', x + 40 + (1 - ki) * 12, y + h1, cw - 70, F(17 * sc), 22 * sc, C.MUTED);
+      ctx.restore();
+      y += h + 22 * sc;
+    });
+    ctx.restore();
+  });
+  ctx.restore();
+}
+
+// ---------- tabla ----------
+function table(s, idx, lt, a) {
+  const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0, cur = beats.filter(b => b.t0 - t0 <= lt).pop();
+  const cw = [470, 365, 365], x0 = 40; let y = 150;
+  ctx.save(); ctx.globalAlpha = a;
+  rr(x0, y, 1200, 46, 12, C.CARD2);
+  let x = x0; s.head.forEach((h, i) => { text(h.toUpperCase(), x + 20, y + 30, F(14, 800), [C.MUTED, C.GREEN, C.RED][i]); x += cw[i]; });
+  y += 56;
+  const rowH = s.rows.map(r => Math.max(...r.cells.map((c, i) => wrap(c, cw[i] - 56, F(19, i ? 600 : 700)).length)) * 25 + 26);
+  const sc = Math.min(1, (676 - y) / (rowH.reduce((p, q) => p + q, 0) + 8 * s.rows.length));
+  s.rows.forEach((r, ri) => {
+    const b = beats.find(b => b.row === ri), k = out(seg(lt, sayT(b) - t0, 0.45)), act = cur && cur.row === ri, h = rowH[ri] * sc;
+    ctx.save(); ctx.globalAlpha = a * (k > 0 ? k * (act ? 1 : 0.62) : 0.1);
+    rr(x0, y, 1200, h, 12, act ? C.CARD2 : C.CARD, act ? hexA(C.CYAN, 0.7) : null, 2);
+    let xx = x0;
+    r.cells.forEach((c, i) => {
+      if (i) text(i === 1 ? '✓' : '✗', xx + 14, y + 13 + 21 * sc, F(20 * sc, 800), i === 1 ? C.GREEN : C.RED);
+      para(c, xx + (i ? 38 : 20) + (1 - k) * 10, y + 13 + 21 * sc, cw[i] - 56, F(19 * sc, i ? 600 : 700), 25 * sc, i === 2 ? '#FFB3AD' : C.INK);
+      xx += cw[i];
+    });
+    ctx.restore(); y += h + 8;
+  });
+  ctx.restore();
+}
+
+// ---------- pregunta ----------
+function quiz(s, idx, lt, a) {
+  const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0, at = k => beats.find(b => b.kind === k);
+  const tS = sayT(at('stem')) - t0, tQ = sayT(at('question')) - t0, tO = at('options'), tT = at('think').t0 - t0, tA = sayT(at('answer')) - t0;
+  const ans = seg(lt, tA - 0.2, 0.6);
+  ctx.save(); ctx.globalAlpha = a;
+  // enunciado → explicación
+  const ks = out(seg(lt, tS, 0.5));
+  ctx.save(); ctx.globalAlpha = a * ks * (1 - ans);
+  const hS = Math.max(wrap(s.stem, 1150, F(20)).length * 27 + 28, wrap(s.explanation, 1150, F(20)).length * 27 + 62);
+  rr(40, 140, 1200, hS, 16, C.CARD, C.LINE, 1.5);
+  para(s.stem, 64, 172, 1150, F(20), 27, C.INK);
+  ctx.restore();
+  if (ans > 0) {
+    ctx.save(); ctx.globalAlpha = a * ans;
+    rr(40, 140, 1200, hS, 16, hexA(C.GREEN, 0.08), C.GREEN, 2);
+    text(`Respuesta correcta: ${s.correct}`, 64, 174, F(20, 800), C.GREEN);
+    para(s.explanation, 64, 206, 1150, F(20), 27, C.INK);
+    ctx.restore();
+  }
+  let y = 140 + hS + 46;
+  const kq = out(seg(lt, tQ, 0.4));
+  text(s.question, 40 + (1 - kq) * 12, y, F(25, 800), C.AMBER, 'left', kq);
+  // cuenta regresiva
+  const th = seg(lt, tT, 3.2);
+  if (lt >= tT && lt < tA) {
+    const cx = 1200, cy = y - 9, r = 22;
+    ctx.strokeStyle = C.LINE; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(cx, cy, r, 0, 7); ctx.stroke();
+    ctx.strokeStyle = C.AMBER; ctx.beginPath(); ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (1 - th)); ctx.stroke();
+    text(String(Math.max(1, Math.ceil(3 * (1 - th)))), cx, cy + 8, F(22, 800), C.INK, 'center');
+    text('Piénsalo', cx - 38, cy + 7, F(18, 600), C.MUTED, 'right');
+  }
+  y += 26;
+  const oh = Math.min(50, (676 - y) / s.options.length);
+  s.options.forEach((o, i) => {
+    const ko = out(seg(lt, sayT(tO) - t0 + (tO.ad * (i + 0.6)) / (s.options.length + 1), 0.4));
+    const ok = o.letter === s.correct, yy = y + i * oh;
+    ctx.save(); ctx.globalAlpha = a * ko * (ans > 0 && !ok ? 1 - 0.55 * ans : 1);
+    rr(40 + (1 - ko) * 16, yy, 1200, oh - 8, 12, ans > 0 && ok ? hexA(C.GREEN, 0.18 * ans) : C.CARD, ans > 0 && ok ? C.GREEN : C.LINE, ans > 0 && ok ? 2.5 : 1.5);
+    rr(52 + (1 - ko) * 16, yy + 6, oh - 20, oh - 20, 8, ans > 0 && ok ? C.GREEN : C.CARD2);
+    text(o.letter, 52 + (oh - 20) / 2 + (1 - ko) * 16, yy + oh / 2 + 3, F(18, 800), ans > 0 && ok ? C.BG : C.INK, 'center');
+    text(o.text, 52 + oh + (1 - ko) * 16, yy + oh / 2 + 3, F(19, 500), C.INK);
+    ctx.restore();
+  });
+  ctx.restore();
+}
+
+// ---------- algoritmo (árbol con cámara) ----------
+let TREE = null;
+function buildTree() {
+  if (TREE || !D.pathway) return TREE;
+  const NW = 270, NH = 104, GX = 50, LH = 190, nodes = []; let leafX = 0;
+  (function lay(n, d, label, parent) {
+    const me = { n, d, label, parent, i: nodes.length, kids: [] }; nodes.push(me);
+    if (parent) parent.kids.push(me);
+    if (!n.kids || !n.kids.length) { me.x = leafX; leafX += NW + GX; }
+    else { n.kids.forEach(([lb, k]) => lay(k, d + 1, lb, me)); me.x = (me.kids[0].x + me.kids[me.kids.length - 1].x) / 2; }
+    me.y = d * LH;
+  })(D.pathway.root, 0, '', null);
+  TREE = { nodes, NW, NH, w: leafX - GX, h: Math.max(...nodes.map(n => n.y)) + NH };
+  return TREE;
+}
+function pathway(s, idx, lt, a) {
+  const T = buildTree(), beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0;
+  const cur = beats.filter(b => b.t0 - t0 <= lt).pop();
+  const ap = {}; beats.forEach(b => { if (b.node >= 0) ap[b.node] = sayT(b) - t0; });
+  // cámara: vista general en la introducción, luego sigue al nodo que se narra
+  const view = b => {
+    if (!b || b.node < 0) { const z = Math.min(1180 / T.w, 500 / T.h); return [T.w / 2, T.h / 2, z]; }
+    const nd = T.nodes[b.node]; return [nd.x + T.NW / 2, nd.y + T.NH / 2 + 60, 0.95];
+  };
+  const ci = beats.indexOf(cur), prev = beats[Math.max(0, ci - 1)];
+  const k = ease(seg(lt, cur.t0 - t0, 1.0)), v0 = view(prev), v1 = view(cur);
+  const cam = [0, 1, 2].map(i => lerp(v0[i], v1[i], ci ? k : 1));
+  ctx.save(); ctx.globalAlpha = a;
+  ctx.beginPath(); ctx.rect(0, 135, W, 545); ctx.clip();
+  ctx.translate(640, 410); ctx.scale(cam[2], cam[2]); ctx.translate(-cam[0], -cam[1]);
+  const ghost = 0.4 * (1 - seg(lt, ap[0] ?? 0, 0.8));
+  for (const nd of T.nodes) {
+    if (!nd.parent || ap[nd.i] == null) continue;
+    let ke = ease(seg(lt, ap[nd.i] - 0.1, 0.6));
+    ctx.save(); if (ke <= 0) { if (ghost <= 0) { ctx.restore(); continue; } ke = 1; ctx.globalAlpha = a * ghost; }
+    const p = nd.parent, x1 = p.x + T.NW / 2, y1 = p.y + T.NH, x2 = nd.x + T.NW / 2, y2 = nd.y, my = (y1 + y2) / 2;
+    ctx.strokeStyle = '#4A5563'; ctx.lineWidth = 3; ctx.beginPath();
+    const pts = [[x1, y1], [x1, my], [x2, my], [x2, y2]];
+    const L = [my - y1, Math.abs(x2 - x1), y2 - my], tot = L[0] + L[1] + L[2]; let left = tot * ke;
+    ctx.moveTo(x1, y1);
+    for (let i = 0; i < 3 && left > 0; i++) { const f = Math.min(1, left / (L[i] || 1)); ctx.lineTo(lerp(pts[i][0], pts[i + 1][0], f), lerp(pts[i][1], pts[i + 1][1], f)); left -= L[i]; }
+    ctx.stroke();
+    if (nd.label && ke > 0.6) pill(nd.label, x2, my + 2, C.CARD2, F(15, 700), C.INK, 'center');
+    ctx.restore();
+  }
+  for (const nd of T.nodes) {
+    if (ap[nd.i] == null) continue;
+    const kn = out(seg(lt, ap[nd.i] + 0.3, 0.5)); if (kn <= 0 && ghost <= 0) continue;
+    const col = kc(nd.n.k), act = cur && cur.node === nd.i;
+    ctx.save(); ctx.globalAlpha = kn > 0 ? a * kn * (act ? 1 : 0.55) : a * ghost;
+    { const ga = ctx.globalAlpha; ctx.globalAlpha = kn > 0 ? a * kn : a * ghost; rr(nd.x, nd.y, T.NW, T.NH, 16, C.BG); ctx.globalAlpha = ga; }
+    if (act) { ctx.shadowColor = hexA(col, 0.6); ctx.shadowBlur = 30; }
+    rr(nd.x, nd.y, T.NW, T.NH, 16, C.CARD, act ? col : C.LINE, act ? 3 : 1.5); ctx.shadowBlur = 0;
+    rr(nd.x, nd.y, T.NW, 6, 3, col);
+    const h1 = para(nd.n.t, nd.x + T.NW / 2, nd.y + 38, T.NW - 30, F(19, 700), 23, C.INK, 'center');
+    para(nd.n.s || '', nd.x + T.NW / 2, nd.y + 38 + h1, T.NW - 30, F(15), 19, C.MUTED, 'center');
+    ctx.restore();
+  }
+  ctx.restore();
+}
+
+// ---------- animación (cuadros del MP4) ----------
+async function image(s, idx, lt, a) {
+  const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0, cur = beats.filter(b => b.t0 - t0 <= lt).pop();
+  const im = s.images[Math.min(cur.step, s.images.length - 1)], m = D.media[im.src];
+  if (!m) return;
+  const f = clamp(Math.floor((lt - (sayT(cur) - t0)) * 30) + 1, 1, m.n);
+  const src = `../out/${D.id}/${m.dir}/f${String(f).padStart(4, '0')}.jpg`;
+  const img = await loadImg(src);
+  ctx.save(); ctx.globalAlpha = a; ctx.drawImage(img, 0, 0, W, H); ctx.restore();
+}
+
+// ---------- render ----------
+window.SCENE = { duration: D.total, fps: 30 };
+window.render = async function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, W, H);
+  const bi = beatAt(t), b = B[bi];
+  if (b.slide === -1) return intro(t - b.t0);
+  const idx = b.slide, beats = SLIDE_BEATS[idx], first = B[beats[0]], last = B[beats[beats.length - 1]];
+  const t0 = first.t0, t1 = last.t0 + last.dur, lt = t - t0;
+  const a = ease(seg(lt, 0, 0.55)) * (1 - ease(seg(t, t1 - 0.3, 0.3)));
+  if (idx === -2) { outro(lt, ease(seg(lt, 0, 0.6))); footer(t); return; }
+  const s = D.slides[idx];
+  if (s.type === 'image') { await image(s, idx, lt, a); ctx.fillStyle = C.CYAN; ctx.fillRect(0, 716, W * t / D.total, 4); return; }
+  if (s.type === 'cover') cover(s, t, lt, a);
+  else {
+    chrome(s, t, a);
+    if (s.type === 'flow') flow(s, idx, lt, a);
+    else if (s.type === 'points') points(s, idx, lt, a);
+    else if (s.type === 'table') table(s, idx, lt, a);
+    else if (s.type === 'quiz') quiz(s, idx, lt, a);
+    else if (s.type === 'pathway') pathway(s, idx, lt, a);
+  }
+  footer(t);
+};
+
+Promise.all([loadImg('../assets/neurona_alpha.png'), document.fonts.load('800 20px Syne'), document.fonts.load('700 20px Inter'),
+  document.fonts.load('400 20px Inter'), document.fonts.load('20px DMMono')]).then(() => document.fonts.ready)
+  .then(async () => { await window.render(0); window.READY = true; });
+</script>
+</body></html>

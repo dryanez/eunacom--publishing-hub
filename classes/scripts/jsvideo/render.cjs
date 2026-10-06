@@ -17,14 +17,15 @@ const W = 1280, H = 720;
 async function open() {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
-  await page.goto('file://' + path.join(HERE, 'scenes', scene + '.html'));
+  const [name, q] = scene.split('?');
+  await page.goto('file://' + path.join(HERE, 'scenes', name + '.html') + (q ? '?' + q : ''));
   await page.waitForFunction(() => window.READY === true);
   const info = await page.evaluate(() => window.SCENE);
   return { browser, page, info };
 }
 
 async function shot(page, t) {
-  await page.evaluate(t => window.render(t), t);
+  await page.evaluate(t => window.render(t), t);   // render puede ser async (cuadros de video)
   return page.screenshot({ type: 'png', clip: { x: 0, y: 0, width: W, height: H } });
 }
 
@@ -34,7 +35,7 @@ async function shot(page, t) {
 
   if (rest[0] === '--frames') {
     const dir = rest[1]; fs.mkdirSync(dir, { recursive: true });
-    for (const t of rest.slice(2).map(Number)) fs.writeFileSync(path.join(dir, `t${t.toFixed(1).padStart(5, '0')}.png`), await shot(page, t));
+    for (const t of rest.slice(2).map(Number)) fs.writeFileSync(path.join(dir, `t${t.toFixed(1).padStart(6, '0')}.png`), await shot(page, t));
   } else if (rest[0] === '--sheet') {
     const out = rest[1], n = +(rest[2] || 12);
     const tmp = fs.mkdtempSync('/tmp/jsv_');
