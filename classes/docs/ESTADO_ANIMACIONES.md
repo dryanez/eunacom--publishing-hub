@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **37**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **23**
+- ✅ Hechas con anatomía real (3D o Blausen): **40**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **22**
 - 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **37**
-- ⬜ Pendientes (aún sin video): **170**
+- ⬜ Pendientes (aún sin video): **168**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (23)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (22)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -32,10 +32,9 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-19 | (animación existente, no estaba en el plan) |  |  | A1_facial_central.mp4, A2_facial_periferica.mp4 |
 | ob-18 | (animación existente, no estaba en el plan) |  |  | A1_atonia.mp4 |
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
-| oftal-06 | (animación existente, no estaba en el plan) |  |  | A1_cierre_angulo.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (170)
+## ⬜ Pendientes (aún sin video) (168)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -51,8 +50,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-13 | Reflujo vesicoureteral: orina que sube por el uréter al orinar | 3D | ★★★ |  |
 | ped-22 | Ortolani (cadera que entra) y Barlow (cadera que sale) en 3D | 3D | ★★★ |  |
 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | 3D | ★★★ |  |
-| reuma-03 | Cristales de urato que precipitan en la articulación fría (podagra) | 3D | ★★★ |  |
-| reuma-04 | Cartílago que se gasta; osteofitos que crecen | 3D | ★★★ |  |
 | reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | 3D | ★★★ |  |
 | reuma-14 | Raynaud: blanco, azul y rojo en los dedos | 3D | ★★★ |  |
 | reuma-17 | De la sacroilitis a la columna en caña de bambú | 3D | ★★★ |  |
@@ -210,7 +207,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (37)
+## ✅ Hechas con anatomía real (3D o Blausen) (40)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -239,6 +236,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-11 | Criterios de Light: trasudado vs exudado (presiones de Starling) | M | ★★★ | A1_trasudado_exudado_real.mp4 |
 | resp-19 | Trombo que viaja de la pierna al pulmón | 3D | ★★★ | A1_tep_3d.mp4 |
 | resp-22 | Alvéolo inundado del distrés; ventilación protectora | M | ★★★ | A1_distres_real.mp4 |
+| reuma-03 | Cristales de urato que precipitan en la articulación fría (podagra) | 3D | ★★★ | A1_podagra_3d.mp4 |
+| reuma-04 | Cartílago que se gasta; osteofitos que crecen | 3D | ★★★ | A1_artrosis_3d.mp4 |
 | cirugia-04 | (animación existente, no estaba en el plan) |  |  | A1_obstruccion_3d.mp4 |
 | endo-20 | (animación existente, no estaba en el plan) |  |  | A1_macroadenoma_3d.mp4 |
 | gastro-19 | (animación existente, no estaba en el plan) |  |  | A1_apendicitis_3d.mp4 |
@@ -246,6 +245,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-23 | (animación existente, no estaba en el plan) |  |  | A1_fractura_cadera_3d.mp4 |
 | ob-13 | (animación existente, no estaba en el plan) |  |  | A1_placenta_previa.mp4, A2_dppni_real.mp4 |
 | ob-16 | (animación existente, no estaba en el plan) |  |  | A1_mecanismo_parto_3d.mp4 |
+| oftal-06 | (animación existente, no estaba en el plan) |  |  | A1_cierre_angulo_3d.mp4 |
 | ped-08 | (animación existente, no estaba en el plan) |  |  | A1_bronquio_derecho_3d.mp4 |
 | resp-08 | (animación existente, no estaba en el plan) |  |  | A1_aspiracion_3d.mp4 |
 | resp-14 | (animación existente, no estaba en el plan) |  |  | A1_tension_3d.mp4, A2_puncion_3d.mp4 |

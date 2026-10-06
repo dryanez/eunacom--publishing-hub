@@ -211,6 +211,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La podagra en movimiento',
+      images: [
+        { src: 'animaciones/reuma-03/A1_podagra_3d.mp4', label: 'Gota', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Precipita en el frío',
+          say: 'Con el ácido úrico alto, el urato está disuelto al límite. En la primera metatarsofalángica, que es distal y fría, precipita en cristales en aguja. Los neutrófilos los fagocitan y se desata una inflamación intensa: dolor, rubor, calor e hinchazón.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Gota y pseudogota',

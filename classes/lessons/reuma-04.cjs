@@ -154,6 +154,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La rodilla con artrosis',
+      images: [
+        { src: 'animaciones/reuma-04/A1_artrosis_3d.mp4', label: 'Artrosis', credit: 'Modelo 3D: Z-Anatomy (CC BY-SA 4.0) · BodyParts3D (DBCLS, CC BY 4.0)' },
+      ],
+      steps: [
+        { note: 'Cartílago que se gasta',
+          say: 'En la rodilla sana, el cartílago cubre los cóndilos y el platillo. En la artrosis se gasta, sobre todo en el compartimento medial, y el espacio articular se estrecha. El hueso responde: crecen osteofitos en los bordes y el hueso bajo el cartílago se esclerosa.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Artrosis',
