@@ -217,6 +217,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La curva de tolerancia',
+      images: [
+        { src: 'animaciones/diab-02/A1_ptgo.mp4', label: 'PTGO', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'A las dos horas: bajo 140, 140 a 199, 200 o más',
+          say: 'Se dan setenta y cinco gramos de glucosa y se mide a las dos horas. Bajo ciento cuarenta es normal; entre ciento cuarenta y ciento noventa y nueve, intolerancia a la glucosa; y doscientos o más, diabetes. En ayunas, entre cien y ciento veinticinco es glicemia alterada, y ciento veintiséis o más, diabetes.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'La resistencia a la insulina en la piel',
       images: [

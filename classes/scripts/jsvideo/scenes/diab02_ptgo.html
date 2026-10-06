@@ -1,0 +1,64 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script>
+<script>
+// diab-02: prueba de tolerancia a la glucosa oral (75 g): normal, intolerancia, diabetes; cortes de ayuno y a las 2 horas.
+window.SCENE = { duration: 22, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, text, tag, rrect } = L;
+const G = GRAPH(L), { seg, out } = G;
+const ax = G.axes({ x: 120, y: 160, w: 760, h: 450 }, [0, 120], [50, 300],
+  { xt: [0, 30, 60, 90, [120, '120 min']], yt: [50, 100, 150, 200, 250, 300], yl: 'Glicemia (mg/dL)', xl: 'Minutos después de tomar 75 g de glucosa' });
+const CUR = [
+  { name: 'Normal', col: C.GREEN, t0: 3.0, pts: [[0, 88], [30, 135], [45, 142], [60, 132], [90, 115], [120, 108]], end: 'bajo 140' },
+  { name: 'Intolerancia a la glucosa', col: C.AMBER, t0: 7.2, pts: [[0, 108], [30, 168], [60, 195], [90, 182], [120, 168]], end: '140 a 199' },
+  { name: 'Diabetes', col: C.RED, t0: 11.4, pts: [[0, 135], [30, 215], [60, 262], [90, 250], [120, 232]], end: '200 o más' },
+].map(c => ({ ...c, f: G.smooth(c.pts) }));
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  text('Prueba de tolerancia a la glucosa', 40, 70, 40, C.BLUE, 'bold');
+  text('Se toman 75 gramos y se mide a las dos horas', 40, 106, 23, C.MUTED);
+  ax.draw(seg(t, 0, 0.7));
+  // vaso de glucosa en el minuto cero
+  const g = seg(t, 1.0, 0.6);
+  if (g > 0 && t < 4) { ctx.globalAlpha = g * (1 - seg(t, 3.4, 0.5)); tag('75 g de glucosa', ax.X(0) + 70, ax.Y(285), C.BLUE); ctx.globalAlpha = 1; }
+  // franjas de corte a las 2 horas
+  const bz = seg(t, 15.5, 0.8);
+  G.band(ax, 50, 140, 'rgba(61,220,132,0.10)', bz, null, 100, 120);
+  G.band(ax, 140, 200, 'rgba(255,194,71,0.13)', bz, null, 100, 120);
+  G.band(ax, 200, 300, 'rgba(255,90,78,0.13)', bz, null, 100, 120);
+  G.hline(ax, 140, C.AMBER, '140', seg(t, 8.5, 0.8));
+  G.hline(ax, 200, C.RED, '200', seg(t, 12.7, 0.8));
+  // curvas
+  CUR.forEach((c, i) => {
+    const k = ease(seg(t, c.t0, 3.0));
+    const p = G.curve(ax, c.f, k, c.col, 5);
+    if (k < 1) G.head(p, c.col);
+    const lab = seg(t, c.t0 + 3.0, 0.4);
+    if (lab > 0) {
+      ctx.globalAlpha = lab;
+      ctx.fillStyle = c.col; ctx.beginPath(); ctx.arc(ax.X(120), ax.Y(c.f(120)), 8, 0, 7); ctx.fill();
+      const y = 250 + i * 110;
+      rrect(930, y - 34, 310, 86, 14, '#161B22');
+      ctx.fillStyle = c.col; ctx.fillRect(930, y - 34, 6, 86);
+      text(c.name, 952, y - 4, 22, c.col, 'bold');
+      text(`A las 2 horas: ${c.end}`, 952, y + 30, 20, C.INK);
+      ctx.globalAlpha = 1;
+    }
+  });
+  // ayuno
+  const fa = seg(t, 17.6, 0.6);
+  if (fa > 0) {
+    ctx.globalAlpha = fa;
+    G.hline(ax, 100, C.MUTED, null, 1); G.hline(ax, 126, C.MUTED, null, 1);
+    text('Ayuno: 100 a 125 alterada · 126 o más diabetes', ax.X(2), ax.Y(100) + 30, 18, C.INK, 'bold');
+    ctx.globalAlpha = 1;
+  }
+  text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

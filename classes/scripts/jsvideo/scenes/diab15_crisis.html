@@ -84,9 +84,10 @@ window.render = function (t) {
   if (CAD) dots(AGL, t, 5.2, 12, '#F2CF5B', 6, 0.8);
   else if (t > 5.2) {
     const k = seg(t, 5.2, 0.4) * (1 - seg(t, 11.5, 0.5));
+    if (k > 0.01) {
     ctx.globalAlpha = k; ctx.strokeStyle = C.BLUE; ctx.lineWidth = 6; ctx.lineCap = 'round';
     ctx.beginPath(); ctx.moveTo(780, 175); ctx.lineTo(820, 215); ctx.moveTo(820, 175); ctx.lineTo(780, 215); ctx.stroke(); ctx.globalAlpha = 1;
-  }
+  } }
   if (t > 5.4 && t < 11.8) {
     ctx.globalAlpha = seg(t, 5.4, 0.4) * (1 - seg(t, 11.3, 0.5));
     tag(CAD ? 'Lipólisis sin freno: ácidos grasos al hígado' : 'La insulina frena la lipólisis', 760, 120, CAD ? '#F2CF5B' : C.BLUE, 19);
@@ -96,7 +97,7 @@ window.render = function (t) {
   // 3) el hígado: glucosa (siempre) y cetonas (solo sin insulina)
   dots(KET, t, 8.0, 10, '#FFFFFF', 6, 0.7, 1e9, 'sq');
   if (CAD) dots(poly([[290, 215], [345, 250], [380, 330], [390, 430], [380, 540], [360, 610]].map(p => P(...p))), t, 9.2, 12, C.RED, 7, 0.75);
-  else if (t > 9.2) {
+  else if (t > 9.2 && t < 14) {
     ctx.globalAlpha = seg(t, 9.2, 0.4) * (1 - seg(t, 13.5, 0.5));
     const [x, y] = P(370, 300); ctx.strokeStyle = C.BLUE; ctx.lineWidth = 6;
     ctx.beginPath(); ctx.moveTo(x - 16, y - 16); ctx.lineTo(x + 16, y + 16); ctx.moveTo(x + 16, y - 16); ctx.lineTo(x - 16, y + 16); ctx.stroke();
@@ -113,12 +114,7 @@ window.render = function (t) {
   if (!CAD && t > 12) {
     const k = seg(t, 12, 0.5);
     ctx.globalAlpha = k;
-    tag('La glucosa arrastra agua por la orina: 8 a 12 litros', 980, 650, C.BLUE, 18);
-    for (let i = 0; i < 7; i++) {
-      const u = ((t - 12) * 0.6 + i / 7) % 1, x = 790 + i * 55, y = 560 + u * 60;
-      ctx.globalAlpha = k * (1 - u); ctx.fillStyle = C.BLUE;
-      ctx.beginPath(); ctx.moveTo(x, y - 10); ctx.quadraticCurveTo(x + 8, y + 2, x, y + 6); ctx.quadraticCurveTo(x - 8, y + 2, x, y - 10); ctx.fill();
-    }
+    tag('La glucosa arrastra agua por la orina: 8 a 12 litros', 980, 612, C.BLUE, 18);
     ctx.globalAlpha = 1;
   }
 
@@ -137,9 +133,9 @@ window.render = function (t) {
   if (t > 17.5) {
     const k = seg(t, 17.5, 0.5);
     ctx.globalAlpha = k;
-    rrect(40, 650, 670, 50, 25, CAD ? 'rgba(255,90,78,0.18)' : 'rgba(255,194,71,0.16)');
-    text(CAD ? 'Problema de ácido: cetonas y pH bajo 7,30' : 'Problema de agua: glicemia sobre 600, sin acidosis',
-         375, 683, 22, C.INK, 'bold', 'center');
+    rrect(745, 640, 500, 50, 25, CAD ? 'rgba(255,90,78,0.22)' : 'rgba(255,194,71,0.2)');
+    text(CAD ? 'Problema de ácido: cetonas y pH bajo 7,30' : 'Problema de agua: sobre 600, sin acidosis',
+         995, 673, 21, C.INK, 'bold', 'center');
     ctx.globalAlpha = 1;
   }
   text('Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right');

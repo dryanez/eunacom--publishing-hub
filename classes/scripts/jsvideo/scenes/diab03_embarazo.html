@@ -1,0 +1,70 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script>
+<script>
+// diab-03: la placenta (lactógeno placentario, progesterona, cortisol, prolactina) sube la resistencia a la insulina desde
+// las 20 a 24 semanas; la PTGO se hace a las 24 a 28 semanas; tras el parto la resistencia cae.
+window.SCENE = { duration: 20, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), { seg, out } = G;
+const ax = G.axes({ x: 110, y: 170, w: 760, h: 400 }, [0, 46], [0, 100],
+  { xt: [0, 10, 20, 24, 28, [40, '40 sem']], yt: [], yl: 'Resistencia a la insulina', xl: 'Semanas de embarazo' });
+const res = G.smooth([[0, 12], [10, 13], [16, 17], [20, 26], [24, 40], [28, 56], [32, 70], [36, 80], [40, 86], [41, 40], [42, 16], [46, 12]]);
+const ins = G.smooth([[0, 14], [10, 15], [16, 19], [20, 28], [24, 43], [28, 60], [32, 74], [36, 84], [40, 90], [41, 42], [42, 17], [46, 13]]);
+const HORM = ['Lactógeno placentario', 'Progesterona', 'Cortisol', 'Prolactina'];
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  text('Embarazo: la placenta resiste a la insulina', 40, 70, 40, C.VIOLET, 'bold');
+  text('Es fisiológico: asegura glucosa al feto', 40, 106, 23, C.MUTED);
+  ax.draw(seg(t, 0, 0.7));
+  // ventana de la PTGO
+  const w = seg(t, 9.0, 0.6);
+  if (w > 0) {
+    ctx.globalAlpha = w; ctx.fillStyle = 'rgba(79,163,255,0.14)';
+    ctx.fillRect(ax.X(24), ax.box.y, ax.X(28) - ax.X(24), ax.box.h);
+    tag('PTGO 75 g', ax.X(26), ax.box.y + 22, C.BLUE, 17);
+    ctx.globalAlpha = 1;
+  }
+  const k = ease(seg(t, 1.8, 10));
+  const p = G.curve(ax, res, k, C.RED, 5, 0, 46);
+  G.head(p, C.RED);
+  const ki = ease(seg(t, 5.2, 8));
+  ctx.globalAlpha = 0.9; G.curve(ax, ins, ki, C.BLUE, 3, 0, 46, [10, 7]); ctx.globalAlpha = 1;
+  if (ki > 0.3) { ctx.globalAlpha = seg(t, 7, 0.5); text('Insulina que necesita', ax.X(30), ax.Y(ins(30)) - 18, 17, C.BLUE, 'bold', 'right'); ctx.globalAlpha = 1; }
+  // las hormonas de la placenta entran
+  HORM.forEach((h, i) => {
+    const a = seg(t, 3.0 + i * 0.6, 0.5); if (a <= 0) return;
+    ctx.globalAlpha = a;
+    rrect(920, 175 + i * 62, 320, 48, 12, '#161B22'); ctx.fillStyle = C.VIOLET; ctx.fillRect(920, 175 + i * 62, 6, 48);
+    text(h, 942, 207 + i * 62, 20, C.INK, i === 0 ? 'bold' : '');
+    text('↑', 1215, 208 + i * 62, 24, C.RED, 'bold', 'right');
+    ctx.globalAlpha = 1;
+  });
+  if (t > 4.5) { ctx.globalAlpha = seg(t, 4.5, 0.5); text('Hormonas de la placenta', 920, 160, 18, C.VIOLET, 'bold'); ctx.globalAlpha = 1; }
+  // parto
+  const pa = seg(t, 12.2, 0.5);
+  if (pa > 0) { ctx.globalAlpha = pa; G.vline(ax, 40.5, C.GREEN, 'Parto', 1); tag('Sale la placenta: la resistencia cae', ax.X(40) - 150, ax.Y(30), C.GREEN, 17); ctx.globalAlpha = 1; }
+  // mensajes finales
+  if (t > 15) {
+    const a = seg(t, 15, 0.5); ctx.globalAlpha = a;
+    rrect(920, 440, 320, 130, 16, 'rgba(255,90,78,0.14)');
+    text('Diabetes gestacional', 942, 474, 21, C.RED, 'bold');
+    text('Ayuno 100 o más (×2)', 942, 508, 19, C.INK);
+    text('PTGO: basal 100 o 2 h 140', 942, 540, 19, C.INK);
+    ctx.globalAlpha = 1;
+  }
+  if (t > 17) {
+    const a = seg(t, 17, 0.5); ctx.globalAlpha = a;
+    rrect(110, 620, 760, 50, 25, 'rgba(179,136,255,0.16)');
+    text('Basta un solo valor alterado; no existe la prediabetes', 490, 652, 20, C.INK, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+  text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

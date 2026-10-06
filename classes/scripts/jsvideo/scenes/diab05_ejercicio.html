@@ -1,0 +1,72 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script>
+<script>
+// diab-05: el ejercicio baja la glicemia y deja la sensibilidad a la insulina alta 24 a 48 h. Con insulina o sulfonilurea
+// aparece la hipoglicemia tardía, típicamente nocturna. 150 min/semana, al menos 3 días, sin más de 2 días seguidos sin actividad.
+window.SCENE = { duration: 20, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), { seg, out } = G;
+const ax = G.axes({ x: 110, y: 170, w: 760, h: 400 }, [0, 48], [40, 220],
+  { xt: [0, 6, 12, 24, 36, [48, '48 h']], yt: [40, 70, 100, 150, 200], yl: 'Glicemia (mg/dL)', xl: 'Horas desde el ejercicio' });
+const sin = G.smooth([[0, 170], [1, 125], [3, 135], [6, 140], [10, 128], [16, 150], [24, 145], [36, 150], [48, 155]]);
+const con = G.smooth([[0, 170], [1, 118], [3, 120], [6, 98], [8, 74], [10, 58], [12, 72], [16, 120], [24, 135], [36, 145], [48, 152]]);
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  text('Ejercicio: el efecto dura uno a dos días', 40, 70, 40, C.GREEN, 'bold');
+  text('La sensibilidad a la insulina queda alta 24 a 48 horas', 40, 106, 23, C.MUTED);
+  ax.draw(seg(t, 0, 0.7));
+  // ejercicio y ventana de sensibilidad
+  const e = seg(t, 1.0, 0.5);
+  if (e > 0) { ctx.globalAlpha = e; ctx.fillStyle = 'rgba(61,220,132,0.25)'; ctx.fillRect(ax.X(0), ax.box.y, ax.X(1) - ax.X(0), ax.box.h); tag('Ejercicio', ax.X(0.5) + 44, ax.box.y + 20, C.GREEN, 16); ctx.globalAlpha = 1; }
+  const sv = seg(t, 2.0, 1.2);
+  if (sv > 0) {
+    ctx.globalAlpha = sv * 0.9; ctx.fillStyle = 'rgba(61,220,132,0.08)'; ctx.fillRect(ax.X(1), ax.box.y + 40, (ax.X(48) - ax.X(1)) * out(sv), ax.box.h - 40);
+    text('Sensibilidad a la insulina aumentada', ax.X(30), ax.box.y + 64, 18, C.GREEN, 'bold', 'center'); ctx.globalAlpha = 1;
+  }
+  G.hline(ax, 70, C.RED, 'Hipoglicemia: bajo 70', seg(t, 1.5, 0.7), 'left');
+  // noche
+  const n = seg(t, 3.0, 0.6);
+  if (n > 0) { ctx.globalAlpha = n; ctx.fillStyle = 'rgba(79,163,255,0.08)'; ctx.fillRect(ax.X(6), ax.box.y, ax.X(14) - ax.X(6), ax.box.h); text('Noche', ax.X(10), ax.box.y + 100, 17, C.BLUE, 'bold', 'center'); ctx.globalAlpha = 1; }
+  // sin fármacos que bajen la glicemia
+  const k1 = ease(seg(t, 3.5, 4.5));
+  G.curve(ax, sin, k1, C.MUTED, 4);
+  if (k1 > 0.95) { ctx.globalAlpha = seg(t, 8, 0.5); text('Solo dieta o metformina', ax.X(47), ax.Y(sin(47)) - 14, 17, C.MUTED, 'bold', 'right'); ctx.globalAlpha = 1; }
+  // con insulina o sulfonilurea
+  const k2 = ease(seg(t, 8.6, 5));
+  const p = G.curve(ax, con, k2, C.AMBER, 5);
+  if (k2 < 1) G.head(p, C.AMBER);
+  if (k2 > 0.2) { ctx.globalAlpha = seg(t, 9.6, 0.5); text('Con insulina o sulfonilurea', ax.X(26), ax.Y(con(26)) + 30, 17, C.AMBER, 'bold'); ctx.globalAlpha = 1; }
+  const h = seg(t, 11.2, 0.5);
+  if (h > 0) {
+    ctx.globalAlpha = h;
+    const x = ax.X(10), y = ax.Y(58); ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, 22 + 4 * Math.sin(t * 6), 0, 7); ctx.stroke();
+    tag('Hipoglicemia tardía, nocturna', ax.X(23), ax.Y(52), C.RED, 18);
+    ctx.globalAlpha = 1;
+  }
+  // receta
+  const r = seg(t, 14.5, 0.6);
+  if (r > 0) {
+    ctx.globalAlpha = r;
+    rrect(920, 175, 320, 260, 16, '#161B22');
+    text('La receta', 942, 212, 22, C.GREEN, 'bold');
+    const L2 = ['150 min a la semana', 'Aeróbico moderado', 'Al menos 3 días', 'Nunca más de 2 días', 'seguidos sin moverse', '+ fuerza 2 a 3 veces'];
+    L2.forEach((s, i) => text(s, 942, 252 + i * 31, 19, i === 0 ? C.INK : C.MUTED, i === 0 ? 'bold' : ''));
+    ctx.globalAlpha = 1;
+  }
+  if (t > 17) {
+    const a = seg(t, 17, 0.5); ctx.globalAlpha = a;
+    rrect(920, 460, 320, 110, 16, 'rgba(255,90,78,0.14)');
+    text('Con insulina o sulfonilurea:', 942, 494, 19, C.RED, 'bold');
+    text('glicemia antes de salir', 942, 526, 19, C.INK); text('y colación si está baja', 942, 554, 19, C.INK);
+    ctx.globalAlpha = 1;
+  }
+  text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

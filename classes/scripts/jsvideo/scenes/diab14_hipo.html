@@ -1,0 +1,68 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script>
+<script>
+// diab-14: hipoglicemia. Bajo 70 aparecen los síntomas adrenérgicos (alarma); bajo 54, los neuroglucopénicos.
+// ?v=bb: con propranolol se pierde la alarma salvo la sudoración.
+const BB = new URLSearchParams(location.search).get('v') === 'bb';
+window.SCENE = { duration: 20, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), { seg, out } = G;
+const ax = G.axes({ x: 110, y: 170, w: 520, h: 430 }, [0, 60], [30, 110],
+  { xt: [0, 20, 40, [60, '60 min']], yt: [30, 54, 70, 90, 110], yl: 'Glicemia (mg/dL)', xl: 'Tiempo' });
+const f = G.smooth([[0, 102], [10, 96], [22, 80], [32, 68], [42, 56], [52, 44], [60, 38]]);
+const ADR = ['Sudor frío', 'Temblor', 'Taquicardia y palpitaciones', 'Hambre intensa', 'Ansiedad y palidez'];
+const NEU = ['Cefalea y confusión', 'Conducta extraña', 'Convulsión', 'Coma'];
+const KEEP = { 'Sudor frío': 1, 'Hambre intensa': 1 };          // colinérgicos: el betabloqueador no los borra
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  text(BB ? 'Con betabloqueador: se pierde la alarma' : 'Hipoglicemia: primero la alarma', 40, 70, 40, BB ? C.RED : C.AMBER, 'bold');
+  text(BB ? 'El propranolol borra el temblor y la taquicardia; el sudor se mantiene' : 'Los síntomas aparecen en orden mientras cae la glicemia', 40, 106, 23, C.MUTED);
+  ax.draw(seg(t, 0, 0.7));
+  G.band(ax, 54, 70, 'rgba(255,194,71,0.10)', seg(t, 1.0, 0.6));
+  G.band(ax, 30, 54, 'rgba(255,90,78,0.12)', seg(t, 1.0, 0.6));
+  G.hline(ax, 70, C.AMBER, 'Nivel 1: bajo 70', seg(t, 1.2, 0.7), 'left');
+  G.hline(ax, 54, C.RED, 'Nivel 2: bajo 54', seg(t, 1.6, 0.7), 'left');
+  const k = seg(t, 2.2, 13);                                 // lineal: los cruces de 70 y 54 calzan con las listas
+  const p = G.curve(ax, f, k, C.INK, 5);
+  const g = f(lerp(0, 60, k));
+  G.head(p, g < 54 ? C.RED : g < 70 ? C.AMBER : C.BLUE);
+  if (p) text(`${Math.round(g)}`, p[0] + 16, p[1] - 14, 22, C.INK, 'bold');
+  // listas de síntomas
+  const tA = 2.2 + 13 * 0.5, tN = 2.2 + 13 * 0.72;            // cuándo cruza 70 y 54 (aprox.)
+  const col = (x, y, title, color, items, t0, mark) => {
+    const a = seg(t, t0, 0.5); if (a <= 0) return;
+    ctx.globalAlpha = a; rrect(x, y, 270, 46 + items.length * 46, 14, '#161B22'); ctx.fillStyle = color; ctx.fillRect(x, y, 6, 46 + items.length * 46);
+    text(title, x + 20, y + 32, 21, color, 'bold');
+    items.forEach((s, i) => {
+      const b = seg(t, t0 + 0.3 + i * 0.45, 0.4); if (b <= 0) return;
+      const lost = BB && mark && !KEEP[s], cross = seg(t, t0 + 3.2 + i * 0.25, 0.4);
+      ctx.globalAlpha = a * b * (lost ? 1 - 0.6 * cross : 1);
+      text(s, x + 20 + (1 - out(b)) * 10, y + 74 + i * 46, 20, C.INK);
+      if (lost && cross > 0) { ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x + 16, y + 67 + i * 46); ctx.lineTo(x + 16 + 230 * cross, y + 67 + i * 46); ctx.stroke(); }
+      ctx.globalAlpha = a;
+    });
+    ctx.globalAlpha = 1;
+  };
+  col(680, 150, 'Adrenérgicos (alarma)', C.AMBER, ADR, tA, true);
+  col(970, 150, 'Neuroglucopénicos', C.RED, NEU, tN, false);
+  if (BB && t > tA + 5.5) {
+    const a = seg(t, tA + 5.5, 0.5); ctx.globalAlpha = a;
+    tag('Queda solo el sudor: esa es la pista', 825, 450, C.AMBER, 19); ctx.globalAlpha = 1;
+  }
+  // mensaje final
+  if (t > 17.2) {
+    const a = seg(t, 17.2, 0.5); ctx.globalAlpha = a;
+    rrect(680, 560, 560, 56, 28, BB ? 'rgba(255,90,78,0.2)' : 'rgba(255,194,71,0.18)');
+    text(BB ? 'Pasa directo a la confusión, sin avisar' : 'Regla de los 15: 15 g de azúcar y controlar en 15 min', 960, 596, 20, C.INK, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+  text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

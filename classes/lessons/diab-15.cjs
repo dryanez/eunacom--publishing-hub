@@ -178,14 +178,14 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Falta total o parcial de insulina',
       images: [
-        { src: 'animaciones/diab-15/A1_cad.mp4', label: 'Cetoacidosis', credit: 'Animación propia' },
-        { src: 'animaciones/diab-15/A2_hiperosmolar.mp4', label: 'Hiperosmolar', credit: 'Animación propia' },
+        { src: 'animaciones/diab-15/A1_cad_real.mp4', label: 'Cetoacidosis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+        { src: 'animaciones/diab-15/A2_hiperosmolar_real.mp4', label: 'Hiperosmolar', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Cetonas y acidosis',
-          say: 'Sin nada de insulina, el hígado fabrica glucosa y la grasa se quema: aparecen las cetonas y la acidosis.' },
+          say: 'Sin nada de insulina, y con las hormonas contrarreguladoras al máximo, la grasa se quema sin freno y los ácidos grasos llegan al hígado. El hígado fabrica glucosa y cetonas: la glicemia sube, pero sobre todo cae el pH. Es un problema de ácido.' },
         { note: 'Sin cetosis, osmolaridad altísima',
-          say: 'En el hiperosmolar queda algo de insulina en el hígado, suficiente para frenar las cetonas. Pero la glicemia y la osmolaridad suben muchísimo, con deshidratación y compromiso de conciencia.' },
+          say: 'En el hiperosmolar queda algo de insulina, que llega al hígado por la porta y alcanza para frenar la lipólisis y las cetonas. Pero la glicemia sube sin control, arrastra agua por la orina y la osmolaridad pasa de trescientos veinte. Es un problema de agua.' },
       ],
     },
 

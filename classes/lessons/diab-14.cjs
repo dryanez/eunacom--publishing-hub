@@ -219,6 +219,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Primero la alarma, después el cerebro',
+      images: [
+        { src: 'animaciones/diab-14/A1_alarma.mp4', label: 'Hipoglicemia', credit: 'Animación propia' },
+        { src: 'animaciones/diab-14/A2_betabloqueador.mp4', label: 'Con betabloqueador', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Bajo setenta, adrenérgicos; bajo cincuenta y cuatro, neuroglucopénicos',
+          say: 'Mientras cae la glicemia, bajo setenta aparece la alarma adrenérgica: sudor, temblor, taquicardia y hambre. Bajo cincuenta y cuatro el cerebro se queda sin glucosa: confusión, conducta extraña, convulsión y coma.' },
+        { note: 'El propranolol borra la alarma; queda el sudor',
+          say: 'Con un betabloqueador no cardioselectivo se pierden el temblor y la taquicardia. Quedan el sudor y el hambre, y el paciente pasa casi directo a la confusión. El sudor es la pista.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol que vas a usar frente a un paciente con hipoglicemia.',
     },

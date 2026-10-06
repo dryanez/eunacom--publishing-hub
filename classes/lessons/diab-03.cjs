@@ -168,6 +168,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La placenta resiste a la insulina',
+      images: [
+        { src: 'animaciones/diab-03/A1_resistencia_embarazo.mp4', label: 'Embarazo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Sube desde las veinte semanas; PTGO a las veinticuatro a veintiocho',
+          say: 'Desde las veinte a veinticuatro semanas, el lactógeno placentario, la progesterona, el cortisol y la prolactina suben la resistencia a la insulina. Por eso la tolerancia a la glucosa se hace entre las veinticuatro y veintiocho semanas. Al salir la placenta, la resistencia cae.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión para la embarazada.',
     },

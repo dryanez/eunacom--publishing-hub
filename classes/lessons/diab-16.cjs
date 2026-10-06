@@ -199,6 +199,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Glucosado a los doscientos',
+      images: [
+        { src: 'animaciones/diab-16/A1_glucosado_sodio.mp4', label: 'Cetoacidosis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Glucosado al cinco por ciento e insulina a la mitad',
+          say: 'La glicemia baja cincuenta a setenta y cinco por hora. Al llegar a doscientos se agrega glucosado al cinco por ciento y la insulina baja a la mitad, porque el anion gap sigue abierto. Sin glucosa terminarías en hipoglicemia. Y mientras baja la glicemia, el sodio medido sube: el real es el corregido. En el hiperosmolar, lo mismo, pero a los trescientos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos toda la fluidoterapia en un solo árbol, en el orden en que la vas a indicar.',
     },

@@ -1,0 +1,68 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script>
+<script>
+// diab-16: la glicemia baja 50-75 por hora; al llegar a 200 (cetoacidosis) se agrega glucosado y la insulina va a la mitad
+// mientras el anion gap se cierra. El sodio medido sube al bajar la glicemia; el corregido es el real.
+window.SCENE = { duration: 23, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), { seg, out } = G;
+const ax = G.axes({ x: 110, y: 170, w: 600, h: 400 }, [0, 12], [0, 550],
+  { xt: [0, 2, 4, 6, 8, 10, [12, '12 h']], yt: [0, 70, 200, 300, 400, 500], yl: 'Glicemia (mg/dL)', xl: 'Horas de tratamiento' });
+const glu = G.smooth([[0, 520], [2, 400], [4, 275], [5.3, 200], [6.5, 175], [8, 170], [10, 165], [12, 160]]);
+const sin = G.smooth([[5.3, 200], [6.5, 140], [8, 85], [9, 60], [10, 45]]);      // si no se agrega glucosa
+const gap = h => Math.max(12, 26 - 1.35 * h);
+const T0 = 2.0, TD = 14;                                                        // la curva recorre 12 h en 14 s
+const hAt = t => clamp((t - T0) / TD, 0, 1) * 12;
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  text('Cetoacidosis: glucosado a los 200', 40, 70, 40, C.BLUE, 'bold');
+  text('La insulina sigue hasta cerrar el anion gap; el sodio real es el corregido', 40, 106, 23, C.MUTED);
+  ax.draw(seg(t, 0, 0.7));
+  G.band(ax, 150, 200, 'rgba(61,220,132,0.12)', seg(t, 8.6, 0.6), 'Meta: 150 a 200', 5.3, 12);
+  G.hline(ax, 200, C.GREEN, null, seg(t, 1, 0.7));
+  G.hline(ax, 70, C.RED, null, seg(t, 1, 0.7));
+  const h = hAt(t);
+  const p = G.curve(ax, glu, h / 12, C.AMBER, 5);
+  G.head(p, C.AMBER);
+  // si no se agregara glucosa: hipoglicemia
+  const alt = seg(t, 9.6, 2.2);
+  if (alt > 0) {
+    ctx.globalAlpha = 1 - seg(t, 15.5, 0.6);
+    G.curve(ax, sin, alt, C.RED, 3, 5.3, 10, [8, 8]);
+    if (alt > 0.8) text('Sin glucosa: hipoglicemia', ax.X(9.2), ax.Y(30), 17, C.RED, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+  const sw = seg(t, T0 + TD * 5.3 / 12, 0.5);
+  if (sw > 0) { ctx.globalAlpha = sw; tag('Glucosado 5% + insulina a la mitad', ax.X(5.3) + 40, ax.Y(200) - 34, C.GREEN, 18); ctx.globalAlpha = 1; }
+  // panel derecho: sodio y anion gap
+  const a = seg(t, 1.5, 0.6), g = glu(h), naC = 146, naM = naC - 1.6 * (g - 100) / 100;
+  ctx.globalAlpha = a;
+  rrect(760, 160, 480, 250, 18, '#161B22');
+  text('Sodio', 784, 198, 24, C.INK, 'bold');
+  text('Medido', 784, 245, 20, C.MUTED); text(naM.toFixed(0), 1210, 245, 30, C.MUTED, 'bold', 'right');
+  text('Corregido (el real)', 784, 295, 20, C.INK); text(naC.toFixed(0), 1210, 295, 30, C.CYAN || '#0BD9E7', 'bold', 'right');
+  text('= medido + 1,6 × (glicemia − 100) / 100', 784, 340, 18, C.MUTED);
+  text(`glicemia ${Math.round(g)} → se suma ${(1.6 * (g - 100) / 100).toFixed(1).replace('.', ',')}`, 784, 380, 18, C.AMBER);
+  rrect(760, 430, 480, 140, 18, '#161B22');
+  text('Anion gap', 784, 468, 24, C.INK, 'bold');
+  const gv = gap(h), gcol = gv > 12.5 ? C.RED : C.GREEN;
+  text(gv > 12.5 ? `${gv.toFixed(0)}: abierto` : '12: cerrado', 1210, 468, 24, gcol, 'bold', 'right');
+  rrect(784, 495, 430, 18, 9, '#222833'); rrect(784, 495, 430 * (gv - 8) / 20, 18, 9, gcol);
+  text(gv > 12.5 ? 'Mientras siga abierto, la insulina no se suspende' : 'Recién ahora se pasa a insulina subcutánea', 784, 548, 17, C.MUTED);
+  ctx.globalAlpha = 1;
+  if (t > 19.5) {
+    const b = seg(t, 19.5, 0.5); ctx.globalAlpha = b;
+    rrect(110, 620, 1130, 54, 27, 'rgba(79,163,255,0.16)');
+    text('En el hiperosmolar, lo mismo pero a los 300', 675, 655, 22, C.INK, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+  text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

@@ -152,6 +152,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El ejercicio sigue actuando de noche',
+      images: [
+        { src: 'animaciones/diab-05/A1_ejercicio_hipoglicemia.mp4', label: 'Ejercicio', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Sensibilidad alta por veinticuatro a cuarenta y ocho horas',
+          say: 'Después del ejercicio, la sensibilidad a la insulina queda alta uno a dos días. Con insulina o una sulfonilurea aparece la hipoglicemia tardía, típicamente nocturna. Por eso se mide la glicemia antes de salir, y se reparten los ciento cincuenta minutos en al menos tres días.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol que usas antes de indicarle ejercicio a un paciente con diabetes.',
     },
