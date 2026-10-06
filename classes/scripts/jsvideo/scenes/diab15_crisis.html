@@ -1,0 +1,149 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script>
+<script>
+// diab-15: cetoacidosis (sin insulina) vs estado hiperosmolar (algo de insulina por la porta).
+// ?v=cad | ?v=hhs. Base: Servier Medical Art (CC BY 4.0), aparato digestivo: hígado, estómago, páncreas, porta.
+const V = new URLSearchParams(location.search).get('v') || 'cad', CAD = V === 'cad';
+window.SCENE = { duration: 21, fps: 30 };
+const { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = LIB(document.getElementById('c'));
+const seg = (t, a, d) => clamp((t - a) / d, 0, 1);            // 0→1 entre a y a+d
+const IM = { x: 30, y: 128, s: 0.92 };                      // higado_pancreas.png 670x610
+const P = (x, y) => [IM.x + x * IM.s, IM.y + y * IM.s];
+const PORTA = poly([[285, 470], [262, 410], [246, 345], [238, 290], [222, 235], [195, 190]].map(p => P(...p)));
+const AGL = poly([[905, 245], [800, 200], [660, 175], [520, 165], [470, 170]].map(([x, y]) => [x, y]));   // de la grasa al hígado
+const KET = poly([[300, 230], [322, 260], [330, 330], [328, 420], [320, 520], [310, 600]].map(p => P(...p)));  // del hígado a la sangre
+const out = k => 1 - Math.pow(1 - clamp(k, 0, 1), 3);
+
+function dots(path, t, t0, n, color, r, speed, stop = 1e9, shape = 'dot') {
+  for (let i = 0; i < n; i++) {
+    const birth = t0 + i * (1 / speed) / n * 3;
+    if (t < birth || t > stop + 1.2) continue;
+    const u = ((t - birth) * speed * 0.33) % 1;
+    const fade = t > stop ? 1 - (t - stop) / 1.2 : Math.min(1, (t - birth) * 3);
+    const [x, y] = path.at(u);
+    ctx.globalAlpha = fade * Math.min(1, u * 8, (1 - u) * 8);
+    ctx.fillStyle = color;
+    if (shape === 'sq') ctx.fillRect(x - r, y - r, 2 * r, 2 * r);
+    else { ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); }
+    ctx.strokeStyle = 'rgba(0,0,0,0.35)'; ctx.lineWidth = 1; ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+}
+
+function bar(y, label, val, max, unit, col, marks = [], fmt = v => Math.round(v)) {
+  const x = 760, w = 440;
+  text(label, x, y, 21, C.INK, 'bold');
+  text(`${fmt(val)} ${unit}`, x + w, y, 21, col, 'bold', 'right');
+  rrect(x, y + 12, w, 16, 8, '#222833');
+  rrect(x, y + 12, w * clamp(val / max, 0, 1), 16, 8, col);
+  for (const [m, lab] of marks) {
+    const mx = x + w * m / max; ctx.fillStyle = '#E6E6E6'; ctx.fillRect(mx - 1, y + 7, 2, 26);
+    text(lab, mx, y + 50, 14, C.MUTED, '', 'center');
+  }
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  const ia = clamp(t / 0.7, 0, 1);
+  text(CAD ? 'Cetoacidosis: sin insulina' : 'Hiperosmolar: queda algo de insulina', 40, 70, 40, CAD ? C.RED : C.AMBER, 'bold');
+  text(CAD ? 'Diabetes tipo 1: déficit absoluto, horas' : 'Diabetes tipo 2: déficit relativo, días a semanas', 40, 106, 23, C.MUTED);
+
+  ctx.globalAlpha = ia; ctx.drawImage(window.IMGS.hp, IM.x, IM.y, 670 * IM.s, 610 * IM.s); ctx.globalAlpha = 1;
+  const lab = seg(t, 0.8, 0.5);
+  if (lab) { ctx.globalAlpha = lab; tag('Hígado', ...P(150, 110), C.VIOLET); tag('Páncreas', ...P(205, 590), C.AMBER); ctx.globalAlpha = 1; }
+
+  // grasa (adipocito real) a la derecha arriba
+  const ga = seg(t, 1.2, 0.6);
+  if (ga) { ctx.globalAlpha = ga; ctx.drawImage(window.IMGS.adip, 880, 150, 190, 139); tag('Grasa', 975, 312, '#E8C35A'); ctx.globalAlpha = 1; }
+
+  // 1) insulina desde el páncreas por la porta
+  const ins = CAD ? 0 : 1;
+  if (!CAD) dots(PORTA, t, 2.2, 6, '#4FA3FF', 7, 0.9);
+  if (t > 2.2 && t < 5.5) {
+    ctx.globalAlpha = seg(t, 2.2, 0.4) * (1 - seg(t, 5.0, 0.5));
+    tag(CAD ? 'Páncreas: no sale insulina' : 'Algo de insulina llega al hígado por la porta', ...P(300, 650).map((v, i) => i ? v - 6 : v + (CAD ? 40 : 120)), CAD ? C.RED : C.BLUE);
+    ctx.globalAlpha = 1;
+  }
+  // hormonas contrarreguladoras
+  if (t > 3.2) {
+    const k = seg(t, 3.2, 0.6);
+    ctx.globalAlpha = k * (1 - seg(t, 7.6, 0.5));
+    tag('Glucagón · catecolaminas · cortisol', 330, 150, C.AMBER, 18);
+    for (let i = 0; i < 3; i++) {
+      const u = ((t - 3.2) * 0.8 + i / 3) % 1, x = lerp(250 + i * 110, 200 + i * 60, u), y = lerp(170, 230, u);
+      ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.moveTo(x, y + 9); ctx.lineTo(x - 6, y - 4); ctx.lineTo(x + 6, y - 4); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // 2) ácidos grasos desde la grasa (frenados si hay insulina)
+  if (CAD) dots(AGL, t, 5.2, 12, '#F2CF5B', 6, 0.8);
+  else if (t > 5.2) {
+    const k = seg(t, 5.2, 0.4) * (1 - seg(t, 11.5, 0.5));
+    ctx.globalAlpha = k; ctx.strokeStyle = C.BLUE; ctx.lineWidth = 6; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(780, 175); ctx.lineTo(820, 215); ctx.moveTo(820, 175); ctx.lineTo(780, 215); ctx.stroke(); ctx.globalAlpha = 1;
+  }
+  if (t > 5.4 && t < 11.8) {
+    ctx.globalAlpha = seg(t, 5.4, 0.4) * (1 - seg(t, 11.3, 0.5));
+    tag(CAD ? 'Lipólisis sin freno: ácidos grasos al hígado' : 'La insulina frena la lipólisis', 760, 120, CAD ? '#F2CF5B' : C.BLUE, 19);
+    ctx.globalAlpha = 1;
+  }
+
+  // 3) el hígado: glucosa (siempre) y cetonas (solo sin insulina)
+  dots(KET, t, 8.0, 10, '#FFFFFF', 6, 0.7, 1e9, 'sq');
+  if (CAD) dots(poly([[290, 215], [345, 250], [380, 330], [390, 430], [380, 540], [360, 610]].map(p => P(...p))), t, 9.2, 12, C.RED, 7, 0.75);
+  else if (t > 9.2) {
+    ctx.globalAlpha = seg(t, 9.2, 0.4) * (1 - seg(t, 13.5, 0.5));
+    const [x, y] = P(370, 300); ctx.strokeStyle = C.BLUE; ctx.lineWidth = 6;
+    ctx.beginPath(); ctx.moveTo(x - 16, y - 16); ctx.lineTo(x + 16, y + 16); ctx.moveTo(x + 16, y - 16); ctx.lineTo(x - 16, y + 16); ctx.stroke();
+    ctx.globalAlpha = 1;
+  }
+  if (t > 8.2) {
+    const k = seg(t, 8.2, 0.4);
+    ctx.globalAlpha = k;
+    tag('Glucosa', ...P(470, 470), '#FFFFFF', 18);
+    tag(CAD ? 'Cetonas (ácidos)' : 'Sin cetonas', ...P(470, 525), CAD ? C.RED : C.BLUE, 18);
+    ctx.globalAlpha = 1;
+  }
+  // hiperosmolar: la glucosa arrastra agua por la orina
+  if (!CAD && t > 12) {
+    const k = seg(t, 12, 0.5);
+    ctx.globalAlpha = k;
+    tag('La glucosa arrastra agua por la orina: 8 a 12 litros', 980, 650, C.BLUE, 18);
+    for (let i = 0; i < 7; i++) {
+      const u = ((t - 12) * 0.6 + i / 7) % 1, x = 790 + i * 55, y = 560 + u * 60;
+      ctx.globalAlpha = k * (1 - u); ctx.fillStyle = C.BLUE;
+      ctx.beginPath(); ctx.moveTo(x, y - 10); ctx.quadraticCurveTo(x + 8, y + 2, x, y + 6); ctx.quadraticCurveTo(x - 8, y + 2, x, y - 10); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // 4) medidores
+  const gk = ease(seg(t, 7.5, 9));
+  ctx.globalAlpha = seg(t, 1.5, 0.6);
+  bar(360, 'Insulina', CAD ? 0 : 25, 100, '%', C.BLUE);
+  bar(440, 'Glicemia', lerp(110, CAD ? 480 : 900, gk), 1000, 'mg/dL', CAD ? C.AMBER : C.RED, [[250, '250'], [600, '600']]);
+  if (CAD) {
+    bar(520, 'pH', lerp(7.40, 7.08, ease(seg(t, 9.5, 8))), 7.45, '', C.RED, [[7.30, '7,30']], v => v.toFixed(2).replace('.', ','));
+  } else {
+    bar(520, 'Osmolaridad efectiva', lerp(290, 345, ease(seg(t, 10, 8))), 400, 'mOsm/L', C.RED, [[320, '320']]);
+  }
+  ctx.globalAlpha = 1;
+  // mensaje final
+  if (t > 17.5) {
+    const k = seg(t, 17.5, 0.5);
+    ctx.globalAlpha = k;
+    rrect(40, 650, 670, 50, 25, CAD ? 'rgba(255,90,78,0.18)' : 'rgba(255,194,71,0.16)');
+    text(CAD ? 'Problema de ácido: cetonas y pH bajo 7,30' : 'Problema de agua: glicemia sobre 600, sin acidosis',
+         375, 683, 22, C.INK, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+  text('Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({ hp: '../assets/servier/higado_pancreas.png', adip: '../assets/servier/adipocyte_01.png' });
+</script>
+</body></html>
