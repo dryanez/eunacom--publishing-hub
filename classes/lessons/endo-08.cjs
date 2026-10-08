@@ -282,6 +282,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tormenta tiroidea: el orden importa',
+      images: [
+        { src: 'animaciones/endo-08/A1_tormenta_orden.mp4', label: 'Tormenta tiroidea', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'PTU primero, Lugol una hora después',
+          say: 'Primero el propiltiouracilo, que frena la síntesis y la conversión de T cuatro a T tres. Al menos una hora después, el Lugol, que cierra la salida de la hormona ya fabricada; si das el yodo antes, es combustible. Después el propranolol para el corazón, la hidrocortisona, y tratar el gatillo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol de rescate, en el orden en que lo vas a hacer.',
     },

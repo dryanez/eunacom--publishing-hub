@@ -196,6 +196,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El algoritmo del nódulo',
+      images: [
+        { src: 'animaciones/endo-09/A1_algoritmo_nodulo.mp4', label: 'Nódulo tiroideo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'TSH primero; TI-RADS y tamaño',
+          say: 'El primer examen es la TSH. Si está baja, cintigrama: el nódulo caliente no se punciona, se trata el hipertiroidismo. Si es normal, ecografía con TI-RADS: mientras más sospechoso, más chico el tamaño que obliga a puncionar. Y con la TSH normal, nunca cintigrama.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El nódulo tiroideo en la ecografía',

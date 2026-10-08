@@ -1,0 +1,85 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Tiroides en el cuello (Servier Medical Art, CC BY 4.0).
+// ?v=tto (endo-07): el yodo entra a la glándula; el tiamazol bloquea la síntesis (TPO); el radioyodo destruye la glándula.
+// ?v=tormenta (endo-08): tres puertas: PTU frena la síntesis y la conversión de T4 a T3; Lugol, al menos una hora después,
+//   cierra la salida; propranolol protege el corazón; hidrocortisona. El yodo antes del PTU es combustible.
+const V = new URLSearchParams(location.search).get('v') || 'tto';
+window.SCENE = { duration: 23, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const TH = { x: 20, y: 120, s: 1.12 }, T = (x, y) => [TH.x + x * TH.s, TH.y + y * TH.s];
+const GL = T(268, 352);
+const IN = poly([[40, 640], T(150, 470), T(225, 380)]), OUT = poly([T(312, 380), T(420, 470), [700, 640]]);
+
+function dots(P, n, t, col, sp, sz, shape, a0 = 1, stopAt = 1) {
+  for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1; if (u > stopAt) continue; const [x, y] = P.at(u);
+    ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col;
+    if (shape === 'sq') ctx.fillRect(x - sz, y - sz, 2 * sz, 2 * sz); else { ctx.beginPath(); ctx.arc(x, y, sz, 0, 7); ctx.fill(); } }
+  ctx.globalAlpha = 1;
+}
+function X(x, y, col, a) { if (a <= 0) return; ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(x - 16, y - 16); ctx.lineTo(x + 16, y + 16); ctx.moveTo(x + 16, y - 16); ctx.lineTo(x - 16, y + 16); ctx.stroke(); ctx.globalAlpha = 1; }
+
+function tto(t) {
+  K.title('Hipertiroidismo: tres caminos', 'Fármacos, radioyodo o cirugía', C.BLUE);
+  const destroy = ease(seg(t, 13, 4));
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.bocio, TH.x, TH.y, 539 * TH.s, 488 * TH.s); ctx.globalAlpha = 1;
+  if (destroy > 0) { ctx.save(); ctx.beginPath(); ctx.ellipse(GL[0], GL[1] + 5, 115, 105, 0, 0, 7); ctx.clip(); ctx.globalAlpha = destroy;
+    ctx.filter = 'saturate(0.15) brightness(0.75)'; ctx.drawImage(window.IMGS.bocio, TH.x, TH.y, 539 * TH.s, 488 * TH.s); ctx.restore(); }
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Tiroides', GL[0], GL[1] + 110, '#E7A0B5', 16); ctx.globalAlpha = 1;
+  // yodo entra
+  dots(IN, 8, t, C.VIOLET, 0.35, 6, 'dot', seg(t, 1, 0.5)); ctx.globalAlpha = fade(t, 1.2, 6.5); tag('Yodo', ...IN.at(0.2), C.VIOLET, 15); ctx.globalAlpha = 1;
+  // síntesis en la glándula (TPO) → T4 sale; el tiamazol la bloquea
+  const block = ease(seg(t, 6.5, 1.2));
+  K.glow(...GL, 110, '255,170,60', 0.45 * (1 - block) * (1 - destroy) * (0.8 + 0.2 * Math.sin(t * 4)));
+  dots(OUT, Math.round(lerp(12, 3, block) * (1 - destroy)), t, '#F29A3A', 0.35, 7, 'sq');
+  ctx.globalAlpha = fade(t, 1.6, 6.5); tag('T4 y T3 en exceso', ...OUT.at(0.75), '#F29A3A', 15); ctx.globalAlpha = 1;
+  if (t > 5.6 && t < 7.4) K.pill(lerp(760, GL[0], ease(seg(t, 5.6, 1.1))), lerp(240, GL[1], ease(seg(t, 5.6, 1.1))), '#FFFFFF', C.BLUE, 1 - seg(t, 6.9, 0.4));
+  X(GL[0] - 45, GL[1] - 10, C.BLUE, block * (1 - destroy)); X(GL[0] + 45, GL[1] - 10, C.BLUE, block * (1 - destroy));
+  ctx.globalAlpha = fade(t, 7, 12.6); tag('Tiamazol: bloquea la peroxidasa (TPO)', GL[0], GL[1] - 130, C.BLUE, 15); ctx.globalAlpha = 1;
+  // radioyodo
+  const rad = seg(t, 12.2, 0.6);
+  if (rad > 0) { for (let i = 0; i < 16; i++) { const a = rnd(i) * 6.28 + t, r = 30 + rnd(i + 3) * 70; const x = GL[0] + Math.cos(a) * r * 1.3, y = GL[1] + Math.sin(a) * r;
+      ctx.globalAlpha = rad * (1 - 0.5 * destroy); ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.arc(x, y, 5, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = rad; tag('Radioyodo: destruye la glándula', GL[0], GL[1] - 130, C.GREEN, 15); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 140, C.BLUE, 'Tiamazol: primera elección', ['Una toma al día · remisión en 40 a 50 %', 'La otra mitad recae'], seg(t, 6.8, 0.5));
+  K.card(700, 305, 540, 140, C.AMBER, 'Propiltiouracilo: dos casos', ['Primer trimestre del embarazo', 'Tormenta tiroidea'], seg(t, 9.5, 0.5));
+  K.card(700, 460, 540, 140, C.GREEN, 'Radioyodo', ['Tras la recaída · deja hipotiroidismo', 'Contraindicado en el embarazo'], seg(t, 12.8, 0.5));
+  K.banner(700, 625, 540, 'Cirugía: bocio que comprime la vía aérea', C.MUTED, seg(t, 19, 0.5));
+}
+
+function tormenta(t) {
+  K.title('Tormenta tiroidea: el orden importa', 'Primero PTU; el Lugol, al menos una hora después', C.RED);
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.bocio, TH.x, TH.y, 539 * TH.s, 488 * TH.s); ctx.globalAlpha = 1;
+  const ptu = ease(seg(t, 3.5, 1)), lug = ease(seg(t, 9, 1)), prop = ease(seg(t, 13, 1)), hc = ease(seg(t, 16, 1));
+  K.glow(...GL, 120, '255,90,60', 0.5 * (1 - 0.6 * lug) * (0.8 + 0.2 * Math.sin(t * 5)));
+  // 1. síntesis: el yodo entra (combustible) — PTU la frena
+  dots(IN, 8, t, C.VIOLET, 0.35, 6, 'dot', 1, 1);
+  X(GL[0] - 45, GL[1] - 10, C.BLUE, ptu); X(GL[0] + 45, GL[1] - 10, C.BLUE, ptu);
+  // 2. salida de la hormona ya fabricada — Lugol la cierra
+  dots(OUT, Math.round(lerp(12, 2, lug)), t, '#F29A3A', 0.4, 7, 'sq');
+  if (lug > 0) { const [x, y] = OUT.at(0.18); ctx.globalAlpha = lug; ctx.fillStyle = C.GREEN; ctx.fillRect(x - 26, y - 6, 52, 12); ctx.globalAlpha = 1; }
+  // corazón
+  const hr = lerp(150, 95, prop);
+  ctx.globalAlpha = seg(t, 1, 0.5); const b = Math.pow(Math.max(0, Math.sin(t * Math.PI * hr / 60)), 6), hs = 0.36 * (1 + 0.05 * b);
+  ctx.drawImage(window.IMGS.hrt, 560 - 389 * hs / 2 + 30, 470 - 510 * hs / 2, 389 * hs, 510 * hs); text(`${Math.round(hr)} lpm`, 590, 590, 20, hr > 110 ? C.RED : C.GREEN, 'bold', 'center'); ctx.globalAlpha = 1;
+  // cronograma
+  const steps = [[3.5, 'Hora 0 · PTU', 'Frena la síntesis y la conversión de T4 a T3', C.BLUE], [9, '1 hora después · Lugol', 'Cierra la salida de la hormona ya hecha', C.GREEN],
+                 [13, 'Propranolol', 'Frena el corazón y la conversión periférica', C.VIOLET], [16, 'Hidrocortisona', 'Y también reduce la conversión de T4 a T3', C.AMBER]];
+  steps.forEach(([t0, h, d, col], i) => { const a = seg(t, t0, 0.5); if (a <= 0) return; ctx.globalAlpha = a;
+    rrect(700, 150 + i * 105, 540, 92, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(700, 150 + i * 105, 6, 92);
+    text(h, 724, 188 + i * 105, 21, col, 'bold'); text(d, 724, 220 + i * 105, 18, C.INK); ctx.globalAlpha = 1; });
+  if (t > 6 && t < 9) { ctx.globalAlpha = fade(t, 6, 8.6); tag('Si das yodo antes: más combustible', GL[0], GL[1] - 130, C.RED, 15); ctx.globalAlpha = 1; }
+  K.banner(40, 640, 600, 'Y tratar el gatillo: infección, cirugía, suspensión', C.MUTED, seg(t, 19.5, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ tto, tormenta })[V](t); K.credit(); };
+LOAD({ bocio: '../assets/servier/tiroides_bocio.png', hrt: '../assets/servier/corazon.png' });
+</script>
+</body></html>

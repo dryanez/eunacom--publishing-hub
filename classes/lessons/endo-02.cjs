@@ -211,6 +211,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Levotiroxina: cuánto y cómo',
+      images: [
+        { src: 'animaciones/endo-02/A1_levotiroxina_dosis.mp4', label: 'Dosis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Dosis plena en el joven; bajo y lento en el mayor',
+          say: 'El adulto joven sin cardiopatía parte con la dosis plena, uno coma seis microgramos por kilo. El mayor de sesenta a sesenta y cinco años, o el coronario, parte con veinticinco a cincuenta y sube de a poco cada seis a ocho semanas. Y siempre en ayunas, con agua, lejos del calcio y del hierro.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'La cara del hipotiroidismo',
       images: [

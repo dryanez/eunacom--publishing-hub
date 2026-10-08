@@ -146,6 +146,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La tiroides del embarazo y del recién nacido',
+      images: [
+        { src: 'animaciones/endo-04/A1_tsh_embarazo_talon.mp4', label: 'Metas y tamizaje', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Bajo dos coma cinco, bajo tres; talón a las cuarenta y ocho horas',
+          say: 'En el primer trimestre la TSH debe estar bajo dos coma cinco, y bajo tres después. La que ya toma levotiroxina sube su dosis un veinte a treinta por ciento apenas sabe que está embarazada. En el recién nacido, la TSH de talón se toma a las cuarenta a cuarenta y ocho horas, y si sale alta, se confirma y se trata antes de los quince días.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hipotiroidismo congénito',

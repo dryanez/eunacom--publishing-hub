@@ -160,6 +160,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La prolactina vive frenada',
+      images: [
+        { src: 'animaciones/endo-21/A1_dopamina_prolactina.mp4', label: 'Dopamina y prolactina', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Fármacos, efecto tallo e hipotiroidismo',
+          say: 'La dopamina baja por el tallo y frena a la prolactina. Si un antipsicótico o la metoclopramida bloquean el receptor, si una masa comprime el tallo, o si el hipotiroidismo sube la TRH, la prolactina sube. Y el prolactinoma es el único adenoma que se trata con pastillas, con cabergolina.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Prolactinoma',
       images: [

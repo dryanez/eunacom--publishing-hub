@@ -171,6 +171,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres caminos para el hipertiroidismo',
+      images: [
+        { src: 'animaciones/endo-07/A1_tiamazol_radioyodo.mp4', label: 'Tiamazol y radioyodo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Tiamazol bloquea la síntesis; radioyodo destruye',
+          say: 'El yodo entra a la tiroides y la peroxidasa lo usa para fabricar hormona. El tiamazol bloquea esa enzima, y la hormona que sale cae; es la primera elección, pero la mitad recae. El propiltiouracilo queda para el primer trimestre y la tormenta. Y el radioyodo destruye la glándula: es la opción tras la recaída, y deja hipotiroidismo.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'La gammagrafía tiroidea',

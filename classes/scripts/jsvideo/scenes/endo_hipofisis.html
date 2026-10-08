@@ -1,0 +1,139 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Eje hipotálamo-hipófisis sobre ilustración real (Servier Medical Art, CC BY 4.0).
+// ?v=prl  (endo-21): la dopamina frena a la prolactina; fármaco anti-D2, compresión del tallo o TRH alta → prolactina sube.
+// ?v=sheehan (endo-23): hipófisis grande del embarazo + hemorragia del parto → necrosis de la adenohipófisis.
+// ?v=gh (endo-22): adenoma somatotropo: GH → hígado → IGF-1; la glucosa no frena la GH (no baja de 1,0).
+const V = new URLSearchParams(location.search).get('v') || 'prl';
+window.SCENE = { duration: V === 'prl' ? 23 : 22, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const HP = { x: 50, y: 140, s: 0.95 }, H = (x, y) => [HP.x + x * HP.s, HP.y + y * HP.s];
+const ANT = H(212, 432), POST = H(340, 432);
+const DOWN = [0, 1, 2].map(i => poly([H(250 + i * 25, 80), H(275 + i * 10, 200), H(262, 300), H(225 + i * 12, 390)]));
+const OUTV = poly([H(200, 470), H(165, 500), H(140, 520), [60, 650]]);
+
+function hormones(path, n, t, col, speed = 0.35, size = 6, shape = 'dot', a0 = 1) {
+  for (let i = 0; i < n; i++) {
+    const u = ((t * speed) + i / Math.max(1, n)) % 1, [x, y] = path.at(u);
+    ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col;
+    if (shape === 'sq') ctx.fillRect(x - size, y - size, 2 * size, 2 * size); else { ctx.beginPath(); ctx.arc(x, y, size, 0, 7); ctx.fill(); }
+  }
+  ctx.globalAlpha = 1;
+}
+function base(t) {
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.hip, HP.x, HP.y, 505 * HP.s, 555 * HP.s); ctx.globalAlpha = 1;
+  const la = seg(t, 0.8, 0.5); ctx.globalAlpha = la;
+  tag('Hipotálamo', ...H(300, 20), '#E8C9A0', 15); tag('Tallo', ...H(395, 250), '#E8C9A0', 15);
+  tag('Adenohipófisis', ...H(95, 545), '#7FC4E8', 15); tag('Neurohipófisis', ...H(420, 540), '#E8C9A0', 15);
+  ctx.globalAlpha = 1;
+}
+
+function prl(t) {
+  K.title('Prolactina: vive frenada por la dopamina', 'Todo lo que corta la dopamina sube la prolactina', C.VIOLET);
+  base(t);
+  const drug = t > 6 && t < 11.5, stalk = t > 11.5 && t < 16.5, trh = t > 16.5;
+  // dopamina por el tallo (se corta con la compresión)
+  const comp = stalk ? ease(seg(t, 11.8, 1)) : 0;
+  DOWN.forEach((P, i) => {
+    for (let k = 0; k < 4; k++) {
+      let u = ((t * 0.3) + k / 4 + i * 0.13) % 1;
+      if (comp > 0 && u > 0.45) continue;                        // no pasa la compresión
+      const [x, y] = P.at(u); ctx.globalAlpha = Math.min(1, u * 8, (1 - u) * 8) * seg(t, 1, 0.5);
+      ctx.fillStyle = C.VIOLET; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill();
+    }
+  });
+  ctx.globalAlpha = 1;
+  if (comp > 0) { ctx.save(); ctx.globalAlpha = comp; ctx.fillStyle = '#C9A27A'; ctx.beginPath(); ctx.ellipse(...H(355, 290), 48 * comp, 40 * comp, 0, 0, 7); ctx.fill();
+    ctx.strokeStyle = '#7A5A3A'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore(); ctx.globalAlpha = comp; tag('Masa que comprime el tallo', ...H(420, 345), '#C9A27A', 15); ctx.globalAlpha = 1; }
+  // receptores D2 bloqueados por el fármaco
+  if (drug) { const k = seg(t, 6.6, 0.6);
+    K.pill(lerp(760, ANT[0] + 20, ease(seg(t, 6, 0.8))), lerp(300, ANT[1] - 30, ease(seg(t, 6, 0.8))), '#FFFFFF', C.AMBER, 1 - seg(t, 6.7, 0.3));
+    for (let i = 0; i < 4; i++) { const x = ANT[0] - 50 + i * 32, y = ANT[1] - 40 + (i % 2) * 40; ctx.globalAlpha = k; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.moveTo(x - 8, y - 8); ctx.lineTo(x + 8, y + 8); ctx.moveTo(x + 8, y - 8); ctx.lineTo(x - 8, y + 8); ctx.stroke(); }
+    ctx.globalAlpha = k; tag('Antipsicóticos, metoclopramida: bloquean D2', ...H(212, 330), C.AMBER, 14); ctx.globalAlpha = 1; }
+  // TRH del hipotiroidismo
+  if (trh) { DOWN.forEach((P, i) => hormones(P, 3, t + i * 0.3, C.GREEN, 0.32, 6, 'sq', seg(t, 16.8, 0.5)));
+    ctx.globalAlpha = seg(t, 16.8, 0.5); tag('Hipotiroidismo: la TRH también la libera', ...H(212, 330), C.GREEN, 14); ctx.globalAlpha = 1; }
+  // prolactina que sale
+  const high = drug ? seg(t, 7, 1.5) : stalk ? seg(t, 12.5, 1.5) : trh ? seg(t, 17.3, 1.5) : 0;
+  hormones(OUTV, Math.round(lerp(2, 12, high)), t, '#F59AC2', 0.4, 7);
+  ctx.globalAlpha = seg(t, 1.5, 0.5); rrect(700, 150, 540, 100, 16, '#161B22');
+  K.bar(724, 192, 492, 'Prolactina', lerp(15, 120, high), 150, 'ng/mL', high > 0.4 ? C.RED : C.GREEN, [[25, '25']]); ctx.globalAlpha = 1;
+  K.card(700, 270, 540, 100, C.VIOLET, 'Normal', ['La dopamina del hipotálamo la frena'], seg(t, 1.6, 0.5) * (t < 6 ? 1 : 0.45));
+  K.card(700, 385, 540, 100, C.AMBER, '1. Fármacos', ['Antipsicóticos, metoclopramida, domperidona'], seg(t, 6.4, 0.5) * (t < 11.5 ? 1 : 0.45));
+  K.card(700, 500, 540, 100, '#C9A27A', '2. Efecto tallo · 3. Hipotiroidismo', ['La dopamina no llega · la TRH la libera'], seg(t, 11.9, 0.5));
+  K.banner(700, 625, 540, 'Prolactinoma: el único que se trata con pastillas', C.VIOLET, seg(t, 20.5, 0.5));
+}
+
+function sheehan(t) {
+  K.title('Síndrome de Sheehan', 'La hipófisis grande del embarazo se infarta con la hemorragia', C.RED);
+  base(t);
+  const big = ease(seg(t, 1.5, 2.5)), shock = seg(t, 6, 1.5), nec = ease(seg(t, 8, 3));
+  K.glow(...ANT, 120 + 30 * big, '127,196,232', 0.35 * big * (1 - nec));
+  if (t > 1.5 && t < 8) { ctx.globalAlpha = fade(t, 1.8, 7.6); tag('Embarazo: los lactotropos crecen', ...H(212, 330), '#7FC4E8', 15); ctx.globalAlpha = 1; }
+  // flujo de sangre portal que cae con el shock
+  hormones(poly([H(120, 155), H(200, 180), H(250, 260), H(230, 380), ANT]), Math.round(lerp(8, 1, shock)), t, '#C0122E', 0.45, 6);
+  if (nec > 0) { ctx.save(); ctx.globalAlpha = 0.75 * nec; ctx.fillStyle = '#2B2F36'; ctx.beginPath(); ctx.ellipse(...ANT, 98 * HP.s, 112 * HP.s, 0, 0, 7); ctx.fill(); ctx.restore();
+    ctx.globalAlpha = nec; tag('Necrosis: se pierde el 75 a 90 %', ...H(212, 330), C.RED, 15); tag('La neurohipófisis se salva', ...H(420, 390), C.GREEN, 14); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 1, 0.5); rrect(700, 150, 540, 100, 16, '#161B22');
+  const pa = lerp(115, 60, shock);
+  K.bar(724, 192, 492, 'Presión arterial', pa, 140, 'mmHg', pa < 90 ? C.RED : C.GREEN); ctx.globalAlpha = 1;
+  if (t > 5.8 && t < 9) { ctx.globalAlpha = fade(t, 5.8, 8.6); tag('Hemorragia del parto: shock', 970, 280, C.RED, 18); ctx.globalAlpha = 1; }
+  // caen las hormonas, en orden
+  const H4 = [['Prolactina', 'No hay leche: lo primero'], ['LH y FSH', 'Amenorrea, pierde el vello'], ['TSH', 'Hipotiroidismo'], ['ACTH', 'Insuficiencia suprarrenal']];
+  H4.forEach(([h, d], i) => { const a = seg(t, 11 + i * 1.3, 0.5); if (a <= 0) return; ctx.globalAlpha = a;
+    rrect(700, 270 + i * 72, 540, 62, 12, '#161B22'); ctx.fillStyle = C.RED; ctx.fillRect(700, 270 + i * 72, 6, 62);
+    text(`${h} ↓`, 724, 308 + i * 72, 20, C.RED, 'bold'); text(d, 900, 308 + i * 72, 18, C.INK); ctx.globalAlpha = 1; });
+  K.banner(700, 625, 540, 'Tratar: primero cortisol, después levotiroxina', C.GREEN, seg(t, 17.5, 0.5));
+}
+
+function gh(t) {
+  K.title('Acromegalia: la glucosa no frena la GH', 'Adenoma de células somatotropas', C.AMBER);
+  base(t);
+  K.glow(...H(190, 450), 70, '255,170,60', 0.6 * seg(t, 1.2, 0.8) * (0.8 + 0.2 * Math.sin(t * 4)));
+  ctx.save(); ctx.globalAlpha = seg(t, 1.2, 0.8); ctx.fillStyle = '#F2A33A'; ctx.beginPath(); ctx.ellipse(...H(190, 450), 32, 26, 0.3, 0, 7); ctx.fill(); ctx.restore();
+  ctx.globalAlpha = fade(t, 1.6, 7); tag('Adenoma somatotropo', ...H(190, 330), C.AMBER, 15); ctx.globalAlpha = 1;
+  // GH sale y va al hígado; IGF-1 vuelve a los tejidos
+  const LIV = [610, 300];
+  hormones(poly([H(190, 470), [330, 690], [560, 620], LIV]), 10, t, C.AMBER, 0.3, 6);
+  ctx.globalAlpha = seg(t, 3, 0.6); ctx.drawImage(window.IMGS.hp, 0, 0, 560, 440, 545, 250, 140, 110); tag('Hígado: IGF-1', 615, 375, C.GREEN, 15); ctx.globalAlpha = 1;
+  if (t > 4) hormones(poly([[650, 290], [690, 200], [700, 150]]), 5, t, C.GREEN, 0.4, 6, 'sq', seg(t, 4, 0.5));
+  // prueba de tolerancia: llega glucosa; la GH no baja
+  const g = seg(t, 9, 0.6);
+  if (g > 0) for (let i = 0; i < 8; i++) { const u = ((t - 9) * 0.35 + i / 8) % 1, x = lerp(700, ANT[0] + 40, u), y = lerp(560, ANT[1] + 40, u);
+    ctx.globalAlpha = g * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = '#FFFFFF'; ctx.fillRect(x - 6, y - 6, 12, 12); }
+  ctx.globalAlpha = 1;
+  // gráfico GH tras la glucosa: sano vs tumor
+  const a = seg(t, 9.5, 0.5);
+  if (a > 0) {
+    ctx.globalAlpha = a; rrect(760, 150, 480, 300, 16, '#161B22');
+    text('GH después de 75 g de glucosa', 784, 186, 20, C.INK, 'bold');
+    const X = m => 800 + m * 3.3, Y = v => 420 - v * 22;
+    ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(0), Y(0)); ctx.lineTo(X(120), Y(0)); ctx.stroke();
+    ctx.setLineDash([7, 6]); ctx.strokeStyle = C.MUTED; ctx.beginPath(); ctx.moveTo(X(0), Y(1)); ctx.lineTo(X(120), Y(1)); ctx.stroke(); ctx.setLineDash([]);
+    text('1,0', X(122), Y(1) + 5, 15, C.MUTED);
+    const k = seg(t, 10.2, 4);
+    const sano = m => 4 * Math.exp(-m / 25) + 0.3, tum = m => 9 - 1.5 * (m / 120);
+    for (const [f, col] of [[sano, C.GREEN], [tum, C.RED]]) { ctx.strokeStyle = col; ctx.lineWidth = 4; ctx.beginPath();
+      for (let m = 0; m <= 120 * k; m += 2) { m ? ctx.lineTo(X(m), Y(f(m))) : ctx.moveTo(X(m), Y(f(m))); } ctx.stroke(); }
+    if (k > 0.9) { text('Sano: baja', X(120), Y(0) + 22, 16, C.GREEN, 'bold', 'right'); text('Tumor: no baja de 1,0', X(120), Y(9.3), 16, C.RED, 'bold', 'right'); }
+    ctx.globalAlpha = 1;
+  }
+  K.card(760, 470, 480, 130, C.GREEN, 'Primero la IGF-1', ['Si está alta: PTGO con GH', 'Si no baja de 1,0: confirmada → resonancia'], seg(t, 14.5, 0.5));
+  K.banner(760, 625, 480, 'La GH también sube la glicemia', C.AMBER, seg(t, 18.5, 0.5));
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  ({ prl, sheehan, gh })[V](t);
+  K.credit();
+};
+LOAD({ hip: '../assets/servier/hipofisis.png', hp: '../assets/servier/higado_pancreas.png' });
+</script>
+</body></html>

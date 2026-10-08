@@ -158,6 +158,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La hipófisis que se infarta en el parto',
+      images: [
+        { src: 'animaciones/endo-23/A1_sheehan.mp4', label: 'Sheehan', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Primero falla la leche',
+          say: 'En el embarazo la hipófisis crece. Con una hemorragia grave del parto cae la presión, y la adenohipófisis se necrosa. Lo primero que falla es la prolactina: no hay leche. Después la amenorrea, el hipotiroidismo y la insuficiencia suprarrenal. Se trata primero con cortisol y recién después con levotiroxina.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Silla turca vacía',

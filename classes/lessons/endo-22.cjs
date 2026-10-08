@@ -163,6 +163,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La glucosa no frena la GH',
+      images: [
+        { src: 'animaciones/endo-22/A1_acromegalia_gh.mp4', label: 'Acromegalia', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'IGF uno primero; GH que no baja de uno',
+          say: 'El adenoma somatotropo libera hormona de crecimiento, y el hígado fabrica IGF uno, que hace crecer huesos y partes blandas. Se pide primero la IGF uno; si está alta, se confirma con la prueba de glucosa: en el sano la hormona de crecimiento baja, en el tumor no baja de uno.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Acromegalia',
       images: [
