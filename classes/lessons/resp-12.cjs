@@ -172,6 +172,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres fases',
+      images: [
+        { src: 'animaciones/resp-12/A1_tres_fases.mp4', label: 'Derrame paraneumónico', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'pH bajo siete coma veinte: drenar',
+          say: 'Primero el derrame es exudativo y estéril, y basta el antibiótico. Después las bacterias invaden: el pH baja de siete coma veinte, la glucosa cae y aparecen tabiques, y hay que drenarlo con tubo. Al final se forma una cáscara que atrapa el pulmón, y se necesita cirugía.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Derrame complicado',
       images: [

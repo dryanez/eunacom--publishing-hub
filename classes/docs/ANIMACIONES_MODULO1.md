@@ -107,13 +107,13 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 76 | neuro-14 | Placas de amiloide y ovillos de tau; acetilcolina que falta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 77 | neuro-15 | Demencia vascular en escalones vs Alzheimer en pendiente | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 78 | neuro-18 | Placas desmielinizantes separadas en tiempo y espacio | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 79 | resp-05 | Por qué el oxígeno tiene techo en el EPOC retenedor | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 80 | resp-10 | Bacilo, granuloma y cavitación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 81 | resp-12 | Tres fases del derrame paraneumónico: exudativa, fibrinopurulenta, organizada | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 82 | resp-13 | Bleb apical que se rompe y colapsa el pulmón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 83 | resp-17 | Tumor central vs periférico; síndrome de vena cava | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 84 | resp-18 | Fibrosis que se extiende desde la periferia de las bases | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 85 | resp-24 | Monóxido que ocupa la hemoglobina | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 79 | resp-05 | Por qué el oxígeno tiene techo en el EPOC retenedor | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 80 | resp-10 | Bacilo, granuloma y cavitación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 81 | resp-12 | Tres fases del derrame paraneumónico: exudativa, fibrinopurulenta, organizada | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 82 | resp-13 | Bleb apical que se rompe y colapsa el pulmón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 83 | resp-17 | Tumor central vs periférico; síndrome de vena cava | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 84 | resp-18 | Fibrosis que se extiende desde la periferia de las bases | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 85 | resp-24 | Monóxido que ocupa la hemoglobina | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 86 | reuma-01 | Artrocentesis y los cuatro líquidos | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 87 | reuma-02 | Bacteria que llega por la sangre a la articulación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 88 | reuma-08 | Inmunocomplejos que se depositan en órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
@@ -144,10 +144,10 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 113 | neuro-10 | Síncope (flujo cerebral cae) vs crisis | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 114 | neuro-12 | Bloqueo D2 por fármacos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 115 | neuro-22 | Fenotipo de fragilidad: cinco criterios | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
-| 116 | resp-03 | Escalones GINA | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 117 | resp-06 | CURB-65 sumando puntos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 118 | resp-09 | Absceso: cavidad que se forma y drena | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 119 | resp-16 | Nódulo: tamaño y crecimiento en el seguimiento | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 120 | resp-20 | Hemoptisis: sangre que inunda la vía aérea | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 116 | resp-03 | Escalones GINA | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 117 | resp-06 | CURB-65 sumando puntos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 118 | resp-09 | Absceso: cavidad que se forma y drena | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 119 | resp-16 | Nódulo: tamaño y crecimiento en el seguimiento | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 120 | resp-20 | Hemoptisis: sangre que inunda la vía aérea | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 121 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 122 | reuma-12 | Fibrosis de la piel y los órganos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |

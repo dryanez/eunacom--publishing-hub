@@ -207,6 +207,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Sumando puntos',
+      images: [
+        { src: 'animaciones/resp-06/A1_curb65.mp4', label: 'CURB sesenta y cinco', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Dos puntos: hospitalizar',
+          say: 'Cada criterio suma un punto: confusión, urea alta, frecuencia respiratoria de treinta o más, presión baja y edad de sesenta y cinco o más. Con cero o uno, ambulatorio; con dos, se hospitaliza; con tres o más, es grave.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'La neumonía en la radiografía',

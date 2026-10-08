@@ -259,6 +259,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El oxígeno tiene techo',
+      images: [
+        { src: 'animaciones/resp-05/A1_oxigeno_techo.mp4', label: 'EPOC retenedor', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Meta de ochenta y ocho a noventa y dos',
+          say: 'En el EPOC, los vasos de los alvéolos que ventilan mal se cierran: es una protección. Con demasiado oxígeno se abren, la sangre pasa por donde no hay aire, y el CO dos sube. Por eso la meta es una saturación de ochenta y ocho a noventa y dos, con Venturi o cánula.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las cuatro decisiones en un solo árbol, en el orden en que las tomas en la urgencia.',
     },

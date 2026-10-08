@@ -135,6 +135,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los escalones',
+      images: [
+        { src: 'animaciones/resp-03/A1_escalones_gina.mp4', label: 'GINA', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Corticoide inhalado desde el inicio',
+          say: 'Todo asmático lleva corticoide inhalado. En los escalones uno y dos, corticoide con formoterol a demanda; en el tres, diario y de rescate; en el cuatro, en dosis media; y en el cinco, se deriva para tiotropio o un biológico. Antes de subir, se revisa la técnica y la adherencia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Prueba broncodilatadora positiva',

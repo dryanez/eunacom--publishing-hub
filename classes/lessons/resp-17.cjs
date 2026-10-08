@@ -155,6 +155,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Central o periférico',
+      images: [
+        { src: 'animaciones/resp-17/A1_central_periferico.mp4', label: 'Cáncer pulmonar', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Vena cava superior',
+          say: 'Los tumores se ordenan por dónde crecen. El adenocarcinoma, el más frecuente, es periférico. El epidermoide y el de células pequeñas son centrales, y un tumor central puede comprimir la vena cava superior: edema de la cara y los brazos.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Cáncer pulmonar',

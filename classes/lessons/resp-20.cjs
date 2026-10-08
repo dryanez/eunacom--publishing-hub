@@ -168,6 +168,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La sangre inunda la vía aérea',
+      images: [
+        { src: 'animaciones/resp-20/A1_hemoptisis_masiva.mp4', label: 'Hemoptisis masiva', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'El lado que sangra hacia abajo',
+          say: 'En la hemoptisis masiva el riesgo es la asfixia. Casi siempre sangran las arterias bronquiales. Primero se acuesta al paciente con el lado que sangra hacia abajo, para proteger el pulmón sano, y se intuba con un tubo grueso para la broncoscopía.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Bronquiectasias',
       images: [

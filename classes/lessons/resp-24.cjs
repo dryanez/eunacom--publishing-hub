@@ -134,6 +134,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Ocupa la hemoglobina',
+      images: [
+        { src: 'animaciones/resp-24/A1_carboxihemoglobina.mp4', label: 'Monóxido de carbono', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'El saturómetro engaña',
+          say: 'El monóxido se une a la hemoglobina doscientas veces más que el oxígeno y la ocupa. El saturómetro de dedo no lo distingue y marca noventa y nueve. Se trata con oxígeno al cien por ciento con mascarilla de reservorio.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'El monóxido de carbono y la hemoglobina',

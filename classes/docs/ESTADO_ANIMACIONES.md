@@ -4,8 +4,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 
 - ✅ Hechas con anatomía real (3D o Blausen): **52**
 - 🔁 Hechas pero con anatomía abstracta: rehacer: **10**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **98**
-- ⬜ Pendientes (aún sin video): **107**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **105**
+- ⬜ Pendientes (aún sin video): **100**
 
 ## 🔁 Hechas pero con anatomía abstracta: rehacer (10)
 
@@ -22,7 +22,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (107)
+## ⬜ Pendientes (aún sin video) (100)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -88,8 +88,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-12 | Píloro, invaginación, malrotación: el vómito según la causa | 3D | ★★ |  |
 | ped-18 | Silverman: los signos de dificultad | M | ★★ |  |
 | ped-20 | Hipoglicemia neonatal: glucosa que cae al cortar el cordón | M | ★★ |  |
-| resp-18 | Fibrosis que se extiende desde la periferia de las bases | 3D | ★★ |  |
-| resp-24 | Monóxido que ocupa la hemoglobina | M | ★★ |  |
 | reuma-01 | Artrocentesis y los cuatro líquidos | M | ★★ |  |
 | reuma-02 | Bacteria que llega por la sangre a la articulación | 3D | ★★ |  |
 | reuma-08 | Inmunocomplejos que se depositan en órganos | M | ★★ |  |
@@ -126,11 +124,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-14 | Convulsión febril simple vs compleja | M | ★ |  |
 | ped-16 | Capurro animado: los cinco signos | M | ★ |  |
 | ped-19 | Sepsis precoz vs tardía: el germen según las 72 horas | M | ★ |  |
-| resp-03 | Escalones GINA | M | ★ |  |
-| resp-06 | CURB-65 sumando puntos | M | ★ |  |
-| resp-09 | Absceso: cavidad que se forma y drena | 3D | ★ |  |
-| resp-16 | Nódulo: tamaño y crecimiento en el seguimiento | M | ★ |  |
-| resp-20 | Hemoptisis: sangre que inunda la vía aérea | 3D | ★ |  |
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
@@ -191,7 +184,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (98)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (105)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -260,6 +253,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-12 | Tres fases del derrame paraneumónico: exudativa, fibrinopurulenta, organizada | M | ★★ | A1_tres_fases.mp4 |
 | resp-13 | Bleb apical que se rompe y colapsa el pulmón | 3D | ★★ | A1_bleb_neumotorax.mp4 |
 | resp-17 | Tumor central vs periférico; síndrome de vena cava | 3D | ★★ | A1_central_periferico.mp4 |
+| resp-18 | Fibrosis que se extiende desde la periferia de las bases | 3D | ★★ | A1_fibrosis_bases.mp4 |
+| resp-24 | Monóxido que ocupa la hemoglobina | M | ★★ | A1_carboxihemoglobina.mp4 |
 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | M | ★ | A1_resistencia_embarazo.mp4 |
 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | M | ★ | A1_ejercicio_hipoglicemia.mp4 |
 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ | A1_pie_diabetico.mp4 |
@@ -276,6 +271,11 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-10 | Síncope (flujo cerebral cae) vs crisis | M | ★ | A1_sincope_flujo.mp4 |
 | neuro-12 | Bloqueo D2 por fármacos | M | ★ | A1_bloqueo_d2.mp4 |
 | neuro-22 | Fenotipo de fragilidad: cinco criterios | M | ★ | A1_fried.mp4 |
+| resp-03 | Escalones GINA | M | ★ | A1_escalones_gina.mp4 |
+| resp-06 | CURB-65 sumando puntos | M | ★ | A1_curb65.mp4 |
+| resp-09 | Absceso: cavidad que se forma y drena | 3D | ★ | A1_absceso_nivel.mp4 |
+| resp-16 | Nódulo: tamaño y crecimiento en el seguimiento | M | ★ | A1_nodulo_tamano.mp4 |
+| resp-20 | Hemoptisis: sangre que inunda la vía aérea | 3D | ★ | A1_hemoptisis_masiva.mp4 |
 | cirugia-09 | (animación existente, no estaba en el plan) |  |  | A1_abcde.mp4 |
 | diab-11 | (animación existente, no estaba en el plan) |  |  | A1_basales.mp4, A2_prandiales.mp4 |
 | endo-01 | (animación existente, no estaba en el plan) |  |  | A1_eje_normal.mp4, A2_eje_primario.mp4, A3_eje_hiper.mp4, A4_eje_central.mp4 |

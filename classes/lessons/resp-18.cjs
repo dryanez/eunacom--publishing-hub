@@ -140,6 +140,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Desde las bases',
+      images: [
+        { src: 'animaciones/resp-18/A1_fibrosis_bases.mp4', label: 'Fibrosis pulmonar', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Panal de abejas',
+          say: 'La fibrosis pulmonar idiopática parte en las bases y bajo la pleura, y avanza con quistes en panal de abejas. Es un hombre mayor de sesenta, con disnea progresiva y crépitos tipo velcro. Con un patrón NIU definitivo no se necesita biopsia.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Fibrosis pulmonar idiopática',

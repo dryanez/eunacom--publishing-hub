@@ -96,6 +96,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tamaño y bordes',
+      images: [
+        { src: 'animaciones/resp-16/A1_nodulo_tamano.mp4', label: 'Nódulo pulmonar', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Bajo seis milímetros: sin control',
+          say: 'Bajo seis milímetros, en un paciente de bajo riesgo, no requiere control. Entre seis y ocho se controla con tomografía. Sobre ocho se estima la probabilidad de cáncer. Los bordes espiculados y el crecimiento sugieren cáncer.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'El nódulo pulmonar sospechoso',
       images: [

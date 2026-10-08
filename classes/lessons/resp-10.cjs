@@ -241,6 +241,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Bacilo, granuloma y caverna',
+      images: [
+        { src: 'animaciones/resp-10/A1_granuloma_caverna.mp4', label: 'Tuberculosis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Dos baciloscopías',
+          say: 'El bacilo llega al pulmón y el cuerpo lo encierra en un granuloma con necrosis caseosa. Si se reactiva, el centro se vacía y queda una caverna en el vértice, llena de bacilos: el paciente contagia. Ante tos de más de dos semanas, dos baciloscopías, prueba molecular y cultivo.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Tuberculosis en las imágenes',

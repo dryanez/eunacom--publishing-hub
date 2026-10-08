@@ -156,6 +156,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Una cavidad de pus',
+      images: [
+        { src: 'animaciones/resp-09/A1_absceso_nivel.mp4', label: 'Absceso pulmonar', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Nivel hidroaéreo',
+          say: 'Una boca sucia y una vía aérea mal protegida llevan a aspirar flora oral. Si esa neumonitis no se trata, el pulmón se necrosa y queda una cavidad con nivel hidroaéreo, con esputo fétido. Casi siempre cura con antibióticos, sin drenaje.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Absceso pulmonar',
       images: [

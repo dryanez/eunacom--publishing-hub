@@ -159,6 +159,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Un bleb que se rompe',
+      images: [
+        { src: 'animaciones/resp-13/A1_bleb_neumotorax.mp4', label: 'Neumotórax', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Joven, alto, delgado y fumador',
+          say: 'En el vértice del pulmón hay pequeñas bullas bajo la pleura, los blebs. Un día, sin trauma, una se rompe: el aire pasa a la pleura y el pulmón colapsa. El murmullo disminuye de ese lado. Si es grande o da síntomas, se aspira o se pone un tubo con sello de agua.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },
