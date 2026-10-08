@@ -148,6 +148,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El agua vuelve demasiado rápido',
+      images: [
+        { src: 'animaciones/diab-19/A1_edema_cerebral.mp4', label: 'Edema cerebral', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Gradiente osmótico al revés',
+          say: 'En la cetoacidosis el plasma concentrado le saca agua al cerebro, y sus células fabrican osmoles propios. Si la glicemia cae más de cien por hora, afuera se diluye pero adentro sigue alto, y el agua entra: edema cerebral, con cefalea, vómitos y la tríada de Cushing. Se trata de inmediato con manitol o salino hipertónico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las complicaciones en un árbol: el paciente en tratamiento que se deteriora.',
     },

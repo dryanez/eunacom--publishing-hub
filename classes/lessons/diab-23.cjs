@@ -145,6 +145,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La placa crece; la estatina la estabiliza',
+      images: [
+        { src: 'animaciones/diab-23/A1_ateroma_estatina.mp4', label: 'Ateroma', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La meta es el LDL según el riesgo',
+          say: 'El LDL entra a la pared de la arteria y la placa crece; si su cápsula es delgada, puede romperse y causar un infarto. La estatina baja el LDL y engruesa la cápsula. La meta depende del riesgo: mientras más alto, más bajo el LDL. Y si no se llega con la dosis máxima, se agrega ezetimiba.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Depósitos de colesterol',

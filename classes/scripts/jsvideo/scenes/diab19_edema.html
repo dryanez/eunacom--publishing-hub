@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// diab-19: en la cetoacidosis el plasma hiperosmolar saca agua; la célula cerebral fabrica osmoles propios. Si la osmolaridad
+// del plasma cae rápido (glicemia bajando más de 100/h, hipotónicos), los osmoles de adentro se van lento: el agua entra y la
+// célula se hincha (edema cerebral). Base: astrocito, Servier Medical Art (CC BY 4.0).
+window.SCENE = { duration: 22, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const CX = 380, CY = 410;
+function drop(x, y, s, a) {
+  ctx.globalAlpha = a; ctx.fillStyle = C.BLUE; ctx.beginPath();
+  ctx.moveTo(x, y - 9 * s); ctx.quadraticCurveTo(x + 7 * s, y + 2 * s, x, y + 6 * s); ctx.quadraticCurveTo(x - 7 * s, y + 2 * s, x, y - 9 * s); ctx.fill(); ctx.globalAlpha = 1;
+}
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('Edema cerebral: el agua vuelve demasiado rápido', 'Un gradiente osmótico al revés durante el tratamiento', C.RED);
+  // fases: 0-7 cetoacidosis (afuera concentrado), 7-12 tratamiento rápido (afuera se diluye), 12+ agua entra
+  const swell = ease(seg(t, 12.5, 4));
+  const sc = (0.27 + 0.07 * swell) * (1 + 0.01 * Math.sin(t * 3) * swell);
+  const w = 1728 * sc, h = 1764 * sc;
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.ast, CX - w / 2, CY - h / 2, w, h); ctx.globalAlpha = 1;
+  if (swell > 0) K.glow(CX, CY, 260, '79,163,255', 0.18 * swell);
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Célula del cerebro', 150, 160, '#9CCB5B'); ctx.globalAlpha = 1;
+  // osmoles de afuera (glucosa, sodio): muchos al inicio, caen rápido con el tratamiento
+  const outside = 1 - ease(seg(t, 7.2, 3.5));
+  for (let i = 0; i < 46; i++) {
+    if (rnd(i) > outside) continue;
+    const ang = rnd(i + 7) * 6.283, r = 260 + rnd(i + 3) * 70;
+    const x = CX + Math.cos(ang) * r * 1.15 + Math.sin(t + i) * 5, y = CY + Math.sin(ang) * r * 0.8 + Math.cos(t * 0.8 + i) * 5;
+    if (y < 140 || x > 780) continue;
+    ctx.globalAlpha = seg(t, 0.8, 0.6); ctx.fillStyle = '#FFFFFF'; ctx.fillRect(x - 5, y - 5, 10, 10);
+  }
+  // osmoles propios de la célula: aparecen en la cetoacidosis y se van lento
+  const own = seg(t, 2.6, 2.5) * (1 - 0.35 * seg(t, 12, 8));
+  for (let i = 0; i < 24; i++) {
+    if (rnd(i + 99) > own) continue;
+    const ang = rnd(i + 40) * 6.283, r = rnd(i + 41) * 120 * (1 + 0.25 * swell);
+    ctx.globalAlpha = 1; ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(CX + Math.cos(ang) * r, CY + Math.sin(ang) * r * 0.9, 6, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  // agua: primero quiere salir (cetoacidosis), después entra (gradiente al revés)
+  for (let i = 0; i < 12; i++) {
+    const ang = i * 0.52 + 0.3, u = ((t * 0.55) + i / 12) % 1;
+    if (t > 2.0 && t < 6.5) { const r = lerp(150, 250, u); drop(CX + Math.cos(ang) * r, CY + Math.sin(ang) * r * 0.85, 1, fade(t, 2.0, 6.0) * Math.min(1, (1 - u) * 4) * 0.8); }
+    if (t > 12.2) { const r = lerp(300, 150, u); drop(CX + Math.cos(ang) * r, CY + Math.sin(ang) * r * 0.85, 1.2, seg(t, 12.2, 0.5) * Math.min(1, u * 4)); }
+  }
+  // paneles
+  K.card(760, 150, 480, 140, C.AMBER, '1. Cetoacidosis', ['El plasma concentrado saca agua', 'La célula fabrica sus propios osmoles'], seg(t, 1.0, 0.5) * (t < 7 ? 1 : 0.5));
+  K.card(760, 305, 480, 140, C.BLUE, '2. Corrección demasiado rápida', ['La glicemia cae más de 100 por hora', 'Afuera se diluye; adentro sigue alto'], seg(t, 7.2, 0.5) * (t < 12.2 ? 1 : 0.5));
+  K.card(760, 460, 480, 140, C.RED, '3. El agua entra: edema', ['Cefalea súbita, vómitos, tríada de Cushing', 'Manitol o salino hipertónico, de inmediato'], seg(t, 12.6, 0.5));
+  K.banner(760, 625, 480, 'Glicemia: bajar 50 a 75 por hora', C.GREEN, seg(t, 18, 0.5));
+  ctx.globalAlpha = fade(t, 1.0, 21.5); text('□ osmoles del plasma    ● osmoles de la célula    agua', 40, 680, 16, C.MUTED); drop(472, 674, 0.9, fade(t, 1.0, 21.5)); ctx.globalAlpha = 1;
+  K.credit();
+};
+LOAD({ ast: '../assets/servier/astrocito.png' });
+</script>
+</body></html>

@@ -26,7 +26,7 @@ function pill(x, y, c1, c2, a = 1) {
 }
 
 // ---------------- SGLT2 en la nefrona ----------------
-const NF = { x: 70, y: 118, s: 0.72 }, N = (x, y) => [NF.x + x * NF.s, NF.y + y * NF.s];
+const NF = { x: 60, y: 150, s: 0.8 }, N = (x, y) => [NF.x + x * NF.s, NF.y + y * NF.s];
 const PCT = [[150, 130], [175, 95], [185, 45], [205, 22], [235, 25], [262, 15], [290, 12], [320, 25], [322, 70], [302, 105], [305, 150], [310, 220]];
 const REST = [[312, 300], [313, 450], [315, 600], [330, 622], [345, 600], [345, 450], [345, 330], [352, 240], [370, 190], [392, 120], [400, 60],
   [415, 22], [445, 25], [460, 70], [440, 130], [450, 200], [458, 300], [480, 380], [515, 410], [522, 500], [522, 650], [522, 800]];
@@ -39,14 +39,14 @@ function sglt2(t) {
   text('Bloquean el SGLT2 del túbulo proximal', 40, 106, 23, C.MUTED);
   ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.nef, NF.x, NF.y, 570 * NF.s, 825 * NF.s); ctx.globalAlpha = 1;
   const la = seg(t, 0.8, 0.5); ctx.globalAlpha = la;
-  tag('Glomérulo', ...N(150, 230), '#E8A15A'); tag('Túbulo proximal', ...N(250, -45), C.BLUE, 17); tag('Orina', ...N(522, 860), '#F2CF5B');
+  tag('Glomérulo', ...N(150, 230), '#E8A15A'); tag('Túbulo proximal', ...N(255, -20), C.BLUE, 17); tag('Orina', ...N(455, 640), '#F2CF5B');
   ctx.globalAlpha = 1;
   const blk = seg(t, 9.6, 0.6);
   // puntos SGLT2 sobre el túbulo proximal
   SITES.forEach((u, i) => {
     const [x, y] = TUB.at(u);
     ctx.globalAlpha = seg(t, 1.6 + i * 0.3, 0.4);
-    ctx.fillStyle = blk > 0 ? '#666' : C.GREEN; ctx.beginPath(); ctx.arc(x, y, 9, 0, 7); ctx.fill();
+    ctx.fillStyle = blk > 0 ? '#666' : C.GREEN; ctx.beginPath(); ctx.arc(x, y, 11, 0, 7); ctx.fill();
     if (blk > 0) { ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x - 11, y - 11); ctx.lineTo(x + 11, y + 11); ctx.moveTo(x + 11, y - 11); ctx.lineTo(x - 11, y + 11); ctx.stroke(); }
     ctx.globalAlpha = 1;
   });
@@ -62,7 +62,7 @@ function sglt2(t) {
       if (u < site) [x, y] = TUB.at(u);
       else { const k = clamp((u - site) / 0.06, 0, 1), [sx, sy] = TUB.at(site); x = sx + 30 * k; y = sy - 25 * k; a = 1 - k; ctx.fillStyle = C.RED; }
     } else { if (u > 1) continue; [x, y] = TUB.at(u); a = Math.min(1, (1 - u) * 20); }
-    ctx.globalAlpha = a; ctx.fillStyle = '#FFFFFF'; ctx.fillRect(x - 5, y - 5, 10, 10);
+    ctx.globalAlpha = a; ctx.fillStyle = '#FFFFFF'; ctx.fillRect(x - 7, y - 7, 14, 14); ctx.strokeStyle = '#333'; ctx.lineWidth = 1; ctx.strokeRect(x - 7, y - 7, 14, 14);
     if (blocked && i % 3 === 0) { ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(x + 9, y + 6, 4, 0, 7); ctx.fill(); }
   }
   ctx.globalAlpha = 1;

@@ -29,7 +29,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 
 | # | Clase | Animación | Prio | Estado | Método | Hecha |
 |---|---|---|---|---|---|---|
-| 1 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | ★★★ | 🔁 rehacer | JS gráfico (sin anatomía) | |
+| 1 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | ★★★ | 🔁 rehacer | JS gráfico (sin anatomía) || ✅ JS |
 | 2 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 3 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 4 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
@@ -44,21 +44,21 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 13 | reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 14 | reuma-14 | Raynaud: blanco, azul y rojo en los dedos | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 15 | reuma-17 | De la sacroilitis a la columna en caña de bambú | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
-| 16 | diab-17 | Insulina mete el potasio a la célula (bomba Na/K); umbral de potasio antes de la insulina | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 16 | diab-17 | Insulina mete el potasio a la célula (bomba Na/K); umbral de potasio antes de la insulina | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 17 | gastro-13 | Camino de la bilirrubina: hemólisis → hígado → bilis → intestino; dónde se corta en cada ictericia | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 18 | hem-07 | Coombs directo vs indirecto | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 19 | hem-15 | CID: consumo de plaquetas y factores, microtrombos y sangrado | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 20 | nefro-05 | Neurona en hiponatremia aguda, adaptación y corrección rápida (mielinólisis) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 21 | neuro-19 | Parálisis facial central (respeta la frente) vs periférica (toda la hemicara) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 22 | diab-02 | Curva de la PTGO: normal, intolerancia y diabetes, con los cortes | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 23 | diab-07 | Metformina en el hígado vs sulfonilurea forzando la célula beta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 24 | diab-08 | Gliflozina (glucosa a la orina) e incretinas (saciedad, insulina) en sus órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 25 | diab-14 | Síntomas adrenérgicos primero, neuroglucopénicos después, según cae la glicemia | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 26 | diab-16 | El sodio corregido sube mientras baja la glicemia; agregar glucosa a los doscientos | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 27 | diab-19 | Edema cerebral por gradiente osmótico inverso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 28 | diab-20 | Del glomérulo hiperfiltrante a la albuminuria y la diálisis | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 29 | diab-21 | Del capilar dañado al neovaso que sangra | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 30 | diab-23 | Placa de ateroma que crece y la estatina que la estabiliza | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 22 | diab-02 | Curva de la PTGO: normal, intolerancia y diabetes, con los cortes | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 23 | diab-07 | Metformina en el hígado vs sulfonilurea forzando la célula beta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 24 | diab-08 | Gliflozina (glucosa a la orina) e incretinas (saciedad, insulina) en sus órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 25 | diab-14 | Síntomas adrenérgicos primero, neuroglucopénicos después, según cae la glicemia | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 26 | diab-16 | El sodio corregido sube mientras baja la glicemia; agregar glucosa a los doscientos | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 27 | diab-19 | Edema cerebral por gradiente osmótico inverso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 28 | diab-20 | Del glomérulo hiperfiltrante a la albuminuria y la diálisis | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 29 | diab-21 | Del capilar dañado al neovaso que sangra | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 30 | diab-23 | Placa de ateroma que crece y la estatina que la estabiliza | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 31 | endo-07 | Yodo que entra al folículo; tiamazol bloquea la TPO; radioyodo destruye | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 32 | endo-08 | Cascada de la tormenta tiroidea y el orden PTU → yodo una hora después | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 33 | endo-14 | Aldosterona → sodio dentro, potasio fuera; renina suprimida | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
@@ -119,9 +119,9 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 88 | reuma-08 | Inmunocomplejos que se depositan en órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 89 | reuma-16 | Entesis inflamada: tendón que se inserta en el hueso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 90 | reuma-21 | Arteria temporal inflamada que ocluye la arteria oftálmica | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 91 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 92 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 93 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 91 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 92 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 93 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 94 | endo-02 | Levotiroxina: dosis según peso y edad; absorción en ayunas | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 95 | endo-04 | TSH meta por trimestre; tamizaje de talón en el tiempo | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 96 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |

@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **41**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **21**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **42**
-- ⬜ Pendientes (aún sin video): **163**
+- ✅ Hechas con anatomía real (3D o Blausen): **42**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **20**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **49**
+- ⬜ Pendientes (aún sin video): **156**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (21)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (20)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -23,7 +23,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | M | ★★★ | A1_penumbra.mp4 |
 | ob-04 | Redistribución del flujo fetal (cerebro protegido) en la restricción | M | ★★★ | A1_redistribucion.mp4 |
 | ob-05 | Invasión trofoblástica defectuosa → arterias espirales estrechas → preeclampsia | M | ★★★ | A1_placentacion.mp4 |
-| diab-17 | (animación existente, no estaba en el plan) |  |  | A1_insulina_potasio.mp4, A2_umbral_potasio.mp4 |
 | gastro-13 | (animación existente, no estaba en el plan) |  |  | A1_camino_bilirrubina.mp4 |
 | hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo.mp4, A2_coombs_indirecto.mp4 |
 | hem-15 | (animación existente, no estaba en el plan) |  |  | A1_cid.mp4 |
@@ -33,7 +32,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (163)
+## ⬜ Pendientes (aún sin video) (156)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -63,12 +62,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | derma-05 | Recambio acelerado de la epidermis (de 28 a 4 días) y el signo de Auspitz | M | ★★ |  |
 | derma-08 | Mastocito que degranula: habón (dermis superficial) vs angioedema (profundo) | M | ★★ |  |
 | derma-09 | Escalada SSJ → NET según superficie despegada (menos de 10, 10 a 30, más de 30) | M | ★★ |  |
-| diab-07 | Metformina en el hígado vs sulfonilurea forzando la célula beta | M | ★★ |  |
-| diab-08 | Gliflozina (glucosa a la orina) e incretinas (saciedad, insulina) en sus órganos | M | ★★ |  |
-| diab-19 | Edema cerebral por gradiente osmótico inverso | M | ★★ |  |
-| diab-20 | Del glomérulo hiperfiltrante a la albuminuria y la diálisis | M | ★★ |  |
-| diab-21 | Del capilar dañado al neovaso que sangra | M | ★★ |  |
-| diab-23 | Placa de ateroma que crece y la estatina que la estabiliza | M | ★★ |  |
 | endo-07 | Yodo que entra al folículo; tiamazol bloquea la TPO; radioyodo destruye | M | ★★ |  |
 | endo-08 | Cascada de la tormenta tiroidea y el orden PTU → yodo una hora después | M | ★★ |  |
 | endo-14 | Aldosterona → sodio dentro, potasio fuera; renina suprimida | M | ★★ |  |
@@ -152,7 +145,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | cirugia-07 | Fisura: espasmo del esfínter que perpetúa el dolor; grados de hemorroides que prolapsan | M | ★ |  |
 | derma-06 | Barrera que falla: alérgenos que entran por la piel atópica | M | ★ |  |
 | derma-16 | Ciclo del ácaro de la sarna en el surco | M | ★ |  |
-| diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ |  |
 | endo-02 | Levotiroxina: dosis según peso y edad; absorción en ayunas | M | ★ |  |
 | endo-04 | TSH meta por trimestre; tamizaje de talón en el tiempo | M | ★ |  |
 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | M | ★ |  |
@@ -201,7 +193,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (41)
+## ✅ Hechas con anatomía real (3D o Blausen) (42)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -234,6 +226,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-03 | Cristales de urato que precipitan en la articulación fría (podagra) | 3D | ★★★ | A1_podagra_3d.mp4 |
 | reuma-04 | Cartílago que se gasta; osteofitos que crecen | 3D | ★★★ | A1_artrosis_3d.mp4 |
 | cirugia-04 | (animación existente, no estaba en el plan) |  |  | A1_obstruccion_3d.mp4 |
+| diab-17 | (animación existente, no estaba en el plan) |  |  | A1_insulina_potasio_real.mp4, A2_umbral_potasio_real.mp4 |
 | endo-20 | (animación existente, no estaba en el plan) |  |  | A1_macroadenoma_3d.mp4 |
 | gastro-19 | (animación existente, no estaba en el plan) |  |  | A1_apendicitis_3d.mp4 |
 | neuro-17 | (animación existente, no estaba en el plan) |  |  | A1_placa_normal_real.mp4, A2_placa_miastenia_real.mp4 |
@@ -247,7 +240,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (42)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (49)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -272,10 +265,17 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | sp-08 | VPP que cambia con la prevalencia (misma prueba, distinta población) | M | ★★★ | A1_roc_corte.mp4, A2_vpp_prevalencia.mp4 |
 | sp-10 | Sesgo de adelanto: la sobrevida que parece más larga | M | ★★★ | A1_sesgo_adelanto.mp4 |
 | diab-02 | Curva de la PTGO: normal, intolerancia y diabetes, con los cortes | M | ★★ | A1_ptgo.mp4 |
+| diab-07 | Metformina en el hígado vs sulfonilurea forzando la célula beta | M | ★★ | A1_metformina_glibenclamida.mp4 |
+| diab-08 | Gliflozina (glucosa a la orina) e incretinas (saciedad, insulina) en sus órganos | M | ★★ | A1_gliflozina.mp4, A2_glp1.mp4 |
 | diab-14 | Síntomas adrenérgicos primero, neuroglucopénicos después, según cae la glicemia | M | ★★ | A1_alarma.mp4, A2_betabloqueador.mp4 |
 | diab-16 | El sodio corregido sube mientras baja la glicemia; agregar glucosa a los doscientos | M | ★★ | A1_glucosado_sodio.mp4 |
+| diab-19 | Edema cerebral por gradiente osmótico inverso | M | ★★ | A1_edema_cerebral.mp4 |
+| diab-20 | Del glomérulo hiperfiltrante a la albuminuria y la diálisis | M | ★★ | A1_glomerulo_albuminuria.mp4 |
+| diab-21 | Del capilar dañado al neovaso que sangra | M | ★★ | A1_retinopatia.mp4 |
+| diab-23 | Placa de ateroma que crece y la estatina que la estabiliza | M | ★★ | A1_ateroma_estatina.mp4 |
 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | M | ★ | A1_resistencia_embarazo.mp4 |
 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | M | ★ | A1_ejercicio_hipoglicemia.mp4 |
+| diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ | A1_pie_diabetico.mp4 |
 | cirugia-09 | (animación existente, no estaba en el plan) |  |  | A1_abcde.mp4 |
 | diab-11 | (animación existente, no estaba en el plan) |  |  | A1_basales.mp4, A2_prandiales.mp4 |
 | endo-01 | (animación existente, no estaba en el plan) |  |  | A1_eje_normal.mp4, A2_eje_primario.mp4, A3_eje_hiper.mp4, A4_eje_central.mp4 |

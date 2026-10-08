@@ -121,6 +121,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El glomérulo bajo presión',
+      images: [
+        { src: 'animaciones/diab-20/A1_glomerulo_albuminuria.mp4', label: 'Nefropatía diabética', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Primero la albuminuria; IECA o ARA dos',
+          say: 'La hiperglicemia hace hiperfiltrar al glomérulo, con la presión alta, y se escapa albúmina a la orina. Ese es el primer signo, mucho antes que la creatinina. Sin intervenir, termina en diálisis. Los IECA y los ARA dos dilatan la arteriola eferente, baja la presión y baja la albuminuria.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el tamizaje y la conducta en un solo árbol, tal como lo vas a razonar en el control de salud cardiovascular.',
     },

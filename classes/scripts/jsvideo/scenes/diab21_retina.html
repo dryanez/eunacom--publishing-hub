@@ -1,0 +1,67 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// diab-21: retinopatía. No proliferativa: microaneurismas (lo más precoz), hemorragias, exudados duros, algodonosos (isquemia).
+// La retina isquémica libera VEGF → neovasos frágiles que sangran = proliferativa. Láser (panfotocoagulación) para el neovaso;
+// anti-VEGF intravítreo para el edema macular. Base: fondo de ojo, Servier Medical Art (CC BY 4.0).
+window.SCENE = { duration: 25, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const S = 1.45, OX = 70, OY = 128, F = (x, y) => [OX + x * S, OY + y * S];
+const MA = [[112, 172], [126, 214], [101, 201], [139, 238], [118, 150], [92, 225], [146, 150], [170, 232]];
+const HEM = [[80, 160, 9], [132, 262, 11], [205, 110, 8], [96, 245, 8]];
+const EXU = [[130, 185], [136, 192], [142, 205], [128, 200], [176, 176], [182, 184]];
+const COT = [[215, 255], [90, 120], [280, 120]];
+const NEO = [...Array(5)].map((_, i) => { const a = -2.6 + i * 0.75, pts = []; for (let k = 0; k <= 20; k++) { const r = 8 + k * 3.4;
+  pts.push([250 + Math.cos(a + Math.sin(k * 0.9 + i) * 0.35) * r, 192 + Math.sin(a + Math.sin(k * 0.9 + i) * 0.35) * r]); } return pts; });
+const LASER = [...Array(60)].map((_, i) => { const a = rnd(i) * 6.283, r = 120 + rnd(i + 70) * 38; return [194 + Math.cos(a) * r, 194 + Math.sin(a) * r]; });
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('Retinopatía diabética', 'Del capilar dañado al neovaso que sangra', C.RED);
+  ctx.save(); ctx.beginPath(); ctx.arc(...F(194, 194), 166 * S, 0, 7); ctx.clip();
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.fo, OX, OY, 388 * S, 388 * S); ctx.restore(); ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 0.6, 5.0); tag('Fóvea', ...F(155, 160), '#F2CF5B', 16); tag('Papila', ...F(250, 230), '#F7E7B0', 16); ctx.globalAlpha = 1;
+  const laser = seg(t, 18.5, 2.5), regress = ease(seg(t, 19.5, 3));
+  // microaneurismas
+  MA.forEach(([x, y], i) => { const a = seg(t, 1.4 + i * 0.25, 0.3); if (a <= 0) return; const [X, Y] = F(x, y);
+    ctx.globalAlpha = a; ctx.fillStyle = '#B10E1E'; ctx.beginPath(); ctx.arc(X, Y, 4.5, 0, 7); ctx.fill(); });
+  ctx.globalAlpha = fade(t, 1.6, 6.2); tag('Microaneurismas: lo más precoz', ...F(70, 115), C.RED, 16); ctx.globalAlpha = 1;
+  // hemorragias, exudados duros, algodonosos
+  HEM.forEach(([x, y, r], i) => { const a = seg(t, 5.0 + i * 0.3, 0.5); if (a <= 0) return; const [X, Y] = F(x, y);
+    ctx.globalAlpha = a * 0.9; ctx.fillStyle = '#8E0B16'; ctx.beginPath(); ctx.ellipse(X, Y, r * S * 0.9, r * S * 0.6, i, 0, 7); ctx.fill(); });
+  EXU.forEach(([x, y], i) => { const a = seg(t, 6.0 + i * 0.12, 0.4); if (a <= 0) return; const [X, Y] = F(x, y);
+    ctx.globalAlpha = a; ctx.fillStyle = '#FFF2A0'; ctx.beginPath(); ctx.arc(X, Y, 3.5, 0, 7); ctx.fill(); });
+  COT.forEach(([x, y], i) => { const a = seg(t, 7.2 + i * 0.3, 0.6); if (a <= 0) return; const [X, Y] = F(x, y);
+    const g = ctx.createRadialGradient(X, Y, 0, X, Y, 22); g.addColorStop(0, `rgba(255,255,255,${0.85 * a})`); g.addColorStop(1, 'rgba(255,255,255,0)'); ctx.fillStyle = g; ctx.fillRect(X - 22, Y - 22, 44, 44); });
+  ctx.globalAlpha = 1;
+  if (t > 5.2 && t < 10.5) { ctx.globalAlpha = fade(t, 5.2, 10); tag('Hemorragias y exudados', ...F(300, 300), '#E8A15A', 16); tag('Algodonosos: isquemia', ...F(300, 95), '#FFFFFF', 16); ctx.globalAlpha = 1; }
+  // isquemia → VEGF → neovasos desde la papila
+  const vegf = fade(t, 9.8, 18.5, 0.8);
+  if (vegf > 0) { const [X, Y] = F(194, 194); ctx.save(); ctx.globalAlpha = vegf * (0.5 + 0.2 * Math.sin(t * 4)); ctx.strokeStyle = '#B388FF'; ctx.lineWidth = 34; ctx.beginPath(); ctx.arc(X, Y, 140 * S, 0, 7); ctx.stroke(); ctx.restore();
+    ctx.globalAlpha = vegf; tag('Retina isquémica: libera VEGF', ...F(194, 20), C.VIOLET, 16); ctx.globalAlpha = 1; }
+  const grow = ease(seg(t, 11.0, 4)) * (1 - regress);
+  if (grow > 0) NEO.forEach(pts => { const n = Math.floor(grow * pts.length); if (n < 2) return; ctx.save(); ctx.strokeStyle = '#FF2D3D'; ctx.lineWidth = 1.6; ctx.globalAlpha = 1 - regress;
+    ctx.beginPath(); for (let k = 0; k < n; k++) { const [X, Y] = F(...pts[k]); k ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); } ctx.stroke(); ctx.restore(); });
+  if (t > 12 && t < 19) { ctx.globalAlpha = fade(t, 12, 18.5); tag('Neovasos frágiles: proliferativa', ...F(330, 250), C.RED, 16); ctx.globalAlpha = 1; }
+  // sangran: hemorragia vítrea
+  const bleed = ease(seg(t, 15.0, 2.5)) * (1 - 0.7 * regress);
+  if (bleed > 0) { const [X, Y] = F(268, 160); const g = ctx.createRadialGradient(X, Y, 0, X, Y, 120 * bleed + 1); g.addColorStop(0, `rgba(120,0,10,${0.75 * bleed})`); g.addColorStop(1, 'rgba(120,0,10,0)'); ctx.fillStyle = g; ctx.fillRect(X - 130, Y - 130, 260, 260); }
+  if (t > 15.5 && t < 19) { ctx.globalAlpha = fade(t, 15.5, 18.6); tag('Sangran: hemorragia vítrea', ...F(268, 60), '#C0392B', 16); ctx.globalAlpha = 1; }
+  // láser periférico
+  if (laser > 0) LASER.forEach(([x, y], i) => { if (rnd(i + 200) > laser) return; const [X, Y] = F(x, y); ctx.fillStyle = 'rgba(255,248,220,0.9)'; ctx.beginPath(); ctx.arc(X, Y, 4, 0, 7); ctx.fill(); ctx.strokeStyle = '#7a5a2a'; ctx.lineWidth = 1; ctx.stroke(); });
+  if (t > 19) { ctx.globalAlpha = seg(t, 19, 0.5); tag('Láser: menos retina isquémica, menos VEGF', ...F(194, 372), C.GREEN, 16); ctx.globalAlpha = 1; }
+  // panel
+  K.card(700, 150, 540, 150, C.AMBER, 'No proliferativa', ['Microaneurismas, hemorragias, exudados', 'Algodonosos = isquemia'], seg(t, 1.6, 0.5) * (t < 10 ? 1 : 0.55));
+  K.card(700, 318, 540, 150, C.RED, 'Proliferativa', ['VEGF → neovasos que sangran', 'Hemorragia vítrea, desprendimiento'], seg(t, 11, 0.5) * (t < 18.5 ? 1 : 0.55));
+  K.card(700, 486, 540, 150, C.GREEN, 'Tratamiento', ['Neovaso: panfotocoagulación con láser', 'Edema macular: anti-VEGF intravítreo'], seg(t, 18.8, 0.5));
+  K.banner(700, 650, 540, 'Edema macular: lo que más baja la visión', C.BLUE, seg(t, 22.2, 0.5));
+  K.credit();
+};
+LOAD({ fo: '../assets/servier/fondo_ojo.png' });
+</script>
+</body></html>

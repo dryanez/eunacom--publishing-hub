@@ -139,6 +139,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del capilar dañado al neovaso',
+      images: [
+        { src: 'animaciones/diab-21/A1_retinopatia.mp4', label: 'Retinopatía diabética', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Láser para el neovaso, anti VEGF para el edema macular',
+          say: 'Primero aparecen los microaneurismas, después las hemorragias, los exudados y los algodonosos de la isquemia. La retina isquémica libera VEGF, y crecen neovasos frágiles que sangran: es la proliferativa. El láser destruye la retina isquémica y los neovasos regresan. El edema macular, que es lo que más baja la visión, se trata con anti VEGF.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Retinopatía diabética',

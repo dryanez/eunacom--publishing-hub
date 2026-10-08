@@ -1,0 +1,76 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// diab-20: la hiperglicemia crónica hace hiperfiltrar al glomérulo (presión alta) y escapa albúmina: es el primer signo.
+// Sin intervención: ERC terminal y diálisis. IECA/ARA II dilatan la eferente, baja la presión y la albuminuria.
+// Base: nefrona y diálisis, Servier Medical Art (CC BY 4.0).
+window.SCENE = { duration: 24, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const Z = 2.4, OX = 60, OY = 140, X0 = 20, Y0 = 60;
+const G = (x, y) => [OX + (x - X0) * Z, OY + (y - Y0) * Z];
+const AFF = poly([[62, 262], [90, 236], [120, 214], [136, 194], [140, 174]].map(p => G(...p)));
+const EFF = poly([[126, 172], [114, 188], [100, 193], [84, 176], [76, 140], [80, 108], [92, 86], [110, 72], [130, 64]].map(p => G(...p)));
+const URI = poly([[146, 150], [160, 128], [168, 108], [170, 88], [172, 62]].map(p => G(...p)));
+const GLO = G(140, 152);
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('Nefropatía diabética: el glomérulo bajo presión', 'La albuminuria aparece mucho antes que la creatinina', C.AMBER);
+  ctx.save(); ctx.beginPath(); ctx.roundRect(OX, OY, 220 * Z, 220 * Z, 20); ctx.clip();
+  ctx.globalAlpha = seg(t, 0, 0.7);
+  ctx.drawImage(window.IMGS.nef, X0, Y0, 220, 220, OX, OY, 220 * Z, 220 * Z);
+  ctx.restore(); ctx.globalAlpha = 1;
+  const la = fade(t, 0.8, 9);
+  ctx.globalAlpha = la; tag('Aferente: entra', ...G(78, 270), C.RED, 17); tag('Eferente: sale', ...G(52, 112), '#E86A5A', 17); tag('Cápsula de Bowman', ...G(195, 200), '#E8A15A', 17); ctx.globalAlpha = 1;
+  // presión intraglomerular
+  const ieca = ease(seg(t, 14.5, 3));
+  const press = clamp(seg(t, 1.5, 4) * (1 - 0.65 * ieca), 0, 1);
+  K.glow(GLO[0], GLO[1], 130, '255,90,78', 0.45 * press * (0.85 + 0.15 * Math.sin(t * 5)));
+  // la eferente se abre con el IECA
+  if (ieca > 0) { ctx.save(); ctx.globalAlpha = 0.55 * ieca; EFF.stroke(ctx, 0, 1, 10 + 22 * ieca, '#4FA3FF'); ctx.restore(); }
+  // sangre
+  for (let i = 0; i < 9; i++) {
+    const u = ((t * 0.45) + i / 9) % 1;
+    for (const [P, sh] of [[AFF, 0], [EFF, 0.5]]) {
+      const [x, y] = P.at((u + sh) % 1); ctx.globalAlpha = seg(t, 0.5, 0.5);
+      ctx.fillStyle = '#B3122E'; ctx.beginPath(); ctx.arc(x, y, 7, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1; ctx.stroke();
+    }
+  }
+  // albúmina que escapa a la orina
+  const leak = seg(t, 5.5, 1) * (1 - 0.8 * ieca);
+  for (let i = 0; i < 10; i++) {
+    if (rnd(i) > leak) continue;
+    const u = ((t * 0.32) + i / 10) % 1, [x, y] = URI.at(u);
+    ctx.globalAlpha = Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(x, y, 8, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  if (t > 6 && t < 14) { ctx.globalAlpha = fade(t, 6, 13.5); tag('Albúmina a la orina', ...G(176, 72), '#F2CF5B', 17); ctx.globalAlpha = 1; }
+  if (t > 13 && t < 15.5) K.pill(lerp(760, G(80, 180)[0], ease(seg(t, 13.2, 1.2))), lerp(250, G(80, 180)[1], ease(seg(t, 13.2, 1.2))), '#FFFFFF', C.BLUE, 1 - seg(t, 14.6, 0.4));
+  if (t > 15) { ctx.globalAlpha = seg(t, 15, 0.5); tag('IECA / ARA II: se abre la salida', ...G(70, 230), C.BLUE, 17); ctx.globalAlpha = 1; }
+  // panel derecho
+  const a = seg(t, 1.2, 0.5);
+  ctx.globalAlpha = a;
+  rrect(700, 150, 540, 140, 16, '#161B22');
+  K.bar(724, 190, 492, 'Presión en el glomérulo', 30 + 70 * press, 100, '', press > 0.6 ? C.RED : C.GREEN, [], () => press > 0.6 ? 'alta' : press > 0.3 ? 'baja' : 'normal');
+  const rac = Math.min(420, 12 + 260 * ease(seg(t, 5.5, 6))) * (1 - 0.72 * ieca);
+  K.bar(724, 248, 492, 'Albuminuria (RAC)', rac, 450, 'mg/g', rac >= 300 ? C.RED : rac >= 30 ? C.AMBER : C.GREEN, [[30, '30'], [300, '300']]);
+  ctx.globalAlpha = 1;
+  K.card(700, 310, 540, 120, C.AMBER, 'A1 bajo 30 · A2 de 30 a 299 · A3 300 o más', ['A2 es la antigua microalbuminuria: la más preguntada'], seg(t, 8, 0.5), 17);
+  const d = seg(t, 10.5, 0.6);
+  if (d > 0) {
+    ctx.globalAlpha = d; rrect(700, 450, 540, 170, 16, '#161B22');
+    ctx.drawImage(window.IMGS.dia, 715, 462, 150, 148);
+    text('Sin intervenir:', 885, 505, 20, C.RED, 'bold'); text('enfermedad renal terminal', 885, 537, 19, C.INK); text('Primera causa de diálisis', 885, 569, 19, C.INK);
+    ctx.globalAlpha = 1;
+  }
+  K.banner(60, 650, 1180, 'IECA o ARA II: dilatan la eferente, baja la presión y la albuminuria', C.BLUE, seg(t, 19.5, 0.5));
+  K.credit();
+};
+LOAD({ nef: '../assets/servier/nefrona.png', dia: '../assets/servier/dialisis.png' });
+</script>
+</body></html>

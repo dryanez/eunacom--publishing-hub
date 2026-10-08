@@ -217,6 +217,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué se ulcera un pie diabético',
+      images: [
+        { src: 'animaciones/diab-22/A1_pie_diabetico.mp4', label: 'Pie diabético', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Neuropatía, isquemia y trauma',
+          say: 'El paciente no siente el monofilamento: es la neuropatía, el componente principal. Si además faltan los pulsos, hay isquemia. Un roce o una piedra en el zapato que no se siente basta para formar una úlcera. Y si el estilete toca hueso, es una osteomielitis.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El pie diabético',

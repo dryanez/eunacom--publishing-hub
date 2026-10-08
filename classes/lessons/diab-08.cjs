@@ -179,6 +179,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde actúa cada familia nueva',
+      images: [
+        { src: 'animaciones/diab-08/A1_gliflozina.mp4', label: 'Gliflozinas', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+        { src: 'animaciones/diab-08/A2_glp1.mp4', label: 'Agonistas de GLP uno', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La glucosa y el sodio se van por la orina',
+          say: 'En el túbulo proximal, el SGLT dos recupera toda la glucosa filtrada. La gliflozina lo bloquea, y la glucosa y el sodio se van por la orina. Baja de peso y la presión, protege el corazón y el riñón, y no da hipoglicemia. Pero ojo con las micosis genitales y con la cetoacidosis euglicémica.' },
+        { note: 'Insulina solo si hay glucosa, y saciedad',
+          say: 'Los agonistas de GLP uno imitan a la incretina: liberan insulina solo si hay glucosa, bajan el glucagón, enlentecen el vaciamiento del estómago y dan saciedad en el hipotálamo. Con un infarto o un accidente cerebrovascular previo, piensa en ellos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos esa misma lógica en el árbol de decisión que vas a usar en el examen.',
     },

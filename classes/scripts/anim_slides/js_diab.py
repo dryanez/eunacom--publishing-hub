@@ -63,4 +63,43 @@ S = {
         'steps': [{'note': 'Metformina sin hipoglicemia; glibenclamida con hipoglicemia',
                    'say': 'La metformina actúa en el hígado: frena la gluconeogénesis y cae la glucosa que sale del hígado. No toca el páncreas, así que sola no da hipoglicemia. La glibenclamida, en cambio, obliga a la célula beta a liberar insulina aunque la glicemia ya esté normal, y por eso puede llevar a la hipoglicemia, sobre todo en el adulto mayor y en el enfermo renal.'}],
     },
+    'diab-08': {
+        'title': 'Dónde actúa cada familia nueva',
+        'images': [{'src': 'animaciones/diab-08/A1_gliflozina.mp4', 'label': 'Gliflozinas', 'credit': SV},
+                   {'src': 'animaciones/diab-08/A2_glp1.mp4', 'label': 'Agonistas de GLP uno', 'credit': SV}],
+        'steps': [{'note': 'La glucosa y el sodio se van por la orina',
+                   'say': 'En el túbulo proximal, el SGLT dos recupera toda la glucosa filtrada. La gliflozina lo bloquea, y la glucosa y el sodio se van por la orina. Baja de peso y la presión, protege el corazón y el riñón, y no da hipoglicemia. Pero ojo con las micosis genitales y con la cetoacidosis euglicémica.'},
+                  {'note': 'Insulina solo si hay glucosa, y saciedad',
+                   'say': 'Los agonistas de GLP uno imitan a la incretina: liberan insulina solo si hay glucosa, bajan el glucagón, enlentecen el vaciamiento del estómago y dan saciedad en el hipotálamo. Con un infarto o un accidente cerebrovascular previo, piensa en ellos.'}],
+    },
+    'diab-19': {
+        'title': 'El agua vuelve demasiado rápido',
+        'images': [{'src': 'animaciones/diab-19/A1_edema_cerebral.mp4', 'label': 'Edema cerebral', 'credit': SV}],
+        'steps': [{'note': 'Gradiente osmótico al revés',
+                   'say': 'En la cetoacidosis el plasma concentrado le saca agua al cerebro, y sus células fabrican osmoles propios. Si la glicemia cae más de cien por hora, afuera se diluye pero adentro sigue alto, y el agua entra: edema cerebral, con cefalea, vómitos y la tríada de Cushing. Se trata de inmediato con manitol o salino hipertónico.'}],
+    },
+    'diab-20': {
+        'title': 'El glomérulo bajo presión',
+        'images': [{'src': 'animaciones/diab-20/A1_glomerulo_albuminuria.mp4', 'label': 'Nefropatía diabética', 'credit': SV}],
+        'steps': [{'note': 'Primero la albuminuria; IECA o ARA dos',
+                   'say': 'La hiperglicemia hace hiperfiltrar al glomérulo, con la presión alta, y se escapa albúmina a la orina. Ese es el primer signo, mucho antes que la creatinina. Sin intervenir, termina en diálisis. Los IECA y los ARA dos dilatan la arteriola eferente, baja la presión y baja la albuminuria.'}],
+    },
+    'diab-21': {
+        'title': 'Del capilar dañado al neovaso',
+        'images': [{'src': 'animaciones/diab-21/A1_retinopatia.mp4', 'label': 'Retinopatía diabética', 'credit': SV}],
+        'steps': [{'note': 'Láser para el neovaso, anti VEGF para el edema macular',
+                   'say': 'Primero aparecen los microaneurismas, después las hemorragias, los exudados y los algodonosos de la isquemia. La retina isquémica libera VEGF, y crecen neovasos frágiles que sangran: es la proliferativa. El láser destruye la retina isquémica y los neovasos regresan. El edema macular, que es lo que más baja la visión, se trata con anti VEGF.'}],
+    },
+    'diab-22': {
+        'title': 'Por qué se ulcera un pie diabético',
+        'images': [{'src': 'animaciones/diab-22/A1_pie_diabetico.mp4', 'label': 'Pie diabético', 'credit': SV}],
+        'steps': [{'note': 'Neuropatía, isquemia y trauma',
+                   'say': 'El paciente no siente el monofilamento: es la neuropatía, el componente principal. Si además faltan los pulsos, hay isquemia. Un roce o una piedra en el zapato que no se siente basta para formar una úlcera. Y si el estilete toca hueso, es una osteomielitis.'}],
+    },
+    'diab-23': {
+        'title': 'La placa crece; la estatina la estabiliza',
+        'images': [{'src': 'animaciones/diab-23/A1_ateroma_estatina.mp4', 'label': 'Ateroma', 'credit': SV}],
+        'steps': [{'note': 'La meta es el LDL según el riesgo',
+                   'say': 'El LDL entra a la pared de la arteria y la placa crece; si su cápsula es delgada, puede romperse y causar un infarto. La estatina baja el LDL y engruesa la cápsula. La meta depende del riesgo: mientras más alto, más bajo el LDL. Y si no se llega con la dosis máxima, se agrega ezetimiba.'}],
+    },
 }
