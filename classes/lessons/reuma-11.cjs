@@ -217,6 +217,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La paradoja',
+      images: [
+        { src: 'animaciones/reuma-11/A1_paradoja_al.mp4', label: 'Anticoagulante lúpico', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Alarga el TTPK y produce trombosis',
+          say: 'En el tubo de ensayo, el anticoagulante lúpico alarga el tiempo de tromboplastina parcial activada, y parece un anticoagulante. Pero en el paciente es procoagulante: produce trombosis venosas y arteriales, aun con plaquetas bajas. Por eso la anticoagulación se mantiene de forma indefinida.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Síndrome antifosfolípido',
       images: [

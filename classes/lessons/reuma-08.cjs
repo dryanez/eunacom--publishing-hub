@@ -232,6 +232,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los inmunocomplejos se depositan',
+      images: [
+        { src: 'animaciones/reuma-08/A1_inmunocomplejos.mp4', label: 'Lupus', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Anti ADN sube, complemento baja',
+          say: 'En el lupus, los inmunocomplejos se depositan en las membranas basales del riñón, la piel y las serosas, y activan la vía clásica del complemento. Por eso, en el brote, los anti ADN de doble hebra suben y el C tres y el C cuatro caen.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Lupus eritematoso sistémico',
       images: [

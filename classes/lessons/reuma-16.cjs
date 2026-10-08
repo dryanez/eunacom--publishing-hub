@@ -166,6 +166,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La diana es la entesis',
+      images: [
+        { src: 'animaciones/reuma-16/A1_entesis.mp4', label: 'Espondiloartritis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Talón: Aquiles y fascia plantar',
+          say: 'En la artritis reumatoide la diana es la membrana sinovial; en las espondiloartritis es la entesis, donde el tendón se inserta en el hueso. La entesitis periférica más frecuente está en la inserción del tendón de Aquiles o en la fascia plantar, con talalgia al levantarse. Y en el esqueleto axial da sacroilitis y espondilitis.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Sacroilitis',
       images: [

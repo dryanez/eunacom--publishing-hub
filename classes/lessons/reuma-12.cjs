@@ -230,6 +230,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Limitada o difusa',
+      images: [
+        { src: 'animaciones/reuma-12/A1_limitada_difusa.mp4', label: 'Esclerosis sistémica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Anticentrómero o anti Scl setenta',
+          say: 'En la forma limitada, el engrosamiento de la piel se detiene en los codos y las rodillas, con CREST y anticuerpos anticentrómero. En la difusa avanza rápido al tronco, y el colágeno se deposita también en el pulmón y el riñón: el anti Scl setenta predice fibrosis pulmonar intersticial, y el anti ARN polimerasa tres, crisis renal.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Esclerodermia',
       images: [

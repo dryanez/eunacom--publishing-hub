@@ -4,8 +4,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 
 - ✅ Hechas con anatomía real (3D o Blausen): **52**
 - 🔁 Hechas pero con anatomía abstracta: rehacer: **10**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **131**
-- ⬜ Pendientes (aún sin video): **74**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **139**
+- ⬜ Pendientes (aún sin video): **66**
 
 ## 🔁 Hechas pero con anatomía abstracta: rehacer (10)
 
@@ -22,7 +22,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (74)
+## ⬜ Pendientes (aún sin video) (66)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -38,7 +38,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-13 | Reflujo vesicoureteral: orina que sube por el uréter al orinar | 3D | ★★★ |  |
 | ped-22 | Ortolani (cadera que entra) y Barlow (cadera que sale) en 3D | 3D | ★★★ |  |
 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | 3D | ★★★ |  |
-| reuma-14 | Raynaud: blanco, azul y rojo en los dedos | 3D | ★★★ |  |
 | reuma-17 | De la sacroilitis a la columna en caña de bambú | 3D | ★★★ |  |
 | cirugia-02 | Cálculo que se enclava en el bacinete → vesícula se distiende e inflama; signo de Murphy | 3D | ★★ |  |
 | cirugia-03 | Divertículo que se microperfora; escalones de Hinchey (absceso pericólico → pélvico → purulenta → fecal) | 3D | ★★ |  |
@@ -70,11 +69,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-12 | Píloro, invaginación, malrotación: el vómito según la causa | 3D | ★★ |  |
 | ped-18 | Silverman: los signos de dificultad | M | ★★ |  |
 | ped-20 | Hipoglicemia neonatal: glucosa que cae al cortar el cordón | M | ★★ |  |
-| reuma-01 | Artrocentesis y los cuatro líquidos | M | ★★ |  |
-| reuma-02 | Bacteria que llega por la sangre a la articulación | 3D | ★★ |  |
-| reuma-08 | Inmunocomplejos que se depositan en órganos | M | ★★ |  |
-| reuma-16 | Entesis inflamada: tendón que se inserta en el hueso | 3D | ★★ |  |
-| reuma-21 | Arteria temporal inflamada que ocluye la arteria oftálmica | 3D | ★★ |  |
 | sp-09 | Variable de confusión (el café y el tabaco) | M | ★★ |  |
 | cirugia-07 | Fisura: espasmo del esfínter que perpetúa el dolor; grados de hemorroides que prolapsan | M | ★ |  |
 | derma-06 | Barrera que falla: alérgenos que entran por la piel atópica | M | ★ |  |
@@ -98,8 +92,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-14 | Convulsión febril simple vs compleja | M | ★ |  |
 | ped-16 | Capurro animado: los cinco signos | M | ★ |  |
 | ped-19 | Sepsis precoz vs tardía: el germen según las 72 horas | M | ★ |  |
-| reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
-| reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
 ## ✅ Hechas con anatomía real (3D o Blausen) (52)
 
@@ -158,7 +150,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (131)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (139)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -179,6 +171,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | oftal-18 | Linterna oscilante (Marcus Gunn) en movimiento | M | ★★★ | A1_linterna_oscilante.mp4 |
 | ped-10 | Fiebre y exantema en el tiempo para cada enfermedad (exantema súbito: aparece al caer la fiebre) | M | ★★★ | A1_fiebre_exantema.mp4 |
 | reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | 3D | ★★★ | A1_pannus.mp4 |
+| reuma-14 | Raynaud: blanco, azul y rojo en los dedos | 3D | ★★★ | A1_tres_colores.mp4 |
 | sp-06 | Cohorte (de la exposición al efecto) vs casos y controles (del efecto hacia atrás) | M | ★★★ | A1_cohorte_casos.mp4 |
 | sp-07 | Tabla dos por dos que se llena; RR, OR y NNT calculados | M | ★★★ | A1_tabla_2x2.mp4 |
 | sp-08 | VPP que cambia con la prevalencia (misma prueba, distinta población) | M | ★★★ | A1_roc_corte.mp4, A2_vpp_prevalencia.mp4 |
@@ -247,6 +240,11 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-17 | Tumor central vs periférico; síndrome de vena cava | 3D | ★★ | A1_central_periferico.mp4 |
 | resp-18 | Fibrosis que se extiende desde la periferia de las bases | 3D | ★★ | A1_fibrosis_bases.mp4 |
 | resp-24 | Monóxido que ocupa la hemoglobina | M | ★★ | A1_carboxihemoglobina.mp4 |
+| reuma-01 | Artrocentesis y los cuatro líquidos | M | ★★ | A1_cuatro_liquidos.mp4 |
+| reuma-02 | Bacteria que llega por la sangre a la articulación | 3D | ★★ | A1_via_hematogena.mp4 |
+| reuma-08 | Inmunocomplejos que se depositan en órganos | M | ★★ | A1_inmunocomplejos.mp4 |
+| reuma-16 | Entesis inflamada: tendón que se inserta en el hueso | 3D | ★★ | A1_entesis.mp4 |
+| reuma-21 | Arteria temporal inflamada que ocluye la arteria oftálmica | 3D | ★★ | A1_arteria_temporal.mp4 |
 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | M | ★ | A1_resistencia_embarazo.mp4 |
 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | M | ★ | A1_ejercicio_hipoglicemia.mp4 |
 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ | A1_pie_diabetico.mp4 |
@@ -276,6 +274,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-09 | Absceso: cavidad que se forma y drena | 3D | ★ | A1_absceso_nivel.mp4 |
 | resp-16 | Nódulo: tamaño y crecimiento en el seguimiento | M | ★ | A1_nodulo_tamano.mp4 |
 | resp-20 | Hemoptisis: sangre que inunda la vía aérea | 3D | ★ | A1_hemoptisis_masiva.mp4 |
+| reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ | A1_paradoja_al.mp4 |
+| reuma-12 | Fibrosis de la piel y los órganos | M | ★ | A1_limitada_difusa.mp4 |
 | cirugia-09 | (animación existente, no estaba en el plan) |  |  | A1_abcde.mp4 |
 | diab-11 | (animación existente, no estaba en el plan) |  |  | A1_basales.mp4, A2_prandiales.mp4 |
 | endo-01 | (animación existente, no estaba en el plan) |  |  | A1_eje_normal.mp4, A2_eje_primario.mp4, A3_eje_hiper.mp4, A4_eje_central.mp4 |

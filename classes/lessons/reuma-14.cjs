@@ -165,6 +165,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Blanco, azul y rojo',
+      images: [
+        { src: 'animaciones/reuma-14/A1_tres_colores.mp4', label: 'Fenómeno de Raynaud', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Primario o secundario',
+          say: 'Con el frío, el vasoespasmo deja los dedos blancos. La sangre atrapada se desoxigena y se ponen azules. Al recalentarse, la hiperemia de reperfusión los tiñe de rojo. El primario es de mujeres jóvenes, simétrico y sin úlceras; el secundario aparece después de los treinta, asimétrico, con úlceras y capilares dilatados o perdidos. La causa autoinmune más frecuente es la esclerosis sistémica.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Fenómeno de Raynaud',

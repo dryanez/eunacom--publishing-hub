@@ -225,6 +225,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El pannus',
+      images: [
+        { src: 'animaciones/reuma-06/A1_pannus.mp4', label: 'Artritis reumatoide', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Erosión en sacabocado',
+          say: 'Los linfocitos T y los macrófagos activados llegan a la membrana sinovial y liberan factor de necrosis tumoral e interleuquina seis. La sinovial se engruesa y forma el pannus, que expresa el ligando de RANK y activa los osteoclastos: así aparecen las erosiones marginales en sacabocado y la osteopenia yuxtaarticular.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Artritis reumatoide',

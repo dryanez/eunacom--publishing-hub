@@ -242,6 +242,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La arteria temporal y el ojo',
+      images: [
+        { src: 'animaciones/reuma-21/A1_arteria_temporal.mp4', label: 'Arteritis de la temporal', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'No esperar la biopsia',
+          say: 'En un mayor de cincuenta años con cefalea nueva, la arteria temporal se palpa engrosada y sin pulso, y la claudicación mandibular es el signo más específico. El riesgo es la neuropatía óptica isquémica, con papila pálida y edematosa. Los corticoides se inician de inmediato, sin esperar la biopsia, y con síntomas visuales se dan pulsos de metilprednisolona.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Vasculitis de grandes vasos',

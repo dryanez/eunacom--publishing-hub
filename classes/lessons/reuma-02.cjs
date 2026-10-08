@@ -244,6 +244,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Llega por la sangre',
+      images: [
+        { src: 'animaciones/reuma-02/A1_via_hematogena.mp4', label: 'Artritis séptica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Artrocentesis antes del antibiótico',
+          say: 'Una bacteriemia transitoria siembra la articulación, porque la sinovial es muy vascularizada y no tiene lámina basal. La articulación se transforma en un absceso cerrado a presión que destruye el cartílago en horas. El estafilococo áureo explica más de la mitad de los casos; en el joven con vida sexual activa, el gonococo, con Gram negativo en más del setenta y cinco por ciento.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'La rodilla con derrame',
       images: [

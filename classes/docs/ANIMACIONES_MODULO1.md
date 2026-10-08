@@ -41,8 +41,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 10 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 11 | neuro-20 | Otolitos en el conducto posterior durante Dix-Hallpike y Epley (procedural, con cabeza de referencia) | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 12 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
-| 13 | reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 14 | reuma-14 | Raynaud: blanco, azul y rojo en los dedos | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 13 | reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 14 | reuma-14 | Raynaud: blanco, azul y rojo en los dedos | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 15 | reuma-17 | De la sacroilitis a la columna en caña de bambú | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 16 | diab-17 | Insulina mete el potasio a la célula (bomba Na/K); umbral de potasio antes de la insulina | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 17 | gastro-13 | Camino de la bilirrubina: hemólisis → hígado → bilis → intestino; dónde se corta en cada ictericia | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
@@ -114,11 +114,11 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 83 | resp-17 | Tumor central vs periférico; síndrome de vena cava | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 84 | resp-18 | Fibrosis que se extiende desde la periferia de las bases | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 85 | resp-24 | Monóxido que ocupa la hemoglobina | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
-| 86 | reuma-01 | Artrocentesis y los cuatro líquidos | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 87 | reuma-02 | Bacteria que llega por la sangre a la articulación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 88 | reuma-08 | Inmunocomplejos que se depositan en órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 89 | reuma-16 | Entesis inflamada: tendón que se inserta en el hueso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 90 | reuma-21 | Arteria temporal inflamada que ocluye la arteria oftálmica | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 86 | reuma-01 | Artrocentesis y los cuatro líquidos | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 87 | reuma-02 | Bacteria que llega por la sangre a la articulación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 88 | reuma-08 | Inmunocomplejos que se depositan en órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 89 | reuma-16 | Entesis inflamada: tendón que se inserta en el hueso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 90 | reuma-21 | Arteria temporal inflamada que ocluye la arteria oftálmica | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 91 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 92 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 93 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
@@ -149,5 +149,5 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 118 | resp-09 | Absceso: cavidad que se forma y drena | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 119 | resp-16 | Nódulo: tamaño y crecimiento en el seguimiento | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
 | 120 | resp-20 | Hemoptisis: sangre que inunda la vía aérea | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
-| 121 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 122 | reuma-12 | Fibrosis de la piel y los órganos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 121 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 122 | reuma-12 | Fibrosis de la piel y los órganos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |

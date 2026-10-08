@@ -164,6 +164,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuatro líquidos',
+      images: [
+        { src: 'animaciones/reuma-01/A1_cuatro_liquidos.mp4', label: 'Artrocentesis', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Antes del primer antibiótico',
+          say: 'El líquido normal tiene menos de doscientos leucocitos. El tipo uno, no inflamatorio, de doscientos a dos mil, es el de la artrosis. El tipo dos, inflamatorio, de dos mil a cincuenta mil, es el de la gota, la condrocalcinosis y la artritis reumatoide. El tipo tres, séptico, tiene más de cincuenta mil, con más de noventa por ciento de neutrófilos. Y el tipo cuatro es hemorrágico.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Cristales en el líquido articular',
       images: [
