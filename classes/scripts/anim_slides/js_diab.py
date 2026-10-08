@@ -48,4 +48,19 @@ S = {
         'steps': [{'note': 'Sensibilidad alta por veinticuatro a cuarenta y ocho horas',
                    'say': 'Después del ejercicio, la sensibilidad a la insulina queda alta uno a dos días. Con insulina o una sulfonilurea aparece la hipoglicemia tardía, típicamente nocturna. Por eso se mide la glicemia antes de salir, y se reparten los ciento cincuenta minutos en al menos tres días.'}],
     },
+    'diab-17': {
+        'title': 'La insulina mete el potasio a la célula',
+        'images': [{'src': 'animaciones/diab-17/A1_insulina_potasio_real.mp4', 'label': 'La insulina mete potasio', 'credit': SV},
+                   {'src': 'animaciones/diab-17/A2_umbral_potasio_real.mp4', 'label': 'Por qué esperar', 'credit': SV}],
+        'steps': [{'note': 'El potasio del plasma cae',
+                   'say': 'La insulina activa la bomba sodio potasio de la membrana y mete el potasio dentro de la célula. Mira cómo baja el potasio de la sangre: el tanque estaba vacío y el número era engañoso.'},
+                  {'note': 'Bajo tres coma tres, no hay insulina',
+                   'say': 'Si el paciente ya parte con el potasio bajo y le das insulina, el potasio cae todavía más, y aparece la arritmia. Por eso, bajo tres coma tres, primero potasio, y recién sobre tres coma tres, la insulina.'}],
+    },
+    'diab-07': {
+        'title': 'Una frena al hígado, la otra exprime al páncreas',
+        'images': [{'src': 'animaciones/diab-07/A1_metformina_glibenclamida.mp4', 'label': 'Metformina y glibenclamida', 'credit': SV}],
+        'steps': [{'note': 'Metformina sin hipoglicemia; glibenclamida con hipoglicemia',
+                   'say': 'La metformina actúa en el hígado: frena la gluconeogénesis y cae la glucosa que sale del hígado. No toca el páncreas, así que sola no da hipoglicemia. La glibenclamida, en cambio, obliga a la célula beta a liberar insulina aunque la glicemia ya esté normal, y por eso puede llevar a la hipoglicemia, sobre todo en el adulto mayor y en el enfermo renal.'}],
+    },
 }

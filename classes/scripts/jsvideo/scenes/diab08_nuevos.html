@@ -1,0 +1,136 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script>
+<script>
+// diab-08. ?v=sglt2: en el túbulo proximal el SGLT2 recupera la glucosa filtrada; la gliflozina lo bloquea y la glucosa y el
+// sodio se van por la orina. ?v=glp1: insulina solo si hay glucosa, menos glucagón, vaciamiento gástrico lento y saciedad.
+// Base: Servier Medical Art (CC BY 4.0): nefrona; hígado, estómago y páncreas; cerebro.
+const GLP = new URLSearchParams(location.search).get('v') === 'glp1';
+window.SCENE = { duration: GLP ? 21 : 24, fps: 30 };
+const { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = LIB(document.getElementById('c'));
+const seg = (t, a, d) => clamp((t - a) / d, 0, 1);
+function card(x, y, w, h, col, title, lines, a) {
+  if (a <= 0) return; ctx.globalAlpha = a;
+  rrect(x, y, w, h, 16, '#161B22'); ctx.fillStyle = col; ctx.fillRect(x, y, 6, h);
+  text(title, x + 22, y + 34, 21, col, 'bold');
+  lines.forEach((l, i) => text(l, x + 22, y + 68 + i * 29, 18, C.INK));
+  ctx.globalAlpha = 1;
+}
+function pill(x, y, c1, c2, a = 1) {
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(-0.5);
+  ctx.fillStyle = c1; ctx.beginPath(); ctx.roundRect(-24, -10, 24, 20, [10, 0, 0, 10]); ctx.fill();
+  ctx.fillStyle = c2; ctx.beginPath(); ctx.roundRect(0, -10, 24, 20, [0, 10, 10, 0]); ctx.fill(); ctx.restore();
+}
+
+// ---------------- SGLT2 en la nefrona ----------------
+const NF = { x: 70, y: 118, s: 0.72 }, N = (x, y) => [NF.x + x * NF.s, NF.y + y * NF.s];
+const PCT = [[150, 130], [175, 95], [185, 45], [205, 22], [235, 25], [262, 15], [290, 12], [320, 25], [322, 70], [302, 105], [305, 150], [310, 220]];
+const REST = [[312, 300], [313, 450], [315, 600], [330, 622], [345, 600], [345, 450], [345, 330], [352, 240], [370, 190], [392, 120], [400, 60],
+  [415, 22], [445, 25], [460, 70], [440, 130], [450, 200], [458, 300], [480, 380], [515, 410], [522, 500], [522, 650], [522, 800]];
+const TUB = poly([...PCT, ...REST].map(p => N(...p)));
+const fPCT = (() => { const a = poly(PCT.map(p => N(...p))).length; return a / TUB.length; })();
+const SITES = [0.25, 0.5, 0.75].map(u => u * fPCT);
+
+function sglt2(t) {
+  text('Gliflozinas: la glucosa se va por la orina', 40, 70, 38, C.BLUE, 'bold');
+  text('Bloquean el SGLT2 del túbulo proximal', 40, 106, 23, C.MUTED);
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.nef, NF.x, NF.y, 570 * NF.s, 825 * NF.s); ctx.globalAlpha = 1;
+  const la = seg(t, 0.8, 0.5); ctx.globalAlpha = la;
+  tag('Glomérulo', ...N(150, 230), '#E8A15A'); tag('Túbulo proximal', ...N(250, -45), C.BLUE, 17); tag('Orina', ...N(522, 860), '#F2CF5B');
+  ctx.globalAlpha = 1;
+  const blk = seg(t, 9.6, 0.6);
+  // puntos SGLT2 sobre el túbulo proximal
+  SITES.forEach((u, i) => {
+    const [x, y] = TUB.at(u);
+    ctx.globalAlpha = seg(t, 1.6 + i * 0.3, 0.4);
+    ctx.fillStyle = blk > 0 ? '#666' : C.GREEN; ctx.beginPath(); ctx.arc(x, y, 9, 0, 7); ctx.fill();
+    if (blk > 0) { ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x - 11, y - 11); ctx.lineTo(x + 11, y + 11); ctx.moveTo(x + 11, y - 11); ctx.lineTo(x - 11, y + 11); ctx.stroke(); }
+    ctx.globalAlpha = 1;
+  });
+  if (t > 2.4 && t < 9.5) { ctx.globalAlpha = seg(t, 2.4, 0.4) * (1 - seg(t, 9.0, 0.5)); const [x, y] = TUB.at(SITES[1]); tag('SGLT2', x + 50, y + 40, C.GREEN, 16); ctx.globalAlpha = 1; }
+  // glucosa: antes de bloquear sale al capilar en un sitio SGLT2; después recorre todo el túbulo
+  for (let i = 0; i < 26; i++) {
+    const birth = 1.8 + i * 0.75; if (t < birth) continue;
+    const blocked = birth > 9.8;
+    const sp = blocked ? 0.16 : 0.18, u = (t - birth) * sp * (blocked ? 1 : 1);
+    let x, y, a = 1;
+    if (!blocked) {
+      const site = SITES[i % 3];
+      if (u < site) [x, y] = TUB.at(u);
+      else { const k = clamp((u - site) / 0.06, 0, 1), [sx, sy] = TUB.at(site); x = sx + 30 * k; y = sy - 25 * k; a = 1 - k; ctx.fillStyle = C.RED; }
+    } else { if (u > 1) continue; [x, y] = TUB.at(u); a = Math.min(1, (1 - u) * 20); }
+    ctx.globalAlpha = a; ctx.fillStyle = '#FFFFFF'; ctx.fillRect(x - 5, y - 5, 10, 10);
+    if (blocked && i % 3 === 0) { ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(x + 9, y + 6, 4, 0, 7); ctx.fill(); }
+  }
+  ctx.globalAlpha = 1;
+  const p = seg(t, 8.6, 1.0);
+  if (p > 0 && t < 10.4) { const [x, y] = TUB.at(SITES[1]); pill(lerp(700, x, ease(p)), lerp(250, y, ease(p)), '#FFFFFF', C.BLUE, 1 - seg(t, 9.9, 0.4)); }
+  card(560, 150, 680, 150, C.GREEN, 'Normal', ['El SGLT2 recupera toda la glucosa filtrada', 'y la devuelve a la sangre: orina sin glucosa'], seg(t, 2.6, 0.5) * (t < 9.6 ? 1 : 0.45));
+  card(560, 320, 680, 150, C.BLUE, 'Con gliflozina', ['Glucosa y sodio se van por la orina', 'Se pierden 60 a 80 gramos de glucosa al día'], seg(t, 10.6, 0.5));
+  const b = seg(t, 16.5, 0.5);
+  if (b > 0) {
+    ctx.globalAlpha = b;
+    rrect(560, 490, 330, 180, 16, '#13221A'); text('Además', 582, 524, 20, C.GREEN, 'bold');
+    ['Baja 2 a 3 kilos y la presión', 'Menos hospitalización', 'por insuficiencia cardíaca', 'Protege el riñón · sin hipoglicemia'].forEach((l, i) => text(l, 582, 556 + i * 27, 16, C.INK));
+    ctx.globalAlpha = seg(t, 18.5, 0.5);
+    rrect(910, 490, 330, 180, 16, '#221516'); text('Ojo', 932, 524, 20, C.RED, 'bold');
+    ['Micosis genital', '(la orina con glucosa)', 'Cetoacidosis euglicémica:', 'con glicemia casi normal'].forEach((l, i) => text(l, 932, 556 + i * 27, 16, C.INK));
+    ctx.globalAlpha = 1;
+  }
+}
+
+// ---------------- GLP-1 ----------------
+const IM = { x: 30, y: 128, s: 0.92 }, P = (x, y) => [IM.x + x * IM.s, IM.y + y * IM.s];
+function hexa(x, y, r, col, a = 1) { ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); for (let i = 0; i < 6; i++) { const q = i * Math.PI / 3; ctx.lineTo(x + r * Math.cos(q), y + r * Math.sin(q)); } ctx.fill(); ctx.globalAlpha = 1; }
+function glp1(t) {
+  text('Agonistas de GLP-1: imitan a la incretina', 40, 70, 38, C.VIOLET, 'bold');
+  text('Liraglutida, semaglutida, dulaglutida', 40, 106, 23, C.MUTED);
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.hp, IM.x, IM.y, 670 * IM.s, 610 * IM.s); ctx.globalAlpha = 1;
+  const la = seg(t, 0.8, 0.5); ctx.globalAlpha = la; tag('Estómago', ...P(470, 300), '#E7A0B5'); tag('Páncreas', ...P(205, 590), C.AMBER); ctx.globalAlpha = 1;
+  // vaciamiento gástrico: comida que sale del estómago al duodeno, más lenta con GLP-1
+  const slow = seg(t, 2.5, 1.0);
+  const EMP = poly([[470, 380], [430, 430], [360, 455], [290, 450], [230, 430], [180, 440]].map(p => P(...p)));
+  for (let i = 0; i < 8; i++) {
+    const spd = lerp(0.32, 0.09, slow), u = ((t * spd) + i / 8) % 1, [x, y] = EMP.at(u);
+    ctx.globalAlpha = Math.min(1, u * 8, (1 - u) * 8) * seg(t, 1, 0.5); ctx.fillStyle = '#D9A066'; ctx.beginPath(); ctx.arc(x, y, 7, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  card(700, 150, 540, 110, '#E7A0B5', 'Vaciamiento gástrico más lento', ['La comida sale despacio del estómago'], seg(t, 2.8, 0.5));
+  // páncreas: insulina solo si hay glucosa
+  const hi = seg(t, 6.5, 0.5) * (1 - seg(t, 10.8, 0.5)), lo = seg(t, 11.0, 0.5);
+  const glu = t < 11 ? 'alta' : 'normal';
+  for (let i = 0; i < 10; i++) {
+    const u = ((t - 6.5) * 0.5 + i / 10) % 1; if (t < 6.5) break;
+    const [cx, cy] = P(270, 500), ang = i * 2.3, r = 20 + u * 90;
+    hexa(cx + Math.cos(ang) * r, cy + Math.sin(ang) * r * 0.6, 7, C.BLUE, hi * Math.min(1, u * 5, (1 - u) * 3));
+  }
+  card(700, 280, 540, 140, C.BLUE, 'Insulina solo si hay glucosa', [`Glicemia ${glu}: ${t < 11 ? 'sale insulina' : 'el páncreas se detiene'}`, 'Por eso solos no dan hipoglicemia · baja el glucagón'], seg(t, 6.8, 0.5));
+  // cerebro: saciedad
+  const s = seg(t, 13.0, 0.6);
+  if (s > 0) {
+    ctx.globalAlpha = s; rrect(700, 440, 540, 170, 16, '#161B22'); ctx.fillStyle = C.VIOLET; ctx.fillRect(700, 440, 6, 170);
+    const g = ctx.createRadialGradient(800, 525, 0, 800, 525, 90); g.addColorStop(0, `rgba(179,136,255,${0.45 + 0.15 * Math.sin(t * 4)})`); g.addColorStop(1, 'rgba(179,136,255,0)');
+    ctx.fillStyle = g; ctx.fillRect(710, 445, 180, 160);
+    ctx.drawImage(window.IMGS.cer, 735, 475, 431 * 0.32, 286 * 0.32);
+    text('Hipotálamo: saciedad', 900, 500, 21, C.VIOLET, 'bold'); text('Come menos: baja de peso', 900, 532, 18, C.INK); text('Náuseas al inicio: titular lento', 900, 562, 18, C.MUTED);
+    ctx.globalAlpha = 1;
+  }
+  if (t > 17) {
+    const a = seg(t, 17, 0.5); ctx.globalAlpha = a;
+    rrect(700, 630, 540, 50, 25, 'rgba(179,136,255,0.2)');
+    text('Con infarto o ACV previo: piensa en un GLP-1', 970, 662, 19, C.INK, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  GLP ? glp1(t) : sglt2(t);
+  text('Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({ nef: '../assets/servier/nefrona.png', hp: '../assets/servier/higado_pancreas.png', cer: '../assets/servier/cerebro.png' });
+</script>
+</body></html>

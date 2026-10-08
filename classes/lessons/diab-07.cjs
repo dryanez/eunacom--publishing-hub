@@ -177,6 +177,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Una frena al hígado, la otra exprime al páncreas',
+      images: [
+        { src: 'animaciones/diab-07/A1_metformina_glibenclamida.mp4', label: 'Metformina y glibenclamida', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Metformina sin hipoglicemia; glibenclamida con hipoglicemia',
+          say: 'La metformina actúa en el hígado: frena la gluconeogénesis y cae la glucosa que sale del hígado. No toca el páncreas, así que sola no da hipoglicemia. La glibenclamida, en cambio, obliga a la célula beta a liberar insulina aunque la glicemia ya esté normal, y por eso puede llevar a la hipoglicemia, sobre todo en el adulto mayor y en el enfermo renal.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos decisiones de la clase en un solo árbol: qué fármaco puede usar este paciente, y qué hacer si hace una hipoglicemia.',
     },

@@ -4,7 +4,16 @@
 Crédito obligatorio: 'Servier Medical Art (smart.servier.com), CC BY 4.0'."""
 import sys, re, os, urllib.request, html
 UA = {'User-Agent': 'Mozilla/5.0'}
-get = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=40).read()
+import time
+def get(u):
+    for i in range(5):                                   # Servier corta la conexión si se le pide muy rápido
+        try:
+            b = urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=40).read()
+            if b: time.sleep(0.6); return b
+        except Exception as e:
+            if i == 4: raise
+        time.sleep(2 * (i + 1))
+    return b
 DEST = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets', 'servier')
 
 def buscar(q):
@@ -24,7 +33,7 @@ def bajar(u, dest=DEST):
         cands = [u]
     for c in cands:
         f = os.path.join(dest, html.unescape(os.path.basename(c)))
-        if not os.path.exists(f): open(f, 'wb').write(get(c))
+        if not os.path.exists(f) or os.path.getsize(f) == 0: open(f, 'wb').write(get(c))
         print(f)
 
 if __name__ == '__main__':

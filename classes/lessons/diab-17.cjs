@@ -135,16 +135,16 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'El potasio y la insulina',
+      title: 'La insulina mete el potasio a la célula',
       images: [
-        { src: 'animaciones/diab-17/A1_insulina_potasio.mp4', label: 'La insulina mete potasio', credit: 'Animación propia' },
-        { src: 'animaciones/diab-17/A2_umbral_potasio.mp4', label: 'Por qué esperar', credit: 'Animación propia' },
+        { src: 'animaciones/diab-17/A1_insulina_potasio_real.mp4', label: 'La insulina mete potasio', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+        { src: 'animaciones/diab-17/A2_umbral_potasio_real.mp4', label: 'Por qué esperar', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'El potasio del plasma cae',
-          say: 'La insulina activa la bomba sodio potasio y mete el potasio dentro de la célula. Mira cómo baja la barra del potasio plasmático.' },
+          say: 'La insulina activa la bomba sodio potasio de la membrana y mete el potasio dentro de la célula. Mira cómo baja el potasio de la sangre: el tanque estaba vacío y el número era engañoso.' },
         { note: 'Bajo tres coma tres, no hay insulina',
-          say: 'Si el paciente ya parte con el potasio bajo y le das insulina, el potasio cae todavía más, y aparece la arritmia. Por eso, bajo tres coma tres, primero potasio y después insulina.' },
+          say: 'Si el paciente ya parte con el potasio bajo y le das insulina, el potasio cae todavía más, y aparece la arritmia. Por eso, bajo tres coma tres, primero potasio, y recién sobre tres coma tres, la insulina.' },
       ],
     },
 

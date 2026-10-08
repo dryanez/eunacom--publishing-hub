@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script>
+<script>
+// diab-07: metformina actúa en el hígado (frena la gluconeogénesis, sola no da hipoglicemia);
+// glibenclamida fuerza a la célula beta a liberar insulina aunque la glicemia esté normal (hipoglicemia).
+// Base: Servier Medical Art (CC BY 4.0): hígado y páncreas; islote de Langerhans.
+window.SCENE = { duration: 22, fps: 30 };
+const { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = LIB(document.getElementById('c'));
+const seg = (t, a, d) => clamp((t - a) / d, 0, 1);
+const IM = { x: 30, y: 128, s: 0.92 }, P = (x, y) => [IM.x + x * IM.s, IM.y + y * IM.s];
+const ISL = { x: 760, y: 430, s: 0.62 }, Q = (x, y) => [ISL.x + x * ISL.s, ISL.y + y * ISL.s];
+const OUT = poly([[300, 230], [322, 260], [330, 330], [328, 420], [320, 520], [310, 600]].map(p => P(...p)));
+
+function pill(x, y, c1, c2, a = 1) {
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(-0.5);
+  ctx.fillStyle = c1; ctx.beginPath(); ctx.roundRect(-26, -11, 26, 22, [11, 0, 0, 11]); ctx.fill();
+  ctx.fillStyle = c2; ctx.beginPath(); ctx.roundRect(0, -11, 26, 22, [0, 11, 11, 0]); ctx.fill();
+  ctx.restore();
+}
+function hexa(x, y, r, col, a = 1) {
+  ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath();
+  for (let i = 0; i < 6; i++) { const q = i * Math.PI / 3; ctx.lineTo(x + r * Math.cos(q), y + r * Math.sin(q)); } ctx.fill(); ctx.globalAlpha = 1;
+}
+function meter(x, y, label, val, max, unit, col, mark) {
+  text(label, x, y, 19, C.INK, 'bold'); text(`${Math.round(val)} ${unit}`, x + 460, y, 19, col, 'bold', 'right');
+  rrect(x, y + 10, 460, 14, 7, '#222833'); rrect(x, y + 10, 460 * clamp(val / max, 0, 1), 14, 7, col);
+  if (mark) { const mx = x + 460 * mark[0] / max; ctx.fillStyle = '#ddd'; ctx.fillRect(mx - 1, y + 5, 2, 24); text(mark[1], mx, y + 44, 13, C.MUTED, '', 'center'); }
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  text('Metformina frente a glibenclamida', 40, 70, 40, C.GREEN, 'bold');
+  text('Una frena al hígado; la otra exprime al páncreas', 40, 106, 23, C.MUTED);
+  ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.hp, IM.x, IM.y, 670 * IM.s, 610 * IM.s); ctx.globalAlpha = 1;
+  const la = seg(t, 0.8, 0.5); ctx.globalAlpha = la; tag('Hígado', ...P(150, 110), C.VIOLET); ctx.globalAlpha = la * (1 - seg(t, 18.2, 0.4)); tag('Páncreas', ...P(205, 590), C.AMBER); ctx.globalAlpha = 1;
+
+  // ---- metformina → hígado
+  const m = seg(t, 1.6, 1.4);
+  if (m > 0 && t < 9.5) { const e = ease(m); pill(lerp(700, P(250, 140)[0], e), lerp(170, P(250, 140)[1], e), '#FFFFFF', C.GREEN, 1 - seg(t, 3.2, 0.4)); }
+  const glow = seg(t, 3.0, 0.6) * (1 - seg(t, 9.0, 0.8));
+  if (glow > 0) {
+    const [x, y] = P(200, 150), g = ctx.createRadialGradient(x, y, 0, x, y, 260);
+    g.addColorStop(0, `rgba(61,220,132,${0.35 * glow})`); g.addColorStop(1, 'rgba(61,220,132,0)'); ctx.fillStyle = g; ctx.fillRect(x - 260, y - 260, 520, 520);
+  }
+  // glucosa que sale del hígado: va disminuyendo con la metformina
+  const prod = lerp(1, 0.4, ease(seg(t, 3.4, 4)));
+  for (let i = 0; i < 12; i++) {
+    if (i / 12 > prod) continue;
+    const u = ((t * 0.45) + i / 12) % 1, [x, y] = OUT.at(u);
+    ctx.globalAlpha = Math.min(1, u * 8, (1 - u) * 8) * seg(t, 1.2, 0.5); ctx.fillStyle = '#FFFFFF'; ctx.fillRect(x - 6, y - 6, 12, 12);
+  }
+  ctx.globalAlpha = 1;
+  const c1 = seg(t, 2.0, 0.5);
+  if (c1 > 0) {
+    ctx.globalAlpha = c1;
+    rrect(700, 150, 540, 200, 18, '#161B22'); ctx.fillStyle = C.GREEN; ctx.fillRect(700, 150, 6, 200);
+    pill(740, 186, '#FFFFFF', C.GREEN); text('Metformina: el hígado', 772, 194, 22, C.GREEN, 'bold');
+    text('Frena la gluconeogénesis', 724, 232, 19, C.INK);
+    meter(724, 268, 'Glucosa que sale del hígado', 100 * prod, 100, '%', C.GREEN);
+    if (t > 7.2) { ctx.globalAlpha = c1 * seg(t, 7.2, 0.5); text('No toca el páncreas: sola, sin hipoglicemia', 724, 336, 17, C.MUTED, 'bold'); }
+    ctx.globalAlpha = 1;
+  }
+
+  // ---- glibenclamida → páncreas
+  const s = seg(t, 9.6, 1.4);
+  if (s > 0) { const e = ease(s); pill(lerp(700, P(250, 500)[0], e), lerp(400, P(250, 500)[1], e), '#F2CF5B', '#E07B39', 1 - seg(t, 11.2, 0.4)); }
+  const c2 = seg(t, 10.2, 0.5);
+  if (c2 > 0) {
+    ctx.globalAlpha = c2;
+    rrect(700, 370, 540, 300, 18, '#161B22'); ctx.fillStyle = C.AMBER; ctx.fillRect(700, 370, 6, 300);
+    pill(740, 404, '#F2CF5B', '#E07B39'); text('Glibenclamida: la célula beta', 772, 412, 22, C.AMBER, 'bold');
+    ctx.drawImage(window.IMGS.isl, ISL.x, ISL.y, 354 * ISL.s, 382 * ISL.s);
+    // insulina que sale del islote sin parar
+    for (let i = 0; i < 14; i++) {
+      const u = ((t - 11) * 0.5 + i / 14) % 1; if (t < 11) continue;
+      const ang = i * 2.4, [cx, cy] = Q(165, 200), r = 30 + u * 80;
+      hexa(cx + Math.cos(ang) * r, cy + Math.sin(ang) * r * 0.8, 7, C.BLUE, c2 * Math.min(1, u * 5, (1 - u) * 3));
+    }
+    ctx.globalAlpha = c2;
+    text('Libera insulina', 1000, 470, 19, C.BLUE, 'bold'); text('aunque la glicemia', 1000, 496, 19, C.INK); text('ya esté normal', 1000, 522, 19, C.INK);
+    const gl = lerp(140, 52, ease(seg(t, 11.5, 5.5)));
+    text('Glicemia', 1000, 572, 19, C.INK, 'bold'); text(`${Math.round(gl)} mg/dL`, 1220, 572, 19, gl < 70 ? C.RED : C.AMBER, 'bold', 'right');
+    rrect(1000, 582, 220, 14, 7, '#222833'); rrect(1000, 582, 220 * gl / 180, 14, 7, gl < 70 ? C.RED : C.AMBER);
+    const mx = 1000 + 220 * 70 / 180; ctx.fillStyle = '#ddd'; ctx.fillRect(mx - 1, 577, 2, 24); text('70', mx, 616, 13, C.MUTED, '', 'center');
+    if (gl < 70) { ctx.globalAlpha = c2 * seg(t, 15.4, 0.4); tag('Hipoglicemia', 1110, 645, C.RED, 18); }
+    ctx.globalAlpha = 1;
+  }
+  if (t > 18.5) {
+    const a = seg(t, 18.5, 0.5); ctx.globalAlpha = a;
+    rrect(40, 650, 640, 50, 25, '#1B2230');
+    text('Ojo con la glibenclamida en el adulto mayor y el renal', 360, 682, 19, C.INK, 'bold', 'center');
+    ctx.globalAlpha = 1;
+  }
+  text('Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({ hp: '../assets/servier/higado_pancreas.png', isl: '../assets/servier/islote.png' });
+</script>
+</body></html>
