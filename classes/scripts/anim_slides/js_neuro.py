@@ -1,0 +1,35 @@
+# Animaciones JS (classes/scripts/jsvideo) · Neurología. Aplicar con insert_anim.py.
+OWN = 'Animación propia'
+SV = 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios'
+def one(title, src, label, credit, note, say): return {'title': title, 'images': [{'src': src, 'label': label, 'credit': credit}], 'steps': [{'note': note, 'say': say}]}
+S = {
+    'neuro-01': one('Núcleo y penumbra', 'animaciones/neuro-01/A1_penumbra_real.mp4', 'Penumbra', SV, 'Tiempo es cerebro',
+        'En el centro del infarto, el núcleo, el flujo cae bajo diez y las neuronas mueren en minutos. Alrededor queda la penumbra, con flujo entre diez y veinte: neuronas silentes pero vivas. Si no se reabre la arteria, el núcleo crece a costa de la penumbra. La trombólisis y la trombectomía buscan rescatarla.'),
+    'neuro-03': one('El hematoma crece', 'animaciones/neuro-03/A1_hematoma_linea_media.mp4', 'Hemorragia intracerebral', SV, 'Desplaza la línea media',
+        'La hemorragia hipertensiva cae en el putamen, el tálamo, el puente o el cerebelo, y el hematoma sigue creciendo las primeras tres a seis horas, hasta desplazar la línea media. Por eso se baja la presión y se revierten los anticoagulantes cuanto antes.'),
+    'neuro-05': one('La sangre no puede salir', 'animaciones/neuro-05/A1_trombosis_seno.mp4', 'Trombosis venosa', SV, 'Se anticoagula aunque sangre',
+        'Un trombo tapa un seno venoso: la sangre llega, pero no puede salir. Aparece el edema, un infarto venoso que puede ser bilateral, y muchas veces una hemorragia, que viene del drenaje tapado. Por eso igual se anticoagula.'),
+    'neuro-06': one('Aura y dolor', 'animaciones/neuro-06/A1_aura_cgrp.mp4', 'Migraña', SV, 'Depresión cortical y CGRP',
+        'El aura es una onda de despolarización que avanza lento desde el lóbulo occipital. El dolor viene del trigémino, que libera CGRP e inflama las meninges. Los triptanes contraen el vaso y frenan el CGRP.'),
+    'neuro-07': one('Un cortocircuito', 'animaciones/neuro-07/A1_trigemino_compresion.mp4', 'Neuralgia del trigémino', SV, 'Zona gatillo y carbamazepina',
+        'Un asa arterial, casi siempre la cerebelosa superior, comprime la raíz del trigémino y la desmieliniza. Un roce inocente salta a las fibras del dolor: es un cortocircuito. Por eso hay zonas gatillo, y la primera línea es la carbamazepina.'),
+    'neuro-14': one('Amiloide afuera, tau adentro', 'animaciones/neuro-14/A1_amiloide_tau.mp4', 'Alzheimer', SV, 'Falta acetilcolina',
+        'En el Alzheimer se depositan placas de beta amiloide fuera de las neuronas y ovillos de tau dentro de ellas, partiendo por el hipocampo. Se degeneran las neuronas colinérgicas y cae la acetilcolina: por eso se tratan con inhibidores de la acetilcolinesterasa.'),
+    'neuro-18': one('Tiempo y espacio', 'animaciones/neuro-18/A1_tiempo_espacio.mp4', 'Esclerosis múltiple', SV, 'Lesiones en distintas zonas y en distintos momentos',
+        'En la esclerosis múltiple el sistema inmune ataca la mielina del sistema nervioso central. El diagnóstico exige diseminación en espacio, lesiones en varias zonas típicas, y en tiempo, lesiones de distinta edad o bandas oligoclonales en el líquido.'),
+    'neuro-12': one('Bloqueo D2', 'animaciones/neuro-12/A1_bloqueo_d2.mp4', 'Parkinsonismo por fármacos', SV, 'Bilateral y simétrico',
+        'La metoclopramida y los antipsicóticos bloquean los receptores D dos del estriado, en los dos lados a la vez. Por eso el parkinsonismo es bilateral y simétrico desde el inicio, y se revierte al suspender el fármaco.'),
+    'neuro-19': {'title': 'Central o periférica',
+        'images': [{'src': 'animaciones/neuro-19/A1_facial_central_real.mp4', 'label': 'Central', 'credit': SV},
+                   {'src': 'animaciones/neuro-19/A2_facial_periferica_real.mp4', 'label': 'Periférica', 'credit': SV}],
+        'steps': [{'note': 'Respeta la frente', 'say': 'En la parálisis central la frente sigue arrugándose, porque recibe órdenes de los dos hemisferios. Solo cae la boca del lado contrario. Piensa en un accidente cerebrovascular.'},
+                  {'note': 'Toda la hemicara', 'say': 'En la periférica se corta el cable final: no arruga la frente, no cierra el ojo y cae la comisura del mismo lado. La parálisis de Bell se trata con prednisona antes de las setenta y dos horas.'}]},
+    'neuro-15': one('Escalones o pendiente', 'animaciones/neuro-15/A1_escalones_pendiente.mp4', 'Demencias', OWN, 'Vascular en escalones',
+        'El Alzheimer cae en pendiente, lento y progresivo. La demencia vascular cae en escalones: un golpe con cada infarto, y luego una meseta.'),
+    'neuro-02': one('Los puntos se suman', 'animaciones/neuro-02/A1_abcd2.mp4', 'ABCD dos', OWN, 'Cuatro o más: hospitalizar',
+        'El ABCD dos suma la edad, la presión, la clínica, la duración y la diabetes. Con cuatro o más puntos se hospitaliza; con cero a tres, se estudia en forma ambulatoria pero en menos de cuarenta y ocho horas.'),
+    'neuro-10': one('Flujo que cae y vuelve', 'animaciones/neuro-10/A1_sincope_flujo.mp4', 'Síncope', OWN, 'Recupera en segundos',
+        'En el síncope el flujo cerebral cae, el paciente pierde la conciencia, y al caer el flujo vuelve: recupera en segundos y orientado. En la crisis hay mordedura del borde lateral de la lengua y una confusión postictal larga.'),
+    'neuro-22': one('Cinco criterios', 'animaciones/neuro-22/A1_fried.mp4', 'Fragilidad', OWN, 'Tres o más: frágil',
+        'El fenotipo de Fried tiene cinco criterios: baja de peso, agotamiento, poca fuerza de prensión, marcha lenta y poca actividad. Con tres o más es frágil; con uno o dos, prefrágil, que es donde más rinde la prevención.'),
+}

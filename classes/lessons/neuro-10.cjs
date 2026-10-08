@@ -190,6 +190,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Flujo que cae y vuelve',
+      images: [
+        { src: 'animaciones/neuro-10/A1_sincope_flujo.mp4', label: 'Síncope', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Recupera en segundos',
+          say: 'En el síncope el flujo cerebral cae, el paciente pierde la conciencia, y al caer el flujo vuelve: recupera en segundos y orientado. En la crisis hay mordedura del borde lateral de la lengua y una confusión postictal larga.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las tres preguntas en un solo árbol de decisión.',
     },

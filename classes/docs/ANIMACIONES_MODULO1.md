@@ -38,7 +38,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 7 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 8 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 9 | nefro-13 | Podocito dañado y proteínas que escapan; edema | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 10 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 10 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 11 | neuro-20 | Otolitos en el conducto posterior durante Dix-Hallpike y Epley (procedural, con cabeza de referencia) | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 12 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 13 | reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
@@ -49,7 +49,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 18 | hem-07 | Coombs directo vs indirecto | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 19 | hem-15 | CID: consumo de plaquetas y factores, microtrombos y sangrado | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 20 | nefro-05 | Neurona en hiponatremia aguda, adaptación y corrección rápida (mielinólisis) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 21 | neuro-19 | Parálisis facial central (respeta la frente) vs periférica (toda la hemicara) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 21 | neuro-19 | Parálisis facial central (respeta la frente) vs periférica (toda la hemicara) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 22 | diab-02 | Curva de la PTGO: normal, intolerancia y diabetes, con los cortes | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 23 | diab-07 | Metformina en el hígado vs sulfonilurea forzando la célula beta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 24 | diab-08 | Gliflozina (glucosa a la orina) e incretinas (saciedad, insulina) en sus órganos | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
@@ -100,13 +100,13 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 69 | nefro-12 | Alcalosis por vómito: cloro y potasio que se pierden | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 70 | nefro-16 | Semilunas que crecen en la cápsula de Bowman | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 71 | nefro-21 | Infección que sube de la vejiga al riñón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 72 | neuro-03 | Hematoma que crece y desplaza la línea media | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 73 | neuro-05 | Seno venoso trombosado: la sangre no drena, edema e infarto venoso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 74 | neuro-06 | Depresión cortical propagada (aura) y activación trigeminovascular | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 75 | neuro-07 | Nervio trigémino comprimido por un vaso (cortocircuito) | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 76 | neuro-14 | Placas de amiloide y ovillos de tau; acetilcolina que falta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 77 | neuro-15 | Demencia vascular en escalones vs Alzheimer en pendiente | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 78 | neuro-18 | Placas desmielinizantes separadas en tiempo y espacio | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 72 | neuro-03 | Hematoma que crece y desplaza la línea media | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 73 | neuro-05 | Seno venoso trombosado: la sangre no drena, edema e infarto venoso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 74 | neuro-06 | Depresión cortical propagada (aura) y activación trigeminovascular | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 75 | neuro-07 | Nervio trigémino comprimido por un vaso (cortocircuito) | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 76 | neuro-14 | Placas de amiloide y ovillos de tau; acetilcolina que falta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 77 | neuro-15 | Demencia vascular en escalones vs Alzheimer en pendiente | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 78 | neuro-18 | Placas desmielinizantes separadas en tiempo y espacio | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 79 | resp-05 | Por qué el oxígeno tiene techo en el EPOC retenedor | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 80 | resp-10 | Bacilo, granuloma y cavitación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 81 | resp-12 | Tres fases del derrame paraneumónico: exudativa, fibrinopurulenta, organizada | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
@@ -140,10 +140,10 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 109 | infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 110 | nefro-14 | Tres glomerulopatías en el glomérulo | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 111 | nefro-17 | Clases del lupus renal | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
-| 112 | neuro-02 | ABCD²: riesgo que se acumula | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 113 | neuro-10 | Síncope (flujo cerebral cae) vs crisis | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 114 | neuro-12 | Bloqueo D2 por fármacos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 115 | neuro-22 | Fenotipo de fragilidad: cinco criterios | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
+| 112 | neuro-02 | ABCD²: riesgo que se acumula | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 113 | neuro-10 | Síncope (flujo cerebral cae) vs crisis | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 114 | neuro-12 | Bloqueo D2 por fármacos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 115 | neuro-22 | Fenotipo de fragilidad: cinco criterios | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 116 | resp-03 | Escalones GINA | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 117 | resp-06 | CURB-65 sumando puntos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 118 | resp-09 | Absceso: cavidad que se forma y drena | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |

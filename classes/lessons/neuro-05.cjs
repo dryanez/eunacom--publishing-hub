@@ -189,6 +189,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La sangre no puede salir',
+      images: [
+        { src: 'animaciones/neuro-05/A1_trombosis_seno.mp4', label: 'Trombosis venosa', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Se anticoagula aunque sangre',
+          say: 'Un trombo tapa un seno venoso: la sangre llega, pero no puede salir. Aparece el edema, un infarto venoso que puede ser bilateral, y muchas veces una hemorragia, que viene del drenaje tapado. Por eso igual se anticoagula.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Trombosis de senos venosos',
       images: [

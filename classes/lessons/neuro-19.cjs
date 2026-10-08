@@ -176,14 +176,14 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Central o periférica',
       images: [
-        { src: 'animaciones/neuro-19/A1_facial_central.mp4', label: 'Central', credit: 'Animación propia' },
-        { src: 'animaciones/neuro-19/A2_facial_periferica.mp4', label: 'Periférica', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-19/A1_facial_central_real.mp4', label: 'Central', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+        { src: 'animaciones/neuro-19/A2_facial_periferica_real.mp4', label: 'Periférica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'La frente se salva',
-          say: 'En la lesión central, la frente sigue moviéndose porque su núcleo recibe fibras de ambos hemisferios. Solo cae la mitad inferior de la cara, al lado contrario.' },
-        { note: 'Cae toda la hemicara',
-          say: 'En la lesión del nervio, se pierde todo: la frente, el cierre del ojo y la boca, del mismo lado.' },
+        { note: 'Respeta la frente',
+          say: 'En la parálisis central la frente sigue arrugándose, porque recibe órdenes de los dos hemisferios. Solo cae la boca del lado contrario. Piensa en un accidente cerebrovascular.' },
+        { note: 'Toda la hemicara',
+          say: 'En la periférica se corta el cable final: no arruga la frente, no cierra el ojo y cae la comisura del mismo lado. La parálisis de Bell se trata con prednisona antes de las setenta y dos horas.' },
       ],
     },
 

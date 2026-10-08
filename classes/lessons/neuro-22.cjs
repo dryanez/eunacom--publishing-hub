@@ -170,6 +170,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cinco criterios',
+      images: [
+        { src: 'animaciones/neuro-22/A1_fried.mp4', label: 'Fragilidad', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Tres o más: frágil',
+          say: 'El fenotipo de Fried tiene cinco criterios: baja de peso, agotamiento, poca fuerza de prensión, marcha lenta y poca actividad. Con tres o más es frágil; con uno o dos, prefrágil, que es donde más rinde la prevención.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ordenemos todo en un árbol, desde el control preventivo hasta la intervención.',
     },

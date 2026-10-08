@@ -1,0 +1,220 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Neurología: cerebro, cara y neurona reales (Servier Medical Art, CC BY 4.0) + gráficos.
+// ?v=penumbra (neuro-01) hematoma (03) seno (05) migrana (06) trigemino (07) alzheimer (14) em (18) d2 (12)
+//   facial_c / facial_p (19) · gráficos: demencias (15) abcd (02) sincope (10) fragilidad (22)
+const V = new URLSearchParams(location.search).get('v') || 'penumbra';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, rot = 0, filter) { const im = I(k), h = w * im.height / im.width; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(rot); if (filter) ctx.filter = filter; ctx.drawImage(im, -w / 2, -h / 2, w, h); ctx.restore(); }
+function cnt(t, x, y, w, rows, t0 = 1.2) { ctx.globalAlpha = seg(t, t0, 0.5); rrect(x, y, w, 40 + rows.length * 62, 16, '#161B22');
+  rows.forEach(([lab, val, max, unit, col, fmt, marks], i) => K.bar(x + 24, y + 42 + i * 62, w - 48, lab, val, max, unit, col, marks, fmt)); ctx.globalAlpha = 1; }
+// cerebro coronal 547x449
+const CB = { x: 30, y: 150, s: 1.1 }, B = (x, y) => [CB.x + x * CB.s, CB.y + y * CB.s];
+function coronal(t, key = 'cor', a = 1) { const s = CB.s; ctx.save(); ctx.globalAlpha = a * seg(t, 0, 0.7);
+  ctx.drawImage(I(key), CB.x, CB.y, 547 * s, 449 * s);
+  ctx.fillStyle = '#F4EEF2'; ctx.beginPath(); ctx.moveTo(CB.x + 20 * s, CB.y + 300 * s); ctx.lineTo(CB.x + 160 * s, CB.y + 300 * s); ctx.lineTo(CB.x + 160 * s, CB.y + 449 * s); ctx.lineTo(CB.x, CB.y + 449 * s); ctx.lineTo(CB.x, CB.y + 300 * s); ctx.fill();
+  ctx.fillStyle = '#0E1116'; ctx.fillRect(CB.x - 2, CB.y + 268 * s, 182 * s, 185 * s);
+  ctx.fillStyle = '#B3122E'; ctx.globalAlpha = 0; ctx.restore(); }
+
+function penumbra(t) {
+  K.title('Núcleo y penumbra', 'Tiempo es cerebro', C.RED);
+  draw('sup', 290, 420, 470, seg(t, 0, 0.7));
+  const cx = 200, cy = 380, grow = ease(seg(t, 3, 12)), saved = t > 13 ? ease(seg(t, 13, 2)) : 0;
+  const coreR = lerp(30, 95, grow * (1 - saved)), penR = lerp(115, 105, grow) * (1 - 0.15 * saved);
+  ctx.save(); ctx.globalAlpha = 0.55 * seg(t, 1.5, 0.6) * (1 - saved * 0.7); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(cx, cy, penR, 0, 7); ctx.fill(); ctx.restore();
+  ctx.save(); ctx.globalAlpha = 0.8 * seg(t, 1.5, 0.6); ctx.fillStyle = '#5A2A2A'; ctx.beginPath(); ctx.arc(cx, cy, Math.min(coreR, t > 13 ? lerp(coreR, 55, saved) : coreR), 0, 7); ctx.fill(); ctx.restore();
+  if (saved > 0) { ctx.save(); ctx.globalAlpha = 0.45 * saved; ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.arc(cx, cy, 105, 0, 7); ctx.arc(cx, cy, 58, 0, 7, true); ctx.fill(); ctx.restore(); }
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Núcleo: bajo 10 mL/100 g/min, muere', cx, cy - 135, '#C07070', 14); tag('Penumbra: 10 a 20, silente pero viva', cx + 130, cy + 140, C.AMBER, 14); ctx.globalAlpha = 1;
+  const m = Math.round(lerp(0, 270, seg(t, 3, 10)));
+  cnt(t, 700, 150, 540, [['Minutos desde el inicio', Math.min(m, 270), 270, 'min', m > 180 ? C.RED : C.AMBER]]);
+  K.card(700, 270, 540, 140, C.RED, 'Cada minuto', ['Se pierden cerca de 1,9 millones de neuronas', 'El núcleo crece a costa de la penumbra'], seg(t, 6, 0.5), 17);
+  K.card(700, 430, 540, 140, C.GREEN, 'Reabrir la arteria', ['Trombólisis y trombectomía', 'rescatan la penumbra'], seg(t, 13, 0.5), 17);
+}
+
+function hematoma(t) {
+  K.title('Hemorragia intracerebral: el hematoma crece', 'Las primeras 3 a 6 horas', C.RED);
+  coronal(t, 'cor');
+  const cx = B(380, 225)[0], cy = B(380, 225)[1], r = lerp(18, 62, ease(seg(t, 2.5, 8)));
+  const g = ctx.createRadialGradient(cx, cy, 2, cx, cy, r); g.addColorStop(0, '#8B0A16'); g.addColorStop(1, 'rgba(180,15,30,0.85)');
+  ctx.save(); ctx.globalAlpha = seg(t, 1.5, 0.5); ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(cx, cy, r, r * 0.85, 0, 0, 7); ctx.fill(); ctx.restore();
+  const shift = ease(seg(t, 6, 6)) * 22, mx = B(300, 0)[0];
+  ctx.strokeStyle = C.CYAN || '#0BD9E7'; ctx.lineWidth = 3; ctx.setLineDash([8, 6]); ctx.globalAlpha = seg(t, 1, 0.5); ctx.beginPath(); ctx.moveTo(mx, B(0, 20)[1]); ctx.lineTo(mx, B(0, 420)[1]); ctx.stroke();
+  ctx.strokeStyle = C.RED; ctx.beginPath(); ctx.moveTo(mx - shift * 0.3, B(0, 20)[1]); ctx.quadraticCurveTo(mx - shift, B(0, 220)[1], mx - shift * 0.3, B(0, 420)[1]); ctx.stroke(); ctx.setLineDash([]); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Putamen: la más frecuente', cx, cy + r + 24, C.RED, 14); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 7, 0.5); tag('La línea media se desplaza', mx, B(0, 440)[1], C.RED, 14); ctx.globalAlpha = 1;
+  cnt(t, 700, 150, 540, [['Volumen del hematoma', lerp(10, 60, ease(seg(t, 2.5, 8))), 80, 'mL', C.RED]]);
+  K.card(700, 270, 540, 140, C.AMBER, 'Profunda: hipertensión', ['Putamen, tálamo, puente, cerebelo', 'Lobar en el anciano: angiopatía amiloide'], seg(t, 8.5, 0.5), 17);
+  K.card(700, 430, 540, 120, C.RED, 'Frenar el crecimiento', ['Bajar la presión y revertir anticoagulantes'], seg(t, 13, 0.5), 17);
+}
+
+function seno(t) {
+  K.title('Trombosis venosa cerebral', 'La sangre llega, pero no puede salir', C.VIOLET);
+  draw('lcr', 300, 430, 440, seg(t, 0, 0.7));
+  const SS = poly([[160, 245], [230, 205], [320, 195], [410, 215], [470, 270], [495, 340]]);
+  const clot = ease(seg(t, 3, 2));
+  for (let i = 0; i < 12; i++) { const u = ((t * 0.3) + i / 12) % 1; const stop = clot > 0.5 ? 0.55 : 1; if (u > stop) continue; const [x, y] = SS.at(u);
+    ctx.globalAlpha = Math.min(1, u * 6); ctx.fillStyle = '#5A6FB0'; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  if (clot > 0) { const [x, y] = SS.at(0.6); ctx.globalAlpha = clot; ctx.fillStyle = '#4A1A22'; ctx.beginPath(); ctx.ellipse(x, y, 26, 14, 0.2, 0, 7); ctx.fill(); tag('Trombo en el seno sagital', x + 40, y - 40, C.VIOLET, 14); ctx.globalAlpha = 1; }
+  const ed = ease(seg(t, 6, 4)); if (ed > 0) { K.glow(300, 300, 130, '79,163,255', 0.4 * ed); ctx.globalAlpha = ed; tag('Edema e infarto venoso, a veces bilateral', 300, 640, C.BLUE, 14); ctx.globalAlpha = 1; }
+  const hm = ease(seg(t, 10, 3)); if (hm > 0) { for (let i = 0; i < 5; i++) { ctx.globalAlpha = hm; ctx.fillStyle = '#B3122E'; ctx.beginPath(); ctx.arc(240 + i * 30, 290 + Math.sin(i) * 20, 7, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 160, C.VIOLET, 'Sospecha', ['Cefalea que no cede, crisis, papiledema', 'Puerperio, anticonceptivos, trombofilia'], seg(t, 2, 0.5), 17);
+  K.card(700, 330, 540, 120, C.RED, 'La hemorragia viene del drenaje tapado', ['No contraindica anticoagular'], seg(t, 11, 0.5), 17);
+  K.banner(700, 480, 540, 'Tratamiento: anticoagulación', C.GREEN, seg(t, 15, 0.5));
+}
+
+function migrana(t) {
+  K.title('Migraña: aura y dolor', 'Depresión cortical propagada y sistema trigeminovascular', C.VIOLET);
+  draw('sag', 300, 420, 480, seg(t, 0, 0.7));
+  const w = seg(t, 2, 6);
+  if (w > 0 && t < 9) { for (let k = 0; k < 3; k++) { const r = lerp(30, 260, w) - k * 18; ctx.strokeStyle = `rgba(179,136,255,${0.7 - k * 0.2})`; ctx.lineWidth = 8; ctx.beginPath(); ctx.arc(520, 360, Math.max(5, r), Math.PI * 0.75, Math.PI * 1.35); ctx.stroke(); }
+    ctx.globalAlpha = fade(t, 2, 8.5); tag('Onda que avanza desde el occipital: aura', 300, 190, C.VIOLET, 14); ctx.globalAlpha = 1; }
+  const pain = seg(t, 9, 1);
+  if (pain > 0) { K.glow(230, 260, 140, '255,90,78', 0.5 * pain * (0.7 + 0.3 * Math.sin(t * 5)));
+    for (let i = 0; i < 10; i++) { const u = ((t * 0.5) + i / 10) % 1; ctx.globalAlpha = pain * Math.min(1, u * 5, (1 - u) * 5); ctx.fillStyle = C.RED; ctx.beginPath(); ctx.arc(lerp(330, 230, u), lerp(470, 260, u), 5, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = pain; tag('Trigémino libera CGRP: inflamación de las meninges', 300, 640, C.RED, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 150, C.VIOLET, 'Aura', ['Visual, positiva, se mueve y dura', '5 a 60 minutos'], seg(t, 3, 0.5), 17);
+  K.card(700, 320, 540, 150, C.RED, 'Dolor', ['Pulsátil, unilateral, con náuseas', 'y fotofobia: empeora al moverse'], seg(t, 9.5, 0.5), 17);
+  K.banner(700, 500, 540, 'Triptanes: contraen el vaso y frenan el CGRP', C.GREEN, seg(t, 15, 0.5));
+}
+
+function trigemino(t) {
+  K.title('Neuralgia del trigémino: un cortocircuito', 'Un asa arterial comprime la raíz del nervio', C.AMBER);
+  draw('art', 280, 430, 360, seg(t, 0, 0.7));
+  const nx = 330, ny = 300;
+  ctx.strokeStyle = '#F2CF5B'; ctx.lineWidth = 9; ctx.lineCap = 'round'; ctx.globalAlpha = seg(t, 1, 0.5); ctx.beginPath(); ctx.moveTo(nx, ny); ctx.quadraticCurveTo(nx - 60, ny + 20, nx - 120, ny + 30); ctx.stroke();
+  [[-0.2, 70], [0.25, 80], [0.6, 70]].forEach(([a, l]) => { ctx.beginPath(); ctx.moveTo(nx - 120, ny + 30); ctx.lineTo(nx - 120 - Math.cos(a) * l, ny + 30 + Math.sin(a) * l); ctx.stroke(); });
+  ctx.globalAlpha = 1;
+  const comp = ease(seg(t, 3, 2));
+  ctx.save(); ctx.translate(nx - 20, ny - 46 + 34 * comp); ctx.rotate(0.15); ctx.globalAlpha = seg(t, 2.5, 0.5); ctx.drawImage(I('vaso'), -110, -22, 220, 84); ctx.restore();
+  if (comp > 0.8) K.glow(nx - 30, ny + 4, 40, '255,194,71', 0.6 * (0.6 + 0.4 * Math.sin(t * 6)));
+  ctx.globalAlpha = seg(t, 3, 0.5); tag('Arteria cerebelosa superior', nx + 140, ny - 60, C.RED, 14); ctx.globalAlpha = 1;
+  if (t > 7) { const z = (t * 3) % 1; ctx.globalAlpha = seg(t, 7, 0.4); for (let k = 0; k < 3; k++) { const x = nx - 50 - k * 22, y = ny + 12 + k * 6; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x, y - 14); ctx.lineTo(x - 8, y); ctx.lineTo(x + 6, y); ctx.lineTo(x - 2, y + 14); ctx.stroke(); }
+    tag('Desmielinización: el roce salta a las fibras del dolor', 300, 640, C.AMBER, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 160, C.AMBER, 'Zona gatillo', ['Lavarse la cara, afeitarse, masticar', 'Dolor como descarga eléctrica, segundos'], seg(t, 8, 0.5), 17);
+  K.banner(700, 340, 540, 'Primera línea: carbamazepina', C.GREEN, seg(t, 13, 0.5));
+}
+
+function alzheimer(t) {
+  K.title('Alzheimer: amiloide afuera, tau adentro', 'Y falta acetilcolina', C.VIOLET);
+  draw('hip', 300, 420, 470, seg(t, 0, 0.7), 0, `saturate(${1 - 0.5 * ease(seg(t, 9, 4))})`);
+  const pl = ease(seg(t, 2, 4)); for (let i = 0; i < 12; i++) { if (rnd(i) > pl) continue; const x = 140 + rnd(i + 3) * 320, y = 290 + rnd(i + 7) * 200;
+    ctx.fillStyle = 'rgba(242,207,91,0.85)'; ctx.beginPath(); for (let k = 0; k < 10; k++) { const a = k * 0.628, r = 12 + 5 * rnd(i * 10 + k); ctx.lineTo(x + Math.cos(a) * r, y + Math.sin(a) * r); } ctx.fill(); }
+  ctx.globalAlpha = seg(t, 2.5, 0.5); tag('Placas de beta amiloide', 300, 205, '#F2CF5B', 14); ctx.globalAlpha = 1;
+  const ta = ease(seg(t, 5.5, 3)); for (let i = 0; i < 8; i++) { if (rnd(i + 40) > ta) continue; const x = 160 + rnd(i + 43) * 280, y = 320 + rnd(i + 47) * 150;
+    ctx.strokeStyle = C.VIOLET; ctx.lineWidth = 3; ctx.beginPath(); for (let k = 0; k < 16; k++) { const u = k / 15; ctx.lineTo(x + u * 34, y + Math.sin(u * 12 + i) * 6); } ctx.stroke(); }
+  ctx.globalAlpha = seg(t, 6, 0.5); tag('Ovillos de tau', 300, 640, C.VIOLET, 14); ctx.globalAlpha = 1;
+  cnt(t, 700, 150, 540, [['Acetilcolina', lerp(80, 30, ease(seg(t, 8, 4))), 100, '', C.AMBER, v => v > 60 ? 'normal' : 'baja']]);
+  K.card(700, 270, 540, 160, C.VIOLET, 'Empieza en el hipocampo', ['Memoria reciente primero', 'Atrofia que avanza en pendiente'], seg(t, 9.5, 0.5), 17);
+  K.card(700, 450, 540, 150, C.GREEN, 'Tratamiento', ['Inhibidores de la acetilcolinesterasa', 'Memantina: bloquea el receptor NMDA'], seg(t, 13.5, 0.5), 17);
+}
+
+function em(t) {
+  K.title('Esclerosis múltiple: diseminación en tiempo y espacio', 'Ataque autoinmune a la mielina del sistema nervioso central', C.BLUE);
+  draw('sag', 300, 420, 480, seg(t, 0, 0.7));
+  const P = [[1.5, 300, 340, 'Periventricular'], [5.5, 200, 300, 'Yuxtacortical'], [9.5, 390, 500, 'Infratentorial'], [13.5, 305, 560, 'Tronco']];
+  P.forEach(([t0, x, y, n], i) => { const a = seg(t, t0, 0.6); if (a <= 0) return; const old = t > t0 + 3;
+    ctx.globalAlpha = a; ctx.fillStyle = old ? '#9A8FB0' : '#FFD27A'; ctx.strokeStyle = old ? '#5A5070' : '#C08A20'; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(x, y, 20, 13, 0.4, 0, 7); ctx.fill(); ctx.stroke();
+    if (!old) K.glow(x, y, 40, '255,194,71', 0.6 * a); tag(n, x + 100, y, C.BLUE, 13); ctx.globalAlpha = 1; });
+  // línea de tiempo de brotes
+  ctx.globalAlpha = seg(t, 1, 0.5); rrect(700, 150, 540, 150, 16, '#161B22'); text('Brotes en el tiempo', 724, 186, 20, C.INK, 'bold');
+  ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(724, 260); ctx.lineTo(1216, 260); ctx.stroke(); ctx.globalAlpha = 1;
+  P.forEach(([t0], i) => { const a = seg(t, t0, 0.5); if (a <= 0) return; const x = 760 + i * 130; ctx.globalAlpha = a; ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x, 260, 9, 0, 7); ctx.fill(); text(`Brote ${i + 1}`, x, 240, 14, C.MUTED, '', 'center'); ctx.globalAlpha = 1; });
+  K.card(700, 320, 540, 160, C.BLUE, 'Criterios de McDonald', ['Lesiones en 2 o más zonas típicas', 'Lesiones de distinta edad o bandas', 'oligoclonales en el LCR'], seg(t, 15, 0.5), 17);
+  K.banner(700, 510, 540, 'Neuritis óptica en una mujer joven: piensa en EM', C.VIOLET, seg(t, 18, 0.5));
+}
+
+function d2(t) {
+  K.title('Parkinsonismo por fármacos', 'Bloqueo del receptor D2 en ambos lados', C.AMBER);
+  draw('gb', 300, 430, 460, seg(t, 0, 0.7));
+  const blk = seg(t, 5, 1);
+  [[200, 400], [400, 400]].forEach(([x, y], s) => { for (let i = 0; i < 6; i++) { const a = i * 1.05, rx = x + Math.cos(a) * 34, ry = y + Math.sin(a) * 26;
+      ctx.fillStyle = blk > 0 ? '#666' : C.GREEN; ctx.beginPath(); ctx.arc(rx, ry, 7, 0, 7); ctx.fill();
+      if (blk > 0) { ctx.globalAlpha = blk; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(rx - 7, ry - 7); ctx.lineTo(rx + 7, ry + 7); ctx.stroke(); ctx.globalAlpha = 1; } }
+    for (let i = 0; i < 5; i++) { const u = ((t * 0.4) + i / 5 + s * 0.1) % 1; ctx.globalAlpha = Math.min(1, u * 5, (1 - u) * 5); ctx.fillStyle = '#7FC4E8'; ctx.beginPath(); ctx.arc(x + (s ? 60 : -60) * (1 - u), y + 120 * (1 - u), 6, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; });
+  if (t > 4 && t < 6.2) K.pill(lerp(760, 300, ease(seg(t, 4, 1.2))), lerp(250, 400, ease(seg(t, 4, 1.2))), '#FFFFFF', C.AMBER, 1 - seg(t, 5.7, 0.4));
+  ctx.globalAlpha = seg(t, 1, 0.5); tag('Dopamina llega al estriado', 300, 600, '#7FC4E8', 14); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 5.5, 0.5); tag('El fármaco bloquea D2 en los dos lados', 300, 230, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.AMBER, 'Fármacos', ['Metoclopramida, domperidona', 'Haloperidol, risperidona en dosis altas'], seg(t, 6.5, 0.5), 17);
+  K.card(700, 330, 540, 150, C.RED, 'Bilateral y simétrico desde el inicio', ['A diferencia del Parkinson, que es asimétrico'], seg(t, 10, 0.5), 17);
+  K.banner(700, 510, 540, 'Suspender el fármaco: es reversible', C.GREEN, seg(t, 14.5, 0.5));
+}
+
+function facial(t, central) {
+  K.title(central ? 'Parálisis facial central: la frente se salva' : 'Parálisis facial periférica: toda la hemicara', central ? 'Lesión sobre el núcleo (ACV)' : 'Lesión del núcleo o del nervio (Bell)', central ? C.BLUE : C.RED);
+  const fx = 300, fy = 430; draw('cara', fx, fy, 380, seg(t, 0, 0.7));
+  const w = ease(seg(t, 4, 2));
+  // lado izquierdo de la pantalla = lado derecho del paciente afectado
+  // lado paralizado: se borran las arrugas de la frente (periférica) y cae la comisura
+  ctx.save(); ctx.globalAlpha = w;
+  if (!central) { ctx.fillStyle = '#FBE9DF'; for (let k = 0; k < 3; k++) { ctx.beginPath(); ctx.ellipse(fx - 70, fy - 158 + k * 16, 62, 6, 0, 0, 7); ctx.fill(); } }
+  ctx.strokeStyle = '#7A3A3A'; ctx.lineWidth = 3.5; ctx.beginPath(); ctx.moveTo(fx - 58, fy + 52); ctx.quadraticCurveTo(fx - 75, fy + 62 + 14 * w, fx - 92, fy + 74 + 18 * w); ctx.stroke();
+  if (!central) { ctx.strokeStyle = '#7A3A3A'; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(fx - 38, fy - 70, 16, 9 * w, 0, 0, 7); ctx.stroke(); }
+  ctx.restore();
+  const sy = fy - 140;
+  ctx.globalAlpha = seg(t, 4.5, 0.5);
+  tag(central ? 'Frente: arruga (los dos hemisferios)' : 'Frente: no arruga', fx - 140, sy - 40, central ? C.GREEN : C.RED, 14);
+  tag(central ? 'Ojo: cierra' : 'Ojo: no cierra', fx - 170, fy - 70, central ? C.GREEN : C.RED, 14);
+  tag('Comisura: caída', fx - 160, fy + 110, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 180, central ? C.BLUE : C.RED, central ? 'La parte de arriba tiene doble inervación' : 'Se corta el cable final', central ? ['La frente recibe órdenes de los dos hemisferios', 'Solo cae la boca del lado contrario'] : ['Frente, ojo y boca del mismo lado', 'Bell: idiopática; descartar zóster y otitis'], seg(t, 7, 0.5), 17);
+  K.banner(700, 360, 540, central ? 'Respeta la frente: piensa en un ACV' : 'Corticoides en las primeras 72 horas', central ? C.BLUE : C.GREEN, seg(t, 13, 0.5));
+}
+
+// ---- gráficos ----
+function demencias(t) {
+  K.title('Demencia vascular en escalones; Alzheimer en pendiente', 'Cómo cae la función en el tiempo', C.VIOLET);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 400 }, [0, 10], [0, 100], { xt: [0, 2, 4, 6, 8, [10, '10 años']], yt: [], yl: 'Función cognitiva', xl: 'Años' }); ax.draw(seg(t, 0, 0.7));
+  const alz = x => 95 - 6.5 * x - 0.15 * x * x, vas = x => 95 - (x > 2 ? 18 : 0) - (x > 5 ? 20 : 0) - (x > 7.5 ? 22 : 0) - 1.2 * x;
+  G.curve(ax, alz, ease(seg(t, 2, 6)), C.VIOLET, 5); G.curve(ax, vas, ease(seg(t, 8, 6)), C.AMBER, 5);
+  if (t > 8) { ctx.globalAlpha = seg(t, 8, 0.5); text('Alzheimer: insidioso y progresivo', ax.X(3.2), ax.Y(alz(3.2)) - 18, 17, C.VIOLET, 'bold'); ctx.globalAlpha = 1; }
+  if (t > 14) { ctx.globalAlpha = seg(t, 14, 0.5); text('Vascular: cae con cada infarto', ax.X(5.3), ax.Y(vas(5.3)) + 34, 17, C.AMBER, 'bold'); ctx.globalAlpha = 1; }
+  K.card(860, 170, 380, 170, C.AMBER, 'Vascular', ['Inicio brusco, en escalones', 'Signos focales, factores de riesgo'], seg(t, 14.5, 0.5), 17);
+}
+function abcd(t) {
+  K.title('ABCD²: el riesgo de infarto tras un AIT', 'Los puntos se suman', C.RED);
+  const it = [['A · Edad 60 o más', 1, true], ['B · Presión 140/90 o más', 1, true], ['C · Debilidad unilateral (2) o solo habla (1)', 2, true], ['D · Duración: 60 min o más (2), 10 a 59 (1)', 1, true], ['D · Diabetes', 1, false]];
+  text('Ejemplo: 72 años, PA 160/95, debilidad del brazo por 30 minutos', 110, 150, 17, C.MUTED);
+  let sum = 0;
+  it.forEach(([s, p, has], i) => { const a = seg(t, 1 + i * 1.8, 0.5); if (a <= 0) return; if (has) sum += p * a; ctx.globalAlpha = a; rrect(110, 170 + i * 76, 620, 62, 12, '#161B22');
+    text(s, 134, 209 + i * 76, 19, has ? C.INK : C.MUTED, 'bold'); text(has ? `+${p}` : '0', 706, 209 + i * 76, 22, has ? C.AMBER : C.MUTED, 'bold', 'right'); ctx.globalAlpha = 1; });
+  ctx.globalAlpha = seg(t, 1, 0.5); rrect(800, 160, 440, 250, 18, '#161B22'); text('Puntaje', 824, 200, 21, C.INK, 'bold');
+  const sc = Math.round(sum), col = sc >= 4 ? C.RED : C.GREEN; text(String(sc), 1020, 320, 90, col, 'bold', 'center'); text('de 7', 1020, 370, 18, C.MUTED, '', 'center'); ctx.globalAlpha = 1;
+  K.card(800, 430, 440, 140, C.RED, '4 o más: hospitalizar', ['0 a 3: estudio ambulatorio en menos de 48 h'], seg(t, 12, 0.5), 17);
+}
+function sincope(t) {
+  K.title('Síncope frente a crisis epiléptica', 'El síncope es flujo cerebral que cae y vuelve', C.BLUE);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 380 }, [0, 60], [0, 100], { xt: [0, 15, 30, 45, [60, '60 s']], yt: [], yl: 'Flujo cerebral', xl: 'Segundos' }); ax.draw(seg(t, 0, 0.7));
+  const f = G.smooth([[0, 90], [10, 88], [16, 40], [20, 22], [26, 60], [32, 88], [60, 90]]);
+  G.band(ax, 0, 35, 'rgba(255,90,78,0.12)', seg(t, 1, 0.5)); G.hline(ax, 35, C.RED, 'Pierde la conciencia', seg(t, 1, 0.5), 'left');
+  const k = seg(t, 2, 6); const p = G.curve(ax, f, k, C.BLUE, 5); if (k < 1) G.head(p, C.BLUE);
+  K.card(860, 170, 380, 190, C.BLUE, 'Síncope', ['Pródromo: calor, visión borrosa', 'Recupera en segundos, orientado', 'Mioclonías breves pueden ocurrir'], seg(t, 8, 0.5), 17);
+  K.card(860, 380, 380, 190, C.RED, 'Crisis', ['Mordedura lateral de la lengua', 'Confusión postictal larga', 'Puede no tener gatillo postural'], seg(t, 12, 0.5), 17);
+}
+function fragilidad(t) {
+  K.title('Fenotipo de fragilidad', 'Cinco criterios: tres o más es fragilidad', C.AMBER);
+  const it = ['Baja de peso involuntaria', 'Agotamiento', 'Poca fuerza de prensión', 'Marcha lenta', 'Poca actividad física'];
+  it.forEach((s, i) => { const a = seg(t, 1 + i * 1.8, 0.5); if (a <= 0) return; ctx.globalAlpha = a; rrect(110, 170 + i * 82, 620, 66, 14, '#161B22');
+    rrect(126, 186 + i * 82, 34, 34, 8, C.AMBER); text('✓', 143, 211 + i * 82, 22, '#0E1116', 'bold', 'center'); text(s, 180, 211 + i * 82, 21, C.INK, 'bold'); ctx.globalAlpha = 1; });
+  const n = clamp(Math.floor((t - 1) / 1.8) + 1, 0, 5);
+  ctx.globalAlpha = seg(t, 1, 0.5); rrect(800, 170, 440, 230, 18, '#161B22'); text('Criterios', 824, 210, 21, C.INK, 'bold');
+  text(String(n), 1020, 320, 90, n >= 3 ? C.RED : n >= 1 ? C.AMBER : C.GREEN, 'bold', 'center'); text(n >= 3 ? 'Frágil' : n >= 1 ? 'Prefrágil' : 'Robusto', 1020, 370, 20, C.INK, 'bold', 'center'); ctx.globalAlpha = 1;
+  K.card(800, 420, 440, 120, C.GREEN, '1 a 2: prefrágil', ['Intervenir: ejercicio y nutrición'], seg(t, 11, 0.5), 17);
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  if (V === 'facial_c') facial(t, true); else if (V === 'facial_p') facial(t, false);
+  else ({ penumbra, hematoma, seno, migrana, trigemino, alzheimer, em, d2, demencias, abcd, sincope, fragilidad })[V](t);
+  if (['demencias', 'abcd', 'sincope', 'fragilidad'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+LOAD({ cor: '../assets/servier/cerebro_coronal_avc.png', sup: '../assets/servier/cerebro_superior.png', sag: '../assets/servier/cerebro_sagital.png',
+  lcr: '../assets/servier/lcr_sagital.png', art: '../assets/servier/arterias_cabeza.png', hip: '../assets/servier/hipocampo.png', gb: '../assets/servier/ganglios_basales.png',
+  cara: '../assets/servier/cara.png', vaso: '../assets/servier/vaso_curvo.png' });
+</script>
+</body></html>

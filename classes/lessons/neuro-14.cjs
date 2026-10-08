@@ -222,6 +222,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Amiloide afuera, tau adentro',
+      images: [
+        { src: 'animaciones/neuro-14/A1_amiloide_tau.mp4', label: 'Alzheimer', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Falta acetilcolina',
+          say: 'En el Alzheimer se depositan placas de beta amiloide fuera de las neuronas y ovillos de tau dentro de ellas, partiendo por el hipocampo. Se degeneran las neuronas colinérgicas y cae la acetilcolina: por eso se tratan con inhibidores de la acetilcolinesterasa.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Demencia de Alzheimer',

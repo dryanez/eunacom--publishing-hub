@@ -1,0 +1,198 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Respiratorio: tórax, pulmones, bronquios y alvéolos reales (Servier Medical Art, CC BY 4.0) + gráficos.
+// ?v=o2epoc (resp-05) tbc (10) derrame (12) neumotorax (13) cancer (17) fibrosis (18) co (24) absceso (09) hemoptisis (20)
+//   gráficos: gina (03) curb (06) nodulo (16)
+const V = new URLSearchParams(location.search).get('v') || 'neumotorax';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, rot = 0, filter) { const im = I(k), h = w * im.height / im.width; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(rot); if (filter) ctx.filter = filter; ctx.drawImage(im, -w / 2, -h / 2, w, h); ctx.restore(); }
+function cnt(t, x, y, w, rows, t0 = 1.2) { ctx.globalAlpha = seg(t, t0, 0.5); rrect(x, y, w, 40 + rows.length * 62, 16, '#161B22');
+  rows.forEach(([lab, val, max, unit, col, fmt, marks], i) => K.bar(x + 24, y + 42 + i * 62, w - 48, lab, val, max, unit, col, marks, fmt)); ctx.globalAlpha = 1; }
+const f1 = v => v.toFixed(1).replace('.', ',');
+// tórax 1067x1218 escalado
+const TX = { x: 300, y: 420, w: 470 }, TS = TX.w / 1067, T = (x, y) => [TX.x - TX.w / 2 + x * TS, TX.y - 1218 * TS / 2 + y * TS];
+
+function neumotorax(t) {
+  K.title('Neumotórax espontáneo primario', 'Un bleb apical que se rompe', C.BLUE);
+  const col = ease(seg(t, 5, 4));
+  draw('tn', TX.x, TX.y, TX.w, seg(t, 0, 0.6) * (1 - col)); draw('tp', TX.x, TX.y, TX.w, col);
+  const [bx, by] = T(800, 330), br = seg(t, 2, 0.4), rup = seg(t, 4.2, 0.3);
+  if (rup < 1) { ctx.globalAlpha = br * (1 - rup); ctx.fillStyle = 'rgba(255,255,255,0.8)'; ctx.strokeStyle = '#C08AA0'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(bx, by, 14 + 2 * Math.sin(t * 6), 0, 7); ctx.fill(); ctx.stroke(); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = fade(t, 2, 5.5); tag('Bleb en el vértice', bx + 80, by - 40, C.BLUE, 14); ctx.globalAlpha = 1;
+  if (rup > 0 && t < 10) for (let i = 0; i < 10; i++) { const u = ((t - 4.2) * 0.6 + i / 10) % 1; ctx.globalAlpha = (1 - u) * 0.8; ctx.fillStyle = '#BFE3FF'; ctx.beginPath(); ctx.arc(bx + u * 40 * Math.cos(i), by + u * 120, 4, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = seg(t, 6, 0.5); tag('Aire en la pleura: el pulmón colapsa', ...T(870, 900), C.BLUE, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.BLUE, 'El paciente típico', ['Hombre joven, alto, delgado y fumador', 'Dolor pleurítico súbito y disnea, en reposo'], seg(t, 1.5, 0.5), 17);
+  K.card(700, 330, 540, 150, C.AMBER, 'Examen', ['Murmullo pulmonar disminuido de ese lado', 'Primario: disnea leve, saturación normal'], seg(t, 9, 0.5), 17);
+  K.card(700, 500, 540, 120, C.GREEN, 'Grande o con síntomas', ['Aspiración o tubo con sello de agua'], seg(t, 13, 0.5), 17);
+}
+
+function o2epoc(t) {
+  K.title('EPOC retenedor: el oxígeno tiene techo', 'Saturación meta: 88 a 92 %', C.AMBER);
+  draw('alv', 300, 430, 420, seg(t, 0, 0.6));
+  const hi = ease(seg(t, 5, 3));
+  // vasoconstricción hipóxica: vasos que se cierran en los alvéolos mal ventilados → se abren con oxígeno alto
+  [[220, 470], [330, 540], [400, 460]].forEach(([x, y], i) => { const r = lerp(5, 13, hi); ctx.globalAlpha = seg(t, 1, 0.5); ctx.strokeStyle = '#B3122E'; ctx.lineWidth = r; ctx.beginPath(); ctx.moveTo(x - 50, y + 60); ctx.quadraticCurveTo(x, y + 30, x + 50, y + 60); ctx.stroke(); });
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 1.5, 6); tag('Vasoconstricción hipóxica: protege', 300, 640, C.GREEN, 14); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 6, 0.5); tag('Mucho oxígeno: los vasos se abren donde no ventila', 300, 640, C.RED, 14); ctx.globalAlpha = 1;
+  const sat = lerp(84, 99, hi), co2 = lerp(52, 78, ease(seg(t, 7, 6)));
+  cnt(t, 700, 150, 540, [['Saturación', sat, 100, '%', sat > 92 ? C.AMBER : C.GREEN, null, [[88, '88'], [92, '92']]], ['PaCO2', co2, 100, 'mmHg', co2 > 60 ? C.RED : C.AMBER]]);
+  K.card(700, 340, 540, 170, C.RED, 'Tres mecanismos', ['Se pierde la vasoconstricción hipóxica', 'Efecto Haldane: suelta el CO2', 'Menos estímulo hipóxico'], seg(t, 8, 0.5), 17);
+  K.banner(700, 540, 540, 'Venturi o cánula, no reservorio a 15 L', C.GREEN, seg(t, 14, 0.5));
+}
+
+function tbc(t) {
+  K.title('Tuberculosis: bacilo, granuloma y caverna', 'Del contagio al bacilífero', C.RED);
+  draw('pul', 300, 430, 470, seg(t, 0, 0.6));
+  const g = seg(t, 3, 2), cav = ease(seg(t, 9, 3));
+  const [x, y] = [230, 300];
+  for (let i = 0; i < 9; i++) { const u = seg(t, 1 + i * 0.12, 0.5); if (u <= 0) break; ctx.globalAlpha = u * (1 - g * 0.5); ctx.save(); ctx.translate(x + Math.cos(i) * 26 * u, y + Math.sin(i * 1.7) * 20 * u); ctx.rotate(i); ctx.fillStyle = C.RED; ctx.fillRect(-7, -2, 14, 4); ctx.restore(); }
+  ctx.globalAlpha = 1;
+  if (g > 0) { ctx.globalAlpha = g; ctx.fillStyle = '#E8D9B0'; ctx.beginPath(); ctx.arc(x, y, 38, 0, 7); ctx.fill(); ctx.strokeStyle = '#B08A50'; ctx.lineWidth = 6; ctx.stroke();
+    ctx.fillStyle = '#F7F0DC'; ctx.beginPath(); ctx.arc(x, y, 18, 0, 7); ctx.fill(); tag('Granuloma con necrosis caseosa', x, y - 70, '#E8D9B0', 14); ctx.globalAlpha = 1; }
+  if (cav > 0) { ctx.globalAlpha = cav; ctx.fillStyle = '#2A1A1E'; ctx.beginPath(); ctx.ellipse(x, y, 32 * cav, 26 * cav, 0, 0, 7); ctx.fill();
+    for (let i = 0; i < 8; i++) { const u = ((t * 0.5) + i / 8) % 1; ctx.globalAlpha = cav * (1 - u); ctx.save(); ctx.translate(x + 20, y - 40 - u * 140); ctx.rotate(i); ctx.fillStyle = C.RED; ctx.fillRect(-6, -2, 12, 4); ctx.restore(); }
+    ctx.globalAlpha = cav; tag('Caverna en el vértice: bacilífero', x, y + 70, C.RED, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 160, C.RED, 'Sospecha: tos de más de 2 semanas', ['Baciloscopía: 2 muestras', 'Una inmediata y otra matinal'], seg(t, 5, 0.5), 17);
+  K.card(700, 330, 540, 120, C.AMBER, 'Prueba molecular y cultivo', ['Detecta resistencia a rifampicina'], seg(t, 10, 0.5), 17);
+  K.banner(700, 480, 540, 'Tratamiento: el esquema del programa nacional', C.GREEN, seg(t, 15, 0.5));
+}
+
+function derrame(t) {
+  K.title('Derrame paraneumónico: tres fases', 'Mientras más espera, más tabiques', C.AMBER);
+  const ph = t < 7 ? 0 : t < 13 ? 1 : 2;
+  draw('tn', TX.x, TX.y, TX.w, seg(t, 0, 0.6));
+  // líquido en la base derecha del paciente (izquierda de la pantalla), con menisco
+  const lv = ease(seg(t, 1.5, 3)), colr = ph === 0 ? 'rgba(232,226,160,0.85)' : ph === 1 ? 'rgba(216,192,106,0.88)' : 'rgba(184,160,96,0.9)';
+  const top = lerp(1100, 820, lv);
+  ctx.save(); ctx.beginPath(); ctx.moveTo(...T(95, 560)); ctx.quadraticCurveTo(...T(60, 900), ...T(140, 1120)); ctx.lineTo(...T(470, 1110)); ctx.lineTo(...T(470, 560)); ctx.closePath(); ctx.clip();
+  ctx.fillStyle = colr; ctx.beginPath(); ctx.moveTo(...T(60, top - 70)); ctx.quadraticCurveTo(...T(260, top + 40), ...T(480, top + 30)); ctx.lineTo(...T(480, 1130)); ctx.lineTo(...T(60, 1130)); ctx.closePath(); ctx.fill();
+  if (ph >= 1) { ctx.strokeStyle = '#7A6A3A'; ctx.lineWidth = 3; ctx.globalAlpha = seg(t, 7, 1); for (let i = 0; i < 4; i++) { ctx.beginPath(); ctx.moveTo(...T(130 + i * 80, top + 10)); ctx.lineTo(...T(160 + i * 80, 1110)); ctx.stroke(); } }
+  if (ph >= 2) { ctx.globalAlpha = seg(t, 13, 1); ctx.strokeStyle = '#EDE4D0'; ctx.lineWidth = 9; ctx.beginPath(); ctx.moveTo(...T(80, top - 60)); ctx.quadraticCurveTo(...T(260, top + 40), ...T(470, top + 30)); ctx.stroke(); }
+  ctx.restore();
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Derrame', ...T(290, 1000), '#C9B070', 14); ctx.globalAlpha = 1;
+  const PH = [['1 · Exudativa', 'Estéril, claro, pH sobre 7,20', 'Antibiótico solo'], ['2 · Fibrinopurulenta', 'pH bajo 7,20, glucosa baja, tabiques', 'Drenaje con tubo, urgente'], ['3 · Organizada', 'Una cáscara atrapa el pulmón', 'Cirugía: decorticación']];
+  PH.forEach(([a, b, c], i) => { const al = seg(t, 1 + i * 6, 0.5); if (al <= 0) return; ctx.globalAlpha = al * (i === ph ? 1 : 0.45); rrect(700, 150 + i * 150, 540, 132, 14, '#161B22');
+    ctx.fillStyle = [C.GREEN, C.AMBER, C.RED][i]; ctx.fillRect(700, 150 + i * 150, 6, 132); text(a, 724, 188 + i * 150, 22, [C.GREEN, C.AMBER, C.RED][i], 'bold'); text(b, 724, 222 + i * 150, 17, C.INK); text(c, 724, 252 + i * 150, 17, C.MUTED); ctx.globalAlpha = 1; });
+}
+
+function cancer(t) {
+  K.title('Cáncer pulmonar: central o periférico', 'Se ordenan por dónde crecen', C.RED);
+  draw('pul', 300, 430, 470, seg(t, 0, 0.6));
+  const c1 = seg(t, 2, 1), c2 = seg(t, 7, 1), vc = seg(t, 12, 1);
+  const tum = (x, y, r, a) => { ctx.globalAlpha = a; ctx.fillStyle = '#EDE0C8'; ctx.beginPath(); for (let k = 0; k < 14; k++) { const q = k * 0.449, rr = r * (0.85 + 0.25 * rnd(k + x)); ctx.lineTo(x + Math.cos(q) * rr, y + Math.sin(q) * rr); } ctx.fill(); ctx.strokeStyle = '#8A6A4A'; ctx.lineWidth = 2; ctx.stroke(); ctx.globalAlpha = 1; };
+  if (c1 > 0) { tum(275, 340, 30 * c1, c1); ctx.globalAlpha = c1; tag('Central: junto al bronquio principal', 160, 300, C.RED, 14); ctx.globalAlpha = 1; }
+  if (c2 > 0) { tum(470, 520, 24 * c2, c2); ctx.globalAlpha = c2; tag('Periférico: adenocarcinoma', 470, 600, C.AMBER, 14); ctx.globalAlpha = 1; }
+  if (vc > 0) { ctx.globalAlpha = vc; ctx.strokeStyle = '#5A6FB0'; ctx.lineWidth = 16; ctx.beginPath(); ctx.moveTo(262, 150); ctx.lineTo(262, 300); ctx.stroke(); tum(282, 255, 30 * vc, vc);
+    ctx.globalAlpha = vc; tag('Comprime la vena cava superior', 150, 190, C.BLUE, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 150, C.AMBER, 'Adenocarcinoma: el más frecuente', ['40 a 50 %, periférico', 'Nace en los bronquios pequeños'], seg(t, 7.5, 0.5), 17);
+  K.card(700, 320, 540, 150, C.RED, 'Células pequeñas: 15 %', ['Central, disemina temprano', 'Enfermedad sistémica desde el inicio'], seg(t, 3, 0.5), 17);
+  K.card(700, 490, 540, 120, C.BLUE, 'Síndrome de vena cava superior', ['Edema de cara y brazos, venas del cuello'], seg(t, 12.5, 0.5), 17);
+}
+
+function fibrosis(t) {
+  K.title('Fibrosis pulmonar idiopática', 'Avanza desde la periferia de las bases', C.VIOLET);
+  draw('pul', 300, 430, 470, seg(t, 0, 0.6));
+  const k = ease(seg(t, 2, 9));
+  ctx.save(); ctx.beginPath(); ctx.rect(60, 150, 480, 520); ctx.clip();
+  for (let i = 0; i < 80; i++) { const side = i % 2, base = 0.55 + 0.45 * rnd(i), r = rnd(i + 7);
+    if (r * 0.9 > k * base) continue; const x = side ? 470 - rnd(i + 3) * 70 * (1 + k) : 120 + rnd(i + 3) * 70 * (1 + k), y = 600 - rnd(i + 5) * 260 * k;
+    ctx.strokeStyle = 'rgba(140,70,90,0.8)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(x, y, 7 + rnd(i) * 4, 0, 7); ctx.stroke(); }
+  ctx.restore();
+  ctx.globalAlpha = seg(t, 4, 0.5); tag('Panal de abejas: bases y bajo la pleura', 300, 640, C.VIOLET, 14); ctx.globalAlpha = 1;
+  cnt(t, 700, 150, 540, [['Capacidad vital forzada', lerp(95, 55, k), 120, '%', k > 0.5 ? C.RED : C.AMBER]]);
+  K.card(700, 280, 540, 160, C.VIOLET, 'Clínica', ['Hombre mayor de 60, fumador', 'Disnea progresiva, tos seca', 'Crépitos tipo velcro en las bases'], seg(t, 6, 0.5), 17);
+  K.banner(700, 470, 540, 'NIU definitivo en mayor de 60: no requiere biopsia', C.RED, seg(t, 12, 0.5));
+}
+
+function co(t) {
+  K.title('Monóxido de carbono: ocupa la hemoglobina', 'El saturómetro de dedo engaña', C.RED);
+  const cx = 300, cy = 420;
+  draw('rbc', cx, cy, 300, seg(t, 0, 0.6));
+  const k = ease(seg(t, 3, 5));
+  for (let i = 0; i < 4; i++) { const a = i * 1.57 + 0.6, x = cx + Math.cos(a) * 80, y = cy + Math.sin(a) * 60; const isCO = i < Math.round(k * 4) - (i === 3 ? 1 : 0);
+    ctx.fillStyle = isCO ? '#4A4A55' : C.RED; ctx.beginPath(); ctx.arc(x, y, 20, 0, 7); ctx.fill(); text(isCO ? 'CO' : 'O2', x, y + 6, 15, '#fff', 'bold', 'center'); }
+  ctx.globalAlpha = seg(t, 3.5, 0.5); tag('Afinidad 200 a 250 veces mayor que el oxígeno', cx, cy - 150, '#9A9AA5', 14); ctx.globalAlpha = 1;
+  const ox = seg(t, 9, 0.5);
+  if (ox > 0) { ctx.globalAlpha = ox; rrect(150, 560, 300, 90, 16, '#161B22'); text('Saturómetro', 172, 594, 18, C.MUTED, 'bold'); text('99 %', 420, 630, 40, C.GREEN, 'bold', 'right'); tag('Lee el CO como si fuera oxígeno', 300, 680, C.AMBER, 14); ctx.globalAlpha = 1; }
+  cnt(t, 700, 150, 540, [['Carboxihemoglobina', lerp(1, 30, k), 50, '%', k > 0.3 ? C.RED : C.GREEN]]);
+  K.card(700, 270, 540, 160, C.RED, 'Brasero o calefón en invierno', ['Cefalea, náuseas, mareo', 'Varios de la misma casa'], seg(t, 6, 0.5), 17);
+  K.card(700, 450, 540, 120, C.GREEN, 'Tratamiento', ['Oxígeno al 100 % con mascarilla de reservorio'], seg(t, 13, 0.5), 17);
+}
+
+function absceso(t) {
+  K.title('Absceso pulmonar', 'La aspiración que no se trató', C.AMBER);
+  draw('pul', 300, 430, 470, seg(t, 0, 0.6));
+  const [x, y] = [470, 380];
+  for (let i = 0; i < 8; i++) { const u = clamp((t - 1 - i * 0.25) / 2, 0, 1); if (u <= 0) continue; ctx.globalAlpha = 1 - seg(u, 0.9, 0.1); ctx.fillStyle = '#C9B070'; ctx.beginPath(); ctx.arc(lerp(330, x, u) + Math.sin(i) * 10, lerp(160, y, u), 5, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = fade(t, 1, 5); tag('Aspira flora oral', 330, 140, C.AMBER, 14); ctx.globalAlpha = 1;
+  const n = ease(seg(t, 4, 3)), lvl = seg(t, 8, 1);
+  if (n > 0) { ctx.fillStyle = '#3A2A1E'; ctx.beginPath(); ctx.arc(x, y, 34 * n, 0, 7); ctx.fill(); ctx.strokeStyle = '#B08A50'; ctx.lineWidth = 7; ctx.stroke();
+    ctx.save(); ctx.beginPath(); ctx.arc(x, y, 34 * n, 0, 7); ctx.clip(); ctx.fillStyle = '#C9B070'; ctx.fillRect(x - 40, y + 4 - 8 * lvl, 80, 50); ctx.restore();
+    if (lvl > 0) { ctx.globalAlpha = lvl; tag('Nivel hidroaéreo', x, y + 70, '#C9B070', 14); ctx.globalAlpha = 1; } }
+  K.card(700, 150, 540, 160, C.AMBER, 'Boca sucia + vía aérea mal protegida', ['Alcohol, epilepsia, sedantes', 'Evoluciona en semanas'], seg(t, 2, 0.5), 17);
+  K.card(700, 330, 540, 120, C.BLUE, 'Vómica: esputo abundante y fétido', ['Fiebre vespertina, sudoración nocturna'], seg(t, 8.5, 0.5), 17);
+  K.banner(700, 480, 540, 'Cura con antibióticos: no se drena de rutina', C.GREEN, seg(t, 13, 0.5));
+}
+
+function hemoptisis(t) {
+  K.title('Hemoptisis masiva: la sangre inunda la vía aérea', 'El problema es la asfixia, no la anemia', C.RED);
+  draw('bro', 300, 430, 470, seg(t, 0, 0.6));
+  const k = ease(seg(t, 2, 5));
+  // la sangre sube por el árbol bronquial derecho de la pantalla hacia la tráquea
+  const BR = [[470, 560], [430, 470], [385, 400], [345, 345], [312, 300], [300, 240], [300, 160]];
+  const n = k * (BR.length - 1); ctx.save(); ctx.strokeStyle = 'rgba(179,18,46,0.9)'; ctx.lineWidth = 12; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(...BR[0]);
+  for (let i = 1; i <= Math.floor(n); i++) ctx.lineTo(...BR[i]); const fr = n - Math.floor(n); if (Math.floor(n) < BR.length - 1) { const a = BR[Math.floor(n)], b = BR[Math.floor(n) + 1]; ctx.lineTo(lerp(a[0], b[0], fr), lerp(a[1], b[1], fr)); }
+  ctx.stroke(); ctx.restore();
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Sangra de las arterias bronquiales: 90 %', 470, 610, C.RED, 14); ctx.globalAlpha = 1;
+  const pos = seg(t, 8, 0.6); if (pos > 0) { ctx.globalAlpha = pos; tag('Decúbito con el lado que sangra abajo', 300, 660, C.BLUE, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 140, C.RED, 'Masiva', ['Más de 150 a 200 mL en una hora', 'o 500 a 600 mL en 24 horas'], seg(t, 3, 0.5), 17);
+  K.card(700, 310, 540, 160, C.BLUE, 'Primero', ['Decúbito con el lado que sangra abajo', 'Oxígeno; tubo grueso, 8 a 8,5 mm', 'para que pase el broncoscopio'], seg(t, 8.5, 0.5), 17);
+  K.banner(700, 500, 540, 'Luego broncoscopía o embolización', C.GREEN, seg(t, 14, 0.5));
+}
+
+// ---- gráficos ----
+function gina(t) {
+  K.title('Escalones GINA: corticoide inhalado desde el inicio', 'Revisar técnica y adherencia antes de subir', C.BLUE);
+  const S = [['1-2', 'Corticoide + formoterol en dosis baja, a demanda'], ['3', 'Dosis baja diaria y de rescate (MART)'], ['4', 'Dosis media + LABA, con MART'], ['5', 'Derivar: tiotropio o biológico']];
+  S.forEach(([n, d], i) => { const a = seg(t, 1 + i * 2.5, 0.6); if (a <= 0) return; const x = 110 + i * 270, h = 120 + i * 90, y = 630 - h;
+    ctx.globalAlpha = a; rrect(x, y + (1 - ease(a)) * 30, 250, h, 14, '#161B22'); ctx.fillStyle = C.BLUE; ctx.fillRect(x, y, 250, 6);
+    text(`Escalón ${n}`, x + 20, y + 40, 22, C.BLUE, 'bold'); const words = d.split(' '); let line = '', ly = y + 76; ctx.font = '17px Liberation Sans';
+    for (const w of words) { if (ctx.measureText(line + w).width > 210) { text(line, x + 20, ly, 17, C.INK); ly += 24; line = ''; } line += w + ' '; } text(line, x + 20, ly, 17, C.INK); ctx.globalAlpha = 1; });
+  K.banner(110, 655, 1060, 'Todo asmático lleva corticoide inhalado', C.BLUE, seg(t, 12, 0.5));
+}
+function curb(t) {
+  K.title('CURB-65: dónde se trata la neumonía', 'Cada criterio suma un punto', C.AMBER);
+  const it = ['C · Confusión', 'U · Urea sobre 42 (BUN sobre 19)', 'R · Frecuencia respiratoria 30 o más', 'B · PA sistólica bajo 90 o diastólica 60 o menos', '65 · Edad 65 o más'];
+  let n = 0;
+  it.forEach((s, i) => { const a = seg(t, 1 + i * 1.6, 0.5); if (a <= 0) return; if (i === 1 || i === 4) n += a; ctx.globalAlpha = a; rrect(110, 160 + i * 76, 640, 62, 12, '#161B22');
+    const has = i === 1 || i === 4; text(s, 134, 199 + i * 76, 19, has ? C.INK : C.MUTED, 'bold'); text(has ? '+1' : '0', 726, 199 + i * 76, 22, has ? C.AMBER : C.MUTED, 'bold', 'right'); ctx.globalAlpha = 1; });
+  text('Ejemplo: 70 años, urea 55, sin confusión, FR 22, PA 120/70', 110, 150, 17, C.MUTED);
+  ctx.globalAlpha = seg(t, 1, 0.5); rrect(800, 160, 440, 220, 18, '#161B22'); text('Puntaje', 824, 198, 21, C.INK, 'bold'); text(String(Math.round(n)), 1020, 300, 90, Math.round(n) >= 2 ? C.AMBER : C.GREEN, 'bold', 'center'); ctx.globalAlpha = 1;
+  K.card(800, 400, 440, 220, C.AMBER, 'Conducta', ['0 a 1: ambulatorio', '2: hospitalizar en sala', '3 o más: grave, evaluar intensivo'], seg(t, 10, 0.5), 18);
+}
+function nodulo(t) {
+  K.title('Nódulo pulmonar: tamaño y bordes', 'Se sigue según el riesgo del paciente', C.BLUE);
+  const S = [[6, 'Bajo 6 mm', 'Bajo riesgo: sin control', C.GREEN], [8, '6 a 8 mm', 'Control con TC', C.AMBER], [12, 'Más de 8 mm', 'TC, PET o biopsia', C.RED]];
+  S.forEach(([mm, a, b, col], i) => { const al = seg(t, 1 + i * 3, 0.6); if (al <= 0) return; const x = 220 + i * 300, y = 380, r = mm * 5 * ease(al);
+    ctx.globalAlpha = al; ctx.fillStyle = '#E8D0B0'; ctx.beginPath(); if (i === 2) { for (let k = 0; k < 24; k++) { const q = k * 0.2618, rr = r * (k % 2 ? 0.8 : 1.15); ctx.lineTo(x + Math.cos(q) * rr, y + Math.sin(q) * rr); } } else ctx.arc(x, y, r, 0, 7); ctx.fill();
+    text(a, x, 500, 22, col, 'bold', 'center'); text(b, x, 532, 17, C.INK, '', 'center'); ctx.globalAlpha = 1; });
+  K.card(110, 580, 560, 90, C.GREEN, 'Benigno', ['Bordes lisos, calcificación central o en capas'], seg(t, 11, 0.5), 17);
+  K.card(690, 580, 560, 90, C.RED, 'Sospechoso', ['Bordes espiculados, crece en el control'], seg(t, 13, 0.5), 17);
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  ({ o2epoc, tbc, derrame, neumotorax, cancer, fibrosis, co, absceso, hemoptisis, gina, curb, nodulo })[V](t);
+  if (['gina', 'curb', 'nodulo'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+LOAD({ tn: '../assets/servier/torax_normal.png', tp: '../assets/servier/torax_neumotorax.png', pul: '../assets/servier/pulmones.png', bro: '../assets/servier/bronquios.png',
+  alv: '../assets/servier/alveolos.png', rbc: '../assets/servier/hematie.png' });
+</script>
+</body></html>

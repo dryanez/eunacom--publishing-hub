@@ -192,6 +192,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Escalones o pendiente',
+      images: [
+        { src: 'animaciones/neuro-15/A1_escalones_pendiente.mp4', label: 'Demencias', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Vascular en escalones',
+          say: 'El Alzheimer cae en pendiente, lento y progresivo. La demencia vascular cae en escalones: un golpe con cada infarto, y luego una meseta.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Otras demencias',
       images: [

@@ -225,6 +225,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tiempo y espacio',
+      images: [
+        { src: 'animaciones/neuro-18/A1_tiempo_espacio.mp4', label: 'Esclerosis múltiple', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Lesiones en distintas zonas y en distintos momentos',
+          say: 'En la esclerosis múltiple el sistema inmune ataca la mielina del sistema nervioso central. El diagnóstico exige diseminación en espacio, lesiones en varias zonas típicas, y en tiempo, lesiones de distinta edad o bandas oligoclonales en el líquido.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Esclerosis múltiple',

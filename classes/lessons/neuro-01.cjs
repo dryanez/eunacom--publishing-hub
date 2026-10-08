@@ -286,13 +286,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'Tiempo es cerebro',
+      title: 'Núcleo y penumbra',
       images: [
-        { src: 'animaciones/neuro-01/A1_penumbra.mp4', label: 'Núcleo y penumbra', credit: 'Animación propia' },
+        { src: 'animaciones/neuro-01/A1_penumbra_real.mp4', label: 'Penumbra', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'La penumbra se pierde',
-          say: 'Alrededor del núcleo muerto hay una penumbra que todavía se puede salvar. Con cada minuto, el núcleo crece y se come la penumbra. Por eso la trombólisis tiene ventana de cuatro horas y media.' },
+        { note: 'Tiempo es cerebro',
+          say: 'En el centro del infarto, el núcleo, el flujo cae bajo diez y las neuronas mueren en minutos. Alrededor queda la penumbra, con flujo entre diez y veinte: neuronas silentes pero vivas. Si no se reabre la arteria, el núcleo crece a costa de la penumbra. La trombólisis y la trombectomía buscan rescatarla.' },
       ],
     },
 

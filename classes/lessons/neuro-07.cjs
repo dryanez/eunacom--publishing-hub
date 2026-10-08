@@ -181,6 +181,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Un cortocircuito',
+      images: [
+        { src: 'animaciones/neuro-07/A1_trigemino_compresion.mp4', label: 'Neuralgia del trigémino', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Zona gatillo y carbamazepina',
+          say: 'Un asa arterial, casi siempre la cerebelosa superior, comprime la raíz del trigémino y la desmieliniza. Un roce inocente salta a las fibras del dolor: es un cortocircuito. Por eso hay zonas gatillo, y la primera línea es la carbamazepina.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Horner en la cefalea en racimos',
       images: [

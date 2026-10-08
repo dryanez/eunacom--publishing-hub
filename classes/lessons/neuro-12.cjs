@@ -141,6 +141,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Bloqueo D2',
+      images: [
+        { src: 'animaciones/neuro-12/A1_bloqueo_d2.mp4', label: 'Parkinsonismo por fármacos', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Bilateral y simétrico',
+          say: 'La metoclopramida y los antipsicóticos bloquean los receptores D dos del estriado, en los dos lados a la vez. Por eso el parkinsonismo es bilateral y simétrico desde el inicio, y se revierte al suspender el fármaco.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: frente a un parkinsonismo, cómo decides si es Parkinson, un fármaco u otra cosa.',
     },

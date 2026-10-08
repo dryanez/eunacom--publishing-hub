@@ -205,6 +205,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los puntos se suman',
+      images: [
+        { src: 'animaciones/neuro-02/A1_abcd2.mp4', label: 'ABCD dos', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cuatro o más: hospitalizar',
+          say: 'El ABCD dos suma la edad, la presión, la clínica, la duración y la diabetes. Con cuatro o más puntos se hospitaliza; con cero a tres, se estudia en forma ambulatoria pero en menos de cuarenta y ocho horas.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Estenosis carotídea',
       images: [

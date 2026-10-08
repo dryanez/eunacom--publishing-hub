@@ -261,6 +261,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El hematoma crece',
+      images: [
+        { src: 'animaciones/neuro-03/A1_hematoma_linea_media.mp4', label: 'Hemorragia intracerebral', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Desplaza la línea media',
+          say: 'La hemorragia hipertensiva cae en el putamen, el tálamo, el puente o el cerebelo, y el hematoma sigue creciendo las primeras tres a seis horas, hasta desplazar la línea media. Por eso se baja la presión y se revierten los anticoagulantes cuanto antes.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Hemorragia intraparenquimatosa',
       images: [

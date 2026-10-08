@@ -222,6 +222,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Aura y dolor',
+      images: [
+        { src: 'animaciones/neuro-06/A1_aura_cgrp.mp4', label: 'Migraña', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Depresión cortical y CGRP',
+          say: 'El aura es una onda de despolarización que avanza lento desde el lóbulo occipital. El dolor viene del trigémino, que libera CGRP e inflama las meninges. Los triptanes contraen el vaso y frenan el CGRP.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'El aura de la migraña',
